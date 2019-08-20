@@ -10,94 +10,94 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerVoucherType_CN, HcmWorkerLookUp, LedgerParameters, LedgerPrintLayoutGroup_CN
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 799e125f1d33951dab92900a3ee1d34d05475437
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a0db1f2bcdc26639f762fa70b6c3e5b752170029
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552437"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852587"
 ---
-# <a name="set-up-chinese-vouchers"></a><span data-ttu-id="cd518-103">设置中国式凭证</span><span class="sxs-lookup"><span data-stu-id="cd518-103">Set up Chinese vouchers</span></span>
+# <a name="set-up-chinese-vouchers"></a><span data-ttu-id="6b4fc-103">设置中国式凭证</span><span class="sxs-lookup"><span data-stu-id="6b4fc-103">Set up Chinese vouchers</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="cd518-104">此过程逐步演示如何使用特定演示数据设置中国式凭证。</span><span class="sxs-lookup"><span data-stu-id="cd518-104">This procedure walks you through setting up Chinese vouchers with specific demo data.</span></span>
-<span data-ttu-id="cd518-105">中国式凭证编号是中国式财务报表的基础。</span><span class="sxs-lookup"><span data-stu-id="cd518-105">Chinese voucher numbers are the foundation for Chinese financial reporting.</span></span> <span data-ttu-id="cd518-106">必须先设置此类编号，才能执行任何财务交易过帐。</span><span class="sxs-lookup"><span data-stu-id="cd518-106">You must set them up before you do any financial transaction posting.</span></span> <span data-ttu-id="cd518-107">只能按照此过程的演示一次一个设置凭证，也可以使用凭证类型设置向导设置。</span><span class="sxs-lookup"><span data-stu-id="cd518-107">You can set up the vouchers one at a time as this procedure demonstrates or you can use the Voucher type setup wizard to set them up.</span></span>
-<span data-ttu-id="cd518-108">本流程是用演示公司 CNMF 数据生成的。</span><span class="sxs-lookup"><span data-stu-id="cd518-108">This procedure was created using the demo data company CNMF.</span></span> <span data-ttu-id="cd518-109">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="cd518-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="6b4fc-104">此过程逐步演示如何使用特定演示数据设置中国式凭证。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-104">This procedure walks you through setting up Chinese vouchers with specific demo data.</span></span>
+<span data-ttu-id="6b4fc-105">中国式凭证编号是中国式财务报表的基础。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-105">Chinese voucher numbers are the foundation for Chinese financial reporting.</span></span> <span data-ttu-id="6b4fc-106">必须先设置此类编号，才能执行任何财务交易过帐。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-106">You must set them up before you do any financial transaction posting.</span></span> <span data-ttu-id="6b4fc-107">只能按照此过程的演示一次一个设置凭证，也可以使用凭证类型设置向导设置。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-107">You can set up the vouchers one at a time as this procedure demonstrates or you can use the Voucher type setup wizard to set them up.</span></span>
+<span data-ttu-id="6b4fc-108">本流程是用演示公司 CNMF 数据生成的。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-108">This procedure was created using the demo data company CNMF.</span></span> <span data-ttu-id="6b4fc-109">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="set-up-chinese-voucher-type"></a><span data-ttu-id="cd518-110">设置中国式凭证类型</span><span class="sxs-lookup"><span data-stu-id="cd518-110">Set up Chinese Voucher Type</span></span>
-1. <span data-ttu-id="cd518-111">转到“总帐”>“日记帐设置”>“中国式凭证类型”>“凭证类型”。</span><span class="sxs-lookup"><span data-stu-id="cd518-111">Go to General ledger > Journal setup > Chinese voucher type > Voucher type.</span></span>
-2. <span data-ttu-id="cd518-112">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="cd518-112">Click New.</span></span>
-3. <span data-ttu-id="cd518-113">在“凭证类型”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="cd518-113">In the Voucher type field, type a value.</span></span>
-4. <span data-ttu-id="cd518-114">在“凭证类型编号”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="cd518-114">In the Voucher type number field, type a value.</span></span>
-    * <span data-ttu-id="cd518-115">此值用作 GB/T24589 导出文件中的类型 ID。</span><span class="sxs-lookup"><span data-stu-id="cd518-115">This value is used as the Type ID in the GB/T24589 export file.</span></span>  
-5. <span data-ttu-id="cd518-116">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="cd518-116">In the Description field, type a value.</span></span>
-6. <span data-ttu-id="cd518-117">在“优先”字段，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="cd518-117">In the Priority field, enter a number.</span></span>
-    * <span data-ttu-id="cd518-118">对于从原始凭证生成的财务凭证（如过帐销售发票），如果根据凭证类型规则有多个凭证类型匹配，将分配第一优先级凭证类型。</span><span class="sxs-lookup"><span data-stu-id="cd518-118">For financial vouchers that are generated from source documents, such as posting sales invoices, if more than one voucher type is matched according the voucher type rule, the first priority voucher type will be assigned.</span></span>  <span data-ttu-id="cd518-119">也可以将某个凭证类型设置为“缺省”，用作缺省凭证类型。</span><span class="sxs-lookup"><span data-stu-id="cd518-119">You also can set a voucher type as Default, which will be used as the default voucher type.</span></span>  
-7. <span data-ttu-id="cd518-120">在数序码字段，输入或选一哥值。</span><span class="sxs-lookup"><span data-stu-id="cd518-120">In the Number sequence code field, enter or select a value.</span></span>
-8. <span data-ttu-id="cd518-121">在“打印布局组”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="cd518-121">In the Print layout group field, enter or select a value.</span></span>
-9. <span data-ttu-id="cd518-122">输入负责创建这种类型的配置的人员的姓名。</span><span class="sxs-lookup"><span data-stu-id="cd518-122">Enter the name of the person who is responsible for making this type of voucher.</span></span>
-    * <span data-ttu-id="cd518-123">此名称将在 GB/T24589 导出文件中使用。</span><span class="sxs-lookup"><span data-stu-id="cd518-123">This name will be used in the GB/T24589 export file.</span></span> <span data-ttu-id="cd518-124">此人应该不是审核此凭证类型的人。</span><span class="sxs-lookup"><span data-stu-id="cd518-124">This should be a different person than the person who can approve this type of voucher.</span></span>  
-10. <span data-ttu-id="cd518-125">输入可审核这种类型的凭证的人员的姓名。</span><span class="sxs-lookup"><span data-stu-id="cd518-125">Enter the name of the person who can approve this type of voucher.</span></span>
-    * <span data-ttu-id="cd518-126">此名称将在 GB/T24589 导出文件中使用。</span><span class="sxs-lookup"><span data-stu-id="cd518-126">This name will be used in the GB/T24589 export file.</span></span> <span data-ttu-id="cd518-127">此人应该不是创建此凭证类型的人。</span><span class="sxs-lookup"><span data-stu-id="cd518-127">This should be a different person than the person who can create this type of voucher.</span></span>  
-11. <span data-ttu-id="cd518-128">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cd518-128">Click Add.</span></span>
-    * <span data-ttu-id="cd518-129">凭证类型规则定义凭证的条件。</span><span class="sxs-lookup"><span data-stu-id="cd518-129">Voucher type rules define the criteria for vouchers.</span></span> <span data-ttu-id="cd518-130">只能将凭证中满足这些条件的交易分配给此凭证类型和过帐这些交易。</span><span class="sxs-lookup"><span data-stu-id="cd518-130">Only transactions in a voucher that meet these criteria can be assigned to this voucher type and can be posted.</span></span> <span data-ttu-id="cd518-131">在此示例中，只有此现金类型凭证中的借贷双方中才允许银行帐户和现金帐户。</span><span class="sxs-lookup"><span data-stu-id="cd518-131">In this example, only bank accounts and cash accounts are allowed in debit and credit sides for this Cash type voucher.</span></span>  
-12. <span data-ttu-id="cd518-132">在“限制”字段中，选择“借方只有”。</span><span class="sxs-lookup"><span data-stu-id="cd518-132">In the Restriction field, select 'All debits must include (one of the selected accounts)'.</span></span>
-13. <span data-ttu-id="cd518-133">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cd518-133">Click Add.</span></span>
-14. <span data-ttu-id="cd518-134">在“主科目”字段中，指定值“100101”。</span><span class="sxs-lookup"><span data-stu-id="cd518-134">In the Main account field, specify the values '100101'.</span></span>
-15. <span data-ttu-id="cd518-135">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cd518-135">Click Add.</span></span>
-16. <span data-ttu-id="cd518-136">在“主科目”字段中，指定值“100102”。</span><span class="sxs-lookup"><span data-stu-id="cd518-136">In the Main account field, specify the values '100102'.</span></span>
-17. <span data-ttu-id="cd518-137">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cd518-137">Click Add.</span></span>
-18. <span data-ttu-id="cd518-138">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="cd518-138">In the list, mark the selected row.</span></span>
-19. <span data-ttu-id="cd518-139">在“主科目”字段中，指定值“100103”。</span><span class="sxs-lookup"><span data-stu-id="cd518-139">In the Main account field, specify the values '100103'.</span></span>
-20. <span data-ttu-id="cd518-140">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cd518-140">Click Add.</span></span>
-21. <span data-ttu-id="cd518-141">在“帐户类型”字段中，选择“银行”。</span><span class="sxs-lookup"><span data-stu-id="cd518-141">In the Account type field, select 'Bank'.</span></span>
-22. <span data-ttu-id="cd518-142">在“主科目”字段中，指定值“CNYBANK”。</span><span class="sxs-lookup"><span data-stu-id="cd518-142">In the Main account field, specify the values 'CNYBANK'.</span></span>
-23. <span data-ttu-id="cd518-143">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cd518-143">Click Add.</span></span>
-24. <span data-ttu-id="cd518-144">在“帐户类型”字段中，选择“银行”。</span><span class="sxs-lookup"><span data-stu-id="cd518-144">In the Account type field, select 'Bank'.</span></span>
-25. <span data-ttu-id="cd518-145">在“主科目”字段中，指定值“USDBANK”。</span><span class="sxs-lookup"><span data-stu-id="cd518-145">In the Main account field, specify the values 'USDBANK'.</span></span>
-26. <span data-ttu-id="cd518-146">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cd518-146">Click Add.</span></span>
-27. <span data-ttu-id="cd518-147">在“帐户类型”字段中，选择“银行”。</span><span class="sxs-lookup"><span data-stu-id="cd518-147">In the Account type field, select 'Bank'.</span></span>
-28. <span data-ttu-id="cd518-148">在“主科目”字段中，指定值“HKDBANK”。</span><span class="sxs-lookup"><span data-stu-id="cd518-148">In the Main account field, specify the values 'HKDBANK'.</span></span>
-29. <span data-ttu-id="cd518-149">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cd518-149">Click Add.</span></span>
-30. <span data-ttu-id="cd518-150">在“限制”字段中，选择“贷方只有”。</span><span class="sxs-lookup"><span data-stu-id="cd518-150">In the Restriction field, select 'All credits must include (one of the selected accounts)'.</span></span>
-31. <span data-ttu-id="cd518-151">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cd518-151">Click Add.</span></span>
-32. <span data-ttu-id="cd518-152">在“主科目”字段中，指定值“100101”。</span><span class="sxs-lookup"><span data-stu-id="cd518-152">In the Main account field, specify the values '100101'.</span></span>
-33. <span data-ttu-id="cd518-153">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cd518-153">Click Add.</span></span>
-34. <span data-ttu-id="cd518-154">在“主科目”字段中，指定值“100102”。</span><span class="sxs-lookup"><span data-stu-id="cd518-154">In the Main account field, specify the values '100102'.</span></span>
-35. <span data-ttu-id="cd518-155">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cd518-155">Click Add.</span></span>
-36. <span data-ttu-id="cd518-156">在“主科目”字段中，指定值“100103”。</span><span class="sxs-lookup"><span data-stu-id="cd518-156">In the Main account field, specify the values '100103'.</span></span>
-37. <span data-ttu-id="cd518-157">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cd518-157">Click Add.</span></span>
-38. <span data-ttu-id="cd518-158">在“帐户类型”字段中，选择“银行”。</span><span class="sxs-lookup"><span data-stu-id="cd518-158">In the Account type field, select 'Bank'.</span></span>
-39. <span data-ttu-id="cd518-159">在“主科目”字段中，指定值“CNYBANK”。</span><span class="sxs-lookup"><span data-stu-id="cd518-159">In the Main account field, specify the values 'CNYBANK'.</span></span>
-40. <span data-ttu-id="cd518-160">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cd518-160">Click Add.</span></span>
-41. <span data-ttu-id="cd518-161">在“帐户类型”字段中，选择“银行”。</span><span class="sxs-lookup"><span data-stu-id="cd518-161">In the Account type field, select 'Bank'.</span></span>
-42. <span data-ttu-id="cd518-162">在“主科目”字段中，指定值“USDBANK”。</span><span class="sxs-lookup"><span data-stu-id="cd518-162">In the Main account field, specify the values 'USDBANK'.</span></span>
-43. <span data-ttu-id="cd518-163">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cd518-163">Click Add.</span></span>
-44. <span data-ttu-id="cd518-164">在“帐户类型”字段中，选择“银行”。</span><span class="sxs-lookup"><span data-stu-id="cd518-164">In the Account type field, select 'Bank'.</span></span>
-45. <span data-ttu-id="cd518-165">在“主科目”字段中，指定值“HKDBANK”。</span><span class="sxs-lookup"><span data-stu-id="cd518-165">In the Main account field, specify the values 'HKDBANK'.</span></span>
-46. <span data-ttu-id="cd518-166">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="cd518-166">Click Save.</span></span>
+## <a name="set-up-chinese-voucher-type"></a><span data-ttu-id="6b4fc-110">设置中国式凭证类型</span><span class="sxs-lookup"><span data-stu-id="6b4fc-110">Set up Chinese Voucher Type</span></span>
+1. <span data-ttu-id="6b4fc-111">转到“总帐”>“日记帐设置”>“中国式凭证类型”>“凭证类型”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-111">Go to General ledger > Journal setup > Chinese voucher type > Voucher type.</span></span>
+2. <span data-ttu-id="6b4fc-112">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-112">Click New.</span></span>
+3. <span data-ttu-id="6b4fc-113">在“凭证类型”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-113">In the Voucher type field, type a value.</span></span>
+4. <span data-ttu-id="6b4fc-114">在“凭证类型编号”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-114">In the Voucher type number field, type a value.</span></span>
+    * <span data-ttu-id="6b4fc-115">此值用作 GB/T24589 导出文件中的类型 ID。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-115">This value is used as the Type ID in the GB/T24589 export file.</span></span>  
+5. <span data-ttu-id="6b4fc-116">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-116">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="6b4fc-117">在“优先”字段，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-117">In the Priority field, enter a number.</span></span>
+    * <span data-ttu-id="6b4fc-118">对于从原始凭证生成的财务凭证（如过帐销售发票），如果根据凭证类型规则有多个凭证类型匹配，将分配第一优先级凭证类型。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-118">For financial vouchers that are generated from source documents, such as posting sales invoices, if more than one voucher type is matched according the voucher type rule, the first priority voucher type will be assigned.</span></span>  <span data-ttu-id="6b4fc-119">也可以将某个凭证类型设置为“缺省”，用作缺省凭证类型。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-119">You also can set a voucher type as Default, which will be used as the default voucher type.</span></span>  
+7. <span data-ttu-id="6b4fc-120">在数序码字段，输入或选一哥值。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-120">In the Number sequence code field, enter or select a value.</span></span>
+8. <span data-ttu-id="6b4fc-121">在“打印布局组”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-121">In the Print layout group field, enter or select a value.</span></span>
+9. <span data-ttu-id="6b4fc-122">输入负责创建这种类型的配置的人员的姓名。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-122">Enter the name of the person who is responsible for making this type of voucher.</span></span>
+    * <span data-ttu-id="6b4fc-123">此名称将在 GB/T24589 导出文件中使用。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-123">This name will be used in the GB/T24589 export file.</span></span> <span data-ttu-id="6b4fc-124">此人应该不是审核此凭证类型的人。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-124">This should be a different person than the person who can approve this type of voucher.</span></span>  
+10. <span data-ttu-id="6b4fc-125">输入可审核这种类型的凭证的人员的姓名。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-125">Enter the name of the person who can approve this type of voucher.</span></span>
+    * <span data-ttu-id="6b4fc-126">此名称将在 GB/T24589 导出文件中使用。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-126">This name will be used in the GB/T24589 export file.</span></span> <span data-ttu-id="6b4fc-127">此人应该不是创建此凭证类型的人。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-127">This should be a different person than the person who can create this type of voucher.</span></span>  
+11. <span data-ttu-id="6b4fc-128">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-128">Click Add.</span></span>
+    * <span data-ttu-id="6b4fc-129">凭证类型规则定义凭证的条件。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-129">Voucher type rules define the criteria for vouchers.</span></span> <span data-ttu-id="6b4fc-130">只能将凭证中满足这些条件的交易分配给此凭证类型和过帐这些交易。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-130">Only transactions in a voucher that meet these criteria can be assigned to this voucher type and can be posted.</span></span> <span data-ttu-id="6b4fc-131">在此示例中，只有此现金类型凭证中的借贷双方中才允许银行帐户和现金帐户。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-131">In this example, only bank accounts and cash accounts are allowed in debit and credit sides for this Cash type voucher.</span></span>  
+12. <span data-ttu-id="6b4fc-132">在“限制”字段中，选择“借方只有”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-132">In the Restriction field, select 'All debits must include (one of the selected accounts)'.</span></span>
+13. <span data-ttu-id="6b4fc-133">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-133">Click Add.</span></span>
+14. <span data-ttu-id="6b4fc-134">在“主科目”字段中，指定值“100101”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-134">In the Main account field, specify the values '100101'.</span></span>
+15. <span data-ttu-id="6b4fc-135">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-135">Click Add.</span></span>
+16. <span data-ttu-id="6b4fc-136">在“主科目”字段中，指定值“100102”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-136">In the Main account field, specify the values '100102'.</span></span>
+17. <span data-ttu-id="6b4fc-137">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-137">Click Add.</span></span>
+18. <span data-ttu-id="6b4fc-138">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-138">In the list, mark the selected row.</span></span>
+19. <span data-ttu-id="6b4fc-139">在“主科目”字段中，指定值“100103”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-139">In the Main account field, specify the values '100103'.</span></span>
+20. <span data-ttu-id="6b4fc-140">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-140">Click Add.</span></span>
+21. <span data-ttu-id="6b4fc-141">在“帐户类型”字段中，选择“银行”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-141">In the Account type field, select 'Bank'.</span></span>
+22. <span data-ttu-id="6b4fc-142">在“主科目”字段中，指定值“CNYBANK”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-142">In the Main account field, specify the values 'CNYBANK'.</span></span>
+23. <span data-ttu-id="6b4fc-143">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-143">Click Add.</span></span>
+24. <span data-ttu-id="6b4fc-144">在“帐户类型”字段中，选择“银行”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-144">In the Account type field, select 'Bank'.</span></span>
+25. <span data-ttu-id="6b4fc-145">在“主科目”字段中，指定值“USDBANK”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-145">In the Main account field, specify the values 'USDBANK'.</span></span>
+26. <span data-ttu-id="6b4fc-146">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-146">Click Add.</span></span>
+27. <span data-ttu-id="6b4fc-147">在“帐户类型”字段中，选择“银行”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-147">In the Account type field, select 'Bank'.</span></span>
+28. <span data-ttu-id="6b4fc-148">在“主科目”字段中，指定值“HKDBANK”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-148">In the Main account field, specify the values 'HKDBANK'.</span></span>
+29. <span data-ttu-id="6b4fc-149">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-149">Click Add.</span></span>
+30. <span data-ttu-id="6b4fc-150">在“限制”字段中，选择“贷方只有”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-150">In the Restriction field, select 'All credits must include (one of the selected accounts)'.</span></span>
+31. <span data-ttu-id="6b4fc-151">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-151">Click Add.</span></span>
+32. <span data-ttu-id="6b4fc-152">在“主科目”字段中，指定值“100101”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-152">In the Main account field, specify the values '100101'.</span></span>
+33. <span data-ttu-id="6b4fc-153">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-153">Click Add.</span></span>
+34. <span data-ttu-id="6b4fc-154">在“主科目”字段中，指定值“100102”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-154">In the Main account field, specify the values '100102'.</span></span>
+35. <span data-ttu-id="6b4fc-155">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-155">Click Add.</span></span>
+36. <span data-ttu-id="6b4fc-156">在“主科目”字段中，指定值“100103”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-156">In the Main account field, specify the values '100103'.</span></span>
+37. <span data-ttu-id="6b4fc-157">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-157">Click Add.</span></span>
+38. <span data-ttu-id="6b4fc-158">在“帐户类型”字段中，选择“银行”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-158">In the Account type field, select 'Bank'.</span></span>
+39. <span data-ttu-id="6b4fc-159">在“主科目”字段中，指定值“CNYBANK”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-159">In the Main account field, specify the values 'CNYBANK'.</span></span>
+40. <span data-ttu-id="6b4fc-160">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-160">Click Add.</span></span>
+41. <span data-ttu-id="6b4fc-161">在“帐户类型”字段中，选择“银行”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-161">In the Account type field, select 'Bank'.</span></span>
+42. <span data-ttu-id="6b4fc-162">在“主科目”字段中，指定值“USDBANK”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-162">In the Main account field, specify the values 'USDBANK'.</span></span>
+43. <span data-ttu-id="6b4fc-163">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-163">Click Add.</span></span>
+44. <span data-ttu-id="6b4fc-164">在“帐户类型”字段中，选择“银行”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-164">In the Account type field, select 'Bank'.</span></span>
+45. <span data-ttu-id="6b4fc-165">在“主科目”字段中，指定值“HKDBANK”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-165">In the Main account field, specify the values 'HKDBANK'.</span></span>
+46. <span data-ttu-id="6b4fc-166">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-166">Click Save.</span></span>
 
-## <a name="setup-additional-parameters"></a><span data-ttu-id="cd518-167">设置更多参数</span><span class="sxs-lookup"><span data-stu-id="cd518-167">Setup additional parameters</span></span>
-1. <span data-ttu-id="cd518-168">转到总分类记账>分类记账设置 >总分类记账参数。</span><span class="sxs-lookup"><span data-stu-id="cd518-168">Go to General ledger > Ledger setup > General ledger parameters.</span></span>
-    * <span data-ttu-id="cd518-169">在"总帐参数"页面中，必须首先启用中国式凭证，然后选择允许会计年度中包含重复凭证。</span><span class="sxs-lookup"><span data-stu-id="cd518-169">In the General ledger parameter page, you must first enable Chinese Voucher, then select to allow Duplicate vouchers in fiscal year.</span></span> <span data-ttu-id="cd518-170">需要为每个会计期间从 1 开始为中国式凭证编号。</span><span class="sxs-lookup"><span data-stu-id="cd518-170">Chinse vouchers need to be renumbered from 1 for each fiscal period.</span></span>  
-2. <span data-ttu-id="cd518-171">然后在“有效凭证检验”字段中选择选项。</span><span class="sxs-lookup"><span data-stu-id="cd518-171">In the Check for voucher used field, select an option.</span></span>
+## <a name="setup-additional-parameters"></a><span data-ttu-id="6b4fc-167">设置更多参数</span><span class="sxs-lookup"><span data-stu-id="6b4fc-167">Setup additional parameters</span></span>
+1. <span data-ttu-id="6b4fc-168">转到总分类记账>分类记账设置 >总分类记账参数。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-168">Go to General ledger > Ledger setup > General ledger parameters.</span></span>
+    * <span data-ttu-id="6b4fc-169">在"总帐参数"页面中，必须首先启用中国式凭证，然后选择允许会计年度中包含重复凭证。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-169">In the General ledger parameter page, you must first enable Chinese Voucher, then select to allow Duplicate vouchers in fiscal year.</span></span> <span data-ttu-id="6b4fc-170">需要为每个会计期间从 1 开始为中国式凭证编号。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-170">Chinse vouchers need to be renumbered from 1 for each fiscal period.</span></span>  
+2. <span data-ttu-id="6b4fc-171">然后在“有效凭证检验”字段中选择选项。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-171">In the Check for voucher used field, select an option.</span></span>
 
-## <a name="set-up-the-print-layout"></a><span data-ttu-id="cd518-172">设置打印布局</span><span class="sxs-lookup"><span data-stu-id="cd518-172">Set up the print layout</span></span>
-1. <span data-ttu-id="cd518-173">转到“总帐”>“日记帐设置”>“中国式凭证类型”>“打印布局”。</span><span class="sxs-lookup"><span data-stu-id="cd518-173">Go to General ledger > Journal setup > Chinese voucher type > Print layout.</span></span>
-2. <span data-ttu-id="cd518-174">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="cd518-174">Click New.</span></span>
-3. <span data-ttu-id="cd518-175">在“打印布局组”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="cd518-175">In the Print layout group field, type a value.</span></span>
-4. <span data-ttu-id="cd518-176">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="cd518-176">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="cd518-177">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cd518-177">Click Add.</span></span>
-6. <span data-ttu-id="cd518-178">在“打印布局代码”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="cd518-178">In the Print layout code field, select an option.</span></span>
-7. <span data-ttu-id="cd518-179">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cd518-179">Click Add.</span></span>
-8. <span data-ttu-id="cd518-180">在“打印布局代码”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="cd518-180">In the Print layout code field, select an option.</span></span>
-9. <span data-ttu-id="cd518-181">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="cd518-181">Click Save.</span></span>
+## <a name="set-up-the-print-layout"></a><span data-ttu-id="6b4fc-172">设置打印布局</span><span class="sxs-lookup"><span data-stu-id="6b4fc-172">Set up the print layout</span></span>
+1. <span data-ttu-id="6b4fc-173">转到“总帐”>“日记帐设置”>“中国式凭证类型”>“打印布局”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-173">Go to General ledger > Journal setup > Chinese voucher type > Print layout.</span></span>
+2. <span data-ttu-id="6b4fc-174">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-174">Click New.</span></span>
+3. <span data-ttu-id="6b4fc-175">在“打印布局组”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-175">In the Print layout group field, type a value.</span></span>
+4. <span data-ttu-id="6b4fc-176">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-176">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="6b4fc-177">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-177">Click Add.</span></span>
+6. <span data-ttu-id="6b4fc-178">在“打印布局代码”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-178">In the Print layout code field, select an option.</span></span>
+7. <span data-ttu-id="6b4fc-179">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-179">Click Add.</span></span>
+8. <span data-ttu-id="6b4fc-180">在“打印布局代码”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-180">In the Print layout code field, select an option.</span></span>
+9. <span data-ttu-id="6b4fc-181">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="6b4fc-181">Click Save.</span></span>
 

@@ -10,36 +10,36 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAccrualTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ce96ccfb0dc3e4a723af967147dae93772c5b44f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e0ae55000a5cf1593d057d940dc3dbbf9e5cb3f3
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553123"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834871"
 ---
-# <a name="create-accrual-schemes"></a><span data-ttu-id="5866f-103">创建应计方案</span><span class="sxs-lookup"><span data-stu-id="5866f-103">Create accrual schemes</span></span>
+# <a name="create-accrual-schemes"></a><span data-ttu-id="86b1b-103">创建应计方案</span><span class="sxs-lookup"><span data-stu-id="86b1b-103">Create accrual schemes</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="5866f-104">此任务指南介绍创建应计架构的步骤。</span><span class="sxs-lookup"><span data-stu-id="5866f-104">This task guide steps through creating an accrual scheme.</span></span> <span data-ttu-id="5866f-105">本任务使用 USMF 公司进行演示。</span><span class="sxs-lookup"><span data-stu-id="5866f-105">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="86b1b-104">此任务指南介绍创建应计架构的步骤。</span><span class="sxs-lookup"><span data-stu-id="86b1b-104">This task guide steps through creating an accrual scheme.</span></span> <span data-ttu-id="86b1b-105">本任务使用 USMF 公司进行演示。</span><span class="sxs-lookup"><span data-stu-id="86b1b-105">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="5866f-106">转到“总帐”>“日记帐设置”>“应计架构”。</span><span class="sxs-lookup"><span data-stu-id="5866f-106">Go to General ledger > Journal setup > Accrual schemes.</span></span>
-2. <span data-ttu-id="5866f-107">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="5866f-107">Click New.</span></span>
-3. <span data-ttu-id="5866f-108">在“应计标识”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="5866f-108">In the Accrual identification field, type a value.</span></span>
-4. <span data-ttu-id="5866f-109">在“应计架构的描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="5866f-109">In the Description of accrual scheme field, type a value.</span></span>
-5. <span data-ttu-id="5866f-110">在“借方”字段中，指定所需值。</span><span class="sxs-lookup"><span data-stu-id="5866f-110">In the Debit field, specify the desired values.</span></span>
-    * <span data-ttu-id="5866f-111">定义的主科目将替换日记帐凭证行的借方主科目，并且还用于根据分类帐的应计交易冲销延期交易。</span><span class="sxs-lookup"><span data-stu-id="5866f-111">The main account defined will replace the debit main account on the journal voucher line and it will also be used for the reversal of the deferral based on the ledger accrual transactions.</span></span>  
-6. <span data-ttu-id="5866f-112">在“贷方”字段中，指定所需值。</span><span class="sxs-lookup"><span data-stu-id="5866f-112">In the Credit field, specify the desired values.</span></span>
-    * <span data-ttu-id="5866f-113">定义的主科目将替换日记帐凭证行的贷方主科目，并且还用于根据分类帐的应计交易冲销延期交易。</span><span class="sxs-lookup"><span data-stu-id="5866f-113">The main account defined will replace the credit main account on the journal voucher line and it will also be used for the reversal of the deferral based on the ledger accrual transactions.</span></span>  
-7. <span data-ttu-id="5866f-114">在“凭证”字段中，选择您想要在过帐交易记录时确定的凭证。</span><span class="sxs-lookup"><span data-stu-id="5866f-114">In the Voucher field, select how you want the voucher determined when the transactions are posted.</span></span>
-8. <span data-ttu-id="5866f-115">在“描述”字段中，输入一个值来描述要过帐的交易记录。</span><span class="sxs-lookup"><span data-stu-id="5866f-115">In the Description field, type a value to describe the transactions that will be posted.</span></span>
-9. <span data-ttu-id="5866f-116">在“期间频率”字段中，选择交易记录的产生频率。</span><span class="sxs-lookup"><span data-stu-id="5866f-116">In the Period frequency field, select how often the transactions should occur.</span></span>
-10. <span data-ttu-id="5866f-117">在“发生次数(按期间)”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="5866f-117">In the Number of occurrences by period field, enter a number.</span></span>
-11. <span data-ttu-id="5866f-118">在“过帐交易记录”字段中，选择交易记录过帐的时间，如每月。</span><span class="sxs-lookup"><span data-stu-id="5866f-118">In the Post transactions field, select when the transactions should be posted, such as Monthly.</span></span>
+1. <span data-ttu-id="86b1b-106">转到“总帐”>“日记帐设置”>“应计架构”。</span><span class="sxs-lookup"><span data-stu-id="86b1b-106">Go to General ledger > Journal setup > Accrual schemes.</span></span>
+2. <span data-ttu-id="86b1b-107">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="86b1b-107">Click New.</span></span>
+3. <span data-ttu-id="86b1b-108">在“应计标识”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="86b1b-108">In the Accrual identification field, type a value.</span></span>
+4. <span data-ttu-id="86b1b-109">在“应计架构的描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="86b1b-109">In the Description of accrual scheme field, type a value.</span></span>
+5. <span data-ttu-id="86b1b-110">在“借方”字段中，指定所需值。</span><span class="sxs-lookup"><span data-stu-id="86b1b-110">In the Debit field, specify the desired values.</span></span>
+    * <span data-ttu-id="86b1b-111">定义的主科目将替换日记帐凭证行的借方主科目，并且还用于根据分类帐的应计交易冲销延期交易。</span><span class="sxs-lookup"><span data-stu-id="86b1b-111">The main account defined will replace the debit main account on the journal voucher line and it will also be used for the reversal of the deferral based on the ledger accrual transactions.</span></span>  
+6. <span data-ttu-id="86b1b-112">在“贷方”字段中，指定所需值。</span><span class="sxs-lookup"><span data-stu-id="86b1b-112">In the Credit field, specify the desired values.</span></span>
+    * <span data-ttu-id="86b1b-113">定义的主科目将替换日记帐凭证行的贷方主科目，并且还用于根据分类帐的应计交易冲销延期交易。</span><span class="sxs-lookup"><span data-stu-id="86b1b-113">The main account defined will replace the credit main account on the journal voucher line and it will also be used for the reversal of the deferral based on the ledger accrual transactions.</span></span>  
+7. <span data-ttu-id="86b1b-114">在“凭证”字段中，选择您想要在过帐交易记录时确定的凭证。</span><span class="sxs-lookup"><span data-stu-id="86b1b-114">In the Voucher field, select how you want the voucher determined when the transactions are posted.</span></span>
+8. <span data-ttu-id="86b1b-115">在“描述”字段中，输入一个值来描述要过帐的交易记录。</span><span class="sxs-lookup"><span data-stu-id="86b1b-115">In the Description field, type a value to describe the transactions that will be posted.</span></span>
+9. <span data-ttu-id="86b1b-116">在“期间频率”字段中，选择交易记录的产生频率。</span><span class="sxs-lookup"><span data-stu-id="86b1b-116">In the Period frequency field, select how often the transactions should occur.</span></span>
+10. <span data-ttu-id="86b1b-117">在“发生次数(按期间)”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="86b1b-117">In the Number of occurrences by period field, enter a number.</span></span>
+11. <span data-ttu-id="86b1b-118">在“过帐交易记录”字段中，选择交易记录过帐的时间，如每月。</span><span class="sxs-lookup"><span data-stu-id="86b1b-118">In the Post transactions field, select when the transactions should be posted, such as Monthly.</span></span>
 
