@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5a730ae945af15c7bd4020c734bac971d8186e2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dc65393f74c6daa008e072cbe3745235fbfd896b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553407"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743302"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>为服务订单创建物料需求 
 
@@ -44,7 +44,7 @@ ms.locfileid: "1553407"
 
 3.  在**操作窗格**中的**发货**选项卡上单击**物料需求**。
 
-4.  在**物料需求**窗体中输入所需物料的信息。 有关特定字段的更多信息，请参阅[物料需求（窗体）](https://technet.microsoft.com/en-us/library/aa552021\(v=ax.60\))。
+4.  在**物料需求**窗体中输入所需物料的信息。 有关特定字段的更多信息，请参阅[物料需求（窗体）](https://technet.microsoft.com/library/aa552021\(v=ax.60\))。
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>为服务协议创建物料需求
 

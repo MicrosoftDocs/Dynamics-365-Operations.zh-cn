@@ -3,7 +3,7 @@ title: 预测缩减参数
 description: 本主题提供显示如何设置缩减参数的示例。 它包含有关各种缩减参数设置以及每个结果的信息。 可以使用缩减参数以定义如何缩减预测需求。
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 02/28/2019
+ms.date: 07/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b915570145a48db7a182b9fce34e1544e3600107
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5efa5b2c7a4c45bbf6e940170000b391384fe7ff
+ms.sourcegitcommit: add48ece3864645a89a28327c4add607714befb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1504071"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "1736296"
 ---
 # <a name="method-used-to-reduce-forecast-requirements"></a>用于减少预测需求的方法
 
@@ -138,14 +138,14 @@ ms.locfileid: "1504071"
 | 日期       | 需求预测 |
 |------------|-----------------|
 | 1 月 1 日  | 1,000           |
-| 2 月 1 日 | 500             |
+| 2 月 1 日 | 1,000             |
 
 还将创建以下销售订单。
 
 | 日期        | 销售订单数量 |
 |-------------|----------------------|
-| 1 月 15 日  | 500                  |
-| 2 月 15 日 | 100                  |
+| 1 月 15 日  | 200                  |
+| 2 月 15 日 | 400                  |
 
 在此案例中，将创建以下计划订单。
 

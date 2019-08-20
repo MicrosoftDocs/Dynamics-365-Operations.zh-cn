@@ -1,72 +1,70 @@
 ---
 title: 使用移动作业设备配置工作人员
-description: 该过程向您显示如何给工作人员的用户帐户分配正确的角色，并使工作人员执行车间登记。
+description: 本主题介绍如何给工人的用户帐户分配正确的角色，并使工人执行车间登记。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bb4d806810660e55ef13a9ff21c07e0ce194496
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a6e45ea8fdbe30436badd88d4972fda970755275
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571350"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835759"
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a>使用移动作业设备配置工作人员
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-该过程向您显示如何给工作人员的用户帐户分配正确的角色，并使工作人员执行车间登记。
+本主题介绍如何给工人的用户帐户分配正确的角色，并使工人执行车间登记。
 
+## <a name="verify-that-a-worker-is-assigned-a-certain-role"></a>验证是否为工人分配了特定角色。
 
-## <a name="assign-roles-to-user-account"></a>将角色分配给用户帐户
-1. 转到“系统管理”>“用户”>“用户”。
-2. 使用“快速筛选器”以筛选用户帐户与机器操作员角色关联的工作人员姓名。 在示例数据中，名称应为“Shannon”。
-3. 突出显示用户帐户记录。
-4. 在此列表中，单击在所选行的“名称”链接以查看用户帐户的详细信息。
-5. 在树形图中，请选择“角色\机器操作员”。
-6. 关闭用户帐户详细信息页。
-7. 关闭该页面。
+对于此示例，配置工人帐户之前，验证是否为用户“SHANNON”分配了机器操作员角色。
 
-## <a name="configure-worker-account"></a>配置工作人员帐户。
-1. 转到“人力资源”>“工作人员”>“工作人员”。
-2. 使用“快速筛选器”以筛选用户帐户与机器操作员角色关联的工作人员姓名。 在示例数据中，名称应为“Shannon”。
-3. 突出显示用户帐户记录。
-4. 在此列表中，单击在所选行的“名称”链接以查看用户帐户的详细信息。
-5. 单击“雇用”选项卡。
-6. 展开“时间登记”快速选项卡并单击“激活登记终端”。
-7. 单击“激活登记终端”。
-8. 在“计算组”字段中，输入或选择一个值。
-9. 在“默认计算组”字段中，输入或选择一个值。
-10. 在“批准组”字段中，输入或选择一个值。
-11. 在“标准模板”字段中，输入或选择一个值。
-12. 在“模板组”字段中，输入或选择一个值。
-13. 单击“确定”。
-14. 单击“编辑”为新时期登记的工作人员输入一个标记编号。
-15. 在“标记 ID”字段中，键入一个值。
-16. 单击“保存”。
-17. 使用“保存记录”快捷方式。
-18. 关闭工作人员详细信息页
-19. 关闭该页面。
+1. 转到**导航窗格 > 模块 > 系统管理 > 用户 > 用户**。
+2. 在快速筛选器中搜索用户。 在这个例子中，输入 `shannon`。
+3. 在显示的用户帐户的**用户 ID** 列中选择链接。
+4. 在**用户的角色**树中，选择**角色 > 机器操作员**。
+5. 关闭**用户详细信息**和**用户**页回到主页。
 
-## <a name="assign-worker-to-device-group"></a>将工作人员分配到设备组。
-1. 转到“生产控制”>“设置”>“制造执行”>“为设备配置作业卡”。
-2. 单击“添加”。
-3. 在列表中，标记所选的行。
-4. 单击“确定”。
-5. 单击“编辑”。
-6. 在“生产单位”字段，您可以设置工作人员的默认筛选器。 这将确保在工作人员登录到设备时，只显示所选生产单位的生产作业。
+## <a name="configure-worker-account"></a>配置工人帐户
+1. 转到**导航窗格 > 模块 > 人力资源 > 工人 > 工人**。
+2. 在快速筛选器中搜索用户。 在这个例子中，输入 `shannon`。
+3. 在显示的用户帐户的**名称**列中选择链接。
+4. 选择**时间登记**选项卡。
+5. 选择**在登记终端上启用**。
+6. 在下列字段中输入或选择值：  
+
+    - **计算组**  
+    - **默认计算组**  
+    - **审核组**  
+    - **标准模板**  
+    - **模板组**  
+
+7. 选择**确定**。
+8. 选择**编辑**为新时期登记的工人输入一个标记编号。 在**标记 ID** 字段中，输入一个值。
+9. 选择**保存**。
+10. 关闭**工人详细信息**和**工人**页。
+
+## <a name="assign-worker-to-device-group"></a>将工人分配到设备组
+1. 转到**生产控制 > 设置 > 制造执行 > 为设备配置作业卡**。
+2. 选择**添加**。
+3. 在列表中，选择所需的工人。 在这个例子中，选择 **SHANNON**。
+4. 选择**确定**。
+5. 选择**编辑**。
+6. 在**生产单位**字段，您可以设置工人的默认筛选器。 这将确保在工作人员登录到设备时，只显示所选生产单位的生产作业。 输入所需值。
 7. 关闭该页面。
 

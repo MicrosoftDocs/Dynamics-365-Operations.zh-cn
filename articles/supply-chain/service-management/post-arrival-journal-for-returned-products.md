@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 75f37ce016acb4b479a9cf4dff205562ce00f02c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 63659288ab8551e458f6e92a5045c72441ff68cc
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545305"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743271"
 ---
 # <a name="post-arrival-journal-for-returned-products"></a>过帐退回物料的到达日志 
 
@@ -53,7 +53,7 @@ ms.locfileid: "1545305"
 
 ## <a name="see-also"></a>请参阅
 
-[库位日志（窗体）](https://technet.microsoft.com/en-us/library/aa584822\(v=ax.60\))
+[库位日志（窗体）](https://technet.microsoft.com/library/aa584822\(v=ax.60\))
 
   
 

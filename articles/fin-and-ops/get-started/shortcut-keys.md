@@ -3,7 +3,7 @@ title: 键盘快捷方式
 description: 以下键盘快捷方式在整个 Dynamics 365 for Finance and Operations 中都适用。
 author: jasongre
 manager: AnnBe
-ms.date: 12/12/2017
+ms.date: 07/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
+ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561825"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1780050"
 ---
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
@@ -138,9 +138,13 @@ ms.locfileid: "1561825"
 | 将行范围添加到所选集<blockquote>[!NOTE] 此快捷方式仅适用于多选方案。</blockquote>         | Shift+单击                     |
 | 转到数据的下一/上一页                                                                                   | Page up / Page down             |
 | 在网格底部创建新行                                                                             | 向下箭头（从最后一行）  |
-| 选中或清除所有行                                                                                               | Ctrl+Shift+M                    |
 | 移至第一个记录                                                                                               | Ctrl+Home                       |
 | 移至最后一条记录                                                                                                | Ctrl+End                        |
+| 选中或清除所有行                                                                                               | Ctrl+Shift+M                    |
+| 移至第一个标记行                                                                                           | Alt+Shift+M，F                    |
+| 移至下一个标记行                                                                                            | Alt+Shift+M，L                    |
+| 移至上一个标记行                                                                                        | Alt+Shift+M，P                    |
+| 移至最后一个标记行                                                                                           | Alt+Shift+M，N                    |
 | 在网格中执行默认操作<blockquote>[!NOTE] 当焦点放在含有超链接的单元格上且该列中的所有单元格都具有超链接时，启用此快捷方式。</blockquote> | Enter                           |
 | 在所选行和标题行之间切换焦点                                                               | Alt+Shift+H                     |
 | 放大/缩小当前列（焦点放在标题行中）                                                  | 右箭头/左箭头        |

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBOMComparison_CN
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 268584
 ms.assetid: e399ab34-4bfa-4b6d-a956-d425c1395ea3
@@ -18,12 +18,12 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0a7e7c7860883d6e7886ef08995b7605237e0066
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a7ce4279f8fb693b3fc3428262712ed53a79f10
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558261"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850734"
 ---
 # <a name="bill-of-materials-comparison-for-china"></a>中国的物料清单比较
 

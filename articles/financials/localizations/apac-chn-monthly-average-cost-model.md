@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 265044
 ms.assetid: 1f7abefa-8f87-4aa7-8eca-51974f91068d
@@ -18,12 +18,12 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 309fab261dc3d43e46ee627b39c9285cb93cef27
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 62ab63df753f2e30cdae1f33503dce3fb83e7d84
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561581"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850731"
 ---
 # <a name="monthly-average-cost-model-for-china"></a>中国的每月平均成本模型
 

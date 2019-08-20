@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: IT Pro, Developer, Application user
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f6af87582fff31d22437c54e999da5fd8c56ccc0
-ms.sourcegitcommit: a1354c6218b328d4d7dcc149d1339a7af10c48bf
+ms.openlocfilehash: 2f3743e0381c07a25ee7671bc27b626576ea0a72
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "1723133"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850583"
 ---
 # <a name="support-for-dynamics-365-for-finance-and-operations-operated-by-21vianet-in-china"></a>对中国世纪互联运营的 Dynamics 365 for Finance and Operations 的支持
 
@@ -84,7 +84,7 @@ Finance and Operations 的售前支持提供有关预订功能与权益、套餐
 ## <a name="additional-resources"></a>其他资源
 - [世纪互联的 Dynamics 365 支持站点（中文）](https://www.21vbluecloud.com/Dynamics365/)
 - [世纪互联在中国运营的 Dynamics 365 for Finance and Operations](../deployment/china-local-deployment.md)
-- [世纪互联在中国运营的 Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/admin/datacenter/about-china-cloud)
+- [世纪互联在中国运营的 Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/admin/datacenter/21vianet-support)
 - [Dynamics 365 Privacy statement (Dynamics 365 隐私声明)](https://www.21vbluecloud.com/Dynamics365/d365-privacy/)
 - [Dynamics 365 Service Level agreement (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/Dynamics365/d365-sla/)
 - [Dynamics 365 Legal information (Dynamics 365 法律信息)](https://www.21vbluecloud.com/Dynamics365/dynamics365-legal/)

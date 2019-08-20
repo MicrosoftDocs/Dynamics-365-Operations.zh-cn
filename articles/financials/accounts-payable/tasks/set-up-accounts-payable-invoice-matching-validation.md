@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d501dc6580c699c9b11db5b762d9e4e5fb17df5c
-ms.sourcegitcommit: 890734e916efec5a926b03c9729a6eaf32b310fd
+ms.openlocfilehash: b048c49de7357ec1b5cbf36dd4f22a5d3efd443b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "1703798"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836980"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>设置应付账款发票匹配验证
 

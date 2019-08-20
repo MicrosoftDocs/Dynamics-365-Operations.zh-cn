@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3d570aceee6b449c39b30defaebc4983b54f283e
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554384"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741127"
 ---
 # <a name="my-team-mobile-workspace"></a>我的团队移动工作区
 
@@ -57,7 +57,7 @@ ms.locfileid: "1554384"
 </ul>
 </td>
 <td>系统管理员</td>
-<td>如果您的组织中没有部署 Finance and Operations，请参阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。 如果您已经在您的组织中部署人才，系统管理员可以从<a href="https://www.microsoft.com/en-us/dynamics365/talent">人才网页</a>访问试用版本。
+<td>如果您的组织中没有部署 Finance and Operations，请参阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。 如果组织中尚未部署 Talent，系统管理员可从 <a href="https://www.microsoft.com/dynamics365/talent">Talent 网页</a>访问试用版。
 </td>
 </tr>
 <tr class="even">

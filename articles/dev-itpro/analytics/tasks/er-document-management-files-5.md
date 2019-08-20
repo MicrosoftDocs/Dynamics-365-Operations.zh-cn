@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 23e91b6aee62157da9141cc7b6c4fae39c19ce32
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ba9cc4dcdfcfbc1bdb933336e85da9b4b6d97a40
+ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544671"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "1791848"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format"></a>ER 在格式输出中使用票据管理文件（第 5 部分：修改和运行格式）
 
@@ -29,7 +29,7 @@ ms.locfileid: "1544671"
 
 以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便在 ER 输出中使用票据管理文件（附件）。 这些步骤可以在 DEMF 公司执行。
 
-若要完成这些步骤，必须首先完成“ER 在格式输出中使用票据管理文件（第 4 部分）：运行格式”过程中的步骤。
+若要完成这些步骤，必须首先完成“ER 在格式输出中使用票据管理文件（第 4 部分：运行格式）”过程中的步骤。
 
 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 

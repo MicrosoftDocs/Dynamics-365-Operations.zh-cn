@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 23004930d2377a3d647435b53b6809cd500f44ac
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551475"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741347"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>设计 ER 配置以分析传入单据
 
@@ -30,7 +30,7 @@ ms.locfileid: "1551475"
 
 此过程是为向其分配了系统管理员角色或电子申报开发人员角色的用户创建的。 
 
-可使用任何数据集完成这些步骤。 首先，请下载并保存“分析传入的文档以更新申请表数据”主题中列举的文件 (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents)。 文件为：EFSTA model.xml、EFSTA format.xml、Response1.xml、Response2.xml、Response3.xml、Response4.xml。
+可使用任何数据集完成这些步骤。 首先，请下载并保存“分析传入的文档以更新申请表数据”主题中列举的文件 (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents)。 文件为：EFSTA model.xml、EFSTA format.xml、Response1.xml、Response2.xml、Response3.xml、Response4.xml。
 
 1. 转到“组织管理”>“工作区”>“电子申报”。
     * 确保示例公司 Litware 公司的配置提供程序可用且标记为“有效”。 如果没有看到此配置提供程序，请首先完成“创建配置提供程序并标记为有效”这一过程中的步骤。  

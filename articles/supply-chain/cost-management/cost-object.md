@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 275855f2fb4d32df91449d7ebb9ad9ba2bd3f36b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6501e8d809d12df421ad081662d23a6b5005f39c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558541"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742128"
 ---
 # <a name="cost-objects"></a>成本对象
 
@@ -70,11 +70,11 @@ ms.locfileid: "1558541"
 <a name="additional-resources"></a>其他资源
 --------
 
-[产品维度组](https://technet.microsoft.com/en-us/library/aa499382.aspx)
+[产品维度组](https://technet.microsoft.com/library/aa499382.aspx)
 
-[存储维度组](https://technet.microsoft.com/en-us/library/hh209317.aspx)
+[存储维度组](https://technet.microsoft.com/library/hh209317.aspx)
 
-[跟踪维度组](https://technet.microsoft.com/en-us/library/hh209465.aspx)
+[跟踪维度组](https://technet.microsoft.com/library/hh209465.aspx)
 
 [新增功能或更改的功能](../../fin-and-ops/get-started/whats-new-changed.md)
 

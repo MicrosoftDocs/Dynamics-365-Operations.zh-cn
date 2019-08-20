@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e42383b237a60d41d3b4e09ffbbe1c1bb5ebbfd7
-ms.sourcegitcommit: 33e98f89294086334fe9c0a350abb6a52ef9dacb
+ms.openlocfilehash: 58ad2a5571138f1a82b021af63cdae9d567b92d8
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1711193"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835571"
 ---
 # <a name="create-a-new-trade-agreement"></a>创建新的贸易协议
 
