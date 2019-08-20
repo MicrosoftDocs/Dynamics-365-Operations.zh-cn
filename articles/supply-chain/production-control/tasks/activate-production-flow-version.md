@@ -10,34 +10,34 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 909ed89cfd498f69ed99cd9642bbd9fab698dbb7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7e1811915d2e88379884f409a533b9eb2deaa97e
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568343"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843977"
 ---
-# <a name="activate-a-production-flow-version"></a><span data-ttu-id="2dde0-103">启用生产流版本</span><span class="sxs-lookup"><span data-stu-id="2dde0-103">Activate a production flow version</span></span>
+# <a name="activate-a-production-flow-version"></a><span data-ttu-id="fd2ee-103">启用生产流版本</span><span class="sxs-lookup"><span data-stu-id="fd2ee-103">Activate a production flow version</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="2dde0-104">应先启用生产流版本，才能为该版本创建看板作业和处理活动。</span><span class="sxs-lookup"><span data-stu-id="2dde0-104">Before kanban jobs can be created and activities can be processed for a production flow version, you should activate the version.</span></span> <span data-ttu-id="2dde0-105">最佳实践是，在版本的生效开始日期和时间到期前启用此版本。</span><span class="sxs-lookup"><span data-stu-id="2dde0-105">As a best practice, activate the version before its effective start date and time expire.</span></span> <span data-ttu-id="2dde0-106">要完成这项任务，您必须有状态为“草稿”的生产流版本以启用该版本。</span><span class="sxs-lookup"><span data-stu-id="2dde0-106">To complete this task, you must have a production flow version that has the Draft status in order to activate the version.</span></span> 
+<span data-ttu-id="fd2ee-104">应先启用生产流版本，才能为该版本创建看板作业和处理活动。</span><span class="sxs-lookup"><span data-stu-id="fd2ee-104">Before kanban jobs can be created and activities can be processed for a production flow version, you should activate the version.</span></span> <span data-ttu-id="fd2ee-105">最佳实践是，在版本的生效开始日期和时间到期前启用此版本。</span><span class="sxs-lookup"><span data-stu-id="fd2ee-105">As a best practice, activate the version before its effective start date and time expire.</span></span> <span data-ttu-id="fd2ee-106">要完成这项任务，您必须有状态为“草稿”的生产流版本以启用该版本。</span><span class="sxs-lookup"><span data-stu-id="fd2ee-106">To complete this task, you must have a production flow version that has the Draft status in order to activate the version.</span></span> 
 
 
-## <a name="find-and-activate-a-production-flow-version"></a><span data-ttu-id="2dde0-107">找到并启用生产流版本</span><span class="sxs-lookup"><span data-stu-id="2dde0-107">Find and activate a production flow version</span></span>
-1. <span data-ttu-id="2dde0-108">转到“生产流”。</span><span class="sxs-lookup"><span data-stu-id="2dde0-108">Go to Production flows.</span></span>
-2. <span data-ttu-id="2dde0-109">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="2dde0-109">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="2dde0-110">选择“计划状态”字段中为“草稿”的生产流版本。</span><span class="sxs-lookup"><span data-stu-id="2dde0-110">Select a production flow version that has Draft in the Plan status field.</span></span>  
-3. <span data-ttu-id="2dde0-111">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="2dde0-111">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="2dde0-112">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="2dde0-112">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="2dde0-113">选择“计划状态”字段中为“草稿”的生产流版本。</span><span class="sxs-lookup"><span data-stu-id="2dde0-113">Select a production flow version that has Draft in the Plan status field.</span></span>  
-5. <span data-ttu-id="2dde0-114">单击“启用”。</span><span class="sxs-lookup"><span data-stu-id="2dde0-114">Click Activate.</span></span>
-6. <span data-ttu-id="2dde0-115">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="2dde0-115">Click OK.</span></span>
+## <a name="find-and-activate-a-production-flow-version"></a><span data-ttu-id="fd2ee-107">找到并启用生产流版本</span><span class="sxs-lookup"><span data-stu-id="fd2ee-107">Find and activate a production flow version</span></span>
+1. <span data-ttu-id="fd2ee-108">转到“生产流”。</span><span class="sxs-lookup"><span data-stu-id="fd2ee-108">Go to Production flows.</span></span>
+2. <span data-ttu-id="fd2ee-109">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="fd2ee-109">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="fd2ee-110">选择“计划状态”字段中为“草稿”的生产流版本。</span><span class="sxs-lookup"><span data-stu-id="fd2ee-110">Select a production flow version that has Draft in the Plan status field.</span></span>  
+3. <span data-ttu-id="fd2ee-111">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="fd2ee-111">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="fd2ee-112">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="fd2ee-112">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="fd2ee-113">选择“计划状态”字段中为“草稿”的生产流版本。</span><span class="sxs-lookup"><span data-stu-id="fd2ee-113">Select a production flow version that has Draft in the Plan status field.</span></span>  
+5. <span data-ttu-id="fd2ee-114">单击“启用”。</span><span class="sxs-lookup"><span data-stu-id="fd2ee-114">Click Activate.</span></span>
+6. <span data-ttu-id="fd2ee-115">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="fd2ee-115">Click OK.</span></span>
 

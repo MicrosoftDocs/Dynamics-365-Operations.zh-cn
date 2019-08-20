@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 12314
 ms.assetid: 3b77d6f3-fd07-41a7-9ddb-1b22d1ae33fc
@@ -18,95 +18,95 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd500c2880545ccae3cde7e2ead2fc5b83167d32
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: 842eecf68f5a658be6cdc7a05c365a18fe7d91dc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595354"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846091"
 ---
-# <a name="trial-balance-financial-reports"></a><span data-ttu-id="b8532-104">试算平衡表财务报表</span><span class="sxs-lookup"><span data-stu-id="b8532-104">Trial balance financial reports</span></span>
+# <a name="trial-balance-financial-reports"></a><span data-ttu-id="2473f-104">试算平衡表财务报表</span><span class="sxs-lookup"><span data-stu-id="2473f-104">Trial balance financial reports</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b8532-105">本文介绍试算平衡表的默认报表。</span><span class="sxs-lookup"><span data-stu-id="b8532-105">This article describes the default reports for trial balances.</span></span> <span data-ttu-id="b8532-106">它还介绍这些报表的关联构建块，以及如何修改这些报表以符合您的业务需求。</span><span class="sxs-lookup"><span data-stu-id="b8532-106">It also describes the building blocks that are associated with these reports and how you can modify the reports to fit your business requirements.</span></span> 
+<span data-ttu-id="2473f-105">本文介绍试算平衡表的默认报表。</span><span class="sxs-lookup"><span data-stu-id="2473f-105">This article describes the default reports for trial balances.</span></span> <span data-ttu-id="2473f-106">它还介绍这些报表的关联构建块，以及如何修改这些报表以符合您的业务需求。</span><span class="sxs-lookup"><span data-stu-id="2473f-106">It also describes the building blocks that are associated with these reports and how you can modify the reports to fit your business requirements.</span></span> 
 
-<a name="default-trial-balance-reports"></a><span data-ttu-id="b8532-107">默认试算平衡表</span><span class="sxs-lookup"><span data-stu-id="b8532-107">Default trial balance reports</span></span>
+<a name="default-trial-balance-reports"></a><span data-ttu-id="2473f-107">默认试算平衡表</span><span class="sxs-lookup"><span data-stu-id="2473f-107">Default trial balance reports</span></span>
 -----------------------------
 
-<span data-ttu-id="b8532-108">三个试算平衡表可用于 Microsoft Dynamics 365 for Finance and Operations 的财务报表。</span><span class="sxs-lookup"><span data-stu-id="b8532-108">Three trial balance reports are available in Financial reporting in Microsoft Dynamics 365 for Finance and Operations.</span></span>
+<span data-ttu-id="2473f-108">三个试算平衡表可用于 Microsoft Dynamics 365 for Finance and Operations 的财务报表。</span><span class="sxs-lookup"><span data-stu-id="2473f-108">Three trial balance reports are available in Financial reporting in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
-| <span data-ttu-id="b8532-109">默认报表</span><span class="sxs-lookup"><span data-stu-id="b8532-109">Default report</span></span>                                 | <span data-ttu-id="b8532-110">作用</span><span class="sxs-lookup"><span data-stu-id="b8532-110">What it does</span></span>                                                                                                                                                                                        |
+| <span data-ttu-id="2473f-109">默认报表</span><span class="sxs-lookup"><span data-stu-id="2473f-109">Default report</span></span>                                 | <span data-ttu-id="2473f-110">作用</span><span class="sxs-lookup"><span data-stu-id="2473f-110">What it does</span></span>                                                                                                                                                                                        |
 |------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="b8532-111">试算平衡表(明细) - 默认</span><span class="sxs-lookup"><span data-stu-id="b8532-111">Detailed Trial Balance - Default</span></span>               | <span data-ttu-id="b8532-112">提供所有帐户的余额信息，包括借方和贷方余额，以及这些余额的净值，还有交易记录日期、凭证和日记帐描述。</span><span class="sxs-lookup"><span data-stu-id="b8532-112">Provides balance information for all accounts, and includes debit and credit balances, and the net of these, together with the transaction date, voucher, and journal description.</span></span>                  |
-| <span data-ttu-id="b8532-113">试算平衡表汇总 – 默认</span><span class="sxs-lookup"><span data-stu-id="b8532-113">Summary Trial Balance – Default</span></span>                | <span data-ttu-id="b8532-114">提供所有帐户的余额信息，包括期初和期末余额，以及借方和贷方余额还有其净差额。</span><span class="sxs-lookup"><span data-stu-id="b8532-114">Provides balance information for all accounts, and includes opening and closing balances, and debit and credit balances, together with their net difference.</span></span>                                        |
-| <span data-ttu-id="b8532-115">各年汇总试算余额表 – 默认</span><span class="sxs-lookup"><span data-stu-id="b8532-115">Summary Trial Balance Year Over Year – Default</span></span> | <span data-ttu-id="b8532-116">提供所有帐户的余额信息，包括期初和期末余额，以及借方和贷方余额还有当年和过去一年的净差额。</span><span class="sxs-lookup"><span data-stu-id="b8532-116">Provides balance information for all accounts, and includes opening and closing balances, and debit and credit balances, together with their net difference for the current year and the past year.</span></span> |
+| <span data-ttu-id="2473f-111">试算平衡表(明细) - 默认</span><span class="sxs-lookup"><span data-stu-id="2473f-111">Detailed Trial Balance - Default</span></span>               | <span data-ttu-id="2473f-112">提供所有帐户的余额信息，包括借方和贷方余额，以及这些余额的净值，还有交易记录日期、凭证和日记帐描述。</span><span class="sxs-lookup"><span data-stu-id="2473f-112">Provides balance information for all accounts, and includes debit and credit balances, and the net of these, together with the transaction date, voucher, and journal description.</span></span>                  |
+| <span data-ttu-id="2473f-113">试算平衡表汇总 – 默认</span><span class="sxs-lookup"><span data-stu-id="2473f-113">Summary Trial Balance – Default</span></span>                | <span data-ttu-id="2473f-114">提供所有帐户的余额信息，包括期初和期末余额，以及借方和贷方余额还有其净差额。</span><span class="sxs-lookup"><span data-stu-id="2473f-114">Provides balance information for all accounts, and includes opening and closing balances, and debit and credit balances, together with their net difference.</span></span>                                        |
+| <span data-ttu-id="2473f-115">各年汇总试算余额表 – 默认</span><span class="sxs-lookup"><span data-stu-id="2473f-115">Summary Trial Balance Year Over Year – Default</span></span> | <span data-ttu-id="2473f-116">提供所有帐户的余额信息，包括期初和期末余额，以及借方和贷方余额还有当年和过去一年的净差额。</span><span class="sxs-lookup"><span data-stu-id="2473f-116">Provides balance information for all accounts, and includes opening and closing balances, and debit and credit balances, together with their net difference for the current year and the past year.</span></span> |
 
-## <a name="building-blocks"></a><span data-ttu-id="b8532-117">构建基块</span><span class="sxs-lookup"><span data-stu-id="b8532-117">Building blocks</span></span>
-<span data-ttu-id="b8532-118">试算平衡表财务报表使用以下构建基块。</span><span class="sxs-lookup"><span data-stu-id="b8532-118">The trial balance financial reports use the following building blocks.</span></span>
+## <a name="building-blocks"></a><span data-ttu-id="2473f-117">构建基块</span><span class="sxs-lookup"><span data-stu-id="2473f-117">Building blocks</span></span>
+<span data-ttu-id="2473f-118">试算平衡表财务报表使用以下构建基块。</span><span class="sxs-lookup"><span data-stu-id="2473f-118">The trial balance financial reports use the following building blocks.</span></span>
 
-| <span data-ttu-id="b8532-119">默认报表</span><span class="sxs-lookup"><span data-stu-id="b8532-119">Default report</span></span>                                 | <span data-ttu-id="b8532-120">行定义</span><span class="sxs-lookup"><span data-stu-id="b8532-120">Row definition</span></span>          | <span data-ttu-id="b8532-121">列定义</span><span class="sxs-lookup"><span data-stu-id="b8532-121">Column definition</span></span>                              |
+| <span data-ttu-id="2473f-119">默认报表</span><span class="sxs-lookup"><span data-stu-id="2473f-119">Default report</span></span>                                 | <span data-ttu-id="2473f-120">行定义</span><span class="sxs-lookup"><span data-stu-id="2473f-120">Row definition</span></span>          | <span data-ttu-id="2473f-121">列定义</span><span class="sxs-lookup"><span data-stu-id="2473f-121">Column definition</span></span>                              |
 |------------------------------------------------|-------------------------|------------------------------------------------|
-| <span data-ttu-id="b8532-122">试算平衡表(明细) - 默认</span><span class="sxs-lookup"><span data-stu-id="b8532-122">Detailed Trial Balance - Default</span></span>               | <span data-ttu-id="b8532-123">试算平衡表 - 默认</span><span class="sxs-lookup"><span data-stu-id="b8532-123">Trial Balance - Default</span></span> | <span data-ttu-id="b8532-124">试算平衡表(明细) - 默认</span><span class="sxs-lookup"><span data-stu-id="b8532-124">Detailed Trial Balance - Default</span></span>               |
-| <span data-ttu-id="b8532-125">试算平衡表汇总 – 默认</span><span class="sxs-lookup"><span data-stu-id="b8532-125">Summary Trial Balance – Default</span></span>                | <span data-ttu-id="b8532-126">试算平衡表 - 默认</span><span class="sxs-lookup"><span data-stu-id="b8532-126">Trial Balance - Default</span></span> | <span data-ttu-id="b8532-127">试算平衡表汇总 - 默认</span><span class="sxs-lookup"><span data-stu-id="b8532-127">Summary Trial Balance - Default</span></span>                |
-| <span data-ttu-id="b8532-128">各年汇总试算余额表 – 默认</span><span class="sxs-lookup"><span data-stu-id="b8532-128">Summary Trial Balance Year Over Year – Default</span></span> | <span data-ttu-id="b8532-129">试算平衡表 - 默认</span><span class="sxs-lookup"><span data-stu-id="b8532-129">Trial Balance - Default</span></span> | <span data-ttu-id="b8532-130">各年汇总试算余额表 - 默认</span><span class="sxs-lookup"><span data-stu-id="b8532-130">Summary Trial Balance Year Over Year - Default</span></span> |
+| <span data-ttu-id="2473f-122">试算平衡表(明细) - 默认</span><span class="sxs-lookup"><span data-stu-id="2473f-122">Detailed Trial Balance - Default</span></span>               | <span data-ttu-id="2473f-123">试算平衡表 - 默认</span><span class="sxs-lookup"><span data-stu-id="2473f-123">Trial Balance - Default</span></span> | <span data-ttu-id="2473f-124">试算平衡表(明细) - 默认</span><span class="sxs-lookup"><span data-stu-id="2473f-124">Detailed Trial Balance - Default</span></span>               |
+| <span data-ttu-id="2473f-125">试算平衡表汇总 – 默认</span><span class="sxs-lookup"><span data-stu-id="2473f-125">Summary Trial Balance – Default</span></span>                | <span data-ttu-id="2473f-126">试算平衡表 - 默认</span><span class="sxs-lookup"><span data-stu-id="2473f-126">Trial Balance - Default</span></span> | <span data-ttu-id="2473f-127">试算平衡表汇总 - 默认</span><span class="sxs-lookup"><span data-stu-id="2473f-127">Summary Trial Balance - Default</span></span>                |
+| <span data-ttu-id="2473f-128">各年汇总试算余额表 – 默认</span><span class="sxs-lookup"><span data-stu-id="2473f-128">Summary Trial Balance Year Over Year – Default</span></span> | <span data-ttu-id="2473f-129">试算平衡表 - 默认</span><span class="sxs-lookup"><span data-stu-id="2473f-129">Trial Balance - Default</span></span> | <span data-ttu-id="2473f-130">各年汇总试算余额表 - 默认</span><span class="sxs-lookup"><span data-stu-id="2473f-130">Summary Trial Balance Year Over Year - Default</span></span> |
 
-### <a name="row-definition"></a><span data-ttu-id="b8532-131">行定义</span><span class="sxs-lookup"><span data-stu-id="b8532-131">Row definition</span></span>
+### <a name="row-definition"></a><span data-ttu-id="2473f-131">行定义</span><span class="sxs-lookup"><span data-stu-id="2473f-131">Row definition</span></span>
 
-<span data-ttu-id="b8532-132">行定义，试算平衡表 – 默认，包含拉取所有主科目的单行</span><span class="sxs-lookup"><span data-stu-id="b8532-132">The row definition, Trial Balance – Default, contains a single row that pulls in all main accounts.</span></span> <span data-ttu-id="b8532-133">因此，任何人都可以生成报表，而不必进行任何修改。</span><span class="sxs-lookup"><span data-stu-id="b8532-133">Therefore, anyone can generate the report without having to make any modifications.</span></span> <span data-ttu-id="b8532-134">在您查看报表时，您深化到单个行可以查看有关每个科目的详细信息。</span><span class="sxs-lookup"><span data-stu-id="b8532-134">When you view the report, you drill into the single row to see details about each account.</span></span> <span data-ttu-id="b8532-135">您可以修改行定义，以便包括更多详细信息。</span><span class="sxs-lookup"><span data-stu-id="b8532-135">You can modify the row definition so that it includes more detail.</span></span> <span data-ttu-id="b8532-136">若要修改“试算平衡表 – 默认”行定义，以便包括所有科目的行，请执行以下步骤。</span><span class="sxs-lookup"><span data-stu-id="b8532-136">To modify the Trial Balance – Default row definition so that it includes rows for all accounts, follow these steps.</span></span>
+<span data-ttu-id="2473f-132">行定义，试算平衡表 – 默认，包含拉取所有主科目的单行</span><span class="sxs-lookup"><span data-stu-id="2473f-132">The row definition, Trial Balance – Default, contains a single row that pulls in all main accounts.</span></span> <span data-ttu-id="2473f-133">因此，任何人都可以生成报表，而不必进行任何修改。</span><span class="sxs-lookup"><span data-stu-id="2473f-133">Therefore, anyone can generate the report without having to make any modifications.</span></span> <span data-ttu-id="2473f-134">在您查看报表时，您深化到单个行可以查看有关每个科目的详细信息。</span><span class="sxs-lookup"><span data-stu-id="2473f-134">When you view the report, you drill into the single row to see details about each account.</span></span> <span data-ttu-id="2473f-135">您可以修改行定义，以便包括更多详细信息。</span><span class="sxs-lookup"><span data-stu-id="2473f-135">You can modify the row definition so that it includes more detail.</span></span> <span data-ttu-id="2473f-136">若要修改“试算平衡表 – 默认”行定义，以便包括所有科目的行，请执行以下步骤。</span><span class="sxs-lookup"><span data-stu-id="2473f-136">To modify the Trial Balance – Default row definition so that it includes rows for all accounts, follow these steps.</span></span>
 
-1.  <span data-ttu-id="b8532-137">单击**编辑**，然后单击**从维度插入行**。</span><span class="sxs-lookup"><span data-stu-id="b8532-137">Click **Edit**, and then click **Insert Rows from Dimensions**.</span></span> <span data-ttu-id="b8532-138">**从维度插入行**命令允许您选择希望哪些维度在您的行定义中。</span><span class="sxs-lookup"><span data-stu-id="b8532-138">The **Insert Rows from Dimensions** command lets you choose the dimensions that you want to have in your row definition.</span></span> <span data-ttu-id="b8532-139">对于此行定义，则使用**主科目**。</span><span class="sxs-lookup"><span data-stu-id="b8532-139">For this row definition, you're going to use **Main Account**.</span></span>
-2.  <span data-ttu-id="b8532-140">确保**主科目**包含所有符号 (&)，然后单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="b8532-140">Make sure that **Main Account** contains all ampersands (&), and then click **OK**.</span></span>
+1.  <span data-ttu-id="2473f-137">单击**编辑**，然后单击**从维度插入行**。</span><span class="sxs-lookup"><span data-stu-id="2473f-137">Click **Edit**, and then click **Insert Rows from Dimensions**.</span></span> <span data-ttu-id="2473f-138">**从维度插入行**命令允许您选择希望哪些维度在您的行定义中。</span><span class="sxs-lookup"><span data-stu-id="2473f-138">The **Insert Rows from Dimensions** command lets you choose the dimensions that you want to have in your row definition.</span></span> <span data-ttu-id="2473f-139">对于此行定义，则使用**主科目**。</span><span class="sxs-lookup"><span data-stu-id="2473f-139">For this row definition, you're going to use **Main Account**.</span></span>
+2.  <span data-ttu-id="2473f-140">确保**主科目**包含所有符号 (&)，然后单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="2473f-140">Make sure that **Main Account** contains all ampersands (&), and then click **OK**.</span></span>
 
-<span data-ttu-id="b8532-141">行定义现在包含默认法人的所有主科目。</span><span class="sxs-lookup"><span data-stu-id="b8532-141">The row definition now contains all the main accounts for your default legal entity.</span></span>
+<span data-ttu-id="2473f-141">行定义现在包含默认法人的所有主科目。</span><span class="sxs-lookup"><span data-stu-id="2473f-141">The row definition now contains all the main accounts for your default legal entity.</span></span>
 
-### <a name="column-definition"></a><span data-ttu-id="b8532-142">列定义</span><span class="sxs-lookup"><span data-stu-id="b8532-142">Column definition</span></span>
+### <a name="column-definition"></a><span data-ttu-id="2473f-142">列定义</span><span class="sxs-lookup"><span data-stu-id="2473f-142">Column definition</span></span>
 
-<span data-ttu-id="b8532-143">每个试算平衡表使用不同的列定义。</span><span class="sxs-lookup"><span data-stu-id="b8532-143">Each trial balance report uses a different column definition.</span></span> <span data-ttu-id="b8532-144">这些列定义包含不同的列类型以提供不同级别的详细信息和财务数据。</span><span class="sxs-lookup"><span data-stu-id="b8532-144">These column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
+<span data-ttu-id="2473f-143">每个试算平衡表使用不同的列定义。</span><span class="sxs-lookup"><span data-stu-id="2473f-143">Each trial balance report uses a different column definition.</span></span> <span data-ttu-id="2473f-144">这些列定义包含不同的列类型以提供不同级别的详细信息和财务数据。</span><span class="sxs-lookup"><span data-stu-id="2473f-144">These column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   <span data-ttu-id="b8532-145">**试算平衡表 – 默认列类型：**</span><span class="sxs-lookup"><span data-stu-id="b8532-145">**Detailed Trial Balance – Default column types:**</span></span>
-    -   <span data-ttu-id="b8532-146">**DESC** – 行定义的描述</span><span class="sxs-lookup"><span data-stu-id="b8532-146">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="b8532-147">**ACCT** – 科目代码</span><span class="sxs-lookup"><span data-stu-id="b8532-147">**ACCT** – Account codes</span></span>
-    -   <span data-ttu-id="b8532-148">**ATTR (3)** – 属性：</span><span class="sxs-lookup"><span data-stu-id="b8532-148">**ATTR (3)** – Attributes:</span></span>
-        -   <span data-ttu-id="b8532-149">交易记录日期</span><span class="sxs-lookup"><span data-stu-id="b8532-149">Transaction Date</span></span>
-        -   <span data-ttu-id="b8532-150">凭证</span><span class="sxs-lookup"><span data-stu-id="b8532-150">Voucher</span></span>
-        -   <span data-ttu-id="b8532-151">日记帐描述</span><span class="sxs-lookup"><span data-stu-id="b8532-151">Journal Description</span></span>
-    -   <span data-ttu-id="b8532-152">**FD** – 只包含借方的财务数据</span><span class="sxs-lookup"><span data-stu-id="b8532-152">**FD** – Financial data that contains only debits</span></span>
-    -   <span data-ttu-id="b8532-153">**FD** – 只包含贷方的财务数据</span><span class="sxs-lookup"><span data-stu-id="b8532-153">**FD** – Financial data that contains only credits</span></span>
-    -   <span data-ttu-id="b8532-154">**CALC** – 净差额</span><span class="sxs-lookup"><span data-stu-id="b8532-154">**CALC** – The net difference</span></span>
--   <span data-ttu-id="b8532-155">**试算平衡表汇总 – 默认列类型：**</span><span class="sxs-lookup"><span data-stu-id="b8532-155">**Summary Trial Balance – Default columns types:**</span></span>
-    -   <span data-ttu-id="b8532-156">**ACCT** – 科目代码</span><span class="sxs-lookup"><span data-stu-id="b8532-156">**ACCT** – Account codes</span></span>
-    -   <span data-ttu-id="b8532-157">**DESC** – 行定义的描述</span><span class="sxs-lookup"><span data-stu-id="b8532-157">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="b8532-158">**ATTR** – 属性：</span><span class="sxs-lookup"><span data-stu-id="b8532-158">**ATTR** – An attribute:</span></span>
-        -   <span data-ttu-id="b8532-159">凭证</span><span class="sxs-lookup"><span data-stu-id="b8532-159">Voucher</span></span>
-    -   <span data-ttu-id="b8532-160">**FD** – 期初余额财务数据</span><span class="sxs-lookup"><span data-stu-id="b8532-160">**FD** – The beginning balance financial data</span></span>
-    -   <span data-ttu-id="b8532-161">**FD** – 只包含借方的财务数据</span><span class="sxs-lookup"><span data-stu-id="b8532-161">**FD** – Financial data that contains only debits</span></span>
-    -   <span data-ttu-id="b8532-162">**FD** – 只包含贷方的财务数据</span><span class="sxs-lookup"><span data-stu-id="b8532-162">**FD** – Financial data that contains only credits</span></span>
-    -   <span data-ttu-id="b8532-163">**CALC** – 净差额</span><span class="sxs-lookup"><span data-stu-id="b8532-163">**CALC** – The net difference</span></span>
-    -   <span data-ttu-id="b8532-164">**CALC** – 期末余额</span><span class="sxs-lookup"><span data-stu-id="b8532-164">**CALC** – The closing balance</span></span>
--   <span data-ttu-id="b8532-165">**各年汇总试算余额表 – 默认：**</span><span class="sxs-lookup"><span data-stu-id="b8532-165">**Summary Trial Balance Year Over Year – Default:**</span></span>
-    -   <span data-ttu-id="b8532-166">**ACCT** – 科目代码</span><span class="sxs-lookup"><span data-stu-id="b8532-166">**ACCT** – Account codes</span></span>
-    -   <span data-ttu-id="b8532-167">**DESC** – 行定义的描述</span><span class="sxs-lookup"><span data-stu-id="b8532-167">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="b8532-168">**ATTR** – 属性</span><span class="sxs-lookup"><span data-stu-id="b8532-168">**ATTR** – An attribute</span></span>
-        -   <span data-ttu-id="b8532-169">凭证</span><span class="sxs-lookup"><span data-stu-id="b8532-169">Voucher</span></span>
-    -   <span data-ttu-id="b8532-170">**FD** – 当前年度的期初余额财务数据</span><span class="sxs-lookup"><span data-stu-id="b8532-170">**FD** – The beginning balance financial data for the current year</span></span>
-    -   <span data-ttu-id="b8532-171">**FD** – 只包含当前年度的借方的财务数据</span><span class="sxs-lookup"><span data-stu-id="b8532-171">**FD** – Financial data that contains only debits for the current year</span></span>
-    -   <span data-ttu-id="b8532-172">**FD** – 只包含当前年度的贷方的财务数据</span><span class="sxs-lookup"><span data-stu-id="b8532-172">**FD** – Financial data that contains only credits for the current year</span></span>
-    -   <span data-ttu-id="b8532-173">**CALC** – 净差额</span><span class="sxs-lookup"><span data-stu-id="b8532-173">**CALC** – The net difference</span></span>
-    -   <span data-ttu-id="b8532-174">**CALC** – 期末余额</span><span class="sxs-lookup"><span data-stu-id="b8532-174">**CALC** – The closing balance</span></span>
-    -   <span data-ttu-id="b8532-175">**FD** – 只包含上一年度的借方的财务数据</span><span class="sxs-lookup"><span data-stu-id="b8532-175">**FD** – Financial data that contains only debits for the last year</span></span>
-    -   <span data-ttu-id="b8532-176">**FD** – 只包含上一年度的贷方的财务数据</span><span class="sxs-lookup"><span data-stu-id="b8532-176">**FD** – Financial data that contains only credits for the last year</span></span>
+-   <span data-ttu-id="2473f-145">**试算平衡表 – 默认列类型：**</span><span class="sxs-lookup"><span data-stu-id="2473f-145">**Detailed Trial Balance – Default column types:**</span></span>
+    -   <span data-ttu-id="2473f-146">**DESC** – 行定义的描述</span><span class="sxs-lookup"><span data-stu-id="2473f-146">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="2473f-147">**ACCT** – 科目代码</span><span class="sxs-lookup"><span data-stu-id="2473f-147">**ACCT** – Account codes</span></span>
+    -   <span data-ttu-id="2473f-148">**ATTR (3)** – 属性：</span><span class="sxs-lookup"><span data-stu-id="2473f-148">**ATTR (3)** – Attributes:</span></span>
+        -   <span data-ttu-id="2473f-149">交易记录日期</span><span class="sxs-lookup"><span data-stu-id="2473f-149">Transaction Date</span></span>
+        -   <span data-ttu-id="2473f-150">凭证</span><span class="sxs-lookup"><span data-stu-id="2473f-150">Voucher</span></span>
+        -   <span data-ttu-id="2473f-151">日记帐描述</span><span class="sxs-lookup"><span data-stu-id="2473f-151">Journal Description</span></span>
+    -   <span data-ttu-id="2473f-152">**FD** – 只包含借方的财务数据</span><span class="sxs-lookup"><span data-stu-id="2473f-152">**FD** – Financial data that contains only debits</span></span>
+    -   <span data-ttu-id="2473f-153">**FD** – 只包含贷方的财务数据</span><span class="sxs-lookup"><span data-stu-id="2473f-153">**FD** – Financial data that contains only credits</span></span>
+    -   <span data-ttu-id="2473f-154">**CALC** – 净差额</span><span class="sxs-lookup"><span data-stu-id="2473f-154">**CALC** – The net difference</span></span>
+-   <span data-ttu-id="2473f-155">**试算平衡表汇总 – 默认列类型：**</span><span class="sxs-lookup"><span data-stu-id="2473f-155">**Summary Trial Balance – Default columns types:**</span></span>
+    -   <span data-ttu-id="2473f-156">**ACCT** – 科目代码</span><span class="sxs-lookup"><span data-stu-id="2473f-156">**ACCT** – Account codes</span></span>
+    -   <span data-ttu-id="2473f-157">**DESC** – 行定义的描述</span><span class="sxs-lookup"><span data-stu-id="2473f-157">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="2473f-158">**ATTR** – 属性：</span><span class="sxs-lookup"><span data-stu-id="2473f-158">**ATTR** – An attribute:</span></span>
+        -   <span data-ttu-id="2473f-159">凭证</span><span class="sxs-lookup"><span data-stu-id="2473f-159">Voucher</span></span>
+    -   <span data-ttu-id="2473f-160">**FD** – 期初余额财务数据</span><span class="sxs-lookup"><span data-stu-id="2473f-160">**FD** – The beginning balance financial data</span></span>
+    -   <span data-ttu-id="2473f-161">**FD** – 只包含借方的财务数据</span><span class="sxs-lookup"><span data-stu-id="2473f-161">**FD** – Financial data that contains only debits</span></span>
+    -   <span data-ttu-id="2473f-162">**FD** – 只包含贷方的财务数据</span><span class="sxs-lookup"><span data-stu-id="2473f-162">**FD** – Financial data that contains only credits</span></span>
+    -   <span data-ttu-id="2473f-163">**CALC** – 净差额</span><span class="sxs-lookup"><span data-stu-id="2473f-163">**CALC** – The net difference</span></span>
+    -   <span data-ttu-id="2473f-164">**CALC** – 期末余额</span><span class="sxs-lookup"><span data-stu-id="2473f-164">**CALC** – The closing balance</span></span>
+-   <span data-ttu-id="2473f-165">**各年汇总试算余额表 – 默认：**</span><span class="sxs-lookup"><span data-stu-id="2473f-165">**Summary Trial Balance Year Over Year – Default:**</span></span>
+    -   <span data-ttu-id="2473f-166">**ACCT** – 科目代码</span><span class="sxs-lookup"><span data-stu-id="2473f-166">**ACCT** – Account codes</span></span>
+    -   <span data-ttu-id="2473f-167">**DESC** – 行定义的描述</span><span class="sxs-lookup"><span data-stu-id="2473f-167">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="2473f-168">**ATTR** – 属性</span><span class="sxs-lookup"><span data-stu-id="2473f-168">**ATTR** – An attribute</span></span>
+        -   <span data-ttu-id="2473f-169">凭证</span><span class="sxs-lookup"><span data-stu-id="2473f-169">Voucher</span></span>
+    -   <span data-ttu-id="2473f-170">**FD** – 当前年度的期初余额财务数据</span><span class="sxs-lookup"><span data-stu-id="2473f-170">**FD** – The beginning balance financial data for the current year</span></span>
+    -   <span data-ttu-id="2473f-171">**FD** – 只包含当前年度的借方的财务数据</span><span class="sxs-lookup"><span data-stu-id="2473f-171">**FD** – Financial data that contains only debits for the current year</span></span>
+    -   <span data-ttu-id="2473f-172">**FD** – 只包含当前年度的贷方的财务数据</span><span class="sxs-lookup"><span data-stu-id="2473f-172">**FD** – Financial data that contains only credits for the current year</span></span>
+    -   <span data-ttu-id="2473f-173">**CALC** – 净差额</span><span class="sxs-lookup"><span data-stu-id="2473f-173">**CALC** – The net difference</span></span>
+    -   <span data-ttu-id="2473f-174">**CALC** – 期末余额</span><span class="sxs-lookup"><span data-stu-id="2473f-174">**CALC** – The closing balance</span></span>
+    -   <span data-ttu-id="2473f-175">**FD** – 只包含上一年度的借方的财务数据</span><span class="sxs-lookup"><span data-stu-id="2473f-175">**FD** – Financial data that contains only debits for the last year</span></span>
+    -   <span data-ttu-id="2473f-176">**FD** – 只包含上一年度的贷方的财务数据</span><span class="sxs-lookup"><span data-stu-id="2473f-176">**FD** – Financial data that contains only credits for the last year</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="b8532-177">其他资源</span><span class="sxs-lookup"><span data-stu-id="b8532-177">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="2473f-177">其他资源</span><span class="sxs-lookup"><span data-stu-id="2473f-177">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="b8532-178">财务申报</span><span class="sxs-lookup"><span data-stu-id="b8532-178">Financial reporting</span></span>](financial-reporting-getting-started.md)
+[<span data-ttu-id="2473f-178">财务申报</span><span class="sxs-lookup"><span data-stu-id="2473f-178">Financial reporting</span></span>](financial-reporting-getting-started.md)
 
-[<span data-ttu-id="b8532-179">查看财务报表</span><span class="sxs-lookup"><span data-stu-id="b8532-179">View financial reports</span></span>](view-financial-reports.md)
+[<span data-ttu-id="2473f-179">查看财务报表</span><span class="sxs-lookup"><span data-stu-id="2473f-179">View financial reports</span></span>](view-financial-reports.md)
 
-[<span data-ttu-id="b8532-180">Dynamics 财务申报博客</span><span class="sxs-lookup"><span data-stu-id="b8532-180">Dynamics Financial Reporting Blog</span></span>](https://blogs.msdn.com/b/dynamics_financial_reporting/)
+[<span data-ttu-id="2473f-180">Dynamics 财务申报博客</span><span class="sxs-lookup"><span data-stu-id="2473f-180">Dynamics Financial Reporting Blog</span></span>](https://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

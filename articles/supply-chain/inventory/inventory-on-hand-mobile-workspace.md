@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 267094
 ms.assetid: 3fa385ba-894d-4a9e-b394-ef3697abf895
@@ -18,115 +18,115 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: e2a99476da7ce3feab1d2c37e8510f0042cf4b63
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 68b285ba78a9bd654e7bfcfe8d4c6b0207346eab
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572849"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845586"
 ---
-# <a name="inventory-on-hand-mobile-workspace"></a><span data-ttu-id="6a68b-104">现有库存量移动工作区</span><span class="sxs-lookup"><span data-stu-id="6a68b-104">Inventory on-hand mobile workspace</span></span>
+# <a name="inventory-on-hand-mobile-workspace"></a><span data-ttu-id="5ac4c-104">现有库存量移动工作区</span><span class="sxs-lookup"><span data-stu-id="5ac4c-104">Inventory on-hand mobile workspace</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6a68b-105">此主题提供有关**现有库存量**移动工作区的信息。</span><span class="sxs-lookup"><span data-stu-id="6a68b-105">This topic provides information about the **Inventory on-hand** mobile workspace.</span></span> <span data-ttu-id="6a68b-106">此工作区可帮助您随时随地洞察预留库存和可用库存。</span><span class="sxs-lookup"><span data-stu-id="6a68b-106">This workspace helps you gain insights into reserved and available inventory anytime and anywhere.</span></span>
+<span data-ttu-id="5ac4c-105">此主题提供有关**现有库存量**移动工作区的信息。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-105">This topic provides information about the **Inventory on-hand** mobile workspace.</span></span> <span data-ttu-id="5ac4c-106">此工作区可帮助您随时随地洞察预留库存和可用库存。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-106">This workspace helps you gain insights into reserved and available inventory anytime and anywhere.</span></span>
 
-<span data-ttu-id="6a68b-107">将此工作区用于与 Microsoft Dynamics 365 for Unified Operations mobile 应用一起使用。</span><span class="sxs-lookup"><span data-stu-id="6a68b-107">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
+<span data-ttu-id="5ac4c-107">将此工作区用于与 Microsoft Dynamics 365 for Unified Operations mobile 应用一起使用。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-107">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="6a68b-108">概览</span><span class="sxs-lookup"><span data-stu-id="6a68b-108">Overview</span></span>
-<span data-ttu-id="6a68b-109">公司的库存通常每天有多次装运和多次收货。</span><span class="sxs-lookup"><span data-stu-id="6a68b-109">Typically, companies have multiple shipments and multiple receipts of inventory every day.</span></span> <span data-ttu-id="6a68b-110">这些活动不断改变现有库存状态。</span><span class="sxs-lookup"><span data-stu-id="6a68b-110">These movements constantly change the on-hand inventory status.</span></span> <span data-ttu-id="6a68b-111">可通过**现有库存量**移动工作区查看跨公司现有库存状态，以便您在所选移动设备上洞察最新的库存数据。</span><span class="sxs-lookup"><span data-stu-id="6a68b-111">The **Inventory on-hand** mobile workspace lets you see the cross-company on-hand inventory status, so that you can gain the latest insights into inventory data on the mobile device of your choice.</span></span> <span data-ttu-id="6a68b-112">无论在处理仓库、采购销售、制造或管理，还是充当其他角色，都可以随时随地访问现有库存数据。</span><span class="sxs-lookup"><span data-stu-id="6a68b-112">Regardless of whether you work in the warehouse, purchasing, sales, manufacturing, or management, or have other roles, you can access on-hand inventory data anytime and anywhere.</span></span> 
+## <a name="overview"></a><span data-ttu-id="5ac4c-108">概览</span><span class="sxs-lookup"><span data-stu-id="5ac4c-108">Overview</span></span>
+<span data-ttu-id="5ac4c-109">公司的库存通常每天有多次装运和多次收货。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-109">Typically, companies have multiple shipments and multiple receipts of inventory every day.</span></span> <span data-ttu-id="5ac4c-110">这些活动不断改变现有库存状态。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-110">These movements constantly change the on-hand inventory status.</span></span> <span data-ttu-id="5ac4c-111">可通过**现有库存量**移动工作区查看跨公司现有库存状态，以便您在所选移动设备上洞察最新的库存数据。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-111">The **Inventory on-hand** mobile workspace lets you see the cross-company on-hand inventory status, so that you can gain the latest insights into inventory data on the mobile device of your choice.</span></span> <span data-ttu-id="5ac4c-112">无论在处理仓库、采购销售、制造或管理，还是充当其他角色，都可以随时随地访问现有库存数据。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-112">Regardless of whether you work in the warehouse, purchasing, sales, manufacturing, or management, or have other roles, you can access on-hand inventory data anytime and anywhere.</span></span> 
 
-<span data-ttu-id="6a68b-113">此移动工作区提供跨多个设施的现有量状态的即时视图。</span><span class="sxs-lookup"><span data-stu-id="6a68b-113">The mobile workspace provides an instant view of the on-hand status across facilities.</span></span> <span data-ttu-id="6a68b-114">它让您查看跨多个设施的现有量视图、当前物料预留情况，以及未预留的现有库存量。</span><span class="sxs-lookup"><span data-stu-id="6a68b-114">It lets you view on-hand inventory across facilities, current material reservations, and unreserved on-hand inventory.</span></span> <span data-ttu-id="6a68b-115">也可以输入物料编号以查询现有库存量，并可对现有产品或变型执行筛选搜索。</span><span class="sxs-lookup"><span data-stu-id="6a68b-115">You can also enter item numbers to query on-hand inventory, and can do a filtered search for on-hand products or variants.</span></span> 
+<span data-ttu-id="5ac4c-113">此移动工作区提供跨多个设施的现有量状态的即时视图。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-113">The mobile workspace provides an instant view of the on-hand status across facilities.</span></span> <span data-ttu-id="5ac4c-114">它让您查看跨多个设施的现有量视图、当前物料预留情况，以及未预留的现有库存量。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-114">It lets you view on-hand inventory across facilities, current material reservations, and unreserved on-hand inventory.</span></span> <span data-ttu-id="5ac4c-115">也可以输入物料编号以查询现有库存量，并可对现有产品或变型执行筛选搜索。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-115">You can also enter item numbers to query on-hand inventory, and can do a filtered search for on-hand products or variants.</span></span> 
 
-<span data-ttu-id="6a68b-116">特别是，此移动工作区提供以下功能：</span><span class="sxs-lookup"><span data-stu-id="6a68b-116">Specifically, the mobile workspace provides these features:</span></span>
+<span data-ttu-id="5ac4c-116">特别是，此移动工作区提供以下功能：</span><span class="sxs-lookup"><span data-stu-id="5ac4c-116">Specifically, the mobile workspace provides these features:</span></span>
 
--   <span data-ttu-id="6a68b-117">可以按产品编号或产品名称搜索，以便找到要查看其现有库存状态的产品。</span><span class="sxs-lookup"><span data-stu-id="6a68b-117">You can search by product number or product name to find products to view the on-hand inventory status for.</span></span>
--   <span data-ttu-id="6a68b-118">对于所选产品，可以查看以下信息：</span><span class="sxs-lookup"><span data-stu-id="6a68b-118">For the selected products, you can view the following information:</span></span>
+-   <span data-ttu-id="5ac4c-117">可以按产品编号或产品名称搜索，以便找到要查看其现有库存状态的产品。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-117">You can search by product number or product name to find products to view the on-hand inventory status for.</span></span>
+-   <span data-ttu-id="5ac4c-118">对于所选产品，可以查看以下信息：</span><span class="sxs-lookup"><span data-stu-id="5ac4c-118">For the selected products, you can view the following information:</span></span>
 
-    -   <span data-ttu-id="6a68b-119">按站点的现有库存量</span><span class="sxs-lookup"><span data-stu-id="6a68b-119">On-hand inventory per site</span></span>
-    -   <span data-ttu-id="6a68b-120">按仓库的现有库存量</span><span class="sxs-lookup"><span data-stu-id="6a68b-120">On-hand inventory per warehouse</span></span>
-    -   <span data-ttu-id="6a68b-121">按位置的现有库存量</span><span class="sxs-lookup"><span data-stu-id="6a68b-121">On-hand inventory per location</span></span>
-    -   <span data-ttu-id="6a68b-122">按批次的现有库存量（对于批量控制的产品）</span><span class="sxs-lookup"><span data-stu-id="6a68b-122">On-hand inventory per batch (for batch-controlled products)</span></span>
-    -   <span data-ttu-id="6a68b-123">按库存状态的现有库存量</span><span class="sxs-lookup"><span data-stu-id="6a68b-123">On-hand inventory per inventory status</span></span>
+    -   <span data-ttu-id="5ac4c-119">按站点的现有库存量</span><span class="sxs-lookup"><span data-stu-id="5ac4c-119">On-hand inventory per site</span></span>
+    -   <span data-ttu-id="5ac4c-120">按仓库的现有库存量</span><span class="sxs-lookup"><span data-stu-id="5ac4c-120">On-hand inventory per warehouse</span></span>
+    -   <span data-ttu-id="5ac4c-121">按位置的现有库存量</span><span class="sxs-lookup"><span data-stu-id="5ac4c-121">On-hand inventory per location</span></span>
+    -   <span data-ttu-id="5ac4c-122">按批次的现有库存量（对于批量控制的产品）</span><span class="sxs-lookup"><span data-stu-id="5ac4c-122">On-hand inventory per batch (for batch-controlled products)</span></span>
+    -   <span data-ttu-id="5ac4c-123">按库存状态的现有库存量</span><span class="sxs-lookup"><span data-stu-id="5ac4c-123">On-hand inventory per inventory status</span></span>
     
--   <span data-ttu-id="6a68b-124">按照以下方式显示产品的现有库存量：</span><span class="sxs-lookup"><span data-stu-id="6a68b-124">Product on-hand inventory is shown in the following ways:</span></span>
+-   <span data-ttu-id="5ac4c-124">按照以下方式显示产品的现有库存量：</span><span class="sxs-lookup"><span data-stu-id="5ac4c-124">Product on-hand inventory is shown in the following ways:</span></span>
 
-    -   <span data-ttu-id="6a68b-125">按物理库存（此视图显示总金额。）</span><span class="sxs-lookup"><span data-stu-id="6a68b-125">By physical inventory (This view represents the total amount.)</span></span>
-    -   <span data-ttu-id="6a68b-126">按物理预留（此视图显示预留金额。）</span><span class="sxs-lookup"><span data-stu-id="6a68b-126">By physical reserved (This view represents the reserved amount.)</span></span>
-    -   <span data-ttu-id="6a68b-127">按物理可用量（此视图显示无预留的可用金额。）</span><span class="sxs-lookup"><span data-stu-id="6a68b-127">By available physical (This view represents available amount that has no reservations.)</span></span>
+    -   <span data-ttu-id="5ac4c-125">按物理库存（此视图显示总金额。）</span><span class="sxs-lookup"><span data-stu-id="5ac4c-125">By physical inventory (This view represents the total amount.)</span></span>
+    -   <span data-ttu-id="5ac4c-126">按物理预留（此视图显示预留金额。）</span><span class="sxs-lookup"><span data-stu-id="5ac4c-126">By physical reserved (This view represents the reserved amount.)</span></span>
+    -   <span data-ttu-id="5ac4c-127">按物理可用量（此视图显示无预留的可用金额。）</span><span class="sxs-lookup"><span data-stu-id="5ac4c-127">By available physical (This view represents available amount that has no reservations.)</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="6a68b-128">先决条件</span><span class="sxs-lookup"><span data-stu-id="6a68b-128">Prerequisites</span></span>
-<span data-ttu-id="6a68b-129">先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。</span><span class="sxs-lookup"><span data-stu-id="6a68b-129">The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="5ac4c-128">先决条件</span><span class="sxs-lookup"><span data-stu-id="5ac4c-128">Prerequisites</span></span>
+<span data-ttu-id="5ac4c-129">先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-129">The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a><span data-ttu-id="6a68b-130">使用 Microsoft Dynamics 365 for Finance and Operations 的先决条件</span><span class="sxs-lookup"><span data-stu-id="6a68b-130">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations</span></span> 
-<span data-ttu-id="6a68b-131">如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations，系统管理员必须发布**现有库存**移动工作区。</span><span class="sxs-lookup"><span data-stu-id="6a68b-131">If Microsoft Dynamics 365 for Finance and Operations has been deployed for your organization, the system administrator must publish the **Inventory on-hand** mobile workspace.</span></span> <span data-ttu-id="6a68b-132">有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。</span><span class="sxs-lookup"><span data-stu-id="6a68b-132">For instructions, see [Publish a mobile workspace](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).</span></span>
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a><span data-ttu-id="5ac4c-130">使用 Microsoft Dynamics 365 for Finance and Operations 的先决条件</span><span class="sxs-lookup"><span data-stu-id="5ac4c-130">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations</span></span> 
+<span data-ttu-id="5ac4c-131">如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations，系统管理员必须发布**现有库存**移动工作区。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-131">If Microsoft Dynamics 365 for Finance and Operations has been deployed for your organization, the system administrator must publish the **Inventory on-hand** mobile workspace.</span></span> <span data-ttu-id="5ac4c-132">有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-132">For instructions, see [Publish a mobile workspace](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="6a68b-133">使用带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611 时的先决条件</span><span class="sxs-lookup"><span data-stu-id="6a68b-133">Prerequisites if you use Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
-<span data-ttu-id="6a68b-134">如果已经为您的组织部署带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611，系统管理员必须完成以下先决条件。</span><span class="sxs-lookup"><span data-stu-id="6a68b-134">If Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="5ac4c-133">使用带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611 时的先决条件</span><span class="sxs-lookup"><span data-stu-id="5ac4c-133">Prerequisites if you use Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="5ac4c-134">如果已经为您的组织部署带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611，系统管理员必须完成以下先决条件。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-134">If Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="6a68b-135">必备项</span><span class="sxs-lookup"><span data-stu-id="6a68b-135">Prerequisite</span></span></th>
-<th><span data-ttu-id="6a68b-136">角色</span><span class="sxs-lookup"><span data-stu-id="6a68b-136">Role</span></span></th>
-<th><span data-ttu-id="6a68b-137">说明</span><span class="sxs-lookup"><span data-stu-id="6a68b-137">Description</span></span></th>
+<th><span data-ttu-id="5ac4c-135">必备项</span><span class="sxs-lookup"><span data-stu-id="5ac4c-135">Prerequisite</span></span></th>
+<th><span data-ttu-id="5ac4c-136">角色</span><span class="sxs-lookup"><span data-stu-id="5ac4c-136">Role</span></span></th>
+<th><span data-ttu-id="5ac4c-137">说明</span><span class="sxs-lookup"><span data-stu-id="5ac4c-137">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="6a68b-138">实现 KB 4013633。</span><span class="sxs-lookup"><span data-stu-id="6a68b-138">Implement KB 4013633.</span></span></td>
-<td><span data-ttu-id="6a68b-139">系统管理员</span><span class="sxs-lookup"><span data-stu-id="6a68b-139">System administrator</span></span></td>
+<td><span data-ttu-id="5ac4c-138">实现 KB 4013633。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-138">Implement KB 4013633.</span></span></td>
+<td><span data-ttu-id="5ac4c-139">系统管理员</span><span class="sxs-lookup"><span data-stu-id="5ac4c-139">System administrator</span></span></td>
 
-<td><span data-ttu-id="6a68b-140">KB 4013633 是包含<strong>现有库存量</strong>移动工作区的 X++ 更新或元数据修补程序。</span><span class="sxs-lookup"><span data-stu-id="6a68b-140">KB 4013633 is an X++ update or metadata hotfix that contains the <strong>Inventory on-hand</strong> mobile workspace.</span></span> <span data-ttu-id="6a68b-141">若要实施 KB 4013633，系统管理员必须遵循这些步骤。</span><span class="sxs-lookup"><span data-stu-id="6a68b-141">To implement KB 4013633, your system administrator must follow these steps.</span></span>
+<td><span data-ttu-id="5ac4c-140">KB 4013633 是包含<strong>现有库存量</strong>移动工作区的 X++ 更新或元数据修补程序。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-140">KB 4013633 is an X++ update or metadata hotfix that contains the <strong>Inventory on-hand</strong> mobile workspace.</span></span> <span data-ttu-id="5ac4c-141">若要实施 KB 4013633，系统管理员必须遵循这些步骤。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-141">To implement KB 4013633, your system administrator must follow these steps.</span></span>
 <ol>
-<li><span data-ttu-id="6a68b-142"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">从 Microsoft Dynamics Lifecycle Services (LCS) 下载元数据修补程序</a>。</span><span class="sxs-lookup"><span data-stu-id="6a68b-142"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
-<li><span data-ttu-id="6a68b-143"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">安装元数据修补程序</a>。</span><span class="sxs-lookup"><span data-stu-id="6a68b-143"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Install the metadata hotfix</a>.</span></span></li>
-<li><span data-ttu-id="6a68b-144"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">创建</a>包含 <strong>SCMMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</span><span class="sxs-lookup"><span data-stu-id="6a68b-144"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Create a deployable package</a> that contains the <strong>SCMMobile</strong> model, and then upload the deployable package to LCS.</span></span></li>
-<li><span data-ttu-id="6a68b-145"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">应用可部署包</a>。</span><span class="sxs-lookup"><span data-stu-id="6a68b-145"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Apply the deployable package</a>.</span></span></li>
+<li><span data-ttu-id="5ac4c-142"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">从 Microsoft Dynamics Lifecycle Services (LCS) 下载元数据修补程序</a>。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-142"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="5ac4c-143"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">安装元数据修补程序</a>。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-143"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="5ac4c-144"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">创建</a>包含 <strong>SCMMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-144"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Create a deployable package</a> that contains the <strong>SCMMobile</strong> model, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="5ac4c-145"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">应用可部署包</a>。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-145"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Apply the deployable package</a>.</span></span></li>
 
 </ol></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="6a68b-146">发布<strong>现有库存量</strong>移动工作区。</span><span class="sxs-lookup"><span data-stu-id="6a68b-146">Publish the <strong>Inventory on-hand</strong> mobile workspace.</span></span></td>
-<td><span data-ttu-id="6a68b-147">系统管理员</span><span class="sxs-lookup"><span data-stu-id="6a68b-147">System administrator</span></span></td>
-<td><span data-ttu-id="6a68b-148">请查阅<a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">发布移动工作区</a>。</span><span class="sxs-lookup"><span data-stu-id="6a68b-148">See <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
+<td><span data-ttu-id="5ac4c-146">发布<strong>现有库存量</strong>移动工作区。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-146">Publish the <strong>Inventory on-hand</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="5ac4c-147">系统管理员</span><span class="sxs-lookup"><span data-stu-id="5ac4c-147">System administrator</span></span></td>
+<td><span data-ttu-id="5ac4c-148">请查阅<a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">发布移动工作区</a>。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-148">See <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="6a68b-149">下载并安装移动应用</span><span class="sxs-lookup"><span data-stu-id="6a68b-149">Download and install the mobile app</span></span>
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="5ac4c-149">下载并安装移动应用</span><span class="sxs-lookup"><span data-stu-id="5ac4c-149">Download and install the mobile app</span></span>
 
-<span data-ttu-id="6a68b-150">下载并安装 Dynamics 365 for Unified Operations 移动应用：</span><span class="sxs-lookup"><span data-stu-id="6a68b-150">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
+<span data-ttu-id="5ac4c-150">下载并安装 Dynamics 365 for Unified Operations 移动应用：</span><span class="sxs-lookup"><span data-stu-id="5ac4c-150">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
--   [<span data-ttu-id="6a68b-151">适用于 Android 手机</span><span class="sxs-lookup"><span data-stu-id="6a68b-151">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
--   [<span data-ttu-id="6a68b-152">适用于 iPhones</span><span class="sxs-lookup"><span data-stu-id="6a68b-152">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [<span data-ttu-id="5ac4c-151">适用于 Android 手机</span><span class="sxs-lookup"><span data-stu-id="5ac4c-151">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="5ac4c-152">适用于 iPhones</span><span class="sxs-lookup"><span data-stu-id="5ac4c-152">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="6a68b-153">登录到移动应用</span><span class="sxs-lookup"><span data-stu-id="6a68b-153">Sign in to the mobile app</span></span>
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="5ac4c-153">登录到移动应用</span><span class="sxs-lookup"><span data-stu-id="5ac4c-153">Sign in to the mobile app</span></span>
 
-1.  <span data-ttu-id="6a68b-154">在移动设备上启动应用程序。</span><span class="sxs-lookup"><span data-stu-id="6a68b-154">Start the app on your mobile device.</span></span>
-2.  <span data-ttu-id="6a68b-155">输入您的 Dynamics 365 URL。</span><span class="sxs-lookup"><span data-stu-id="6a68b-155">Enter your Dynamics 365 URL.</span></span>
-3.  <span data-ttu-id="6a68b-156">首次登录时，将提示您输入您的用户名和密码。</span><span class="sxs-lookup"><span data-stu-id="6a68b-156">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="6a68b-157">输入凭据。</span><span class="sxs-lookup"><span data-stu-id="6a68b-157">Enter your credentials.</span></span>
-4.  <span data-ttu-id="6a68b-158">登录后，将显示您的公司的可用工作区。</span><span class="sxs-lookup"><span data-stu-id="6a68b-158">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="6a68b-159">请注意，如果您的系统管理员以后发布新工作区，您必须刷新移动工作区列表。</span><span class="sxs-lookup"><span data-stu-id="6a68b-159">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
+1.  <span data-ttu-id="5ac4c-154">在移动设备上启动应用程序。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-154">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="5ac4c-155">输入您的 Dynamics 365 URL。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-155">Enter your Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="5ac4c-156">首次登录时，将提示您输入您的用户名和密码。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-156">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="5ac4c-157">输入凭据。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-157">Enter your credentials.</span></span>
+4.  <span data-ttu-id="5ac4c-158">登录后，将显示您的公司的可用工作区。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-158">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="5ac4c-159">请注意，如果您的系统管理员以后发布新工作区，您必须刷新移动工作区列表。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-159">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-    <span data-ttu-id="6a68b-160">[![下拉以刷新](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="6a68b-160">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
+    <span data-ttu-id="5ac4c-160">[![下拉以刷新](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="5ac4c-160">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="view-the-on-hand-inventory-for-a-product-by-using-the-inventory-on-hand-mobile-workspace"></a><span data-ttu-id="6a68b-161">使用现有库存量移动工作区查看产品的现有库存量</span><span class="sxs-lookup"><span data-stu-id="6a68b-161">View the on-hand inventory for a product by using the Inventory on-hand mobile workspace</span></span>
+## <a name="view-the-on-hand-inventory-for-a-product-by-using-the-inventory-on-hand-mobile-workspace"></a><span data-ttu-id="5ac4c-161">使用现有库存量移动工作区查看产品的现有库存量</span><span class="sxs-lookup"><span data-stu-id="5ac4c-161">View the on-hand inventory for a product by using the Inventory on-hand mobile workspace</span></span>
 
-1.  <span data-ttu-id="6a68b-162">在移动设备上，选择**现有库存量**工作区。</span><span class="sxs-lookup"><span data-stu-id="6a68b-162">On your mobile device, select the **Inventory on-hand** workspace.</span></span>
+1.  <span data-ttu-id="5ac4c-162">在移动设备上，选择**现有库存量**工作区。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-162">On your mobile device, select the **Inventory on-hand** workspace.</span></span>
 
-2.  <span data-ttu-id="6a68b-163">选择**检查物料的现有库存量**。</span><span class="sxs-lookup"><span data-stu-id="6a68b-163">Select **Check on-hand for an item**.</span></span> <span data-ttu-id="6a68b-164">将看到加载到您的应用程序中供脱机使用的产品的列表。</span><span class="sxs-lookup"><span data-stu-id="6a68b-164">You see a list of the products that are loaded into your app for offline use.</span></span> <span data-ttu-id="6a68b-165">默认情况下，加载 50 项，但是开发人员可以更改此数字。</span><span class="sxs-lookup"><span data-stu-id="6a68b-165">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="6a68b-166">有关详细信息，开发人员应参阅 [移动平台](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)。</span><span class="sxs-lookup"><span data-stu-id="6a68b-166">For more information, developers should see [Mobile platform](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md).</span></span>
-3.  <span data-ttu-id="6a68b-167">如果您的物料不在该列表中，请选择**搜索更多**。</span><span class="sxs-lookup"><span data-stu-id="6a68b-167">If your item isn't in the list, select **Search more**.</span></span> <span data-ttu-id="6a68b-168">按产品编号搜索，或切换到按产品名搜索。</span><span class="sxs-lookup"><span data-stu-id="6a68b-168">Search by product number, or switch to a search by product name.</span></span>
+2.  <span data-ttu-id="5ac4c-163">选择**检查物料的现有库存量**。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-163">Select **Check on-hand for an item**.</span></span> <span data-ttu-id="5ac4c-164">将看到加载到您的应用程序中供脱机使用的产品的列表。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-164">You see a list of the products that are loaded into your app for offline use.</span></span> <span data-ttu-id="5ac4c-165">默认情况下，加载 50 项，但是开发人员可以更改此数字。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-165">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="5ac4c-166">有关详细信息，开发人员应参阅 [移动平台](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-166">For more information, developers should see [Mobile platform](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md).</span></span>
+3.  <span data-ttu-id="5ac4c-167">如果您的物料不在该列表中，请选择**搜索更多**。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-167">If your item isn't in the list, select **Search more**.</span></span> <span data-ttu-id="5ac4c-168">按产品编号搜索，或切换到按产品名搜索。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-168">Search by product number, or switch to a search by product name.</span></span>
 
-4.  <span data-ttu-id="6a68b-169">选择项目。</span><span class="sxs-lookup"><span data-stu-id="6a68b-169">Select a product.</span></span> <span data-ttu-id="6a68b-170">如果物料有图像，将显示该图像。</span><span class="sxs-lookup"><span data-stu-id="6a68b-170">If the item has an image, the image is shown.</span></span>
-5.  <span data-ttu-id="6a68b-171">选择以下选项之一查看现有库存量状态：</span><span class="sxs-lookup"><span data-stu-id="6a68b-171">Select one of the following options to view the status of on-hand inventory:</span></span>
+4.  <span data-ttu-id="5ac4c-169">选择项目。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-169">Select a product.</span></span> <span data-ttu-id="5ac4c-170">如果物料有图像，将显示该图像。</span><span class="sxs-lookup"><span data-stu-id="5ac4c-170">If the item has an image, the image is shown.</span></span>
+5.  <span data-ttu-id="5ac4c-171">选择以下选项之一查看现有库存量状态：</span><span class="sxs-lookup"><span data-stu-id="5ac4c-171">Select one of the following options to view the status of on-hand inventory:</span></span>
 
-    -   <span data-ttu-id="6a68b-172">按站点查看现有库存量</span><span class="sxs-lookup"><span data-stu-id="6a68b-172">View on-hand per site</span></span>
-    -   <span data-ttu-id="6a68b-173">按仓库查看现有库存量</span><span class="sxs-lookup"><span data-stu-id="6a68b-173">View on-hand per warehouse</span></span>
-    -   <span data-ttu-id="6a68b-174">按位置查看现有库存量</span><span class="sxs-lookup"><span data-stu-id="6a68b-174">View on-hand per location</span></span>
-    -   <span data-ttu-id="6a68b-175">按批次查看现有库存量（对于批次控制的产品）</span><span class="sxs-lookup"><span data-stu-id="6a68b-175">View on-hand per batch (for batch-controlled products)</span></span>
-    -   <span data-ttu-id="6a68b-176">按库存状态查看现有库存量</span><span class="sxs-lookup"><span data-stu-id="6a68b-176">View on-hand per inventory status</span></span>
+    -   <span data-ttu-id="5ac4c-172">按站点查看现有库存量</span><span class="sxs-lookup"><span data-stu-id="5ac4c-172">View on-hand per site</span></span>
+    -   <span data-ttu-id="5ac4c-173">按仓库查看现有库存量</span><span class="sxs-lookup"><span data-stu-id="5ac4c-173">View on-hand per warehouse</span></span>
+    -   <span data-ttu-id="5ac4c-174">按位置查看现有库存量</span><span class="sxs-lookup"><span data-stu-id="5ac4c-174">View on-hand per location</span></span>
+    -   <span data-ttu-id="5ac4c-175">按批次查看现有库存量（对于批次控制的产品）</span><span class="sxs-lookup"><span data-stu-id="5ac4c-175">View on-hand per batch (for batch-controlled products)</span></span>
+    -   <span data-ttu-id="5ac4c-176">按库存状态查看现有库存量</span><span class="sxs-lookup"><span data-stu-id="5ac4c-176">View on-hand per inventory status</span></span>
 
-    <span data-ttu-id="6a68b-177">按照以下方式显示产品的现有库存量：</span><span class="sxs-lookup"><span data-stu-id="6a68b-177">Product on-hand inventory is shown in the following ways:</span></span>
-    -   <span data-ttu-id="6a68b-178">按物理库存（此视图显示总金额。）</span><span class="sxs-lookup"><span data-stu-id="6a68b-178">By physical inventory (This view represents the total amount.)</span></span>
-    -   <span data-ttu-id="6a68b-179">按物理预留（此视图显示预留金额。）</span><span class="sxs-lookup"><span data-stu-id="6a68b-179">By physical reserved (This view represents the reserved amount.)</span></span>
-    -   <span data-ttu-id="6a68b-180">按物理可用量（此视图显示无预留的可用金额。）</span><span class="sxs-lookup"><span data-stu-id="6a68b-180">By available physical (This view represents the available amount that has no reservations.)</span></span>
+    <span data-ttu-id="5ac4c-177">按照以下方式显示产品的现有库存量：</span><span class="sxs-lookup"><span data-stu-id="5ac4c-177">Product on-hand inventory is shown in the following ways:</span></span>
+    -   <span data-ttu-id="5ac4c-178">按物理库存（此视图显示总金额。）</span><span class="sxs-lookup"><span data-stu-id="5ac4c-178">By physical inventory (This view represents the total amount.)</span></span>
+    -   <span data-ttu-id="5ac4c-179">按物理预留（此视图显示预留金额。）</span><span class="sxs-lookup"><span data-stu-id="5ac4c-179">By physical reserved (This view represents the reserved amount.)</span></span>
+    -   <span data-ttu-id="5ac4c-180">按物理可用量（此视图显示无预留的可用金额。）</span><span class="sxs-lookup"><span data-stu-id="5ac4c-180">By available physical (This view represents the available amount that has no reservations.)</span></span>

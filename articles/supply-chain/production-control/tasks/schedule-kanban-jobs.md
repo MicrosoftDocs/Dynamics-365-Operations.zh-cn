@@ -10,55 +10,55 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, KanbanPeriodCapacityPart, SysLookupMultiSelectGrid, KanbanBoardScheduleJobForward
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5170fecf0190591d74f45d35fecc4472e7f5e900
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3a56bca460af229b53d41959d48562ef425c0bf7
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562153"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843473"
 ---
-# <a name="schedule-kanban-jobs"></a><span data-ttu-id="b5c4d-103">计划看板作业</span><span class="sxs-lookup"><span data-stu-id="b5c4d-103">Schedule kanban jobs</span></span>
+# <a name="schedule-kanban-jobs"></a><span data-ttu-id="c304c-103">计划看板作业</span><span class="sxs-lookup"><span data-stu-id="c304c-103">Schedule kanban jobs</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b5c4d-104">此程序是为特定工作单元调度处理看板作业而设计的。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-104">This procedure focuses on scheduling process kanban jobs for a specific work cell.</span></span> <span data-ttu-id="b5c4d-105">创建该程序的先决条件是该程序为“在材料不可用的情况下特殊处理看板作业备用”。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-105">The procedure "Prepare a process kanban job when materials are not available" is a prerequisite for creating this procedure.</span></span> <span data-ttu-id="b5c4d-106">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="b5c4d-107">此任务用于车间主管与生产计划主任共同使用看板管理。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-107">This task is intended for the shop floor supervisor and production planner working with kanbans.</span></span>
+<span data-ttu-id="c304c-104">此程序是为特定工作单元调度处理看板作业而设计的。</span><span class="sxs-lookup"><span data-stu-id="c304c-104">This procedure focuses on scheduling process kanban jobs for a specific work cell.</span></span> <span data-ttu-id="c304c-105">创建该程序的先决条件是该程序为“在材料不可用的情况下特殊处理看板作业备用”。</span><span class="sxs-lookup"><span data-stu-id="c304c-105">The procedure "Prepare a process kanban job when materials are not available" is a prerequisite for creating this procedure.</span></span> <span data-ttu-id="c304c-106">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="c304c-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c304c-107">此任务用于车间主管与生产计划主任共同使用看板管理。</span><span class="sxs-lookup"><span data-stu-id="c304c-107">This task is intended for the shop floor supervisor and production planner working with kanbans.</span></span>
 
 
-## <a name="select-kanban-jobs-for-a-work-cell"></a><span data-ttu-id="b5c4d-108">为工作单元选择看板作业</span><span class="sxs-lookup"><span data-stu-id="b5c4d-108">Select kanban jobs for a work cell</span></span>
-1. <span data-ttu-id="b5c4d-109">转到“生产控制”>“看板管理”>“安排看板作业”。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-109">Go to Production control > Kanban > Kanban job scheduling.</span></span>
-2. <span data-ttu-id="b5c4d-110">展开“期间产能事实资料箱”</span><span class="sxs-lookup"><span data-stu-id="b5c4d-110">Expand the Period capacity fact box</span></span>
-    * <span data-ttu-id="b5c4d-111">展开“看板事实资料箱”。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-111">Expand the Kanban FactBox.</span></span>  
-3. <span data-ttu-id="b5c4d-112">在“工作单元”字段中，单击下拉按钮打开查找。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-112">In the Work cell field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="b5c4d-113">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-113">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="b5c4d-114">选择 1250 号工作单元。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-114">Select work cell 1250.</span></span> <span data-ttu-id="b5c4d-115">筛选资料之后将只展示 1250 号工作单元的工作情况。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-115">This will filter the view to display only the jobs for work cell 1250.</span></span>  
-5. <span data-ttu-id="b5c4d-116">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-116">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="b5c4d-117">单击“选择”。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-117">Click Select.</span></span>
+## <a name="select-kanban-jobs-for-a-work-cell"></a><span data-ttu-id="c304c-108">为工作单元选择看板作业</span><span class="sxs-lookup"><span data-stu-id="c304c-108">Select kanban jobs for a work cell</span></span>
+1. <span data-ttu-id="c304c-109">转到“生产控制”>“看板管理”>“安排看板作业”。</span><span class="sxs-lookup"><span data-stu-id="c304c-109">Go to Production control > Kanban > Kanban job scheduling.</span></span>
+2. <span data-ttu-id="c304c-110">展开“期间产能事实资料箱”</span><span class="sxs-lookup"><span data-stu-id="c304c-110">Expand the Period capacity fact box</span></span>
+    * <span data-ttu-id="c304c-111">展开“看板事实资料箱”。</span><span class="sxs-lookup"><span data-stu-id="c304c-111">Expand the Kanban FactBox.</span></span>  
+3. <span data-ttu-id="c304c-112">在“工作单元”字段中，单击下拉按钮打开查找。</span><span class="sxs-lookup"><span data-stu-id="c304c-112">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="c304c-113">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="c304c-113">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="c304c-114">选择 1250 号工作单元。</span><span class="sxs-lookup"><span data-stu-id="c304c-114">Select work cell 1250.</span></span> <span data-ttu-id="c304c-115">筛选资料之后将只展示 1250 号工作单元的工作情况。</span><span class="sxs-lookup"><span data-stu-id="c304c-115">This will filter the view to display only the jobs for work cell 1250.</span></span>  
+5. <span data-ttu-id="c304c-116">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="c304c-116">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="c304c-117">单击“选择”。</span><span class="sxs-lookup"><span data-stu-id="c304c-117">Click Select.</span></span>
 
-## <a name="schedule-a-kanban-job-in-the-first-available-period"></a><span data-ttu-id="b5c4d-118">在第一个可用期间内安排一个看板作业</span><span class="sxs-lookup"><span data-stu-id="b5c4d-118">Schedule a kanban job in the first available period</span></span>
-1. <span data-ttu-id="b5c4d-119">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-119">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="b5c4d-120">在“无计划状态”列表中选择第一行。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-120">Select the first row in the list that has the Not planned status.</span></span> <span data-ttu-id="b5c4d-121">“作业状态”字段中的可见图标为无计划状态。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-121">The dotted icon in the Job status field indicates not planned.</span></span>  
-2. <span data-ttu-id="b5c4d-122">单击“计划”。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-122">Click Schedule.</span></span>
-    * <span data-ttu-id="b5c4d-123">在第一个可用期间内安排看板作业。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-123">This will schedule the kanban job in the first available period.</span></span>  
-    * <span data-ttu-id="b5c4d-124">请注意该看板作业已转移到列表末尾，因为它已经添加到今天开始的这个期间。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-124">Notice that the kanban job is moved to the end of the list because it has been added to the period starting from today.</span></span>  
-    * <span data-ttu-id="b5c4d-125">如果从今天开始的期间已经预订完毕，该作业将转移到第一个可用期间。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-125">If the period starting from today is fully booked, the job will be moved to the first available period.</span></span>  
+## <a name="schedule-a-kanban-job-in-the-first-available-period"></a><span data-ttu-id="c304c-118">在第一个可用期间内安排一个看板作业</span><span class="sxs-lookup"><span data-stu-id="c304c-118">Schedule a kanban job in the first available period</span></span>
+1. <span data-ttu-id="c304c-119">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="c304c-119">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="c304c-120">在“无计划状态”列表中选择第一行。</span><span class="sxs-lookup"><span data-stu-id="c304c-120">Select the first row in the list that has the Not planned status.</span></span> <span data-ttu-id="c304c-121">“作业状态”字段中的可见图标为无计划状态。</span><span class="sxs-lookup"><span data-stu-id="c304c-121">The dotted icon in the Job status field indicates not planned.</span></span>  
+2. <span data-ttu-id="c304c-122">单击“计划”。</span><span class="sxs-lookup"><span data-stu-id="c304c-122">Click Schedule.</span></span>
+    * <span data-ttu-id="c304c-123">在第一个可用期间内安排看板作业。</span><span class="sxs-lookup"><span data-stu-id="c304c-123">This will schedule the kanban job in the first available period.</span></span>  
+    * <span data-ttu-id="c304c-124">请注意该看板作业已转移到列表末尾，因为它已经添加到今天开始的这个期间。</span><span class="sxs-lookup"><span data-stu-id="c304c-124">Notice that the kanban job is moved to the end of the list because it has been added to the period starting from today.</span></span>  
+    * <span data-ttu-id="c304c-125">如果从今天开始的期间已经预订完毕，该作业将转移到第一个可用期间。</span><span class="sxs-lookup"><span data-stu-id="c304c-125">If the period starting from today is fully booked, the job will be moved to the first available period.</span></span>  
 
-## <a name="schedule-two-kanban-jobs-for-a-specific-day"></a><span data-ttu-id="b5c4d-126">在具体日期安排两个计划作业</span><span class="sxs-lookup"><span data-stu-id="b5c4d-126">Schedule two kanban jobs for a specific day</span></span>
-1. <span data-ttu-id="b5c4d-127">在列表中，选择第一行 。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-127">In the list, select row 1.</span></span>
-    * <span data-ttu-id="b5c4d-128">请查看“作业状态”字段中显示“无计划状态”的第一行。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-128">You should see that the first row has the Not planned status in the Job status field.</span></span>  
-2. <span data-ttu-id="b5c4d-129">在列表中，选择第 2 行。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-129">In the list, select row 2.</span></span>
-    * <span data-ttu-id="b5c4d-130">请查看“作业状态”字段中显示“无计划状态”的第二行。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-130">You should see that the second row has the Not planned status in the Job status field.</span></span> <span data-ttu-id="b5c4d-131">现在您已经选择了第一行的两个作业。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-131">Now you have the first two jobs selected.</span></span>  
-3. <span data-ttu-id="b5c4d-132">单击“日期安排”打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-132">Click Schedule from date to open the drop dialog.</span></span>
-4. <span data-ttu-id="b5c4d-133">选中或取消选中“覆盖产能短缺反应箱”。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-133">Check or uncheck the Override capacity shortage reaction box.</span></span>
-    * <span data-ttu-id="b5c4d-134">此选项允许覆盖默认产能短缺反应。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-134">This option allows you to override the default capacity shortage reaction.</span></span>  
-5. <span data-ttu-id="b5c4d-135">在“产能短缺反应”字段中，选择“添加到请求期间”。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-135">In the Capacity shortage reaction field, select 'Add to the requested period'.</span></span>
-    * <span data-ttu-id="b5c4d-136">此选项确保该作业添加到所请求的期间，无论该工作单元是否出现超负荷状态。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-136">This option will ensure that the job is added to the requested period, regardless if the work cell might be overloaded.</span></span>  
-6. <span data-ttu-id="b5c4d-137">单击“计划”。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-137">Click Schedule.</span></span>
-    * <span data-ttu-id="b5c4d-138">请注意这两个作业都添加到了预期期间。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-138">Notice that both jobs are added to the desired period.</span></span>  
-    * <span data-ttu-id="b5c4d-139">在“期间产能”部分中，可查看每个期间的工作量。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-139">In the Period capacity section, you can see the load for each period.</span></span> <span data-ttu-id="b5c4d-140">“消耗量”字段显示该期间内的预定消耗量。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-140">The Consumption field shows the scheduled consumption in this period.</span></span> <span data-ttu-id="b5c4d-141">如果该期间内预定消耗量高于可用消耗量，将选择超负荷消耗量。</span><span class="sxs-lookup"><span data-stu-id="b5c4d-141">If the scheduled consumption is higher than the available capacity in this period, the overloaded consumption will be selected.</span></span>  
+## <a name="schedule-two-kanban-jobs-for-a-specific-day"></a><span data-ttu-id="c304c-126">在具体日期安排两个计划作业</span><span class="sxs-lookup"><span data-stu-id="c304c-126">Schedule two kanban jobs for a specific day</span></span>
+1. <span data-ttu-id="c304c-127">在列表中，选择第一行 。</span><span class="sxs-lookup"><span data-stu-id="c304c-127">In the list, select row 1.</span></span>
+    * <span data-ttu-id="c304c-128">请查看“作业状态”字段中显示“无计划状态”的第一行。</span><span class="sxs-lookup"><span data-stu-id="c304c-128">You should see that the first row has the Not planned status in the Job status field.</span></span>  
+2. <span data-ttu-id="c304c-129">在列表中，选择第 2 行。</span><span class="sxs-lookup"><span data-stu-id="c304c-129">In the list, select row 2.</span></span>
+    * <span data-ttu-id="c304c-130">请查看“作业状态”字段中显示“无计划状态”的第二行。</span><span class="sxs-lookup"><span data-stu-id="c304c-130">You should see that the second row has the Not planned status in the Job status field.</span></span> <span data-ttu-id="c304c-131">现在您已经选择了第一行的两个作业。</span><span class="sxs-lookup"><span data-stu-id="c304c-131">Now you have the first two jobs selected.</span></span>  
+3. <span data-ttu-id="c304c-132">单击“日期安排”打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="c304c-132">Click Schedule from date to open the drop dialog.</span></span>
+4. <span data-ttu-id="c304c-133">选中或取消选中“覆盖产能短缺反应箱”。</span><span class="sxs-lookup"><span data-stu-id="c304c-133">Check or uncheck the Override capacity shortage reaction box.</span></span>
+    * <span data-ttu-id="c304c-134">此选项允许覆盖默认产能短缺反应。</span><span class="sxs-lookup"><span data-stu-id="c304c-134">This option allows you to override the default capacity shortage reaction.</span></span>  
+5. <span data-ttu-id="c304c-135">在“产能短缺反应”字段中，选择“添加到请求期间”。</span><span class="sxs-lookup"><span data-stu-id="c304c-135">In the Capacity shortage reaction field, select 'Add to the requested period'.</span></span>
+    * <span data-ttu-id="c304c-136">此选项确保该作业添加到所请求的期间，无论该工作单元是否出现超负荷状态。</span><span class="sxs-lookup"><span data-stu-id="c304c-136">This option will ensure that the job is added to the requested period, regardless if the work cell might be overloaded.</span></span>  
+6. <span data-ttu-id="c304c-137">单击“计划”。</span><span class="sxs-lookup"><span data-stu-id="c304c-137">Click Schedule.</span></span>
+    * <span data-ttu-id="c304c-138">请注意这两个作业都添加到了预期期间。</span><span class="sxs-lookup"><span data-stu-id="c304c-138">Notice that both jobs are added to the desired period.</span></span>  
+    * <span data-ttu-id="c304c-139">在“期间产能”部分中，可查看每个期间的工作量。</span><span class="sxs-lookup"><span data-stu-id="c304c-139">In the Period capacity section, you can see the load for each period.</span></span> <span data-ttu-id="c304c-140">“消耗量”字段显示该期间内的预定消耗量。</span><span class="sxs-lookup"><span data-stu-id="c304c-140">The Consumption field shows the scheduled consumption in this period.</span></span> <span data-ttu-id="c304c-141">如果该期间内预定消耗量高于可用消耗量，将选择超负荷消耗量。</span><span class="sxs-lookup"><span data-stu-id="c304c-141">If the scheduled consumption is higher than the available capacity in this period, the overloaded consumption will be selected.</span></span>  
 

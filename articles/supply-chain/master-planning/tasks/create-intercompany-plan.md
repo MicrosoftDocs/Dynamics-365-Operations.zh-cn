@@ -10,54 +10,54 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqIntercompanyPlanningGroupSetup,  ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d378a89bbb4de6d67db0019dc72a27945d50c4e9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 194bb78eed5a673030f7cead031cf286cddbe77c
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555969"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845201"
 ---
-# <a name="create-an-intercompany-plan"></a><span data-ttu-id="4a4b1-103">创建内部公司计划</span><span class="sxs-lookup"><span data-stu-id="4a4b1-103">Create an intercompany plan</span></span>
+# <a name="create-an-intercompany-plan"></a><span data-ttu-id="bd6c9-103">创建内部公司计划</span><span class="sxs-lookup"><span data-stu-id="bd6c9-103">Create an intercompany plan</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="4a4b1-104">此过程显示如何创建内部公司计划。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-104">This procedure shows how to create an intercompany plan.</span></span> <span data-ttu-id="4a4b1-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-105">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="bd6c9-104">此过程显示如何创建内部公司计划。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-104">This procedure shows how to create an intercompany plan.</span></span> <span data-ttu-id="bd6c9-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-105">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="set-up-an-intercompany-planning-group"></a><span data-ttu-id="4a4b1-106">设置内部公司计划组</span><span class="sxs-lookup"><span data-stu-id="4a4b1-106">Set up an intercompany planning group</span></span> 
-1. <span data-ttu-id="4a4b1-107">转到“内部公司计划组”。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-107">Go to Intercompany planning groups.</span></span>
-    * <span data-ttu-id="4a4b1-108">“主计划”>“设置”>“内部公司计划组”</span><span class="sxs-lookup"><span data-stu-id="4a4b1-108">Master planning > Setup > Intercompany planning groups</span></span>  
-2. <span data-ttu-id="4a4b1-109">使用“快速筛选器”以查找记录。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-109">Use the Quick Filter to find records.</span></span> <span data-ttu-id="4a4b1-110">例如，使用值“10”在“名称”字段中进行筛选。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-110">For example, filter on the Name field with a value of '10'.</span></span>
-3. <span data-ttu-id="4a4b1-111">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-111">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="4a4b1-112">单击“删除”。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-112">Click Delete.</span></span>
-    * <span data-ttu-id="4a4b1-113">必须执行此步骤，才能缩短运行的内部公司计划。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-113">This step is necessary in order to shorten the intercompany planning run.</span></span>   <span data-ttu-id="4a4b1-114">内部公司计划将从最低计划序列开始在运行计划组中的所有公司运行主计划。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-114">Intercompany planning will run master planning in all the companies in a planning group, starting from the lowest scheduling sequence.</span></span>  
-5. <span data-ttu-id="4a4b1-115">单击“是”。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-115">Click Yes.</span></span>
-6. <span data-ttu-id="4a4b1-116">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-116">Close the page.</span></span>
+## <a name="set-up-an-intercompany-planning-group"></a><span data-ttu-id="bd6c9-106">设置内部公司计划组</span><span class="sxs-lookup"><span data-stu-id="bd6c9-106">Set up an intercompany planning group</span></span> 
+1. <span data-ttu-id="bd6c9-107">转到“内部公司计划组”。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-107">Go to Intercompany planning groups.</span></span>
+    * <span data-ttu-id="bd6c9-108">“主计划”>“设置”>“内部公司计划组”</span><span class="sxs-lookup"><span data-stu-id="bd6c9-108">Master planning > Setup > Intercompany planning groups</span></span>  
+2. <span data-ttu-id="bd6c9-109">使用“快速筛选器”以查找记录。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-109">Use the Quick Filter to find records.</span></span> <span data-ttu-id="bd6c9-110">例如，使用值“10”在“名称”字段中进行筛选。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-110">For example, filter on the Name field with a value of '10'.</span></span>
+3. <span data-ttu-id="bd6c9-111">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-111">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="bd6c9-112">单击“删除”。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-112">Click Delete.</span></span>
+    * <span data-ttu-id="bd6c9-113">必须执行此步骤，才能缩短运行的内部公司计划。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-113">This step is necessary in order to shorten the intercompany planning run.</span></span>   <span data-ttu-id="bd6c9-114">内部公司计划将从最低计划序列开始在运行计划组中的所有公司运行主计划。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-114">Intercompany planning will run master planning in all the companies in a planning group, starting from the lowest scheduling sequence.</span></span>  
+5. <span data-ttu-id="bd6c9-115">单击“是”。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-115">Click Yes.</span></span>
+6. <span data-ttu-id="bd6c9-116">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-116">Close the page.</span></span>
 
-## <a name="create-an-intercompany-plan"></a><span data-ttu-id="4a4b1-117">创建内部公司计划</span><span class="sxs-lookup"><span data-stu-id="4a4b1-117">Create an intercompany plan</span></span>
-1. <span data-ttu-id="4a4b1-118">单击“内部公司主计划”。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-118">Click Intercompany master planning.</span></span>
-    * <span data-ttu-id="4a4b1-119">这位于“主计划”工作区中。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-119">This is on the Master planning workspace.</span></span>  
-2. <span data-ttu-id="4a4b1-120">在“内部公司计划组”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-120">In the Intercompany planning group field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="4a4b1-121">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-121">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="4a4b1-122">选择内部公司计划组 10。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-122">Select intercompany planning group 10.</span></span>  
-4. <span data-ttu-id="4a4b1-123">在“内部公司计划迭代数”中，输入“2”。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-123">In the Number of intercompany planning iterations field, enter '2'.</span></span>
-    * <span data-ttu-id="4a4b1-124">内部公司计划组 10 有两个成员。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-124">Intercompany planning group 10 has two members.</span></span> <span data-ttu-id="4a4b1-125">若要将延迟从源公司 (USMF) 传播到客户公司 (DEMF)，需要在两个公司内两次运行内部公司。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-125">In order to propagate the delays from the source company (USMF) to the customer company (DEMF), you will need to run intercompany in both companies two times.</span></span> <span data-ttu-id="4a4b1-126">第一个迭代将传播需求，并在源公司 (USMF) 中识别延迟。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-126">The first iteration will propagate the demand and identify the delays in the source company (USMF).</span></span> <span data-ttu-id="4a4b1-127">第二个迭代将把延迟从 USMF 传播到 DEMF。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-127">The second iteration will propagate the delays from USMF to DEMF.</span></span>  
-5. <span data-ttu-id="4a4b1-128">在“第一个迭代”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-128">In the First iteration field, select an option.</span></span>
-6. <span data-ttu-id="4a4b1-129">在“第一个迭代”字段中，选择“重新生成”。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-129">In the First iteration field, select 'Regeneration'.</span></span>
-7. <span data-ttu-id="4a4b1-130">在“后面的迭代”字段中，选择“重新生成”。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-130">In the Subsequent iterations field, select 'Regeneration'.</span></span>
-8. <span data-ttu-id="4a4b1-131">在“线程数”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-131">In the Number of threads field, enter a number.</span></span>
-    * <span data-ttu-id="4a4b1-132">这表示用于计划的并行线程数。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-132">This represents the number of parallel threads used for planning.</span></span>  
-9. <span data-ttu-id="4a4b1-133">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-133">Click OK.</span></span>
+## <a name="create-an-intercompany-plan"></a><span data-ttu-id="bd6c9-117">创建内部公司计划</span><span class="sxs-lookup"><span data-stu-id="bd6c9-117">Create an intercompany plan</span></span>
+1. <span data-ttu-id="bd6c9-118">单击“内部公司主计划”。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-118">Click Intercompany master planning.</span></span>
+    * <span data-ttu-id="bd6c9-119">这位于“主计划”工作区中。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-119">This is on the Master planning workspace.</span></span>  
+2. <span data-ttu-id="bd6c9-120">在“内部公司计划组”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-120">In the Intercompany planning group field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="bd6c9-121">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-121">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="bd6c9-122">选择内部公司计划组 10。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-122">Select intercompany planning group 10.</span></span>  
+4. <span data-ttu-id="bd6c9-123">在“内部公司计划迭代数”中，输入“2”。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-123">In the Number of intercompany planning iterations field, enter '2'.</span></span>
+    * <span data-ttu-id="bd6c9-124">内部公司计划组 10 有两个成员。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-124">Intercompany planning group 10 has two members.</span></span> <span data-ttu-id="bd6c9-125">若要将延迟从源公司 (USMF) 传播到客户公司 (DEMF)，需要在两个公司内两次运行内部公司。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-125">In order to propagate the delays from the source company (USMF) to the customer company (DEMF), you will need to run intercompany in both companies two times.</span></span> <span data-ttu-id="bd6c9-126">第一个迭代将传播需求，并在源公司 (USMF) 中识别延迟。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-126">The first iteration will propagate the demand and identify the delays in the source company (USMF).</span></span> <span data-ttu-id="bd6c9-127">第二个迭代将把延迟从 USMF 传播到 DEMF。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-127">The second iteration will propagate the delays from USMF to DEMF.</span></span>  
+5. <span data-ttu-id="bd6c9-128">在“第一个迭代”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-128">In the First iteration field, select an option.</span></span>
+6. <span data-ttu-id="bd6c9-129">在“第一个迭代”字段中，选择“重新生成”。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-129">In the First iteration field, select 'Regeneration'.</span></span>
+7. <span data-ttu-id="bd6c9-130">在“后面的迭代”字段中，选择“重新生成”。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-130">In the Subsequent iterations field, select 'Regeneration'.</span></span>
+8. <span data-ttu-id="bd6c9-131">在“线程数”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-131">In the Number of threads field, enter a number.</span></span>
+    * <span data-ttu-id="bd6c9-132">这表示用于计划的并行线程数。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-132">This represents the number of parallel threads used for planning.</span></span>  
+9. <span data-ttu-id="bd6c9-133">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-133">Click OK.</span></span>
 
-## <a name="view-the-result-of-the-plan"></a><span data-ttu-id="4a4b1-134">查看计划的结果</span><span class="sxs-lookup"><span data-stu-id="4a4b1-134">View the result of the plan</span></span>
-1. <span data-ttu-id="4a4b1-135">在“计划”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-135">In the Plan field, click the drop-down button to open the lookup.</span></span>
-2. <span data-ttu-id="4a4b1-136">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-136">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="4a4b1-137">单击 StaticPlan 的链接。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-137">Click the link for StaticPlan.</span></span> <span data-ttu-id="4a4b1-138">您需要是 USMF 公司的。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-138">You need to be in company USMF.</span></span>  
-3. <span data-ttu-id="4a4b1-139">单击“计划订单”。</span><span class="sxs-lookup"><span data-stu-id="4a4b1-139">Click Planned orders.</span></span>
+## <a name="view-the-result-of-the-plan"></a><span data-ttu-id="bd6c9-134">查看计划的结果</span><span class="sxs-lookup"><span data-stu-id="bd6c9-134">View the result of the plan</span></span>
+1. <span data-ttu-id="bd6c9-135">在“计划”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-135">In the Plan field, click the drop-down button to open the lookup.</span></span>
+2. <span data-ttu-id="bd6c9-136">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-136">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="bd6c9-137">单击 StaticPlan 的链接。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-137">Click the link for StaticPlan.</span></span> <span data-ttu-id="bd6c9-138">您需要是 USMF 公司的。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-138">You need to be in company USMF.</span></span>  
+3. <span data-ttu-id="bd6c9-139">单击“计划订单”。</span><span class="sxs-lookup"><span data-stu-id="bd6c9-139">Click Planned orders.</span></span>
 
