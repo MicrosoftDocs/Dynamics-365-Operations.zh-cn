@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab9f2f5ea07ae1d616c48dffa8810b966f7dbb2f
-ms.sourcegitcommit: 33e98f89294086334fe9c0a350abb6a52ef9dacb
+ms.openlocfilehash: 4c0afd0f5754e59307a82af9c9700b36c31edcc4
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1711123"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1851351"
 ---
 # <a name="assign-users-to-security-roles"></a>向安全角色分配用户
 

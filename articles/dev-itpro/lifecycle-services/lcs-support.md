@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: IT Pro, Developer, Application user
-ms.reviewer: kfend
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.custom: 254844
 ms.assetid: 0e9471f9-4c2b-42f0-9b10-6578211f01d5
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ad96a3aa3ac80045345b839ea8a923884061aeb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 141e716f1f66e3b234b4d828c039b628c12e3750
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552479"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850645"
 ---
 # <a name="get-support-for-finance-and-operations-or-lifecycle-services-lcs"></a>获取对 Finance and Operations 或 Lifecycle Services (LCS) 的支持
 
@@ -91,5 +91,5 @@ ms.locfileid: "1552479"
 ## <a name="additional-resources"></a>其他资源
 - [获取 Dynamics 365 for Retail 支持](../../retail/retail-support.md)
 - [获取 Dynamics 365 for Talent 支持](../../talent/talent-support.md)
-- 有关 Microsoft Dynamics 支持产品的详细信息，请参阅 [Microsoft Dynamics Online 支持](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx)。
+- 有关 Microsoft Dynamics 支持产品的详细信息，请参阅 [Microsoft Dynamics Online 支持](https://www.microsoft.com/dynamics/dynamics-online-support.aspx)。
 

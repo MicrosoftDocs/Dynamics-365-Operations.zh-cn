@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.custom: ''
 ms.assetid: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 48239b48cbc24e34d74bbac36e8f827a15d7b840
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e41fe5e94ebafa6a82a824e3260ad97365da5b60
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551045"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850385"
 ---
 # <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>从包含多个工作表的 Excel 数据实体模板中导入数据
 

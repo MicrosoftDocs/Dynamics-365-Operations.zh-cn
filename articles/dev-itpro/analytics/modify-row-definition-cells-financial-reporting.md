@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551829"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863716"
 ---
 # <a name="modify-row-definition-cells"></a>修改行定义单元格
 
@@ -402,7 +402,7 @@ ms.locfileid: "1551829"
 2. 双击**指向财务维度的链接**列中的单元格。
 3. 在**维度**对话框中，双击维度名称下的单元格。
 4. 在维度的对话框中，选择**单个或系列**。
-5. 在**从**字段中，输入起始维度，或单击![浏览](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "浏览")搜索可用维度。 要输入维度的范围，在**到**字段中输入结束维度。
+5. 在**从**字段中，输入起始维度，或单击![浏览](media/browse.gif "浏览")搜索可用维度。 要输入维度的范围，在**到**字段中输入结束维度。
 6. 单击**确定**以关闭维度的对话框。 **维度**对话框将显示更新后的维度或范围。
 7. 单击**确定**以关闭**维度**对话框。
 
@@ -479,7 +479,7 @@ ms.locfileid: "1551829"
 
 | 项目                | 说明 |
 |---------------------|-------------|
-| 单个或范围 | 在**从**字段中，输入科目的名称，或单击**浏览**按钮![浏览](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "浏览")以浏览科目。 要选择范围，请在**到**字段中输入值或浏览值。 |
+| 单个或范围 | 在**从**字段中，输入科目的名称，或单击**浏览**按钮![浏览](media/browse.gif "浏览")以浏览科目。 要选择范围，请在**到**字段中输入值或浏览值。 |
 | 维度值集 | 在**名称**字段中，输入维度值集的名称。 要创建、修改、复制或删除集，请单击**管理维度值集**。 **公式**字段将使用行定义中此维度值集的**链接到财务维度**单元格中的公式填充。 |
 | 会计科目合计   | 在**名称**字段中，输入或浏览汇总科目的维度。 **公式**字段将使用报表定义中此汇总科目的**链接到财务维度**单元格中的公式填充。 |
 

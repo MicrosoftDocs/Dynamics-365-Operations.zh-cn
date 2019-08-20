@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8c1b90b7b2c02a53e53cc13d70445a237b126d4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 76cf1f24a31f246a41601908ebba308551925d90
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559771"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863004"
 ---
 # <a name="correct-a-free-text-invoice"></a>更正普通发票
 
@@ -47,7 +47,7 @@ ms.locfileid: "1559771"
 -   普通发票的标题显示状态**正在取消发票‘\[发票编号\]** 或**已更正的发票‘\[发票编号\]**。
 
 > [!NOTE]
-> 只有当选择**普通发票更正**配置键后，此功能才可用。
+> 只有当选择**普通发票更正**配置键后，此功能才可用。 有关如何启用 Configuration keys 的详细信息，请参阅[维护模式](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/maintenance-mode)主题中的“启用（或禁用）configuration key”部分。 
 
 
 

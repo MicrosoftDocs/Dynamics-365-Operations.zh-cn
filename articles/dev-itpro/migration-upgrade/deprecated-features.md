@@ -3,7 +3,7 @@ title: 已删除或弃用的功能
 description: 本主题介绍已经删除或计划删除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
-ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
+ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624899"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863375"
 ---
 # <a name="removed-or-deprecated-features"></a>已移除或弃用的功能
 
@@ -40,10 +40,32 @@ ms.locfileid: "1624899"
 
 > [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations 中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 各版本中已更改或已删除的对象。
 
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>带平台更新 28 的 Dynamics 365 for Finance and Operations 10.0.4
+## <a name="dynamics-365-for-finance-and-operations-1005-with-platform-update-29"></a>带平台更新 29 的 Dynamics 365 for Finance and Operations 10.0.5
 
 > [!IMPORTANT]
-> 带平台更新 28 的 Dynamics 365 for Finance and Operations 10.0.4 已作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅[服务更新可用性](../../fin-and-ops/get-started/public-preview-releases.md)。
+> 带平台更新 29 的 Dynamics 365 for Finance and Operations 10.0.5 已作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅[服务更新可用性](../../fin-and-ops/get-started/public-preview-releases.md)。
+
+### <a name="us-payroll-tax-updates"></a>美国工资单税更新
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 我们停止了美国工资单税更新功能，原因是使用率低，并且现在通过战略集成提供增强功能。  |
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域**         | 工资单 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用：我们计划从 2021 年 10 月 1 日开始不再向美国工资单客户提供税更新。 此功能将留在产品中，但是不再通过增强让此功能保持最新，并且将根据具体案例评估所有产品瑕疵。 有关详细信息，请参阅 [Microsoft Dynamics 365 for Finance and Operations 中的美国工资单功能将停止税更新](https://aka.ms/financepayrollfaq)。 |
+
+
+### <a name="data-management-staging-clean-up"></a>清除数据管理暂存
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 不满足安排定期清理所需核心要求。 |
+| **被另一个功能取代？**   | 是，将增加作业历史记录清理功能以全面满足方案的要求。 |
+| **影响的产品区域**         | 数据管理 |
+| **部署选项**              | 所有  |
+| **状态**                         | 已弃用：移除功能的目标时间范围为 2020 年十二月。 |
+
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>带平台更新 28 的 Dynamics 365 for Finance and Operations 10.0.4
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>法国：以 XML 格式导出 FEC 会计数据
 
@@ -1235,7 +1257,7 @@ Microsoft Dynamics AX 2012 通过使用“未实现的增值税”的墨西哥�
 
 ### <a name="virtual-company-accounts"></a>虚拟公司帐户
 
-Dynamics AX 中不再支持虚拟公司功能。 虚拟公司功能允许用户设置可以由一组公司共享的表。 有关该功能的描述，请参阅[公司帐户和虚拟公司帐户](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx)。 该功能的工作原理是将表分组到集合，然后集合分配给虚拟公司，即现有的“实际”公司的组。 创建查询，以便虚拟公司中的所有公司可以访问关联表集合的表中的数据。
+Dynamics AX 中不再支持虚拟公司功能。 虚拟公司功能允许用户设置可以由一组公司共享的表。 有关该功能的描述，请参阅[公司帐户和虚拟公司帐户](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx)。 该功能的工作原理是将表分组到集合，然后集合分配给虚拟公司，即现有的“实际”公司的组。 创建查询，以便虚拟公司中的所有公司可以访问关联表集合的表中的数据。
 
 |   |  | 
 |------------|--------------------|

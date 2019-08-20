@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
-ms.reviewer: rschloma
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7be1495fc42b5f19884a7d9df747f6bec9b64680
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3a94f7ab9df19200754e39ba5a46f13bfdb1a3ab
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561683"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852097"
 ---
 # <a name="view-and-export-field-descriptions"></a>查看和导出字段描述
 

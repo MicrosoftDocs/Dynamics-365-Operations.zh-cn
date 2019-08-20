@@ -3,7 +3,7 @@ title: 产品维度
 description: 有四产品维度 - 颜色、配置、大小和样式。 您在维度组中合并产品维度，并将维度组分配给基础产品。 产品维度的组合确定如何定义产品变型。
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccb9d47bf6f081dbcc9590bddd4516cf7385ec23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3391679696c0e1dd84840821480ccbfb544829a6
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563566"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863028"
 ---
 # <a name="product-dimensions"></a>产品维度
 
@@ -35,8 +35,8 @@ ms.locfileid: "1563566"
 有四产品维度 - 颜色、配置、大小和样式。 您在维度组中合并产品维度，并将维度组分配给基础产品。 产品维度的组合确定如何定义产品变型。
 
 产品维度是用于标识产品变型的特性。 您可以使用产品维度的组合来定义产品变型。 必须至少为基础产品定义一个产品维度，以便创建产品变型。
-产品变型
-----------------
+
+## <a name="product-variants"></a>产品变型
 
 产品变型也称作物料。 该物料是与服务不同的有形产品。 还可以用服务类型定义基础产品。 通过使用“服务”类型，可以指定包括服务的产品变型。 例如，您可以为咨询工作指定基础产品，为高级顾问和初级顾问执行的工作指定产品变型。
 

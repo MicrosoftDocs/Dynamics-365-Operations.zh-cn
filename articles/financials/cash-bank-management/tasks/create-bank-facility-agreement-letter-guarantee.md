@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04ee7b1483f3b8a7cda7fce5439586f0a2979e51
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cb2fe6bfebcc0cc302d623a34fd994a57cbea1c8
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566171"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842035"
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>创建保函的银行信贷协议
 

@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User, IT Pro, Developer
-ms.reviewer: sericks
+ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 2f6d3d466b7e8a51cb997a7fc63fc61c804f63e6
-ms.sourcegitcommit: bbc9aa0d6b94a942e1f4d5b038601509dcc87937
+ms.openlocfilehash: 23156e4f19beaf1bfe6ab9a66a326d55e7d85213
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1619208"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845688"
 ---
 # <a name="whats-new-and-changed-in-dynamics-365-for-retail"></a>Dynamics 365 for Retail 中的新增功能和更改
 

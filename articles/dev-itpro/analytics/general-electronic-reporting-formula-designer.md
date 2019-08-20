@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
-ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
+ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625864"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849501"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>电子申报中 (ER) 的配方设计器
 
@@ -215,12 +215,12 @@ ER 表达式可以包含任意或所有以下元素：
 | TODAY () | 返回当前的 Finance and Operations 应用程序服务器日期作为日期值。 | |
 | NULLDATE () | 返回**空**日期值。 | |
 | NULLDATETIME () | 返回**空**日期/时间值。 | |
-| DATETIMEFORMAT（日期时间，格式） | 转换指定的日期/时间值为指定格式的字符串。 （有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)。） | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** 根据指定的自定义格式返回当前的 Finance and Operations 应用程序服务器日期 2015 年 12 月 24 日为 **"24-12-2015"**。 |
-| DATETIMEFORMAT（日期时间，格式，区域性） | 转换指定的日期/时间值为指定格式和[区域性](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)的字符串。 （有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)。） | **DATETIMEFORMAT (NOW(), "d", "de")** 根据所选的德国区域性返回当前的 Finance and Operations 应用程序服务器日期 2015 年 12 月 24 日为 **"24.12.2015"**。 |
+| DATETIMEFORMAT（日期时间，格式） | 转换指定的日期/时间值为指定格式的字符串。 （有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx)。） | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** 根据指定的自定义格式返回当前的 Finance and Operations 应用程序服务器日期 2015 年 12 月 24 日为 **"24-12-2015"**。 |
+| DATETIMEFORMAT（日期时间，格式，区域性） | 转换指定的日期/时间值为指定格式和[区域性](https://msdn.microsoft.com/goglobal/bb896001.aspx)的字符串。 （有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx)。） | **DATETIMEFORMAT (NOW(), "d", "de")** 根据所选的德国区域性返回当前的 Finance and Operations 应用程序服务器日期 2015 年 12 月 24 日为 **"24.12.2015"**。 |
 | SESSIONTODAY () | 返回当前的 Finance and Operations 会话日期作为日期值。 | |
 | SESSIONNOW () | 返回当前的 Finance and Operations 会话日期和时间作为日期/时间值。 | |
 | DATEFORMAT（日期，格式） | 以指定格式返回指定日期的字符串表示形式。 | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** 根据指定的自定义格式返回当前的 Finance and Operations 会话日期 2015 年 12 月 24 日为 **"24-12-2015"**。 |
-| DATEFORMAT（日期，格式，区域性） | 转换指定的日期值为指定格式和[区域性](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)的字符串。 （有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)。） | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** 根据所选的德国区域性返回当前的 Finance and Operations 会话日期 2015 年 12 月 24 日为 **"24.12.2015"**。 |
+| DATEFORMAT（日期，格式，区域性） | 转换指定的日期值为指定格式和[区域性](https://msdn.microsoft.com/goglobal/bb896001.aspx)的字符串。 （有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx)。） | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** 根据所选的德国区域性返回当前的 Finance and Operations 会话日期 2015 年 12 月 24 日为 **"24.12.2015"**。 |
 | DAYOFYEAR（日期） | 返回 1 月 1 日与指定日期之间的天数的整数表现形式。 | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** 返回 **61**。 **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** 返回 **1**。 |
 | DAYS (date 1, date 2) | 返回指定的第一个日期与第二个日期之间的天数。 第一个日期比第二个日期晚时返回正值，第一个日期等于第二个日期时返回 **0**，第一个日期比第二个日期早时返回负值。 | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** 返回 **-1**。 |
 
@@ -649,12 +649,12 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </tr>
 <tr>
 <td>NUMBERFORMAT（数字，格式）</td>
-<td>以指定格式返回指定数值的字符串表示形式。 （有关支持的格式的信息，请参阅<a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">标准</a>和<a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">自定义</a>。）此函数在其中运行的环境确定设置数字格式的区域性。</td>
+<td>以指定格式返回指定数值的字符串表示形式。 （有关支持的格式的信息，请参阅<a href="https://msdn.microsoft.com/library/dwhawy9k(v=vs.110).aspx">标准</a>和<a href="https://msdn.microsoft.com/library/0c899ak8(v=vs.110).aspx">自定义</a>。）此函数在其中运行的环境确定设置数字格式的区域性。</td>
 <td>对于 EN-US 区域性，<strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> 返回 <strong>&quot;45.00 %&quot;</strong>。 <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> 返回 <strong>&quot;10&quot;</strong>。</td>
 </tr>
 <tr>
 <td>NUMBERFORMAT (number, format, culture)</td>
-<td>以指定格式和给定区域性返回指定数字的字符串表示形式。 （有关支持格式的信息，请参阅<a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">标准</a>和<a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">自定义</a>。）</td>
+<td>以指定格式和给定区域性返回指定数字的字符串表示形式。 （有关支持格式的信息，请参阅<a href="https://docs.microsoft.com/dotnet/standard/base-types/standard-numeric-format-strings">标准</a>和<a href="https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings">自定义</a>。）</td>
 <td><strong>NUMBERFORMAT (10/3, “F2”, "de")</strong> 返回 <strong>3,33</strong>，而 <strong>NUMBERFORMAT (10/3, “F2”, "en-us")</strong> 则返回 <strong>3.33</strong>。</td>
 </tr>
 <tr>

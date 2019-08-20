@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
-ms.reviewer: robinr
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5cfb2377ad290bff9c50819876d79a9d4b2a73d8
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548177"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848589"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>使用 Power BI Embedded 将分析添加到工作区
 
@@ -45,10 +45,10 @@ ms.locfileid: "1548177"
 4. 可选：添加扩展以自定义视图。
 
 > [!NOTE]
-> 有关如何创建分析报表的详细信息，请参阅 [Power BI Desktop 入门](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)。 此页是提供帮助你创建出色的分析报告解决方案的见解的出色来源。
+> 有关如何创建分析报表的详细信息，请参阅 [Power BI Desktop 入门](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/)。 此页是提供帮助你创建出色的分析报告解决方案的见解的出色来源。
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>将 .pbix 文件添加为资源。
-在开始之前，你必须创建或获得在工作区中将嵌入的 Power BI 报表。 有关如何创建分析报表的详细信息，请参阅 [Power BI Desktop 入门](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)。
+在开始之前，你必须创建或获得在工作区中将嵌入的 Power BI 报表。 有关如何创建分析报表的详细信息，请参阅 [Power BI Desktop 入门](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/)。
 
 执行以下步骤以将 .pbix 文件添加为 Visual Studio 项目。
 
