@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ea1cd9926f3ea55d82f9030372a15b3545ed824
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cb879103c86cd251efcb1d3efa1faf847cb5ca74
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563777"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842297"
 ---
 # <a name="postdated-checks"></a>远期支票
 
@@ -71,7 +71,7 @@ Microsoft Dynamics 365 for Finance and Operations 支持应收帐款和应付帐
 </tr>
 <tr class="odd">
 <td>取消供应商的远期支票</td>
-<td>您可以在以下情况下取消已过帐的远期支票: - 银行退回了支票。
+<td>您可以在以下情况下取消已过帐的远期支票：- 银行退回了支票。
 - 该支票被应用于不正确的发票。
 - 现金支付是针对发票而存在的。
   </td>

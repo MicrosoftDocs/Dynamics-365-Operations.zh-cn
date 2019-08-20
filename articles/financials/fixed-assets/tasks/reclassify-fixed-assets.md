@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df4a2fa3c1a38519da83391bcf1c4aa38b6504ff
-ms.sourcegitcommit: 6890b5a372a18e11354003098a512685e339ddb0
+ms.openlocfilehash: 47d8cf2ff1e275df0466a7fe327a3180c0399e49
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "1541189"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839921"
 ---
 # <a name="reclassify-fixed-assets"></a>将固定资产重新分类
 
