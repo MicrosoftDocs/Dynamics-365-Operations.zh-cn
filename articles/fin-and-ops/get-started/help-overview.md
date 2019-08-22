@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
-ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
+ms.openlocfilehash: a7a6e0ef960d137a2897ef36bbd80380ed494281
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625321"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850847"
 ---
 # <a name="finance-and-operations-help-system"></a>Finance and Operations 帮助系统
 
@@ -99,7 +99,7 @@ Finance and Operations 和 Retail 均共用文档站点上的一个内容表，�
 
 您可以参与和编辑 Finance and Operations 文档。 若要开始，请单击主题上的**编辑**（铅笔）按钮或转到我们的存储库：<https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>。 以下视频显示如何参与我们的文档。
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
 YouTube 上的 [Dynamics 365 播放列表中的新增内容](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9)中包含[如何参与 Microsoft Dynamics 365 文档](https://youtu.be/m5djioozRbg)视频（上面所示）。
 

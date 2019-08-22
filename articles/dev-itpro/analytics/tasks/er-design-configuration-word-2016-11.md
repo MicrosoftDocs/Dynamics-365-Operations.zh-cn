@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd138fb5fea4098a862fbecba5e8ec226ed6afa9
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551500"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850295"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>设计 ER 配置以生成 Word 格式的报表
 
@@ -64,7 +64,7 @@ ms.locfileid: "1551500"
     * 除了存储配置更改之外，“保存”操作还会更新附加的 Word 模板。 所设计格式的结构采用名称“报表”并作为新的自定义 XML 的一部分移植到附加的 Word 文档。 请注意，附加的 Word 模板中不仅包含要作为 ER 输出生成的文档的布局，还包含 ER 将在运行时填充到此模板中的数据的结构。  
 2. 单击“附加”。
     * 现在需要将自定义 XML 部件“报表”的元素绑定到 Word 文档部件。  
-    * 如果您熟悉可设计为包含与自定义 XML 部件的元素绑定的内容控件的窗体的 Word 文档，请执行下一个子任务的所有步骤以创建此类文档。 有关详细信息，请访问以下链接：https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US。 否则，请跳过下一子任务的所有步骤。  
+    * 如果您熟悉可设计为包含与自定义 XML 部件的元素绑定的内容控件的窗体的 Word 文档，请执行下一个子任务的所有步骤以创建此类文档。 有关详细信息，请访问以下链接：https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US。 否则，请跳过下一子任务的所有步骤。  
 
 ## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>让包含自定义 XML 部件的 Word 执行数据绑定
     * 在 Word 中打开此文档并执行以下操作：- 打开“Word 开发人员”选项卡（如果尚未启用此选项卡，请自定义功能区）。  - 选择“XML 映射”窗格。  - 在查找中选择自定义 XML 部件“报表”。  - 执行所选自定义 XML 部件的元素与 Word 文档的内容控件之间的映射。  - 将更新后的 Word 文档保存到本地驱动器。  

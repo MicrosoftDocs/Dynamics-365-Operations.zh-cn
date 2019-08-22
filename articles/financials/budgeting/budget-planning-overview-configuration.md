@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 560a5346e33e1b98a7513b6d7c033fe35458f63a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570964"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834142"
 ---
 # <a name="budget-planning-overview"></a>预算计划概览
 
@@ -154,6 +154,8 @@ ms.locfileid: "1570964"
 [![列](./media/columns.png)](./media/columns.png) 
 
 您也可以指定每个布局元素（列）是否可编辑，以及其是否可用于为该布局创建的任何工作表模板。 对于示例架构，在用于估计阶段的布局中，预测列可编辑，而 PY 销售和合同列都是只读的。
+
+[!Note] 默认情况下，除非使用[扩展预算计划布局](./extending-budget-planning-layout.md)中的步骤扩展预算计划，否则限制为 36 列。
 
 ### <a name="templates"></a>模板
 

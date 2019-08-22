@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0a965e8de596decf39a15977e6df8a6aa9dd35b0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3b6427d7eede8fe35fcd86928c3d5b8507876e2e
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571092"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846067"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>将项目实际值直接从 Project Service Automation 同步到 Finance and Operations 中的项目集成日记帐进行过帐
 
@@ -80,7 +80,7 @@ Project Service Automation 到 Finance and Operations 集成解决方案使用�
 在项目实际值模板中，必须使用 Microsoft Power Query for Excel 才能完成以下任务：
 
 - 将 Project Service Automation 中的交易记录类型转换为 Finance and Operations 中的正确交易记录类型。 已经在项目实际值（PSA 到 Fin and Ops）模板中定义了此项转换。
-- 将 Project Service Automation 中的计费类型转换为 Finance and Operations 中的正确计费类型。 已经在项目实际值（PSA 到 Fin and Ops）模板中定义了此项转换。 然后将根据 **Dynamics 365 for Project Service Automation 集成参数**页面中的配置把计费类型映射到行属性。
+- 将 Project Service Automation 中的计费类型转换为 Finance and Operations 中的正确计费类型。 已经在项目实际值（PSA 到 Fin and Ops）模板中定义了此项转换。 然后将根据 **Project Service Automation 集成参数**页面中的配置把计费类型映射到行属性。
 - 筛选出必须使用此模板同步的特定资源组织单位。
 - 如果公司间时间或公司间支出实际值将同步到 Finance and Operations，您必须在 Finance and Operations 中将合同组织单位转换为正确的法人。 在项目实际值（PSA 到 Fin and Ops）模板中已基于演示数据定义了一个条件列。 必须将最后插入的条件列更新为正确的法人。 否则可能出现错误或将不正确的交易记录导入 Finance and Operations 中。
 - 如果不将公司间时间或公司间支出实际值同步到 Finance and operations，则必须从模板中删除最后插入的条件列。 否则可能出现错误或将不正确的交易记录导入 Finance and Operations 中。

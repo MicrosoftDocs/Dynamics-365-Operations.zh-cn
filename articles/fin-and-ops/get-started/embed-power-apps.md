@@ -10,17 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FormRunConfigurationAddPAControl, FormRunConfigurationEditPAControl
 audience: Application User, Developer, IT Pro
+ms.reviewer: sericks
 ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 262d34cbc50251595d22c27387fbd3f1045d1fbb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4bb8af1ffbe1b627856e0476eba5be2fc075d15f
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552780"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1794870"
 ---
 # <a name="embed-powerapps-apps"></a>嵌入 PowerApps 应用
 

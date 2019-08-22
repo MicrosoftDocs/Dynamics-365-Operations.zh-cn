@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1815a0004eee6734b3c7d2c2f9e75ce5fe16af1c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 05c0c4a38f34774e7018504c5e3fab834a2ec1b1
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544740"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850271"
 ---
-# <a name="create-formats-to-use-document-management-files-in-er-output"></a>创建在 ER 输出中使用票据管理文件的格式
+# <a name="er-use-document-management-files-in-format-outputs-part-3-create-format"></a>ER 在格式输出中使用票据管理文件（第 3 部分：创建格式）
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

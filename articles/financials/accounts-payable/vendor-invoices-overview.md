@@ -3,14 +3,14 @@ title: 供应商发票概览
 description: 本主题提供有关供应商发票的一般信息。 供应商发票收到的产品和服务的付款请求。 供应商发票可以表示正在进行中的服务的帐单，也可以基于特定物料和服务的采购订单。
 author: abruer
 manager: AnnBe
-ms.date: 06/11/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
-ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
+ms.openlocfilehash: c69291214796847af7169cf261865860998f0d27
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625071"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863315"
 ---
 # <a name="vendor-invoices-overview"></a>供应商发票概览
 
 [!include [banner](../includes/banner.md)]
-
+[!include [banner](../includes/preview-banner.md)]
 
 本主题提供有关供应商发票的一般信息。 供应商发票收到的产品和服务的付款请求。 供应商发票可以表示正在进行中的服务的帐单，也可以基于特定物料和服务的采购订单。
 
@@ -90,6 +90,13 @@ ms.locfileid: "1625071"
 可以使用**恢复供应商发票**页面恢复或释放已在使用的时间超过了四个小时的供应商发票，使其可编辑。 可以从**供应商发票条目**工作区上的**定期任务**导航或磁贴打开此页面。 发票在恢复后可在**供应商发票**页面上编辑。
 
 仅当为您分配了**恢复正在使用的供应商发票**安全职责和权限，您才可以访问**恢复供应商发票**。 此外，还必须开启**应付帐款参数**页面上的**允许恢复供应商发票**参数。
+
+## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>将供应商发票的工作流主题从“无法恢复”重置为“草稿”
+
+因为不可恢复错误而停止的工作流实例的工作流状态为**不可恢复**。 如果供应商发票工作流的状态为**不可恢复**，则可通过选择**撤消**将其重置为**草稿**。 然后就可以编辑该供应商发票。 如果开启了**功能管理**页上的**重置供应商发票工作流的草稿状态**参数，则此功能可用。
+
+可使用**工作流历史记录**页将工作流状态重置为**草稿**。 可从**供应商发票**或**常用 > 查询 > 工作流**导航打开此页面。 若要将工作流状态重置为**草稿**，请选择**撤消**。 也可以通过选择**供应商发票**或**待定供应商发票**页上的**撤消**操作，将工作流状态重置为“草稿”。 工作流状态重置为**草稿**之后，就可以在**供应商发票**页中编辑。
+
 
 
 ## <a name="additional-resources"></a>其他资源

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df4bc39f8df80580261102941712622ed59262bd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 068a811c3f1e7033e2625a99975652e0d6f1a139
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572342"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838215"
 ---
 # <a name="work-breakdown-structures"></a>工作分解结构
 
@@ -39,7 +39,7 @@ WBS 中详细信息的级别取决于评估中需要的准确性等级和这些�
 
 相反，媒体和广告、软件和 IT 基础结构等行业中的项目趋向于独一无二，且工作效率与执行任务的个体的经验和能力相关。 因此，这些行业使用 WBS 获取项目大小的近似值，而不会详细跟踪项目的进程。 
 
-构建 WBS 是一种密集流程，该流程通常需要较长时间才能完成，且需要各种人员的合作和提供信息。 本主题介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中使用 WBS 增强功能满足您估计和跟踪的需要。
+构建 WBS 是一种密集流程，该流程通常需要较长时间才能完成，且需要各种人员的合作和提供信息。 本主题介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中使用 WBS 增强功能满足您估计和跟踪的需要。
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>创建 WBS 的先决条件
 若要创建 WBS，必须能够创建工作计划和估计工作成本。

@@ -3,25 +3,25 @@ title: 创建主科目
 description: 此任务指南介绍添加主科目到现有会计科目表的步骤。
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccount, CompanyInfoList
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5fd332121bae2be55ada39b33e5f381096c9b74d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 58418291d3732c1acbccd097205fa7e64a967038
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563708"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846575"
 ---
 # <a name="create-a-main-account"></a>创建主科目
 
@@ -29,28 +29,26 @@ ms.locfileid: "1563708"
 
 此任务指南介绍添加主科目到现有会计科目表的步骤。 此记录使用 USMF 公司演示。  
 
-1. 转到主分类记账>会计表>账户>主账户.
-2. 单击“新建”。
-3. 在“主科目”字段中，键入一个值。
-4. 在“名称”字段中，键入一个值。
-5. 在“主科目类型”字段中，选择最能表示科目余额和财务报表位置的类型。
-6. 在列表中，选择主科目所属的科目类别。
-    * 科目类别用于默认财务报表和 Power BI 仪表板内容。  
-7. 在列表中，单击所选行中的链接。
-    * 更改默认借方或贷方余额。  
-8. 在“默认币种”字段中，从币种列表选择一个值。
+1. 转到**导航窗格 > 模块 > 总帐 > 会计科目表 > 科目 > 主科目**。
+2. 单击**新建**。
+3. 在**主科目**字段中，键入一个值。
+4. 在**名称**字段中，键入一个值。
+5. 在**主科目类型**字段中，选择最能表示科目余额和财务报表位置的类型。
+6. 在列表中，选择主科目所属的科目类别。 科目类别用于默认财务报表和 Power BI 仪表板内容。  
+7. 在列表中，单击所选行中的链接。 更改默认借方或贷方余额。  
+8. 在**默认币种**字段中，从币种列表选择一个值。
 9. 在列表中，找到并选择所需记录。
 10. 在列表中，单击所选行中的链接。
-11. 切换“法人覆盖”部分的扩展项。
-12. 单击“添加”以选择法人。
+11. 切换**法人覆盖**部分的扩展项。
+12. 单击**添加**以选择法人。
 13. 在列表中，选择“法人”。
-14. 单击“添加”。
+14. 单击**添加**。
 15. 在列表中，标记所选的行。
-16. 选择或取消选择“暂停”复选框。
-17. 展开“财务报表”快速选项卡。
-18. 在“汇率类型”字段中，单击下拉按钮以打开查找。
-19. 在列表中，选择科目的汇率类型。
+16. 选择或取消选择**暂停**复选框。
+17. 展开**财务报告**部分。
+18. 在**汇率类型**字段中，单击下拉按钮以打开查找。
+19. 在列表中，选择**科目的汇率类型**。
 20. 在列表中，单击所选行中的链接。
-21. 在“币种转换类型”字段中，选择科目汇率的计算方法。
+21. 在**币种转换类型**字段中，选择科目汇率的计算方法。
 22. 关闭该页面。
 

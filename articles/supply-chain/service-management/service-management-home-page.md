@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89035687d87c674cca7fa5fd3126100c4c0ad892
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b2fc5361b1b30db29789ff67b56a15eb66a919f5
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562595"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843281"
 ---
 # <a name="service-management"></a>服务管理 
 
@@ -67,7 +67,7 @@ ms.locfileid: "1562595"
 服务管理可以与以下模块集成：
 
   - [销售和市场营销](../sales-marketing/overview-sales-marketing.md)
-  - [人力资源](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/index)
+  - [人力资源](https://docs.microsoft.com/dynamics365/unified-operations/talent/index)
 
   
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4da0b965f3719bc16b5a73538df111ff6df071be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b4d347556d25831bb3f9175e8606e0b41d98bdd8
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555344"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743235"
 ---
 # <a name="service-orders"></a>服务订单   
 
@@ -76,7 +76,7 @@ ms.locfileid: "1555344"
 
 ## <a name="post-from-projects"></a>从项目过帐
 
-在每周结束时，调度人员想要过帐附加到特定项目的所有服务订单。 因此，该调度在**项目**窗体中查找相关项目，然后过帐已完成的服务订单。 有关详细信息，请参阅[过帐服务订单（类窗体）](https://technet.microsoft.com/en-us/library/aa574685\(v=ax.60\))。
+在每周结束时，调度人员想要过帐附加到特定项目的所有服务订单。 因此，该调度在**项目**窗体中查找相关项目，然后过帐已完成的服务订单。 有关详细信息，请参阅[过帐服务订单（类窗体）](https://technet.microsoft.com/library/aa574685\(v=ax.60\))。
 
 ## <a name="delete-service-orders"></a>删除服务订单
 
@@ -84,7 +84,7 @@ ms.locfileid: "1555344"
 
 ## <a name="see-also"></a>请参阅
 
-[服务订单（窗体）](https://technet.microsoft.com/en-us/library/aa554361\(v=ax.60\))
+[服务订单（窗体）](https://technet.microsoft.com/library/aa554361\(v=ax.60\))
 
   
 

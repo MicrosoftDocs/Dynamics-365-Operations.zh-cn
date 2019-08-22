@@ -1,71 +1,61 @@
 ---
 title: 创建和分配高级规则结构
-description: 此任务指南介绍创建高级规则结构并分配至帐户结构的步骤。
+description: 本主题介绍如何创建高级规则结构并分配给科目结构。
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountRuleStructure, DimensionCreateAccountRuleStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate, DimensionConfigureAccountStructure, DimensionConfigureAccountRule, DimensionCreateAccountRule, DimensionSelectAccountRuleStructure
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd62254c20cf5d77677d03c7d7335fb793d7f5f2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cff07c13553ea140f537160da7f93820d5e3f77a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558898"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834876"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>创建和分配高级规则结构
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-此任务指南介绍创建高级规则结构并分配至帐户结构的步骤。 此指南使用演示公司 USMF。
-
+本主题介绍如何创建高级规则结构并分配给科目结构。 此指南使用演示公司 USMF。
 
 ## <a name="create-an-advanced-rule-structure"></a>创建高级规则结构
-1. 转到“总帐”>“会计科目表”>“结构”>“高级规则结构”。
-2. 单击“新建”，以打开对话框。
-3. 在“高级规则结构”字段中，输入描述规则结构的名称。
-4. 在“描述”字段中，输入描述结构的值。
-5. 单击“确定”。
-6. 单击“添加分部”。
-7. 在“分部”列表中，选择财务维度。
-    * 例如：商店。  
-8. 单击“添加分部”。
-9. 在列表中，单击高级规则结构的链接以进行查看。
-10. 单击“启用”。
-11. 单击“启用”。
+1. 转到**导航窗格 > 模块 > 总帐 > 会计科目表 > 结构 > 高级规则结构**。
+2. 选择**新建**，以打开对话框。
+3. 在**高级规则结构**字段中，输入用于描述规则结构的名称。
+4. 选择**确定**。
+5. 选择**添加段落**。
+6. 在“分部”列表中，选择财务维度。 例如，**商店**。  
+7. 选择**添加段落**。
+8. 选择**激活**。
 
 ## <a name="apply-an-advanced-rule-structure-to-an-account-structure"></a>应用高级规则结构到科目结构中
-1. 关闭窗体。
-2. 关闭该页面。
-3. 转到“总帐”>“会计科目表”>“结构”>“配置科目结构”。
-4. 在列表中，找到并选择您想应用高级规则的科目结构。
-5. 单击科目结构的名称，以打开该科目结构。
-6. 单击“编辑”。
-    * 您还可以点击“高级规则”，将会提示您将科目结构设置为草稿模式。  
-7. 单击“高级规则”。
-8. 单击“新建”，以打开对话框。
-9. 在“高级规则”字段中，键入一个值。
-10. 在“名称”字段中，键入一个值。
-11. 单击“创建”。
-12. 单击“添加新条件”。
-13. 在“目标位置”字段中，选择主科目或财务维度。
-14. 在“运算符”字段中，选择一个选项，例如“介于并包含”。
-15. 在“值”字段中，键入一个值。
-16. 在“范围”字段中，键入一个值。
-17. 单击“添加”以打开下拉对话框。
-18. 在列表中，找到满足您输入的条件时使用的高级规则结构。
-19. 单击“添加”。
-20. 关闭该页面。
-21. 单击“启用”。
-22. 单击“启用”。
+1. 转到**导航窗格 > 模块 > 总帐 > 会计科目表 > 结构 > 配置科目结构**。
+2. 在列表中，找到并选择您想应用高级规则的科目结构。
+3. 选择**编辑**。 您还可以选择**高级规则**，将会提示您将科目结构设置为**草稿模式**。  
+4. 选择**高级规则**。
+5. 选择**新建**，以打开对话框。
+6. 在**高级规则**字段中，键入一个值。
+7. 在**名称**字段中，键入一个值。
+8. 选择**创建**。
+9. 选择**添加新条件**。
+10. 在**目标位置**字段中，选择主科目或财务维度。
+11. 在**运算符**字段中，选择一个选项，例如**介于**和**包含**。
+12. 在**值**字段中，键入一个值。
+13. 在**范围**字段中，键入一个值。
+14. 选择**添加**以打开下拉对话框。
+15. 在列表中，找到满足您输入的条件时使用的高级规则结构。
+16. 选择**添加**。
+17. 关闭该页面。
+18. 选择**激活**。
 

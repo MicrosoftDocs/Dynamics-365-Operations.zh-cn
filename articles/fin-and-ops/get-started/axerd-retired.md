@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: AX 2012
 ms.custom: 62303
 ms.assetid: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 71c61764ca2dd79df110d257b61bd656804519ef
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cc08b5a8c31a6bc5da0e66de550bb7b823a11f5a
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546885"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850967"
 ---
 # <a name="axerd-page-has-been-retired"></a>AxErd 页面已停用
 

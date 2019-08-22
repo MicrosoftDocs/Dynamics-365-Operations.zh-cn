@@ -9,7 +9,7 @@ ms.prod: dynamics-ax-2012
 ms.service: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: AX 2012
 ms.custom: 89041
 ms.assetid: 990d64e6-d436-4c79-9bb5-bf8c5c5a048f
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 2012 R3 CU8
-ms.openlocfilehash: 4f2edba4add691e9ad4c7829551c6f79b9804853
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7655de1399c49328bae1736c796325e546796bd5
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555257"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850499"
 ---
 # <a name="quick-import-export"></a>快速导入/导出
 

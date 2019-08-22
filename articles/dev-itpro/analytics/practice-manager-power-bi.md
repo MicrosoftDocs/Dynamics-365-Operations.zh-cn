@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551663"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850089"
 ---
 # <a name="practice-manager-power-bi-content"></a>实践经理 Power BI 内容
 
@@ -54,7 +54,7 @@ ms.locfileid: "1551663"
 | EVM               | 按项目显示的成本和计划绩效指数 |
 | 工时             | <ul><li>实际收费有偿工时数、实际收费无偿工时数与预算工时</li><li>按项目划分的实际收费有偿工时数与实际收费无偿工时数</li><li>按资源划分的实际收费有偿工时数与实际收费无偿工时数</li><li>按项目划分的实际收费工时比率</li><li>按资源划分的实际收费工时比率</li></ul> |
 
-所有这些报表中的图表和磁贴均可以筛选和并固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/)。 您还可以使用“导出基础数据”功能导出在可视化中汇总的基础数据。
+所有这些报表中的图表和磁贴均可以筛选和并固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/)。 您还可以使用“导出基础数据”功能导出在可视化中汇总的基础数据。
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
 
@@ -62,7 +62,7 @@ ms.locfileid: "1551663"
 
 以下部分说明用于每个实体的聚合度量。
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>实体：ProjectAccountingCube\_ActualHourUtilization
+### <a name="entity-projectaccountingcube_actualhourutilization"></a>实体：ProjectAccountingCube\_ActualHourUtilization
 **数据源：** ProjEmplTrans
 
 | 关键聚合度量      | 字段                              | 说明 |
@@ -70,7 +70,7 @@ ms.locfileid: "1551663"
 | 实际收费有偿工时数 | Sum(ActualUtilizationBillableRate) | 实际收费有偿工时数总计。 |
 | 实际收费无偿工时数   | Sum(ActualBurdenBillableRate)      | 实际负担总计比率。 |
 
-### <a name="entity-projectaccountingcubeactuals"></a>实体：ProjectAccountingCube\_Actuals
+### <a name="entity-projectaccountingcube_actuals"></a>实体：ProjectAccountingCube\_Actuals
 **数据源：** ProjTransPosting
 
 | 关键聚合度量 | 字段              | 说明 |
@@ -78,14 +78,14 @@ ms.locfileid: "1551663"
 | 实际收入            | Sum(ActualRevenue) | 已过帐的所有交易收入的总计。 |
 | 实际成本               | Sum(ActualCost)    | 已过帐的所有交易记录类型的成本总计。 |
 
-### <a name="entity-projectaccountingcubecustomer"></a>实体：ProjectAccountingCube\_Customer
+### <a name="entity-projectaccountingcube_customer"></a>实体：ProjectAccountingCube\_Customer
 **数据源：** CustTable
 
 | 关键聚合度量 | 字段                                             | 说明 |
 |---------------------------|---------------------------------------------------|-------------|
 | 项目数量        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | 可用项目计数。 |
 
-### <a name="entity-projectaccountingcubeforecasts"></a>实体：ProjectAccountingCube\_Forecasts
+### <a name="entity-projectaccountingcube_forecasts"></a>实体：ProjectAccountingCube\_Forecasts
 **数据源：** ProjTransBudget
 
 | 关键聚合度量 | 字段                  | 说明 |
@@ -94,14 +94,14 @@ ms.locfileid: "1551663"
 | 预算收入            | Sum(BudgetRevenue)     | 预测应计/开票收入的总计。 |
 | 预算毛利       | Sum(BudgetGrossMargin) | 总预测收入总和与总预测成本总和之间的差异。 |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>实体：ProjectAccountingCube\_ProjectPlanCostsView
+### <a name="entity-projectaccountingcube_projectplancostsview"></a>实体：ProjectAccountingCube\_ProjectPlanCostsView
 **数据源：** 项目
 
 | 关键聚合度量 | 字段                    | 说明 |
 |---------------------------|--------------------------|-------------|
 | 计划成本              | Sum(SumOfTotalCostPrice) | 含计划任务在内估计的所有项目交易记录类型的总成本价。 |
 
-### <a name="entity-projectaccountingcubeprojects"></a>实体：ProjectAccountingCube\_Projects
+### <a name="entity-projectaccountingcube_projects"></a>实体：ProjectAccountingCube\_Projects
 **数据源：** 项目
 
 | 关键聚合度量    | 字段 | 说明 |
@@ -112,7 +112,7 @@ ms.locfileid: "1551663"
 | 实际收费工时数比率  | ProjectAccountingCube\_Projects\[项目实际收费有偿工时总数\] ÷ (ProjectAccountingCube\_Projects\[项目实际收费有偿工时总数\] + ProjectAccountingCube\_Projects\[项目实际收费无偿工时总数\]) | 总实际计费工时数，基于有偿工时数和无偿工时数。 |
 | 挣值                 | ProjectAccountingCube\_Projects\[项目的总计划成本\] × ProjectAccountingCube\_Projects\[已完成工作的百分比\] | 总计划成本乘以已完成工作的百分比。 |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>实体：ProjectAccountingCube\_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcube_totalestimatedcosts"></a>实体：ProjectAccountingCube\_TotalEstimatedCosts 
 **数据源：** ProjTable
 
 | 关键聚合度量       | 字段               | 说明 |

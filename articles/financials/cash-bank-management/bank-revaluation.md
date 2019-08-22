@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankCurrencyRevalHistory
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 353153a3a5cbcb27749f21582fcf83ac4f3a8f36
-ms.sourcegitcommit: 56ec43e459ba93f495bc76fed23d6737218ef37e
+ms.openlocfilehash: d7e7006679757d7e779b86c58649cd3869e1c7d0
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "1591752"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842633"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>银行外币重估
 

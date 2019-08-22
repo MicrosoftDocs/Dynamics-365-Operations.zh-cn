@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTransVoucher
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13031
 ms.assetid: 281c7ea6-4dfd-4d1f-994f-c361ee299dbe
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9768154e117ca09ae84c6a9c82d43000752c2b34
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 07774e607abc90951c27100e749645d8a476b6a7
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557700"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846115"
 ---
 # <a name="view-journal-entries-and-transactions"></a>查看日记帐分录和交易记录
 

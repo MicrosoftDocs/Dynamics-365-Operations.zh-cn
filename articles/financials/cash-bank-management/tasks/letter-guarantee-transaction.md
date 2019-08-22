@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4dc6ee178121fae05d538f5103919442d91e65eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff105bdefff2ea93c853d590c77391653f50a4dc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566102"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841985"
 ---
 # <a name="letter-of-guarantee-transaction"></a>保函交易记录
 
@@ -61,7 +61,7 @@ ms.locfileid: "1566102"
 15. 在“请求装运日期”字段中，输入一个日期。
 16. 在“确认装运日期”字段中，输入一个日期。
 
-## <a name="process-letter-of-guaranteerequest"></a>处理保函_请求
+## <a name="process-letter-of-guarantee_request"></a>处理保函_请求
 1. 在“操作窗格”上单击“管理”。
 2. 单击“保函”。
 3. 在“操作窗格”上单击“保函”。
@@ -73,7 +73,7 @@ ms.locfileid: "1566102"
 9. 单击“确定”。
 10. 关闭该页面。
 
-## <a name="process-letter-of-guaranteesubmit-to-bank"></a>处理保函_提交至银行
+## <a name="process-letter-of-guarantee_submit-to-bank"></a>处理保函_提交至银行
 1. 转到“现金和银行管理”>“保函”>“保函”。
 2. 在列表中，找到并选择所需记录。
 3. 单击“提交至银行”以打开下拉对话框。
@@ -81,7 +81,7 @@ ms.locfileid: "1566102"
 5. 在列表中，单击所选行中的链接。
 6. 单击“确定”。
 
-## <a name="process-letter-of-guaranteereceive-from-bank"></a>处理保函_从银行处收到
+## <a name="process-letter-of-guarantee_receive-from-bank"></a>处理保函_从银行处收到
 1. 单击“从银行处收到”以打开下拉对话框。
 2. 在“银行号码”字段中，键入一个值。
     * 核实“毛利和费用”字段中所计算出的值。  
@@ -93,7 +93,7 @@ ms.locfileid: "1566102"
     * 核实日记帐条目的过帐信息。  
 7. 关闭该页面。
 
-## <a name="process-letter-of-guaranteegive-to-beneficiary"></a>处理保函_给受益人
+## <a name="process-letter-of-guarantee_give-to-beneficiary"></a>处理保函_给受益人
 1. 转到应收帐项目>订单>所有销售订单。
 2. 在列表中，单击所选行中的链接。
 3. 在“操作窗格”上单击“管理”。
@@ -108,7 +108,7 @@ ms.locfileid: "1566102"
 12. 展开“行为”部分。
     * 验证“给受益人”记录。  
 
-## <a name="process-letter-of-guaranteeincrease-value"></a>处理保函_增加值
+## <a name="process-letter-of-guarantee_increase-value"></a>处理保函_增加值
 1. 转到应收帐项目>订单>所有销售订单。
 2. 在列表中，单击所选行中的链接。
 3. 在“操作窗格”上单击“管理”。
@@ -128,7 +128,7 @@ ms.locfileid: "1566102"
 16. 单击“行”。
     * 核实已过帐的日记帐条目。  
 
-## <a name="process-letter-of-guaranteeliquidate"></a>处理保函_清算
+## <a name="process-letter-of-guarantee_liquidate"></a>处理保函_清算
 1. 转到应收帐项目>订单>所有销售订单。
 2. 在列表中，单击所选行中的链接。
 3. 在“操作窗格”上单击“管理”。

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 15001
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7509553df57b9cba206e606b78c70732da32074d
-ms.sourcegitcommit: 169b593b0d9afb228d2cfb0f3b742e4777ec81af
+ms.openlocfilehash: 6fc56b77bea30583448b955bc0af5ef23d693f88
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "1633967"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841001"
 ---
 # <a name="expense-management"></a>费用管理
 

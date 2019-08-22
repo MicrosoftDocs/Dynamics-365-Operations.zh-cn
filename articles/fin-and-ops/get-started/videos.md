@@ -3,13 +3,13 @@ title: Finance and Operations 的视频
 description: 此页列出 Microsoft 制作的与 Dynamics 365 for Finance and Operations 有关的“操作方法”视频和技术交流视频，可在 YouTube 和其他网站中观看。
 author: josaw1
 manager: AnnBe
-ms.date: 06/11/2019
+ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 5ede5bfa3b7a61461adb1514b7e96c4eba5a75c7
-ms.sourcegitcommit: fdc37a3c2ca2bac5741e7017fb225344e64f041a
+ms.openlocfilehash: d2bf2c45f6298205dbed67f6921234757a2b736a
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625389"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852071"
 ---
 # <a name="videos-for-finance-and-operations"></a>适用于 Finance and Operations 的视频
 
@@ -71,6 +71,8 @@ ms.locfileid: "1625389"
 
 #### <a name="intelligence"></a>智能
 
+- [如何编辑分析工作区中的嵌入式报表](https://youtu.be/_8WlwmSggcQ)
+- [如何在 Dynamics 365 for Finance and Operations 中嵌入 PowerBI.com 报表](https://youtu.be/gGWuNJDoi-M)
 - [将自己的数据库 (BYOD) 导入 Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [如何在 Dynamics 365 中使用成本管理 Power BI 内容](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 

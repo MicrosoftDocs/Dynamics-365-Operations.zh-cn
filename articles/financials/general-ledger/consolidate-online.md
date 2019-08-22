@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: fd29dc5f932c9cd274a42923e1ff659dd5d8e9d6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8836e5b43498c792d214b13b2196645c4ee3ffba
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567298"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863792"
 ---
 # <a name="consolidate-online"></a>联机合并
 
@@ -69,7 +69,7 @@ ms.locfileid: "1567298"
 
 ![“法人”选项卡](./media/legal-entities-cons.png "“法人”选项卡")
 
-![“自动交易记录科目”页](./media/accounts%20for%20automatic%20(cons).png "“自动交易记录科目”页")
+![“自动交易记录科目”页](./media/accounts-for-automatic-cons.png "“自动交易记录科目”页")
 
 ## <a name="elimination"></a>清除
 在**清除**选项卡上，有三个用于处理清除的选项：

@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
-ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
+ms.openlocfilehash: a33212acce6bf53b1077e54b9556e4d5e933519c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624303"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849324"
 ---
 # <a name="regulatory-updates"></a>监管更新
 
@@ -59,19 +59,22 @@ Microsoft 致力于尽早实施新的监管要求。 实际交付日期取决于
 |      2019 年 4 月          |   10.0.1      |    俄罗斯     |2019 年以来的运输税申报更改  |
 |      2019 年 4 月            |   10.0.1      | 匈牙利      |  匈牙利：Microsoft Dynamics 365 for Finance and Operations 中的在线开票 v.1.1 2019  |
 |      2019 年 5 月            |   10.0.2      | 巴西      |   SPED ECD 布局 7   |
-|      挂起            |   10.0.3      | 巴西      |   NF-e new NT 2018.005 - v.1.20   |
-|      挂起            |   10.0.3      | 巴西      |   SPED ECD 布局 7   |
-|      挂起            |   10.0.3      | 巴西      |   SPED ECF - Layout 5 for 2019   |
-|      挂起            |   10.0.3      | 立陶宛    |   用户可通过 i.SAF 报表定义与法定税法关联的系统销售税代码    |
-|      挂起            |   10.0.3      | 波兰     |   2019 年 7 月 1 日以来的 SAF 发票 (JPK_FA)  |
-|      挂起            |   10.0.3      | 巴西   |   ICMS 会计单据调整启用表 5.2   |
-|      挂起            |   10.0.3      | 巴西    |   NF-e Decree 54.308/18 (RS)   |
-  | 挂起            |   10.0.4      | 巴西    |   传入会计单据 66   |
-   | 挂起            |   10.0.4      | 巴西    |   NF-e 和 NFC-e - 解决方法 13/2019 和法令 SUCIEF 55/2019- RJ - NF-e 中的免税标记的新条件。   |
-   | 挂起            |   10.0.4      | 印度   |   GST 纳税发票中显示“供应地点”和“状态”  |
-   | 挂起            |   10.0.4      | 墨西哥   |  DIOT 第三方申报 - 布局 2019 中的更改   |
-   | 挂起            |   10.0.4      | 巴西    |   NF-e ICMS-ST - SP 州的法令 CAT 42/18 - CAT 42/18
-   | 挂起            |   10.0.4      | 巴西    |   NF-e Decree 54.308/18 - RS NF   |
+|      2019 年六月            |   10.0.3      | 巴西      |   NF-e new NT 2018.005 - v.1.20   |
+|      2019 年六月            |   10.0.3      | 巴西      |   SPED ECD 布局 7   |
+|      2019 年六月            |   10.0.3      | 巴西      |   SPED ECF - Layout 5 for 2019   |
+|      2019 年六月            |   10.0.3      | 立陶宛    |   用户可通过 i.SAF 报表定义与法定税法关联的系统销售税代码    |
+|      2019 年六月            |   10.0.3      | 波兰     |   2019 年 7 月 1 日以来的 SAF 发票 (JPK_FA)  |
+|      2019 年六月            |   10.0.3      | 巴西   |   ICMS 会计单据调整启用表 5.2   |
+|      2019 年六月            |   10.0.3      | 巴西    |   NF-e Decree 54.308/18 (RS)   |
+  | 2019 年 7 月            |   10.0.4      | 巴西    |   传入会计单据 66   |
+   | 2019 年 7 月            |   10.0.4      | 巴西    |   NF-e 和 NFC-e - 解决方法 13/2019 和法令 SUCIEF 55/2019- RJ - NF-e 中的免税标记的新条件。   |
+   | 2019 年 7 月            |   10.0.4      | 印度   |   GST 纳税发票中显示“供应地点”和“状态”  |
+   | 2019 年 7 月            |   10.0.4      | 墨西哥   |  DIOT 第三方申报 - 布局 2019 中的更改   |
+   | 2019 年 7 月            |   10.0.4      | 巴西    |   NF-e ICMS-ST - SP 州的法令 CAT 42/18 - CAT 42/18
+   | 2019 年 7 月            |   10.0.4      | 巴西    |   NF-e Decree 54.308/18 - RS NF   |
+       | 挂起            |   10.0.5      | 巴西    |   Sped 贡献实践指南 1.31。 新指南   |
+         | 挂起            |   10.0.5      | 巴西    |   NF-e: NT 2019.001 版本 1.00 的技术说明新版本   |
+          | 挂起            |   10.0.5      | 西班牙    |   2019 年 10 月 1 日的验证规则更改   |
    
 
 

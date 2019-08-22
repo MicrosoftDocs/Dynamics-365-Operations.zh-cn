@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624804"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742625"
 ---
 # <a name="retail-peripherals"></a>零售外设
 
@@ -192,7 +192,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 
 #### <a name="modern-pos-for-android"></a>Modern POS for Android
 
-从 Dynamics 365 for Retail 版本 8.1.3 开始，Modern POS for Android 应用程序中包含内置 IPC 硬件工作站。 此硬件工作站支持与网络打印机和付款连接器通信。 有关详细信息，请访问 [适用于 Android docs 的 Hybrid 应用文章](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app)。 
+从 Dynamics 365 for Retail 版本 8.1.3 开始，Modern POS for Android 应用程序中包含内置 IPC 硬件工作站。 此硬件工作站支持与网络打印机和付款连接器通信。 有关详细信息，请访问 [适用于 Android docs 的 Hybrid 应用文章](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app)。 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>Cloud POS 和 Modern POS for iOS
 
@@ -541,7 +541,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 
 4. 单击**零售** &gt; **零售 IT** &gt; **配送计划**。
 5. 选择 **1090** 配送计划，将新硬件配置文件同步到商店。 单击**立即运行**将更改同步到 POS。
-6. 选择 **1040** 配送计划，将新硬件工作站同步到商店。 单击**立即运行**将更改同步到 POS。
+6. 选择 **1070** 配送计划，将新硬件工作站同步到商店。 单击**立即运行**将更改同步到 POS。
 7. 安装并激活 Modern POS for Windows。
 8. 启动 Modern POS for Windows，然后登录到连接的外设。
 

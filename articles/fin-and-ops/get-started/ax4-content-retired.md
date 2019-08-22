@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: AX 2012
 ms.custom: 62303
 ms.assetid: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2018-04-10
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 7455a10f3e2fc603b6699d77127376cde12f2144
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a62828f39e6f3c0c24ab9869ef4d5348e394b961
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546908"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850991"
 ---
 # <a name="ax-40-content-that-has-been-retired"></a>AX 4.0 内容已停用。
 

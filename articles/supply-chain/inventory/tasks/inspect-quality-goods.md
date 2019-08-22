@@ -1,59 +1,53 @@
 ---
 title: 检查货物质量
-description: 此过程显示如何处理质检订单。
+description: 本主题说明如何处理质检订单。
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQualityOrderTable, InventQualityOrderLineResults, HcmWorkerLookUp
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e9d750f116db62519ac7148f19bf62050430e9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 10acb9aadfeb11ede1d66dd525ace7b70db3bd1c
+ms.sourcegitcommit: fbaccf72df82e6b6927f0c9f0d35af0ca3ecbc2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545397"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1855678"
 ---
 # <a name="inspect-the-quality-of-goods"></a>检查货物质量
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-此过程显示如何处理质检订单。 您可以使用 USMF 公司演示数据运行此指南。 在开始此示例过程前，需要确认采购订单为“000016”，并且将产品收据过帐。 这将自动创建质检订单。 质量检查通常由质检员执行。
+本主题说明如何处理质检订单。 您可以使用 USMF 公司演示数据运行此指南。 在开始此示例过程前，需要确认采购订单为“000016”，并且将产品收据过帐。 这将自动创建质检订单。 质量检查通常由质检员执行。
 
 
 ## <a name="select-a-quality-order"></a>选择质检订单。
-1. 转到“库存管理”>“定期任务”>“质量管理”>“质检订单”。
-2. 在列表中，标记所选的行。
-    * 在开始此过程前，选择已创建的质检订单。  
+1. 在导航窗格中，转到**模块 > 库存管理 > 定期任务 > 质量管理 > 质检订单**。
+2. 在开始此过程前，选择已创建的质检订单。  
 
 ## <a name="record-test-results"></a>记录测试结果
-1. 单击“结果”。
-2. 单击“编辑”。
-3. 在“结果数量”字段中，输入一个数字。
-4. 在列表中，标记所选的行。
-5. 在“结果”字段中，单击下拉按钮以打开查找。
-6. 在列表中，找到并选择所需记录。
-    * 在此示例中，结果将基于预定义的结果。 通常您可以记录更具体的测试结果，例如大小或其他维度。  
-7. 在列表中，单击所选行中的链接。
-8. 单击“保存”。
-9. 关闭该页面。
+1. 选择**结果**。
+2. 选择**编辑**。
+3. 在**结果数量**字段中，输入一个数字。
+4. 在**结果**字段中，在下拉菜单中选择所需记录。  
+- 在此示例中，结果将基于预定义的结果。 通常您可以记录更具体的测试结果，例如大小或其他维度。  
+5. 选择**保存**。
+6. 关闭该页面。
 
 ## <a name="validate-the-quality-order"></a>验证质检订单
-1. 单击“验证”。
-2. 在“验证人员”字段中，单击下拉按钮以打开查找。
-    * 选择执行检查的用户。  
-3. 在列表中，单击所选行中的链接。
-4. 单击“选择”。
-5. 单击“确定”。
-6. 关闭该页面。
+1. 选择**验证**。
+2. 在**验证者**字段中，从下拉菜单选择执行检查的用户。  
+3. 单击**选择**。
+4. 选择**确定**。
+5. 关闭该页面。
 

@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.custom: 270894
 ms.assetid: 1b90768d-8bf7-4e35-90c0-65962fea5d26
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9cba30560762b5f647621aafb8db19241523f904
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 15a645c98fe38e8ddaa34c0c21581eac6636502f
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561919"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1851980"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>新的或更新任务指南（2016 年 11 月）
 
@@ -241,9 +241,9 @@ ms.locfileid: "1561919"
 | 支持 JBA 付款文件格式                                                                                                   | 日本                             |
 | 在折旧模板中输入折旧率计划和关联项                                                           | 日本                             |
 | 生成和过帐付款费用                                                                                                    | 日本                             |
-| 以JBA(日本银行协会）格式生成一哥EFT（电子资金支付）付款文件                                                                                 | 日本                             |
+| 以 JBA (日本银行协会）格式生成一个 EFT（电子资金支付）付款文件                                                                                 | 日本                             |
 | 生成日本消费税报表                                                                                            | 日本                             |
-| 以JBA文件格式输入一个客户付款记录                                                                                 | 日本                             |
+| 以 JBA 文件格式输入一个客户付款记录                                                                                 | 日本                             |
 | 查询日记帐中的付款费用                                                                                              | 日本                             |
 | 查询资产报废合同相关交易记录                                                                | 日本                             |
 | 查询可扣减费用                                                                                                   | 日本                             |

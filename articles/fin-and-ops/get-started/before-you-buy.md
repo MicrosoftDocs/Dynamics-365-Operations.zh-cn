@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: f6074906dc77f17d10cc2fb94a4ded7cb8b32f14
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595677"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850943"
 ---
 # <a name="before-you-buy"></a>购买之前
 
@@ -39,7 +39,7 @@ Dynamics 365 for Finance and Operations 的新用户？ 无论你是仍然在评
 
 选择内部部署作为部署选项时，必须注意以下事项：
 
-- [云认证](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)中不可用的法规和合规性需求
+- 云认证中不可用的法规和合规性需求
 - 业务流程不连贯，并且访问 Microsoft Dynamics Lifecycle Services (LCS) 以执行应用程序生命周期管理所需的 Internet 连接时断时续
 - [当前未在内部部署中实现的功能](features-not-implemented-on-prem.md)
 - [最低基础结构需求](system-requirements-on-prem.md#minimum-infrastructure-requirements)

@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557723"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863692"
 ---
 # <a name="generate-consolidated-financial-statements"></a>生成合并的财务报表
 
@@ -49,11 +49,11 @@ ms.locfileid: "1557723"
 
 也可以创建多级报表树，其中包含的级别数量不受限制。 下图显示一个多级报表树定义，其中的汇总按全球区域排列。
 
-![其中的汇总按区域排列的多级报表树定义](./media/multilevel-reporting-tree-definition-roll-ups%20-worldwide-region.png "其中的汇总按区域排列的多级报表树定义")
+![其中的汇总按区域排列的多级报表树定义](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "其中的汇总按区域排列的多级报表树定义")
 
 下图显示一个多级报表树定义，其中的汇总按函数排列。
 
-![其中的汇总按函数排列的多级报表树定义](./media/multilevel-reporting-tree-definition-roll-ups%20-by-function.png "其中的汇总按函数排列的多级报表树定义")
+![其中的汇总按函数排列的多级报表树定义](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "其中的汇总按函数排列的多级报表树定义")
 
 ### <a name="viewing-companies-side-by-side"></a>并排查看公司
 许多客户希望报表中的公司并排显示，并且其中一列显示合并的总计。 创建报告树之后，非常容易实现此格式。 可通过下面的高级步骤并排显示合并的财务报表中的公司。
@@ -98,7 +98,7 @@ ms.locfileid: "1557723"
 > [!NOTE]
 > 可将整个所有权百分比应用于任何报告单位，不仅限于公司级别。 
 
-![使用报告树定义百分比](./media/Using-reporting%20tree-definition-percentage.png "使用报告树定义百分比")
+![使用报告树定义百分比](./media/Using-reporting-tree-definition-percentage.png "使用报告树定义百分比")
 
 生成报表时，Contoso Germany 报表将显示销售额的 100%，再分配该金额的 80% 并汇总到合并的销售级别。
 

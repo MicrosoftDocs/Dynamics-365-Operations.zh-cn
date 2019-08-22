@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 55f3fd95a87bcf62824021ebfbf3bcd11af6013f
-ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
+ms.openlocfilehash: 7ec16bea1e4f7685f95178f848ba7348a06c31f3
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "1703867"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741495"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>跟踪 ER 格式的执行情况以解决性能问题
 
@@ -104,7 +104,7 @@ Finance and Operations 中生成的每个 Er 性能跟踪都作为执行日志�
 ### <a id='import-configuration'></a>将 ER 配置从 RCS 导入 Finance and Operations
 
 1. 登录到 Finance and Operations 实例。
-2. 对于本教程，您将把配置从 RCS 实例（即您设计 ER 组件的位置）导入 Finance and Operations 实例（即测试并最终使用这些实例的位置）。 因此，您必须确保已准备好所有必需的项目。 有关说明，请参阅[从监管配置服务 (RCS) 导入电子申报 (ER) 配置](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations)过程。
+2. 对于本教程，您将把配置从 RCS 实例（即您设计 ER 组件的位置）导入 Finance and Operations 实例（即测试并最终使用这些实例的位置）。 因此，您必须确保已准备好所有必需的项目。 有关说明，请参阅[从监管配置服务 (RCS) 导入电子申报 (ER) 配置](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations)过程。
 3. 执行下列步骤将配置从 RCS 导入 Finance and Operations：
 
     1. 在**电子申报**工作区 **Litware, Inc.** 配置提供程序的磁贴中，选择**存储库**。

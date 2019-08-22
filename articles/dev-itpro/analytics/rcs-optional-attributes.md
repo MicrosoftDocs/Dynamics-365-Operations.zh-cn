@@ -1,5 +1,5 @@
 ---
-title: 为 RCS 和 ER 准备应用程序特定的元数据
+title: 导入包含可选属性的 XML 格式文件
 description: 本主题提供有关设计 ER 格式以指定 XML 属性来分析 XML 格式的传入电子单据的信息。
 author: NickSelin
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a6fc1e54444584895aa75ae91d39143f27e34d8
-ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "1726567"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849987"
 ---
-# <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>为 RCS 和 ER 准备应用程序特定的元数据
+# <a name="import-files-in-xml-format-with-optional-attributes"></a>导入包含可选属性的 XML 格式文件
 
 可以设计电子申报 (ER) 格式以分析 XML 格式的传入电子单据。 可以将所设计 ER 格式中 XML 元素的某些属性指定为可选。 这样就可以正确处理拥有此类 XML 元素和没有此类元素的传入文件。 然后可以使用这些文件中的内容更新申请表数据。
 
@@ -97,11 +97,11 @@ ms.locfileid: "1726567"
 5.  单击**保存**。
 6.  单击**设计器**。
 7.  在树中，展开**格式**。
-8.  在树中，展开**格式\r根: XML 元素(根)**。
-9.  在树中，选择 **格式\r根: XML 元素(根)\文档: XML 元素 1*。 (文档)**。
+8.  在树中，展开**格式\根: XML 元素(根)**。
+9.  在树中，选择 **格式\根: XML 元素(根)\文档: XML 元素 1*。 (文档)**。
 10. 单击**绑定**。
-11. 在树中，展开 **格式\r根: XML 元素(根)\文档: XML 元素 1*。 (文档)**。
-12. 在树中，选择 **格式\r根: XML 元素(根)\文档: XML 元素 1*。 (文档)\id**。
+11. 在树中，展开 **格式\根: XML 元素(根)\文档: XML 元素 1*。 (文档)**。
+12. 在树中，选择 **格式\根: XML 元素(根)\文档: XML 元素 1*。 (文档)\id**。
 13. 在树中，展开**列表 = format.root.document**。
 14. 在树中，选择**列表 = format.root.document\代码**。
 15. 单击**绑定**。
