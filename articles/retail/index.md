@@ -3,7 +3,7 @@ title: 欢迎使用 Dynamics 365 for Retail
 description: Dynamics 365 for Retail 的主页
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bc1c74ab6940fe0f7ed2e541edad0bce657faeb5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572153"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874919"
 ---
 # <a name="welcome-to-dynamics-365-for-retail"></a>欢迎使用 Dynamics 365 for Retail
 
@@ -38,7 +38,7 @@ Microsoft Dynamics 365 for Retail 是一个端到端零售解决方案，提供�
 
 ## <a name="channel-management"></a>渠道管理
 
-在设置 Retail 体验时，您可以决定如何定义和配置您的商店。 商店可以是实体商店、在线商店或呼叫中心。
+当您设置您的 Retail 体验时，您将决定如何定义和配置您的商店，可以是实体店、在线商店或呼叫中心。
 
 每个零售商店都可以有自己的付款方式、交货方法、价格组、收入和支出帐户、收银机和员工。 在创建零售商店后，您可以创建您希望商店经营的产品的分类。 您还可以定义特定于商店的价格和折扣，这些价格和折扣适用于该商店提供的产品。
 
