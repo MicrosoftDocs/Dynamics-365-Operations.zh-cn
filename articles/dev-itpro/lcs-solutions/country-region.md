@@ -1,9 +1,9 @@
 ---
-title: 全球化
+title: 全球化资源
 description: 本主题包含可帮助您详细了解国家/地区特定功能和产品/服务的一系列资源。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/01/2019
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d2fe0b357edf3594aa7d795eb2a15f03a886d79
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 668a24c54ded798658a136b8482823b595962306
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850607"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864958"
 ---
-# <a name="globalization"></a>全球化
+# <a name="globalization-resources"></a>全球化资源
 
 ## <a name="local-and-regional-deployments"></a>本地和区域部署
 如果您的政府法规要求以不同于其他国家/地区要求的方式存储或处理数据，则您在部署 Finance and Operations 时可能需要考虑相应国家/地区的要求。 请考虑可能与您相关的以下资源：

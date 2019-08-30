@@ -26,9 +26,10 @@
       href: retail-support.md
     - name: 一个版本服务更新常见问题
       href: ../fin-and-ops/get-started/one-version.md
-- name: 了解实施生命周期
-  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+- name: 实施生命周期管理
   items:
+    - name: 实施生命周期管理主页
+      href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
     - name: Microsoft FastTrack for Dynamics 365
       href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
     - name: 入职
@@ -163,8 +164,10 @@
       href: online-stores.md
     - name: 配置并安装 Retail Hardware Station
       href: retail-hardware-station-configuration-installation.md
-    - name: Retail 中的时间和考勤管理
+    - name: Retail 中的考勤管理
       href: retail-time-attendance.md
+    - name: 创建和更改商店营业时间
+      href: dev-itpro/store-hours.md
 - name: Modern Point of Sale (MPOS) 和 Cloud POS
   items:
     - name: 在 MPOS 和 Cloud POS 之间选择
@@ -317,8 +320,10 @@
       href: create-manage-attributes.md
     - name: 设置零售产品
       href: set-up-retail-products.md
-    - name: 管理 Retail 产品类别和产品
+    - name: 管理零售产品类别和产品
       href: category-management-product-creation.md
+    - name: 更改促销实体的排序顺序
+      href: custom-order-categories-nav-retail-prod-hierarchy.md
     - name: 产品维度
       href: ../supply-chain/pim/product-dimensions.md
     - name: 设置条码
@@ -499,9 +504,10 @@
       href: tasks/use-continuity-program.md
     - name: 配置零售工作人员
       href: tasks/worker.md
-- name: 零售开发和管理
-  href: dev-itpro/dev-retail-home-page.md
+- name: Retail 开发和管理
   items:
+    - name: 面向 IT 专业人员和开发人员的 Retail
+      href: dev-itpro/dev-retail-home-page.md
     - name: 体系结构
       items:
         - name: Retail 组件
@@ -598,6 +604,8 @@
           href: dev-itpro/view-pos-extension-package-details.md
     - name: Hardware Station 和可扩展性
       href: dev-itpro/hardware-station-extensibility.md
+    - name: 将 POS 与新的硬件设备集成
+      href: dev-itpro/hardware-device-extension.md
     - name: Retail Server 可扩展性
       items:
         - name: 扩展 Retail Server OData 控制器
@@ -655,8 +663,9 @@
         - name: 对付款连接器启用重复付款预防
           href: dev-itpro/duplicate-payment-protection.md
     - name: Retail SDK
-      href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: Retail SDK 体系结构
+          href: dev-itpro/retail-sdk/retail-sdk-overview.md
         - name: Retail SDK 中即将进行的更改
           href: dev-itpro/UpcomingSDKChanges.md
         - name: 合并 Retail 和 Finance and Operations 的生成系统
@@ -667,9 +676,8 @@
           href: dev-itpro/retail-sdk/retail-sdk-packaging.md
         - name: Retail SDK 示例
           href: dev-itpro/retail-sdk/retail-sdk-samples.md
-          items:
-            - name: 装箱单的扩展点
-              href: dev-itpro/extensions-shipping-carrier-integration.md
+        - name: 装箱单的扩展点
+          href: dev-itpro/extensions-shipping-carrier-integration.md
         - name: 渠道数据库扩展
           href: dev-itpro/channel-db-extensions.md
         - name: 通过扩展启用自定义 CDX 同步
