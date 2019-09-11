@@ -3,7 +3,7 @@ title: 创建科目结构
 description: 此任务指南介绍创建科目结构的步骤。
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,69 +16,48 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2183f88356fc8094781af147bf079c4e53ffb2b4
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8b100d5da6ec26dc386c0c6cb0793245531eb0d8
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846695"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916222"
 ---
-# <a name="create-account-structures"></a><span data-ttu-id="45623-103">创建科目结构</span><span class="sxs-lookup"><span data-stu-id="45623-103">Create account structures</span></span>
+# <a name="create-account-structures"></a><span data-ttu-id="c5246-103">创建科目结构</span><span class="sxs-lookup"><span data-stu-id="c5246-103">Create account structures</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="45623-104">此任务指南介绍创建科目结构的步骤。</span><span class="sxs-lookup"><span data-stu-id="45623-104">This task guide steps through creating an account structure.</span></span> <span data-ttu-id="45623-105">步骤使用演示数据公司 USMF。</span><span class="sxs-lookup"><span data-stu-id="45623-105">The steps use demo data company USMF.</span></span>
+<span data-ttu-id="c5246-104">此任务指南介绍创建科目结构的步骤。</span><span class="sxs-lookup"><span data-stu-id="c5246-104">This task guide steps through creating an account structure.</span></span> <span data-ttu-id="c5246-105">步骤使用演示数据公司 USMF。</span><span class="sxs-lookup"><span data-stu-id="c5246-105">The steps use demo data company USMF.</span></span>
 
-1. <span data-ttu-id="45623-106">转到“总帐”>“会计科目表”>“结构”>“配置科目结构”。</span><span class="sxs-lookup"><span data-stu-id="45623-106">Go to General ledger > Chart of accounts > Structures > Configure account structures.</span></span>
-2. <span data-ttu-id="45623-107">单击“新建”，以打开对话框。</span><span class="sxs-lookup"><span data-stu-id="45623-107">Click New to open the drop dialog.</span></span>
-3. <span data-ttu-id="45623-108">在“科目结构”字段中，输入描述科目结构的用途的名称。</span><span class="sxs-lookup"><span data-stu-id="45623-108">In the Account structure field, type a name to describe the purpose of the account structure.</span></span>
-4. <span data-ttu-id="45623-109">在“描述”字段中，输入指出科目结构用途的描述。</span><span class="sxs-lookup"><span data-stu-id="45623-109">In the Description field, type a description to specify the purpose of the account structure.</span></span>
-5. <span data-ttu-id="45623-110">单击“创建”。</span><span class="sxs-lookup"><span data-stu-id="45623-110">Click Create.</span></span>
-6. <span data-ttu-id="45623-111">单击“添加分部”。</span><span class="sxs-lookup"><span data-stu-id="45623-111">Click Add segment.</span></span>
-7. <span data-ttu-id="45623-112">在“维度”列表中，选择要添加到科目结构的维度。</span><span class="sxs-lookup"><span data-stu-id="45623-112">In the Dimensions list, select the dimension to add to the account structure.</span></span>
-8. <span data-ttu-id="45623-113">单击“添加分部”。</span><span class="sxs-lookup"><span data-stu-id="45623-113">Click Add segment.</span></span>
-9. <span data-ttu-id="45623-114">单击“添加分部”。</span><span class="sxs-lookup"><span data-stu-id="45623-114">Click Add segment.</span></span>
-10. <span data-ttu-id="45623-115">在“维度”列表中，选择要添加到科目结构的维度。</span><span class="sxs-lookup"><span data-stu-id="45623-115">In the Dimensions list, select the dimension to add to the account structure.</span></span>
-11. <span data-ttu-id="45623-116">单击“添加分部”。</span><span class="sxs-lookup"><span data-stu-id="45623-116">Click Add segment.</span></span>
-12. <span data-ttu-id="45623-117">单击“添加分部”。</span><span class="sxs-lookup"><span data-stu-id="45623-117">Click Add segment.</span></span>
-13. <span data-ttu-id="45623-118">在“维度”列表中，选择要添加到科目结构的维度。</span><span class="sxs-lookup"><span data-stu-id="45623-118">In the Dimensions list, select the dimension to add to the account structure.</span></span>
-14. <span data-ttu-id="45623-119">单击“添加分部”。</span><span class="sxs-lookup"><span data-stu-id="45623-119">Click Add segment.</span></span>
-15. <span data-ttu-id="45623-120">在网格中，选择分部以编辑允许的值。</span><span class="sxs-lookup"><span data-stu-id="45623-120">In the grid, select the segment to edit the allowed values.</span></span>
-    * <span data-ttu-id="45623-121">例如，单击“主科目”。</span><span class="sxs-lookup"><span data-stu-id="45623-121">For example, click in Main Account.</span></span>  
-16. <span data-ttu-id="45623-122">在“运算符”字段中，选择一个选项，例如“介于并包含”。</span><span class="sxs-lookup"><span data-stu-id="45623-122">In the Operator field, select an option, such as is between and includes.</span></span>
-17. <span data-ttu-id="45623-123">在“值”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="45623-123">In the Value field, type a value.</span></span>
-    * <span data-ttu-id="45623-124">例如：600000。</span><span class="sxs-lookup"><span data-stu-id="45623-124">For example, 600000.</span></span>  
-18. <span data-ttu-id="45623-125">在“范围”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="45623-125">In the through field, type a value.</span></span>
-    * <span data-ttu-id="45623-126">例如：699999。</span><span class="sxs-lookup"><span data-stu-id="45623-126">For example, 699999.</span></span>  
-19. <span data-ttu-id="45623-127">单击“应用”。</span><span class="sxs-lookup"><span data-stu-id="45623-127">Click Apply.</span></span>
-20. <span data-ttu-id="45623-128">在网格中，选择分部以编辑允许的值。</span><span class="sxs-lookup"><span data-stu-id="45623-128">In the grid, select the segment to edit the allowed values.</span></span>
-    * <span data-ttu-id="45623-129">例如：部门。</span><span class="sxs-lookup"><span data-stu-id="45623-129">For example, Department.</span></span>  
-21. <span data-ttu-id="45623-130">在“运算符”字段中，选择一个选项，例如“介于并包含”。</span><span class="sxs-lookup"><span data-stu-id="45623-130">In the Operator field, select an option, such as is between and includes.</span></span>
-22. <span data-ttu-id="45623-131">在“值”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="45623-131">In the Value field, type a value.</span></span>
-    * <span data-ttu-id="45623-132">例如：022。</span><span class="sxs-lookup"><span data-stu-id="45623-132">For example, 022.</span></span>  
-23. <span data-ttu-id="45623-133">在“范围”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="45623-133">In the through field, type a value.</span></span>
-    * <span data-ttu-id="45623-134">例如：031。</span><span class="sxs-lookup"><span data-stu-id="45623-134">For example, 031.</span></span>  
-24. <span data-ttu-id="45623-135">单击“添加新条件”。</span><span class="sxs-lookup"><span data-stu-id="45623-135">Click Add new criteria.</span></span>
-25. <span data-ttu-id="45623-136">在“运算符”字段中，选择一个选项，例如“介于并包含”。</span><span class="sxs-lookup"><span data-stu-id="45623-136">In the Operator field, select an option, such as is between and includes.</span></span>
-26. <span data-ttu-id="45623-137">在“值”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="45623-137">In the Value field, type a value.</span></span>
-    * <span data-ttu-id="45623-138">例如：033。</span><span class="sxs-lookup"><span data-stu-id="45623-138">For example, 033.</span></span>  
-27. <span data-ttu-id="45623-139">在“范围”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="45623-139">In the through field, type a value.</span></span>
-    * <span data-ttu-id="45623-140">例如：034。</span><span class="sxs-lookup"><span data-stu-id="45623-140">For example, 034.</span></span>  
-28. <span data-ttu-id="45623-141">单击“应用”。</span><span class="sxs-lookup"><span data-stu-id="45623-141">Click Apply.</span></span>
-29. <span data-ttu-id="45623-142">在网格中，选择分部以编辑允许的值。</span><span class="sxs-lookup"><span data-stu-id="45623-142">In the grid, select the segment to edit the allowed values.</span></span>
-    * <span data-ttu-id="45623-143">例如：成本中心。</span><span class="sxs-lookup"><span data-stu-id="45623-143">For example, Cost Center.</span></span>  
-30. <span data-ttu-id="45623-144">在“成本中心”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="45623-144">In the CostCenter field, type a value.</span></span>
-    * <span data-ttu-id="45623-145">例如：007..021。</span><span class="sxs-lookup"><span data-stu-id="45623-145">For example, 007..021.</span></span>  
-31. <span data-ttu-id="45623-146">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="45623-146">Click Add.</span></span>
-32. <span data-ttu-id="45623-147">在“主科目”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="45623-147">In the MainAccount field, type a value.</span></span>
-    * <span data-ttu-id="45623-148">例如：600000..699999</span><span class="sxs-lookup"><span data-stu-id="45623-148">For example, 600000..699999</span></span>  
-33. <span data-ttu-id="45623-149">在网格中，选择分部以编辑允许的值。</span><span class="sxs-lookup"><span data-stu-id="45623-149">In the grid, select the segment to edit the allowed values.</span></span>
-    * <span data-ttu-id="45623-150">例如：部门。</span><span class="sxs-lookup"><span data-stu-id="45623-150">For example, Department.</span></span>  
-34. <span data-ttu-id="45623-151">在“部门”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="45623-151">In the Department field, type a value.</span></span>
-    * <span data-ttu-id="45623-152">例如：032。</span><span class="sxs-lookup"><span data-stu-id="45623-152">For example, 032.</span></span>  
-35. <span data-ttu-id="45623-153">在“成本中心”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="45623-153">In the CostCenter field, type a value.</span></span>
-    * <span data-ttu-id="45623-154">例如：086。</span><span class="sxs-lookup"><span data-stu-id="45623-154">For example, 086.</span></span>  
-36. <span data-ttu-id="45623-155">单击“验证”。</span><span class="sxs-lookup"><span data-stu-id="45623-155">Click Validate.</span></span>
-37. <span data-ttu-id="45623-156">单击“启用”。</span><span class="sxs-lookup"><span data-stu-id="45623-156">Click Activate.</span></span>
-38. <span data-ttu-id="45623-157">单击“启用”。</span><span class="sxs-lookup"><span data-stu-id="45623-157">Click Activate.</span></span>
+1. <span data-ttu-id="c5246-106">转到**导航窗格 > 模块 > 总帐 > 会计科目表 > 结构 > 配置科目结构**。</span><span class="sxs-lookup"><span data-stu-id="c5246-106">Go to **Navigation pane > Modules > General ledger > Chart of accounts > Structures > Configure account structures**.</span></span>
+2. <span data-ttu-id="c5246-107">在**操作窗格**中，单击**新建**打开对话框。</span><span class="sxs-lookup"><span data-stu-id="c5246-107">On the **Action pane**, click **New** to open the drop dialog.</span></span>
+3. <span data-ttu-id="c5246-108">在**科目结构**字段中，输入描述科目结构的用途的名称。</span><span class="sxs-lookup"><span data-stu-id="c5246-108">In the **Account structure** field, type a name to describe the purpose of the account structure.</span></span>
+4. <span data-ttu-id="c5246-109">在**描述**字段中，输入指出科目结构用途的描述。</span><span class="sxs-lookup"><span data-stu-id="c5246-109">In the **Description** field, type a description to specify the purpose of the account structure.</span></span>
+5. <span data-ttu-id="c5246-110">单击**创建**。</span><span class="sxs-lookup"><span data-stu-id="c5246-110">Click **Create**.</span></span>
+6. <span data-ttu-id="c5246-111">在**段落和允许的值**，单击**添加段落**。</span><span class="sxs-lookup"><span data-stu-id="c5246-111">In the **Segments and allowed values**, click **Add segment**.</span></span>
+7. <span data-ttu-id="c5246-112">在维度列表中，选择要添加到科目结构的维度。</span><span class="sxs-lookup"><span data-stu-id="c5246-112">In the dimensions list, select the dimension to add to the account structure.</span></span>
+8. <span data-ttu-id="c5246-113">在列表末尾，单击**添加段落**。</span><span class="sxs-lookup"><span data-stu-id="c5246-113">At the end of the list, click **Add segment**.</span></span>
+9. <span data-ttu-id="c5246-114">根据需要重复步骤 6 到 9。</span><span class="sxs-lookup"><span data-stu-id="c5246-114">Repeat step 6 to 9 as needed.</span></span>
+10. <span data-ttu-id="c5246-115">在**允许的值详细信息**部分中，选择分部以编辑允许的值。</span><span class="sxs-lookup"><span data-stu-id="c5246-115">In the **Allowed value details** section, select the segment to edit the allowed values.</span></span>
+    <span data-ttu-id="c5246-116">例如，单击**主科目**字段。</span><span class="sxs-lookup"><span data-stu-id="c5246-116">For example, click the **Main Account** field.</span></span>  
+11. <span data-ttu-id="c5246-117">在**运算符**字段中，选择一个选项，例如“介于并包含”。</span><span class="sxs-lookup"><span data-stu-id="c5246-117">In the **Operator** field, select an option, such as is between and includes.</span></span>
+12. <span data-ttu-id="c5246-118">在**值**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c5246-118">In the **Value** field, type a value.</span></span> <span data-ttu-id="c5246-119">例如：600000。</span><span class="sxs-lookup"><span data-stu-id="c5246-119">For example, 600000.</span></span>  
+13. <span data-ttu-id="c5246-120">在**范围**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c5246-120">In the **through** field, type a value.</span></span> <span data-ttu-id="c5246-121">例如：699999。</span><span class="sxs-lookup"><span data-stu-id="c5246-121">For example, 699999.</span></span>  
+14. <span data-ttu-id="c5246-122">在**允许的值详细信息**部分中，单击**应用**。</span><span class="sxs-lookup"><span data-stu-id="c5246-122">In the **Allowed value details** section, click **Apply**.</span></span>
+15. <span data-ttu-id="c5246-123">根据需要重复步骤 10 到 15。</span><span class="sxs-lookup"><span data-stu-id="c5246-123">Repeat step 10 to 15 as needed.</span></span>  
+16. <span data-ttu-id="c5246-124">在**允许的值详细信息**部分中，单击**添加新条件**。</span><span class="sxs-lookup"><span data-stu-id="c5246-124">In the **Allowed value details** section, click **Add new criteria**.</span></span>
+17. <span data-ttu-id="c5246-125">在“运算符”字段中，选择一个选项，例如“介于并包含”。</span><span class="sxs-lookup"><span data-stu-id="c5246-125">In the Operator field, select an option, such as is between and includes.</span></span>
+18. <span data-ttu-id="c5246-126">在**值**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c5246-126">In the **Value** field, type a value.</span></span> <span data-ttu-id="c5246-127">例如：033。</span><span class="sxs-lookup"><span data-stu-id="c5246-127">For example, 033.</span></span>  
+19. <span data-ttu-id="c5246-128">在**范围**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c5246-128">In the **through** field, type a value.</span></span> <span data-ttu-id="c5246-129">例如：034。</span><span class="sxs-lookup"><span data-stu-id="c5246-129">For example, 034.</span></span>  
+20. <span data-ttu-id="c5246-130">单击**应用**。</span><span class="sxs-lookup"><span data-stu-id="c5246-130">Click **Apply**.</span></span>
+21. <span data-ttu-id="c5246-131">在网格中，选择分部以编辑允许的值。</span><span class="sxs-lookup"><span data-stu-id="c5246-131">In the grid, select the segment to edit the allowed values.</span></span> <span data-ttu-id="c5246-132">例如：成本中心。</span><span class="sxs-lookup"><span data-stu-id="c5246-132">For example, Cost Center.</span></span>  
+22. <span data-ttu-id="c5246-133">在**成本中心**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c5246-133">In the **CostCenter field**, type a value.</span></span> <span data-ttu-id="c5246-134">例如：007..021。</span><span class="sxs-lookup"><span data-stu-id="c5246-134">For example, 007..021.</span></span>  
+23. <span data-ttu-id="c5246-135">在**段落和允许的值**，单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="c5246-135">In the **Segments and allowed values**, click **Add**.</span></span>
+24. <span data-ttu-id="c5246-136">在**主科目**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c5246-136">In the **MainAccount** field, type a value.</span></span> <span data-ttu-id="c5246-137">例如：600000..699999</span><span class="sxs-lookup"><span data-stu-id="c5246-137">For example, 600000..699999</span></span>  
+25. <span data-ttu-id="c5246-138">在网格中，选择分部以编辑允许的值。</span><span class="sxs-lookup"><span data-stu-id="c5246-138">In the grid, select the segment to edit the allowed values.</span></span> <span data-ttu-id="c5246-139">例如：部门。</span><span class="sxs-lookup"><span data-stu-id="c5246-139">For example, Department.</span></span>  
+26. <span data-ttu-id="c5246-140">在“部门”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c5246-140">In the Department field, type a value.</span></span> <span data-ttu-id="c5246-141">例如：032。</span><span class="sxs-lookup"><span data-stu-id="c5246-141">For example, 032.</span></span>  
+27. <span data-ttu-id="c5246-142">在“成本中心”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c5246-142">In the CostCenter field, type a value.</span></span> <span data-ttu-id="c5246-143">例如：086。</span><span class="sxs-lookup"><span data-stu-id="c5246-143">For example, 086.</span></span>  
+28. <span data-ttu-id="c5246-144">在**操作窗格**上，单击**验证**。</span><span class="sxs-lookup"><span data-stu-id="c5246-144">On the **Action pane**, click **Validate**.</span></span>
+29. <span data-ttu-id="c5246-145">在**操作窗格**上，单击**激活**。</span><span class="sxs-lookup"><span data-stu-id="c5246-145">On the **Action pane**, click **Activate**.</span></span>
+30. <span data-ttu-id="c5246-146">单击**启用**。</span><span class="sxs-lookup"><span data-stu-id="c5246-146">Click **Activate**.</span></span>
 

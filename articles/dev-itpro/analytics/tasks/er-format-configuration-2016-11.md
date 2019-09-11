@@ -1,9 +1,9 @@
 ---
 title: ER 创建格式配置（2016 年 11 月）
-description: 以下步骤说明属于系统管理员或电子报表开发人员的用户如何创建电子报表 (ER) 的格式配置。
+description: 此主题说明属于系统管理员或电子报表开发人员的用户如何创建电子报表 (ER) 的格式配置。
 author: NickSelin
 manager: AnnBe
-ms.date: 11/27/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,146 +16,146 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 582e1a2baee805fe6770465edc7958954f638f1c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c1fd41b1724eb2e0405c0e7a7e0ff0aea4a945e0
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544763"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1866794"
 ---
-# <a name="er-create-a-format-configuration-november-2016"></a><span data-ttu-id="fee44-103">ER 创建格式配置（2016 年 11 月）</span><span class="sxs-lookup"><span data-stu-id="fee44-103">ER Create a format configuration (November 2016)</span></span>
+# <a name="er-create-a-format-configuration-november-2016"></a><span data-ttu-id="de499-103">ER 创建格式配置（2016 年 11 月）</span><span class="sxs-lookup"><span data-stu-id="de499-103">ER Create a format configuration (November 2016)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="fee44-104">以下步骤说明属于系统管理员或电子报表开发人员的用户如何创建电子报表 (ER) 的格式配置。</span><span class="sxs-lookup"><span data-stu-id="fee44-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can create a format configuration for Electronic reporting (ER).</span></span> <span data-ttu-id="fee44-105">此格式配置定义用于处理付款的电子单据的格式。</span><span class="sxs-lookup"><span data-stu-id="fee44-105">This format configuration will define the format of electronic documents that are used for processing payments.</span></span> <span data-ttu-id="fee44-106">为了完成这些步骤，您首先必须完成“映射模型到所选数据源”这一过程中的步骤。</span><span class="sxs-lookup"><span data-stu-id="fee44-106">In this example, you will create a format configuration for sample company, Litware, Inc. To complete these steps, you must first complete the steps in the “Map model to selected datasources” procedure.</span></span>
+<span data-ttu-id="de499-104">此主题说明属于系统管理员或电子报表开发人员的用户如何创建电子报表 (ER) 的格式配置。</span><span class="sxs-lookup"><span data-stu-id="de499-104">This topic explains how a user in the System Administrator or Electronic Reporting Developer role can create a format configuration for Electronic reporting (ER).</span></span> <span data-ttu-id="de499-105">此格式配置定义用于处理付款的电子单据的格式。</span><span class="sxs-lookup"><span data-stu-id="de499-105">This format configuration will define the format of electronic documents that are used for processing payments.</span></span> <span data-ttu-id="de499-106">为了完成这些步骤，您首先必须完成“映射模型到所选数据源”这一过程中的步骤。</span><span class="sxs-lookup"><span data-stu-id="de499-106">In this example, you will create a format configuration for sample company, Litware, Inc. To complete these steps, you must first complete the steps in the “Map model to selected datasources” procedure.</span></span>
 
 
-## <a name="create-a-new-format-configuration"></a><span data-ttu-id="fee44-107">创建新的格式配置</span><span class="sxs-lookup"><span data-stu-id="fee44-107">Create a new format configuration</span></span>
-1. <span data-ttu-id="fee44-108">转到**组织管理 > 工作区 > 电子申报**。</span><span class="sxs-lookup"><span data-stu-id="fee44-108">Go to **Organization administration > Workspaces > Electronic reporting**.</span></span>
-2. <span data-ttu-id="fee44-109">单击**申报配置**。</span><span class="sxs-lookup"><span data-stu-id="fee44-109">Click **Reporting configurations**.</span></span>
-3. <span data-ttu-id="fee44-110">在树结构中，选择**付款（简化模型）**。</span><span class="sxs-lookup"><span data-stu-id="fee44-110">In the tree, select **Payments (simplified model)**.</span></span>
-4. <span data-ttu-id="fee44-111">单击**创建配置**，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="fee44-111">Click **Create configuration** to open the drop dialog.</span></span>
+## <a name="create-a-new-format-configuration"></a><span data-ttu-id="de499-107">创建新的格式配置</span><span class="sxs-lookup"><span data-stu-id="de499-107">Create a new format configuration</span></span>
+1. <span data-ttu-id="de499-108">转到**组织管理 > 工作区 > 电子申报**。</span><span class="sxs-lookup"><span data-stu-id="de499-108">Go to **Organization administration > Workspaces > Electronic reporting**.</span></span>
+2. <span data-ttu-id="de499-109">单击**申报配置**。</span><span class="sxs-lookup"><span data-stu-id="de499-109">Click **Reporting configurations**.</span></span>
+3. <span data-ttu-id="de499-110">在树结构中，选择**付款（简化模型）**。</span><span class="sxs-lookup"><span data-stu-id="de499-110">In the tree, select **Payments (simplified model)**.</span></span>
+4. <span data-ttu-id="de499-111">单击**创建配置**，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="de499-111">Click **Create configuration** to open the drop dialog.</span></span>
 
  > [!NOTE]
- > <span data-ttu-id="fee44-112">如果您没有看到**创建配置**，您必须在**电子申报参数**页启用设计模式。</span><span class="sxs-lookup"><span data-stu-id="fee44-112">If you don't see **Create configuration**, you must enable design mode on the **Electronic reporting parameters** page.</span></span> 
+ > <span data-ttu-id="de499-112">如果您没有看到**创建配置**，您必须在**电子申报参数**页启用设计模式。</span><span class="sxs-lookup"><span data-stu-id="de499-112">If you don't see **Create configuration**, you must enable design mode on the **Electronic reporting parameters** page.</span></span> 
  
-5. <span data-ttu-id="fee44-113">在**新建**字段中，输入**基于数据模型付款模型的格式**。</span><span class="sxs-lookup"><span data-stu-id="fee44-113">In the **New** field, enter **Format based on data model PaymentModel**.</span></span>
-6. <span data-ttu-id="fee44-114">在**名称**字段中，键入**银行自动对帐系统（英国虚构）**。</span><span class="sxs-lookup"><span data-stu-id="fee44-114">In the **Name** field, type **BACS (UK fictitious)**.</span></span>
-7. <span data-ttu-id="fee44-115">在**描述**字段中，键入**银行自动对帐系统供应商付款格式（英国虚拟）**。</span><span class="sxs-lookup"><span data-stu-id="fee44-115">In the **Description** field, type **BACS vendor payment format (UK fictitious)**.</span></span>
-    * <span data-ttu-id="fee44-116">有效配置提供商将自动在此输入。</span><span class="sxs-lookup"><span data-stu-id="fee44-116">The active configuration provider is automatically entered here.</span></span> <span data-ttu-id="fee44-117">此提供商可以维护此配置。</span><span class="sxs-lookup"><span data-stu-id="fee44-117">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="fee44-118">其他提供商可以使用此配置，但不能对其进行维护。</span><span class="sxs-lookup"><span data-stu-id="fee44-118">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
-    * <span data-ttu-id="fee44-119">电子文档的特定格式可进行定义。</span><span class="sxs-lookup"><span data-stu-id="fee44-119">A particular format of electronic document can be defined.</span></span> <span data-ttu-id="fee44-120">如果您想要选择运行时间的格式，则将此字段保留为空。</span><span class="sxs-lookup"><span data-stu-id="fee44-120">Leave this field blank if you want to select a format at run-time.</span></span>  
-8. <span data-ttu-id="fee44-121">在**数据模型定义**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="fee44-121">In the **Data model definition** field, enter or select a value.</span></span>
-9. <span data-ttu-id="fee44-122">单击**创建配置**。</span><span class="sxs-lookup"><span data-stu-id="fee44-122">Click **Create configuration**.</span></span> <span data-ttu-id="fee44-123">已创建新的配置。</span><span class="sxs-lookup"><span data-stu-id="fee44-123">A new configuration has been created.</span></span> <span data-ttu-id="fee44-124">草稿版本可用于存储用于管理电子文档的设计格式。</span><span class="sxs-lookup"><span data-stu-id="fee44-124">The draft version can be used to store the design format for managing electronic documents.</span></span>  
+5. <span data-ttu-id="de499-113">在**新建**字段中，输入**基于数据模型付款模型的格式**。</span><span class="sxs-lookup"><span data-stu-id="de499-113">In the **New** field, enter **Format based on data model PaymentModel**.</span></span>
+6. <span data-ttu-id="de499-114">在**名称**字段中，键入**银行自动对帐系统（英国虚构）**。</span><span class="sxs-lookup"><span data-stu-id="de499-114">In the **Name** field, type **BACS (UK fictitious)**.</span></span>
+7. <span data-ttu-id="de499-115">在**描述**字段中，键入**银行自动对帐系统供应商付款格式（英国虚拟）**。</span><span class="sxs-lookup"><span data-stu-id="de499-115">In the **Description** field, type **BACS vendor payment format (UK fictitious)**.</span></span>
+    * <span data-ttu-id="de499-116">有效配置提供商将自动在此输入。</span><span class="sxs-lookup"><span data-stu-id="de499-116">The active configuration provider is automatically entered here.</span></span> <span data-ttu-id="de499-117">此提供商可以维护此配置。</span><span class="sxs-lookup"><span data-stu-id="de499-117">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="de499-118">其他提供商可以使用此配置，但不能对其进行维护。</span><span class="sxs-lookup"><span data-stu-id="de499-118">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
+    * <span data-ttu-id="de499-119">电子文档的特定格式可进行定义。</span><span class="sxs-lookup"><span data-stu-id="de499-119">A particular format of electronic document can be defined.</span></span> <span data-ttu-id="de499-120">如果您想要选择运行时间的格式，则将此字段保留为空。</span><span class="sxs-lookup"><span data-stu-id="de499-120">Leave this field blank if you want to select a format at run-time.</span></span>  
+8. <span data-ttu-id="de499-121">在**数据模型定义**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="de499-121">In the **Data model definition** field, enter or select a value.</span></span>
+9. <span data-ttu-id="de499-122">单击**创建配置**。</span><span class="sxs-lookup"><span data-stu-id="de499-122">Click **Create configuration**.</span></span> <span data-ttu-id="de499-123">已创建新的配置。</span><span class="sxs-lookup"><span data-stu-id="de499-123">A new configuration has been created.</span></span> <span data-ttu-id="de499-124">草稿版本可用于存储用于管理电子文档的设计格式。</span><span class="sxs-lookup"><span data-stu-id="de499-124">The draft version can be used to store the design format for managing electronic documents.</span></span>  
 
-## <a name="design-the-format-of-an-electronic-document"></a><span data-ttu-id="fee44-125">设计电子单据的格式</span><span class="sxs-lookup"><span data-stu-id="fee44-125">Design the format of an electronic document</span></span>
-1. <span data-ttu-id="fee44-126">单击**设计器**。</span><span class="sxs-lookup"><span data-stu-id="fee44-126">Click **Designer**.</span></span>
-2. <span data-ttu-id="fee44-127">单击**添加根**以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="fee44-127">Click **Add root** to open the drop dialog.</span></span>
-3. <span data-ttu-id="fee44-128">在树结构中，选择**常见\文件**。</span><span class="sxs-lookup"><span data-stu-id="fee44-128">In the tree, select **Common\File**.</span></span>
-4. <span data-ttu-id="fee44-129">在**名称**字段中，键入 **Xml**。</span><span class="sxs-lookup"><span data-stu-id="fee44-129">In the **Name** field, type **Xml**.</span></span>
-5. <span data-ttu-id="fee44-130">在**编码**字段中，键入 **UTF-8**。</span><span class="sxs-lookup"><span data-stu-id="fee44-130">In the **Encoding** field, type **UTF-8**.</span></span>
-6. <span data-ttu-id="fee44-131">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-131">Click **OK**.</span></span>
-7. <span data-ttu-id="fee44-132">单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="fee44-132">Click **Add**.</span></span>
-8. <span data-ttu-id="fee44-133">在树结构中，选择 **XML\元素**。</span><span class="sxs-lookup"><span data-stu-id="fee44-133">In the tree, select **XML\Element**.</span></span>
-9. <span data-ttu-id="fee44-134">在**名称**字段中，键入**消息**。</span><span class="sxs-lookup"><span data-stu-id="fee44-134">In the **Name** field, type **Message**.</span></span>
-10. <span data-ttu-id="fee44-135">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-135">Click **OK**.</span></span>
-11. <span data-ttu-id="fee44-136">在树结构中，选择 **Xml\消息**。</span><span class="sxs-lookup"><span data-stu-id="fee44-136">In the tree, select **Xml\Message**.</span></span>
-12. <span data-ttu-id="fee44-137">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="fee44-137">Click **Add Element**.</span></span>
-13. <span data-ttu-id="fee44-138">在**名称**字段中，键入**处理日期**。</span><span class="sxs-lookup"><span data-stu-id="fee44-138">In the **Name** field, type **ProcessingDate**.</span></span>
-14. <span data-ttu-id="fee44-139">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-139">Click **OK**.</span></span>
-15. <span data-ttu-id="fee44-140">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="fee44-140">Click **Add Element**.</span></span>
-16. <span data-ttu-id="fee44-141">在“名称”字段中，键入**消息 ID**。</span><span class="sxs-lookup"><span data-stu-id="fee44-141">In the Name field, type **MessageId**.</span></span>
-17. <span data-ttu-id="fee44-142">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-142">Click **OK**.</span></span>
-18. <span data-ttu-id="fee44-143">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="fee44-143">Click **Add Element**.</span></span>
-19. <span data-ttu-id="fee44-144">在**名称**字段中，键入**付款**。</span><span class="sxs-lookup"><span data-stu-id="fee44-144">In the **Name** field, type **Payments**.</span></span>
-20. <span data-ttu-id="fee44-145">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-145">Click **OK**.</span></span>
-21. <span data-ttu-id="fee44-146">在树结构中，选择 **Xml\消息\付款**。</span><span class="sxs-lookup"><span data-stu-id="fee44-146">In the tree, select **Xml\Message\Payments**.</span></span>
-22. <span data-ttu-id="fee44-147">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="fee44-147">Click **Add Element**.</span></span>
-23. <span data-ttu-id="fee44-148">在**名称**字段中，键入**物料**。</span><span class="sxs-lookup"><span data-stu-id="fee44-148">In the **Name** field, type **Item**.</span></span>
-24. <span data-ttu-id="fee44-149">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-149">Click **OK**.</span></span>
-25. <span data-ttu-id="fee44-150">在树结构中，选择 **Xml\消息\付款\项**。</span><span class="sxs-lookup"><span data-stu-id="fee44-150">In the tree, select **Xml\Message\Payments\Item**.</span></span>
-26. <span data-ttu-id="fee44-151">单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="fee44-151">Click **Add**.</span></span>
-27. <span data-ttu-id="fee44-152">在树结构中，选择 **XML\属性**。</span><span class="sxs-lookup"><span data-stu-id="fee44-152">In the tree, select **XML\Attribute**.</span></span>
-28. <span data-ttu-id="fee44-153">在“名称”字段中，键入 **Id**。</span><span class="sxs-lookup"><span data-stu-id="fee44-153">In the Name field, type **Id**.</span></span>
-29. <span data-ttu-id="fee44-154">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-154">Click **OK**.</span></span>
-30. <span data-ttu-id="fee44-155">单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="fee44-155">Click **Add**.</span></span>
-31. <span data-ttu-id="fee44-156">在树结构中，选择 **XML\元素**。</span><span class="sxs-lookup"><span data-stu-id="fee44-156">In the tree, select **XML\Element**.</span></span>
-32. <span data-ttu-id="fee44-157">在“名称”字段中，键入**供应商**。</span><span class="sxs-lookup"><span data-stu-id="fee44-157">In the Name field, type **Vendor**.</span></span>
-33. <span data-ttu-id="fee44-158">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-158">Click **OK**.</span></span>
-34. <span data-ttu-id="fee44-159">在树结构中，选择 **Xml\消息\付款\项\供应商**。</span><span class="sxs-lookup"><span data-stu-id="fee44-159">In the tree, select **Xml\Message\Payments\Item\Vendor**.</span></span>
-35. <span data-ttu-id="fee44-160">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="fee44-160">Click **Add Element**.</span></span>
-36. <span data-ttu-id="fee44-161">在“名称”字段中，键入**名称**。</span><span class="sxs-lookup"><span data-stu-id="fee44-161">In the Name field, type **Name**.</span></span>
-37. <span data-ttu-id="fee44-162">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-162">Click **OK**.</span></span>
-38. <span data-ttu-id="fee44-163">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="fee44-163">Click **Add Element**.</span></span>
-39. <span data-ttu-id="fee44-164">在**名称**字段中，键入**银行**。</span><span class="sxs-lookup"><span data-stu-id="fee44-164">In the **Name** field, type **Bank**.</span></span>
-40. <span data-ttu-id="fee44-165">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-165">Click **OK**.</span></span>
-41. <span data-ttu-id="fee44-166">在树结构中，选择 **Xml\消息\付款\项\供应商\银行**。</span><span class="sxs-lookup"><span data-stu-id="fee44-166">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank**.</span></span>
-42. <span data-ttu-id="fee44-167">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="fee44-167">Click **Add Element**.</span></span>
-43. <span data-ttu-id="fee44-168">在**名称**字段中，键入**银行代号**。</span><span class="sxs-lookup"><span data-stu-id="fee44-168">In the **Name** field, type **RoutingNumber**.</span></span>
-44. <span data-ttu-id="fee44-169">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-169">Click **OK**.</span></span>
-45. <span data-ttu-id="fee44-170">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="fee44-170">Click **Add Element**.</span></span>
-46. <span data-ttu-id="fee44-171">在**名称**字段中，键入**帐号**。</span><span class="sxs-lookup"><span data-stu-id="fee44-171">In the **Name** field, type **AccountNumber**.</span></span>
-47. <span data-ttu-id="fee44-172">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-172">Click **OK**.</span></span>
-48. <span data-ttu-id="fee44-173">在树结构中，选择 **Xml\消息\付款\项\供应商**。</span><span class="sxs-lookup"><span data-stu-id="fee44-173">In the tree, select **Xml\Message\Payments\Item\Vendor**.</span></span>
-49. <span data-ttu-id="fee44-174">单击**复制**。</span><span class="sxs-lookup"><span data-stu-id="fee44-174">Click **Copy**.</span></span>
-50. <span data-ttu-id="fee44-175">在树结构中，选择 **Xml\消息\付款\项**。</span><span class="sxs-lookup"><span data-stu-id="fee44-175">In the tree, select **Xml\Message\Payments\Item**.</span></span>
-51. <span data-ttu-id="fee44-176">单击**粘贴**。</span><span class="sxs-lookup"><span data-stu-id="fee44-176">Click **Paste**.</span></span>
-52. <span data-ttu-id="fee44-177">在**名称**字段中，键入**付款人**。</span><span class="sxs-lookup"><span data-stu-id="fee44-177">In the **Name** field, type **Payer**.</span></span>
-53. <span data-ttu-id="fee44-178">在树结构中，选择 **Xml\消息\付款\项**。</span><span class="sxs-lookup"><span data-stu-id="fee44-178">In the tree, select **Xml\Message\Payments\Item**.</span></span>
-54. <span data-ttu-id="fee44-179">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="fee44-179">Click **Add Element**.</span></span>
-55. <span data-ttu-id="fee44-180">在**名称**字段中，键入**货币**。</span><span class="sxs-lookup"><span data-stu-id="fee44-180">In the **Name** field, type **Currency**.</span></span>
-56. <span data-ttu-id="fee44-181">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-181">Click **OK**.</span></span>
-57. <span data-ttu-id="fee44-182">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="fee44-182">Click **Add Element**.</span></span>
-58. <span data-ttu-id="fee44-183">在**名称**字段中，键入**描述**。</span><span class="sxs-lookup"><span data-stu-id="fee44-183">In the **Name** field, type **Description**.</span></span>
-59. <span data-ttu-id="fee44-184">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-184">Click **OK**.</span></span>
-60. <span data-ttu-id="fee44-185">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="fee44-185">Click **Add Element**.</span></span>
-61. <span data-ttu-id="fee44-186">在“名称”字段中，键入**交易日期**。</span><span class="sxs-lookup"><span data-stu-id="fee44-186">In the Name field, type **TransDate**.</span></span>
-62. <span data-ttu-id="fee44-187">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-187">Click **OK**.</span></span>
-63. <span data-ttu-id="fee44-188">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="fee44-188">Click **Add Element**.</span></span>
-64. <span data-ttu-id="fee44-189">在“名称”字段中，键入**金额**。</span><span class="sxs-lookup"><span data-stu-id="fee44-189">In the Name field, type **Amount**.</span></span>
-65. <span data-ttu-id="fee44-190">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-190">Click **OK**.</span></span>
+## <a name="design-the-format-of-an-electronic-document"></a><span data-ttu-id="de499-125">设计电子单据的格式</span><span class="sxs-lookup"><span data-stu-id="de499-125">Design the format of an electronic document</span></span>
+1. <span data-ttu-id="de499-126">单击**设计器**。</span><span class="sxs-lookup"><span data-stu-id="de499-126">Click **Designer**.</span></span>
+2. <span data-ttu-id="de499-127">单击**添加根**以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="de499-127">Click **Add root** to open the drop dialog.</span></span>
+3. <span data-ttu-id="de499-128">在树结构中，选择**常见\文件**。</span><span class="sxs-lookup"><span data-stu-id="de499-128">In the tree, select **Common\File**.</span></span>
+4. <span data-ttu-id="de499-129">在**名称**字段中，键入 **Xml**。</span><span class="sxs-lookup"><span data-stu-id="de499-129">In the **Name** field, type **Xml**.</span></span>
+5. <span data-ttu-id="de499-130">在**编码**字段中，键入 **UTF-8**。</span><span class="sxs-lookup"><span data-stu-id="de499-130">In the **Encoding** field, type **UTF-8**.</span></span>
+6. <span data-ttu-id="de499-131">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-131">Click **OK**.</span></span>
+7. <span data-ttu-id="de499-132">单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="de499-132">Click **Add**.</span></span>
+8. <span data-ttu-id="de499-133">在树结构中，选择 **XML\元素**。</span><span class="sxs-lookup"><span data-stu-id="de499-133">In the tree, select **XML\Element**.</span></span>
+9. <span data-ttu-id="de499-134">在**名称**字段中，键入**消息**。</span><span class="sxs-lookup"><span data-stu-id="de499-134">In the **Name** field, type **Message**.</span></span>
+10. <span data-ttu-id="de499-135">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-135">Click **OK**.</span></span>
+11. <span data-ttu-id="de499-136">在树结构中，选择 **Xml\消息**。</span><span class="sxs-lookup"><span data-stu-id="de499-136">In the tree, select **Xml\Message**.</span></span>
+12. <span data-ttu-id="de499-137">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="de499-137">Click **Add Element**.</span></span>
+13. <span data-ttu-id="de499-138">在**名称**字段中，键入**处理日期**。</span><span class="sxs-lookup"><span data-stu-id="de499-138">In the **Name** field, type **ProcessingDate**.</span></span>
+14. <span data-ttu-id="de499-139">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-139">Click **OK**.</span></span>
+15. <span data-ttu-id="de499-140">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="de499-140">Click **Add Element**.</span></span>
+16. <span data-ttu-id="de499-141">在“名称”字段中，键入**消息 ID**。</span><span class="sxs-lookup"><span data-stu-id="de499-141">In the Name field, type **MessageId**.</span></span>
+17. <span data-ttu-id="de499-142">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-142">Click **OK**.</span></span>
+18. <span data-ttu-id="de499-143">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="de499-143">Click **Add Element**.</span></span>
+19. <span data-ttu-id="de499-144">在**名称**字段中，键入**付款**。</span><span class="sxs-lookup"><span data-stu-id="de499-144">In the **Name** field, type **Payments**.</span></span>
+20. <span data-ttu-id="de499-145">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-145">Click **OK**.</span></span>
+21. <span data-ttu-id="de499-146">在树结构中，选择 **Xml\消息\付款**。</span><span class="sxs-lookup"><span data-stu-id="de499-146">In the tree, select **Xml\Message\Payments**.</span></span>
+22. <span data-ttu-id="de499-147">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="de499-147">Click **Add Element**.</span></span>
+23. <span data-ttu-id="de499-148">在**名称**字段中，键入**物料**。</span><span class="sxs-lookup"><span data-stu-id="de499-148">In the **Name** field, type **Item**.</span></span>
+24. <span data-ttu-id="de499-149">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-149">Click **OK**.</span></span>
+25. <span data-ttu-id="de499-150">在树结构中，选择 **Xml\消息\付款\项**。</span><span class="sxs-lookup"><span data-stu-id="de499-150">In the tree, select **Xml\Message\Payments\Item**.</span></span>
+26. <span data-ttu-id="de499-151">单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="de499-151">Click **Add**.</span></span>
+27. <span data-ttu-id="de499-152">在树结构中，选择 **XML\属性**。</span><span class="sxs-lookup"><span data-stu-id="de499-152">In the tree, select **XML\Attribute**.</span></span>
+28. <span data-ttu-id="de499-153">在“名称”字段中，键入 **Id**。</span><span class="sxs-lookup"><span data-stu-id="de499-153">In the Name field, type **Id**.</span></span>
+29. <span data-ttu-id="de499-154">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-154">Click **OK**.</span></span>
+30. <span data-ttu-id="de499-155">单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="de499-155">Click **Add**.</span></span>
+31. <span data-ttu-id="de499-156">在树结构中，选择 **XML\元素**。</span><span class="sxs-lookup"><span data-stu-id="de499-156">In the tree, select **XML\Element**.</span></span>
+32. <span data-ttu-id="de499-157">在“名称”字段中，键入**供应商**。</span><span class="sxs-lookup"><span data-stu-id="de499-157">In the Name field, type **Vendor**.</span></span>
+33. <span data-ttu-id="de499-158">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-158">Click **OK**.</span></span>
+34. <span data-ttu-id="de499-159">在树结构中，选择 **Xml\消息\付款\项\供应商**。</span><span class="sxs-lookup"><span data-stu-id="de499-159">In the tree, select **Xml\Message\Payments\Item\Vendor**.</span></span>
+35. <span data-ttu-id="de499-160">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="de499-160">Click **Add Element**.</span></span>
+36. <span data-ttu-id="de499-161">在“名称”字段中，键入**名称**。</span><span class="sxs-lookup"><span data-stu-id="de499-161">In the Name field, type **Name**.</span></span>
+37. <span data-ttu-id="de499-162">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-162">Click **OK**.</span></span>
+38. <span data-ttu-id="de499-163">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="de499-163">Click **Add Element**.</span></span>
+39. <span data-ttu-id="de499-164">在**名称**字段中，键入**银行**。</span><span class="sxs-lookup"><span data-stu-id="de499-164">In the **Name** field, type **Bank**.</span></span>
+40. <span data-ttu-id="de499-165">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-165">Click **OK**.</span></span>
+41. <span data-ttu-id="de499-166">在树结构中，选择 **Xml\消息\付款\项\供应商\银行**。</span><span class="sxs-lookup"><span data-stu-id="de499-166">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank**.</span></span>
+42. <span data-ttu-id="de499-167">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="de499-167">Click **Add Element**.</span></span>
+43. <span data-ttu-id="de499-168">在**名称**字段中，键入**银行代号**。</span><span class="sxs-lookup"><span data-stu-id="de499-168">In the **Name** field, type **RoutingNumber**.</span></span>
+44. <span data-ttu-id="de499-169">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-169">Click **OK**.</span></span>
+45. <span data-ttu-id="de499-170">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="de499-170">Click **Add Element**.</span></span>
+46. <span data-ttu-id="de499-171">在**名称**字段中，键入**帐号**。</span><span class="sxs-lookup"><span data-stu-id="de499-171">In the **Name** field, type **AccountNumber**.</span></span>
+47. <span data-ttu-id="de499-172">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-172">Click **OK**.</span></span>
+48. <span data-ttu-id="de499-173">在树结构中，选择 **Xml\消息\付款\项\供应商**。</span><span class="sxs-lookup"><span data-stu-id="de499-173">In the tree, select **Xml\Message\Payments\Item\Vendor**.</span></span>
+49. <span data-ttu-id="de499-174">单击**复制**。</span><span class="sxs-lookup"><span data-stu-id="de499-174">Click **Copy**.</span></span>
+50. <span data-ttu-id="de499-175">在树结构中，选择 **Xml\消息\付款\项**。</span><span class="sxs-lookup"><span data-stu-id="de499-175">In the tree, select **Xml\Message\Payments\Item**.</span></span>
+51. <span data-ttu-id="de499-176">单击**粘贴**。</span><span class="sxs-lookup"><span data-stu-id="de499-176">Click **Paste**.</span></span>
+52. <span data-ttu-id="de499-177">在**名称**字段中，键入**付款人**。</span><span class="sxs-lookup"><span data-stu-id="de499-177">In the **Name** field, type **Payer**.</span></span>
+53. <span data-ttu-id="de499-178">在树结构中，选择 **Xml\消息\付款\项**。</span><span class="sxs-lookup"><span data-stu-id="de499-178">In the tree, select **Xml\Message\Payments\Item**.</span></span>
+54. <span data-ttu-id="de499-179">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="de499-179">Click **Add Element**.</span></span>
+55. <span data-ttu-id="de499-180">在**名称**字段中，键入**货币**。</span><span class="sxs-lookup"><span data-stu-id="de499-180">In the **Name** field, type **Currency**.</span></span>
+56. <span data-ttu-id="de499-181">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-181">Click **OK**.</span></span>
+57. <span data-ttu-id="de499-182">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="de499-182">Click **Add Element**.</span></span>
+58. <span data-ttu-id="de499-183">在**名称**字段中，键入**描述**。</span><span class="sxs-lookup"><span data-stu-id="de499-183">In the **Name** field, type **Description**.</span></span>
+59. <span data-ttu-id="de499-184">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-184">Click **OK**.</span></span>
+60. <span data-ttu-id="de499-185">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="de499-185">Click **Add Element**.</span></span>
+61. <span data-ttu-id="de499-186">在“名称”字段中，键入**交易日期**。</span><span class="sxs-lookup"><span data-stu-id="de499-186">In the Name field, type **TransDate**.</span></span>
+62. <span data-ttu-id="de499-187">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-187">Click **OK**.</span></span>
+63. <span data-ttu-id="de499-188">单击**添加元素**。</span><span class="sxs-lookup"><span data-stu-id="de499-188">Click **Add Element**.</span></span>
+64. <span data-ttu-id="de499-189">在“名称”字段中，键入**金额**。</span><span class="sxs-lookup"><span data-stu-id="de499-189">In the Name field, type **Amount**.</span></span>
+65. <span data-ttu-id="de499-190">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-190">Click **OK**.</span></span>
 
-## <a name="prepare-format-components-for-mapping-to-data-model-elements"></a><span data-ttu-id="fee44-191">准备映射到数据模型元素的格式部分</span><span class="sxs-lookup"><span data-stu-id="fee44-191">Prepare format components for mapping to data model elements</span></span>
-1. <span data-ttu-id="fee44-192">在树结构中，选择 **Xml\消息\处理日期**。</span><span class="sxs-lookup"><span data-stu-id="fee44-192">In the tree, select **Xml\Message\ProcessingDate**.</span></span>
-2. <span data-ttu-id="fee44-193">单击**添加**以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="fee44-193">Click **Add** to open the drop dialog.</span></span>
-3. <span data-ttu-id="fee44-194">在树结构中，选择**文本\日期时间**。</span><span class="sxs-lookup"><span data-stu-id="fee44-194">In the tree, select **Text\DateTime**.</span></span>
-4. <span data-ttu-id="fee44-195">在**格式**字段中，键入**年-月-日**。</span><span class="sxs-lookup"><span data-stu-id="fee44-195">In the **Format** field, type **yyyy-MM-dd**.</span></span>
-5. <span data-ttu-id="fee44-196">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-196">Click **OK**.</span></span>
-6. <span data-ttu-id="fee44-197">在树结构中，选择 **Xml\消息\付款\项\交易日期**。</span><span class="sxs-lookup"><span data-stu-id="fee44-197">In the tree, select **Xml\Message\Payments\Item\TransDate**.</span></span>
-7. <span data-ttu-id="fee44-198">单击**添加日期时间**。</span><span class="sxs-lookup"><span data-stu-id="fee44-198">Click **Add DateTime**.</span></span>
-8. <span data-ttu-id="fee44-199">在**格式**字段中，键入**年-月-日**。</span><span class="sxs-lookup"><span data-stu-id="fee44-199">In the **Format** field, type **yyyy-MM-dd**.</span></span>
-9. <span data-ttu-id="fee44-200">在**日期时间**类型字段中，选择**日期**。</span><span class="sxs-lookup"><span data-stu-id="fee44-200">In the **DateTime** type field, select **Date**.</span></span>
-10. <span data-ttu-id="fee44-201">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-201">Click **OK**.</span></span>
-11. <span data-ttu-id="fee44-202">在树结构中，选择 **Xml\消息\消息标识**。</span><span class="sxs-lookup"><span data-stu-id="fee44-202">In the tree, select **Xml\Message\MessageId**.</span></span>
-12. <span data-ttu-id="fee44-203">单击**添加**以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="fee44-203">Click **Add** to open the drop dialog.</span></span>
-13. <span data-ttu-id="fee44-204">在树结构中，选择**文本\字符串**。</span><span class="sxs-lookup"><span data-stu-id="fee44-204">In the tree, select **Text\String**.</span></span>
-14. <span data-ttu-id="fee44-205">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-205">Click **OK**.</span></span>
-15. <span data-ttu-id="fee44-206">在树结构中，选择 **Xml\消息\付款\项\供应商\名称**。</span><span class="sxs-lookup"><span data-stu-id="fee44-206">In the tree, select **Xml\Message\Payments\Item\Vendor\Name**.</span></span>
-16. <span data-ttu-id="fee44-207">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="fee44-207">Click **Add String**.</span></span>
-17. <span data-ttu-id="fee44-208">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-208">Click **OK**.</span></span>
-18. <span data-ttu-id="fee44-209">在树结构中，选择 **Xml\消息\付款\项\供应商\银行\银行代号**。</span><span class="sxs-lookup"><span data-stu-id="fee44-209">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank\RoutingNumber**.</span></span>
-19. <span data-ttu-id="fee44-210">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="fee44-210">Click **Add String**.</span></span>
-20. <span data-ttu-id="fee44-211">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-211">Click **OK**.</span></span>
-21. <span data-ttu-id="fee44-212">在树结构中，选择 **Xml\消息\付款\项\供应商\银行\帐号**。</span><span class="sxs-lookup"><span data-stu-id="fee44-212">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank\AccountNumber**.</span></span>
-22. <span data-ttu-id="fee44-213">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="fee44-213">Click **Add String**.</span></span>
-23. <span data-ttu-id="fee44-214">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-214">Click **OK**.</span></span>
-24. <span data-ttu-id="fee44-215">在树结构中，选择 **Xml\消息\付款\项\付款人\名称**。</span><span class="sxs-lookup"><span data-stu-id="fee44-215">In the tree, select **Xml\Message\Payments\Item\Payer\Name**.</span></span>
-25. <span data-ttu-id="fee44-216">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="fee44-216">Click **Add String**.</span></span>
-26. <span data-ttu-id="fee44-217">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-217">Click **OK**.</span></span>
-27. <span data-ttu-id="fee44-218">在树结构中，选择 **Xml\消息\付款\项\付款人\银行\银行代号**。</span><span class="sxs-lookup"><span data-stu-id="fee44-218">In the tree, select **Xml\Message\Payments\Item\Payer\Bank\RoutingNumber**.</span></span>
-28. <span data-ttu-id="fee44-219">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="fee44-219">Click **Add String**.</span></span>
-29. <span data-ttu-id="fee44-220">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-220">Click **OK**.</span></span>
-30. <span data-ttu-id="fee44-221">在树结构中，选择 **Xml\消息\付款\项\付款人\银行\帐号**。</span><span class="sxs-lookup"><span data-stu-id="fee44-221">In the tree, select **Xml\Message\Payments\Item\Payer\Bank\AccountNumber**.</span></span>
-31. <span data-ttu-id="fee44-222">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="fee44-222">Click **Add String**.</span></span>
-32. <span data-ttu-id="fee44-223">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-223">Click **OK**.</span></span>
-33. <span data-ttu-id="fee44-224">在树结构中，选择 **Xml\消息\付款\项\货币**。</span><span class="sxs-lookup"><span data-stu-id="fee44-224">In the tree, select **Xml\Message\Payments\Item\Currency**.</span></span>
-34. <span data-ttu-id="fee44-225">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="fee44-225">Click **Add String**.</span></span>
-35. <span data-ttu-id="fee44-226">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-226">Click **OK**.</span></span>
-36. <span data-ttu-id="fee44-227">在树结构中，选择 **Xml\消息\付款\项\描述**。</span><span class="sxs-lookup"><span data-stu-id="fee44-227">In the tree, select **Xml\Message\Payments\Item\Description**.</span></span>
-37. <span data-ttu-id="fee44-228">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="fee44-228">Click **Add String**.</span></span>
-38. <span data-ttu-id="fee44-229">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-229">Click **OK**.</span></span>
-39. <span data-ttu-id="fee44-230">在树结构中，选择 **Xml\消息\付款\项\金额**。</span><span class="sxs-lookup"><span data-stu-id="fee44-230">In the tree, select **Xml\Message\Payments\Item\Amount**.</span></span>
-40. <span data-ttu-id="fee44-231">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="fee44-231">Click **Add String**.</span></span>
-41. <span data-ttu-id="fee44-232">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fee44-232">Click **OK**.</span></span>
-42. <span data-ttu-id="fee44-233">单击**保存**。</span><span class="sxs-lookup"><span data-stu-id="fee44-233">Click **Save**.</span></span>
-43. <span data-ttu-id="fee44-234">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="fee44-234">Close the page.</span></span>
+## <a name="prepare-format-components-for-mapping-to-data-model-elements"></a><span data-ttu-id="de499-191">准备映射到数据模型元素的格式部分</span><span class="sxs-lookup"><span data-stu-id="de499-191">Prepare format components for mapping to data model elements</span></span>
+1. <span data-ttu-id="de499-192">在树结构中，选择 **Xml\消息\处理日期**。</span><span class="sxs-lookup"><span data-stu-id="de499-192">In the tree, select **Xml\Message\ProcessingDate**.</span></span>
+2. <span data-ttu-id="de499-193">单击**添加**以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="de499-193">Click **Add** to open the drop dialog.</span></span>
+3. <span data-ttu-id="de499-194">在树结构中，选择**文本\日期时间**。</span><span class="sxs-lookup"><span data-stu-id="de499-194">In the tree, select **Text\DateTime**.</span></span>
+4. <span data-ttu-id="de499-195">在**格式**字段中，键入**年-月-日**。</span><span class="sxs-lookup"><span data-stu-id="de499-195">In the **Format** field, type **yyyy-MM-dd**.</span></span>
+5. <span data-ttu-id="de499-196">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-196">Click **OK**.</span></span>
+6. <span data-ttu-id="de499-197">在树结构中，选择 **Xml\消息\付款\项\交易日期**。</span><span class="sxs-lookup"><span data-stu-id="de499-197">In the tree, select **Xml\Message\Payments\Item\TransDate**.</span></span>
+7. <span data-ttu-id="de499-198">单击**添加日期时间**。</span><span class="sxs-lookup"><span data-stu-id="de499-198">Click **Add DateTime**.</span></span>
+8. <span data-ttu-id="de499-199">在**格式**字段中，键入**年-月-日**。</span><span class="sxs-lookup"><span data-stu-id="de499-199">In the **Format** field, type **yyyy-MM-dd**.</span></span>
+9. <span data-ttu-id="de499-200">在**日期时间**类型字段中，选择**日期**。</span><span class="sxs-lookup"><span data-stu-id="de499-200">In the **DateTime** type field, select **Date**.</span></span>
+10. <span data-ttu-id="de499-201">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-201">Click **OK**.</span></span>
+11. <span data-ttu-id="de499-202">在树结构中，选择 **Xml\消息\消息标识**。</span><span class="sxs-lookup"><span data-stu-id="de499-202">In the tree, select **Xml\Message\MessageId**.</span></span>
+12. <span data-ttu-id="de499-203">单击**添加**以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="de499-203">Click **Add** to open the drop dialog.</span></span>
+13. <span data-ttu-id="de499-204">在树结构中，选择**文本\字符串**。</span><span class="sxs-lookup"><span data-stu-id="de499-204">In the tree, select **Text\String**.</span></span>
+14. <span data-ttu-id="de499-205">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-205">Click **OK**.</span></span>
+15. <span data-ttu-id="de499-206">在树结构中，选择 **Xml\消息\付款\项\供应商\名称**。</span><span class="sxs-lookup"><span data-stu-id="de499-206">In the tree, select **Xml\Message\Payments\Item\Vendor\Name**.</span></span>
+16. <span data-ttu-id="de499-207">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="de499-207">Click **Add String**.</span></span>
+17. <span data-ttu-id="de499-208">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-208">Click **OK**.</span></span>
+18. <span data-ttu-id="de499-209">在树结构中，选择 **Xml\消息\付款\项\供应商\银行\银行代号**。</span><span class="sxs-lookup"><span data-stu-id="de499-209">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank\RoutingNumber**.</span></span>
+19. <span data-ttu-id="de499-210">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="de499-210">Click **Add String**.</span></span>
+20. <span data-ttu-id="de499-211">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-211">Click **OK**.</span></span>
+21. <span data-ttu-id="de499-212">在树结构中，选择 **Xml\消息\付款\项\供应商\银行\帐号**。</span><span class="sxs-lookup"><span data-stu-id="de499-212">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank\AccountNumber**.</span></span>
+22. <span data-ttu-id="de499-213">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="de499-213">Click **Add String**.</span></span>
+23. <span data-ttu-id="de499-214">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-214">Click **OK**.</span></span>
+24. <span data-ttu-id="de499-215">在树结构中，选择 **Xml\消息\付款\项\付款人\名称**。</span><span class="sxs-lookup"><span data-stu-id="de499-215">In the tree, select **Xml\Message\Payments\Item\Payer\Name**.</span></span>
+25. <span data-ttu-id="de499-216">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="de499-216">Click **Add String**.</span></span>
+26. <span data-ttu-id="de499-217">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-217">Click **OK**.</span></span>
+27. <span data-ttu-id="de499-218">在树结构中，选择 **Xml\消息\付款\项\付款人\银行\银行代号**。</span><span class="sxs-lookup"><span data-stu-id="de499-218">In the tree, select **Xml\Message\Payments\Item\Payer\Bank\RoutingNumber**.</span></span>
+28. <span data-ttu-id="de499-219">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="de499-219">Click **Add String**.</span></span>
+29. <span data-ttu-id="de499-220">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-220">Click **OK**.</span></span>
+30. <span data-ttu-id="de499-221">在树结构中，选择 **Xml\消息\付款\项\付款人\银行\帐号**。</span><span class="sxs-lookup"><span data-stu-id="de499-221">In the tree, select **Xml\Message\Payments\Item\Payer\Bank\AccountNumber**.</span></span>
+31. <span data-ttu-id="de499-222">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="de499-222">Click **Add String**.</span></span>
+32. <span data-ttu-id="de499-223">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-223">Click **OK**.</span></span>
+33. <span data-ttu-id="de499-224">在树结构中，选择 **Xml\消息\付款\项\货币**。</span><span class="sxs-lookup"><span data-stu-id="de499-224">In the tree, select **Xml\Message\Payments\Item\Currency**.</span></span>
+34. <span data-ttu-id="de499-225">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="de499-225">Click **Add String**.</span></span>
+35. <span data-ttu-id="de499-226">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-226">Click **OK**.</span></span>
+36. <span data-ttu-id="de499-227">在树结构中，选择 **Xml\消息\付款\项\描述**。</span><span class="sxs-lookup"><span data-stu-id="de499-227">In the tree, select **Xml\Message\Payments\Item\Description**.</span></span>
+37. <span data-ttu-id="de499-228">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="de499-228">Click **Add String**.</span></span>
+38. <span data-ttu-id="de499-229">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-229">Click **OK**.</span></span>
+39. <span data-ttu-id="de499-230">在树结构中，选择 **Xml\消息\付款\项\金额**。</span><span class="sxs-lookup"><span data-stu-id="de499-230">In the tree, select **Xml\Message\Payments\Item\Amount**.</span></span>
+40. <span data-ttu-id="de499-231">单击**添加字符串**。</span><span class="sxs-lookup"><span data-stu-id="de499-231">Click **Add String**.</span></span>
+41. <span data-ttu-id="de499-232">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="de499-232">Click **OK**.</span></span>
+42. <span data-ttu-id="de499-233">单击**保存**。</span><span class="sxs-lookup"><span data-stu-id="de499-233">Click **Save**.</span></span>
+43. <span data-ttu-id="de499-234">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="de499-234">Close the page.</span></span>
 

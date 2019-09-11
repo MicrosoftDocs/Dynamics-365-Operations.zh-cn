@@ -1,9 +1,9 @@
 ---
 title: 定义原始凭证的审计策略
-description: 此过程显示如何设置和运行审计政策规则。
+description: 此主题介绍如何设置和运行审计政策规则。
 author: ryansandness
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,80 +16,75 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17b712f07a0ffe6874eb6d98b47ced96f5a54483
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a6b0fa28d778a4d9fa1f718b1d50bf1dce00be00
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846479"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914799"
 ---
-# <a name="define-audit-policies-for-source-documents"></a><span data-ttu-id="742c9-103">定义原始凭证的审计策略</span><span class="sxs-lookup"><span data-stu-id="742c9-103">Define audit policies for source documents</span></span>
+# <a name="define-audit-policies-for-source-documents"></a><span data-ttu-id="d8c28-103">定义原始凭证的审计策略</span><span class="sxs-lookup"><span data-stu-id="d8c28-103">Define audit policies for source documents</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="742c9-104">此过程显示如何设置和运行审计政策规则。</span><span class="sxs-lookup"><span data-stu-id="742c9-104">This procedure shows how to set up and run audit policy rules.</span></span> <span data-ttu-id="742c9-105">本例使用含酒店费用类型的费用报表。</span><span class="sxs-lookup"><span data-stu-id="742c9-105">The example uses expense reports with the hotel expense type.</span></span> <span data-ttu-id="742c9-106">该程序适用于 USMF 演示公司。</span><span class="sxs-lookup"><span data-stu-id="742c9-106">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="742c9-107">审计角色包含执行这些任务的正确权限。</span><span class="sxs-lookup"><span data-stu-id="742c9-107">The auditor role contains the correct permissions in order to perform these tasks.</span></span>
+<span data-ttu-id="d8c28-104">此主题介绍如何设置和运行审计政策规则。</span><span class="sxs-lookup"><span data-stu-id="d8c28-104">This topic explains how to set up and run audit policy rules.</span></span> <span data-ttu-id="d8c28-105">本例使用含酒店费用类型的费用报表。</span><span class="sxs-lookup"><span data-stu-id="d8c28-105">The example uses expense reports with the hotel expense type.</span></span> <span data-ttu-id="d8c28-106">该程序适用于 USMF 演示公司。</span><span class="sxs-lookup"><span data-stu-id="d8c28-106">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="d8c28-107">审计角色包含执行这些任务的正确权限。</span><span class="sxs-lookup"><span data-stu-id="d8c28-107">The auditor role contains the correct permissions in order to perform these tasks.</span></span>
 
-1. <span data-ttu-id="742c9-108">转至“审计工作台”>“设置”>“政策规则类型”。</span><span class="sxs-lookup"><span data-stu-id="742c9-108">Go to Audit workbench > Setup > Policy rule type.</span></span>
-2. <span data-ttu-id="742c9-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="742c9-109">Click New.</span></span>
-3. <span data-ttu-id="742c9-110">在“规则名称”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="742c9-110">In the Rule name field, type a value.</span></span>
-4. <span data-ttu-id="742c9-111">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="742c9-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="742c9-112">在“查询名称”字段中，选择“费用报表”行</span><span class="sxs-lookup"><span data-stu-id="742c9-112">In the Query name field, select Expense report line</span></span>
-6. <span data-ttu-id="742c9-113">在“查询类型”字段中，选择“汇总”</span><span class="sxs-lookup"><span data-stu-id="742c9-113">In the query type field, select Aggregate</span></span>
-7. <span data-ttu-id="742c9-114">在“法人实体”字段中，选择“法人实体”</span><span class="sxs-lookup"><span data-stu-id="742c9-114">In the Legal entity field, select Legal entity</span></span>
-8. <span data-ttu-id="742c9-115">在“文档日期引用”字段中，选择“已修改的日期和时间”</span><span class="sxs-lookup"><span data-stu-id="742c9-115">In the Document date reference field, select Modified date and time</span></span>
-9. <span data-ttu-id="742c9-116">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="742c9-116">Click Save.</span></span>
-10. <span data-ttu-id="742c9-117">转至“审计工作台”>“设置”>“审计政策”。</span><span class="sxs-lookup"><span data-stu-id="742c9-117">Go to Audit workbench > Setup > Audit policies.</span></span>
-11. <span data-ttu-id="742c9-118">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="742c9-118">Click New.</span></span>
-12. <span data-ttu-id="742c9-119">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="742c9-119">In the Name field, type a value.</span></span>
-13. <span data-ttu-id="742c9-120">展开“政策组织”部分。</span><span class="sxs-lookup"><span data-stu-id="742c9-120">Expand the Policy organizations section.</span></span>
-14. <span data-ttu-id="742c9-121">在树结构中，选择“美国 Contoso 娱乐系统”。</span><span class="sxs-lookup"><span data-stu-id="742c9-121">In the tree, select 'Contoso Entertainment System USA'.</span></span>
-15. <span data-ttu-id="742c9-122">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="742c9-122">Click Add.</span></span>
-16. <span data-ttu-id="742c9-123">在树结构中，选择“美国 Contoso 咨询”。</span><span class="sxs-lookup"><span data-stu-id="742c9-123">In the tree, select 'Contoso Consulting USA'.</span></span>
-17. <span data-ttu-id="742c9-124">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="742c9-124">Click Add.</span></span>
-18. <span data-ttu-id="742c9-125">在树结构中，选择“美国 Contoso 零售”。</span><span class="sxs-lookup"><span data-stu-id="742c9-125">In the tree, select 'Contoso Retail USA'.</span></span>
-19. <span data-ttu-id="742c9-126">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="742c9-126">Click Add.</span></span>
-20. <span data-ttu-id="742c9-127">展开“政策组织”部分。</span><span class="sxs-lookup"><span data-stu-id="742c9-127">Collapse the Policy organizations section.</span></span>
-21. <span data-ttu-id="742c9-128">展开“政策规则”部分。</span><span class="sxs-lookup"><span data-stu-id="742c9-128">Expand the Policy rules section.</span></span>
-22. <span data-ttu-id="742c9-129">在列表中，查找并选择以前创建的政策规则。</span><span class="sxs-lookup"><span data-stu-id="742c9-129">In the list, find and select the Policy Rule that was created previously.</span></span>
-23. <span data-ttu-id="742c9-130">单击“创建政策规则”。</span><span class="sxs-lookup"><span data-stu-id="742c9-130">Click Create policy rule.</span></span>
-24. <span data-ttu-id="742c9-131">在“有效日期”字段中输入日期和时间。</span><span class="sxs-lookup"><span data-stu-id="742c9-131">In the Effective date field, enter a date and time.</span></span>
-25. <span data-ttu-id="742c9-132">单击“筛选器”。</span><span class="sxs-lookup"><span data-stu-id="742c9-132">Click Filter.</span></span>
-26. <span data-ttu-id="742c9-133">在列表中，选择“费用类别”行，然后设置酒店详细信息</span><span class="sxs-lookup"><span data-stu-id="742c9-133">In the list, select the row for Expense category, and set the details to Hotel</span></span>
-27. <span data-ttu-id="742c9-134">在“标准”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="742c9-134">In the Criteria field, enter or select a value.</span></span>
-28. <span data-ttu-id="742c9-135">单击“汇总”选项卡。</span><span class="sxs-lookup"><span data-stu-id="742c9-135">Click the Aggregate tab.</span></span>
-29. <span data-ttu-id="742c9-136">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="742c9-136">Click Add.</span></span>
-30. <span data-ttu-id="742c9-137">在列表中，选择“交易金额”上的字段值</span><span class="sxs-lookup"><span data-stu-id="742c9-137">In the list, select a field value of Transaction amount</span></span>
-31. <span data-ttu-id="742c9-138">在名为“字段”的字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="742c9-138">In the Field field, enter or select a value.</span></span>
-32. <span data-ttu-id="742c9-139">在“汇总功能”字段中，选择“合计”。</span><span class="sxs-lookup"><span data-stu-id="742c9-139">In the AggregateFunction field, select 'Sum'.</span></span>
-33. <span data-ttu-id="742c9-140">单击选项卡上的“组别”。</span><span class="sxs-lookup"><span data-stu-id="742c9-140">Click the Group by tab.</span></span>
-34. <span data-ttu-id="742c9-141">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="742c9-141">Click Add.</span></span>
-35. <span data-ttu-id="742c9-142">在列表中，选择员工值</span><span class="sxs-lookup"><span data-stu-id="742c9-142">In the list, select a value of Employee</span></span> 
-36. <span data-ttu-id="742c9-143">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="742c9-143">Click Add.</span></span>
-37. <span data-ttu-id="742c9-144">在列表中，选择“费用类别”的值</span><span class="sxs-lookup"><span data-stu-id="742c9-144">In the list, select a value of Expense category</span></span>
-38. <span data-ttu-id="742c9-145">在名为“字段”的字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="742c9-145">In the Field field, enter or select a value.</span></span>
-39. <span data-ttu-id="742c9-146">单击“持有”选项卡。</span><span class="sxs-lookup"><span data-stu-id="742c9-146">Click the Having tab.</span></span>
-40. <span data-ttu-id="742c9-147">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="742c9-147">Click Add.</span></span>
-41. <span data-ttu-id="742c9-148">选择“交易金额”</span><span class="sxs-lookup"><span data-stu-id="742c9-148">Select Transaction amount</span></span>
-42. <span data-ttu-id="742c9-149">在名为“字段”的字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="742c9-149">In the Field field, enter or select a value.</span></span>
-43. <span data-ttu-id="742c9-150">在“汇总功能”字段中，选择“合计”。</span><span class="sxs-lookup"><span data-stu-id="742c9-150">In the AggregateFunction field, select 'Sum'.</span></span>
-44. <span data-ttu-id="742c9-151">在“条件”字段中，键入“>2000”。</span><span class="sxs-lookup"><span data-stu-id="742c9-151">In the Criteria field, type '>2000'.</span></span>
-45. <span data-ttu-id="742c9-152">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="742c9-152">Click OK.</span></span>
-46. <span data-ttu-id="742c9-153">单击“测试”。</span><span class="sxs-lookup"><span data-stu-id="742c9-153">Click Test.</span></span>
-47. <span data-ttu-id="742c9-154">在“文档选择开始日期”字段，输入日期和时间。</span><span class="sxs-lookup"><span data-stu-id="742c9-154">In the Document selection starting date field, enter a date and time.</span></span>
-48. <span data-ttu-id="742c9-155">在“文档选择结束日期”字段，输入日期和时间。</span><span class="sxs-lookup"><span data-stu-id="742c9-155">In the Document selection ending date field, enter a date and time.</span></span>
-49. <span data-ttu-id="742c9-156">单击“运行测试”。</span><span class="sxs-lookup"><span data-stu-id="742c9-156">Click Run test.</span></span>
-50. <span data-ttu-id="742c9-157">在操作窗格上，单击“审计政策”。</span><span class="sxs-lookup"><span data-stu-id="742c9-157">On the Action Pane, click Audit policy.</span></span>
-51. <span data-ttu-id="742c9-158">单击“附加选项”。</span><span class="sxs-lookup"><span data-stu-id="742c9-158">Click Additional options.</span></span>
-52. <span data-ttu-id="742c9-159">在“开始日期”字段中，输入日期和时间。</span><span class="sxs-lookup"><span data-stu-id="742c9-159">In the Starting date field, enter a date and time.</span></span>
-53. <span data-ttu-id="742c9-160">在“结束日期”字段中，输入日期和时间。</span><span class="sxs-lookup"><span data-stu-id="742c9-160">In the Ending date field, enter a date and time.</span></span>
-54. <span data-ttu-id="742c9-161">单击“批处理”。</span><span class="sxs-lookup"><span data-stu-id="742c9-161">Click Batch.</span></span>
-55. <span data-ttu-id="742c9-162">展开“后台运行”部分。</span><span class="sxs-lookup"><span data-stu-id="742c9-162">Expand the Run in the background section.</span></span>
-56. <span data-ttu-id="742c9-163">在“批处理”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="742c9-163">Select Yes in the Batch processing field.</span></span>
-57. <span data-ttu-id="742c9-164">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="742c9-164">Click OK.</span></span>
-58. <span data-ttu-id="742c9-165">转至“审计工作台”>“审计案例”。</span><span class="sxs-lookup"><span data-stu-id="742c9-165">Go to Audit workbench > Audit cases.</span></span>
-59. <span data-ttu-id="742c9-166">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="742c9-166">In the list, find and select the desired record.</span></span>
-60. <span data-ttu-id="742c9-167">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="742c9-167">In the list, click the link in the selected row.</span></span>
-61. <span data-ttu-id="742c9-168">展开“关联”部分。</span><span class="sxs-lookup"><span data-stu-id="742c9-168">Expand the Associations section.</span></span>
-62. <span data-ttu-id="742c9-169">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="742c9-169">In the list, find and select the desired record.</span></span>
-63. <span data-ttu-id="742c9-170">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="742c9-170">In the list, click the link in the selected row.</span></span>
+1. <span data-ttu-id="d8c28-108">在导航窗格中，转到**模块 > 审计工作台 > 设置 > 策略规则类型**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-108">In the navigation pane, go to **Modules > Audit workbench > Setup > Policy rule type**.</span></span>
+2. <span data-ttu-id="d8c28-109">选择**新建**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-109">Select **New**.</span></span>
+3. <span data-ttu-id="d8c28-110">在**规则名称**字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="d8c28-110">In the **Rule name** field, type a value.</span></span>
+4. <span data-ttu-id="d8c28-111">在**描述**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="d8c28-111">In the **Description** field, type a value.</span></span>
+5. <span data-ttu-id="d8c28-112">在**查询名称**字段中，选择**支出报表行**</span><span class="sxs-lookup"><span data-stu-id="d8c28-112">In the **Query name** field, select **Expense report line**</span></span>
+6. <span data-ttu-id="d8c28-113">在**查询类型**字段中，选择**汇总**</span><span class="sxs-lookup"><span data-stu-id="d8c28-113">In the **query type** field, select **Aggregate**</span></span>
+7. <span data-ttu-id="d8c28-114">在**法人**字段中，选择**法人**</span><span class="sxs-lookup"><span data-stu-id="d8c28-114">In the **Legal entity** field, select **Legal entity**</span></span>
+8. <span data-ttu-id="d8c28-115">在**文档日期引用**字段中，选择**已修改的日期和时间**</span><span class="sxs-lookup"><span data-stu-id="d8c28-115">In the **Document date reference** field, select **Modified date and time**</span></span>
+9. <span data-ttu-id="d8c28-116">选择**保存**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-116">Select **Save**.</span></span>
+10. <span data-ttu-id="d8c28-117">在导航窗格中，转到**模块 > 审计工作台 > 设置 > 审计策略**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-117">In the navigation pane, go to **Modules > Audit workbench > Setup > Audit policies**.</span></span>
+11. <span data-ttu-id="d8c28-118">选择**新建**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-118">Select **New**.</span></span>
+12. <span data-ttu-id="d8c28-119">在**名称**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="d8c28-119">In the **Name** field, type a value.</span></span>
+13. <span data-ttu-id="d8c28-120">展开**策略组织**部分。</span><span class="sxs-lookup"><span data-stu-id="d8c28-120">Expand the **Policy organizations** section.</span></span>
+14. <span data-ttu-id="d8c28-121">在树结构中，选择**美国 Contoso 娱乐系统**，然后选择**添加**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-121">In the tree, select **Contoso Entertainment System USA**, then select **Add**.</span></span>
+15. <span data-ttu-id="d8c28-122">在树结构中，选择**美国 Contoso 咨询**，然后选择**添加**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-122">In the tree, select **Contoso Consulting USA**, then select **Add**.</span></span>
+16. <span data-ttu-id="d8c28-123">在树结构中，选择**美国 Contoso 零售**，然后选择**添加**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-123">In the tree, select **Contoso Retail USA**, then select **Add**.</span></span>
+17. <span data-ttu-id="d8c28-124">展开**策略组织**部分。</span><span class="sxs-lookup"><span data-stu-id="d8c28-124">Collapse the **Policy organizations** section.</span></span>
+18. <span data-ttu-id="d8c28-125">展开**策略规则**部分。</span><span class="sxs-lookup"><span data-stu-id="d8c28-125">Expand the **Policy rules** section.</span></span>
+19. <span data-ttu-id="d8c28-126">在列表中，查找并选择以前创建的政策规则。</span><span class="sxs-lookup"><span data-stu-id="d8c28-126">In the list, find and select the Policy Rule that was created previously.</span></span>
+20. <span data-ttu-id="d8c28-127">选择**创建策略规则**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-127">Select **Create policy rule**.</span></span>
+21. <span data-ttu-id="d8c28-128">在**生效日期**字段中，输入日期和时间。</span><span class="sxs-lookup"><span data-stu-id="d8c28-128">In the **Effective date** field, enter a date and time.</span></span>
+22. <span data-ttu-id="d8c28-129">选择**筛选器**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-129">Select **Filter**.</span></span>
+23. <span data-ttu-id="d8c28-130">在列表中，选择**支出类别**行，然后将详细信息设置为**酒店**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-130">In the list, select the row for **Expense category**, and set the details to **Hotel**.</span></span>
+24. <span data-ttu-id="d8c28-131">在**标准**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="d8c28-131">In the **Criteria** field, enter or select a value.</span></span>
+25. <span data-ttu-id="d8c28-132">选择**汇总**选项卡。</span><span class="sxs-lookup"><span data-stu-id="d8c28-132">Select the **Aggregate** tab.</span></span>
+26. <span data-ttu-id="d8c28-133">选择**添加**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-133">Select **Add**.</span></span>
+27. <span data-ttu-id="d8c28-134">在列表中，选择**交易金额**的字段值。</span><span class="sxs-lookup"><span data-stu-id="d8c28-134">In the list, select a field value of **Transaction amount**.</span></span>
+28. <span data-ttu-id="d8c28-135">在**字段**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="d8c28-135">In the **Field** field, enter or select a value.</span></span>
+29. <span data-ttu-id="d8c28-136">在**汇总功能**字段中，选择**合计**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-136">In the **AggregateFunction** field, select **Sum**.</span></span>
+30. <span data-ttu-id="d8c28-137">选择**分组依据**选项卡。</span><span class="sxs-lookup"><span data-stu-id="d8c28-137">Select the **Group by** tab.</span></span>
+31. <span data-ttu-id="d8c28-138">选择**添加**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-138">Select **Add**.</span></span>
+32. <span data-ttu-id="d8c28-139">在列表中，选择**员工**值。</span><span class="sxs-lookup"><span data-stu-id="d8c28-139">In the list, select a value of **Employee** .</span></span>
+33. <span data-ttu-id="d8c28-140">选择**添加**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-140">Select **Add**.</span></span>
+34. <span data-ttu-id="d8c28-141">在列表中，选择**支出类别**的值。</span><span class="sxs-lookup"><span data-stu-id="d8c28-141">In the list, select a value of **Expense category**.</span></span>
+35. <span data-ttu-id="d8c28-142">在**字段**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="d8c28-142">In the **Field** field, enter or select a value.</span></span>
+36. <span data-ttu-id="d8c28-143">选择**具有**选项卡。</span><span class="sxs-lookup"><span data-stu-id="d8c28-143">Select the **Having** tab.</span></span>
+37. <span data-ttu-id="d8c28-144">选择**添加**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-144">Select **Add**.</span></span>
+38. <span data-ttu-id="d8c28-145">选择**交易金额**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-145">Select **Transaction amount**.</span></span>
+39. <span data-ttu-id="d8c28-146">在**字段**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="d8c28-146">In the **Field** field, enter or select a value.</span></span>
+40. <span data-ttu-id="d8c28-147">在**汇总功能**字段中，选择**合计**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-147">In the **AggregateFunction** field, select **Sum**.</span></span>
+41. <span data-ttu-id="d8c28-148">在**标准**字段中，输入 `>2000`。</span><span class="sxs-lookup"><span data-stu-id="d8c28-148">In the **Criteria** field, type `>2000`.</span></span>
+42. <span data-ttu-id="d8c28-149">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-149">Select **OK**.</span></span>
+43. <span data-ttu-id="d8c28-150">选择**测试**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-150">Select **Test**.</span></span>
+44. <span data-ttu-id="d8c28-151">在**文档选择开始日期**字段，输入日期和时间。</span><span class="sxs-lookup"><span data-stu-id="d8c28-151">In the **Document selection starting date** field, enter a date and time.</span></span>
+45. <span data-ttu-id="d8c28-152">在**文档选择结束日期**字段，输入日期和时间。</span><span class="sxs-lookup"><span data-stu-id="d8c28-152">In the **Document selection ending date** field, enter a date and time.</span></span>
+46. <span data-ttu-id="d8c28-153">选择**运行测试**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-153">Select **Run test**.</span></span>
+47. <span data-ttu-id="d8c28-154">在操作窗格上，选择**审计策略**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-154">On the Action Pane, select **Audit policy**.</span></span>
+48. <span data-ttu-id="d8c28-155">选择**其他选项**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-155">Select **Additional options**.</span></span>
+49. <span data-ttu-id="d8c28-156">在**开始日期**字段中，输入日期和时间。</span><span class="sxs-lookup"><span data-stu-id="d8c28-156">In the **Starting date** field, enter a date and time.</span></span>
+50. <span data-ttu-id="d8c28-157">在**结束日期**字段中，输入日期和时间。</span><span class="sxs-lookup"><span data-stu-id="d8c28-157">In the **Ending date** field, enter a date and time.</span></span>
+51. <span data-ttu-id="d8c28-158">选择**批处理**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-158">Select **Batch**.</span></span>
+52. <span data-ttu-id="d8c28-159">展开**后台运行**部分。</span><span class="sxs-lookup"><span data-stu-id="d8c28-159">Expand the **Run in the background** section.</span></span>
+53. <span data-ttu-id="d8c28-160">在**批处理**字段中选择**是**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-160">Select **Yes** in the **Batch processing** field.</span></span>
+54. <span data-ttu-id="d8c28-161">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-161">Select **OK**.</span></span>
+55. <span data-ttu-id="d8c28-162">在导航窗格中，转到**模块 > 审计工作台 > 设置 > 审计案例**。</span><span class="sxs-lookup"><span data-stu-id="d8c28-162">In the navigation pane, go to **Modules > Audit workbench > Audit cases**.</span></span>
+56. <span data-ttu-id="d8c28-163">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="d8c28-163">In the list, find and select the desired record.</span></span>
+57. <span data-ttu-id="d8c28-164">展开**关联**部分。</span><span class="sxs-lookup"><span data-stu-id="d8c28-164">Expand the **Associations** section.</span></span>
+58. <span data-ttu-id="d8c28-165">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="d8c28-165">In the list, find and select the desired record.</span></span>
 

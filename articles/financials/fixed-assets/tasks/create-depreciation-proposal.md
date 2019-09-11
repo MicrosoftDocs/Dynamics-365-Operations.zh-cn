@@ -1,9 +1,9 @@
 ---
 title: 创建折旧方案
-description: 本程序描述了批处理折旧方案的工作原理，并说明了如何为固定资产建议折旧方案。
+description: 本主题描述折旧批处理建议的工作原理，并说明如何为固定资产建议折旧。
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,34 +16,35 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07146adfe1ead2b6e06e3c323963f8c012381b76
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 90c24e9d89c055ea95ca5f25cd85ef4042476a90
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839993"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867599"
 ---
-# <a name="create-depreciation-proposal"></a><span data-ttu-id="0c96f-103">创建折旧方案</span><span class="sxs-lookup"><span data-stu-id="0c96f-103">Create depreciation proposal</span></span>
+# <a name="create-a-depreciation-proposal"></a><span data-ttu-id="66b7b-103">创建折旧方案</span><span class="sxs-lookup"><span data-stu-id="66b7b-103">Create a depreciation proposal</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="0c96f-104">本程序描述了批处理折旧方案的工作原理，并说明了如何为固定资产建议折旧方案。</span><span class="sxs-lookup"><span data-stu-id="0c96f-104">This procedure describes how depreciation batch proposals work and explains how to propose depreciation for fixed assets.</span></span> <span data-ttu-id="0c96f-105">此任务使用 USMF 演示公司和会计角色。</span><span class="sxs-lookup"><span data-stu-id="0c96f-105">This task uses the USMF demo company and the accountant role.</span></span>
+<span data-ttu-id="66b7b-104">本主题描述折旧批处理建议的工作原理，并说明如何为固定资产建议折旧。</span><span class="sxs-lookup"><span data-stu-id="66b7b-104">This topic describes how depreciation batch proposals work and explains how to propose depreciation for fixed assets.</span></span> <span data-ttu-id="66b7b-105">此任务使用 USMF 演示公司和会计角色。</span><span class="sxs-lookup"><span data-stu-id="66b7b-105">This task uses the USMF demo company and the accountant role.</span></span>
 
 
-## <a name="create-depreciation-proposal"></a><span data-ttu-id="0c96f-106">创建折旧方案</span><span class="sxs-lookup"><span data-stu-id="0c96f-106">Create depreciation proposal</span></span>
-1. <span data-ttu-id="0c96f-107">转到“固定资产”>“日记帐条目”>“创建折旧方案”。</span><span class="sxs-lookup"><span data-stu-id="0c96f-107">Go to Fixed assets > Journal entries > Create depreciation proposal.</span></span>
-2. <span data-ttu-id="0c96f-108">在“日记帐名称”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="0c96f-108">In the Name of journal field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="0c96f-109">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="0c96f-109">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="0c96f-110">在“结束日期”字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="0c96f-110">In the To date field, enter a date.</span></span>
-    * <span data-ttu-id="0c96f-111">选择“汇总折旧”选项，将按月折旧汇总到一个日记帐行。</span><span class="sxs-lookup"><span data-stu-id="0c96f-111">Select the Summarize depreciation option to summarize monthly depreciations into one journal line.</span></span>  
-    * <span data-ttu-id="0c96f-112">例如，如果“结束日期”值为 2015 年 3 月 31 日，则会生成以下描述：“自 2015 年 1 月 31 日起折旧”。</span><span class="sxs-lookup"><span data-stu-id="0c96f-112">For example, if the To date value is March 31, 2015, the following description is generated: “Depreciation since January 31, 2015.”</span></span> <span data-ttu-id="0c96f-113">建议日记帐行的“日期”字段随后将设置为 2015 年 3 月 31 日。</span><span class="sxs-lookup"><span data-stu-id="0c96f-113">The Date field on the proposed journal lines is then set to March 31, 2015.</span></span>  
-    * <span data-ttu-id="0c96f-114">使用“筛选”选项，按资产、资产组或其他条件筛选折旧方案。</span><span class="sxs-lookup"><span data-stu-id="0c96f-114">The depreciation proposal can be filtered by asset, asset group, or other criteria using the Filter option.</span></span>  
-    * <span data-ttu-id="0c96f-115">如果您为固定资产表格使用“创建购置或折旧方案”，可以批处理折旧方案。</span><span class="sxs-lookup"><span data-stu-id="0c96f-115">When you use the Create acquisition or depreciation proposals for fixed assets form, you can propose depreciation in batches.</span></span> <span data-ttu-id="0c96f-116">对于使用较多系统资源的较大方案，建议使用此方案。</span><span class="sxs-lookup"><span data-stu-id="0c96f-116">This is recommended for larger proposals that will use more system resources.</span></span> <span data-ttu-id="0c96f-117">如果选择批处理选项，您仍可以在该期间完成其他任务。</span><span class="sxs-lookup"><span data-stu-id="0c96f-117">If you select the batch option, you can still complete other tasks during that time.</span></span> <span data-ttu-id="0c96f-118">在您这样建议折旧时，则为固定资产价值模型计算折旧。</span><span class="sxs-lookup"><span data-stu-id="0c96f-118">When you propose depreciation in this way, depreciation is calculated for value models for fixed assets.</span></span>  
-5. <span data-ttu-id="0c96f-119">单击“创建日记帐”。</span><span class="sxs-lookup"><span data-stu-id="0c96f-119">Click Create journal.</span></span>
+## <a name="create-a-depreciation-proposal"></a><span data-ttu-id="66b7b-106">创建折旧方案</span><span class="sxs-lookup"><span data-stu-id="66b7b-106">Create a depreciation proposal</span></span>
+1. <span data-ttu-id="66b7b-107">在导航窗格中，转到**模块 > 固定资产 > 日记帐条目 > 创建折旧方案**。</span><span class="sxs-lookup"><span data-stu-id="66b7b-107">In the navigation pane, go to **Modules > Fixed assets > Journal entries > Create depreciation proposal**.</span></span>
+2. <span data-ttu-id="66b7b-108">在**日记帐的名称**字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="66b7b-108">In the **Name of journal** field, select an option from the drop-down menu.</span></span>
+3. <span data-ttu-id="66b7b-109">在**结束日期**字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="66b7b-109">In the **To date** field, enter a date.</span></span>
 
-## <a name="review-depreciation-entries"></a><span data-ttu-id="0c96f-120">查看折旧条目</span><span class="sxs-lookup"><span data-stu-id="0c96f-120">Review depreciation entries</span></span>
-1. <span data-ttu-id="0c96f-121">转到固定资产>流水输入项>固定资产流水。</span><span class="sxs-lookup"><span data-stu-id="0c96f-121">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
-2. <span data-ttu-id="0c96f-122">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="0c96f-122">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="0c96f-123">单击“行”。</span><span class="sxs-lookup"><span data-stu-id="0c96f-123">Click Lines.</span></span>
-4. <span data-ttu-id="0c96f-124">单击“过帐”。</span><span class="sxs-lookup"><span data-stu-id="0c96f-124">Click Post.</span></span>
+    - <span data-ttu-id="66b7b-110">选择**汇总折旧**选项，将按月折旧汇总到一个日记帐行。</span><span class="sxs-lookup"><span data-stu-id="66b7b-110">Select the **Summarize depreciation** option to summarize monthly depreciations into one journal line.</span></span>  
+    - <span data-ttu-id="66b7b-111">例如，如果“结束日期”值为 2015 年 3 月 31 日，则会生成以下描述：“自 2015 年 1 月 31 日起折旧”。</span><span class="sxs-lookup"><span data-stu-id="66b7b-111">For example, if the To date value is March 31, 2015, the following description is generated: “Depreciation since January 31, 2015.”</span></span> <span data-ttu-id="66b7b-112">建议日记帐行的**日期**字段随后将设置为 2015 年 3 月 31 日。</span><span class="sxs-lookup"><span data-stu-id="66b7b-112">The **Date** field on the proposed journal lines is then set to March 31, 2015.</span></span>  
+    - <span data-ttu-id="66b7b-113">使用**筛选**选项，按资产、资产组或其他条件筛选折旧方案。</span><span class="sxs-lookup"><span data-stu-id="66b7b-113">The depreciation proposal can be filtered by asset, asset group, or other criteria using the **Filter** option.</span></span>  
+    - <span data-ttu-id="66b7b-114">如果您为固定资产表格使用**创建购置或折旧方案**，可以批处理折旧方案。</span><span class="sxs-lookup"><span data-stu-id="66b7b-114">When you use the **Create acquisition or depreciation proposals for fixed assets** form, you can propose depreciation in batches.</span></span> <span data-ttu-id="66b7b-115">对于使用较多系统资源的较大方案，建议使用此方案。</span><span class="sxs-lookup"><span data-stu-id="66b7b-115">This is recommended for larger proposals that will use more system resources.</span></span> <span data-ttu-id="66b7b-116">如果选择批处理选项，您仍可以在该期间完成其他任务。</span><span class="sxs-lookup"><span data-stu-id="66b7b-116">If you select the batch option, you can still complete other tasks during that time.</span></span> <span data-ttu-id="66b7b-117">在您这样建议折旧时，则为固定资产价值模型计算折旧。</span><span class="sxs-lookup"><span data-stu-id="66b7b-117">When you propose depreciation in this way, depreciation is calculated for value models for fixed assets.</span></span>  
+
+4. <span data-ttu-id="66b7b-118">选择**创建日记帐**。</span><span class="sxs-lookup"><span data-stu-id="66b7b-118">Select **Create journal**.</span></span>
+
+## <a name="review-depreciation-entries"></a><span data-ttu-id="66b7b-119">查看折旧条目</span><span class="sxs-lookup"><span data-stu-id="66b7b-119">Review depreciation entries</span></span>
+1. <span data-ttu-id="66b7b-120">在导航窗格中，转到**模块 > 固定资产 > 日记帐条目 > 固定资产日记帐**。</span><span class="sxs-lookup"><span data-stu-id="66b7b-120">In the navigation pane, go to **Modules > Fixed assets > Journal entries > Fixed assets journal**.</span></span>
+2. <span data-ttu-id="66b7b-121">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="66b7b-121">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="66b7b-122">选择**行**。</span><span class="sxs-lookup"><span data-stu-id="66b7b-122">Select **Lines**.</span></span>
+4. <span data-ttu-id="66b7b-123">选择**过帐**。</span><span class="sxs-lookup"><span data-stu-id="66b7b-123">Select **Post**.</span></span>
 

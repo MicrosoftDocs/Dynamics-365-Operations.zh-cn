@@ -1,9 +1,9 @@
 ---
-title: 服务对象
+title: 服务对象概览
 description: 服务对象是您可以对其执行服务的客户的资产和产品。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/21/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,32 +18,32 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5641077de84b6702d2c5621edef74783f2f104fd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a25c4d71d617a0b7cacd31f708421fd9dd960ea
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562315"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865865"
 ---
-# <a name="service-objects"></a><span data-ttu-id="f3802-103">服务对象</span><span class="sxs-lookup"><span data-stu-id="f3802-103">Service objects</span></span> 
+# <a name="service-objects-overview"></a><span data-ttu-id="4bb3a-103">服务对象概览</span><span class="sxs-lookup"><span data-stu-id="4bb3a-103">Service objects overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f3802-104">服务对象是您可以对其执行服务的客户的资产和产品。</span><span class="sxs-lookup"><span data-stu-id="f3802-104">Service objects are a customer’s assets and products for which you can perform a service.</span></span> <span data-ttu-id="f3802-105">根据您提供的服务类型，对象可以是有形对象或无形对象：</span><span class="sxs-lookup"><span data-stu-id="f3802-105">Depending on the type of service you provide, objects can be tangible or intangible:</span></span>
+<span data-ttu-id="4bb3a-104">服务对象是您可以对其执行服务的客户的资产和产品。</span><span class="sxs-lookup"><span data-stu-id="4bb3a-104">Service objects are a customer’s assets and products for which you can perform a service.</span></span> <span data-ttu-id="4bb3a-105">根据您提供的服务类型，对象可以是有形对象或无形对象：</span><span class="sxs-lookup"><span data-stu-id="4bb3a-105">Depending on the type of service you provide, objects can be tangible or intangible:</span></span>
 
--  <span data-ttu-id="f3802-106">有形对象是您可对其执行实际服务任务的事物，例如机器或建筑物。</span><span class="sxs-lookup"><span data-stu-id="f3802-106">Tangible objects are things, such as a machine or a building, on which you can perform a physical service task.</span></span>
+-  <span data-ttu-id="4bb3a-106">有形对象是您可对其执行实际服务任务的事物，例如机器或建筑物。</span><span class="sxs-lookup"><span data-stu-id="4bb3a-106">Tangible objects are things, such as a machine or a building, on which you can perform a physical service task.</span></span>
 
-    <span data-ttu-id="f3802-107">有形服务对象还可以是您在“已发布产品详细信息”窗体中创建的库存物料。</span><span class="sxs-lookup"><span data-stu-id="f3802-107">A tangible service object can also be an inventory item that you create in the Released product details form.</span></span> <span data-ttu-id="f3802-108">根据您附加到该物料的库存维度组，您可以将服务对象创建为包括物料序列号的详细信息级别。</span><span class="sxs-lookup"><span data-stu-id="f3802-108">Depending on the inventory dimension group that you attach to the item, you can create a service object to a level of detail that includes the item serial number.</span></span> <span data-ttu-id="f3802-109">这在您必须跟踪服务对象表示的确切物料时非常有用。</span><span class="sxs-lookup"><span data-stu-id="f3802-109">This is useful when you must keep track of the exact item that the service object represents.</span></span>
+    <span data-ttu-id="4bb3a-107">有形服务对象还可以是您在“已发布产品详细信息”窗体中创建的库存物料。</span><span class="sxs-lookup"><span data-stu-id="4bb3a-107">A tangible service object can also be an inventory item that you create in the Released product details form.</span></span> <span data-ttu-id="4bb3a-108">根据您附加到该物料的库存维度组，您可以将服务对象创建为包括物料序列号的详细信息级别。</span><span class="sxs-lookup"><span data-stu-id="4bb3a-108">Depending on the inventory dimension group that you attach to the item, you can create a service object to a level of detail that includes the item serial number.</span></span> <span data-ttu-id="4bb3a-109">这在您必须跟踪服务对象表示的确切物料时非常有用。</span><span class="sxs-lookup"><span data-stu-id="4bb3a-109">This is useful when you must keep track of the exact item that the service object represents.</span></span>
 
-    <span data-ttu-id="f3802-110">有形服务对象还可以是与公司的直接生产或供应链不直接相关的物料。</span><span class="sxs-lookup"><span data-stu-id="f3802-110">A tangible service object can also be an item that is not directly related to a company's direct production or supply chain.</span></span> <span data-ttu-id="f3802-111">例如，服务订单中所于维修的工具包可以是库存中不包括的服务对象。</span><span class="sxs-lookup"><span data-stu-id="f3802-111">For example, a tool kit that is used for repairs in a service order can be a service object that is not included in inventory.</span></span> <span data-ttu-id="f3802-112">在这种情况下，您不能将其登记为库存物料。</span><span class="sxs-lookup"><span data-stu-id="f3802-112">In this case, you don’t register it as an inventory item.</span></span>
+    <span data-ttu-id="4bb3a-110">有形服务对象还可以是与公司的直接生产或供应链不直接相关的物料。</span><span class="sxs-lookup"><span data-stu-id="4bb3a-110">A tangible service object can also be an item that is not directly related to a company's direct production or supply chain.</span></span> <span data-ttu-id="4bb3a-111">例如，服务订单中所于维修的工具包可以是库存中不包括的服务对象。</span><span class="sxs-lookup"><span data-stu-id="4bb3a-111">For example, a tool kit that is used for repairs in a service order can be a service object that is not included in inventory.</span></span> <span data-ttu-id="4bb3a-112">在这种情况下，您不能将其登记为库存物料。</span><span class="sxs-lookup"><span data-stu-id="4bb3a-112">In this case, you don’t register it as an inventory item.</span></span>
 
--  <span data-ttu-id="f3802-113">无形对象是对其执行服务任务的抽象实体，例如一组帐户或法律文档。</span><span class="sxs-lookup"><span data-stu-id="f3802-113">Intangible objects are nonphysical things, such as a set of accounts or a legal document, on which you can perform a service task.</span></span>
+-  <span data-ttu-id="4bb3a-113">无形对象是对其执行服务任务的抽象实体，例如一组帐户或法律文档。</span><span class="sxs-lookup"><span data-stu-id="4bb3a-113">Intangible objects are nonphysical things, such as a set of accounts or a legal document, on which you can perform a service task.</span></span>
 
-## <a name="example-of-an-intangible-service-object"></a><span data-ttu-id="f3802-114">无形的服务对象的示例</span><span class="sxs-lookup"><span data-stu-id="f3802-114">Example of an intangible service object</span></span>
+## <a name="example-of-an-intangible-service-object"></a><span data-ttu-id="4bb3a-114">无形的服务对象的示例</span><span class="sxs-lookup"><span data-stu-id="4bb3a-114">Example of an intangible service object</span></span>
 
-<span data-ttu-id="f3802-115">公司 A 维护多个小公司的财务记录。</span><span class="sxs-lookup"><span data-stu-id="f3802-115">Company A maintains the financial records for several small companies.</span></span> <span data-ttu-id="f3802-116">公司 A 的客户之一是当地的足球队，公司 A 每周对其进行记帐并且每年审计该俱乐部的帐户。</span><span class="sxs-lookup"><span data-stu-id="f3802-116">One of Company A's clients is the local football team, for which Company A does the weekly bookkeeping and annual audit of the club's accounts.</span></span> <span data-ttu-id="f3802-117">该俱乐部的帐户在“服务对象”窗体中设置，并且指定为服务协议中的对象。</span><span class="sxs-lookup"><span data-stu-id="f3802-117">The club's accounts are set up in the Service objects form and specified as the object in the service agreement.</span></span> <span data-ttu-id="f3802-118">对于该对象有两个服务协议行。</span><span class="sxs-lookup"><span data-stu-id="f3802-118">There are two service agreement lines for the object.</span></span> <span data-ttu-id="f3802-119">第 1 行是具有分配到行的每周间隔的每周记帐；第 2 行是具有分配到行的每年间隔的每年审计。</span><span class="sxs-lookup"><span data-stu-id="f3802-119">Line 1 is weekly bookkeeping with a weekly interval assigned to the line, and line 2 is the annual audit with a yearly interval assigned to it.</span></span>
+<span data-ttu-id="4bb3a-115">公司 A 维护多个小公司的财务记录。</span><span class="sxs-lookup"><span data-stu-id="4bb3a-115">Company A maintains the financial records for several small companies.</span></span> <span data-ttu-id="4bb3a-116">公司 A 的客户之一是当地的足球队，公司 A 每周对其进行记帐并且每年审计该俱乐部的帐户。</span><span class="sxs-lookup"><span data-stu-id="4bb3a-116">One of Company A's clients is the local football team, for which Company A does the weekly bookkeeping and annual audit of the club's accounts.</span></span> <span data-ttu-id="4bb3a-117">该俱乐部的帐户在“服务对象”窗体中设置，并且指定为服务协议中的对象。</span><span class="sxs-lookup"><span data-stu-id="4bb3a-117">The club's accounts are set up in the Service objects form and specified as the object in the service agreement.</span></span> <span data-ttu-id="4bb3a-118">对于该对象有两个服务协议行。</span><span class="sxs-lookup"><span data-stu-id="4bb3a-118">There are two service agreement lines for the object.</span></span> <span data-ttu-id="4bb3a-119">第 1 行是具有分配到行的每周间隔的每周记帐；第 2 行是具有分配到行的每年间隔的每年审计。</span><span class="sxs-lookup"><span data-stu-id="4bb3a-119">Line 1 is weekly bookkeeping with a weekly interval assigned to the line, and line 2 is the annual audit with a yearly interval assigned to it.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="f3802-120">相关主题</span><span class="sxs-lookup"><span data-stu-id="f3802-120">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="4bb3a-120">相关主题</span><span class="sxs-lookup"><span data-stu-id="4bb3a-120">Related topics</span></span>
 
-[<span data-ttu-id="f3802-121">创建服务对象</span><span class="sxs-lookup"><span data-stu-id="f3802-121">Create service objects</span></span>](create-service-objects.md)
+[<span data-ttu-id="4bb3a-121">创建服务对象</span><span class="sxs-lookup"><span data-stu-id="4bb3a-121">Create service objects</span></span>](create-service-objects.md)
 

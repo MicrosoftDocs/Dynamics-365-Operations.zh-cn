@@ -1,9 +1,9 @@
 ---
 title: 根据物料需求接收采购订单上的物料
-description: 此过程显示如何根据物料需求接收某一采购订单的物料。
+description: 本主题介绍如何根据物料需求接收某一采购订单的物料。
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,45 +16,43 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fee2c965b0c065f00564b849ec93504336fb3f60
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7afdae65c5ae7e3196c6b9f142dd87aec39b5ea3
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838239"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867287"
 ---
-# <a name="receive-items-on-purchase-order-from-item-requirement"></a><span data-ttu-id="988c0-103">根据物料需求接收采购订单上的物料</span><span class="sxs-lookup"><span data-stu-id="988c0-103">Receive items on purchase order from item requirement</span></span>
+# <a name="receive-items-on-purchase-order-from-item-requirement"></a><span data-ttu-id="a8807-103">根据物料需求接收采购订单上的物料</span><span class="sxs-lookup"><span data-stu-id="a8807-103">Receive items on purchase order from item requirement</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="988c0-104">此过程显示如何根据物料需求接收某一采购订单的物料。</span><span class="sxs-lookup"><span data-stu-id="988c0-104">This procedure shows how to receive items on a purchase order from an item requirement.</span></span>
+<span data-ttu-id="a8807-104">本主题介绍如何根据物料需求接收某一采购订单的物料。</span><span class="sxs-lookup"><span data-stu-id="a8807-104">This topic explains how to receive items on a purchase order from an item requirement.</span></span>
 
-<span data-ttu-id="988c0-105">通过使用物料需求来代替物料交易记录，您可以计划刚好在实际使用物料之前交货，创建采购订单，在贸易协议框架中包括物料，以及在生产计划中包括物料需求。</span><span class="sxs-lookup"><span data-stu-id="988c0-105">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span> 
+<span data-ttu-id="a8807-105">通过使用物料需求来代替物料交易记录，您可以计划刚好在实际使用物料之前交货，创建采购订单，在贸易协议框架中包括物料，以及在生产计划中包括物料需求。</span><span class="sxs-lookup"><span data-stu-id="a8807-105">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span> 
 
-<span data-ttu-id="988c0-106">此任务使用 USSI 数据集。</span><span class="sxs-lookup"><span data-stu-id="988c0-106">This task uses the USSI data set.</span></span>
+<span data-ttu-id="a8807-106">此任务使用 USSI 数据集。</span><span class="sxs-lookup"><span data-stu-id="a8807-106">This task uses the USSI data set.</span></span>
 
-1. <span data-ttu-id="988c0-107">转到项目管理和记账>项目>全部项目。</span><span class="sxs-lookup"><span data-stu-id="988c0-107">Go to Project management and accounting > Projects > All projects.</span></span>
-2. <span data-ttu-id="988c0-108">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="988c0-108">In the list, click the link in the selected row.</span></span>
-3. <span data-ttu-id="988c0-109">在操作窗格上，单击“计划”。</span><span class="sxs-lookup"><span data-stu-id="988c0-109">On the Action Pane, click Plan.</span></span>
-4. <span data-ttu-id="988c0-110">单击“物料需求”。</span><span class="sxs-lookup"><span data-stu-id="988c0-110">Click Item requirements.</span></span>
-5. <span data-ttu-id="988c0-111">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="988c0-111">Click New.</span></span>
-6. <span data-ttu-id="988c0-112">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="988c0-112">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="988c0-113">在“物料编号”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="988c0-113">In the Item number field, enter or select a value.</span></span>
-8. <span data-ttu-id="988c0-114">在“数量”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="988c0-114">In the Quantity field, enter a number.</span></span>
-9. <span data-ttu-id="988c0-115">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="988c0-115">Click Save.</span></span>
-10. <span data-ttu-id="988c0-116">在“操作窗格”上单击“管理”。</span><span class="sxs-lookup"><span data-stu-id="988c0-116">On the Action Pane, click Manage.</span></span>
-11. <span data-ttu-id="988c0-117">单击“功能”。</span><span class="sxs-lookup"><span data-stu-id="988c0-117">Click Functions.</span></span>
-12. <span data-ttu-id="988c0-118">单击“创建采购订单”。</span><span class="sxs-lookup"><span data-stu-id="988c0-118">Click Create purchase order.</span></span>
-13. <span data-ttu-id="988c0-119">选中“包括”复选框。</span><span class="sxs-lookup"><span data-stu-id="988c0-119">Select the Include check box.</span></span>
-14. <span data-ttu-id="988c0-120">在“供应商帐户”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="988c0-120">In the Vendor account field, enter or select a value.</span></span>
-15. <span data-ttu-id="988c0-121">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="988c0-121">Click OK.</span></span>
-16. <span data-ttu-id="988c0-122">转到“应付账款”>“采购订单”>“所有采购订单”。</span><span class="sxs-lookup"><span data-stu-id="988c0-122">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
-17. <span data-ttu-id="988c0-123">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="988c0-123">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="988c0-124">在操作窗格上，单击“采购”。</span><span class="sxs-lookup"><span data-stu-id="988c0-124">On the Action Pane, click Purchase.</span></span>
-19. <span data-ttu-id="988c0-125">单击“确认”。</span><span class="sxs-lookup"><span data-stu-id="988c0-125">Click Confirm.</span></span>
-20. <span data-ttu-id="988c0-126">在操作窗格上，单击“接收”。</span><span class="sxs-lookup"><span data-stu-id="988c0-126">On the Action Pane, click Receive.</span></span>
-21. <span data-ttu-id="988c0-127">单击“产品收据”。</span><span class="sxs-lookup"><span data-stu-id="988c0-127">Click Product receipt.</span></span>
-22. <span data-ttu-id="988c0-128">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="988c0-128">In the list, mark the selected row.</span></span>
-23. <span data-ttu-id="988c0-129">在“产品收据”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="988c0-129">In the Product receipt field, type a value.</span></span>
-24. <span data-ttu-id="988c0-130">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="988c0-130">Click OK.</span></span>
+1. <span data-ttu-id="a8807-107">在导航窗格中，转到**模块 > 项目管理与核算 > 项目 > 所有项目**。</span><span class="sxs-lookup"><span data-stu-id="a8807-107">In the navigation pane, go to **Modules > Project management and accounting > Projects > All projects**.</span></span>
+2. <span data-ttu-id="a8807-108">在列表中，选择所需行中的链接。</span><span class="sxs-lookup"><span data-stu-id="a8807-108">In the list, select the link in the desired row.</span></span>
+3. <span data-ttu-id="a8807-109">在操作窗格上，选择**计划**。</span><span class="sxs-lookup"><span data-stu-id="a8807-109">On the Action Pane, select **Plan**.</span></span>
+4. <span data-ttu-id="a8807-110">选择**物料需求**。</span><span class="sxs-lookup"><span data-stu-id="a8807-110">Select **Item requirements**.</span></span>
+5. <span data-ttu-id="a8807-111">选择**新建**。</span><span class="sxs-lookup"><span data-stu-id="a8807-111">Select **New**.</span></span>
+6. <span data-ttu-id="a8807-112">在新行的**物料编号**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="a8807-112">In the new row, enter or select a value in the **Item number** field.</span></span>
+7. <span data-ttu-id="a8807-113">在**数量**字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="a8807-113">In the **Quantity** field, enter a number.</span></span>
+8. <span data-ttu-id="a8807-114">选择**保存**。</span><span class="sxs-lookup"><span data-stu-id="a8807-114">Select **Save**.</span></span>
+9. <span data-ttu-id="a8807-115">在操作窗格上，选择**管理**。</span><span class="sxs-lookup"><span data-stu-id="a8807-115">On the Action Pane, select **Manage**.</span></span>
+10. <span data-ttu-id="a8807-116">选择**功能**。</span><span class="sxs-lookup"><span data-stu-id="a8807-116">Select **Functions**.</span></span>
+11. <span data-ttu-id="a8807-117">选择**创建采购订单**。</span><span class="sxs-lookup"><span data-stu-id="a8807-117">Select **Create purchase order**.</span></span>
+12. <span data-ttu-id="a8807-118">选中**全部包括**复选框。</span><span class="sxs-lookup"><span data-stu-id="a8807-118">Select the **Include all** check box.</span></span>
+13. <span data-ttu-id="a8807-119">在**供应商帐户**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="a8807-119">In the **Vendor account** field, enter or select a value.</span></span>
+14. <span data-ttu-id="a8807-120">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="a8807-120">Select **OK**.</span></span>
+15. <span data-ttu-id="a8807-121">在导航窗格中，转到**模块 > 应付帐款 > 采购订单 > 所有采购订单**。</span><span class="sxs-lookup"><span data-stu-id="a8807-121">In the navigation pane, go to **Modules > Accounts payable > Purchase orders > All purchase orders**.</span></span>
+16. <span data-ttu-id="a8807-122">在列表中，选择所需行中的链接。</span><span class="sxs-lookup"><span data-stu-id="a8807-122">In the list, select the link in the desired row.</span></span>
+17. <span data-ttu-id="a8807-123">在操作窗格上，选择**采购**。</span><span class="sxs-lookup"><span data-stu-id="a8807-123">On the Action Pane, select **Purchase**.</span></span>
+18. <span data-ttu-id="a8807-124">选择**确认**。</span><span class="sxs-lookup"><span data-stu-id="a8807-124">Select **Confirm**.</span></span>
+19. <span data-ttu-id="a8807-125">在操作窗格上，选择**接收**。</span><span class="sxs-lookup"><span data-stu-id="a8807-125">On the Action Pane, select **Receive**.</span></span>
+20. <span data-ttu-id="a8807-126">选择**物料收货**。</span><span class="sxs-lookup"><span data-stu-id="a8807-126">Select **Product receipt**.</span></span>
+21. <span data-ttu-id="a8807-127">在**产品收据**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="a8807-127">In the **Product receipt** field, type a value.</span></span>
+22. <span data-ttu-id="a8807-128">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="a8807-128">Select **OK**.</span></span>
 

@@ -1,9 +1,9 @@
 ---
 title: 过帐联机销售和付款
 description: 此程序会逐步演示如何配置和运行某一重复批处理作业，以创建针对在线商店交易的销售订单和付款。
-author: jashanno
+author: psimolin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,29 +17,95 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13839bbe6ca03f3cfc7036fce87477bf7d5af2a7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1d42b585a61214628980cd45a859215443ed55b5
+ms.sourcegitcommit: c461758290d7ddc19f0b60701368937c35ef78b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550200"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864145"
 ---
-# <a name="posting-of-online-sales-and-payments"></a><span data-ttu-id="2be31-103">过帐联机销售和付款</span><span class="sxs-lookup"><span data-stu-id="2be31-103">Posting of online sales and payments</span></span>
+# <a name="posting-of-online-sales-and-payments"></a><span data-ttu-id="bb427-103">过帐联机销售和付款</span><span class="sxs-lookup"><span data-stu-id="bb427-103">Posting of online sales and payments</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="2be31-104">此程序会逐步演示如何配置和运行某一重复批处理作业，以创建针对在线商店交易的销售订单和付款。</span><span class="sxs-lookup"><span data-stu-id="2be31-104">This procedure walks through configuring and running a recurrent batch job to create sales orders and payments for online store transactions.</span></span> <span data-ttu-id="2be31-105">此程序使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="2be31-105">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="bb427-104">此程序会逐步演示如何配置和运行某一重复批处理作业，以创建针对在线商店交易的销售订单和付款。</span><span class="sxs-lookup"><span data-stu-id="bb427-104">This procedure walks through configuring and running a recurrent batch job to create sales orders and payments for online store transactions.</span></span>
 
-1. <span data-ttu-id="2be31-106">转至“所有工作区”>“零售商店财务”。</span><span class="sxs-lookup"><span data-stu-id="2be31-106">Go to All workspaces > Retail store financials.</span></span>
-2. <span data-ttu-id="2be31-107">单击“同步订单”。</span><span class="sxs-lookup"><span data-stu-id="2be31-107">Click Synchronize orders.</span></span>
-3. <span data-ttu-id="2be31-108">在“组织层次结构”字段中，选择“零售商店(按地区)”。</span><span class="sxs-lookup"><span data-stu-id="2be31-108">In the Organization hierarchy field, select 'Retail Stores by Region'.</span></span>
-    * <span data-ttu-id="2be31-109">选择一个特定在线商店，如果您想要为一组商店创建批处理作业，则选择一个节点。</span><span class="sxs-lookup"><span data-stu-id="2be31-109">Select either a specific online store, or select a node if you want to create the batch job for a group of stores.</span></span>  
-    * <span data-ttu-id="2be31-110">单击箭头以添加您的选择。</span><span class="sxs-lookup"><span data-stu-id="2be31-110">Click the arrow to add your selection.</span></span>  
-4. <span data-ttu-id="2be31-111">单击“后台运行”选项卡。</span><span class="sxs-lookup"><span data-stu-id="2be31-111">Click the Run in the background tab.</span></span>
-5. <span data-ttu-id="2be31-112">选中或取消选中“批处理”复选框。</span><span class="sxs-lookup"><span data-stu-id="2be31-112">Check or uncheck the Batch processing checkbox.</span></span>
-6. <span data-ttu-id="2be31-113">单击“再循环”。</span><span class="sxs-lookup"><span data-stu-id="2be31-113">Click Recurrence.</span></span>
-7. <span data-ttu-id="2be31-114">选择“无结束日期”选项。</span><span class="sxs-lookup"><span data-stu-id="2be31-114">Select the No end date option.</span></span>
-8. <span data-ttu-id="2be31-115">在“盘点”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="2be31-115">In the Count field, enter a number.</span></span>
-9. <span data-ttu-id="2be31-116">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="2be31-116">Click OK.</span></span>
-10. <span data-ttu-id="2be31-117">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="2be31-117">Click OK.</span></span>
+<span data-ttu-id="bb427-105">过帐联机销售和付款是包含两个阶段的流程。</span><span class="sxs-lookup"><span data-stu-id="bb427-105">Posting online sales and payments is a two-stage process.</span></span>
 
+- <span data-ttu-id="bb427-106">提取 HQ 的在线零售交易记录数据。</span><span class="sxs-lookup"><span data-stu-id="bb427-106">Pulling the online retail transaction data in HQ.</span></span>
+- <span data-ttu-id="bb427-107">同步订单以在 HQ 创建销售订单。</span><span class="sxs-lookup"><span data-stu-id="bb427-107">Synchronizing orders to create sales orders in HQ.</span></span>
+
+<span data-ttu-id="bb427-108">可以通过运行 P 作业或通过创建重复执行批处理作业提取在线零售交易记录数据。</span><span class="sxs-lookup"><span data-stu-id="bb427-108">Pulling the online retail transaction data can be done either by manually running the P-job or by creating a recurrent batch job.</span></span>
+
+### <a name="manually-running-the-p-job"></a><span data-ttu-id="bb427-109">手动运行 P 作业</span><span class="sxs-lookup"><span data-stu-id="bb427-109">Manually running the P-job</span></span>
+
+1. <span data-ttu-id="bb427-110">转至“所有工作区”>“零售 IT”。</span><span class="sxs-lookup"><span data-stu-id="bb427-110">Go to All workspaces > Retail IT.</span></span>
+2. <span data-ttu-id="bb427-111">单击“配送计划”。</span><span class="sxs-lookup"><span data-stu-id="bb427-111">Click Distribution schedule.</span></span>
+3. <span data-ttu-id="bb427-112">选择 P-0001。</span><span class="sxs-lookup"><span data-stu-id="bb427-112">Select P-0001.</span></span>
+4. <span data-ttu-id="bb427-113">如果需要，调整渠道数据库组。</span><span class="sxs-lookup"><span data-stu-id="bb427-113">Adjust channel database groups, if required.</span></span>
+5. <span data-ttu-id="bb427-114">单击立即运行。</span><span class="sxs-lookup"><span data-stu-id="bb427-114">Click Run now.</span></span>
+6. <span data-ttu-id="bb427-115">单击“是”。</span><span class="sxs-lookup"><span data-stu-id="bb427-115">Click Yes.</span></span>
+
+### <a name="scheduling-a-recurring-p-job"></a><span data-ttu-id="bb427-116">为重复执行的 P 作业排产</span><span class="sxs-lookup"><span data-stu-id="bb427-116">Scheduling a recurring P-job</span></span>
+
+1. <span data-ttu-id="bb427-117">转至“所有工作区”>“零售 IT”。</span><span class="sxs-lookup"><span data-stu-id="bb427-117">Go to All workspaces > Retail IT.</span></span>
+2. <span data-ttu-id="bb427-118">单击“配送计划”。</span><span class="sxs-lookup"><span data-stu-id="bb427-118">Click Distribution schedule.</span></span>
+3. <span data-ttu-id="bb427-119">选择 P-0001。</span><span class="sxs-lookup"><span data-stu-id="bb427-119">Select P-0001.</span></span>
+4. <span data-ttu-id="bb427-120">单击“创建批处理作业”。</span><span class="sxs-lookup"><span data-stu-id="bb427-120">Click Create batch job.</span></span>
+5. <span data-ttu-id="bb427-121">单击“在后台运行”。</span><span class="sxs-lookup"><span data-stu-id="bb427-121">Click Run in the background.</span></span>
+5. <span data-ttu-id="bb427-122">启用“批处理”。</span><span class="sxs-lookup"><span data-stu-id="bb427-122">Enable Batch processing.</span></span>
+6. <span data-ttu-id="bb427-123">单击“重复执行”。</span><span class="sxs-lookup"><span data-stu-id="bb427-123">Click Recurrence..</span></span>
+7. <span data-ttu-id="bb427-124">选择“无结束日期”选项。</span><span class="sxs-lookup"><span data-stu-id="bb427-124">Select the No end date option.</span></span>
+8. <span data-ttu-id="bb427-125">在“计数”字段中，输入运行之间以分钟为单位的时间间隔。</span><span class="sxs-lookup"><span data-stu-id="bb427-125">In the Count field, enter interval between the runs in minutes.</span></span> <span data-ttu-id="bb427-126">通常为 5-10。</span><span class="sxs-lookup"><span data-stu-id="bb427-126">Typically this would be 5-10.</span></span>
+9. <span data-ttu-id="bb427-127">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="bb427-127">Click OK.</span></span>
+10. <span data-ttu-id="bb427-128">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="bb427-128">Click OK.</span></span>
+
+<span data-ttu-id="bb427-129">可以通过运行“同步订单”作业或创建重复执行批处理作业同步订单。</span><span class="sxs-lookup"><span data-stu-id="bb427-129">Orders can be synchronized either by manually running the "Synchronize orders"-job or by creating a recurring batch job.</span></span>
+
+### <a name="manually-running-order-synchronization"></a><span data-ttu-id="bb427-130">手动运行订单同步</span><span class="sxs-lookup"><span data-stu-id="bb427-130">Manually running order synchronization</span></span> 
+
+<span data-ttu-id="bb427-131">执行以下步骤，以便手动运行一次“同步订单”作业。</span><span class="sxs-lookup"><span data-stu-id="bb427-131">Follow these steps to manually run "Synchronize orders" job once.</span></span>
+
+1. <span data-ttu-id="bb427-132">转至“所有工作区”>“零售商店财务”。</span><span class="sxs-lookup"><span data-stu-id="bb427-132">Go to All workspaces > Retail store financials.</span></span>
+2. <span data-ttu-id="bb427-133">单击“同步订单”。</span><span class="sxs-lookup"><span data-stu-id="bb427-133">Click Synchronize orders.</span></span>
+3. <span data-ttu-id="bb427-134">在“组织层次结构”字段中，选择“零售商店(按地区)”。</span><span class="sxs-lookup"><span data-stu-id="bb427-134">In the Organization hierarchy field, select 'Retail Stores by Region'.</span></span>
+    * <span data-ttu-id="bb427-135">选择一个特定在线商店，如果您想要为一组商店创建批处理作业，则选择一个节点。</span><span class="sxs-lookup"><span data-stu-id="bb427-135">Select either a specific online store, or select a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="bb427-136">单击箭头以添加您的选择。</span><span class="sxs-lookup"><span data-stu-id="bb427-136">Click the arrow to add your selection.</span></span>  
+4. <span data-ttu-id="bb427-137">单击“后台运行”选项卡。</span><span class="sxs-lookup"><span data-stu-id="bb427-137">Click the Run in the background tab.</span></span>
+5. <span data-ttu-id="bb427-138">禁用“批处理”</span><span class="sxs-lookup"><span data-stu-id="bb427-138">Disable Batch processing</span></span>
+6. <span data-ttu-id="bb427-139">单击“重复执行”。</span><span class="sxs-lookup"><span data-stu-id="bb427-139">Click Recurrence.</span></span>
+7. <span data-ttu-id="bb427-140">选择“结束日期”选项</span><span class="sxs-lookup"><span data-stu-id="bb427-140">Select End After option</span></span>
+8. <span data-ttu-id="bb427-141">在“结束日期”字段中，输入 1。</span><span class="sxs-lookup"><span data-stu-id="bb427-141">In the End After field, enter 1.</span></span>
+9. <span data-ttu-id="bb427-142">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="bb427-142">Click OK.</span></span>
+10. <span data-ttu-id="bb427-143">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="bb427-143">Click OK.</span></span>
+
+### <a name="scheduling-recurring-order-synchronization"></a><span data-ttu-id="bb427-144">计划重复执行的订单同步</span><span class="sxs-lookup"><span data-stu-id="bb427-144">Scheduling recurring order synchronization</span></span>
+
+<span data-ttu-id="bb427-145">此程序会逐步演示如何配置和运行某一重复批处理作业，以创建针对在线商店交易的销售订单和付款。</span><span class="sxs-lookup"><span data-stu-id="bb427-145">This procedure walks through configuring and running a recurrent batch job to create sales orders and payments for online store transactions.</span></span> <span data-ttu-id="bb427-146">此程序使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="bb427-146">This procedure uses the USRT company in demo data.</span></span>
+
+1. <span data-ttu-id="bb427-147">转至“所有工作区”>“零售商店财务”。</span><span class="sxs-lookup"><span data-stu-id="bb427-147">Go to All workspaces > Retail store financials.</span></span>
+2. <span data-ttu-id="bb427-148">单击“同步订单”。</span><span class="sxs-lookup"><span data-stu-id="bb427-148">Click Synchronize orders.</span></span>
+3. <span data-ttu-id="bb427-149">在“组织层次结构”字段中，选择“零售商店(按地区)”。</span><span class="sxs-lookup"><span data-stu-id="bb427-149">In the Organization hierarchy field, select 'Retail Stores by Region'.</span></span>
+    * <span data-ttu-id="bb427-150">选择一个特定在线商店，如果您想要为一组商店创建批处理作业，则选择一个节点。</span><span class="sxs-lookup"><span data-stu-id="bb427-150">Select either a specific online store, or select a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="bb427-151">单击箭头以添加您的选择。</span><span class="sxs-lookup"><span data-stu-id="bb427-151">Click the arrow to add your selection.</span></span>  
+4. <span data-ttu-id="bb427-152">单击“后台运行”选项卡。</span><span class="sxs-lookup"><span data-stu-id="bb427-152">Click the Run in the background tab.</span></span>
+5. <span data-ttu-id="bb427-153">启用“批处理”</span><span class="sxs-lookup"><span data-stu-id="bb427-153">Enable Batch processing</span></span>
+6. <span data-ttu-id="bb427-154">单击“重复执行”。</span><span class="sxs-lookup"><span data-stu-id="bb427-154">Click Recurrence.</span></span>
+7. <span data-ttu-id="bb427-155">选择“无结束日期”选项。</span><span class="sxs-lookup"><span data-stu-id="bb427-155">Select the No end date option.</span></span>
+8. <span data-ttu-id="bb427-156">在“计数”字段中，输入运行之间以分钟为单位的时间间隔。</span><span class="sxs-lookup"><span data-stu-id="bb427-156">In the Count field, enter interval between the runs in minutes.</span></span> <span data-ttu-id="bb427-157">通常为 2-20</span><span class="sxs-lookup"><span data-stu-id="bb427-157">Typically this would be 2-20</span></span>
+9. <span data-ttu-id="bb427-158">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="bb427-158">Click OK.</span></span>
+10. <span data-ttu-id="bb427-159">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="bb427-159">Click OK.</span></span>
+
+## <a name="data-entities-involved-in-the-process"></a><span data-ttu-id="bb427-160">此流程中涉及的数据实体</span><span class="sxs-lookup"><span data-stu-id="bb427-160">Data entities involved in the process</span></span>
+
+- <span data-ttu-id="bb427-161">RetailTransactionTable</span><span class="sxs-lookup"><span data-stu-id="bb427-161">RetailTransactionTable</span></span>
+- <span data-ttu-id="bb427-162">RetailTransactionAddressTrans</span><span class="sxs-lookup"><span data-stu-id="bb427-162">RetailTransactionAddressTrans</span></span>
+- <span data-ttu-id="bb427-163">RetailTransactionInfocodeTrans</span><span class="sxs-lookup"><span data-stu-id="bb427-163">RetailTransactionInfocodeTrans</span></span>
+- <span data-ttu-id="bb427-164">RetailTransactionTaxTrans</span><span class="sxs-lookup"><span data-stu-id="bb427-164">RetailTransactionTaxTrans</span></span>
+- <span data-ttu-id="bb427-165">RetailTransactionSalesTrans</span><span class="sxs-lookup"><span data-stu-id="bb427-165">RetailTransactionSalesTrans</span></span>
+- <span data-ttu-id="bb427-166">RetailTransactionTaxMeasure</span><span class="sxs-lookup"><span data-stu-id="bb427-166">RetailTransactionTaxMeasure</span></span>
+- <span data-ttu-id="bb427-167">RetailTransactionDiscountTrans</span><span class="sxs-lookup"><span data-stu-id="bb427-167">RetailTransactionDiscountTrans</span></span>
+- <span data-ttu-id="bb427-168">RetailTransactionTaxTransGTE</span><span class="sxs-lookup"><span data-stu-id="bb427-168">RetailTransactionTaxTransGTE</span></span>
+- <span data-ttu-id="bb427-169">RetailTransactionMarkupTrans</span><span class="sxs-lookup"><span data-stu-id="bb427-169">RetailTransactionMarkupTrans</span></span>
+- <span data-ttu-id="bb427-170">RetailTransactionPaymentTrans</span><span class="sxs-lookup"><span data-stu-id="bb427-170">RetailTransactionPaymentTrans</span></span>
+- <span data-ttu-id="bb427-171">RetailTransactionAttributeTrans</span><span class="sxs-lookup"><span data-stu-id="bb427-171">RetailTransactionAttributeTrans</span></span>
