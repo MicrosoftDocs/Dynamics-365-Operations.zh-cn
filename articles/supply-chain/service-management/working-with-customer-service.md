@@ -1,9 +1,9 @@
 ---
-title: 处理客户服务
+title: 处理客户服务概览
 description: 客户服务支持专业的、基于服务的公司以及制造服务组织。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/07/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f51b749cc9527cb3e86352b0373babd6c524dbe7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a73852bf6163a887c7bab954a61581fd8e0a8ded
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550460"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865769"
 ---
-# <a name="work-with-customer-service"></a>处理客户服务 
+# <a name="work-with-customer-service-overview"></a>处理客户服务概览
 
 [!include [banner](../includes/banner.md)]
 

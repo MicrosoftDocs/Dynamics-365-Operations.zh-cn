@@ -1,9 +1,9 @@
 ---
-title: 文档打印
-description: 在 Microsoft Dynamics 365 for Finance and Operations 中，可使用本地打印机或联网设备打印文档。 本文概述如何打印文档。
+title: 文档打印概览
+description: 在 Microsoft Dynamics 365 for Finance and Operations 中，可使用本地打印机或联网设备打印文档。 本文概览如何打印文档。
 author: TJVass
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbc45865b55b4794202408ca19a0776440382fdd
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 779931a779cdb8fcbc8e85c3d6c2a4e123d8ec47
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850063"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864656"
 ---
-# <a name="document-printing"></a>文档打印
+# <a name="document-printing-overview"></a>文档打印概览
 
 [!include [banner](../includes/banner.md)]
 
-在 Microsoft Dynamics 365 for Finance and Operations 中，可使用本地打印机或联网设备打印文档。 本文概述如何打印文档。
+在 Microsoft Dynamics 365 for Finance and Operations 中，可使用本地打印机或联网设备打印文档。 本文概览如何打印文档。
 
 ## <a name="printing-overview"></a>打印概览
 

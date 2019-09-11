@@ -3,7 +3,7 @@ title: 已删除或弃用的功能
 description: 本主题介绍已经删除或计划删除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 07/30/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 4aad4f2cf42b72256b5c4727bfd145d16af033ed
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863375"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867093"
 ---
 # <a name="removed-or-deprecated-features"></a>已移除或弃用的功能
 
@@ -157,6 +157,17 @@ ms.locfileid: "1863375"
 | **影响的产品区域**         | Visual Studio 开发工具 |
 | **部署选项**              | 所有 |
 | **状态**                         | 已弃用：在平台更新 26 中，此警告将成为编译错误。 |
+
+## <a name="dynamics-365-for-finance-and-operations-1000-with-platform-update-24"></a>具有平台更新 24 的 Dynamics 365 for Finance and Operations 10.0.0
+
+### <a name="renaming-released-products"></a>重命名已发布产品 
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 使用**对主键进行重命名**功能更改已发布产品的 ItemId 时，将仅更新外键直接引用。 对已发布产品的其他所有引用都将保留旧 ItemId。 因此，将导致数据不一致，最终阻止业务流程。 |
+| **被另一个功能取代？**   | 编号 |
+| **影响的产品区域**         | 产品信息管理 |
+| **部署选项**              | 所有  |
+| **状态**                         | 已从带平台更新 24 的 Dynamics 365 for Finance and Operations 10.0.0 开始移除。 在例外情况（如从已发布产品的主键的之前重命名还原）下，可以请 Microsoft 暂时解除对已发布产品重命名主键操作的此项限制。 |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>具有平台更新 23 的 Dynamics 365 for Finance and Operations 8.1.3

@@ -3,7 +3,7 @@ title: 创建运营单位
 description: 运营单位是用来拆分企业中的经济资源和运营流程的控件的组织。
 author: sericks007
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ef03329cfe477256cfbe1dde1dc18df52137286f
-ms.sourcegitcommit: cb63259ad8fa5649ff12bc4a7f195bd1e40bd968
+ms.openlocfilehash: 164b347e1c929f60762793799a500a7203f0f72f
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755561"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874895"
 ---
 # <a name="create-an-operating-unit"></a>创建运营单位
 
@@ -40,5 +40,5 @@ ms.locfileid: "1755561"
     + 输入街道名称和门牌号、邮政编码和城市等地址信息。 单击**添加**以输入新的地址记录，或单击“编辑”以修改现有地址记录。   
     + 如果需要，展开**联系信息**部分。  
     + 输入关于通信方法的信息，例如电子邮件地址、URL 和电话号码。 要输入新的通信记录，请单击“新建”。 要修改现有通信记录，请单击**更多选项 > 高级**。   
-6. 单击**保存**。
-
+6. （可选）根据需要更改**运营单位编号**。 请注意，此编号是相应**当事方**记录的唯一标识符，不能与其他任何运营单位相同。
+7. 选择**保存**。

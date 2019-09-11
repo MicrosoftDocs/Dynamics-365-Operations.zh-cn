@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 9d19987a44c467381828acb81b6161601268d84f
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 43f25796e6271f14acfc72f931398ab63338a307
+ms.sourcegitcommit: b068b17ef708a0b349db8df1542e4244bb983d13
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863052"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870825"
 ---
 # <a name="saved-views"></a>保存的视图
 
@@ -153,11 +153,13 @@ ms.locfileid: "1863052"
 
 1.  **启用外部测试版**：执行以下 SQL 语句： 
 
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('Dynamics.AX.Application.CLISavedViewsEnableFeature', 1, 0, 5637144576);`
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
 
-2.  **查找功能**：导航到**功能管理**工作区。 如果列表中不显示**保存的视图**，请选择**检查更新**按钮。   
+2. **重置 IIS**，用于清空静态外部测试缓存。 
 
-3.  **启用功能**：在功能列表中找到**保存的视图**功能，然后单击详细信息窗格上的**立即启用**按钮。
+3.  **查找功能**：转到**功能管理**工作区。 如果列表中不显示**保存的视图**，请选择**检查更新**。   
+
+4.  **启用功能**：在功能列表中找到**保存的视图**功能，然后选择详细信息窗格上的**立即启用**。
 
 所有后续用户会话都将从启用保存的视图开始。  
 

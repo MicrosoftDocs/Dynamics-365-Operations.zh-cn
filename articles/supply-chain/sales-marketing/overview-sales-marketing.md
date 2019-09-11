@@ -1,9 +1,9 @@
 ---
-title: 销售和市场营销
+title: 销售和市场概览
 description: 您可以使用销售和市场来获得、存储并使用销售流中的各种数据。 此数据包括最初的销售活动、未来的跟进行动和追加销售。
 author: kfend
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdb55be1d6a5e8460f1a3d70992ddb74ad2c834b
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 10c8b548f2e295bf344459370ab6eecd577a0efb
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843641"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865985"
 ---
-# <a name="sales-and-marketing"></a>销售和市场营销
+# <a name="sales-and-marketing-overview"></a>销售和市场概览
 
 [!include [banner](../includes/banner.md)]
 

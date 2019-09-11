@@ -3,7 +3,7 @@ title: 键盘快捷方式
 description: 以下键盘快捷方式在整个 Dynamics 365 for Finance and Operations 中都适用。
 author: jasongre
 manager: AnnBe
-ms.date: 07/22/2019
+ms.date: 08/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
-ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
+ms.openlocfilehash: 91e3f202d479fd77893da3cc746f3d23587107b1
+ms.sourcegitcommit: 69bd97dcc191a0cabfed91f678bac0ba2aebb1b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1780050"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "1920643"
 ---
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
@@ -155,8 +155,8 @@ ms.locfileid: "1780050"
 | 要执行的操作                                                                   | 按                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | 打开超链接                                                           | Ctrl+Enter                    |
-| 在日期字段中输入会话日期                                       | D+Tab                         |
-| 在日期字段中输入当前日期                                       | T+Tab                         |
+| 在日期字段中输入会话日期                                       | 日                         |
+| 在日期字段中输入当前日期                                       | 二                         |
 | 打开查找、组合框、日期选择器、拖放对话框                         | Alt+向下箭头                |
 | 关闭查找、组合框、日期选择器、拖放对话框                        | Esc                           |
 | 将焦点移到查找内（在查找已打开时）                   | Alt+向下箭头                |

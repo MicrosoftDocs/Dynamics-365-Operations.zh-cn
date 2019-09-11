@@ -3,7 +3,7 @@ title: 创建和维护库存锁定
 description: 此过程显示如何通过使用库存锁定防止实际现有库存由其他出货原始凭证预留。
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 845d517ad10245df3b208874df61e235c199c7fe
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: b2485eaf31226b11106895074ae0ad95e561777b
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836382"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916591"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>创建和维护库存锁定
 
@@ -32,28 +32,23 @@ ms.locfileid: "1836382"
 
 
 ## <a name="create-an-inventory-blocking"></a>创建库存锁定
-1. 转到“库存管理”>“定期任务”>“库存锁定”。
-2. 单击“新建”。
-3. 在“物料编号”字段中，单击下拉按钮以打开查找。
-4. 在列表中，选择您想选的物料。 
-    * 选择物料编号以及您想要锁定的实际现有库存。 如果您使用 USMF，您可以选择物料 M9201。  
-5. 在“数量”字段中，输入一个数字。
-    * 如果您使用物料 M9201，需要选择少于 200。  
-6. 切换“库存维度”部分的展开项。
-7. 在“仓库”字段，单击下拉按钮以打开查找。
-8. 在列表中，找到并选择所需记录。
-    * 如果您使用物料 M9201，您可以选择仓库 51。  
-9. 单击“保存”。
+1. 在**导航窗格**中，转到**模块 > 库存管理 > 定期任务 > 库存锁定**。
+2. 单击**新建**。
+3. 在**物料编号**字段中，单击下拉按钮以打开查找。
+4. 在列表中，选择您想选的物料。 选择物料编号以及您想要锁定的实际现有库存。 如果您使用 USMF，您可以选择物料 M9201。  
+5. 在**数量**字段中，输入一个数字。 如果您使用物料 M9201，需要选择少于 200。
+6. 展开**库存维度**快速选项卡。
+7. 在**仓库**字段，单击下拉按钮以打开查找。
+8. 在列表中，找到并选择所需记录。 如果您使用物料 M9201，您可以选择仓库 51。  
+9. 单击**保存**。
 
 ## <a name="update-the-conditions-of-the-inventory-blocking"></a>更新库存锁定的条件
-1. 在“数量”字段中，输入一个数字。
-    * 更新“库存数量”字段以反映锁定数量。  
-2. 在“预期日期”字段中输入日期。
-    * 您可能希望通过分配预期日期，指定锁定的库存什么时候可供使用。 如果为库存锁定选择所需的收据选项，由于在您手动创建锁定时为默认显示，该日期将出现在预期事务中。  
-3. 单击“保存”。
+1. 在**常规**快速选项卡的**数量**字段中，输入一个数字。 更新“库存数量”字段以反映锁定数量。  
+2. 在**预期日期**字段中输入日期。 您可能希望通过分配预期日期，指定锁定的库存什么时候可供使用。 如果为库存锁定选择所需的收据选项，由于在您手动创建锁定时为默认显示，该日期将出现在预期事务中。  
+3. 单击**保存**。
 
 ## <a name="remove-the-inventory-blocking"></a>取消库存锁定
-1. 单击“删除”。
-2. 单击“是”。
+1. 在**操作窗格**上，单击**删除**。
+2. 单击**是**。
 3. 关闭该页面。
 

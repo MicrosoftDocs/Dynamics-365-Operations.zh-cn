@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6587505fc5a729ffd82ab65aca7d5aa6ca4a265
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: db9208c8e76d963d5b8f6bee6b7c73268af68734
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837244"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867742"
 ---
 # <a name="reverse-a-vendor-payment"></a>冲销供应商付款
 
@@ -48,7 +48,7 @@ ms.locfileid: "1837244"
 若您的组织要当您在**支票**页上单击**付款冲销**时立即过帐支票冲销。 在**现金和银行管理参数**页上，将**对付款冲销使用审核过程**选项设置为**否**。 在**支票**页上，您可以选择要冲销的支票，然后选择**付款冲销**。 您可以输入日期并选择冲销原因。
 
 ## <a name="reverse-posted-checks-after-they-are-reviewed-in-the-check-reversal-journal"></a>在支票冲销日记帐中审核已过帐支票后，冲销它们
-若您的组织要在过帐支票冲销之前审查它们，请为审查创建支票冲销日记帐，并在**现金和银行管理参数**页上，将**对付款冲销使用审核过程**选项设置为**是**。 在**支票**页上，您可以选择要冲销的支票，然后选择**付款冲销**。 您可以输入日期并选择冲销原因。 您必须在支票冲销日记帐中选择日记帐名称来创建日记帐。
+若您的组织要在过帐支票冲销之前审查它们，请为审查创建支票冲销日记帐，并在**现金和银行管理参数**页上，将**对付款冲销使用审核过程**选项设置为**是**。 在**支票**页上，您可以选择要冲销的支票，然后选择**付款冲销**。 您可以输入日期并选择冲销原因。 必须为“银行”和“供应商”类型设置财务原因。 您必须在支票冲销日记帐中选择日记帐名称来创建日记帐。
 
 ### <a name="review-a-reversal"></a>审核冲销
 

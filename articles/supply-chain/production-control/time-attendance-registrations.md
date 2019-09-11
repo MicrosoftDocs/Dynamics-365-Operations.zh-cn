@@ -1,9 +1,9 @@
 ---
-title: 考勤管理登记
+title: 考勤管理登记概览
 description: 时间登记工作人员可以输入上班打卡、下班打卡、登记间接活动、缺勤登记等不同类型的时间登记。 本主题介绍工作流的登记、计算、审核和使用以将结构和自动审核添加到时间表审核流程。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5fac917362fe4aa2be675133528a7108647ecc00
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 0e88d64340a7f4963956d1dce3c31f3542cc30f8
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838407"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865224"
 ---
-# <a name="time-and-attendance-registration"></a>考勤管理登记
+# <a name="time-and-attendance-registration-overview"></a>考勤管理登记概览
 
 [!include [banner](../includes/banner.md)]
 

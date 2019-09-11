@@ -2,8 +2,8 @@
 title: 电子申报中 (ER) 的配方设计器
 description: 本主题说明如何在电子申报 (ER) 中使用配方设计器。
 author: NickSelin
-manager: AnnBe
-ms.date: 05/14/2014
+manager: kfend
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 1f6caa6afd0ce36340caf237c1acca0ea343824f
+ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849501"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864286"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>电子申报中 (ER) 的配方设计器
 
@@ -31,7 +31,7 @@ ms.locfileid: "1849501"
 
 本主题说明如何在电子申报 (ER) 中使用配方设计器。 在您在 ER 中为特定电子文档设计格式时，您可以使用公式转换数据，以便使其满足该文档的履行和格式的要求。 这些公式类似 Microsoft Excel 中的公式。 公式中支持各种函数类型：文本、日期和时间、数学、逻辑、信息、数据类型转换和其他（企业域特定函数）。
 
-## <a name="formula-designer-overview"></a>配方设计器概述
+## <a name="formula-designer-overview"></a>配方设计器概览
 
 ER 支持公式设计器。 因此，在设计时，您可以配置在运行时可用于执行以下任务的表达式：
 
@@ -113,6 +113,33 @@ ER 配方设计器还可用于生成文件名来生成电子单据和控制文�
 - 表达式为包含至少一条记录的批次启用（通过返回 **TRUE**）文件创建流程。
 
 [![文件控制](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+
+### <a name="documents-content-control"></a>单据内容控制
+
+可使用 ER 配方设计器配置表达式，用于控制运行时将哪些数据放入生成的电子单据中。 这些表达式可根据处理数据和配置的逻辑启用或禁用该格式的特定元素的输出。 可以在**工序设计器**页**映射**选项卡上的**启用**字段中为单个格式元素输入这些表达式，以充当用于返回**布尔**值的逻辑条件：
+
+-   如果返回 **True**，说明执行了当前格式元素。
+-   如果返回 **False**，说明跳过了当前格式元素。
+
+下图显示这种类型的表达式（例如，Microsoft 提供的 **ISO20022 贷方转帐 (NO)** 格式配置的版本 **11.12.11**）。 配置的 **XMLHeader** 格式组件用于描述采用 ISO 20022 XML 消息标准的贷方转帐消息的结构。 配置的 **XMLHeader/Document/CstmrCdtTrfInitn/PmtInf/CdtTrfTxInf/RmtInf/Ustrd** 格式组件是为了向生成的消息添加 **Ustrd** XML 元素，并放置未结构化格式的汇款信息来充当以下 XML 元素的文本：
+
+-   **PaymentNotes** 组件用于输出付款附注的文本。
+-   **DelimitedSequence** 组件输出以逗号分隔的发票编号，用于结算当前贷方转帐。
+
+[![工序设计器](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+
+> [!NOTE]
+> **PaymentNotes** 和 **DelimitedSequence** 组件带有问号标记。 这意味着同时使用这两个组件是有条件的，需要基于以下条件：
+
+-   如果 **@.PaymentsNotes<>""** 表达式是为 **PaymentNotes** 组件定义的，则用于（通过返回 **TRUE**）实现对 **Ustrd** XML 元素的填充，而填充的内容素是在当前贷方转帐的此文本非空时的付款附注的文本。
+
+[![工序设计器](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+
+-   如果 **@.PaymentsNotes=""** 表达式是为 **DelimitedSequence** 组件定义的，则用于（通过返回 **TRUE**）实现对 **Ustrd** XML 元素的填充，而填充的内容是以逗号分隔的，用于在此贷方转帐的付款批注文本为空时结算当前贷方转帐的发票编号。
+
+[![工序设计器](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+
+根据此设置，为每笔借方付款生成的消息（**Ustrd** XML 元素）中将包含付款附注的文本，或当此类文本为空时，则包含以逗号分隔且用于结算此付款的发票编号。
 
 ### <a name="basic-syntax"></a>基本语法
 

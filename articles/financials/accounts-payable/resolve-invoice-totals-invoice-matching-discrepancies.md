@@ -1,9 +1,9 @@
 ---
-title: 解决发票合计匹配期间出现的差异
+title: 解决发票合计匹配期间出现的差异概览
 description: 您可以使用发票合计匹配来帮助确保发票总金额与预期金额之间的差异不会超出可接受的差异。
 author: abruer
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c664f0b66b41b3db8f45b4507bca39e1ffefb599
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d4a20368385ec43547ee3d29770bd83cdec47e4a
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834553"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864934"
 ---
-# <a name="resolve-discrepancies-during-invoice-totals-matching"></a>解决发票合计匹配期间出现的差异
+# <a name="resolve-discrepancies-during-invoice-totals-matching-overview"></a>解决发票合计匹配期间出现的差异概览
 
 [!include [banner](../includes/banner.md)]
 

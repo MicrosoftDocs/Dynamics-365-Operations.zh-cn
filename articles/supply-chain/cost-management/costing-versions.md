@@ -1,9 +1,9 @@
 ---
-title: 成本计算版本
+title: 成本计算版本概览
 description: 本文提供有关成本计算版本、如何维护它们以及可在其中包括的数据类型的信息。 成本计算版本主要用于包含与物料、成本类别和间接成本计算公式有关的成本记录。
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a73be45d183f3cbdc19efbb9ee29fa621a113c66
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 25d3abf177c1e420d1c97dc74891e1ac0d2c2546
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548154"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865512"
 ---
-# <a name="costing-versions"></a>成本计算版本
+# <a name="costing-versions-overview"></a>成本计算版本概览
 
 [!include [banner](../includes/banner.md)]
 
