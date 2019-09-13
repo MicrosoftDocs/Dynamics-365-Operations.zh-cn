@@ -1,9 +1,9 @@
 ---
-title: 服务对象
+title: 服务对象概览
 description: 服务对象是您可以对其执行服务的客户的资产和产品。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/21/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5641077de84b6702d2c5621edef74783f2f104fd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a25c4d71d617a0b7cacd31f708421fd9dd960ea
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562315"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865865"
 ---
-# <a name="service-objects"></a>服务对象 
+# <a name="service-objects-overview"></a>服务对象概览
 
 [!include [banner](../includes/banner.md)]
 

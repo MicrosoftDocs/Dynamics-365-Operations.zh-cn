@@ -1,9 +1,9 @@
 ---
 title: 创建折旧方案
-description: 本程序描述了批处理折旧方案的工作原理，并说明了如何为固定资产建议折旧方案。
+description: 本主题描述折旧批处理建议的工作原理，并说明如何为固定资产建议折旧。
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,34 +16,35 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07146adfe1ead2b6e06e3c323963f8c012381b76
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 90c24e9d89c055ea95ca5f25cd85ef4042476a90
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839993"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867599"
 ---
-# <a name="create-depreciation-proposal"></a>创建折旧方案
+# <a name="create-a-depreciation-proposal"></a>创建折旧方案
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-本程序描述了批处理折旧方案的工作原理，并说明了如何为固定资产建议折旧方案。 此任务使用 USMF 演示公司和会计角色。
+本主题描述折旧批处理建议的工作原理，并说明如何为固定资产建议折旧。 此任务使用 USMF 演示公司和会计角色。
 
 
-## <a name="create-depreciation-proposal"></a>创建折旧方案
-1. 转到“固定资产”>“日记帐条目”>“创建折旧方案”。
-2. 在“日记帐名称”字段中，单击下拉按钮以打开查找。
-3. 在列表中，单击所选行中的链接。
-4. 在“结束日期”字段中输入日期。
-    * 选择“汇总折旧”选项，将按月折旧汇总到一个日记帐行。  
-    * 例如，如果“结束日期”值为 2015 年 3 月 31 日，则会生成以下描述：“自 2015 年 1 月 31 日起折旧”。 建议日记帐行的“日期”字段随后将设置为 2015 年 3 月 31 日。  
-    * 使用“筛选”选项，按资产、资产组或其他条件筛选折旧方案。  
-    * 如果您为固定资产表格使用“创建购置或折旧方案”，可以批处理折旧方案。 对于使用较多系统资源的较大方案，建议使用此方案。 如果选择批处理选项，您仍可以在该期间完成其他任务。 在您这样建议折旧时，则为固定资产价值模型计算折旧。  
-5. 单击“创建日记帐”。
+## <a name="create-a-depreciation-proposal"></a>创建折旧方案
+1. 在导航窗格中，转到**模块 > 固定资产 > 日记帐条目 > 创建折旧方案**。
+2. 在**日记帐的名称**字段中，从下拉菜单中选择一个选项。
+3. 在**结束日期**字段中输入日期。
+
+    - 选择**汇总折旧**选项，将按月折旧汇总到一个日记帐行。  
+    - 例如，如果“结束日期”值为 2015 年 3 月 31 日，则会生成以下描述：“自 2015 年 1 月 31 日起折旧”。 建议日记帐行的**日期**字段随后将设置为 2015 年 3 月 31 日。  
+    - 使用**筛选**选项，按资产、资产组或其他条件筛选折旧方案。  
+    - 如果您为固定资产表格使用**创建购置或折旧方案**，可以批处理折旧方案。 对于使用较多系统资源的较大方案，建议使用此方案。 如果选择批处理选项，您仍可以在该期间完成其他任务。 在您这样建议折旧时，则为固定资产价值模型计算折旧。  
+
+4. 选择**创建日记帐**。
 
 ## <a name="review-depreciation-entries"></a>查看折旧条目
-1. 转到固定资产>流水输入项>固定资产流水。
+1. 在导航窗格中，转到**模块 > 固定资产 > 日记帐条目 > 固定资产日记帐**。
 2. 在列表中，找到并选择所需记录。
-3. 单击“行”。
-4. 单击“过帐”。
+3. 选择**行**。
+4. 选择**过帐**。
 

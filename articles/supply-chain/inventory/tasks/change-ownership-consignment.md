@@ -3,7 +3,7 @@ title: 根据生产需求更改托运库存的所有权
 description: 此过程显示在生产需要库存时，如何将托运库存的所有者从供应商更改为法人。
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9587d39801ad39649aa5fa3ff682cdeab411516e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1cf45e838afcb55e15175811f4d38be07d7a484d
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838791"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874869"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>根据生产需求更改托运库存的所有权
 
@@ -30,6 +30,8 @@ ms.locfileid: "1838791"
 
 此过程显示在生产需要库存时，如何将托运库存的所有者从供应商更改为法人。 所有权的此项更改通过创建并过帐库存所有权更改日记帐完成。 所有权更改日记帐行可以手动创建，也可以根据现有生产需要按照此记录中的显示创建。 通常由车间主管执行此任务。 您可以在 USMF 演示数据公司，也可在您自己的数据中运行该过程。 如果您在使用自己的数据，请确保已满足以下先决条件：为库存所有权更改设置的库存日记帐名称、物理记录且由供应商拥有的现成物料，以及材料的一个或多个生产订单行。 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 
+> [!NOTE]
+> 默认不支持出站托运流程，也不支持所有权日记帐自动处理。
 
 ## <a name="create-an-inventory-ownership-journal"></a>创建库存所有权日记帐
 1. 转到“库存管理”>“日记帐条目”>“物料”>“库存所有权更改”。

@@ -1,9 +1,9 @@
 ---
-title: 配置应付账款
+title: 配置应付帐款概览
 description: 本文介绍您用于在 Microsoft Dynamics 365 for Finance and Operations 中设置应付帐款的基本和可选功能的页面。 还介绍您在开始设置应付账款前必须完成的设置步骤。
 author: abruer
 manager: AnnBe
-ms.date: 08/08/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8642b27f222ed080539e63b0608a52aefbe64e8
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ce2caf8df871ee8f577b3a1af9d71244a1dc4694
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837462"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864982"
 ---
-# <a name="configure-accounts-payable"></a>配置应付账款
+# <a name="configure-accounts-payable-overview"></a>配置应付帐款概览
 
 [!include [banner](../includes/banner.md)]
 

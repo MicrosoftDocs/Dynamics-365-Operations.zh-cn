@@ -15,18 +15,18 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0b37fa989eec0be871bf37d34da0bee41a8c03c4
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 0ad71a8a1136fc4aa33a0635745d4e3ea4cab48f
+ms.sourcegitcommit: 3f45db0bb1881ee287a41dcc283a304ba7aadab8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875446"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1918233"
 ---
 # <a name="dynamics-365-for-finance-and-operations---operated-by-21vianet-in-china"></a>Dynamics 365 for Finance and Operations - 由世纪互联在中国运营
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 联机服务由世纪互联运营，可符合中国的监管要求。 这些服务是目前由本地运营商上海蓝云网络科技有限公司（以下简称**世纪互联**）运营和处理的云服务的物理分离实例。 该公司是位于中国大陆的北京世纪互联宽带数据中心有限公司的全资子公司。
+Microsoft Dynamics 365 联机服务由世纪互联运营，可符合中国的监管要求。 这些服务是目前由本地运营商上海蓝云网络科技有限公司（以下简称“**世纪互联**”）运营和处理的云服务的物理分离实例。 该公司是位于中国大陆的北京世纪互联宽带数据中心有限公司的全资子公司。
 
 Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Dynamics 365 for Finance and Operations 之间的功能一致性。 但是，受依赖服务或合作伙伴解决方案可用性、市场优先级或法规合规性的影响，二者在功能一致性方面将存在明显的例外。
 
@@ -49,7 +49,7 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Dynami
 |**通过 OSSA 或 CSP 购买 Office 365，然后购买 Dynamics 365。**    |Dynamics 365 需要在单独的租户上预配。          |
 
 - OSPA = 联机服务高级版协议 
-- OSSA = 联机服务订阅协议
+- OSSA = 联机服务标准版协议
 - CSP = 云解决方案提供商
 
 有关预配环境的信息，请参阅 [Power Platform 管理中心的“创建和管理环境”部分](https://docs.microsoft.com/en-us/power-platform/admin/create-environment)。

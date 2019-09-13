@@ -1,9 +1,9 @@
 ---
-title: 功能管理概述
+title: 功能管理概览
 description: 本主题介绍功能管理功能及其用法。
 author: mikefalkner
 manager: AnnBe
-ms.date: 07/17/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 6aeb5383520f799223d62420f6e0c1079c6c961f
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862930"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887103"
 ---
-# <a name="feature-management-overview"></a>功能管理概述
+# <a name="feature-management-overview"></a>功能管理概览
 
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
@@ -103,8 +103,9 @@ ms.locfileid: "1862930"
 
 默认情况下，将关闭向您的环境添加的所有功能，除非是必需功能。 但是，如果要自动开启所有新功能，可使用工作区磁贴下方的下拉列表更改添加新功能时显示的内容。
 
-- 如果选择**默认启用所有新功能**，将在向您的环境添加新功能时，自动开启所有新功能。
-- 如果选择**默认禁用所有新功能**，将在向您的环境添加新功能时，自动关闭所有新功能。
+- 选择**自动启用新功能**，以便在向您的环境添加新功能时，自动开启所有新功能。
+- 选择**不自动启用新功能**，以便在向您的环境添加新功能时，默认关闭所有新功能。
+
 
 自动启用所有功能时，将启用在您单击**全部启用**按钮时要启用的所有功能。 不会启用需要确认的功能或执行操作后才能启用的功能。
 

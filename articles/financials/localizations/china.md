@@ -1,9 +1,9 @@
 ---
-title: 中国
-description: 此主题概述中国的专有功能。
+title: 中国概览
+description: 此主题概览中国的专有功能。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/15/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,14 +15,14 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: d5ae4ccac1377523f9f3c0f277da34ccd8139db1
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 563aa7fde393529c4673558fc83c43edfa7a188e
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850712"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865714"
 ---
-# <a name="china"></a>中国
+# <a name="china-overview"></a>中国概览
 
 [!include[banner](../includes/banner.md)]
 

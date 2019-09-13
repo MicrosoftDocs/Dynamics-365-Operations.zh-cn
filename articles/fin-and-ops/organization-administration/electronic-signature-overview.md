@@ -1,9 +1,9 @@
 ---
-title: 电子签名
+title: 电子签名概览
 description: 本文提供电子签名的概览并说明如何在 Microsoft Dynamics 365 for Finance and Operations 中使用它们。
 author: maertenm
 manager: AnnBe
-ms.date: 08/24/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 676510ef503d51d914ba762e7ac15e2c4811c6ba
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f66999d61c63b2ace0ed06d0ecdd0cfc95cbd778
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553216"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865008"
 ---
-# <a name="electronic-signatures"></a>电子签名
+# <a name="electronic-signatures-overview"></a>电子签名概览
 
 [!include [banner](../includes/banner.md)]
 

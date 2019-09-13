@@ -1,9 +1,9 @@
 ---
-title: 更改会话日期
-description: 默认情况下，在输入和过账日志条目或原始凭证时使用当前日期。
+title: 更改会话的日期
+description: 此主题介绍如何在 Dynamics 365 for Finance and Operations 中更改会话的日期。
 author: pvillads
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d27a4d36ff8c8192d2342cd97f29c556540d00b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 81b45f71cda7c682e7a9dee241e483890a80d487
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545616"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867343"
 ---
-# <a name="change-the-date-for-the-session"></a>更改会话日期
+# <a name="change-the-date-for-a-session"></a>更改会话的日期
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-默认情况下，在输入和过账日志条目或原始凭证时使用当前日期。 您可以更改用于当前会话的日期。 可根据需要使用此功能回溯日志条目或原始凭证。
+此主题介绍如何在 Dynamics 365 for Finance and Operations 中更改会话的日期。 默认情况下，在输入和过账日志条目或原始凭证时使用当前日期。 您可以更改用于当前会话的日期。 可根据需要使用此功能回溯日志条目或原始凭证。
 
-1. 转到“常规 > 常规 > 会话日期和时间”。
-2. 在“日期”字段中，输入一个日期。
-3. 单击“确定”。
+1. 在导航窗格中，转到**模块 > 常用 > 常用 > 会话日期和时间**。
+2. 在**日期**字段中，输入一个日期。
+3. 选择**确定**。
 

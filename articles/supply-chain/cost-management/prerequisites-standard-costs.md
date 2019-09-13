@@ -1,9 +1,9 @@
 ---
-title: 针对标准成本的先决条件
+title: 针对标准成本的先决条件概览
 description: 本主题介绍使用标准成本的基本步骤。
 author: AndersGirke
 manager: AnnBe
-ms.date: 01/17/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5a4a4e49ef1cee923011ddab24497c65f85c1e3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4d5fd28f2605c6382a5901b7d52389b07c54d037
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547805"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865488"
 ---
-# <a name="prerequisites-for-standard-costs"></a>针对标准成本的先决条件
+# <a name="prerequisites-for-standard-costs-overview"></a>针对标准成本的先决条件概览
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,9 +1,9 @@
 ---
-title: 应付账款发票匹配
+title: 应付帐款发票匹配概览
 description: 应付账款发票匹配是匹配供应商发票、采购订单和装箱单信息的一个流程。
 author: abruer
 manager: AnnBe
-ms.date: 02/13/2019
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe464c714620590d77a0a5b2c2aeadb29381bf60
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: b45c6f20bf5b6fb02379f71b5806c6c147789e73
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837486"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865056"
 ---
-# <a name="accounts-payable-invoice-matching"></a>应付账款发票匹配
+# <a name="accounts-payable-invoice-matching-overview"></a>应付帐款发票匹配概览
 
 [!include [banner](../includes/banner.md)]
 

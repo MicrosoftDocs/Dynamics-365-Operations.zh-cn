@@ -3,7 +3,7 @@ title: 创建固定资产
 description: 此任务指南使用 USMF 公司演示。
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f03f96b854fb790bc67149e318a9e577be456b76
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 59d2b421fcce3551145b85e004380ed06cd45626
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839969"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916430"
 ---
 # <a name="create-a-fixed-asset"></a>创建固定资产
 
@@ -29,16 +29,14 @@ ms.locfileid: "1839969"
 
 此任务指南使用 USMF 公司演示。  这里将使用固定资产列表页面创建新的固定资产。
 
-1. 转到“固定资产”>“固定资产”>“固定资产”。
-2. 单击“新建”。
-3. 在“固定资产组”字段中，输入或选择一个值。
-    * 如果您在固定资产参数和固定资产组中启用固定资产自动编号功能，将会默认显示编号。  如果没用启用，您必须输入唯一编号以识别固定资产。  
-4. 在“名称”字段中，键入一个值。
-    * 输入您的企业为该资产所需的其他信息。  
-5. 单击“帐簿”。
-6. 在“购置日期”字段中输入日期。
-7. 在“购置价格”字段中输入数字。
-    * 输入您的企业为该帐簿所需的其他信息。  
-    * 输入您的企业为其余帐簿所需的其他信息。  
+1. 转到**导航窗格 > 模块 > 固定资产 > 固定资产 > 固定资产**。
+2. 在**操作窗格**中，单击**新建**。
+3. 在**固定资产组**字段中，输入或选择一个值。 如果您在**固定资产参数**和**固定资产组**中启用**固定资产自动编号功能**，将会默认显示**编号**字段。  如果没用启用，您必须输入唯一编号以识别固定资产。  
+4. 在**名称**字段中，键入一个值。 输入您的企业为该资产所需的其他信息。  
+5. 在**操作窗格**上，单击**帐簿**。
+6. 在**购置日期**字段中输入日期。
+7. 在**购置价格**字段中输入数字。
+    - 输入您的企业为该帐簿所需的其他信息。  
+    - 输入您的企业为其余帐簿所需的其他信息。  
 8. 关闭该页面。
 

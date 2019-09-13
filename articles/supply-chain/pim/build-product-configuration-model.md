@@ -1,9 +1,9 @@
 ---
-title: 构建产品配置模型
+title: 产品配置概览
 description: “将产品配置为可满足特定要求”这一需求在“企业对企业”和“企业对消费者”关系中都正在成为规则而不是特例。
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60a901ce9e87571b2d199a49af2cddbd72fc5808
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b50aa1df7a169e71d3e2e477bd1515d70cedccab
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564586"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865368"
 ---
-# <a name="build-a-product-configuration-model"></a>构建产品配置模型
+# <a name="product-configuration-overview"></a>产品配置概览
 
 [!include [banner](../includes/banner.md)]
 
@@ -137,7 +137,7 @@ ms.locfileid: "1564586"
 
 API 是使用一组 **PCAdaptor** 类实施的，这些类可公开产品配置模型的数据结构。 必须为将扩展的每个模型创建 **PCAdaptor** 类的实例。 在配置会话完成后，系统将检查是否有此类的实例并在发现该实例后运行它。  
 
-以下流程图概述了该流程。  
+以下流程图概览了该流程。  
 
 [![流程图](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 

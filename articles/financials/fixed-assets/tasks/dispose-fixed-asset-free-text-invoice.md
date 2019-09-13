@@ -1,9 +1,9 @@
 ---
 title: 使用普通发票处置固定资产
-description: 此过程显示如何使用固定资产日记帐中的购置方案购置固定资产。
+description: 本主题介绍如何使用固定资产日记帐中的购置方案购置固定资产。
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,28 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26446df21a3b55abcdd5f163ae84f8e35d853965
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 179a6e45d57baf810068cb5c14aed670ebb94706
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846983"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914645"
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>使用普通发票处置固定资产
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-此过程显示如何使用普通发票处置固定资产。
+此主题介绍如何使用普通发票处置固定资产。
 
-1. 转到“应收账款”>“发票”>“所有普通发票”。
-2. 单击“新建”。
-3. 在“客户帐户”字段中，输入或选择一个值。
-4. 验证默认发票日期并编辑（如果适用）。
-5. 验证其余默认标题字段（如“币种”）并编辑（如果适用）。
-6. 在发票行中输入描述。
-7. 为发票行输入或选择主科目。
-8. 验证默认销售税组和销售税(物料)组。
-9. 输入固定资产的单价或销售金额。
-10. 单击“行详细信息”。  
-11. 选择要出售的固定资产编号。
-12. 单击“过帐”。
+1. 在导航窗格中，转到**模块 > 应收帐款 > 发票 > 所有普通发票**。
+2. 选择**新建**。
+3. 在**客户帐户**字段中，输入或选择一个值。
+4. 验证默认**发票**日期并编辑（如果适用）。
+5. 验证其余默认标题字段（如**币种**）并编辑（如果适用）。
+6. 在**发票行**部分中，验证**说明**和**主科目**字段。
+7. 验证默认**销售税组**和**销售税(物料)** 组。
+8. 输入固定资产的销售**单价**或**金额**。
+9. 选择**行详细信息**部分。  
+10. 在**固定资产**字段中，输入或选择一个值。
+11. 选择**过帐**。 
 

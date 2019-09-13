@@ -3,7 +3,7 @@ title: 使用仓库管理进行实际称重产品处理
 description: 本主题介绍如何使用工作模板和库位指令确定在仓库中如何以及在哪里完成工作。
 author: perlynne
 manager: AnnBe
-ms.date: 03/18/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ed588ea28bec3e734f9648c1fbd7551ab0b3cdda
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836093"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887127"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>使用仓库管理进行实际称重产品处理
 
@@ -136,7 +136,6 @@ ms.locfileid: "1836093"
 
 - 实际称重产品不支持手动创建检验单。
 - 实际称重产品不支持手动移动与工作相关的库存。
-- 实际称重产品不支持合并牌照。
 - 实际称重产品不支持加载来初始化仓库库存的牌照。
 - 实际称重产品不支持批次平衡流程。
 - 实际称重产品不支持处理负实际库存。
@@ -147,7 +146,6 @@ ms.locfileid: "1836093"
 - 实际称重产品不支持群集领料功能。
 - 实际称重产品不支持领料和装箱仓库处理。
 - 对于实际称重产品，在工作模板中定义的工作可以自动运行。
-- 实际称重产品不支持冲销工作功能。
 - 对于实际称重产品，不支持在集装箱关闭后创建工作的手动装箱工作站处理。
 - 实际称重产品不支持逐件扫描功能。
  

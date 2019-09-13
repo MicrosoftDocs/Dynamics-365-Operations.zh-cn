@@ -1,9 +1,9 @@
 ---
-title: 优化顾问
+title: 优化顾问概览
 description: 此主题描述如何使用优化顾问来帮助保证 Microsoft Dynamics 365 Finance and Operations 的最佳配置。
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 03/23/2018
+ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: fce7cfd8619cc533aa444409f7ffa3044eb7378a
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: a58990363003aec115e342925921f2171999b3b9
+ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1851379"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864224"
 ---
-# <a name="optimization-advisor"></a>优化顾问
+# <a name="optimization-advisor-overview"></a>优化顾问概览
 
 [!include [banner](../includes/banner.md)]
 

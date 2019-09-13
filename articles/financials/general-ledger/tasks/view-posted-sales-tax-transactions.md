@@ -1,9 +1,9 @@
 ---
 title: 查看已过帐的销售税交易记录
-description: 您可以从不同页面查看已过帐销售税交易记录，取决于您想要查看哪部分。
+description: 此主题介绍一些查看已过帐的销售税交易记录的方法。
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,36 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c5668c1cd4325f557d83a2291c8139f65c4d170e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5a2ff8b46d20fa012cbce817ae4e95b4799149ec
+ms.sourcegitcommit: 0e2e4d8419c03a30d2223662ba8d403a28fa31eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846191"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870860"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>查看已过帐的销售税交易记录
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-您可以从不同页面查看已过帐销售税交易记录，取决于您想要查看哪部分。 本任务使用 USMF 公司进行演示。
+此主题介绍一些查看已过帐的销售税交易记录的方法。 您可以从不同页面查看已过帐销售税交易记录，取决于您想要查看哪部分。 此任务使用 USMF 公司演示。
 
-1. 转到“纳税”>“查询和申报”>“销售税查询”>“已过帐销售税”。
-2. 单击“显示筛选器”。
+# <a name="posted-sales-tax-page"></a>已过帐的销售税页面
+
+1. 在导航窗格中，转到**模块 > 纳税 > 查询和报表 > 销售税查询 > 已过帐的销售税**。
+2. 选择**显示筛选器**以将视图缩小到特定交易记录。
 3. 关闭该页面。
-4. 转到“纳税”>“间接税”>“销售税”>“销售税结算期间”。
-5. 展开“期间间隔”部分。
-6. 选择您感兴趣的间隔。
-7. 显示所选结算期间间隔的已过帐销售税交易记录。
-8. 您可以进一步筛选已过帐销售税交易记录的列表。
-9. 关闭该页面。
-10. 转到报税>间接税>销售税》销售税代码。
-11. 在操作窗格上，单击“销售税代码”。
-12. 单击“已过帐销售税”。
+
+# <a name="sales-tax-settlement-periods-page"></a>销售税结算期间页面
+
+1. 在导航窗格中，转到**模块 > 纳税 > 间接税 > 销售税 > 销售税结算期**。
+2. 展开**期间间隔**部分。
+3. 选择您感兴趣的间隔。
+4. 您可以进一步筛选已过帐销售税交易记录的列表。
+5. 关闭该页面。
+
+# <a name="sales-tax-codes-page"></a>销售税代码页面
+
+1. 在导航窗格中，转到**模块 > 纳税 > 间接税 > 销售税 > 销售税代码**。
+2. 在操作窗格上，选择**销售税代码**。
+3. 选择**已过帐的销售税**。
 

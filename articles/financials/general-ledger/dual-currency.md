@@ -3,7 +3,7 @@ title: 双货币
 description: 此主题提供有关双货币的信息，其中的申报币种用作 Microsoft Dynamics 365 for Finance and Operations 的第二记帐币种。
 author: kweekley
 manager: AnnBe
-ms.date: 05/06/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,31 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dfd4c116552510ee42cd2f3e8a0f31100826b9d2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6d5128ea9daaf22ee962ca5fc70a05cba05c7edb
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839393"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867503"
 ---
 # <a name="dual-currency"></a>双货币
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations 版本 8.1（2018 年 10 月）中引入的功能支持重新确定申报币种的用途，可以将其用作第二记帐币种。 此功能称为*双货币*。 双货币的更改不能通过 Configuration Key 或参数关闭。 由于申报币种用作第二记帐币种，申报币种在过帐逻辑中的计算方法已更改。
 
-此外，各个模块已增强以在不同流程中跟踪、报告和使用申报币种。 受影响的模块包括**总帐**、**财务申报**、**应付帐款**、**应收帐款**、**现金和银行管理**和**固定资产**。 升级后，您必须为“现金和银行管理”和“固定资产”完成特定步骤。 因此，请务必仔细阅读此主题中的相关部分。
+此外，已增强多个模块，以在不同流程中跟踪、报告和使用申报币种。 受影响的模块包括：
+
+- 总帐 
+- 财务报告 
+- 应付帐款
+- 应收帐款 
+- 现金和银行管理 
+- 固定资产 
+- 合并
+
+升级后，您必须为“现金和银行管理”和“固定资产”完成特定步骤。 因此，请务必阅读并理解此主题中的相关部分。
 
 ## <a name="posting-process"></a>过帐流程
 
@@ -75,6 +86,7 @@ Microsoft Dynamics 365 for Finance and Operations 版本 8.1（2018 年 10 月�
 - [应收帐款](#accounts-payable-and-accounts-receivable)
 - [现金和银行管理](#cash-and-bank-management)
 - [固定资产](#fixed-assets)
+- [合并](#consolidations)
 
 ### <a name="general-ledger"></a>总帐
 
@@ -124,6 +136,8 @@ Microsoft Dynamics 365 for Finance and Operations 版本 8.1（2018 年 10 月�
 此外，还对折旧流程进行了主要更改。 这些更改需要用户在升级后执行操作。 阅读并了解以下变化很重要，即使您尚未使用固定资产。
 
 - 折旧流程确定申报币种金额的方法已更改。 以下场景比较折旧以前如何确定申报币种金额，以及现在如何确定申报币种金额。
+
+
 
     **折旧场景**
 
@@ -186,3 +200,13 @@ Microsoft Dynamics 365 for Finance and Operations 版本 8.1（2018 年 10 月�
     - 如果在固定资产日记帐中输入了折旧交易记录类型，申报币种金额将显示在新列中。 这些金额可以更改。
     - 如果分类帐中的记帐币种和申报币种相同，金额将保持同步。如果您更改**贷方**金额，**以申报币种表示的贷方**金额将自动更改，以使它们相同。
     - 如果在固定资产日记帐中输入了任何其他交易记录类型，**以申报币种表示的借方**和**以申报币种表示的贷方**金额永远不会显示，不论是在过帐之前还是之后。 记帐币种和申报币种金额在过帐到总帐的凭证中仍然显示。
+    
+### <a name="consolidations"></a>合并
+    
+Microsoft Dynamics 365 for Finance and Operations 版本 10.0.5（2019 年 10 月）中将引入的功能可用于通过文档管理使用功能，从而提高合并和双货币的灵活性。 若要启用此功能，请转到**功能管理**工作区，然后选择**在总帐合并中启用双货币功能**。
+
+在“总帐合并”中，已添加了一个新选项，用于合并来自源公司的记帐或申报币种金额。 如果此记帐或申报币种与合并公司中的记帐或申报币种相同，将把直接复制此金额，不经过换算。
+
+-  现在可选择是否将源公司的记帐币种或申报币种用作合并公司中的交易币种。
+
+- 如果源公司中的记帐或申报币种与合并公司中的相同，将把源公司的币种金额直接复制到合并公司中的币种金额。 如果币种不同，将在合并公司中使用汇率计算记帐和申报币种金额。
