@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: andreabichsel
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8f488b0bf844fc04f07fedfa447073cdeabacc15
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517401"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795236"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Dynamics 365 for Talent（2019 年 4 月 2 日）中的新增功能或更改
 
@@ -57,13 +57,13 @@ ms.locfileid: "1517401"
 本部分中的更改适用于内部版本号 8.1.2216。
 
 ### <a name="platform-update-25"></a>平台 update 25
-有关平台更新 25 的详细信息，请参阅 [Dynamics 365 for Finance and Operations 平台更新 25（2019 年 4 月）中的预览功能](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25)。
+有关平台更新 25 的详细信息，请参阅 [Dynamics 365 for Finance and Operations 平台更新 25（2019 年 4 月）中的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25)。
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>高级薪酬安全（固定和可变）
 在许多组织中，薪酬和福利经理可能只能访问特定薪酬记录。 其中可能包含有关管理层或地区员工的记录。 此更改让 HR 可以管理和维护组织中不同员工组的薪酬计划。 可以为固定计划和可变计划分配安全角色。 这些安全角色决定计划和相关员工数据（如工资或福利记录）的访问权限，因此只有这些角色可以处理员工组的薪酬。
 
 ### <a name="upgrade-to-common-data-service"></a>升级到 Common Data Service
-很快将到达 Common Data Service 的升级截止时间。 请登录 PowerApps 管理员中心以确定是否需要升级您的数据库。 有关截止时间和必要升级步骤的详细信息，请参阅[升级到 Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds)。
+很快将到达 Common Data Service 的升级截止时间。 请登录 PowerApps 管理员中心以确定是否需要升级您的数据库。 有关截止时间和必要升级步骤的详细信息，请参阅[升级到 Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds)。
 
 ## <a name="in-preview"></a>预览模式
 

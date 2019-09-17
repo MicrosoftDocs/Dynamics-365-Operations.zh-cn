@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8b2b49621624e937bed310c9d3f3193a10b38290
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8c5f95f1d3be22a73cc42cb3667b793490f2a136
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517421"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739625"
 ---
-# <a name="creating-approving-and-signing-offers"></a>创建、审核和签署聘约
+# <a name="create-approve-and-sign-offers"></a>创建、审核和签署聘约
 
 [!include[banner](../includes/banner.md)]
 

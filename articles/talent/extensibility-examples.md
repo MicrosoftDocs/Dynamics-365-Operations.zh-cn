@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
+ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577787"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1781434"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>使用 PowerApps 和 Microsoft Flow 扩展 Talent - 示例方案
 
@@ -101,24 +101,15 @@ ms.locfileid: "1577787"
 
 若要下载**流 – SharePoint 集成**模板，请转到 Microsoft 下载中心中的[流 – SharePoint 集成](https://go.microsoft.com/fwlink/?linkid=2082109)。
 
-## <a name="admin-console-to-manage-talent-pools"></a>用于管理人才池的管理控制台
+## <a name="referral-app"></a>Referral 应用
+您可以使用 Referral 应用将应聘者添加到共享人才池。 引荐人在提交应聘者时可以输入**名字**、**姓氏**、**电子邮件**和 **Linkedln URL**。 应聘者源元数据然后会使用引荐人的信息填充。
 
-启用与 LinkedIn 之间的集成时，Attract 会自动创建 LinkedIn 人才池。 当招聘人员通过 LinkedIn 与应聘者交换 InMail 时，Attract 将为此应聘者创建个人资料，而该应聘者将成为 LinkedIn 人才池的成员。 此 PowerApps 应用对根据技能重新组织人才池中的应聘者非常有用。
+您可以将此应用嵌入到员工自助服务 (ESS) 中来提交引荐，或者可以将其用作企业门户中的超链接，也可以作为独立应用运行。
 
-请将该 PowerApps 应用作为管理控制台运行以执行下列任务：
-
-- 列出人才池中的应聘者
-- 在人才池中添加和删除应聘者
-- 将应聘者从一个人才池移到另一个人才池
-- 移动应聘者之前确定应聘者是否已属于某个人才池
-- 将应聘者移到其他人才池之前检查应聘者的技能
-
-此 PowerApps 应用使用多对多关系，所以您可以将其用作其他需要提取具有多对多关系的方案的模板。
-
-若要下载**用于管理人才池的管理控制台**模板，请转到 Microsoft 下载中心中的[用于管理人才池的管理控制台](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469)。
+要下载 **Referral 应用**，在 Microsoft 下载中心转到 [Dynamics 365 for Talent 可扩展性解决方案：Referral 应用](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d)。 您可以导入此应用并对其进行自定义来添加其他功能。
 
 ## <a name="additional-resources"></a>其他资源
 
 [该 Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
-[在租户与环境之间迁移应用](https://docs.microsoft.com/en-us/power-platform/admin/environment-and-tenant-migration)
+[在租户与环境之间迁移应用](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

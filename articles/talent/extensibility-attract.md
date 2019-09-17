@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichsew
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 52790fbe500d9f55bc9cc86fba5d54f30b11e559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9360ac52bd53dc473ca61a424f3be933bcf357d1
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505856"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795212"
 ---
 # <a name="extensibility-in-attract"></a>Attract 的可扩展性
 
@@ -33,7 +33,7 @@ Microsoft Dynamics 365 for Talent 在 Common Data Service 平台基础上构建�
 
 ## <a name="extending-option-sets-in-attract"></a>扩展 Attract 中的选项集
 
-**选项集**（选择列表）是实体中可包含的一种字段。 用于定义一组选项。 选项集在窗体中显示时，使用下拉列表控件。  在 Attract 中，有多个字段是选项集。  下面介绍的功能用于扩展选项集，从拒绝原因字段、雇佣类型字段和任职类型字段开始。   还可以为添加的选项添加本地化的显示标签。 有关详细信息，请参阅[自定义选项集标签](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/customize-labels-support-multiple-languages)。
+**选项集**（选择列表）是实体中可包含的一种字段。 用于定义一组选项。 选项集在窗体中显示时，使用下拉列表控件。  在 Attract 中，有多个字段是选项集。  下面介绍的功能用于扩展选项集，从拒绝原因字段、雇佣类型字段和任职类型字段开始。   还可以为添加的选项添加本地化的显示标签。 有关详细信息，请参阅[自定义选项集标签](https://docs.microsoft.com/powerapps/developer/common-data-service/customize-labels-support-multiple-languages)。
 
 > [!NOTE]
 > 工作发布到 LinkedIn 这一功能要求使用**工作详细信息**页中的**雇佣类型**和**任职类型**字段。 这些字段中的默认值受 LinkedIn 支持，将在发布工作时显示。 因此，如果要将工作发布到 LinkedIn，并且修改这些字段的现有选项集值，仍将发布工作，但是 LinkedIn 不会显示自定义的**雇佣类型**和**任职类型**值。  
@@ -62,15 +62,15 @@ Microsoft Dynamics 365 for Talent 在 Common Data Service 平台基础上构建�
 
 您可以使用 PowerApps 轻松构建与您的 Attract 数据连接并且使用如 Microsoft Excel 中的表达式添加逻辑的应用。 您使用 PowerApps 构建的应用可以在 Web 上以及 Apple iOS 和 Google Android 设备上运行。
 
-例如，您可以构建让其在 Attract 中扫描简历并向应聘者发送职位的轻型应用，从而让招聘人员更加轻松地应对大学招聘会。 或者，您可以构建帮助您的组织达到合规要求的应用。 有关 PowerApps 以及如何用它来构建应用的更多信息，请参阅[将数据集成到 Common Data Service](https://docs.microsoft.com/en-us/powerapps)。
+例如，您可以构建让其在 Attract 中扫描简历并向应聘者发送职位的轻型应用，从而让招聘人员更加轻松地应对大学招聘会。 或者，您可以构建帮助您的组织达到合规要求的应用。 有关 PowerApps 以及如何用它来构建应用的更多信息，请参阅[将数据集成到 Common Data Service](https://docs.microsoft.com/powerapps)。
 
 ### <a name="microsoft-flow"></a>Microsoft Flow 
 
-您可以使用 Microsoft Flow 创建在 Attract 数据基础上运行的自动化工作流。 您可以轻松连接到成百上千个热闹应用和服务，而不必编写代码。 通过在 Common Data Service 中构建与 Attract 工作、应聘者和申请实体交互的流，您可以自动执行各种操作。 例如，当应聘者接受聘约时，可以向入职团队发送通知，或可以在 Twitter 上公布新闻。 有关流的详细信息，请参阅 [Microsoft Flow 文档](https://docs.microsoft.com/en-us/flow/)。
+您可以使用 Microsoft Flow 创建在 Attract 数据基础上运行的自动化工作流。 您可以轻松连接到成百上千个热闹应用和服务，而不必编写代码。 通过在 Common Data Service 中构建与 Attract 工作、应聘者和申请实体交互的流，您可以自动执行各种操作。 例如，当应聘者接受聘约时，可以向入职团队发送通知，或可以在 Twitter 上公布新闻。 有关流的详细信息，请参阅 [Microsoft Flow 文档](https://docs.microsoft.com/flow/)。
 
 ### <a name="power-bi"></a>Power BI
 
-Power BI 让您可以建立并查看让您更深入地了解 Attract 数据的自定义报表和仪表板。 有关 Power BI 以及如何建立交互式报表和仪表板的更多信息，请参阅 [Power BI 文档](https://docs.microsoft.com/en-us/power-bi/)。
+Power BI 让您可以建立并查看让您更深入地了解 Attract 数据的自定义报表和仪表板。 有关 Power BI 以及如何建立交互式报表和仪表板的更多信息，请参阅 [Power BI 文档](https://docs.microsoft.com/power-bi/)。
 
 ### <a name="custom-activities"></a>自定义活动 
 

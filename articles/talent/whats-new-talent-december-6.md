@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 80d62492d58a436c15fac82df0d000ab9efa6ea5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f3d53440c5d19dd52fbab17305c3e99a73e570be
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517474"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742578"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Dynamics 365 for Talent Core HR（2018 年 12 月 6 日）中的新增功能或更改
 
@@ -62,7 +62,7 @@ ms.locfileid: "1517474"
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>配置 Talent 和 Dayforce 之间的 UK 工资单集成
 
-Microsoft Dynamics 365 for Talent 和 Ceridian Dayforce 之间的集成在 UK 的预览中提供。 请参阅以下主题了解更多信息：[配置 Talent 和 Dayforce 之间的工资单集成](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/configure-payroll-integration)。
+Microsoft Dynamics 365 for Talent 和 Ceridian Dayforce 之间的集成在 UK 的预览中提供。 请参阅以下主题了解更多信息：[配置 Talent 和 Dayforce 之间的工资单集成](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration)。
 
 ## <a name="coming-soon"></a>即将到期
 

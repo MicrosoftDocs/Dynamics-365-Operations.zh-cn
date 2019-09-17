@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 25ef0d49c2600833aefa84d404e00c0c57cfbf52
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517403"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856416"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>Dynamics 365 for Talent（2019 年 4 月 9 日）中的新增功能或更改
 
@@ -37,10 +37,10 @@ ms.locfileid: "1517403"
 在 Attract 和 Onboard 中，最终用户使用报告问题功能记录的问题现在会在客户的 LCS 项目中自动创建报告问题。 管理员然后可以诊断问题并在需要时提交给 Microsoft。 这与 Core HR 处理最终用户支持问题的方式一致。
 
 ### <a name="relevance-search"></a>相关性搜索
-现在可以在人才池中搜索整个应聘者数据库以查找特定技能、姓名或教育背景。 不再需要指定要搜索应聘者个人资料的哪部分。 Attract 搜索整个个人资料并突出显示找到的所有匹配项。 Attract 还搜索应聘者的所有可用文档并为搜索结果智能分级。 错误，还可以按来源或是否为银奖获得者来筛选结果。 有关详细信息，请参阅[搜索和查看应聘者个人资料](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles)。
+现在可以在人才池中搜索整个应聘者数据库以查找特定技能、姓名或教育背景。 不再需要指定要搜索应聘者个人资料的哪部分。 Attract 搜索整个个人资料并突出显示找到的所有匹配项。 Attract 还搜索应聘者的所有可用文档并为搜索结果智能分级。 错误，还可以按来源或是否为银奖获得者来筛选结果。 有关详细信息，请参阅[搜索和查看应聘者个人资料](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles)。
 
 ### <a name="prospect-recommendations"></a>潜在人选推荐
-Attract 可以通过搜索组织的应聘者数据库智能推荐应聘者，在您激活工作帐户立即开始为该工作寻找资源。 推荐信息中包括在搜索相关潜在人选时确定的技能和教育信息。 如果您在工作的招聘流程中启用**潜在人选**选项卡，将在工作的该选项卡下显示这些推荐信息。 有关详细信息，请参见[潜在人选推荐](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations)。
+Attract 可以通过搜索组织的应聘者数据库智能推荐应聘者，在您激活工作帐户立即开始为该工作寻找资源。 推荐信息中包括在搜索相关潜在人选时确定的技能和教育信息。 如果您在工作的招聘流程中启用**潜在人选**选项卡，将在工作的该选项卡下显示这些推荐信息。 有关详细信息，请参见[潜在人选推荐](https://docs.microsoft.com/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations)。
 
 ### <a name="interviewer-availability-statuses"></a>面试官可用性状态
 面试安排人员很快将可以查看面试官的**外出，其他地点办公**状态，从而有助于安排更适合面试官的时间。

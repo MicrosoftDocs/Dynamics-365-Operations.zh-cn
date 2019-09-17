@@ -17,42 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590474"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739809"
 ---
-# <a name="post-jobs-to-external-career-sites-from-attract"></a>通过 Attract 将工作发布到外部求职站点
+# <a name="post-jobs-to-broadbean"></a>将职位发布至 Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-您可能希望尽可能多的合格应聘者可以看到您的开放职位。 Broadbean 之类招聘站点可以帮助您达成这个目标。 Microsoft Dynamics 365 Talent: Attract 现在允许您将工作发布到 Broadbean，而 Microsoft 将继续提供此领域中的新功能。
+Microsoft Dynamics 365 for Talent: Attract 允许您将工作直接从 Attract 发布到 Broadbean，从而帮助您获得所需的人才。 [创建工作](./creating-jobs-attract.md)后，您只需单击一个按钮即可将您的工作放在 Broadbean 上所有潜在应聘者的面前。
 
-## <a name="post-jobs-to-broadbean"></a>将工作发布到 Broadbean
+将工作发布到 Broadbean 需要相应的 Broadbean 许可证。 Broadbean 提供各种产品和计划。 有关 Broadbean 许可和定价的详细信息，请[联系 Broadbean](https://www.broadbean.com/contact-us/)。
 
-必须先配置 Broadbean 集成，才能将工作发布到 Broadbean。
+如果您是需要有关如何通过 Attract 配置 Broadbean 集成的更多信息的管理员，请参阅[输入外部招聘网站的设置](./attract-admin-job-board-settings.md)。
 
-> [!NOTE]
-> - 若要将工作发布到外部站点，必须安装[综合招聘加载项](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring)。
-> - 要通过 Attract 向 Broadbean 发布工作，必须订阅 Broadbean。
-> - 此功能现在处于预览阶段。 如果要尝试，必须[在 Attract 管理员设置中开启](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature)。
-
-### <a name="configure-broadbean-integration"></a>配置 Broadbean 集成
-
-1. 以管理员身份登录 Attract。
-2. 选择页面右上角的**设置**按钮（齿轮符号），然后选择**管理员中心**。
-3. 在**招聘公告设置**选项卡的**启用 Broadbean 集成**部分中，开启集成。
-4. 联系 Broadbean，然后在**用户名、客户端 ID 和加密令牌**中输入您的信息。
-
-> [!WARNING]
-> 您的 Broadbean 凭证是敏感的机密信息。 因此，请妥善保存和共享。 Attract 中的所有拥有管理员角色的人员都可以查看这些凭证。
-
-> [!NOTE]
-> Microsoft 和 Attract 不会参与这些值的创建和维护。 您负责使其在 Attract 中保持最新并与 Broadbean 合作解决涉及您的配置的所有问题。
-
-### <a name="post-a-job-to-broadbean"></a>将工作发布到 Broadbean
+## <a name="post-jobs-to-broadbean"></a>将职位发布至 Broadbean
 
 开启 Broadbean 之后，招聘人员和管理员可以向其发布工作。 您必须有该工作的申请 URL。
 
@@ -80,7 +62,7 @@ Broadbean 成功完成发布之后，Attract 中工作的**发布**部分将把 
 将工作发布到 Broadbean 会话，可以通过 Attract 查看。
 
 1. 在 Attract 中，打开要在 Broadbean 中查看的工作。
-2. 在**发布**部分中，选择与 Broadbean 对应的省略号按钮 (**...**)，然后选择**查看**。
+2. 在**发布**选项卡上，选择与 Broadbean 对应的省略号按钮 (**...**)，然后选择**查看**。
 
 将在新窗口中显示 Broadbean 工作发布。
 
@@ -107,10 +89,16 @@ Broadbean 成功完成发布之后，Attract 中工作的**发布**部分将把 
 
 Broadbean 删除工作之后，Attract 中的 Broadbean 项将带有**立即发布**按钮。 存在此按钮说明工作已删除，可以重新发布。
 
-### <a name="troubleshoot-the-broadbean-integration"></a>Broadbean 集成故障排除
+### <a name="troubleshoot-job-posting-to-broadbean"></a>Broadbean 工作发布疑难解答
 
 如果将工作发布到 Broadbean 时遇到问题，请尝试以下步骤。
 
 1. 验证在 Attract 中输入的 Broadbean 配置是否有效且正确。
 2. 如果这些凭证有效且正确，请联系 [Broadbean 支持](https://www.broadbean.com/resources/support/)。
 3. 如果问题仍然存在，请联系 [Microsoft 支持](./talent-support.md)。
+
+## <a name="see-also"></a>请参阅
+
+[创建工作](./creating-jobs-attract.md)
+
+[输入外部招聘网站的设置](./attract-admin-job-board-settings.md)

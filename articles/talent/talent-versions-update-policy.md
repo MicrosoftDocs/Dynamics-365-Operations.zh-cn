@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ea8b7485b142245a359648a2a85d2a3e2a6d6629
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6c881bf25e7145228ccf7ef73a7ef3637c115a49
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517439"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741767"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Talent 系统要求和更新策略
 
@@ -64,10 +64,10 @@ Microsoft Dynamics 365 for Talent Web 应用程序可在指定操作系统上运
 > [!NOTE]
 > 由于用户界面已本地化为其他语言，所以所有用户数据使用输入语言存储。 可以使用其他语言创建电子邮件和模板，但是目前日程安排信息之类数据仅提供英文版。
 
-如果您是开发人员，并且有效期创建国家或地区特定的自定义项，或者有兴趣为 Microsoft 目前尚未支持的国家或地区创建解决方案，请参阅[全球化](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region)。
+如果您是开发人员，并且有效期创建国家或地区特定的自定义项，或者有兴趣为 Microsoft 目前尚未支持的国家或地区创建解决方案，请参阅[全球化](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region)。
 
 ## <a name="update-policy"></a>更新策略
 
 Microsoft Dynamics 365 for Talent 以云产品的形式提供。 Microsoft 将持续提供并自动应用对 Dynamics 365 for Talent 的更新。
 
-更新定期针对所有环境发布。 对 Dynamics 365 for Talent 的支持根据 [Microsoft 支持生命周期策略](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft 支持生命周期")提供，该策略为产品支持可用性提供一致且可预测的指南。
+更新定期针对所有环境发布。 对 Dynamics 365 for Talent 的支持根据 [Microsoft 支持生命周期策略](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft 支持生命周期")提供，该策略为产品支持可用性提供一致且可预测的指南。

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 59234ef44ad22383ae5daf71d4b663c6183e6c05
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: c26dfed9909b0dbd05fc18c206e5adc947feaef5
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702810"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742900"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>配置 Talent 和 Dayforce 之间的工资单集成
 
@@ -52,8 +52,8 @@ Microsoft Dynamics 365 for Talent 与 Ceridian Dayforce 之间的集成依赖于
 
 有关 Azure ML 存储帐户和 Azure 存储连接字符串的详细信息，请参阅以下 Azure ML 主题：
 
-- [关于 Azure 存储帐户](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [配置 Azure 存储连接字符串](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+- [关于 Azure 存储帐户](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [配置 Azure 存储连接字符串](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>启用工资单集成后的技术详细信息
 
@@ -123,10 +123,10 @@ Dayforce 根据福利计划中定义的工资单影响创建以下扣缴。
 
 有关如何定义和管理福利计划的详细信息，请参阅以下主题：
 
-- [交付员工福利计划](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [创建新福利](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [定义福利资格规则和策略](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [登记和删除工作人员的福利](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [交付员工福利计划](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [创建新福利](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [定义福利资格规则和策略](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [登记和删除工作人员的福利](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
 #### <a name="compensation"></a>薪酬 
 
@@ -136,20 +136,20 @@ Dayforce 使用薪酬信息计算员工的时薪或年薪。 需要固定薪酬�
 
 有关薪酬计划的详细信息，请参阅以下主题：
 
-- [创建固定薪酬计划](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [创建可变薪酬计划](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [制订薪水/薪酬结构和计划](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [薪酬流程](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/process-compensation)
-- [定义薪酬流程并计算结果](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [在固定薪酬计划中登记员工](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [在可变薪酬计划中登记员工](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [创建固定薪酬计划](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [创建可变薪酬计划](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [制订薪水/薪酬结构和计划](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [薪酬流程](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+- [定义薪酬流程并计算结果](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [在固定薪酬计划中登记员工](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [在可变薪酬计划中登记员工](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>工作 
 
 作业是执行作业的人员需要承担的任务和责任的集合。 有关详细信息，请参阅以下主题：
 
-- [设置作业组件](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-job)
-- [定义新工作](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [设置作业组件](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
+- [定义新工作](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>职位
 
@@ -173,8 +173,8 @@ Dayforce 使用薪酬信息计算员工的时薪或年薪。 需要固定薪酬�
 
 有关详细信息，请参阅以下主题：
 
-- [使用部门、工作和职位组织您的劳动力](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [设置职位](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [使用部门、工作和职位组织您的劳动力](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [设置职位](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>部门
 
@@ -182,8 +182,8 @@ Dayforce 使用薪酬信息计算员工的时薪或年薪。 需要固定薪酬�
 
 有关详细信息，请参阅以下主题：
 
-- [创建一个部门并将其与部门层次结构关联](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [定义新部门](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [创建一个部门并将其与部门层次结构关联](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [定义新部门](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>付薪周期和付薪期间
 

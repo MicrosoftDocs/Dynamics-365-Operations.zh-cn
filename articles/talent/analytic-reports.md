@@ -1,6 +1,6 @@
 ---
-title: 使用分析报表来获取招聘流程见解
-description: 本主题介绍 Attract 中的分析报表
+title: 使用 Microsoft Dynamics 365 for Talent - Attract 中的分析报表
+description: 本主题介绍了 Microsoft Dynamics 365 for Talent - Attract 中招聘流程见解的分析报表
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 33ed6072a9ad99144fb96ad19389a57461324f71
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516552"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742878"
 ---
-# <a name="use-analytic-reports-for-hiring-process-insights"></a>使用分析报表来获取招聘流程见解
+# <a name="use-analytic-reports"></a>使用分析报告
 
 Attract 中的分析报表提供现成的 (OOTB) 解决方案以获取招聘流程见解。 可用功能包括：
 
@@ -81,8 +81,8 @@ Attract 报表可供管理员、全部阅读、招聘人员和招聘经理[角�
 
 ## <a name="cross-filter"></a>交叉筛选
 
-Power BI 其中一项重要功能是报表页面中的所有视觉对象的互连方式。 如果选择其中一个视觉对象上的数据点，页面中包含该数据的其他所有视觉对象将根据所选内容变化。 有关详细信息及示例，请参阅 [Power BI 报告中视觉对象如何相互交叉筛选](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-interactions)。
+Power BI 其中一项重要功能是报表页面中的所有视觉对象的互连方式。 如果选择其中一个视觉对象上的数据点，页面中包含该数据的其他所有视觉对象将根据所选内容变化。 有关详细信息及示例，请参阅 [Power BI 报告中视觉对象如何相互交叉筛选](https://docs.microsoft.com/power-bi/consumer/end-user-interactions)。
 
 ## <a name="export-to-excel"></a>导出至 Excel
 
-若要使用 Excel 查看报表数据，可单击视觉对象上的选项菜单（三个点），然后选择**导出基础数据**。 导出的数据将按照 Attract 中的用户权限进行筛选。 有关详细信息，请参阅[从可视化项导出数据](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-export-data)。
+若要使用 Excel 查看报表数据，可单击视觉对象上的选项菜单（三个点），然后选择**导出基础数据**。 导出的数据将按照 Attract 中的用户权限进行筛选。 有关详细信息，请参阅[从可视化项导出数据](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data)。
