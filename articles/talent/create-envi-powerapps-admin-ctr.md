@@ -17,32 +17,32 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 97d44dc034cb8097fc0ecf9ac4e485425f097102
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 96119ca869cbbb15ed8d8d5d0fe3b0f94b5f36cc
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517387"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742834"
 ---
-# <a name="cant-create-an-environment-in-the-powerapps-admin-center"></a><span data-ttu-id="a2120-103">无法在 PowerApps 管理员中心内创建环境</span><span class="sxs-lookup"><span data-stu-id="a2120-103">Can't create an environment in the PowerApps Admin center</span></span>
+# <a name="cant-create-an-environment-in-the-powerapps-admin-center"></a><span data-ttu-id="409a1-103">无法在 PowerApps 管理员中心内创建环境</span><span class="sxs-lookup"><span data-stu-id="409a1-103">Can't create an environment in the PowerApps Admin center</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="a2120-104">**发货**</span><span class="sxs-lookup"><span data-stu-id="a2120-104">**Issue**</span></span>
+<span data-ttu-id="409a1-104">**发货**</span><span class="sxs-lookup"><span data-stu-id="409a1-104">**Issue**</span></span>
 
-- <span data-ttu-id="a2120-105">租户/环境管理员无法在 Microsoft PowerApps 管理中心创建环境。</span><span class="sxs-lookup"><span data-stu-id="a2120-105">The tenant/environment admin can't create an environment in the Microsoft PowerApps Admin center.</span></span>
-- <span data-ttu-id="a2120-106">授予用户执行环境创建步骤权限的许可证未直接分配给执行该步骤的用户。</span><span class="sxs-lookup"><span data-stu-id="a2120-106">A licence that gives users the right to perform the environment creation step hasn't been assigned directly to the user who is performing that step.</span></span>
+- <span data-ttu-id="409a1-105">租户/环境管理员无法在 Microsoft PowerApps 管理中心创建环境。</span><span class="sxs-lookup"><span data-stu-id="409a1-105">The tenant/environment admin can't create an environment in the Microsoft PowerApps Admin center.</span></span>
+- <span data-ttu-id="409a1-106">授予用户执行环境创建步骤权限的许可证未直接分配给执行该步骤的用户。</span><span class="sxs-lookup"><span data-stu-id="409a1-106">A licence that gives users the right to perform the environment creation step hasn't been assigned directly to the user who is performing that step.</span></span>
 
-<span data-ttu-id="a2120-107">**解决方案**</span><span class="sxs-lookup"><span data-stu-id="a2120-107">**Solution**</span></span>
+<span data-ttu-id="409a1-107">**解决方案**</span><span class="sxs-lookup"><span data-stu-id="409a1-107">**Solution**</span></span>
 
-<span data-ttu-id="a2120-108">确保租户管理员已将有效的 PowerApps P2 许可证直接分配给将执行环境创建步骤的用户。</span><span class="sxs-lookup"><span data-stu-id="a2120-108">Make sure that the tenant admin has assigned a valid PowerApps P2 license directly to the user who will perform the environment creation step.</span></span> <span data-ttu-id="a2120-109">这里是提供该权限的 Microsoft Dynamics 服务计划。</span><span class="sxs-lookup"><span data-stu-id="a2120-109">Here are the Microsoft Dynamics service plans that provide that right.</span></span>
+<span data-ttu-id="409a1-108">确保租户管理员已将有效的 PowerApps P2 许可证直接分配给将执行环境创建步骤的用户。</span><span class="sxs-lookup"><span data-stu-id="409a1-108">Make sure that the tenant admin has assigned a valid PowerApps P2 license directly to the user who will perform the environment creation step.</span></span> <span data-ttu-id="409a1-109">这里是提供该权限的 Microsoft Dynamics 服务计划。</span><span class="sxs-lookup"><span data-stu-id="409a1-109">Here are the Microsoft Dynamics service plans that provide that right.</span></span>
 
-| <span data-ttu-id="a2120-110">整个产品库存单位 (SKU)</span><span class="sxs-lookup"><span data-stu-id="a2120-110">Overall product stock keeping unit (SKU)</span></span>       | <span data-ttu-id="a2120-111">PowerApps P2 服务计划</span><span class="sxs-lookup"><span data-stu-id="a2120-111">PowerApps P2 service plan</span></span>  |
+| <span data-ttu-id="409a1-110">整个产品库存单位 (SKU)</span><span class="sxs-lookup"><span data-stu-id="409a1-110">Overall product stock keeping unit (SKU)</span></span>       | <span data-ttu-id="409a1-111">PowerApps P2 服务计划</span><span class="sxs-lookup"><span data-stu-id="409a1-111">PowerApps P2 service plan</span></span>  |
 |------------------------------------------------|----------------------------|
-| <span data-ttu-id="a2120-112">Microsoft Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="a2120-112">Microsoft Dynamics 365 for Operations</span></span>          | <span data-ttu-id="a2120-113">PowerApps for Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="a2120-113">PowerApps for Dynamics 365</span></span> |
-| <span data-ttu-id="a2120-114">Microsoft Dynamics 365 计划 Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="a2120-114">Microsoft Dynamics 365 Plan Enterprise Edition</span></span> | <span data-ttu-id="a2120-115">PowerApps for Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="a2120-115">PowerApps for Dynamics 365</span></span> |
+| <span data-ttu-id="409a1-112">Microsoft Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="409a1-112">Microsoft Dynamics 365 for Operations</span></span>          | <span data-ttu-id="409a1-113">PowerApps for Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="409a1-113">PowerApps for Dynamics 365</span></span> |
+| <span data-ttu-id="409a1-114">Microsoft Dynamics 365 计划 Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="409a1-114">Microsoft Dynamics 365 Plan Enterprise Edition</span></span> | <span data-ttu-id="409a1-115">PowerApps for Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="409a1-115">PowerApps for Dynamics 365</span></span> |
 
-<span data-ttu-id="a2120-116">请注意，各个 Microsoft Office SKU 也提供权限，以及独立的 PowerApps 计划 2 SKU。</span><span class="sxs-lookup"><span data-stu-id="a2120-116">Note that various Microsoft Office SKUs also provide the right, together with standalone PowerApps Plan 2 SKUs.</span></span> <span data-ttu-id="a2120-117">重点是这些 SKU 中的一个必须存在。</span><span class="sxs-lookup"><span data-stu-id="a2120-117">The important point is that one of these SKUs must be present.</span></span>
+<span data-ttu-id="409a1-116">请注意，各个 Microsoft Office SKU 也提供权限，以及独立的 PowerApps 计划 2 SKU。</span><span class="sxs-lookup"><span data-stu-id="409a1-116">Note that various Microsoft Office SKUs also provide the right, together with standalone PowerApps Plan 2 SKUs.</span></span> <span data-ttu-id="409a1-117">重点是这些 SKU 中的一个必须存在。</span><span class="sxs-lookup"><span data-stu-id="409a1-117">The important point is that one of these SKUs must be present.</span></span>
 
-1. <span data-ttu-id="a2120-118">转到 [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments)。</span><span class="sxs-lookup"><span data-stu-id="a2120-118">Go to [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).</span></span>
-2. <span data-ttu-id="a2120-119">按照[配置 Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent) 中的说明创建环境。</span><span class="sxs-lookup"><span data-stu-id="a2120-119">Create the environments by following the instructions in [Provision Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).</span></span>
+1. <span data-ttu-id="409a1-118">转到 [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments)。</span><span class="sxs-lookup"><span data-stu-id="409a1-118">Go to [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).</span></span>
+2. <span data-ttu-id="409a1-119">按照[配置 Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent) 中的说明创建环境。</span><span class="sxs-lookup"><span data-stu-id="409a1-119">Create the environments by following the instructions in [Provision Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).</span></span>
