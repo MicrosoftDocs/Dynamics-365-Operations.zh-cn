@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e3b20e1d0a873c32b8f6f5e28f786febf62db355
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517476"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742811"
 ---
 # <a name="embed-powerapps-apps-in-core-hr"></a>Core HR 中的嵌入 PowerApps 应用
 
@@ -40,7 +40,7 @@ ms.locfileid: "1517476"
 
 PowerApps 应用的嵌入方式已更改。 PowerApps 应用现在通过个性化模型添加。 您可以将 PowerApps 应用添加到 Microsoft Dynamics 365 for Talent 中的几乎所有页面。
 
-有关如何在 Talent 中嵌入 PowerApps 应用的信息，请参阅[嵌入 PowerApps 应用](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps)。
+有关如何在 Talent 中嵌入 PowerApps 应用的信息，请参阅[嵌入 PowerApps 应用](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps)。
 
 在更改前嵌入了应用的任何 PowerApps 客户应该已经升级到了新模型。
 

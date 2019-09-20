@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 38641d6a84340112ce15335533795ed7faf91123
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ee8e076174acba8e706991f3086d6299a10945ec
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517453"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742485"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-14-2019"></a>Dynamics 365 for Talent（2019 年 3 月 14 日）中的新增功能或更改
 
@@ -47,7 +47,7 @@ ms.locfileid: "1517453"
 通过此更改，您现在可以选择多个员工并为这些员工批量分配一个或多个核对清单。 
 
 ### <a name="platform-update-24"></a>平台 update 24
-有关平台更新 24 的更多详细信息，请参阅 [Finance and Operations 平台更新 24（2019 年 3 月）中的新增功能或更改](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)。 平台 24 中的重大更改包括： 
+有关平台更新 24 的更多详细信息，请参阅 [Finance and Operations 平台更新 24（2019 年 3 月）中的新增功能或更改](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)。 平台 24 中的重大更改包括： 
 
 - 在 Talent 中启用警报。
 - 更新后的导航栏现在与 Office 标题对齐。

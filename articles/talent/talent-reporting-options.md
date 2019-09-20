@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7e00a6e4fc01f72e1ef2347e08754997135215ed
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8e7348a515b08523c15aa8f74d5616a3daf645b7
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517446"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741790"
 ---
 # <a name="reporting-options-in-talent"></a>Talent 中的报告选项
 
@@ -42,7 +42,7 @@ ms.locfileid: "1517446"
 
 **解决方案**
 
-- 流向Common Data Service 的 Core HR 数据可以通过 Power BI Desktop 的 PowerApps Common Data Service 连接器报告。 请注意，Common Data Service 包含 Core HR 数据的子集。 有关 Power BI 和仪表板的详细信息，请参阅[使用 PowerApps Common Data Service 创建 Power BI 报表和仪表板](https://powerapps.microsoft.com/en-us/blog/cdsconnectortopowerbi)。
+- 流向Common Data Service 的 Core HR 数据可以通过 Power BI Desktop 的 PowerApps Common Data Service 连接器报告。 请注意，Common Data Service 包含 Core HR 数据的子集。 有关 Power BI 和仪表板的详细信息，请参阅[使用 PowerApps Common Data Service 创建 Power BI 报表和仪表板](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi)。
 - 电子申报 (ER) 对 Talent 中的某些报表可用。 客户驱动的自定义可以通过 ER 配置选项完成。
 - 数据可以使用 Talent 通过Microsoft Office 集成提供的不同数据实体导出到 Microsoft Excel 或 Microsoft Word。
 

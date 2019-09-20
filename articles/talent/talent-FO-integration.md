@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: cb9e01316f4b154a3e9a73042eaf0492f016c46c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617335"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742694"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Dynamics 365 for Talent 与 Dynamics 365 for Finance and Operations 集成的常见问题
 
@@ -38,7 +38,7 @@ ms.locfileid: "1617335"
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>我可以不使用模板创建新映射吗？
 
-模板是起点。 您可以创建自己的模板，但在创建集成项目时始终需要模板。 有关数据集成器 (DI)、模板和项目的详细信息，请参阅[将数据集成到 Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)。
+模板是起点。 您可以创建自己的模板，但在创建集成项目时始终需要模板。 有关数据集成器 (DI)、模板和项目的详细信息，请参阅[将数据集成到 Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>我可以映射在 Talent 和 Finance and Operations 之间转移的财务维度吗？
 
@@ -133,7 +133,7 @@ Financial dimensions 当前不在 Common Data Service 中，因此不是默认�
 
 如果数据未按预期出现在 Common Data Service 中，请验证集成中是否支持该实体。 若要在 Common Data Service 中包括附加数据，需要 Microsoft 一端进行更改。
 
-如果实体受支持，且数据在 Common Data Service 中可用，请验证映射在数据集成器中是正确的。 如果集成器映射看起来正常，则验证数据管理作业是否成功运行。 错误可能在执行批处理作业时发生。 有关数据管理的详细信息，请参阅[数据管理](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)。
+如果实体受支持，且数据在 Common Data Service 中可用，请验证映射在数据集成器中是正确的。 如果集成器映射看起来正常，则验证数据管理作业是否成功运行。 错误可能在执行批处理作业时发生。 有关数据管理的详细信息，请参阅[数据管理](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)。
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>我在将员工地址导入 Finance and Operations 之后，这些地址不正确。 我应该怎么做？
 
@@ -145,7 +145,7 @@ Financial dimensions 当前不在 Common Data Service 中，因此不是默认�
 
 请确保在创建连接时，您选择的是 Dynamics 365 for Finance and Operations（目前是预览版）和 Common Data Service。
 
-## <a name="when-syncing-employments-i-get-the-errors-companyinfofk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>当同步雇佣时，发生错误“CompanyInfo_FK 不存在”或“未在相关表‘雇佣’中找到字段‘雇佣结束日期’中的值‘12/31/2154 11:59:59 pm’”。我应该怎么做？
+## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>当同步雇佣时，发生错误“CompanyInfo_FK 不存在”或“未在相关表‘雇佣’中找到字段‘雇佣结束日期’中的值‘12/31/2154 11:59:59 pm’”。我应该怎么做？
 
 确保您在映射到正确的法人。 法人同步不是默认模板的一部分，因此，Talent 和 Common Data Service 中存在的每个法人也会出现在 Finance and Operations 中。
 此外，还请确保您为关联的连接集选择了正确的法人。
@@ -160,12 +160,12 @@ Financial dimensions 当前不在 Common Data Service 中，因此不是默认�
 
 - 数据集成器 (DI)： 
 
-  - [将数据集成到 Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+  - [将数据集成到 Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
-  - [数据集成器错误管理和故障排除](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator-error-management)
+  - [数据集成器错误管理和故障排除](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [响应 PowerApps、Microsoft Flow 和 Common Data Service 中系统生成日志的 DSR 请求](https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [响应 PowerApps、Microsoft Flow 和 Common Data Service 中系统生成日志的 DSR 请求](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - 数据管理：
 
-  - [数据管理](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [数据管理](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)

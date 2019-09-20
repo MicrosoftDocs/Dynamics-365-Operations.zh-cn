@@ -1,9 +1,9 @@
 ---
-title: 创造一个有吸引力的入职体验
-description: 入职工作做得好，可以帮助新员工在新组织中获得一种归属感。
+title: Onboard 入门
+description: 本主题将帮助您开始使用 Microsoft Dynamics 365 for Talent - Onboard。 Onboard 帮助您的新雇员获得良好的开端，为他们提供指导，使他们顺利完成入职流程。
 author: andreabichsel
 manager: ''
-ms.date: 11/14/2017
+ms.date: 06/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -16,77 +16,36 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 805f74a0cf618254b7d5fb9a1195dc75832dc0ca
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6526f320be7d18af92406149633b3e15d0be2291
+ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517393"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "1731205"
 ---
-# <a name="create-an-engaging-onboarding-experience"></a>创造一个有吸引力的入职体验
+# <a name="get-started-with-onboard"></a>Onboard 入门
 
 [!include [banner](includes/banner.md)]
 
-有效完成入职工作将帮助新员工提高效率，同时获得一种融入新角色的归属感。 与其他途径相比，入职可以帮助新员工更快更准确地了解他们的新角色，让他们抢先建立帮助他们获得成功的关系。 相反，无效的入职体验可能让员工怀疑他们加入贵公司的决定是否正确。 Gartner 在 2014 年开展的一项研究中发现，在 1,005 名入职不到六个月便辞职的回应者中，有近三分之一的人是因为领导给他们的指导方针不明确、他们的培训没有效果或因为他们在新环境中没有建立有效的关系。
+通过使用 Microsoft Dynamics 365 for Talent: Onboard，您可以帮助新员工更有效地表现自我并获得对新角色的归属感。 有效的入职流程有助于新雇员了解他们的新角色。 还可以使他们在建立有价值的关系方面处于领先地位，这有助于确保他们的成功。
 
-## <a name="have-an-onboarding-program-in-place"></a>制定入职计划
-了解如何改进和在哪些地方改进入职流程非常重要。 下面的问题或许可以帮助您系统地分析和改进您的入职流程。
+Onboard 可让您快速创建入职指南来欢迎您的新雇员，并让他们对加入您的组织感到兴奋。
 
-- 您的员工流失率是多少？
-- 新员工是否成功完成他们所需的所有入职任务？
-- 新员工需要多长时间才能适应？
-- 新员工对其满意度的评价如何？
+[![入职指南](./media/onboard-onboarding-guide.png)](./media/onboard-onboarding-guide.png)
 
-不要等到员工的第一天再开始入职。 应该在新员工有一个开始日期时就开始入职。 这通常称为入职前或“岗前”。 您可以通过这样的机会让新员工对他们选择加入贵公司感到兴奋、培养关系和展现贵公司的文化和价值观。
+要了解如何获取和使用 Onboard 应用，请参阅以下主题：
 
-其中一个重要的入职前活动是让新员工为他们第一天上班做好准备。 这对他们来说可能是一个紧张的时刻。 为他们的第一天创建一份清单和日程安排，减少他们的压力。
+- [获取 Onboard 应用](./onboard-get-app.md)
+- [创建入职指南](./onboard-create-guide.md)
+- [创建入职模板](./onboard-create-template.md)
+- [编辑入职指南和模板](./onboard-edit-guides-templates.md)
+- [与其他参与者共享内容](./onboard-share-template.md)
+- [查看任务和入职员工的状态](./onboard-view-status.md)
+- [在 Onboard 中创建招聘团队](./onboard-create-team.md)
 
-### <a name="what-to-include-in-a-checklist"></a>清单中应包括的内容
+## <a name="see-also"></a>请参阅
 
-- 要携带的物品，如身份证和银行信息。
-- 着装规范（如果公司有）。
-- 指示您办公室的方向。
-- 联系人的姓名，最好是招聘联系人的姓名。
-- 他们应该阅读的所有公司手册或政策。
-
-**奖金**
-
-- 向他们发送一些公司物品，如 T 恤或杯子。
-- 发送团队录制的欢迎他们加入公司的视频消息。
-- 包括来自 CEO 或其他高层的个性化欢迎辞。
-- 让他们度过一个特别的第一天。
-
-不要让新员工在第一天留下一个不好的第一印象，以至于他们怀疑自己加入贵公司的决定是否正确。
-
-## <a name="create-a-good-first-impression"></a>制造一个好的第一印象
-
-为这一天创建一份日程安排，并与您的新员工分享。 不要只注意入职培训。 确保要有趣，向他们介绍员工，带他们四处参观办公室。 让其他员工知道消息。 让他们知道有新员工加入公司。 不要忽略在 IT、薪酬和其他行政管理部门的员工。 确保新员工做好了开始工作的一切准备。 包括一个工作区、一台计算机以及所需的凭证、软件和工具。 注重关系，而不是手续。
-
-关系是让新员工快速适应的关键。 更重要的是，它们有助于制造一种团体感和在公司的归属感。
-
-- 在您的公司寻找一位专家或领袖充当入职联系人。
-- 将新员工与工作相关的团体或利益组连接在一起。 这是寻找教练或指导者的一个好方法。
-- 共享团队成员个人资料（最好是提前），以加快沟通、知识共享和网络连接。
-- 不要忘记与您的员工的个人目标相一致的社交团体或活动。
-
-## <a name="provide-training"></a>提供培训
-
-给新员工带来帮助他们成功所需的自信和工具。 首先要明确规定他们的责任，设定您期望他们达成的成就。 接下来，制定一份培训计划，注重他们满足您的期望所需的技能。 不要只关注合规性培训。
-
-## <a name="set-clear-milestones"></a>设置清晰的里程碑
-
-在您与新员工之间设置清晰的检查点和反馈圈。 尽量制造更多的机会实施干预和纠正方向。 要在出现问题或问题恶化并导致员工流失前解决问题。
-
-在新员工第一周结束之前，安排与新员工进行一次一对一会议。 这是一个讨论期望、工作方式和职业成长的好机会。
-
-为最新加入的团队成员制定 30 天、60 天和 90 天目标。 设置目标后，确保定期根据这些目标检查他们的进度。
-
-## <a name="measure-and-optimize"></a>衡量和优化
-
-当您执行新的入职计划时，请密切注意以下问题。 
-
-- 您是否改善了员工流失率？
-- 新员工的满意度是否在增加？ 
-
-衡量这些详细信息并在每一次招聘时做一些小小的改进。
-
+- [试用或购买 Onboard 应用](https://dynamics.microsoft.com/talent/onboard/)
+- [新增功能](./whats-new.md)
+- [版本说明](https://docs.microsoft.com/business-applications-release-notes/index)
+- [获取支持](./talent-support.md)

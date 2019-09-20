@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620612"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741744"
 ---
 # <a name="intelligent-recommendations"></a>智能建议
 
@@ -32,7 +32,7 @@ ms.locfileid: "1620612"
 机器学习能够帮助招聘人员和招聘经理快速发现最适合职位的应聘者。 它还可以帮助应聘者找到最适合其个人资料和兴趣的职位。 使用这些功能并且提供反馈，推荐将有所改善。
 
 > [!NOTE] 
-> - 智能推荐功能仅通过[综合招聘加载项](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring)提供。
+> - 智能推荐功能仅通过[综合招聘加载项](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring)提供。
 > - 本主题中介绍的功能作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 若要使用此功能，请让管理员使用 Attract 中的**管理中心**启用。 将**应聘者推荐**、**工作推荐**和**潜在人选推荐**设置为**开**。 有关详细信息，请参阅[访问 Talent 中的预览功能](./access-preview-feature.md)。 
 
 

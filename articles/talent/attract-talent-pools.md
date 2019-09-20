@@ -1,6 +1,6 @@
 ---
-title: 使用人才池寻求应聘者
-description: 本主题说明如何在 Attract 中创建和设置人才池。
+title: 使用 Microsoft Dynamics 365 for Talent - Attract 中的人才池寻求应聘者
+description: 本主题说明如何在 Microsoft Dynamics 365 for Talent - Attract 中创建和设置人才池。
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/28/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
-ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
+ms.openlocfilehash: 98b93f69c4f4c8ca6c9a0fc2530578afed4b967c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "1711286"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741859"
 ---
-# <a name="source-candidates-by-using-talent-pools"></a>使用人才池寻求应聘者
+# <a name="source-candidates-with-talent-pools"></a>使用人才池搜寻候选人
 
 [!include[banner](../includes/banner.md)]
 
@@ -79,7 +79,7 @@ ms.locfileid: "1711286"
 ## <a name="search-and-view-candidate-profiles"></a>搜索和查看应聘者个人资料
 
 > [!NOTE] 
-> 此功能现在处于预览阶段。 如果要尝试，必须[在 Attract 管理员设置中开启](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature)。 
+> 此功能现在处于预览阶段。 如果要尝试，必须[在 Attract 管理员设置中开启](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature)。 
 
 可通过人才池查看应聘者的个人资料、LinkedIn 信息、相关文档和申请历史记录。 您可以搜索添加到任何人才池的所有应聘者的整个数据库，包括已关闭的申请和有效申请。
 
@@ -116,7 +116,7 @@ ms.locfileid: "1711286"
 
     若要查看文档，请选择文档列表中的文档名称。 您可以通过使用 Microsoft Office 365 在应用程序中查看 Microsoft Word 文档。 您还可以使用每个文档的**下载**选项将文档下载到您的本地计算机。
 
-- **LinkedIn** 选项卡显示应聘者的 LinkedIn 信息。 若要使用此选项卡，您必须在用户设置中连接您的 LinkedIn 帐户，且您的环境的 LinkedIn Recruiter 连接必须建立。 有关详细信息，请参阅[使用 LinkedIn Recruiter 招聘](./attract-linked-in-recruiter.md)。
+- **LinkedIn** 选项卡显示应聘者的 LinkedIn 信息。 若要使用此选项卡，您必须在用户设置中连接您的 LinkedIn 帐户，且您的环境的 LinkedIn Recruiter 连接必须建立。 有关详细信息，请参阅[使用 LinkedIn Recruiter 招聘](./attract-linkedin-recruiter.md)。
 
 > [!NOTE]
 > 只有应聘者可更新其技能、教育历史记录和工作经验。

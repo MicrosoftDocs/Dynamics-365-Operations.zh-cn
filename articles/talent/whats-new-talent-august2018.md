@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.openlocfilehash: be76f29dc9d38cdf3c2d56120a830acae69937a4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3327939137486038b9002029c7c9e8d65dfa2f64
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517396"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742601"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>Dynamics 365 for Talent Core HR（2018 年 8 月）中的新增功能或更改
 
@@ -81,7 +81,7 @@ ms.locfileid: "1517396"
 
 已在整个 Core HR 中启用了文档模板。 可通过此功能基于你创建的 Word 模板创建信函和报表。
 
-[Office 集成教程](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-tutorial?toc=/dynamics365/unified-operations/talent/toc.json)中提供了有关此功能的更多信息。
+[Office 集成教程](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-tutorial?toc=/dynamics365/unified-operations/talent/toc.json)中提供了有关此功能的更多信息。
 
 
 ## <a name="other-fixes"></a>其他修复

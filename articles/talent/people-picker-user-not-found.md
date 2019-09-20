@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d5a2c61fc21578d1db4c1bf0c3dfaf0c7a93298c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517420"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742741"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>未在人员选择器中找到 Azure Active Directory 用户
 
@@ -36,9 +36,9 @@ ms.locfileid: "1517420"
 
 某些用户类型当前在 Attract 和 Onboard 应用程序中不支持。 验证用户不是 Azure AD 企业到企业 (B2B) 来宾用户。 “用户类型”信息可以在 Azure 门户的 Azure Active Directory 边栏选项卡中找到。
 
-有关 Azure B2B 的详细信息，请参阅 [Azure Active Directory B2B 中的来宾用户访问是什么](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b)。
+有关 Azure B2B 的详细信息，请参阅 [Azure Active Directory B2B 中的来宾用户访问是什么](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b)。
 
-对于非 B2B 用户，存在某些可能在**用户**对象中具有不完整“用户类型”属性的用户。 这可以使用 Azure AD Powershell 模块验证和修复。 有关详细信息，请参阅[Azure AD](https://docs.microsoft.com/en-us/powershell/module/azuread/?view=azureadps-2.0)。
+对于非 B2B 用户，存在某些可能在**用户**对象中具有不完整“用户类型”属性的用户。 这可以使用 Azure AD Powershell 模块验证和修复。 有关详细信息，请参阅[Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0)。
 
 ## <a name="resolution"></a>解决方法
 

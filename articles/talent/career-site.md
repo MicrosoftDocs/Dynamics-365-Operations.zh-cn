@@ -1,6 +1,6 @@
 ---
-title: Attract 中的求职站点功能
-description: 本主题概述 Attract 中面向应聘者的求职站点功能。
+title: 在 Microsoft Dynamics 365 for Talent - Attract 中设置求职站点
+description: 本主题概述了 Microsoft Dynamics 365 for Talent - Attract 中面向应聘者的求职站点功能。
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729695"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739763"
 ---
-# <a name="career-site-functionality-in-attract"></a>Attract 中的求职站点功能
+# <a name="set-up-your-career-site"></a>设置您的求职站点
 
 [!include[banner](../includes/banner.md)]
 
@@ -131,7 +131,7 @@ Azure AD 登录仅用于内部应聘者。 因此，它只对使用其公司 Azu
 1. 以管理员身份登录 Attract。
 2. 选择页面右上角的**设置**按钮（齿轮符号），然后选择**管理员中心**。
 3. 选择 **LinkedIn 集成**选项卡并与 LinkedIn Recruiter 帐户连接。
-4. 在**LinkedIn Recruiter System Connect 集成**部分中，为**通过 LinkedIn 申请**设置选择**启用**。
+4. 在**LinkedIn Recruiter System Connect集成**部分中，为**通过 LinkedIn 申请**设置选择**启用**。
 
 启用此设置之后，应聘者可使用自己的现有 LinkedIn 个人资料数据进行申请。 当应聘者通过选择**通过 LinkedIn 申请**按钮进行申请时，如果他们尚未登录，还将请他们向 LinkedIn 进行身份验证。 通过了身份验证之后，其 LinkedIn 个人资料将替换申请页面中显示的所有现有个人资料数据。 应聘者可以根据需要编辑信息，然后提交申请表。 如果应聘者在不申请工作的情况下离开该页面，Attract 中将不更新其个人资料数据。
 

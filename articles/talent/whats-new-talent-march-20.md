@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d69294b64c841c5486d694b129cf6c0f26fd93fd
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d316aff83bd9f60f054a970e223777db5e214adb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517440"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741612"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-20-2019"></a>Dynamics 365 for Talent（2019 年 3 月 20 日）中的新增功能或更改
 
@@ -46,7 +46,7 @@ ms.locfileid: "1517440"
 已修复了一个问题，这个问题是外部应聘者可以看到工作的招聘人员或招聘经理的姓名。 现在只有内部应聘者可以看到工作的招聘团队成员。 内部应聘者还可以更轻松地查看和申请仅限内部的工作。 当应聘者尝试访问链接以查看或申请仅限内部的工作时，将强制其使用 Azure Active Directory 凭证进行身份验证。 内部应聘者还可以联系招聘团队成员以表明对工作感兴趣或了解该工作的更多信息。 这项功能适用于仅对内部应聘者开放的所有工作。 有关详细信息，请参阅 [Attract 中的求职站点功能](./career-site.md)。
 
 ### <a name="designate-silver-medalists-to-assign-high-value-applicants-for-future-positions"></a>指定银奖获得者以便为将来的职位指定高价值应聘者。
-招聘人员和招聘经理通常会保留非常适合职位，但是由于该职位的人员已满而不能为其提供聘约的申请人的流动轮候名单。 此类申请人称为银奖获得者，他们非常宝贵，因为可以在下次开放类似职位时帮助缩短招聘时间。 Attract 现在允许招聘人员和招聘经理指定申请人列表中的银奖获得者，以便此类申请人提前进入聘约阶段。 银奖获得者指定信息不但会出现在工作的申请人列表中，还会出现在人才池视图，前提是此类申请人是招聘人员或招聘经理的任何人才池的成员。 此外，指定信息还会出现在工作历史记录中，后者是应聘者的人才池个人资料。 您可以通过请管理员使用[管理中心中的功能管理](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature)开启此功能来预览此功能。
+招聘人员和招聘经理通常会保留非常适合职位，但是由于该职位的人员已满而不能为其提供聘约的申请人的流动轮候名单。 此类申请人称为银奖获得者，他们非常宝贵，因为可以在下次开放类似职位时帮助缩短招聘时间。 Attract 现在允许招聘人员和招聘经理指定申请人列表中的银奖获得者，以便此类申请人提前进入聘约阶段。 银奖获得者指定信息不但会出现在工作的申请人列表中，还会出现在人才池视图，前提是此类申请人是招聘人员或招聘经理的任何人才池的成员。 此外，指定信息还会出现在工作历史记录中，后者是应聘者的人才池个人资料。 您可以通过请管理员使用[管理中心中的功能管理](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature)开启此功能来预览此功能。
 
 ### <a name="add-applicants-to-talent-pools"></a>向人才池添加申请人
 现在可以通过在申请人列表中显示新操作更轻松地向人才池添加申请人。 招聘人员或招聘经理可以通过选择**添加到人才池**图标在自己的人才池列表中进行选择，并且直接从工作的申请人列表向人才池添加申请人。
@@ -58,7 +58,7 @@ ms.locfileid: "1517440"
 已经在 LinkedIn 中准备好了经过更新的最新个人资料的应聘者通过单击一次即可使用该个人资料申请工作。
 
 ### <a name="track-how-a-candidate-profile-originated-in-the-system-and-where-your-applicants-discover-the-jobs-they-applied-for"></a>跟踪应聘者的个人资料最初通过什么样的途径出现在系统中，以及申请人是在哪里发现所申请的工作的
-现在可以通过查看申请人的**个人资料**页面上应聘者详细信息下的个人资料来源或人才池个人资料来了解特定应聘者的个人资料最初通过什么样的途径出现在 Attract。 同样，可以通过查看应用程序活动订阅源中**申请活动**内提供的申请人来源来了解任何申请人是如何发现工作的。 人才池个人资料中的工作历史记录内也提供这些信息。 招聘人员或招聘经理手动添加应聘者时，将提示他们指定申请表或申请人个人资料的来源。 当应聘者首次申请时，其个人资料来源将与其申请来源相同。 您可以通过请管理员使用[管理中心中的功能管理](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature)开启此功能来预览此功能。 请注意，现有应聘者和申请人没有任何来源信息。 但是，招聘人员可以手动添加这些信息。
+现在可以通过查看申请人的**个人资料**页面上应聘者详细信息下的个人资料来源或人才池个人资料来了解特定应聘者的个人资料最初通过什么样的途径出现在 Attract。 同样，可以通过查看应用程序活动订阅源中**申请活动**内提供的申请人来源来了解任何申请人是如何发现工作的。 人才池个人资料中的工作历史记录内也提供这些信息。 招聘人员或招聘经理手动添加应聘者时，将提示他们指定申请表或申请人个人资料的来源。 当应聘者首次申请时，其个人资料来源将与其申请来源相同。 您可以通过请管理员使用[管理中心中的功能管理](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature)开启此功能来预览此功能。 请注意，现有应聘者和申请人没有任何来源信息。 但是，招聘人员可以手动添加这些信息。
 
 ## <a name="changes-in-onboard"></a>Changes 中的更改
 

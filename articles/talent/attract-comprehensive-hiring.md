@@ -1,5 +1,5 @@
 ---
-title: 哪个 Attract 版本
+title: 哪个 Microsoft Dynamics 365 for Talent - Attract 版本
 description: 本主题提供有关不同版本的 Microsoft Dynamics 365 for Talent - Attract 中的功能的信息。
 author: andreabichsel
 manager: AnnBe
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: b061233239fcaee768579cde9d1015ebbeaa66cb
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 59ab9f418c4d9039ca08a71de0dba0f96216aabb
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517472"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739695"
 ---
 # <a name="which-version-of-attract"></a>哪个 Attract 版本？
 

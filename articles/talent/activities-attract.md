@@ -1,9 +1,9 @@
 ---
-title: 流程中的活动
-description: 本主题提供有关可用于招聘流程的活动的各个类型的信息。
+title: Microsoft Dynamics 365 for Talent - Attract 中的流程中的活动
+description: 本主题提供有关可在 Microsoft Dynamics 365 for Talent - Attract 中的招聘流程中使用的各类活动的信息.
 author: hasrivas
 manager: AnnBe
-ms.date: 04/10/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c975b95e4195c795ec4c816b1f3a50461715feea
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517464"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739699"
 ---
-# <a name="activities-in-the-hiring-processes"></a>招聘流程中的活动
+# <a name="activities-in-hiring-processes"></a>招聘流程中的活动
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,6 +37,9 @@ ms.locfileid: "1517464"
 ## <a name="prospect-activity"></a>应聘者活动
 
 应聘者活动控制应聘者是否可以添加到工作中。 默认情况下，应聘者可以添加到工作中。 若要关闭应聘者活动，请将**启用应聘者**选项设置为**关**。 在应聘者活动打开时，招聘经理可以添加和查看应聘者，**应聘者**选项卡显示在工作上。
+
+> [!NOTE]
+> 要允许从 LinkedIn 将应聘者添加到工作，您必须将**启用应聘者**选项设置为**开**。
 
 ## <a name="application-activity"></a>申请活动
 

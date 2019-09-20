@@ -1,6 +1,6 @@
 ---
-title: Attract 中的管理员设置
-description: 本主题说明如何为 Attract 中的组织和用户启用功能。
+title: 在 Microsoft Dynamics 365 for Talent - Attract 中配置公司信息
+description: 本主题说明如何为 Microsoft Dynamics 365 for Talent - Attract 配置公司信息和品牌。
 author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0de215103306ef7115ba390b1b4855179979c77b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c5b051497777a01ab304736f1d454391b5d98e63
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517467"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739556"
 ---
-# <a name="admin-settings-in-attract"></a>Attract 中的管理员设置
+# <a name="configure-company-information"></a>配置公司信息
 [!include[banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Talent: Attract 中的管理员中心包含配置设置、集成选项和 Attract 应用程序的设置选项。
@@ -36,7 +36,7 @@ Microsoft Dynamics 365 for Talent: Attract 中的管理员中心包含配置设�
 
 ## <a name="linkedin-integration"></a>LinkedIn 集成
 
-设置与 LinkedIn Recruiter System Connect (RSC) 的集成。 在使用您的 LinkedIn 凭据连接到 LinkedIn 后，您可以同步应聘者的 LinkedIn 个人资料、申请、面试反馈和招聘团队备注。 需要完全的 LinkedIn 招聘人员许可证。 有关 LinkedIn Recruiter 的详细信息，请参阅 [Recruiter System Connect (RSC) – 常见问题](https://www.linkedin.com/help/recruiter/answer/90483)。
+设置与 LinkedIn Recruiter System Connect(RSC) 的集成。 在使用您的 LinkedIn 凭据连接到 LinkedIn 后，您可以同步应聘者的 LinkedIn 个人资料、申请、面试反馈和招聘团队备注。 需要完全的 LinkedIn 招聘人员许可证。 有关 LinkedIn Recruiter 的详细信息，请参阅 [Recruiter System Connect (RSC) – 常见问题](https://www.linkedin.com/help/recruiter/answer/90483)。
 
 ## <a name="user-permissions"></a>用户权限
 

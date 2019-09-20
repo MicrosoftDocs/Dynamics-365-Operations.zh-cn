@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9c0f9d3304b1b15aa84fd1a296267d606bf9c59d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3f804b5f79b813cf504c3deb4a95e678c6fcbf87
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517424"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739832"
 ---
-# <a name="security-and-role-management-in-attract"></a>Attract 中的安全和角色管理
+# <a name="set-user-permissions"></a>设置用户权限
 
 [!include[banner](../includes/banner.md)]
 
