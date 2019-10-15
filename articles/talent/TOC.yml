@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: index.md
+  href: index.yml
   items:
     - name: 入门
       items:
@@ -8,6 +8,14 @@
         - name: Talent 新增功能或更改
           href: whats-new.md
           items:
+            - name: 2019 年 10 月 1 日
+              href: whats-new-talent-october-1-2019.md
+            - name: 2019 年 9 月 17 日
+              href: whats-new-talent-september-17-2019.md
+            - name: 2019 年 9 月 10 日
+              href: whats-new-talent-september-12-2019.md
+            - name: 2019 年 8 月 27 日
+              href: whats-new-talent-august-28-2019.md
             - name: 2019 年 8 月 22 日
               href: whats-new-talent-august-21-2019.md
             - name: 2019 年 8 月 13 日
@@ -24,16 +32,16 @@
               href: whats-new-talent-july-9-2019.md
             - name: 2019 年 7 月 2 日
               href: whats-new-talent-july-2-2019.md
-            - name: 2019 年 6 月 25 日
-              href: whats-new-talent-june-25-2019.md
-            - name: 2019 年 6 月 18 日
-              href: whats-new-talent-june-18-2019.md
-            - name: 2019 年 6 月 11 日
-              href: whats-new-talent-june-11-2019.md
-            - name: 2019 年 6 月 4 日
-              href: whats-new-talent-june-4-2019.md
             - name: 2019 年新增功能存档
               items:
+                - name: 2019 年 6 月 25 日
+                  href: whats-new-talent-june-25-2019.md
+                - name: 2019 年 6 月 18 日
+                  href: whats-new-talent-june-18-2019.md
+                - name: 2019 年 6 月 11 日
+                  href: whats-new-talent-june-11-2019.md
+                - name: 2019 年 6 月 4 日
+                  href: whats-new-talent-june-4-2019.md
                 - name: 2019 年 5 月 28 日
                   href: whats-new-talent-may-28-2019.md
                 - name: 2019 年 5 月 21 日
@@ -108,7 +116,7 @@
           href: talent-versions-update-policy.md
         - name: 配置 Talent
           href: provisioning-talent.md
-        - name: 删除 Talent 环境
+        - name: 移除 Talent 环境
           href: remove-talent-environment.md
         - name: Onboard 应用配置
           href: modular-app-tech-faq.md
@@ -427,6 +435,8 @@
           href: corehr-custom-fields.md
     - name: Talent 疑难解答
       items:
+        - name: 使用自动清理任务优化性能
+          href: talent-batch-history-cleanup.md
         - name: 将职位发布到 LinkedIn 疑难解答
           href: attract-troubleshoot-linkedin.md
         - name: 未更新分析报表

@@ -1,2 +1,2 @@
 > [!NOTE]
-> <span data-ttu-id="dcd1e-101">此主题适用于 Dynamics 365 for Finance and Operations 和 Dynamics 365 for Retail。</span><span class="sxs-lookup"><span data-stu-id="dcd1e-101">This topic applies to both Dynamics 365 for Finance and Operations and to Dynamics 365 for Retail.</span></span> 
+> <span data-ttu-id="2f6cb-101">本主题适用于 Finance、Supply Chain Management 和 Retail。</span><span class="sxs-lookup"><span data-stu-id="2f6cb-101">This topic applies to Finance, Supply Chain Management, and Retail.</span></span> 
