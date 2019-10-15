@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> 此主题适用于 Dynamics 365 for Retail 和 Dynamics 365 for Finance and Operations。
+> 本主题适用于 Dynamics 365 Retail 和 Dynamics 365 Commerce（预览版）。

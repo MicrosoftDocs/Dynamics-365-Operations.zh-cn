@@ -1,2 +1,2 @@
 > [!NOTE]
-> 此主题适用于 Dynamics 365 for Finance and Operations 和 Dynamics 365 for Retail。 
+> 本主题适用于 Finance、Supply Chain Management 和 Retail。 

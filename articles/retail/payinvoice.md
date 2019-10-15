@@ -1,6 +1,6 @@
 ---
 title: 设置付款发票方案
-description: 本主题将介绍如何配置 Dynamics 365 for Retail 以支持与发票付款相关的各种方案。
+description: 本主题将介绍如何配置 Dynamics 365 Retail 以支持与发票付款相关的各种方案。
 author: josaw1
 manager: AnnBe
 ms.date: 11/14/2018
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb9101843396e489e4d7b63879e9df35e52fe64
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564962"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018005"
 ---
 # <a name="set-up-pay-invoice-scenarios"></a>设置付款发票方案
 
 [!include [banner](includes/banner.md)]
 
-Dynamics 365 for Retail 中的“付款发票”功能已扩展为支持：
+Dynamics 365 Retail 中的“付款发票”功能已扩展为支持：
 
 - 单一 POS 交易中多个销售订单发票的结算。
 - 各种客户发票类型的支付，包括普通发票、基于项目的发票和贷方通知单。

@@ -1,6 +1,6 @@
 ---
 title: 分配的订单管理 (DOM) 的成本配置
-description: 本主题将介绍 Microsoft Dynamics 365 for Retail 中分配的订单管理 (DOM) 功能的成本配置。
+description: 本主题将介绍 Dynamics 365 Retail 中分配的订单管理 (DOM) 功能的成本配置。
 author: josaw1
 manager: AnnBe
 ms.date: 12/05/2018
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-12-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80e7a033467c3d94d55f06daa05f99bd27e19a29
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: b5e3e1997f3d3b61b7b3c7486f5531e386293537
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606771"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019431"
 ---
 # <a name="cost-configuration-for-distributed-order-management-dom"></a>分配的订单管理 (DOM) 的成本配置
 
@@ -31,7 +31,7 @@ ms.locfileid: "1606771"
 
 组织需要考虑多个成本构成以确定履行订单的最佳位置。 其中一些成本构成是装运成本、处理成本和包装成本。 通过计算这些成本的组合来确定履行位置。
 
-Microsoft Dynamics 365 for Retail 中分布的订单管理 (DOM) 的第一次迭代在优化履行位置的订单分配时，只考虑距离因素。 虽然距离与成本相关，但不同于成本。 例如，对于相同距离，连夜装运方式的成本要高于三日装运或七日装运。
+Dynamics 365 Retail 中分布的订单管理 (DOM) 的第一次迭代在优化履行位置的订单分配时，只考虑距离因素。 虽然距离与成本相关，但不同于成本。 例如，对于相同距离，连夜装运方式的成本要高于三日装运或七日装运。
 
 成本配置功能让零售商可以定义和配置其他需要计算并考虑在内的成本构成，用于确定履行订单行的最佳位置。
 

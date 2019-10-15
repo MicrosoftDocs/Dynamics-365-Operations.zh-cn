@@ -1,9 +1,9 @@
 ---
-title: 供应链管理主页
-description: 本页提供了针对 Microsoft Dynamics 365 for Finance and Operations 中的供应链管理功能的一系列帮助主题和其他资源。
-author: ShylaThompson
+title: Supply Chain Management 的帮助资源
+description: 本页提供了针对 Supply Chain Management 功能的一系列帮助主题和其他资源。
+author: josaw1
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 10/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557584"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278316"
 ---
-# <a name="supply-chain-management-home-page"></a>供应链管理主页
+# <a name="help-resources-for-supply-chain-management"></a>Supply Chain Management 的帮助资源
 
 [!include [banner](includes/banner.md)]
 
-本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations 中的供应链管理功能的一系列帮助主题和其他资源。 
+本主题提供了 Dynamics 365 Supply Chain Management 中的一系列帮助主题和其他资源。 
 
 ## <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 转到 <a href="https://roadmap.dynamics.com/">Dynamics 365 路线图</a>以了解已发布和正在开发的新功能。 
@@ -38,6 +38,7 @@ ms.locfileid: "1557584"
 
 选择一个功能区域以了解有关它的更多信息。
 
+- [资产管理](asset-management/index.md)
 - [成本核算](../financials/cost-accounting/cost-accounting-home-page.md)
 - [成本管理](cost-management/cost-management-home-page.md)  
 - [库存管理](inventory/inventory-home-page.md)
@@ -49,6 +50,10 @@ ms.locfileid: "1557584"
 - [服务管理](service-management/service-management-home-page.md)
 - [运输管理](transportation/transportation-management-overview.md)
 - [仓库管理](warehousing/warehouse-configuration.md)
+
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
+
+有关 Dynamics 365 Finance 的信息，请转到 [Dynamics 365 Finance 帮助资源](../finance/index.md)页面。
 
 ## <a name="videos"></a>视频
 
@@ -113,6 +118,6 @@ ms.locfileid: "1557584"
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">通过 Microsoft Dynamics 365 for Finance and Operations 提高仓库中的移动性</a>
 
 ## <a name="elearning-courses"></a>网络培训课程
-有关 Microsoft Dynamics 365 for Finance and Operations 培训的信息，请参阅 <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics 学习门户</a>。 （需要 CustomerSource 帐户） 
+有关 Dynamics 365 培训的信息，请参阅 <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics 学习门户</a>。 （需要 CustomerSource 帐户） 
 
 
