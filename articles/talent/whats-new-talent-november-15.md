@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent Core HR（2018 年 11 月 15 日）中的新增功能或更改
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新增功能和更改的功能。
+title: Dynamics 365 Talent - Core HR（2018 年 11 月 15 日）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 Talent - Core HR 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/15/2018
@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b90d4230fe1e666aba4075670f6df206e8df7ce9
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ab3758506679db5032e3dffc1664fe1ac7f622c8
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517443"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009662"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-november-15-2018"></a><span data-ttu-id="3041f-103">Dynamics 365 for Talent Core HR（2018 年 11 月 15 日）中的新增功能或更改</span><span class="sxs-lookup"><span data-stu-id="3041f-103">What's new or changed in Dynamics 365 for Talent Core HR (November 15, 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-november-15-2018"></a><span data-ttu-id="6fd49-103">Dynamics 365 Talent: Core HR（2018 年 11 月 15 日）中的新增功能或更改</span><span class="sxs-lookup"><span data-stu-id="6fd49-103">What's new or changed in Dynamics 365 Talent: Core HR (November 15, 2018)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="3041f-104">**内部版本 8.1.2045**</span><span class="sxs-lookup"><span data-stu-id="3041f-104">**Build 8.1.2045**</span></span>
+<span data-ttu-id="6fd49-104">**内部版本 8.1.2045**</span><span class="sxs-lookup"><span data-stu-id="6fd49-104">**Build 8.1.2045**</span></span>
 
-<span data-ttu-id="3041f-105">此主题介绍了 Core HR 中的新增功能和更改的功能。</span><span class="sxs-lookup"><span data-stu-id="3041f-105">This topic describes features that are either new or changed in Core HR.</span></span>
+<span data-ttu-id="6fd49-105">此主题介绍了 Core HR 中的新增功能和更改的功能。</span><span class="sxs-lookup"><span data-stu-id="6fd49-105">This topic describes features that are either new or changed in Core HR.</span></span>
 
-## <a name="other-changesfixes"></a><span data-ttu-id="3041f-106">其他更改/修复</span><span class="sxs-lookup"><span data-stu-id="3041f-106">Other changes/fixes</span></span>
+## <a name="other-changesfixes"></a><span data-ttu-id="6fd49-106">其他更改/修复</span><span class="sxs-lookup"><span data-stu-id="6fd49-106">Other changes/fixes</span></span>
 
-### <a name="unable-to-change-employees-current-position-to-a-future-open-position"></a><span data-ttu-id="3041f-107">无法将员工的当前职位更改为将来的空缺职位</span><span class="sxs-lookup"><span data-stu-id="3041f-107">Unable to change employee´s current position to a future open position</span></span>
+### <a name="unable-to-change-employees-current-position-to-a-future-open-position"></a><span data-ttu-id="6fd49-107">无法将员工的当前职位更改为将来的空缺职位</span><span class="sxs-lookup"><span data-stu-id="6fd49-107">Unable to change employee´s current position to a future open position</span></span>
 
-<span data-ttu-id="3041f-108">已进行了更改来在职位仅在未来可用时启用职位转移。</span><span class="sxs-lookup"><span data-stu-id="3041f-108">A change has been made to enable position transfers when the position is only available in the future.</span></span> 
+<span data-ttu-id="6fd49-108">已进行了更改来在职位仅在未来可用时启用职位转移。</span><span class="sxs-lookup"><span data-stu-id="6fd49-108">A change has been made to enable position transfers when the position is only available in the future.</span></span> 
 
-### <a name="position-does-not-display-when-creating-a-new-employee"></a><span data-ttu-id="3041f-109">职位在创建新员工时不显示</span><span class="sxs-lookup"><span data-stu-id="3041f-109">Position does not display when creating a new employee</span></span>
+### <a name="position-does-not-display-when-creating-a-new-employee"></a><span data-ttu-id="6fd49-109">职位在创建新员工时不显示</span><span class="sxs-lookup"><span data-stu-id="6fd49-109">Position does not display when creating a new employee</span></span>
 
-<span data-ttu-id="3041f-110">已经进行了更改来在 Talent 中招聘新员工时显示可用于分配的所有空缺职位。</span><span class="sxs-lookup"><span data-stu-id="3041f-110">A change has been made to display all open positions that are available for assignment when hiring new employees in Talent.</span></span> <span data-ttu-id="3041f-111">这包括历史职位或被设置了将来日期的职位。</span><span class="sxs-lookup"><span data-stu-id="3041f-111">This includes historical positions or if the postitions have been future dated.</span></span> <span data-ttu-id="3041f-112">职位现在将根据雇用开始日期正确显示。</span><span class="sxs-lookup"><span data-stu-id="3041f-112">Positions will now appear correctly based on the employment start date.</span></span> 
+<span data-ttu-id="6fd49-110">已经进行了更改来在 Talent 中招聘新员工时显示可用于分配的所有空缺职位。</span><span class="sxs-lookup"><span data-stu-id="6fd49-110">A change has been made to display all open positions that are available for assignment when hiring new employees in Talent.</span></span> <span data-ttu-id="6fd49-111">这包括历史职位或被设置了将来日期的职位。</span><span class="sxs-lookup"><span data-stu-id="6fd49-111">This includes historical positions or if the postitions have been future dated.</span></span> <span data-ttu-id="6fd49-112">职位现在将根据雇用开始日期正确显示。</span><span class="sxs-lookup"><span data-stu-id="6fd49-112">Positions will now appear correctly based on the employment start date.</span></span> 
 
-### <a name="termination-date-is-displaying-based-on-user-settings"></a><span data-ttu-id="3041f-113">终止雇用日期基于用户设置显示</span><span class="sxs-lookup"><span data-stu-id="3041f-113">Termination date is displaying based on user settings</span></span>
+### <a name="termination-date-is-displaying-based-on-user-settings"></a><span data-ttu-id="6fd49-113">终止雇用日期基于用户设置显示</span><span class="sxs-lookup"><span data-stu-id="6fd49-113">Termination date is displaying based on user settings</span></span>
 
-<span data-ttu-id="3041f-114">已对以往员工列表进行了更改来解释在查看终止雇用日期时员工首选时区的任何时区偏移。</span><span class="sxs-lookup"><span data-stu-id="3041f-114">A change has been made to the past employees list to account for any time zone offsets for the employees preferred time zone when viewing the termination date.</span></span>
+<span data-ttu-id="6fd49-114">已对以往员工列表进行了更改来解释在查看终止雇用日期时员工首选时区的任何时区偏移。</span><span class="sxs-lookup"><span data-stu-id="6fd49-114">A change has been made to the past employees list to account for any time zone offsets for the employees preferred time zone when viewing the termination date.</span></span>
 
-### <a name="work-items-assigned-to-me-links-not-displaying-the-correct-information"></a><span data-ttu-id="3041f-115">分配给我的工作项链接不显示正确信息</span><span class="sxs-lookup"><span data-stu-id="3041f-115">Work items assigned to me links not displaying the correct information</span></span>
+### <a name="work-items-assigned-to-me-links-not-displaying-the-correct-information"></a><span data-ttu-id="6fd49-115">分配给我的工作项链接不显示正确信息</span><span class="sxs-lookup"><span data-stu-id="6fd49-115">Work items assigned to me links not displaying the correct information</span></span>
 
-<span data-ttu-id="3041f-116">通过此更改，导航到列表中各个工作项的详细信息将显示所选项目的正确信息。</span><span class="sxs-lookup"><span data-stu-id="3041f-116">With this change, navigation to the details of the individual work items in the list will display the correct information for the item selected.</span></span> <span data-ttu-id="3041f-117">此问题只在高级安全选项中出现。</span><span class="sxs-lookup"><span data-stu-id="3041f-117">This issue only occurred with advanced security options.</span></span>
+<span data-ttu-id="6fd49-116">通过此更改，导航到列表中各个工作项的详细信息将显示所选项目的正确信息。</span><span class="sxs-lookup"><span data-stu-id="6fd49-116">With this change, navigation to the details of the individual work items in the list will display the correct information for the item selected.</span></span> <span data-ttu-id="6fd49-117">此问题只在高级安全选项中出现。</span><span class="sxs-lookup"><span data-stu-id="6fd49-117">This issue only occurred with advanced security options.</span></span>
 
 
-## <a name="known-issue"></a><span data-ttu-id="3041f-118">已知问题</span><span class="sxs-lookup"><span data-stu-id="3041f-118">Known issue</span></span>
+## <a name="known-issue"></a><span data-ttu-id="6fd49-118">已知问题</span><span class="sxs-lookup"><span data-stu-id="6fd49-118">Known issue</span></span>
 
-- <span data-ttu-id="3041f-119">**问题**：在将新附件添加到工作人员时，**新建**和**编辑**按钮变灰。</span><span class="sxs-lookup"><span data-stu-id="3041f-119">**Issue**: When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out.</span></span> 
-- <span data-ttu-id="3041f-120">**解决方法：** 打开附件页面之前，确保已关闭**工作人员**页面中的速见表。</span><span class="sxs-lookup"><span data-stu-id="3041f-120">**Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="3041f-121">如果加载**工作人员**页面时速见表已关闭，将启用附件按钮。</span><span class="sxs-lookup"><span data-stu-id="3041f-121">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="3041f-122">（下一个平台更新中将解决这个问题。）</span><span class="sxs-lookup"><span data-stu-id="3041f-122">(This issue will be fixed in the next platform update.)</span></span>
+- <span data-ttu-id="6fd49-119">**问题**：在将新附件添加到工作人员时，**新建**和**编辑**按钮变灰。</span><span class="sxs-lookup"><span data-stu-id="6fd49-119">**Issue**: When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out.</span></span> 
+- <span data-ttu-id="6fd49-120">**解决方法：** 打开附件页面之前，确保已关闭**工作人员**页面中的速见表。</span><span class="sxs-lookup"><span data-stu-id="6fd49-120">**Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="6fd49-121">如果加载**工作人员**页面时速见表已关闭，将启用附件按钮。</span><span class="sxs-lookup"><span data-stu-id="6fd49-121">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="6fd49-122">（下一个平台更新中将解决这个问题。）</span><span class="sxs-lookup"><span data-stu-id="6fd49-122">(This issue will be fixed in the next platform update.)</span></span>
