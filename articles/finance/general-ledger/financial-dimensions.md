@@ -1,0 +1,142 @@
+---
+title: 财务维度
+description: 本主题介绍财务维度的不同类型以及如何设置。
+author: aprilolson
+manager: AnnBe
+ms.date: 01/03/2019
+ms.topic: article
+ems.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: DimensionDetails, DimensionValueDetails, SysTranslationDetail
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.custom: 25871
+ms.search.region: Global
+ms.author: aolson
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 0715d3e4e4cb167c55d9c7d98cdf599187bf3b43
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2176560"
+---
+# <a name="financial-dimensions"></a><span data-ttu-id="fd17c-103">财务维度</span><span class="sxs-lookup"><span data-stu-id="fd17c-103">Financial dimensions</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="fd17c-104">本主题说明财务维度的不同类型以及如何设置。</span><span class="sxs-lookup"><span data-stu-id="fd17c-104">This topic explains the various types of financial dimensions and how they are set up.</span></span>
+
+<span data-ttu-id="fd17c-105">使用**财务维度**页可创建可用作会计科目表的科目段的财务维度。</span><span class="sxs-lookup"><span data-stu-id="fd17c-105">Use the **Financial dimensions** page to create financial dimensions that you can use as account segments for charts of accounts.</span></span> <span data-ttu-id="fd17c-106">有两类财务维度：自定义维度和实体支持的维度。</span><span class="sxs-lookup"><span data-stu-id="fd17c-106">There are two types of financial dimensions: custom dimensions and entity-backed dimensions.</span></span> <span data-ttu-id="fd17c-107">自定义维度在法人之间共享，并且值由用户输入和维护。</span><span class="sxs-lookup"><span data-stu-id="fd17c-107">Custom dimensions are shared across legal entities, and the values are entered and maintained by users.</span></span> <span data-ttu-id="fd17c-108">对于实体支持的维度，其值在系统的其他地方进行定义，如客户或商店实体中。</span><span class="sxs-lookup"><span data-stu-id="fd17c-108">For entity-backed dimensions, the values are defined somewhere else in the system, such as in Customers or Stores entities.</span></span> <span data-ttu-id="fd17c-109">有些实体支持的维度在法人间共享，而有些实体支持的维度则特定于公司。</span><span class="sxs-lookup"><span data-stu-id="fd17c-109">Some entity-backed dimensions are shared across legal entities, whereas other entity-backed dimensions are company-specific.</span></span>
+
+<span data-ttu-id="fd17c-110">在您创建了财务维度之后，使用**财务维度值**页给每个财务维度分配附加属性。</span><span class="sxs-lookup"><span data-stu-id="fd17c-110">After you've created the financial dimensions, use the **Financial dimension values** page to assign additional properties to each financial dimension.</span></span>
+
+<span data-ttu-id="fd17c-111">您可以使用财务维度代表法人。</span><span class="sxs-lookup"><span data-stu-id="fd17c-111">You can use financial dimensions to represent legal entities.</span></span> <span data-ttu-id="fd17c-112">您不必在 Dynamics 365 Finance 中创建实体。</span><span class="sxs-lookup"><span data-stu-id="fd17c-112">You don't have to create the legal entities in Dynamics 365 Finance.</span></span> <span data-ttu-id="fd17c-113">但是，财务维度不用来解决法人的运营或业务需求。</span><span class="sxs-lookup"><span data-stu-id="fd17c-113">However, financial dimensions aren't designed to address the operational or business requirements of legal entities.</span></span> <span data-ttu-id="fd17c-114">将 Finance 中的单位间核算功能设计成仅满足由每个交易记录创建的会计条目。</span><span class="sxs-lookup"><span data-stu-id="fd17c-114">The interunit accounting functionality in Finance is designed to address only the accounting entries that are created by each transaction.</span></span>
+
+<span data-ttu-id="fd17c-115">在将财务维度设置为法人之前，评估您的业务流程中的以下区域以确定此设置是否适用于您的组织：</span><span class="sxs-lookup"><span data-stu-id="fd17c-115">Before you set up financial dimensions as legal entities, evaluate your business processes in the following areas to determine whether this setup will work for your organization:</span></span>
+
+- <span data-ttu-id="fd17c-116">库存</span><span class="sxs-lookup"><span data-stu-id="fd17c-116">Inventory</span></span>
+- <span data-ttu-id="fd17c-117">财务维度和法人之间的销售和采购</span><span class="sxs-lookup"><span data-stu-id="fd17c-117">Sales and purchases between financial dimensions and legal entities</span></span>
+- <span data-ttu-id="fd17c-118">计算和申报销售税</span><span class="sxs-lookup"><span data-stu-id="fd17c-118">Sales tax calculation and reporting</span></span>
+- <span data-ttu-id="fd17c-119">操作报告</span><span class="sxs-lookup"><span data-stu-id="fd17c-119">Operational reporting</span></span>
+
+<span data-ttu-id="fd17c-120">这是一些限制：</span><span class="sxs-lookup"><span data-stu-id="fd17c-120">Here are some of the limitations:</span></span>
+
+- <span data-ttu-id="fd17c-121">您只可以以法人身份使用销售纳税仅功能，但是不可以凭财务维度使用此功能。</span><span class="sxs-lookup"><span data-stu-id="fd17c-121">You can use sales tax functionality only with legal entities, not with financial dimensions.</span></span>
+- <span data-ttu-id="fd17c-122">有些报表不包括财务维度。</span><span class="sxs-lookup"><span data-stu-id="fd17c-122">Some reports don't include financial dimensions.</span></span> <span data-ttu-id="fd17c-123">因此，要按财务维度进行报告，您可能必须修改报表。</span><span class="sxs-lookup"><span data-stu-id="fd17c-123">Therefore, to report by financial dimension, you might have to modify the reports.</span></span>
+
+## <a name="custom-dimensions"></a><span data-ttu-id="fd17c-124">自定义维度</span><span class="sxs-lookup"><span data-stu-id="fd17c-124">Custom dimensions</span></span>
+
+<span data-ttu-id="fd17c-125">若要创建用户定义的财务维度，在**使用以下来源中的值**字段中，选择**自定义维度**。</span><span class="sxs-lookup"><span data-stu-id="fd17c-125">To create a user-defined financial dimension, in the **Use values from** field, select **Custom dimension**.</span></span>
+
+<span data-ttu-id="fd17c-126">您还可以指定科目掩码以限制您为维度值输入的金额和信息类型。</span><span class="sxs-lookup"><span data-stu-id="fd17c-126">You can also specify an account mask to limit the amount and type of information that can be entered for dimension values.</span></span> <span data-ttu-id="fd17c-127">您可以输入保持不变的每个维度值的信息，例如字母或连字符 (-)。</span><span class="sxs-lookup"><span data-stu-id="fd17c-127">You can enter characters that remain the same for each dimension value, such as letters or a hyphen (-).</span></span> <span data-ttu-id="fd17c-128">还可以输入数字标志 (\#) 和和符号 (&) 作为每次要更改的字符的占位符创建维度值。</span><span class="sxs-lookup"><span data-stu-id="fd17c-128">You can also enter number signs (\#) and ampersands (&) as placeholders for characters that will change every time that a dimension value is created.</span></span> <span data-ttu-id="fd17c-129">使用一个数字标志 (\#) 作为编号占位符和符号 (&) 作为信函的占位符。</span><span class="sxs-lookup"><span data-stu-id="fd17c-129">Use a number sign (\#) as a placeholder for a number and an ampersand (&) as a placeholder for a letter.</span></span> <span data-ttu-id="fd17c-130">只有在**使用以下来源中的值**字段中选择**自定义维度**后，用于格式掩码的字段才可用。</span><span class="sxs-lookup"><span data-stu-id="fd17c-130">The field for the format mask is available only when you select **Custom dimension** in the **Use values from** field.</span></span>
+
+<span data-ttu-id="fd17c-131">**示例**</span><span class="sxs-lookup"><span data-stu-id="fd17c-131">**Example**</span></span>
+
+<span data-ttu-id="fd17c-132">若要限制维度值到“CC”和三个数字，输入 **CC-\#\#\#** 作为格式掩码。</span><span class="sxs-lookup"><span data-stu-id="fd17c-132">To limit the dimension value to the letters "CC" and three numbers, enter **CC-\#\#\#** as the format mask.</span></span>
+
+## <a name="entity-backed-dimensions"></a><span data-ttu-id="fd17c-133">实体支持的维度</span><span class="sxs-lookup"><span data-stu-id="fd17c-133">Entity-backed dimensions</span></span>
+
+<span data-ttu-id="fd17c-134">若要创建实体支持的财务维度，在**使用以下来源中的值**字段中，选择财务维度所基于的系统定义的实体。</span><span class="sxs-lookup"><span data-stu-id="fd17c-134">To create an entity-backed financial dimension, in the **Use values from** field, select a system-defined entity to base the financial dimension on.</span></span> <span data-ttu-id="fd17c-135">随后将从此实体创建财务维度值。</span><span class="sxs-lookup"><span data-stu-id="fd17c-135">Financial dimension values are then created from that entity.</span></span> <span data-ttu-id="fd17c-136">例如，要为项目创建维度值，请选择**项目**。</span><span class="sxs-lookup"><span data-stu-id="fd17c-136">For example, to create dimension values for projects, select **Projects**.</span></span> <span data-ttu-id="fd17c-137">将为每个项目名称将创建维度值。</span><span class="sxs-lookup"><span data-stu-id="fd17c-137">A dimension value is then created for each project name.</span></span> <span data-ttu-id="fd17c-138">**财务维度值**页显示实体的值。</span><span class="sxs-lookup"><span data-stu-id="fd17c-138">The **Financial dimension values** page shows the values for the entity.</span></span> <span data-ttu-id="fd17c-139">如果这些值是公司特定的，则页面上还显示公司。</span><span class="sxs-lookup"><span data-stu-id="fd17c-139">If those values are company-specific, the page also shows the company.</span></span>
+
+## <a name="activating-dimensions"></a><span data-ttu-id="fd17c-140">激活维度</span><span class="sxs-lookup"><span data-stu-id="fd17c-140">Activating dimensions</span></span>
+
+<span data-ttu-id="fd17c-141">在您启用财务维度时，表进行更新，使其包含财务维度的名称。</span><span class="sxs-lookup"><span data-stu-id="fd17c-141">When you activate a financial dimension, the table is updated so that it includes the name of the financial dimension.</span></span> <span data-ttu-id="fd17c-142">删除被移除的维度。</span><span class="sxs-lookup"><span data-stu-id="fd17c-142">Deleted dimensions are removed.</span></span> <span data-ttu-id="fd17c-143">启用财务维度前，您可以输入维度值。</span><span class="sxs-lookup"><span data-stu-id="fd17c-143">You can enter dimension values before you activate a financial dimension.</span></span> <span data-ttu-id="fd17c-144">不过，在启用财务维度前，无法在任何地方使用财务维度。</span><span class="sxs-lookup"><span data-stu-id="fd17c-144">However, a financial dimension can't be consumed anywhere until it's activated.</span></span> <span data-ttu-id="fd17c-145">例如，到启用财务维度以前，您不能将财务维度添加到科目结构。</span><span class="sxs-lookup"><span data-stu-id="fd17c-145">For example, you can't add a financial dimension to an account structure until the financial dimension has been activated.</span></span> <span data-ttu-id="fd17c-146">在您选择**启用**后，所有维度更新并显示状态更改。</span><span class="sxs-lookup"><span data-stu-id="fd17c-146">When you select **Activate**, all dimensions are updated and show status changes.</span></span>
+
+## <a name="translations"></a><span data-ttu-id="fd17c-147">翻译</span><span class="sxs-lookup"><span data-stu-id="fd17c-147">Translations</span></span>
+
+<span data-ttu-id="fd17c-148">在**文本翻译**页，可为所选财务维度输入不同语言的文本。</span><span class="sxs-lookup"><span data-stu-id="fd17c-148">On the **Text translation** page, you can enter text for the selected financial dimension in various languages.</span></span> <span data-ttu-id="fd17c-149">在**主科目翻译**页，可为主科目输入不同语言的文本。</span><span class="sxs-lookup"><span data-stu-id="fd17c-149">On the **Main account translation** page, you can enter text for the main account in various languages.</span></span> 
+
+## <a name="legal-entity-overrides"></a><span data-ttu-id="fd17c-150">法人覆盖</span><span class="sxs-lookup"><span data-stu-id="fd17c-150">Legal entity overrides</span></span>
+
+<span data-ttu-id="fd17c-151">并非所有的维度都对所有法人有效。</span><span class="sxs-lookup"><span data-stu-id="fd17c-151">Not all dimensions are valid for all legal entities.</span></span> <span data-ttu-id="fd17c-152">此外，某些维度可能仅针对特定的期间有关。</span><span class="sxs-lookup"><span data-stu-id="fd17c-152">Additionally, some dimensions might be relevant only for a specific period.</span></span> <span data-ttu-id="fd17c-153">在这些情况下，您可以使用**法人覆盖**部分指定将为其暂停维度的公司、所有者以及维度有效的期间。</span><span class="sxs-lookup"><span data-stu-id="fd17c-153">In these cases, you can use the **Legal entity overrides** section to specify the companies that the dimension should be suspended for, the owner, and the period when the dimension is active.</span></span>
+
+## <a name="deleting-financial-dimensions"></a><span data-ttu-id="fd17c-154">删除财务维度</span><span class="sxs-lookup"><span data-stu-id="fd17c-154">Deleting financial dimensions</span></span>
+
+<span data-ttu-id="fd17c-155">为了帮助维护数据的引用完整性，很少删除财务维度。</span><span class="sxs-lookup"><span data-stu-id="fd17c-155">To help maintain referential integrity of the data, financial dimensions can rarely be deleted.</span></span> <span data-ttu-id="fd17c-156">如果要删除财务维度，则评估以下条件：</span><span class="sxs-lookup"><span data-stu-id="fd17c-156">If you try to delete a financial dimension, the following criteria are evaluated:</span></span>
+
+- <span data-ttu-id="fd17c-157">财务维度是否在已过帐或未过帐的交易记录上或任何类型的维度值组合中使用？</span><span class="sxs-lookup"><span data-stu-id="fd17c-157">Has the financial dimension been used on any posted or unposted transactions, or in any type of dimension value combination?</span></span>
+- <span data-ttu-id="fd17c-158">财务维度是否在任何活动的科目结构、高级规则结构或财务维度集中使用？</span><span class="sxs-lookup"><span data-stu-id="fd17c-158">Is the financial dimension used in any active account structure, advanced rule structure, or financial dimension set?</span></span>
+- <span data-ttu-id="fd17c-159">财务维度是否是默认维度集成格式的一部分？</span><span class="sxs-lookup"><span data-stu-id="fd17c-159">Is the financial dimension part of a default financial dimension integration format?</span></span>
+- <span data-ttu-id="fd17c-160">财务维度是否已设置为默认维度？</span><span class="sxs-lookup"><span data-stu-id="fd17c-160">Has the financial dimension been set up as a default dimension?</span></span>
+
+<span data-ttu-id="fd17c-161">如果满足任何条件，则不能删除财务维度。</span><span class="sxs-lookup"><span data-stu-id="fd17c-161">If any of the criteria are met, you can't delete the financial dimension.</span></span>
+
+## <a name="default-dimension-values"></a><span data-ttu-id="fd17c-162">默认维度值</span><span class="sxs-lookup"><span data-stu-id="fd17c-162">Default dimension values</span></span>
+
+<span data-ttu-id="fd17c-163">可将主记录（如客户和供应商）中的值用作新维度中的缺省值。</span><span class="sxs-lookup"><span data-stu-id="fd17c-163">You can use values from master records, such as customer and vendor, as default values in new dimensions.</span></span> <span data-ttu-id="fd17c-164">创建新维度时，将在这些主记录的维度值中输入主记录 ID。</span><span class="sxs-lookup"><span data-stu-id="fd17c-164">When the new dimensions are created, the master record ID is entered in the dimension values for those master records.</span></span> <span data-ttu-id="fd17c-165">例如，创建新客户时，将在客户维度中输入客户 ID。</span><span class="sxs-lookup"><span data-stu-id="fd17c-165">For example, when you create a new customer, the customer ID is entered in the customer dimension.</span></span> <span data-ttu-id="fd17c-166">创建销售订单、发票或其他需要客户 ID 的单据时，将使用现有缺省规则，并将客户 ID 添加到单据中。</span><span class="sxs-lookup"><span data-stu-id="fd17c-166">When you create sales orders, invoices, or other documents that require a customer ID, the existing defaulting rules are used, and the customer ID is added to the document.</span></span>
+
+<span data-ttu-id="fd17c-167">此功能由维度中的设置控制。</span><span class="sxs-lookup"><span data-stu-id="fd17c-167">This feature is controlled by a setting in the dimension.</span></span> <span data-ttu-id="fd17c-168">此设置的名称为**在创建的每个新 DimensionName 上将值复制到此维度**，其中 **DimensionName** 是维度的名称。</span><span class="sxs-lookup"><span data-stu-id="fd17c-168">This setting is named **Copy values to this dimension on each new DimensionName created**, where **DimensionName** is the name of the dimension.</span></span> <span data-ttu-id="fd17c-169">默认情况下，已关闭此功能。</span><span class="sxs-lookup"><span data-stu-id="fd17c-169">By default, the feature is turned off.</span></span> <span data-ttu-id="fd17c-170">但是，随时可以打开。</span><span class="sxs-lookup"><span data-stu-id="fd17c-170">However, it can be turned on at any time.</span></span>
+
+<span data-ttu-id="fd17c-171">如果维度已经有记录，打开此功能时，将更新主记录。</span><span class="sxs-lookup"><span data-stu-id="fd17c-171">If records already exist for the dimension, the master records are updated when you turn the feature on.</span></span> <span data-ttu-id="fd17c-172">但是，不更新现有单据和交易记录。</span><span class="sxs-lookup"><span data-stu-id="fd17c-172">However, existing documents and transactions aren't updated.</span></span>
+
+<span data-ttu-id="fd17c-173">如果您使用模板创建主记录，请确保主维度的模板值为空。</span><span class="sxs-lookup"><span data-stu-id="fd17c-173">If you are using a template to create a master record, make sure that the template value for the master dimension is blank.</span></span> <span data-ttu-id="fd17c-174">例如，如果您从模板创建客户，则请确保模板中的客户维度为空。</span><span class="sxs-lookup"><span data-stu-id="fd17c-174">For example, if you're creating customers from a template, make sure that the customer dimension in the template is blank.</span></span> <span data-ttu-id="fd17c-175">当您创建新客户时，客户维度值将默认为新客户编号。</span><span class="sxs-lookup"><span data-stu-id="fd17c-175">The customer dimension value will default from the new customer number when you create the new customer.</span></span>  
+
+## <a name="derived-dimensions"></a><span data-ttu-id="fd17c-176">派生的维度</span><span class="sxs-lookup"><span data-stu-id="fd17c-176">Derived dimensions</span></span>
+
+<span data-ttu-id="fd17c-177">可配置维度，以便在单据中输入该维度时自动输入其他维度的信息。</span><span class="sxs-lookup"><span data-stu-id="fd17c-177">You can configure a dimension so that information for other dimensions is automatically entered when you enter that dimension in a document.</span></span> <span data-ttu-id="fd17c-178">例如，如果输入成本中心 10，可能在部门维度中自动输入值 **20**。</span><span class="sxs-lookup"><span data-stu-id="fd17c-178">For example, if you enter cost center 10, a value of **20** can be automatically entered in the department dimension.</span></span>
+
+<span data-ttu-id="fd17c-179">可以在维度页中设置派生值。</span><span class="sxs-lookup"><span data-stu-id="fd17c-179">You can set up derived values on the dimensions page.</span></span>
+
+1. <span data-ttu-id="fd17c-180">选择维度，然后选择**派生维度**。</span><span class="sxs-lookup"><span data-stu-id="fd17c-180">Select a dimension and then select **Derived dimensions**.</span></span>
+
+    <span data-ttu-id="fd17c-181">**派生维度**页中有一个网格。</span><span class="sxs-lookup"><span data-stu-id="fd17c-181">The **Derived dimensions** page includes a grid.</span></span> <span data-ttu-id="fd17c-182">所选维度部分是该网格中的第一个列。</span><span class="sxs-lookup"><span data-stu-id="fd17c-182">The selected dimension segment is the first column in this grid.</span></span>
+
+2. <span data-ttu-id="fd17c-183">添加应派生的段。</span><span class="sxs-lookup"><span data-stu-id="fd17c-183">Add the segments that should be derived.</span></span> <span data-ttu-id="fd17c-184">每段显示为一列。</span><span class="sxs-lookup"><span data-stu-id="fd17c-184">Each segment appears as a column.</span></span>
+
+<span data-ttu-id="fd17c-185">在第一列中输入应从维度派生的维度组合。</span><span class="sxs-lookup"><span data-stu-id="fd17c-185">Enter the dimension combinations that should be derived from the dimension in the first column.</span></span> <span data-ttu-id="fd17c-186">例如，要将成本中心用作部门和库位的派生来源，请输入成本中心 10，部门 20 和库位 30。</span><span class="sxs-lookup"><span data-stu-id="fd17c-186">For example, to use the cost center as the dimension that the department and location are derived from, enter cost center 10, department 20, and location 30.</span></span> <span data-ttu-id="fd17c-187">然后，在主记录中或交易记录页上输入成本中心 10 时，将缺省输入部门 20 和库位 30。</span><span class="sxs-lookup"><span data-stu-id="fd17c-187">Then, when you enter cost center 10 in a master record or on a transaction page, department 20 and location 30 are entered by default.</span></span>
+
+### <a name="overriding-existing-values-with-derived-dimensions"></a><span data-ttu-id="fd17c-188">使用派生维度覆盖现有值</span><span class="sxs-lookup"><span data-stu-id="fd17c-188">Overriding existing values with derived dimensions</span></span>
+ 
+<span data-ttu-id="fd17c-189">默认情况下，派生维度过程不会覆盖派生维度的现有值。</span><span class="sxs-lookup"><span data-stu-id="fd17c-189">By default, the derived dimension process doesn't override existing values for derived dimensions.</span></span> <span data-ttu-id="fd17c-190">例如，如果输入成本中心 10，但不输入其他任何维度，将缺省输入部门 20 和库位 30。</span><span class="sxs-lookup"><span data-stu-id="fd17c-190">For example, if you enter cost center 10, and no other dimension is entered, department 20 and location 30 are entered by default.</span></span> <span data-ttu-id="fd17c-191">但是，如果更改成本中心，将不更改已建立的值。</span><span class="sxs-lookup"><span data-stu-id="fd17c-191">However, if you change the cost center, the values that have already been established aren't changed.</span></span> <span data-ttu-id="fd17c-192">因此，可基于主记录建立缺省维度，而派生维度不会更改这些维度。</span><span class="sxs-lookup"><span data-stu-id="fd17c-192">Therefore, you can establish default dimensions on master records, and those dimensions won't be changed by derived dimensions.</span></span>
+
+<span data-ttu-id="fd17c-193">您可以更改派生维度的行为以通过选择**派生的维度**页的**将现有维度值替换为派生值**复选框覆盖现有值。</span><span class="sxs-lookup"><span data-stu-id="fd17c-193">You can change the behavior of derived dimensions to override existing values by selecting the **Replace existing dimension values with derived values** check box on the **Derived dimensions** page.</span></span> <span data-ttu-id="fd17c-194">如果选中此字段，您可以输入具有派生的维度值的维度，这些派生的维度值将覆盖已存在的所有值。</span><span class="sxs-lookup"><span data-stu-id="fd17c-194">If this field is selected, you can enter a dimension with derived dimension values and those derived dimension values will override any values that already exist.</span></span> <span data-ttu-id="fd17c-195">使用上一个示例，如果输入成本中心 10，但不输入其他任何维度，将缺省输入部门 20 和库位 30。</span><span class="sxs-lookup"><span data-stu-id="fd17c-195">Using the previous example, if you enter cost center 10, and no other dimension is entered, department 20 and location 30 are entered by default.</span></span> <span data-ttu-id="fd17c-196">但是，如果值已经是部门 50 和库位 60 值，这些值现在将更改为部门 20 和库位 30。</span><span class="sxs-lookup"><span data-stu-id="fd17c-196">However, if the values were already department 50 and location 60, the values will now be changed to department 20 and location 30.</span></span>
+ 
+<span data-ttu-id="fd17c-197">具有此设置的派生的维度在维度值是默认值时不会自动替换现有的默认维度值。</span><span class="sxs-lookup"><span data-stu-id="fd17c-197">Derived dimensions with this setting do not automatically replace the existing default dimensions values when dimension values are defaulted.</span></span> <span data-ttu-id="fd17c-198">只有当您在页面上输入新维度值并且页面上的维度有现有的派生值时，维度值才会被覆盖。</span><span class="sxs-lookup"><span data-stu-id="fd17c-198">Dimension values will only be overridden when you enter a new dimension value on a page and there are existing derived values for that dimension on the page.</span></span>
+
+### <a name="preventing-changes-with-derived-dimensions"></a><span data-ttu-id="fd17c-199">防止更改派生的维度</span><span class="sxs-lookup"><span data-stu-id="fd17c-199">Preventing changes with derived dimensions</span></span>
+ 
+<span data-ttu-id="fd17c-200">在您使用**派生的维度页面**上的**添加科目段**将科目段添加为派生的维度时，将在**添加科目段**页面的底部提供一个选项，用于允许您防止维度在页面上派生时被更改。</span><span class="sxs-lookup"><span data-stu-id="fd17c-200">When you use **Add segment"** on the **Derived dimensions page** to add a segment as a derived dimension, an option is provided at the bottom of the **Add segment** page that allows you to prevent changes to that dimension when it is derived on a page.</span></span> <span data-ttu-id="fd17c-201">默认设置是关闭的，因此它不会阻止派生的维度值被更改。</span><span class="sxs-lookup"><span data-stu-id="fd17c-201">The default setting is off so it does not prevent the derived dimension values from being changed.</span></span> <span data-ttu-id="fd17c-202">如果您希望阻止维度在派生后被更改，请将此设置更改为**是**。</span><span class="sxs-lookup"><span data-stu-id="fd17c-202">Change the setting to **Yes** if you want prevent the dimension from being changed after it has been derived.</span></span> <span data-ttu-id="fd17c-203">例如，如果部门维度的值从成本中心维度值派生，当**阻止更改**设置为**是**时，部门值将无法更改。</span><span class="sxs-lookup"><span data-stu-id="fd17c-203">For example, if the value for the Department dimension is derived from the value of the Cost center dimension, the Department value cannot be changed if the **Prevent changes** setting is **Yes**.</span></span> 
+ 
+<span data-ttu-id="fd17c-204">如果维度值有效但未在派生的维度列表中列出，此设置不会阻止更改。</span><span class="sxs-lookup"><span data-stu-id="fd17c-204">The setting does not prevent changes if the dimension value is valid but it is not listed in the derived dimensions list.</span></span> <span data-ttu-id="fd17c-205">例如，如果部门 20 从成本中心 10 派生，并且您输入了成本中心 10，那么您将无法编辑部门 20。</span><span class="sxs-lookup"><span data-stu-id="fd17c-205">For example, if Department 20 is derived from Cost center 10 and you enter Cost center 10, then you will not be able to edit Department 20.</span></span> <span data-ttu-id="fd17c-206">但是，如果输入成本中心 20，而它不在成本中心派生维度的列表中，那么您可以编辑部门值。</span><span class="sxs-lookup"><span data-stu-id="fd17c-206">However, if you enter Cost center 20 and it is not in the list of derived dimensions for Cost center, then you can edit the Department value.</span></span> 
+ 
+<span data-ttu-id="fd17c-207">在所有情况下，在应用派生的维度值后，科目值和所有维度值仍会根据科目结构进行验证。</span><span class="sxs-lookup"><span data-stu-id="fd17c-207">In all cases, the account value and all dimensions values will still be validated against the account structures after the derived dimensions values have been applied.</span></span> <span data-ttu-id="fd17c-208">如果您使用派生的维度，而它们在页面上使用时验证失败，那么您必须更改派生的维度值页面上的派生的维度值，然后您才能够在交易记录中使用它们。</span><span class="sxs-lookup"><span data-stu-id="fd17c-208">If you use derived dimensions and they fail validation when used on a page, you must change the derived dimensions values on the derived dimensions page before you can use them in transactions.</span></span> 
+ 
+<span data-ttu-id="fd17c-209">在您更改**财务维度**快速选项卡上的维度时，标记为阻止更改的维度不可编辑。</span><span class="sxs-lookup"><span data-stu-id="fd17c-209">When you change dimensions on the **Financials dimensions** FastTab, the dimension that is marked to prevent changes will not be editable.</span></span> <span data-ttu-id="fd17c-210">如果您在页面上将科目和维度输入 Segmented Entry 控件，维度将可编辑。</span><span class="sxs-lookup"><span data-stu-id="fd17c-210">If you are entering an account and dimensions into the segmented entry control on a page, the dimensions are editable.</span></span> <span data-ttu-id="fd17c-211">但是，在您将突出显示从 Segmented Entry 控件移开，并移至其他字段或执行操作，科目和维度将根据派生的维度和科目结构进行验证，以确保您输入了适当值。</span><span class="sxs-lookup"><span data-stu-id="fd17c-211">However, when you move the highlight off the segmented entry control and move to another field or take an action, the account and dimensions will be validated against the derived dimensions list and the account structures to ensure that you have entered the appropriate values.</span></span> 
+
+### <a name="derived-dimensions-and-entities"></a><span data-ttu-id="fd17c-212">派生维度和实体</span><span class="sxs-lookup"><span data-stu-id="fd17c-212">Derived dimensions and entities</span></span>
+
+<span data-ttu-id="fd17c-213">可通过使用实体设置派生维度段和值。</span><span class="sxs-lookup"><span data-stu-id="fd17c-213">You can set up the derived dimensions segments and values by using entities.</span></span>
+
+- <span data-ttu-id="fd17c-214">派生维度实体设置驱动维度和用于这些维度的段。</span><span class="sxs-lookup"><span data-stu-id="fd17c-214">The Derived dimensions entity sets up the driving dimensions and the segments that are used for those dimensions.</span></span>
+- <span data-ttu-id="fd17c-215">可通过派生的维度值实体导入应该为每个驱动维度派生的值。</span><span class="sxs-lookup"><span data-stu-id="fd17c-215">The Derived dimensions value entity lets you import the values that should be derived for each driving dimension.</span></span>
+
+<span data-ttu-id="fd17c-216">使用实体导入数据时，如果该实体导入维度，则除非实体特意覆盖这些维度，否则导入期间将应用派生维度规则。</span><span class="sxs-lookup"><span data-stu-id="fd17c-216">When you use an entity to import data, if that entity imports dimensions, the derived dimension rules are applied during the import unless the entity specifically overrides those dimensions.</span></span>
+
+<span data-ttu-id="fd17c-217">有关详细信息，请参阅以下主题：</span><span class="sxs-lookup"><span data-stu-id="fd17c-217">For more information, see the following topics:</span></span>
+
+- [<span data-ttu-id="fd17c-218">定义财务维度</span><span class="sxs-lookup"><span data-stu-id="fd17c-218">Define financial dimensions</span></span>](tasks/define-financial-dimensions.md)
+- [<span data-ttu-id="fd17c-219">维护财务维度默认模板</span><span class="sxs-lookup"><span data-stu-id="fd17c-219">Maintain financial dimension default templates</span></span>](tasks/maintain-financial-dimension-default-templates.md)

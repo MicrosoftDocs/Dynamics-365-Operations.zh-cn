@@ -1,6 +1,6 @@
 ---
 title: 设置条码
-description: 本文介绍如何在 Microsoft Dynamics 365 for Retail 中使用条码。
+description: 本文介绍如何在 Dynamics 365 Retail 中使用条码。
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,31 +19,31 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 15d12abe32d3f5a47348016c67a4fb02d0a5d8e3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b7a668f8b44c5f573957a91ab19a8b7fac7a95ba
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555459"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024882"
 ---
-# <a name="set-up-bar-codes"></a><span data-ttu-id="ce264-103">设置条码</span><span class="sxs-lookup"><span data-stu-id="ce264-103">Set up bar codes</span></span>
+# <a name="set-up-bar-codes"></a><span data-ttu-id="dba4d-103">设置条码</span><span class="sxs-lookup"><span data-stu-id="dba4d-103">Set up bar codes</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="ce264-104">本文介绍如何在 Microsoft Dynamics 365 for Retail 中使用条码。</span><span class="sxs-lookup"><span data-stu-id="ce264-104">This article describes how to use bar codes in Microsoft Dynamics 365 for Retail.</span></span>
+<span data-ttu-id="dba4d-104">本文介绍如何在 Dynamics 365 Retail 中使用条码。</span><span class="sxs-lookup"><span data-stu-id="dba4d-104">This article describes how to use bar codes in Dynamics 365 Retail.</span></span>
 
-<span data-ttu-id="ce264-105">您可以使用条码采购和销售产品、跟踪产品变型和设置客户和员工。</span><span class="sxs-lookup"><span data-stu-id="ce264-105">You can use bar codes to purchase and sell products, track product variants, and set up customers and employees.</span></span> <span data-ttu-id="ce264-106">您还可以使用条码发货和批准优惠券、礼品卡和贷方通知单。</span><span class="sxs-lookup"><span data-stu-id="ce264-106">You can also use bar codes to issue and endorse coupons, gift cards, and credit memos.</span></span> <span data-ttu-id="ce264-107">您可以设置零售产品，以便具有标准条码或自定义公司内部条码。</span><span class="sxs-lookup"><span data-stu-id="ce264-107">You can set up retail products so that they have standard bar codes or custom, in-house bar codes.</span></span> <span data-ttu-id="ce264-108">产品可以有多个条码。</span><span class="sxs-lookup"><span data-stu-id="ce264-108">Products can have more than one bar code.</span></span> <span data-ttu-id="ce264-109">例如，如果来自不同的制造商，则产品可能具有多个条码，或者，如果基于大小、样式或颜色的变量它具有款式。</span><span class="sxs-lookup"><span data-stu-id="ce264-109">For example, a product might have multiple bar codes if it comes from various manufacturers, or if it has variants that are based on size, style, or color.</span></span> <span data-ttu-id="ce264-110">条码可以包含产品的重量或价格。</span><span class="sxs-lookup"><span data-stu-id="ce264-110">Bar codes can include the weight or price of the product.</span></span> <span data-ttu-id="ce264-111">条码掩码是用于创建条码的模板。</span><span class="sxs-lookup"><span data-stu-id="ce264-111">Bar code masks are templates that are used to create bar codes.</span></span>
+<span data-ttu-id="dba4d-105">您可以使用条码采购和销售产品、跟踪产品变型和设置客户和员工。</span><span class="sxs-lookup"><span data-stu-id="dba4d-105">You can use bar codes to purchase and sell products, track product variants, and set up customers and employees.</span></span> <span data-ttu-id="dba4d-106">您还可以使用条码发货和批准优惠券、礼品卡和贷方通知单。</span><span class="sxs-lookup"><span data-stu-id="dba4d-106">You can also use bar codes to issue and endorse coupons, gift cards, and credit memos.</span></span> <span data-ttu-id="dba4d-107">您可以设置零售产品，以便具有标准条码或自定义公司内部条码。</span><span class="sxs-lookup"><span data-stu-id="dba4d-107">You can set up retail products so that they have standard bar codes or custom, in-house bar codes.</span></span> <span data-ttu-id="dba4d-108">产品可以有多个条码。</span><span class="sxs-lookup"><span data-stu-id="dba4d-108">Products can have more than one bar code.</span></span> <span data-ttu-id="dba4d-109">例如，如果来自不同的制造商，则产品可能具有多个条码，或者，如果基于大小、样式或颜色的变量它具有款式。</span><span class="sxs-lookup"><span data-stu-id="dba4d-109">For example, a product might have multiple bar codes if it comes from various manufacturers, or if it has variants that are based on size, style, or color.</span></span> <span data-ttu-id="dba4d-110">条码可以包含产品的重量或价格。</span><span class="sxs-lookup"><span data-stu-id="dba4d-110">Bar codes can include the weight or price of the product.</span></span> <span data-ttu-id="dba4d-111">条码掩码是用于创建条码的模板。</span><span class="sxs-lookup"><span data-stu-id="dba4d-111">Bar code masks are templates that are used to create bar codes.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ce264-112">如果您为每个变型组合分配唯一条码，您可以在收银机上扫描条码，让程序确定出售的是哪种产品款式。</span><span class="sxs-lookup"><span data-stu-id="ce264-112">If you assign a unique bar code to each variant combination, you can scan the bar code at the register and let the program determine which variant of the product is being sold.</span></span> <span data-ttu-id="ce264-113">可以按款式收集和查看有关销售的统计。</span><span class="sxs-lookup"><span data-stu-id="ce264-113">You can also collect and view statistics about sales by variant.</span></span> <span data-ttu-id="ce264-114">可以为每个大小、颜色和样式组都分配一个可在条码中标识该组的唯一编号。</span><span class="sxs-lookup"><span data-stu-id="ce264-114">Each size, color, and style group can be assigned a unique number that identifies that group in the bar code.</span></span> <span data-ttu-id="ce264-115">Dynamics 365 for Retail 使用条码掩码来自动为每种款式组合生成条码。</span><span class="sxs-lookup"><span data-stu-id="ce264-115">Dynamics 365 for Retail uses the bar code mask to automatically generate bar codes for each variant combination.</span></span> <span data-ttu-id="ce264-116">如果存在多种大小、颜色和样式的情况下功能很有用，因为不断添加款式代码将显著增加组合的数量。</span><span class="sxs-lookup"><span data-stu-id="ce264-116">This functionality can be useful if there are many sizes, colors, and styles, because the number of combinations increases significantly as each variant code is added.</span></span> <span data-ttu-id="ce264-117">如果不使用此功能，必须手动将条码分配给表示产品变型的每个组合。</span><span class="sxs-lookup"><span data-stu-id="ce264-117">If this functionality isn't used, bar codes must be manually assigned to each combination that represents a product variant.</span></span>
+> <span data-ttu-id="dba4d-112">如果您为每个变型组合分配唯一条码，您可以在收银机上扫描条码，让程序确定出售的是哪种产品款式。</span><span class="sxs-lookup"><span data-stu-id="dba4d-112">If you assign a unique bar code to each variant combination, you can scan the bar code at the register and let the program determine which variant of the product is being sold.</span></span> <span data-ttu-id="dba4d-113">可以按款式收集和查看有关销售的统计。</span><span class="sxs-lookup"><span data-stu-id="dba4d-113">You can also collect and view statistics about sales by variant.</span></span> <span data-ttu-id="dba4d-114">可以为每个大小、颜色和样式组都分配一个可在条码中标识该组的唯一编号。</span><span class="sxs-lookup"><span data-stu-id="dba4d-114">Each size, color, and style group can be assigned a unique number that identifies that group in the bar code.</span></span> <span data-ttu-id="dba4d-115">Retail 使用条码掩码来自动为每种款式组合生成条码。</span><span class="sxs-lookup"><span data-stu-id="dba4d-115">Retail uses the bar code mask to automatically generate bar codes for each variant combination.</span></span> <span data-ttu-id="dba4d-116">如果存在多种大小、颜色和样式的情况下功能很有用，因为不断添加款式代码将显著增加组合的数量。</span><span class="sxs-lookup"><span data-stu-id="dba4d-116">This functionality can be useful if there are many sizes, colors, and styles, because the number of combinations increases significantly as each variant code is added.</span></span> <span data-ttu-id="dba4d-117">如果不使用此功能，必须手动将条码分配给表示产品变型的每个组合。</span><span class="sxs-lookup"><span data-stu-id="dba4d-117">If this functionality isn't used, bar codes must be manually assigned to each combination that represents a product variant.</span></span>
 
-<span data-ttu-id="ce264-118">可以通过手动方式或自动方式来创建条码。</span><span class="sxs-lookup"><span data-stu-id="ce264-118">You can create bar codes manually or automatically.</span></span> <span data-ttu-id="ce264-119">若要创建条码，请按照其列出的顺序完成以下任务。</span><span class="sxs-lookup"><span data-stu-id="ce264-119">To create bar codes, complete the following tasks in the order in which they are listed.</span></span>
+<span data-ttu-id="dba4d-118">可以通过手动方式或自动方式来创建条码。</span><span class="sxs-lookup"><span data-stu-id="dba4d-118">You can create bar codes manually or automatically.</span></span> <span data-ttu-id="dba4d-119">若要创建条码，请按照其列出的顺序完成以下任务。</span><span class="sxs-lookup"><span data-stu-id="dba4d-119">To create bar codes, complete the following tasks in the order in which they are listed.</span></span>
 
-1. <span data-ttu-id="ce264-120">[设置条码掩码字符](set-up-bar-code-masks.md)。</span><span class="sxs-lookup"><span data-stu-id="ce264-120">[Set up bar code mask characters](set-up-bar-code-masks.md).</span></span>
-2. <span data-ttu-id="ce264-121">[设置条码掩码](set-up-bar-code-masks.md)。</span><span class="sxs-lookup"><span data-stu-id="ce264-121">[Set up bar code masks](set-up-bar-code-masks.md).</span></span>
-3. <span data-ttu-id="ce264-122">配置条码设置。</span><span class="sxs-lookup"><span data-stu-id="ce264-122">Configure bar code setups.</span></span>
-4. <span data-ttu-id="ce264-123">为产品创建条码。</span><span class="sxs-lookup"><span data-stu-id="ce264-123">Create bar codes for products.</span></span>
+1. <span data-ttu-id="dba4d-120">[设置条码掩码字符](set-up-bar-code-masks.md)。</span><span class="sxs-lookup"><span data-stu-id="dba4d-120">[Set up bar code mask characters](set-up-bar-code-masks.md).</span></span>
+2. <span data-ttu-id="dba4d-121">[设置条码掩码](set-up-bar-code-masks.md)。</span><span class="sxs-lookup"><span data-stu-id="dba4d-121">[Set up bar code masks](set-up-bar-code-masks.md).</span></span>
+3. <span data-ttu-id="dba4d-122">配置条码设置。</span><span class="sxs-lookup"><span data-stu-id="dba4d-122">Configure bar code setups.</span></span>
+4. <span data-ttu-id="dba4d-123">为产品创建条码。</span><span class="sxs-lookup"><span data-stu-id="dba4d-123">Create bar codes for products.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="ce264-124">其他资源</span><span class="sxs-lookup"><span data-stu-id="ce264-124">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="dba4d-124">其他资源</span><span class="sxs-lookup"><span data-stu-id="dba4d-124">Additional resources</span></span>
 
-[<span data-ttu-id="ce264-125">设置条码掩码</span><span class="sxs-lookup"><span data-stu-id="ce264-125">Set up bar code masks</span></span>](set-up-bar-code-masks.md)
+[<span data-ttu-id="dba4d-125">设置条码掩码</span><span class="sxs-lookup"><span data-stu-id="dba4d-125">Set up bar code masks</span></span>](set-up-bar-code-masks.md)

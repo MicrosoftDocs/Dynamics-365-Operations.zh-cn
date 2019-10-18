@@ -18,27 +18,27 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d238bb31537a21f46c252fbee400fe61901e650
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790467"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250913"
 ---
-# <a name="maintenance-requests"></a><span data-ttu-id="689a2-103">维护请求</span><span class="sxs-lookup"><span data-stu-id="689a2-103">Maintenance requests</span></span>
+# <a name="maintenance-requests"></a><span data-ttu-id="d9de7-103">维护请求</span><span class="sxs-lookup"><span data-stu-id="d9de7-103">Maintenance requests</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
 
-<span data-ttu-id="689a2-104">可设置多种要在公司中使用的请求。</span><span class="sxs-lookup"><span data-stu-id="689a2-104">You can set up various types of requests to use in your company.</span></span> <span data-ttu-id="689a2-105">维护请求是一种类型。</span><span class="sxs-lookup"><span data-stu-id="689a2-105">Maintenance requests are one type.</span></span> <span data-ttu-id="689a2-106">维护请求用于请求为特定作业提供工作订单。</span><span class="sxs-lookup"><span data-stu-id="689a2-106">Maintenance requests are used to request that a work order be required for a specific job.</span></span> <span data-ttu-id="689a2-107">有权访问 Microsoft Dynamics 365 for Finance and Operations 中的资产管理功能的任何用户都可以创建维护请求。</span><span class="sxs-lookup"><span data-stu-id="689a2-107">A maintenance request can be created by any user who has access to Asset Management functionality in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="689a2-108">然后，规划员或经理可以决定维护请求应转化为工作订单，还是完成自己的生命周期。</span><span class="sxs-lookup"><span data-stu-id="689a2-108">A planner or manager can then decide whether a maintenance request should be converted to a work order, or whether it should complete its own lifecycle.</span></span>
+<span data-ttu-id="d9de7-104">可设置多种要在公司中使用的请求。</span><span class="sxs-lookup"><span data-stu-id="d9de7-104">You can set up various types of requests to use in your company.</span></span> <span data-ttu-id="d9de7-105">维护请求是一种类型。</span><span class="sxs-lookup"><span data-stu-id="d9de7-105">Maintenance requests are one type.</span></span> <span data-ttu-id="d9de7-106">维护请求用于请求为特定作业提供工作订单。</span><span class="sxs-lookup"><span data-stu-id="d9de7-106">Maintenance requests are used to request that a work order be required for a specific job.</span></span> <span data-ttu-id="d9de7-107">有权访问资产管理功能的任何用户都可以创建维护请求。</span><span class="sxs-lookup"><span data-stu-id="d9de7-107">A maintenance request can be created by any user who has access to Asset Management functionality.</span></span> <span data-ttu-id="d9de7-108">然后，规划员或经理可以决定维护请求应转化为工作订单，还是完成自己的生命周期。</span><span class="sxs-lookup"><span data-stu-id="d9de7-108">A planner or manager can then decide whether a maintenance request should be converted to a work order, or whether it should complete its own lifecycle.</span></span>
 
-## <a name="view-maintenance-requests"></a><span data-ttu-id="689a2-109">查看维护请求</span><span class="sxs-lookup"><span data-stu-id="689a2-109">View maintenance requests</span></span>
+## <a name="view-maintenance-requests"></a><span data-ttu-id="d9de7-109">查看维护请求</span><span class="sxs-lookup"><span data-stu-id="d9de7-109">View maintenance requests</span></span>
 
-- <span data-ttu-id="689a2-110">选择**资产管理** \> **常用** \> **维护请求** \> **所有维护请求**或**有效维护请求**。</span><span class="sxs-lookup"><span data-stu-id="689a2-110">Select **Asset management** \> **Common** \> **Maintenance requests** \> **All maintenance requests** or **Active maintenance requests**.</span></span>
+- <span data-ttu-id="d9de7-110">选择**资产管理** \> **常用** \> **维护请求** \> **所有维护请求**或**有效维护请求**。</span><span class="sxs-lookup"><span data-stu-id="d9de7-110">Select **Asset management** \> **Common** \> **Maintenance requests** \> **All maintenance requests** or **Active maintenance requests**.</span></span>
 
-    <span data-ttu-id="689a2-111">**所有维护请求**列表页显示所有维护请求，不受其生命周期状态影响。</span><span class="sxs-lookup"><span data-stu-id="689a2-111">The **All maintenance requests** list page shows all maintenance requests, regardless of their lifecycle state.</span></span> <span data-ttu-id="689a2-112">**有效维护请求**列表页仅显示活动状态的维护请求。</span><span class="sxs-lookup"><span data-stu-id="689a2-112">The **Active maintenance requests** lists page shows only maintenance requests that are in an active state.</span></span>
+    <span data-ttu-id="d9de7-111">**所有维护请求**列表页显示所有维护请求，不受其生命周期状态影响。</span><span class="sxs-lookup"><span data-stu-id="d9de7-111">The **All maintenance requests** list page shows all maintenance requests, regardless of their lifecycle state.</span></span> <span data-ttu-id="d9de7-112">**有效维护请求**列表页仅显示活动状态的维护请求。</span><span class="sxs-lookup"><span data-stu-id="d9de7-112">The **Active maintenance requests** lists page shows only maintenance requests that are in an active state.</span></span>
 
-<span data-ttu-id="689a2-113">下图显示**所有维护请求**列表页的示例。</span><span class="sxs-lookup"><span data-stu-id="689a2-113">The following illustration shows an example of the **All maintenance requests** list page.</span></span>
+<span data-ttu-id="d9de7-113">下图显示**所有维护请求**列表页的示例。</span><span class="sxs-lookup"><span data-stu-id="d9de7-113">The following illustration shows an example of the **All maintenance requests** list page.</span></span>
 
 ![图 1](media/01-setup-for-requests.png)

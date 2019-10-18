@@ -1,6 +1,6 @@
 ---
-title: 欢迎使用 Dynamics 365 for Talent - Onboard
-description: 本主题将向您介绍 Microsoft Dynamics 365 for Talent - Onboard 应用。 Onboard 将帮助您为新员工创造出色的入职体验。
+title: 欢迎使用 Dynamics 365 Talent - Onboard
+description: 本主题将向您介绍 Microsoft Dynamics 365 Talent - Onboard 应用。 Onboard 将帮助您为新员工创造出色的入职体验。
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/24/2019
@@ -18,13 +18,13 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-04-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e58b1b73c84c2ec5650d8af92a13f4ed51664f95
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: d91fbb0454855de614427321fe49f858ef3c65fb
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731376"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010490"
 ---
-# <a name="welcome-to-dynamics-365-for-talent-onboard"></a><span data-ttu-id="c5e4b-104">欢迎使用 Dynamics 365 for Talent: Onboard</span><span class="sxs-lookup"><span data-stu-id="c5e4b-104">Welcome to Dynamics 365 for Talent: Onboard</span></span>
+# <a name="welcome-to-dynamics-365-talent-onboard"></a><span data-ttu-id="fff3e-104">欢迎使用 Dynamics 365 Talent: Onboard</span><span class="sxs-lookup"><span data-stu-id="fff3e-104">Welcome to Dynamics 365 Talent: Onboard</span></span>
 
 [!include[banner](../includes/banner.md)]

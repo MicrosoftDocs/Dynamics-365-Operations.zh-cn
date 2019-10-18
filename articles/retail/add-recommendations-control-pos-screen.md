@@ -1,9 +1,9 @@
 ---
 title: 向 POS 设备上的交易记录屏幕添加建议控件
 description: 此主题介绍如何使用 Microsoft Dynamics 365 for Retail 中的屏幕布局设计器，向销售点 (POS) 设备的交易记录屏幕添加建议控件。
-author: ashishmsft
+author: bebeale
 manager: AnnBe
-ms.date: 02/05/2018
+ms.date: 10/01/19
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,78 +19,85 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f17da3db6fbc19548544a0c6c090a0b6db093673
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: d646c8ba559ba3e8d2175911e76c57d25eff02ca
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606841"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278121"
 ---
-# <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a><span data-ttu-id="e3d6b-103">向 POS 设备上的交易记录屏幕添加建议控件</span><span class="sxs-lookup"><span data-stu-id="e3d6b-103">Add a recommendations control to the transaction screen on POS devices</span></span>
+# <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a><span data-ttu-id="b6e49-103">向 POS 设备上的交易记录屏幕添加建议控件</span><span class="sxs-lookup"><span data-stu-id="b6e49-103">Add a recommendations control to the transaction screen on POS devices</span></span>
 
 [!include [banner](includes/banner.md)]
 
-> [!NOTE]
-> <span data-ttu-id="e3d6b-104">我们将移除当前的产品建议服务版本，因为我们为这项功能重新设计了更出色的算法和更新的面向零售的功能。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-104">We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</span></span> <span data-ttu-id="e3d6b-105">有关详细信息，请参阅[已删除或弃用的功能](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features)。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-105">For more information see [Removed or deprecated features](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).</span></span>
 
-<span data-ttu-id="e3d6b-106">此主题介绍如何使用 Microsoft Dynamics 365 for Retail 中的屏幕布局设计器，向销售点 (POS) 设备的交易记录屏幕添加建议控件。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-106">This topic describes how to add a recommendations control to the transaction screen on a point of sale (POS) device using the screen layout designer in Microsoft Dynamics 365 for Retail.</span></span>
+<span data-ttu-id="b6e49-104">此主题介绍如何使用 Microsoft Dynamics 365 Retail 中的屏幕布局设计器，向销售点 (POS) 设备的交易记录屏幕添加建议控件。</span><span class="sxs-lookup"><span data-stu-id="b6e49-104">This topic describes how to add a recommendations control to the transaction screen on a point of sale (POS) device using the screen layout designer in Microsoft Dynamics 365 Retail.</span></span> <span data-ttu-id="b6e49-105">有关产品建议的详细信息，请参阅[“POS 中的产品建议”一文](product.md)。</span><span class="sxs-lookup"><span data-stu-id="b6e49-105">For more information about product recommendations, read the  [product recommendations on POS documentation.](product.md)</span></span>
 
-<span data-ttu-id="e3d6b-107">使用 Microsoft Dynamics 365 for Retail 时，可以在 POS 设备上显示产品建议。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-107">You can display product recommendations on your POS device when you use Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="e3d6b-108">*建议*是客户可能根据其购买历史记录感兴趣的商品、其愿望列表中的商品，以及其他客户在线商店和实体商店购买的商品。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-108">*Recommendations* are items that your customer might be interested in based on their purchase history, items in their wish list, and items that other customers purchased online and in brick-and-mortar stores.</span></span> <span data-ttu-id="e3d6b-109">若要显示产品建议，需要使用屏幕布局设计器向交易记录屏幕添加控件。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-109">To display product recommendations, you need to add a control to the transaction screen using the screen layout designer.</span></span>
 
-## <a name="open-layout-designer"></a><span data-ttu-id="e3d6b-110">打开布局设计器</span><span class="sxs-lookup"><span data-stu-id="e3d6b-110">Open Layout designer</span></span>
+<span data-ttu-id="b6e49-106">使用 Microsoft Dynamics 365 Retail 时，可以在 POS 设备上显示产品建议。</span><span class="sxs-lookup"><span data-stu-id="b6e49-106">You can display product recommendations on your POS device when you use Microsoft Dynamics 365 Retail.</span></span> <span data-ttu-id="b6e49-107">若要显示产品建议，需要使用屏幕布局设计器向交易记录屏幕添加控件。</span><span class="sxs-lookup"><span data-stu-id="b6e49-107">To display product recommendations, you need to add a control to the transaction screen using the screen layout designer.</span></span> 
 
-1. <span data-ttu-id="e3d6b-111">转至**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS** &gt; **屏幕布局**。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-111">Go to **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS** &gt; **Screen layouts**.</span></span>
-2. <span data-ttu-id="e3d6b-112">使用快速筛选查找要为其添加控件的屏幕。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-112">Use the Quick Filter to find the screen that you want to add the control to.</span></span> <span data-ttu-id="e3d6b-113">例如，使用值 **F2CP16:9M** 在**屏幕布局 ID** 字段中筛选。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-113">For example, filter on the **Screen layout ID** field using a value of **F2CP16:9M**.</span></span>
-3. <span data-ttu-id="e3d6b-114">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-114">In the list, find and select the desired record.</span></span> <span data-ttu-id="e3d6b-115">例如，选择**名称: F2CP16:9M 屏幕布局 ID: F2CP16:9M**。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-115">For example, select **Name: F2CP16:9M Screen Layout ID: F2CP16:9M**.</span></span>
-4. <span data-ttu-id="e3d6b-116">单击**布局设计器**。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-116">Click **Layout designer**.</span></span>
-5. <span data-ttu-id="e3d6b-117">按照提示启动布局设计器。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-117">Follow the prompts to launch the layout designer.</span></span> <span data-ttu-id="e3d6b-118">在提示输入凭据时，输入从**屏幕布局**页启动布局设计器时使用的相同凭据。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-118">When prompted for credentials, enter the same credentials that were in use when the Layout designer was launched from **Screen layouts** page.</span></span>
-6. <span data-ttu-id="e3d6b-119">在登录时，将显示如下页面。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-119">When you log in, a page similar to the one below appears.</span></span> <span data-ttu-id="e3d6b-120">布局将由为您的商店执行的自定义决定。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-120">The layout will be different depending on the customizations that were made for your store.</span></span>
+## <a name="open-layout-designer"></a><span data-ttu-id="b6e49-108">打开布局设计器</span><span class="sxs-lookup"><span data-stu-id="b6e49-108">Open Layout designer</span></span>
 
-    <span data-ttu-id="e3d6b-121">[![布局设计器](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span><span class="sxs-lookup"><span data-stu-id="e3d6b-121">[![Layout designer](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span></span>
+1. <span data-ttu-id="b6e49-109">转至**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS** &gt; **屏幕布局**。</span><span class="sxs-lookup"><span data-stu-id="b6e49-109">Go to **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS** &gt; **Screen layouts**.</span></span>
+2. <span data-ttu-id="b6e49-110">使用快速筛选查找要为其添加控件的屏幕。</span><span class="sxs-lookup"><span data-stu-id="b6e49-110">Use the Quick Filter to find the screen that you want to add the control to.</span></span> <span data-ttu-id="b6e49-111">例如，使用值 **F2CP16:9M** 在**屏幕布局 ID** 字段中筛选。</span><span class="sxs-lookup"><span data-stu-id="b6e49-111">For example, filter on the **Screen layout ID** field using a value of **F2CP16:9M**.</span></span>
+3. <span data-ttu-id="b6e49-112">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="b6e49-112">In the list, find and select the desired record.</span></span> <span data-ttu-id="b6e49-113">例如，选择**名称: F2CP16:9M 屏幕布局 ID: F2CP16:9M**。</span><span class="sxs-lookup"><span data-stu-id="b6e49-113">For example, select **Name: F2CP16:9M Screen Layout ID: F2CP16:9M**.</span></span>
+4. <span data-ttu-id="b6e49-114">单击**布局设计器**。</span><span class="sxs-lookup"><span data-stu-id="b6e49-114">Click **Layout designer**.</span></span>
+5. <span data-ttu-id="b6e49-115">按照提示启动布局设计器。</span><span class="sxs-lookup"><span data-stu-id="b6e49-115">Follow the prompts to launch the layout designer.</span></span> <span data-ttu-id="b6e49-116">在提示输入凭据时，输入从**屏幕布局**页启动布局设计器时使用的相同凭据。</span><span class="sxs-lookup"><span data-stu-id="b6e49-116">When prompted for credentials, enter the same credentials that were in use when the Layout designer was launched from **Screen layouts** page.</span></span>
+6. <span data-ttu-id="b6e49-117">在登录时，将显示如下页面。</span><span class="sxs-lookup"><span data-stu-id="b6e49-117">When you log in, a page similar to the one below appears.</span></span> <span data-ttu-id="b6e49-118">布局将由为您的商店执行的自定义决定。</span><span class="sxs-lookup"><span data-stu-id="b6e49-118">The layout will be different depending on the customizations that were made for your store.</span></span>
 
-## <a name="choose-a-display-option"></a><span data-ttu-id="e3d6b-122">选择显示选项</span><span class="sxs-lookup"><span data-stu-id="e3d6b-122">Choose a display option</span></span>
 
-<span data-ttu-id="e3d6b-123">可用配置选项有两个。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-123">There are two configurations options available.</span></span> <span data-ttu-id="e3d6b-124">选择最适合您的商店的选项，然后按照其余说明完成控件的设置。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-124">Choose the option that works best for your store, and follow the remaining instructions to finish setting up the control.</span></span> <span data-ttu-id="e3d6b-125">这两个选项是：</span><span class="sxs-lookup"><span data-stu-id="e3d6b-125">The two options are:</span></span>
+    <span data-ttu-id="b6e49-119">[![布局设计器](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span><span class="sxs-lookup"><span data-stu-id="b6e49-119">[![Layout designer](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span></span>
 
-- <span data-ttu-id="e3d6b-126">始终显示建议。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-126">Recommendations are always visible.</span></span>
-- <span data-ttu-id="e3d6b-127">在屏幕右侧的网格中显示**建议**选项卡。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-127">A **Recommendations** tab appears in the grid on the right side of the screen.</span></span>
+## <a name="choose-a-display-option"></a><span data-ttu-id="b6e49-120">选择显示选项</span><span class="sxs-lookup"><span data-stu-id="b6e49-120">Choose a display option</span></span>
 
-### <a name="make-recommendations-always-visible"></a><span data-ttu-id="e3d6b-128">始终显示建议</span><span class="sxs-lookup"><span data-stu-id="e3d6b-128">Make recommendations always visible</span></span>
+<span data-ttu-id="b6e49-121">可用配置选项有两个。</span><span class="sxs-lookup"><span data-stu-id="b6e49-121">There are two configurations options available.</span></span> <span data-ttu-id="b6e49-122">选择最适合您的商店的选项，然后按照其余说明完成控件的设置。</span><span class="sxs-lookup"><span data-stu-id="b6e49-122">Choose the option that works best for your store, and follow the remaining instructions to finish setting up the control.</span></span> <span data-ttu-id="b6e49-123">这两个选项是：</span><span class="sxs-lookup"><span data-stu-id="b6e49-123">The two options are:</span></span>
 
-1. <span data-ttu-id="e3d6b-129">缩小交易记录行明细区域的高度，使其与其左侧的客户面板高度相同。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-129">Reduce the height of the transaction lines details area so that it is the same height as the customer panel to its left.</span></span>
+- <span data-ttu-id="b6e49-124">始终显示建议。</span><span class="sxs-lookup"><span data-stu-id="b6e49-124">Recommendations are always visible.</span></span>
+- <span data-ttu-id="b6e49-125">在屏幕右侧的网格中显示**建议**选项卡。</span><span class="sxs-lookup"><span data-stu-id="b6e49-125">A **Recommendations** tab appears in the grid on the right side of the screen.</span></span>
 
-    <span data-ttu-id="e3d6b-130">[![减少的交易记录行详细信息区域高度](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span><span class="sxs-lookup"><span data-stu-id="e3d6b-130">[![Height of the transaction lines details area reduced](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span></span>
+### <a name="make-recommendations-always-visible"></a><span data-ttu-id="b6e49-126">始终显示建议</span><span class="sxs-lookup"><span data-stu-id="b6e49-126">Make recommendations always visible</span></span>
 
-2. <span data-ttu-id="e3d6b-131">将建议控件从左侧菜单拖放到交易记录屏幕底部中央的交易记录行明细与按钮窗格之间。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-131">From the menu on the left, drag and drop the recommendations control to between the transaction line details area and the button grid in the center bottom of the transaction screen.</span></span> <span data-ttu-id="e3d6b-132">调整控件大小，使其适合该空间。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-132">Resize the control so it fits in that space.</span></span>
 
-    <span data-ttu-id="e3d6b-133">[![添加到布局中的建议控件](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span><span class="sxs-lookup"><span data-stu-id="e3d6b-133">[![Recommendations control added to the layout](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span></span>
+1. <span data-ttu-id="b6e49-127">缩小交易记录行明细区域的高度，使其与其左侧的客户面板高度相同。</span><span class="sxs-lookup"><span data-stu-id="b6e49-127">Reduce the height of the transaction lines details area so that it is the same height as the customer panel to its left.</span></span>
 
-3. <span data-ttu-id="e3d6b-134">单击 **X** 保存并退出布局设计器。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-134">Click the **X** to save and exit Layout designer.</span></span>
-4. <span data-ttu-id="e3d6b-135">在 Dynamics 365 for Retail 中，转到**零售** &gt; **零售 IT** &gt; **配送计划**。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-135">In Dynamics 365 for Retail, go to **Retail** &gt; **Retail IT** &gt; **Distribution schedules**.</span></span>
-5. <span data-ttu-id="e3d6b-136">在列表中，选择  **1090 收银机**。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-136">In the list, select **1090 Registers**.</span></span>
-6. <span data-ttu-id="e3d6b-137">单击**立即运行**。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-137">Click **Run now**.</span></span>
 
-### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a><span data-ttu-id="e3d6b-138">向屏幕右侧的按钮网格添加“建议”选项卡</span><span class="sxs-lookup"><span data-stu-id="e3d6b-138">Add a Recommendations tab to the button grid on the right side of the screen</span></span>
+    <span data-ttu-id="b6e49-128">[![减少的交易记录行详细信息区域高度](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span><span class="sxs-lookup"><span data-stu-id="b6e49-128">[![Height of the transaction lines details area reduced](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span></span>
 
-1. <span data-ttu-id="e3d6b-139">在页面右侧按钮网格中最后一个选项卡下空白区域中右键单击。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-139">Right-click in the empty space below the last tab on the button grid located on the right side of the page.</span></span>
-2. <span data-ttu-id="e3d6b-140">单击 **自定义**。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-140">Click **Customize**.</span></span>
+2. <span data-ttu-id="b6e49-129">将建议控件从左侧菜单拖放到交易记录屏幕底部中央的交易记录行明细与按钮窗格之间。</span><span class="sxs-lookup"><span data-stu-id="b6e49-129">From the menu on the left, drag and drop the recommendations control to between the transaction line details area and the button grid in the center bottom of the transaction screen.</span></span> <span data-ttu-id="b6e49-130">调整控件大小，使其适合该空间。</span><span class="sxs-lookup"><span data-stu-id="b6e49-130">Resize the control so it fits in that space.</span></span>
 
-    <span data-ttu-id="e3d6b-141">[![自定义 - 选项卡控件对话框](./media/pic-5.png)](./media/pic-5.png)</span><span class="sxs-lookup"><span data-stu-id="e3d6b-141">[![Customization - Tab control dialog box](./media/pic-5.png)](./media/pic-5.png)</span></span>
+    <span data-ttu-id="b6e49-131">[![添加到布局中的建议控件](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span><span class="sxs-lookup"><span data-stu-id="b6e49-131">[![Recommendations control added to the layout](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span></span>
 
-3. <span data-ttu-id="e3d6b-142">单击**新建选项卡**。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-142">Click **New tab**.</span></span>
-4. <span data-ttu-id="e3d6b-143">找到刚添加的新选项卡。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-143">Find the new tab that you just added.</span></span> <span data-ttu-id="e3d6b-144">您可能需要向下滚动。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-144">You may need to scroll down.</span></span>
-5. <span data-ttu-id="e3d6b-145">在**目录**下拉菜单中，选择**建议的产品**。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-145">In the **Contents** drop-down, select **Recommended products**.</span></span>
 
-    <span data-ttu-id="e3d6b-146">[![在“目录”字段中选择“建议的产品”](./media/pic-6.png)](./media/pic-6.png)</span><span class="sxs-lookup"><span data-stu-id="e3d6b-146">[![Selecting Recommended products in the Contents field](./media/pic-6.png)](./media/pic-6.png)</span></span>
+3. <span data-ttu-id="b6e49-132">单击 **X** 保存并退出布局设计器。</span><span class="sxs-lookup"><span data-stu-id="b6e49-132">Click the **X** to save and exit Layout designer.</span></span>
+4. <span data-ttu-id="b6e49-133">在 Dynamics 365 for Retail 中，转到**零售** &gt; **零售 IT** &gt; **配送计划**。</span><span class="sxs-lookup"><span data-stu-id="b6e49-133">In Dynamics 365 for Retail, go to **Retail** &gt; **Retail IT** &gt; **Distribution schedules**.</span></span>
+5. <span data-ttu-id="b6e49-134">在列表中，选择 **1090 收银机**。</span><span class="sxs-lookup"><span data-stu-id="b6e49-134">In the list, select **1090 Registers**.</span></span>
+6. <span data-ttu-id="b6e49-135">单击**立即运行**。</span><span class="sxs-lookup"><span data-stu-id="b6e49-135">Click **Run now**.</span></span>
 
-6. <span data-ttu-id="e3d6b-147">在**标签**字段，键入建议选项卡的名称。例如，键入“建议的产品”。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-147">In the **Label** field, type a name for the recommendations tab. For example, type 'Recommended products'.</span></span>
-7. <span data-ttu-id="e3d6b-148">在**图像**字段中，选择要在该选项卡上显示的图像。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-148">In the **Image** field, select the image to appear on the tab.</span></span>
-8. <span data-ttu-id="e3d6b-149">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-149">Click **OK**.</span></span> <span data-ttu-id="e3d6b-150">将在按钮网格中显示新选项卡。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-150">The new tab appears in the button grid.</span></span>
-9. <span data-ttu-id="e3d6b-151">单击 **X** 保存并退出布局设计器。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-151">Click the **X** to save and exit Layout designer.</span></span>
-10. <span data-ttu-id="e3d6b-152">在 Dynamics 365 for Retail 中，转到**零售** &gt; **零售 IT** &gt; **配送计划**。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-152">In Dynamics 365 for Retail, go to **Retail** &gt; **Retail IT** &gt; **Distribution schedules**.</span></span>
-11. <span data-ttu-id="e3d6b-153">在列表中，选择 **1090 收银机**。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-153">In the list, select **1090 Registers**.</span></span>
-12. <span data-ttu-id="e3d6b-154">单击**立即运行**。</span><span class="sxs-lookup"><span data-stu-id="e3d6b-154">Click **Run now**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="e3d6b-155">其他资源</span><span class="sxs-lookup"><span data-stu-id="e3d6b-155">Additional resources</span></span>
+### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a><span data-ttu-id="b6e49-136">向屏幕右侧的按钮网格添加“建议”选项卡</span><span class="sxs-lookup"><span data-stu-id="b6e49-136">Add a Recommendations tab to the button grid on the right side of the screen</span></span>
 
-[<span data-ttu-id="e3d6b-156">个性化产品建议概览</span><span class="sxs-lookup"><span data-stu-id="e3d6b-156">Personalized product recommendations overview</span></span>](personalized-product-recommendations.md)
+1. <span data-ttu-id="b6e49-137">在页面右侧按钮网格中最后一个选项卡下空白区域中右键单击。</span><span class="sxs-lookup"><span data-stu-id="b6e49-137">Right-click in the empty space below the last tab on the button grid located on the right side of the page.</span></span>
+
+2. <span data-ttu-id="b6e49-138">单击**自定义**。</span><span class="sxs-lookup"><span data-stu-id="b6e49-138">Click **Customize**.</span></span>
+
+    <span data-ttu-id="b6e49-139">[![自定义 - 选项卡控件对话框](./media/pic-5.png)](./media/pic-5.png)</span><span class="sxs-lookup"><span data-stu-id="b6e49-139">[![Customization - Tab control dialog box](./media/pic-5.png)](./media/pic-5.png)</span></span>
+
+3. <span data-ttu-id="b6e49-140">单击**新建选项卡**。</span><span class="sxs-lookup"><span data-stu-id="b6e49-140">Click **New tab**.</span></span>
+4. <span data-ttu-id="b6e49-141">找到刚添加的新选项卡。</span><span class="sxs-lookup"><span data-stu-id="b6e49-141">Find the new tab that you just added.</span></span> <span data-ttu-id="b6e49-142">您可能需要向下滚动。</span><span class="sxs-lookup"><span data-stu-id="b6e49-142">You may need to scroll down.</span></span>
+5. <span data-ttu-id="b6e49-143">在**目录**下拉菜单中，选择**建议的产品**。</span><span class="sxs-lookup"><span data-stu-id="b6e49-143">In the **Contents** drop-down, select **Recommended products**.</span></span>
+
+    <span data-ttu-id="b6e49-144">[![在“目录”字段中选择“建议的产品”](./media/pic-6.png)](./media/pic-6.png)</span><span class="sxs-lookup"><span data-stu-id="b6e49-144">[![Selecting Recommended products in the Contents field](./media/pic-6.png)](./media/pic-6.png)</span></span>
+
+6. <span data-ttu-id="b6e49-145">在**标签**字段，键入建议选项卡的名称。例如，键入“建议的产品”。</span><span class="sxs-lookup"><span data-stu-id="b6e49-145">In the **Label** field, type a name for the recommendations tab. For example, type 'Recommended products'.</span></span>
+7. <span data-ttu-id="b6e49-146">在**图像**字段中，选择要在该选项卡上显示的图像。</span><span class="sxs-lookup"><span data-stu-id="b6e49-146">In the **Image** field, select the image to appear on the tab.</span></span>
+8. <span data-ttu-id="b6e49-147">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="b6e49-147">Click **OK**.</span></span> <span data-ttu-id="b6e49-148">将在按钮网格中显示新选项卡。</span><span class="sxs-lookup"><span data-stu-id="b6e49-148">The new tab appears in the button grid.</span></span>
+9. <span data-ttu-id="b6e49-149">单击 **X** 保存并退出布局设计器。</span><span class="sxs-lookup"><span data-stu-id="b6e49-149">Click the **X** to save and exit Layout designer.</span></span>
+10. <span data-ttu-id="b6e49-150">在 Dynamics 365 for Retail 中，转到**零售** &gt; **零售 IT** &gt; **配送计划**。</span><span class="sxs-lookup"><span data-stu-id="b6e49-150">In Dynamics 365 for Retail, go to **Retail** &gt; **Retail IT** &gt; **Distribution schedules**.</span></span>
+11. <span data-ttu-id="b6e49-151">在列表中，选择 **1090 收银机**。</span><span class="sxs-lookup"><span data-stu-id="b6e49-151">In the list, select **1090 Registers**.</span></span>
+12. <span data-ttu-id="b6e49-152">单击**立即运行**。</span><span class="sxs-lookup"><span data-stu-id="b6e49-152">Click **Run now**.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="b6e49-153">其他资源</span><span class="sxs-lookup"><span data-stu-id="b6e49-153">Additional resources</span></span>
+
+[<span data-ttu-id="b6e49-154">POS 中的产品建议</span><span class="sxs-lookup"><span data-stu-id="b6e49-154">product recommendations on POS</span></span>](product.md)
+
+[<span data-ttu-id="b6e49-155">产品建议概述</span><span class="sxs-lookup"><span data-stu-id="b6e49-155">product recommendations overview</span></span>](../commerce/product-recommendations.md)
