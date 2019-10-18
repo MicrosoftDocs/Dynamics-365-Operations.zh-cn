@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent Core HR（2019 年 1 月 23 日）中的新增功能或更改
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新增功能和更改的功能。
+title: Dynamics 365 Talent - Core HR（2019 年 1 月 23 日）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 Talent - Core HR 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 01/23/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4e492095d5269ec81c0c22145b7af356937c256b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: f1983d5a58fb2e6b1984727e1d7b44803b94cdce
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742508"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023968"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-january-23-2019"></a>Dynamics 365 for Talent Core HR（2019 年 1 月 23 日）中的新增功能或更改
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-january-23-2019"></a>Dynamics 365 Talent: Core HR（2019 年 1 月 23 日）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
@@ -53,5 +53,5 @@ ms.locfileid: "1742508"
 ### <a name="probation-period-and-calendar-are-not-displayed-for-future-hired-employees"></a>试用期和日历没有为将来雇用的员工显示。
 通过此更改，**试用期**和**日历**字段已添加到**管理更改**页以允许将来以及过去员工的数据输入。
 
-### <a name="platform-update-23"></a>平台 update 23
-细微缺陷修复作为平台更新 23 的一部分包括在内。 有关详细信息，请参阅 [Dynamics 365 for Finance and Operations 平台更新 23（2019 年 1 月）的新增功能和更改内容](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23)。 
+### <a name="platform-update-23-for-finance-and-operations"></a>Finance and Operations 的平台更新 23
+细微缺陷修复作为 Finance and Operations 的平台更新 23 的一部分包括在内。 有关详细信息，请参阅 [Dynamics 365 Finance and Operations 平台更新 23（2019 年 1 月）的新增功能和更改内容](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23)。 

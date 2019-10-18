@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00d7457b13e6633c9285a1fc43b8f6dd60dae9ae
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 555098a7d11cb0b4c0f90357ff260598e80108f5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836524"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017912"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>确定叠加折扣的最佳组合
 
@@ -32,7 +32,7 @@ ms.locfileid: "1836524"
 
 折扣叠加时，必须确定将产生最低交易记录总额或最高折扣总额的叠加折扣组合。 当折扣金额根据购买的产品价格变化时（如常见的“第二件打折 (BOGO) 零售折扣），此过程就成为了组合优化问题。
 
-本文适用于带 KB 3105973 的 Microsoft Dynamics AX 2012 R3（发布日期为 2015 年 11 月 2 日），以及 Microsoft Dynamics 365 for Retail。 要确定要及时应用的叠加折扣组合，我们引入了一种应用叠加折扣的方法。 我们把这种方法称为**临界值分级**。 当评估叠加折扣的可行组合所需时间超过了可在**零售参数**页面上配置的阈值时，使用临界值方法。 在临界值分级方法中，将通过使用共享产品的折扣值，计算各叠加折扣的值。 然后将叠加折扣从最高相对值应用于最低相对值。 有关这种新方法的详细信息，请参阅本文后面的“临界值”部分。 产品的折扣金额不受交易记录中的其他产品影响时，不使用临界值分级。 例如，此方法不用于两个简单折扣，也不用于一个简单折扣加单一产品数量折扣。
+本文适用于带 KB 3105973 的 Microsoft Dynamics AX 2012 R3（发布日期为 2015 年 11 月 2 日），以及 Dynamics 365 Retail。 要确定要及时应用的叠加折扣组合，我们引入了一种应用叠加折扣的方法。 我们把这种方法称为**临界值分级**。 当评估叠加折扣的可行组合所需时间超过了可在**零售参数**页面上配置的阈值时，使用临界值方法。 在临界值分级方法中，将通过使用共享产品的折扣值，计算各叠加折扣的值。 然后将叠加折扣从最高相对值应用于最低相对值。 有关这种新方法的详细信息，请参阅本文后面的“临界值”部分。 产品的折扣金额不受交易记录中的其他产品影响时，不使用临界值分级。 例如，此方法不用于两个简单折扣，也不用于一个简单折扣加单一产品数量折扣。
 
 ## <a name="discount-examples"></a>折扣示例
 

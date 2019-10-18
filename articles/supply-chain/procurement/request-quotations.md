@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2276f5296a77d620e0084c0247b1e25071fe029
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: bb5255236fc48132d4d68dc6f515f32e7ec71dae
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865272"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248834"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>询价 (RFQ) 概览
 
@@ -48,16 +48,13 @@ ms.locfileid: "1865272"
 
 准备询价案例并添加供应商后，请在询价案例上选择**发送**（对于公共部门则选择**发送和发布**）。 将为您发送询价的每个供应商生成询价日记帐。 您可以为“发送”操作配置打印选项，从而为每个供应商打印报表以存档，或将报表发送到每个供应商的电子邮件地址。 此外，您可以使用每个供应商的询价日记帐来生成您可以发送或在以后重新发送到供应商的报表。 您还可以配置“发送”操作，从而生成供应商可以填写的回复表。
 
-此主题介绍不使用供应商协作时处理询价的流程。 如果您的系统已经对供应商协作进行了设置，供应商可以直接在 Microsoft Dynamics 365 for Finance and Operations 中出价。 有关详细信息，请参阅[供应商与客户的协作](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations)和[供应商与外部供应商的协作](vendor-collaboration-work-external-vendors.md)。
+此主题介绍不使用供应商协作时处理询价的流程。 如果您的系统已经对供应商协作进行了设置，供应商可以直接在 Supply Chain Management 中出价。 有关详细信息，请参阅[供应商与客户的协作](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations)和[供应商与外部供应商的协作](vendor-collaboration-work-external-vendors.md)。
 
 如果您在发送询价后必须对其进行改正，可以在完成后，使用两个改正操作：“创建”和“完成”来重新向供应商发送询价。+
 
 在您通过电子邮件收到出价时，必须通过**询价**页处理这些出价。
 
 如果要求供应商提供回复的第二个迭代，则选择**询价回复**页的**返回**。 “返回”操作根据您的打印设置生成要打印、存档和发送的新日记帐和报表。
-
-> [!NOTE]
-> 已更改了**询价**页的名称。 在 Dynamics 365 for Finance and Operations 早期版本中，此页称为**询价回复**。
 
 如果您已添加了计分条件到您的询价案例，询价将具有您可以输入分数的计分面板。 当您在**比较回复**页上比较回复时，询价将显示总分数。 在**比较回复**页上，您还可以比较其他回复数据，例如行价格、交货日期和总价。
 

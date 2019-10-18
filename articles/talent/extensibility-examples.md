@@ -1,13 +1,13 @@
 ---
 title: 使用 PowerApps 和 Microsoft Flow 扩展 Talent - 示例方案
-description: 本主题介绍 Microsoft Dynamics 365 for Talent 的一些使用 Microsoft PowerApps 和 Microsoft Flow 的可扩展性方案示例。
+description: 本主题介绍 Microsoft Dynamics 365 Talent 的一些使用 Microsoft PowerApps 和 Microsoft Flow 的可扩展性方案示例。
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
+ms.technology: Dynamics 365 Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
-ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
+ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1781434"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008051"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>使用 PowerApps 和 Microsoft Flow 扩展 Talent - 示例方案
 
-本主题介绍 Microsoft Dynamics 365 for Talent 的一些使用 Microsoft PowerApps 和 Microsoft Flow 的可扩展性方案示例。 可以将与各示例关联的解决方案包导入到您的 PowerApps 环境中。 然后可以将这些包用作指南或起点来实施适用于贵组织的方案。
+本主题介绍 Microsoft Dynamics 365 Talent 的一些使用 Microsoft PowerApps 和 Microsoft Flow 的可扩展性方案示例。 可以将与各示例关联的解决方案包导入到您的 PowerApps 环境中。 然后可以将这些包用作指南或起点来实施适用于贵组织的方案。
 
 > [!IMPORTANT]
 > 如果要“照原样”使用本主题中介绍的模板和应用，请务必测试这些模板和应用，以确保其涵盖特定于您的实施的所有方案。
@@ -79,7 +79,7 @@ ms.locfileid: "1781434"
 
 可扩展此模板以在整个招聘流程中跟踪对应聘者阶段的更改，以及向招聘团队和应聘者发送通知。
 
-总之，对于 Common Data Service 中存储的实体，可以设置流程以发送有关 Core HR、Attract 或 Dynamics 365 Talent: Onboard 中发生的事件的通知。
+总之，对于 Common Data Service 中存储的实体，可以设置流程以发送有关 Core HR、Attract 或 Onboard 中发生的事件的通知。
 
 若要下载**流 – 电子邮件通知**模板，请转到 Microsoft 下载中心中的[流 – 电子邮件通知](https://go.microsoft.com/fwlink/?linkid=2082103)。
 
@@ -106,7 +106,7 @@ ms.locfileid: "1781434"
 
 您可以将此应用嵌入到员工自助服务 (ESS) 中来提交引荐，或者可以将其用作企业门户中的超链接，也可以作为独立应用运行。
 
-要下载 **Referral 应用**，在 Microsoft 下载中心转到 [Dynamics 365 for Talent 可扩展性解决方案：Referral 应用](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d)。 您可以导入此应用并对其进行自定义来添加其他功能。
+要下载 **Referral 应用**，在 Microsoft 下载中心转到 [Dynamics 365 Talent 可扩展性解决方案：Referral 应用](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d)。 您可以导入此应用并对其进行自定义来添加其他功能。
 
 ## <a name="additional-resources"></a>其他资源
 

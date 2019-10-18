@@ -1,6 +1,6 @@
 ---
-title: 将直接来自 Finance and Operations 的销售发票标题和行同步到 Sales
-description: 本主题讨论用于将来自 Microsoft Dynamics 365 for Finance and Operations 的销售发票标题和行直接同步到 Microsoft Dynamics 365 for Sales 的模板和基础任务。
+title: 将 Sales 的销售发票头和行直接从 Supply Chain Management 同步到 Sales
+description: 本主题讨论用于将销售发票头和行直接从 Dynamics 365 Sales 同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
@@ -19,28 +19,28 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 70fc842463254b02d812447f93970a9da676057d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 94442eb11aac3faf8a412944617686853a12128d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552922"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251653"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>将 Finance and Operations 的销售发票标题和行直接同步到 Sales
 
 [!include [banner](../includes/banner.md)]
 
-本主题讨论用于将来自 Microsoft Dynamics 365 for Finance and Operations 的销售发票标题和行直接同步到 Microsoft Dynamics 365 for Sales 的模板和基础任务。
+本主题讨论用于将销售发票头和行直接从 Dynamics 365 Sales 同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
 
 ## <a name="data-flow-in-prospect-to-cash"></a>“从目标客户到现金”中的数据流
 
-“从目标客户到现金”使用“数据集成”功能来同步 Finance and Operations 与 Sales 之间的示例的数据。 提供“数据集成”功能的“从目标客户到现金”模板启用 Finance and Operations 与 Sales 之间的有关帐户、联系人、产品、销售报价、销售订单和销售发票的数据流。 下图显示 Finance and Operations 与 Sales 之间的数据如何同步。
+“从目标客户到现金”使用“数据集成”功能来同步 Supply Chain Management 与 Sales 之间的示例的数据。 提供“数据集成”功能的“从目标客户到现金”模板启用 Finance and Operations 与 Sales 之间的有关帐户、联系人、产品、销售报价、销售订单和销售发票的数据流。 下图显示 Supply Chain Management 与 Sales 之间的数据如何同步。
 
 [![“从目标客户到现金”中的数据流](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>模板和任务
 
-若要访问可用模板，打开 [PowerApps 管理员中心](https://preview.admin.powerapps.com/dataintegration)。 选择**项目**，然后在右上角，选择**新项目**以选择公共模板。
+若要访问可用模板，打开 [PowerApps 管理中心](https://preview.admin.powerapps.com/dataintegration)。 选择**项目**，然后在右上角，选择**新项目**以选择公共模板。
 
 以下模板和基础任务用于将来自 Finance and Operations 的销售发票标题和行同步到 Sales：
 
@@ -52,30 +52,30 @@ ms.locfileid: "1552922"
 
 在发生销售发票标头和行同步前，需要执行以下同步任务：
 
-- 产品（从 Fin and Ops 到 Sales）- 直接
-- 帐户（从 Sales 到 Fin and Ops）- 直接（如果使用）
-- 联系人（从 Sales 到 Fin and Ops）- 直接（如果使用）
-- 销售订单标题和行（从 Fin and Ops 到 Sales）- 直接
+- 产品（Supply Chain Management 到 Sales）- 直接
+- 科目（Sales 到 Supply Chain Management）- 直接（如果使用）
+- 联系人（Sales 到 Supply Chain Management）- 直接（如果使用）
+- 销售订单头和行（Supply Chain Management 到 Sales）- 直接
 
 ## <a name="entity-set"></a>实体集
 
-| Finance and Operations                               | 销售          |
+| 供应链管理                              | 销售额          |
 |------------------------------------------------------|----------------|
 | 外部维护的客户销售发票抬头 | 发票       |
 | 外部维护的客户销售发票行   | InvoiceDetails |
 
 ## <a name="entity-flow"></a>实体流
 
-销售发票在 Finance and Operations 中创建并同步到 Sales。
+销售发票在 Supply Chain Management 中创建并同步到 Sales。
 
 > [!NOTE]
-> 目前，与销售发票标题上的费用关联的税金不包括在从 Finance and Operations 到 Sales 的同步中。 Sales 不支持标题级别的税务信息。 但是，与行级别的费用相关的税包括在同步中。
+> 目前，与销售发票标题上的费用关联的税金不包括在从 Supply Chain Managements 到 Sales 的同步中。 Sales 不支持标题级别的税务信息。 但是，与行级别的费用相关的税包括在同步中。
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>用于 Sales 的“从目标客户到现金”解决方案
 
 - **发票编号**字段已添加到**发票**实体中并显示在页面上。
-- **销售订单**页上的**创建发票**按钮被隐藏，因为将在 Finance and Operations 中创建发票并同步到 Sales。 **发票**页不可编辑，因为发票将从 Finance and Operations 同步。
-- 当关联的发票从 Finance and Operations 同步到 Sales 后，**销售订单状态**值自动更改为**已开票**。 而且，创建发票的销售订单的所有者被指定为发票的所有者。 因此，销售订单的所有者可以查看发票。
+- **销售订单**页上的**创建发票**按钮被隐藏，因为将在 Supply Chain Management 中创建发票并同步到 Sales。 **发票**页不可编辑，因为发票将从 Supply Chain Management 同步。
+- 当关联的发票从 Supply Chain Management 同步到 Sales 后，**销售订单状态**值自动更改为**已开票**。 而且，创建发票的销售订单的所有者被指定为发票的所有者。 因此，销售订单的所有者可以查看发票。
 
 ## <a name="preconditions-and-mapping-setup"></a>先决条件和映射设置
 
@@ -103,7 +103,7 @@ ms.locfileid: "1552922"
 #### <a name="salesinvoiceline-task"></a>SalesInvoiceLine 任务
 
 - 确保存在所需的**度量单位**的映射。
-- 确保所需的 **SalesUnitSymbol** 的值映射在 Finance and Operations 中存在。
+- 确保在 Supply Chain Management 中存在所需的 **SalesUnitSymbol** 值映射。
 
     为 **SalesUnitSymbol** 到 **Quantity\_UOM** 定义了具有值映射的模板值。
 
@@ -115,7 +115,7 @@ ms.locfileid: "1552922"
 下图显示了数据集成中的模板映射的一个示例。 
 
 > [!NOTE]
-> 此映射显示将从 Sales 同步到 Finance and Operations 的字段信息。
+> 此映射显示将从 Sales 同步到 Supply Chain Management 的字段信息。
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
@@ -129,18 +129,12 @@ ms.locfileid: "1552922"
 
 ## <a name="related-topics"></a>相关主题
 
-[从目标客户到现金](prospect-to-cash.md)
+[现金的目标客户](prospect-to-cash.md)
 
-[将直接来自 Sales 的客户同步到 Finance and Operations](accounts-template-mapping-direct.md)
+[将 Sales 的客户直接同步到 Supply Chain Management 中的客户](accounts-template-mapping-direct.md)
 
-[将 Finance and Operations 的产品直接同步到 Sales](products-template-mapping-direct.md)
+[将 Supply Chain Management 的产品直接同步到 Sales](products-template-mapping-direct.md)
 
-[将 Sales 的联系人直接同步到 Finance and Operations 的联系人或客户](contacts-template-mapping-direct.md)
+[将 Sales 的联系人直接同步到 Supply Chain Management 中的联系人或客户](contacts-template-mapping-direct.md)
 
-[将直接来自 Finance and Operations 的销售订单标题和行同步到 Sales](sales-order-template-mapping-direct-two-ways.md)
-
-
-
-
-
-
+[将 Sales 的销售订单头和行直接从 Supply Chain Management 同步到 Sales](sales-order-template-mapping-direct-two-ways.md)

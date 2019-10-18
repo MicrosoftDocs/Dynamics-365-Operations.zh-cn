@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 449a1f574cd32860cbdc2e43f21be1d3d692768f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553545"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025094"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>设置零售销售优惠券
 
@@ -37,10 +37,10 @@ ms.locfileid: "1553545"
 
 优惠券基本上是零售折扣顶部的附加验证。 优惠券提供必需的优惠券代码和条码，以及这些代码的日期范围。 优惠券还提供可选使用限制和客户要求的属性。 折扣提供优惠券对其有效的产品集。 折扣的价格组提供优惠券对其有效的客户、渠道或目录集。
 
-要创建优惠券，须分开创建折扣和优惠券。 之后可以在 Microsoft Dynamics 365 for Retail 中通过选择优惠券页面上的折扣将它们关联。
+要创建优惠券，须分开创建折扣和优惠券。 之后可以在 Retail 中通过选择优惠券页面上的折扣将它们关联。
 
 > [!NOTE]
-> 优惠券关联到折扣后，Microsoft Dynamics 365 for Retail 折扣页上的多个字段变为只读，因为其由优惠券的设置管理。 这些字段包括用于状态和标准日期范围的字段。
+> 优惠券关联到折扣后，Retail 折扣页上的多个字段变为只读，因为其由优惠券的设置管理。 这些字段包括用于状态和标准日期范围的字段。
 
 ### <a name="limited-use-coupons"></a>有限使用的优惠券
 
@@ -75,7 +75,7 @@ ms.locfileid: "1553545"
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>部分更新对优惠券的影响
 
-优惠券功能包括 Dynamics 365 for Retail 中的多个独特功能。 Microsoft Dynamics 365 for Retail 总部 (HQ) 和渠道可以跨组件部分更新。 因此，了解部分更新对优惠券功能总体的影响十分重要。
+优惠券功能包括多个独特功能。 Dynamics 365 Retail 总部 (HQ) 和渠道可以跨组件部分更新。 因此，了解部分更新对优惠券功能总体的影响十分重要。
 
 - **HQ 被部分更新，但 Retail 服务器和 POS 不更新。** 在 HQ 更新中，优惠券和折扣页更新，零售价格引擎也更新。 如果两个组件中仅有一个更新，则 Retail 中的部分页面与价格计算数据不匹配。 因此，在折扣计算期间可能发生意外折扣计算或错误。
 - **HQ 更新，但 Retail 服务器和 POS 不更新 (N-1)。** 由于并非所有的零售商店可以同时更新，因此我们建议您在更新零售商店前更新 HQ。 在 N-1 方案中，与优惠券相关的新功能在尚未更新的商店中不可用。 例如，优惠券功能引入“排除”行。 如果您对折扣使用排除行，则其不会应用在运行较早版本的零售商店中。

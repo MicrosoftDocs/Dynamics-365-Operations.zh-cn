@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 00facce5913fb82f67c5844d74d29032735db707
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d95429dde38a7a528b1c1d9036194a3bf8e6f986
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1506095"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009437"
 ---
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>设置特定于公司的人力资源 (HR) 参数
 
@@ -34,7 +34,7 @@ ms.locfileid: "1506095"
 提供了两个页面来设置人力资源 (HR) 参数。 对于跨公司共享的参数，您可使用**人力资源共享参数**页。 对于特定于公司的参数（换句话说，这些设置将应用于单个公司），您可使用**人力资源参数**页。 在**人力资源参数**页上，设置在 6 个选项卡之间分配：
 
 -   常规
--   招聘 - 不包括在 Dynamics 365 for Talent 中
+-   招聘 - 不包括在 Dynamics 365 Talent 中
 -   薪酬
 -   编号规则
 -   家庭医疗休假法 (FMLA)
@@ -49,7 +49,7 @@ ms.locfileid: "1506095"
 ### <a name="previously-released-functionality"></a>以前发布的功能
 **编号规则**选项卡上的设置确定用于自动将 ID 分配到人力资源中的项目（例如，申请、缺勤登记、薪酬流程结果、案例编号、课程和课程安排）的顺序。 要维护编号规则引用和代码，可使用**编号规则**列表页（单击**组织管理** &gt; **编号规则** &gt; **编号规则**）。
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>如果您使用的是 Dynamics 365 for Talent
+### <a name="if-youre-using-dynamics-365-talent"></a>如果您使用的是 Dynamics 365 Talent
 **编号规则**选项卡上的设置确定用于自动将 ID 分配到人力资源中的项目（例如，申请、缺勤登记、薪酬流程结果、案例编号、课程和课程安排）的顺序。 要维护编号规则引用和代码，可使用**编号规则**列表页（单击**系统管理** &gt; **链接选项卡** &gt; **编号规则** &gt; **编号规则**）。 
 
 **FMLA**选项卡上的设置定义员工为获得享受 FMLA 权益的资格而必须工作的小时数、获得资格所需的雇用时长以及用于确定雇用时长的雇用开始日期。 此类设置还定义员工有资格获得的 FMLA 小时数以及用于计算员工已使用的 FMLA 小时数的 FMLA 假期日历。 **FMLA**选项卡仅对位于美国的公司可用。 

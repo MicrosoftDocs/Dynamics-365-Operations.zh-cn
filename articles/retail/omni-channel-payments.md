@@ -1,6 +1,6 @@
 ---
 title: 全渠道付款概述
-description: 本主题提供有关 Microsoft Dynamics 365 for Retail 中的全渠道付款的概述。
+description: 本主题提供有关 Dynamics 365 Retail 中的全渠道付款的概述。
 author: rubendel
 manager: AnnBe
 ms.date: 05/12/2019
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 78a4538d5b4854a4c87417acc156bcfb7c0da01d
-ms.sourcegitcommit: 45eeca48c6cb4f3f94d61392f4f99a52dc443a97
+ms.openlocfilehash: b16b0cedaa2b908d2707eb7076f82f3513d00b62
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "1606184"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017566"
 ---
 # <a name="omni-channel-payments-overview"></a>全渠道付款概述
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关 Microsoft Dynamics 365 for Retail 中的全渠道付款的概述。 其中包括丰富的受支持方案列表、有关功能的信息、设置、疑难解答和某些典型问题的说明。
+本主题提供有关 Dynamics 365 Retail 中的全渠道付款的概述。 其中包括丰富的受支持方案列表、有关功能的信息、设置、疑难解答和某些典型问题的说明。
 
 ## <a name="key-terms"></a>重要术语
 

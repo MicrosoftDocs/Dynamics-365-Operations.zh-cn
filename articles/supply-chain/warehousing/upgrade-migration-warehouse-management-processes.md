@@ -1,5 +1,5 @@
 ---
-title: 将仓库管理从 Microsoft Dynamics AX 2012 升级到 Finance and Operations
+title: 将仓库管理从 Microsoft Dynamics AX 2012 升级到 Supply Chain Management
 description: 此主题提供产品和仓库管理迁移选项的概览。
 author: perlynne
 manager: AnnBe
@@ -18,29 +18,29 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c3dcb75653743d0d135eda197c6330f3ee9c5383
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554038"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251423"
 ---
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>将仓库管理从 Microsoft Dynamics AX 2012 升级到 Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>将仓库管理从 Microsoft Dynamics AX 2012 升级到 Supply Chain Management 
 
 
 [!include [banner](../includes/banner.md)]
 
-此主题概述运行 WMSII 模块从 Microsoft Dynamics AX 2012 R3 升级到 Microsoft Dynamics 365 for Finance and Operations 的过程。
+此主题概述运行 WMSII 模块从 Microsoft Dynamics AX 2012 R3 升级到 Supply Chain Management 的过程。
 
-Finance and Operations 不再支持来自 Microsoft Dynamics AX 2012 的旧 **WMSII** 模块。 相反，您可以使用**仓库管理**模块。 在 WMSII 模块中，可为财务库存选择“库位”和“托盘 ID”库存维度，但是在 Finance and Operations 中，不能将“托盘 ID”库存维度用于财务库存。
+Supply Chain Management 不再支持来自 Microsoft Dynamics AX 2012 的旧 **WMSII** 模块。 相反，您可以使用**仓库管理**模块。 在 WMSII 模块中，可为财务库存选择“库位”和“托盘 ID”库存维度，但是在 Supply Chain Management 中，不能将“托盘 ID”库存维度用于财务库存。
 
 升级期间，将标识与使用“托盘 ID”库存维度的存储维度组关联的所有产品，并标记为已锁定，不可为升级处理。
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>使用 AX 2012 R3 WMSII 时，升级到 Finance and Operations
+## <a name="upgrading-to-supply-chain-management-when-ax-2012-r3-wmsii-is-used"></a>使用 AX 2012 R3 WMSII 时升级到 Supply Chain Management
 在升级后，您可以使用**更改物料的存储维度组**窗体中的一组选项取消锁定在升级期间被锁定的产品，然后处理这些产品的交易记录。
 
-### <a name="enabling-items-in-finance-and-operations"></a>在 Finance and Operations 中启用物料
-需要执行此更改，因为在 Finance and Operations 中，物料跟踪是仓库管理流程的一部分。 对于这些流程，所有仓库及其库位必须与库位模板相关联。 如果您要使用仓库管理流程，则必须配置以下设置：
+### <a name="enabling-items-in-supply-chain-management"></a>在 Supply Chain Management 中启用物料 
+需要执行此更改，因为在 Supply Chain Management 中，物料跟踪是仓库管理流程的一部分。 对于这些流程，所有仓库及其库位必须与库位模板相关联。 如果您要使用仓库管理流程，则必须配置以下设置：
 -   必须启用现有仓库以使用仓库管理流程 
 -   现有的已发布的产品必须与使用仓库管理流程的存储维度组相关联 
 

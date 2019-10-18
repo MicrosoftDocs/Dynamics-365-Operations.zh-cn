@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7024104dfc76a33735199ad0871fe7ce29f8e011
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570380"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248914"
 ---
 # <a name="purchase-agreements"></a>采购协议
 
@@ -78,7 +78,7 @@ ms.locfileid: "1570380"
 在创建采购订单时，可以对它应用采购协议。 协议条款中的信息，例如付款期限、交货期限和交货地址，随后会复制到采购订单的标题中。 如果采购订单包含协议所涉及的一个或多个产品或类别行，则采购协议中的价格和折扣用于这些行。 订单行上的金额或数量对履行采购协议中的承诺有贡献。 同一个采购订单可以包括不与采购协议和具有采购协议承诺的行的两行。  
 
 只有当您创建采购订单时，才可以选择采购协议。 在已创建采购订单后，您不能选择采购协议。  
-在某些情况下间接创建采购订单，您可以控制 Finance and Operations 是否自动搜索适用的采购协议。 例如，在您自动确定计划的采购订单或基于销售订单创建的采购订单时，您可以执行这些操作。
+在某些情况下间接创建采购订单，您可以控制 Supply Chain Management 是否自动搜索适用的采购协议。 例如，在您自动确定计划的采购订单或基于销售订单创建的采购订单时，您可以执行这些操作。
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>采购协议和内部公司交易
 内部公司贸易关系可以在不同的法人中的供应商帐户和客户帐户之间创建。 在为其中一个当事方创建销售订单或采购订单时，创建内部公司订单链。 在订单链中，在相应法人中创建销售订单和采购订单。  

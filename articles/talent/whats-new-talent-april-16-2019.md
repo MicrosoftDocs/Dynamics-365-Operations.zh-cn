@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent（2019 年 4 月 16 日）中的新增功能或更改
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent 中的新增功能和更改的功能。
+title: Dynamics 365 Talent（2019 年 4 月 16 日）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/16/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: adf8f470b00a565c62a27f857d490c6c000b21d8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0781a479ebf37334d8eba18ea6d69d7cfb9db9ea
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517405"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024129"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-16-2019"></a>Dynamics 365 for Talent（2019 年 4 月 16 日）中的新增功能或更改
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Dynamics 365 Talent（2019 年 4 月 16 日）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍了 Dynamics 365 for Talent 中的新增功能和更改的功能。
+此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
 ## <a name="changes-in-attract"></a>Attract 中的更改
 
@@ -47,11 +47,11 @@ ms.locfileid: "1517405"
 
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Common Data Service 中的“薪酬区域”、“薪酬级别”、“福利选项”和“技能类型”实体已更新，现在包含客户字段支持。
 
-在此版本中，已将这些 Common Data Service 实体更新为可包含通过 Talent (Core HR) 添加的自定义字段。
+在此版本中，已将这些 Common Data Service 实体更新为可包含通过 Talent: Core HR 添加的自定义字段。
 
 ### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>新增了对以下 Common Data Service 实体的支持：“薪酬股份行权规则”、“薪酬可变计划”、“可变薪酬”
 
-在此版本中，已向 Common Data Service 添加了“薪酬股份行权规则”、“薪酬可变计划”和“可变薪酬”实体。 这些实体也支持通过 Talent (Core HR) 添加的自定义字段。
+在此版本中，已向 Common Data Service 添加了“薪酬股份行权规则”、“薪酬可变计划”和“可变薪酬”实体。 这些实体也支持通过 Talent: Core HR 添加的自定义字段。
 
 ### <a name="powerbi-refresh-issues-314342"></a>PowerBI 刷新问题 (314342)
 
@@ -95,6 +95,6 @@ ms.locfileid: "1517405"
 
 ### <a name="email-support-for-alerts"></a>警报的电子邮件支持
 
-安装平台更新 25 之后，用户可创建警报规则，用于在被事件触发后自动向联系人发送电子邮件通知。
+安装 Finance and Operations 的平台更新 25 之后，用户可创建警报规则，用于在被事件触发后自动为联系人发送电子邮件通知。
 
 

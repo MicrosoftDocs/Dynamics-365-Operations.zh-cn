@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f08829bccbaea6fb70563e553f9042300b4d5ea9
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: fbaa467c22656aa8d1e39d26a8233250e2bb66f8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837990"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026593"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>销售税分配和覆盖
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-此过程演示如何为零售渠道分配增值税组。 还逐步演示了新建增值税覆盖并分配给现有增值税覆盖组的过程。 此过程
-
-在演示数据中使用 USRT 公司。
+此过程演示如何为零售渠道分配增值税组。 还逐步演示了新建增值税覆盖并分配给现有增值税覆盖组的过程。 此程序使用 USRT 演示数据公司。
 
 1. 转至“零售和商业”>“渠道”>“零售商店”>“所有零售商店”。
 2. 在列表中，单击“休斯敦”的“零售渠道 ID”链接。

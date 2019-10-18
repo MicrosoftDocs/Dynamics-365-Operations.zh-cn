@@ -1,6 +1,6 @@
 ---
 title: 创建、审核和签署聘约
-description: 此主题详细介绍如何使用 Dynamics 365 for Talent 为应聘者创建、审核和签署聘约。
+description: 此主题详细介绍如何使用 Dynamics 365 Talent 为应聘者创建、审核和签署聘约。
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/26/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8c5f95f1d3be22a73cc42cb3667b793490f2a136
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: b9ccd22e218137637cc0bbde0d4ad19a28591731
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739625"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008097"
 ---
 # <a name="create-approve-and-sign-offers"></a>创建、审核和签署聘约
 
@@ -110,7 +110,7 @@ ms.locfileid: "1739625"
 如果 Adobe Sign 被选择作为首选电子签名方法，聘约创建者将需要在此步骤中连接其 Adobe Sign 许可证。 
 
 ### <a name="docusign"></a>DocuSign
-如果 DocuSign 被选择作为首选电子签名方法，聘约创建者将需要连接其 DocuSign 许可证。 登录后，将把与用户的 DocuSign 个人资料关联的默认帐户和权限连接到 Talent Attract。 
+如果 DocuSign 被选择作为首选电子签名方法，聘约创建者将需要连接其 DocuSign 许可证。 登录后，将把与用户的 DocuSign 个人资料关联的默认帐户和权限连接到 Talent: Attract。 
 
 -  您可以根据需要查看和编辑电子邮件模板。
 

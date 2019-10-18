@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: a8167545864a1cc2fc22f044f7d16ca590d59b43
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ef269740123e17c204dd6ce244b75615229cbd49
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517460"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010629"
 ---
 # <a name="set-up-human-resources-hr-parameters-across-legal-entities"></a>跨法人设置人力资源 (HR) 参数
 
@@ -38,7 +38,7 @@ ms.locfileid: "1517460"
 ### <a name="previously-released-functionality"></a>以前发布的功能
 在**标识**选项卡上，您必须选择表示页面上列出的标识号的标识类型。 在您可以输入工作的人员的标识信息之前，必须设置标识类型。 有关社会保险号、国家/地区 ID 号、侨民 ID 号和个人 ID 代码的信息保留在**标识类型**页上。 要定义新的标识类型或检查现有类型的列表，请单击**人事管理** &gt; **链接选项卡** &gt; **设置** &gt; **标识类型**。 您可以输入简单的代码和描述。 
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>如果您使用的是 Dynamics 365 for Talent
+### <a name="if-youre-using-dynamics-365-talent"></a>如果您使用的是 Dynamics 365 Talent
 在**标识**选项卡上，您必须选择表示页面上列出的标识号的标识类型。 在您可以输入工作的人员的标识信息之前，必须设置标识类型。 有关社会保险号、国家/地区 ID 号、侨民 ID 号和个人 ID 代码的信息保留在**标识类型**页上。 要定义新的标识类型或检查现有类型的列表，请单击**人力资源** &gt; **设置** &gt; **标识类型**。 您可以输入简单的代码和描述。 
 
 在**编号规则**选项卡上，您可以选择用于以下记录的编号规则：人员编号、职位、用户请求 ID、I-9 文档、申请人、讨论、福利 ID 和人事操作（如果此记录类型已启用）。 要维护编号规则引用和代码，请使用**编号规则**列表页。 要查找此页，请使用页搜索功能。 

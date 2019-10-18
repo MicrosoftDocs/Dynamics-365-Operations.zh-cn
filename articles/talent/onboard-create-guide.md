@@ -1,6 +1,6 @@
 ---
-title: 使用 Dynamics 365 for Talent - Onboard 创建和发送入职指南
-description: 本主题说明如何使用 Microsoft Dynamics 365 for Talent - Onboard 应用为新雇员创建入职指南。 此任务是人力资本管理 (HCM) 雇佣退休战略的重要的第一步。
+title: 使用 Dynamics 365 Talent - Onboard 创建和发送入职指南
+description: 本主题说明如何使用 Microsoft Dynamics 365 Talent - Onboard 应用为新雇员创建入职指南。 此任务是人力资本管理 (HCM) 雇佣退休战略的重要的第一步。
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: de5d584e3b7edba2751aa0c83b0465df2c3e4f7d
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: e4dbfcc3b3fd611eea36109a516a7b9361a9f654
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731382"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009846"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-for-talent-onboard"></a>使用 Dynamics 365 for Talent: Onboard 创建和发送入职指南
+# <a name="create-and-send-an-onboarding-guide"></a>创建和发送入职指南
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard 允许您从自己创建的模板、库中可用的模板或从头开始创建入职指南。
+Microsoft Dynamics 365 Talent: Onboard 允许您从自己创建的模板、库中可用的模板或从头开始创建入职指南。
 
 在您创建入职指南后，您可以将其发送给新雇员。 或者，您可以将其发送给您从 Onboard 应用下载的 Microsoft Excel 文件中指定的多个新雇员。
 

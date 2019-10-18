@@ -1,6 +1,6 @@
 ---
 title: 客户的信用额度
-description: 本文提供信用额度如何在 Microsoft Dynamics 365 for Finance and Operations 中运作的概述。
+description: 本文提供信用额度如何在 Dynamics 365 Supply Chain Management 中运作的概述。
 author: omulvad
 manager: AnnBe
 ms.date: 09/15/2017
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37e860a969d527a334af7524c70e5ea15be7801e
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b7be4ab297293bf1c9f720c2c16b2720afdfe771
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742370"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026455"
 ---
 # <a name="credit-limits-for-customers"></a>客户的信用额度
 

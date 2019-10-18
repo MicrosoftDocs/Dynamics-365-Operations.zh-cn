@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b3eeda217e00b33962561bcb2ee6185275f52fe2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3b66369e57e006c9e2fe0a43e4b781c619a65c4a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556936"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025855"
 ---
 # <a name="store-order-fulfillment"></a>商店订单履行
 
@@ -96,7 +96,7 @@ ms.locfileid: "1556936"
 
 可以在销售点打印领料单，以便协助工作人员执行领料过程。 工作人员领料时可以携带打印的领料单，并且在领取产品时，工作人员将在领料单上手动标记为已领料。
 
-领料单格式在 Dynamics 365 for Retail 上进行配置并添加到收据模板中。 有关设置收据模板的详细信息，请参阅[收据模板和打印](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)。
+领料单格式在 Retail 上进行配置并添加到收据模板中。 有关设置收据模板的详细信息，请参阅[收据模板和打印](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)。
 
 如果选择了行并打印了这些行的领料单，会自动将其更新为**领料**状态。
 
@@ -105,7 +105,7 @@ ms.locfileid: "1556936"
 - **生成的状态：** 已领料或部分领料
 - **生成的后端办公系统状态：** 已领料或部分领料
 
-在执行实际领料流程后，可以将行标记为**已领料**。 选择行并将其标记为**已领料**会执行一个实时调用，以更新 Dynamics 365 for Retail 中的订单行。 在销售点将行标记为**已领料**后，后端办公系统的状态也会更新为**已领料**，且库存交易记录反映指定的数量已递减。
+在执行实际领料流程后，可以将行标记为**已领料**。 选择行并将其标记为**已领料**会执行一个实时调用，以更新订单行。 在销售点将行标记为**已领料**后，后端办公系统的状态也会更新为**已领料**，且库存交易记录反映指定的数量已递减。
 
 在一段时间内处理订单时，可以处理特定行的部分数量。 如果选择了一行并执行了**标记为已领料**操作，而且数量大于 1，则系统会提示用户输入数量。 系统将自动填充要领取的剩余数量。 如果指定的数量少于剩余数量，行的状态变为**已部分领料**。 在后端办公系统更新订单行时，它还将反映部分领料状态，并使用用户输入的数量进行库存更新。
 
@@ -122,7 +122,7 @@ ms.locfileid: "1556936"
 - **生成的状态：** 已包装或部分包装
 - **生成的后端办公系统状态：** 已交货或部分交货
 
-此操作将行标记为已包装或部分包装并打印装箱单。 可以打印装箱单以核实包装在一起的产品。 装箱单格式在 Dynamics 365 for Retail 上进行配置并添加到收据模板中。 有关设置收据模板的详细信息，请参阅[收据模板和打印](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)。
+此操作将行标记为已包装或部分包装并打印装箱单。 可以打印装箱单以核实包装在一起的产品。 装箱单格式在 Retail 上进行配置并添加到收据模板中。 有关设置收据模板的详细信息，请参阅[收据模板和打印](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)。
 
 **操作：标记为已包装**
 

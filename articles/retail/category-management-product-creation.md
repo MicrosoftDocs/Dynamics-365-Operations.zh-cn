@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0bcc5989edd9913fce414c0c24068f111d8c1aeb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 27870fe6172479b891b885d9e84ca10b250e3399
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553615"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019496"
 ---
 # <a name="manage-retail-product-categories-and-products"></a>管理零售产品类别和产品
 
 [!include [banner](./includes/banner.md)]
 
-此主题介绍如何在 Microsoft Dynamics 365 for Retail 中通过改进的方法管理零售产品类别和产品。 这些改进使促销活动经理可以查看零售产品层次结构与已发布的产品详细信息之间共有的产品属性结构。
+此主题介绍如何在 Dynamics 365 Retail 中通过改进的方法管理产品类别和产品。 这些改进使促销活动经理可以查看产品层次结构与已发布的产品详细信息之间共有的产品属性结构。
 
-若要了解有关如何管理零售产品类别的更多信息，请在**类别和产品管理**工作区中选择**零售产品层次结构**磁贴。
+若要了解有关如何管理产品类别的更多信息，请在**类别和产品管理**工作区中选择**零售产品层次结构**磁贴。
 
-请注意显示的**零售产品层次结构**页的增强结构。 在以前的 Retail 版本中，产品属性基于其适用范围划分为*基本产品属性*和*零售产品属性*。 零售产品属性的适用范围为*全局*。 换言之，对于给定的零售产品属性，在所有法人之间共享相同的值。 比较而言，基本产品属性是*特定于法人的*。 换言之，对于给定基本产品属性，不同法人之间的值可能不同，具体取决于各法人各自的业务需求。
+请注意显示的**零售产品层次结构**页的增强结构。 在以前的 Retail 版本中，产品属性基于其适用范围划分为*基本产品属性*和*零售产品属性*。 零售产品属性的适用范围为*全局*。 换言之，对于给定的产品属性，在所有法人之间共享相同的值。 比较而言，基本产品属性是*特定于法人的*。 换言之，对于给定基本产品属性，不同法人之间的值可能不同，具体取决于各法人各自的业务需求。
 
-在改进的零售产品类别结构中，产品属性基于其在组中的适用性分隔，以反映已发布产品详细信息窗体结构的结构。
+在改进的产品类别结构中，产品属性基于其在组中的适用性分隔，以反映已发布产品详细信息窗体结构的结构。
 
 ![基于属性适用范围分组的字段](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
@@ -50,7 +50,7 @@ ms.locfileid: "1553615"
 
 ![查看/编辑特定法人](media/ToggleToEditForAllLegalEntities.PNG)
 
-此外，在增强的零售产品类别结构中，促销活动经理现在可以在单个类别级别再为一组产品属性定义默认值。 然后，创建产品时，产品将根据其产品属性与零售产品层次结构中的单个类别的关联，继承这些属性的默认值。 还可以针对每个产品修改这些继承的产品属性，以满足单独的业务要求。
+此外，在增强的零售产品类别结构中，促销活动经理现在可以在单个类别级别再为一组产品属性定义默认值。 然后，创建产品时，产品将根据其产品属性与产品层次结构中的单个类别的关联，继承这些属性的默认值。 还可以针对每个产品修改这些继承的产品属性，以满足单独的业务要求。
 
 ## <a name="selecting-properties-to-update-products-on-the-retail-product-hierarchy-page"></a>在零售产品层次结构页中选择要更新产品的属性。
 

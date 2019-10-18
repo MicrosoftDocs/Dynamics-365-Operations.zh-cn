@@ -1,6 +1,6 @@
 ---
 title: 质量管理概述
-description: 本主题介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中使用质量管理来帮助改进您的供应链中的产品质量。
+description: 本主题介绍如何在 Dynamics 365 Supply Chain Management 中使用质量管理来帮助改进您的供应链中的产品质量。
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
@@ -19,24 +19,24 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1630d13437d7e930fdf32ed5fdc61fc62bc33817
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c9600e165da76948bb53a0188ec0b212a0fed84a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557492"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249564"
 ---
 # <a name="quality-management-overview"></a>质量管理概述
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中使用质量管理来帮助改进您的供应链中的产品质量。
+本主题介绍如何在 Dynamics 365 Supply Chain Management 中使用质量管理来帮助改进您的供应链中的产品质量。
 
-质量管理可帮助您在处理未达标的产品时管理周转时间，而不管其源点如何。 因为诊断类型链接到更正报表，所以 Microsoft Dynamics 365 for Finance and Operations 可以计划任务以更正问题并防止重复执行它们。
+质量管理可帮助您在处理未达标的产品时管理周转时间，而不管其源点如何。 因为诊断类型链接到更正报表，所以 Finance and Operations 可以计划任务以更正问题并防止重复执行它们。
 
 除了管理不符合项的功能外，质量管理还包括按问题类型（甚至内部问题）跟踪问题以及将解决方案标识为短期或长期的功能。  有关关键绩效指标 (KPI) 的统计能让您了解以前的不符合项问题以及用于更正它们的解决方案的历史记录。 您可以使用历史数据检查以前质量度量的效果并确定相应的度量以备将来使用。
 
-在您设置质量关联时，Finance and Operations 可以为各种业务流程、事件和条件生成质检订单。 质量关联可以包含特定物料、特定物料组或所有物料。
+在您设置质量关联时，Supply Chain Management 可以为各种业务流程、事件和条件生成质检订单。 质量关联可以包含特定物料、特定物料组或所有物料。
 
 ## <a name="examples-of-the-use-of-quality-management"></a>质量管理的使用示例
 质量管理是可变的，并且可以以多种方式实施来满足特定级别供应链操作的要求。 以下示例说明对这些功能的可能用途：

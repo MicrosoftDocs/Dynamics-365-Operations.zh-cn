@@ -1,6 +1,6 @@
 ---
-title: 使用 Dynamics 365 for Talent - Onboard 创建入职模板
-description: 本主题说明如何使用 Dynamics 365 for Talent - Onboard 应用为新雇员创建入职指南模板。 此任务是人力资本管理 (HCM) 雇佣退休战略的重要的第一步。
+title: 使用 Dynamics 365 Talent - Onboard 创建入职模板
+description: 本主题说明如何使用 Dynamics 365 Talent - Onboard 应用为新雇员创建入职指南模板。 此任务是人力资本管理 (HCM) 雇佣退休战略的重要的第一步。
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c53c24b2913e3ca30cfc6491556b49d5d9230128
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 63f13380f3d2c31c4cc9009142f320ad8a41e8ee
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731380"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009869"
 ---
-# <a name="create-an-onboarding-template-by-using-dynamics-365-for-talent-onboard"></a>使用 Dynamics 365 for Talent: Onboard 创建入职模板
+# <a name="create-an-onboarding-template"></a>创建入职模板
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard 提供了各种模板，可以帮助您尽快创建入职指南。 您可以使用这些模板中的一个或多个，也可以创建自己的模板。 Onboard 提供了在创建自己的模板时可以使用的示例文本。 因此，即使您从头开始，这个过程也很容易。
+Microsoft Dynamics 365 Talent: Onboard 提供了各种模板，可以帮助您尽快创建入职指南。 您可以使用这些模板中的一个或多个，也可以创建自己的模板。 Onboard 提供了在创建自己的模板时可以使用的示例文本。 因此，即使您从头开始，这个过程也很容易。
 
 ## <a name="create-an-onboarding-template-from-an-existing-template"></a>从现有模板创建入职模板
 

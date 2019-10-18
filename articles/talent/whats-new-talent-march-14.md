@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent（2019 年 3 月 14 日）中的新增功能或更改
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent 中的新增功能和更改的功能。
+title: Dynamics 365 Talent（2019 年 3 月 14 日）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/14/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee8e076174acba8e706991f3086d6299a10945ec
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 5c3beef9ef4e73eaf76f861735bb154fa630703f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742485"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023899"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-14-2019"></a>Dynamics 365 for Talent（2019 年 3 月 14 日）中的新增功能或更改
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-14-2019"></a>Dynamics 365 Talent（2019 年 3 月 14 日）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
@@ -46,8 +46,8 @@ ms.locfileid: "1742485"
 ### <a name="mass-assign-checklists-to-workers"></a>为工作人员批量分配核对清单
 通过此更改，您现在可以选择多个员工并为这些员工批量分配一个或多个核对清单。 
 
-### <a name="platform-update-24"></a>平台 update 24
-有关平台更新 24 的更多详细信息，请参阅 [Finance and Operations 平台更新 24（2019 年 3 月）中的新增功能或更改](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)。 平台 24 中的重大更改包括： 
+### <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operations 的平台更新 24
+有关 Finance and Operations 的平台更新 24 的更多详细信息，请参阅 [Finance and Operations 平台更新 24（2019 年 3 月）中的新增功能或更改](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)。 平台 24 中的重大更改包括： 
 
 - 在 Talent 中启用警报。
 - 更新后的导航栏现在与 Office 标题对齐。
@@ -67,7 +67,7 @@ ms.locfileid: "1742485"
 在许多组织中，薪酬和福利经理可能只能访问特定薪酬记录。 这些记录可能是有关管理层或地区员工的记录。 通过此更改，HR 可以管理和维护组织中不同员工组的薪酬计划。 您可以为固定计划和可变计划分配安全角色，用于决定这些计划和与其有关的员工数据（例如，工资和奖金记录）的访问权限。 只有授予了访问权限的角色才能处理这些员工的薪酬。
 
 ###  <a name="email-support-for-alerts"></a>警报的电子邮件支持
-安装平台更新 24 之后，用户可创建警报规则，用于在被事件触发后自动为联系人派遣电子邮件通知。
+安装 Finance and Operations 的平台更新 24 之后，用户可创建警报规则，用于在被事件触发后自动为联系人派遣电子邮件通知。
 
 ### <a name="duplicate-employee-check-interface-changes"></a>重复员工检查：界面更改
 借助此更改，输入名称字段时可检测重复项，而状态将显示找到的数量。 您可以选择提供的链接以打开一个新的页面来评估是否要使用检测到的匹配项。 重复项窗体不会自动打开，以免中断数据输入。

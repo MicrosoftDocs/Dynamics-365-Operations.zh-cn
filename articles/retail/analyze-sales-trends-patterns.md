@@ -1,6 +1,6 @@
 ---
 title: 分析销售趋势和模式
-description: 您可以在 Microsoft Dynamics 365 for Retail 中实时研究销售趋势和模式。
+description: 您可以在 Dynamics 365 Retail 中实时研究销售趋势和模式。
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ea5efd1fcde233145e97aea30d312bbe70b20ac
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c54e707d312d7ac3bbcad71a914e528859038a13
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557892"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025809"
 ---
 # <a name="analyze-sales-trends-and-patterns"></a>分析销售趋势和模式
 
 [!include [banner](includes/banner.md)]
 
-您可以在 Microsoft Dynamics 365 for Retail 中实时研究销售趋势和模式。
+您可以在 Dynamics 365 Retail 中实时研究销售趋势和模式。
 
-作为 Dynamics 365 for Retail 的一部分，用户可以通过使用现成的**按年排列的渠道销售额**报表，实时研究年度期间跨组织层次结构不同级别的销售趋势和模式。 您可以从以下任何位置打开此报表：
+作为 Retail 的一部分，用户可以通过使用现成的**按年排列的渠道销售额**报表，实时研究年度期间跨组织层次结构不同级别的销售趋势和模式。 您可以从以下任何位置打开此报表：
 
 - **零售商店管理**工作区 &gt; **零售** &gt; **渠道** &gt; **零售商店管理** &gt; **报表** &gt; **按年排列的渠道销售额报表**
 - **零售商店财务**工作区 &gt; **零售** &gt; **渠道** &gt; **零售商店财务** &gt; **报表** &gt; **按年排列的渠道销售额报表**

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14801f3aa486da3af252695a3e2ccd58c0e9059
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 37378b85b90f91c74da717f0a25c1847ac0b1598
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865961"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251285"
 ---
 # <a name="sales-agreements-overview"></a>销售协议概览
 
@@ -99,14 +99,14 @@ ms.locfileid: "1865961"
 | 数量                                                          | 如果您指定超出在选中**强制为最大**复选框的销售协议行上指定数量的数量，则会出现消息框提示您保存更改的数量。 单击**是**删除链接到销售协议行的链接，并重新计算价格。 单击**否**删除链接到销售协议行的链接，并不重新计算价格。                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>从销售协议中返回已订购的物料
-在客户退回基于销售协议订购的产品时，Microsoft Dynamics 365 for Finance and Operations 可查找和自动更新相关销售协议承诺以反映数量或金额的变化。 通过基于与销售协议相关联的原始销售订单创建退货单，建立销售协议承诺、销售订单行和退货单发票之间的关系。  
+在客户退回基于销售协议订购的产品时，Supply Chain Management 可查找和自动更新相关销售协议承诺以反映数量或金额的变化。 通过基于与销售协议相关联的原始销售订单创建退货单，建立销售协议承诺、销售订单行和退货单发票之间的关系。  
 
 如果您不想从销售协议承诺扣减退回的物料数量，则可以使用**退货单**页中的**删除链接**控制删除退货单和销售承诺协议之间的链接。 如果必须以后重新生成链接，请单击**创建链接**。  
 
 **注意：** 退货单只能与一个销售协议相关联。 如果客户退回基于多个销售协议订购的多个产品，则必须为每个产品创建新退货单并创建指向相应的销售协议的链接。
 
 ## <a name="automatic-search-for-sales-agreements"></a>自动搜索销售协议
-在某些情况下销售订单间接创建，例如，当您创建贷方通知单或内部公司销售订单时，可以控制 Microsoft Dynamics 365 for Finance and Operations 是否自动搜索适用的销售协议。
+在某些情况下销售订单间接创建，例如，当您创建贷方通知单或内部公司销售订单时，可以控制系统是否自动搜索适用的销售协议。
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>销售协议财务维度
 您可以将财务维度复制到销售协议的文档抬头或单独的行。 您可以在任何时间更改该协议标题或协议行的维度。 在这种情况下，维度将自动复制到下达单的下达标头或下达行。

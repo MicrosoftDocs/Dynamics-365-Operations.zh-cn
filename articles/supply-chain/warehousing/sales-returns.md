@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1f5658de1da8a0b6c36d99e4bb9cf401c09ad0b
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559134"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249788"
 ---
 # <a name="sales-returns"></a>销售退货
 
@@ -31,7 +31,7 @@ ms.locfileid: "1559134"
 
 此主题提供有关退货单流程的信息。 其中包含有关客户退货及其对成本计算和现有库存数量的影响的信息。
 
-客户可能因为各种原因退货。 例如，物品可能有瑕疵，或者可能不满足客户的期望。 客户发出退货请求时，退货流程开始。 收到客户的请求后，将在 Microsoft Dynamics 365 for Finance and Operations 中创建退货单。
+客户可能因为各种原因退货。 例如，物品可能有瑕疵，或者可能不满足客户的期望。 客户发出退货请求时，退货流程开始。 收到客户的请求后，将创建退货单。
 
 ## <a name="return-order-process"></a>退货单流程
 下图提供退货单流程的概览。  
@@ -281,7 +281,7 @@ ms.locfileid: "1559134"
 
 ![简单内部公司退货](./media/SalesReturn07.png)
 
-买方公司中创建了供应商退货单或销售公司中创建了客户退货单时，可以建立订单链。 Finance and Operations 将在另一家公司中创建相应订单，并确保供应商订单中的标题和行信息体现客户退货单中的设置。 建立的退货单中可以包含或排除对现有客户发票的引用（**查找销售订单**）。 可以分开处理这两个订单的装箱单和发票。 例如，为客户退货单生成装箱单之前，无需为供应商退货单生成装箱单。
+买方公司中创建了供应商退货单或销售公司中创建了客户退货单时，可以建立订单链。 将在另一家公司中创建相应订单，并确保供应商订单中的标题和行信息体现客户退货单中的设置。 建立的退货单中可以包含或排除对现有客户发票的引用（**查找销售订单**）。 可以分开处理这两个订单的装箱单和发票。 例如，为客户退货单生成装箱单之前，无需为供应商退货单生成装箱单。
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>三方之间的直接交运装运退货
 

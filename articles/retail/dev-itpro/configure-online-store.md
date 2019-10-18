@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 186ab08e21b7dad7b736b1f5f065aefe0b80d621
-ms.sourcegitcommit: 27a98a7a0f1d2623f5236a88066f483def30889c
+ms.openlocfilehash: 142a7fa8a18b14347761d3f116c30f2fa5476115
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1833163"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025737"
 ---
 # <a name="configure-online-stores"></a>配置在线商店
 
@@ -53,7 +53,7 @@ ms.locfileid: "1833163"
 | 管理装运费用。             | 设置和管理特定于在线商店的装运费用。                                                                     | [为在线商店设置装运费用](https://technet.microsoft.com/library/jj728714.aspx)（AX 2012 的 TechNet 内容）                                                                                                                           |
 | 管理交货方式。            | 管理在线商店中提供的交货方式。                                                                                        | [设置交货方式](https://technet.microsoft.com/library/jj728719.aspx)（AX 2012 的 TechNet 内容）                                                                                                                                            |
 
-## <a name="set-up-data-exchange-between-microsoft-dynamics-365-for-retail-and-the-online-store"></a>设置 Microsoft Dynamics 365 for Retail 与在线商店之间的数据交换
+## <a name="set-up-data-exchange-between-microsoft-dynamics-365-retail-and-the-online-store"></a>设置 Microsoft Dynamics 365 Retail 与在线商店之间的数据交换
 
 | 任务                                 | 明细                                                                                                                               | 主题                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

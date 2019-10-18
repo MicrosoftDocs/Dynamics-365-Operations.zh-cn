@@ -1,6 +1,6 @@
 ---
 title: 销售点 (POS) 联机和脱机操作
-description: 此主题提供有关 Microsoft Dynamics 365 for Retail 中销售点 (POS) 操作的详细信息。 它指定操作可以在应用程序的哪个位置调用，以及是否可在脱机模式下使用。
+description: 此主题提供有关 Dynamics 365 Retail 中销售点 (POS) 操作的详细信息。 它指定操作可以在应用程序的哪个位置调用，以及是否可在脱机模式下使用。
 author: jblucher
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,22 +18,22 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: fcb933438ec30ebe6d3b499b53e64c58ecec3626
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625657"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025302"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>销售点 (POS) 联机和脱机操作
 
 [!include [banner](includes/banner.md)]
 
-用户在销售点 (POS) 执行的大多数行动被视为操作。 操作在 Microsoft Dynamics 365 for Retail 后端办公系统中配置和管理。 许多操作可以添加到 POS 按钮网格中的按钮。 用户随后可以选择按钮来调用操作并执行其功能。 其他操作是主 POS 应用程序的一部分，从屏幕上按钮或作为其他工作流或流程的一部分调用。
+用户在销售点 (POS) 执行的大多数行动被视为操作。 操作在 Dynamics 365 Retail 后端办公系统中配置和管理。 许多操作可以添加到 POS 按钮网格中的按钮。 用户随后可以选择按钮来调用操作并执行其功能。 其他操作是主 POS 应用程序的一部分，从屏幕上按钮或作为其他工作流或流程的一部分调用。
 
-下表提供有关可用于 Retail Modern POS 和 Dynamics 365 for Retail 的 Cloud POS 的操作的详细信息。 该表还指定了操作可以在应用程序的哪个位置调用，以及是否可在 POS 处于脱机模式时使用。
+下表提供有关可用于 Retail Modern POS 和 Cloud POS 的操作的详细信息。 该表还指定了操作可以在应用程序的哪个位置调用，以及是否可在 POS 处于脱机模式时使用。
 
-某些操作当前未在 Retail Modern POS 或 Dynamics 365 for Retail 的 Cloud POS 中提供。 其中某些操作是需要额外的扩展和配置的区域特定操作。 其他则是当前不支持的 Microsoft Dynamics AX 2012 的功能。
+某些操作当前未在 Retail Modern POS 或 Cloud POS 中提供。 其中某些操作是需要额外的扩展和配置的区域特定操作。 其他则是当前不支持的 Microsoft Dynamics AX 2012 的功能。
 
 以下列指定可以调用操作的位置：
 
@@ -42,7 +42,7 @@ ms.locfileid: "1625657"
 - **欢迎屏幕** – 操作可从在 POS 欢迎屏幕中配置的 POS 按钮网格调用。
 
 > [!NOTE]
-> 下面列出的工序适用于最新版本的 Dynamics 365 for Retail。 某些工序可能已更改或可能不在以前版本中提供。
+> 下面列出的工序适用于最新版本的 Retail。 某些工序可能已更改或可能不在以前版本中提供。
 
 | ID | 工序 | 说明 | 按钮网格 | 交易记录屏幕 | 欢迎屏幕 | 脱机可用 | 区域特定 |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|

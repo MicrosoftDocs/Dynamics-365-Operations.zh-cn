@@ -1,6 +1,6 @@
 ---
 title: Onboard 入门
-description: 本主题将帮助您开始使用 Microsoft Dynamics 365 for Talent - Onboard。 Onboard 帮助您的新雇员获得良好的开端，为他们提供指导，使他们顺利完成入职流程。
+description: 本主题将帮助您开始使用 Microsoft Dynamics 365 Talent - Onboard。 Onboard 帮助您的新雇员获得良好的开端，为他们提供指导，使他们顺利完成入职流程。
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 6526f320be7d18af92406149633b3e15d0be2291
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 97082533831d592817e54e77469a3e22b0b47610
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731205"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008120"
 ---
 # <a name="get-started-with-onboard"></a>Onboard 入门
 
 [!include [banner](includes/banner.md)]
 
-通过使用 Microsoft Dynamics 365 for Talent: Onboard，您可以帮助新员工更有效地表现自我并获得对新角色的归属感。 有效的入职流程有助于新雇员了解他们的新角色。 还可以使他们在建立有价值的关系方面处于领先地位，这有助于确保他们的成功。
+通过使用 Microsoft Dynamics 365 Talent: Onboard，您可以帮助新员工更有效地表现自我并获得对新角色的归属感。 有效的入职流程有助于新雇员了解他们的新角色。 还可以使他们在建立有价值的关系方面处于领先地位，这有助于确保他们的成功。
 
 Onboard 可让您快速创建入职指南来欢迎您的新雇员，并让他们对加入您的组织感到兴奋。
 

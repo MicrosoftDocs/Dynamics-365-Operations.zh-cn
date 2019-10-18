@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 63b986f9f3a1505dba4c2f64f872b9472e1aca87
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 46411052c7db25c3d1410c5280e8e856f0a40d3d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558611"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250121"
 ---
 # <a name="batch-balancing"></a>批次平衡
 
@@ -31,7 +31,7 @@ ms.locfileid: "1558611"
 
 此主题介绍对批次平衡流程的支持。 
 
-观看[有关 Microsoft Dynamics 365 for Finance and Operations 中的批次平衡的视频](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)。
+有关详细信息，请观看[有关批次平衡的视频](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)。
 
 在批次平衡流程中，生产批次中使用的成分量通过所选产品批次中的有效成分浓度计算。
 

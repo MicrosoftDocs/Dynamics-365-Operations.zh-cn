@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f740ab481b8663ecc29169eee1ead5ff23bb3f5
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 3c1989f11563db343129c678623725e2e61b27fc
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866129"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251453"
 ---
 # <a name="replenishment-overview"></a>补货概览
 
@@ -55,7 +55,7 @@ ms.locfileid: "1866129"
 ## <a name="minmax-replenishment"></a>最小/最大补货
 在最小/最大补货中，存货将得到补充，使其在设置的最小和最大限制之间。 通常情况下，此流程每天将发生一次，来保证在领料开始之前所有领料库位都填充至最大水平。 
 
-在补货模板中设置最小值和最大金额。 模板中的很多其他设置类似于波次需要补货中使用的模板中的设置。 模板应为每个物料和位置包含一行。 通过使用批处理作业运行补货时，Microsoft Dynamics 365 for Finance and Operations 使用所组织的行的序列评估是否需要补货。 
+在补货模板中设置最小值和最大金额。 模板中的很多其他设置类似于波次需要补货中使用的模板中的设置。 模板应为每个物料和位置包含一行。 通过使用批处理作业运行补货时，系统使用所组织的行的序列评估是否需要补货。 
 
 请注意，最小/最大补货策略无法补充空位置，除非该位置设置为该物料的固定库位。 如果必须补货的库位不是固定库位，系统无法确定要补货的物料。 因此，在补货发生之前至少需要一定的现有数量。
 

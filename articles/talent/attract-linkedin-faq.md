@@ -1,6 +1,6 @@
 ---
 title: Attract 与 LinkedIn 集成的常见问题
-description: 本主题回答有关您可能遇到的 LinkedIn 与 Microsoft Dynamics 365 for Talent - Attract 之间的集成问题。
+description: 本主题回答有关您可能遇到的 LinkedIn 与 Microsoft Dynamics 365 Talent - Attract 之间的集成问题。
 author: hasrivas
 manager: AnnBe
 ms.date: 07/08/2019
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c49181fe7e9359fb9d7d43f479273080f90542f4
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: d66ebc01597f8038a38b46a9f1b70feaa5dc505e
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756191"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008631"
 ---
 # <a name="linkedin-integration-faq"></a>LinkedIn 集成常见问题
 
 [!include [banner](includes/banner.md)]
 
-LinkedIn 是全球最大的在线职业网络。 Microsoft Dynamics for Talent: Attract 与 LinkedIn 集成，让您可以联系世界顶级人才。 Attract 允许您将工作直接发布到 LinkedIn，它还允许您将 LinkedIn 中的应聘者信息导入到 Attract 中。
+LinkedIn 是全球最大的在线职业网络。 Microsoft Dynamics Talent: Attract 与 LinkedIn 集成，让您可以联系世界顶级人才。 Attract 允许您将工作直接发布到 LinkedIn，它还允许您将 LinkedIn 中的应聘者信息导入到 Attract 中。
 
 ## <a name="for-recruiters-and-hiring-managers"></a>针对招聘人员和招聘经理
 

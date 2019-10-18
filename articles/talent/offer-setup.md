@@ -1,6 +1,6 @@
 ---
 title: 设置聘约管理
-description: 此主题描述如何在 Talent 中设置聘约。
+description: 此主题描述如何在 Microsoft Dynamics 365 Talent 中设置聘约。
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/04/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa0e5d30c06db16e105631e492af022acfcfd66
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 706766ba5133af03d00df99dba1c2a7b0405cd86
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517419"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010836"
 ---
 # <a name="set-up-offer-management"></a>设置聘约管理 
 
 [!include [banner](includes/banner.md)]
 
-在应聘者移到 Dynamics 365 for Talent: Attract 中的聘约的阶段时，您需要确保可以为应聘者快速创建聘约，根据需要审核，并发送给应聘者。 因为大多数聘约是标准的，因此可以从可重复使用的模板创建。 在 Attract 中，所有聘约都汇总到一个聘约包，这是一个或多个聘约文档的集合。 
+在应聘者移到 Dynamics 365 Talent: Attract 中的聘约的阶段时，您需要确保可以为应聘者快速创建聘约，根据需要审核，并发送给应聘者。 因为大多数聘约是标准的，因此可以从可重复使用的模板创建。 在 Attract 中，所有聘约都汇总到一个聘约包，这是一个或多个聘约文档的集合。 
 
 此主题列出了 Attract 管理员将遵循来设置不同聘约包模板的所有步骤，在 Attract 中这是聘约管理功能的一部分。 具有非管理员角色的用户不能访问这些功能。
 

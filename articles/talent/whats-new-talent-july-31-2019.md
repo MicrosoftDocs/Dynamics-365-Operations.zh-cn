@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent 的新增功能或更改（2019 年 7 月 31 日）
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent 中的新增功能和更改的功能。
+title: Dynamics 365 Talent 的新增功能或更改（2019 年 7 月 31 日）
+description: 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 7/30/2019
@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1fffe1bd8739723294c027c174d5e959c1c6010a
-ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
+ms.openlocfilehash: 83f3339e6cea1448f5b257acf602fe5ca3449555
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1864571"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010237"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-30-2019"></a>Dynamics 365 for Talent 的新增功能或更改（2019 年 7 月 30 日）
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Dynamics 365 Talent 的新增功能或更改（2019 年 7 月 30 日）
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍了 Dynamics 365 for Talent 中的新增功能和更改的功能。
+此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
 ## <a name="changes-in-attract"></a>Attract 中的更改
 本版本中包含 Dynamics 365 Talent: Attract 的小缺陷修复。
 
-## <a name="changes-in-onboard"></a>Changes 中的更改
+## <a name="changes-in-onboard"></a>Onboard 中的更改
 本版本中包含 Dynamics 365 Talent: Onboard 的小缺陷修复。
 
 ## <a name="changes-in-core-hr"></a>Core HR 中的更改
@@ -43,7 +43,7 @@ ms.locfileid: "1864571"
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>加拿大和东南亚的地区支持
 
-我们很高兴地宣布，加拿大和东南亚地区将于 2019 年 8 月 1 日推出 Microsoft Dynamics 365 for Talent。 通过此更改，您可以在加拿大和亚洲地区创建环境，并且所有 Talent 数据将仅在这些位置内维护。 您可以通过在“新建环境”对话框中选择位置来在这些新地区创建环境，并使用该环境在 LCS 中配置 Talent，如[配置 Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent) 中所述。
+我们很高兴地宣布，加拿大和东南亚地区将于 2019 年 8 月 1 日推出 Talent。 通过此更改，您可以在加拿大和亚洲地区创建环境，并且所有 Talent 数据将仅在这些位置内维护。 您可以通过在“新建环境”对话框中选择位置来在这些新地区创建环境，并使用该环境在 LCS 中配置 Talent，如[配置 Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent) 中所述。
 
 不支持将现有项目的数据从其他地区迁移到加拿大和亚洲地区。 仅新项目可以配置到这些新的支持地区。
 

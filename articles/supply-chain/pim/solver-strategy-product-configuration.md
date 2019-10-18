@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a548d3536bbc0056ee22c07c464af062029da81
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560293"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250568"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>产品配置的求解器策略
 
@@ -45,7 +45,7 @@ ms.locfileid: "1560293"
 
 可将产品配置模型编制为[约束满足问题 (CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)。 Microsoft Solver Foundation (MSF) 提供两种类型的求解器策略来解决可从产品配置模型使用的 CSP。 这些求解器策略依赖于[启发](https://techterms.com/definition/heuristic)，启发用于确定解决问题时考虑 CSP 变量的顺序。 解决一个问题或一类问题时，启发可显著影响性能。
 
-在 Finance and Operations 中，产品配置模型的求解器策略确定启发使用哪个求解器。 **默认**、**最小域数量优先**和**自上而下**策略使用 MSF 中的两个求解器，而 **Z3** 策略则使用 Z3 求解器。 
+产品配置模型的求解器策略确定启发使用哪个求解器。 **默认**、**最小域数量优先**和**自上而下**策略使用 MSF 中的两个求解器，而 **Z3** 策略则使用 Z3 求解器。 
 
 真实的客户实施研究已表明产品配置模型的求解器策略中的更改可将响应时间从以分钟计缩短到以毫秒计。 因此，值得努力尝试不同求解器策略以找出对产品配置模型效率最高的策略。
 

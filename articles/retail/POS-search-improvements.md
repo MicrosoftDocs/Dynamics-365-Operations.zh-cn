@@ -1,6 +1,6 @@
 ---
 title: 销售点 (POS) 中的产品搜索和客户搜索
-description: 此主题概述 Microsoft Dynamics 365 for Retail 中的产品和客户搜索的增强功能。
+description: 此主题概述 Dynamics 365 Retail 中的产品和客户搜索的增强功能。
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: b2f1d522a60721c746d03e477615265f9a8ba9a0
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: 60db9e9936f7728d76f5c7a0d0c31b33477c7c61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625634"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023674"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>销售点 (POS) 中的产品搜索和客户搜索
 
@@ -99,7 +99,10 @@ ms.locfileid: "1625634"
 
 ![客户搜索快捷方式](./media/SearchShortcutsPOS.png "客户搜索快捷方式")
 
-若要设置搜索条件快捷方式，管理员必须在 Microsoft Dynamics 365 for Finance and Operations 中打开**零售参数**页，然后在 **POS 搜索条件**选项卡上选择所有应显示为快捷方式的条件。
+
+
+若要设置搜索条件快捷方式，管理员必须在 Microsoft Dynamics 365 Retail 中打开**零售参数**页，然后在 **POS 搜索条件**选项卡上选择所有应显示为快捷方式的条件。
+
 
 ![配置搜索快捷方式](./media/ConfigureShortcutsAX.png "配置搜索快捷方式")
 
@@ -111,6 +114,6 @@ ms.locfileid: "1625634"
 > [!NOTE]
 > 添加到枚举的自定义属性不影响标准客户搜索算法。 换言之，客户搜索算法不在自定义属性中进行搜索。 仅当自定义属性添加为快捷方式时或替代了默认搜索算法时，用户才能将该自定义属性用于搜索。
 
-在即将推出的 Microsoft Dynamics 365 for Retail 版本中，零售商可以将 POS 中的默认客户搜索模式设置为**搜索所有商店**。 如果必须立即搜索在 POS 外部创建的客户（例如，即使在运行配送作业之前），则此配置可能非常有用。 POS 功能配置文件中将增加一个新的**默认客户搜索模式**选项。 如果将其设置为**开**，将把默认搜索模式设置为**搜索所有商店**。 然后，每次尝试搜索客户都会实时调用总部。
+在即将推出的 Retail 版本中，零售商可以将 POS 中的默认客户搜索模式设置为**搜索所有商店**。 如果必须立即搜索在 POS 外部创建的客户（例如，即使在运行配送作业之前），则此配置可能非常有用。 POS 功能配置文件中将增加一个新的**默认客户搜索模式**选项。 如果将其设置为**开**，将把默认搜索模式设置为**搜索所有商店**。 然后，每次尝试搜索客户都会实时调用总部。
 
 为了帮助避免意外的性能问题，此配置隐藏在名称为 **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING** 的战旗后面。 因此，若要在设置用户界面 (UI) 时显示**默认客户搜索模式**，零售商应该为其用户接受测试 (UAT) 环境和生产环境创建支持工单。 收到工单后，工程团队将与零售商合作，以确保零售商在非生产环境中进行测试来评估性能和实施需要的所有优化。

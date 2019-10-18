@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8138b6144cc6ba09834f2bfb61cc7334767307d6
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 45d3d962958d0487c9e65910a2dce24097a83773
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916545"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017750"
 ---
 # <a name="base-price-and-trade-agreements"></a>基价和贸易协议
 
@@ -56,7 +56,7 @@ ms.locfileid: "1916545"
 24. 单击**创建贸易协议**。
 25. 单击**新建**。
 26. 在**名称**字段中，单击下拉按钮以打开查找。
-27. 在列表中，选择“零售”。 在演示数据中，“零售”日记帐名称拥有默认关系“价格(销售)”。 这意味着所有新建的行将默认设置为销售价格贸易协议。  
+27. 在列表中，选择**零售**。 在演示数据中，**零售**日记帐名称拥有默认关系**价格(销售)**。 这意味着所有新建的行将默认设置为销售价格贸易协议。  
 28. 在**操作窗格**上，单击**行**。
 29. 在**帐户编码**字段中，选择“组”。
 30. 在**帐户选择**字段中，单击下拉按钮以打开查找。

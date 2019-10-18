@@ -18,19 +18,19 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: cf81823de46da9a834f0214896b9e634989cac0e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9f85b1d1f0b1c2378dd3f278640d984c31923c35
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569768"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017866"
 ---
 # <a name="import-vendor-catalogs"></a>导入供应商目录
 [!include[banner](../includes/banner.md)]
 
 ## <a name="vendor-catalogs-import"></a>供应商目录导入
 
-在 Microsoft Dynamics 365 for Finance and Operations 中，采购专员可以创建和维护公司员工的目录以在订购供内部使用的物料和服务时使用。 若要创建采购目录，您可以通过导入产品目录数据或通过将产品目录数据手动添加到基础产品，添加要向员工提供的物料和服务。 
+在 Dynamics 365 Supply Chain Management 中，采购专员可以创建和维护公司员工的目录以在订购供内部使用的物料和服务时使用。 若要创建采购目录，您可以通过导入产品目录数据或通过将产品目录数据手动添加到基础产品，添加要向员工提供的物料和服务。 
 
 可以上传客户从 Microsoft Dynamics 365 客户端提交的目录数据。
 
@@ -52,7 +52,7 @@ ms.locfileid: "1569768"
 
 6.  上载 CMR 文件。
 
-7.  复查、审核或拒绝供应商目录中的产品。 将把这些产品自动映射到 Dynamics 365 for Finance and Operations 中的采购类别。 
+7.  复查、审核或拒绝供应商目录中的产品。 将把这些产品自动映射到采购类别。 
     
 将已审核的产品添加到基础产品，并将它们发放给所选的法人。 只有已审核的产品能添加到采购目录。
 

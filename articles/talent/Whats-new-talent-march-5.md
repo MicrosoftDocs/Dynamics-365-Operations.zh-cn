@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent（2019 年 3 月 5 日）中的新增功能或更改
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent 中的新增功能和更改的功能。
+title: Dynamics 365 Talent（2019 年 3 月 5 日）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/05/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: c7ee8f4cf14197d6bd4549741058fc5fe95ae55d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741882"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026662"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Dynamics 365 for Talent（2019 年 3 月 5 日）中的新增功能或更改
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Dynamics 365 Talent（2019 年 3 月 5 日）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍了 Talent 中的新增功能和更改的功能
+此主题介绍了 Talent 中的新增功能和更改的功能。
 
 ## <a name="changes-in-attract"></a>Attract 中的更改
 
@@ -78,5 +78,5 @@ ms.locfileid: "1741882"
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>高级薪酬安全（固定和可变）
 在许多组织中，薪酬和福利经理只能访问特定薪酬记录，如管理层或区域员工的记录。 通过此更改，您可以管理和维护组织中不同员工群的薪酬计划。 可为固定计划和可变计划分配安全角色，用于决定这些计划和与其有关的员工数据（例如，工资和奖金记录）的访问权限。 只有具有给定访问权限的角色才能处理这些员工的薪酬。
 
-###  <a name="platform-update-24"></a>平台 update 24
-有关平台更新 24 的更多详细信息，请参阅 [Finance and Operations 平台更新 24（2019 年 3 月）中的新增功能或更改](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)。
+###  <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operations 的平台更新 24
+有关 Finance and Operations 的平台更新 24 的更多详细信息，请参阅 [Finance and Operations 平台更新 24（2019 年 3 月）中的新增功能或更改](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)。

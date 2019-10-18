@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 36fc98c44625cce03945d76973de67021d53353e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844361"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249440"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>按照产品变型的度量单位转换
 
@@ -90,6 +90,6 @@ ms.locfileid: "1844361"
 
 ### <a name="using-excel-to-update-the-unit-conversions"></a>使用 Excel 更新单位转换
 
-如果产品有多个具有不同单位转换的产品变型，从**单位转换**页将单位转换导出到 Excel 电子表格，更新转换，然后将其发布回 Finance and Operations 是一个好主意。
+如果产品有多个具有不同单位转换的产品变型，从**单位转换**页将单位转换导出到 Excel 电子表格，更新转换，然后将其发布回 Supply Chain Management 是一个好主意。
 
-导出到 Excel 并将编辑发布回 Finance and Operations 的选项从**单位转换**页的“操作窗格”上的**在 Microsoft office 中打开**菜单项启用。
+导出到 Excel 并将编辑发布回 Supply Chain Mangement 的选项从**单位转换**页的“操作窗格”上的**在 Microsoft office 中打开**菜单项启用。

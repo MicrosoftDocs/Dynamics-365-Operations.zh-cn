@@ -1,6 +1,6 @@
 ---
 title: 配置呼叫中心交货方式和费用
-description: 本主题介绍如何在 Microsoft Dynamics 365 for Retail 中为呼叫中心订单设置交货方式和费用。
+description: 本主题介绍如何在 Dynamics 365 Retail 中为呼叫中心订单设置交货方式和费用。
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b67a1d91e41e1a4c21e0e877c06812dededbe731
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553591"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019477"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>配置呼叫中心交货方式和费用
 
 [!INCLUDE [banner](includes/banner.md)]
 
-在 Microsoft Dynamics 365 for Retail 中下达销售订单时，如果该销售订单的输入人员已链接到呼叫中心渠道，将使用逻辑和规则验证交货的方式（交货方式）和计算订单的费用。
+在 Dynamics 365 Retail 中下达销售订单时，如果该销售订单的输入人员已链接到呼叫中心渠道，将使用逻辑和规则验证交货的方式（交货方式）和计算订单的费用。
 
 创建销售订单时，可在销售订单头和销售订单行中选择交货方式。 默认情况下，在订单头中选择的交货方式用于所有销售订单行。 但是可以根据需要覆盖单个销售行中的默认交货方式。 也可以在客户记录中定义交货方式。 然后为客户创建订单时，将默认在销售订单头中使用该交货方式。
 

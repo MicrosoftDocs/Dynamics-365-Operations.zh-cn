@@ -3,7 +3,7 @@ title: 维护安排成本
 description: 本主题介绍资产管理中的维护安排成本。
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71b958839a914d90a86a0dcd16a09285ca6dcfa4
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: b2f53a4a64b06efc9269c607bfe1fc3a41c90cdd
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875515"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922060"
 ---
 # <a name="maintenance-schedule-cost"></a>维护安排成本
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 在资产管理中，可计算维护安排行的预算成本。 如果要获取预计成本（如与为下一年计划的预防性维护作业有关的成本）的概览，这非常有用。 此类计算基于类型为“维护计划”和“维护阶段”与“维护请求”的现有维护安排行。
 
@@ -48,10 +46,11 @@ ms.locfileid: "1875515"
 
 5. 单击**确定**开始计算成本。
 
-6. 在**维护安排成本**选项卡上 > **分组依据**操作窗格组中，单击相关按钮显示所需成本计算详细程度。 将以蓝色突出显示所选操作窗格组按钮。 单击按钮将其激活或停用。
+6. 在**维护安排成本**选项卡上 > **分组依据**操作窗格组中，单击相关按钮显示所需成本计算详细程度。 将突出显示所选操作窗格组按钮。 单击按钮将其激活或停用。
 
 7. 如果要进行新的成本计算，请单击**计算成本**按钮。
 
+下图显示维护安排成本计算的结果。
 
 ![图 1](media/17-preventive-maintenance.png)
 

@@ -1,6 +1,6 @@
 ---
-title: 在 Microsoft Dynamics 365 for Talent - Attract 中设置求职站点
-description: 本主题概述了 Microsoft Dynamics 365 for Talent - Attract 中面向应聘者的求职站点功能。
+title: 在 Microsoft Dynamics 365 Talent - Attract 中设置求职站点
+description: 本主题概述 Microsoft Dynamics 365 Talent - Attract 中面向应聘者的求职站点功能。
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ec5fe31c6547b008b29e656729c35863d90bffc1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739763"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026271"
 ---
 # <a name="set-up-your-career-site"></a>设置您的求职站点
 
 [!include[banner](../includes/banner.md)]
 
-本主题概述 Microsoft Dynamics 365 for Talent: Attract 中面向应聘者的求职站点功能。 另外还介绍如何设置此功能。
+本主题概述了 Microsoft Dynamics 365 Talent: Attract 中面向应聘者的求职站点功能。 另外还介绍如何设置此功能。
 
 Attract 为租户中的每个环境提供一个求职站点。 例如，如果组织具有开发环境和测试环境，一个求职站点为开发环境设置，另一个求职站点为测试环境设置。 各求职站点是完全隔离的，并且具有自己的身份验证机制。 工作和应聘者个人资料不在求职站点之间共享。
 
@@ -62,7 +62,7 @@ Attract 为租户中的每个环境提供一个求职站点。 例如，如果�
 
 -   **求职站点主页 URL** - 若要查看求职站点主页 URL，请以管理员身份登录 Attract，选择**设置**菜单中的**管理员中心**，然后选择**求职站点管理**选项卡。
 
--   **单个工作发布申请 URL** - 在您首次[发布外部工作](Creating-jobs-Attract.md#postings)时，您可以从 Attract 应用程序复制**申请**链接。 此链接的 URL 将使用以下格式：[https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **单个工作发布申请 URL** - 在您首次[发布外部工作](Creating-jobs-Attract.md#postings)时，您可以从 Attract 复制**申请**链接。 此链接的 URL 将使用以下格式：[https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
 -   **单个工作发布 URL** - 充当“申请 URL”的子字符串的工作发布 URL。 它包含工作编号的所有内容。 因此，对于前面的申请 URL，工作发布 URL 为 [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e)。
 

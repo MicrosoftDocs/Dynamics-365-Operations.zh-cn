@@ -1,6 +1,6 @@
 ---
 title: 定义和维护零售渠道
-description: 本主题提供设置实体商店（在 Microsoft Dynamics 365 for Retail 中称为零售商店）的流程的概览。 它包含有关在设置零售商店前后必须完成的任务的信息。
+description: 本主题提供设置实体商店（在 Dynamics 365 Retail 中称为零售商店）的流程的概览。 它包含有关在设置零售商店前后必须完成的任务的信息。
 author: mugunthanm
 manager: AnnBe
 ms.date: 11/14/2017
@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 53ba6cdb2378ce9011c6e7e3ce4e67c789adb1e6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f55099ad283e665965aad0684b3c9d87223d5ed7
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560340"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019362"
 ---
 # <a name="define-and-maintain-retail-channels"></a>定义和维护零售渠道
 
 [!include [banner](includes/banner.md)]
 
-本主题提供设置实体商店（在 Microsoft Dynamics 365 for Retail 中称为零售商店）的流程的概览。 它包含有关在设置零售商店前后必须完成的任务的信息。
+本主题提供设置实体商店（在 Dynamics 365 Retail 中称为零售商店）的流程的概览。 它包含有关在设置零售商店前后必须完成的任务的信息。
 
-Dynamics 365 for Retail 支持多个零售渠道，例如在线商店、呼叫中心和实体商店。 实体商店也叫做零售商店。 每个零售商店可以有自己的付款方式、价格组、销售终端 (POS) 收银机、收入帐户和支出帐户以及职员。 您必须先为零售商店设置所有这些元素，然后再创建零售商店。 在创建零售商店后，分配您希望其提供的产品。 您还可以将员工、收银机和客户分配到商店。 最后，您将新商店添加到组织层次结构。
+Retail 支持多个零售渠道，例如在线商店、呼叫中心和实体商店。 实体商店也叫做零售商店。 每个零售商店可以有自己的付款方式、价格组、销售终端 (POS) 收银机、收入帐户和支出帐户以及职员。 您必须先为零售商店设置所有这些元素，然后再创建零售商店。 在创建零售商店后，分配您希望其提供的产品。 您还可以将员工、收银机和客户分配到商店。 最后，您将新商店添加到组织层次结构。
 
 ## <a name="setting-up-retail-stores"></a>设置零售商店
 
-在您可以在 Dynamics 365 for Retail 中设置零售商店之前，必须完成某些先决任务。 然后，您可以创建零售商店并添加详细信息。
+在您可以在 Retail 中设置零售商店之前，必须完成某些先决任务。 然后，您可以创建零售商店并添加详细信息。
 
 ### <a name="prerequisites"></a>必备项
 
@@ -55,7 +55,7 @@ Dynamics 365 for Retail 支持多个零售渠道，例如在线商店、呼叫�
 11. 设置职员。
 
     > [!NOTE]
-    > 您还必须向工作人员分配适当的权限，以便他们可使用适用于 Retail POS 系统的 Dynamics 365 for Retail 登录并执行任务。
+    > 您还必须向工作人员分配适当的权限，以便他们可使用 Retail POS 系统登录并执行任务。
 
 12. 配置要分配给商店的 Retail POS 配置文件。 此任务包括许多其他任务，例如，设置收银机、设置脱机配置文件和设置收据格式和配置文件。
 

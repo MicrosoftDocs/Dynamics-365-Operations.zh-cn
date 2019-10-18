@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 60f0a2e5fa2dc2bc37a04b159a4834a52117893d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 65b59e1cc215d582fdaf02ff4746fe2158ace76e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559596"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025348"
 ---
 # <a name="payment-methods"></a>付款方式
 
@@ -32,7 +32,7 @@ ms.locfileid: "1559596"
 
 设置系统时，必须配置零售商接受的每种付款类型。 本文介绍您可设置的付款类型并介绍设置它们的流程。
 
-零售商可以接受各种类型的付款以交换其销售的产品和服务。 尽管现金付款是最常用的形式，零售商也可以接收支票的形式、卡、付款，凭证等形式的付款。 设置系统时，用于接收的每种付款类型，零售商接受必须配置在 Dynamics 365 for Retail 中时。 下表描述设置在 Dynamics 365 for Retail 中的每种付款类型：
+零售商可以接受各种类型的付款以交换其销售的产品和服务。 尽管现金付款是最常用的形式，零售商也可以接收支票的形式、卡、付款，凭证等形式的付款。 设置系统时，用于接收的每种付款类型，零售商接受必须配置在 Dynamics 365 Retail 中时。 下表描述设置每种付款类型：
 
 - **现金**– 以实际货币（例如纸币和硬币）形式。 此货币可以是公司币种或商店的本币。
 - **支票**– 一种可转让票据，它指示从指定银行划走特定币种的特定金额进行付款。 除非指定了其他有效期，否则支票通常是永久有效或在签发之后的六个月内有效。 此期间因签发支票的银行而异。 支票有各种类型，如记名支票、现金支票、不记名支票和转帐支票。 您可以设置支票为每个商店的付款方式。 可接受采用在公司级别或商店级别定义的货币的支票。 您可以接受支票作为商店的支付方式之前，必须设置支票作为付款方式。

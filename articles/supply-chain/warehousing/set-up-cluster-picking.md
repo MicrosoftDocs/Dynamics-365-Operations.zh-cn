@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7adec850cfb473b0bfc9536dcb1ef1cfd74129a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 84b6d3c3caa09b9601701ca4ac1992b151c0b8d4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558992"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249742"
 ---
 [!include[banner](../includes/banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "1558992"
 
 在工作订单下达到仓库后，工作人员可以使用移动设备将订单分配到群集。 群集将为工作人员组织领料工作。 在将工作订单分配给集群后，工作人员必须使用群集领料为订单执行领料工作。 工作人员不能使用其他领料方法。 如果将工作订单错误分配到群组，工作人员必须拆分群组，然后重新创建。
 
-若有需要，工作人员可以将群集传递给其他工作人员。 此操作会将群集状态更改为“传递”。 在工作人员使用移动设备指示领料，并且完成整理后，必须在 Dynamics 365 for Finance and Operations 客户端中确认装运或负荷。
+若有需要，工作人员可以将群集传递给其他工作人员。 此操作会将群集状态更改为“传递”。 在工作人员使用移动设备指示领料，并且完成整理后，必须在客户端中确认装运或负荷。
 
 ## <a name="set-up-cluster-picking"></a>设置群集领料
 

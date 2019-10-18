@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 68b285ba78a9bd654e7bfcfe8d4c6b0207346eab
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 05881b6e6e501ff3ac5a622d99fd1aaa311727a1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845586"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249509"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>现有库存量移动工作区
 
@@ -31,7 +31,7 @@ ms.locfileid: "1845586"
 
 此主题提供有关**现有库存量**移动工作区的信息。 此工作区可帮助您随时随地洞察预留库存和可用库存。
 
-将此工作区用于与 Microsoft Dynamics 365 for Unified Operations mobile 应用一起使用。
+此工作区应该与 Finance and Operations mobile 应用程序结合使用。
 
 ## <a name="overview"></a>概览
 公司的库存通常每天有多次装运和多次收货。 这些活动不断改变现有库存状态。 可通过**现有库存量**移动工作区查看跨公司现有库存状态，以便您在所选移动设备上洞察最新的库存数据。 无论在处理仓库、采购销售、制造或管理，还是充当其他角色，都可以随时随地访问现有库存数据。 
@@ -58,11 +58,11 @@ ms.locfileid: "1845586"
 ## <a name="prerequisites"></a>先决条件
 先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>使用 Microsoft Dynamics 365 for Finance and Operations 的先决条件 
-如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations，系统管理员必须发布**现有库存**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
+### <a name="prerequisites-if-you-use-finance-and-operations"></a>使用 Finance and Operations 时的先决条件 
+如果已经为您的组织部署 Supply Chain Management，系统管理员必须发布**现有库存**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611 时的先决条件
-如果已经为您的组织部署带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611，系统管理员必须完成以下先决条件。 
+### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>使用平台更新 3 或更高版本时的先决条件 
+如果已经为您的组织部署平台更新 3 或更高版本，系统管理员必须完成以下先决条件。 
 
 <table>
 <thead>
@@ -96,7 +96,7 @@ ms.locfileid: "1845586"
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
 
-下载并安装 Dynamics 365 for Unified Operations 移动应用：
+下载并安装 Finance and Operations 移动应用程序：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

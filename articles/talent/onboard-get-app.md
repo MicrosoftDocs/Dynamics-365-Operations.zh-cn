@@ -1,6 +1,6 @@
 ---
-title: 获取 Dynamics 365 for Talent - Onboard 应用
-description: 本主题说明如何获取 Microsoft Dynamics 365 for Talent - Onboard 应用的独立版本或包含综合招聘加载项的版本。
+title: 获取 Dynamics 365 Talent - Onboard 应用
+description: 本主题说明如何获取 Microsoft Dynamics 365 Talent - Onboard 应用的独立版本或包含综合招聘加载项的版本。
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,30 +16,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: e83bbd71089b145c6c99780ea9516793c5238b33
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 7bf2e421445e5ca92e995ef581bf61c7978746d2
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731381"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010767"
 ---
-# <a name="get-the-dynamics-365-for-talent-onboard-app"></a>获取 Dynamics 365 for Talent: Onboard 应用
+# <a name="get-the-dynamics-365-talent-onboard-app"></a>获取 Dynamics 365 Talent: Onboard 应用
 
 [!include [banner](includes/banner.md)]
 
-您可以从 [Onboard 产品页面](https://dynamics.microsoft.com/talent/onboard/)观看演示并免费试用 Microsoft Dynamics 365 for Talent: Onboard 应用。
+您可以从 [ 产品页面](https://dynamics.microsoft.com/talent/onboard/)观看演示并免费试用 Microsoft Dynamics 365 Talent: Onboard: Onboard 应用。
 
 > [!NOTE]
 > 免费试用需要企业电子邮件帐户。
 
-您可以作为独立应用或 Dynamics 365 for Talent 的一部分购买 Onboard 订阅。 Talent 是一个综合的人力资本管理 (HCM) 系统，包括 Dynamics 365 for Talent: Attract、Onboard 和 Core HR。 有关如何购买 Onboard 的详细信息，请参阅 [Onboard 产品页面](https://dynamics.microsoft.com/talent/onboard/)。
+您可以作为独立应用或 Dynamics 365 Talent 的一部分购买 Onboard 订阅。 Talent 是一个综合的人力资本管理 (HCM) 系统，包括 Dynamics 365 Talent: Attract、Onboard 和 Core HR。 有关如何购买 Onboard 的详细信息，请参阅 [Onboard 产品页面](https://dynamics.microsoft.com/talent/onboard/)。
 
 在试用或购买过程中，您将设置 Microsoft 365 电子邮件地址和密码。 请务必记下这些值。
 
 > [!WARNING]
 > 您无法将数据从试用中迁移到付费订阅环境。 <!--Reviewers: please verify.-->
 
-要了解 Talent 中的新功能，请参阅 [Dynamics 365 for Talent 新增功能或更改](./whats-new.md)和 [Dynamics 365 和 Power Platform 版本说明](https://docs.microsoft.com/business-applications-release-notes/index)。 如果要在 Onboard 中预览新功能，请参阅[访问 Talent 中的预览功能](./access-preview-feature.md)。
+要了解 Talent 中的新功能，请参阅 [Dynamics 365 Talent 新增功能或更改](./whats-new.md)和 [Dynamics 365 和 Power Platform 版本说明](https://docs.microsoft.com/business-applications-release-notes/index)。 如果要在 Onboard 中预览新功能，请参阅[访问 Talent 中的预览功能](./access-preview-feature.md)。
 
 如果您是 IT 专业人员并希望了解有关如何配置两个版本的 Onboard 应用的详细信息，请参阅 [Onboard 应用配置](./modular-app-tech-faq.md)。
 

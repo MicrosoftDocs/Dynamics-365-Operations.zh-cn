@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f4e378bc0a72e05f940ae352ad0f1c0709d9d3a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563520"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249463"
 ---
 # <a name="product-information-overview"></a>产品信息概览
 
@@ -57,17 +57,17 @@ ms.locfileid: "1563520"
 
 ## <a name="distribution-export-and-import-of-product-data"></a>产品数据的分配、导出和导入
 
-可以在 Microsoft Dynamics 365 for Finance and Operations 中创建产品定义。 也可以从产品生命周期管理 (PLM)、产品数据管理 (PDM) 或产品信息管理 (PIM) 系统导入。 使用多个 Finance and Operations 实例时，一个实例通常用于所有其他实例的基础产品数据。 此方法受一组大量数据实体的支持，这些数据实体支持将产品定义数据从一个实例导出和导入到另一个实例。
+可以在 Supply Chain Management 中创建产品定义。 也可以从产品生命周期管理 (PLM)、产品数据管理 (PDM) 或产品信息管理 (PIM) 系统导入。 使用多个 Supply Chain Management 实例时，一个实例通常用于所有其他实例的基础产品数据。 此方法受一组大量数据实体的支持，这些数据实体支持将产品定义数据从一个实例导出和导入到另一个实例。
 
-为了支持将产品数据分配到多个实例，Finance and Operations 允许您使用 Common Data Service。 产品定义可以从 Finance and Operations 的一个实例导出到 Common Data Service。 然后可以使用产品定义提供其他具有产品数据的业务应用，例如 Microsoft Dynamics 365 for Sales。
+为了支持将产品数据分配到多个实例，Supply Chain Management 允许您使用 Common Data Service。 产品定义可以从 Supply Chain Management 的一个实例导出到 Common Data Service。 然后可以使用产品定义提供其他具有产品数据的业务应用，例如 Dynamics 365 Sales。
 
 请注意，在动态和敏捷的组织中，产品信息数据每天都会更改。 因此，维护准确和真实的产品数据本身就是一个重要的业务流程。
 
 ## <a name="product-masters-and-product-variants"></a>基础产品和产品变型
 
-在一个敏捷的世界中，产品必须快速适应客户要求，因此产品定义指定一组产品，而不是独特产品。 在 Microsoft Dynamics 365 for Finance and Operations 中，这些一般产品被称为*基础产品*。 基础产品拥有定义和规则，指定独特产品在业务流程中的描述和行为方式。 基于这些定义，可生成独特产品。 这些独特产品被称为*产品变型*。
+在一个敏捷的世界中，产品必须快速适应客户要求，因此产品定义指定一组产品，而不是独特产品。 在 Supply Chain Management 中，这些一般产品被称为*基础产品*。 基础产品拥有定义和规则，指定独特产品在业务流程中的描述和行为方式。 基于这些定义，可生成独特产品。 这些独特产品被称为*产品变型*。
 
-在 Finance and Operations 中，基础产品与产品维度组和配置技术相关联以指定业务规则。 产品维度（颜色、大小、样式和配置）是一组特定的属性，可在整个应用中使用以定义和跟踪关联产品的特定行为。 这些维度还有助于用户搜索和标识产品。
+基础产品与产品维度组和配置技术相关联以指定业务规则。 产品维度（颜色、大小、样式和配置）是一组特定的属性，可在整个应用中使用以定义和跟踪关联产品的特定行为。 这些维度还有助于用户搜索和标识产品。
 
 ## <a name="configuration-technologies"></a>配置技术
 
@@ -77,7 +77,7 @@ ms.locfileid: "1563520"
 - 基于维度的配置通常在制造方案中使用，让您能够在物料清单 (BOM) 的定义中使用配置维度。 选择特定配置后，系统使用对该配置有效 BOM 行的子集进行计划和生产。 该概念也被称为*全局 BOM*，因为一个共用 BOM 用于一个产品的所有配置。
 - 基于约束的配置使用产品配置模型以描述必需的所有可能的属性和组件以描述在一个模型中的产品的所有可能变型。 属性组合的约束可以通过正则表达式或基于表的约束进行描述。 配置模型和配置器在产品信息管理中越来越重要，且跨所有行业使用。
 
-在计划 Finance and Operations 的实现时，为业务流程选择正确的配置技术十分重要。 在实现后，产品不能从一个模型转换为其他模型。
+在计划 Supply Chain Management 的实现时，为业务流程选择正确的配置技术十分重要。 在实现后，产品不能从一个模型转换为其他模型。
 
 ## <a name="product-variant-model-definition-workspace"></a>产品变型模型定义工作区
 
