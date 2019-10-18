@@ -1,6 +1,6 @@
 ---
-title: 将仓库从 Finance and Operations 同步到 Field Service
-description: 此主题介绍用于同步 Microsoft Dynamics 365 for Finance and Operations 与 Microsoft Dynamics 365 for Field Service 的仓库的模板和基础任务。
+title: 将仓库从Supply Chain Management 同步到 Field Service
+description: 此主题介绍用于同步 Dynamics 365 Supply Chain Management 与 Dynamics 365 Field Service 的仓库的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2019
@@ -19,41 +19,41 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: ae99624076eecda2969961d0361d1adf42c6c5f3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 94fb6720152cbf6aec58d2b8d9d02fc5343c05e2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835662"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251170"
 ---
-# <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>将仓库从 Finance and Operations 同步到 Field Service
+# <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>将仓库从Supply Chain Management 同步到 Field Service
 
 [!include[banner](../includes/banner.md)]
 
-此主题介绍用于同步 Microsoft Dynamics 365 for Finance and Operations 与 Microsoft Dynamics 365 for Field Service 的仓库的模板和基础任务。
+此主题介绍用于同步 Dynamics 365 Supply Chain Management 与 Dynamics 365 Field Service 的仓库的模板和基础任务。
 
-[![Finance and Operations 与 Field Service 之间的业务流程同步](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
+[![Supply Chain Management 与 Field Service 之间的业务流程同步](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
 
 ## <a name="templates-and-tasks"></a>模板和任务
-以下模板和基础任务用于运行 Microsoft Dynamics 365 for Finance and Operations 到 Microsoft Dynamics 365 for Field Service 的仓库的同步。
+以下模板和基础任务用于运行仓库从 Supply Chain Management 到 Field Service 的同步。
 
 **数据集成中的模板**
-- 仓库（Fin and Ops 到 Field Service）
+- 仓库（Supply Chain Management 到 Field Service）
 
 **数据集成项目中的任务**
 - 存放地点
 
 ## <a name="entity-set"></a>实体集
-| Field Service    | Finance and Operations                 |
+| Field Service    | 供应链管理                 |
 |------------------|----------------------------------------|
 | msdyn_warehouses | 仓库                             |
 
 ## <a name="entity-flow"></a>实体流
-可通过 Common Data Service (CDS) 数据集成项目将在 Finance and Operations 中创建和维护的仓库同步到 Field Service。 您要同步到 Field Service 的仓库将通过项目上的“高级查询和筛选”进行控制。 从 Finance and Operations 同步的仓库在 Field Service 中创建，**外部维护**字段设置为**是**，记录为只读。
+可通过 Common Data Service (CDS) 数据集成项目将在 Supply Chain Management 中创建和维护的仓库同步到 Field Service。 您要同步到 Field Service 的仓库将通过项目上的“高级查询和筛选”进行控制。 从 Supply Chain Management 同步的仓库在 Field Service 中创建，**外部维护**字段设置为**是**，记录为只读。
 
 ## <a name="field-service-crm-solution"></a>Field Service CRM 解决方案
-若要为 Field Service 与 Finance and Operations 之间的同步提供支持，需要 Field Service CRM 解决方案的更多功能。 在此解决方案中，**外部维护**字段已添加到**仓库 (msdyn_warehouses)** 实体。 此字段帮助确定仓库是否是从 Finance and Operations 处理或是否只存在于 Field Service 中。 此字段的设置包括：
-- **是** – 仓库来自 Finance and Operations，且不可在 Sales 中编辑。
+若要为 Field Service 与 Finance and Operations 之间的同步提供支持，需要 Field Service CRM 解决方案的更多功能。 在此解决方案中，**外部维护**字段已添加到**仓库 (msdyn_warehouses)** 实体。 此字段帮助确定仓库是否是从 Supply Chain Management 处理或是否只存在于 Field Service 中。 此字段的设置包括：
+- **是** – 仓库来自 Supply Chain Management，且不可在 Sales 中编辑。
 - **否** – 仓库在 Field Service 中直接输入并在这里维护。
 
 **外部维护**字段帮助控制工作订单上库存水平、调整、转移和使用的同步。 只有**外部维护**设置为**是**的仓库可以用于直接同步到其他系统中的同一仓库。 
@@ -63,7 +63,7 @@ ms.locfileid: "1835662"
 
 ## <a name="prerequisites-and-mapping-setup"></a>先决条件和映射设置
 ### <a name="data-integration-project"></a>数据集成项目
-在同步仓库前，请确保更新项目上的“高级查询和筛选”以仅包括您要从 Finance and Operations 带入 Field Service 的仓库。 请注意，您需要 Field Service 中的仓库来将其应用到工作订单、调整和转移。  
+在同步仓库前，请确保更新项目上的“高级查询和筛选”以仅包括您要从 Supply Chain Management 带入 Field Service 的仓库。 请注意，您需要 Field Service 中的仓库来将其应用到工作订单、调整和转移。  
 
 确保有 **msdyn_warehouses** 的**集成键**：
 1. 转至“数据集成”。
@@ -76,6 +76,6 @@ ms.locfileid: "1835662"
 
 下图显示了数据集成中的模板映射。
 
-### <a name="warehouses-fin-and-ops-to-field-service-warehouse"></a>仓库（Fin and Ops 到 Field Service）：仓库
+### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>仓库（Supply Chain Management 到 Field Service）：仓库
 
 [![数据集成中的模板映射](./media/Warehouse1.png)](./media/Warehouse1.png)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 471ab164d7bd2e85f5192c082a905f3c30de3d2b
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 05f8a71dde998abccc75bc962636f9eb04d7e8c2
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866081"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026708"
 ---
 # <a name="warehouse-configuration-overview"></a>仓库配置概览
 
@@ -34,7 +34,7 @@ ms.locfileid: "1866081"
 **注释：** 本文适用于**仓库管理** 模块（高级仓库）中的功能。 它不适用于**库存管理**模块中的仓库功能。
 
 ## <a name="warehouse-layout"></a>仓库布局
-Microsoft Dynamics 365 for Finance and Operations 中的仓库管理系统允许您以灵活方式定义您的仓库布局以适应不断变化的需要，因此，您可以实现最佳仓库效率。
+Finance and Operations 中的仓库管理系统允许您以灵活方式定义您的仓库布局以适应不断变化的需要，因此，您可以实现最佳仓库效率。
 
 -   您可以为货物的最佳位置建立高优先级和低优先级存储区域。
 -   您可以将您的仓库划分为区域以满足各种存储需要，例如温度要求或物料各种周转比率。

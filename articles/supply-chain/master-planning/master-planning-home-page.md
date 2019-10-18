@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543575"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250683"
 ---
 # <a name="master-planning-home-page"></a>主计划主页
 
@@ -74,7 +74,7 @@ ms.locfileid: "1543575"
 您可以在 [Dynamics AX 制造研发团队博客](https://blogs.msdn.microsoft.com/axmfg)和 [Dynamics AX 研发团队中的供应链管理博客](https://blogs.msdn.microsoft.com/dynamicsaxscm)中找到有关主计划及其他解决方案的建议、新闻和其他信息。
 
 ### <a name="task-guides"></a>任务指南
-其他帮助在 Finance and Operations 中作为任务指南提供。 若要访问任务指南，请单击任何页面上的**帮助**按钮。
+其他帮助作为任务指南提供。 若要访问任务指南，请单击任何页面上的**帮助**按钮。
 
 ### <a name="webinars"></a>网络研讨会
 [使用 Azure 机器学习进行需求预测](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)

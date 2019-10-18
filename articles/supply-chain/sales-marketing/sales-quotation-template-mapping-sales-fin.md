@@ -1,6 +1,6 @@
 ---
-title: 将 Sales 的销售报价单标题和行直接同步到 Finance and Operations
-description: 本主题讨论用于将来自 Microsoft Dynamics 365 for Sales 的销售报价单标题和行直接同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。
+title: 将 Sales 的销售报价单标题和行直接同步到 Supply Chain Management
+description: 本主题讨论用于将销售报价单标题和行直接从 Dynamics 365 Sales 同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,33 +19,33 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 0894f4728d3f1df21db130cd9e87d9881726e7fa
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ddc81aa7ff462304cb6e22c919221217f7a1e019
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743363"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251239"
 ---
-# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>将 Sales 的销售报价单标题和行直接同步到 Finance and Operations
+# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>将 Sales 的销售报价单标题和行直接同步到 Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-本主题讨论用于将来自 Microsoft Dynamics 365 for Sales 的销售报价单标题和行直接同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。
+本主题讨论用于将销售报价单标题和行直接从 Dynamics 365 Sales 同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
 
 > [!NOTE]
 > 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
 
 ## <a name="data-flow-in-prospect-to-cash"></a>“从目标客户到现金”中的数据流
 
-“从目标客户到现金”使用“数据集成”功能来同步 Finance and Operations 与 Sales 之间的示例的数据。 提供“数据集成”功能的“从目标客户到现金”模板启用 Finance and Operations 与 Sales 之间的帐户、联系人、产品、销售报价、销售订单和销售发票的数据流。 下图显示 Finance and Operations 与 Sales 之间的数据如何同步。
+“从目标客户到现金”使用“数据集成”功能来同步 Supply Chain Management 与 Sales 之间的示例的数据。 提供“数据集成”功能的“从目标客户到现金”模板启用 Supply Chain Management 与 Sales 之间的帐户、联系人、产品、销售报价、销售订单和销售发票的数据流。 下图显示 Supply Chain Management 与 Sales 之间的数据如何同步。
 
 [![“从目标客户到现金”中的数据流](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>模板和任务
 
-以下模板和基础任务用于将来自 Sales 的销售报价单标头和行直接同步到 Finance and Operations：
+以下模板和基础任务用于将来自 Sales 的销售报价单标头和行直接同步到 Supply Chain Management：
 
-- **数据集成中模板的名称：** 销售报价（从 Sales 到 Fin and Ops）- 直接
+- **数据集成中模板的名称：** 销售报价（从 Sales 到 Supply Chain Management）- 直接
 - **数据集成项目中的任务名称：**
 
     - QuoteHeader
@@ -53,20 +53,20 @@ ms.locfileid: "1743363"
 
 在发生销售报价单标头和行同步前，需要执行以下同步任务：
 
-- 产品（从 Fin and Ops 到 Sales）- 直接
-- 帐户（从 Sales 到 Fin and Ops）- 直接（如果使用）
-- 从联系人到客户（从 Sales 到 Fin and Ops）- 直接（如果使用）
+- 产品（Supply Chain Management 到 Sales）- 直接
+- 科目（Sales 到 Supply Chain Management）- 直接（如果使用）
+- 从联系人到客户（Sales 到 Supply Chain Management）- 直接（如果使用）
 
 ## <a name="entity-set"></a>实体集
 
-| 销售        | Finance and Operations     |
+| 销售额        | Finance and Operations     |
 |--------------|----------------------------|
 | 报价       | CDS 销售报价单标题 |
 | QuoteDetails | CDS 销售报价单行  |
 
 ## <a name="entity-flow"></a>实体流
 
-销售报价单在 Sales 中创建并同步到 Finance and Operations。
+销售报价单在 Sales 中创建并同步到 Supply Chain Management。
 
 仅当满足以下条件时，来自 Sales 的销售报价单同步：
 
@@ -75,13 +75,13 @@ ms.locfileid: "1743363"
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>用于 Sales 的“从目标客户到现金”解决方案
 
-**仅具有外部维护的产品**字段已添加到**报价**实体以一致地跟踪销售报价单是否全部由外部维护的产品构成。 如果销售报价单只具有外部维护的产品，则产品在 Finance and Operations 中进行维护。 此行为有助于保障你不会尝试将具有未知产品的销售报价单行同步到 Finance and Operations。
+**仅具有外部维护的产品**字段已添加到**报价**实体以一致地跟踪销售报价单是否全部由外部维护的产品构成。 如果销售报价单只具有外部维护的产品，则产品在 Supply Chain Management 中进行维护。 此行为有助于保障你不会尝试将具有未知产品的销售报价单行同步到 Supply Chain Management。
 
 销售报价单上的所有报价产品均使用来自销售报价单标头的**仅具有外部维护的产品**信息进行更新。 此信息可在 **QuoteDetails** 实体上的**报价仅具有外部维护的产品**字段中找到。
 
-折扣可以添加到报价产品，并且同步到 Finance and Operations。 标题上的**折扣**、**费用**和**税金**字段由 Finance and Operations 中的设置控制。 此设置当前不支持集成映射。 在当前设计中,**价格**、**折扣**、**费用**和**税金**字段在 Finance and Operations 中维护和处理。
+折扣可以添加到报价产品，并且同步到 Supply Chain Management。 标题上的**折扣**、**费用**和**税金**字段由 Supply Chain Management 中的设置控制。 此设置当前不支持集成映射。 在当前设计中，**价格**、**折扣**、**费用**和**税金**字段在 Supply Chain Management 中维护和处理。
 
-在 Sales 中，由于值未同步到 Finance and Operations，因此该解决方案使以下字段只读：
+在 Sales 中，由于值未同步到 Supply Chain Management，因此该解决方案使以下字段只读：
 
 - 销售报价单标题上的只读字段：**折扣 %**、**折扣**和**运费**
 - 报价产品的只读字段：**税**
@@ -111,20 +111,20 @@ ms.locfileid: "1743363"
 
 #### <a name="quoteline"></a>QuoteLine
 
-- 确保所需的 **SalesUnitSymbol** 值映射在 Finance and Operations 中存在。
+- 确保在 Supply Chain Management 中存在所需的 **SalesUnitSymbol** 值映射。
 - 确保所需单位已在 Sales 中定义。
 
     为 **oumid.name** 到 **SalesUnitSymbol** 定义了具有值映射的模板值。
 
-- 可选：您可以添加以下映射以帮助保障在没有来自客户或产品的默认信息时将销售报价单行导入到 Finance and Operations 中：
+- 可选：您可以添加以下映射以帮助保障在没有来自客户或产品的默认信息时将销售报价单行导入到 Supply Chain Management 中：
 
-    - **SiteId** - 在 Finance and Operations 中生成报价单和销售订单行所需的站点。 **SiteId** 没有默认模板值。
-    - **WarehouseId** - 在 Finance and Operations 中处理报价单和销售订单行所需的仓库。 **WarehouseId** 没有默认模板值。
+    - **SiteId** – 在 Supply Chain Management 中生成报价单和销售订单行所需的站点。 **SiteId** 没有默认模板值。
+    - **WarehouseId** - 在 Supply Chain Management 中处理报价单和销售订单行所需的仓库。 **WarehouseId** 没有默认模板值。
 
 ## <a name="template-mapping-in-data-integrator"></a>数据集成器中的模板映射
 
 > [!NOTE]
-> - **折扣**、**费用**和**税金**字段由 Finance and Operations 中的复杂设置控制。 此设置当前不支持集成映射。 在当前设计中，**价格**、**折扣**、**费用**和**税金**字段由 Finance and Operations 处理。
+> - **折扣**、**费用**和**税金**字段由 Supply Chain Management 中的复杂设置控制。 此设置当前不支持集成映射。 在当前设计中，**价格**、**折扣**、**费用**和**税金**字段由 Supply Chain Management 处理。
 > - **付款期限**、**货运条款**、**交货条款**、**装运方法**和**交货方式**字段不是默认映射的一部分。 若要映射这些字段，必须设置特定于在其中同步实体的组织中的数据的值映射。
 
 下图显示了数据集成器中的模板映射的一个示例。

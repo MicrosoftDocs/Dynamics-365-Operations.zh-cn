@@ -1,6 +1,6 @@
 ---
 title: 虚拟物料
-description: 此主题详细介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中在物料清单 (BOM) 和配方的行中使用虚拟行类型。
+description: 此主题详细介绍如何在 Dynamics 365 Supply Chain Management 中在物料清单 (BOM) 和配方的行中使用虚拟行类型。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/15/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f01a0321740365c23cbc117be42c0a5137960af7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7c39b0ac2eb8a2293c828fee23ed6a78cb5fe2c9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843881"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249996"
 ---
 # <a name="phantom-items"></a>虚拟物料
 
@@ -51,7 +51,7 @@ ms.locfileid: "1843881"
 
 与工程物料清单不同（这种清单有两个工序单），制造物料清单只有一个工序单。 链接到部件 G 的包装工序也已升级，现在是产品 H 的工序单的一部分。第一个工序是装配电子单元。 这个顺序很有道理，因为下一个工序（即机器装配）中将使用该单元。 最后一个工序是包装工序，会用到两种包装材料（C 和 D）。
 
-在 Microsoft Dynamics 365 for Finance and Operations 中，通过虚拟物料清单行类型实现工程物料清单与制造物料清单之间的转换。 就像术语“虚拟”的含义所示，两种物料清单类型转换期间，部件 F 和 G 已消失。 在此示例中，虚拟行类型应用于工程物料清单中部件 F 和 G 的物料清单行。 创建生产订单或批处理订单时，将把工程物料清单复制到生产订单或批处理订单。 然后，估计订单时，将从工程物料清单转换为制造物料清单，如上面的图中所示。 从第二个图中的工序单开始，包装材料 C 和 D 是工序的输入。 
+通过虚拟物料清单行类型实现工程物料清单与制造物料清单之间的转换。 就像术语“虚拟”的含义所示，两种物料清单类型转换期间，部件 F 和 G 已消失。 在此示例中，虚拟行类型应用于工程物料清单中部件 F 和 G 的物料清单行。 创建生产订单或批处理订单时，将把工程物料清单复制到生产订单或批处理订单。 然后，估计订单时，将从工程物料清单转换为制造物料清单，如上面的图中所示。 从第二个图中的工序单开始，包装材料 C 和 D 是工序的输入。 
 
 ## <a name="multilevel-phantom-bom-structures"></a>多级虚拟物料清单结构
 可以在多级虚拟物料清单结构中使用虚拟行类型，如下图中所示。 在该图中，(a) 是产品 G 的物料清单，而 (b) 则是部件 E 和 F 及产品 G 的工艺路线单。 

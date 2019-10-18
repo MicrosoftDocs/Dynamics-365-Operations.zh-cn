@@ -3,7 +3,7 @@ title: 覆盖范围设置
 description: 本主题提供有关主计划编制用于计算物料要求的覆盖范围设置的信息。
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99e094a7131b6d3a299fc72abd0141529908ddd2
-ms.sourcegitcommit: 9e50bee6a67f0fe2fa6f86e02c7e8de16d0e2482
+ms.openlocfilehash: 3a63184852751bb65fb7e80d721f8c48fd847609
+ms.sourcegitcommit: edfd805356894710488ce07cb1c89313f448b222
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538886"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "1998963"
 ---
 # <a name="coverage-settings"></a>覆盖范围设置
 
@@ -49,6 +49,19 @@ ms.locfileid: "1538886"
 - 为维度组指定覆盖范围设置。
 
     转到**产品信息管理 &gt; 产品 &gt; 已发布产品**。 在**已发布产品详细信息**页上，在**常规**快速选项卡上，在**管理**部分中，选择**存储维度组**字段中的链接。 在**存储维度组**页，选择**按维度的覆盖范围计划**复选框为存储维度组中的维度创建覆盖范围设置。 必须为所有产品维度（如配置、颜色、尺寸和样式）选择**按维度的覆盖范围计划**字段。
+
+
+## <a name="coverage-codes"></a>覆盖范围代码
+
+主计划可以配置为使用不同的补货方法。 补货方法或批次规模方法是系统用于确定已购买或已生产物料的批次大小的技术。 
+
+每个补货方法都分配了以下覆盖范围代码之一：
+
+- **手动** - 系统不为物料建议采购订单、转移单或生产订单的批次规模方法。 物料规划员将负责为物料补货创建所需订单。
+- **根据需求** - 系统根据需求为物料创建计划采购订单、转移单或生产订单的批次规模方法。 通常用于具有间断需求的昂贵物料。  
+- **根据期间** - 将一个期间的所有需求合并为物料的一个订单的批次规模方法。 订单将期间的第一天进行计划，其数量将在确定的期间内满足净需求。 期间从物料的第一个需求开始，覆盖定义的时间长度。 下一个期间将从物料的下一个需求开始。
+- **最小/最大** - 当预计的现有量低于阈值时，将库存补货提高到某个级别的批次规模方法。 补货数量将是最大级别与预计现有量级别之间的差值。
+
 
 ## <a name="additional-resources"></a>其他资源
 

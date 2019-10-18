@@ -1,6 +1,6 @@
 ---
-title: 通过 Attract 将工作发布到外部求职站点
-description: 本主题介绍如何使用 Dynamics 365 for Talent - Attract 将工作发布到外部招聘站点。
+title: 将工作从 Attract 发布到外部求职站点
+description: 本主题介绍如何使用 Dynamics 365 Talent - Attract 将工作发布到外部招聘站点
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 919cec773d5e57e8f5429e31872db7ed658e969b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739809"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008074"
 ---
 # <a name="post-jobs-to-broadbean"></a>将职位发布至 Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract 允许您将工作直接从 Attract 发布到 Broadbean，从而帮助您获得所需的人才。 [创建工作](./creating-jobs-attract.md)后，您只需单击一个按钮即可将您的工作放在 Broadbean 上所有潜在应聘者的面前。
+Microsoft Dynamics 365 Talent: Attract 允许您将工作直接从 Attract 发布到 Broadbean，从而帮助您获得所需的人才。 [创建工作](./creating-jobs-attract.md)后，您只需单击一个按钮即可将您的工作放在 Broadbean 上所有潜在应聘者的面前。
 
 将工作发布到 Broadbean 需要相应的 Broadbean 许可证。 Broadbean 提供各种产品和计划。 有关 Broadbean 许可和定价的详细信息，请[联系 Broadbean](https://www.broadbean.com/contact-us/)。
 

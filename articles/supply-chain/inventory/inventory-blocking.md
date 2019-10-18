@@ -1,6 +1,6 @@
 ---
 title: 库存锁定
-description: 本文提供库存锁定的概览，这是 Microsoft Dynamics 365 for Finance and Operations 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
+description: 本主题提供库存锁定的概览，这是 Supply Chain Management 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb6291e2f012f148b247b747f84155b96cf09677
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fc8200380ac3aeb9e3b73f43212458660a15ade6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557468"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250798"
 ---
 # <a name="inventory-blocking"></a>库存锁定
 
 [!include [banner](../includes/banner.md)]
 
-本文提供库存锁定的概览，这是 Microsoft Dynamics 365 for Finance and Operations 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
+本文提供库存锁定的概览，这是 Supply Chain Management 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
 
 您可以按照以下方法锁定库存物料：
 -   手动

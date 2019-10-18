@@ -1,7 +1,7 @@
 ---
 title: 更改促销实体的排序顺序
-description: 此主题介绍与在 Microsoft Dynamics 365 for Retail 中控制各种促销相关实体的显示顺序有关的概念。
-author: ashishharchwani
+description: 此主题介绍与在 Dynamics 365 Retail 中控制各种促销相关实体的显示顺序有关的概念。
+author: josaw1
 manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
@@ -18,16 +18,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2be3c1198ac6fff851be1bead2f0995202f1f0e7
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c159ff869d6c504fdebbef1fa68115a410c81d85
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866153"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019408"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>更改促销实体的排序顺序
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 零售商将产品发现视为所有零售渠道中的主要客户互动工具。 可通过大量功能帮助客户轻松发现产品。 例如，可以浏览类别，进行搜索或使用筛选。
@@ -38,7 +38,7 @@ ms.locfileid: "1866153"
 
 已对为促销关联的各种实体进行排序的支持进行了增强。 此项支持现在可以更好地适应以前要求实施合作伙伴进行扩展的现有客户方案。
 
-在低于 10.0.5 的 Microsoft Dynamics 365 for Retail 版本中，导航层次结构中的类别按字母排序。 促销经理可使用新的自定义排序功能为所有最终用户客户的各种促销相关实体配置排序。 这些客户包括总部 (HQ) 和呼叫中心。
+在低于 10.0.5 的 Retail 版本中，导航层次结构中的类别按字母排序。 促销经理可使用新的自定义排序功能为所有最终用户客户的各种促销相关实体配置排序。 这些客户包括总部 (HQ) 和呼叫中心。
 
 ## <a name="configure-the-display-order-for-categories-in-the-retail-product-hierarchy"></a>配置零售产品层次结构中的类别的显示顺序
 

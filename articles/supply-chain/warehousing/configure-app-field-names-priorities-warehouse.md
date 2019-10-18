@@ -1,6 +1,6 @@
 ---
 title: 配置 Warehousing 应用程序中的应用程序字段名
-description: 此主题介绍如何在 Dynamics 365 for Finance and Operations 中定义和配置仓库应用程序字段名和优先级。
+description: 此主题介绍如何在 Dynamics 365 Supply Chain Management 中定义和配置仓库应用程序字段名和优先级。
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,24 +19,24 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0162014189ed6bffb17e6718a67eecfd55c334a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a3251368e92eb2e24eb9e64bb615027d038ff660
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548921"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251077"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>配置 Warehousing 应用程序中的应用程序字段名
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍如何在 Dynamics 365 for Finance and Operations 中定义和配置仓库应用程序字段名和优先级。 
+此主题介绍如何在 Dynamics 365 Supply Chain Management 中定义和配置仓库应用程序字段名和优先级。 
 
-**注意：** 本主题适用于仓库管理中的功能。 它不适用于库存管理中的功能。 Finance and Operations - Warehousing 是可用于执行仓库任务的应用程序。 可定义和配置此应用程序中使用的字段名，以及配置应该为字段名分配的优先级。 此主题说明如何在 Finance and Operations - Warehousing 中定义、配置和使用这些仓库应用程序字段名和优先级。 有关如何配置与 Finance and Operations - Warehousing 之间的连接的详细信息，请参阅教程 [安装和配置 Finance and Operations - Warehousing](install-configure-warehousing-app.md)。
+**注意：** 本主题适用于仓库管理中的功能。 它不适用于库存管理中的功能。 Warehousing 是可用于执行仓库任务的应用程序。 可定义和配置此应用程序中使用的字段名，以及配置应该为字段名分配的优先级。 此主题说明如何在 Warehousing 中定义、配置和使用这些仓库应用程序字段名和优先级。 有关如何配置与 Warehousing 之间的连接的详细信息，请参阅教程[安装和配置 Warehousing](install-configure-warehousing-app.md)。
 
 ## <a name="configure-warehouse-app-field-names"></a>配置仓库应用程序字段名
 
-在移动设备上使用 Finance and Operations - Warehousing 时，可在**仓库应用字段名**页面中配置应如何在设备上显示元数据。 在 Finance and Operations 中的新公司中，选择**创建默认设置**以生成将在仓库移动设备工作流中使用的所有字段名，然后为其分配首选输入模式和输入类型。 生成所有字段名之后，可以选择以下输入选项。
+在移动设备上使用 Warehousing 时，可在**仓库应用字段名**页面中配置应如何在设备上显示元数据。 在新公司中，选择**创建默认设置**以生成将在仓库移动设备工作流中使用的所有字段名，然后为其分配首选输入模式和输入类型。 生成所有字段名之后，可以选择以下输入选项。
 
 <table>
 <colgroup>
@@ -69,7 +69,7 @@ ms.locfileid: "1548921"
 
 ## <a name="configure-warehouse-app-field-priority"></a>配置仓库应用字段优先级
 
-在**仓库应用字段优先级**页面中，可将字段名放入不同优先级组。 这样就可以定义当仓库工作人员使用此应用程序执行任务时，应在主任务页面中显示哪些信息。 如果单击**创建默认设置**，将生成一组默认优先级组。 可以根据需要创建任意数量的优先级组，但是任务页面中将仅显示三个优先级组。 当 Finance and Operations 向该应用程序发送元数据时，将根据每个字段的优先级组为字段分配一个相对优先级，并且该应用程序将在任务页面中显示元数据中包含的前三个优先级组。 将在第二详细信息页面中显示其余过剩元数据。 下表显示五个优先级组的示例。
+在**仓库应用字段优先级**页面中，可将字段名放入不同优先级组。 这样就可以定义当仓库工作人员使用此应用程序执行任务时，应在主任务页面中显示哪些信息。 如果单击**创建默认设置**，将生成一组默认优先级组。 可以根据需要创建任意数量的优先级组，但是任务页面中将仅显示三个优先级组。 当系统向该应用程序发送元数据时，将根据每个字段的优先级组为字段分配一个相对优先级，并且该应用程序将在任务页面中显示元数据中包含的前三个优先级组。 将在第二详细信息页面中显示其余过剩元数据。 下表显示五个优先级组的示例。
 
 <table>
 <colgroup>
@@ -143,6 +143,3 @@ ms.locfileid: "1548921"
 --------
 
 [安装和配置 Microsoft Dynamics 365 for Finance and Operations – 仓库](install-configure-warehousing-app.md)
-
-
-

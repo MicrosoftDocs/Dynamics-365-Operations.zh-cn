@@ -1,6 +1,6 @@
 ---
 title: 配置和使用呼叫中心订单保留
-description: 本主题介绍如何使用 Microsoft Dynamics 365 for Retail 处理保留订单。
+description: 本主题介绍如何使用 Dynamics 365 Retail 处理保留订单。
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5f20cd5266f2fec02d11c6ac5f0268765b3ad1ec
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564870"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018358"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>配置和使用呼叫中心订单保留
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍 Microsoft Dynamics 365 for Retail 中针对呼叫中心订单的订单保留功能。
+本主题介绍 Dynamics 365 Retail 中针对呼叫中心订单的订单保留功能。
 
 ## <a name="configuring-call-center-order-holds"></a>配置呼叫中心订单保留
 

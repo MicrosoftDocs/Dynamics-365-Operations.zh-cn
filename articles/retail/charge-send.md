@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: e5351086c56d13ef98937aec066be00cdf88fd37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 088f55e5605c99f69852b4d6811b5c5504f267a2
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553619"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019454"
 ---
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>使用“费用发送”功能从其他商店装运订单
 
 [!include [banner](includes/banner.md)]
 
-使用 Dynamics 365 for Retail 中的“费用发送”功能，可以在一个商店下达客户订单，从另一个商店装运。
+使用 Retail 中的“费用发送”功能，可以在一个商店下达客户订单，从另一个商店装运。
 
 销售点 (POS) 客户端的客户订单支持多个履行选项。 一些履行选项的示例包括：
 

@@ -1,6 +1,6 @@
 ---
-title: 在 Dynamics 365 for Finance and Operations – 仓库中使用摄像头扫描条码
-description: 本主题介绍如何设置 Dynamics 365 for Finance and Operations – 仓库以在移动设备上使用摄像头扫描条码。
+title: 在 Dynamics 365 Supply Chain Management - 仓库应用程序中使用摄像头扫描条码
+description: 本主题介绍如何设置 Dynamics 365 Supply Chain Management - 仓库应用程序以在移动设备上使用摄像头扫描条码。
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
@@ -17,26 +17,26 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 5ec9197c2e8b7970fcbf5ea42612c60f940bcae0
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 8062a981f792bcfed2713d3cb6a42f414394f6a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742915"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251446"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>在 Dynamics 365 for Finance and Operations – 仓库中使用摄像头扫描条码
+# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>在 Dynamics 365 Supply Chain Management - 仓库应用程序中使用摄像头扫描条码
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何设置 Dynamics 365 for Finance and Operations – 仓库以在移动设备上使用摄像头扫描条码。 
+本主题介绍如何设置 Dynamics 365 Supply Chain Management - 仓库应用程序以在移动设备上使用摄像头扫描条码。 
 
-## <a name="prerequisites"></a>必备项
-若要使用此功能，需要安装 Warehousing 版本 1.2.0.0，并且设备必须有摄像头。 更新后打开该应用程序时，系统将提示您允许 Dynamics 365 for Finance and Operations – 仓库应用程序使用摄像头。 如果设备没有摄像头，将不显示此提示，而您则不能将摄像头用作扫描仪。 
+## <a name="prerequisites"></a>先决条件
+若要使用此功能，需要安装 Warehousing 应用程序版本 1.2.0.0，并且设备必须有摄像头。 更新后打开该应用程序时，系统将提示您允许此应用程序使用摄像头。 如果设备没有摄像头，将不显示此提示，而您则不能将摄像头用作扫描仪。 
 
 ## <a name="setup"></a>设置
 在 Warehousing 应用程序的“显示”设置中，可选择是否应将摄像头用于执行条码扫描。 如果启用**将摄像头用作扫描仪**，则可在将首选输入模式设置为**扫描**的每个输入字段中使用摄像头。 
 
-若要控制输入字段是否应可扫描，请将 Dynamics 365 for Finance and Operations 中的**仓库应用字段名**页面上的**首选输入模式**设置为**扫描**。 选择此选项之后，可在 Warehousing 应用程序中将摄像头用于扫描。 有关如何配置 Warehousing 中的应用程序字段名的信息，请参阅[配置 Warehousing 应用程序中的应用程序字段名](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse)。
+若要控制输入字段是否应可扫描，请将**仓库应用字段名**页面上的**首选输入模式**设置为**扫描**。 选择此选项之后，可在 Warehousing 应用程序中将摄像头用于扫描。 有关如何配置 Warehousing 中的应用程序字段名的信息，请参阅[配置 Warehousing 应用程序中的应用程序字段名](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse)。
 
 ## <a name="supported-bar-code-formats"></a>支持的条码格式
 支持最常见的条码格式，包括 Code 128、Code 39、Code 93、EAN-8、EAN-13、UPC-E、UPC-A 和 QR 码。 

@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent 的新增功能或更改（2019 年 8 月 20 日）
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent 中的新增功能和更改的功能。
+title: Dynamics 365 Talent 的新增功能或更改（2019 年 8 月 20 日）
+description: 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 8/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f437dbbb786456cd335d5fb85e271d224e0a1383
-ms.sourcegitcommit: 4176c333ce3f88c5c68e95bd47e5791d32365dd2
+ms.openlocfilehash: 5e4272fa1c94a883a10b7893d5dc8addfa987e60
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918188"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024060"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-20-2019"></a>Dynamics 365 for Talent 的新增功能或更改（2019 年 8 月 20 日）
+# <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>Dynamics 365 Talent 的新增功能或更改（2019 年 8 月 20 日）
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍了 Dynamics 365 for Talent 中的新增功能和更改的功能。
+此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
 ## <a name="changes-in-attract"></a>Attract 中的更改
 
@@ -43,11 +43,11 @@ ms.locfileid: "1918188"
 
 ## <a name="changes-in-onboard"></a>Onboard 中的更改
 
-本版本中包含 Dynamics 365 for Talent: Onboard 的小缺陷修复。
+本版本中包含 Dynamics 365 Talent: Onboard 的小缺陷修复。
 
 ## <a name="changes-in-core-hr"></a>Core HR 中的更改
 
-本版本中包含 Dynamics 365 for Talent: Core HR 的小缺陷修复。 本部分中的更改适用于内部版本号 8.1.2429。
+本版本中包含 Dynamics 365 Talent: Core HR 的小缺陷修复。 本部分中的更改适用于内部版本号 8.1.2429。
 
 ### <a name="in-preview"></a>预览模式
 
@@ -69,6 +69,6 @@ ms.locfileid: "1918188"
 
 ### <a name="coming-soon"></a>即将到期
 
-#### <a name="platform-update-29"></a>平台 update 29
+#### <a name="platform-update-29-for-finance-and-operations"></a>Finance and Operations 的平台更新 29
 
-有关平台更新 29 的其他详细信息，请参阅 [Dynamics 365 for Finance and Operations 平台更新 29（2019 年 10 月）中的预览功能](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29)。
+有关 Finance and Operations 的平台更新 29 的更多详细信息，请参阅 [Dynamics 365 Finance and Operations 平台更新 29（2019 年 10 月）的预览功能](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29)。

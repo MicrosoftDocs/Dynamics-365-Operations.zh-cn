@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 00ea121385d74b3f8992d34fb485a8232325ea3f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835734"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251613"
 ---
 # <a name="sales-orders-mobile-workspace"></a>销售订单移动工作区
 
@@ -31,7 +31,7 @@ ms.locfileid: "1835734"
 
 此主题提供有关**销售订单**移动工作区的信息。 此工作区帮助您随时随地掌握最新的销售订单。 
 
-将此工作区用于与 Microsoft Dynamics 365 for Unified Operations mobile 应用一起使用。
+此工作区应该与 Finance and Operations mobile 应用程序结合使用。
 
 ## <a name="overview"></a>概览
 **销售订单**移动工作区可以让您查看有关各销售订单的详细信息。 此信息包括订单状态、客户的联系信息和订单员的联系信息。 **销售订单**移动工作区提供销售订单的即时视图。 您可以查看所有销售订单，按客户查看销售订单，或查看有关特定销售订单的信息。 
@@ -83,8 +83,8 @@ ms.locfileid: "1835734"
 ## <a name="prerequisites"></a>先决条件
 先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>使用 Microsoft Dynamics 365 for Finance and Operations 的先决条件 
-如果已经为您的组织部署 Dynamics 365 for Finance and Operations，系统管理员必须发布**销售订单**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>使用 Supply Chain Management 时的先决条件 
+如果已经为您的组织部署 Supply Chain Management，系统管理员必须发布**销售订单**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的 Dynamics 365 for Operations 版本 1611 时的先决条件
 如果已经为您的组织部署带平台更新 3 或更高版本的 Dynamics 365 for Operations 版本 1611，系统管理员必须完成以下先决条件。 
@@ -120,7 +120,7 @@ ms.locfileid: "1835734"
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
-下载并安装 Dynamics 365 for Unified Operations 移动应用：
+下载并安装 Finance and Operations 移动应用程序：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

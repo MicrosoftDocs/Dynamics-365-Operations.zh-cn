@@ -3,7 +3,7 @@ title: 维护阶段
 description: 本主题介绍资产管理中的维护阶段。
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a0ac4820d2efa37387382c2890e3ddc7dbc0878b
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: eca732f245650c8e1f3dc976454536a0ab1ee117
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875522"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922014"
 ---
 # <a name="maintenance-rounds"></a>维护阶段
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 在**资产管理**中，可以为各资产创建维护阶段，在这些阶段，需要定期执行相似任务。 例如，需要在相同间隔内对一些机器执行的润滑作业或安全检查作业。 第一步是创建维护阶段，其中包括需要对其执行相同形式的维护作业的资产。 接下来，安排维护阶段。 完成了维护阶段安排之后，可在**所有维护安排**和**打开维护安排行**中查看与该阶段关联的所有作业记录。
 
@@ -83,6 +81,8 @@ ms.locfileid: "1875522"
 >[!NOTE]
 >**标题**快速选项卡上**详细信息**组中的**资产**和**行**字段显示与所选维护阶段关联的资产和行的总数。
 
+下图显示其中包含三个资产的维护阶段的示例。
+
 ![图 1](media/13-preventive-maintenance.png)
 
 
@@ -106,6 +106,8 @@ ms.locfileid: "1875522"
 6. 单击 **确定**。
 
 7. 现在可以在**资产管理** > **常用** > **维护安排** > **所有维护安排**或**打开维护安排行**中查看维护阶段作业。 如果已将安排的阶段与工作订单池关联，还可以在**打开维护安排池**中查看维护安排行。 将基于阶段创建引用类型为“维护阶段”的维护安排行。
+
+下面的两个图在**安排维护阶段**对话框中显示一个安排作业，在**所有维护安排**中显示根据该安排作业创建的维护安排行。
 
 ![图 2](media/14-preventive-maintenance.png)
 

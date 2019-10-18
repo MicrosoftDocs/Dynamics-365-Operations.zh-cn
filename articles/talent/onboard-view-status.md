@@ -1,6 +1,6 @@
 ---
 title: 查看入职员工和您的任务的状态
-description: 本主题说明如何使用 Microsoft Dynamics 365 for Talent - Onboard 应用来跟踪新雇员在入职流程中的进度。
+description: 本主题说明如何使用 Microsoft Dynamics 365 Talent - Onboard 应用来跟踪新雇员在入职流程中的进度。
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0e17c572b4d3b5cee3687b25fb340ad9f98247ed
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: fe6da4599940a0b7812dc9d3f66157715c45f62d
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731374"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009823"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>查看入职员工和您的任务的状态
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard 允许您查看新雇员在其入职活动中的进度。 您还可以查看从入职指南分配给您的任何任务。
+Microsoft Dynamics 365 Talent: Onboard 允许您查看新雇员在其入职活动中的进度。 您还可以查看从入职指南分配给您的任何任务。
 
 ## <a name="view-the-status-of-onboarding-employees"></a>查看入职员工的状态
 
