@@ -1,6 +1,6 @@
 ---
 title: Retail 中的工时和出勤管理
-description: 此主题介绍 Microsoft Dynamics 365 for Retail 中工时和出勤管理支持的方案。
+description: 此主题介绍 Dynamics 365 Retail 中工时和出勤管理支持的方案。
 author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,123 +19,123 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d541de550df41b7d4616492960bd4f2aae46d45e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567945"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024975"
 ---
-# <a name="time-and-attendance-management-in-retail"></a><span data-ttu-id="77b68-103">Retail 中的工时和出勤管理</span><span class="sxs-lookup"><span data-stu-id="77b68-103">Time and attendance management in Retail</span></span>
+# <a name="time-and-attendance-management-in-retail"></a><span data-ttu-id="437cb-103">Retail 中的工时和出勤管理</span><span class="sxs-lookup"><span data-stu-id="437cb-103">Time and attendance management in Retail</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="77b68-104">此主题介绍 Microsoft Dynamics 365 for Retail 中工时和出勤管理支持的方案。</span><span class="sxs-lookup"><span data-stu-id="77b68-104">This topic describes the scenarios that are supported for time and attendance management in Microsoft Dynamics 365 for Retail.</span></span>
+<span data-ttu-id="437cb-104">此主题介绍 Dynamics 365 Retail 中工时和出勤管理支持的方案。</span><span class="sxs-lookup"><span data-stu-id="437cb-104">This topic describes the scenarios that are supported for time and attendance management in Dynamics 365 Retail.</span></span>
 
-## <a name="manage-worker-setup-and-scheduling"></a><span data-ttu-id="77b68-105">管理工作人员设置和计划</span><span class="sxs-lookup"><span data-stu-id="77b68-105">Manage worker setup and scheduling</span></span>
+## <a name="manage-worker-setup-and-scheduling"></a><span data-ttu-id="437cb-105">管理工作人员设置和计划</span><span class="sxs-lookup"><span data-stu-id="437cb-105">Manage worker setup and scheduling</span></span>
 
-### <a name="initial-configuration"></a><span data-ttu-id="77b68-106">初始配置</span><span class="sxs-lookup"><span data-stu-id="77b68-106">Initial configuration</span></span>
+### <a name="initial-configuration"></a><span data-ttu-id="437cb-106">初始配置</span><span class="sxs-lookup"><span data-stu-id="437cb-106">Initial configuration</span></span>
 
-- <span data-ttu-id="77b68-107">运行配置向导。</span><span class="sxs-lookup"><span data-stu-id="77b68-107">Run the configuration wizard.</span></span>
-- <span data-ttu-id="77b68-108">将工作人员登记为时间登记工作人员。</span><span class="sxs-lookup"><span data-stu-id="77b68-108">Register workers as time registration workers.</span></span>
+- <span data-ttu-id="437cb-107">运行配置向导。</span><span class="sxs-lookup"><span data-stu-id="437cb-107">Run the configuration wizard.</span></span>
+- <span data-ttu-id="437cb-108">将工作人员登记为时间登记工作人员。</span><span class="sxs-lookup"><span data-stu-id="437cb-108">Register workers as time registration workers.</span></span>
 
-### <a name="plan-worker-schedules"></a><span data-ttu-id="77b68-109">计划工作人员计划</span><span class="sxs-lookup"><span data-stu-id="77b68-109">Plan worker schedules</span></span>
+### <a name="plan-worker-schedules"></a><span data-ttu-id="437cb-109">计划工作人员计划</span><span class="sxs-lookup"><span data-stu-id="437cb-109">Plan worker schedules</span></span>
 
-- <span data-ttu-id="77b68-110">使用工作进度表应用模板。</span><span class="sxs-lookup"><span data-stu-id="77b68-110">Apply profiles by using the work planner.</span></span> <span data-ttu-id="77b68-111">有关详细信息，请参阅[使用工作进度表应用模板](https://technet.microsoft.com/library/aa551234.aspx)。</span><span class="sxs-lookup"><span data-stu-id="77b68-111">For more information, see [Apply profiles using work planner](https://technet.microsoft.com/library/aa551234.aspx).</span></span>
+- <span data-ttu-id="437cb-110">使用工作进度表应用模板。</span><span class="sxs-lookup"><span data-stu-id="437cb-110">Apply profiles by using the work planner.</span></span> <span data-ttu-id="437cb-111">有关详细信息，请参阅[使用工作进度表应用模板](https://technet.microsoft.com/library/aa551234.aspx)。</span><span class="sxs-lookup"><span data-stu-id="437cb-111">For more information, see [Apply profiles using work planner](https://technet.microsoft.com/library/aa551234.aspx).</span></span>
 
-<span data-ttu-id="77b68-112">有关配置步骤的信息，请参阅[设置“时间和出勤情况”](https://technet.microsoft.com/library/aa496971.aspx)。</span><span class="sxs-lookup"><span data-stu-id="77b68-112">For information about the configuration steps, see [Setting up time and attendance](https://technet.microsoft.com/library/aa496971.aspx).</span></span>
+<span data-ttu-id="437cb-112">有关配置步骤的信息，请参阅[设置“时间和出勤情况”](https://technet.microsoft.com/library/aa496971.aspx)。</span><span class="sxs-lookup"><span data-stu-id="437cb-112">For information about the configuration steps, see [Setting up time and attendance](https://technet.microsoft.com/library/aa496971.aspx).</span></span>
 
-### <a name="retail-specific-configuration"></a><span data-ttu-id="77b68-113">零售特定配置</span><span class="sxs-lookup"><span data-stu-id="77b68-113">Retail-specific configuration</span></span>
+### <a name="retail-specific-configuration"></a><span data-ttu-id="437cb-113">零售特定配置</span><span class="sxs-lookup"><span data-stu-id="437cb-113">Retail-specific configuration</span></span>
 
-- <span data-ttu-id="77b68-114">为您要启用时间登记的工作人员启用打卡时间的功能配置文件。</span><span class="sxs-lookup"><span data-stu-id="77b68-114">Enable a functionality profile for Time Clock, for workers that you want to enable time registrations for.</span></span> <span data-ttu-id="77b68-115">单击 **POS 功能配置文件** &gt; **功能** &gt; **POS 时间登记** &gt; **启用时间登记**。</span><span class="sxs-lookup"><span data-stu-id="77b68-115">Click **POS functionality profiles** &gt; **Functions** &gt; **POS time registrations** &gt; **Enable time registrations**.</span></span>
-- <span data-ttu-id="77b68-116">配置销售点 (POS) 权限组以启用查看打卡时间条目权限。</span><span class="sxs-lookup"><span data-stu-id="77b68-116">Configure point of sale (POS) permissions groups to enable the View timeclock entries permission.</span></span> <span data-ttu-id="77b68-117">此权限允许用户查看商店中其他工作人员的打卡时间登记（以及用户与其关联的任何其他商店，通过通讯簿）。</span><span class="sxs-lookup"><span data-stu-id="77b68-117">This permission lets a user view the time clock registrations of other workers in the store (and from any other store that the user is associated with, via the address book).</span></span> <span data-ttu-id="77b68-118">您可能要为经理角色启用此权限，但不为出纳员角色启用。</span><span class="sxs-lookup"><span data-stu-id="77b68-118">You might want to enable this permission for a manager role but not for a cashier role.</span></span> <span data-ttu-id="77b68-119">单击 **POS 权限组** &gt; **查看打卡时间条目**。</span><span class="sxs-lookup"><span data-stu-id="77b68-119">Click **POS permission groups** &gt; **View time clock entries**.</span></span>
+- <span data-ttu-id="437cb-114">为您要启用时间登记的工作人员启用打卡时间的功能配置文件。</span><span class="sxs-lookup"><span data-stu-id="437cb-114">Enable a functionality profile for Time Clock, for workers that you want to enable time registrations for.</span></span> <span data-ttu-id="437cb-115">单击 **POS 功能配置文件** &gt; **功能** &gt; **POS 时间登记** &gt; **启用时间登记**。</span><span class="sxs-lookup"><span data-stu-id="437cb-115">Click **POS functionality profiles** &gt; **Functions** &gt; **POS time registrations** &gt; **Enable time registrations**.</span></span>
+- <span data-ttu-id="437cb-116">配置销售点 (POS) 权限组以启用查看打卡时间条目权限。</span><span class="sxs-lookup"><span data-stu-id="437cb-116">Configure point of sale (POS) permissions groups to enable the View timeclock entries permission.</span></span> <span data-ttu-id="437cb-117">此权限允许用户查看商店中其他工作人员的打卡时间登记（以及用户与其关联的任何其他商店，通过通讯簿）。</span><span class="sxs-lookup"><span data-stu-id="437cb-117">This permission lets a user view the time clock registrations of other workers in the store (and from any other store that the user is associated with, via the address book).</span></span> <span data-ttu-id="437cb-118">您可能要为经理角色启用此权限，但不为出纳员角色启用。</span><span class="sxs-lookup"><span data-stu-id="437cb-118">You might want to enable this permission for a manager role but not for a cashier role.</span></span> <span data-ttu-id="437cb-119">单击 **POS 权限组** &gt; **查看打卡时间条目**。</span><span class="sxs-lookup"><span data-stu-id="437cb-119">Click **POS permission groups** &gt; **View time clock entries**.</span></span>
 
-## <a name="register-time"></a><span data-ttu-id="77b68-120">登记时间</span><span class="sxs-lookup"><span data-stu-id="77b68-120">Register time</span></span>
+## <a name="register-time"></a><span data-ttu-id="437cb-120">登记时间</span><span class="sxs-lookup"><span data-stu-id="437cb-120">Register time</span></span>
 
-### <a name="cashier-and-non-cashier-time-registrations"></a><span data-ttu-id="77b68-121">出纳员和非出纳员时间登记</span><span class="sxs-lookup"><span data-stu-id="77b68-121">Cashier and non-cashier time registrations</span></span>
+### <a name="cashier-and-non-cashier-time-registrations"></a><span data-ttu-id="437cb-121">出纳员和非出纳员时间登记</span><span class="sxs-lookup"><span data-stu-id="437cb-121">Cashier and non-cashier time registrations</span></span>
 
-- <span data-ttu-id="77b68-122">在 POS 上：</span><span class="sxs-lookup"><span data-stu-id="77b68-122">On POS:</span></span>
+- <span data-ttu-id="437cb-122">在 POS 上：</span><span class="sxs-lookup"><span data-stu-id="437cb-122">On POS:</span></span>
 
-    - <span data-ttu-id="77b68-123">上班打卡操作：</span><span class="sxs-lookup"><span data-stu-id="77b68-123">Clock-in operations:</span></span>
+    - <span data-ttu-id="437cb-123">上班打卡操作：</span><span class="sxs-lookup"><span data-stu-id="437cb-123">Clock-in operations:</span></span>
 
-        - <span data-ttu-id="77b68-124">登录非银箱操作或新班次。</span><span class="sxs-lookup"><span data-stu-id="77b68-124">Log on with a non-drawer operation or New shift.</span></span>
-        - <span data-ttu-id="77b68-125">选择打卡时间操作。</span><span class="sxs-lookup"><span data-stu-id="77b68-125">Select a Time Clock operation.</span></span>
-        - <span data-ttu-id="77b68-126">选择所需操作：</span><span class="sxs-lookup"><span data-stu-id="77b68-126">Select a desired operation:</span></span>
+        - <span data-ttu-id="437cb-124">登录非银箱操作或新班次。</span><span class="sxs-lookup"><span data-stu-id="437cb-124">Log on with a non-drawer operation or New shift.</span></span>
+        - <span data-ttu-id="437cb-125">选择打卡时间操作。</span><span class="sxs-lookup"><span data-stu-id="437cb-125">Select a Time Clock operation.</span></span>
+        - <span data-ttu-id="437cb-126">选择所需操作：</span><span class="sxs-lookup"><span data-stu-id="437cb-126">Select a desired operation:</span></span>
 
-            - <span data-ttu-id="77b68-127">上班打卡</span><span class="sxs-lookup"><span data-stu-id="77b68-127">Clock-in</span></span>
-            - <span data-ttu-id="77b68-128">工间休息</span><span class="sxs-lookup"><span data-stu-id="77b68-128">Break for Work</span></span>
-            - <span data-ttu-id="77b68-129">午餐休息</span><span class="sxs-lookup"><span data-stu-id="77b68-129">Break for Lunch</span></span>
-            - <span data-ttu-id="77b68-130">下班打卡</span><span class="sxs-lookup"><span data-stu-id="77b68-130">Clock-out</span></span>
+            - <span data-ttu-id="437cb-127">上班打卡</span><span class="sxs-lookup"><span data-stu-id="437cb-127">Clock-in</span></span>
+            - <span data-ttu-id="437cb-128">工间休息</span><span class="sxs-lookup"><span data-stu-id="437cb-128">Break for Work</span></span>
+            - <span data-ttu-id="437cb-129">午餐休息</span><span class="sxs-lookup"><span data-stu-id="437cb-129">Break for Lunch</span></span>
+            - <span data-ttu-id="437cb-130">下班打卡</span><span class="sxs-lookup"><span data-stu-id="437cb-130">Clock-out</span></span>
 
         <table>
         <thead>
         <tr>
-        <th><span data-ttu-id="77b68-131">当前状态</span><span class="sxs-lookup"><span data-stu-id="77b68-131">Current state</span></span></th>
-        <th><span data-ttu-id="77b68-132">可用操作</span><span class="sxs-lookup"><span data-stu-id="77b68-132">Available operations</span></span></th>
+        <th><span data-ttu-id="437cb-131">当前状态</span><span class="sxs-lookup"><span data-stu-id="437cb-131">Current state</span></span></th>
+        <th><span data-ttu-id="437cb-132">可用操作</span><span class="sxs-lookup"><span data-stu-id="437cb-132">Available operations</span></span></th>
         </tr>
         </thead>
         <tbody>
         <tr>
-        <td><span data-ttu-id="77b68-133">上班打卡</span><span class="sxs-lookup"><span data-stu-id="77b68-133">Clock-in</span></span></td>
+        <td><span data-ttu-id="437cb-133">上班打卡</span><span class="sxs-lookup"><span data-stu-id="437cb-133">Clock-in</span></span></td>
         <td>
         <ul>
-        <li><span data-ttu-id="77b68-134">工间休息</span><span class="sxs-lookup"><span data-stu-id="77b68-134">Break for Work</span></span></li>
-        <li><span data-ttu-id="77b68-135">午餐休息</span><span class="sxs-lookup"><span data-stu-id="77b68-135">Break for Lunch</span></span></li>
-        <li><span data-ttu-id="77b68-136">下班打卡</span><span class="sxs-lookup"><span data-stu-id="77b68-136">Clock-out</span></span></li>
+        <li><span data-ttu-id="437cb-134">工间休息</span><span class="sxs-lookup"><span data-stu-id="437cb-134">Break for Work</span></span></li>
+        <li><span data-ttu-id="437cb-135">午餐休息</span><span class="sxs-lookup"><span data-stu-id="437cb-135">Break for Lunch</span></span></li>
+        <li><span data-ttu-id="437cb-136">下班打卡</span><span class="sxs-lookup"><span data-stu-id="437cb-136">Clock-out</span></span></li>
         </ul>
         </td>
         </tr>
         <tr>
-        <td><span data-ttu-id="77b68-137">工间休息</span><span class="sxs-lookup"><span data-stu-id="77b68-137">Break for Work</span></span></td>
-        <td><span data-ttu-id="77b68-138">上班打卡</span><span class="sxs-lookup"><span data-stu-id="77b68-138">Clock-in</span></span></td>
+        <td><span data-ttu-id="437cb-137">工间休息</span><span class="sxs-lookup"><span data-stu-id="437cb-137">Break for Work</span></span></td>
+        <td><span data-ttu-id="437cb-138">上班打卡</span><span class="sxs-lookup"><span data-stu-id="437cb-138">Clock-in</span></span></td>
         </tr>
         <tr>
-        <td><span data-ttu-id="77b68-139">午餐休息</span><span class="sxs-lookup"><span data-stu-id="77b68-139">Break for Lunch</span></span></td>
-        <td><span data-ttu-id="77b68-140">上班打卡</span><span class="sxs-lookup"><span data-stu-id="77b68-140">Clock-in</span></span></td>
+        <td><span data-ttu-id="437cb-139">午餐休息</span><span class="sxs-lookup"><span data-stu-id="437cb-139">Break for Lunch</span></span></td>
+        <td><span data-ttu-id="437cb-140">上班打卡</span><span class="sxs-lookup"><span data-stu-id="437cb-140">Clock-in</span></span></td>
         </tr>
         <tr>
-        <td><span data-ttu-id="77b68-141">下班打卡</span><span class="sxs-lookup"><span data-stu-id="77b68-141">Clock-out</span></span></td>
-        <td><span data-ttu-id="77b68-142">上班打卡</span><span class="sxs-lookup"><span data-stu-id="77b68-142">Clock-in</span></span></td>
+        <td><span data-ttu-id="437cb-141">下班打卡</span><span class="sxs-lookup"><span data-stu-id="437cb-141">Clock-out</span></span></td>
+        <td><span data-ttu-id="437cb-142">上班打卡</span><span class="sxs-lookup"><span data-stu-id="437cb-142">Clock-in</span></span></td>
         </tr>
         </tbody>
         </table>
 
-        <span data-ttu-id="77b68-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span><span class="sxs-lookup"><span data-stu-id="77b68-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span></span>
+        <span data-ttu-id="437cb-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span><span class="sxs-lookup"><span data-stu-id="437cb-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span></span>
 
-- <span data-ttu-id="77b68-144">查看确认消息，验证当前活动时间是否正确。</span><span class="sxs-lookup"><span data-stu-id="77b68-144">View the confirmation message, and validate that the current activity time is correct.</span></span>
-- <span data-ttu-id="77b68-145">日志：</span><span class="sxs-lookup"><span data-stu-id="77b68-145">Logbook:</span></span>
+- <span data-ttu-id="437cb-144">查看确认消息，验证当前活动时间是否正确。</span><span class="sxs-lookup"><span data-stu-id="437cb-144">View the confirmation message, and validate that the current activity time is correct.</span></span>
+- <span data-ttu-id="437cb-145">日志：</span><span class="sxs-lookup"><span data-stu-id="437cb-145">Logbook:</span></span>
 
-    - <span data-ttu-id="77b68-146">单击**日志**查看打卡时间活动。</span><span class="sxs-lookup"><span data-stu-id="77b68-146">Click **Logbook** to view time clock activity.</span></span>
-    - <span data-ttu-id="77b68-147">使用时间筛选器可选择不同的时间范围。</span><span class="sxs-lookup"><span data-stu-id="77b68-147">Use time filters to select different time windows.</span></span>
-    - <span data-ttu-id="77b68-148">如果您在多个商店位置工作，可以查看您在那里记录时间的所有商店的时间登记。</span><span class="sxs-lookup"><span data-stu-id="77b68-148">If you work at multiple store locations, you see your time registrations from all the stores where you recorded time.</span></span> <span data-ttu-id="77b68-149">可以使用商店筛选器查看所选商店的时间登记。</span><span class="sxs-lookup"><span data-stu-id="77b68-149">You can use the store filter to view time registrations from a selected store.</span></span>
+    - <span data-ttu-id="437cb-146">单击**日志**查看打卡时间活动。</span><span class="sxs-lookup"><span data-stu-id="437cb-146">Click **Logbook** to view time clock activity.</span></span>
+    - <span data-ttu-id="437cb-147">使用时间筛选器可选择不同的时间范围。</span><span class="sxs-lookup"><span data-stu-id="437cb-147">Use time filters to select different time windows.</span></span>
+    - <span data-ttu-id="437cb-148">如果您在多个商店位置工作，可以查看您在那里记录时间的所有商店的时间登记。</span><span class="sxs-lookup"><span data-stu-id="437cb-148">If you work at multiple store locations, you see your time registrations from all the stores where you recorded time.</span></span> <span data-ttu-id="437cb-149">可以使用商店筛选器查看所选商店的时间登记。</span><span class="sxs-lookup"><span data-stu-id="437cb-149">You can use the store filter to view time registrations from a selected store.</span></span>
 
-- <span data-ttu-id="77b68-150">不同时区：</span><span class="sxs-lookup"><span data-stu-id="77b68-150">Different time zones:</span></span>
+- <span data-ttu-id="437cb-150">不同时区：</span><span class="sxs-lookup"><span data-stu-id="437cb-150">Different time zones:</span></span>
 
-    - <span data-ttu-id="77b68-151">如果您从不同位置查看时间（用于出纳员日志，或为经理方案使用**查看打卡时间条目**），并且该位置在不同的时区，您看到的时间记录将转换为您本地的时区。</span><span class="sxs-lookup"><span data-stu-id="77b68-151">If you view time from a different location (for the cashier logbook, or by using **View timeclock entries** for a manager scenario), and that location is in a different time zone, the time records that you see are converted to your local time zone.</span></span> <span data-ttu-id="77b68-152">例如，您是两个商店的经理，一个在亚利桑那和另一个在内华达。</span><span class="sxs-lookup"><span data-stu-id="77b68-152">For example, you are a manager for two stores, one in Arizona and the other in Nevada.</span></span> <span data-ttu-id="77b68-153">出纳员在亚利桑那上午 9:00 上班打卡</span><span class="sxs-lookup"><span data-stu-id="77b68-153">A cashier registers a clock-in at 9:00 A.M.</span></span> <span data-ttu-id="77b68-154">登记。</span><span class="sxs-lookup"><span data-stu-id="77b68-154">in Arizona.</span></span> <span data-ttu-id="77b68-155">此时，该时间是内华达的上午 8:00。</span><span class="sxs-lookup"><span data-stu-id="77b68-155">At that moment, the time in Nevada is 8:00 A.M.</span></span> <span data-ttu-id="77b68-156">因此，如果您是在内华达商店并查看时间登记记录，时间登记标记为上午 8 点。</span><span class="sxs-lookup"><span data-stu-id="77b68-156">Therefore, if you are in the Nevada store and look at time registration records, the time registration is marked as 8 A.M.</span></span>
+    - <span data-ttu-id="437cb-151">如果您从不同位置查看时间（用于出纳员日志，或为经理方案使用**查看打卡时间条目**），并且该位置在不同的时区，您看到的时间记录将转换为您本地的时区。</span><span class="sxs-lookup"><span data-stu-id="437cb-151">If you view time from a different location (for the cashier logbook, or by using **View timeclock entries** for a manager scenario), and that location is in a different time zone, the time records that you see are converted to your local time zone.</span></span> <span data-ttu-id="437cb-152">例如，您是两个商店的经理，一个在亚利桑那和另一个在内华达。</span><span class="sxs-lookup"><span data-stu-id="437cb-152">For example, you are a manager for two stores, one in Arizona and the other in Nevada.</span></span> <span data-ttu-id="437cb-153">出纳员在亚利桑那上午 9:00 上班打卡</span><span class="sxs-lookup"><span data-stu-id="437cb-153">A cashier registers a clock-in at 9:00 A.M.</span></span> <span data-ttu-id="437cb-154">登记。</span><span class="sxs-lookup"><span data-stu-id="437cb-154">in Arizona.</span></span> <span data-ttu-id="437cb-155">此时，该时间是内华达的上午 8:00。</span><span class="sxs-lookup"><span data-stu-id="437cb-155">At that moment, the time in Nevada is 8:00 A.M.</span></span> <span data-ttu-id="437cb-156">因此，如果您是在内华达商店并查看时间登记记录，时间登记标记为上午 8 点。</span><span class="sxs-lookup"><span data-stu-id="437cb-156">Therefore, if you are in the Nevada store and look at time registration records, the time registration is marked as 8 A.M.</span></span>
 
-## <a name="view-worker-time-registrations"></a><span data-ttu-id="77b68-157">查看工作人员时间登记</span><span class="sxs-lookup"><span data-stu-id="77b68-157">View worker time registrations</span></span>
+## <a name="view-worker-time-registrations"></a><span data-ttu-id="437cb-157">查看工作人员时间登记</span><span class="sxs-lookup"><span data-stu-id="437cb-157">View worker time registrations</span></span>
 
-### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a><span data-ttu-id="77b68-158">查看工作人员时间登记，并按商店或活动类型筛选</span><span class="sxs-lookup"><span data-stu-id="77b68-158">View worker time registrations, and filter by store or activity type</span></span>
+### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a><span data-ttu-id="437cb-158">查看工作人员时间登记，并按商店或活动类型筛选</span><span class="sxs-lookup"><span data-stu-id="437cb-158">View worker time registrations, and filter by store or activity type</span></span>
 
-<span data-ttu-id="77b68-159">在 POS 上：</span><span class="sxs-lookup"><span data-stu-id="77b68-159">On POS:</span></span>
+<span data-ttu-id="437cb-159">在 POS 上：</span><span class="sxs-lookup"><span data-stu-id="437cb-159">On POS:</span></span>
 
-- <span data-ttu-id="77b68-160">选择**查看打卡时间条目**。</span><span class="sxs-lookup"><span data-stu-id="77b68-160">Select **View timeclock entries**.</span></span>
-- <span data-ttu-id="77b68-161">您看到分配到您被分配的同一商店的所有工作人员的打卡时间登记活动。</span><span class="sxs-lookup"><span data-stu-id="77b68-161">You see time clock registration activities from all workers that are assigned to the same stores that you're assigned to.</span></span>
-- <span data-ttu-id="77b68-162">您可以使用活动类型和商店筛选器筛选时间登记。</span><span class="sxs-lookup"><span data-stu-id="77b68-162">You can use the activity type and store filters to filter on time registrations.</span></span>
+- <span data-ttu-id="437cb-160">选择**查看打卡时间条目**。</span><span class="sxs-lookup"><span data-stu-id="437cb-160">Select **View timeclock entries**.</span></span>
+- <span data-ttu-id="437cb-161">您看到分配到您被分配的同一商店的所有工作人员的打卡时间登记活动。</span><span class="sxs-lookup"><span data-stu-id="437cb-161">You see time clock registration activities from all workers that are assigned to the same stores that you're assigned to.</span></span>
+- <span data-ttu-id="437cb-162">您可以使用活动类型和商店筛选器筛选时间登记。</span><span class="sxs-lookup"><span data-stu-id="437cb-162">You can use the activity type and store filters to filter on time registrations.</span></span>
 
-## <a name="process-and-manage-time-registrations"></a><span data-ttu-id="77b68-163">处理和管理时间登记</span><span class="sxs-lookup"><span data-stu-id="77b68-163">Process and manage time registrations</span></span>
+## <a name="process-and-manage-time-registrations"></a><span data-ttu-id="437cb-163">处理和管理时间登记</span><span class="sxs-lookup"><span data-stu-id="437cb-163">Process and manage time registrations</span></span>
 
-<span data-ttu-id="77b68-164">Dynamics 365 for Retail 用户按照工作流计算、审核和将时间登记转移到工资单。</span><span class="sxs-lookup"><span data-stu-id="77b68-164">A Dynamics 365 for Retail user follows the workflow to calculate, approve, and transfer time registrations to payroll.</span></span>
+<span data-ttu-id="437cb-164">Retail 用户按照工作流计算、审核和将时间登记转移到工资单。</span><span class="sxs-lookup"><span data-stu-id="437cb-164">A Retail user follows the workflow to calculate, approve, and transfer time registrations to payroll.</span></span>
 
-### <a name="primary-operations"></a><span data-ttu-id="77b68-165">主要操作</span><span class="sxs-lookup"><span data-stu-id="77b68-165">Primary operations</span></span>
+### <a name="primary-operations"></a><span data-ttu-id="437cb-165">主要操作</span><span class="sxs-lookup"><span data-stu-id="437cb-165">Primary operations</span></span>
 
-- <span data-ttu-id="77b68-166">计算</span><span class="sxs-lookup"><span data-stu-id="77b68-166">Calculate</span></span>
-- <span data-ttu-id="77b68-167">批准</span><span class="sxs-lookup"><span data-stu-id="77b68-167">Approve</span></span>
-- <span data-ttu-id="77b68-168">提交到工资单</span><span class="sxs-lookup"><span data-stu-id="77b68-168">Submit to payroll</span></span>
+- <span data-ttu-id="437cb-166">计算</span><span class="sxs-lookup"><span data-stu-id="437cb-166">Calculate</span></span>
+- <span data-ttu-id="437cb-167">批准</span><span class="sxs-lookup"><span data-stu-id="437cb-167">Approve</span></span>
+- <span data-ttu-id="437cb-168">提交到工资单</span><span class="sxs-lookup"><span data-stu-id="437cb-168">Submit to payroll</span></span>
 
-### <a name="other-common-operations"></a><span data-ttu-id="77b68-169">其他常用操作</span><span class="sxs-lookup"><span data-stu-id="77b68-169">Other common operations</span></span>
+### <a name="other-common-operations"></a><span data-ttu-id="437cb-169">其他常用操作</span><span class="sxs-lookup"><span data-stu-id="437cb-169">Other common operations</span></span>
 
-- <span data-ttu-id="77b68-170">批量下班打卡</span><span class="sxs-lookup"><span data-stu-id="77b68-170">Bulk Clock-out</span></span>
-- <span data-ttu-id="77b68-171">登记缺勤</span><span class="sxs-lookup"><span data-stu-id="77b68-171">Register Absence</span></span>
+- <span data-ttu-id="437cb-170">批量下班打卡</span><span class="sxs-lookup"><span data-stu-id="437cb-170">Bulk Clock-out</span></span>
+- <span data-ttu-id="437cb-171">登记缺勤</span><span class="sxs-lookup"><span data-stu-id="437cb-171">Register Absence</span></span>
 
-<span data-ttu-id="77b68-172">有关如何处理时间和出勤登记的详细信息，请参阅[处理时间和出勤登记](https://technet.microsoft.com/library/aa573180.aspx)。</span><span class="sxs-lookup"><span data-stu-id="77b68-172">For more information about how to process time and attendance registrations, see [Process time and attendance registrations](https://technet.microsoft.com/library/aa573180.aspx).</span></span>
+<span data-ttu-id="437cb-172">有关如何处理时间和出勤登记的详细信息，请参阅[处理时间和出勤登记](https://technet.microsoft.com/library/aa573180.aspx)。</span><span class="sxs-lookup"><span data-stu-id="437cb-172">For more information about how to process time and attendance registrations, see [Process time and attendance registrations](https://technet.microsoft.com/library/aa573180.aspx).</span></span>

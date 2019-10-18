@@ -18,45 +18,44 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c6d15861492a46ddb1222db2210f8c751ed38cb3
-ms.sourcegitcommit: 109a6ef2d20758dc4a25c51b11e22dd2214a1cc4
+ms.openlocfilehash: 82f65293679591f278e0e3b79c112ba36debc3bb
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1886785"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2277935"
 ---
-# <a name="calculate-capacity-load"></a><span data-ttu-id="4c03f-103">计算产能负荷</span><span class="sxs-lookup"><span data-stu-id="4c03f-103">Calculate capacity load</span></span>
+# <a name="calculate-capacity-load"></a><span data-ttu-id="8d84c-103">计算产能负荷</span><span class="sxs-lookup"><span data-stu-id="8d84c-103">Calculate capacity load</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
-<span data-ttu-id="4c03f-104">在资产管理中，可计算以下对象的产能负荷：</span><span class="sxs-lookup"><span data-stu-id="4c03f-104">In Asset Management, you can calculate capacity load on</span></span>
+<span data-ttu-id="8d84c-104">在资产管理中，可计算以下对象的产能负荷：</span><span class="sxs-lookup"><span data-stu-id="8d84c-104">In Asset Management, you can calculate capacity load on</span></span>
 
-- <span data-ttu-id="4c03f-105">维护安排行</span><span class="sxs-lookup"><span data-stu-id="4c03f-105">maintenance schedule lines</span></span>  
-- <span data-ttu-id="4c03f-106">尚未安排的工作订单</span><span class="sxs-lookup"><span data-stu-id="4c03f-106">work orders that have not yet been scheduled</span></span>  
-- <span data-ttu-id="4c03f-107">已计划的工作订单</span><span class="sxs-lookup"><span data-stu-id="4c03f-107">scheduled work orders</span></span>
+- <span data-ttu-id="8d84c-105">维护安排行</span><span class="sxs-lookup"><span data-stu-id="8d84c-105">maintenance schedule lines</span></span>  
+- <span data-ttu-id="8d84c-106">尚未安排的工作订单</span><span class="sxs-lookup"><span data-stu-id="8d84c-106">work orders that have not yet been scheduled</span></span>  
+- <span data-ttu-id="8d84c-107">已计划的工作订单</span><span class="sxs-lookup"><span data-stu-id="8d84c-107">scheduled work orders</span></span>
 
-<span data-ttu-id="4c03f-108">如果要获取特定期间的预计产能负荷的概览，这非常有用。</span><span class="sxs-lookup"><span data-stu-id="4c03f-108">This is useful if you want to get an overview of expected capacity load for a specific period.</span></span> <span data-ttu-id="4c03f-109">可以计算所有资产或所选资产的产能负荷。</span><span class="sxs-lookup"><span data-stu-id="4c03f-109">Calculation of capacity load can be done on all assets or selected assets.</span></span> <span data-ttu-id="4c03f-110">也可以对维护停机时间活动或工作订单池进行计算。</span><span class="sxs-lookup"><span data-stu-id="4c03f-110">You can also make a calculation on maintenance downtime activities or work order pools.</span></span>
+<span data-ttu-id="8d84c-108">如果要获取特定期间的预计产能负荷的概览，这非常有用。</span><span class="sxs-lookup"><span data-stu-id="8d84c-108">This is useful if you want to get an overview of expected capacity load for a specific period.</span></span> <span data-ttu-id="8d84c-109">可以计算所有资产或所选资产的产能负荷。</span><span class="sxs-lookup"><span data-stu-id="8d84c-109">Calculation of capacity load can be done on all assets or selected assets.</span></span> <span data-ttu-id="8d84c-110">也可以对维护停机时间活动或工作订单池进行计算。</span><span class="sxs-lookup"><span data-stu-id="8d84c-110">You can also make a calculation on maintenance downtime activities or work order pools.</span></span>
 
-1. <span data-ttu-id="4c03f-111">单击**资产管理** > **查询** > **产能负荷**，或**资产管理** > **常用** > **工作订单池** > **所有工作订单池** / **有效的工作订单池** > 在列表中选择工作订单池 > **产能负荷**按钮，或**资产管理** > **常用** > **维护停机时间活动** > **所有维护停机时间活动** / **有效的维护停机时间活动** > 在列表中选择维护活动 > **产能负荷**按钮。</span><span class="sxs-lookup"><span data-stu-id="4c03f-111">Click **Asset management** > **Inquiries** > **Capacity load**, or **Asset management** > **Common** > **Work order pools** > **All work order pools** / **Active work order pools** > select work order pool in the list > **Capacity load** button, or **Asset management** > **Common** > **Maintenance downtime activities** > **All maintenance downtime activities** / **Active maintenance downtime activities** > select maintenance activity in the list > **Capacity load** button.</span></span>
+1. <span data-ttu-id="8d84c-111">单击**资产管理** > **查询** > **产能负荷**，或**资产管理** > **常用** > **工作订单池** > **所有工作订单池** / **有效的工作订单池** > 在列表中选择工作订单池 > **产能负荷**按钮，或**资产管理** > **常用** > **维护停机时间活动** > **所有维护停机时间活动** / **有效的维护停机时间活动** > 在列表中选择维护活动 > **产能负荷**按钮。</span><span class="sxs-lookup"><span data-stu-id="8d84c-111">Click **Asset management** > **Inquiries** > **Capacity load**, or **Asset management** > **Common** > **Work order pools** > **All work order pools** / **Active work order pools** > select work order pool in the list > **Capacity load** button, or **Asset management** > **Common** > **Maintenance downtime activities** > **All maintenance downtime activities** / **Active maintenance downtime activities** > select maintenance activity in the list > **Capacity load** button.</span></span>
 
-2. <span data-ttu-id="4c03f-112">在**计算产能负荷**对话框的**开始日期/时间**和**结束日期/时间**字段中，为计算选择期间。</span><span class="sxs-lookup"><span data-stu-id="4c03f-112">In the **Calculate capacity load** dialog, select a period for the calculation in the **Start date/time** and **End date/time** fields.</span></span>
+2. <span data-ttu-id="8d84c-112">在**计算产能负荷**对话框的**开始日期/时间**和**结束日期/时间**字段中，为计算选择期间。</span><span class="sxs-lookup"><span data-stu-id="8d84c-112">In the **Calculate capacity load** dialog, select a period for the calculation in the **Start date/time** and **End date/time** fields.</span></span>
 
-3. <span data-ttu-id="4c03f-113">如果要在计算中包括维护安排行，请在**包括维护安排**切换按钮上选择“是”。</span><span class="sxs-lookup"><span data-stu-id="4c03f-113">Select "Yes" on the **Include maintenance schedule** toggle button if you want to include maintenance schedule lines in the calculation.</span></span>
+3. <span data-ttu-id="8d84c-113">如果要在计算中包括维护安排行，请在**包括维护安排**切换按钮上选择“是”。</span><span class="sxs-lookup"><span data-stu-id="8d84c-113">Select "Yes" on the **Include maintenance schedule** toggle button if you want to include maintenance schedule lines in the calculation.</span></span>
 
-4. <span data-ttu-id="4c03f-114">如果要在计算中包括工作订单作业，请在**包括工作订单**切换按钮上选择“是”。</span><span class="sxs-lookup"><span data-stu-id="4c03f-114">Select "Yes" on the **Include work order** toggle button if you want to include work order jobs in the calculation.</span></span>
+4. <span data-ttu-id="8d84c-114">如果要在计算中包括工作订单作业，请在**包括工作订单**切换按钮上选择“是”。</span><span class="sxs-lookup"><span data-stu-id="8d84c-114">Select "Yes" on the **Include work order** toggle button if you want to include work order jobs in the calculation.</span></span>
 
-5. <span data-ttu-id="4c03f-115">可使用**级别**字段指示要与功能位置有关的产能负荷行的详细程度。</span><span class="sxs-lookup"><span data-stu-id="4c03f-115">You can use the **Level** field to indicate how detailed you want the capacity load lines to be regarding functional locations.</span></span> <span data-ttu-id="4c03f-116">例如，如果在字段中插入数字“1”，并且采用了多级别功能位置结构，则将在最上级别显示某个功能位置的所有维护安排行和工作订单，因此，可以从较低级别的功能位置叠加行中的工时。</span><span class="sxs-lookup"><span data-stu-id="4c03f-116">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all maintenance schedule lines and work orders for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> <span data-ttu-id="4c03f-117">如果在**级别**字段中插入数字“0”，将看到详细结果，其中显示其关联的所有功能位置级别的所有维护安排行和所有工作订单行。</span><span class="sxs-lookup"><span data-stu-id="4c03f-117">If you insert the number "0" in the **Level** field, you will see a detailed result showing all maintenance schedule lines and all work orders on all the functional location levels to which they are related.</span></span>
+5. <span data-ttu-id="8d84c-115">可使用**级别**字段指示要与功能位置有关的产能负荷行的详细程度。</span><span class="sxs-lookup"><span data-stu-id="8d84c-115">You can use the **Level** field to indicate how detailed you want the capacity load lines to be regarding functional locations.</span></span> <span data-ttu-id="8d84c-116">例如，如果在字段中插入数字“1”，并且采用了多级别功能位置结构，则将在最上级别显示某个功能位置的所有维护安排行和工作订单，因此，可以从较低级别的功能位置叠加行中的工时。</span><span class="sxs-lookup"><span data-stu-id="8d84c-116">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all maintenance schedule lines and work orders for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> <span data-ttu-id="8d84c-117">如果在**级别**字段中插入数字“0”，将看到详细结果，其中显示其关联的所有功能位置级别的所有维护安排行和所有工作订单行。</span><span class="sxs-lookup"><span data-stu-id="8d84c-117">If you insert the number "0" in the **Level** field, you will see a detailed result showing all maintenance schedule lines and all work orders on all the functional location levels to which they are related.</span></span>
 
-6. <span data-ttu-id="4c03f-118">单击**确定**开始计算。</span><span class="sxs-lookup"><span data-stu-id="4c03f-118">Click **OK** to start the calculation.</span></span>
+6. <span data-ttu-id="8d84c-118">单击**确定**开始计算。</span><span class="sxs-lookup"><span data-stu-id="8d84c-118">Click **OK** to start the calculation.</span></span>
 
-7. <span data-ttu-id="4c03f-119">在**分组依据**操作窗格组中，单击相关按钮显示所需成本计算详细程度。</span><span class="sxs-lookup"><span data-stu-id="4c03f-119">In the **Group by...** action pane groups, click the relevant buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="4c03f-120">将以蓝色突出显示所选操作窗格组按钮。</span><span class="sxs-lookup"><span data-stu-id="4c03f-120">The selected action pane group buttons are highlighted in blue color.</span></span> <span data-ttu-id="4c03f-121">单击按钮将其激活或停用。</span><span class="sxs-lookup"><span data-stu-id="4c03f-121">Click on a button to activate or deactivate it.</span></span>
+7. <span data-ttu-id="8d84c-119">在**分组依据**操作窗格组中，单击相关按钮显示所需成本计算详细程度。</span><span class="sxs-lookup"><span data-stu-id="8d84c-119">In the **Group by...** action pane groups, click the relevant buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="8d84c-120">将以蓝色突出显示所选操作窗格组按钮。</span><span class="sxs-lookup"><span data-stu-id="8d84c-120">The selected action pane group buttons are highlighted in blue color.</span></span> <span data-ttu-id="8d84c-121">单击按钮将其激活或停用。</span><span class="sxs-lookup"><span data-stu-id="8d84c-121">Click on a button to activate or deactivate it.</span></span>
 
-<span data-ttu-id="4c03f-122">下图显示界面的示例。</span><span class="sxs-lookup"><span data-stu-id="4c03f-122">The figure below shows an example of the interface.</span></span>
+<span data-ttu-id="8d84c-122">下图显示界面的示例。</span><span class="sxs-lookup"><span data-stu-id="8d84c-122">The figure below shows an example of the interface.</span></span>
 
 ![图 1](media/01-capacity-planning.png)
 
 >[!NOTE]
-><span data-ttu-id="4c03f-124">如果要仅侧重有关计划的工作订单的产能计划，请参阅[对计划的工作订单计算产能负荷](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md)。</span><span class="sxs-lookup"><span data-stu-id="4c03f-124">If you want to focus only on capacity planning regarding scheduled work orders, refer to [Calculate capacity load on scheduled work orders](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).</span></span>
+><span data-ttu-id="8d84c-124">如果要仅侧重有关计划的工作订单的产能计划，请参阅[对计划的工作订单计算产能负荷](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md)。</span><span class="sxs-lookup"><span data-stu-id="8d84c-124">If you want to focus only on capacity planning regarding scheduled work orders, refer to [Calculate capacity load on scheduled work orders](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).</span></span>
 
