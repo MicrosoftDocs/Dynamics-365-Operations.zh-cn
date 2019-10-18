@@ -1,6 +1,6 @@
 ---
 title: Attract 的可扩展性
-description: 此主题介绍如何使用 Microsoft Power 平台扩展 Microsoft Dynamics 365 for Talent - Attract 应用程序。
+description: 此主题介绍如何使用 Microsoft Power Platform 扩展 Microsoft Dynamics 365 Talent - Attract 应用程序。
 author: andreabichsel
 manager: AnnBe
 ms.date: 03/18/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9360ac52bd53dc473ca61a424f3be933bcf357d1
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 5db954d8847c252bee1c8e50acae546852ae9b94
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795212"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026225"
 ---
 # <a name="extensibility-in-attract"></a>Attract 的可扩展性
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent 在 Common Data Service 平台基础上构建，可以使用 Microsoft Power Platform 和 Common Data Service 提供的功能以各种方式扩展。 因此，您可以使用 Microsoft PowerApps 和 Microsoft Flow 来配置和个性化系统。 还可以使用 Microsoft Power BI 获取有关人员的附加分析。 此外，PowerApps 和 Web 内容 (iframe) 活动等新的自定义活动让招聘流程的适应性比以往更强。 通过使用这些活动，您可以针对您的业务需要和流程来定制招聘流程，并且可以确保招聘团队和应聘者具有无缝的自定义体验。
+Microsoft Dynamics 365 Talent 在 Common Data Service 基础上构建，可以使用 Microsoft Power Platform 和 Common Data Service 提供的功能以各种方式扩展。 因此，您可以使用 Microsoft PowerApps 和 Microsoft Flow 来配置和个性化系统。 还可以使用 Microsoft Power BI 获取有关人员的附加分析。 此外，PowerApps 和 Web 内容 (iframe) 活动等新的自定义活动让招聘流程的适应性比以往更强。 通过使用这些活动，您可以针对您的业务需要和流程来定制招聘流程，并且可以确保招聘团队和应聘者具有无缝的自定义体验。
 
 ## <a name="extending-option-sets-in-attract"></a>扩展 Attract 中的选项集
 

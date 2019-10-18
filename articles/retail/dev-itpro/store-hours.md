@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 1b55b91246b22951f4e1d148f59444423e1d8a3d
-ms.sourcegitcommit: e54607a2c80bec4db05045825914f50947f6e31e
+ms.openlocfilehash: 811d499a3eb8133e5ffd29bb4ae6a0c57708accd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917504"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023434"
 ---
 # <a name="create-and-update-store-hours"></a>创建和更新商店营业时间
 
@@ -36,7 +36,7 @@ ms.locfileid: "1917504"
 
 如果客户有其他商店的提货单，收银员可以选择该商店的可提货日期。 商店查找将提供对日期和商店营业时间的引用。 收银员可选择日期和位置，还可以打印其中包括商店营业时间的提货收据。
 
-Microsoft Dynamics 365 for Retail 版本 8.1.2 及更高版本中提供此功能。
+Microsoft Dynamics 365 Retail 版本 8.1.2 及更高版本中提供此功能。
 
 ## <a name="configure-store-hours"></a>配置商店营业时间
 

@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 63cad6b2f7240bb14fe7a9237498c0140df77774
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567991"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025021"
 ---
 # <a name="retail-statements"></a>零售对帐单
 
 [!include [banner](includes/banner.md)]
 
-在 Microsoft Dynamics 365 for Retail 中，报表过帐流程用于说明在云销售点 (POS) 或现代 POS (MPOS) 中发生的交易记录。 报表过帐流程使用配送计划将一组 POS 交易记录导入到总部 (HQ) 客户端。 在**零售参数**和**商店**页定义的参数用于选择导入到单个报表的交易记录。
+在 Dynamics 365 Retail 中，报表过帐流程用于说明在云销售点 (POS) 或现代 POS (MPOS) 中发生的交易记录。 报表过帐流程使用配送计划将一组 POS 交易记录导入到总部 (HQ) 客户端。 在**零售参数**和**商店**页定义的参数用于选择导入到单个报表的交易记录。
 
 下图显示了报表过帐流程。 在此流程中，通过使用零售调度将 POS 中记录的交易记录传输给客户端。 在客户端接收交易记录后，你可以为商店创建、计算和过帐交易记录报表。
 
@@ -85,6 +85,6 @@ ms.locfileid: "1567991"
 在您过帐报表时，将针对报表中的零售销售创建销售订单和发票。
 
 - 对于分配给商店的默认客户，将付现自运的销售聚合到一个销售订单和发票上。
-- 在 Microsoft Dynamics 365 for Retail POS 中将客户添加到交易记录中的零售销售生成单独的销售订单和发票，每个针对一个独有客户。
+- 在 Retail POS 中将客户添加到交易记录中的零售销售生成单独的销售订单和发票，每个针对一个独有客户。
 
 付款日志在报表中自动为付款创建，并且库存，为 POS 商店更新。

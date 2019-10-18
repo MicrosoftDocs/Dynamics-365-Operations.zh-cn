@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e6a896b2a073e189b956ef189f63908f08606ed
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9186d69e86798a5bd6541432518e407eff5700cc
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543414"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250041"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>混合模式计划 - 合并不同的流程和精益采购
 
 [!include [banner](../includes/banner.md)]
 
-文主题提供有关混合模式计划的信息。 在混合模式计划中，您可以基于物料流来模拟供应链。 Microsoft Dynamics 365 for Finance and Operations 确保物料流遵循您的模型，不论您选择的是哪种供应策略（看板、生产订单、采购订单、批次订单或转移单）。 
+文主题提供有关混合模式计划的信息。 在混合模式计划中，您可以基于物料流来模拟供应链。 Dynamics 365 Supply Chain Management 确保物料流遵循您的模型，不论您选择的是哪种供应策略（看板、生产订单、采购订单、批次订单或转移单）。 
 
 无论产品结构如何，您都可以选择产品供应的总体策略。  
 
@@ -39,7 +39,7 @@ ms.locfileid: "1543414"
 主计划编制中使用的供应策略的粒度取决于作为覆盖范围维度启用的存储维度。 要启用主计划编制以控制不同类型的位置的补货和供应（例如，通过分离不同的生产单位的生产车间，或通过分离不同类型的物料和成品仓库），建议您将站点和仓库启用为覆盖范围维度。 或者，可以将仓库作为覆盖范围维度忽略。 在此情况下，当您使用高级仓库管理时，仓库内的所有转移将由仓库工作控制，而仓库间的所有转移可由取料看板控制。
 
 ## <a name="supply-policies"></a>供应策略
-Finance and Operations 混合模式计划可控制产品的供应方式（基于供应）以及针对派生的需求（物料清单 \[BOM\] 中的物料消耗量）的发货方式。 系统将基于订单类型自动采购物料以满足需求。  
+混合模式计划可控制产品的供应方式（基于供应）以及针对派生的需求（物料清单 \[BOM\] 中的物料消耗量）的发货方式。 系统将基于订单类型自动采购物料以满足需求。  
 
 可在产品级别或以任何支持需求的粒度定义供应策略。 您在**默认订单设置**页面上定义供应策略的粒度。  
 
@@ -47,9 +47,9 @@ Finance and Operations 混合模式计划可控制产品的供应方式（基于
 
 默认订单类型控制主计划生成的订单。  
 
-不管供应链的建模方式如何，Finance and Operations 都支持供应策略的组合。 您可以具有从看板采购的生产订单。 或者，您可以具有需要按转移或看板供应的产品的批次订单。  
+不管供应链的建模方式如何，Supply Chain Management 都支持供应策略的组合。 您可以具有从看板采购的生产订单。 或者，您可以具有需要按转移或看板供应的产品的批次订单。  
 
-Finance and Operations 确保物料流遵循该模型。  
+Supply Chain Management 确保物料流遵循该模型。  
 
 在定义供应策略后，将在运行时动态分配物料领取仓库。  
 
@@ -62,7 +62,7 @@ Finance and Operations 确保物料流遵循该模型。
 
 资源消耗量要求基于产品的供应方式分配物料领取仓库。 换句话说，在运行时，系统将查找应用于制造的资源。 随后，系统将基于这些资源查找领料仓库。  
 
-对于与供应策略无关的工作，如果供应发生更改，您无需更改物料清单上的信息。 对于临时更改，Finance and Operations 可确保从正确的仓库领取物料。
+对于与供应策略无关的工作，如果供应发生更改，您无需更改物料清单上的信息。 对于临时更改，Supply Chain Management 可确保从正确的仓库领取物料。
 
 ## <a name="process-manufacturing--the-production-type"></a>流程制造 – 生产类型
 对于混合模式中的完整灵活性，建议您对所有产品使用生产类型 BOM。 随后，您可以使用生产订单、看板、转移单或采购订单来供应产品。 对于流程制造，您必须使用以下生产类型：**配方**、**联产品**、**副产品**或**计划物料**。 看板和生产订单不能用于这些生产类型。

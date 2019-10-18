@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c256569135a00ea98a5c059b9dd12a07a000ee6a
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 8f4658696a2e6c2959b87aa852c25c108b9ba302
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606933"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024836"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>设置和管理 Retail Modern POS (MPOS) 的图像
 
@@ -34,19 +34,19 @@ ms.locfileid: "1606933"
 
 ## <a name="setting-up-the-media-base-url-and-defining-media-templates-to-configure-the-format-for-image-urls"></a>设置媒体基 URL 和定义媒体模板，以配置图像 URL 的格式
 
-Retail Modern POS (MPOS) 中显示的图像必须在外部承载（Microsoft Dynamics 365 for Retail 之外）。 通常，可在内容管理系统、内容交付网络 (CDN) 或媒体服务器承载。 然后，MPOS 通过访问目标 URL 来获取并显示相应实体（例如产品和类别）的图像。 若要获取这些外部承载的图像，MPOS 需要这些图像的正确 URL 格式。 您可以通过在通道配置文件中设置**媒体基 URL**的值并使用每个实体的**定义媒体模板**功能来为图像配置所需的 URL 格式。 您也可以通过使用**在 Excel 中编辑**功能来覆盖实体的子集的标准 URL 格式。
+Retail Modern POS (MPOS) 中显示的图像必须在外部承载（Retail 之外）。 通常，可在内容管理系统、内容交付网络 (CDN) 或媒体服务器承载。 然后，MPOS 通过访问目标 URL 来获取并显示相应实体（例如产品和类别）的图像。 若要获取这些外部承载的图像，MPOS 需要这些图像的正确 URL 格式。 您可以通过在通道配置文件中设置**媒体基 URL**的值并使用每个实体的**定义媒体模板**功能来为图像配置所需的 URL 格式。 您也可以通过使用**在 Excel 中编辑**功能来覆盖实体的子集的标准 URL 格式。
 
 > [!IMPORTANT]
-> 在 Dynamics 365 for Retail 的当前版本中，您不能再通过使用实体的**默认**属性组中 MPOS 的**图像**属性 XML 来设置 URL 格式。 如果您熟悉 Microsoft Dynamics AX 2012 R3 且正在使用 Dynamics 365 for Retail 的当前版本，请确保始终使用新的**定义媒体模板**功能设置图像。 请勿使用或修改任何实体（包括产品）的**默认**属性组中的**图像**属性。 您在图像的**默认**属性组中直接作出的更改不会得到反映。 此选项将在未来版本中被禁用。
+> 在 Retail 的当前版本中，您不能再通过使用实体的**默认**属性组中 MPOS 的**图像**属性 XML 来设置 URL 格式。 如果您熟悉 Microsoft Dynamics AX 2012 R3 且正在使用 Dynamics 365 Retail 的当前版本，请确保始终使用新的**定义媒体模板**功能设置图像。 请勿使用或修改任何实体（包括产品）的**默认**属性组中的**图像**属性。 您在图像的**默认**属性组中直接作出的更改不会得到反映。 此选项将在未来版本中被禁用。
 
 在以下过程中，将作为示例设置目录实体的图像。 这些过程将帮助确保为使用通用路径的所有目录图像隐式设置正确的图像目标路径。 例如，如果您在外部设置了媒体服务器或 CDN，且希望图像在给定商店的 MPOS 中显示，**定义媒体模板**功能可帮助您设置 MPOS 可在其中查找和检索图像的路径。
 
 > [!NOTE]
-> 对于此演示数据示例，媒体服务器是在零售服务器上部署的。 但是，您可以在 Dynamics 365 for Retail 以外的任何地方部署。
+> 对于此演示数据示例，媒体服务器是在零售服务器上部署的。 但是，您可以在 Dynamics 365 Retail 以外的任何地方部署。
 
 ### <a name="set-up-the-media-base-url-for-a-channel"></a>为通道设置媒体基 URL
 
-1. 打开 Dynamics 365 for Retail HQ 门户。
+1. 打开 Retail HQ 门户。
 2. 单击**零售** &gt; **渠道设置** &gt; **渠道配置文件**。
 
     [![导航](./media/channel-profile1.png)](./media/channel-profile1.png)
@@ -62,7 +62,7 @@ Retail Modern POS (MPOS) 中显示的图像必须在外部承载（Microsoft Dyn
 3. 在**媒体路径**快速选项卡上，输入图像位置的剩余路径。 媒体路径支持**LanguageID**作为变量。 例如，对于演示数据，您可以在您的媒体服务器的媒体基 URL (`https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer`) 下为所有目录图像创建一个**目录**文件夹。 然后可以为每种语言创建一个文件夹（例如 en-US 或 fr-FR），然后将相应图像复制到每个文件夹下。 如果您没有各种语言的不同图像，您可以忽略您的文件夹结构中的**LanguageID**变量，并直接指向包含目录图像的“目录”文件夹。
 
     > [!NOTE]
-    > Dynamics 365 for Retail 当前版本支持目录、产品和类别实体的 **{LanguageId}** 令牌。 （根据自 Microsoft Dynamics AX 6.x. 以来已生效的现有标准，客户和工作人员实体 **{LanguageID}** 令牌）
+    > Retail 当前版本支持目录、产品和类别实体的 **{LanguageId}** 令牌。 （根据自 Microsoft Dynamics AX 6.x. 以来已生效的现有标准，客户和工作人员实体 **{LanguageID}** 令牌）
 
 4. 对于图像，文件名格式是硬编码为目录名称的，不能更改。 因此，请重命名您的图像，使其具有适当的目录名称，以帮助确保 MPOS 正确处理它们。
 5. 在**文件扩展名**字段中，根据您拥有的图像的类型选择预期的文件扩展名。 例如，对于演示数据，目录图像扩展名将设置为 .jpg。 （图像文件也已重命名，使其具有类别名称。）
@@ -118,7 +118,7 @@ Retail Modern POS (MPOS) 中显示的图像必须在外部承载（Microsoft Dyn
     [![选择“生成”后为 Excel 快速选项卡生成图像 URL](./media/excel2.png)](./media/excel2.png)
 
     > [!NOTE]
-    > 为 Excel 生成的 URL 使用已定义的媒体模板的路径和惯例。 这些惯例包括适用于文件名的惯例。 预期是您在 Dynamics 365 for Retail 以外设置了物理图像，且这些图像可以从派生自您之前定义的媒体模板的 URL 中检索。 您可以使用“在 Excel 中编辑”功能来覆盖这些派生的 URL。
+    > 为 Excel 生成的 URL 使用已定义的媒体模板的路径和惯例。 这些惯例包括适用于文件名的惯例。 预期是您在 Retail 以外设置了物理图像，且这些图像可以从派生自您之前定义的媒体模板的 URL 中检索。 您可以使用“在 Excel 中编辑”功能来覆盖这些派生的 URL。
 
 5. 单击**在 Excel 中编辑**。
 6. 打开 Microsoft Excel 工作表后，在系统提示时单击**启用编辑**。

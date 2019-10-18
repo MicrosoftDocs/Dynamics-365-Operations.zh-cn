@@ -1,6 +1,6 @@
 ---
 title: 零售渠道的会计整合概览
-description: 此主题提供 Microsoft Dynamics 365 for Retail 中可用的会计整合功能的概览。
+description: 此主题提供 Dynamics 365 Retail 中可用的会计整合功能的概览。
 author: josaw
 manager: annbe
 ms.date: 02/01/2019
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 647ef586b64699a891bd3b6702ac93bc5ee8292e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516230"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025399"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>零售渠道的会计整合概览
 
@@ -30,13 +30,13 @@ ms.locfileid: "1516230"
 
 ## <a name="introduction"></a>简介
 
-此主题是 Microsoft Dynamics 365 for Retail 中可用的会计整合功能的概览。 会计整合包括与不同会计设备和服务的集成，这些设备和服务支持依据旨在防止零售行业的税收欺诈的地方政法进行零售销售的会计登记。 以下是可以使用会计整合应对的一些典型场景：
+此主题是 Dynamics 365 Retail 中可用的会计整合功能的概览。 会计整合包括与不同会计设备和服务的集成，这些设备和服务支持依据旨在防止零售行业的税收欺诈的地方政法进行零售销售的会计登记。 以下是可以使用会计整合应对的一些典型场景：
 
 - 在连接到 Retail point of sale (POS) 的会计设备（如税控打印机）上登记零售销售，以及为客户打印财务收据。
 - 安全地向税务主管机构管理的外部 Web 服务提交与在 Retail POS 完成的销售和退货相关的信息。
 - 通过数字签名帮助确保销售交易数据的不变性。
 
-Retail 中的会计整合功能是一个框架，为进一步开发和自定义 Retail POS 与会计设备和服务之间的整合提供通用解决方案。 此功能还包括支持特定国家或地区的基本零售方案，以及使用特定会计设备或服务的会计整合示例。 会计整合示例由若干 Retail 组件的扩展组成，包含在 Retail 软件开发套件 (SDK) 中。 有关 Retail SDK 中可用的会计整合示例的详细信息，请参阅 [Retail SDK 中的会计整合示例](#fiscal-integration-samples-in-the-retail-sdk)。 有关如何安装和使用 Retail SDK 的信息，请参阅 [Retail SDK 概述](../dev-itpro/retail-sdk/retail-sdk-overview.md)。
+会计整合功能是一个框架，为进一步开发和自定义 Retail POS 与会计设备和服务之间的整合提供通用解决方案。 此功能还包括支持特定国家或地区的基本零售方案，以及使用特定会计设备或服务的会计整合示例。 会计整合示例由若干 Retail 组件的扩展组成，包含在软件开发套件 (SDK) 中。 有关会计整合示例的详细信息，请参阅 [Retail SDK 中的会计整合示例](#fiscal-integration-samples-in-the-retail-sdk)。 有关如何安装和使用 Retail SDK 的信息，请参阅 [Retail SDK 概述](../dev-itpro/retail-sdk/retail-sdk-overview.md)。
 
 为了支持会计整合示例不支持的其他方案，将 Retail POS 与其他会计设备或服务整合，或者满足其他国家或地区的要求，您必须扩展用现有的会计整合示例或将现有示例用作范例创建新示例。
 
@@ -132,7 +132,7 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 
 ## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Retail SDK 中的会计整合示例
 
-以下会计整合示例当前在通过 Retail 发布的 Retail SDK 中可用：
+以下会计整合示例当前在 Retail SDK 中可用：
 
 - [意大利税控打印机集成示例](emea-ita-fpi-sample.md)
 - [波兰税控打印机集成示例](emea-pol-fpi-sample.md)

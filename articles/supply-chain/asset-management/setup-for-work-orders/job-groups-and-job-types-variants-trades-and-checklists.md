@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9efbd9651f6a2fa57e761238c6acfe6111e986e6
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6cb53322b9bdaaa06c6040d8244b7e2ea05336ca
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874754"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249601"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>维护作业类型类别和维护工作类型、维护作业类型变型、维护作业工种和维护清单
 
@@ -225,7 +225,7 @@ ms.locfileid: "1874754"
 26. 若要为所选维护作业类型默认行设置附件，请选择**附加文档**。 使用维护作业类型默认行的工作订单行中将自动包含为该维护作业类型默认行设置的附件。
 27. 选择**新建**，然后选择文档类型。
 28. 上载文档或文件。
-29. 设置**附件**页中的字段。 附件设置使用 Microsoft Dynamics 365 for Finance and Operations 中的标准文档设置功能。
+29. 设置**附件**页中的字段。 附件设置使用标准文档设置功能。
 30. 选择**保存**以保存该附件。
 
     > [!NOTE]
@@ -261,7 +261,7 @@ ms.locfileid: "1874754"
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>自动更新维护作业类型预测
 
-在资产管理中，可自动更新对已在 Finance and Operations 的其他模块中更新了的工时成本、物料成本和费用的维护作业类型预测的所有更改。 这样有助于保证您的维护作业类型预测始终使用最新的成本价。
+在资产管理中，可自动更新对已其他模块中更新了的工时成本、物料成本和费用的维护作业类型预测的所有更改。 这样有助于保证您的维护作业类型预测始终使用最新的成本价。
 
 1. 选择**资产管理** \> **定期** \> **预测** \> **更新维护作业类型预测**。
 2. 在**要包括的记录**快速选项卡上的**更新维护作业类型预测**对话框中，可根据需要添加特定维护作业类型的选择。 选择**筛选**，然后选择**选择**以进行选择。

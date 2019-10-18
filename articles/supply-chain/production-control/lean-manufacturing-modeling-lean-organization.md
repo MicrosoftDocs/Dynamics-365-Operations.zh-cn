@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 40664936382f5edcb3c1680aa4af245bdef539a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560132"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250187"
 ---
 # <a name="modeling-a-lean-organization"></a>建模精益组织
 
@@ -39,7 +39,7 @@ ms.locfileid: "1560132"
 
 为了缩短交货提前期和减少批量生产导致的工作中心之间的过量库存，lean manufacturing 在制造和仓库补货中引入了看板补货和看板超市。 通常，这些功能会中断部分独立的看板周期的生产。 针对半成品的看板补货不再由成品的订单触发。 
 
-为了为在 Microsoft Dynamics 365 for Finance and Operations 中建议的各种看板方案重新建立生产和成本上下文，我们引入了基于活动的生产流程以作为 lean manufacturing 的支柱。 所有看板规则都引用了此预定义结构。 这个基于活动的模型支持设置各种方案。 不过，由于所有方案使用相同的基于活动的用户界面，此模型不会为车间工作人员增加复杂性。
+为了为建议的各种看板方案重新建立生产和成本上下文，我们引入了基于活动的生产流程以作为 lean manufacturing 的支柱。 所有看板规则都引用了此预定义结构。 这个基于活动的模型支持设置各种方案。 不过，由于所有方案使用相同的基于活动的用户界面，此模型不会为车间工作人员增加复杂性。
 
 ## <a name="semi-finished-products-non-bom-levels"></a>半成品（非物料清单级别）
 Lean Manufacturing 将库产品和半成品整合到单个框架中，从而为所有案例提供统一的用户体验。 由于此体系结构，附加的物料清单层将不再需要引入以启用用于半成品的看板。 此体系结构还有助于使库存交易记录缩减为最小数量。
@@ -50,7 +50,7 @@ Lean Manufacturing 将库产品和半成品整合到单个框架中，从而为�
 ## <a name="value-streams-and-value-stream-mapping"></a>价值流和价值流映射
 Lean Manufacturing 的体系结构的灵感来源于 Womack 和 Jones 提出的 5 大精益原则：客户价值、价值流、流动、拉动和尽善尽美。 在现实制造世界中，实施 lean manufacturing 解决方案的一个久经考验的方法是价值流映射 (VSM)。 此方法由 Rother 和 Shook 在其 Lean Manufacturing 研究所出版物《学会观察》中引入。 
 
-在 Finance and Operations 中，未来状态价值流可建模为生产流版本。 价值流的所有流程都将建模为流度活动。 如果必须登记转移状态或者需要到库存领料或合并装运的集成，那么移动或转移可建模为转移活动。 
+未来状态价值流可建模为生产流版本。 价值流的所有流程都将建模为流度活动。 如果必须登记转移状态或者需要到库存领料或合并装运的集成，那么移动或转移可建模为转移活动。 
 
 价值流本身将建模为运营单位。 因此，价值流可以用作财务维度。
 

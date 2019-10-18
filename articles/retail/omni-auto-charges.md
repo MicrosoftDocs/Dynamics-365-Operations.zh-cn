@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 47829a6fcae37e03510929dc46b942455016df0b
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 829fa771003de7759b237d4499aa038040b46a3f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577861"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018030"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>全渠道高级自动费用
 
@@ -34,7 +34,7 @@ ms.locfileid: "1577861"
 
 在高级自动费用功能启用时，在任何支持的零售渠道（销售点 (POS)、呼叫中心和在线）中创建的订单均可以利用在 ERP 应用程序中为标题和行级别相关费用中定义的[自动费用](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services)配置。
 
-在 Dynamics 365 for Retail 版本 10.0 之前的版本中，[自动费用](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services)配只能由在电子商务和呼叫中心渠道创建的订单访问。 在版本 10.0 及以后版本中，POS 创建的订单可以利用自动费用配置。 这样，额外的杂项费用可以系统化地添加到销售交易记录中。
+在 Retail 版本 10.0 之前的版本中，[自动费用](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services)配置只能由在电子商务和呼叫中心渠道创建的订单访问。 在版本 10.0 及以后版本中，POS 创建的订单可以利用自动费用配置。 这样，额外的杂项费用可以系统化地添加到销售交易记录中。
 
 在使用版本 10.0 以前的版本时，将提示 POS 用户在创建“全部装运”或“装运所选产品”POS 交易记录期间手动输入装运费用。 当应用程序的杂项费用功能用于与费用如何写入到订单的相关情况时，将不提供系统计算 - 计算依赖于用户的输入来确定费用值。 费用只能添加为一个“装运”相关费用代码，且不能在创建后在 POS 中轻松编辑或更改。
 

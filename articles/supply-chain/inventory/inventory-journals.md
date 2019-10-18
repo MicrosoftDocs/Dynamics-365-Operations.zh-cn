@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7acf4e5397ee7276b0f881f4859267371266de0
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553430"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249532"
 ---
 # <a name="inventory-journals"></a>库存日记帐
 
@@ -33,7 +33,7 @@ ms.locfileid: "1553430"
 
 本主题介绍如何使用库存日记帐过帐实际库存交易记录的不同类型。
 
-Microsoft Dynamics 365 for Finance and Operations 中的库存日记帐用于过帐多种类型的实际库存交易记录，如发货和收货的过帐、库存变动、物料清单 (BOM) 的创建，以及实际库存的对帐。 所有这些库存日记帐以相同的方式被使用，不过，它们划分为不同类型。
+Supply Chain Management 中的库存日记帐用于过帐多种类型的实际库存交易记录，如发货和收货的过帐、库存变动、物料清单的创建，以及实际库存的对帐。 所有这些库存日记帐以相同的方式被使用，不过，它们划分为不同类型。
 
 ## <a name="types-of-inventory-journals"></a>库存日记帐的类型
 提供以下库存日记帐类型：
@@ -68,7 +68,7 @@ Microsoft Dynamics 365 for Finance and Operations 中的库存日记帐用于过
 
 ### <a name="item-arrival"></a>物料到达
 
-您可以使用物料到达日记帐登记物料收货（例如，从采购订单）。 可以从**到达概览**页上创建到达日记帐，作为到达管理的一部分，也可以手动从**物料到达**页创建日记帐条目。 如果您启用物料到达日志名称检查领料库位，Finance and Operations 会查找接收物料的库位，如果存在空间，则会为新进物料生成库位目标。
+您可以使用物料到达日记帐登记物料收货（例如，从采购订单）。 可以从**到达概览**页上创建到达日记帐，作为到达管理的一部分，也可以手动从**物料到达**页创建日记帐条目。 如果您启用物料到达日志名称检查领料库位，Supply Chain Management 会查找接收物料的库位，如果存在空间，则会为新进物料生成库位目标。
 
 ### <a name="production-input"></a>生产输入
 
@@ -103,7 +103,7 @@ Microsoft Dynamics 365 for Finance and Operations 中的库存日记帐用于过
 有关详细信息，请参阅[数据实体](../../dev-itpro/data-entities/data-entities.md)。
 
 > [!NOTE]
-> 并非所有库存日记帐均支持 OData，因此不能使用 Excel 数据连接器发布，更新和导回数据到 Dynamics 365 for Finance and Operations。 
+> 并非所有库存日记帐均支持 OData，因此不能使用 Excel 数据连接器发布，更新和导回数据到 Supply Chain Management。 
 
 日记帐数据实体的另一个区别是可以使用同时包含标头和行数据的组合实体。 现在可将组合实体用于：
 -   库存调整日记帐

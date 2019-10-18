@@ -19,29 +19,29 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 07eea8fd7af4da611b4bd0c9340923f8894fab2c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d9f36da025528272b1a95456acf597dd5d923819
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1526007"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025164"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>将抬头费用按比例分配给匹配的销售行
 
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍组合抬头级别自动费用并将其按比例分配给零售销售行的功能。 此功能适用于在 Microsoft Dynamics 365 for Retail 版本 10.0.1 中销售终端 (POS) 内创建的交易记录和在 Microsoft Dynamics 365 for Retail 版本 10.0.2 中在呼叫中心创建的销售。
+本主题介绍组合抬头级别自动费用并将其按比例分配给零售销售行的功能。 此功能适用于在 Retail 版本 10.0.1 中销售终端 (POS) 内创建的交易记录和在 Retail 版本 10.0.2 中在呼叫中心创建的销售。
 
 仅当开启了[高级自动费用](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges)功能或使用**零售参数**页面中的选项时，此功能才可用。 此外，自动费用增强计算方法仅适用于通过零售渠道（POS、呼叫中心和 Dynamics 电子商务平台）创建的零售销售订单。
 
 这项新功能可以提高组织在计算抬头级别费用并应用于零售销售交易记录时的灵活性。
 
-在 Microsoft Dynamics 365 for Retail 10.0.1 之前版本中，仅当存在销售订单抬头中定义的特定交货方式的匹配项时，才计算具有该交货方式关系的抬头级别自动费用。
+在 Retail 10.0.1 之前版本中，仅当存在销售订单抬头中定义的特定交货方式的匹配项时，才计算具有该交货方式关系的抬头级别自动费用。
 
 例如，为交货方式 **99** 和 **11** 定义了抬头级别自动费用。 创建了一个销售订单，并在订单抬头定义了交货方式 **99**。 但是，设置了一些销售行，以便使用交货方式 **11** 为其发货。 在此情况下，将仅考虑链接到交货方式 **99** 的抬头级别费用，并将这些费用应用于该销售订单。
 
-在 Dynamics 365 for Retail 中，抬头级别费用还有一项功能，用于定义基于订单值的[分层费用配置](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery)。 例如，如果订单值介于 $50.00 与 $200.00 之间，组织可能希望收取 $5.00 的运费。 但是，如果订单值介于 $200.01 与 $500.00 之间，运费可能为 $4.00。
+在 Retail 中，抬头级别费用还有一项功能，用于定义基于订单值的[分层费用配置](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery)。 例如，如果订单值介于 $50.00 与 $200.00 之间，组织可能希望收取 $5.00 的运费。 但是，如果订单值介于 $200.01 与 $500.00 之间，运费可能为 $4.00。
 
 某些组织可能希望享受抬头级别费用的分层费用计算优势。 但是，如果涉及混合交货方式，他们也希望确保基于每个销售行中定义的交货方式的匹配项计算费用。
 

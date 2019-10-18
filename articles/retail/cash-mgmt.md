@@ -1,6 +1,6 @@
 ---
 title: 现金管理改进
-description: 本主题介绍适用于 Dynamics 365 for Retail 的 POS 中的现金管理改进。
+description: 本主题介绍适用于 Dynamics 365 Retail 的 POS 中的现金管理改进。
 author: anpurush
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 845cba3b536b0f800b7c7c4eecee46a068ca8cff
-ms.sourcegitcommit: 432481001b986b54937d423516efd8f2af1511d6
+ms.openlocfilehash: 49d70a8d983bf3475e01f8fcb80d569b13568485
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1630045"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019519"
 ---
 # <a name="cash-management-improvements"></a>现金管理改进
 
@@ -32,9 +32,11 @@ ms.locfileid: "1630045"
 
 现金管理是一个面向实体商店零售商的关键功能。 零售商希望为自己的商店安装系统来对现金及其在商店中不同收银机和出纳之间的变动进行完全跟踪和会计问责。 必须可以对帐任何差额和确定会计责任。
 
-Microsoft Dynamics 365 for Retail 的销售点 (POS) 应用程序中包含现金管理功能。 但是，在低于 10.0.3 的 Retail 版本中，现金管理功能不够强大，无法完全跟踪商店中的现金变动。 尽管零售商可以对帐商店的现金，如果存在现金差异，就不能准确判断会计责任。
 
-在 Microsoft Dynamics 365 for Retail 版本 10.0.3 及更高版本中，零售商可以跟踪对现金的处理。 进行此项跟踪期间，零售商可以定义金库，开展双方现金交易记录，以及对帐现金管理交易记录。
+Microsoft Dynamics 365 Retail 的销售点 (POS) 应用程序中包含现金管理功能。 但是，在低于 10.0.3 的 Retail 版本中，现金管理功能不够强大，无法完全跟踪商店中的现金变动。 尽管零售商可以对帐商店的现金，如果存在现金差异，就不能准确判断会计责任。
+
+
+在 Retail 版本 10.0.3 及更高版本中，零售商可以跟踪对现金的处理。 进行此项跟踪期间，零售商可以定义金库，开展双方现金交易记录，以及对帐现金管理交易记录。
 
 ## <a name="set-up-traceability-and-define-safes"></a>设置可跟踪性和定义金库
 

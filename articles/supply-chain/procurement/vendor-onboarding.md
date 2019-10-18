@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548990"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250126"
 ---
 # <a name="onboard-vendors"></a>载入供应商
 [!include [banner](../includes/banner.md)]
 
 ---
 
-新供应商可以基于从该供应商代表人员收集的信息，在 Microsoft Dynamics 365 for Finance and Operations 中载入并注册为供应商。
+新供应商可以基于从该供应商代表人员收集的信息，在 Microsoft Dynamics 365 Supply Chain Management 中载入并注册为供应商。
 
 该流程包含以下步骤，由各种角色在系统中执行操作。
 
 1. **数据管理 OData** – 实体导入 - 初始请求是潜在供应商注册请求。 此请求通常来自允许匿名访问的来源（如客户托管的网站）。 供应商可以提供基本信息（例如供应商名称、理由、组织编号，以及联系人的姓名和电子邮件地址）进行注册。 此请求通过数据管理界面导入。
-2. **潜在供应商注册请求列表页**- 基于在潜在供应商注册请求中提供的信息，由采购专业人员决定供应商是否应该载入。 采购专业人员在 Finance and Operations 中的**潜在供应商注册请求**列表页上查看传入的请求。
+2. **潜在供应商注册请求列表页**- 基于在潜在供应商注册请求中提供的信息，由采购专业人员决定供应商是否应该载入。 采购专业人员**潜在供应商注册请求**列表页上查看传入的请求。
 3. **用户设置工作流** - 当采购专业人员验证传入请求中的信息并决定继续执行载入流程后，用户请求工作流对新用户进行设置，并发送邀请电子邮件，接受联系人作为 Microsoft Dynamics 365 的验证用户。
-4. **供应商注册向导** - 供应商的联系人使用新用户帐户注册到 Finance and Operations。 她或他完成供应商注册向导以提供信息，如地址、业务信息、采购类别和调查表响应。
+4. **供应商注册向导** - 供应商的联系人使用新用户帐户注册。 她或他完成供应商注册向导以提供信息，如地址、业务信息、采购类别和调查表响应。
 5. **审核工作流** - 创建包含注册信息的供应商请求。 该供应商请求提交到工作流，并进行转发以供审核和批准。
 6. **创建供应商主数据和用户角色修改** - 供应商请求通过审核后，创建供应商记录。 供应商的联系人的用户帐户被授予供应商协作的权限或被禁用。
 
@@ -45,14 +45,14 @@ ms.locfileid: "1548990"
 |--------------------------|---|---|---|---|---|---|
 | System                   | 导入新供应商请求。 | | | | | 接受供应商请求后，创建供应商记录。 |
 | 采购专业人员 | | 开始载入流程。 | | | 审核并接受或拒绝供应商请求。 | |
-| 管理员            | | | 在 Finance and Operations 和 Microsoft Azure 中创建用户 | | | |
+| 管理员            | | | 在 Supply Chain Management 和 Microsoft Azure 中创建用户。 | | | |
 | 供应商联系人    | | | 向联系人发送电子邮件。 | 登记供应商信息。 | | |
 
-若要了解供应商入职流程的快速演示，请观看下面的 YouTube 短视频：[在 Dynamics 365 for Finance and Operations 中为新供应商办理入职](https://www.youtube.com/watch?v=0KUc3AGaTKk}。
+有关供应商入职流程的快速演示，请观看有关[如何在 Finance and Operations 中为新供应商办理入职](https://www.youtube.com/watch?v=0KUc3AGaTKk)的 YouTube 短片。
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>导入潜在供应商注册请求
 
-潜在供应商注册请求是 Finance and Operations 中的实体。 您可以设置系统通过此实体导入数据。 
+潜在供应商注册请求是 Supply Chain Management 中的实体。 您可以设置系统通过此实体导入数据。 
 
 下表显示此实体包含且可以导入的信息。
 
@@ -65,18 +65,18 @@ ms.locfileid: "1548990"
 | 联系人的名字  | 受邀登记供应商信息的人员的名字。 |
 | 联系人的中间名 | 受邀登记供应商信息的人员的中间名。 |
 | 联系人的姓   | 受邀登记供应商信息的人员的姓。 |
-| 联系人的电子邮件       | 用来在 Finance and Operations 中创建新用户并且将在租户的 Azure Active Directory (Azure AD) 帐户中注册的电子邮件地址。 |
+| 联系人的电子邮件       | 用来在 Supply Chain Management 中创建新用户并且将在租户的 Azure Active Directory (Azure AD) 帐户中注册的电子邮件地址。 |
 | 提交日期               | 在外部系统创建请求的日期。 |
-| 法人                 | 供应商请求成为供应商的法人。 该值必须是在 Finance and Operations 中登记的法人代码。 如果没有通过导入流程获得值，则应用来自采购参数的值。 |
+| 法人                 | 供应商请求成为供应商的法人。 该值必须是在 Supply Chain Management 中登记的法人代码。 如果没有通过导入流程获得值，则应用来自采购参数的值。 |
 | 供应商类型                  | 供应商可以是组织或人员。 供应商类型决定最终如何创建供应商。 |
 
 导入潜在供应商注册请求后，显示在**潜在供应商注册请求**列表页上。 采购专业人员可以从该列表页邀请用户。 将设置用户的用户请求发送到工作流。
 
 ## <a name="submitting-a-prospective-vendor-user-request"></a>提交潜在供应商用户请求
 
-潜在供应商用户请求的目的是设置提交初始请求的人员，以便该人员可以使用在潜在供应商注册请求中提供的电子邮件帐户登录到 Finance and Operations。
+潜在供应商用户请求的目的是设置提交初始请求的人员，以便该人员可以使用在潜在供应商注册请求中提供的电子邮件帐户登录到 Supply Chain Management。
 
-潜在供应商用户请求通过用户请求工作流进行处理。 此工作流通过 Azure AD B2B 协作进行通信。 它在 Finance and Operations 中创建具有适当安全设置的用户。
+潜在供应商用户请求通过用户请求工作流进行处理。 此工作流通过 Azure AD B2B 协作进行通信。 它在 Supply Chain Management 中创建具有适当安全设置的用户。
 
 设置的新用户具有以下安全角色：
 
@@ -89,7 +89,7 @@ ms.locfileid: "1548990"
 
 ## <a name="vendor-registration"></a>供应商注册
 
-登录到 Finance and Operations 的潜在供应商用户将看到供应商注册向导的首页，他/她可在此输入供应商信息。
+登录到 Supply Chain Management 的潜在供应商用户将看到供应商注册向导的首页，他/她可在此输入供应商信息。
 
 向导反映供应商请求的配置。 供应商开展经营所在的国家或地区决定在向导中请求的信息以及必填信息。
 
@@ -119,7 +119,7 @@ ms.locfileid: "1548990"
 
 供应商请求包含潜在供应商用户在供应商注册向导中输入的信息。
 
-请求允许您查看供应商信息并决定供应商是否应成为 Finance and Operations 中的注册供应商。
+请求允许您查看供应商信息并决定供应商是否应成为注册供应商。
 
 供应商请求应提交到工作流，并且应转发到相关审核人。 有关如何设置工作流的基本信息，请参阅[采购工作流](procurement-sourcing-workflows.md)。
 
@@ -141,7 +141,7 @@ ms.locfileid: "1548990"
 
 审核供应商请求前，在**新供应商**页的**常规**快速选项卡上，选择**供应商组**以选择一个供应商组。
 
-如果潜在供应商用户作为代表供应商的供应商协作用户应该具有 Finance and Operations 的访问权限，则将供应商协作访问权限设置为**是**。 若要停用潜在供应商注册时使用的用户帐户，则将此权限设置为**否**。
+如果潜在供应商用户作为代表供应商的供应商协作用户应该具有 Supply Chain Management 的访问权限，则将供应商协作访问权限设置为**是**。 若要停用潜在供应商注册时使用的用户帐户，则将此权限设置为**否**。
 
 如果供应商协作访问权限设置为**是**，审核供应商请求后，提交请求以修改用户的角色，使用户具有在**外部角色**中为**供应商**定义的角色。 如果此权限设置为**否**，审核供应商请求后，提交请求以停用用户。 在这种情况下，必须设置工作流以停用用户请求。
 

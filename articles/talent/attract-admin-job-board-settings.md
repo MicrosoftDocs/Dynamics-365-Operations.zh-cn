@@ -1,6 +1,6 @@
 ---
-title: 在 Microsoft Dynamics 365 for Talent - Attract 中启用 Broadbean 集成
-description: 本主题说明如何配置 Microsoft Dynamics 365 for Talent - Attract 以将工作发布到外部招聘网站（如 Broadbean）。
+title: 在 Microsoft Dynamics 365 Talent - Attract 中启用 Broadbean 集成
+description: 本主题说明如何配置 Microsoft Dynamics 365 Talent - Attract 以将工作发布到外部招聘网站（如 Broadbean）。
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2334c2bd0edccf3000f8d91651afafd4619ad0b8
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 808f91fb4b68ba9b5cee54d86423d23232df23a4
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739671"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008585"
 ---
 # <a name="enable-broadbean-integration"></a>启用 Broadbean 集成
 
 [!include[banner](../includes/banner.md)]
 
-您可能希望尽可能多的合格应聘者可以看到您的开放职位。 Broadbean 之类招聘站点可以帮助您达成这个目标。 Microsoft Dynamics 365 for Talent: Attract 现在允许您将工作发布到 Broadbean，Microsoft 正在不断提供此领域的新服务/产品。
+您可能希望尽可能多的合格应聘者可以看到您的开放职位。 Broadbean 之类招聘站点可以帮助您达成这个目标。 Microsoft Dynamics 365 Talent: Attract 现在允许您将工作发布到 Broadbean，Microsoft 正在不断提供此领域的新服务/产品。
 
 > [!NOTE]
 > - 若要将工作发布到外部站点，必须安装[综合招聘加载项](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring)。

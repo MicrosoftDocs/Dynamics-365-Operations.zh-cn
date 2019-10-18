@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 0993119de785d5e3826075778c018bdfa50071e2
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ff9cfdff410001f08f920e3c05df6bc4ab1b77fd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517457"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024232"
 ---
 # <a name="get-started-with-talent"></a>Talent 入门
 
 [!include [banner](includes/banner.md)]
 
-在 Microsoft Dynamics 365 for Talent 中，可以根据您的需求轻松修改用户界面和设置让软件更加直观的选项。 此主题包括了一些主题的链接，这些主题提供了如何让用户界面适应您的偏好的信息。 主题还包括如何在系统中高效准确地查找信息的信息。 
+在 Microsoft Dynamics 365 Talent 中，可以根据您的需求轻松修改用户界面和设置让软件更加直观的选项。 此主题包括了一些主题的链接，这些主题提供了如何让用户界面适应您的偏好的信息。 主题还包括如何在系统中高效准确地查找信息的信息。 
 
 > [!NOTE] 
-> 以下产品密切相关：Dynamics 365 for Finance and Operations；Dynamics 365 for Retail 和 Dynamics 365 for Talent。 这三种产品的功能可能存在重合。 因此，在主要与 Retail 有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与 Talent 有关的主题中，产品名称将为 Dynamics 365 for Talent；在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
+> 以下产品密切相关：Dynamics 365 Finance；Dynamics 365 Retail 和 Dynamics 365 Talent。 这三种产品的功能可能存在重合。 因此，在主要与 Retail 有关的主题中，产品名称将为 Dynamics 365 Retail；在主要与 Talent 有关的主题中，产品名称将为 Dynamics 365 Talent；在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 Finance。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
 
 ## <a name="personalizing-talent"></a>个性化 Talent 
-以下主题说明如何设置 Dynamics 365 for Talent 的诸多功能，以让您更轻松地及时完成工作。 
+以下主题说明如何设置 Talent 的诸多功能，以让您更轻松地及时完成工作。 
 
 -   [个性化用户体验](../fin-and-ops/get-started/personalize-user-experience.md) - 本主题说明您可以个性化 Talent 以及让产品的各个分部更贴近您的偏好的不同方式。
 
@@ -51,7 +51,7 @@ ms.locfileid: "1517457"
 
 -   [高级筛选和查询语法](../fin-and-ops/get-started/advanced-filtering-query-options.md) - 本主题介绍当您在“高级筛选/排序”对话框中使用“matches”运算符时可用的筛选和查询选项。
 
--   [导航搜索](../fin-and-ops/get-started/navigation-search.md) - 本主题说明如何使用搜索功能来导航到页面。 Talent 应用程序包括大量区域和页面，可帮助您执行各种任务。 使用导航搜索功能可以帮助您快速查找完成任务所需的页面。 
+-   [导航搜索](../fin-and-ops/get-started/navigation-search.md) - 本主题说明如何使用搜索功能来导航到页面。 Talent 包括大量区域和页面，可帮助您执行各种任务。 使用导航搜索功能可以帮助您快速查找完成任务所需的页面。 
 
 -   [操作搜索](../fin-and-ops/get-started/action-search.md) - 此主题描述操作搜索功能。 操作搜索可以帮助您在页面中找到操作并运行。 产品中的这些页面主要在操作窗格（页面顶部显示的标准操作窗格和页面各部分中显示的工具栏）中显示命令。
 
@@ -61,7 +61,7 @@ ms.locfileid: "1517457"
 转到 [Microsoft Dynamics 365 路线图](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80)以了解已发布和正在开发的新功能。
 
 ### <a name="blogs"></a>博客
-您可以在 [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent) 上查找有关应付帐款的意见、新闻和其他信息以及其他解决方案。 
+您可以在 [Dynamics 365 Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent) 上查找有关应付帐款的意见、新闻和其他信息以及其他解决方案。 
 
 ### <a name="videos"></a>视频
 查看当前在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。

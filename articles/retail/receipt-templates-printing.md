@@ -1,6 +1,6 @@
 ---
 title: 设置和设计收据格式
-description: 本文介绍如何修改窗体布局以控制如何打印收据、发票和其他单据。 Microsoft Dynamics 365 for Retail 包括您可以用于轻松创建和修改不同类型的窗体布局的窗体布局设计器。
+description: 本文介绍如何修改窗体布局以控制如何打印收据、发票和其他单据。 Dynamics 365 Retail 包括您可以用于轻松创建和修改不同类型的窗体布局的窗体布局设计器。
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 13249e1b109586b2c520a1be30c47ac4393abe49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eb85752b53d0d48f07bfed9423637cb6c646ab61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553060"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025117"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>设置和设计收据格式
 
 [!include [banner](includes/banner.md)]
 
-本文介绍如何修改窗体布局以控制如何打印收据、发票和其他单据。 Microsoft Dynamics 365 for Retail 包括您可以用于轻松创建和修改不同类型的窗体布局的窗体布局设计器。
+本文介绍如何修改窗体布局以控制如何打印收据、发票和其他单据。 Dynamics 365 Retail 包括您可以用于轻松创建和修改不同类型的窗体布局的窗体布局设计器。
 
 > [!IMPORTANT]
 > 必须从 Retail Modern POS 和 Cloud POS 设置窗体布局和收据模板以打印收据和其他文档。 一个收据模板中可以包含多个窗体布局。 然后可以通过修改硬件配置文件将收据模板分配到打印机。
@@ -55,7 +55,7 @@ ms.locfileid: "1553060"
 2. 在**收据格式**页上，选择一个窗体布局，然后单击**设计器**。
 3. 单击**运行**开始安装 Retail 设计器主机。
 4. 在出现在 Internet Explorer 窗口底部的通知栏上，单击**打开**开始安装一键式设计器。 （通知栏可能在其他浏览器的不同位置显示。）进度指示器显示安装过程的进度。
-5. 在安装完成后，输入您的 Dynamics 365 for Retail 用户名和密码，然后单击**登录**启动设计器。
+5. 在安装完成后，输入您的 Retail 用户名和密码，然后单击**登录**启动设计器。
 6. 在您的凭据验证和设计器启动后，可以开始设计收据格式或修改现有的格式。
 7. 若要创建窗体的元素，选择**页眉**、**行**或**页脚**部分，然后将元素从该部分拖到工作区。 大多数元素包含变量，其从数据库自动填充数据。 其他元素，例如**文本**，可以在收据上打印自定义文本。
 

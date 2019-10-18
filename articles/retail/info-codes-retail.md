@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c9cd9197f395b69f65137a59392a4d83d692f6fa
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6939ed56944ecafb29c1cadd2744b5746b19cb46
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572119"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023356"
 ---
 # <a name="info-codes-and-info-code-groups"></a>信息代码和信息代码组
 
@@ -42,7 +42,7 @@ ms.locfileid: "1572119"
 
 ## <a name="info-codes-group"></a>信息代码组
 
-在 Dynamics 365 for Retail 中，您可以创建信息代码组。 信息代码组通过允许您定义少数的信息代码来增加灵活性，然后以更多样化的方式使用它们。 您可以通过以下方式使用信息代码组：
+在 Retail 中，您可以创建信息代码组。 信息代码组通过允许您定义少数的信息代码来增加灵活性，然后以更多样化的方式使用它们。 您可以通过以下方式使用信息代码组：
 
 - 定义少数信息代码，轻松重复使用。 信息代码组中包括的信息代码没有预定义依赖其他信息代码。 多个信息代码组可以包含相同的信息代码，然后使用优先级按照在任意情形下都有效的顺序为相同的信息代码排序。
 - 将信息代码链接到其他信息代码或信息代码组以收集关于产品或交易的信息，而无需为每个场景定义单独的信息代码或链接的信息代码。

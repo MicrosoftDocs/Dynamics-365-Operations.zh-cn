@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a136e245beaf8dfd8bcf19d49f8a355c8871cde7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a23176cefde1f4d119828c9b124750d6106a3bfa
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568060"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019339"
 ---
 # <a name="define-channel-specific-discounts"></a>定义渠道特定的折扣
 
@@ -36,7 +36,7 @@ ms.locfileid: "1568060"
 
 零售商通常为不同渠道提供不同折扣。 这样做可以解决本地市场条件或处理竞争零售商。
 
-Microsoft Dynamics 365 for Retail 使用价格组来定义渠道特定的折扣。 价格组可分配给以下一个或多个实体：渠道、目录、隶属关系和会员计划。 本文讨论渠道，不过，相同的概念适用于目录折扣、隶属关系折扣和会员折扣。
+Retail 使用价格组来定义渠道特定的折扣。 价格组可分配给以下一个或多个实体：渠道、目录、隶属关系和会员计划。 本文讨论渠道，不过，相同的概念适用于目录折扣、隶属关系折扣和会员折扣。
 
 ## <a name="price-groups"></a>价格组
 

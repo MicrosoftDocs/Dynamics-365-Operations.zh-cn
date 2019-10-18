@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 70fef8035fce7792b44a3d96d1fba342eae88541
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548546"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024744"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) 和 Cloud POS 的任务录制器和帮助
 
@@ -138,7 +138,7 @@ Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Retail Modern POS 和 Cloud POS 中的帮助
 
-要在 Retail Modern POS 和 Cloud POS 的“帮助”窗格中显示您自己的自定义任务录制以便它们可作为文本查看，您必须将任务录制保存到自己的 BPM 库，然后更新帮助系统参数以指向您的 BPM 库。 有关更多信息，请参阅 [连接帮助系统](../fin-and-ops/get-started/help-connect.md)。 Retail Modern POS 和 Cloud POS 帮助实时搜索 LCS。 它搜索在 Microsoft Dynamics 365 for Retail 帮助系统参数中选择的所有 BPM 库，并显示相关结果。 若要访问**帮助**菜单，单击屏幕顶部的**帮助**按钮（问号），然后在搜索框中键入流程名称并点击搜索按钮。
+要在 Retail Modern POS 和 Cloud POS 的“帮助”窗格中显示您自己的自定义任务录制以便它们可作为文本查看，您必须将任务录制保存到自己的 BPM 库，然后更新帮助系统参数以指向您的 BPM 库。 有关更多信息，请参阅 [连接帮助系统](../fin-and-ops/get-started/help-connect.md)。 Retail Modern POS 和 Cloud POS 帮助实时搜索 LCS。 它搜索在 Retail 帮助系统参数中选择的所有 BPM 库，并显示相关结果。 若要访问**帮助**菜单，单击屏幕顶部的**帮助**按钮（问号），然后在搜索框中键入流程名称并点击搜索按钮。
 
 [![帮助按钮](./media/help.jpg)](./media/help.jpg)
 

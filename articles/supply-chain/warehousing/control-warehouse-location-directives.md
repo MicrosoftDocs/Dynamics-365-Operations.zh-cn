@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74e7c36fb912f35252d6e40d17477ac2962cbc23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d9a5292e88fe022482ab9c6c5a8f016745946988
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558796"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026895"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>使用工作模板和库位指令控制仓库的工作
 
@@ -31,7 +31,7 @@ ms.locfileid: "1558796"
 
 本主题介绍如何使用工作模板和库位指令确定在仓库中如何以及在哪里执行工作。
 
-仓库工作人员在移动设备上收到的说明由您在 Microsoft Dynamics 365 for Finance and Operations 中设置以定义不同仓库流程和任务的工作模板确定。 工作模板确定如何为每个仓库流程执行工作。 通过将库位指令与工作模板链接，您可以帮助确保在仓库的实际特定区域执行工作。
+仓库工作人员在移动设备上收到的说明由您设置以定义不同仓库流程和任务的 Dynamics 365 Supply Chain Management 工作模板确定。 工作模板确定如何为每个仓库流程执行工作。 通过将库位指令与工作模板链接，您可以帮助确保在仓库的实际特定区域执行工作。
 
 ## <a name="work-templates"></a>工作模板
 **工作模板**页可以定义必须在仓库中执行的工作工序。 通常，仓库工作工序包括一个对操作：仓库工作人员在一个库位领取现有库存量，然后将领取的库存放到另一个库位。 

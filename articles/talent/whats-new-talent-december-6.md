@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent Core HR（2018 年 12 月 6 日）中的新增功能或更改
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新增功能和更改的功能。
+title: Dynamics 365 Talent - Core HR（2018 年 12 月 6 日）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 Talent - Core HR 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f3d53440c5d19dd52fbab17305c3e99a73e570be
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 73e0875c3e072bc29050a096888459c6e4bb1b7b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742578"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025948"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Dynamics 365 for Talent Core HR（2018 年 12 月 6 日）中的新增功能或更改
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-6-2018"></a>Dynamics 365 Talent: Core HR（2018 年 12 月 6 日）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "1742578"
 此主题介绍了 Core HR 中的新增功能和更改的功能。
 
 
-## <a name="platform-update-22"></a>平台 update 22
+## <a name="platform-update-22-for-finance-and-operations"></a>Finance and Operations 的平台更新 22
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>最多将 100 万行导出到 Excel
 
@@ -42,7 +42,7 @@ ms.locfileid: "1742578"
 
 ### <a name="restyled-personalization-toolbar"></a>改变样式的个性化工具栏
 
-个性化工具栏已在平台更新 22 中改变样式以帮助用户更轻松地在 Talent 中定制其自己的体验。 进行了下列更改： 
+个性化工具栏已在 Finance and Operations 的平台更新 22 中改变样式以帮助用户更轻松地在 Talent 中定制其自己的体验。 进行了下列更改： 
 
 -  每个个性化工具的名称现在显示有图标，可帮助用户快速识别他们有兴趣使用的工具。
 -  如何使用当前工具的描述现在也会显示，将帮助用户了解如何执行需要的个性化。  
@@ -50,19 +50,19 @@ ms.locfileid: "1742578"
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>经过优化的“之一”筛选体验
 
-“之一”筛选运算符在使用筛选器窗格和网格标题下拉列表时对于大多数字段可用。 此运算符允许用户基于多个值筛选字段。 “之一”运算符的新的和改进的体验在平台更新 22 中提供。 若要了解更多信息，请参阅[优化的“之一”筛选体验](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)。
+“之一”筛选运算符在使用筛选器窗格和网格标题下拉列表时对于大多数字段可用。 此运算符允许用户基于多个值筛选字段。 “之一”运算符的新的和改进的体验在 Finance and Operations 的平台更新 22 中提供。 若要了解更多信息，请参阅[优化的“之一”筛选体验](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)。
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>使用“之一”运算符将列表从 Excel 粘贴到筛选器字段中
 
 对于某些任务，用户可能有想要用于在 Talent 中筛选数据的 Excel 中的值列表。 例如，人力资源用户可能发现报表中有一组员工需要在系统中进一步研究，对于此用户，最理想的是将此列表直接从 Excel 复制到 Talent 中的筛选器字段。
 
-从平台更新 22 开始，筛选器窗格和网格列筛选中的“之一”运算符现在识别从 Excel 复制的列表，以便可以将其直接粘贴到筛选器字段中。 这包括一组从 Excel 中的不同行和列复制的值。 若要了解有关此功能的更多信息，请参阅[使用“之一”运算符将列表从 Excel 粘贴到筛选器字段中](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel)。
+从 Finance and Operations 的平台更新 22 开始，筛选器窗格和网格列筛选中的“之一”运算符现在识别从 Excel 复制的列表，以便可以将其直接粘贴到筛选器字段中。 这包括一组从 Excel 中的不同行和列复制的值。 若要了解有关此功能的更多信息，请参阅[使用“之一”运算符将列表从 Excel 粘贴到筛选器字段中](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel)。
 
 ## <a name="in-preview"></a>预览模式
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>配置 Talent 和 Dayforce 之间的 UK 工资单集成
 
-Microsoft Dynamics 365 for Talent 和 Ceridian Dayforce 之间的集成在 UK 的预览中提供。 请参阅以下主题了解更多信息：[配置 Talent 和 Dayforce 之间的工资单集成](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration)。
+Talent 和 Ceridian Dayforce 之间的集成在 UK 的预览中提供。 请参阅以下主题了解更多信息：[配置 Talent 和 Dayforce 之间的工资单集成](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration)。
 
 ## <a name="coming-soon"></a>即将到期
 
@@ -90,9 +90,9 @@ Microsoft Dynamics 365 for Talent 和 Ceridian Dayforce 之间的集成在 UK �
 
 ## <a name="known-issues"></a>已知问题
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Finance and Operations 集成中的映射错误
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Finance 集成中的映射错误
 
-以下问题已在用于将 Talent 与 Finance and Operations 集成的当前模板中发现。 新模板将很快发布并应用到创建的所有新集成项目中。 对于现有的集成项目，可以更新任务映射。 请参阅下表了解更新的映射。 
+以下问题已在用于将 Talent 与 Finance 集成的当前模板中发现。 新模板将很快发布并应用到创建的所有新集成项目中。 对于现有的集成项目，可以更新任务映射。 请参阅下表了解更新的映射。 
 
 >[!NOTE]
 > “职位到职位父作业分配”任务不集成数据。 这是当前正在研究的问题。 当前映射没有解决方法。 
