@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 693d1821779d5f7af95b900daa3bb7a2c38a6354
-ms.sourcegitcommit: cb63259ad8fa5649ff12bc4a7f195bd1e40bd968
+ms.openlocfilehash: 4517b9ddeb648b3d789773fc0dcb1ecd3c8be85c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755515"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024790"
 ---
 # <a name="create-calculate-and-post-statements-for-a-retail-store"></a>创建、计算和过帐零售商店的对帐单
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-本主题介绍如何手动创建、计算和过帐某一商店的报表。 还可以配置相同任务的批处理作业。 配置和运行批处理作业的步骤可以在其他主题中找到。 要完成此过程，您必须在 POS 中有已完成的交易，让后将其拉到 Dynamics 365 for Finance and Operations 中。 此记录使用 USRT 演示数据公司。
+本主题介绍如何手动创建、计算和过帐某一商店的报表。 还可以配置相同任务的批处理作业。 配置和运行批处理作业的步骤可以在其他主题中找到。 要完成此过程，您必须在 POS 中有已完成的交易，让后将其拉到 Dynamics 365 Retail 中。 此记录使用 USRT 演示数据公司。
 
 1. 从主页选择**零售商店财务**。
 2. 选择**新建报表**。

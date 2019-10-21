@@ -1,6 +1,6 @@
 ---
-title: 访问 Microsoft Dynamics 365 for Talent 中的预览功能
-description: 此主题介绍管理员可如何启用 Microsoft Dynamics 365 for Talent 中的预览功能，并且列出了当前可预览的功能。
+title: 访问 Microsoft Dynamics 365 Talent 中的预览功能
+description: 此主题介绍管理员可如何启用 Microsoft Dynamics 365 Talent 中的预览功能，并且列出了当前可预览的功能。
 author: tracykeya
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 6a5aa8d6ea72ec3d3910edea291c4340ab607326
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: e607c2ba4b544d60c97d98bd49b07d912d83ebc6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739579"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008694"
 ---
 # <a name="manage-preview-features"></a>管理预览功能
 
 [!include[banner](../includes/banner.md)]
 
-在持续推出适用于 Microsoft Dynamics 365 for Talent 的人力资本管理 (HCM) 功能时，我们希望让客户尽快体验新功能。 管理员可以在自己的环境中查看和使用预览功能。 这些功能几乎已针对普通使用准备就绪，并经过了大量测试。 我们正在征求最后一轮的客户反馈和验证，之后就会公开发布。
+在持续推出适用于 Microsoft Dynamics 365 Talent 的人力资本管理 (HCM) 功能时，我们希望让客户尽快体验新功能。 管理员可以在自己的环境中查看和使用预览功能。 这些功能几乎已针对普通使用准备就绪，并经过了大量测试。 我们正在征求最后一轮的客户反馈和验证，之后就会公开发布。
 
-此主题介绍如何启用预览功能，并且列出了当前可预览的功能。 发布功能以公开推出和发布新功能以预览时，将更新此列表。 发布新功能以预览时，不提供通知。 用户只需启动即可查看这些功能。 有关 Talent 中的新功能的详细信息，请参阅 [Dynamics 365 for Talent 新增功能或更改](./whats-new.md)和 [Dynamics 365 和 Power Platform 发行说明](https://docs.microsoft.com/business-applications-release-notes)。
+此主题介绍如何启用预览功能，并且列出了当前可预览的功能。 发布功能以公开推出和发布新功能以预览时，将更新此列表。 发布新功能以预览时，不提供通知。 用户只需启动即可查看这些功能。 有关 Talent 中的新功能的详细信息，请参阅 [Dynamics 365 Talent 新增功能或更改](./whats-new.md)和 [Dynamics 365 和 Power Platform 发行说明](https://docs.microsoft.com/business-applications-release-notes)。
 
 ## <a name="enable-or-disable-preview-features"></a>启用或禁用预览功能
 
@@ -40,9 +40,9 @@ ms.locfileid: "1739579"
 > [!IMPORTANT]
 > 开启**预览功能**设置时，即对组织中该环境的所有用户启用了预览功能。 关闭此设置时，即禁用了预览功能，并且您的用户不能访问这些功能。 在 Talent 中，对预览功能的支持受限。 预览功能可以使用的隐私和安全措施更少，并且 Talent 服务级别协议 (SLA) 中不涵盖预览功能。 不应使用预览功能处理个人数据（即可能用于确认您的身份的所有信息），也不应处理其他与法律或法规遵从性要求有关的数据。
 
-### <a name="attract"></a>吸引
+### <a name="attract"></a>Attract
 
-1. 登录到 Microsoft Dynamics 365 for Talent: Attract。
+1. 登录到 Microsoft Dynamics 365 Talent: Attract。
 2. 在右上角的**设置**菜单（齿轮符号）中，选择**管理中心**。
 3. 在**功能管理**选项卡上，选择**预览功能**旁边的选项，使其变为蓝色，然后说出**打开**。
 
@@ -69,11 +69,11 @@ ms.locfileid: "1739579"
 
 ### <a name="onboard"></a>入职
 
-Microsoft Dynamics 365 for Talent: Onboard 当前无预览功能。
+Microsoft Dynamics 365 Talent: Onboard 当前无预览功能。
 
 ## <a name="features-that-are-currently-in-preview"></a>当前的预览功能
 
-### <a name="attract"></a>吸引
+### <a name="attract"></a>Attract
 
 - [应聘者推荐](./intelligent-recommendations.md#candidate-recommendations) - 如果有超过十名应聘者有简历或完整的个人资料，与工作要求最接近的应聘者将显示在“工作”页的**要考虑的申请人**部分。
 - [工作推荐](./intelligent-recommendations.md#job-recommendations) - 如果您的求职站点上发布的工作超过十个，Attract 将为应聘者提供工作推荐。

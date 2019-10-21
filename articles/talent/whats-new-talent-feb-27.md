@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent（2019 年 2 月 27 日）中的新增功能或更改
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent 中的新增功能和更改的功能。
+title: Dynamics 365 Talent（2019 年 2 月 27 日）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/27/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f175c6e60cf87c7dcbde0eaf35357130fa035712
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517416"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023991"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Dynamics 365 for Talent（2019 年 2 月 27 日）中的新增功能或更改
+# <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Dynamics 365 Talent（2019 年 2 月 27 日）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍了 Microsoft Dynamics 365 for Talent 中的新增功能和更改的功能。
+此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 
 ## <a name="changes-in-attract"></a>Attract 中的更改
 
 本版本中包含 Dynamics 365 Talent: Attract 的小缺陷修复。
 
-## <a name="changes-in-onboard"></a>Changes 中的更改
+## <a name="changes-in-onboard"></a>Onboard 中的更改
 
 本版本中包含 Dynamics 365 Talent: Onboard 的小缺陷修复。
 
@@ -77,9 +77,9 @@ Microsoft Power BI 中已修复了帐户的 2 月 29 日闰日问题。
 
 在许多组织中，薪酬和福利经理可能只能访问特定薪酬记录。 这些记录可能是有关管理层或地区员工的记录。 这一更改让人力资源 (HR) 可以管理和维护组织中不同员工群的薪酬计划。 可分配给固定计划和可变计划的安全角色决定这些计划和与其有关的员工数据（例如，工资信息和奖金记录）的访问权限。 只有具有指定访问权限的角色才能处理这些员工的薪酬。
 
-### <a name="platform-update-24"></a>平台 update 24
+### <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operations 的平台更新 24
 
-有关 Microsoft Dynamics 365 for Finance and Operations 平台更新 24（2019 年 3 月）的详细信息，请参阅 [Finance and Operations 平台更新 24（2019 年 3 月）中的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)。
+有关 Microsoft Dynamics 365 Finance and Operations 的平台更新 24（2019 年 3 月）的详细信息，请参阅 [Finance and Operations 平台更新 24（2019 年 3 月）中的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)。
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>将来的职位分配中可使用员工固定薪酬。
 
@@ -87,10 +87,10 @@ Microsoft Power BI 中已修复了帐户的 2 月 29 日闰日问题。
 
 ## <a name="known-issues"></a>已知问题
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Core HR 集成模板（Talent Common Data Service 到 Finance and Operations）的更改
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance"></a>Core HR 集成模板（Talent Common Data Service 到 Finance）的更改
 Core HR 的模板已更新为“高级查询模板”。 因此，默认情况下，通过使用此模板创建的项目可使用高级查询。 次日，只有高级查询编辑器中才会显示任何默认映射功能。 （默认映射功能在映射中显示为“FN”。）
 
-有关映射错误的详细信息，请参阅 [Dynamics 365 for Talent Core HR（2018 年 12 月 14 日）中的新增功能或更改](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14)。
+有关映射错误的详细信息，请参阅 [Dynamics 365 Talent: Core HR（2018 年 12 月 14 日）中的新增功能或更改](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14)。
 
 若要使用新模板，请新建一个项目，然后选择新的 Talent 集成模板。
 

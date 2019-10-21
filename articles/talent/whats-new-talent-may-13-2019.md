@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent（2019 年 5 月 13 日）中的新增功能或更改
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent 中的新增功能和更改的功能。
+title: Dynamics 365 Talent（2019 年 5 月 13 日）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/13/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ffeeb3e2f5279a84c4c060b04fe46836b778f6c5
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 42feeb044d0a4cd25faf2d74863aa4e948c200fd
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856440"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008802"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-13-2019"></a>Dynamics 365 for Talent（2019 年 5 月 13 日）中的新增功能或更改
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-13-2019"></a>Dynamics 365 Talent（2019 年 5 月 13 日）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍了 Dynamics 365 for Talent 中的新增功能和更改的功能。
+此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
 ## <a name="coming-soon-in-attract"></a>Attract 中即将推出
 

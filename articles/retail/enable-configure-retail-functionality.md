@@ -1,6 +1,6 @@
 ---
 title: 初始化新 Retail 环境中的种子数据
-description: 本主题介绍 Microsoft Dynamics 365 for Retail 的初始化流程期间创建的数据。
+description: 本主题介绍 Dynamics 365 Retail 的初始化流程期间创建的数据。
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 49b21d81437ebd7cc55076444ee71ae1143bfac0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556890"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025508"
 ---
 # <a name="initialize-seed-data-in-new-retail-environments"></a>初始化新 Retail 环境中的种子数据
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍 Microsoft Dynamics 365 for Retail 的初始化流程期间创建的数据。
+本主题介绍 Dynamics 365 Retail 的初始化流程期间创建的数据。
 
 在通过 Microsoft Dynamics Lifecycle Services (LCS) 部署零售解决方案后，您必须初始化零售配置以创建基本配置数据。
 
@@ -39,7 +39,7 @@ ms.locfileid: "1556890"
 
 若要初始化零售配置，请执行以下步骤。
 
-1. 启动 Dynamics 365 for Retail 客户端。
+1. 启动 Retail 客户端。
 2. 单击**零售** &gt; **总部设置** &gt; **参数** &gt; **零售参数**。
 3. 单击**初始化**。
 
@@ -57,7 +57,7 @@ ms.locfileid: "1556890"
 - 实体验证模板
 - 清除 Commerce Data Exchange 会话历史记录的批处理作业
 
-此外，与支付卡行业 (PCI) 相关的日志记录为 Dynamics 365 for Retail 数据库启用。
+此外，与支付卡行业 (PCI) 相关的日志记录为 Retail 数据库启用。
 
 > [!NOTE]
 > 具有单独配置零售调度的选项。 此选项可以将零售调度配置重置为其默认设置。

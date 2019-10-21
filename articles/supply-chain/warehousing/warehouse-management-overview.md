@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c900ef715b62484c1fb6576b7f0c97cdea4e4284
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865128"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251054"
 ---
 # <a name="warehouse-management-overview"></a>仓库管理概览
 
 [!include [banner](../includes/banner.md)]
 
-Dynamics 365 for Finance and Operations 的仓库管理模块让您在制造商、分销商和零售公司中管理仓库流程。 此模块具有多种功能以随时为仓库设施提供最优级别的支持。 仓库管理与 Finance and Operations 中的其他业务流程完全集成，如运输、制造、质量控制、采购、转移、销售和退货。
+仓库管理模块能让您在制造商、分销商和零售公司中管理仓库流程。 此模块具有多种功能以随时为仓库设施提供最优级别的支持。 仓库管理与其他业务流程完全集成，如运输、制造、质量控制、采购、转移、销售和退货。
 
 ## <a name="get-started"></a>开始
 若要开始使用仓库管理，您需完成常规仓库参数的设置，以支持公司的业务流程。

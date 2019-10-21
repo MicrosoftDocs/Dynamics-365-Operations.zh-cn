@@ -1,6 +1,6 @@
 ---
 title: 配置 Talent
-description: 此主题将指导您如何为 Microsoft Dynamics 365 for Talent 配置新环境。
+description: 此主题将指导您如何为 Microsoft Dynamics 365 Talent 配置新环境。
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/15/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 781487997ceb95f4e3f528f47e8ed2aa5b25fd0e
-ms.sourcegitcommit: eb501d8712212a6ed33bec1e3e2c02f994e0a724
+ms.openlocfilehash: 2bb5dd5e29559807e40b66ad7f9c061bf510ed67
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "1869928"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026133"
 ---
 # <a name="provision-talent"></a>配置 Talent
 
 [!include [banner](includes/banner.md)]
 
-此主题将指导您如何为 Microsoft Dynamics 365 for Talent 配置新生产环境。 此主题假设您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Talent。 如果您有已包括 Talent 服务计划的现有 Microsoft Dynamics 365 许可证，但无法完成本主题中的步骤，请联系支持人员。
+此主题将指导您如何为 Microsoft Dynamics 365 Talent 配置新生产环境。 此主题假设您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Talent。 如果您有已包括 Talent 服务计划的现有 Microsoft Dynamics 365 许可证，但无法完成本主题中的步骤，请联系支持人员。
 
 若要开始，全局管理员应登录到 [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) 并创建新的 Talent 项目。 除非许可问题妨碍了您配置 Talent，否则不需要从支持人员或 Dynamics Service 工程 (DSE) 代表处获得帮助。
 
@@ -37,8 +37,8 @@ ms.locfileid: "1869928"
 
 1. 使用您用于订阅 Talent 的帐户登录到 [LCS](https://lcs.dynamics.com/Logon/Index)。
 2. 选择加号 (**+**) 创建项目。
-3. 选择 **Microsoft Dynamics 365 for Talent** 作为产品名称和产品版本。
-4. 选择 **Dynamics 365 for Talent** 方法。
+3. 选择 **Microsoft Dynamics 365 Talent** 作为产品名称和产品版本。
+4. 选择 **Dynamics 365 Talent** 方法。
 5. 选择**创建**。
 
 有关如何开始 Talent 的信息，请参阅在新项目中创建的 **Talent** 方法。 在您完成创建项目后，请完成以下过程来设置您的 Talent 环境。
@@ -54,7 +54,7 @@ ms.locfileid: "1869928"
 4. Talent 始终配置到 Microsoft PowerApps 环境，以支持 PowerApps 集成和可扩展性。 在继续之前，请阅读本主题的“选择 PowerApps 环境”部分。 如果您没有 PowerApps 环境，在 LCS 中选择“管理环境”或导航到 PowerApps 管理员中心。 然后按照步骤[创建 PowerApps 环境](https://docs.microsoft.com/powerapps/administrator/create-environment)。
 
     > [!NOTE]
-    > 若要查看现有的环境或创建新环境，必须为配置 Talent 的租户管理员分配 PowerApps P2 许可证。 如果您的组织没有 PowerApps P2 许可证，则可以从 CSP 或从 [PowerApps 定价页面](https://powerapps.microsoft.com/pricing/)获取一个。
+    > 若要查看现有的环境或创建新环境，必须为配置 Talent 的租户管理员分配 PowerApps P2 许可证。 如果您的组织没有 PowerApps P2 许可证，则可以从 CSP 或从 [PowerApps 定价](https://powerapps.microsoft.com/pricing/)页面获取一个。
 
 5. 选择要设置 Talent 的环境。
 6. 选择**是**同意条款并开始部署。
@@ -74,9 +74,9 @@ ms.locfileid: "1869928"
 
 在确定部署 Talent 的目标 PowerApps 环境时请使用以下指南： 
 
-1. 在 LCS 中，选择**管理环境**，或直接转到“PowerApps 管理员中心”，您可以在那里查看现有的环境和创建新的环境。
+1. 在 LCS 中，选择**管理环境**，或直接转到 PowerApps 管理员中心，您可以在那里查看现有的环境和创建新的环境。
 2. 单个 Talent 环境映射到单个 PowerApps 环境。
-3. PowerApps 环境“包含”Talent 应用程序，以及相应的 PowerApps、流和 Common Data Service 应用程序。 如果 PowerApps 环境被删除，其中的应用也会被删除。 在设置人才环境时，可以设置“试用”或“生产”。 根据环境使用方式选择环境类型。 
+3. PowerApps 环境包含 Talent，以及相应的 PowerApps、流和 Common Data Service 应用程序。 如果 PowerApps 环境被删除，其中的应用也会被删除。 在设置 Talent 环境时，可以设置**试用**或**生产**环境。 根据环境使用方式选择环境类型。 
 4. 应该考虑数据集成和测试策略，如沙盒、UAT 或生产。 建议您考虑对您的部署的各种影响，因为以后不容易更改将哪个 Talent 环境映射到 PowerApps 环境。
 5. 以下 PowerApps 环境不能用于 Talent，将从 LCS 内的选择列表中筛除：
  
@@ -89,4 +89,4 @@ ms.locfileid: "1869928"
 6. 确定了要使用的正确环境之后，可以继续进行配置流程。 
  
 ## <a name="grant-access-to-the-environment"></a>授予对环境的访问
-默认情况下，创建环境的全局管理员可以访问环境。 但是，必须为更多应用程序用户明确授予访问权限。 若要授予访问权限，需要在 Core HR 环境中添加用户并为其分配相应角色。 部署了 Talent 的全局管理员还必须启动 Attract 和 Onboard 应用程序以完成初始化和允许其他租户用户访问。  在此之前，其他用户不能访问 Attract 和 Onboard 应用程序，并且将发生访问冲突错误。 有关详细信息，请参阅[创建新用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)和[向安全角色分配用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)。 
+默认情况下，创建环境的全局管理员可以访问环境。 但是，必须为更多应用程序用户明确授予访问权限。 若要授予访问权限，需要在 Core HR 环境中添加用户并为其分配相应角色。 部署了 Talent 的全局管理员还必须启动 Attract 和 Onboard 以完成初始化和允许其他租户用户访问。  在此之前，其他用户不能访问 Attract 和 Onboard，并且将发生访问冲突错误。 有关详细信息，请参阅[创建新用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)和[向安全角色分配用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)。 

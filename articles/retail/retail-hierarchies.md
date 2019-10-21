@@ -1,6 +1,6 @@
 ---
 title: 零售层次结构
-description: 本文介绍 Microsoft Dynamics 365 for Retail 中的零售层次结构。
+description: 本文介绍 Dynamics 365 Retail 中的零售层次结构。
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 198c8da336f3e225c5d6da2eb02c86581dc9b4d6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cb383c5bc5ad5d641db6f30e915ea43ba5980005
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568014"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025069"
 ---
 # <a name="retail-hierarchies"></a>零售层次结构
 
 [!include [banner](includes/banner.md)]
 
-本文介绍 Microsoft Dynamics 365 for Retail 中的零售层次结构。
+本文介绍 Dynamics 365 Retail 中的零售层次结构。
 
 您可以创建零售类别层次结构组织通过零售渠道销售的产品。 您可以使用零售产品层次结构来分类或组产品。 然后，可以使用这些产品来创建产品分类和客户会员计划。 您还可以分配产品特性和属性，分配定价结构，将产品包括在产品促销中，以及将产品用于报告。 您可以在您的组织中创建一个零售类别层次结构表示所有产品和类别，然后为多个目的使用该类别层次结构。 或者，您可以为特殊用途创建多个零售类别层次结构，例如产品促销。 在创建零售产品层次结构时，必须分配类别层次结构类型标识类别层次结构的用途。 例如，当您按在线类别或在销售点 (POS) 浏览产品时，只有分配了**零售导航层次结构**类型的产品层次结构会被引用。
 

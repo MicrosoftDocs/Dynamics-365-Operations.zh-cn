@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0369c1a4bbc893a86cf14bd59a2d28a7bbca15c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fe8c4bc8f2efb06de4cb6fd727df93ba1a5d14bf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554636"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251331"
 ---
 # <a name="price-simulation"></a>价格模拟
 
@@ -51,7 +51,7 @@ ms.locfileid: "1554636"
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>贸易协议中的折扣类型
 
-在 Microsoft Dynamics 365 for Finance and Operations 中的贸易协议可能有四种类型的价格折扣。 可为不同的物料、客户或价格组设置这些折扣，并且可按日期限定折扣。 若要避免错误计算，在运行价格模拟时，您必须考虑贸易协议。 下面是贸易协议中的四种折扣类型：
+Supply Chain Management 中的贸易协议可能有四种类型的价格折扣。 可为不同的物料、客户或价格组设置这些折扣，并且可按日期限定折扣。 若要避免错误计算，在运行价格模拟时，您必须考虑贸易协议。 下面是贸易协议中的四种折扣类型：
 
 -   **销售价** – 可以为物料指定单独的销售价。 在创建报价单行时，程序将搜索物料的正确的销售价并将其转移到报价单行。 因此，在具有类折扣的贸易协议并不影响价格模拟。 用于询价行的销售价反映贸易协议。
 -   **单行折扣** – 根据订购的金额，为物料指定特别折扣。 在运行价格模拟前，通常从行金额中减去单行折扣。 因此，在具有类折扣的贸易协议影响价格模拟。

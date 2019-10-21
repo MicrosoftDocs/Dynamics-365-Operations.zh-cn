@@ -1,6 +1,6 @@
 ---
-title: 将包含项目的工作订单从 Field Service 同步到 Finance and Operations
-description: 此主题介绍用于同步 Microsoft Dynamics 365 for Field Service 与 Microsoft Dynamics 365 for Finance and Operations 的具有项目编号的工作订单的模板和基础任务。
+title: 将项目内的工作订单从 Field Service 同步到 Supply Chain Management
+description: 此主题介绍用于同步 Dynamics 365 Field Service 与 Dynamics 365 Supply Chain Management 的具有项目编号的工作订单的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/12/2019
@@ -19,34 +19,34 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 77358513ffdf791ab10d6efe1b84f598ffb5ec26
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 3678fbca8244ae6dcd050f6a91ff3b35d90e1064
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843401"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251699"
 ---
-# <a name="synchronize-work-orders-with-project-from-field-service-to-finance-and-operations"></a>将包含项目的工作订单从 Field Service 同步到 Finance and Operations
+# <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>将项目内的工作订单从 Field Service 同步到 Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-此主题介绍用于同步 Microsoft Dynamics 365 for Field Service 与 Microsoft Dynamics 365 for Finance and Operations 的具有项目编号的工作订单的模板和基础任务。
+此主题介绍用于同步 Dynamics 365 Field Service 与 Dynamics 365 Supply Chain Management 的具有项目编号的工作订单的模板和基础任务。
 
-[![Finance and Operations 与 Field Service 之间的业务流程同步](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
+[![Supply Chain Management 与 Field Service 之间的业务流程同步](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
-使用的**包含项目的工作订单（Field Service 到 Fin and Ops）** 模板基于**工作订单（Field Service 到 Fin and Ops）** 模板。 有关详细信息，请参阅[将 Field Service 的工作订单同步到 Finance and Operations 的销售订单](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order)。
+使用的**包含项目的工作订单（Field Service 到 Supply Chain Management）** 模板基于**工作订单（Field Service 到 Supply Chain Management）** 模板。 有关详细信息，请参阅[将 Field Service 的工作订单同步到 Supply Chain Management 的销售订单](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order)。
 
 本主题仅介绍这两个模板之间的区别：
-- **包含项目的工作订单（Field Service 到 Fin and Ops）**
-- **工作订单（Field Service 到 Fin and Ops）**
+- **项目内的工作订单（Field Service 到 Supply Chain Management）**
+- **工作订单（Field Service 到 Supply Chain Management）**
 
-主要差别在于此模板包括分配到 Field Service 中的工作订单的项目编号的映射，确保在 Finance and Operations 中创建的销售订单包含项目编号，并可以在相关项目上开票。 除了此模板外，请使用“高级查询和筛选”。
+主要差别在于此模板包括分配到 Field Service 中的工作订单的项目编号的映射，确保在 Supply Chain Management 中创建的销售订单包含项目编号，并可以在相关项目上开票。 除了此模板外，请使用“高级查询和筛选”。
 
 ## <a name="templates-and-tasks"></a>模板和任务
 
 **数据集成中的模板名称：**
 
-- 包含项目的工作订单（Field Service 到 Fin and Ops）
+- 项目内的工作订单（Field Service 到 Supply Chain Management）
 
 **数据集成项目中的任务名称：**
 
@@ -56,24 +56,24 @@ ms.locfileid: "1843401"
 - WorkOrderService
 
 ## <a name="field-service-crm-solution"></a>Field Service CRM 解决方案
-**外部项目**字段已添加到“工作订单”实体。 此字段是标记项目的工作订单的查找和购买，销售订单随后将被连接到 Finance and Operations 内的一个项目。 **系统状态**将“打开 - 正在进行(690,970,000)”更改为更高状态后，**外部项目**字段将被锁定，您将无法添加、删除或更改值。
+**外部项目**字段已添加到“工作订单”实体。 此字段是标记项目的工作订单的查找和购买，销售订单随后将被连接到 Supply Chain Management 内的一个项目。 当**系统状态**从“打开 - 正在进行(690,970,000)”更改为更高状态时，**外部项目**字段将被锁定，您将无法添加、删除或更改值。
 
 ## <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射
 
 下图显示了数据集成中的模板映射。
 
-### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderheader"></a>包含项目的工作订单（Field Service 到 Fin and Ops）：WorkOrderHeader
+### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheader"></a>项目内的工作订单（Field Service 到 Supply Chain Management）：WorkOrderHeader
 
 [![数据集成中的模板映射](./media/FSWOP1.png)](./media/FSWOP1.png)
 
-### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderheaderproject"></a>包含项目的工作订单（Field Service 到 Fin and Ops）：WorkOrderHeaderProject
+### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheaderproject"></a>项目内的工作订单（Field Service 到 Supply Chain Management）：WorkOrderHeaderProject
 
 [![数据集成中的模板映射](./media/FSWOP2.png)](./media/FSWOP2.png)
 
-### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderproduct"></a>包含项目的工作订单（Field Service 到 Fin and Ops）：WorkOrderProduct
+### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderproduct"></a>项目内的工作订单（Field Service 到 Supply Chain Management）：WorkOrderProduct
 
 [![数据集成中的模板映射](./media/FSWOP3.png)](./media/FSWOP3.png)
 
-### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderservice"></a>包含项目的工作订单（Field Service 到 Fin and Ops）：WorkOrderService
+### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>项目内的工作订单（Field Service 到 Supply Chain Management）：WorkOrderService
 
 [![数据集成中的模板映射](./media/FSWOP4.png)](./media/FSWOP4.png)

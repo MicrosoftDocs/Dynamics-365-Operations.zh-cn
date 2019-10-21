@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 551a8408aa730bc1916f1c57b7cfd773966ce8bf
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c5da94e02b2381bbd058221567172cd428931c45
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606795"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024675"
 ---
 # <a name="store-inventory-management"></a>商店库存管理
 
 [!include [banner](includes/banner.md)]
 
-在 Dynamics 365 for Retail 中处理库存和使用 POS 应用程序时，请务必记住 POS 为库存维度和某些库存物料类型提供有限支持。
+在 Dynamics 365 Retail 中处理库存和使用 POS 应用程序时，请务必记住 POS 为库存维度和某些库存物料类型提供有限支持。
 
 POS 解决方案不支持以下物料配置：
 
@@ -56,7 +56,7 @@ POS 解决方案为以下维度提供有限支持。 有限支持指示 POS 可�
 
 ## <a name="purchase-orders"></a>采购订单
 
-采购订单在总部创建。 如果零售仓库包括在采购订单抬头中，通过**领料/收货**操作使用 Microsoft Dynamics 365 for Retail 中的 Modern POS (MPOS) 或 Cloud POS 订货可以在商店接收订单。 在 POS 中的**当前接收量**字段内为采购订单单据输入商店收到的数量时，可以在本地保存或提交这些数量。 将这些数据保存在本地不会影响现货库存。 仅当用户尚未准备好将收据过帐到总部，并且仅需要临时存储以前输入的**当前接收量**数据时，才应进行保存。 这将把当前接收量数据本地保存到用户的渠道数据库。 使用**提交**选项处理单据之后，将把**当前接收量**数据发送到总部，并过帐采购订单收据。 
+采购订单在总部创建。 如果零售仓库包括在采购订单抬头中，通过**领料/收货**操作使用 Modern POS (MPOS) 或 Cloud POS 订货可以在商店接收订单。 在 POS 中的**当前接收量**字段内为采购订单单据输入商店收到的数量时，可以在本地保存或提交这些数量。 将这些数据保存在本地不会影响现货库存。 仅当用户尚未准备好将收据过帐到总部，并且仅需要临时存储以前输入的**当前接收量**数据时，才应进行保存。 这将把当前接收量数据本地保存到用户的渠道数据库。 使用**提交**选项处理单据之后，将把**当前接收量**数据发送到总部，并过帐采购订单收据。 
 
 ## <a name="transfer-orders"></a>转移单
 

@@ -1,6 +1,6 @@
 ---
 title: 在运输管理中对运费进行对帐
-description: 本文介绍了运费对帐流程。
+description: 本主题介绍了运费对帐流程。
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f92808f904ba93513e20b74bd2b597712cb93d4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eb3ba06f4fa8cc4af952619d06a58e605ff87e2a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560924"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251561"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>在运输管理中对运费进行对帐
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍了运费对帐流程。
+本主题介绍了运费对帐流程。
 
 可以手动完成运费对帐或可以设置为自动发生。 若要使用自动运费对帐，您必须设置审计主数据，在其中可以定义确定自动匹配哪些运费帐单的条件。
 
@@ -40,8 +40,8 @@ ms.locfileid: "1560924"
 [![运费对帐流程](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>手动对帐
-如果要手动对帐运费，必须将每个发票行与已开票负荷的运费帐单行匹配。 您在**运费帐单和发票匹配**页进行此匹配。 如果发票行上的金额与运费帐单金额不匹配，则必须选择上差异对帐原因。 如果有多个对帐原因，您可以在它们之间拆分不匹配的金额。 对帐原因确定如何在总帐中过帐差异金额。 当对帐所计算的整个发票金额时，将金额提交供审批，然后过帐日记帐。 下图显示了如何在 Microsoft Dynamics 365 for Finance and Operations 中生成运费发票和执行运费对帐。 
-[![Dynamics AX 中的运费对帐任务](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
+如果要手动对帐运费，必须将每个发票行与已开票负荷的运费帐单行匹配。 您在**运费帐单和发票匹配**页进行此匹配。 如果发票行上的金额与运费帐单金额不匹配，则必须选择上差异对帐原因。 如果有多个对帐原因，您可以在它们之间拆分不匹配的金额。 对帐原因确定如何在总帐中过帐差异金额。 当对帐所计算的整个发票金额时，将金额提交供审批，然后过帐日记帐。 下图显示了如何生成运费发票和执行运费对帐。 
+[![运费对帐任务](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 ## <a name="automatic-reconciliation"></a>自动对帐
 若要使用自动对帐，您必须指定对帐计划和发票，以及要使用的装运承运人。 发票行和运费帐单的匹配根据审计主数据和运费帐单类型的设置进行。 运行自动对帐后，必须处理所有系统不能匹配的发票。 然后，您必须手动处理这些发票，然后才能过帐所有付款发票。
 

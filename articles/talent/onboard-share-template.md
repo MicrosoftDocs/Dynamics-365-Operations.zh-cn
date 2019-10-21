@@ -1,6 +1,6 @@
 ---
-title: 在 Dynamics 365 for Talent - Onboard 中与其他参与者共享内容
-description: 本主题说明如何与 Microsoft Dynamics 365 for Talent - Onboard 应用中的其他参与者共享入职指南和模板。
+title: 在 Dynamics 365 Talent - Onboard 中与其他参与者共享内容
+description: 本主题说明如何与 Microsoft Dynamics 365 Talent - Onboard 应用中的其他参与者共享入职指南和模板。
 author: andreabichsel
 manager: ''
 ms.date: 05/20/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8524f9ec502bed829522ab90c7c7976c2814a1b6
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: d07879ff31127788ebfee5bc8b42442a26987651
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731373"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010744"
 ---
-# <a name="share-content-with-other-contributors-in-dynamics-365-for-talent-onboard"></a>在 Dynamics 365 for Talent: Onboard 中与其他参与者共享内容
+# <a name="share-content-with-other-contributors"></a>与其他参与者共享内容
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard 允许您与其他参与者共享入职指南和模板，以便他们可以查看文档并进行更改。
+Microsoft Dynamics 365 Talent: Onboard 允许您与其他参与者共享入职指南和模板，以便他们可以查看文档并进行更改。
 
 ## <a name="share-an-onboarding-guide-with-other-contributors"></a>与其他参与者共享入职指南
 

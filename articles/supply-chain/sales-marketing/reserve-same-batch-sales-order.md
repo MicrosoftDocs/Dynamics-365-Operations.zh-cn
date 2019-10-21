@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d6089d07b0f8bc1a36703b5b1c2f24af72770d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 067dd6d3c337378a610ee1fcf6a7812716813bab
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568297"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251722"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>为销售订单预留相同批次
 
@@ -38,7 +38,7 @@ ms.locfileid: "1568297"
 -   **跟踪维度组** - 跟踪维度组必须为批号选择**按维度的覆盖范围计划**字段。
 -   **存储维度组** - 存储维度组必须为**站点**和**仓库**选择**按维度的覆盖范围计划**字段。
 
-如果在为相同批次选择设置的销售订单行上的产品预留库存，则 Microsoft Dynamics 365 for Finance and Operations 会尝试预留单个库存批次中订购的数量。 还应考虑任何特定的批属性要求。 如果无法从单个批次中填满数量，则将显示**相同批次预留冲突**页面。 此页面描述了这些问题以及为继续预留而采取的措施。 以下条件可能会阻止预留批次：
+如果在为相同批次选择设置的销售订单行上的产品预留库存，则系统会尝试预留单个库存批次中订购的数量。 还应考虑任何特定的批属性要求。 如果无法从单个批次中填满数量，则将显示**相同批次预留冲突**页面。 此页面描述了这些问题以及为继续预留而采取的措施。 以下条件可能会阻止预留批次：
 
 -   批处置代码将销售的**阻止预留**标记为**已阻止**。
 -   根据到期日期以及任何适用的客户适售期，该批次已经到期。 如果物料的物料模型组受先过期先出 (FEFO) 日期控制并且已选择最佳使用日期作为选择标准，则仍可考虑预留该物料。

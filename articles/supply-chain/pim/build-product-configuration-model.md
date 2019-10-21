@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b50aa1df7a169e71d3e2e477bd1515d70cedccab
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865368"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249486"
 ---
 # <a name="product-configuration-overview"></a>产品配置概览
 
@@ -60,6 +60,9 @@ ms.locfileid: "1865368"
 
 每个组件都有标识其属性的一个或多个属性。 属性是用户将在配置过程中选择的内容。 属性通过约束或计算中的包含来控制组件间或组件内关系。 通过应用于物料清单行的条件，属性可用于确定已配置产品所包含的实体部件。 此外，属性还可通过映射机制控制物料清单行的属性。 与包含和属性设置有关的工艺路线工序存在类似的功能。
 
+>[!NOTE]
+> 创建属性类型时，请避免为属性类型域创建大量的值。 这样做可能会导致产品配置器的速度降低。 
+
 ### <a name="expression-constraints"></a>表达式约束 
 
 基于约束的产品配置模型的使用暗示在用户为各种属性选择值时存在一些限制。 此类限制可借助优化建模语言 (OML) 作为表达式约束来实施。 或者，约束也可以表约束的形式实施。
@@ -70,7 +73,7 @@ ms.locfileid: "1865368"
 
 用户定义的表约束由用户构建。 用户选择用于表示表列的属性类型的组合，然后输入来自所选属性类型的域并用于在表约束中形成行的值。  
 
-系统定义的表约束通过以下方式定义：选择要用作引用的 Microsoft Dynamics 365 for Finance and Operations 表，然后从此表中选择用于在约束中形成列的字段。 表约束的行是在配置时呈现的 Finance and Operations 表的行。  
+系统定义的表约束通过以下方式定义：选择要用作引用的表，然后从此表中选择用于在约束中形成列的字段。 表约束的行是在配置时呈现的 Finance and Operations 表的行。  
 
 可通过引用表约束定义并将模型中的相关属性映射到表约束中的列来将表约束包含在产品配置模型中。
 

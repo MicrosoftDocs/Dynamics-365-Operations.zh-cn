@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 484bac74ccb498f0b006458f5e6d8fb0e9461a8f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: be4dbadaeac747953af44236156453edc596fcd5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556061"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018104"
 ---
 # <a name="backflush-costing"></a>倒冲成本计算
 
@@ -61,11 +61,11 @@ Lean manufacturing 的成本计算支持生产流使用称为倒冲成本计算�
 
 ### <a name="calculation-that-is-based-on-the-production-flow"></a>基于生产流的计算。
 
-Lean manufacturing for Microsoft Dynamics 365 for Finance and Operations 与工艺路线无关。 从生产流供应的产品的成本计算可以基于生产流本身。 必须先创建在生产流之外供应产品的看板规则，然后才能进行计算。 如果产品可以在计算日期从同一站点的多个生产流供应，您可以为物料清单计算选择生产流。 在**默认生产流**页，可以为每个物料配置默认生产流。 如果在计算日期有效的同一个生产流中的同一产品存在多个看板规则，计算将选择对计算有效的第一个看板规则。
+Lean manufacturing for Dynamics 365 Supply Chain Management 与工艺路线无关。 从生产流供应的产品的成本计算可以基于生产流本身。 必须先创建在生产流之外供应产品的看板规则，然后才能进行计算。 如果产品可以在计算日期从同一站点的多个生产流供应，您可以为物料清单计算选择生产流。 在**默认生产流**页，可以为每个物料配置默认生产流。 如果在计算日期有效的同一个生产流中的同一产品存在多个看板规则，计算将选择对计算有效的第一个看板规则。
 
 ### <a name="calculation-that-is-based-on-the-route"></a>基于工艺路线的计算
 
-基于工艺路线的计算与基于生产流的计算同样有效。 但是，基于工艺路线的计算不为 Lean manufacturing 功能使用成本计算。 工艺路线应使用资源组的资源需求。 若要避免系统差异，还应使用相同工作单元，或至少相同的成本类别。 而且，您应该避免设置和数量的成本类别。 这些不帮助计算比 Lean manufacturing 成本倒冲计算法更细化细分的成本。 若要确定应使用哪个选项（生产流或工艺路线）计算成本，则考虑成本细分的结果。 更接近现实以及总体产生更少差异的版本是更好的选择。 在由单个生产流和单个看板规则供应产品的 Lean manufacturing 环境中，基于生产流的计算可能更准确。 对于可由同一站点的 Lean manufacturing 和生产订单供应，或者在同一个流中可以具有多个生产流或多个看板规则的产品，如果计算基于专为成本计算而不是生产构建的工艺路线版本，计算可能更准确。 生产流计算必须用计算涉及转包的产品。 在 Microsoft Dynamics 365 for Finance and Operations 中，通过生产订单的转包和 Lean manufacturing 中的转包的成本模型使用两种不同的方法。 Lean manufacturing 引入新的成本组类型，**直接外包**，来计算转包服务。
+基于工艺路线的计算与基于生产流的计算同样有效。 但是，基于工艺路线的计算不为 Lean manufacturing 功能使用成本计算。 工艺路线应使用资源组的资源需求。 若要避免系统差异，还应使用相同工作单元，或至少相同的成本类别。 而且，您应该避免设置和数量的成本类别。 这些不帮助计算比 Lean manufacturing 成本倒冲计算法更细化细分的成本。 若要确定应使用哪个选项（生产流或工艺路线）计算成本，则考虑成本细分的结果。 更接近现实以及总体产生更少差异的版本是更好的选择。 在由单个生产流和单个看板规则供应产品的 Lean manufacturing 环境中，基于生产流的计算可能更准确。 对于可由同一站点的 Lean manufacturing 和生产订单供应，或者在同一个流中可以具有多个生产流或多个看板规则的产品，如果计算基于专为成本计算而不是生产构建的工艺路线版本，计算可能更准确。 生产流计算必须用计算涉及转包的产品。 通过生产订单的转包和 Lean manufacturing 中的转包的成本模型使用两种不同的方法。 Lean manufacturing 引入新的成本组类型，**直接外包**，来计算转包服务。
 
 ## <a name="material-consumption"></a>物料消耗量
 如果材料从库存消耗到 WIP，材料成本将以成本组的实际标准成本添加到 WIP。 此操作在以下情况下发生：
@@ -82,7 +82,7 @@ Lean manufacturing for Microsoft Dynamics 365 for Finance and Operations 与工�
 从生产流程接收的产品从 WIP 中扣除。
 
 ## <a name="products-in-wip"></a>WIP 的产品
-Microsoft Dynamics 365 for Finance and Operations 的 Lean manufacturing WIP 模型让您可以使用看板处理单元状态来管理属于 WIP 的材料、半成品和成品。
+Lean manufacturing WIP 模型让您可以使用看板处理单元状态来管理属于 WIP 的材料、半成品和成品。
 
 -   **已分配** - 看板已消耗在 WIP 中入帐的材料。
 -   **已收到** - 如果看板引用**接收时更新库存**设置为**否**最后一个活动，这表示未登记到库存的产品或半成品的完整物料处理单元。

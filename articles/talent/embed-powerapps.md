@@ -1,5 +1,5 @@
 ---
-title: Core HR 中的嵌入 PowerApps 应用
+title: 在 Dynamics 365 - Core HR 中嵌入 PowerApps 应用程序
 description: 此主题介绍如何解决 PowerApps 菜单项从系统管理模块中消失的问题。
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4fbc24c5ceb73389b84b125eb942ac31757928aa
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742811"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008422"
 ---
-# <a name="embed-powerapps-apps-in-core-hr"></a>Core HR 中的嵌入 PowerApps 应用
+# <a name="embed-powerapps-apps-in-core-hr"></a>在 Core HR 中嵌入 PowerApps 应用程序
 
 [!include [banner](includes/banner.md)]
 
@@ -36,15 +36,15 @@ ms.locfileid: "1742811"
 
 用户界面 (UI) 设计已更改，Microsoft PowerApps 现在包含在标准个性化模型中。
 
-**分辨率**
+**解决方法**
 
-PowerApps 应用的嵌入方式已更改。 PowerApps 应用现在通过个性化模型添加。 您可以将 PowerApps 应用添加到 Microsoft Dynamics 365 for Talent 中的几乎所有页面。
+PowerApps 应用程序的嵌入方式已更改。 PowerApps 应用程序现在通过个性化模型添加。 您可以将 PowerApps 应用程序添加到 Microsoft Dynamics 365 Talent 中的几乎所有页面。
 
-有关如何在 Talent 中嵌入 PowerApps 应用的信息，请参阅[嵌入 PowerApps 应用](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps)。
+有关如何在 Talent 中嵌入 PowerApps 应用程序的信息，请参阅[嵌入 PowerApps 应用程序](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps)。
 
-在更改前嵌入了应用的任何 PowerApps 客户应该已经升级到了新模型。
+在更改前嵌入了应用程序的任何 PowerApps 客户应该已经升级到了新模型。
 
-**PowerApps** 按钮在 Talent 中几乎每个页面的右上角。 您可以使用此按钮插入 PowerApps 应用。
+**PowerApps** 按钮在 Talent 中几乎每个页面的右上角。 您可以使用此按钮插入 PowerApps 应用程序。
 
 下面是一个示例。
 
@@ -67,4 +67,4 @@ PowerApps 应用的嵌入方式已更改。 PowerApps 应用现在通过个性�
 
 2. 在工具栏上，选择**插入 \> PowerApp**。
 
-    ![使用个性化设置工具栏插入 PowerApps 应用](media/powerapp-bar.png)
+    ![使用个性化设置工具栏插入 PowerApps 应用程序](media/powerapp-bar.png)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c9392263e8c113c541b64e8e79853520a13d11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517384"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026248"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>分发和计划调查表
 
@@ -83,7 +83,7 @@ ms.locfileid: "1517384"
 
 您可以使用参考类型输入您可以在计划调查表时选择的回应者的条件。 
 
-使用**参考类型**页可以设置调查表的参考类型。 每个参考类型对应于 Microsoft Dynamics 365 for Finance and Operations 中的某个表。 在您创建调查表计划时，可以指定表中记录或指定调查表将关联的一系列记录。 
+使用**参考类型**页可以设置调查表的参考类型。 每个参考类型对应于 Microsoft Dynamics 365 Finance 中的某个表。 在您创建调查表计划时，可以指定表中记录或指定调查表将关联的一系列记录。 
 
 例如，如果您选择“课程”表，您可以确定调查表将针对哪一个特定课程。 在您为“课程”表设置参考时，**课程**页上的某些字段和按钮将可用。
 

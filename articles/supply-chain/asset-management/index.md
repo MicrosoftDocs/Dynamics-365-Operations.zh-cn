@@ -1,6 +1,6 @@
 ---
 title: 资产管理概述
-description: 本主题介绍 Dynamics 365 for Finance and Operations 中的“资产管理”功能。
+description: 本主题介绍 Dynamics 365 Supply Chain Management 中的“资产管理”功能。
 author: josaw1
 manager: AnnBe
 ms.date: 07/24/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b8a619d787a2d43e843b574edf77b3153d53005
-ms.sourcegitcommit: 829b6dc145197cc565d40469f6a1522f8dccac9f
+ms.openlocfilehash: f98185fbabefedd2a545bd1c3e15b9e180363469
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "1788272"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024698"
 ---
 # <a name="asset-management-overview"></a>资产管理概述
 
@@ -32,7 +32,7 @@ ms.locfileid: "1788272"
 [!include [banner](../includes/preview-banner.md)]
 
 
-资产管理是 Microsoft Dynamics 365 for Finance and Operations 中的一个高级模块，用于管理资产和维护作业。 资产管理与 Finance and Operations 中的多个模块无缝集成。 
+资产管理是 Dynamics 365 Supply Chain Management 中的一个高级模块，用于管理资产和维护作业。 资产管理与 Finance and Operations 中的多个模块无缝集成。 
 
 下图是 Finance and Operations 中的其他模块的界面的插图。
 

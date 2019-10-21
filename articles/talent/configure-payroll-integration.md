@@ -1,6 +1,6 @@
 ---
 title: 配置 Talent 与 Dayforce 之间的工资单集成
-description: 本主题说明如何配置 Microsoft Dynamics 365 for Talent 与 Ceridian Dayforce 之间的集成，以便处理付薪。
+description: 本主题说明如何配置 Microsoft Dynamics 365 Talent 与 Ceridian Dayforce 之间的集成，以便处理付薪。
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/24/2019
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c26dfed9909b0dbd05fc18c206e5adc947feaef5
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ec1d14cb14ab709dfc1bead4be0785904efcce4e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742900"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251031"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>配置 Talent 和 Dayforce 之间的工资单集成
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent 与 Ceridian Dayforce 之间的集成依赖于本主题中介绍的几个配置步骤。 必须先在 Talent 和 Dayforce 中配置集成，才能处理付薪。
+Microsoft Dynamics 365 Talent 与 Ceridian Dayforce 之间的集成依赖于本主题中介绍的几个配置步骤。 必须先在 Talent 和 Dayforce 中配置集成，才能处理付薪。
 
 使用 Dayforce 之类服务完成付薪时，必须在 Talent 中启用集成。 此集成需要来自 Talent 的特定数据。 因此，必须验证已按照支持集成的方式在 Talent 中配置了映射到 Dayforce 的数据。 此集成使用下面的各种数据类别：
 
@@ -39,7 +39,7 @@ Microsoft Dynamics 365 for Talent 与 Ceridian Dayforce 之间的集成依赖于
 
 ## <a name="enable-the-integration"></a>启用集成
 
-在 Talent 中，必须开启集成并输入配置信息，才能连接到 Dayforce。 如果要将生成的的总帐交易记录导入 Microsoft Dynamics 365 for Finance and Operations 中，还必须在 Finance and Operations 只不过设置 Microsoft Azure 存储帐户和输入 Azure Storage 连接字符串。
+在 Talent 中，必须开启集成并输入配置信息，才能连接到 Dayforce。 如果要将生成的总帐交易记录导入 Microsoft Dynamics 365 Finance 中，还必须在 Finance 中设置 Microsoft Azure 存储帐户和输入 Azure Storage 连接字符串。
 
 要在 Talent 中开启集成，请执行以下步骤。
 

@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a9e05fd2a08921d2718fc239afd56a957f80915
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 7476cf797685feb4c50e3cefef4c53ca37b82dff
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865104"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251400"
 ---
 # <a name="warehouse-work-policies-overview"></a>仓库工作策略概览
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations 中的仓库工作策略控制是否通过仓库流程在制造中基于工作订单类型、库存库位和产品创建仓库工作。
+仓库工作策略控制是否通过仓库流程在制造中基于工作订单类型、库存库位和产品创建仓库工作。
 
 此工作策略控制是否为生产中的仓库流程创建仓库工作。 您可以使用**工作订单类型**、**库存库位**和**产品**组合设置工作策略。 例如，产品 L0101 报告为完工入库到输出库位 001。 成品稍后将在输出库位 001 的另一个生产订单中使用。 在这种情况下，您可以设置工作策略，阻止在您将产品 L0101 报告为完工入库到输出库位 001 时创建产品储存的工作。 工作策略是可以通过以下信息描述的单个实体：
 

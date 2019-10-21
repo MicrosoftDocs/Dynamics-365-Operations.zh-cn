@@ -1,6 +1,6 @@
 ---
 title: 销售点 (POS) 的屏幕布局
-description: 此主题提供有关 Microsoft Dynamics 365 for Retail 销售点 (POS) 体验的屏幕布局的信息。
+description: 此主题提供有关 Dynamics 365 Retail 销售点 (POS) 体验的屏幕布局的信息。
 author: jblucher
 manager: AnnBe
 ms.date: 05/20/2019
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1607026"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025257"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>销售点 (POS) 的屏幕布局
 
 [!include [banner](includes/banner.md)]
 
-此主题提供有关 Microsoft Dynamics 365 for Retail 销售点 (POS) 体验的屏幕布局的信息。
+此主题提供有关 Dynamics 365 Retail 销售点 (POS) 体验的屏幕布局的信息。
 
 可使用为商店、收银机和/或用户分配的视觉配置文件和屏幕布局，配置 Retail POS 用户界面 (UI)。
 
@@ -50,7 +50,7 @@ ms.locfileid: "1607026"
 - **描述** - 您可以指定有意义的名称，帮助确定适合您的情况的配置文件。
 - **主题** – 您可以在“浅色”和“深色”两种应用程序主题之间选择。 主题影响整个应用程序中的字体和背景色。
 - **个性色** – 个性色在整个 POS 中用于区分或突出显示特定视觉元素，如标题、命令按钮和超链接。 这些元素通常可操作。
-- **标题颜色** – 您可以配置页标题的颜色，以便满足零售商的品牌需要。 只有 Microsoft Dynamics 365 for Retail 版本 1611 中才有此功能。
+- **标题颜色** – 您可以配置页标题的颜色，以便满足零售商的品牌需要。 只有 Retail 版本 1611 中才有此功能。
 - **显示日期/时间** – 启用后，POS 标题中将显示当前日期和时间。
 - **登录背景** – 您可以为登录屏幕指定背景图像。 背景图像的文件大小应尽量小，因为存储和加载大型文件可能影响应用程序的行为和性能。
 - **应用程序背景** – 您可以指定整个应用程序中使用的背景图像来代替纯色主题色。 至于登录背景，文件大小应该尽量小。

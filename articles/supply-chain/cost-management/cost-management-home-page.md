@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557631"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249624"
 ---
 # <a name="cost-management-home-page"></a>成本管理主页
 
@@ -69,5 +69,5 @@ ms.locfileid: "1557631"
 您可以在 [Dynamics AX 制造研发团队博客](https://blogs.msdn.microsoft.com/axmfg)和 [Dynamics AX 研发团队中的 Supply Chain Management 博客](https://blogs.msdn.microsoft.com/dynamicsaxscm)中找到有关成本管理的建议、新闻和其他信息。 尽管一些文章是针对成本管理的旧版本编写的，但相同的概念仍适用，并且过程在当前版本中也是相似的。
 
 #### <a name="task-guides"></a>任务指南
-其他帮助在 Finance and Operations 中作为任务指南提供。 若要访问任务指南，请单击任何页面上的“帮助”按钮。
+其他帮助作为任务指南提供。 若要访问任务指南，请单击任何页面上的“帮助”按钮。
 

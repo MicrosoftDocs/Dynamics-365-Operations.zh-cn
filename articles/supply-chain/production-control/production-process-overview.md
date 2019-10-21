@@ -3,7 +3,7 @@ title: 生产流程概览
 description: 本主题提供生产流程的概览。 其中介绍生产订单、批次订单和看板的不同阶段，从订单创建到关闭财务期间。
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd529afa5d8117e01784ed267709e1ac8c43290d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5b586a02d79fbbee698f32ab2ace3f86e7262fa7
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546655"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250002"
 ---
 # <a name="production-process-overview"></a>生产流程概览
 
@@ -36,12 +36,12 @@ ms.locfileid: "1546655"
 
 **生产控制**模块与其他模块相关联，例如**产品信息管理**、**库存管理**、**总帐**、**仓库管理**、**项目会计**和**组织管理**。 这一集成支持完成成品制造所需的信息流。  
 
-生产流程通常受为特定生产流程选择的成本核算和库存估价方法影响。 Finance and Operations 支持实际成本（先进先出 \[FIFO\]；后进先出 \[LIFO\]；移动平均；和定期加权平均）和标准成本方法。 lean manufacturing 基于倒冲成本计算法原则实施。  
+生产流程通常受为特定生产流程选择的成本核算和库存估价方法影响。 Supply Chain Management 支持实际成本（先进先出 \[FIFO\]；后进先出 \[LIFO\]；移动平均；和定期加权平均）和标准成本方法。 lean manufacturing 基于倒冲成本计算法原则实施。  
 
 成本度量方法的选择也定义在生产流程期间报告有关材料和资源消耗的需求。 通常，实际成本方法要求作业级别的准确报告，而定期成本计算方法允许材料和资源消耗报告相对粗略。
 
 ## <a name="mixed-mode-manufacturing"></a>混合模式制造
-不同的产品和生产拓扑要求应用不同的订单类型。 Finance and Operations 可以在混合模式中应用各种订单类型。 换言之，所有订单类型可以在生产一件成品的端到端流程期间发生。
+不同的产品和生产拓扑要求应用不同的订单类型。 Supply Chain Management 可以在混合模式中应用各种订单类型。 换言之，所有订单类型可以在生产一件成品的端到端流程期间发生。
 
 -   **生产订单** – 这是在特定日期生产指定数量的特定产品或产品变型的经典订单类型。 生产订单基于物料清单 (BOM) 和工艺路线。
 -   **批次订单** – 此订单类型用于处理工业和离散流程，在其中，制造换算基于公式，或联产品和副产品可以是终产品，是或不是主产品。 批次订单使用**公式**类型物料清单和工艺路线。

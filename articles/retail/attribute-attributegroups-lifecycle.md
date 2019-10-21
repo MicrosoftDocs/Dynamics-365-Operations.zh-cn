@@ -19,18 +19,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c642e4f1b29ac21b6736e770c84f343e9265961d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606887"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023628"
 ---
 # <a name="attributes-and-attribute-groups"></a>属性和属性组
 
 [!include [banner](includes/banner.md)]
 
-可通过*属性*和用户定义的字段（**如内存大小**、**硬盘容量**、**符合能源之星的要求**等）进一步描述产品及其特征。 在 Microsoft Dynamics 365 for Finance and Operations 中，可以将属性与各种零售实体（如产品类别和零售通道）关联，并且可以为属性设置默认值。 当产品与产品类别或销售渠道关联时，产品将继承属性及默认值。 默认值可在单个产品级别、在零售渠道级别或在零售目录中覆盖。
+可通过*属性*和用户定义的字段（**如内存大小**、**硬盘容量**、**符合能源之星的要求**等）进一步描述产品及其特征。 可以将属性与各种零售实体（如产品类别和零售通道）关联，并且可以为属性设置默认值。 当产品与产品类别或销售渠道关联时，产品将继承属性及默认值。 默认值可在单个产品级别、在零售渠道级别或在零售目录中覆盖。
+
 
 例如，电视机产品通常具有以下属性。
 
@@ -53,7 +54,7 @@ ms.locfileid: "1606887"
 
 ## <a name="attributes-and-attribute-types"></a>属性和属性类型
 
-属性基于*属性类型*。 特性类型标识可为特定于特性输入数据的类型。 Finance and Operations 目前支持以下属性类型：
+属性基于*属性类型*。 特性类型标识可为特定于特性输入数据的类型。 支持以下属性类型：
 
 - **货币** - 此类型支持货币值。 它可以受约束（即，它可以支持某个值范围），也可以保持开放。
 - **日期时间** - 此类型支持日期和时间值。 它可以有范围，也可以保持开放。
@@ -63,9 +64,9 @@ ms.locfileid: "1606887"
 - **布尔** - 此类型支持二进制值（**true** 或 **false**）。
 - **引用** - 此类型引用其他属性。
 
-### <a name="set-up-attribute-types-in-finance-and-operations"></a>在 Finance and Operations 中设置属性类型
+### <a name="set-up-attribute-types"></a>设置属性类型
 
-1. 以零售促销经理的身份登录 Finance and Operations 后端办公客户端。
+1. 以零售促销经理的身份登录后端办公客户端。
 2. 转到**产品信息管理** &gt; **设置** &gt; **类别和属性** &gt; **属性类型**。
 3. 创建**文本**类型的两个属性类型，将**固定列表**选项设置为**是**，然后添加一列值：
 
@@ -74,7 +75,7 @@ ms.locfileid: "1606887"
 
 ![属性类型](media/AttributeType.png)
 
-### <a name="set-up-an-attribute-in-finance-and-operations"></a>在 Finance and Operations 中设置属性
+### <a name="set-up-an-attribute"></a>设置属性
 
 1. 以零售促销经理的身份登录后端办公客户端。
 2. 转到**产品信息管理** &gt; **设置** &gt; **类别和属性** &gt; **属性**。
@@ -101,13 +102,13 @@ ms.locfileid: "1606887"
 - 忽略大小写和格式
 - 完成匹配
 
-这些选项最初用于改进联机店面的搜索功能。 尽管 Finance and Operations 中不包含现成的联机店面，却的确包含电子商务发布软件开发包 (SDK)。 客户可使用此 SDK 将产品放入所选搜索索引中。 尽管导入了产品数据，客户仍然应该可以区分可搜索数据、可查询的数据等。 这样他们就可以构建最佳索引以确保仅为*他们认为*应该建立索引的属性建立索引。
+这些选项最初用于改进联机店面的搜索功能。 尽管 Retail 中不包含现成的联机店面，却的确包含电子商务发布软件开发包 (SDK)。 客户可使用此 SDK 将产品放入所选搜索索引中。 尽管导入了产品数据，客户仍然应该可以区分可搜索数据、可查询的数据等。 这样他们就可以构建最佳索引以确保仅为*他们认为*应该建立索引的属性建立索引。
 
 有关其余这些选项的用途信息，请参阅 [SharePoint Server 2013 中的搜索架构概述](https://technet.microsoft.com/library/jj219669.aspx)。
 
 ## <a name="filter-settings-for-attributes"></a>属性的筛选设置
 
-可通过属性的筛选器设置定义属性的筛选器如何在零售 POS 中显示。 若要访问属性的筛选器设置，请在 Finance and Operations 中的**属性**页面上选择属性，然后在操作窗格中选择**筛选器设置**。
+可通过属性的筛选器设置定义属性的筛选器如何在零售 POS 中显示。 若要访问属性的筛选器设置，请在的**属性**页面上选择属性，然后在操作窗格中选择**筛选器设置**。
 
 **筛选器显示首选项**页面中包含以下字段：
 
@@ -233,7 +234,7 @@ ms.locfileid: "1606887"
     - 渠道产品属性
 
     > [!NOTE]
-    > 如果在 Finance and Operations 中创建共享产品介质和共享产品属性，它们将应用于所有零售产品。
+    > 如果创建共享产品介质和共享产品属性，它们将应用于所有零售产品。
 
 ![目录产品属性组](media/CatalogProdAttrValues.png)
 
@@ -255,4 +256,4 @@ ms.locfileid: "1606887"
     - 渠道产品属性
 
     > [!NOTE]
-    > 如果在 Finance and Operations 中创建共享产品介质和共享产品属性，它们将应用于所有零售产品。
+    > 如果创建共享产品介质和共享产品属性，它们将应用于所有零售产品。

@@ -1,6 +1,6 @@
 ---
-title: 欢迎使用 Dynamics 365 for Retail
-description: Dynamics 365 for Retail 的主页
+title: Dynamics 365 Retail 的帮助资源
+description: Dynamics 365 Retail 的主页
 author: josaw1
 manager: AnnBe
 ms.date: 08/14/2019
@@ -18,23 +18,26 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
-ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
+ms.openlocfilehash: 57d3b66e7ebc5a8a6e2ddda9135e27cd24535365
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "1874919"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278098"
 ---
-# <a name="welcome-to-dynamics-365-for-retail"></a>欢迎使用 Dynamics 365 for Retail
+# <a name="help-resources-for-dynamics-365-retail"></a>Dynamics 365 Retail 的帮助资源
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail 是一个端到端零售解决方案，提供跨所有渠道的统一商务。 其中包括销售、移动性、智能和工作效率解决方案，帮助零售商和工作人员以云优先和移动优先的方式实现更多目标。 Retail 为实施各类业务流程提供全面的支持，如促销活动、库存和渠道管理功能。 它还跨所有接触点提供沉浸式客户体验。
-
-> [!NOTE]
-> Dynamics 365 for Retail 与 Dynamics 365 for Finance and Operations 和 Dynamics 365 for Talent 紧密相关。 这三种产品的功能可能存在重合。 因此，在主要与 Retail 有关的主题中，产品名称将为 Microsoft Dynamics 365 for Retail；在主要与核心产品 (Finance and Operations) 有关的主题中，产品名称将为 Microsoft Dynamics 365 for Finance and Operations；在主要与人力资源有关的主题中，产品名称将为 Dynamics 365 for Talent。
+Microsoft Dynamics 365 Retail 是一个端到端零售解决方案，提供跨所有渠道的统一商务。 其中包括销售、移动性、智能和工作效率解决方案，帮助零售商和工作人员以云优先和移动优先的方式实现更多目标。 Retail 为实施各类业务流程提供全面的支持，如促销活动、库存和渠道管理功能。 它还跨所有接触点提供沉浸式客户体验。
 
 在左侧窗格中，选择一个功能区域以了解有关它的更多信息。
+
+## <a name="dynamics-365-commerce-preview"></a>Dynamics 365 Commerce（预览版）
+
+Dynamics 365 Commerce - 基于经实践检验的 Dynamics 365 Retail 功能构建 - 提供统一后勤办公室、商店、呼叫中心和数字体验的综合性全渠道解决方案。 Commerce 现在已对预览客户发布。 现有的 Dynamics 365 Retail 客户在 Commerce 公开发布后将能够进行更新。
+
+有关 Dynamics 365 Commerce 的详细信息，请转到 [Dynamics 365 Commerce 的帮助资源](../commerce/index.md)页面。
 
 ## <a name="channel-management"></a>渠道管理
 
@@ -78,8 +81,8 @@ MPOS 是适用于 PC、平板电脑和手机的 POS 应用。 销售人员可在
 
 如果您需要自定义您的环境，或者您负责部署和维护系统，则除一些更常规的内容外，请务必查看特定于 Retail 的开发人员和系统管理员内容。
 
-- [面向 IT 专业人员和开发人员的 Dynamics 365 for Retail](dev-itpro/dev-retail-home-page.md)
-- [Dynamics 365 for Finance and Operations 的开发和管理](../dev-itpro/dev-tools/developer-home-page.md)
+- [面向 IT 专业人员和开发人员的 Dynamics 365 Retail](dev-itpro/dev-retail-home-page.md)
+- [Dynamics 365 Finance 的开发和管理](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>其他资源
 

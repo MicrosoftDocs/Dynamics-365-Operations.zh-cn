@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent Core HR（2018 年 12 月 14 日）中的新增功能或更改
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新增功能和更改的功能。
+title: Dynamics 365 Talent - Core HR（2018 年 12 月 14 日）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 Talent - Core HR 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 36eb5722a7bd98c404fb6c8f5bde407ab38ec28d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517407"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024014"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Dynamics 365 for Talent Core HR（2018 年 12 月 14 日）中的新增功能或更改
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-14-2018"></a>Dynamics 365 Talent: Core HR（2018 年 12 月 14 日）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
@@ -94,9 +94,9 @@ ms.locfileid: "1517407"
 
 ## <a name="known-issue"></a>已知问题
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Finance and Operations 集成中的映射错误
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Finance 集成中的映射错误
 
-以下问题已在用于将 Talent 与 Dynamics 365 for Finance and Operations 集成的当前模板中发现。 新模板将很快发布并应用到创建的所有新集成项目中。 对于现有的集成项目，可以更新任务映射。 请参阅下表了解更新的映射。 
+以下问题已在用于将 Talent 与 Dynamics 365 Finance 集成的当前模板中发现。 新模板将很快发布并应用到创建的所有新集成项目中。 对于现有的集成项目，可以更新任务映射。 请参阅下表了解更新的映射。 
 
 >[!NOTE]
 > “职位到职位父作业分配”任务不集成数据。 这是当前正在研究的问题。 当前映射没有解决方法。 

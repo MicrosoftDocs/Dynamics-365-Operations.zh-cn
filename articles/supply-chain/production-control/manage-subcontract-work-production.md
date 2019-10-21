@@ -1,6 +1,6 @@
 ---
 title: 管理生产中的转包工作
-description: 此主题说明如何在 Microsoft Dynamics 365 for Finance and Operations 中管理已转包工序。 换言之，说明供应商如何管理分配给资源的生产工序。
+description: 此主题说明如何在 Dynamics 365 Supply Chain Management 中管理已转包工序。 换言之，说明供应商如何管理分配给资源的生产工序。
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ea2feccf9f74c0f035b8a46dc87eb41bdf85900a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569745"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023533"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>管理生产中的转包工作
 
 [!include [banner](../includes/banner.md)]
 
-此主题说明如何在 Microsoft Dynamics 365 for Finance and Operations 中管理已转包工序。 换言之，说明供应商如何管理分配给资源的生产工序。
+此主题说明如何在 Dynamics 365 Supply Chain Management 中管理已转包工序。 换言之，说明供应商如何管理分配给资源的生产工序。
 
 在[生产流程](production-process-overview.md)中，可以由供应商拥有或管理的资源完成工作。 通常，供应商资源用于平衡超过了公司自身资源可用产能的定期超额需求。 供应商还可以以较低的价格提供特定[资源产能](resource-capabilities.md)或资源。  
 
@@ -40,7 +40,7 @@ ms.locfileid: "1569745"
 
 对于内部资源，通常分配一个期间的固定成本率。 比较而言，已转包资源的成本基于相关服务的采购价。 服务定义为另一件产品，用于推动指定的已转包工序的采购流程。  
 
-目前，Microsoft Dynamics 365 for Finance and Operations 中没有明确的半成品概念。 对于需要多道工序以将原料转化为成品的生产订单，产品将仅在最后一道工序中过帐回库存。 早期工序生成的半成品计入在制品 (WIP)，但不在库存中过帐或跟踪。 尽管可以将工艺路线和物料清单 (BOMs) 拆分为多个小单元，此方法却会增加必须管理的产品、物料清单和工艺路线的数量。  
+目前，Supply Chain Management 中没有明确的半成品概念。 对于需要多道工序以将原料转化为成品的生产订单，产品将仅在最后一道工序中过帐回库存。 早期工序生成的半成品计入在制品 (WIP)，但不在库存中过帐或跟踪。 尽管可以将工艺路线和物料清单 (BOMs) 拆分为多个小单元，此方法却会增加必须管理的产品、物料清单和工艺路线的数量。  
 
 可通过两种方法为生产工序的转包工作建模。 这些方法的不同之处在于：为转包流程的建模方式、半成品在流程中的表示方式，以及成本的控制方式。
 

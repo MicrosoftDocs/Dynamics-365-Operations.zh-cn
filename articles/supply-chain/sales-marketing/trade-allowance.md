@@ -1,6 +1,6 @@
 ---
 title: 贸易折让管理
-description: 此主题介绍 Microsoft Dynamics 365 for Finance and Operations 的贸易折让管理。
+description: 此主题介绍 Dynamics 365 Supply Chain Management 的贸易折让管理。
 author: t-benebo
 manager: AnnBe
 ms.date: 08/17/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 550815c5c3fc9a24ec8b67f2a340e0553eef072d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 623c25490964ccdf6abc37acaffee7ac0844cf39
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843325"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251147"
 ---
 # <a name="trade-allowance-management"></a>贸易折让管理
 

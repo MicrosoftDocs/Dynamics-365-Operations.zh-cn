@@ -1,6 +1,6 @@
 ---
 title: 设置呼叫中心渠道
-description: 本主题提供有关如何使用 Microsoft Dynamics 365 for Retail 来处理呼叫中心的订单的信息。
+description: 本主题提供有关如何使用 Dynamics 365 Retail 来处理呼叫中心的订单的信息。
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549351"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024813"
 ---
 # <a name="set-up-call-center-channels"></a>设置呼叫中心渠道
 
 [!include [banner](includes/banner.md)]
 
-一家公司可在 Microsoft Dynamics 365 for Retail 中定义多个呼叫中心渠道。 呼叫中心渠道在 **Retail** \> **渠道** \> **呼叫中心** \> **所有呼叫中心**中配置，并特定于法人。
+一家公司可在 Dynamics 365 Retail 中定义多个呼叫中心渠道。 呼叫中心渠道在 **Retail** \> **渠道** \> **呼叫中心** \> **所有呼叫中心**中配置，并特定于法人。
 
 创建新的呼叫中心渠道之后，系统将自动为其分配运营单位编号。 由于呼叫中心创建为运营单位，所以用户可将呼叫中心渠道链接至各种 Retail 功能，如分类、目录和特定交货方式。
 
@@ -76,6 +76,8 @@ ms.locfileid: "1549351"
 
 默认情况下，将在销售订单头上为呼叫中心用户创建的所有订单开启**零售**标志。 然后，这些订单可利用系统的零售特定价格和促销功能。
 
-未链接到呼叫中心渠道的用户则使用 Microsoft Dynamics 365 for Finance and Operations 的标准订单录入功能。 系统将不会把这些用户通过销售订单录入窗体输入的订单识别为 Retail 订单。 此外，这些用户输入的这些订单将不应用任何订单完成处理规则、零售定价逻辑，或可在呼叫中心渠道配置或呼叫中心系统参数中定义的其他订单验证。
+
+未链接到呼叫中心渠道的用户则使用 Microsoft Dynamics 365 Finance 的标准订单录入功能。 系统将不会把这些用户通过销售订单录入窗体输入的订单识别为 Retail 订单。 此外，这些用户输入的这些订单将不应用任何订单完成处理规则、零售定价逻辑，或可在呼叫中心渠道配置或呼叫中心系统参数中定义的其他订单验证。
+
 
 完成呼叫中心渠道配置和渠道用户定义之后，要帮助确保所需系统行为，请务必在 **Retail** \> **渠道设置** \> **呼叫中心设置** \> **呼叫中心参数**中定义所有必需的呼叫中心参数。 请确保还定义相关编号规则。

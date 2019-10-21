@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent Core HR（2018 年 9 月 17 日）中的新增功能或更改
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新增功能和更改的功能。
+title: Dynamics 365 Talent - Core HR（2018 年 9 月 17 日）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 Talent - Core HR 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/17/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 213324f9074f88d9fdc8efdfa46bc3ed7817d1e8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 558c2cdb4addce54af937ff862535d65f1ebd602
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517452"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026007"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a>Dynamics 365 for Talent Core HR（2018 年 9 月 17 日）中的新增功能或更改
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-september-17-2018"></a>Dynamics 365 Talent: Core HR（2018 年 9 月 17 日）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
@@ -37,13 +37,13 @@ ms.locfileid: "1517452"
 
 已向休假计划添加了一种新的累积类型。 累积计划现在可以基于服务月数或工作时数。 有关详细信息，请参阅 [根据工作时数累积休假时间](leave-accrue-hours-worked.md)。
 
-## <a name="platform-update-18"></a>平台 update 18
+## <a name="platform-update-18-for-finance-and-operations"></a>Finance and Operations 的平台更新 18
 
-平台更新 18 现在是 Talent 版本的一部分。 
+Finance and Operations 的平台更新 18 现在是 Talent 版本的一部分。 
 
 -   可通过个性化设置隐藏必填字段和其他字段。 这样用户就可以通过不显示缺省采用业务逻辑提供的值的字段来简化体验。 如果保存时隐藏的必填字段为空，也可以暂时将其显示。
 
--   在平台更新 18 中，Talent Web 客户端的视觉对象现在与 Microsoft Fluent Design 风格统一。
+-   在 Finance and Operations 的平台更新 18 中，Talent Web 客户端的视觉对象现在与 Microsoft Fluent Design 风格统一。
 
     -   字段处于“读取模式”时，只需选择字段中的编辑选项即可将窗体切换为编辑。
 

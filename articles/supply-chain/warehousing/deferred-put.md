@@ -1,6 +1,6 @@
 ---
 title: 推迟处理仓库工作
-description: 本主题介绍 Microsoft Dynamics 365 for Finance and Operations 中提供的用于将推迟处理仓库工作转化为放置操作的功能。
+description: 本主题介绍 Dynamics 365 Supply Chain Management 中提供的用于将推迟处理仓库工作转化为放置操作的功能。
 author: josaw1
 manager: AnnBe
 ms.date: 06/17/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4905084f9bc28e55c307921280733c6acb80db86
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863578"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026905"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>推迟处理仓库工作
 
@@ -29,7 +29,8 @@ ms.locfileid: "1863578"
 
 [!include [banner](../includes/pivate-preview-banner.md)]
 
-本主题介绍 Microsoft Dynamics 365 for Finance and Operations 中提供的用于将推迟处理仓库工作转化为放置操作的功能。
+本主题介绍 Dynamics 365 Supply Chain Management 中提供的用于将推迟处理仓库工作转化为放置操作的功能。
+
 
 推迟处理功能让仓库工人可以在后台处理放置操作期间继续执行其他工作。 当必须处理大量工作行，并且工人可以异步处理这些工作时，推迟处理非常有用。 当服务器的处理时间临时或意外增加，并且增加的处理时间可能影响用户的生产率时，此功能也非常有用。
 

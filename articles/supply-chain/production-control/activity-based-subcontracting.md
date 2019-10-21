@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 35ec47a13d9119c755702e019d09c76e1281b4a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549305"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250191"
 ---
 # <a name="activity-based-subcontracting"></a>基于活动的转包
 
@@ -32,7 +32,7 @@ ms.locfileid: "1549305"
 
 此主题介绍如何在用于 lean manufacturing 的生产流中使用已转包活动。
 
-在 Microsoft Dynamics 365 for Finance and Operations 中，可通过两种方法转包生产订单和 lean manufacturing。 在 lean manufacturing 方法中，转包工作建模为与生产流活动有关的服务。 已引入了名称为**直接外包**的一种特殊类型的成本组类型，并且转包服务不再属于物料清单 (BOM)。 转包工作的成本核算已完全集成到 lean manufacturing 的成本计算解决方案。
+在 Microsoft Dynamics 365 Supply Chain Management 中，可通过两种方法转包生产订单和 lean manufacturing。 在 lean manufacturing 方法中，转包工作建模为与生产流活动有关的服务。 已引入了名称为**直接外包**的一种特殊类型的成本组类型，并且转包服务不再属于物料清单 (BOM)。 转包工作的成本核算已完全集成到 lean manufacturing 的成本计算解决方案。
 
 ## <a name="production-flows-that-involve-subcontractors"></a>涉及转包商的生产流
 生产流的基本原则是转包活动时生产流不改变。 物料仍然在位置之间流转，处理活动将物料转换为产品，而运输活动则将物料或产品从一个位置转移到另一个位置。 可以通过为仓库或资源组的资源分配供应商帐户，将位置和工作单元建模为供应商所管。  
@@ -102,7 +102,7 @@ ms.locfileid: "1549305"
 
 可通过 lean manufacturing 中基于活动的转包集成在生产流的位置之间运输物料和产品的承运人和运输供应商。 通过为运输活动建模，可以分配承运人或供应商。 运输活动/作业基于服务和采购协议，而您可以基于实际运输作业创建采购订单和收货公告。 此功能与已转包流程活动的功能相同。  
 
-因此，Finance and Operations 现在支持包含运输服务的物料清单计算、创建相关采购订单、集成收货登记和将运输服务成本集成到生产流成本计算中。
+Supply Chain Management 现在支持包含运输服务的物料清单计算、创建相关采购订单、集成收货登记和将运输服务成本集成到生产流成本计算中。
 
 
 

@@ -3,7 +3,7 @@ title: 维护安排
 description: 本主题介绍资产管理中的维护安排。
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 780b633af04c38705f8321d19924f3802b2d5c67
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: af2152b334b51db48b60aa966ab49bf480c29bbc
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875525"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922129"
 ---
 # <a name="maintenance-schedule"></a>维护安排
 

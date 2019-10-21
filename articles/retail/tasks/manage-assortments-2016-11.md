@@ -17,18 +17,19 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f96c79558c3248406a1b5988f9c9dc9783db4406
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 099c1d97db97659d55070b1058f3e0b5b44df107
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564336"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024721"
 ---
 # <a name="manage-assortments-november-2016"></a>管理分类（2016 年 11 月）
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-此过程演示如何创建和发布新产品分类，并使用演示数据公司 USRT。 此过程需要 Dynamics AX 应用程序 7.0.1 或更高版本，以及 Dynamics AX 平台 7.1。  
+此过程演示如何创建和发布新产品分类，并使用演示数据公司 USRT。 
+
 
 1. 单击“类别和产品管理”。
 

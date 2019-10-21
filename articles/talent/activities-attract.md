@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 for Talent - Attract 中的流程中的活动
-description: 本主题提供有关可在 Microsoft Dynamics 365 for Talent - Attract 中的招聘流程中使用的各类活动的信息.
+title: Microsoft Dynamics 365 Talent - Attract 中的流程中的活动
+description: 本主题提供有关可在 Microsoft Dynamics 365 Talent - Attract 中的招聘流程中使用的各类活动的信息。
 author: hasrivas
 manager: AnnBe
 ms.date: 05/28/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 2e40250bb801f6222d16400b2698e5b0df47a404
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739699"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008677"
 ---
 # <a name="activities-in-hiring-processes"></a>招聘流程中的活动
 
 [!include[banner](../includes/banner.md)]
 
-活动可以在 Microsoft Dynamics 365 for Talent: Attract 中作为招聘流程的一部分添加。 活动可以添加到流程模板，或者它们可以直接添加到工作中的招聘流程。 当定义工作后，会选择流程模板，模板中包含的活动将应用到工作。 如果模板没有选择，则使用默认模板。 招聘流程也可以在应用模板后在工作上修改。
+活动可以在 Microsoft Dynamics 365 Talent: Attract 中作为招聘流程的一部分添加。 活动可以添加到流程模板，或者它们可以直接添加到工作中的招聘流程。 当定义工作后，会选择流程模板，模板中包含的活动将应用到工作。 如果模板没有选择，则使用默认模板。 招聘流程也可以在应用模板后在工作上修改。
 
 > [!NOTE] 
 > 流程模板随综合招聘附件提供。 有关详细信息，请参阅 [Attract 综合招聘加载项功能](./attract-comprehensive-hiring.md)。

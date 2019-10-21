@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b7f5d61ade071e75d53d5036a47fea438d8afbe6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561250"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249417"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>采购订单审核移动工作区
 
@@ -35,13 +35,13 @@ ms.locfileid: "1561250"
 ## <a name="overview"></a>概览 
 要求审核的采购订单通过审核工作流。 工作流可能包括要求一个或多个人员采取操作的不同步骤。 例如，人员可能必须完成任务或审核采购订单。 
 
-**采购订单审核**移动工作区能让您轻松地从移动设备查看和响应采购订单。 此工作区还可以让您执行可从 Microsoft Dynamics 365 for Finance and Operations 客户端执行的相同工作流操作。
+**采购订单审核**移动工作区能让您轻松地从移动设备查看和响应采购订单。 此工作区还可以让您执行可从客户端执行的相同工作流操作。
 
 ## <a name="prerequisites"></a>先决条件
-先决条件根据为您的组织部署的 Finance and Operations 版本不同。
+先决条件根据为您的组织部署的 Supply Chain Management 版本不同。
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>使用 Microsoft Dynamics 365 for Finance and Operations 的先决条件 
-如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations，系统管理员必须发布**采购订单审核**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>使用 Supply Chain Management 时的先决条件 
+如果已经为您的组织部署 Finance and Operations，系统管理员必须发布**采购订单审核**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611 时的先决条件
 如果已经为您的组织部署带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611，系统管理员必须完成以下先决条件。 
@@ -75,7 +75,7 @@ ms.locfileid: "1561250"
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
-下载并安装 Microsoft Dynamics 365 for Unified Operations mobile 应用：
+下载并安装 Finance and Operations 移动应用程序：
 
 - [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 - [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

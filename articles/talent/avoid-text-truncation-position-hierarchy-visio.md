@@ -1,6 +1,6 @@
 ---
 title: 避免职位层次结构和导出到 Visio 时的文本截断
-description: 本主题说明如何解决当客户在 Microsoft Dynamics 365 for Talent 中查看职位层次结构时出现个人和职位名称截断的问题。 文本截断可能使拍摄屏幕快照或打印层次结构很困难。
+description: 本主题说明如何解决当客户在 Microsoft Dynamics 365 Talent 中查看职位层次结构时出现个人和职位名称截断的问题。 文本截断可能使拍摄屏幕快照或打印层次结构很困难。
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 07a972bc1c6dd4076932248edb314992cb7297e5
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: e151818f29ac37ff449daaf1dc02e44b8fb317c3
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741813"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008492"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>避免职位层次结构和导出到 Visio 时的文本截断
 
@@ -30,7 +30,7 @@ ms.locfileid: "1741813"
 
 **发货**
 
-当客户在 Microsoft Dynamics 365 for Talent 中查看职位层次结构时，个人和职位名称截断。 因此，可能很难拍摄屏幕快照，或打印和分配层次结构。
+当客户在 Microsoft Dynamics 365 Talent 中查看职位层次结构时，个人和职位名称截断。 因此，可能很难拍摄屏幕快照，或打印和分配层次结构。
 
 ![职位层次结构](media/position-h.png)
 

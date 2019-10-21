@@ -1,6 +1,6 @@
 ---
 title: 在 Retail Modern POS (MPOS) 和 Cloud POS 之间选择
-description: 本主题说明 Retail Modern POS 和 Cloud POS 之间的主要差别。 它还描述实现 Microsoft Dynamics 365 for Retail 的零售商应考虑的以帮助他们作出满足自己要求的最佳选择的各个因素。
+description: 本主题说明 Retail Modern POS 和 Cloud POS 之间的主要差别。 它还描述实现 Dynamics 365 Retail 的零售商应考虑的以帮助他们作出满足自己要求的最佳选择的各个因素。
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 69cf6d2b7a9bb09a848f2a0c870f5e7e59c61e91
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557006"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025901"
 ---
 # <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>在 Retail Modern POS (MPOS) 和 Cloud POS 之间选择
 
 [!include [banner](includes/banner.md)]
 
-此主题为实施人员提供在部署 Microsoft Dynamics 365 for Retail 时应该考虑的因素的其他背景、建议和指南。 通过查看并在部署过程中遵循此指导，实施人员可以避免可能会影响用户满意度或性能的问题。
+此主题为实施人员提供在部署 Dynamics 365 Retail 时应该考虑的因素的其他背景、建议和指南。 通过查看并在部署过程中遵循此指导，实施人员可以避免可能会影响用户满意度或性能的问题。
 
 ## <a name="insights"></a>洞察力
 

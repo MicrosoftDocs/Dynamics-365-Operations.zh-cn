@@ -1,6 +1,6 @@
 ---
 title: 零售交易记录一致性检查器
-description: 本主题将介绍 Microsoft Dynamics 365 for Retail 中的零售交易记录一致性检查器功能。
+description: 本主题将介绍 Dynamics 365 Retail 中的零售交易记录一致性检查器功能。
 author: josaw1
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790413"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018405"
 ---
 # <a name="retail-transaction-consistency-checker"></a>零售交易记录一致性检查器
 
@@ -31,9 +31,9 @@ ms.locfileid: "1790413"
 [!include [banner](includes/banner.md)]
 [!include [preview banner](includes/preview-banner.md)]
 
-本主题将介绍 Microsoft Dynamics 365 for Finance and Operations 版本 8.1.3 中推出的零售交易记录一致性检查器功能。 一致性检查器在对帐单过帐流程选择交易记录之前标识和隔离不一致的交易记录。
+本主题将介绍零售交易记录一致性检查器功能。 一致性检查器在对帐单过帐流程选择交易记录之前标识和隔离不一致的交易记录。
 
-在 Microsoft Dynamics 365 for Retail 中过帐对帐单时，过帐会由于零售交易记录表中存在不一致的数据而失败。 导致数据问题可能是由于销售点 (POS) 应用程序中不可预料的问题，或者如果从第三方 POS 系统未正确导入交易记录。 这些不一致可能的显示方式包括： 
+在 Retail 中过帐对帐单时，过帐会由于零售交易记录表中存在不一致的数据而失败。 导致数据问题可能是由于销售点 (POS) 应用程序中不可预料的问题，或者如果从第三方 POS 系统未正确导入交易记录。 这些不一致可能的显示方式包括： 
 
 - 标题表中的交易记录总计与行中的交易记录总计不匹配。
 - 标题表中的行计数与交易记录表中的行数不匹配。

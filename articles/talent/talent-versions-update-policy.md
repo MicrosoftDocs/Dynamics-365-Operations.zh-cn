@@ -1,6 +1,6 @@
 ---
 title: Talent 系统要求和更新策略
-description: 此主题列出了 Dynamics 365 for Talent 的要求。 另外，还概述了更新策略。
+description: 此主题列出了 Dynamics 365 Talent 的要求。 另外，还概述了更新策略。
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/02/2019
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6c881bf25e7145228ccf7ef73a7ef3637c115a49
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741767"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024152"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Talent 系统要求和更新策略
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍 Microsoft Dynamics 365 for Talent（包括 Attract、Onboard 和 Core HR）的要求。 还概述支持 Talent 的国家和地区，以及有关 Talent 数据的语言和本地化的信息。 此外，本主题还提供 Talent 的更新策略。
+本主题介绍 Microsoft Dynamics 365 Talent（包括 Attract、Onboard 和 Core HR）的要求。 还概述支持 Talent 的国家和地区，以及有关 Talent 数据的语言和本地化的信息。 此外，本主题还提供 Talent 的更新策略。
 
 ## <a name="supported-web-browsers"></a>支持的 Web 浏览器
 
-Microsoft Dynamics 365 for Talent Web 应用程序可在指定操作系统上运行的以下任一 Web 浏览器中运行： 
+Microsoft Dynamics 365 Talent 可在指定操作系统上运行的以下任一 Web 浏览器中运行： 
 
 *   Windows 10 上的 Microsoft Edge（最新公开提供的版本）
 *   Windows 10、Windows 8.1 或 Windows 7 上的 Internet Explorer 11
@@ -46,11 +46,11 @@ Microsoft Dynamics 365 for Talent Web 应用程序可在指定操作系统上运
 > * Workflow Editor 作为 ClickOnce 应用程序启动。 只有 Microsoft Edge 和 Internet Explorer（在支持的 Microsoft Windows 版本上）才支持 ClickOnce 应用程序。 Workflow Editor ClickOnce 应用程序需要 64 位兼容操作系统。
 > * 若要预览 PDF 文件，我们建议您使用现代浏览器，如 Windows 10 上的 Microsoft Edge（最新公开提供的版本）或 Windows 10、Windows 8.1、Windows 8、Windows 7 或 Google Nexus 10 平板电脑上的 Google Chrome（最新公开提供的版本）。
 >   网络要求
-> * Dynamics 365 for Talent 适用于延迟等于或低于 250-300 毫秒 (ms) 的网络。 该延迟是从浏览器客户端到托管 Dynamics 365 for Talent 的 Microsoft Azure 数据中心的延迟。 建议在 [www.azurespeed.com](https://www.azurespeed.com "延迟测试") 测试网络延迟。
-> * Dynamics 365 for Talent 带宽要求取决于您的方案。 大多数典型方案要求带宽超过每秒 50 千字节 (KBps)。
+> * Dynamics 365 Talent 适用于延迟等于或低于 250-300 毫秒 (ms) 的网络。 该延迟是从浏览器客户端到托管 Talent 的 Microsoft Azure 数据中心的延迟。 建议在 [www.azurespeed.com](https://www.azurespeed.com "延迟测试") 测试网络延迟。
+> * Talent 带宽要求取决于您的方案。 大多数典型方案要求带宽超过每秒 50 千字节 (KBps)。
 > 
 > [!WARNING]
-> 请勿通过将用户数乘以最低带宽要求来计算客户端位置的带宽要求。 给定位置的并行使用很难计算。 对于注重带宽要求的客户，请使用 Dynamics 365 for Talent 的试用版本。
+> 请勿通过将用户数乘以最低带宽要求来计算客户端位置的带宽要求。 给定位置的并行使用很难计算。 对于注重带宽要求的客户，请使用 Talent 的试用版本。
 
 ## <a name="supported-microsoft-office-applications"></a>支持的 Microsoft Office 应用程序
 
@@ -68,6 +68,6 @@ Microsoft Dynamics 365 for Talent Web 应用程序可在指定操作系统上运
 
 ## <a name="update-policy"></a>更新策略
 
-Microsoft Dynamics 365 for Talent 以云产品的形式提供。 Microsoft 将持续提供并自动应用对 Dynamics 365 for Talent 的更新。
+Talent 以云产品的形式提供。 Microsoft 将持续提供并自动应用 Talent 更新。
 
-更新定期针对所有环境发布。 对 Dynamics 365 for Talent 的支持根据 [Microsoft 支持生命周期策略](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft 支持生命周期")提供，该策略为产品支持可用性提供一致且可预测的指南。
+更新定期针对所有环境发布。 对 Talent 的支持根据 [Microsoft 支持生命周期策略](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft 支持生命周期")提供，该策略为产品支持可用性提供一致且可预测的指南。

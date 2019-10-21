@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595603"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249372"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>为电子采购发包设置外部目录
 
@@ -37,12 +37,12 @@ ms.locfileid: "1595603"
 
 ## <a name="setting-up-an-external-catalog"></a>设置外部目录
 
-外部目录应支持输入采购申请的员工被重定向到外部站点以选择产品。 员工从外部目录选择的产品连同最新价格信息被返回到 Dynamics 365 for Finance and Operations，并且可以添加到采购申请。 其目的是不允许员工在外部站点下单。 设置外部目录时，您需确保外部目录可访问的站点的目的是收集报价信息，不是实际下单。
+外部目录应支持输入采购申请的员工被重定向到外部站点以选择产品。 员工从外部目录选择的产品连同最新价格信息被返回，并且可以添加到采购申请。 其目的是不允许员工在外部站点下单。 设置外部目录时，您需确保外部目录可访问的站点的目的是收集报价信息，不是实际下单。
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>若要设置外部供应商目录，请完成以下任务：
 
 1. 设置一个采购类别层次结构。 有关详细信息，请参阅 [设置采购类别层次结构的策略](tasks/set-up-policies-procurement-category-hierarchies.md)。
-2. 在 Finance and Operations 中登记供应商。 在您可以设置访问外部供应商目录的配置时，您必须先在 Microsoft Dynamics 365 中设置供应商和供应商联系人。 外部目录供应商也必须添加到所选采购类别。 有关在 Microsoft Dynamics 365 中登记供应商的详细信息，请参阅[管理供应商协作用户](manage-vendor-collaboration-users.md)。 有关如何分配供应商到采购类别的信息，请参阅 [核准特定采购类别的供应商](tasks/approve-vendors-specific-procurement-categories.md)。
+2. 在 Supply Chain Management 中登记供应商。 在您可以设置访问外部供应商目录的配置时，您必须先在 Microsoft Dynamics 365 中设置供应商和供应商联系人。 外部目录供应商也必须添加到所选采购类别。 有关登记供应商的详细信息，请参阅[管理供应商协作用户](manage-vendor-collaboration-users.md)。 有关如何分配供应商到采购类别的信息，请参阅 [核准特定采购类别的供应商](tasks/approve-vendors-specific-procurement-categories.md)。
 3. 确保设置供应商使用的度量单位和币种。 有关如何创建度量单位的信息，请参阅[管理度量单位](../pim/tasks/manage-unit-measure.md)。
 4. 使用对您的供应商的外部目录站点的要求配置外部供应商目录。 有关此任务的更多详细信息，请参阅[配置外部供应商目录](#configure-the-external-vendor-catalog)。
 5. 测试供应商外部目录配置以验证设置是有效的而且您可以访问供应商外部目录。 使用**验证设置**操作验证您定义的请求设置消息。 此消息可以导致供应商外部目录站点在浏览器窗口中打开。 在验证期间，无法从供应商订购物料和服务。 要订购物料和服务，则必须从采购申请访问供应商的目录。
@@ -90,9 +90,9 @@ ms.locfileid: "1595603"
 有关 cXML 协议的详细信息，请访问 [cXML.org 网站](http://cxml.org/)。
 
 ## <a name="post-back-message"></a>回发消息
-回发消息是当用户从外部站点签出并返回到 Finance and Operations 时从供应商收到的消息。 回发消息不能进行配置。 此消息基于 cXML 协议定义。以下信息可以是在申请行中收到的回发信息的一部分：
+回发消息是当用户从外部站点签出并返回到 Supply Chain Management 时从供应商收到的消息。 回发消息不能进行配置。 此消息基于 cXML 协议定义。以下信息可以是在申请行中收到的回发信息的一部分。
 
-| 从供应商接收的消息 | 复制到 Finance and Operations 中的申请行|
+| 从供应商接收的消息 | 已复制到申请行|
 |------------------------------|----------------------------------------------------------|
 |< ItemIn quantity=”” > |数量|
 |< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID >|外部物料 ID|

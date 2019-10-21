@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 0a31ea7d1df33d3f42e95d5e1152f00687954b04
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3a6e7556705249296d4f5e5fb56f25b444f8f71a
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517388"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008143"
 ---
 # <a name="create-fixed-compensation-plans"></a>创建固定薪酬计划
 
@@ -31,7 +31,7 @@ ms.locfileid: "1517388"
 
 固定薪酬指员工的标准总薪水或工资。 本主题介绍在创建固定薪酬和登记员工前必须设置的组件。
 
-固定薪酬金额可以基于绩效、区域和预算增加等系数为您的员工计算。 Microsoft Talent 支持步幅、等级和分段薪酬类型。
+固定薪酬金额可以基于绩效、区域和预算增加等系数为您的员工计算。 Dynamics 365 Talent 支持步幅、等级和分段薪酬类型。
 
 ## <a name="fixed-compensation-components"></a>固定薪酬组件
 ### <a name="compensation-levels"></a>薪酬级别

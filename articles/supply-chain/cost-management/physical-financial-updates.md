@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ba628dbf63d3b124583e6b873530f1459b07562
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4360f9132d31c9d0038f51c68c1f6c3fcaaa2025
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547878"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250848"
 ---
 # <a name="physical-and-financial-updates"></a>实际和财务更新
 
@@ -32,7 +32,7 @@ ms.locfileid: "1547878"
 
 本主题提供哪些类型的交易记录将增减库存数量的概要。 
 
-库存交易记录可以在 Microsoft Dynamics 365 for Finance and Operations 中完成实际更新和财务更新。 某些实际交易记录和财务交易记录类型会增加库存数量，而其他则会减少数量。
+库存交易记录可以在 Dynamics 365 Supply Chain Management 中完成实际更新和财务更新。 某些实际交易记录和财务交易记录类型会增加库存数量，而其他则会减少数量。
 
 ## <a name="physical-increases"></a>实际增加
 在过帐某一实际交易记录时，该交易记录的状态为**已接收**。 以下交易记录被视为实际增加：
@@ -51,10 +51,13 @@ ms.locfileid: "1547878"
 -   正数量库存日记帐，例如移动、损益、盘点、物料清单和转移
 
 ## <a name="transactions-that-increase-quantity"></a>增加数量的交易记录
-以移动平均成本价过帐增加数量的交易记录。 Finance and Operations 计算移动平均成本价（基于每个财务跟踪的库存维度的上述各交易记录的成本）。 有关移动平均成本价的信息，请参阅[移动平均成本价](running-average-cost-price.md)。
+以移动平均成本价过帐增加数量的交易记录。 计算出的运行平均成本价基于每个财务跟踪的库存维度的上述各交易记录的成本。 有关移动平均成本价的信息，请参阅[移动平均成本价](running-average-cost-price.md)。
 
 ## <a name="transactions-that-decrease-quantity"></a>减少数量的交易记录
-过帐减少数量的交易记录时，Finance and Operations 使用计算出的移动平均成本价，而不考虑与该库存关联的库存模型。 减少数量的交易记录不得在另一个交易记录过帐前标记为该交易记录。 如果实际现有库存量变为负值，Finance and Operations 使用为**物料**页上的物料定义的库存成本。 **注意：** 如果启用多站点功能，则该成本将改为在**默认订单设置**页上定义的库存成本。
+过帐减少数量的交易记录时，使用计算出的移动平均成本价，而不考虑与该库存关联的库存模型。 减少数量的交易记录不得在另一个交易记录过帐前标记为该交易记录。 如果实际现有库存量变为负值，使用为**物料**页上的物料定义的库存成本。 
+
+> [!NOTE]
+> 如果启用多站点功能，则该成本将改为在**默认订单设置**页上定义的库存成本。
 
 ## <a name="physical-issues-vs-financial-issues"></a>实际发货与财务发货
 在过帐某一实际发货交易记录时，该交易记录的状态为**已减少**。 以下交易记录被视为实际发货：
@@ -71,6 +74,3 @@ ms.locfileid: "1547878"
 -   负数量库存日记帐，例如移动、损益、盘点、物料清单和转移
 
 以移动平均成本价过帐减少数量的交易记录。 因此，需要库存结转过程以将发货交易记录结算到基于分配给每个物料的库存模型的收货交易记录。
-
-
-

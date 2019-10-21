@@ -1,6 +1,6 @@
 ---
 title: 评估客户和产品收益率
-description: 本文介绍了如何使用内存中和实时分析来从您的 Microsoft Dynamics 365 for Retail 数据访问、探索和深入了解客户和产品收益率。
+description: 本文介绍了如何使用内存中和实时分析来从您的 Dynamics 365 Retail 数据访问、探索和深入了解客户和产品收益率。
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 28d4eeaa3fcae33f817690ad496b4b123a5838ce
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5a9bebf948bd4602556f70a5a79690621a03261e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561356"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023582"
 ---
 # <a name="assess-customer-and-product-profitability"></a>评估客户和产品收益率
 
 [!include [banner](includes/banner.md)]
 
-本文介绍了如何使用内存中和实时分析来从您的 Microsoft Dynamics 365 for Retail 数据访问、探索和深入了解客户和产品收益率。
+本文介绍了如何使用内存中和实时分析来从您的 Dynamics 365 Retail 数据访问、探索和深入了解客户和产品收益率。
 
-作为 Dynamics 365 for Retail 的一部分，用户可以基于以下条件之一，研究跨组织层次结构不同级别的排名靠前的客户（10 到 100）的收益率：
+作为 Retail 的一部分，用户可以基于以下条件之一，研究跨组织层次结构不同级别的排名靠前的客户（10 到 100）的收益率：
 
 - 销售额
 - 数量

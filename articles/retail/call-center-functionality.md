@@ -1,6 +1,6 @@
 ---
 title: 呼叫中心销售功能
-description: 本主题提供 Microsoft Dynamics 365 for Retail 中呼叫中心销售功能的概览。
+description: 本主题提供 Dynamics 365 Retail 中呼叫中心销售功能的概览。
 author: josaw1
 manager: AnnBe
 ms.date: 04/03/2018
@@ -19,26 +19,28 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8b78762ce70b318e1f77e1e49ffaa7b72f01667f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549472"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025763"
 ---
 # <a name="call-center-sales-functionality"></a>呼叫中心销售功能
 
 [!include [banner](includes/banner.md)]
 
-在 Dynamics 365 for Retail 中，呼叫中心是一种可在应用程序中定义的零售渠道。 通过为呼叫中心实体定义特定渠道，可以让系统将特定数据默认值和订单处理默认值与呼叫中心渠道用户创建的销售订单绑定。
+
+在 Dynamics 365 Retail 中，呼叫中心是一种可在应用程序中定义的零售渠道。 通过为呼叫中心实体定义特定渠道，可以让系统将特定数据默认值和订单处理默认值与呼叫中心渠道用户创建的销售订单绑定。
 
 呼叫中心功能包括高级零售价和促销、目录、礼品卡、会员计划，以及优惠券。 销售点 (POS) 应用程序也可以利用呼叫中心订单为跨渠道订单履行方案提供支持。
 
-请务必注意，虽然呼叫中心模块可以在零售外部供其他行业利用，但是尚未针对企业到企业 (B2B) 订单处理方案或订单有大量销售行的方案中的使用优化 Dynamics 365 for Retail 呼叫中心应用程序的当前版本。 建议除了直接面向消费者的典型交易记录处理之外，还希望利用呼叫中心功能处理订单的用户花费足够时间测试和验证启用呼叫中心功能是否可以满足功能需求和性能需求。
+请务必注意，虽然呼叫中心模块可以在零售外部供其他行业利用，但是尚未针对企业到企业 (B2B) 订单处理方案或订单有大量销售行的方案中的使用优化 Retail 呼叫中心应用程序的当前版本。 建议除了直接面向消费者的典型交易记录处理之外，还希望利用呼叫中心功能处理订单的用户花费足够时间测试和验证启用呼叫中心功能是否可以满足功能需求和性能需求。
 
 除了支持创建订单，呼叫中心模块还提供易用的客户服务应用程序，因此用户可以更轻松地找到客户帐户和查看所有相关客户订单和属性。 此客户服务屏幕旨在让用户快速访问与订单有关的数据，从而让他们可以快速回答从客户处收到且与订单有关的最常见问题。
 
-此页提供指向与设置、配置和功能性使用 Dynamics 365 for Retail 中的呼叫中心功能有关的相关文档的链接。
+此页提供指向与设置、配置和功能性使用 Retail 中的呼叫中心功能有关的相关文档的链接。
+
 
 ## <a name="configure-the-call-center"></a>配置呼叫中心
 

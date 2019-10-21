@@ -1,6 +1,6 @@
 ---
-title: 哪个 Microsoft Dynamics 365 for Talent - Attract 版本
-description: 本主题提供有关不同版本的 Microsoft Dynamics 365 for Talent - Attract 中的功能的信息。
+title: 哪个 Microsoft Dynamics 365 Talent - Attract 版本
+description: 本主题提供有关不同版本的 Microsoft Dynamics 365 Talent - Attract 中的功能的信息。
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/04/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 59ab9f418c4d9039ca08a71de0dba0f96216aabb
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 59f3e78efa8801c81dccff2f45751b47fb30481f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739695"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009938"
 ---
 # <a name="which-version-of-attract"></a>哪个 Attract 版本？
 
 [!include[banner](../includes/banner.md)]
 
-哪个 Microsoft Dynamics 365 for Talent: Attract 版本适合您取决于贵组织的规模和需求。 Attract 基本版提供一小组功能，面向招聘经理为主要用户的较小团队或组织。 可以使用含一个或多个许可证的 Attract 基本版。
+哪个 Microsoft Dynamics 365 Talent: Attract 版本适合您取决于贵组织的规模和需求。 Attract 基本版提供一小组功能，面向招聘经理为主要用户的较小团队或组织。 可以使用含一个或多个许可证的 Attract 基本版。
 
 带综合招聘加载项的 Attract 面向招聘人员或人才专家为主要用户的中到大型团队或组织。 综合招聘加载项要求通过 [Microsoft Dynamics 365 合作伙伴](https://dynamics.microsoft.com/partners/find-a-partner/)购买许可证。
 

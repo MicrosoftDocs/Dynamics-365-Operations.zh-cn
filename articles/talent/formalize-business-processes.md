@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 85950a1413cfd8745bb78a52eb9f7c81b8976605
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 51f8102afc28b3836d5fee13aa1e950351af3c4f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517415"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008353"
 ---
 # <a name="formalize-business-processes"></a>确定业务流程
 
@@ -43,7 +43,7 @@ ms.locfileid: "1517415"
 流程负责人不能新建业务流程或业务流程模板，也不能删除有效业务流程或业务流程模板。
 
 ## <a name="tasks"></a>任务
-业务流程通常包含多个任务。 可以在 Microsoft Dynamics 365 for Talent[?] 内完成某些任务，如审核内部课程产品。 在这种情况下，已在**任务链接**字段中选择了一个选项。 其他任务可能涉及查看或填写网站上的页面。 在此情况下，**任务链接**字段中已选中 **URL**，然后就可以输入网址。 您可以输入外部和内部站点的 URL。 您还可以为手动完成的活动创建任务，例如审核所有结构的辅助功能。 在此情况下，不需要任务链接。 这种灵活性使您可以在一个综合流程中跟踪多种任务。
+业务流程通常包含多个任务。 可以在 Microsoft Dynamics 365 Talent 内完成某些任务，如审核内部课程产品。 在这种情况下，已在**任务链接**字段中选择了一个选项。 其他任务可能涉及查看或填写网站上的页面。 在此情况下，**任务链接**字段中已选中 **URL**，然后就可以输入网址。 您可以输入外部和内部站点的 URL。 您还可以为手动完成的活动创建任务，例如审核所有结构的辅助功能。 在此情况下，不需要任务链接。 这种灵活性使您可以在一个综合流程中跟踪多种任务。
 
 任务可以分配给特定工作人员或职位。 例如，薪酬福利经理始终是执行保险费审核的人员。 因此，在创建此任务时，请在**分配类型**中选择**职位**，然后在**职位**列表中选择**薪酬福利经理**。 在业务流程开始时，该任务将被分配给处于**薪酬福利经理**职位的工作人员。 如要将任务分配给特定工作人员，请在**分配类型**字段中选择**工作人员**，然后选择适当的人员。
 

@@ -1,6 +1,6 @@
 ---
-title: 编辑 Dynamics 365 for Talent - Onboard 中的入职指南和模板
-description: 本主题说明如何将活动和其他信息添加到 Microsoft Dynamics 365 for Talent - Onboard 中的入职指南和模板。
+title: 编辑 Dynamics 365 Talent - Onboard 中的入职指南和模板
+description: 本主题说明如何将活动和其他信息添加到 Microsoft Dynamics 365 Talent - Onboard 中的入职指南和模板。
 author: andreabichsel
 manager: ''
 ms.date: 06/19/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68afc5d789d1f4af67cd2ec73eb0e073efad0761
-ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
+ms.openlocfilehash: 7803c7cd2c58b8544d2c8dd711c295d6882f9fca
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1864385"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010790"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-for-talent-onboard"></a>编辑 Dynamics 365 for Talent: Onboard 中的入职指南和模板
+# <a name="edit-onboarding-guides-and-templates"></a>编辑入职指南和模板
 
 [!include [banner](includes/banner.md)]
 
-在 Microsoft Dynamics 365 for Talent: Onboard 中创建入职指南或模板后，您必须添加介绍、活动、联系人和资源。 Onboard 允许您在入职指南中包含丰富的内容，包括：
+在 Microsoft Dynamics 365 Talent: Onboard 中创建入职指南或模板后，您必须添加介绍、活动、联系人和资源。 Onboard 允许您在入职指南中包含丰富的内容，包括：
 
 - YouTube 视频
 - Microsoft Sway 演示文稿

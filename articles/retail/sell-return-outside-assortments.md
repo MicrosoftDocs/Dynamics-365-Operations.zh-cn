@@ -1,6 +1,6 @@
 ---
 title: 销售和退回不属于商店分类的产品
-description: 借助 Dynamics 365 for Retail，您可以销售和退回分类以外的产品。
+description: 借助 Dynamics 365 Retail，您可以销售和退回分类以外的产品。
 author: pdp1207
 manager: AnnBe
 ms.date: 05/24/2017
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ae6bac983ddb4d4a217fe83c8f68c5a87ccd6a47
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567899"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024929"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>销售和退回不属于商店分类的产品
 
@@ -37,7 +37,7 @@ ms.locfileid: "1567899"
 + 零售商不将特定产品存放在商店中，或者在客户访问的商店中没有存货，但在其他商店提供该产品。 商店同事可以协助客户在其他商店中搜索或浏览产品，将其添加到购物车中，并通过选择交货方法完成结帐。
 + 零售商在特定的城市或邮政编码区范围内和附近有许多家商店，并且不想强迫客户将产品退回到购买产品时的同一家商店。 相反，客户可以将产品退回到任何一家商店。
 
-这些常见方案对使用 Dynamics 365 for Retail 的零售商提供。 借助 Retail，您可以：
+这些常见方案对使用 Retail 的零售商提供。 借助 Retail，您可以：
 
 + 搜索或浏览其他商店的产品。
 + 搜索或浏览所有已发布的产品。

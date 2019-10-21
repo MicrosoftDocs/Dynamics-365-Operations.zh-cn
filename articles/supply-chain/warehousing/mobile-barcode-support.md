@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85afddb34f29e13e17f2b93bb2633183a78e31f7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 462d35ebf1015ace032c523a4efe92bc7594ba3c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559800"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026897"
 ---
 # <a name="mobile-bar-code-support"></a>移动条码支持
 
@@ -31,7 +31,7 @@ ms.locfileid: "1559800"
 由于 Android 是一个开源项目，仓库条码扫描仪的任何硬件制造商都可以构建设备来运行 Android 操作系统。 如果设备能够运行为 Android 执行环境编写的应用，其只能是 Android 兼容设备。
 但是，硬件供应商可以修改和创建在其硬件上运行的 Android 版本的覆盖。 Microsoft 不负责确保 Android 的移动条码扫描应用与制造商的条码扫描硬件和在其中运行的 Android 版本兼容。 
 
-适用于 Microsoft Dynamics 365 for Finance and Operations 的仓库应用已使用选定的 Android 支持设备针对条码扫描进行了测试。 这些测试仅覆盖市场上在售的设备样品。
+Dynamics 365 Supply Chain Management - 仓库应用已使用选定的 Android 支持设备针对条码扫描进行了测试。 这些测试仅覆盖市场上在售的设备样品。
 
 作为客户，我们建议在您决定要购买硬件之前，在选定的硬件上对仓库移动扫描应用进行测试。
 

@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 253ba0bd991e8db17940d3d4b9ade599800bf924
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2c2ba1f23cc068daf20474f05519c3c6865fd183
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843857"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250248"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>供应商协作移动工作区
 
@@ -30,10 +30,10 @@ ms.locfileid: "1843857"
 
 此主题提供有关**供应商协作**移动工作区的信息。 此工作区帮助您的供应商实时了解已经发送给他们进行审核的采购订单的最新信息。 它们还可以查看有关新的和更新的采购订单和联系人的信息。
 
-将此工作区用于与 Microsoft Dynamics 365 for Unified Operations mobile 应用一起使用。
+此工作区应该与 Finance and Operations mobile 应用程序结合使用。
 
 ## <a name="overview"></a>概览 
-**供应商协作**移动工作区通知供应商有关新采购订单的信息，以便供应商可以在 Microsoft Dynamics 365 for Finance and Operations Web 客户端中查看和响应采购订单。 
+**供应商协作**移动工作区通知供应商有关新采购订单的信息，以便供应商可以在 Web 客户端中查看和响应采购订单。 
 
 >[!NOTE]
 > 此移动工作区将用作供应商协作 Web 界面的补充，但不代替后者。 
@@ -59,8 +59,8 @@ ms.locfileid: "1843857"
 ## <a name="prerequisites"></a>先决条件
 先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本而异。
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>使用 Microsoft Dynamics 365 for Finance and Operations 的先决条件 
-如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations，系统管理员必须发布**供应商协作**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>使用 Supply Chain Management 时的先决条件
+如果已经为您的组织部署 Supply Chain Management，系统管理员必须发布**供应商协作**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611 时的先决条件
 如果已经为您的组织部署带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611，系统管理员必须完成以下先决条件。 
@@ -104,7 +104,7 @@ ms.locfileid: "1843857"
 <li><a href="vendor-collaboration-work-external-vendors.md">使用供应商协作与外部供应商合作</a></li>
 <li><a href="manage-vendor-collaboration-users.md">管理供应商协作用户</a></li>
 <li><a href="set-up-maintain-vendor-collaboration.md">设置和维护供应商协作</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">使用供应商协作在 Finance and Operations 中与客户合作</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">使用供应商协作在 Supply Chain Management 中与客户合作</a></li>
 </ul></td>
 </tr>
 </tbody>
@@ -112,7 +112,7 @@ ms.locfileid: "1843857"
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
 
-下载并安装 Dynamics 365 for Unified Operations 移动应用：
+下载并安装 Finance and Operations 移动应用程序：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

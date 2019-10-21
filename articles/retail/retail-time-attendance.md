@@ -1,6 +1,6 @@
 ---
 title: Retail 中的工时和出勤管理
-description: 此主题介绍 Microsoft Dynamics 365 for Retail 中工时和出勤管理支持的方案。
+description: 此主题介绍 Dynamics 365 Retail 中工时和出勤管理支持的方案。
 author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d541de550df41b7d4616492960bd4f2aae46d45e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567945"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024975"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Retail 中的工时和出勤管理
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍 Microsoft Dynamics 365 for Retail 中工时和出勤管理支持的方案。
+此主题介绍 Dynamics 365 Retail 中工时和出勤管理支持的方案。
 
 ## <a name="manage-worker-setup-and-scheduling"></a>管理工作人员设置和计划
 
@@ -125,7 +125,7 @@ ms.locfileid: "1567945"
 
 ## <a name="process-and-manage-time-registrations"></a>处理和管理时间登记
 
-Dynamics 365 for Retail 用户按照工作流计算、审核和将时间登记转移到工资单。
+Retail 用户按照工作流计算、审核和将时间登记转移到工资单。
 
 ### <a name="primary-operations"></a>主要操作
 

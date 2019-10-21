@@ -1,6 +1,6 @@
 ---
-title: 在 Microsoft Dynamics 365 for Talent - Attract 中使用 LinkedIn Recruiter 寻求应聘者
-description: 使用 Microsoft Dynamics 365 for Talent - Attract 提供的 LinkedIn 集成通过 LinkedIn Recruiter 寻求应聘者。
+title: 在 Microsoft Dynamics 365 Talent - Attract 中使用 LinkedIn Recruiter 寻求应聘者
+description: 使用 Microsoft Dynamics 365 Talent - Attract 提供的 LinkedIn 集成通过 LinkedIn Recruiter 寻求应聘者。
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -19,17 +19,17 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 14aba16fa81a8f25d0f88247319254407d428b2a
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 366dc2be6e35098dba4b26a34bb75a84913549f5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739441"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008562"
 ---
 # <a name="source-candidates-with-linkedin-recruiter"></a>使用 LinkedIn Recruiter 搜寻候选人
 [!include[banner](../includes/banner.md)]
 
-LinkedIn 是世界上最大的在线职业网络，让您可以访问世界顶级人才。 Microsoft Dynamics 365 for Talent: Attract 让您可以直接从 LinkedIn 中寻求应聘者。 因此，找到填补空缺职位所需的人才比以往任何时候都更容易。 通过 Attract 设置与 LinkedIn 的连接后，您可以查看适合您的职位的潜在的 LinkedIn 应聘者，而且只需点击一下即可将其导出到 Attract。
+LinkedIn 是世界上最大的在线职业网络，让您可以访问世界顶级人才。 Microsoft Dynamics 365 Talent: Attract 让您可以直接从 LinkedIn 中寻求应聘者。 因此，找到填补空缺职位所需的人才比以往任何时候都更容易。 通过 Attract 设置与 LinkedIn 的连接后，您可以查看适合您的职位的潜在的 LinkedIn 应聘者，而且只需点击一下即可将其导出到 Attract。
 
 如果您似乎没有此功能，请与您的管理员联系。您的管理员必须[设置与 LinkedIn 的集成](./attract-admin-linkedin.md)，您才可以从 Attract 利用 LinkedIn Recruiter。 然后，您可以设置与 LinkedIn Recruiter 的连接并开始查找应聘者。
 

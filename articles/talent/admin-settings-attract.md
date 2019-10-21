@@ -1,6 +1,6 @@
 ---
-title: 在 Microsoft Dynamics 365 for Talent - Attract 中配置公司信息
-description: 本主题说明如何为 Microsoft Dynamics 365 for Talent - Attract 配置公司信息和品牌。
+title: 在 Microsoft Dynamics 365 Talent - Attract 中配置公司信息
+description: 本主题说明如何为 Microsoft Dynamics 365 Talent - Attract 配置公司信息和品牌。
 author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c5b051497777a01ab304736f1d454391b5d98e63
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 801b90db8d70352693515b442f7a9316b447d041
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739556"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008723"
 ---
 # <a name="configure-company-information"></a>配置公司信息
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract 中的管理员中心包含配置设置、集成选项和 Attract 应用程序的设置选项。
+Microsoft Dynamics 365 Talent: Attract 中的管理员中心包含配置设置、集成选项和 Attract 应用程序的设置选项。
 
 ## <a name="company-information"></a>公司信息
 

@@ -1,6 +1,6 @@
 ---
-title: 将工作从 Microsoft Dynamics 365 for Talent - Attract 发布到 LinkedIn
-description: 本主题说明如何使用 Dynamics 365 for Talent - Attract 将工作发布到 LinkedIn。
+title: 将工作从 Microsoft Dynamics 365 Talent - Attract 发布到 LinkedIn
+description: 本主题说明如何使用 Dynamics 365 Talent - Attract 将工作发布到 LinkedIn。
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: f2109f5e90321598eb2317140eef6bcd86ab82f5
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 014202ca49e5bd6204d450b2a43c7372ed84ff33
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756168"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008235"
 ---
 # <a name="post-jobs-to-linkedin"></a>将职位发布至 LinkedIn
 
 [!include [banner](../includes/banner.md)]
 
-LinkedIn 是最大的在线职业网络，让您可以访问世界顶级人才。 Microsoft Dynamics 365 for Talent: Attract 通过让您将工作直接从 Attract 发布到 LinkedIn，帮助您获得所需的人才。
+LinkedIn 是最大的在线职业网络，让您可以访问世界顶级人才。 Microsoft Dynamics 365 Talent: Attract 通过让您将工作直接从 Attract 发布到 LinkedIn，帮助您获得所需的人才。
 
 Attract 让您可以在 LinkedIn 中发布 Limited Listings（有限列表），无需支付额外费用。 这些列表仅通过 LinkedIn 软件合作伙伴（如 Attract）提供。 它们不会出现在您公司的 LinkedIn 页面的**求职**面板中，因为只有付费列表出现在那里。 但会在潜在应聘者查看所有可申请工作时显示。 Limited Listings（有限列表）还显示在 LinkedIn 工作搜索中。
 

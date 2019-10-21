@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 885e2d743cd2b01588546327840508f6f7e95958
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6d174a8acac3863fb6d9f9431c6bc777cb717470
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517389"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008167"
 ---
 # <a name="talent-client-disconnects"></a>Talent 客户端断开连接
 
@@ -47,7 +47,7 @@ ms.locfileid: "1517389"
 
 **浏览器类型：** Google Chrome、Internet Explorer 和 Microsoft Edge
 
-当同一用户和相同浏览器类型的两个不同会话同时打开时，Microsoft Dynamics 365 for Talent 平台将断开用户。 （例如，用户 A 在 Chrome 中同时查看环境 1 和环境 2。）用户是否打开不同的浏览器窗口或不同选项卡不受影响。 如果同一用户凭据被用于在相同浏览器类型中同时登录到环境 1 和环境 2，Talent 将断开其中一个会话。
+当同一用户和相同浏览器类型的两个不同会话同时打开时，Microsoft Dynamics 365 Talent 将断开用户。 （例如，用户 A 在 Chrome 中同时查看环境 1 和环境 2。）用户是否打开不同的浏览器窗口或不同选项卡不受影响。 如果同一用户凭据被用于在相同浏览器类型中同时登录到环境 1 和环境 2，Talent 将断开其中一个会话。
 
 **解决方案**
 

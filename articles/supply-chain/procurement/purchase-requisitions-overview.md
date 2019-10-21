@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0e571f5c83affa56c230e1f597e219eb60973225
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572017"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248863"
 ---
 # <a name="purchase-requisition-overview"></a>采购申请概览
 
@@ -38,7 +38,7 @@ ms.locfileid: "1572017"
 ## <a name="creating-purchase-requisitions"></a>创建采购申请
 您可以在**我的采购申请**页上创建采购申请并选择您所需的物料和服务。 通过选择采购类别和输入产品详细信息，您可以从组织创建的采购目录中选择物料，或请求目录中未找到的物料。  
 
-在可提交采购申请供查看前，必须在 Microsoft Dynamics 365 for Finance and Operations 中配置工作流。 您使用工作流通过审核流程移动采购申请，从**草稿**的初始状态到**已审核**最终状态。
+在可提交采购申请供查看前，必须配置工作流。 您使用工作流通过审核流程移动采购申请，从**草稿**的初始状态到**已审核**最终状态。
 
 ### <a name="purchase-requisition-statuses"></a>采购申请状态
 
@@ -141,7 +141,7 @@ ms.locfileid: "1572017"
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>申请具有消耗量的目标
 
-申请具有消耗量的目标表示将通过您的组织内部使用的物料或服务的需求。 通过此类型的申请创建需求始终按采购订单执行。 如果 Microsoft Dynamics 365 for Finance and Operations 被设置为自动生成采购订单，采购订单将在采购申请被批准后创建。
+申请具有消耗量的目标表示将通过您的组织内部使用的物料或服务的需求。 通过此类型的申请创建需求始终按采购订单执行。 如果 Supply Chain Management 设置为自动生成采购订单，将在采购申请审核后创建采购订单。
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>申请具有补货的目标
 

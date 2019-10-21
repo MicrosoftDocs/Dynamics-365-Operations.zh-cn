@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent（2019 年 6 月 11 日）新增功能或更改
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent 中的新增功能和更改的功能。
+title: Dynamics 365 Talent（2019 年 6 月 11 日）新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/11/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b06dc0556bd1461573cd56abed602d72333a3f39
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741606"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023922"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>Dynamics 365 for Talent（2019 年 6 月 11 日）新增功能或更改
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>Dynamics 365 Talent（2019 年 6 月 11 日）新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍了 Microsoft Dynamics 365 for Talent 中的新增功能和更改的功能。
+此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 
 ## <a name="changes-in-attract"></a>Attract 中的更改
 
 ### <a name="search-engine-optimization-for-job-posts"></a>针对工作发布的搜索引擎优化
 
-在 Dynamics 365 for Talent: Attract 管理中心中开启**搜索引擎优化**之后，只要激活并发布新工作或更新现有工作，Attract 都会通知 Google Indexing 应用程序编程接口 (API) 去抓取网页。 这样就会在 Google 和其他搜索引擎的搜索结果中显示该作业。
+在 Dynamics 365 Talent: Attract: 管理中心中开启**搜索引擎优化**之后，只要激活并发布新工作或更新现有工作，Attract 都会通知 Google Indexing 应用程序编程接口 (API) 去抓取网页。 这样就会在 Google 和其他搜索引擎的搜索结果中显示该作业。
 
 同样，只要取消发布工作，Attract 就会通知 Indexing API，这样取消发布的工作就会不再在搜索结果中显示。
 
@@ -50,15 +50,15 @@ ms.locfileid: "1741606"
 
 ## <a name="changes-in-onboard"></a>Onboard 中的更改
 
-本版本中包含 Dynamics 365 for Talent: Onboard 的小缺陷修复。
+本版本中包含 Dynamics 365 Talent: Onboard 的小缺陷修复。
 
 ## <a name="changes-in-core-hr"></a>Core HR 中的更改
 
 本部分中介绍的更改适用于内部版本号 8.1.2337。
 
-### <a name="platform-update-27"></a>平台 update 27
+### <a name="platform-update-27-for-finance-and-operations"></a>Finance and Operations 的平台更新 27
 
-有关平台更新 27 的其他详细信息，请参阅 [Dynamics 365 for Finance and Operations 平台更新 27（2019 年 6 月）中的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27)。
+有关 Finance and Operations 的平台更新 27 的更多详细信息，请参阅 [Dynamics 365 Finance and Operations 平台更新 27（2019 年 6 月）的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27)。
 
 ### <a name="feature-management-workspace-in-talent"></a>Talent 中的功能管理工作区
 

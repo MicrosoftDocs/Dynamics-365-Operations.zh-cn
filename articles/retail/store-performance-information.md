@@ -1,6 +1,6 @@
 ---
 title: 分析商店业绩
-description: 本文介绍了如何使用内存中和实时分析来基于您的 Microsoft Dynamics 365 for Retail 数据访问、探索和深入了解商店业绩。
+description: 本文介绍了如何使用内存中和实时分析来基于您的 Dynamics 365 Retail 数据访问、探索和深入了解商店业绩。
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c975c021b6db49d1e25fd036f4955c7223e438ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b2ea6ad2e3d9589face06cd5f950973209c17d41
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569255"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017774"
 ---
 # <a name="analyze-store-performance"></a>分析商店业绩
 
 [!include [banner](includes/banner.md)]
 
-本文介绍了如何使用内存中和实时分析来基于您的 Microsoft Dynamics 365 for Retail 数据访问、探索和深入了解商店业绩。
+本文介绍了如何使用内存中和实时分析来基于您的 Dynamics 365 Retail 数据访问、探索和深入了解商店业绩。
 
-作为 Dynamics 365 for Retail 的一部分，用户可以通过从以下任何位置打开现成的**渠道汇总**报表，实时研究所选期间跨组织层次结构不同级别的商店业绩：
+作为 Retail 的一部分，用户可以通过从以下任何位置打开现成的**渠道汇总**报表，实时研究所选期间跨组织层次结构不同级别的商店业绩：
 
 - **零售商店管理**工作区 &gt; **零售** &gt; **渠道** &gt; **零售商店管理** &gt; **报表** &gt; **渠道汇总报表**
 - **零售商店财务**工作区 &gt; **零售** &gt; **渠道** &gt; **零售商店财务** &gt; **报表** &gt; **渠道汇总报表**

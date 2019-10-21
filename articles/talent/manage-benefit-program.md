@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 5c54e5fccd7ddc5f8f024e692bb46f4140134578
-ms.sourcegitcommit: 282f05635a7b933fe9bdda7a8187f322ed5ede17
+ms.openlocfilehash: a9a26450be97f655df8bc5983e4718341d40a2d6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755389"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009892"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>定义和管理福利计划
 
@@ -51,7 +51,7 @@ ms.locfileid: "1755389"
 [![福利图片](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>资格
-许多因素决定工作人员有资格享有雇主提供的各种类型福利。 当您在 Microsoft Talent 中创建福利时，可以设置应用于该福利的资格类型。 
+许多因素决定工作人员有资格享有雇主提供的各种类型福利。 当您在 Dynamics 365 Talent 中创建福利时，可以设置应用于该福利的资格类型。 
 
 您可以向所有工作人员提供福利。 例如，某些公司向所有员工提供停车证作为附加福利。 当您创建此福利时，将资格设置为**所有工作人员均符合资格**。 
 

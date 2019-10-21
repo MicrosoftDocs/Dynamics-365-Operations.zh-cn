@@ -1,6 +1,6 @@
 ---
 title: 删除 Talent 环境
-description: 此主题将指导您如何删除 Microsoft Dynamics 365 for Talent 的测试驱动器或生产环境。
+description: 此主题将指导您如何删除 Microsoft Dynamics 365 Talent 的测试驱动器或生产环境。
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/20/2017
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 904c8eb1254a65e1627c33f14488a1a8e12f7c2b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d608ee3ad90d23279557e5e9be4d398ffac3a266
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517431"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010607"
 ---
 # <a name="remove-talent-environments"></a>删除 Talent 环境
 
 [!include [banner](includes/banner.md)]
 
-此主题将指导您如何删除 Microsoft Dynamics 365 for Talent 的测试驱动器或生产环境。
+此主题将指导您如何删除 Microsoft Dynamics 365 Talent 的测试驱动器或生产环境。
 
 ## <a name="removing-a-test-drive-environment"></a>删除测试驱动器环境
 

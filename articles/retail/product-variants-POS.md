@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 609f5f13f3af4a7621fe7ee152800dac4d68a9fc
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572041"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025141"
 ---
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>销售点 (POS) 中的库存查找
 
@@ -52,7 +52,7 @@ ms.locfileid: "1572041"
 位置列表中包含两类实体：
 
 - **零售商店** – 此列表显示通过将商店定位符组用于零售总部中的当前商店配置的商店。
-- **配送中心** – 可以在 Microsoft Dynamics 365 for Retail 中配置各种配送中心（如仓库）。 但是，此列表仅显示**标准**默认类型的配送中心的库存可用性信息。
+- **配送中心** – 可以在 Retail 中配置各种配送中心（如仓库）。 但是，此列表仅显示**标准**默认类型的配送中心的库存可用性信息。
 
     > [!NOTE]
     > 不对 POS 显示**运输**、**检验**和**在途货物**类型的仓库的库存可用性信息。

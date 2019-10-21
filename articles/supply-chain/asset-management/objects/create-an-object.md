@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f15c6c5ccdcddebe7aa428cff48ca6e3b120d7f
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: bd963caed7f49db5dd7550dd30c3f831318d2b7a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783097"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250890"
 ---
 # <a name="create-an-asset"></a>创建资产
 
@@ -63,12 +63,12 @@ ms.locfileid: "1783097"
 
 ## <a name="asset"></a>资产
 
-可为资产选择**资源**。 选择的资源决定为工作订单排产使用哪个日历。 资源选择通常用于固定资产。 在 Dynamics 365 for Finance and Operations 中，资源和资源组在**组织管理** > **资源** > **资源组**或**资源**中设置。
+可为资产选择**资源**。 选择的资源决定为工作订单排产使用哪个日历。 资源选择通常用于固定资产。 资源和资源组在**组织管理** > **资源** > **资源组**或**资源**中设置。
 
 在**固定资产编号**字段中，可选择要与资产关联的固定资产。 如果资产与投资项目关联，则此项相关。
 
 - 如果资产与固定资产关联，则可创建要用于与投资项目关联的工作订单的工作订单类型。 
-- 有关资产的固定资产的信息与 Dynamics 365 for Finance and Operations 中的**固定资产**模块关联。 这表示在**固定资产** > **固定资产** > **固定资产**中，可获取可能与固定资产关联的资产管理项目的概览，方法是在列表中选择资产，然后查看**相关信息**窗格 > **关联项目**部分中的内容。
+- 有关资产的固定资产的信息与 Dynamics 365 Supply Chain Management 中的**固定资产**模块关联。 这表示在**固定资产** > **固定资产** > **固定资产**中，可获取可能与固定资产关联的资产管理项目的概览，方法是在列表中选择资产，然后查看**相关信息**窗格 > **关联项目**部分中的内容。
 
 
 ## <a name="details"></a>明细

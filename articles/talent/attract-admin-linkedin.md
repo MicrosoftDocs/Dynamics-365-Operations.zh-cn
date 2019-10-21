@@ -1,6 +1,6 @@
 ---
-title: 为 Microsoft Dynamics 365 for Talent - Attract 设置与 LinkedIn 的集成
-description: 本主题说明如何为 Microsoft Dynamics 365 for Talent - Attract 配置 LinkedIn 集成，以便您可以轻松地将工作从 Attract 发布到 LinkedIn，并让您的招聘人员可以将他们的招聘信息与应聘者的 LinkedIn 个人资料同步。
+title: 为 Microsoft Dynamics 365 Talent - Attract 设置与 LinkedIn 的集成
+description: 本主题说明如何为 Microsoft Dynamics 365 Talent - Attract 配置 LinkedIn 集成，以便您可以轻松地将工作从 Attract 发布到 LinkedIn，并让您的招聘人员可以将他们的招聘信息与应聘者的 LinkedIn 个人资料同步。
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8e42ec7d0bb74089b4e915b5a30277401e694cf9
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 6b86cafdf364f2de051f3d8ceab7413c2c13c3a5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756214"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009961"
 ---
 # <a name="set-up-linkedin-integration"></a>设置 LinkedIn 集成
 
 [!include[banner](../includes/banner.md)]
 
-通过配置与 Microsoft Dynamics 365 for Talent: Attract 的 LinkedIn 集成，帮助您的招聘人员和招聘经理吸引顶尖人才。 通过 Attract，您可以将工作直接发布到最大的在线职业网站 LinkedIn。
+通过配置与 Microsoft Dynamics 365 Talent: Attract 的 LinkedIn 集成，帮助您的招聘人员和招聘经理吸引顶尖人才。 通过 Attract，您可以将工作直接发布到最大的在线职业网站 LinkedIn。
 
 您通过 Attract 发布到 LinkedIn 的工作属于 Limited Listings（有限列表），您的公司无需支付额外费用。 这些列表仅通过 LinkedIn 软件合作伙伴（如 Attract）提供。 它们不会出现在您公司的 LinkedIn 页面的**求职**面板中，因为只有付费列表出现在那里。 但会在潜在应聘者查看所有可申请工作时显示。 Limited Listings（有限列表）还显示在 LinkedIn 工作搜索中。
 

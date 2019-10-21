@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b3247f693f5934b3fbf83b7b831c7ed221514cb
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 067d1085d9afa04cb76b78393a8a8b9834ce4d8c
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783090"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250936"
 ---
 # <a name="maintenance-attribute-types"></a>维护属性类型
 
@@ -42,10 +42,10 @@ ms.locfileid: "1783090"
 
 ## <a name="create-attribute-types"></a>创建属性类型
 
-可以创建自己的属性类型。 错误，还可以将产品维度从 Microsoft Dynamics 365 for Finance and Operations 转移到**属性类型**页。
+可以创建自己的属性类型。 错误，还可以将产品维度转移到**属性类型**页。
 
 1. 选择**拥有管理** \> **设置** \> **属性类型**。
-2. 首次设置属性类型时，选择**创建产品属性**以自动转移标准的 Finance and Operations 产品维度。
+2. 首次设置属性类型时，选择**创建产品属性**以自动转移标准产品维度。
 3. 选择**新建**以创建新属性类型。
 4. 在**属性类型**字段中，输入属性类型的名称。
 5. 在**描述**字段中，输入描述。

@@ -1,6 +1,6 @@
 ---
 title: 跨多个客户订单和发票的退回物料
-description: 本主题介绍了 Microsoft Dynamics 365 for Retail 中支持跨多个客户订单和发票的退货的功能。
+description: 本主题介绍了 Dynamics 365 Retail 中支持跨多个客户订单和发票的退货的功能。
 author: josaw1
 manager: AnnBe
 ms.date: 03/05/2019
@@ -18,19 +18,19 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c201311028b11121d626e93859a2b98497c047d1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 25a1081e5f903076e23089c41dda7437f8a70124
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565292"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017981"
 ---
 # <a name="return-items-across-multiple-customer-orders-and-invoices"></a>跨多个客户订单和发票的退回物料
 
 [!include [banner](includes/banner.md)]
 
 
-在 Dynamics 365 for Finance and Operations 版本 10.0 中，可以跨多个订单和发票处理退货，而在低于 10.0 的版本中，一次只能通过单个发票处理退货。 
+可以跨多个订单和发票处理退货。 
 
 ## <a name="configure-retail-to-support-returns-across-multiple-customer-order-and-invoices"></a>配置 Retail 以支持跨多个客户订单和发票的退货
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-15
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1a416bbb79be3f25998d3c0da8d231d0df808685
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875528"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024491"
 ---
 # <a name="maintenance-forecasts"></a>维护预测
 
@@ -104,7 +104,7 @@ ms.locfileid: "1875528"
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>自动更新工作订单预测
 
-在资产管理中，可自动更新对已在 Dynamics 365 for Finance and Operations 的其他模块中更新了的有关工时成本、物料成本和费用的工作订单预测的所有更改。 这是为了确保工作订单预测中始终使用最新成本价。 还可以对[维护作业类型预测](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)进行类似更新。
+在资产管理中，可自动更新对已在其他模块中更新了的有关工时成本、物料成本和费用的工作订单预测的所有更改。 这是为了确保工作订单预测中始终使用最新成本价。 还可以对[维护作业类型预测](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)进行类似更新。
 
 1. 单击**资产管理** > **定期** > **预测** > **更新工作订单预测**。
 

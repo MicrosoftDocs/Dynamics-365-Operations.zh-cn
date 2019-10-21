@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 72f4d248f3ac49bbfd8e5a7a12352d92b89bb0eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb02bdeca2d71d84ebdddfd16d471a532823e42
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564939"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025187"
 ---
 # <a name="retail-price-reports"></a>零售价报表
 
 [!include [banner](includes/banner.md)]
 
 
-为向客户提供有竞争力的价格，零售商通常会更改产品的价格。 店长希望能够轻松访问最近或未来的价格变更，以便他们可以计划所需资源来更新显示在商店货位上的价格标签。 使用 Dynamics 365 for Retail 的版本 10.0，店长可以通过导航到**所有零售商店 \> 商店 \> 价格报表**并查看与商店关联的产品的更新价格来打开**价格**报表。 
+为向客户提供有竞争力的价格，零售商通常会更改产品的价格。 店长希望能够轻松访问最近或未来的价格变更，以便他们可以计划所需资源来更新显示在商店货位上的价格标签。 使用 Retail 的版本 10.0，店长可以通过导航到**所有零售商店 \> 商店 \> 价格报表**并查看与商店关联的产品的更新价格来打开**价格**报表。 
 
 若要启用价格报表，必须打开**启用零售店的价格报表**参数。 此参数位于**零售参数 \> 折扣 \> 杂项**选项卡中。打开**价格报表**页将显示具有不同配置的对话框。 可用配置在下面列出。
 

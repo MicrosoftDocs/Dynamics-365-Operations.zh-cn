@@ -1,6 +1,6 @@
 ---
-title: 在 Dynamics 365 for Talent - Onboard 中更新入职指南
-description: 本主题说明如何更新 Microsoft Dynamics 365 for Talent - Onboard 中的入职指南，以及如何将更改推送到现有指南。
+title: 在 Dynamics 365 Talent - Onboard 中更新入职指南
+description: 本主题说明如何更新 Microsoft Dynamics 365 Talent - Onboard 中的入职指南，以及如何将更改推送到现有指南。
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d2be450685724510db2f0fd2af8545f8f40278e7
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731379"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010721"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-for-talent-onboard"></a>在 Dynamics 365 for Talent: Onboard 中更新入职指南
+# <a name="update-onboarding-guides"></a>更新入职指南
 
 [!include [banner](includes/banner.md)]
 
-如果您必须更改 Microsoft Dynamics 365 for Talent: Onboard 中的入职指南，即使您已经发送了指南，也可以更新它们并推送更改。 您有两种更新入职指南的选项：
+如果您必须更改 Microsoft Dynamics 365 Talent: Onboard 中的入职指南，即使您已经发送了指南，也可以更新它们并推送更改。 您有两种更新入职指南的选项：
 
 - 直接编辑入职指南，并保存更改。
 - 编辑入职模板，然后将更改推送到从该模板创建的所有入职指南。

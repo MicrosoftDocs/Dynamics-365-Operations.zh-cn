@@ -1,6 +1,6 @@
 ---
-title: 在 Microsoft Dynamics 365 for Talent 中使用日期和时间
-description: 了解在 Microsoft Dynamics 365 for Talent 中使用日期和时间字段时会发生什么。 清楚地了解在与 Dynamics 365 for Talent、外部源或 Common Data Service 的窗体中的日期和时间数据进行交互时可能会发生什么。
+title: 在 Microsoft Dynamics 365 Talent 中使用日期和时间
+description: 了解在 Microsoft Dynamics 365 Talent 中使用日期和时间字段时会发生什么。 清楚地了解在与 Talent、外部源或 Common Data Service 的窗体中的日期和时间数据进行交互时可能会发生什么。
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/24/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b4c652992272ed1a5aecbb4c78f0d11f077149d1
-ms.sourcegitcommit: 46bded82aa072adfedcf443629c2adc69f512c09
+ms.openlocfilehash: 1a1d1a47bfe6bd58b1e1a0d4d46c2133f3bf48ad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1791196"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2007959"
 ---
 # <a name="date-and-time-fields-in-talent"></a>Talent 中的日期和时间字段
 
 [!include [banner](includes/banner.md)]
 
-**日期和时间**字段是 Dynamics 365 for Talent 中的基本概念。 了解如何在 Dynamics 365 窗体、Common Data Service 和外部源中使用**日期和时间**数据非常重要。
+**日期和时间**字段是 Dynamics 365 Talent 中的基本概念。 了解如何在 Dynamics 365 窗体、Common Data Service 和外部源中使用**日期和时间**数据非常重要。
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>了解日期与日期和时间字段数据类型之间的差异
 
@@ -83,7 +83,7 @@ Data Management Framework、Excel 加载项、Common Data Service 和 Power BI �
 
 [![DMF 暂存](./media/DMFStaging.png)](./media/DMFStaging.png)
 
-**DMF“导出”**
+**DMF Export**
 
 [![DMF 暂存](./media/DMFexport.png)](./media/DMFexport.png)
 

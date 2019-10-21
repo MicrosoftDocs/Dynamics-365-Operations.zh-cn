@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 46aa4378a5b106d5717e0c841f2f7c9d6629489e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555030"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251308"
 ---
 # <a name="register-serial-numbers-in-the-sales-process"></a>在销售流程中登记序列号
 
@@ -34,9 +34,9 @@ ms.locfileid: "1555030"
 
 本主题说明如何在销售流程中登记装箱单或发票的序列号。 如何公司希望捕获序列号是为了用于服务和保修用途，但不必在从收货到发货的库存中维护序列号，那么此功能很有用。
 
-许多公司捕获序列号只是为了用于服务和保修用途，因此不必在从收货到发货的库存中维护序列号。 在这些情况下，Microsoft Dynamics 365 for Finance and Operations 在产品销售时可以登记装箱单或发票的序列号。 如果产品后来退货，您可以跟踪每个发票的产品以确定是否销售产品，服务或保修合同是否有效。
+许多公司捕获序列号只是为了用于服务和保修用途，因此不必在从收货到发货的库存中维护序列号。 在这些情况下，在产品销售时可以登记装箱单或发票的序列号。 如果产品后来退货，您可以跟踪每个发票的产品以确定是否销售产品，服务或保修合同是否有效。
 
-您必须通过选择**跟踪维度组**页的**在销售流程中有效**选项来启用销售流程的序列号。 以下事件随后在 Microsoft Dynamics 365 for Finance and Operations 中发生：
+您必须通过选择**跟踪维度组**页的**在销售流程中有效**选项来启用销售流程的序列号。 然后，在 Supply Chain Management 中将发生以下事件：
 -   在**序列号**快速选项卡上，选择**序列号控制**选项。 如果选中此选项，则必须在装箱单或发票上登记每个物料的序列号。
 -   除了**允许空发货**选项外，清除序列号跟踪维度组的所有选择。 可以选中**允许空发货**选项来覆盖序列号控制并允许产品在没有登记序列号的情况下包装和开票。
 

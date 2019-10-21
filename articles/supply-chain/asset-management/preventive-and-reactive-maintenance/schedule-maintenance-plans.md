@@ -3,7 +3,7 @@ title: 安排维护计划
 description: 本主题介绍资产管理中的安排维护作业。
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b6e5bde83474fe8971e482af518f7cee23a2220
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 698888533bf503838f455585f61cc7afc7239b05
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875521"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922037"
 ---
 # <a name="schedule-maintenance-plans"></a>安排维护计划
 
@@ -49,11 +49,11 @@ ms.locfileid: "1875521"
 
 - 有关为功能位置安排维护计划的信息：如果在安排维护计划之后在**所有功能位置** > **维护计划**快速选项卡中更新维护计划的资产类型、制造商和型号的设置，则自动删除与功能位置有关的现有维护安排条目。 若要创建新日历条目（与功能位置中已更新的维护计划设置对应），则必须为该功能位置运行新的维护计划安排。 有关为功能位置设置资产类型、制造商和型号的详细信息，请参阅[创建功能位置](../functional-locations/create-functional-locations.md)。
 
->*示例：* 您希望为特定功能位置创建维护计划，这意味着安排维护计划时，将包括在任何给定时间为该功能位置设置的所有资产。 在此情况下，将创建一个维护计划并选择特定功能位置，但是“不”在维护计划中添加任何对象。 结果是，在安排该维护计划时，将为此时与功能位置关联的所有资产创建维护安排行。
+>*示例：* 您希望为特定功能位置创建维护计划，这意味着安排维护计划时，将包括在任何给定时间为该功能位置设置的所有资产。 在此情况下，将创建一个维护计划并选择特定功能位置，但是“不”在维护计划中添加任何资产。 结果是，在安排该维护计划时，将为此时与功能位置关联的所有资产创建维护安排行。
 
 - 如果在**资产类型**中对资产类型、制造商和型号进行更改，则这些更改仅影响使用所更新资产类型的新资产。 有关资产类型设置的详细信息，请参阅[资产类型](../setup-for-objects/object-types.md)。  
 
-5. 单击**确定**开始为资产生成维护安排条目。 将在**所有维护安排**列表页中显示生成的条目。
+5. 单击**确定**开始为资产生成维护安排条目。 将在**所有维护安排**列表页中显示生成的条目。 下图显示**安排维护计划**对话框的示例。
 
 ![图 1](media/09-preventive-maintenance.png)
 
@@ -75,3 +75,4 @@ ms.locfileid: "1875521"
 ![图 3](media/11-preventive-maintenance.png)
 
 ![图 4](media/12-preventive-maintenance.png)
+

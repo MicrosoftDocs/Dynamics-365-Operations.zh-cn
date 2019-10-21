@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent（2019 年 4 月 2 日）中的新增功能或更改
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent 中的新增功能和更改的功能。
+title: Dynamics 365 Talent（2019 年 4 月 2 日）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795236"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026063"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Dynamics 365 for Talent（2019 年 4 月 2 日）中的新增功能或更改
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Dynamics 365 Talent（2019 年 4 月 2 日）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍了 Dynamics 365 for Talent 中的新增功能和更改的功能。
+此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
 ## <a name="changes-in-attract"></a>Attract 中的更改
 
@@ -45,7 +45,7 @@ ms.locfileid: "1795236"
 ### <a name="application-and-profile-attachments"></a>申请表和个人资料附件
 申请表和人才池个人资料上的**文档**选项卡的附件现在同时显示文档名和类型。
 
-## <a name="changes-in-onboard"></a>Changes 中的更改
+## <a name="changes-in-onboard"></a>Onboard 中的更改
 本版本中包含 Dynamics 365 Talent: Onboard 的小缺陷修复。
 
 ## <a name="coming-soon-attract-and-onboard"></a>即将推出（Attract 和 Onboard）
@@ -56,8 +56,8 @@ ms.locfileid: "1795236"
 ## <a name="changes-in-core-hr"></a>Core HR 中的更改
 本部分中的更改适用于内部版本号 8.1.2216。
 
-### <a name="platform-update-25"></a>平台 update 25
-有关平台更新 25 的详细信息，请参阅 [Dynamics 365 for Finance and Operations 平台更新 25（2019 年 4 月）中的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25)。
+### <a name="platform-update-25-for-finance-and-operations"></a>Finance and Operations 的平台更新 25
+有关 Finance and Operations 的平台更新 25 的详细信息，请参阅 [Dynamics 365 for Finance and Operations 平台更新 25（2019 年 4 月）的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25)。
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>高级薪酬安全（固定和可变）
 在许多组织中，薪酬和福利经理可能只能访问特定薪酬记录。 其中可能包含有关管理层或地区员工的记录。 此更改让 HR 可以管理和维护组织中不同员工组的薪酬计划。 可以为固定计划和可变计划分配安全角色。 这些安全角色决定计划和相关员工数据（如工资或福利记录）的访问权限，因此只有这些角色可以处理员工组的薪酬。
@@ -79,4 +79,4 @@ ms.locfileid: "1795236"
 借助此更改，输入名称字段时可检测重复项，而状态将显示找到的重复项数量。 您可以选择提供的链接以打开一个新的页面来评估是否要使用检测到的匹配项。 为了避免中断数据输入，重复项窗体不会自动打开。
 
 ###  <a name="email-support-for-alerts"></a>警报的电子邮件支持
-安装平台更新 25 之后，用户可创建警报规则，用于在被事件触发后自动向联系人发送电子邮件通知。 
+安装 Finance and Operations 的平台更新 25 之后，用户可创建警报规则，用于在被事件触发后自动为联系人发送电子邮件通知。 

@@ -1,6 +1,6 @@
 ---
-title: 获取 Dynamics 365 for Retail 支持
-description: 本文说明如何获取 Microsoft Dynamics 365 for Retail 的帮助。
+title: 获取 Dynamics 365 Retail 支持
+description: 本文说明如何获取 Microsoft Dynamics 365 Retail 的帮助。
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 280a8de4b3a1f2eafa39caac562dff7c74ee0971
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 225b39bb03fa3bbd0b3c3a24e4eb09a114d01904
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577836"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024998"
 ---
-# <a name="get-support-for-dynamics-365-for-retail"></a>获取 Dynamics 365 for Retail 支持
+# <a name="get-support-for-dynamics-365-retail"></a>获取 Dynamics 365 Retail 支持
 
 [!include [banner](../includes/banner.md)]
 
-本文说明如何获取 Dynamics 365 for Retail 的帮助。
+本文说明如何获取 Dynamics 365 Retail 的帮助。
 
 ## <a name="contact-support"></a>联系技术支持
 
@@ -48,7 +48,7 @@ ms.locfileid: "1577836"
 <tbody>
 <tr>
 <td>询问社区。</td>
-<td>转到 <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> 社区页以在 Dynamics 社区中查找有关您的问题的帮助。</td>
+<td>转到 <a href="https://community.dynamics.com/365/retail">Dynamics 365 Retail</a> 社区页以在 Dynamics 社区中查找有关您的问题的帮助。</td>
 </tr>
 <tr>
 <td>使用问题搜索工具。</td>
@@ -74,7 +74,7 @@ ms.locfileid: "1577836"
 对于与登录和访问 CustomerSource、远程学习、搜索、知识库、文件下载和页面或系统错误有关的技术问题，请转至<a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">网站支持</a>。</td>
 </tr>
 <tr>
-<td>获取有关 Retail 或 Finance and Operations 许可问题的帮助。</td>
+<td>获取与许可有关的问题的帮助。</td>
 <td>联系合作伙伴、大客户经销商 (LAR) 或 Microsoft 销售代表。</td>
 </tr>
 <tr>

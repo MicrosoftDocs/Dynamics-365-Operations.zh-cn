@@ -1,6 +1,6 @@
 ---
-title: 在 Microsoft Dynamics 365 for Talent - Attract 中配置电子邮件设置
-description: 本主题介绍如何为 Microsoft Dynamcis 365 for Talent - Attract 发送的电子邮件配置设置。
+title: 在 Microsoft Dynamics 365 Talent - Attract 中配置电子邮件设置
+description: 本主题介绍如何为 Microsoft Dynamcis 365 Talent - Attract 发送的电子邮件配置设置。
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2019
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: c891a36f01d36774bd921475fa5995d207cd2d51
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739487"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008654"
 ---
 # <a name="configure-email-settings"></a>配置电子邮件设置
 
 [!include[banner](../includes/banner.md)]
 
-甚至在应聘者申请您的职位之前，您的品牌就已经树立了信誉，并可以帮助您建立与应聘者之间的关系。 品牌正面形象会吸引最优秀的人才，并且会提高现有员工的忠诚。 Microsoft Dynamics 365 for Talent: Attract 允许您配置电子邮件，使其体现贵公司的品牌。 因此，可以为工作应聘者在经历申请流程时提供一致的体验。
+甚至在应聘者申请您的职位之前，您的品牌就已经树立了信誉，并可以帮助您建立与应聘者之间的关系。 品牌正面形象会吸引最优秀的人才，并且会提高现有员工的忠诚。 Microsoft Dynamics 365 Talent: Attract 允许您配置电子邮件，使其体现贵公司的品牌。 因此，可以为工作应聘者在经历申请流程时提供一致的体验。
 
 可使用 Attract 执行以下操作：
 

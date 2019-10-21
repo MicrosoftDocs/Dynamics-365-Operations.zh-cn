@@ -1,6 +1,6 @@
 ---
 title: 没有在 Attract 或 Onboard 的人员选择器中找到用户
-description: 本主题说明当公司租户中的用户未在 Dynamics 365 for Talent Attract 或 Onboard 应用程序的人员选择器中显示时应该做什么。
+description: 本主题说明当公司租户中的用户未在 Dynamics 365 Talent - Attract 或 Onboard 的人员选择器中显示时应该做什么。
 author: andreabichsel
 manager: AnnBe
 ms.date: 01/22/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 2a3c83fcc3f48aa235ffb2db2dc492b34a306c4c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742741"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024176"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>未在人员选择器中找到 Azure Active Directory 用户
 
@@ -30,11 +30,11 @@ ms.locfileid: "1742741"
 
 ## <a name="issue"></a>发货
 
-当在 Dynamics 365 for Talent Attract 或 Onboard 应用程序的人员选择器中搜索姓名时，租户的 Microsoft Azure Active Directory (Azure AD) 中的某些有效用户不显示。
+当在 Dynamics 365 Talent: Attract 或 Dynamics 365 Talent: Onboard 的人员选择器中搜索姓名时，租户的 Microsoft Azure Active Directory (Azure AD) 中的某些有效用户不显示。
 
 ## <a name="cause"></a>原因
 
-某些用户类型当前在 Attract 和 Onboard 应用程序中不支持。 验证用户不是 Azure AD 企业到企业 (B2B) 来宾用户。 “用户类型”信息可以在 Azure 门户的 Azure Active Directory 边栏选项卡中找到。
+某些用户类型当前在 Attract 和 Onboard 中不支持。 验证用户不是 Azure AD 企业到企业 (B2B) 来宾用户。 “用户类型”信息可以在 Azure 门户的 Azure Active Directory 边栏选项卡中找到。
 
 有关 Azure B2B 的详细信息，请参阅 [Azure Active Directory B2B 中的来宾用户访问是什么](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b)。
 

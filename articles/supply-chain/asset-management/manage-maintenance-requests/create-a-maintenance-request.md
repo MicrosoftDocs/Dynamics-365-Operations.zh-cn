@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 03e090633276cd264ad03f561ddb425a9816357e
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847497"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024629"
 ---
 # <a name="create-maintenance-requests"></a>创建维护请求
 
@@ -41,7 +41,7 @@ Active maintenance requests section of the Related information pane on the right
 2. 选择**新建**。
 3. 在**创建请求**对话框的**维护请求类型**字段中，选择维护请求的类型。 将推荐默认类型。
 4. 在**描述**字段中，输入用于简要描述维护请求的名称或标题。
-5. 在**功能位置**和**资产**字段中，根据需要设置功能位置或资产，或功能位置和资产的组合。 创建维护请求时可以不选择资产，以后可以向该维护请求添加资产。 如果已登录的 Microsoft Dynamics 365 for Finance and Operations 维护工人与该资产的关联资源有关，将自动设置**资产**字段。
+5. 在**功能位置**和**资产**字段中，根据需要设置功能位置或资产，或功能位置和资产的组合。 创建维护请求时可以不选择资产，以后可以向该维护请求添加资产。 如果已登录的维护工人与该资产的关联资源有关，将自动设置**资产**字段。
 
     如果已经为所选资产关联了维护请求，将在**创建请求**对话框顶部显示消息栏，告知您现有维护请求的 ID。 消息栏该告知您该资产是否涵盖在某个保修协议内。
 

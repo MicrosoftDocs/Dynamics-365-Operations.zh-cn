@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent 的新增功能或更改（2019 年 7 月 9 日）
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent 中的新增功能和更改的功能。
+title: Dynamics 365 Talent 的新增功能或更改（2019 年 7 月 9 日）
+description: 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/09/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e5bb02a7128cb920a79a5f04ac910be205aeed41
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: b3eb53943546166eee845749a070ed2fca1a03b8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856369"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023945"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-9-2019"></a>Dynamics 365 for Talent 的新增功能或更改（2019 年 7 月 9 日）
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>Dynamics 365 Talent 的新增功能或更改（2019 年 7 月 9 日）
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍了 Dynamics 365 for Talent 中的新增功能和更改的功能。
+此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
 ## <a name="changes-in-attract"></a>Attract 中的更改
 
@@ -48,9 +48,9 @@ ms.locfileid: "1856369"
 
 本部分中的更改适用于内部版本号 8.1.2374。
 
-### <a name="platform-update-28"></a>平台 update 28
+### <a name="platform-update-28-for-finance-and-operations"></a>Finance and Operations 的平台更新 28
 
-有关平台更新 28 的其他详细信息，请参阅 [Dynamics 365 for Finance and Operations 平台更新 28（2019 年 7 月）中的预览功能](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28)。
+有关 Finance and Operations 的平台更新 28 的更多详细信息，请参阅 [Dynamics 365 Finance and Operations 平台更新 28（2019 年 7 月）的预览功能](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28)。
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Common Data Service 中自定义字段的实体支持 
 

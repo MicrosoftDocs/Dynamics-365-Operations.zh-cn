@@ -1,6 +1,6 @@
 ---
 title: 运输管理概览
-description: 本主题提供 Microsoft Dynamics 365 for Finance and Operations 中运输管理功能的概览。
+description: 本主题提供 Finance and Operations 中运输管理功能的概览。
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561141"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2027053"
 ---
 # <a name="transportation-management-overview"></a>运输管理概览
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供 Microsoft Dynamics 365 for Finance and Operations 中运输管理功能的概览。
+本主题提供 Finance and Operations 中运输管理功能的概览。
 
-“运输管理”能让您使用公司的运输，还能让您为进货和出货订单标识供应商和路线解决方法。 例如，您可以标识装运的最快路线或最便宜费率。 下表描述在 Microsoft Dynamics 365 for Finance and Operations 中使用运输管理的主要情况。
+“运输管理”能让您使用公司的运输，还能让您为进货和出货订单标识供应商和路线解决方法。 例如，您可以标识装运的最快路线或最便宜费率。 下表描述使用运输管理的主要情况。
 
 <table>
 <colgroup>
@@ -40,7 +40,7 @@ ms.locfileid: "1561141"
 </colgroup>
 <thead>
 <tr class="header">
-<th>方案</th>
+<th>场景</th>
 <th>运输管理如何提供帮助</th>
 </tr>
 </thead>

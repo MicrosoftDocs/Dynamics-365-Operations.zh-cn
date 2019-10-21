@@ -1,6 +1,6 @@
 ---
 title: 简化的员工条目和导航
-description: Dynamics 365 for Talent 中的工作人员的数据输入已得到增强，允许所有员工（过去、现在或将来）快速输入。 已更新简化/整合的导航模型，可以快速查找相关信息并查看和进行任何必要的更新。
+description: Dynamics 365 Talent 中的工作人员的数据输入已得到增强，允许所有员工（过去、现在或将来）快速输入。 已更新简化/整合的导航模型，可以快速查找相关信息并查看和进行任何必要的更新。
 author: andreabichsel
 manager: AnnBe
 ms.date: 08/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: be0253ffc4396f36050ef02c51a20d378e44473d
-ms.sourcegitcommit: 4176c333ce3f88c5c68e95bd47e5791d32365dd2
+ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918187"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009414"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>简化的员工条目和导航
 
 [!include [banner](includes/banner.md)]
 
-Dynamics 365 for Talent 允许高效输入员工和雇用数据。 您可以快速更新过去、现在和将来员工和合同工的工作历史信息。
+Dynamics 365 Talent 允许高效输入员工和雇用数据。 您可以快速更新过去、现在和将来员工和合同工的工作历史信息。
 
 您还可以启用简化的导航体验，来快速查找相关信息并进行必要的更改。 此功能现在可在沙盒环境中使用。 要打开此功能，请导航至**系统管理 > 链接 > 设置 > 系统参数 > 预览功能**。 选择**增强的工作人员窗体和导航**。 这将为所有用户启用这些更改。 您可以随时关闭此选项。
 

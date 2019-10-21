@@ -1,6 +1,6 @@
 ---
 title: 审核特定采购类别的供应商
-description: 本主题说明如何在 Dynamics 365 for Finance and Operations 中审核特定采购类别的供应商。
+description: 本主题说明如何在 Dynamics 365 Supply Chain Management 中审核特定采购类别的供应商。
 author: mkirknel
 manager: AnnBe
 ms.date: 07/30/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1583a2eedc535f81b84e3094fee1574451f6f209
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: e47124e22dd6c0e756bf42429327254f966b48a2
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867141"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018081"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>审核特定采购类别的供应商
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-本主题说明如何在 Dynamics 365 for Finance and Operations 中审核特定采购类别的供应商。 创建采购申请时，可能需要选择核准供应商或首选供应商，具体取决于制订的采购政策。 此过程演示如何指定供应商是特定采购类别的核准供应商或首选供应商。 此任务通常由采购专业人员完成。 您可以在演示数据公司 USMF 中使用此过程。
+本主题说明如何在 Dynamics 365 Supply Chain Management 中审核特定采购类别的供应商。 创建采购申请时，可能需要选择核准供应商或首选供应商，具体取决于制订的采购政策。 此过程演示如何指定供应商是特定采购类别的核准供应商或首选供应商。 此任务通常由采购专业人员完成。 您可以在演示数据公司 USMF 中使用此过程。
 
 1. 在导航窗格中，转到**模块 > 采购 > 供应商 > 所有供应商**。
 2. 选择要设置为类别的核准供应商或首选供应商的供应商。

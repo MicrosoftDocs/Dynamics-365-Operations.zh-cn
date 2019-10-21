@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 83d969fcc59af87da3921225974ebc2ae41d9fa1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572826"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250982"
 ---
 # <a name="merge-inventory-batches"></a>合并库存批次
 
@@ -89,7 +89,7 @@ ms.locfileid: "1572826"
 不，您只可以合并全部批次数量。 批次合并功能作为库存功能，而非生产功能。
 
 ## <a name="what-if-the-batches-have-different-batch-attribute-values"></a>批次具有不同的批次属性值怎么办？
-选择要结合在合并批次中的源批次时，Finance and Operations 验证所有批次是否具有特征或属性值。 如果属性值相同，则会为合并批次建议一个值。 可以更改该值。 合并批次的不同属性值将留空，您可以手动输入这些值。 如果属性值的批次属性类型是整数或分数，且所有源批次的值不同，则将会使用加权平均计算来计算值。 计算的值将四舍五入为最接近的增量。 如果源批次的值为空，则批次和数量不会包括在计算中。 **示例**下面举例显示了合并批次的加权平均计算。 两个源批次对于为整数的批次属性类型提供了空值。 以下属性分配给了源批次。
+选择要结合在合并批次中的源批次时，Supply Chain Management 验证所有批次是否具有特征或属性值。 如果属性值相同，则会为合并批次建议一个值。 可以更改该值。 合并批次的不同属性值将留空，您可以手动输入这些值。 如果属性值的批次属性类型是整数或分数，且所有源批次的值不同，则将会使用加权平均计算来计算值。 计算的值将四舍五入为最接近的增量。 如果源批次的值为空，则批次和数量不会包括在计算中。 **示例**下面举例显示了合并批次的加权平均计算。 两个源批次对于为整数的批次属性类型提供了空值。 以下属性分配给了源批次。
 
 | 属性 | 最小值 | 增量 | 最大值 |
 |-----------|---------|-----------|---------|

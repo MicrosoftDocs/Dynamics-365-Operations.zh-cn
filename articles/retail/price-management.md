@@ -1,6 +1,6 @@
 ---
 title: 零售销售价管理
-description: 本主题介绍在 Microsoft Dynamics 365 for Retail 中创建和管理销售价的概念。
+description: 本主题介绍在 Dynamics 365 Retail 中创建和管理销售价的概念。
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -17,18 +17,18 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 813547f522f5c69920eadf9df61e7f01b13ecd36
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624781"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025210"
 ---
 # <a name="retail-sales-price-management"></a>零售销售价格管理
 
 [!include [banner](includes/banner.md)]
 
-本主题提供有关 Microsoft Dynamics 365 for Retail 中的销售价创建和管理流程的信息。 重点介绍此流程中涉及的概念，以及各种配置选项对销售价的影响。
+本主题提供有关 Dynamics 365 Retail 中的销售价创建和管理流程的信息。 重点介绍此流程中涉及的概念，以及各种配置选项对销售价的影响。
 
 ## <a name="terminology"></a>术语
 

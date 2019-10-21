@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27f574be865ca5f7474e11c7aae1a110f66298c8
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865464"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250775"
 ---
 # <a name="inventory-management-overview"></a>库存管理概览
 
@@ -53,10 +53,8 @@ ms.locfileid: "1865464"
 ### <a name="inventory-accounting"></a>库存会计 
 若要了解更多信息，请参阅[成本管理中的库存会计](../cost-management/inventory-close.md)。
 
-### <a name="manufacturing-and-supply-chain-management-blogs"></a>制造和供应链管理博客
+### <a name="manufacturing-and-supply-chain-management-blogs"></a>制造和 Supply Chain Management 博客
 您可以在 [Dynamics AX 制造研发团队博客](https://blogs.msdn.microsoft.com/axmfg)和 [Dynamics AX 研发团队中的供应链管理博客](https://blogs.msdn.microsoft.com/dynamicsaxscm)中找到有关库存管理及其他解决方案的建议、新闻和其他信息。
 
 ### <a name="task-guides"></a>任务指南
-其他帮助在 Finance and Operations 中作为任务指南提供。 若要访问任务指南，请单击任何页面上的**帮助**按钮。
-
-
+其他帮助作为任务指南提供。 若要访问任务指南，请单击任何页面上的**帮助**按钮

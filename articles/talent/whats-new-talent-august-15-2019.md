@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent 的新增功能或更改（2019 年 8 月 13 日）
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent 中的新增功能和更改的功能。
+title: Dynamics 365 Talent 的新增功能或更改（2019 年 8 月 13 日）
+description: 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 8/13/2019
@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1c10d5d7639c1606b00f95e0bd2b3b3fec326787
-ms.sourcegitcommit: db84eeef6f0bd531ba45b5e66bdacfd0398472e6
+ms.openlocfilehash: b813f3e4707724c262a32aca1227b3d91d1a229f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887475"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025971"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-13-2019"></a>Dynamics 365 for Talent 的新增功能或更改（2019 年 8 月 13 日）
+# <a name="whats-new-or-changed-in-dynamics-365-talent-august-13-2019"></a>Dynamics 365 Talent 的新增功能或更改（2019 年 8 月 13 日）
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍了 Dynamics 365 for Talent 中的新增功能和更改的功能。
+此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
 ## <a name="changes-in-attract"></a>Attract 中的更改
 本版本中包含 Dynamics 365 Talent: Attract 的小缺陷修复。
 
-## <a name="changes-in-onboard"></a>Changes 中的更改
+## <a name="changes-in-onboard"></a>Onboard 中的更改
 本版本中包含 Dynamics 365 Talent: Onboard 的小缺陷修复。
 
 ## <a name="changes-in-core-hr"></a>Core HR 中的更改
@@ -54,9 +54,9 @@ ms.locfileid: "1887475"
 
 ## <a name="coming-soon"></a>即将推出
 
-### <a name="platform-update-29"></a>平台 update 29
+### <a name="platform-update-29-for-finance-and-operations"></a>Finance and Operations 的平台更新 29
 
-有关平台更新 29 的其他详细信息，请参阅 [Dynamics 365 for Finance and Operations 平台更新 29（2019 年 10 月）中的预览功能](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29)。
+有关 Finance and Operations 的平台更新 29 的更多详细信息，请参阅 [Dynamics 365 Finance and Operations 平台更新 29（2019 年 10 月）的预览功能](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29)。
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>简化的员工条目和导航
 

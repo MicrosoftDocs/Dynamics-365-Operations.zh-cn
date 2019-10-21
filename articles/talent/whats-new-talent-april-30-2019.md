@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent（2019 年 4 月 30 日）中的新增功能或更改
-description: 此主题介绍了 Microsoft Dynamics 365 for Talent 中的新增功能和更改的功能。
+title: Dynamics 365 Talent（2019 年 4 月 30 日）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/30/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 112146ac46193e37b33bf429dc5a359f8cfaca94
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 38158948dbcf8966edf49bcce5b1e5da7eddb8dc
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505359"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026024"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-30-2019"></a>Dynamics 365 for Talent（2019 年 4 月 30 日）中的新增功能或更改
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-30-2019"></a>Dynamics 365 Talent（2019 年 4 月 30 日）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍了 Microsoft Dynamics 365 for Talent 中的新增功能和更改的功能。
+此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 
 ## <a name="changes-in-attract"></a>Attract 中的更改
 
 本版本中包含 Dynamics 365 Talent: Attract 的小缺陷修复。
 
-## <a name="changes-in-onboard"></a>Changes 中的更改
+## <a name="changes-in-onboard"></a>Onboard 中的更改
 
 本版本中包含 Dynamics 365 Talent: Onboard 的小缺陷修复。
 
@@ -100,4 +100,4 @@ Talent 中用于提供反馈的选项位于**帮助**菜单 (**?**) 上。 可�
 
 ### <a name="email-support-for-alerts"></a>警报的电子邮件支持
 
-安装平台更新 26 之后，用户可创建警报规则，用于在事件触发通知后自动向联系人发送电子邮件通知。
+在 Finance and Operations 的平台更新 26 中，用户可创建警报规则，用于在被事件触发后自动为联系人发送电子邮件通知。
