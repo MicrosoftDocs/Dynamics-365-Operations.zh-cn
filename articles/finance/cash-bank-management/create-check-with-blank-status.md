@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: af79dd4831f2e7fc71c296922d73a9e42f7955b3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 47d54524f87cf718b9b41462b5133df267d5dd9e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175843"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570279"
 ---
 # <a name="create-checks-that-have-blank-status"></a>创建具有空白状态的支票
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题介绍了如何创建空白支票。 例如，您可以创建一个空白支票以记录已损坏并且不能用于付款的支票。
 

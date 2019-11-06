@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b48313e93573e3214de0ee02c4894b000dc18f67
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34af4cc05b6966b5f118c1dd2adbda288a0f3da1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175840"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570117"
 ---
 # <a name="financial-management-home-page"></a>财务管理主页
 
@@ -69,4 +69,8 @@ ms.locfileid: "2175840"
 ### <a name="countryregion-functionality"></a>国家/地区功能
 
 国家/地区法规会影响税务设置和财务管理的其他方面。 请参阅我们帮助内容中的[本地化和监管功能](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)部分，了解特定于国家/地区的功能。
+
+### <a name="additional-content"></a>其他内容
+
+供应链管理功能涵盖了采购到付款流程的多个部分，包括针对您组织所购买的商品或服务的申请、订购、接收、开票和付款。 请参阅 [!Supply Chain Management 主页](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md)，了解有关管理采购、库存和制造的功能的信息。 
 

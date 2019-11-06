@@ -16,18 +16,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ff513d2e2d2968e531e4515c45abdc470b384123
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184086"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570325"
 ---
 # <a name="revenue-recognition-setup"></a>收入确认设置
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 添加了一个新的**收入确认**模块，该模块包括所有必需设置的菜单项。 本主题介绍设置选项及其影响。
+
+> [!NOTE]
+> 收入确认功能不能通过功能管理来启用。 目前，您必须使用 Configuration Key 启用该功能。
 
 **收入确认**模块具有以下设置选项：
 

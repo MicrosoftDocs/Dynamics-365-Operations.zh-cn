@@ -42,6 +42,8 @@
               items:
                 - name: 部署选项
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 云和本地功能的比较
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 云部署
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 云部署的系统要求
@@ -60,16 +62,20 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: 新增功能或更改
               items:
-                - name: 新增功能或更改主页
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md
-                - name: Finance and Operations 应用 10.0.6 中的预览功能（2019 年 11 月）
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-6.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations 应用 10.0.5（2019 年 10 月）
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations 10.0.4（2019 年 7 月）
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations，Enterprise edition 7.3
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Supply Chain Management 版本 10.0.7（2019 年 12 月）预览功能
+                  href: get-started/whats-new-scm-10-0-7.md
+                - name: Supply Chain Management 10.0.6（2019 年 11 月）
+                  href: get-started/whats-new-scm-10-0-6.md
+                - name: 先前版本中的新增功能或更改
+                  items:
+                    - name: Finance and Operations 新增功能或更改主页
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Finance and Operations 应用 10.0.5（2019 年 10 月）
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Finance and Operations 10.0.4（2019 年 7 月）
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Finance and Operations，Enterprise edition 7.3
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 已删除或弃用的功能
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 延迟发布的 AX 2012 功能
@@ -1687,8 +1693,6 @@
                       href: production-control/register-material-consumption-hand-held-device.md
                     - name: 使用耗用原则控制原材料消耗量
                       href: production-control/flushing-principles.md
-                    - name: 从生产订单到出货台的越库配送
-                      href: production-control/cross-docking-opportunities.md
                     - name: 设置成品的生产输出位置
                       href: production-control/production-output-location.md
                     - name: 将物料清单报告为已完工入库
@@ -1933,7 +1937,7 @@
               items:
                 - name: 价格模拟
                   href: sales-marketing/price-simulation.md
-                - name: 成批创建销售报价单
+                - name: 批量创建销售报价单
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: 创建和编辑销售报价单
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
@@ -2285,6 +2289,12 @@
                   href: warehousing/manage-warehouse-workers.md
                 - name: 仓库工作延期处理
                   href: warehousing/deferred-put.md
+            - name: 越库配送
+              items:
+                - name: 从生产订单到出货台的越库配送
+                  href: production-control/cross-docking-opportunities.md
+                - name: 越库配送的自动解除装运
+                  href: warehousing/auto-release-shipment-for-cross-docking.md
             - name: 部分解除和部分装运
               items:
                 - name: 运输负荷的部分装运
@@ -2311,6 +2321,8 @@
                   href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
                 - name: 设置领料短缺的物料重新分配
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                - name: 取消要进行异常处理的仓库工作
+                  href: warehousing/cancel-warehouse-work.md
             - name: 库存盘点
               items:
                 - name: 库存盘点原因代码
