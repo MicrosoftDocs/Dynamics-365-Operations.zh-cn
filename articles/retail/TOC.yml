@@ -7,191 +7,193 @@
         - name: 入门
           items:
             - name: 购买之前
-              href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/retail/toc.json
             - name: 注册预览订阅
-              href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/retail/toc.json
             - name: 一个版本服务更新
               items:
                 - name: 一个版本服务更新概览
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/retail/toc.json
                 - name: 一个版本服务更新常见问题
-                  href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/retail/toc.json
                 - name: 软件生命周期策略 - 云
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/retail/toc.json
                 - name: 软件生命周期策略 - 本地
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/dynamics365/retail/toc.json
                 - name: 服务更新可用性
-                  href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/retail/toc.json
                 - name: 将更新应用于云环境
-                  href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/retail/toc.json
                 - name: 配置服务更新
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/retail/toc.json
                 - name: 暂停服务更新
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/retail/toc.json
                 - name: 获取有关服务更新的通知
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/retail/toc.json
                 - name: 数据任务自动化
-                  href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/retail/toc.json
                 - name: 使用一个版本提供 ISV 解决方案
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/retail/toc.json
                 - name: 创建和自动执行用户接受度测试
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/retail/toc.json
             - name: 部署演示环境
-              href: ../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md?toc=/dynamics365/retail/toc.json
             - name: 部署注意事项
               items:
                 - name: 部署选项
-                  href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/retail/toc.json
+                - name: 云和本地功能的比较
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/retail/toc.json
                 - name: 云部署
-                  href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/retail/toc.json
                 - name: 云部署的系统要求
-                  href: ../fin-ops-core/fin-ops/get-started/system-requirements.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: get-started/system-requirements.md
                 - name: 本地部署
-                  href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/retail/toc.json
                 - name: 本地部署的系统要求
-                  href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/retail/toc.json
+                - name: 本地环境中零售渠道组件的安装步骤
+                  href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/retail/toc.json
                 - name: 购买 Finance + Operations (on-premises)
-                  href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/retail/toc.json
                 - name: Finance and Operations 应用由 21Vianet 在中国运营
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/retail/toc.json
                 - name: 法国 Finance and Operations 应用
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/retail/toc.json
             - name: 新增功能或更改
               items:
-                - name: Retail 新增功能或更改主页
-                  href: get-started/whats-new.md
-                - name: Retail 10.0.6 预览功能
+                - name: Retail 版本 10.0.7 预览功能
+                  href: get-started/whats-new-10-0-7.md
+                - name: Retail 版本 10.0.6
                   href: get-started/whats-new-10-0-6.md
-                - name: Retail 10.0.5
+                - name: Retail 版本 10.0.5
                   href: get-started/whats-new-10-0-5.md
-                - name: Finance and Operations 新增功能或更改
+                - name: 先前版本中的新增功能或更改
                   items:
                     - name: Finance and Operations 新增功能或更改主页
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md
-                    - name: Finance and Operations 应用 10.0.6 中的预览功能（2019 年 11 月）
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-6.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/retail/toc.json
                     - name: Finance and Operations 应用 10.0.5（2019 年 10 月）
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/retail/toc.json
                     - name: Finance and Operations 10.0.4（2019 年 7 月）
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/retail/toc.json
                     - name: Finance and Operations，Enterprise edition 7.3
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/retail/toc.json
                 - name: 已删除或弃用的功能
                   items:
                     - name: Finance and Operations 中已删除或弃用的功能
-                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/retail/toc.json
                 - name: 延迟发布的 AX 2012 功能
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/retail/toc.json
                 - name: 未在本地部署中实现的功能
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/retail/toc.json
                 - name: Microsoft Dynamics AX 2009 和 2012 主流支持结束
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/retail/toc.json
             - name: 文档资源
               items:
                 - name: 帮助系统
-                  href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/retail/toc.json
                 - name: 连接帮助系统
-                  href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/retail/toc.json
                 - name: 连接自定义帮助站点
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/retail/toc.json
                 - name: 查看和导出字段描述
-                  href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/retail/toc.json
                 - name: 任务录制器
-                  href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/retail/toc.json
                 - name: 通过任务录制器创建文档或培训
-                  href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/retail/toc.json
                 - name: 视频
-                  href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/retail/toc.json
                 - name: 词汇表
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/retail/toc.json
             - name: 学习目录
               items:
                 - name: 学习目录主页
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/retail/toc.json
                 - name: 业务决策者
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/retail/toc.json
                 - name: 业务用户
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/retail/toc.json
                 - name: 实施项目经理
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/retail/toc.json
                 - name: 管理员
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/retail/toc.json
                 - name: 开发人员
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/retail/toc.json
                 - name: 合作伙伴销售和市场营销
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/retail/toc.json
                 - name: 功能顾问
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/retail/toc.json
                 - name: 解决方案架构师
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/retail/toc.json
             - name: 浏览用户界面
               items:
                 - name: 用户界面元素
-                  href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/retail/toc.json
                 - name: 辅助功能
-                  href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/retail/toc.json
                 - name: 功能管理概览
-                  href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/retail/toc.json
                 - name: 客户端常见问题
-                  href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/retail/toc.json
                 - name: 操作搜索
-                  href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/retail/toc.json
                 - name: 高级筛选和查询语法
-                  href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/retail/toc.json
                 - name: 配置和筛选工作区
-                  href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/retail/toc.json
                 - name: 使用“在新窗口中打开”功能并排显示页面
-                  href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/retail/toc.json
                 - name: 键盘快捷方式
-                  href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/retail/toc.json
                 - name: 更改法人的横幅或徽标图像
-                  href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/retail/toc.json
                 - name: 导航搜索
-                  href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/retail/toc.json
                 - name: 打造个性化的用户体验
-                  href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/retail/toc.json
                 - name: 已保存的视图
-                  href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/retail/toc.json
                 - name: 创建并使用自定义字段
-                  href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/retail/toc.json
                 - name: 嵌入 PowerApps 应用
-                  href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/retail/toc.json
                 - name: 使用查询来查找信息
-                  href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/retail/toc.json
                 - name: 更改会话的日期
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/retail/toc.json
                 - name: 设置用户的首选时区
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/retail/toc.json
                 - name: 了解 Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/retail/toc.json
             - name: 实施生命周期管理
               items:
                 - name: 实施生命周期管理主页
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/retail/toc.json
                 - name: Finance and Operations 应用的体系结构
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/retail/toc.json
                 - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/retail/toc.json
                 - name: 加入实施项目
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/retail/toc.json
                 - name: 环境计划
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/retail/toc.json
                 - name: 准备实施
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/retail/toc.json
                 - name: 实施常见问题
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/retail/toc.json
                 - name: 提交服务请求
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/retail/toc.json
                 - name: 订阅、LCS 项目和 Azure AD 租户常见问题
-                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/retail/toc.json
                 - name: 在数据中心之间移动环境
-                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/retail/toc.json
                 - name: 在协议类型之间移动许可证
-                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/retail/toc.json
                 - name: 将 LCS 实施项目移动到其他 Azure AD 租户
-                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/retail/toc.json
                 - name: 一个 Azure AD 租户上的多个 LCS 项目和生产环境
-                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/retail/toc.json
                 - name: 实施 Finance and Operations Retail 项目
                   href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
                 - name: 为 Retail 项目设置新的环境、Azure DevOps 和分支
@@ -203,265 +205,265 @@
         - name: 智能
           items:
             - name: 智能主页
-              href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/retail/toc.json
             - name: 信息访问和报告
-              href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/retail/toc.json
             - name: Power BI 内容
               items:
                 - name: Power BI 内容主页
-                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-home-page.md?toc=/dynamics365/retail/toc.json
                 - name: 实际与预算
-                  href: ../fin-ops-core/dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/dynamics365/retail/toc.json
                 - name: 福利
-                  href: ../fin-ops-core/dev-itpro/analytics/benefits-power-bi.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/benefits-power-bi.md?toc=/dynamics365/retail/toc.json
                 - name: 现金概览
                   href: ../finance/cash-bank-management/Cash-Overview-Power-BI-content.md
                 - name: 首席财务官概览
-                  href: ../fin-ops-core/dev-itpro/analytics/CFO-power-bi.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/CFO-power-bi.md?toc=/dynamics365/retail/toc.json
                 - name: 薪酬
-                  href: ../fin-ops-core/dev-itpro/analytics/compensation-power-bi.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/compensation-power-bi.md?toc=/dynamics365/retail/toc.json
                 - name: 薪酬福利
-                  href: ../fin-ops-core/dev-itpro/analytics/compensation-and-benefits-analysis-power-bi-content-pack.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/compensation-and-benefits-analysis-power-bi-content-pack.md?toc=/dynamics365/retail/toc.json
                 - name: 成本核算分析
                   items:
                     - name: 成本核算分析 Power BI 内容
-                      href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/retail/toc.json
                     - name: 设置成本核算分析 Power BI 内容的安全性
-                      href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/retail/toc.json
                 - name: 成本管理
-                  href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/retail/toc.json
                 - name: 信用和收款管理
                   href: ../finance/accounts-receivable/credit-collections-power-bi.md
                 - name: 员工能力和发展
-                  href: ../fin-ops-core/dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack.md?toc=/dynamics365/retail/toc.json
                 - name: 员工发展
-                  href: ../fin-ops-core/dev-itpro/analytics/employee-development-PBI.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/employee-development-PBI.md?toc=/dynamics365/retail/toc.json
                 - name: 费用管理 Power BI 内容
-                  href: ../fin-ops-core/dev-itpro/analytics/expense-management-content-pack.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/expense-management-content-pack.md?toc=/dynamics365/retail/toc.json
                 - name: 财务绩效
-                  href: ../fin-ops-core/dev-itpro/analytics/financial-performance-power-bi-content-pack.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/financial-performance-power-bi-content-pack.md?toc=/dynamics365/retail/toc.json
                 - name: 财务见解
-                  href: ../fin-ops-core/dev-itpro/analytics/financial-insights.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/financial-insights.md?toc=/dynamics365/retail/toc.json
                 - name: 固定资产管理
                   href: ../finance/fixed-assets/Fixed-asset-management-workspace.md
                 - name: 学习
-                  href: ../fin-ops-core/dev-itpro/analytics/learning-power-bi.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/learning-power-bi.md?toc=/dynamics365/retail/toc.json
                 - name: 组织培训
-                  href: ../fin-ops-core/dev-itpro/analytics/organizational-training-analysis-power-bi-content-pack.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/organizational-training-analysis-power-bi-content-pack.md?toc=/dynamics365/retail/toc.json
                 - name: 实践经理
-                  href: ../fin-ops-core/dev-itpro/analytics/practice-manager-power-bi.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/practice-manager-power-bi.md?toc=/dynamics365/retail/toc.json
                 - name: 生产绩效
-                  href: ../fin-ops-core/dev-itpro/analytics/production-performance-power-bi.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/production-performance-power-bi.md?toc=/dynamics365/retail/toc.json
                 - name: 采购花费分析
-                  href: ../fin-ops-core/dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/dynamics365/retail/toc.json
                 - name: 招聘
-                  href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/retail/toc.json
                 - name: 零售渠道绩效
-                  href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/retail/toc.json
                 - name: 销售和收益率绩效
-                  href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/retail/toc.json
                 - name: 供应商付款
                   href: ../finance/accounts-payable/Vendor-payments-workspace.md
                 - name: 仓库性能
-                  href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/dynamics365/retail/toc.json
                 - name: 劳动力指标
-                  href: ../fin-ops-core/dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/dynamics365/retail/toc.json
             - name: 文档报告和打印
               items:
                 - name: 文档报告服务概览
-                  href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/retail/toc.json
                 - name: 为本地部署配置 SSRS
-                  href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/retail/toc.json
                 - name: 打印
                   items:
                     - name: 文档打印概览
-                      href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?toc=/dynamics365/retail/toc.json
                     - name: 安装文档路线选择代理以启用网络打印
-                      href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/retail/toc.json
                     - name: 升级文档路线选择代理
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md
                     - name: 在本地环境中安装网络打印机设备
-                      href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/retail/toc.json
                     - name: 本地部署中的文档生成、发布和打印
-                      href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/retail/toc.json
                     - name: 将文档路线选择代理作为 Windows 服务运行
-                      href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/dynamics365/retail/toc.json
                 - name: 帮助防止长时间运行的报表超时
-                  href: ../fin-ops-core/dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/dynamics365/retail/toc.json
                 - name: 可用的 SQL Server Reporting Services 报表
-                  href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?toc=/dynamics365/retail/toc.json
                 - name: 创建报告解决方案
-                  href: ../fin-ops-core/dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/dynamics365/retail/toc.json
                 - name: 安装报表设计模板
-                  href: ../fin-ops-core/dev-itpro/analytics/install-modern-report-design-templates.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/install-modern-report-design-templates.md?toc=/dynamics365/retail/toc.json
                 - name: 使用扩展来自定义应用套件报告
-                  href: ../fin-ops-core/dev-itpro/analytics/customize-app-suite-reports-with-extensions.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/customize-app-suite-reports-with-extensions.md?toc=/dynamics365/retail/toc.json
                 - name: 扩展应用程序套件报告数据集
-                  href: ../fin-ops-core/dev-itpro/analytics/expand-app-suite-report-data-sets.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/expand-app-suite-report-data-sets.md?toc=/dynamics365/retail/toc.json
                 - name: 扩展报告菜单项以重定向用户导航
-                  href: ../fin-ops-core/dev-itpro/analytics/extend-report-menu-items.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/extend-report-menu-items.md?toc=/dynamics365/retail/toc.json
                 - name: 为业务文档创建自定义设计
-                  href: ../fin-ops-core/dev-itpro/analytics/custom-designs-business-docs.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/custom-designs-business-docs.md?toc=/dynamics365/retail/toc.json
                 - name: 使用嵌入式查看器预览 PDF 文档
-                  href: ../fin-ops-core/dev-itpro/analytics/preview-pdf-documents.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/preview-pdf-documents.md?toc=/dynamics365/retail/toc.json
             - name: 电子报告
               items:
                 - name: 电子报告概览
-                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/retail/toc.json
                 - name: 配置
                   items:
                     - name: 创建配置
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/retail/toc.json
                     - name: 准备电子报告解决方案的组件
                       items:
                         - name: 设计域特定数据模型
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/retail/toc.json
                         - name: 准备应用程序特定元数据
                           items:
                             - name: (ER) 准备要在 RCS 中使用的应用程序元数据
-                              href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+                              href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/retail/toc.json
                             - name: (RCS) 通过使用电子报告配置访问应用程序元数据
-                              href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/unified-operations/retail/toc.json
+                              href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/retail/toc.json
                             - name: (RCS) 通过使用互连应用程序访问应用程序元数据
-                              href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/unified-operations/retail/toc.json
+                              href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/retail/toc.json
                         - name: 定义模型映射并选择数据源
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/retail/toc.json
                         - name: 将数据模型映射到所选数据源
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/dynamics365/retail/toc.json
                         - name: 创建格式配置
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/dynamics365/retail/toc.json
                         - name: 将所创建格式的组件映射到数据模型元素
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/retail/toc.json
                     - name: 在目标应用程序中测试准备的电子报告解决方案
                       items:
                         - name: (ER) 从 RCS 导入配置
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/retail/toc.json
                         - name: 使用格式配置生成付款的电子单据
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/retail/toc.json
                     - name: 通过采用格式的新基本版本来升级格式
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/retail/toc.json
                 - name: 电子报告中的配方设计器
-                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/retail/toc.json
                 - name: 管理单独电子报告配置中的电子报告模型映射
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/retail/toc.json
                 - name: 创建格式时选择数据模型定义
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/retail/toc.json
                 - name: 通过将内容添加为原始 XML 生成报告
-                  href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/retail/toc.json
                 - name: (ER) 电子报告中的跨公司数据源
-                  href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/retail/toc.json
                 - name: 设计电子报告格式以生成各种格式的传出电子单据
                   items:
                     - name: (ER) 设计用于生成 OPENXML 格式的报表的配置
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/retail/toc.json
                     - name: (ER) 设计配置以生成 Word 格式的报表
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/retail/toc.json
                     - name: 设计配置以填写 PDF 模板
-                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/retail/toc.json
                 - name: 嵌入图像和形状
                   items:
                     - name: (ER) 在您生成的文档中嵌入图像和形状
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/retail/toc.json
                     - name: 嵌入图像和形状的示例
                       items:
                         - name: 设计配置以生成包含嵌入图像的 Office 格式报表
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/retail/toc.json
                         - name: 查看配置以生成包含嵌入图像的 Office 格式报表
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/retail/toc.json
                         - name: 生成包含嵌入图像的 Office 格式报表
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/retail/toc.json
                 - name: 通过重新应用 Excel 模板修改电子报告格式
-                  href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/retail/toc.json
                 - name: 定义其他组件上的电子报告配置的依赖关系
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/retail/toc.json
                 - name: 设计一个使用财务维度的电子报告解决方案
                   items:
                     - name: 将数据模型设计为使用财务维度作为数据源
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/retail/toc.json
                     - name: 将模型映射为使用财务维度作为数据源
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/retail/toc.json
                     - name: 将报表设计为使用财务维度作为数据源
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/retail/toc.json
                     - name: 运行使用财务维度作为数据源的报表
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/retail/toc.json
                 - name: 设计电子报告格式以使用来自所生成输出的信息执行盘点和合计
                   items:
                     - name: 创建格式以执行盘点和合计
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/retail/toc.json
                     - name: 配置格式以执行盘点和合计
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/retail/toc.json
                     - name: 使用计算以生成用于盘点和合计的输出
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/retail/toc.json
                     - name: 运行格式以执行盘点和合计
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/retail/toc.json
                 - name: 将作为水平扩展范围的列动态添加到 Excel 报表
                   items:
                     - name: 设计格式以将列作为水平扩展范围动态添加到 Excel 报表
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/retail/toc.json
                     - name: 运行格式以将作为水平扩展范围的列动态添加到 Excel 报表
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/retail/toc.json
                 - name: 在格式输出中使用票据管理文件
                   items:
                     - name: 准备数据模型以在电子报告输出中使用文档管理文件
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/retail/toc.json
                     - name: 扩展数据模型以在电子报告输出中使用文档管理文件
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/retail/toc.json
                     - name: 创建格式以在电子报告输出中使用文档管理文件
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/retail/toc.json
                     - name: 运行格式以在电子报告输出中使用票据管理文件
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/retail/toc.json
                     - name: 修改并运行格式以在电子报告输出中使用票据管理文件
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/retail/toc.json
                 - name: 使用电子报告更新应用程序数据
                   items:
                     - name: 生成电子文档并更新应用程序数据
-                      href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/retail/toc.json
                     - name: 导入配置以生成包含申请表数据的文档
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/dynamics365/retail/toc.json
                     - name: 设计配置以生成包含申请表数据的文档
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/dynamics365/retail/toc.json
                     - name: 修改模型和映射以生成包含申请表数据的文档
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/dynamics365/retail/toc.json
                     - name: 修改格式以生成包含应用程序数据的文档
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/retail/toc.json
                     - name: 生成包含应用程序数据的单据
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/retail/toc.json
                 - name: 通过使用电子报告解决方案从传入文件中导入数据
                   items:
                     - name: 分析不同格式的传入文档
-                      href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/retail/toc.json
                     - name: 配置来自手动选择文件的数据导入
                       items:
                         - name: 创建配置以从外部 XML 文件导入数据
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/retail/toc.json
                     - name: 配置在批处理模式下来自 SharePoint 定位文件的数据导入
-                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/retail/toc.json
                     - name: 导入 XML 格式的文件
                       items:
                         - name: 导入包含可选属性的 XML 格式文件
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/retail/toc.json
                         - name: 配置电子报告格式以导入包含可选属性的 XML 格式文件
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
                 - name: 基于文件大小和内容数量拆分生成的 XML 文件
-                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/retail/toc.json
                 - name: 支持对计算字段类型的 ER 数据源的参数化调用
-                  href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/retail/toc.json
                 - name: 配置生命周期
                   items:
                     - name: 管理配置生命周期
-                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/retail/toc.json
                     - name: 将配置上载到 Lifecycle Services 中
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/retail/toc.json
                     - name: 从 Lifecycle Services 导入配置
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/retail/toc.json
                     - name: 从 Lifecycle Services 下载配置
-                      href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/retail/toc.json
                     - name: 导入配置
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/retail/toc.json
                     - name: 从 RCS 存储库中下载电子报告配置
                       items:
                         - name: 从 RCS 类型的电子报告存储库中下载配置
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/retail/toc.json
                         - name: 从 RCS 导入配置
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
                 - name: 在 Finance and Operations 中使用电子报告解决方案
@@ -469,43 +471,43 @@
                     - name: 配置框架
                       items:
                         - name: 配置电子报告框架
-                          href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/retail/toc.json
                         - name: 备份和恢复 ER 模板
-                          href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/retail/toc.json
                         - name: 创建配置提供程序并将其标记为有效
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/retail/toc.json
                     - name: 目标
                       items:
                         - name: 目标概览
-                          href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md?toc=/dynamics365/retail/toc.json
                         - name: 配置目标
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/retail/toc.json
                     - name: 自动验证生成的报表
                       items:
                         - name: 跟踪生成的报表结果并将其与基准值进行比较
-                          href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/retail/toc.json
                         - name: 所生成电子报告报表的跟踪结果的改进以及与基准值的比较
-                          href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/retail/toc.json
                         - name: 自动测试电子报告
-                          href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/retail/toc.json
                     - name: 通过使用电子报告配置自动执行业务流程
                       items:
                         - name: 配置电子报告以便将数据导入 Power BI
-                          href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/retail/toc.json
                         - name: 生成可打印的普通发票 (FTI) 窗体
-                          href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/unified-operations/retail/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/retail/toc.json
                     - name: 跟踪电子报告格式的执行以解决性能问题
-                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/retail/toc.json
                     - name: 业务文档管理概览
-                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/retail/toc.json
                 - name: 电子报告框架 API
                   items:
                     - name: 扩展电子报告功能的列表
-                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/retail/toc.json
                     - name: 针对 Application update 7.3 的电子报告框架 API 更改
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/retail/toc.json
                     - name: 为生成文档指定自定义存储位置
-                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/retail/toc.json
             - name: 嵌入的分析解决方案
               items:
                 - name: 工作区中的嵌入式 Power BI
@@ -525,219 +527,219 @@
             - name: 用于创建和扩展解决方案的工具
               items:
                 - name: 分析、聚合度量和 KPI 建模
-                  href: ../fin-ops-core/dev-itpro/analytics/analytics.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/analytics.md?toc=/dynamics365/retail/toc.json
                 - name: 使用 Power BI Desktop 创建分析报表
-                  href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/retail/toc.json
                 - name: 为聚合数据建模
-                  href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/retail/toc.json
                 - name: 向聚合度量添加财务维度
-                  href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/retail/toc.json
                 - name: 使用 Power BI Embedded 将分析添加到工作区
-                  href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/retail/toc.json
                 - name: 使用 Power BI Embedded 帮助保护分析工作区和报表
-                  href: ../fin-ops-core/dev-itpro/analytics/secure-analytical-workspaces.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/secure-analytical-workspaces.md?toc=/dynamics365/retail/toc.json
             - name: 超级用户管理工具
               items:
                 - name: Power BI 与实体商店的集成
-                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/retail/toc.json
                 - name: 在实体商店维护后解决问题
                   href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
                 - name: 为工作区配置 Power BI 集成
-                  href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/retail/toc.json
                 - name: 提供您自己的数据库
-                  href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/retail/toc.json
         - name: 移动应用
           items:
             - name: 移动应用主页
-              href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/retail/toc.json
             - name: 移动工作区
               items:
                 - name: 可用移动工作区
-                  href: ../fin-ops-core/dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/dynamics365/retail/toc.json
                 - name: 资产管理
                   href: ../supply-chain/asset-management/asset-management-mobile-workspace.md
                 - name: 公司目录
-                  href: ../fin-ops-core/dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/retail/toc.json
                 - name: 成本控制
-                  href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/retail/toc.json
                 - name: 费用管理
-                  href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/retail/toc.json
                 - name: 现有库存
-                  href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/retail/toc.json
                 - name: 发票审核
-                  href: ../fin-ops-core/dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/dynamics365/retail/toc.json
                 - name: 我的团队
-                  href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/retail/toc.json
                 - name: Project 移动应用程序概览
-                  href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/retail/toc.json
                 - name: 项目时间条目
                   href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/retailtoc.json
                 - name: Project Timesheet
-                  href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/retail/toc.json
                 - name: 采购订单审核
-                  href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/retail/toc.json
                 - name: 销售订单
-                  href: ../supply-chain/sales-marketing/sales-orders-mobile-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../supply-chain/sales-marketing/sales-orders-mobile-workspace.md?toc=/dynamics365/retail/toc.json
                 - name: 供应商协作
-                  href: ../supply-chain/procurement/vendor-collaboration-mobile-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../supply-chain/procurement/vendor-collaboration-mobile-workspace.md?toc=/dynamics365/retail/toc.json
             - name: 发布移动工作区
-              href: ../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/retail/toc.json
         - name: Office 集成
           items:
             - name: Office 集成概览
-              href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/retail/toc.json
             - name: Office 集成教程
-              href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/retail/toc.json
             - name: 在 Excel 中打开实体数据并使用 Excel 加载项更新它
-              href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/retail/toc.json
             - name: 创建“在 Excel 中打开”体验
-              href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/retail/toc.json
             - name: 将模板添加到“在 Excel 中打开行”菜单
-              href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/retail/toc.json
             - name: 自定义“在 Microsoft Office 中打开”菜单
-              href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/retail/toc.json
             - name: 配置和发送电子邮件
-              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/retail/toc.json
             - name: 开发电子邮件体验
-              href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/retail/toc.json
             - name: Office 集成故障排除
-              href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/retail/toc.json
         - name: 组织管理
           items:
             - name: 组织管理主页
-              href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/retail/toc.json
             - name: 编号规则
               items:
                 - name: 编号规则概览
-                  href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/retail/toc.json
                 - name: 逐个设置编号规则
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/retail/toc.json
                 - name: 使用向导设置编号规则
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/retail/toc.json
             - name: 组织和组织层次结构
               items:
                 - name: 组织和组织层次结构概览
-                  href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/retail/toc.json
                 - name: 规划组织层次结构
-                  href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/retail/toc.json
                 - name: 创建组织层次结构
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/retail/toc.json
                 - name: 创建法人
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/retail/toc.json
                 - name: 创建运营单位
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/retail/toc.json
             - name: 全球通讯簿
               items:
                 - name: 全球通讯簿概览
-                  href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/retail/toc.json
                 - name: 全球通讯簿和其他通讯簿的计划
-                  href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/retail/toc.json
                 - name: 配置全球通讯簿
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/retail/toc.json
                 - name: 通讯簿常见问题
-                  href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/retail/toc.json
                 - name: 配置通讯簿
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/retail/toc.json
             - name: 工作流系统
               items:
                 - name: 工作流系统概览
-                  href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/retail/toc.json
                 - name: 工作流系统体系结构
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/retail/toc.json
                 - name: 工作流元素
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/retail/toc.json
                 - name: 工作流操作
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/retail/toc.json
                 - name: 创建工作流
                   items:
                     - name: 创建工作流概览
-                      href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/retail/toc.json
                     - name: 配置工作流属性
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/retail/toc.json
                     - name: 配置手动任务
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/retail/toc.json
                     - name: 配置自动化任务
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/retail/toc.json
                     - name: 配置审核流程
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/retail/toc.json
                     - name: 配置审核步骤
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/retail/toc.json
                     - name: 配置手动决策
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/retail/toc.json
                     - name: 配置条件决策
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/retail/toc.json
                     - name: 配置并行活动
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/retail/toc.json
                     - name: 配置并行分支
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/retail/toc.json
                     - name: 配置行项工作流
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/retail/toc.json
                 - name: 将工作流消息处理批处理作业配置为关键作业
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/retail/toc.json
                 - name: 在工作流中委托工作项
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/retail/toc.json
                 - name: 查看工作流历史记录
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/retail/toc.json
                 - name: 配置系统以向用户发送工作流相关电子邮件
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/retail/toc.json
                 - name: 工作流类型
                   items:
                     - name: 创建工作流类型
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/retail/toc.json
                     - name: 工作流类型清单
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/retail/toc.json
                     - name: 创建工作流类别
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/retail/toc.json
                     - name: 创建工作流类型查询
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/retail/toc.json
                     - name: 创建新的工作流类型
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/retail/toc.json
                     - name: 创建工作流文档类
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/retail/toc.json
                     - name: 创建 SubmitToWorkflow 类
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/retail/toc.json
                     - name: 将工作流文档类与工作流类型关联
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/unified-operations/retail/toc.json
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/retail/toc.json
                 - name: 工作流类型报告
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/retail/toc.json
                 - name: 工作流常见问题
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/retail/toc.json
             - name: 预警
               items:
                 - name: 预警概览
-                  href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/retail/toc.json
                 - name: 创建预警规则
-                  href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/retail/toc.json
                 - name: 预警的批处理
-                  href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/retail/toc.json
                 - name: 通过电子邮件发送的客户端预警通知
-                  href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/retail/toc.json
             - name: 电子签名
               items:
                 - name: 电子签名概览
-                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/retail/toc.json
                 - name: 设置电子签名
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/retail/toc.json
             - name: 案例管理
               items:
                 - name: 案例管理概览
-                  href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/retail/toc.json
                 - name: 计划案例安全、流程和类别
-                  href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/retail/toc.json
             - name: 记录模板
               items:
                 - name: 记录模板概览
-                  href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/retail/toc.json
                 - name: 创建记录模板
-                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/retail/toc.json
                 - name: 使用记录模板创建新记录
-                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/retail/toc.json
             - name: 配置文档管理
-              href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/retail/toc.json
             - name: 配置和发送电子邮件
-              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/retail/toc.json
             - name: 日期/时间数据和时区
-              href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/retail/toc.json
         - name: 渠道设置和管理
           items:
             - name: 渠道设置
@@ -783,7 +785,7 @@
         - name: 产品和促销
           items:
             - name: 产品信息概览
-              href: ../supply-chain/pim/product-information.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/pim/product-information.md?toc=/dynamics365/retail/toc.json
             - name: Retail 层次结构
               href: retail-hierarchies.md
             - name: 属性和属性组
@@ -793,9 +795,9 @@
             - name: 设置零售产品
               href: set-up-retail-products.md
             - name: 创建产品
-              href: ../supply-chain/pim/tasks/create-product.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/pim/tasks/create-product.md?toc=/dynamics365/retail/toc.json
             - name: 配置链接的产品
-              href: ../supply-chain/pim/tasks/configure-linked-products.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/pim/tasks/configure-linked-products.md?toc=/dynamics365/retail/toc.json
             - name: 向法人发布产品/基础产品
               href: ../supply-chain/pim/tasks/release-product-product-master-legal-entities.md
             - name: 管理零售产品类别和产品
@@ -803,7 +805,7 @@
             - name: 更改促销实体的排序顺序
               href: custom-order-categories-nav-retail-prod-hierarchy.md
             - name: 产品维度
-              href: ../supply-chain/pim/product-dimensions.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/pim/product-dimensions.md?toc=/dynamics365/retail/toc.json
             - name: 设置分类
               href: set-up-assortments.md
             - name: 设置条码
@@ -813,9 +815,9 @@
             - name: 销售和退回未包含在商店的分类中的产品
               href: sell-return-outside-assortments.md
             - name: 维度和产品变型的默认订单设置
-              href: ../supply-chain/production-control/default-order-settings.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/production-control/default-order-settings.md?toc=/dynamics365/retail/toc.json
             - name: 在订单输入期间搜索产品和产品变型
-              href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/retail/toc.json
             - name: 零售价报表
               href: price-report.md
             - name: 生成和运行现成报表
@@ -834,6 +836,8 @@
               href: optimal-combination-overlapping-discounts.md
             - name: 定义特定于渠道的折扣
               href: define-channel-specific-discounts.md
+            - name: 基于支付方式的折扣
+              href: tender_based_discounts.md
             - name: 用于禁止零售产品的折扣的选项
               href: prevent-discounts.md
             - name: 装运折扣概览
@@ -851,7 +855,7 @@
             - name: 付款方式
               href: payment-methods.md
             - name: 信用卡设置、授权和获取
-              href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/retail/toc.json
             - name: 为 POS 配置现金面额
               href: cash-denominations.md
             - name: 配置信用卡处理
@@ -877,61 +881,67 @@
         - name: 销售税
           items:
             - name: 销售税概览
-              href: ../finance/general-ledger/indirect-taxes-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../finance/general-ledger/indirect-taxes-overview.md?toc=/dynamics365/retail/toc.json
             - name: “源”字段中的销售税计算方法
-              href: ../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=/dynamics365/retail/toc.json
             - name: ' 销售税分配和覆盖'
-              href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/retail/toc.json
             - name: 全部金额和销售税代码的间隔计算选项
-              href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/retail/toc.json
         - name: 采购订单
           items:
             - name: 采购订单概览
-              href: ../supply-chain/procurement/purchase-order-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/procurement/purchase-order-overview.md?toc=/dynamics365/retail/toc.json
             - name: 创建采购订单
-              href: ../supply-chain/procurement/purchase-order-creation.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/procurement/purchase-order-creation.md?toc=/dynamics365/retail/toc.json
             - name: 针对采购订单的物料收货
-              href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md?toc=/dynamics365/retail/toc.json
             - name: 审核和确认采购订单
-              href: ../supply-chain/procurement/purchase-order-approval-confirmation.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/procurement/purchase-order-approval-confirmation.md?toc=/dynamics365/retail/toc.json
             - name: 采购订单审核移动工作区
-              href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/retail/toc.json
         - name: 库存
           items:
             - name: 商店库存管理
               href: work-with-store-inventory.md
             - name: 在销售流程中登记序列号
-              href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/retail/toc.json
             - name: 库存日记帐
-              href: ../supply-chain/inventory/inventory-journals.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/inventory/inventory-journals.md?toc=/dynamics365/retail/toc.json
             - name: 库存标签盘点
-              href: ../supply-chain/inventory/inventory-tag-counting.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/inventory/inventory-tag-counting.md?toc=/dynamics365/retail/toc.json
             - name: 具有实际成本和标记的先进先出
-              href: ../supply-chain/cost-management/fifo-physical-value-marking.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/cost-management/fifo-physical-value-marking.md?toc=/dynamics365/retail/toc.json
             - name: 具有实际成本和标记的后进先出日期
-              href: ../supply-chain/cost-management/lifo-date-physical-value-marking.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/cost-management/lifo-date-physical-value-marking.md?toc=/dynamics365/retail/toc.json
             - name: 具有实际成本和标记的后进先出
-              href: ../supply-chain/cost-management/lifo-physical-value-marking.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/cost-management/lifo-physical-value-marking.md?toc=/dynamics365/retail/toc.json
             - name: 加权平均日期
-              href: ../supply-chain/cost-management/weighted-average-date.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/cost-management/weighted-average-date.md?toc=/dynamics365/retail/toc.json
             - name: 具有实际成本和标记的加权平均
-              href: ../supply-chain/cost-management/weighted-average-physical-value-marking.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/cost-management/weighted-average-physical-value-marking.md?toc=/dynamics365/retail/toc.json
             - name: 检验单
-              href: ../supply-chain/inventory/quarantine-orders.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/inventory/quarantine-orders.md?toc=/dynamics365/retail/toc.json
             - name: 移动平均成本价
-              href: ../supply-chain/cost-management/running-average-cost-price.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/cost-management/running-average-cost-price.md?toc=/dynamics365/retail/toc.json
             - name: 按库存维度跟踪移动平均成本
-              href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md?toc=/dynamics365/retail/toc.json
         - name: 对帐单
           items:
             - name: 零售对帐单
               href: retail-statements.md
             - name: 零售交易记录一致性检查器
               href: valid-checker.md
+            - name: 禁用零售交易记录一致性检查器中的规则
+              href: disable-consistency-check-rule.md
+            - name: 编辑和审计零售商店交易记录
+              href: edit-audit-retail-transactions.md
             - name: 创建、计算和过帐零售商店的对帐单
               href: tasks/create-calculate-post-statement-retail-store.md
             - name: 对帐单过帐功能的改进
               href: statement-posting-EOD.md
+            - name: 为零售商店交易记录创建基于缓慢馈送的订单
+              href: trickle-feed.md
             - name: 改进了批量跟踪物料的处理
               href: batch.md
             - name: 配置影响零售对帐单的零售参数
@@ -1000,6 +1010,8 @@
               href: dev-itpro/gift-card-cash-out.md
             - name: 装运来自其他商店的订单
               href: charge-send.md
+            - name: 在 POS 装运对话框中隐藏非承运人交货模式
+              href: hide-non-carrier-modes.md
             - name: MPOS 和 Cloud POS 的任务录制器和帮助
               href: task-recorder-retail-pos.md
             - name: 硬件外围设备
@@ -1057,9 +1069,9 @@
         - name: 人力资源
           items:
             - name: 使用部门、工作和职位组织您的劳动力
-              href: ../talent/departments-jobs-positions.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../talent/departments-jobs-positions.md?toc=/dynamics365/retail/toc.json
             - name: 设置作业组件
-              href: ../talent/create-job.md?toc=/dynamics365/unified-operations/retail/toc.json
+              href: ../talent/create-job.md?toc=/dynamics365/retail/toc.json
         - name: 监控和分析
           items:
             - name: 监控销售和利润率
@@ -1116,6 +1128,8 @@
               items:
                 - name: 意大利税控打印机集成示例
                   href: localizations/emea-ita-fpi-sample.md
+                - name: 意大利的客户信息管理
+                  href: localizations/emea-ita-customer-information.md
             - name: 墨西哥
               items:
                 - name: 墨西哥全球 CFDI 电子发票
@@ -1140,12 +1154,6 @@
               href: tasks/category-pricing-rules-trade-agreements.md
             - name: 为销售代表配置功能配置文件
               href: tasks/configure-functionality-profile-sales-representative.md
-            - name: 创建设备并将其与收银机关联
-              href: tasks/create-associate-device.md
-            - name: 创建硬件工作站
-              href: tasks/create-associate-hardware-station.md
-            - name: 创建 POS 收银机
-              href: tasks/create-associate-registers.md
             - name: 创建呼叫中心订单
               href: tasks/create-call-center-orders.md
             - name: 创建 POS 收银机的财务维度并配置收银机上的维度值
@@ -1166,7 +1174,7 @@
               href: tasks/define-continuity-schedules.md
             - name: 定义会员计划
               href: tasks/define-loyalty-programs.md
-            - name: 定义会员奖励分
+            - name: 定义会员奖励积分
               href: tasks/define-loyalty-reward-points.md
             - name: 定义会员方案
               href: tasks/define-loyalty-schemes.md
@@ -1174,11 +1182,9 @@
               href: tasks/design-relationships-between-organizational-units.md
             - name: 管理分类
               href: tasks/manage-assortments-2016-11.md
-            - name: 使用自助服务下载硬件工作站
-              href: tasks/perform-self-service-download-hardware-station.md
             - name: 过帐联机销售和付款
               href: tasks/posting-online-sales-payments.md
-            - name: 处理会员奖励分的调整
+            - name: 处理会员奖励积分的调整
               href: tasks/process-loyalty-reward-point-adjustments.md
             - name: 通过集中采购配送将产品从配送中心配送到商店
               href: tasks/push-products-distribution-center-store-buyers-push.md
@@ -1207,7 +1213,7 @@
                 - name: Retail 在线商店发布体系结构
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Retail Channel Performance Power BI 内容
-                  href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/retail/toc.json
                 - name: 支付应用数据安全标准 (PA-DSS) 认证
                   href: dev-itpro/PA-DSS-Certification.md
                 - name: 本地部署中提供的零售功能
@@ -1233,7 +1239,7 @@
                 - name: Retail 组件的诊断和故障排除事件
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: 应用可部署包
-                  href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/retail/toc.json
             - name: 升级和 N-1 支持
               items:
                 - name: Retail 的升级和 N-1 支持
@@ -1249,7 +1255,7 @@
             - name: 环境配置
               items:
                 - name: 添加指向您的组织的法律条款和隐私声明的链接
-                  href: ../fin-ops-core/dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/dynamics365/unified-operations/retail/toc.json
+                  href: ../fin-ops-core/dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/dynamics365/retail/toc.json
                 - name: 管理必应地图
                   href: dev-itpro/manage-bing-maps.md
             - name: 本地化 Retail 扩展资源和标签文件
@@ -1332,8 +1338,6 @@
                   href: dev-itpro/configure-online-store.md
                 - name: 配置身份验证提供程序
                   href: dev-itpro/configure-authentication-providers.md
-                - name: 电子商务平台
-                  href: dev-itpro/ecommerce-platform.md
                 - name: 电子商务平台 SDK
                   href: dev-itpro/ecommerce-platform-sdk.md
             - name: 付款连接器可扩展性
@@ -1406,6 +1410,8 @@
                   href: dev-itpro/retail-sdk/loyalty-extension-sample.md
     - name: Finance and Operations 应用开发和管理
       href: ../fin-ops-core/dev-itpro/index.md
+    - name: Dynamics 365 Commerce（预览版）
+      href: ../commerce/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Supply Chain Management

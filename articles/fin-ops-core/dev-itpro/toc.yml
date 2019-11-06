@@ -1,12 +1,14 @@
-- name: Finance and Operations 的开发和管理
+- name: Finance and Operations 应用开发和管理
   items:
-    - name: Finance and Operations 的开发和管理
+    - name: Finance and Operations 应用开发和管理
       items:
-        - name: Finance and Operations 的开发和管理
+        - name: Finance and Operations 应用开发和管理
           href: index.md
         - name: 新增功能或更改
           items:
-            - name: Platform update 30（2019 年 11 月）预览功能
+            - name: Platform update 31（2020 年 1 月）预览功能
+              href: get-started/whats-new-platform-update-31.md
+            - name: Platform update 30（2019 年 11 月）
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
             - name: Platform update 29（2019 年 10 月）
               href: ../fin-ops/get-started/whats-new-platform-update-29.md
@@ -62,6 +64,8 @@
                   href: business-events/how-to/FormsPro.md
                 - name: 业务事件和 Azure 事件中心
                   href: business-events/how-to/event-hub.md
+                - name: 财务期间结帐中的业务事件
+                  href: business-events/how-to/period-close.md
         - name: 连续交货
           items:
             - name: 连续交货主页
@@ -302,6 +306,26 @@
                   href: database/dbmovement-scenario-goldenconfig.md
                 - name: 破坏性测试
                   href: database/dbmovement-scenario-destructivetests.md
+            - name: RESTful API
+              items:
+                - name: 概览
+                  href: database/api/dbmovement-api-overview.md
+                - name: 版本控制和支持
+                  href: database/api/dbmovement-api-versioning-support.md
+                - name: 身份验证
+                  href: database/api/dbmovement-api-authentication.md
+                - name: 限制
+                  href: database/api/dbmovement-api-throttling.md
+                - name: 引用
+                  items:
+                    - name: API v1 引用
+                      href: database/api/v1/dbmovement-api-v1-overview.md
+                    - name: 列出数据库备份
+                      href: database/api/v1/reference-list-backups.md
+                    - name: 创建数据库刷新
+                      href: database/api/v1/reference-create-refresh.md
+                    - name: 获取操作活动状态
+                      href: database/api/v1/reference-get-status.md
         - name: 演示数据
           items:
             - name: 演示数据概览
@@ -1213,7 +1237,7 @@
             - name: 获取对 Finance and Operations 和 Lifecycle Services 的支持
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 支持概览
-              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/dev-itpro/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: 获取由 21Vianet 在中国运营的 Finance and Operations 的支持
               href: lifecycle-services/21vianet-support.md
             - name: 将请求提交给 Dynamics Service 工程团队
