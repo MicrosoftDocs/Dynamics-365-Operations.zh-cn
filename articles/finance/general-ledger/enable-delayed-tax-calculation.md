@@ -1,6 +1,6 @@
 ---
 title: 为日记帐启用延迟税金计算
-description: 此主题介绍如何**为日记帐启用延迟税金计算**功能在有大量日记帐行时提高税金计算的性能。
+description: 此主题介绍如何启用延迟税金计算功能以在有大量日记帐行时帮助提高税金计算的性能。
 author: ericwang
 manager: Ann Beebe
 ms.date: 09/18/2019
@@ -18,55 +18,50 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5a8ae30a007d3e2b8b7a9bc9eb7786f6e58246d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e336be5468106007e1f5adf26bf272c88b8b413b
+ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176562"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2623513"
 ---
-# <a name="enable-delayed-tax-calculation-on-journal"></a><span data-ttu-id="de49f-103">为日记帐启用延迟税金计算</span><span class="sxs-lookup"><span data-stu-id="de49f-103">Enable delayed tax calculation on journal</span></span>
+# <a name="enable-delayed-tax-calculation-on-journals"></a><span data-ttu-id="63b8f-103">为日记帐启用延迟税金计算</span><span class="sxs-lookup"><span data-stu-id="63b8f-103">Enable delayed tax calculation on journals</span></span>
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-<span data-ttu-id="de49f-104">此主题介绍如何**为日记帐启用延迟税金计算**功能在有大量日记帐行时提高税金计算的性能。</span><span class="sxs-lookup"><span data-stu-id="de49f-104">This topic explains how to use the **Enable delayed tax calculation on journal** feature to improve tax calculation performance when the volume of journal lines is huge.</span></span>
+<span data-ttu-id="63b8f-104">本主题说明如何延迟日记帐的销售税计算。</span><span class="sxs-lookup"><span data-stu-id="63b8f-104">This topic explains how you can delay sales tax calculation on journals.</span></span> <span data-ttu-id="63b8f-105">当日记帐行很多时，此功能有助于提高税金计算的性能。</span><span class="sxs-lookup"><span data-stu-id="63b8f-105">This capability helps improve the performance of tax calculations when there are many journal lines.</span></span>
 
-<span data-ttu-id="de49f-105">日记帐的当前销售税计算行为在用户更新与税金有关的字段（如销售税组/物料销售税组）时实时触发。</span><span class="sxs-lookup"><span data-stu-id="de49f-105">Current sales tax calculation behavior on journal is real-time triggered when user updates tax related fields, e.g. sales tax group/item sales tax group.</span></span> <span data-ttu-id="de49f-106">日记帐行级别的任何更新都将重新计算所有日记帐行中的税额。</span><span class="sxs-lookup"><span data-stu-id="de49f-106">Any update at journal line level will re-calculate tax amount on all journal lines.</span></span> <span data-ttu-id="de49f-107">它可帮助用户查看实时计算的税额，但是如果日记帐行数量非常大，也可以导致性能问题。</span><span class="sxs-lookup"><span data-stu-id="de49f-107">It helps user to see real-time calculated tax amount but it could also bring performance issue if  the volume of journal lines is huge.</span></span>
+<span data-ttu-id="63b8f-106">默认情况下，每当更新与税相关的字段时，都会计算日记帐行上的销售税金额。</span><span class="sxs-lookup"><span data-stu-id="63b8f-106">By default, sales tax amounts on journal lines are calculated whenever tax-related fields are updated.</span></span> <span data-ttu-id="63b8f-107">这些字段包括销售税组和物料销售税组的字段。</span><span class="sxs-lookup"><span data-stu-id="63b8f-107">These fields include the fields for sales tax groups and item sales tax groups.</span></span> <span data-ttu-id="63b8f-108">日记帐行的任何更新都会导致重新计算所有日记帐行的税额。</span><span class="sxs-lookup"><span data-stu-id="63b8f-108">Any update to a journal line causes tax amounts to be recalculated for all journal lines.</span></span> <span data-ttu-id="63b8f-109">尽管此行为可以帮助用户实时查看税额，但是如果日记帐行的数量很大，也可能影响性能。</span><span class="sxs-lookup"><span data-stu-id="63b8f-109">Although this behavior helps user see tax amounts calculated in real time, it can also affect performance if the number of journal lines is very large.</span></span>
 
-<span data-ttu-id="de49f-108">此功能提供了一个选项，用于推迟税金计算以解决性能问题。</span><span class="sxs-lookup"><span data-stu-id="de49f-108">This feature provides an option to delay tax calculation to solve performance issue.</span></span> <span data-ttu-id="de49f-109">如果开启了此功能，则仅当用户单击“销售税”命令或过帐日记帐时，才会计算税额。</span><span class="sxs-lookup"><span data-stu-id="de49f-109">If this feature is turned on, tax amount will only be calculated when user clicks "Sales Tax" command or posts the journal.</span></span>
+<span data-ttu-id="63b8f-110">延迟税金计算功能使您可以延迟日记帐的税金计算，从而帮助解决性能问题。</span><span class="sxs-lookup"><span data-stu-id="63b8f-110">The Delayed tax calculation feature lets you delay tax calculation on journals and therefore helps fix performance issues.</span></span> <span data-ttu-id="63b8f-111">开启此功能时，则仅当用户选择**销售税**或过帐日记帐时，才会计算税额。</span><span class="sxs-lookup"><span data-stu-id="63b8f-111">When this feature is turned on, tax amounts are calculated only when a user selects **Sales Tax** or posts the journal.</span></span>
 
-<span data-ttu-id="de49f-110">用户可在三个级别开启/关闭此参数：</span><span class="sxs-lookup"><span data-stu-id="de49f-110">User can turn on/off the parameter at three levels:</span></span>
-- <span data-ttu-id="de49f-111">按法人</span><span class="sxs-lookup"><span data-stu-id="de49f-111">By legal entity</span></span>
-- <span data-ttu-id="de49f-112">按日记帐名称</span><span class="sxs-lookup"><span data-stu-id="de49f-112">By journal name</span></span>
-- <span data-ttu-id="de49f-113">按日记帐标题</span><span class="sxs-lookup"><span data-stu-id="de49f-113">By journal header</span></span>
+<span data-ttu-id="63b8f-112">您可以在三个级别上延迟销售税的计算：</span><span class="sxs-lookup"><span data-stu-id="63b8f-112">You can delay the calculation of sales taxes at three levels:</span></span>
 
-<span data-ttu-id="de49f-114">系统将把日记帐标题中的参数值视为最终值。</span><span class="sxs-lookup"><span data-stu-id="de49f-114">System will take the parameter value on journal header as final.</span></span> <span data-ttu-id="de49f-115">日记帐标题中的参数值默认取自日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="de49f-115">Parameter value on journal header will be defaulted from journal name.</span></span> <span data-ttu-id="de49f-116">日记帐名称中的参数值默认取自创建日记帐名称时生成的分类帐参数。</span><span class="sxs-lookup"><span data-stu-id="de49f-116">Parameter value on journal name will be defaulted from general ledger parameter when the journal name is created.</span></span>
+- <span data-ttu-id="63b8f-113">法人</span><span class="sxs-lookup"><span data-stu-id="63b8f-113">Legal entity</span></span>
+- <span data-ttu-id="63b8f-114">日记帐名称</span><span class="sxs-lookup"><span data-stu-id="63b8f-114">Journal name</span></span>
+- <span data-ttu-id="63b8f-115">日记帐标题</span><span class="sxs-lookup"><span data-stu-id="63b8f-115">Journal header</span></span>
 
-<span data-ttu-id="de49f-117">如果开启此参数，将隐藏日记帐中的“实际销售税金额”和“已计算销售税金额”字段。</span><span class="sxs-lookup"><span data-stu-id="de49f-117">"Actual sales tax amount" and "Calculated sales tax amount" fields on journal will be hided if this parameter is turned on.</span></span> <span data-ttu-id="de49f-118">目标是不让用户迷惑，因为用户触发税金计算之前，这两个字段的值始终显示 0。</span><span class="sxs-lookup"><span data-stu-id="de49f-118">The purpose is not to confuse user because the value of these two fields will always show 0 before user trigger the tax calculation.</span></span>
+<span data-ttu-id="63b8f-116">系统优先考虑日记帐标头的设置。</span><span class="sxs-lookup"><span data-stu-id="63b8f-116">The system gives priority to the setting for the journal header.</span></span> <span data-ttu-id="63b8f-117">默认情况下，此设置来自日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="63b8f-117">By default, this setting is taken from the journal name.</span></span> <span data-ttu-id="63b8f-118">默认情况下，创建日记帐名称时，日记帐名称的设置从**总帐参数**页面上的设置获取。</span><span class="sxs-lookup"><span data-stu-id="63b8f-118">By default, the setting for the journal name is taken from the setting on the **General ledger parameters** page when the journal name is created.</span></span> <span data-ttu-id="63b8f-119">以下各节说明如何为法人、日记帐名称和日记帐标头打开延迟税金计算。</span><span class="sxs-lookup"><span data-stu-id="63b8f-119">The following sections explain how to turn on delayed tax calculation for legal entities, journal names, and journal headers.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-legal-entity"></a><span data-ttu-id="de49f-119">按法人启用延迟的税金计算</span><span class="sxs-lookup"><span data-stu-id="de49f-119">Enable delayed tax calculation by legal entity</span></span>
+## <a name="turn-on-delayed-tax-calculation-at-the-legal-entity-level"></a><span data-ttu-id="63b8f-120">在法人级别启用延迟税金计算</span><span class="sxs-lookup"><span data-stu-id="63b8f-120">Turn on delayed tax calculation at the legal entity level</span></span>
 
-1. <span data-ttu-id="de49f-120">转到**总帐 > 分类帐设置 > 总帐参数**</span><span class="sxs-lookup"><span data-stu-id="de49f-120">Go to **General ledger > Ledger setup > General ledger parameters**</span></span>
-2. <span data-ttu-id="de49f-121">单击**销售税**选项卡</span><span class="sxs-lookup"><span data-stu-id="de49f-121">Click **Sales tax** tab</span></span>
-3. <span data-ttu-id="de49f-122">在**常规**快速选项卡下，找到参数**延迟的税金计算**，然后开启/关闭该参数</span><span class="sxs-lookup"><span data-stu-id="de49f-122">Under **General** fast tab, find parameter **Delayed tax calculation**, turn on/off it</span></span>
+1. <span data-ttu-id="63b8f-121">转到**总帐 \> 分类帐设置 \> 总帐参数**。</span><span class="sxs-lookup"><span data-stu-id="63b8f-121">Go to **General ledger \> Ledger setup \> General ledger parameters**.</span></span>
+2. <span data-ttu-id="63b8f-122">在**销售税**选项卡，在**常规**快速选项卡，将**延迟税金计算**选项设置为**是**。</span><span class="sxs-lookup"><span data-stu-id="63b8f-122">On the **Sales tax** tab, on the **General** FastTab, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-![](media/delayed-tax-calculation-gl.png)
+![总帐参数图像](media/delayed-tax-calculation-gl.png)
 
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a><span data-ttu-id="63b8f-124">在日记帐名称级别启用延迟税金计算</span><span class="sxs-lookup"><span data-stu-id="63b8f-124">Turn on delayed tax calculation at the journal name level</span></span>
 
+1. <span data-ttu-id="63b8f-125">转到**总帐 \> 日记帐设置 \> 日记帐名称**。</span><span class="sxs-lookup"><span data-stu-id="63b8f-125">Go to **General ledger \> Journal setup \> Journal names**.</span></span>
+2. <span data-ttu-id="63b8f-126">在**常规**快速选项卡上，在**销售税**部分，将**延迟税金计算**选项设置为**是**。</span><span class="sxs-lookup"><span data-stu-id="63b8f-126">On the **General** FastTab, in the **Sales tax** section, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-journal-name"></a><span data-ttu-id="de49f-123">按日记帐名称启用延迟的税金计算</span><span class="sxs-lookup"><span data-stu-id="de49f-123">Enable delayed tax calculation by journal name</span></span>
+![日记帐名称图像](media/delayed-tax-calculation-journal-name.png)
 
-1. <span data-ttu-id="de49f-124">转到**总帐 > 日记帐设置 > 日记帐名称**</span><span class="sxs-lookup"><span data-stu-id="de49f-124">Go to **General ledger > Journal setup > Journal names**</span></span>
-2. <span data-ttu-id="de49f-125">在**常规**快速选项卡下，找到参数**延迟的税金计算**，然后开启/关闭该参数</span><span class="sxs-lookup"><span data-stu-id="de49f-125">Under **General** fast tab, find parameter **Delayed tax calculation**, turn on/off it</span></span>
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a><span data-ttu-id="63b8f-128">在日记帐标头级别启用延迟税金计算</span><span class="sxs-lookup"><span data-stu-id="63b8f-128">Turn on delayed tax calculation at the journal header level</span></span>
 
-![](media/delayed-tax-calculation-journal-name.png)
+1. <span data-ttu-id="63b8f-129">转到**总帐 \> 日记帐条目 \> 普通日记帐**。</span><span class="sxs-lookup"><span data-stu-id="63b8f-129">Go to **General ledger \> Journal entries \> General journals**.</span></span>
+2. <span data-ttu-id="63b8f-130">选择**新建**。</span><span class="sxs-lookup"><span data-stu-id="63b8f-130">Select **New**.</span></span>
+3. <span data-ttu-id="63b8f-131">选择一个日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="63b8f-131">Select a journal name.</span></span>
+4. <span data-ttu-id="63b8f-132">在**设置**选项卡上，将**延迟税金计算**选项设置为**是**。</span><span class="sxs-lookup"><span data-stu-id="63b8f-132">On the **Setup** tab, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-journal"></a><span data-ttu-id="de49f-126">按日记帐启用延迟的税金计算</span><span class="sxs-lookup"><span data-stu-id="de49f-126">Enable delayed tax calculation by journal</span></span>
-
-1. <span data-ttu-id="de49f-127">转到**总帐 > 日记帐条目 > 普通日记帐**</span><span class="sxs-lookup"><span data-stu-id="de49f-127">Go to **General ledger > Journal entries > General journals**</span></span>
-2. <span data-ttu-id="de49f-128">单击**新建**</span><span class="sxs-lookup"><span data-stu-id="de49f-128">Click **New**</span></span>
-3. <span data-ttu-id="de49f-129">选择一个日记帐名称</span><span class="sxs-lookup"><span data-stu-id="de49f-129">Select a journal name</span></span>
-4. <span data-ttu-id="de49f-130">单击**设置**</span><span class="sxs-lookup"><span data-stu-id="de49f-130">Click **Setup**</span></span>
-5. <span data-ttu-id="de49f-131">找到参数**延迟的税金计算**，然后开启/关闭该参数</span><span class="sxs-lookup"><span data-stu-id="de49f-131">Find parameter **Delayed tax calculation**, turn on/off it</span></span>
-
-![](media/delayed-tax-calculation-journal-header.png)
+![普通日记帐页面图像](media/delayed-tax-calculation-journal-header.png)

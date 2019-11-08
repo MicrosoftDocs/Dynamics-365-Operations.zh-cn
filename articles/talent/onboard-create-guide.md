@@ -16,109 +16,109 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e4dbfcc3b3fd611eea36109a516a7b9361a9f654
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 3c465c667cbb8a66f301637ca620429b0ddc11c6
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009846"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550335"
 ---
-# <a name="create-and-send-an-onboarding-guide"></a><span data-ttu-id="6711c-104">创建和发送入职指南</span><span class="sxs-lookup"><span data-stu-id="6711c-104">Create and send an onboarding guide</span></span>
+# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a><span data-ttu-id="9e1f6-104">使用 Dynamics 365 Talent - Onboard 创建和发送入职指南</span><span class="sxs-lookup"><span data-stu-id="9e1f6-104">Create and send an onboarding guide by using Dynamics 365 Talent - Onboard</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="6711c-105">Microsoft Dynamics 365 Talent: Onboard 允许您从自己创建的模板、库中可用的模板或从头开始创建入职指南。</span><span class="sxs-lookup"><span data-stu-id="6711c-105">Microsoft Dynamics 365 Talent: Onboard lets you create onboarding guides from templates that you created yourself, from templates that are available in a gallery, or from scratch.</span></span>
+<span data-ttu-id="9e1f6-105">Microsoft Dynamics 365 Talent: Onboard 允许您从自己创建的模板、库中可用的模板或从头开始创建入职指南。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-105">Microsoft Dynamics 365 Talent: Onboard lets you create onboarding guides from templates that you created yourself, from templates that are available in a gallery, or from scratch.</span></span>
 
-<span data-ttu-id="6711c-106">在您创建入职指南后，您可以将其发送给新雇员。</span><span class="sxs-lookup"><span data-stu-id="6711c-106">After you've created an onboarding guide, you can send it to a new hire.</span></span> <span data-ttu-id="6711c-107">或者，您可以将其发送给您从 Onboard 应用下载的 Microsoft Excel 文件中指定的多个新雇员。</span><span class="sxs-lookup"><span data-stu-id="6711c-107">Alternatively, you can send it to multiple new hires that you specify in a Microsoft Excel file that you download from the Onboard app.</span></span>
+<span data-ttu-id="9e1f6-106">在您创建入职指南后，您可以将其发送给新雇员。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-106">After you've created an onboarding guide, you can send it to a new hire.</span></span> <span data-ttu-id="9e1f6-107">或者，您可以将其发送给您从 Onboard 应用下载的 Microsoft Excel 文件中指定的多个新雇员。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-107">Alternatively, you can send it to multiple new hires that you specify in a Microsoft Excel file that you download from the Onboard app.</span></span>
 
-## <a name="create-an-onboarding-guide-from-a-template-and-send-it-to-a-single-new-hire"></a><span data-ttu-id="6711c-108">从模板创建入职指南并将其发送给单个新雇员</span><span class="sxs-lookup"><span data-stu-id="6711c-108">Create an onboarding guide from a template and send it to a single new hire</span></span>
+## <a name="create-an-onboarding-guide-from-a-template-and-send-it-to-a-single-new-hire"></a><span data-ttu-id="9e1f6-108">从模板创建入职指南并将其发送给单个新雇员</span><span class="sxs-lookup"><span data-stu-id="9e1f6-108">Create an onboarding guide from a template and send it to a single new hire</span></span>
 
-1. <span data-ttu-id="6711c-109">在左侧菜单中，选择**模板**。</span><span class="sxs-lookup"><span data-stu-id="6711c-109">On the left menu, select **Templates**.</span></span>
-2. <span data-ttu-id="6711c-110">在**我的模板**下，选择您要设置为新雇员入职指南的模板。</span><span class="sxs-lookup"><span data-stu-id="6711c-110">Under **My templates**, select the template that you want to set up as an onboarding guide for the new hire.</span></span>
-3. <span data-ttu-id="6711c-111">根据需要编辑模板。</span><span class="sxs-lookup"><span data-stu-id="6711c-111">Edit the template as you desire.</span></span> <span data-ttu-id="6711c-112">编辑时一定要保存您的工作。</span><span class="sxs-lookup"><span data-stu-id="6711c-112">Be sure to save your work as you go.</span></span>
-4. <span data-ttu-id="6711c-113">编辑完模板后，选择**创建指南**。</span><span class="sxs-lookup"><span data-stu-id="6711c-113">When you've finished editing the template, select **Create guide**.</span></span>
+1. <span data-ttu-id="9e1f6-109">在左侧菜单中，选择**模板**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-109">On the left menu, select **Templates**.</span></span>
+2. <span data-ttu-id="9e1f6-110">在**我的模板**下，选择您要设置为新雇员入职指南的模板。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-110">Under **My templates**, select the template that you want to set up as an onboarding guide for the new hire.</span></span>
+3. <span data-ttu-id="9e1f6-111">根据需要编辑模板。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-111">Edit the template as you desire.</span></span> <span data-ttu-id="9e1f6-112">编辑时一定要保存您的工作。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-112">Be sure to save your work as you go.</span></span>
+4. <span data-ttu-id="9e1f6-113">编辑完模板后，选择**创建指南**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-113">When you've finished editing the template, select **Create guide**.</span></span>
 
-    <span data-ttu-id="6711c-114">[![从模板创建入职指南](./media/onboard-create-guide.png)](./media/onboard-create-guide.png)</span><span class="sxs-lookup"><span data-stu-id="6711c-114">[![Creating an onboarding guide from a template](./media/onboard-create-guide.png)](./media/onboard-create-guide.png)</span></span>
+    <span data-ttu-id="9e1f6-114">[![从模板创建入职指南](./media/onboard-create-guide.png)](./media/onboard-create-guide.png)</span><span class="sxs-lookup"><span data-stu-id="9e1f6-114">[![Creating an onboarding guide from a template](./media/onboard-create-guide.png)](./media/onboard-create-guide.png)</span></span>
 
-5. <span data-ttu-id="6711c-115">在**创建指南**窗口，在**您的入职对象**下，输入新雇员的姓名或电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="6711c-115">In the **Create a guide** window, under **Who are you onboarding**, enter the new hire's name or email address.</span></span> <span data-ttu-id="6711c-116">如果新雇员尚未在系统中，选择**立即添加**，然后输入员工的信息。</span><span class="sxs-lookup"><span data-stu-id="6711c-116">If the new hire isn't in the system yet, select **Add now**, and enter the employee's information.</span></span>
+5. <span data-ttu-id="9e1f6-115">在**创建指南**窗口，在**您的入职对象**下，输入新雇员的姓名或电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-115">In the **Create a guide** window, under **Who are you onboarding**, enter the new hire's name or email address.</span></span> <span data-ttu-id="9e1f6-116">如果新雇员尚未在系统中，选择**立即添加**，然后输入员工的信息。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-116">If the new hire isn't in the system yet, select **Add now**, and enter the employee's information.</span></span>
 
-    ![[<span data-ttu-id="6711c-117">输入入职指南的信息</span><span class="sxs-lookup"><span data-stu-id="6711c-117">Entering information for the onboarding guide</span></span>](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[<span data-ttu-id="9e1f6-117">输入入职指南的信息</span><span class="sxs-lookup"><span data-stu-id="9e1f6-117">Entering information for the onboarding guide</span></span>](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
-6. <span data-ttu-id="6711c-118">在**何时入职**下，选择一个开始日期。</span><span class="sxs-lookup"><span data-stu-id="6711c-118">Under **When do they start**, select a start date.</span></span>
-7. <span data-ttu-id="6711c-119">如果应在特定日期自动将入职指南发送给新雇员，请确保**安排自动发送日期**选项已打开，然后选择自动发送日期。</span><span class="sxs-lookup"><span data-stu-id="6711c-119">If the onboarding guide should be sent automatically to the new hire on a specific date, make sure that the **Schedule an automatic send date** option is turned on, and then select the automatic send date.</span></span> <span data-ttu-id="6711c-120">要立即发送指南，请关闭**安排自动发送日期**选项。</span><span class="sxs-lookup"><span data-stu-id="6711c-120">To send the guide immediately, turn off the **Schedule an automatic send date** option.</span></span>
-8. <span data-ttu-id="6711c-121">选择**完成**。</span><span class="sxs-lookup"><span data-stu-id="6711c-121">Select **Done**.</span></span>
-9. <span data-ttu-id="6711c-122">完成编辑入职指南后，在右上角选择**发送**。</span><span class="sxs-lookup"><span data-stu-id="6711c-122">When you've finished editing the onboarding guide, select **Send** in the upper-right corner.</span></span> <span data-ttu-id="6711c-123">然后按照以下步骤之一操作：</span><span class="sxs-lookup"><span data-stu-id="6711c-123">Then follow one of these steps:</span></span>
+6. <span data-ttu-id="9e1f6-118">在**何时入职**下，选择一个开始日期。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-118">Under **When do they start**, select a start date.</span></span>
+7. <span data-ttu-id="9e1f6-119">如果应在特定日期自动将入职指南发送给新雇员，请确保**安排自动发送日期**选项已打开，然后选择自动发送日期。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-119">If the onboarding guide should be sent automatically to the new hire on a specific date, make sure that the **Schedule an automatic send date** option is turned on, and then select the automatic send date.</span></span> <span data-ttu-id="9e1f6-120">要立即发送指南，请关闭**安排自动发送日期**选项。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-120">To send the guide immediately, turn off the **Schedule an automatic send date** option.</span></span>
+8. <span data-ttu-id="9e1f6-121">选择**完成**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-121">Select **Done**.</span></span>
+9. <span data-ttu-id="9e1f6-122">完成编辑入职指南后，在右上角选择**发送**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-122">When you've finished editing the onboarding guide, select **Send** in the upper-right corner.</span></span> <span data-ttu-id="9e1f6-123">然后按照以下步骤之一操作：</span><span class="sxs-lookup"><span data-stu-id="9e1f6-123">Then follow one of these steps:</span></span>
 
-    - <span data-ttu-id="6711c-124">要向新雇员发送指向入职指南的链接，请选择**复制链接**，然后选择**复制**。</span><span class="sxs-lookup"><span data-stu-id="6711c-124">To send the new hire a link to the onboarding guide, select **copy a link**, and then select **Copy**.</span></span>
-    - <span data-ttu-id="6711c-125">要在发送之前自定义入职指南的电子邮件，请选择**发送前自定义电子邮件**，选择**下一步**，根据需要自定义电子邮件，然后选择**发送**。</span><span class="sxs-lookup"><span data-stu-id="6711c-125">To customize the email for the onboarding guide before you send it, select **Customize the email before sending**, select **Next**, customize the email as you desire, and then select **Send**.</span></span>
-    - <span data-ttu-id="6711c-126">要在不自定义的情况下发送电子邮件，请选择**下一步**，然后选择**发送**。</span><span class="sxs-lookup"><span data-stu-id="6711c-126">To send the email without customizing it, select **Next**, and then select **Send**.</span></span>
+    - <span data-ttu-id="9e1f6-124">要向新雇员发送指向入职指南的链接，请选择**复制链接**，然后选择**复制**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-124">To send the new hire a link to the onboarding guide, select **copy a link**, and then select **Copy**.</span></span>
+    - <span data-ttu-id="9e1f6-125">要在发送之前自定义入职指南的电子邮件，请选择**发送前自定义电子邮件**，选择**下一步**，根据需要自定义电子邮件，然后选择**发送**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-125">To customize the email for the onboarding guide before you send it, select **Customize the email before sending**, select **Next**, customize the email as you desire, and then select **Send**.</span></span>
+    - <span data-ttu-id="9e1f6-126">要在不自定义的情况下发送电子邮件，请选择**下一步**，然后选择**发送**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-126">To send the email without customizing it, select **Next**, and then select **Send**.</span></span>
 
-## <a name="create-an-onboarding-guide-from-a-template-and-send-it-to-multiple-new-hires"></a><span data-ttu-id="6711c-127">从模板创建入职指南并将其发送给多个新雇员</span><span class="sxs-lookup"><span data-stu-id="6711c-127">Create an onboarding guide from a template and send it to multiple new hires</span></span>
+## <a name="create-an-onboarding-guide-from-a-template-and-send-it-to-multiple-new-hires"></a><span data-ttu-id="9e1f6-127">从模板创建入职指南并将其发送给多个新雇员</span><span class="sxs-lookup"><span data-stu-id="9e1f6-127">Create an onboarding guide from a template and send it to multiple new hires</span></span>
 
-<span data-ttu-id="6711c-128">Onboard 允许您同时向多个新雇员发送入职指南。</span><span class="sxs-lookup"><span data-stu-id="6711c-128">Onboard lets you send an onboarding guide to multiple new hires at the same time.</span></span>
+<span data-ttu-id="9e1f6-128">Onboard 允许您同时向多个新雇员发送入职指南。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-128">Onboard lets you send an onboarding guide to multiple new hires at the same time.</span></span>
 
-1. <span data-ttu-id="6711c-129">在左侧菜单中，选择**模板**。</span><span class="sxs-lookup"><span data-stu-id="6711c-129">On the left menu, select **Templates**.</span></span>
-2. <span data-ttu-id="6711c-130">在**我的模板**下，选择您要设置为新雇员入职指南的模板。</span><span class="sxs-lookup"><span data-stu-id="6711c-130">Under **My templates**, select the template that you want to set up as an onboarding guide for the new hires.</span></span>
-3. <span data-ttu-id="6711c-131">根据需要编辑模板。</span><span class="sxs-lookup"><span data-stu-id="6711c-131">Edit the template as you desire.</span></span> <span data-ttu-id="6711c-132">编辑时一定要保存您的工作。</span><span class="sxs-lookup"><span data-stu-id="6711c-132">Be sure to save your work as you go.</span></span>
-4. <span data-ttu-id="6711c-133">编辑完模板后，选择**创建指南**。</span><span class="sxs-lookup"><span data-stu-id="6711c-133">When you've finished editing the template, select **Create guide**.</span></span>
-5. <span data-ttu-id="6711c-134">在**创建指南**窗口中，选择**需要一次入职多人**。</span><span class="sxs-lookup"><span data-stu-id="6711c-134">In the **Create a guide** window, select **Need to onboard multiple people at once**.</span></span>
+1. <span data-ttu-id="9e1f6-129">在左侧菜单中，选择**模板**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-129">On the left menu, select **Templates**.</span></span>
+2. <span data-ttu-id="9e1f6-130">在**我的模板**下，选择您要设置为新雇员入职指南的模板。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-130">Under **My templates**, select the template that you want to set up as an onboarding guide for the new hires.</span></span>
+3. <span data-ttu-id="9e1f6-131">根据需要编辑模板。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-131">Edit the template as you desire.</span></span> <span data-ttu-id="9e1f6-132">编辑时一定要保存您的工作。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-132">Be sure to save your work as you go.</span></span>
+4. <span data-ttu-id="9e1f6-133">编辑完模板后，选择**创建指南**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-133">When you've finished editing the template, select **Create guide**.</span></span>
+5. <span data-ttu-id="9e1f6-134">在**创建指南**窗口中，选择**需要一次入职多人**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-134">In the **Create a guide** window, select **Need to onboard multiple people at once**.</span></span>
 
-    <span data-ttu-id="6711c-135">[![为多个新雇员创建入职指南](./media/onboard-send-guide-multiple-people.png)](./media/onboard-send-guide-multiple-people.png)</span><span class="sxs-lookup"><span data-stu-id="6711c-135">[![Creating an onboarding guide for multiple new hires](./media/onboard-send-guide-multiple-people.png)](./media/onboard-send-guide-multiple-people.png)</span></span>
+    <span data-ttu-id="9e1f6-135">[![为多个新雇员创建入职指南](./media/onboard-send-guide-multiple-people.png)](./media/onboard-send-guide-multiple-people.png)</span><span class="sxs-lookup"><span data-stu-id="9e1f6-135">[![Creating an onboarding guide for multiple new hires](./media/onboard-send-guide-multiple-people.png)](./media/onboard-send-guide-multiple-people.png)</span></span>
 
-6. <span data-ttu-id="6711c-136">选择**新雇员模板**。</span><span class="sxs-lookup"><span data-stu-id="6711c-136">Select **new hire template**.</span></span>
-7. <span data-ttu-id="6711c-137">下载 .xlsx 文件后，选择**打开**，在 Excel 工作簿中输入员工信息，然后保存工作簿。</span><span class="sxs-lookup"><span data-stu-id="6711c-137">After the .xlsx file is downloaded, select **Open**, enter the employees' information in the Excel workbook, and save the workbook.</span></span>
+6. <span data-ttu-id="9e1f6-136">选择**新雇员模板**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-136">Select **new hire template**.</span></span>
+7. <span data-ttu-id="9e1f6-137">下载 .xlsx 文件后，选择**打开**，在 Excel 工作簿中输入员工信息，然后保存工作簿。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-137">After the .xlsx file is downloaded, select **Open**, enter the employees' information in the Excel workbook, and save the workbook.</span></span>
 
-    <span data-ttu-id="6711c-138">[![下载 Excel 模板以将入职指南发送给多个新雇员](./media/onboard-send-guide-download-spreadsheet.png)](./media/onboard-send-guide-download-spreadsheet.png)</span><span class="sxs-lookup"><span data-stu-id="6711c-138">[![Downloading the Excel template for sending the onboarding guide to multiple new hires](./media/onboard-send-guide-download-spreadsheet.png)](./media/onboard-send-guide-download-spreadsheet.png)</span></span>
+    <span data-ttu-id="9e1f6-138">[![下载 Excel 模板以将入职指南发送给多个新雇员](./media/onboard-send-guide-download-spreadsheet.png)](./media/onboard-send-guide-download-spreadsheet.png)</span><span class="sxs-lookup"><span data-stu-id="9e1f6-138">[![Downloading the Excel template for sending the onboarding guide to multiple new hires](./media/onboard-send-guide-download-spreadsheet.png)](./media/onboard-send-guide-download-spreadsheet.png)</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="6711c-139">您必须在 Excel 中选择**启用编辑**，然后才能够编辑工作簿。</span><span class="sxs-lookup"><span data-stu-id="6711c-139">Before you can edit the workbook, you must select **Enable editing** in Excel.</span></span>
+    > <span data-ttu-id="9e1f6-139">您必须在 Excel 中选择**启用编辑**，然后才能够编辑工作簿。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-139">Before you can edit the workbook, you must select **Enable editing** in Excel.</span></span>
     > 
-    > <span data-ttu-id="6711c-140">[![启用编辑](./media/onboard-send-guide-enable-editing.png)](./media/onboard-send-guide-enable-editing.png)</span><span class="sxs-lookup"><span data-stu-id="6711c-140">[![Enabling editing](./media/onboard-send-guide-enable-editing.png)](./media/onboard-send-guide-enable-editing.png)</span></span>
+    > <span data-ttu-id="9e1f6-140">[![启用编辑](./media/onboard-send-guide-enable-editing.png)](./media/onboard-send-guide-enable-editing.png)</span><span class="sxs-lookup"><span data-stu-id="9e1f6-140">[![Enabling editing](./media/onboard-send-guide-enable-editing.png)](./media/onboard-send-guide-enable-editing.png)</span></span>
 
-8. <span data-ttu-id="6711c-141">将 Excel 工作簿拖动到**创建多个指南**窗口中的指定区域，或单击该区域的任意位置来浏览计算机上的文件。</span><span class="sxs-lookup"><span data-stu-id="6711c-141">Drag the Excel workbook to the designated area in the **Create multiple guides** window, or click anywhere in that area to browse for the file on your computer.</span></span>
+8. <span data-ttu-id="9e1f6-141">将 Excel 工作簿拖动到**创建多个指南**窗口中的指定区域，或单击该区域的任意位置来浏览计算机上的文件。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-141">Drag the Excel workbook to the designated area in the **Create multiple guides** window, or click anywhere in that area to browse for the file on your computer.</span></span>
 
-    <span data-ttu-id="6711c-142">[![拖动已编辑的工作簿](./media/onboard-send-guide-drag-spreadsheet.png)](./media/onboard-send-guide-drag-spreadsheet.png)</span><span class="sxs-lookup"><span data-stu-id="6711c-142">[![Dragging the edited workbook](./media/onboard-send-guide-drag-spreadsheet.png)](./media/onboard-send-guide-drag-spreadsheet.png)</span></span>
+    <span data-ttu-id="9e1f6-142">[![拖动已编辑的工作簿](./media/onboard-send-guide-drag-spreadsheet.png)](./media/onboard-send-guide-drag-spreadsheet.png)</span><span class="sxs-lookup"><span data-stu-id="9e1f6-142">[![Dragging the edited workbook](./media/onboard-send-guide-drag-spreadsheet.png)](./media/onboard-send-guide-drag-spreadsheet.png)</span></span>
 
-9. <span data-ttu-id="6711c-143">完成编辑入职指南后，在右上角选择**发送**。</span><span class="sxs-lookup"><span data-stu-id="6711c-143">When you've finished editing the onboarding guide, select **Send** in the upper-right corner.</span></span> <span data-ttu-id="6711c-144">然后按照以下步骤之一操作：</span><span class="sxs-lookup"><span data-stu-id="6711c-144">Then follow one of these steps:</span></span>
+9. <span data-ttu-id="9e1f6-143">完成编辑入职指南后，在右上角选择**发送**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-143">When you've finished editing the onboarding guide, select **Send** in the upper-right corner.</span></span> <span data-ttu-id="9e1f6-144">然后按照以下步骤之一操作：</span><span class="sxs-lookup"><span data-stu-id="9e1f6-144">Then follow one of these steps:</span></span>
 
-    - <span data-ttu-id="6711c-145">要向新雇员发送指向入职指南的链接，请选择**复制链接**，然后选择**复制**。</span><span class="sxs-lookup"><span data-stu-id="6711c-145">To send the new hires a link to the onboarding guide, select **copy a link**, and then select **Copy**.</span></span>
-    - <span data-ttu-id="6711c-146">要在发送之前自定义入职指南的电子邮件，请选择**发送前自定义电子邮件**，选择**下一步**，根据需要自定义电子邮件，然后选择**发送**。</span><span class="sxs-lookup"><span data-stu-id="6711c-146">To customize the email for the onboarding guide before you send it, select **Customize the email before sending**, select **Next**, customize the email as you desire, and then select **Send**.</span></span>
-    - <span data-ttu-id="6711c-147">要在不自定义的情况下发送电子邮件，请选择**下一步**，然后选择**发送**。</span><span class="sxs-lookup"><span data-stu-id="6711c-147">To send the email without customizing it, select **Next**, and then select **Send**.</span></span>
+    - <span data-ttu-id="9e1f6-145">要向新雇员发送指向入职指南的链接，请选择**复制链接**，然后选择**复制**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-145">To send the new hires a link to the onboarding guide, select **copy a link**, and then select **Copy**.</span></span>
+    - <span data-ttu-id="9e1f6-146">要在发送之前自定义入职指南的电子邮件，请选择**发送前自定义电子邮件**，选择**下一步**，根据需要自定义电子邮件，然后选择**发送**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-146">To customize the email for the onboarding guide before you send it, select **Customize the email before sending**, select **Next**, customize the email as you desire, and then select **Send**.</span></span>
+    - <span data-ttu-id="9e1f6-147">要在不自定义的情况下发送电子邮件，请选择**下一步**，然后选择**发送**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-147">To send the email without customizing it, select **Next**, and then select **Send**.</span></span>
 
-## <a name="create-a-guide-without-using-a-template"></a><span data-ttu-id="6711c-148">不使用模板创建指南</span><span class="sxs-lookup"><span data-stu-id="6711c-148">Create a guide without using a template</span></span>
+## <a name="create-a-guide-without-using-a-template"></a><span data-ttu-id="9e1f6-148">不使用模板创建指南</span><span class="sxs-lookup"><span data-stu-id="9e1f6-148">Create a guide without using a template</span></span>
 
-<span data-ttu-id="6711c-149">您不必总是从模板创建指南。</span><span class="sxs-lookup"><span data-stu-id="6711c-149">You don't always have to create a guide from a template.</span></span> <span data-ttu-id="6711c-150">如果您愿意，可以从头开始创建指南。</span><span class="sxs-lookup"><span data-stu-id="6711c-150">If you prefer, you can create a guide from scratch instead.</span></span>
+<span data-ttu-id="9e1f6-149">您不必总是从模板创建指南。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-149">You don't always have to create a guide from a template.</span></span> <span data-ttu-id="9e1f6-150">如果您愿意，可以从头开始创建指南。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-150">If you prefer, you can create a guide from scratch instead.</span></span>
 
-1. <span data-ttu-id="6711c-151">在左侧菜单中，选择**指南**，然后选择**添加**按钮（加号 \[**+**\]）。</span><span class="sxs-lookup"><span data-stu-id="6711c-151">On the left menu, select **Guides**, and then select the **Add** button (the plus sign \[**+**\]).</span></span>
-2. <span data-ttu-id="6711c-152">在**创建指南**窗口，在**您的入职对象**下，输入新雇员的姓名或电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="6711c-152">In the **Create a guide** window, under **Who are you onboarding**, enter the new hire's name or email address.</span></span> <span data-ttu-id="6711c-153">如果新雇员尚未在系统中，选择**立即添加**，然后输入员工的信息。</span><span class="sxs-lookup"><span data-stu-id="6711c-153">If the new hire isn't in the system yet, select **Add now**, and enter the employee's information.</span></span>
+1. <span data-ttu-id="9e1f6-151">在左侧菜单中，选择**指南**，然后选择**添加**按钮（加号 \[**+**\]）。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-151">On the left menu, select **Guides**, and then select the **Add** button (the plus sign \[**+**\]).</span></span>
+2. <span data-ttu-id="9e1f6-152">在**创建指南**窗口，在**您的入职对象**下，输入新雇员的姓名或电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-152">In the **Create a guide** window, under **Who are you onboarding**, enter the new hire's name or email address.</span></span> <span data-ttu-id="9e1f6-153">如果新雇员尚未在系统中，选择**立即添加**，然后输入员工的信息。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-153">If the new hire isn't in the system yet, select **Add now**, and enter the employee's information.</span></span>
 
-    ![[<span data-ttu-id="6711c-154">输入入职指南的信息</span><span class="sxs-lookup"><span data-stu-id="6711c-154">Entering information for the onboarding guide</span></span>](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[<span data-ttu-id="9e1f6-154">输入入职指南的信息</span><span class="sxs-lookup"><span data-stu-id="9e1f6-154">Entering information for the onboarding guide</span></span>](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
-3. <span data-ttu-id="6711c-155">在**何时入职**下，选择一个开始日期。</span><span class="sxs-lookup"><span data-stu-id="6711c-155">Under **When do they start**, select a start date.</span></span>
-4. <span data-ttu-id="6711c-156">如果应在特定日期自动将入职指南发送给新雇员，请确保**安排自动发送日期**选项已打开，然后选择自动发送日期。</span><span class="sxs-lookup"><span data-stu-id="6711c-156">If the onboarding guide should be sent automatically to the new hire on a specific date, make sure that the **Schedule an automatic send date** option is turned on, and then select the automatic send date.</span></span> <span data-ttu-id="6711c-157">要立即发送指南，请关闭**安排自动发送日期**选项。</span><span class="sxs-lookup"><span data-stu-id="6711c-157">To send the guide immediately, turn off the **Schedule an automatic send date** option.</span></span>
-5. <span data-ttu-id="6711c-158">选择**完成**。</span><span class="sxs-lookup"><span data-stu-id="6711c-158">Select **Done**.</span></span>
+3. <span data-ttu-id="9e1f6-155">在**何时入职**下，选择一个开始日期。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-155">Under **When do they start**, select a start date.</span></span>
+4. <span data-ttu-id="9e1f6-156">如果应在特定日期自动将入职指南发送给新雇员，请确保**安排自动发送日期**选项已打开，然后选择自动发送日期。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-156">If the onboarding guide should be sent automatically to the new hire on a specific date, make sure that the **Schedule an automatic send date** option is turned on, and then select the automatic send date.</span></span> <span data-ttu-id="9e1f6-157">要立即发送指南，请关闭**安排自动发送日期**选项。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-157">To send the guide immediately, turn off the **Schedule an automatic send date** option.</span></span>
+5. <span data-ttu-id="9e1f6-158">选择**完成**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-158">Select **Done**.</span></span>
 
-## <a name="save-a-guide-as-a-template"></a><span data-ttu-id="6711c-159">将指南另存为模板</span><span class="sxs-lookup"><span data-stu-id="6711c-159">Save a guide as a template</span></span>
+## <a name="save-a-guide-as-a-template"></a><span data-ttu-id="9e1f6-159">将指南另存为模板</span><span class="sxs-lookup"><span data-stu-id="9e1f6-159">Save a guide as a template</span></span>
 
-<span data-ttu-id="6711c-160">您可以将入职指南另存为模板。</span><span class="sxs-lookup"><span data-stu-id="6711c-160">You can save an onboarding guide as a template.</span></span> <span data-ttu-id="6711c-161">这样，您可以在以后必须创建更多入职指南时节省时间。</span><span class="sxs-lookup"><span data-stu-id="6711c-161">In this way, you can save time when you must create more onboarding guides later.</span></span>
+<span data-ttu-id="9e1f6-160">您可以将入职指南另存为模板。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-160">You can save an onboarding guide as a template.</span></span> <span data-ttu-id="9e1f6-161">这样，您可以在以后必须创建更多入职指南时节省时间。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-161">In this way, you can save time when you must create more onboarding guides later.</span></span>
 
-1. <span data-ttu-id="6711c-162">在左侧菜单中，选择**指南**。</span><span class="sxs-lookup"><span data-stu-id="6711c-162">On the left menu, select **Guides**.</span></span>
-2. <span data-ttu-id="6711c-163">选择要从其创建模板的指南**更多**按钮（省略号 \[**...**\]），然后选择**另存为模板**。</span><span class="sxs-lookup"><span data-stu-id="6711c-163">Select the **More** button (the ellipsis \[**...**\]) for the guide that you want to create a template from, and then select **Save as template**.</span></span>
+1. <span data-ttu-id="9e1f6-162">在左侧菜单中，选择**指南**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-162">On the left menu, select **Guides**.</span></span>
+2. <span data-ttu-id="9e1f6-163">选择要从其创建模板的指南**更多**按钮（省略号 \[**...**\]），然后选择**另存为模板**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-163">Select the **More** button (the ellipsis \[**...**\]) for the guide that you want to create a template from, and then select **Save as template**.</span></span>
 
-    ![[<span data-ttu-id="6711c-164">将入职指南另存为模板</span><span class="sxs-lookup"><span data-stu-id="6711c-164">Saving an onboarding guide as a template</span></span>](./media/onboard-save-guide-as-template.png)](./media/onboard-save-guide-as-template.png)
+    ![[<span data-ttu-id="9e1f6-164">将入职指南另存为模板</span><span class="sxs-lookup"><span data-stu-id="9e1f6-164">Saving an onboarding guide as a template</span></span>](./media/onboard-save-guide-as-template.png)](./media/onboard-save-guide-as-template.png)
 
-3. <span data-ttu-id="6711c-165">在**另存为新模板**窗口，输入新模板的名称，然后选择**保存**。</span><span class="sxs-lookup"><span data-stu-id="6711c-165">In the **Save as a new template** window, enter a name for your new template, and then select **Save**.</span></span>
+3. <span data-ttu-id="9e1f6-165">在**另存为新模板**窗口，输入新模板的名称，然后选择**保存**。</span><span class="sxs-lookup"><span data-stu-id="9e1f6-165">In the **Save as a new template** window, enter a name for your new template, and then select **Save**.</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="6711c-166">后续步骤</span><span class="sxs-lookup"><span data-stu-id="6711c-166">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="9e1f6-166">后续步骤</span><span class="sxs-lookup"><span data-stu-id="9e1f6-166">Next steps</span></span>
 
-- [<span data-ttu-id="6711c-167">编辑入职指南和模板</span><span class="sxs-lookup"><span data-stu-id="6711c-167">Edit onboarding guides and templates</span></span>](./onboard-edit-guides-templates.md)
-- [<span data-ttu-id="6711c-168">与其他参与者共享内容</span><span class="sxs-lookup"><span data-stu-id="6711c-168">Share content with other contributors</span></span>](./onboard-share-template.md)
-- [<span data-ttu-id="6711c-169">查看任务和入职员工的状态</span><span class="sxs-lookup"><span data-stu-id="6711c-169">View the status of tasks and onboarding employees</span></span>](./onboard-view-status.md)
-- [<span data-ttu-id="6711c-170">在 Onboard 中创建招聘团队</span><span class="sxs-lookup"><span data-stu-id="6711c-170">Create hiring teams in Onboard</span></span>](./onboard-create-team.md)
+- [<span data-ttu-id="9e1f6-167">编辑入职指南和模板</span><span class="sxs-lookup"><span data-stu-id="9e1f6-167">Edit onboarding guides and templates</span></span>](./onboard-edit-guides-templates.md)
+- [<span data-ttu-id="9e1f6-168">与其他参与者共享内容</span><span class="sxs-lookup"><span data-stu-id="9e1f6-168">Share content with other contributors</span></span>](./onboard-share-template.md)
+- [<span data-ttu-id="9e1f6-169">查看任务和入职员工的状态</span><span class="sxs-lookup"><span data-stu-id="9e1f6-169">View the status of tasks and onboarding employees</span></span>](./onboard-view-status.md)
+- [<span data-ttu-id="9e1f6-170">在 Onboard 中创建招聘团队</span><span class="sxs-lookup"><span data-stu-id="9e1f6-170">Create hiring teams in Onboard</span></span>](./onboard-create-team.md)
 
-### <a name="see-also"></a><span data-ttu-id="6711c-171">请参阅</span><span class="sxs-lookup"><span data-stu-id="6711c-171">See also</span></span>
+### <a name="see-also"></a><span data-ttu-id="9e1f6-171">请参阅</span><span class="sxs-lookup"><span data-stu-id="9e1f6-171">See also</span></span>
 
-- [<span data-ttu-id="6711c-172">试用或购买 Onboard 应用</span><span class="sxs-lookup"><span data-stu-id="6711c-172">Try or buy the Onboard app</span></span>](https://dynamics.microsoft.com/talent/onboard/)
-- [<span data-ttu-id="6711c-173">新增功能</span><span class="sxs-lookup"><span data-stu-id="6711c-173">What's new</span></span>](./whats-new.md)
-- [<span data-ttu-id="6711c-174">版本说明</span><span class="sxs-lookup"><span data-stu-id="6711c-174">Release notes</span></span>](https://docs.microsoft.com/business-applications-release-notes/index)
-- [<span data-ttu-id="6711c-175">获取支持</span><span class="sxs-lookup"><span data-stu-id="6711c-175">Get support</span></span>](./talent-support.md)
+- [<span data-ttu-id="9e1f6-172">试用或购买 Onboard 应用</span><span class="sxs-lookup"><span data-stu-id="9e1f6-172">Try or buy the Onboard app</span></span>](https://dynamics.microsoft.com/talent/onboard/)
+- [<span data-ttu-id="9e1f6-173">新增功能</span><span class="sxs-lookup"><span data-stu-id="9e1f6-173">What's new</span></span>](./whats-new.md)
+- [<span data-ttu-id="9e1f6-174">版本说明</span><span class="sxs-lookup"><span data-stu-id="9e1f6-174">Release notes</span></span>](https://docs.microsoft.com/business-applications-release-notes/index)
+- [<span data-ttu-id="9e1f6-175">获取支持</span><span class="sxs-lookup"><span data-stu-id="9e1f6-175">Get support</span></span>](./talent-support.md)

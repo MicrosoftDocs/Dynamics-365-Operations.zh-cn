@@ -17,43 +17,43 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 79f138ad9aeb203bce19cc93237fca96bffd015f
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: b031fd95d2e7fc8405ad96139779091e00bb4d46
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008212"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551464"
 ---
-# <a name="troubleshoot-integration-with-linkedin"></a><span data-ttu-id="48370-103">LinkedIn 集成疑难解答</span><span class="sxs-lookup"><span data-stu-id="48370-103">Troubleshoot integration with LinkedIn</span></span>
+# <a name="troubleshoot-integration-with-linkedin-and-microsoft-dynamics-365-talent---attract"></a><span data-ttu-id="e0dc9-103">与 LinkedIn 和 Microsoft Dynamics 365 Talent - Attract 集成疑难解答</span><span class="sxs-lookup"><span data-stu-id="e0dc9-103">Troubleshoot integration with LinkedIn and Microsoft Dynamics 365 Talent - Attract</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="48370-104">请使用以下信息来帮助解决在您尝试从 Microsoft Dynamics 365 Talent: Attract 将工作发布到 LinkedIn 时可能遇到的问题。</span><span class="sxs-lookup"><span data-stu-id="48370-104">Use the following information to help troubleshoot issues that you might have when you try to post jobs to LinkedIn from Microsoft Dynamics 365 Talent: Attract.</span></span>
+<span data-ttu-id="e0dc9-104">请使用以下信息来帮助解决在您尝试从 Microsoft Dynamics 365 Talent: Attract 将工作发布到 LinkedIn 时可能遇到的问题。</span><span class="sxs-lookup"><span data-stu-id="e0dc9-104">Use the following information to help troubleshoot issues that you might have when you try to post jobs to LinkedIn from Microsoft Dynamics 365 Talent: Attract.</span></span>
 
-## <a name="you-cant-sign-in-to-linkedin-from-attract"></a><span data-ttu-id="48370-105">您无法从 Attract 登录 LinkedIn</span><span class="sxs-lookup"><span data-stu-id="48370-105">You can't sign in to LinkedIn from Attract</span></span>
+## <a name="you-cant-sign-in-to-linkedin-from-attract"></a><span data-ttu-id="e0dc9-105">您无法从 Attract 登录 LinkedIn</span><span class="sxs-lookup"><span data-stu-id="e0dc9-105">You can't sign in to LinkedIn from Attract</span></span>
 
-<span data-ttu-id="48370-106">如果您在从 Attract 登录 LinkedIn 时遇到问题，请尝试以下步骤：</span><span class="sxs-lookup"><span data-stu-id="48370-106">If you're having trouble signing in to LinkedIn from Attract, try these steps:</span></span>
+<span data-ttu-id="e0dc9-106">如果您在从 Attract 登录 LinkedIn 时遇到问题，请尝试以下步骤：</span><span class="sxs-lookup"><span data-stu-id="e0dc9-106">If you're having trouble signing in to LinkedIn from Attract, try these steps:</span></span>
 
-1. <span data-ttu-id="48370-107">验证您在 Attract 中输入的 LinkedIn 凭据是否有效且正确。</span><span class="sxs-lookup"><span data-stu-id="48370-107">Verify that the LinkedIn credentials that you entered in Attract are valid and correct.</span></span>
-2. <span data-ttu-id="48370-108">如果凭据有效且正确，请联系 [LinkedIn 支持](https://www.linkedin.com/help/linkedin)。</span><span class="sxs-lookup"><span data-stu-id="48370-108">If the credentials are valid and correct, contact [LinkedIn support](https://www.linkedin.com/help/linkedin).</span></span>
-3. <span data-ttu-id="48370-109">如果问题仍然存在，请联系 [Microsoft 支持](./talent-support.md)。</span><span class="sxs-lookup"><span data-stu-id="48370-109">If the issue persists, contact [Microsoft support](./talent-support.md).</span></span>
+1. <span data-ttu-id="e0dc9-107">验证您在 Attract 中输入的 LinkedIn 凭据是否有效且正确。</span><span class="sxs-lookup"><span data-stu-id="e0dc9-107">Verify that the LinkedIn credentials that you entered in Attract are valid and correct.</span></span>
+2. <span data-ttu-id="e0dc9-108">如果凭据有效且正确，请联系 [LinkedIn 支持](https://www.linkedin.com/help/linkedin)。</span><span class="sxs-lookup"><span data-stu-id="e0dc9-108">If the credentials are valid and correct, contact [LinkedIn support](https://www.linkedin.com/help/linkedin).</span></span>
+3. <span data-ttu-id="e0dc9-109">如果问题仍然存在，请联系 [Microsoft 支持](./talent-support.md)。</span><span class="sxs-lookup"><span data-stu-id="e0dc9-109">If the issue persists, contact [Microsoft support](./talent-support.md).</span></span>
 
-## <a name="job-posts-from-attract-dont-appear-on-linkedin"></a><span data-ttu-id="48370-110">来自 Attract 的工作发布不出现在 LinkedIn 上</span><span class="sxs-lookup"><span data-stu-id="48370-110">Job posts from Attract don't appear on LinkedIn</span></span>
+## <a name="job-posts-from-attract-dont-appear-on-linkedin"></a><span data-ttu-id="e0dc9-110">来自 Attract 的工作发布不出现在 LinkedIn 上</span><span class="sxs-lookup"><span data-stu-id="e0dc9-110">Job posts from Attract don't appear on LinkedIn</span></span>
 
-<span data-ttu-id="48370-111">如果您的工作在 24 小时后未在 LinkedIn 上显示，请尝试以下步骤：</span><span class="sxs-lookup"><span data-stu-id="48370-111">If your job hasn't appeared on LinkedIn after 24 hours, try these steps:</span></span>
+<span data-ttu-id="e0dc9-111">如果您的工作在 24 小时后未在 LinkedIn 上显示，请尝试以下步骤：</span><span class="sxs-lookup"><span data-stu-id="e0dc9-111">If your job hasn't appeared on LinkedIn after 24 hours, try these steps:</span></span>
 
-1. <span data-ttu-id="48370-112">确保您的 LinkedIn 公司 ID 映射到您的 LinkedIn 公司页面，并在 Attract 管理中心正确输入。</span><span class="sxs-lookup"><span data-stu-id="48370-112">Make sure that your LinkedIn Company ID maps to your LinkedIn company page and is correctly entered in the Attract Admin center.</span></span> <span data-ttu-id="48370-113">有关如何在“管理中心”更改 LinkedIn 设置的详细信息，请参阅[设置与 LinkedIn 的集成](attract-admin-linkedin.md)。</span><span class="sxs-lookup"><span data-stu-id="48370-113">For more information about how to change LinkedIn settings in the Admin center, see [Set up integration with LinkedIn](attract-admin-linkedin.md).</span></span> <span data-ttu-id="48370-114">有关 LinkedIn 公司 ID 的详细信息，请参阅[将您的 LinkedIn 公司 ID 与 LinkedIn Job Board 关联 - 常见问题](https://www.linkedin.com/help/linkedin/answer/98972)。</span><span class="sxs-lookup"><span data-stu-id="48370-114">For more information about LinkedIn Company IDs, see [Associating your LinkedIn Company ID with the LinkedIn Job Board - Frequently Asked Questions](https://www.linkedin.com/help/linkedin/answer/98972).</span></span>
-2. <span data-ttu-id="48370-115">检查 LinkedIn 上的工作详细信息，确保地址完整。</span><span class="sxs-lookup"><span data-stu-id="48370-115">Check the job details on LinkedIn to make sure that the address is complete.</span></span> <span data-ttu-id="48370-116">要成功发布工作，LinkedIn 至少需要工作的城市、国家或地区。</span><span class="sxs-lookup"><span data-stu-id="48370-116">To post a job successfully, LinkedIn needs at least the city and country or region of the job.</span></span>
-3. <span data-ttu-id="48370-117">确保工作不会与 LinkedIn 上已经发布的其他工作重复。</span><span class="sxs-lookup"><span data-stu-id="48370-117">Make sure that the job doesn't duplicate another job that has been posted on LinkedIn.</span></span> <span data-ttu-id="48370-118">LinkedIn 不会发布与其他来源的 LinkedIn Premium Job Slots（高级职位空缺）或 Limited Listings（有限列表）重复的工作。</span><span class="sxs-lookup"><span data-stu-id="48370-118">LinkedIn won't post jobs that are duplicates of either LinkedIn Premium Job Slots or Limited Listings from another source.</span></span> <span data-ttu-id="48370-119">确认您公司的其他人员尚未手动发布该工作。</span><span class="sxs-lookup"><span data-stu-id="48370-119">Verify that another person at your company didn't already post the job manually.</span></span>
+1. <span data-ttu-id="e0dc9-112">确保您的 LinkedIn 公司 ID 映射到您的 LinkedIn 公司页面，并在 Attract 管理中心正确输入。</span><span class="sxs-lookup"><span data-stu-id="e0dc9-112">Make sure that your LinkedIn Company ID maps to your LinkedIn company page and is correctly entered in the Attract Admin center.</span></span> <span data-ttu-id="e0dc9-113">有关如何在“管理中心”更改 LinkedIn 设置的详细信息，请参阅[设置与 LinkedIn 的集成](attract-admin-linkedin.md)。</span><span class="sxs-lookup"><span data-stu-id="e0dc9-113">For more information about how to change LinkedIn settings in the Admin center, see [Set up integration with LinkedIn](attract-admin-linkedin.md).</span></span> <span data-ttu-id="e0dc9-114">有关 LinkedIn 公司 ID 的详细信息，请参阅[将您的 LinkedIn 公司 ID 与 LinkedIn Job Board 关联 - 常见问题](https://www.linkedin.com/help/linkedin/answer/98972)。</span><span class="sxs-lookup"><span data-stu-id="e0dc9-114">For more information about LinkedIn Company IDs, see [Associating your LinkedIn Company ID with the LinkedIn Job Board - Frequently Asked Questions](https://www.linkedin.com/help/linkedin/answer/98972).</span></span>
+2. <span data-ttu-id="e0dc9-115">检查 LinkedIn 上的工作详细信息，确保地址完整。</span><span class="sxs-lookup"><span data-stu-id="e0dc9-115">Check the job details on LinkedIn to make sure that the address is complete.</span></span> <span data-ttu-id="e0dc9-116">要成功发布工作，LinkedIn 至少需要工作的城市、国家或地区。</span><span class="sxs-lookup"><span data-stu-id="e0dc9-116">To post a job successfully, LinkedIn needs at least the city and country or region of the job.</span></span>
+3. <span data-ttu-id="e0dc9-117">确保工作不会与 LinkedIn 上已经发布的其他工作重复。</span><span class="sxs-lookup"><span data-stu-id="e0dc9-117">Make sure that the job doesn't duplicate another job that has been posted on LinkedIn.</span></span> <span data-ttu-id="e0dc9-118">LinkedIn 不会发布与其他来源的 LinkedIn Premium Job Slots（高级职位空缺）或 Limited Listings（有限列表）重复的工作。</span><span class="sxs-lookup"><span data-stu-id="e0dc9-118">LinkedIn won't post jobs that are duplicates of either LinkedIn Premium Job Slots or Limited Listings from another source.</span></span> <span data-ttu-id="e0dc9-119">确认您公司的其他人员尚未手动发布该工作。</span><span class="sxs-lookup"><span data-stu-id="e0dc9-119">Verify that another person at your company didn't already post the job manually.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="48370-120">请参阅</span><span class="sxs-lookup"><span data-stu-id="48370-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e0dc9-120">请参阅</span><span class="sxs-lookup"><span data-stu-id="e0dc9-120">See also</span></span>
 
-[<span data-ttu-id="48370-121">LinkedIn 常见问题</span><span class="sxs-lookup"><span data-stu-id="48370-121">LinkedIn FAQ</span></span>](./attract-linkedin-faq.md)
+[<span data-ttu-id="e0dc9-121">LinkedIn 常见问题</span><span class="sxs-lookup"><span data-stu-id="e0dc9-121">LinkedIn FAQ</span></span>](./attract-linkedin-faq.md)
 
-[<span data-ttu-id="48370-122">将工作从 Attract 发布到 LinkedIn</span><span class="sxs-lookup"><span data-stu-id="48370-122">Post jobs to LinkedIn from Attract</span></span>](./attract-post-jobs-to-linkedin.md)
+[<span data-ttu-id="e0dc9-122">将工作从 Attract 发布到 LinkedIn</span><span class="sxs-lookup"><span data-stu-id="e0dc9-122">Post jobs to LinkedIn from Attract</span></span>](./attract-post-jobs-to-linkedin.md)
 
-[<span data-ttu-id="48370-123">使用 LinkedIn Recruiter 寻求应聘者</span><span class="sxs-lookup"><span data-stu-id="48370-123">Source candidates with LinkedIn Recruiter</span></span>](./attract-linkedin-recruiter.md)
+[<span data-ttu-id="e0dc9-123">使用 LinkedIn Recruiter 寻求应聘者</span><span class="sxs-lookup"><span data-stu-id="e0dc9-123">Source candidates with LinkedIn Recruiter</span></span>](./attract-linkedin-recruiter.md)
 
-[<span data-ttu-id="48370-124">创建工作</span><span class="sxs-lookup"><span data-stu-id="48370-124">Create jobs</span></span>](./creating-jobs-attract.md)
+[<span data-ttu-id="e0dc9-124">创建工作</span><span class="sxs-lookup"><span data-stu-id="e0dc9-124">Create jobs</span></span>](./creating-jobs-attract.md)
 
-[<span data-ttu-id="48370-125">LinkedIn 集成疑难解答</span><span class="sxs-lookup"><span data-stu-id="48370-125">Troubleshoot integration with LinkedIn</span></span>](./attract-troubleshoot-linkedin.md)
+[<span data-ttu-id="e0dc9-125">LinkedIn 集成疑难解答</span><span class="sxs-lookup"><span data-stu-id="e0dc9-125">Troubleshoot integration with LinkedIn</span></span>](./attract-troubleshoot-linkedin.md)

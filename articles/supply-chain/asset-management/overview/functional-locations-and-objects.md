@@ -18,43 +18,43 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5271b673d758608cae8e43d72b7e75b259d5f142
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: e3a42d36fd137aa780886276a4235f1b8f3a3680
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024606"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653339"
 ---
-# <a name="functional-locations-and-assets"></a><span data-ttu-id="382d7-104">功能位置和资产</span><span class="sxs-lookup"><span data-stu-id="382d7-104">Functional locations and assets</span></span>
+# <a name="functional-locations-and-assets"></a><span data-ttu-id="81fdd-104">功能位置和资产</span><span class="sxs-lookup"><span data-stu-id="81fdd-104">Functional locations and assets</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-<span data-ttu-id="382d7-105">本主题介绍资产管理中的功能位置和资产。</span><span class="sxs-lookup"><span data-stu-id="382d7-105">This topic describes functional locations and assets in Asset Management.</span></span> <span data-ttu-id="382d7-106">资产管理是 Dynamics 365 Supply Chain Management 中的一个高级模块，用于管理资产和维护作业。</span><span class="sxs-lookup"><span data-stu-id="382d7-106">Asset Management is an advanced module for managing assets and maintenance jobs in Dynamics 365 Supply Chain Management.</span></span>
+<span data-ttu-id="81fdd-105">本主题介绍资产管理中的功能位置和资产。</span><span class="sxs-lookup"><span data-stu-id="81fdd-105">This topic describes functional locations and assets in Asset Management.</span></span> <span data-ttu-id="81fdd-106">资产管理是 Dynamics 365 Supply Chain Management 中的一个高级模块，用于管理资产和维护作业。</span><span class="sxs-lookup"><span data-stu-id="81fdd-106">Asset Management is an advanced module for managing assets and maintenance jobs in Dynamics 365 Supply Chain Management.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="382d7-107">概览</span><span class="sxs-lookup"><span data-stu-id="382d7-107">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="81fdd-107">概览</span><span class="sxs-lookup"><span data-stu-id="81fdd-107">Overview</span></span>
 
-<span data-ttu-id="382d7-108">资产管理与 Finance and Operations 中的多个模块无缝集成。</span><span class="sxs-lookup"><span data-stu-id="382d7-108">Asset Management is integrated seamlessly with several modules in Finance and Operations.</span></span> <span data-ttu-id="382d7-109">下图显示界面和其他模块。</span><span class="sxs-lookup"><span data-stu-id="382d7-109">The following illustration shows the interfaces with other modules.</span></span>
+<span data-ttu-id="81fdd-108">资产管理与其他 Finance and Operations 应用的多个模块无缝集成。</span><span class="sxs-lookup"><span data-stu-id="81fdd-108">Asset Management is integrated seamlessly with several modules with other Finance and Operations apps.</span></span> <span data-ttu-id="81fdd-109">下图显示界面和其他模块。</span><span class="sxs-lookup"><span data-stu-id="81fdd-109">The following illustration shows the interfaces with other modules.</span></span>
 
-![图 1](media/01-overview-image.png)
+![显示资产管理如何与其他模块交互的图](media/01-overview-image.png)
 
-<span data-ttu-id="382d7-111">资产管理可用于高效管理和执行与管理和服务公司中大量类型的设备有关的所有任务。</span><span class="sxs-lookup"><span data-stu-id="382d7-111">Asset Management lets you efficiently manage and perform all tasks that are related to managing and servicing many types of equipment in your company.</span></span> <span data-ttu-id="382d7-112">这些设备包括机器、生产设备和交通工具。</span><span class="sxs-lookup"><span data-stu-id="382d7-112">This equipment includes machines, production equipment, and vehicles.</span></span> <span data-ttu-id="382d7-113">资产管理还支持多个行业的解决方案。</span><span class="sxs-lookup"><span data-stu-id="382d7-113">Asset Management also supports solutions across numerous industries.</span></span>
+<span data-ttu-id="81fdd-111">资产管理可用于高效管理和执行与管理和服务公司中大量类型的设备有关的所有任务。</span><span class="sxs-lookup"><span data-stu-id="81fdd-111">Asset Management lets you efficiently manage and perform all tasks that are related to managing and servicing many types of equipment in your company.</span></span> <span data-ttu-id="81fdd-112">这些设备包括机器、生产设备和交通工具。</span><span class="sxs-lookup"><span data-stu-id="81fdd-112">This equipment includes machines, production equipment, and vehicles.</span></span> <span data-ttu-id="81fdd-113">资产管理还支持多个行业的解决方案。</span><span class="sxs-lookup"><span data-stu-id="81fdd-113">Asset Management also supports solutions across numerous industries.</span></span>
 
-<span data-ttu-id="382d7-114">下图显示资产管理中包含的主要功能的概览。</span><span class="sxs-lookup"><span data-stu-id="382d7-114">The following illustration shows an overview of the main functionality that is covered by Asset Management.</span></span>
+<span data-ttu-id="81fdd-114">下图显示资产管理中包含的主要功能的概览。</span><span class="sxs-lookup"><span data-stu-id="81fdd-114">The following illustration shows an overview of the main functionality that is covered by Asset Management.</span></span>
 
-![图 2](media/02-overview-image.png)
+![显示资产管理中的主要功能的图](media/02-overview-image.png)
 
-## <a name="functional-locations-and-assets"></a><span data-ttu-id="382d7-116">功能位置和资产</span><span class="sxs-lookup"><span data-stu-id="382d7-116">Functional locations and assets</span></span>
+## <a name="functional-locations-and-assets"></a><span data-ttu-id="81fdd-116">功能位置和资产</span><span class="sxs-lookup"><span data-stu-id="81fdd-116">Functional locations and assets</span></span>
 
-<span data-ttu-id="382d7-117">功能位置用于管理位置中的资产。</span><span class="sxs-lookup"><span data-stu-id="382d7-117">Functional locations are used to manage assets on locations.</span></span> <span data-ttu-id="382d7-118">此类管理包括跟踪功能位置的资产成本。</span><span class="sxs-lookup"><span data-stu-id="382d7-118">This management includes tracking of asset costs on functional locations.</span></span> <span data-ttu-id="382d7-119">功能位置采用分层结构，而位置则可以具有子位置。</span><span class="sxs-lookup"><span data-stu-id="382d7-119">Functional locations are structured hierarchically, and locations can have sub-locations.</span></span> <span data-ttu-id="382d7-120">功能位置的结构为静态结构。</span><span class="sxs-lookup"><span data-stu-id="382d7-120">The structure of functional locations is static.</span></span> <span data-ttu-id="382d7-121">换句话说，位置不能更改地点。</span><span class="sxs-lookup"><span data-stu-id="382d7-121">In other words, locations can't change place.</span></span> <span data-ttu-id="382d7-122">资产可以安装到功能位置上，也可以在以后根据需要安装到其他功能位置上。</span><span class="sxs-lookup"><span data-stu-id="382d7-122">Assets can be installed on functional locations and, as required, can be installed on other functional locations later.</span></span>
+<span data-ttu-id="81fdd-117">功能位置用于管理位置中的资产。</span><span class="sxs-lookup"><span data-stu-id="81fdd-117">Functional locations are used to manage assets on locations.</span></span> <span data-ttu-id="81fdd-118">此类管理包括跟踪功能位置的资产成本。</span><span class="sxs-lookup"><span data-stu-id="81fdd-118">This management includes tracking of asset costs on functional locations.</span></span> <span data-ttu-id="81fdd-119">功能位置采用分层结构，而位置则可以具有子位置。</span><span class="sxs-lookup"><span data-stu-id="81fdd-119">Functional locations are structured hierarchically, and locations can have sub-locations.</span></span> <span data-ttu-id="81fdd-120">功能位置的结构为静态结构。</span><span class="sxs-lookup"><span data-stu-id="81fdd-120">The structure of functional locations is static.</span></span> <span data-ttu-id="81fdd-121">换句话说，位置不能更改地点。</span><span class="sxs-lookup"><span data-stu-id="81fdd-121">In other words, locations can't change place.</span></span> <span data-ttu-id="81fdd-122">资产可以安装到功能位置上，也可以在以后根据需要安装到其他功能位置上。</span><span class="sxs-lookup"><span data-stu-id="81fdd-122">Assets can be installed on functional locations and, as required, can be installed on other functional locations later.</span></span>
 
-<span data-ttu-id="382d7-123">资产成本始终采用资产的位置。</span><span class="sxs-lookup"><span data-stu-id="382d7-123">Asset costs always follow the location of the asset.</span></span> <span data-ttu-id="382d7-124">换句话说，如果将资产安装到新的功能位置，该资产将自动使用与新功能位置关联的财务维度。</span><span class="sxs-lookup"><span data-stu-id="382d7-124">In other words, if you install an asset on a new functional location, the asset automatically uses the financial dimensions that are related to the new functional location.</span></span> <span data-ttu-id="382d7-125">因此，资产成本始终与当前安装资产的功能位置关联。</span><span class="sxs-lookup"><span data-stu-id="382d7-125">Therefore, asset costs are always related to the functional location that the asset is  currently installed on.</span></span> <span data-ttu-id="382d7-126">在公司对功能位置执行项目控制和报告时，对财务维度的此项自动处理有助于确保完全跟踪成本。</span><span class="sxs-lookup"><span data-stu-id="382d7-126">This automatic handling of financial dimensions helps guarantee complete tracking of costs when your company does project controlling and reporting on functional locations.</span></span>
+<span data-ttu-id="81fdd-123">资产成本始终采用资产的位置。</span><span class="sxs-lookup"><span data-stu-id="81fdd-123">Asset costs always follow the location of the asset.</span></span> <span data-ttu-id="81fdd-124">换句话说，如果将资产安装到新的功能位置，该资产将自动使用与新功能位置关联的财务维度。</span><span class="sxs-lookup"><span data-stu-id="81fdd-124">In other words, if you install an asset on a new functional location, the asset automatically uses the financial dimensions that are related to the new functional location.</span></span> <span data-ttu-id="81fdd-125">因此，资产成本始终与当前安装资产的功能位置关联。</span><span class="sxs-lookup"><span data-stu-id="81fdd-125">Therefore, asset costs are always related to the functional location that the asset is  currently installed on.</span></span> <span data-ttu-id="81fdd-126">在公司对功能位置执行项目控制和报告时，对财务维度的此项自动处理有助于确保完全跟踪成本。</span><span class="sxs-lookup"><span data-stu-id="81fdd-126">This automatic handling of financial dimensions helps guarantee complete tracking of costs when your company does project controlling and reporting on functional locations.</span></span>
 
-<span data-ttu-id="382d7-127">功能位置层次结构的创建方法取决于公司对维护内部设备或服务客户设备的要求。</span><span class="sxs-lookup"><span data-stu-id="382d7-127">The way that you build your hierarchy of functional locations depends on your company's requirements for maintaining internal equipment or servicing customer equipment.</span></span> <span data-ttu-id="382d7-128">下图显示基于地理位置的功能位置的示例。</span><span class="sxs-lookup"><span data-stu-id="382d7-128">The following figure shows an example of functional locations that are based on geographical locations.</span></span>
+<span data-ttu-id="81fdd-127">功能位置层次结构的创建方法取决于公司对维护内部设备或服务客户设备的要求。</span><span class="sxs-lookup"><span data-stu-id="81fdd-127">The way that you build your hierarchy of functional locations depends on your company's requirements for maintaining internal equipment or servicing customer equipment.</span></span> <span data-ttu-id="81fdd-128">下图显示基于地理位置的功能位置的示例。</span><span class="sxs-lookup"><span data-stu-id="81fdd-128">The following figure shows an example of functional locations that are based on geographical locations.</span></span>
 
-![图 3](media/03-overview-image.png)
+![显示基于地理位置的功能位置的图](media/03-overview-image.png)
 
-<span data-ttu-id="382d7-130">下图显示基于客户的功能位置的示例。</span><span class="sxs-lookup"><span data-stu-id="382d7-130">The following figure shows an example of functional locations that are based on customers.</span></span>
+<span data-ttu-id="81fdd-130">下图显示基于客户的功能位置的示例。</span><span class="sxs-lookup"><span data-stu-id="81fdd-130">The following figure shows an example of functional locations that are based on customers.</span></span>
 
-![图 4](media/04-overview-image.png)
+![显示基于客户的功能位置的图](media/04-overview-image.png)

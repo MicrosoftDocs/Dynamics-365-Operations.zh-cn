@@ -3,7 +3,7 @@ title: 手动创建的工作订单
 description: 本主题介绍如何在资产管理中手动创建工作订单。
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,131 +16,153 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 261448a134a7c1aacfbb4ea6f954ce03a63c23e2
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 8a8494bdefcf11dc331be18bfe02e0df1e39d602
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875524"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626239"
 ---
-# <a name="manually-created-work-orders"></a><span data-ttu-id="bdae6-103">手动创建的工作订单</span><span class="sxs-lookup"><span data-stu-id="bdae6-103">Manually created work orders</span></span>
+# <a name="manually-created-work-orders"></a><span data-ttu-id="a711c-103">手动创建的工作订单</span><span class="sxs-lookup"><span data-stu-id="a711c-103">Manually created work orders</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
+<span data-ttu-id="a711c-104">可以通过两种途径手动创建工作订单：</span><span class="sxs-lookup"><span data-stu-id="a711c-104">You can create work orders manually in two ways:</span></span>
 
-<span data-ttu-id="bdae6-104">可以通过两种途径手动创建工作订单：</span><span class="sxs-lookup"><span data-stu-id="bdae6-104">You can create work orders manually in two ways:</span></span>
+- <span data-ttu-id="a711c-105">在**所有工作订单**或**有效工作订单**页面</span><span class="sxs-lookup"><span data-stu-id="a711c-105">On the **All work orders** or **Active work orders** page</span></span> 
+- <span data-ttu-id="a711c-106">在**所有维护请求**、**有效维护请求**或**我的功能位置维护请求**页面</span><span class="sxs-lookup"><span data-stu-id="a711c-106">On the **All maintenance requests** or **Active maintenance requests** or **My functional location maintenance requests** page</span></span> 
 
-- <span data-ttu-id="bdae6-105">在**所有工作订单**或**有效工作订单**中</span><span class="sxs-lookup"><span data-stu-id="bdae6-105">in **All work orders** or **Active work orders**</span></span>  
-- <span data-ttu-id="bdae6-106">在**所有维护请求**、**有效维护请求**或**我的功能位置维护请求**中</span><span class="sxs-lookup"><span data-stu-id="bdae6-106">in **All maintenance requests** or **Active maintenance requests** or **My functional location maintenance requests**</span></span>  
+## <a name="create-work-order"></a><span data-ttu-id="a711c-107">创建工作订单</span><span class="sxs-lookup"><span data-stu-id="a711c-107">Create work order</span></span>
 
-## <a name="create-work-order"></a><span data-ttu-id="bdae6-107">创建工作订单</span><span class="sxs-lookup"><span data-stu-id="bdae6-107">Create work order</span></span>
+1. <span data-ttu-id="a711c-108">选择**资产管理** > **常用** > **工作订单** > **所有工作订单**或**有效工作订单**。</span><span class="sxs-lookup"><span data-stu-id="a711c-108">Selece **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
 
-1. <span data-ttu-id="bdae6-108">单击**资产管理** > **常用** > **工作订单** > **所有工作订单**或**有效工作订单**。</span><span class="sxs-lookup"><span data-stu-id="bdae6-108">Click **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
+2. <span data-ttu-id="a711c-109">选择**新建**。</span><span class="sxs-lookup"><span data-stu-id="a711c-109">Select **New**.</span></span>
 
-2. <span data-ttu-id="bdae6-109">单击**新建**按钮。</span><span class="sxs-lookup"><span data-stu-id="bdae6-109">Click the **New** button.</span></span>
+3. <span data-ttu-id="a711c-110">在**创建工作订单**对话框中，在**工作订单类型**字段中选择工作订单类型。</span><span class="sxs-lookup"><span data-stu-id="a711c-110">In the **Create work order** dialog, select a work order type in the **Work order type** field.</span></span>
 
-3. <span data-ttu-id="bdae6-110">在**创建工作订单**下拉菜单中，选择一种工作订单类型。</span><span class="sxs-lookup"><span data-stu-id="bdae6-110">In the **Create work order** drop-down, select a work order type.</span></span>
+4. <span data-ttu-id="a711c-111">如果需要，选择一个**描述**。</span><span class="sxs-lookup"><span data-stu-id="a711c-111">If required, select a **Description**.</span></span>
 
-4. <span data-ttu-id="bdae6-111">如果需要，选择一个描述。</span><span class="sxs-lookup"><span data-stu-id="bdae6-111">If required, select a description.</span></span>
-
-5. <span data-ttu-id="bdae6-112">为工作订单和维护作业类型选择资产。</span><span class="sxs-lookup"><span data-stu-id="bdae6-112">Select the asset for the work order as well as a maintenance job type.</span></span>
+5. <span data-ttu-id="a711c-112">在**资产**字段中选择资产。</span><span class="sxs-lookup"><span data-stu-id="a711c-112">In the **Asset** field, select the asset.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="bdae6-113">选择资产时，有三个选项卡可用：**我的资产**选项卡中包含与可能将分配给您（即已登录系统的工人）的功能位置（在[维护工人和工人组](../setup-for-objects/workers-and-worker-groups.md)）关联的资产。</span><span class="sxs-lookup"><span data-stu-id="bdae6-113">When you select an asset, three tabs may be available: The **My assets** tab contains assets related to the functional locations to which you (the worker who is logged on the system) may be allocated (set up in [Maintenance workers and worker groups](../setup-for-objects/workers-and-worker-groups.md)).</span></span> <span data-ttu-id="bdae6-114">如果未在[维护工人和工人组](../setup-for-objects/workers-and-worker-groups.md)中为工人设置任何功能位置，则不显示**我的资产**选项卡。</span><span class="sxs-lookup"><span data-stu-id="bdae6-114">If no functional locations are set up on a worker in [Maintenance workers and worker groups](../setup-for-objects/workers-and-worker-groups.md), the **My assets** tab will not be visible.</span></span> <span data-ttu-id="bdae6-115">**有效资产**选项卡中包含资产生命周期状态为“有效”的所有资产的列表。</span><span class="sxs-lookup"><span data-stu-id="bdae6-115">The **Active assets** tab contains a list of all assets with asset lifecycle state "Active".</span></span> <span data-ttu-id="bdae6-116">**资产视图**选项卡显示功能位置及其中安装的资产的树视图。</span><span class="sxs-lookup"><span data-stu-id="bdae6-116">The **Asset view** tab displays a tree view of functional locations and assets installed on those locations.</span></span>
+><span data-ttu-id="a711c-113">选择资产时，**资产**下拉菜单中可能会提供三个选项卡：</span><span class="sxs-lookup"><span data-stu-id="a711c-113">When you select an asset, three tabs might be available in the **Asset** drop-down:</span></span> 
 
-6. <span data-ttu-id="bdae6-117">如果需要，请选择**维护作业类型变型**和**工种**。</span><span class="sxs-lookup"><span data-stu-id="bdae6-117">If required, select **Maintenance job type variant** and **Trade**.</span></span>
+- <span data-ttu-id="a711c-114">**有效资产** - 此选项卡中包含资产生命周期状态为“有效”的所有资产的列表。</span><span class="sxs-lookup"><span data-stu-id="a711c-114">**Active assets** - This tab contains a list of all assets that have an "Active" asset lifecycle state.</span></span> 
+- <span data-ttu-id="a711c-115">**资产视图** - 此选项卡显示功能位置及其中安装的资产的树视图。</span><span class="sxs-lookup"><span data-stu-id="a711c-115">**Asset view** - This tab displays a tree view of functional locations and the assets installed on them.</span></span>
+- <span data-ttu-id="a711c-116">**我的资产** - 此选项卡中包含与可能分配给您（即已登录系统的工作人员）的功能位置关联的资产。</span><span class="sxs-lookup"><span data-stu-id="a711c-116">**My assets** - This tab contains assets that are related to the functional locations that you (the worker who is signed in to the system) may be allocated to.</span></span> <span data-ttu-id="a711c-117">（有关设置的信息，请参阅[维护工人和工作人员组](../setup-for-objects/workers-and-worker-groups.md)。）如果在[维护工人和工作人员组](../setup-for-objects/workers-and-worker-groups.md)中未在工作人员上设置功能位置，则**我的资产**选项卡不可用。</span><span class="sxs-lookup"><span data-stu-id="a711c-117">(For information about the setup, see [Maintenance workers and worker groups](../setup-for-objects/workers-and-worker-groups.md).) If no functional locations are set up on a worker in [Maintenance workers and worker groups](../setup-for-objects/workers-and-worker-groups.md), the **My assets** tab isn't available.</span></span> 
 
-7. <span data-ttu-id="bdae6-118">如果需要，可以在**服务级别**字段中更改工作订单服务级别。</span><span class="sxs-lookup"><span data-stu-id="bdae6-118">If required, you can change the work order service level in the **Service level** field.</span></span>
+6. <span data-ttu-id="a711c-118">在**维护作业类型**字段中，选择工作订单的维护作业类型。</span><span class="sxs-lookup"><span data-stu-id="a711c-118">In the **Maintenance job type** field, select a maintenance job type for the work order.</span></span>
 
-8. <span data-ttu-id="bdae6-119">在相关字段中选择预计开始日期和结束日期。</span><span class="sxs-lookup"><span data-stu-id="bdae6-119">Select expected start and end dates in the related fields.</span></span>
+7. <span data-ttu-id="a711c-119">如果需要，请选择**维护作业类型变型**和**工种**。</span><span class="sxs-lookup"><span data-stu-id="a711c-119">If required, select **Maintenance job type variant** and **Trade**.</span></span>
 
-9. <span data-ttu-id="bdae6-120">单击**确定**以创建新的工作订单。</span><span class="sxs-lookup"><span data-stu-id="bdae6-120">Click **OK** to create a new work order.</span></span>
+8. <span data-ttu-id="a711c-120">如果需要，可以在**服务级别**字段中更改工作订单服务级别。</span><span class="sxs-lookup"><span data-stu-id="a711c-120">If required, you can change the work order service level in the **Service level** field.</span></span>
 
-10. <span data-ttu-id="bdae6-121">如果需要，在**所有工作订单**中编辑工作订单。</span><span class="sxs-lookup"><span data-stu-id="bdae6-121">Edit the work order in **All work orders**, if required.</span></span>
+9. <span data-ttu-id="a711c-121">在相关字段中选择**预计开始**和**预计结束**日期。</span><span class="sxs-lookup"><span data-stu-id="a711c-121">Select **Expected start** and **Expected end** dates in the related fields.</span></span>
 
-- <span data-ttu-id="bdae6-122">在**所有工作订单**中，可以在详细信息视图中向工作订单添加多个资产，方法是在**工作订单维护作业**快速选项卡上添加行。</span><span class="sxs-lookup"><span data-stu-id="bdae6-122">In **All work orders**, You can add several assets to a work order in Details view by adding lines on the **Work order maintenance jobs** FastTab.</span></span> <span data-ttu-id="bdae6-123">对于资产，您只能选择对为该资产选择的资产类型定义的维护作业类型。</span><span class="sxs-lookup"><span data-stu-id="bdae6-123">On an asset, you can only select the maintenance job types that are defined on the asset type selected for the asset.</span></span>  
-- <span data-ttu-id="bdae6-124">如果资产服务级别或资产关键性在用于工作订单之后被更改（请参阅[资产服务级别](../setup-for-objects/object-priorities.md)和[资产关键性](../setup-for-objects/object-criticalities.md)），不会在工作订单中相应更新该服务级别或关键性。</span><span class="sxs-lookup"><span data-stu-id="bdae6-124">If you have changed an asset service level or an asset criticality after you have used them on a work order (refer to [Asset service levels](../setup-for-objects/object-priorities.md) and [Asset criticalities](../setup-for-objects/object-criticalities.md)), the service level or criticality on the work order is not updated accordingly.</span></span>
-- <span data-ttu-id="bdae6-125">只要在工作订单中添加或删除工作订单行，都将重新计算工作订单的关键性。</span><span class="sxs-lookup"><span data-stu-id="bdae6-125">Criticality on a work order is re-calculated each time a work order line is added or deleted on the work order.</span></span>
-- <span data-ttu-id="bdae6-126">可在**所有工作订单**详细信息视图 > **标题**视图 > **计划**快速选项卡上的**负责组**或**负责人**字段中选择负责维护工人组或负责维护工人。</span><span class="sxs-lookup"><span data-stu-id="bdae6-126">In **All work orders** Details view > **Header** view > **Schedule** FastTab, you can select a responsible maintenance worker group or a responsible maintenance worker in the **Responsible group** or **Responsible** fields.</span></span> <span data-ttu-id="bdae6-127">只要工作订单有效（例如，工作订单生命周期状态改变时），都可以更改这些设置。</span><span class="sxs-lookup"><span data-stu-id="bdae6-127">These settings can be changed as long as the work order is active, for example, when the work order lifecycle state changes.</span></span> <span data-ttu-id="bdae6-128">创建工作订单期间进行的自动选择基于**负责的维护工人**中的设置。</span><span class="sxs-lookup"><span data-stu-id="bdae6-128">The automatic selection made during work order creation is based on the setup in **Responsible maintenance workers**.</span></span> <span data-ttu-id="bdae6-129">如果在创建工作订单之后添加或删除工作订单作业，并且更新该工作订单时**负责组**字段和**负责人**字段为空，资产管理将在设置窗体中搜索负责维护工人组或负责维护工人的可能匹配项。</span><span class="sxs-lookup"><span data-stu-id="bdae6-129">If you add or remove work order jobs after you have created a work order, and the **Responsible group** field and the **Responsible** field are blank when you update the work order, Asset Management searches for a possible match in the setup form for a responsible maintenance worker group or a responsible maintenance worker.</span></span> <span data-ttu-id="bdae6-130">如果更新工作订单时已经填写了**负责组**字段或**负责人**字段，则不进行任何更改。</span><span class="sxs-lookup"><span data-stu-id="bdae6-130">If the **Responsible group** field or the **Responsible** field is already filled out when you update the work order, no changes are made.</span></span> 
+10. <span data-ttu-id="a711c-122">单击**确定**以创建工作订单。</span><span class="sxs-lookup"><span data-stu-id="a711c-122">Click **OK** to create the work order.</span></span>
 
-- <span data-ttu-id="bdae6-131">在**维护状态**中，可创建计算以获取与传入的工作订单和已完成工作订单有关的工作负载的概览。</span><span class="sxs-lookup"><span data-stu-id="bdae6-131">In **Maintenance status**, you can make a calculation to get an overview of workload regarding incoming and completed work orders.</span></span>  
+11. <span data-ttu-id="a711c-123">在**所有工作订单**列表页上，您可以根据需要编辑工作订单。</span><span class="sxs-lookup"><span data-stu-id="a711c-123">On the **All work orders** list page, you can edit the work order as you require.</span></span>
 
-- <span data-ttu-id="bdae6-132">可使用**行详细信息**快速选项卡上的**维度**和**经度** 字段添加为工作订单作业选择的资产的地理坐标。</span><span class="sxs-lookup"><span data-stu-id="bdae6-132">On the **Line details** FastTab, use the **Latitude** and **Longitude** fields to add geographic coordinates for the asset selected on the work order job.</span></span>  
+<span data-ttu-id="a711c-124">请注意以下点：</span><span class="sxs-lookup"><span data-stu-id="a711c-124">Note the following points:</span></span>
 
-## <a name="create-related-work-order"></a><span data-ttu-id="bdae6-133">创建相关工作订单</span><span class="sxs-lookup"><span data-stu-id="bdae6-133">Create related work order</span></span>
+- <span data-ttu-id="a711c-125">在**所有工作订单**列表页的详细信息视图中，可以向工作订单添加多个资产，方法是在**工作订单维护作业**快速选项卡上添加行。</span><span class="sxs-lookup"><span data-stu-id="a711c-125">In the details view on the **All work orders** list page, you can add several assets to a work order by adding lines on the **Work order maintenance jobs** FastTab.</span></span> <span data-ttu-id="a711c-126">对于资产，您只能选择对为该资产选择的资产类型定义的维护作业类型。</span><span class="sxs-lookup"><span data-stu-id="a711c-126">On an asset, you can select only the maintenance job types that are defined on the asset type that is selected on the asset.</span></span>  
 
-<span data-ttu-id="bdae6-134">可在要使用主工作订单和次级工作订单之类情况下创建与现有工作订单关联的工作订单。</span><span class="sxs-lookup"><span data-stu-id="bdae6-134">You can create a related work order to an existing work order if, for example, you want to work with primary and secondary work orders.</span></span> <span data-ttu-id="bdae6-135">新工作订单基于现有工作订单的工作订单作业。</span><span class="sxs-lookup"><span data-stu-id="bdae6-135">A new work order is based on a work order job from an existing work order.</span></span>
+- <span data-ttu-id="a711c-127">如果在工作订单中使用资产后更改了资产服务级别或资产关键性，将不会相应更新工作订单中的服务级别或关键性。</span><span class="sxs-lookup"><span data-stu-id="a711c-127">If you change an asset service level or an asset criticality after you've used the asset on a work order, the service level or criticality on the work order isn't updated accordingly.</span></span> <span data-ttu-id="a711c-128">有关服务级别和关键性的详细信息，请参阅[资产服务级别](../setup-for-objects/object-priorities.md)和[资产关键性](../setup-for-objects/object-criticalities.md)。</span><span class="sxs-lookup"><span data-stu-id="a711c-128">For more information about service levels and criticalities, see [Asset service levels](../setup-for-objects/object-priorities.md) and [Asset criticalities](../setup-for-objects/object-criticalities.md).</span></span>
 
-1. <span data-ttu-id="bdae6-136">单击**资产管理** > **常用** > **工作订单** > **所有工作订单**或**有效工作订单**。</span><span class="sxs-lookup"><span data-stu-id="bdae6-136">Click **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
+- <span data-ttu-id="a711c-129">只要在工作订单中添加或删除工作订单作业，都将重新计算该工作订单中的关键性。</span><span class="sxs-lookup"><span data-stu-id="a711c-129">Criticality on a work order is recalculated every time a work order job is added to or deleted from the work order.</span></span>
 
-2. <span data-ttu-id="bdae6-137">选择要为其创建关联的工作订单的工作订单。</span><span class="sxs-lookup"><span data-stu-id="bdae6-137">Select the work order for which you want to make a related work order.</span></span>
+- <span data-ttu-id="a711c-130">可在**所有工作订单**详细信息视图 > **标题**选项卡 > **计划**快速选项卡上的**负责组**或**负责人**字段中选择负责维护工人组或负责维护工人。</span><span class="sxs-lookup"><span data-stu-id="a711c-130">In the **All work orders** details view > **Header** tab > **Schedule** FastTab, in the **Responsible group** or **Responsible** field, you can select a responsible maintenance worker group or a responsible maintenance worker.</span></span> <span data-ttu-id="a711c-131">这些设置可以在工作订单活动时更改。</span><span class="sxs-lookup"><span data-stu-id="a711c-131">These settings can be changed while the work order is active.</span></span> <span data-ttu-id="a711c-132">例如，当工作订单生命周期状态更改时，可以更改它们。</span><span class="sxs-lookup"><span data-stu-id="a711c-132">For example, they can be changed when the work order lifecycle state changes.</span></span> <span data-ttu-id="a711c-133">创建工作订单期间进行的自动选择基于**负责的维护工人**页面的设置。</span><span class="sxs-lookup"><span data-stu-id="a711c-133">The automatic selection that is made during work order creation is based on the setup on the **Responsible maintenance workers** page.</span></span> <span data-ttu-id="a711c-134">如果在创建工作订单之后添加或删除工作订单作业，并且更新该工作订单时**负责组**和**负责人**字段为空，资产管理将尝试在设置页面上查找负责维护工人组或负责维护工人以寻找可能的匹配项。</span><span class="sxs-lookup"><span data-stu-id="a711c-134">If you add or remove work order jobs after you've created a work order, and if the **Responsible group** and **Responsible** fields are blank when you update the work order, Asset Management tries to find a responsible maintenance worker group or a responsible maintenance worker for a possible match on the setup page.</span></span> <span data-ttu-id="a711c-135">如果更新工作订单时已经设置了**负责组**或**负责人**字段，则不进行任何更改。</span><span class="sxs-lookup"><span data-stu-id="a711c-135">If the **Responsible group** or **Responsible** field is already set when you update the work order, no changes are made.</span></span> <span data-ttu-id="a711c-136">有关负责维护工人和工作人员组的详细信息，请参阅[负责维护工人](../setup-for-maintenance-requests/responsible-workers.md)。</span><span class="sxs-lookup"><span data-stu-id="a711c-136">For more information about responsible maintenance workers and worker groups, see [Responsible maintenance workers](../setup-for-maintenance-requests/responsible-workers.md).</span></span>
 
-3. <span data-ttu-id="bdae6-138">单击**关联的工作订单**。</span><span class="sxs-lookup"><span data-stu-id="bdae6-138">Click **Related work order**.</span></span>
+- <span data-ttu-id="a711c-137">从[维护状态](../controlling-and-reporting/maintenance-status.md)页面，可创建计算以获取传入工作订单和已完成工作订单的工作负载的概览。</span><span class="sxs-lookup"><span data-stu-id="a711c-137">From the [Maintenance status](../controlling-and-reporting/maintenance-status.md) page, you can do a calculation to get an overview of the workload for incoming and completed work orders.</span></span>  
 
-4. <span data-ttu-id="bdae6-139">在**创建关联的工作订单**下拉对话框的**工作订单作业**字段中，选择要为其创建关联的工作订单的工作订单作业。</span><span class="sxs-lookup"><span data-stu-id="bdae6-139">In the **Create related work order** drop-down dialog, select the work order job for which you want to create a related work order in the **Work order job** field.</span></span>
+- <span data-ttu-id="a711c-138">在**所有工作订单**页面的详细信息视图中的**行明细**快速选项卡上，您可以使用**纬度**和**经度**字段为在工作订单作业上选择的资产添加地理坐标。</span><span class="sxs-lookup"><span data-stu-id="a711c-138">In the details view of the **All work orders** page, on the **Line details** FastTab, you can use the **Latitude** and **Longitude** fields to add geographic coordinates for the asset that is selected on the work order job.</span></span>  
 
-5. <span data-ttu-id="bdae6-140">在**维护作业类型**字段中选择维护作业类型，并且如果需要，在**维护作业类型变型**和**工种**字段中选择关联的维护作业类型变型和工种。</span><span class="sxs-lookup"><span data-stu-id="bdae6-140">Select a maintenance job type in the **Maintenance job type** field and, if required, a related maintenance job type variant and trade in the **Maintenance job type variant** and **Trade** fields.</span></span>
 
-6. <span data-ttu-id="bdae6-141">如果这是您创建的第一个关联的工作订单，请单击**新工作订单**单选按钮。</span><span class="sxs-lookup"><span data-stu-id="bdae6-141">If this is the first related work order you make, click the **New work order** radio button.</span></span>
+## <a name="create-related-work-order"></a><span data-ttu-id="a711c-139">创建相关工作订单</span><span class="sxs-lookup"><span data-stu-id="a711c-139">Create related work order</span></span>
 
-7. <span data-ttu-id="bdae6-142">在相关字段中选择**工作订单类型**和**描述**。</span><span class="sxs-lookup"><span data-stu-id="bdae6-142">Select a **Work order type** and a **Description** in the related fields.</span></span>
+<span data-ttu-id="a711c-140">您可以创建与现有工作订单相关的工作订单。</span><span class="sxs-lookup"><span data-stu-id="a711c-140">You can create a work order that is related to an existing work order.</span></span> <span data-ttu-id="a711c-141">比如，如果要处理主工作订单和次级工作订单，此功能非常有用。</span><span class="sxs-lookup"><span data-stu-id="a711c-141">This capability is useful if, for example, you want to work with primary and secondary work orders.</span></span> <span data-ttu-id="a711c-142">新工作订单基于现有工作订单的工作订单作业。</span><span class="sxs-lookup"><span data-stu-id="a711c-142">A new work order is based on a work order job from an existing work order.</span></span>
 
-8. <span data-ttu-id="bdae6-143">如果需要，在**服务级别**字段中更改工作订单服务级别。</span><span class="sxs-lookup"><span data-stu-id="bdae6-143">If required, change the work order service level in the **Service level** field.</span></span>
+1. <span data-ttu-id="a711c-143">选择**资产管理** > **常用** > **工作订单** > **所有工作订单**或**有效工作订单**。</span><span class="sxs-lookup"><span data-stu-id="a711c-143">Select **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
 
-9. <span data-ttu-id="bdae6-144">在相关字段中插入预计开始日期和结束日期。</span><span class="sxs-lookup"><span data-stu-id="bdae6-144">Insert expected start and end dates in the related fields.</span></span>
+2. <span data-ttu-id="a711c-144">选择要创建相关工作订单的工作订单。</span><span class="sxs-lookup"><span data-stu-id="a711c-144">Select the work order to create a related work order for.</span></span>
 
-10. <span data-ttu-id="bdae6-145">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="bdae6-145">Click **OK**.</span></span> <span data-ttu-id="bdae6-146">将在**所有工作订单**列表中显示新的关联的工作订单。</span><span class="sxs-lookup"><span data-stu-id="bdae6-146">The new related work order is shown in the **All work orders** list.</span></span>
+3. <span data-ttu-id="a711c-145">在“操作窗格”的**工作订单**选项卡上的**新**组中，选择**相关工作订单**。</span><span class="sxs-lookup"><span data-stu-id="a711c-145">On the Action Pane, on the **Work order** tab, in the **New** group, select **Related work order**.</span></span>
 
-11. <span data-ttu-id="bdae6-147">如果为已经有关联的工作订单的工作订单创建关联的工作订单，可以向现有关联的工作订单添加工作订单作业。</span><span class="sxs-lookup"><span data-stu-id="bdae6-147">If you create a related work order on a work order that already has related work orders, you can add the work order job to an already related work order.</span></span> <span data-ttu-id="bdae6-148">方法是单击步骤 6 中的**添加到关联的工作订单**单选按钮。</span><span class="sxs-lookup"><span data-stu-id="bdae6-148">This is done by clicking the **Add to related work order** radio button in step 6.</span></span> <span data-ttu-id="bdae6-149">然后选择要向其添加新工作订单作业的关联的工作订单。</span><span class="sxs-lookup"><span data-stu-id="bdae6-149">Then you select the related work order to which you want to add a new work order job.</span></span> <span data-ttu-id="bdae6-150">根据需要编辑**服务级别**、**预计开始日期**和**预计结束日期**字段，然后单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="bdae6-150">Edit the **Service level**, **Expected start**, and **Expected end** fields, as required, and click **OK**.</span></span> <span data-ttu-id="bdae6-151">将把工作订单作业添加到现有关联的工作订单。</span><span class="sxs-lookup"><span data-stu-id="bdae6-151">The work order job is added to the existing related work order.</span></span>
+4. <span data-ttu-id="a711c-146">在**创建相关工作订单**对话框的**工作订单作业**字段中，选择要为其创建相关工作订单的工作订单作业。</span><span class="sxs-lookup"><span data-stu-id="a711c-146">In the **Create related work order** dialog, in the **Work order job** field, select the work order job to create a related work order for.</span></span>
 
+5. <span data-ttu-id="a711c-147">在**维护作业类型**字段中，选择维护作业类型。</span><span class="sxs-lookup"><span data-stu-id="a711c-147">Select a maintenance job type in the **Maintenance job type** field.</span></span>
+
+6. <span data-ttu-id="a711c-148">在**维护作业类型变型**和**工种**字段中，根据需要选择相关维护作业类型变型和工种。</span><span class="sxs-lookup"><span data-stu-id="a711c-148">Select a related maintenance job type variant and trade in the **Maintenance job type variant** and **Trade** fields, as you require.</span></span>
+
+7. <span data-ttu-id="a711c-149">如果此工作订单是为所选工作订单创建的第一个相关工作订单，请按照下列步骤操作：</span><span class="sxs-lookup"><span data-stu-id="a711c-149">If this work order is the first related work order that has been created for the selected work order, follow these steps:</span></span>
+    1. <span data-ttu-id="a711c-150">选择**新建工作订单**选项。</span><span class="sxs-lookup"><span data-stu-id="a711c-150">Select the **New work order** option.</span></span>
+    2. <span data-ttu-id="a711c-151">在**工作订单类型**字段中，选择一个工作订单类型。</span><span class="sxs-lookup"><span data-stu-id="a711c-151">In  the **Work order type** field, select a work order type.</span></span>
+    3. <span data-ttu-id="a711c-152">在**描述**中，输入描述。</span><span class="sxs-lookup"><span data-stu-id="a711c-152">In the **Description**, enter a description.</span></span>
+    4. <span data-ttu-id="a711c-153">根据需要，在**服务级别**字段中更改工作订单服务级别。</span><span class="sxs-lookup"><span data-stu-id="a711c-153">In the **Service level** field, change the work order service level as you require.</span></span>
+    5. <span data-ttu-id="a711c-154">在**预计开始日期**和**预计结束日期**字段中，选择预计的开始日期和结束日期。</span><span class="sxs-lookup"><span data-stu-id="a711c-154">In the **Expected start** and **Expected end** fields, select the expected start and end dates.</span></span>
+    6. <span data-ttu-id="a711c-155">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="a711c-155">Select **OK**.</span></span> <span data-ttu-id="a711c-156">将在**所有工作订单**列表页显示新的相关工作订单。</span><span class="sxs-lookup"><span data-stu-id="a711c-156">The new related work order is shown on the **All work orders** list page.</span></span>  
+
+8. <span data-ttu-id="a711c-157">如果您要为其创建此相关工作订单的工作订单已经有相关工作订单，请按照以下步骤将新工作订单作业添加到现有相关工作订单中：</span><span class="sxs-lookup"><span data-stu-id="a711c-157">If the work order that you're creating this related work order for already has related work orders, follow these steps to add a new work order job to an existing related work order:</span></span>
+    1. <span data-ttu-id="a711c-158">选择**添加到相关工作订单**选项。</span><span class="sxs-lookup"><span data-stu-id="a711c-158">Select the **Add to related work order** option.</span></span>
+    2. <span data-ttu-id="a711c-159">在**工作订单**字段中，选择要向其添加新工作订单作业的相关工作订单。</span><span class="sxs-lookup"><span data-stu-id="a711c-159">In the **Work order** field, select the related work order to add a new work order job to.</span></span>
+    3. <span data-ttu-id="a711c-160">根据需要，在**服务级别**字段中更改工作订单服务级别。</span><span class="sxs-lookup"><span data-stu-id="a711c-160">In the **Service level** field, change the work order service level as you require.</span></span>
+    4. <span data-ttu-id="a711c-161">在**预计开始日期**和**预计结束日期**字段中，根据需要更改预计的开始日期和结束日期。</span><span class="sxs-lookup"><span data-stu-id="a711c-161">In the **Expected start** and **Expected end** fields, change the expected start and end dates as you require.</span></span>
+    5. <span data-ttu-id="a711c-162">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="a711c-162">Select **OK**.</span></span> <span data-ttu-id="a711c-163">将把工作订单作业添加到现有关联的工作订单。</span><span class="sxs-lookup"><span data-stu-id="a711c-163">The work order job is added to the existing related work order.</span></span>
+
+<span data-ttu-id="a711c-164">下图显示**创建相关工作订单**对话框的示例。</span><span class="sxs-lookup"><span data-stu-id="a711c-164">The illustration below shows an example of the **Create related work order** dialog.</span></span>
 
 ![图 1](media/03-work-orders.png)
 
-<span data-ttu-id="bdae6-153">**注意：** 如果已经在**资产管理参数** > **工作订单**链接 > **关联的工作订单掩码**字段中设置了关联的工作订单掩码，将按照掩码设置创建工作订单 ID。</span><span class="sxs-lookup"><span data-stu-id="bdae6-153">**Note:** If you have set up a related work order mask in **Asset management parameters** > **Work orders** link > **Related work order mask** field, work order IDs will be created in accordance with the mask setup.</span></span> <span data-ttu-id="bdae6-154">如果未设置关联的工作订单掩码，将把下一个可用工作订单 ID 用于关联的工作订单。</span><span class="sxs-lookup"><span data-stu-id="bdae6-154">If no related work order mask is set up, the next available work order ID will be used for related work orders.</span></span>
+>[!NOTE]
+><span data-ttu-id="a711c-166">如果已经在**资产管理参数** > **工作订单**选项卡 > **相关工作订单掩码**字段中设置了相关工作订单掩码，将根据掩码设置创建工作订单 ID。</span><span class="sxs-lookup"><span data-stu-id="a711c-166">If you've set up a related work order mask in **Asset management parameters** > **Work orders** tab > **Related work order mask** field, work order IDs are created according to the mask setup.</span></span> <span data-ttu-id="a711c-167">如果未设置相关工作订单掩码，将把下一个可用工作订单 ID 用于相关工作订单。</span><span class="sxs-lookup"><span data-stu-id="a711c-167">If no related work order mask is set up, the next available work order ID is used for related work orders.</span></span>
 
-## <a name="copy-work-order"></a><span data-ttu-id="bdae6-155">复制工作订单</span><span class="sxs-lookup"><span data-stu-id="bdae6-155">Copy work order</span></span>
+## <a name="copy-a-work-order"></a><span data-ttu-id="a711c-168">复制工作订单</span><span class="sxs-lookup"><span data-stu-id="a711c-168">Copy a work order</span></span>
 
-<span data-ttu-id="bdae6-156">可以基于现有工作订单快速创建新的工作订单。</span><span class="sxs-lookup"><span data-stu-id="bdae6-156">It is possible to quickly create a new work order from an existing work order.</span></span> <span data-ttu-id="bdae6-157">这种工作订单处理方法与基于维护计划创建工作订单不同。</span><span class="sxs-lookup"><span data-stu-id="bdae6-157">This way of working with work orders is different from creating work orders based on maintenance plans.</span></span> <span data-ttu-id="bdae6-158">这在有一个工作订单中包含大量工作订单作业，这些工作订单作业具有不同资产的应该定期完成的各种作业之类情况下非常有用。</span><span class="sxs-lookup"><span data-stu-id="bdae6-158">It is useful if, for example, you have a work order containing many work order jobs with various jobs on different assets that should be completed at regular intervals.</span></span>
+<span data-ttu-id="a711c-169">您可以基于现有工作订单快速创建新的工作订单。</span><span class="sxs-lookup"><span data-stu-id="a711c-169">You can quickly create a new work order from an existing work order.</span></span> <span data-ttu-id="a711c-170">这种工作订单处理方法与基于[维护计划](../preventive-and-reactive-maintenance/maintenance-plans.md)创建工作订单不同。</span><span class="sxs-lookup"><span data-stu-id="a711c-170">This way of working with work orders differs from the creation of work orders based on [maintenance plans](../preventive-and-reactive-maintenance/maintenance-plans.md).</span></span> <span data-ttu-id="a711c-171">这在有一个工作订单中包含大量工作订单作业，这些工作订单作业具有不同资产的应该定期完成的各种作业之类情况下非常有用。</span><span class="sxs-lookup"><span data-stu-id="a711c-171">It's useful if, for example, a work order contains many work order jobs, and the various jobs should be completed on different assets at regular intervals.</span></span>
 
-1. <span data-ttu-id="bdae6-159">单击**资产管理** > **常用** > **工作订单** > **所有工作订单**或**有效工作订单**。</span><span class="sxs-lookup"><span data-stu-id="bdae6-159">Click **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
+1. <span data-ttu-id="a711c-172">选择**资产管理** > **常用** > **工作订单** > **所有工作订单**或**有效工作订单**。</span><span class="sxs-lookup"><span data-stu-id="a711c-172">Select **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
 
-2. <span data-ttu-id="bdae6-160">选择要复制其内容的工作订单。</span><span class="sxs-lookup"><span data-stu-id="bdae6-160">Select the work order from which you want to copy content.</span></span>
+2. <span data-ttu-id="a711c-173">选择要复制其内容的工作订单。</span><span class="sxs-lookup"><span data-stu-id="a711c-173">Select the work order to copy content from.</span></span>
 
-3. <span data-ttu-id="bdae6-161">单击**复制工作订单**。</span><span class="sxs-lookup"><span data-stu-id="bdae6-161">Click **Copy work order**.</span></span> <span data-ttu-id="bdae6-162">将显示所选工作订单的工作订单设置。</span><span class="sxs-lookup"><span data-stu-id="bdae6-162">The work order setup from the selected work order is shown.</span></span> <span data-ttu-id="bdae6-163">如果需要，可以编辑某些字段。</span><span class="sxs-lookup"><span data-stu-id="bdae6-163">If required, you can edit some of the fields.</span></span>
+3. <span data-ttu-id="a711c-174">在“操作窗格”> **工作订单**选项卡 > **新**组中，选择**复制工作订单**。</span><span class="sxs-lookup"><span data-stu-id="a711c-174">On the Action Pane > **Work order** tab > **New** group, select **Copy work order**.</span></span>
 
-4. <span data-ttu-id="bdae6-164">单击**确定**以创建新工作订单。</span><span class="sxs-lookup"><span data-stu-id="bdae6-164">Click **OK** to create the new work order.</span></span>
+4. <span data-ttu-id="a711c-175">将显示所选工作订单的工作订单设置。</span><span class="sxs-lookup"><span data-stu-id="a711c-175">The work order setup from the selected work order is shown.</span></span> <span data-ttu-id="a711c-176">可以根据需要编辑某些字段。</span><span class="sxs-lookup"><span data-stu-id="a711c-176">You can edit some of the fields as you require.</span></span>
 
-5. <span data-ttu-id="bdae6-165">如果需要，在**所有工作订单**中编辑工作订单。</span><span class="sxs-lookup"><span data-stu-id="bdae6-165">Edit the work order in **All work orders**, if required.</span></span>
+5. <span data-ttu-id="a711c-177">选择**确定**以创建新工作订单。</span><span class="sxs-lookup"><span data-stu-id="a711c-177">Select **OK** to create the new work order.</span></span>
+
+6. <span data-ttu-id="a711c-178">在**所有工作订单**列表页上，您可以根据需要编辑工作订单。</span><span class="sxs-lookup"><span data-stu-id="a711c-178">On the **All work orders** list page, you can edit the work order as you require.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="bdae6-166">创建新工作订单时，将直接从现有工作订单复制一些信息。</span><span class="sxs-lookup"><span data-stu-id="bdae6-166">When the new work order is created, some information is copied directly from the existing work order.</span></span> <span data-ttu-id="bdae6-167">不复制与预测、工具、维护清单、功能位置、地址和计划有关的信息，而是从资产管理中的当前设置初始化。</span><span class="sxs-lookup"><span data-stu-id="bdae6-167">Information regarding forecasts, tools, maintenance checklists, functional location, addresses, and scheduling is not copied, but initialized from the current setup in Asset Management.</span></span> <span data-ttu-id="bdae6-168">这意味着，如果在创建第一个工作订单之后到创建第一个工作订单的副本之前对这些数据进行了更改，则创建的新工作订单中将包含这些更改。</span><span class="sxs-lookup"><span data-stu-id="bdae6-168">This means that if changes were made in those data from the time of creation of the first work order until the time you made a copy of the work order, those changes are included in the new work order you have created.</span></span> <span data-ttu-id="bdae6-169">例如，对预测或更新后的维护清单的更改。</span><span class="sxs-lookup"><span data-stu-id="bdae6-169">Examples are changes in forecasts or updated maintenance checklists.</span></span>
+><span data-ttu-id="a711c-179">创建新工作订单时，将直接从现有工作订单复制一些信息。</span><span class="sxs-lookup"><span data-stu-id="a711c-179">When the new work order is created, some information is copied directly from the existing work order.</span></span> <span data-ttu-id="a711c-180">不会复制有关预测、工具、维护清单、功能位置、地址和计划的信息。</span><span class="sxs-lookup"><span data-stu-id="a711c-180">Information about forecasts, tools, maintenance checklists, functional location, addresses, and scheduling isn't copied.</span></span> <span data-ttu-id="a711c-181">而是从资产管理中的当前设置进行初始化。</span><span class="sxs-lookup"><span data-stu-id="a711c-181">Instead, it's initialized from the current setup in Asset Management.</span></span> <span data-ttu-id="a711c-182">因此，如果在创建第一个工作订单的时间到您复制工作订单的时间之间更改了该信息，则这些更改将包括在新工作订单中。</span><span class="sxs-lookup"><span data-stu-id="a711c-182">Therefore, if that information was changed between the time when the first work order was created and the time when you made a copy of the work order, the changes are included in the new work order.</span></span> <span data-ttu-id="a711c-183">例如，包括对预测的更改和对维护清单的更新。</span><span class="sxs-lookup"><span data-stu-id="a711c-183">Examples include changes to forecasts and updates to maintenance checklists.</span></span>
 
+<span data-ttu-id="a711c-184">下图显示了**复制工作订单**对话框的示例。</span><span class="sxs-lookup"><span data-stu-id="a711c-184">The illustration below shows an example of the **Copy work order** dialog.</span></span>
 
 ![图 2](media/04-work-orders.png)
 
 
-## <a name="create-work-order-based-on-a-maintenance-request"></a><span data-ttu-id="bdae6-171">基于维护请求创建工作订单</span><span class="sxs-lookup"><span data-stu-id="bdae6-171">Create work order based on a maintenance request</span></span>
+## <a name="create-a-work-order-based-on-a-maintenance-request"></a><span data-ttu-id="a711c-186">基于维护请求创建工作订单</span><span class="sxs-lookup"><span data-stu-id="a711c-186">Create a work order based on a maintenance request</span></span>
 
-1. <span data-ttu-id="bdae6-172">单击**资产管理** > **常用** > **维护请求** > **所有维护请求**或**有效维护请求**。</span><span class="sxs-lookup"><span data-stu-id="bdae6-172">Click **Asset management** > **Common** > **Maintenance requests** > **All maintenance requests** or **Active maintenance requests**.</span></span>
+1. <span data-ttu-id="a711c-187">选择**资产管理** > **常用** > **维护请求** > **所有维护请求**或**有效维护请求**。</span><span class="sxs-lookup"><span data-stu-id="a711c-187">Select **Asset management** > **Common** > **Maintenance requests** > **All maintenance requests** or **Active maintenance requests**.</span></span>
 
-2. <span data-ttu-id="bdae6-173">选择要为其创建工作订单的维护请求，然后单击**编辑**。</span><span class="sxs-lookup"><span data-stu-id="bdae6-173">Select the maintenance request for which you want to create a work order, and click **Edit**.</span></span>
+2. <span data-ttu-id="a711c-188">选择要为其创建工作订单的维护请求，然后单击**编辑**。</span><span class="sxs-lookup"><span data-stu-id="a711c-188">Select the maintenance request to create a work order for, and click **Edit**.</span></span>
 
-3. <span data-ttu-id="bdae6-174">在**所有请求**中，单击**工作订单**。</span><span class="sxs-lookup"><span data-stu-id="bdae6-174">In **All requests**, click **Work order**.</span></span>
+3. <span data-ttu-id="a711c-189">在“操作窗格”> **维护请求**选项卡 > **新**组中，选择**工作订单**。</span><span class="sxs-lookup"><span data-stu-id="a711c-189">On the Action Pane > **Maintenance request** tab > **New** group, select **Work order**.</span></span>
 
-4. <span data-ttu-id="bdae6-175">填写**工作订单**下拉菜单。</span><span class="sxs-lookup"><span data-stu-id="bdae6-175">Fill out the **Work order** drop-down.</span></span> <span data-ttu-id="bdae6-176">如果已经在维护请求中选择了维护作业类型，如果需要，可在创建工作订单时选择其他维护作业类型。</span><span class="sxs-lookup"><span data-stu-id="bdae6-176">If a maintenance job type has been selected in the maintenance request, you are able to select another maintenance job type, if required, when you create the work order.</span></span>
+4. <span data-ttu-id="a711c-190">在**工作订单**对话框中，设置字段。</span><span class="sxs-lookup"><span data-stu-id="a711c-190">In the **Work order** dialog, set the fields.</span></span> <span data-ttu-id="a711c-191">如果已经在维护请求中选择了维护作业类型，根据需要，可在创建工作订单时选择其他维护作业类型。</span><span class="sxs-lookup"><span data-stu-id="a711c-191">If a maintenance job type has been selected in the maintenance request, you can select a different maintenance job type when you create the work order, as you require.</span></span>
 
-5. <span data-ttu-id="bdae6-177">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="bdae6-177">Click **OK**.</span></span> <span data-ttu-id="bdae6-178">将显示一条消息来通知您，说明已创建了工作订单。</span><span class="sxs-lookup"><span data-stu-id="bdae6-178">You will see a message informing you that the work order has been created.</span></span>
+5. <span data-ttu-id="a711c-192">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="a711c-192">Select **OK**.</span></span> <span data-ttu-id="a711c-193">消息通知您，已创建工作订单。</span><span class="sxs-lookup"><span data-stu-id="a711c-193">A message notifies you that the work order has been created.</span></span>
 
-6. <span data-ttu-id="bdae6-179">如果要查看哪些工作订单与维护请求相连，请在**所有维护请求**或**有效维护请求**列表中选择维护请求，然后单击**工作订单**按钮。</span><span class="sxs-lookup"><span data-stu-id="bdae6-179">If you want to see which work orders are connected to a maintenance request, select the maintenance request in the **All maintenance requests** or **Active maintenance requests** lists, and click the **Work orders** button.</span></span>
+6. <span data-ttu-id="a711c-194">若要查看与维护请求相连的工作订单，请在**所有维护请求**或**有效维护请求**列表页上选择维护请求。</span><span class="sxs-lookup"><span data-stu-id="a711c-194">To view the work orders that are connected to a maintenance request, on the **All maintenance requests** or **Active maintenance requests** list page, select the maintenance request.</span></span> <span data-ttu-id="a711c-195">然后，在“操作窗格”上，在**维护请求**选项卡的**视图**组中，选择**工作订单**。</span><span class="sxs-lookup"><span data-stu-id="a711c-195">Then, on the Action Pane, on the **Maintenance request** tab, in the **View** group, select **Work orders**.</span></span>
 
+
+<span data-ttu-id="a711c-196">下图显示了**创建工作订单**对话框的示例。</span><span class="sxs-lookup"><span data-stu-id="a711c-196">The illustration below shows an example of the **Create work order** dialog.</span></span>
 
 ![图 3](media/05-work-orders.png)
 
 
 >[!NOTE]
-><span data-ttu-id="bdae6-181">也可以通过计划维护计划作业，或通过为资产设置“自动创建”维护计划或维护阶段，自动创建工作订单。</span><span class="sxs-lookup"><span data-stu-id="bdae6-181">Work orders can also be created automatically by scheduling maintenance plan jobs, or by setting up "Auto create" maintenance plans or maintenance rounds on an asset.</span></span> <span data-ttu-id="bdae6-182">将使用在维护请求中选择的维护作业类型，基于**维护安排**中的维护请求创建工作订单。</span><span class="sxs-lookup"><span data-stu-id="bdae6-182">Work orders created from maintenance requests in **Maintenance schedule** are created with the maintenance job types selected in the maintenance requests.</span></span>
+><span data-ttu-id="a711c-198">如果您希望自动创建工作订单，可以计划维护计划作业或为资产设置“自动创建”[维护计划](../preventive-and-reactive-maintenance/maintenance-plans.md)或[维护阶段](../preventive-and-reactive-maintenance/maintenance-rounds.md)。</span><span class="sxs-lookup"><span data-stu-id="a711c-198">If you want work orders to be created automatically, you can schedule maintenance plan jobs, or you can set up "Auto create" [maintenance plans](../preventive-and-reactive-maintenance/maintenance-plans.md) or [maintenance rounds](../preventive-and-reactive-maintenance/maintenance-rounds.md) on an asset.</span></span> <span data-ttu-id="a711c-199">从**所有维护安排**列表页的维护请求创建的工作订单具有在维护请求中选择的维护作业类型。</span><span class="sxs-lookup"><span data-stu-id="a711c-199">Work orders that are created from maintenance requests on the **All maintenance schedule** list page have the maintenance job types that are selected on the maintenance requests.</span></span>
 

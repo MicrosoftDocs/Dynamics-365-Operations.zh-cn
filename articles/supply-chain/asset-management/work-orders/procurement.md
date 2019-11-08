@@ -3,7 +3,7 @@ title: 采购
 description: 本主题介绍资产管理中的采购。
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,85 +16,87 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1678dbe2432e4be46aebb40a12e73dfd695c3e77
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: ec14f645af5dfdb3e840624e4cec95c46cfbbc25
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875523"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626423"
 ---
-# <a name="procurement"></a><span data-ttu-id="03039-103">采购</span><span class="sxs-lookup"><span data-stu-id="03039-103">Procurement</span></span>
-
+# <a name="procurement"></a><span data-ttu-id="70105-103">采购</span><span class="sxs-lookup"><span data-stu-id="70105-103">Procurement</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+<span data-ttu-id="70105-104">在资产管理中，可获取与工作订单关联的采购申请和采购订单的概览。</span><span class="sxs-lookup"><span data-stu-id="70105-104">In Asset Management, you can get an overview of purchase requisitions and purchase orders that are related to work orders.</span></span> <span data-ttu-id="70105-105">您还可以基于工作订单创建采购订单或采购申请。</span><span class="sxs-lookup"><span data-stu-id="70105-105">You can also create a purchase order or a purchase requisition from a work order.</span></span>
 
-<span data-ttu-id="03039-104">在资产管理中，可获取与工作订单关联的采购申请和采购订单的概览。</span><span class="sxs-lookup"><span data-stu-id="03039-104">In Asset Management, you can get an overview of purchase requisitions and purchase orders related to work orders.</span></span> <span data-ttu-id="03039-105">还可以基于工作订单创建采购订单或采购申请。</span><span class="sxs-lookup"><span data-stu-id="03039-105">It is also possible to create a purchase order or a purchase requisition from a work order.</span></span>
+<span data-ttu-id="70105-106">**工作订单采购申请**列表页（**资产管理** > **常用** > **采购** > **工作订单采购申请**）显示与工作订单关联的采购申请的列表。</span><span class="sxs-lookup"><span data-stu-id="70105-106">The **Work order purchase requisition** list page (**Asset management** > **Common** > **Procurement** > **Work order purchase requisition**) shows a list of purchase requisitions that are related to work orders.</span></span> <span data-ttu-id="70105-107">在此页面上选择工作订单作业时，可以使用**工作订单采购申请**操作窗格选项卡上**显示**组中的按钮来执行各个操作：</span><span class="sxs-lookup"><span data-stu-id="70105-107">When you select a work order job on this page, you can use the buttons in the **Show** group on the **Work order purchase requisition** Action Pane tab to perform various actions:</span></span>
 
-<span data-ttu-id="03039-106">在**工作订单采购申请**列表（**资产管理** > **常用** > **采购** > **工作订单采购申请**）中，可查看与工作订单关联的采购申请的列表。</span><span class="sxs-lookup"><span data-stu-id="03039-106">In the **Work order purchase requisition** list (**Asset management** > **Common** > **Procurement** > **Work order purchase requisition**), you see a list of purchase requisitions related to work orders.</span></span>
+- <span data-ttu-id="70105-108">要打开相关的采购申请，请选择**采购申请**。</span><span class="sxs-lookup"><span data-stu-id="70105-108">To open the related purchase requisition, select **Purchase requisition**.</span></span> 
+- <span data-ttu-id="70105-109">要打开相关的工作订单，请选择**工作订单**。</span><span class="sxs-lookup"><span data-stu-id="70105-109">To open the related work order, select **Work order**.</span></span>
+- <span data-ttu-id="70105-110">若要获取显示所选行上的物料在资产管理中在何处用于资产、维护作业类型默认值、备件和工作订单的概览，请选择**物料使用位置**。</span><span class="sxs-lookup"><span data-stu-id="70105-110">To get an overview that shows where the item on the selected line is used in relation to assets, maintenance job type defaults, spare parts, and work orders in Asset Management, select **Item where used**.</span></span> <span data-ttu-id="70105-111">有关此概览的详细信息，请参阅[物料的使用位置](../controlling-and-reporting/item-where-used.md)。</span><span class="sxs-lookup"><span data-stu-id="70105-111">For more information about this overview, see [Item where used](../controlling-and-reporting/item-where-used.md).</span></span>
 
-- <span data-ttu-id="03039-107">在**工作订单采购申请**列表中选择一个工作订单作业，然后单击**采购申请**可打开关联的采购申请。</span><span class="sxs-lookup"><span data-stu-id="03039-107">Select a work order job in the **Work order purchase requisition** list, and click the **Purchase requisition** button to open the related purchase requisition.</span></span>  
-- <span data-ttu-id="03039-108">在**工作订单采购申请**列表中选择一个工作订单作业，然后单击**工作订单**可打开关联的工作订单。</span><span class="sxs-lookup"><span data-stu-id="03039-108">Select a work order job in the **Work order purchase requisition** list, and click the **Work order** button to open the related work order.</span></span>  
-- <span data-ttu-id="03039-109">如果要获取有关在与资产、维护作业类型默认、备件和工作订单关联时，所选行的物料在资产管理中何处使用的概览，请在**工作订单采购申请**列表中选择一个工作订单作业，然后单击**物料的使用位置**按钮。</span><span class="sxs-lookup"><span data-stu-id="03039-109">Select a work order job in the **Work order purchase requisition** list, and click the **Item where used** button if you want to get an overview of where the item on the selected line is used in Asset Management in relation to assets, maintenance job type defaults, spare parts, and work orders.</span></span> 
+<span data-ttu-id="70105-112">下图显示**工作订单采购申请**列表页的示例。</span><span class="sxs-lookup"><span data-stu-id="70105-112">The illustration below shows an example of the **Work order purchase requisition** list page.</span></span>
 
 ![图 1](media/08-work-orders.png)
 
 
-<span data-ttu-id="03039-111">在**工作订单采购申请**列表（**企业资产管理** > **常用** > **采购** > **工作订单采购**）中，可查看与工作订单关联的采购订单的列表。</span><span class="sxs-lookup"><span data-stu-id="03039-111">In the **Work order purchase** list (**Enterprise asset management** > **Common** > **Procurement** > **Work order purchase**), you can see a list of purchase orders related to work orders.</span></span>
+<span data-ttu-id="70105-114">**工作订单采购**列表页（**资产管理** > **常用** > **采购** > **工作订单采购申请**）显示与工作订单关联的采购订单的列表。</span><span class="sxs-lookup"><span data-stu-id="70105-114">The **Work order purchase** list page (**Asset management** > **Common** > **Procurement** > **Work order purchase**) shows a list of purchase orders that are related to work orders.</span></span> <span data-ttu-id="70105-115">在此页面上选择工作订单作业时，可以使用操作窗格的**工作订单采购**选项卡上**显示**组中的按钮来执行各个操作：</span><span class="sxs-lookup"><span data-stu-id="70105-115">When you select a work order job on this page, you can use the buttons in the **Show** group on the **Work order purchase** tab of the Action Pane to perform various actions:</span></span>
 
-- <span data-ttu-id="03039-112">在**工作订单采购申请**列表中选择一个工作订单作业，然后单击**采购订单**可打开关联的采购订单。</span><span class="sxs-lookup"><span data-stu-id="03039-112">Select a work order job in the **Work order purchase** list, and click the **Purchase order** button to open the related purchase order.</span></span>  
-- <span data-ttu-id="03039-113">在**工作订单采购**列表中选择一个工作订单作业，然后单击**工作订单**可打开关联的工作订单。</span><span class="sxs-lookup"><span data-stu-id="03039-113">Select a work order job in the **Work order purchase** list, and click the **Work order** button to open the related work order.</span></span>  
-- <span data-ttu-id="03039-114">如果要获取有关在与资产、维护作业类型默认、备件和工作订单关联时，所选行的物料在资产管理中何处使用的概览，请在**工作订单**采购列表中选择一个工作订单作业，然后单击**物料的使用位置**按钮。</span><span class="sxs-lookup"><span data-stu-id="03039-114">Select a work order job in the **Work order** purchase list, and click the **Item where used** button if you want to get an overview of where the item on the selected line is used in Asset Management in relation to assets, maintenance job type defaults, spare parts, and work orders.</span></span> 
+- <span data-ttu-id="70105-116">要打开相关的采购订单，请选择**采购订单**。</span><span class="sxs-lookup"><span data-stu-id="70105-116">To open the related purchase order, select **Purchase order**.</span></span> 
+- <span data-ttu-id="70105-117">要打开相关的工作订单，请选择**工作订单**。</span><span class="sxs-lookup"><span data-stu-id="70105-117">To open the related work order, select **Work order**.</span></span>
+- <span data-ttu-id="70105-118">若要获取显示所选行上的物料在资产管理中在何处用于资产、维护作业类型默认值、备件和工作订单的概览，请选择**物料使用位置**。</span><span class="sxs-lookup"><span data-stu-id="70105-118">To get an overview that shows where the item on the selected line is used in relation to assets, maintenance job type defaults, spare parts, and work orders in Asset Management, select **Item where used**.</span></span> <span data-ttu-id="70105-119">有关此概览的详细信息，请参阅[物料的使用位置](../controlling-and-reporting/item-where-used.md)。</span><span class="sxs-lookup"><span data-stu-id="70105-119">For more information about this overview, see [Item where used](../controlling-and-reporting/item-where-used.md).</span></span>
+
+<span data-ttu-id="70105-120">下图显示**工作订单采购**列表页的示例。</span><span class="sxs-lookup"><span data-stu-id="70105-120">The illustration below shows an example of the **Work order purchase** list page.</span></span>
 
 ![图 2](media/09-work-orders.png)
 
 
-<span data-ttu-id="03039-116">在上面显示的列表中，将在每行右侧放置一个与交货日期控制有关的图标。</span><span class="sxs-lookup"><span data-stu-id="03039-116">In the lists shown above, an icon regarding delivery date control is placed to the right on each line.</span></span> <span data-ttu-id="03039-117">如果此图标显示红色圆圈包起来的感叹号，则表示关联采购申请或采购订单的交货可能延迟。</span><span class="sxs-lookup"><span data-stu-id="03039-117">If the icon shows an exclamation mark in a red circle, it means that delivery on the related purchase requisition or purchase order may be delayed.</span></span>
+<span data-ttu-id="70105-122">在**工作订单采购**列表页和**工作订单采购申请**列表页上，与交货日期控制相关的符号出现在每行的右侧。</span><span class="sxs-lookup"><span data-stu-id="70105-122">On both the **Work order purchase** list page and the **Work order purchase requisition** list page, a symbol that is related to delivery date control appears on the right side of each line.</span></span> <span data-ttu-id="70105-123">如果符号是红色圆圈包起来的感叹号，关联采购订单或采购申请的交货可能延迟。</span><span class="sxs-lookup"><span data-stu-id="70105-123">If the symbol is an exclamation point in a red circle, delivery of the related purchase order or purchase requisition might be delayed.</span></span>
 
-<span data-ttu-id="03039-118">在采购申请中，**采购申请**窗体 > **采购申请标题**快速选项卡 > **请求日期**字段中显示用于计算可能的延迟的日期。</span><span class="sxs-lookup"><span data-stu-id="03039-118">On a purchase requisition, the date used to calculate possible delay is found in the **Purchase requisitions** form > **Purchase requisition header** FastTab > **Requested date** field.</span></span> <span data-ttu-id="03039-119">将按照与采购订单日期相同的方式把该日期与工作订单或工作订单作业的可用日期进行比较。</span><span class="sxs-lookup"><span data-stu-id="03039-119">That date is compared to the available date on the work order or work order job in the same way as the purchase order date.</span></span>
+<span data-ttu-id="70105-124">对于采购订单，使用与采购订单行相关的日期来计算可能的延迟。</span><span class="sxs-lookup"><span data-stu-id="70105-124">For a purchase order, the date that is related to the purchase order line is used to calculate a possible delay.</span></span> <span data-ttu-id="70105-125">要查看此日期，请在**采购订单**页面上，选择采购订单行。</span><span class="sxs-lookup"><span data-stu-id="70105-125">To view this date, on the **Purchase order** page, select the purchase order line.</span></span> <span data-ttu-id="70105-126">此日期显示在**行明细**快速选项卡的**设置**选项卡上的**确认的交货日期**字段中。</span><span class="sxs-lookup"><span data-stu-id="70105-126">The date is shown in the **Confirmed delivery date** field on the **Setup** tab of the **Line details** FastTab.</span></span> <span data-ttu-id="70105-127">如果未设置**确认的交货日期**字段，则使用**采购订单头**快速选项卡上的**交货日期**字段中的日期进行计算。</span><span class="sxs-lookup"><span data-stu-id="70105-127">If the **Confirmed delivery date** field isn't set, the date in the **Delivery date** field on the **Purchase order header** FastTab is used for the calculation.</span></span> <span data-ttu-id="70105-128">将按照以下顺序把这些日期之一与工作订单或工作订单作业的可用日期进行比较：</span><span class="sxs-lookup"><span data-stu-id="70105-128">One of those dates is compared to the available date on the work order or work order job, in the following order:</span></span>
 
-<span data-ttu-id="03039-120">在采购订单中，用于计算可能的延迟的日期是与采购订单行关联的日期，其在**采购订单**窗体中 > 选择采购订单行 > **行详细信息**快速选项卡 > **设置**选项卡 > **确认的交货日期**字段中显示。</span><span class="sxs-lookup"><span data-stu-id="03039-120">On a purchase order, the date used to calculate possible delay is the date related to the purchase order line, which shown in the **Purchase order** form > select purchase order line > **Line details** FastTab > **Setup** tab > **Confirmed delivery date** field.</span></span> <span data-ttu-id="03039-121">如果不填写该字段，将使用**采购订单标题**快速选项卡上**交货日期**字段中的日期。</span><span class="sxs-lookup"><span data-stu-id="03039-121">If that field is not filled out, the date in the **Delivery date** field on the **Purchase order header** FastTab is used.</span></span> <span data-ttu-id="03039-122">将按照以下顺序把这些日期之一与工作订单或工作订单作业的可用日期进行比较：</span><span class="sxs-lookup"><span data-stu-id="03039-122">One of those dates is compared to the available date on the work order or work order job in the following order:</span></span>
+1. <span data-ttu-id="70105-129">工作订单的实际开始日期</span><span class="sxs-lookup"><span data-stu-id="70105-129">Actual start date on the work order</span></span>  
 
-- <span data-ttu-id="03039-123">工作订单的实际开始日期，或</span><span class="sxs-lookup"><span data-stu-id="03039-123">Actual start date on the work order, or</span></span>  
+2. <span data-ttu-id="70105-130">关联的工作订单作业的计划开始日期</span><span class="sxs-lookup"><span data-stu-id="70105-130">Scheduled start date on the related work order job</span></span> 
 
-- <span data-ttu-id="03039-124">关联的工作订单作业的计划开始日期，或</span><span class="sxs-lookup"><span data-stu-id="03039-124">Scheduled start date on the related work order job, or</span></span>  
+3. <span data-ttu-id="70105-131">工作订单的计划开始日期</span><span class="sxs-lookup"><span data-stu-id="70105-131">Scheduled start date on the work order</span></span> 
 
-- <span data-ttu-id="03039-125">工作订单的计划开始日期，或</span><span class="sxs-lookup"><span data-stu-id="03039-125">Scheduled start date on the work order, or</span></span>  
+4. <span data-ttu-id="70105-132">工作订单的预计开始日期</span><span class="sxs-lookup"><span data-stu-id="70105-132">Expected start date on the work order</span></span> 
 
-- <span data-ttu-id="03039-126">工作订单的预计开始日期</span><span class="sxs-lookup"><span data-stu-id="03039-126">Expected start date on the work order</span></span>  
+<span data-ttu-id="70105-133">对于采购申请，**采购申请**页面**采购申请标题**快速选项卡上的**请求日期**字段中的日期用于计算可能的延迟。</span><span class="sxs-lookup"><span data-stu-id="70105-133">For a purchase requisition, the date in the **Requested date** field on the **Purchase requisition header** FastTab of the **Purchase requisitions** page is used to calculate a possible delay.</span></span> <span data-ttu-id="70105-134">将该字段中的日期与工作订单或工作订单作业上的可用日期进行比较，位于用于采购订单的相同订单中。</span><span class="sxs-lookup"><span data-stu-id="70105-134">The date in that field is compared to the available date on the work order or work order job, in the same order that is used for a purchase order.</span></span>
 
 
-## <a name="create-purchase-order-from-a-work-order"></a><span data-ttu-id="03039-127">基于工作订单创建采购订单</span><span class="sxs-lookup"><span data-stu-id="03039-127">Create purchase order from a work order</span></span>
+## <a name="create-a-purchase-order-from-a-work-order"></a><span data-ttu-id="70105-135">基于工作订单创建采购订单</span><span class="sxs-lookup"><span data-stu-id="70105-135">Create a purchase order from a work order</span></span>
 
-<span data-ttu-id="03039-128">在**所有工作订单**中，选择一个工作订单作业，然后创建关联的采购订单或采购申请。</span><span class="sxs-lookup"><span data-stu-id="03039-128">In **All Work orders**, you select a work order job and create a related purchase order or a purchase requisition.</span></span> <span data-ttu-id="03039-129">目的是确保采购订单或采购申请与工作订单之间的项目关联。</span><span class="sxs-lookup"><span data-stu-id="03039-129">This is done to ensure project relations between the purchase order or purchase requisition and the work order.</span></span>
+<span data-ttu-id="70105-136">在**所有工作订单**列表页上，可以选择一个工作订单作业，然后创建关联的采购订单或关联的采购申请。</span><span class="sxs-lookup"><span data-stu-id="70105-136">On the **All work orders** list page, you can select a work order job, and then create a related purchase order or a related purchase requisition.</span></span> <span data-ttu-id="70105-137">这样，您可以帮助确保采购订单或采购申请与工作订单之间存在的项目关系。</span><span class="sxs-lookup"><span data-stu-id="70105-137">In this way, you help guarantee that project relations exist between the purchase order or purchase requisition and the work order.</span></span>
 
-1. <span data-ttu-id="03039-130">单击**资产管理** > **常用** > **工作订单** > **所有工作订单**或**有效工作订单**。</span><span class="sxs-lookup"><span data-stu-id="03039-130">Click **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
+1. <span data-ttu-id="70105-138">选择**资产管理** > **常用** > **工作订单** > **所有工作订单**或**有效工作订单**。</span><span class="sxs-lookup"><span data-stu-id="70105-138">Select **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
 
-2. <span data-ttu-id="03039-131">在**所有工作订单**或**有效工作订单**列表中，选择要为其创建采购订单的工作订单，然后单击**编辑**。</span><span class="sxs-lookup"><span data-stu-id="03039-131">In the **All work orders** or **Active work orders** list, select the work order for which you want to create a purchase order, and click **Edit**.</span></span>
+2. <span data-ttu-id="70105-139">选择要为其创建采购订单的工作订单，然后选择**编辑**。</span><span class="sxs-lookup"><span data-stu-id="70105-139">Select the work order to create a purchase order for, and then select **Edit**.</span></span>
 
-3. <span data-ttu-id="03039-132">在**工作订单**窗体 > **工作订单维护作业**快速选项卡上，选择要为其创建采购订单的工作订单作业。</span><span class="sxs-lookup"><span data-stu-id="03039-132">In the **Work order** form > **Work order maintenance jobs** FastTab, select the work order job for which you want to create the purchase order.</span></span>
+3. <span data-ttu-id="70105-140">在**工作订单维护作业**快速选项卡上，选择要为其创建采购订单的工作订单作业。</span><span class="sxs-lookup"><span data-stu-id="70105-140">On the **Work order maintenance jobs** FastTab, select the work order job to create the purchase order for.</span></span>
 
-4. <span data-ttu-id="03039-133">单击**物料任务** > **基于工作订单作业创建采购订单**。</span><span class="sxs-lookup"><span data-stu-id="03039-133">Click **Item tasks** > **Purchase order from work order job**.</span></span>
+4. <span data-ttu-id="70105-141">选择**物料任务** > **基于工作订单作业创建采购订单**。</span><span class="sxs-lookup"><span data-stu-id="70105-141">Select **Item tasks** > **Purchase order from work order job**.</span></span>
 
-5. <span data-ttu-id="03039-134">在**项目采购订单**列表页中，单击**新建**。</span><span class="sxs-lookup"><span data-stu-id="03039-134">In the **Project purchase orders** list page, click **New**.</span></span>
+5. <span data-ttu-id="70105-142">在**项目采购订单**列表页上，单击**新建**。</span><span class="sxs-lookup"><span data-stu-id="70105-142">On the **Project purchase orders** list page, click **New**.</span></span>
 
-6. <span data-ttu-id="03039-135">创建采购订单。</span><span class="sxs-lookup"><span data-stu-id="03039-135">Create the purchase order.</span></span>
+6. <span data-ttu-id="70105-143">创建采购订单。</span><span class="sxs-lookup"><span data-stu-id="70105-143">Create the purchase order.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="03039-136">创建采购申请与创建采购订单几乎完全相同。</span><span class="sxs-lookup"><span data-stu-id="03039-136">Creating a purchase requisition is almost identical to creating a purchase order.</span></span> <span data-ttu-id="03039-137">唯一区别是，在上面的过程中，在步骤 2 中单击的是**物料任务** > **基于工作订单作业创建采购申请**。</span><span class="sxs-lookup"><span data-stu-id="03039-137">The only difference is that in the above procedure, you click **Item tasks** > **Purchase requisition from work order job** in step 2.</span></span>
+><span data-ttu-id="70105-144">要创建关联的采购申请，请遵循相同步骤。</span><span class="sxs-lookup"><span data-stu-id="70105-144">To create a related purchase requisition, follow the same steps.</span></span> <span data-ttu-id="70105-145">但是，在步骤 4 中选择**物料任务** > **基于工作订单作业创建采购申请**。</span><span class="sxs-lookup"><span data-stu-id="70105-145">However, select **Item tasks** > **Purchase requisition from work order job** in step 4.</span></span>
 
-## <a name="project-relation-between-work-order-and-purchase-order-or-purchase-requisition"></a><span data-ttu-id="03039-138">工作订单与采购订单或采购申请之间的项目关联</span><span class="sxs-lookup"><span data-stu-id="03039-138">Project relation between work order and purchase order or purchase requisition</span></span>
 
-<span data-ttu-id="03039-139">采购订单行或采购申请行通过工作订单项目和关联的项目活动编号与工作订单作业关联。</span><span class="sxs-lookup"><span data-stu-id="03039-139">A purchase order line or purchase requisition line is related to a work order job via the work order project and the related project activity number.</span></span> <span data-ttu-id="03039-140">基于工作订单作业创建采购订单或采购申请时，必须指定关联的项目活动编号。</span><span class="sxs-lookup"><span data-stu-id="03039-140">When you create a purchase order or purchase requisition from a work order job, the related project activity number is mandatory.</span></span> <span data-ttu-id="03039-141">如果关联的工作订单中包含全部使用相同维护作业类型的工作订单作业，则在采购订单或采购申请中自动插入项目活动编号。</span><span class="sxs-lookup"><span data-stu-id="03039-141">The project activity number is automatically inserted on a purchase order or purchase requisition if the related work order contains work order jobs that all use the same maintenance job type.</span></span> <span data-ttu-id="03039-142">如果工作订单作业中包含不同维护作业类型，则必须手动插入项目活动编号。</span><span class="sxs-lookup"><span data-stu-id="03039-142">If the work order jobs contain different maintenance job types, the project activity number must be inserted manually.</span></span>
+## <a name="project-relation-between-work-order-and-purchase-order-or-purchase-requisition"></a><span data-ttu-id="70105-146">工作订单与采购订单或采购申请之间的项目关联</span><span class="sxs-lookup"><span data-stu-id="70105-146">Project relation between work order and purchase order or purchase requisition</span></span>
 
-<span data-ttu-id="03039-143">若要查看或插入与采购订单行关联的活动编号，请打开**工作订单采购** > 选择采购订单记录 > 在**采购订单**列中单击采购订单 > **行详细信息**快速选项卡 > **项目**选项卡 > **活动编号**字段。</span><span class="sxs-lookup"><span data-stu-id="03039-143">To see or insert the activity number related to a purchase order line, open **Work order purchase** > select the purchase order record > click on the purchase order in the **Purchase order** column > **Line details** FastTab > **Project** tab > **Activity number** field.</span></span>
+<span data-ttu-id="70105-147">采购订单行或采购申请行通过工作订单项目和关联的项目活动编号与工作订单作业关联。</span><span class="sxs-lookup"><span data-stu-id="70105-147">A purchase order line or purchase requisition line is related to a work order job via the work order project and the related project activity number.</span></span> <span data-ttu-id="70105-148">基于工作订单作业创建采购订单或采购申请时，必须指定关联的项目活动编号。</span><span class="sxs-lookup"><span data-stu-id="70105-148">When you create a purchase order or purchase requisition from a work order job, the related project activity number is mandatory.</span></span> <span data-ttu-id="70105-149">如果关联的工作订单中的所有工作订单作业都具有相同的维护作业类型，则将在采购订单或采购申请中自动输入项目活动编号。</span><span class="sxs-lookup"><span data-stu-id="70105-149">If all the work order jobs in the related work order have the same maintenance job type, the project activity number is automatically entered on the purchase order or purchase requisition.</span></span> <span data-ttu-id="70105-150">如果工作订单作业具有不同的维护作业类型，则必须在采购订单或采购申请上手动输入项目活动编号。</span><span class="sxs-lookup"><span data-stu-id="70105-150">If the work order jobs have different maintenance job types, you must manually enter the project activity number on the purchase order or purchase requisition.</span></span>
 
+<span data-ttu-id="70105-151">要查看或输入与采购订单行相关的活动编号，请在**工作订单采购**列表页上，选择采购订单记录，然后在**采购订单**列中选择采购订单的链接。</span><span class="sxs-lookup"><span data-stu-id="70105-151">To view or enter the activity number that is related to a purchase order line, on the **Work order purchase** list page, select the purchase order record, and then, in the **Purchase order** column, select the link for the purchase order.</span></span> <span data-ttu-id="70105-152">您可以在**行明细**快速选项卡的**项目**选项卡上找到**活动编号**字段。</span><span class="sxs-lookup"><span data-stu-id="70105-152">You can find the **Activity number** field on the **Project** tab of the **Line details** FastTab.</span></span>
+
+<span data-ttu-id="70105-153">下图显示**采购订单**页面的示例，焦点位于**活动编号**。</span><span class="sxs-lookup"><span data-stu-id="70105-153">The illustration below shows an example of the **Purchase order** page, with focus on the **Activity number**.</span></span>
 
 ![图 3](media/10-work-orders.png)
 
-
-<span data-ttu-id="03039-145">同样，若要查看或插入与工作订单采购申请行关联的活动编号，请打开**工作订单采购申请** > 选择采购申请记录 > 在**采购申请**列中单击采购申请 > **行详细信息**快速选项卡 > **项目**选项卡 > **活动编号**字段。</span><span class="sxs-lookup"><span data-stu-id="03039-145">Likewise, to see or insert the activity number related to a work order purchase requisition line, open **Work order purchase requisition** > select the purchase requisition record > click on the purchase requisition in the **Purchase requisition** column > **Line details** FastTab > **Project** tab > **Activity number** field.</span></span>
+<span data-ttu-id="70105-155">同样，要查看或输入与工作订单采购申请行相关的活动编号，请在**工作订单采购申请**列表页上，选择采购申请记录，然后在**采购申请**列中选择采购申请的链接。</span><span class="sxs-lookup"><span data-stu-id="70105-155">Likewise, to view or enter the activity number that is related to a work order purchase requisition line, on the **Work order purchase requisition** list page, select the purchase requisition record, and then, in the **Purchase requisition** column, select the link for the purchase requisition.</span></span> <span data-ttu-id="70105-156">您可以在**行明细**快速选项卡的**项目**选项卡上找到**活动编号**字段。</span><span class="sxs-lookup"><span data-stu-id="70105-156">You can find the **Activity number** field on the **Project** tab of the **Line details** FastTab.</span></span>
 

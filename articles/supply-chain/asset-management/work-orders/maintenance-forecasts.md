@@ -3,7 +3,7 @@ title: 维护预测
 description: 本主题介绍资产管理中的维护预测。
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,104 +16,111 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a1596b283c3eaffca25ff7f03c722a2bcce109fb
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024491"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626285"
 ---
-# <a name="maintenance-forecasts"></a><span data-ttu-id="0d371-103">维护预测</span><span class="sxs-lookup"><span data-stu-id="0d371-103">Maintenance forecasts</span></span>
+# <a name="maintenance-forecasts"></a><span data-ttu-id="cf24c-103">维护预测</span><span class="sxs-lookup"><span data-stu-id="cf24c-103">Maintenance forecasts</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-<span data-ttu-id="0d371-104">创建工作订单时，将创建与资产和维护作业类型关联的工作订单作业。</span><span class="sxs-lookup"><span data-stu-id="0d371-104">When you create a work order, you create work order jobs with related assets and maintenance job types.</span></span> <span data-ttu-id="0d371-105">如果选择其中包含维护预测的维护作业类型，将把这些预测自动复制到工作订单。</span><span class="sxs-lookup"><span data-stu-id="0d371-105">When you select a maintenance job type containing maintenance forecasts, the forecasts are automatically copied to the work order.</span></span>
+<span data-ttu-id="cf24c-104">创建工作订单时，将创建具有相关的资产和维护作业类型的工作订单作业。</span><span class="sxs-lookup"><span data-stu-id="cf24c-104">When you create a work order, you create work order jobs that have related assets and maintenance job types.</span></span> <span data-ttu-id="cf24c-105">如果选择包含维护预测的维护作业类型，将把这些预测自动复制到工作订单。</span><span class="sxs-lookup"><span data-stu-id="cf24c-105">When you select a maintenance job type that contains maintenance forecasts, the forecasts are automatically copied to the work order.</span></span>
 
-<span data-ttu-id="0d371-106">您可能可以在工作订单中添加或删除预测行。</span><span class="sxs-lookup"><span data-stu-id="0d371-106">You may be able to add or delete forecast lines on a work order.</span></span> <span data-ttu-id="0d371-107">对工作订单生命周期状态、关联的项目类型和与项目类型关联的阶段规则的设置决定是否可以添加或编辑预测行。</span><span class="sxs-lookup"><span data-stu-id="0d371-107">The setup of a work order lifecycle state, the related project type, and the stage rules related to the project type determines if you are able to add or edit forecast lines.</span></span> 
+<span data-ttu-id="cf24c-106">您可能可以将预测行添加到工作订单中或从工作订单中删除它们。</span><span class="sxs-lookup"><span data-stu-id="cf24c-106">You might be able to add forecast lines to a work order or delete them from a work order.</span></span> <span data-ttu-id="cf24c-107">对工作订单生命周期状态、关联的项目类型和与项目类型关联的阶段规则的设置决定是否可以添加或编辑预测行。</span><span class="sxs-lookup"><span data-stu-id="cf24c-107">The setup of the work order lifecycle state, the related project type, and the stage rules that are related to the project type determine whether you can add or edit forecast lines.</span></span> <span data-ttu-id="cf24c-108">有关工作订单生命周期状态和相关的项目阶段的详细信息，请参阅[预测、工作订单和项目](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md)。</span><span class="sxs-lookup"><span data-stu-id="cf24c-108">For more information about work order lifecycle states and related project stages, see [Forecasts, work orders, and projects](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).</span></span>
 
-1. <span data-ttu-id="0d371-108">单击**资产管理** > **常用** > **工作订单** > **所有工作订单**或**有效工作订单**。</span><span class="sxs-lookup"><span data-stu-id="0d371-108">Click **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
+1. <span data-ttu-id="cf24c-109">选择**资产管理** > **常用** > **工作订单** > **所有工作订单**或**有效工作订单**。</span><span class="sxs-lookup"><span data-stu-id="cf24c-109">Select **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
 
-2. <span data-ttu-id="0d371-109">在列表中选择工作订单，然后单击**预测**。</span><span class="sxs-lookup"><span data-stu-id="0d371-109">Select the work order in the list, and click **Forecast**.</span></span> <span data-ttu-id="0d371-110">在**工作订单维护预测**中，将显示来自为工作订单作业选择的维护作业类型的预测行。</span><span class="sxs-lookup"><span data-stu-id="0d371-110">In **Work order maintenance forecast**, forecast lines from the maintenance job type selected on the work order job are displayed.</span></span>
-
-
-## <a name="add-hours-forecast-to-a-work-order"></a><span data-ttu-id="0d371-111">向工作订单添加工时预测</span><span class="sxs-lookup"><span data-stu-id="0d371-111">Add hours forecast to a work order</span></span>
-
-1. <span data-ttu-id="0d371-112">选择要向其添加预测的工作订单作业。</span><span class="sxs-lookup"><span data-stu-id="0d371-112">Select the work order job to which you want to add a forecast.</span></span>
-
-2. <span data-ttu-id="0d371-113">在**工时**快速选项卡上，单击**添加**创建新行。</span><span class="sxs-lookup"><span data-stu-id="0d371-113">On the **Hours** FastTab, click **Add** to create a new line.</span></span>
-
-3. <span data-ttu-id="0d371-114">在**类别**字段中选择一个类别。</span><span class="sxs-lookup"><span data-stu-id="0d371-114">Select a category in the **Category** field.</span></span>
-
-4. <span data-ttu-id="0d371-115">在**工时**字段中插入预测工时的数量。</span><span class="sxs-lookup"><span data-stu-id="0d371-115">Insert number of forecasted hours in the **Hours** field.</span></span>
-
-5. <span data-ttu-id="0d371-116">在**行属性**字段中选择要对行使用的费用类型。</span><span class="sxs-lookup"><span data-stu-id="0d371-116">In the **Line property** field, select the charge type to be used on the line.</span></span>
+2. <span data-ttu-id="cf24c-110">在列表中选择工作订单，然后在“操作窗格”> **工作订单**选项卡 > **项目**组中，选择**预测**。</span><span class="sxs-lookup"><span data-stu-id="cf24c-110">Select the work order in the list, and then, on the Action Pane > **Work order** tab > the **Project** group, select **Forecast**.</span></span> <span data-ttu-id="cf24c-111">**工作订单维护预测**页面将显示来自为工作订单作业选择的维护作业类型的预测行。</span><span class="sxs-lookup"><span data-stu-id="cf24c-111">The **Work order maintenance forecast** page shows forecast lines from the maintenance job type that is selected on the work order job.</span></span>
 
 
-## <a name="add-items-forecast-to-a-work-order"></a><span data-ttu-id="0d371-117">向工作订单添加物料预测</span><span class="sxs-lookup"><span data-stu-id="0d371-117">Add items forecast to a work order</span></span>
+## <a name="add-an-hours-forecast-to-a-work-order"></a><span data-ttu-id="cf24c-112">向工作订单添加工时预测</span><span class="sxs-lookup"><span data-stu-id="cf24c-112">Add an hours forecast to a work order</span></span>
 
-<span data-ttu-id="0d371-118">可以通过三种方法向工作订单维护预测添加物料：可以为备件列表做资产 BOM 中不包含的物料（即备件）创建行，可以从已核准的部件列表选择备件，还可以从资产 BOM 选择物料。</span><span class="sxs-lookup"><span data-stu-id="0d371-118">There are three ways to add items to a work order maintenance forecast: You can create lines for items (spare parts) that are not included in the spare parts list or asset BOM, you can select spare parts from the approved spare parts list, and you can select items from the asset BOM.</span></span>
+1. <span data-ttu-id="cf24c-113">在**工作订单维护预测**页面上，选择要添加预测的工作订单作业。</span><span class="sxs-lookup"><span data-stu-id="cf24c-113">On the **Work order maintenance forecast** page, select the work order job to add a forecast to.</span></span>
 
-1. <span data-ttu-id="0d371-119">选择要向其添加预测的工作订单作业。</span><span class="sxs-lookup"><span data-stu-id="0d371-119">Select the work order job to which you want to add a forecast.</span></span>
+2. <span data-ttu-id="cf24c-114">在**工时**快速选项卡上，选择**添加**创建新行。</span><span class="sxs-lookup"><span data-stu-id="cf24c-114">On the **Hours** FastTab, select **Add** to create a new line.</span></span>
 
-2. <span data-ttu-id="0d371-120">选择**物料**快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="0d371-120">Select the **Items** FastTab.</span></span>
+3. <span data-ttu-id="cf24c-115">在**类别**字段中选择一个类别。</span><span class="sxs-lookup"><span data-stu-id="cf24c-115">In the **Category** field, select a category.</span></span>
 
-3. <span data-ttu-id="0d371-121">选择**添加**为部件列表或资产 BOM 列表中不包含的备件创建新行。</span><span class="sxs-lookup"><span data-stu-id="0d371-121">Click **Add** to create a new line for a spare part that is not on the spare parts list or the asset BOM list.</span></span>
+4. <span data-ttu-id="cf24c-116">在**工时**字段中，输入预测工时的数量。</span><span class="sxs-lookup"><span data-stu-id="cf24c-116">In the **Hours** field, enter the number of forecasted hours.</span></span>
 
-4. <span data-ttu-id="0d371-122">在**物料编号**字段中选择物料。</span><span class="sxs-lookup"><span data-stu-id="0d371-122">Select the item in the **Item number** field.</span></span>
-
-5. <span data-ttu-id="0d371-123">在**销售数量**字段中插入数量，然后在**单位**字段中选择数量单位。</span><span class="sxs-lookup"><span data-stu-id="0d371-123">Insert quantity in the **Sales quantity** field, and select a quantity unit in the **Unit** field.</span></span>
-
-6. <span data-ttu-id="0d371-124">在相关字段中插入成本价和币种，然后选择**行属性**。</span><span class="sxs-lookup"><span data-stu-id="0d371-124">Insert cost price and currency in the relevant fields, and select a **Line property**.</span></span>
-
-7. <span data-ttu-id="0d371-125">如果要更改物料行中显示的维度的列表，请单击**库存** > **显示维度**，选择维度，然后在**保存设置**切换按钮上选择“是”。</span><span class="sxs-lookup"><span data-stu-id="0d371-125">If you want to change the list of dimensions displayed on the item lines, click **Inventory** > **Display dimensions**, select the dimensions, and select "Yes" on the **Save setup** toggle button.</span></span>
-
-8. <span data-ttu-id="0d371-126">如果要向维护预测添加已核准的备件，请单击**添加备件**，选择备件，需要时编辑相关信息，然后单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="0d371-126">If you want to add an approved spare part to the maintenance forecast, click **Add spare parts**, select the spare part, edit related information if required, and click **OK**.</span></span>
-
-9. <span data-ttu-id="0d371-127">如果要向预测添加资产 BOM 物料，请单击**添加 BOM 物料**，选择物料，需要时编辑相关信息，然后单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="0d371-127">If you want to add asset BOM items to the forecast, click **Add BOM items**, select the item, edit related information if required, and click **OK**.</span></span>
-
-10. <span data-ttu-id="0d371-128">如果要在资产管理中获取有关在与资产、维护作业类型默认、备件和工作订单关联时，所选行中的物料的使用位置的概览，请选择**物料使用位置**。</span><span class="sxs-lookup"><span data-stu-id="0d371-128">Click **Item where used** if you want to get an overview of where the item on the selected line is used in Asset Management in relation to assets, maintenance job type defaults, spare parts, and work orders.</span></span> 
+5. <span data-ttu-id="cf24c-117">在**行属性**字段中选择应该对行使用的费用类型。</span><span class="sxs-lookup"><span data-stu-id="cf24c-117">In the **Line property** field, select the type of charge that should be used on the line.</span></span>
 
 
+## <a name="add-an-items-forecast-to-a-work-order"></a><span data-ttu-id="cf24c-118">向工作订单添加物料预测</span><span class="sxs-lookup"><span data-stu-id="cf24c-118">Add an items forecast to a work order</span></span>
 
-## <a name="add-expense-forecast-to-a-work-order"></a><span data-ttu-id="0d371-129">向工作订单添加费用预测</span><span class="sxs-lookup"><span data-stu-id="0d371-129">Add expense forecast to a work order</span></span>
+<span data-ttu-id="cf24c-119">有三种向工作订单维护预测添加物料的方法。</span><span class="sxs-lookup"><span data-stu-id="cf24c-119">There are three ways to add items to a work order maintenance forecast.</span></span> <span data-ttu-id="cf24c-120">可以为备件列表或资产物料清单 (BOM) 中不包含的物料（备件）创建行，可以从已核准的备件列表选择备件，或从资产物料清单选择物料。</span><span class="sxs-lookup"><span data-stu-id="cf24c-120">You can create lines for items (spare parts) that aren't included on the spare parts list or the asset bill of materials (BOM), you can select spare parts from the approved spare parts list, or you can select items from the asset BOM.</span></span>
 
-1. <span data-ttu-id="0d371-130">本主题介绍如何向工作订单添加费用预测。</span><span class="sxs-lookup"><span data-stu-id="0d371-130">This topic explains how to add an expense forecast to a work order.</span></span> <span data-ttu-id="0d371-131">在窗体的左侧，选择要向其添加预测的工作订单作业。</span><span class="sxs-lookup"><span data-stu-id="0d371-131">In the left-hand side of the form, select the work order job to which you want to add a forecast.</span></span>
+- <span data-ttu-id="cf24c-121">在**工作订单维护预测**页面上，选择要添加预测的工作订单作业。</span><span class="sxs-lookup"><span data-stu-id="cf24c-121">On the **Work order maintenance forecast** page, select the work order job to to add a forecast to.</span></span>
 
-2. <span data-ttu-id="0d371-132">选择**费用**快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="0d371-132">Select the **Expense** FastTab.</span></span>
+- <span data-ttu-id="cf24c-122">在**物料**快速选项卡上，使用适当的方法将物料添加到维护预测中。</span><span class="sxs-lookup"><span data-stu-id="cf24c-122">On the **Items** FastTab, add items to the maintenance forecast by using the appropriate method.</span></span>
 
-3. <span data-ttu-id="0d371-133">单击**添加**创建新行。</span><span class="sxs-lookup"><span data-stu-id="0d371-133">Click **Add** to create a new line.</span></span>
+<span data-ttu-id="cf24c-123">要为备件列表或资产物料清单中不包含的备件创建行，请按照以下步骤操作：</span><span class="sxs-lookup"><span data-stu-id="cf24c-123">To create a line for a spare part that isn't on the spare parts list or the asset BOM, follow these steps:</span></span>
 
-4. <span data-ttu-id="0d371-134">在**类别**字段中选择一个类别。</span><span class="sxs-lookup"><span data-stu-id="0d371-134">Select a category in the **Category** field.</span></span>
+1. <span data-ttu-id="cf24c-124">选择**添加**。</span><span class="sxs-lookup"><span data-stu-id="cf24c-124">Select **Add**.</span></span>
+2. <span data-ttu-id="cf24c-125">在**物料编号**字段中，选择物料。</span><span class="sxs-lookup"><span data-stu-id="cf24c-125">In the **Item number** field, select the item.</span></span>
+3. <span data-ttu-id="cf24c-126">在**销售数量**字段中输入数量。</span><span class="sxs-lookup"><span data-stu-id="cf24c-126">In the **Sales quantity** field, enter the quantity.</span></span>
+4. <span data-ttu-id="cf24c-127">在**单位**字段中，选择数量的度量单位。</span><span class="sxs-lookup"><span data-stu-id="cf24c-127">In the **Unit** field, select the unit of measure for the quantity.</span></span>
+5. <span data-ttu-id="cf24c-128">在**成本价**和**货币**字段中，输入相应值。</span><span class="sxs-lookup"><span data-stu-id="cf24c-128">In the **Cost price** and **Currency** fields, enter appropriate values.</span></span>
+6. <span data-ttu-id="cf24c-129">在**行属性**字段中，选择一个行属性。</span><span class="sxs-lookup"><span data-stu-id="cf24c-129">In the **Line property** field, select a line property.</span></span>
+7. <span data-ttu-id="cf24c-130">要更改物料行中显示的维度的列表，请选择**库存** > **显示维度**，选择维度，然后将**保存设置**选项设置为**是**。</span><span class="sxs-lookup"><span data-stu-id="cf24c-130">To change the list of dimensions that is shown on the item lines, select **Inventory** > **Display dimensions**, select the dimensions, and then set the **Save setup** option to **Yes**.</span></span>
 
-5. <span data-ttu-id="0d371-135">在**数量**字段中插入数量。</span><span class="sxs-lookup"><span data-stu-id="0d371-135">Insert quantity in the **Quantity** field.</span></span>
+<span data-ttu-id="cf24c-131">要从已审核的备件列表添加备件，请按照下列步骤操作：</span><span class="sxs-lookup"><span data-stu-id="cf24c-131">To add a spare part from an approved spare parts list, follow these steps:</span></span>
 
-6. <span data-ttu-id="0d371-136">在相关字段中插入成本价、销售币种和销售价。</span><span class="sxs-lookup"><span data-stu-id="0d371-136">Insert cost price, sales currency, and sales price in the relevant fields.</span></span>
+1. <span data-ttu-id="cf24c-132">选择**添加备件**。</span><span class="sxs-lookup"><span data-stu-id="cf24c-132">Select **Add spare parts**.</span></span>
+2. <span data-ttu-id="cf24c-133">选择备件，然后根据需要编辑相关信息。</span><span class="sxs-lookup"><span data-stu-id="cf24c-133">Select the spare part, and edit the related information as you require.</span></span>
+3. <span data-ttu-id="cf24c-134">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="cf24c-134">Select **OK**.</span></span>
 
-7. <span data-ttu-id="0d371-137">在**行属性**字段中选择要对行使用的费用类型。</span><span class="sxs-lookup"><span data-stu-id="0d371-137">In the **Line property** field, select the charge type to be used on the line.</span></span>
+<span data-ttu-id="cf24c-135">要从资产物料清单添加物料，请按照以下步骤操作：</span><span class="sxs-lookup"><span data-stu-id="cf24c-135">To add an item from the asset BOM, follow these steps:</span></span>
+
+1. <span data-ttu-id="cf24c-136">选择**添加 BOM 物料**。</span><span class="sxs-lookup"><span data-stu-id="cf24c-136">Select **Add BOM items**.</span></span>
+2. <span data-ttu-id="cf24c-137">选择物料，然后根据需要编辑相关信息。</span><span class="sxs-lookup"><span data-stu-id="cf24c-137">Select the item, and edit the related information as you require.</span></span>
+3. <span data-ttu-id="cf24c-138">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="cf24c-138">Select **OK**.</span></span>
+
+<span data-ttu-id="cf24c-139">若要获取显示所选行上的物料在资产管理中在何处用于资产、维护作业类型默认值、备件和工作订单的概览，请选择**物料使用位置**。</span><span class="sxs-lookup"><span data-stu-id="cf24c-139">To get an overview that shows where the item on the selected line is used in relation to assets, maintenance job type defaults, spare parts, and work orders in Asset Management, select **Item where used**.</span></span> <span data-ttu-id="cf24c-140">有关此概览的详细信息，请参阅[物料的使用位置](../controlling-and-reporting/item-where-used.md)。</span><span class="sxs-lookup"><span data-stu-id="cf24c-140">For more information about this overview, see [Item where used](../controlling-and-reporting/item-where-used.md).</span></span>
+
+
+## <a name="add-an-expense-forecast-to-a-work-order"></a><span data-ttu-id="cf24c-141">向工作订单添加费用预测</span><span class="sxs-lookup"><span data-stu-id="cf24c-141">Add an expense forecast to a work order</span></span>
+
+1. <span data-ttu-id="cf24c-142">在**工作订单维护预测**页面上，选择要添加预测的工作订单作业。</span><span class="sxs-lookup"><span data-stu-id="cf24c-142">On the **Work order maintenance forecast** page, select the work order job to add a forecast to.</span></span>
+
+2. <span data-ttu-id="cf24c-143">在**费用**快速选项卡上，选择**添加**创建行。</span><span class="sxs-lookup"><span data-stu-id="cf24c-143">On the **Expense** FastTab, select **Add** to create a line.</span></span>
+
+3. <span data-ttu-id="cf24c-144">在**类别**字段中选择一个类别。</span><span class="sxs-lookup"><span data-stu-id="cf24c-144">In the **Category** field, select a category.</span></span>
+
+4. <span data-ttu-id="cf24c-145">在**数量**字段中输入数量。</span><span class="sxs-lookup"><span data-stu-id="cf24c-145">In the **Quantity** field, enter the quantity.</span></span>
+
+5. <span data-ttu-id="cf24c-146">在**成本价**、**销售币种**和**销售价**字段中，输入相应的值。</span><span class="sxs-lookup"><span data-stu-id="cf24c-146">In the **Cost price**, **Sales currency**, and **Sales price** fields, enter appropriate values.</span></span>
+
+6. <span data-ttu-id="cf24c-147">在**行属性**字段中选择应该对行使用的费用类型。</span><span class="sxs-lookup"><span data-stu-id="cf24c-147">In the **Line property** field, select the type of charge that should be used on the line.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="0d371-138">在**维护预测总计**快速选项卡上的每个选项卡中，可查看为所选工作订单作业和为工作订单创建的行的数量。</span><span class="sxs-lookup"><span data-stu-id="0d371-138">On the **Maintenance forecast totals** FastTab, you can see an overview of the number of lines created on each tab, for the selected work order job and for the work order.</span></span> <span data-ttu-id="0d371-139">还可以查看工作订单作业的和工作订单的预测工时之和。</span><span class="sxs-lookup"><span data-stu-id="0d371-139">Also, you can see a sum of forecasted work hours for the work order job and for the work order.</span></span>
+><span data-ttu-id="cf24c-148">**维护预测总计**快速选项卡在每个快速选项卡上显示为所选工作订单作业和为工作订单创建的行的数量的概览。</span><span class="sxs-lookup"><span data-stu-id="cf24c-148">The **Maintenance forecast totals** FastTab shows an overview of the number of lines that have been created, for the selected work order job and for the work order, on each FastTab.</span></span> <span data-ttu-id="cf24c-149">另外还显示工作订单作业的和工作订单的预测工时总计。</span><span class="sxs-lookup"><span data-stu-id="cf24c-149">It also shows the total forecasted work hours for the work order job and the work order.</span></span>
+
+<span data-ttu-id="cf24c-150">下图显示**工作订单维护预测**页面的示例。</span><span class="sxs-lookup"><span data-stu-id="cf24c-150">The illustration below shows an example of the **Work order maintenance forecast** page.</span></span>
 
 ![图 1](media/06-work-orders.png)
 
 
-## <a name="automatic-update-of-work-order-forecasts"></a><span data-ttu-id="0d371-141">自动更新工作订单预测</span><span class="sxs-lookup"><span data-stu-id="0d371-141">Automatic update of work order forecasts</span></span>
+## <a name="automatic-update-of-work-order-forecasts"></a><span data-ttu-id="cf24c-152">自动更新工作订单预测</span><span class="sxs-lookup"><span data-stu-id="cf24c-152">Automatic update of work order forecasts</span></span>
 
-<span data-ttu-id="0d371-142">在资产管理中，可自动更新对已在其他模块中更新了的有关工时成本、物料成本和费用的工作订单预测的所有更改。</span><span class="sxs-lookup"><span data-stu-id="0d371-142">In Asset Management, you can automatically update any changes in work order forecasts regarding hour costs, item costs, and expenses, which have been updated in other modules.</span></span> <span data-ttu-id="0d371-143">这是为了确保工作订单预测中始终使用最新成本价。</span><span class="sxs-lookup"><span data-stu-id="0d371-143">This is done to ensure that the latest cost prices are always used in your work order forecasts.</span></span> <span data-ttu-id="0d371-144">还可以对[维护作业类型预测](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)进行类似更新。</span><span class="sxs-lookup"><span data-stu-id="0d371-144">It is also possible to make similar updates for [maintenance job type forecasts](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).</span></span>
+<span data-ttu-id="cf24c-153">如果在 Microsoft Dynamics 365 for Finance and Operations 的其他模块中更新了工时成本、物料成本和费用，资产管理中的工作订单预测可以自动更新以反映这些更改。</span><span class="sxs-lookup"><span data-stu-id="cf24c-153">If hour costs, item costs, and expenses are updated in other modules in Microsoft Dynamics 365 for Finance and Operations, work order forecasts in Asset Management can automatically be updated to reflect those changes.</span></span> <span data-ttu-id="cf24c-154">此功能帮助确保工作订单预测中始终使用最新成本价。</span><span class="sxs-lookup"><span data-stu-id="cf24c-154">This capability helps guarantee that the latest cost prices are always used in your work order forecasts.</span></span> <span data-ttu-id="cf24c-155">您还可以对[维护作业类型预测](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)进行类似更新。</span><span class="sxs-lookup"><span data-stu-id="cf24c-155">You can also do similar updates for [maintenance job type forecasts](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).</span></span>
 
-1. <span data-ttu-id="0d371-145">单击**资产管理** > **定期** > **预测** > **更新工作订单预测**。</span><span class="sxs-lookup"><span data-stu-id="0d371-145">Click **Asset management** > **Periodic** > **Forecast** > **Update work order forecast**.</span></span>
+1. <span data-ttu-id="cf24c-156">选择**资产管理** > **定期** > **预测** > **更新工作订单预测**。</span><span class="sxs-lookup"><span data-stu-id="cf24c-156">Select **Asset management** > **Periodic** > **Forecast** > **Update work order forecast**.</span></span>
 
-2. <span data-ttu-id="0d371-146">如果需要，可以在**更新工作订单预测**下拉对话框中添加有关特定工作订单或工作订单作业的选项。</span><span class="sxs-lookup"><span data-stu-id="0d371-146">In the **Update work order forecast** drop-down dialog, you can add selections regarding specific work orders or work order jobs, if required.</span></span> <span data-ttu-id="0d371-147">单击**筛选**创建这些选项。</span><span class="sxs-lookup"><span data-stu-id="0d371-147">Click **Filter** to make those selections.</span></span>
+2. <span data-ttu-id="cf24c-157">根据需要，可以在**更新工作订单预测**对话框中，在**要包括的记录**快速选项卡上，添加有关特定工作订单或工作订单作业的选项。</span><span class="sxs-lookup"><span data-stu-id="cf24c-157">In the **Update work order forecast** dialog, on the **Records to include** FastTab, you can add selections regarding specific work orders or work order jobs, as you require.</span></span> <span data-ttu-id="cf24c-158">单击**筛选器**进行相关选择。</span><span class="sxs-lookup"><span data-stu-id="cf24c-158">Click **Filter** to make the relevant selections.</span></span>
 
-3. <span data-ttu-id="0d371-148">如果需要，可以在**在后台运行**快速选项卡上将自动更新设置为批处理作业。</span><span class="sxs-lookup"><span data-stu-id="0d371-148">If required, you can set up the automatic update as a batch job on the **Run in the background** FastTab.</span></span>
+3. <span data-ttu-id="cf24c-159">在**在后台运行**快速选项卡上，可根据需要将自动更新设置为批处理作业。</span><span class="sxs-lookup"><span data-stu-id="cf24c-159">On the **Run in the background** FastTab, you can set up the automatic update as a batch job, as you require.</span></span>
 
-4. <span data-ttu-id="0d371-149">单击**确定**开始进行预测更新。</span><span class="sxs-lookup"><span data-stu-id="0d371-149">Click **OK** to start the forecast update.</span></span>
+4. <span data-ttu-id="cf24c-160">选择**确定**开始进行预测更新。</span><span class="sxs-lookup"><span data-stu-id="cf24c-160">Select **OK** to start the forecast update.</span></span>
 
+
+<span data-ttu-id="cf24c-161">下图显示**更新工作订单预测**对话框的示例。</span><span class="sxs-lookup"><span data-stu-id="cf24c-161">The illustration below shows an example of the **Update work order forecast** dialog.</span></span>
 
 ![图 2](media/07-work-orders.png)
-
