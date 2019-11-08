@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33ce7b5418ab9e1a9abd6c3206c74c5a1cf739a3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181879"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578233"
 ---
 # <a name="electronic-reporting-er-overview"></a>电子申报 (ER) 概览
 
@@ -71,9 +71,8 @@ ER 支持两种组件类型：**数据模型**和**格式**。
 
 - 它可以使用不同的数据类型作为数据模型的数据源。 例如，它可以使用表、数据实体、方法或枚举。
 - 当某些数据必须在运行时指定时，它支持用户输入可定义为数据模型数据源的参数。
-- 它支持将数据转换到所需的组。 它还能让您对数据进行筛选、排序和汇总，并且还追加通过与 Microsoft Excel 公式类似的公式设计的逻辑计算字段，如下图中所示。 有关详细信息，请参阅 [电子申报中的配方设计器](general-electronic-reporting-formula-designer.md)。
+- 它支持将数据转换到所需的组。 它还能让您对数据进行筛选、排序和汇总，并且还追加通过与 Microsoft Excel 公式类似的公式设计的逻辑计算字段。 有关详细信息，请参阅 [电子申报中的配方设计器](general-electronic-reporting-formula-designer.md)。
 
-[![配方设计器](./media/ER-overview-01.png)](./media/ER-overview-01.png)
 
 支持传入电子文档的模型映射具有以下功能：
 
@@ -196,9 +195,7 @@ ER 存储库中会存储 ER 配置。 目前支持以下 ER 存储库类型：
 ## <a name="supported-scenarios"></a>支持的方案
 ### <a name="building-a-data-model"></a>构建数据模型
 
-ER 提供了一个模型设计器，可以用于为特定业务域构建数据模型。 所有特定于域的业务实体以及这些实体之间的关系可在数据模型以层次结构的形式呈现。 下图显示这种类型的数据模型（付款域数据模型）的示例。
-
-[![付款域数据模型](./media/ER-overview-04.png)](./media/ER-overview-04.png)
+ER 提供了一个模型设计器，可以用于为特定业务域构建数据模型。 所有特定于域的业务实体以及这些实体之间的关系可在数据模型以层次结构的形式呈现。 
 
 若要详细了解此方案，播放 **ER 设计域特定数据模型**任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）以。
 
@@ -209,24 +206,14 @@ ER 提供了一个模型设计器，可以用于为特定业务域构建数据�
 - 在设计时，使内容对于说外语且将使用数据模型进行格式组件的数据映射的格式设计人员更容易理解。
 - 在运行时，通过呈现提示让内容更加用户友好并帮助运行时参数，另外还使用当前登录的用户偏好的语言配置验证消息（错误和警告）。
 
-下图显示数据模型内容从英语翻译为日文的示例。
-
-[![英语数据模型内容](./media/ER-overview-05.png)](./media/ER-overview-05.png)
-
-[![翻译成日语的数据模型内容](./media/ER-overview-06.png)](./media/ER-overview-06.png)
-
 ### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>配置传出文档的数据模型映射
 
-ER 提供模型映射设计器，可让用户将他们所设计的数据模型映射到特定应用程序数据源。 基于映射，数据将在运行时从所选数据源导入到数据模型。 然后使用数据模型作为生成传出电子文档的 ER 格式的抽象数据源。 下图显示此类型的数据模型映射的示例（付款域数据模型的 **SEPA 贷方转帐**模型映射）。
-
-[![数据模型映射的示例](./media/ER-overview-07.png)](./media/ER-overview-07.png)
+ER 提供模型映射设计器，可让用户将他们所设计的数据模型映射到特定应用程序数据源。 基于映射，数据将在运行时从所选数据源导入到数据模型。 然后使用数据模型作为生成传出电子文档的 ER 格式的抽象数据源。 
 
 若要详细了解此方案，播放 **ER 定义模型映射并选择数据源**和 **ER 将数据模型映射到所选数据源**任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）。
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>配置传入文档的数据模型映射
-ER 提供模型映射设计器，可让用户将他们所设计的数据模型映射到特定的目的地。 例如，数据模型可以映射到可更新数据组件（表、数据实体和视图）。 基于映射，使用数据模型的数据在运行时更新。 作为 ER 格式的抽象存储，使用从传入电子文档导入的数据填充数据模型。 下图显示这种类型的数据模型映射的示例。 在此示例中，付款域数据模型的**为 NETS 导入映射**模型映射用于支持以 NETS 银行格式为挪威导入银行对账单。
-
-[![导入 NETS 数据模型映射示例](./media/ER-overview-08.png)](./media/ER-overview-08.png)
+ER 提供模型映射设计器，可让用户将他们所设计的数据模型映射到特定的目的地。 例如，数据模型可以映射到可更新数据组件（表、数据实体和视图）。 基于映射，使用数据模型的数据在运行时更新。 作为 ER 格式的抽象存储，使用从传入电子文档导入的数据填充数据模型。 
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>将设计的模型组件存储为模型配置
 
@@ -236,24 +223,18 @@ ER 能够将设计的数据模型（与关联的数据映射一起）存储为�
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>构建使用数据模型作为基础的格式
 
-ER 支持格式设计器，您可以通过选择模型组件作为基础来使用此设计器构建电子单据的格式。 同一 ER 格式设计器让您可以将创建的格式作为数据源映射到所选域的数据模型映射。 下面的插图显示了这种格式的示例（支持英国 **BACS** 付款格式的格式配置）。
-
-[![使用数据模型作为基础的格式示例](./media/ER-overview-09.png)](./media/ER-overview-09.png)
+ER 支持格式设计器，您可以通过选择模型组件作为基础来使用此设计器构建电子单据的格式。 同一 ER 格式设计器让您可以将创建的格式作为数据源映射到所选域的数据模型映射。 
 
 若要详细了解此方案，播放 **ER 设计域特定格式**任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）以。
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-openxml-worksheet-format"></a>构建配置以生成使用 OPENXML 工作表格式的电子单据
 
-ER 格式设计器可以用于构建使用 OPENXML 工作表格式的电子单据。 下图显示这种格式类型的示例（生成包含所选付款日记帐的 OPENXML 工作表的格式配置）。
-
-[![Pic-ER-format-Excel](./media/ER-overview-10.png)](./media/ER-overview-10.png)
+ER 格式设计器可以用于构建使用 OPENXML 工作表格式的电子单据。 
 
 若要详细了解此方案，播放 **ER 创建 OPENXML 格式的报表配置**任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）以。 作为导入模板的任务指南的一部分，使用 [付款报表模板 (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) Excel 文件作为模板。
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>构建配置以生成使用 Word 文档格式的电子单据
 ER 格式设计器可以用于构建使用 Word 文档格式的电子单据。 下图显示这种格式类型的示例。 请注意，此格式重复使用最初为生成 OPENXML 格式的报表输出而设计的现有 ER 配置。
-
-[![Pic-ER-format-Word](./media/ER-overview-11.png)](./media/ER-overview-11.png)
 
 若要详细了解此方案，播放 ER 设计用于生成 Microsoft WORD 格式的报表的配置任务指南（7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677) 业务流程的一部分）。 作为导入模板的任务指南步骤的一部分，使用以下 Word 文件作为 ER 格式的模板：
 
@@ -261,11 +242,7 @@ ER 格式设计器可以用于构建使用 Word 文档格式的电子单据。 �
 - [付款报表绑定模板 (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>生成配置以从传入的电子文档导入数据
-ER 格式设计器可用于描述为 XML 或文本格式的数据导入计划的电子文档。 设计的格式用于分析传入的文档。 ER 格式映射设计器可用于定义设计格式的元素到数据模型的绑定。 下图显示这种格式类型和格式映射的示例。 在此示例中，导入包含供应商付款详细信息的文本格式的 NETS 银行对账单。
-
-[![ER-format-designer](./media/ER-overview-12.png)](./media/ER-overview-12.png)
-
-[![ER-model-mapping-designer](./media/ER-overview-13.png)](./media/ER-overview-13.png)
+ER 格式设计器可用于描述为 XML 或文本格式的数据导入计划的电子文档。 设计的格式用于分析传入的文档。 ER 格式映射设计器可用于定义设计格式的元素到数据模型的绑定。 
 
 若要详细了解此方案，播放创建从外部文件导入数据所需配置任务指南（7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677) 业务流程的一部分）。 使用以下文件播放本指南：
 
@@ -280,11 +257,7 @@ ER 能够将设计的格式（与已配置的数据映射一起）存储为当�
 
 ### <a name="configuring-finance-to-start-to-use-a-created-format-internally"></a>配置 Finance 以开始在内部使用创建的格式
 
-可以配置此应用程序以开始将创建的格式用于电子报表生成。 对创建的格式配置的引用应在特定域的设置中定义。 例如，若要开始在 BACS 格式中使用 ER 格式配置进行电子供应商付款，格式配置应在特定付款方式中引用，如下面的插图所示：
-
-[![BACS（英国）格式配置](./media/ER-overview-14.png)](./media/ER-overview-14.png)
-
-[![在付款方式中引用 BACS（英国）格式](./media/ER-overview-15.png)](./media/ER-overview-15.png)
+可以配置此应用程序以开始将创建的格式用于电子报表生成。 对创建的格式配置的引用应在特定域的设置中定义。 例如，若要开始在 BACS 格式中使用 ER 格式配置进行电子供应商付款，格式配置应在特定付款方式中引用。
 
 若要详细了解此方案，播放 **ER 使用格式为付款生成电子单据**任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）。
 
