@@ -15,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 06a29d531b0a21d4f417ecfba5a8561bd0cb7f89
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f94ae029b686f841c40a4633ac0dfd27d0a148b4
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249070"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553105"
 ---
 # <a name="finance-and-operations-apps---operated-by-21vianet-in-china"></a>Finance and Operations 应用 - 由世纪互联在中国运营
 
@@ -64,7 +64,7 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 
 -   由于 Azure Active Directory 限制，[供应商管理和协作](../../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)将不可用。
 
--   由于 Google Play 商店在中国不可用，某些**移动应用**（如[仓库](../../../supply-chain/warehousing/install-configure-warehousing-app.md)和[项目时间条目移动工作区](../../../financials/project-management/mobile-timesheets.md)）将不可用；但正在考虑推出替代方案。
+-   由于 Google Play 商店在中国不可用，某些**移动应用**（如[仓库](../../../supply-chain/warehousing/install-configure-warehousing-app.md)和[项目时间条目移动工作区](../../../finance/project-management/project-time-entry-mobile-workspace.md)）将不可用；但正在考虑推出替代方案。
 
 -   由于某些应用商店的依赖项在中国不可用，**[移动平台](../mobile-apps/platform/mobile-platform-home-page.md)** 将不可用。
 

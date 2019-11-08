@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4fc32d337be1f71932555fcb062a8d05c9ca9bda
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 1aee14c869d84bef38a738bfe78fd09ee7f82d94
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918410"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652371"
 ---
 # <a name="asset-kpis"></a>资产 KPI
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 在资产管理中，可计算资产和资产类型的各种关键绩效指标 (KPI)。 在与运行时间、停机时间、维修时间和平均无故障时间 (MTBF) 关联时，可使用 KPI 获取资产的性能概览。
 
@@ -85,7 +85,7 @@ ms.locfileid: "1918410"
 
 下图显示四个资产的 KPI 计算的屏幕截图。
 
-![图 1](media/11-controlling-and-reporting.png)
+![四个资产的 KPI 计算的屏幕截图](media/11-controlling-and-reporting.png)
 
 - 可以在**所有资产**中选择多个资产，然后单击**常规**选项卡上的**资产 KPI** 按钮。再单击**计算资产 KPI** 对话框中的**确定**以计算所选资产的 KPI。  
 - KPI 计算结果未必包含[维护停机时间登记](../work-orders/maintenance-downtime.md)，具体取决于对维护停机时间原因代码的设置和使用。 

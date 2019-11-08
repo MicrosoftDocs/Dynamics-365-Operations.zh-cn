@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f38253317ed8f06318fc501511ca5263a614e20
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 5c2a4052f9beca554932d7f2547288e02358b603
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783093"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571499"
 ---
 # <a name="multi-level-assets"></a>多级资产
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 本主题介绍如何创建和删除多级资产。 可以按分层树结构创建资产和关联的子资产。 这样就可以显示资产之间的关系和依赖关系。 可以将维护作业与树结构的所有级别关联。 也可以为单个级别创建统计信息，或作为所有子资产级别的总和创建。
 

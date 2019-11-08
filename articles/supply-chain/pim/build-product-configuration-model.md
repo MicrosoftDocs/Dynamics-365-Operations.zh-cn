@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f8e0e98cf1a953355515f9145483aed8cbaa2ad2
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249486"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653640"
 ---
 # <a name="product-configuration-overview"></a>产品配置概览
 
@@ -73,7 +73,7 @@ ms.locfileid: "2249486"
 
 用户定义的表约束由用户构建。 用户选择用于表示表列的属性类型的组合，然后输入来自所选属性类型的域并用于在表约束中形成行的值。  
 
-系统定义的表约束通过以下方式定义：选择要用作引用的表，然后从此表中选择用于在约束中形成列的字段。 表约束的行是在配置时呈现的 Finance and Operations 表的行。  
+系统定义的表约束通过以下方式定义：选择要用作引用的表，然后从此表中选择用于在约束中形成列的字段。 表约束的行是在配置时呈现的 Supply Chain Management 表的行。  
 
 可通过引用表约束定义并将模型中的相关属性映射到表约束中的列来将表约束包含在产品配置模型中。
 

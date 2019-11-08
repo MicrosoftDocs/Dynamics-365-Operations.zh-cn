@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 808f91fb4b68ba9b5cee54d86423d23232df23a4
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 0ca655655f79ddf88b6f6c7377a1b596477c35a7
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008585"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552132"
 ---
-# <a name="enable-broadbean-integration"></a>启用 Broadbean 集成
+# <a name="enable-broadbean-integration-in-microsoft-dynamics-365-talent---attract"></a>在 Microsoft Dynamics 365 Talent - Attract 中启用 Broadbean 集成
 
 [!include[banner](../includes/banner.md)]
 

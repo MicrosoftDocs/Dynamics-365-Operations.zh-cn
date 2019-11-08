@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 698888533bf503838f455585f61cc7afc7239b05
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: b9efd5bccdccf6ea19b105f3518bb2ef35ec857e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922037"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571269"
 ---
 # <a name="schedule-maintenance-plans"></a>安排维护计划
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 安排预防性维护将按照为资产设置的维护计划为资产生成条目。 可根据所选维护计划、资产类型和资产来安排日历条目。
 

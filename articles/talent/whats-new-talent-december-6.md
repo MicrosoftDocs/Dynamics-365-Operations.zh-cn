@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 73e0875c3e072bc29050a096888459c6e4bb1b7b
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: bb43745b5a52c10b2d54480005d9d4e5ca6dc5bf
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025948"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550243"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-6-2018"></a>Dynamics 365 Talent: Core HR（2018 年 12 月 6 日）中的新增功能或更改
+# <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-6-2018"></a>Dynamics 365 Talent - Core HR（2018 年 12 月 6 日）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 

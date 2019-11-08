@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cc1992326c448ee8dc30a9ad8f8f538ebea83e54
-ms.sourcegitcommit: f853c8d46ffc8e578387bac4cd48a948916983ef
+ms.openlocfilehash: e527a1ade9b050c0700ef42bbcac8da3f36160b9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "2002376"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571775"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>预测、工作订单和项目
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 在资产管理中，与**项目管理与核算**模块集成有助于优化成本控制，因此用户可以跟踪维护作业类型预测和工作订单作业的成本。
 

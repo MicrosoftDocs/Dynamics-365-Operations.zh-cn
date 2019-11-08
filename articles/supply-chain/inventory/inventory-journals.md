@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7acf4e5397ee7276b0f881f4859267371266de0
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 1c4a2696b015611f4430ad5dfa1c61c1c4f913a9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249532"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570786"
 ---
 # <a name="inventory-journals"></a>库存日记帐
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 本主题介绍如何使用库存日记帐过帐实际库存交易记录的不同类型。
 

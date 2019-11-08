@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 919cec773d5e57e8f5429e31872db7ed658e969b
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 2c822a1f799144bb9240fc0cbdeb6c5441e278af
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008074"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551395"
 ---
-# <a name="post-jobs-to-broadbean"></a>将职位发布至 Broadbean
+# <a name="post-jobs-to-external-career-sites-from-attract"></a>将工作从 Attract 发布到外部求职站点
 
 [!include [banner](../includes/banner.md)]
 

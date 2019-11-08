@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 05881b6e6e501ff3ac5a622d99fd1aaa311727a1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f4f6de139d0399263fa19507d63e9521f489dcbd
+ms.sourcegitcommit: 38ce9f4ef499ad208f2fbbc51bc21b12c67dfa16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249509"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2574791"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>现有库存量移动工作区
 
@@ -56,9 +56,9 @@ ms.locfileid: "2249509"
     -   按物理可用量（此视图显示无预留的可用金额。）
 
 ## <a name="prerequisites"></a>先决条件
-先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。
+先决条件根据为您的组织部署的 Supply Chain Management 版本不同。
 
-### <a name="prerequisites-if-you-use-finance-and-operations"></a>使用 Finance and Operations 时的先决条件 
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>使用 Supply Chain Management 时的先决条件
 如果已经为您的组织部署 Supply Chain Management，系统管理员必须发布**现有库存**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>使用平台更新 3 或更高版本时的先决条件 

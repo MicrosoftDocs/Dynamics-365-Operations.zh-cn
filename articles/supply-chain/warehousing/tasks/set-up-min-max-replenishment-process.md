@@ -3,7 +3,7 @@ title: 设置最小-最大补货流程
 description: 此过程显示设置使用最小/最大补货战略的新补货流程。
 author: perlynne
 manager: AnnBe
-ms.date: 06/26/2019
+ms.date: 10/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ef3c33125850662cfb0dfba6e6349ce32ceda0af
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
+ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924439"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "2559181"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>设置最小-最大补货流程
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-此过程显示设置使用最小/最大补货战略的新补货流程。 在库存低于最低水平时，将创建工作以在此位置补货。 过程还显示如何使用固定领料位置以允许补货，即使库存低于最低水平，以及如何使用批处理作业使补货流程定期运行。 这些任务通常由仓库管理员完成。 您可以使用注释中的示例值在 USMF 演示数据公司中运行此过程，或可以对您自己的数据运行它。 如果您使用自己的数据，请确保您有为仓库管理流程启用的仓库。
+此过程显示设置使用最小/最大补货战略的新补货流程。 在库存低于最低水平时，将创建工作以在此位置补货。 过程还显示如何使用固定领料位置以允许补货，即使库存低于最低水平，以及如何使用批处理作业使补货流程定期运行。 这些任务通常由仓库管理员完成。 您可以使用下面的示例值在 USMF 演示数据公司中运行此过程，或可以对您自己的数据运行它。 如果您使用自己的数据，请确保您有为仓库管理流程启用的仓库。
 
 
 ## <a name="create-a-fixed-picking-location"></a>创建固定领料库位
@@ -41,7 +41,7 @@ ms.locfileid: "1924439"
 7. 关闭该页面。
 
 ## <a name="create-a-replenishment-location-directive"></a>创建补货位置指令
-1. 转到**库存管理 > 设置 > 库位指令**。 库位指令用于确定在补货流程中应从哪里领料。
+1. 转到**仓库管理 > 设置 > 库位指令**。 库位指令用于确定在补货流程中应从哪里领料。
 2. 在**工作订单类型**字段中，选择“补货”。
 3. 在**操作窗格**中，单击**新建**。
 4. 在**名称**字段中，键入一个值。

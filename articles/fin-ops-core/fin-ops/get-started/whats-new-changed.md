@@ -1,9 +1,9 @@
 ---
-title: 新增功能或更改主页
+title: Finance and Operations 新增功能或更改主页
 description: 此页面向您介绍可以帮助您了解 Finance and Operations 应用程序最新版本的新功能的主题。
 author: josaw1
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 10/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c2dd8093102f92391cd782cda77afb17a3560010
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7559ef3aa3ce816d375f263ff4a4e0cf3d632249
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249289"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658705"
 ---
-# <a name="whats-new-or-changed-home-page"></a>新增功能或更改主页
+# <a name="whats-new-or-changed-in-finance-and-operations-home-page"></a>Finance and Operations 新增功能或更改主页
 [!include [banner](../includes/banner.md)]
 
-此页面向您介绍可以帮助您了解 Finance and Operations 应用程序最新版本的新功能的主题。
+自 2019 年 10 月起，此页面不再维护。 本主题中的信息显示在哪里可以找到 2019 年 10 月之前发布的 Finance and Operations 应用程序的功能信息。
 
 有关升级到最新版本的信息，请参阅 [升级到最新更新的流程](../../dev-itpro/migration-upgrade/upgrade-latest-update.md)。
 
@@ -49,13 +49,6 @@ ms.locfileid: "2249289"
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>10.0.6</td>
-<td>10.0.234</td>
-<td>2019 年 11 月</td>
-<td><a href="whats-new-changed-10-0-6.md">Dynamics 365 for Finance and Operations 版本 10.0.6（2019 年 11 月）中的预览功能</a></td>
-</tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.5</td>
@@ -183,13 +176,6 @@ ms.locfileid: "2249289"
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>平台 update 30</td>
-<td>7.0.5407</td>
-<td>2019 年 11 月</td>
-<td><a href="whats-new-platform-update-30.md">Dynamics 365 for Finance and Operations 平台更新 30（2019 年 11 月）中的预览功能</a></td>
-</tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>平台 update 29</td>

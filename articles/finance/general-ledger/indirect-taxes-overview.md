@@ -3,7 +3,7 @@ title: 销售税概览
 description: 本主题提供销售税系统的概览。 它说明销售税的元素，以及如何一同使用。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2741eb51f93f2f0b627dd8676629077b6df0f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
+ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186455"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2666822"
 ---
 # <a name="sales-tax-overview"></a>销售税概览
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 本主题提供销售税系统的概览。 它说明销售税的元素，以及如何一同使用。
 
@@ -94,5 +92,8 @@ ms.locfileid: "2186455"
 
 但是，如果您使用特殊增值税，您在 7 月 30 日从客户接收付款时，则与税务主管机构结算。
 
+### <a name="postdated-check"></a>远期支票
+
+如果您使用远期支票作为付款方式，则在创建付款时不会清除银行帐户。 在某些国家/地区，当付款清除银行时，增值税将变成“已实现”负债，这意味着远期支票已结算。 您可以在**现金和银行管理 > 设置 > 现金和银行管理参数 > 远期支票**中选择**支取远期支票时实现特殊增值税**来启用该功能。
 
 有关详细信息，请参阅[设置预缴税金](tasks/set-up-withholding-tax.md)。

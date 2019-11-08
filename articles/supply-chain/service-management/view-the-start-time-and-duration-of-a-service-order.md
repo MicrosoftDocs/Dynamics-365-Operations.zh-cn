@@ -1,5 +1,5 @@
 ---
-title: 服务订单
+title: 查看服务订单的开始时间和持续时间
 description: 您可以查看服务订单上的工作何时开始以及服务订单何时将要完成。
 author: ShylaThompson
 manager: AnnBe
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0a2407c3ac045ecb2a83af13f56a15930822aed
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 606204e3939fe49b89ddb8829a1b5b5bf1ccabaf
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742992"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550382"
 ---
 # <a name="view-the-start-time-and-duration-of-a-service-order"></a>查看服务订单的开始时间和持续时间 
 

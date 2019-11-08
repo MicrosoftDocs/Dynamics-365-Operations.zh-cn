@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e645c25208f55b1032bc7f7c181c72db7a2f265
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 7dd577c930c6cc17da6baee30d3558656de01a09
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874639"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569815"
 ---
 # <a name="service-level-and-description"></a>服务级别和描述
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 创建工作订单时，可能希望为其定义服务级别和向其添加一般描述。 可以在**工作订单服务级别**页上创建工作订单服务级别，在**工作订单描述**页上创建描述。
 
@@ -48,7 +48,7 @@ ms.locfileid: "1874639"
 8. 除了结束日期，若要为工作订单再设置结束时间，请将**设置结束时间**选项设置为**是**。 然后在**结束时间**字段中输入结束时间。 如果将此选项设置为**否**，将使用当前时间。
 9. 选择**保存**。
 
-![图 1](media/19-setup-for-work-orders.png)
+![工作订单服务级别页面](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>创建描述
 

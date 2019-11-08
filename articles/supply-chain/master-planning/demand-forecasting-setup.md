@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdfc5eda1ebf78abe823908324ed9c35215e562e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249555"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653503"
 ---
 # <a name="demand-forecasting-setup"></a>需求预测设置
 
@@ -72,7 +72,7 @@ ms.locfileid: "2249555"
 
 **注意：** 只有当您使用的是自定义存储帐户时才需要 Azure 存储帐户名称和密钥。 如果部署本地版本，必须在 Azure 有自定义存储帐户，以便机器学习服务可以访问历史数据。 
 
-若要创建预测，可以通过使用机器学习工作室或 Supply Chain Management 需求预测实验来部署您自己的服务。 有关将需求预测实验部署为 Web 服务的说明，可在 Finance and Operations 中找到。 在**需求预测参数**页上，单击选项卡 **Azure 机器学习**。
+若要创建预测，可以通过使用机器学习工作室或 Supply Chain Management 需求预测实验来部署您自己的服务。 有关将需求预测实验部署为 Web 服务的说明，可在 Supply Chain Management 中找到。 在**需求预测参数**页上，单击选项卡 **Azure 机器学习**。
 
 ## <a name="settings-for-the-demand-forecasting-machine-learning-service"></a>需求预测机器学习服务的设置
 若要查看可为需求预测服务配置的参数，请转到**主计划** &gt; **设置** &gt; **需求预测** &gt; **预测算法参数**。 **预测算法参数**页显示参数的默认值。 您可以在**需求预测参数**页覆盖这些参数。 使用**常规**选项卡全局覆盖参数，或使用**物料分配参数**选项卡依据物料分配参数来覆盖参数。 针对某个物料分配参数覆盖的参数只影响与该物料分配参数关联的物料的预测。

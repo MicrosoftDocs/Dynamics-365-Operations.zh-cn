@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 883337979201b3059b301b7aebf9952a70016989
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7eed6ca8236afa0e28cc4945757424c995f053d7
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250609"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653617"
 ---
 # <a name="product-configuration-models-overview"></a>产品配置模型概述
 
@@ -118,7 +118,7 @@ ms.locfileid: "2250609"
 </tr>
 </tbody>
 </table>
-系统定义的表约束表示 Finance and Operations 表中属性类型与字段之间的映射。 系统定义的表约束将属性类型与字段动态链接。 链接能让产品配置模型中的属性反映 Supply Chain Management 表中的字段的数据。</td>
+系统定义的表约束表示 Supply Chain Management 表中属性类型与字段之间的映射。 系统定义的表约束将属性类型与字段动态链接。 链接能让产品配置模型中的属性反映 Supply Chain Management 表中的字段的数据。</td>
 </tr>
 <tr class="odd">
 <td>计算</td>

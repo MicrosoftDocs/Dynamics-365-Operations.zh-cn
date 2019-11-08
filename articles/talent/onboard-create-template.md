@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 63f13380f3d2c31c4cc9009142f320ad8a41e8ee
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: a1fac239524d4873a782e6a3d177a573a382d0f6
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009869"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552021"
 ---
-# <a name="create-an-onboarding-template"></a>创建入职模板
+# <a name="create-an-onboarding-template-by-using-dynamics-365-talent---onboard"></a>使用 Dynamics 365 Talent - Onboard 创建入职模板
 
 [!include [banner](includes/banner.md)]
 

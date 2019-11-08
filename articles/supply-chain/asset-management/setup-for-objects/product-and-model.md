@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e20ccf16bc751898b239214771821fd2872638d1
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 14a73f49064911a2b28c742cfc19469f4bf95e74
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783103"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569953"
 ---
 # <a name="asset-manufacturers-and-models"></a>资产制造商和模型
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 本主题介绍如何在资产管理中设置资产制造商和相关模型。 可以将模型与资产类型关联。
 

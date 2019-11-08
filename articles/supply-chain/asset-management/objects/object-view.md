@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63e5ec5b2a47706763df8105932d722986535a9b
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: fa458d95592741eacc86ce96b794a7216b37ec84
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783095"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571407"
 ---
 # <a name="asset-view"></a>资产视图
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 本主题介绍资产管理中的资产视图。 **资产视图**页以树视图显示有效资产和功能位置。 因此，您可以轻松获取资产与功能位置之间的关系的概览。 此外，还可以查看有关功能位置、资产和相关物料清单 (BOM) 的详细信息。 还可以快速获取与资产有关的有效维护请求和工作订单的概览。
 

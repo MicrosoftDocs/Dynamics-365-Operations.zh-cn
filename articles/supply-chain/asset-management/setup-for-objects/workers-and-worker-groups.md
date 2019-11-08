@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c85fc24cdf0b3cd1a188ccf0f477ffbfa5fab960
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: f0a8fcf26da02bd42f6ee45687c585091e3b945e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783086"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570970"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>维护工人和工人组
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 本主题介绍资产管理中的维护工人和工人组。 在资产管理中，可将维护工人连接到功能位置。 （有关功能位置的详细信息，请参阅[创建功能位置](../functional-locations/create-functional-locations.md)。）此功能在如下场景中可能非常有用：您对功能位置 01 中的机器安排了维护作业，而您希望分配同一个位置的维护工人执行该作业。
 

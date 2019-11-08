@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 071aa79ea75e9a94187dd74dabab940e2cce0f92
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010721"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551948"
 ---
-# <a name="update-onboarding-guides"></a>更新入职指南
+# <a name="update-onboarding-guides-in-dynamics-365-talent---onboard"></a>在 Dynamics 365 Talent - Onboard 中更新入职指南
 
 [!include [banner](includes/banner.md)]
 

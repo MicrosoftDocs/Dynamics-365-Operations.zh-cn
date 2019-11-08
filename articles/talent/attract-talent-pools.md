@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 61c5dc48bbe3a325853012317cc75e905964d6b1
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 454ba987eef924d520af17e8b9ae694fe9b82ec2
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008539"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551110"
 ---
-# <a name="source-candidates-with-talent-pools"></a>使用人才池搜寻候选人
+# <a name="source-candidates-with-talent-pools-in-microsoft-dynamics-365-talent---attract"></a>使用 Microsoft Dynamics 365 Talent - Attract 中的人才池寻求应聘者
 
 [!include[banner](../includes/banner.md)]
 

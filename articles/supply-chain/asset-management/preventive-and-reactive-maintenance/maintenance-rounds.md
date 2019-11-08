@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eca732f245650c8e1f3dc976454536a0ab1ee117
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 4c9a2fee7d43142f8bb17f4e819c9949a2a20c41
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922014"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570022"
 ---
 # <a name="maintenance-rounds"></a>维护阶段
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 在**资产管理**中，可以为各资产创建维护阶段，在这些阶段，需要定期执行相似任务。 例如，需要在相同间隔内对一些机器执行的润滑作业或安全检查作业。 第一步是创建维护阶段，其中包括需要对其执行相同形式的维护作业的资产。 接下来，安排维护阶段。 完成了维护阶段安排之后，可在**所有维护安排**和**打开维护安排行**中查看与该阶段关联的所有作业记录。
 

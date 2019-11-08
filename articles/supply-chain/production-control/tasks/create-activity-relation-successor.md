@@ -17,14 +17,14 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58e003c6521c4ef007b8e0e1e17d51715435e875
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 07ebb7d2158964a5d8862df998fe470032a0d354
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838719"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550405"
 ---
-# <a name="create-activity-relation-successor"></a>创建活动关系：后续活动
+# <a name="create-activity-relation---successor"></a>创建活动关系 - 后续活动
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

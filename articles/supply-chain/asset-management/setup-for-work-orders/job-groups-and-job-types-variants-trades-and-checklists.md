@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6cb53322b9bdaaa06c6040d8244b7e2ea05336ca
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: bdfd8ca5e4feb236bc1b4e88a4dd3817a07e8a3f
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249601"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570993"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>维护作业类型类别和维护工作类型、维护作业类型变型、维护作业工种和维护清单
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 资产类型与每个资产关联。 资产类型定义可对资产执行的维护作业类型（从而对维护作业执行）。 创建工作订单时，必须选择维护作业类型。 可以仅选择与资产所用资产类型的设置关联的维护作业类型。
 
@@ -59,7 +59,7 @@ ms.locfileid: "2249601"
 
     将维护作业类型类别与维护作业类型关联之后，**作业类型**字段将显示与此维护作业类型类别关联的维护作业类型的数量。
 
-![图 1](media/01-setup-for-work-orders.png)
+![维护作业类型类别页面](media/01-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type-variant"></a>创建维护作业类型变型
 
@@ -73,7 +73,7 @@ ms.locfileid: "2249601"
 
     **详细信息**快速选项卡上的**作业类型**字段显示已向此维护作业类型变型添加的维护作业类型的数量。
 
-![图 2](media/02-setup-for-work-orders.png)
+![维护作业类型变型页面](media/02-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-trade"></a>创建维护作业工种
 
@@ -94,7 +94,7 @@ ms.locfileid: "2249601"
 
     **详细信息**快速选项卡上的**证书**字段显示已向此维护作业工种添加的证书的数量。
 
-![图 3](media/03-setup-for-work-orders.png)
+![维护作业工种页面](media/03-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-variable"></a>创建维护清单变量
 
@@ -115,7 +115,7 @@ ms.locfileid: "2249601"
 6. 在**值**字段中，输入值描述。
 7. 在**结果**字段中，选择行的结果。
 
-![图 4](media/04-setup-for-work-orders.png)
+![维护清单变量页面](media/04-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-template"></a>创建维护清单模板
 
@@ -144,7 +144,7 @@ ms.locfileid: "2249601"
 
     **详细信息**快速选项卡的**检查**字段显示模板中的清单行的总数。 此数字中包括所有现有模板内已在模板中引用的嵌套行的数量。
 
-![图 5](media/05-setup-for-work-orders.png)
+![维护清单模板页面](media/05-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type"></a>创建维护作业类型
 
@@ -167,7 +167,7 @@ ms.locfileid: "2249601"
 
 11. 在**资产类型**快速选项卡上，可以向维护作业类型添加资产类型。
 
-![图 6](media/06-setup-for-work-orders.png)
+![维护作业类型页面](media/06-setup-for-work-orders.png)
 
 ## <a name="create-maintenance-job-type-default-lines-and-related-forecasts-maintenance-checklists-tools-description-and-attachments"></a>创建维护作业类型默认行和关联的预测、维护清单、工具、描述和附件
 
@@ -236,7 +236,7 @@ ms.locfileid: "2249601"
 31. 若要将一个维护作业类型默认复制到另一个维护作业类型默认，请选择要将另一个设置复制到的维护作业类型默认行，选择**复制设置**，然后选择要复制的维护作业类型默认。
 32. 若要查看当前使用某个维护作业类型默认行的资产、维护计划或维护阶段的列表，请选择该行，然后选择**使用者**。
 
-![图 7](media/07-setup-for-work-orders.png)
+![维护作业类型默认值页面](media/07-setup-for-work-orders.png)
 
 当系统选择应该对某个工作订单行使用的可用维护作业类型默认时，所选内容基于资产和关联的资产类型设置。 资产管理在与资产类型关联的维护作业类型有关的所有维护作业类型默认记录中查找可能的匹配项。 始终先检查最具体的组合。 换句话说，为了查找最具体的组合，资产管理首先检查**工种**字段的可能匹配项。 如果未找到匹配项，将检查**维护作业类型变体**字段的匹配项。 如果找不到匹配项，将检查**维护作业类型**字段的匹配项，以此类推（依次为**工种**、**维护作业类型变型**、**维护作业类型**、**资产**、**型号**、**制造商**和**资产类型**）。 如果找不到匹配项，将使用仅在其中选择了维护作业类型的默认记录。
 
@@ -257,7 +257,7 @@ ms.locfileid: "2249601"
 4. 选择维护作业类型组合以查看维护清单、预测和工具的相关设置。 **维护作业类型默认**快速选项卡上的**详细信息**部分显示与所选维护作业类型组合关联的相关维护清单、预测工时、物料等的数量。
 5. 若要查看所选维护作业类型的详细信息，请选择**维护作业类型**。
 
-![图 8](media/08-setup-for-work-orders.png)
+![资产维护作业类型页面](media/08-setup-for-work-orders.png)
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>自动更新维护作业类型预测
 

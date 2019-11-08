@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd16ad19fc6b64912dda77d1bc479ef642418594
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 9c8860602bd293c158aa33ea22b5f73de15a6b6f
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008516"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552063"
 ---
-# <a name="attract-features-and-capabilities"></a>Attract 特色和功能
+# <a name="microsoft-dynamics-365-talent---attract-features-and-capabilities"></a>Microsoft Dynamics 365 Talent - Attract 特色和功能
 
 [!include [banner](includes/banner.md)]
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: a260be0f8659106907b26bf69bee3b33b09d0c24
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181327"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578210"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>对跟踪所生成 ER 报表结果并与基准值比较的改进
 
@@ -71,9 +71,6 @@ ms.locfileid: "2181327"
 5. 在**输入 ID** 字段中，输入 **1**。
 6. 将**创建基准文件**选项设置为**是**。
 7. 选择**确定**。
-
-    ![“电子报表参数”对话框](media/GER-BaselineSample-FormatRunToMakeBaselineFile3.PNG "“电子报表参数”对话框的屏幕截图")
-
 8. 选择**基准**。
 
     ![“电子申报格式基准”页](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "“电子申报格式基准”页的屏幕截图")
@@ -140,9 +137,6 @@ ms.locfileid: "2181327"
 
 1. 在**配置**页的**替换**快速选项卡上，选择**选择组件**。
 2. 在格式组件树中，展开**输出**，展开**输出\\文档**，然后选中**输出\\文档\\ProcessingDateTime** 的复选框。
-
-    ![“选择组件”对话框](media/GER-BaselineSample-SelectComponentForBindingReplacement.PNG "“选择组件”对话框的屏幕截图")
-
 3. 选择**确定**。
 
 ![“电子申报格式基准”页](media/GER-BaselineSample-AddBaseline4.PNG "“电子申报格式基准”页的屏幕截图")
@@ -162,19 +156,14 @@ ms.locfileid: "2181327"
 1. 在**配置**页操作窗格中的**配置**选项卡上，选择**用户参数**。
 2. 将**禁止显示基准警告**选项设置为**是**，然后选择**确定**。
 
-![“用户参数”对话框](media/GER-BaselineSample-ERUserParameters1.png "“用户参数”对话框的屏幕截图")
-
 ### <a name="review-the-generated-baseline-file"></a>检查生成的基准文件
 
 1. 转到**组织管理** \> **电子申报** \> **配置**。
 2. 选择**基准**。
 3. 选择**附件**。
-
-    ![“附件”页](media/GER-BaselineSample-AttachedBaselineFile.PNG "“附件”页的屏幕截图")
-
     > [!NOTE]
     > 生成的文件中包含来自添加的基准规则中配置的绑定，而不是来自格式的绑定的处理日期和时间文本 (**"#"**)。
-
+    
 4. 关闭**附件**页。
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>运行设计的 ER 格式和检查日志以分析结果

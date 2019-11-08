@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fd159b38f69305dcaecb364ba0ccb3befabb3582
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9a12ab249129dce24cdca5e29d737fa9f68c0eac
+ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182017"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2572441"
 ---
-## <a name="organization-hierarchy-in-common-data-service"></a>Common Data Service 中的组织层次结构
+# <a name="organization-hierarchy-in-common-data-service"></a>Common Data Service 中的组织层次结构
 
 [!include [banner](../includes/banner.md)]
 

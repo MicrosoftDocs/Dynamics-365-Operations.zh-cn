@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dc72c61ed4dbb04122c6859123307dc79f2b233
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: e542a0bc7335d16139ef6e34b6794161ab4be195
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783087"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571177"
 ---
 # <a name="asset-lifecycle-states"></a>资产生命周期状态
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 本主题介绍资产管理中的资产生命周期状态和生命周期模型。 资产生命周期状态用于定义资产有效还是无效。 例如，可将资产生命周期状态设置为**已创建**、**有效**和**已终止**。
 

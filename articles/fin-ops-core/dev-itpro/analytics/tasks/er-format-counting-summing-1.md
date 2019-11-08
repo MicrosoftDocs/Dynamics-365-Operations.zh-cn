@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2a3b3997b8d366f92192ff765dbcff9b68844ba
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e85109cd0448383ba231cbec1bdeeb9dcd2db805
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182385"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550778"
 ---
-# <a name="er-configure-format-to-do-counting-and-summing-part-1-create-format"></a>ER 配置格式以执行盘点和合计（第 1 部分：创建格式）
+# <a name="er-configure-format-to-do-counting-and-summing-part-1---create-format"></a>ER 配置格式以执行盘点和合计（第 1 部分 - 创建格式）
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

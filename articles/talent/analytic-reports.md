@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: be62fe9a5021cfa83a465d316b182c0a154c0c50
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 5a4d160e8c90725d5ea129a76fd48da1c5af7900
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009996"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551510"
 ---
-# <a name="use-analytic-reports"></a>使用分析报告
+# <a name="use-analytic-reports-in-microsoft-dynamics-365-talent---attract"></a>使用 Microsoft Dynamics 365 Talent - Attract 中的分析报表
 
 Microsoft Dynamics 365 Talent: Attract 中的分析报表提供现成的 (OOTB) 解决方案以获取招聘流程见解。 可用功能包括：
 

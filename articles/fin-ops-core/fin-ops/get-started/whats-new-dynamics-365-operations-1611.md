@@ -3,11 +3,12 @@ title: Dynamics 365 for Operations 版本 1611（2016 年 11 月）的新增功�
 description: 此主题介绍了 Dynamics 365 for Operations 版本 1611 中的新增功能和更改内容。
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
+ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 02b47f546ed86a5133fe9b19a6035b0f30fa3b3a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4b0397b7120769969c4c7aae16dd2a2b3ec97371
+ms.sourcegitcommit: 4d6ec2b1a9674712e1efb8c46b919d554f21a2b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190756"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "2627580"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Dynamics 365 for Operations 版本 1611（2016 年 11 月）的新增功能和更改内容
 
@@ -818,7 +819,7 @@ ms.locfileid: "2190756"
 | 作为供应商，获取关于转移至客户的托运库存量的信息。 | 若要向客户开票，供应商要求获得关于从托运库存购买的原材料和购买日期的信息。 供应商还可以使用供应商协作界面在客户站点监控现有库存。 |
 | 使用转移日记帐移动供应商拥有的库存。 | 要跟踪供应商拥有的库存的物理位置，必须能够在系统中记录位置。 使用转移日记帐可以记录库存的物理移动，例如从仓库中的一个位置移动到该仓库中的另一个位置。 |
 | 使用盘点日记帐调整供应商拥有的库存。 | 重要的一点是要保持系统现有库存与实际物理库存同步。 使用盘点流程（例如数量调整）和盘点日记帐流程可以调整供应商拥有的库存的进出。 |
-| 进一步了解 Dynamics 365 for Operations 中的托运支持 | 有关托运流程支持的更多信息，请参阅[托运](../../supply-chain/inventory/consignment.md)，[设置托运](../../supply-chain/inventory/set-up-consignment.md)，[创建托运补货订单（任务指南）](../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md)，以及[基于生产需求更改托运库存的所有权（任务指南）](../../supply-chain/inventory/tasks/change-ownership-consignment.md)。 |
+| 进一步了解 Dynamics 365 for Operations 中的托运支持 | 有关托运流程支持的更多信息，请参阅[托运](../../../supply-chain/inventory/consignment.md)，[设置托运](../../../supply-chain/inventory/set-up-consignment.md)，[创建托运补货订单（任务指南）](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md)，以及[基于生产需求更改托运库存的所有权（任务指南）](../../../supply-chain/inventory/tasks/change-ownership-consignment.md)。 |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>供应商协作（以前称作供应商门户）
 
@@ -828,7 +829,7 @@ ms.locfileid: "2190756"
 | 启用供应商管理联系人信息。 | 供应商可以维护其公司的联系人信息。 此信息包括姓名、电子邮件地址和电话号码。 通过专门的安全角色可以授予此功能的访问权限。 |
 | 与供应商共享与采购订单有关的文档。 | 必须与供应商共享文档时，例如关于要求的文档，一个方便的方法是将文档与相关采购订单相关联。 之后，供应商可以与客户共享注释和附件，方法是将该文档与他或她对该采购订单的响应相关联。 文档管理是基础的支持框架，仅分类为“外部”的注释和附件可以与供应商共享。 |
 | 供应新供应商用户。 | 如果您的供应商使用供应商协作界面，则当新联系人要求访问供应商协作时，他们能够无缝地请求新用户帐户。 采购专业人员可以为供应商组织的联系人提交用户帐户请求。 已经是供应商协作用户的供应商联系人也可以提交此类请求。 此请求最终在 Dynamics 365 for Operations 中创建具有特定供应商安全角色的新用户。 它还便于向 Microsoft Azure B2B 门户请求向用户提供新的 Azure Active Directory (Azure AD) 用户帐户。 供应商还可以请求禁用具体供应商用户帐户或修改该安全角色。 |
-| 进一步了解 Dynamics 365 for Operations 中的供应商协作支持。 | 有关供应商协作的更多信息，请参阅[供应商与外部供应商协作](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)，[供应商与客户协作](../../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)，[管理供应商协作用户](../../supply-chain/procurement/manage-vendor-collaboration-users.md)，[设置和维护供应商协作](../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)，和[供应商协作开票工作区](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)。 |
+| 进一步了解 Dynamics 365 for Operations 中的供应商协作支持。 | 有关供应商协作的更多信息，请参阅[供应商与外部供应商协作](../../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)，[供应商与客户协作](../../../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)，[管理供应商协作用户](../../../supply-chain/procurement/manage-vendor-collaboration-users.md)，[设置和维护供应商协作](../../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)，和[供应商协作开票工作区](../../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)。 |
 
 ### <a name="intercompany-order-processing"></a>内部公司订单处理
 
@@ -871,9 +872,9 @@ ms.locfileid: "2190756"
 | 您能做什么 | 为什么如此重要 |
 |-----------------|-----------------------|
 | 在装箱工作站包装货物后创建工作。 | 此功能适用于在手动包装工作后要求额外流程时（例如安装货盘、质量检查、合并装运或更改装货码头）。 新的**已装箱的集装箱领料**工作类型允许您使用单独的工作行为这些任务建模。 您现在可以为装箱工作站建模，以便生成包装后的工作。 此工作可以用于组织打包库存的移动。 |
-| 在装箱工作站对集装箱分组。 | 此功能能够将多个包装分组到装箱工作站的一个集装箱或牌照。 例如，电子商务/批发运营商可以将 100 个单独装箱的包装分组到一个集装箱（例如托盘或箱子）。 随后，工作人员可以通过扫描分组集装箱的一个条形码（牌照）生成一份工作说明，从而移动、分级或装载此集装箱。 此功能最大限度地减少了移动许多小型已装箱集装箱的工作交易。 有关详细信息，请参阅[创建移动设备菜单项以合并牌照（任务指南）](../../supply-chain/warehousing/tasks/create-mobile-device-license-plate-consolidation.md)。 |
+| 在装箱工作站对集装箱分组。 | 此功能能够将多个包装分组到装箱工作站的一个集装箱或牌照。 例如，电子商务/批发运营商可以将 100 个单独装箱的包装分组到一个集装箱（例如托盘或箱子）。 随后，工作人员可以通过扫描分组集装箱的一个条形码（牌照）生成一份工作说明，从而移动、分级或装载此集装箱。 此功能最大限度地减少了移动许多小型已装箱集装箱的工作交易。 有关详细信息，请参阅[创建移动设备菜单项以合并牌照（任务指南）](../../../supply-chain/warehousing/tasks/create-mobile-device-license-plate-consolidation.md)。 |
 | 为已装箱集装箱创建一个放行策略。 | 可以自动或手动创建由集装箱放行触发的工作。 自动创建时，使用位置指令和工作模板框架在集装箱封闭时生成工作。 手动放行时，装箱人员可以决定是否应为单个集装箱或一组集装箱生成工作。 此功能减少了已关闭集装箱未做好从装箱工作站移动的准备前领取和移动的风险。 它还允许非系统控制的分组放行。 |
-| 领料短缺重新分配 | 已为领料短缺流程添加了支持功能，当所需物料在另一个位置可用时，可以为无法领取货物又想要满足订单的助理提供帮助。 您可以使用自动重新分配流程，使用相同的位置指令检索货物是否在另一个位置可用。 或者，在使用手动重新分配时，移动设备显示位置列表以及可用数量。 仓库工作人员之后可以选择使用哪个位置的库存。 这两种方法可以在仓库工作人员菜单上单独设置或合并为一个指令。 使用手动重新分配时，仓库工作人员可以从多个位置领取领料短缺的物料数量。 有关详细信息，请参阅[设置领料短缺的物料重新分配（任务指南）](../../supply-chain/warehousing/tasks/set-up-short-picking-item-reallocation.md)。 |
+| 领料短缺重新分配 | 已为领料短缺流程添加了支持功能，当所需物料在另一个位置可用时，可以为无法领取货物又想要满足订单的助理提供帮助。 您可以使用自动重新分配流程，使用相同的位置指令检索货物是否在另一个位置可用。 或者，在使用手动重新分配时，移动设备显示位置列表以及可用数量。 仓库工作人员之后可以选择使用哪个位置的库存。 这两种方法可以在仓库工作人员菜单上单独设置或合并为一个指令。 使用手动重新分配时，仓库工作人员可以从多个位置领取领料短缺的物料数量。 有关详细信息，请参阅[设置领料短缺的物料重新分配（任务指南）](../../../supply-chain/warehousing/tasks/set-up-short-picking-item-reallocation.md)。 |
 | 移动具有相关联工作的库存。 | 您现在可以移动具有相关联工作的库存。 例如，如果工作人员要清空一些进货台空间，移动已登记为等待移动到另一个进货位置的托盘时，此功能有用。 货台清空，可以接收额外的货物量，且已经移动的库存已经使用新的储存信息进行更新。 此功能还可用于通过移动与其具有关联工作的库存释放领料库位的空间，为补货创造空间。 您还可以使用它将负荷从一个暂存位置移动到另一个暂存位置，不会丢失已经生成的装载工作。 因此，此功能可以帮助优化对到达的卡车装载货物所需的时间。 您可以移动已经为销售订单、转移单问题、转移单收据和采购订单预留的库存。 如果会导致行拆分，则会阻止移动。 例如，如果您的一个工作行有 100 件物料，则您无法仅将其中的 30 件物料移动到另一个位置。 |
 | 合并具有关联工作的牌照。 | 您可以合并关联了出货工作的牌照。 例如，当领料分解成几个工作时，一个有用的办法是允许在暂存位置交货后合并牌照。 仅当它们位于同一个位置，是相同负荷的成员，并且具有相同的装运信息时，才能整合牌照。 |
 | 冻结在行级别与补货关联的领料工作。 | 您现在可以在行级别（而不是标头级别）冻结工作，使工作人员可以执行未被需求补货冻结的领料行。 因此，具有大量销售订单的批发商或者具有大量销售订单或补货转移单的零售商可以允许对无需进行补货工作的所有行开始领料工作。 领料和补货工作可以并行完成。 可以配置此功能，以便您可以选择是否在标头级别或行级别冻结。 您还可以同时使用以下两种方法，并且为每一种方法创建一个工作模板。 工作模板上设置了标头/行配置，但您可以直接在生成的工作上进行更改。 |

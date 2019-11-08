@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250179"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653594"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>供应商与外部供应商的协作
 
@@ -190,7 +190,7 @@ PO 在 Supply Chain Management 中准备。 采购订单的状态为**已批准*
 供应商无需通过供应商协作界面确认 PO。 它们还可通过其他渠道发送电子邮件或传达对 PO 的接受。 随后可以手动确认订单。 在这种情况下，您将收到警告，指示该订单正在确认，即使没有供应商响应。 之后，PO 将在确认历史记录中显示为没有任何响应的未结已确认订单。 此时，供应商将不能再选择确认或拒绝 PO。
 
 > [!NOTE]
-> 对 Finance and Operations 中的其他流程可用的 PO 版本始终是最新版本，即使该版本尚未在供应商协作界面中登记。
+> 对 Supply Chain Management 中的其他流程可用的 PO 版本始终是最新版本，即使该版本尚未在供应商协作界面中登记。
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>使用变更管理时的版本和状态
 

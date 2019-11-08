@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: e607c2ba4b544d60c97d98bd49b07d912d83ebc6
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 0f9a83aeea3942d3c56d32956f79490c91565e9e
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008694"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551581"
 ---
-# <a name="manage-preview-features"></a>管理预览功能
+# <a name="access-preview-features-in-microsoft-dynamics-365-talent"></a>访问 Microsoft Dynamics 365 Talent 中的预览功能
 
 [!include[banner](../includes/banner.md)]
 

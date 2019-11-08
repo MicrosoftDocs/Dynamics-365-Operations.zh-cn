@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42631e8a5ac03eda65bf0f6ede03fa40a5ed2c4e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: bea02c6fe7b8e50be22be89eeb43a913851ddbfb
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250752"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653525"
 ---
 # <a name="demand-forecasting-overview"></a>需求预测概览
 
@@ -49,11 +49,11 @@ ms.locfileid: "2250752"
 
 -   **模块性** – 需求预测是模块化的和易于配置。 您可以通过在**贸易** &gt; **库存预测** &gt; **需求预测**更改 Configuration Key 来打开和关闭功能。
 -   **Microsoft 堆栈的重用** – Microsoft 在 2015 年 2 月启动机器学习平台。 机器学习现在是 Microsoft Cortana 分析套件的一部分，让您可以通过使用算法 R 或 Python 编程语言和简单的拖放界面来迅速轻松地创建预测性分析实验，如需求估计实验。
-    -   您可以下载需求预测实验，更改它们以满足您的业务要求，在 Azure 上作为 Web 服务发布它们，并使用它们生成需求预测。 如果您作为企业级用户购买了生产规划员的 Finance and Operations 订阅，则可以下载这些实验。
-    -   您可以从 [Cortana 分析库](https://gallery.cortanaanalytics.com/)下载当前可用的任何需求预测实验。 而需求预测实验将自动与 Finance and Operations 集成，客户和合作伙伴必须处理从 [Cortana 分析库](https://gallery.cortanaanalytics.com/) 下载的实验的集成。 因此，[Cortana 分析库](https://gallery.cortanaanalytics.com/) 的实验不如使用 Finance and Operations 需求预测实验那样简单。 您必须修改实验代码，以便它们使用 Finance and Operations 应用程序编程接口 (API)。
+    -   您可以下载需求预测实验，更改它们以满足您的业务要求，在 Azure 上作为 Web 服务发布它们，并使用它们生成需求预测。 如果您作为企业级用户购买了生产规划员的 Supply Chain Management 订阅，则可以下载这些实验。
+    -   您可以从 [Cortana 分析库](https://gallery.cortanaanalytics.com/)下载当前可用的任何需求预测实验。 而需求预测实验将自动与 Supply Chain Management 集成，客户和合作伙伴必须处理从 [Cortana 分析库](https://gallery.cortanaanalytics.com/) 下载的实验的集成。 因此，[Cortana 分析库](https://gallery.cortanaanalytics.com/) 的实验不如使用 Finance and Operations 需求预测实验那样简单。 您必须修改实验代码，以便它们使用 Finance and Operations 应用程序编程接口 (API)。
     -   您可以在 Microsoft Azure 机器学习工作室中创建自己的实验，在 Azure 上作为服务发布，并使用它们生成需求预测。
     -   如果您不需要高性能，或者，如果您不需要处理大量数据，您可以使用机器学习的免费层。 我们建议始终从这一层开始，尤其是在实施和测试阶段。 如果您需要高性能和额外存储，您可以使用机器学习的标准层。 这一层要求 Azure 订阅并需要其他成本。 有关机器学习定价的详细信息，请参阅[机器学习工作室定价](https://aka.ms/machine-learning-price-info)。
--   **在任何解耦点的预测缩减** – Finance and Operations 中的需求预测构建此功能，让您可以在任何解耦点预测相关和不相关的需求。
+-   **在任何解耦点的预测缩减** – 生成中的需求预测构建此功能，让您可以在任何解耦点预测相关和不相关的需求。
 
 ## <a name="basic-flow-in-demand-forecasting"></a>需求预测的基本流程
 下图显示需求预测的基本流程。 
@@ -64,7 +64,7 @@ ms.locfileid: "2250752"
 
 如果您使用需求预测机器学习实验，它们在五个时间系列预测法中寻找最适合的方法来计算基准预测。 这些预测方法的参数在 Supply Chain Management 中管理。 
 
-预测、历史数据和对之前迭代的需求预测进行的任何更改然后在 Finance and Operations 中可用。 
+预测、历史数据和对之前迭代的需求预测进行的任何更改然后在 Supply Chain Management 中可用。 
 
 您可以使用 Supply Chain Management 来可视化和修改基准预测。 手动调整必须授权，然后预测才能用于计划。
 

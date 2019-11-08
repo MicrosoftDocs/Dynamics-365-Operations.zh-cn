@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eedb8321b43ab5f5d9cb56166b68d6e9508c104f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 788564bfd7c3df146266976d8eef6621ff37ca2a
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182454"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550617"
 ---
-# <a name="er-use-financial-dimensions-as-a-data-source-part-2-model-mapping"></a>ER 将财务维度用作数据源（第 2 部分：模型映射）
+# <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER 将财务维度用作数据源（第 2 部分 - 模型映射）
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

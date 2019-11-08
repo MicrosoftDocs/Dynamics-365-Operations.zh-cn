@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 032f9c5707294ee33cc848ecc6990c1ef5bbfdbb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 24eba0402caefb611a212db19cdb8feafa7c1fee
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185029"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550732"
 ---
-# <a name="er-use-document-management-files-in-format-outputs-part-2-extend-data-model"></a>ER 在格式输出中使用票据管理文件（第 2 部分：扩展数据模型）
+# <a name="er-use-document-management-files-in-format-outputs-part-2---extend-data-model"></a>ER 在格式输出中使用票据管理文件（第 2 部分 - 扩展数据模型）
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

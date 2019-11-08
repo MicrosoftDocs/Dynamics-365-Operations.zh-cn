@@ -3,7 +3,7 @@ title: 监管更新
 description: 此主题提供 Microsoft Dynamics 365 Finance 的已计划和已发布监管更新的列表。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/30/2019
+ms.date: 10/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dc5a9669a9c6c298a4f9df52346b8a075ba177e0
-ms.sourcegitcommit: a4e1a28b4733f3356e5a2237c8ba5d93f9799391
+ms.openlocfilehash: adb88a5fb79b24a26aa2976464d3e838922322c6
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2517303"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653196"
 ---
 # <a name="regulatory-updates"></a>监管更新
 
@@ -28,9 +28,7 @@ ms.locfileid: "2517303"
 
 此主题列出在 Dynamics 365 Finance 支持的本地化中计划和发布的监管更新。 交付时间线可能更改，并且计划功能可能不同或可能不发布。 阅读 [Microsoft 政策](https://go.microsoft.com/fwlink/p/?linkid=2007332)获取更多信息。 
 
-监管更新是为了支持新的或更改的、国家/地区特定的法规而实施的功能。 有关其他计划的和已发布的，国家/地区特定的监管功能的更多信息，请参阅以下资源：
-- [Dynamics 365 和 Power Platform 发行说明](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Microsoft Dynamics 365 for Finance and Operations 的新增功能](../../fin-and-ops/get-started/whats-new-changed.md)
+监管更新是为了支持新的或更改的、国家/地区特定的法规而实施的功能。 有关其他计划的和已发布的，国家/地区特定的监管功能的更多信息，请参阅[Dynamics 365 和 Power Platform 发布计划](https://docs.microsoft.com/business-applications-release-notes/index)。
 
 Microsoft 致力于尽早实施新的监管要求。 实际交付日期取决于法律公布日期、当地主管机构的监管详细信息公布情况、验证工具的推出情况，以及更改的幅度和复杂性。
 
@@ -44,13 +42,19 @@ Microsoft 致力于尽早实施新的监管要求。 实际交付日期取决于
 
 |计划发布日期|发行版本|国家/地区|监管更新|
 |--------------------|---------------|-------|-------|
-|      2019 年 8 月          |   10.0.6(PEAP)、10.0.5HF、10.0.4HF、10.0.3HF      | 巴西      |   NF-e: NT 2019.001 版本 1.10 的技术说明新版本    |
-|      2019 年 8 月          |   10.0.6(PEAP)、10.0.5HF、10.0.4HF、10.0.3HF      | 巴西      |   NF-e: NT 2019.001 版本 1.20 的技术说明新版本    |
-|      2019 年 8 月          |   10.0.6(PEAP)      | 巴西      |   DRCST 声明 SC   |
-|      2019 年 8 月          |   10.0.6(PEAP)、10.0.5HF      | 巴西     |   与 EFD-ICMS/IPI 有关的新法规由 RJ 州实施。 Rio de Janeiro (RJ) 实施的 13/19 号决议适用于要为免责实施的特殊过程     |
-|      2019 年 8 月          |   10.0.6(PEAP)      | 巴西      |   税务报表 CAT 42/18    |
-|      2019 年 8 月          |   10.0.6(PEAP)      | 意大利      |   D.L 对 VAT 管理的更新。 119 of 23，2018 年 10 月 - Dynamics 365 for Finance and Operations v.10.0.6  |
-|      2019 年 8 月          |   10.0.6(PEAP)、10.0.5HF、10.0.4HF、10.0.3HF      | 日本      |   引入了消费税率更改和减税率    |
+|      2019 年 11 月          |   10.0.7(PEAP)      | 意大利      |   D.L 对 VAT 管理的更新。 2019 年 10 月 23 日 119：季度增值税申报（“Lipe 2018”）    |
+|      2019 年 11 月          |   10.0.7(PEAP)      | 意大利      |   Retail - 管理 POS 中的客户信息 |
+|      2019 年 11 月          |   10.0.7(PEAP)      | 意大利      |   Retail - 打印财务收据中的客户信息 | 
+|      2019 年 11 月          |   10.0.7(PEAP)      | 日本      |   引入了消费税率更改和减税率（发票版式） | 
+|      2019 年 11 月          |   10.0.7(PEAP)      | 墨西哥      |   更新规则 2.7.2.9 - 使用签发 CFDI 文档的机构的邮政编码所在的时区 | 
+|      2019 年 11 月          |   10.0.7(PEAP)      | 英国     |   税数字化 - 在同一系统数据库 v.10 中为作为增值税组申报的公司的增值税退税报表创建 | 
+|      11 月 - 2019 年 8 月          |   10.0.7(PEAP)、10.0.6、10.0.5HF、10.0.4HF、10.0.3HF      | 巴西      |   NF-e: NT 2019.001 版本 1.20 的技术说明新版本    |
+|      11 月 - 2019 年 8 月          |   10.0.7(PEAP)、10.0.6      | 巴西      |   DRCST 声明 SC   |
+|      11 月 - 2019 年 8 月          |   10.0.7(PEAP)、10.0.6      | 意大利      |   D.L 对 VAT 管理的更新。 2018 年 10 月 23 日 119 - Dynamics 365 for Finance and Operations  |
+|      2019 年 8 月          |   10.0.6、10.0.5HF、10.0.4HF、10.0.3HF      | 巴西      |   NF-e: NT 2019.001 版本 1.10 的技术说明新版本    |
+|      2019 年 8 月          |   10.0.6、10.0.5HF      | 巴西     |   与 EFD-ICMS/IPI 有关的新法规由 RJ 州实施。 Rio de Janeiro (RJ) 实施的 13/19 号决议适用于要为免责实施的特殊过程     |
+|      2019 年 8 月          |   10.0.6      | 巴西      |   税务报表 CAT 42/18    |
+|      2019 年 8 月          |   10.0.6、10.0.5HF、10.0.4HF、10.0.3HF      | 日本      |   引入了消费税率更改和减税率    |
 |      8 月 - 2019 年 7 月          |   10.0.5、10.0.4HF、10.0.3HF      | 西班牙      |   西班牙：SII：2019 年 10 月 1 日的验证规则更改    |
 |      2019 年 7 月          |   10.0.5、10.0.4HF、10.0.2HF      | 巴西      |   NF-e: NT 2019.001 版本 1.00 的技术说明新版本  |
 |      2019 年 7 月          |   10.0.5      | 巴西      |   Sped 贡献实践指南 1.31。 新指南    |
@@ -66,7 +70,7 @@ Microsoft 致力于尽早实施新的监管要求。 实际交付日期取决于
 |      2019 年 4 月          |   10.0.3、10.0.2HF、10.0.1HF      | 巴西     |   SPED ECD 布局 7    |
 |      2019 年 4 月          |   10.0.3      | 巴西      |   SPED ECF - Layout 5 for 2019    |
 |      2019 年 4 月          |   10.0.3      | 印度      |   在 BOE 中以海关币种调整税款，而不是以交易记录币种进行    |
-|      2019 年 4 月          |   10.0.3      | 印度      |   在 BOE 中以海关币种计算税款，而不是以交易记录币种进行    |
+|      2019 年 4 月          |   10.0.3      | 印度      |   在 BOE 中以海关币种计算税款，而不是以交易记录币种进行   |
 |      2019 年 4 月          |   10.0.3、10.02HF、10.0.1HF      | 印度      |   IEC 数字格式更改    |
 |      2019 年 4 月          |   10.0.3      | 立陶宛      |   用户可通过立陶宛 i.SAF 报表定义与法定税法关联的系统销售税代码    |
 |      2019 年 4 月          |   10.0.3      | 波兰      |   从 2019 年 7 月 1 日开始的 SAF 发票 (JPK_FA) v.2    |

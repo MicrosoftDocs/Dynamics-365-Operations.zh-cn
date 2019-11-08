@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 553a4a5d25e126923576569b48414c46aab991ec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7621ca961288af81966e0ac883c6525f89960654
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176632"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553132"
 ---
 # <a name="cash-overview-power-bi-content"></a>现金概览 Power BI 内容
 
@@ -40,15 +40,14 @@ ms.locfileid: "2176632"
 1. 转到**系统管理 > 设置 > 系统参数**以设置**系统币种**和**系统汇率**。
 2. 转到**总帐 > 设置 > 分类帐**以设置**记帐币种**和**汇率类型**。
 2. 定义交易币种与记帐币种、记帐币种与系统币种，以记帐币种与银行币种之间的汇率。 方法是，转到**总帐 > 币种 > 币种汇率**。
-3. 配置和运行现金流预测。 有关如何设置现金流预测的详细信息，请参阅<a href="https://docs.microsoft.com/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
-">现金流预测</a>。 
+3. 配置和运行现金流预测。 有关如何设置现金流预测的详细信息，请参阅[现金流预测](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting)。 
 4. 转到**系统管理 > 设置 > 实体商店**以刷新 **LedgerCovLiquidityMeasurement** 聚合度量。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 
 来自**现金概览** Power BI 内容的报表显示在**现金概览**和**银行管理**工作区。
 
-若要查看带数据的现金流量预测报表，你必须先从“现金和银行管理”区域使用**计算现金流量预测**功能运行预测计算流程。  需要为包括在预测中的每个公司完成此操作。  然后，你需刷新**实体商店**页上的 LedgerCovLiquidityMeasurement 聚合度量。  
+若要查看带数据的现金流量预测报表，你必须先从“现金和银行管理”区域使用**计算现金流量预测**功能运行预测计算流程。 需要为包括在预测中的每个公司完成此操作。  然后，你需刷新**实体商店**页上的 LedgerCovLiquidityMeasurement 聚合度量。  
 
 为了演示目的，你可以从演示数据模块使用**生成数据**页添加现金流量预测演示数据。  此脚本将数据插入到现金流量预测表以快速填充报表所需的信息。  仅当你在环境上部署演示数据套件模型时，此模块才可用。 
 

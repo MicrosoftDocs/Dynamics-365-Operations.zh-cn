@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 014202ca49e5bd6204d450b2a43c7372ed84ff33
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: e2b8065fe2521694efb30478a5a41676cff45127
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008235"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551487"
 ---
-# <a name="post-jobs-to-linkedin"></a>将职位发布至 LinkedIn
+# <a name="post-jobs-to-linkedin-from-microsoft-dynamics-365-talent---attract"></a>将工作从 Microsoft Dynamics 365 Talent - Attract 发布到 LinkedIn
 
 [!include [banner](../includes/banner.md)]
 

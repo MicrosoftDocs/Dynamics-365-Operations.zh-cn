@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f20df04d9625fdf0edfd312c097293f9be6d0f0
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: b4564fb2670f75d64b0c5214fb430e5e3fa4405c
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783094"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571453"
 ---
 # <a name="asset-attribute-overview"></a>资产属性概述
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 本主题概述资产管理中的资产属性。 资产属性是与资产类型或资产有关的属性。 如果已设置了[属性类型](../setup-for-functional-locations/specification-types.md)并用于资产，则可获取为资产设置的属性值的概览。 此概览在资产管理中的两个页面上显示：**资产属性概览**和**资产属性**。
 

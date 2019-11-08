@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8d9c8afc139c96e32efb3161d35fde685b8abcc5
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 89e13179e17b7cf075d631bc65d82da5f24da624
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874662"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569838"
 ---
 # <a name="scheduled-execution"></a>已计划执行
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 可使用工作订单服务级别设置已计划执行。 （有关工作订单服务级别的详细信息，请参阅[服务级别和描述](service-level-and-description.md)。）已计划执行可以在为维护工人计划工作时提高灵活性，因为可以为应完成工作订单的期间设置更详细或更通用的要求。 例如，可能可以让一个生产设施中完成作业的速度比预计快的维护工人继续处理附近另一个安排在本周，但不一定当天执行的作业。 这种方法可以优化工人规划和作业完成。
 
@@ -42,4 +42,4 @@ ms.locfileid: "1874662"
 5. 在**已计划执行**字段中，输入时间间隔。
 6. 选择**保存**。
 
-![图 1](media/20-setup-for-work-orders.png)
+![已计划执行](media/20-setup-for-work-orders.png)

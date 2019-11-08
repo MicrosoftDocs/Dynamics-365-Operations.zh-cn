@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2cfa180f992a4f7a9b2e21e0fb3e0845c7546c94
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 5b368e97a716cd1ce4f668c2a97326877a2d3dff
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742702"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551879"
 ---
-# <a name="track-candidate-sources"></a>跟踪候选人来源
+# <a name="track-sources-for-candidate-profiles-and-applications"></a>追踪应聘者个人资料和申请的来源
 
 [!include[banner](../includes/banner.md)]
 

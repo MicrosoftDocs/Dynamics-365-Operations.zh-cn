@@ -3,7 +3,7 @@ title: 财务报表中的报告结构树定义
 description: 本文提供了有关报告结构树定义的信息。 报告结构树定义是报表组件或构造基块，可帮助定义组织的结构和层次结构。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8127c694d21064392b1932525a87044b9554973d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
+ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181810"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564159"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>财务报表中的报告结构树定义
 
@@ -50,7 +50,7 @@ ms.locfileid: "2181810"
 
 | 报告结构树列 | 说明 |
 |-----------------------|-------------|
-| 公司               | 报告单位的公司名称。 **@ANY**值（通常只分派给汇总级别）允许将报告树用于所有公司。 所有子分支都会分得一个公司。 |
+| 公司               | 报告单位的公司名称。 **\@ANY** 值（通常只分派给汇总级别）允许将报告树用于所有公司。 所有子分支都会分得一个公司。 |
 | 单位名称             | 用于在图形报告结构树中标识此报告单位的代码。 请一定要建立一个一致的而且便于用户理解的唯一编码系统。 |
 | 单位描述      | 如果您输入 **UnitDesc** 作为报表定义的**页眉和页脚**选项卡上的代码，则报告单位标题将显示在报表页面或页脚中。 如果在行定义的**描述**单元格中输入 **UnitDesc**，则标题将显示在报表行描述中。 |
 | 维度            | 直接从财务数据中提取信息的报告单位。 它定义帐户和相关细分市场的逻辑定位和长度。 每个报告单位行必须在此列具有维度。 您还可以将维度放置在汇总单位行（例如，与该单位直接有关的费用）。 如果您在汇总单位行中输入维度，则不应在子单位中使用父单位中使用的帐户。 否则，金额可能会出现重复。 |
