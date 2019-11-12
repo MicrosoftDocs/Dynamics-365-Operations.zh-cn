@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 956c866a6b39e2a81f085910e00d2bfe8683829c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176674"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658636"
 ---
 # <a name="mobile-invoice-approvals"></a>移动发票审核
 
@@ -138,13 +138,19 @@ ms.locfileid: "2176674"
 
 应设计的第一个移动页面是为用户分配以待检查的发票列表。 若要设计此移动页面，请使用 **VendMobileInvoiceAssignedToMeListPage** 页面。 完成此过程，请确保为您分配至少一个供应商发票进行检查，并且发票行有两个分配。 此设置满足该方案的要求。
 
-1.  在该 URL 中，将菜单项的名称替换为 **VendMobileInvoiceAssignedToMeListPage**，以便在**应付帐款**模块中打开**分配给我的待定供应商发票**列表页面的移动版本。 此页面根据系统中为您分配的发票数量显示这些发票。 若要查找特定发票，必须使用左侧的筛选器。 但是，此示例不需要特定发票。 只需要为您分配某张发票，这将允许您设计移动页面。 已专门为供应商发票的移动方案设计可用新页面。 因此，您必须使用这些页面。 此 URL 应类似以下 URL，并且输入该 URL 之后，必须显示下图中显示的页面：https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![“分配给我的待定供应商发票”页面](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+1.  在该 URL 中，将菜单项的名称替换为 **VendMobileInvoiceAssignedToMeListPage**，以便在**应付帐款**模块中打开**分配给我的待定供应商发票**列表页面的移动版本。 此页面根据系统中为您分配的发票数量显示这些发票。 若要查找特定发票，必须使用左侧的筛选器。 但是，此示例不需要特定发票。 只需要为您分配某张发票，这将允许您设计移动页面。 已专门为供应商发票的移动方案设计可用新页面。 因此，您必须使用这些页面。 此 URL 应类似以下 URL，并且输入该 URL 之后，必须显示下图中显示的页面：https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile 
+
+    [![分配给我的待定供应商发票页面](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+    
 2.  单击页面右上角的**设置**（齿轮）按钮，然后单击**移动应用程序**
 3.  选择您的工作区，然后单击**编辑**
 4.  单击**添加页面**创建第一个移动页面。
 5.  输入名称（如**我的供应商发票**）和描述（如**分配给我检查的供应商发票**）。
 6.  单击**完成**。
-7.  在移动设计器中的**字段**选项卡上，单击**选择字段**。 列表页面上的列必须类似下图。 [![“分配给我的待定供应商发票”页面上的列](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+7.  在移动设计器中的**字段**选项卡上，单击**选择字段**。 列表页面上的列必须类似下图。 
+
+    [![“分配给我的待定供应商发票”页面上的列](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+    
 8.  从列表页面添加必须在移动页面中向用户显示的所需列。 添加顺序为字段向最终用户显示的顺序。 只能通过重新选择所有字段才能更改字段的顺序。 根据此方案的要求，需要下面的八个字段： 但是，某些用户可能会认为八个字段在移动设备上提供的信息太多。 因此，我们将在移动列表视图中仅显示最重要的字段。 其余字段将在我们以后将设计的详细信息视图中显示。 现在我们将仅添加以下字段。 单击这些列中的加号 (**+**) 添加到移动页面。
     - 供应商名称
     - 发票合计
@@ -152,8 +158,10 @@ ms.locfileid: "2176674"
     - 发票编号
     - 发票日期
 
-    添加字段之后，移动页面必须类似下图。 
-    [![添加字段后的页面](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+  添加字段之后，移动页面必须类似下图。 
+    
+   [![添加字段后的页面](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+
 9.  还必须立即添加以下列，以便在以后启用工作流操作。
     - 显示已完成任务
     - 显示委托任务
@@ -169,16 +177,26 @@ ms.locfileid: "2176674"
 
 ### <a name="vendor-invoice-details"></a>供应商发票明细
 
-若要为移动设计发票明细页面，请使用 **VendMobileInvoiceHeaderDetails** 页面。 请注意，此页面根据您在系统中的发票数量，显示时间最久的发票（即最先创建的发票）。 若要查找特定发票，必须使用左侧的筛选器。 但是，此示例不需要特定发票。 我们仅需要一些发票数据，以便设计移动页面。 [![工作流页面](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+若要为移动设计发票明细页面，请使用 **VendMobileInvoiceHeaderDetails** 页面。 请注意，此页面根据您在系统中的发票数量，显示时间最久的发票（即最先创建的发票）。 若要查找特定发票，必须使用左侧的筛选器。 但是，此示例不需要特定发票。 我们仅需要一些发票数据，以便设计移动页面。 
+
+[![工作流页面](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
 1. 在该 URL 中，将菜单项的名称替换为 **VendMobileInvoiceHeaderDetails** 以打开窗体
+
 2. 通过**设置**（齿轮）按钮打开移动设计器。
+
 3. 单击**编辑**按钮在工作区中启动编辑模式。
+
 4. 选择前面创建的**我的供应商发票**页面，然后单击**编辑**。
+
 5. 在**字段**选项卡上，单击**窗格**列标题。
+
 6. 单击**属性 &gt; 添加**页面。 **注释：** 单击**窗格**标题并添加页面时，将自动建立与明细页面之间的关系。
+
 7. 输入页面标题（如**发票明细**）和描述（如**查看发票抬头和行明细**）。
+
 8. 单击**选择字段**。 请注意，添加顺序为字段向最终用户显示的顺序。 只能通过重新选择所有字段才能更改字段的顺序。 
+
 9. 根据此方案的要求，从抬头添加以下字段：
    - 供应商名称
    - 发票合计
@@ -197,9 +215,13 @@ ms.locfileid: "2176674"
     - 1099 金额
 
 11. 添加了前面两步骤中的所有字段之后，单击**完成**。 此页面必须类似下图。
+    
     [![添加字段后的页面](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+
 12. 单击**完成**退出编辑模式。
+
 13. 单击**后退**，然后单击**完成**退出工作区
+
 14. 单击**发布工作区**以保存工作
 
 ### <a name="workflow-actions"></a>工作流操作
@@ -295,12 +317,19 @@ ms.locfileid: "2176674"
 ### <a name="vendor-invoice-attachments"></a>供应商发票附件
 
 1. 单击页面右上角的**设置**（齿轮）按钮，然后单击**移动应用程序**
+
 2. 单击**编辑**按钮在工作区中启动编辑模式。
+
 3. 选择前面创建的<strong>发票明细</strong>页面，然后单击**编辑**。
+
 4. 将**文档管理**选项设置为**是**，如下所示。 **注释：** 如果需要在移动设备上显示附件，可以让此选项保留为**否**（这是默认设置）。
+   
    ![文档管理](./media/docmanagement-216x300.png)
+
 5. 单击**完成**退出编辑模式。
+
 6. 单击**后退**，然后单击**完成**退出工作区
+
 7. 单击**发布工作区**以保存工作
 
 ### <a name="vendor-invoice-line-distributions"></a>供应商发票行配送
@@ -311,12 +340,19 @@ ms.locfileid: "2176674"
 > 了解要求可以帮助我们在设计方案时确定要使用哪个特定页面和到底如何为用户优化移动体验。 在第二个方案中，我们将使用其他页面显示分配，因为该方案的要求不同。
 
 1.  在 URL 中，替换 URL 中的菜单项名称，如前面执行的操作。 显示的页面应类似下图。
+
 [![“全部分配”页面](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+
 2.  通过**设置**（齿轮）按钮打开移动设计器。
+
 3.  单击**编辑**按钮在工作区中启动编辑模式。 **注释：** 您将发现自动创建了两个新页面。 系统之所以创建这些页面，是因为您在上一部分中开启了文档管理。 您可以忽略这些新页面。
+
 4.  单击**添加页面**。
+
 5.  输入页面标题（如**查看会计**）和描述（如**查看发票的会计**）。
+
 6.  单击**完成**。
+
 7.  在**字段**选项卡上，单击**选择字段**，从分配页面选择以下字段，然后单击**完成**。
     1.  本币金额
     2.  币种
@@ -324,8 +360,11 @@ ms.locfileid: "2176674"
 
     > [!NOTE] 
     > 我们未从分配网格选择**描述**列，因为此方案的要求确认只有延伸价格才是有分配的金额。 因此，我们不需要再一个字段来确定分配针对的金额类型。 但是在下一个方案中，**将**使用此信息，因为该方案的要求指定，其他金额类型有分配（如销售税）。
+
 8.  单击**完成**退出编辑模式。
+
 9.  单击**后退**，然后单击**完成**退出工作区
+
 10. 单击**发布工作区**以保存工作
 
 > [!NOTE] 

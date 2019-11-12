@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: index.yml
+  href: talent-welcome.md
   items:
     - name: 入门
       items:
@@ -8,6 +8,10 @@
         - name: Talent 新增功能或更改
           href: whats-new.md
           items:
+            - name: 2019 年 10 月 23 日
+              href: whats-new-talent-october-23-2019.md
+            - name: 2019 年 10 月 8 日
+              href: whats-new-talent-october-8-2019.md
             - name: 2019 年 10 月 1 日
               href: whats-new-talent-october-1-2019.md
             - name: 2019 年 9 月 17 日
@@ -391,12 +395,14 @@
               href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: 集成
       items:
+        - name: 针对 Dynamics 365 for Talent 的数据集成指南
+          href: data-integration.md
+        - name: 配置 Common Data Service 集成
+          href: hr-common-data-service-integration.md
         - name: 与 Dynamics 365 for Finance and Operations 集成
           href: talent-financeandoperations-integration.md
         - name: 配置 Talent 和 Dayforce 之间的工资单集成
           href: configure-payroll-integration.md
-        - name: 针对 Dynamics 365 for Talent 的数据集成指南
-          href: data-integration.md
         - name: 集成常见问题
           href: talent-fo-integration.md
         - name: 使用 Azure 逻辑应用重复导出数据

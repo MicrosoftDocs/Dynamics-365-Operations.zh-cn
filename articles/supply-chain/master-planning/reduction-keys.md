@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5efa5b2c7a4c45bbf6e940170000b391384fe7ff
-ms.sourcegitcommit: add48ece3864645a89a28327c4add607714befb5
+ms.openlocfilehash: d303b08ed39232a1154c5170bf585a7c25e43f8d
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "1736296"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550451"
 ---
-# <a name="method-used-to-reduce-forecast-requirements"></a>用于减少预测需求的方法
+# <a name="forecast-reduction-keys"></a>预测缩减参数
 
 [!include [banner](../includes/banner.md)]
 

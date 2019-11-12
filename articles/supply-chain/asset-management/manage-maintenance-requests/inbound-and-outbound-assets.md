@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62998da7f541379296d5ac325ae29f24a42f9b7c
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: bb318c24424c291f08ba7527b2258c0da4cba9a8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847543"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571660"
 ---
 # <a name="inbound-and-outbound-assets"></a>入站资产和出站资产
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 如果公司对从其他位置或客户收到的资产执行维修作业或维护作业，资产管理同时可跟踪正在前往公司的入站资产和正在退回的出站资产。
 
@@ -45,7 +45,7 @@ ms.locfileid: "1847543"
 3. 选择**更新维护请求状态**。
 4. 选择**入站**（或已为入站资产创建的其他生命周期状态），然后选择**确定**。
 
-![图 1](media/07-manage-maintenance-requests.png)
+![将资产登记为入站资产](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>将入站资产登记为接收的资产
 
@@ -54,7 +54,7 @@ ms.locfileid: "1847543"
 3. 选择**接收资产**。
 4. 在**接收时间**字段中，输入日期和时间。 然后选择**确定**。 将从**入站资产**列表页删除记录。
 
-![图 2](media/08-manage-maintenance-requests.png)
+![将入站资产登记为接收的资产](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>将资产登记为出站资产
 

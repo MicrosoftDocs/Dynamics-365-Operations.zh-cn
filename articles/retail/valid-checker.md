@@ -3,7 +3,7 @@ title: 零售交易记录一致性检查器
 description: 本主题将介绍 Dynamics 365 Retail 中的零售交易记录一致性检查器功能。
 author: josaw1
 manager: AnnBe
-ms.date: 05/30/2019
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b956565ac15b3d7b638cedaadc20923ee87b9c61
+ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018405"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622589"
 ---
 # <a name="retail-transaction-consistency-checker"></a>零售交易记录一致性检查器
 
@@ -59,11 +59,14 @@ ms.locfileid: "2018405"
 - **礼品卡物料** - Retail 不支持礼品卡物料退货。 但是，礼品卡的余额可以兑现。作为退货行而不是兑现行处理的任何礼品卡物料会导致对帐单过帐流程失败。 礼品卡物料的验证流程有助于确保零售交易记录表上的唯一退货礼品卡行物料是礼品卡兑现行。
 - **负价格** - 验证没有负价格交易记录行。
 - **物料和变型** - 验证交易记录行上的物料和变型是否存在于物料和变型主文件中。
-- **纳税金额** - 验证纳税记录与行上的纳税金额是否匹配。 
+- **纳税金额** - 验证纳税记录与行上的纳税金额是否匹配。
+- **序列号** - 验证该序列号是否存在于通过该序列号控制的物料的交易记录行中。
+- **符号** - 验证数量上的符号和净额是否在所有交易记录行中相同。
+- **业务日期** - 验证零售交易记录的所有业务日期的财务期间是否为未结。
 
 ## <a name="set-up-the-consistency-checker"></a>设置一致性检查器
 
-通过**零售\>零售 IT\>POS 过帐**配置定期运行的“验证商店交易记录”批处理流程。 批处理作业可以基于商店组织层次结构进行计划，这与设置“成批计算对帐单”和“成批过帐对帐单”流程的方式相似。 我们建议您将此批处理流程配置为一天运行多次并对此进行计划，以便该批处理在每次执行 P 作业结束后运行。
+通过 **Retail \> 零售 IT \> POS 过帐**配置定期运行的“验证商店交易记录”批处理。 批处理作业可以基于商店组织层次结构进行计划，这与设置“批量计算对帐单”和“批量过帐对帐单”流程的方式相似。 我们建议您将此批处理流程配置为一天运行多次并对此进行计划，以便该批处理在每次执行 P 作业结束后运行。
 
 ## <a name="results-of-validation-process"></a>验证流程的结果
 

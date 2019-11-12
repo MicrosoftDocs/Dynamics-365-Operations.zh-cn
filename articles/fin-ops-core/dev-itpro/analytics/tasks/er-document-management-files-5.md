@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba9cc4dcdfcfbc1bdb933336e85da9b4b6d97a40
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: de075899547d194fb9eb0e68947efd005c101851
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182500"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550686"
 ---
-# <a name="er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format"></a>ER 在格式输出中使用票据管理文件（第 5 部分：修改和运行格式）
+# <a name="er-use-document-management-files-in-format-outputs-part-5---modify-and-run-format"></a>ER 在格式输出中使用票据管理文件（第 5 部分 - 修改和运行格式）
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

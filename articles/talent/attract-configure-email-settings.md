@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c891a36f01d36774bd921475fa5995d207cd2d51
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: a457deec757a5d5a3e01c6903b2dd7a9d975ef0b
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008654"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551533"
 ---
-# <a name="configure-email-settings"></a>配置电子邮件设置
+# <a name="configure-email-settings-in-microsoft-dynamics-365-talent---attract"></a>在 Microsoft Dynamics 365 Talent - Attract 中配置电子邮件设置
 
 [!include[banner](../includes/banner.md)]
 

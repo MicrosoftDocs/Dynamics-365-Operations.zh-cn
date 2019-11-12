@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 949a504c71127c5efa0a93eb3fa4b237cb4b8242
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b7e04f2872ac71055840fc8f73efa3bfda025c2d
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026076"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550312"
 ---
-# <a name="get-support-for-talent"></a>获取 Talent 支持
+# <a name="get-support-for-microsoft-dynamics-365-talent"></a>获取 Microsoft Dynamics 365 Talent 支持
 
 [!include [banner](includes/banner.md)]
 

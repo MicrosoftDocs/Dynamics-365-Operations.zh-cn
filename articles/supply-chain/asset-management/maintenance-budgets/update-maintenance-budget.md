@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 486782968816cc585d9cf2d753f32e82f85e4f7e
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 8f3b771319eeb602a371500fdc69c68f88afe341
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874777"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571729"
 ---
 # <a name="update-maintenance-budgets"></a>更新维护预算
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 **维护预算行**页显示已经为**维护预算**页中选择的预算创建的所有预算行。 （有关详细信息，请参阅[创建维护预算](create-maintenance-budget.md)。）核准维护预算之前，可重新计算和调整维护预算行。 预算期间过去，并且已经在资产管理中过帐了成本之后，还可以使用实际成本更新预算行。
 

@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 571f443b02268cbee8fe787f25419e046ba99aeb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d25bacc2ec1f8e13376b96e188b099a184f7f8c6
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182845"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569124"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>采购花费分析 Power BI 内容
 
@@ -62,7 +62,7 @@ ms.locfileid: "2182845"
 - 有效供应商总数
 
 **示例**
-<img src="media/spend1.PNG" alt="Purchase by vendor">
+<img src="media/spend1.png" alt="Purchase by vendor">
 
 ### <a name="purchase-by-product-report-page"></a>按产品的采购报表页面
 
@@ -79,7 +79,7 @@ ms.locfileid: "2182845"
 **示例**
 
 
-<img src="media/purchaseByProduct.PNG" alt="Purchase by Product">
+<img src="media/purchaseByProduct.png" alt="Purchase by Product">
 
 ### <a name="purchase-by-period-report-page"></a>按期间的采购报表页面
 此页中显示 今年和去年的采购，以及按采购类别的采购。
@@ -95,7 +95,7 @@ ms.locfileid: "2182845"
 - YOY 采购增长百分比
 
 **示例**
-<img src="media/purchaseByPeriod.PNG" alt="Purchase by Period">
+<img src="media/purchaseByPeriod.png" alt="Purchase by Period">
 
 ### <a name="purchase-by-vendor-location-report-page"></a>按供应商位置的采购报表页面
 
@@ -105,7 +105,7 @@ ms.locfileid: "2182845"
 - 按国家/地区的采购
 
 **示例**
-<img src="media/purchByVendorLocation.PNG" alt="Purchase by Vendor Location">
+<img src="media/purchByVendorLocation.png" alt="Purchase by Vendor Location">
 
 ### <a name="purchase-spend-analysis-by-time-report-page"></a>按时间的采购报表页面
 
@@ -114,7 +114,7 @@ ms.locfileid: "2182845"
 - 本年和去年的采购（折现柱形图）
 
 **示例**
-<img src="media/PurchByTIme.PNG" alt="Purchase by Time">
+<img src="media/PurchByTIme.png" alt="Purchase by Time">
 
 ### <a name="purchase-spend-analysis-by-vendor-report-page"></a>按供应商的采购报表页面
 
@@ -124,7 +124,7 @@ ms.locfileid: "2182845"
 - 排名前 10 位的供应商（带 YOY 的降低支出）
 
 **示例** 
-<img src="media/PurchSpendAnalysisByVendor.PNG" alt="Purchase spend by vendor">
+<img src="media/PurchSpendAnalysisByVendor.png" alt="Purchase spend by vendor">
 
 
 ## <a name="data-model-and-entities"></a>数据模型和实体

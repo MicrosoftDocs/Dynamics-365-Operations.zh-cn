@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2cff84f8f6c42fd064258b8ca53e24acc8059977
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c17a0240c29dad58c958ab1ce844ee5d8384bd1f
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175308"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658921"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>设置销售税结算期间
 
@@ -42,7 +42,7 @@ ms.locfileid: "2175308"
 9. 输入每一期间的期间间隔单位数。 例如，1 个季度有 3 个月。
 10. 选择或清除**使用批处理进行销售税结算**复选框。 结算期的结算流程可在后台将交易记录作为批处理作业。 这是对在期间间隔内的大量涉税交易记录的建议。  
     > [!NOTE]
-    > 奥地利、比利时、西班牙、意大利、日本和荷兰现在不支持。
+    > 西班牙、日本和荷兰现在不支持。
 11. 选择或清除**防止生成抵消税交易记录**复选框。 默认情况下，系统在结算过程中生成抵消税交易记录，如果在某期间间隔内存在大量税交易记录，这可能造成性能问题。 选择此复选框以防止生成抵消税交易记录。
 12. 展开**期间间隔**选项卡。
 13. 选择**添加**。

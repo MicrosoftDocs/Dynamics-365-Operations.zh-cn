@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
+ms.search.form: ERModelMappingDesigner, ERFormatMappingLegalEntityFilterTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: dc98f060bbb27958436cd2183bb469f821d04320
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f2e6b4f20464993f736b013dde40527aba2258ed
+ms.sourcegitcommit: 564aa8eec89defdbe2abaf38d0ebc4cca3e28109
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181488"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2667636"
 ---
 # <a name="cross-company-data-sources-in-electronic-reporting-er"></a>电子设备 (ER) 中的公司间数据源
 

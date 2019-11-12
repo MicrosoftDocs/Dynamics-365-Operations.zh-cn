@@ -3,7 +3,7 @@ title: 项目开票
 description: 本文提供时间和材料项目和固定价格项目的项目开票的概览。 它包含有关发票方案（预备发票）、发票控制、分期付款开票、供应商开票和贷方通知单的信息。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d91f6b1ccc3254e2c04d24c5f9bf2014c64e50
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176673"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658612"
 ---
 # <a name="project-invoicing"></a>项目开票
 
@@ -55,6 +55,9 @@ ms.locfileid: "2176673"
 -   客户按先前的项目发票预扣的金额
 -   贷方通知单
 -   客户在项目开始前支付的金额
+
+> [!NOTE]
+> **在项目发票方案创建期间启用按资源排序**功能使项目会计在创建新的项目发票方案时可以按资源对可用于记帐的项目交易记录进行排序。 显示可用项目交易记录的网格将具有一个单独的字段，用于“资源 ID 和资源”，从而让用户可以对资源名称进行筛选和排序。 此功能默认禁用，但可以**工作区 > 功能管理**中启用。 请与系统管理员联系，获取启用此功能的帮助。
 
 您可以在发票方案创建费用交易记录。 还可以修改工时、支出、物料和费用交易记录的销售价。 在您过帐发票方案时，在项目报告和交易记录历史中添加已更新的价格和交易记录。 
 

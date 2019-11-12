@@ -19,18 +19,16 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46aa4378a5b106d5717e0c841f2f7c9d6629489e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d655015a2048bb8e7d85d8ea3679b8b2506caf10
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251308"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2572098"
 ---
 # <a name="register-serial-numbers-in-the-sales-process"></a>在销售流程中登记序列号
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 本主题说明如何在销售流程中登记装箱单或发票的序列号。 如何公司希望捕获序列号是为了用于服务和保修用途，但不必在从收货到发货的库存中维护序列号，那么此功能很有用。
 

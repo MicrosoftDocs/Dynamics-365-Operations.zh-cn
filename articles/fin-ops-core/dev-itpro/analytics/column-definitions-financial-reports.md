@@ -3,7 +3,7 @@ title: 财务报表中的列定义
 description: 本文提供了有关列定义的信息。 列定义是报表组件或构建基块，在报表上定义列的内容。 和行定义一样，基本列定义可以在多个报表中使用。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 76de08290058d43fbd1b4c0670db55ebcfbb8494
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 54e7d517e704b7162f3e091330a246386f0203ea
+ms.sourcegitcommit: d800613020d5548d100c8f240fb81bb6258a3646
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174297"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2572633"
 ---
 # <a name="column-definitions-in-financial-reports"></a>财务报表中的列定义
 
@@ -170,7 +170,7 @@ ms.locfileid: "2174297"
 
 ### <a name="create-an-automatically-generated-header"></a>创建自动生成的标题
 
-报表设计器可基于自动图文集代码自动生成列标题。 自动图文集代码是在每次生成报表时更新的变量。 任何列标题都可以包括这些代码来指定不同的报表信息，例如日期或期间编号。 因此，您可以将一个列定义用于多个报表定义、时间段和报告树。 由于自动图文集代码依赖列定义的详细信息行中的日历信息，因此它们仅受 **CALC** 和 **FD** 列支持。 自动图文集代码在列标题单元格中的显示方式将影响该信息在报表中的显示方式。 在**列标题**对话框中，自动图文集代码将以混合大小写的形式显示。 因此，该文本在报表中以混合大小写的形式显示。 例如，在标准日历年中，**@CalMonthLong** 将 **7** 月解析为**七月**。 如果月份的名称应为大写（例如**JULY**），则可在**列标题文本**字段中输入大写字符形式的自动图文集代码。 例如，输入 **@CALMONTHLONG**。 您可以将代码与文本混合。 例如，输入以下标题文本：**Period @FiscalPeriod-@FiscalYear from @StartDate to @EndDate**。 生成的报表标题类似于以下文本：**Period 1-02 from 01/01/02 to 01/31/02**。
+报表设计器可基于自动图文集代码自动生成列标题。 自动图文集代码是在每次生成报表时更新的变量。 任何列标题都可以包括这些代码来指定不同的报表信息，例如日期或期间编号。 因此，您可以将一个列定义用于多个报表定义、时间段和报告树。 由于自动图文集代码依赖列定义的详细信息行中的日历信息，因此它们仅受 **CALC** 和 **FD** 列支持。 自动图文集代码在列标题单元格中的显示方式将影响该信息在报表中的显示方式。 在**列标题**对话框中，自动图文集代码将以混合大小写的形式显示。 因此，该文本在报表中以混合大小写的形式显示。 例如，在标准日历年中，**\@CalMonthLong** 将月份 **7** 解析为 **July**。 如果月份的名称应为大写（例如**JULY**），则可在**列标题文本**字段中输入大写字符形式的自动图文集代码。 例如，输入 **\@CALMONTHLONG**。 您可以将代码与文本混合。 例如，输入以下标题文本：**Period \@FiscalPeriod-\@FiscalYear from \@StartDate to \@EndDate**。 生成的报表标题类似于以下文本：**Period 1-02 from 01/01/02 to 01/31/02**。
 
 > [!NOTE]
 > 某些文本（如长日期）的格式取决于您在服务器上的区域设置。 要更改这些设置，请单击**开始**按钮，单击**控制面板**，然后单击**区域和语言**。 下表列出了列标题的可用自动图文集选项。

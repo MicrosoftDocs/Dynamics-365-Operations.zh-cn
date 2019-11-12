@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a06159f3d26cbaddc1417e863d7e665c2bfb424
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0de35934e8bdb160f68f68dab118997d0141bf29
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176652"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570394"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>信用卡设置、授权和捕获
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 本文提供 Microsoft Dynamics 365 Finance 中的信用卡授权的概览。 其中包含有关如何设置付款服务，添加信用卡到销售订单和取消授权的信息。
 

@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0ea2c71458f92d048706a6e263d0da1830bdcde
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 792ff4d7b72ce092fe1ad92e53172cf40f0ecf26
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565688"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569263"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>具有实际成本和标记的先进先出
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 后进先出 (LIFO) 是一种库存模型，其中，最后（最新）的收货将最先发货。 基于库存交易记录的日期，按照最后入库的收货结算库存发货。 
 
@@ -56,7 +54,9 @@ ms.locfileid: "1565688"
 -   5b. 数量 1（单件成本价为 USD 20.00）的库存财务发货（财务更新的交易记录的移动平均）。
 -   6. 执行库存结转。 基于后进先出方法，最后财务更新的发货将对照最后财务更新的收货结算。 将对发货交易记录执行 USD 10.00 的调整。
 
-新的移动平均成本价按 USD 15.00 反映财务更新的交易记录的平均值。 下图说明了在未使用**包括实际成本**选项时，先进先出库存模型对此系列的交易记录的影响。 ![不具有“包括实际成本”的后进先出](./media/lifowithoutincludephysicalvalue.gif) 
+新的移动平均成本价按 USD 15.00 反映财务更新的交易记录的平均值。 下图说明了在未使用**包括实际成本**选项时，先进先出库存模型对此系列的交易记录的影响。 
+
+![不具有“包括实际成本”的后进先出](./media/lifowithoutincludephysicalvalue.gif) 
 
 **图形要点**
 
@@ -90,7 +90,9 @@ ms.locfileid: "1565688"
 
 交易记录 6a 将调整到收货交易记录 4b。 此系统将不会结算这些交易记录，因为在实际上更新该收货，并不在财务上更新。 而是只将 USD 8.75 的调整过帐到实际发货交易记录。 交易记录 5b 将调整到实际收货交易记录 3a。 系统将不会结算这些交易记录，因为它们都没有在财务上更新。 而是只对此发货交易记录执行 USD –3.75 的调整。 新的移动平均成本价反映按 USD 20.00 的财务和实际更新的交易记录的平均价。 
 
-下图说明了在使用**包括实际成本**选项时，先进先出库存模型对此系列的交易记录的影响。 ![具有“包括实际成本”的后进先出](./media/lifowithincludephysicalvalue.gif) 
+下图说明了在使用**包括实际成本**选项时，先进先出库存模型对此系列的交易记录的影响。 
+
+![具有“包括实际成本”的后进先出](./media/lifowithincludephysicalvalue.gif) 
 
 **图形要点**
 
@@ -132,7 +134,9 @@ ms.locfileid: "1565688"
 
 新的移动平均成本价反映按 USD 27.50 的财务和实际更新的交易记录的平均价。 
 
-下图说明在使用发货和收货之间的标记时，先进先出库存模型对此系列的交易记录的影响。 ![具有标记的后进先出](./media/lifowithmarking.gif) 
+下图说明在使用发货和收货之间的标记时，先进先出库存模型对此系列的交易记录的影响。 
+
+![具有标记的后进先出](./media/lifowithmarking.gif) 
 
 **图形要点**
 
@@ -146,7 +150,4 @@ ms.locfileid: "1565688"
 - 每个垂直箭头用连续标识符标记，例如 *1a*。 这些标识符指示时间线中库存交易记录过帐的顺序。
 - 库存结转用红色的垂直虚线以及 *“库存结转”* 标签表示。
 - 由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。
-
-
-
 

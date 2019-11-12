@@ -3,7 +3,7 @@ title: Dynamics 365 Talent 与 Dynamics 365 Finance 集成的常见问题
 description: 本主题说明在 Talent 和 Finance 集成中要同步哪些数据。
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 10/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5bb855e6dd7ff236b7bda9e59e12ed8cc8ab9bc9
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
+ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251006"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622760"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Dynamics 365 Talent 与 Dynamics 365 Finance 集成的常见问题
 
@@ -35,6 +35,10 @@ ms.locfileid: "2251006"
 对于 Core HR，将同步数据的子集。 有关所有实体的列表，请参阅 [Dynamics 365 Talent 与 Dynamics 365 Finance 的集成](talent-financeandoperations-integration.md)。
 
 对于 Attract 和 Onboard，所有数据都是 Common Data Service 的本地数据。
+
+## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>为什么我看不到任何数据同步到 Common Data Service？
+
+默认情况下，Common Data Service 集成在不包含提供的演示数据的新环境中处于关闭状态。 默认情况下，在包含演示数据的新环境中将其打开，并且在设置环境后即开始数据同步。 环境准备好可以同步数据后，可以打开集成。 有关详细信息，请参阅[配置 Common Data Service 集成](hr-common-data-service-integration.md)。
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>我可以不使用模板创建新映射吗？
 

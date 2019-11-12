@@ -1,6 +1,6 @@
 ---
 title: 为日记帐启用延迟税金计算
-description: 此主题介绍如何**为日记帐启用延迟税金计算**功能在有大量日记帐行时提高税金计算的性能。
+description: 此主题介绍如何启用延迟税金计算功能以在有大量日记帐行时帮助提高税金计算的性能。
 author: ericwang
 manager: Ann Beebe
 ms.date: 09/18/2019
@@ -18,55 +18,50 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5a8ae30a007d3e2b8b7a9bc9eb7786f6e58246d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e336be5468106007e1f5adf26bf272c88b8b413b
+ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176562"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2623513"
 ---
-# <a name="enable-delayed-tax-calculation-on-journal"></a>为日记帐启用延迟税金计算
+# <a name="enable-delayed-tax-calculation-on-journals"></a>为日记帐启用延迟税金计算
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-此主题介绍如何**为日记帐启用延迟税金计算**功能在有大量日记帐行时提高税金计算的性能。
+本主题说明如何延迟日记帐的销售税计算。 当日记帐行很多时，此功能有助于提高税金计算的性能。
 
-日记帐的当前销售税计算行为在用户更新与税金有关的字段（如销售税组/物料销售税组）时实时触发。 日记帐行级别的任何更新都将重新计算所有日记帐行中的税额。 它可帮助用户查看实时计算的税额，但是如果日记帐行数量非常大，也可以导致性能问题。
+默认情况下，每当更新与税相关的字段时，都会计算日记帐行上的销售税金额。 这些字段包括销售税组和物料销售税组的字段。 日记帐行的任何更新都会导致重新计算所有日记帐行的税额。 尽管此行为可以帮助用户实时查看税额，但是如果日记帐行的数量很大，也可能影响性能。
 
-此功能提供了一个选项，用于推迟税金计算以解决性能问题。 如果开启了此功能，则仅当用户单击“销售税”命令或过帐日记帐时，才会计算税额。
+延迟税金计算功能使您可以延迟日记帐的税金计算，从而帮助解决性能问题。 开启此功能时，则仅当用户选择**销售税**或过帐日记帐时，才会计算税额。
 
-用户可在三个级别开启/关闭此参数：
-- 按法人
-- 按日记帐名称
-- 按日记帐标题
+您可以在三个级别上延迟销售税的计算：
 
-系统将把日记帐标题中的参数值视为最终值。 日记帐标题中的参数值默认取自日记帐名称。 日记帐名称中的参数值默认取自创建日记帐名称时生成的分类帐参数。
+- 法人
+- 日记帐名称
+- 日记帐标题
 
-如果开启此参数，将隐藏日记帐中的“实际销售税金额”和“已计算销售税金额”字段。 目标是不让用户迷惑，因为用户触发税金计算之前，这两个字段的值始终显示 0。
+系统优先考虑日记帐标头的设置。 默认情况下，此设置来自日记帐名称。 默认情况下，创建日记帐名称时，日记帐名称的设置从**总帐参数**页面上的设置获取。 以下各节说明如何为法人、日记帐名称和日记帐标头打开延迟税金计算。
 
-## <a name="enable-delayed-tax-calculation-by-legal-entity"></a>按法人启用延迟的税金计算
+## <a name="turn-on-delayed-tax-calculation-at-the-legal-entity-level"></a>在法人级别启用延迟税金计算
 
-1. 转到**总帐 > 分类帐设置 > 总帐参数**
-2. 单击**销售税**选项卡
-3. 在**常规**快速选项卡下，找到参数**延迟的税金计算**，然后开启/关闭该参数
+1. 转到**总帐 \> 分类帐设置 \> 总帐参数**。
+2. 在**销售税**选项卡，在**常规**快速选项卡，将**延迟税金计算**选项设置为**是**。
 
-![](media/delayed-tax-calculation-gl.png)
+![总帐参数图像](media/delayed-tax-calculation-gl.png)
 
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>在日记帐名称级别启用延迟税金计算
 
+1. 转到**总帐 \> 日记帐设置 \> 日记帐名称**。
+2. 在**常规**快速选项卡上，在**销售税**部分，将**延迟税金计算**选项设置为**是**。
 
-## <a name="enable-delayed-tax-calculation-by-journal-name"></a>按日记帐名称启用延迟的税金计算
+![日记帐名称图像](media/delayed-tax-calculation-journal-name.png)
 
-1. 转到**总帐 > 日记帐设置 > 日记帐名称**
-2. 在**常规**快速选项卡下，找到参数**延迟的税金计算**，然后开启/关闭该参数
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>在日记帐标头级别启用延迟税金计算
 
-![](media/delayed-tax-calculation-journal-name.png)
+1. 转到**总帐 \> 日记帐条目 \> 普通日记帐**。
+2. 选择**新建**。
+3. 选择一个日记帐名称。
+4. 在**设置**选项卡上，将**延迟税金计算**选项设置为**是**。
 
-## <a name="enable-delayed-tax-calculation-by-journal"></a>按日记帐启用延迟的税金计算
-
-1. 转到**总帐 > 日记帐条目 > 普通日记帐**
-2. 单击**新建**
-3. 选择一个日记帐名称
-4. 单击**设置**
-5. 找到参数**延迟的税金计算**，然后开启/关闭该参数
-
-![](media/delayed-tax-calculation-journal-header.png)
+![普通日记帐页面图像](media/delayed-tax-calculation-journal-header.png)

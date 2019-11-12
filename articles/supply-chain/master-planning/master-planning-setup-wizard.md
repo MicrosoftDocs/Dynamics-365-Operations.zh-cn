@@ -3,7 +3,7 @@ title: 主计划设置向导
 description: 此主题介绍用于设置主计划的各种重要策略和参数。
 author: t-benebo
 manager: AnnBe
-ms.date: 08/05/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 0310ac55d35421d8ad9080739fc5a393660ce520
-ms.sourcegitcommit: 261dc882710f29303b14f9be8a26d71d85d25345
+ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
+ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "1999526"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "2635118"
 ---
 # <a name="master-planning-setup-wizard"></a>主计划设置向导
 
 [!include [banner](../includes/banner.md)]
 
 本主题提供针对**主计划设置向导**的指南。 介绍如何计算参数建议，还提供示例来显示不同公司如何根据业务需要设置主计划。
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+
+YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中包含 [Dynamics 365 Supply Chain Management 中的主计划设置向导](https://youtu.be/c-e6n-8rZb4)视频（上面显示的）。
+
 
 ## <a name="specific-requirements-of-your-company"></a>您的公司的具体要求
 

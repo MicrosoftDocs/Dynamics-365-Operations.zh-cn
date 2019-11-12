@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 79f138ad9aeb203bce19cc93237fca96bffd015f
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: b031fd95d2e7fc8405ad96139779091e00bb4d46
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008212"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551464"
 ---
-# <a name="troubleshoot-integration-with-linkedin"></a>LinkedIn 集成疑难解答
+# <a name="troubleshoot-integration-with-linkedin-and-microsoft-dynamics-365-talent---attract"></a>与 LinkedIn 和 Microsoft Dynamics 365 Talent - Attract 集成疑难解答
 
 [!include [banner](../includes/banner.md)]
 

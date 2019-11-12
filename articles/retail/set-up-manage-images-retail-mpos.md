@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8f4658696a2e6c2959b87aa852c25c108b9ba302
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 1776220766984339c7c289f7b55252fb0c0bb2a8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024836"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570648"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>设置和管理 Retail Modern POS (MPOS) 的图像
 
@@ -83,9 +83,7 @@ Retail Modern POS (MPOS) 中显示的图像必须在外部承载（Retail 之外
     [![“图像”对话框](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
-> 您可以对受支持的所有五个实体使用相同的过程：工作人员、客户、目录、类别和产品。 “目录产品”（在目录级别设置的产品）和“通道目录”（在通道级别设置的产品）使用针对产品实体设置的媒体模板。 对于产品媒体模板，您可以选择每个产品要显示的产品图像数。 您也可以为给定产品设置默认图像。 这样，您可以防止 MPOS 中出现空白图像并帮助控制将哪个图像用作产品物料的默认图像。 在以下示例中，每个产品有五个图像，第一个图像设置为默认图像。 变型产品采用与基础产品相同的方式处理。 图像文件的文件名应基于产品编号。 在生成文件名时，也会跳过一些字符。 因此，最好通过使用**生成适用于 Excel 的图像 URL** 部分来验证文件名称。
->
-> [![“定义媒体模板”对话框](./media/prods.png)](./media/prods.png)
+> 您可以对受支持的所有五个实体使用相同的过程：工作人员、客户、目录、类别和产品。 “目录产品”（在目录级别设置的产品）和“通道目录”（在通道级别设置的产品）使用针对产品实体设置的媒体模板。 对于产品媒体模板，您可以选择每个产品要显示的产品图像数。 您也可以为给定产品设置默认图像。 这样，您可以防止 MPOS 中出现空白图像并帮助控制将哪个图像用作产品物料的默认图像。 在以下示例中，每个产品有五个图像，第一个图像设置为默认图像。 变型产品采用与基础产品相同的方式处理。 图像文件的文件名应基于产品编号。 在生成文件名时，也会跳过一些字符。 因此，最好通过使用**生成适用于 Excel 的图像 URL** 部分来验证文件名称。 请参阅本文后面的[使用“在 Excel 中编辑”覆盖](#overwrite-by-using-edit-in-excel)一节。
 
 ## <a name="synchronization-jobs-to-send-a-media-template-to-the-channel-side"></a>将媒体模板发送到通道侧的同步作业
 
@@ -110,8 +108,6 @@ Retail Modern POS (MPOS) 中显示的图像必须在外部承载（Retail 之外
 
     > [!IMPORTANT]
     > 无论何时更改媒体模板，您都必须单击**生成**才能使用“在 Excel 中编辑”功能。
-
-    [![为 Excel 快速选项卡生成图像 URL](./media/excel1.jpg)](./media/excel1.jpg)
 
     现在您可以看到基于上一次保存的媒体模板生成的图像 URL 的预览。
 

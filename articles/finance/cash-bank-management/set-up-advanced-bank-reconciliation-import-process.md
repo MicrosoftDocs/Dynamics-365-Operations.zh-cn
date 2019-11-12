@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aba85b63abc11c9f32023e8499a02728dfc86bd1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4d9a2f6efad6b8ddf3a445fe7831244e161c35d5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188249"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578187"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>设置高级银行对帐导入流程
 
@@ -36,7 +36,7 @@ ms.locfileid: "2188249"
 ## <a name="set-time-zone-preference"></a>设置时区首选项
 配置银行对帐单导入设置时，务必注意将导入的银行对帐单文件内的日期时间数据的时区。 默认假设所有日期和时间值均为协调世界时 (UTC)，因此导入数据时不应用时区转换。 
 
-提供了一个选项，用于指定导入数据时要使用的时区。 此选项位于每个**源数据格式详细信息**页（**数据管理工作区 > 配置数据源 > 选择数据格式 > 区域设置**快速选项卡）中的**时区首选项**字段内。 您输入的这个时区首选项将应用于所有使用该源数据格式的导入。 可根据从多个时区导入数据的需要创建任意数量的数据源格式。 时区首选项应该是导入文件中的日期和时间数据的本地时区。 时区首选项应该是导入文件中的日期时间数据的本地时区。 
+提供了一个选项，用于指定导入数据时要使用的时区。 此选项位于每个**源数据格式详细信息**页（**数据管理工作区 > 配置数据源 > 选择数据格式 > 区域设置**快速选项卡）中的**时区首选项**字段内。 您输入的这个时区首选项将应用于所有使用该源数据格式的导入。 可根据从多个时区导入数据的需要创建任意数量的数据源格式。  
 
 此时区可能与用户或公司的时区不同，因此请务必分辨清楚日期和时间数据正在使用哪个时区。 建议在设置时区首选项时注意以下事项。 
 

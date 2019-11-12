@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f7af87f359cfe3a606c8be857dd905bfef75e97
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: c42f259a57675c3dbac829d6d671e91982ef9011
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847451"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571683"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>根据维护请求创建工作订单
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 创建了维护请求之后，可将其轻松转化为工作订单。 本主题介绍处理维护请求，同时更新多个维护请求，然后同时为多个维护请求创建一个工作订单的最快方法。 在**有效维护请求**或**我的功能位置维护请求**页，也可以一次处理一个维护请求，并将一个维护请求转化为工作订单。
@@ -53,5 +53,5 @@ ms.locfileid: "1847451"
 
 6. 选择**资产管理** \> **常用** \> **工作订单** \> **所有工作订单**，然后打开新工作订单。
 
-    ![图 1](media/05-manage-maintenance-requests.png)
+    ![打开新工作订单](media/05-manage-maintenance-requests.png)
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f68e11a1cd14bc35282b957a4262cbecdd627b3b
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 151db9ca8a121759e39b690ec296b36a18dc1729
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790470"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571154"
 ---
-# <a name="maintenance-request-states"></a>维护请求状态
+# <a name="maintenance-request-lifecycle-states"></a>维护请求生命周期状态
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 维护请求生命周期状态定义请求可以经历的阶段。 示例包括**已创建**、**活动**和**已结束**。 将维护请求转化为工作订单时，硬件维护请求生命周期状态更新为**已结束**或**已关闭**，以指示维护请求不再处于活动状态。 在**所有维护请求**列表页上，可以查看所有维护请求，不受其生命周期状态影响。
@@ -51,7 +51,7 @@ ms.locfileid: "1790470"
 
 下图显示**维护请求生命周期状态**页的示例。
 
-![图 1](media/02-setup-for-requests.png)
+![维护请求生命周期状态页面](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > 维护请求生命周期状态、生命周期状态组和类型与工作订单生命周期状态、生命周期状态组和类型关联，并按照相同方法使用。 
@@ -80,4 +80,4 @@ ms.locfileid: "1790470"
 
 下图显示**维护请求生命周期模型**页的示例。
 
-![图 2](media/06-setup-for-requests.png)
+![维护请求生命周期模型页面](media/06-setup-for-requests.png)

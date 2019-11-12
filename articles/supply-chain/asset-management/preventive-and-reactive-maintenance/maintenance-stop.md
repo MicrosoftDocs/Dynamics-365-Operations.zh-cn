@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c035f54e833b9bc25b4502901cf307213789b439
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 4a7c57452b2f639b1f1b76bc79959c620c58ace1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922175"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571292"
 ---
 # <a name="maintenance-downtime"></a>维护停机时间
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 维护停机时间用于获取在特定期间对特定资产执行维护作业所需产能的概览。 例如，可为生产地点 02 的生产大厅 29-A 中的产品线 10 创建维护停机时间登记。 维护停机时间登记有开始时间和结束时间，用于指示与维护停止有关的资产不可用于生产。
 

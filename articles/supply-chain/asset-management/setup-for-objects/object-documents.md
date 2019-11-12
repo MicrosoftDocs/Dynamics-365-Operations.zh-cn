@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5b791fd3e060c4f4ecdb1ca599a6041d421db74
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 5b830d835d99122a8c0572481f4c229c37d97d0c
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024515"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653243"
 ---
 # <a name="asset-documents"></a>资产文档
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 本主题介绍资产管理中的资产文档。
 
-在资产管理中，可设置文档，以便将其与作业类型、资产制造商、资产类型或资产之类自动关联。 此功能在发布了更新后的文档版本时非常有用。 在此情况下，只需将更新后的文档放到您的 Finance and Operations 文档所用标准位置，然后将该文档附加到您已创建的资产文档记录。 然后可以从**所有资产**、**有效资产**、**我的有效资产**、**所有工作订单**和**有效工作订单作业**菜单项访问更新后的文档。 将文档附加到资产文档记录的过程使用标准文档处理系统。
+在资产管理中，可设置文档，以便将其与作业类型、资产制造商、资产类型或资产之类自动关联。 此功能在发布了更新后的文档版本时非常有用。 在此情况下，只需将更新后的文档放到您的 Supply Chain Management 文档所用标准位置，然后将该文档附加到您已创建的资产文档记录。 然后可以从**所有资产**、**有效资产**、**我的有效资产**、**所有工作订单**和**有效工作订单作业**菜单项访问更新后的文档。 将文档附加到资产文档记录的过程使用标准文档处理系统。
 
 **示例 1：** 与作业类型关联的文档可能介绍该作业类型的过程。
 

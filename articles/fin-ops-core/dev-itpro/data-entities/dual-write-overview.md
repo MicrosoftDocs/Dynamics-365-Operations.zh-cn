@@ -1,5 +1,5 @@
 ---
-title: Finance and Operations 与 Common Data Service 之间的近实时数据集成
+title: 与 Common Data Service 的近实时数据集成
 description: 本主题提供 Finance and Operations 与 Common Data Service 之间的集成概述。
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: b7d9e6be6fb2fef85bcf1182f89b8e370abea3d6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d70bce4e47c05a7974c1b974fdca17682e5370aa
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184477"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550849"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>与 Common Data Service 的近实时数据集成
 

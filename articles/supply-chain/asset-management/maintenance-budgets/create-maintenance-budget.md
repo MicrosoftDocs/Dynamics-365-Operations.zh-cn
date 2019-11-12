@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2c748fd230796643f1ed6279743da532e7cb320
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 99f76c684150f154404cbb241daacb7a8d05f7f9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874800"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571752"
 ---
 # <a name="create-maintenance-budgets"></a>创建维护预算
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "1874800"
     > [!NOTE]
     > 您审核维护预算之后，除非先删除审核，否则不能在**维护预算行**页中重新计算或调整关联的行。 若要删除维护预算的审核，请在**维护预算**页选择预算，然后选择**审核**。 然后在**审核预算**对话框中选择**确定**。
 
-![图 1](media/01-maintenance-budgets.png)
+![维护预算](media/01-maintenance-budgets.png)
 
 还可以通过复制现有预算来创建新的维护预算。 在**维护预算**页选择要复制的预算，然后选择**复制**。 这种方法在如下情况下非常有用：已经为一个月创建了预算，希望将其复制到其他月份。
 

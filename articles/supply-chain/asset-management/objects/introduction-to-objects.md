@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84609106fc3daafbbfed6f947df4524160bd7450
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: cf23d4b01729e6c1ece633b009f033b9d74bc7fe
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783096"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571545"
 ---
 # <a name="introduction-to-assets"></a>资产简介
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 本主题概述资产管理中的资产。 *资产*是需要维护，服务或维修的任何类型的设备，如机器或机器部件。
 

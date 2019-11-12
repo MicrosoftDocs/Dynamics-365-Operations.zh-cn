@@ -19,15 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2019-09-06
 ms.dyn365.ops.version: AX 10.0.6
-ms.openlocfilehash: 35ad27a6b8a52bfd086fbe4fc57b1681ff88fd5b
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: cb809e596fd6bf3030bcee460838798435512b95
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1995134"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2572121"
 ---
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 # <a name="report-as-finished-to-a-license-plate-controlled-location-from-the-job-card-device"></a>从作业卡设备进行完工入库到牌照控制的库位 
 

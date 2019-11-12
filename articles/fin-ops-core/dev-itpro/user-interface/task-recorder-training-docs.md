@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbc8e4b942c3c5307d90bfd08a33a8b27c4352d2
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249719"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658802"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>通过任务录制创建文档或培训
 
@@ -68,21 +68,21 @@ ms.locfileid: "2249719"
 
 这是您在创建录制的同时添加批注时显示的编辑窗格。 在**标题**框中输入标题注释。 
 
-[![屏幕 1](./media/screen1.png)](./media/screen1.png) 
+[![具有标题注释的编辑窗格](./media/screen1.png)](./media/screen1.png) 
 
 这是标题注释在任务指南中的“气泡”中的样子。 
 
-[![屏幕 2](./media/screen2.png)](./media/screen2.png)
+[![任务指南中的标题注释外观](./media/screen2.png)](./media/screen2.png)
 
 -   **注意：** 注释批注将显示在任务录制器自动生成的步骤文本的后面。 在任务指南中，批注仅在用户单击任务指南气泡中的**显示更多**链接时可见。 使用此类批注可描述用户完成步骤所需了解的所有内容。
 
 这是您在创建录制的同时添加批注时显示的编辑窗格。 在**附注**框中输入标题注释。 
 
-[![屏幕 3](./media/screen3.png)](./media/screen3.png) 
+[![“附注”框中有注释的编辑窗格](./media/screen3.png)](./media/screen3.png) 
 
 这是附注注释在任务指南中的“气泡”中的样子。
 
-[![屏幕 4](./media/screen4.png)](./media/screen4.png)
+[![任务指南中的附注注释外观](./media/screen4.png)](./media/screen4.png)
 
 -   **信息步骤**：通过右键单击窗体上的控件或任何位置 &lt; **任务录制器** &lt; **添加信息步骤**来创建这些批注。信息步骤在您插入它的任何位置处显示为带编号的步骤，即使未在 UI 中录制任何操作。 您可以添加窗体级别信息步骤或与控件关联的信息步骤。 当信息步骤与窗体关联时，任务指南“气泡”将在播放任务指南时显示在窗体的某个位置（无指针）。 当信息步骤与控件关联时，任务指南“气泡”将在播放任务指南时指向控件。在“帮助”窗格中，信息步骤批注将显示为带有编号的步骤，其中包含有您输入的任何文本。 使用信息步骤可准备用户以执行后续步骤、描述需在应用程序外部完成的步骤或引用其他录制（尽管您无法在批注中创建超链接）。
 

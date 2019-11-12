@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 29f9975d8270b3f79d0aac0c62609b4a9c71ae89
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 322e3ac6f7c37fffdd4d59ed86bccec10559f4b9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874616"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569769"
 ---
 # <a name="work-order-project-setup"></a>工作订单项目设置
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 在**资产管理**模块中，每个工作订单作业都需要项目关联。 与工作订单作业关联的项目让您可以跟踪与资产管理关联的各项目（如内部维护项目、服务管理项目和投资项目）的成本。 
 
@@ -72,7 +72,7 @@ ms.locfileid: "1874616"
 
     默认情况下，开始日期是向页面添加工作订单项目时的日期。 其受**生效日期**字段（默认隐藏）控制。 若要显示**生效日期**字段，请选择**视图** \> **所有**。 然后可共同使用**生效日期**字段和**结束日期**字段来为工作订单项目设置有限有效期。
 
-    ![图 1](media/17-setup-for-work-orders.png)
+    ![工作订单项目设置页面](media/17-setup-for-work-orders.png)
 
 6. 在**项目组**选项卡上，选择**添加**。
 7. 在**工作订单类型**字段中，选择一个工作订单类型。
@@ -80,7 +80,7 @@ ms.locfileid: "1874616"
 9. 在**项目组**字段中，选择应与工作订单类型关联的项目组。 例如，可以将名称为**预防性维护**的工作订单类型与名称为**预防性维护**或**内部**的项目组关联。 或者，也可以将用于与投资和固定资产关联的工作订单的**投资**工作订单类型与名称为**投资**或**投入**的项目组关联。
 10. 选择**保存**。
 
-![图 2](media/18-setup-for-work-orders.png)
+![工作订单项目设置页面, 添加工作订单](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > 只要创建工作订单行，资产管理都会搜索应该与工作订单作业项目关联的项目组。 此项搜索基于本主题中介绍的设置。 每个项目组都有一个关联的项目类型。 项目类型为**时间和材料**或**固定价格**的项目组仅对与客户帐户关联的资产有效。

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b2f53a4a64b06efc9269c607bfe1fc3a41c90cdd
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: b30fa3c142057b43202a8f5a323c0b425865e971
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922060"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571315"
 ---
 # <a name="maintenance-schedule-cost"></a>维护安排成本
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 在资产管理中，可计算维护安排行的预算成本。 如果要获取预计成本（如与为下一年计划的预防性维护作业有关的成本）的概览，这非常有用。 此类计算基于类型为“维护计划”和“维护阶段”与“维护请求”的现有维护安排行。
 

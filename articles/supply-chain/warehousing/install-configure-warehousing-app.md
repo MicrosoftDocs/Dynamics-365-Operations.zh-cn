@@ -1,6 +1,6 @@
 ---
 title: 安装和配置仓库应用概览
-description: 此主题描述如何安装和配置 Dynamics 365 Supply Chain Management - 仓库应用程序。
+description: 此主题介绍如何安装和配置 Dynamics 365 for Finance and Operations – 仓库应用。
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b8eb8dee88d8664391d2dcf485dff9dee4722cac
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
+ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251492"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2548960"
 ---
 # <a name="install-and-configure-the-warehousing-app-overview"></a>安装和配置仓库应用概览
 
@@ -35,7 +35,7 @@ ms.locfileid: "2251492"
 > 此主题介绍如何为云部署配置仓库。 如果您需要了解如何为本地部署配置仓库，请参阅[用于本地部署的仓库](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)。
 
 
-此主题描述如何安装和配置 Dynamics 365 Supply Chain Management - 仓库应用程序。
+此主题介绍如何安装和配置 Dynamics 365 for Finance and Operations – 仓库应用。
 
 可从 Google Play Store 和 Windows Store 下载仓库应用程序。 对于当前版本的 Dynamics 365 Supply Chain Management，此应用程序以独立组件的形式提供，也就是说，自行部署在用于仓库任务的设备上。 若要使用此应用程序，必须将其下载到每台设备上并配置，以便连接到您的 Supply Chain Management 环境。 此主题介绍如何在您的设备上安装此应用程序。 它还介绍如何配置此应用程序，以便连接到您的 Supply Chain Management 环境。
 

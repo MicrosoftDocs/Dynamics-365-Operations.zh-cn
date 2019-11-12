@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45796049cddef137eb2ca1e4331197e4b4a65071
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 34a1a2cec9f86932fe2de9f3886059621903b262
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546286"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578164"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>站点和仓库覆盖范围主计划，仓库不是必需的
 
@@ -45,9 +45,6 @@ ms.locfileid: "1546286"
 -   默认订单类型设置为“生产”、“采购订单”或“看板”。 单击**产品信息管理 &gt; 产品 &gt; 已发布产品**。 选择该物料，然后在“操作窗格”上，在**计划**选项卡上单击**默认订单设置**。 在**默认订单设置**窗体中，查看**默认订单类型**。
 
 ![站点和仓库需求（仓库非必需）](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousenotmandatory.jpg)
-
-
--
 
 
 

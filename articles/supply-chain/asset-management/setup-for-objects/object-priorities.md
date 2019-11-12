@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f079e6899a2e3949eff5945f867472c801d9e95c
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: d1e2f8d2ac0c48d4f92b15ec345ffa650b71df0b
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783104"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571016"
 ---
 # <a name="asset-service-levels"></a>资产服务级别
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 本主题介绍资产管理中的资产服务级别。 资产服务级别与资产关联，并转化为维护请求和工作订单。 用于在工作订单排产期间计算工作订单的优先级。 如果需要更改资产服务级别，则可更改。
 

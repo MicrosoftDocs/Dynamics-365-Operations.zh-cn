@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 536795ac8ac164a6cc16e9ba22b0aa7bf30ddfd8
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 6eba14e285f23338cad0243fca567b30c6d4d3f2
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783111"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571568"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>基于采购订单创建资产
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 本主题说明如何在资产管理中创建资产物料的列表，这些资产物料可充当为维护作业创建资产的基础。 可根据资产物料查看已经为这些物料创建的采购订单行的列表。 此功能的作用是在资产管理中基于采购订单轻松创建资产。
 

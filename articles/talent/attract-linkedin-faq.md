@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d66ebc01597f8038a38b46a9f1b70feaa5dc505e
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: b77ad598ba209dbbd73765c49947e84a3995153d
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008631"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550359"
 ---
-# <a name="linkedin-integration-faq"></a>LinkedIn 集成常见问题
+# <a name="attract-integration-with-linkedin-faq"></a>Attract 与 LinkedIn 集成的常见问题
 
 [!include [banner](includes/banner.md)]
 

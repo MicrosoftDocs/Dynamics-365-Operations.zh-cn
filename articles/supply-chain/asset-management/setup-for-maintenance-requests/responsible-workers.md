@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 432a235668bbd969f497003a98b7f66390e5308f
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 63f436ffd01ac56bb4bc0021e226dad46d7c3377
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790468"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569907"
 ---
 # <a name="responsible-maintenance-workers"></a>负责的维护工人
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 可以将负责的维护工人与资产类型、资产、功能位置、维护作业类型类别、维护作业类型、维护作业类型变体和贸易关联。 可以在工作订单和维护请求中使用，以指示与应负责工作订单的维护工人有关的偏好。 （但是，这些维护工人不必是安排来履行工作订单的同一位工人。）此功能为可选功能。 例如，可用于为特定工作类型或工作领域选择负责的工人或工人组。
 
@@ -53,4 +53,4 @@ ms.locfileid: "1790468"
 
 下图显示**负责的维护工人**页的示例。
 
-![图 1](media/08-setup-for-requests.png)
+![负责维护工人页面](media/08-setup-for-requests.png)

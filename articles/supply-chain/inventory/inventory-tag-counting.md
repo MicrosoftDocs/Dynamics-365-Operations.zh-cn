@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 704330d136afee08fcee36db19acf72297fddac8
-ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
+ms.openlocfilehash: dd10c24045fae5db00e88f3b84d4dea7b2c82c37
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624853"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571085"
 ---
 # <a name="inventory-tag-counting"></a>库存标签盘点
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 此主题提供有关您用于将仓库的实际内容与现有库存量进行比较的标签盘点的信息。
 

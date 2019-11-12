@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb758f9ef205c06cbb9d18b498a5cd7c36012714
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 74ccda77a97d1e104940bb10a605d3ebbf45af75
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783106"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571246"
 ---
 # <a name="functional-location-types"></a>功能位置类型
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 本主题介绍如何在资产管理中创建功能位置类型。 功能位置类型用于管理功能位置的要求，包括在功能位置如何安装资产。 可设置要对使用特定功能位置类型的功能位置使用的资产类型、维护计划、功能位置属性和资产属性要求。 创建功能位置时，必须使用功能位置类型。
 

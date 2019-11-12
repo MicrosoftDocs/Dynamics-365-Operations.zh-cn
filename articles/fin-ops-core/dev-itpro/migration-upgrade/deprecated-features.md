@@ -3,7 +3,7 @@ title: Finance and Operations 的移除或弃用功能
 description: 本主题介绍已经删除或计划删除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70bb8404c5b0e2422948d0b89311c384e3686710
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181074"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658682"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Finance and Operations 的移除或弃用功能
 
@@ -38,13 +38,42 @@ ms.locfileid: "2181074"
 > [!NOTE]
 > 从具有平台更新 8 的 Finance and Operations 2017 年 7 月版开始，每一个已移除或弃用的功能均备注了部署类型。 本主题中提及的所有之前的版本仅支持云部署。
 
-> [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations 中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 各版本中已更改或已删除的对象。
+[技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations 中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 各版本中已更改或已删除的对象。
 
+## <a name="finance-1007-with-platform-update-31"></a>带平台更新 31 的 Finance 10.0.7
+
+### <a name="chinese-voucher-types-without-account-groups-selection"></a>不带帐户组选择的中国凭证类型
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 更改为带帐户组选择的功能。 |
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域**         | 申请 |
+| **部署选项**              | 所有 |
+| **状态**                         | 弃用：到 2020 年 12 月 1 日，我们计划不再支持不带帐户组选择的中国凭证类型设置。 在“10.0.7 的新增功能”中查找有关新功能设计的更多详细信息 |
 
 ## <a name="finance-and-operations-1006-with-platform-update-30"></a>具有平台更新 30 的 Finance and Operations 10.0.6
 
-> [!IMPORTANT]
-> 带平台更新 30 的 Dynamics 365 for Finance and Operations 10.0.6 已作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅[服务更新可用性](../../fin-and-ops/get-started/public-preview-releases.md)。
+
+### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | Windows 即将弃用 SHA1，如 [SHA1 证书的 Windows 执行](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx)中所述。  |
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域**         | 申请 |
+| **部署选项**              | 所有 |
+| **状态**                         | 弃用：到 2020 年 4 月 1 日，开发人员必须使用新 API。 |
+
+### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(string message)
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | Windows 即将弃用 SHA1，如 [SHA1 证书的 Windows 执行](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx)中所述。  |
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域**         | 平台 |
+| **部署选项**              | 所有 |
+| **状态**                         | 弃用：到 2020 年 4 月 1 日，开发人员必须使用新 API。 |
+
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()
 
@@ -308,7 +337,7 @@ ms.locfileid: "2181074"
 ## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>具有平台更新 12 的 Finance and Operations Enterprise edition 7.3
 
 ### <a name="personalized-product-recommendations"></a>个性化产品建议 
-从 2018 年 2 月 15 日开始，零售商再也不能显示有关销售点 (POS) 设备的个性化产品建议。 有关详细信息，请参见[个性化产品建议](../../retail/personalized-product-recommendations.md)。  
+从 2018 年 2 月 15 日开始，零售商再也不能显示有关销售点 (POS) 设备的个性化产品建议。 有关详细信息，请参阅[产品建议概览](../../../commerce/product-recommendations.md)。  
 
 |   |  |
 |------------|--------------------|
@@ -413,7 +442,7 @@ ms.locfileid: "2181074"
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
 ### <a name="personalized-product-recommendations"></a>个性化产品建议 
-从 2018 年 2 月 15 日开始，零售商再也不能显示有关销售点 (POS) 设备的个性化产品建议。 有关详细信息，请参见[个性化产品建议](../../retail/personalized-product-recommendations.md)。  
+从 2018 年 2 月 15 日开始，零售商再也不能显示有关销售点 (POS) 设备的个性化产品建议。 有关详细信息，请参阅[产品建议概览](../../../commerce/product-recommendations.md)。  
 
 |   |  |
 |------------|--------------------|
@@ -445,7 +474,7 @@ ms.locfileid: "2181074"
 |   |  |
 |------------|--------------------|
 | **弃用/移除的原因** | 重复的功能。       |
-| **被另一个功能取代？**   | 是。 此功能已经由 Finance and Operations - Warehousing 取代。 有关设置和先决条件的详细信息，请参阅[安装和配置 Microsoft Dynamics 365 for Finance and Operations - 仓库](../../supply-chain/warehousing/install-configure-warehousing-app.md)。 |
+| **被另一个功能取代？**   | 是。 此功能已经由 Finance and Operations - Warehousing 取代。 有关设置和先决条件的详细信息，请参阅[安装和配置 Microsoft Dynamics 365 for Finance and Operations - 仓库](../../../supply-chain/warehousing/install-configure-warehousing-app.md)。 |
 | **影响的产品区域**         | 仓库管理，运输管理     |
 | **部署选项**              | 仓库移动设备门户 (WMDP) 是用于本地自行部署的单独组件。               |
 | **状态**                         | 已弃用：移除功能的目标时间范围为 2019 年第四季度。   |
@@ -1215,7 +1244,7 @@ Dynamics AX 2012 通过使用“未实现的增值税”的墨西哥特定功能
 |   |  |
 |------------|--------------------|
 | **弃用/移除的原因** | 产品生成器向最终用户显示了 X++ 代码，在 Dynamics AX 的当前版本中不受支持。 它已被删除，从而避免在重叠的、庞大的代码库中进行重复的维护工作。  |
-| **被另一个功能取代？**   | 是。 已经公布在将来的版本中弃用产品生成器的 Dynamics AX 2012 中引入了基于约束的配置。 在基础产品上选择基于约束的配置技术，以启用配置。 若要了解更多信息，请参阅[生成产品配置模型](../../supply-chain/pim/build-product-configuration-model.md)。 |
+| **被另一个功能取代？**   | 是。 已经公布在将来的版本中弃用产品生成器的 Dynamics AX 2012 中引入了基于约束的配置。 在基础产品上选择基于约束的配置技术，以启用配置。 若要了解更多信息，请参阅[生成产品配置模型](../../../supply-chain/pim/build-product-configuration-model.md)。 |
 | **影响的产品区域**         | 产品信息管理、销售和市场营销  |
 | **状态**                         | 从 Dynamics AX 7.0 开始移除。      |
 

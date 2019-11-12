@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: c989e6efff88768f0b370fc81eea971c5c11bcef
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d76adf10b9df48f5a7a5196e0469bb7cb1dbb34f
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251607"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552225"
 ---
-# <a name="synchronize-inventory-adjustments-from-field-service-to-supply-chain-management"></a>将库存调整从 Field Service 同步到 Supply Chain Management
+# <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>将库存转移和调整从 Field Service 同步到 Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 

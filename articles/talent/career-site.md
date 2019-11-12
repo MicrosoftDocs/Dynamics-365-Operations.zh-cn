@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: ec5fe31c6547b008b29e656729c35863d90bffc1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 256ef1b335ddf0c908704b14eca0883ee98d2038
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026271"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551087"
 ---
-# <a name="set-up-your-career-site"></a>设置您的求职站点
+# <a name="set-up-your-career-site-in-microsoft-dynamics-365-talent---attract"></a>在 Microsoft Dynamics 365 Talent - Attract 中设置求职站点
 
 [!include[banner](../includes/banner.md)]
 

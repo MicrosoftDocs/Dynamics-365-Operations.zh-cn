@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660038060826ade9301e50143e49b53ba3fcd3ab
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: f96fcc7ebb8928c6d6b17b30465ad1625d9b5be4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783101"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571062"
 ---
-# <a name="asset-criticalities"></a>资产关键性
+# <a name="asset-criticality-types"></a>资产关键性类型
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 本主题介绍资产管理中的资产关键性类型。 资产关键性与资产关联，并转移到工作订单。 不能在工作订单中更改。 资产关键性用于在计划工作订单时计算工作订单关键性。 换句话说，用于计算资产的维护作业对公司中的生产计划和生产效率的影响程度。 有关与计算工作订单排产的等级评分关联的设置的详细信息，请参阅[资产管理参数](../setup-for-objects/enterprise-asset-management-parameters.md)。
 
@@ -43,7 +43,7 @@ ms.locfileid: "1783101"
 4. 在**名称**字段中，输入关键性类型的名称。
 5. 在**系数**字段中，输入一个系数。 此系数在计算工作订单排产时用于确定应使用的关键性记录。 （始终使用系数最大的记录。）如果创建的关键性行具有相同的关键性值（如下图所示），则此设置相关。
 
-    ![图 1](media/23-setup-for-objects.png)
+    ![关键性类型页面](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>设置资产关键性
 

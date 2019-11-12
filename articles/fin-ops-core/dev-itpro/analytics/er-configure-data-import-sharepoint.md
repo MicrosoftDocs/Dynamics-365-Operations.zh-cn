@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 143cd51a3ea34a6b05da049d87819b3dfee95725
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
+ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181511"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564929"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>配置从 SharePoint 的数据导入
 
@@ -62,9 +62,9 @@ ms.locfileid: "2181511"
 > 将选择用于导入供应商交易记录的格式作为默认模型映射。 因此，如果运行 **1099 付款模型**的模型映射，并且该模型映射类型为**截止目标**，则该模型映射运行此格式以从外部文件导入数据。 然后使用这些数据更新申请表。
 
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>配置对用于文件存储的 SharePoint 的访问
-要在 SharePoint 位置存储电子报表文件，您必须配置对当前公司将使用的 SharePoint Server 实例的访问。 在此示例中，该公司为 USMF。 有关说明，请参阅[配置 SharePoint 存储](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage)。
+要在 SharePoint 位置存储电子报表文件，您必须配置对当前公司将使用的 SharePoint Server 实例的访问。 在此示例中，该公司为 USMF。 有关说明，请参阅[配置 SharePoint 存储](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage)。
 
-1. 完成[配置 SharePoint 存储中的步骤](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage)。
+1. 完成[配置 SharePoint 存储中的步骤](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage)。
 2. 打开配置的 SharePoint 站点。
 3. 创建以下可以存储传入的电子报告文件的文件夹：
 
@@ -80,7 +80,7 @@ ms.locfileid: "2181511"
     - 文件错误文件夹 - 此文件夹将是导入失败的文件。
 
 4. 转至**组织管理 > 单据管理 > 单据类型**。
-5. 创建将用于访问您刚才创建的 SharePoint 文件夹的以下文档类型。 有关说明，请参阅[配置文档类型](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types)。
+5. 创建将用于访问您刚才创建的 SharePoint 文件夹的以下文档类型。 有关说明，请参阅[配置文档类型](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types)。
 
 |单据类型       | 组合              | 库位      | SharePoint 文件夹      |
 |--------------------|--------------------|---------------|------------------------|

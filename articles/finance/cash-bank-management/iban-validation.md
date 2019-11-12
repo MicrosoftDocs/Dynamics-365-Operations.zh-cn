@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: a4f9bc2a22aabc7b83eb15665f37849d505e1b6b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2aaccd7c09d6daf8a237a433cc22ac1bfc3c1541
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176628"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551239"
 ---
-# <a name="manage-international-bank-account-number-iban-validation"></a>管理国际银行帐号 (IBAN) 验证
+# <a name="manage-international-bank-account-number-iban-account-validation"></a>管理国际银行帐号 (IBAN) 帐户验证
 
 [!include [banner](../includes/banner.md)]
 

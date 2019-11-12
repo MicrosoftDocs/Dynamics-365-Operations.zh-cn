@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 82f65293679591f278e0e3b79c112ba36debc3bb
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: da737cedfcd678a835e85a2b82a05394d771f8cc
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2277935"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652256"
 ---
 # <a name="calculate-capacity-load"></a>计算产能负荷
 
@@ -46,15 +46,17 @@ ms.locfileid: "2277935"
 
 4. 如果要在计算中包括工作订单作业，请在**包括工作订单**切换按钮上选择“是”。
 
-5. 可使用**级别**字段指示要与功能位置有关的产能负荷行的详细程度。 例如，如果在字段中插入数字“1”，并且采用了多级别功能位置结构，则将在最上级别显示某个功能位置的所有维护安排行和工作订单，因此，可以从较低级别的功能位置叠加行中的工时。 如果在**级别**字段中插入数字“0”，将看到详细结果，其中显示其关联的所有功能位置级别的所有维护安排行和所有工作订单行。
+5. 可使用**级别**字段指示要与功能位置有关的产能负荷行的详细程度。 
+
+    例如，如果在字段中插入数字“1”，并且采用了多级别功能位置结构，则将在最上级别显示某个功能位置的所有维护安排行和工作订单，因此，可以从较低级别的功能位置叠加行中的工时。 
+    
+    如果在**级别**字段中插入数字“0”，将看到详细结果，其中显示其关联的所有功能位置级别的所有维护安排行和所有工作订单行。
 
 6. 单击**确定**开始计算。
 
-7. 在**分组依据**操作窗格组中，单击相关按钮显示所需成本计算详细程度。 将以蓝色突出显示所选操作窗格组按钮。 单击按钮将其激活或停用。
+7. 在**分组依据...** 组中，单击相关按钮显示所需成本计算详细程度。 在下面的屏幕截图中，选中的**分组依据**按钮以蓝色突出显示。 单击按钮将其激活或停用。
 
-下图显示界面的示例。
-
-![图 1](media/01-capacity-planning.png)
+    ![图 1](media/01-capacity-planning.png)
 
 >[!NOTE]
 >如果要仅侧重有关计划的工作订单的产能计划，请参阅[对计划的工作订单计算产能负荷](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md)。

@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6c8c94eb8ff04d489eb24b7e0f4642aef20a3b18
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a66beb6338ea593247c79a11feb7f301d56f32a9
+ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182040"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2572510"
 ---
-## <a name="integrated-customer-master"></a>集成客户主控
+# <a name="integrated-customer-master"></a>集成客户主控
 
 [!include [banner](../includes/banner.md)]
 

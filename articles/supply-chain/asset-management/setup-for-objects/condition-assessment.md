@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5294325f67f0484b39194b5bd9784a2e612001a4
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 05d1a38ab8de406a1615c474ffe39d231335fb67
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783088"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570045"
 ---
 # <a name="condition-assessment"></a>条件评估
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 本主题介绍如何在资产管理中为资产创建条件评估模板和登记。 条件评估定期执行，主要目的是为资产创建和维护条件数据。 从预防性维护角度来看，监视当前条件和剩余寿命之类关键信息至关重要。 此外，如果定期执行评估，就可以监控和比较工厂内的机器条件。
 

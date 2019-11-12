@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05f8a71dde998abccc75bc962636f9eb04d7e8c2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026708"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653410"
 ---
 # <a name="warehouse-configuration-overview"></a>仓库配置概览
 
@@ -34,7 +34,7 @@ ms.locfileid: "2026708"
 **注释：** 本文适用于**仓库管理** 模块（高级仓库）中的功能。 它不适用于**库存管理**模块中的仓库功能。
 
 ## <a name="warehouse-layout"></a>仓库布局
-Finance and Operations 中的仓库管理系统允许您以灵活方式定义您的仓库布局以适应不断变化的需要，因此，您可以实现最佳仓库效率。
+Supply Chain Management 中的仓库管理系统允许您以灵活方式定义您的仓库布局以适应不断变化的需要，因此，您可以实现最佳仓库效率。
 
 -   您可以为货物的最佳位置建立高优先级和低优先级存储区域。
 -   您可以将您的仓库划分为区域以满足各种存储需要，例如温度要求或物料各种周转比率。
@@ -42,7 +42,7 @@ Finance and Operations 中的仓库管理系统允许您以灵活方式定义您
 -   您可以通过使用实际容量约束设置来对位置进行分组。
 -   您可以基于查询定义的规则来控制物料如何存储和领取。
 
-若要使用 Finance and Operations 中的仓库管理，您必须创建仓库并为更多高级或专业的仓库管理活动启用它。 在**仓库**页上，选择**使用仓库管理流程**选项。
+若要使用 Supply Chain Management 中的仓库管理，您必须创建仓库并为更多高级或专业的仓库管理活动启用它。 在**仓库**页上，选择**使用仓库管理流程**选项。
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>区域组、区域、位置类型和位置
 
@@ -54,7 +54,7 @@ Finance and Operations 中的仓库管理系统允许您以灵活方式定义您
 -   **区域类型** – 一个逻辑或实际仓库内位置分组。 例如，您可以创建所有暂存库位的库位类型。 **仓库管理参数**页上的必需设置驱动定义暂存位置类型和最终交货位置类型的流程。
 -   **位置** – 最低级别的位置信息。 位置用于跟踪在仓库中的哪里存储和领取现有库存。
 
-您创建用来定义仓库布局的实体在您在工作模板使用设置用于驱动仓库中的工作订单的查询中使用。 因此，当您定义区域、位置类型等，请考虑仓库中的不同区域如何用于不同流程。 此外，请考虑因素，例如一个特定区域的物理特征。 例如，可能您在某些区域只能使用某一类型的铲车。 或者，如果您的公司在同一设施内有生产和成品，您可能希望在 Finance and Operations 中创建单个仓库，但通过创建两个区域组将两个操作分开。 为您的实体提供描述性名称，这样，当您在模板中查询时使用它们时容易识别它们。
+您创建用来定义仓库布局的实体在您在工作模板使用设置用于驱动仓库中的工作订单的查询中使用。 因此，当您定义区域、位置类型等，请考虑仓库中的不同区域如何用于不同流程。 此外，请考虑因素，例如一个特定区域的物理特征。 例如，可能您在某些区域只能使用某一类型的铲车。 或者，如果您的公司在同一设施内有生产和成品，您可能希望在 Supply Chain Management 中创建单个仓库，但通过创建两个区域组将两个操作分开。 为您的实体提供描述性名称，这样，当您在模板中查询时使用它们时容易识别它们。
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>位置储存限制、位置配置文件和固定领料位置
 

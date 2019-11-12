@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b236013d19967295514bfc0ce3e94eb6765d620a
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: c585bce468f87a32204893ea20ce6954e92b0e38
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783112"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571798"
 ---
 # <a name="install-assets-on-functional-locations"></a>在功能位置安装资产
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 创建功能位置结构之后，下一步是在相关功能位置安装资产。 本主题介绍如何在资产管理中在这些功能位置安装资产。 有关如何创建资产的详细信息，请参阅[资产](../objects/introduction-to-objects.md)。
 

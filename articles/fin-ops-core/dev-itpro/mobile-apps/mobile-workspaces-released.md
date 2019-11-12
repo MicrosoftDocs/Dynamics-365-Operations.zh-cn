@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d3a2de4aa1a49eaef43fca385033dd2bab4c9849
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 9af92ea64b98581b02c2ed1797332281dccc74b3
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2277958"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553013"
 ---
 # <a name="available-mobile-workspaces"></a>可用移动工作区
 
@@ -34,11 +34,11 @@ ms.locfileid: "2277958"
 |[公司目录](company-directory-mobile-workspace.md)| 让您能够查看和联系组织中的其他员工。| 2017 年 6 月 |    
 |[我的团队](manager-self-service-mobile-workspace.md)| 您可以查看直接下属和扩展员工，以及向报告链中的人员发送表扬。|2017 年 6 月 |     
 |[发票审核](invoice-approval-mobile-workspace.md)| 提供通过供应商发票抬头工作流程分配给您的发票的列表。| 2017 年 6 月   |
-| [费用报销管理](../../financials/expense-management/expense-management-mobile-workspace.md) | 您可以捕获和上载收据，以便以后可以将其附加到支出报表。 移动工作区还允许您使用附加的收据快速创建支出行。 | 2017 年 4 月 |
-| [采购订单审核](../../supply-chain/procurement/purchase-order-mobile-workspace.md) | 查看和使用审核或拒绝等操作响应采购订单。 | 2017 年 4 月 |
-| [项目时间条目](../../financials/project-management/project-time-entry-mobile-workspace.md) | 您可以使用移动设备根据项目输入和保存时间。 | 2017 年 3 月 |
-| [成本控制](../../financials/cost-accounting/cost-controlling-mobile-workspace.md)     | 成本中心管理人可以查看成本中心的性能。                                                                                               |  2017 年 1 月        |
-| [现有库存量](../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | 洞察预留库存和可用库存。                                                                                                    |   2017 年 1 月       |
-| [销售订单](../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | 掌握销售订单的最新情况。                                                                                                                          |  2017 年 1 月                  |
-| [供应商协作](../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | 供应商能够实时了解已经发送给他们进行审核的采购订单的最新信息。 它们还可以查看有关新的和更新的采购订单和联系人的信息。 |2017 年 1 月    |
-| [资产管理](../../supply-chain/procurement/asset-management-mobile-workspace.md) | 用户可使用此工作区查看和创建维护请求和工作订单。 用户也可以使用日历视图或列表视图查看分配的工作订单作业。 还可以查看和搜索资产和功能位置。 |2019 年 10 月    |
+| [费用报销管理](../../../finance/expense-management/expense-management-mobile-workspace.md) | 您可以捕获和上载收据，以便以后可以将其附加到支出报表。 移动工作区还允许您使用附加的收据快速创建支出行。 | 2017 年 4 月 |
+| [采购订单审核](../../../supply-chain/procurement/purchase-order-mobile-workspace.md) | 查看和使用审核或拒绝等操作响应采购订单。 | 2017 年 4 月 |
+| [项目时间条目](../../../finance/project-management/project-time-entry-mobile-workspace.md) | 您可以使用移动设备根据项目输入和保存时间。 | 2017 年 3 月 |
+| [成本控制](../../../finance/cost-accounting/cost-controlling-mobile-workspace.md)     | 成本中心管理人可以查看成本中心的性能。                                                                                               |  2017 年 1 月        |
+| [现有库存量](../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | 洞察预留库存和可用库存。                                                                                                    |   2017 年 1 月       |
+| [销售订单](../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | 掌握销售订单的最新情况。                                                                                                                          |  2017 年 1 月                  |
+| [供应商协作](../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | 供应商能够实时了解已经发送给他们进行审核的采购订单的最新信息。 它们还可以查看有关新的和更新的采购订单和联系人的信息。 |2017 年 1 月    |
+| [资产管理](../../../supply-chain/asset-management/asset-management-mobile-workspace.md) | 用户可使用此工作区查看和创建维护请求和工作订单。 用户也可以使用日历视图或列表视图查看分配的工作订单作业。 还可以查看和搜索资产和功能位置。 |2019 年 10 月    |

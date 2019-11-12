@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 510a36668bf131b48733e486a43f1d630ae9f3ea
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278316"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653686"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Supply Chain Management 的帮助资源
 
@@ -39,7 +39,7 @@ ms.locfileid: "2278316"
 选择一个功能区域以了解有关它的更多信息。
 
 - [资产管理](asset-management/index.md)
-- [成本核算](../financials/cost-accounting/cost-accounting-home-page.md)
+- [成本核算](../finance/cost-accounting/cost-accounting-home-page.md)
 - [成本管理](cost-management/cost-management-home-page.md)  
 - [库存管理](inventory/inventory-home-page.md)
 - [主计划](master-planning/master-planning-home-page.md)
@@ -109,7 +109,7 @@ ms.locfileid: "2278316"
 -  [新 Microsoft Dynamics AX 中的运输管理 (TMS)](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>博客
-<a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX 制造研发团队博客</a>和 <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX 研发团队中的供应链管理博客</a>上有很多关于制造和供应链管理的主题。 其中大多数文章是针对 Finance and Operations 的旧版本编写的，但同一概念仍适用，并且相关程序在当前版本中是相似的。 
+<a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX 制造研发团队博客</a>和 <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX 研发团队中的供应链管理博客</a>上有很多关于制造和供应链管理的主题。 其中大多数文章是针对旧版本编写的，但同一概念仍适用，并且相关程序在当前版本中是相似的。 
 
 ## <a name="white-papers"></a>白皮书
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">成本核算动手实验室</a> 

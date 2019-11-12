@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 48c90a8b776cc16804de8e20ada7d8ca347fa5b9
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 78c062f9982ca7b18fa00d60928089d09a5d552d
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874731"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570947"
 ---
 # <a name="fault-management"></a>故障管理
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 在资产管理中，可使用故障设计器为资产故障设置故障特征、故障区域和故障类型。 这样就可以管理为资产检测到的故障。 此外，还可以为工作订单登记故障成因和有关解决故障的建议。
 
@@ -109,7 +109,7 @@ ms.locfileid: "1874731"
 
 7. 选择**保存**以保存您的更改。
 
-![图 1](media/21-setup-for-work-orders.png)
+![故障设计器页面](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>创建故障成因
 

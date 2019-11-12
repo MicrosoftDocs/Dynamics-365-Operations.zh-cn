@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3913801eb35faec858ef4b8e1e5056b755054218
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: abf74841e994efc3a71ff8dde048ab9c3be934bc
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554728"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571200"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>具有实际成本和标记的后进先出日期
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 后进先出日期（LIFO 日期）是一种基于 LIFO 原则的库存模型。 基于库存交易记录的日期，按照最后入库的收货结算库存发货。 使用 LIFO 日期时，如果在发货前没有收货，则根据在发货日期后发生的任何收货结算该发货。 同一日期上的若干发货将按照最后发货、最后收货的顺序结算。 
 

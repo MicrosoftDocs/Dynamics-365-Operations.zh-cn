@@ -18,19 +18,19 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 69d06ff649f4453df22d55062b43bcc8d4ecd763
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: f531f51d7f42f88e4da2d046e61313e9ada2b259
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874708"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569792"
 ---
 # <a name="work-order-lifecycle-states"></a>工作订单生命周期状态
 
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 工作订单生命周期状态定义工作订单经历的状态。 例如，**已创建**、**已计划**、**进行中**和**已结束**。 可以手动更新工作订单的工作订单生命周期状态，也可以自动更新（例如，在工作订单计划期间）。
 
@@ -38,7 +38,7 @@ ms.locfileid: "1874708"
 
 下表介绍**工作订单生命周期状态**页（**资产管理** \> **设置** \> **工作订单** \> **生命周期状态**）的**常规**快速选项卡上**工作订单**和**计划**部分中的选项。
 
-![图 1](media/09-setup-for-work-orders.png)
+![工作订单生命周期状态页面](media/09-setup-for-work-orders.png)
 
 | 选项名称                   | 说明 |
 |-------------------------------|-------------|
@@ -96,7 +96,7 @@ ms.locfileid: "1874708"
     - 如果工作订单要更新为的生命周期状态的**维护停机时间**选项设置为**是**，将验证与工作订单关联的资产的维护停机时间。 如果已创建了维护停机时间登记，但是没有**已结束**的登记，则在工作订单更新为此生命周期状态时，将显示一条消息。
     - 如果标准项目设置中不包含资产管理设置所需全部阶段，则可在**项目管理与核算参数**页的**项目阶段**选项卡上设置用户定义的项目阶段。 下图显示**项目管理与核算参数**页上的**项目阶段**选项卡。
 
-    ![图 2](media/10-setup-for-work-orders.png)
+    ![设置各种项目类型的项目阶段页面](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > 如果将工作订单更新为的生命周期状态无效，将自动删除与该工作订单关联，但尚未过帐的日记帐。 此行为有助于确保自动清理未使用的数据。 （如果在**工作订单生命周期状态**页**常规**快速选项卡上将某个生命周期状态的**有效**选项设置为**否**，则该生命周期状态无效。）
@@ -114,7 +114,7 @@ ms.locfileid: "1874708"
 
 下图显示工作订单类型、生命周期模型和生命周期状态之间的关联。
 
-![图 3](media/11-setup-for-work-orders.png)
+![与工作订单生命周期模型页面对比的工作订单类型页面](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>工作订单生命周期模型
 
@@ -138,4 +138,4 @@ ms.locfileid: "1874708"
 8. 在**未计划的生命周期状态**字段中，选择在删除了工作订单安排时，始终应该为工作订单选择的生命周期状态。
 9. 保存工作订单生命周期模型。
 
-![图 4](media/15-setup-for-work-orders.png)
+![工作订单生命周期模型页面](media/15-setup-for-work-orders.png)

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 761364c8c58258baf2268f917cb174ac300c4528
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 02686c97a19fa86c3ea93d7c400067f0855b5c4d
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783108"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571476"
 ---
 # <a name="asset-boms"></a>资产 BOM
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 本主题介绍资产管理中的物料清单 (BOM)。 **资产 BOM** 也显示资产整个生命周期内为其使用的所有物料（备件和其他物料）的列表。 创建新资产时，应考虑在设置过程中设置资产 BOM。 这样就可以跟踪资产从创建日期开始的物料历史记录。
 

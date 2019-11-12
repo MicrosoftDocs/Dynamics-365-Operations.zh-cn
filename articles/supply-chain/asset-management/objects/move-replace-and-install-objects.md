@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0e6306698d351d33cae627e3741ad9a2eb6d893
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 30145a56de4f7e3dce039968791d2fc9b960077f
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783109"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571522"
 ---
 # <a name="move-replace-and-install-assets"></a>移动，替换和安装资产
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 本主题介绍如何在资产管理中移动，替换和安装资产。 可创建与不与其他资产关联的单个资产，也可以创建包含父资产（顶级资产）和相关子资产的资产结构。 在资产管理中，可通过三种方法移动和更改资产的位置。
 

@@ -1,5 +1,5 @@
 ---
-title: Regression Suite Automation Tool 使用教程
+title: 使用 Regression Suite Automation Tool 教程
 description: 本主题说明如何使用 Regression Suite Automation Tool (RSAT)。 其中介绍各种功能，并提供使用高级脚本的示例。
 author: kfend
 manager: AnnBe
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: cf3ca501efb4e540994b01e651eee5b8aab4ddbc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9afa98156c58d10c19454430769a3d60343661dc
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191078"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550948"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool 使用教程
 

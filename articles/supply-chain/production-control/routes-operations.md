@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f91faa03718830474e8e2a79015955bcad1d02e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6ecdece43b9d609e70e385dc5c3ec70b82f582ab
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249946"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653663"
 ---
 # <a name="routes-and-operations"></a>工艺路线和工序
 
@@ -35,7 +35,7 @@ ms.locfileid: "2249946"
 <a name="overview"></a>概览
 --------
 
-工艺路线描述生产产品或产品变型所需工序顺序。 对于每道工序，工艺路线还定义所需工序资源、设置和执行工序所需时间，以及应如何计算成本。 您可以使用相同工艺路线生产多个产品，也可以为每个产品或产品变型定义不同工艺路线。 同一个产品甚至可以有多个工艺路线。 在这种情况下，使用的工艺路线根据必须生产的数量之类因素决定。 Finance and Operations 中的工艺路线的定义包含四种不同元素，这些元素共同描述生产流程：
+工艺路线描述生产产品或产品变型所需工序顺序。 对于每道工序，工艺路线还定义所需工序资源、设置和执行工序所需时间，以及应如何计算成本。 您可以使用相同工艺路线生产多个产品，也可以为每个产品或产品变型定义不同工艺路线。 同一个产品甚至可以有多个工艺路线。 在这种情况下，使用的工艺路线根据必须生产的数量之类因素决定。 Supply Chain Management 中的工艺路线的定义包含四种不同元素，这些元素共同描述生产流程：
 
 -   **工艺路线** – 工艺路线定义生产流程的结构。 换言之，它定义工序的顺序。
 -    **工序** – 工序表示工艺路线中带名称的步骤，如**装配**。 同一工序可以在多个工艺路线中出现，并且可以有不同的工序编号。

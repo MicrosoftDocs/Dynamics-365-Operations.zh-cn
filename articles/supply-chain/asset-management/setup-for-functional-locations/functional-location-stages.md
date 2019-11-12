@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11f784e4c17ad5b764cadd914f4959f4be160913
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: d4804d5f38fb65aa8ab3eafceccbbc6f52f2e81b
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783091"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569930"
 ---
 # <a name="functional-location-lifecycle-states"></a>功能位置生命周期状态
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 本主题介绍如何在资产管理中设置功能位置生命周期状态和生命周期模型。 功能位置生命周期状态定义功能位置可以经历的状态，如已创建、有效和已结束。 无论功能位置处于哪种生命周期状态，您都可以在**所有功能位置**列表页中查看所有功能位置。 可以更改功能位置的状态，方法是在**所有功能位置**列表页中选择功能位置，然后选择**更新功能位置状态**。
 
