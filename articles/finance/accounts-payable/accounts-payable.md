@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce6ce9c3c08a165ca19eb8d83643fd87b970f1ca
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658728"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772229"
 ---
 # <a name="accounts-payable-home-page"></a>应付帐款主页
 
@@ -41,7 +41,7 @@ ms.locfileid: "2658728"
 
 设置供应商组、供应商、过帐模板、不同的付款选项，并设置涉及供应商、费用、交货和目的地、本票以及其他应付帐款信息类型的参数。 
 
-[配置应付帐款](accounts-payable-overview.md)
+[配置应付帐款概览](accounts-payable-overview.md)
 
 [会计分配和供应商发票的子分类日记帐条目](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
@@ -51,17 +51,17 @@ ms.locfileid: "2658728"
 
 使用应付帐款可以跟踪对供应商的发票和相关支出。
 
-[发票匹配应付帐款](accounts-payable-invoice-matching.md)
+[发票匹配应付帐款概览](accounts-payable-invoice-matching.md)
 
 [供应商过帐模板](vendor-posting-profiles.md)
 
-[设置应付帐款发票匹配验证](tasks/set-up-accounts-payable-invoice-matching-validation.md)
+[设置发票匹配应付帐款验证](tasks/set-up-accounts-payable-invoice-matching-validation.md)
 
 [三向匹配政策](three-way-matching-policies.md)
 
 [发票匹配和内部公司采购订单](invoice-matching-intercompany-purchase-orders.md)
 
-[解决发票合计匹配期间出现的差异](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[解决发票合计匹配期间出现的差异概览](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
 [供应商发票日记帐和发票审核日记帐的默认对方科目](default-offset-accounts-vendor-invoice-journals.md)
 
@@ -93,11 +93,11 @@ ms.locfileid: "2658728"
 
 [在现金折扣期间之外执行现金折扣](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[供应商支票的电子报告](electronic-reporting-sample-vendor-checks.md)
+[电子报告示例供应商支票](electronic-reporting-sample-vendor-checks.md)
 
 [冲销供应商付款](reverse-vendor-payment.md)
 
-[预付款发票和预付款概览](prepayments-invoices-vs-prepayments.md)
+[预付款发票与预付款](prepayments-invoices-vs-prepayments.md)
 
 [应付帐款的集中付款](centralized-payments-accounts-payable.md)
 
@@ -107,13 +107,13 @@ ms.locfileid: "2658728"
 
 [配置结算](../cash-bank-management/configure-settlement.md)
 
-[在折扣日期之前结算部分供应商付款](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[在折扣日期之前结算部分供应商付款并在折扣日期之后完成最后付款](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
 [结算在供应商贷方通知单上已折扣的部分供应商付款](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
 [结算具有多个折扣期间的部分供应商付款](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[在折扣之前结算部分供应商付款或最终付款](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[在折扣日期之前结算部分供应商付款并完全结算最后付款](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
 [具有多个客户或供应商记录的单个凭证](single-voucher-multiple-customer-vendor-records.md)
 
@@ -123,7 +123,7 @@ ms.locfileid: "2658728"
 
 #### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转到 [Microsoft Dynamics 365 发行说明](https://go.microsoft.com/fwlink/?linkid=2010158)，了解规划了哪些新功能。 
+转到 [Microsoft Dynamics 365 版本计划](https://go.microsoft.com/fwlink/?linkid=2010158)，了解规划了哪些新功能。 
 
 #### <a name="blogs"></a>博客
 

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 57d3b66e7ebc5a8a6e2ddda9135e27cd24535365
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: e77fd279ddec5eb02e226776eecb1223283313c3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278098"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811918"
 ---
 # <a name="help-resources-for-dynamics-365-retail"></a>Dynamics 365 Retail 的帮助资源
 
@@ -81,7 +81,7 @@ MPOS 是适用于 PC、平板电脑和手机的 POS 应用。 销售人员可在
 
 如果您需要自定义您的环境，或者您负责部署和维护系统，则除一些更常规的内容外，请务必查看特定于 Retail 的开发人员和系统管理员内容。
 
-- [面向 IT 专业人员和开发人员的 Dynamics 365 Retail](dev-itpro/dev-retail-home-page.md)
+- [面向 IT 专业人员和开发人员的 Retail](dev-itpro/dev-retail-home-page.md)
 - [Dynamics 365 Finance 的开发和管理](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>其他资源

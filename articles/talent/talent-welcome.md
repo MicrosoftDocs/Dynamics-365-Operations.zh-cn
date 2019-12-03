@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: edc2f59752a32b9cd20902d0b7a1edfe3ba4d15b
-ms.sourcegitcommit: ff160a9f9879f3ec015ffef11fbc8b7c1b84a59d
+ms.openlocfilehash: 841ef8f2b7c319e0a6b3a9ce9a9e4959e70aa8cd
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552942"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812756"
 ---
 # <a name="welcome-to-dynamics-365-talent"></a>欢迎使用 Dynamics 365 Talent
 
@@ -52,20 +52,20 @@ Microsoft Dynamics 365 Talent 简化了很多例行记录保留任务，并实�
 
 当您使用 Talent 时，您将决定如何使用部门、工作和职位等元素构建您的组织结构。 这些元素是您将配置的基本元素的一部分。 各个员工都将被分配到与工作关联的职位。
 
--   [使用部门、工作和职位组织您的劳动力](departments-jobs-positions.md)
--   [设置特定于公司的 HR 参数](set-up-company-specific-hr-parameters.md)
--   [跨法人设置人力资源参数](set-up-hr-parameters-across-legal-entities.md) 
+-   [使用部门、工作和职位组织您的员工](departments-jobs-positions.md)
+-   [设置特定于公司的人力资源 (HR) 参数](set-up-company-specific-hr-parameters.md)
+-   [跨法人设置人力资源 (HR) 参数](set-up-hr-parameters-across-legal-entities.md) 
 -   [人事行动常见问题](personnel-actions-faq.md)
--   [休假和缺勤概览](leave-absence-overview.md)
+-   [休假和缺勤管理](leave-absence-overview.md)
 -   [如何使用 Dynamics 365 Talent：休假和缺勤（视频）](https://www.youtube.com/watch?v=1q1UhKmO4tw)
 -   [如何在 Dynamics 365 Talent 中管理人员（视频）](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
 ## <a name="staffing-your-organization"></a>组织人员配备
 
-Talent 包括 Attract，可帮助您挖掘、面试和雇用拥有组织所需技能的应聘者。 从招聘进入雇用时，Onboard 应用可帮助您设置准确的期望，提供新员工入职所需的信息，将新员工与同事连接，为他们适应新的角色做好准备，从而让您的新员工融入组织。  
+Talent 包括 Attract，可帮助您挖掘、面试和雇用拥有组织所需技能的应聘者。 从招聘进入雇用阶段时，Onboard 应用可帮助您设置准确的期望，提供新员工入职所需的信息，将新员工与同事关联，为他们适应新的角色做好准备，从而让您的新员工融入组织。  
 
-- [Attract 概述](attract-overview.md)
-- [Onboard 概述](create-onboarding-experience.md)
+- [Microsoft Dynamics 365 Talent - Attract 特色和功能](attract-overview.md)
+- [Onboard 入门](create-onboarding-experience.md)
 
 ## <a name="retain-and-motivate-employees"></a>保留和激励员工
 
@@ -83,14 +83,14 @@ Talent 包括 Attract，可帮助您挖掘、面试和雇用拥有组织所需�
 
 -   [绩效管理](performance-management-overview.md)
 -   [使劳动力技能符合业务需求](skills.md)
--   [通过课程管理培训](courses.md)
+-   [设置培训课程](courses.md)
 -   [如何在 Dynamics 365 Talent 中管理员工发展（视频）](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>创建和维护福利
 
 除了向员工发放工资、薪水和奖金，您还可以制定福利项目，如医疗保险和退休计划。 您还可以管理福利，如借用计划，通过此计划，您的公司向员工出借物品（如计算机或手机）。
 
--   [管理福利计划](manage-benefit-program.md)
+-   [定义和管理福利计划](manage-benefit-program.md)
 -   [福利资格政策](benefit-eligibility-policies.md)
 -   [管理借给工作人员的物品](loan-items.md)
 -   [如何在 Dynamics 365 Talent 中管理员工福利（视频）](https://www.youtube.com/watch?v=nUWkeJTad1o)
@@ -108,5 +108,5 @@ Talent 可帮助您维护符合适用法律的安全工作环境，包括美国�
 
 -   [调查表](questionnaires.md)
 -   [设计调查表](design-questionnaires.md)
--   [分发和完成调查表](distribute-questionnaires.md)
+-   [分发和计划调查表](distribute-questionnaires.md)
 -   [查看和评估调查表的结果](evaluate-questionnaire-results.md)

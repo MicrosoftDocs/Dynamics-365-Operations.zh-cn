@@ -8,6 +8,14 @@
         - name: Talent 新增功能或更改
           href: whats-new.md
           items:
+            - name: 2019 年 11 月 19 日
+              href: whats-new-talent-november-19-2019.md
+            - name: 2019 年 11 月 12 日
+              href: whats-new-talent-november-12-2019.md
+            - name: 2019 年 11 月 5 日
+              href: whats-new-talent-november-5-2019.md
+            - name: 2019 年 10 月 29 日
+              href: whats-new-talent-oct-29-2019.md
             - name: 2019 年 10 月 23 日
               href: whats-new-talent-october-23-2019.md
             - name: 2019 年 10 月 8 日
@@ -26,18 +34,18 @@
               href: whats-new-talent-august-15-2019.md
             - name: 2019 年 8 月 6 日
               href: whats-new-talent-august-7-2019.md
-            - name: 2019 年 7 月 30 日
-              href: whats-new-talent-july-31-2019.md
-            - name: 2019 年 7 月 23 日
-              href: whats-new-talent-july-24-2019.md
-            - name: 2019 年 7 月 16 日
-              href: whats-new-talent-july-16-2019.md
-            - name: 2019 年 7 月 9 日
-              href: whats-new-talent-july-9-2019.md
-            - name: 2019 年 7 月 2 日
-              href: whats-new-talent-july-2-2019.md
             - name: 2019 年新增功能存档
               items:
+                - name: 2019 年 7 月 30 日
+                  href: whats-new-talent-july-31-2019.md
+                - name: 2019 年 7 月 23 日
+                  href: whats-new-talent-july-24-2019.md
+                - name: 2019 年 7 月 16 日
+                  href: whats-new-talent-july-16-2019.md
+                - name: 2019 年 7 月 9 日
+                  href: whats-new-talent-july-9-2019.md
+                - name: 2019 年 7 月 2 日
+                  href: whats-new-talent-july-2-2019.md
                 - name: 2019 年 6 月 25 日
                   href: whats-new-talent-june-25-2019.md
                 - name: 2019 年 6 月 18 日
@@ -110,16 +118,20 @@
                   href: whats-new-talent-september-24.md
                 - name: 2018 年 9 月 17 日
                   href: whats-new-talent-september-17-2018.md
-                - name: 2018 年 9 月 10日
+                - name: 2018 年 9 月 10 日
                   href: whats-new-talent-september-10.md
                 - name: 2018 年 8 月
                   href: whats-new-talent-august2018.md
-                - name: 2018 年 6 月
+                - name: 2018 年 7 月
                   href: whats-new-talent-july2018.md
-        - name: 系统要求和更新策略
+        - name: 系统要求
           href: talent-versions-update-policy.md
+        - name: Talent 更新
+          href: talent-updates.md
         - name: 配置 Talent
           href: provisioning-talent.md
+        - name: 复制 Core HR 实例
+          href: hr-copy-instance.md
         - name: 移除 Talent 环境
           href: remove-talent-environment.md
         - name: Onboard 应用配置
@@ -439,6 +451,18 @@
           href: extensibility-attract.md
         - name: Core HR 自定义字段
           href: corehr-custom-fields.md
+        - name: 实体 API 引用
+          items:
+            - name: 身份验证
+              href: api-odata-authentication.md
+            - name: 实体
+              items:
+                - name: MyLeaveRequests
+                  items:
+                    - name: MyLeaveRequests 概览
+                      href: api-myleaverequests-overview.md
+                    - name: 将请假申请提交至工作流
+                      href: api-myleaverequests-submit.md
     - name: Talent 疑难解答
       items:
         - name: 使用自动清理任务优化性能

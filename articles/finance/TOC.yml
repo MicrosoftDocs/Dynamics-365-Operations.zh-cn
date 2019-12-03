@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: 注册预览订阅
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
+            - name: 客户付款见解（预览版）
+              href: accounts-receivable/payment-insights-overview.md
             - name: 一个版本服务更新
               items:
                 - name: 一个版本服务更新概览
@@ -218,7 +220,7 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: 设置发票匹配应付帐款验证
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
-            - name: 供应商发票的会计分配和子分类日记帐分录
+            - name: 会计分配和供应商发票的子分类日记帐条目
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: 发票匹配和内部公司采购订单
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
@@ -320,7 +322,7 @@
               href: accounts-receivable/revenue-recognition-so-basics.md
             - name: 设置和处理重复发票
               href: accounts-receivable/set-up-process-recurring-invoices.md
-            - name: 会计分配和普通发票的子分类日记帐分录
+            - name: 会计分配和普通发票的子分类日记帐条目
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: 客户过帐模板
               href: accounts-receivable/customer-posting-profiles.md
@@ -2239,6 +2241,8 @@
                       href: localizations/rus-currency-sale-purchase.md
                     - name: 备用金
                       href: localizations/emea-petty-cash.md
+                    - name: 现金 - 本地主要窗体和统一报表
+                      href: localizations/rus-local-primary-forms-and-unified-reports.md
                 - name: 增值税
                   items:
                     - name: 销项增值税的本地特定过帐
@@ -2255,6 +2259,8 @@
                       href: localizations/rus-sales-books-purchase-books.md
                     - name: 预付款管理
                       href: localizations/rus-prepayments-management.md
+                    - name: 传入增值税还原
+                      href: localizations/rus-incoming-VAT-restoring.md
                 - name: 固定资产
                   items:
                     - name: 管理固定资产
@@ -2313,11 +2319,19 @@
                       href: localizations/rus-cash-flow.md
                     - name: 按照杂项费用相对于重量和体积的比例分配
                       href: localizations/rus-miscellaneous-charges.md
+                    - name: 第三方杂项费用
+                      href: localizations/rus-third-party-misc-charges.md
+                - name: 库存
+                  items:
+                    - name: 来自供应商的在途货物
+                      href: localizations/rus-goods-transit-vendor.md
+                    - name: 海关申报单编号
+                      href: localizations/rus-custom-declaration-number.md
                 - name: 报告
                   items:
                     - name: 财务报告
                       href: localizations/rus-financial-reports.md
-                    - name: 配置 Excel 中的财务报告
+                    - name: 配置 Excel 中的财务报表
                       href: localizations/rus-excel-financial-report.md
                     - name: 电子格式的会计报表
                       href: localizations/rus-accounting-reporting.md
@@ -2335,6 +2349,8 @@
                       href: localizations/rus-officials.md
                     - name: 公司分部
                       href: localizations/rus-company-divisions.md
+                    - name: 俄罗斯地址格式和从 FIAS 导入
+                      href: localizations/rus-russian-address-format-and-import-from-FIAS.md
                 - name: 延期
                   items:
                     - name: 设置延期
@@ -2869,6 +2885,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: 从 RCS 导入配置
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: 教程
+                  items:
+                    - name: 在电子报告 (ER) 模型映射中使用 JOIN 数据源从多个应用程序表中获取数据
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                    - name: 配置与国家/地区上下文相关的 ER 模型映射
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
                 - name: 在 Finance and Operations 中使用电子报告解决方案
                   items:
                     - name: 配置框架
@@ -2903,6 +2925,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: 业务文档管理概览
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                    - name: 在 Microsoft Excel 中向业务文档模板添加新字段
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
                 - name: 电子报告框架 API
                   items:
                     - name: 扩展电子报告功能的列表

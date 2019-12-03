@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
-ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
+ms.openlocfilehash: 10d894bb65031741a5ec8365f7f8db76b58ab334
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578476"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2693104"
 ---
 # <a name="distributed-order-management-dom"></a>分配的订单管理 (DOM)
 
@@ -64,7 +64,7 @@ DOM 可跨复杂的系统网络和流程优化订单履行。 它依赖整个组
         1. 在 Microsoft Dynamics Lifecycle Services 中，打开共用资产库，选择**模型**作为资产类型，并下载 **DOM 许可证**文件。
         2. 启动 Microsoft Internet 信息服务 (IIS) 管理器，右键单击 **AOSService 网站**，然后选择**浏览**。 随后，**\<AOS 服务根目录\>\\webroot** 下将打开一个 Windows 资源管理器窗口。 记下 \<AOS 服务根目录\> 路径，因为在下一步中会用到。
         3. 复制 **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin** 目录中的配置文件。
-        4. 转到 Retail Headquarters 客户端，然后打开**文档对象模型参数**页面。 在 **Solver** 选项卡上的 **Solver type** 字段中，选择 **Production solver**，并确认未显示错误消息。
+        4. 转到 Retail Headquarters 客户端，然后打开**文档对象模型参数**页面。 在 **求解器** 选项卡上的 **求解器类型** 字段中，选择 **生产求解器**，并确认未显示错误消息。
 
         > [!NOTE]
         > 提供了简化求解器，这样零售商无需部署特殊许可证即可试用 DOM 功能。 组织不应在生产环境中使用简化求解器。
@@ -112,7 +112,7 @@ DOM 可跨复杂的系统网络和流程优化订单履行。 它依赖整个组
         \* 如果**履行部分订单**设置为**否**，**履行部分行**将始终视为设置为**否**，而不管实际是如何设置的。
 
 > [!NOTE]
-> 在 Retail 版本 10.0.5 中，参数**仅从一个位置履行订单**已更改为**最大履行位置数**。 不再是允许用户配置可以仅从一个位置履行订单或者从尽可能多的位置履行订单，用户现在可以指定是从确定的一组位置（最多 5 个）还是从尽可能多的位置履行订单。 这为可以从多少个位置履行订单提供了更大的灵活性。
+> 在 Retail 版本 10.0.5 中，参数**仅从一个位置履行订单**已更改为**最大履行位置数**。 此前，用户可选择配置为仅从一个位置履行订单或者从尽可能多的位置履行订单；现在，用户可以指定是从确定的一组位置（最多 5 个）还是从尽可能多的位置履行订单。 这为可以从多少个位置履行订单提供了更大的灵活性。
 
    - **脱机履行库位规则** - 此规则允许组织将一个位置或一组位置指定为对 DOM 脱机或不可用，这样就无法将订单分配到这些位置进行履行。
     - **最大拒绝次数规则** - 此规则允许组织定义拒绝次数阈值。 当达到阈值时，DOM 处理器会将订单或订单行标记为异常，并将其从进一步处理中排除。

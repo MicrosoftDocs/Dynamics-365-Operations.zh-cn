@@ -571,6 +571,8 @@
                   href: cost-management/inventory-close.md
                 - name: 调整现有库存量成本价值
                   href: cost-management/adjust-hand-inventory-cost-values.md
+                - name: 库龄报表
+                  href: cost-management/inventory-aging-report-storage.md
             - name: 制造会计
               items:
                 - name: 物料清单计算
@@ -868,7 +870,13 @@
                         - name: 从 RCS 类型的电子报告存储库中下载配置
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 从 RCS 导入配置
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 教程
+                      items:
+                        - name: 在电子报告 (ER) 模型映射中使用 JOIN 数据源从多个应用程序表中获取数据
+                          href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 配置与国家/地区上下文相关的 ER 模型映射
+                          href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 在 Finance and Operations 中使用电子报告解决方案
                   items:
                     - name: 配置框架
@@ -903,6 +911,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 业务文档管理概览
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 在 Microsoft Excel 中向业务文档模板添加新字段
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 电子报告框架 API
                   items:
                     - name: 扩展电子报告功能的列表
@@ -1051,6 +1061,22 @@
           items:
             - name: 主计划主页
               href: master-planning/master-planning-home-page.md
+            - name: 计划优化
+              items:
+                - name: 计划优化概览
+                  href: master-planning/planning-optimization/planning-optimization-overview.md
+                - name: 开始使用计划优化
+                  href: master-planning/planning-optimization/get-started.md
+                - name: 计划优化适应分析
+                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: 将筛选器应用到计划
+                  href: master-planning/planning-optimization/plan-filters.md
+                - name: 查看计划历史记录和计划日志
+                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: 计划优化自动确认
+                  href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: 取消计划作业
+                  href: master-planning/planning-optimization/cancel-planning-job.md
             - name: 主计划
               items:
                 - name: 主计划概览

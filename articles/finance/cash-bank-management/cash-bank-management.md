@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51a27f5ecdb4d4903ac0b76c5682ea7f9ab0d8c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1d074b9450a4dfc72f60f97ccaf03610ce54315d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175844"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772574"
 ---
 # <a name="cash-and-bank-management-home-page"></a>现金和银行管理主页
 
@@ -49,36 +49,36 @@ ms.locfileid: "2175844"
 ### <a name="bank-reconciliation"></a>银行对帐
 
 -   [高级银行对帐概览](advanced-bank-reconciliation-overview.md)
--   [配置高级银行对帐](configure-advanced-bank-reconciliation.md)
--   [设置高级银行对帐导入](set-up-advanced-bank-reconciliation-import-process.md)
+-   [高级银行对帐流程](configure-advanced-bank-reconciliation.md)
+-   [设置高级银行对帐导入流程](set-up-advanced-bank-reconciliation-import-process.md)
 -   [使用高级银行对帐对银行对帐单进行对帐](reconcile-bank-statements-advanced-bank-reconciliation.md)
 -   [设置银行对帐匹配规则](set-up-bank-reconciliation-matching-rules.md)
 
 
 ## <a name="accounts-payable-payments-and-settlements"></a>应付帐款付款和结算
 -   [应付帐款的集中付款](../accounts-payable/centralized-payments-accounts-payable.md)
--   [使用付款方案创建供应商发票](../accounts-payable/create-vendor-payments-payment-proposal.md)
+-   [使用付款方案创建供应商付款](../accounts-payable/create-vendor-payments-payment-proposal.md)
 -   [冲销供应商付款](../accounts-payable/reverse-vendor-payment.md)
 -   [部分金额的供应商付款](../accounts-payable/vendor-payments-partial-amount.md)
--   [预付款发票和预付款概览](../accounts-payable/prepayments-invoices-vs-prepayments.md)
--   [方案：在折扣日期之前结算部分供应商付款并完全结算最后付款](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
--   [方案：在折扣日期之前结算部分供应商付款并在折扣日期之后完成最后付款）](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
--   [方案：结算在供应商贷方通知单上已折扣的部分供应商付款](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
--   [方案：结算具有多个折扣期间的部分供应商付款](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
--   [方案：执行高于供应商付款的计算折扣的折扣](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
--   [方案：在现金折扣期间之外执行现金折扣](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
+-   [预付款发票与预付款](../accounts-payable/prepayments-invoices-vs-prepayments.md)
+-   [在折扣日期之前结算部分供应商付款并完全结算最后付款](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
+-   [在折扣日期之前结算部分供应商付款并在折扣日期之后完成最后付款](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+-   [结算在供应商贷方通知单上已折扣的部分供应商付款](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+-   [结算具有多个折扣期间的部分供应商付款](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
+-   [执行高于供应商付款的计算折扣的折扣](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
+-   [在现金折扣期间之外执行现金折扣](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
 
 ## <a name="accounts-receivable-payments-and-settlements"></a>应收帐款付款和结算
 -   [应收帐款的集中付款](../accounts-receivable/centralized-payments-accounts-receivable.md)
 -   [部分金额的客户付款](../accounts-receivable/customer-payments-partial-amount.md)
 -   [补偿客户](../accounts-receivable/reimburse-customers.md)
--   [方案：自动结算和优先级](../accounts-receivable/automatic-settlement-prioritization.md)
--   [方案：处理超额支付的现金折扣](../cash-bank-management/cash-discount-handling-overpayments.md)
--   [方案：在折扣日期之前结算部分客户付款并完全结算最后付款](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
--   [方案：在折扣日期之前结算部分客户付款并在折扣日期之后完成最后付款](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
--   [方案：结算在贷方通知单上已折扣的部分客户付款](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
--   [方案：结算具有多个折扣期间的部分客户付款](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
--   [方案：使用一次客户付款来结算跨多个折扣期间的多张发票](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+-   [自动结算和优先级](../accounts-receivable/automatic-settlement-prioritization.md)
+-   [处理超额支付的现金折扣](../cash-bank-management/cash-discount-handling-overpayments.md)
+-   [在折扣日期之前结算部分客户付款并完全结算最后付款](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+-   [在折扣日期之前结算部分客户付款并在折扣日期之后完成最后付款](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+-   [结算在贷方通知单上已折扣的部分客户付款](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
+-   [结算具有多个折扣期间的部分客户付款](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
+-   [使用一次客户付款来结算跨多个折扣期间的多张发票](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
 
 
 
@@ -86,7 +86,7 @@ ms.locfileid: "2175844"
 
 #### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转到 [Microsoft Dynamics 365 发行说明](https://go.microsoft.com/fwlink/?linkid=2010158)，了解已经规划了哪些新功能。 
+转到 [Microsoft Dynamics 365 版本计划](https://go.microsoft.com/fwlink/?linkid=2010158)，了解已经规划了哪些新功能。 
 
 #### <a name="blogs"></a>博客
 

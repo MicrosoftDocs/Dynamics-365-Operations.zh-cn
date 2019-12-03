@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b0201d31cd83b4360f96a7d8e2113caf9d913715
-ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
+ms.openlocfilehash: f53573b8afb2003f6796930f5877185e533a4715
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622519"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2693058"
 ---
 # <a name="edit-and-audit-retail-store-transactions"></a>编辑和审计零售商店交易记录
 
