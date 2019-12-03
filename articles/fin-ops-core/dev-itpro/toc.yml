@@ -2,6 +2,8 @@
   items:
     - name: Finance and Operations 应用开发和管理
       items:
+        - name: Finance and Operations 应用程序文档
+          href: ../fin-ops/index.md
         - name: Finance and Operations 应用开发和管理
           href: index.md
         - name: 新增功能或更改
@@ -128,16 +130,28 @@
                           href: data-entities/dual-write-overview.md
                         - name: Common Data Service 上的组织层次结构
                           href: data-entities/dual-write-organization.md
-                        - name: Common Data Service 中的公司概念
-                          href: data-entities/dual-write-company.md
-                        - name: 集成客户主数据
+                        - name: 公司集成
+                          items:
+                            - name: Common Data Service 中的公司概念
+                              href: data-entities/dual-write-company.md
+                            - name: 使用公司数据引导
+                              href: data-entities/dual-write-bootstrap.md
+                        - name: 集成的客户主数据
                           href: data-entities/dual-write-customer.md
-                        - name: 通用产品体验
+                        - name: 集成的分类帐
+                          href: data-entities/dual-write-ledger.md
+                        - name: 统一的产品体验
                           href: data-entities/dual-write-product.md
-                        - name: 集成供应商主数据
-                          href: data-entities/dual-write-vendor.md
+                        - name: 供应商集成
+                          items:
+                            - name: 集成的供应商主数据
+                              href: data-entities/dual-write-vendor.md
+                            - name: 在供应商设计之间切换
+                              href: data-entities/dual-write-vendor-switch.md
                         - name: 集成的站点和仓库
                           href: data-entities/dual-write-sites-and-warehouses.md
+                        - name: 集成的税收主数据
+                          href: data-entities/dual-write-tax.md
                         - name: 初始同步
                           href: data-entities/dual-write-initial.md
                         - name: 数据集成疑难解答
@@ -418,6 +432,8 @@
                   href: user-interface/client-disconnected.md
                 - name: 对本地部署进行故障排除
                   href: deployment/troubleshoot-on-prem.md
+                - name: 在本地环境中解决问题的脚本
+                  href: deployment/onprem-tsg-implementations.md
                 - name: 证书轮换
                   href: deployment/certificate-rotation-on-prem.md
             - name: 部署自定义代码

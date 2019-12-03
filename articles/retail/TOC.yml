@@ -850,6 +850,8 @@
           items:
             - name: 会员概览
               href: set-up-customer-loyalty-program.md
+            - name: 客户服务解决方案概览
+              href: clienteling-overview.md
         - name: 付款
           items:
             - name: 付款方式
@@ -1268,8 +1270,6 @@
                   href: Open-URL-in-POS.md
                 - name: 安装 POS 布局设计器
                   href: install-pos-layout-designer.md
-                - name: 脱机模式下的 Retail Modern POS
-                  href: dev-itpro/retail-modern-pos-offline.md
                 - name: 扩展 POS Dual 显示视图
                   href: dev-itpro/pos-dual-display-extension.md
                 - name: Retail Modern POS 和云 POS 触发器可扩展性
@@ -1330,8 +1330,10 @@
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: 使用触发器锁定交易记录
                   href: dev-itpro/trigger-example-blocking-transaction.md
-                - name: 使用实施器实施退货政策
+                - name: 使用触发器实施退货政策
                   href: dev-itpro/trigger-example-return-policy.md
+                - name: 将扩展事件记录到 Application Insights
+                  href: dev-itpro/commerce-application-insights.md
             - name: 电子商务可扩展性
               items:
                 - name: 配置在线商店
