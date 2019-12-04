@@ -19,47 +19,47 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 8b65e9640106c5d351270074e39c121e70917228
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 18bedcc99d7d70875ec363a97e4e6eccbace3a9c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251216"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814161"
 ---
-# <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a><span data-ttu-id="6e9d5-103">将具有库存单位的产品从 Supply Chain Management 同步到 Field Service</span><span class="sxs-lookup"><span data-stu-id="6e9d5-103">Synchronize products with inventory unit from Supply Chain Management to Field Service</span></span>
+# <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a><span data-ttu-id="b18a3-103">将具有库存单位的产品从 Supply Chain Management 同步到 Field Service</span><span class="sxs-lookup"><span data-stu-id="b18a3-103">Synchronize products with inventory unit from Supply Chain Management to Field Service</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="6e9d5-104">此主题介绍用于同步 Dynamics 365 Supply Chain Management 与 Dynamics 365 Field Service 的具有库存单位的产品的模板和基础任务。</span><span class="sxs-lookup"><span data-stu-id="6e9d5-104">This topic discusses the templates and underlying task that are used to synchronize products with inventory unit from Dynamics 365 Supply Chain Management to Dynamics 365 Field Service.</span></span>
+<span data-ttu-id="b18a3-104">此主题介绍用于同步 Dynamics 365 Supply Chain Management 与 Dynamics 365 Field Service 的具有库存单位的产品的模板和基础任务。</span><span class="sxs-lookup"><span data-stu-id="b18a3-104">This topic discusses the templates and underlying task that are used to synchronize products with inventory unit from Dynamics 365 Supply Chain Management to Dynamics 365 Field Service.</span></span>
 
-<span data-ttu-id="6e9d5-105">[![Supply Chain Management 与 Field Service 之间的业务流程同步](./media/FSProductsOW.png)](./media/FSProductsOW.png)</span><span class="sxs-lookup"><span data-stu-id="6e9d5-105">[![Synchronization of business processes between Supply Chain Management and Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)</span></span>
+<span data-ttu-id="b18a3-105">[![Supply Chain Management 与 Field Service 之间的业务流程同步](./media/FSProductsOW.png)](./media/FSProductsOW.png)</span><span class="sxs-lookup"><span data-stu-id="b18a3-105">[![Synchronization of business processes between Supply Chain Management and Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)</span></span>
 
-<span data-ttu-id="6e9d5-106">所用**具有库存单位的 Field Service 产品（Supply Chain Management 到 Field Service）** 模板基于 **Field Service 产品（Supply Chain Management 到 Field Service）** 模板。</span><span class="sxs-lookup"><span data-stu-id="6e9d5-106">The used **Field Service Products with Inventory unit (Supply Chain Management to Field Service)** template is based on the **Field Service Products (Supply Chain Management to Field Service)** template.</span></span> <span data-ttu-id="6e9d5-107">有关详细信息，请参阅 [Field Service 产品（Supply Chain Management 到 Field Service）](field-service-product.md)。</span><span class="sxs-lookup"><span data-stu-id="6e9d5-107">For more information, see [Field Service Products (Supply Chain Management to Field Service)](field-service-product.md).</span></span>
+<span data-ttu-id="b18a3-106">所用**具有库存单位的 Field Service 产品（Supply Chain Management 到 Field Service）** 模板基于 **Field Service 产品（Supply Chain Management 到 Field Service）** 模板。</span><span class="sxs-lookup"><span data-stu-id="b18a3-106">The used **Field Service Products with Inventory unit (Supply Chain Management to Field Service)** template is based on the **Field Service Products (Supply Chain Management to Field Service)** template.</span></span> <span data-ttu-id="b18a3-107">有关详细信息，请参阅[将 Supply Chain Management 中的产品直接同步到 Field Service 中的产品](field-service-product.md)。</span><span class="sxs-lookup"><span data-stu-id="b18a3-107">For more information, see [Synchronize products in Supply Chain Management to products in Field Service](field-service-product.md).</span></span>
 
-<span data-ttu-id="6e9d5-108">本主题仅介绍这两个模板之间的区别：</span><span class="sxs-lookup"><span data-stu-id="6e9d5-108">This topic only describes the differences between the two templates:</span></span> 
-- <span data-ttu-id="6e9d5-109">**具有库存单位的 Field Service 产品（Supply Chain Management 到 Sales）**</span><span class="sxs-lookup"><span data-stu-id="6e9d5-109">**Field Service Products with Inventory unit (Supply Chain Management to Sales)**</span></span>
-- <span data-ttu-id="6e9d5-110">**Field Service 产品（Supply Chain Management 到 Field Service）**</span><span class="sxs-lookup"><span data-stu-id="6e9d5-110">**Field Service Products (Supply Chain Management to Field Service)**</span></span> 
+<span data-ttu-id="b18a3-108">本主题仅介绍这两个模板之间的区别：</span><span class="sxs-lookup"><span data-stu-id="b18a3-108">This topic only describes the differences between the two templates:</span></span> 
+- <span data-ttu-id="b18a3-109">**具有库存单位的 Field Service 产品（Supply Chain Management 到 Sales）**</span><span class="sxs-lookup"><span data-stu-id="b18a3-109">**Field Service Products with Inventory unit (Supply Chain Management to Sales)**</span></span>
+- <span data-ttu-id="b18a3-110">**Field Service 产品（Supply Chain Management 到 Field Service）**</span><span class="sxs-lookup"><span data-stu-id="b18a3-110">**Field Service Products (Supply Chain Management to Field Service)**</span></span> 
 
-## <a name="templates-and-tasks"></a><span data-ttu-id="6e9d5-111">模板和任务</span><span class="sxs-lookup"><span data-stu-id="6e9d5-111">Templates and tasks</span></span>
+## <a name="templates-and-tasks"></a><span data-ttu-id="b18a3-111">模板和任务</span><span class="sxs-lookup"><span data-stu-id="b18a3-111">Templates and tasks</span></span>
 
-<span data-ttu-id="6e9d5-112">**数据集成中的模板名称：**</span><span class="sxs-lookup"><span data-stu-id="6e9d5-112">**Name of the template in Data integration:**</span></span>
+<span data-ttu-id="b18a3-112">**数据集成中的模板名称：**</span><span class="sxs-lookup"><span data-stu-id="b18a3-112">**Name of the template in Data integration:**</span></span>
 
-- <span data-ttu-id="6e9d5-113">具有库存单位的 Field Service 产品（Supply Chain Management 到 Sales）</span><span class="sxs-lookup"><span data-stu-id="6e9d5-113">Field Service Products with Inventory unit (Supply Chain Management to Sales)</span></span>
+- <span data-ttu-id="b18a3-113">具有库存单位的 Field Service 产品（Supply Chain Management 到 Sales）</span><span class="sxs-lookup"><span data-stu-id="b18a3-113">Field Service Products with Inventory unit (Supply Chain Management to Sales)</span></span>
 
-<span data-ttu-id="6e9d5-114">**数据集成项目中的任务名称：**</span><span class="sxs-lookup"><span data-stu-id="6e9d5-114">**Name of the task in the Data integration project:**</span></span>
+<span data-ttu-id="b18a3-114">**数据集成项目中的任务名称：**</span><span class="sxs-lookup"><span data-stu-id="b18a3-114">**Name of the task in the Data integration project:**</span></span>
 
-- <span data-ttu-id="6e9d5-115">产品</span><span class="sxs-lookup"><span data-stu-id="6e9d5-115">Products</span></span>
+- <span data-ttu-id="b18a3-115">产品</span><span class="sxs-lookup"><span data-stu-id="b18a3-115">Products</span></span>
 
-<span data-ttu-id="6e9d5-116">**具有库存单位的 Field Service 产品（Supply Chain Management 到 Field Service）** 模板中包含 **Field Service 产品（Supply Chain Management 到 Field Service）** 模板中不包含的一个映射。</span><span class="sxs-lookup"><span data-stu-id="6e9d5-116">The **Field Service Products with Inventory unit (Supply Chain Management to Field Service)** template includes one mapping that isn't included in the **Field Service Products (Supply Chain Managementto Field Service)** template.</span></span> <span data-ttu-id="6e9d5-117">此映射确保包括库存水平同步所需的库存单位。</span><span class="sxs-lookup"><span data-stu-id="6e9d5-117">This mapping ensures that the Inventory unit needed for inventory level synchronization is included.</span></span>
+<span data-ttu-id="b18a3-116">**具有库存单位的 Field Service 产品（Supply Chain Management 到 Field Service）** 模板中包含 **Field Service 产品（Supply Chain Management 到 Field Service）** 模板中不包含的一个映射。</span><span class="sxs-lookup"><span data-stu-id="b18a3-116">The **Field Service Products with Inventory unit (Supply Chain Management to Field Service)** template includes one mapping that isn't included in the **Field Service Products (Supply Chain Managementto Field Service)** template.</span></span> <span data-ttu-id="b18a3-117">此映射确保包括库存水平同步所需的库存单位。</span><span class="sxs-lookup"><span data-stu-id="b18a3-117">This mapping ensures that the Inventory unit needed for inventory level synchronization is included.</span></span>
 
 ```
 INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryunit.name [Inventory Unit(Name)] 
 ```
 
-## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="6e9d5-118">数据集成中的模板映射</span><span class="sxs-lookup"><span data-stu-id="6e9d5-118">Template mapping in Data integration</span></span>
+## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="b18a3-118">数据集成中的模板映射</span><span class="sxs-lookup"><span data-stu-id="b18a3-118">Template mapping in Data integration</span></span>
 
-<span data-ttu-id="6e9d5-119">下图显示了数据集成中的模板映射。</span><span class="sxs-lookup"><span data-stu-id="6e9d5-119">The following illustrations show the template mapping in Data integration.</span></span>
+<span data-ttu-id="b18a3-119">下图显示了数据集成中的模板映射。</span><span class="sxs-lookup"><span data-stu-id="b18a3-119">The following illustrations show the template mapping in Data integration.</span></span>
 
-### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a><span data-ttu-id="6e9d5-120">具有库存单位的 Field Service 产品（Supply Chain Management 到 Field Service）：产品</span><span class="sxs-lookup"><span data-stu-id="6e9d5-120">Field Service Products with Inventory unit (Supply Chain Management to Field Service): Products</span></span>
+### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a><span data-ttu-id="b18a3-120">具有库存单位的 Field Service 产品（Supply Chain Management 到 Field Service）：产品</span><span class="sxs-lookup"><span data-stu-id="b18a3-120">Field Service Products with Inventory unit (Supply Chain Management to Field Service): Products</span></span>
 
-<span data-ttu-id="6e9d5-121">[![数据集成中的模板映射](./media/FSProduct1.png)](./media/FSProduct1.png)</span><span class="sxs-lookup"><span data-stu-id="6e9d5-121">[![Template mapping in Data integration](./media/FSProduct1.png)](./media/FSProduct1.png)</span></span>
+<span data-ttu-id="b18a3-121">[![数据集成中的模板映射](./media/FSProduct1.png)](./media/FSProduct1.png)</span><span class="sxs-lookup"><span data-stu-id="b18a3-121">[![Template mapping in Data integration](./media/FSProduct1.png)](./media/FSProduct1.png)</span></span>

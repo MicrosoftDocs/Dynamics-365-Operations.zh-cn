@@ -18,59 +18,59 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a4945f47c86d490f40a6b00cb823e6a6005e0ee4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550501"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770888"
 ---
-# <a name="add-location-and-party-relationship-types"></a><span data-ttu-id="0464d-103">添加位置与当事方关系类型</span><span class="sxs-lookup"><span data-stu-id="0464d-103">Add location and party relationship types</span></span> 
+# <a name="add-location-and-party-relationship-types"></a><span data-ttu-id="9021f-103">添加位置与当事方关系类型</span><span class="sxs-lookup"><span data-stu-id="9021f-103">Add location and party relationship types</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="add-location-roles"></a><span data-ttu-id="0464d-104">添加位置角色</span><span class="sxs-lookup"><span data-stu-id="0464d-104">Add location roles</span></span>
+## <a name="add-location-roles"></a><span data-ttu-id="9021f-104">添加位置角色</span><span class="sxs-lookup"><span data-stu-id="9021f-104">Add location roles</span></span>
 
-<span data-ttu-id="0464d-105">可通过两种方法为地址和联系人信息添加新的位置角色：</span><span class="sxs-lookup"><span data-stu-id="0464d-105">There are two ways to add a new location roles for address and contact information:</span></span>
+<span data-ttu-id="9021f-105">可通过两种方法为地址和联系人信息添加新的位置角色：</span><span class="sxs-lookup"><span data-stu-id="9021f-105">There are two ways to add a new location roles for address and contact information:</span></span>
 
--  <span data-ttu-id="0464d-106">通过**地址和联系信息目的**页添加。</span><span class="sxs-lookup"><span data-stu-id="0464d-106">Add it through the **Address and contact information purpose** page.</span></span> <span data-ttu-id="0464d-107">新角色将保存到 **LogisticsLocationRole** 表，其类型为 = 0，表示该角色不是在 **LogisticsLocationRoleType** 枚举及其扩展中定义的系统角色。</span><span class="sxs-lookup"><span data-stu-id="0464d-107">The new role will be saved to the **LogisticsLocationRole** table with type = 0, which indicates that the role is not a system role defined in the **LogisticsLocationRoleType** enum and its extensions.</span></span> <span data-ttu-id="0464d-108">用户可以在创建地址或联系人信息时使用此角色。</span><span class="sxs-lookup"><span data-stu-id="0464d-108">A user will be able to use this role when creating address or contact information.</span></span>
+-  <span data-ttu-id="9021f-106">通过**地址和联系信息目的**页添加。</span><span class="sxs-lookup"><span data-stu-id="9021f-106">Add it through the **Address and contact information purpose** page.</span></span> <span data-ttu-id="9021f-107">新角色将保存到 **LogisticsLocationRole** 表，其类型为 = 0，表示该角色不是在 **LogisticsLocationRoleType** 枚举及其扩展中定义的系统角色。</span><span class="sxs-lookup"><span data-stu-id="9021f-107">The new role will be saved to the **LogisticsLocationRole** table with type = 0, which indicates that the role is not a system role defined in the **LogisticsLocationRoleType** enum and its extensions.</span></span> <span data-ttu-id="9021f-108">用户可以在创建地址或联系人信息时使用此角色。</span><span class="sxs-lookup"><span data-stu-id="9021f-108">A user will be able to use this role when creating address or contact information.</span></span>
 
     ![地址和内容信息目的](media/Address-Contact.PNG)
 
--  <span data-ttu-id="0464d-110">将其添加到 **LogisticsLocationRoleType** 枚举扩展，并通过数据库同步过程对其进行填充。</span><span class="sxs-lookup"><span data-stu-id="0464d-110">Add it to the **LogisticsLocationRoleType** enum extension, and let it populate through the database sync process.</span></span>
+-  <span data-ttu-id="9021f-110">将其添加到 **LogisticsLocationRoleType** 枚举扩展，并通过数据库同步过程对其进行填充。</span><span class="sxs-lookup"><span data-stu-id="9021f-110">Add it to the **LogisticsLocationRoleType** enum extension, and let it populate through the database sync process.</span></span>
 
-    1.  <span data-ttu-id="0464d-111">创建 **LogisticsLocationRoleType** 枚举的扩展，并在该扩展中添加新角色。</span><span class="sxs-lookup"><span data-stu-id="0464d-111">Create an extension to the **LogisticsLocationRoleType** enum and add the new role in the extension.</span></span> 
+    1.  <span data-ttu-id="9021f-111">创建 **LogisticsLocationRoleType** 枚举的扩展，并在该扩展中添加新角色。</span><span class="sxs-lookup"><span data-stu-id="9021f-111">Create an extension to the **LogisticsLocationRoleType** enum and add the new role in the extension.</span></span> 
   
-        ![LogisticsLocationRoleType](media/Logistics.PNG)
+        ![LogisticsLocationRoleType 枚举扩展](media/Logistics.PNG)
 
-    2. <span data-ttu-id="0464d-113">为新角色创建新的资源文件，然后为其属性分配值。</span><span class="sxs-lookup"><span data-stu-id="0464d-113">Create a new resource file for the new role, and then assign a value for its properties.</span></span>
+    2. <span data-ttu-id="9021f-113">为新角色创建新的资源文件，然后为其属性分配值。</span><span class="sxs-lookup"><span data-stu-id="9021f-113">Create a new resource file for the new role, and then assign a value for its properties.</span></span>
      
      ![新的资源文件](media/Resource.PNG)
         
-    3.  <span data-ttu-id="0464d-115">创建数据填充类并提供处理程序方法以填充新角色。</span><span class="sxs-lookup"><span data-stu-id="0464d-115">Create a data population class and provide a handler method to populate the new role.</span></span> 
+    3.  <span data-ttu-id="9021f-115">创建数据填充类并提供处理程序方法以填充新角色。</span><span class="sxs-lookup"><span data-stu-id="9021f-115">Create a data population class and provide a handler method to populate the new role.</span></span> 
 
         ![数据填充](media/Dirdata.PNG)
 
-    4.  <span data-ttu-id="0464d-117">若要测试填充新位置角色，可创建一个可运行的类，然后在 Main() 中调用 DirDataPopulation::insertLogisticsLocationRoles()。</span><span class="sxs-lookup"><span data-stu-id="0464d-117">To test populating the new location role, you can create a runnable class, and call DirDataPopulation::insertLogisticsLocationRoles() in Main().</span></span> <span data-ttu-id="0464d-118">此过程完成后，应该可以在 **LogisticsLocationRole** 表中看到填充的新角色，其类型为 \> 0。</span><span class="sxs-lookup"><span data-stu-id="0464d-118">After this process is complete, you should see the new role populated in the **LogisticsLocationRole** table with type \> 0.</span></span> <span data-ttu-id="0464d-119">这个新角色将在**地址和联系信息目的**页中显示。</span><span class="sxs-lookup"><span data-stu-id="0464d-119">The new role will display on the **Address and contact information purpose** page.</span></span>
+    4.  <span data-ttu-id="9021f-117">若要测试填充新位置角色，可创建一个可运行的类，然后在 Main() 中调用 DirDataPopulation::insertLogisticsLocationRoles()。</span><span class="sxs-lookup"><span data-stu-id="9021f-117">To test populating the new location role, you can create a runnable class, and call DirDataPopulation::insertLogisticsLocationRoles() in Main().</span></span> <span data-ttu-id="9021f-118">此过程完成后，应该可以在 **LogisticsLocationRole** 表中看到填充的新角色，其类型为 \> 0。</span><span class="sxs-lookup"><span data-stu-id="9021f-118">After this process is complete, you should see the new role populated in the **LogisticsLocationRole** table with type \> 0.</span></span> <span data-ttu-id="9021f-119">这个新角色将在**地址和联系信息目的**页中显示。</span><span class="sxs-lookup"><span data-stu-id="9021f-119">The new role will display on the **Address and contact information purpose** page.</span></span>
 
         ![插入新位置](media/InsertNewLocation.PNG)
 
-## <a name="add-party-relationship-types"></a><span data-ttu-id="0464d-121">添加当事方关系类型</span><span class="sxs-lookup"><span data-stu-id="0464d-121">Add party relationship types</span></span> 
+## <a name="add-party-relationship-types"></a><span data-ttu-id="9021f-121">添加当事方关系类型</span><span class="sxs-lookup"><span data-stu-id="9021f-121">Add party relationship types</span></span> 
 
-<span data-ttu-id="0464d-122">可通过两种方法添加新关系类型。</span><span class="sxs-lookup"><span data-stu-id="0464d-122">There are two ways to add a new relationship type:</span></span>
+<span data-ttu-id="9021f-122">可通过两种方法添加新关系类型。</span><span class="sxs-lookup"><span data-stu-id="9021f-122">There are two ways to add a new relationship type:</span></span>
 
--   <span data-ttu-id="0464d-123">通过**关系类型**页添加。</span><span class="sxs-lookup"><span data-stu-id="0464d-123">Add it through the **Relationship types** page.</span></span> <span data-ttu-id="0464d-124">新关系将保存到 **DirRelationshipTypeTable**，并且其 systemtype = 0。</span><span class="sxs-lookup"><span data-stu-id="0464d-124">The new relationship will be saved to **DirRelationshipTypeTable** with systemtype = 0.</span></span>
+-   <span data-ttu-id="9021f-123">通过**关系类型**页添加。</span><span class="sxs-lookup"><span data-stu-id="9021f-123">Add it through the **Relationship types** page.</span></span> <span data-ttu-id="9021f-124">新关系将保存到 **DirRelationshipTypeTable**，并且其 systemtype = 0。</span><span class="sxs-lookup"><span data-stu-id="9021f-124">The new relationship will be saved to **DirRelationshipTypeTable** with systemtype = 0.</span></span>
 
     ![关系类型](media/Relationship.PNG)
 
--  <span data-ttu-id="0464d-126">将其添加到 **DirSystemRelationshipType** 枚举的扩展，并通过数据库同步过程对其进行填充。</span><span class="sxs-lookup"><span data-stu-id="0464d-126">Add it to the extension of the **DirSystemRelationshipType** enum, and let it populate through database sync process.</span></span>
+-  <span data-ttu-id="9021f-126">将其添加到 **DirSystemRelationshipType** 枚举的扩展，并通过数据库同步过程对其进行填充。</span><span class="sxs-lookup"><span data-stu-id="9021f-126">Add it to the extension of the **DirSystemRelationshipType** enum, and let it populate through database sync process.</span></span>
 
-    1.  <span data-ttu-id="0464d-127">创建 **DirSystemRelationshipType** 枚举的扩展，然后添加新关系类型。</span><span class="sxs-lookup"><span data-stu-id="0464d-127">Create an extension to the **DirSystemRelationshipType** enum and add the new relationship type.</span></span>
+    1.  <span data-ttu-id="9021f-127">创建 **DirSystemRelationshipType** 枚举的扩展，然后添加新关系类型。</span><span class="sxs-lookup"><span data-stu-id="9021f-127">Create an extension to the **DirSystemRelationshipType** enum and add the new relationship type.</span></span>
 
-    2. <span data-ttu-id="0464d-128">为这个新类型创建初始值设定项。</span><span class="sxs-lookup"><span data-stu-id="0464d-128">Create an initializer for this new type.</span></span> <span data-ttu-id="0464d-129">核心代码中包含多个示例，其中一个为 **DirRelationshipTypeChildInitialize**。</span><span class="sxs-lookup"><span data-stu-id="0464d-129">You can find several examples in the core code, one of them is  **DirRelationshipTypeChildInitialize**.</span></span> <span data-ttu-id="0464d-130">这是当事方关系类型“Child”的一个初始值设定项类。</span><span class="sxs-lookup"><span data-stu-id="0464d-130">This is an initializer class for party relationship type “Child”.</span></span> <span data-ttu-id="0464d-131">可通过复制并粘贴此代码，然后更新突出显示的区域，开始处理初始值设定项。</span><span class="sxs-lookup"><span data-stu-id="0464d-131">You can start with your initializer by copying and pasting this code and then update the highlighted areas.</span></span>
+    2. <span data-ttu-id="9021f-128">为这个新类型创建初始值设定项。</span><span class="sxs-lookup"><span data-stu-id="9021f-128">Create an initializer for this new type.</span></span> <span data-ttu-id="9021f-129">核心代码中包含多个示例，其中一个为 **DirRelationshipTypeChildInitialize**。</span><span class="sxs-lookup"><span data-stu-id="9021f-129">You can find several examples in the core code, one of them is  **DirRelationshipTypeChildInitialize**.</span></span> <span data-ttu-id="9021f-130">这是当事方关系类型“Child”的一个初始值设定项类。</span><span class="sxs-lookup"><span data-stu-id="9021f-130">This is an initializer class for party relationship type “Child”.</span></span> <span data-ttu-id="9021f-131">可通过复制并粘贴此代码，然后更新突出显示的区域，开始处理初始值设定项。</span><span class="sxs-lookup"><span data-stu-id="9021f-131">You can start with your initializer by copying and pasting this code and then update the highlighted areas.</span></span>
     
-    ![DirRelationshipChild](media/DirRelationship.PNG)
+    ![DirRelationshipChild 初始化器](media/DirRelationship.PNG)
 
-    3.  <span data-ttu-id="0464d-133">若要测试填充新关系类型，可创建一个可运行的类，然后在 Main() 中调用 DirDataPopulation::insertDirRelationshipTypes()。</span><span class="sxs-lookup"><span data-stu-id="0464d-133">To test populating the new relationship type, you can create a runnable class, and call DirDataPopulation::insertDirRelationshipTypes() in Main().</span></span> <span data-ttu-id="0464d-134">应该会在 **DirRelationshipTypeTable** 中看到这个新关系类型，而整个新关系类型也会出现在**关系类型**页中。</span><span class="sxs-lookup"><span data-stu-id="0464d-134">You should see the new relationship type in the **DirRelationshipTypeTable**, and the new relationship type will be available on the **Relationship types** page.</span></span>
+    3.  <span data-ttu-id="9021f-133">若要测试填充新关系类型，可创建一个可运行的类，然后在 Main() 中调用 DirDataPopulation::insertDirRelationshipTypes()。</span><span class="sxs-lookup"><span data-stu-id="9021f-133">To test populating the new relationship type, you can create a runnable class, and call DirDataPopulation::insertDirRelationshipTypes() in Main().</span></span> <span data-ttu-id="9021f-134">应该会在 **DirRelationshipTypeTable** 中看到这个新关系类型，而整个新关系类型也会出现在**关系类型**页中。</span><span class="sxs-lookup"><span data-stu-id="9021f-134">You should see the new relationship type in the **DirRelationshipTypeTable**, and the new relationship type will be available on the **Relationship types** page.</span></span>
 
         ![可运行的类](media/Runnable.PNG)

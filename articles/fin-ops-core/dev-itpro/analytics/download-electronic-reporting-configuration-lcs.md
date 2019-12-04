@@ -18,59 +18,59 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 561187343073a84b152151abe8770e89196eaa56
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 49785835ee2da911d7b8d1360e1c42f850f1153f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174113"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771485"
 ---
-# <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a><span data-ttu-id="ef6af-103">从 Lifecycle Services 下载电子申报配置</span><span class="sxs-lookup"><span data-stu-id="ef6af-103">Download Electronic reporting configurations from Lifecycle Services</span></span>
+# <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a><span data-ttu-id="d5f64-103">从 Lifecycle Services 下载电子申报配置</span><span class="sxs-lookup"><span data-stu-id="d5f64-103">Download Electronic reporting configurations from Lifecycle Services</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ef6af-104">本主题介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 下载电子申报 (ER) 配置。</span><span class="sxs-lookup"><span data-stu-id="ef6af-104">This topic explains how to download Electronic reporting (ER) configurations from Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="d5f64-104">本主题介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 下载电子申报 (ER) 配置。</span><span class="sxs-lookup"><span data-stu-id="d5f64-104">This topic explains how to download Electronic reporting (ER) configurations from Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-<span data-ttu-id="ef6af-105">本教程指导您如何从 Microsoft Dynamics Lifecycle Services (LCS) 下载最新版本的电子申报 (ER) 配置的整个流程。</span><span class="sxs-lookup"><span data-stu-id="ef6af-105">This tutorial guides you through the process of downloading the newest version of Electronic reporting (ER) configurations from Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="d5f64-105">本教程指导您如何从 Microsoft Dynamics Lifecycle Services (LCS) 下载最新版本的电子申报 (ER) 配置的整个流程。</span><span class="sxs-lookup"><span data-stu-id="d5f64-105">This tutorial guides you through the process of downloading the newest version of Electronic reporting (ER) configurations from Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-1. <span data-ttu-id="ef6af-106">通过使用以下角色之一登录到应用程序：</span><span class="sxs-lookup"><span data-stu-id="ef6af-106">Sign in to the application by using one of the following roles:</span></span>
+1. <span data-ttu-id="d5f64-106">通过使用以下角色之一登录到应用程序：</span><span class="sxs-lookup"><span data-stu-id="d5f64-106">Sign in to the application by using one of the following roles:</span></span>
 
-    - <span data-ttu-id="ef6af-107">电子申报开发人员</span><span class="sxs-lookup"><span data-stu-id="ef6af-107">Electronic reporting developer</span></span>
-    - <span data-ttu-id="ef6af-108">电子申报功能顾问</span><span class="sxs-lookup"><span data-stu-id="ef6af-108">Electronic reporting functional consultant</span></span>
-    - <span data-ttu-id="ef6af-109">系统管理员</span><span class="sxs-lookup"><span data-stu-id="ef6af-109">System administrator</span></span>
+    - <span data-ttu-id="d5f64-107">电子申报开发人员</span><span class="sxs-lookup"><span data-stu-id="d5f64-107">Electronic reporting developer</span></span>
+    - <span data-ttu-id="d5f64-108">电子申报功能顾问</span><span class="sxs-lookup"><span data-stu-id="d5f64-108">Electronic reporting functional consultant</span></span>
+    - <span data-ttu-id="d5f64-109">系统管理员</span><span class="sxs-lookup"><span data-stu-id="d5f64-109">System administrator</span></span>
 
-2. <span data-ttu-id="ef6af-110">转到**组织管理** &gt; **电子申报**。</span><span class="sxs-lookup"><span data-stu-id="ef6af-110">Go to **Organization administration** &gt; **Electronic reporting**.</span></span>
-3. <span data-ttu-id="ef6af-111">在**配置提供程序**部分中，选择 **Microsoft** 磁贴。</span><span class="sxs-lookup"><span data-stu-id="ef6af-111">In the **Configuration providers** section, select the **Microsoft** tile.</span></span>
-4. <span data-ttu-id="ef6af-112">在 **Microsoft** 磁贴上，单击**存储库**。</span><span class="sxs-lookup"><span data-stu-id="ef6af-112">On the **Microsoft** tile, click **Repositories**.</span></span>
+2. <span data-ttu-id="d5f64-110">转到**组织管理** &gt; **电子申报**。</span><span class="sxs-lookup"><span data-stu-id="d5f64-110">Go to **Organization administration** &gt; **Electronic reporting**.</span></span>
+3. <span data-ttu-id="d5f64-111">在**配置提供程序**部分中，选择 **Microsoft** 磁贴。</span><span class="sxs-lookup"><span data-stu-id="d5f64-111">In the **Configuration providers** section, select the **Microsoft** tile.</span></span>
+4. <span data-ttu-id="d5f64-112">在 **Microsoft** 磁贴上，单击**存储库**。</span><span class="sxs-lookup"><span data-stu-id="d5f64-112">On the **Microsoft** tile, click **Repositories**.</span></span>
 
-    <span data-ttu-id="ef6af-113">[![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)</span><span class="sxs-lookup"><span data-stu-id="ef6af-113">[![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)</span></span>
+    <span data-ttu-id="d5f64-113">[![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)</span><span class="sxs-lookup"><span data-stu-id="d5f64-113">[![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)</span></span>
 
-5. <span data-ttu-id="ef6af-114">在**配置存储库**页面，在网格中，选择 **LCS** 类型的现有存储库。</span><span class="sxs-lookup"><span data-stu-id="ef6af-114">On the **Configuration repositories** page, in the grid, select the existing repository of the **LCS** type.</span></span> <span data-ttu-id="ef6af-115">如果此存储库没有显示在网格中，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="ef6af-115">If this repository doesn't appear in the grid, follow these steps:</span></span>
+5. <span data-ttu-id="d5f64-114">在**配置存储库**页面，在网格中，选择 **LCS** 类型的现有存储库。</span><span class="sxs-lookup"><span data-stu-id="d5f64-114">On the **Configuration repositories** page, in the grid, select the existing repository of the **LCS** type.</span></span> <span data-ttu-id="d5f64-115">如果此存储库没有显示在网格中，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="d5f64-115">If this repository doesn't appear in the grid, follow these steps:</span></span>
 
-    1. <span data-ttu-id="ef6af-116">单击**添加**添加新存储库。</span><span class="sxs-lookup"><span data-stu-id="ef6af-116">Click **Add** to add a new repository.</span></span>
-    2. <span data-ttu-id="ef6af-117">选择 **LCS** 作为存储库类型。</span><span class="sxs-lookup"><span data-stu-id="ef6af-117">Select **LCS** as the repository type.</span></span>
-    3. <span data-ttu-id="ef6af-118">单击**创建存储库**。</span><span class="sxs-lookup"><span data-stu-id="ef6af-118">Click **Create repository**.</span></span>
-    4. <span data-ttu-id="ef6af-119">如果系统提示，请按照授权说明操作。</span><span class="sxs-lookup"><span data-stu-id="ef6af-119">If prompted, follow the authorization instructions.</span></span>
-    5. <span data-ttu-id="ef6af-120">输入存储库的名称和描述。</span><span class="sxs-lookup"><span data-stu-id="ef6af-120">Enter a name and description for the repository.</span></span>
-    6. <span data-ttu-id="ef6af-121">单击**确定**确认新存储库条目。</span><span class="sxs-lookup"><span data-stu-id="ef6af-121">Click **OK** to confirm the new repository entry.</span></span>
-    7. <span data-ttu-id="ef6af-122">在网格中，选择 **LCS** 类型的新存储库。</span><span class="sxs-lookup"><span data-stu-id="ef6af-122">In the grid, select the new repository of the **LCS** type.</span></span>
+    1. <span data-ttu-id="d5f64-116">单击**添加**添加新存储库。</span><span class="sxs-lookup"><span data-stu-id="d5f64-116">Click **Add** to add a new repository.</span></span>
+    2. <span data-ttu-id="d5f64-117">选择 **LCS** 作为存储库类型。</span><span class="sxs-lookup"><span data-stu-id="d5f64-117">Select **LCS** as the repository type.</span></span>
+    3. <span data-ttu-id="d5f64-118">单击**创建存储库**。</span><span class="sxs-lookup"><span data-stu-id="d5f64-118">Click **Create repository**.</span></span>
+    4. <span data-ttu-id="d5f64-119">如果系统提示，请按照授权说明操作。</span><span class="sxs-lookup"><span data-stu-id="d5f64-119">If prompted, follow the authorization instructions.</span></span>
+    5. <span data-ttu-id="d5f64-120">输入存储库的名称和描述。</span><span class="sxs-lookup"><span data-stu-id="d5f64-120">Enter a name and description for the repository.</span></span>
+    6. <span data-ttu-id="d5f64-121">单击**确定**确认新存储库条目。</span><span class="sxs-lookup"><span data-stu-id="d5f64-121">Click **OK** to confirm the new repository entry.</span></span>
+    7. <span data-ttu-id="d5f64-122">在网格中，选择 **LCS** 类型的新存储库。</span><span class="sxs-lookup"><span data-stu-id="d5f64-122">In the grid, select the new repository of the **LCS** type.</span></span>
 
-6. <span data-ttu-id="ef6af-123">单击**打开**查看选择的存储库的 ER 配置列表。</span><span class="sxs-lookup"><span data-stu-id="ef6af-123">Click **Open** to view the list of ER configurations for the selected repository.</span></span>
+6. <span data-ttu-id="d5f64-123">单击**打开**查看选择的存储库的 ER 配置列表。</span><span class="sxs-lookup"><span data-stu-id="d5f64-123">Click **Open** to view the list of ER configurations for the selected repository.</span></span>
 
-    <span data-ttu-id="ef6af-124">[![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)</span><span class="sxs-lookup"><span data-stu-id="ef6af-124">[![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)</span></span>
+    <span data-ttu-id="d5f64-124">[![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)</span><span class="sxs-lookup"><span data-stu-id="d5f64-124">[![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)</span></span>
 
-7. <span data-ttu-id="ef6af-125">在左侧窗格的配置树中，选择您所需的 ER 配置。</span><span class="sxs-lookup"><span data-stu-id="ef6af-125">In the configurations tree in the left pane, select the ER configuration that you require.</span></span>
-8. <span data-ttu-id="ef6af-126">在**版本**快速选项卡上，选择所选 ER 配置所需的版本。</span><span class="sxs-lookup"><span data-stu-id="ef6af-126">On the **Versions** FastTab, select the required version of the selected ER configuration.</span></span>
-9. <span data-ttu-id="ef6af-127">单击**导入**将所选版本从 LCS 下载到当前实例。</span><span class="sxs-lookup"><span data-stu-id="ef6af-127">Click **Import** to download the selected version from LCS to the current instance.</span></span>
+7. <span data-ttu-id="d5f64-125">在左侧窗格的配置树中，选择您所需的 ER 配置。</span><span class="sxs-lookup"><span data-stu-id="d5f64-125">In the configurations tree in the left pane, select the ER configuration that you require.</span></span>
+8. <span data-ttu-id="d5f64-126">在**版本**快速选项卡上，选择所选 ER 配置所需的版本。</span><span class="sxs-lookup"><span data-stu-id="d5f64-126">On the **Versions** FastTab, select the required version of the selected ER configuration.</span></span>
+9. <span data-ttu-id="d5f64-127">单击**导入**将所选版本从 LCS 下载到当前实例。</span><span class="sxs-lookup"><span data-stu-id="d5f64-127">Click **Import** to download the selected version from LCS to the current instance.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="ef6af-128">**导入**按钮对当前实例中已呈现的 ER 配置版本不可用。</span><span class="sxs-lookup"><span data-stu-id="ef6af-128">The **Import** button is unavailable for ER configuration versions that are already present in the current instance.</span></span>
+    > <span data-ttu-id="d5f64-128">**导入**按钮对当前实例中已呈现的 ER 配置版本不可用。</span><span class="sxs-lookup"><span data-stu-id="d5f64-128">The **Import** button is unavailable for ER configuration versions that are already present in the current instance.</span></span>
 
-    <span data-ttu-id="ef6af-129">[![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)</span><span class="sxs-lookup"><span data-stu-id="ef6af-129">[![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)</span></span>
+    <span data-ttu-id="d5f64-129">[![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)</span><span class="sxs-lookup"><span data-stu-id="d5f64-129">[![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ef6af-130">根据 ER 设置，配置在导入后进行验证。</span><span class="sxs-lookup"><span data-stu-id="ef6af-130">Depending on the ER settings, configurations are validated after they are imported.</span></span> <span data-ttu-id="ef6af-131">您可能会收到发现的任何不一致问题。</span><span class="sxs-lookup"><span data-stu-id="ef6af-131">You might be notified about any inconsistency issues that are discovered.</span></span> <span data-ttu-id="ef6af-132">在可以使用导入的配置版本之前，必须解决这些问题。</span><span class="sxs-lookup"><span data-stu-id="ef6af-132">You must resolve those issues before you can use the imported configuration version.</span></span> <span data-ttu-id="ef6af-133">有关详细信息，请参阅本主题的相关文章列表。</span><span class="sxs-lookup"><span data-stu-id="ef6af-133">For more information, see the list of related articles for this topic.</span></span>
+> <span data-ttu-id="d5f64-130">根据 ER 设置，配置在导入后进行验证。</span><span class="sxs-lookup"><span data-stu-id="d5f64-130">Depending on the ER settings, configurations are validated after they are imported.</span></span> <span data-ttu-id="d5f64-131">您可能会收到发现的任何不一致问题。</span><span class="sxs-lookup"><span data-stu-id="d5f64-131">You might be notified about any inconsistency issues that are discovered.</span></span> <span data-ttu-id="d5f64-132">在可以使用导入的配置版本之前，必须解决这些问题。</span><span class="sxs-lookup"><span data-stu-id="d5f64-132">You must resolve those issues before you can use the imported configuration version.</span></span> <span data-ttu-id="d5f64-133">有关详细信息，请参阅本主题的相关文章列表。</span><span class="sxs-lookup"><span data-stu-id="d5f64-133">For more information, see the list of related articles for this topic.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="ef6af-134">其他资源</span><span class="sxs-lookup"><span data-stu-id="ef6af-134">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="d5f64-134">其他资源</span><span class="sxs-lookup"><span data-stu-id="d5f64-134">Additional resources</span></span>
 
-[<span data-ttu-id="ef6af-135">电子申报概览</span><span class="sxs-lookup"><span data-stu-id="ef6af-135">Electronic reporting overview</span></span>](general-electronic-reporting.md)
+[<span data-ttu-id="d5f64-135">电子申报 (ER) 概览</span><span class="sxs-lookup"><span data-stu-id="d5f64-135">Electronic reporting (ER) overview</span></span>](general-electronic-reporting.md)

@@ -17,40 +17,40 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11b541c3e159b2c38e4dd2fa9f2ad08e4c1e4500
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 14b4410a0bd177159817cd5116a5a0d959992ad5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176692"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812401"
 ---
-# <a name="configure-parallel-activities-in-a-workflow"></a><span data-ttu-id="c7965-103">配置工作流中的并行活动</span><span class="sxs-lookup"><span data-stu-id="c7965-103">Configure parallel activities in a workflow</span></span>
+# <a name="configure-parallel-activities-in-a-workflow"></a><span data-ttu-id="5ff1e-103">配置工作流中的并行活动</span><span class="sxs-lookup"><span data-stu-id="5ff1e-103">Configure parallel activities in a workflow</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c7965-104">要配置并行活动，请在工作流编辑器中完成以下过程。</span><span class="sxs-lookup"><span data-stu-id="c7965-104">To configure a parallel activity, complete the following procedures in the workflow editor.</span></span>
+<span data-ttu-id="5ff1e-104">要配置并行活动，请在工作流编辑器中完成以下过程。</span><span class="sxs-lookup"><span data-stu-id="5ff1e-104">To configure a parallel activity, complete the following procedures in the workflow editor.</span></span>
 
-<span data-ttu-id="c7965-105">并行活动包括同时运行的工作流分支。</span><span class="sxs-lookup"><span data-stu-id="c7965-105">A parallel activity consists of workflow branches that run at the same time.</span></span>
+<span data-ttu-id="5ff1e-105">并行活动包括同时运行的工作流分支。</span><span class="sxs-lookup"><span data-stu-id="5ff1e-105">A parallel activity consists of workflow branches that run at the same time.</span></span>
 
-## <a name="name-a-parallel-activity"></a><span data-ttu-id="c7965-106">对并行活动命名</span><span class="sxs-lookup"><span data-stu-id="c7965-106">Name a parallel activity</span></span>
+## <a name="name-a-parallel-activity"></a><span data-ttu-id="5ff1e-106">对并行活动命名</span><span class="sxs-lookup"><span data-stu-id="5ff1e-106">Name a parallel activity</span></span>
 
-<span data-ttu-id="c7965-107">按照以下步骤为并行活动输入名称。</span><span class="sxs-lookup"><span data-stu-id="c7965-107">Follow these steps to enter a name for a parallel activity.</span></span>
+<span data-ttu-id="5ff1e-107">按照以下步骤为并行活动输入名称。</span><span class="sxs-lookup"><span data-stu-id="5ff1e-107">Follow these steps to enter a name for a parallel activity.</span></span>
 
-1. <span data-ttu-id="c7965-108">右键单击该并行活动然后单击**属性**打开**属性**窗体。</span><span class="sxs-lookup"><span data-stu-id="c7965-108">Right-click the parallel activity, and then click **Properties** to open the **Properties** form.</span></span>
-2. <span data-ttu-id="c7965-109">在左侧窗格中，单击**基本设置**。</span><span class="sxs-lookup"><span data-stu-id="c7965-109">In the left pane, click **Basic Settings**.</span></span>
-3. <span data-ttu-id="c7965-110">在**名称**字段中，为该并行活动输入唯一名称。</span><span class="sxs-lookup"><span data-stu-id="c7965-110">In the **Name** field, enter a unique name for the parallel activity.</span></span>
-4. <span data-ttu-id="c7965-111">单击**关闭**。</span><span class="sxs-lookup"><span data-stu-id="c7965-111">Click **Close**.</span></span>
+1. <span data-ttu-id="5ff1e-108">右键单击该并行活动然后单击**属性**打开**属性**窗体。</span><span class="sxs-lookup"><span data-stu-id="5ff1e-108">Right-click the parallel activity, and then click **Properties** to open the **Properties** form.</span></span>
+2. <span data-ttu-id="5ff1e-109">在左侧窗格中，单击**基本设置**。</span><span class="sxs-lookup"><span data-stu-id="5ff1e-109">In the left pane, click **Basic Settings**.</span></span>
+3. <span data-ttu-id="5ff1e-110">在**名称**字段中，为该并行活动输入唯一名称。</span><span class="sxs-lookup"><span data-stu-id="5ff1e-110">In the **Name** field, enter a unique name for the parallel activity.</span></span>
+4. <span data-ttu-id="5ff1e-111">单击**关闭**。</span><span class="sxs-lookup"><span data-stu-id="5ff1e-111">Click **Close**.</span></span>
 
-## <a name="configure-the-branches-of-a-parallel-activity"></a><span data-ttu-id="c7965-112">配置并行活动的分支</span><span class="sxs-lookup"><span data-stu-id="c7965-112">Configure the branches of a parallel activity</span></span>
+## <a name="configure-the-branches-of-a-parallel-activity"></a><span data-ttu-id="5ff1e-112">配置并行活动的分支</span><span class="sxs-lookup"><span data-stu-id="5ff1e-112">Configure the branches of a parallel activity</span></span>
 
-<span data-ttu-id="c7965-113">按照以下步骤添加和配置此并行活动的分支。</span><span class="sxs-lookup"><span data-stu-id="c7965-113">Follow these steps to add and configure the branches of this parallel activity.</span></span>
+<span data-ttu-id="5ff1e-113">按照以下步骤添加和配置此并行活动的分支。</span><span class="sxs-lookup"><span data-stu-id="5ff1e-113">Follow these steps to add and configure the branches of this parallel activity.</span></span>
 
-1. <span data-ttu-id="c7965-114">双击并行活动显示并行活动的分支。</span><span class="sxs-lookup"><span data-stu-id="c7965-114">Double-click the parallel activity to display the branches of the parallel activity.</span></span>
-2. <span data-ttu-id="c7965-115">要添加分支，将**工作流元素**区域的**分支**元素拖到画布上的一个插入点。</span><span class="sxs-lookup"><span data-stu-id="c7965-115">To add a branch, drag the **Branch** element from the **Workflow elements** area to an insertion point on the canvas.</span></span> <span data-ttu-id="c7965-116">下图显示一个插入点。</span><span class="sxs-lookup"><span data-stu-id="c7965-116">The following figure shows an insertion point.</span></span>
+1. <span data-ttu-id="5ff1e-114">双击并行活动显示并行活动的分支。</span><span class="sxs-lookup"><span data-stu-id="5ff1e-114">Double-click the parallel activity to display the branches of the parallel activity.</span></span>
+2. <span data-ttu-id="5ff1e-115">要添加分支，将**工作流元素**区域的**分支**元素拖到画布上的一个插入点。</span><span class="sxs-lookup"><span data-stu-id="5ff1e-115">To add a branch, drag the **Branch** element from the **Workflow elements** area to an insertion point on the canvas.</span></span> <span data-ttu-id="5ff1e-116">下图显示一个插入点。</span><span class="sxs-lookup"><span data-stu-id="5ff1e-116">The following figure shows an insertion point.</span></span>
 
     ![插入点](./media/workflow_insertionpoint.gif)
 
     > [!NOTE]
-    > <span data-ttu-id="c7965-118">分支的顺序并不重要，因为并行活动的所有分支同时运行。</span><span class="sxs-lookup"><span data-stu-id="c7965-118">The order of the branches is not important because all the branches of a parallel activity run at the same time.</span></span>
+    > <span data-ttu-id="5ff1e-118">分支的顺序并不重要，因为并行活动的所有分支同时运行。</span><span class="sxs-lookup"><span data-stu-id="5ff1e-118">The order of the branches is not important because all the branches of a parallel activity run at the same time.</span></span>
 
-3. <span data-ttu-id="c7965-119">若要配置每个分支，请参阅“[配置并行分支](configure-parallel-branch-workflow.md)”。</span><span class="sxs-lookup"><span data-stu-id="c7965-119">To configure each branch, see [Configure a parallel branch](configure-parallel-branch-workflow.md).</span></span>
+3. <span data-ttu-id="5ff1e-119">若要配置每个分支，请参阅[配置工作流中的并行分支](configure-parallel-branch-workflow.md)。</span><span class="sxs-lookup"><span data-stu-id="5ff1e-119">To configure each branch, see [Configure parallel branches in a workflow](configure-parallel-branch-workflow.md).</span></span>

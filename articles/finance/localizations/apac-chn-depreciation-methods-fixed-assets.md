@@ -17,29 +17,29 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 034446f9dad908dc2db668cf949fedf4587d9a33
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8cefa695a5123f8dad6ea0f5390167f9d0be0810
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180470"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771694"
 ---
-# <a name="fixed-assets-depreciation-methods-for-china"></a><span data-ttu-id="f83e0-103">中国的固定资产折旧法</span><span class="sxs-lookup"><span data-stu-id="f83e0-103">Fixed assets depreciation methods for China</span></span>
+# <a name="fixed-assets-depreciation-methods-for-china"></a><span data-ttu-id="1fa46-103">中国的固定资产折旧法</span><span class="sxs-lookup"><span data-stu-id="1fa46-103">Fixed assets depreciation methods for China</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f83e0-104">此主题描述为中国法人设置的折旧法。</span><span class="sxs-lookup"><span data-stu-id="f83e0-104">This topic describes the depreciation method set up for legal entities in China.</span></span>
+<span data-ttu-id="1fa46-104">此主题描述为中国法人设置的折旧法。</span><span class="sxs-lookup"><span data-stu-id="1fa46-104">This topic describes the depreciation method set up for legal entities in China.</span></span>
 
-<span data-ttu-id="f83e0-105">年数总和折旧法 (SYD) 是一种基于以下假设的加速折旧技术：资产越新，生产率越高，如果变旧，生产率随之下降。</span><span class="sxs-lookup"><span data-stu-id="f83e0-105">The sum of the years' digits method of depreciation (SYD) is one of the accelerated depreciation techniques that is based on the assumption that assets are generally more productive when they are new and their productivity decreases as they become old.</span></span> <span data-ttu-id="f83e0-106">SYD 法的折旧计算公式为：</span><span class="sxs-lookup"><span data-stu-id="f83e0-106">The formula to calculate depreciation under SYD method is:</span></span>
+<span data-ttu-id="1fa46-105">年数总和折旧法 (SYD) 是一种基于以下假设的加速折旧技术：资产越新，生产率越高，如果变旧，生产率随之下降。</span><span class="sxs-lookup"><span data-stu-id="1fa46-105">The sum of the years' digits method of depreciation (SYD) is one of the accelerated depreciation techniques that is based on the assumption that assets are generally more productive when they are new and their productivity decreases as they become old.</span></span> <span data-ttu-id="1fa46-106">SYD 法的折旧计算公式为：</span><span class="sxs-lookup"><span data-stu-id="1fa46-106">The formula to calculate depreciation under SYD method is:</span></span>
 
-> <span data-ttu-id="f83e0-107">*SYD 折旧 = 折旧基数 × (剩余使用寿命/年数总和法)*</span><span class="sxs-lookup"><span data-stu-id="f83e0-107">*SYD Depreciation = Depreciable base × (Remaining useful life/Sum of the  years digits)*</span></span>
+> <span data-ttu-id="1fa46-107">*SYD 折旧 = 折旧基数 × (剩余使用寿命/年数总和法)*</span><span class="sxs-lookup"><span data-stu-id="1fa46-107">*SYD Depreciation = Depreciable base × (Remaining useful life/Sum of the  years digits)*</span></span>
 
-<span data-ttu-id="f83e0-108">若要创建折旧模板：</span><span class="sxs-lookup"><span data-stu-id="f83e0-108">To create a depreciation profile:</span></span>
+<span data-ttu-id="1fa46-108">若要创建折旧模板：</span><span class="sxs-lookup"><span data-stu-id="1fa46-108">To create a depreciation profile:</span></span>
 
-1. <span data-ttu-id="f83e0-109">在**固定资产参数**页上，选择  **SYDM 和 DRBM** 折旧法。</span><span class="sxs-lookup"><span data-stu-id="f83e0-109">On the **Fixed assets parameters** page, select the **SYDM and DRBM** depreciation methods.</span></span>
-2. <span data-ttu-id="f83e0-110">创建一个新折旧模板。</span><span class="sxs-lookup"><span data-stu-id="f83e0-110">Create a new depreciation profile.</span></span> <span data-ttu-id="f83e0-111">使用**年数总和法**或**双倍余额递减法**。</span><span class="sxs-lookup"><span data-stu-id="f83e0-111">Use the method of either **Sum year digits** or **Double reducing balance**.</span></span>
-3. <span data-ttu-id="f83e0-112">为该折旧法创建一个帐簿，请使用 **年数总和法**或**双倍余额递减法**。</span><span class="sxs-lookup"><span data-stu-id="f83e0-112">Create a book for the depreciation method, use either **Sum year digits** or **Double reducing balance**.</span></span>
+1. <span data-ttu-id="1fa46-109">在**固定资产参数**页上，选择  **SYDM 和 DRBM** 折旧法。</span><span class="sxs-lookup"><span data-stu-id="1fa46-109">On the **Fixed assets parameters** page, select the **SYDM and DRBM** depreciation methods.</span></span>
+2. <span data-ttu-id="1fa46-110">创建一个新折旧模板。</span><span class="sxs-lookup"><span data-stu-id="1fa46-110">Create a new depreciation profile.</span></span> <span data-ttu-id="1fa46-111">使用**年数总和法**或**双倍余额递减法**。</span><span class="sxs-lookup"><span data-stu-id="1fa46-111">Use the method of either **Sum year digits** or **Double reducing balance**.</span></span>
+3. <span data-ttu-id="1fa46-112">为该折旧法创建一个帐簿，请使用 **年数总和法**或**双倍余额递减法**。</span><span class="sxs-lookup"><span data-stu-id="1fa46-112">Create a book for the depreciation method, use either **Sum year digits** or **Double reducing balance**.</span></span>
 
-<span data-ttu-id="f83e0-113">有关详细信息，请参阅[设置固定资产折旧分摊](./tasks/fixed-asset-depreciation-allocation.md)。</span><span class="sxs-lookup"><span data-stu-id="f83e0-113">For more information, see [Set up fixed asset depreciation allocation](./tasks/fixed-asset-depreciation-allocation.md).</span></span>
+<span data-ttu-id="1fa46-113">有关详细信息，请参阅[设置固定资产折旧分摊](./tasks/fixed-asset-depreciation-allocation.md)。</span><span class="sxs-lookup"><span data-stu-id="1fa46-113">For more information, see [Setup fixed asset depreciation allocation](./tasks/fixed-asset-depreciation-allocation.md).</span></span>
 
 
