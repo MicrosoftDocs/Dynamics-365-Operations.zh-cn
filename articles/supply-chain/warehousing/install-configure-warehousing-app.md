@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
-ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
+ms.openlocfilehash: df0bc9ff2405cc2f370ea777a70e005a1ff338a0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2548960"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814942"
 ---
 # <a name="install-and-configure-the-warehousing-app-overview"></a>安装和配置仓库应用概览
 
@@ -62,15 +62,32 @@ ms.locfileid: "2548960"
 
 1.  在 Web 浏览器中，转至 <https://portal.azure.com>。
 2.  输入有权访问 Azure 订阅的用户的名称和密码。
-3.  在 Azure Portal 中的左导航窗格内，单击 **Azure Active Directory**.[](./media/WMA-01-active-directory-example.png)[![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+3.  在 Azure 门户的左侧导航窗格中，单击 **Azure Active Directory**。
+
+    [![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+
 4.  确保 Supply Chain Management 使用的是 Active Directory 实例。
-5.  在列表中，单击**应用程序注册**。 [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+5.  在列表中，单击**应用程序注册**。 
+
+    [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+
 6.  在顶部窗格中，单击**新注册**。 将启动**注册应用程序向导**。
-7.  输入应用程序的名称，然后选择**仅此组织目录中的帐户**。 单击**注册**。  [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
-8.  将打开您的新应用程序注册。 [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+7.  输入应用程序的名称，然后选择**仅此组织目录中的帐户**。 单击**注册**。  
+
+    [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
+
+8.  将打开您的新应用程序注册。 
+
+    [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+
 9.  记住**应用程序 ID**，后面需要它。 **应用程序 ID** 在后文称为**客户端 ID**。
-10. 单击**管理**窗格中的**证书和密钥**。 单击**新客户端密钥**。 [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
-11. 通过在**密码**部分中输入密钥说明和持续时间创建密码。 单击**添加**，然后复制该密钥。 该密钥在后面将称为**客户端密码**。 [![WMA-06-active-directory-save-key](./media/WMA-06-active-directory-save-key.png)](./media/WMA-06-active-directory-save-key.png)
+10. 单击**管理**窗格中的**证书和密钥**。 单击**新客户端密钥**。 
+
+    [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
+
+11. 通过在**密码**部分中输入密钥说明和持续时间创建密码。 单击**添加**，然后复制该密钥。 该密钥在后面将称为**客户端密码**。 
+
+    [![WMA-06-active-directory-save-key](./media/WMA-06-active-directory-save-key.png)](./media/WMA-06-active-directory-save-key.png)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>在 Supply Chain Management 中创建和配置用户帐户
 若要使 Supply Chain Management 使用您的 Azure AD 应用程序，需要完成以下配置步骤：
@@ -78,28 +95,47 @@ ms.locfileid: "2548960"
 1.  创建与 Warehousing 应用程序用户凭据对应的用户。
     1.  转到**系统管理** &gt; **常用** &gt; **用户**。
     2.  创建新用户。
-    3.  指定 Warehouse 移动设备用户，如以下屏幕截图所示。 [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
+    3.  指定 Warehouse 移动设备用户，如以下屏幕截图所示。 
+    
+        [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
 2.  将您的 Azure Active Directory 应用程序与该仓库应用用户关联。
     1.  在 Supply Chain Management 中，转至**系统管理** &gt; **设置** &gt; **Azure Active Directory 应用程序**。
     2.  创建新行。
-    3.  输入（上一部分中获取的）**客户端 ID**，为其命名，然后选择以前创建的用户。 建议您标记自己的所有设备，这样就可以从该页面中轻松取消其对 Supply Chain Management 的访问权限，以防这些设备丢失。 [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
+    3.  输入（上一部分中获取的）**客户端 ID**，为其命名，然后选择以前创建的用户。 建议您标记自己的所有设备，这样就可以从该页面中轻松取消其对 Supply Chain Management 的访问权限，以防这些设备丢失。 
+    
+        [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
 
 ## <a name="configure-the-application"></a>配置应用程序
 必须在设备上配置此应用程序，以便通过 Azure AD 应用程序连接到 Supply Chain Management 服务器。 为此，请完成以下步骤。
 
 1.  在应用程序中，转至**连接设置**。
-2.  清除**演示模式**字段。 <br>[![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
+2.  清除**演示模式**字段。 <br>
+
+    [![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
+
 3.  输入以下信息： 
     + **Azure Active Directory 客户端 ID** - 步骤 9 中“在 Active Directory 中创建 Web 服务应用程序”内创建的客户端 ID。 
     + **Azure Active Directory 客户端密码** - 步骤 11 中“在 Active Directory 中创建 Web 服务应用程序”内创建的客户端密码。 
-    + **Azure Active Directory 资源** - Azure AD Directory 资源描述 Supply Chain Management 根 URL。 **注释**：此字段请勿使用正斜杠支付 (/) 结尾。 
-    + **Azure Active Directory 租户** - 与 Supply Chain Management 服务器一起使用的 Azure AD Directory 租户：`https://login.windows.net/your-AD-tenant-ID`。 例如：`https://login.windows.net/contosooperations.onmicrosoft.com.` 
-    <br>**注释**：此字段请勿使用正斜杠支付 (/) 结尾。 
-    + **公司** - 在希望应用程序连接到的 Supply Chain Management 中输入法人。 <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
-4.  选择应用程序左上角中的**后退**按钮。 此应用程序现在将连接到您的 Supply Chain Management 服务器，并将显示仓库工作人员的登录屏幕。 <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
+    + **Azure Active Directory 资源** - Azure AD Directory 资源描述 Supply Chain Management 根 URL。 
+    
+        > [!NOTE]
+        > 此字段请勿使用正斜杠支付 (/) 结尾。 
 
-有关如何设置仓库应用程序以使用移动设备上的摄像头扫描条码的详细信息，请参阅在 [Dynamics 365 for Finance and Operations – 仓库](scan-bar-codes-using-a-camera.md)中使用摄像头扫描条码
+    + **Azure Active Directory 租户** - 与 Supply Chain Management 服务器一起使用的 Azure AD Directory 租户：`https://login.windows.net/your-AD-tenant-ID`。 例如：`https://login.windows.net/contosooperations.onmicrosoft.com.` 
+    
+        > [!NOTE]
+        > 此字段请勿使用正斜杠支付 (/) 结尾。 
+    
+    + **公司** - 在希望应用程序连接到的 Supply Chain Management 中输入法人。 <br>
+    
+    [![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
+
+4.  选择应用程序左上角中的**后退**按钮。 此应用程序现在将连接到您的 Supply Chain Management 服务器，并将显示仓库工作人员的登录屏幕。
+
+    [![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
+
+有关如何设置仓库应用程序以使用移动设备上的摄像头扫描条码的详细信息，请参阅在 [Dynamics 365 for Finance and Operations - 仓库应用](scan-bar-codes-using-a-camera.md)中使用摄像头扫描条码。
 
 ## <a name="remove-access-for-a-device"></a>取消设备的访问权限
 如果设备丢失或被入侵，您必须取消设备对 Supply Chain Management 的访问权限。 以下步骤介绍推荐的访问权限取消流程。

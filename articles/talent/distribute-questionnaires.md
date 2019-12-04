@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 242e9fd5fd4b22f3081367cf33ff18ff5e4174a5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026248"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814735"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>分发和计划调查表
 
@@ -54,7 +54,8 @@ ms.locfileid: "2026248"
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>调查表中的计划应答期
 计划应答期是您设计并选择调查对象的调查表。 
 
-> **注释**在您可以设置计划应答期之前，必须设计调查表。 
+> [!NOTE]
+>   在您可以设置计划应答期之前，必须设计调查表。 
 
 在**计划应答期**页上，您可为单独的员工创建计划应答期。 该页面上的列表显示所有已编制的调查表。 
 
@@ -108,12 +109,14 @@ ms.locfileid: "2026248"
 
 使用**调查表计划**页可以准备电子邮件并将其发送给分配有调查表的调查对象。 在**员工自助服务的电子邮件**选项卡上输入电子邮件文本。在计划开始后，单击**功能** &gt; **发送电子邮件**以生成电子邮件并将其发送给调查对象。 然后调查对象可以登录到该网站并完成调查表。 
 
-> **注释**在您可以使用电子邮件功能之前，您的 IT 管理员必须在**电子邮件参数**页上输入电子邮件设置。
+> [!NOTE]
+>   在您可以使用电子邮件功能之前，您的 IT 管理员必须在**电子邮件参数**页上输入电子邮件设置。
 
 ## <a name="ending-a-scheduled-questionnaire"></a>结束预定的调查表
 您可以在所有回应者都已完成他们的分配的应答期后，结束计划的调查表。 在结束后某一计划的调查表，您不能将其设置为新计划编制。 
 
-> **注释**如果一个或多个调查对象尚未完成调查表并且您仍要结束计划编制，则首先在**计划应答期**页上的列表中删除这些调查对象。 然后，即可结束计划。
+> [!NOTE]
+>   如果一个或多个调查对象尚未完成调查表并且您仍要结束计划编制，则首先在**计划应答期**页上的列表中删除这些调查对象。 然后，即可结束计划。
 
 ## <a name="completing-questionnaires"></a>填写调查表
 在您设计并分配某一调查表后，该调查表可由所选调查对象完成。 您可以从以下两个位置完成可供您使用的调查表：
@@ -128,7 +131,7 @@ ms.locfileid: "2026248"
 
 [设计调查表](design-questionnaires.md)
 
-[使用调查表](questionnaires.md)
+[调查表](questionnaires.md)
 
 [查看和评估调查表的结果](evaluate-questionnaire-results.md)
 

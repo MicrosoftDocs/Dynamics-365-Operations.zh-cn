@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06713d4f1ca1fe1c3feafe314da3a155fa7cd126
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c0059c152d2ac498a12095d636d0dc0bbf045995
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865296"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813469"
 ---
 # <a name="procurement-catalogs-overview"></a>采购目录概览
 
@@ -72,7 +72,7 @@ ms.locfileid: "1865296"
 <a name="additional-resources"></a>其他资源
 --------
 
-[设置一个采购类别层次结构（任务指南）](tasks/set-up-procurement-category-hierarchy.md)
+[设置采购类别层次结构](tasks/set-up-procurement-category-hierarchy.md)
 
 
 

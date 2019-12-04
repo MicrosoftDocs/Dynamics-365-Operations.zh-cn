@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c16082bb18ac5c170aab30f1a2033e0790cbacc1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a7a44e1c9d8dcb4b2cc81a682a044d26cdc1149e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025994"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812687"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Dynamics 365 Talent（2019 年 3 月 20 日）中的新增功能或更改
 
@@ -43,7 +43,7 @@ ms.locfileid: "2025994"
 如果应聘者在打开保存的链接或通过电子邮件收到的链接时忘记了用于申请工作的社交凭证，现在可以看到包含提供商名称和用户名（容易混淆）的提示。 这样就可以帮助他们使用正确的凭证访问自己的工作申请。
 
 ### <a name="help-internal-candidates-explore-internal-jobs"></a>帮助内部应聘者浏览内部工作
-已修复了一个问题，这个问题是外部应聘者可以看到工作的招聘人员或招聘经理的姓名。 现在只有内部应聘者可以看到工作的招聘团队成员。 内部应聘者还可以更轻松地查看和申请仅限内部的工作。 当应聘者尝试访问链接以查看或申请仅限内部的工作时，将强制其使用 Azure Active Directory 凭证进行身份验证。 内部应聘者还可以联系招聘团队成员以表明对工作感兴趣或了解该工作的更多信息。 这项功能适用于仅对内部应聘者开放的所有工作。 有关详细信息，请参阅 [Attract 中的求职站点功能](./career-site.md)。
+已修复了一个问题，这个问题是外部应聘者可以看到工作的招聘人员或招聘经理的姓名。 现在只有内部应聘者可以看到工作的招聘团队成员。 内部应聘者还可以更轻松地查看和申请仅限内部的工作。 当应聘者尝试访问链接以查看或申请仅限内部的工作时，将强制其使用 Azure Active Directory 凭证进行身份验证。 内部应聘者还可以联系招聘团队成员以表明对工作感兴趣或了解该工作的更多信息。 这项功能适用于仅对内部应聘者开放的所有工作。 有关详细信息，请参阅[在 Microsoft Dynamics 365 Talent - Attract 中设置求职站点](./career-site.md)。
 
 ### <a name="designate-silver-medalists-to-assign-high-value-applicants-for-future-positions"></a>指定银奖获得者以便为将来的职位指定高价值应聘者。
 招聘人员和招聘经理通常会保留非常适合职位，但是由于该职位的人员已满而不能为其提供聘约的申请人的流动轮候名单。 此类申请人称为银奖获得者，他们非常宝贵，因为可以在下次开放类似职位时帮助缩短招聘时间。 Attract 现在允许招聘人员和招聘经理指定申请人列表中的银奖获得者，以便此类申请人提前进入聘约阶段。 银奖获得者指定信息不但会出现在工作的申请人列表中，还会出现在人才池视图，前提是此类申请人是招聘人员或招聘经理的任何人才池的成员。 此外，指定信息还会出现在工作历史记录中，后者是应聘者的人才池个人资料。 您可以通过请管理员使用[管理中心中的功能管理](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature)开启此功能来预览此功能。

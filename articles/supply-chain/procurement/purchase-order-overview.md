@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8e5fd05f3114eb99b7e8b4390827d5ccd52832a
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c527735ea65dad84c5d3d405eac2ead35d3c792d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572183"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815357"
 ---
 # <a name="purchase-order-overview"></a>采购订单概览
 
@@ -41,9 +41,9 @@ ms.locfileid: "2572183"
 
 下列文章提供采购订单所经历的各个阶段的概述︰
 
--   [采购订单创建](purchase-order-creation.md)
--   [采购订单审核和确认](purchase-order-approval-confirmation.md)
--   [采购订单的产品收据](product-receipt-against-purchase-orders.md)
+-   [创建采购订单](purchase-order-creation.md)
+-   [审核和确认采购订单](purchase-order-approval-confirmation.md)
+-   [针对采购订单的物料收货](product-receipt-against-purchase-orders.md)
 -   [供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>采购订单的类型
@@ -82,11 +82,11 @@ ms.locfileid: "2572183"
 <a name="additional-resources"></a>其他资源
 --------
 
-[采购订单创建](purchase-order-creation.md)
+[创建采购订单](purchase-order-creation.md)
 
-[采购订单审核和确认](purchase-order-approval-confirmation.md)
+[审核和确认采购订单](purchase-order-approval-confirmation.md)
 
-[采购订单的产品收据](product-receipt-against-purchase-orders.md)
+[针对采购订单的物料收货](product-receipt-against-purchase-orders.md)
 
 [供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
 

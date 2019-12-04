@@ -1,5 +1,5 @@
 ---
-title: Attract 中的安全和角色管理
+title: 在 Attract 中设置用户权限
 description: 此主题提供有关 Microsoft Dynamics 365 Talent - Attract中的角色安全性的信息。
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7db2ac241db121f07eb3524c7c5c9a8f64e78537
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: efac512cfa07bb2183f06b8be45f74bef9af0767
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551418"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832690"
 ---
-# <a name="security-and-role-management-in-attract"></a>Attract 中的安全和角色管理
+# <a name="set-user-permissions-in-attract"></a>在 Attract 中设置用户权限
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract 使用基于角色的安全性。 换言之，不向单个用户授予访问权限，但向分配了安全角色的用户授予。 分配了安全角色的用户有权访问与该角色关联的一组权限。
 
@@ -52,7 +52,7 @@ Attract 提供五个基本用户角色：
 
 ## <a name="administrator"></a>管理员
 
-被分配了管理员角色的用户可以在 Attract 中访问和更改所有数据。 管理员可以创建、阅读、更新和删除数据。 他们还可以访问管理员中心，他们可以在其中配置 Attract 并设置用户信息。 我们建议至少向一个单个用户分配管理员角色。 默认情况下，Microsoft PowerApps 中的环境管理员在 Attract 中被设置为管理员。 如果您注册了 Attract 的试用版本，管理员角色将自动分配给您。 目前，要创建工作，具有管理员角色的用户还必须拥有招聘人员角色或招聘经理角色。
+被分配了管理员角色的用户可以在 Attract 中访问和更改所有数据。 管理员可以创建、阅读、更新和删除数据。 他们还可以访问管理员中心，他们可以在其中配置 Attract 并设置用户信息。 我们建议至少向一个单个用户分配管理员角色。 默认情况下，Microsoft Power Apps 中的环境管理员在 Attract 中被设置为管理员。 如果您注册了 Attract 的试用版本，管理员角色将自动分配给您。 目前，要创建工作，具有管理员角色的用户还必须拥有招聘人员角色或招聘经理角色。
 
 ## <a name="hiring-manager"></a>招聘经理
 

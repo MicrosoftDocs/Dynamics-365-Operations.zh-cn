@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 2a5c3e49f09bf4f1f90449db10d439f563ecc2c0
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: cf1c4cbc18728b6094f862792d20a893b2a8d6ea
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249819"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815264"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>与 Microsoft Dynamics 365 Field Service 的集成概述
 
@@ -41,9 +41,9 @@ Field Service 与 Supply Chain Management 集成的第一阶段的重点是让 F
 
 Field Service 与 Supply Chain Management 集成的第二阶段是实现以下项的同步：
 
-- [Supply Chain Management 中的产品到 Field Service 中的产品（包括产品类型信息）](field-service-product.md)
-- [Field Service 中的工作订单到 Supply Chain Management 中的销售订单](field-service-work-order.md)
-- [Field Service 中的发票到 Supply Chain Management 中的普通发票](field-service-invoice.md)
+- [将 Supply Chain Management 中的产品直接同步到 Field Service 中的产品](field-service-product.md)
+- [将 Field Service 中的工作订单同步到 Supply Chain Management 中的销售订单](field-service-work-order.md)
+- [将 Field Service 中的协议发票同步为 Supply Chain Management 中的普通发票](field-service-invoice.md)
 
 若要查看有关如何在 Field Service 与 Supply Chain Management 之间同步工作订单的示例，请观看下面的 YouTube 短片：[如何使用 Microsoft Dynamics 365 集成同步工作订单](https://www.youtube.com/watch?v=46ylO7raZAo)。
 

@@ -17,12 +17,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5134a0379ad9b6f546ba7f3f12dacb5906b0b3a5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 704b5c99940bb13bdd12c4a71ed3dcf55d626f7d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183965"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770494"
 ---
 # <a name="chinese-vouchers"></a>中国式凭证
 
@@ -42,14 +42,14 @@ ms.locfileid: "2183965"
 您可以在**总帐**页面中使用**简单**或**高级**方法创建凭证交易记录。 如果通过使用**简单**方法创建简单凭证类型的日记帐凭证，在所有日记帐行中选择的凭证类型应相同。 **高级**方式可让您创建其他凭证类型的多个日志行。 
 
 ## <a name="check-for-continuity-in-voucher-numbers"></a>检查凭证号的连续性
-中国式凭证号应连续，并且会计期间内应该没有间隔。 可以运行批处理确定中国式凭证号中是否有间隔。 批处理验证交易记录日期，然后为连续性对这些凭证进行重新编号。 为进行跟踪，可以生成**中国式凭证连续性检查**报告。 此报告显示已重新编号的中国式凭证的历史记录。 有关详细信息，请参阅[验证凭证的连续性](./tasks/chinese-voucher-continuity-check.md)。
+中国式凭证号应连续，并且会计期间内应该没有间隔。 可以运行批处理确定中国式凭证号中是否有间隔。 批处理验证交易记录日期，然后为连续性对这些凭证进行重新编号。 为进行跟踪，可以生成**中国式凭证连续性检查**报告。 此报告显示已重新编号的中国式凭证的历史记录。 有关详细信息，请参阅[中国式凭证连续性检查](./tasks/chinese-voucher-continuity-check.md)。
 
 ## <a name="printing-a-chinese-voucher"></a>打印中国式凭证
 可以在过帐凭证之前或之后打印中国式凭证。 在过帐之前或之后，已打印凭据显示诸如已重新编号的中国式凭证的历史记录的信息或税务信息。 在过帐之前或之后检查已打印信息以验证信息是否相同，以及信息是否正确。 例如，如果在日记帐凭证中选择销售税，最终凭证信息中将包含销售税。 但是，此销售税可能与日记帐中的销售税不同。 打印结果必须准确，并且必须与最后过帐之后生成的结果相同。 因此，您可以通过日志凭据和凭据交易记录打印信息正确的中国式凭据。 还可以在按中国式凭据和会计期间筛选信息之后，打印批处理中的中国式凭据。
 
 ## <a name="additional-resources"></a>其他资源
 - [过帐普通日记帐的凭证](./tasks/post-vouchers-general-journal.md)
-- [过帐其他模块的凭证](./tasks/post-vouchers-other-modules-like-sales-invoices.md)
+- [从其他模块（如销售发票）过帐凭证](./tasks/post-vouchers-other-modules-like-sales-invoices.md)
 
 
 

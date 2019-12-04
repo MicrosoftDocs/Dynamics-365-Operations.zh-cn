@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e39328c73fe3dd101e32ec04d895483335184ae7
-ms.sourcegitcommit: 4d6ec2b1a9674712e1efb8c46b919d554f21a2b3
+ms.openlocfilehash: 54f07e7037f818862db4a44f9ad3e3fe8545f6f9
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "2627643"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811474"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0（2016 年 2 月）中的新增功能和更改内容
 
@@ -322,7 +322,7 @@ ms.locfileid: "2627643"
 <tr>
 <td>通过单击<strong>帮助</strong>，访问引导式程序帮助（任务指南）和概念主题。</td>
 <td>AX 2012 帮助系统指向本地 Web 服务器上存储的 HTML 主题。 客户和合作伙伴可以创建自己的帮助。</td>
-<td>Dynamics AX 的当前版本中的帮助系统显示在 Microsoft Dynamics Lifecycle Services (LCS) BPM 中存储的任务指南。 该帮助系统还显示 Microsoft 文档站点中的主题。 有关详细信息，请参阅 <a href="help-overview.md" data-raw-source="[Dynamics AX Help - Getting Started](help-overview.md)">Dynamics AX 帮助 - 入门</a>和<a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides available (February 2016)](new-task-guides-available-february-2016.md)">新推出的任务指南（2016 年 2 月）</a>.</td>
+<td>Dynamics AX 的当前版本中的帮助系统显示在 Microsoft Dynamics Lifecycle Services (LCS) BPM 中存储的任务指南。 该帮助系统还显示 Microsoft 文档站点中的主题。 有关详细信息，请参阅<a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">帮助系统</a>和<a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">新任务指南（2016 年 2 月）</a>。</td>
 <td>任务指南提供引导、交互式的体验，带领您完成任务或业务流程中的步骤。 您可以下载和自定义 Microsoft 提供的任务指南。 本主题提供了更快、更灵活的方式来创建、交付和更新产品文档。 因此，它有助于确保您有权访问最新技术信息。</td>
 </tr>
 </tbody>
@@ -1031,6 +1031,6 @@ Lifecycle Services (LCS) 提供一系列服务，可供客户和合作伙伴用�
 
 ## <a name="additional-resources"></a>其他资源
 
-[新增功能或更改的功能](whats-new-changed.md)
+[Finance and Operations 新增功能或更改主页](whats-new-changed.md)
 
-[新任务指南可用（2016 年 2 月）](new-task-guides-available-february-2016.md)
+[新任务指南（2016 年 2 月）](new-task-guides-available-february-2016.md)

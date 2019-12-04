@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: 6ed1e4afcaeee03474d4c0ce20ac7864fb11ce78
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5538aef6599eeffee6d9b075f1b9630d55cf982a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551764"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812710"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-july-2018"></a>Dynamics 365 Talent - Core HR（2018 年 7 月）中的新增功能或更改
 
@@ -31,11 +31,11 @@ ms.locfileid: "2551764"
 
 此主题介绍了 Microsoft Dynamics 365 Talent: Core HR 中的新增功能和更改的功能。
 
-## <a name="powerapps-personalization"></a>PowerApps 个性化
+## <a name="power-apps-personalization"></a>Power Apps 个性化
 
-Talent 支持与 Microsoft PowerApps 服务集成。 开发人员和非技术用户都可以使用 PowerApps 在不编写代码的情况下构建适用于移动设备、平板电脑和 Web 的自定义业务应用程序。 而您、您的组织或者更广泛的生态系统使用 PowerApps 开发的应用程序则可以嵌入到 Talent 客户端以细分产品的功能。 例如，您可以构建应用程序以使用从其他系统检索的信息补充 Talent。
+Talent 支持与 Microsoft Power Apps 服务集成。 开发人员和非技术用户都可以使用 Power Apps 在不编写代码的情况下构建适用于移动设备、平板电脑和 Web 的自定义业务应用程序。 而您、您的组织或者更广泛的生态系统使用 Power Apps 开发的应用程序则可以嵌入到 Talent 客户端以细分产品的功能。 例如，您可以构建应用程序以使用从其他系统检索的信息补充 Talent。
 
-有关详细信息，请参阅[嵌入 PowerApps 应用程序](../fin-and-ops/get-started/embed-power-apps.md)。
+有关详细信息，请参阅[嵌入 Power Apps 应用程序](../fin-and-ops/get-started/embed-power-apps.md)。
 
 ## <a name="ceridian-payroll-integration"></a>Ceridian 工资单集成
 
@@ -46,7 +46,7 @@ Talent 支持与 Microsoft PowerApps 服务集成。 开发人员和非技术用
 - 工资单数据，如付薪周期、付薪期间和收入代码
 - 工作人员数据
 
-有关详细信息，请参阅 [配置工资单集成](configure-payroll-integration.md)。
+有关详细信息，请参阅[配置 Talent 和 Dayforce 之间的工资单集成](configure-payroll-integration.md)。
 
 ## <a name="worker-tax-regions-have-been-expanded-beyond-the-us"></a>工作人员税区已扩展到了美国以外
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 2e44770af4a30f539e56d38b21c897cacd2707e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025763"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812331"
 ---
 # <a name="call-center-sales-functionality"></a>呼叫中心销售功能
 
@@ -44,17 +44,17 @@ ms.locfileid: "2025763"
 
 ## <a name="configure-the-call-center"></a>配置呼叫中心
 
-[设置订单处理选项](set-up-order-processing-options.md)
+[设置呼叫中心渠道](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>配置订单处理
 
-[设置欺诈预警](set-up-fraud-alerts.md)
+[设置和处理呼叫中心欺诈预警](set-up-fraud-alerts.md)
 
-[手动保留订单](work-with-order-holds.md)
+[配置和使用呼叫中心订单保留](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>配置付款处理
 
-[呼叫中心内的付款方法](work-with-payments.md)
+[呼叫中心付款方式](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>配置交货方式
 
@@ -64,7 +64,7 @@ ms.locfileid: "2025763"
 
 [呼叫中心目录](call-center-catalogs.md)
 
-[设置 RFM 分析](set-up-rfm-analysis.md)
+[设置 Recency、频率和货币 (RFM) 分析](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>配置连续性计划
 

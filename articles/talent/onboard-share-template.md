@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 010d68b79300d15292dbcd4754eed8aac115cdce
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551441"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812825"
 ---
 # <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>在 Dynamics 365 Talent - Onboard 中与其他参与者共享内容
 
@@ -53,7 +53,7 @@ Microsoft Dynamics 365 Talent: Onboard 允许您与其他参与者共享入职�
 
 3. 在**接收人**下，如果接收人应该能够修改模板，请将**这些用户能否进行编辑?** 选项设置为**开**。 如果接收人应通过电子邮件收到您已与他们共享模板的通知，请将**向接收人发送电子邮件通知**选项设置为**开**。
 
-    [!为模板设置访问权限和电子邮件首选项](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
+    [![为模板设置访问权限和电子邮件首选项](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
 
 4. 输入名称或电子邮件地址，然后在下拉列表中选择预期接收人。
 5. 在**管理访问权限**选项卡上，您可以查看或更改哪些接收人可以处理模板。 若要更改接收人的访问权限，在接收人姓名旁边的下拉列表中，根据需要选择**可以查看**、**可以编辑**或**删除**。
@@ -68,6 +68,6 @@ Microsoft Dynamics 365 Talent: Onboard 允许您与其他参与者共享入职�
 ### <a name="see-also"></a>请参阅
 
 - [试用或购买 Onboard 应用](https://dynamics.microsoft.com/talent/onboard/)
-- [新增功能](./whats-new.md)
-- [版本说明](https://docs.microsoft.com/business-applications-release-notes/index)
-- [获取支持](./talent-support.md)
+- [Dynamics 365 Talent 新增功能或更改](./whats-new.md)
+- [发布计划](https://docs.microsoft.com/business-applications-release-notes/index)
+- [获取 Microsoft Dynamics 365 Talent 支持](./talent-support.md)

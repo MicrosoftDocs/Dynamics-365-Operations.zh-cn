@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cb55d7d00e5676fc5a1326d77889b4adb86c3ca6
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 50ce332673e130dace38f596020973d37c34b566
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248949"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813492"
 ---
 # <a name="manage-vendor-collaboration-users"></a>管理供应商协作用户
 
@@ -31,7 +31,7 @@ ms.locfileid: "2248949"
 
 本主题介绍您如何请求调配新供应商协作用户，以及如何添加新供应商协作联系人。 
 
-Dynamics 365 Supply Chain Management 中的供应商协作界面向外部供应商公开有关采购订单、发票和托运存货的信息。 如果您是作为具有**供应商管理员（外部）** 安全角色或类似权限的外部供应商，您可以创建新的供应商协作联系人和请求调配新用户。 如果您是作为采购专业人员，您也可以执行这些任务。 在本主题中，此角色是指在拥有 Supply Chain Management 实例的公司内部工作的采购专业人员。 有关如何使用供应商协作的详细信息，如果您是外部供应商，请参阅[具有客户的供应商](vendor-collaboration-work-customers-dynamics-365-operations.md)。  
+Dynamics 365 Supply Chain Management 中的供应商协作界面向外部供应商公开有关采购订单、发票和托运存货的信息。 如果您是作为具有**供应商管理员（外部）** 安全角色或类似权限的外部供应商，您可以创建新的供应商协作联系人和请求调配新用户。 如果您是作为采购专业人员，您也可以执行这些任务。 在本主题中，此角色是指在拥有 Supply Chain Management 实例的公司内部工作的采购专业人员。 有关如何使用供应商协作的详细信息，如果您是外部供应商，请参阅[供应商与客户的协作](vendor-collaboration-work-customers-dynamics-365-operations.md)。  
 
 。有关如何使用供应商协作的详细信息，如果您是采购专业人员，请参阅[供应商与外部供应商协作](vendor-collaboration-work-external-vendors.md)。
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 76c62f3a503ff2a8c93143390fc91ef81fbf7d0f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: b44fc116f1dcaa1275b2262487ef9114bce639c6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250453"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773846"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>将项目合同和项目直接从 Project Service Automation 同步到 Finance and Operations
 
@@ -42,11 +42,11 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 
 下图显示 Project Service Automation 与 Finance 之间中如何同步数据。
 
-[![Project Service Automation 与 Finance 集成的数据传输](./media/ProjectsAndContractsFlow.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Project Service Automation 与 Finance 集成的数据传输](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>模板和任务
 
-若要访问可用模板，请在 Microsoft PowerApps 管理员中心中选择**项目**，然后在右上角中选择**新建项目**以选择公共模板。
+若要访问可用模板，请在 Microsoft Power Apps 管理员中心中选择**项目**，然后在右上角中选择**新建项目**以选择公共模板。
 
 以下模板和基础任务用于将项目合同和项目从 Project Service Automation 同步到 Finance：
 

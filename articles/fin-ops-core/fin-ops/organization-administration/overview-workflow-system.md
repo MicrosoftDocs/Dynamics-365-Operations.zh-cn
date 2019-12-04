@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e5e795ca6f7831ecd3fa28be9782f0b287eea6e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: eef77a5d81d12ec92eea86b1dd9902d9e3d80b33
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189997"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812355"
 ---
 # <a name="workflow-system-overview"></a>工作流系统概览
 
@@ -57,17 +57,17 @@ ms.locfileid: "2189997"
 
 ## <a name="workflow-content"></a>工作流内容
 
-+ [工作流架构](workflow-system-architecture.md)
++ [工作流系统体系结构](workflow-system-architecture.md)
 + [工作流元素](workflow-elements.md)
-+ [工作流操作](workflow-actions.md)
-+ [创建工作流](create-workflow.md)
++ [工作流审核流程中的操作](workflow-actions.md)
++ [创建工作流概览](create-workflow.md)
 + [配置工作流属性](configure-workflow-properties.md)
-+ [在工作流中配置手动任务](configure-manual-task-workflow.md)
-+ [在工作流中配置自动化任务](configure-automated-task-workflow.md)
++ [配置工作流中的手动任务](configure-manual-task-workflow.md)
++ [配置工作流中的自动化任务](configure-automated-task-workflow.md)
 + [配置工作流中的审核流程](configure-approval-process-workflow.md)
 + [配置工作流中的审核步骤](configure-approval-step-workflow.md)
-+ [在工作流中配置手动决策](configure-manual-decision-workflow.md)
-+ [在工作流中配置有条件决策](configure-conditional-decision-workflow.md)
++ [配置工作流中的手动决策](configure-manual-decision-workflow.md)
++ [配置工作流中的有条件决策](configure-conditional-decision-workflow.md)
 + [配置工作流中的并行活动](configure-parallel-activity-workflow.md)
 + [配置工作流中的并行分支](configure-parallel-branch-workflow.md)
 + [配置行项工作流](configure-line-item-workflow.md)

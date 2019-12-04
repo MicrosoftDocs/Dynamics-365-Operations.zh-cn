@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a7db93e1877034051b6add4c11ddfe7cd7d17e0b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 575b27de845d931c990b1d19254b5218fa6e4199
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187904"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770842"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>创建维度并导入维度成员
 
@@ -44,11 +44,10 @@ ms.locfileid: "2187904"
 在数据导入到成本核算后，您可以使用它生成各种视角，为组织中的所有级别的经理提供见解。 以下主题提供有关创建维度和导入维度成员的信息。 
 
 -  [成本元素维度](cost-elements.md)
--  [创建成本元素（任务指南）](./tasks/create-cost-elements.md)
+-  [创建成本元素](./tasks/create-cost-elements.md)
 -  [成本对象维度](cost-objects.md)
--  [创建成本元素（任务指南）](./tasks/create-cost-objects.md)
 -  [将成本元素维度成员映射到一组常用维度成员](map-cost-elements-dimension-members.md)
--  [映射成本元素维度（任务指南）](./tasks/map-cost-element-dimension.md)
+-  [映射成本元素维度](./tasks/map-cost-element-dimension.md)
 -  [统计维度成员和统计度量提供方模板](statistical-measure-provider-template.md)
 
 

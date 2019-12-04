@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 38b694b6dd4b1b9a198452e409bd64d7934b4685
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6be2f79d4f0c234028c0cc98b81cfa8ff4fcc992
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517462"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813975"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>查看和评估调查表的结果
 
@@ -57,7 +57,8 @@ ms.locfileid: "1517462"
 -   **答卷报表** - 此报表显示针对调查表上每个问题选择的回应者的回答。
 -   **不正确回答** - 此报表显示与回应者所选的不正确回答相关的信息。
 
-**注意：** **结果**报表仅在您在调查表上使用结果组并已在**调查表**页面上选择**结果页面**时可用。 **答卷**报表和**不正确回答**报表仅在您已在**调查表**页面上选择**答卷报表**时可用。
+> [!NOTE]
+> **结果**报表仅在您在调查表上使用结果组并已在**调查表**页面上选择**结果页面**时可用。 **答卷**报表和**不正确回答**报表仅在您已在**调查表**页面上选择**答卷报表**时可用。
 
 ## <a name="questionnaire-statistics"></a>调查表统计
 您可以使用调查表统计分析基于您定义的计算的已完成的调查表的结果。 要定义计算，必须完成以下任务：
@@ -77,7 +78,7 @@ ms.locfileid: "1517462"
 
 [设计调查表](design-questionnaires.md)
 
-[使用调查表](questionnaires.md)
+[调查表](questionnaires.md)
 
-[分发和完成调查表](distribute-questionnaires.md)
+[分发和计划调查表](distribute-questionnaires.md)
 

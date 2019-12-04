@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b220dfc90d4b850c774ff638c5b766f650dcef9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4c912e8364a2503b98e511cbf22884528e467f0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190940"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811618"
 ---
 # <a name="new-task-guides-february-2016"></a>新任务指南（2016 年 2 月）
 
@@ -32,7 +32,7 @@ ms.locfileid: "2190940"
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX 的 APQC 标准库中的任务指南（2016 年 2 月）
 
-（2016 年 2 月）APQC 标准库包含用于帮助 Dynamics AX 7.0.0 发布的任务指南。 如果您需要这些任务指南的本地化版本，它们将在 Microsoft Dynamics AX 的（2016 年 5 月）APQC 标准库中提供。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助入门](help-overview.md)。
+（2016 年 2 月）APQC 标准库包含用于帮助 Dynamics AX 7.0.0 发布的任务指南。 如果您需要这些任务指南的本地化版本，它们将在 Microsoft Dynamics AX 的（2016 年 5 月）APQC 标准库中提供。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助系统](help-overview.md)。
 
 ### <a name="accounts-payable"></a>应付帐款
 

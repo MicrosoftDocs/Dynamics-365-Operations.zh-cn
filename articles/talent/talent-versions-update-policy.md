@@ -1,9 +1,9 @@
 ---
-title: Talent 系统要求和更新策略
-description: 此主题列出了 Dynamics 365 Talent 的要求。 另外，还概述了更新策略。
+title: Talent 系统要求
+description: 此主题列出了 Dynamics 365 Talent 的要求。
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/02/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0bd7d7051dd01834f306e165af55d740192b99e0
+ms.sourcegitcommit: caeb24027831efccbc316ff8e7f9e62b42010d65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024152"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2818471"
 ---
-# <a name="talent-system-requirements-and-update-policy"></a>Talent 系统要求和更新策略
+# <a name="talent-system-requirements"></a>Talent 系统要求
 
 [!include [banner](includes/banner.md)]
 
@@ -46,7 +46,7 @@ Microsoft Dynamics 365 Talent 可在指定操作系统上运行的以下任一 W
 > * Workflow Editor 作为 ClickOnce 应用程序启动。 只有 Microsoft Edge 和 Internet Explorer（在支持的 Microsoft Windows 版本上）才支持 ClickOnce 应用程序。 Workflow Editor ClickOnce 应用程序需要 64 位兼容操作系统。
 > * 若要预览 PDF 文件，我们建议您使用现代浏览器，如 Windows 10 上的 Microsoft Edge（最新公开提供的版本）或 Windows 10、Windows 8.1、Windows 8、Windows 7 或 Google Nexus 10 平板电脑上的 Google Chrome（最新公开提供的版本）。
 >   网络要求
-> * Dynamics 365 Talent 适用于延迟等于或低于 250-300 毫秒 (ms) 的网络。 该延迟是从浏览器客户端到托管 Talent 的 Microsoft Azure 数据中心的延迟。 建议在 [www.azurespeed.com](https://www.azurespeed.com "延迟测试") 测试网络延迟。
+> * Dynamics 365 Talent 适用于延迟等于或低于 250-300 毫秒 (ms) 的网络。 该延迟是从浏览器客户端到托管 Talent 的 Microsoft Azure 数据中心的延迟。 建议在 [www.azurespeed.com](https://www.azurespeed.com "Azure 延迟测试") 测试网络延迟。
 > * Talent 带宽要求取决于您的方案。 大多数典型方案要求带宽超过每秒 50 千字节 (KBps)。
 > 
 > [!WARNING]
@@ -66,8 +66,3 @@ Microsoft Dynamics 365 Talent 可在指定操作系统上运行的以下任一 W
 
 如果您是开发人员，并且有效期创建国家或地区特定的自定义项，或者有兴趣为 Microsoft 目前尚未支持的国家或地区创建解决方案，请参阅[全球化](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region)。
 
-## <a name="update-policy"></a>更新策略
-
-Talent 以云产品的形式提供。 Microsoft 将持续提供并自动应用 Talent 更新。
-
-更新定期针对所有环境发布。 对 Talent 的支持根据 [Microsoft 支持生命周期策略](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft 支持生命周期")提供，该策略为产品支持可用性提供一致且可预测的指南。

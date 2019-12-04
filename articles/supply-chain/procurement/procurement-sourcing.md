@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cce822f76323b6ce514d3793ce19f0160957e7a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558211"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813378"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>采购主页
 
@@ -36,14 +36,14 @@ ms.locfileid: "1558211"
 -   [采购申请概览](purchase-requisitions-overview.md)
 -   [创建消耗量申请](tasks/create-requisition-consumption.md)
 -   [创建使用询价的申请](tasks/create-requisition-uses-rfq.md)
--   [代表他人对订购的产品设置权限](tasks/set-up-permissions-ordering-products.md)
+-   [代表他人设置产品订购权限](tasks/set-up-permissions-ordering-products.md)
 
 ## <a name="requests-for-quotation"></a>询价
--   [询价](request-quotations.md)
+-   [询价 (RFQ) 概览](request-quotations.md)
 -   [创建询价](tasks/create-request-quotation.md)
 -   [输入和比较询价出价并授予合同](tasks/enter-compare-rfq-bids-award-contracts.md)
 -   [创建询价的评分标准](tasks/create-scoring-method-rfqs.md)
--   [创建询价的申请类型和评分标准](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
+-   [创建询价的申请类型和计分条件](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
 
 ## <a name="vendor-management-and-collaboration"></a>供应商管理和协作
 -   [设置供应商帐户](set-up-vendor-accounts.md)
@@ -58,12 +58,12 @@ ms.locfileid: "1558211"
 -   [Microsoft Dynamics 365 for Finance and Operations 的入站托运库存演示脚本](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)（白皮书）
 -   [使用供应商协作监控托运库存](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [使用供应商门户与供应商协作](collaborate-vendors-vendor-portal.md)（仅限 Dynamics AX 2016 年 2 月版本和 2016 年 5 月版本）
--   [为供应商门户用户配置安全性](configure-security-vendor-portal-users.md)（仅限 Finance and Operations 2016 年版本和 2016 年 5 月版本）
--   [Microsoft Dynamics 365 for Finance and Operations 应用的供应商协作移动工作区](vendor-collaboration-mobile-workspace.md)
+-   [供应商门户用户安全性](configure-security-vendor-portal-users.md)（仅限 Finance and Operations 2016 年版本和 2016 年 5 月版本）
+-   [供应商协作移动工作区](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>采购产品管理
--   [采购目录](procurement-catalogs.md)
--   [创建采购目录](tasks/create-procurement-catalog.md)
+-   [采购目录概览](procurement-catalogs.md)
+-   [创建采购订单](tasks/create-procurement-catalog.md)
 -   [导入供应商目录](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/)（博客文章）
 -   [设置采购类别层次结构](tasks/set-up-procurement-category-hierarchy.md)
 -   [设置采购类别层次结构的政策](tasks/set-up-policies-procurement-category-hierarchies.md)
@@ -72,7 +72,7 @@ ms.locfileid: "1558211"
 ## <a name="procurement"></a>采购
 -   [采购订单概览](purchase-order-overview.md)
 -   [采购订单创建](purchase-order-creation.md)
--   [采购订单审核和确认](purchase-order-approval-confirmation.md)
+-   [审核和确认采购订单](purchase-order-approval-confirmation.md)
 -   [创建采购订单](tasks/create-purchase-order.md)
 -   [创建重复采购订单](tasks/create-repeat-purchase-order.md)
 -   [基于销售订单创建采购订单](../sales-marketing/tasks/create-purchase-order-sales-order.md)
@@ -99,11 +99,8 @@ ms.locfileid: "1558211"
 -   [记录采购订单上的收货](tasks/record-receipt-goods-purchase-order.md)
 -   [采购申请工作流](purchase-requisitions-workflow.md)
 -   [定义采购申请的业务流程工作流](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)（白皮书）
--   [采购策略](purchase-policies.md)
+-   [采购策略概览](purchase-policies.md)
 -   [创建采购策略](tasks/create-purchasing-policies.md)
-
-
-
 
 
 

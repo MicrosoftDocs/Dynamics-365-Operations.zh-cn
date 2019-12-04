@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9c177f7a7b713e7b8490b718650daafeca0e937
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d84e3ed050bacf7632d03cf0123f682c43fd7b58
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189376"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772735"
 ---
 # <a name="three-way-matching-policies"></a>三向匹配政策
 
@@ -141,7 +141,7 @@ Contoso 中的纸质发票包含以下信息。
 如需审核通过发票匹配差异过帐的发票，在使用价格匹配错误和数量匹配错误过帐发票前必须选择“发票匹配详细信息”页中的“通过匹配差异审核过帐”开关。 如果不需要进行审核，且如果没有其他过帐错误，则发票处理可以继续。
 
 
-有关详细信息，请参阅[应付账款发票匹配](accounts-payable-invoice-matching.md)。
+有关详细信息，请参阅[应付账款发票匹配概述](accounts-payable-invoice-matching.md)。
 
 
 

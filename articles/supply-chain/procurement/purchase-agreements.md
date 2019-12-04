@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248914"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813354"
 ---
 # <a name="purchase-agreements"></a>采购协议
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 文本提供有关采购协议的信息。 采购协议是提交到某一组织，随时间推移通过使用多个采购订单购买指定的数量或金额的合同。 以此承诺作为交换，买方接收特价和折扣。 
 
@@ -80,6 +81,9 @@ ms.locfileid: "2248914"
 只有当您创建采购订单时，才可以选择采购协议。 在已创建采购订单后，您不能选择采购协议。  
 在某些情况下间接创建采购订单，您可以控制 Supply Chain Management 是否自动搜索适用的采购协议。 例如，在您自动确定计划的采购订单或基于销售订单创建的采购订单时，您可以执行这些操作。
 
+## <a name="matching-policy-on-purchase-agreements"></a>采购协议的匹配政策
+您可以在采购协议的标头上定义行匹配政策。 当**应付帐款参数**页面上的**允许匹配政策覆盖**字段（在**价格和数量匹配**快速选项卡上）设置为**高于公司政策**时，此行匹配政策将遵守应付帐款参数行匹配政策。 引用采购协议的文档将使用在采购协议标头上定义的行匹配政策，除非在相应的物料、物料和供应商或类别采购策略上另有定义。
+
 ## <a name="purchase-agreements-and-intercompany-trade"></a>采购协议和内部公司交易
 内部公司贸易关系可以在不同的法人中的供应商帐户和客户帐户之间创建。 在为其中一个当事方创建销售订单或采购订单时，创建内部公司订单链。 在订单链中，在相应法人中创建销售订单和采购订单。  
 
@@ -93,9 +97,9 @@ ms.locfileid: "2248914"
 <a name="additional-resources"></a>其他资源
 --------
 
-[创建采购协议（任务指南）](tasks/create-purchase-agreement.md)
+[创建采购协议](tasks/create-purchase-agreement.md)
 
-[从采购协议创建采购下达订单（任务指南）](tasks/create-purchase-release-order-purchase-agreement.md)
+[基于采购协议创建采购下达订单](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 

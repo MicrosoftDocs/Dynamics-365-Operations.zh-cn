@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a73f49064911a2b28c742cfc19469f4bf95e74
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b77605070387871335c480e25cbe23af1155d6e8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569953"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812160"
 ---
 # <a name="asset-manufacturers-and-models"></a>资产制造商和模型
 
@@ -45,7 +45,7 @@ ms.locfileid: "2569953"
 8. 在**资产类型**字段中，选择制造商模型应关联的资产类型。
 
     > [!NOTE]
-    > 也可以在**资产类型**查找中为资产类型、制造商和模型设置关系。 有关详细信息，请参阅[创建资产类型](../setup-for-objects/object-types.md)。
+    > 也可以在**资产类型**查找中为资产类型、制造商和模型设置关系。 有关详细信息，请参阅[资产类型](../setup-for-objects/object-types.md)。
 
     **详细信息**快速选项卡中的**模型**字段显示为所选资产制造商设置的资产模型数量。 **资产**字段显示使用所选制造商的资产的数量。
     

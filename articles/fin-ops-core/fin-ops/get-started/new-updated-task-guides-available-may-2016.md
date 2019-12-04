@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.openlocfilehash: 7134dc49c0e767d3bc4dc32e4feeb0e83a168e86
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 930c744ff2a28451d4267f060867b4b6474d45e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190917"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811570"
 ---
 # <a name="new-or-updated-task-guides-may-2016"></a>新的或更新任务指南（2016 年 5 月）
 
@@ -32,7 +32,7 @@ ms.locfileid: "2190917"
 
 ## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX 的 APQC 标准库中的任务指南（2016 年 5 月 - 所有语言）
 
-（2016 年 5 月）APQC 标准库包含旨在用于帮助 Microsoft Dynamics AX 2016 年 5 月更新和 Microsoft Dynamics AX 2016 年 2 月发布的任务指南。 （2016 年 2 月）APQC 标准库中发布的任务指南的本地化版本在此库中提供。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助入门](help-overview.md)。
+（2016 年 5 月）APQC 标准库包含旨在用于帮助 Microsoft Dynamics AX 2016 年 5 月更新和 Microsoft Dynamics AX 2016 年 2 月发布的任务指南。 （2016 年 2 月）APQC 标准库中发布的任务指南的本地化版本在此库中提供。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助系统](help-overview.md)。
 
 > [!NOTE]
 > 业务流程建模器 (BPM) 行的标题旁边的星号 (\*) 表示该业务流程的任务指南是为 Dynamics AX 2016 年 5 月更新创建，不支持 Microsoft Dynamics AX 的早期版本。

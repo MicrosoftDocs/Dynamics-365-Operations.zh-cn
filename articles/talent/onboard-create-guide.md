@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 3c465c667cbb8a66f301637ca620429b0ddc11c6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: a095fe97b05898403b501763204a462ee8dcc12a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550335"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814620"
 ---
 # <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a>使用 Dynamics 365 Talent - Onboard 创建和发送入职指南
 
@@ -119,6 +119,6 @@ Onboard 允许您同时向多个新雇员发送入职指南。
 ### <a name="see-also"></a>请参阅
 
 - [试用或购买 Onboard 应用](https://dynamics.microsoft.com/talent/onboard/)
-- [新增功能](./whats-new.md)
-- [版本说明](https://docs.microsoft.com/business-applications-release-notes/index)
-- [获取支持](./talent-support.md)
+- [Dynamics 365 Talent 新增功能或更改](./whats-new.md)
+- [发布计划](https://docs.microsoft.com/business-applications-release-notes/index)
+- [获取 Microsoft Dynamics 365 Talent 支持](./talent-support.md)

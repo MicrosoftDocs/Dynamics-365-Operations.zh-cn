@@ -1,5 +1,5 @@
 ---
-title: 使用 Microsoft Dynamics 365 Talent - Attract 中的人才池寻求应聘者
+title: 在 Attract 中使用人才池寻求应聘者
 description: 本主题说明如何在 Microsoft Dynamics 365 Talent - Attract 中创建和设置人才池。
 author: andreabichsel
 manager: AnnBe
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 454ba987eef924d520af17e8b9ae694fe9b82ec2
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ea10ccd5e4b1f1ffbb8f736e886240e223a4eeb3
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551110"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833006"
 ---
-# <a name="source-candidates-with-talent-pools-in-microsoft-dynamics-365-talent---attract"></a>使用 Microsoft Dynamics 365 Talent - Attract 中的人才池寻求应聘者
+# <a name="source-candidates-with-talent-pools-in-attract"></a>在 Attract 中使用人才池寻求应聘者
 
-[!include[banner](../includes/banner.md)]
-
+[!include [banner](includes/banner.md)]
 
 招聘人员和招聘经理可以使用 Attract 中的人才池功能来管理应聘者。 人才池可以帮助您跟踪和联系申请您公司的工作的所有应聘者。
 
@@ -116,7 +115,7 @@ ms.locfileid: "2551110"
 
     若要查看文档，请选择文档列表中的文档名称。 您可以通过使用 Microsoft Office 365 在应用程序中查看 Microsoft Word 文档。 您还可以使用每个文档的**下载**选项将文档下载到您的本地计算机。
 
-- **LinkedIn** 选项卡显示应聘者的 LinkedIn 信息。 若要使用此选项卡，您必须在用户设置中连接您的 LinkedIn 帐户，且您的环境的 LinkedIn Recruiter 连接必须建立。 有关详细信息，请参阅[使用 LinkedIn Recruiter 招聘](./attract-linkedin-recruiter.md)。
+- **LinkedIn** 选项卡显示应聘者的 LinkedIn 信息。 若要使用此选项卡，您必须在用户设置中连接您的 LinkedIn 帐户，且您的环境的 LinkedIn Recruiter 连接必须建立。 有关详细信息，请参阅[在 Microsoft Dynamics 365 Talent - Attract 中使用 LinkedIn Recruiter 寻求应聘者](./attract-linkedin-recruiter.md)。
 
 > [!NOTE]
 > 只有应聘者可更新其技能、教育历史记录和工作经验。

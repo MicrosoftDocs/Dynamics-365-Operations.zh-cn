@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a06224e4babab8315ebd9de34e7ada570564e8ec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 464fd211eb5417265f8c737b23456769137a7c13
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188617"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772666"
 ---
 # <a name="budget-control-overview"></a>预算控制概览
 
@@ -42,7 +42,7 @@ ms.locfileid: "2188617"
 
 下图显示了典型的预算周期各个阶段中预算控制的位置。
 
-[![BudgetingCycle](./media/budgetingcycle-300x198.png)](./media/budgetingcycle.png) 
+[![典型预算周期](./media/budgetingcycle-300x198.png)](./media/budgetingcycle.png) 
 
 您可以根据若干因素配置预算控制：
 

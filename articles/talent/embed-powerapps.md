@@ -1,6 +1,6 @@
 ---
-title: 在 Dynamics 365 - Core HR 中嵌入 PowerApps 应用程序
-description: 此主题介绍如何解决 PowerApps 菜单项从系统管理模块中消失的问题。
+title: 在 Dynamics 365 - Core HR 中嵌入 Power Apps 应用程序
+description: 此主题介绍如何解决 Microsoft Power Apps 菜单项从系统管理模块中消失的问题。
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,41 +17,41 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b510c10ebfcf4939eb2e1297972d27aa1812ae5a
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 6d1b7f1dd71e6bcbf10c4d91fe33e9494b041a2c
+ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550995"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2830201"
 ---
-# <a name="embed-powerapps-apps-in-dynamics-365---core-hr"></a>在 Dynamics 365 - Core HR 中嵌入 PowerApps 应用程序
+# <a name="embed-power-apps-apps-in-dynamics-365---core-hr"></a>在 Dynamics 365 - Core HR 中嵌入 Power Apps 应用程序
 
 [!include [banner](includes/banner.md)]
 
 **发货**
 
-**PowerApps** 菜单项从**系统管理**模块中消失。
+**Power Apps** 菜单项从**系统管理**模块中消失。
 
 **原因**
 
-用户界面 (UI) 设计已更改，Microsoft PowerApps 现在包含在标准个性化模型中。
+用户界面 (UI) 设计已更改，Microsoft Power Apps 现在包含在标准个性化模型中。
 
 **解决方法**
 
-PowerApps 应用程序的嵌入方式已更改。 PowerApps 应用程序现在通过个性化模型添加。 您可以将 PowerApps 应用程序添加到 Microsoft Dynamics 365 Talent 中的几乎所有页面。
+Power Apps 的嵌入方式已更改。 Power Apps 现在通过个性化模型添加。 您可以将 Power Apps 添加到 Microsoft Dynamics 365 Talent 中的几乎所有页面。
 
-有关如何在 Talent 中嵌入 PowerApps 应用程序的信息，请参阅[嵌入 PowerApps 应用程序](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps)。
+有关如何在 Talent 中嵌入 Power Apps 的信息，请参阅[嵌入 Microsoft Power Apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps)。
 
-在更改前嵌入了应用程序的任何 PowerApps 客户应该已经升级到了新模型。
+在更改前嵌入了应用程序的任何 Power Apps 客户应该已经升级到了新模型。
 
-**PowerApps** 按钮在 Talent 中几乎每个页面的右上角。 您可以使用此按钮插入 PowerApps 应用程序。
+**Power Apps** 按钮在 Talent 中几乎每个页面的右上角。 您可以使用此按钮插入 Power Apps。
 
 下面是一个示例。
 
 1. 转到**人事管理 \> 链接 \> 工作人员 \> 员工**。
-2. 选择 **PowerApps** 按钮，然后选择**插入 PowerApp**。
+2. 选择 **Power Apps** 按钮，然后选择**插入 PowerApp**。
 
-    ![PowerApps 按钮](media/png.png)
+    ![Power Apps 按钮](media/png.png)
 
 3. 填写**插入 PowerApp** 对话框中的字段。
 
@@ -67,4 +67,4 @@ PowerApps 应用程序的嵌入方式已更改。 PowerApps 应用程序现在�
 
 2. 在工具栏上，选择**插入 \> PowerApp**。
 
-    ![使用个性化设置工具栏插入 PowerApps 应用程序](media/powerapp-bar.png)
+    ![使用个性化设置工具栏插入 Power Apps 应用程序](media/powerapp-bar.png)

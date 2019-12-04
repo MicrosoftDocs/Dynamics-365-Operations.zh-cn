@@ -3,7 +3,7 @@ title: 推迟处理仓库工作
 description: 本主题介绍 Dynamics 365 Supply Chain Management 中提供的用于将推迟处理仓库工作转化为放置操作的功能。
 author: josaw1
 manager: AnnBe
-ms.date: 06/17/2019
+ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b67b3899a506c02b581d04f51691cb4408ee012e
+ms.sourcegitcommit: 0af4caa9f5ea6f6c1d1f4b30090e02e7f755df36
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026905"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2815780"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>推迟处理仓库工作
 
@@ -30,7 +30,6 @@ ms.locfileid: "2026905"
 [!include [banner](../includes/pivate-preview-banner.md)]
 
 本主题介绍 Dynamics 365 Supply Chain Management 中提供的用于将推迟处理仓库工作转化为放置操作的功能。
-
 
 推迟处理功能让仓库工人可以在后台处理放置操作期间继续执行其他工作。 当必须处理大量工作行，并且工人可以异步处理这些工作时，推迟处理非常有用。 当服务器的处理时间临时或意外增加，并且增加的处理时间可能影响用户的生产率时，此功能也非常有用。
 
@@ -50,6 +49,8 @@ ms.locfileid: "2026905"
 | 工作处理方法          | 用于处理工作行的方法。 如果方法设置为**立即**，则行为类似未使用任何工作处理策略来处理行时的行为。 如果方法设置为 **推迟**，则使用的是使用批处理框架的推迟处理。 |
 | 延期处理阈值   | 如果值为 **0**（零），这表示无阈值。 在这种情况下，如果可以，将使用推迟处理。 如果阈值的具体计算结果低于阈值，则使用“立即”方法。 否则，如果可以，则使用“推迟”方法。 对于与销售和运输有关的工作，计算出的阈值是正在为工作处理的关联源负荷行的数量。 对于补货工作，计算出的阈值是工作正在补货的工作行的数量。 例如，如果为销售将阈值设置为 **5**，则初始源负荷行少于五个的少量工作不使用推迟处理，但是大量工作则会使用。 仅当工作处理方法设置为**推迟**时，此阈值才有效。 |
 | 延迟处理批处理组 |用于处理的批处理组。 |
+
+对于延期的放置处理，支持以下工作订单类型：销售订单、转移单发放和补货。
 
 ## <a name="assigning-the-work-creation-policy"></a>分配工作创建策略
 
@@ -99,7 +100,7 @@ ms.locfileid: "2026905"
 - 使用了手动完工。
 - 将使用自动完成完成工作。
 - 使用了审计模板。
-- 工作使用容器。
+
 
 ## <a name="monitoring-the-deferred-processing-tasks-from-the-outbound-work-monitoring-workspace"></a>从“出站工作监视”工作区监视推迟处理的任务
 

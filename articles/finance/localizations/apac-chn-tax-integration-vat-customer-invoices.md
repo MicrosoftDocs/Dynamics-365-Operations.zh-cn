@@ -17,12 +17,12 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0ece31dff245240dc13452673433f52cd32f47b6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cb34482194fc04ee549278f08378669876dcdf8c
+ms.sourcegitcommit: ca52e9222e0ee469ca85bbc865519d690b27d16e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183966"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2829138"
 ---
 # <a name="chinese-tax-integration-modification-for-vat-customer-invoices-faq"></a>增值税客户发票的中国税务集成修改常见问题
 
@@ -38,6 +38,10 @@ ms.locfileid: "2183966"
 ## <a name="can-i-create-one-tax-integration-profile-for-multiple-types-of-documents"></a>我是否可以创建一个用于多种类型单据的纳税集成模板？
 
 是。 您可以创建一个用于多种类型单据的纳税集成模板。
+
+## <a name="can-i-create-an-invoice-that-has-different-sales-tax-codes-and-sales-tax-rates-in-lines"></a>我可以在行中创建具有不同销售税代码和销售税率的发票吗？
+
+是。 如果您开启**允许在增值税客户发票行中使用多个税码进行中国金税集成**功能（请参阅[功能管理概述](../../fin-and-ops/get-started/feature-management/feature-management-overview.md)），并且存在一个税务集成配置文件，其**税务集成配置文件**页上的**销售税代码**字段为空（**应收帐款 \> 设置 \> 税务集成**），您可以创建和过帐具有不同销售税代码和销售税率的发票。 您还可以将发票导出到文件中。   
 
 ## <a name="when-should-i-split-a-vat-customer-invoice"></a>我该何时拆分增值税客户发票？
 如果在**增值税发票集成**页中选中了**超过最大发票金额**复选框，则您应该拆分增值税客户发票。 **超过最大发票金额**选项是为了发票总金额超过您在**最大发票金额**字段（位于**税务集成模板**页中）中指定的金额限制的发票选择的。

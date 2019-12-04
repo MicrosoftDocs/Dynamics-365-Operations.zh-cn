@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aef99a7e8964dba0e3c3a507bb214b79ae723357
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d7ec95b230c5ea17f208bc1288c10fce15631a5d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251515"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813048"
 ---
 # <a name="cycle-counting"></a>周期盘点
 
@@ -136,7 +136,7 @@ ms.locfileid: "2251515"
 您可以调整盘点结果值的差异，然后在**待审阅的周期盘点**页上接受该盘点结果值。 您可以在**按库位显示的现有量**页中验证修改后的物料数量的盘点。 如果差异未被批准则盘点结果值将被拒绝。
 
 ## <a name="additional-resources"></a>其他资源
-[为仓库工作配置移动设备](configure-mobile-devices-warehouse.md)
+[为仓库工作设置移动设备](configure-mobile-devices-warehouse.md)
 
 
 

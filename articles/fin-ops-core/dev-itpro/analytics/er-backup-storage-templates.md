@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 932ba44b4223bf9c9d93ffb19e17f6e57bb303b5
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 5dad101ffe56c9266c0d81ede8be1f72b684a8fb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553083"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771413"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER 模板的备份存储
 
 [!include [banner](../includes/banner.md)]
 
-业务用户可使用[电子申报 (ER) 框架](general-electronic-reporting.md)根据各个国家和地区的法律要求配置传出文档的格式。 配置的 ER 格式可使用预定义的模板生成各种格式（如 Microsoft Excel 工作簿、Microsoft Word 文档或 PDF 文档）的传出文档。 已经使用为生成的文档配置的数据流所需数据填充了模板。
+业务用户可使用[电子申报 (ER) 概览](general-electronic-reporting.md)根据各个国家和地区的法律要求配置传出文档的格式。 配置的 ER 格式可使用预定义的模板生成各种格式（如 Microsoft Excel 工作簿、Microsoft Word 文档或 PDF 文档）的传出文档。 已经使用为生成的文档配置的数据流所需数据填充了模板。
 
 可以在 ER 解决方案中发布配置的每种格式。 可以将每种 ER 解决方案从一个 Finance and Operations 实例导出，然后导入到另一个实例中。
 
-ER 框架使用[文档管理框架](../../fin-ops/organization-administration/configure-document-management.md)保留当前 Finance and Operations 实例所需模板。 可以根据 ER 框架的设置，将 Microsoft Azure Blob 存储或 Microsoft SharePoint 文件夹选作模板的物理主存储位置。 （有关详细信息，请参阅[配置 ER 框架](electronic-reporting-er-configure-parameters.md)。）DocuValue 表中是每个模板的单个记录。 在每个记录中，**AccessInformation** 字段中存储模板文件在配置的存储位置内的路径。
+ER 框架使用[配置文档管理](../../fin-ops/organization-administration/configure-document-management.md)保留当前 Finance and Operations 实例所需模板。 可以根据 ER 框架的设置，将 Microsoft Azure Blob 存储或 Microsoft SharePoint 文件夹选作模板的物理主存储位置。 （有关详细信息，请参阅[配置电子申报 (ER) 框架](electronic-reporting-er-configure-parameters.md)。）DocuValue 表中是每个模板的单个记录。 在每个记录中，**AccessInformation** 字段中存储模板文件在配置的存储位置内的路径。
 
 管理 Finance and Operations 实例时，可以决定将当前实例迁移到其他位置。 例如，您可以将生产实例迁移到新的沙盒环境。 如果将 ER 框架配置为把模板存储到 Blob 存储中，则新沙盒环境中的 DocuValue 表引用生产环境中的 Blob 存储实例。 但是，不能从沙盒环境访问此实例，因为迁移过程不支持迁移 Blob 存储中的项目。 因此，如果尝试运行使用模板的 ER 格式来生成业务文档，将发生异常，并通知您缺少模板。 还将引导您使用 ER 清理工具删除再重新导入其中包含此模板的 ER 格式配置。 因为您可能有多个 ER 格式配置，所以此过程可能需要很长时间。
 
@@ -94,6 +94,6 @@ ER 模板的备份存储功能可帮助您创建模板，这样始终可以使�
 
 ## <a name="additional-resources"></a>其他资源
 
-[电子报告概览](general-electronic-reporting.md)
+[电子申报 (ER) 概览](general-electronic-reporting.md)
 
-[配置电子报告框架](electronic-reporting-er-configure-parameters.md)
+[配置电子报告 (ER) 框架](electronic-reporting-er-configure-parameters.md)

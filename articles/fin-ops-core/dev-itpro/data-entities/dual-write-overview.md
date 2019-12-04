@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d70bce4e47c05a7974c1b974fdca17682e5370aa
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550849"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772379"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>与 Common Data Service 的近实时数据集成
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 在现在的数字世界中，业务生态系统把 Microsoft Dynamics 365 应用程序作为整体使用。 因为来自人员、客户、运营和物联网 (IoT) 设备的数据传输到一个源，所以可能发生数字反馈循环。 Finance and Operations 应用与其他 Dynamics 365 应用程序之间的集成对实现此体验至关重要。 有些应用程序以 Common Data Service 为基础。 Finance and Operations 应用数据与 Common Data Service 之间的集成让其他应用程序可以与 Finance and Operations 之间连贯、流畅地通信。
 
@@ -38,13 +36,16 @@ Finance and Operations 应用和 Common Data Service 通过双写入框架提供
 
 ![体系结构概览图](media/dual-write-overview.jpg)
 
-客户可以采用以下价值主张：
+可以采用以下价值主张：
 
 + [Common Data Service 中的组织层次结构](dual-write-organization.md)
 + [Common Data Service 中的公司概念](dual-write-company.md)
 + [集成客户主控](dual-write-customer.md)
++ [集成的分类帐](dual-write-ledger.md)
++ [通用产品体验](dual-write-product.md)
 + [集成供应商主控](dual-write-vendor.md)
-+ 统一基础产品
++ [集成的站点和仓库](dual-write-sites-and-warehouses.md)
++ [集成的税收主数据](dual-write-tax.md)
 
 ## <a name="system-requirements"></a>系统要求
 

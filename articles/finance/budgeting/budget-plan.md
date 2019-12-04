@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a59ff16555bfcb55d2f21c09675e7ae0637bca8f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c9558013236a728e0fb9691f4edd719fe58d5457
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188594"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772137"
 ---
 # <a name="budget-planning"></a>预算计划
 
@@ -60,23 +60,21 @@ Julia 使用以下 Excel 模板编制预算：
 ## <a name="exercise-1-configuration"></a>练习 1：配置
 
 ### <a name="task-1-create-organizational-hierarchy"></a>**任务 1：创建组织的层次结构**
-由于所有预算流程在财务部门进行，因此 Julia 需要创建非常简单的组织层次结构 – 仅包括财务部门。 1.1. 导航到组织层次结构（“组织管理”&gt;>“组织”&gt;“组织层次结构”），然后单击新的按钮
+由于所有预算流程在财务部门进行，因此 Julia 需要创建非常简单的组织层次结构 – 仅包括财务部门。 
+
+1.1. 导航到组织层次结构（“组织管理”&gt;“组织”&gt;“组织层次结构”），然后单击“新建”按钮。
 
 ![组织层次结构](./media/screenshot3.png) 
 
-1.2. 键入组织层次结构的名称，然后单击按钮“分配用途”
+1.2. 在“名称”框中键入组织层次结构的名称，然后单击“分配用途”。
 
-[![名称](./media/screenshot4.png)](./media/screenshot4.png) 
-
-1.3. 选择预算计划用途，单击按钮“添加并分配新创建的组织层次结构”： 
+1.3. 选择预算计划用途，单击“添加并分配新创建的组织层次结构”。 
 
 [![分配用途](./media/screenshot5.png)](./media/screenshot5.png)
 
 1.4. 对安全组织用途重复上述步骤。 完成后关闭窗体。
 
-[![安全组织](./media/screenshot6.png)](./media/screenshot6.png)
-
-1.5. 在“组织层次结构”窗体中单击按钮“查看”。 单击层次结构设计器中的“编辑”，并通过单击按钮“插入”创建层次结构。
+1.5. 在“组织层次结构”窗体中单击“查看”。 单击层次结构设计器中的“编辑”，并通过单击“插入”创建层次结构。
 
 [![插入](./media/screenshot7.png)](./media/screenshot7.png) 
 
@@ -84,9 +82,9 @@ Julia 使用以下 Excel 模板编制预算：
 
 [![财务](./media/screenshot8.png)](./media/screenshot8.png)
 
-1.7. 在完成后，单击按钮“发布”和“关闭”。 选择 1/1/2015 用作层次结构发布的生效日期。
+1.7. 在完成后，单击“发布”和“关闭”。 选择 1/1/2015 用作层次结构发布的生效日期。
 
-[![有效日期](./media/screenshot9.png)](./media/screenshot9.png)
+[![生效日期](./media/screenshot9.png)](./media/screenshot9.png)
 
 ### <a name="task-2-configure-user-security"></a>任务 2：配置用户安全性
 预算计划使用特殊安全策略配置对预算计划数据的访问。 Julia 需要授予她自己对财务预算计划的访问权限。 
@@ -94,19 +92,19 @@ Julia 使用以下 Excel 模板编制预算：
 2.1. 切换到 DEMF 法人环境。 
 
 
-2.2。 导航到“预算编制”&gt;“设置”&gt;“预算计划”&gt;>“预算计划配置”。 在“参数”选项卡上，设置“安全模型值”为“基于安全组织” 
+2.2。 导航到“预算编制”&gt;“设置”&gt;“预算计划”&gt;>“预算计划配置”。 在“参数”选项卡上，设置“安全模型值”为“基于安全组织”。 
 
-[![参数](./media/screenshot11.png)](./media/screenshot11.png) 
+[![参数设置](./media/screenshot11.png)](./media/screenshot11.png) 
 
 2.3。 导致至“系统管理”&gt;“用户”&gt;“用户”。 给予用户 Admin (Julia Funderburk) 预算经理角色。 
 
 [![预算管理器](./media/screenshot12.png)](./media/screenshot12.png) 
 
-2.4。 领料用户角色单击“分配组织”屏幕截图 
+2.4。 选取用户角色单击“分配组织”屏幕截图。 
 
-[![分配组织](./media/screenshot13.png)](./media/screenshot13.png)
+[![指定组织](./media/screenshot13.png)](./media/screenshot13.png)
 
-2.5。 选择“授予访问特定组织的权限”。 在第一步中选择创建的组织层次结构。 选择财务节点然后单击“授予组织及其子组织的访问权限”按钮 
+2.5。 选择“授予访问特定组织的权限”。 在第一步中选择创建的组织层次结构。 选择财务节点然后单击“授予组织及其子组织的访问权限”按钮。 
 
 ***重要信息！*** *确保在执行此任务时您位于 DEMF 法人环境中，因为组织安全按法人应用* 
 
@@ -122,31 +120,23 @@ Julia 使用以下 Excel 模板编制预算：
 ### <a name="task-4-create-budget-plan-columns"></a>任务4：创建预算计划列
 预算计划列可以是基于货币或基于数量的列，可用于预算计划文档格式。 在我们的示例中，我们需要创建上一年实际列以及在一个预算年度中表示每个月的 12 个列。 列可以通过单击“添加”按钮并填充值来创建，也可以使用数据实体协助。 在此实验室，我们将使用数据实体填充值。 
 
-4.1. 在“预算编制”&gt;“设置”&gt;“预算计划”&gt;“预算计划配置”中打开“列”页。 单击窗体右上角的 Office 按钮并且选择“列”（未筛选） 
+4.1. 在“预算编制”&gt;“设置”&gt;“预算计划”&gt;“预算计划配置”中打开“列”页。 单击窗体右上角的 Office 按钮并且选择“列”（未筛选）。 
 
 [![未筛选列](./media/screenshot16.png)](./media/screenshot16.png) 
 
-4.2。 系统将打开用于填充值的 Excel 工作簿。 如果系统提示，单击“启用编辑”和“信任此应用程序” 
+4.2。 系统将打开用于填充值的 Excel 工作簿。 如果系统提示，单击“启用编辑”和“信任此应用程序”。 
 
-[![启用编辑](./media/screenshot18.png)](./media/screenshot18.png) 
-
-[![信任此应用程序](./media/screenshot17.png)](./media/screenshot17.png)
-
-4.3。 我们需要更多列来容纳这些值。 在右侧窗格中单击“设计”添加列到网格： 
+4.3。 我们需要更多列来容纳这些值。 在右侧窗格中单击“设计”添加列到网格。 
 
 [![设计](./media/screenshot19.png)](./media/screenshot19.png) 
 
-4.4。 单击 PlanColumns 旁边的小铅笔按钮查看可添加到网格的列 
+4.4。 单击 PlanColumns 旁边的铅笔按钮查看可添加到网格的列。 
 
 [![编辑](./media/screenshot20.png)](./media/screenshot20.png) 
 
-4.5。 双击每个可用字段并将其添加到所选字段并单击“更新” 
+4.5。 双击每个可用字段并将其添加到所选字段并单击“更新”。 
 
-![更新](./media/screenshot21.png)](./media/screenshot21.png) 
-
-4.6。 在 Excel 表中添加需要创建的所有列。 在 Excel 中使用 AutoFill 功能快速添加行。 确保行添加为表的一部分（在使用垂直滚动时，您应能够看到网格顶部的列标题） 
-
-[![Autofill](./media/screenshot22.png)](./media/screenshot22.png) 
+4.6。 在 Excel 表中添加需要创建的所有列。 在 Excel 中使用 AutoFill 功能快速添加行。 确保行添加为表的一部分（在使用垂直滚动时，您应能够看到网格顶部的列标题）。 
 
 4.7。 返回应用程序并刷新页面。 发布值将显示。 
 
@@ -170,7 +160,8 @@ Julia 使用以下 Excel 模板编制预算：
 *注意：确保选择“另存为”并且选择应存储以便编辑该模板的位置。如果用户在对话框中选择打开“打开”而不保存，已完成的文档更改在文件关闭时不会保留。* 
 [![模板视图](./media/screenshot25.png)](./media/screenshot25.png) 
 
-5.3。 &lt;可选步骤&gt; 修改 Excel 模板使它看似对用户更易用 – 添加汇总公式、标题字段、格式等。保存更改并上载该文件到预算计划格式，方法是通过单击“布局”&gt;“上载”[ ![上载](./media/screenshot26.png)](./media/screenshot26.png)
+5.3。 &lt;可选步骤&gt;修改 Excel 模板使它看似对用户更易用 – 添加汇总公式、标题字段、格式等。保存更改并上载该文件到预算计划格式，方法是通过单击“布局”&gt;“上载”上载。 
+
 
 ### <a name="task-6-create-a-budget-planning-process"></a>任务 6：创建预算计划流程
 Julia 需要创建和激活合并上述所有设置的新预算计划流程以开始输入预算计划。 预算计划流程定义哪些预算组织、工作流、格式和模板用于创建预算计划。 
@@ -189,33 +180,31 @@ Julia 需要创建和激活合并上述所有设置的新预算计划流程以�
 
 [![备用布局](./media/screenshot27.png)](./media/screenshot27.png) 
 
-6.2。 选择“操作”&gt;“激活”激活此预算计划工作流 
+6.2。 选择“操作”&gt;“激活”激活此预算计划工作流。 
 
 [![启用](./media/screenshot28.png)](./media/screenshot28.png)
 
 ## <a name="exercise-2-process-simulation"></a>练习 2：流程模似
 
 ### <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>任务 7：从总帐生成预算计划的初始数据
-7.1. 导航到“预算编制”&gt;“定期”&gt;“从总帐生成预算计划”。 填写定期流程参数，然后单击“生成”按钮。 
-
-[![生成](./media/screenshot29.png)](./media/screenshot29.png) 
+7.1. 导航到“预算编制”&gt;“定期”&gt;“从总帐生成预算计划”。 填写定期流程参数，然后单击“生成”。 
 
 7.2。 导航到“预算编制”&gt;“预算计划”查找“生成”流程创建的预算计划。 
 
 [![预算计划](./media/screenshot30.png)](./media/screenshot30.png) 
 
-7.3。 通过单击文档编号超链接打开文档详细信息。 预算计划将显示为在此实验室期间创建的格式中定义的格式 
+7.3。 通过单击文档编号超链接打开文档详细信息。 预算计划将显示为在此实验室期间创建的格式中定义的格式。 
 
 [![预算计划显示](./media/screenshot31.png)](./media/screenshot31.png)
 
 ### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>任务 8：基于上一年度实际创建当前年度预算
 分配方法可用于在预算计划中轻松地将预算计划的信息从一个方案复制到另一个/在各个期间内分布它们/分配到维度。 我们将使用分配来从上一年度实际创建当前年度预算。 
 
-8.1. 在预算计划文档网格中选择所有行，然后单击按钮分配预算 
+8.1. 在预算计划文档网格中选择所有行，然后单击“分配预算”。 
 
 [![所有行](./media/screenshot32.png)](./media/screenshot32.png) 
 
-8.2。 选择分配方法、期间参数、源和目标方案并单击“分配” 
+8.2。 选择分配方法、期间参数、源和目标方案并单击“分配”。 
 
 [![分配](./media/screenshot33.png)](./media/screenshot33.png)
 
@@ -224,39 +213,35 @@ Julia 需要创建和激活合并上述所有设置的新预算计划流程以�
 [![销售曲线](./media/screenshot34.png)](./media/screenshot34.png)
 
 ### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>任务 9：使用 Excel 调整预算计划文档并完成文档
-9.1. 单击按钮“工作表”在 Excel 中打开文档内容
-
-[![Excel](./media/screenshot35.png)](./media/screenshot35.png)
+9.1. 单击“工作表”按钮在 Excel 中打开文档内容。
 
 9.2. 在 Excel 工作簿打开时，调整预算计划文档中的数字，然后单击“发布”按钮。
 
-[![发布](./media/screenshot36.png)](./media/screenshot36.png)
-
-9.3. 返回到预算计划文档。 单击“工作流”&gt;“提交”自动审核文档
+9.3. 返回到预算计划文档。 单击“工作流”&gt;“提交”自动审核文档。
 
 [![自动审核](./media/screenshot37.png)](./media/screenshot37.png) 
 
-一旦完成工作流，预算计划文档阶段更改为“已审核”。 [![已审核](./media/screenshot38.png)](./media/screenshot38.png)
+一旦完成工作流，预算计划文档阶段更改为“已审核”。 [![已审批](./media/screenshot38.png)](./media/screenshot38.png)
 
 ## <a name="appendix"></a>附录
 
 ### <a name="auto-approve-workflow-configuration"></a>自动审核工作流配置
 
-A. “预算编制”&gt;“设置”&gt;“预算计划”&gt;“预算”工作流 使用模板预算计划工作流创建新工作流：
+A. “预算 &gt; 设置 &gt; 预算计划 &gt; 预算”工作流。 使用模板“预算计划工作流”创建新工作流：
 
 [![创建新工作流](./media/screenshot39.png)](./media/screenshot39.png)
 
-此工作流只包含一任务 – 阶段转换预算计划 
+此工作流只包含一任务 – 阶段转换预算计划。 
 
 [![阶段转换预算计划](./media/screenshot40.png)](./media/screenshot40.png) 
 
 保存并激活工作流。 
 
-B. 导航到“预算编制”&gt;“设置”&gt;“预算计划”&gt;>“预算计划配置”。 在“阶段”选项卡上创建 2 个阶段 – 初始和已提交 
+B. 导航到“预算编制”&gt;“设置”&gt;“预算计划”&gt;>“预算计划配置”。 在“阶段”选项卡上创建 2 个阶段 – 初始和已提交。 
 
 [![初始和已提交](./media/screenshot41.png)](./media/screenshot41.png)
 
-C. 导航到“预算编制”&gt;“设置”&gt;“预算计划”&gt;>“预算计划配置”。 在“工作流阶段”选项卡中，将在步骤 A 中创建的工作流自动 – 审核与阶段“初始”和“已提交”关联 
+C. 导航到“预算编制”&gt;“设置”&gt;“预算计划”&gt;>“预算计划配置”。 在“工作流阶段”选项卡中，将在步骤 A 中创建的工作流自动 – 审核与阶段“初始”和“已提交”关联。
 
 [![预算和预算计划](./media/screenshot42.png)](./media/screenshot42.png)  
 

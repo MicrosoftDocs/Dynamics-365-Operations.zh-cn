@@ -1,5 +1,5 @@
 ---
-title: 电子邮件模板
+title: 在 Attract 中创建电子邮件模板
 description: 此主题提供有关您可以在 Microsoft Dynamics 365 Talent - Attract 中创建和使用的电子邮件模板的信息。
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7174fd96e5ddc9ba5a91eb423d08afd1daa45f48
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 55c12010cfd055ee6977f50e566b70f76a2e1682
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008028"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832876"
 ---
-# <a name="email-templates"></a>电子邮件模板
-[!include[banner](../includes/banner.md)]
+# <a name="create-email-templates-in-attract"></a>在 Attract 中创建电子邮件模板
+
+[!include [banner](includes/banner.md)]
 
 通过使用电子邮件模板库，管理员可以为通过 Microsoft Dynamics 365 Talent: Attract and Offer 发送的所有电子邮件创建统一的主题和品牌。 管理员还可以组织一个其他用户可以使用的电子邮件内容模板的集合。 招聘团队可以在其工作流中使用这些模板来更高效地发送电子邮件。 有些电子邮件被配置为自动发送，管理员可以使用电子邮件模板库来自定义这些电子邮件的内容。
 

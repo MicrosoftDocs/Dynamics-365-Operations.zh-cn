@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36784311294f80f56f680cd6d14cc989b629ba12
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9b1b519d116a55c255cf90d9478ee1714de90264
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176690"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811301"
 ---
 # <a name="organization-administration-home-page"></a>组织管理主页
 
@@ -37,7 +37,7 @@ ms.locfileid: "2176690"
 编号规则用于为需要标识符的主数据记录和交易记录生成可读的唯一标识符。 需要标识符的主数据记录或交易记录称为 *“参考”*。 在您能为一个参考创建新记录之前，您必须设置编号规则并将其与参考相关联。
 
 - [编号规则概览](number-sequence-overview.md)
-- [通过使用向导设置编号规则](tasks/set-up-number-sequences-wizard.md)（任务指南）
+- [使用向导设置编号规则](tasks/set-up-number-sequences-wizard.md)（任务指南）
 - [单个设置编号规则](tasks/set-up-number-sequences-individual-basis.md)（任务指南）
 
 ## <a name="organizations"></a>组织
@@ -46,7 +46,7 @@ ms.locfileid: "2176690"
 
 在设置组织和组织层次结构之前，请确保您已计划好您的业务将如何建模。 组织模型对实施和业务流程有重大影响。
 
-- [组织和组织层次结构](organizations-organizational-hierarchies.md)
+- [组织和组织层次结构概览](organizations-organizational-hierarchies.md)
 - [规划组织层次结构](plan-organizational-hierarchy.md)
 - [创建组织层次结构](tasks/create-organization-hierarchy.md)（任务指南）
 - [创建法人](tasks/create-legal-entity.md)（任务指南）
@@ -58,8 +58,8 @@ ms.locfileid: "2176690"
 
 在创建全球通讯簿后，您可以根据需要在您的组织中创建附加通讯簿，如组织中每个公司一个单独的通讯簿或每个经营范围一个单独的通讯簿。
 
-- [全球通讯簿](overview-global-address-book.md)
-- [计划如何配置全局通讯簿和附加通讯簿](plan-configuration-global-address-book-additional-address-books.md)
+- [全球通讯簿概览](overview-global-address-book.md)
+- [全球通讯簿和其他通讯簿的计划](plan-configuration-global-address-book-additional-address-books.md)
 - [配置全球通讯簿](tasks/configure-global-address-book.md)
 - [通讯簿常见问题](qa-address-books.md)
 
@@ -67,10 +67,10 @@ ms.locfileid: "2176690"
 
 工作流是可用于创建单独的工作流或业务流程的系统。 当您创建工作流时，您通过显示谁必须完成任务、制定决策或批准文档指定单据如何在系统中流动或移动。
 
-- [工作流概览](overview-workflow-system.md)
+- [工作流系统概览](overview-workflow-system.md)
 - [工作流元素](workflow-elements.md)
-- [工作流操作](workflow-actions.md)
-- [创建工作流](create-workflow.md)
+- [工作流审核流程中的操作](workflow-actions.md)
+- [创建工作流概览](create-workflow.md)
 
 ## <a name="electronic-signatures"></a>电子签名
 
@@ -86,13 +86,13 @@ ms.locfileid: "2176690"
 通过计划、跟踪和分析案例，您可以提出可用于类似问题的有效解决方案。 例如，当客户服务代表或人力资源通才创建案例时，他们可在知识文章中查找帮助他们更有效地处理或解决案例的信息。
 
 - [案例管理概览](cases.md)
-- [配置案例安全、流程和类别](plan-case-management.md)
+- [计划案例类别安全、案例流程和案例类别](plan-case-management.md)
 
 ## <a name="record-templates"></a>记录模板
 
 记录模板有助于您更快捷地创建记录。 您可以创建报表模板，以便不必明确为每条记录输入常用字段值。
 
-- [记录模板](record-templates.md)
+- [记录模板概览](record-templates.md)
 - [创建记录模板以加快数据输入](../../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md)（任务指南）
 - [使用记录模板创建新记录](../../dev-itpro/data-entities/tasks/use-record-template-new-record.md)（任务指南）
 

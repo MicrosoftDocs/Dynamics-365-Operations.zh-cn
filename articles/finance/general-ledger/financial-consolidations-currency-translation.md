@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7b6b3cced92920ef5a253ca15793f26f244475fa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186593"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771837"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>财务合并和货币折算概览
 
@@ -91,7 +91,7 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 ![在“其他合并科目”页中映射](./media/additional-consolidation-accounts.png "在“其他合并科目”页中映射")
 
 ## <a name="consolidating-online"></a>在线合并
-若要了解如何输入在线合并的详细信息，请参阅[在线合并](./consolidate-online.md)。
+若要了解如何输入在线合并的详细信息，请参阅[在线财务合并](./consolidate-online.md)。
 
 ## <a name="managing-consolidation-transactions"></a>管理合并交易记录
 若要查看合并结果，有多项选择：
@@ -100,7 +100,7 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 - 查看合并公司中的**试算平衡表**列表页。
 - 在**合并**页上的合并交易记录列表中，查看按日期为每个期间的每个源公司创建的余额。
 
-    ![“合并”页中的合并交易记录](./media/managing-consolidation-transactions.png "“合并”页中的合并交易记录")
+    ![“合并”页面的“合并交易记录”](./media/managing-consolidation-transactions.png "“合并”页面的“合并交易记录”")
 
 若要再次运行合并，只需处理合并。 也可以先选择**合并**页中的**删除合并**。
 
@@ -128,7 +128,7 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 
 选择源科目之后，使用**科目说明**字段指定所用目标公司的科目。 选择**源**以使用在源科目中定义的同一个主科目。 如果选择**用户定义的**，则必须指定目标科目。
 
-![分类帐清除规则行页](./media/ledger-elimination-rule-line.png "分类帐清除规则行页")
+![分类帐清除规则行页面](./media/ledger-elimination-rule-line.png "分类帐清除规则行页面")
 
 **维度说明**字段的工作原理类似**科目说明** 字段。 选择**源**，以便在源公司和目标公司中使用相同的维度。 如果选择**用户定义的**，则必须通过选择**目标维度**菜单项指定目标公司中的维度。 然后选择源维度和财务维度，以及用作清除源的值。
 

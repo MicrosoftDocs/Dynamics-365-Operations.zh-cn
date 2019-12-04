@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2168b33c8495eab61ec0c8262b042cd16420031c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a643be553f3fcdfbe53f2024982a596e498830a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190089"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811280"
 ---
 # <a name="create-workflows-overview"></a>创建工作流概览
 
@@ -54,20 +54,20 @@ ms.locfileid: "2190089"
 
 1. 单击画布，确保未选择任何工作流元素。
 2. 单击**属性**以打开工作流的**属性**页面。
-3. 按照“[配置工作流的属性](configure-workflow-properties.md)”主题中的步骤进行操作。
+3. 按照[配置工作流属性](configure-workflow-properties.md)主题中的步骤进行操作。
 
 ## <a name="configure-the-elements-of-the-workflow"></a>配置工作流元素
 
 配置您拖到画布中的各个元素。 有关如何配置各个工作流元素的信息，请参阅以下主题：
 
-- [配置手动任务](configure-manual-task-workflow.md)
-- [配置自动化任务](configure-automated-task-workflow.md)
-- [配置审核流程](configure-approval-process-workflow.md)
-- [配置审核步骤](configure-approval-step-workflow.md)
-- [配置手动决策](configure-manual-decision-workflow.md)
-- [配置条件决策](configure-conditional-decision-workflow.md)
-- [配置并行活动](configure-parallel-activity-workflow.md)
-- [配置一个并行分支](configure-parallel-branch-workflow.md)
+- [配置工作流中的手动任务](configure-manual-task-workflow.md)
+- [配置工作流中的自动化任务](configure-automated-task-workflow.md)
+- [配置工作流中的审核流程](configure-approval-process-workflow.md)
+- [配置工作流中的审核步骤](configure-approval-step-workflow.md)
+- [配置工作流中的手动决策](configure-manual-decision-workflow.md)
+- [配置工作流中的有条件决策](configure-conditional-decision-workflow.md)
+- [配置工作流中的并行分支](configure-parallel-activity-workflow.md)
+- [配置并行分支](configure-parallel-branch-workflow.md)
 - [配置行项工作流](configure-line-item-workflow.md)
 
 ## <a name="resolve-any-errors-or-warnings"></a>解决任何错误或警告

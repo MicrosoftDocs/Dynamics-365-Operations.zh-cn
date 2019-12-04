@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c07f303b72f286c33979181fca1592b47efa1303
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 625e2c6a6b385c69d33ec4325a462310a37f1eed
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571223"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812183"
 ---
 # <a name="maintenance-attribute-types"></a>维护属性类型
 
@@ -34,7 +34,7 @@ ms.locfileid: "2571223"
 本主题介绍如何在资产管理中创建属性类型。 属性用于描述各种元素的属性。 可为以下元素设置属性：
 
 - [功能位置类型](../setup-for-functional-locations/functional-location-types.md)
-- [功能位置](../functional-locations/create-functional-locations.md)
+- [创建功能位置](../functional-locations/create-functional-locations.md)
 - [资产类型](../setup-for-objects/object-types.md)
 - 资产
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11b541c3e159b2c38e4dd2fa9f2ad08e4c1e4500
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 14b4410a0bd177159817cd5116a5a0d959992ad5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176692"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812401"
 ---
 # <a name="configure-parallel-activities-in-a-workflow"></a>配置工作流中的并行活动
 
@@ -53,4 +53,4 @@ ms.locfileid: "2176692"
     > [!NOTE]
     > 分支的顺序并不重要，因为并行活动的所有分支同时运行。
 
-3. 若要配置每个分支，请参阅“[配置并行分支](configure-parallel-branch-workflow.md)”。
+3. 若要配置每个分支，请参阅[配置工作流中的并行分支](configure-parallel-branch-workflow.md)。

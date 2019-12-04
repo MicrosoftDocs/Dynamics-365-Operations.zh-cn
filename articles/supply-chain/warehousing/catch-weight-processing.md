@@ -3,7 +3,7 @@ title: 使用仓库管理进行实际称重产品处理
 description: 本主题介绍如何使用工作模板和库位指令确定在仓库中如何以及在哪里完成工作。
 author: perlynne
 manager: AnnBe
-ms.date: 08/19/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 5800f95de0ec773f40c506662a031887810b8c92
+ms.sourcegitcommit: db222a1719d4756d9ccb73fc71e7eaf4521c23a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887127"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2696631"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>使用仓库管理进行实际称重产品处理
 
@@ -181,7 +181,7 @@ ms.locfileid: "1887127"
 - 在使用仓库应用处理更改的库存状态时。
 - 在使用仓库应用完成仓库转移时。
 - 在通过仓库应用处理调入和调出时。
-- 在为销售订单和转移单处理领料工作时。 （请注意，实际称重标记不能为生产组件领料记录。）
+- 在为销售订单行、转移单行和生产订单行处理领料工作时。
 - 在减少负荷行的领料数量时（不管是否使用集装箱）。
 - 当产品在装箱工作站装入集装箱时。
 - 在重新打开集装箱时。

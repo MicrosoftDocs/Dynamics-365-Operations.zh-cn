@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c7675ca0ef2f2477d510c956e63d824a5e6b0980
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176727"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812524"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>新的或更新任务指南（2016 年 8 月）
 
@@ -32,7 +32,7 @@ ms.locfileid: "2176727"
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX 的 APQC 标准库中的任务指南（2016 年 8 月 - 所有语言）
 
-（2016 年 8 月 - 所有语言）APQC 标准库中包含用于帮助 Microsoft Dynamics AX 平台更新 2（2016 年 8 月）、Dynamics AX 2016 年 5 月应用程序更新和 Microsoft Dynamics AX 2016 年 2 月版本的任务指南。 有关这些版本的详细信息，请参阅[新增和更改内容](whats-new-changed.md)。 此库中提供了任务指南的本地化版本。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助入门](help-overview.md)。
+（2016 年 8 月 - 所有语言）APQC 标准库中包含用于帮助 Microsoft Dynamics AX 平台更新 2（2016 年 8 月）、Dynamics AX 2016 年 5 月应用程序更新和 Microsoft Dynamics AX 2016 年 2 月版本的任务指南。 有关这些版本的详细信息，请参阅 [Finance and Operations 新增功能或更改主页](whats-new-changed.md)。 此库中提供了任务指南的本地化版本。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助系统](help-overview.md)。
 
 ### <a name="data-access"></a>数据访问
 

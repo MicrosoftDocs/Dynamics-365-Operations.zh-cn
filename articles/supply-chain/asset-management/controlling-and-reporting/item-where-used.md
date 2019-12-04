@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511108e689c10e27a42253d95b02e5394f9eb713
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 476b01a4bae34a271203f34481ff18042783d4df
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652348"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811255"
 ---
 # <a name="item-where-used"></a>物料的使用位置
 
@@ -33,15 +33,15 @@ ms.locfileid: "2652348"
 
 可对特定物料进行计算，以便在资产管理中获取有关物料使用位置的概览。 结果显示物料在其生命周期内的使用上下文。 **物料使用位置**页可以从资产管理主菜单打开，也可以从以下页访问：
 
-- [资产物料清单](../objects/object-BOM.md)
+- [资产 BOM](../objects/object-BOM.md)
 
-- [资产类型默认的备件](../setup-for-objects/object-types.md)
+- [资产类型默认的备件](../setup-for-objects/object-types.md#spare-parts-on-the-asset-type-setup)
 
-- [维护作业类型默认预测的物料预测](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
+- [维护作业类型类别和维护工作类型、维护作业类型变型、维护作业贸易和维护清单](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
 
-- [工作订单维护预告](../work-orders/maintenance-forecasts.md)
+- [维护预告](../work-orders/maintenance-forecasts.md)
 
-- [工作订单采购申请](../work-orders/procurement.md)
+- [采购](../work-orders/procurement.md)
 
 - [工作订单采购](../work-orders/procurement.md)
 

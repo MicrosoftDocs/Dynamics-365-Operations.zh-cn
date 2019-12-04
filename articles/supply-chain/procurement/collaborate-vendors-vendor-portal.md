@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 96cd2fc988df11c616faf06cf0905acd6b3d6dcc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248972"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813515"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>使用供应商门户与供应商协作
 
@@ -31,7 +31,7 @@ ms.locfileid: "2248972"
 
 本主题说明在采购订单确认流程中采购代理如何使用供应商门户来与外部供应商协作。 此信息仅适用于 Dynamics AX 2016 年 2 月和 2016 年 5 月版本。
 
-本主题中的信息仅适用于 Dynamics AX 2016 年 2 月和 2016 年 5 月版本。 有关新的供应商协作功能的详细信息，请参阅[使用供应商协作与外部供应商协作](vendor-collaboration-work-external-vendors.md)。  
+本主题中的信息仅适用于 Dynamics AX 2016 年 2 月和 2016 年 5 月版本。 有关新的供应商协作功能的详细信息，请参阅[供应商与外部供应商的协作](vendor-collaboration-work-external-vendors.md)。  
 
 供应商门户在没有与 Microsoft Dynamics AX 的电子数据交换 (EDI) 集成以交换采购订单 (PO) 信息的供应商处定位。 该门户允许采购代理将 PO 发送给供应商并直接在 Dynamics AX 中接收“已确认”或“已拒绝”响应。  
 
@@ -98,7 +98,7 @@ PO 在 Dynamics AX 中准备。 在您具有状态为**已审核**的 PO 时，�
 <a name="additional-resources"></a>其他资源
 --------
 
-[为供应商协作用户配置安全性](configure-security-vendor-portal-users.md)
+[供应商门户用户安全性](configure-security-vendor-portal-users.md)
 
 [供应商协作开票工作区](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 

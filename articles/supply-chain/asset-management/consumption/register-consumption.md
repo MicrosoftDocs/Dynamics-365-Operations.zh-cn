@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 43f14a1cbd016335b857fdff1147740b27d5c765
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 3d23375ec7ebe9b43c2d2e3e376e26c348131bd3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653315"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812252"
 ---
 # <a name="register-consumption"></a>登记消耗
 
@@ -33,7 +33,7 @@ ms.locfileid: "2653315"
 
 为工作订单完成了维护作业之后，下一步是创建消耗登记和过帐日记帐。 可以为以下消耗类型创建登记：工时、物料和费用。 将在**工作订单日记帐**页面中登记和过帐不同消耗类型。 **资产管理**中的日记帐设置用于在**项目管理与核算**模块中为工时、物料和费用分别创建和过帐日记帐。
 
-有些情况下，您可能可以在工作订单中添加或删除预测行。 对工作订单生命周期状态、关联的项目类型和与项目类型关联的阶段规则的设置决定是否可以添加或编辑日记帐行。 有关工作订单生命周期状态和关联的项目阶段的详细信息，请参阅[集成到项目管理与核算](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md)。
+有些情况下，您可能可以在工作订单中添加或删除预测行。 对工作订单生命周期状态、关联的项目类型和与项目类型关联的阶段规则的设置决定是否可以添加或编辑日记帐行。 在[预测、工作订单和项目](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md)中了解有关工作订单生命周期状态和相关的项目阶段的详细信息。
 
 >[!NOTE]
 >可以为工作订单生命周期状态设置日记帐自动过帐。 有关详细信息，请参阅[工作订单生命周期状态](../setup-for-work-orders/work-order-lifecycle-states.md)。

@@ -1,5 +1,5 @@
 ---
-title: 追踪应聘者个人资料和申请的来源
+title: 在 Attract 中追踪应聘者来源
 description: 本主题提供有关跟踪应聘者个人资料和申请来源的信息。
 author: hachandr
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5b368e97a716cd1ce4f668c2a97326877a2d3dff
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 8860f508eebc377042c4e101eeb08a14a737ba0c
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551879"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832635"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>追踪应聘者个人资料和申请的来源
+# <a name="track-candidate-sources-in-attract"></a>在 Attract 中追踪应聘者来源
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE] 
 > 本主题中介绍的功能作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 若要使用此功能，请让管理员使用 Attract 中的**管理员设置**启用。 将来的版本将提供资源跟踪报告。 有关详细信息，请参阅[访问 Talent 中的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature)。

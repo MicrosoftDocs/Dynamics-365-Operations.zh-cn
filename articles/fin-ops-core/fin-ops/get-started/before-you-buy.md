@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9b7cd06d820522d8db83b5b1480b95db1400e9cc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f8017ab23ce77a03469a6a6c82bc22986ec4478
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191239"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812618"
 ---
 # <a name="before-you-buy"></a>购买之前
 
@@ -41,8 +41,8 @@ Dynamics 365 for Finance and Operations 的新用户？ 无论你是仍然在评
 
 - 云认证中不可用的法规和合规性需求
 - 业务流程不连贯，并且访问 Microsoft Dynamics Lifecycle Services (LCS) 以执行应用程序生命周期管理所需的 Internet 连接时断时续
-- [当前未在内部部署中实现的功能](features-not-implemented-on-prem.md)
-- [最低基础结构需求](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+- [未在本地部署中实现的功能](features-not-implemented-on-prem.md)
+- [本地部署的系统要求](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
 > 所有公共云基础设施（包括 Azure）都不支持本地部署 Microsoft Dynamics 365 for Finance and Operations。
@@ -78,7 +78,7 @@ Microsoft 云解决方案提供商可以与你密切合作以了解你的公司�
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>通过 Dynamics 合作伙伴购买（本地）
 
-你必须与合作伙伴合作以购买本地 Finance and Operations。 有关详细信息，请参阅[购买 Dynamics 365 for Finance and Operations (on-premises)](purchase-on-premises.md)
+你必须与合作伙伴合作以购买本地 Finance and Operations。 有关详细信息，请参阅[购买 Finance + Operations (on-premises)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>选择你的支持选项
 
@@ -91,7 +91,7 @@ Microsoft 提供灵活的、业内领先的支持、服务和资源，使用户�
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>步骤四：了解 FastTrack 并计划你的部署
 
-Microsoft FastTrack for Dynamics 365 是我们的客户成功服务，旨在帮助你顺利和放心地迁移到 Dynamics 365，让你更快地实现商业价值。 你参加 FastTrack 计划后，将收到关于最佳实践和如何制定成功的推出计划的指导。 你还将了解按照自己的速度启用新用户和扩展功能的方式。 此外，你还将有权访问旨在让你成功体验 Dynamics 365 的 Microsoft 工程资源。 详细信息：[Microsoft FastTrack for Dynamics 365 概览](fasttrack-dynamics-365-overview.md)
+Microsoft FastTrack for Dynamics 365 是我们的客户成功服务，旨在帮助你顺利和放心地迁移到 Dynamics 365，让你更快地实现商业价值。 你参加 FastTrack 计划后，将收到关于最佳实践和如何制定成功的推出计划的指导。 你还将了解按照自己的速度启用新用户和扩展功能的方式。 此外，你还将有权访问旨在让你成功体验 Dynamics 365 的 Microsoft 工程资源。 详细信息：[Microsoft FastTrack](fasttrack-dynamics-365-overview.md)
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>如果您要从 Dynamics AX 2012 升级或从 AX 2009 迁移
 

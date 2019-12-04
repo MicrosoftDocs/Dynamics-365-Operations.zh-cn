@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 448fceccb507bec5b60b686043a303c1997a9ac0
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 0b0be541416d2e4be78da223ec8e95c195d90bbc
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742658"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832621"
 ---
 # <a name="track-changes-in-recruiting-data"></a>跟踪招聘数据的变化
+
+[!include [banner](includes/banner.md)]
 
 可使用审核流程跟踪对应聘者、职位空缺或工作申请进行的更改。 这对报告或合规性原因非常有用。
 
@@ -31,7 +33,7 @@ ms.locfileid: "1742658"
 ## <a name="track-changes"></a>跟踪更改
 若要设置招聘数据的跟踪更改，请执行以下步骤：
 
-1. 在 [PowerApps](https://web.powerapps.com) 中，选择相应环境。
+1. 在 [Power Apps](https://web.powerapps.com) 中，选择相应环境。
 
 2. 选择**设置**（齿轮图标），选择**高级自定义**，然后选择**开发人员资源**下的**资源**。 
 

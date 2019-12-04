@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a1fac239524d4873a782e6a3d177a573a382d0f6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 55853418eacd179b7bb50b7e4385300bdcb27abe
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552021"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812894"
 ---
 # <a name="create-an-onboarding-template-by-using-dynamics-365-talent---onboard"></a>使用 Dynamics 365 Talent - Onboard 创建入职模板
 
@@ -59,6 +59,6 @@ Microsoft Dynamics 365 Talent: Onboard 提供了各种模板，可以帮助您�
 ### <a name="see-also"></a>请参阅
 
 - [试用或购买 Onboard 应用](https://dynamics.microsoft.com/talent/onboard/)
-- [新增功能](./whats-new.md)
-- [版本说明](https://docs.microsoft.com/business-applications-release-notes/index)
-- [获取支持](./talent-support.md)
+- [Dynamics 365 Talent 新增功能或更改](./whats-new.md)
+- [发布计划](https://docs.microsoft.com/business-applications-release-notes/index)
+- [获取 Microsoft Dynamics 365 Talent 支持](./talent-support.md)

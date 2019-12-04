@@ -3,7 +3,7 @@ title: 视频
 description: 此页列出 Microsoft 制作的与 Finance and Operations 应用程序有关的“操作方法”视频和技术交流视频，可在 YouTube 和其他网站中观看。
 author: josaw1
 manager: AnnBe
-ms.date: 10/20/2019
+ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: fb14ffa500fcf84030eca075545716a79d7b2b27
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 00ea8de8ba0567e8cc086a754062b3fec9672937
+ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635095"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "2781842"
 ---
 # <a name="videos"></a>视频 
 
@@ -82,7 +82,7 @@ ms.locfileid: "2635095"
 
 ### <a name="customize-the-app"></a>自定义应用程序
 - [添加自定义字段](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
-- [嵌入 PowerApps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
+- [嵌入 Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
 
 ### <a name="expenses"></a>支出
 - [费用体验](https://youtu.be/Ocy-MsTvEE0)
@@ -101,6 +101,9 @@ ms.locfileid: "2635095"
 ### <a name="organization-administration"></a>组织管理
 
 - [文档管理](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
+
+### <a name="revenue-recognition"></a>收入确认
+- [如何使用收入确认](https://youtu.be/v3amIsiqvoo)
 
 ### <a name="tax-engine"></a>税引擎
 

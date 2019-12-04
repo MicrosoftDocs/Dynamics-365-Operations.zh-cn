@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 20d48795b23628bbba2896bf48940936a25e0435
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550076"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771321"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>支持对计算字段类型的 ER 数据源执行参数化调用
 
@@ -55,7 +55,7 @@ ms.locfileid: "2550076"
 | 示例 ER 格式配置        | 用于了解参数化调用的格式.版本.1.1.xml  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>登录您的 RCS 实例
-在此示例中，将为示例公司 Litware 公司创建一个配置。首先必须在 RCS 中完成[创建一个配置提供程序，并标记其为当前运行的](tasks/er-configuration-provider-mark-it-active-2016-11.md)过程中的步骤：
+在此示例中，将为示例公司 Litware 公司创建一个配置。首先必须在 RCS 中完成[创建配置提供程序并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)过程中的步骤：
 
 1. 在默认仪表板中，选择**电子申报**。
 2. 选择**申报配置**。
@@ -75,21 +75,21 @@ ms.locfileid: "2550076"
 3. 选择**设计器**。
 4. 选择**设计器**。  
    
-此 ER 模型映射用于执行以下操作：
+    此 ER 模型映射用于执行以下操作：
 
-- 提取 **TaxTable** 表中的税码（**税**数据源）的列表。
-- 提取 **TaxTrans** 表中的税务交易记录（**交易记录**数据源）的列表：
+    - 提取 **TaxTable** 表中的税码（**税**数据源）的列表。
+    - 提取 **TaxTrans** 表中的税务交易记录（**交易记录**数据源）的列表：
     
-    - 按税码为提取的交易记录（**组**数据源）列表分组。
-    - 按税码计算分组的交易记录的以下聚合值：
+        - 按税码为提取的交易记录（**组**数据源）列表分组。
+        - 按税码计算分组的交易记录的以下聚合值：
 
-        - 税金基数值的和。
-        - 税金值的和。
-        - 采用的税率的最小值。
+            - 税金基数值的和。
+            - 税金值的和。
+            - 采用的税率的最小值。
 
-此配置中的模型映射实施为此模型创建并在 Finance and Operations 中执行的任何 ER 格式的基本数据模型。 结果，**Tax**和 **Gr** 数据源的内容将对抽象数据源之类 ER 格式公开。
+    此配置中的模型映射实施为此模型创建并在 Finance and Operations 中执行的任何 ER 格式的基本数据模型。 结果，**Tax**和 **Gr** 数据源的内容将对抽象数据源之类 ER 格式公开。
 
-  ![其中显示“税”和“组”数据源的模型映射设计器页面](media/er-calculated-field-type-01.png)
+    ![其中显示“税”和“组”数据源的模型映射设计器页面](media/er-calculated-field-type-01.png)
 
 5.  关闭**模型映射设计器**页。
 6.  关闭**模型映射**页。
@@ -100,25 +100,25 @@ ms.locfileid: "2550076"
 2. 选择**用于了解参数化调用的格式**。
 3. 选择**设计器**。 此 ER 格式用于执行以下操作：
 
-  - 生成 XML 格式的报税单。
-  - 在报税单中提供以下征税级别：正常、减税、免税。
-  - 在每个征税级别提供多项详细信息，从而每个级别包含不同数量的详细信息。
+    - 生成 XML 格式的报税单。
+    - 在报税单中提供以下征税级别：正常、减税、免税。
+    - 在每个征税级别提供多项详细信息，从而每个级别包含不同数量的详细信息。
 
-  ![“格式设计器”页面](media/er-calculated-field-type-02.png)
+    ![“格式设计器”页面](media/er-calculated-field-type-02.png)
 
 4. 选择**映射**。
 5. 展开**模型**、**数据**和**摘要**项。 
 
-   计算字段**模型.数据.摘要.级别**中包含表达式，用于将征税级别（**正常**、**减税**、**免税**或**其他**）的代码作为可在运行时从**模型.数据.摘要**数据源检索的任何税码的文本值返回。
+    计算字段**模型.数据.摘要.级别**中包含表达式，用于将征税级别（**正常**、**减税**、**免税**或**其他**）的代码作为可在运行时从**模型.数据.摘要**数据源检索的任何税码的文本值返回。
 
-  ![其中显示“用于了解参数化调用的数据模型”模型的详细信息的格式设计器页面](media/er-calculated-field-type-03.png)
+    ![其中显示“用于了解参数化调用的数据模型”模型的详细信息的格式设计器页面](media/er-calculated-field-type-03.png)
 
 6. 展开**模型**.**数据2** 项。
 7. 展开**模型**.**数据2.摘要2** 项。
    
-   配置**模型**.**数据2.摘要2** 数据源是为了按（**模型.数据.摘要.级别**计算字段返回的）征税级别为**模型.数据.摘要**数据源交易记录详细信息分组和计算聚合。
+    配置**模型**.**数据2.摘要2** 数据源是为了按（**模型.数据.摘要.级别**计算字段返回的）征税级别为**模型.数据.摘要**数据源交易记录详细信息分组和计算聚合。
 
-  ![其中显示“模型.数据2.摘要2”数据源的详细信息的格式设计器页面](media/er-calculated-field-type-04.png)
+    ![其中显示“模型.数据2.摘要2”数据源的详细信息的格式设计器页面](media/er-calculated-field-type-04.png)
 
 8. 查看计算字段**模型**.**数据2.级别1**、**模型**.**数据2.级别2** 和**模型**.**数据2.级别3**。 这些计算字段用于筛选**模型**.**数据2.摘要2** 记录列表和仅返回表示特定征税级别的记录。
 9. 关闭**格式设计器**页。
@@ -309,7 +309,7 @@ ms.locfileid: "2550076"
 可运行初始 ER 格式和改进的 ER 格式以确保配置的参数化计算字段正确工作。
 
 ### <a name="import-er-configurations"></a>导入 ER 配置
-可通过使用 **RCS** 类型的 ER 存储库从 RCS 导入已审查的配置。 如果已经执行了[从 Regulatory Configuration Service 导入电子申报配置](rcs-download-configurations.md)主题中的步骤，请使用配置的 ER 存储库将本主题前文讨论的配置导入到您的环境中。 否则，请执行以下步骤：
+可通过使用 **RCS** 类型的 ER 存储库从 RCS 导入已审查的配置。 如果已经执行了[从 Regulatory Configuration Service (RCS) 导入电子申报 (ER) 配置](rcs-download-configurations.md)主题中的步骤，请使用配置的 ER 存储库将本主题前文讨论的配置导入到您的环境中。 否则，请执行以下步骤：
 
 1. 选择 **DEMF** 公司，然后在默认仪表板中选择**电子申报**。
 2. 选择**申报配置**。
@@ -339,4 +339,4 @@ ms.locfileid: "2550076"
 8. 比较生成的输出的内容。
 
 ## <a name="additional-resources"></a>其他资源
-[电子报告中的配方设计器](general-electronic-reporting-formula-designer.md)
+[电子申报中 (ER) 的配方设计器](general-electronic-reporting-formula-designer.md)

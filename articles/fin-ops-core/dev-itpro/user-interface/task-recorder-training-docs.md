@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: b4bb523c2817a220623d8a1b6cc1ac04d7b96283
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658802"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812641"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>通过任务录制创建文档或培训
 
@@ -84,7 +84,7 @@ ms.locfileid: "2658802"
 
 [![任务指南中的附注注释外观](./media/screen4.png)](./media/screen4.png)
 
--   **信息步骤**：通过右键单击窗体上的控件或任何位置 &lt; **任务录制器** &lt; **添加信息步骤**来创建这些批注。信息步骤在您插入它的任何位置处显示为带编号的步骤，即使未在 UI 中录制任何操作。 您可以添加窗体级别信息步骤或与控件关联的信息步骤。 当信息步骤与窗体关联时，任务指南“气泡”将在播放任务指南时显示在窗体的某个位置（无指针）。 当信息步骤与控件关联时，任务指南“气泡”将在播放任务指南时指向控件。在“帮助”窗格中，信息步骤批注将显示为带有编号的步骤，其中包含有您输入的任何文本。 使用信息步骤可准备用户以执行后续步骤、描述需在应用程序外部完成的步骤或引用其他录制（尽管您无法在批注中创建超链接）。
+-   **信息步骤**：通过右键单击控件或窗体上任何位置，然后选择 &lt; **任务录制器** &lt; **添加信息步骤**来创建这些批注。 信息步骤在您插入它的任何位置处显示为带编号的步骤，即使未在 UI 中录制任何操作。 您可以添加窗体级别信息步骤或与控件关联的信息步骤。 当信息步骤与窗体关联时，任务指南“气泡”将在播放任务指南时显示在窗体的某个位置（无指针）。 当信息步骤与控件关联时，任务指南“气泡”将在播放任务指南时指向控件。在“帮助”窗格中，信息步骤批注将显示为带有编号的步骤，其中包含有您输入的任何文本。 使用信息步骤可准备用户以执行后续步骤、描述需在应用程序外部完成的步骤或引用其他录制（尽管您无法在批注中创建超链接）。
 
 **确定创建录制所需的时长**
 
@@ -97,7 +97,7 @@ ms.locfileid: "2658802"
 **决定在 UI 中开始录制的位置** 您在开始录制任务录制时所在的页面会影响为其显示任务指南的页面。例如，如果您希望在用户单击“总帐参数”页面上的帮助时在"帮助"窗格中列出任务录制，则必须在“总帐参数”页面上开始您的录制。 **将录制另存为 .axtr 文件** 当您创建或编辑完任务录制时，系统将为您显示有关如何下载或保存录制的多个选项。 您可以将文件作为任务录制包 (.axtr)、原始录制文件 (.xml) 或 Word 文档下载或将文件保存到 LCS 库。 最好是始终将您的任务录制另存为任务录制包文件 (.axtr)。 如果稍后需要更改过程或批注，这将帮助更轻松地维护文件。 如果您需要将文件作为 Word 文档下载，也将其另存为任务录制包文件。
 
 ## <a name="create-your-task-recording"></a>创建您的任务录制
-有关详细演练步骤，请参阅[如何创建任务录制](task-recorder.md)。
+有关详细演练步骤，请参阅[任务录制器资源](task-recorder.md)。
 
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>复制和自定义 Microsoft 的任务录制
 您可以下载和编辑 Microsoft 的任务录制以将其用于您自己的帮助文档或培训材料。 要下载 Microsoft 任务录制，请执行以下步骤：
@@ -120,9 +120,9 @@ ms.locfileid: "2658802"
 <a name="additional-resources"></a>其他资源
 --------
 
-[帮助概览](../../fin-ops/get-started/help-overview.md)
+[帮助系统](../../fin-ops/get-started/help-overview.md)
 
-[连接帮助](../../fin-ops/get-started/help-connect.md)
+[连接帮助系统](../../fin-ops/get-started/help-connect.md)
 
 [任务录制器](task-recorder.md)
 

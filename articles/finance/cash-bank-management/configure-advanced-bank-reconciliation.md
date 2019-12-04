@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2922b00dffe8e99f8331d7aaa7e2f1b7dc4f9ea6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 405af4e3e122953bbfa74e7e91d2feef8f068708
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176629"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772620"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>高级银行对帐设置流程
 
@@ -31,7 +31,7 @@ ms.locfileid: "2176629"
 
 高级银行对帐允许您在 Microsoft Dynamics 365 Finance 中导入电子银行对帐单，并与银行交易记录自动对帐。 这篇文章将介绍对帐流程设置。  
 
-在使用高级银行对帐功能之前有很多必须设置的部分。 有关设置银行对账单导入的详细信息，请参阅[设置银行对账单导入流程](set-up-advanced-bank-reconciliation-import-process.md)。  下面详细描述了对帐流程设置的要求。
+在使用高级银行对帐功能之前有很多必须设置的部分。 有关设置银行对账单导入的详细信息，请参阅[设置高级银行对帐导入流程](set-up-advanced-bank-reconciliation-import-process.md)。  下面详细描述了对帐流程设置的要求。
 
 ## <a name="transaction-codes"></a>交易记录代码
 可将交易记录代码用作银行对帐匹配规则的一部分。 交易记录代码有助于仅匹配 Finance 与您的银行对账单之间类型相同的交易记录。 要执行此类型的匹配，必须首先从 Finance 定义用于银行交易记录的交易记录类型，然后将这些类型映射到您的银行使用的对账单交易记录代码。 银行交易记录的交易记录类型在**银行交易记录类型**页面中定义。 这也是定义要用于与该交易记录类型关联的过帐的主科目。 

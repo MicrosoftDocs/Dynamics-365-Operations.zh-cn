@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eef9d8c58d19b05901035f4c679ee7d9902819
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8196ddc879df1f398aabef0c1c4064bf0d4fff2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176578"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771888"
 ---
 # <a name="set-up-fixed-assets"></a>设置固定资产
 
@@ -51,7 +51,7 @@ ms.locfileid: "2176578"
 
 主折旧模板分配给每个帐簿。 帐簿还有备选或替换的折旧模板，如果这种模板类型适用。 若要自动在折旧运行时包括固定资产帐簿，则必须启用此**计算折旧**选项。 如果不为资产启用此选项，折旧方案将跳过资产。
 
-您还可以设置衍生帐簿。 指定的衍生交易记录将针对衍生帐簿过帐为主交易记录的精确副本。 因此，衍生交易记录通常针对购置和处置进行设置，而不是针对折旧交易记录。 有关详细信息，请参阅[设置帐簿](tasks/set-up-value-models.md)。
+您还可以设置衍生帐簿。 指定的衍生交易记录将针对衍生帐簿过帐为主交易记录的精确副本。 因此，衍生交易记录通常针对购置和处置进行设置，而不是针对折旧交易记录。 有关详细信息，请参阅[设置价值模型](tasks/set-up-value-models.md)。
 
 ## <a name="fixed-asset-posting-profiles"></a>固定资产过帐模板
 

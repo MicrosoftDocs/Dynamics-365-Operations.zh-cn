@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c40877bc6557a81adc5c1b8d10afbbd26322b200
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3677db634366ecfe6a26f2f5e01532ce5a087593
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249917"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815241"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>将物料清单和配方行发放到仓库
 
@@ -31,7 +31,7 @@ ms.locfileid: "2249917"
 此主题介绍将物料清单 (BOM) 行和配方行的原材料发放到仓库的流程。 在您将物料清单或配方行发放到仓库时，系统将首先确定用于生产流程的物料所在的车间的生产输入库位上是否已经提供该物料。
 
 - 如果在生产输入库位提供该物料，则在发出将该物料发放到仓库的信号后立即从该库位领取该物料。
-- 如果在生产输入库位不提供该物料，则物料发放指示必须将该物料从仓库中的库位移动到生产输入库位。 通过仓库移动物料适用于原材料领取。 因此，必须配置仓库的原材料领取流程。 有关详细信息，请参阅[补货](../warehousing/replenishment.md)和[使用工作模板和库位指令控制仓库的工作](../warehousing/control-warehouse-location-directives.md)。
+- 如果在生产输入库位不提供该物料，则物料发放指示必须将该物料从仓库中的库位移动到生产输入库位。 通过仓库移动物料适用于原材料领取。 因此，必须配置仓库的原材料领取流程。 有关详细信息，请参阅[补货概述](../warehousing/replenishment.md)和[使用工作模板和库位指令控制仓库的工作](../warehousing/control-warehouse-location-directives.md)。
 
 ## <a name="methods-for-releasing-bom-and-formula-lines"></a>发放物料清单和配方行的方法
 

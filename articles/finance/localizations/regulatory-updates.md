@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: adb88a5fb79b24a26aa2976464d3e838922322c6
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 480253d1401c567e27f636f8a2b19fa3937e89e5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653196"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770376"
 ---
 # <a name="regulatory-updates"></a>监管更新
 
@@ -82,11 +82,11 @@ Microsoft 致力于尽早实施新的监管要求。 实际交付日期取决于
 |      2019 年 4 月          |   10.0.1      | 匈牙利      |  匈牙利：在线开票 v.1.1 2019  |
 |      2019 年 4 月          |   10.0.1      | 日本      |  2019 日本日历纪元更改  |
 |      2019 年 4 月          |   10.0.1      |    俄罗斯     |2018 年以来的地税申报更改 |
-|      2019 年 4 月          |   10.0.1      |    俄罗斯     |[2019 年以来的财产税申报更改](rus-assessed-tax-declaration.md)|
+|      2019 年 4 月          |   10.0.1      |    俄罗斯     |[估定税申报](rus-assessed-tax-declaration.md)|
 |      2019 年 4 月          |   10.0.1      |    俄罗斯     |2019 年以来的运输税申报更改  |
-|      2019 年 4 月          |   10.0.1      |    俄罗斯     |[2019 年开始的增值税申报格式更改](rus-VAT-declaration.md) |
+|      2019 年 4 月          |   10.0.1      |    俄罗斯     |[增值税申报](rus-VAT-declaration.md) |
 |      2019 年 4 月          |   10.0.1      |    俄罗斯     |2019 年开始的增值税申报格式更改（销售帐簿和采购帐簿） |
-|      2019 年 4 月          |   10.0.1      |    英国     |[增值税报表提交更改（报税电子化）](emea-gbr-mtd-vat-integration.md)    |    
+|      2019 年 4 月          |   10.0.1      |    英国     |[准备 Finance and Operations 以与 MTD 进行增值税集成](emea-gbr-mtd-vat-integration.md)    |    
 |      2019 年 3 月          |   10.0.0      |    奥地利   |   Kammerumlage 2019 的更改（进项税）。    |
 |      2019 年 3 月          |   10.0.0      |    巴西    |     SPED EFD 缴纳额 - 布局 004 和 005  |
 |      2019 年 3 月          |   10.0.0      |    马来西亚     |马来西亚使用 SST 销售税和服务税替换 GST        |

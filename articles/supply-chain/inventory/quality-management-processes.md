@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22372bd2d42b526d10e39174e7fb5ec5281d1b73
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 544721af404775a6d8b65628848caa84ceaebe30
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572780"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813814"
 ---
 # <a name="quality-management-processes"></a>质量管理流程
 
@@ -90,14 +90,14 @@ ms.locfileid: "1572780"
 <a name="additional-resources"></a>其他资源
 --------
 
-[启用质量管理](enable-quality-management.md)
+[质量管理概览](enable-quality-management.md)
 
-[启用未达标管理](enable-nonconformance-management.md)
+[不符合项管理](enable-nonconformance-management.md)
 
 [库存锁定](inventory-blocking.md)
 
 [检验单](quarantine-orders.md)
 
-[设置质检订单（任务指南）](tasks/set-up-quality-orders.md)
+[设置质检订单](tasks/set-up-quality-orders.md)
 
-[检查货物的质量（任务指南）](tasks/inspect-quality-goods.md)
+[检查货物的质量](tasks/inspect-quality-goods.md)

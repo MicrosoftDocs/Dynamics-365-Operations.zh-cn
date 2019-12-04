@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 974f99632738cfc6eec5ff85965f4e9f9608a8b5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3e110c7fe6881825fe2b075c1795bc4f7e938da4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176722"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811499"
 ---
 # <a name="view-and-export-field-descriptions"></a>查看和导出字段描述
 
@@ -35,7 +35,7 @@ ms.locfileid: "2176722"
 
 并非所有页都有字段描述。 我们只为较为复杂的字段提供描述，不为用法明显的字段提供。 因此，某些页没有任何字段描述，某些页有一些描述，而一些较复杂的页面（如很多参数页）有很多描述。
 
-如果您有权访问开发环境，则可添加新字段描述并自定义现有描述。 例如，您可以添加特定于公司的信息到字段描述。 有关详细信息，请参阅[自定义字段帮助](../../dev-itpro/user-interface/customize-field-help.md)。
+如果您有权访问开发环境，则可添加新字段描述并自定义现有描述。 例如，您可以添加特定于公司的信息到字段描述。 有关详细信息，请参阅[自定义字段描述](../../dev-itpro/user-interface/customize-field-help.md)。
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>参阅用户界面的字段描述
 
@@ -107,4 +107,4 @@ ms.locfileid: "2176722"
 
 ## <a name="additional-resources"></a>其他资源
 
-[自定义字段帮助](../../dev-itpro/user-interface/customize-field-help.md)
+[自定义字段描述](../../dev-itpro/user-interface/customize-field-help.md)

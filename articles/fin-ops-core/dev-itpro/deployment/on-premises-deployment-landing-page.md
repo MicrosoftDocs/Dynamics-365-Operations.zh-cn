@@ -3,7 +3,7 @@ title: 本地部署主页
 description: 本主题提供有关本地部署的信息和内容链接。
 author: kfend
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 52418030c0c7a56e549e6645beae1d94ae7bfafd
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 81698517dc501a6001f62216f3804510144c1045
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536939"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770938"
 ---
 # <a name="on-premises-deployment-home-page"></a>本地部署主页
 
@@ -30,11 +30,11 @@ ms.locfileid: "2536939"
 
 您可以部署 Dynamics 365 Finance + Operations (on-premises)。 当你选择一个本地部署类型时，系统要求、硬件规模调整和功能与云部署不同。 本主题提供包含本地部署特定信息的内容链接。
 
-## <a name="get-started"></a>开始
-- [本地部署选项](on-premises-overview.md)
+## <a name="get-started"></a>入门
+- [本地部署概览](on-premises-overview.md)
 - [计划和准备本地部署](plan-onprem-deployment.md)
 - [本地部署的系统要求](../../fin-ops/get-started/system-requirements-on-prem.md)
-- [针对本地环境的硬件规模调整](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
+- [针对本地环境的硬件规模调整要求](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [购买 Finance + Operations (on-premises)](../../fin-ops/get-started/purchase-on-premises.md)
 - [云和本地功能的比较](../../fin-ops/get-started/cloud-prem-comparison.md)
 
@@ -50,8 +50,8 @@ ms.locfileid: "2536939"
 - [配置文档管理](../../fin-ops/organization-administration/configure-document-management.md)
 - [导入电子申报 (ER) 配置](../analytics/electronic-reporting-import-ger-configurations.md)
 - [本地部署中的文档生成、发布和打印](../analytics/printing-capabilities-on-premises.md)
-- [为本地环境配置反向代理](onprem-reverseproxy.md)
-- [设置技术支持](../lifecycle-services/support-experience.md)
+- [为本地环境配置代理](onprem-reverseproxy.md)
+- [设置对 Finance and Operations 应用的技术支持](../lifecycle-services/support-experience.md)
 - [客户端 Internet 连接](../user-interface/client-disconnected.md)
 - [将更新应用于本地部署](apply-updates-on-premises.md)
 - [重新部署本地环境](redeploy-on-prem.md)
@@ -67,9 +67,10 @@ ms.locfileid: "2536939"
 
 ## <a name="other-resources"></a>其他资源
 - [对本地部署进行故障排除](troubleshoot-on-prem.md)
+- [解决本地环境中问题的脚本](onprem-tsg-implementations.md)
 - [证书轮换](certificate-rotation-on-prem.md)
 - [本地诊断](on-premises-diagnostics.md)
-- [未在内部部署中实现的功能](../../fin-ops/get-started/features-not-implemented-on-prem.md)
-- [已删除或弃用的功能](../migration-upgrade/deprecated-features.md)
+- [未在本地部署中实现的功能](../../fin-ops/get-started/features-not-implemented-on-prem.md)
+- [Finance and Operations 的移除或弃用功能](../migration-upgrade/deprecated-features.md)
 - [软件生命周期策略和本地版本](../migration-upgrade/on-prem-version-update-policy.md)
  

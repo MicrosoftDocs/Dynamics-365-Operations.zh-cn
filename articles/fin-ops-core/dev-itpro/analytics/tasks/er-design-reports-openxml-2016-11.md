@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1229c89f43f9ded955dadf2f4d87825c9ab4e71
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182569"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769847"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）
 
@@ -36,7 +36,7 @@ ms.locfileid: "2182569"
 
 ## <a name="upload-the-payments-data-model-configuration"></a>上载付款数据模型配置
 1. 在导航窗格中，转到**模块 > 组织管理 > 工作区 > 电子申报**。
-2. 在列表中，标记示例公司“Litware 公司”的配置供应商。如果没有看到此配置供应商，您必须首先完成[创建配置提供商并标记为有效](er-configuration-provider-mark-it-active-2016-11.md)这一过程中的步骤。
+2. 在列表中，标记示例公司“Litware 公司”的配置供应商。如果没有看到此配置供应商，您必须首先完成[创建配置提供程序并将其标记为有效](er-configuration-provider-mark-it-active-2016-11.md)这一过程中的步骤。
 3. 选择**设置有效**。
 4. 选择**存储库**。 为运营资源类型选择存储库（如果有）。 如果可用，跳过有关创建新存储库的以下步骤。  
 5. 选择**添加**以打开下拉对话框。

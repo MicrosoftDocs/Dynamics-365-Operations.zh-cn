@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc998ddc2f654afba778c8c3af85dce37d3c3427
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: d452ccc94324a695f0d203486fc5fa8fe9db79f6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570163"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770543"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>全部金额和销售税代码的间隔计算选项
 
@@ -58,7 +58,7 @@ ms.locfileid: "2570163"
 
 | 应纳税金额（价格） | 计算    | 增值税 |
 |------------------------|----------------|-----------|
-| 35.00                  | 35.00 \* 0.30  | 1050     |
+| 35.00                  | 35.00 \* 0.30  | 10.50     |
 | 50.00                  | 50.00 \* 0.30  | 15.00     |
 | 85.00                  | 85.00 \* 0.20  | 17.00     |
 | 305.00                 | 305.00 \* 0.10 | 30.50     |
@@ -77,14 +77,14 @@ ms.locfileid: "2570163"
 
 | 应纳税金额（价格） | 计算                                                               | 增值税 |
 |------------------------|---------------------------------------------------------------------------|-----------|
-| 35.00                  | 35.00 \* 0.30                                                             | 1050     |
+| 35.00                  | 35.00 \* 0.30                                                             | 10.50     |
 | 50.00                  | 50.00 \* 0.30                                                             | 15.00     |
 | 85.00                  | (50.00 \* 0.30 = 15.00) + (35.00 \* 0.20 = 7.00)                          | 22.00     |
 | 305.00                 | (50.00 \* 0.30 = 15.00) + (50.00 \* 0.20 = 10.00) + (205 \* 0.10 = 20.50) | 45.50     |
 
 
 
-有关详细信息，请参阅[基于“边际基数”和“计算方法”字段确定销售税比率](marginal-base-field.md)。
+有关详细信息，请参阅[基于“边际基数”和“计算方法”的销售税比率](marginal-base-field.md)。
 
 
 

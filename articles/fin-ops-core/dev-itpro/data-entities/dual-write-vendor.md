@@ -19,22 +19,20 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d33625b94e7611a256c389a6de4692ae8f4ff2a7
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: da451c63c23444da564307505d38699faf9df19a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572464"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770969"
 ---
 # <a name="integrated-vendor-master"></a>集成供应商主控
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview](../includes/preview-banner.md)]
-
 *供应商*指的是供应链过程中为企业提供货物的供应商组织或独立经营者。 尽管*供应商*是 Finance and Operations 应用中的一个熟悉的概念，而其他 Dynamics 365应用中则不存在供应商这个概念。 相反，某些企业会重用客户实体来同时存储客户信息和供应商信息。 其他企业则使用自定义的供应商概念。 Common Data Service 集成同时支持这两种设计。 因此，您可以根据业务场景来启用其中一种设计。
 
-Finance and Operations 应用与其他 Dynamics 365 应用程序之间的供应商数据集成让您可以对数据实现多主控处理。 无论供应商数据源自何处，都跨越应用程序边界和基础结构差异在后台集成。 
+Finance and Operations 应用与其他 Dynamics 365 应用之间的供应商数据集成让您可以对数据实现多主控处理。 无论供应商数据源自何处，都跨越应用程序边界和基础结构差异在后台集成。 
 
 ### <a name="vendor-data-flow"></a>供应商数据流
 
@@ -52,166 +50,24 @@ Finance and Operations 应用与其他 Dynamics 365 应用程序之间的供应�
 
 供应商数据包括有关供应商的所有信息，如供应商组、地址、联系信息、付款配置文件、发票配置文件和会员状态。 供应商数据交互期间，实体映射集合协同工作，如下表中所示。
 
-Finance and Operations 应用  | 其他 Dynamics 365 应用
-------------------------|---------------------------------
-供应商 V2               | 科目
-供应商 V2               | Msdyn\_vendors
-CDS 联系人 V2         | 联系人
-供应商组           | Msdyn\_vendorgroups
-供应商付款方式   | Msdyn\_vendorpaymentmethods
-付款计划        | Msdyn\_paymentschedules
-付款计划        | Msdyn\_paymentschedulelines
-付款日 CDS         | Msdyn\_paymentdays
-付款日行 CDS   | Msdyn\_paymentdaylines
-付款期限        | Msdyn\_paymentterms
-名称词缀            | Msdyn\_nameaffixes
+Finance and Operations 应用 | 其他 Dynamics 365 应用         | 说明
+----------------------------|---------------------------------|------------
+供应商 V2               | 科目 | 使用供应商实体存储供应商信息的企业可以继续按照相同方法使用此实体。 还可以利用 Finance and Operations 应用集成带来的显式供应商功能。
+供应商 V2               | Msdyn\_vendors | 使用适用于供应商的自定义解决方案的企业可以利用因 Finance and Operations 应用集成而在 Common Data Service 中引入的现成供应商概念。 
+供应商组 | msdyn_vendorgroups | 此模板同步供应商组信息。
+供应商付款方式 | msdyn_vendorpaymentmethods | 此模板同步供应商付款方式信息。
+CDS 联系人 V2             | 联系人                        | [联系人](dual-write-customer.md#cds-contacts-v2-to-contacts)模板同步客户和供应商的所有第一、第二和第三联系信息。
+付款计划行      | msdyn_paymentschedulelines      | [付款计划行](dual-write-customer.md#payment-schedule-lines-to-msdyn_paymentschedulelines)模板同步客户和供应商的引用数据。
+付款计划            | msdyn_paymentschedules          | [付款计划](dual-write-customer.md#payment-schedule-to-msdyn_paymentschedules)模板同步客户和供应商的付款计划引用数据。
+付款日行 CDS V2    | msdyn_paymentdaylines           | [付款日行](dual-write-customer.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines)模板同步客户和供应商的付款日行引用数据。
+付款日 CDS            | msdyn_paymentdays               | [付款日](dual-write-customer.md#payment-days-cds-to-msdyn_paymentdays)模板同步客户和供应商的付款日引用数据。
+付款期限            | msdyn_paymentterms              | [付款期限](dual-write-customer.md#terms-of-payment-to-msdyn_paymentterms)模板同步客户和供应商的付款期限引用数据。
+名称词缀                | msdyn_nameaffixes               | [名称词缀](dual-write-customer.md#name-affixes-to-msdyn_nameaffixes)模板同步客户和供应商的名称词缀引用数据。
 
-[!include [banner](../includes/dual-write-symbols.md)]
+[!include [symbols](../includes/dual-write-symbols.md)]
 
-## <a name="vendor-v2-and-account"></a>供应商 V2 和帐户 
+[!include [Vendors](dual-write/VendorsV2-msdyn-vendors.md)]
 
-使用供应商实体存储供应商信息的企业可以继续按照相同方法使用此实体。 还可以利用 Finance and Operations 应用集成带来的显式供应商功能。
+[!include [Vendor groups](dual-write/VendVendorGroup-msdyn-vendorgroups.md)]
 
-## <a name="vendor-v2-and-msdyn_vendors"></a>供应商 V2 和 Msdyn\_vendors
-
-使用适用于供应商的自定义解决方案的企业可以利用因 Finance and Operations 应用集成而在 Common Data Service 中引入的现成供应商概念。 
-
-<!-- ![vendor mappings](media/dual-write-vendors-1.png) -->
-
-<!-- ![vendor mappings](media/dual-write-vendors-2.png) -->
-
-<!-- ![vendor mappings](media/dual-write-vendors-3.png) -->
-
-源字段 | 映射类型 | 目标字段
----|---|---
-VENDORACCOUNTNUMBER | = | msdyn\_vendoraccountnumber
-VENDORGROUPID | = | msdyn\_vendorgroupid.msdyn\_vendorgroup
-VENDORORGANIZATIONNAME | = | msdyn\_name
-VENDORPARTYTYPE | \>\< | msdyn\_isperson
-PERSONFIRSTNAME | = | msdyn\_firstname
-PERSONLASTNAME | = | msdyn\_lastname
-CREDITLIMIT | = | msdyn\_vendorcreditlimit
-ISFOREIGNENTITY | \>\< | msdyn\_isforeignentity
-ISONETIMEVENDOR | \>\< | msdyn\_isonetimevendor
-ADDRESSBUILDINGCOMPLIMENT | = | msdyn\_addressbuildingcompliment
-PERSONCHILDRENNAMES | = | msdyn\_childrennames
-ADDRESSCITY | = | msdyn\_addresscity
-ADDRESSCOUNTRYREGIONID | = | msdyn\_addresscountryregionid
-ADDRESSCOUNTRYREGIONISOCODE | = | msdyn\_addresscountryregionisocode
-ADDRESSCOUNTYID | = | msdyn\_addresscountyid
-CREDITRATING | = | msdyn\_creditrating
-ADDRESSDESCRIPTION | = | msdyn\_addressdescription
-ADDRESSDISTRICTNAME | = | msdyn\_addressdistrictname
-DUNSNUMBER | = | msdyn\_dunsnumber
-ETHNICORIGINID | = | msdyn\_ethnicorigin
-FORMATTEDPRIMARYADDRESS | = | msdyn\_formattedprimaryaddress
-PERSONHOBBIES | = | msdyn\_hobbies
-PERSONINITIALS | = | msdyn\_initials
-LANGUAGEID | = | msdyn\_languageid
-PERSONLASTNAMEPREFIX | = | msdyn\_lastnameprefix
-PERSONMIDDLENAME | = | msdyn\_middlename
-ORGANIZATIONNUMBER | = | msdyn\_organizationnumber
-OURACCOUNTNUMBER | = | msdyn\_ourvendoraccountnumber
-PAYMENTID | = | msdyn\_paymentid
-PERSONPHONETICFIRSTNAME | = | msdyn\_phoneticfirstname
-PERSONPHONETICMIDDLENAME | = | msdyn\_phoneticmiddlename
-PERSONPHONETICLASTNAME | = | msdyn\_phoneticlastname
-ORGANIZATIONPHONETICNAME | = | msdyn\_organizationphoneticname
-ADDRESSPOSTBOX | = | msdyn\_addresspostbox
-PRIMARYURL | = | msdyn\_primarycontacturl
-PRIMARYEMAILADDRESS | = | msdyn\_primaryemailaddress
-PRIMARYEMAILADDRESSDESCRIPTION | = | msdyn\_primaryemailaddressdescription
-PRIMARYFACEBOOK | = | msdyn\_primaryfacebook
-PRIMARYFACEBOOKDESCRIPTION | = | msdyn\_primaryfacebookdescription
-PRIMARYFAXNUMBER | = | msdyn\_primaryfaxnumber
-PRIMARYFAXNUMBERDESCRIPTION | = | msdyn\_primaryfaxnumberdescription
-PRIMARYFAXNUMBEREXTENSION | = | msdyn\_primaryfaxnumberextension
-PRIMARYLINKEDIN | = | msdyn\_primarylinkedin
-PRIMARYLINKEDINDESCRIPTION | = | msdyn\_primarylinkedindescription
-PRIMARYPHONENUMBER | = | msdyn\_pimaryphonenumber
-PRIMARYPHONENUMBERDESCRIPTION | = | msdyn\_primaryphonenumberdescription
-PRIMARYPHONENUMBEREXTENSION | = | msdyn\_primaryphonenumberextension
-PRIMARYTELEX | = | msdyn\_primarytelex
-PRIMARYTELEXDESCRIPTION | = | msdyn\_primarytelexdescription
-PRIMARYTWITTER | = | msdyn\_primarytwitter
-PRIMARYTWITTERDESCRIPTION | = | msdyn\_primarytwitterdescription
-PRIMARYURLDESCRIPTION | = | msdyn\_primaryurldescription
-PERSONPROFESSIONALSUFFIX | = | msdyn\_professionalsuffix
-PERSONPROFESSIONALTITLE | = | msdyn\_professionatitle
-ADDRESSSTATEID | = | msdyn\_addressstateid
-ADDRESSSTREET | = | msdyn\_addressstreet
-ADDRESSSTREETNUMBER | = | msdyn\_addressstreetnumber
-VENDORKNOWNASNAME | = | msdyn\_vendorknownasname
-ADDRESSZIPCODE | = | msdyn\_addresszipcode
-DEFAULTPAYMENTDAYNAME | = | msdyn\_defaultpaymentdayname.msdyn\_name
-DEFAULTPAYMENTSCHEDULENAME | = | msdyn\_paymentschedule.msdyn\_name
-DEFAULTPAYMENTTERMSNAME | = | msdyn\_paymentterms.msdyn\_name
-HASONLYTAKENBIDS | \>\< | msdyn\_hasonlytakenbids
-ISMINORITYOWNED | \>\< | msdyn\_isminorityowned
-ISVENDORLOCALLYOWNED | \>\< | msdyn\_isvendorlocallyowned
-ISSERVICEVETERANOWNED | \>\< | msdyn\_isserviceveteranowned
-ISOWNERDISABLED | \>\< | msdyn\_ownerisdisabled
-ISWOMANOWNER | \>\< | msdyn\_womanowner
-PERSONANNIVERSARYDAY | = | msdyn\_personanniversaryday
-PERSONANNIVERSARYYEAR | = | msdyn\_anniversaryyear
-PERSONBIRTHDAY | = | msdyn\_birthday
-PERSONBIRTHYEAR | = | msdyn\_birthyear
-ORGANIZATIONEMPLOYEEAMOUNT | = | msdyn\_numberofemployees
-VENDORHOLDRELEASEDATE | = | msdyn\_vendoronholdreleasedate
-VENDORPARTYNUMBER | = | msdyn\_vendorpartynumber
-ADDRESSLOCATIONID | = | msdyn\_addresslocationid
-PERSONANNIVERSARYMONTH | = | msdyn\_vendorpersonanniversarymonth
-PERSONBIRTHMONTH | = | msdyn\_vendorpersonbirthmonth
-PERSONMARITALSTATUS | \>\< | msdyn\_maritalstatus
-ADDRESSLATITUDE | \>\> | msdyn\_addresslatitude
-ADDRESSLONGITUDE | \>\> | msdyn\_addresslongitude
-ONHOLDSTATUS | \>\< | msdyn\_onholdstatus
-CURRENCYCODE | = | msdyn\_currencycode.isocurrencycode
-ISVENDORLOCATEDINHUBZONE | \>\< | msdyn\_isvendorlocatedinhubzone
-DEFAULTVENDORPAYMENTMETHODNAME | = | msdyn\_vendorpaymentmethod.msdyn\_name
-INVOICEVENDORACCOUNTNUMBER | = | msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber
-PERSONGENDER | \>\< | msdyn\_gender
-AREPRICESINCLUDINGSALESTAX | \>\< | msdyn\_priceincludessalestax
-SALESTAXGROUPCODE | = | msdyn\_taxgroup.msdyn\_name
-VENDORPRICETOLERANCEGROUPID | = | msdyn\_pricetolerancegroup.msdyn\_groupid
-
-## <a name="contacts"></a>联系人
-
-此模板在 Finance and Operations 应用与其他 Dynamics 365 应用之间同步客户和供应商的所有第一、第二和第三联系人信息。 有关实体映射的详细信息，请参阅[集成客户主控](dual-write-customer.md#contacts)。
-
-## <a name="vendor-groups"></a>供应商组
-
-此模板在 Finance and Operations 应用与其他 Dynamics 365 应用之间同步供应商组信息。
-
-<!-- ![vendor groups mappings](media/dual-write-vendor-groups.png) -->
-
-源字段 | 映射类型 | 目标字段
----|---|---
-DEFAULTPAYMENTTERMNAME | = | msdyn\_paymentterms.msdyn\_name
-描述 | = | msdyn\_description
-VENDORGROUPID | = | msdyn\_vendorgroup
-CLEARINGPERIODPAYMENTTERMNAME | = | msdyn\_clearingperiodpaymentpermname.msdyn\_name
-
-### <a name="vendor-payment-method"></a>供应商付款方式
-
-此模板在 Finance and Operations 与其他 Dynamics 365 应用之间同步供应商付款方式信息。
-
-<!-- ![vendor payment method mappings](media/dual-write-vendor-payment-method.png) -->
-
-源字段 | 映射类型 | 目标字段
----|---|---
-名称 | = | msdyn\_name
-描述 | = | msdyn\_description
-SUMBYPERIOD | \>\< | msdyn\_sumbyperiod
-DISCOUNTGRACEPERIODDAYS | = | msdyn\_discountgraceperioddays
-PAYMENTSTATUS | \>\< | msdyn\_paymentstatus
-ALLOWPAYMENTCOPIES | \>\< | msdyn\_allowpaymentcopies
-PAYMENTTYPE | \>\< | msdyn\_paymenttype
-LASTFILENUMBER | = | msdyn\_lastfilenumber
-LASTFILENUMBERTODAY | = | msdyn\_lastfilenumbertoday
-ACCOUNTTYPE | \>\< | msdyn\_accounttype
-BRIDGINGPOSTINGENABLED | \>\< | msdyn\_bridgingposting
-ENABLEPOSTDATEDCHECKCLEARINGPOSTING | \>\< | msdyn\_postdatedcheckclearingposting
-PROMISSORYNOTEDRAFTTYPE | \>\< | msdyn\_promissorynotedrafttype
-DIRECTDEBIT | \>\< | msdyn\_directdebit
-
+[!include [Vendor payment methods](dual-write/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]

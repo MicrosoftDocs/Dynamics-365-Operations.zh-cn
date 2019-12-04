@@ -15,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4c8c3250f82869f546f37bea2a1c0ba0bae721c5
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 46e23c27488c92a6d6b21a7ae63b2335440fbd23
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537013"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812074"
 ---
 # <a name="support-for-dynamics-365-finance-and-operations-apps-operated-by-21vianet-in-china"></a>对世纪互联在中国运营的 Dynamics 365 Finance and Operations 应用的支持
 
@@ -31,9 +31,9 @@ Dynamics 365 Finance and Operations 应用通过世纪互联提供大量自助�
 ## <a name="self-help-resources"></a>自助资源
 
 
-- [Dynamics 365 Finance](../../fin-ops/index.md)
-- [Dynamics 365 Supply Chain Management](../../../supply-chain/index.md)
-- [Dynamics 365 Finance and Operations 应用由世纪互联运营](../deployment/china-local-deployment.md)
+- [Finance and Operations 应用程序文档](../../fin-ops/index.md)
+- [Supply Chain Management 的帮助资源](../../../supply-chain/index.md)
+- [Finance and Operations 应用 - 由世纪互联在中国运营](../deployment/china-local-deployment.md)
 - [Dynamics 社区](https://community.dynamics.com/)
 - [Microsoft Learn](https://docs.microsoft.com/learn/)
 
@@ -84,7 +84,7 @@ Dynamics 365 Finance and Operations 应用通过世纪互联提供大量自助�
 
 ## <a name="additional-resources"></a>其他资源
 - [由世纪互联运营的 Dynamics 365 支持网站（中文）](https://www.21vbluecloud.com/Dynamics365/)
-- [Dynamics 365 Finance and Operations 应用由世纪互联在中国运营](../deployment/china-local-deployment.md)
+- [Finance and Operations 应用 - 由世纪互联在中国运营](../deployment/china-local-deployment.md)
 - [世纪互联在中国运营的 Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/admin/datacenter/21vianet-support)
 - [Dynamics 365 隐私声明 (Dynamics 365 隐私声明)](https://www.21vbluecloud.com/Dynamics365/d365-privacy/)
 - [Dynamics 365 Service Level agreement (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/Dynamics365/d365-sla/)

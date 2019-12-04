@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: aa503f2ce3ae8ff6b221ea1d26a1c62d0ba37646
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653410"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814896"
 ---
 # <a name="warehouse-configuration-overview"></a>仓库配置概览
 
@@ -31,7 +31,8 @@ ms.locfileid: "2653410"
 
 本文说明如何配置仓库。 它包含有关如何启用仓库布局和仓库流程的信息。
 
-**注释：** 本文适用于**仓库管理** 模块（高级仓库）中的功能。 它不适用于**库存管理**模块中的仓库功能。
+> [!NOTE]
+> 本文适用于**仓库管理**模块（高级仓库）中的功能。 它不适用于**库存管理**模块中的仓库功能。
 
 ## <a name="warehouse-layout"></a>仓库布局
 Supply Chain Management 中的仓库管理系统允许您以灵活方式定义您的仓库布局以适应不断变化的需要，因此，您可以实现最佳仓库效率。
@@ -114,7 +115,7 @@ Supply Chain Management 中的仓库管理系统允许您以灵活方式定义�
 <a name="additional-resources"></a>其他资源
 --------
 
-[在启用 WMS 的仓库中配置位置（任务指南）](tasks/configure-locations-wms-enabled-warehouse.md)
+[配置启用了 WMS 的仓库中的位置](tasks/configure-locations-wms-enabled-warehouse.md)
 
 
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 21ff82df71e352ca176aa1635a5ffb478bbcaf0e
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 0fc9877fdca2d2f85f4f9609616d8d21ab7b5174
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536816"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771579"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>成本核算分析 Power BI 内容
 
@@ -40,7 +40,7 @@ ms.locfileid: "2536816"
 
 若要了解有关成本核算的详细信息，请参阅[成本核算主页](../../../finance/cost-accounting/cost-accounting-home-page.md)。
 
-通过在成本核算中定义访问级安全并将其与 Power BI 中的行级安全结合，可以授予所有成本对象所有者**成本核算分析** Power BI 内容的访问权限。 然后将根据成本核算中控制的访问级别筛选可视化中的所有数据。 若要了解有关访问级安全和行级安全的详细信息，请参阅[设置成本核算 Power BI 内容的安全](setup-security-cost-accounting-content-pack.md)。
+通过在成本核算中定义访问级安全并将其与 Power BI 中的行级安全结合，可以授予所有成本对象所有者**成本核算分析** Power BI 内容的访问权限。 然后将根据成本核算中控制的访问级别筛选可视化中的所有数据。 若要了解有关访问级安全和行级安全的详细信息，请参阅[设置成本核算分析 Power BI 内容的安全性](setup-security-cost-accounting-content-pack.md)。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 您可以在 Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库中找到**成本核算分析** Power BI 内容。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/)。
@@ -74,7 +74,7 @@ ms.locfileid: "2536816"
 |                                  | 按成本对象维度成员名称和成本元素维度成员名称的实际成本                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
-以下数据用于填充**成本核算分析** Power BI 内容中的报表页。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成概览](power-bi-integration-entity-store.md)。
+以下数据用于填充**成本核算分析** Power BI 内容中的报表页。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成](power-bi-integration-entity-store.md)。
 
 以下关键聚合度量用作该内容的基础。
 

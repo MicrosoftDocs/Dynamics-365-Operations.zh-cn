@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: b031fd95d2e7fc8405ad96139779091e00bb4d46
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 42065f3d6b7ae9e7ad99b26c7692e41f8c36934d
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551464"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832969"
 ---
 # <a name="troubleshoot-integration-with-linkedin-and-microsoft-dynamics-365-talent---attract"></a>与 LinkedIn 和 Microsoft Dynamics 365 Talent - Attract 集成疑难解答
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 请使用以下信息来帮助解决在您尝试从 Microsoft Dynamics 365 Talent: Attract 将工作发布到 LinkedIn 时可能遇到的问题。
 
@@ -42,18 +42,18 @@ ms.locfileid: "2551464"
 
 如果您的工作在 24 小时后未在 LinkedIn 上显示，请尝试以下步骤：
 
-1. 确保您的 LinkedIn 公司 ID 映射到您的 LinkedIn 公司页面，并在 Attract 管理中心正确输入。 有关如何在“管理中心”更改 LinkedIn 设置的详细信息，请参阅[设置与 LinkedIn 的集成](attract-admin-linkedin.md)。 有关 LinkedIn 公司 ID 的详细信息，请参阅[将您的 LinkedIn 公司 ID 与 LinkedIn Job Board 关联 - 常见问题](https://www.linkedin.com/help/linkedin/answer/98972)。
+1. 确保您的 LinkedIn 公司 ID 映射到您的 LinkedIn 公司页面，并在 Attract 管理中心正确输入。 有关如何在“管理中心”更改 LinkedIn 设置的详细信息，请参阅[为 Microsoft Dynamics 365 Talent - Attract 设置与 LinkedIn 的集成](attract-admin-linkedin.md)。 有关 LinkedIn 公司 ID 的详细信息，请参阅[将您的 LinkedIn 公司 ID 与 LinkedIn Job Board 关联 - 常见问题](https://www.linkedin.com/help/linkedin/answer/98972)。
 2. 检查 LinkedIn 上的工作详细信息，确保地址完整。 要成功发布工作，LinkedIn 至少需要工作的城市、国家或地区。
 3. 确保工作不会与 LinkedIn 上已经发布的其他工作重复。 LinkedIn 不会发布与其他来源的 LinkedIn Premium Job Slots（高级职位空缺）或 Limited Listings（有限列表）重复的工作。 确认您公司的其他人员尚未手动发布该工作。
 
 ## <a name="see-also"></a>请参阅
 
-[LinkedIn 常见问题](./attract-linkedin-faq.md)
+[Attract 与 LinkedIn 集成的常见问题](./attract-linkedin-faq.md)
 
-[将工作从 Attract 发布到 LinkedIn](./attract-post-jobs-to-linkedin.md)
+[将工作从 Microsoft Dynamics 365 Talent - Attract 发布到 LinkedIn](./attract-post-jobs-to-linkedin.md)
 
-[使用 LinkedIn Recruiter 寻求应聘者](./attract-linkedin-recruiter.md)
+[在 Microsoft Dynamics 365 Talent - Attract 中使用 LinkedIn Recruiter 寻求应聘者](./attract-linkedin-recruiter.md)
 
-[创建工作](./creating-jobs-attract.md)
+[在 Attract 中创建、审核和发布工作](./creating-jobs-attract.md)
 
-[LinkedIn 集成疑难解答](./attract-troubleshoot-linkedin.md)
+[与 LinkedIn 和 Microsoft Dynamics 365 Talent - Attract 集成疑难解答](./attract-troubleshoot-linkedin.md)

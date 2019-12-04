@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c5d07cb9fbb32a2d9b8be11179dbba00ee73d28b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b5fbe5ffa74953588a2357948319f5cf21f7ad36
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184569"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769753"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>仓库绩效 Power BI 内容
 
@@ -78,7 +78,7 @@ ms.locfileid: "2184569"
 | 装运表现        | 站点/仓库装运              | 站点或仓库提前、按时或延迟装运的百分比。 |
 
 ## <a name="understanding-the-data-model-and-calculations"></a>了解数据模型和计算
-以下数据用于填充**仓库绩效** Power BI 内容中的报表页。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成概览](power-bi-integration-entity-store.md)。
+以下数据用于填充**仓库绩效** Power BI 内容中的报表页。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成](power-bi-integration-entity-store.md)。
 
 以下关键聚合度量用作该内容的基础。
 

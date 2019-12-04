@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d5d878b0fe4e6b65aa2439d7ef7312eda1895823
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559017"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814919"
 ---
 # <a name="schedule-workload-capacity"></a>计划工作量产能
 
@@ -30,7 +30,7 @@ ms.locfileid: "1559017"
 
 您可以计划仓库的工作量产能，也可以预测单个仓库的工作人员当前和未来的工作量。 您可以为整个仓库计划工作量，或者为传入和传出工作量单独计划工作量。
 
-若要预测所选仓库的工作量输出，主计划编制数据必须可用于这些仓库。 有关主计划的详细信息，请参阅[主计划](../master-planning/master-plans.md)。
+若要预测所选仓库的工作量输出，主计划编制数据必须可用于这些仓库。 有关主计划的详细信息，请参阅[主计划概览](../master-planning/master-plans.md)。
 
 ## <a name="schedule-and-view-workloads-for-a-warehouse"></a>计划和查看仓库的工作量
 

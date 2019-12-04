@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 94243f83121a1306d8f9ae9be23d24e5c9b63a2d
-ms.sourcegitcommit: 07e109dec176a93eff0df8a37ba5d875f212e9f1
+ms.openlocfilehash: 66419d9093cff68aa6109b22ab57bcb46ac6c718
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "2662657"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772888"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Dynamics 365 Talent（2019 年 10 月 23 日）中的新增功能或更改
 
@@ -47,7 +47,7 @@ ms.locfileid: "2662657"
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>删除福利开放登记预览功能
 
-连同我们在“Core HR 的战略投资推动卓越运营”博客文章中宣布的消息，Microsoft 将在 2019 年 10 月 18 日的公开预览中删除福利开放登记功能。 将来会发布新功能。 当前处于公共预览的福利开放登记功能的生产使用将不受支持。
+连同我们在[Core HR 的战略投资推动卓越运营](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/10/02/strategic-investments-in-core-hr-drive-operational-excellence)博客文章中宣布的消息，Microsoft 将在 2019 年 10 月 18 日的公开预览中删除福利开放登记功能。 将来会发布新功能。 当前处于公共预览的福利开放登记功能的生产使用将不受支持。
 
 ### <a name="error-while-selecting-the-countryregion-on-the-worker-form-a-second-time-350294"></a>再次选择“工作人员”窗体上的国家/地区时出错 (350294)
 
@@ -69,7 +69,7 @@ ms.locfileid: "2662657"
 
 在此版本中，只有选定员工的雇用条款将在 Excel 中打开。 所有公司安全性也已实现。
 
-### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service---324178"></a>Common Data Service 中缺少“工作日历假期”实体和“工作日历”实体之间的关联 - (324178)
+### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service-324178"></a>Common Data Service 中缺少“工作日历假期”实体和“工作日历”实体之间的关联 (324178)
 
 此关系已在此版本中添加。 此更改将使员工的工作日显示在 PowerApps 中。 
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13744df950040056ba03a3847d84f93e266ea6c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 96426ce54ec1b37c6751d990503d95960c2913df
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181442"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771298"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>设计 ER 配置以填写 PDF 模板
 
@@ -46,7 +46,7 @@ ms.locfileid: "2181442"
     - 电子申报功能顾问
     - 系统管理员
 
-还必须完成[创建一个配置提供程序，并标记其为当前运行的](tasks/er-configuration-provider-mark-it-active-2016-11.md)过程。
+还必须完成[创建配置提供程序并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)过程。
 
 最后，必须从 [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111) 下载下列文件。
 
@@ -300,5 +300,5 @@ ms.locfileid: "2181442"
 
 ## <a name="additional-resources"></a>其他资源
 
-- [ER 设计以 OPENXML 格式生成报表的配置](tasks/er-design-reports-openxml-2016-11.md)
-- [设计 ER 配置以生成 Microsoft Word 格式的报表](tasks/er-design-configuration-word-2016-11.md)
+- [ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）](tasks/er-design-reports-openxml-2016-11.md)
+- [设计 ER 配置以生成 Word 格式的报表](tasks/er-design-configuration-word-2016-11.md)

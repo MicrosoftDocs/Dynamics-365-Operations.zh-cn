@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 168c2fb9edfc994617ef6764a5b9f5949d599882
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4e66a62007025964b3d58ff0620ebecd6d9769f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186317"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771744"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>销售税付款和化整规则
 
@@ -126,7 +126,7 @@ round(1.0151, 0.00) = 1.0151 round(1.0149, 0.00) = 1.0149
 有关详细信息，请参阅以下主题：
 - [销售税概览](indirect-taxes-overview.md)
 - [创建销售税支付](tasks/create-sales-tax-payment.md)
-- [在单据中创建销售交易记录](tasks/create-sales-tax-transactions-documents.md)
+- [在单据中创建销售税交易记录](tasks/create-sales-tax-transactions-documents.md)
 - [查看已过帐的销售税交易记录](tasks/view-posted-sales-tax-transactions.md)
 - [化整功能](https://msdn.microsoft.com/library/aa850656.aspx)
 

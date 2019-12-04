@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 167afa70bfa35b966081709f1587d61d401d318f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 23a4cff85bb5c9d119f9ec47e8421aa1964a3d4f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184339"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769602"
 ---
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>使用普通日记帐实体导入凭证的最佳实践
 
@@ -57,7 +57,7 @@ ms.locfileid: "2184339"
 
 ### <a name="voucher-number"></a>凭证号
 
-- 当您在普通日记帐实体中使用**基于集的处理**设置时，凭证号必须在导入的文件中提供。 普通日记帐中的每个交易记录被分配在导入文件中提供的凭证编号，即使凭证不均衡。 如果您想要使用基于集的处理，但还需要使用为凭证号定义的编号规则，则为 2016 年 2 月版本提供修复程序。 修补程序编号为 3170316，可从 Lifecycle services (LCS) 下载。 有关详细信息，请参阅[从 Lifecycle Services 下载修补程序](../migration-upgrade/download-hotfix-lcs.md)。
+- 当您在普通日记帐实体中使用**基于集的处理**设置时，凭证号必须在导入的文件中提供。 普通日记帐中的每个交易记录被分配在导入文件中提供的凭证编号，即使凭证不均衡。 如果您想要使用基于集的处理，但还需要使用为凭证号定义的编号规则，则为 2016 年 2 月版本提供修复程序。 修补程序编号为 3170316，可从 Lifecycle services (LCS) 下载。 有关详细信息，请参阅[从 Lifecycle Services (LCS) 下载更新](../migration-upgrade/download-hotfix-lcs.md)。
 
     - 若要启用此功能，在用于导入的日记帐名称中，将**过帐时分配编号**设置为**是**。
     - 仍然必须在导入文件中定义一个凭证号。 但是，此数字是临时的并在过帐日记帐时由凭证号覆盖。 您必须确保日记帐的各行按临时凭证号进行正确分组。 例如，在过帐期间，发现三行具有临时凭证号 1。 所有三个行的临时凭证号由编号规则中的下一个编号覆盖。 如果这三行不是平衡条目，将不过帐凭证。 接下来，如果找到具有临时凭证号 2 的行，这个数字将由编号规则中的下个凭证号覆盖，依此类推。

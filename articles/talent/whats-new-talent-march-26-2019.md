@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b23860a7eda0ec9d75cca04728b7fc11d01bf967
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023876"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812733"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Dynamics 365 Talent（2019 年 3 月 26 日）中的新增功能或更改
 
@@ -75,11 +75,11 @@ ms.locfileid: "2023876"
 在此版本中，现在可在 Talent 中通过使用**在 Excel 中打开**选项删除工作记录。
 
 ### <a name="upgrade-to-common-data-service"></a>升级到 Common Data Service
-很快将到达 Common Data Service 的升级截止时间。 请登录 PowerApps 管理员中心以确定是否需要升级您的数据库。 有关截止时间和必要升级步骤的详细信息，请参阅[升级到 Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds)。
+很快将到达 Common Data Service 的升级截止时间。 请登录 Power Apps 管理员中心以确定是否需要升级您的数据库。 有关截止时间和必要升级步骤的详细信息，请参阅[升级到 Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds)。
 
 ## <a name="in-preview"></a>预览模式
 
-有关启用预览功能的信息，请参阅[访问 Talent 中的预览功能](./access-preview-feature.md)。
+有关启用预览功能的信息，请参阅[访问 Microsoft Dynamics 365 Talent 中的预览功能](./access-preview-feature.md)。
 
 ### <a name="allow-reason-codes-to-be-specified-on-leave-types"></a>允许为休假类型指定原因代码
 组织可能需要与休假请求有关的更多信息。 若要获取此信息，需要员工在休假请求中加入原因代码。 在此版本中，现在可指定与给定休假类型关联的原因代码，并让员工在休假请求中选择原因代码。

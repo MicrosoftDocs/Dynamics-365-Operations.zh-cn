@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653503"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813791"
 ---
 # <a name="demand-forecasting-setup"></a>需求预测设置
 
@@ -70,7 +70,8 @@ ms.locfileid: "2653503"
 -   Azure 存储帐户名称
 -   Azure 存储帐户密钥
 
-**注意：** 只有当您使用的是自定义存储帐户时才需要 Azure 存储帐户名称和密钥。 如果部署本地版本，必须在 Azure 有自定义存储帐户，以便机器学习服务可以访问历史数据。 
+> [!NOTE]
+> 只有当您使用的是自定义存储帐户时才需要 Azure 存储帐户名称和密钥。 如果部署本地版本，必须在 Azure 有自定义存储帐户，以便机器学习服务可以访问历史数据。 
 
 若要创建预测，可以通过使用机器学习工作室或 Supply Chain Management 需求预测实验来部署您自己的服务。 有关将需求预测实验部署为 Web 服务的说明，可在 Supply Chain Management 中找到。 在**需求预测参数**页上，单击选项卡 **Azure 机器学习**。
 
@@ -93,7 +94,7 @@ ms.locfileid: "2653503"
 <a name="additional-resources"></a>其他资源
 --------
 
-[需求预测简介](introduction-demand-forecasting.md)
+[需求预测概览](introduction-demand-forecasting.md)
 
 [生成统计基准预测](generate-statistical-baseline-forecast.md)
 

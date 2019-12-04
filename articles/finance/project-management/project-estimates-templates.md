@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 3b885610ac9ca8645358ba8ab6d46ab82143a534
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ebf0fce60ad006e798aa4f404fbffcf10a0b31f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250476"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770281"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>将项目估计值从 Project Service Automation 直接同步到 Finance and Operations 
 
@@ -46,7 +46,7 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 
 ### <a name="template-and-tasks"></a>模板和任务
 
-若要访问可用模板，请在 Microsoft PowerApps 管理员中心中选择**项目**，然后在右上角中选择**新建项目**以选择公共模板。
+若要访问可用模板，请在 Microsoft Power Apps 管理员中心中选择**项目**，然后在右上角中选择**新建项目**以选择公共模板。
 
 以下模板和基础任务用于将项目工时估计值从 Project Service Automation 同步到 Finance：
 

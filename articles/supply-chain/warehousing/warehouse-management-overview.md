@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f50b950b8588f2b17611889e0cb0eeb6da359886
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251054"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813009"
 ---
 # <a name="warehouse-management-overview"></a>仓库管理概览
 
@@ -36,7 +36,7 @@ ms.locfileid: "2251054"
 
 您必须根据业务要求配置入站和出站仓库流程工作流的组件。 必须配置的最重要组件是通知波次模板、工作模板、工作池和位置指令。
 
-- [仓库配置](warehouse-configuration.md)
+- [仓库配置概览](warehouse-configuration.md)
 - [使用工作模板和库位指令控制仓库的工作](control-warehouse-location-directives.md)
 - [为仓库工作设置移动设备](configure-mobile-devices-warehouse.md)
 - [设置采购订单储存的位置指令](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)

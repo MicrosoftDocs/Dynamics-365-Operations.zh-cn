@@ -15,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f94ae029b686f841c40a4633ac0dfd27d0a148b4
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: da77e85c6115fbb4dc5ea5b7940028567f7965e0
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553105"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770962"
 ---
 # <a name="finance-and-operations-apps---operated-by-21vianet-in-china"></a>Finance and Operations 应用 - 由世纪互联在中国运营
 
@@ -56,15 +56,15 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 
 ## <a name="features-not-available"></a>不可用的功能
 
-由于某些技术依赖性，由世纪互联运营的 Dynamics 365 服务中通常不提供下列功能： 有关功能未来可用性的信息，请参阅[业务应用程序和平台发行说明](https://go.microsoft.com/fwlink/?linkid=2010158)。
+由于某些技术依赖性，由世纪互联运营的 Dynamics 365 服务中通常不提供下列功能： 有关功能未来可用性的信息，请参阅[业务应用程序和平台发布计划](https://go.microsoft.com/fwlink/?linkid=2010158)。
 
 -   **开发、构建和测试自定义**功能在**中国大陆境内的 Azure DevOps** 中将不可用。 但是，从 2019 年 4 月起，中国将支持在本地使用 Azure DevOps。 此外，可以在其他区域使用 Azure DevOps。 有关详细信息，请参阅[面向中国区 Azure 世纪互联的开发人员指南](https://docs.microsoft.com/azure/china/china-get-started-developer-guide)。
 
--   **Retail cloud Scale Unit** 功能将不可用。 但是，从 2019 年 4 月起，将提供 [Retail Store Scale Unit](../../../retail/dev-itpro/retail-store-system-begin.md)和 Retail Modern Store 应用。
+-   **Retail cloud Scale Unit** 功能将不可用。 但是，从 2019 年 4 月起，将提供 [Retail Store Scale Unit](../../../retail/dev-itpro/retail-store-system-begin.md) 和 Retail Modern Store 应用。
 
--   由于 Azure Active Directory 限制，[供应商管理和协作](../../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)将不可用。
+-   由于 Azure Active Directory 限制，[设置和维护供应商协作](../../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)将不可用。
 
--   由于 Google Play 商店在中国不可用，某些**移动应用**（如[仓库](../../../supply-chain/warehousing/install-configure-warehousing-app.md)和[项目时间条目移动工作区](../../../finance/project-management/project-time-entry-mobile-workspace.md)）将不可用；但正在考虑推出替代方案。
+-   由于 Google Play 商店在中国不可用，某些**移动应用**（如[安装和配置仓库应用概述](../../../supply-chain/warehousing/install-configure-warehousing-app.md)和[项目时间条目移动工作区](../../../finance/project-management/project-time-entry-mobile-workspace.md)）将不可用；但正在考虑推出替代方案。
 
 -   由于某些应用商店的依赖项在中国不可用，**[移动平台](../mobile-apps/platform/mobile-platform-home-page.md)** 将不可用。
 
@@ -72,21 +72,21 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 
     -   **APQC 业务流程建模器 (BPM) 库**将不可用。 但是，从 2019 年 4 月起，将可针对自定义模型使用基本业务流程建模器 (BPM) 功能。 BPM 中的搜索功能在中国将不可用。
 
-    -   **[电子报告 (ER)](../analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json) 资产**不会自动提供，但可以从 LCS 全球资产库中手动上传。
+    -   **[电子报告 (ER) 概述](../analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json)资产**不会自动提供，但可以从 LCS 全球资产库中手动上传。
 
     -   从 Dynamics AX 2012 升级时，不能使用**代码升级**。
 
-    -   **服务和支持请求**可以通过 LCS 访问，但世纪互联是服务运营商。 有关详细信息，请参阅[世纪互联运营的 Finance and Operations 应用的支持](../lifecycle-services/21vianet-support.md)。
+    -   **服务和支持请求**可以通过 LCS 访问，但世纪互联是服务运营商。 有关详细信息，请参阅[对世纪互联在中国运营的 Dynamics 365 Finance and Operations 应用的支持](../lifecycle-services/21vianet-support.md)。
     
-    -   [可扩展性支持请求](../extensibility/extensibility-requests.md)将不可用。
+    -   [可扩展性请求](../extensibility/extensibility-requests.md)将不可用。
     
     -   修补程序请求将不可用。
 
-    -   [Translation service](../lifecycle-services/translation-service-overview.md) 将不可用。
+    -   [Dynamics 365 Translation Service 概览](../lifecycle-services/translation-service-overview.md)将不可用。
 
--   [嵌入式 PowerApps](../../fin-ops/get-started/embed-power-apps.md) 和与 Microsoft PowerApps 和 Microsoft Flow 的连接将不可用。
+    -   [嵌入式 Power Apps](../../fin-ops/get-started/embed-power-apps.md) 和与 Microsoft Power Apps 和 Microsoft Power Automate 的连接将不可用。
 
--   [使用 Common Data Service 集成数据](../data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json)将不可用。
+    -   [使用 Common Data Service 的数据集成概述](../data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json)将不可用。
 
 -   由于中国目前存在某些 **Azure Active Directory 限制**，以下功能将不可用：
 
@@ -97,7 +97,7 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 ## <a name="additional-resources"></a>其他资源
 
 - [由世纪互联运营的 Dynamics 365 支持网站（中文）](https://www.21vbluecloud.com/Dynamics365/)
-- [世纪互联运营的 Finance and Operations 应用的支持](../lifecycle-services/21vianet-support.md)
+- [对世纪互联在中国运营的 Dynamics 365 Finance and Operations 应用的支持](../lifecycle-services/21vianet-support.md)
 - [由世纪互联运营的 Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/admin/datacenter/about-microsoft-cloud-china)
 - [Dynamics 365 隐私声明 (Dynamics 365 隐私声明)](https://www.21vbluecloud.com/Dynamics365/d365-privacy/)
 - [Dynamics 365 服务级别协议 (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/Dynamics365/d365-sla/)

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3251368e92eb2e24eb9e64bb615027d038ff660
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 11f6c96cc07c63d2c0c6a94385916b3396a77ed5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251077"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814965"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>配置 Warehousing 应用程序中的应用程序字段名
 
@@ -32,7 +32,8 @@ ms.locfileid: "2251077"
 
 此主题介绍如何在 Dynamics 365 Supply Chain Management 中定义和配置仓库应用程序字段名和优先级。 
 
-**注意：** 本主题适用于仓库管理中的功能。 它不适用于库存管理中的功能。 Warehousing 是可用于执行仓库任务的应用程序。 可定义和配置此应用程序中使用的字段名，以及配置应该为字段名分配的优先级。 此主题说明如何在 Warehousing 中定义、配置和使用这些仓库应用程序字段名和优先级。 有关如何配置与 Warehousing 之间的连接的详细信息，请参阅教程[安装和配置 Warehousing](install-configure-warehousing-app.md)。
+> [!NOTE]
+> 本主题适用于仓库管理中的功能。 它不适用于库存管理中的功能。 Warehousing 是可用于执行仓库任务的应用程序。 可定义和配置此应用程序中使用的字段名，以及配置应该为字段名分配的优先级。 此主题说明如何在 Warehousing 中定义、配置和使用这些仓库应用程序字段名和优先级。 有关如何配置与 Warehousing 之间的连接的详细信息，请参阅教程[安装和配置仓库应用概述](install-configure-warehousing-app.md)。
 
 ## <a name="configure-warehouse-app-field-names"></a>配置仓库应用程序字段名
 
@@ -142,4 +143,4 @@ ms.locfileid: "2251077"
 <a name="additional-resources"></a>其他资源
 --------
 
-[安装和配置 Microsoft Dynamics 365 for Finance and Operations – 仓库](install-configure-warehousing-app.md)
+[安装和配置仓库应用概览](install-configure-warehousing-app.md)

@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a12ab249129dce24cdca5e29d737fa9f68c0eac
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: 9efc63c385c31a6d8848d016c1a8689460908dcc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572441"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769652"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>Common Data Service 中的组织层次结构
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 因为 Dynamics 365 Finance 是财务系统，所以*组织*是核心概念，并且系统设置从确认组织层次结构开始。 然后可以在组织级别，还可以在组织层次结构中的任何级别跟踪企业的财务。
 
@@ -46,85 +44,35 @@ ms.locfileid: "2572441"
 
 组织层次结构实体映射可用于从 Finance and Operations 应用到 Common Data Service 的单向数据同步。
 
+## <a name="templates"></a>模板
+
+产品信息包含与产品及其定义有关的所有信息，例如产品维度或跟踪维度和存储维度。 如下表所示，将创建实体映射的集合以同步产品和相关信息。
+
+Finance and Operations | 其他 Dynamics 365 应用 | 说明
+-----------------------|--------------------------------|---
+组织层次结构目的 | msdyn_internalorganizationhierarchypurposes | 此模板提供组织层次结构目的实体的单向同步。
+组织层次结构类型 | msdyn_internalorganizationhierarchytypes | 此模板提供组织层次结构类型实体的单向同步。
+组织层次结构 - 已发布 | msdyn_internalorganizationhierarchies | 此模板提供组织层次结构已发布实体的单向同步。
+运营单位 | msdyn_internalorganizations | 
+法人 | msdyn_internalorganizations | 
+法人 | cdm_companies | 提供法人实体（公司）信息的双向同步。
+
+
 [!include [banner](../includes/dual-write-symbols.md)]
 
-## <a name="internal-organization-hierarchy-purpose"></a>内部组织层次结构目的
+[!include [Organization hierarchy purposes](dual-write/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
 
-此模板提供组织层次结构目的实体从 Finance and Operations 到其他 Dynamics 365 应用的单向同步。
+[!include [Organization hierarchy type](dual-write/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
 
-<!-- ![architecture image](media/dual-write-purpose.png) -->
-
-源字段 | 映射类型 | 目标字段
----|---|---
-HIERARCHYTYPE | \> | msdyn\_hierarchypurposetypename
-HIERARCHYTYPE | \> | msdyn\_hierarchytype.msdyn\_name
-HIERARCHYPURPOSE | \>\> | msdyn\_hierarchypurpose
-IMMUTABLE | \>\> | msdyn\_immutable
-SETASDEFAULT | \>\> | msdyn\_setasdefault
-
-## <a name="internal-organization-hierarchy-type"></a>内部组织层次结构类型
-
-此模板提供组织层次结构类型实体从 Finance and Operations 到其他 Dynamics 365 应用的单向同步。
-
-<!-- ![architecture image](media/dual-write-type.png) -->
-
-源字段 | 映射类型 | 目标字段
----|---|---
-名称 | \> | msdyn\_name
-
-## <a name="internal-organization-hierarchy"></a>内部组织层次结构
-
-此模板提供组织层次结构已发布实体从 Finance and Operations 到其他 Dynamics 365 应用的单向同步。
-
-<!-- ![architecture image](media/dual-write-organization.png) -->
-
-源字段 | 映射类型 | 目标字段
----|---|---
-VALIDTO | \> | msdyn\_validto
-VALIDFROM | \> | msdyn\_validfrom
-HIERARCHYTYPE | \> | msdyn\_hierarchytypename
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentpartyid
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childpartyid
-HIERARCHYTYPE | \> | msdyn\_hierarchytypeid.msdyn\_name
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childid.msdyn\_partynumber
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentid.msdyn\_partynumber
+[!include [Organization hierarchy - published](dual-write/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
 
 ## <a name="internal-organization"></a>内部组织
 
 Common Data Service 中的内部组织信息来自两个实体：**运营单位**和**法人**。
 
-<!-- ![architecture image](media/dual-write-operating-unit.png) -->
+[!include [Operating unit](dual-write/OperatingUnit-msdyn-internalorganizations.md)]
 
-<!-- ![architecture image](media/dual-write-legal-entities.png) -->
+[!include [Legal entities](dual-write/LegalEntities-msdyn-internalorganizations.md)]
 
-### <a name="operating-unit"></a>运营单位
+[!include [Legal entities](dual-write/LegalEntities-Companies.md)]
 
-源字段 | 映射类型 | 目标字段
----|---|---
-LANGUAGEID | \> | msdyn\_languageid
-NAMEALIAS | \> | msdyn\_namealias
-名称 | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-OPERATINGUNITTYPE | \>\> | msdyn\_type
-
-### <a name="legal-entity"></a>法人
-
-源字段 | 映射类型 | 目标字段
----|---|---
-NAMEALIAS | \> | msdyn\_namealias
-LANGUAGEID | \> | msdyn\_languageid
-名称 | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-无 | \>\> | msdyn\_type
-LEGALENTITYID | \> | msdyn\_companycode
-
-## <a name="company"></a>公司
-
-提供 Finance and Operations 与其他 Dynamics 365 应用之间法人（公司）信息的双向同步。
-
-<!-- ![architecture image](media/dual-write-company.png) -->
-
-源字段 | 映射类型 | 目标字段
----|---|---
-名称 | = | cdm\_name
-LEGALENTITYID | = | cdm\_companycode

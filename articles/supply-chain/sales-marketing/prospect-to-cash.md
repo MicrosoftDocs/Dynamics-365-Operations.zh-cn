@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: fb5abb983811ce736e3494bc85e8d9b23a2e373c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251340"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814067"
 ---
 # <a name="prospect-to-cash"></a>现金的目标客户
 
@@ -36,12 +36,12 @@ ms.locfileid: "2251340"
 
 在当前版本中，从目标客户到现金解决方案提供以下类型的直接同步：
 
-- [维护 Sales 中的帐户并将它们直接从 Sales 同步到 Supply Chain Management](accounts-template-mapping-direct.md)
-- [维护 Supply Chain Management 中的产品并将它们直接同步到 Sales](products-template-mapping-direct.md)
-- [维护 Sales 中的联系人并将其直接同步到 Supply Chain Management 的联系人或客户](contacts-template-mapping-direct.md)
-- [将 Sales 的销售报价单直接同步到 Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
+- [将 Sales 的客户直接同步到 Supply Chain Management 中的客户](accounts-template-mapping-direct.md)
+- [将 Supply Chain Management 的产品直接同步到 Sales](products-template-mapping-direct.md)
+- [将 Sales 的联系人直接同步到 Supply Chain Management 中的联系人或客户](contacts-template-mapping-direct.md)
+- [将 Sales 的销售报价单标题和行直接同步到 Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
 - [直接在 Sales 和 Supply Chain Management 之间同步销售订单](sales-order-template-mapping-direct-two-ways.md)
-- [将销售发票直接从 Supply Chain Management 同步到 Sales](sales-invoice-template-mapping-direct.md)
+- [将 Sales 的销售发票头和行直接从 Supply Chain Management 同步到 Sales](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-supply-chain-management"></a>Supply Chain Management 的系统要求
 以下版本支持“从目标客户到现金”集成：

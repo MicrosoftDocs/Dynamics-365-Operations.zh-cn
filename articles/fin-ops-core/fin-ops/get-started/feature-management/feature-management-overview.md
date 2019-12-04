@@ -3,7 +3,7 @@ title: 功能管理概览
 description: 本主题介绍功能管理功能及其用法。
 author: mikefalkner
 manager: AnnBe
-ms.date: 09/11/2019
+ms.date: 09/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 6712e091d2a004f30c55bc8dc4be2073187d215c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a9be51c4a5cdadd968de160dc0b1406c95382eeb
+ms.sourcegitcommit: 260a820038c29f712e8f1483cca9315b6dd3df55
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191147"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2778697"
 ---
 # <a name="feature-management-overview"></a>功能管理概览
 

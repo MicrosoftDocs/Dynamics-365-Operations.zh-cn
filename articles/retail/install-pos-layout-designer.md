@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 98784c11c7393bb4c3e022d5bff4cca2daa1636e
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 67d8ee101546470ff54404eeebd736233e34f26f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025436"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811870"
 ---
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>安装 Retail 销售点 (POS) 布局设计器
 
@@ -62,4 +62,4 @@ MPOS 或 Cloud POS 的图形设计界面由钱柜布局控制。 格式控制各
 
 ## <a name="additional-resources"></a>其他资源
 
-[配置、下载、安装和激活 Retail Modern POS](retail-modern-pos-device-activation.md)
+[配置、安装和激活 Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)
