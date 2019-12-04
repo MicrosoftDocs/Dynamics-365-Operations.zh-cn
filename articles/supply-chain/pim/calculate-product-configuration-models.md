@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00e1956950154051d4a916a013c2200029772e37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd57b702220374ef5ac48e1af7c42827a21e7517
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547093"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813585"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>产品配置模型的计算常见问题
 
@@ -37,7 +37,7 @@ ms.locfileid: "1547093"
 ## <a name="what-is-a-calculation"></a>计算是什么？
 计算是您在产品配置模型中可以使用的元素。 在您配置产品时，通过能够让您使用小数来计算值，计算可以补充约束。 此外，与约束相比，计算具有更大的可用运算符集。  
 
-与约束相似，计算与产品配置模型中的特定组件关联，且其不能被其他组件重用或共享。 计算和约束之间的重要差异在于计算是必需的（单向），而约束是说明性的（双向）。 有关约束的详细信息，请参阅[表达式约束和表约束](expression-constraints-table-constraints-product-configuration-models.md)。  
+与约束相似，计算与产品配置模型中的特定组件关联，且其不能被其他组件重用或共享。 计算和约束之间的重要差异在于计算是必需的（单向），而约束是说明性的（双向）。 有关约束的详细信息，请参阅[产品配置模型中的表达式约束和表约束](expression-constraints-table-constraints-product-configuration-models.md)。  
 
 计算包含目标属性和计算表达式。
 
@@ -88,7 +88,7 @@ ms.locfileid: "1547093"
 如果您移除计算中的输入值，目标属性的值也将被移除。
 
 ## <a name="why-do-i-receive-an-error-message-that-says-that-my-model-is-in-contradiction"></a>为什么我收到一条错误消息称我的模型处于冲突状态？
-在计算包含错误或在一个或多个约束存在冲突时将显示此消息。 有关约束中冲突的详细信息，请参阅[表达式约束和表约束](expression-constraints-table-constraints-product-configuration-models.md)。 这是一些计算中可能出现错误的情况：
+在计算包含错误或在一个或多个约束存在冲突时将显示此消息。 有关约束中冲突的详细信息，请参阅[产品配置模型中的表达式约束和表约束](expression-constraints-table-constraints-product-configuration-models.md)。 这是一些计算中可能出现错误的情况：
 
 -   值除以 0（零）。
 -   冲突存在于以下两个元素之间：

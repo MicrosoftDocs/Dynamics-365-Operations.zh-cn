@@ -1,5 +1,5 @@
 ---
-title: 访问 Microsoft Dynamics 365 Talent 中的预览功能
+title: 管理功能
 description: 此主题介绍管理员可如何启用 Microsoft Dynamics 365 Talent 中的预览功能，并且列出了当前可预览的功能。
 author: tracykeya
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 0f9a83aeea3942d3c56d32956f79490c91565e9e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9f1fb4b929660bbe9018fb98169b3cfddcaec547
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551581"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833292"
 ---
-# <a name="access-preview-features-in-microsoft-dynamics-365-talent"></a>访问 Microsoft Dynamics 365 Talent 中的预览功能
+# <a name="manage-features"></a>管理功能
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 在持续推出适用于 Microsoft Dynamics 365 Talent 的人力资本管理 (HCM) 功能时，我们希望让客户尽快体验新功能。 管理员可以在自己的环境中查看和使用预览功能。 这些功能几乎已针对普通使用准备就绪，并经过了大量测试。 我们正在征求最后一轮的客户反馈和验证，之后就会公开发布。
 
@@ -117,6 +117,6 @@ Onboard 当前无预览功能。
 ## <a name="see-also"></a>请参阅
 
 - [试用或购买 Talent 应用](https://dynamics.microsoft.com/talent/overview/)
-- [新增功能](./whats-new.md)
-- [版本说明](https://docs.microsoft.com/business-applications-release-notes/index)
-- [获取 Talent 支持](./talent-support.md)
+- [Dynamics 365 Talent 新增功能或更改](./whats-new.md)
+- [发布计划](https://docs.microsoft.com/business-applications-release-notes/index)
+- [获取 Microsoft Dynamics 365 Talent 支持](./talent-support.md)

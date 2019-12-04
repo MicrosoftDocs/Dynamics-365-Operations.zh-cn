@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: a39654d4b6d74aa640db682fa052651736552db1
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
+ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553179"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "2810691"
 ---
 # <a name="one-voucher"></a>一个凭证
 
@@ -83,6 +83,9 @@ ms.locfileid: "2553179"
 
 以下场景只能使用一个凭证功能完成。 如果您的组织遇到这些场景案中的任何一个，您必须启用要在凭证中输入的多个交易记录，方法是更改**总帐参数**页上**一个凭证可以允许多个交易记录**参数的设置。。 这些功能空白将通过以后发布的其他功能填补。
 
+> [!Note]
+> [对于以下每个场景，必须在**总帐参数**页面上的**常规**快速选项卡中将**一个凭证可以允许多个交易记录**设置为“是”。]
+
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>将汇总窗体中的供应商或客户付款过帐到银行帐户
 
 **场景**组织将供应商和金额列表传达给银行，银行使用此列表代表组织向供应商付款。 银行通过银行帐户的单次提款形式过帐付款总额。
@@ -120,6 +123,9 @@ ms.locfileid: "2553179"
 - 拆分资产。
 - 计算处置折旧的参数打开，然后处置资产。
 - 资产的服务日期在购置日期之前。 因此，折旧调整将过帐。
+
+> [!Note]
+> 输入交易记录时，请确保所有交易记录都适用于同一固定资产。 如果凭证包含多个固定资产，凭证不会过帐，即使在总帐的**日记帐名称**页面上将**新凭证**字段设置为“仅一个凭证号”。 如果凭证中包含多个固定资产，则会显示消息**每个凭证只能有一个固定资产交易记录**，您将无法过帐凭证。  
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> 汇票和本票
 汇票和本票需要使用“一个凭证”，因为交易记录根据付款状态将客户或供应商余额从一个应收帐款/应付帐款会计科目移至另一个。

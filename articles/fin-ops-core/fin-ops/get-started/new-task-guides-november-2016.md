@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 15a645c98fe38e8ddaa34c0c21581eac6636502f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 40317cdef777ca6524feb66caf66ddec3d855d32
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190963"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811593"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>新的或更新任务指南（2016 年 11 月）
 
@@ -30,7 +30,7 @@ ms.locfileid: "2190963"
 
 本主题列出了发布到 Microsoft Dynamics 365 for Operations 的 Microsoft（2016 年 11 月 – 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
 
-（2016 年 11 月 – 所有语言）APQC 标准库中包含用于帮助 Microsoft Dynamics 365 for Operations、Microsoft Dynamics 365 for Operations 平台更新 3、Microsoft Dynamics AX 平台更新 2、Dynamics AX 2016 年 5 月更新和 Microsoft Dynamics AX 2016 年 2 月版本的任务指南。 有关这些版本的详细信息，请参阅[新增和更改内容](whats-new-changed.md)。 此库中提供了任务指南的本地化版本。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助入门](help-overview.md)。
+（2016 年 11 月 – 所有语言）APQC 标准库中包含用于帮助 Microsoft Dynamics 365 for Operations、Microsoft Dynamics 365 for Operations 平台更新 3、Microsoft Dynamics AX 平台更新 2、Dynamics AX 2016 年 5 月更新和 Microsoft Dynamics AX 2016 年 2 月版本的任务指南。 有关这些版本的详细信息，请参阅 [Finance and Operations 新增功能或更改主页](whats-new-changed.md)。 此库中提供了任务指南的本地化版本。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助系统](help-overview.md)。
 
 > [!NOTE]
 > 业务流程建模器 (BPM) 行的标题旁边的星号 (\*) 表示该业务流程的任务指南是为 Dynamics 365 for Operations 2016 年 11 月更新创建，不支持 Microsoft Dynamics AX 的早期版本。
@@ -543,8 +543,8 @@ ms.locfileid: "2190963"
 
 ## <a name="additional-resources"></a>其他资源
 
-[新任务指南可用（2016 年 2 月）](new-task-guides-available-february-2016.md)
+[新任务指南（2016 年 2 月）](new-task-guides-available-february-2016.md)
 
-[新的或更新任务指南已推出（2016 年 5 月）](new-updated-task-guides-available-may-2016.md)
+[新的或更新任务指南（2016 年 5 月）](new-updated-task-guides-available-may-2016.md)
 
-[新的或更新任务指南已推出（2016 年 8 月）](new-updated-task-guides-available-august-2016.md)
+[新的或更新任务指南（2016 年 8 月）](new-updated-task-guides-available-august-2016.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a4945f47c86d490f40a6b00cb823e6a6005e0ee4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550501"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770888"
 ---
 # <a name="add-location-and-party-relationship-types"></a>添加位置与当事方关系类型 
 
@@ -41,7 +41,7 @@ ms.locfileid: "2550501"
 
     1.  创建 **LogisticsLocationRoleType** 枚举的扩展，并在该扩展中添加新角色。 
   
-        ![LogisticsLocationRoleType](media/Logistics.PNG)
+        ![LogisticsLocationRoleType 枚举扩展](media/Logistics.PNG)
 
     2. 为新角色创建新的资源文件，然后为其属性分配值。
      
@@ -69,7 +69,7 @@ ms.locfileid: "2550501"
 
     2. 为这个新类型创建初始值设定项。 核心代码中包含多个示例，其中一个为 **DirRelationshipTypeChildInitialize**。 这是当事方关系类型“Child”的一个初始值设定项类。 可通过复制并粘贴此代码，然后更新突出显示的区域，开始处理初始值设定项。
     
-    ![DirRelationshipChild](media/DirRelationship.PNG)
+    ![DirRelationshipChild 初始化器](media/DirRelationship.PNG)
 
     3.  若要测试填充新关系类型，可创建一个可运行的类，然后在 Main() 中调用 DirDataPopulation::insertDirRelationshipTypes()。 应该会在 **DirRelationshipTypeTable** 中看到这个新关系类型，而整个新关系类型也会出现在**关系类型**页中。
 

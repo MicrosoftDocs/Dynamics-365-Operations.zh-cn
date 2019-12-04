@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578233"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771065"
 ---
 # <a name="electronic-reporting-er-overview"></a>电子申报 (ER) 概览
 
@@ -71,7 +71,7 @@ ER 支持两种组件类型：**数据模型**和**格式**。
 
 - 它可以使用不同的数据类型作为数据模型的数据源。 例如，它可以使用表、数据实体、方法或枚举。
 - 当某些数据必须在运行时指定时，它支持用户输入可定义为数据模型数据源的参数。
-- 它支持将数据转换到所需的组。 它还能让您对数据进行筛选、排序和汇总，并且还追加通过与 Microsoft Excel 公式类似的公式设计的逻辑计算字段。 有关详细信息，请参阅 [电子申报中的配方设计器](general-electronic-reporting-formula-designer.md)。
+- 它支持将数据转换到所需的组。 它还能让您对数据进行筛选、排序和汇总，并且还追加通过与 Microsoft Excel 公式类似的公式设计的逻辑计算字段。 有关详细信息，请参阅[电子申报 (ER) 中的公式设计器](general-electronic-reporting-formula-designer.md)。
 
 
 支持传入电子文档的模型映射具有以下功能：
@@ -362,5 +362,5 @@ ER 支持在当前草稿版的派生组件中自动采用最新版本的基础�
 
 ## <a name="additional-resources"></a>其他资源
 
-- [本地化要求 – 创建电子申报配置](electronic-reporting-configuration.md)
-- [管理电子申报配置生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [创建电子报告 (ER) 配置](electronic-reporting-configuration.md)
+- [管理电子申报 (ER) 配置生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)

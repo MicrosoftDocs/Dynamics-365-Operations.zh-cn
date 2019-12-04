@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: aa4d54fd7b3ab407751ad6ca1032d742c23eed41
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 21c2143f4fa58d51f64e349c7963cb17e04bad97
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184523"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772429"
 ---
 ## <a name="company-concept-in-common-data-service"></a>Common Data Service 中的公司概念
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 在 Finance and Operations 中，*公司*的概念既是法律构造，又是业务构造。 还是数据的安全和可见性界限。 用户始终在单个公司的上下文中工作，并且大多数数据已剥离了公司的性质。
 
@@ -60,12 +58,14 @@ Common Data Service 没有同等概念。 最接近的概念是*业务单位*，
 
 最后要介绍的是双写入如何确定应该将记录分配给哪个负责团队。 此行为由 cdm\_Company 记录中的**默认负责团队**控制。 如果为 cdm\_Company 记录启用双写入，一个插件将自动创建关联的业务单位和负责团队（如果还没有），并设置**默认负责团队**字段。 管理员可以将此字段更改为其他值。 但是，只要为该实体启用了双写入，管理员就不能清除该字段。
 
+> [!div class="mx-imgBorder"]
 ![默认负责团队字段](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>公司剥离和自扩展
 
 Common Data Service 集成通过使用公司标识符剥离数据来为公司提供奇偶校验。 如下图所示，已扩展了特定于公司的所有实体，以使其与 cdm\_Company 实体之间存在多对一 (N:1) 关系。
 
+> [!div class="mx-imgBorder"]
 ![特定于公司的实体与 cdm_Company 实体之间的 N:1 关系](media/dual-write-bootstrapping.png)
 
 + 对于记录，添加并保存公司之后，该值变为只读。 因此，用户应确保选择正确的公司。

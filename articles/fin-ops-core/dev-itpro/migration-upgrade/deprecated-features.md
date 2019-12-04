@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 52ed93ae425a821ebce4ed63f154e155cb161e94
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658682"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811985"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Finance and Operations 的移除或弃用功能
 
@@ -348,7 +348,7 @@ ms.locfileid: "2658682"
 | **状态**                         |从 2018 年 2 月 15 日开始移除。 这将影响运行 Dynamics 365 for Operations 1611 及更高版本的客户。  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>电子申报 (ER) 功能列表扩展
-可以引入在 ER 表达式生成器中使用的自定义功能（有关详细信息，请参阅[扩展电子申报功能列表](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)）的这一特性不再受支持。 由于 ER API 发生变更，从 ER 表达式生成器调用内置函数的 API 变成内部 API，并且无法再进行扩展。
+可以引入在 ER 表达式生成器中使用的自定义功能（有关详细信息，请参阅[扩展电子申报 (ER) 功能列表](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)）的这一特性不再受支持。 由于 ER API 发生变更，从 ER 表达式生成器调用内置函数的 API 变成内部 API，并且无法再进行扩展。
 
 |   |  |
 |------------|--------------------|
@@ -474,7 +474,7 @@ ms.locfileid: "2658682"
 |   |  |
 |------------|--------------------|
 | **弃用/移除的原因** | 重复的功能。       |
-| **被另一个功能取代？**   | 是。 此功能已经由 Finance and Operations - Warehousing 取代。 有关设置和先决条件的详细信息，请参阅[安装和配置 Microsoft Dynamics 365 for Finance and Operations - 仓库](../../../supply-chain/warehousing/install-configure-warehousing-app.md)。 |
+| **被另一个功能取代？**   | 是。 此功能已经由 Finance and Operations - Warehousing 取代。 有关设置和先决条件的详细信息，请参阅[安装和配置仓库应用概述](../../../supply-chain/warehousing/install-configure-warehousing-app.md)。 |
 | **影响的产品区域**         | 仓库管理，运输管理     |
 | **部署选项**              | 仓库移动设备门户 (WMDP) 是用于本地自行部署的单独组件。               |
 | **状态**                         | 已弃用：移除功能的目标时间范围为 2019 年第四季度。   |
@@ -1244,7 +1244,7 @@ Dynamics AX 2012 通过使用“未实现的增值税”的墨西哥特定功能
 |   |  |
 |------------|--------------------|
 | **弃用/移除的原因** | 产品生成器向最终用户显示了 X++ 代码，在 Dynamics AX 的当前版本中不受支持。 它已被删除，从而避免在重叠的、庞大的代码库中进行重复的维护工作。  |
-| **被另一个功能取代？**   | 是。 已经公布在将来的版本中弃用产品生成器的 Dynamics AX 2012 中引入了基于约束的配置。 在基础产品上选择基于约束的配置技术，以启用配置。 若要了解更多信息，请参阅[生成产品配置模型](../../../supply-chain/pim/build-product-configuration-model.md)。 |
+| **被另一个功能取代？**   | 是。 已经公布在将来的版本中弃用产品生成器的 Dynamics AX 2012 中引入了基于约束的配置。 在基础产品上选择基于约束的配置技术，以启用配置。 若要了解更多信息，请参阅[产品配置概述](../../../supply-chain/pim/build-product-configuration-model.md)。 |
 | **影响的产品区域**         | 产品信息管理、销售和市场营销  |
 | **状态**                         | 从 Dynamics AX 7.0 开始移除。      |
 

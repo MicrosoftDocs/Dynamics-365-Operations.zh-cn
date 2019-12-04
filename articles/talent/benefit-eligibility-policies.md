@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 55ba685e36878e57fa0496191fbd24a052c073f9
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b44287bf22f0b6c4e33a29b4b86aaae934505a43
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742857"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814682"
 ---
 # <a name="benefit-eligibility-policies"></a>福利资格策略
 

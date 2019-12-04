@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bdfd8ca5e4feb236bc1b4e88a4dd3817a07e8a3f
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2a5da707069966ea0dac282b2a0b2074ec5a41ff
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570993"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812229"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>维护作业类型类别和维护工作类型、维护作业类型变型、维护作业工种和维护清单
 
@@ -33,7 +33,7 @@ ms.locfileid: "2570993"
 
 资产类型与每个资产关联。 资产类型定义可对资产执行的维护作业类型（从而对维护作业执行）。 创建工作订单时，必须选择维护作业类型。 可以仅选择与资产所用资产类型的设置关联的维护作业类型。
 
-有关资产和维护作业类型及其与工作订单的关联的图形概览，请参阅[资产和工作订单](../overview/functional-locations-and-objects.md)。
+有关资产和维护作业类型及其与工作订单的关联的图形概览，请参阅[功能位置和资产](../overview/functional-locations-and-objects.md)。
 
 可以为维护作业类型设置维护作业类型变型。 维护作业类型变型定义作业类型的变型，如尺寸（小、中或大）、期间（周、两周、一月或三月）和配置（低标准、灵活或高性能）。
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 5b52e1765d3afbe1730e96f58b601aebccd12787
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7154a6e8aff62b1ebf79edfecb1e1b99048f7c44
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181258"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771461"
 ---
 # <a name="electronic-reporting-er-destinations"></a>电子申报 (ER) 目标
 
@@ -122,7 +122,7 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 
 ### <a name="power-bi-destination"></a>Power BI 目标
 
-将**已启用**设置为**是**，以便使用您的 ER 配置安排数据从您的实例转移至 Microsoft Power BI 服务。 转移的文件存储在必须为该目的而配置的 Microsoft SharePoint Server 实例上。 有关详细信息，请参阅[使用电子申报配置为 Power BI 提供来自 Finance 的数据](general-electronic-reporting-report-configuration-get-data-powerbi.md)。
+将**已启用**设置为**是**，以便使用您的 ER 配置安排数据从您的实例转移至 Microsoft Power BI 服务。 转移的文件存储在必须为该目的而配置的 Microsoft SharePoint Server 实例上。 有关详细信息，请参阅[配置电子申报 (ER) 以便将数据导入 Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)。
 
 > [!TIP]
 > 要覆盖默认行为（即，配置的对话框），您可以创建主输出组件的目标引用和文件目标，然后禁用所有目标。
@@ -163,4 +163,4 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 
 ## <a name="additional-resources"></a>其他资源
 
-[电子申报概览](general-electronic-reporting.md)
+[电子申报 (ER) 概览](general-electronic-reporting.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef630ca56888eb61ab0519a29c89c3ccb2f24a87
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537824"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811664"
 ---
 # <a name="help-system"></a>帮助系统
 
@@ -82,7 +82,7 @@ YouTube 上的 Microsoft Dynamics 365 频道中包含[如何参与 Microsoft Dyn
 
 任务指南是受控的、引导式、交互式的体验，带领您完成任务或业务流程中的步骤。 您可以从“帮助”窗格中打开（播放）任务指南。 当您首次单击任务指南时，“帮助”窗格将显示任务的分步说明。 本地化的任务指南已提供。
 
-Microsoft 为 Dynamics 365 for Finance and Operations 2017 年 12 月及以前的版本配送了任务指南库。 [从“帮助”窗格获取任务指南](help-overview.md#accessing-task-guides-from-the-help-pane)部分介绍如何查找适用于您的产品的正确的任务指南。
+Microsoft 为 Dynamics 365 for Finance and Operations 2017 年 12 月及以前的版本配送了任务指南库。 [帮助系统](help-overview.md#accessing-task-guides-from-the-help-pane)部分介绍如何查找适用于您的产品的正确的任务指南。
 
 ![任务指南阅读视图](./media/task-guide-ops.png)
 
@@ -93,7 +93,7 @@ Microsoft 为 Dynamics 365 for Finance and Operations 2017 年 12 月及以前�
 > [!IMPORTANT]
 > 您在播放任务指南时输入的数据是真实的。 如果您处于生产环境中，则数据将输入您当前使用的公司中。
 
-您可以使用任务录制器创建您自己的自定义任务指南。 有关详细信息，请参阅[使用任务录制创建文档或培训](../../dev-itpro/user-interface/task-recorder-training-docs.md)。
+您可以使用任务录制器创建您自己的自定义任务指南。 有关详细信息，请参阅[通过任务录制器创建文档或培训](../../dev-itpro/user-interface/task-recorder-training-docs.md)。
 
 ## <a name="in-product-help"></a>产品内帮助
 
@@ -144,13 +144,12 @@ Microsoft 为 Dynamics 365 for Finance and Operations 2017 年 12 月及以前�
 
 您可以通过创建自定义任务指南为用户创建帮助，或者将您自己的网站连接到帮助窗格。 有关详细信息，请参阅：
 
-- [如何创建任务录制以用作文档或培训](../../dev-itpro/user-interface/task-recorder.md)。
+- [任务录制器资源](../../dev-itpro/user-interface/task-recorder.md)
 - [创建自定义帮助（白皮书）](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>其他资源
 
-- [任务录制器](../../dev-itpro/user-interface/task-recorder.md)
-- [使用任务录制创建文档或培训](../../dev-itpro/user-interface/task-recorder.md)
+- [任务录制器资源](../../dev-itpro/user-interface/task-recorder.md)
 
 下表列出了我们的网站。 名称旁边具有星号 (\*) 的站点要求您使用与服务计划关联的帐户登录。
 

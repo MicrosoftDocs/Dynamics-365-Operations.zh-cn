@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92fec444834be8ca4943932730b94beb8a1902e7
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536839"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771556"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>“商业智能 (BI) 与报告”主页
 
@@ -48,7 +48,7 @@ ms.locfileid: "2536839"
 - [Power BI Embedded 集成](power-bi-embedded-integration.md)
 - [使用 Power BI Embedded 将分析添加到工作区](add-analytics-tab-workspaces.md)
 - [使用 Power BI Embedded 帮助保护分析工作区和报表](secure-analytical-workspaces.md)
-- [用于 Finance and Operations 的 Power BI 内容](power-bi-home-page.md)
+- [Power BI 内容主页](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>业务文档和打印
 报告解决方案通常用于捕获和沟通业务事务的详细信息。 因此，报告解决方案必须能够通过使用现有设备，如网络打印机，生成业务数据的实体。 业务文档的示例包括销售发票、客户对帐单和支票。
@@ -57,9 +57,9 @@ ms.locfileid: "2536839"
 
 若要了解详细信息，请参阅以下主题：
 
-- [Document Reporting Services 概览](document-reporting-services.md)
-- [在 Finance and Operations 应用程序中打印](print-documents.md)
-- [安装文档路线选择代理以启用网络打印机设备](install-document-routing-agent.md)
+- [文档报告服务](document-reporting-services.md)
+- [文档打印概览](print-documents.md)
+- [安装文档路线选择代理以启用网络打印](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>电子报告
 电子报告 (ER) 是一种可用来根据各个国家或地区的法律要求配置电子单据格式的工具。 电子报告的应用包括财务审核、税务申报和电子开票。
@@ -68,9 +68,9 @@ ms.locfileid: "2536839"
 
 若要了解详细信息，请参阅以下主题：
 
-- [电子报告概览](general-electronic-reporting.md)
-- [管理电子报告配置生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)
-- [创建电子报告配置](electronic-reporting-configuration.md)
+- [电子报告 (ER) 概览](general-electronic-reporting.md)
+- [管理电子报告 (ER) 配置生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [创建电子报告 (ER) 配置](electronic-reporting-configuration.md)
 
 ## <a name="financial-reporting"></a>财务报告
 提供的标准财务报表使用默认主科目类别。 您可以使用报表设计器创建或修改传统的财务报表，如利润表和资产负债表。 然后可以将结果与组织中的其他成员共享。 财务报告的示例包括各年的资产负债表、现金流和试算平衡表汇总。
@@ -79,14 +79,14 @@ ms.locfileid: "2536839"
 
 若要了解详细信息，请参阅以下主题：
 
-- [用于 Finance and Operations 的财务报告](financial-reporting-intro.md)
+- [财务报告](financial-reporting-intro.md)
 - [生成财务报表](generate-financial-report.md)
 - [财务报表组件](financial-report-components.md)
 
 ## <a name="technical-reference-reports"></a>技术参考报告
 以下报表提供了有关对象的参考信息：
 
-- [数据实体报表](../data-entities/data-entities-report.md)
+- [查找有关标准数据实体的信息](../data-entities/data-entities-report.md)
 - [许可证代码和 Configuration Key 报表](../sysadmin/license-codes-configuration-keys-report.md)
-- [SQL Server Reporting Services 报表报告](SSRS-report.md)
+- [可用的 SQL Server Reporting Services (SSRS) 报表](SSRS-report.md)
 - [工作流类型报告](../../fin-ops/organization-administration/workflow-types-report.md)

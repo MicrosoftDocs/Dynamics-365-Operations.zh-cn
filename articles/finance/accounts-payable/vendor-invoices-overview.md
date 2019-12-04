@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 616d3f5560d18c7fdd8a092c3fbca0fde44be069
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b9708c37f10cd08e6b98167fe24d9ae0380c3dac
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570417"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772160"
 ---
 # <a name="vendor-invoices-overview"></a>供应商发票概览
 
@@ -101,7 +101,7 @@ ms.locfileid: "2570417"
 ## <a name="additional-resources"></a>其他资源
 
 - [设置供应商发票策略](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
-- [使用供应商发票将发票数据键入应付帐款](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+- [使用供应商发票的 AP 系统中的重要发票数据](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 - [使用审核日记帐将发票数据键入应付帐款](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [使用发票池将发票数据键入 AP 系统](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [在发票日记帐中记录供应商发票](tasks/record-vendor-invoice-invoice-journal.md)

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 76564c440d52f7eae4faa704cf9010c7754c3751
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 4e466e6b1bbec0915b6fdb9b86d3b5cbb45364ad
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536862"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771602"
 ---
 # <a name="analytical-workspaces"></a>分析工作区
 [!include[banner](../includes/banner.md)]
@@ -34,15 +34,15 @@ ms.locfileid: "2536862"
 - [成本管理 Power BI 内容](cost-management-content-pack.md)
 - [信用和收款管理 Power BI 内容](../../../finance/accounts-receivable/credit-collections-power-bi.md)
 - [员工发展 Power BI 内容](employee-development-PBI.md) 
-- [财务见解 Power BI 内容](financial-insights.md)
-- [财务绩效 Power BI 内容](financial-performance-power-bi-content-pack.md)
-- [固定资产管理 Power BI 内容](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
+- [财务见解](financial-insights.md)
+- [财务绩效 PowerBI.com 解决方案](financial-performance-power-bi-content-pack.md)
+- [固定资产管理工作区](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
 - [学习 Power BI 内容](learning-power-bi.md)
 - [实践经理 Power BI 内容](practice-manager-power-bi.md)
 - [生产绩效 Power BI 内容](production-performance-power-bi.md)
 - [采购花费分析 Power BI 内容](purchase-content-pack-for-power-bi.md) 
 - [招聘 Power BI 内容](recruiting-analysis-power-bi-content-pack.md) 
 - [销售和收益率绩效 Power BI 内容](sales-profitability-performance-content-pack.md)
-- [供应商付款 Power BI 内容](../../../finance/accounts-payable/Vendor-payments-workspace.md)
+- [供应商付款工作区](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [仓库绩效 Power BI 内容](warehouse-power-bi-content.md)
 - [劳动力指标 Power BI 内容](workforce-analysis-power-bi-content-pack.md)

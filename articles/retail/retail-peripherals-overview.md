@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf4eb74acbd305eb67861ab3f09648bf8af8f86c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ba01f0d16341eb9b0ec0918798e458626b5ef90e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025045"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811185"
 ---
 # <a name="retail-peripherals"></a>零售外设
 
@@ -35,11 +35,17 @@ ms.locfileid: "2025045"
 
 ### <a name="pos-registers"></a>POS 收银机
 
-导航：单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。 销售点 (POS) 收银机是用来定义特定 POS 实例的特征的实体。 这些特征包括硬件配置文件或设置，它们将被零售外设用于收银机、收银机映射到的商店，以及登录该收银机的用户的视觉体验。
+导航：单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。 
+
+销售点 (POS) 收银机是用来定义特定 POS 实例的特征的实体。 这些特征包括硬件配置文件或设置，它们将被零售外设用于收银机、收银机映射到的商店，以及登录该收银机的用户的视觉体验。
 
 ### <a name="devices"></a>设备
 
-导航：单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **设备**。 设备是表示映射到 POS 收银机的设备的物理实例的实体。 当创建一个设备时，它被映射到 POS 收银机。 设备实体跟踪 POS 收银机何时被激活，正在使用的客户端的类型，以及已经部署到特定设备应用程序包的信息。 设备可以映射到以下应用类型：Retail Modern POS、Retail Cloud POS、Retail Modern POS – Windows Phone、Retail Modern POS – Android 和 Retail Modern POS – iOS。
+导航：单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **设备**。 
+
+设备是表示映射到 POS 收银机的设备的物理实例的实体。 当创建一个设备时，它被映射到 POS 收银机。 设备实体跟踪 POS 收银机何时被激活，正在使用的客户端的类型，以及已经部署到特定设备应用程序包的信息。 
+
+设备可以映射到以下应用类型：Retail Modern POS、Retail Cloud POS、Retail Modern POS – Windows Phone、Retail Modern POS – Android 和 Retail Modern POS – iOS。
 
 ### <a name="retail-modern-pos"></a>Retail Modern POS
 
@@ -63,11 +69,15 @@ POS 外设是为满足 POS 功能而明确支持的设备。 这些外设通常�
 
 ### <a name="hardware-station"></a>Hardware Station
 
-导航：单击**零售** &gt; **渠道** &gt; **零售商店** &gt; **所有零售商店**。 选择一个商店，然后单击**硬件工作站**快速选项卡。 **硬件工作站**设置是一种基于渠道的设置，用于定义将部署零售外设逻辑的实例。 渠道级别的此设置用于确定硬件工作站的特征。 还用于列出指定商店中可用于 Modern POS 实例的硬件工作站。 硬件工作站内置在适用于 Windows 的 Modern POS 程序内。 硬件工作站也可以作为单机 Microsoft Internet Information Services (IIS) 程序独立部署。 在这种情况下，可以通过网络访问。
+导航：单击**零售** &gt; **渠道** &gt; **零售商店** &gt; **所有零售商店**。 
+
+选择一个商店，然后单击**硬件工作站**快速选项卡。 **硬件工作站**设置是一种基于渠道的设置，用于定义将部署零售外设逻辑的实例。 渠道级别的此设置用于确定硬件工作站的特征。 还用于列出指定商店中可用于 Modern POS 实例的硬件工作站。 硬件工作站内置在适用于 Windows 的 Modern POS 程序内。 硬件工作站也可以作为单机 Microsoft Internet Information Services (IIS) 程序独立部署。 在这种情况下，可以通过网络访问。
 
 ### <a name="hardware-profile"></a>硬件配置文件
 
-导航︰单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **硬件配置文件**。 硬件配置文件是为 POS 收银机或硬件工作站配置的设备的列表。 硬件配置文件可以直接映射到 POS 收银机或硬件工作站。
+导航︰单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **硬件配置文件**。 
+
+硬件配置文件是为 POS 收银机或硬件工作站配置的设备的列表。 硬件配置文件可以直接映射到 POS 收银机或硬件工作站。
 
 ## <a name="devices-classes"></a>设备分类
 POS 外设通常划分为类。 此部分描述并提供 Modern POS 支持的设备的概览。
@@ -202,11 +212,11 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 
 ### <a name="hardware-station-installation"></a>硬件工作站安装
 
-有关新信息，请参阅 [Retail 硬件工作站配置和安装](retail-hardware-station-configuration-installation.md)。
+有关新信息，请参阅[配置和安装 Retail 硬件工作站](retail-hardware-station-configuration-installation.md)。
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Modern POS for Windows 设置和配置
 
-有关信息，请参阅 [Retail Modern POS 配置和安装](retail-modern-pos-device-activation.md)。
+有关信息，请参阅[配置、安装和激活 Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)。
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS 设备设置和配置
 
@@ -523,7 +533,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 
 ## <a name="configuration-for-supported-scenarios"></a>支持的方案的配置
 
-有关如何创建硬件配置文件的详细信息，请参阅[定义和维护渠道客户端，包括收银机和硬件工作站](define-maintain-channel-clients-registers-hw-stations.md)。
+有关如何创建硬件配置文件的更多信息，请参阅[将外设连接到销售点 (POS)](define-maintain-channel-clients-registers-hw-stations.md)。
 
 > [!NOTE]
 > 对于 Retail 版本 1611，将不再使用硬件工作站配置文件。 以前在硬件工作站中设置的属性现在成为了硬件工作站本身的一部分。
@@ -566,8 +576,8 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 4. 单击**零售** &gt; **零售 IT** &gt; **配送计划**。
 5. 选择 **1090** 配送计划，将新硬件配置文件同步到商店。 单击**立即运行**将更改同步到 POS。
 6. 选择 **1040** 配送计划，将新硬件工作站同步到商店。 单击**立即运行**将更改同步到 POS。
-7. 安装硬件工作站。 有关如何安装硬件工作站的详细信息，请参阅 [Retail 硬件工作站配置和安装](retail-hardware-station-configuration-installation.md)。
-8. 安装和激活 Modern POS。 有关如何安装 Modern POS 的详细信息，请参阅 [Retail Modern POS 配置和安装](retail-modern-pos-device-activation.md)。
+7. 安装硬件工作站。 有关如何安装硬件工作站的详细信息，请参阅[配置和安装 Retail 硬件工作站](retail-hardware-station-configuration-installation.md)。
+8. 安装和激活 Modern POS。 有关如何安装 Modern POS 的详细信息，请参阅[配置、安装和激活 Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)。
 9. 登录 Modern POS，然后选择**执行非开票人操作**。
 10. 启动**管理硬件工作站**操作。
 11. 单击**管理**。
@@ -595,8 +605,8 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 5. 单击**零售** &gt; **零售 IT** &gt; **配送计划**。
 6. 选择 **1090** 配送计划，将新硬件配置文件同步到商店。 单击**立即运行**将更改同步到 POS。
 7. 选择 **1040** 配送计划，将新硬件工作站同步到商店。 单击**立即运行**将更改同步到 POS。
-8. 在步骤 2 和 3 中设置的每个主机上安装硬件工作站。 有关如何安装硬件工作站的详细信息，请参阅 [Retail 硬件工作站配置和安装](retail-hardware-station-configuration-installation.md)。
-9. 安装和激活 Modern POS。 有关如何安装 Modern POS 的详细信息，请参阅 [Retail Modern POS 配置和安装](retail-modern-pos-device-activation.md)。
+8. 在步骤 2 和 3 中设置的每个主机上安装硬件工作站。 有关如何安装硬件工作站的详细信息，请参阅[配置和安装 Retail 硬件工作站](retail-hardware-station-configuration-installation.md)。
+9. 安装和激活 Modern POS。 有关如何安装 Modern POS 的详细信息，请参阅[配置、安装和激活 Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)。
 10. 登录 Modern POS，然后选择**执行非开票人操作**。
 11. 启动**管理硬件工作站**操作。
 12. 单击**管理**。
@@ -655,7 +665,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 
 ## <a name="peripheral-simulator"></a>外围设备模拟器
 
-有关信息，请参阅 [Retail 外设模拟器](dev-itpro/retail-peripheral-simulator.md)。
+有关信息，请参阅 [Retail 的外围设备模拟器](dev-itpro/retail-peripheral-simulator.md)。
 
 ## <a name="microsoft-tested-peripheral-devices"></a>经过 Microsoft 测试的外设
 
@@ -896,4 +906,4 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 
 ## <a name="additional-resources"></a>其他资源
 
-[零售外围设备模拟器](dev-itpro/retail-peripheral-simulator.md)
+[零售的外围设备模拟器](dev-itpro/retail-peripheral-simulator.md)

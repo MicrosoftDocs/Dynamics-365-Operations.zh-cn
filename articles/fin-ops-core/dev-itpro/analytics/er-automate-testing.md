@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6da9447386e8e56e20507d985ebcdbfce934debd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: be641e1b2f90f4d19f7ed15e47413c0aa43d5073
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181603"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771436"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>自动测试电子报告
 
@@ -44,8 +44,8 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
 高级功能用户不必编写源代码即可创作接受度和集成测试。
 
 - 使用 ER 基准功能将生成的单据与主副本进行比较。 有关详细信息，请参阅[跟踪生成的报告结果并将其与基准值进行比较](er-trace-reports-compare-baseline.md)。
-- 使用任务录制器录制测试用例，并包含基准评估。 有关详细信息，请参阅[任务录制器](../user-interface/task-recorder.md)。
-- 针对所需测试场景为测试用例分组。 有关详细信息，请参阅[使用任务录制和 BPM 创建用户接受度测试库](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)。
+- 使用任务录制器录制测试用例，并包含基准评估。 有关详细信息，请参阅[任务录制器资源](../user-interface/task-recorder.md)。
+- 针对所需测试场景为测试用例分组。 有关详细信息，请参阅[创建和自动执行用户接受度测试](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)。
 
     - 使用 LCS 中的业务流程建模器 (BPM) 为用户接受度测试创建库。
     - 在 Microsoft Azure DevOps Services (Azure DevOps) 中使用 BPM 测试库创建测试计划和测试套件。
@@ -59,7 +59,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
 
 必须先完成以下先决条件，才能完成本主题中的任务：
 
-- 部署支持测试自动化的拓扑。 必须可以访问**系统管理员**角色的此拓扑的实例。 此拓扑中必须包含此示例中将使用的演示数据。 有关详细信息，请参阅[部署支持连续生成和测试自动化的拓扑](../perf-test/continuous-build-test-automation.md)。
+- 部署支持测试自动化的拓扑。 必须可以访问**系统管理员**角色的此拓扑的实例。 此拓扑中必须包含此示例中将使用的演示数据。 有关详细信息，请参阅[部署和使用支持连续生成和测试自动化的环境](../perf-test/continuous-build-test-automation.md)。
 - 若要自动运行用户接受度和集成测试，必须在要测试的拓扑中安装 RSAT，并以适当方式配置。 有关如何安装和配置 RSAT 以支持 Finance and Operations 应用程序和 Azure DevOps 的信息，请参阅 [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357)。 请注意有关使用此工具的先决条件。 下图显示 RSAT 设置的示例。 蓝色方框中的是用于指定 Azure DevOps 的访问权限的参数。 蓝色方框内的是用于指定实例的访问权限的参数。
 
     ![RSAT 设置](media/GER-Configure.png "“RSAT 设置”对话框的屏幕截图")
@@ -81,7 +81,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
     - **付款模型映射 1611** ER 模型映射配置
     - **BACS (UK)** ER 格式配置
 
-    ![电子申报配置](media/GER-Configurations.png "电子申报中的“配置”页的屏幕截图")
+    ![电子报告配置](media/GER-Configurations.png "电子申报中的“配置”页的屏幕截图")
 
 3. 选择 **GBSI** 演示数据公司，该公司在英国拥有国家/地区上下文。
 4. 配置应付帐款参数：
@@ -93,7 +93,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
         1. 在**文件格式**快速选项卡上，将**一般电子导出格式**选项设置为**是**。
         2. 在**导出格式配置**字段中，选择 **BACS (UK)**。
 
-    ![“付款方式”页](media/GER-APParameters.png "“付款方式”页的屏幕截图")
+    ![付款方式页面](media/GER-APParameters.png "“付款方式”页的屏幕截图")
 
     > [!NOTE]
     > 如果有为了支持自定义设置而为此 ER 格式创建的派生版本，可以在**电子**付款方式中选择此配置。
@@ -103,7 +103,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
     1. 转到**应付帐款 \> 付款 \> 付款日记帐**。
     2. 确保尚未过帐付款日记帐。
 
-        ![“付款日记帐”页](media/GER-APJournal.png "“付款日记帐”页的屏幕截图")
+        ![付款日记帐页面](media/GER-APJournal.png "“付款日记帐”页的屏幕截图")
 
     3. 选择**行**。然后输入包含以下信息的行。
 
@@ -116,7 +116,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
         | 对方科目      | GBSI OPER       |
         | 付款方式   | 电子      |
 
-    ![“供应商付款”页](media/GER-APJournalLines.png "“供应商付款”页的屏幕截图")
+    ![供应商付款页面](media/GER-APJournalLines.png "“供应商付款”页的屏幕截图")
 
 ## <a name="prepare-the-er-framework-to-test-vendor-payment-processing"></a>准备 ER 框架以测试供应商付款处理
 
@@ -125,7 +125,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
 1. 转到**组织管理 \> 电子报表 \> 电子报表参数**。
 2. 在**附件**选项卡上**基准**字段中，选择**文件**作为文档管理 (DM) 框架用于保留作为 DM 附件与基准功能有关的单据的单据类型。
 
-    ![“电子申报参数”页](media/GER-ERParameters.png "“电子申报参数”页的屏幕截图")
+    ![“电子申报参数”页面](media/GER-ERParameters.png "“电子申报”参数页面的屏幕截图")
 
 ### <a name="generate-baseline-copies-of-vendor-paymentrelated-documents"></a>生成与供应商付款有关的单据的基准副本
 
@@ -374,10 +374,10 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
 
 ## <a name="additional-resources"></a>其他资源
 
-- [任务录制器](../user-interface/task-recorder.md)
+- [任务录制器资源](../user-interface/task-recorder.md)
 - [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357)
-- [通过使用任务录制和 BPM 创建用户接受度测试库](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
-- [部署支持持续构建和测试自动化的拓扑](../perf-test/continuous-build-test-automation.md)
-- [跟踪生成的报表结果并将其与 ER 基准值进行比较](er-trace-reports-compare-baseline.md)
-- [通过采用该格式的新的基本版本升级 ER 格式](tasks/er-upgrade-format.md)
-- [从 Lifecycle Services 导入 ER 配置](tasks/er-import-configuration-lifecycle-services.md)
+- [创建和自动执行用户接受度测试](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
+- [部署和使用支持连续生成和测试自动化的环境](../perf-test/continuous-build-test-automation.md)
+- [跟踪生成的报表结果并将其与基准值进行比较](er-trace-reports-compare-baseline.md)
+- [ER 通过采用该格式的新的基本版本升级格式](tasks/er-upgrade-format.md)
+- [ER 从 Lifecycle Services 导入配置](tasks/er-import-configuration-lifecycle-services.md)

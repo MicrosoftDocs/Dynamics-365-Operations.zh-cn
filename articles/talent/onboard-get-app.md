@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 28ed12bd8cf2df7c25e14a25465cad1229676cfd
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5849de38962967f0614ff7afd40296c0f12ff476
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551971"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812848"
 ---
 # <a name="get-the-dynamics-365-talent---onboard-app"></a>获取 Dynamics 365 Talent - Onboard 应用
 
@@ -39,9 +39,9 @@ ms.locfileid: "2551971"
 > [!WARNING]
 > 您无法将数据从试用中迁移到付费订阅环境。 <!--Reviewers: please verify.-->
 
-要了解 Talent 中的新功能，请参阅 [Dynamics 365 Talent 新增功能或更改](./whats-new.md)和 [Dynamics 365 和 Power Platform 版本说明](https://docs.microsoft.com/business-applications-release-notes/index)。 如果要在 Onboard 中预览新功能，请参阅[访问 Talent 中的预览功能](./access-preview-feature.md)。
+要了解 Talent 中的新功能，请参阅 [Dynamics 365 Talent 新增功能或更改](./whats-new.md)和 [Dynamics 365 和 Power Platform 版本说明](https://docs.microsoft.com/business-applications-release-notes/index)。 如果要在 Onboard 中预览新功能，请参阅[访问 Microsoft Dynamics 365 Talent 中的预览功能](./access-preview-feature.md)。
 
-如果您是 IT 专业人员并希望了解有关如何配置两个版本的 Onboard 应用的详细信息，请参阅 [Onboard 应用配置](./modular-app-tech-faq.md)。
+如果您是 IT 专业人员并希望了解有关如何配置两个版本的 Onboard 应用的详细信息，请参阅 [Dynamics 365 Talent - Onboard 应用配置](./modular-app-tech-faq.md)。
 
 ## <a name="get-started-with-onboard"></a>Onboard 入门
 
@@ -89,6 +89,6 @@ ms.locfileid: "2551971"
 ### <a name="see-also"></a>请参阅
 
 - [试用或购买 Onboard 应用](https://dynamics.microsoft.com/talent/onboard/)
-- [新增功能](./whats-new.md)
-- [版本说明](https://docs.microsoft.com/business-applications-release-notes/index)
-- [获取支持](./talent-support.md)
+- [Dynamics 365 Talent 新增功能或更改](./whats-new.md)
+- [发布计划](https://docs.microsoft.com/business-applications-release-notes/index)
+- [获取 Microsoft Dynamics 365 Talent 支持](./talent-support.md)

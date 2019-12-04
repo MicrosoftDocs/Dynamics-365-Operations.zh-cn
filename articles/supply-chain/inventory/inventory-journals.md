@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c4a2696b015611f4430ad5dfa1c61c1c4f913a9
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c6774a41887e74bfdb1fa6a9221264b0c8454c70
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570786"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814344"
 ---
 # <a name="inventory-journals"></a>库存日记帐
 
@@ -74,7 +74,7 @@ Supply Chain Management 中的库存日记帐用于过帐多种类型的实际�
 
 ### <a name="counting"></a>正在盘点
 
-盘点日记帐能让您纠正为物料或物料组登记的现货库存量，然后过帐实际盘点，因此，您可以进行为对帐差异而需要的调整。 您可以将盘点策略与盘点组关联，以帮助对具有多种特征的物料进行分组，因此，这些物料可以包括到盘点日记帐中。 例如，您可以设置盘点组以盘点具有特定频率的物料，或在存货下跌到特定级别时盘点物料。 有关如何定义盘点组的信息，请参阅[定义库存盘点流程（任务指南）](tasks/define-inventory-counting-processes.md)。
+盘点日记帐能让您纠正为物料或物料组登记的现货库存量，然后过帐实际盘点，因此，您可以进行为对帐差异而需要的调整。 您可以将盘点策略与盘点组关联，以帮助对具有多种特征的物料进行分组，因此，这些物料可以包括到盘点日记帐中。 例如，您可以设置盘点组以盘点具有特定频率的物料，或在存货下跌到特定级别时盘点物料。 有关如何定义盘点组的信息，请参阅[定义库存盘点流程](tasks/define-inventory-counting-processes.md)。
 
 ### <a name="tag-counting"></a>标签盘点
 

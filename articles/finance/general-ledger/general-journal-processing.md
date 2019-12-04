@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2becf8213cfa46e2c0cf0c553f0b5e503dfc3704
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570232"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771814"
 ---
 # <a name="general-journal-processing"></a>普通日记帐处理
 
@@ -85,9 +85,9 @@ ms.locfileid: "2570232"
 科目结构和高级规则结构对于确保在一般日记帐处理和任何单据化期间捕获财务报告所需的数据以及绩效跟踪极其重要。 科目结构和高级规则结构可让您定制数据输入体验。 您可以仅对在所有情况下都相关的财务维度允许数据输入，还可以实施始终捕获正确数据这一必须实施的要求。
 
 有关详细信息，请参阅以下主题：
-- [计划：会计科目表](plan-chart-of-accounts.md)。 
+- [计划您的会计科目表](plan-chart-of-accounts.md) 
 - [创建日记帐高级规则](tasks/create-advanced-rules-journals.md)
-- [使用模板创建日记帐条目](tasks/create-journal-entry-template.md)
+- [使用模板创建日记帐分录](tasks/create-journal-entry-template.md)
 - [创建和验证日记帐](tasks/create-validate-journals.md)
 - [过帐期间日记帐](tasks/post-periodic-journals.md)
 - [处理分类帐分配日记帐](tasks/process-ledger-allocation-journal.md)

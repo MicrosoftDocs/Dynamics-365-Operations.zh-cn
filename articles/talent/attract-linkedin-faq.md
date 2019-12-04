@@ -1,5 +1,5 @@
 ---
-title: Attract 与 LinkedIn 集成的常见问题
+title: LinkedIn 集成常见问题
 description: 本主题回答有关您可能遇到的 LinkedIn 与 Microsoft Dynamics 365 Talent - Attract 之间的集成问题。
 author: hasrivas
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: b77ad598ba209dbbd73765c49947e84a3995153d
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 35428da709f480e1d3842b7e92deacba200326ee
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550359"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833084"
 ---
-# <a name="attract-integration-with-linkedin-faq"></a>Attract 与 LinkedIn 集成的常见问题
+# <a name="linkedin-integration-faq"></a>LinkedIn 集成常见问题
 
 [!include [banner](includes/banner.md)]
 
@@ -41,8 +41,8 @@ LinkedIn 是全球最大的在线职业网络。 Microsoft Dynamics Talent: Attr
 Attract 与 LinkedIn 的集成使您可以执行以下任务：
 
 - [将工作发布到 LinkedIn](./attract-post-jobs-to-linkedin.md)（作为免费的 Limited Listings(有限列表)）。
-- [将应聘者信息从 LinkedIn 导出到 Attract](./attract-linkedin-recruiter.md#export-linkedin-candidates-to-attract-with-one-click).
-- [允许工作应聘者通过 LinkedIn 申请工作](./attract-admin-linkedin.md#set-up-apply-with-linkedin-in-attract).
+- [在 Microsoft Dynamics 365 Talent - Attract 中使用 LinkedIn Recruiter 寻求应聘者](./attract-linkedin-recruiter.md#export-linkedin-candidates-to-attract-with-one-click)。
+- [为 Microsoft Dynamics 365 Talent - Attract 设置与 LinkedIn 的集成](./attract-admin-linkedin.md#set-up-apply-with-linkedin-in-attract)。
 
 ### <a name="what-do-i-need-before-i-can-post-jobs-to-linkedin"></a>在将工作发布到 LinkedIn 之前，我需要什么？
 
@@ -50,17 +50,17 @@ Attract 与 LinkedIn 的集成使您可以执行以下任务：
 
 ### <a name="how-do-i-post-jobs-to-linkedin-from-attract"></a>如何从 Attract 向 LinkedIn 发布工作？
 
-在 Attract 中创建工作后，您只需选择与 LinkedIn 对应的**立即发布**按钮即可。 有关详细信息，请参阅[将工作从 Attract 发布到 LinkedIn](./attract-post-jobs-to-linkedin.md#post-jobs-to-linkedin)。
+在 Attract 中创建工作后，您只需选择与 LinkedIn 对应的**立即发布**按钮即可。 有关详细信息，请参阅[将工作从 Microsoft Dynamics 365 Talent - Attract 发布到 LinkedIn](./attract-post-jobs-to-linkedin.md#post-jobs-to-linkedin)。
 
 ### <a name="can-i-get-candidate-information-from-linkedin-into-attract"></a>我可以将 LinkedIn 中的应聘者信息放到 Attract 中吗？
 
-是。 如果您在 LinkedIn 上看到一个合适的应聘者，您可以轻松地将该应聘者的信息导出到 Attract 中。 有关详细信息，请参阅[使用 LinkedIn Recruiter 寻求应聘者](attract-linkedin-recruiter.md)。
+是。 如果您在 LinkedIn 上看到一个合适的应聘者，您可以轻松地将该应聘者的信息导出到 Attract 中。 有关详细信息，请参阅[在 Microsoft Dynamics 365 Talent - Attract 中使用 LinkedIn Recruiter 寻求应聘者](attract-linkedin-recruiter.md)。
 
 ### <a name="how-can-i-get-help-accessing-linkedin-from-attract"></a>如何获取从 Attract 访问 LinkedIn 的帮助？
 
-如果您在登录或从 Attract 向 LinkedIn 发布工作时遇到问题，请参阅 [LinkedIn 集成疑难解答](./attract-troubleshoot-linkedin.md)。
+如果您在登录或从 Attract 向 LinkedIn 发布工作时遇到问题，请参阅[与 LinkedIn 和 Microsoft Dynamics 365 Talent - Attract 集成疑难解答](./attract-troubleshoot-linkedin.md)。
 
-有关 Attract 的其他问题，请参阅[获取 Talent 支持](./talent-support.md)。 有关 LinkedIn 的帮助，请参阅 [LinkedIn 支持页面](https://www.linkedin.com/help)。
+有关 Attract 的其他问题，请参阅[获取 Microsoft Dynamics 365 Talent 支持](./talent-support.md)。 有关 LinkedIn 的帮助，请参阅 [LinkedIn 支持页面](https://www.linkedin.com/help)。
 
 ## <a name="for-admins-and-developers"></a>针对管理员和开发人员
 
@@ -68,11 +68,11 @@ Attract 与 LinkedIn 的集成使您可以执行以下任务：
 
 ### <a name="how-do-i-configure-attract-so-that-recruiters-and-hiring-managers-can-post-jobs-to-linkedin"></a>如何配置 Attract，以便招聘人员和招聘经理可以将工作发布到 LinkedIn？
 
-您可以在“管理中心”的 **LinkedIn 集成**选项卡上配置可用选项。 有关详细信息，请参阅[设置与 LinkedIn 的集成](./attract-admin-linkedin.md)。
+您可以在“管理中心”的 **LinkedIn 集成**选项卡上配置可用选项。 有关详细信息，请参阅[为 Microsoft Dynamics 365 Talent - Attract 设置与 LinkedIn 的集成](./attract-admin-linkedin.md)。
 
 ### <a name="can-i-export-candidate-information-from-linkedin"></a>我可以从 LinkedIn 导出应聘者信息吗？
 
-可以，但您必须首先配置与 LinkedIn Recruiter 的集成。 有关详细信息，请参阅[设置与 LinkedIn 的集成](./attract-admin-linkedin.md)。
+可以，但您必须首先配置与 LinkedIn Recruiter 的集成。 有关详细信息，请参阅[为 Microsoft Dynamics 365 Talent - Attract 设置与 LinkedIn 的集成](./attract-admin-linkedin.md)。
 
 ### <a name="how-can-i-post-jobs-to-premium-job-slots-on-linkedin"></a>如何将工作发布到 LinkedIn 上的 Premium Job Slots（高级职位空缺）？
 
@@ -103,17 +103,17 @@ LinkedIn 每天通过 Attract 批处理一次工作发布。 因此，在通过 
 | **LinkedIn 发布工作的频率如何？** | 每天一次 | 每天一次 | 每天多次，由 API 定义 |
 | **LinkedIn 推荐？** | 否 | 是 | 否 |
 | **我需要什么？** | 购买 Attract | 与 LinkedIn 签订工作包装合同并购买 Premium Job Slots（高级职位空缺） | 与 LinkedIn 的 API 协议 | 
-| **我可以在何处找到详细信息？** | [设置与 LinkedIn 的集成](./attract-admin-linkedin.md) | [通过 LinkedIn Recruiter 使用 Job Wrapping（工作包装）- 概述](https://www.linkedin.com/help/recruiter/answer/79037) | [Recruiter System Connect](https://docs.microsoft.com/linkedin/talent/recruiter-system-connect) |
+| **我可以在何处找到详细信息？** | [为 Microsoft Dynamics 365 Talent - Attract 设置与 LinkedIn 的集成](./attract-admin-linkedin.md) | [通过 LinkedIn Recruiter 使用 Job Wrapping（工作包装）- 概述](https://www.linkedin.com/help/recruiter/answer/79037) | [Recruiter System Connect](https://docs.microsoft.com/linkedin/talent/recruiter-system-connect) |
 
 > [!NOTE]
 > 您不需要 LinkedIn Recruiter System Connect 许可证即可通过 Attract 将工作发布到 LinkedIn。
 
 ## <a name="see-also"></a>请参阅
 
-[设置与 LinkedIn 的集成](./attract-admin-linkedin.md)
+[为 Microsoft Dynamics 365 Talent - Attract 设置与 LinkedIn 的集成](./attract-admin-linkedin.md)
 
-[将工作从 Attract 发布到 LinkedIn](./attract-post-jobs-to-linkedin.md)
+[将工作从 Microsoft Dynamics 365 Talent - Attract 发布到 LinkedIn](./attract-post-jobs-to-linkedin.md)
 
-[使用 LinkedIn Recruiter 寻求应聘者](./attract-linkedin-recruiter.md)
+[在 Microsoft Dynamics 365 Talent - Attract 中使用 LinkedIn Recruiter 寻求应聘者](./attract-linkedin-recruiter.md)
 
-[LinkedIn 集成疑难解答](./attract-troubleshoot-linkedin.md)
+[与 LinkedIn 和 Microsoft Dynamics 365 Talent - Attract 集成疑难解答](./attract-troubleshoot-linkedin.md)

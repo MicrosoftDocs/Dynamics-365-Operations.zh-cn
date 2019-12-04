@@ -1,5 +1,5 @@
 ---
-title: 使用 Microsoft Dynamics 365 Talent - Attract 中的分析报表
+title: 使用 Attract 中的分析报表
 description: 本主题介绍了 Microsoft Dynamics 365 Talent - Attract 中招聘流程见解的分析报表
 author: fewatson
 manager: AnnBe
@@ -19,14 +19,16 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 5a4d160e8c90725d5ea129a76fd48da1c5af7900
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4ae608bbca111313d8c77e63f6a7a95813f6e5cd
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551510"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833223"
 ---
-# <a name="use-analytic-reports-in-microsoft-dynamics-365-talent---attract"></a>使用 Microsoft Dynamics 365 Talent - Attract 中的分析报表
+# <a name="use-analytic-reports-in-attract"></a>使用 Attract 中的分析报表
+
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract 中的分析报表提供现成的 (OOTB) 解决方案以获取招聘流程见解。 可用功能包括：
 

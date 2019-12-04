@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0c6a9e4dd3f3182c98a9f5491b07f8687c21e5c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184063"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772643"
 ---
 # <a name="budgeting-home-page"></a>预算编制主页
 
@@ -38,16 +38,16 @@ ms.locfileid: "2184063"
 
 [![预算编制功能组件](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
-长期战略计划和年度预算计划的流程均通过预算计划文档来获得支持。 预算计划文档与 Microsoft Excel 紧密集成在一起。 用户可配置无数个货币和数量方案，也可以定义一个预算编制组织层次结构以支持自上而下和自下而上的预算编制方法。 在应用程序中建立和审核预算之后，将预算计划转换为预算登记分录。 预算登记分录提供了用于维护预算以及通过预算代码保持金额的可追溯性的工具。 预算登记分录可让您修订原始预算、执行转移和从上一年结转预算金额。 根据建立的预算，公司可启用预算控制。 控制的级别取决于组织文化和组织的成熟度级别。 成熟度较低的组织可能将预算保留“原样”，当预算未达到预期时，它们可能更多的是被动地响应，而不是主动采取措施。 其他组织可能会启用预算控制策略以防止用户在没有预算资金时进行采购。
+长期战略计划和年度预算计划的流程均通过预算计划文档来获得支持。 预算计划文档与 Microsoft Excel 紧密集成在一起。 用户可配置无数个货币和数量方案，也可以定义一个预算编制组织层次结构以支持自上而下和自下而上的预算编制方法。 在应用程序中建立和审核预算之后，将预算计划转换为预算登记条目。 预算登记条目提供了用于维护预算以及通过预算代码保持金额的可追溯性的工具。 预算登记条目可让您修订原始预算、执行转移和从上一年结转预算金额。 根据建立的预算，公司可启用预算控制。 控制的级别取决于组织文化和组织的成熟度级别。 成熟度较低的组织可能将预算保留“原样”，当预算未达到预期时，它们可能更多的是被动地响应，而不是主动采取措施。 其他组织可能会启用预算控制策略以防止用户在没有预算资金时进行采购。
 
 最后，非常成熟的组织可能会建立一种组织文化，在这种文化中，员工将获得有关组织目标的培训，并通过“考虑在线会议而不是出差”之类的策略实现这些目标。 应用程序包含可支持公司的管理层选择硬控制（防止超过预算的过帐）或软控制（用户将收到超过可用预算资金的警告，但用户可以自行决定如何继续）的预算控制框架。 最后，您可使用滚动预测。 滚动预测是预算与实际支出的定期比较，用于确定公司的预算执行状况。 滚动预测还用于确定趋势。 在 Finance and Operations 中，滚动预测通过在初始规划活动中制定的预算计划文档来获得支持。 滚动预测可以与针对即将到来的预算周期的规划并行执行。
 
--   [基本预算编制：概述和配置](basic-budgeting-overview-configuration.md)
--   [预算控制：概述和配置](budget-control-overview-configuration.md)
--   [预算计划：概述和配置](budget-planning-overview-configuration.md)
+-   [预算编制概览](basic-budgeting-overview-configuration.md)
+-   [预算控制概览](budget-control-overview-configuration.md)
+-   [预算计划概览](budget-planning-overview-configuration.md)
 -   [职位预测](position-forecasting.md)
 -   [预算计划证明文档](budget-planning-justification-docs.md)
--   [用于预算计划的 Microsoft Excel 模板](budget-planning-excel-templates.md)
+-   [Excel 的预算计划模板](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>预算编制工具
 [![预算编制工具](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 

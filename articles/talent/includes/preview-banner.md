@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> 本主题中介绍的功能作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅[服务更新可用性](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases)。
+> 本主题中介绍的功能作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 有关预览功能的详细信息，请参阅[访问 Dynamics 365 Talent 中的预览功能](../access-preview-feature.md)。

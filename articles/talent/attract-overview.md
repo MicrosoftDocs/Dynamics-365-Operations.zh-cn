@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 Talent - Attract 特色和功能
+title: Attract 特色和功能
 description: 本主题介绍 Microsoft Dynamics 365 Talent - Attract 提供的用于管理新人才雇用流程的功能。
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c8860602bd293c158aa33ea22b5f73de15a6b6f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4186dddc471de676cc6d26050f16711f581da7ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552063"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833061"
 ---
-# <a name="microsoft-dynamics-365-talent---attract-features-and-capabilities"></a>Microsoft Dynamics 365 Talent - Attract 特色和功能
+# <a name="attract-features-and-capabilities"></a>Attract 特色和功能
 
 [!include [banner](includes/banner.md)]
 
@@ -48,4 +48,4 @@ Attract 提供预定义的招聘流程，包含四个基本阶段：申请、筛
 应聘者被添加到工作后，便会收到一封电子邮件，其中包含获取该 Web 应用的链接。 此应用提供工作详细信息，并用于与招聘团队进行沟通。 应聘者还可以使用它来提交他们可接受面试的可用日期。
 
 ## <a name="analytic-reports"></a>分析报告
-招聘团队可以借助 [Attract 中的分析报表](analytic-reports.md)对一个工作使用查看关键招聘流程指标，也可以对所有工作使用集成的此类指标。 拥有[综合招聘加载项](attract-comprehensive-hiring.md)的客户的[预览版](access-preview-feature.md)中现在提供此项功能。
+招聘团队可以借助 [Attract 中的分析报表](analytic-reports.md)对一个工作使用查看关键招聘流程指标，也可以对所有工作使用集成的此类指标。 此功能现在通过[哪个 Microsoft Dynamics 365 Talent - Attract 版本](attract-comprehensive-hiring.md)为客户提供[预览](access-preview-feature.md)。

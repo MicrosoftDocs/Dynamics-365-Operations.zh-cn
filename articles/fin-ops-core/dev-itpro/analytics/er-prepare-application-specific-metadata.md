@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74750397dc344d74c018c27114357d3d05b95b7e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 89d36c305bc9210f7906cd4288e33e5028baecdb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550099"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771252"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>为 RCS 和 ER 准备应用程序特定的元数据
 
@@ -43,7 +43,7 @@ ms.locfileid: "2550099"
 > 在此示例中，您将创建示例公司 Litware 公司的配置。这些步骤可以在任何公司执行。
 
 1. 转到**组织管理 \> 工作区 \> 电子申报**。
-2. 确保示例公司 Litware 公司的配置提供程序可用且标记为**有效**。 如果没有看到此配置提供程序，请完成[创建配置提供程序并标记为当前运行的](tasks/er-configuration-provider-mark-it-active-2016-11.md)过程。 
+2. 确保示例公司 Litware 公司的配置提供程序可用且标记为**有效**。 如果没有看到此配置提供程序，请完成[创建配置提供程序并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)过程。 
 3. 选择**元数据配置**。
 4. 选择**创建配置**。
 5. 在下拉对话框的**名称**字段中，输入名称。 对于此示例，请输入**外贸元数据**。
@@ -54,14 +54,14 @@ ms.locfileid: "2550099"
     > [!NOTE]
     > 可为整个应用程序，或所选模型或模块选择所有元数据。 在这两种情况下，请注意，将自动添加以下元数据：记录表、枚举和扩展数据类型 (EDT)。 如果需要更多元数据类型，则必须手动添加。
 
-必须添加一些与外贸交易有关的元数据，并手动选择元数据项。
+    必须添加一些与外贸交易有关的元数据，并手动选择元数据项。
 
 9. 选择**添加数据源 \> 表记录**。
 10. 筛选**名称**字段中的**内部统计**值。
 11. 选择**内部统计**表记录。
 12. 选择**确定**。
 
-必须添加有关“内部统计”记录表的元数据信息。
+    必须添加有关“内部统计”记录表的元数据信息。
 
 13. 在树中，选择**表记录‘内部统计’ \> \>关系 \> IntrastatCommodity（表记录 EcoResCategory）**。
 14. 选择**添加元数据**。
@@ -95,11 +95,11 @@ ms.locfileid: "2550099"
 
 必须首先完成以下过程，才能完成此过程：
 
-- [创建一个配置提供程序，并标记其为当前运行的](tasks/er-configuration-provider-mark-it-active-2016-11.md)
+- [创建配置提供程序并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)
 - [准备可在 RCS 中使用的应用程序元数据](#prepare-application-metadata-that-can-be-used-in-rcs)
 
 1. 转到**所有工作区 \> 电子申报**。
-2. 确保示例公司 Litware 公司的配置提供程序可用且标记为**有效**。 如果没有看到此配置提供程序，请完成[创建配置提供程序并标记为当前运行的](tasks/er-configuration-provider-mark-it-active-2016-11.md)过程。 
+2. 确保示例公司 Litware 公司的配置提供程序可用且标记为**有效**。 如果没有看到此配置提供程序，请完成[创建配置提供程序并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)过程。 
 3. 导入包含应用程序的元数据且为了生成外贸业务域所用电子单据而配置的元数据的 ER 元数据配置。 您已在本主题前面的[准备可在 RCS 中使用的应用程序元数据](#prepare-application-metadata-that-can-be-used-in-rcs)过程中创建了此 ER 元数据配置并将其导出为 XML 文件。
 
     1. 选择**元数据配置**。
@@ -201,7 +201,7 @@ ms.locfileid: "2550099"
 
 以下过程显示具有**系统管理员**或**电子申报开发人员**角色的 RCS 用户如何使用应用程序的元数据设计新的 ER 模型映射。 将使用与 RCS 相连的应用程序联机访问应用程序元数据。 将配置示例 ER 模型映射以访问外贸交易。
 
-为了完成此过程，您必须首先在 RCS 中完成[创建配置提供程序并标记为当前运行的](tasks/er-configuration-provider-mark-it-active-2016-11.md)过程。 如果尚未完成本主题中前面的[使用 ER 配置访问应用程序元数据](#access-application-metadata-by-using-an-er-configuration)过程，请转至[Dynamics 365 for Finance and Operations 8.1 电子申报任务指南](https://go.microsoft.com/fwlink/?linkid=2082739)页提前下载以下 ER 配置文件并在本地保存：**Foreign trade metadata.xml**、**Foreign trade model.xml** 和 **Foreign trade mapping.xml**。
+为了完成此过程，您必须首先在 RCS 中完成[创建配置提供程序并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)过程。 如果尚未完成本主题中前面的[使用 ER 配置访问应用程序元数据](#access-application-metadata-by-using-an-er-configuration)过程，请转至[Dynamics 365 for Finance and Operations 8.1 电子申报任务指南](https://go.microsoft.com/fwlink/?linkid=2082739)页提前下载以下 ER 配置文件并在本地保存：**Foreign trade metadata.xml**、**Foreign trade model.xml** 和 **Foreign trade mapping.xml**。
 
 
 ### <a name="get-required-er-configurations"></a>获取所需的 ER 配置

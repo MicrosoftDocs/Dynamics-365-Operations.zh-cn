@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d461b85f89eff63c8747fb17b3ee34ebfeb2218
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79e12f39589f9cf3f4b1515fa3ab10bb10ffb97f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185627"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770351"
 ---
 # <a name="project-management-and-accounting-overview"></a>项目管理与核算概览
 
@@ -72,7 +72,7 @@ ms.locfileid: "2185627"
 
 WBS 中详细信息的级别取决于评估中需要的准确性等级和这些评估需要的跟踪级别。 对计划或成本偏差的容忍度非常低的项目通常需要更详细的 WBS，还需要针对 WBS 积极跟进工作进度和成本。 
 
-有关详细信息，请参阅[工作分解结构](work-breakdown-structures.md)。
+有关详细信息，请参阅[工作分解结构概述](work-breakdown-structures.md)。
 
 ### <a name="create-project-forecasts-and-budgets"></a>创建项目预测及预算
 
@@ -134,7 +134,7 @@ WBS 中详细信息的级别取决于评估中需要的准确性等级和这些�
 
 WBS 是将为项目完成的工作的描述。 WBS 是任务的层次结构。 它不仅表示每个任务的工作，还表示该任务的规模、成本和持续时间。 
 
-有关详细信息，请参阅[工作分解结构](work-breakdown-structures.md)。
+有关详细信息，请参阅[工作分解结构概述](work-breakdown-structures.md)。
 
 ### <a name="manage-project-forecasts-and-budgets"></a>管理项目预测和预算
 

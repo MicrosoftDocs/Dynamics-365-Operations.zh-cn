@@ -1,6 +1,6 @@
 ---
-title: 在 Attract 中创建流程模板
-description: 此主题提供有关如何在 Attract 中创建流程模板的信息。
+title: 在 Attract 中创建招聘流程模板
+description: 此主题提供有关如何在 Attract 中创建招聘流程模板的信息。
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/15/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 533b9abd3d57c5bf8f3d9da85020c86012436f2f
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 82046d43cf7366b760c140bdb8b017337b4f41da
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622710"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832550"
 ---
-# <a name="create-a-process-template-in-attract"></a>在 Attract 中创建流程模板
+# <a name="create-a-hiring-process-template-in-attract"></a>在 Attract 中创建招聘流程模板
 
 [!include [banner](includes/banner.md)]
 
@@ -48,7 +48,7 @@ ms.locfileid: "2622710"
 > [!NOTE]
 > 阶段名称对**申请状态**页上的应聘者可见。 在您为阶段选择名称时应考虑此事实。
 
-若要了解有关活动的详细信息，请参阅 [Attract 中的招聘流程活动](./activities-attract.md)。
+若要了解有关活动的详细信息，请参阅[招聘流程中的活动](./activities-attract.md)。
 
 请执行以下步骤创建招聘流程模板。
 

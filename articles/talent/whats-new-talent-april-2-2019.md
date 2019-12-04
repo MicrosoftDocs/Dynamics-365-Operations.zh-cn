@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 86d81d60fcbc77375f3b8c525e8c084e3a3d8a99
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026063"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773685"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Dynamics 365 Talent（2019 年 4 月 2 日）中的新增功能或更改
 
@@ -63,7 +63,7 @@ ms.locfileid: "2026063"
 在许多组织中，薪酬和福利经理可能只能访问特定薪酬记录。 其中可能包含有关管理层或地区员工的记录。 此更改让 HR 可以管理和维护组织中不同员工组的薪酬计划。 可以为固定计划和可变计划分配安全角色。 这些安全角色决定计划和相关员工数据（如工资或福利记录）的访问权限，因此只有这些角色可以处理员工组的薪酬。
 
 ### <a name="upgrade-to-common-data-service"></a>升级到 Common Data Service
-很快将到达 Common Data Service 的升级截止时间。 请登录 PowerApps 管理员中心以确定是否需要升级您的数据库。 有关截止时间和必要升级步骤的详细信息，请参阅[升级到 Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds)。
+很快将到达 Common Data Service 的升级截止时间。 请登录 Microsoft Power Apps 管理员中心以确定是否需要升级您的数据库。 有关截止时间和必要升级步骤的详细信息，请参阅[升级到 Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds)。
 
 ## <a name="in-preview"></a>预览模式
 

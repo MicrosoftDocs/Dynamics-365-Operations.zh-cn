@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
+ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -15,18 +16,18 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: ''
+ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 05dee1efc4e817795824e3fa1c41093d48a97d78
-ms.sourcegitcommit: 219a73371638a9a4c6076d4c88b95fb2ebe95b00
+ms.openlocfilehash: 0a2fa6a7f6efef05862a3727a80122c22d591487
+ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2652609"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "2824512"
 ---
 # <a name="business-document-management-overview"></a>业务文档管理概览
 
-业务用户使用[电子申报 (ER) 框架](general-electronic-reporting.md)根据各个国家/地区的法律要求配置传出文档的格式。 用户也可以定义数据流，以便指定在生成的文档中放置哪些数据。 ER 框架使用预定义的模板生成 Microsoft Office 格式（Excel 工作簿或 Word 文档）格式的传出文档。 将根据生成所需文档时配置的数据流使用必需数据填充模板。 可以在 ER 解决方案中发布配置的每种格式，以便生成特定传出文档。 这通过 ER 格式配置表示，其中可包含可用于生成不同传出文档的模板。 业务用户可使用此框架管理所需业务文档。
+业务用户使用[电子申报 (ER) 概述](general-electronic-reporting.md)根据各个国家/地区的法律要求配置传出文档的格式。 用户也可以定义数据流，以便指定在生成的文档中放置哪些数据。 ER 框架使用预定义的模板生成 Microsoft Office 格式（Excel 工作簿或 Word 文档）格式的传出文档。 将根据生成所需文档时配置的数据流使用必需数据填充模板。 可以在 ER 解决方案中发布配置的每种格式，以便生成特定传出文档。 这通过 ER 格式配置表示，其中可包含可用于生成不同传出文档的模板。 业务用户可使用此框架管理所需业务文档。
 
 **业务文档管理**建立在 ER 框架的基础上，可供业务用户使用 Microsoft Office 365 服务或相应 Microsoft Office 桌面应用程序编辑业务文档模板。 对此类文档的编辑包括在不执行源代码更改和不进行新部署的情况下，更改业务文档设计和为更多数据添加占位符。 若要更新业务文档模板，无需了解 ER 框架。
 
@@ -58,21 +59,17 @@ ms.locfileid: "2652609"
 
 将支持更多报告。 将单独发送有关更多报告的特殊通知。 
 
-[Word 和 Excel 中的可配置业务文档报告](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details)中提供了为 2019 年 10 月发行版规划的所有报告的完整列表。
-
-# <a name="example-enable-configure-and-use-business-document-management"></a>示例：启用，配置和使用业务文档管理
-
-若要了解有关此功能的详细信息，请完成本主题中的示例。
+[Word 和 Excel 中的可配置业务文档报告](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details)中提供了为 2019 年 10 月发行版规划的所有报告的完整列表。 若要了解有关此功能的详细信息，请完成本主题中的示例。
 
 ## <a name="configure-er-parameters"></a>配置 ER 参数
 
-因为业务文档管理建立在 ER 框架的基础上，所以必须配置 ER 参数，才能开始使用业务文档管理。 为此，需要按照[配置 ER 框架](electronic-reporting-er-configure-parameters.md)中的说明设置 ER 参数。 还需要按照[创建配置提供商并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)中的说明添加新的配置提供商。
+因为业务文档管理建立在 ER 框架的基础上，所以必须配置 ER 参数，才能开始使用业务文档管理。 为此，需要按照[配置电子报告 (ER) 框架](electronic-reporting-er-configure-parameters.md)中的说明设置 ER 参数。 还需要按照[创建配置提供商并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)中的说明添加新的配置提供商。
 
 ![ER 工作区](./media/BDM-Overview-ERSetting.png)
 
 ## <a name="import-er-solutions"></a>导入 ER 解决方案
 
-必须将包含业务文档模板的 ER 配置导入到当前实例。 下载以下文件并存储在本地，以完成此过程。
+在此过程的示例中使用了示例 ER 配置。 您必须将包含业务文档模板的 ER 配置导入到 Dynamics 365 Finance 的当前实例中，模板可以使用业务文档管理进行编辑。 下载以下文件，然后存储在本地，以完成此过程。
 
 **示例 ER 客户开票解决方案**
 
@@ -105,7 +102,13 @@ ms.locfileid: "2652609"
 
 ![ER 配置页](./media/BDM-Overview-ERSolutions.png)
 
+
+或者，您可以从 Microsoft Dynamics Lifecycle Service (LCS) 导入正式发布的 ER 格式配置。 例如，要完成此过程，您可以导入**普通发票(Excel)** ER 格式配置的最新版本。 相应的 ER 数据模型和 ER 模型映射配置将自动导入。
+
+![LCS 共享资产库内容页面](./media/BDM-Overview-SharedAssetLibrary.png)
+
 有关导入 ER 配置的详细信息，请参阅[管理 ER 配置生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)。
+
 
 ## <a name="enable-business-document-management"></a>启用业务文档管理
 
@@ -118,9 +121,12 @@ ms.locfileid: "2652609"
 3. 选择**立即启用**以打开所选功能。
 4. 刷新页面以访问新功能。
 
+>[!NOTE]
+> 另外，您需要启用**类似于 Office 的业务文档管理 UI 体验**，以使用新的业务文档管理界面
+
 ![“功能管理”工作区](./media/BDM-Overview-FMEnabling.png)
 
-有关激活新功能的详细信息，请参阅[功能管理概述](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)。
+有关激活新功能的详细信息，请参阅[功能管理概述](../../fin-ops/get-started/feature-management/feature-management-overview.md)。
 
 ## <a name="configure-parameters"></a>配置参数
 
@@ -137,7 +143,7 @@ ms.locfileid: "2652609"
 | 组合               | 文件                  |
 | 场所            | SharePoint            |
 
-有关如何设置必需文档管理参数和文档类型的信息，请参阅[配置文档管理](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management)。
+有关如何设置必需文档管理参数和文档类型的信息，请参阅[配置文档管理](../../fin-ops/organization-administration/configure-document-management.md)。
 
 ![设置文档管理文档类型](./media/BDM-Overview-DMSetting.png)
 
@@ -179,21 +185,21 @@ ms.locfileid: "2652609"
 1. 以具有**访问权限配置器**页面访问权限的用户的身份登录。
 2. 转到**组织管理** \> **电子申报** \> **业务文档管理** \> **管理访问权限**。
 
-请注意有关当前未启用业务文档管理访问权限的使用的通知。
+    请注意有关当前未启用业务文档管理访问权限的使用的通知。
 
-![“业务文档管理访问权限配置器”页面](./media/BDM-Overview-TemplatesAccess1.png)
+    ![“业务文档管理访问权限配置器”页面](./media/BDM-Overview-TemplatesAccess1.png)
 
-通过此设置，已为其分配了为执行**管理业务文档模板**（AOT 名称为 **ERBDManageTemplates**）职责而配置的任何安全角色的每位用户都可以打开业务文档管理工作区，并可编辑所有可用模板。
+    通过此设置，已为其分配了为执行**管理业务文档模板**（AOT 名称为 **ERBDManageTemplates**）职责而配置的任何安全角色的每位用户都可以打开业务文档管理工作区，并可编辑所有可用模板。
 
-下图显示业务文档管理工作区中为其分配了**应收帐款员**角色的用户的可用模板。 通过使用当前访问权限设置，用户可从不同功能区（包括开票、法规报告和付款）编辑业务文档模板。
+    下图显示业务文档管理工作区中为其分配了**应收帐款员**角色的用户的可用模板。 通过使用当前访问权限设置，用户可从不同功能区（包括开票、法规报告和付款）编辑业务文档模板。
 
-![业务文档管理工作区页](./media/BDM-Overview-TemplatesForAlice1.png)
+    ![业务文档管理工作区页](./media/BDM-Overview-TemplatesForAlice1.png)
 
 3. 在**访问权限配置器**页，选择**访问权限设置**。
 4. 在**用于编辑模板的访问权限的设置**对话框中，启用**应用已配置的访问权限**选项。
 5. 选择**确定**以确认已启用业务文档管理访问权限。
 
-![“配置业务文档管理访问权限”页面](./media/BDM-Overview-TemplatesAccess2.png)
+    ![“配置业务文档管理访问权限”页面](./media/BDM-Overview-TemplatesAccess2.png)
 
 6. 选择**添加**以输入必须要为其配置用于访问业务文档管理模板的权限的新业务角色。
 7. 在**安全角色**对话框中，选择**应收帐款员**角色，然后选择**确定**以确认选择的角色。
@@ -201,11 +207,11 @@ ms.locfileid: "2652609"
 9. 在**标记类型**字段中，选择**功能区**，然后在 **ID** 字段中选择**开票**。
 10. 选择**保存**以存储为所选角色配置的访问权限。
 
-  当前设置意味着对于为其分配了**应收帐款员**角色且正在执行**管理业务文档模板**（AOT 名称为 **ERBDManageTemplates**）职责的任何用户，可在业务文档管理工作区中编辑**功能区**标记值为**开票**的 ER 格式配置模板。
+    当前设置意味着对于为其分配了**应收帐款员**角色且正在执行**管理业务文档模板**（AOT 名称为 **ERBDManageTemplates**）职责的任何用户，可在业务文档管理工作区中编辑**功能区**标记值为**开票**的 ER 格式配置模板。
 
 11. 从当前页右侧切换**相关信息**窗格。 **相关信息**窗格显示如何应用配置的访问权限，包括为其分配了**应收帐款员**角色的用户可使用哪些 ER 配置模板。
 
-![“配置业务文档管理访问权限”页面](./media/BDM-Overview-TemplatesAccess3.png)
+    ![“配置业务文档管理访问权限”页面](./media/BDM-Overview-TemplatesAccess3.png)
 
 12. 在**每个配置的访问权限**选项卡上，选择**添加**选项。
 13. 在**选择配置**对话框中，标记**内部统计报表** ER 格式配置。
@@ -252,21 +258,31 @@ ms.locfileid: "2652609"
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>开始编辑其他提供商负责的模板
 
-1. 在业务文档管理工作区中，选择列表中的 **Customer FTI report (GER)** 模板。
-2. 选择**详细信息**选项卡。
+1. 在业务文档管理工作区中，选择**新建文档**。
 
-![业务文档管理工作区页](./media/BDM-Overview-EditingTemplate3.png)
+![业务文档管理工作区页](./media/BDM_overview_new_template1.png)
 
-将为所选模板提供**新建文档**选项。 另一个提供商（此示例中为 **Microsoft**）提供的 ER 格式配置中的模板始终可使用此选项。 选择**新建文档**之后，将提供新模板供您编辑。 然后将把编辑后的模板存储在自动生成的新 ER 格式配置中。
+2. 选择您要用作模板的文档。
+
+![业务文档管理工作区页](./media/BDM_overview_new_template2.png)
+
+3. 单击**创建文档**
+4. 如果需要，在**标题**字段中更改可编辑模板的标题。 将把此文本用于命名自动创建的 ER 格式配置。 请注意，将自动标记此配置 (**Customer FTI report (GER) Copy**) 的草稿版本（其中将包含编辑后的模板），以便为当前用户运行此 ER 格式。 同时，将使用来自基本 ER 格式配置的未经修改原始模板为其他任何用户运行此 ER 格式。
+5. 在**名称**字段中，更改将自动创建的可编辑模板第一个修订的名称。
+6. 在**注释**字段中，更改自动创建的可编辑模板修订的注解。
+7. 选择**确定**以确认开始执行编辑流程
+
+![业务文档管理工作区页](./media/BDM_overview_new_template3.png)
+
+另一个提供商（此示例中为 Microsoft）提供的 ER 格式配置中的模板始终可使用**新建文档**选项。 当您单击**新建文档**时，您会看到当前提供商和其他提供商拥有的所有模板。 选择模板后，将打开它进行编辑。 然后将把编辑后的模板存储在自动生成的新 ER 格式配置中。
 
 ### <a name="start-editing-a-template"></a>开始编辑模板
 
-1. 从所选模板选择**新建文档**。
-2. 如果需要，在**标题**字段中更改可编辑模板的标题。 将把此文本用于命名自动创建的 ER 格式配置。 请注意，将自动标记此配置 (**Customer FTI report (GER) Copy**) 的草稿版本（其中将包含编辑后的模板），以便为当前用户运行此 ER 格式。 同时，将使用来自基本 ER 格式配置的未经修改原始模板为其他任何用户运行此 ER 格式。
-3. 在**名称**字段中，更改将自动创建的可编辑模板第一个修订的名称。
-4. 在**注释**字段中，更改自动创建的可编辑模板修订的注解。
+1. 从所选模板选择**编辑文档**。
+2. 在**名称**字段中，更改将自动创建的可编辑模板第一个修订的名称。
+3. 在**注释**字段中，更改自动创建的可编辑模板修订的注解。
 
-![业务文档管理工作区页](./media/BDM-Overview-EditingTemplate4.png)
+    ![业务文档管理工作区页](./media/BDM_overview_new_template4.png)
 
 5. 选择**确定**以确认开始执行编辑流程。
 
@@ -285,15 +301,15 @@ ms.locfileid: "2652609"
 1. 选择**在桌面应用程序中打开**选项，以便使用 Office 桌面应用程序的功能（此示例中为 Excel）修改模板。 将把可编辑模板从永久存储复制到业务文档管理参数中配置为 SharePoint 文件夹的临时存储。
 2. 确认要在 Office 桌面的 Excel 应用程序中从临时文件存储打开模板。
 
-![业务文档管理工作区页](./media/BDM-Overview-EditingLayout3.png)
+    ![业务文档管理工作区页](./media/BDM-Overview-EditingLayout3.png)
 
 3. 修改模板。 例如，通过将颜色从**黑色**更改为**蓝色**，更改模板标题中的字段提示的字体。
 
-![业务文档管理模板编辑器页面](./media/BDM-Overview-EditingLayout4.png)
+    ![业务文档管理模板编辑器页面](./media/BDM-Overview-EditingLayout4.png)
 
 4. 在 Excel 桌面应用程序中选择**保存**以将模板更改存储到临时存储中。
 
-![业务文档管理模板编辑器页面](./media/BDM-Overview-EditingLayout5.png)
+    ![业务文档管理模板编辑器页面](./media/BDM-Overview-EditingLayout5.png)
 
 5. 关闭 Excel 桌面应用程序。
 6. 选择**同步已存储副本**将临时模板存储同步到永久模板存储。
@@ -307,7 +323,7 @@ ms.locfileid: "2652609"
 2. 选择**显示格式**以查看基本 ER 格式配置中必须与可编辑模板一致的当前格式结构。 
 3. 选择**隐藏格式**以关闭窗格。
 
-![BDM 模板编辑器页面](./media/BDM-Overview-EditingTemplate6.png)
+    ![BDM 模板编辑器页面](./media/BDM-Overview-EditingTemplate6.png)
 
 4. 关闭 **BDM 模板编辑器**页。
 
@@ -323,7 +339,7 @@ ms.locfileid: "2652609"
 4. 选择**模块 - 应收帐款** \> **文档** \> **普通发票** \> **原始凭证**级别以指定要处理的发票范围。
 5. 在**报表格式**字段中，为指定的文档级别选择 **Customer FTI report (GER) Copy** ER 格式。
 
-![打印管理设置页](./media/BDM-Overview-TestRun1.png)
+    ![打印管理设置页](./media/BDM-Overview-TestRun1.png)
 
 6. 按 **Escape** 关闭当前页。
 7. 选择**打印**，然后单击**已选择**。
@@ -340,9 +356,9 @@ ms.locfileid: "2652609"
 3. 如果需要，在**名称**字段中，更改第二个修订的名称，并以当前第一个有效修订为基础。
 4. 如果需要，在**注释**字段中，更改自动创建的可编辑模板修订的注解。
 
-![业务文档管理工作区页](./media/BDM-Overview-AddRevision.png)
+    ![业务文档管理工作区页](./media/BDM-Overview-AddRevision.png)
 
-您创建了永久模板存储中已存储的模板的新修订。 现在可以继续编辑当前选择为活动的第二个修订的模板。
+    您创建了永久模板存储中已存储的模板的新修订。 现在可以继续编辑当前选择为活动的第二个修订的模板。
 
 5. 选择第一个修订，然后选择**设置有效**。 任何时候如果要返回为模板的另一个修订，可选择此修订为有效。
 6. 选择第二个修订，然后选择**删除**。
@@ -370,7 +386,7 @@ ms.locfileid: "2652609"
 
 ## <a name="frequently-asked-questions"></a>常见问题
 
-#### <a name="i-selected-new-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>我选择了**新建文档**，但是结果不是在 Finance and Operations 中打开 **BDM 模板编辑器**页，而是转到了 Office 365 网页。
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>我选择了**编辑文档**，但是结果不是在 Finance and Operations 中打开 **BDM 模板编辑器**页，而是转到了 Office 365 网页。
 这是 Office 365 重定向的已知问题。 首次登录 Office 365 时会出现此情况。 若要解决此问题，请选择浏览器的**后退**按钮返回。
 
 #### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>我知道如何在第一个应用程序会话中通过使用 Office 365 编辑模板，以及如何在第二个应用程序会话中使用模板，并调整模板来查看我的更改对生成的业务文档有何影响。 我可以使用 Office 桌面应用程序执行此操作吗？
@@ -386,12 +402,12 @@ ms.locfileid: "2652609"
 
 ## <a name="additional-resources"></a>其他资源
 
-[电子报告概览](general-electronic-reporting.md)
+[电子申报 (ER) 概览](general-electronic-reporting.md)
 
-[设计以 OPENXML 格式生成报表的配置](tasks/er-design-reports-openxml-2016-11.md)
+[ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）](tasks/er-design-reports-openxml-2016-11.md)
 
 [设计 ER 配置以生成 Word 格式的报表](tasks/er-design-configuration-word-2016-11.md)
 
 [使用 ER 在您生成的文档中嵌入图像和形状](electronic-reporting-embed-images-shapes.md)
 
-[配置电子报告以便将数据导入 Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+[配置电子申报 (ER) 以便将数据导入 Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)

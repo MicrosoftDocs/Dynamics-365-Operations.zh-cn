@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4675ad83d5e569f2286ce667acd59ed294dc5d82
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bd60f5ca469fcf7184a5f8d2dc68629640709f51
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552245"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813124"
 ---
 # <a name="create-service-objects"></a>创建服务对象  
 
@@ -39,7 +39,7 @@ ms.locfileid: "1552245"
 
 ## <a name="related-topics"></a>相关主题
 
-[服务对象](service-objects.md)
+[服务对象概览](service-objects.md)
 
 
 

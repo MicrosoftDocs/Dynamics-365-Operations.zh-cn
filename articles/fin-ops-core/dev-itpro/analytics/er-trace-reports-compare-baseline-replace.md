@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: 45c0e3b569ca733ae3b70187633d2e84db5ecd87
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578210"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771158"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>对跟踪所生成 ER 报表结果并与基准值比较的改进
 
@@ -113,14 +113,14 @@ ms.locfileid: "2578210"
 13. 选择**保存**，然后选择**测试**。
 14. 再次选择**测试**重新测试配置的表达式。
 
-    ![“公式设计器”页](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "“公式设计器”页的屏幕截图")
+    ![公式设计器页](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "“公式设计器”页的屏幕截图")
 
     > [!NOTE]
     > **测试结果**选项卡显示配置的表达式只要被调用，都会返回不同的日期和时间值。
 
 15. 关闭**公式设计器**页，然后选择**保存**。
 
-    ![“格式设计器”页](media/GER-BaselineSample-FormatMappingDesign2.PNG "“格式设计器”页的屏幕截图")
+    ![“格式设计器”页面](media/GER-BaselineSample-FormatMappingDesign2.PNG "“格式设计器”页的屏幕截图")
 
 16. 关闭**格式设计器**页。
 
@@ -195,7 +195,7 @@ ms.locfileid: "2578210"
 
 若要从本地存储的 XML 文件导入基准设置，请在**电子申报格式基准**页上选择**导入**，然后选择**浏览**以选择该 XML 文件。
 
-![“导入基准设置”对话框](media/GER-BaselineSample-ImportBaseline1.PNG "“导入基准设置”对话框的屏幕截图")
+![导入基线设置对话框](media/GER-BaselineSample-ImportBaseline1.PNG "“导入基准设置”对话框的屏幕截图")
 
 若要基于当前文档管理设置和所选文档类型从 Microsoft SharePoint Server 中存储的 XML 文件导入基准设置，请在**电子申报格式基准**页上选择**从来源导入**。 然后选择文档类型和 XML 文件。 必须提前配置访问 SharePoint 文件夹所需文档类型。
 
@@ -206,5 +206,5 @@ ms.locfileid: "2578210"
 
 ## <a name="additional-resources"></a>其他资源
 
-- [跟踪生成的报表结果并将其与基准值进行比较。](er-trace-reports-compare-baseline.md)
-- [任务录制器](../user-interface/task-recorder.md)
+- [跟踪生成的报表结果并将其与基准值进行比较](er-trace-reports-compare-baseline.md)
+- [任务录制器资源](../user-interface/task-recorder.md)

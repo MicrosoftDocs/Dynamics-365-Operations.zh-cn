@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a4759f55eceba923b47d906a764edcad34bf2f2
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 80236da5220aa9c70d5c488c09b457a470f0225a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571591"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811841"
 ---
 # <a name="create-an-asset"></a>创建资产
 
@@ -39,12 +39,12 @@ ms.locfileid: "2571591"
 4. 在**资产类型**字段中，选择资产的资产类型（必填字段）。 如果需要，为资产选择**资产制造商**和**资产模型**。 如果仅设置了一个产品，则将在**资产制造商**字段中自动选择该产品。 **资产制造商**和**资产模型**字段中可供选择的选项取决于[资产制造商和模型](../setup-for-objects/product-and-model.md)中的设置。
 5. 在**父资产**组中，**资产**字段默认为空。 如果需要，可以选择父资产，然后，将自动填写**父资产**组中的所有字段。
 >[!NOTE]  
->选择父资产时，有两个或三个选项卡可用：**我的资产**选项卡中包含与可能将您（即已登录系统的维护工人）分配给的功能位置关联的资产。 如果未在[维护工人](../setup-for-objects/workers-and-worker-groups.md)窗体中为维护工人设置任何功能位置，则不显示**我的资产**选项卡。 **有效资产**选项卡中包含资产生命周期状态为“有效”的所有资产的列表。 **资产视图**选项卡显示功能位置及其中安装的资产的树视图。
+>选择父资产时，有两个或三个选项卡可用：**我的资产**选项卡中包含与可能将您（即已登录系统的维护工人）分配给的功能位置关联的资产。 如果未在[维护工人和工作人员组](../setup-for-objects/workers-and-worker-groups.md)窗体中为维护工人设置任何功能位置，则不显示**我的资产**选项卡。 **有效资产**选项卡中包含资产生命周期状态为“有效”的所有资产的列表。 **资产视图**选项卡显示功能位置及其中安装的资产的树视图。
 
 6. 将在**资产**组 > **功能位置**字段中为资产推荐您设置的默认功能位置。 如果需要，选择其他功能位置。
 
 >[!NOTE]
->如果需要，可以在创建资产之后将其安装到其他功能位置。 只能在功能位置安装顶级资产（即当前无父资产的资产）。 这表示在所选功能位置安装顶级资产和任何子资产。 请阅读[功能位置](../functional-locations/introduction-to-functional-locations.md)中有关在功能位置安装资产的详细信息。
+>如果需要，可以在创建资产之后将其安装到其他功能位置。 只能在功能位置安装顶级资产（即当前无父资产的资产）。 这表示在所选功能位置安装顶级资产和任何子资产。 请阅读[功能位置简介](../functional-locations/introduction-to-functional-locations.md)中有关在功能位置安装资产的详细信息。
 
 7. 单击 **确定**。
 8. 在**所有资产**列表中选择资产，然后单击**编辑**按钮向资产添加更多信息。
@@ -59,7 +59,7 @@ ms.locfileid: "2571591"
 
 **注意：** 如果资产设置为“无效”，则不再可以为该资产创建工作订单。 此外，也不能为无效资产计划预防性维护。
 
-**服务级别**和**关键性**字段与为资产创建的工作订单关联。 这些字段显示为资产的当前设置计算的**服务级别**和**关键性**数量。 有关设置这些值的信息，请参阅[资产服务级别](../setup-for-objects/object-priorities.md)和[资产关键性](../setup-for-objects/object-criticalities.md)。
+**服务级别**和**关键性**字段与为资产创建的工作订单关联。 这些字段显示为资产的当前设置计算的**服务级别**和**关键性**数量。 有关设置这些值的信息，请参阅[资产服务级别](../setup-for-objects/object-priorities.md)和[资产关键性类型](../setup-for-objects/object-criticalities.md)。
 
 ## <a name="asset"></a>资产
 

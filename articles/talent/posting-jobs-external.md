@@ -1,6 +1,6 @@
 ---
-title: 将工作从 Attract 发布到外部求职站点
-description: 本主题介绍如何使用 Dynamics 365 Talent - Attract 将工作发布到外部招聘站点
+title: 将工作从 Attract 发布到 Broadbean
+description: 本主题说明如何使用 Dynamics 365 Talent - Attract 将工作发布到 Broadbean
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 2c822a1f799144bb9240fc0cbdeb6c5441e278af
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 41fa057606887069a9ea0f1f2178eeaff59f33ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551395"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832626"
 ---
-# <a name="post-jobs-to-external-career-sites-from-attract"></a>将工作从 Attract 发布到外部求职站点
+# <a name="post-jobs-to-broadbean-from-attract"></a>将工作从 Attract 发布到 Broadbean
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract 允许您将工作直接从 Attract 发布到 Broadbean，从而帮助您获得所需的人才。 [创建工作](./creating-jobs-attract.md)后，您只需单击一个按钮即可将您的工作放在 Broadbean 上所有潜在应聘者的面前。
 
 将工作发布到 Broadbean 需要相应的 Broadbean 许可证。 Broadbean 提供各种产品和计划。 有关 Broadbean 许可和定价的详细信息，请[联系 Broadbean](https://www.broadbean.com/contact-us/)。
 
-如果您是需要有关如何通过 Attract 配置 Broadbean 集成的更多信息的管理员，请参阅[输入外部招聘网站的设置](./attract-admin-job-board-settings.md)。
+如果您是需要有关如何使用 Attract 配置 Broadbean 集成的更多信息的管理员，请参阅[在 Microsoft Dynamics 365 Talent - Attract 中启用 Broadbean 集成](./attract-admin-job-board-settings.md)。
 
 ## <a name="post-jobs-to-broadbean"></a>将职位发布至 Broadbean
 
@@ -74,7 +74,7 @@ Broadbean 成功完成发布之后，Attract 中工作的**发布**部分将把 
 2. 在**发布**部分中，选择与 Broadbean 对应的**更新发布**按钮。
 3. 在 Broadbean 窗口中编辑发布。
 
-–或者–
+    –或者–
 
 1. 在 Attract 中，打开要在 Broadbean 中查看的工作。
 2. 在**发布**部分中，选择与 Broadbean 对应的省略号按钮 (**...**)，然后选择**查看**。
@@ -99,6 +99,6 @@ Broadbean 删除工作之后，Attract 中的 Broadbean 项将带有**立即发�
 
 ## <a name="see-also"></a>请参阅
 
-[创建工作](./creating-jobs-attract.md)
+[在 Attract 中创建、审核和发布工作](./creating-jobs-attract.md)
 
-[输入外部招聘网站的设置](./attract-admin-job-board-settings.md)
+[在 Microsoft Dynamics 365 Talent - Attract 中启用 Broadbean 集成](./attract-admin-job-board-settings.md)

@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 3110cb809558d168e9d97f640701b249caf73f6c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cf444ef1192fed3a6a49282da37374dd8c443356
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184500"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769629"
 ---
 # <a name="execution-order-for-initial-synchronization-of-finance-and-operations-apps-and-common-data-service"></a>Finance and Operations 应用和 Common Data Service 的初始同步执行顺序
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 使用数据集成之前，必须创建客户、供应商和联系人所需的初始数据。 例如，希望创建新的**供应商组**项，然后将其**付款期限**值设置为 **Net30**。 在此情况下，尝试创建**供应商组**项之前，必须确保应用程序和 Common Data Service 中都有 **Net30**。 （将来，Microsoft 将发布双写入平台功能，称为“初始同步”。该功能将在执行双写入设置期间执行应用程序与 Common Data Service 之间的一次性数据同步。）
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: f7d2cfb8e58221004ae5662aae3850adc577dc88
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 6e2eafc6785aaf9bc7421bc80c90fa4a7f98a2d4
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570302"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2693012"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>销售订单上的收入确认
 
@@ -62,7 +62,7 @@ ms.locfileid: "2570302"
 
 前三个按钮提供用于收入确认的销售订单设置中有关物料收入价格的详细信息。
 
-- **收入价格分配** - 在确认销售订单或过帐发票之后，此按钮将变得可用。 销售订单确认和发票过帐都将计算收入，以确认将在会计分录中确认或延期的价格。 根据该设置，计算出的收入价格可能不同于对客户显示的单位价格。
+- **收入价格分配** - 在确认销售订单或过帐发票之后，此按钮将变得可用。 销售订单确认和发票过帐都将计算收入，以确认将在会计条目中确认或延期的价格。 根据该设置，计算出的收入价格可能不同于对客户显示的单位价格。
 - **使用新订单行重新分配价格** - 在确认销售订单或过帐发票之后，此按钮将变得可用。 开票后将新行添加到当前销售订单或添加到新销售订单之后，重新分配过程用于重新计算必须确认的收入。 在这两种方案中，添加新物料都会导致合同发生变化。 因此，必须重新分配收入价格。
 - **更新收入价格分配** - 确认销售订单之后，此按钮将变得可用，但在对销售订单开票之后，它将变得不可用。 该更新用于重新运行收入价格分配，而无需确认销售订单。 在对销售订单开票后，无法重新计算收入价格。
 

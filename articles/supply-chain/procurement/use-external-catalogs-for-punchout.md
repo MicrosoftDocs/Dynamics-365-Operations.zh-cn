@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0734db6f777de2bcd6ea024c9255f589c155e44f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec2874fb21184ccbf4f7039acf20db399e5cf5fb
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569814"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813331"
 ---
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>针对电子采购发包使用外部目录
 
@@ -41,7 +41,7 @@ ms.locfileid: "1569814"
 
 根据您的权限，更改申请者、购买法人和接收运营单位。 更改这些值可能会更改对申请者可用的外部目录的列表。 可用的外部目录取决于购买法人或接收运营单位的当前有效的采购策略。 这些策略可以允许或阻止访问特定采购类别。 因此，映射到这些采购类别的外部目录的列表可能受到影响。
 
-有关策略的详细信息，请参阅 [采购策略](../procurement/purchase-policies.md)。
+有关策略的详细信息，请参阅[采购策略概述](../procurement/purchase-policies.md)。
 
 - 若要查找特定采购类别的外部目录，请在目录搜索字段输入文本。
 - 若要添加来自供应商网站上的供应商外部目录的产品，请单击外部目录。 然后将产品添加到购物车，再签出。购物车行将转移到 Microsoft Dynamics 365。

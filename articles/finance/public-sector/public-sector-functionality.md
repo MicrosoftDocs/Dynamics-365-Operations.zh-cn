@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5493c46183e7b599e82153f5b3ac36c81faa4955
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f850b28c4d6ed6ce13438f4de87ef0c04065c7f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174688"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770225"
 ---
 # <a name="public-sector-home-page"></a>公共部门主页
 
@@ -42,13 +42,13 @@ ms.locfileid: "2174688"
 
   有关详细信息，请参阅以下主题：
 
-- [公共部门职能规划](plan-public-sector-functionality.md)
-- [公共部门中的应付帐款](accounts-payable-public-sector.md)
-- [公共部门中的应收帐款](accounts-receivable-public-sector.md)
-- [公共部门中的预算编制](budgeting-public-sector.md)
+- [计划公共部门功能](plan-public-sector-functionality.md)
+- [公共部门中的应付帐款概览](accounts-payable-public-sector.md)
+- [公共部门中的应收帐款概览](accounts-receivable-public-sector.md)
+- [公共部门中的预算编制概览](budgeting-public-sector.md)
 - [公共部门中的固定资产](fixed-asset-public-sector.md)
-- [法国监管功能](../localizations/emea-fra-public-sector-accounting.md)
-- [公共部门中的总帐](general-ledger-public-sector.md)
+- [法国公共部门会计](../localizations/emea-fra-public-sector-accounting.md)
+- [公共部门中的总帐概览](general-ledger-public-sector.md)
 - [公共部门中的采购](procurement-sourcing-public-sector.md)
 - [公共部门中的安全角色](security-roles-public-sector.md)
 
@@ -70,7 +70,7 @@ ms.locfileid: "2174688"
 <a name="additional-resources"></a>其他资源
 --------
 
-[公共部门职能规划](plan-public-sector-functionality.md)
+[计划公共部门功能](plan-public-sector-functionality.md)
 
 
 

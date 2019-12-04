@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43700d68587cebfb4f897c8a5b619dd4771cc439
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e55ab83302cc75b1a9d9d3e4f06d2258697b31fc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181304"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771206"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>电子申报中 (ER) 的配方设计器
 
@@ -773,9 +773,9 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 
 ### <a name="functions-list-extension"></a>函数的列表扩展
 
-ER 允许您扩展 ER 表达式中使用的函数列表的功能。 需要执行一些工程工作。 有关详细信息，请参阅[扩展电子申报查询功能的列表](general-electronic-reporting-formulas-list-extension.md)。
+ER 允许您扩展 ER 表达式中使用的函数列表的功能。 需要执行一些工程工作。 有关详细信息，请参阅[扩展电子申报 (ER) 功能的列表](general-electronic-reporting-formulas-list-extension.md)。
 
 ## <a name="additional-resources"></a>其他资源
 
-- [电子申报概览](general-electronic-reporting.md)
+- [电子申报 (ER) 概览](general-electronic-reporting.md)
 - [扩展电子申报 (ER) 功能的列表](general-electronic-reporting-formulas-list-extension.md)

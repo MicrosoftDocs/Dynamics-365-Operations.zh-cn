@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0714314b68651e4b96f83d1073c4e35f5b27b013
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b4cad11bcd1b1674055a07b5093093e33d3ac556
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551625"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771791"
 ---
 # <a name="general-ledger-and-financial-reporting-overview"></a>总帐和财务报表概览
 
@@ -55,7 +55,7 @@ ms.locfileid: "2551625"
 
 #### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转至 [Microsoft Dynamics 365 发行说明](https://go.microsoft.com/fwlink/?linkid=2010158)查看已规划了哪些新功能。 
+转到 [Microsoft Dynamics 365 发布计划](https://go.microsoft.com/fwlink/?linkid=2010158)，了解已经规划了哪些新功能。 
 
 #### <a name="blogs"></a>博客
 

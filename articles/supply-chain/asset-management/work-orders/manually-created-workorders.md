@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a8494bdefcf11dc331be18bfe02e0df1e39d602
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 2652458a5fea9e46b8b68d3b197d2ccb1385731d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626239"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811727"
 ---
 # <a name="manually-created-work-orders"></a>手动创建的工作订单
 
@@ -70,7 +70,7 @@ ms.locfileid: "2626239"
 
 - 在**所有工作订单**列表页的详细信息视图中，可以向工作订单添加多个资产，方法是在**工作订单维护作业**快速选项卡上添加行。 对于资产，您只能选择对为该资产选择的资产类型定义的维护作业类型。  
 
-- 如果在工作订单中使用资产后更改了资产服务级别或资产关键性，将不会相应更新工作订单中的服务级别或关键性。 有关服务级别和关键性的详细信息，请参阅[资产服务级别](../setup-for-objects/object-priorities.md)和[资产关键性](../setup-for-objects/object-criticalities.md)。
+- 如果在工作订单中使用资产后更改了资产服务级别或资产关键性，将不会相应更新工作订单中的服务级别或关键性。 有关服务级别和关键性的详细信息，请参阅[资产服务级别](../setup-for-objects/object-priorities.md)和[资产关键性类型](../setup-for-objects/object-criticalities.md)。
 
 - 只要在工作订单中添加或删除工作订单作业，都将重新计算该工作订单中的关键性。
 

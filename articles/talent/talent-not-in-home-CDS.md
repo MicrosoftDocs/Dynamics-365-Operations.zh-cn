@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 956af80a8ab2f454d9f523d3c74dda754ef0f793
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 7f0cc1c7ec1234b7eedaade0ffadb66965ed2121
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009368"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772980"
 ---
 # <a name="talent-doesnt-appear-among-the-microsoft-dynamics-365-apps-common-data-service-10"></a>Talent 未在 Microsoft Dynamics 365 应用 (Common Data Service 1.0) 中显示
 
@@ -34,9 +34,9 @@ ms.locfileid: "2009368"
 
 **分辨率**
 
-用户必须在 Microsoft PowerApps 中被添加到环境的环境制造者角色。
+用户必须在 Microsoft Power Apps 中被添加到环境的环境制造者角色。
 
-1. 具有 PowerApps 计划 2 许可证的管理员用户必须打开 [PowerApps 管理门户](https://preview.admin.powerapps.com/)。
+1. 具有 Power Apps 计划 2 许可证的管理员用户必须打开 [Power Apps 管理门户](https://preview.admin.powerapps.com/)。
 2. 选择**环境**，然后为 Talent 选择正确的环境。
 3. 在**安全**选项卡上，在**环境角色**选项卡上，选择**环境制造者**。
 

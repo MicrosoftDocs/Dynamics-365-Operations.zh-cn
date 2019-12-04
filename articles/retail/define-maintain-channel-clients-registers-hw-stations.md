@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a21394daeb797995418c3b139191dd700c129e12
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 3f0180f63c32f3e88d7f5e245716ccc908cc026d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019385"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811232"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>将外设连接到销售点 (POS)
 
@@ -33,7 +33,7 @@ ms.locfileid: "2019385"
 此主题介绍如何将外设连接到 Retail POS。
 
 > [!NOTE]
-> 要获取特定的安装说明，请参阅 [Retail Hardware Station 配置和安装](retail-hardware-station-configuration-installation.md)和 [Retail Modern POS 自助服务下载/安装以及 Modern POS 和 Cloud POS 的设备激活](retail-modern-pos-device-activation.md)。
+> 要获取特定的安装说明，请参阅[配置并安装 Retail Hardware Station](retail-hardware-station-configuration-installation.md) 和[配置、安装和激活 Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)。
 
 ## <a name="key-components"></a>重要组件
 
@@ -139,7 +139,7 @@ POS 收银机主要通过收银机本身管理，同时还通过分配到收银�
 
 - **信息代码**快速选项卡：
 
-    - 如何在 POS 管理信息代码的所有方面。 有关详细信息，请参阅[信息代码](info-codes-retail.md)。
+    - 如何在 POS 管理信息代码的所有方面。 有关详细信息，请参阅[信息代码和信息代码组](info-codes-retail.md)。
 
 - **收据编号**快速选项卡：
 

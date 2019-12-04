@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bea02c6fe7b8e50be22be89eeb43a913851ddbfb
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 27c9bf32a88858ec2d2214f18ff96138c29e59bc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653525"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815149"
 ---
 # <a name="demand-forecasting-overview"></a>需求预测概览
 
@@ -80,7 +80,7 @@ ms.locfileid: "2653525"
 
 [对基准预测进行手动调整](manual-adjustments-baseline-forecast.md)
 
-[授权调整后的需求预测](authorize-adjusted-forecast.md)
+[授权调整后的预测](authorize-adjusted-forecast.md)
 
 [监控预测准确性](monitor-forecast-accuracy.md)
 

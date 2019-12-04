@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 80b1f8aeabfd033f393463f4be5a61447377f2d9
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 1a86936d756d8375761ce50c9d9bf33dc638dfad
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009298"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772911"
 ---
 # <a name="user-can-access-core-hr-but-not-onboard-or-attract"></a>用户可以访问 Core HR，但无法访问 Onboard 或 Attract
 
@@ -39,7 +39,7 @@ ms.locfileid: "2009298"
 
 **解决方案**
 
-用户 B 必须在设置过程被分配查看用户 A 创建的 Microsoft PowerApps 环境的权限。
+用户 B 必须在设置过程被分配查看用户 A 创建的 Microsoft Power Apps 环境的权限。
 
 有关信息，请参阅[配置 Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent) 中的“授予对环境的访问权限”部分。
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 521fdc98c8af51f6f244f9aa606ce047d014edf1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3cb3b25503b559f21c45c0232a8c0abd3e415eb3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250430"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773614"
 ---
 # <a name="project-mobile-applications-overview"></a>Project 移动应用程序概览
 
@@ -45,4 +45,7 @@ ms.locfileid: "2250430"
 
 ## <a name="for-more-information"></a>有关详细信息
 
-有关更多详细信息，请参阅 [Microsoft Dynamics 365 Project Timesheet 移动应用程序](project-timesheet.md)、[项目时间条目]( project-time-entry-mobile-workspace.md)、[移动设备上的项目工时单](Mobile-timesheets.md)和[实施 Project Timesheet 移动应用程序的自定义字段](custom-fields-mobile.md)。
+- [Project Timesheet 移动应用程序](project-timesheet.md)
+- [项目时间条目]( project-time-entry-mobile-workspace.md)
+- [移动设备上的项目工时单](Mobile-timesheets.md)
+- [为 iOS 和 Android 上的 Microsoft Dynamics 365 Project Timesheet 移动应用实施自定义字段](custom-fields-mobile.md)

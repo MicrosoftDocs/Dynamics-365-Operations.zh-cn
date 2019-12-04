@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9db36b528de097aae613a5fbf5ee94f4cc79a0f
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: f701a61a718469023dfa57c160229108afeb421c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553155"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812428"
 ---
 # <a name="human-resources-overview"></a>人力资源概览
 
@@ -45,9 +45,9 @@ ms.locfileid: "2553155"
 
 当您使用“人力资源”时，您将决定如何使用部门、工作和职位等元素构建您的组织的结构。 这些元素是您将在“人力资源”中配置的基本元素的一部分。 各个员工都将被分配到与工作关联的职位。
 
-- [使用部门、工作和职位组织您的劳动力](../../../talent/departments-jobs-positions.md)
-- [设置特定于公司的 HR 参数](../../../talent/set-up-company-specific-hr-parameters.md)
-- [跨法人设置 HR 参数](../../../talent/set-up-hr-parameters-across-legal-entities.md)
+- [使用部门、工作和职位组织您的员工](../../../talent/departments-jobs-positions.md)
+- [设置特定于公司的人力资源 (HR) 参数](../../../talent/set-up-company-specific-hr-parameters.md)
+- [跨法人设置人力资源 (HR) 参数](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>招聘、雇用和激励员工
 
@@ -68,23 +68,23 @@ ms.locfileid: "2553155"
 
 - [绩效管理](../../../talent/performance-management-overview.md)
 - [使劳动力技能符合业务需求](../../../talent/skills.md)
-- [通过课程管理培训](../../../talent/courses.md)
+- [设置培训课程](../../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>创建和维护福利
 
 除了向员工发放工资、薪水和奖金，您还可以制定福利项目，如医疗保险和退休计划。 您还可以管理福利，如借用计划，通过此计划，您的公司向员工出借物品（如计算机或手机）。
 
-- [管理福利计划](../../../talent/manage-benefit-program.md)
-- [福利资格策略](../../../talent/benefit-eligibility-policies.md)
+- [定义和管理福利计划](../../../talent/manage-benefit-program.md)
+- [福利资格政策](../../../talent/benefit-eligibility-policies.md)
 - [管理借给工作人员的物品](../../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>维护工作场所的安全和合规
 
 Microsoft Dynamics AX 可帮助您维护符合适用法律的安全工作环境，包括美国残疾人法案和移民与入籍法，等等。 例如，您可以管理特定工作的物理要求，并跟踪可以帮助您的组织优化其劳动力技能的便利设施要求。
 
-- [表格 I-9 雇用验证](localizations/noam-usa-form-i-9-verification.md)
-- [符合《美国残疾人法案》](localizations/noam-usa-comply-ada.md)
-- [跟踪 FMLA 的休假](localizations/noam-usa-track-time-for-fmla.md)
+- [I-9 表格验证](localizations/noam-usa-form-i-9-verification.md)
+- [符合《美国残疾人法案 (ADA)》](localizations/noam-usa-comply-ada.md)
+- [跟踪家庭医疗休假法的休假 (FMLA)](localizations/noam-usa-track-time-for-fmla.md)
 
 ## <a name="gather-information-using-questionnaires"></a>使用调查表收集信息
 
@@ -92,5 +92,5 @@ Microsoft Dynamics AX 可帮助您维护符合适用法律的安全工作环境�
 
 - [调查表](../../../talent/questionnaires.md)
 - [设计调查表](../../../talent/design-questionnaires.md)
-- [分发和完成调查表](../../../talent/distribute-questionnaires.md)
+- [分发和计划调查表](../../../talent/distribute-questionnaires.md)
 - [查看和评估调查表的结果](../../../talent/evaluate-questionnaire-results.md)

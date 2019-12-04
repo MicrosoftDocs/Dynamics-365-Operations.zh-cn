@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 491024c9c3d6c7d20ef212e167ceab6abac8dac7
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537847"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812572"
 ---
 # <a name="connect-the-help-system"></a>连接帮助系统
 
@@ -80,7 +80,7 @@ ms.locfileid: "2537847"
 
 您可以通过创建反映您的实施的任务录制并将其保存到 LCS 业务流程库中，为 Finance、Supply Chain Management 和 Retail 创建自定义帮助。 您无法为 Talent 创建自定义任务指南。
 
-对于合作伙伴，如果您要将一个库提升到公司库并将其包括到解决方案中，它将可供您的客户使用。 您还可以复制 APQC Unified 全局库，然后打开您的副本，从它打开任务录制，然后修改它们，并保存具有所做更改的录制。 有关详细信息，请参阅[如何创建任务录制以用作文档或培训](../../dev-itpro/user-interface/task-recorder.md)。
+对于合作伙伴，如果您要将一个库提升到公司库并将其包括到解决方案中，它将可供您的客户使用。 您还可以复制 APQC Unified 全局库，然后打开您的副本，从它打开任务录制，然后修改它们，并保存具有所做更改的录制。 有关详细信息，请参阅[任务录制器资源](../../dev-itpro/user-interface/task-recorder.md)。
 
 ### <a name="connect-a-custom-site"></a>连接自定义站点
 
@@ -91,8 +91,8 @@ Microsoft 提供了介绍如何创建自定义帮助站点并将其连接到帮�
 
 ## <a name="additional-resources"></a>其他资源
 
-[帮助概览](help-overview.md)
+[帮助系统](help-overview.md)
 
-[任务录制器概览](../../dev-itpro/user-interface/task-recorder.md)
+[任务录制器资源](../../dev-itpro/user-interface/task-recorder.md)
 
-[如何创建任务录制以用作文档或培训](../../dev-itpro/user-interface/task-recorder-training-docs.md)
+[通过任务录制器创建文档或培训](../../dev-itpro/user-interface/task-recorder-training-docs.md)

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 265e4dd4be63f70a29e46b6acf7db514feb599a4
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652164"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813423"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>审核和确认采购订单
 
@@ -90,11 +90,11 @@ ms.locfileid: "2652164"
 
 [采购订单概览](purchase-order-overview.md)
 
-[采购订单创建](purchase-order-creation.md)
+[创建采购订单](purchase-order-creation.md)
 
 [针对采购订单的物料收货](product-receipt-against-purchase-orders.md)
 
-[供应商发票的概览](../../finance/accounts-payable/vendor-invoices-overview.md)
+[供应商发票概览](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

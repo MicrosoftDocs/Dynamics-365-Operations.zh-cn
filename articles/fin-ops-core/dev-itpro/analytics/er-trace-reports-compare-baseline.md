@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1643e7fb3128faf6ad638d4cdad313b3667463b1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6cdfbbd7d4f41503e97620b8738679ad572b2a4a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181672"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771229"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>跟踪生成的报表结果并将其与基准值进行比较。
 
@@ -44,10 +44,10 @@ ms.locfileid: "2181672"
 
 此过程介绍如何配置 ER 框架以收集有关 ER 格式执行情况的信息，然后评估这些执行的结果。 此项评估中，将把生成的文档与其基准文件进行比较。 在此示例中，将为示例公司 Litware 公司创建所需 ER 配置。 此过程针对向其分配了系统管理员角色或电子申报开发人员角色的用户。 可使用任何数据集完成这些步骤。
 
-为了完成此示例中的步骤，您必须首先在 RCS 中完成[创建配置提供程序并标记为当前运行的](tasks/er-configuration-provider-mark-it-active-2016-11.md)中的步骤。
+为了完成此示例中的步骤，您必须首先在 RCS 中完成[创建配置提供程序并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)中的步骤。
 
 1. 转到**组织管理** \> **工作区** \> **电子申报**。
-2. 在**本地化配置**页**配置提供程序**部分中，验证是否列出了示例公司 Litware, Inc. 的配置提供程序，以及其是否标记为**有效**。 如果没有看到此配置提供程序，请执行[创建配置提供程序并标记为当前运行的](tasks/er-configuration-provider-mark-it-active-2016-11.md)中的步骤。
+2. 在**本地化配置**页**配置提供程序**部分中，验证是否列出了示例公司 Litware, Inc. 的配置提供程序，以及其是否标记为**有效**。 如果没有看到此配置提供程序，请执行[创建配置提供程序并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)中的步骤。
 
 ### <a name="configure-document-management-parameters"></a>配置文档管理参数
 
@@ -55,7 +55,7 @@ ms.locfileid: "2181672"
 2. 在**类**字段中，输入**附加文件**。
 3. 在**组**字段中，输入**文件**。
 
-![“文档类型”页](media/GER-BaselineSample-SetupDocumentType.PNG "“文档类型”页的屏幕截图")
+![“单据类型”页面](media/GER-BaselineSample-SetupDocumentType.PNG "“文档类型”页的屏幕截图")
 
 > [!NOTE]
 > 必须为计划用于 ER 基准功能的每个数据集配置同名新文档类型。
@@ -64,11 +64,11 @@ ms.locfileid: "2181672"
 
 1. 在**电子申报**工作区的**相关链接**部分中，选择**电子申报参数**。
 
-    ![“电子申报”工作区](media/GER-BaselineSample-ERWorkspace.PNG "“电子申报”工作区的屏幕截图")
+    ![电子申报工作区](media/GER-BaselineSample-ERWorkspace.PNG "“电子申报”工作区的屏幕截图")
 
 2. 在**附件** 选项卡上的**基准**字段中，输入或选择刚才创建的文档类型。
 
-    ![“电子申报参数”页的“附件”选项卡](media/GER-BaselineSample-ERParameters.PNG "“电子申报参数”的屏幕截图")
+    ![“电子申报参数”页的“附件”选项卡](media/GER-BaselineSample-ERParameters.PNG "“电子申报”参数的屏幕截图")
 
 3. 选择**保存**，然后关闭**电子申报参数**页。
 
@@ -93,7 +93,7 @@ ms.locfileid: "2181672"
 8. 选择**更改状态**。
 9. 选择**完成**，然后选择**确定**。
 
-![“配置”页](media/GER-BaselineSample-ModelComplete.PNG "“配置”页的屏幕截图")
+![配置页面](media/GER-BaselineSample-ModelComplete.PNG "配置页的屏幕截图")
 
 ### <a name="add-a-new-er-format-configuration"></a>添加新 ER 格式配置
 
@@ -131,7 +131,7 @@ ms.locfileid: "2181672"
     2. 在**名称**字段中，输入 **ID**。
     3. 选择**确定**。
 
-    ![“格式设计器”页](media/GER-BaselineSample-FormatLayoutDesign.PNG "“格式设计器”页的屏幕截图")
+    ![“格式设计器”页面](media/GER-BaselineSample-FormatLayoutDesign.PNG "“格式设计器”页的屏幕截图")
 
 8. 在**映射**选项卡上，选择**删除**。
 9. 选择**添加根**。
@@ -144,7 +144,7 @@ ms.locfileid: "2181672"
 11. 在树中，选择**输出\\文档\\Id**。
 12. 选择**绑定**，然后选择**保存**。
 
-![“格式设计器”页](media/GER-BaselineSample-FormatMappingDesign.PNG "“格式设计器”页的屏幕截图")
+![“格式设计器”页面](media/GER-BaselineSample-FormatMappingDesign.PNG "“格式设计器”页的屏幕截图")
 
 配置的格式将根据设计的结构生成 XML 文件。 此 XML 中包含**根**元素，该元素的 **ID** 属性设置为用户在“ER 运行时”对话框中输入的值。
 
@@ -154,7 +154,7 @@ ms.locfileid: "2181672"
 2. 在**输入 ID** 字段中，输入 **1**。
 3. 选择**确定**。
 
-    ![“电子报表参数”对话框](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "“电子报表参数”对话框的屏幕截图")
+    ![电子报表参数对话框](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "“电子报表参数”对话框的屏幕截图")
 
 4. 保存生成的 **out.Admin.xml** 文件的本地副本，以便后面将其用作此 ER 格式的基准。
 
@@ -166,7 +166,7 @@ ms.locfileid: "2181672"
 2. 将**以调试模式运行**选项设置为**是**。
 3. 选择**确定**。
 
-![“用户参数”对话框](media/GER-BaselineSample-ERUserParameters.PNG "“用户参数”对话框的屏幕截图")
+![“用户参数”选项卡](media/GER-BaselineSample-ERUserParameters.PNG "“用户参数”对话框的屏幕截图")
 
 ### <a name="add-a-new-baseline-for-designed-er-format"></a>为设计的 ER 格式添加新基准
 
@@ -189,7 +189,7 @@ ms.locfileid: "2181672"
 2. 在操作窗格上，选择**新建** \> **文件**。 在 ER 参数中，之前应该已将**文件**文档类型选择为用于存储基准文件的文档格式。
 3. 选择**浏览**，然后选择您之前在运行配置的 ER 格式时生成的 **out.Admin.xml** 文件。
 
-    ![“附件”页](media/GER-BaselineSample-UploadBaselineFile.PNG "“附件”页的屏幕截图")
+    ![附件页](media/GER-BaselineSample-UploadBaselineFile.PNG "附件页的屏幕截图")
 
 4. 关闭**附件**页。
 5. 在**基准**快速选项卡上，选择**新建**。
@@ -243,4 +243,4 @@ ms.locfileid: "2181672"
 
 ## <a name="additional-resources"></a>其他资源
 
-- [配置 ER 框架](electronic-reporting-er-configure-parameters.md)
+- [配置电子报告 (ER) 框架](electronic-reporting-er-configure-parameters.md)

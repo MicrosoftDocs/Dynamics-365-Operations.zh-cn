@@ -15,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0b3e211ff83db12f9f8e898b50c9c69aeb01da50
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 90df54b2aca434369fd176c9d6890b589a2a0fef
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183964"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773404"
 ---
 # <a name="china-overview"></a>中国概览
 
@@ -31,7 +31,7 @@ ms.locfileid: "2183964"
 -   [物料清单比较](apac-chn-bom-comparison.md)
 -   [会计科目表层次结构](tasks/china-hierarchy-chart-accounts.md) 
 -   [中国式凭证](apac-chn-vouchers.md)
-    -   [连续性检查](tasks/chinese-voucher-continuity-check.md)
+    -   [凭证连续性检查](tasks/chinese-voucher-continuity-check.md)
     -   [过帐其他模块的凭证](tasks/post-vouchers-other-modules-like-sales-invoices.md)
     -   [过帐普通日记帐的凭证](tasks/post-vouchers-general-journal.md)
     -   [设置中国式凭证](tasks/set-up-chinese-vouchers.md)
@@ -39,10 +39,10 @@ ms.locfileid: "2183964"
     -   [增值税客户发票的中国税务集成修改常见问题](apac-chn-tax-integration-vat-customer-invoices.md)
     -   [增值税客户发票常见问题](apac-chn-tax-integration-vat-customer-invoices.md)
     -   [设置基本税务集成模板](tasks/set-up-basic-tax-integration-profile-china.md)
--   [固定资产折旧法](apac-chn-depreciation-methods-fixed-assets.md)
-    -   [设置固定资产折旧分摊](tasks/fixed-asset-depreciation-allocation.md)
+-   [固定资产折旧方法](apac-chn-depreciation-methods-fixed-assets.md)
+    -   [设置固定资产折旧费用分配](tasks/fixed-asset-depreciation-allocation.md)
 -   [导入中国金税数据实体](apac-chn-import-golden-tax-data-entity.md)
-    -   [金税集成](tasks/golden-tax-integration-export-setup.md)
+    -   [金税集成导出设置](tasks/golden-tax-integration-export-setup.md)
 -   [每月平均成本模型](apac-chn-monthly-average-cost-model.md)
 -   [按站点过帐库存主科目](apac-chn-post-inventory-main-accounts-by-site.md)
 -   [显示会计科目的借方和贷方金额](apac-chn-negative-debits-credits.md)

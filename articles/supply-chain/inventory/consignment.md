@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 578aa96de28758a4dfff9f8c5f7782705ddd5f70
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 65c5702514a3bc9fe943959fd4ca032eb19bfe4c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556038"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814436"
 ---
 # <a name="set-up-consignment"></a>设置托运
 
@@ -97,7 +97,7 @@ USMF 执行其他定期流程：
 [![库存所有权更改日记帐](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>托运流程中的供应商协作
-如果您的供应商使用供应商协作界面，他们可以使用该界面监控您的站点的库存的消耗量。 有关设置供应商使用供应商协作的详细信息，请参阅“[为供应商协作用户配置安全性](../procurement/configure-security-vendor-portal-users.md)”。
+如果您的供应商使用供应商协作界面，他们可以使用该界面监控您的站点的库存的消耗量。 有关设置供应商使用供应商协作的详细信息，请参阅[供应商门户用户安全性](../procurement/configure-security-vendor-portal-users.md)。
 
 
 

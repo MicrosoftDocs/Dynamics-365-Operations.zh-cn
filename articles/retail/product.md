@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c78fc1f2f1bb08d01828a8b71ad5d3c16ad31b86
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 98c84e987c40adf136d0240117f7b0f119bf2f59
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278364"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811109"
 ---
 # <a name="product-recommendations-on-pos"></a>POS 中的产品建议
 
@@ -40,13 +40,13 @@ ms.locfileid: "2278364"
 
 1. 在**产品详细信息**页面中：
 
-    - • 如果售货员在查看跨不同渠道的早期交易记录时访问**产品详细信息**页面，建议服务将推荐更多可能搭配购买的物料。
+    - 如果售货员在查看跨不同渠道的早期交易记录时访问**产品详细信息**页面，建议服务将推荐更多可能搭配购买的物料。
 
     [![有关“产品详细信息”页的建议](./media/proddetails.png)](./media/proddetails.png)
 
 2. 在**交易记录**页面中：
 
-    - • 建议引擎根据购物车中经常一起购买的物料的完整列表推荐物料。
+    - 建议引擎根据购物车中经常一起购买的物料的完整列表推荐物料。
 
     > [!NOTE]
     > 若要在**交易记录**页面中显示建议，零售商需要更新 Dynamics 365 for Retail 中的屏幕布局。 必须将**建议**控件拖到**交易记录**页面中。
@@ -69,10 +69,12 @@ ms.locfileid: "2278364"
 
 - 导航到**零售参数** \> **建议列表** \> **禁用产品建议**，然后**运行全局配置 \[9999\]**。 
 - 如果使用**屏幕布局设计器**为交易记录屏幕添加了**建议控件**，请将其一并移除。
-- 如果还有其他问题，请参阅[建议常见问题](../commerce/faq-recommendations.md)获取详细信息。
+- 如果还有其他问题，请参阅[产品建议常见问题](../commerce/faq-recommendations.md)获取详细信息。
 
 ## <a name="additional-resources"></a>其他资源
 
-[向 POS 设备上的交易记录页添加建议控件](add-recommendations-control-pos-screen.md)
-[产品建议概述](../commerce/product-recommendations.md)
+[向 POS 设备上的交易记录屏幕添加建议控件](add-recommendations-control-pos-screen.md)
+
+[产品建议概览](../commerce/product-recommendations.md)
+
 [启用产品建议](../commerce/enable-product-recommendations.md) 

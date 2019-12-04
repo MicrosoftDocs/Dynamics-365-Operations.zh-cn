@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 159320dcbdf257862378b347172ef71832e293dc
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 496603731eb343a64be1e8d9482ac8d42e6aa79a
+ms.sourcegitcommit: 7ef9e61f0388b5241894d40ff39f84a112232a5f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626054"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2694398"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-8-2019"></a>Dynamics 365 Talent（2019 年 10 月 8 日）中的新增功能或更改
 
@@ -57,15 +57,15 @@ ms.locfileid: "2626054"
 
 有关详细信息，请参阅“Dynamics 365: 2019 发布波次 2 计划”中的[简化的员工输入和导航](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/streamlined-employee-data-entry)。
 
-### <a name="issue-attract-and-onboard-create-inactive-workers-in-core-hr-380517"></a>问题：Attract 和 Onboard 在 Core HR 中创建不活动的工作人员 (380517)
+### <a name="attract-and-onboard-create-inactive-workers-in-core-hr-380517"></a>Attract 和 Onboard 在 Core HR 中创建不活动的工作人员 (380517)
 
 本周的发布更正了 Attract 和 Onboard 在 Core HR 中创建不活动工作人员的问题。
 
-### <a name="issue-the-workflow-fails-when-the-manager-is-signed-in-to-another-company-while-terminating-an-employee-346852"></a>问题：当经理在终止员工时登录到另一家公司时，工作流失败 (346852)
+### <a name="the-workflow-fails-when-the-manager-is-signed-in-to-another-company-while-terminating-an-employee-346852"></a>当经理在终止员工时登录到另一家公司时，工作流失败 (346852)
 
 工作流不再基于经理登录的法人而失败。
 
-### <a name="issue-missing-information-on-hcmonboardingworkerchecklisttaskentity-349591"></a>问题：缺少有关 HcmOnboardingWorkerChecklistTaskEntity 的信息 (349591)
+### <a name="missing-information-on-hcmonboardingworkerchecklisttaskentity-349591"></a>缺少有关 HcmOnboardingWorkerChecklistTaskEntity 的信息 (349591)
 
 此版本包括有关 **HcmOnboardingWorkerChecklistTaskEntity** 的附加信息。 下面举了一些示例加以说明：
 
@@ -73,35 +73,35 @@ ms.locfileid: "2626054"
 - 分配的类型为**员工**时的**员工姓名**
 - 分配的类型为**经理**时的**经理姓名**
 
-### <a name="issue-entities-arent-listed-in-alphabetical-order-in-common-data-service-administration-377414"></a>问题：在 Common Data Service 管理中未按字母顺序列出实体 (377414)
+### <a name="entities-arent-listed-in-alphabetical-order-in-common-data-service-administration-377414"></a>在 Common Data Service 管理中未按字母顺序列出实体 (377414)
 
 现在，实体在 **CDS 管理**页面上按字母顺序列出。
 
-### <a name="issue-changing-the-employment-type-with-a-future-date-doesnt-allow-a-position-assignment-339958"></a>问题：更改具有未来日期的雇用类型不允许进行职位分配 (339958)
+### <a name="changing-the-employment-type-with-a-future-date-doesnt-allow-a-position-assignment-339958"></a>更改具有未来日期的雇用类型不允许进行职位分配 (339958)
 
 更改工作人员类型时（例如，从员工到合同工），此更改允许进行职位分配。
 
-### <a name="issue-updating-the-common-data-service-leave-bank-transaction-entity-creates-a-new-record-in-talent-352938"></a>问题：更新 Common Data Service 休假银行交易记录实体会在 Talent 中创建新记录 (352938)
+### <a name="updating-the-common-data-service-leave-bank-transaction-entity-creates-a-new-record-in-talent-352938"></a>更新 Common Data Service 休假银行交易记录实体会在 Talent 中创建新记录 (352938)
 
 现在，当对 Common Data Service 的休假银行交易记录进行更新时，休假交易记录将更新。
 
-### <a name="issue-the-title-of-attachments-for-feedback-items-shows-the-feedback-description-343765"></a>问题：反馈项的附件标题显示反馈说明 (343765)
+### <a name="the-title-of-attachments-for-feedback-items-shows-the-feedback-description-343765"></a>反馈项的附件标题显示反馈说明 (343765)
 
 反馈说明不再出现在附件标题中。
 
-### <a name="issue-compensation-workflow-comments-field-shows-incorrect-content-339297"></a>问题：薪酬工作流的“注释”字段显示不正确的内容 (339297)
+### <a name="compensation-workflow-comments-field-shows-incorrect-content-339297"></a>薪酬工作流的“注释”字段显示不正确的内容 (339297)
 
 此更改显示 **%HcmActionState.HcmWorkerActionComment.Comments%** 字段的内容。
 
-### <a name="issue-workcalendarentity-and-workcalendardayentity-arent-exposed-through-odata-376329"></a>问题：WorkCalendarEntity 和 WorkCalendarDayEntity 不通过 OData 公开 (376329)
+### <a name="workcalendarentity-and-workcalendardayentity-arent-exposed-through-odata-376329"></a>WorkCalendarEntity 和 WorkCalendarDayEntity 不通过 OData 公开 (376329)
 
 在此版本中，**WorkCalendarEntity** 和 **WorkCalendarDayEntity** 现在通过开放数据协议 (OData) 提供。
 
-### <a name="issue-hcmworkerentity-is-slow-when-odata-is-used-375221"></a>问题：使用 OData 时 HCMWorkerEntity 变慢 (375221)
+### <a name="hcmworkerentity-is-slow-when-odata-is-used-375221"></a>使用 OData 时 HCMWorkerEntity 变慢 (375221)
 
 使用 Microsoft Excel 工作簿设计器时，更改将提高 **HCMWorkerEntity** 的性能。
 
-### <a name="issue-manager-performance-journal-entry-shows-an-error-after-deleting-a-performance-journal-and-creating-a-new-one-336061"></a>问题：在删除绩效日记帐并创建新的绩效日记帐后，经理绩效日记帐条目显示错误 (336061)
+### <a name="manager-performance-journal-entry-shows-an-error-after-deleting-a-performance-journal-and-creating-a-new-one-336061"></a>在删除绩效日记帐并创建新的绩效日记帐后，经理绩效日记帐条目显示错误 (336061)
 
 此版本更正了删除一个绩效日记帐并在此之后立即创建新绩效日记帐后发生的问题。 此更正更改了经理自助服务中的行为。
 

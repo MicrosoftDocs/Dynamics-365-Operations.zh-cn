@@ -3,7 +3,7 @@ title: 向安全角色分配用户
 description: 若要访问 Finance and Operations 应用，必须为用户分配安全角色。
 author: ChrisGarty
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 11/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4daecc1acd589cd1656402244e5325382a407e7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e4f4ef4535de9e371829c2d86d4fdc1400510c7b
+ms.sourcegitcommit: 6aa74f66f1abd3a7977050a5339b0b17e62ff053
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180959"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2807988"
 ---
 # <a name="assign-users-to-security-roles"></a>向安全角色分配用户
 
@@ -37,6 +37,9 @@ ms.locfileid: "2180959"
 5. 在**成员资格规则名称**列表中，单击所选行中的链接。
 6. 单击**编辑查询**。 编辑查询（根据需要）。  
 7. 单击 **确定**。
+8. 单击**运行自动角色分配**。
+9. 转到**导航窗格 > 模块 > 系统管理 > 用户 > 用户**（最好在单独的浏览器选项卡中）。
+10. 查看分配给各个用户的角色，以确认角色分配查询是否正确。 根据需要调整并重新运行。
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>将用户从自动角色分配中排除
 1. 关闭该页面。

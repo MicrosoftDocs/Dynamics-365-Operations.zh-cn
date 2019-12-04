@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c4636f5a023786e3871eb5d907e2e9546181827a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025257"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811772"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>销售点 (POS) 的屏幕布局
 
@@ -171,7 +171,7 @@ ms.locfileid: "2025257"
 
     - **操作** – 在适用 POS 操作列表中，选择在 POS 中单击按钮时调用的操作。
 
-        有关支持的 POS 操作的列表，请参阅 [POS 操作、联机和脱机](pos-operations.md)。
+        有关支持的 POS 操作的列表，请参阅[销售点 (POS) 联机和脱机操作](pos-operations.md)。
 
     - **操作参数** – 某些 POS 操作在调用时使用更多参数。 例如，对于“添加产品”操作，用户可以指定要添加的产品。
     - **按钮稳步** – 指定 POS 中的按钮上显示的文本。
@@ -193,4 +193,4 @@ ms.locfileid: "2025257"
 
 ## <a name="additional-resources"></a>其他资源
 
-[安装 Retail POS 布局设计器](install-pos-layout-designer.md)
+[安装 Retail 销售点 (POS) 布局设计器](install-pos-layout-designer.md)

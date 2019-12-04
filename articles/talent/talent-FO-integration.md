@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 747922294eaf971795177beeb73839d453f6475a
+ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622760"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2830178"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Dynamics 365 Talent 与 Dynamics 365 Finance 集成的常见问题
 
@@ -48,7 +48,7 @@ ms.locfileid: "2622760"
 
 Financial dimensions 当前不在 Common Data Service 中，因此不是默认模板的一部分。 此实体已计划，但当前未确定发布时间。
 
-对于位于 Finance 但不存在于 Talent 中的数据，请使用 Talent 中的**配置链接**将两个系统链接在一起。 有关如何配置 Talent 和 Finance 之间的链接的详细信息，请参阅 [Dynamics 365 Talent: Core HR（2018 年 10 月 31 日）中的新增功能或更改](whats-new-talent-october-31.md)。
+对于位于 Finance 但不存在于 Talent 中的数据，请使用 Talent 中的**配置链接**将两个系统链接在一起。 有关如何配置 Talent 和 Finance 之间的链接的详细信息，请参阅 [Dynamics 365 Talent- Core HR（2018 年 10 月 31 日）中的新增功能或更改](whats-new-talent-october-31.md)。
 
 ![映射财务维度](media/MapFinancialDimensions.png)
 
@@ -69,7 +69,7 @@ Financial dimensions 当前不在 Common Data Service 中，因此不是默认�
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>我可以指定将特定实体的哪些字段发送到 Finance 吗？
 
 字段可以在集成任务中添加或删除。 并非 Common Data Service 实体上存在的所有数据字段都从 Core HR 填充。
-附加数据可以通过 PowerApps 填充。
+附加数据可以通过 Power Apps 填充。
 
 ![在集成任务中添加或删除字段](media/SpecifyFieldsIncludedInIntegration.png)
 
@@ -119,19 +119,19 @@ Financial dimensions 当前不在 Common Data Service 中，因此不是默认�
 
 1. 从数据集成器捕获任务索引（在本示例中是“9”）。
 
-![从数据集成器捕获任务索引](media/CaptureTaskIndex.png)
+    ![从数据集成器捕获任务索引](media/CaptureTaskIndex.png)
 
 2. 跟踪项目的执行时间。
 
-![跟踪项目的执行时间](media/CaptureTimeOfExecution.png)
+    ![跟踪项目的执行时间](media/CaptureTimeOfExecution.png)
 
 3. 在 Finance 中，识别索引 - 1。 在此示例中，后缀为“8”的项目和索引“0”项目的执行时间与步骤 2 中的执行时间匹配。
 
-![标识索引。](media/IdentifyIndex.png)
+    ![标识索引。](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-talent-and-finance-i-dont-see-my-talent-data-in-finance-what-do-i-do"></a>在集成 Talent 和 Finance 后，我在 Finance 中无法看到 Talent 数据。 我该做什么？
 
-与 Finance 的集成是一个两步流程。 首先，验证 Talent 数据在 Common Data Service 中已更新并可用。 这是一个接近实时的同步，可以在 PowerApps 中通过查看数据实体中的数据验证。
+与 Finance 的集成是一个两步流程。 首先，验证 Talent 数据在 Common Data Service 中已更新并可用。 这是一个接近实时的同步，可以在 Power Apps 中通过查看数据实体中的数据验证。
 
 ![Common Data Service 中的数据](media/DataInCDS.png)
 
@@ -168,7 +168,7 @@ Financial dimensions 当前不在 Common Data Service 中，因此不是默认�
 
   - [数据集成器错误管理和故障排除](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [响应 PowerApps、Microsoft Flow 和 Common Data Service 中系统生成日志的 DSR 请求](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [响应 Power Apps、Microsoft Power Automate 和 Common Data Service 中系统生成日志的 DSR 请求](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - 数据管理：
 

@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bfe007995c894d6cc86d07ef2b52da65e32e950
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: aa8444b081650e3d375e6f28f47866c8d4853721
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182730"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772455"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>通过使用 ER 配置访问应用程序元数据
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-以下步骤介绍系统管理员或电子报表开发人员角色的 Regulatory Configuration Service (RCS) 用户如何使用应用程序元数据设计新的电子报表 (ER) 模型映射。 可访问应用程序元数据，方法是使用其中包含一组示例元数据的 ER 配置访问外贸交易。 为了完成这些步骤，您必须首先在 RCS 中完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)主题中的步骤。 然后完成 [(ER) 在 RCS 中准备要使用的应用程序元数据](prepare-application-metadata-rcs.md)主题中的步骤。
+以下步骤介绍系统管理员或电子报表开发人员角色的 Regulatory Configuration Service (RCS) 用户如何使用应用程序元数据设计新的电子报表 (ER) 模型映射。 可访问应用程序元数据，方法是使用其中包含一组示例元数据的 ER 配置访问外贸交易。 为了完成这些步骤，您必须首先在 RCS 中完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)主题中的步骤。 然后完成[在 RCS 中准备要使用的应用程序元数据](prepare-application-metadata-rcs.md)主题中的步骤。
 
 ## <a name="prerequisites"></a>先决条件
 1. 转到**所有工作区** > **电子申报**。 
@@ -35,7 +35,7 @@ ms.locfileid: "2182730"
 
 ## <a name="import-metadata-configuration"></a>导入元数据配置 
 1. 单击**元数据配置**。 
-2. 导入包含已配置为为外贸业务生成电子单据的元数据的 ER 元数据配置。 由于已完成了 [(ER) 在 RCS 中准备要使用的应用程序元数据](prepare-application-metadata-rcs.md)过程中的步骤，所以此 ER 元数据配置已导出为 XML 文件。 
+2. 导入包含已配置为为外贸业务生成电子单据的元数据的 ER 元数据配置。 由于已完成了[在 RCS 中准备要使用的应用程序元数据](prepare-application-metadata-rcs.md)过程中的步骤，所以此 ER 元数据配置已导出为 XML 文件。 
 3. 单击**交换**。 
 4. 单击**从 XML 文件加载**。 
 5. 单击**浏览**并选择“Foreign trade metadata.xml”文件。 

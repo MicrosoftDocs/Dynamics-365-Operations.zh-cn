@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 83c523a23973f4fd146d8308fbb5ecb486224ad9
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865320"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813538"
 ---
 # <a name="product-lifecycle-state-overview"></a>产品生命周期状态概览
 
@@ -107,9 +107,9 @@ ms.locfileid: "1865320"
 
 ## <a name="related-topics"></a>相关主题
 
--  [创建新产品生命周期状态（任务指南）](tasks/new-product-lifecycle-state.md)
--  [创建默认产品生命周期状态（任务指南）](tasks/default-product-lifecycle-state.md)
--  [为已发布的基础产品分配产品生命周期状态（任务指南）](tasks/product-lifecycle-state-released-product-master.md)
--  [对已发布的产品分配产品生命周期状态（任务指南）](tasks/product-lifecycle-state-released-product.md)
--  [查找过时的产品变型并分配产品生命周期状态（任务指南）](tasks/obsolete-product-variants.md)
--  [创建产品生命周期状态以从主计划中排除产品（任务指南）](tasks/exclude-products-master-planning.md)
+-  [创建新产品生命周期状态](tasks/new-product-lifecycle-state.md)
+-  [创建默认产品生命周期状态](tasks/default-product-lifecycle-state.md)
+-  [为已发布的基础产品分配产品生命周期状态](tasks/product-lifecycle-state-released-product-master.md)
+-  [为已发布的产品分配产品生命周期状态](tasks/product-lifecycle-state-released-product.md)
+-  [查找过时的产品变型并分配产品生命周期状态](tasks/obsolete-product-variants.md)
+-  [创建产品生命周期状态以从主计划中排除产品](tasks/exclude-products-master-planning.md)

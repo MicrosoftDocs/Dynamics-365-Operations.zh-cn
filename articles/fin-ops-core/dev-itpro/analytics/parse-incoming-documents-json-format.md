@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 92ef83bc1783b00a4d7d9739ca1c17e863c7ff44
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8be4e225507a18a92d642ff0f3a6ca3d0ff68564
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185259"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772527"
 ---
 # <a name="parse-incoming-documents-in-json-format"></a>分析 JSON 格式的传入文档
 
@@ -46,7 +46,7 @@ ms.locfileid: "2185259"
 - 对象的属性元素的嵌套元素只能是 JSON 数组。
 - JSON 数组中只能包含 JSON 对象。 不能包含直接字符串/数值和嵌套数组。 将按这些数组中的元素在格式中指定时的顺序对其进行分析。 将考虑每个 JSON 对象的多样性设置。
 
-此外，如果尚未完成 [ER 针对电子申报创建要从外部文件导入数据所需的配置](tasks/er-required-configurations-import-data.md)任务指南，必须先完成。 请下载以下文件以完成此任务指南。
+此外，如果尚未完成 [ER 创建要从外部文件导入数据所需的配置](tasks/er-required-configurations-import-data.md)任务指南，必须先完成。 请下载以下文件以完成此任务指南。
 
 | 称谓                  | 文件名 |
 |------------------------|-----------|

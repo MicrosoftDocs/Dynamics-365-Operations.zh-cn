@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5e4272fa1c94a883a10b7893d5dc8addfa987e60
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a3e2178dbc60582d6167898c4c3446feac49dd04
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024060"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814482"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>Dynamics 365 Talent 的新增功能或更改（2019 年 8 月 20 日）
 
@@ -35,7 +35,7 @@ ms.locfileid: "2024060"
 
 ### <a name="simplified-apply-experience-for-candidates"></a>简化的应聘者申请体验 
 
-简化的应聘者申请体验现已推出公共预览版。 启用后，应聘者可以使用他们的简历、使用**通过 LinkedIn 申请**（如果启用）或使用现有的申请表申请工作。 通过这些更改，应聘者可以快速提交他们的工作申请表，只需要手动输入最少的字段。 有关如何启用此功能的信息，请参阅[启用或禁用预览功能](./access-preview-feature.md#enable-or-disable-preview-features)。
+简化的应聘者申请体验现已推出公共预览版。 启用后，应聘者可以使用他们的简历、使用**通过 LinkedIn 申请**（如果启用）或使用现有的申请表申请工作。 通过这些更改，应聘者可以快速提交他们的工作申请表，只需要手动输入最少的字段。 有关如何此功能的信息，请参阅[访问 Microsoft Dynamics 365 Talent 中的预览功能](./access-preview-feature.md#enable-or-disable-preview-features)。
 
 ### <a name="view-rejection-comments-as-part-of-application-activity"></a>作为申请活动的一部分查看拒绝注释
 

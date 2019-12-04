@@ -1,9 +1,9 @@
 ---
-title: 设置在线商店
-description: 本文提供有关 Retail 在线商店以及如何在 Dynamics 365 Retail 中设置它们的信息。
+title: 设置在线商店渠道
+description: 本文提供有关 Retail 在线商店渠道以及如何在 Dynamics 365 Retail 中设置它们的信息。
 author: kfend
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02402269a6976ff856e703cc8e94fbf0758ea771
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: e7932879aac6ea4054f6c35de99f11c2662dd472
+ms.sourcegitcommit: 595a4ec63a32bd5d4321126bda7cf72a75a930a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017958"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "2688801"
 ---
-# <a name="set-up-online-stores"></a>设置在线商店
+# <a name="set-up-an-online-store-channel"></a>设置在线商店渠道
 
 [!include [banner](includes/banner.md)]
 
-本文提供有关 Retail 在线商店以及如何在 Dynamics 365 Retail 中设置它们的信息。
+本文提供有关 Retail 在线商店渠道以及如何在 Dynamics 365 Retail 中设置它们的信息。
 
 Retail 支持多个零售渠道。 这些零售渠道包括在线商店、呼叫中心和零售商店（亦称实体商店）。 在线商店为零售商提供在线形式，使其客户除零售商店外可从零售商的在线商店采购产品。 如果顾客在在线商店采购产品，产品可以邮寄给他们，或者客户可以在当地零售商店领取产品。 可在 Retail 客户端创建在线商店。 此在线商店然后将发布到与 Retail 集成的第三方在线商店。 第三方在线商店用作在线商店的店面 (UI)，并向您提供客户管理系统 (CMS) 和 UI 功能的选择。 此类型的多个集成可用。 您为在线商店定义的属性将控制在线商店的行为。 例如，您在 Retail 中定义导航类别层次结构，并将其分配给在线商店。 将在线商店发布到第三方在线商店后，导航类别层次结构会显示在商店的在线版本中。 购物者然后将导航类别层次结构用于浏览在线商店和搜索产品。 若要创建在线商店，您必须设置允许为商店处理交易记录的组件。 例如，您必须添加分类、应用属性和设置付款方式和装运方法。 还可以定义价格、促销、折扣、贸易协议和特定于在线商店的装运条件。 将在线商店发布到第三方在线商店后，您可以为在线商店创建零售产品目录。 目录中的产品就是在线商店中的产品清单。 顾客从在线商店采购产品时，系统会在客户端更新和同步可用库存。 此外，还会为采购生成销售订单并发送到客户端，以便执行和处理订单。
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6206b3a1ac298af98e4b69b6800b9a493658c4ea
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ecaeb80f3cda2ee24533ed263df63cc10c5ffc65
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181281"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771088"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>管理电子申报 (ER) 配置生命周期
 
@@ -33,7 +33,7 @@ ms.locfileid: "2181281"
 
 ## <a name="overview"></a>概览
 
-电子申报 (ER) 是一个引擎，可支持法律要求的和国家/地区特定的电子文档。 一般来说，ER 假设执行一个电子文档的以下任务的能力。 有关详细信息，请参阅[电子申报概览](general-electronic-reporting.md)。
+电子申报 (ER) 是一个引擎，可支持法律要求的和国家/地区特定的电子文档。 一般来说，ER 假设执行一个电子文档的以下任务的能力。 有关详细信息，请参阅[电子申报 (ER) 概览](general-electronic-reporting.md)。
 
 - 设计电子文件的模板：
 
@@ -87,4 +87,4 @@ ms.locfileid: "2181281"
 
 ## <a name="additional-resources"></a>其他资源
 
-[电子申报概览](general-electronic-reporting.md)
+[电子申报 (ER) 概览](general-electronic-reporting.md)

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 97082533831d592817e54e77469a3e22b0b47610
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 8c11186ff3f95a7f1e00f9e42d7b78f5a68957b0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008120"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813929"
 ---
 # <a name="get-started-with-onboard"></a>Onboard 入门
 
@@ -35,17 +35,17 @@ Onboard 可让您快速创建入职指南来欢迎您的新雇员，并让他们
 
 要了解如何获取和使用 Onboard 应用，请参阅以下主题：
 
-- [获取 Onboard 应用](./onboard-get-app.md)
-- [创建入职指南](./onboard-create-guide.md)
-- [创建入职模板](./onboard-create-template.md)
-- [编辑入职指南和模板](./onboard-edit-guides-templates.md)
-- [与其他参与者共享内容](./onboard-share-template.md)
-- [查看任务和入职员工的状态](./onboard-view-status.md)
-- [在 Onboard 中创建招聘团队](./onboard-create-team.md)
+- [获取 Dynamics 365 Talent - Onboard 应用](./onboard-get-app.md)
+- [使用 Dynamics 365 Talent - Onboard 创建和发送入职指南](./onboard-create-guide.md)
+- [使用 Dynamics 365 Talent - Onboard 创建入职模板](./onboard-create-template.md)
+- [编辑 Dynamics 365 Talent - Onboard 中的入职指南和模板](./onboard-edit-guides-templates.md)
+- [在 Dynamics 365 Talent - Onboard 中与其他参与者共享内容](./onboard-share-template.md)
+- [查看入职员工和您的任务的状态](./onboard-view-status.md)
+- [使用 Dynamics 365 Talent - Onboard 创建招聘团队](./onboard-create-team.md)
 
 ## <a name="see-also"></a>请参阅
 
 - [试用或购买 Onboard 应用](https://dynamics.microsoft.com/talent/onboard/)
-- [新增功能](./whats-new.md)
-- [版本说明](https://docs.microsoft.com/business-applications-release-notes/index)
-- [获取支持](./talent-support.md)
+- [Dynamics 365 Talent 新增功能或更改](./whats-new.md)
+- [发布计划](https://docs.microsoft.com/business-applications-release-notes/index)
+- [获取 Microsoft Dynamics 365 Talent 支持](./talent-support.md)

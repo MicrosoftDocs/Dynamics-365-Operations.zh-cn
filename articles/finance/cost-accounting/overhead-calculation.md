@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6c045f82f3288dba193721dd80c90e68750af9a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 954e0669c3d24bcc20fe667c22b7dcc367aba1e7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176614"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770796"
 ---
 # <a name="overhead-calculation"></a>开销计算
 
@@ -1411,7 +1411,7 @@ ms.locfileid: "2176614"
 </table>
 
 > [!NOTE]
-> 此主题显示主要成本元素“10001 电”如何流过成本对象。 因此，此间接成本分摊到组织的最低级别。 换言之，最低级别的成本对象承担成本。 如果您需要成本对象之间的可视成本流，可以使用成本累积政策规则实现成本流可视化。 有关详细信息，请参阅[成本累积](cost-rollup.md)。
+> 此主题显示主要成本元素“10001 电”如何流过成本对象。 因此，此间接成本分摊到组织的最低级别。 换言之，最低级别的成本对象承担成本。 如果您需要成本对象之间的可视成本流，可以使用成本累积政策规则实现成本流可视化。 有关详细信息，请参阅[成本累积政策和开销计算](cost-rollup.md)。
 
 
 

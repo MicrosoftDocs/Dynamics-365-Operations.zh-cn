@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: a987e75834ddde486421a425a621e66f0b6e063f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577892"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811157"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>设置零售渠道的会计整合
 
@@ -210,7 +210,7 @@ ms.locfileid: "1577892"
 
 若要让会计 X/Z 报表从 POS 运行，您应将新按钮添加到 POS 布局。
 
-- 在**按钮网格**页，请按照[将自定义操作按钮添加到零售总部的 POS 布局](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters)中的说明安装设计器、更新布局。
+- 在**按钮网格**页，请按照[使用按钮网格设计器将 POS 操作添加到 POS 布局](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters)中的说明安装设计器、更新 POS 布局。
 
     1. 选择要更新的布局。 
     2. 添加新按钮，并设置**打印会计 X** 按钮属性。
@@ -221,7 +221,7 @@ ms.locfileid: "1577892"
 
 若要启用已延迟会计登记的手动执行，应该向 POS 布局添加一个新按钮。
 
-- 在**按钮网格**页，请按照[将自定义操作按钮添加到零售总部的 POS 布局](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters)中的说明安装设计器、更新布局。
+- 在**按钮网格**页，请按照[使用按钮网格设计器将 POS 操作添加到 POS 布局](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters)中的说明安装设计器、更新 POS 布局。
 
     1. 选择要更新的布局。
     2. 添加新按钮，并设置**完成会计登记流程**按钮属性。

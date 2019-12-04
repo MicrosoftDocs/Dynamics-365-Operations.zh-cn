@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176556"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770681"
 ---
 # <a name="generate-consolidated-financial-statements"></a>生成合并的财务报表
 
@@ -41,7 +41,7 @@ ms.locfileid: "2176556"
 
 下图显示如何在财务报告中使用报表树确定要合并的每个公司。
 
-![报表树定义](./media/reporting-tree-definition.png "报表树定义")
+![报告树定义](./media/reporting-tree-definition.png "报告树定义")
 
 如下图中合并的报表所示，将报表树与报表定义结合使用时，可以分别查看每个公司。 合并的金额以汇总级别显示。
 
@@ -53,7 +53,7 @@ ms.locfileid: "2176556"
 
 下图显示一个多级报表树定义，其中的汇总按函数排列。
 
-![其中的汇总按函数排列的多级报表树定义](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "其中的汇总按函数排列的多级报表树定义")
+![其中的汇总按功能排列的多级报表树定义](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "其中的汇总按功能排列的多级报表树定义")
 
 ### <a name="viewing-companies-side-by-side"></a>并排查看公司
 许多客户希望报表中的公司并排显示，并且其中一列显示合并的总计。 创建报告树之后，非常容易实现此格式。 可通过下面的高级步骤并排显示合并的财务报表中的公司。
@@ -221,6 +221,6 @@ ms.locfileid: "2176556"
 
 ## <a name="additional-resources"></a>其他资源
 
-有关合并和货币折算的详细信息，请参阅此主题的父主题，即 [财务合并和货币折算](./financial-consolidations-currency-translation.md)。
+有关合并和货币折算的详细信息，请参阅此主题的父主题，即[财务合并和货币折算概述](./financial-consolidations-currency-translation.md)。
 
-有关如何输入在线合并的详细信息的更多信息，请参阅[在线合并](./consolidate-online.md)。
+有关如何输入在线合并的详细信息的更多信息，请参阅[在线财务合并](./consolidate-online.md)。

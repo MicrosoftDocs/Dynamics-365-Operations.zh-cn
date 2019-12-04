@@ -3,7 +3,7 @@ title: 改进了批量跟踪物料的处理
 description: 本主题介绍了对零售对帐单过帐流程中批量跟踪物料的批次处理所做的改进。
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 11/04/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,19 +18,17 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 70d78f86f1df057d14d821a8c967e62eeeb4ff92
-ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
+ms.openlocfilehash: 5bbddf649f66ded9588cdb1e3f43c75630dc248a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622542"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770155"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>改进了批量跟踪物料的处理
 
 
 [!include [banner](includes/banner.md)]
-
-[!include [banner](includes/preview-banner.md)]
 
 
 在 Retail Point of Sale (POS) 中，无法在销售时捕获批量跟踪物料的批处理号。 但是，对于特定配置，在总部通过客户订单或对帐单过帐来过帐销售额时，Microsoft Dynamics 系统要求批量跟踪物料具备有效的批处理号，这些编号在开票流程中使用。

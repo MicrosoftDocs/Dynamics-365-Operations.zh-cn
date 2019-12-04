@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d51b9a7684e460d555632c3896e9dd8a4e10d92c
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 005b04bd4c3476356f30ba8e97564f83307a64c7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626170"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811730"
 ---
 # <a name="automatic-update-of-asset-counters"></a>自动更新资产计数器
 
@@ -43,16 +43,16 @@ ms.locfileid: "2626170"
 
 2. 在**开始日期**字段中，选择自动更新的开始日期。
 
->[!NOTE]
->此字段中的日期是来自**工艺路线交易记录**（**生产控制** > **查询和报表** > **生产** > **工艺路线交易记录** > **实际日期**字段）的“在制品”日期。
+    >[!NOTE]
+    >此字段中的日期是来自**工艺路线交易记录**（**生产控制** > **查询和报表** > **生产** > **工艺路线交易记录** > **实际日期**字段）的“在制品”日期。
 
 3. 在**要包括的记录**快速选项卡上，您可以选择特定资产、资产类型或资源来进行自动更新。 选择**筛选器**，然后进行相关选择。
 
 4. 在**在后台运行**快速选项卡上，可根据需要将自动更新设置为批处理作业。
 
-下图显示了**更新资产计数器**对话框的示例。
+    下图显示了**更新资产计数器**对话框的示例。
 
-![图 1](media/12-work-orders.png)
+    ![图 1](media/12-work-orders.png)
 
 5. 选择**确定**。 
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 2bb5dd5e29559807e40b66ad7f9c061bf510ed67
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ba0d11efe868d57c74f6ae4b069d1cb8351f7213
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026133"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773049"
 ---
 # <a name="provision-talent"></a>配置 Talent
 
@@ -49,12 +49,12 @@ ms.locfileid: "2026133"
 1. 在您的 LCS 项目中，选择 **Talent 应用管理**磁贴。
 2. 指示这是 Talent 的沙盒实例还是生产实例。 沙盒实例中可能提供提前预览功能以便提前反馈和测试。 
     > [!NOTE]
-    > Talent 实例类型独立于 PowerApps 环境的实例类型，后者是您在 PowerApps 管理中心中设置的。
+    > Talent 实例类型独立于 Microsoft Power Apps 环境的实例类型，后者是您在 Power Apps 管理中心中设置的。
 3. 如果希望环境中包含 Talent 测试驱动器体验中使用的相同演示数据集，请选择**包括演示数据**选项。 这对长期演示或培训环境有益，但切勿用于生产环境。  请注意，必须在初始部署之后立即选择此选项。 不能在以后更新现有部署。
-4. Talent 始终配置到 Microsoft PowerApps 环境，以支持 PowerApps 集成和可扩展性。 在继续之前，请阅读本主题的“选择 PowerApps 环境”部分。 如果您没有 PowerApps 环境，在 LCS 中选择“管理环境”或导航到 PowerApps 管理员中心。 然后按照步骤[创建 PowerApps 环境](https://docs.microsoft.com/powerapps/administrator/create-environment)。
+4. Talent 始终配置到 Microsoft Power Apps 环境，以支持 Power Apps 集成和可扩展性。 在继续之前，请阅读本主题的“选择 Power Apps 环境”部分。 如果您没有 Power Apps 环境，在 LCS 中选择“管理环境”或导航到 Power Apps 管理员中心。 然后按照步骤[创建 Power Apps 环境](https://docs.microsoft.com/powerapps/administrator/create-environment)。
 
     > [!NOTE]
-    > 若要查看现有的环境或创建新环境，必须为配置 Talent 的租户管理员分配 PowerApps P2 许可证。 如果您的组织没有 PowerApps P2 许可证，则可以从 CSP 或从 [PowerApps 定价](https://powerapps.microsoft.com/pricing/)页面获取一个。
+    > 若要查看现有的环境或创建新环境，必须为配置 Talent 的租户管理员分配 Power Apps P2 许可证。 如果您的组织没有 Power Apps P2 许可证，则可以从 CSP 或从 [Power Apps 定价](https://powerapps.microsoft.com/pricing/)页面获取一个。
 
 5. 选择要设置 Talent 的环境。
 6. 选择**是**同意条款并开始部署。
@@ -68,19 +68,19 @@ ms.locfileid: "2026133"
 
     > 由于 Talent 预订中仅允许两个 LCS 环境，所以可以考虑利用免费的 60 天的 [Talent 试用环境](https://dynamics.microsoft.com/talent/overview/)。 尽管试用环境归其请求用户所有，仍然可以通过 Core HR 的系统管理体验邀请其他用户。 试用环境中包含可用于以安全方式探索该程序的虚拟数据。 不应将其用作生产环境。 请注意，如果试用环境在 60 天后到期，其中的所有数据都将被删除且不可恢复。 现有环境过期后，可以注册新试用环境。
 
-## <a name="select-a-powerapps-environment"></a>选择 PowerApps 环境
+## <a name="select-a-power-apps-environment"></a>选择 Power Apps 环境
 
-通过 Talent 与 PowerApps 环境之间的集成，可使用 PowerApps 工具集成和扩展 Talent 数据的使用。 了解 PowerApps 环境的用途不仅有助于您构建扩展 Talent 的应用，还将帮助您在配置 Talent 时选择正确的环境。 有关 PowerApps 环境的信息，包括环境范围、环境访问和创建与选择环境，请参阅[介绍 PowerApps 环境](https://powerapps.microsoft.com/blog/powerapps-environments/)。 
+通过 Talent 与 Power Apps 环境之间的集成，可使用 Power Apps 工具集成和扩展 Talent 数据的使用。 了解 Power Apps 环境的用途不仅有助于您构建扩展 Talent 的应用，还将帮助您在配置 Talent 时选择正确的环境。 有关 Power Apps 环境的信息，包括环境范围、环境访问和创建与选择环境，请参阅[介绍 Power Apps 环境](https://powerapps.microsoft.com/blog/powerapps-environments/)。 
 
-在确定部署 Talent 的目标 PowerApps 环境时请使用以下指南： 
+在确定部署 Talent 的目标 Power Apps 环境时请使用以下指南： 
 
-1. 在 LCS 中，选择**管理环境**，或直接转到 PowerApps 管理员中心，您可以在那里查看现有的环境和创建新的环境。
-2. 单个 Talent 环境映射到单个 PowerApps 环境。
-3. PowerApps 环境包含 Talent，以及相应的 PowerApps、流和 Common Data Service 应用程序。 如果 PowerApps 环境被删除，其中的应用也会被删除。 在设置 Talent 环境时，可以设置**试用**或**生产**环境。 根据环境使用方式选择环境类型。 
-4. 应该考虑数据集成和测试策略，如沙盒、UAT 或生产。 建议您考虑对您的部署的各种影响，因为以后不容易更改将哪个 Talent 环境映射到 PowerApps 环境。
-5. 以下 PowerApps 环境不能用于 Talent，将从 LCS 内的选择列表中筛除：
+1. 在 LCS 中，选择**管理环境**，或直接转到 Power Apps 管理员中心，您可以在那里查看现有的环境和创建新的环境。
+2. 单个 Talent 环境映射到单个 Power Apps 环境。
+3. Power Apps 环境包含 Talent，以及相应的 Power Apps、Power Automate 和 Common Data Service 应用程序。 如果 Power Apps 环境被删除，其中的应用也会被删除。 在设置 Talent 环境时，可以设置**试用**或**生产**环境。 根据环境使用方式选择环境类型。 
+4. 应该考虑数据集成和测试策略，如沙盒、UAT 或生产。 建议您考虑对您的部署的各种影响，因为以后不容易更改将哪个 Talent 环境映射到 Power Apps 环境。
+5. 以下 Power Apps 环境不能用于 Talent，将从 LCS 内的选择列表中筛除：
  
-    - **默认 PowerApps 环境** - 虽然每个租户均自动配置为默认的 PowerApps 环境，但我们不建议在 Talent 中使用它们，因为所有租户用户均有权访问 PowerApps 环境，有可能会在使用 PowerApps 或流集成进行测试和探索时意外损坏生产数据。
+    - **默认 Power Apps 环境** - 虽然每个租户均自动配置为默认的 Power Apps 环境，但我们不建议在 Talent 中使用它们，因为所有租户用户均有权访问 Power Apps 环境，有可能会在使用 Power Apps 或 Power Automate 集成进行测试和探索时意外损坏生产数据。
    
     - **试用环境** - 这些环境在创建时有到期日期，在此时间过后将到期，从而导致自动删除您的环境和其中包含的所有 Talent 实例。
    

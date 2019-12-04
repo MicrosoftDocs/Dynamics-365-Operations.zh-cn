@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2339c6f901a3ef39ad4f9586b2f391b966a3df98
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2058eaac77282946559cae11fcec8152658fc96b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190135"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811349"
 ---
 # <a name="configure-parallel-branches-in-a-workflow"></a>配置工作流中的并行分支
 
@@ -46,8 +46,8 @@ ms.locfileid: "2190135"
 按照以下步骤可以设计和配置并行分支的元素。
 
 1. 双击并行分支。
-2. 将工作流元素拖到画布上，然后配置元素，就如您创建任何其他工作流一样。 有关详细信息，请参阅[创建工作流](create-workflow.md)。
+2. 将工作流元素拖到画布上，然后配置元素，就如您创建任何其他工作流一样。 有关详细信息，请参阅[创建工作流概览](create-workflow.md)。
 
 ## <a name="additional-resources"></a>其他资源
 
-[创建工作流](create-workflow.md)
+[创建工作流概览](create-workflow.md)

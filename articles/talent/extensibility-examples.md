@@ -1,6 +1,6 @@
 ---
-title: 使用 PowerApps 和 Microsoft Flow 扩展 Talent - 示例方案
-description: 本主题介绍 Microsoft Dynamics 365 Talent 的一些使用 Microsoft PowerApps 和 Microsoft Flow 的可扩展性方案示例。
+title: 通过 Power Apps 和 Power Automate 扩展 Talent
+description: 本主题介绍 Microsoft Dynamics 365 Talent 的一些使用 Microsoft Power Apps 和 Microsoft Power Automate 的可扩展性方案示例。
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 3bb61297e294aa3f2d06f542bebe29d7afae9c3b
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008051"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832830"
 ---
-# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>使用 PowerApps 和 Microsoft Flow 扩展 Talent - 示例方案
+# <a name="extend-talent-with-power-apps-and-power-automate"></a>通过 Power Apps 和 Power Automate 扩展 Talent
 
-本主题介绍 Microsoft Dynamics 365 Talent 的一些使用 Microsoft PowerApps 和 Microsoft Flow 的可扩展性方案示例。 可以将与各示例关联的解决方案包导入到您的 PowerApps 环境中。 然后可以将这些包用作指南或起点来实施适用于贵组织的方案。
+[!include [banner](includes/banner.md)]
+
+本主题介绍 Microsoft Dynamics 365 Talent 的一些使用 Microsoft Power Apps 和 Microsoft Power Automate 的可扩展性方案示例。 可以将与各示例关联的解决方案包导入到您的 Power Apps 环境中。 然后可以将这些包用作指南或起点来实施适用于贵组织的方案。
 
 > [!IMPORTANT]
 > 如果要“照原样”使用本主题中介绍的模板和应用，请务必测试这些模板和应用，以确保其涵盖特定于您的实施的所有方案。
@@ -36,11 +38,11 @@ ms.locfileid: "2008051"
 ## <a name="prerequisites"></a>先决条件
 
 - 若要导入包，用户必须具有**环境制造者**权限。
-- 若要导出或导入应用，用户必须拥有 PowerApps 计划 2 许可证或 PowerApps 计划 2 试用许可证。
+- 若要导出或导入应用，用户必须拥有 Power Apps 计划 2 许可证或 Power Apps 计划 2 试用许可证。
 
-## <a name="flow--form-connect"></a>流 – 表连接
+## <a name="power-automate--form-connect"></a>Power Automate – 表连接
 
-**流 – 表连接** 模板可用于从 Microsoft Forms 读取数据并存储到 Common Data Service 实体中。
+**Power Automate – 表连接**模板可用于从 Microsoft Forms 读取数据并存储到 Common Data Service 实体中。
 
 可扩展此模板，以使其可用于其他方案。 下面举了一些示例加以说明：
 
@@ -51,19 +53,19 @@ ms.locfileid: "2008051"
 
 在 Microsoft Dynamics 365: Attract 中，可以在应聘者门户中显示窗体，而应聘者可以填写详细信息。 也可以将窗体作为活动嵌入到工作模板中。
 
-应聘者提交窗体时，Microsoft Flow 捕获窗体提交，读取数据，然后将其存储到 Common Data Service 实体中。
+应聘者提交窗体时，Microsoft Power Automate 捕获窗体提交，读取数据，然后将其存储到 Common Data Service 实体中。
 
-若要下载**流 – 表连接**模板和自定义实体结构，请转至 Microsoft 下载中心中的[流 – 表连接](https://go.microsoft.com/fwlink/?linkid=2081988)。
+若要下载 **Power Automate – 表连接**模板和自定义实体结构，请转至 Microsoft 下载中心中的 [Power Automate – 表连接](https://go.microsoft.com/fwlink/?linkid=2081988)。
 
-## <a name="initiate-and-extract-parameters-passed-to-powerapps"></a>启动和提取传递到 Powerapps 的参数
+## <a name="initiate-and-extract-parameters-passed-to-power-apps"></a>启动和提取传递到 Power Apps 的参数
 
-**启动和提取传递到 Powerapps 的参数**模板可用作任何特定于 Attract 的 PowerApps 方案的起点。 其中包含 Attract 传递的所有默认参数，如**工作申请**、**应聘者 ID** 和 **工作 ID**。
+**启动和提取传递到 Power Apps 的参数**模板可用作任何特定于 Attract 的 Power Apps 方案的起点。 其中包含 Attract 传递的所有默认参数，如**工作申请**、**应聘者 ID** 和 **工作 ID**。
 
 此模板可用于检索应聘者评估表，这样招聘经理就可以查看应聘者填写的评估。
 
-可在 Attract 中将使用 PowerApps 创建的应用嵌入到工作模板内。
+可在 Attract 中将使用 Power Apps 创建的应用嵌入到工作模板内。
 
-若要下载**启动和提取传递到 Powerapps 的参数**模板和自定义实体结构，请转到 Microsoft 下载中心中的[启动和提取传递到 Powerapps 的参数](https://go.microsoft.com/fwlink/?linkid=2081991)。
+若要下载**启动和提取传递到 Power Apps 的参数**模板和自定义实体结构，请转到 Microsoft 下载中心中的[启动和提取传递到 Power Apps 的参数](https://go.microsoft.com/fwlink/?linkid=2081991)。
 
 ## <a name="integration-with-office-365"></a>与 Office 365 的集成
 
@@ -73,33 +75,33 @@ ms.locfileid: "2008051"
 
 若要下载**与 Office 365 的的集成**应用和自定义实体结构，请转到 Microsoft 下载中心中的[与 Office 365 的集成](https://go.microsoft.com/fwlink/?linkid=2081787)。
 
-## <a name="flow--email-notification"></a>流 – 电子邮件通知
+## <a name="power-automate--email-notification"></a>Power Automate – 电子邮件通知
 
-**流 – 电子邮件通知**模板可用于电子邮件通知方案。 可用于在招聘流程任何阶段向招聘团队拒绝的应聘者触发通知电子邮件。
+**Power Automate – 电子邮件通知**模板可用于电子邮件通知方案。 可用于在招聘流程任何阶段向招聘团队拒绝的应聘者触发通知电子邮件。
 
 可扩展此模板以在整个招聘流程中跟踪对应聘者阶段的更改，以及向招聘团队和应聘者发送通知。
 
 总之，对于 Common Data Service 中存储的实体，可以设置流程以发送有关 Core HR、Attract 或 Onboard 中发生的事件的通知。
 
-若要下载**流 – 电子邮件通知**模板，请转到 Microsoft 下载中心中的[流 – 电子邮件通知](https://go.microsoft.com/fwlink/?linkid=2082103)。
+若要下载 **Power Automate – 电子邮件通知**模板，请转到 Microsoft 下载中心中的 [Power Automate – 电子邮件通知](https://go.microsoft.com/fwlink/?linkid=2082103)。
 
-## <a name="flow--sql-connect-and-execute"></a>流 – SQL 连接和执行
+## <a name="power-automate--sql-connect-and-execute"></a>Power Automate – SQL 连接和执行
 
-**流 – SQL 连接和执行**模板连接到 Microsoft SQL Server 并让 SQL 查询运行。
+**Power Automate – SQL 连接和执行**模板连接到 Microsoft SQL Server 并让 SQL 查询运行。
 
 尽管此模板设计为读取和更新 SQL 表，但对其进行扩展，以便将其用于其他方案。 例如，可将其用于使用来自 SQL Server 的记录填充 Common Data Service 中的暂存表，以及通过使用来自 SQL Server 的增量推送定期同步暂存表。
 
-若要下载**流 – SQL 连接和执行**模板和自定义实体结构，请转至 Microsoft 下载中心中的[流 – SQL 连接和执行](https://go.microsoft.com/fwlink/?linkid=2081789)。
+若要下载 **Power Automate – SQL 连接和执行**模板和自定义实体结构，请转至 Microsoft 下载中心中的 [Power Automate – SQL 连接和执行](https://go.microsoft.com/fwlink/?linkid=2081789)。
 
-## <a name="flow--sharepoint-integration"></a>流 – SharePoint 集成
+## <a name="power-automate--sharepoint-integration"></a>Power Automate – SharePoint 集成
 
-**流 – SharePoint 集成**模板可用于从 Microsoft SharePoint 列表读取数据，将该列表与任何 Common Data Service 实体的字段值进行比较，以及将比较结果以通知电子邮件的形式发送。 
+**Power Automate – SharePoint 集成**模板可用于从 Microsoft SharePoint 列表读取数据，将该列表与任何 Common Data Service 实体的字段值进行比较，以及将比较结果以通知电子邮件的形式发送。 
 
 组织可能有一组急需的技能。 这些技能可以以 SharePoint 列表的形式存储在 SharePoint 中。 当应聘者申请列出了一组必需技能的任何工作时，如果应聘者的技能与 SharePoint 中存储的技能之间匹配度极高，将发送通知电子邮件。 这样，将更快填充急需职位，因为通知会帮助招聘人员联系应聘者和在整个组织中交叉招聘应聘者。
 
 可扩展此模板，以便其可用于涉及 SharePoint 集成的任何方案。
 
-若要下载**流 – SharePoint 集成**模板，请转到 Microsoft 下载中心中的[流 – SharePoint 集成](https://go.microsoft.com/fwlink/?linkid=2082109)。
+若要下载 **Power Automate – SharePoint 集成**模板，请转到 Microsoft 下载中心中的 [Power Automate – SharePoint 集成](https://go.microsoft.com/fwlink/?linkid=2082109)。
 
 ## <a name="referral-app"></a>Referral 应用
 您可以使用 Referral 应用将应聘者添加到共享人才池。 引荐人在提交应聘者时可以输入**名字**、**姓氏**、**电子邮件**和 **Linkedln URL**。 应聘者源元数据然后会使用引荐人的信息填充。

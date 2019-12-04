@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
-ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
+ms.openlocfilehash: 16a67ef625fdde0755e96c959be1fb2989ca53b6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2666822"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770658"
 ---
 # <a name="sales-tax-overview"></a>销售税概览
 
@@ -38,7 +38,7 @@ ms.locfileid: "2666822"
 
 下图显示税务设置的实体，以及它们如何关联。
 
-[![税概览](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![显示税务设置实体概览的图](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 对于公司必须考虑的每个销售税，必须定义销售税代码。 销售税代码存储销售税的税率和计算规则。 
 

@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Dynamics 365 Talent - Attract 中配置公司信息
+title: 在 Attract 中配置公司信息
 description: 本主题说明如何为 Microsoft Dynamics 365 Talent - Attract 配置公司信息和品牌。
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7013065a9494cb407020de2ebcad4058dd57c6c4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: db3ec965f3a52810d5f310697b9ed830c3abe681
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551582"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833246"
 ---
-# <a name="configure-company-information-in-microsoft-dynamics-365-talent---attract"></a>在 Microsoft Dynamics 365 Talent - Attract 中配置公司信息
-[!include[banner](../includes/banner.md)]
+# <a name="configure-company-information-in-attract"></a>在 Attract 中配置公司信息
+
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract 中的管理员中心包含配置设置、集成选项和 Attract 应用程序的设置选项。
 
@@ -48,11 +49,11 @@ Microsoft Dynamics 365 Talent: Attract 中的管理员中心包含配置设置�
 
 ## <a name="template-management"></a>模板管理
 
-流程模板包含应作为工作招聘流程的一部分包含的所有活动。 您的组织可以允许所有团队成员或仅管理员创建招聘流程模板。 若要允许团队成员创建他们自己的招聘流程模板，请打开“模板管理”功能。 有关流程模板的详细信息，请参阅 [Attract 中的流程模板](./process-templates-attract.md)。
+流程模板包含应作为工作招聘流程的一部分包含的所有活动。 您的组织可以允许所有团队成员或仅管理员创建招聘流程模板。 若要允许团队成员创建他们自己的招聘流程模板，请打开“模板管理”功能。 有关流程模板的详细信息，请参阅[在 Attract 中创建流程模板](./process-templates-attract.md)。
 
 ## <a name="email-template-settings"></a>电子邮件模板设置
 
-组织可以为各种场景创建电子邮件模板。 您可以选择包含在电子邮件模板中的标题图像。 选定的标题随后将显示在所有电子邮件模板中。 在模板页脚中，您可以出于宣传目的添加您的组织的隐私声明和使用条款的链接。 有关详细信息，请参阅 [Attract 中的电子邮件模板](./email-templates.md)。
+组织可以为各种场景创建电子邮件模板。 您可以选择包含在电子邮件模板中的标题图像。 选定的标题随后将显示在所有电子邮件模板中。 在模板页脚中，您可以出于宣传目的添加您的组织的隐私声明和使用条款的链接。 有关详细信息，请参阅[电子邮件模板](./email-templates.md)。
 
 ## <a name="offer-process"></a>聘约流程
 

@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c286587add6cb38f5fe2728e29fe8b3ac528165
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250775"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814322"
 ---
 # <a name="inventory-management-overview"></a>库存管理概览
 
@@ -51,7 +51,7 @@ ms.locfileid: "2250775"
 转到 [Microsoft Dynamics 365 路线图](https://roadmap.dynamics.com/)以了解已发布和正在开发的新功能。
 
 ### <a name="inventory-accounting"></a>库存会计 
-若要了解更多信息，请参阅[成本管理中的库存会计](../cost-management/inventory-close.md)。
+若要了解更多信息，请参阅[库存结转](../cost-management/inventory-close.md)。
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>制造和 Supply Chain Management 博客
 您可以在 [Dynamics AX 制造研发团队博客](https://blogs.msdn.microsoft.com/axmfg)和 [Dynamics AX 研发团队中的供应链管理博客](https://blogs.msdn.microsoft.com/dynamicsaxscm)中找到有关库存管理及其他解决方案的建议、新闻和其他信息。

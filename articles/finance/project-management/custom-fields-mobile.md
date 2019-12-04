@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 4343c875da05641c57b7784bf52f1c814dd26d20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174767"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773637"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>为 iOS 和 Android 上的 Microsoft Dynamics 365 Project Timesheet 移动应用实施自定义字段
 
@@ -321,13 +321,9 @@ final class TSTimesheetEntryService_Extension
 
 ![“查看更多详细信息”命令](media/show-more.png)
 
-
-
 下面是移动应用显示工时表的“更多”部分的屏幕快照。 已向工时表标题部分添加了一个名称为“此工时单的利用率 (计算自定义字段)”的自定义字段。 为这个自定义字段设置了只读值“0.667”。
 
 ![“更多”部分](media/more-section.jpg)
-
-
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>扩展 TSTimesheetTable 表，使其具有自定义字段
 

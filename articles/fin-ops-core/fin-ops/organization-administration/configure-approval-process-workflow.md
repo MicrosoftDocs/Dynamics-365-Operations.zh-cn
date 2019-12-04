@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b09d09464eae932bf9caf4f2ea38cbbb3b4f0162
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4032d5e56b9dd014ec0472abfc1b2ad4a15ff1d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190204"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811373"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>配置工作流中的审核流程
 
@@ -182,4 +182,4 @@ ms.locfileid: "2190204"
 
 1. 在工作流编辑器中，双击审核流程。 工作流编辑器显示审核流程的步骤。
 2. 要添加审核步骤，请将步骤从**工作流元素**区域拖到画布。
-3. 要配置审核步骤，请参阅“[配置审核步骤](configure-approval-step-workflow.md)”。
+3. 要配置审核步骤，请参阅[配置工作流中的审核步骤](configure-approval-step-workflow.md)。

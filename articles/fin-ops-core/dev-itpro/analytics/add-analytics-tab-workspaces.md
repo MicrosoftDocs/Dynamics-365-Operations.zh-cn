@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: dd88537506521fd37aa170c7e8f43bcf5a106836
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174343"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771625"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>使用 Power BI Embedded 将分析添加到工作区
 
@@ -102,7 +102,7 @@ ms.locfileid: "2174343"
 > [!NOTE]
 > 对于嵌入的工作区，为了获得一致性，我们建议你使用扩展以同时隐藏**筛选器窗格**和**选项卡**页。
 
-你现在已完成了扩展应用程序窗体定义的任务。 有关如何使用扩展执行自定义的详细信息，请参阅[自定义：覆盖和扩展](../extensibility/customization-overlayering-extensions.md)。
+你现在已完成了扩展应用程序窗体定义的任务。 有关如何使用扩展执行自定义的详细信息，请参阅[通过扩展和覆盖进行自定义](../extensibility/customization-overlayering-extensions.md)。
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>添加 X++ 业务逻辑以嵌入查看器控件
 按照下面的步骤添加初始化在**预订管理**工作区中嵌入的报表查看器控件的业务逻辑。

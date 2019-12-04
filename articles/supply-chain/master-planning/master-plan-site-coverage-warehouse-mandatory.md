@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f61c142fff73fdeeca573cca3f54e654511af1e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 132817fefb9592764d1adaf9f714c27108ce88ae
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556404"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815103"
 ---
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>站点覆盖范围的主计划，仓库为必需
 
@@ -51,15 +51,15 @@ ms.locfileid: "1556404"
 <a name="additional-resources"></a>其他资源
 --------
 
-[主计划和多站点功能](master-plan-multisite-functionality.md)
+[主计划和多站点功能概览](master-plan-multisite-functionality.md)
 
-[主计划 - 站点和仓库覆盖范围，仓库是必需的](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[站点和仓库覆盖范围的主计划（仓库必需）](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[主计划 - 站点覆盖范围，仓库是必需的](master-plan-site-coverage-warehouse-mandatory.md)
+[站点覆盖范围的主计划（仓库必需）](master-plan-site-coverage-warehouse-mandatory.md)
 
-[主计划 - 站点和仓库覆盖范围，仓库不是必需的](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[站点和仓库覆盖范围的主计划（仓库非必需）](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[主计划 - 如何确定物料清单版本](master-plan-bom-version-determined.md)
+[确定物料清单版本](master-plan-bom-version-determined.md)
 
 
 
