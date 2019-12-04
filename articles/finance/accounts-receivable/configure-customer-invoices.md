@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa49b70b07ac3dc6cbc5989b11981098f22be89c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0f5b9866fc7afba205b84b372c6a204ec4c8f64d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189146"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772712"
 ---
 # <a name="create-a-customer-invoice"></a>创建客户发票
 
@@ -37,9 +37,9 @@ ms.locfileid: "2189146"
 
 [创建普通发票](../accounts-receivable/create-free-text-invoice-new.md)
 
-[创建普通模板](../accounts-receivable/create-free-text-invoice-template-new.md)
+[创建普通发票模板](../accounts-receivable/create-free-text-invoice-template-new.md)
 
-[向客户分配普通发票模板](tasks/assign-free-text-invoice-template-customer.md)
+[将普通发票模板分配给客户](tasks/assign-free-text-invoice-template-customer.md)
 
 [生成和过帐重复执行普通发票](tasks/post-recurring-free-text-invoices.md)
 

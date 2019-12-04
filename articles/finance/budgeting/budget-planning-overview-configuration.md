@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce94f3bbb988640bc53ca2170c7ed54c6c01c18
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5a33ced073394f0f3aa1b0b2e177e4608ca5bcf6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176638"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772022"
 ---
 # <a name="budget-planning-overview"></a>预算计划概览
 
@@ -155,7 +155,8 @@ ms.locfileid: "2176638"
 
 您也可以指定每个布局元素（列）是否可编辑，以及其是否可用于为该布局创建的任何工作表模板。 对于示例架构，在用于估计阶段的布局中，预测列可编辑，而 PY 销售和合同列都是只读的。
 
-[!Note] 默认情况下，除非使用[扩展预算计划布局](./extending-budget-planning-layout.md)中的步骤扩展预算计划，否则限制为 36 列。
+> [!NOTE] 
+> 默认情况下，除非使用[扩展预算计划布局](./extending-budget-planning-layout.md)中的步骤扩展预算计划，否则限制为 36 列。
 
 ### <a name="templates"></a>模板
 

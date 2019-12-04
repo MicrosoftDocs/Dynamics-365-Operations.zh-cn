@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 731b6a61bd78388f3db0a7007478e3a5e9629a49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181419"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771275"
 ---
 # <a name="generate-printable-fti-forms"></a>生成可打印的 FTI 窗体
 
@@ -41,7 +41,7 @@ ms.locfileid: "2181419"
 在可打印 FTI 表单的自定义解决方案中，必须创建一组 ER 配置。
 
 ### <a name="configure-the-er-data-model"></a>配置 ER 数据模型
-您的应用程序中必须包含 ER 数据模型配置，其中包含一个数据模型，用于描述客户开票业务域。 按照要求，此数据模型的名称必须为 **CustomersInvoicing**。 有关如何设计 ER 数据模型的信息，请参阅[为电子申报 (ER) 设计域特定的数据模型](tasks/er-design-domain-specific-data-model-2016-11.md)。
+您的应用程序中必须包含 ER 数据模型配置，其中包含一个数据模型，用于描述客户开票业务域。 按照要求，此数据模型的名称必须为 **CustomersInvoicing**。 有关如何设计 ER 数据模型的信息，请参阅 [ER 设计域特定数据模型](tasks/er-design-domain-specific-data-model-2016-11.md)。
 
 ### <a name="configure-the-er-model-mapping"></a>配置 ER 模型映射
 您的应用程序中必须包含 CustomersInvoicing 数据模型的 ER 模型映射。 此模型映射可以为 ER 数据模型配置或 ER 模型映射配置。 但是，该模型映射的根描述符的名称必须为 **FreeTextInvoice**。
@@ -62,7 +62,7 @@ ms.locfileid: "2181419"
 
 应用程序源代码的 **ERPrintMgmtReportFormatSubscriber** 类（ER 应用程序套件集成模型）中包含有关应用程序与 ER 框架之间的集成的详细信息。
 
-有关设计 ER 模型映射的详细信息，请参阅[为电子申报 (ER) 定义模型映射和选择数据源](tasks/er-define-model-mapping-select-data-sources-2016-11.md)。
+有关设计 ER 模型映射的详细信息，请参阅[定义 ER 模型映射并从中选择数据源](tasks/er-define-model-mapping-select-data-sources-2016-11.md)。
 
 ### <a name="configure-the-er-format"></a>配置 ER 格式
 在您的应用程序实例中，必须设置要用于生成 FTI 表单的 ER 格式配置。 
@@ -70,7 +70,7 @@ ms.locfileid: "2181419"
 > [!NOTE]
 > 必须为 CustomersInvoicing 数据模型创建此格式配置，并且此格式配置必须使用具有 **FreeTextInvoice** 根描述符的模型映射。
 
-有关如何配置 ER 格式的信息，请参阅[为电子申报 (ER) 创建格式配置](tasks/er-format-configuration-2016-11.md)。 有关如何设计 ER 格式以生成 OpenXML 格式的报表的信息，请参阅[为电子申报 (ER) 设计用于生成 OpenXML 格式的报表的配置](tasks/er-design-reports-openxml-2016-11.md)。
+有关如何配置 ER 格式的信息，请参阅 [ER 创建格式配置（2016 年 11 月）](tasks/er-format-configuration-2016-11.md)。 有关如何设计 ER 格式以生成 OpenXML 格式的报表的信息，请参阅 [ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）](tasks/er-design-reports-openxml-2016-11.md)。
 
 ## <a name="configure-print-management"></a>配置打印管理
 若要通过使用 ER 框架生成 FTI 表单，可以按照分配 SSRS 报表的相同方法分配 ER 格式。 若要将 ER 格式与所有应收帐款 FTI 关联，请转至**应收帐款** \> **设置** \> **表单** \> **表单设置** \> **常规** \> **打印管理** \> **普通发票** \> **原件**。 若要将 ER 格式与特定客户或发票关联，请执行以下步骤。
@@ -94,7 +94,7 @@ FTI 表单在 ER 框架中按照生成 SSRS 报表的相同方法生成。
 
 ![发票预览](media/FTIbyGER-InvoiceExcelPreview.png)
 
-按照这种方式使用 ER 格式打印 FTI 表单时，将使用默认 ER 文件目标。 不能更改该目标。 有关如何为 ER 格式配置 ER 目标的详细信息，请参阅[电子申报目标](electronic-reporting-destinations.md)。
+按照这种方式使用 ER 格式打印 FTI 表单时，将使用默认 ER 文件目标。 不能更改该目标。 有关如何为 ER 格式配置 ER 目标的详细信息，请参阅[电子申报 (ER) 目标](electronic-reporting-destinations.md)。
 
 也可以在发布 FTI 时生成 FTI 表单，方法是开启**打印发票**并关闭**使用打印管理目标**。
 
@@ -221,7 +221,7 @@ ER 框架当前支持生成的文档采用以下目标：
 - 将把“%5”替换为公司的联系人的职称。
 - 将把“%6”替换为公司的联系人的电子邮件地址。
 
-![电子邮件](media/FTIbyGER-Email.PNG)
+![电子邮件地址](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>其他资源
-[电子申报概览](general-electronic-reporting.md)
+[电子申报 (ER) 概览](general-electronic-reporting.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb318c24424c291f08ba7527b2258c0da4cba9a8
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 53100a897dc71758b8920672fea1e684817cb4b7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571660"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812275"
 ---
 # <a name="inbound-and-outbound-assets"></a>入站资产和出站资产
 
@@ -34,7 +34,7 @@ ms.locfileid: "2571660"
 如果公司对从其他位置或客户收到的资产执行维修作业或维护作业，资产管理同时可跟踪正在前往公司的入站资产和正在退回的出站资产。
 
 > [!NOTE]
-> 如果要使用入站生命周期状态和出站生命周期状态管理正在前来的资产和正在退回的资产，则必须设置维护请求生命周期状态和生命周期模型来支持这些操作。 有关详细信息，请参阅[维护请求的设置](../setup-for-maintenance-requests/requests.md)。
+> 如果要使用入站生命周期状态和出站生命周期状态管理正在前来的资产和正在退回的资产，则必须设置维护请求生命周期状态和生命周期模型来支持这些操作。 有关详细信息，请参阅[维护请求](../setup-for-maintenance-requests/requests.md)。
 
 资产管理的设置决定是否可以使用入站资产和出站资产。
 

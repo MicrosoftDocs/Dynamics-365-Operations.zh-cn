@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 38f0db7db0cc4f65d46cd241f75a7274f19f62cf
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 1a96fda4e7f7b6407c51ee4056088d05027462cf
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251377"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813239"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>将 Supply Chain Management 的产品直接同步到 Sales
 
@@ -43,7 +43,7 @@ ms.locfileid: "2251377"
 
 ## <a name="templates-and-tasks"></a>模板和任务
 
-若要访问可用模板，打开 [PowerApps 管理员中心](https://admin.powerapps.com/dataintegration)。 选择**项目**，然后在右上角，选择**新项目**以选择公共模板。
+若要访问可用模板，打开 [Power Apps 管理员中心](https://admin.powerapps.com/dataintegration)。 选择**项目**，然后在右上角，选择**新项目**以选择公共模板。
 
 以下模板和基础任务用于将产品从 Supply Chain Management 同步到 Sales。
 
@@ -116,9 +116,9 @@ ms.locfileid: "2251377"
 
 [将 Sales 的联系人直接同步到 Supply Chain Management 中的联系人或客户](contacts-template-mapping-direct.md)
 
-[将 Sales 的销售订单头和行直接从 Supply Chain Management 同步到 Sales](sales-order-template-mapping-direct-two-ways.md)
+[直接在 Sales 和 Supply Chain Management 之间同步销售订单](sales-order-template-mapping-direct-two-ways.md)
 
-[将销售发票头和行直接从 Supply Chain ManagementSupply Chain Management 同步到 Sales](sales-invoice-template-mapping-direct.md)
+[将 Sales 的销售发票头和行直接从 Supply Chain Management 同步到 Sales](sales-invoice-template-mapping-direct.md)
 
 
 

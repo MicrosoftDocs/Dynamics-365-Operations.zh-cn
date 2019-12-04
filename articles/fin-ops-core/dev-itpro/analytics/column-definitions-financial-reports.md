@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 54e7d517e704b7162f3e091330a246386f0203ea
-ms.sourcegitcommit: d800613020d5548d100c8f240fb81bb6258a3646
+ms.openlocfilehash: 68a92610a880c574b4a3a48951c432bc2764c24b
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "2572633"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771533"
 ---
 # <a name="column-definitions-in-financial-reports"></a>财务报表中的列定义
 
@@ -598,6 +598,6 @@ Phyllis 已在她的列定义中做出了以下货币选择：
 
 ## <a name="additional-resources"></a>其他资源
 
-[财务申报中的行定义](row-definitions-financial-reporting.md)
+[财务报表设计器中的行定义](row-definitions-financial-reporting.md)
 
 [财务申报中的高级格式设置选项](advanced-formatting-options-financial-reporting.md)

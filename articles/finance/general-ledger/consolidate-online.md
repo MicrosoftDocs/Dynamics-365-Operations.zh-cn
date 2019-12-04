@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: eadf0af285213a972cac83d7b6fc6a47317b21bb
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551649"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770727"
 ---
 # <a name="online-financial-consolidations"></a>在线财务合并
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍总帐中的在线财务合并。 阅读此主题之前，务必阅读[财务合并和货币折算](financial-consolidations-currency-translation.md)主题。
+此主题介绍总帐中的在线财务合并。 阅读此主题之前，务必阅读[财务合并和货币折算概述](financial-consolidations-currency-translation.md)主题。
 
 完成设置后，在 **[在线] 合并**页中输入合并的详细信息。 完成后，可单击**确定**或**批处理**处理合并。
 
@@ -69,7 +69,7 @@ ms.locfileid: "2551649"
 
 ![“法人”选项卡](./media/legal-entities-cons.png "“法人”选项卡")
 
-![“自动交易记录科目”页](./media/accounts-for-automatic-cons.png "“自动交易记录科目”页")
+![自动交易记录帐户页面](./media/accounts-for-automatic-cons.png "自动交易记录帐户页面")
 
 ## <a name="elimination"></a>清除
 在**清除**选项卡上，有三个用于处理清除的选项：
@@ -93,6 +93,6 @@ ms.locfileid: "2551649"
 
 ## <a name="additional-resources"></a>其他资源
 
-有关合并和货币折算的详细信息，请参阅此主题的父主题，即 [财务合并和货币折算](./financial-consolidations-currency-translation.md)。
+有关合并和货币折算的详细信息，请参阅此主题的父主题，即[财务合并和货币折算概述](./financial-consolidations-currency-translation.md)。
 
 有关可以生成财务报表的方案的信息，请参阅[生成合并的财务报表](./generating-consolidated-financial-statements.md)。

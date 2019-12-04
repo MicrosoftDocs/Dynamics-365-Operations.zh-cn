@@ -1,5 +1,5 @@
 ---
-title: 将工作从 Microsoft Dynamics 365 Talent - Attract 发布到 LinkedIn
+title: 将工作从 Attract 发布到 LinkedIn
 description: 本主题说明如何使用 Dynamics 365 Talent - Attract 将工作发布到 LinkedIn。
 author: andreabichsel
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: e2b8065fe2521694efb30478a5a41676cff45127
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 782a2e5de6edf0e85c4d32a0910f5f3c01981a01
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551487"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832992"
 ---
-# <a name="post-jobs-to-linkedin-from-microsoft-dynamics-365-talent---attract"></a>将工作从 Microsoft Dynamics 365 Talent - Attract 发布到 LinkedIn
+# <a name="post-jobs-to-linkedin-from-attract"></a>将工作从 Attract 发布到 LinkedIn
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 LinkedIn 是最大的在线职业网络，让您可以访问世界顶级人才。 Microsoft Dynamics 365 Talent: Attract 通过让您将工作直接从 Attract 发布到 LinkedIn，帮助您获得所需的人才。
 
@@ -46,7 +46,7 @@ Attract 让您可以在 LinkedIn 中发布 Limited Listings（有限列表），
 
 有关 Attract 中用户角色的详细信息，请参阅 [Attract 中的安全和角色管理](./security-attract.md)。
 
-如果您是管理员并需要有关如何使用 Attract 配置 LinkedIn 集成的更多信息，请参阅[设置与 LinkedIn 的集成](./attract-admin-linkedin.md)。
+如果您是管理员并需要有关如何使用 Attract 配置 LinkedIn 集成的更多信息，请参阅[为 Microsoft Dynamics 365 Talent - Attract 设置与 LinkedIn 的集成](./attract-admin-linkedin.md)。
 
 发布到 LinkedIn 的工作将显示在实际的 LinkedIn 网站上。 LinkedIn 没有发布工作的测试环境。 因此，请确保您不会意外发布任何测试工作。
 
@@ -67,15 +67,15 @@ Attract 让您可以在 LinkedIn 中发布 Limited Listings（有限列表），
 
 通过 Attract 完成的所有工作发布都是 Limited Listings（有限列表）。 关 LinkedIn 上 Limited Listings（有限列表）的详细信息，请参阅 [Limited Listings（有限列表）与 Job Wrapping（工作包装）的 Premium Job Slots（高级职位空缺）](https://www.linkedin.com/help/recruiter/answer/79049)。
 
-如果您在向 LinkedIn 发布工作时遇到问题，请参阅[将工作发布到 LinkedIn 疑难解答](./attract-troubleshoot-linkedin.md)。
+如果您在向 LinkedIn 发布工作时遇到问题，请参阅 [LinkedIn 和 Microsoft Dynamics 365 Talent - Attract 集成疑难解答](./attract-troubleshoot-linkedin.md)。
 
 ## <a name="see-also"></a>请参阅
 
-[LinkedIn 常见问题](./attract-linkedin-faq.md)
+[Attract 与 LinkedIn 集成的常见问题](./attract-linkedin-faq.md)
 
-[设置与 LinkedIn 的集成](./attract-admin-linkedin.md)
+[为 Microsoft Dynamics 365 Talent - Attract 设置与 LinkedIn 的集成](./attract-admin-linkedin.md)
 
-[创建工作](./creating-jobs-attract.md)
+[在 Attract 中创建、审核和发布工作](./creating-jobs-attract.md)
 
 [使用 LinkedIn Recruiter 寻求应聘者](./attract-linkedin-recruiter.md)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b01e7e8e79061c7a306f00f041413cc1c5185cfe
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2f39ce63b6d9d57e245fbdce27bd11a8cbc3eebf
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572259"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813399"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>针对采购订单的物料收货
 
@@ -61,9 +61,9 @@ ms.locfileid: "2572259"
 
 [采购订单概览](purchase-order-overview.md)
 
-[采购订单创建](purchase-order-creation.md)
+[创建采购订单](purchase-order-creation.md)
 
-[采购订单审核和确认](purchase-order-approval-confirmation.md)
+[审核和确认采购订单](purchase-order-approval-confirmation.md)
 
 [供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
 

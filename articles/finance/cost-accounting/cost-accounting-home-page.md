@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 074132af2111debee4bea894b559744b4470454d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78b3b20ed56cbb6404f5526e90fdcefcaec9bf3f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176609"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771953"
 ---
 # <a name="cost-accounting-home-page"></a>成本核算主页
 
@@ -39,17 +39,17 @@ ms.locfileid: "2176609"
 
 |      |   |
 |------|---|
-|  [配置基本实体（网络培训）](https://mbspartner.microsoft.com/Home)（需要 CustomerSource 帐户）  |[创建维度](cost-elements.md)  |
-|  [创建维度层次结构](dimension-hierarchy.md)  |[创建基本设置](./tasks/define-cost-control-units.md)| 
-| [定义分配基础](allocation-bases.md)|[定义策略](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [数据源与数据提供程序](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [数据源与数据提供程序](./tasks/process-trace-source-data.md)     | 
-|[开销计算](overhead-calculation.md)  | [分析和报告](cost-control-workspace.md)   |
+|  [配置基本实体（网络培训）](https://mbspartner.microsoft.com/Home)（需要 CustomerSource 帐户）  |[成本元素维度](cost-elements.md)  |
+|  [维度层次结构](dimension-hierarchy.md)  |[定义成本控制单元](./tasks/define-cost-control-units.md)| 
+| [分配基数](allocation-bases.md)|[创建成本分配政策并将其分配到成本控制单元](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [管理成本核算分类帐的数据源](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [处理和跟踪源数据](./tasks/process-trace-source-data.md)     | 
+|[开销计算](overhead-calculation.md)  | [成本控制工作区](cost-control-workspace.md)   |
 
 ## <a name="get-started-videosbr"></a>入门视频<br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
 | [开始使用成本核算](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [成本核算移动工作区](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [使用 Excel 执行成本核算分析](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
-|  |  |                             |
+
 
 

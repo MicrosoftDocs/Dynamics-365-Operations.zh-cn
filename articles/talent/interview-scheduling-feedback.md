@@ -1,5 +1,5 @@
 ---
-title: 面试计划和反馈
+title: 在 Attract 中计划面试
 description: 此主题提供有关 Attract 中的面试计划和反馈活动的信息。
 author: hasrivas
 manager: AnnBe
@@ -14,16 +14,16 @@ ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
 ms.author: shielas
-ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 33eba9796ca997fde4be9a46050207d313551bde
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517417"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832737"
 ---
-# <a name="interview-scheduling-and-feedback"></a>面试计划和反馈
+# <a name="schedule-interviews-in-attract"></a>在 Attract 中计划面试
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 ## <a name="scheduler-activity"></a>计划程序活动
 

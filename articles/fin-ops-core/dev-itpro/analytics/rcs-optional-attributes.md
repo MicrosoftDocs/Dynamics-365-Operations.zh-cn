@@ -16,18 +16,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5e2989906c5aa3ead9e46b8ed5333e880e5cf1c6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182822"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769939"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>导入包含可选属性的 XML 格式文件
 
 可以设计电子申报 (ER) 格式以分析 XML 格式的传入电子单据。 可以将所设计 ER 格式中 XML 元素的某些属性指定为可选。 这样就可以正确处理拥有此类 XML 元素和没有此类元素的传入文件。 然后可以使用这些文件中的内容更新申请表数据。
 
-若要了解有关此功能的详细信息，请完成[RCS 导入包含可选属性的 XML 格式文件](tasks/import-files-xml-format-optional-attributes.md)主题中的步骤，该主题是 7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677) 业务流程的一部分。 可从 [Microsoft 下载中心](https://go.microsoft.com/fwlink/?linkid=874684)下载此任务指南和关联的示例文件。
+若要了解有关此功能的详细信息，请完成 [(RCS) 导入包含可选属性的 XML 格式文件](tasks/import-files-xml-format-optional-attributes.md)主题中的步骤，该主题是 7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677) 业务流程的一部分。 可从 [Microsoft 下载中心](https://go.microsoft.com/fwlink/?linkid=874684)下载此任务指南和关联的示例文件。
 
 
 | 内容描述       | 文件                                                         |
@@ -36,10 +36,10 @@ ms.locfileid: "2182822"
 | 任务指南                | RCS 使用可选的 attributes.axtr 导入 XML 格式的文件 |
 
 
-以下步骤说明系统管理员或电子报表开发人员角色的用户如何设计 ER 格式配置，以便导入包含可选属性的 XML 格式文件。 为了完成这些步骤，您必须首先完成[创建配置提供程序并标记为当前运行的](tasks/er-configuration-provider-mark-it-active-2016-11.md)这一过程中的步骤。 开始之前，从 Microsoft 下载中心 (https://go.microsoft.com/fwlink/?linkid=874684) 下载 IncomingDocumentToLearnHowToHandleOptionalAttributes.xml 文件并保存到本地。
+以下步骤说明系统管理员或电子报表开发人员角色的用户如何设计 ER 格式配置，以便导入包含可选属性的 XML 格式文件。 为了完成这些步骤，您必须首先完成[创建配置提供程序并标记为当前运行的](tasks/er-configuration-provider-mark-it-active-2016-11.md)过程中的步骤。 开始之前，从 Microsoft 下载中心 (https://go.microsoft.com/fwlink/?linkid=874684) 下载 IncomingDocumentToLearnHowToHandleOptionalAttributes.xml 文件并保存到本地。
 
 1. 转到**组织管理** > **工作区** > **电子申报**。
-2. 确保示例公司 Litware 公司的配置提供程序可用且标记为**有效**。 如果没有看到此配置提供程序，请首先完成[创建配置提供程序并标记为当前运行的](tasks/er-configuration-provider-mark-it-active-2016-11.md)主题中的步骤。
+2. 确保示例公司 Litware 公司的配置提供程序可用且标记为**有效**。 如果没有看到此配置提供程序，请首先完成[创建配置提供程序并标记为当前运行的](tasks/er-configuration-provider-mark-it-active-2016-11.md)这一主题中的步骤。
 3. 单击**申报配置**。
 
 ## <a name="create-a-new-data-model-configuration"></a>创建新的数据模型配置

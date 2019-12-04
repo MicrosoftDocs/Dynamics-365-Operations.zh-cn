@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f7d98d7ab9b375bfeb8784596753ca956f96e36
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1e9f185ac95371bb841e55184650b8089040676c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189721"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772252"
 ---
 # <a name="accounting-distributions"></a>会计分配
 
@@ -55,6 +55,6 @@ ms.locfileid: "2189721"
 -   **查看分配** – 查看凭证中所有行和货币金额的会计分配。 您无法从此视图修改会计分配。
 
 
-有关详细信息，请参阅[会计分配和普通发票的子分类日记帐条目](accounting-distributions-subledger-journal-entries-vendor-invoices.md)。
+有关详细信息，请参阅[会计分配和供应商的子分类日记帐条目](accounting-distributions-subledger-journal-entries-vendor-invoices.md)。
 
 

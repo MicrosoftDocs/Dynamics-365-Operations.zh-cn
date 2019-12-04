@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0f4c68acfe021e736c259e91a40ce7d43d401246
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551994"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812871"
 ---
 # <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>编辑 Dynamics 365 Talent - Onboard 中的入职指南和模板
 
@@ -124,7 +124,7 @@ ms.locfileid: "2551994"
 
     - 要添加 YouTube 视频，请将 **YouTube** 项目拖至编辑区域，输入活动的名称和描述，然后输入 YouTube 视频的 URL。
     - 要添加 Sway 演示文稿或新闻稿，请将 **Sway** 项目拖到编辑区域，输入活动的名称和描述，然后输入 Sway 演示文稿或新闻稿的嵌入 URL。
-    - 要添加 PowerApps 应用，请将 **PowerApps** 项目拖动到编辑区域，输入活动的名称和描述，然后选择 PowerApps 应用或输入 PowerApps 应用 ID。
+    - 要添加 Microsoft Power Apps 应用，请将 **Power Apps** 项目拖动到编辑区域，输入活动的名称和描述，然后选择 Power Apps 应用或输入 Power Apps 应用 ID。
     - 要添加 Microsoft Stream 视频，请将 **Microsoft Stream** 项目拖到编辑区域，输入活动的名称和描述，然后输入 Microsoft Stream 视频的 URL。
     - 要添加 Microsoft Forms 表单，请将 **Microsoft Forms** 项目拖到编辑区域，输入活动的名称和描述，输入 Microsoft Forms 表单的 URL，并指定屏幕区域的大小。
     - 要添加包含 Web 内容的 iframe，请将 **Web 内容(iframe)** 项目拖到编辑区域，输入活动的名称和描述，输入 Web 内容的 URL，并指定 屏幕区域的大小。
@@ -186,6 +186,6 @@ ms.locfileid: "2551994"
 ### <a name="see-also"></a>请参阅
 
 - [试用或购买 Onboard 应用](https://dynamics.microsoft.com/talent/onboard/)
-- [新增功能](./whats-new.md)
-- [版本说明](https://docs.microsoft.com/business-applications-release-notes/index)
-- [获取支持](./talent-support.md)
+- [Dynamics 365 Talent 新增功能或更改](./whats-new.md)
+- [发布计划](https://docs.microsoft.com/business-applications-release-notes/index)
+- [获取 Microsoft Dynamics 365 Talent 支持](./talent-support.md)

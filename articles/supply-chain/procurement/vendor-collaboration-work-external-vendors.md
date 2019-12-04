@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 733ecc7cfb4fee325560f5a6fe11612bb8ba57ef
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653594"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815287"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>供应商与外部供应商的协作
 
@@ -218,7 +218,7 @@ PO 在 Supply Chain Management 中准备。 采购订单的状态为**已批准*
 
 ## <a name="working-with-rfqs-when-you-use-vendor-collaboration"></a>使用供应商协作时处理询价
 
-本节介绍客户与供应商在询价流程中的互动。 它还介绍了如何将信息传达给供应商。 有关询价流程支持的基本概述，请参阅[询价 (RFQ)](request-quotations.md)。
+本节介绍客户与供应商在询价流程中的互动。 它还介绍了如何将信息传达给供应商。 有关询价流程支持的基本概述，请参阅[询价 (RFQ) 概述](request-quotations.md)。
 
 ### <a name="alternates-attachments-amendments-and-returns"></a>备选、附件、改正和返回
 

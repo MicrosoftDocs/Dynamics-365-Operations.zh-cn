@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a476163ba6f66ab60ed8bfea6198d02f13ac5136
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5020b523ca5d76d36f7436a8f43e8629c029e3e8
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182707"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769870"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>通过使用相连应用程序访问应用程序元数据
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-以下步骤介绍系统管理员或电子报表开发人员角色的 Regulatory Configuration Service (RCS) 用户如何使用 Finance and Operations 中的元数据设计新的电子报表 (ER) 模型映射。 将使用与 RCS 相连的应用程序联机访问应用程序元数据。 将配置示例 ER 模型映射以访问外贸交易。 为了完成这些步骤，您必须首先在 RCS 中完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)主题中的步骤。 如果已完成了[使用 ER 配置访问应用程序元数据](access-application-metadata-er-configuration.md)主题中的步骤，请转至[电子申报示例页](https://go.microsoft.com/fwlink/?linkid=862266)下载并保存以下 ER 配置：Foreign trade metadata.xml、Foreign trade model.xml、Foreign trade mapping.xml，然后完成此过程中的步骤。
+以下步骤介绍系统管理员或电子报表开发人员角色的 Regulatory Configuration Service (RCS) 用户如何使用 Finance and Operations 中的元数据设计新的电子报表 (ER) 模型映射。 将使用与 RCS 相连的应用程序联机访问应用程序元数据。 将配置示例 ER 模型映射以访问外贸交易。 为了完成这些步骤，在 RCS 中，您必须首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)主题中的步骤。 如果已完成了[使用 ER 配置访问应用程序元数据](access-application-metadata-er-configuration.md)主题中的步骤，请转至[电子申报示例页](https://go.microsoft.com/fwlink/?linkid=862266)下载并保存以下 ER 配置：Foreign trade metadata.xml、Foreign trade model.xml、Foreign trade mapping.xml，然后完成此过程中的步骤。
 
 ## <a name="prerequisites"></a>先决条件
 1. 转到**所有工作区** > **电子申报**。 
@@ -35,7 +35,7 @@ ms.locfileid: "2182707"
 
 ## <a name="get-required-er-configurations"></a>获取所需的 ER 配置
 1. 单击**申报配置**。 
-2. 如果已经完成了 [(RCS) 使用 ER 配置访问应用程序元数据](access-application-metadata-er-configuration.md)过程中的步骤，则当前 RCS 实例中已经拥有了所有必需的 ER 配置（外贸元数据、模型和映射配置）。 您可以跳过此子任务的所有其余步骤。 
+2. 如果已经完成了[使用 ER 配置访问应用程序元数据](access-application-metadata-er-configuration.md)过程中的步骤，则当前 RCS 实例中已经拥有了所有必需的 ER 配置（外贸元数据、模型和映射配置）。 您可以跳过此子任务的所有其余步骤。 
 3. 单击**交换**。 
 4. 单击**从 XML 文件加载**。 
 5. 单击**浏览**并选择 **Foreign trade metadata.xml** 文件。 
@@ -72,8 +72,8 @@ ms.locfileid: "2182707"
 4. 在树中，选择**外贸模型\外贸映射**。 
 5. 展开**先决条件**部分。 
 
-> [!NOTE]
-> 此映射当前引用元数据配置。 设计此模型映射时，将提供来自此配置的应用程序元数据。 
+    > [!NOTE]
+    > 此映射当前引用元数据配置。 设计此模型映射时，将提供来自此配置的应用程序元数据。 
 
 6. 单击**设计器**。 
 7. 单击**设计器**。 
@@ -81,8 +81,8 @@ ms.locfileid: "2182707"
 9. 单击**添加根**。 
 10. 在**表格**字段中，输入或选择一个值。 
 
-> [!NOTE]
-> 此映射当前引用元数据配置。 设计此模型映射时，将提供来自此配置的应用程序元数据。 
+    > [!NOTE]
+    > 此映射当前引用元数据配置。 设计此模型映射时，将提供来自此配置的应用程序元数据。 
 
 11. 单击**取消**。 
 12. 关闭该页面。 
@@ -92,8 +92,8 @@ ms.locfileid: "2182707"
 1. 单击**编辑**。 
 2. 选择 **MyConnectedApp** 应用程序。 
 
-> [!NOTE]
-> 目前此映射引用所选相连应用程序的元数据。 当同一个映射同时引用元数据配置和相连应用程序时，将使用相连应用程序的元数据。 
+    > [!NOTE]
+    > 目前此映射引用所选相连应用程序的元数据。 当同一个映射同时引用元数据配置和相连应用程序时，将使用相连应用程序的元数据。 
 
 3. 单击**设计器**。 
 4. 单击**设计器**。 
@@ -101,14 +101,14 @@ ms.locfileid: "2182707"
 6. 单击**添加根**。 
 7. 在**表格**字段中，输入或选择一个值。 
 
-> [!NOTE]
-> 现在提供了两个以上的应用程序表，因为此映射使用已经为其分配的相连应用程序的所有元数据。 
+    > [!NOTE]
+    > 现在提供了两个以上的应用程序表，因为此映射使用已经为其分配的相连应用程序的所有元数据。 
 
 8. 单击**取消**。 
 9. 单击**验证**。 
 
-> [!NOTE]
-> 我们已使用已为此映射分配的相连应用程序的元数据详细信息成功绑定了带有介绍的数据源项的数据模型的元素。 
+    > [!NOTE]
+    > 我们已使用已为此映射分配的相连应用程序的元数据详细信息成功绑定了带有介绍的数据源项的数据模型的元素。 
 
 10. 关闭该页面。 
 11. 关闭该页面。 
