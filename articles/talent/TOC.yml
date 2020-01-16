@@ -8,6 +8,12 @@
         - name: Talent 新增功能或更改
           href: whats-new.md
           items:
+            - name: 2019 年 12 月 17 日
+              href: whats-new-talent-december-17-2019.md
+            - name: 2019 年 12 月 12 日
+              href: whats-new-talent-december-12-2019.md
+            - name: 2019 年 12 月 3 日
+              href: whats-new-talent-december-3-2019.md
             - name: 2019 年 11 月 19 日
               href: whats-new-talent-november-19-2019.md
             - name: 2019 年 11 月 12 日
@@ -26,16 +32,16 @@
               href: whats-new-talent-september-17-2019.md
             - name: 2019 年 9 月 10 日
               href: whats-new-talent-september-12-2019.md
-            - name: 2019 年 8 月 27 日
-              href: whats-new-talent-august-28-2019.md
-            - name: 2019 年 8 月 22 日
-              href: whats-new-talent-august-21-2019.md
-            - name: 2019 年 8 月 13 日
-              href: whats-new-talent-august-15-2019.md
-            - name: 2019 年 8 月 6 日
-              href: whats-new-talent-august-7-2019.md
             - name: 2019 年新增功能存档
               items:
+                - name: 2019 年 8 月 27 日
+                  href: whats-new-talent-august-28-2019.md
+                - name: 2019 年 8 月 22 日
+                  href: whats-new-talent-august-21-2019.md
+                - name: 2019 年 8 月 13 日
+                  href: whats-new-talent-august-15-2019.md
+                - name: 2019 年 8 月 6 日
+                  href: whats-new-talent-august-7-2019.md
                 - name: 2019 年 7 月 30 日
                   href: whats-new-talent-july-31-2019.md
                 - name: 2019 年 7 月 23 日
@@ -132,34 +138,30 @@
           href: provisioning-talent.md
         - name: 复制 Core HR 实例
           href: hr-copy-instance.md
-        - name: 移除 Talent 环境
+        - name: 删除 Talent 环境
           href: remove-talent-environment.md
-        - name: Onboard 应用配置
+        - name: 管理功能
+          href: access-preview-feature.md
+        - name: 配置 Onboard
           href: modular-app-tech-faq.md
-        - name: 嵌入 PowerApps 应用
+        - name: 嵌入 Power Apps 应用
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Core HR 和 Common Data Service
+        - name: Common Data Service 中的 Core HR 实体
           href: CoreHREntities.md
         - name: 获取 Talent 支持
           href: talent-support.md
     - name: 通过 Attract 为您的组织配备人员
       items:
-        - name: 哪个 Attract 版本？
+        - name: 选择 Attract 版本
           href: attract-comprehensive-hiring.md
         - name: Attract 特色和功能
           href: attract-overview.md
-        - name: 常见问题
-          items:
-            - name: LinkedIn 集成常见问题
-              href: attract-linkedin-faq.md
         - name: 配置系统设置
           items:
             - name: 配置公司信息
               href: admin-settings-attract.md
             - name: 设置用户权限
               href: security-attract.md
-            - name: 管理功能
-              href: access-preview-feature.md
             - name: 设置您的求职站点
               href: career-site.md
             - name: 启用 Broadbean 集成
@@ -168,13 +170,15 @@
               href: attract-configure-email-settings.md
             - name: 设置 LinkedIn 集成
               href: attract-admin-linkedin.md
+            - name: LinkedIn 集成常见问题
+              href: attract-linkedin-faq.md
         - name: 创建招聘流程
           items:
-            - name: 创建流程模板
+            - name: 创建招聘流程模板
               href: process-templates-attract.md
-            - name: 招聘流程中的活动
+            - name: 将活动添加到招聘流程
               href: activities-attract.md
-            - name: 电子邮件模板
+            - name: 创建电子邮件模板
               href: email-templates.md
             - name: 使用分析报告
               href: analytic-reports.md
@@ -197,10 +201,10 @@
             - name: 跟踪候选人来源
               href: source-tracking.md
             - name: 智能建议
-              href: Intelligent-Recommendations.md
+              href: intelligent-recommendations.md
         - name: 安排面试
           items:
-            - name: 面试计划和反馈
+            - name: 计划面试
               href: interview-scheduling-feedback.md
         - name: 发出聘约
           items:
@@ -371,7 +375,7 @@
               href: skills.md
             - name: 设置培训课程
               href: courses.md
-            - name: 添加到绩效日记帐并向某人发送表扬
+            - name: 添加到绩效日记账并向某人发送表扬
               href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: 创建目标
               href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
@@ -433,7 +437,7 @@
       items:
         - name: 工作区中的嵌入式 Power BI
           href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: 使用 PowerApps 和 Microsoft Flow 扩展 Talent - 示例方案
+        - name: 通过 Power Apps 和 Power Automate 扩展 Talent
           href: extensibility-examples.md
         - name: 移动应用
           items:
@@ -443,8 +447,6 @@
                   href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: 我的团队移动工作区
                   href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 发布移动工作区
-              href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: 跟踪招聘数据的变化
           href: process-auditing.md
         - name: Attract 的可扩展性
