@@ -8,7 +8,9 @@
           href: index.md
         - name: 新增功能或更改
           items:
-            - name: Platform update 31（2020 年 1 月）预览功能
+            - name: Platform update 32（2020 年 2 月）预览功能
+              href: get-started/whats-new-platform-update-32.md
+            - name: Platform update 31（2020 年 1 月）
               href: get-started/whats-new-platform-update-31.md
             - name: Platform update 30（2019 年 11 月）
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
@@ -34,6 +36,10 @@
               href: ../fin-ops/get-started/whats-new-platform-update-20.md
             - name: Platform update 15（2018 年 3 月）
               href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: 先前版本中的新增功能或更改
+              items:
+                - name: Finance and Operations 主页的新增功能或更改
+                  href: ../fin-ops/get-started/whats-new-changed.md
         - name: 业务事件
           items:
             - name: 业务事件概览
@@ -66,7 +72,7 @@
                   href: business-events/how-to/FormsPro.md
                 - name: 业务事件和 Azure 事件中心
                   href: business-events/how-to/event-hub.md
-                - name: 财务期间结帐中的业务事件
+                - name: 财务期间结账中的业务事件
                   href: business-events/how-to/period-close.md
         - name: 连续交货
           items:
@@ -138,7 +144,7 @@
                               href: data-entities/dual-write-bootstrap.md
                         - name: 集成的客户主数据
                           href: data-entities/dual-write-customer.md
-                        - name: 集成的分类帐
+                        - name: 集成的分类账
                           href: data-entities/dual-write-ledger.md
                         - name: 统一的产品体验
                           href: data-entities/dual-write-product.md
@@ -172,7 +178,7 @@
                               href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
                             - name: 直接在 Sales 和 Finance and Operations 之间同步销售订单
                               href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: 将 Finance and Operations 的销售发票标题和行直接同步到 Sales
+                            - name: 将 Finance and Operations 的销售账单标题和行直接同步到 Sales
                               href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                         - name: 配置与 Field Service 的集成
                           items:
@@ -182,7 +188,7 @@
                               href: ../../supply-chain/sales-marketing/field-service-product.md
                             - name: 将 Field Service 的工作订单同步到 Finance and Operations 的销售订单
                               href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: 将 Field Service 的协议发票同步到 Finance and Operations 的普通发票
+                            - name: 将 Field Service 的协议账单同步到 Finance and Operations 的普通账单
                               href: ../../supply-chain/sales-marketing/field-service-invoice.md
                             - name: 将库存转移和调整从 Field Service 同步到 Finance and Operations
                               href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
@@ -210,7 +216,7 @@
                               href: ../../finance/project-management/project-categories-templates.md
                             - name: 将项目评估同步到项目预测
                               href: ../../finance/project-management/project-estimates-templates.md
-                            - name: 将项目实际值同步到项目集成日记帐
+                            - name: 将项目实际值同步到项目集成日记账
                               href: ../../finance/project-management/project-actuals-templates.md
             - name: 使用外部 Web 服务
               href: data-entities/consume-external-web-service.md
@@ -254,7 +260,7 @@
               items:
                 - name: 数据导入和导出作业概览
                   href: data-entities/data-import-export-job.md
-                - name: 使用普通日记帐实体导入凭证的最佳实践
+                - name: 使用普通日记账实体导入凭证的最佳实践
                   href: data-entities/tips-tricks-import-general-journal-entity.md
             - name: 数据实体开发
               items:
@@ -410,7 +416,7 @@
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: PowerBI.com 与本地环境集成
                   href: analytics/entity-store-on-prem.md
-                - name: 为本地环境配置反向代理
+                - name: 为本地环境配置代理
                   href: deployment/onprem-reverseproxy.md
                 - name: 将更新应用于本地部署
                   href: deployment/apply-updates-on-premises.md
@@ -926,6 +932,8 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: 已知问题
                   href: lifecycle-services/known-issues.md
+                - name: Lifecycle Services (LCS) 中已删除或弃用的功能
+                  href: lifecycle-services/removed-deprecated-features.md
             - name: Lifecycle Services 用户指南
               href: lifecycle-services/lcs-user-guide.md
             - name: 订阅估算器
@@ -1368,7 +1376,7 @@
                   items:
                     - name: 使会计科目表分隔符的成为唯一的
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: 升级单一凭证日记帐和货币重估
+                    - name: 升级单一凭证日记账和货币重估
                       href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
                     - name: 项目资源计划数据模型
                       href: migration-upgrade/data-model-changes-resource-management.md
