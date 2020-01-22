@@ -18,13 +18,13 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-04-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: af0a6d2682906b66ba6f506023067a6558cc1f0e
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: a850d46a22a29d9e37191397cd1dd093959ed0cc
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832527"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896949"
 ---
-# <a name="welcome-to-dynamics-365-talent---onboard"></a><span data-ttu-id="32966-104">欢迎使用 Dynamics 365 Talent - Onboard</span><span class="sxs-lookup"><span data-stu-id="32966-104">Welcome to Dynamics 365 Talent - Onboard</span></span>
+# <a name="welcome-to-onboard"></a><span data-ttu-id="bfee6-104">欢迎使用 Onboard</span><span class="sxs-lookup"><span data-stu-id="bfee6-104">Welcome to Onboard</span></span>
 
 [!include [banner](includes/banner.md)]

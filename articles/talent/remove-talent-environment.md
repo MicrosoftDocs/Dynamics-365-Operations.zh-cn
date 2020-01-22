@@ -17,60 +17,58 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: bbc65a77b7c3df6545dfd7aa2109aba5c4e1b57b
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e752d658388fc6cb6f4b84ac83cb12a71522199b
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773026"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898102"
 ---
-# <a name="remove-talent-environments"></a><span data-ttu-id="b2185-103">删除 Talent 环境</span><span class="sxs-lookup"><span data-stu-id="b2185-103">Remove Talent environments</span></span>
+# <a name="remove-talent-environments"></a><span data-ttu-id="5691e-103">删除 Talent 环境</span><span class="sxs-lookup"><span data-stu-id="5691e-103">Remove Talent environments</span></span>
 
-[!include [banner](includes/banner.md)]
+<span data-ttu-id="5691e-104">此主题将指导您如何删除 Microsoft Dynamics 365 Talent 的测试驱动器或生产环境。</span><span class="sxs-lookup"><span data-stu-id="5691e-104">This topic walks you through the process of removing a test drive or production environment for Microsoft Dynamics 365 Talent.</span></span>
 
-<span data-ttu-id="b2185-104">此主题将指导您如何删除 Microsoft Dynamics 365 Talent 的测试驱动器或生产环境。</span><span class="sxs-lookup"><span data-stu-id="b2185-104">This topic walks you through the process of removing a test drive or production environment for Microsoft Dynamics 365 Talent.</span></span>
+## <a name="removing-a-test-drive-environment"></a><span data-ttu-id="5691e-105">删除测试驱动器环境</span><span class="sxs-lookup"><span data-stu-id="5691e-105">Removing a test drive environment</span></span>
 
-## <a name="removing-a-test-drive-environment"></a><span data-ttu-id="b2185-105">删除测试驱动器环境</span><span class="sxs-lookup"><span data-stu-id="b2185-105">Removing a test drive environment</span></span>
+<span data-ttu-id="5691e-106">Talent 测试驱动器设置了 60 天的到期策略。</span><span class="sxs-lookup"><span data-stu-id="5691e-106">Talent test drives are provisioned with a 60-day expiration policy.</span></span> <span data-ttu-id="5691e-107">不过，测试驱动器环境的所有者可以选择通过完成以下步骤来提前结束试用。</span><span class="sxs-lookup"><span data-stu-id="5691e-107">However, owners of test drive environments have the option to end their trial early by completing the following steps.</span></span> 
 
-<span data-ttu-id="b2185-106">Talent 测试驱动器设置了 60 天的到期策略。</span><span class="sxs-lookup"><span data-stu-id="b2185-106">Talent test drives are provisioned with a 60-day expiration policy.</span></span> <span data-ttu-id="b2185-107">不过，测试驱动器环境的所有者可以选择通过完成以下步骤来提前结束试用。</span><span class="sxs-lookup"><span data-stu-id="b2185-107">However, owners of test drive environments have the option to end their trial early by completing the following steps.</span></span> 
+1. <span data-ttu-id="5691e-108">导航到 [Power Apps 管理中心](https://admin.businessplatform.microsoft.com/)。</span><span class="sxs-lookup"><span data-stu-id="5691e-108">Navigate to the [Power Apps Admin center](https://admin.businessplatform.microsoft.com/).</span></span>
+2. <span data-ttu-id="5691e-109">选择**环境**。</span><span class="sxs-lookup"><span data-stu-id="5691e-109">Select **Environments**.</span></span>
+3. <span data-ttu-id="5691e-110">选择测试驱动器环境，其命名模式类似于这样：TestDrive - alias@domain</span><span class="sxs-lookup"><span data-stu-id="5691e-110">Select the test drive environment, which has a naming pattern similar to this: TestDrive - alias@domain</span></span>
+4. <span data-ttu-id="5691e-111">选择**删除**并确认决定。</span><span class="sxs-lookup"><span data-stu-id="5691e-111">Select **Delete** and confirm the decision.</span></span> 
 
-1. <span data-ttu-id="b2185-108">导航到 [Power Apps 管理中心](https://admin.businessplatform.microsoft.com/)。</span><span class="sxs-lookup"><span data-stu-id="b2185-108">Navigate to the [Power Apps Admin center](https://admin.businessplatform.microsoft.com/).</span></span>
-2. <span data-ttu-id="b2185-109">选择**环境**。</span><span class="sxs-lookup"><span data-stu-id="b2185-109">Select **Environments**.</span></span>
-3. <span data-ttu-id="b2185-110">选择测试驱动器环境，其命名模式类似于这样：TestDrive - alias@domain</span><span class="sxs-lookup"><span data-stu-id="b2185-110">Select the test drive environment, which has a naming pattern similar to this: TestDrive - alias@domain</span></span>
-4. <span data-ttu-id="b2185-111">选择**删除**并确认决定。</span><span class="sxs-lookup"><span data-stu-id="b2185-111">Select **Delete** and confirm the decision.</span></span> 
+<span data-ttu-id="5691e-112">现有的测试驱动器环境将被删除。</span><span class="sxs-lookup"><span data-stu-id="5691e-112">The existing test drive environment will be removed.</span></span> <span data-ttu-id="5691e-113">在删除后，您可以注册新的测试驱动器环境。</span><span class="sxs-lookup"><span data-stu-id="5691e-113">When it is removed, you can sign up for a new test drive environment.</span></span> 
 
-<span data-ttu-id="b2185-112">现有的测试驱动器环境将被删除。</span><span class="sxs-lookup"><span data-stu-id="b2185-112">The existing test drive environment will be removed.</span></span> <span data-ttu-id="b2185-113">在删除后，您可以注册新的测试驱动器环境。</span><span class="sxs-lookup"><span data-stu-id="b2185-113">When it is removed, you can sign up for a new test drive environment.</span></span> 
+## <a name="removing-a-production-environment"></a><span data-ttu-id="5691e-114">删除生产环境</span><span class="sxs-lookup"><span data-stu-id="5691e-114">Removing a production environment</span></span>
 
-## <a name="removing-a-production-environment"></a><span data-ttu-id="b2185-114">删除生产环境</span><span class="sxs-lookup"><span data-stu-id="b2185-114">Removing a production environment</span></span>
+<span data-ttu-id="5691e-115">此主题假设您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Talent。</span><span class="sxs-lookup"><span data-stu-id="5691e-115">This topic assumes that you've purchased Talent through a Cloud Solution Provider (CSP) or an enterprise architecture (EA) agreement.</span></span> 
 
-<span data-ttu-id="b2185-115">此主题假设您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Talent。</span><span class="sxs-lookup"><span data-stu-id="b2185-115">This topic assumes that you've purchased Talent through a Cloud Solution Provider (CSP) or an enterprise architecture (EA) agreement.</span></span> 
-
-<span data-ttu-id="b2185-116">因为单个 Talent 环境“包含”在单个 Power Apps 环境中，有两个选项可以考虑。</span><span class="sxs-lookup"><span data-stu-id="b2185-116">Since a single Talent environment is “contained” within a single Power Apps environment, there are two options to consider.</span></span> <span data-ttu-id="b2185-117">第一个选项是要删除整个 Power Apps 环境；第二个选项是仅删除 Talent。</span><span class="sxs-lookup"><span data-stu-id="b2185-117">The first option involves removing the entire Power Apps environment; the second option involves removing only Talent.</span></span> <span data-ttu-id="b2185-118">当您创建 Power Apps 环境的目的明确是为了配置 Talent，且您刚刚开始实施或您没有任何既定的集成，这时首选第一个选项。</span><span class="sxs-lookup"><span data-stu-id="b2185-118">The first option is preferred when you have created a Power Apps environment expressly for the purpose of provisioning Talent, and you've just begun implementation, or you don’t have any established integrations.</span></span> <span data-ttu-id="b2185-119">当您已建立了 Power Apps 环境并使用 Power Apps 和 Power Automate 中利用的富数据填充时，适用第二个选项。</span><span class="sxs-lookup"><span data-stu-id="b2185-119">The second option is appropriate when you have an established Power Apps environment populated with rich data that's leveraged in Power Apps and Power Automate.</span></span>
+<span data-ttu-id="5691e-116">因为单个 Talent 环境“包含”在单个 Power Apps 环境中，有两个选项可以考虑。</span><span class="sxs-lookup"><span data-stu-id="5691e-116">Since a single Talent environment is “contained” within a single Power Apps environment, there are two options to consider.</span></span> <span data-ttu-id="5691e-117">第一个选项是要删除整个 Power Apps 环境；第二个选项是仅删除 Talent。</span><span class="sxs-lookup"><span data-stu-id="5691e-117">The first option involves removing the entire Power Apps environment; the second option involves removing only Talent.</span></span> <span data-ttu-id="5691e-118">当您创建 Power Apps 环境的目的明确是为了配置 Talent，且您刚刚开始实施或您没有任何既定的集成，这时首选第一个选项。</span><span class="sxs-lookup"><span data-stu-id="5691e-118">The first option is preferred when you have created a Power Apps environment expressly for the purpose of provisioning Talent, and you've just begun implementation, or you don’t have any established integrations.</span></span> <span data-ttu-id="5691e-119">当您已建立了 Power Apps 环境并使用 Power Apps 和 Power Automate 中利用的富数据填充时，适用第二个选项。</span><span class="sxs-lookup"><span data-stu-id="5691e-119">The second option is appropriate when you have an established Power Apps environment populated with rich data that's leveraged in Power Apps and Power Automate.</span></span>
 
 > [!Important]
-> <span data-ttu-id="b2185-120">在删除 Power Apps 环境之前，请确保其未在 Talent 范围外用于富数据集成。</span><span class="sxs-lookup"><span data-stu-id="b2185-120">Before removing the Power Apps environment, ensure it is not being used for rich data integrations outside the scope of Talent.</span></span> <span data-ttu-id="b2185-121">另请注意，不能删除默认的 Power Apps 环境。</span><span class="sxs-lookup"><span data-stu-id="b2185-121">Also note that the default Power Apps environments cannot be removed.</span></span> 
+> <span data-ttu-id="5691e-120">在删除 Power Apps 环境之前，请确保其未在 Talent 范围外用于富数据集成。</span><span class="sxs-lookup"><span data-stu-id="5691e-120">Before removing the Power Apps environment, ensure it is not being used for rich data integrations outside the scope of Talent.</span></span> <span data-ttu-id="5691e-121">另请注意，不能删除默认的 Power Apps 环境。</span><span class="sxs-lookup"><span data-stu-id="5691e-121">Also note that the default Power Apps environments cannot be removed.</span></span> 
 
-<span data-ttu-id="b2185-122">若要删除整个 Power Apps 环境，包括 Talent 以及关联的应用和流：</span><span class="sxs-lookup"><span data-stu-id="b2185-122">To remove the entire Power Apps environment, including Talent and the associated apps and flows:</span></span>
+<span data-ttu-id="5691e-122">若要删除整个 Power Apps 环境，包括 Talent 以及关联的应用和流：</span><span class="sxs-lookup"><span data-stu-id="5691e-122">To remove the entire Power Apps environment, including Talent and the associated apps and flows:</span></span>
 
-1. <span data-ttu-id="b2185-123">导航到 [Power Apps 管理中心](https://admin.businessplatform.microsoft.com/)。</span><span class="sxs-lookup"><span data-stu-id="b2185-123">Navigate to the [Power Apps Admin center](https://admin.businessplatform.microsoft.com/).</span></span>
-2. <span data-ttu-id="b2185-124">选择**环境**。</span><span class="sxs-lookup"><span data-stu-id="b2185-124">Select **Environments**.</span></span>
-3. <span data-ttu-id="b2185-125">选择要删除的环境。</span><span class="sxs-lookup"><span data-stu-id="b2185-125">Select the environment to be removed.</span></span>
-4. <span data-ttu-id="b2185-126">选择**删除**并确认决定。</span><span class="sxs-lookup"><span data-stu-id="b2185-126">Select **Delete** and confirm the decision.</span></span> 
-5. <span data-ttu-id="b2185-127">等待直到删除完成。</span><span class="sxs-lookup"><span data-stu-id="b2185-127">Wait until the deletion is complete.</span></span>
-6. <span data-ttu-id="b2185-128">使用您用于订阅 Talent 的帐户登录到 [Lifecycle Services](https://lcs.dynamics.com/Logon/Index) (LCS)。</span><span class="sxs-lookup"><span data-stu-id="b2185-128">Sign in to [Lifecycle Services](https://lcs.dynamics.com/Logon/Index) (LCS) using the account that you used to subscribe to Talent.</span></span> 
-7. <span data-ttu-id="b2185-129">选择包含环境的 Talent 项目。</span><span class="sxs-lookup"><span data-stu-id="b2185-129">Select the Talent Project that contains the environment.</span></span> 
-8. <span data-ttu-id="b2185-130">在您的 LCS 项目中，选择 **Talent 应用管理**磁贴。</span><span class="sxs-lookup"><span data-stu-id="b2185-130">In your LCS project, select the **Talent App Management** tile.</span></span> 
-9. <span data-ttu-id="b2185-131">选择要删除的实例。</span><span class="sxs-lookup"><span data-stu-id="b2185-131">Select the instance to remove.</span></span> 
-10. <span data-ttu-id="b2185-132">选择**删除实例**并确认您的决定。</span><span class="sxs-lookup"><span data-stu-id="b2185-132">Select **Remove instance** and confirm your decision.</span></span>  
+1. <span data-ttu-id="5691e-123">导航到 [Power Apps 管理中心](https://admin.businessplatform.microsoft.com/)。</span><span class="sxs-lookup"><span data-stu-id="5691e-123">Navigate to the [Power Apps Admin center](https://admin.businessplatform.microsoft.com/).</span></span>
+2. <span data-ttu-id="5691e-124">选择**环境**。</span><span class="sxs-lookup"><span data-stu-id="5691e-124">Select **Environments**.</span></span>
+3. <span data-ttu-id="5691e-125">选择要删除的环境。</span><span class="sxs-lookup"><span data-stu-id="5691e-125">Select the environment to be removed.</span></span>
+4. <span data-ttu-id="5691e-126">选择**删除**并确认决定。</span><span class="sxs-lookup"><span data-stu-id="5691e-126">Select **Delete** and confirm the decision.</span></span> 
+5. <span data-ttu-id="5691e-127">等待直到删除完成。</span><span class="sxs-lookup"><span data-stu-id="5691e-127">Wait until the deletion is complete.</span></span>
+6. <span data-ttu-id="5691e-128">使用您用于订阅 Talent 的帐户登录到 [Lifecycle Services](https://lcs.dynamics.com/Logon/Index) (LCS)。</span><span class="sxs-lookup"><span data-stu-id="5691e-128">Sign in to [Lifecycle Services](https://lcs.dynamics.com/Logon/Index) (LCS) using the account that you used to subscribe to Talent.</span></span> 
+7. <span data-ttu-id="5691e-129">选择包含环境的 Talent 项目。</span><span class="sxs-lookup"><span data-stu-id="5691e-129">Select the Talent Project that contains the environment.</span></span> 
+8. <span data-ttu-id="5691e-130">在您的 LCS 项目中，选择 **Talent 应用管理**磁贴。</span><span class="sxs-lookup"><span data-stu-id="5691e-130">In your LCS project, select the **Talent App Management** tile.</span></span> 
+9. <span data-ttu-id="5691e-131">选择要删除的实例。</span><span class="sxs-lookup"><span data-stu-id="5691e-131">Select the instance to remove.</span></span> 
+10. <span data-ttu-id="5691e-132">选择**删除实例**并确认您的决定。</span><span class="sxs-lookup"><span data-stu-id="5691e-132">Select **Remove instance** and confirm your decision.</span></span>  
 
-<span data-ttu-id="b2185-133">若要从现有的 Power Apps 环境中删除 Talent 环境，请完成以下步骤。</span><span class="sxs-lookup"><span data-stu-id="b2185-133">To remove a Talent environment from an existing Power Apps environment, complete the following steps.</span></span> <span data-ttu-id="b2185-134">请注意，在直接在 LCS 中支持此功能前，暂时需要 Talent DevOps 团队的支持及联系。</span><span class="sxs-lookup"><span data-stu-id="b2185-134">Note that the need to involve support and contact the Talent DevOps team is temporary until this feature is enabled directly in LCS.</span></span>
+<span data-ttu-id="5691e-133">若要从现有的 Power Apps 环境中删除 Talent 环境，请完成以下步骤。</span><span class="sxs-lookup"><span data-stu-id="5691e-133">To remove a Talent environment from an existing Power Apps environment, complete the following steps.</span></span> <span data-ttu-id="5691e-134">请注意，在直接在 LCS 中支持此功能前，暂时需要 Talent DevOps 团队的支持及联系。</span><span class="sxs-lookup"><span data-stu-id="5691e-134">Note that the need to involve support and contact the Talent DevOps team is temporary until this feature is enabled directly in LCS.</span></span>
 
-1. <span data-ttu-id="b2185-135">联系支持以发起删除请求。</span><span class="sxs-lookup"><span data-stu-id="b2185-135">Contact Support to initiate a removal request.</span></span>
-2. <span data-ttu-id="b2185-136">支持团队将向 Talent DevOps 团队发起删除请求。</span><span class="sxs-lookup"><span data-stu-id="b2185-136">The Support team will initiate a removal request with the Talent DevOps team.</span></span> 
-3. <span data-ttu-id="b2185-137">在收到环境已删除的消息后继续操作。</span><span class="sxs-lookup"><span data-stu-id="b2185-137">Continue after you receive word that the environment has been removed.</span></span>
-4.  <span data-ttu-id="b2185-138">使用您用于订阅 Talent 的帐户登录到 LCS。</span><span class="sxs-lookup"><span data-stu-id="b2185-138">Sign in to LCS using the account that you used to subscribe to Talent.</span></span> 
-5. <span data-ttu-id="b2185-139">选择包含环境的 Talent 项目。</span><span class="sxs-lookup"><span data-stu-id="b2185-139">Select the Talent project that contains the environment.</span></span> 
-6. <span data-ttu-id="b2185-140">在您的 LCS 项目中，选择 **Talent 应用管理**磁贴。</span><span class="sxs-lookup"><span data-stu-id="b2185-140">In your LCS project, select the **Talent App Management** tile.</span></span> 
-7. <span data-ttu-id="b2185-141">选择要删除的实例，其应标记有部署状态**失败**。</span><span class="sxs-lookup"><span data-stu-id="b2185-141">Select the instance you would like to remove, which should be marked with a Deployment status of **Failed**.</span></span>
-8. <span data-ttu-id="b2185-142">选择**删除实例**并确认您的决定。</span><span class="sxs-lookup"><span data-stu-id="b2185-142">Select **Remove instance** and confirm your decision.</span></span> 
+1. <span data-ttu-id="5691e-135">联系支持以发起删除请求。</span><span class="sxs-lookup"><span data-stu-id="5691e-135">Contact Support to initiate a removal request.</span></span>
+2. <span data-ttu-id="5691e-136">支持团队将向 Talent DevOps 团队发起删除请求。</span><span class="sxs-lookup"><span data-stu-id="5691e-136">The Support team will initiate a removal request with the Talent DevOps team.</span></span> 
+3. <span data-ttu-id="5691e-137">在收到环境已删除的消息后继续操作。</span><span class="sxs-lookup"><span data-stu-id="5691e-137">Continue after you receive word that the environment has been removed.</span></span>
+4.  <span data-ttu-id="5691e-138">使用您用于订阅 Talent 的帐户登录到 LCS。</span><span class="sxs-lookup"><span data-stu-id="5691e-138">Sign in to LCS using the account that you used to subscribe to Talent.</span></span> 
+5. <span data-ttu-id="5691e-139">选择包含环境的 Talent 项目。</span><span class="sxs-lookup"><span data-stu-id="5691e-139">Select the Talent project that contains the environment.</span></span> 
+6. <span data-ttu-id="5691e-140">在您的 LCS 项目中，选择 **Talent 应用管理**磁贴。</span><span class="sxs-lookup"><span data-stu-id="5691e-140">In your LCS project, select the **Talent App Management** tile.</span></span> 
+7. <span data-ttu-id="5691e-141">选择要删除的实例，其应标记有部署状态**失败**。</span><span class="sxs-lookup"><span data-stu-id="5691e-141">Select the instance you would like to remove, which should be marked with a Deployment status of **Failed**.</span></span>
+8. <span data-ttu-id="5691e-142">选择**删除实例**并确认您的决定。</span><span class="sxs-lookup"><span data-stu-id="5691e-142">Select **Remove instance** and confirm your decision.</span></span> 
 
