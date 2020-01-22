@@ -3,7 +3,7 @@ title: 辅助功能
 description: 本主题描述专门帮助有伤残用户的功能。
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/10/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 7cc63320a3ba055a0c18ab59447f34a86bc0dc87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8ec4ee4654bdf306e179dcac5bf246df7f2b8cf7
+ms.sourcegitcommit: c3bc5dd007d9f063631232497bd4cda9214e2e5b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180844"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2872434"
 ---
 # <a name="accessibility-features"></a>辅助功能
 
@@ -40,7 +40,7 @@ ms.locfileid: "2180844"
 
 使用导航窗格（最左边的空格）菜单访问的所有页面，也通过**搜索**框提供。 按 Alt+G 将焦点移至**搜索**框，然后键入页面的名称或描述。
 
-![在搜索框中输入的“银行帐户”](media/6d08b0be32808221023e2aa92d69fd70.png "在搜索框中输入的“银行帐户”")
+![在“搜索”框内输入的“银行账户”](media/6d08b0be32808221023e2aa92d69fd70.png "在“搜索”框内输入的“银行账户”")
 
 有关详细信息，请参阅[导航搜索](navigation-search.md)。
 
@@ -92,6 +92,8 @@ ms.locfileid: "2180844"
 ## <a name="responsive-layout"></a>响应性强的布局
 
 此产品主要在各种设备和窗体因子上使用，从最小的屏幕到具有最高分辨率的大屏幕。 我们的响应式布局引擎使用户可以放大到 200% 的缩放级别（或者，在某些情况下，会超过 200%）。
+
+在智能手机和其他小屏幕上，控件和窗体布局将进行自适应响应，以确保有利于核心数据显示。 这些响应行为还可以包括将组和选项卡中的列数减少为单个列、隐藏 shell 元素以及折叠操作窗格。
 
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>帮助开发人员和客户将可理解的想法与其自定义内容相结合的指导
 

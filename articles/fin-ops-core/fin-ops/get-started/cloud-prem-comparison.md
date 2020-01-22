@@ -3,7 +3,7 @@ title: 比较云和本地功能
 description: 此主题显示在云和本地支持的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 10/11/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 8fa5ff0de4e97d5dc178581f721f3a6ea72fc974
-ms.sourcegitcommit: 70c6257bd6833de3e8de34d9a7561088194e59cc
+ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
+ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "2573922"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935379"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>云和本地功能的比较
 
@@ -48,7 +48,7 @@ ms.locfileid: "2573922"
 | 数据管理和集成      |                                                                                           | 是       | 是             |
 |                                      | 配置主导的扩展                                                            | 是       | 无              |
 |                                      | 将数据导出到您自己的数据仓库中                                                    | 是       | 是             |
-|                                      | 启用将增量更新导出到数据实体                                 | 是       | 无              |
+|                                      | 启用将增量更新导出到数据实体                                 | 是       | 是              |
 |                                      | 数据集成                                                                         | 是       | 是             |
 | 文档管理                  |                                                                                           | 是       | 是             |
 | 财务管理                 |                                                                                           | 是       | 是             |
@@ -148,7 +148,7 @@ ms.locfileid: "2573922"
 
 ## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
 
-若要查看本地部署中提供的零售功能的列表，请参阅[本地部署中提供的零售功能](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/PeterRFriis-patch-1/articles/retail/retail-onprem.md)。
+若要查看本地部署中提供的零售功能的列表，请参阅[本地部署中提供的零售功能](../../../retail/retail-onprem.md)。
 
 ## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
 

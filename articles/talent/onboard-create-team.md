@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8090fafc891d874c3f4fb646fe22a2b783ce37aa
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7057c5b24ee3ae03574ec106a0c7d268dfffb98e
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814827"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897181"
 ---
-# <a name="create-a-hiring-team-by-using-dynamics-365-talent---onboard"></a>使用 Dynamics 365 Talent - Onboard 创建招聘团队
+# <a name="create-a-hiring-team"></a>创建招聘团队
 
 [!include [banner](includes/banner.md)]
 

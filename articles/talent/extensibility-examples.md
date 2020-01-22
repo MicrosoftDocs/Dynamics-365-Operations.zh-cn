@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 3bb61297e294aa3f2d06f542bebe29d7afae9c3b
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 6c8a583a93c2ceb70d8c3b0e0047e2bf2047b56d
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832830"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898309"
 ---
 # <a name="extend-talent-with-power-apps-and-power-automate"></a>通过 Power Apps 和 Power Automate 扩展 Talent
-
-[!include [banner](includes/banner.md)]
 
 本主题介绍 Microsoft Dynamics 365 Talent 的一些使用 Microsoft Power Apps 和 Microsoft Power Automate 的可扩展性方案示例。 可以将与各示例关联的解决方案包导入到您的 Power Apps 环境中。 然后可以将这些包用作指南或起点来实施适用于贵组织的方案。
 
@@ -108,7 +106,7 @@ ms.locfileid: "2832830"
 
 您可以将此应用嵌入到员工自助服务 (ESS) 中来提交引荐，或者可以将其用作企业门户中的超链接，也可以作为独立应用运行。
 
-要下载 **Referral 应用**，在 Microsoft 下载中心转到 [Dynamics 365 Talent 可扩展性解决方案：Referral 应用](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d)。 您可以导入此应用并对其进行自定义来添加其他功能。
+要下载 **Referral 应用**，在 Microsoft 下载中心转到 [Dynamics 365 Talent 可扩展性解决方案：Referral 应用](https://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d)。 您可以导入此应用并对其进行自定义来添加其他功能。
 
 ## <a name="additional-resources"></a>其他资源
 

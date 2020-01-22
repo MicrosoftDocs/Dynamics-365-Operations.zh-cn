@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6d1b7f1dd71e6bcbf10c4d91fe33e9494b041a2c
-ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
+ms.openlocfilehash: b1dd1756be349d85af8e6d7159623a2a95e75526
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "2830201"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898704"
 ---
 # <a name="embed-power-apps-apps-in-dynamics-365---core-hr"></a>在 Dynamics 365 - Core HR 中嵌入 Power Apps 应用程序
-
-[!include [banner](includes/banner.md)]
 
 **发货**
 

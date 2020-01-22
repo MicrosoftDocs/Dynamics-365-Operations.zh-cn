@@ -3,7 +3,7 @@ title: 零售销售价管理
 description: 本主题介绍在 Dynamics 365 Retail 中创建和管理销售价的概念。
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: d8c6f8d7d368be8ffa192f8dee6b46a753b04cad
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025210"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934763"
 ---
 # <a name="retail-sales-price-management"></a>零售销售价格管理
 
@@ -221,11 +221,11 @@ Microsoft SQL Server Express 因为成本原因（免费），通常用于渠道
 
 零售定价设计为处理零售实体，而不是非零售实体。 尤其是设计为按商店，而不是按仓库设置价格。
 
-零售定价引擎不支持以下定价功能：
+零售定价引擎**不支持**以下定价功能：
 
-- 使用站点和仓库库存维度设置价格
-- 基于属性的定价
-- 供应商折扣传递
+- 不支持按站点或站点和仓库存储维度设置价格。 如果仅在贸易协议上指定站点维度，零售定价将忽略站点并将贸易协议应用于所有站点。 如果同时指定“站点”和“仓库”，此行为是未定义/未测试的，因为预计零售商会使用商店价格组来控制每个商店/仓库的价格。
+- 不支持基于属性的定价。
+- 不支持供应商折扣传递。
 
 此外，**只有**零售定价引擎支持以下定价功能：
 

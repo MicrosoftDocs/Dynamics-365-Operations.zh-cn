@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 3676a0a1fa77285d0203e8e49725cb1c1b742d39
-ms.sourcegitcommit: 029c1882bef558b6a45843548e94ab8369ed9870
+ms.openlocfilehash: 96937d48e0d1003adbc5f7fedc89b2686ace01cd
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2651703"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2899016"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Dynamics 365 Talent 的新增功能或更改（2019 年 7 月 30 日）
-
-[!include [banner](includes/banner.md)]
 
 此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 

@@ -3,7 +3,7 @@ title: 使用片段
 description: 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用片段的原因、条件和方法。
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d92b9077f8584bfa0710bbaacbc7caa3220baa4a
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 32482538b2913e6585257bcf7a1cbe780d3cdd30
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698088"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914692"
 ---
 # <a name="work-with-fragments"></a>使用片段 
 
@@ -126,3 +126,5 @@ ms.locfileid: "2698088"
 [使用模板](work-with-templates.md)
 
 [使用预设布局](work-with-layouts.md)
+
+[使用发布组](publish-groups.md)

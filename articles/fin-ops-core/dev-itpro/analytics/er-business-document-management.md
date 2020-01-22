@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0a2fa6a7f6efef05862a3727a80122c22d591487
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824512"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933900"
 ---
 # <a name="business-document-management-overview"></a>业务文档管理概览
 
-业务用户使用[电子申报 (ER) 概述](general-electronic-reporting.md)根据各个国家/地区的法律要求配置传出文档的格式。 用户也可以定义数据流，以便指定在生成的文档中放置哪些数据。 ER 框架使用预定义的模板生成 Microsoft Office 格式（Excel 工作簿或 Word 文档）格式的传出文档。 将根据生成所需文档时配置的数据流使用必需数据填充模板。 可以在 ER 解决方案中发布配置的每种格式，以便生成特定传出文档。 这通过 ER 格式配置表示，其中可包含可用于生成不同传出文档的模板。 业务用户可使用此框架管理所需业务文档。
+业务用户使用[电子申报 (ER)](general-electronic-reporting.md) 框架根据各个国家/地区的法律要求配置传出文档的格式。 用户也可以定义数据流，以便指定在生成的文档中放置哪些数据。 ER 框架使用预定义的模板生成 Microsoft Office 格式（Excel 工作簿或 Word 文档）格式的传出文档。 将根据生成所需文档时配置的数据流使用必需数据填充模板。 可以在 ER 解决方案中发布配置的每种格式，以便生成特定传出文档。 这通过 ER 格式配置表示，其中可包含可用于生成不同传出文档的模板。 业务用户可使用此框架管理所需业务文档。
 
 **业务文档管理**建立在 ER 框架的基础上，可供业务用户使用 Microsoft Office 365 服务或相应 Microsoft Office 桌面应用程序编辑业务文档模板。 对此类文档的编辑包括在不执行源代码更改和不进行新部署的情况下，更改业务文档设计和为更多数据添加占位符。 若要更新业务文档模板，无需了解 ER 框架。
 
@@ -59,7 +59,7 @@ ms.locfileid: "2824512"
 
 将支持更多报告。 将单独发送有关更多报告的特殊通知。 
 
-[Word 和 Excel 中的可配置业务文档报告](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details)中提供了为 2019 年 10 月发行版规划的所有报告的完整列表。 若要了解有关此功能的详细信息，请完成本主题中的示例。
+[Word 和 Excel 中的可配置业务文档报告](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details)中提供了为 2019 年 10 月发行版规划的所有报告的完整列表。 若要了解有关此功能的详细信息，请完成本主题中的示例。
 
 ## <a name="configure-er-parameters"></a>配置 ER 参数
 

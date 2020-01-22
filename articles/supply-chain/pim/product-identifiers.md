@@ -3,12 +3,12 @@ title: 产品标识符
 description: 此主题提供有关不同类型的产品标识符的信息，并说明了如何在您的产品数据中添加产品标识符。
 author: cvocph
 manager: AnnBe
-ms.date: 03/23/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductEntityIdentifierCode
+ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250591"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934878"
 ---
 # <a name="product-identifiers"></a>产品标识符 
 
@@ -43,6 +43,9 @@ ms.locfileid: "2250591"
 在实施 Supply Chain Management 时，应特别注意您的产品编号策略。 一个好的编号系统可以改进物流流动，并且帮助预防错误。 一个好的产品标识符最多包含 15 个字符。 理想情况下，它有少于 10 个字符，包括不超过五个分类字符。 您还可以使用搜索名称来进行快速搜索。 搜索名称是表示产品分类的附加名称。
 
 如果使用 Common Data Service，Supply Chain Management 中的产品编号也是 Common Data Service 中的产品编号。 产品变型作为独特产品同步到 Common Data Service。
+
+> [!NOTE]
+> 产品编号不能以“%”开头。
 
 ## <a name="item-number-and-product-dimensions"></a>物料编号和产品维度
 

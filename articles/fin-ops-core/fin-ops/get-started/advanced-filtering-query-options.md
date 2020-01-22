@@ -3,7 +3,7 @@ title: 高级筛选和查询语法
 description: 本文介绍在“过滤器”窗格或网格列标题过滤器中使用“高级过滤器/排序”对话框或匹配运算符时的可用过滤和查询选项。
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9e57cac740a26c6c5b451c92d856e533c6db33e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
+ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180821"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "2931280"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>高级筛选和查询语法
 
@@ -114,6 +114,12 @@ ms.locfileid: "2180821"
 <td>匹配用逗号分隔的值</td>
 <td>键入所有条件，用逗号分隔。</td>
 <td><strong>A, D, F, G</strong> 精确查找 &quot;A&quot;、&quot;D&quot;、&quot;F&quot; 和 &quot;G&quot;。 <strong>10, 20, 30, 100</strong> 精确查找 &quot;10、20、30、100&quot;。</td>
+</tr>
+<tr>
+<td>""（两个双引号）</td>
+<td>匹配空值</td>
+<td>键入两个连续的双引号以过滤该字段中的空值。</td>
+<td>两个连续的双引号 (<strong>""</strong>) 查找当前列没有值的行。</td>
 </tr>
 <tr>
 <td>（<span class="code">SQL 语句</span>）（括号间的 SQL 语句）</td>

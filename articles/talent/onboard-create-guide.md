@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a095fe97b05898403b501763204a462ee8dcc12a
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 2371d86165390503312c2848842acf4745a8ed7a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814620"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898240"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a>使用 Dynamics 365 Talent - Onboard 创建和发送入职指南
+# <a name="create-and-send-an-onboarding-guide"></a>创建和发送入职指南
 
 [!include [banner](includes/banner.md)]
 
@@ -42,7 +42,7 @@ Microsoft Dynamics 365 Talent: Onboard 允许您从自己创建的模板、库�
 
 5. 在**创建指南**窗口，在**您的入职对象**下，输入新雇员的姓名或电子邮件地址。 如果新雇员尚未在系统中，选择**立即添加**，然后输入员工的信息。
 
-    ![[输入入职指南的信息](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[输入入职指南信息](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
 6. 在**何时入职**下，选择一个开始日期。
 7. 如果应在特定日期自动将入职指南发送给新雇员，请确保**安排自动发送日期**选项已打开，然后选择自动发送日期。 要立即发送指南，请关闭**安排自动发送日期**选项。
@@ -92,7 +92,7 @@ Onboard 允许您同时向多个新雇员发送入职指南。
 1. 在左侧菜单中，选择**指南**，然后选择**添加**按钮（加号 \[**+**\]）。
 2. 在**创建指南**窗口，在**您的入职对象**下，输入新雇员的姓名或电子邮件地址。 如果新雇员尚未在系统中，选择**立即添加**，然后输入员工的信息。
 
-    ![[输入入职指南的信息](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[输入入职指南信息](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
 3. 在**何时入职**下，选择一个开始日期。
 4. 如果应在特定日期自动将入职指南发送给新雇员，请确保**安排自动发送日期**选项已打开，然后选择自动发送日期。 要立即发送指南，请关闭**安排自动发送日期**选项。

@@ -3,7 +3,7 @@ title: 维护计划订单
 description: 本主题提供有关如何管理计划订单的信息。 介绍如何更新计划订单的状态，确定计划订单，并筛选与所选计划订单具有相同状态的计划订单。
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 11/07/2019
+ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68bccb632255eac975dc150cf322d4c579ff2f24
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: ec67caf596b0efc256c957eca17a04509fe86855
+ms.sourcegitcommit: 274ff2bb6872ff714781b348b29fd9f1affff9d0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813768"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "2904028"
 ---
 # <a name="maintain-planned-orders"></a>维护计划订单
 
@@ -39,7 +39,7 @@ ms.locfileid: "2813768"
 
 -   当主计划生成计划订单时，该计划订单状态为**未处理**。
 -   如果您决定不确认某一计划订单，则可以给予其状态**已完成**。
--   如果要确认计划订单，可将状态更改为**已审核**。 主计划会考虑状态为**已审核**的计划订单，所以不会在随后的主计划运行期间修改或删除这些订单。 
+-   如果要确认计划订单，可将状态更改为**已审核**。 主计划会考虑状态为**已审核**的计划订单，所以不会在随后的主计划运行期间修改或删除这些订单。 为此，计划逻辑会在主计划期间将**已审核**的计划订单从旧计划版本复制到新计划版本。
 
 ## <a name="firming-planned-orders"></a>确认计划订单 
 确认计划订单即创建实际订单。 这些也称为*已下达订单*或*未结订单*。 确认计划订单时，该订单将移至相关模块的订单部分。
@@ -58,6 +58,8 @@ ms.locfileid: "2813768"
 -   **并行确认** – 如果设置为**是**，则使用**线程数**中定义的线程数并行化确认流程。
 -   **线程数** – 控制用于并行化确认流程的线程的数量。 仅当**并行确认**设置为**是**时，才显示此参数。
 
+> [!NOTE]
+> **并行确认**选项仅在您选择了多个要确认的计划订单时显示。
 
 <a name="additional-resources"></a>其他资源
 --------

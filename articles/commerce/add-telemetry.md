@@ -3,7 +3,7 @@ title: 将脚本代码添加到站点页面以支持遥测
 description: 此主题介绍如何向站点页添加客户端脚本代码来支持收集客户端遥测。
 author: bicyclingfool
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a5f82426d87cd2e0faa0195a841899bb03f9df08
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 79d0e11946f3c6f4704d3a726d33de0378eb53bd
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697328"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914531"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>将脚本代码添加到站点页面以支持遥测
 
@@ -63,6 +63,8 @@ ms.locfileid: "2697328"
 [添加徽标](add-logo.md)
 
 [选择站点主题](select-site-theme.md)
+
+[处理 CSS 覆盖文件](css-override-files.md)
 
 [添加收藏夹图标](add-favicon.md)
 

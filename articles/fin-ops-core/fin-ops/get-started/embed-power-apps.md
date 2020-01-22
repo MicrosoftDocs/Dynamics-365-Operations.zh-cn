@@ -3,7 +3,7 @@ title: 嵌入 Power Apps
 description: 此主题描述如何将 Power Apps 嵌入到客户端以细分该产品的功能。
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 755a30f89725ca0a7e1c14252984c617d6ba280e
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 8b5e64cb9ba916f9cbd628703394318b4044867b
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824485"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870233"
 ---
 # <a name="embed-microsoft-power-apps"></a>嵌入 Microsoft Power Apps
 
@@ -55,7 +55,7 @@ ms.locfileid: "2824485"
 
     - **名称**字段指示为要包含嵌入的 Power App 的按钮或选项卡显示的文本。 通常，您可能要在此字段中重复 Power App 的名称。
     - **应用 ID** 是您要嵌入的 Power App 的 GUID。 若要检索此值，在 [web.powerapps.com](https://web.powerapps.com) 上找到 Power App，然后在**详细信息**下找到**应用 ID** 字段。
-    - 对于 **Power App 的输入数据**，您可以有选择性地选择包含您要作为输入传送到 Power App 的数据的字段。 请参阅本主题后面名为[构建利用 Finance and Operations 应用的数据的 Power App](#building-a-powerapp-that-leverages-data-sent-from-finance-and-operations-apps) 部分，了解有关 Power App 如何访问发送自 Finance and Operations 应用的数据的详细信息。
+    - 对于 **Power App 的输入数据**，您可以有选择性地选择包含您要作为输入传送到 Power App 的数据的字段。 请参阅本主题后面名为[构建利用 Finance and Operations 应用的数据的 Power App](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps) 部分，了解有关 Power App 如何访问发送自 Finance and Operations 应用的数据的详细信息。
     - 选择与您嵌入的 Power App 类型匹配的**应用程序大小**。 为针对移动设备构建的 Power Apps 选择**窄**，为平板电脑构建的 Power Apps 选择**宽**。 这将确保为嵌入的 Power App 分配足够的空间量。
     - **法人**快速选项卡提供选择 Power App 可用于哪些法人的功能。 默认显示所有法人中的 Power App。
 
@@ -101,7 +101,7 @@ If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsI
 
 在 Power App 嵌入到页面上后，如果需要，有两种方法可以删除它：
 
-- 使用此主题前面[编辑嵌入的 Power App](#editing-an-embedded-powerapp) 部分的说明转到**编辑 Power App** 窗格。 确认窗格显示您要删除的嵌入 Power App 的信息，然后单击**删除**按钮。
+- 使用此主题前面[编辑嵌入的 Power App](#editing-an-embedded-power-app) 部分的说明转到**编辑 Power App** 窗格。 确认窗格显示您要删除的嵌入 Power App 的信息，然后单击**删除**按钮。
 - 由于嵌入的 Power App 保存为个性化数据，清除页面的个性化也将删除该页面上所有嵌入的 Power Apps。 请注意，清除页面的个性化是永久的，并且无法撤消。 若要删除您的页面上的个性化设置，选择**选项**，然后单击**个性化设置此窗体**。 在**管理**菜单下，选择**清除**按钮。 刷新您的浏览器后，将删除此页之前的所有个性化设置。 请参阅[打造个性化的用户体验](personalize-user-experience.md)了解有关如何使用个性化设置优化页面的更多信息。
 
 ## <a name="appendix"></a>附录

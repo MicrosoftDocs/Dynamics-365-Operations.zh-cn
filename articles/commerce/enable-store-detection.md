@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a542d6987280451910b4ff3bcfb3a109a0e028c6
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: c5fb59a9798e2cddfb75b71235ee7754e54b0e28
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697604"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945758"
 ---
 # <a name="enable-location-based-store-detection"></a>启用基于位置的商店检测
 
@@ -50,16 +50,16 @@ ms.locfileid: "2697604"
 
 ## <a name="additional-resources"></a>其他资源
 
-[在线商店概览](online-store-overview.md)
-
-[创建电子商务站点](create-ecommerce-site.md)
+[配置域名](configure-your-domain-name.md)
 
 [部署新的电子商务站点](deploy-ecommerce-site.md)
 
+[创建电子商务站点](create-ecommerce-site.md)
+
 [将在线站点与渠道关联](associate-site-online-store.md)
 
-[配置域名](configure-your-domain-name.md)
-
-[添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
+[管理 robots.txt 文件](manage-robots-txt-files.md)
 
 [设置用户登录自定义页面](custom-pages-user-logins.md)
+
+[添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)

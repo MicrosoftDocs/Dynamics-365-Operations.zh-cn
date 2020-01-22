@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: bicyclingfool
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e0fad51fcb092c95103356f17618a647dd166b95
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 62d3c168967bd680b3ded56e627730324f2a5ec6
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697355"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945574"
 ---
 # <a name="associate-an-e-commerce-site-with-an-online-channel"></a>将电子商务站点与在线渠道关联
 
@@ -40,16 +40,16 @@ ms.locfileid: "2697355"
 
 ## <a name="additional-resources"></a>其他资源
 
-[在线商店概览](online-store-overview.md)
-
-[创建电子商务站点](create-ecommerce-site.md)
+[配置域名](configure-your-domain-name.md)
 
 [部署新的电子商务站点](deploy-ecommerce-site.md)
 
-[配置域名](configure-your-domain-name.md)
+[创建电子商务站点](create-ecommerce-site.md)
+
+[管理 robots.txt 文件](manage-robots-txt-files.md)
+
+[设置用户登录自定义页面](custom-pages-user-logins.md)
 
 [添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
 
 [启用基于位置的商店检测](enable-store-detection.md)
-
-[设置用户登录自定义页面](custom-pages-user-logins.md)

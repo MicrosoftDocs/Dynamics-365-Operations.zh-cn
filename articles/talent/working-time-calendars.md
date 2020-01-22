@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 270048e10c6c0b20023467662acfdcd1b255588e
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: f69bfec663cb8473c112f108813f042368439570
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008953"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897227"
 ---
 # <a name="working-time-calendars"></a>工作时间日历
-
-[!include [banner](includes/banner.md)]
 
 可通过工作日历创建包含员工在组织中的工作时数和天数的日历。 缺省情况下，日历以小时或天为单位组织请假流程。 员工提交请假申请时，不必担心假日和歇业，因为会通过工作日历处理这些事宜。
 

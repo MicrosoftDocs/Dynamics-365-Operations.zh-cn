@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: 5538aef6599eeffee6d9b075f1b9630d55cf982a
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 546ec5a77d566b6f5739a604e26c0a60c5ff289a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812710"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2899051"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-july-2018"></a>Dynamics 365 Talent - Core HR（2018 年 7 月）中的新增功能或更改
-
-[!include [banner](includes/banner.md)]
 
 此主题介绍了 Microsoft Dynamics 365 Talent: Core HR 中的新增功能和更改的功能。
 

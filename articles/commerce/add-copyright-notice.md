@@ -3,7 +3,7 @@ title: 添加版权声明
 description: 此主题介绍如何向电子商务网站添加版权声明。
 author: psimolin
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39135a2eca25336097ee9eddf06dc6709c102571
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 58c2949057ef777f706d12cee2dd3341d1a3b7e6
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696937"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914556"
 ---
 # <a name="add-a-copyright-notice"></a>添加版权声明
 
@@ -65,6 +65,8 @@ ms.locfileid: "2696937"
 [添加徽标](add-logo.md)
 
 [选择站点主题](select-site-theme.md)
+
+[处理 CSS 覆盖文件](css-override-files.md)
 
 [添加收藏夹图标](add-favicon.md)
 

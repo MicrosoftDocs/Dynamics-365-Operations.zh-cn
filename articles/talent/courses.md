@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 26e76d68c6d5c8bd965e65e65d57f239fb8a2918
-ms.sourcegitcommit: 87e8b811680b1f87a973ce1680f07d657fa23046
+ms.openlocfilehash: c68601b150e5c0963bfba0fa1c6c866abdd092cb
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "1701382"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898865"
 ---
 # <a name="set-up-training-courses"></a>设置培训课程
-
-[!include [banner](includes/banner.md)]
 
 人力资源管理员和经理可以使用课程功能维护有关为工作人员提供的培训的信息。
 

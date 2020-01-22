@@ -1,9 +1,9 @@
 ---
 title: 针对本地环境的硬件规模调整要求
 description: 本主题列出了针对本地环境的硬件规模调整要求。
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 65f21d71c22d295902b968e6c18134e1577e01f2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8fa644f35a086af99cde74fd6a2062f9b59a6ff7
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812549"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870256"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>针对本地环境的硬件规模调整要求
 
@@ -137,7 +137,7 @@ ms.locfileid: "2812549"
 
 ## <a name="environment-orchestrator"></a>环境 Orchestrator
 
-Orchestrator 服务是用于管理你的部署和与 LCS 的相关通信的服务。 此服务部署为主 Service Fabric 服务并需要至少三个 VM。 此服务与 Service Fabric Orchestration 服务位于同一位置。 这应该调整到群集的峰值负荷。 有关详细信息，请参阅 [Service Fabric 群集产能规划注意事项](/azure/service-fabric/service-fabric-cluster-capacity)。
+Orchestrator 服务是用于管理你的部署和与 LCS 的相关通信的服务。 此服务部署为主 Service Fabric 服务并需要至少三个 VM。 此服务与 Service Fabric Orchestration 服务位于同一位置。 这应该调整到群集的峰值负荷。 有关详细信息，请参阅[计划和准备 Service Fabric 独立群集部署](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation)。
 
 ## <a name="virtualization-and-oversubscription"></a>虚拟化和过度订阅
 

@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6d174a8acac3863fb6d9f9431c6bc777cb717470
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 02df31b56c0e960a16ec2aadd8b1e817e0b6ec65
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008167"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898449"
 ---
 # <a name="talent-client-disconnects"></a>Talent 客户端断开连接
-
-[!include [banner](includes/banner.md)]
 
 **环境详细信息** 
 

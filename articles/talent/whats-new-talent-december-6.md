@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: bb43745b5a52c10b2d54480005d9d4e5ca6dc5bf
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e46000414436b5a2fa211428dcd10131b9d588c1
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550243"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897687"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-6-2018"></a>Dynamics 365 Talent - Core HR（2018 年 12 月 6 日）中的新增功能或更改
-
-[!include [banner](includes/banner.md)]
 
 **内部版本 8.1.2071**
 

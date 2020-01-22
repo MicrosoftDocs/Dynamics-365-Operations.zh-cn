@@ -3,7 +3,7 @@ title: 对基准预测进行手动调整
 description: 本主题介绍如何手动调整基准预测和查看预测的详细信息。
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8897e0fe01e7ed5af9a8d5b99de6b9b4506554f1
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1c9963a54a052549a6bfeabcb3d91b7b0f3cf68e
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815126"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935408"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>对基准预测进行手动调整
 
@@ -70,8 +70,9 @@ ms.locfileid: "2815126"
 
 **注意：**
 
+-   如果从“功能管理”启用**根据需求预测详细信息选择预测模型**，您将能够选择要包含在**需求预测详细信息**页上的历史预测的预测模型。
 -   显示在该页的**预测**部分中的置信区间表示置信区间上限和置信区间下限之间的差异。 要查看上限和下限的值，将鼠标悬停在**以图形方式表示的历史需求和预测**部分的图表上。
--   如果您使用需求预测 Microsoft Azure 机器学习服务，您可以指定生成的预测应具有的可信度百分比。 置信区间包含一系列用作良好的需求预测估计的值。 可信度百分比 95% 表示需求预测有 5% 的几率超出置信区间范围。
+-   如果您使用需求预测 Microsoft Azure 机器学习，您可以指定生成的预测应具有的可信度百分比。 置信区间包含一系列用作良好的需求预测估计的值。 可信度百分比 95% 表示需求预测有 5% 的几率超出置信区间范围。
 
 您还可以手动调整**需求预测详细信息**页上的预测，方法是通过修改**预测**部分的**预测**行中的值。
 

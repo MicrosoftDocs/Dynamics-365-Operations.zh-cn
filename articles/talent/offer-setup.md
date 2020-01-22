@@ -3,7 +3,7 @@ title: 在 Attract 中设置聘约管理
 description: 此主题描述如何在 Microsoft Dynamics 365 Talent 中设置聘约。
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/04/2019
+ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63f45f1493935f543cfd25a7d8ed7b54170800a0
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: bc91a83afd5ce1627376685bcf612d6998ddbc02
+ms.sourcegitcommit: 5022d63a81c3715c9a3dcf2a68217bb6b17c7805
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832714"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "2890547"
 ---
 # <a name="set-up-offer-management-in-attract"></a>在 Attract 中设置聘约管理
 
@@ -45,9 +45,11 @@ ms.locfileid: "2832714"
 
     >[!NOTE]
     > **聘约数据**页上是**应聘者详细信息**和**工作详细信息**部分。 Attract 提供一些现成的聘约数据占位符。
-    
+    > 
     > 此页面有一些部分可用于连同逻辑组中的占位符一起管理不同的聘约数据占位符。 这些部分可以帮助在聘约创建流程期间维护聘约数据和填充数据。
-
+    > 
+    > 要为占位符创建值列表，请上载一个具有一列的 Excel 电子表格，在表格中将占位符作为列标题，下面的行内是选择的列表。 如果在另一个数据规则集中引用了相同的占位符，请确保它们具有一组通用值。
+    
 1.  若要创建新的聘约数据部分，单击**添加部分**并为部分输入一个唯一名称。
 
 1.  若要向任何部分添加聘约数据占位符，请单击**添加聘约数据**并为占位符输入一个唯一名称。

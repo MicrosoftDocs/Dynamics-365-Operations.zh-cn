@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7f0cc1c7ec1234b7eedaade0ffadb66965ed2121
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a44d2e43752960d3026fa7ac92c7b261aee05448
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772980"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897019"
 ---
 # <a name="talent-doesnt-appear-among-the-microsoft-dynamics-365-apps-common-data-service-10"></a>Talent 未在 Microsoft Dynamics 365 应用 (Common Data Service 1.0) 中显示
-
-[!include [banner](includes/banner.md)]
 
 **发货**
 

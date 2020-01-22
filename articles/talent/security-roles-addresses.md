@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f8aaa33e5fda404b48548f9a57977dd0ccd53dc1
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 58f3322ad64f7de07e17d193ff665bd6536a4070
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517422"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897089"
 ---
 # <a name="access-to-private-addresses-by-security-role"></a>通过安全角色访问专用地址
-
-[!include [banner](includes/banner.md)]
 
 **发货**
 

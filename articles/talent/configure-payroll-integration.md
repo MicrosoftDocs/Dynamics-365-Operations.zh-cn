@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ec1d14cb14ab709dfc1bead4be0785904efcce4e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 075b2bdfa08bb190f66b6d60074e1263feedcf70
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251031"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898519"
 ---
-# <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>配置 Talent 和 Dayforce 之间的工资单集成
-
-[!include [banner](includes/banner.md)]
+# <a name="configure-payroll-integration-between-talent-and-dayforce"></a>配置 Talent 和 Dayforce 之间的工资单集成
 
 Microsoft Dynamics 365 Talent 与 Ceridian Dayforce 之间的集成依赖于本主题中介绍的几个配置步骤。 必须先在 Talent 和 Dayforce 中配置集成，才能处理付薪。
 

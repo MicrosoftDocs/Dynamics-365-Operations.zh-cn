@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: abe921b8658322bcf77aeea8fa05843e539f97f8
+ms.sourcegitcommit: 523d22f31010339b4ff5b4fbe0a75aa909843ba6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813354"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902424"
 ---
 # <a name="purchase-agreements"></a>采购协议
 
@@ -36,7 +36,14 @@ ms.locfileid: "2813354"
 
 在**采购协议**页上，您可以创建、应用和跟进您的组织及供应商之间存在的采购协议。 例如，在创建采购协议后，您可以直接从中进行订购。 每个采购协议都具有由创建采购协议的人员定义的有效期间。 采购的交货日期必须处于此有效期间的生效日期。  
 
-在您创建某一采购协议后，必须激活它，然后它才会生效。 若要激活采购协议，请将**将协议标记为有效**选项设置为**是**。
+在您创建某一采购协议后，必须激活它，然后它才会生效。 若要激活采购协议，请将**将协议标记为有效**选项设置为**是**。 
+
+为防止使用和确认您的购买协议，请将协议状态标记为**关闭**。 进行此更改后，您仍然可以随时将状态更新为**有效**。
+
+## <a name="responsible-workers-on-purchase-agreements"></a>采购协议中的负责工作人员
+
+您可以在采购协议分类中标识主要负责工作人员和次要负责工作人员。 这些值将由生成的采购协议继承。 您不需要在采购协议中添加负责工作人员，他们可以在采购协议上针对每个案例直接进行修改。 没有主要负责工作人员无法指定次要负责工作人员，但您不是必须指定次要负责工作人员。 您不能将同一个工作人员同时指定为主要负责工作人员和次要负责工作人员。 
+
 
 ## <a name="commitment-types"></a>承诺类型
 采购协议的每一行都是采购的承诺。 您可以使用来自多个采购订单行 (PO) 履行承诺。 有以下四种承诺类型：

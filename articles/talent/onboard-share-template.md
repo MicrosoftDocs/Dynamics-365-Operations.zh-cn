@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 474c7cc82aaccf6b3bcfb3bbe879725497961c43
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812825"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897133"
 ---
-# <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>在 Dynamics 365 Talent - Onboard 中与其他参与者共享内容
+# <a name="share-content-with-other-contributors"></a>与其他参与者共享内容
 
 [!include [banner](includes/banner.md)]
 

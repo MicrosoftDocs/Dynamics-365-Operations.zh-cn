@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 2a245891e2e3e8c0eae4f28d0932776c3ee976dc
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 0f4d2b8e5f78c5815c5ad7e5eae0d13ad7d15c12
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832807"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898681"
 ---
 # <a name="formalize-business-processes"></a>确定业务流程
-
-[!include [banner](includes/banner.md)]
 
 可通过业务流程功能创建必须需要在组织内完成的业务流程的业务流程模板。 例如，您的公司每年进行一次人力资源 (HR) 审计。 在这种情况下，您可以一个模板，用于跟踪构成审计流程的所有任务。 然后，此模板有助于确保只要完成审计，都完成了所有任务。 此外，如果必须按照特定顺序完成这些任务，此模板就有助于确保按照正确顺序完成。
 

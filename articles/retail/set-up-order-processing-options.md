@@ -3,7 +3,7 @@ title: 设置呼叫中心渠道
 description: 本主题提供有关如何使用 Dynamics 365 Retail 来处理呼叫中心的订单的信息。
 author: josaw1
 manager: AnnBe
-ms.date: 04/16/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4ebe25f91cd4228537254dc0b7891c8584981775
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024813"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934692"
 ---
 # <a name="set-up-call-center-channels"></a>设置呼叫中心渠道
 
@@ -81,3 +81,6 @@ ms.locfileid: "2024813"
 
 
 完成呼叫中心渠道配置和渠道用户定义之后，要帮助确保所需系统行为，请务必在 **Retail** \> **渠道设置** \> **呼叫中心设置** \> **呼叫中心参数**中定义所有必需的呼叫中心参数。 请确保还定义相关编号规则。
+
+> [!NOTE]
+> 要使用呼叫中心功能，**多次收货**的配置键必须启用。 可以在**系统管理** \> **设置** \> **许可证配置**下的**贸易配置**键中找到此配置键。 由于呼叫中心功能会根据在销售订单行级别配置的交货地址执行各种验证，因此这是必需的。 

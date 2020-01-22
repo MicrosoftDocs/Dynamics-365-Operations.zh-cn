@@ -3,7 +3,7 @@ title: 全渠道产品建议演示数据
 description: 此文档旨在使用预填充的可自定义演示数据提供有关如何在 1 级单盒环境中利用全渠道产品建议的指导。
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 12/1/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 81af4c1bb7828c9b346a3ef514d8657e853dcefb
-ms.sourcegitcommit: c526cfd1f823df1ff33ded95e599a72f0a15cc5a
+ms.openlocfilehash: 31aa5dbd2fa814fd572024a4ae36b9d9b46a2fb0
+ms.sourcegitcommit: 398c0652acde12c953de007d06055456d6e0a516
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2225633"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2872318"
 ---
 # <a name="omni-channel-product-recommendations-demo-data"></a>全渠道产品建议演示数据
 
 此文档旨在使用预填充的可自定义演示数据提供有关如何在 1 级单盒环境中利用全渠道产品建议的指导。
 
-全渠道产品建议提供一组以编辑身份策划或以编程方式生成的已排序产品列表。 可以在多种方案中使用这些列表，具体取决于业务需要。 有关产品建议列表的详细信息，请参阅[产品建议概述](product-recommendaitons-overview.md)。
+全渠道产品建议提供一组以编辑身份策划或以编程方式生成的已排序产品列表。 可以在多种方案中使用这些列表，具体取决于业务需要。 有关产品建议列表的详细信息，请参阅[产品建议概述](../commerce/product-recommendations.md)。
 
 对于 2 级及更高 Dynamics 环境，将根据客户数据自动计算产品建议。
 使用产品建议演示数据不会禁用环境中已设置的任何产品建议解决方案和与其使用关联的任何成本。
@@ -68,6 +68,6 @@ ms.locfileid: "2225633"
 
 ## <a name="additional-resources"></a>其他资源
 
-[产品建议概述](product-recommendations-overview.md)
+[产品建议概述](../commerce/product-recommendations.md)
 
-[环境计划](environment-planning.md)
+[环境计划](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
