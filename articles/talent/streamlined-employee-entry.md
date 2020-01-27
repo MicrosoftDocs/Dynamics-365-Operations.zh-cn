@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 35cceb97442b05abc243cf7341e0ce7a0d09c613
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009414"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915193"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>简化的员工条目和导航
 
-[!include [banner](includes/banner.md)]
-
 Dynamics 365 Talent 允许高效输入员工和雇用数据。 您可以快速更新过去、现在和将来员工和合同工的工作历史信息。
 
-您还可以启用简化的导航体验，来快速查找相关信息并进行必要的更改。 此功能现在可在沙盒环境中使用。 要打开此功能，请导航至**系统管理 > 链接 > 设置 > 系统参数 > 预览功能**。 选择**增强的工作人员窗体和导航**。 这将为所有用户启用这些更改。 您可以随时关闭此选项。
+您还可以启用简化的导航体验，来快速查找相关信息并进行必要的更改。 此功能现在可在所有环境中使用。 要打开此功能，请导航至**系统管理 > 功能管理> 新 > 简化的员工输入 > 启用**。 这将为所有用户启用这些更改。 您可以随时关闭此选项。
 
 ## <a name="view-options"></a>视图选项
 

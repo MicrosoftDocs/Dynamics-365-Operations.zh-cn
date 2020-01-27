@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ecbeb03b535f19131ddc6649d005702876bab65c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 05d4a2c4314b40042ae45b4f653554bad09be4fa
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772957"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897940"
 ---
 # <a name="reporting-options-in-talent"></a>Talent 中的报告选项
-
-[!include [banner](includes/banner.md)]
 
 **环境详细信息**
 

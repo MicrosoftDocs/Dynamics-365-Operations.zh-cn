@@ -3,7 +3,7 @@ title: 移动应用主页
 description: 此主题描述 Finance and Operations mobile 应用，并提供可以帮助您在组织中实施此应用的资源的链接。
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 11/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 89b3762a4d64861bac682c3f519c26e95cd944b2
-ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
+ms.openlocfilehash: aaff4e3b3bfb079e183a12a5a85e452eed6df51d
+ms.sourcegitcommit: e30ced8f136ef23017d2d8215a756236e42eec25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781865"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853924"
 ---
 # <a name="mobile-app-home-page"></a>移动应用主页
 
@@ -149,3 +149,6 @@ ms.locfileid: "2781865"
 </tr>
 </tbody>
 </table>
+
+## <a name="troubleshooting"></a>疑难解答
+[移动平台资源](platform/mobile-platform-home-page.md#troubleshooting-the-app)

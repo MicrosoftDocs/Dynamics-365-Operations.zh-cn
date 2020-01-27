@@ -3,7 +3,7 @@ title: 添加收藏夹图标
 description: 此主题介绍如何向站点添加收藏夹图标。
 author: bicyclingfool
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 58cb6c592351a96876532ef53d5d477ff93fafa1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 18e12cbe46650fcf024a56b6de9a8cb2903d2bf8
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696983"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914558"
 ---
 # <a name="add-a-favicon"></a>添加收藏夹图标
 
@@ -64,6 +64,8 @@ ms.locfileid: "2696983"
 [添加徽标](add-logo.md)
 
 [选择站点主题](select-site-theme.md)
+
+[处理 CSS 覆盖文件](css-override-files.md)
 
 [添加欢迎消息](add-welcome-message.md)
 

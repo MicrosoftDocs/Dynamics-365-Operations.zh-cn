@@ -3,7 +3,7 @@ title: 工作流常见问题
 description: 本主题解答有关工作流系统的常见问题。
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/19/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0188e8ed3cbbfd7dbccd7d13cf6129e146a919ac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772689"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934901"
 ---
 # <a name="workflow-faq"></a>工作流常见问题
 
@@ -37,7 +37,7 @@ ms.locfileid: "2772689"
 这是现有工作流导出功能的一项限制，它会阻止超过 48 个字符的工作流名称。 使用超过 48 个字符的名称可能会导致“服务器未能对请求进行身份验证”错误，以及/或者阻止导出无文件类型的文件。 以下博客文章提供了有关[工作流导出疑难解答](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting)的更多详细信息。
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>工作流的提交者是否也可以审核工作流？
-可以。如果按照这种方式配置，工作流的提交者也可以审核工作流。 若要避免此行为，请将**工作流参数 > 常规 > 审核人 > 不允许提交者进行审核**设置为**是**。
+可以。如果按照这种方式配置，工作流的提交者也可以审核工作流。 若要避免此行为，请将**系统管理 > 工作流 > 工作流参数 > 常规 > 审核人 > 不允许提交者进行审核**设置为**是**。
 
 ## <a name="can-i-add-alerts-to-workflows-to-provide-notifications-to-users"></a>是否可向工作流添加预警以向用户提供通知？
 下面是向工作流添加预警以提供通知时需要注意的一些关键方面：
@@ -51,3 +51,6 @@ ms.locfileid: "2772689"
     - [工作流具有业务事件](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow)，可供客户用于触发具有客户在寻找的通知的流。   
 
 总之，如果在为用户分配工作流工作项时，该用户未收到来自操作中心的正确通知，请利用[工作流业务事件](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow)和 Microsoft Power Automate 提供更多通知或不同通知。
+
+## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>工作流编辑器无法在 ADFS 下启动 
+在升级的环境中的 Active Directory 联合身份验证服务 (AD FS) 下运行时，工作流编辑器可能无法启动。 如果是这样，请确保 URL“https://dynamicsaxworkfloweditor/”已添加到 ADFS 设置中的属性 **Microsoft Dynamics 365 for Operations On-premises - 工作流 - 本机应用程序**。

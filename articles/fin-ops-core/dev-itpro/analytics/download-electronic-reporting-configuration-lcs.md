@@ -3,7 +3,7 @@ title: 从 Lifecycle Services 下载电子申报配置
 description: 本主题介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 下载电子申报 (ER) 配置。
 author: NickSelin
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 49785835ee2da911d7b8d1360e1c42f850f1153f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4cc14860bd969048c4378b40d97a7940a8710e89
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771485"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934646"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>从 Lifecycle Services 下载电子申报配置
 
@@ -39,7 +39,7 @@ ms.locfileid: "2771485"
     - 电子申报功能顾问
     - 系统管理员
 
-2. 转到**组织管理** &gt; **电子申报**。
+2. 转到**组织管理** &gt; **工作区** &gt; **电子申报**。
 3. 在**配置提供程序**部分中，选择 **Microsoft** 磁贴。
 4. 在 **Microsoft** 磁贴上，单击**存储库**。
 

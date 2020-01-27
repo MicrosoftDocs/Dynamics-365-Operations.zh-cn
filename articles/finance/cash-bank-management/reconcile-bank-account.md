@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3e1281171a656a73a35d4990fd8a34b35c1c6db8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fdfc65d02d4468aee094a92e6760400c5e25af8f
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188272"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888647"
 ---
 # <a name="reconcile-a-bank-account"></a>银行帐户对帐
 
@@ -64,7 +64,7 @@ ms.locfileid: "2188272"
 
 8.  若要查看尚未对帐的银行交易记录，请使用**未对帐的银行交易记录**报表。 若要查看某一银行帐户的银行对帐单，请使用**银行对帐单**报表。
 
-# <a name="cancel-bank-statement-reconciliation"></a>取消银行对帐单对帐 
+## <a name="cancel-bank-statement-reconciliation"></a>取消银行对帐单对帐 
 
 可通过取消银行对帐单对帐功能取消银行对帐单对帐。 若要使用此功能，请启用**功能管理**工作区中的**取消银行对帐单对帐**功能。 还需要启用**允许编辑银行对帐单**参数。 方法是，转到**现金和银行管理 > 设置 > 现金和银行管理参数 > 银行对帐**。
  

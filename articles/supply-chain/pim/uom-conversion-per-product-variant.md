@@ -3,12 +3,12 @@ title: 按照产品变型的度量单位转换
 description: 本主题说明如何在产品变型中设置度量单位转换。
 author: johanhoffmann
 manager: AnnBe
-ms.date: 12/18/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: josaw
@@ -17,34 +17,26 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c8181f0bda9b781a6c2b0feb0aba1beb51bfea65
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249440"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935091"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>按照产品变型的度量单位转换
 
 [!include [banner](../includes/banner.md)]
 
-[!include [pivate-preview](../includes/pivate-preview-banner.md)]
-
 本主题说明如何在产品变型中设置度量单位转换。 其中包括设置示例。
 
 此功能使公司可以定义同一产品变型之间的不同单位换算。 以下示例将用于此主题。 公司销售小、中、大和特大号 T 恤。 T 恤被定义作为产品，不同的尺寸被定义为产品变型。 T 恤按箱打包，一箱可以有五件 T 恤，除了特大号外，只剩放四件 T 恤的空间。 公司想要以单位**件**跟踪不同的 T 恤变型，但以单位**箱**销售 T 恤。 库存单位和销售单位之间的转换为 1 箱 = 5 件，除了变型“特大号”外，转换为 1 箱 = 4 件。
-
-## <a name="setup"></a>设置
-
-您可以通过使用**产品信息参数**页上的**启用度量单位转换**选项来配置参数，以为启用了**所有流程**的产品使用此功能，或仅为启用了**仓库流程**的产品使用此功能。
 
 ### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>按变型为单位转换设置产品
 
 产品变型只能为**产品子类型**：**产品基础**的产品创建。 有关详细信息，请参阅[创建基础产品](tasks/create-product-master.md)。
 
 此功能没有为为实际称重流程设置的产品启用。 
-
-通过使用**产品详细信息**页的**启用度量单位转换**选项，在基础产品创建时启用度量单位转换。
 
 当创建具有已发布产品变型的基础产品时，可以设置每个变型的单位转换。 您可以在以下页面找到用于在产品或产品变型上下文中打开单位转换页面的菜单项。
 

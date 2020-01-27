@@ -46,7 +46,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/retail/toc.json
                 - name: 云部署
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/retail/toc.json
-                - name: 云部署的系统要求
+                - name: Retail 客户端组件的系统要求
                   href: get-started/system-requirements.md
                 - name: 本地部署
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/retail/toc.json
@@ -62,21 +62,15 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/retail/toc.json
             - name: 新增功能或更改
               items:
-                - name: Retail 版本 10.0.7 预览功能
+                - name: Retail 版本 10.0.7
                   href: get-started/whats-new-10-0-7.md
                 - name: Retail 版本 10.0.6
                   href: get-started/whats-new-10-0-6.md
-                - name: Retail 版本 10.0.5
-                  href: get-started/whats-new-10-0-5.md
                 - name: 先前版本中的新增功能或更改
                   items:
-                    - name: Finance and Operations 新增功能或更改主页
+                    - name: Finance and Operations 主页的新增功能或更改
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/retail/toc.json
-                    - name: Finance and Operations 应用 10.0.5（2019 年 10 月）
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/retail/toc.json
-                    - name: Finance and Operations 10.0.4（2019 年 7 月）
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/retail/toc.json
-                    - name: Finance and Operations，Enterprise edition 7.3
+                    - name: 'Finance and Operations, Enterprise edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/retail/toc.json
                 - name: 已删除或弃用的功能
                   items:
@@ -494,7 +488,7 @@
                       items:
                         - name: 配置电子报告以便将数据导入 Power BI
                           href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/retail/toc.json
-                        - name: 生成可打印的普通发票 (FTI) 窗体
+                        - name: 生成可打印的普通账单 (FTI) 窗体
                           href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/retail/toc.json
                     - name: 跟踪电子报告格式的执行以解决性能问题
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/retail/toc.json
@@ -566,7 +560,7 @@
                   href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/retail/toc.json
                 - name: 现有库存
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/retail/toc.json
-                - name: 发票审核
+                - name: 账单审核
                   href: ../fin-ops-core/dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/dynamics365/retail/toc.json
                 - name: 我的团队
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/retail/toc.json
@@ -786,12 +780,10 @@
           items:
             - name: 产品信息概览
               href: ../supply-chain/pim/product-information.md?toc=/dynamics365/retail/toc.json
-            - name: Retail 层次结构
+            - name: 零售层次结构
               href: retail-hierarchies.md
-            - name: 属性和属性组
+            - name: 管理属性和属性组
               href: attribute-attributegroups-lifecycle.md
-            - name: 创建和管理属性
-              href: create-manage-attributes.md
             - name: 设置零售产品
               href: set-up-retail-products.md
             - name: 创建产品
@@ -866,7 +858,7 @@
               href: dev-itpro/adyen-connector.md
             - name: 使用 Adyen 连接器保存在线支付工具
               href: dev-itpro/adyen-connector-listPI.md
-            - name: 设置付款发票方案
+            - name: 设置付款账单方案
               href: payinvoice.md
             - name: 重复付款预防
               href: duplicate-payment-protection.md
@@ -908,7 +900,7 @@
               href: work-with-store-inventory.md
             - name: 在销售流程中登记序列号
               href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/retail/toc.json
-            - name: 库存日记帐
+            - name: 库存日记账
               href: ../supply-chain/inventory/inventory-journals.md?toc=/dynamics365/retail/toc.json
             - name: 库存标签盘点
               href: ../supply-chain/inventory/inventory-tag-counting.md?toc=/dynamics365/retail/toc.json
@@ -928,9 +920,9 @@
               href: ../supply-chain/cost-management/running-average-cost-price.md?toc=/dynamics365/retail/toc.json
             - name: 按库存维度跟踪移动平均成本
               href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md?toc=/dynamics365/retail/toc.json
-        - name: 对帐单
+        - name: 对账单
           items:
-            - name: 零售对帐单
+            - name: 零售对账单
               href: retail-statements.md
             - name: 零售交易记录一致性检查器
               href: valid-checker.md
@@ -938,23 +930,23 @@
               href: disable-consistency-check-rule.md
             - name: 编辑和审计零售商店交易记录
               href: edit-audit-retail-transactions.md
-            - name: 创建、计算和过帐零售商店的对帐单
+            - name: 创建、计算和过账零售商店的对账单
               href: tasks/create-calculate-post-statement-retail-store.md
-            - name: 对帐单过帐功能的改进
+            - name: 对账单过账功能的改进
               href: statement-posting-EOD.md
             - name: 为零售商店交易记录创建基于缓慢馈送的订单
               href: trickle-feed.md
             - name: 改进了批量跟踪物料的处理
               href: batch.md
-            - name: 配置影响零售对帐单的零售参数
+            - name: 配置影响零售对账单的零售参数
               href: tasks/parameter-configurations-retail-statements.md
-            - name: 配置影响零售对帐单的付款方式设置
+            - name: 配置影响零售对账单的付款方式设置
               href: tasks/payment-configurations-retail-statements.md
-            - name: 配置和运行计算对帐单作业
+            - name: 配置和运行计算对账单作业
               href: tasks/run-job-calculate-statements.md
-            - name: 配置和运行过帐对帐单作业
+            - name: 配置和运行过账对账单作业
               href: tasks/run-job-post-statements.md
-            - name: 配置影响零售对帐单的商店设置
+            - name: 配置影响零售对账单的商店设置
               href: tasks/store-configurations-retail-statements.md
         - name: 分配的订单管理 (DOM)
           items:
@@ -980,7 +972,7 @@
               href: orderexchanges.md
             - name: 限制没有收据的退货的付款方式
               href: payment-methods-restrictions.md
-            - name: 跨多个客户订单和发票的退回物料
+            - name: 跨多个客户订单和账单的退回物料
               href: multireturn.md
         - name: Modern Point of Sale (MPOS) 和 Cloud POS
           items:
@@ -1100,11 +1092,11 @@
                   href: localizations/emea-aut-fi-sample.md
             - name: 东欧
               items:
-                - name: 东欧 Retail 预付款发票
+                - name: 东欧 Retail 预付款账单
                   href: localizations/emea-eeu-advance-invoices-for-retail.md
                 - name: 东欧 Retail 备用金管理
                   href: localizations/emea-eeu-petty-cash-for-retail.md
-                - name: 东欧国家/地区的 Retail 客户发票和退货销售订单
+                - name: 东欧国家/地区的 Retail 客户账单和退货销售订单
                   href: localizations/emea-eeu-retail-invoices.md
                 - name: 面向捷克共和国、匈牙利和波兰的收银机部署指南
                   href: localizations/emea-eeu-deployment.md
@@ -1134,7 +1126,7 @@
                   href: localizations/emea-ita-customer-information.md
             - name: 墨西哥
               items:
-                - name: 墨西哥全球 CFDI 电子发票
+                - name: 墨西哥全球 CFDI 电子账单
                   href: ../finance/localizations/latam-mex-global-cfdi-3-3.md
             - name: 挪威
               items:
@@ -1146,7 +1138,9 @@
               items:
                 - name: 收银机功能
                   href: localizations/emea-swe-cash-registers.md
-                - name: Retail POS 与控制单元集成的示例
+                - name: 瑞典的控制单元集成示例
+                  href: localizations/emea-swe-fi-sample.md
+                - name: Retail POS 与控制单元（旧版）集成的示例
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Retail 任务
           items:
@@ -1184,7 +1178,7 @@
               href: tasks/design-relationships-between-organizational-units.md
             - name: 管理分类
               href: tasks/manage-assortments-2016-11.md
-            - name: 过帐联机销售和付款
+            - name: 过账联机销售和付款
               href: tasks/posting-online-sales-payments.md
             - name: 处理会员奖励积分的调整
               href: tasks/process-loyalty-reward-point-adjustments.md

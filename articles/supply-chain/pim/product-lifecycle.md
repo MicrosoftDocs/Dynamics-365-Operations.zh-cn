@@ -3,7 +3,7 @@ title: 产品生命周期状态概览
 description: 产品生命周期状态记载已发布产品或产品变型的生命周期状态。
 author: cvocph
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: b5b0ceb1926de6efda239fdbc69fb36a9d4b28e0
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813538"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934832"
 ---
 # <a name="product-lifecycle-state-overview"></a>产品生命周期状态概览
 
@@ -74,11 +74,7 @@ ms.locfileid: "2813538"
 
 ## <a name="default-migration-import-and-export"></a>默认迁移、导入和导出 
 
-产品生命周期状态不受数据实体的支持，且生命周期状态无法通过已发布的产品数据实体设置为可变状态。
-
--  从以前的版本中迁移时，所有产品和产品变型的生命周期状态将为空。  
--  通过数据实体导入已发布的产品时，将在创建时应用默认的生命周期状态。  
--  通过数据实体导入已发布的产品变型时，将导入已发布的基础产品的产品生命周期状态。   
+产品生命周期状态受数据实体的支持，生命周期状态可以通过已发布产品的数据实体或已发布变型的数据实体设置为可变状态。
 
 ## <a name="find-obsolete-products-and-products-variants"></a>查找过时的产品和产品变型 
 

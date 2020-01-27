@@ -62,19 +62,15 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: 新增功能或更改
               items:
-                - name: Supply Chain Management 版本 10.0.7（2019 年 12 月）预览功能
+                - name: Supply Chain Management 版本 10.0.7（2019 年 12 月）
                   href: get-started/whats-new-scm-10-0-7.md
                 - name: Supply Chain Management 10.0.6（2019 年 11 月）
                   href: get-started/whats-new-scm-10-0-6.md
                 - name: 先前版本中的新增功能或更改
                   items:
-                    - name: Finance and Operations 新增功能或更改主页
+                    - name: Finance and Operations 主页的新增功能或更改
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Finance and Operations 应用 10.0.5（2019 年 10 月）
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Finance and Operations 10.0.4（2019 年 7 月）
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Finance and Operations，Enterprise edition 7.3
+                    - name: 'Finance and Operations, Enterprise edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 已删除或弃用的功能
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
@@ -264,7 +260,7 @@
                 - name: 基于采购订单创建资产
                   href: asset-management/objects/create-objects-based-on-purchase-orders.md
                 - name: 资产物料清单
-                  href: /asset-management/objects/object-bom.md
+                  href: asset-management/objects/object-bom.md
                 - name: 资产事件历史记录
                   href: asset-management/objects/object-timeline.md
                 - name: 资产视图
@@ -433,7 +429,7 @@
               href: ../finance/budgeting/fiscal-calendars-fiscal-years-periods.md?toc=/dynamics365/supply-chain/toc.json
             - name: 财务维度
               href: ../finance/general-ledger/financial-dimensions.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 财务维度和过帐
+            - name: 财务维度和过账
               href: ../finance/general-ledger/Default-dimensions.md?toc=/dynamics365/supply-chain/toc.json
             - name: 向首席财务官工作区添加财务维度
               href: ../finance/general-ledger/CFO-workspace.md?toc=/dynamics365/supply-chain/toc.json
@@ -465,7 +461,7 @@
               href: ../finance/cost-accounting/tasks/configure-access-rights-cost-object-controller.md?toc=/dynamics365/supply-chain/toc.json
             - name: 定义成本控制单元
               href: ../finance/cost-accounting/tasks/define-cost-control-units.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 创建成本核算分类帐
+            - name: 创建成本核算分类账
               href: ../finance/cost-accounting/tasks/create-cost-accounting-ledger.md?toc=/dynamics365/supply-chain/toc.json
             - name: 统计维度成员和统计度量提供方模板
               href: ../finance/cost-accounting/statistical-measure-provider-template.md?toc=/dynamics365/supply-chain/toc.json
@@ -479,7 +475,7 @@
               href: ../finance/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md?toc=/dynamics365/supply-chain/toc.json
             - name: 创建成本累积政策
               href: ../finance/cost-accounting/tasks/create-cost-rollup-policy.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 管理成本核算分类帐的数据源
+            - name: 管理成本核算分类账的数据源
               href: ../finance/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md?toc=/dynamics365/supply-chain/toc.json
             - name: 处理和跟踪源数据
               href: ../finance/cost-accounting/tasks/process-trace-source-data.md?toc=/dynamics365/supply-chain/toc.json
@@ -592,12 +588,12 @@
                 - name: 生产订单成本分析
                   href: cost-management/production-order-cost-analysis.md
                 - name: 生产订单成本估计
-                  href: /cost-management/production-order-cost-estimation.md
+                  href: cost-management/production-order-cost-estimation.md
                 - name: 查看生产订单当前的 WIP 状态
                   href: cost-management/tasks/view-current-wip-status-production-order.md
                 - name: 比较生产订单上的有效、估计和实际成本
                   href: cost-management/tasks/compare-active-estimated-realized-costs.md
-                - name: 生产过帐
+                - name: 生产过账
                   href: cost-management/production-posting.md
                 - name: 设置可以生产或采购的产品
                   href: cost-management/manufactured-items-treated-as-purchased-items.md
@@ -875,7 +871,7 @@
                       items:
                         - name: 在电子报告 (ER) 模型映射中使用 JOIN 数据源从多个应用程序表中获取数据
                           href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 配置与国家/地区上下文相关的 ER 模型映射
+                        - name: 配置与国家/地区上下文相关的电子报告模型映射
                           href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 在 Finance and Operations 中使用电子报告解决方案
                   items:
@@ -905,7 +901,7 @@
                       items:
                         - name: 配置电子报告以便将数据导入 Power BI
                           href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 生成可打印的普通发票 (FTI) 窗体
+                        - name: 生成可打印的普通账单 (FTI) 窗体
                           href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 跟踪电子报告格式的执行以解决性能问题
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
@@ -995,7 +991,7 @@
                   href: inventory/tasks/create-maintain-inventory-blocking.md
             - name: 库存操作
               items:
-                - name: 库存日记帐
+                - name: 库存日记账
                   href: inventory/inventory-journals.md
                 - name: 库存库位
                   href: inventory/inventory-locations.md
@@ -1099,6 +1095,8 @@
                   href: master-planning/safety-stock-replenishment.md
                 - name: 延迟
                   href: master-planning/delays.md
+                - name: 取消主计划作业
+                  href: master-planning/cancel-master-planning-job.md
                 - name: 使用跟踪进行分解
                   href: master-planning/trace-explosion.md
                 - name: 行动消息
@@ -1179,7 +1177,7 @@
                   href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 现有库存
                   href: inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 发票审核
+                - name: 账单审核
                   href: ../fin-ops-core/dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 我的团队
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
@@ -1435,11 +1433,11 @@
                   href: procurement/tasks/create-purchasing-policies.md
                 - name: 设置采购类别层次结构的策略
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
-            - name: 产品收货和开票
+            - name: 产品收货和开单
               items:
                 - name: 针对采购订单的物料收货
                   href: procurement/product-receipt-against-purchase-orders.md
-                - name: 供应商发票的概览
+                - name: 供应商账单的概览
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
             - name: 供应商管理和协作
               items:
@@ -1453,7 +1451,7 @@
                   href: procurement/tasks/create-vendor-account.md
                 - name: 创建供应商银行帐户
                   href: procurement/tasks/create-vendor-bank-account.md
-                - name: 供应商过帐模板
+                - name: 供应商过账模板
                   href: ../finance/accounts-payable/vendor-posting-profiles.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 供应商请求配置
                   href: procurement/vendor-request-configurations.md
@@ -1515,6 +1513,8 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: 创建单个公司的已发布产品
                   href: pim/tasks/create-released-product-single-company.md
+                - name: 使用数据实体
+                  href: pim/data-entities.md
                 - name: 产品生命周期状态
                   items:
                     - name: 产品生命周期状态概览
@@ -1727,7 +1727,7 @@
                       href: production-control/tasks/report-finished-non-license-plate-controlled-location-2016-11.md
                     - name: 在移动作业设备上报告进度
                       href: production-control/tasks/report-progress-mobile-job-device.md
-                    - name: 使用安全存货日记帐更新最小覆盖范围
+                    - name: 使用安全存货日记账更新最小覆盖范围
                       href: production-control/tasks/use-safety-stock-journal-update-minimum-coverage.md
                     - name: 生产中的物料替换
                       href: production-control/substitute-items-bom-lines.md
@@ -1745,7 +1745,7 @@
                       href: production-control/allocate-time-jobs-job-bundle.md
                     - name: 计算物料消耗量
                       href: production-control/consumption.md
-                    - name: 生产过帐
+                    - name: 生产过账
                       href: cost-management/production-posting.md
                 - name: 考勤管理登记
                   items:
@@ -1907,7 +1907,7 @@
                       href: production-control/allocate-time-jobs-job-bundle.md
                     - name: 计算物料消耗量
                       href: production-control/consumption.md
-                    - name: 生产过帐
+                    - name: 生产过账
                       href: cost-management/production-posting.md
         - name: 销售和市场营销
           items:
@@ -2129,7 +2129,7 @@
                       href: service-management/delete-return-order.md
                     - name: 将退回物料送检
                       href: service-management/pass-returned-items-on-to-inspection.md
-                    - name: 过帐退回物料的到达日志
+                    - name: 过账退回物料的到达日志
                       href: service-management/post-arrival-journal-for-returned-products.md
                     - name: 接收退回物料的部分交货
                       href: service-management/receive-partial-deliveries-returned-items.md
@@ -2141,7 +2141,7 @@
                       href: service-management/take-returned-items-through-inspection.md
                     - name: 针对退货的装箱单更新
                       href: service-management/packing-slip-updates-returns.md
-                    - name: 为退货执行发票更新
+                    - name: 为退货执行账单更新
                       href: service-management/perform-invoice-updates-for-returns.md
                 - name: 提供服务
                   items:
@@ -2213,7 +2213,7 @@
                           href: service-management/accrue-subscription-revenue.md
                         - name: 删除服务订单
                           href: service-management/delete-service-orders.md
-                        - name: 发票预订交易记录
+                        - name: 账单预订交易记录
                           href: service-management/invoice-subscription-transactions.md
         - name: 运输管理
           items:
@@ -2237,9 +2237,9 @@
                   href: warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md
             - name: 包括容器重量和负荷的体积
               href: transportation/include-container-weight-volume-on-load.md
-            - name: 对货运进行手动对帐
+            - name: 对货运进行手动对账
               href: transportation/tasks/reconcile-freight-manually.md
-            - name: 对货运进行对帐
+            - name: 对货运进行对账
               href: transportation/reconcile-freight-transportation-management.md
             - name: 登记约会的驾驶员签入和签出
               href: transportation/tasks/register-driver-check-check-out-appointment.md
@@ -2251,7 +2251,7 @@
               href: transportation/tasks/set-up-accessorial-assignments.md
             - name: 为负荷设置约会
               href: transportation/tasks/set-up-appointment-load.md
-            - name: 设置自动装运对帐
+            - name: 设置自动装运对账
               href: transportation/tasks/set-up-automatic-freight-reconciliation.md
             - name: 设置中心附属费用和附属主数据
               href: transportation/tasks/set-up-hub-accessorial-charges-accessorial-masters.md
@@ -2349,6 +2349,10 @@
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                 - name: 取消要进行异常处理的仓库工作
                   href: warehousing/cancel-warehouse-work.md
+                - name: 系统导向的群集领料
+                  href: warehousing/system-directed-cluster-pick.md
+                - name: 领料行分组
+                  href: warehousing/pick-line-grouping.md
             - name: 库存盘点
               items:
                 - name: 库存盘点原因代码
@@ -2363,7 +2367,7 @@
                   href: warehousing/partial-location-cycle-counting.md
                 - name: 定义部分库位周期盘点流程
                   href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                - name: 库存日记帐
+                - name: 库存日记账
                   href: inventory/inventory-journals.md
                 - name: 库存库位
                   href: inventory/inventory-locations.md
@@ -2411,9 +2415,9 @@
                   href: warehousing/upgrade-migration-warehouse-management-processes.md
             - name: 登记和储存的收据
               items:
-                - name: 使用物料到达日记帐登记启用了高级仓库的物料
+                - name: 使用物料到达日记账登记启用了高级仓库的物料
                   href: warehousing/tasks/register-items-advanced-warehousing.md
-                - name: 使用物料到达日记帐登记启用了基本仓库的物料
+                - name: 使用物料到达日记账登记启用了基本仓库的物料
                   href: warehousing/tasks/register-items-basic-warehousing.md
                 - name: 将产品从接收仓库越库配送到商店
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md

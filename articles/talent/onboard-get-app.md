@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 5849de38962967f0614ff7afd40296c0f12ff476
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8739bb1afdbea40c7f1c77064ee6b052516903d1
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812848"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898194"
 ---
-# <a name="get-the-dynamics-365-talent---onboard-app"></a>获取 Dynamics 365 Talent - Onboard 应用
+# <a name="get-the-onboard-app"></a>获取 Onboard 应用
 
 [!include [banner](includes/banner.md)]
 

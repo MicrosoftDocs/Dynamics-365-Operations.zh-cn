@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 2ec3b4789edbacec308600264cdf043067a413bd
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 80bc678d6aa96fe474291e756062898d89305bb7
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009800"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898079"
 ---
 # <a name="run-the-compensation-process"></a>执行薪酬流程
-
-[!include [banner](includes/banner.md)]
 
 **发货**
 

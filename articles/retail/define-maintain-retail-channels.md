@@ -3,7 +3,7 @@ title: 定义和维护零售渠道
 description: 本主题提供设置实体商店（在 Dynamics 365 Retail 中称为零售商店）的流程的概览。 它包含有关在设置零售商店前后必须完成的任务的信息。
 author: mugunthanm
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f55099ad283e665965aad0684b3c9d87223d5ed7
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 45d0386d215da15103a417502debb245c91f6309
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019362"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934600"
 ---
 # <a name="define-and-maintain-retail-channels"></a>定义和维护零售渠道
 
@@ -85,3 +85,6 @@ Retail 支持多个零售渠道，例如在线商店、呼叫中心和实体商�
 ## <a name="organization-hierarchies"></a>组织层次结构
 
 Retail 使用组织层次机构来构造零售渠道。 组织层次结构表示构成贵企业组织之间的关系。 在您设置商店时，您可以添加到组织层次结构。 存储然后共享用于分类、补货和报告的数据。
+
+> [!NOTE]
+> 要使用零售销售功能，**多次收货**的配置键必须启用。 可以在**系统管理** \> **设置** \> **许可证配置**下的**贸易配置**键中找到此配置键。 由于零售功能会根据在销售订单行级别配置的交货地址执行各种验证，因此这是必需的。

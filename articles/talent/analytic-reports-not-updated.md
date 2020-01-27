@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d6a6487b50908093f876237ffef840a3144b3fe6
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fc2e6259a8f9d17dc0f7652f207acfa53da76a8d
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517471"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898565"
 ---
 # <a name="analytic-reports-are-not-updated"></a>分析报告未更新
-
-[!include [banner](includes/banner.md)]
 
 **发货**
 

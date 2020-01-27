@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9708c37f10cd08e6b98167fe24d9ae0380c3dac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
+ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772160"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2890319"
 ---
 # <a name="vendor-invoices-overview"></a>供应商发票概览
 
@@ -76,7 +76,7 @@ ms.locfileid: "2772160"
 
 此选项假定为该采购订单至少过帐了一个产品收据。 供应商发票基于这些产品收据并反映来自这些装箱单的数量。 该发票的财务信息基于在您过帐该发票时输入的信息。
 
-有关详细信息，请参阅[记录供应商发票和匹配接收的数量](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md)。
+有关详细信息，请参阅[记录供应商发票和匹配接收的数量](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md)。
 
 ## <a name="working-with-multiple-invoices"></a>使用多个发票
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 072564446b74318ffc8e8e6ad4fd16f4421e7854
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772379"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853898"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>与 Common Data Service 的近实时数据集成
 
@@ -59,7 +59,7 @@ Finance and Operations 应用和 Common Data Service 通过双写入框架提供
 按照以下步骤设置 Finance and Operations 应用与 Common Data Service 之间的集成。
     
 1. 有关设置双写入系统，请参阅[分步指南](https://aka.ms/dualwrite-docs)中的“发布双写入预览版”。
-2. 从[Finance and Operations、Common Data Service 和 Customer Engagement 集成](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096) Yammer 组下载和安装解决方案。 包中包含五个解决方案：
+2. 从[通过双重写入实现 Fin Ops 和 CDS/CE 集成](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096) Yammer 组下载和安装解决方案。 包中包含五个解决方案：
 
     + Dynamics365Company
     + CurrencyExchangeRates

@@ -3,7 +3,7 @@ title: 需求预测设置
 description: 本主题介绍为准备需求预测您必须执行的设置任务。
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/16/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f56157be8cc61486801fc4c01bb191432dd9a541
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813791"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935483"
 ---
 # <a name="demand-forecasting-setup"></a>需求预测设置
 
@@ -63,7 +63,7 @@ ms.locfileid: "2813791"
 
 并非所有的物料都从需求预测角度具有相同的行为方式。 类似的物料可分组到一个物料分配参数中，并且诸如交易记录类型和预测方法设置等参数可按物料分配参数设置。 单击**需求预测参数**页左窗格中的**物料分配参数**。 
 
-若要生成预测，Supply Chain Management 使用机器学习 Web 服务。 若要连接到服务，如果您登录到 Microsoft Azure 机器学习工作室，则必须提供以下信息：
+若要生成预测，Supply Chain Management 使用机器学习 Web 服务。 若要连接到服务，如果您登录到 Microsoft Azure 机器学习工作室（经典），则必须提供以下信息：
 
 -   Web 服务应用程序编程接口 (API) 密钥
 -   Web 服务终结点 URL
@@ -71,7 +71,7 @@ ms.locfileid: "2813791"
 -   Azure 存储帐户密钥
 
 > [!NOTE]
-> 只有当您使用的是自定义存储帐户时才需要 Azure 存储帐户名称和密钥。 如果部署本地版本，必须在 Azure 有自定义存储帐户，以便机器学习服务可以访问历史数据。 
+> 只有当您使用的是自定义存储帐户时才需要 Azure 存储帐户名称和密钥。 如果部署本地版本，必须在 Azure 有自定义存储帐户，以便机器学习可以访问历史数据。 
 
 若要创建预测，可以通过使用机器学习工作室或 Supply Chain Management 需求预测实验来部署您自己的服务。 有关将需求预测实验部署为 Web 服务的说明，可在 Supply Chain Management 中找到。 在**需求预测参数**页上，单击选项卡 **Azure 机器学习**。
 

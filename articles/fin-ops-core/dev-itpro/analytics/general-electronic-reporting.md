@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771065"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933924"
 ---
 # <a name="electronic-reporting-er-overview"></a>电子申报 (ER) 概览
 
@@ -51,12 +51,12 @@ ER 引擎具有以下功能：
 
 ER 支持两种组件类型：**数据模型**和**格式**。
 
-#### <a name="data-model-components"></a>数据模型组件
+#### <a name="data-model-and-model-mapping-components"></a>数据模型和模型映射组件
 
 数据模型组件是数据结构的抽象表现形式。 它用于描述一个特定的业务域领域，而且具有足够的详细信息满足该域的报告要求。 数据模型组件由以下部分组成︰
 
-- 以一组特定于域的业务实体表示的数据模型以及这些实体之间的关系的分层式定义。
-- 将选定的应用程序数据源关联到在运行时指定的数据模型的各个元素模型映射，业务数据的数据流和规则对数据模型组件的填充。
+- <a name="DataModelComponent"></a>以一组特定于域的业务实体表示的数据模型以及这些实体之间的关系的分层式定义。
+- <a name="ModelMappingComponent"></a>将选定的应用程序数据源关联到在运行时指定的数据模型的各个元素模型映射，业务数据的数据流和规则对数据模型组件的填充。
 
 数据模型的业务实体表示为容器（记录）。 业务实体属性表示为数据项（字段）。 每个数据项具有一个唯一的名称、标签、描述和值。 每个数据项的值可以设计，以便它被识别为字符串、整数、实数、日期、枚举、布尔值，等等。 此外，它可以是另一条记录或记录列表。
 
@@ -81,7 +81,7 @@ ER 支持两种组件类型：**数据模型**和**格式**。
 
 为每个业务域设计了一个数据模型组件，业务域将用作报告的统一数据源，用于将报告与数据源的物理实施隔离。 它表示提高了报告格式的初始设计和后续维护的效率的窗体中特定于域的业务概念和功能。
 
-#### <a name="format-components-for-outgoing-electronic-documents"></a>传出电子文档的格式组件
+#### <a name="FormatComponentOutbound"></a>传出电子文档的格式组件
 
 格式组件是在运行时生成的报告输出的方案。 方案由下列元素组成︰
 
@@ -107,7 +107,7 @@ ER 支持两种组件类型：**数据模型**和**格式**。
 
 要运行单个 ER 格式配置和生成传出电子文档，您必须确定格式配置的映射。
 
-#### <a name="format-components-for-incoming-electronic-documents"></a>传入电子文档的格式组件
+#### <a name="FormatComponentInbound"></a>传入电子文档的格式组件
 格式组件是在运行时导入的传入文档的方案。 方案由下列元素组成︰
 
 - 定义包含在运行时导入的数据的传入电子文档的结构和内容的格式。 格式组件用于分析不同格式（例如文本和 XML）的传入文档。
@@ -144,7 +144,7 @@ ER 组件版本是有时限的。 可以设置 ER 组件的**生效**日期以�
 
 不同版本的数据格式组件可以有不同的 ISO 国家/地区代码设置。
 
-#### <a name="configuration"></a>配置
+#### <a name="Configuration"></a>配置
 
 ER 配置是特定 ER 组件的包装。 该组件可以是数据模型组件或组件格式。 配置可包括不同版本的 ER 组件。 每个配置被标记为由特定配置提供商所有。 当配置的所有者已选为应用程序内 ER 设置中的有效提供商时，配置的组件的**草稿**版本可进行编辑。
 
@@ -154,13 +154,13 @@ ER 配置是特定 ER 组件的包装。 该组件可以是数据模型组件或
 
 将对应用程序公司共享 ER 配置。
 
-#### <a name="provider"></a>提供程序
+#### <a name="Provider"></a>提供程序
 
 ER 提供商是用于指示每个 ER 配置的作者（所有者）的当事方的标识符。 ER 可以管理配置提供商的列表。 作为 Finance and Operations 解决方案的一部分为电子单据发布的格式配置被标记为由配置提供商 **Microsoft** 所有。
 
 要了解如何登记新的 ER 提供商，可播放任务指南，**ER 创建配置提供商并将其标记为有效**（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）。
 
-#### <a name="repository"></a>知识库
+#### <a name="Repository"></a>知识库
 
 ER 存储库中会存储 ER 配置。 目前支持以下 ER 存储库类型： 
 

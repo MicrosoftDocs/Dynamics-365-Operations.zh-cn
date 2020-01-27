@@ -3,7 +3,7 @@ title: 规划全球通讯簿和其他通讯簿
 description: 本主题介绍您设置和配置全球通讯簿和任何其他通讯簿前，在计划流程中的考虑事项和必须做的决定。
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25a99284b2773e7c9d473357356c69a39f23c92d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 89c6e71e5f537f0f9309eca1025c8e74cdce6716
+ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190020"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883403"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>全球通讯簿和其他通讯簿的计划
 
@@ -35,7 +35,7 @@ ms.locfileid: "2190020"
 
 在您开始使用全球通讯簿前，必须确定其默认值。 然后这些默认值用于您创建的任何附加通讯簿。
 
-**决策：**
+**决策**
 
 - 对于**人员**类型的当事方记录，名称应以何种顺序显示？ 例如一个顺序是姓氏、中间名、名字。
 - 在删除角色记录时，是否应从通讯簿中删除当事方记录？ 例如，如果删除了客户记录，是否还应删除相应的当事方记录？
@@ -58,11 +58,3 @@ ms.locfileid: "2190020"
 **决策：**
 
 - 您要创建多少附加通讯簿？
-
-### <a name="address-book-security"></a>通讯簿安全性
-
-您可以随时创建通讯簿，您还可以随时为通讯簿设置安全参数。 为通讯簿设置安全权限并非必需操作，但如果您未设置，则您的组织中的所有工作人员可以查看该通讯簿中的所有当事方记录。 您可以通过通讯簿设置当事方记录的安全权限： 安全权限基于团队。 此方法可保证，仅分配至有权访问通讯簿的团队的工作人员才可以查看该通讯簿中的当事方记录。 您必须选择有权访问每个通讯簿的团队。 对于每个通讯簿，您可以设置允许或拒绝访问特定团队的安全权限。 如果您授予团队通讯簿权限，则该团队的所有成员都可以查看通讯簿中的记录。 如果您不授予对通讯簿的团队访问权限，则该团队的成员不能查看通讯簿或其内容。
-
-**决策：**
-
-- 哪些团队应有权访问您要创建的每个新通讯簿？

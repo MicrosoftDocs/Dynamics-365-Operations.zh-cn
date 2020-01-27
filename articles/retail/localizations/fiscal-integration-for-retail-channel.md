@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7e32f408e5c68a3422906347981c6fc4a4579daf
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812299"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915239"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>零售渠道的会计整合概览
 
@@ -138,9 +138,14 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 - [波兰税控打印机集成示例](emea-pol-fpi-sample.md)
 - [奥地利的会计登记服务集成示例](emea-aut-fi-sample.md)
 - [捷克共和国的会计登记服务集成示例](emea-cze-fi-sample.md)
+- [瑞典的控制单元集成示例](./emea-swe-fi-sample.md)
 
 以下会计整合功能也在 Retail SDK 中可用，但当前不利用会计整合框架。 在以后的更新中已计划了将此功能迁移到会计整合框架。
 
-- [法国收银机功能](emea-fra-cash-registers.md)
-- [挪威收银机功能](emea-nor-cash-registers.md)
-- [Retail POS 与瑞典的控制主机集成的示例](./retail-sdk-control-unit-sample.md)
+
+- [法国数字签名](emea-fra-cash-registers.md)
+- [挪威数字签名](emea-nor-cash-registers.md)
+
+Retail SDK 中提供的以下旧版会计整合功能不使用会计整合框架，将在以后的更新中弃用：
+
+- [瑞典的控制单元集成示例（旧）](./retail-sdk-control-unit-sample.md)

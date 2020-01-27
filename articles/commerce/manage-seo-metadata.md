@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b69d9d2769023967e2b94fef1b8fcf6b5b3357c5
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 3ea06713af69659c205686a971393892fa584072
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698341"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945712"
 ---
 # <a name="manage-seo-metadata"></a>管理 SEO 元数据
 
@@ -97,3 +97,4 @@ Dynamics 365 Commerce 允许您管理单个页面的 SEO 元数据。 可在页�
 
 [丰富类别登陆页面](enrich-category-page.md)
 
+[验证页面内容可访问性](verify-accessibility.md)

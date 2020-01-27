@@ -3,7 +3,7 @@ title: 设置用户登录自定义页面
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中生成用于处理 Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户用户的自定义登录的自定义页面。
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 644d937ddd3c219ae869f22d977d2846dffc20e1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 20bfacbc2374003814e12e7737644d118d404cc0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697535"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945551"
 ---
 # <a name="set-up-custom-pages-for-user-logins"></a>设置用户登录自定义页面
 
@@ -136,11 +136,11 @@ ms.locfileid: "2697535"
 1. 在前面配置的**登录和注册**策略中导航窗格内，选择**页面布局**。
 1. 选择**统一注册或登录页面**布局。
 1. 将**使用自定义页面内容**选项设置为**是**。
-1. 在**自定义页面 URI** 字段中，输入完整的登录 URL。 包括后缀 **?preloadscripts=true**。 例如，输入 **www.\<my domain\>.com/sign-in?preloadscripts=true**。
+1. 在**自定义页面 URI** 字段中，输入完整的登录 URL。 包括后缀 **?preloadscripts=true**。 例如，输入 ``www.<my domain>.com/sign-in?preloadscripts=true``。
 1. 在**页面布局版本(预览)** 字段中，选择 **1.2.0**。
 1. 选择**本地帐户注册页面**布局。
 1. 将**使用自定义页面内容**选项设置为**是**。
-1. 在**自定义页面 URI** 字段中，输入完整的登录 URL。 包括后缀 **?preloadscripts=true**。 例如，输入 **www.\<my domain\>.com/sign-in?preloadscripts=true**。
+1. 在**自定义页面 URI** 字段中，输入完整的注册 URL。 包括后缀 **?preloadscripts=true**。 例如，输入 ``www.<my domain>.com/sign-up?preloadscripts=true``。
 1. 在**页面布局版本(预览)** 字段中，选择 **1.2.0**。
 1. 在**用户属性**部分中，执行以下步骤：
 
@@ -156,7 +156,7 @@ ms.locfileid: "2697535"
 1. 在前面配置的**个人资料编辑**策略中导航窗格内，选择**页面布局**。
 1. 选择**个人资料编辑页面**布局。
 1. 将**使用自定义页面内容**选项设置为**是**。
-1. 在**自定义页面 URI** 字段中，输入完整的登录 URL。 包括后缀 **?preloadscripts=true**。 例如，输入 **www.\<my domain\>.com/sign-in?preloadscripts=true**。
+1. 在**自定义页面 URI** 字段中，输入完整的个人资料编辑 URL。 包括后缀 **?preloadscripts=true**。 例如，输入 ``www.<my domain>.com/profile-edit?preloadscripts=true``。
 1. 在**页面布局版本(预览)** 字段中，选择 **1.2.0**。
 1. 在**用户属性**部分中，执行以下步骤：
 
@@ -170,12 +170,14 @@ ms.locfileid: "2697535"
 1. 在前面配置的**密码重置**策略中导航窗格内，选择**页面布局**。
 1. 选择**新建密码页面**布局。
 1. 将**使用自定义页面内容**选项设置为**是**。
-1. 在**自定义页面 URI** 字段中，输入完整的登录 URL。 包括后缀 **?preloadscripts=true**。 例如，输入 **www.\<my domain\>.com/sign-in?preloadscripts=true**。
+1. 在**自定义页面 URI** 字段中，输入完整的密码重置 URL。 包括后缀 **?preloadscripts=true**。 例如，输入 ``www.<my domain>.com/passwordreset?preloadscripts=true``。
 1. 在**页面布局版本(预览)** 字段中，选择 **1.2.0**。
 1. 选择**帐户验证页面**布局。
 1. 将**使用自定义页面内容**选项设置为**是**。
-1. 在**自定义页面 URI** 字段中，输入完整的登录 URL。 包括后缀 **?preloadscripts=true**。 例如，输入 **www.\<my domain\>.com/sign-in?preloadscripts=true**。
+1. 在**自定义页面 URI** 字段中，输入完整的密码重置验证 URL。 包括后缀 **?preloadscripts=true**。 例如，输入 ``www.<my domain>.com/passwordreset-verification?preloadscripts=true``。
 1. 在**页面布局版本(预览)** 字段中，选择 **1.2.0**。
+
+
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>自定义标签和描述的默认文本字符串
 
@@ -193,15 +195,15 @@ ms.locfileid: "2697535"
 
 ## <a name="additional-resources"></a>其他资源
 
-[在线商店概览](online-store-overview.md)
-
-[创建电子商务站点](create-ecommerce-site.md)
+[配置域名](configure-your-domain-name.md)
 
 [部署新的电子商务站点](deploy-ecommerce-site.md)
 
+[创建电子商务站点](create-ecommerce-site.md)
+
 [将在线站点与渠道关联](associate-site-online-store.md)
 
-[配置域名](configure-your-domain-name.md)
+[管理 robots.txt 文件](manage-robots-txt-files.md)
 
 [添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
 

@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 8f790cae031b1a1d97f5409974b5d024ed6ceec5
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 11f200f2d9e58940ea8ddd4f626203fa3802ca01
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814551"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898010"
 ---
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>设置特定于公司的人力资源 (HR) 参数
-
-[!include [banner](includes/banner.md)]
 
 某些人力资源 (HR) 参数的设置在公司间共享，而其他参数设置是特定于公司的。 本文说明如何设置特定于公司的人力资源参数。
 

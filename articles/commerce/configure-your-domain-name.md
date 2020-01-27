@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7a988f533757cc3f8555fcf4fb724a22a5b014f8
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 8f73c034563fb1cc6b05091b4c47e2a788d1a8b6
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770450"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945528"
 ---
 # <a name="configure-your-domain-name"></a>配置域名
 
@@ -43,16 +43,16 @@ ms.locfileid: "2770450"
 
 ## <a name="additional-resources"></a>其他资源
 
-[在线商店概览](online-store-overview.md)
+[部署新的电子商务站点](deploy-ecommerce-site.md)
 
 [创建电子商务站点](create-ecommerce-site.md)
 
-[部署新的电子商务站点](deploy-ecommerce-site.md)
-
 [将在线站点与渠道关联](associate-site-online-store.md)
+
+[管理 robots.txt 文件](manage-robots-txt-files.md)
+
+[设置用户登录自定义页面](custom-pages-user-logins.md)
 
 [添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
 
 [启用基于位置的商店检测](enable-store-detection.md)
-
-[设置用户登录自定义页面](custom-pages-user-logins.md)

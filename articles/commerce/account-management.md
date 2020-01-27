@@ -3,7 +3,7 @@ title: 帐户管理页和模块
 description: 此主题介绍 Microsoft Dynamics 365 Commerce 中的帐户管理页和模块。
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3986505a7e0e8d33d5b8ff2c06f493335731a8d9
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: f9fc3731cd9d21294b0161e1d419f255096d7790
+ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785368"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2885801"
 ---
 # <a name="account-management-pages-and-modules"></a>帐户管理页和模块
 
@@ -58,7 +58,7 @@ ms.locfileid: "2785368"
 
 ### <a name="user-profile-page"></a>用户个人资料页
 
-用户个人资料页显示用户帐户详细信息，如用户的姓名和电子邮件地址。 它使用用户个人资料模块。 虽然不能删除电子邮件地址，但可以对其进行编辑。
+用户个人资料页显示用户帐户详细信息，如用户的姓名和电子邮件地址。 它使用用户个人资料模块。 虽然不能删除电子邮件地址，但可以对其进行编辑。 用户个人资料页面还显示用户首选项，使用户可以选择加入或退出某些功能，例如建议列表的个性化。 
 
 ### <a name="user-address-page"></a>用户地址页
 

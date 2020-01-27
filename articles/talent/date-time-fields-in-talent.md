@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: abd215243cbda68ba3f57b5fa41054a10745d11f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5f5bb3432ba3e57a4ef08dfa3c25cb61705efc33
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551018"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898750"
 ---
 # <a name="work-with-date-and-time-in-microsoft-dynamics-365-talent"></a>在 Microsoft Dynamics 365 Talent 中使用日期和时间
-
-[!include [banner](includes/banner.md)]
 
 **日期和时间**字段是 Dynamics 365 Talent 中的基本概念。 了解如何在 Dynamics 365 窗体、Common Data Service 和外部源中使用**日期和时间**数据非常重要。
 

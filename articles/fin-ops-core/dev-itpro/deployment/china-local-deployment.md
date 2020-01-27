@@ -15,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: da77e85c6115fbb4dc5ea5b7940028567f7965e0
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de01bcaf3b2be8c2abf562115aba85a068b6c71b
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770962"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853919"
 ---
 # <a name="finance-and-operations-apps---operated-by-21vianet-in-china"></a>Finance and Operations 应用 - 由世纪互联在中国运营
 
@@ -52,7 +52,7 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 - OSSA = 联机服务标准版协议
 - CSP = 云解决方案提供商
 
-有关预配环境的信息，请参阅 [Power Platform 管理中心的“创建和管理环境”部分](https://docs.microsoft.com/en-us/power-platform/admin/create-environment)。
+有关预配环境的信息，请参阅 [Power Platform 管理中心的“创建和管理环境”部分](https://docs.microsoft.com/power-platform/admin/create-environment)。
 
 ## <a name="features-not-available"></a>不可用的功能
 
@@ -98,9 +98,9 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 
 - [由世纪互联运营的 Dynamics 365 支持网站（中文）](https://www.21vbluecloud.com/Dynamics365/)
 - [对世纪互联在中国运营的 Dynamics 365 Finance and Operations 应用的支持](../lifecycle-services/21vianet-support.md)
-- [由世纪互联运营的 Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/admin/datacenter/about-microsoft-cloud-china)
+- [Dynamics 365 中的模型驱动应用 - 由世纪互联在中国运营](https://docs.microsoft.com/dynamics365/customer-engagement/admin/datacenter/about-microsoft-cloud-china)
 - [Dynamics 365 隐私声明 (Dynamics 365 隐私声明)](https://www.21vbluecloud.com/Dynamics365/d365-privacy/)
-- [Dynamics 365 服务级别协议 (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/Dynamics365/d365-sla/)
+- [Dynamics 365 Service Level agreement (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/Dynamics365/d365-sla/)
 - [Dynamics 365 法律信息（Dynamics 365 法律信息）](https://www.21vbluecloud.com/Dynamics365/dynamics365-legal/)
 - [Dynamics 365 Lifecycle Services 的服务条款](https://www.21vbluecloud.com/dynamics365/d365-lcs/)
 - [OSPT of Dynamics 365 (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/ostpt/)

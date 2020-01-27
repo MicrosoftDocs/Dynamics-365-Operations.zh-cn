@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fd87a51b73deae64867b0420c00db9fce7c79336
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697121"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945827"
 ---
 # <a name="create-an-e-commerce-site"></a>创建电子商务站点
 
@@ -59,20 +59,16 @@ ms.locfileid: "2697121"
 
 ## <a name="additional-resources"></a>其他资源
 
-[在线商店概览](online-store-overview.md)
+[配置域名](configure-your-domain-name.md)
 
 [部署新的电子商务站点](deploy-ecommerce-site.md)
 
 [将在线站点与渠道关联](associate-site-online-store.md)
 
-[配置域名](configure-your-domain-name.md)
+[管理 robots.txt 文件](manage-robots-txt-files.md)
+
+[设置用户登录自定义页面](custom-pages-user-logins.md)
 
 [添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
 
 [启用基于位置的商店检测](enable-store-detection.md)
-
-[设置用户登录自定义页面](custom-pages-user-logins.md)
-
-[创作主页概览](authoring-home-overview.md)
-
-[添加新的站点页面](add-new-page.md)

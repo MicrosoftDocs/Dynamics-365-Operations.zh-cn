@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: b7e04f2872ac71055840fc8f73efa3bfda025c2d
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 7e42e68f48de9518199c38d07b650d55628114a7
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550312"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896973"
 ---
 # <a name="get-support-for-microsoft-dynamics-365-talent"></a>获取 Microsoft Dynamics 365 Talent 支持
-
-[!include [banner](includes/banner.md)]
 
 本主题说明如何获取 Microsoft Dynamics 365 Talent: Core HR、Dynamics 365 Talent: Attract 和 Dynamics 365 Talent: Onboard 的帮助。
 

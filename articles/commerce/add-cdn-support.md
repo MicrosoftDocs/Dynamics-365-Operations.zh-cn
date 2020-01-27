@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fb757672fffb56892837c066d552773908dd1ec1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: d2d64f0de5287a764cb2e40b99a08084494bf53c
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696960"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945620"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>添加对内容交付网络 (CDN) 的支持
 
@@ -140,16 +140,16 @@ CDN 的设置过程通常包含下面的步骤：
 
 ## <a name="additional-resources"></a>其他资源
 
-[在线商店概览](online-store-overview.md)
-
-[创建电子商务站点](create-ecommerce-site.md)
+[配置域名](configure-your-domain-name.md)
 
 [部署新的电子商务站点](deploy-ecommerce-site.md)
 
+[创建电子商务站点](create-ecommerce-site.md)
+
 [将在线站点与渠道关联](associate-site-online-store.md)
 
-[配置域名](configure-your-domain-name.md)
-
-[启用基于位置的商店检测](enable-store-detection.md)
+[管理 robots.txt 文件](manage-robots-txt-files.md)
 
 [设置用户登录自定义页面](custom-pages-user-logins.md)
+
+[启用基于位置的商店检测](enable-store-detection.md)

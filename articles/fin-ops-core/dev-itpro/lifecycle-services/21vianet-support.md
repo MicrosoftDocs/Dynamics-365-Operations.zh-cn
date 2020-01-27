@@ -1,6 +1,6 @@
 ---
-title: 对世纪互联在中国运营的 Dynamics 365 Finance and Operations 应用的支持
-description: Dynamics 365 Finance and Operations 应用通过世纪互联提供大量自助服务支持选项和支持。
+title: 由 21Vianet 在中国运营的 Finance and Operations 的支持
+description: Finance and Operations 应用通过世纪互联提供大量自助服务支持选项和支持。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/02/2019
@@ -15,18 +15,18 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 46e23c27488c92a6d6b21a7ae63b2335440fbd23
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0a52fb6ac9c946283488fe80bda6ff0c9f131115
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812074"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853920"
 ---
-# <a name="support-for-dynamics-365-finance-and-operations-apps-operated-by-21vianet-in-china"></a>对世纪互联在中国运营的 Dynamics 365 Finance and Operations 应用的支持
+# <a name="support-for-finance-and-operations-operated-by-21vianet-in-china"></a>由 21Vianet 在中国运营的 Finance and Operations 的支持
 
 [!include [banner](../includes/banner.md)]
 
-Dynamics 365 Finance and Operations 应用通过世纪互联提供大量自助服务支持选项和支持。
+Finance and Operations 应用通过世纪互联提供大量自助服务支持选项和支持。
 
 ## <a name="self-help-resources"></a>自助资源
 
@@ -85,7 +85,7 @@ Dynamics 365 Finance and Operations 应用通过世纪互联提供大量自助�
 ## <a name="additional-resources"></a>其他资源
 - [由世纪互联运营的 Dynamics 365 支持网站（中文）](https://www.21vbluecloud.com/Dynamics365/)
 - [Finance and Operations 应用 - 由世纪互联在中国运营](../deployment/china-local-deployment.md)
-- [世纪互联在中国运营的 Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/admin/datacenter/21vianet-support)
+- [Dynamics 365 中的模型驱动应用 - 由世纪互联在中国运营](https://docs.microsoft.com/dynamics365/customer-engagement/admin/datacenter/21vianet-support)
 - [Dynamics 365 隐私声明 (Dynamics 365 隐私声明)](https://www.21vbluecloud.com/Dynamics365/d365-privacy/)
 - [Dynamics 365 Service Level agreement (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/Dynamics365/d365-sla/)
 - [Dynamics 365 法律信息 (Dynamics 365 法律信息)](https://www.21vbluecloud.com/Dynamics365/dynamics365-legal/)

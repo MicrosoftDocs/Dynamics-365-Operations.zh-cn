@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2632632b9b21dd3a88e9a4df0e65cfd28e579d2
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 10dab1e62446ff7f60ad48fd0841bde5cfd29e12
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697443"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945505"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>部署新的电子商务租户
 
@@ -88,16 +88,16 @@ Microsoft Dynamics Lifecycle Services (LCS) 是基于云的协作工作空间，
 
 ## <a name="additional-resources"></a>其他资源
 
-[在线商店概览](online-store-overview.md)
+[配置域名](configure-your-domain-name.md)
 
 [创建电子商务站点](create-ecommerce-site.md)
 
 [将在线站点与渠道关联](associate-site-online-store.md)
 
-[配置域名](configure-your-domain-name.md)
+[管理 robots.txt 文件](manage-robots-txt-files.md)
+
+[设置用户登录自定义页面](custom-pages-user-logins.md)
 
 [添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
 
 [启用基于位置的商店检测](enable-store-detection.md)
-
-[设置用户登录自定义页面](custom-pages-user-logins.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8c1b82b1b8423c63d442ee581ed0cc8789ee63fd
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 3fff8299ecc6833890b14fa421501236830b2c61
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697880"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945666"
 ---
 # <a name="save-preview-and-publish-a-page"></a>保存、预览和发布页面
 
@@ -100,3 +100,4 @@ ms.locfileid: "2697880"
 
 [丰富类别登陆页面](enrich-category-page.md)
 
+[验证页面内容可访问性](verify-accessibility.md)

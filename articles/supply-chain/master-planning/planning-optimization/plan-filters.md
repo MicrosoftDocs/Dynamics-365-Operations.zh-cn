@@ -3,7 +3,7 @@ title: 将筛选器应用于计划
 description: 本主题说明使用计划优化功能时如何对计划使用筛选器。
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/30/2019
+ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,21 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: ff9c9f875368fcc4dd62b9c188d489e20a5c7960
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 9d1431cc8db6fb28d1f1ec73ee07dd15e78f82e8
+ms.sourcegitcommit: 65f4b8a751670a7fe9ef4cb8b218213f792d57a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773911"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945411"
 ---
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 # <a name="apply-filters-to-a-plan"></a>将筛选器应用于计划
 
-使用计划优化功能时，可以将筛选器应用于计划。 计划筛选器将始终在主计划运行期间应用。 当您要将计划限制为特定的项目组并确保没有其他项目作为生成的主计划的一部分包含时，计划筛选器很有用。
+使用计划优化功能时，可以将筛选器应用于计划。 **计划筛选器**将始终在主计划运行期间应用。 当您要将计划限制为特定的项目组并确保没有其他项目作为生成的主计划的一部分包含时，**计划筛选器**很有用。
 
-如果应用了计划筛选器，并且在主计划运行期间也应用了运行时筛选器，则计划运行中仅包括两个筛选器的交集。
+如果应用了**计划筛选器**，并且在主计划运行期间也应用了运行时筛选器，则计划运行中仅包括两个筛选器的交集。
+
+使用计划优化时，可以从**主计划**访问**计划筛选器**。
 
 ## <a name="example-scenario"></a>示例场景
 

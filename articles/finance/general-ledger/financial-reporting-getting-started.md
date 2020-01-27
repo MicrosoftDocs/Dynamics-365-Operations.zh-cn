@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: caa449feba22c5804799b5317a8e29c139cc440e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f67296797d9a671ae071a13b1bbda73cf3fc6e7f
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176559"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915169"
 ---
 # <a name="financial-reporting-overview"></a>财务报告概览
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 本主题介绍从哪里访问财务申报，以及如何使用财务申报功能。 其中还包括提供的默认财务报表的描述。
 
@@ -79,6 +81,18 @@ ms.locfileid: "2176559"
 | 查看财务报表                | 审查财务绩效          | 未分配                                                                   |
 
 在添加用户或更改角色后，用户应该在几分钟内就能访问财务报表。 **注释：** 将向财务申报中的所有角色添加 sysadmin 角色。
+
+## <a name="report-deletions-and-expirations"></a>报表删除和到期
+生成报表的用户可以删除他们自己的报表。 具有**维护财务报表安全**责任的用户可以删除其他人的报表。 
+
+从 10.0.7 版本开始，引入了到期日期概念。 新的必需功能将在功能管理工作区启用。 此功能包含以下更改：
+* 新生成的报表将从生成之日起自动被标记为具有 90 天的有效期
+* 安装该功能之前的所有现有报表将提供 90 天的有效期。 该日期可能会在短时间内显示为空白，直到 Financial Reporting 服务运行、生成报表，并且该服务执行对具有空白到期日期的现有报表的更新。 
+* 具有**维护财务报表安全**的用户有权使用此功能。 具有**维护财务报表**责任并被授予了**维持财务报表到期**特权的任何用户还可以修改有效期。 目前有两个保留选项可用 - 
+  * 90 天有效期
+  * 将报表设置为永不过期
+
+当选择了有效期（例如 90 天）时，将授予从当天开始 90 天的期限，这与从报表生成过程中设置的原始生成日期开始的 90 天是不同的行为。 
 
 ## <a name="default-reports"></a>默认报表
 财务报表提供 22 个默认财务报表。 每个报表使用默认主科目类别。 您可以按原样使用这些报表，或者针对您的财务报表需要将其作为起点。 除了传统财务报表（例如收入报表和资产负债表）之外，这些默认报表还包括显示您可以创建的不同类型财务报表的报表。 

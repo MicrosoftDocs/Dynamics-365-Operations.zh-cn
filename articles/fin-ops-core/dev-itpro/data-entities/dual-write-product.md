@@ -3,7 +3,7 @@ title: 统一的产品体验
 description: 本主题介绍 Finance and Operations 应用与 Common Data Service 之间的产品数据集成。
 author: t-benebo
 manager: AnnBe
-ms.date: 09/3/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: bcc2c3d2530153a225a94fa0fb3cc990abbf65b4
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7df9097feeb9566705f50f8a62809aa79dc10cd7
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769721"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914763"
 ---
 # <a name="unified-product-experience"></a>统一的产品体验
 
@@ -52,7 +52,7 @@ ms.locfileid: "2769721"
 
 Finance and Operations | 其他 Dynamics 365 应用 | 说明
 -----------------------|--------------------------------|---
-已发布产品 V2 | msdyn\_sharedproductdetails | **msdyn\_sharedproductdetails** 实体包含来自 Finance and Operations 应用的字段，这些字段定义产品，并包含产品的财务和管理信息。 下表显示了映射。
+已发布产品 V2 | msdyn\_sharedproductdetails | **msdyn\_sharedproductdetails** 实体包含来自 Finance and Operations 应用的字段，这些字段定义产品，并包含产品的财务和管理信息。 
 Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定义产品的字段。 它包括单个产品（具有子类型产品的产品）和产品变型。 下表显示了映射。
 产品编号标识条形码 | msdyn\_productbarcodes | 产品条形码用于唯一标识产品。
 默认订单设置 | msdyn\_productdefaultordersettings
@@ -74,7 +74,7 @@ Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定�
 产品特定度量单位转换 | msdyn_productspecificunitofmeasureconversion
 产品类别 | msdyn_productcategories | 每个产品类别以及有关其结构和特征的信息都包含在产品类别实体中。 
 产品类别层次结构 | msdyn_productcategoryhierarhies | 您可以使用产品层次结构对产品进行分类或分组。类别层次结构可在使用产品类别层次结构实体的 Common Data Service 中使用。 
-产品类别层次结构角色 | msdyn_productcategoryhierarchies | 产品层次结构可用于 D365 Finance and Operations 中的不同角色。 指定产品类别角色实体与以下映射一起使用的每个角色中使用的类别。 
+产品类别层次结构角色 | msdyn_productcategoryhierarchies | 产品层次结构可用于 D365 Finance and Operations 中的不同角色。 指定使用产品类别角色实体的每个角色中使用的类别。 
 产品类别分配 | msdyn_productcategoryassignments | 要将产品分配给类别，可以使用产品类别分配实体。
 
 ## <a name="integration-of-products"></a>产品的集成
