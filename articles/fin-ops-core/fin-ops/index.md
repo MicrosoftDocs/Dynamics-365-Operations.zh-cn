@@ -1,6 +1,6 @@
 ---
 title: Finance and Operations 应用程序文档
-description: Finance and Operations 应用的文档。
+description: 针对 Finance and Operations 应用的文档。
 author: robinarh
 manager: AnnBe
 ms.date: 07/25/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89139c149146b64125370c3840f8d3011b92e067
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770911"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005532"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Finance and Operations 应用程序文档
 
@@ -30,7 +30,7 @@ ms.locfileid: "2770911"
 
 使用本主题中的资源查找适用于最终用户、开发人员和 IT 专业人员的重要内容，了解如何让 Finance and Operations 应用程序为您的企业服务。 
 
-其中大部分内容也适用于相关产品：Dynamics 365 Retail 和 Talent。 
+其中大部分内容也适用于相关产品：Dynamics 365 Commerce 和 Dynamics 365 Human Resources。 
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ ms.locfileid: "2770911"
 
 <h3><a href="../../finance/index.md">财务管理</a></h3>
 <p><a href="../../finance/accounts-payable/accounts-payable.md">应付帐款</a></p>
-<p><a href="../../finance/accounts-receivable/accounts-receivable.md">应收帐款</a></p>
+<p><a href="../../finance/accounts-receivable/accounts-receivable.md">应收账款</a></p>
 <p><a href="../../finance/budgeting/budgeting-overview.md">预算编制</a></p>
 <p><a href="../../finance/cash-bank-management/cash-bank-management.md">现金和银行管理</a></p>
 <p><a href="../../finance/general-ledger/audit-policy-rules.md">合规性</a></p>
@@ -84,9 +84,9 @@ ms.locfileid: "2770911"
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">地区监管功能</a></p>
 
 <h3><a href="hr/hr-landing-page.md">人力资源</a></h3>
-<p><a href="../../talent/manage-benefit-program.md">福利</a></p>
-<p><a href="../../talent/performance-management-overview.md">员工发展和培训</a></p>
-<p><a href="../../talent/questionnaires.md">调查表</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">福利</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">员工发展和培训</a></p>
+<p><a href="../../human-resources/hr-learning-questionnaires.md">调查表</a></p>
 <p><a href="hr/manage-recruiting-process.md">招聘</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">美国工资单</a></p>
 
@@ -129,16 +129,17 @@ ms.locfileid: "2770911"
 </td>
 <td>
 <h3>相关产品</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Retail</a></h4>
+<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
 <p><a href="../../retail/call-center-functionality.md">呼叫中心</p>
 <p><a href="../../retail/define-maintain-retail-channels.md">渠道设置和管理</p>
 <p><a href="../../retail/retail-peripherals-overview.md">MPOS 和 Cloud POS</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Retail 开发人员和管理</p>
+<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Commerce 开发人员和管理</p>
 
-<h4><a href="../../talent/index.yml">Dynamics 365 Talent</a></h4>
-<p><a href="../../talent/manage-benefit-program.md">福利</a></p>
-<p><a href="../../talent/performance-management-overview.md">员工发展和培训</a></p>
-<p><a href="../../talent/questionnaires.md">调查表</a></p>
+<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
+<p><a href="../../human-resources/hr-admin-overview.md">管理员指南</a></p>
+<p><a href="../../human-resources/hr-developer-overview.md">开发人员指南</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">用户指南</a></p>
+
 
 </td>
 </tr>
