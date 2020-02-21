@@ -1,45 +1,57 @@
-- name: Finance and Operations 应用开发和管理
+- name: Finance and Operations 应用的开发和管理
   items:
-    - name: Finance and Operations 应用开发和管理
+    - name: Finance and Operations 应用的开发和管理
       items:
         - name: Finance and Operations 应用程序文档
           href: ../fin-ops/index.md
-        - name: Finance and Operations 应用开发和管理
+        - name: Finance and Operations 应用的开发和管理
           href: index.md
         - name: 新增功能或更改
           items:
-            - name: Platform update 32（2020 年 2 月）预览功能
-              href: get-started/whats-new-platform-update-32.md
-            - name: Platform update 31（2020 年 1 月）
-              href: get-started/whats-new-platform-update-31.md
-            - name: Platform update 30（2019 年 11 月）
-              href: ../fin-ops/get-started/whats-new-platform-update-30.md
-            - name: Platform update 29（2019 年 10 月）
-              href: ../fin-ops/get-started/whats-new-platform-update-29.md
-            - name: Platform update 28（2019 年 7 月）
-              href: ../fin-ops/get-started/whats-new-platform-update-28.md
-            - name: Platform update 27（2019 年 6 月）
-              href: ../fin-ops/get-started/whats-new-platform-update-27.md
-            - name: Platform update 26（2019 年 5 月）
-              href: ../fin-ops/get-started/whats-new-platform-update-26.md
-            - name: Platform update 25（2019 年 4 月）
-              href: ../fin-ops/get-started/whats-new-platform-25.md
-            - name: Platform update 24（2019 年 3 月）
-              href: ../fin-ops/get-started/whats-new-platform-update-24.md
-            - name: Platform update 23（2019 年 1 月）
-              href: ../fin-ops/get-started/whats-new-platform-update-23.md
-            - name: Platform update 22（2018 年 12 月）
-              href: ../fin-ops/get-started/whats-new-platform-update-22.md
-            - name: Platform update 21（2018 年 11 月）
-              href: ../fin-ops/get-started/whats-new-platform-update-21.md
-            - name: Platform update 20（2018 年 9 月）
-              href: ../fin-ops/get-started/whats-new-platform-update-20.md
-            - name: Platform update 15（2018 年 3 月）
-              href: ../fin-ops/get-started/whats-new-platform-update-15.md
-            - name: 先前版本中的新增功能或更改
+            - name: Finance and Operations 应用新增功能或更改
+              href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Platform update 新增功能或更改
               items:
-                - name: Finance and Operations 主页的新增功能或更改
-                  href: ../fin-ops/get-started/whats-new-changed.md
+                - name: “Platform update 新增功能或更改”主页
+                  href: get-started/whats-new-home-page.md
+                - name: Platform update 33（2020 年 4 月）
+                  href: get-started/whats-new-platform-update-33.md
+                - name: Platform update 32（2020 年 2 月）
+                  href: get-started/whats-new-platform-update-32.md
+                - name: Platform update 31（2020 年 1 月）
+                  href: get-started/whats-new-platform-update-31.md
+                - name: Platform update 30（2019 年 11 月）
+                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
+                - name: Platform update 29（2019 年 10 月）
+                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
+                - name: Platform update 28（2019 年 7 月）
+                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
+                - name: Platform update 27（2019 年 6 月）
+                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
+                - name: Platform update 26（2019 年 5 月）
+                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
+                - name: Platform update 25（2019 年 4 月）
+                  href: ../fin-ops/get-started/whats-new-platform-25.md
+                - name: Platform update 24（2019 年 3 月）
+                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
+                - name: Platform update 23（2019 年 1 月）
+                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
+                - name: Platform update 22（2018 年 12 月）
+                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
+                - name: Platform update 21（2018 年 11 月）
+                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
+                - name: Platform update 20（2018 年 9 月）
+                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
+                - name: Platform update 15（2018 年 3 月）
+                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: 已删除或弃用的功能
+              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: 延迟发布的 AX 2012 功能
+              href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: 未在本地部署中实现的功能
+              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Microsoft Dynamics AX 2009 和 2012 主流支持结束
+              href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: 业务事件
           items:
             - name: 业务事件概览
@@ -133,62 +145,62 @@
                     - name: 同步、双向集成
                       items:
                         - name: 近实时数据集成
-                          href: data-entities/dual-write-overview.md
+                          href: data-entities/dual-write/dual-write-overview.md
                         - name: Common Data Service 上的组织层次结构
-                          href: data-entities/dual-write-organization.md
+                          href: data-entities/dual-write/organization-mapping.md
                         - name: 公司集成
                           items:
-                            - name: Common Data Service 中的公司概念
-                              href: data-entities/dual-write-company.md
+                            - name: Common Data Services 中的公司概念
+                              href: data-entities/dual-write/company-data.md
                             - name: 使用公司数据引导
-                              href: data-entities/dual-write-bootstrap.md
-                        - name: 集成的客户主数据
-                          href: data-entities/dual-write-customer.md
+                              href: data-entities/dual-write/bootstrap-company-data.md
+                        - name: 集成客户主数据
+                          href: data-entities/dual-write/customer-mapping.md
                         - name: 集成的分类账
-                          href: data-entities/dual-write-ledger.md
+                          href: data-entities/dual-write/ledger-mapping.md
                         - name: 统一的产品体验
-                          href: data-entities/dual-write-product.md
+                          href: data-entities/dual-write/product-mapping.md
                         - name: 供应商集成
                           items:
-                            - name: 集成的供应商主数据
-                              href: data-entities/dual-write-vendor.md
+                            - name: 集成供应商主数据
+                              href: data-entities/dual-write/vendor-mapping.md
                             - name: 在供应商设计之间切换
-                              href: data-entities/dual-write-vendor-switch.md
+                              href: data-entities/dual-write/vendor-switch.md
                         - name: 集成的站点和仓库
-                          href: data-entities/dual-write-sites-and-warehouses.md
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
                         - name: 集成的税收主数据
-                          href: data-entities/dual-write-tax.md
+                          href: data-entities/dual-write/tax-mapping.md
                         - name: 初始同步
-                          href: data-entities/dual-write-initial.md
+                          href: data-entities/dual-write/initial-sync.md
                         - name: 数据集成疑难解答
-                          href: data-entities/dual-write-troubleshooting.md
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                     - name: 异步、单向集成
                       items:
                         - name: 配置现金方案的目标客户
                           items:
                             - name: 现金的目标客户
                               href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: 将 Sales 的客户直接同步到 Finance and Operations
+                            - name: 将客户从 Sales 直接同步到 Finance and Operations 的客户
                               href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: 将 Finance and Operations 的产品直接同步到 Sales
+                            - name: 将产品从 Finance and Operations 直接同步到 Sales 的产品
                               href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: 将 Sales 的联系人直接同步到 Finance and Operations 的联系人或客户
+                            - name: 将联系人从 Sales 直接同步到 Finance and Operations 的联系人或客户
                               href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                            - name: 将 Sales 的销售报价单标题和行直接同步到 Finance and Operations
+                            - name: 将销售报价单标题和行从 Sales 直接同步到 Finance and Operations
                               href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
                             - name: 直接在 Sales 和 Finance and Operations 之间同步销售订单
                               href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: 将 Finance and Operations 的销售账单标题和行直接同步到 Sales
+                            - name: 将销售账单标题和行从 Finance and Operations 直接同步到 Sales
                               href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                         - name: 配置与 Field Service 的集成
                           items:
                             - name: 配置与 Field Service 的集成概览
                               href: ../../supply-chain/sales-marketing/field-service.md
-                            - name: 将 Finance and Operations 的产品与 Field Service 的产品同步
+                            - name: 将 Finance and Operations 中的产品同步到 Field Service 中的产品
                               href: ../../supply-chain/sales-marketing/field-service-product.md
-                            - name: 将 Field Service 的工作订单同步到 Finance and Operations 的销售订单
+                            - name: 将 Field Service 中的工作订单同步到 Finance and Operations 中的销售订单
                               href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: 将 Field Service 的协议账单同步到 Finance and Operations 的普通账单
+                            - name: 将 Field Service 中的协议账单同步到 Finance and Operations 中的普通账单
                               href: ../../supply-chain/sales-marketing/field-service-invoice.md
                             - name: 将库存转移和调整从 Field Service 同步到 Finance and Operations
                               href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
@@ -200,7 +212,7 @@
                               href: ../../supply-chain/sales-marketing/synchronize-project-list.md
                             - name: 将仓库从 Finance and Operations 同步到 Field Service
                               href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: 将项目内的工作订单从 Field Service 同步到 Finance and Operations
+                            - name: 将带项目的工作订单从 Field Service 同步到 Finance and Operations
                               href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                         - name: 配置 Project Service Automation 集成
                           items:
@@ -524,7 +536,7 @@
                   href: dev-tools/models.md
                 - name: Finance and Operations 项目类型
                   href: dev-tools/projects.md
-                - name: Visual Studio Tools 加载项
+                - name: Visual Studio 工具加载项
                   href: dev-tools/developer-tools-add-ins.md
                 - name: 更新 Visual Studio 开发工具
                   href: dev-tools/update-development-tools.md
@@ -912,7 +924,7 @@
                   href: gdpr/gdpr-extend-person-search-report.md
                 - name: 管理对敏感数据的访问权限
                   href: gdpr/gdpr-auditing-sensitive-data.md
-                - name: 使用 Talent 响应个人数据请求
+                - name: 使用 Human Resources 响应个人数据请求
                   href: gdpr/respond-dsr-request-talent.md
                 - name: 响应对 AX 2012 中的个人数据的请求
                   href: gdpr/gdpr-ax2012.md
@@ -1262,7 +1274,7 @@
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 支持概览
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: 获取由 21Vianet 在中国运营的 Finance and Operations 的支持
+            - name: 获取对由世纪互联在中国运营的 Finance and Operations 的支持
               href: lifecycle-services/21vianet-support.md
             - name: 将请求提交给 Dynamics Service 工程团队
               href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
@@ -1390,7 +1402,7 @@
                       href: migration-upgrade/upgrade-budget-planning.md
             - name: 从 AX 2009 迁移数据
               items:
-                - name: 将数据从 AX 2009 迁移至 Finance and Operations
+                - name: 将数据从 AX 2009 迁移到 Finance and Operations
                   href: migration-upgrade/data-migration-tool.md
                 - name: AX 2009 迁移 - 安装数据迁移工具
                   href: migration-upgrade/install-dmt.md
@@ -1672,5 +1684,7 @@
       href: ../../supply-chain/index.md
     - name: Dynamics 365 Finance
       href: ../../finance/index.md
+    - name: Dynamics 365 Commerce
+      href: ../../commerce/index.md
     - name: Dynamics 365 Retail
-      href: ../../retail/index.md
+      href: ../../commerce/index.md

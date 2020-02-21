@@ -1,0 +1,2 @@
+> [!NOTE]
+> <span data-ttu-id="46c77-101">本文适用于 Dynamics 365 Human Resources 以及 Dynamics 365 Finance 中的 **Human Resources** 工作区。</span><span class="sxs-lookup"><span data-stu-id="46c77-101">This article applies to both Dynamics 365 Human Resources and the **Human resources** workspace in Dynamics 365 Finance.</span></span>

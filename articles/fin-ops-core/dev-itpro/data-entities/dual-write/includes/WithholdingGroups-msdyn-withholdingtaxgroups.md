@@ -1,0 +1,8 @@
+## <a name="withholding-tax-groups-to-msdyn_withholdingtaxgroups"></a><span data-ttu-id="5b6e8-101">预缴税金组到 msdyn_withholdingtaxgroups</span><span class="sxs-lookup"><span data-stu-id="5b6e8-101">Withholding tax groups to msdyn_withholdingtaxgroups</span></span>
+
+<span data-ttu-id="5b6e8-102">此模板在 Finance and Operations 应用与 Common Data Service 之间同步数据。</span><span class="sxs-lookup"><span data-stu-id="5b6e8-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="5b6e8-103">Finance and Operations 字段</span><span class="sxs-lookup"><span data-stu-id="5b6e8-103">Finance and Operations field</span></span> | <span data-ttu-id="5b6e8-104">映射类型</span><span class="sxs-lookup"><span data-stu-id="5b6e8-104">Map type</span></span> | <span data-ttu-id="5b6e8-105">其他 Dynamics 365 字段</span><span class="sxs-lookup"><span data-stu-id="5b6e8-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="5b6e8-106">默认值</span><span class="sxs-lookup"><span data-stu-id="5b6e8-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="5b6e8-107">WITHHOLDINGTAXGROUPCODE</span><span class="sxs-lookup"><span data-stu-id="5b6e8-107">WITHHOLDINGTAXGROUPCODE</span></span> | = | <span data-ttu-id="5b6e8-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="5b6e8-108">msdyn_name</span></span> | 
+<span data-ttu-id="5b6e8-109">DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="5b6e8-109">DESCRIPTION</span></span> | = | <span data-ttu-id="5b6e8-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="5b6e8-110">msdyn_description</span></span> | 

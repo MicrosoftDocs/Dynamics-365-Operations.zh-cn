@@ -1,0 +1,6 @@
+> [!IMPORTANT]
+> <span data-ttu-id="0903c-101">**发布 Dynamics 365 版本计划**</span><span class="sxs-lookup"><span data-stu-id="0903c-101">**Announcing the Dynamics 365 release plans**</span></span>
+>
+> <span data-ttu-id="0903c-102">是否对我们的任何商业应用或平台即将推出和最近发布的功能感兴趣？</span><span class="sxs-lookup"><span data-stu-id="0903c-102">Wondering about upcoming and recently released capabilities in any of our business apps or platform?</span></span> 
+> 
+> <span data-ttu-id="0903c-103">查看[业务应用程序和平台版本计划](https://go.microsoft.com/fwlink/?linkid=2010158)。</span><span class="sxs-lookup"><span data-stu-id="0903c-103">Check out the [Business applications and platform release plans](https://go.microsoft.com/fwlink/?linkid=2010158).</span></span> <span data-ttu-id="0903c-104">此文件汇总了所有端到端、上至下的详细信息，可用其进行规划。</span><span class="sxs-lookup"><span data-stu-id="0903c-104">We've captured all the details, end to end, top to bottom, in a single place that you can use for planning.</span></span> <span data-ttu-id="0903c-105">根据版本计划的版本，您可以找到新服务和新功能，以及未来将发布的新功能。</span><span class="sxs-lookup"><span data-stu-id="0903c-105">Depending on the version of the release plans, you can find out about new services and capabilities, as well as new features releasing in the future.</span></span>

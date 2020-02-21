@@ -1,0 +1,8 @@
+## <a name="all-products-to-msdyn_globalproducts"></a><span data-ttu-id="5601c-101">所有产品到 msdyn_globalproducts</span><span class="sxs-lookup"><span data-stu-id="5601c-101">All products to msdyn_globalproducts</span></span>
+
+<span data-ttu-id="5601c-102">此模板在 Finance and Operations 应用与 Common Data Service 之间同步数据。</span><span class="sxs-lookup"><span data-stu-id="5601c-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="5601c-103">Finance and Operations 字段</span><span class="sxs-lookup"><span data-stu-id="5601c-103">Finance and Operations field</span></span> | <span data-ttu-id="5601c-104">映射类型</span><span class="sxs-lookup"><span data-stu-id="5601c-104">Map type</span></span> | <span data-ttu-id="5601c-105">其他 Dynamics 365 字段</span><span class="sxs-lookup"><span data-stu-id="5601c-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="5601c-106">默认值</span><span class="sxs-lookup"><span data-stu-id="5601c-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="5601c-107">PRODUCTNAME</span><span class="sxs-lookup"><span data-stu-id="5601c-107">PRODUCTNAME</span></span> | >> | <span data-ttu-id="5601c-108">msdyn_productname</span><span class="sxs-lookup"><span data-stu-id="5601c-108">msdyn_productname</span></span> | 
+<span data-ttu-id="5601c-109">PRODUCTNUMBER</span><span class="sxs-lookup"><span data-stu-id="5601c-109">PRODUCTNUMBER</span></span> | >> | <span data-ttu-id="5601c-110">msdyn_productnumber</span><span class="sxs-lookup"><span data-stu-id="5601c-110">msdyn_productnumber</span></span> | 

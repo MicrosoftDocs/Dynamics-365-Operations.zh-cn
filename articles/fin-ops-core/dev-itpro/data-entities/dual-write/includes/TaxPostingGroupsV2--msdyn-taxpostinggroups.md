@@ -1,0 +1,8 @@
+## <a name="sales-tax-ledger-posting-groups-v2-to-msdyn_taxpostinggroups"></a><span data-ttu-id="854a5-101">销售税分类账过账组 V2 到 msdyn_taxpostinggroups</span><span class="sxs-lookup"><span data-stu-id="854a5-101">Sales tax ledger posting groups V2 to msdyn_taxpostinggroups</span></span>
+
+<span data-ttu-id="854a5-102">此模板在 Finance and Operations 应用与 Common Data Service 之间同步数据。</span><span class="sxs-lookup"><span data-stu-id="854a5-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="854a5-103">Finance and Operations 字段</span><span class="sxs-lookup"><span data-stu-id="854a5-103">Finance and Operations field</span></span> | <span data-ttu-id="854a5-104">映射类型</span><span class="sxs-lookup"><span data-stu-id="854a5-104">Map type</span></span> | <span data-ttu-id="854a5-105">其他 Dynamics 365 字段</span><span class="sxs-lookup"><span data-stu-id="854a5-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="854a5-106">默认值</span><span class="sxs-lookup"><span data-stu-id="854a5-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="854a5-107">TAXPOSTINGGROUPCODE</span><span class="sxs-lookup"><span data-stu-id="854a5-107">TAXPOSTINGGROUPCODE</span></span> | = | <span data-ttu-id="854a5-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="854a5-108">msdyn_name</span></span> | 
+<span data-ttu-id="854a5-109">DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="854a5-109">DESCRIPTION</span></span> | = | <span data-ttu-id="854a5-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="854a5-110">msdyn_description</span></span> | 
