@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db9caaa7f425133eda7a5f225b39ca52e11e0716
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: debf66029d6efa42fe6d85eadb3866aadb312a97
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835567"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025820"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>查找适用的价格和折扣
 
@@ -49,7 +49,7 @@ ms.locfileid: "1835567"
 10. 关闭该页面。
 
 ## <a name="find-the-applicable-discount"></a>查找适用的折扣
-    * 确保“客户帐户”字段包含客户编号 US-001   
+确保“客户帐户”字段包含客户编号 US-001   
 1. 在“物料编号”字段中，键入“T0012”。
     * 请确保“数量”字段被设置为 1。  
     * 产品 T0012 所显示的以下定价详情源自一个或多个贸易协议：单价为 1,000 加拿大元，并且折扣百分比是 5。  

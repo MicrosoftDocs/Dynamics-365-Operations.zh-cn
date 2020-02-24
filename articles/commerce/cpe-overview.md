@@ -1,5 +1,5 @@
 ---
-title: Commerce 预览环境概述
+title: Dynamics 365 Commerce 预览环境概览
 description: 此主题概述 Microsoft Dynamics 365 Commerce 预览环境。
 author: v-chgri
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 901583afde4739be5313fa129ff0e52f11326881
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 1ff96aeb5963df9ddee56783a089dad129bbb71c
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906062"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024675"
 ---
-# <a name="commerce-preview-environment-overview"></a>Commerce 预览环境概述
+# <a name="dynamics-365-commerce-preview-environment-overview"></a>Dynamics 365 Commerce 预览环境概览
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 此主题概述 Microsoft Dynamics 365 Commerce 预览环境。
@@ -52,10 +52,10 @@ Commerce 预览环境是 Dynamics 365 Commerce 的一个可选的端到端预览
 
 ## <a name="additional-resources"></a>其他资源
 
-[预配 Commerce 预览环境](provisioning-guide.md)
+[配置 Dynamics 365 Commerce 预览环境](provisioning-guide.md)
 
-[配置 Commerce 预览环境](cpe-post-provisioning.md)
+[配置 Dynamics 365 Commerce 预览环境](cpe-post-provisioning.md)
 
-[为 Commerce 预览环境配置可选功能](cpe-optional-features.md)
+[为 Dynamics 365 Commerce 预览环境配置可选功能](cpe-optional-features.md)
 
-[Commerce 预览环境常见问题](cpe-faq.md)
+[Dynamics 365 Commerce 预览环境常见问题](cpe-faq.md)

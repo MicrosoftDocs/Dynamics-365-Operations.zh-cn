@@ -19,16 +19,16 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 669b056c38614c8ac9be2d7b244a0ab0c73bc9f8
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 5da77f71fb2569adc011bb9ee9c8c795d85545f8
+ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770062"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024994"
 ---
 # <a name="manage-ai-ml-based-product-recommendation-results"></a>管理基于 AI-ML 的产品建议结果
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何基于人工智能-机器学习 (AI-ML) 针对您的业务调整产品建议结果。 
@@ -39,34 +39,43 @@ ms.locfileid: "2770062"
 
 更改参数之前，在下面了解对结果的影响。
 
-### <a name="trending-product-list"></a>热门产品列表
+### <a name="trending-product-list"></a>“热门”产品列表
 
-**热门**产品列表有两个可更改的参数：![示例热门列表默认参数](./media/exampletrendingparameters.png)
+“热门”产品列表有两个可更改的参数：
+
+![示例“热门”列表默认参数](./media/exampletrendingparameters.png)
+
 1. **包括过去 X 天的新产品** - 可使用当天前指定天数内已添加的产品选择候选产品。 图片中的默认值表明旧产品已有 180 天，可在热门产品列表中使用。
 1. **包括过去 X 天的销售量** - 可使用当天前指定天数内进行的销售交易记录订购产品。 上面的默认值表明过去 30 天某个产品的所有购买用于决定此产品在热门产品列表中的位置。 
 
-### <a name="best-selling-product-list"></a>最畅销产品列表
+### <a name="best-selling-product-list"></a>“最畅销”产品列表
 
-最畅销产品可根据您的业务提供不同于热门的结果，即使两者都使用交易记录数据订购产品。 因为最畅销没有基于分类日期的截止，所以最畅销仍然可以突出显示非常受欢迎，并且可能已从热门列表撤下的较早产品。 
+“最畅销”列表可根据您的业务提供不同于热门的结果，即使两者都使用交易记录数据订购产品。 因为最畅销没有基于分类日期的截止，所以最畅销仍然可以突出显示非常受欢迎，并且可能已从热门列表撤下的较早产品。 
 
-**最畅销**产品列表有一个可更改的参数：
+“最畅销”产品列表有一个可更改的参数：
 
 ![示例最畅销列表默认参数](./media/examplebestsellingparameters.PNG)
+
 1. **包括过去 X 天的销售量** - 可使用当天前指定天数内进行的销售交易记录订购产品。 上面的默认值表明过去 30 天某个产品的所有购买用于决定此产品在最畅销产品列表中的位置。 
 
 ## <a name="manually-add-or-remove-products-from-recommendation-lists"></a>在建议列表中手动添加或删除产品
 
-### <a name="for-new-trending-or-best-selling"></a>对于新品、热门或最畅销
+### <a name="for-new-trending-or-best-selling-lists"></a>对于“新品”、“热门”或“最畅销”列表
 
-1.  转到 **Retail**  >  **产品建议**  >  **建议参数**。
-1.  在零售共享参数列表中，选择**建议列表**。
+1.  转到 **Retail 和 Commerce** > **产品建议** > **建议参数**。
+1.  在共享参数列表中，选择**建议列表**。
 1.  选择要在其中添加或删除产品的列表。
 1.  若要向表添加产品，请选择**添加行**。 
 1.  在“产品”列下，按**名称**或**产品编号**搜索产品。
-![搜索“新”产品列表中的产品的示例](./media/examplenewlistconfiguration1.png)
+
+    ![在“新品”产品列表中搜索产品的示例](./media/examplenewlistconfiguration1.png)
+
 1.  在“行类型”列下，选择两个选项之一：
     -   **包含** – 强制产品位于列表前部
-    -   **排除** – 在列表中隐藏某个产品 ![在“新品”产品列表中包含或排除某个产品的示例](./media/examplenewlistconfiguration2.png)
+    -   **排除** – 在列表中隐藏某个产品。
+    
+    ![在“新品”产品列表中包含或排除某个产品的示例](./media/examplenewlistconfiguration2.png)
+
 1.  更改**显示顺序**将更改标记为**包含**的产品在列表中的显示顺序。
     - 如果两个产品的**显示顺序**值相同，则这两个结果的最终顺序可能与后端不同。
 1.  若要从表中删除产品：选择要删除的行，然后选择**删除**。
@@ -74,9 +83,9 @@ ms.locfileid: "2770062"
 
 ### <a name="for-people-also-like-or-frequently-bought-together-lists"></a>对于“用户也喜欢”或“人气组合”列表
 
-在**人气组合**或**用户也喜欢**列表的上下文中，使用机器学习分析消费者购买模式为唯一种子产品推荐通常一起购买的相关产品。 
+在“人气组合”或“用户也喜欢”列表的上下文中，使用机器学习分析消费者购买模式为唯一种子产品推荐通常一起购买的相关产品。 
  
-**种子产品**是要生成其结果的产品。 在手动调整建议列表的上下文中，添加或删除此产品的结果。 
+*种子产品*是要生成其结果的产品。 在手动调整建议列表的上下文中，添加或删除此产品的结果。 
 
 执行以下步骤手动添加或删除种子产品的结果：
 1.  选择**种子产品**。 
@@ -95,4 +104,8 @@ ms.locfileid: "2770062"
 
 [启用产品建议](enable-product-recommendations.md)
 
+[启用个性化建议](personalized-recommendations.md)
+
 [向页面添加建议列表](add-reco-list-to-page.md)
+
+[产品集合模块概览](product-collection-module-overview.md)

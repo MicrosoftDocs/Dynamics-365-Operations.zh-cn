@@ -17,30 +17,30 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 111bcaba971b6223f670176135574633d2f1c5ec
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914600"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001407"
 ---
 # <a name="add-languages-to-your-site"></a>向站点添加语言
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何向 Microsoft Dynamics 365 Commerce 站点添加对更多语言的支持。
 
 ## <a name="overview"></a>概览
 
-可以将网站本地化为 Dynamics 365 Commerce 支持的任何语言。 （此主题后文显示了支持的语言的列表。）若要在网站中添加语言，必须首先将其添加到您的站点绑定的在线商店。
+可以将网站本地化为 Commerce 支持的任何语言。 （此主题后文显示了支持的语言的列表。）若要在网站中添加语言，必须首先将其添加到您的站点绑定的在线商店。
 
 ## <a name="add-a-language-to-an-online-store"></a>向在线商店添加语言
 
 若要向在线商店添加语言，请执行以下步骤。
 
-1. 打开站点的 Dynamics 365 Retail 环境。
-1. 转到 **Retail \> 渠道 \> 在线商店**以访问为您的环境配置的在线商店的列表。 也可以输入**在线商店**作为搜索词。
+1. 打开站点的 Dynamics 365 Commerce 环境。
+1. 转到 **Retail 和 Commerce \> 渠道 \> 在线商店**以访问为您的环境配置的在线商店的列表。 也可以输入**在线商店**作为搜索词。
 1. 选择要为其添加语言的在线商店。
 1. 在**语言**快速选项卡上，选择**添加**。
 1. 在**语言**字段中，选择要添加的语言。

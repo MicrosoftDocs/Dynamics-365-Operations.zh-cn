@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21ee0b835cbe6cc3a238247be29f8a8d3de42a8d
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: bdbff802ca85f7cc568efb8a1aacaf6f8fb2874a
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570740"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003988"
 ---
 # <a name="product-information-overview"></a>产品信息概览
 
@@ -32,7 +32,7 @@ ms.locfileid: "2570740"
 
 此主题提供有关产品信息管理的信息。 产品信息管理使用跨所有法人的共用的产品定义、分类和标识符以及产品的特定配置以适应业务流程。 
 
-产品信息是跨所有行业的供应链和零售应用的基石。 它指的是以集中管理产品相关信息为主（例如，跨供应链）的流程和技术。 使用共用的产品定义、文档、属性和标识符十分重要。 在不同的业务解决方案模块中，需要产品的特定信息和配置以管理与特定产品、产品系列或产品类别有关的业务流程。
+产品信息是跨所有行业的供应链和商业应用的基石。 它指的是以集中管理产品相关信息为主（例如，跨供应链）的流程和技术。 使用共用的产品定义、文档、属性和标识符十分重要。 在不同的业务解决方案模块中，需要产品的特定信息和配置以管理与特定产品、产品系列或产品类别有关的业务流程。
 
 ## <a name="product-definition"></a>产品定义
 

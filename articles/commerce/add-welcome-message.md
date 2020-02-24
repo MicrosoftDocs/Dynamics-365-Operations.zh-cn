@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4e9deeeaf491b77700ba0833e429f05d376a4392
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: ca10b01268b5dcd4c6fe448d90cd0ebd65a2673b
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914508"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001246"
 ---
 # <a name="add-a-welcome-message"></a>添加欢迎消息
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何向 Microsoft Dynamics 365 Commerce 网站添加欢迎消息。

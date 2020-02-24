@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9280a2580d20d64f6542902aab1dbf55434bf84c
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: ca463d821292a2ad53462a3575f2d5712b9e53cc
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935506"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004034"
 ---
 # <a name="demand-forecasting-overview"></a>需求预测概览
 
@@ -50,7 +50,7 @@ ms.locfileid: "2935506"
 -   **模块性** – 需求预测是模块化的和易于配置。 您可以通过在**贸易** &gt; **库存预测** &gt; **需求预测**更改 Configuration Key 来打开和关闭功能。
 -   **Microsoft 堆栈的重用** – Microsoft 在 2015 年 2 月启动机器学习平台。 机器学习现在是 Microsoft Cortana 分析套件的一部分，让您可以通过使用算法 R 或 Python 编程语言和简单的拖放界面来迅速轻松地创建预测性分析实验，如需求估计实验。
     -   您可以下载需求预测实验，更改它们以满足您的业务要求，在 Azure 上作为 Web 服务发布它们，并使用它们生成需求预测。 如果您作为企业级用户购买了生产规划员的 Supply Chain Management 订阅，则可以下载这些实验。
-    -   您可以从 [Cortana 分析库](https://gallery.cortanaanalytics.com/)下载当前可用的任何需求预测实验。 而需求预测实验将自动与 Supply Chain Management 集成，客户和合作伙伴必须处理从 [Cortana 分析库](https://gallery.cortanaanalytics.com/) 下载的实验的集成。 因此，[Cortana 分析库](https://gallery.cortanaanalytics.com/) 的实验不如使用 Finance and Operations 需求预测实验那样简单。 您必须修改实验代码，以便它们使用 Finance and Operations 应用程序编程接口 (API)。
+    -   您可以从 [Cortana 分析库](https://gallery.cortanaanalytics.com/)下载当前可用的任何需求预测实验。 而需求预测实验将自动与 Supply Chain Management 集成，客户和合作伙伴必须处理从 [Cortana 分析库](https://gallery.cortanaanalytics.com/) 下载的实验的集成。 因此，[Cortana 分析库](https://gallery.cortanaanalytics.com/)的实验不如使用 Finance and Operations 需求预测实验那样简单。 您必须修改实验代码，以便它们使用 Finance and Operations 应用程序编程接口 (API)。
     -   您可以在 Microsoft Azure 机器学习工作室（经典）中创建自己的实验，在 Azure 上作为服务发布，并使用它们生成需求预测。
     -   如果您不需要高性能，或者，如果您不需要处理大量数据，您可以使用机器学习的免费层。 我们建议始终从这一层开始，尤其是在实施和测试阶段。 如果您需要高性能和额外存储，您可以使用机器学习的标准层。 这一层要求 Azure 订阅并需要其他成本。 有关机器学习定价的详细信息，请参阅[机器学习工作室定价](https://aka.ms/machine-learning-price-info)。
 -   **在任何解耦点的预测缩减** – 生成中的需求预测构建此功能，让您可以在任何解耦点预测相关和不相关的需求。
@@ -69,7 +69,7 @@ ms.locfileid: "2935506"
 您可以使用 Supply Chain Management 来可视化和修改基准预测。 手动调整必须授权，然后预测才能用于计划。
 
 ## <a name="limitations"></a>限制
-需求预测是帮助制造行业客户创建预测流程的工具。 它提供了需求预测解决方案的核心功能，并设计为可以轻松扩展。 需求预测可能对零售、批发、仓库、运输或其他专业服务等行业的客户不是最合适。
+需求预测是帮助制造行业客户创建预测流程的工具。 它提供了需求预测解决方案的核心功能，并设计为可以轻松扩展。 需求预测可能对商业、批发、仓库、运输或其他专业服务等行业的客户不是最合适。
 
 <a name="additional-resources"></a>其他资源
 --------

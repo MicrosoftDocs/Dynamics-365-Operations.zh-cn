@@ -10,17 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Talent
+ms.search.scope: Operations, Human Resources
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 272cf991301fa5c2df8a6de3354588fc372fa92f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c2ad5f30ed0e69df1769eb0379b5da2865d4ce4f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248725"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005601"
 ---
 # <a name="my-team-mobile-workspace"></a>我的团队移动工作区
 
@@ -28,7 +28,7 @@ ms.locfileid: "2248725"
 
 此主题提供有关**我的团队**移动工作区的信息。 此工作区允许经理查看其直接下属和扩展职员。 他们还可以向其报告链中的人员发送表扬。
 
-此工作区应该与 Finance and Operations mobile 应用程序结合使用。
+此工作区应该与 Finance and Operations 移动应用结合使用。
 
 ## <a name="overview"></a>概览 
 **我的团队**移动工作区让经理能够执行以下任务：
@@ -52,12 +52,12 @@ ms.locfileid: "2248725"
 <tbody>
 <tr class="odd">
 <td>必须在您的组织中部署以下产品之一：
-<ul><li>Finance and Operations 应用程序</li>
-<li>Microsoft Dynamics 365 Talent</li>
+<ul><li>Finance and Operations 应用</li>
+<li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>系统管理员</td>
-<td>如果您的组织中没有部署 Finance and Operations 应用程序，请参阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。 如果组织中尚未部署 Talent，系统管理员可从 <a href="https://www.microsoft.com/dynamics365/talent">Talent 网页</a>访问试用版。
+<td>如果您的组织中还没有部署 Finance and Operations 应用，请参阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。 如果组织中尚未部署 Human Resources，系统管理员可从 <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources 网页</a>访问试用版。
 </td>
 </tr>
 <tr class="even">
@@ -70,7 +70,7 @@ ms.locfileid: "2248725"
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
 
-下载并安装 Finance and Operations 移动应用程序：
+下载并安装 Finance and Operations 移动应用：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

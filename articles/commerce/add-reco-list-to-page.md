@@ -3,7 +3,7 @@ title: 向页面添加建议列表
 description: 此主题介绍如何向电子商务页面添加产品建议列表。
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 01/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,26 +19,26 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4f2b1e9768b34d341adb3c11e475daa7a1d1882f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 5c71c1cf91b1913f44546f40620aff358cf256b2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770497"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001292"
 ---
-# <a name="add-product-recommendation-lists-to-e-commerce-pages"></a>向电子商务页面添加产品建议列表
+# <a name="add-recommendation-lists-to-a-site"></a>向站点添加建议列表
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何向电子商务页面添加产品建议列表。
 
-1. 从现有电子商务创作页选择**添加模块**。
+1. 从现有电子商务站点构建器页中选择**添加模块**。
 2. 搜索**产品集合**模块。
 3. 在模块向导中，选择要添加到页面的列表。
 4. 保存所做的更改。
 
-若要了解可向页面添加的列表类型的详细信息，请参阅[产品建议概述](product-recommendations.md)。
+若要了解可向页面添加的列表类型的详细信息，请参阅[产品集合模块概述](product-collection-module-overview.md)。
 
 
 ## <a name="additional-resources"></a>其他资源
@@ -50,3 +50,5 @@ ms.locfileid: "2770497"
 [创建策划的产品建议列表](create-editorial-recommendation-lists.md)
 
 [管理基于 AI-ML 的产品建议结果](modify-product-recommendation-results.md)
+
+[产品集合模块概览](product-collection-module-overview.md)

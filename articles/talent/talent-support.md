@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 7e42e68f48de9518199c38d07b650d55628114a7
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 33e0183109bc0bf8c825e3d5a51dcc36dbf58fc1
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896973"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006093"
 ---
 # <a name="get-support-for-microsoft-dynamics-365-talent"></a>获取 Microsoft Dynamics 365 Talent 支持
 
-本主题说明如何获取 Microsoft Dynamics 365 Talent: Core HR、Dynamics 365 Talent: Attract 和 Dynamics 365 Talent: Onboard 的帮助。
+本主题说明如何获取与 Dynamics 365 Talent: Attract 和 Dynamics 365 Talent: Onboard 相关的帮助。
 
 ## <a name="support-for-talent"></a>Talent 支持
 
@@ -34,7 +34,7 @@ ms.locfileid: "2896973"
 |------|------------------|
 | 询问社区。 | 转至 [Dynamics 365 Talent 社区](https://community.dynamics.com/365/talent)获取您的问题的帮助。 若要查找答案，请在**有问题吗**旁边的搜索字段中输入问题。 若要提问，请选择**提问**。 |
 | 使用云助力的支持工具。 | 在 [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/) 中，转到您的项目，然后选择**支持**磁贴。 可在此处通过两种方式提交问题：<ul><li>在**有效问题**选项卡上，选择要提交的问题，然后选择**提交到 Microsoft**。</li><li>在**已提交给 Microsoft**选项卡上，选择**提交新事件**以提交新问题。</li></ul> |
-| 获取应用内支持。 | 选择页面右上角的**帮助**按钮 (**?**)。 如果在 Core HR 内，然后选择**支持**。 如果在 Attract 或 Onboard 内，则选择**报告问题**。 将在 LCS 中的**有效问题**选项卡上报告问题，管理员可以在这里决定提供内部支持还是将问题提交给 Microsoft。 （如果您的 Onboard 为单机版本，将把问题直接提交给 Microsoft。） |
+| 获取应用内支持。 | 选择页面右上角的**帮助**按钮 (**?**)。 选择**报告问题**。 将在 LCS 中的**有效问题**选项卡上报告问题，管理员可以在这里决定提供内部支持还是将问题提交给 Microsoft。 （如果您的 Onboard 为单机版本，将把问题直接提交给 Microsoft。） |
 | 获取与 Talent 许可有关的问题的帮助。 | 联系合作伙伴或 Microsoft 销售代表。 |
 | 申请 Talent 内的新特性和功能。 | 在 Talent 主页中，选择**帮助**按钮 (**?**)，然后选择**想法**。 还可以访问 [Dynamics 365 应用程序想法](https://experience.dynamics.com/ideas/)以查看、搜索现有想法或为其投票，或添加新想法。 |
 

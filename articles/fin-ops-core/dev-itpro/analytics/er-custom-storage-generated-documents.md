@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2c7ee610c6e3c446a4bcc9d6d46ca72dd71cb23c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 45a2335d7a661ddc1d8907c56ae8193387f44e26
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771390"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030858"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>为生成的单据指定自定义存储位置
 
@@ -56,7 +56,7 @@ ms.locfileid: "2771390"
 
 若要指定如何路由 ER 格式生成的单据，必须配置[电子申报 (ER) 目标](electronic-reporting-destinations.md)。 在配置为将生成的单据作为文件存储的每个 ER 目标中，必须指定单据管理框架的单据类型。 可使用不同单据类型路由不同 ER 格式生成的单据。
 
-1. 为之前创建或导入的 ER 格式添加新的[单据类型](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management)。 在下图中，单据类型为 **FileX**。
+1. 为之前创建或导入的 ER 格式添加新的[单据类型](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management)。 在下图中，单据类型为 **FileX**。
 2. 若要区分此单据类型和其他单据类型，请在其名称中包含特定关键词。 例如，在下图中，名称为 **(LOCAL) 文件夹**。
 3. 在**类**字段中，指定**附加文件**。
 4. 在**组**字段中，指定**文件**。
@@ -70,7 +70,7 @@ ms.locfileid: "2771390"
 
 可查看 **ERDocuManagement** 类的 **insertFile()** 方法的代码。 请注意，如果将生成的文件附加到记录，将引发 **AttachingFile()** 事件。
 
-```
+```xpp
 /// <summary>
 /// Inserts file as attachment in Document Management.
 /// </summary>
@@ -131,7 +131,7 @@ public DocuRef insertFile(
     1. 将生成的文件存储到运行应用程序对象服务器 (AOS) 服务的服务器的本地系统的文件夹中。
     2. 仅当在将文件附加到 ER 执行作业日志中的记录时使用新的单据类型（例如，名称中包含“(LOCAL)”关键字的 **FileX** 类型），才存储这些生成的文件。
 
-    ```
+    ```xpp
     class ERDocuSubscriptionSample
     {
         void new()

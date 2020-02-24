@@ -3,7 +3,7 @@ title: 使用模块
 description: 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用模块的方法和条件。
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c4161e7a40cdbbb40292a6ce9acab58347460bd
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 769d6754fa944830b989d657e0dad9cc42212932
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914786"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025871"
 ---
 # <a name="work-with-modules"></a>使用模块
 
 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用模块的方法和条件。
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 ## <a name="overview"></a>概览
@@ -99,12 +99,10 @@ ms.locfileid: "2914786"
 
 若要在页面中配置内容模块，请执行以下步骤。
 
-1. 在左侧的大纲窗格中，选择一个内容模块类型（例如，**特色**、**主图**或**横幅**）。
-1. 在右侧的属性窗格中，通过选择标题展开嵌套的控件，然后设置所有必需控件值。
-1. 如果属性窗格有**数据配置**部分，请选择该部分将其展开。 否则，转到步骤 5。
-1. 如果有**添加数据源**按钮，选择该按钮，然后选择要添加的内容项。
-1. 输入所有必需或所需模块控件的设置。
-1. 选择**保存**。
+1. 在左侧的大纲窗格中，展开树并选择任何内容模块（例如，**特色**、**主图**或**横幅**）。
+1. 在右侧的属性窗格中，找到模块的内容和设置控件。
+1. 输入任何所需模块控件的属性。
+1. 在命令栏中，选择**保存**。 这还将刷新预览画布。
 
 ### <a name="configure-a-container-module"></a>配置容器模块
 
@@ -112,7 +110,7 @@ ms.locfileid: "2914786"
 
 1. 在页面中选择一个容器模块（例如，传送或流体容器模块）。
 1. 在右侧的属性窗格中，通过选择标题展开嵌套的控件，然后设置所有必需控件值。
-1. 在左侧大纲窗格中，选择容器或容器内的任何插槽的名称旁边的省略号按钮，然后选择**添加模块**。 然后向所选容器添加子模块。 有关详细信息，请参阅本主题前文的[添加模块](#add-a-module)过程。
+1. 在左侧大纲窗格中，选择容器或容器内的任何插槽的名称旁边的省略号按钮，然后选择**添加模块**。 然后向所选容器添加子模块。 有关详细信息，请参阅本主题前文的[使用模块](#add-a-module)部分。
 1. 如果多个子模块以同级的形式存在于父容器中，可以更改其在父容器中的显示顺序。 选择一个容器的省略号按钮，然后使用向上箭头按钮或向下箭头按钮。
 
 ## <a name="additional-resources"></a>其他资源
@@ -126,8 +124,6 @@ ms.locfileid: "2914786"
 [使用片段](work-with-fragments.md)
 
 [向页面添加容器模块](add-container-module.md)
-
-[向页面添加内容放置模块](add-content-placement-modules.md)
 
 [使用发布组](publish-groups.md)
 

@@ -3,7 +3,7 @@ title: 应收账款的集中付款
 description: 包括多个法人的组织可以使用处理所有付款的单个法人创建和管理付款。 因此，不必在多个法人中输入同一交易记录。 本文提供显示集中付款过帐如何在不同环境中处理的示例。
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 02/13/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59942fadb0fb702c59c95f75359f1a3036e4668f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78c72bb9632d3501638d528822a3c30b05686796
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176656"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000085"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>应收账款的集中付款
 
@@ -88,8 +88,8 @@ Fabrikam 为 Fabrikam 客户帐户 4000 (Northwind Traders) 收到了金额为 5
 
 | 科目                             | 借方金额 | 贷方金额 |
 |-------------------------------------|--------------|---------------|
-| 应收帐款 (Fabrikam East) | 600.00       |               |
-| 销售 (Fabrikam East)               |              | 600.00        |
+| 应收帐款 (Fabrikam East) | 580.00       |               |
+| 销售 (Fabrikam East)               |              | 580.00        |
 
 ### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>在 Fabrikam 中为 Fabrikam 客户 4000 接收和过帐付款
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: adfb8ffce3f91c0e8e8b996c284414f5ddc1baf1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562522"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004057"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>库存、生产和销售中的物料和原材料跟踪
 
@@ -44,7 +44,7 @@ ms.locfileid: "1562522"
 -   调查物料或原材料在别的物料生产的哪个环节被消耗。
 
 ## <a name="what-can-i-trace-and-are-there-any-limitations"></a>我可以跟踪什么？是否存在什么限制条件？
-您可以根据诸如序列号、批号或供应商批号等物料编号和跟进维度来跟踪物料和原材料的库存交易记录。 仅当跟踪维度分配到物料或原材料时，您才能跟踪它们。 由于跟踪基于库存交易记录，所以跟踪物料时存在一些限制条件。 例如，与项目、固定资产和零售相关的交易的一些限制条件。 此外，联产品会在跟踪的详细信息中显示出来，而副产品却不包括在内。 跟踪包括从一个库位到另一个库位的所有仓库交易记录。 因此，用户可能发现海量的信息量。 跟踪一次为一个法人显示。 内部公司环境中没有跨公司功能。 您必须为收货或发货物料的每个公司开始新跟踪。
+您可以根据诸如序列号、批号或供应商批号等物料编号和跟进维度来跟踪物料和原材料的库存交易记录。 仅当跟踪维度分配到物料或原材料时，您才能跟踪它们。 由于跟踪基于库存交易记录，所以跟踪物料时存在一些限制条件。 例如，与项目、固定资产和商业相关的交易的一些限制条件。 此外，联产品会在跟踪的详细信息中显示出来，而副产品却不包括在内。 跟踪包括从一个库位到另一个库位的所有仓库交易记录。 因此，用户可能发现海量的信息量。 跟踪一次为一个法人显示。 内部公司环境中没有跨公司功能。 您必须为收货或发货物料的每个公司开始新跟踪。
 
 ## <a name="what-criteria-can-i-specify-for-an-item-trace"></a>我可以在物料跟踪时设定哪些标准？
 跟踪某个物料所需设定的标准是物料编号、跟踪维度（如批号或序列号）以及方向。 下表描述了在物料跟踪中所使用的标准。

@@ -1,9 +1,9 @@
 ---
-title: 预配 Commerce 预览环境
+title: 配置 Dynamics 365 Commerce 预览环境
 description: 本主题说明如何预配 Microsoft Dynamics 365 Commerce 预览环境。
 author: psimolin
 manager: annbe
-ms.date: 01/06/2020
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,28 +18,28 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b77d2cbbc100aeae5dcd53ddbe69ff2e4435da13
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: cbd4c118de2e91c8849461b20a01403049a07e66
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934740"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024628"
 ---
-# <a name="provision-a-commerce-preview-environment"></a>预配 Commerce 预览环境
+# <a name="provision-a-dynamics-365-commerce-preview-environment"></a>配置 Dynamics 365 Commerce 预览环境
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-本主题说明如何预配 Microsoft Dynamics 365 Commerce 预览环境。
+本主题说明如何预配 Dynamics 365 Commerce 预览环境。
 
-建议您首先至少快速浏览整个主题，以大致了解流程涉及的内容和本主题包含的内容。
+在开始之前，我们建议您快速浏览本主题以了解该过程的要求。
 
 > [!NOTE]
-> 如果您尚未获得 Dynamics 365 Commerce 预览的访问权限，可以从 [Commerce 网站](https://aka.ms/Dynamics365CommerceWebsite)申请预览访问权限。
+> 如果您尚未获得 Dynamics 365 Commerce 预览的访问权限，可以从 [Dynamics 365 Commerce 网站](https://aka.ms/Dynamics365CommerceWebsite)申请预览访问权限。
 
 ## <a name="overview"></a>概览
 
-要成功预配 Commerce 预览环境，您必须创建一个具有特定产品名称和类型的项目。 此环境和 Retail Cloud Scale Unit (RCSU) 还具有某些特定参数，以后在预配电子商务时必须使用这些参数。 本主题中的说明介绍必须完成的所有必需步骤以及必须使用的参数。
+要成功预配 Commerce 预览环境，您必须创建一个具有特定产品名称和类型的项目。 此环境和 Commerce Scale Unit (CSU) 还具有某些特定参数，以后在预配电子商务时必须使用这些参数。 本主题中的说明介绍完成预配所需的所有步骤以及必须使用的参数。
 
 成功预配 Commerce 预览环境后，还必须完成一些预配后步骤来准备它。 其中一些步骤可选，具体取决于要评估系统的哪些方面。 您可以在以后随时完成可选步骤。
 
@@ -52,69 +52,21 @@ ms.locfileid: "2934740"
 必须先满足以下先决条件，才能预配 Commerce 预览环境：
 
 - 您拥有 Microsoft Dynamics Lifecycle Services (LCS) 门户的访问权限。
+- 您是现有的 Microsoft Dynamics 365 合作伙伴或客户，并能够创建 Dynamics 365 Commerce 项目。
 - 您已获准加入 Dynamics 365 Commerce 预览计划。
-- 您拥有足够权限，可以为**潜在售前支持**或**迁移，创建解决方案，了解**创建项目。
+- 您拥有必需的权限，可以为**迁移、创建解决方案和了解**创建项目。
 - 您是我们将为其预配环境的项目的**环境管理员**或**项目负责人**角色的成员。
 - 您有 Microsoft Azure 订阅的管理员访问权限，或您与可以代表您完成需要管理员权限的两步的订阅管理员有联系。
 - 您有可用的 Azure Active Directory (Azure AD) 租户 ID。
 - 您已创建了可以用作电子商务系统管理员组的 Azure AD 安全组，并且您有它的可用 ID。
 - 您已创建了可以用作评级和审查仲裁者组的 Azure AD 安全组，并且您有它的可用 ID。 （此安全组可以与电子商务系统管理员组相同。）
 
-### <a name="find-your-azure-ad-tenant-id"></a>查找您的 Azure AD 租户 ID
-
-您的 Azure AD 租户 ID 是一个类似于以下示例的全局唯一标识符 (GUID)：**72f988bf-86f1-41af-91ab-2d7cd011db47**。
-
-#### <a name="find-your-azure-ad-tenant-id-by-using-the-azure-portal"></a>使用 Azure 门户找到您的 Azure AD 租户 ID
-
-1. 登录 [Azure 门户](https://portal.azure.com/)。
-1. 确保选择了正确的目录。
-1. 在左侧菜单中，选择 **Azure Active Directory**。
-1. 在**管理**下，选择**属性**。 您的 Azure AD 租户 ID 将出现在**目录 ID** 下。
-
-#### <a name="find-your-azure-ad-tenant-id-by-using-openid-connect-metadata"></a>使用 OpenID Connect 元数据查找您的 Azure AD 租户 ID
-
-通过将 **\{YOUR\_DOMAIN\}** 替换为您的域（例如 `microsoft.com`）创建 OpenID URL。 例如，`https://login.microsoftonline.com/{YOUR_DOMAIN}/.well-known/openid-configuration` 会变成 `https://login.microsoftonline.com/microsoft.com/.well-known/openid-configuration`。
-
-1. 转到包含您的域的 OpenID URL。
-
-    您可以在多个属性值中找到您的 Azure AD 租户 ID。
-
-1. 找到 **authorization\_endpoint**，并提取紧跟 `login.microsoftonline.com/` 出现的 GUID。
-
-### <a name="find-your-azure-ad-security-group-id"></a>查找您的 Azure AD 安全组 ID
-
-您的 Azure AD安全组的 ID 是一个类似于以下示例的 GUID：**436ea7f5-ee6c-40c1-9f08-825c5811066a**。
-
-此过程假定您是尝试查找其 ID 的组的成员。
-
-1. 打开 [Graph 资源管理器](https://developer.microsoft.com/graph/graph-explorer#)。
-1. 选择**通过 Microsoft 登录**，然后使用您的凭据登录。
-1. 在左侧，选择**显示更多示例**。
-1. 从右窗格中，启用**组**。
-1. 关闭右窗格。
-1. 选择**我属于的所有组**。
-1. 在**响应预览**字段中，找到您的组。 安全组 ID 将出现在 **ID** 属性下。
-
 ## <a name="provision-your-commerce-preview-environment"></a>预配您的 Commerce 预览环境
 
 这些过程说明如何预配 Commerce 预览环境。 成功完成这些过程之后，Commerce 预览环境将可以进行配置。 此处介绍的所有活动都在 LCS 门户中进行。
 
 > [!IMPORTANT]
-> 预览访问权限与您在预览应用程序中指定的 LCS 帐户和组织关联。 您必须使用相同的帐户来预配 Commerce 预览环境。 如果必须为 Commerce 预览环境使用其他 LCS 帐户或租户，则必须将这些详细信息提供给 Microsoft。 有关联系信息，请参阅本主题后面的 [Commerce 预览环境支持](#commerce-preview-environment-support)一节。
-
-### <a name="grant-access-to-e-commerce-applications"></a>授予电子商务应用程序的访问权限
-
-> [!IMPORTANT]
-> 登录的人员必须是拥有 Azure AD 租户 ID 的 Azure AD 租户管理员。 如果此步骤未成功完成，其余的预配步骤将失败。
-
-若要授权电子商务应用程序访问您的 Azure 订阅，请按照下列步骤操作。
-
-1. 组合以下格式的 URL：
-
-    `https://login.windows.net/{AAD_TENANT_ID}/oauth2/authorize?client_id=fbcbf727-cd18-4422-a723-f8274075331a&response_type=code&redirect_uri=https://sb.manage.commerce.dynamics.com/_commerce/Consent&response_mode=query&prompt=admin_consent&state=12345`
-
-1. 将 URL 复制并粘贴到浏览器或文本编辑器中，然后将 **\{AAD\_TENANT\_ID\}** 替换为您的 Azure AD 租户 ID。 然后打开 URL。
-1. 在 Azure AD 登录对话框中，登录并确认您要授予 **Dynamics 365 Commerce（预览）** 访问您的订阅的权限。 您将被重定向到一个页面，其指示操作是否成功。
+> 预览访问权限与您在 Commerce 预览应用程序中指定的 LCS 帐户和组织关联。 您必须使用相同的帐户来预配 Commerce 预览环境。 如果需要为 Commerce 预览环境使用其他 LCS 帐户或租户，则必须将这些详细信息提供给 Microsoft。 有关联系信息，请参阅本主题后面的 [Commerce 预览环境支持](#commerce-preview-environment-support)一节。
 
 ### <a name="confirm-that-preview-features-are-available-and-turned-on-in-lcs"></a>确认预览功能可用且已在 LCS 中打开
 
@@ -210,12 +162,12 @@ ms.locfileid: "2934740"
 要部署环境，请按照下列步骤操作。
 
 > [!NOTE]
-> 您可能不必完成步骤 6、7 和/或 8，因为将跳过具有单个选项的页面。 在**环境参数**视图中时，请确认文本 **Dynamics 365 Commerce (预览) - 演示(具有平台更新 30 的 10.0.6)** 直接出现在**环境名称**字段上方。 请参阅步骤 8 之后出现的图示。
+> 您可能不必完成步骤 6、7 和/或 8，因为将跳过具有单个选项的页面。 在**环境参数**视图中时，请确认文本 **Dynamics 365 Commerce - 演示(具有平台更新 *xx* 的 10.0.* x*)**直接出现在**环境名称**字段上方。 有关详细信息，请参阅步骤 8 之后出现的图示。
 
 1. 在顶级菜单上，选择**云托管的环境**。
 1. 选择**添加**添加环境。
-1. 在**应用程序版本**字段中，选择 **10.0.6**。
-1. 在**平台版本**字段中，选择**平台更新 30**。
+1. 在**应用程序版本**字段中，选择最新版本。 如果您明确需要选择除最新版本以外的其他应用程序版本，请不要选择 **10.0.8** 之前的版本。
+1. 在**平台版本**字段中，使用为所选应用程序版本自动选择的平台版本。 
 
     ![选择应用程序和平台版本](./media/project1.png)
 
@@ -224,7 +176,7 @@ ms.locfileid: "2934740"
 
     ![选择环境拓扑 1](./media/project2.png)
 
-1. 选择 **Dynamics 365 Commerce (预览) - 演示**作为环境拓扑。 如果前面仅配置了一个 Azure 连接器，将把该连接器用于此环境。 如果配置了多个 Azure 连接器，则可以选择要使用的连接器：**美国东部**、**美国东部 2**、**美国西部**或**美国西部 2**。 （为获得最佳的端到端性能，我们建议您选择**美国西部 2**。）
+1. 选择 **Dynamics 365 Commerce - 演示**作为环境拓扑。 如果前面仅配置了一个 Azure 连接器，将把该连接器用于此环境。 如果配置了多个 Azure 连接器，则可以选择要使用的连接器：**美国东部**、**美国东部 2**、**美国西部**或**美国西部 2**。 （为获得最佳的端到端性能，我们建议您选择**美国西部 2**。）
 
     ![选择环境拓扑 2](./media/project3.png)
 
@@ -241,39 +193,38 @@ ms.locfileid: "2934740"
 
 1. 继续操作之前，确保环境的状态为**已部署**。
 
-### <a name="initialize-rcsu"></a>初始化 RCSU
+### <a name="initialize-the-commerce-scale-unit-csu"></a>初始化 Commerce Scale Unit (CSU)
 
-要初始化您的 RCSU，请遵循以下步骤。
+要初始化您的 CSU，请遵循以下步骤。
 
 1. 在**云托管的环境**视图中，在列表中选择您的环境。
 1. 在右侧的环境视图中，选择**完整详细信息**。 将显示环境详细信息视图。
 1. 在**环境功能**下，选择**管理**。
-1. 在**零售**选项卡上，选择**初始化**。 将显示 RCSU 初始化参数视图。
+1. 在**商业**选项卡上，选择**初始化**。 将显示 CSU 初始化参数视图。
 1. 在**区域**字段中，选择**美国东部**、**美国东部 2**、**美国西部**或**美国西部 2**。
-1. 在**版本**字段中，在列表中选择**指定版本**，然后在出现的字段中指定 **9.16.19262.5**。 请确保指定此处指示的确切版本。 否则，您以后不得不将 RCSU 更新到正确的版本。
+1. 在**版本**字段中，在列表中选择**指定版本**，然后在出现的字段中指定 **9.18.20014.4**。 请确保指定此处指示的确切版本。 否则，您以后不得不将 RCSU 更新到正确的版本。
 1. 打开**应用扩展**选项。
 1. 在扩展列表中，选择 **Commerce 预览演示库扩展**。
 1. 选择**初始化**。
-1. 在部署确认页面，验证详细信息是否正确，然后选择**是**。 您已回到**零售管理**视图，其中已选择了**零售**选项卡。 您的 RCSU 现在已进入队列等待配置。
-1. 继续操作之前，确保 RCSU 的状态为**成功**。 初始化大约需要两到五个小时。
+1. 在部署确认页面，验证详细信息是否正确，然后选择**是**。 **商业管理**视图再次显示，其中的**商业**选项卡被选中。 您的 CSU 现在已进入队列等待配置。
+1. 继续操作之前，确保 CSU 的状态为**成功**。 初始化大约需要两到五个小时。
 
 ### <a name="initialize-e-commerce"></a>初始化电子商务
 
 要初始化电子商务，请遵循以下步骤。
 
-1. 在**电子商务(预览)** 选项卡上，查看预览同意内容，然后选择**设置**。
+1. 在**电子商务**选项卡上，查看预览同意内容，然后选择**设置**。
 1. 在**电子商务租户名称**字段中，输入名称。 但是，请注意，某些指向您的电子商务实例的 URL 中将显示此名称。
-1. 在 **Retail cloud scale unit 名称**字段中，在列表中选择您的 RCSU。 （此列表应该只有一个选项。）
+1. 在 **Commerce Scale Unit 名称**字段中，在列表中选择您的 CSU。 （此列表应该只有一个选项。）
 
     **电子商务地理位置**字段是自动设置的，此值无法更改。
 
 1. 选择**下一步**继续。
 1. 在**支持的主机名**字段中，输入任意有效域，例如 `www.fabrikam.com`。
-1.  在**系统管理员的 AAD 安全组**字段中，输入要使用的安全组的名称的前几个字母。 选择放大镜图标以显示搜索结果。 从列表中选择安全组。
-2.  在**评级和审查仲裁者的 AAD 安全组**字段中，输入要使用的安全组的名称的前几个字母。 选择放大镜图标以显示搜索结果。 从列表中选择安全组。
+1.  在**系统管理员的 AAD 安全组**字段中，输入要使用的安全组的名称的前几个字母。 选择放大镜图标以显示搜索结果。 从列表中选择正确的安全组。
+2.  在**评级和审查仲裁者的 AAD 安全组**字段中，输入要使用的安全组的名称的前几个字母。 选择放大镜图标以显示搜索结果。 从列表中选择正确的安全组。
 1. 保留**启用评级和审查服务**选项为打开。
-1. 如果您已经按“授予电子商务应用程序的访问权限”一节所述完成了 Microsoft Azure Active Directory (Azure AD) 同意步骤，请选中确认您同意的复选框。 如果尚未完成此步骤，您需要先完成，然后再继续初始化。 选择复选框旁边文本内的链接打开同意对话框并完成此步骤。
-1. 选择**初始化**。 您已回到**零售管理**视图，其中已选择了**电子商务(预览)** 选项卡。 电子商务初始化已开始。
+1. 选择**初始化**。 **商业管理**视图再次显示，其中的**电子商务**选项卡被选中。 电子商务初始化已开始。
 1. 请等待电子商务初始化的状态成为**初始化成功**，再继续操作。
 1. 在右下方的**链接**下，记下以下链接的 URL：
 
@@ -292,13 +243,13 @@ ms.locfileid: "2934740"
 
 ## <a name="additional-resources"></a>其他资源
 
-[Commerce 预览环境概述](cpe-overview.md)
+[Dynamics 365 Commerce 预览环境概览](cpe-overview.md)
 
-[配置 Commerce 预览环境](cpe-post-provisioning.md)
+[配置 Dynamics 365 Commerce 预览环境](cpe-post-provisioning.md)
 
-[为 Commerce 预览环境配置可选功能](cpe-optional-features.md)
+[为 Dynamics 365 Commerce 预览环境配置可选功能](cpe-optional-features.md)
 
-[Commerce 预览环境常见问题](cpe-faq.md)
+[Dynamics 365 Commerce 预览环境常见问题](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -308,4 +259,3 @@ ms.locfileid: "2934740"
 
 [Dynamics 365 Commerce 网站](https://aka.ms/Dynamics365CommerceWebsite)
 
-[Dynamics 365 Retail 的帮助资源](../retail/index.md)

@@ -12,15 +12,15 @@ audience: Application user
 ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
-ms.author: trkeya
+ms.author: anbichse
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 0b0be541416d2e4be78da223ec8e95c195d90bbc
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: c009f82e69bff0e4ea540514de8f9e60eca1e466
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832621"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006341"
 ---
 # <a name="track-changes-in-recruiting-data"></a>跟踪招聘数据的变化
 

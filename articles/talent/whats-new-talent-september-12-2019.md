@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-09-10
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 14e3482f366319851bed84b6cdd6135f0bcd1e80
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 0aadecd5b37759492f7895ccfda1a777793a08b3
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897321"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006233"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-september-10-2019"></a>Dynamics 365 for Talent（2019 年 9 月 10 日）中的新增功能或更改
 
@@ -55,7 +55,7 @@ ms.locfileid: "2897321"
 
 ### <a name="platform-update-29"></a>平台 update 29
 
-有关平台更新 29 的其他详细信息，请参阅 [Dynamics 365 for Finance and Operations 平台更新 29（2019 年 10 月）中的预览功能](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29)。
+有关平台更新 29 的其他详细信息，请参阅 [Dynamics 365 for Finance and Operations 平台更新 29（2019 年 10 月）中的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29)。
 
 ### <a name="new-job-base-entity-available-in-data-management-framework-347202"></a>数据管理框架中的新可用工作库实体 (347202)
 

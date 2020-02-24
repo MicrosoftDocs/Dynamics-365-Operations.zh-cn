@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8f86a0b651bfa16aeb1c483daceed321699ead83
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: a3e8efcdc236911ac79007c606d5d1da56f6c424
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945643"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002766"
 ---
 # <a name="select-page-layouts"></a>选择页面布局
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 本主题说明如何在 Microsoft Dynamics 365 Commerce 中创建和选择页面布局。

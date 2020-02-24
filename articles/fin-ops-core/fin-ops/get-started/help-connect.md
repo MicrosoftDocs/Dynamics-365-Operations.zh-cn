@@ -1,6 +1,6 @@
 ---
 title: 连接帮助系统
-description: 此主题介绍 Finance and Operations 应用程序的“帮助”系统的组件，并且提供如何连接它们的概览以及如何创建自定义帮助的摘要。
+description: 此主题介绍 Finance and Operations 应用的“帮助”系统的组件，并且提供如何连接它们的概览以及如何创建自定义帮助的摘要。
 author: margoc
 manager: AnnBe
 ms.date: 10/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4427388d75c1aef40a978ce35c831d5b714f2562
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812572"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006164"
 ---
 # <a name="connect-the-help-system"></a>连接帮助系统
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍 Finance and Operations 应用程序（如 Dynamics 365 Finance、Supply Chain Management、Retail 和 Talent）的帮助系统组件。 它提供如何连接这些组件的概览和如何创建自定义帮助的摘要。
+此主题介绍 Finance and Operations 应用（如 Dynamics 365 Finance、Supply Chain Management、Commerce 和 Human Resources）的帮助系统组件。 它提供如何连接这些组件的概览和如何创建自定义帮助的摘要。
 
 ## <a name="help-architecture"></a>帮助体系结构
 
@@ -43,7 +43,7 @@ ms.locfileid: "2812572"
 ## <a name="connecting-the-help-system"></a>连接帮助系统
 
 > [!NOTE]
-> **任务指南**选项卡目前在 Dynamics 365 Talent 或 Retail 中不可用。 我们目前正在努力在将来的版本中启用此功能。 Talent 中的入门中的任务指南体验可用，以涵盖基本功能。 docs.microsoft.com 网站中也提供了 Retail 和 Talent 的过程帮助。
+> **任务指南**选项卡目前在 Dynamics 365 Human Resources 或 Commerce 中不可用。 我们目前正在努力在将来的版本中启用此功能。 Human Resources 中的入门中的任务指南体验可用，以涵盖基本功能。 docs.microsoft.com 网站中也提供了 Human Resources 和 Commerce 的过程帮助。
 
 使用**系统参数**页，系统管理员连接有关实施的部分帮助系统。
 
@@ -60,11 +60,11 @@ ms.locfileid: "2812572"
 2. 选择要从中检索任务录制的 BPM 库（在所选项目内）。
 3. 选择 BPM 库的显示顺序。 它决定库中的任务录制在**帮助**窗格中的显示顺序。
 
-完成这些步骤后，您可以打开**帮助**窗格并单击**任务指南**选项卡。您现在将看到适用于您当前在 Finance and Operations 应用程序中所处页面的任务指南。 如果未找到任何任务指南，您可以输入关键字来调整搜索。
+完成这些步骤后，您可以打开**帮助**窗格并单击**任务指南**选项卡。您现在将看到适用于您当前在 Finance and Operations 应用中所处页面的任务指南。 如果未找到任何任务指南，您可以输入关键字来调整搜索。
 
 ### <a name="showing-translated-task-guides"></a>显示翻译的任务指南
 
-翻译的任务指南首次随 2016 年 5 月 APQC 标准库和入门库提供。 在 Finance and Operations 应用程序中，若要查看本地化的任务指南帮助，请确保您已连接到五月库。 每个用户的任务指南的显示语言由**选项** &gt; **首选项**下的语言”设置控制。
+翻译的任务指南首次随 2016 年 5 月 APQC 标准库和入门库提供。 在 Finance and Operations 应用中，若要查看本地化的任务指南帮助，请确保您已连接到五月库。 每个用户的任务指南的显示语言由**选项** &gt; **首选项**下的语言”设置控制。
 
 > [!NOTE]
 > 虽然许多任务指南已被翻译了，但现在，客户端不显示翻译的任务指南名称。 此外，五月库中仅提供在 2016 年 2 月发布的任务指南的翻译。 我们将发布包含其它翻译的更新库。
@@ -78,7 +78,7 @@ ms.locfileid: "2812572"
 
 ### <a name="create-custom-help-with-task-guides"></a>使用任务指南创建定制帮助
 
-您可以通过创建反映您的实施的任务录制并将其保存到 LCS 业务流程库中，为 Finance、Supply Chain Management 和 Retail 创建自定义帮助。 您无法为 Talent 创建自定义任务指南。
+您可以通过创建反映您的实施的任务录制并将其保存到 LCS 业务流程库中，为 Finance、Supply Chain Management 和 Commerce 创建自定义帮助。 您无法为 Human Resources 创建自定义任务指南。
 
 对于合作伙伴，如果您要将一个库提升到公司库并将其包括到解决方案中，它将可供您的客户使用。 您还可以复制 APQC Unified 全局库，然后打开您的副本，从它打开任务录制，然后修改它们，并保存具有所做更改的录制。 有关详细信息，请参阅[任务录制器资源](../../dev-itpro/user-interface/task-recorder.md)。
 
@@ -86,7 +86,7 @@ ms.locfileid: "2812572"
 
 Microsoft 提供了介绍如何创建自定义帮助站点并将其连接到帮助窗格的白皮书和示例代码。 有关详细信息，请参阅：
 
-- [为 Finance and Operations 应用程序创建自定义帮助（白皮书）](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [为 Finance and Operations 应用创建自定义帮助（白皮书）](https://go.microsoft.com/fwlink/?linkid=2041185)
 - [自定义帮助 GitHub 知识库](https://github.com/microsoft/dynamics356f-o-custom-help)
 
 ## <a name="additional-resources"></a>其他资源

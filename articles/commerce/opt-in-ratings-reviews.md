@@ -3,7 +3,7 @@ title: 选择使用评分和评价
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点中选择使用评分和评价。
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,15 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10e3c33af232fa46df09a103b2e73eae09a909eb
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: eda7fbaeea8d3c1a07f7b43cafe44886d149a211
+ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697972"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027257"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>选择使用评分和评价
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点中选择使用评分和评价。
@@ -36,7 +35,7 @@ ms.locfileid: "2697972"
 
 评分和评价解决方案是可通过使用 Microsoft Dynamics Lifecycle Services (LCS) 在 Dynamics 365 Commerce 中启用的全渠道解决方案。 LCS 是零售商用于管理环境（从预配到停用）的管理门户。
 
-如果要在 Commerce 网站中使用评分和评价解决方案，必须先选择使用。
+如果要在 Commerce 网站中使用评分和评价解决方案，您必须在 Dynamics 365 Commerce 上部署电子商务站点期间选择使用评分和评价。
 
 ## <a name="opt-in-to-use-ratings-and-reviews"></a>选择使用评分和评价
 
@@ -51,6 +50,9 @@ ms.locfileid: "2697972"
 
 1. 完成电子商务初始化流程。
 
+> [!NOTE] 
+> 如果您是现有的 Dynamics 365 Commerce 客户，已经部署了电子商务站点而未选择使用评分和评价，但现在想要使用 Dynamics 365 Commerce 包中的评分和评价，请提交服务请求。 有关如何提交服务请求的信息，请参阅[提交服务请求流程](../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json)。 
+
 ## <a name="additional-resources"></a>其他资源
 
 [评分和评价概览](ratings-reviews-overview.md)
@@ -60,3 +62,5 @@ ms.locfileid: "2697972"
 [配置评分和评价](configure-ratings-reviews.md)
 
 [在 Dynamics 365 Retail 中同步产品评分](sync-product-ratings.md)
+
+

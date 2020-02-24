@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb9c850aa045b72137b8a1d3c8cdae51cf2fd7b6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec17fc31df1daed943f9bc3f4cbe25a683c8ac7e
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843233"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026306"
 ---
 # <a name="reconcile-freight-manually"></a>对货运进行手动对帐
 
@@ -37,7 +37,7 @@ ms.locfileid: "1843233"
 3. 在列表中，选择负荷 ID 为 00006 的负荷。
 
 ## <a name="create-a-carrier-invoice"></a>创建承运人发票
-    * 如果手动对帐货运，并且不自动接收承运人发票，可以基于货运帐单创建发票。  
+如果手动对帐货运，并且不自动接收承运人发票，可以基于货运帐单创建发票。  
 1. 单击“相关信息”。
 2. 单击“货运帐单明细”。
 3. 单击“生成货运帐单发票”。
@@ -45,7 +45,7 @@ ms.locfileid: "1843233"
 5. 单击“确定”。
 
 ## <a name="reconcile-the-invoice"></a>对发票进行对帐
-    * 对帐承运人发票和货运帐单时，逐行执行。  
+对帐承运人发票和货运帐单时，逐行执行。  
 1. 单击“匹配货运帐单和发票”。
 2. 展开“发票详细信息”部分。
 3. 展开“已取消匹配的货运帐单明细”部分。

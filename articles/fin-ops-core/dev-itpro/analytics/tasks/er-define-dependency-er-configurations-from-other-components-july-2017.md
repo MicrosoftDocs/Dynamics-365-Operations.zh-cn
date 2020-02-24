@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d949be57d9e9fe744860f5c4045bef2923b7f284
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 97aedf17bb6fa67fd08497ec6e15a7c92866fa4d
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249173"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026102"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>定义 ER 配置与其他组件之间的依赖关系
 
@@ -47,7 +47,7 @@ ms.locfileid: "2249173"
 5. 单击“新建”。
 6. 选择”产品必备项组件“。
 7. 选择 Microsoft Dynamics 365 for Operations (1611)。
-8. 在”版本“字段中，键入”[7.1.1541.3036,8)“。
+8. 在“版本”字段中，键入“[7.1.1541.3036,8)”。
     * [7.1.1541.3036,8)  
     * 如果从任何 ER 存储库下载了此配置，将评估您输入的依赖关系。 如果“示例数据模型”配置的版本 1 已提前准备就绪或下载，将从 ER 存储库下载此配置版本。 如果提前下载，则必须在 Finance and Operations 版本 7.1.1541.3036 或更高版本中完成，但是不得超过主要版本 8。   
 9. 单击“保存”。
@@ -60,7 +60,7 @@ ms.locfileid: "2249173"
 16. 单击“新建”。
 17. 选择”产品必备项组件“。
 18. 选择 Microsoft Dynamics AX 7.0 RTW。
-19. 在”版本“字段中，键入”[7.0.1265.3015,7.1)“。
+19. 在“版本”字段中，键入“[7.0.1265.3015,7.1)”。
     * [7.0.1265.3015,7.1)  
     * 如果从任何 ER 存储库下载了此配置，将评估依赖关系。 如果“示例数据模型”配置的版本 1 已提前准备就绪或下载，将从 ER 存储库下载此配置版本。 如果提前下载，则必须在 Microsoft Dynamics 365 for Finance and Operations 企业版中完成，其版本必须为 7.0.1265.3015 或更高，但是不得超过次要版本 1。   
 20. 单击“保存”。
@@ -109,7 +109,7 @@ ms.locfileid: "2249173"
     * 已通过使用以前配置的 ER 存储库的 LCS 项目，将此模型映射配置的版本 1.1 上传到该 LCS。   
 
 ## <a name="evaluate-er-configuration-dependencies"></a>评估 ER 配置依赖关系
-    * 我们将从系统中删除创建的配置，然后将其从 LCS 存储库下载回来。  
+我们将从系统中删除创建的配置，然后将其从 LCS 存储库下载回来。  
 1. 在树中，选择“示例数据模型\示例映射“。
 2. 单击“删除”。
 3. 单击“是”。
@@ -139,5 +139,5 @@ ms.locfileid: "2249173"
 25. 转到“组织管理”>“电子申报”>“配置”。
 26. 在树中，展开“示例数据模型”。
     * 请注意，已下载了模型“示例映射”映射配置和所选数据模型配置。 一起下载这两个文件是因为已将“示例映射”定义为实施所选数据模型，并且其适用于此应用程序。 尚未下载“示例映射（备用）”配置，因为未满足所需应用程序版本的条件。   
-    * 如果登录 Finance and Operations，注册相同提供程序，访问相同 LCS 项目，然后下载相同数据模型配置，将下载“示例映射（备用）”配置，但跳过“示例映射”配置。  
+    * 如果登录 Finance and Operations，注册相同提供程序，访问相同 LCS 项目，然后下载相同数据模型配置，将下载“示例映射（备用）”配置，但将跳过“示例映射”配置。  
 

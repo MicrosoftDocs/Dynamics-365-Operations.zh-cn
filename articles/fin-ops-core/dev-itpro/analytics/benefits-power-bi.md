@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HcmBenefitWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 607458b129c1c8255b6ce1f3b1a38ca40dc9652d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f94799b892f09ed978a63ab7e7bd8a6b332ac22b
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181235"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005840"
 ---
 # <a name="benefits-power-bi-content"></a>福利 Power BI 内容
 
@@ -33,7 +33,7 @@ ms.locfileid: "2181235"
 如果您使用以下其中一种产品，则**福利** Power BI 内容显示在**福利管理**工作区中：
 
 - Microsoft Dynamics 365 Finance
-- Microsoft Dynamics 365 Talent
+- Microsoft Dynamics 365 Human Resources
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 此**福利** Power BI 内容中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
@@ -59,7 +59,7 @@ ms.locfileid: "2181235"
 | 日期                     | 天数、周数、月数和年数                                                                             | 过去的职位分配、职位趋势、已离职的员工、员工趋势 |
 | 人口统计数据             | 生日、性别、种族和婚姻状况                                                   | 当前员工、已离职的员工、员工趋势 |
 | 雇用               | 开始日期、结束日期和转换日期                                                                  | 当前员工、已离职的员工、员工趋势 |
-| 地理位置      | 市，县，邮政编码和省/市/自治区                                                           | 当前员工、已离职的员工、员工趋势 |
+| 地理位置      | 市、县、邮政编码和省/市/自治区                                                           | 当前员工、已离职的员工、员工趋势 |
 | 作业                      | 功能，类型和标题                                                                                  | 当前职位、当前员工 |
 | 过去的职位分配 | 分配原因，开始日期，结束日期和作业                                                           | 日历偏差、日期、作业、职位 |
 | 位置                 | 部门，FTE，职位，职位类型和标题                                                        | 当前职位、当前员工 |

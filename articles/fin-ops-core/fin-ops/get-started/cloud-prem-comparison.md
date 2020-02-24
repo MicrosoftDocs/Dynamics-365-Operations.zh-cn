@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
-ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
+ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935379"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005718"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>云和本地功能的比较
 
@@ -32,8 +32,8 @@ ms.locfileid: "2935379"
 
 - [Dynamics 365 Finance](cloud-prem-comparison.md#dynamics-365-finance)
 - [Dynamics 365 Supply Chain Management](cloud-prem-comparison.md#dynamics-365-supply-chain-management)
-- [Dynamics 365 Retail](cloud-prem-comparison.md#dynamics-365-retail)
-- [Dynamics 365 Talent](cloud-prem-comparison.md#dynamics-365-talent)
+- [Dynamics 365 Commerce](cloud-prem-comparison.md#dynamics-365-commerce)
+- [Dynamics 365 Human Resources](cloud-prem-comparison.md#dynamics-365-human-resources)
 
 还包括有关[开发和管理功能](cloud-prem-comparison.md#development-and-administration-features)的信息。
 
@@ -45,8 +45,7 @@ ms.locfileid: "2935379"
 |---------------------|-----------------------------|-----------|-----------------|
 | 符合性和证书        |                                                                                           | 是       | 是             |
 |                                      | SOC 1 类型 1 认证                                                                | 是       | 否              |
-| 数据管理和集成      |                                                                                           | 是       | 是             |
-|                                      | 配置主导的扩展                                                            | 是       | 无              |
+| 数据管理和集成      |                                                                                           | 是       | 是             
 |                                      | 将数据导出到您自己的数据仓库中                                                    | 是       | 是             |
 |                                      | 启用将增量更新导出到数据实体                                 | 是       | 是              |
 |                                      | 数据集成                                                                         | 是       | 是             |
@@ -146,15 +145,15 @@ ms.locfileid: "2935379"
 | 支持                              |                                                                                           | 是       | 是             |
 |                                      | 通过“帮助和支持”菜单访问支持                                             | 是       | 否              |
 
-## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
+## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-若要查看本地部署中提供的零售功能的列表，请参阅[本地部署中提供的零售功能](../../../retail/retail-onprem.md)。
+若要查看本地部署中提供的功能的列表，请参阅[本地部署中提供的零售功能](../../../retail/retail-onprem.md)。
 
-## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
+## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 
 | **面积**         | **功能**         | **云** | **本地** |
 |------------------|---------------------|-----------|-----------------|
-| 所有人才区域 | 所有人才功能 | 是       | 否              |
+| 所有 Human Resources 区域 | 所有 Human Resources 功能 | 是       | 否              |
 
 ## <a name="development-and-administration-features"></a>开发和管理功能
 

@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8e25007cc4a204aeaf73a2e819c129fa8fa29d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f38c2ad9561cc1a1c775c27aec54681124cffeec
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563381"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004080"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>将产品从接收仓库越库配送到商店
 
@@ -31,7 +31,7 @@ ms.locfileid: "1563381"
 
 1. 转到“所有采购订单”。
 2. 选择列表中的一个采购订单，然后单击链接以打开该订单。
-3. 在“操作窗格”上，单击“零售”。
+3. 在操作窗格上，单击“Retail 和 Commerce”。
 4. 单击“越库配送”。
 5. 单击“编辑”。
     * 该类别可用于过滤“行”部分中的物料。  

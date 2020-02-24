@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: b705304788f47e4a5d2a9f1b2bf42a065428ea0f
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: d06c0d14fb99e5544a5da05078f5b3a559f9e806
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898125"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025501"
 ---
 # <a name="provision-talent"></a>配置 Talent
 
@@ -46,6 +46,10 @@ ms.locfileid: "2898125"
 
 1. 在您的 LCS 项目中，选择 **Talent 应用管理**磁贴。
 2. 指示这是 Talent 的沙盒实例还是生产实例。 沙盒实例中可能提供提前预览功能以便提前反馈和测试。 
+
+    > [!NOTE]
+    > Talent 实例类型一旦设置就无法更改。 在继续之前，请验证是否选择了正确的实例类型。
+
     > [!NOTE]
     > Talent 实例类型独立于 Microsoft Power Apps 环境的实例类型，后者是您在 Power Apps 管理中心中设置的。
 3. 如果希望环境中包含 Talent 测试驱动器体验中使用的相同演示数据集，请选择**包括演示数据**选项。 这对长期演示或培训环境有益，但切勿用于生产环境。  请注意，必须在初始部署之后立即选择此选项。 不能在以后更新现有部署。
@@ -64,7 +68,7 @@ ms.locfileid: "2898125"
     > [!NOTE]
     > 如果您尚未验证最终要求，您可以在项目中部署 Talent 的测试实例。 您可以随后使用此实例来测试您的解决方案，直到验证完成。 如果您使用新环境进行测试，那么您必须重复此过程来创建一个生产环境。
 
-    > 由于 Talent 预订中仅允许两个 LCS 环境，所以可以考虑利用免费的 60 天的 [Talent 试用环境](https://dynamics.microsoft.com/talent/overview/)。 尽管试用环境归其请求用户所有，仍然可以通过 Core HR 的系统管理体验邀请其他用户。 试用环境中包含可用于以安全方式探索该程序的虚拟数据。 不应将其用作生产环境。 请注意，如果试用环境在 60 天后到期，其中的所有数据都将被删除且不可恢复。 现有环境过期后，可以注册新试用环境。
+    > 由于 Talent 预订中仅允许两个 LCS 环境，所以可以考虑利用免费的 60 天的 [Talent 试用环境](https://dynamics.microsoft.com/talent/overview/)。 尽管试用环境归其请求用户所有，仍然可以通过 Human Resources 的系统管理体验邀请其他用户。 试用环境中包含可用于以安全方式探索该程序的虚拟数据。 不应将其用作生产环境。 请注意，如果试用环境在 60 天后到期，其中的所有数据都将被删除且不可恢复。 现有环境过期后，可以注册新试用环境。
 
 ## <a name="select-a-power-apps-environment"></a>选择 Power Apps 环境
 
@@ -87,4 +91,4 @@ ms.locfileid: "2898125"
 6. 确定了要使用的正确环境之后，可以继续进行配置流程。 
  
 ## <a name="grant-access-to-the-environment"></a>授予对环境的访问
-默认情况下，创建环境的全局管理员可以访问环境。 但是，必须为更多应用程序用户明确授予访问权限。 若要授予访问权限，需要在 Core HR 环境中添加用户并为其分配相应角色。 部署了 Talent 的全局管理员还必须启动 Attract 和 Onboard 以完成初始化和允许其他租户用户访问。  在此之前，其他用户不能访问 Attract 和 Onboard，并且将发生访问冲突错误。 有关详细信息，请参阅[创建新用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)和[向安全角色分配用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)。 
+默认情况下，创建环境的全局管理员可以访问环境。 但是，必须为更多应用程序用户明确授予访问权限。 若要授予访问权限，需要在 Human Resources 环境中添加用户并为其分配相应角色。 部署了 Talent 的全局管理员还必须启动 Attract 和 Onboard 以完成初始化和允许其他租户用户访问。  在此之前，其他用户不能访问 Attract 和 Onboard，并且将发生访问冲突错误。 有关详细信息，请参阅[创建新用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)和[向安全角色分配用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)。 

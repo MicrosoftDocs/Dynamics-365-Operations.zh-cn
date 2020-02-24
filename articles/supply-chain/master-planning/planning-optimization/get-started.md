@@ -3,7 +3,7 @@ title: 开始使用计划优化
 description: 本主题说明如何开始使用计划优化功能。
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/29/2019
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 37c2acb2397b2a0ad69272c0645bd200a8d7910d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773907"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971456"
 ---
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
@@ -47,15 +47,17 @@ ms.locfileid: "2773907"
 
 1. 登录到 LCS，然后打开所需的环境。
 1. 转到**完整详细信息**。
-1. 选择**维护**，或向下滚动到**环境加载项**快速选项卡。
+1. 向下滚动到**环境加载项**快速选项卡。
 1. 选择**安装新加载项**。
 1. 选择**计划优化**。
 1. 按照安装指南操作，并同意条款和条件。
 1. 选择**安装**。
+1. 在**环境加载项**快速选项卡上，您应该看到正在安装计划优化。
+1. 几分钟后**正在安装**应会改为**已安装**（您可能需要刷新页面）。 安装后，您就可以在 Dynamics 365 Supply Chain Management 中激活计划优化了。
 
 ### <a name="planning-optimization-integration"></a>计划优化集成
 
-要配置是否应将计划优化加载项用于主计划，请转到**主计划** \> **设置** \> **计划优化集成** \> **集成参数**。
+要配置是否应将计划优化加载项用于主计划，请转到**主计划** \> **设置** \> **计划优化参数**。
 
 #### <a name="connection-status"></a>连接状态
 

@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771625"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025846"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>使用 Power BI Embedded 将分析添加到工作区
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> 此功能在 Finance and Operations（版本 7.2 及更高版本）上受支持。
+> 此功能在 Finance and Operations（版本 7.2 及更高版本）中受支持。
 
 ## <a name="introduction"></a>简介
 本主题说明如何在工作区的**分析s**选项卡上嵌入 Microsoft Power BI 报表。 对于此处提供的示例，我们将“车队管理”应用程序中的**预订管理**工作区扩展到在**分析**选项卡上嵌入分析工作区。
@@ -111,7 +111,7 @@ ms.locfileid: "2771625"
 2. 按 F7 访问代码定义后的代码。
 3. 添加以下 X++ 代码。
 
-    ```
+    ```xpp
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
@@ -156,7 +156,7 @@ ms.locfileid: "2771625"
 本节提供有关用于在窗体组控件中嵌入 Power BI 报表（.pbix 资源）的帮助程序类的信息。
 
 #### <a name="syntax"></a>语法
-```
+```xpp
 public static void initializeReportControl(
     str                 _resourceName,
     FormGroupControl    _formGroupControl,

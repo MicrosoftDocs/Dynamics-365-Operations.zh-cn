@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 94c782bf4fc28f2d2f34a101c3c96467ce0766f7
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 9ab26ba80ea53b4138c3aaa60f93815af64987d7
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897802"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005955"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>Dynamics 365 Talent 的新增功能或更改（2019 年 8 月 20 日）
 
@@ -67,6 +67,6 @@ ms.locfileid: "2897802"
 
 ### <a name="coming-soon"></a>即将到期
 
-#### <a name="platform-update-29-for-finance-and-operations"></a>Finance and Operations 的平台更新 29
+#### <a name="platform-update-29-for-finance-and-operations"></a>Finance and Operations 平台更新 29
 
-有关 Finance and Operations 的平台更新 29 的更多详细信息，请参阅 [Dynamics 365 Finance and Operations 平台更新 29（2019 年 10 月）的预览功能](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29)。
+有关 Finance and Operations 平台更新 29 的其他详细信息，请参阅 [Dynamics 365 Finance and Operations 平台更新 29（2019 年 10 月）中的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29)。

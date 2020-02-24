@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 18e12cbe46650fcf024a56b6de9a8cb2903d2bf8
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 287663817232e7ce86e8fdb1fb5c2fcfeed33d20
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914558"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001523"
 ---
 # <a name="add-a-favicon"></a>添加收藏夹图标
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何向站点添加收藏夹图标。

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0028d1f64aced1bbff91b18456c81adbb95bce30
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 14539ed6c00915b7d59a5a3c4870ab6d1a96ad95
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914810"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002512"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>电子申报中 (ER) 的配方设计器
 
@@ -51,7 +51,7 @@ ER 支持公式设计器。 因此，在设计时，您可以配置在运行时�
 - 定义流程控制验证的条件。
 - 定义流程控制验证的消息文本。
 
-## <a name="Binding">数据绑定</a>
+## <a name="Binding"></a>数据绑定
 
 ER 公式设计器可以用于定义转换接收自数据源的数据的表达式，以便数据在运行时可以按以下方式在数据用户中输入数据：
 
@@ -69,7 +69,7 @@ ER 公式设计器可以用于定义转换接收自数据源的数据的表达�
 
 运行时，设计的公式 `ROUND (Intrastat.AmountMST, 2)` 将内部统计表中各记录的 **AmountMST** 字段的值舍入为两位小数。 然后在**纳税申报**数据模型的 **Transaction.InvoicedAmount** 组件中输入化整后的值。
 
-## <a name="Transformation">数据格式设置</a>
+## <a name="Transformation"></a>数据格式设置
 
 ER 配方设计器可以用于定义确定接收自数据源的数据的格式的表达式，以便数据可以作为生成电子文档的一部分发送。 可能必须将格式设置作为应对某种格式重复使用的典型规则来应用。 在这种情况下，可将该格式设置在格式配置中引入一次，作为具有格式设置表达式的指定转换。 此指定的转换然后可链接到许多格式组件，这些组件是必须根据创建的格式表达式设置其输出的格式。
 
@@ -87,7 +87,7 @@ ER 配方设计器可以用于定义确定接收自数据源的数据的格式�
 
 [![将格式应用于单个组件](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
-## <a name="Validation">流程控制</a>
+## <a name="Validation"></a>流程控制
 
 ER 格式设计器可用于定义控制生成电子单据的流程的表达式。 您可以执行以下任务：
 
@@ -112,7 +112,7 @@ ER 配方设计器还可用于生成文件名来生成电子单据和控制文�
 
 [![流程控制](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
-## <a name="Enabled">单据内容控制</a>
+## <a name="Enabled"></a>单据内容控制
 
 可使用 ER 配方设计器配置表达式，用于控制运行时将哪些数据放到生成的电子单据中。 这些表达式可根据处理数据和配置的逻辑启用或禁用该格式的特定元素的输出。 可以在**工序设计器**页**映射**选项卡上的**启用**字段中为单个格式元素输入这些表达式。 您可以作为返回*布尔*值的逻辑条件输入表达式：
 
@@ -139,7 +139,7 @@ ER 配方设计器还可用于生成文件名来生成电子单据和控制文�
 > 
 > 根据此设置，为每笔借方付款生成的消息（**Ustrd** XML 元素）中将包含付款附注的文本，或当该文本为空时，则包含用于结算此付款的以逗号分隔的发票编号列表。
 
-## <a name="TestFormula">验证配置的公式</a>
+## <a name="TestFormula"></a>验证配置的公式
 
 在**公式设计器**页面，选择**测试**验证配置的公式如何工作。
 

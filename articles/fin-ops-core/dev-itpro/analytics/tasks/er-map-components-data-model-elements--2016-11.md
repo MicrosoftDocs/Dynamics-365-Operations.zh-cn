@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a033853be17d6013daa5550ca9c061198bb0330
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 548f16034ebdf7e0f29e8e89d85aac880f6323a1
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184730"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026232"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER 将创建的格式的组件映射到数据模型元素（2016 年 11 月）
 
@@ -98,7 +98,7 @@ ms.locfileid: "2184730"
 2. 关闭该页面。
 
 ## <a name="change-status-of-the-current-version-of-format-configuration"></a>更改格式配置的当前版本状态
-    * 在下一步骤中，您将把格式配置的状态从“草稿”更改为“已完成”，以使其可用于生成付款单据。  
+在下一步骤中，您将把格式配置的状态从“草稿”更改为“已完成”，以使其可用于生成付款单据。  
 1. 单击“更改状态”。
 2. 单击“完成”。
 3. 在“描述”字段中，键入一个值。
@@ -108,7 +108,7 @@ ms.locfileid: "2184730"
     * 请注意配置保存为已完成版本 1.1：即基于数据模型的第 1 版本的格式的第 1 版本。  
 
 ## <a name="define-effective-date-for-completed-version-of-format"></a>定义已完成格式版本的生效日期
-    * 每个格式版本可配置为从特定日期开始可供使用。 当多个格式版本在特定日期有效时，将选择使用最新格式（根据版本号）。 此会话日期值将用于选择相应的版本。  
+每个格式版本可配置为从特定日期开始可供使用。 当多个格式版本在特定日期有效时，将选择使用最新格式（根据版本号）。 此会话日期值将用于选择相应的版本。  
 
 ## <a name="restrict-access-to-created-format-from-companies"></a>限制公司对创建的格式的访问
 1. 展开“ISO 国家/地区代码”部分。

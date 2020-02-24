@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-17
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 938d2eea7b9e85b19e9c1e3e0930f625224b880d
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 229ae14b9e2dedcd0ade094a772f16c0524d32a7
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898611"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006070"
 ---
 # <a name="accrue-time-off-based-on-hours-worked"></a>根据工作时数累积休假时间
 
 ## <a name="overview"></a>概览
 
-聘用小时员工的组织可根据工作时数奖励休假，而不是根据在职年限。 工作时数数据通常存储在考勤管理系统中。 在 Talent: Core HR 中，可导入这些正常工时和加班工时并用作奖励员工的基数。
+聘用小时员工的组织可根据工作时数奖励休假，而不是根据在职年限。 工作时数数据通常存储在考勤管理系统中。 
 
 ## <a name="leave-plans"></a>休假计划
 

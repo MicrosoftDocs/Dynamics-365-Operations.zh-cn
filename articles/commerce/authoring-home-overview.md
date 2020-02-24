@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 715d3df2fa41bdd6c65c42c55c8646eb7317c400
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 95908c3a8b6c5231f2f5b283fa05f07c4e91b5d7
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697210"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001115"
 ---
 # <a name="authoring-page-overview"></a>创作页面概览
 
- [!include [banner](includes/preview-banner.md)] 
+  
  [!include [banner](includes/banner.md)]
 
 本主题提供 Microsoft Dynamics 365 Commerce 中的创作页面的概述。

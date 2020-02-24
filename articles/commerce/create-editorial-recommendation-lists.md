@@ -19,27 +19,26 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6d075635b7b986cc854550d15f7e941a9ea9cf72
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
+ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770405"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024925"
 ---
 # <a name="create-curated-product-recommendation-lists"></a>创建策划的产品建议列表
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 此主题介绍用户如何为 Microsoft Dynamics 365 Commerce 客户创建和管理手动产品列表。
 
-创建的列表是人员创建和精选的单个内容的集合。  
+精选列表是人员创建和精选的单项内容的集合。  
 
 ## <a name="create-a-new-list"></a>创建新列表
 
 若要创建精选产品建议列表，请执行以下步骤。
 
-1. 转到 **Retail** &gt; **产品建议** &gt; **建议列表**。
+1. 转到 **Retail 和 Commerce &gt; 产品建议 &gt; 建议列表**。
 1. 选择**新建**。
 1. 在**列表 ID** 字段中，输入一个值。
 1. 在**列表名称**字段中，输入一个值。
@@ -60,3 +59,5 @@ ms.locfileid: "2770405"
 [启用产品建议](enable-product-recommendations.md)
 
 [向页面添加建议列表](add-reco-list-to-page.md)
+
+[产品集合模块概览](product-collection-module-overview.md)

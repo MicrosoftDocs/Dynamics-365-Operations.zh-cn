@@ -3,7 +3,7 @@ title: 使用工作模板和库位指令控制仓库的工作
 description: 本主题介绍如何使用工作模板和库位指令确定在仓库中如何以及在哪里执行工作。
 author: perlynne
 manager: AnnBe
-ms.date: 09/21/2018
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9a5292e88fe022482ab9c6c5a8f016745946988
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4645cf36201aa1b87c22ba4dbfb1b8d8117f425a
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026895"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3028020"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>使用工作模板和库位指令控制仓库的工作
 
@@ -152,7 +152,7 @@ ms.locfileid: "2026895"
 ### <a name="strategy"></a>战略
 
 -   **合并** - 在有相似物料时，使用此策略合并特定库位的物料。 这仅适用于类型为放置的库位指令。 放置的一般设置是在第一个操作行中进行合并，然后在第二个操作行中尝试放置但不合并。 合并货物可以提高后续领料的效率。
--   **匹配包装数量** - 此策略用于验证领料位置是否具有指定的包装数量。 这将仅适用于类型为领料的库位指令。 
+-   **匹配包装数量** - 此策略将查找包含牌照的库位，该牌照具有所需的确切数量。 它不能与不受牌照控制的库位配合使用。 此策略仅适用于类型为领料工作的库位指令。
 -   **先到期先出 (FEFO) 批次预留** - 此策略在使用批次到期日期定位库存时使用，并且会分配给批次预留。 您尽可将此策略用于批次启用物料。 这仅适用于类型为领料工作的库位指令。 
 -   **进位到全部牌照** - 此策略用于化整库存数量，以匹配分配给待领取的物料的牌照 (LP) 数量。 此策略只能用于领料类型库位指令的补货类型。 
 -   **没有传入工作的空库位** - 此策略用于查找空库位。 如果库位没有物理库存和预期的传入工作，该库位将被视为空库位。 此策略仅用于类型为放置的库位指令。 
