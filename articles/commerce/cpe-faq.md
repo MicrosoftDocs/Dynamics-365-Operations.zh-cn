@@ -1,5 +1,5 @@
 ---
-title: Commerce 预览环境常见问题
+title: Dynamics 365 Commerce 预览环境常见问题
 description: 本主题提供对有关 Microsoft Dynamics 365 Commerce 预览环境的常见问题的解答。
 author: v-chgri
 manager: annbe
@@ -17,16 +17,15 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 53e593931850d6b8b22bb756d5828f742416aa4d
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906085"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024744"
 ---
-# <a name="commerce-preview-environment-faq"></a>Commerce 预览环境常见问题
+# <a name="dynamics-365-commerce-preview-environment-faq"></a>Dynamics 365 Commerce 预览环境常见问题
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 本主题提供对有关 Microsoft Dynamics 365 Commerce 预览环境的常见问题的解答。
@@ -83,10 +82,10 @@ Dynamics 365 Retail Cloud Scale Unit (RCSU) 和电子商务完全是软件即服
 
 ## <a name="additional-resources"></a>其他资源
 
-[Commerce 预览环境概述](cpe-overview.md)
+[Dynamics 365 Commerce 预览环境概览](cpe-overview.md)
 
-[预配 Commerce 预览环境](provisioning-guide.md)
+[配置 Dynamics 365 Commerce 预览环境](provisioning-guide.md)
 
-[配置 Commerce 预览环境](cpe-post-provisioning.md)
+[配置 Dynamics 365 Commerce 预览环境](cpe-post-provisioning.md)
 
-[为 Commerce 预览环境配置可选功能](cpe-optional-features.md)
+[为 Dynamics 365 Commerce 预览环境配置可选功能](cpe-optional-features.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ffbb29fb89ed6a3fd6db11f2c8d656ab565c43f3
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 8d89b1251429281521f32338f642cc7034420e0b
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897641"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005978"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-23-2019"></a>Dynamics 365 Talent 的新增功能或更改（2019 年 7 月 23 日）
 
@@ -73,6 +73,6 @@ Attract 用户现在可以在文档查看器中查看应聘者的 PDF 附件，�
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>加拿大和东南亚的地区支持
 
-我们很高兴地宣布，加拿大和东南亚地区将于 2019 年 8 月 1 日推出 Talent。 通过此更改，您可以在加拿大和亚洲地区创建环境，并且所有 Talent 数据将仅在这些位置内维护。 您可以通过在“新建环境”对话框中选择位置来在这些新地区创建环境，并使用该环境在 LCS 中配置 Talent，如[配置 Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent) 中所述。
+我们很高兴地宣布，加拿大和东南亚地区将于 2019 年 8 月 1 日推出 Talent。 通过此更改，您可以在加拿大和亚洲地区创建环境，并且所有 Talent 数据将仅在这些位置内维护。 您可以通过在“新建环境”对话框中选择位置来在这些新地区创建环境，并使用该环境在 LCS 中配置 Talent，如[配置 Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent) 中所述。
 
 不支持将现有项目的数据从其他地区迁移到加拿大和亚洲地区。 仅新项目可以配置到这些新的支持地区。

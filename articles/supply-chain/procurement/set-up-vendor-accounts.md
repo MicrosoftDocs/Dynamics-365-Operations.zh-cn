@@ -3,7 +3,7 @@ title: 设置供应商帐户
 description: 此主题介绍在您创建新的供应商帐户时必须指定的信息的类型。
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5ab1f10f0874df36d1227e39f2d2146e85de41e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 63843381207fbe6cb72ac1b5533eda754b1ba55b
+ms.sourcegitcommit: 5457cbec3399d8ed9f87c3a9dc586173b5616c11
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249375"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3012437"
 ---
 # <a name="set-up-vendor-accounts"></a>设置供应商帐户
 
@@ -88,7 +88,7 @@ ms.locfileid: "2249375"
 -   **发票** – 未为该供应商过帐发票。
 -   **所有** – 该供应商的所有交易类型为暂停。 这些交易类型包括采购申请、发票和付款。
 -   **付款** – 不能为此供应商生成付款。
--   **Requisition** – 只可以创建一个采购申请 不能创建其他交易。
+-   **申请** – 无法为供应商创建采购申请，并且在将供应商设为暂停状态之前已经创建的申请行不能转换为采购订单。 如果您的策略设置为自动创建采购订单，则供应商的申请行将被取消。
 -   **从不** – 供应商从不因为不活动暂停。
 
 在供应商置于暂停状态时，您还可以指定原因和暂停状态将结束的日期。 如果未输入结束日期，供应商的暂停状态将无限期持续。

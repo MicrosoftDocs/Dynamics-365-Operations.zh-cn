@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9c0f329d21cdda5c36a39a8c602d5925b720f52
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: d4c495fc6dfe4aa6561a1bb703253ef8ec71dc13
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945735"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003065"
 ---
 # <a name="enrich-a-product-page"></a>丰富产品页面
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中扩充产品页面。
 
 ## <a name="overview"></a>概览
 
-默认情况下，站点使用通用页面显示产品数据。 这种页面中包含有关产品和销售产品需要的控件的基本信息。 但是，可以使用更多图像或文本和 Retail Server 中的信息补充特定产品。 此过程称为扩充产品页。
+默认情况下，站点使用通用页面显示产品数据。 这种页面中包含有关产品和销售产品需要的控件的基本信息。 但是，可以使用特定产品的更多图像或文本补充来自 Commerce Scale Unit 的信息。 此过程称为扩充产品页。
 
-许多情况下，希望使用产品的更多具体内容。 在创作工具中转到  **Retail** 时，将看到来自分配给站点的渠道的产品的列表。 在此列表中，**已扩充**列指示是否已扩充了某个产品的产品页。 如果列中显示复选标记，说明产品有已扩充产品页。 如果不显示复选标记，说明对产品使用的是默认产品页和内容。 可通过在列表中选择产品名称预览已扩充产品页和未扩充产品页。
+许多情况下，希望使用产品的更多具体内容。 在创作工具中转到 **Retail 和 Commerce** 时，将看到来自分配给站点的渠道的产品的列表。 在此列表中，**已扩充**列指示是否已扩充了某个产品的产品页。 如果列中显示复选标记，说明产品有已扩充产品页。 如果不显示复选标记，说明对产品使用的是默认产品页和内容。 可通过在列表中选择产品名称预览已扩充产品页和未扩充产品页。
 
 ## <a name="enrich-a-product-page"></a>丰富产品页面
 

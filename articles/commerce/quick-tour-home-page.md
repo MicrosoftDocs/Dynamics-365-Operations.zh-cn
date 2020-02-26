@@ -3,7 +3,7 @@ title: 主页概览
 description: 本主题提供 Microsoft Dynamics 365 Commerce 中的主页的概述。
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fb42c9aa2e2ef1d620b310e9d30dbae5f84c788
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 6f337af0b598322e9542a3c9462402e61dc11a88
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698272"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025963"
 ---
 # <a name="overview-of-the-home-page"></a>主页概览
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 本主题提供 Microsoft Dynamics 365 Commerce 中的主页的概述。
@@ -45,19 +45,19 @@ ms.locfileid: "2698272"
 
 - **主图** – 主部分顶部的第一项通常显示一个或多个“主图”，它们突出显示商店中的新产品和促销。 如果有多个主图，这些主题在传送模块中承载，以便用户浏览。
 
-    下图显示主页的示例，在该主页中，主部分的第一项是名称为**新品**的主图模块。
+    下图显示主页的示例，在该主页中，主部分的第一项是名称为“新品”的内容块模块主图布局。
 
     ![主图模块的示例](./media/Hero.PNG)
 
-- **特色** – 特色模块用于通过图像和文本的组合营销产品或促销。 特色模块可以独立使用，也可以承载在传送模块中。
+- **特色** – 内容块模块的特色布局用于通过图像和文本的组合营销产品或促销。 特色布局可以独立使用，也可以承载在传送模块中。
 
-    下图显示主页中的特色模块的示例。
+    下图显示了主页上内容块模块特色布局的示例。
 
     ![特色模块示例](./media/Feature.PNG)
 
-- **内容放置** – 内容放置模块在多列布局中用于使用图像和文本的组合展示多个产品或产品类别。 在此主题前文显示的主页图中，对**购买女装**、**购买男装**和**购买配饰**项的三列布局使用了内容放置模块。
+- **磁贴** – 内容块模块的磁贴布局在多列布局中用于使用图像和文本的组合展示多个产品或产品类别。 在此主题前文显示的主页图中，对**购买女装**、**购买男装**和**购买配饰**项的三列呈现方式使用了磁贴布局。
 - **视频播放器** – 视频播放器模块可用于在主页中展示视频内容。 此主题前文显示的主页图中有一个视频播放器模块。
-- **内容丰富块** – 内容丰富块模块可用于通过单列或多列布局在主页中显示文本内容。
+- **文本块** – 内容丰富块模块可用于通过单列或多列布局在主页中显示文本内容。
 - **产品建议** – 产品建议模块用于在主页中显示**新品**、**热门**和**最畅销**等列表。 这些列表基于购物趋势展示产品，可以按算法生成或手动挑选。 可帮助客户快速发现排名靠前的产品，然后继续购买。
 
     下图显示主页中的产品建议模块的示例。

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af8a30e69d9ed143e045950efdcece207f6da14c
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 6abac72b7530dc7b82c8e95faebdce791cf7dbd1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697926"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003226"
 ---
 # <a name="get-product-recommendations-using-demo-data"></a>使用演示数据获取产品建议
 此文档使用预填充的可自定义演示数据提供有关如何在 1 级单盒环境中利用全渠道产品建议的指导。
@@ -39,7 +39,7 @@ ms.locfileid: "2697926"
 若要启用产品建议演示日期，需要将 Dynamics 365 Commerce 预览演示扩展部署到相应环境。 这将自动启用产品建议演示数据。
 
 ## <a name="default-demo-data"></a>默认演示数据
-每个 Onebox 类型的环境都自带一组预加载的产品建议演示数据，这些数据存储在以逗号分隔的“reco_demo_data.csv”文件中，该文件位于 Retail Server 上。
+每个 Onebox 类型的环境都自带一组预加载的产品建议演示数据，这些数据存储在以逗号分隔的“reco_demo_data.csv”文件中，该文件位于 Commerce Scale Unit 上。
 
 此数据与以下列一起结构化。
 

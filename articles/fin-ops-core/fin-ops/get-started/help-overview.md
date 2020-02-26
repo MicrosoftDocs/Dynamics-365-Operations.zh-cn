@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4594da0feeb3b74eb066fb5761e36398804b4fc2
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811664"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005695"
 ---
 # <a name="help-system"></a>帮助系统
 
@@ -32,9 +32,9 @@ ms.locfileid: "2811664"
 本主题提供帮助系统的组件的概览。 帮助系统由以下产品共用：
 
 - Dynamics 365 Finance 
-- Dynamics 365 Retail
+- Dynamics 365 Commerce
 - Dynamics 365 Supply Chain Management
-- Dynamics 365 Talent
+- Dynamics 365 Human Resources
 
 您可以在您使用的任何产品中从“帮助”窗格访问帮助。 
 
@@ -42,7 +42,7 @@ ms.locfileid: "2811664"
 
 ## <a name="help-on-docsmicrosoftcom"></a>docs.microsoft.com 中的“帮助”
 
-docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/)) 是上面列出的应用程序 的产品文档的主要来源。 该站点提供以下功能：
+docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/)) 是上面列出的应用程序的产品文档的主要来源。 该站点提供以下功能：
 
 - **访问最新的内容** – 该站点能让我们以更快、更灵活的方式创建、交付和更新产品文档。 因此，它有助于确保您有权访问最新技术信息。
 - **由专家编写的内容** – 该站点提供更丰富的产品文档集，可由 Microsoft 内外的社区成员增强。
@@ -73,7 +73,7 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/](https://docs.micros
 
 YouTube 上的 Microsoft Dynamics 365 频道中包含[如何参与 Microsoft Dynamics 365 文档](https://youtu.be/m5djioozRbg)视频（上面所示）。
 
-有关详细信息，请参阅我们的[贡献者指南](https://docs.microsoft.com/en-us/contribute)。
+有关详细信息，请参阅我们的[贡献者指南](https://docs.microsoft.com/contribute)。
 
 > [!NOTE]
 > 目前，我们只接受向我们的英语内容贡献。
@@ -106,12 +106,12 @@ Microsoft 为 Dynamics 365 for Finance and Operations 2017 年 12 月及以前�
 从“帮助”窗格中，您可以访问适用于客户端的文章。 在您首次打开“帮助”窗格并单击**帮助**选项卡时，您将看到适用于您当前所处页面的文章。 如果未找到任何文章，您可以输入关键字来调整搜索。 当您在“帮助”窗格中单击一篇文章时，新的选项卡会在 Web 浏览器中打开并显示文章。
 
 > [!IMPORTANT]
-> 本节不适用于 Dynamics 365 Talent。 Talent 的帮助系统自动连接至产品的任务指南。 此外，您无法为 Talent 创建自定义任务指南。
+> 本节不适用于 Dynamics 365 Human Resources。 Human Resources 的帮助系统自动连接至产品的任务指南。 此外，您无法为 Human Resources 创建自定义任务指南。
 
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>从“帮助”窗格中访问任务指南
 
-在您可以从“帮助”窗格中访问任务指南前，系统管理员必须转到 Finance、Supply Chain Management 和 Retail 中的**系统参数**页并配置某些设置。
+在您可以从“帮助”窗格中访问任务指南前，系统管理员必须转到 Finance、Supply Chain Management 和 Commerce 中的**系统参数**页并配置某些设置。
 
 > [!NOTE]
 > - 为了配置帮助，您必须使用在其中部署应用程序的租户的帐户登录。

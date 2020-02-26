@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d95feb3395c36f9cf8a23770dc3173377067d9b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184868"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026055"
 ---
 # <a name="generate-documents-that-have-application-data"></a>生成包含应用程序数据的单据
 
@@ -58,7 +58,7 @@ ms.locfileid: "2184868"
 6. 单击“确定”。
 
 ## <a name="review-er-format-executions-results"></a>检查 ER 格式执行结果
-    * 检查生成的 XML 文件。  
+检查生成的 XML 文件。  
 1. 关闭该页面。
 2. 转到“纳税”>“申报”>“外贸”>“内部统计”。
     * 打开此窗体（其中包含已包括的内部统计交易记录）以查看所生成电子单据。  

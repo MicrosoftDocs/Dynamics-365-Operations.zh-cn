@@ -3,7 +3,7 @@ title: 配置工作流中的审核流程
 description: 使用以下过程配置审核流程的属性。
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4032d5e56b9dd014ec0472abfc1b2ad4a15ff1d
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1f58e227542b1e5ca1235748d14e71bddac826ee
+ms.sourcegitcommit: 759325234a763e14071348a6f5399999a92f8264
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811373"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "2983756"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>配置工作流中的审核流程
 
@@ -138,11 +138,12 @@ ms.locfileid: "2811373"
 
 ## <a name="specify-a-final-approver"></a>指定最终审核人。
 
-您可能想要为审核人是提交文档进行审核的人员的情景指定最终审核人。 按照以下步骤指定最终审核人。
+您可以为以下情况指定最终批准者：批准者是提交文档以供批准的人，并且正在使用“不允许提交者批准”。 按照以下步骤指定最终审核人。
 
-1. 在左侧窗格中，单击**高级设置**。
-2. 选中**使用最终审核人**复选框。
-3. 从列表中选择要作为最终审核人的用户。
+1. 在工作流编辑器中，右键单击审核元素，然后选择**属性**以打开**属性**窗体。
+2. 在左侧窗格中，单击**高级设置**。
+3. 选中**使用最终审核人**复选框。
+4. 从列表中选择要作为最终审核人的用户。
 
 ## <a name="set-a-time-limit"></a>设置时间限制
 

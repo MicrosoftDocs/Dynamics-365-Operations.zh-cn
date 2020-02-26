@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c28c9e8c2573bcd82434f88daa8f9cadc946209
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fc9064f0386fe7c0f4093fc30587be4baa259eb0
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812378"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003671"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>组织和组织层次结构概览
 
@@ -47,7 +47,7 @@ ms.locfileid: "2812378"
 
 运营单位是用来拆分企业中的经济资源和运营流程的控件的组织。 运营单位中的人有义务最大化对稀有资源的使用、改进流程和记录他们的业绩。
 
-运营单位的类型包括成本中心、业务单位、价值流、部门以及零售渠道。 下表提供了有关每个类型的运营单位的详细信息。
+运营单位的类型包括成本中心、业务单位、价值流、部门以及商业渠道。 下表提供了有关每个类型的运营单位的详细信息。
 
 | 运营单位类型 | 描述 | 用途 |
 |---------------------|-------------|---------|
@@ -55,7 +55,7 @@ ms.locfileid: "2812378"
 | 业务单位       | 创建来满足战略业务目标的一个半自主运营单位。 | 用于基于组织单独服务的法人的工厂或产品行的财务报表。 |
 | 价值流        | 控制一个或多个生产流的工序单位。 | 通常在控制产品或服务要求提供给客户的活动和流的精益制造中。 |
 | 部门          | 表示执行销售或记账等特定任务的组织的类别或功能部分的运营单位。 | 用于申报功能区域。 某部分可能具有损益责任，而且可能是由一组成本中心构成的。 |
-| 零售渠道      | 应用单位表示传统实体店、在线商店或联机市场。 | 用于法人内或跨法人的一个或多个商店的管理和运营控制。 |
+| 商业渠道      | 应用单位表示传统实体店、在线商店或联机市场。 | 用于法人内或跨法人的一个或多个商店的管理和运营控制。 |
 
 ### <a name="teams"></a>团队
 

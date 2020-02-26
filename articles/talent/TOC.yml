@@ -8,6 +8,12 @@
         - name: Talent 新增功能或更改
           href: whats-new.md
           items:
+            - name: 2020 年 1 月 21 日
+              href: whats-new-talent-january-21-2020.md
+            - name: 2020 年 1 月 14 日
+              href: whats-new-talent-january-14-2020.md
+            - name: 2020 年 1 月 7 日
+              href: whats-new-talent-january-7-2020.md
             - name: 2019 年 12 月 17 日
               href: whats-new-talent-december-17-2019.md
             - name: 2019 年 12 月 12 日
@@ -28,12 +34,12 @@
               href: whats-new-talent-october-8-2019.md
             - name: 2019 年 10 月 1 日
               href: whats-new-talent-october-1-2019.md
-            - name: 2019 年 9 月 17 日
-              href: whats-new-talent-september-17-2019.md
-            - name: 2019 年 9 月 10 日
-              href: whats-new-talent-september-12-2019.md
             - name: 2019 年新增功能存档
               items:
+                - name: 2019 年 9 月 17 日
+                  href: whats-new-talent-september-17-2019.md
+                - name: 2019 年 9 月 10 日
+                  href: whats-new-talent-september-12-2019.md
                 - name: 2019 年 8 月 27 日
                   href: whats-new-talent-august-28-2019.md
                 - name: 2019 年 8 月 22 日
@@ -136,18 +142,14 @@
           href: talent-updates.md
         - name: 配置 Talent
           href: provisioning-talent.md
-        - name: 复制 Core HR 实例
-          href: hr-copy-instance.md
-        - name: 删除 Talent 环境
-          href: remove-talent-environment.md
         - name: 管理功能
           href: access-preview-feature.md
         - name: 配置 Onboard
           href: modular-app-tech-faq.md
-        - name: 嵌入 Power Apps 应用
+        - name: 从 Attract 和 Onboard 中导出数据
+          href: attract-onboard-export-data.md
+        - name: 嵌入 Microsoft Power Apps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Common Data Service 中的 Core HR 实体
-          href: CoreHREntities.md
         - name: 获取 Talent 支持
           href: talent-support.md
     - name: 通过 Attract 为您的组织配备人员
@@ -232,266 +234,19 @@
           href: onboard-view-status.md
         - name: 创建招聘团队
           href: onboard-create-team.md
-    - name: 通过 Core HR 管理您的劳动力
-      items:
-        - name: 组织您的劳动力
-          items:
-            - name: 使用部门、工作和职位组织您的员工
-              href: departments-jobs-positions.md
-            - name: 设置作业组件
-              href: create-job.md
-            - name: 简化的员工条目和导航
-              href: streamlined-employee-entry.md
-            - name: 创建部门并将其包含在部门层次结构中
-              href: create-department-add-department-hierarchy.md
-            - name: 跨法人设置人力资源参数
-              href: set-up-hr-parameters-across-legal-entities.md
-            - name: 设置特定于公司的人力资源参数
-              href: set-up-company-specific-hr-parameters.md
-            - name: Talent 中的日期和时间字段
-              href: date-time-fields-in-talent.md
-            - name: 人事行动常见问题
-              href: personnel-actions-faq.md
-            - name: 确定业务流程
-              href: formalize-business-processes.md
-            - name: 使用工作流管理员工信息
-              href: workflow-manage-employee-information.md
-            - name: 设置编号规则
-              items:
-                - name: 编号规则概览
-                  href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 逐个设置编号规则
-                  href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 使用向导设置编号规则
-                  href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 配置组织和组织层次结构
-              items:
-                - name: 组织概览
-                  href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 规划组织层次结构
-                  href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 创建组织层次结构
-                  href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 创建法人
-                  href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 创建运营单位
-                  href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 设置全球通讯簿
-              items:
-                - name: 全球通讯簿概览
-                  href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 全球通讯簿和其他通讯簿的计划
-                  href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 配置全球通讯簿
-                  href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 通讯簿常见问题
-                  href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 配置工作流
-              items:
-                - name: 工作流概览
-                  href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 工作流元素
-                  href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 工作流审核流程中的操作
-                  href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 创建工作流
-                  href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                  items:
-                    - name: 配置工作流属性
-                      href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: 配置手动任务
-                      href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: 配置自动化任务
-                      href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: 配置审核流程
-                      href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: 配置审核步骤
-                      href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: 配置手动决策
-                      href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: 配置条件决策
-                      href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: 配置并行活动
-                      href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: 配置并行分支
-                      href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: 配置行项工作流
-                      href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 配置消息处理批处理作业
-                  href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 在工作流中委托工作项
-                  href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 查看工作流历史记录
-                  href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 使得用户能够接收工作流相关的电子邮件
-                  href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 设置预警
-              items:
-                - name: 预警概览
-                  href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 创建预警规则
-                  href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 预警的批处理
-                  href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 管理案例
-              items:
-                - name: 案例管理概览
-                  href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 计划案例安全、流程和类别
-                  href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 配置文档管理
-              href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 配置和发送电子邮件
-              href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 日期/时间数据和时区
-              href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: 设置休假和缺勤
-          items:
-            - name: 管理休假和缺勤
-              href: leave-absence-overview.md
-            - name: 休假和缺勤概念
-              href: leave-absence-concepts.md
-            - name: 根据工作时数累积休假时间
-              href: leave-accrue-hours-worked.md
-            - name: 工作时间日历
-              href: working-time-calendars.md
-        - name: 设置薪酬计划
-          items:
-            - name: 薪酬计划概览
-              href: compensation-plans.md
-            - name: 创建固定薪酬计划
-              href: create-fixed-compensation-plans.md
-            - name: 创建可变薪酬计划
-              href: create-variable-compensation-plans.md
-            - name: 薪酬流程
-              href: process-compensation.md
-            - name: 设置作业组件
-              href: create-job.md
-        - name: 培养和培训员工
-          items:
-            - name: 绩效管理
-              href: performance-management-overview.md
-            - name: 使劳动力技能符合业务需求
-              href: skills.md
-            - name: 设置培训课程
-              href: courses.md
-            - name: 添加到绩效日记账并向某人发送表扬
-              href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 创建目标
-              href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 创建绩效审核
-              href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: 定义和管理福利计划
-          items:
-            - name: 定义和管理福利计划
-              href: manage-benefit-program.md
-            - name: 福利资格政策
-              href: benefit-eligibility-policies.md
-            - name: 创建平价医疗法案 (ACA) 报告
-              href: generate-aca-reports.md
-            - name: 管理借给工作人员的物品
-              href: loan-items.md
-        - name: 通过调查表评估关键指标
-          items:
-            - name: 通过调查表收集信息
-              href: questionnaires.md
-            - name: 设计调查表
-              href: design-questionnaires.md
-            - name: 分发和计划调查表
-              href: distribute-questionnaires.md
-            - name: 查看和评估调查表的结果
-              href: evaluate-questionnaire-results.md
-        - name: 工作场所安全和合规（美国）
-          items:
-            - name: 响应 Talent 中的个人数据请求
-              href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 表格 I-9 工作证明
-              href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 符合 ADA
-              href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: 集成
-      items:
-        - name: 针对 Dynamics 365 for Talent 的数据集成指南
-          href: data-integration.md
-        - name: 配置 Common Data Service 集成
-          href: hr-common-data-service-integration.md
-        - name: 与 Dynamics 365 for Finance and Operations 集成
-          href: talent-financeandoperations-integration.md
-        - name: 配置 Talent 和 Dayforce 之间的工资单集成
-          href: configure-payroll-integration.md
-        - name: 集成常见问题
-          href: talent-fo-integration.md
-        - name: 使用 Azure 逻辑应用重复导出数据
-          href: tutorial-integration-recurring-export.md
-        - name: Office 集成
-          items:
-            - name: Office 集成教程
-              href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 更新 Excel 中的实体数据
-              href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 创建“在 Excel 中打开”体验
-              href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Office 集成故障排除
-              href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: 可扩展性
       items:
-        - name: 工作区中的嵌入式 Power BI
-          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: 通过 Power Apps 和 Power Automate 扩展 Talent
-          href: extensibility-examples.md
-        - name: 移动应用
-          items:
-            - name: 移动工作区
-              items:
-                - name: 公司目录移动工作区
-                  href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 我的团队移动工作区
-                  href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: 跟踪招聘数据的变化
           href: process-auditing.md
         - name: Attract 的可扩展性
           href: extensibility-attract.md
-        - name: Core HR 自定义字段
-          href: corehr-custom-fields.md
-        - name: 实体 API 引用
-          items:
-            - name: 身份验证
-              href: api-odata-authentication.md
-            - name: 实体
-              items:
-                - name: MyLeaveRequests
-                  items:
-                    - name: MyLeaveRequests 概览
-                      href: api-myleaverequests-overview.md
-                    - name: 将请假申请提交至工作流
-                      href: api-myleaverequests-submit.md
-    - name: Talent 疑难解答
+        - name: 通过 Power Apps 和 Power Automate 扩展 Talent
+          href: extensibility-examples.md
+    - name: Attract 和 Onboard 故障排除
       items:
-        - name: 使用自动清理任务优化性能
-          href: talent-batch-history-cleanup.md
         - name: 将职位发布到 LinkedIn 疑难解答
           href: attract-troubleshoot-linkedin.md
-        - name: 未更新分析报表
-          href: analytic-reports-not-updated.md
-        - name: 无法在 PowerApps 管理中心内创建环境
-          href: create-envi-powerapps-admin-ctr.md
-        - name: Talent 客户端断开连接
-          href: client-disconnects.md
-        - name: 避免职位层次结构的文本截断并导出到 Visio
-          href: avoid-text-truncation-position-hierarchy-visio.md
-        - name: 执行薪酬流程
-          href: run-compensation-process.md
-        - name: 将任务指南保存到 LCS 并重新播放它们
-          href: save-play-task-guides-LCS.md
-        - name: 通过安全角色访问专用地址
-          href: security-roles-addresses.md
-        - name: Talent 未在 Microsoft Dynamics 365 应用 (Common Data Service 1.0) 中显示
-          href: talent-not-in-home-CDS.md
-        - name: 用户可以访问 Core HR，但无法访问 Onboard 或 Attract 应用
+        - name: 用户可以访问 Human Resources，但无法访问 Onboard 或 Attract 应用
           href: user-access-core-hr.md
-        - name: Talent 中的报告选项
-          href: talent-reporting-options.md
-        - name: 集成常见问题
-          href: talent-FO-integration.md
         - name: 未在人员选择器中找到 Azure Active Directory 用户
           href: people-picker-user-not-found.md

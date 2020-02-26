@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f3ef8314c3b6122627de0a730e912c7ebcd99be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec7a2c5a2b2b7ef22fd3dcf7f7d3859e8e07ea5e
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568642"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003942"
 ---
 # <a name="configure-linked-products"></a>配置链接的产品
 
@@ -30,7 +30,7 @@ ms.locfileid: "1568642"
 
 1. 转到“产品信息管理”>“产品”>“已发布产品”。
 2. 在列表中，找到并选择所需记录。
-3. 在“操作窗格”上，单击“零售”。
+3. 在操作窗格上，单击“Retail 和 Commerce”。
 4. 单击“链接的产品”。
 5. 单击“编辑”。
 6. 在“链接的产品编号”字段中，单击下拉按钮以打开查找。

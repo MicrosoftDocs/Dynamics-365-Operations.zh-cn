@@ -1,0 +1,531 @@
+- name: Dynamics 365 Human Resources
+  href: hr-welcome.md
+  items:
+    - name: 新增功能
+      items:
+        - name: Human Resources 新增功能或更改
+          href: hr-admin-whats-new.md
+        - name: 2020 年 2 月 7 日
+          href: hr-whats-new-2020-02-07.md
+        - name: 2020 年 2 月 3 日
+          href: hr-whats-new-2020-02-03.md
+    - name: 管理员指南
+      items:
+        - name: 概览
+          href: hr-admin-overview.md
+        - name: 系统要求
+          href: hr-admin-system-requirements.md
+        - name: 设置和管理实例
+          items:
+            - name: 设置 Human Resources
+              href: hr-admin-setup-provision.md
+            - name: 复制实例
+              href: hr-admin-setup-copy-instance.md
+            - name: 删除实例
+              href: hr-admin-setup-remove-instance.md
+            - name: 更新流程
+              href: hr-admin-setup-update-process.md
+        - name: 设置数据集成
+          items:
+            - name: 选择数据集成技术
+              href: hr-admin-integration-choose-technology.md
+            - name: 配置 Common Data Service 集成
+              href: hr-admin-integration-common-data-service.md
+            - name: Common Data Service 实体
+              href: hr-developer-entities.md
+            - name: 配置与 Finance 的集成
+              href: hr-admin-integration-finance.md
+            - name: 配置与 Dayforce 的集成
+              href: hr-admin-integration-dayforce.md
+            - name: 创建定期数据导出应用
+              href: hr-admin-integration-recurring-data-export.md
+            - name: 与 Office 集成
+              items:
+                - name: Office 集成教程
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 更新 Excel 中的实体数据
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 创建“在 Excel 中打开”体验
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Office 集成故障排除
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: 管理功能
+          href: hr-admin-manage-features.md
+        - name: 浏览用户界面
+          items:
+            - name: 用户界面元素
+              href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: 辅助功能
+              href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
+            - name: 功能管理概览
+              href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
+            - name: 客户端常见问题
+              href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
+            - name: 操作搜索
+              href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
+            - name: 高级筛选和查询语法
+              href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json
+            - name: 配置和筛选工作区
+              href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json
+            - name: 使用“在新窗口中打开”功能并排显示页面
+              href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json
+            - name: 键盘快捷方式
+              href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json
+            - name: 更改法人的横幅或徽标图像
+              href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/human-resources/toc.json
+            - name: 导航搜索
+              href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/human-resources/toc.json
+            - name: 打造个性化的用户体验
+              href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/human-resources/toc.json
+            - name: 已保存的视图
+              href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
+            - name: 创建并使用自定义字段
+              href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
+            - name: 嵌入 PowerApps 应用
+              href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
+            - name: 使用查询来查找信息
+              href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
+            - name: 更改会话的日期
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json
+            - name: 设置用户的首选时区
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
+            - name: 了解 Lifecycle Services
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+        - name: 文档资源
+          items:
+            - name: 帮助系统
+              href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
+            - name: 连接帮助系统
+              href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
+            - name: 连接自定义帮助站点
+              href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json
+            - name: 查看和导出字段描述
+              href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
+            - name: 任务录制器
+              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json
+            - name: 通过任务录制器创建文档或培训
+              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json
+        - name: Human Resources 故障排除
+          items:
+            - name: 获取支持
+              href: hr-admin-troubleshooting-support.md
+            - name: 使用自动清理任务优化性能
+              href: hr-admin-troubleshooting-batch-history.md
+            - name: 未更新分析报表
+              href: hr-admin-troubleshooting-analytic-reports.md
+            - name: 无法在 Power Apps 管理中心内创建环境
+              href: hr-admin-troubleshooting-power-apps.md
+            - name: 客户端断开连接
+              href: hr-admin-troubleshooting-disconnect.md
+            - name: 避免在职位层次结构中截断文本
+              href: hr-admin-troubleshooting-truncate.md
+            - name: 执行薪酬流程
+              href: hr-admin-troubleshooting-compensation.md
+            - name: 将任务指南保存到 LCS
+              href: hr-admin-troubleshooting-task-guide.md
+            - name: 通过安全角色访问专用地址
+              href: hr-admin-troubleshooting-private-addresses.md
+            - name: Human Resources 未显示在 Dynamics 365 应用中
+              href: hr-admin-troubleshooting-not-in-apps.md
+            - name: 报告选项
+              href: hr-admin-troubleshooting-reporting.md
+            - name: 集成常见问题
+              href: hr-admin-troubleshooting-integration.md
+    - name: 开发人员指南
+      items:
+        - name: 概览
+          href: hr-developer-overview.md
+        - name: 通过 Power Apps 和 Power Automate 扩展
+          href: hr-developer-power-apps.md
+        - name: Common Data Service 实体
+          href: hr-developer-entities.md
+        - name: 自定义字段
+          href: hr-developer-custom-fields.md
+        - name: 设置数据集成
+          items:
+            - name: 选择数据集成技术
+              href: hr-admin-integration-choose-technology.md
+            - name: 配置 Common Data Service 集成
+              href: hr-admin-integration-common-data-service.md
+            - name: 配置与 Finance 的集成
+              href: hr-admin-integration-finance.md
+            - name: 配置与 Dayforce 的集成
+              href: hr-admin-integration-dayforce.md
+            - name: 创建定期数据导出应用
+              href: hr-admin-integration-recurring-data-export.md
+            - name: 与 Office 集成
+              items:
+                - name: Office 集成教程
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 更新 Excel 中的实体数据
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 创建“在 Excel 中打开”体验
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Office 集成故障排除
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: 实体 API 引用
+          items:
+            - name: 身份验证
+              href: hr-developer-api-authentication.md
+            - name: 实体
+              items:
+                - name: MyLeaveRequests
+                  items:
+                    - name: MyLeaveRequests 概览
+                      href: hr-developer-api-myleaverequests-overview.md
+                    - name: 将请假申请提交至工作流
+                      href: hr-developer-api-myleaverequests-submit.md
+    - name: 用户指南
+      items:
+        - name: 概览
+          href: hr-hrpro-overview.md
+        - name: 设置 Human Resources
+          items:
+            - name: 配置 Human Resources 参数
+              href: hr-setup-parameters.md
+            - name: 配置 Human Resources 共享参数
+              href: hr-setup-shared-parameters.md
+            - name: 设置 Human Resources 工作流
+              href: hr-setup-workflows.md
+            - name: 了解日期和时间字段
+              href: hr-setup-date-time-fields.md
+        - name: 配置组织设置
+          items:
+            - name: 组织管理主页
+              href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json
+            - name: 编号规则
+              items:
+                - name: 编号规则概览
+                  href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: 逐个设置编号规则
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json
+                - name: 使用向导设置编号规则
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
+            - name: 组织和组织层次结构
+              items:
+                - name: 组织和组织层次结构概览
+                  href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json
+                - name: 规划组织层次结构
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                - name: 创建组织层次结构
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                - name: 创建法人
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/human-resources/toc.json
+                - name: 创建运营单位
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/human-resources/toc.json
+            - name: 全球通讯簿
+              items:
+                - name: 全球通讯簿概览
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: 全球通讯簿和其他通讯簿的计划
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: 配置全球通讯簿
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: 通讯簿常见问题
+                  href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: 配置通讯簿
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
+            - name: 工作流系统
+              items:
+                - name: 工作流系统概览
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+                - name: 工作流系统体系结构
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+                - name: 工作流元素
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+                - name: 工作流操作
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+                - name: 创建工作流
+                  items:
+                    - name: 创建工作流概览
+                      href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 配置工作流属性
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 配置手动任务
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 配置自动化任务
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 配置审核流程
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 配置审核步骤
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 配置手动决策
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 配置条件决策
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 配置并行活动
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 配置并行分支
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 配置行项工作流
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: 将工作流消息处理批处理作业配置为关键作业
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+                - name: 在工作流中委托工作项
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: 查看工作流历史记录
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+                - name: 配置系统以向用户发送工作流相关电子邮件
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+                - name: 工作流类型
+                  items:
+                    - name: 创建工作流类型
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 工作流类型清单
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 创建工作流类别
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 创建工作流类型查询
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 创建新的工作流类型
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 创建工作流文档类
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 创建 SubmitToWorkflow 类
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 将工作流文档类与工作流类型关联
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+                - name: 工作流类型报告
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+                - name: 工作流常见问题
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
+            - name: 预警
+              items:
+                - name: 预警概览
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: 创建预警规则
+                  href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/human-resources/toc.json
+                - name: 预警的批处理
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
+                - name: 通过电子邮件发送的客户端预警通知
+                  href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
+            - name: 电子签名
+              items:
+                - name: 电子签名概览
+                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: 设置电子签名
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
+            - name: 案例管理
+              items:
+                - name: 案例管理概览
+                  href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/human-resources/toc.json
+                - name: 计划案例安全、流程和类别
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/human-resources/toc.json
+            - name: 记录模板
+              items:
+                - name: 记录模板概览
+                  href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/human-resources/toc.json
+                - name: 创建记录模板
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/human-resources/toc.json
+                - name: 使用记录模板创建新记录
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/human-resources/toc.json
+            - name: 配置文档管理
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/human-resources/toc.json
+            - name: 配置和发送电子邮件
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/human-resources/toc.json
+            - name: 日期/时间数据和时区
+              href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json
+        - name: 管理人员
+          items:
+            - name: 组织您的劳动力
+              href: hr-personnel-departments-jobs-positions.md
+            - name: 设置工作组件
+              href: hr-personnel-jobs.md
+            - name: 定义部门
+              href: hr-personnel-define-departments.md
+            - name: 将部门添加到层次结构
+              href: hr-personnel-add-department-hierarchy.md
+            - name: 定义工作
+              href: hr-personnel-define-jobs.md
+            - name: 创建工作时间日历
+              href: hr-personnel-create-working-time-calendar.md
+            - name: 人事行动常见问题
+              href: hr-personnel-actions-faq.md
+            - name: 使用工作流管理员工信息
+              href: hr-workflow-manage-employee-information.md
+            - name: 修改职位的报告关系
+              href: hr-personnel-modify-reporting-relationships-position.md
+            - name: 输入工作人员信息
+              href: hr-personnel-enter-worker-information.md
+            - name: 向工作人员借出物品
+              href: hr-personnel-loan-item-worker.md
+            - name: 创建借出物品
+              href: hr-personnel-create-loan-items.md
+            - name: 管理借出物品
+              href: hr-personnel-loan-items.md
+            - name: 制订继任计划
+              href: hr-personnel-develop-succession-plan.md
+            - name: 输入项目工时单
+              href: hr-personnel-enter-project-timesheets.md
+            - name: 大批雇用项目
+              href: hr-personnel-mass-hire-projects.md
+            - name: 创建大批雇用项目
+              href: hr-personnel-create-mass-hire-project.md
+            - name: 设置职位
+              href: hr-personnel-set-up-positions.md
+            - name: 设置伤害和疾病信息
+              href: hr-personnel-set-up-injury-illness-information.md
+            - name: 维护员工伤害和疾病信息
+              href: hr-personnel-maintain-employee-injury-illness-information.md
+        - name: 设置薪酬计划
+          items:
+            - name: 薪酬计划概览
+              href: hr-compensation-overview.md
+            - name: 设置薪酬网格
+              href: hr-compensation-grids.md
+            - name: 制订薪酬结构和计划
+              href: hr-compensation-structure.md
+            - name: 创建固定薪酬计划
+              href: hr-compensation-fixed-plans.md
+            - name: 创建可变薪酬计划
+              href: hr-compensation-variable-plans.md
+            - name: 在固定薪酬计划中登记员工
+              href: hr-compensation-enroll-employees-fixed.md
+            - name: 在可变薪酬计划中登记员工
+              href: hr-compensation-enroll-employees-variable.md
+            - name: 定义薪酬流程并计算结果
+              href: hr-compensation-define-process.md
+            - name: 处理薪酬计划
+              href: hr-compensation-process.md
+        - name: 管理福利
+          items:
+            - name: 预览功能：福利管理
+              items:
+                - name: 福利管理概览
+                  href: hr-benefits-management-overview.md
+                - name: 配置福利管理
+                  items:
+                    - name: 设置福利管理参数
+                      href: hr-benefits-setup-parameters.md
+                    - name: 配置资格规则和选项
+                      href: hr-benefits-setup-eligibility-rules.md
+                    - name: 配置个人联系人资格选项
+                      href: hr-benefits-setup-contact-eligibility-options.md
+                    - name: 创建覆盖范围选项
+                      href: hr-benefits-setup-coverage-options.md
+                    - name: 设置付款频率
+                      href: hr-benefits-setup-payment-frequencies.md
+                    - name: 配置生活事件类型
+                      href: hr-benefits-setup-life-event-types.md
+                    - name: 创建计划类型
+                      href: hr-benefits-setup-plan-types.md
+                    - name: 设置原因代码
+                      href: hr-benefits-setup-reason-codes.md
+                    - name: 设置层代码
+                      href: hr-benefits-setup-tier-codes.md
+                    - name: 配置费率
+                      href: hr-benefits-setup-rates.md
+                    - name: 配置扣缴
+                      href: hr-benefits-setup-deductions.md
+                    - name: 配置等待天数
+                      href: hr-benefits-setup-waiting-days.md
+                    - name: 配置等待时段
+                      href: hr-benefits-setup-waiting-periods.md
+                    - name: 设置舍入规则
+                      href: hr-benefits-setup-rounding-rules.md
+                    - name: 创建雇用类别
+                      href: hr-benefits-setup-employment-categories.md
+                    - name: 设置雇用类型
+                      href: hr-benefits-setup-employment-types.md
+                    - name: 配置员工自助服务
+                      href: hr-benefits-setup-employee-self-service.md
+                - name: 创建福利计划
+                  items:
+                    - name: 设置福利计划
+                      href: hr-benefits-plans-setup.md
+                    - name: 创建工作人员福利计划
+                      href: hr-benefits-plans-worker.md
+                    - name: 设置弹性信贷计划
+                      href: hr-benefits-plans-flex-credit-programs.md
+                    - name: 配置将来生活事件
+                      href: hr-benefits-plans-future-life-events.md
+                - name: 处理福利计划
+                  items:
+                    - name: 处理登记资格
+                      href: hr-benefits-process-enrollment-eligibility.md
+                    - name: 处理生活事件
+                      href: hr-benefits-process-life-events.md
+                    - name: 处理生活事件更改
+                      href: hr-benefits-process-life-event-changes.md
+                    - name: 处理生活事件资格
+                      href: hr-benefits-process-life-event-eligibility.md
+                    - name: 处理费率更改
+                      href: hr-benefits-process-rate-changes.md
+            - name: 定义和管理福利计划
+              href: hr-benefits-manage-program.md
+            - name: 福利资格政策
+              href: hr-benefits-eligibility-policies.md
+            - name: 福利资格处理
+              href: hr-benefits-eligibility-process.md
+            - name: 定义福利资格规则和策略
+              href: hr-benefits-define-eligibility-rules.md
+            - name: 交付员工福利计划
+              href: hr-benefits-deliver-employee-benefits-program.md
+            - name: 创建新福利
+              href: hr-benefits-create.md
+            - name: 在福利中登记工作人员
+              href: hr-benefits-enroll-workers.md
+            - name: 管理福利到期日期
+              href: hr-benefits-expiration-dates.md
+            - name: 生成 ACA 报表
+              href: hr-benefits-aca-reports.md
+        - name: 管理休假和缺勤
+          items:
+            - name: 概览
+              href: hr-leave-and-absence-overview.md
+            - name: 配置休假和缺勤参数
+              href: hr-leave-and-absence-parameters.md
+            - name: 创建工作时间日历
+              href: hr-leave-and-absence-working-time-calendar.md
+            - name: 创建休假申请工作流
+              href: hr-leave-and-absence-workflow.md
+            - name: 配置休假和缺勤类型
+              href: hr-leave-and-absence-types.md
+            - name: 创建休假和缺勤计划
+              href: hr-leave-and-absence-plans.md
+            - name: 将工作人员分配给休假计划
+              href: hr-leave-and-absence-enroll.md
+            - name: 累积休假和缺勤计划
+              href: hr-leave-and-absence-accrue.md
+            - name: 查看休假和缺勤分析
+              href: hr-leave-and-absence-analytics.md
+            - name: 管理休假和缺勤申请
+              href: hr-employee-self-service-manage-requests.md
+            - name: 申请休假
+              href: hr-employee-self-service-request-time-off.md
+            - name: 查看团队和公司日历
+              href: hr-employee-self-service-calendar.md
+        - name: 培养员工
+          items:
+            - name: 绩效管理概览
+              href: hr-develop-performance-management-overview.md
+            - name: 调整劳动力技能
+              href: hr-develop-skills.md
+            - name: 添加到您的绩效日记账
+              href: hr-develop-add-performance-journal.md
+            - name: 创建目标
+              href: hr-develop-create-goal.md
+            - name: 创建绩效审核
+              href: hr-develop-create-performance-review.md
+        - name: 创建课程
+          items:
+            - name: 设置培训课程
+              href: hr-learning-courses.md
+            - name: 调查表概览
+              href: hr-learning-questionnaires.md
+            - name: 设计调查表
+              href: hr-learning-design-questionnaires.md
+            - name: 分发和计划调查表
+              href: hr-learning-distribute-questionnaires.md
+            - name: 使用计划分发调查表
+              href: hr-learning-distribute-questionnaires-scheduling.md
+            - name: 查看调查表结果
+              href: hr-learning-evaluate-questionnaire-results.md
+            - name: 分析调查表结果
+              href: hr-learning-analyze-questionnaire-results.md
+            - name: 创建开放式问题
+              href: hr-learning-create-open-ended-question.md
+            - name: 创建封闭式问题
+              href: hr-learning-create-closed-ended-question.md
+            - name: 创建相关问题
+              href: hr-learning-depending-question.md

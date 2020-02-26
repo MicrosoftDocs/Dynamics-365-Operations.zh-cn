@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934878"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004011"
 ---
 # <a name="product-identifiers"></a>产品标识符 
 
@@ -88,7 +88,7 @@ Supply Chain Management 为产品也为物料（已发布产品）提供辅助�
 | 说明 | 客户与物料关联的名称 | 供应商与物料关联的名称 |
 | 外部物料文本 | 客户的物料描述 | 供应商的物料描述 |
 
-如果有许多客户或供应商使用相同的物料编号（例如，有采购关联或零售组的情况），您可以创建客户或供应商组来简化对外部产品信息的维护。
+如果有许多客户或供应商使用相同的物料编号（例如，有采购关联或商业组的情况），您可以创建客户或供应商组来简化对外部产品信息的维护。
 
 - 对于客户组，请转到**销售** &gt; **设置** &gt; **物料** &gt; **外部物料描述**创建和维护这些组和相关的物料编号。 若要将客户与组关联，请转到**应收帐款** &gt; **客户** &gt; **所有客户**，然后在**销售订单默认值**快速选项卡上，在**物料 - 客户组**字段指定一个值。
 - 对于供应商组，请转到**采购** &gt; **设置** &gt; **外部物料描述组**创建和维护这些组和相关的物料编号。 若要将供应商与组关联，请转到**应付帐款** &gt; **供应商** &gt; **所有供应商**，然后在**采购订单默认值**快速选项卡上，在**物料 - 供应商组**字段指定一个值。

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7506953c797f5a55a93f1169bf48af8b06eb440e
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 68e3f428215bdc4f9a4ce0dd69cfd4482c72fbf3
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896788"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006256"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Dynamics 365 Talent（2019 年 10 月 23 日）中的新增功能或更改
 
@@ -39,9 +39,9 @@ ms.locfileid: "2896788"
 
 本部分中的更改适用于内部版本号 8.1.2569。 某些标题中括号内的数字是 Microsoft Dynamics Lifecycle Services (LCS) 中的支持号码。
 
-### <a name="platform-update-30-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新 30
+### <a name="platform-update-30-for-finance-and-operations-apps"></a>Finance and Operations 应用平台更新 30
 
-有关详细信息，请参阅 [Finance and Operations 应用的平台更新 30（2019 年 11 月）的新增或更改内容](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30)。
+有关详细信息，请参阅 [Finance and Operations 应用的平台更新 30（2019 年 11 月）的新增功能或更改的功能](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30)。
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>删除福利开放登记预览功能
 
@@ -89,4 +89,4 @@ ms.locfileid: "2896788"
 
 每个版本中都会增加和更新功能。 功能管理体验提供一个工作区，可在其中查看各版本已交付的功能的列表。 默认情况下，新功能处于关闭状态。 可使用该工作区开启这些功能并查看其文档。
 
-要了解有关功能管理带来的更改的详细信息，请参阅[功能管理概述](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)。
+要了解有关功能管理带来的更改的详细信息，请参阅[功能管理概述](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)。

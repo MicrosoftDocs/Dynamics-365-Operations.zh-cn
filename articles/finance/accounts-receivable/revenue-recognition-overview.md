@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 8743183c46463395cad3138261860442701e0178
-ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
+ms.openlocfilehash: c5a3a90b0065f8cd076117818df810cf10202d29
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781888"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030960"
 ---
 # <a name="revenue-recognition-overview"></a>收入确认概览
 
@@ -37,9 +37,9 @@ ms.locfileid: "2781888"
 * 分配收入，以确保根据多元素订单上的组件价值来确认合理的收入价格。
 * 基于体现合同时间范围以及该段时间内收入确认百分比的收入计划来延期收入。
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE44iER]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-[如何在 Dynamics 365 Finance 中使用收入确认](https://youtu.be/v3amIsiqvoo)视频（如上所示）包括在 YouTube 上可用的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
+[如何在 Dynamics 365 Finance 中使用收入确认](https://youtu.be/v3amIsiqvoo) 视频（如上所示）包括在 YouTube 上提供的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) 中。
 
 收入确认功能提供了灵活框架，供您定义特定于公司的收入价格和收入计划确认规则。
 

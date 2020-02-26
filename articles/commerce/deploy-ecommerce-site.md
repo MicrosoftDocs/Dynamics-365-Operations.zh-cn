@@ -3,7 +3,7 @@ title: 部署新的电子商务租户
 description: 此主题介绍如何使用 Microsoft Dynamics Lifecycle Services (LCS) 部署新的电子商务租户。
 author: psimolin
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10dab1e62446ff7f60ad48fd0841bde5cfd29e12
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945505"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001775"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>部署新的电子商务租户
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何使用 Microsoft Dynamics Lifecycle Services (LCS) 部署新的电子商务站点。
 
 ## <a name="overview"></a>概览
-    
+
 Microsoft Dynamics Lifecycle Services (LCS) 是基于云的协作工作空间，合作伙伴和客户可将其用于管理自己的项目和环境，查看有关 Microsoft Dynamics 产品和功能的最新信息，以及创建，跟踪和浏览支持事件。 电子商务管理功能集成到 LCS 中。
 
 若要详细了解 LCS，请参阅 [Lifecycle Services 用户指南](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)。
@@ -80,11 +80,16 @@ Microsoft Dynamics Lifecycle Services (LCS) 是基于云的协作工作空间，
 1. 在下一页，填写必需信息，然后提交表单。 将回到**电子商务**选项卡，在这里应该会看到已经开始初始化。
 1. 若要查看初始化状态，请**刷新**或以后回到**电子商务**选项卡。
     
-从 LCS 初始化电子商务之后，系统将预配电子商务所需若干组件，并将其与环境关联。 预配完成后，将更新**零售管理**页中的**电子商务**选项卡以体现预配。 页面将显示最新自定义部署和其他任何进行中部署的状态。 还包含电子商务站点和电子商务站点管理工具（创作工具）的链接。
+从 LCS 初始化电子商务之后，系统将预配电子商务所需若干组件，并将其与环境关联。 预配完成后，将更新**零售管理**页中的**电子商务**选项卡以体现预配。 页面将显示最新自定义部署和其他任何进行中部署的状态。 还包含指向电子商务站点以及在其中创作站点的电子商务站点构建器的链接。
 
-## <a name="access-the-authoring-environment"></a>访问创作环境
+## <a name="access-site-builder"></a>访问站点构建器
 
-若要访问创作环境，请转到**零售管理**页中的**电子商务**选项卡。 可在这里找到电子商务站点和站点管理工具的链接。
+要访问站点构建器，请转到 LCS 中**零售管理**页上的**电子商务**标签，然后选择**电子商务站点管理工具**链接。 站点构建器登录页面显示租户级别的视图。 从此页中，您可以：
+
+- 修改租户级别设置。
+- 导航到您创建并有权查看的任何站点。 
+- 访问审核功能，例如审查和报告。
+- 创建新站点。 有关如何创建新站点的详细信息，请参阅[创建电子商务站点](create-ecommerce-site.md)。 
 
 ## <a name="additional-resources"></a>其他资源
 

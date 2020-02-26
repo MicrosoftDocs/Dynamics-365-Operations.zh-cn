@@ -120,11 +120,11 @@
                   href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: Common Data Service 上的组织层次结构
                   href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/financials/toc.json
-                - name: Common Data Service 中的公司概念
+                - name: Common Data Services 中的公司概念
                   href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: 集成客户主数据
                   href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/financials/toc.json
-                - name: 通用产品体验
+                - name: 统一的产品体验
                   href: ../../dev-itpro/data-entities/dual-write-product.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: 集成供应商主数据
                   href: ../../dev-itpro/data-entities/dual-write-vendor.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -140,27 +140,27 @@
                   items:
                     - name: 现金的目标客户
                       href: ../../supply-chain/sales-marketing/prospect-to-cash.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: 将 Sales 的客户直接同步到 Finance and Operations
+                    - name: 将客户从 Sales 直接同步到 Finance and Operations 的客户
                       href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: 将 Finance and Operations 的产品直接同步到 Sales
+                    - name: 将产品从 Finance and Operations 直接同步到 Sales 的产品
                       href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: 将 Sales 的联系人直接同步到 Finance and Operations 的联系人或客户
+                    - name: 将联系人从 Sales 直接同步到 Finance and Operations 的联系人或客户
                       href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: 将 Sales 的销售报价单标题和行直接同步到 Finance and Operations
+                    - name: 将销售报价单标题和行从 Sales 直接同步到 Finance and Operations
                       href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: 直接在 Sales 和 Finance and Operations 之间同步销售订单
                       href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: 将 Finance and Operations 的销售发票标题和行直接同步到 Sales
+                    - name: 将销售账单标题和行从 Finance and Operations 直接同步到 Sales
                       href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: 配置与 Field Service 的集成
                   items:
                     - name: 配置与 Field Service 的集成概览
                       href: ../../supply-chain/sales-marketing/field-service.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: 将 Finance and Operations 的产品与 Field Service 的产品同步
+                    - name: 将 Finance and Operations 中的产品同步到 Field Service 中的产品
                       href: ../../supply-chain/sales-marketing/field-service-product.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: 将 Field Service 的工作订单同步到 Finance and Operations 的销售订单
+                    - name: 将 Field Service 中的工作订单同步到 Finance and Operations 中的销售订单
                       href: ../../supply-chain/sales-marketing/field-service-work-order.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: 将 Field Service 的协议发票同步到 Finance and Operations 的普通发票
+                    - name: 将 Field Service 中的协议账单同步到 Finance and Operations 中的普通账单
                       href: ../../supply-chain/sales-marketing/field-service-invoice.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: 将库存转移和调整从 Field Service 同步到 Finance and Operations
                       href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -172,7 +172,7 @@
                       href: ../../supply-chain/sales-marketing/synchronize-project-list.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: 将仓库从 Finance and Operations 同步到 Field Service
                       href: ../../supply-chain/sales-marketing/synchronize-warehouse.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: 将项目内的工作订单从 Field Service 同步到 Finance and Operations
+                    - name: 将带项目的工作订单从 Field Service 同步到 Finance and Operations
                       href: ../../supply-chain/sales-marketing/synchronize-work-orders.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: 配置 Project Service Automation 集成
                   items:
@@ -188,7 +188,7 @@
                       href: ../../financials/project-management/project-categories-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: 将项目评估同步到项目预测
                       href: ../../financials/project-management/project-estimates-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: 将项目实际值同步到项目集成日记帐
+                    - name: 将项目实际值同步到项目集成日记账
                       href: ../../financials/project-management/project-actuals-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: 使用外部 Web 服务
       href: ../../dev-itpro/data-entities/consume-external-web-service.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -232,7 +232,7 @@
       items:
         - name: 数据导入和导出作业概览
           href: ../../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: 使用普通日记帐实体导入凭证的最佳实践
+        - name: 使用普通日记账实体导入凭证的最佳实践
           href: ../../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: 数据实体开发
       items:
@@ -474,7 +474,7 @@
           href: ../../dev-itpro/dev-tools/models.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Finance and Operations 项目类型
           href: ../../dev-itpro/dev-tools/projects.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: Visual Studio Tools 加载项
+        - name: Visual Studio 工具加载项
           href: ../../dev-itpro/dev-tools/developer-tools-add-ins.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: 更新 Visual Studio 开发工具
           href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -862,7 +862,7 @@
           href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: 管理对敏感数据的访问权限
           href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: 使用 Talent 响应个人数据请求
+        - name: 使用 Human Resources 响应个人数据请求
           href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: 响应对 AX 2012 中的个人数据的请求
           href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -1210,7 +1210,7 @@
       href: ../../dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Dynamics 365 支持概览
       href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/retail/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
-    - name: 获取由 21Vianet 在中国运营的 Finance and Operations 的支持
+    - name: 获取对由世纪互联在中国运营的 Finance and Operations 的支持
       href: ../../dev-itpro/lifecycle-services/21vianet-support.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: 记录顶级支持票证
       href: ../../dev-itpro/lifecycle-services/premier-support.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -1326,7 +1326,7 @@
           items:
             - name: 使会计科目表分隔符的成为唯一的
               href: ../../dev-itpro/migration-upgrade/chart-accounts-delimiter-unique.md?toc=/dynamics365/unified-operations/financials/toc.json
-            - name: 升级单一凭证日记帐和货币重估
+            - name: 升级单一凭证日记账和货币重估
               href: ../../dev-itpro/migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
             - name: 项目资源计划数据模型
               href: ../../dev-itpro/migration-upgrade/data-model-changes-resource-management.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -1340,7 +1340,7 @@
               href: ../../dev-itpro/migration-upgrade/upgrade-budget-planning.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: 从 AX 2009 迁移数据
       items:
-        - name: 将数据从 AX 2009 迁移至 Finance and Operations
+        - name: 将数据从 AX 2009 迁移到 Finance and Operations
           href: ../../dev-itpro/migration-upgrade/data-migration-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: AX 2009 迁移 - 安装数据迁移工具
           href: ../../dev-itpro/migration-upgrade/install-dmt.md?toc=/dynamics365/unified-operations/financials/toc.json

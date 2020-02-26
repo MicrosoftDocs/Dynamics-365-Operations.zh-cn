@@ -1,9 +1,9 @@
 ---
 title: 通过 Power Apps 和 Power Automate 扩展 Talent
-description: 本主题介绍 Microsoft Dynamics 365 Talent 的一些使用 Microsoft Power Apps 和 Microsoft Power Automate 的可扩展性方案示例。
+description: 本文介绍 Microsoft Dynamics 365 Talent - Attract 的一些使用 Microsoft Power Apps 和 Microsoft Power Automate 的可扩展性方案示例。
 author: negudava
 manager: Annbe
-ms.date: 05/01/2019
+ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -16,21 +16,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: negudava
-ms.search.validFrom: 2019-03-04
+ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6c8a583a93c2ceb70d8c3b0e0047e2bf2047b56d
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 1051fa4db16bb94cc9d60a91fc3637d7e5305cc2
+ms.sourcegitcommit: 13c4a6f98ccce243d6befde90992aefcf562bdab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898309"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "3029903"
 ---
 # <a name="extend-talent-with-power-apps-and-power-automate"></a>通过 Power Apps 和 Power Automate 扩展 Talent
 
-本主题介绍 Microsoft Dynamics 365 Talent 的一些使用 Microsoft Power Apps 和 Microsoft Power Automate 的可扩展性方案示例。 可以将与各示例关联的解决方案包导入到您的 Power Apps 环境中。 然后可以将这些包用作指南或起点来实施适用于贵组织的方案。
+本文介绍 Microsoft Dynamics 365 Talent: Attract 的一些使用 Microsoft Power Apps 和 Microsoft Power Automate 的可扩展性方案示例。 可以将与各示例关联的解决方案包导入到您的 Power Apps 环境中。 然后可以将这些包用作指南或起点来实施适用于贵组织的方案。
 
 > [!IMPORTANT]
-> 如果要“照原样”使用本主题中介绍的模板和应用，请务必测试这些模板和应用，以确保其涵盖特定于您的实施的所有方案。
+> 如果要“照原样”使用本文中介绍的模板和应用，请务必测试这些模板和应用，以确保其涵盖特定于您的实施的所有方案。
 
 
 ## <a name="prerequisites"></a>先决条件
@@ -49,67 +49,31 @@ ms.locfileid: "2898309"
 - 为人力资源 (HR) 管理员编译面试问题库。
 - 捕获应聘者的面试流程评估
 
-在 Microsoft Dynamics 365: Attract 中，可以在应聘者门户中显示窗体，而应聘者可以填写详细信息。 也可以将窗体作为活动嵌入到工作模板中。
+在 Microsoft Dynamics 365: Attract 中，可以使用应聘者门户中的窗体，应聘者将在其中填写详细信息。 也可以将窗体作为活动嵌入到工作模板中。
 
 应聘者提交窗体时，Microsoft Power Automate 捕获窗体提交，读取数据，然后将其存储到 Common Data Service 实体中。
 
 若要下载 **Power Automate – 表连接**模板和自定义实体结构，请转至 Microsoft 下载中心中的 [Power Automate – 表连接](https://go.microsoft.com/fwlink/?linkid=2081988)。
 
-## <a name="initiate-and-extract-parameters-passed-to-power-apps"></a>启动和提取传递到 Power Apps 的参数
-
-**启动和提取传递到 Power Apps 的参数**模板可用作任何特定于 Attract 的 Power Apps 方案的起点。 其中包含 Attract 传递的所有默认参数，如**工作申请**、**应聘者 ID** 和 **工作 ID**。
-
-此模板可用于检索应聘者评估表，这样招聘经理就可以查看应聘者填写的评估。
-
-可在 Attract 中将使用 Power Apps 创建的应用嵌入到工作模板内。
-
-若要下载**启动和提取传递到 Power Apps 的参数**模板和自定义实体结构，请转到 Microsoft 下载中心中的[启动和提取传递到 Power Apps 的参数](https://go.microsoft.com/fwlink/?linkid=2081991)。
-
-## <a name="integration-with-office-365"></a>与 Office 365 的集成
-
-**与 Office 365 的集成**应用可用于从 Microsoft Office 365 为已登录用户提取团队信息。 它在 Talent 中提醒工作人员提取上班打卡和下班打卡详细信息和异常记录。 上班打卡和下班打卡详细信息存储在自定义的 Common Data Service 实体中。 假定这些详细信息是通过集成从第三方系统填写的。
-
-可扩展此应用，以使其可用于其他方案。 例如，可用于显示团队休假信息、日历事件和团队特定的任何事件。
-
-若要下载**与 Office 365 的的集成**应用和自定义实体结构，请转到 Microsoft 下载中心中的[与 Office 365 的集成](https://go.microsoft.com/fwlink/?linkid=2081787)。
-
-## <a name="power-automate--email-notification"></a>Power Automate – 电子邮件通知
-
-**Power Automate – 电子邮件通知**模板可用于电子邮件通知方案。 可用于在招聘流程任何阶段向招聘团队拒绝的应聘者触发通知电子邮件。
-
-可扩展此模板以在整个招聘流程中跟踪对应聘者阶段的更改，以及向招聘团队和应聘者发送通知。
-
-总之，对于 Common Data Service 中存储的实体，可以设置流程以发送有关 Core HR、Attract 或 Onboard 中发生的事件的通知。
-
-若要下载 **Power Automate – 电子邮件通知**模板，请转到 Microsoft 下载中心中的 [Power Automate – 电子邮件通知](https://go.microsoft.com/fwlink/?linkid=2082103)。
-
-## <a name="power-automate--sql-connect-and-execute"></a>Power Automate – SQL 连接和执行
-
-**Power Automate – SQL 连接和执行**模板连接到 Microsoft SQL Server 并让 SQL 查询运行。
-
-尽管此模板设计为读取和更新 SQL 表，但对其进行扩展，以便将其用于其他方案。 例如，可将其用于使用来自 SQL Server 的记录填充 Common Data Service 中的暂存表，以及通过使用来自 SQL Server 的增量推送定期同步暂存表。
-
-若要下载 **Power Automate – SQL 连接和执行**模板和自定义实体结构，请转至 Microsoft 下载中心中的 [Power Automate – SQL 连接和执行](https://go.microsoft.com/fwlink/?linkid=2081789)。
-
 ## <a name="power-automate--sharepoint-integration"></a>Power Automate – SharePoint 集成
 
 **Power Automate – SharePoint 集成**模板可用于从 Microsoft SharePoint 列表读取数据，将该列表与任何 Common Data Service 实体的字段值进行比较，以及将比较结果以通知电子邮件的形式发送。 
 
-组织可能有一组急需的技能。 这些技能可以以 SharePoint 列表的形式存储在 SharePoint 中。 当应聘者申请列出了一组必需技能的任何工作时，如果应聘者的技能与 SharePoint 中存储的技能之间匹配度极高，将发送通知电子邮件。 这样，将更快填充急需职位，因为通知会帮助招聘人员联系应聘者和在整个组织中交叉招聘应聘者。
+组织可能有一组急需的技能。 这些技能可以以 SharePoint 列表的形式存储在 SharePoint 中。 当应聘者申请列出了一组必需技能的任何工作时，如果应聘者的技能与 SharePoint 中存储的技能之间匹配度极高，将发送通知电子邮件。 这有助于更快填充急需职位，因为通知会帮助招聘人员联系应聘者和在整个组织中交叉招聘应聘者。
 
 可扩展此模板，以便其可用于涉及 SharePoint 集成的任何方案。
 
 若要下载 **Power Automate – SharePoint 集成**模板，请转到 Microsoft 下载中心中的 [Power Automate – SharePoint 集成](https://go.microsoft.com/fwlink/?linkid=2082109)。
 
 ## <a name="referral-app"></a>Referral 应用
-您可以使用 Referral 应用将应聘者添加到共享人才池。 引荐人在提交应聘者时可以输入**名字**、**姓氏**、**电子邮件**和 **Linkedln URL**。 应聘者源元数据然后会使用引荐人的信息填充。
 
-您可以将此应用嵌入到员工自助服务 (ESS) 中来提交引荐，或者可以将其用作企业门户中的超链接，也可以作为独立应用运行。
+您可以使用 Referral 应用将应聘者添加到共享人才池。 引荐人在提交应聘者时可以输入**名字**、**姓氏**、**电子邮件**和 **LinkedIn URL**。 应聘者源元数据然后会使用引荐人的信息填充。
 
-要下载 **Referral 应用**，在 Microsoft 下载中心转到 [Dynamics 365 Talent 可扩展性解决方案：Referral 应用](https://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d)。 您可以导入此应用并对其进行自定义来添加其他功能。
+您可以将此应用嵌入到员工自助服务中来提交引荐，或者可以将其用作企业门户中的超链接，也可以作为独立应用运行。
+
+要下载 **Referral 应用**，在 Microsoft 下载中心转到 [Dynamics 365 Talent 可扩展性解决方案：Referral 应用](https://www.microsoft.com/download/details.aspx?id=58497)。 您可以导入此应用并对其进行自定义来添加其他功能。
 
 ## <a name="additional-resources"></a>其他资源
 
-[该 Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
-
+[该 Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
 [在租户与环境之间迁移应用](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

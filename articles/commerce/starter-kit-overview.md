@@ -3,7 +3,7 @@ title: 入门套件概览
 description: 此主题概述 Microsoft Dynamics 365 Commerce 入门套件。
 author: anupamar-ms
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 73af7fc8845fe08bc4aa014abe4d8c6dcf7ccb7d
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 1960e1354744fe1034783177ba331f5877d0bee7
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785252"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025894"
 ---
 # <a name="starter-kit-overview"></a>入门套件概览
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 此主题概述 Microsoft Dynamics 365 Commerce 入门套件。
@@ -43,7 +43,7 @@ Dynamics 365 Commerce 入门套件是可用于生成电子商务网站的模块�
 入门套件中提供以下类型的模块：
 
 - **容器模块** – 容器模块是充当其他模块的主机的简单模块。 用于控制模块在其内的布局。
-- **市场营销模块** – 市场营销模块包括主题、特色、内容放置、内容丰富块、视频播放器和传送模块。 所有这些模块都可用于展示内容。 可以放到任何页面中，并由内容管理系统 (CMS) 的数据驱动。
+- **市场营销模块** – 市场营销模块包括内容块、文本块、视频播放器和传送模块。 所有这些模块都可用于展示内容。 可以放到任何页面中，并由内容管理系统 (CMS) 的数据驱动。
 - **页眉和页脚模块** – 页眉和页脚模块在所有站点页的页眉和页脚中显示。 可以根据需要通过属性配置这些模块。
 - **搜索模块** –可以使用页眉中的搜索模块发现产品。 搜索结果在搜索结果页中显示。 也可以在类别页中发现产品，类别页是渠道导航层次结构中支持的每个类别的专用页。 此外，还可以使用优化器模块进一步筛选搜索结果和类别页中的结果。
 - **产品详细信息页模块** – 产品详细信息页使用多个模块显示产品信息。 客户可使用购买框模块查看产品和将产品添加到购物车。 其他模块（如技术规范模块）显示产品详细信息。 评分和评价模块可用于查看和提供评价。

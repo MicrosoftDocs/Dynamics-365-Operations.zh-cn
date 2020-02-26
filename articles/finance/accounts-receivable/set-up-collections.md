@@ -1,5 +1,5 @@
 ---
-title: 设置信用和收款
+title: 设置收款
 description: 本文介绍如何设置收款功能。
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,18 +18,30 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ed075484f79d7ef7d0d4e6d62d037bb3e9cc96f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 58d3e7f66ab5816849d393098d073ea7629e6b7c
+ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176647"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3013155"
 ---
-# <a name="set-up-credit-and-collections"></a>设置信用和收款
+# <a name="set-up-collections"></a>设置收款
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍如何设置收款功能。
+本文介绍如何设置收款功能。 使用收款功能时，您必须完成一些设置步骤。 还有一些可选功能，包括客户池和收款团队。 
+
+- 帐龄期间定义
+- 帐龄快照
+- 日记帐名称
+- 勾销交易记录的原因代码
+- 收款代理
+- 勾销帐户
+- NSF（资金不足）信息
+- 使用**收款**页的用户的 Outlook 设置
+- 电子邮件地址
+
+在本主题的其余部分中，将对这些要点进行更详细的讨论。 
 
 <a name="set-up-aging-period-definitions"></a>设置帐龄期间定义
 -------------------------------
@@ -46,12 +58,12 @@ ms.locfileid: "2176647"
 如果您的组织的多个人员执行收款工作，您可以设置收款团队。 您可以在**应收账款参数**页上选择团队。 如果没有创建收款团队，则当您在**收款代理**页上设置收款代理时将自动创建一个团队。
 
 ## <a name="set-up-a-collections-case-category"></a>设置集合案例类别
-如果您使用案例组织您的收款工作，请设置具有**收款**类别类型的案例类别。 只有当您要在**收款**页上使用案例功能时，此设置才是必需的。
+要使用案例组织您的收款工作，请设置具有**收款**类别类型的案例类别。 只有当您要在**收款**页上使用案例功能时，这才是必需的。
 
 ## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>设置日志名称（结算、冲销和资金不足）
-设置当您在**收款**页上处理交易记录时使用的日记帐名称。 此处理包括结算交易记录，冲销交易记录和处理资金不足 (NSF) 付款。
+设置当您在**收款**页上处理交易记录时使用的日记帐名称。 此处理包括设置交易记录，冲销交易记录和处理资金不足 (NSF) 付款。
 
-| 描述 | 日记帐类型     |
+| 说明 | 日记帐类型     |
 |-------------|------------------|
 | 结算  | 客户 - 付款 |
 | 销帐   | 日常            |
@@ -78,16 +90,19 @@ ms.locfileid: "2176647"
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>为“收款”页的用户设置 Outlook 设置
 在工作人员可以通过使用**收款**页创建活动或发送电子邮件消息前，您必须验证选择了 **Microsoft Outlook 同步**配置键，并且为这些工作人员设置了 Outlook 同步。
 
-## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>设置收款客户联系人的电子邮件和地址设置
-如果要将电子邮件发送给来自**收款**页的那些联系人，设置客户联系人的电子邮件地址。 收款联系人用作**收款**页上的默认联系人。 如果报表应该使用主要地址以外的地址，您可以设置客户的报表地址。 
+## <a name="set-up-email-and-addresses"></a>设置电子邮件和地址
+您可以使用电子邮件与客户和销售人员就收款问题进行沟通，以从**收款**页发送电子邮件。 
+
+### <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>设置收款客户联系人的电子邮件和地址设置
+设置客户联系人的电子邮件地址，以将电子邮件发送给来自**收款**页的那些联系人。 收款联系人用作**收款**页上的默认联系人。 如果报表应该使用主要地址以外的地址，您可以设置客户的报表地址。 
 
 在客户的**信用和收款**快速选项卡上，在**收款联系人**字段中，选择客户组织中与您的收款代理合作的人员。 此人用作**收款**页上的默认联系人，并且是电子邮件发送到的人员。 
 
 > [!NOTE] 
 > 如果没有为客户指定收款联系人，使用客户的主要联系人。 如果未指定主要联系人，电子邮件将发送到**联系人**页上中列出的第一个地址。
 
-## <a name="set-up-email-settings-for-salespeople"></a>设置销售人员的电子邮件设置
-如果要将电子邮件发送给来自**收款**页的销售人员，为销售人员设置电子邮件地址。 为每个佣金销售组中的每个销售代表设置电子邮件地址。 其**联系人**选项被选中的销售代表是电子邮件发送到的默认销售人员。 
+### <a name="set-up-email-settings-for-salespeople"></a>设置销售人员的电子邮件设置
+为销售人员设置电子邮件地址，以将电子邮件发送给来自**收款**页的销售人员。 为每个佣金销售组中的每个销售代表设置电子邮件地址。 其**联系人**选项被选中的销售代表是电子邮件发送到的默认销售人员。 
 
 如果未指定销售代表，使用客户组织的主要销售人员。 如果未指定主要销售人员，电子邮件将发送到此页上列出的第一个销售人员。
 

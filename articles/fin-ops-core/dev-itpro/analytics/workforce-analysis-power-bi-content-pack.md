@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 264084
 ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 868b0781a84d345297ab40b1a423272e47d50ec5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 263fa2fc97e39b0521407d3fdc5a6d6e3f2ca034
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249150"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005748"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>劳动力指标 Power BI 内容
 
@@ -35,7 +35,7 @@ ms.locfileid: "2249150"
 如果您使用以下其中一种产品，则**劳动力指标** Power BI 内容显示在**人事管理**工作区中：
 
 - Microsoft Dynamics 365 Finance
-- Microsoft Dynamics 365 Talent
+- Microsoft Dynamics 365 Human Resources
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的度量
 下表显示在每个报表上显示的指标。
@@ -75,7 +75,7 @@ ms.locfileid: "2249150"
 | 日期                     | 天数、周数、月数和年数                                                      | 过去的职位分配、职位趋势、已离职的员工、员工趋势 |
 | 人口统计数据             | 生日、性别、种族和婚姻状况                            | 当前员工、已离职的员工、员工趋势 |
 | 雇用               | 开始日期、结束日期和转换日期                                           | 当前员工、已离职的员工、员工趋势 |
-| 地理位置      | 市，县，邮政编码和省/市/自治区                                    | 当前员工、已离职的员工、员工趋势 |
+| 地理位置      | 市、县、邮政编码和省/市/自治区                                    | 当前员工、已离职的员工、员工趋势 |
 | 作业                      | 功能，类型和标题                                                           | 当前职位、当前员工 |
 | 过去的职位分配 | 分配原因，开始日期，结束日期和作业                                    | 日历偏差、日期、作业、职位 |
 | 位置                 | 部门，FTE，职位，职位类型和标题                                 | 当前职位、当前员工 |

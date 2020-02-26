@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 642cb5c145dec68631eb9ab27d926ba8ab75c59b
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914902"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001821"
 ---
 # <a name="customize-site-navigation"></a>自定义站点导航
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何创建自定义的在线导航层次结构，以便组织产品以在 Microsoft Dynamics 365 Commerce 站点中进行浏览。
@@ -35,11 +35,11 @@ ms.locfileid: "2914902"
 
 客户通常可使用在线店面通过浏览产品类别发现和浏览产品。 此功能通常在页面顶部的选项卡或左侧导航栏中提供。 在 Dynamics 365 Commerce 中，可创建和管理类别导航的分层结构和各类别中包含的产品。
 
-## <a name="create-a-retail-channel-navigation-hierarchy"></a>创建零售渠道导航层次结构
+## <a name="create-a-channel-navigation-hierarchy"></a>创建渠道导航层次结构
 
-若要创建零售渠道导航层次结构，请执行以下步骤。
+若要创建渠道导航层次结构，请执行以下步骤。
 
-1. 转到 **Retail \> 产品和类别 \> 类别和产品管理**。
+1. 转至 **Retail 和 Commerce \> 产品和类别 \> 类别和产品管理**。
 1. 选择**类别层次结构**，然后选择**新建**。
 1. 为层次结构命名。
 
@@ -57,28 +57,28 @@ ms.locfileid: "2914902"
 
 ## <a name="assign-a-category-hierarchy-type"></a>分配某个类别层次机构类型
 
-1. 转到 **Retail \> 产品和类别 \> 类别和产品管理**。
+1. 转至 **Retail 和 Commerce \> 产品和类别 \> 类别和产品管理**。
 1. 选择**类别层次结构**。
 1. 在操作窗格中**类别层次结构**选项卡上的**设置**组中，选择**关联层次结构类型**。
 1. 选择**新建**。
-1. 在**类别层次结构类型**字段中，选择**零售渠道导航层次结构**。
+1. 在**类别层次结构类型**字段中，选择**渠道导航层次结构**。
 1. 在**类别层次结构**字段中，选择前面创建的渠道导航层次结构。
 
 ## <a name="publish-new-or-updated-navigation-hierarchies"></a>发布新的或更新后的导航层次结构
 
 若要使导航层次结构可供在线店面使用，请执行以下步骤。
 
-1. 转至**Retail \> 渠道设置 \> 渠道类别和产品属性**。
+1. 转到 **Retail 和 Commerce \> 渠道设置 \> 渠道类别和产品属性**。
 1. 在左侧树中，选择您的在线商店。
 1. 选择**发布渠道更新**。
-1. 转到 **Retail \> Retail IT \> 配送计划**。
+1. 转到 **Retail 和 Commerce \> Retail 和 Commerce IT \> 分配计划**。
 1. 在列表中，找到并选择**作业 1040**。
 1. 选择**立即运行**。
 1. 对作业 1070 和 1150 重复执行步骤 5 和 6。
 
 ## <a name="show-categories-on-your-site"></a>在站点中显示类别
 
-若要在在线店面中显示类别层次结构，必须在模板或片段中的相应位置添加导航菜单模块。 然后，如果已将零售导航层次结构发布到站点绑定到的渠道，导航菜单模块将显示您的导航层次结构。
+若要在在线店面中显示类别层次结构，必须在模板或片段中的相应位置添加导航菜单模块。 然后，如果已将导航层次结构发布到站点绑定到的渠道，导航菜单模块将显示您的导航层次结构。
 
 > [!NOTE]
 > 用户可使用商店入门套件中包含的导航菜单模块仅导航到没有子类别的类别。 如果客户应该可以导航到有子类别的类别，则必须自定义导航菜单模块。

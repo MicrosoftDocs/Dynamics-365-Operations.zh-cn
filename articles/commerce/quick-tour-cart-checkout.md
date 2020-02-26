@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 347db3af36521e11dc70d5188dcc54b07efa1fbe
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697834"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002927"
 ---
 # <a name="overview-of-cart-and-checkout-pages"></a>购物车和结帐页概述
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 此主题概述 Microsoft Dynamics 365 Commerce 中的购物车和结帐页。
@@ -65,11 +65,11 @@ ms.locfileid: "2697834"
 
 ### <a name="shipping-address"></a>装运地址
 
-如果必须装运商品，则需要装运地址。 可以在 Dynamics 365 Retail 中为每个区域设置配置装运地址格式。 例如，如果要将商品运到美国，则装运地址必须包含街道地址、州和邮政编码。 将为装运地址字段执行一些基本输入验证，如验证字母数字字符、最大长度和数字。 虽然不验证地址是否有效，但可以使用自定义的第三方服务进行此项验证。
+如果必须装运商品，则需要装运地址。 可以在 Dynamics 365 Commerce 中为每个区域设置配置装运地址格式。 例如，如果要将商品运到美国，则装运地址必须包含街道地址、州和邮政编码。 将为装运地址字段执行一些基本输入验证，如验证字母数字字符、最大长度和数字。 虽然不验证地址是否有效，但可以使用自定义的第三方服务进行此项验证。
 
 装运地址应用于购物车中所有选择了“装运”选项的商品。 如果使用在线入门套件中提供的结帐流程，则不能将单件购物车商品装运到不同地址。 如果需要此功能，可以通过自定义结帐模块来实施。
 
-提供装运地址之后，将显示 Dynamics 365 Commerce 在线商店中的可用装运方式。 可以在 Retail 中配置装运方式及其支持的地址。
+提供装运地址之后，将显示 Dynamics 365 Commerce 在线商店中的可用装运方式。 可以在 Commerce 中配置装运方式及其支持的地址。
 
 ### <a name="payment"></a>付款
 

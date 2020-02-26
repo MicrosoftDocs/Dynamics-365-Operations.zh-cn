@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3e667f89ffbc5496cc93f83fd3e7b29ba6ffa979
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 3edc6250dd5438be31d80a9d6b0f3b730438ca53
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945975"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001752"
 ---
 # <a name="accessibility-features-and-capabilities"></a>辅助功能和功能
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 本主题提供有关 Microsoft Dynamics 365 Commerce 中的辅助功能和功能的信息。

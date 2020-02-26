@@ -3,7 +3,7 @@ title: 使用片段
 description: 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用片段的原因、条件和方法。
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 32482538b2913e6585257bcf7a1cbe780d3cdd30
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914692"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026032"
 ---
 # <a name="work-with-fragments"></a>使用片段 
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用片段的原因、条件和方法。
@@ -57,25 +57,34 @@ ms.locfileid: "2914692"
 
 可以创建新片段，也可以将现有模块配置另存为片段。
 
+### <a name="save-an-existing-module-configuration-as-a-fragment"></a>将现有模块配置另存为片段
+
+若要将以前配置的模块转换为可重复使用的片段，请执行以下步骤。
+
+1. 打开其中包含要将片段转换为的模块的页面或模板。
+1. 在左侧的大纲窗格中，选择模块名称旁边的省略号按钮 (**...**)。 
+1. 选择**共享为片段**。 
+1. 对话框出现 为片段输入名称和元数据。
+1. 选择**确定**将模块配置保存为可添加到其他页面的片段。
+
+下图显示了如何将模块配置另存为片段。
+
+![有关如何将模块配置另存为片段的屏幕截图](./media/save-as-fragment.png)
+
 ### <a name="create-a-new-fragment"></a>创建新片段
 
 若要创建新片段，请执行以下步骤。
 
 1. 在左侧的导航窗格中，选择**片段**。
 1. 选择**新建页面片段**。 将显示一个对话框，其中显示所有可用模块类型。 前文中介绍过，可以基于任何模块类型创建片段。
-1. 为片段选择模块类型，然后选择**确定**。
+1. 选择片段的模块类型。
 
-    > [!TIP]
-    > 如果必须在以后更新和配置片段，选择通用容器模块类型的灵活性最大。
+下图显示了在哪里创建新片段。
 
-### <a name="save-an-existing-module-configuration-as-a-fragment"></a>将现有模块配置另存为片段
+![关于在哪里创建新片段的屏幕截图](./media/fragment-nav-menu.png)
 
-若要将以前配置的模块转换为可重复使用的片段，请执行以下步骤。
-
-1. 打开其中包含要将片段转换为的模块的页面或模板。
-1. 在左侧大纲窗格中，选择模块名称旁边的省略号按钮 (**...**)，然后选择**另存为片段**。 对话框出现
-1. 为片段输入名称和元数据。
-1. 选择**确定**将模块配置保存为可添加到其他页面的片段。
+> [!TIP]
+> 如果需要在以后更新和配置片段，则选择通用容器模块类型的灵活性最大。
 
 ## <a name="add-remove-or-edit-fragments-on-a-page"></a>在页面中添加，删除或编辑片段
 
@@ -88,11 +97,15 @@ ms.locfileid: "2914692"
 1. 在左侧的大纲窗格中，选择可向其添加子模块的容器或插槽。
 1. 选择容器或插槽名称旁边的省略号按钮，然后选择**添加片段**。 对话框出现
 
+    ![有关如何将现有片段添加到插槽或容器的屏幕截图](./media/add-fragment.png)
+ 
     > [!NOTE]
     > 如果容器或插槽不支持新子模块，则**添加片段**选项不可用。
-
+    
 1. 在对话框中，搜索并选择要添加的片段。 如果未列出可用片段，可能必须先基于所选容器或插槽支持的模块类型创建片段。
-1. 选择**确定**将所选片段添加到页面中的所选容器或插槽。
+1. 选择所需的片段以将其添加到页面上的容器或插槽中。
+
+    ![关于片段选择器模式窗口的屏幕截图](./media/fragment-picker.png)
 
 > [!NOTE]
 > 容器或插槽中允许的模块由页面的模板或模块自己的定义定义。

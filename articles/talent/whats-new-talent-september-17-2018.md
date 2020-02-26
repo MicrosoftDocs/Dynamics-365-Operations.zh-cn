@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 80d71d2390e7b6e39798d0f061b584ad229a2459
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 20d3da65028b455ab1602e3a8b443ea7e585b1f0
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897296"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030888"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-september-17-2018"></a>Dynamics 365 Talent - Core HR（2018 年 9 月 17 日）中的新增功能或更改
 
@@ -35,13 +35,13 @@ ms.locfileid: "2897296"
 
 已向休假计划添加了一种新的累积类型。 累积计划现在可以基于服务月数或工作时数。 有关详细信息，请参阅 [根据工作时数累积休假时间](leave-accrue-hours-worked.md)。
 
-## <a name="platform-update-18-for-finance-and-operations"></a>Finance and Operations 的平台更新 18
+## <a name="platform-update-18-for-finance-and-operations"></a>Finance and Operations 平台更新 18
 
-Finance and Operations 的平台更新 18 现在是 Talent 版本的一部分。 
+Finance and Operations 平台更新 18 现在是 Talent 版本的一部分。 
 
 -   可通过个性化设置隐藏必填字段和其他字段。 这样用户就可以通过不显示缺省采用业务逻辑提供的值的字段来简化体验。 如果保存时隐藏的必填字段为空，也可以暂时将其显示。
 
--   在 Finance and Operations 的平台更新 18 中，Talent Web 客户端的视觉对象现在与 Microsoft Fluent Design 风格统一。
+-   在 Finance and Operations 平台更新 18 中，Talent Web 客户端的视觉对象现在与 Microsoft Fluent Design 风格统一。
 
     -   字段处于“读取模式”时，只需选择字段中的编辑选项即可将窗体切换为编辑。
 
@@ -49,7 +49,7 @@ Finance and Operations 的平台更新 18 现在是 Talent 版本的一部分。
 
     -   工作区和页面中的标题加粗显示。
 
--   已改进了非替换查找的行为。 有关详细信息，请参阅[非替换查找行为的改进](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fbusiness-applications-release-notes%2FOctober18%2Fdynamics365-finance-operations%2Fnon-replacing-lookups&data=02%7C01%7C%7Ce0b3b3bee47b4424aaa208d619ce86f2%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636724772137980342&sdata=RN1qjtZSLtS010zgs0KlcwFrrB8Z7uWWGtFjdxdaamg%3D&reserved=0)。
+-   已改进了非替换查找的行为。 有关详细信息，请参阅[非替换查找行为的改进](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/non-replacing-lookups)。
 
 ## <a name="bug-fixes"></a>缺陷修复
 

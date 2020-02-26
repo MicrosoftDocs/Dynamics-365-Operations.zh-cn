@@ -3,7 +3,7 @@ title: 页面模型词汇表
 description: 此主题介绍 Microsoft Dynamics 365 Commerce 站点页面中使用的各种元素。
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0285af2f73a25db3199b3cb089bc0b253a3b3f00
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: da41440581ad952540c7dcf3caa5e23582198a36
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914856"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025986"
 ---
 # <a name="page-model-glossary"></a>页面模型词汇表
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 此主题介绍 Microsoft Dynamics 365 Commerce 站点页面中使用的各种元素。
@@ -41,10 +41,10 @@ ms.locfileid: "2914856"
 | 模块属性 | <p>**定义：** 模块属性是模块定义的特定设置。 可以在电子商务制作工具中编辑。 例如，模块属性用于设置横幅模块的标题和背景图像。</p><p>**配置位置：** 模块属性在模板、布局、页面、片段和应用设置的创作环境（编辑器）中显示的属性窗格内选择和配置。</p> |
 | [模板](templates-layouts-overview.md) | <p>**定义：** 模板定义应该用于页面类别（如市场营销页、类别页和产品页）的模块组合和选项。</p><p>**选择位置：** 可以在页面或布局创建工作流期间选择模板。</p><p>**编辑位置：** 模板在模板编辑器中制作。 无需代码即可创建或修改模板。</p> |
 | [布局](templates-layouts-overview.md) | <p>**定义：** 布局定义父模板的选项集中的模板的最终选择和安排。 可以为单页配置布局（*自定义布局*），也可以多页共享布局（*预设布局*）。</p><p>**选择位置：** 可以在创建新页期间或现有页需要其他布局时选择布局。</p><p>**编辑位置：** 布局在布局编辑器中制作。 无需代码即可创建或修改模板。</p> |
-| 页面实例 | <p>**定义：** 页面实例定义单页的页面特定的最终已本地化内容。 此内容派生自模块属性的值。</p><p>**选择位置：** 页面是在分配 URL 时选择的。</p><p>**编辑位置：** 页面在页面编辑器中编辑。 无需代码即可创建或修改模板。</p> |
+| [页面实例](modify-existing-page.md) | <p>**定义：** 页面实例定义单页的页面特定的最终已本地化内容。 此内容派生自模块属性的值。</p><p>**选择位置：** 页面是在分配 URL 时选择的。</p><p>**编辑位置：** 页面在页面编辑器中编辑。 无需代码即可创建或修改模板。</p> |
 | [主题](select-site-theme.md) | <p>**定义：** 主题定义级联样式表 (CSS)，并确定模块在页面中显示时的外观。</p><p>**选择位置：** 使用 Microsoft Dynamics Lifecycle Services (LCS) 将主题上传到您的站点后，可作为页面容器模块的属性选择该主题。</p><p>**编辑位置：** 主题现在使用 SDK 创建和编辑。 然后使用 LCS 上传到您的站点。</p> |
 | [片段](work-with-fragments.md) | <p>**定义：** 片段是已本地化了可在多页中重复使用并集中更新的内容的完全配置的模块。 例如，通过页眉模块创建的片段可在您的站点的所有模板中和所有页面中使用，并在一处集中更新。</p><p>**选择位置：** 可在可选择模块的任何位置选择片段。 可用于替代模块来通过可重复使用的集中创作帮助提高效率。</p><p>**编辑位置：** 片段在片段编辑器中编辑。 无需代码即可创建或修改模板。</p> |
-| URL | <p>**定义：** 统一资源定位器 (URL) 是指向网页或其他 URL 的地址。</p><p>**选择位置：** URL 是在页面之间需要链接的位置选择的。</p><p>**编辑位置：** URL 在 URL 编辑器中编辑。 无需代码即可创建或修改模板。</p> |
+| [URL](create-page-URL.md) | <p>**定义：** 统一资源定位器 (URL) 是指向网页或其他 URL 的地址。</p><p>**选择位置：** URL 是在页面之间需要链接的位置选择的。</p><p>**编辑位置：** URL 在 URL 编辑器中编辑。 无需代码即可创建或修改模板。</p> |
 | 资产 | <p>**定义：** 资产是扩展名为 .jpg、.docx、.pdf 或 .mpg 的二进制文件。</p><p>**选择位置：** 资产作为需要资产的模块的模块属性选择。</p><p>**编辑位置：** 在资产管理器中上传资产和编辑关联的元数据。</p> |
 
 ## <a name="additional-resources"></a>其他资源

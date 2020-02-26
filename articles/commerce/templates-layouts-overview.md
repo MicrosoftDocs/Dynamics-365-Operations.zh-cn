@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ddae5b77c36151a279a463033079099722d166e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: d805c39b77d653eaa9935751ae89012c98b930d2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914833"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002674"
 ---
 # <a name="templates-and-layouts-overview"></a>模板和布局概览
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 模板是 Microsoft Dynamics 365 Commerce 页面模型的基础元素。 如果您的目标是最大限度发挥站点创作工作流的效率和一致性，请务必了解如何为网站利用模板。 尽早做出有关模板结构的决策非常重要，可以显著影响每日、季节性和站点范围品牌更新的成本和敏捷性。 精心构造的模板还有别的一些优点。 例如，有助于提高网站范围的搜索引擎优化 (SEO) 分数和最大限度降低缺陷数量。

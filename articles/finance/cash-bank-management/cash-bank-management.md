@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d074b9450a4dfc72f60f97ccaf03610ce54315d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: c27811fc900cb497f62780a5185b20d4efbbbdba
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772574"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026283"
 ---
 # <a name="cash-and-bank-management-home-page"></a>现金和银行管理主页
 
@@ -40,7 +40,7 @@ ms.locfileid: "2772574"
 -   [现金折扣](cash-discounts.md)
 -   [结算概览](settlement-overview.md)
 -   [配置结算](configure-settlement.md)
--   [应付帐款和应收帐款的外币重估](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
+-   [应付帐款和应收账款的外币重估](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
 -   [信用证](letters-of-credit.md)
 -   [信用证和进口托收](letters-of-credit-import-collections.md)
 -   [保函](letters-of-guarantee.md)
@@ -68,8 +68,8 @@ ms.locfileid: "2772574"
 -   [执行高于供应商付款的计算折扣的折扣](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
 -   [在现金折扣期间之外执行现金折扣](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
 
-## <a name="accounts-receivable-payments-and-settlements"></a>应收帐款付款和结算
--   [应收帐款的集中付款](../accounts-receivable/centralized-payments-accounts-receivable.md)
+## <a name="accounts-receivable-payments-and-settlements"></a>应收账款付款和结算
+-   [应收账款的集中付款](../accounts-receivable/centralized-payments-accounts-receivable.md)
 -   [部分金额的客户付款](../accounts-receivable/customer-payments-partial-amount.md)
 -   [补偿客户](../accounts-receivable/reimburse-customers.md)
 -   [自动结算和优先级](../accounts-receivable/automatic-settlement-prioritization.md)
@@ -99,4 +99,4 @@ ms.locfileid: "2772574"
 
 #### <a name="videos"></a>视频
 
-查看当前在 [Microsoft Dynamics 365 YouTube 频道] (https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。
+查看当前在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。

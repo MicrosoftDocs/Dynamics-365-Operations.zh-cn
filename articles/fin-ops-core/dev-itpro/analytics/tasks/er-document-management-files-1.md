@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 29c13e729223a98d7f45244c5a796bca6e3baaf3
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b82b1719990caeb1b383ab806a3e09a4c4a6e41a
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550825"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026126"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER 在格式输出中使用票据管理文件（第 1 部分 - 准备数据模型）
 
@@ -61,7 +61,7 @@ ms.locfileid: "2550825"
 11. 在树中，选择“客户发票模型”。
 
 ## <a name="create-the-derived-model-to-support-access-to-the-document-management-files"></a>创建衍生模型以支持访问票据管理文件。
-    * 您将创建自己的客户发票模型配置，该配置派生自 Microsoft 提供的配置。 您将使用此配置实施对票据管理文件的访问，并将其提供给您将基于此模型创建的电子票据。  
+您将创建自己的客户发票模型配置，该配置派生自 Microsoft 提供的配置。 您将使用此配置实施对票据管理文件的访问，并将其提供给您将基于此模型创建的电子票据。  
 1. 单击“创建配置”，以打开下拉对话框。
 2. 在"新建"字段中，输入“从以下名称派生：客户发票模型，Microsoft”。
 3. 在“名称”字段中，键入“客户发票模型（自定义）”。

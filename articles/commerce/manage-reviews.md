@@ -3,7 +3,7 @@ title: 管理评分和评价
 description: 此主题介绍如何使用 Microsoft Dynamics 365 Commerce 评分和评价审查工具管理评分和评价。
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,15 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9becdce5ae36ac637043b9d0febfbbff2392aa9
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: a7fa2ae3124a0a68b3890987c5dce2730e5c2183
+ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698018"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027234"
 ---
 # <a name="manage-ratings-and-reviews"></a>管理评分和评价
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何使用 Microsoft Dynamics 365 Commerce 评分和评价审查工具管理评分和评价。
@@ -39,6 +38,16 @@ Dynamics 365 Commerce 使用 Microsoft Azure Cognitive Service 通过修正猥�
 - 通过响应或删除评级来审查评级
 - 在客户的请求下删除客户的评价。
 - 将所有产品的评分和评价数据批量导入 Microsoft Power BI 模板中，以便分析评分和评价的趋势。
+
+## <a name="access-ratings-and-reviews-moderation-features"></a>访问评分和评价审查功能
+
+要访问电子商务站点管理工具中的评分和评价审查功能，请按照下列步骤操作。
+
+1. 登录 [Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com)。
+1. 打开包含要在其中初始化电子商务的环境的项目。
+1. 在**环境**部分中，选择环境。
+1. 在**环境功能**下，选择**零售管理**。
+1. 在**电子商务**选项卡上，在**链接**下，选择**电子商务站点管理工具**。
 
 ## <a name="read-a-review"></a>阅读评价 
 

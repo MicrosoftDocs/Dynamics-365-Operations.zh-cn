@@ -3,7 +3,7 @@ title: 业务文档管理概览
 description: 本主题介绍有关如何使用 ER 框架的业务文档管理功能的信息。
 author: NickSelin
 manager: AnnBe
-ms.date: 08/09/2019
+ms.date: 01/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
+ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933900"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "2957359"
 ---
 # <a name="business-document-management-overview"></a>业务文档管理概览
 
@@ -122,7 +122,7 @@ ms.locfileid: "2933900"
 4. 刷新页面以访问新功能。
 
 >[!NOTE]
-> 另外，您需要启用**类似于 Office 的业务文档管理 UI 体验**，以使用新的业务文档管理界面
+> 有关使用业务文档管理中的新文档用户界面的更多信息，请参见[业务文档管理中的新文档用户界面](er-business-document-management-new-template-ui.md)。
 
 ![“功能管理”工作区](./media/BDM-Overview-FMEnabling.png)
 
@@ -147,7 +147,7 @@ ms.locfileid: "2933900"
 
 ![设置文档管理文档类型](./media/BDM-Overview-DMSetting.png)
 
-### <a name="set-up-parameters"></a>设置参数
+### <a name="SetupBdmParameters">设置参数</a>
 
 可在**业务文档参数**页设置基本业务文档管理参数。 只有特定用户才可以访问此页。 这包括：
 
@@ -166,6 +166,9 @@ ms.locfileid: "2933900"
 ![设置业务文档管理参数](./media/BDM-Overview-BDMSetting.png)
 
 所选文档类型特定于公司，将在当用户在为其配置了所选文档类型的公司中使用业务文档管理时使用。 当用户在另一家公司使用业务文档管理时，如果尚未为此公司配置文档类型，将使用选择的同一个文档类型。 如果已配置了文档类型，则使用此文档类型，而不是在 **SharePoint 文档类型**字段中选择的文档类型。
+
+> [!NOTE]
+> **SharePoint 文档类型**参数将 SharePoint 文件夹定义为可使用 Microsoft Excel 或 Word 进行编辑的模板的临时存储。 如果打算使用这些 Office 桌面应用程序来编辑模板，则需要设置此参数。 有关更多信息，请参见[在 Office 桌面应用程序中编辑模板](#EditInOfficeDesktopApp)。 如果您打算仅使用 Office 365 中的功能来修改模板，则可以将此参数保留为空白。 有关详细信息，请参阅[在 Office 365 中编辑模板](#EditInOffice365)。
 
 ## <a name="configure-access-permissions"></a>配置访问权限
 
@@ -258,23 +261,18 @@ ms.locfileid: "2933900"
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>开始编辑其他提供商负责的模板
 
-1. 在业务文档管理工作区中，选择**新建文档**。
+1. 在业务文档管理工作区中，选择要用作模板的文档。
 
-![业务文档管理工作区页](./media/BDM_overview_new_template1.png)
+![业务文档管理工作区页](./media/BDM-Overview-EditingTemplate3.png)
 
-2. 选择您要用作模板的文档。
+3. 选择**新建文档**，并在**标题**字段中，根据需要更改可编辑模板的标题。 将把此文本用于命名自动创建的 ER 格式配置。 请注意，将自动标记此配置 (**Customer FTI report (GER) Copy**) 的草稿版本（其中将包含编辑后的模板），以便为当前用户运行此 ER 格式。 同时，将使用来自基本 ER 格式配置的未经修改原始模板为其他任何用户运行此 ER 格式。
+4. 在**名称**字段中，更改将自动创建的可编辑模板第一个修订的名称。
+5. 在**注释**字段中，更改自动创建的可编辑模板修订的备注。
+6. 选择**确定**以确认开始执行编辑流程
 
-![业务文档管理工作区页](./media/BDM_overview_new_template2.png)
+![业务文档管理工作区页](./media/BDM-Overview-EditingTemplate4.png)
 
-3. 单击**创建文档**
-4. 如果需要，在**标题**字段中更改可编辑模板的标题。 将把此文本用于命名自动创建的 ER 格式配置。 请注意，将自动标记此配置 (**Customer FTI report (GER) Copy**) 的草稿版本（其中将包含编辑后的模板），以便为当前用户运行此 ER 格式。 同时，将使用来自基本 ER 格式配置的未经修改原始模板为其他任何用户运行此 ER 格式。
-5. 在**名称**字段中，更改将自动创建的可编辑模板第一个修订的名称。
-6. 在**注释**字段中，更改自动创建的可编辑模板修订的注解。
-7. 选择**确定**以确认开始执行编辑流程
-
-![业务文档管理工作区页](./media/BDM_overview_new_template3.png)
-
-另一个提供商（此示例中为 Microsoft）提供的 ER 格式配置中的模板始终可使用**新建文档**选项。 当您单击**新建文档**时，您会看到当前提供商和其他提供商拥有的所有模板。 选择模板后，将打开它进行编辑。 然后将把编辑后的模板存储在自动生成的新 ER 格式配置中。
+当前和另一个提供商（此示例中为 Microsoft）提供的 ER 格式配置中的模板（没有任何修订）始终可使用**新建文档**选项。 然后将把编辑后的模板存储在自动生成的新 ER 格式配置中。
 
 ### <a name="start-editing-a-template"></a>开始编辑模板
 
@@ -282,7 +280,7 @@ ms.locfileid: "2933900"
 2. 在**名称**字段中，更改将自动创建的可编辑模板第一个修订的名称。
 3. 在**注释**字段中，更改自动创建的可编辑模板修订的注解。
 
-    ![业务文档管理工作区页](./media/BDM_overview_new_template4.png)
+    ![业务文档管理工作区页](./media/BDM-Overview-EditingTemplate5.png)
 
 5. 选择**确定**以确认开始执行编辑流程。
 
@@ -290,13 +288,16 @@ ms.locfileid: "2933900"
 
 ![业务文档管理工作区页](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="edit-a-template-in-office-365"></a>在 Office 365 中编辑模板
+### <a name="EditInOffice365">在 Office 365 中编辑模板</a>
 
-通过使用 Office 365 的功能修改模板。 例如，在 Office Online 中，将模板标题中的字段提示的字体从**常规**更改为**加粗**。 将自动存储为 ER 框架配置的主模板存储（默认情况下为 Azure blob 存储）中存储的可编辑模板的这些更改。
+无法使用 Office 365 修改模板。 例如，在 Office Online 中，将模板标题中的字段提示的字体从**常规**更改为**加粗**。 这些更改会自动存储在主模板存储（默认情况下为 Azure blob 存储）中存储的可编辑模板中。 已为 ER 框架配置此项。
 
 ![业务文档管理模板编辑器页面](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="edit-a-template-in-the-office-desktop-application"></a>在 Office 桌面应用程序中编辑模板
+### <a name="EditInOfficeDesktopApp">在 Office 桌面应用程序中编辑模板</a>
+
+> [!NOTE]
+> 此功能仅在正确配置 **SharePoint 文件类型**参数后可用。 有关详细信息，请参阅[配置参数](#SetupBdmParameters)。
 
 1. 选择**在桌面应用程序中打开**选项，以便使用 Office 桌面应用程序的功能（此示例中为 Excel）修改模板。 将把可编辑模板从永久存储复制到业务文档管理参数中配置为 SharePoint 文件夹的临时存储。
 2. 确认要在 Office 桌面的 Excel 应用程序中从临时文件存储打开模板。
@@ -411,3 +412,4 @@ ms.locfileid: "2933900"
 [使用 ER 在您生成的文档中嵌入图像和形状](electronic-reporting-embed-images-shapes.md)
 
 [配置电子申报 (ER) 以便将数据导入 Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+

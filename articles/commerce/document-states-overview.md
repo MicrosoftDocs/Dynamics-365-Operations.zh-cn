@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: edb81efc45fc5e7eed32cb7d9b8fda5ade987dd4
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: b4f1c462f734b2d58843308f0f877fe18a4d9af7
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914879"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002973"
 ---
 # <a name="document-states-and-lifecycle"></a>文档状态和生命周期
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 此主题介绍 Microsoft Dynamics 365 Commerce 中的页面元素的各种文档状态。

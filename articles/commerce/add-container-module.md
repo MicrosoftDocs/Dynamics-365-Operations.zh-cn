@@ -3,7 +3,7 @@ title: 容器模块
 description: 此主题介绍容器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,27 +17,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 22a09b61fbe3bd1cca96011d3fb81a12ef1bc844
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697052"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025497"
 ---
 # <a name="container-module"></a>容器模块
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 此主题介绍容器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
 ## <a name="overview"></a>概览
 
-容器是在其内部承载其他模块的模块。 这是 Dynamics 365 Commerce 中最常用的容器。 容器模块的主要用途是通过为其设置的属性定义容器模块内部的模块布局。 例如，这些模块可以按两列、三列、四列或六列布局并排显示。 其还可限制为容器宽度，也可以充满屏幕。 还可以向每个容器模块添加标题。
+容器是在其内部承载其他模块的模块。 容器模块的主要用途是通过为其设置的属性定义它所包含的模块的布局。 例如，这些模块可以按两列、三列、四列或六列布局并排显示。 其还可限制为容器宽度，也可以充满屏幕。 还可以向每个容器模块添加标题。
 
-有三种标准容器模块：容器、2 插槽容器和 3 插槽容器。 任何类型的模块都可以放到这些容器中。 还有特殊类型的容器模块，如传送、内容丰富块、内容放置、购物车、结帐、购买框、页眉和页脚。 这些容器有特定用途，并且只能在其内放置支持的特定类型模块。
+支持以下三个容器模块：容器、2 插槽容器和 3 插槽容器。 任何类型的模块都可以放到这些容器中。 
 
-建议将模块放在容器内，使其可限制为容器宽度。
+> [!NOTE] 
+> 建议始终将模块放在容器模块内，使其可限制为容器宽度。
 
 ## <a name="examples-of-container-modules-in-e-commerce"></a>电子商务中的容器模块示例
 
@@ -98,20 +99,19 @@ ms.locfileid: "2697052"
 
 若要向新页面添加容器播放器模块和设置必需的属性，请执行以下步骤。
 
-1. 创建一个名称为**容器模板**的页面模板。
-1. 在默认页的**主**插槽中，添加一个容器模块。
-1. 在容器模块中添加一个特色模块。
-1. 签入模板，然后发布。
+1. 创建一个名称为**容器模板**的页面模板。 
+1. 在**正文**插槽中，添加一个**默认页面**模块。
+1. 编辑完模板，然后发布。
 1. 使用您刚才创建的容器模板创建一个名称为**容器页**的页面。
 1. 在新页的**主**插槽中，添加一个容器模块。
-1. 在容器模块的属性窗格中，将**列数**属性设置为 **1**，将**宽度**属性设置为**适合容器**。
-1. 在容器模块中添加一个特色模块。
-1. 在特色模块的属性窗格中，配置标题。
+1. 在容器模块的属性窗格中，将**列数**属性设置为 **1**，将**宽度**属性设置为**填充容器**。
+1. 在容器模块中，添加内容块模块。
+1. 在内容块模块的属性窗格中，配置标题、图像和布局。
 1. 保存并预览页面。 应该可以看到在容器模块宽度内填充的一个特色模块。
 1. 在容器模块的属性窗格中，将**列数**属性的值设置为 **3**。
-1. 向容器模块再添加两个特色模块。
-1. 保存并预览页面。 现在可以看到三个并排显示的特色模块。
-1. 获得所需布局之后，签入页面，然后发布。
+1. 向容器模块再添加两个内容块模块。
+1. 保存并预览页面。 现在可以看到三个并排显示的内容块模块。
+1. 获得所需布局之后，编辑完页面，然后发布。
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -119,16 +119,14 @@ ms.locfileid: "2697052"
 
 [传送模块](add-carousel.md)
 
-[内容丰富块模块](add-content-rich-block.md)
-
-[内容放置模块](add-content-placement-modules.md)
+[文本块模块](add-content-rich-block.md)
 
 [购买框模块](add-buy-box.md)
 
 [购物车模块](add-cart-module.md)
 
-[结帐模块](add-checkout-module.md)
+[结账模块](add-checkout-module.md)
 
-[页眉模块](author-header-module.md)
+[标题模块](author-header-module.md)
 
 [页脚模块](author-footer-module.md)

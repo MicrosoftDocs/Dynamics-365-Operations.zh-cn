@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 45a6710a10fe3d33457c1327c8fc339c9ad0082a
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 49587bb497288fc6f3ce77f04a378fc67056ecf2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698180"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002858"
 ---
 # <a name="ratings-and-reviews-overview"></a>评分和评价概览
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 此主题介绍 Microsoft Dynamics 365 Commerce 中的评分和评价。

@@ -17,16 +17,16 @@ ms.search.industry: retail
 ms.author: brishoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e472f3612bd6860e7262bb128035f2aed3b39372
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: d0ce49f2968030ca4656a01c7646819c01635e12
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945974"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003479"
 ---
 # <a name="manage-robotstxt-files"></a>管理 robots.txt 文件
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中管理 robots.txt 文件。

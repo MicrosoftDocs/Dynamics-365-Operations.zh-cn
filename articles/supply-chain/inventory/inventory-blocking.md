@@ -3,7 +3,7 @@ title: 库存锁定
 description: 本主题提供库存锁定的概览，这是 Supply Chain Management 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41fbe6e2034c0e58fc03d1dfbbd87844f3a4466
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: e1a870936619d07db01d5a8fe83b3fab73693187
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814367"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971479"
 ---
 # <a name="inventory-blocking"></a>库存锁定
 
 [!include [banner](../includes/banner.md)]
 
-本文提供库存锁定的概览，这是 Supply Chain Management 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
+本主题提供库存锁定的概览，这是 Supply Chain Management 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
 
 您可以按照以下方法锁定库存物料：
 -   手动
@@ -43,6 +43,9 @@ ms.locfileid: "2814367"
 
 ## <a name="blocking-items-by-creating-a-quality-order"></a>通过创建质检订单锁定物料
 您可以通过在**质检订单**页上创建质检订单来指定必须检查的物料。 当您创建一个质量订单时，将锁定您为物料指定的数量。 与质检订单控制关联的抽样计划只控制必须检查的物料的数量，而不控制被锁定的数量。 在质检订单上输入的数量是已锁定的数量，不管抽样计划指定的数量是否应发送供检查。
+
+> [!NOTE]
+> 主计划不支持同时使用批处理到期日期和锁定库存状态功能。 这可能会导致现有库存量的双重排除，这有可能在主计划期间发生。 我们建议您使用批处置代码（而不是库存状态）来锁定到期的批处理。
 
 ## <a name="blocking-items-by-using-a-process-that-generates-a-quality-order"></a>通过使用生成质检订单流程锁定物料
 如果质量流程指定必须检查物料，则物料数量将被自动锁定。 因此，当自动生成质检订单时，与该质检订单相关联的物料抽样计划同时控制锁定的物料的数量和必须检查的数量。 如果选择了**物料抽样**页中的**完全锁定**选项，则不管物料抽样数量，在检查期间锁定采购订单行等的整个数量。

@@ -1,6 +1,6 @@
 ---
-title: 获取针对 Finance and Operations 应用程序或 Lifecycle Services (LCS) 的支持
-description: 本主题介绍如何获取有关 Finance and Operations 应用程序或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。
+title: 获取对 Finance and Operations 应用或 Lifecycle Services (LCS) 的支持
+description: 本主题介绍如何获取有关 Finance and Operations 应用或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。
 author: kfend
 manager: AnnBe
 ms.date: 10/14/2019
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e62e406de5d972b3e66319cf293d3d420c69d46
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8ac2cf0c2b78dd3456c5c1a69981a4e498b115ae
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812127"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005508"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>获取针对 Finance and Operations 应用程序或 Lifecycle Services (LCS) 的支持
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>获取对 Finance and Operations 应用或 Lifecycle Services (LCS) 的支持
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何获取有关 Finance and Operations 应用程序或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。 
+本主题介绍如何获取有关 Finance and Operations 应用或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。 
 
 ## <a name="contact-support"></a>联系技术支持
 
 如果有技术疑问，或访问 Microsoft Dynamics Lifecycle Services (LCS) 时需要帮助，可使用本文中的信息联系 Microsoft。
 
-### <a name="finance-and-operations-apps-support"></a>Finance and Operations 应用程序支持
+### <a name="finance-and-operations-apps-support"></a>Finance and Operations 应用支持
 
 要获取支持，请使用下表中的资源。 这些资源按照我们建议你在执行故障排除时应遵守的顺序排列。
 
@@ -72,12 +72,12 @@ ms.locfileid: "2812127"
 <td>如果尝试从 LCS 中的<strong>支持</strong>磁贴向 Microsoft 提交票证时遇到问题，请参阅<a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">联系 Microsoft Business Solutions 支持</span></a>以获取有关如何联系 Microsoft Dynamics 区域运营中心的信息。 支持团队可帮助你解决以下类型的技术问题：
 <ul>
 <li>使用 LCS 时出现的问题或尝试访问 LCS 时出现的问题。</li>
-<li>使用 Finance and Operations 应用程序时出现的问题。</li>
+<li>使用 Finance and Operations 应用时出现的错误。</li>
 </ul>
 对于与登录和访问 CustomerSource、远程学习、搜索、知识库、文件下载和页面或系统错误有关的技术问题，请转至<a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">网站支持</span></a>。</td>
 </tr>
 <tr class="odd">
-<td>获取有关 Finance and Operations 应用程序许可问题的帮助。</td>
+<td>获取与 Finance and Operations 应用许可有关的问题的帮助。</td>
 <td>联系合作伙伴、大客户经销商 (LAR) 或 Microsoft 销售代表。</td>
 </tr>
 <tr class="even">
@@ -90,6 +90,6 @@ ms.locfileid: "2812127"
 
 ## <a name="additional-resources"></a>其他资源
 - [获取 Dynamics 365 Retail 支持](../../../retail/retail-support.md)
-- [获取 Microsoft Dynamics 365 Talent 支持](../../../talent/talent-support.md)
+- [获取 Microsoft Dynamics 365 Human Resources 支持](../../../human-resources/hr-admin-troubleshooting-support.md)
 - 有关 Microsoft Dynamics 支持产品的详细信息，请参阅[管理 Finance and Operations 应用的支持体验](cloud-powered-support-lcs.md)。
 
