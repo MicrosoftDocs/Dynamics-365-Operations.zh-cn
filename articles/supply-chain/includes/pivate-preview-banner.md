@@ -1,2 +1,0 @@
-> [!IMPORTANT]
-> <span data-ttu-id="d6192-101">本主题中介绍的功能作为专用预览版的一部分提供给目标用户。</span><span class="sxs-lookup"><span data-stu-id="d6192-101">Functionality noted in this topic is available to targeted users as part of a private preview release.</span></span> <span data-ttu-id="d6192-102">内容和功能可能会发生变化。</span><span class="sxs-lookup"><span data-stu-id="d6192-102">The content and the functionality are subject to change.</span></span> 
