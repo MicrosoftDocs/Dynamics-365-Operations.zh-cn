@@ -1,6 +1,6 @@
 ---
 title: 禁用零售交易记录一致性检查器中的规则
-description: 本主题将介绍在 Microsoft Dynamics 365 Commerce 中禁用零售交易记录一致性检查器规则的功能。
+description: 本主题将介绍在 Microsoft Dynamics 365 Commerce 中禁用交易记录一致性检查器规则的功能。
 author: josaw1
 manager: AnnBe
 ms.date: 10/15/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b11b901fafc3907e9d3cae5cd554cc9a868a414c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 51a02d6f305cbad9784cf1b811188d0e06b6f15b
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004335"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057629"
 ---
 # <a name="disable-rules-in-the-retail-transaction-consistency-checker"></a>禁用零售交易记录一致性检查器中的规则 
 
@@ -37,4 +37,4 @@ ms.locfileid: "3004335"
 
 默认情况下，每个规则的状态设置为**已启用**。 因此，在将交易记录导入商业对账单之前，将使用所有规则验证这些交易记录。 若要禁用某一规则，请将其状态更改为**已禁用**。 当在对账单计算过程中验证交易记录时，将不考虑已禁用的规则。
 
-若要跳过整个验证过程，而不管已启用的规则如何，请转到 **Retail 和 Commerce \> Headquarters 设置 \> 参数 \> Commerce 参数**，然后在**交易记录验证**选项卡中，将**禁用对商业交易记录的一致性检查**选项设置为**是**。 在将此选项设置为**否**后，无法从用户界面 (UI) 重新将其设置为**是**。
+若要跳过整个验证过程，而不管已启用的规则如何，请转到 **Retail 和 Commerce \> Headquarters 设置 \> 参数 \> Commerce 参数**，然后在**交易记录验证**选项卡中，将**禁用对 Commerce 交易记录的一致性检查**选项设置为**是**。 在将此选项设置为**否**后，无法从用户界面 (UI) 重新将其设置为**是**。
