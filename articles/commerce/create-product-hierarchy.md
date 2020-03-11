@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 73cecb0c6aacebf5c6fcf8a0edbc7513b3ce175d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 724ec2e5af7837d574298d662911cd9c6ee9e9f2
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001890"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070413"
 ---
 # <a name="create-a-new-product-hierarchy"></a>创建新产品层次结构
 
@@ -75,7 +75,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 ## <a name="additional-resources"></a>其他资源
 
-[零售层次结构](retail-hierarchies.md)
+[Commerce 层次结构](retail-hierarchies.md)
 
 [管理产品类别和产品](category-management-product-creation.md)
 

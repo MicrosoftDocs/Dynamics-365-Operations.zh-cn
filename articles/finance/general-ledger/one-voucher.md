@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
-ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
+ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "2810691"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3058009"
 ---
 # <a name="one-voucher"></a>一个凭证
 
@@ -156,7 +156,7 @@ ms.locfileid: "2810691"
 
 ### <a name="settle-multiple-unposted-payments-to-the-same-invoice"></a>将多项未过帐付款结算到同一发票
 
-此场景通常在客户可以使用多种付款方式支付采购的零售组织中遇到。 在此场景中，组织必须可以记录多个未过帐付款并对照客户发票进行结算。
+此场景通常在客户可以使用多种付款方式支付采购的组织中遇到。 在此场景中，组织必须可以记录多个未过帐付款并对照客户发票进行结算。
 
 Microsoft Dynamics 365 for Operations 版本 1611（2016 年 11 月）中添加的新功能支持对照单个发票结算多个未过帐的付款。 不必再在单个凭证中输入多个客户付款。
 

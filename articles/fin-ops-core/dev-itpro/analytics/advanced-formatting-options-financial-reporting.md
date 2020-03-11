@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a46ff0a1d6e29cc567a86fae60ff803a102d1a2e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3b04f78f2a8210837e16c8246609ad2fddd804f0
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181212"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071582"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>财务申报中的高级格式设置选项
 
@@ -216,7 +216,7 @@ ms.locfileid: "2181212"
 当行定义中的行的格式代码为 **CAL**，并且您在**相关配方/行/单位**单元格中输入了数学计算时，您还必须输入与报表上的相关列和行的字母。 例如，输入 **A.120** 表示列 A 行 120。 也可以使用与号 (@) 表示所有列。 例如，输入 **@120** 表示行 120 中的所有列。 没有列字母或与号 (@) 的任何数学计算均被视为实数。
 
 > [!NOTE]
-> 如果您使用标签行代码来引用行，则必须使用句点 (.) 作为列字母和标签之间的分隔符（例如，**A.GROSS\_MARGIN/A.SALES**）。 如果您使用与号 (@)，则不需要分隔符（例如，**@GROSS\_MARGIN/@SALES**）。
+> 如果您使用标签行代码来引用行，则必须使用句点 (.) 作为列字母和标签之间的分隔符（例如，**A.GROSS\_MARGIN/A.SALES**）。 如果您使用与号 (@)，则不需要分隔符（例如，**\@GROSS\_MARGIN/@SALES**）。
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>特定列的计算公式的示例
 

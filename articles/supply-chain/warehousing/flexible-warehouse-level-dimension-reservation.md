@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c0baf96315dd9fe6bc1984d337fd1c50ae47016a
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: cd6ec1013de757214db99ada02170bb6e2af96c0
+ms.sourcegitcommit: f52ddcad105aac4ad2caef709751ff80caf363c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031035"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "3036921"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>灵活的仓库级维度预留策略
 
@@ -46,7 +46,7 @@ ms.locfileid: "3031035"
 
 ### <a name="business-scenario"></a>业务方案
 
-在此场景中，公司使用按批号跟踪成品的库存策略。 该公司还使用 WHS 工作负载。 因为此工作负载具有用于计划和运行已启用批次的物料的仓库领料和装运操作的设备完善的逻辑，所以大多数成品物料都与“Batch-below\[location\]”库存预留层次结构相关联。 这种类型的运营设置的优点在于，关于领取哪些批次以及将其放入仓库中哪个位置的决定（即有效的预留决定）被推迟到仓库领料操作开始时。 而不会在客户下订单时作出。
+在此场景中，公司使用按批号跟踪成品的库存策略。 该公司还使用 WMS 工作负载。 因为此工作负载具有用于计划和运行已启用批次的物料的仓库领料和装运操作的设备完善的逻辑，所以大多数成品物料都与“Batch-below\[location\]”库存预留层次结构相关联。 这种类型的运营设置的优点在于，关于领取哪些批次以及将其放入仓库中哪个位置的决定（即有效的预留决定）被推迟到仓库领料操作开始时。 而不会在客户下订单时作出。
 
 虽然“Batch-below\[location\]”预留层次结构很好地满足了公司的业务目标，但公司的许多老客户在重新订购产品时需要的都是以前购买的相同批次。 因此，该公司正在寻求一种灵活的方式来处理批次预留规则，以便能够根据客户对同一物料的需求，执行以下行为：
 

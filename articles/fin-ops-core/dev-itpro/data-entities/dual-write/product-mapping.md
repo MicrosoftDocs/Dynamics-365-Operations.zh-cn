@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a52e8f65e7e2a8d90ddf5efa47c07d6995ef645d
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
+ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019657"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3081143"
 ---
 # <a name="unified-product-experience"></a>统一的产品体验
 
@@ -109,7 +109,7 @@ Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定�
 
 产品维度是标识产品变型的特性。 四个产品维度（颜色、尺寸、样式和配置）也映射到 Common Data Service 以定义产品变型。 下图显示了产品维度“颜色”的数据模型。 相同的模型也应用于“尺寸”、“样式”和“配置”。 
 
-![产品的数据模型](media/dual-write-product-2.PNG)
+![产品的数据模型](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +145,7 @@ Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定�
 
 度量单位及其各自的转换按照图中所示的数据模型在 Common Data Service 中提供。
 
-![产品的数据模型](media/dual-write-product-3.PNG)
+![产品的数据模型](media/dual-write-product-three.png)
 
 度量单位概念在 Finance and Operations 应用与其他 Dynamics 365 应用之间进行了集成。 对于 Finance and Operations 应用中的每个单位类别，将在 Dynamics 365 应用中创建一个单位组，其中包含属于该单位类别的单位。 另外还为每个单位组创建一个默认基础单位。 
 
@@ -205,13 +205,13 @@ Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定�
 
 对于其他 Dynamics 365 应用用户，产品在 UI 中标识为 **msdyn_productnumber**（请注意，字段的标签为**产品编号**）。 在产品表单中，同时显示公司和 msydn_产品编号。 但是，没有显示（产品编号）字段，即产品的唯一密钥。 
 
-请注意，如果应用是基于 Common Data Service 构建的，则应特别注意使用（产品编号）（即唯一的产品 ID）作为集成密钥，而不是 msdyn_产品编号，因为后者不是唯一的。 
+如果基于 Common Data Service 创建应用，则应将 **productnumber**（唯一产品 ID）用作集成密钥。 切勿使用 **msdyn_productnumber**，因为这不是唯一的。 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>产品的初始同步以及数据从 Common Data Service 到 Finance and Operations 的迁移
 
 ### <a name="initial-synchronization-of-products"></a>产品的初始同步 
 
-启用双写入后，Dynamics 365 Finance and Operations 中的产品将同步到 Common Data Service 和其他 Dynamics 365 应用。 请注意，双写入之前在 Common Data Service 和其他 Dynamics 365 应用中创建的产品将不会更新或与 Finance and Operations 中的产品数据匹配。
+启用双写入后，Finance and Operations 应用中的产品将同步到 Common Data Service 和 Dynamics 365 中的其他模型驱动应用。 双写入发布之前在 Common Data Service 和其他 Dynamics 365 应用中创建的产品将不会更新或与 Finance and Operations 中的产品数据匹配。
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>匹配 Finance and Operations 和其他 Dynamics 365 应用中的产品数据
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b324d42a53b35074ba62ccf3df7b77cb4db70450
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 56ef02e3ea0ca2207ccdc79468a9ea4c1fbe8f95
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917204"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041875"
 ---
 # <a name="SPLITLIST">SPLITLIST ER 函数</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2917204"
 
 ## <a name="syntax"></a>语法
 
-```
+```vb
 SPLITLIST (list, number)
 ```
 
@@ -57,11 +57,11 @@ SPLITLIST (list, number)
 
 返回的批次列表包含以下元素：
 
- - **值：***列表*
+ - **值：** *列表*
 
     属于当前批次的记录的列表。
 
-- **BatchNumber：***整数*
+- **BatchNumber：** *整数*
 
     返回列表中当前批次的编号。
 

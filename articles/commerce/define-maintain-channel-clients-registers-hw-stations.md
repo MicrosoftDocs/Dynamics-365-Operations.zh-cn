@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 51d344d7b7a792d0cdf3eeb7f5c6e1a9b2b8bf19
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ec64cb8a7c490c6798a897fd20a56e5af5c8be3a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021697"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057929"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>将外设连接到销售点 (POS)
 
@@ -43,7 +43,7 @@ ms.locfileid: "3021697"
 
 导航：单击 **Retail 和 Commerce** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。
 
-POS 收银机是用来定义特定 POS 实例的特征的实体。 这些特征包括硬件配置文件或设置，它们将被零售外设用于收银机、收银机映射到的商店，以及登录该收银机的用户的视觉体验。
+POS 收银机是用来定义特定 POS 实例的特征的实体。 这些特征包括外设的硬件配置文件或设置，它们将被用于收银机、收银机映射到的商店，以及登录该收银机的用户的视觉体验。
 
 ### <a name="devices"></a>设备
 
@@ -67,7 +67,7 @@ Cloud POS 是基于浏览器的 POS。 因为在浏览器中运行，Cloud POS �
 
 ### <a name="hardware-station"></a>Hardware Station
 
-导航：单击 **Retail 和 Commerce** &gt; **渠道** &gt; **零售商店** &gt; **所有零售商店**。 选择一个商店，然后单击**硬件工作站**快速选项卡。
+导航：单击 **Retail 和 Commerce** &gt; **渠道** &gt; **商店** &gt; **所有商店**。 选择一个商店，然后单击**硬件工作站**快速选项卡。
 
 硬件工作站是驱动 POS 外设的业务逻辑的一个实例。 硬件工作站与 MPOS 一同自动安装。 或者，硬件工作站可以作为独立的组件安装，然后通过 Web 服务由 MPOS 或 Cloud POS 访问。 必须在渠道级别定义硬件工作站。
 
@@ -87,7 +87,7 @@ Cloud POS 是基于浏览器的 POS。 因为在浏览器中运行，Cloud POS �
 
 分配硬件配置文件后，通过使用**收银机**分配计划同步对渠道数据库的更改。 您可以在 **Retail 和 Commerce** &gt; **Retail 和 Commerce IT** &gt; **分配计划**中找到分配计划。 
 
-接下来，设置渠道中的“本地”硬件工作站。 单击 **Retail 和 Commerce** &gt; **渠道** &gt; **零售商店** &gt; **所有零售商店**，然后选择一个商店。 
+接下来，设置渠道中的“本地”硬件工作站。 单击 **Retail 和 Commerce** &gt; **渠道** &gt; **商店** &gt; **所有商店**，然后选择一个商店。 
 
 然后，在**硬件工作站**快速选项卡上，单击**添加**添加硬件工作站。 输入描述，输入 **localhost** 作为主机名，然后通过使用**渠道配置**分配计划同步对渠道的更改。 您可以在 **Retail 和 Commerce** &gt; **Retail 和 Commerce IT** &gt; **分配计划**中找到分配计划。 
 
@@ -104,7 +104,7 @@ Cloud POS 是基于浏览器的 POS。 因为在浏览器中运行，Cloud POS �
 
 在这种情况下，独立硬件工作站在 MPOS 和 Cloud POS 客户端之间共享。 这种情况要求您创建硬件工作站配置文件以指定下载包、端口和硬件工作站使用的硬件配置文件。 您可以在 **Retail 和 Commerce** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **硬件工作站配置文件**中找到硬件工作站配置文件。 
 
-创建了硬件工作站配置文件后，导航到特定零售渠道（**Retail 和 Commerce** &gt; **渠道** &gt; **商店** &gt; **所有商店**），添加新的硬件工作站。 将此新硬件工作站映射到以前创建的硬件工作站配置文件。 
+创建了硬件工作站配置文件后，导航到特定渠道（**Retail 和 Commerce** &gt; **渠道** &gt; **商店** &gt; **所有商店**），添加新的硬件工作站。 将此新硬件工作站映射到以前创建的硬件工作站配置文件。 
 
 接下来，提供有助于出纳识别硬件工作站的描述。 在**主机名**字段中，以下面的格式输入主机计算机 URL：`https://<MachineName:Port>/HardwareStation`。 （将 **&lt;MachineName:Port&gt;** 替换为在硬件工作站配置文件中指定的硬件工作站和端口的实际计算机名称。）对于独立硬件工作站，则还应指定电子资金转帐 (EFT) 终端 ID。 此值标识当付款连接器与付款提供商通信时，连接到硬件工作站的 EFT 终端。 
 

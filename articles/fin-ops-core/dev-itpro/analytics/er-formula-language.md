@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b1c6a3f3fd5b55012d89a6c9f0bf2ed5dddd13c
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916652"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042703"
 ---
 # <a name="electronic-reporting-formula-language"></a>电子申报公式语言
 
@@ -154,7 +154,7 @@ ER 允许您扩展 ER 表达式中使用的函数列表的功能。 需要执行
 
 如果数据类型匹配，您可以创建使用不同类别函数的复合表达式。 将函数一起使用时，将一个函数的输出数据类型与另一函数所需的输入数据类型匹配。 例如，为避免在将字段绑定到 ER 格式元素时可能出现的“列表为空”错误，请将[列表](er-functions-category-list.md)类别的函数与[逻辑](er-functions-category-logical.md)类别的函数组合，如下例所示。 在这里，公式使用 [IF](er-functions-logical-if.md) 函数测试 **IntrastatTotals** 列表在从该列表返回所需聚合的值之前是否为空。 如果 **IntrastatTotals** 列表为空，公式将返回 **0**（零）。
 
-```
+```vb
 IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 
@@ -162,7 +162,7 @@ IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded'
 
 通常，通过使用不同类别的函数或相同类别的不同函数，您可以通过多种方式获得相同的数据换算结果。 例如，也可以使用[列表](er-functions-category-list.md)类别的 [COUNT](er-functions-list-count.md) 函数来配置前一个表达式。
 
-```
+```vb
 IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 

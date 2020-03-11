@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: feb28b9c801786f63282c4189d3eeb6d53ed07e1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 320f21916a5f451ebf4f21e0075017a121ba6d6a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003134"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057606"
 ---
 # <a name="set-up-an-email-notification-profile"></a>设置电子邮件通知配置文件
 
@@ -41,7 +41,7 @@ ms.locfileid: "3003134"
 
 要创建电子邮件通知配置文件，请按照下列步骤操作。
 
-1. 在导航窗格中，转到**模块 \> Retail and Commerce \> 总部设置 \> Retail 电子邮件通知配置文件**。
+1. 在导航窗格中，转到**模块 \> Retail and Commerce \> 总部设置 \> Commerce 电子邮件通知配置文件**。
 1. 在操作窗格中，单击**新建**。
 1. 在**电子邮件通知配置文件**字段中，输入名称以标识配置文件。
 1. 在**描述**字段中，输入相关描述。
@@ -71,16 +71,16 @@ ms.locfileid: "3003134"
 
 若要创建电子邮件事件，请执行以下步骤。
 
-1. 在导航窗格中，转到**模块 \> Retail and Commerce \> 总部设置 \> Retail 电子邮件通知配置文件**。
+1. 在导航窗格中，转到**模块 \> Retail and Commerce \> 总部设置 \> Commerce 电子邮件通知配置文件**。
 1. 在列表中，找到并选择所需记录。 
 1. 从**电子邮件 ID** 下拉列表中选择电子邮件模板。
 1. 从下拉列表中选择合适的**电子邮件通知类型**。
 1. 选中**有效**复选框。
 1. 在操作窗格上，选择**保存**。
 
-下图显示了一些示例零售事件通知设置。
+下图显示了一些示例事件通知设置。
 
-![零售事件通知设置](media/email-notification-profile.png)
+![事件通知设置](media/email-notification-profile.png)
 
 ## <a name="additional-resources"></a>其他资源
 

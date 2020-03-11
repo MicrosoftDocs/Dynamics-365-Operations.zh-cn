@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4650cfce76b1c2a66df820fa7660c9c421411343
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 8a66ba364a7d06cd5ac03b57f07e2c5d4eb7a46d
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916491"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042588"
 ---
 # <a name="COLLECTEDLIST">COLLECTEDLIST ER 函数</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2916491"
 
 ## <a name="syntax"></a>语法
 
-```
+```vb
 COLLECTEDLIST (condition 1 range, condition 1 value[, condition 2 range, condition 2 value, …, condition N range, condition N value])
 ```
 

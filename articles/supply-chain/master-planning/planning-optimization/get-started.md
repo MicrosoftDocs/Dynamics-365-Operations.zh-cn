@@ -3,7 +3,7 @@ title: 开始使用计划优化
 description: 本主题说明如何开始使用计划优化功能。
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/17/2020
+ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
-ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
+ms.openlocfilehash: 3e64699005387adcc92e2e7c9fefad68a9de85c0
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "2971456"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076124"
 ---
+# <a name="get-started-with-planning-optimization"></a>开始使用计划优化
+
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
-
-# <a name="get-started-with-planning-optimization"></a>开始使用计划优化
 
 计划优化功能当前不支持 Microsoft Dynamics 365 Supply Chain Management 内置的计划引擎中提供的所有功能。 因此，重要的是要评估计划优化中当前可用的功能集是否满足您的要求。 默认情况下，Dynamics Lifecycle Services (LCS) 中默认不启用计划优化功能。 因此，您有机会在启用之前进行评估。
 
@@ -44,6 +44,9 @@ ms.locfileid: "2971456"
 ### <a name="install-the-add-in"></a>安装加载项
 
 若要使用计划优化，请安装 Dynamics 365 Supply Chain Management 的计划优化加载项。 您可以从 LCS 项目访问加载项，然后从 Supply Chain Management 用户界面 (UI) 启用计划优化功能。
+
+> [!NOTE]
+> 计划优化的要求是 LCS 通过 Dynamics 365 Supply Chain Management 版本 10.0.7 或更高版本实现了高可用性环境（而不是 OneBox 环境）。
 
 1. 登录到 LCS，然后打开所需的环境。
 1. 转到**完整详细信息**。

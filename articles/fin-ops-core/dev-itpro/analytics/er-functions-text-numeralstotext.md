@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 459123a66dae7a3d87a22b042e1be6585959ac15
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 31fd4076d04ce7d849555bc8301c4d23ad8e1a7e
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915617"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041001"
 ---
 # <a name="NUMERALSTOTEXT">NUMERALSTOTEXT ER 函数</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2915617"
 
 ## <a name="syntax"></a>语法
 
-```
+```vb
 NUMERALSTOTEXT (number, language, currency, print currency name flag, decimal points)
 ```
 

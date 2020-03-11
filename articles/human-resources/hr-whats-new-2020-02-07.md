@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78043273fb98a12a8d33f7bb94ba8ad2e9fb49fb
-ms.sourcegitcommit: 13c4a6f98ccce243d6befde90992aefcf562bdab
+ms.openlocfilehash: c6ca9877eb172794c67ac55b8dc54ed28af9576d
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029949"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076262"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>Dynamics 365 Human Resources 中的新增功能或更改（2020 年 2 月 7 日）
 
@@ -49,7 +49,7 @@ ms.locfileid: "3029949"
 
 - **福利管理预览功能** - 有关详细信息（包括已知问题），请参阅[福利管理概述](hr-benefits-management-overview.md)。
 
-## <a name="coming-soon"></a>即将到期
+## <a name="coming-soon"></a>即将推出
 
 ### <a name="platform-update-32"></a>平台 update 32 
 
@@ -68,5 +68,11 @@ ms.locfileid: "3029949"
 | 新的可变薪酬设置实体 | **可变薪酬计划类型**</br>**薪酬可变计划**</br>**股份行权规则**</br>**可变薪酬计划级别** |
 | 新**工作人员日历雇用**实体 | 添加了**工作日历实体** |
 | 新**工资单职位详细信息**实体 | 添加了**工资单职位详细信息** |
-| 新**职务**实体 | 添加了**职务**。 新**职务**实体将包括在 Human Resources 与 Common Data Service 之间的同步流程中，但最开始不会从**工作职位**或**工作**实体引用。 |
+| 新**职务**实体 | 添加了**职务**。 Human Resources 与 Common Data Service 之间的同步流程中将包含新的**职务**实体。 其最初不是从**工作职位**或**工作**实体引用的。 |
 
+## <a name="see-also"></a>请参阅
+
+[Human Resources 新增功能或更改](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[更新流程](hr-admin-setup-update-process.md)</br>
+[管理功能](hr-admin-manage-features.md)

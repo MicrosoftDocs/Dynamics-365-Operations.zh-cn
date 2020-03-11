@@ -3,7 +3,7 @@ title: 取消计划作业
 description: 本主题说明如何取消使用“计划优化”功能的活动计划作业。
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/26/2019
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,21 +19,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a2d90f04985fdd66ca83582ee676100fffb26981
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 18c5c7b8030fc6adbc548dab750e4f454aebc867
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773912"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076334"
 ---
+# <a name="cancel-a-planning-job"></a>取消计划作业
+
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
 
-# <a name="cancel-a-planning-job"></a>取消计划作业
+在 Microsoft Dynamics 365 Supply Chain Management 中，您可以取消使用“计划优化”功能的活动计划作业。 如果在直接从用户界面（而不是后台）触发了计划优化作业后在对话框中选择**取消**，不会取消该计划优化作业。 即使收到“已取消操作”之类警告，您仍然需要通过以下步骤通过计划优化取消计划作业。
 
-在 Microsoft Dynamics 365 Supply Chain Management 中，您可以取消使用“计划优化”功能的活动计划作业。
 
-要取消活动的计划作业，请按照下列步骤操作。
+要取消活动的计划作业，请按照下列步骤操作。 
 
 > [!NOTE]
 > 仅活动作业可以取消。
@@ -49,9 +50,9 @@ ms.locfileid: "2773912"
 > [!NOTE]
 > 要查看状态更改，您必须通过选择**刷新**按钮刷新页面。
 
-## <a name="related-resources"></a>相关资源
+## <a name="additional-resources"></a>其他资源
 
-[计划优化概述](planning-optimization-overview.md)
+[计划优化概览](planning-optimization-overview.md)
 
 [开始使用计划优化](get-started.md)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ded0c62b4556b21e731cd9b98db2863ec6ec442
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 87613978c149b5d41aefc58f9896424229819626
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916836"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041152"
 ---
 # <a name="GETENUMVALUEBYNAME">GETENUMVALUEBYNAME ER 函数</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2916836"
 
 ## <a name="syntax"></a>语法
 
-```
+```vb
 GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 ```
 

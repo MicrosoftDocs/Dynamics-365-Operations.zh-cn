@@ -3,7 +3,7 @@ title: 预配 Human Resources
 description: ''
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f3a7987a9b385fb6ba0294dc46b0d66be8228f06
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: f105144047c64fc8e9d42da8d7525a8cc3912c33
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026259"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071606"
 ---
 # <a name="provision-human-resources"></a>预配 Human Resources
 
@@ -62,9 +62,6 @@ ms.locfileid: "3026259"
 3. 如果希望环境中包含 Human Resources 测试驱动器体验中使用的相同演示数据集，请选择**包括演示数据**选项。 这对长期演示或培训环境有益，但切勿用于生产环境。  请注意，必须在初始部署之后立即选择此选项。 不能在以后更新现有部署。
 
 4. Human Resources 始终预配到 Microsoft Power Apps 环境，以支持 Power Apps 集成和可扩展性。 在继续之前，请阅读本文的“选择 Power Apps 环境”部分。 如果您没有 Power Apps 环境，在 LCS 中选择“管理环境”或导航到 Power Apps 管理员中心。 然后按照步骤[创建 Power Apps 环境](https://docs.microsoft.com/powerapps/administrator/create-environment)。
-
-    > [!NOTE]
-    > 若要查看现有的环境或创建新环境，必须为预配 Human Resources 的租户管理员分配 Power Apps P2 许可证。 如果您的组织没有 Power Apps P2 许可证，则可以从 CSP 或从 [Power Apps 定价](https://powerapps.microsoft.com/pricing/)页面获取一个。
 
 5. 选择要预配 Human Resources 的环境。
 

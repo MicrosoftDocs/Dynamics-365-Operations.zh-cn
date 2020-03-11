@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f6f3326c9ca5cdcb3cef52f243d6d3da34251ce
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c858ad72db7afe63baca8288f312548c4fc37d5c
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915916"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041392"
 ---
 # <a name="ISVALIDCHARACTERISO7064">ISVALIDCHARACTERISO7064 ER 函数</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2915916"
 
 ## <a name="syntax"></a>语法
 
-```
+```vb
 ISVALIDCHARACTERISO7064 (text)
 ```
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 026d1d743b5150f152ef70aa642dcf6841a4e398
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025796"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070812"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool 使用教程
 
@@ -217,15 +217,15 @@ ms.locfileid: "3025796"
 
 ## <a name="advanced-scripting"></a>高级脚本
 
-### <a name="command-line"></a>命令行
+### <a name="cli"></a>CLI
 
-可以从**命令提示符**窗口调用 RSAT。
+可以从**命令提示符** 或 **PowerShell** 窗口调用 RSAT。
 
 > [!NOTE]
 > 请验证环境变量 **TestRoot** 是否设置为 RSAT 安装路径。 （在 Microsoft Windows 中，打开**控制面板**，选择**系统和安全 \> 系统 \> 高级安全设置**，然后选择**环境变量**。）
 
-1. 以管理员身份打开**命令提示符**窗口。
-2. 从安装目录运行工具。
+1. 以管理员身份打开**命令提示符**或 **PowerShell** 窗口。
+2. 浏览至 RSAT 安装目录。
 
     ```Console
     cd "c:\Program Files (x86)\Regression Suite Automation Tool\"
@@ -242,22 +242,273 @@ ms.locfileid: "3025796"
         Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe /settings "C:\Path to\file.settings" command
 
     Available commands:
-        list
-        listtestsuite suite_name
-        download test_case_id output_dir
-        generate test_case_id output_dir
-        generatederived parent_test_case_id test_plan_id test_suite_id
-        generatetestonly test_case_id output_dir
-        edit excel_file
-        playback excel_file
-        playbackmany excel_file1 [excel_file2 [.. excel_fileN]]
-        playbackbyid test_case_id1 [test_case_id2 [.. test_case_idN]]
-        playbacksuite suite_name
-        clear
-        help
+        ?
         about
+        cls
+        download
+        edit
+        generate
+        generatederived
+        generatetestonly
+        generatetestsuite
+        help
+        list
+        listtestplans
+        listtestsuite
+        listtestsuitenames
+        playback
+        playbackbyid
+        playbackmany
+        playbacksuite
         quit
+        upload
+        uploadrecording
+        usage
     ```
+
+#### <a name=""></a>? 
+显示有关所有可用命令及其参数的帮助。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
+
+##### <a name="optional-parameters"></a>可选参数
+
+**``command``**
+
+
+其中，``[command]`` 是下面指定的命令之一。
+
+
+#### <a name="about"></a>about
+显示当前版本。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
+
+#### <a name="cls"></a>cls
+清除屏幕内容。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``cls``**
+
+
+#### <a name="download"></a>download
+将指定测试用例的附件下载到输出目录中。 可使用 ``list`` 命令获取所有可用的测试用例。 将第一列的任何值用作 **test_case_id** 参数。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>必要参数
+**``test_case_id``** 表示测试用例 ID。  
+**``output_dir``** 表示输出目录。 该目录必须存在。
+
+##### <a name="examples"></a>示例
+
+``download 123 c:\temp\rsat``   
+``download 765 c:\rsat\last``
+
+
+#### <a name="edit"></a>编辑
+允许您在 Excel 程序中打开和编辑参数文件。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``edit``**``[excel_file]``
+
+##### <a name="required-parameters"></a>必要参数
+**``excel_file``** 必须包含现有 Excel 文件的完整路径。
+
+##### <a name="examples"></a>示例
+``edit c:\RSAT\TestCase_123_Base.xlsx``  
+``edit e:\temp\TestCase_456_Base.xlsx``
+
+
+#### <a name="generate"></a>generate
+在输出目录中为指定的测试用例生成测试执行和参数文件。
+可使用 ``list`` 命令获取所有可用的测试用例。 将第一列的任何值用作 **test_case_id** 参数。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>必要参数
+**``test_case_id``** 表示测试用例 ID。  
+**``output_dir``** 表示输出目录。 该目录必须存在。
+
+##### <a name="examples"></a>示例
+``generate 123 c:\temp\rsat``  
+``generate 765 c:\rsat\last``
+
+
+#### <a name="generatederived"></a>generatederived
+生成派生自所提供测试用例的新测试用例。 可使用 ``list`` 命令获取所有可用的测试用例。 将第一列的任何值用作 **test_case_id** 参数。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="required-parameters"></a>必要参数
+**``parent_test_case_id``** 表示父测试用例 ID。  
+**``test_plan_id``** 表示测试计划 ID。  
+**``test_suite_id``** 表示测试套件 ID。
+
+##### <a name="examples"></a>示例
+``generatederived 123 8901 678``
+
+
+#### <a name="generatetestonly"></a>generatetestonly
+在输出目录中为指定的测试用例仅生成测试执行文件。 可使用 ``list`` 命令获取所有可用的测试用例。 将第一列的任何值用作 **test_case_id** 参数。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>必要参数
+**``test_case_id``** 表示测试用例 ID。  
+**``output_dir``** 表示输出目录。 该目录必须存在。
+
+##### <a name="examples"></a>示例
+``generatetestonly 123 c:\temp\rsat``  
+``generatetestonly 765 c:\rsat\last``
+
+
+#### <a name="generatetestsuite"></a>generatetestsuite
+在输出目录中为指定的套件生成所有测试用例。
+可使用 ``listtestsuitenames`` 命令获取所有可用的测试套件。 将列中的任何值用作 **test_suite_name** 参数。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+
+##### <a name="required-parameters"></a>必要参数
+**``test_suite_name``** 表示测试套件名称。  
+**``output_dir``** 表示输出目录。 该目录必须存在。
+
+##### <a name="examples"></a>示例
+``generatetestsuite Tests c:\temp\rsat``   
+``generatetestsuite Purchase c:\rsat\last``
+
+
+#### <a name="help"></a>help
+与 [?](####?) 相同 命令
+
+
+#### <a name="list"></a>列表
+列出所有可用的测试用例。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
+
+
+#### <a name="listtestplans"></a>listtestplans
+列出所有可用的测试计划。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestplans``**
+
+
+#### <a name="listtestsuite"></a>listtestsuite
+列出指定测试套件的测试用例。 可使用 ``listtestsuitenames`` 命令获取所有可用的测试套件。 将第一列中的任何值用作 **suite_name** 参数。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>必要参数
+**``suite_name``** 所需套件的名称。
+
+##### <a name="examples"></a>示例
+``listtestsuite "sample suite name"``  
+``listtestsuite NameOfTheSuite``
+
+
+#### <a name="listtestsuitenames"></a>listtestsuitenames
+列出所有可用的测试套件。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
+
+
+#### <a name="playback"></a>playback
+使用 Excel 文件播放测试用例。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+
+##### <a name="required-parameters"></a>必要参数
+**``excel_file``** Excel 文件的完整路径。 文件必须存在。 
+
+##### <a name="examples"></a>示例
+``
+playback c:\RSAT\TestCaseParameters\sample1.xlsx
+playback e:\temp\test.xlsx
+``
+
+
+#### <a name="playbackbyid"></a>playbackbyid
+一次播放多个测试用例。
+可使用 ``list`` 命令获取所有可用的测试用例。 将第一列的任何值用作 **test_case_id** 参数。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="required-parameters"></a>必要参数
+**``test_case_id1``** 现有测试用例的 ID。  
+**``test_case_id2``** 现有测试用例的 ID。  
+**``test_case_idN``** 现有测试用例的 ID。  
+
+##### <a name="examples"></a>示例
+``playbackbyid 878``  
+``playbackbyid 2345 667 135``
+
+
+#### <a name="playbackmany"></a>playbackmany
+使用 Excel 文件一次播放大量测试用例。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+
+##### <a name="required-parameters"></a>必要参数
+**``excel_file1``** Excel 文件的完整路径。 文件必须存在。  
+**``excel_file2``** Excel 文件的完整路径。 文件必须存在。  
+**``excel_fileN``** Excel 文件的完整路径。 文件必须存在。  
+
+##### <a name="examples"></a>示例
+``playbackmany c:\RSAT\TestCaseParameters\param1.xlsx``  
+``playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx``
+
+
+#### <a name="playbacksuite"></a>playbacksuite
+播放指定测试套件中的所有测试用例。 可使用 ``listtestsuitenames`` 命令获取所有可用的测试套件。 将第一列中的任何值用作 **suite_name** 参数。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>必要参数
+**``suite_name``** 所需套件的名称。
+
+##### <a name="examples"></a>示例
+``playbacksuite suiteName``  
+``playbacksuite sample_suite``
+
+
+#### <a name="quit"></a>quit
+关闭应用程序。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
+
+
+#### <a name="upload"></a>upload
+上载属于指定测试套件或测试用例的所有文件。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+
+#### <a name="required-parameters"></a>必要参数
+**``suite_name``** 将上载属于指定测试套件的所有文件。
+**``testcase_id``** 将上载属于指定测试用例的所有文件。
+
+##### <a name="examples"></a>示例
+``upload sample_suite``  
+``upload 123``  
+``upload 123 456``
+
+
+#### <a name="uploadrecording"></a>uploadrecording
+仅上载属于指定测试用例的录制文件。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+
+##### <a name="required-parameters"></a>必要参数
+**``testcase_id``** 将仅上载属于指定测试用例的录制文件。
+
+##### <a name="examples"></a>示例
+``uploadrecording 123``  
+``uploadrecording 123 456``
+
+
+#### <a name="usage"></a>usage
+显示两种调用此应用程序的方法：一种使用默认设置文件，另一种提供设置文件。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
 
 ### <a name="windows-powershell-examples"></a>Windows PowerShell 示例
 

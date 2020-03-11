@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f819139e74d81d24810c63bae1de19358983b9
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015135"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057662"
 ---
 # <a name="credit-holds-for-sales-orders"></a>销售订单的信用保留
 [!include [banner](../includes/banner.md)]
@@ -264,7 +264,7 @@ ms.locfileid: "3015135"
 #### <a name="releasing-orders-that-were-added-to-the-credit-management-hold-list-with-a-forced-credit-hold"></a>下达已添加到信用管理暂停列表中并且已强制信用暂停的订单
 具有强制暂停原因的销售订单无法自动下达。 如果销售订单被强制暂停，并且您使用了自动下达销售订单的流程，则该销售订单将显示为**准备下达**并保留在暂停列表中。 您必须使用**下达**菜单下达订单。
  
-## <a name="free-text-invoices-retail-orders-and-project-invoice-support-in-credit-management"></a>信用管理中的自由文本发票、零售订单和项目发票支持 
-信用管理目前只能用于销售订单。 自由文本发票、零售销售点订单和呼叫中心订单将使用您添加的临时信用额度和保险/担保来调整信用额度。 如果信用额度存在问题，那么这些单据将不会使用锁定规则，也不会被放置在暂停列表中。
+## <a name="free-text-invoices-orders-and-project-invoice-support-in-credit-management"></a>信用管理中的自由文本发票、订单和项目发票支持 
+信用管理目前只能用于销售订单。 自由文本发票、销售点订单和呼叫中心订单将使用您添加的临时信用额度和保险/担保来调整信用额度。 如果信用额度存在问题，那么这些单据将不会使用锁定规则，也不会被放置在暂停列表中。
 
 信用管理不支持项目发票。

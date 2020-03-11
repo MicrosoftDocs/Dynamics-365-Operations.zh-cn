@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 08fb278a3de0c06715dcd9c252ee6c21b2172cff
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
+ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008263"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "3087292"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>创建休假和缺勤计划
 
@@ -61,8 +61,8 @@ ms.locfileid: "3008263"
 
       | 应计期间基数 | 说明 |
       | --- | --- |
-      | 计划开始日期 | 累积期间开始日期是计划可以使用的日期。 |
-      | 员工特定日期 | 累积期间开始日期取决于员工事件：</br><ul><li>自定义（您必须为每个单个登记指定累积日期基数）</li><li>周年纪念日日期</li><li>原始雇用日期</li><li>受聘日期</li><li>工作人员的调整后开始日期</li><li>工作人员的开始日期</li></ul> |
+      | **计划开始日期** | 累积期间开始日期是计划可以使用的日期。 |
+      | **员工特定日期** | 累积期间开始日期取决于员工事件：</br><ul><li>自定义（您必须为每个单个登记指定累积日期基数）</li><li>周年纪念日日期</li><li>原始雇用日期</li><li>受聘日期</li><li>工作人员的调整后开始日期</li><li>工作人员的开始日期</li></ul> |
 
    3. 从**累积奖励日期**下拉框中选择一个选项：
 

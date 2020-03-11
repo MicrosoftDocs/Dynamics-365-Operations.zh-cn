@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68a92610a880c574b4a3a48951c432bc2764c24b
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 408767539628a14f8ea039155c72f5e9aa6803af
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771533"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070752"
 ---
 # <a name="column-definitions-in-financial-reports"></a>财务报表中的列定义
 
@@ -120,7 +120,7 @@ ms.locfileid: "2771533"
 | ADJ                     | 将列中的金额限制为期间调整金额（如果可以获取这些金额）。 |
 | XAD                     | 将列中的金额限制为不包括期间调整金额。 |
 | PT                      | 将列中的金额限制为仅包括已过帐的交易记录（如果可以获取这些交易记录）。 |
-| UPT                     | 限制列中的金额，以便仅包含未过帐的交易记录（如果这些交易记录可用）。<p><strong>注意：</strong>并非所有数据提供商都支持未过帐的交易记录。 有关详细信息，请参阅你的 Microsoft Dynamics ERP 系统的<a href='https://go.microsoft.com/fwlink/?LinkID=162565'>数据集成指南</a>。</p> |
+| UPT                     | 限制列中的金额，以便仅包含未过帐的交易记录（如果这些交易记录可用）。<p><strong>注意：</strong>并非所有数据提供商都支持未过帐的交易记录。 </p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>将列限定为报告单位
 

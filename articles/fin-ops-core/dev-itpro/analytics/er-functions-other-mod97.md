@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23e63f6b7999399fd5365c616613cbc603774d53
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: ce2192c7bc849996e08573d71d8ed43956c8fb89
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916928"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070521"
 ---
 # <a name="MOD_97">MOD_97 ER 函数</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2916928"
 
 ## <a name="syntax"></a>语法
 
-```
+```vb
 MOD_97 (invoice number digits)
 ```
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 759869577ef30cd3f81eb74103a93cc5d1a3d608
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026055"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042842"
 ---
 # <a name="generate-documents-that-have-application-data"></a>生成包含应用程序数据的单据
 
@@ -40,10 +40,14 @@ ms.locfileid: "3026055"
 ## <a name="set-up-foreign-trade-parameters"></a>设置外贸参数
 1. 转到缴税>设置 >外贸>外贸参数。
 2. 单击“数序”选项卡。
-    * 存档内部统计报告流程的详细信息时，需要标识所创建各存档的记录。 必须为其配置特殊编号规则。  
+
+    存档内部统计报告流程的详细信息时，需要标识所创建各存档的记录。 必须为其配置特殊编号规则。  
+
 3. 选择“内部统计存档标识”参考。
 4. 在“编号规则代码”字段中，键入一个值。
-    * 在“编号规则代码”字段中，输入或选择值“Fore_2”。  
+
+    在“编号规则代码”字段中，输入或选择值“Fore_2”。  
+
 5. 对编号规则代码执行 ResolveChanges。
 6. 单击“保存”。
 7. 关闭该页面。
@@ -54,18 +58,23 @@ ms.locfileid: "3026055"
 3. 在树中，选择“内部统计(模型)\内部统计(格式)”。
 4. 单击“运行”。
 5. 在“输入文件名”字段中，键入“intrastat2.xml”。
-    * intrastat2.xml  
 6. 单击“确定”。
 
 ## <a name="review-er-format-executions-results"></a>检查 ER 格式执行结果
 检查生成的 XML 文件。  
 1. 关闭该页面。
 2. 转到“纳税”>“申报”>“外贸”>“内部统计”。
-    * 打开此窗体（其中包含已包括的内部统计交易记录）以查看所生成电子单据。  
+
+    打开此窗体（其中包含已包括的内部统计交易记录）以查看所生成电子单据。  
+
 3. 单击“内部统计存档”。
-    * 由于执行的 ER 格式中现在包含应用程序数据更新的任何设置，所以已归档已完成内部统计报告的详细信息。 在此窗体中，可以查看创建的存档的标题记录。  
+
+    由于执行的 ER 格式中现在包含应用程序数据更新的任何设置，所以已归档已完成内部统计报告的详细信息。 在此窗体中，可以查看创建的存档的标题记录。  
+
 4. 单击“详细信息”。
-    * 在此窗体中，可以查看创建的存档的详细信息。  
+
+    在此窗体中，可以查看创建的存档的详细信息。  
+
 5. 关闭该页面。
 6. 关闭该页面。
 7. 关闭该页面。

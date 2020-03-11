@@ -1,6 +1,6 @@
 ---
-title: Finance and Operations 应用 - 由世纪互联在中国运营
-description: 本主题提供有关世纪互联在中国运营的 Finance and Operations 应用的信息。
+title: 由世纪互联在中国运营的 Finance and Operations 应用
+description: 该主题提供有关由世纪互联在中国运营的 Finance and Operations 应用的信息。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/20/2019
@@ -15,14 +15,14 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: de01bcaf3b2be8c2abf562115aba85a068b6c71b
-ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
+ms.openlocfilehash: 40408ae57e9310f59e6c191b8e53ce348bf56a9f
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "2853919"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057976"
 ---
-# <a name="finance-and-operations-apps---operated-by-21vianet-in-china"></a>Finance and Operations 应用 - 由世纪互联在中国运营
+# <a name="finance-and-operations-apps---operated-by-21vianet-in-china"></a>由世纪互联在中国运营的 Finance and Operations 应用
 
 [!include [banner](../includes/banner.md)]
 
@@ -60,7 +60,7 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 
 -   **开发、构建和测试自定义**功能在**中国大陆境内的 Azure DevOps** 中将不可用。 但是，从 2019 年 4 月起，中国将支持在本地使用 Azure DevOps。 此外，可以在其他区域使用 Azure DevOps。 有关详细信息，请参阅[面向中国区 Azure 世纪互联的开发人员指南](https://docs.microsoft.com/azure/china/china-get-started-developer-guide)。
 
--   **Retail cloud Scale Unit** 功能将不可用。 但是，从 2019 年 4 月起，将提供 [Retail Store Scale Unit](../../../retail/dev-itpro/retail-store-system-begin.md) 和 Retail Modern Store 应用。
+-   **Commerce Scale Unit** 功能将不可用。 但是，从 2019 年 4 月起，将提供 [Commerce Scale Unit](../../../retail/dev-itpro/retail-store-system-begin.md)和 Retail Modern Store 应用。
 
 -   由于 Azure Active Directory 限制，[设置和维护供应商协作](../../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)将不可用。
 

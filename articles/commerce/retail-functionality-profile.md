@@ -1,6 +1,6 @@
 ---
 title: 创建零售功能配置文件
-description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建零售功能配置文件。
+description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建功能配置文件。
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9fb0fd63b11e55f2b153fc9c135f148a6e343057
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6bee51eb25b04eb65e588dd4cf54a0cef587aa15
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002835"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057340"
 ---
 # <a name="create-a-retail-functionality-profile"></a>创建零售功能配置文件
 
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建零售功能配置文件。
+此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建功能配置文件。
 
 ## <a name="overview"></a>概览
 
-零售功能配置文件提供了用于在线渠道的各种设置。 每个零售渠道必须指定一个零售功能配置文件。
+Commerce 功能配置文件提供了用于在线渠道的各种设置。 每个渠道必须指定一个功能配置文件。
 
-## <a name="create-a-retail-functionality-profile"></a>创建零售功能配置文件
+## <a name="create-a-functionality-profile"></a>创建功能配置文件
 
-若要创建零售功能配置文件，请执行以下步骤。
+若要创建功能配置文件，请执行以下步骤。
 
 1. 在导航窗格中，转到**模块 \> 渠道设置 \> POS 配置文件 \> 功能配置文件**。
 1. 在操作窗格上，选择**新建**。
@@ -51,9 +51,9 @@ ms.locfileid: "3002835"
 1. 在**信息代码**部分中，根据需要修改设置。
 1. 在**收据编号**部分中，根据需要修改设置。 
   
-下图显示了一个零售功能配置文件示例。
+下图显示了一个功能配置文件示例。
   
-![零售功能配置文件示例](media/retail-functionality-profile.png)
+![功能配置文件示例](media/retail-functionality-profile.png)
 
 ## <a name="additional-resources"></a>其他资源
 
