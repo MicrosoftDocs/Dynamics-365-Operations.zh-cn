@@ -18,65 +18,65 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 700a48d2c5a77398267e6daaaea3ecb6c95e7f6e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: ef617ebfcaeb75e0284ea3cb4e889a204120b3d3
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916353"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042358"
 ---
-# <span data-ttu-id="2c84c-103"><a name="DATEVALUE">DATEVALUE ER 函数</a></span><span class="sxs-lookup"><span data-stu-id="2c84c-103"><a name="DATEVALUE">DATEVALUE ER function</a></span></span>
+# <span data-ttu-id="4fef5-103"><a name="DATEVALUE">DATEVALUE ER 函数</a></span><span class="sxs-lookup"><span data-stu-id="4fef5-103"><a name="DATEVALUE">DATEVALUE ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2c84c-104">`DATEVALUE` 函数返回一个*日期*值，此值从指定格式和指定的[区域性](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)（可选）的给定文本值转换为日期值。</span><span class="sxs-lookup"><span data-stu-id="2c84c-104">The `DATEVALUE` function returns a *Date* value that is converted from a given text value in the specified format and in an optionally specified [culture](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) to a date value.</span></span> <span data-ttu-id="2c84c-105">有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx)。</span><span class="sxs-lookup"><span data-stu-id="2c84c-105">For information about the supported formats, see [standard](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) and [custom](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span></span>
+<span data-ttu-id="4fef5-104">`DATEVALUE` 函数返回一个*日期*值，此值从指定格式和指定的[区域性](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)（可选）的给定文本值转换为日期值。</span><span class="sxs-lookup"><span data-stu-id="4fef5-104">The `DATEVALUE` function returns a *Date* value that is converted from a given text value in the specified format and in an optionally specified [culture](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) to a date value.</span></span> <span data-ttu-id="4fef5-105">有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx)。</span><span class="sxs-lookup"><span data-stu-id="4fef5-105">For information about the supported formats, see [standard](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) and [custom](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span></span>
 
-## <a name="syntax-1"></a><span data-ttu-id="2c84c-106">语法 1</span><span class="sxs-lookup"><span data-stu-id="2c84c-106">Syntax 1</span></span>
+## <a name="syntax-1"></a><span data-ttu-id="4fef5-106">语法 1</span><span class="sxs-lookup"><span data-stu-id="4fef5-106">Syntax 1</span></span>
 
-```
+```vb
 DATEVALUE (text, format)
 ```
 
-## <a name="syntax-2"></a><span data-ttu-id="2c84c-107">语法 2</span><span class="sxs-lookup"><span data-stu-id="2c84c-107">Syntax 2</span></span>
+## <a name="syntax-2"></a><span data-ttu-id="4fef5-107">语法 2</span><span class="sxs-lookup"><span data-stu-id="4fef5-107">Syntax 2</span></span>
 
-```
+```vb
 DATEVALUE (text, format, culture)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="2c84c-108">参数</span><span class="sxs-lookup"><span data-stu-id="2c84c-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="4fef5-108">参数</span><span class="sxs-lookup"><span data-stu-id="4fef5-108">Arguments</span></span>
 
-<span data-ttu-id="2c84c-109">`text`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="2c84c-109">`text`: *String*</span></span>
+<span data-ttu-id="4fef5-109">`text`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="4fef5-109">`text`: *String*</span></span>
 
-<span data-ttu-id="2c84c-110">代表要设定格式的值的文本。</span><span class="sxs-lookup"><span data-stu-id="2c84c-110">Text that represents the value to format.</span></span>
+<span data-ttu-id="4fef5-110">代表要设定格式的值的文本。</span><span class="sxs-lookup"><span data-stu-id="4fef5-110">Text that represents the value to format.</span></span>
 
-<span data-ttu-id="2c84c-111">`format`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="2c84c-111">`format`: *String*</span></span>
+<span data-ttu-id="4fef5-111">`format`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="4fef5-111">`format`: *String*</span></span>
 
-<span data-ttu-id="2c84c-112">给定文本的格式。</span><span class="sxs-lookup"><span data-stu-id="2c84c-112">The format of the given text.</span></span>
+<span data-ttu-id="4fef5-112">给定文本的格式。</span><span class="sxs-lookup"><span data-stu-id="4fef5-112">The format of the given text.</span></span>
 
-<span data-ttu-id="2c84c-113">`culture`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="2c84c-113">`culture`: *String*</span></span>
+<span data-ttu-id="4fef5-113">`culture`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="4fef5-113">`culture`: *String*</span></span>
 
-<span data-ttu-id="2c84c-114">用于设定给定文本的格式的区域性。</span><span class="sxs-lookup"><span data-stu-id="2c84c-114">The culture that is used for formatting of the given text.</span></span>
+<span data-ttu-id="4fef5-114">用于设定给定文本的格式的区域性。</span><span class="sxs-lookup"><span data-stu-id="4fef5-114">The culture that is used for formatting of the given text.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="2c84c-115">返回值</span><span class="sxs-lookup"><span data-stu-id="2c84c-115">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="4fef5-115">返回值</span><span class="sxs-lookup"><span data-stu-id="4fef5-115">Return values</span></span>
 
-<span data-ttu-id="2c84c-116">*日期*</span><span class="sxs-lookup"><span data-stu-id="2c84c-116">*Date*</span></span>
+<span data-ttu-id="4fef5-116">*日期*</span><span class="sxs-lookup"><span data-stu-id="4fef5-116">*Date*</span></span>
 
-<span data-ttu-id="2c84c-117">生成的日期值。</span><span class="sxs-lookup"><span data-stu-id="2c84c-117">The resulting date value.</span></span>
+<span data-ttu-id="4fef5-117">生成的日期值。</span><span class="sxs-lookup"><span data-stu-id="4fef5-117">The resulting date value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="2c84c-118">使用说明</span><span class="sxs-lookup"><span data-stu-id="2c84c-118">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="4fef5-118">使用说明</span><span class="sxs-lookup"><span data-stu-id="4fef5-118">Usage notes</span></span>
 
-<span data-ttu-id="2c84c-119">当区域性未被定义为被调用函数的参数时，`culture` 由调用上下文定义。</span><span class="sxs-lookup"><span data-stu-id="2c84c-119">When the culture isn't defined as an argument of the called function, the value of `culture` is defined by the calling context.</span></span> <span data-ttu-id="2c84c-120">例如，如果对于配置为使用德国区域性的 **FILE** 元素，以电子申报 (ER) 格式使用语法 1 调用 `DATEVALUE` 函数，则将使用德国区域性完成转换。</span><span class="sxs-lookup"><span data-stu-id="2c84c-120">For example, if the `DATEVALUE` function is called by using syntax 1 in an Electronic reporting (ER) format for a **FILE** element that is configured to use the German culture, the conversion will be done by using the German culture.</span></span> <span data-ttu-id="2c84c-121">默认 `culture` 值为 **EN-US**。</span><span class="sxs-lookup"><span data-stu-id="2c84c-121">The default `culture` value is **EN-US**.</span></span>
+<span data-ttu-id="4fef5-119">当区域性未被定义为被调用函数的参数时，`culture` 由调用上下文定义。</span><span class="sxs-lookup"><span data-stu-id="4fef5-119">When the culture isn't defined as an argument of the called function, the value of `culture` is defined by the calling context.</span></span> <span data-ttu-id="4fef5-120">例如，如果对于配置为使用德国区域性的 **FILE** 元素，以电子申报 (ER) 格式使用语法 1 调用 `DATEVALUE` 函数，则将使用德国区域性完成转换。</span><span class="sxs-lookup"><span data-stu-id="4fef5-120">For example, if the `DATEVALUE` function is called by using syntax 1 in an Electronic reporting (ER) format for a **FILE** element that is configured to use the German culture, the conversion will be done by using the German culture.</span></span> <span data-ttu-id="4fef5-121">默认 `culture` 值为 **EN-US**。</span><span class="sxs-lookup"><span data-stu-id="4fef5-121">The default `culture` value is **EN-US**.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="2c84c-122">示例 1</span><span class="sxs-lookup"><span data-stu-id="2c84c-122">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="4fef5-122">示例 1</span><span class="sxs-lookup"><span data-stu-id="4fef5-122">Example 1</span></span>
 
-<span data-ttu-id="2c84c-123">`DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")` 基于指定的自定义格式和默认的应用程序的 **EN-US** 区域性返回日期值 **December 21, 2016**。</span><span class="sxs-lookup"><span data-stu-id="2c84c-123">`DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")` returns the date value **December 21, 2016**, based on the specified custom format and the default application's **EN-US** culture.</span></span>
+<span data-ttu-id="4fef5-123">`DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")` 基于指定的自定义格式和默认的应用程序的 **EN-US** 区域性返回日期值 **December 21, 2016**。</span><span class="sxs-lookup"><span data-stu-id="4fef5-123">`DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")` returns the date value **December 21, 2016**, based on the specified custom format and the default application's **EN-US** culture.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="2c84c-124">示例 2</span><span class="sxs-lookup"><span data-stu-id="2c84c-124">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="4fef5-124">示例 2</span><span class="sxs-lookup"><span data-stu-id="4fef5-124">Example 2</span></span>
 
-<span data-ttu-id="2c84c-125">`DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")` 基于指定的自定义格式和区域性返回日期值 **January 21, 2016**。</span><span class="sxs-lookup"><span data-stu-id="2c84c-125">`DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")` returns the date value **January 21, 2016**, based on the specified custom format and culture.</span></span>
+<span data-ttu-id="4fef5-125">`DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")` 基于指定的自定义格式和区域性返回日期值 **January 21, 2016**。</span><span class="sxs-lookup"><span data-stu-id="4fef5-125">`DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")` returns the date value **January 21, 2016**, based on the specified custom format and culture.</span></span>
 
-<span data-ttu-id="2c84c-126">但是，`DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")` 将引发异常，以通知用户指定字符串无法识别为指定区域性的有效日期。</span><span class="sxs-lookup"><span data-stu-id="2c84c-126">However, `DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")` throws an exception to inform the user that the specified string isn't recognized as a valid date for the specified culture.</span></span>
+<span data-ttu-id="4fef5-126">但是，`DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")` 将引发异常，以通知用户指定字符串无法识别为指定区域性的有效日期。</span><span class="sxs-lookup"><span data-stu-id="4fef5-126">However, `DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")` throws an exception to inform the user that the specified string isn't recognized as a valid date for the specified culture.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="2c84c-127">其他资源</span><span class="sxs-lookup"><span data-stu-id="2c84c-127">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="4fef5-127">其他资源</span><span class="sxs-lookup"><span data-stu-id="4fef5-127">Additional resources</span></span>
 
-[<span data-ttu-id="2c84c-128">日期和时间函数</span><span class="sxs-lookup"><span data-stu-id="2c84c-128">Date and time functions</span></span>](er-functions-category-datetime.md)
+[<span data-ttu-id="4fef5-128">日期和时间函数</span><span class="sxs-lookup"><span data-stu-id="4fef5-128">Date and time functions</span></span>](er-functions-category-datetime.md)

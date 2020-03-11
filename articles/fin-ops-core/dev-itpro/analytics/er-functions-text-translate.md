@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11954f3e48d8dc2257b3a0bc8768df47af3c5c0c
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 07fe19c5f66c33e336f76f3a72d3bbda0c7e8d86
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916698"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3040902"
 ---
-# <span data-ttu-id="107fc-103"><a name="TRANSLATE">TRANSLATE ER 函数</a></span><span class="sxs-lookup"><span data-stu-id="107fc-103"><a name="TRANSLATE">TRANSLATE ER function</a></span></span>
+# <span data-ttu-id="1aa5c-103"><a name="TRANSLATE">TRANSLATE ER 函数</a></span><span class="sxs-lookup"><span data-stu-id="1aa5c-103"><a name="TRANSLATE">TRANSLATE ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="107fc-104">在将全部或部分指定文本字符串替换为另一个字符串之后，`TRANSLATE` 函数作为*字符串*值返回指定的文本字符串。</span><span class="sxs-lookup"><span data-stu-id="107fc-104">The `TRANSLATE` function returns the specified text string as a *String* value after all or part of it has been replaced with another string.</span></span>
+<span data-ttu-id="1aa5c-104">在将全部或部分指定文本字符串替换为另一个字符串之后，`TRANSLATE` 函数作为*字符串*值返回指定的文本字符串。</span><span class="sxs-lookup"><span data-stu-id="1aa5c-104">The `TRANSLATE` function returns the specified text string as a *String* value after all or part of it has been replaced with another string.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="107fc-105">语法</span><span class="sxs-lookup"><span data-stu-id="107fc-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1aa5c-105">语法</span><span class="sxs-lookup"><span data-stu-id="1aa5c-105">Syntax</span></span>
 
-```
+```vb
 TRANSLATE (text , pattern, replacement)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="107fc-106">参数</span><span class="sxs-lookup"><span data-stu-id="107fc-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="1aa5c-106">参数</span><span class="sxs-lookup"><span data-stu-id="1aa5c-106">Arguments</span></span>
 
-<span data-ttu-id="107fc-107">`text`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="107fc-107">`text`: *String*</span></span>
+<span data-ttu-id="1aa5c-107">`text`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="1aa5c-107">`text`: *String*</span></span>
 
-<span data-ttu-id="107fc-108">*字符串*类型的数据源的有效路径。</span><span class="sxs-lookup"><span data-stu-id="107fc-108">The valid path of a data source of the *String* type.</span></span>
+<span data-ttu-id="1aa5c-108">*字符串*类型的数据源的有效路径。</span><span class="sxs-lookup"><span data-stu-id="1aa5c-108">The valid path of a data source of the *String* type.</span></span>
 
-<span data-ttu-id="107fc-109">`pattern`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="107fc-109">`pattern`: *String*</span></span>
+<span data-ttu-id="1aa5c-109">`pattern`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="1aa5c-109">`pattern`: *String*</span></span>
 
-<span data-ttu-id="107fc-110">必须替换的文本。</span><span class="sxs-lookup"><span data-stu-id="107fc-110">The text that must be replaced.</span></span>
+<span data-ttu-id="1aa5c-110">必须替换的文本。</span><span class="sxs-lookup"><span data-stu-id="1aa5c-110">The text that must be replaced.</span></span>
 
-<span data-ttu-id="107fc-111">`replacement`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="107fc-111">`replacement`: *String*</span></span>
+<span data-ttu-id="1aa5c-111">`replacement`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="1aa5c-111">`replacement`: *String*</span></span>
 
-<span data-ttu-id="107fc-112">用作替换的文本。</span><span class="sxs-lookup"><span data-stu-id="107fc-112">The text to use as a replacement.</span></span>
+<span data-ttu-id="1aa5c-112">用作替换的文本。</span><span class="sxs-lookup"><span data-stu-id="1aa5c-112">The text to use as a replacement.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="107fc-113">返回值</span><span class="sxs-lookup"><span data-stu-id="107fc-113">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="1aa5c-113">返回值</span><span class="sxs-lookup"><span data-stu-id="1aa5c-113">Return values</span></span>
 
-<span data-ttu-id="107fc-114">*字符串*</span><span class="sxs-lookup"><span data-stu-id="107fc-114">*String*</span></span>
+<span data-ttu-id="1aa5c-114">*字符串*</span><span class="sxs-lookup"><span data-stu-id="1aa5c-114">*String*</span></span>
 
-<span data-ttu-id="107fc-115">生成的文本值。</span><span class="sxs-lookup"><span data-stu-id="107fc-115">The resulting text value.</span></span>
+<span data-ttu-id="1aa5c-115">生成的文本值。</span><span class="sxs-lookup"><span data-stu-id="1aa5c-115">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="107fc-116">示例</span><span class="sxs-lookup"><span data-stu-id="107fc-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="1aa5c-116">示例</span><span class="sxs-lookup"><span data-stu-id="1aa5c-116">Example</span></span>
 
-<span data-ttu-id="107fc-117">`TRANSLATE ("abcdef", "cd", "GH")` 将模式 **"cd"** 替换为字符串 **"GH"**，返回 **"abGHef"**。</span><span class="sxs-lookup"><span data-stu-id="107fc-117">`TRANSLATE ("abcdef", "cd", "GH")` replaces the pattern **"cd"** with the string **"GH"** and returns **"abGHef"**.</span></span>
+<span data-ttu-id="1aa5c-117">`TRANSLATE ("abcdef", "cd", "GH")` 将模式 **"cd"** 替换为字符串 **"GH"**，返回 **"abGHef"**。</span><span class="sxs-lookup"><span data-stu-id="1aa5c-117">`TRANSLATE ("abcdef", "cd", "GH")` replaces the pattern **"cd"** with the string **"GH"** and returns **"abGHef"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="107fc-118">其他资源</span><span class="sxs-lookup"><span data-stu-id="107fc-118">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="1aa5c-118">其他资源</span><span class="sxs-lookup"><span data-stu-id="1aa5c-118">Additional resources</span></span>
 
-[<span data-ttu-id="107fc-119">文本函数</span><span class="sxs-lookup"><span data-stu-id="107fc-119">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="1aa5c-119">文本函数</span><span class="sxs-lookup"><span data-stu-id="1aa5c-119">Text functions</span></span>](er-functions-category-text.md)

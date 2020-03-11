@@ -1,9 +1,9 @@
 ---
-title: 与 Common Data Service 的近实时数据集成
-description: 本主题提供 Finance and Operations 与 Common Data Service 之间的集成概述。
+title: 双写入概述
+description: 本主题概述双写入。 双写入是一种基础结构，其提供 Microsoft Dynamics 365 模型驱动应用与 Finance and Operations 应用之间的近实时交互。
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/15/2019
+ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,59 +18,91 @@ ms.search.region: global
 ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1c09b0c0bb695e7695acb7a8821ffb99ae1f6f06
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 12c6a39700a260c138fab67ed370f94b3aa04213
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019662"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3075972"
 ---
-# <a name="near-real-time-data-integration-with-common-data-service"></a><span data-ttu-id="75e9c-103">与 Common Data Service 的近实时数据集成</span><span class="sxs-lookup"><span data-stu-id="75e9c-103">Near-real-time data integration with Common Data Service</span></span>
+# <a name="dual-write-overview"></a><span data-ttu-id="efef2-104">双写入概述</span><span class="sxs-lookup"><span data-stu-id="efef2-104">Dual-write overview</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
-<span data-ttu-id="75e9c-104">在现在的数字世界中，业务生态系统把 Microsoft Dynamics 365 应用程序作为整体使用。</span><span class="sxs-lookup"><span data-stu-id="75e9c-104">In the current digital world, business ecosystems use Microsoft Dynamics 365 applications as a whole.</span></span> <span data-ttu-id="75e9c-105">因为来自人员、客户、运营和物联网 (IoT) 设备的数据传输到一个源，所以可能发生数字反馈循环。</span><span class="sxs-lookup"><span data-stu-id="75e9c-105">Because data from people, customers, operations, and Internet of Things (IoT) devices flows into one source, there is an opportunity for digital feedback loops.</span></span> <span data-ttu-id="75e9c-106">Finance and Operations 应用与其他 Dynamics 365 应用程序之间的集成对实现此体验至关重要。</span><span class="sxs-lookup"><span data-stu-id="75e9c-106">To achieve this experience, integration between Finance and Operations apps and other Dynamics 365 applications is essential.</span></span> <span data-ttu-id="75e9c-107">有些应用程序以 Common Data Service 为基础。</span><span class="sxs-lookup"><span data-stu-id="75e9c-107">Some applications are built on top of Common Data Service.</span></span> <span data-ttu-id="75e9c-108">Finance and Operations 应用数据与 Common Data Service 之间的集成使其他应用程序与 Finance and Operations 之间能够进行连贯流畅的通信。</span><span class="sxs-lookup"><span data-stu-id="75e9c-108">Integration between Finance and Operations apps data with Common Data Service lets other applications communicate coherently and fluently with Finance and Operations.</span></span>
+## <a name="what-is-dual-write"></a><span data-ttu-id="efef2-105">什么是双写入？</span><span class="sxs-lookup"><span data-stu-id="efef2-105">What is dual-write?</span></span>
 
-<span data-ttu-id="75e9c-109">Finance and Operations 应用和 Common Data Service 通过双写入框架提供 Finance and Operations 应用与其他 Dynamics 365 应用程序之间的近实时数据同步。</span><span class="sxs-lookup"><span data-stu-id="75e9c-109">Finance and Operations apps and Common Data Service provide near-real-time data synchronization between Finance and Operations apps and other Dynamics 365 applications via a dual-write framework.</span></span> <span data-ttu-id="75e9c-110">范围广阔，跨越应用程序的 28 个外围应用。</span><span class="sxs-lookup"><span data-stu-id="75e9c-110">The coverage is broad and spans 28 surface areas of the application.</span></span> <span data-ttu-id="75e9c-111">目的是通过用于连接应用程序之间的业务流程的无缝数据流来提供“单 Dynamics 365”用户体验。</span><span class="sxs-lookup"><span data-stu-id="75e9c-111">The goal is to provide a "One Dynamics 365" user experience through seamless data flows that connect business processes across applications.</span></span>
+<span data-ttu-id="efef2-106">双写入是一种自带基础结构，其提供 Microsoft Dynamics 365 中的模型驱动应用与 Finance and Operations 应用之间的近实时交互。</span><span class="sxs-lookup"><span data-stu-id="efef2-106">Dual-write is an out-of-box infrastructure that provides near-real-time interaction between model-driven apps in Microsoft Dynamics 365 and Finance and Operations apps.</span></span> <span data-ttu-id="efef2-107">当有关客户、产品、人员和操作的数据越过应用程序边界时，将为组织中的所有部门授权。</span><span class="sxs-lookup"><span data-stu-id="efef2-107">When data about customers, products, people, and operations flows beyond application boundaries, all departments in an organization are empowered.</span></span>
 
-![体系结构概览图](media/dual-write-overview.jpg)
+<span data-ttu-id="efef2-108">双写入提供 Finance and Operations 应用与 Common Data Service 之间紧密耦合的双向集成。</span><span class="sxs-lookup"><span data-stu-id="efef2-108">Dual-write provides tightly coupled, bidirectional integration between Finance and Operations apps and Common Data Service.</span></span> <span data-ttu-id="efef2-109">Finance and Operations 应用中的所有数据变化都会写入 Common Data Service，而 Common Data Service 中的所有数据变化也会导致写入 Finance and Operations 应用。</span><span class="sxs-lookup"><span data-stu-id="efef2-109">Any data change in Finance and Operations apps causes writes to Common Data Service, and any data change in Common Data Service causes writes to Finance and Operations apps.</span></span> <span data-ttu-id="efef2-110">这个自动化的数据流提供了应用之间的集成用户体验。</span><span class="sxs-lookup"><span data-stu-id="efef2-110">This automated data flow provides an integrated user experience across the apps.</span></span>
 
-<span data-ttu-id="75e9c-113">可以采用以下价值主张：</span><span class="sxs-lookup"><span data-stu-id="75e9c-113">The following value propositions are available:</span></span>
+![应用之间的数据关系](media/dual-write-overview.jpg)
 
-+ [<span data-ttu-id="75e9c-114">Common Data Service 中的组织层次结构</span><span class="sxs-lookup"><span data-stu-id="75e9c-114">Organization hierarchy in Common Data Service</span></span>](organization-mapping.md)
-+ [<span data-ttu-id="75e9c-115">Common Data Service 中的公司概念</span><span class="sxs-lookup"><span data-stu-id="75e9c-115">Company concept in Common Data Service</span></span>](company-data.md)
-+ [<span data-ttu-id="75e9c-116">集成客户主控</span><span class="sxs-lookup"><span data-stu-id="75e9c-116">Integrated customer master</span></span>](customer-mapping.md)
-+ [<span data-ttu-id="75e9c-117">集成的分类帐</span><span class="sxs-lookup"><span data-stu-id="75e9c-117">Integrated ledger</span></span>](ledger-mapping.md)
-+ [<span data-ttu-id="75e9c-118">通用产品体验</span><span class="sxs-lookup"><span data-stu-id="75e9c-118">Unified product experience</span></span>](product-mapping.md)
-+ [<span data-ttu-id="75e9c-119">集成供应商主控</span><span class="sxs-lookup"><span data-stu-id="75e9c-119">Integrated vendor master</span></span>](vendor-mapping.md)
-+ [<span data-ttu-id="75e9c-120">集成的站点和仓库</span><span class="sxs-lookup"><span data-stu-id="75e9c-120">Integrated sites and warehouses</span></span>](sites-warehouses-mapping.md)
-+ [<span data-ttu-id="75e9c-121">集成的税收主数据</span><span class="sxs-lookup"><span data-stu-id="75e9c-121">Integrated tax master</span></span>](tax-mapping.md)
+<span data-ttu-id="efef2-112">双写入有两个方面：*基础结构*方面和*应用程序*方面。</span><span class="sxs-lookup"><span data-stu-id="efef2-112">Dual-write has two aspects: an *infrastructure* aspect and an *application* aspect.</span></span>
 
-## <a name="system-requirements"></a><span data-ttu-id="75e9c-122">系统要求</span><span class="sxs-lookup"><span data-stu-id="75e9c-122">System requirements</span></span>
+### <a name="infrastructure"></a><span data-ttu-id="efef2-113">基础结构</span><span class="sxs-lookup"><span data-stu-id="efef2-113">Infrastructure</span></span>
 
-<span data-ttu-id="75e9c-123">同步、双向、近实时数据流需要以下版本：</span><span class="sxs-lookup"><span data-stu-id="75e9c-123">Synchronous, bidirectional, near-real-time data flows require the following versions:</span></span>
+<span data-ttu-id="efef2-114">双写入基础结构可扩展且可靠，并且具有以下关键功能：</span><span class="sxs-lookup"><span data-stu-id="efef2-114">The dual-write infrastructure is extensible and reliable, and includes the following key features:</span></span>
 
-+ <span data-ttu-id="75e9c-124">带平台更新 28 或更高版本的 Microsoft Dynamics 365 for Finance and Operations 版本 10.0.4（2019 年 7 月）</span><span class="sxs-lookup"><span data-stu-id="75e9c-124">Microsoft Dynamics 365 for Finance and Operations version 10.0.4 (July 2019) with Platform update 28, or later</span></span>
-+ <span data-ttu-id="75e9c-125">Microsoft Dynamics 365 for Customer Engagement，平台版本 9.1 (4.2) 或更高版本</span><span class="sxs-lookup"><span data-stu-id="75e9c-125">Microsoft Dynamics 365 for Customer Engagement, Platform version 9.1 (4.2) or later</span></span>
++ <span data-ttu-id="efef2-115">应用程序之间的同步和双向数据流</span><span class="sxs-lookup"><span data-stu-id="efef2-115">Synchronous and bidirectional data flow between applications</span></span>
++ <span data-ttu-id="efef2-116">同步和播放、暂停与继续模式，用于在联机和脱机/异步模式下共同为系统提供支持。</span><span class="sxs-lookup"><span data-stu-id="efef2-116">Synchronization, together with play, pause, and catchup modes to support the system during online and offline/asynchronous modes.</span></span>
++ <span data-ttu-id="efef2-117">在应用程序之间同步初始数据</span><span class="sxs-lookup"><span data-stu-id="efef2-117">Ability to sync initial data between the applications</span></span>
++ <span data-ttu-id="efef2-118">适用于数据管理员的，合并的活动与错误日志视图</span><span class="sxs-lookup"><span data-stu-id="efef2-118">Consolidated view of activity and error logs for data admins</span></span>
++ <span data-ttu-id="efef2-119">配置自定义警报和阈值与订阅通知</span><span class="sxs-lookup"><span data-stu-id="efef2-119">Ability to configure custom alerts and thresholds, and to subscribe to notifications</span></span>
++ <span data-ttu-id="efef2-120">可进行筛选和转换的直观用户界面 (UI)</span><span class="sxs-lookup"><span data-stu-id="efef2-120">Intuitive user interface (UI) for filtering and transformations</span></span>
++ <span data-ttu-id="efef2-121">设置和查看实体依赖项和关系</span><span class="sxs-lookup"><span data-stu-id="efef2-121">Ability to set and view entity dependencies and relationships</span></span>
++ <span data-ttu-id="efef2-122">标准和自定义实体和映射均可扩展</span><span class="sxs-lookup"><span data-stu-id="efef2-122">Extensibility for both standard and custom entities and maps</span></span>
++ <span data-ttu-id="efef2-123">可靠的应用程序生命周期管理</span><span class="sxs-lookup"><span data-stu-id="efef2-123">Reliable application lifecycle management</span></span>
++ <span data-ttu-id="efef2-124">适用于新客户的现成设置体验</span><span class="sxs-lookup"><span data-stu-id="efef2-124">Out-of-box setup experience for new customers</span></span>
 
-## <a name="setup-instructions"></a><span data-ttu-id="75e9c-126">设置说明</span><span class="sxs-lookup"><span data-stu-id="75e9c-126">Setup instructions</span></span>
+### <a name="application"></a><span data-ttu-id="efef2-125">申请</span><span class="sxs-lookup"><span data-stu-id="efef2-125">Application</span></span>
 
-<span data-ttu-id="75e9c-127">请按照以下步骤设置 Finance and Operations 应用与 Common Data Service 之间的集成。</span><span class="sxs-lookup"><span data-stu-id="75e9c-127">Follow these steps to set up integration between Finance and Operations apps and Common Data Service.</span></span>
-    
-1. <span data-ttu-id="75e9c-128">有关设置双写入系统，请参阅[分步指南](https://aka.ms/dualwrite-docs)中的“发布双写入预览版”。</span><span class="sxs-lookup"><span data-stu-id="75e9c-128">For the setup of the dual-write system, see the [step-by-step guide](https://aka.ms/dualwrite-docs) on Announcing Dual Write Preview.</span></span>
-2. <span data-ttu-id="75e9c-129">从[通过双重写入实现 Fin Ops 和 CDS/CE 集成](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096) Yammer 组下载和安装解决方案。</span><span class="sxs-lookup"><span data-stu-id="75e9c-129">Download and install the solution from the [Fin Ops and CDS/CE Integration via Dual-Write](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096) Yammer group.</span></span> <span data-ttu-id="75e9c-130">包中包含五个解决方案：</span><span class="sxs-lookup"><span data-stu-id="75e9c-130">The package contains five solutions:</span></span>
+<span data-ttu-id="efef2-126">双写入在 Finance and Operations 应用中的概念与 Dynamics 365 中模型驱动应用中的概念之间建立映射。</span><span class="sxs-lookup"><span data-stu-id="efef2-126">Dual-write creates a mapping between concepts in Finance and Operations apps and concepts in model-driven apps in Dynamics 365.</span></span> <span data-ttu-id="efef2-127">此项集成支持以下方案：</span><span class="sxs-lookup"><span data-stu-id="efef2-127">This integration supports the following scenarios:</span></span>
 
-    + <span data-ttu-id="75e9c-131">Dynamics365Company</span><span class="sxs-lookup"><span data-stu-id="75e9c-131">Dynamics365Company</span></span>
-    + <span data-ttu-id="75e9c-132">CurrencyExchangeRates</span><span class="sxs-lookup"><span data-stu-id="75e9c-132">CurrencyExchangeRates</span></span>
-    + <span data-ttu-id="75e9c-133">Dynamics365FinanceAndOperationsCommon</span><span class="sxs-lookup"><span data-stu-id="75e9c-133">Dynamics365FinanceAndOperationsCommon</span></span>
-    + <span data-ttu-id="75e9c-134">Dynamics365FinanceCommon</span><span class="sxs-lookup"><span data-stu-id="75e9c-134">Dynamics365FinanceCommon</span></span>
-    + <span data-ttu-id="75e9c-135">Dynamics365SupplyChainCommon</span><span class="sxs-lookup"><span data-stu-id="75e9c-135">Dynamics365SupplyChainCommon</span></span>
++ <span data-ttu-id="efef2-128">集成客户主数据</span><span class="sxs-lookup"><span data-stu-id="efef2-128">Integrated customer master</span></span>
++ <span data-ttu-id="efef2-129">访问客户会员卡和奖励分</span><span class="sxs-lookup"><span data-stu-id="efef2-129">Access to customer loyalty cards and reward points</span></span>
++ <span data-ttu-id="efef2-130">统一的基础产品体验</span><span class="sxs-lookup"><span data-stu-id="efef2-130">Unified product mastering experience</span></span>
++ <span data-ttu-id="efef2-131">感知组织层次结构</span><span class="sxs-lookup"><span data-stu-id="efef2-131">Awareness of organization hierarchy</span></span>
++ <span data-ttu-id="efef2-132">集成供应商主数据</span><span class="sxs-lookup"><span data-stu-id="efef2-132">Integrated vendor master</span></span>
++ <span data-ttu-id="efef2-133">访问财务和税务参考数据</span><span class="sxs-lookup"><span data-stu-id="efef2-133">Access to finance and tax reference data</span></span>
++ <span data-ttu-id="efef2-134">按需价格引擎体验</span><span class="sxs-lookup"><span data-stu-id="efef2-134">On-demand price engine experience</span></span>
++ <span data-ttu-id="efef2-135">集成的潜在客户到现金体验</span><span class="sxs-lookup"><span data-stu-id="efef2-135">Integrated prospect-to-cash experience</span></span>
++ <span data-ttu-id="efef2-136">通过现场代理吹内部资产和客户资产</span><span class="sxs-lookup"><span data-stu-id="efef2-136">Ability to serve both in-house assets and customer assets through field agents</span></span>
++ <span data-ttu-id="efef2-137">集成的采购到付款体验</span><span class="sxs-lookup"><span data-stu-id="efef2-137">Integrated procure-to-pay experience</span></span>
++ <span data-ttu-id="efef2-138">客户数据和单据的集成活动和通知单</span><span class="sxs-lookup"><span data-stu-id="efef2-138">Integrated activities and notes for customer data and documents</span></span>
++ <span data-ttu-id="efef2-139">查找现有库存量和详细信息</span><span class="sxs-lookup"><span data-stu-id="efef2-139">Ability to look up on-hand inventory availability and details</span></span>
++ <span data-ttu-id="efef2-140">项目到现金体验</span><span class="sxs-lookup"><span data-stu-id="efef2-140">Project-to-cash experience</span></span>
++ <span data-ttu-id="efef2-141">通过当事方概念处理多个地址和角色</span><span class="sxs-lookup"><span data-stu-id="efef2-141">Ability to handle multiple addresses and roles through the party concept</span></span>
++ <span data-ttu-id="efef2-142">针对用户的单个源管理</span><span class="sxs-lookup"><span data-stu-id="efef2-142">Single source management for users</span></span>
++ <span data-ttu-id="efef2-143">集成的零售和市场营销渠道</span><span class="sxs-lookup"><span data-stu-id="efef2-143">Integrated channels for retailing and marketing</span></span>
++ <span data-ttu-id="efef2-144">查看促销和折扣</span><span class="sxs-lookup"><span data-stu-id="efef2-144">Visibility into promotions and discounts</span></span>
++ <span data-ttu-id="efef2-145">请求服务功能</span><span class="sxs-lookup"><span data-stu-id="efef2-145">Request-for-service functions</span></span>
++ <span data-ttu-id="efef2-146">简化的服务操作</span><span class="sxs-lookup"><span data-stu-id="efef2-146">Streamlined service operations</span></span>
 
-3. <span data-ttu-id="75e9c-136">遵循[同步初始参考数据](initial-sync.md)的执行顺序。</span><span class="sxs-lookup"><span data-stu-id="75e9c-136">Follow the execution order for [synchronizing initial reference data](initial-sync.md).</span></span>
-4. <span data-ttu-id="75e9c-137">如果遇到双写入同步问题，请参阅[数据集成疑难解答指南](dual-write-troubleshooting.md)。</span><span class="sxs-lookup"><span data-stu-id="75e9c-137">If you encounter dual-write synchronization issues, see the [Troubleshooting guide for data integration](dual-write-troubleshooting.md).</span></span>
+## <a name="top-reasons-to-use-dual-write"></a><span data-ttu-id="efef2-147">使用双写入的主要原因</span><span class="sxs-lookup"><span data-stu-id="efef2-147">Top reasons to use dual-write</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="75e9c-138">不能并排运行双写入和[目标客户到现金](../../../../supply-chain/sales-marketing/prospect-to-cash.md)。</span><span class="sxs-lookup"><span data-stu-id="75e9c-138">You can’t run dual-write and [Prospect to cash](../../../../supply-chain/sales-marketing/prospect-to-cash.md) side-by-side.</span></span> <span data-ttu-id="75e9c-139">如果正在运行目标客户到现金解决方案，则必须将其卸载。</span><span class="sxs-lookup"><span data-stu-id="75e9c-139">If you're running the Prospect to cash solution, you must uninstall it.</span></span> <span data-ttu-id="75e9c-140">还必须禁用目标客户到现金解决方案中的客户和供应商双写入模板。</span><span class="sxs-lookup"><span data-stu-id="75e9c-140">You must also disable the customer and vendor dual-write templates that are part of the Prospect to cash solution.</span></span>
+<span data-ttu-id="efef2-148">双写入提供 Microsoft Dynamics 365 应用程序之间的数据集成。</span><span class="sxs-lookup"><span data-stu-id="efef2-148">Dual-write provides data integration across Microsoft Dynamics 365 applications.</span></span> <span data-ttu-id="efef2-149">这个强大的框架链接了环境，并让不同业务应用程序可以一起工作。</span><span class="sxs-lookup"><span data-stu-id="efef2-149">This robust framework links environments and enables different business applications to work together.</span></span> <span data-ttu-id="efef2-150">下面是为什么应该使用双写入的主要原因：</span><span class="sxs-lookup"><span data-stu-id="efef2-150">Here are the top reasons why you should use dual-write:</span></span>
+
++ <span data-ttu-id="efef2-151">双写入提供 Finance and Operations 应用与 Dynamics 365 中的模型驱动应用之间紧密耦合的近实时双向集成。</span><span class="sxs-lookup"><span data-stu-id="efef2-151">Dual-write provides tightly coupled, near-real-time, and bidirectional integration between Finance and Operations apps and model-driven apps in Dynamics 365.</span></span> <span data-ttu-id="efef2-152">此集成使 Microsoft Dynamics 365 成为了所有业务解决方案的一站式商店。</span><span class="sxs-lookup"><span data-stu-id="efef2-152">This integration makes Microsoft Dynamics 365 the one-stop shop for all your business solutions.</span></span> <span data-ttu-id="efef2-153">使用 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management，但对客户关系管理 (CRM) 使用非 Microsoft 解决方案的客户正在转向 Dynamics 365，以享受其双写入支持。</span><span class="sxs-lookup"><span data-stu-id="efef2-153">Customers who use Dynamics 365 Finance and Dynamics 365 Supply Chain Management, but who use non-Microsoft solutions for customer relationship management (CRM), are moving toward Dynamics 365 for its dual-write support.</span></span>
++ <span data-ttu-id="efef2-154">客户、产品、操作、项目和物联网 (IoT) 的数据通过双写入自动流向 Common Data Service。</span><span class="sxs-lookup"><span data-stu-id="efef2-154">Data from customers, products, operations, projects, and the Internet of Things (IoT) automatically flows to Common Data Service through dual-write.</span></span> <span data-ttu-id="efef2-155">这种连接对于对 Microsoft Power Platform 扩展感兴趣的企业非常有用。</span><span class="sxs-lookup"><span data-stu-id="efef2-155">This connection is very useful for businesses that are interested in Microsoft Power Platform expansions.</span></span>
++ <span data-ttu-id="efef2-156">双写入基础结构遵循无代码/少代码原则。</span><span class="sxs-lookup"><span data-stu-id="efef2-156">The dual-write infrastructure follows the no-code/low-code principle.</span></span> <span data-ttu-id="efef2-157">扩展标准表到表映射和包含自定义映射所需工程工作量非常少。</span><span class="sxs-lookup"><span data-stu-id="efef2-157">Minimal engineering effort is required to extend the standard table-to-table maps and to include custom maps.</span></span>
++ <span data-ttu-id="efef2-158">双写入同时支持在线模式和脱机模式。</span><span class="sxs-lookup"><span data-stu-id="efef2-158">Dual-write supports both online mode and offline mode.</span></span> <span data-ttu-id="efef2-159">只有 Microsoft 公司同时支持在线模式和脱机模式。</span><span class="sxs-lookup"><span data-stu-id="efef2-159">Microsoft is the only company that offers support for online and offline modes.</span></span>
+
+## <a name="what-does-dual-write-mean-for-users-and-architects-of-crm-products"></a><span data-ttu-id="efef2-160">双写入对 CRM 产品的用户和架构师有何意义？</span><span class="sxs-lookup"><span data-stu-id="efef2-160">What does dual-write mean for users and architects of CRM products?</span></span>
+
+<span data-ttu-id="efef2-161">双写入实现了 Finance and Operations 应用与 Common Data Service 之间数据流自动化。</span><span class="sxs-lookup"><span data-stu-id="efef2-161">Dual-write automates the data flow between Finance and Operations apps and Common Data Service.</span></span> <span data-ttu-id="efef2-162">在将来的版本中，Dynamics 365 中的模型驱动应用内的概念（如客户、联系人、报价单和订单）将延伸到中端市场和中高端市场客户。</span><span class="sxs-lookup"><span data-stu-id="efef2-162">In future releases, concepts in model-driven apps in Dynamics 365 (for example, customer, contact, quotation, and order) will be scaled to mid-market and upper-mid-market customers.</span></span>
+
+<span data-ttu-id="efef2-163">在第一个版本中，大多数自动化由双写入解决方案处理。</span><span class="sxs-lookup"><span data-stu-id="efef2-163">In the first release, most of the automation is handled by dual-write solutions.</span></span> <span data-ttu-id="efef2-164">在将来的版本中，这些解决方案将成为 Common Data Service 的一部分。</span><span class="sxs-lookup"><span data-stu-id="efef2-164">In future releases, those solutions will become part of Common Data Service.</span></span> <span data-ttu-id="efef2-165">了解到即将推出的 Common Data Service 更改，可以长期节约工作量。</span><span class="sxs-lookup"><span data-stu-id="efef2-165">By understanding the upcoming changes to Common Data Service, you can save yourself effort in the long term.</span></span> <span data-ttu-id="efef2-166">下面是一些关键更改：</span><span class="sxs-lookup"><span data-stu-id="efef2-166">Here are some of the crucial changes:</span></span>
+
++ <span data-ttu-id="efef2-167">Common Data Service 将采用新概念，如公司和当事方。</span><span class="sxs-lookup"><span data-stu-id="efef2-167">Common Data Service will have new concepts, such as company and party.</span></span> <span data-ttu-id="efef2-168">这些概念将影响基于 Common Data Service 创建的所有应用，如 Dynamics 365 Sales、Dynamics 365 Marketing、Dynamics 365 Customer Service 和 Dynamics 365 Field Service。</span><span class="sxs-lookup"><span data-stu-id="efef2-168">These concepts will affect all apps that are built on Common Data Service, such as Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service, and Dynamics 365 Field Service.</span></span>
++ <span data-ttu-id="efef2-169">活动和通知单统一且已经过扩展，同时支持 C1（系统用户）和 C2（系统客户）。</span><span class="sxs-lookup"><span data-stu-id="efef2-169">Activities and notes are unified and expanded to support both C1s (users of the system) and C2s (customers of the system).</span></span>
++ <span data-ttu-id="efef2-170">下面是 Common Data Service 中即将推出的一些更改：</span><span class="sxs-lookup"><span data-stu-id="efef2-170">Here are some of the upcoming changes in Common Data Service:</span></span>
+
+    - <span data-ttu-id="efef2-171">十进制数据类型将取代金钱数据类型。</span><span class="sxs-lookup"><span data-stu-id="efef2-171">The decimal data type will replace the money data type.</span></span>
+    - <span data-ttu-id="efef2-172">日期有效性将在同一个位置支持过去、现在和将来的数据。</span><span class="sxs-lookup"><span data-stu-id="efef2-172">Date effectivity will support past, present, and future data in the same place.</span></span>
+    - <span data-ttu-id="efef2-173">将提供更多对货币和汇率的支持，并且将修订**汇率**应用程序编程接口 (API)。</span><span class="sxs-lookup"><span data-stu-id="efef2-173">There will be more support for currency and exchange rates, and the **Exchange Rate** application programming interface (API) will be revised.</span></span>
+    - <span data-ttu-id="efef2-174">将支持单位转换。</span><span class="sxs-lookup"><span data-stu-id="efef2-174">Unit conversions will be supported.</span></span>
+
+<span data-ttu-id="efef2-175">有关即将推出的更改的详细信息，请参阅 [Common Data Service 中的数据 – 阶段 1 和 2](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/extensibility/extensibility-roadmap)。</span><span class="sxs-lookup"><span data-stu-id="efef2-175">For more information about upcoming changes, see [Data in Common Data Service – phase 1 & 2](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/extensibility/extensibility-roadmap).</span></span>

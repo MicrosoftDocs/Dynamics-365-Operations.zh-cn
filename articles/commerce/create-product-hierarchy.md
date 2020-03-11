@@ -17,66 +17,66 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 73cecb0c6aacebf5c6fcf8a0edbc7513b3ce175d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 724ec2e5af7837d574298d662911cd9c6ee9e9f2
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001890"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070413"
 ---
-# <a name="create-a-new-product-hierarchy"></a><span data-ttu-id="0e3ff-103">创建新产品层次结构</span><span class="sxs-lookup"><span data-stu-id="0e3ff-103">Create a new product hierarchy</span></span>
+# <a name="create-a-new-product-hierarchy"></a><span data-ttu-id="3b3e5-103">创建新产品层次结构</span><span class="sxs-lookup"><span data-stu-id="3b3e5-103">Create a new product hierarchy</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="0e3ff-104">此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建新产品层次结构。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-104">This topic describes how to create a new product hierarchy in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="3b3e5-104">此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建新产品层次结构。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-104">This topic describes how to create a new product hierarchy in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="0e3ff-105">概览</span><span class="sxs-lookup"><span data-stu-id="0e3ff-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="3b3e5-105">概览</span><span class="sxs-lookup"><span data-stu-id="3b3e5-105">Overview</span></span>
 
-<span data-ttu-id="0e3ff-106">Dynamics 365 Commerce 支持多种零售渠道。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-106">Dynamics 365 Commerce supports multiple retail channels.</span></span> <span data-ttu-id="0e3ff-107">这些零售渠道包括在线商店、呼叫中心和零售商店（亦称实体商店）。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-107">These retail channels include online stores, call centers, and retail stores (also known as brick-and-mortar stores).</span></span> <span data-ttu-id="0e3ff-108">每个零售商店渠道都可以有自己的付款方式、价格组、销售点 (POS) 收银机、收入帐户和支出帐户以及职员。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-108">Each retail store channel can have its own payment methods, price groups, point of sale (POS) registers, income accounts and expense accounts, and staff.</span></span> <span data-ttu-id="0e3ff-109">您必须先设置所有这些元素，然后才能创建零售商店渠道。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-109">You must set up all of these elements before you can create a retail store channel.</span></span> 
+<span data-ttu-id="3b3e5-106">Dynamics 365 Commerce 支持多种零售渠道。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-106">Dynamics 365 Commerce supports multiple retail channels.</span></span> <span data-ttu-id="3b3e5-107">这些零售渠道包括在线商店、呼叫中心和零售商店（亦称实体商店）。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-107">These retail channels include online stores, call centers, and retail stores (also known as brick-and-mortar stores).</span></span> <span data-ttu-id="3b3e5-108">每个零售商店渠道都可以有自己的付款方式、价格组、销售点 (POS) 收银机、收入帐户和支出帐户以及职员。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-108">Each retail store channel can have its own payment methods, price groups, point of sale (POS) registers, income accounts and expense accounts, and staff.</span></span> <span data-ttu-id="3b3e5-109">您必须先设置所有这些元素，然后才能创建零售商店渠道。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-109">You must set up all of these elements before you can create a retail store channel.</span></span> 
 
-<span data-ttu-id="0e3ff-110">商业产品层次结构用于定义您的组织的整个产品层次结构。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-110">A Commerce product hierarchy is used to define the overall product hierarchy for your organization.</span></span> <span data-ttu-id="0e3ff-111">您可以为促销活动、定价和促销、报告和分类计划使用此商业产品层次结构。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-111">You can use a Commerce product hierarchy for merchandising, pricing and promotions, reporting, and assortment planning.</span></span> <span data-ttu-id="0e3ff-112">只能为每个组织分配一个商业产品层次结构。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-112">Only one Commerce product hierarchy can be assigned per organization.</span></span>
+<span data-ttu-id="3b3e5-110">商业产品层次结构用于定义您的组织的整个产品层次结构。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-110">A Commerce product hierarchy is used to define the overall product hierarchy for your organization.</span></span> <span data-ttu-id="3b3e5-111">您可以为促销活动、定价和促销、报告和分类计划使用此商业产品层次结构。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-111">You can use a Commerce product hierarchy for merchandising, pricing and promotions, reporting, and assortment planning.</span></span> <span data-ttu-id="3b3e5-112">只能为每个组织分配一个商业产品层次结构。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-112">Only one Commerce product hierarchy can be assigned per organization.</span></span>
 
-## <a name="create-and-configure-a-product-hierarchy"></a><span data-ttu-id="0e3ff-113">创建和配置产品层次结构</span><span class="sxs-lookup"><span data-stu-id="0e3ff-113">Create and configure a product hierarchy</span></span>
+## <a name="create-and-configure-a-product-hierarchy"></a><span data-ttu-id="3b3e5-113">创建和配置产品层次结构</span><span class="sxs-lookup"><span data-stu-id="3b3e5-113">Create and configure a product hierarchy</span></span>
 
-<span data-ttu-id="0e3ff-114">要创建和配置商业产品层次结构，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-114">To create and configure a Commerce product hierarchy, follow these steps.</span></span>
+<span data-ttu-id="3b3e5-114">要创建和配置商业产品层次结构，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-114">To create and configure a Commerce product hierarchy, follow these steps.</span></span>
 
-1. <span data-ttu-id="0e3ff-115">在导航窗格中，转到**模块 \> Retail 和 Commerce \> 产品和类别 \> 商业产品层次结构**。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-115">In the navigation pane, go to **Modules \> Retail and commerce \> Products and categories \> Commerce product hierarchy**.</span></span>
-1. <span data-ttu-id="0e3ff-116">如果还不存在层次结构，则在**操作窗格**上选择**新建**以创建层次结构的根。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-116">If no hierachy exists yet, on the **Action pane**, select **New** to create the root of the hierarchy.</span></span>
-1. <span data-ttu-id="0e3ff-117">在**常规**下面：</span><span class="sxs-lookup"><span data-stu-id="0e3ff-117">Under **General**:</span></span>
-    1. <span data-ttu-id="0e3ff-118">在**名称**框中，输入名称。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-118">In the **Name** box, enter a name.</span></span>
-    1. <span data-ttu-id="0e3ff-119">在**描述**框中，输入描述。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-119">In the **Description** box, enter a description.</span></span>
-    1. <span data-ttu-id="0e3ff-120">在**友好名称**框中，输入友好名称。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-120">In the **Friendly name** box, enter a friendly name.</span></span>
-    1. <span data-ttu-id="0e3ff-121">将**有效**设置为**是**。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-121">Set **Active** to **Yes**.</span></span>
+1. <span data-ttu-id="3b3e5-115">在导航窗格中，转到**模块 \> Retail 和 Commerce \> 产品和类别 \> 商业产品层次结构**。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-115">In the navigation pane, go to **Modules \> Retail and commerce \> Products and categories \> Commerce product hierarchy**.</span></span>
+1. <span data-ttu-id="3b3e5-116">如果还不存在层次结构，则在**操作窗格**上选择**新建**以创建层次结构的根。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-116">If no hierachy exists yet, on the **Action pane**, select **New** to create the root of the hierarchy.</span></span>
+1. <span data-ttu-id="3b3e5-117">在**常规**下面：</span><span class="sxs-lookup"><span data-stu-id="3b3e5-117">Under **General**:</span></span>
+    1. <span data-ttu-id="3b3e5-118">在**名称**框中，输入名称。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-118">In the **Name** box, enter a name.</span></span>
+    1. <span data-ttu-id="3b3e5-119">在**描述**框中，输入描述。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-119">In the **Description** box, enter a description.</span></span>
+    1. <span data-ttu-id="3b3e5-120">在**友好名称**框中，输入友好名称。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-120">In the **Friendly name** box, enter a friendly name.</span></span>
+    1. <span data-ttu-id="3b3e5-121">将**有效**设置为**是**。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-121">Set **Active** to **Yes**.</span></span>
 
-## <a name="add-hierarchy-nodes"></a><span data-ttu-id="0e3ff-122">添加层次结构节点</span><span class="sxs-lookup"><span data-stu-id="0e3ff-122">Add hierarchy nodes</span></span>
+## <a name="add-hierarchy-nodes"></a><span data-ttu-id="3b3e5-122">添加层次结构节点</span><span class="sxs-lookup"><span data-stu-id="3b3e5-122">Add hierarchy nodes</span></span>
 
-<span data-ttu-id="0e3ff-123">若要添加层次结构节点，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-123">To add hierarchy nodes, follow these steps.</span></span>
+<span data-ttu-id="3b3e5-123">若要添加层次结构节点，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-123">To add hierarchy nodes, follow these steps.</span></span>
 
-1. <span data-ttu-id="0e3ff-124">在操作窗格上选择**编辑类别层次结构**。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-124">On the action pane, select **Edit category hierarchy**.</span></span>
-1. <span data-ttu-id="0e3ff-125">选择要向其添加新节点的父节点，然后选择**新类别节点**。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-125">Select the parent node you want to add a new node to, and then select **New category node**.</span></span>
-1. <span data-ttu-id="0e3ff-126">在**常规**部分中，提供**名称**、**描述**、**友好名称**和**关键字**。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-126">In the **General** section provide a **Name**, **Description**, **Friendly name** and **Keywords**.</span></span>
-1. <span data-ttu-id="0e3ff-127">在**常规**下面：</span><span class="sxs-lookup"><span data-stu-id="0e3ff-127">Under **General**:</span></span>
-    1. <span data-ttu-id="0e3ff-128">在**名称**框中，输入名称。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-128">In the **Name** box, enter a name.</span></span>
-    1. <span data-ttu-id="0e3ff-129">在**描述**框中，输入描述。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-129">In the **Description** box, enter a description.</span></span>
-    1. <span data-ttu-id="0e3ff-130">在**友好名称**框中，输入友好名称。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-130">In the **Friendly name** box, enter a friendly name.</span></span>
-    1. <span data-ttu-id="0e3ff-131">在**关键字**框中，输入相关关键字。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-131">In the **Keywords** box, enter relevant keywords.</span></span>
-    1. <span data-ttu-id="0e3ff-132">在**显示顺序**框中，输入显示顺序编号（可选）。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-132">In the **Display order**box, enter a number for the display order (optional).</span></span>
-1. <span data-ttu-id="0e3ff-133">在操作窗格上，选择**保存**。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-133">On the action pane, select **Save**.</span></span>
-1. <span data-ttu-id="0e3ff-134">重复上述步骤以添加其他节点。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-134">Repeat the steps above to add additional nodes.</span></span>
+1. <span data-ttu-id="3b3e5-124">在操作窗格上选择**编辑类别层次结构**。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-124">On the action pane, select **Edit category hierarchy**.</span></span>
+1. <span data-ttu-id="3b3e5-125">选择要向其添加新节点的父节点，然后选择**新类别节点**。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-125">Select the parent node you want to add a new node to, and then select **New category node**.</span></span>
+1. <span data-ttu-id="3b3e5-126">在**常规**部分中，提供**名称**、**描述**、**友好名称**和**关键字**。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-126">In the **General** section provide a **Name**, **Description**, **Friendly name** and **Keywords**.</span></span>
+1. <span data-ttu-id="3b3e5-127">在**常规**下面：</span><span class="sxs-lookup"><span data-stu-id="3b3e5-127">Under **General**:</span></span>
+    1. <span data-ttu-id="3b3e5-128">在**名称**框中，输入名称。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-128">In the **Name** box, enter a name.</span></span>
+    1. <span data-ttu-id="3b3e5-129">在**描述**框中，输入描述。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-129">In the **Description** box, enter a description.</span></span>
+    1. <span data-ttu-id="3b3e5-130">在**友好名称**框中，输入友好名称。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-130">In the **Friendly name** box, enter a friendly name.</span></span>
+    1. <span data-ttu-id="3b3e5-131">在**关键字**框中，输入相关关键字。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-131">In the **Keywords** box, enter relevant keywords.</span></span>
+    1. <span data-ttu-id="3b3e5-132">在**显示顺序**框中，输入显示顺序编号（可选）。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-132">In the **Display order**box, enter a number for the display order (optional).</span></span>
+1. <span data-ttu-id="3b3e5-133">在操作窗格上，选择**保存**。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-133">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="3b3e5-134">重复上述步骤以添加其他节点。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-134">Repeat the steps above to add additional nodes.</span></span>
 
-<span data-ttu-id="0e3ff-135">下图显示了新产品层次结构节点的创建过程。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-135">The following image shows the creation of a new product hierarchy node.</span></span>
+<span data-ttu-id="3b3e5-135">下图显示了新产品层次结构节点的创建过程。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-135">The following image shows the creation of a new product hierarchy node.</span></span>
 
 ![创建产品层次结构](media/create-product-hierarchy.png)
 
-## <a name="other-settings"></a><span data-ttu-id="0e3ff-137">其他设置</span><span class="sxs-lookup"><span data-stu-id="0e3ff-137">Other settings</span></span>
+## <a name="other-settings"></a><span data-ttu-id="3b3e5-137">其他设置</span><span class="sxs-lookup"><span data-stu-id="3b3e5-137">Other settings</span></span>
 
-<span data-ttu-id="0e3ff-138">类别属性组也可以根据需要分配给每个组。</span><span class="sxs-lookup"><span data-stu-id="0e3ff-138">Category attribute groups can also be assigned to each group as required.</span></span>  
+<span data-ttu-id="3b3e5-138">类别属性组也可以根据需要分配给每个组。</span><span class="sxs-lookup"><span data-stu-id="3b3e5-138">Category attribute groups can also be assigned to each group as required.</span></span>  
 
-## <a name="additional-resources"></a><span data-ttu-id="0e3ff-139">其他资源</span><span class="sxs-lookup"><span data-stu-id="0e3ff-139">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="3b3e5-139">其他资源</span><span class="sxs-lookup"><span data-stu-id="3b3e5-139">Additional resources</span></span>
 
-[<span data-ttu-id="0e3ff-140">零售层次结构</span><span class="sxs-lookup"><span data-stu-id="0e3ff-140">Retail hierarchies</span></span>](retail-hierarchies.md)
+[<span data-ttu-id="3b3e5-140">Commerce 层次结构</span><span class="sxs-lookup"><span data-stu-id="3b3e5-140">commerce hierarchies</span></span>](retail-hierarchies.md)
 
-[<span data-ttu-id="0e3ff-141">管理产品类别和产品</span><span class="sxs-lookup"><span data-stu-id="0e3ff-141">Manage product categories and products </span></span>](category-management-product-creation.md)
+[<span data-ttu-id="3b3e5-141">管理产品类别和产品</span><span class="sxs-lookup"><span data-stu-id="3b3e5-141">Manage product categories and products </span></span>](category-management-product-creation.md)
 
-[<span data-ttu-id="0e3ff-142">更改促销实体的排序顺序</span><span class="sxs-lookup"><span data-stu-id="0e3ff-142">Change the sort order for merchandizing entities</span></span>](custom-order-categories-nav-retail-prod-hierarchy.md)
+[<span data-ttu-id="3b3e5-142">更改促销实体的排序顺序</span><span class="sxs-lookup"><span data-stu-id="3b3e5-142">Change the sort order for merchandizing entities</span></span>](custom-order-categories-nav-retail-prod-hierarchy.md)

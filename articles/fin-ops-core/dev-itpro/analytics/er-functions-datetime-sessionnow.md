@@ -18,35 +18,35 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4dff6daa8fbd60ef1fc84d783e428d69477aac6d
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 5489fab61791654c2e583fc11b27aba09fb90c86
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916261"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042289"
 ---
-# <span data-ttu-id="f3641-103"><a name="">SESSIONNOW ER 函数</a></span><span class="sxs-lookup"><span data-stu-id="f3641-103"><a name="">SESSIONNOW ER function</a></span></span>
+# <span data-ttu-id="9d2fd-103"><a name="">SESSIONNOW ER 函数</a></span><span class="sxs-lookup"><span data-stu-id="9d2fd-103"><a name="">SESSIONNOW ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f3641-104">`SESSIONNOW` 函数返回一个*日期时间*值，此值表示当前应用程序会话的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="f3641-104">The `SESSIONNOW` function returns a *DateTime* value that represents the current application session date and time.</span></span>
+<span data-ttu-id="9d2fd-104">`SESSIONNOW` 函数返回一个*日期时间*值，此值表示当前应用程序会话的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="9d2fd-104">The `SESSIONNOW` function returns a *DateTime* value that represents the current application session date and time.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f3641-105">语法</span><span class="sxs-lookup"><span data-stu-id="f3641-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9d2fd-105">语法</span><span class="sxs-lookup"><span data-stu-id="9d2fd-105">Syntax</span></span>
 
-```
+```vb
 SESSIONNOW ()
 ```
 
-## <a name="return-values"></a><span data-ttu-id="f3641-106">返回值</span><span class="sxs-lookup"><span data-stu-id="f3641-106">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="9d2fd-106">返回值</span><span class="sxs-lookup"><span data-stu-id="9d2fd-106">Return values</span></span>
 
-<span data-ttu-id="f3641-107">*DateTime*</span><span class="sxs-lookup"><span data-stu-id="f3641-107">*DateTime*</span></span>
+<span data-ttu-id="9d2fd-107">*DateTime*</span><span class="sxs-lookup"><span data-stu-id="9d2fd-107">*DateTime*</span></span>
 
-<span data-ttu-id="f3641-108">生成的日期/时间值。</span><span class="sxs-lookup"><span data-stu-id="f3641-108">The resulting date/time value.</span></span>
+<span data-ttu-id="9d2fd-108">生成的日期/时间值。</span><span class="sxs-lookup"><span data-stu-id="9d2fd-108">The resulting date/time value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f3641-109">示例</span><span class="sxs-lookup"><span data-stu-id="f3641-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9d2fd-109">示例</span><span class="sxs-lookup"><span data-stu-id="9d2fd-109">Example</span></span>
 
-<span data-ttu-id="f3641-110">`DATETIMEFORMAT (SESSIONNOW(), "d", "DE")` 根据所选的德国区域性和指定格式，返回当前应用程序会话的日期/时间值 2015 年 12 月 24 日为 **"24.12.2015"**。</span><span class="sxs-lookup"><span data-stu-id="f3641-110">`DATETIMEFORMAT (SESSIONNOW(), "d", "DE")` returns the current application session date/time value, December 24, 2015, as **"24.12.2015"**, based on the selected German culture and the specified format.</span></span>
+<span data-ttu-id="9d2fd-110">`DATETIMEFORMAT (SESSIONNOW(), "d", "DE")` 根据所选的德国区域性和指定格式，返回当前应用程序会话的日期/时间值 2015 年 12 月 24 日为 **"24.12.2015"**。</span><span class="sxs-lookup"><span data-stu-id="9d2fd-110">`DATETIMEFORMAT (SESSIONNOW(), "d", "DE")` returns the current application session date/time value, December 24, 2015, as **"24.12.2015"**, based on the selected German culture and the specified format.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="f3641-111">其他资源</span><span class="sxs-lookup"><span data-stu-id="f3641-111">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="9d2fd-111">其他资源</span><span class="sxs-lookup"><span data-stu-id="9d2fd-111">Additional resources</span></span>
 
-[<span data-ttu-id="f3641-112">日期和时间函数</span><span class="sxs-lookup"><span data-stu-id="f3641-112">Date and time functions</span></span>](er-functions-category-datetime.md)
+[<span data-ttu-id="9d2fd-112">日期和时间函数</span><span class="sxs-lookup"><span data-stu-id="9d2fd-112">Date and time functions</span></span>](er-functions-category-datetime.md)
