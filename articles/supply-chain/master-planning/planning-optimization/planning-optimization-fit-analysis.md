@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a61529da63bc20fdd591afc94db960b05c284bb9
-ms.sourcegitcommit: b806f0c94d703bec39680fead827733361d47045
+ms.openlocfilehash: 25f3b39d0e6e88eb3f042ab93773e9724528ab0f
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935867"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076170"
 ---
+# <a name="planning-optimization-fit-analysis"></a>计划优化拟合分析
+
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
-
-# <a name="planning-optimization-fit-analysis"></a>计划优化拟合分析
 
 要查看您当前的设置和数据与计划优化功能之间的兼容性，请转到**主计划** \> **设置** \> **计划优化拟合分析**，然后选择**运行分析**。 如果分析发现任何不一致之处，则会在同一页面上列出。 （分析可能需要几分钟运行。）
 

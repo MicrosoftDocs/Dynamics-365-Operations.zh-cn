@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ff9d722640c86333cb1f9174c640adc2e76e9a5f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 45677681ebae40210d6e2d896323f7e691b765e2
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021806"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057548"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>商业渠道的会计整合概览
 
@@ -36,7 +36,7 @@ ms.locfileid: "3021806"
 - 安全地向税务主管机构管理的外部 Web 服务提交与在 Retail POS 完成的销售和退货相关的信息。
 - 通过数字签名帮助确保销售交易数据的不变性。
 
-会计整合功能是一个框架，为进一步开发和自定义 Retail POS 与会计设备和服务之间的整合提供通用解决方案。 此功能还包括支持特定国家或地区的基本零售方案，以及使用特定会计设备或服务的会计整合示例。 会计整合示例由若干 Commerce 组件的扩展组成，包含在软件开发套件 (SDK) 中。 有关会计整合示例的详细信息，请参阅 [Retail SDK 中的会计整合示例](#fiscal-integration-samples-in-the-retail-sdk)。 有关如何安装和使用 Retail SDK 的信息，请参阅 [Retail 软件开发套件 (SDK) 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)。
+会计整合功能是一个框架，为进一步开发和自定义 Retail POS 与会计设备和服务之间的整合提供通用解决方案。 此功能还包括支持特定国家或地区的基本方案，以及使用特定会计设备或服务的会计整合示例。 会计整合示例由若干 Commerce 组件的扩展组成，包含在软件开发套件 (SDK) 中。 有关会计整合示例的详细信息，请参阅 [Retail SDK 中的会计整合示例](#fiscal-integration-samples-in-the-retail-sdk)。 有关如何安装和使用 Retail SDK 的信息，请参阅 [Retail 软件开发套件 (SDK) 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)。
 
 为了支持会计整合示例不支持的其他方案，将 Retail POS 与其他会计设备或服务整合，或者满足其他国家或地区的要求，您必须扩展用现有的会计整合示例或将现有示例用作范例创建新示例。
 

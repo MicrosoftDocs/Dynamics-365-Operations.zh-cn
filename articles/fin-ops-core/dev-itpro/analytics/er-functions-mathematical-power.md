@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb768b400e3ddb99e7c8b05905d7a2dd9e4392de
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c57222d7fcc133faa679bab43431272c984c9d8b
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915893"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041622"
 ---
 # <a name="POWER">POWER ER 函数</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2915893"
 
 ## <a name="syntax"></a>语法
 
-```
+```vb
 POWER (number, power)
 ```
 

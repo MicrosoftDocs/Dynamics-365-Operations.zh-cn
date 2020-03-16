@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4165f6e064d12200907ac76b6779d35bc578daba
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 3cd4c152d4e220a2f6315265ed5e44d148134279
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917480"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042243"
 ---
 # <a name="NULLDATETIME">NULLDATETIME ER 函数</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2917480"
 
 ## <a name="syntax"></a>语法
 
-```
+```vb
 NULLDATETIME ()
 ```
 

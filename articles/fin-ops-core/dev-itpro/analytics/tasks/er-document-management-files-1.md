@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b82b1719990caeb1b383ab806a3e09a4c4a6e41a
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c6085f2f06fb374887d504c332a34705f0fd9e99
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026126"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042819"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER 在格式输出中使用票据管理文件（第 1 部分 - 准备数据模型）
 
@@ -36,10 +36,14 @@ ms.locfileid: "3026126"
 
 ## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>访问 Microsoft 提供的配置列表
 1. 转到“组织管理”>“工作区”>“电子申报”。
-    * 确保“Litware 公司” 提供程序可用且标记为有效。  
+
+    确保“Litware 公司” 提供程序可用且标记为有效。  
+
 2. 选择“Litware 公司” 提供程序。
 3. 单击“存储库”。
-    * 如果已存在“运营资源”类型的存储库，请跳过当前子任务的其余步骤。  
+
+    如果已存在“运营资源”类型的存储库，请跳过当前子任务的其余步骤。  
+
 4. 单击“添加”以打开下拉对话框。
 5. 在“配置存储库类型”字段中，输入“运营资源”。
 6. 单击“创建存储库”。
@@ -51,9 +55,13 @@ ms.locfileid: "3026126"
 3. 单击“显示筛选器”。
 4. 单击“打开”。
 5. 在树中，选择“客户发票模型”。
-    * 选择模型配置“客户发票模型”将其导入。  
+
+    选择模型配置“客户发票模型”将其导入。  
+
 6. 单击“导入”。
-    * 单击所选配置版本 1 的“导入”。  
+
+    单击所选配置版本 1 的“导入”。  
+
 7. 单击“是”。
 8. 关闭该页面。
 9. 关闭该页面。
@@ -65,6 +73,5 @@ ms.locfileid: "3026126"
 1. 单击“创建配置”，以打开下拉对话框。
 2. 在"新建"字段中，输入“从以下名称派生：客户发票模型，Microsoft”。
 3. 在“名称”字段中，键入“客户发票模型（自定义）”。
-    * 客户发票模型（自定义）  
 4. 单击“创建配置”。
 

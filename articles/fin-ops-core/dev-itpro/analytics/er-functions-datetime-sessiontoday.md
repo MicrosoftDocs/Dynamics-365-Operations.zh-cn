@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcfb36d6e3fb8475546f7cfb420c4aca848ac896
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 483ff46a27068bc2d70c80a848f0329861c914b3
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917457"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042250"
 ---
 # <a name="SESSIONTODAY">SESSIONTODAY ER 函数</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2917457"
 
 ## <a name="syntax"></a>语法
 
-```
+```vb
 SESSIONTODAY ()
 ```
 

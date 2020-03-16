@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 43b23b9ef881b2ab2f3d005d4ba761848a7fa4ed
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024721"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057732"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>为 Dynamics 365 Commerce 预览环境配置可选功能
 
@@ -63,8 +63,8 @@ ms.locfileid: "3024721"
 
 ### <a name="update-the-media-base-url"></a>更新媒体基 URL
 
-1. 登录 Dynamics 365 Retail。
-1. 使用左侧菜单转到**模块 \> Retail \> 渠道设置 \> 渠道配置文件**。
+1. 登录 Dynamics 365 Commerce。
+1. 使用左侧菜单转到**模块 \> Retail 和 Commerce \> 渠道设置 \> 渠道配置文件**。
 1. 选择**编辑**。
 1. 在**配置文件属性**下，将**媒体服务器基 URL** 属性的值替换为您前面创建的媒体基 URL。
 1. 在左侧列表中，在**默认**渠道下，选择另一个渠道。
@@ -77,7 +77,7 @@ ms.locfileid: "3024721"
 > [!NOTE]
 > 必须可从您用于环境的 Azure 订阅访问您在此处输入的 SMTP 服务器或电子邮件服务。
 
-1. 登录 Retail。
+1. 登录 Commerce。
 1. 使用左侧菜单转到**模块 \> 系统管理 \> 设置 \> 电子邮件 \> 电子邮件参数**。
 1. 在 **SMTP 设置**选项卡上，在**出站邮件服务器**字段中，输入您的 SMTP 服务器或电子邮件服务的 FQDN 或 IP 地址。
 1. 在 **SMTP 端口号**字段中，输入端口号。 （如果您使用的不是安全套接字层 \[SSL\]，默认端口号是 **25**。）
@@ -92,7 +92,7 @@ ms.locfileid: "3024721"
 
 对于要为其发送电子邮件的每个交易事件，必须使用有效的发件人电子邮件地址更新电子邮件模板。
 
-1. 登录 Retail。
+1. 登录 Commerce。
 1. 使用左侧菜单转到**模块 \> 组织管理 \> 设置 \> 组织电子邮件模板**。
 1. 选择**显示列表**。
 1. 对于列表中的每个模板，请执行这些步骤：
@@ -115,7 +115,7 @@ ms.locfileid: "3024721"
     - 选择订单模板
 
 1. 使用文本编辑器或 HTML 编辑器自定义模板。 请参阅本主题后面的[支持的标志](#supported-tokens-in-the-email-template)列表。
-1. 登录 Retail。
+1. 登录 Commerce。
 1. 使用左侧菜单转到**模块 \> 组织管理 \> 设置 \> 组织电子邮件模板**。
 1. 展开左侧列表查看所有模板。
 1. 对于您要自定义的每个模板，请按照下列步骤操作：

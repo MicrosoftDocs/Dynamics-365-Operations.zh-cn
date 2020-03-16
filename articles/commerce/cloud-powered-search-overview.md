@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de0981d3200c2b1d62cab7600d2382bd11dd4b20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002235"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057825"
 ---
 # <a name="cloud-powered-search-overview"></a>云助力的搜索概览
 
@@ -33,7 +33,7 @@ ms.locfileid: "3002235"
 
 ## <a name="overview"></a>概览
 
-产品发现功能有助于确保客户通过浏览类别，搜索和筛选，快速、轻松地找到产品。 零售商将产品发现视为所有零售渠道中的主要客户互动工具。
+产品发现功能有助于确保客户通过浏览类别，搜索和筛选，快速、轻松地找到产品。 零售商将产品发现视为所有渠道中的主要客户互动工具。
 
 客户习惯了 Web 搜索引擎几乎即时响应，精美的电子商务网站，社交应用，键入搜索词时显示自动建议，分面导航和突出显示。 如果客户在一个电子商务商店中无法足够快找到查找的产品，将立即转到其他电子商务商店。
 

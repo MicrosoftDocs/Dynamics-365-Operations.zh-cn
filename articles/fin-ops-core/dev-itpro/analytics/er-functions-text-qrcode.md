@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac0910d213ee05a2a7a7b218a6714d4f935be16
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 8a52dbce29140591baf4be97baef237dce1f2511
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916744"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3040840"
 ---
 # <a name="QRCODE">QRCODE ER 函数</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2916744"
 
 ## <a name="syntax"></a>语法
 
-```
+```vb
 QRCODE (text)
 ```
 
@@ -53,7 +53,7 @@ QRCODE (text)
 
 您可以配置电子申报 (ER) 格式以使用预定义的模板使用 Microsoft Office 格式（Excel 工作簿或 Word 文档）生成传出文档。 此模板可能包含**图片**对象（Excel 工作簿）或**图片内容控制**（Word 文档）作为 QR 代码图像的占位符。 您需要将已配置的 ER 格式添加到用于填充此占位符的**单元格**元素。 要指定将哪些信息存储在 QR 代码中，您需要为此**单元格**元素定义绑定。 例如，您可以将此绑定配置为包含以下表达式：
 
-```
+```vb
 QRCODE (model.ListOfShelfLabels.LabelText)`
 ```
 

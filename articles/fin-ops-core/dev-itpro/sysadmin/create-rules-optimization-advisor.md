@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 27066cd860d78743d5ae7c851876eb62fe019245
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e14949b871534868c42d2b26a116e10ff9f05179
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180982"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081988"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>为优化顾问创建规则
 
@@ -36,7 +36,7 @@ ms.locfileid: "2180982"
 
 若要为**优化顾问**创建新规则，请添加一个新类，该类用于扩展 **SelfHealingRule** 抽象类和实施 **IDiagnosticsRule** 接口，并由 **DiagnosticRule** 属性装饰。 该类还必须有一个使用 **DiagnosticsRuleSubscription** 属性装饰的方法。 按照惯例，这通过 **opportunityTitle** 方法执行，后者将在下文探讨。 这个新类将添加到依赖于 **SelfHealingRules** 方法的一个自定义模型。 在以下示例中，实施的规则称为 **RFQTitleSelfHealingRule**。
 
-```
+```xpp
 [DiagnosticsRule] 
 public final class RFQTitleSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule 
 { 
@@ -46,7 +46,7 @@ public final class RFQTitleSelfHealingRule extends SelfHealingRule implements ID
 
 **SelfHealingRule** 抽象类具有必须在继承类中实施的抽象方法。 核心是 **evaluate** 方法，该方法返回由规则标识的商机的列表。 商机可以按法人，也可以适用于整个系统。
 
-```
+```xpp
 protected List evaluate() 
 { 
     List results = new List(Types::Record); 
@@ -82,7 +82,7 @@ protected List evaluate()
 
 以下代码显示 **findRFQCasesWithEmptyTitle** 方法，用于返回具有空标题的 RFQ 案例的 ID。
 
-```
+```xpp
 private container findRFQCasesWithEmptyTitle() 
 { 
     container result; 
@@ -115,7 +115,7 @@ private container findRFQCasesWithEmptyTitle()
 
 下面是一个示例实施。 使用原始字符串是为了简单方便，但是正确的实施需要标签。 
 
-```
+```xpp
 [DiagnosticsRuleSubscription(DiagnosticsArea::SCM, 
                              'Assign titles to Request for Quotation cases', 
                              DiagnosticsRunFrequency::Daily,  
@@ -128,7 +128,7 @@ public str opportunityTitle()
 
 **opportunityDetails** 返回的说明在侧窗格中显示，用于显示有关商机的详细信息。 它采用 **SelfHealingOpportunity** 自变量，后者是可用于提供有关商机的更多详细信息的**数据**字段。 在该示例中，方法返回具有空标题的 RFQ 案例的 ID。 
 
-```
+```xpp
 public str opportunityDetails(SelfHealingOpportunity _opportunity) 
 { 
     str details = ''; 
@@ -153,7 +153,7 @@ public str opportunityDetails(SelfHealingOpportunity _opportunity)
 
 如果提供了治愈操作，**provideHealingAction** 将返回 true。否则返回 false。 如果返回 true，则必须实施方法 **performAction**，否则将引发错误。 **performAction** 方法采用 **SelfHealingOpportunity** 自变量，可在其中将数据用于操作。 在该示例中，操作将打开 **PurchRFQCaseTableListPage** 以执行手动更正。 
 
-```
+```xpp
 public boolean providesHealingAction() 
 { 
     return true; 
@@ -172,7 +172,7 @@ protected void performAction(SelfHealingOpportunity _opportunity)
 > [!NOTE]
 > 此菜单项必须是操作菜单项，才能确保安全。 **显示菜单项**之类其他菜单项类型无法正确工作。
 
-```
+```xpp
 public MenuName securityMenuItem() 
 { 
     return menuItemActionStr(PurchRFQCaseTitleAction); 
@@ -181,7 +181,7 @@ public MenuName securityMenuItem()
 
 编译规则后，请执行以下作业，以便使其在用户界面 (UI) 中显示。
 
-```
+```xpp
 class ScanNewRulesJob 
 {         
     public static void main(Args _args) 
@@ -197,7 +197,7 @@ class ScanNewRulesJob
 
 以下示例是带规则摘要的代码段，其中包括所有必需的方法和属性。 可帮助您熟悉如何撰写新规则。此示例中使用的标签和操作菜单项仅用于演示目的。
 
-```
+```xpp
 [DiagnosticsRuleAttribute]
 public final class SkeletonSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule
 {

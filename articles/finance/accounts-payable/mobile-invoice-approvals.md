@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
+ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658636"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3059420"
 ---
 # <a name="mobile-invoice-approvals"></a>移动发票审核
 
@@ -54,8 +54,8 @@ ms.locfileid: "2658636"
     -   一个发票行有多少个会计分配（延伸价格、销售税、费用、拆分等）？ 再次应用 80-20 规则。
     -   发票的发票抬头中是否也有会计分配？ 如果有，这些会计分配在设备上是否可用？
 
-> [!NOTE]
-> 此主题不介绍如何编辑会计分配，因为此功能现在不支持移动方案。
+    > [!NOTE]
+    > 此主题不介绍如何编辑会计分配，因为此功能现在不支持移动方案。
 
 -   用户是否要在设备上查看发票的附件？
 
@@ -158,9 +158,9 @@ ms.locfileid: "2658636"
     - 发票编号
     - 发票日期
 
-  添加字段之后，移动页面必须类似下图。 
+    添加字段之后，移动页面必须类似下图。 
     
-   [![添加字段后的页面](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![添加字段后的页面](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  还必须立即添加以下列，以便在以后启用工作流操作。
     - 显示已完成任务
@@ -247,9 +247,10 @@ ms.locfileid: "2658636"
     - 隐藏我们前面在移动列表页面中添加且与工作流有关的额外列。 我们添加这些列是为了让应用程序在上下文中有这些信息，并且可以执行下一步。
     - 它根据处于活动状态的工作流步骤应用逻辑，以便仅显示这些操作。
 
-> [!NOTE]
-> 这些页面和代码中的其他控件的名称必须与工作区中的名称相同。
+    > [!NOTE]
+    > 这些页面和代码中的其他控件的名称必须与工作区中的名称相同。
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -308,6 +309,7 @@ ms.locfileid: "2658636"
                  },
            };
         }
+    ```
 
 2.  通过选择**逻辑**选项卡，将该代码文件上传到工作区。
 3.  单击**完成**退出编辑模式。
@@ -341,7 +343,7 @@ ms.locfileid: "2658636"
 
 1.  在 URL 中，替换 URL 中的菜单项名称，如前面执行的操作。 显示的页面应类似下图。
 
-[![“全部分配”页面](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![“全部分配”页面](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  通过**设置**（齿轮）按钮打开移动设计器。
 
@@ -367,16 +369,18 @@ ms.locfileid: "2658636"
 
 10. 单击**发布工作区**以保存工作
 
-> [!NOTE] 
-> **查看会计**移动页面现在未链接到我们迄今为止设计的任何移动页面。 因为用户应该可以从移动设备上的**发票明细**页面导航到**查看会计**页面，所以我们必须提供从**发票明细**页面到**查看会计**页面的导航。 我们使用通过 JavaScript 的更多逻辑建立此导航。
+#### <a name="adding-navigation-to-view-accounting-page"></a>添加“查看会计”页面的导航
+
+**查看会计**移动页面现在未链接到我们迄今为止设计的任何移动页面。 因为用户应该可以从移动设备上的**发票明细**页面导航到**查看会计**页面，所以我们必须提供从**发票明细**页面到**查看会计**页面的导航。 我们使用通过 JavaScript 的更多逻辑建立此导航。
 
 1.  打开您在前面创建的 .js 文件，然后添加以下代码中突出显示的行。 此代码执行两项操作：
     1.  这将帮助确保用户不能直接从工作区导航到**查看会计**页面。
     2.  它建立从**发票明细**页面到**查看会计**页面的导航控件。
 
-> [!NOTE] 
-> 这些页面和代码中的其他控件的名称必须与工作区中的名称相同。
+    > [!NOTE] 
+    > 这些页面和代码中的其他控件的名称必须与工作区中的名称相同。
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -439,7 +443,8 @@ ms.locfileid: "2658636"
                  },
            };
         }
-
+    ```
+    
 2.  通过选择**逻辑**选项卡，将该代码文件上传到工作区以覆盖以前的代码
 3.  单击**完成**退出编辑模式。
 4.  单击**后退**，然后单击**完成**退出工作区

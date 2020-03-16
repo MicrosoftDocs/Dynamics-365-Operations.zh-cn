@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 579b14c713bc5f9831c5e012d16bb3b6f97b1035
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 374569d3bbe59f1b96eee9c789b97b7b2a6004bf
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916422"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042473"
 ---
 # <a name="SUMIF">SUMIF ER 函数</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2916422"
 
 ## <a name="syntax"></a>语法
 
-```
+```vb
 SUMIF (key name for summing, condition range, condition value)
 ```
 

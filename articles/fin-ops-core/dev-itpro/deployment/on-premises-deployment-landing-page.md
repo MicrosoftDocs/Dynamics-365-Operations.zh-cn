@@ -1,9 +1,9 @@
 ---
 title: 本地部署主页
 description: 本主题提供有关本地部署的信息和内容链接。
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 11/04/2019
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 81698517dc501a6001f62216f3804510144c1045
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
+ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770938"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "3090581"
 ---
 # <a name="on-premises-deployment-home-page"></a>本地部署主页
 
@@ -51,16 +51,16 @@ ms.locfileid: "2770938"
 - [导入电子申报 (ER) 配置](../analytics/electronic-reporting-import-ger-configurations.md)
 - [本地部署中的文档生成、发布和打印](../analytics/printing-capabilities-on-premises.md)
 - [为本地环境配置代理](onprem-reverseproxy.md)
-- [设置对 Finance and Operations 应用的技术支持](../lifecycle-services/support-experience.md)
+- [设置对 Finance and Operations 的技术支持](../lifecycle-services/support-experience.md)
 - [客户端 Internet 连接](../user-interface/client-disconnected.md)
 - [将更新应用于本地部署](apply-updates-on-premises.md)
 - [重新部署本地环境](redeploy-on-prem.md)
 
-## <a name="retail"></a>Retail
-- [本地部署中提供的零售功能](../../../retail/retail-onprem.md)
+## <a name="commerce"></a>商业
+- [本地部署中提供的 Commerce 功能](../../../retail/retail-onprem.md)
 - [本地环境中零售渠道组件的安装步骤](deploy-retail-onprem.md)
-- [配置、安装和激活 Retail Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
-- [配置和安装 Retail Store Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [配置、安装和激活 Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
+- [配置和安装 Commerce Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>升级
 - [本地环境的就地升级流程](../migration-upgrade/on-prem-upgrade.md)
@@ -71,6 +71,6 @@ ms.locfileid: "2770938"
 - [证书轮换](certificate-rotation-on-prem.md)
 - [本地诊断](on-premises-diagnostics.md)
 - [未在本地部署中实现的功能](../../fin-ops/get-started/features-not-implemented-on-prem.md)
-- [Finance and Operations 的移除或弃用功能](../migration-upgrade/deprecated-features.md)
+- [Finance and Operations 的已删除或弃用的功能](../migration-upgrade/deprecated-features.md)
 - [软件生命周期策略和本地版本](../migration-upgrade/on-prem-version-update-policy.md)
  

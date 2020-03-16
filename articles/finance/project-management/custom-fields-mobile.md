@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 48854c15e429d51dcf30ea804eb636dee7965443
+ms.sourcegitcommit: a356299be9a593990d9948b3a6b754bd058a5b3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773637"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3080764"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>为 iOS 和 Android 上的 Microsoft Dynamics 365 Project Timesheet 移动应用实施自定义字段
 
@@ -183,7 +183,7 @@ ms.locfileid: "2773637"
 
 请注意，使用 **TSTimesheetCustomField::newFromMetatdata()** 方法可以简化以下自定义字段属性的初始化：**fieldBaseType**、**tableName**、**fieldname**、**label**、**isEditable**、**isMandatory**、**stringLength** 和 **numberOfDecimals**。 如果愿意，也可以手动设置这些参数。
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -212,7 +212,7 @@ final class TSTimesheetSettings_Extension
 
 **buildCustomFieldListForEntry** 方法用于在移动应用中保存的工时表行内输入值。 它采用 TSTimesheetTrans 记录充当参数。 可使用来自该记录的字段填充应用中的自定义字段值。
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetEntry))]
 final class TsTimesheetEntry_Extension
@@ -250,7 +250,7 @@ final class TsTimesheetEntry_Extension
 > [!NOTE]
 > 以下示例将用户选择的 **firstOption** 或 **secondOption** 值作为原始字符串值保存到数据库。 如果数据库字段为 **Enum** 类型的字段，则可以将这些值手动映射到枚举值，然后保存到数据库表中的枚举字段。
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetEntryService))]
 final class TSTimesheetEntryService_Extension
@@ -339,7 +339,7 @@ final class TSTimesheetEntryService_Extension
 
 以下示例在应用的标题部分中显示一个计算值。
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -369,7 +369,7 @@ final class TSTimesheetSettings_Extension
 **buildCustomFieldListForHeader** 方法用于在移动应用中填写工时表标题详细信息。 它采用 TSTimesheetTable 记录充当参数。 可使用来自该记录的字段填充应用中的自定义字段值。 以下示例不从数据库读取任何值。 而是使用 X++ 逻辑生成计算值，然后在应用中显示。
 
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetDetails))]
 final class TSTimesheetDetails_Extension

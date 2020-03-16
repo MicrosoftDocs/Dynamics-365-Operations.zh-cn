@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4992b42bae5edac0f588f08cd6b47ac2795f4c5d
-ms.sourcegitcommit: 615ed3e4260192ba36826e128f1afa1588e94845
+ms.openlocfilehash: c885602f99995d536d8ff3be43e67578abcda3fc
+ms.sourcegitcommit: a2f9dce06322dada6b5f1c82051ef2359f8c0f12
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/21/2020
-ms.locfileid: "2974468"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081810"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-january-14-2020"></a>Dynamics 365 Talent（2020 年 1 月 14 日）中的新增功能或更改的功能
 
@@ -47,7 +47,7 @@ ms.locfileid: "2974468"
 
 此更改解决了导入日历天会产生**日期格式无效**错误的问题。 此错误会阻止创建工作日历日期行。
 
-## <a name="coming-soon"></a>即将到期
+## <a name="coming-soon"></a>即将推出
 
 一个新的 Common Data Service 解决方案很快将推出，其中包含以下更改：
 

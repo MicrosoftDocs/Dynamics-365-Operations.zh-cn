@@ -1,25 +1,24 @@
 ---
-title: Finance and Operations 学习目录
-description: 查找 Finance and Operations 的所有培训选项。
-author: margoc
+title: 适用于 Finance and Operations 的学习目录
+description: 查找适用于 Finance and Operations 的所有培训选项。
+author: loreleishannonmsft
 ms.topic: article
-ms.date: 01/08/2020
-ms.author: margoc
-ms.service: dynamics-ax-applications
+ms.date: 02/19/2020
+ms.author: v-lshann
 audience: Application User
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: f2df76f2e1fac333faa854c1407d0a916862d231
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 751e0ec649d962af084f992957f0e4821ea9509d
+ms.sourcegitcommit: 41950e3b5e4d1d0014bef308ac017cb4c2b8e134
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945804"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3077985"
 ---
-# <a name="learning-catalog-for-finance-and-operations"></a>Finance and Operations 学习目录
+# <a name="learning-catalog-for-finance-and-operations"></a>适用于 Finance and Operations 的学习目录
 
 查找面向您作为 Finance and Operations 应用程序用户角色的合适的在线培训、现场研讨会和活动。 
 

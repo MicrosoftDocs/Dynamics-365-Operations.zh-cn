@@ -3,7 +3,7 @@ title: 渠道设置先决条件
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中的渠道设置先决条件。
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b861d90f1333c8f6e61a83602ed74e30b65f3dc1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 8a0927f6ee9b2d5bed1327bb223ceca85ecc16a0
+ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002281"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "3081307"
 ---
 # <a name="channel-setup-prerequisites"></a>渠道设置先决条件
 
@@ -40,16 +40,16 @@ ms.locfileid: "3002281"
 
 ## <a name="initialization"></a>初始化
 
-- [初始化种子数据](../retail/enable-configure-retail-functionality.md)
+- [初始化种子数据](enable-configure-retail-functionality.md)
 
 ## <a name="global-prerequisities-required-for-all-channel-types"></a>所有渠道类型所需的全局先决条件
 
 - [定义和配置法人结构](channels-legal-entities.md) 
 - [配置组织层次结构](channels-org-hierarchies.md)
 - [设置仓库](channels-setup-warehouse.md)
-- [配置销售税](https://docs.microsoft.com/en-us/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
+- [配置销售税](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
 - [设置电子邮件通知配置文件](email-notification-profiles.md)
-- [设置编号规则](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
+- [设置编号规则](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
 - [设置默认客户和通讯簿](default-customer.md)
 <!--
 - [Configure commerce parameters](commerce-parameters.md)
@@ -57,19 +57,17 @@ ms.locfileid: "3002281"
 
 ## <a name="retail-channel-prerequisites"></a>零售渠道先决条件
 
-- [信息代码和信息代码组](https://docs.microsoft.com/en-us/dynamics365/retail/info-codes-retail?toc=/dynamics365/commerce/toc.json)
+- [信息代码和信息代码组](info-codes-retail.md)
 - [设置零售功能配置文件](retail-functionality-profile.md)
 - [设置员工通讯簿](new-address-book.md)
-- [设置屏幕布局](https://docs.microsoft.com/en-us/dynamics365/retail/pos-screen-layouts?toc=/dynamics365/commerce/toc.json)
-- [设置硬件工作站](https://docs.microsoft.com/en-us/dynamics365/retail/retail-hardware-station-configuration-installation?toc=/dynamics365/commerce/toc.json)
+- [设置屏幕布局](pos-screen-layouts.md)
+- [设置硬件工作站](retail-hardware-station-configuration-installation.md)
 
 ## <a name="call-center-channel-prerequisites"></a>呼叫中心渠道先决条件
 
 - 呼叫中心参数
-- 呼叫中心退款方式
-- 租赁类型
-- 付款服务
-- 订单保留代码
+- [呼叫中心订单和退款付款方式](work-with-payments.md)
+- [呼叫中心交货方式和费用](configure-call-center-delivery.md)
 
 ## <a name="online-channel-prerequisites"></a>在线渠道先决条件
 

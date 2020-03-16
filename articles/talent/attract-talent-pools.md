@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
-ms.search.validFrom: 2018-22-15
+ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: ea10ccd5e4b1f1ffbb8f736e886240e223a4eeb3
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: e00a54db50f1360096bb5329eef660927cecde3d
+ms.sourcegitcommit: 4359e7e4eec25362df61c9a26c7218604d12da3d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833006"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3078035"
 ---
 # <a name="source-candidates-with-talent-pools-in-attract"></a>在 Attract 中使用人才池寻求应聘者
 

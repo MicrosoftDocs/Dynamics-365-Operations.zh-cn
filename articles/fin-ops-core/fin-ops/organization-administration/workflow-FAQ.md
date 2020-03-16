@@ -3,7 +3,7 @@ title: 工作流常见问题
 description: 本主题解答有关工作流系统的常见问题。
 author: ChrisGarty
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934901"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076078"
 ---
 # <a name="workflow-faq"></a>工作流常见问题
 
@@ -52,5 +52,9 @@ ms.locfileid: "2934901"
 
 总之，如果在为用户分配工作流工作项时，该用户未收到来自操作中心的正确通知，请利用[工作流业务事件](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow)和 Microsoft Power Automate 提供更多通知或不同通知。
 
-## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>工作流编辑器无法在 ADFS 下启动 
+## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>为什么工作流编辑器在 AD FS 下无法启动？
 在升级的环境中的 Active Directory 联合身份验证服务 (AD FS) 下运行时，工作流编辑器可能无法启动。 如果是这样，请确保 URL“https://dynamicsaxworkfloweditor/”已添加到 ADFS 设置中的属性 **Microsoft Dynamics 365 for Operations On-premises - 工作流 - 本机应用程序**。
+
+## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>为什么在处理工作流时遇到了 SQL 死锁？ 
+**工作流参数**页中**每个批处理任务的工作流项目数**的默认字段值为 0。 值为 0 将导致默认值更改为每个批次 20 个项目。 调整此值时，请务必小心，因为每个批次的项目数太大 (> 40) 可能导致 SQL 死锁。
+

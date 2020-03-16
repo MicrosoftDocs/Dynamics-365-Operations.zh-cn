@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 623c25490964ccdf6abc37acaffee7ac0844cf39
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 35aad9bf89ba8c1ed6451304d8fc4fc6ffa575b5
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251147"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057757"
 ---
 # <a name="trade-allowance-management"></a>贸易折让管理
 
 [!include [banner](../includes/banner.md)]
 
-贸易折让管理帮助公司管理促销计划，促销计划为达到数量和绩效目标的客户提供零售“绩效付薪体系”货币奖励。 该功能的功能是为符合以下条件的公司设计的：注重各种促销到利润过程，从促销资金预算编制和分配，到折让合同制订，到索赔的创建和处理，到付款处理，再到促销效果分析。
+贸易折让管理帮助公司管理促销计划，促销计划为达到数量和绩效目标的客户提供“绩效付薪体系”货币奖励。 该功能的功能是为符合以下条件的公司设计的：注重各种促销到利润过程，从促销资金预算编制和分配，到折让合同制订，到索赔的创建和处理，到付款处理，再到促销效果分析。
 
 
 本文概述贸易折让管理功能，帮助您熟悉管理促销计划涉及的各种典型任务。 应该由负责运营和决策的几类用户使用此功能实现各自的目标：
@@ -61,7 +61,7 @@ ms.locfileid: "2251147"
 
 **资金**页中记录了分配给贸易折让协议的资金。 若要打开 **资金**页，请选择**销售和市场营销** \> **贸易折让** \> **资金** \> **资金**。
 
-![“资金”页](./media/trade-allowance-management-funds-page.png "“资金”页")
+![“资金”页面](./media/trade-allowance-management-funds-page.png "“资金”页面")
 
 在**资金**页上，可查看促销资金的详细信息。
 
@@ -77,7 +77,7 @@ ms.locfileid: "2251147"
 
 **贸易折让协议**页中记录了贸易折让协议。 若要打开 **贸易折让协议**页，请选择 **销售和市场营销** \> **贸易折让** \> **贸易折让协议**。
 
-![“贸易折让协议”页](./media/trade-allowance-management-agreements-page.png "“贸易折让协议”页")
+![“贸易折让协议”页面](./media/trade-allowance-management-agreements-page.png "“贸易折让协议”页面")
 
 #### <a name="header"></a>​页眉
 
@@ -105,7 +105,7 @@ ms.locfileid: "2251147"
 
 如果选择促销活动，然后选择**金额**选项卡，将显示活动的详细信息。
 
-![“贸易折让协议”行](./media/trade-allowance-management-agreements-lines.png "“贸易折让协议”行")
+![贸易折让协议行](./media/trade-allowance-management-agreements-lines.png "贸易折让协议行")
 
 在**贸易折让行**部分中，为定义指定要获得奖励，客户必须达到的数量或金额范围。
 

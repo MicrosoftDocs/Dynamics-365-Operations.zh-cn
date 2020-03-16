@@ -74,7 +74,7 @@
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 分阶段推出 (N-1) 安装、配置和直接转换
                   href: dev-itpro/n-1-installation-configuration.md
-                - name: 将 Retail 渠道扩展升级到最新的 Retail SDK
+                - name: 将零售渠道扩展升级到最新的 Retail SDK
                   href: dev-itpro/retailSDK-update.md
             - name: 新增功能或更改
               items:
@@ -166,6 +166,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/commerce/toc.json
                 - name: 已保存的视图
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/commerce/toc.json
+                - name: 网格功能
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: 创建并使用自定义字段
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: 嵌入 PowerApps 应用
@@ -198,7 +200,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
                 - name: 支付应用数据安全标准 (PA-DSS) 认证
                   href: dev-itpro/PA-DSS-Certification.md
-                - name: 本地部署中提供的商业功能
+                - name: 本地部署中提供的 Commerce 功能
                   href: retail-onprem.md
             - name: 部署和修补程序
               items:
@@ -438,8 +440,6 @@
                   href: configure-call-center-delivery.md
                 - name: 设置和使用欺诈预警
                   href: set-up-fraud-alerts.md
-                - name: 设置呼叫中心的连续性计划
-                  href: set-up-continuity-program.md
             - name: 其他渠道配置
               items:
                 - name: 将渠道添加到组织层次结构
@@ -450,6 +450,12 @@
                       href: omni-auto-charges.md
                     - name: 将标头费用按比例分配给匹配的销售行
                       href: pro-rate-charges-matching-lines.md
+                - name: 管理连续性计划
+                  items:
+                    - name: 设置呼叫中心的连续性计划
+                      href: set-up-continuity-program.md
+                    - name: 定义连续性计划
+                      href: tasks/define-continuity-schedules.md
                 - name: 零售商店管理
                   items:
                     - name: 创建和更改商店营业时间
@@ -460,8 +466,6 @@
                   items:
                     - name: 配置和使用呼叫中心订单保留
                       href: work-with-order-holds.md
-                    - name: 定义连续性计划
-                      href: tasks/define-continuity-schedules.md
                 - name: 付款
                   items:
                     - name: 付款方式
@@ -476,8 +480,10 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: Adyen 付款连接器
                       href: dev-itpro/adyen-connector.md
-                    - name: 使用 Adyen 连接器保存在线支付工具
+                    - name: 使用 Adyen 连接器保存在线付款工具
                       href: dev-itpro/adyen-connector-listpi.md
+                    - name: 礼品卡和贷项通知单操作的无缝离线切换
+                      href: dev-itpro/seamless-offline-improvements.md
                     - name: 设置付款账单方案
                       href: payinvoice.md
                     - name: 重复付款预防
@@ -494,9 +500,9 @@
                   href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
                 - name: 设置零售产品
                   href: set-up-retail-products.md
-                - name: 零售产品层次结构
+                - name: 产品层次结构
                   items:
-                    - name: 零售层次结构
+                    - name: Commerce 层次结构
                       href: retail-hierarchies.md
                     - name: 创建新的产品层次结构
                       href: create-product-hierarchy.md
@@ -624,6 +630,12 @@
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: 设置越库配送和集中采购配送的规则和参数
                       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+                    - name: POS 中的传入库存操作
+                      href: pos-inbound-inventory-operation.md
+                    - name: POS 中的传出库存操作
+                      href: pos-outbound-inventory-operation.md
+                    - name: 计算零售渠道的库存现有量
+                      href: calculated-inventory-retail-channels.md
                 - name: 采购订单
                   items:
                     - name: 采购订单概览
@@ -726,6 +738,18 @@
               href: tasks/store-configurations-retail-statements.md
             - name: 过账在线销售和付款
               href: tasks/posting-online-sales-payments.md
+        - name: 管理工作人员任务
+          items:
+            - name: 任务管理概览
+              href: task-mgmt-overview.md
+            - name: 配置任务管理
+              href: task-mgmt-configure.md
+            - name: 创建任务列表并添加任务
+              href: task-mgmt-create-lists.md
+            - name: 将任务列表分配给商店或员工
+              href: task-mgmt-assign-lists.md
+            - name: POS 中的任务管理
+              href: task-mgmt-pos.md
         - name: 管理电子商务站点
           items:
             - name: 在线商店概览
@@ -880,6 +904,8 @@
                   items:
                     - name: 购买框模块
                       href: add-buy-box.md
+                    - name: 评分和评价模块
+                      href: ratings-reviews-modules.md
                 - name: 采购模块
                   items:
                     - name: 购物车模块
@@ -930,9 +956,9 @@
               href: set-up-rfm-analysis.md
         - name: 本地化和监管功能
           items:
-            - name: 商业渠道的会计整合概览
+            - name: Commerce 渠道的会计整合概览
               href: localizations/fiscal-integration-for-retail-channel.md
-            - name: 设置商业渠道的会计整合
+            - name: 设置 Commerce 渠道的会计整合
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: 奥地利
               items:
@@ -1056,6 +1082,8 @@
               items:
                 - name: 文档报告服务概览
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/commerce/toc.json
+                - name: 支持的字体
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/commerce/toc.json
                 - name: 为本地部署配置 SSRS
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: 打印
@@ -1786,7 +1814,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
         - name: 可扩展性
           items:
-            - name: 商务开发和可扩展性
+            - name: Commerce 开发和可扩展性
               href: dev-itpro/dev-retail-home-page.md
             - name: 在线渠道可扩展性
               items:
@@ -1834,8 +1862,6 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: 预览和调试模块
                       href: e-commerce-extensibility/test-module.md
-                    - name: 调试模块
-                      href: e-commerce-extensibility/debug-modules.md
                     - name: 使用模拟测试模块
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: 使用页面模拟测试模块
@@ -1976,6 +2002,8 @@
                   href: dev-itpro/pos-run-samples.md
                 - name: 设备管理实现指南
                   href: implementation-considerations-devices.md
+                - name: POS 购物车查看事件和处理程序
+                  href: dev-itpro/cart-view-handlers.md
             - name: Hardware Station 可扩展性
               items:
                 - name: Hardware Station 和可扩展性
@@ -2032,6 +2060,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
                 - name: 将扩展事件记录到 Application Insights
                   href: dev-itpro/commerce-application-insights.md
+                - name: 在业务逻辑中创建异步 Commerce (CRT) API
+                  href: dev-itpro/async-commerce-extension.md
             - name: 付款连接器可扩展性
               items:
                 - name: 为付款终端创建付款集成
@@ -2048,6 +2078,8 @@
                   href: payment-connector-data-fields.md
                 - name: 对付款连接器启用重复付款预防
                   href: dev-itpro/duplicate-payment-protection.md
+                - name: 在 Service Fabric 部署中为应用程序资源管理器创建付款包装
+                  href: dev-itpro/payment-connector-package.md
             - name: 第三方电子商务可扩展性
               items:
                 - name: 配置在线商店
@@ -2060,8 +2092,6 @@
               href: dev-itpro/extension-resource-localization.md
     - name: Finance and Operations 应用开发和管理
       href: ../fin-ops-core/dev-itpro/index.md
-    - name: Dynamics 365 Retail
-      href: index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Supply Chain Management

@@ -68,6 +68,8 @@
                   items:
                     - name: “Supply Chain Management 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 版本 10.0.9（2020 年 4 月）
+                      href: get-started/whats-new-scm-10-0-9.md
                     - name: Supply Chain Management 版本 10.0.8（2020 年 2 月）
                       href: get-started/whats-new-scm-10-0-8.md
                     - name: Supply Chain Management 版本 10.0.7（2020 年 1 月）
@@ -146,6 +148,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 已保存的视图
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 网格功能
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 创建并使用自定义字段
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 嵌入 PowerApps 应用
@@ -527,6 +531,8 @@
                   href: cost-management/costing-sheets.md
                 - name: 通过将成本计算版本用于计划成本，模拟成本变化
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
+                - name: 比较物料价格存储报告
+                  href: cost-management/compare-item-price.md
             - name: 库存会计
               items:
                 - name: 成本对象
@@ -673,6 +679,8 @@
               items:
                 - name: 文档报告服务概览
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 支持的字体
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 为本地部署配置 SSRS
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 打印
@@ -1061,6 +1069,8 @@
               items:
                 - name: 计划优化概览
                   href: master-planning/planning-optimization/planning-optimization-overview.md
+                - name: 负库存处理为零库存
+                  href: master-planning/planning-optimization/negative-on-hand.md
                 - name: 开始使用计划优化
                   href: master-planning/planning-optimization/get-started.md
                 - name: 计划优化适应分析
@@ -2441,6 +2451,4 @@
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Commerce
-      href: ../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../commerce/index.md

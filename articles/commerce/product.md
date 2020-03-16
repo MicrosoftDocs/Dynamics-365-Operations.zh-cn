@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af0273ca1553d5fb371a20b8c96fd9a101f34815
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: bfb13904b774558907b29e74158b1e0a193e17cd
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021783"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057433"
 ---
 # <a name="product-recommendations-on-pos"></a>有关 POS 的产品建议
 
 [!include [banner](includes/banner.md)]
 
-产品建议的核心是一个革命性的业务应用程序，该应用程序适用于所有零售领域，可以带来丰富、参与度高、度身定制的产品发现体验。 若要在 POS 上实施此功能，请执行[如何向 POS 设备添加建议](add-recommendations-control-pos-screen.md)中的步骤。 
+产品建议的核心是一个革命性的业务应用程序，该应用程序适用于所有商务领域，可以带来丰富、参与度高、度身定制的产品发现体验。 若要在 POS 上实施此功能，请执行[如何向 POS 设备添加建议](add-recommendations-control-pos-screen.md)中的步骤。 
 
 有关产品建议功能的详细信息，请参阅[产品建议概述](../commerce/product-recommendations.md)。 
 

@@ -3,7 +3,7 @@ title: 补货概览
 description: 此主题介绍可用于使用仓库管理提供功能的仓库的补货策略。
 author: Mirzaab
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c1989f11563db343129c678623725e2e61b27fc
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7aa17df3c3632c89f35a69022084bbd9f4171f36
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251453"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076332"
 ---
 # <a name="replenishment-overview"></a>补货概览
 
@@ -49,6 +49,8 @@ ms.locfileid: "2251453"
 除创建模板外，还必须指定波次模板中的某些补货设置。 波次模板应包含仅当物料分配不成功时才运行的补货的波次步骤。 此补货波次步骤使用波次步骤代码来确定应该使用哪个补货模板。 除了具有补货的波次步骤外，您还必须确保在波次模板的**方法**部分选择**补货**。 
 
 **补货模板**页中包含**允许波次需求使用未预留的数量**复选框。 如果需求补货应从所选补货模板生成的工作中扣减未预留数量，请选择此复选框。 若要让需求补货模板使用此逻辑，为每个现有的补货模板选择此复选框。 当仓库中触发了需求补货时，如果该工作源自补货模板并且已选择**允许波次需求使用未预留数量**复选框，将从带有未预留数量的现有补货工作中扣减需求。
+
+**补货单位**是要补货的最小单位。 这必须是整数，并且必须是单位的倍数。 创建工作时，系统将舍入到可能的最大单位。
 
 需求补货支持销售订单、转移单、生产订单和看板。 
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6ec42ab920868f541eeac54556f4f24cb1efaa3a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 42448bd54c00b8642b158f422e17d2b46ee25579
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002442"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057871"
 ---
 # <a name="set-up-a-call-center-channel"></a>设置呼叫中心渠道
 
@@ -33,7 +33,7 @@ ms.locfileid: "3002442"
 
 ## <a name="overview"></a>概览
 
-在 Dynamics 365 Commerce 中，呼叫中心是一种可在应用程序中定义的零售渠道。 为呼叫中心实体定义渠道使系统能够将特定数据和订单处理默认值绑定到销售订单。 一家公司可在 Commerce 中定义多个呼叫中心渠道。 
+在 Dynamics 365 Commerce 中，呼叫中心是一种可在应用程序中定义的渠道。 为呼叫中心实体定义渠道使系统能够将特定数据和订单处理默认值绑定到销售订单。 一家公司可在 Commerce 中定义多个呼叫中心渠道。 
 
 在创建新呼叫中心渠道之前，请确保已完成[渠道设置先决条件](channels-prerequisites.md)。
 

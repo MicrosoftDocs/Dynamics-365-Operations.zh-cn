@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c0c303ec5d009fce0c975eb797f018b5e27a41eb
-ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
+ms.openlocfilehash: 6e18e8108a7382bfa052986bab5a8552e38100c6
+ms.sourcegitcommit: a2f9dce06322dada6b5f1c82051ef2359f8c0f12
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "2982399"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081833"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-january-21-2020"></a>Dynamics 365 Talent（2020 年 1 月 21 日）中的新增功能或更改的功能
 
@@ -71,7 +71,7 @@ ms.locfileid: "2982399"
 
 如果已设置安全性以拒绝编辑部门，则在所有情况下导航到**部门**窗体时会禁用编辑。
 
-## <a name="coming-soon"></a>即将到期
+## <a name="coming-soon"></a>即将推出
 
 一个新的 Common Data Service 解决方案很快将推出，其中包含以下更改：
 

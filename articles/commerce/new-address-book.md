@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d8158f676a005f683d71f503c0a0eb3e50635e2a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4fe97e3e2f8265c1dc67a4052f45125b693c7218
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003387"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057525"
 ---
 # <a name="create-new-address-book"></a>创建新的通讯簿
 
@@ -52,7 +52,7 @@ ms.locfileid: "3003387"
 
 [信息代码和信息代码组](info-codes-retail.md)           
 
-[零售功能配置文件](retail-functionality-profile.md)   
+[创建零售功能配置文件](retail-functionality-profile.md)      
 
 [屏幕布局概览](pos-screen-layouts.md)       
 

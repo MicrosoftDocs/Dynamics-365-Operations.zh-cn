@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38b51a4d8bf8dc997bae2ae9206d8e71ca48dec6
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 3bba9cd190db61fda3636cc3c8093030f886b9bd
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916054"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041760"
 ---
 # <a name="CASE">CASE ER 函数</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2916054"
 
 ## <a name="syntax"></a>语法
 
-```
+```vb
 CASE (expression, option 1, result 1[, option 2, result 2, …, option N, result N, default result])
 ```
 

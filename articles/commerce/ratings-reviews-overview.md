@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 49587bb497288fc6f3ce77f04a378fc67056ecf2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1248ce660d765ddade1df7d79786202235019990
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002858"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057386"
 ---
 # <a name="ratings-and-reviews-overview"></a>评分和评价概览
 
@@ -58,4 +58,4 @@ Dynamics 365 Commerce 中的评分和评价解决方案使用 Azure Cognitive Se
 
 [配置评分和评价](configure-ratings-reviews.md)
 
-[在 Dynamics 365 Retail 中同步产品评分](sync-product-ratings.md)
+[在 Dynamics 365 Commerce 中同步产品评分](sync-product-ratings.md)

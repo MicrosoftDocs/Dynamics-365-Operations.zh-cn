@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 75df802b75454baeea75a8ceb32d5d045a77a3a0
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 7fcb8a617507801d82d16175e9e86c9193091a12
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916537"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042680"
 ---
 # <a name="INT64VALUE">INT64VALUE ER 函数</a>
 
@@ -33,13 +33,13 @@ ms.locfileid: "2916537"
 
 ## <a name="syntax-1"></a>语法 1
 
-```
+```vb
 INT64VALUE (text)
 ```
 
 ## <a name="syntax-2"></a>语法 2
 
-```
+```vb
 INT64VALUE (number)
 ```
 

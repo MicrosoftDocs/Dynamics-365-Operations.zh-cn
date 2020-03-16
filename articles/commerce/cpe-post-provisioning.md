@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024698"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057709"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>配置 Dynamics 365 Commerce 预览环境
 
@@ -35,7 +35,7 @@ ms.locfileid: "3024698"
 
 请仅在预配了 Commerce 预览环境之后，再完成本主题中的过程。 有关如何预配 Commerce 预览环境的信息，请参阅[预配 Commerce 预览环境](provisioning-guide.md)。
 
-端到端预配 Commerce 预览环境后，必须先完成其他预配后配置步骤，然后才能开始评估环境。 要完成这些步骤，您必须使用 Microsoft Dynamics Lifecycle Services (LCS)、Dynamics 365 Commerce 和 Dynamics 365 Retail。
+端到端预配 Commerce 预览环境后，必须先完成其他预配后配置步骤，然后才能开始评估环境。 要完成这些步骤，您必须使用 Microsoft Dynamics Lifecycle Services (LCS) 和 Dynamics 365 Commerce。
 
 ## <a name="before-you-start"></a>开始之前
 
@@ -53,7 +53,7 @@ ms.locfileid: "3024698"
 
 要在 LCS 中将工作人员与您的标识关联，请执行以下步骤。
 
-1. 使用左侧菜单转到**模块 \> Retail \> 员工 \> 工作人员**。
+1. 使用左侧菜单转到**模块 \> Retail 和 Commerce \> 员工 \> 工作人员**。
 1. 在列表中，找到并选择以下记录：**000713 - Andrew Collette**。
 1. 在操作窗格上，选择 **Retail**。
 1. 选择**关联现有标识**。
@@ -91,12 +91,12 @@ ms.locfileid: "3024698"
 1. 保留**路径**的值不变。
 1. 选择**确定**。 将出现站点上的页面的列表。
 
-## <a name="enable-jobs-in-retail"></a>在 Retail 中启用作业
+## <a name="enable-jobs"></a>启用作业
 
-要在 Retail 中启用作业，请执行以下步骤。
+要在 Commerce 中启用作业，请执行以下步骤。
 
 1. 登录到环境（总部）。
-1. 使用左侧菜单转到 **Retail \> 查询和报表 \> 批处理作业**。
+1. 使用左侧菜单转到 **Retail 和 Commerce \> 查询和报表 \> 批处理作业**。
 
     必须为以下每个作业完成此过程的其余步骤：
 
@@ -112,11 +112,11 @@ ms.locfileid: "3024698"
     1. 在操作窗格上，在**批处理作业**选项卡上，选择**更改状态**。
     1. 选择**等待**，然后选择**确定**。
 
-### <a name="run-full-data-synchronization-in-retail"></a>在 Retail 中运行完整的数据同步
+### <a name="run-full-data-synchronization"></a>运行完全数据同步
 
-要在 Retail 中运行完整的数据同步，请按照下列步骤操作。
+要在 Commerce 中运行完整的数据同步，请按照下列步骤操作。
 
-1. 使用左侧菜单转到**模块 \> Retail \> 总部设置 \> 零售调度 \> 渠道数据库**。
+1. 使用左侧菜单转到**模块 \> Retail 和 Commerce \> 总部设置 \> 零售调度 \> 渠道数据库**。
 1. 在左侧的列表中，已选择了**默认**渠道。 选择其他可用渠道。 此渠道名为 **scXXXXXXXXX**。
 1. 在操作窗格中，选择**完全数据同步**。
 1. 输入 **9999** 作为配送计划。

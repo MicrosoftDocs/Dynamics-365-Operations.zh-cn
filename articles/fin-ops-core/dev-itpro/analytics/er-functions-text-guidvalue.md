@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be5e8e7625d0226c9eb59efd3217fce7b8eba086
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: a7b8c782aff488a433c40a49ab7f4fe2d0e944e4
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915686"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041147"
 ---
 # <a name="GUIDVALUE">GUIDVALUE ER 函数</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2915686"
 
 ## <a name="syntax"></a>语法
 
-```
+```vb
 GUIDVALUE (input)
 ```
 
