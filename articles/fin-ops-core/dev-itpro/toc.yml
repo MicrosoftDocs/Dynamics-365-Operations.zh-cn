@@ -14,6 +14,8 @@
               items:
                 - name: “Platform update 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: Platform update 34（2020 年 5 月）
+                  href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33（2020 年 4 月）
                   href: get-started/whats-new-platform-update-33.md
                 - name: Platform update 32（2020 年 2 月）
@@ -146,47 +148,73 @@
                   items:
                     - name: 使用 Common Data Service 的数据集成概览
                       href: data-entities/data-integration-cds.md
-                    - name: 同步、双向集成
+                    - name: 双写入集成
                       items:
                         - name: 双写入主页
                           href: data-entities/dual-write/dual-write-home-page.md
                         - name: 双写入概览
                           href: data-entities/dual-write/dual-write-overview.md
-                        - name: Common Data Service 上的组织层次结构
-                          href: data-entities/dual-write/organization-mapping.md
-                        - name: 公司集成
+                        - name: 双写入设置
                           items:
-                            - name: Common Data Services 中的公司概念
-                              href: data-entities/dual-write/company-data.md
-                            - name: 使用公司数据引导
-                              href: data-entities/dual-write/bootstrap-company-data.md
-                        - name: 集成客户主数据
-                          href: data-entities/dual-write/customer-mapping.md
-                        - name: 集成的分类账
-                          href: data-entities/dual-write/ledger-mapping.md
-                        - name: 统一的产品体验
-                          href: data-entities/dual-write/product-mapping.md
-                        - name: 供应商集成
+                            - name: 双写入的系统要求
+                              href: data-entities/dual-write/dual-write-system-req.md
+                            - name: 支持的双写入设置方案
+                              href: data-entities/dual-write/connection-setup.md
+                            - name: Lifecycle Services 的双写入设置
+                              href: data-entities/dual-write/lcs-setup.md
+                        - name: 应用之间的映射概念
                           items:
-                            - name: 集成供应商主数据
-                              href: data-entities/dual-write/vendor-mapping.md
-                            - name: 在供应商设计之间切换
-                              href: data-entities/dual-write/vendor-switch.md
-                        - name: 集成的站点和仓库
-                          href: data-entities/dual-write/sites-warehouses-mapping.md
-                        - name: 集成的税收主数据
-                          href: data-entities/dual-write/tax-mapping.md
-                        - name: 初始同步
-                          href: data-entities/dual-write/initial-sync.md
-                        - name: 数据集成疑难解答
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: 异步、单向集成
+                            - name: Common Data Service 的组织层次结构
+                              href: data-entities/dual-write/organization-mapping.md
+                            - name: 公司集成
+                              items:
+                                - name: Common Data Services 中的公司概念
+                                  href: data-entities/dual-write/company-data.md
+                                - name: 使用公司数据引导
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: 集成客户主数据
+                              href: data-entities/dual-write/customer-mapping.md
+                            - name: 产品集成
+                              items:
+                                - name: 统一的产品体验
+                                  href: data-entities/dual-write/product-mapping.md
+                                - name: 集成的站点和仓库
+                                  href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: 财税数据
+                              items:
+                                - name: 访问财税引用数据
+                                  href: data-entities/dual-write/finance-tax-reference.md
+                                - name: 集成的分类账
+                                  href: data-entities/dual-write/ledger-mapping.md
+                                - name: 集成的税收主数据
+                                  href: data-entities/dual-write/tax-mapping.md
+                            - name: 供应商集成
+                              items:
+                                - name: 集成的供应商主数据
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: 在供应商设计之间切换
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: 现金的目标客户（采用双写入）
+                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: 用于服务的内部资产
+                              href: data-entities/dual-write/in-house-assets.md
+                            - name: 集成工作人员、作业和岗位
+                              href: data-entities/dual-write/integrated-hr.md
+                        - name: 支持双写入
+                          items:
+                            - name: 支持 Field Service 解决方案和 Project Service Automation 解决方案
+                              href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: 初始同步
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: 数据集成疑难解答
+                              href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: 与 Power Platform 数据集成器集成
                       items:
                         - name: 配置现金方案的目标客户
                           items:
                             - name: 现金的目标客户
                               href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: 将客户从 Sales 直接同步到 Finance and Operations 的客户
+                            - name: 将 Sales 的客户直接同步到 Finance and Operations
                               href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
                             - name: 将产品从 Finance and Operations 直接同步到 Sales 的产品
                               href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
@@ -332,6 +360,8 @@
                   href: database/import-database.md
                 - name: 数据库时间点还原
                   href: database/database-point-in-time-restore.md
+                - name: 将生产数据库的时间点还原到沙盒环境
+                  href: database/database-pitr-prod-sandbox.md
             - name: 教程
               items:
                 - name: 出于培训目的进行刷新
@@ -428,8 +458,10 @@
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: 部署本地环境（Platform update 8 和 11）
                       href: deployment/setup-deploy-on-premises-pu8-pu11.md
-                    - name: 本地环境中零售渠道组件的安装步骤
+                    - name: 本地环境中 Retail 渠道组件的安装步骤
                       href: deployment/deploy-retail-onprem.md
+                    - name: 在多个环境中重复使用相同的 AD FS 实例
+                      href: deployment/onprem-reuseadfs.md
                 - name: 开发自定义模型并将其部署到本地环境
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: PowerBI.com 与本地环境集成
@@ -970,24 +1002,34 @@
               href: lifecycle-services/configure-execute-code-upgrade.md
             - name: 创建或更新方法
               href: lifecycle-services/create-methodology.md
-            - name: 业务流程建模器
-              href: lifecycle-services/bpm-overview.md
-            - name: 业务流程建模器中的业务流程库
-              href: lifecycle-services/business-process-libraries-business-process-modeler.md
-            - name: 创建、编辑并浏览业务流程建模器库
-              href: lifecycle-services/creating-editing-browsing.md
-            - name: 在业务流程建模器中完成任务
-              href: lifecycle-services/complete-tasks-bpm.md
-            - name: 使用 BPM 库中的活动图
-              href: lifecycle-services/using-activity-diagrams.md
-            - name: 将 BPM 库与 Azure DevOps 同步
-              href: lifecycle-services/synchronize-bpm-vsts.md
-            - name: 使用任务指南和 BPM 创建用户接受度测试库
-              href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: 业务流程建模器中的流程图
-              href: lifecycle-services/flowcharts-business-process-modeler.md
-            - name: 将自定义业务流程上载到业务流程建模器
-              href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: 业务流程建模器 (BPM)
+              items:
+                - name: 业务流程建模器 (BPM) 概览
+                  href: lifecycle-services/bpm-overview.md
+                - name: 业务流程建模器中的业务流程库
+                  href: lifecycle-services/business-process-libraries-business-process-modeler.md
+                - name: 创建、编辑并浏览业务流程建模器库
+                  href: lifecycle-services/creating-editing-browsing.md
+                - name: 在业务流程建模器中完成任务
+                  href: lifecycle-services/complete-tasks-bpm.md
+                - name: 使用 BPM 库中的活动图
+                  href: lifecycle-services/using-activity-diagrams.md
+                - name: 将 BPM 库与 Azure DevOps 同步
+                  href: lifecycle-services/synchronize-bpm-vsts.md
+                - name: 使用任务指南和 BPM 创建用户接受度测试库
+                  href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+                - name: 业务流程建模器中的流程图
+                  href: lifecycle-services/flowcharts-business-process-modeler.md
+                - name: 将自定义业务流程上传到业务流程建模器
+                  href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: 服务请求
+              items:
+                - name: 云操作和服务
+                  href: lifecycle-services/cloud-operations-servicing.md
+                - name: 将服务请求提交给 Dynamics 服务工程团队
+                  href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+                - name: 计划的维护时段常见问题
+                  href: lifecycle-services/planned-maintenance-window-faq.md
             - name: 监控和诊断
               href: lifecycle-services/monitoring-diagnostics.md
             - name: 重新启动服务环境
@@ -1280,16 +1322,10 @@
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 支持概览
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: 获取对由世纪互联在中国运营的 Finance and Operations 的支持
+            - name: 获取对由 21Vianet 在中国运营的 Finance and Operations 的支持
               href: lifecycle-services/21vianet-support.md
-            - name: 将请求提交给 Dynamics Service 工程团队
-              href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
             - name: 设置对 Finance and Operations 的技术支持
               href: lifecycle-services/support-experience.md
-            - name: 计划的维护时段常见问题
-              href: lifecycle-services/planned-maintenance-window-faq.md
-            - name: 云操作和服务
-              href: lifecycle-services/cloud-operations-servicing.md
             - name: 管理 Finance and Operations 支持体验
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: 系统管理
