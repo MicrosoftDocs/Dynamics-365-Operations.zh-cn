@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 3190a8978932ad8f8b22c9038625fe2dcdb43fce
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ec4750d712c82ae909b0d4d7f52cc9f7f44d0875
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024493"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117282"
 ---
 # <a name="whats-new-and-changed-in-dynamics-365-retail"></a>Dynamics 365 Retail 中的新增功能和更改
 
@@ -29,7 +29,6 @@ ms.locfileid: "3024493"
 
 此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 Retail 最新版本的新功能和更改的资源。
 
-[!include [release notes](../includes/release-notes.md)]
 
 ## <a name="releases-of-dynamics-365-retail"></a>Dynamics 365 Retail 版本
 

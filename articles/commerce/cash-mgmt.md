@@ -18,17 +18,17 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 28b034c9b2a2c7ae63b055338dea3aab4a3b86f2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021704"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127690"
 ---
 # <a name="cash-management-improvements"></a>现金管理改进
 
 [!include [banner](includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 现金管理是一个面向实体商店零售商的关键功能。 零售商希望为自己的商店安装系统来对现金及其在商店中不同收银机和出纳之间的变动进行完全跟踪和会计问责。 必须可以对帐任何差额和确定会计责任。
 

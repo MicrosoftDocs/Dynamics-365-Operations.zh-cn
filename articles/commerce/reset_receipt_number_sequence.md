@@ -3,7 +3,7 @@ title: 重置收据编号
 description: 本主题介绍如何重置在所需日期（例如，会计年度或日历年）用于各种操作的收据编号。
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,17 +19,17 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: e81ff86a8b8a4dca6b14a21d6e982b03a928d29e
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: fc719348f94ff4a1fb7b4ac96f6f617872c9af92
+ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3020070"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3123938"
 ---
 # <a name="reset-receipt-numbers"></a>重置收据编号 
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 零售商为商店中的各种操作（例如现金和结转交易、退货交易、客户订单、报价和付款）生成收据编号。 尽管零售商定义了他们自己的收据格式，但是某些国家或地区的法规对这些收据格式进行了限制。 例如，这些法规可能会限制收据上的字符数、要求使用连续的收据编号、限制某些特殊字符，或者要求在年初重置收据编号。 Microsoft Dynamics 365 Commerce 使收据编号的管理过程非常灵活，可以帮助零售商满足法规要求。 本主题说明如何使用此功能来重置收据编号。
 

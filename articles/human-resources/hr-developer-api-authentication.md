@@ -1,6 +1,6 @@
 ---
 title: 身份验证
-description: ''
+description: 本文提供有关如何通过 Microsoft Dynamics 365 Human Resources 数据应用程序编程接口 (API) 进行身份验证的概述信息。
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 025feca31eed8649bc319a1e1a1b6d1af3ddb128
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008272"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092098"
 ---
 # <a name="authentication"></a>身份验证
 

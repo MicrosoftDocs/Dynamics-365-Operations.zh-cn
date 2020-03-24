@@ -3,7 +3,7 @@ title: 配置 Talent
 description: 此主题将指导您如何为 Microsoft Dynamics 365 Talent 配置新环境。
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/15/2019
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: d06c0d14fb99e5544a5da05078f5b3a559f9e806
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: d7c4a8174007384370ae320b3874e104c04b71a5
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025501"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124696"
 ---
 # <a name="provision-talent"></a>配置 Talent
 
@@ -34,17 +34,23 @@ ms.locfileid: "3025501"
 若要使用 LCS 来管理您的 Talent 环境，您必须先创建 LCS 项目。
 
 1. 使用您用于订阅 Talent 的帐户登录到 [LCS](https://lcs.dynamics.com/Logon/Index)。
+
 2. 选择加号 (**+**) 创建项目。
+
 3. 选择 **Microsoft Dynamics 365 Talent** 作为产品名称和产品版本。
+
 4. 选择 **Dynamics 365 Talent** 方法。
-5. 选择**创建**。
+
+5. 选择**创建**。 
 
 有关如何开始 Talent 的信息，请参阅在新项目中创建的 **Talent** 方法。 在您完成创建项目后，请完成以下过程来设置您的 Talent 环境。
 
 ## <a name="provision-a-talent-project"></a>配置 Talent 项目
+
 在创建 LCS 项目之后，您可以将 Talent 配置到环境中。
 
 1. 在您的 LCS 项目中，选择 **Talent 应用管理**磁贴。
+
 2. 指示这是 Talent 的沙盒实例还是生产实例。 沙盒实例中可能提供提前预览功能以便提前反馈和测试。 
 
     > [!NOTE]
@@ -52,13 +58,13 @@ ms.locfileid: "3025501"
 
     > [!NOTE]
     > Talent 实例类型独立于 Microsoft Power Apps 环境的实例类型，后者是您在 Power Apps 管理中心中设置的。
+
 3. 如果希望环境中包含 Talent 测试驱动器体验中使用的相同演示数据集，请选择**包括演示数据**选项。 这对长期演示或培训环境有益，但切勿用于生产环境。  请注意，必须在初始部署之后立即选择此选项。 不能在以后更新现有部署。
+
 4. Talent 始终配置到 Microsoft Power Apps 环境，以支持 Power Apps 集成和可扩展性。 在继续之前，请阅读本主题的“选择 Power Apps 环境”部分。 如果您没有 Power Apps 环境，在 LCS 中选择“管理环境”或导航到 Power Apps 管理员中心。 然后按照步骤[创建 Power Apps 环境](https://docs.microsoft.com/powerapps/administrator/create-environment)。
 
-    > [!NOTE]
-    > 若要查看现有的环境或创建新环境，必须为配置 Talent 的租户管理员分配 Power Apps P2 许可证。 如果您的组织没有 Power Apps P2 许可证，则可以从 CSP 或从 [Power Apps 定价](https://powerapps.microsoft.com/pricing/)页面获取一个。
-
 5. 选择要设置 Talent 的环境。
+
 6. 选择**是**同意条款并开始部署。
 
     您的新环境将出现在左侧导航窗格的环境列表中。 不过，在部署状态更新为**已部署**前，您无法开始使用此环境。 此过程通常需要几分钟。 如果配置过程失败，您必须与支持人员联系。
@@ -77,9 +83,13 @@ ms.locfileid: "3025501"
 在确定部署 Talent 的目标 Power Apps 环境时请使用以下指南： 
 
 1. 在 LCS 中，选择**管理环境**，或直接转到 Power Apps 管理员中心，您可以在那里查看现有的环境和创建新的环境。
+
 2. 单个 Talent 环境映射到单个 Power Apps 环境。
+
 3. Power Apps 环境包含 Talent，以及相应的 Power Apps、Power Automate 和 Common Data Service 应用程序。 如果 Power Apps 环境被删除，其中的应用也会被删除。 在设置 Talent 环境时，可以设置**试用**或**生产**环境。 根据环境使用方式选择环境类型。 
+
 4. 应该考虑数据集成和测试策略，如沙盒、UAT 或生产。 建议您考虑对您的部署的各种影响，因为以后不容易更改将哪个 Talent 环境映射到 Power Apps 环境。
+
 5. 以下 Power Apps 环境不能用于 Talent，将从 LCS 内的选择列表中筛除：
  
     - **默认 Power Apps 环境** - 虽然每个租户均自动配置为默认的 Power Apps 环境，但我们不建议在 Talent 中使用它们，因为所有租户用户均有权访问 Power Apps 环境，有可能会在使用 Power Apps 或 Power Automate 集成进行测试和探索时意外损坏生产数据。
@@ -91,4 +101,5 @@ ms.locfileid: "3025501"
 6. 确定了要使用的正确环境之后，可以继续进行配置流程。 
  
 ## <a name="grant-access-to-the-environment"></a>授予对环境的访问
+
 默认情况下，创建环境的全局管理员可以访问环境。 但是，必须为更多应用程序用户明确授予访问权限。 若要授予访问权限，需要在 Human Resources 环境中添加用户并为其分配相应角色。 部署了 Talent 的全局管理员还必须启动 Attract 和 Onboard 以完成初始化和允许其他租户用户访问。  在此之前，其他用户不能访问 Attract 和 Onboard，并且将发生访问冲突错误。 有关详细信息，请参阅[创建新用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)和[向安全角色分配用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)。 

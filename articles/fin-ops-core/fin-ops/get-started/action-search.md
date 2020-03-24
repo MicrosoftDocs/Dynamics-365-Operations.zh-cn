@@ -3,7 +3,7 @@ title: 操作搜索
 description: 本文介绍操作搜索功能。 操作搜索可以帮助您在页面中找到操作并运行。
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d01247aa356625cb759306e5ead2afd3cdeb840f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bd4d81f010149c762dac0f4e6fa912c2e2cef072
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191308"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112160"
 ---
 # <a name="action-search"></a>操作搜索
 
@@ -69,6 +69,9 @@ ms.locfileid: "2191308"
 在之前的示例中，操作搜索在页面顶部显示了标准操作窗格的结果。 但是，操作搜索还显示位于页面其他位置的可见工具栏的结果。 例如，您搜索位于**销售订单行**快速选项卡的**现有库存量**按钮。 这种情况下，结果列表中的按钮路径（**销售订单行** &gt; **库存** &gt; **查看**）告知您此按钮位于**销售订单行**快速选项卡的**库存**菜单按钮上的**查看**标题下。
 
 [![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+
+> [!NOTE]
+> 有一些按钮在操作搜索中不显示。 包括下拉对话框按钮和子窗体的按钮。 
 
 ## <a name="action-search-vs-navigation-search"></a>操作搜索与导航搜索
 

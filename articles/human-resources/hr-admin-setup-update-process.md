@@ -1,6 +1,6 @@
 ---
 title: 更新流程
-description: ''
+description: Microsoft Dynamics 365 Human Resources 是一款真正的服务型软件 (SaaS)，可为应用程序和平台更改提供连续的非接触式服务更新。
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1817e072805bafbf0d5a9eb2698ef75abc75ad68
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 267682f4497bacf70f93840a948d0e525dfa4aa1
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031082"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092193"
 ---
 # <a name="update-process"></a>更新流程
 

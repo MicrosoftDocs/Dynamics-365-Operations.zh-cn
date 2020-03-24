@@ -1,6 +1,6 @@
 ---
 title: 客户信用管理
-description: ''
+description: 客户信用管理使您可以根据创建的信用规则通过过帐流程管理信用限额和控制销售订单流程。
 author: mikefalkner
 manager: AnnBe
 ms.date: 09/04/2019
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 11da8b7fb59bc8f3e2568ada27db753cc815b9c2
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 1e7d3325587d7cfc876e8f8c7b9207d44046ccd4
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015128"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124269"
 ---
 # <a name="customer-credit-management-overview"></a>客户信用管理概览
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 客户信用管理使您可以根据创建的信用规则通过过帐流程管理信用限额和控制销售订单流程。 
 

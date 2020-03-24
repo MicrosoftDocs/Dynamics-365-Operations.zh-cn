@@ -1,6 +1,6 @@
 ---
-title: 累积休假和缺勤计划
-description: ''
+title: 应计休假和缺勤计划
+description: 您可以在 Dynamics 365 Human Resources 中累积多个或单个员工的休假和缺勤。
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28b7d843d9dd652e45c24af09d0414530c06c4ac
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ba60fc2e5b17ec32aa6ad7eb104e8ae55ddee3bb
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008207"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092330"
 ---
-# <a name="accrue-leave-and-absence-plans"></a>累积休假和缺勤计划
+# <a name="accrue-leave-and-absence-plans"></a>应计休假和缺勤计划
 
 您可以在 Dynamics 365 Human Resources 中累积多个或单个员工的休假和缺勤。
 

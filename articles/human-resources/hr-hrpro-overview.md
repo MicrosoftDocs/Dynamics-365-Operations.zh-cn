@@ -1,6 +1,6 @@
 ---
 title: 概览
-description: ''
+description: Dynamics 365 Human Resources 用户指南为您提供有关设置 Human Resources、为员工设置薪酬和福利以及管理劳动力的说明。
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c489ddaec0363a5a6d68f0464786dfbe1b0e1349
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7bef82f83de150df69a1a001fa9c07e34270742d
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008214"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091716"
 ---
 # <a name="overview"></a>概览
 
@@ -86,7 +86,7 @@ Dynamics 365 Human Resources 用户指南为您提供有关设置 Human Resource
 [定义福利资格规则和策略](hr-benefits-define-eligibility-rules.md)</br>
 [交付员工福利计划](hr-benefits-deliver-employee-benefits-program.md)</br>
 [创建新福利](hr-benefits-create.md)</br>
-[登记享受福利的工作人员](hr-benefits-enroll-workers.md)</br>
+[在福利中登记工作人员](hr-benefits-enroll-workers.md)</br>
 [管理福利到期日期](hr-benefits-expiration-dates.md)</br>
 [生成 ACA 报表](hr-benefits-aca-reports.md)</br>
 
@@ -101,15 +101,15 @@ Dynamics 365 Human Resources 用户指南为您提供有关设置 Human Resource
 [将工作人员分配给休假计划](hr-leave-and-absence-enroll.md)</br>
 [累积休假和缺勤计划](hr-leave-and-absence-accrue.md)</br>
 [查看休假和缺勤分析](hr-leave-and-absence-analytics.md)</br>
-[管理休假和缺勤请求](hr-employee-self-service-manage-requests.md)</br>
-[请求休息时间](hr-employee-self-service-request-time-off.md)</br>
+[管理休假和缺勤申请](hr-employee-self-service-manage-requests.md)</br>
+[申请休假](hr-employee-self-service-request-time-off.md)</br>
 [查看团队和公司日历](hr-employee-self-service-calendar.md)</br>
 
 ## <a name="develop-employees"></a>培养员工
 
 [绩效管理概览](hr-develop-performance-management-overview.md)</br>
 [调整劳动力技能](hr-develop-skills.md)</br>
-[添加到您的绩效日记帐](hr-develop-add-performance-journal.md)</br>
+[添加到您的绩效日记账](hr-develop-add-performance-journal.md)</br>
 [创建目标](hr-develop-create-goal.md)</br>
 [创建绩效审核](hr-develop-create-performance-review.md)</br>
 

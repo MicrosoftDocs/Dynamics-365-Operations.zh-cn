@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c54c74af6f2c1be9aedfa792d0676d1165fb0ab8
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 65b1d1a232558efbe05e83d51706a78b12439e47
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015134"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124131"
 ---
 # <a name="credit-management-setup"></a>信用管理设置 
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="credit-management-workflows"></a>信用管理工作流
 

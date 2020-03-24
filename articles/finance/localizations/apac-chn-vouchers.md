@@ -1,9 +1,9 @@
 ---
 title: 中国式凭证
 description: 此主题描述中国式凭证，以及如何在 Microsoft Dynamics 365 Finance 中使用它们。
-author: ShylaThompson
+author: anasyash
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 704b5c99940bb13bdd12c4a71ed3dcf55d626f7d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: bbaf57cefbf826cd392603ed5eb0d4d42adfb5fa
+ms.sourcegitcommit: 0681a00d60c9f8cc8f7b9888b8c5ddf07279fc04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770494"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3131746"
 ---
 # <a name="chinese-vouchers"></a>中国式凭证
 
@@ -32,7 +32,7 @@ ms.locfileid: "2770494"
 
 您必须为各已过帐的日志创建凭据文档。 可以打印纸质凭证和已过帐日志。 根据您的需求，您可以使用凭证类型设置向导设置常用的**获取**、**付款**和**转移**凭证类型，也可以在**凭证类型设置**页面中创建新的凭证类型。 您可以使用预订凭证输入交易记录并将其分组为“收货凭证”、“付款凭证”或“转移凭证”。 
 
-从每个月第一天起的持续编号规则应分配给各凭证类型。 仅可以定义会计科目的中国式凭证类型。 您可以将凭证类型分配给特定会计科目。 然后，在**凭证类型设置**页面中，可以为将凭证交易记录过帐到指定会计科目定义验证规则。 过帐凭证期间，将根据**凭证类型设置**页面中指定的规则运行验证。 如果为已选会计科目选择的凭证类型有误，将收到一条消息。 
+从每个月第一天起的持续编号规则应分配给各凭证类型。 在**凭证类型设置**页面中，可以为将凭证交易记录过帐到指定会计科目定义验证规则。 过帐凭证期间，将根据**凭证类型设置**页面中指定的规则运行验证。 如果为单据选择的凭证类型有误，将收到一条消息。 
 
 例如，为**获取**凭证类型选择**信贷**类型的会计科目。 但是，为**获取**凭证类型定义的验证规则指定会计科目必须为借方科目。 在这种情况下，将收到一条消息，说明中国式凭证类型无效。 然后可以进行相应更改，并且可以再次过帐凭证。 
 

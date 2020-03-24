@@ -3,7 +3,7 @@ title: 预算计划数据分配
 description: 本主题介绍 Microsoft Dynamics 365 Finance 中可用的分配方法以及如何使用它们。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,23 +18,26 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8bcfb4d3720d03ce84024766a66ccfc546767ab
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ceddeda5760d961568d58e7e4805955ea972c586
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772068"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106874"
 ---
 # <a name="budget-planning-data-allocation"></a>预算计划数据分配
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍 Microsoft Dynamics 365 Finance 中可用的分配方法以及如何使用它们。  
+本主题介绍 Microsoft Dynamics 365 Finance 中可用的分配方法以及如何使用它们。  
 
 您可以采用各种方式分配预算计划中的数据以准确地描述预计金额。
 
 ## <a name="allocation-methods"></a>分配方法
 三种分配方法（“跨期分配”、“分配到维度”和“使用分类帐分配规则”）可创建基于同一预算计划中的行的预算计划行。 另外三种方法（“聚合”、“分配”和“从预算计划复制”）可创建其他预算计划中的预算计划行。 对于所有六种分配方法，您指定目标方案。 目标方案可以是与源方案相同或不相同的方案。 或者，您可以指定新行是否追加到预算计划或替换预算计划中的当前行。
+
+> [!NOTE] 
+> 应该对聚合使用不同于用于配送或父计划中之前执行的其他修改的方案的唯一方案。  
 
 [![跨期分配分配方法](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
  **跨期分配** – 期间分配类别用于跨目标方案中的期间分配源预算计划方案中的预算计划行。 源金额将基于期间分配类别中定义的百分比和日期分配到目标方案中的多行。         

@@ -3,7 +3,7 @@ title: Project Service Automation 集成参数
 description: 本主题介绍在将 Microsoft Dynamics 365 for Project Service Automation 与 Dynamics 365 Finance 集成时，如何配置默认数据的输入方式。
 author: KimANelson
 manager: AnnBe
-ms.date: 07/20/2018
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: f7cef5384812e0dcb7d5e084ddd7668a7687a259
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cd09dad15112fd71bfd386e0072a77a4121c96e0
+ms.sourcegitcommit: 236672932ffd0a758012ebb7b2df9bc51249c126
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174768"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096243"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automation 集成参数
 
 [!include[banner](../includes/banner.md)]
 
 在将 Dynamics 365 Project Service Automation 与 Dynamics 365 Finance 集成时，可在 **Project Service Automation 集成参数**页面配置默认数据的输入方式。 必须设置以下字段，才能将项目从 Project Service Automation 成功同步到 Finance 中。
+
+若要打开 **Project Service Automation 集成参数**页，请转到**项目管理与核算** \> **设置** \> **Dynamics 365 for Project Service Automation 集成参数**。 
 
 > [!NOTE]
 > - 版本 8.0 中提供项目任务集成、费用交易记录类别、工时估计值、费用估计值和功能锁定。

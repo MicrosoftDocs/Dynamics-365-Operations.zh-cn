@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7d6f49939807102cc6c29bd50674a5e58e2b1b66
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 8bee320beb411a5ee0829a0e3170de0c7f293172
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015127"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124223"
 ---
 # <a name="collections-management-key-concepts"></a>收款管理关键概念
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 在开始设置或使用收款前，应了解以下概念：
 

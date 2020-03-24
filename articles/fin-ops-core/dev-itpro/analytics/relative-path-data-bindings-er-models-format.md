@@ -1,6 +1,6 @@
 ---
 title: 在 ER 模型和格式的数据绑定中使用相对路径
-description: .
+description: 用户可通过电子申报 (ER) 工具定义电子格式结构，然后描述应如何使用应用程序中的数据和算法填充这些结构。
 author: NickSelin
 manager: AnnBe
 ms.date: 07/03/2019
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a026eec379f98fd32080df50b5e114b423db34ad
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2940d99243ac52ee0d56a1c4423c4f0250f42f57
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182799"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091764"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>在 ER 模型和格式的数据绑定中使用相对路径
 

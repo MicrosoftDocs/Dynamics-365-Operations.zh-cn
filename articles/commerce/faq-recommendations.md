@@ -3,7 +3,7 @@ title: 产品建议常见问题
 description: 此主题介绍可用于诊断与产品建议或其结果有关的流程和工具。
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7951f92ef68a7a782f2874d7b73d7e45eba0afba
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3add4e2e0d5cc16b561b808aacf5cef94fea5ae5
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003019"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127782"
 ---
 # <a name="product-recommendations-faq"></a>产品建议常见问题
 
@@ -75,12 +75,28 @@ ms.locfileid: "3003019"
 
 ## <a name="how-do-i-enable-recommendations-on-pos"></a>如何在 POS 上启用建议？
 
-启用产品建议之后，需要向控制 POS 屏幕添加建议面板。 有关如何向 POS 设备布局添加建议面板的详细信息，请参阅[本功能文档](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/add-recommendations-control-pos-screen)。
+启用产品建议之后，需要向控制 POS 屏幕添加建议面板。 有关详细信息，请参阅[向 POS 设备上的交易记录屏幕添加建议控件](add-recommendations-control-pos-screen.md)。
 
 ## <a name="additional-resources"></a>其他资源
 
 [产品建议概览](product-recommendations.md)
 
+[在 Dynamics 365 Commerce 环境中启用 ADLS](enable-adls-environment.md)
+
 [启用产品建议](enable-product-recommendations.md)
 
-[管理基于 AI-ML 的产品建议结果](modify-product-recommendation-results.md)
+[启用个性化建议](personalized-recommendations.md)
+
+[选择退出个性化产品建议](personalization-gdpr.md)
+
+[向电子商务站点添加建议列表](add-reco-list-to-page.md)
+
+[在 POS 中添加产品建议](product.md)
+
+[向交易记录屏幕添加建议](add-recommendations-control-pos-screen.md)
+
+[调整 AI-ML 建议结果](modify-product-recommendation-results.md)
+
+[手动创建策划的建议](create-editorial-recommendation-lists.md)
+
+[使用演示数据创建建议](product-recommendations-demo-data.md)

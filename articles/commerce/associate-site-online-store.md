@@ -3,7 +3,7 @@ title: 将电子商务站点与在线渠道关联
 description: 此主题介绍如何将 Microsoft Dynamics 365 Commerce 站点绑定到一个或多个在线商店。
 author: stuharg
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: bicyclingfool
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8de02eca941054c7c43dec1c904f461da1927230
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 30a992ae5cc68173b830224ae88ac3770b414b7a
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001200"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096693"
 ---
 # <a name="associate-an-e-commerce-site-with-an-online-channel"></a>将电子商务站点与在线渠道关联
 
@@ -44,11 +44,19 @@ ms.locfileid: "3001200"
 
 [部署新的电子商务站点](deploy-ecommerce-site.md)
 
+[设置在线商店渠道](online-stores.md)
+
 [创建电子商务站点](create-ecommerce-site.md)
 
 [管理 robots.txt 文件](manage-robots-txt-files.md)
 
+[批量上传 URL 重定向](upload-bulk-redirects.md)
+
+[在 Commerce 中设置 B2C 租户](set-up-B2C-tenant.md)
+
 [设置用户登录自定义页面](custom-pages-user-logins.md)
+
+[在 Commerce 环境中配置多个 B2C 租户](configure-multi-B2C-tenants.md)
 
 [添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
 

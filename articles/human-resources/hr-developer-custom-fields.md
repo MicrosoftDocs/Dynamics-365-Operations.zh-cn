@@ -1,9 +1,9 @@
 ---
 title: 自定义字段
-description: ''
+description: 您可以在 Dynamics 365 Human Resources 中将自定义字段添加到页面。
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,27 +18,23 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6de1bcc6df5f8e4ab1ebbccb4b9a56f6f019c37f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7348fb9d3457da23fc4e250a1fd3f6cac82bdb5e
+ms.sourcegitcommit: 8493593e1405cde8cde23a3d9eb90385136088e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008217"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3115991"
 ---
 # <a name="custom-fields"></a>自定义字段
 
-您可以在 Dynamics 365 Human Resources 中将自定义字段添加到页面。 有关如何在页面上创建自定义字段的详细信息，请参阅[创建并使用自定义字段](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)。
+您可以在 Dynamics 365 Human Resources 中将自定义字段添加到页面。 有关创建自定义字段的详细信息，请参阅[创建并使用自定义字段](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)。
 
-Common Data Service 中的以下实体支持在 Human Resources 中创建的自定义字段：
-
-- 工作线程
-- 所属种族
-- 退伍军人状态
-- 语言代码
-- 职位
-- 作业类型
-- 工作职能
-- 位置
-- 职位类型
+大多数 Common Data Service 实体都支持自定义字段。 有关完整的 Common Data Service 实体列表，请参阅 [Common Data Service 实体](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)。 
 
 请确保启用您创建的任何自定义字段，以便可以在 Common Data Service 中使用它们。 有关详细信息，请参阅[在数据实体上显示自定义字段](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)。
+
+## <a name="see-also"></a>请参阅
+
+[Common Data Service 实体](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
+[创建并使用自定义字段](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
+[在数据实体上显示自定义字段](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)

@@ -1,9 +1,9 @@
 ---
-title: Finance and Operations 的移除或弃用功能
-description: 本主题介绍已经删除或计划删除的功能。
+title: 先前版本中已删除或弃用的功能
+description: 此主题介绍从 Dynamics 365 for Finance and Operations 和该产品的早期版本已经删除或曾经计划删除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 10/08/2019
+ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,28 +17,28 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52ed93ae425a821ebce4ed63f154e155cb161e94
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f2e079f1eb43d46acdc39819ae81e0472bba6aa1
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811985"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124558"
 ---
-# <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Finance and Operations 的移除或弃用功能
+# <a name="removed-or-deprecated-features-in-previous-releases"></a>先前版本中已删除或弃用的功能
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍已从 Finance and Operations 移除或弃用的功能。
+> [!IMPORTANT]
+> 此主题不再更新。 若要查看已经从 Finance and Operations 应用删除或弃用的功能的当前列表，请搜索与您在使用的应用有关的**已删除或弃用的功能**内容。
+
+此主题介绍从 Dynamics 365 for Finance and Operations 和该产品的早期版本已经删除或弃用的功能。
 
 - *已移除*的功能在产品中不再可用。
 - *已弃用*的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
-> [!NOTE]
-> 从具有平台更新 8 的 Finance and Operations 2017 年 7 月版开始，每一个已移除或弃用的功能均备注了部署类型。 本主题中提及的所有之前的版本仅支持云部署。
-
-[技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations 中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 各版本中已更改或已删除的对象。
+[技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
 
 ## <a name="finance-1007-with-platform-update-31"></a>带平台更新 31 的 Finance 10.0.7
 
@@ -51,7 +51,7 @@ ms.locfileid: "2811985"
 | **部署选项**              | 所有 |
 | **状态**                         | 弃用：到 2020 年 12 月 1 日，我们计划不再支持不带帐户组选择的中国凭证类型设置。 在“10.0.7 的新增功能”中查找有关新功能设计的更多详细信息 |
 
-## <a name="finance-and-operations-1006-with-platform-update-30"></a>具有平台更新 30 的 Finance and Operations 10.0.6
+## <a name="finance-and-operations-1006-with-platform-update-30"></a>带平台更新 30 的 Finance and Operations 10.0.6
 
 
 ### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
@@ -106,7 +106,7 @@ ms.locfileid: "2811985"
 | **状态**                         | 弃用：到 2020 年 10 月 1 日，我们计划不再支持 **国内税报表 (IT) – 功能引用 IT-00003**。 |
 
 
-## <a name="finance-and-operations-1005-with-platform-update-29"></a>具有平台更新 29 的 Finance and Operations 10.0.5
+## <a name="finance-and-operations-1005-with-platform-update-29"></a>带平台更新 29 的 Finance and Operations 10.0.5
 
 ### <a name="us-payroll-tax-updates"></a>美国工资单税更新
 
@@ -126,9 +126,9 @@ ms.locfileid: "2811985"
 | **被另一个功能取代？**   | 是，将增加作业历史记录清理功能以全面满足方案的要求。 |
 | **影响的产品区域**         | 数据管理 |
 | **部署选项**              | 所有  |
-| **状态**                         | 已弃用：移除功能的目标时间范围为 2020 年十二月。 |
+| **状态**                         | 已弃用：移除功能的目标时间范围为 2020 年 12 月。 |
 
-## <a name="finance-and-operations-1004-with-platform-update-28"></a>具有平台更新 28 的 Finance and Operations 10.0.4
+## <a name="finance-and-operations-1004-with-platform-update-28"></a>带平台更新 28 的 Finance and Operations 10.0.4
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>法国：以 XML 格式导出 FEC 会计数据
 
@@ -149,10 +149,10 @@ ms.locfileid: "2811985"
 | **被另一个功能取代？**   | 从平台更新 24 开始，引入了具有搜索功能且样式已改变的导航栏。 |
 | **影响的产品区域**         | Web 客户端 |
 | **部署选项**              | 所有 |
-| **状态**                         | 已弃用：从 2020 年四月开始，不再提供旧导航栏。 在此之前，客户可以通过**客户端性能选项**页恢复为旧导航栏。 |
+| **状态**                         | 已弃用：从 2020 年 4 月开始，将不再提供原来的导航栏。 在此之前，客户可以通过**客户端性能选项**页恢复为旧导航栏。 |
 
 
-## <a name="finance-and-operations-1002-with-platform-update-26"></a>具有平台更新 26 的 Finance and Operations 10.0.2
+## <a name="finance-and-operations-1002-with-platform-update-26"></a>带平台更新 26 的 Finance and Operations 10.0.2
 
 
 ### <a name="legacy-default-action-behavior"></a>旧版默认操作行为
@@ -194,9 +194,9 @@ ms.locfileid: "2811985"
 | **被另一个功能取代？**   | 可改用工作流历史记录窗体。 |
 | **影响的产品区域**         | Web 客户端 |
 | **部署选项**              | 所有 |
-| **状态**                         | 已弃用：移除功能的目标时间范围为 2020 年四月。 |
+| **状态**                         | 已弃用：移除功能的目标时间范围为 2020 年 4 月。 |
 
-## <a name="finance-and-operations-1001-with-platform-update-25"></a>具有平台更新 25 的 Finance and Operations 10.0.1
+## <a name="finance-and-operations-1001-with-platform-update-25"></a>带平台更新 25 的 Finance and Operations 10.0.1
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>已弃用的 API 和可能的突破性更改
 
@@ -221,7 +221,7 @@ ms.locfileid: "2811985"
 | **部署选项**              | 所有 |
 | **状态**                         | 已弃用：在平台更新 26 中，此警告将成为编译错误。 |
 
-## <a name="finance-and-operations-1000-with-platform-update-24"></a>具有平台更新 24 的 Finance and Operations 10.0.0
+## <a name="finance-and-operations-1000-with-platform-update-24"></a>带平台更新 24 的 Finance and Operations 10.0.0
 
 ### <a name="renaming-released-products"></a>重命名已发布产品 
 |   |  |
@@ -230,10 +230,10 @@ ms.locfileid: "2811985"
 | **被另一个功能取代？**   | 编号 |
 | **影响的产品区域**         | 产品信息管理 |
 | **部署选项**              | 所有  |
-| **状态**                         | 从具有平台更新 24 的 Finance and Operations 10.0.0 起移除。 在例外情况（如从已发布产品的主键的之前重命名还原）下，可以请 Microsoft 暂时解除对已发布产品重命名主键操作的此项限制。 |
+| **状态**                         | 已从带平台更新 24 的 Finance and Operations 10.0.0 开始移除。 （当且仅当需要修复之前重命名已发布产品的主键导致的数据损坏时，才应联系 Microsoft 支持以请求暂时解除此项限制。） |
 
 
-## <a name="finance-and-operations-813-with-platform-update-23"></a>具有平台更新 23 的 Finance and Operations 8.1.3
+## <a name="finance-and-operations-813-with-platform-update-23"></a>带平台更新 23 的 Finance and Operations 8.1.3
 
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>SQL Server Reporting Services ReportViewer 控件
 客户可使用嵌入的 SQL Server Reporting Services (SSRS) ReportViewer 控件提供的**导出**操作下载 Finance and Operations 应用程序生成的单据。 这种基于 HTML 的报表表示为用户提供不分页的单据预览。
@@ -272,7 +272,7 @@ ms.locfileid: "2811985"
 #### <a name="complete-list"></a>完整列表
 若要访问将弃用的 API 的完整列表，请参阅[弃用方法和元数据元素](deprecation-deletion-apis.md)。
 
-## <a name="finance-and-operations-81-with-platform-update-20"></a>具有平台更新 20 的 Finance and Operations 8.1
+## <a name="finance-and-operations-81-with-platform-update-20"></a>带平台更新 20 的 Finance and Operations 8.1
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>子分类日记帐科目分录的批处理转移规则
 总帐参数中已弃用了同步转移模式。  此模式刚被异步和计划批处理，后者表示为转移选项。 有关更多信息，请参阅[总帐参数 – 批量转移规则](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules)博客。
@@ -294,7 +294,7 @@ ms.locfileid: "2811985"
 | **被另一个功能取代？**   | 是。 |
 | **影响的产品区域**         | 总帐 |
 | **部署选项**              | 所有 |
-| **状态**                         | 从具有平台更新 20 的 Finance and Operations 8.1 起移除。 |
+| **状态**                         | 已从带平台更新 20 的 Finance and Operations 8.1 开始移除。 |
 
 ### <a name="financial-reports-generator-for-russia"></a>俄罗斯的财务报表生成器
 用于设置会计和纳税报表的数据收集，以及用于将数据导出到 XLS 和 DOC 报表模板的工具。 功能部件：已移除了将数据导出到 XLS 和 DOC 报表模板、查询和固定必备项这一功能。 
@@ -305,7 +305,7 @@ ms.locfileid: "2811985"
 | **被另一个功能取代？**   | 是。 应使用财务报表设置用户界面按总帐科目和税务登记簿设置数据收集规则。 应在电子申报中配置将数据导出到各种文件类型、固定必备项和类似查询的数据收集规则。 |
 | **影响的产品区域**         | 总帐。 |
 | **部署选项**              | 所有 |
-| **状态**                         | 从具有平台更新 20 的 Finance and Operations 8.1 起移除。 |
+| **状态**                         | 已从带平台更新 20 的 Finance and Operations 8.1 开始移除。 |
 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>俄罗斯的与外部提供商集成以通过通信通道发送电子报告
 用于将生成的电子版申报文件导出到文件夹以进一步发送给正式的电子申报提供商和导入回状态的功能。
@@ -316,7 +316,7 @@ ms.locfileid: "2811985"
 | **被另一个功能取代？**   | 是。  |
 | **影响的产品区域**         | 总帐、税务 |
 | **部署选项**              | 所有 |
-| **状态**                         | 从具有平台更新 20 的 Finance and Operations 8.1 起移除。 |
+| **状态**                         | 已从带平台更新 20 的 Finance and Operations 8.1 开始移除。 |
 
 
 ### <a name="profit-tax-register-wizard"></a>利润税登记向导
@@ -325,13 +325,13 @@ ms.locfileid: "2811985"
 |   |  |
 |------------|--------------------|
 | **弃用/移除的原因** | 功能与 Finance and Operations 延伸性模型不兼容。 |
-| **被另一个功能取代？**   | 否 |
-| **影响的产品区域**         | 税额 |
+| **被另一个功能取代？**   | 无 |
+| **影响的产品区域**         | 税金 |
 | **部署选项**              | 所有 |
-| **状态**                         | 从具有平台更新 20 的 Finance and Operations 8.1 起移除。 |
+| **状态**                         | 已从带平台更新 20 的 Finance and Operations 8.1 开始移除。 |
 
 
-## <a name="finance-and-operations-80-with-platform-update-15"></a>具有平台更新 15 的 Finance and Operations 8.0
+## <a name="finance-and-operations-80-with-platform-update-15"></a>带平台更新 15 的 Finance and Operations 8.0
 此版本中未移除或弃用任何功能。 平台更新 15 是累积功能，其中包含平台更新 13、14 和 15 中的新增功能或更改功能。
 
 ## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>具有平台更新 12 的 Finance and Operations Enterprise edition 7.3
@@ -356,7 +356,7 @@ ms.locfileid: "2811985"
 | **被另一个功能取代？**   | 无。 每当需要一个新的内置函数时，必须向 ER 框架团队提交新扩展请求。<br><br>在 ER 团队开发请求的函数时，作为临时解决方案，可以将需要的逻辑作为一种自定义应用程序类方法进行编程。 此方法可以作为引用该自定义应用程序类的**应用程序\类**类型的已添加 ER 数据源的属性在 ER 表达式中访问。  |
 | **影响的产品区域**         | 电子申报框架                                                      |
 | **部署选项**              | 所有                                                                                      |
-| **状态**                         | 从 Finance and Operations Enterprise edition 7.3 起移除。    |
+| **状态**                         | 从 Finance and Operations Enterprise edition 7.3 开始移除。    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>按物料组的库存和按库存维度的库存帐龄分析表
 
@@ -469,12 +469,12 @@ ms.locfileid: "2811985"
 
 ### <a name="warehouse-mobile-devices-portal"></a>仓库移动设备门户
 
-仓库移动设备门户 (WMDP) 是用于本地自行部署的单独组件。 此组件在 Finance and Operations 中不再受支持。 一个可提高用户体验的本机应用已替代 WMDP 的功能。
+仓库移动设备门户 (WMDP) 是用于本地自行部署的单独组件。 Finance and Operations 中不再支持此组件。 一个可提高用户体验的本机应用已替代 WMDP 的功能。
 
 |   |  |
 |------------|--------------------|
 | **弃用/移除的原因** | 重复的功能。       |
-| **被另一个功能取代？**   | 是。 此功能已经由 Finance and Operations - Warehousing 取代。 有关设置和先决条件的详细信息，请参阅[安装和配置仓库应用概述](../../../supply-chain/warehousing/install-configure-warehousing-app.md)。 |
+| **被另一个功能取代？**   | 是。 此功能已被 Finance and Operations - Warehousing 取代。 有关设置和先决条件的详细信息，请参阅[安装和配置仓库应用概述](../../../supply-chain/warehousing/install-configure-warehousing-app.md)。 |
 | **影响的产品区域**         | 仓库管理，运输管理     |
 | **部署选项**              | 仓库移动设备门户 (WMDP) 是用于本地自行部署的单独组件。               |
 | **状态**                         | 已弃用：移除功能的目标时间范围为 2019 年第四季度。   |
@@ -1053,7 +1053,7 @@ Dynamics AX 2012 允许在数据库和文件共享中存储附件。 这两个�
 
 |   |  |
 |------------|--------------------|
-| **弃用/移除的原因** | 直接数据库连接要求较低的安全协议，主要用于达到最高性能级别。 由于 Finance and Operations 发生的性能和安全性提高，此功能现在导致的问题比解决的问题更多。 |
+| **弃用/移除的原因** | 直接数据库连接要求较低的安全协议，主要用于达到最高性能级别。 由于 Finance and Operations 中性能和安全性提高，此功能现在导致的问题比解决的问题更多。 |
 | **被另一个功能取代？**   | 编号 现在只支持标准零售服务器通信。  |
 | **影响的产品区域**         | 通道 DB/Retail Modern POS   |
 | **状态**                         | 从 Dynamics AX 7.0 开始移除。  |

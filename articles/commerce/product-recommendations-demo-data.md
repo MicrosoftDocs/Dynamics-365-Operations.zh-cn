@@ -1,9 +1,9 @@
 ---
-title: 使用演示数据获取产品建议
+title: 使用演示数据创建建议
 description: 此文档使用预填充的可自定义演示数据提供有关如何在 1 级单盒环境中利用全渠道产品建议的指导。
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,14 +19,17 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1456feb0665b6ec79a36a3704f17da80ffd759a0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 2e790d78b4d5216822ffda3a3895feb674876bd8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042772"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127828"
 ---
-# <a name="get-product-recommendations-using-demo-data"></a>使用演示数据获取产品建议
+# <a name="create-recommendations-with-demo-data"></a>使用演示数据创建建议
+
+[!include [banner](includes/banner.md)]
+
 此文档使用预填充的可自定义演示数据提供有关如何在 1 级单盒环境中利用全渠道产品建议的指导。
 
 全渠道产品建议提供一组以编辑身份策划或以编程方式生成的产品列表。 可以在多种方案中使用这些列表，具体取决于业务需要。 有关产品建议列表的详细信息，请参阅[产品建议概述](product-recommendations.md)。
@@ -67,4 +70,22 @@ ms.locfileid: "3042772"
 
 [产品建议概览](product-recommendations.md)
 
-[环境计划](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
+[在 Dynamics 365 Commerce 环境中启用 ADLS](enable-adls-environment.md)
+
+[启用产品建议](enable-product-recommendations.md)
+
+[启用个性化建议](personalized-recommendations.md)
+
+[选择退出个性化产品建议](personalization-gdpr.md)
+
+[向电子商务站点添加建议列表](add-reco-list-to-page.md)
+
+[在 POS 中添加产品建议](product.md)
+
+[向交易记录屏幕添加建议](add-recommendations-control-pos-screen.md)
+
+[调整 AI-ML 建议结果](modify-product-recommendation-results.md)
+
+[手动创建策划的建议](create-editorial-recommendation-lists.md)
+
+[产品建议常见问题](faq-recommendations.md)

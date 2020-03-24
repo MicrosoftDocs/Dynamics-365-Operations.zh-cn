@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8bef8edb46a1942d3efc325e2c437a138ad44839
-ms.sourcegitcommit: e1a55b4dc43abedf523c33ba9a8abe7b073f2ec6
+ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3083010"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113912"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>计算零售渠道的库存现有量
 
@@ -41,7 +41,7 @@ Commerce 使用多个服务器和数据库确保可扩展性和性能。 因此�
 客户在电子商务网站中购物时，您可以使用以下 API 显示产品的库存现有量。
 
 - **GetEstimatedAvailabilty** – 此 API 用于获取电子商务渠道仓库或链接到电子商务渠道的履行组配置的所有仓库中的物料的库存现有量。 此 API 也可基于经度和维度数据用于特定搜索区域或半径中的仓库。
-- **ProductWarehouseInventoryAvailabilities** – 此 API 用于向特定仓库请求某个物料的库存。 例如，可在涉及订单装货时将其用于显示库存现有量。
+- **GetEstimatedProductWarehouseAvailability** – 此 API 用于向特定仓库请求某个物料的库存。 例如，可在涉及订单装货时将其用于显示库存现有量。
 
 > [!NOTE]
 > 这些 API 取代了 Dynamics 365 Retail 版本 10.0.7 及更低版本中的 **GetProductAvailabilities** 和 **GetAvailableInventoryNearby** API。

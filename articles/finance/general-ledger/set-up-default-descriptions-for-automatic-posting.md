@@ -17,14 +17,16 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eb89f50a3d227cad80226ce30f71c4f210129245
-ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
+ms.openlocfilehash: f5fc73f636a5cac25c259ce2cbae5c5407dca9b7
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622681"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117353"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>设置自动过帐到默认描述
+
+[!include [banner](../includes/banner.md)]
 
 本主题说明如何设置用于介绍自动过帐到总帐的会计条目的默认文本。 您可以使用自由格式的文本或通过选择固定变量设置默认描述文本。
 

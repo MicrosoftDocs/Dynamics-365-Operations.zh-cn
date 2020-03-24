@@ -1,9 +1,9 @@
 ---
-title: 创建策划的产品建议列表
-description: 此主题介绍用户如何为 Microsoft Dynamics 365 Commerce 客户创建和管理手动产品列表。
+title: 手动创建策划的建议
+description: 此主题介绍商家如何为 Microsoft Dynamics 365 Commerce 客户手动创建和管理产品列表。
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: b39ef61e7dabdd8a53d5666926a95cb7b9e6b9a5
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024925"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127713"
 ---
-# <a name="create-curated-product-recommendation-lists"></a>创建策划的产品建议列表
+# <a name="manually-create-curated-recommendations"></a>手动创建策划的建议
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍用户如何为 Microsoft Dynamics 365 Commerce 客户创建和管理手动产品列表。
+此主题介绍商家如何为 Microsoft Dynamics 365 Commerce 客户手动创建和管理产品建议列表。
 
 精选列表是人员创建和精选的单项内容的集合。  
 
@@ -56,8 +56,22 @@ ms.locfileid: "3024925"
 
 [产品建议概览](product-recommendations.md)
 
+[在 Dynamics 365 Commerce 环境中启用 ADLS](enable-adls-environment.md)
+
 [启用产品建议](enable-product-recommendations.md)
 
-[向页面添加建议列表](add-reco-list-to-page.md)
+[启用个性化建议](personalized-recommendations.md)
 
-[产品集合模块概览](product-collection-module-overview.md)
+[选择退出个性化产品建议](personalization-gdpr.md)
+
+[向电子商务站点添加建议列表](add-reco-list-to-page.md)
+
+[在 POS 中添加产品建议](product.md)
+
+[向交易记录屏幕添加建议](add-recommendations-control-pos-screen.md)
+
+[调整 AI-ML 建议结果](modify-product-recommendation-results.md)
+
+[使用演示数据创建建议](product-recommendations-demo-data.md)
+
+[产品建议常见问题](faq-recommendations.md)

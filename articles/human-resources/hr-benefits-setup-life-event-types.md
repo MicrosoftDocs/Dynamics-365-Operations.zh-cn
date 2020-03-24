@@ -1,6 +1,6 @@
 ---
-title: 配置生命事件类型
-description: ''
+title: 配置生活事件类型
+description: Microsoft Dynamics 365 Human Resources 使用生命事件类型来定义对更新员工福利登记有效的事件。
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 93c4285a1918cb625a01b4523195cacdee1170b4
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 8b1d911fcd86b91b96edb1bdf42316c9097ea8bc
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008282"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092629"
 ---
-# <a name="configure-life-event-types"></a>配置生命事件类型
+# <a name="configure-life-event-types"></a>配置生活事件类型
 
 [!include [banner](includes/preview-feature.md)]
 

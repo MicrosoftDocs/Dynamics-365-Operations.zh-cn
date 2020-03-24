@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8ac01f36912fa5e8a09bb4f324ef272cec737aa1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a9291dddf7d4dc080b6eb1ec60702de32a761f45
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002373"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113820"
 ---
 # <a name="set-up-a-retail-channel"></a>设置零售渠道
 
@@ -66,7 +66,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 可以在**报表/结算**和**杂项**部分中根据零售商店的需求设置许多其他可选设置。
 
-另外，请参阅[销售点 (POS) 的屏幕布局](https://docs.microsoft.com/en-us/dynamics365/retail/pos-screen-layouts?toc=/dynamics365/commerce/toc.json)，了解有关在**屏幕布局**部分中设置默认屏幕布局的信息；参阅[配置和安装 Retail 硬件工作站](https://docs.microsoft.com/en-us/dynamics365/retail/retail-hardware-station-configuration-installation)，了解有关**硬件工作站**部分的设置信息。
+另外，请参阅[销售点 (POS) 的屏幕布局](pos-screen-layouts.md)，了解有关在**屏幕布局**部分中设置默认屏幕布局的信息；参阅[配置和安装 Retail 硬件工作站](retail-hardware-station-configuration-installation.md)，了解有关**硬件工作站**部分的设置信息。
 
 下图显示了一个零售渠道设置配置示例。
 

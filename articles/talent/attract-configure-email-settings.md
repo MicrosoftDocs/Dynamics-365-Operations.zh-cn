@@ -1,6 +1,6 @@
 ---
 title: 在 Attract 中配置电子邮件设置
-description: 本主题介绍如何为 Microsoft Dynamcis 365 Talent - Attract 发送的电子邮件配置设置。
+description: 本主题介绍如何为 Microsoft Dynamics 365 Talent - Attract 发送的电子邮件配置设置。
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2019
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c1ebfaeb2e9bc2836bb70e87afa93484c829b6cb
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: e641e3f0d1873d91be1a1dc9bc22eb734a2b21d5
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833107"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124719"
 ---
 # <a name="configure-email-settings-in-attract"></a>在 Attract 中配置电子邮件设置
 

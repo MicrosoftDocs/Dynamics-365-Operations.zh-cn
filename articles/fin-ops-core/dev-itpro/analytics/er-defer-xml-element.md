@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
 ms.openlocfilehash: e9f6161186d04b690ee560dac7ee12974d070506
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 9c401a4adba260704b0b1cb9fe8e148bbb5afeed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015125"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3120870"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>推迟执行 ER 格式的 XML 元素
 
@@ -47,7 +47,7 @@ ms.locfileid: "3015125"
 
 如果**拆分文件**选项设置为**是**，则位于**通用\\文件**格式元素中的 XML 元素不支持**推迟执行**选项。 有关如何拆分 XML 文件的详细信息，请参阅[基于文件大小和内容数量拆分生成的 XML 文件](er-split-files.md)。
 
-## <a name="Example"></a>示例：推迟执行 ER 格式的 XML 元素
+## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>示例：推迟执行 ER 格式的 XML 元素
 
 以下步骤说明了具有系统管理员或电子报告职能顾问[角色](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles)的用户如何配置一个 ER 格式，以包含执行顺序与格式层次结构中的执行顺序不同的 XML 元素。
 

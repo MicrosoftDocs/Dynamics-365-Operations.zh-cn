@@ -19,14 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 66d5b10e1471b98274d4049df18a2e53873f789a
-ms.sourcegitcommit: 92cd55028be556a0bd41b6972c9c6d14b695dfa0
+ms.openlocfilehash: c04e2b2c0e5d7f28ea688578b3e1d7a1e1d9f6d3
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "2947472"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117440"
 ---
 # <a name="cancel-a-master-planning-job"></a>取消主计划作业
+
+[!include [banner](../includes/banner.md)]
 
 在 Microsoft Dynamics 365 Supply Chain Management 中，有多个选项可用于取消主计划作业。 例如，如果主计划作业是被错误开始的或运行时间比预期长，您想要结束它，您可能希望取消主计划作业。 取消计划作业的最佳方法是从**未完成的计划流程**页进行。 只有未在几分钟内完成从**未完成的计划流程**页取消主计划作业时，才应使用**批处理作业**和**增强的批处理作业**页面的替代选项。
 

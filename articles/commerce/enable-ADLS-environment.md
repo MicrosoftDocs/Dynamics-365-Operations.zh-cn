@@ -3,7 +3,7 @@ title: 在 Dynamics 365 Commerce 环境中启用 ADLS
 description: 本主题说明如何针对 Dynamics 365 Commerce 环境启用和测试 Azure Data Lake Storage (ADLS)，这是启用产品推荐的先决条件。
 author: bebeale
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 068eb522bd44e02dd31d3337a051691a956637fc
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 553e1512ba72559923403eef741ce08222172a09
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025227"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127759"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>在 Dynamics 365 Commerce 环境中启用 ADLS
 
@@ -95,8 +95,22 @@ ms.locfileid: "3025227"
 
 [启用产品建议](enable-product-recommendations.md)
 
-[向页面添加建议列表](add-reco-list-to-page.md)
+[启用个性化建议](personalized-recommendations.md)
 
-[向 POS 设备上的交易记录屏幕添加建议控件](../retail/add-recommendations-control-pos-screen.md?toc=/dynamics365/commerce/toc.json)
+[选择退出个性化产品建议](personalization-gdpr.md)
+
+[向电子商务站点添加建议列表](add-reco-list-to-page.md)
+
+[在 POS 中添加产品建议](product.md)
+
+[向交易记录屏幕添加建议](add-recommendations-control-pos-screen.md)
+
+[调整 AI-ML 建议结果](modify-product-recommendation-results.md)
+
+[手动创建策划的建议](create-editorial-recommendation-lists.md)
+
+[使用演示数据创建建议](product-recommendations-demo-data.md)
+
+[产品建议常见问题](faq-recommendations.md)
 
 

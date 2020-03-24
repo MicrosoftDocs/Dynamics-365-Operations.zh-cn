@@ -19,11 +19,11 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4594da0feeb3b74eb066fb5761e36398804b4fc2
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005695"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124650"
 ---
 # <a name="help-system"></a>帮助系统
 

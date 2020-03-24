@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: a19b8c40dd7d48b2d78723c4411f1699819c4026
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626077"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124466"
 ---
 # <a name="asset-types"></a>资产类型
 

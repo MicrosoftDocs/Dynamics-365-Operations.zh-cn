@@ -20,11 +20,11 @@ ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: 9dcdbcea995285c879f91c0bff435103865cc10f
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832923"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124742"
 ---
 # <a name="create-a-job-in-attract"></a>在 Attract 中创建工作
 
