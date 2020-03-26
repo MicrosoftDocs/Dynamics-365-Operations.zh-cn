@@ -1,6 +1,6 @@
 ---
 title: 概览
-description: ''
+description: 在 Dynamics 365 Human Resources 中，**休假和缺勤**工作区提供用于创建新休假计划的灵活框架、管理请求的工作流，以及供员工请求休息时间的直观自助服务页面。
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a36f6b6ba696fa926ab3d6298568dddfce43a57
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 493bc3abe82103541125914896252b2eae596b38
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008264"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091740"
 ---
 # <a name="overview"></a>概览
 

@@ -1,9 +1,9 @@
 ---
 title: 创建并使用自定义字段
-description: 本主题介绍如何创建自定义字段以根据业务调整应用程序。
+description: 本主题介绍如何通过用户界面创建自定义字段以根据业务调整应用程序。
 author: jasongre
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 9146921c47e89c5895a1a727de874b0ffbc93c37
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f689bb3ec844459d1dd6e199804a30f3e0cb38bc
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812497"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112328"
 ---
 # <a name="create-and-work-with-custom-fields"></a>创建并使用自定义字段
 
 [!include [banner](../includes/banner.md)]
 
-尽管有大量的现成字段来管理各种业务流程，公司有时也需要跟踪系统中的更多信息。 为了满足这样的需要，您可以创建自定义字段以根据业务调整应用程序，前提是您拥有此项功能的权限。
+尽管有大量的现成字段来管理各种业务流程，公司有时也需要跟踪系统中的更多信息。 虽然可以让程序员使用开发者工具将这些字段添加为扩展，自定义字段功能允许直接从用户界面添加字段，从而让您可以使用 Web 浏览器针对自己的业务调整应用程序。
 
-添加自定义字段功能将在平台更新 13 及以后提供。
+添加自定义字段功能将在平台更新 13 及以后提供。 只有具有特殊权限的用户才能访问此功能。
 
 本视频体现了向页面添加自定义字段有多简单：[添加自定义字段](https://www.youtube.com/watch?v=gWSGZI9Vtnc)。
 
@@ -159,3 +159,7 @@ ms.locfileid: "2812497"
 - 表不能扩展其他表。
 - 表不能标记为系统表。
 - 表不能为临时表。
+
+### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>是否可以从开发者工具引用自定义字段？  
+
+自定义字段只能通过用户界面管理，不能通过代码引用。 

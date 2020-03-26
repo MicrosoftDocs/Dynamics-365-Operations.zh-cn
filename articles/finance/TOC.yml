@@ -10,8 +10,6 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: 注册预览订阅
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
-            - name: 客户付款见解（预览版）
-              href: accounts-receivable/payment-insights-overview.md
             - name: 一个版本服务更新
               items:
                 - name: 一个版本服务更新概览
@@ -26,6 +24,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/finance/toc.json
                 - name: 将更新应用于云环境
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/finance/toc.json
+                - name: 将更新应用于本地部署
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: 配置服务更新
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: 暂停服务更新
@@ -70,20 +70,24 @@
                   items:
                     - name: “Finance 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 版本 10.0.10（2020 年 5 月）
+                      href: get-started/whats-new-changed-10-0-10.md
                     - name: Finance 版本 10.0.9（2020 年 4 月）
                       href: get-started/whats-new-changed-10-0-9.md
                     - name: Finance 版本 10.0.8（2020 年 2 月）
                       href: get-started/whats-new-changed-10-0-8.md
-                    - name: Finance 版本 10.0.7（2020 年 1 月）
-                      href: get-started/whats-new-changed-10-0-7.md
-                - name: 已删除或弃用的功能
+            - name: 已删除或弃用的功能
+              items:
+                - name: Dynamics 365 Finance 中已删除或弃用的功能
+                  href: get-started/removed-deprecated-features-finance.md
+                - name: 先前版本中已删除或弃用的功能
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
-                - name: 延迟发布的 AX 2012 功能
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-                - name: 未在本地部署中实现的功能
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/finance/toc.json
-                - name: Microsoft Dynamics AX 2009 和 2012 主流支持结束
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
+            - name: 延迟发布的 AX 2012 功能
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
+            - name: 未在本地部署中实现的功能
+              href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/finance/toc.json
+            - name: Microsoft Dynamics AX 2009 和 2012 主流支持结束
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
             - name: 文档资源
               items:
                 - name: 帮助系统
@@ -312,6 +316,8 @@
               href: accounts-receivable/tasks/establish-customer-method-payment.md
             - name: 设定客户付款费用
               href: accounts-receivable/tasks/establish-customer-payment-fees.md
+            - name: 客户付款见解（预览版）
+              href: accounts-receivable/payment-insights-overview.md
             - name: 客户过账模板
               href: accounts-receivable/customer-posting-profiles.md
             - name: 使用共享的编号规则复制客户
@@ -1794,6 +1800,8 @@
                           href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
                         - name: 定义命名法协调系统代码和服务会计代码
                           href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                        - name: 创建税率类型
+                          href: localizations/apac-ind-GST-create-tax-rate-type.md
                         - name: 创建商品劳务税过账类型的主科目
                           href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
                         - name: 创建税金结算期间
@@ -1922,17 +1930,18 @@
                   items:
                     - name: 税引擎概览
                       href: general-ledger/tax-engine.md
-                      items:
-                        - name: 创建税种组分
-                          href: localizations/tax-engine-create-tax-component.md
-                        - name: 导入配置
-                          href: general-ledger/tax-engine-import-configuration.md
-                        - name: 税引擎适用性
-                          href: general-ledger/tax-engine-applicability.md
-                        - name: 税引擎集成
-                          href: general-ledger/tax-engine-integration.md
-                        - name: 扩展税引擎
-                          href: general-ledger/extend-tax-engine-configurations.md
+                    - name: 导入配置
+                      href: general-ledger/tax-engine-import-configuration.md
+                    - name: 高级配方设计器
+                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
+                    - name: 税引擎适用性
+                      href: general-ledger/tax-engine-applicability.md
+                    - name: 创建税种组分
+                      href: localizations/tax-engine-create-tax-component.md
+                    - name: 税引擎集成
+                      href: general-ledger/tax-engine-integration.md
+                    - name: 扩展税引擎
+                      href: general-ledger/extend-tax-engine-configurations.md
                 - name: 税金阈值常见问题
                   href: localizations/apac-ind-tax-thresholds.md
                 - name: 库存转移
@@ -2357,50 +2366,56 @@
                       href: localizations/rus-incoming-VAT-restoring.md
                 - name: 固定资产
                   items:
-                    - name: 管理固定资产
-                      href: localizations/rus-fixed-assets.md
                     - name: 固定资产概览
-                      hfre: localizations/rus-fixed-assets-overview.md
+                      href: localizations/rus-fixed-assets-overview.md
                     - name: 设置固定资产
-                      href: localizations/rus-set-up-fixed-assets.md
-                    - name: 购置固定资产并将其投入运营
-                      href: localizations/rus-fixed-asset-acquisition.md
-                    - name: 登记固定资产购置
-                      href: localizations/rus-register-acquisition.md
-                    - name: 创建和过账固定资产购置预算日记账
-                      href: localizations/rus-post-budget-fixed-asset-acquisition.md
-                    - name: 从租赁交易记录创建固定资产租赁和退货
-                      href: localizations/rus-fixed-asset-leasing.md
-                    - name: 固定资产盘点
-                      href: localizations/rus-fixed-assets-counting.md
-                    - name: 固定资产货币重估
-                      href: localizations/rus-fixed-asset-currency-revaluation.md
-                    - name: 维护固定资产
-                      href: localizations/rus-maintain-fixed-assets.md
-                    - name: 重新评估固定资产成本和折旧
-                      href: localizations/rus-fixed-assets-revaluation.md
-                    - name: 部分固定资产拆卸（清算）
-                      href: localizations/rus-fixed-assets-disassembly.md
-                    - name: 销售、处置和勾销资产
-                      href: localizations/rus-sell-dispose-write-off-fixed-assets.md
-                    - name: 设置固定资产位置和编号
-                      href: localizations/rus-fixed-assets-locations-numbering.md
-                    - name: 设置折旧
-                      href: localizations/rus-depreciation-setup.md
-                    - name: 折旧方法
-                      href: localizations/rus-depreciation-methods.md
-                    - name: 折旧奖励
-                      href: localizations/rus-bonus-depreciation.md
-                    - name: 计算折旧
-                      href: localizations/rus-depreciation-calculation.md
-                    - name: 转移固定资产
-                      href: localizations/rus-fixed-asset-transfer.md
-                    - name: 统一的固定资产打印表格
-                      href: localizations/printing-forms-fixed-assets.md
-                    - name: 工作服/特殊设备会计（俄罗斯）
-                      href: localizations/rus-working-clothes-instruments-accounting.md
-                    - name: 没有价值的固定资产 (NVFA)（俄罗斯）
-                      href: localizations/rus-not-valuable-assets.md
+                      items:
+                        - name: 设置固定资产
+                          href: localizations/rus-set-up-fixed-assets.md
+                        - name: 设置折旧
+                          href: localizations/rus-depreciation-setup.md
+                        - name: 折旧方法
+                          href: localizations/rus-depreciation-methods.md
+                        - name: 折旧奖励
+                          href: localizations/rus-bonus-depreciation.md
+                        - name: 设置固定资产位置和编号
+                          href: localizations/rus-fixed-assets-locations-numbering.md
+                    - name: 使用固定资产
+                      items:
+                        - name: 创建固定资产
+                          href: localizations/rus-fixed-assets.md
+                        - name: 登记固定资产购置
+                          href: localizations/rus-register-acquisition.md
+                        - name: 购置固定资产并将其投入运营
+                          href: localizations/rus-fixed-asset-acquisition.md
+                        - name: 计算折旧
+                          href: localizations/rus-depreciation-calculation.md
+                        - name: 部分固定资产拆卸（清算）
+                          href: localizations/rus-fixed-assets-disassembly.md
+                        - name: 销售、处置和勾销资产
+                          href: localizations/rus-sell-dispose-write-off-fixed-assets.md
+                        - name: 从租赁交易记录创建固定资产租赁和退货
+                          href: localizations/rus-fixed-asset-leasing.md
+                        - name: 维护固定资产
+                          href: localizations/rus-maintain-fixed-assets.md
+                        - name: 固定资产盘点
+                          href: localizations/rus-fixed-assets-counting.md
+                        - name: 固定资产货币重估
+                          href: localizations/rus-fixed-asset-currency-revaluation.md
+                        - name: 重新评估固定资产成本和折旧
+                          href: localizations/rus-fixed-assets-revaluation.md
+                        - name: 创建和过账固定资产购置预算日记账
+                          href: localizations/rus-post-budget-fixed-asset-acquisition.md
+                        - name: 转移固定资产
+                          href: localizations/rus-fixed-asset-transfer.md
+                    - name: 没有价值的固定资产和工作服
+                      items:
+                        - name: 没有价值的固定资产 (NVFA)（俄罗斯）
+                          href: localizations/rus-not-valuable-assets.md
+                        - name: 工作服/特殊设备会计（俄罗斯）
+                          href: localizations/rus-working-clothes-instruments-accounting.md
+                        - name: 统一的固定资产打印表格
+                          href: localizations/printing-forms-fixed-assets.md
                 - name: 应付账款和应收账款
                   items:
                     - name: 贷方通知单更正（俄罗斯）
@@ -2427,6 +2442,14 @@
                           href: localizations/rus-register-transactions-with-reference-to-agreements.md
                         - name: 带协议的查询和报表
                           href: localizations/rus-inquiries-reports-agreements.md
+                    - name: 通过中介进行的交易
+                      items:
+                        - name: 通过中介进行的交易概览
+                          href: localizations/rus-transactions-through-intermediary.md
+                        - name: 佣金购买
+                          href: localizations/rus-purchases-on-commission.md
+                        - name: 佣金销售
+                          href: localizations/rus-sales-on-commission.md
                 - name: 库存
                   items:
                     - name: 来自供应商的在途货物
@@ -2533,6 +2556,8 @@
                   href: localizations/emea-swe-sie-standard-report.md
                 - name: 导入付款形式
                   href: localizations/emea-swe-payment-formats-import.md
+                - name: 瑞典的销售税付款报表
+                  href: localizations/emea-swe-sales-tax-payment-report-sweden.md
             - name: 瑞士
               items:
                 - name: 瑞士概览
@@ -2561,20 +2586,24 @@
                   href: localizations/united-kingdom.md
                 - name: 建筑行业方案
                   href: localizations/emea-gbr-cis-construction-industry-scheme.md
-                - name: 在结算折扣上创建贷项
-                  href: localizations/tasks/gb-00009-credit-note-settlement-discount.md
-                - name: 创建包括要求反向增值税的物料的采购订单
-                  href: localizations/tasks/purchase-order-reverse-charge-vat.md
-                - name: 创建包括要求反向增值税的物料的销售订单
-                  href: localizations/tasks/gb-00002-sales-order.md
-                - name: 设置反向增值税的物料销售税组
-                  href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                - name: 设置反向增值税物料组、规则和参数
-                  href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                - name: 设置反向增值税的销售税组
-                  href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+                - name: 冲销费用
+                  items:
+                    - name: 在结算折扣上创建贷项
+                      href: localizations/tasks/gb-00009-credit-note-settlement-discount.md
+                    - name: 创建包括要求反向增值税的物料的采购订单
+                      href: localizations/tasks/purchase-order-reverse-charge-vat.md
+                    - name: 创建包括要求反向增值税的物料的销售订单
+                      href: localizations/tasks/gb-00002-sales-order.md
+                    - name: 设置反向增值税的物料销售税组
+                      href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
+                    - name: 设置反向增值税物料组、规则和参数
+                      href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
+                    - name: 设置反向增值税的销售税组
+                      href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
                 - name: 将增值税数字化
                   href: localizations/emea-gbr-mtd-vat-integration.md
+                - name: 付款实践报表统计
+                  href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: 美国
               items:
                 - name: 美国概览
@@ -3141,6 +3170,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: 创建格式时选择数据模型定义
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
+                - name: 增强的筛选选项，用于在全局存储库中查找配置
+                  href: ../finance/localizations/enhanced-filtering-global-repo.md
                 - name: 通过将内容添加为原始 XML 生成报告
                   href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
                 - name: (ER) 电子报告中的跨公司数据源

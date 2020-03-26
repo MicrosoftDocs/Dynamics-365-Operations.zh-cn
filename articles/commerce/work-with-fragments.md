@@ -18,11 +18,11 @@ ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026032"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124351"
 ---
 # <a name="work-with-fragments"></a>使用片段 
 

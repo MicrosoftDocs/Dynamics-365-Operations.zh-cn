@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 12c6a39700a260c138fab67ed370f94b3aa04213
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: c4a643d4981364cea5b549118c201ac8a9798e02
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3075972"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113866"
 ---
 # <a name="dual-write-overview"></a>双写入概述
 
@@ -105,4 +105,4 @@ ms.locfileid: "3075972"
     - 将提供更多对货币和汇率的支持，并且将修订**汇率**应用程序编程接口 (API)。
     - 将支持单位转换。
 
-有关即将推出的更改的详细信息，请参阅 [Common Data Service 中的数据 – 阶段 1 和 2](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/extensibility/extensibility-roadmap)。
+有关即将推出的更改的详细信息，请参阅 [Common Data Service 中的数据 – 阶段 1 和 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/finance-operations-crossapp-capabilities/data-common-data-service-phase-1)。

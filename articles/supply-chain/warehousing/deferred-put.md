@@ -16,18 +16,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b67b3899a506c02b581d04f51691cb4408ee012e
-ms.sourcegitcommit: 0af4caa9f5ea6f6c1d1f4b30090e02e7f755df36
+ms.openlocfilehash: 470b1d947c3ead862dad8f5d40fb14e45ecc71a6
+ms.sourcegitcommit: 4398fdf783b8557029284bf95ce95d389fcf4162
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "2815780"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100199"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>推迟处理仓库工作
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pivate-preview-banner.md)]
 
 本主题介绍 Dynamics 365 Supply Chain Management 中提供的用于将推迟处理仓库工作转化为放置操作的功能。
 

@@ -1,6 +1,6 @@
 ---
-title: 预配 Human Resources
-description: ''
+title: 设置 Human Resources
+description: 本文将指导您如何为 Microsoft Dynamics 365 Human Resources 预配新生产环境。
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/18/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f105144047c64fc8e9d42da8d7525a8cc3912c33
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: f982f3c3b2703a71e6c8a1a0d1be15fb260a6ef1
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071606"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092238"
 ---
-# <a name="provision-human-resources"></a>预配 Human Resources
+# <a name="provision-human-resources"></a>设置 Human Resources
 
 本文将指导您如何为 Microsoft Dynamics 365 Human Resources 预配新生产环境。 本文假设您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Human Resources。 如果您有已包括 Human Resources 服务计划的现有 Microsoft Dynamics 365 许可证，但无法完成本文中的步骤，请联系支持人员。
 

@@ -16,18 +16,16 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: d792daa56d468830b56eb395fadda582b3b5bad6
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 0871017ebe111464e79800ef83b90931afb50df0
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015121"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124108"
 ---
 # <a name="manage-expense-delegation"></a>管理费用委托
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 费用委托用户可以代表组织中的另一位员工创建和管理费用报表。
 

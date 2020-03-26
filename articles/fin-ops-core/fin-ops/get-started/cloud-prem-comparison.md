@@ -3,7 +3,7 @@ title: 比较云和本地功能
 description: 此主题显示在云和本地支持的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 02/24/2020
+ms.date: 03/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: a918d9fa1ad7ed5adcbb1d056bb8cc3306507aec
-ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
+ms.openlocfilehash: 50ab5827f864b53137acb77e75055e995ea6f439
+ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "3081962"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100274"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>云和本地功能的比较
 
@@ -97,7 +97,7 @@ ms.locfileid: "3081962"
 | 数据管理和集成      |                                                                                           | 是       | 是             |
 |                                      | 配置主导的扩展                                                            | 是       | 无              |
 |                                      | 将数据导出到您自己的数据仓库中                                                    | 是       | 是             |
-|                                      | 启用将增量更新导出到数据实体                                 | 是       | 否              |
+|                                      | 启用将增量更新导出到数据实体                                 | 是       | 是              |
 |                                      | 数据集成                                                                         | 是       | 是             |
 | 文档管理                  |                                                                                           | 是       | 是             |
 | 帮助                                 |                                                                                           | 是       | 否              |

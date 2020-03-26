@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
 ms.openlocfilehash: 6efa4466dbf7f5ca1d3945acf15fac65d628d691
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015124"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124535"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>推迟执行 ER 格式的序列元素
 
@@ -45,7 +45,7 @@ ms.locfileid: "3015124"
 
 **推迟执行**选项不适用于已配置为最大长度受限制的修整序列的序列。
 
-## <a name="Example"></a>示例：推迟执行 ER 格式的序列元素
+## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>示例：推迟执行 ER 格式的序列元素
 
 以下步骤说明了具有系统管理员或电子报告职能顾问[角色](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles)的用户如何配置一个 ER 格式，以包含执行顺序与格式层次结构中的执行顺序不同的序列元素。
 

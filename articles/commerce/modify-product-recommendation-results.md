@@ -1,9 +1,9 @@
 ---
-title: 管理基于 AI-ML 的产品建议结果
+title: 调整基于 AI-ML 的产品建议结果
 description: 此主题介绍如何基于人工智能-机器学习 (AI-ML) 针对您的业务调整产品建议结果。
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5da77f71fb2569adc011bb9ee9c8c795d85545f8
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 4631ef03e1d73b70d80e774d1efa4909e619bbc0
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024994"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127920"
 ---
-# <a name="manage-ai-ml-based-product-recommendation-results"></a>管理基于 AI-ML 的产品建议结果
+# <a name="adjust-ai-ml-based-product-recommendation-results"></a>调整基于 AI-ML 的产品建议结果
 
 
 [!include [banner](includes/banner.md)]
@@ -102,10 +102,22 @@ ms.locfileid: "3024994"
 
 [产品建议概览](product-recommendations.md)
 
+[在 Dynamics 365 Commerce 环境中启用 ADLS](enable-adls-environment.md)
+
 [启用产品建议](enable-product-recommendations.md)
 
 [启用个性化建议](personalized-recommendations.md)
 
-[向页面添加建议列表](add-reco-list-to-page.md)
+[选择退出个性化产品建议](personalization-gdpr.md)
 
-[产品集合模块概览](product-collection-module-overview.md)
+[向电子商务站点添加建议列表](add-reco-list-to-page.md)
+
+[在 POS 中添加产品建议](product.md)
+
+[向交易记录屏幕添加建议](add-recommendations-control-pos-screen.md)
+
+[手动创建策划的建议](create-editorial-recommendation-lists.md)
+
+[使用演示数据创建建议](product-recommendations-demo-data.md)
+
+[产品建议常见问题](faq-recommendations.md)

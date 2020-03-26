@@ -3,7 +3,7 @@ title: 本地部署主页
 description: 本主题提供有关本地部署的信息和内容链接。
 author: sericks007
 manager: AnnBe
-ms.date: 02/27/2020
+ms.date: 03/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
-ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
+ms.openlocfilehash: b251125323bb74eb8be4172cb1b143c4866a8eac
+ms.sourcegitcommit: ec4df51e17be0b2df393635605ea17250c991ee9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "3090581"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3099722"
 ---
 # <a name="on-premises-deployment-home-page"></a>本地部署主页
 
@@ -55,6 +55,7 @@ ms.locfileid: "3090581"
 - [客户端 Internet 连接](../user-interface/client-disconnected.md)
 - [将更新应用于本地部署](apply-updates-on-premises.md)
 - [重新部署本地环境](redeploy-on-prem.md)
+- [对多个环境重复使用同一个 AD FS 实例](onprem-reuseadfs.md)
 
 ## <a name="commerce"></a>商业
 - [本地部署中提供的 Commerce 功能](../../../retail/retail-onprem.md)

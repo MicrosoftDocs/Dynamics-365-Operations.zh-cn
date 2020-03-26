@@ -3,7 +3,7 @@ title: 部署新的电子商务租户
 description: 此主题介绍如何使用 Microsoft Dynamics Lifecycle Services (LCS) 部署新的电子商务租户。
 author: psimolin
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d5cf2804c44e81ad135a3248d38c228148b530cc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001775"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096670"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>部署新的电子商务租户
 
@@ -97,11 +97,19 @@ Microsoft Dynamics Lifecycle Services (LCS) 是基于云的协作工作空间，
 
 [创建电子商务站点](create-ecommerce-site.md)
 
+[设置在线商店渠道](online-stores.md)
+
 [将在线站点与渠道关联](associate-site-online-store.md)
 
 [管理 robots.txt 文件](manage-robots-txt-files.md)
 
+[批量上传 URL 重定向](upload-bulk-redirects.md)
+
+[在 Commerce 中设置 B2C 租户](set-up-B2C-tenant.md)
+
 [设置用户登录自定义页面](custom-pages-user-logins.md)
+
+[在 Commerce 环境中配置多个 B2C 租户](configure-multi-B2C-tenants.md)
 
 [添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
 

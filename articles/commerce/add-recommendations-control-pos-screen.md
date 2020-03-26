@@ -1,9 +1,9 @@
 ---
-title: 向 POS 设备上的交易记录屏幕添加建议控件
+title: 向交易记录屏幕添加建议
 description: 此主题介绍如何使用 Microsoft Dynamics 365 Commerce 中的屏幕布局设计器，向销售点 (POS) 设备的交易记录屏幕添加建议控件。
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6d6f48197a36f633e3cd63cbad4518f53946fc7f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9117f398ee1d9edbd3aee9bed366eea225964184
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021693"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127667"
 ---
-# <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>向 POS 设备上的交易记录屏幕添加建议控件
+# <a name="add-recommendations-to-the-transaction-screen"></a>向交易记录屏幕添加建议
 
 [!include [banner](includes/banner.md)]
 
@@ -98,6 +98,24 @@ ms.locfileid: "3021693"
 
 ## <a name="additional-resources"></a>其他资源
 
-[有关 POS 的产品建议](product.md)
+[产品建议概览](product-recommendations.md)
 
-[产品建议概览](../commerce/product-recommendations.md)
+[在 Dynamics 365 Commerce 环境中启用 ADLS](enable-adls-environment.md)
+
+[启用产品建议](enable-product-recommendations.md)
+
+[启用个性化建议](personalized-recommendations.md)
+
+[选择退出个性化产品建议](personalization-gdpr.md)
+
+[向电子商务站点添加建议列表](add-reco-list-to-page.md)
+
+[在 POS 中添加产品建议](product.md)
+
+[调整 AI-ML 建议结果](modify-product-recommendation-results.md)
+
+[手动创建策划的建议](create-editorial-recommendation-lists.md)
+
+[使用演示数据创建建议](product-recommendations-demo-data.md)
+
+[产品建议常见问题](faq-recommendations.md)

@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b4234ac428cc80836852d4edfb0f37098b4a1e8e
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: ba0b047fe984f6bc164cbe137320d6bf6c13dafc
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071652"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124177"
 ---
 # <a name="credit-management-parameters-setup"></a>信用管理参数设置
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题描述可用于配置信用管理以满足业务需求的选项。 要开始使用信用管理功能，请在**信用管理参数**页（**信用管理 \> 设置 \> 信用管理参数**）上设置参数。
 

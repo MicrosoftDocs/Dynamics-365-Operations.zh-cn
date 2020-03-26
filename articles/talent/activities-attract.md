@@ -19,11 +19,11 @@ ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: ce8c0bd74a41b9857538b37d0875583d06e8c11d
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833269"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124765"
 ---
 # <a name="add-activities-to-a-hiring-process"></a>将活动添加到招聘流程
 

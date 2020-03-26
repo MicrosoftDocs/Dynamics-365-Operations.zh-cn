@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5e2fbe74d24c729711c6b96d5ff2b7f0c82922c
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 9b236f489fa2045bdff05f76fadbeacc2f9ed2f4
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015130"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124200"
 ---
 # <a name="credit-limit-adjustments"></a>信用额度调整 
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 信用额度调整使信用经理可以通过过帐流程来更新单个客户、一组客户或所有客户的信用额度和到期日期。 您可以添加信用额度调整条目来更新客户和客户信用组，也可以使用它们来计算自动信用额度。 然后可以检查条目，通过工作流发送以供批准，并过帐到客户帐户。
 

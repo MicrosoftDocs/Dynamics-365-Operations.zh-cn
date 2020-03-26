@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschloma
 ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08aec836ce4b7b6a59c445f138365f101a78c68e
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: c5d1c58463c24dc6a40b036f0bb803316bbb65c2
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030914"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091891"
 ---
 # <a name="reverse-journal-posting"></a>冲销日记帐过帐
 

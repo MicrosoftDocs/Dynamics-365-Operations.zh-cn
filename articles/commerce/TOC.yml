@@ -22,6 +22,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
                 - name: 将更新应用于云环境
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: 将更新应用于本地部署
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: 配置服务更新
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: 暂停服务更新
@@ -60,7 +62,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/commerce/toc.json
                 - name: 本地部署的系统要求
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
-                - name: 本地环境中零售渠道组件的安装步骤
+                - name: 本地环境中 Retail 渠道组件的安装步骤
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: 购买 Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
@@ -84,12 +86,12 @@
                   items:
                     - name: “Commerce 中的新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 版本 10.0.10（2020 年 5 月）
+                      href: get-started/whats-new-commerce-10-0-10.md
                     - name: Commerce 版本 10.0.9（2020 年 4 月）
                       href: get-started/whats-new-10-0-9.md
                     - name: Commerce 版本 10.0.8（2020 年 2 月）
                       href: get-started/whats-new-10-0-8.md
-                    - name: Retail 版本 10.0.7（2020 年 1 月）
-                      href: get-started/whats-new-10-0-7.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: Finance and Operations 中已删除或弃用的功能
@@ -332,10 +334,12 @@
                   items:
                     - name: 在 MPOS 和 Cloud POS 之间选择
                       href: MPOS-or-CPOS.md
-                    - name: 在线和脱机 POS 操作
+                    - name: 联机和脱机 POS 操作
                       href: pos-operations.md
                     - name: 自定义的 Modern POS 的设备激活
                       href: dev-itpro/retail-POS-activation-changes.md
+                    - name: 为 POS 登录启用 Azure Active Directory 身份验证
+                      href: aad-pos-logon.md
                     - name: MPOS 和 Cloud POS 中的演示数据屏幕布局
                       href: demo-data.md
                     - name: POS 中的产品和客户搜索
@@ -368,6 +372,8 @@
                           href: dev-itpro/retail-peripheral-simulator.md
                         - name: 将外围设备连接到 POS
                           href: define-maintain-channel-clients-registers-hw-stations.md
+                        - name: POS 外围设备和服务的运行状况检查
+                          href: pos-healthcheck.md
                     - name: 屏幕布局
                       items:
                         - name: MPOS/CPOS 中的演示数据屏幕布局
@@ -398,7 +404,7 @@
                       items:
                         - name: 配置、安装和激活 MPOS
                           href: retail-modern-pos-device-activation.md
-                        - name: 为 MPOS 和 Cloud MPOS 设置扩展登录功能
+                        - name: 为 MPOS 和 Cloud POS 设置扩展登录功能
                           href: extended-logon.md
                         - name: 管理激活帐户并验证设备
                           href: set-up-activation-accounts-validate-devices-hq.md
@@ -518,7 +524,7 @@
                       href: create-variant-group.md
                 - name: 创建新产品
                   items:
-                    - name: 创建新产品概览
+                    - name: 在 Commerce 中创建新产品
                       href: create-new-product.md
                     - name: 管理产品类别和产品
                       href: category-management-product-creation.md
@@ -570,6 +576,8 @@
                   href: retail-shipping-discount.md
                 - name: 设置优惠券
                   href: retail-coupons.md
+                - name: 在 POS 中显示折扣
+                  href: discounts-pos.md
                 - name: 价格报表
                   href: price-report.md
                 - name: 创建特定于渠道的贸易协议
@@ -582,8 +590,6 @@
                   href: product-recommendations.md
                 - name: 在 Dynamics 365 Commerce 环境中启用 ADLS
                   href: enable-ADLS-environment.md
-                - name: 向电子商务页面添加产品建议列表
-                  href: add-reco-list-to-page.md
                 - name: 启用产品建议
                   href: enable-product-recommendations.md
                 - name: 个性化建议
@@ -592,20 +598,22 @@
                       href: personalized-recommendations.md
                     - name: 选择退出个性化产品建议
                       href: personalization-gdpr.md
-                - name: 创建策划的产品建议列表
-                  href: create-editorial-recommendation-lists.md
-                - name: 管理基于 AI-ML 的产品建议结果
+                - name: 向电子商务站点添加建议列表
+                  href: add-reco-list-to-page.md
+                - name: POS 体验
+                  items:
+                    - name: 在 POS 上添加产品建议
+                      href: product.md
+                    - name: 向交易记录屏幕添加建议
+                      href: add-recommendations-control-pos-screen.md
+                - name: 调整基于 AI-ML 的产品建议结果
                   href: modify-product-recommendation-results.md
-                - name: 使用演示数据获取产品建议
+                - name: 手动创建策划的产品建议
+                  href: create-editorial-recommendation-lists.md
+                - name: 使用演示数据创建建议
                   href: product-recommendations-demo-data.md
                 - name: 产品建议常见问题
                   href: faq-recommendations.md
-                - name: POS 体验
-                  items:
-                    - name: 有关 POS 的产品建议
-                      href: product.md
-                    - name: 向 POS 设备上的交易记录屏幕添加建议控件
-                      href: add-recommendations-control-pos-screen.md
             - name: 评分和评价
               items:
                 - name: 评分和评价概览
@@ -656,6 +664,8 @@
               items:
                 - name: 创建呼叫中心订单
                   href: tasks/create-call-center-orders.md
+                - name: 在 POS 上更改交货方式
+                  href: POS-change-delivery-mode.md
             - name: 分配的订单管理
               items:
                 - name: DOM 概览
@@ -768,9 +778,15 @@
                   href: associate-site-online-store.md
                 - name: 管理 robots.txt 文件
                   href: manage-robots-txt-files.md
+                - name: 批量上传 URL 重定向
+                  href: upload-bulk-redirects.md
+                - name: 在 Commerce 中设置 B2C 租户
+                  href: set-up-B2C-tenant.md
                 - name: 设置用户登录自定义页面
                   href: custom-pages-user-logins.md
-                - name: 添加对内容交付网络 (CDN) 的支持
+                - name: 在 Commerce 环境中配置多个 B2C 租户
+                  href: configure-multi-B2C-tenants.md
+                - name: 添加对内容传送网络 (CDN) 的支持
                   href: add-cdn-support.md
                 - name: 启用基于位置的商店检测
                   href: enable-store-detection.md
@@ -864,6 +880,20 @@
                       href: customize-site-navigation.md
                     - name: 创建页面 URL
                       href: create-page-URL.md
+            - name: 管理数字资产
+              items:
+                - name: 数字资产管理概览
+                  href: dam-overview.md
+                - name: 上传图像
+                  href: dam-upload-images.md
+                - name: 上传视频
+                  href: dam-upload-video.md
+                - name: 上传图像和视频以外的文件
+                  href: dam-upload-files.md
+                - name: 裁剪图像
+                  href: dam-crop-images.md
+                - name: 自定义图像焦点
+                  href: dam-custom-focal-point.md
             - name: 使您的站点合规
               items:
                 - name: 合规性概览
@@ -1828,6 +1858,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: 配置开发环境 (.env) 文件
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: 设置 Azure DevOps 代码共享并创建构建管道
+                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: 平台概览
                   items:
                     - name: 体系结构概览
@@ -1912,6 +1944,10 @@
                       href: e-commerce-extensibility/create-observable-data-action.md
                     - name: 跨模块共享状态
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: 数据操作覆盖
+                      href: e-commerce-extensibility/data-action-overrides.md
+                    - name: 数据操作挂接
+                      href: e-commerce-extensibility/data-action-hooks.md
                 - name: 开发主题
                   items:
                     - name: 主题概览
@@ -2062,6 +2098,8 @@
                   href: dev-itpro/commerce-application-insights.md
                 - name: 在业务逻辑中创建异步 Commerce (CRT) API
                   href: dev-itpro/async-commerce-extension.md
+                - name: 渠道数据库中的预扩展列
+                  href: dev-itpro/extended-columns.md
             - name: 付款连接器可扩展性
               items:
                 - name: 为付款终端创建付款集成

@@ -1,0 +1,41 @@
+---
+title: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
+description: 本主题介绍 Dynamics 365 Supply Chain Management 中已经删除或计划删除的功能。
+author: kamaybac
+manager: AnnBe
+ms.date: 03/03/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: kamaybac
+ms.search.validFrom: 2020-03-03
+ms.dyn365.ops.version: Platform update 33
+ms.openlocfilehash: f3e889681e7922a84ccbee4cc1e01383f5c2781e
+ms.sourcegitcommit: c6be9706bca05089d4a4dc898d991410edb5c609
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097424"
+---
+# <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 中已删除或弃用的功能
+
+[!include [banner](../includes/banner.md)]
+
+随着记录 Dynamics 365 Supply Chain Management 的已删除或已弃用功能，将更新此主题。
+
+- *已移除*的功能在产品中不再可用。
+- *已弃用*的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
+
+此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。
+
+> [!NOTE]
+> [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+
+## <a name="previous-announcements-about-removed-or-deprecated-features"></a>之前有关已删除或已弃用功能的声明
+
+若要了解有关早期版本中已删除或已弃用功能的详细信息，请参阅[早期版本中已删除或已弃用的功能](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md)。

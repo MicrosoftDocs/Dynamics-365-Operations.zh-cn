@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76dd6539e39bb77c546e613b290fc5decba9457f
-ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
+ms.openlocfilehash: 443d2eb545b2b7592e27ae037009720db0a71997
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "2982300"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092537"
 ---
 # <a name="hazardous-materials"></a>危险物料
 

@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: ''
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8087090b16ddbcf9586ae289c6ec7c1d23087422
-ms.sourcegitcommit: c0929ebda9dfb7affe2a187336abf980ce2009a6
+ms.openlocfilehash: 37c5a6c20a6e77a50ece01046ee28074c927bd76
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "2994110"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091815"
 ---
 # <a name="user-interface-elements"></a>用户界面元素
 

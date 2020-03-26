@@ -18,16 +18,15 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c9318f518135bf7aa545cdb5ddd2e68c54a6d211
-ms.sourcegitcommit: bcc8cba8905ed51797d36e1712d7360452cfc5c5
+ms.openlocfilehash: 1ba4d09240888f0c533fb07614e75ffecea0742c
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "3090556"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124085"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>销售税的双币种支持
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 此主题介绍如何扩展销售税的双币种记帐功能和对销售税计算、过帐与结算的影响。
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
-ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
+ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957359"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117329"
 ---
 # <a name="business-document-management-overview"></a>业务文档管理概览
+
+[!include [banner](../includes/banner.md)]
 
 业务用户使用[电子申报 (ER)](general-electronic-reporting.md) 框架根据各个国家/地区的法律要求配置传出文档的格式。 用户也可以定义数据流，以便指定在生成的文档中放置哪些数据。 ER 框架使用预定义的模板生成 Microsoft Office 格式（Excel 工作簿或 Word 文档）格式的传出文档。 将根据生成所需文档时配置的数据流使用必需数据填充模板。 可以在 ER 解决方案中发布配置的每种格式，以便生成特定传出文档。 这通过 ER 格式配置表示，其中可包含可用于生成不同传出文档的模板。 业务用户可使用此框架管理所需业务文档。
 
@@ -147,7 +149,7 @@ ms.locfileid: "2957359"
 
 ![设置文档管理文档类型](./media/BDM-Overview-DMSetting.png)
 
-### <a name="SetupBdmParameters">设置参数</a>
+### <a name=""></a><a name="SetupBdmParameters">设置参数</a>
 
 可在**业务文档参数**页设置基本业务文档管理参数。 只有特定用户才可以访问此页。 这包括：
 
@@ -158,7 +160,7 @@ ms.locfileid: "2957359"
 
 1. 以具有**业务文档参数**页面访问权限的用户的身份登录。
 2. 转到**组织管理** \> **电子申报** \> **业务文档管理** \> **业务文档参数**。
-3.  在**业务文档参数**页**附件**选项卡的 **SharePoint 文档类型**字段中，定义应该用于在使用 Office 桌面应用程序编辑 Office 格式的模板时，临时存储此类模板的文档类型。 
+3.    在**业务文档参数**页**附件**选项卡的 **SharePoint 文档类型**字段中，定义应该用于在使用 Office 桌面应用程序编辑 Office 格式的模板时，临时存储此类模板的文档类型。 
 
 > [!NOTE]
 > 此参数仅支持使用 SharePoint 位置配置的文档类型。
@@ -288,13 +290,13 @@ ms.locfileid: "2957359"
 
 ![业务文档管理工作区页](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="EditInOffice365">在 Office 365 中编辑模板</a>
+### <a name=""></a><a name="EditInOffice365">在 Office 365 中编辑模板</a>
 
 无法使用 Office 365 修改模板。 例如，在 Office Online 中，将模板标题中的字段提示的字体从**常规**更改为**加粗**。 这些更改会自动存储在主模板存储（默认情况下为 Azure blob 存储）中存储的可编辑模板中。 已为 ER 框架配置此项。
 
 ![业务文档管理模板编辑器页面](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="EditInOfficeDesktopApp">在 Office 桌面应用程序中编辑模板</a>
+### <a name=""></a><a name="EditInOfficeDesktopApp">在 Office 桌面应用程序中编辑模板</a>
 
 > [!NOTE]
 > 此功能仅在正确配置 **SharePoint 文件类型**参数后可用。 有关详细信息，请参阅[配置参数](#SetupBdmParameters)。

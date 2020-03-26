@@ -18,11 +18,11 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c5bd5300a061e12ccabdea83c20863c95e15fe19
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176695"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124673"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>配置工作流中的审核步骤
 

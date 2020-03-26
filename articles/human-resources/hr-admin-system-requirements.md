@@ -1,6 +1,6 @@
 ---
 title: 系统要求
-description: ''
+description: 本文介绍 Microsoft Dynamics 365 Human Resources 的要求。
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 72379e91ace61f5e33ac6cab259b5c32902c7b3b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 09ab6be8ad67ca02d8817b76d3ddd6a2121d258f
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008172"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092169"
 ---
 # <a name="system-requirements"></a>系统要求
 

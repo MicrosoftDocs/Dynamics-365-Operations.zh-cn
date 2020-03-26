@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 326d9375670cb4f4990a4f7070bf923a28b2c025
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2b8ce102086535a5462d3fa0e8ac76e9ec3dd15c
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176640"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106851"
 ---
 # <a name="process-collection-letters"></a>处理催款单
 
@@ -70,7 +70,11 @@ ms.locfileid: "2176640"
     1. 在**打印**字段中，选择一个选项。
 
 ## <a name="control-collection-letters-at-the-customer-level"></a>在客户级别控制催款单
-您还可以在客户级别设置催款单，以便跟踪每个交易记录的催款单代码，但催款单处理将基于为客户存储的单个催款单级别。 单个催款单将包含对于客户已逾期的所有交易记录。 由于宽限天数现在在客户级别跟踪，下一个催款单将在序列中下一个催款单经过的宽限天数后发送，即使交易记录在上一个催款单发送之后变为逾期。 此选项将减少您按客户发送的催款单数量。 
+如果在交易记录级别设置催款单，则可以根据交易帐龄为一个客户生成多张催款单。 如果交易在不同催款单序列中显示，将为客户的每组逾期交易生成单独的催款单。 因此，可能会发生如下情况：一位客户可能会收到一张针对逾期 60 天的交易的催款单，以及另一张针对逾期 90 天的交易的催款单。 
+
+每张催款单还与一个催款单代码关联。 催款单代码与单个交易关联，用于确定何时应该为每个交易生成下一张催款单。 例如，如果一个交易预期超过 30 天，则催款单代码确定交易预期 60 天且尚未支付时，发送下一张催款单。 
+
+也可以在客户级别设置催款单。 在此情况下，将跟踪每个交易的催款单代码，但催款单处理将基于为客户存储的单个催款单级别。 单个催款单将包含对于客户已逾期的所有交易记录。 由于宽限天数现在在客户级别跟踪，下一个催款单将在序列中下一个催款单经过的宽限天数后发送，即使交易记录在上一个催款单发送之后变为逾期。 此选项可帮助减少您必须向每个客户发送的催款单数量。
 
 ### <a name="set-up-the-customer-to-control-collection-letters-at-the-customer-level"></a>将客户设置为在客户级别控制催款单
 1.  转到**导航窗格 > 模块 > 信用和收款 > 设置 > 应收帐款参数**，然后选择**收款**选项卡。 

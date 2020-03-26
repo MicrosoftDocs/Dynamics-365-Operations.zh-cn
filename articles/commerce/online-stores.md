@@ -3,7 +3,7 @@ title: 设置在线商店渠道
 description: 本文提供有关在线商店渠道以及如何在 Dynamics 365 Commerce 中设置它们的信息。
 author: kfend
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 03/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c427b0eba2120123a47f52029d70896be88b9ec0
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b719e40720b091eec879edf332ab63db710a1ebc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021801"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096886"
 ---
 # <a name="set-up-an-online-store-channel"></a>设置在线商店渠道
 
@@ -71,3 +71,27 @@ Commerce 支持多个零售渠道。 这些渠道包括在线商店、呼叫中�
 在您创建某一组织层次结构时，将目标分配给它。 目标指示层次结构如何在业务结构中使用。 您可以为商店运营创建一个组织层次结构，并使用层次结构为您的商店分类、补货和报告。 
 
 或者，您可以为每个目标创建单独的组织层次结构。 您还可以创建具有相同目标的多个层次结构，然后将单独渠道分配给每个层次结构。 如果您计划将产品目录发布到在线商店，则您应该至少将在线商店添加到组织层次结构中以便进行分类。 目录中的产品是从分配给在线商店的分类中选择的。 发布目录时，发布流程会将分配给在线商店的分类的有效日期与目录中包括的产品作比较，以便确定要使哪些产品在在线商店中可用。
+
+## <a name="additional-resources"></a>其他资源
+
+[配置域名](configure-your-domain-name.md)
+
+[部署新的电子商务站点](deploy-ecommerce-site.md)
+
+[创建电子商务站点](create-ecommerce-site.md)
+
+[将在线站点与渠道关联](associate-site-online-store.md)
+
+[管理 robots.txt 文件](manage-robots-txt-files.md)
+
+[批量上传 URL 重定向](upload-bulk-redirects.md)
+
+[在 Commerce 中设置 B2C 租户](set-up-B2C-tenant.md)
+
+[设置用户登录自定义页面](custom-pages-user-logins.md)
+
+[在 Commerce 环境中配置多个 B2C 租户](configure-multi-B2C-tenants.md)
+
+[添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
+
+[启用基于位置的商店检测](enable-store-detection.md)

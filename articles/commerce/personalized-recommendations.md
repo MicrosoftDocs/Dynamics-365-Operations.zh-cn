@@ -3,7 +3,7 @@ title: 雇用个性化产品建议
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中让个性化产品建议可以为客户所用。
 author: bebeale
 manager: AnnBe
-ms.date: 01/28/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b3c6140b8bd3ea15458223c0f61810421d0b2bc
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: bdb56a1f45cdea1832bd269502e534efdb207b03
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025229"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127897"
 ---
 # <a name="enable-personalized-recommendations"></a>启用个性化建议
 
@@ -110,12 +110,22 @@ ms.locfileid: "3025229"
 
 [产品建议概览](product-recommendations.md)
 
+[在 Dynamics 365 Commerce 环境中启用 ADLS](enable-adls-environment.md)
+
 [启用产品建议](enable-product-recommendations.md)
 
-[GDPR 和产品建议](personalization-gdpr.md)
+[选择退出个性化产品建议](personalization-gdpr.md)
 
-[向页面添加建议列表](add-reco-list-to-page.md)
+[向电子商务站点添加建议列表](add-reco-list-to-page.md)
 
-[向 POS 设备添加建议面板](add-recommendations-control-pos-screen.md)
+[在 POS 中添加产品建议](product.md)
 
-[产品集合模块概览](product-collection-module-overview.md)
+[向交易记录屏幕添加建议](add-recommendations-control-pos-screen.md)
+
+[调整 AI-ML 建议结果](modify-product-recommendation-results.md)
+
+[手动创建策划的建议](create-editorial-recommendation-lists.md)
+
+[使用演示数据创建建议](product-recommendations-demo-data.md)
+
+[产品建议常见问题](faq-recommendations.md)

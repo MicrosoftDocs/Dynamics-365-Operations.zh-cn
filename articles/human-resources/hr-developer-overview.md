@@ -1,6 +1,6 @@
 ---
 title: 概览
-description: ''
+description: 本开发人员指南提供 API 和自定义字段参考。 另外还提供有关与其他应用集成的信息。
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 995de90aa7c83b5aad35d935fe021706cf48ec4c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: e67882c47ad37805c6f6ce8051fb58363c4bcdcf
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008218"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091983"
 ---
 # <a name="overview"></a>概览
 
@@ -42,12 +42,12 @@ ms.locfileid: "3008218"
   - [配置 Common Data Service 集成](hr-admin-integration-common-data-service.md)
   - [配置与 Finance 的集成](hr-admin-integration-finance.md)
   - [配置与 Dayforce 的集成](hr-admin-integration-dayforce.md)
-  - [创建重复性数据导出应用](hr-admin-integration-recurring-data-export.md)
+  - [创建定期数据导出应用](hr-admin-integration-recurring-data-export.md)
   - 与 Office 集成
     - [Office 集成教程](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [更新 Excel 中的实体数据](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [创建“在 Excel 中打开”体验](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Office 集成疑难解答](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Office 集成故障排除](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - 实体 API 引用
   - [身份验证](hr-developer-api-authentication.md)

@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.1.0, Talent
 ms.openlocfilehash: d818e9e04ce88e5ab285ef8176334809447fb477
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006418"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124788"
 ---
 # <a name="manage-features"></a>管理功能
 

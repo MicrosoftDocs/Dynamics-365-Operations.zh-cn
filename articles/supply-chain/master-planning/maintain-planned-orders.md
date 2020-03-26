@@ -20,11 +20,11 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ec67caf596b0efc256c957eca17a04509fe86855
-ms.sourcegitcommit: 274ff2bb6872ff714781b348b29fd9f1affff9d0
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2904028"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124443"
 ---
 # <a name="maintain-planned-orders"></a>维护计划订单
 

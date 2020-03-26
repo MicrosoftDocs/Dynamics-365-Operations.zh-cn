@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2019-09-06
 ms.dyn365.ops.version: AX 10.0.6
-ms.openlocfilehash: 63073035941cd2ef343c65364536fe76a9b71430
-ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
+ms.openlocfilehash: 5f61c1abfb115f02e6ff314f6a3e42bb1d3b543f
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2935114"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092560"
 ---
 [!include [banner](../includes/banner.md)]
 
