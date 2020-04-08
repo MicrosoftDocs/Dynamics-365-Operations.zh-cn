@@ -600,7 +600,7 @@
               href: cost-accounting/tasks/configure-access-rights-cost-object-controller.md
             - name: 定义成本控制单元
               href: cost-accounting/tasks/define-cost-control-units.md
-            - name: 创建成本核算分类账
+            - name: 创建成本核算分类帐
               href: cost-accounting/tasks/create-cost-accounting-ledger.md
             - name: 统计维度成员和统计度量提供方模板
               href: cost-accounting/statistical-measure-provider-template.md
@@ -614,7 +614,7 @@
               href: cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
             - name: 创建成本累积政策
               href: cost-accounting/tasks/create-cost-rollup-policy.md
-            - name: 管理成本核算分类账的数据源
+            - name: 管理成本核算分类帐的数据源
               href: cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
             - name: 处理和跟踪源数据
               href: cost-accounting/tasks/process-trace-source-data.md
@@ -660,7 +660,7 @@
               href: expense-management/expense-report-distributions.md
             - name: 内部公司支出
               href: expense-management/intercompany-expense.md
-            - name: 支出策略
+            - name: 制定支出策略
               href: expense-management/travel-expense-policies.md
             - name: 查看支出报表
               href: expense-management/view-expense-report.md
@@ -856,7 +856,7 @@
                   href: general-ledger/configure-account-structures.md
                 - name: 双货币
                   href: general-ledger/dual-currency.md
-            - name: 日记账和分类账
+            - name: 日记账和分类帐
               items:
                 - name: 普通日记账处理
                   href: general-ledger/general-journal-processing.md
@@ -864,17 +864,17 @@
                   href: general-ledger/tasks/post-periodic-journals.md
                 - name: 冲销日记账过账
                   href: general-ledger/reverse-journal-posting.md
-                - name: 处理分类账分配日记账
+                - name: 处理分类帐分配日记账
                   href: general-ledger/tasks/process-ledger-allocation-journal.md
                 - name: 内部公司会计设置
                   href: general-ledger/intercompany-accounting-setup.md
-                - name: 分类账分配规则
+                - name: 分类帐分配规则
                   href: general-ledger/ledger-allocation-rules.md
                 - name: 创建日记账高级规则
                   href: general-ledger/tasks/create-advanced-rules-journals.md
                 - name: 创建和分配高级规则结构
                   href: general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: 分类账日记账类型
+                - name: 分类帐日记账类型
                   href: general-ledger/ledger-journal-types.md
                 - name: 创建和验证日记账
                   href: general-ledger/tasks/create-validate-journals.md
@@ -884,9 +884,9 @@
                   href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
                 - name: 使用模板创建日记账条目
                   href: general-ledger/tasks/create-journal-entry-template.md
-                - name: 创建分类账应计交易记录
+                - name: 创建分类帐应计交易记录
                   href: general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: 子分类账转移到总账
+                - name: 子分类帐转移到总账
                   href: general-ledger/subledger-transfer.md
                 - name: 从 Excel 发布日记账行和单据
                   href: general-ledger/open-lines-excel-journals-documents.md
@@ -902,7 +902,7 @@
                   href: general-ledger/import-currency-exchange-rates.md
                 - name: 一个凭证
                   href: general-ledger/one-voucher.md
-                - name: 分类账结算
+                - name: 分类帐结算
                   href: general-ledger/ledger-settlements.md
             - name: 期间结束关闭
               items:
@@ -938,7 +938,7 @@
                   href: general-ledger/tasks/create-sales-tax-payment.md
                 - name: 在单据中创建销售税交易记录
                   href: general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: 设置销售税分类账记账组
+                - name: 设置销售税分类帐记账组
                   href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
                 - name: 设置销售税主管机构
                   href: general-ledger/tasks/set-up-sales-tax-authorities.md
@@ -950,7 +950,7 @@
                   href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
                 - name: 销售税的双货币支持
                   href: general-ledger/dual-currency-for-tax.md
-                - name: 销售税明细（按分类账）报表
+                - name: 销售税明细（按分类帐）报表
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: 设置销售税结算期间
                   href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
@@ -978,12 +978,14 @@
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
             - name: 采购收据上的项目成本应计
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
-            - name: 项目开单
+            - name: 项目开票
               href: accounts-payable/project-invoicing.md
             - name: 项目合同
               href: project-management/project-contracts.md
             - name: 项目预测和预算
               href: project-management/project-forecasts-budgets.md
+            - name: 在会计年度末转移项目预算
+              href: project-management/process-project-budgets-for-fiscal-year-end.md
             - name: 项目销售订单
               href: project-management/project-sales-orders.md
             - name: 项目采购订单
@@ -1096,9 +1098,9 @@
               items:
                 - name: 公共部门中的总账概览
                   href: public-sector/general-ledger-public-sector.md
-                - name: 公共部门中的高级分类账条目
+                - name: 公共部门中的高级分类帐条目
                   href: public-sector/advanced-ledger-entries-public-sector.md
-                - name: 在公共部门中创建高级分类账条目
+                - name: 在公共部门中创建高级分类帐条目
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
                 - name: 使用现金控制限制
                   href: public-sector/cash-control.md
@@ -1646,6 +1648,12 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: 查看有关结算的交易记录
                   href: localizations/emea-transactions-settlement-form.md
+            - name: 芬兰
+              items:
+                - name: 芬兰概览
+                  href: localizations/finland.md
+                - name: 芬兰的销售税付款报表
+                  href: localizations/emea-fin-sales-tax-payment-report-finland.md
             - name: 法国
               items:
                 - name: 法国概览
@@ -1696,6 +1704,8 @@
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: 更新客户付款方式
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: DAS-2 报表
+                  href: localizations/emea-fra-das2-report.md
             - name: 德国
               items:
                 - name: 德国概览
@@ -1988,14 +1998,20 @@
                   href: localizations/emea-ita-exil-structured-notes.md
                 - name: 意向书 - 向常见的出口商提供账单
                   href: localizations/emea-ita-exil-intent-letter.md
-                - name: 免费交付货物的纳税账单
+                - name: 免费交付货物的税务发票
                   href: localizations/emea-ita-exil-goods-for-free.md
                 - name: 改进借方或贷方结算查询
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
-                - name: 总分类账模拟（意大利）
+                - name: 佣金结算
+                  href: localizations/emea-ita-exil-commission-settlement.md
+                - name: 总分类帐模拟（意大利）
                   href: localizations/emea-ita-exil-general-ledger-simulations.md
+                - name: 银行和汇款类型的可配置过账模板
+                  href: localizations/emea-ita-exil-bank-remittance.md
                 - name: 唯一认证
                   href: localizations/emea-ita-exil-unique-certification.md
+                - name: 汇票拒付导入
+                  href: localizations/emea-ita-exil-protest-boe.md
             - name: 日本
               items:
                 - name: 日本概览
@@ -2306,13 +2322,13 @@
                   items:
                     - name: 帐户对应关系
                       href: localizations/rus-correspondence-accounts.md
-                    - name: 预览分类账交易记录
+                    - name: 预览分类帐交易记录
                       href: localizations/rus-ledger-transactions-preview.md
                     - name: 设置货币交易的汇率
                       href: localizations/rus-exchange-difference.md
                     - name: 导入俄罗斯联邦中央银行的币种汇率
                       href: general-ledger/import-currency-exchange-rates.md
-                    - name: 分类账转换
+                    - name: 分类帐转换
                       href: localizations/rus-ledger-translation-procedure.md
                     - name: 交易额余额对账单报表
                       href: localizations/rus-turnover-balance-statement-reports.md
@@ -2460,6 +2476,8 @@
                       href: localizations/rus-inventory-cost-structure.md
                     - name: 库存调整向导
                       href: localizations/rus-inventory-adjustment-wizard.md
+                    - name: 库存报表
+                      href: localizations/rus-inventory-reports.md
                 - name: 报告
                   items:
                     - name: 财务报告

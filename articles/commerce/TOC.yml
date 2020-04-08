@@ -454,6 +454,8 @@
                   items:
                     - name: 配置和使用高级自动费用
                       href: omni-auto-charges.md
+                    - name: 按渠道启用和配置自动费用
+                      href: auto-charges-by-channel.md
                     - name: 将标头费用按比例分配给匹配的销售行
                       href: pro-rate-charges-matching-lines.md
                 - name: 管理连续性计划
@@ -525,7 +527,7 @@
                 - name: 创建新产品
                   items:
                     - name: 在 Commerce 中创建新产品
-                      href: create-new-product.md
+                      href: create-new-product-commerce.md
                     - name: 管理产品类别和产品
                       href: category-management-product-creation.md
                 - name: 产品属性
@@ -598,8 +600,6 @@
                       href: personalized-recommendations.md
                     - name: 选择退出个性化产品建议
                       href: personalization-gdpr.md
-                - name: 向电子商务站点添加建议列表
-                  href: add-reco-list-to-page.md
                 - name: POS 体验
                   items:
                     - name: 在 POS 上添加产品建议
@@ -944,6 +944,8 @@
                       href: add-checkout-module.md
                     - name: 订单确认模块
                       href: order-confirmation-module.md
+                    - name: 商店选择器模块
+                      href: store-selector.md
                 - name: 帐户管理模块
                   items:
                     - name: 帐户管理页面和模块
@@ -2115,7 +2117,7 @@
                 - name: 付款数据使用
                   href: payment-connector-data-fields.md
                 - name: 对付款连接器启用重复付款预防
-                  href: dev-itpro/duplicate-payment-protection.md
+                  href: dev-itpro/duplicate-payments-protection.md
                 - name: 在 Service Fabric 部署中为应用程序资源管理器创建付款包装
                   href: dev-itpro/payment-connector-package.md
             - name: 第三方电子商务可扩展性
