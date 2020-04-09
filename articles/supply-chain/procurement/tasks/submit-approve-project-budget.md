@@ -17,43 +17,43 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 798bbc68e625c58d56cdd769f48ba734ace1d028
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 7aa7c301946b92b956f4b1b0f92985451ffe917e
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914850"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149427"
 ---
-# <a name="submit-and-approve-project-budget"></a><span data-ttu-id="30302-103">提交和审查项目预算</span><span class="sxs-lookup"><span data-stu-id="30302-103">Submit and approve project budget</span></span>
+# <a name="submit-and-approve-project-budget"></a><span data-ttu-id="125bc-103">提交和审查项目预算</span><span class="sxs-lookup"><span data-stu-id="125bc-103">Submit and approve project budget</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="30302-104">此过程显示如何创建和提交项目的预算。</span><span class="sxs-lookup"><span data-stu-id="30302-104">This procedure shows you how to create and submit the budget for a project.</span></span> 
+<span data-ttu-id="125bc-104">此过程显示如何创建和提交项目的预算。</span><span class="sxs-lookup"><span data-stu-id="125bc-104">This procedure shows you how to create and submit the budget for a project.</span></span> 
 
-<span data-ttu-id="30302-105">创建项目预算时，您可以输入成本的已评估收入和成本，然后将其用于控制实际项目交易记录。</span><span class="sxs-lookup"><span data-stu-id="30302-105">When you create a project budget, you can enter estimated revenues and costs for a project, and then use those to control actual project transactions.</span></span> <span data-ttu-id="30302-106">在项目预算中，必须将所有原始预算和修订发送到项目工作流以供审核。</span><span class="sxs-lookup"><span data-stu-id="30302-106">In project budgeting, all original budgets and revisions must be sent to project workflow for approval.</span></span> <span data-ttu-id="30302-107">工作流提供给您对流程的增强了的控制，并创建了一个更改历史记录。</span><span class="sxs-lookup"><span data-stu-id="30302-107">Workflow gives you increased control over the process and creates a change history record.</span></span>
+<span data-ttu-id="125bc-105">创建项目预算时，您可以输入成本的已评估收入和成本，然后将其用于控制实际项目交易记录。</span><span class="sxs-lookup"><span data-stu-id="125bc-105">When you create a project budget, you can enter estimated revenues and costs for a project, and then use those to control actual project transactions.</span></span> <span data-ttu-id="125bc-106">在项目预算中，必须将所有原始预算和修订发送到项目工作流以供审核。</span><span class="sxs-lookup"><span data-stu-id="125bc-106">In project budgeting, all original budgets and revisions must be sent to project workflow for approval.</span></span> <span data-ttu-id="125bc-107">工作流提供给您对流程的增强了的控制，并创建了一个更改历史记录。</span><span class="sxs-lookup"><span data-stu-id="125bc-107">Workflow gives you increased control over the process and creates a change history record.</span></span>
 
-<span data-ttu-id="30302-108">此任务是使用 USSI 数据集创建的。</span><span class="sxs-lookup"><span data-stu-id="30302-108">This task was created using the USSI data set.</span></span>
+<span data-ttu-id="125bc-108">此任务是使用 USSI 数据集创建的。</span><span class="sxs-lookup"><span data-stu-id="125bc-108">This task was created using the USSI data set.</span></span>
 
-1. <span data-ttu-id="30302-109">在**导航窗格**中，转到**模块 > 项目管理与核算 > 项目 > 所有项目**。</span><span class="sxs-lookup"><span data-stu-id="30302-109">In the **Navigation pane**, go to **Modules > Project management and accounting > Projects > All projects**.</span></span>
-2. <span data-ttu-id="30302-110">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="30302-110">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="30302-111">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="30302-111">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="30302-112">在**操作窗格**中，单击**计划**。</span><span class="sxs-lookup"><span data-stu-id="30302-112">On the **Action Pane**, click **Plan**.</span></span>
-5. <span data-ttu-id="30302-113">单击**项目预算**。</span><span class="sxs-lookup"><span data-stu-id="30302-113">Click **Project budget**.</span></span>
-6. <span data-ttu-id="30302-114">在**描述**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="30302-114">In the **Description** field, type a value.</span></span>
-7. <span data-ttu-id="30302-115">展开**成本**快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="30302-115">Expand the **Cost** fastTab.</span></span>
-8. <span data-ttu-id="30302-116">单击**新建**。</span><span class="sxs-lookup"><span data-stu-id="30302-116">Click **New**.</span></span>
-9. <span data-ttu-id="30302-117">在**交易类型**字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="30302-117">In the **Transaction type** field, select an option.</span></span>
-10. <span data-ttu-id="30302-118">在**类别**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="30302-118">In the **Category** field, enter or select a value.</span></span>
-11. <span data-ttu-id="30302-119">在**原始预算**字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="30302-119">In the **Original budget** field, enter a number.</span></span>
-12. <span data-ttu-id="30302-120">展开**收入**快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="30302-120">Expand the **Revenues** fastTab.</span></span>
-13. <span data-ttu-id="30302-121">单击**新建**。</span><span class="sxs-lookup"><span data-stu-id="30302-121">Click **New**.</span></span>
-14. <span data-ttu-id="30302-122">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="30302-122">In the list, mark the selected row.</span></span>
-15. <span data-ttu-id="30302-123">在**交易类型**字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="30302-123">In the **Transaction type** field, select an option.</span></span>
-16. <span data-ttu-id="30302-124">在**类别**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="30302-124">In the **Category** field, enter or select a value.</span></span>
-17. <span data-ttu-id="30302-125">在**原始预算**字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="30302-125">In the **Original budget** field, enter a number.</span></span>
-18. <span data-ttu-id="30302-126">单击**保存**。</span><span class="sxs-lookup"><span data-stu-id="30302-126">Click **Save**.</span></span>
-19. <span data-ttu-id="30302-127">单击**工作流**。</span><span class="sxs-lookup"><span data-stu-id="30302-127">Click **Workflow**.</span></span>
-20. <span data-ttu-id="30302-128">单击**提交**。</span><span class="sxs-lookup"><span data-stu-id="30302-128">Click **Submit**.</span></span>
-21. <span data-ttu-id="30302-129">在**注释**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="30302-129">In the **Comment** field, type a value.</span></span>
-22. <span data-ttu-id="30302-130">单击**提交**。</span><span class="sxs-lookup"><span data-stu-id="30302-130">Click **Submit**.</span></span>
+1. <span data-ttu-id="125bc-109">在**导航窗格**中，转到**模块 > 项目管理与核算 > 项目 > 所有项目**。</span><span class="sxs-lookup"><span data-stu-id="125bc-109">In the **Navigation pane**, go to **Modules > Project management and accounting > Projects > All projects**.</span></span>
+2. <span data-ttu-id="125bc-110">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="125bc-110">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="125bc-111">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="125bc-111">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="125bc-112">在**操作窗格**中，单击**计划**。</span><span class="sxs-lookup"><span data-stu-id="125bc-112">On the **Action Pane**, click **Plan**.</span></span>
+5. <span data-ttu-id="125bc-113">单击**项目预算**。</span><span class="sxs-lookup"><span data-stu-id="125bc-113">Click **Project budget**.</span></span>
+6. <span data-ttu-id="125bc-114">在**描述**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="125bc-114">In the **Description** field, type a value.</span></span>
+7. <span data-ttu-id="125bc-115">展开**成本**快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="125bc-115">Expand the **Cost** fastTab.</span></span>
+8. <span data-ttu-id="125bc-116">单击**新建**。</span><span class="sxs-lookup"><span data-stu-id="125bc-116">Click **New**.</span></span>
+9. <span data-ttu-id="125bc-117">在**交易类型**字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="125bc-117">In the **Transaction type** field, select an option.</span></span>
+10. <span data-ttu-id="125bc-118">在**类别**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="125bc-118">In the **Category** field, enter or select a value.</span></span>
+11. <span data-ttu-id="125bc-119">在**原始预算**字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="125bc-119">In the **Original budget** field, enter a number.</span></span>
+12. <span data-ttu-id="125bc-120">展开**收入**快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="125bc-120">Expand the **Revenues** fastTab.</span></span>
+13. <span data-ttu-id="125bc-121">单击**新建**。</span><span class="sxs-lookup"><span data-stu-id="125bc-121">Click **New**.</span></span>
+14. <span data-ttu-id="125bc-122">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="125bc-122">In the list, mark the selected row.</span></span>
+15. <span data-ttu-id="125bc-123">在**交易类型**字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="125bc-123">In the **Transaction type** field, select an option.</span></span>
+16. <span data-ttu-id="125bc-124">在**类别**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="125bc-124">In the **Category** field, enter or select a value.</span></span>
+17. <span data-ttu-id="125bc-125">在**原始预算**字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="125bc-125">In the **Original budget** field, enter a number.</span></span>
+18. <span data-ttu-id="125bc-126">单击**保存**。</span><span class="sxs-lookup"><span data-stu-id="125bc-126">Click **Save**.</span></span>
+19. <span data-ttu-id="125bc-127">单击**工作流**。</span><span class="sxs-lookup"><span data-stu-id="125bc-127">Click **Workflow**.</span></span>
+20. <span data-ttu-id="125bc-128">单击**提交**。</span><span class="sxs-lookup"><span data-stu-id="125bc-128">Click **Submit**.</span></span>
+21. <span data-ttu-id="125bc-129">在**注释**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="125bc-129">In the **Comment** field, type a value.</span></span>
+22. <span data-ttu-id="125bc-130">单击**提交**。</span><span class="sxs-lookup"><span data-stu-id="125bc-130">Click **Submit**.</span></span>
 

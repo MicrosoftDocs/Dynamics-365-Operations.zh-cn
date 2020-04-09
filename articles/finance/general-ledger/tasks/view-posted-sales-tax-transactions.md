@@ -16,36 +16,36 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3f72f12e8afdf190865a77fc6153c0c0a111e5a7
-ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
+ms.openlocfilehash: c10ae427c4dde641c619546ab33503090a7c49fa
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2888601"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144618"
 ---
-# <a name="view-posted-sales-tax-transactions"></a><span data-ttu-id="f5c38-103">查看已过帐的销售税交易记录</span><span class="sxs-lookup"><span data-stu-id="f5c38-103">View posted sales tax transactions</span></span>
+# <a name="view-posted-sales-tax-transactions"></a><span data-ttu-id="742ae-103">查看已过帐的销售税交易记录</span><span class="sxs-lookup"><span data-stu-id="742ae-103">View posted sales tax transactions</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="f5c38-104">此主题介绍一些查看已过帐的销售税交易记录的方法。</span><span class="sxs-lookup"><span data-stu-id="f5c38-104">This topic describes some ways to view posted sales tax transactions.</span></span> <span data-ttu-id="f5c38-105">您可以从不同页面查看已过帐销售税交易记录，取决于您想要查看哪部分。</span><span class="sxs-lookup"><span data-stu-id="f5c38-105">You can view posted sales tax transactions from various pages depending on what you need to view.</span></span> <span data-ttu-id="f5c38-106">此任务使用 USMF 公司演示。</span><span class="sxs-lookup"><span data-stu-id="f5c38-106">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="742ae-104">此主题介绍一些查看已过帐的销售税交易记录的方法。</span><span class="sxs-lookup"><span data-stu-id="742ae-104">This topic describes some ways to view posted sales tax transactions.</span></span> <span data-ttu-id="742ae-105">您可以从不同页面查看已过帐销售税交易记录，取决于您想要查看哪部分。</span><span class="sxs-lookup"><span data-stu-id="742ae-105">You can view posted sales tax transactions from various pages depending on what you need to view.</span></span> <span data-ttu-id="742ae-106">此任务使用 USMF 公司演示。</span><span class="sxs-lookup"><span data-stu-id="742ae-106">This task uses the USMF demo company.</span></span>
 
-## <a name="posted-sales-tax-page"></a><span data-ttu-id="f5c38-107">已过帐的销售税页面</span><span class="sxs-lookup"><span data-stu-id="f5c38-107">Posted sales tax page</span></span>
+## <a name="posted-sales-tax-page"></a><span data-ttu-id="742ae-107">已过帐的销售税页面</span><span class="sxs-lookup"><span data-stu-id="742ae-107">Posted sales tax page</span></span>
 
-1. <span data-ttu-id="f5c38-108">在导航窗格中，转到**模块 > 纳税 > 查询和报表 > 销售税查询 > 已过帐的销售税**。</span><span class="sxs-lookup"><span data-stu-id="f5c38-108">In the navigation pane, go to **Modules > Tax > Inquiries and reports > Sales tax inquiries > Posted sales tax**.</span></span>
-2. <span data-ttu-id="f5c38-109">选择**显示筛选器**以将视图缩小到特定交易记录。</span><span class="sxs-lookup"><span data-stu-id="f5c38-109">Select **Show filters** to narrow the view to specific transactions.</span></span>
-3. <span data-ttu-id="f5c38-110">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="f5c38-110">Close the page.</span></span>
+1. <span data-ttu-id="742ae-108">在导航窗格中，转到**模块 > 纳税 > 查询和报表 > 销售税查询 > 已过帐的销售税**。</span><span class="sxs-lookup"><span data-stu-id="742ae-108">In the navigation pane, go to **Modules > Tax > Inquiries and reports > Sales tax inquiries > Posted sales tax**.</span></span>
+2. <span data-ttu-id="742ae-109">选择**显示筛选器**以将视图缩小到特定交易记录。</span><span class="sxs-lookup"><span data-stu-id="742ae-109">Select **Show filters** to narrow the view to specific transactions.</span></span>
+3. <span data-ttu-id="742ae-110">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="742ae-110">Close the page.</span></span>
 
-## <a name="sales-tax-settlement-periods-page"></a><span data-ttu-id="f5c38-111">销售税结算期间页面</span><span class="sxs-lookup"><span data-stu-id="f5c38-111">Sales tax settlement periods page</span></span>
+## <a name="sales-tax-settlement-periods-page"></a><span data-ttu-id="742ae-111">销售税结算期间页面</span><span class="sxs-lookup"><span data-stu-id="742ae-111">Sales tax settlement periods page</span></span>
 
-1. <span data-ttu-id="f5c38-112">在导航窗格中，转到**模块 > 纳税 > 间接税 > 销售税 > 销售税结算期**。</span><span class="sxs-lookup"><span data-stu-id="f5c38-112">In the navigation pane, go to **Modules > Tax > Indirect taxes > Sales tax > Sales tax settlement periods**.</span></span>
-2. <span data-ttu-id="f5c38-113">展开**期间间隔**部分。</span><span class="sxs-lookup"><span data-stu-id="f5c38-113">Expand the **Period intervals** section.</span></span>
-3. <span data-ttu-id="f5c38-114">选择您感兴趣的间隔。</span><span class="sxs-lookup"><span data-stu-id="f5c38-114">Select the interval you are interested in.</span></span>
-4. <span data-ttu-id="f5c38-115">您可以进一步筛选已过帐销售税交易记录的列表。</span><span class="sxs-lookup"><span data-stu-id="f5c38-115">You can further filter the list of posted sales tax transactions.</span></span>
-5. <span data-ttu-id="f5c38-116">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="f5c38-116">Close the page.</span></span>
+1. <span data-ttu-id="742ae-112">在导航窗格中，转到**模块 > 纳税 > 间接税 > 销售税 > 销售税结算期**。</span><span class="sxs-lookup"><span data-stu-id="742ae-112">In the navigation pane, go to **Modules > Tax > Indirect taxes > Sales tax > Sales tax settlement periods**.</span></span>
+2. <span data-ttu-id="742ae-113">展开**期间间隔**部分。</span><span class="sxs-lookup"><span data-stu-id="742ae-113">Expand the **Period intervals** section.</span></span>
+3. <span data-ttu-id="742ae-114">选择您感兴趣的间隔。</span><span class="sxs-lookup"><span data-stu-id="742ae-114">Select the interval you are interested in.</span></span>
+4. <span data-ttu-id="742ae-115">您可以进一步筛选已过帐销售税交易记录的列表。</span><span class="sxs-lookup"><span data-stu-id="742ae-115">You can further filter the list of posted sales tax transactions.</span></span>
+5. <span data-ttu-id="742ae-116">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="742ae-116">Close the page.</span></span>
 
-## <a name="sales-tax-codes-page"></a><span data-ttu-id="f5c38-117">销售税代码页面</span><span class="sxs-lookup"><span data-stu-id="f5c38-117">Sales tax codes page</span></span>
+## <a name="sales-tax-codes-page"></a><span data-ttu-id="742ae-117">销售税代码页面</span><span class="sxs-lookup"><span data-stu-id="742ae-117">Sales tax codes page</span></span>
 
-1. <span data-ttu-id="f5c38-118">在导航窗格中，转到**模块 > 纳税 > 间接税 > 销售税 > 销售税代码**。</span><span class="sxs-lookup"><span data-stu-id="f5c38-118">In the navigation pane, go to **Modules > Tax > Indirect taxes > Sales tax > Sales tax codes**.</span></span>
-2. <span data-ttu-id="f5c38-119">在操作窗格上，选择**销售税代码**。</span><span class="sxs-lookup"><span data-stu-id="f5c38-119">On the Action Pane, select **Sales tax code**.</span></span>
-3. <span data-ttu-id="f5c38-120">选择**已过帐的销售税**。</span><span class="sxs-lookup"><span data-stu-id="f5c38-120">Select **Posted sales tax**.</span></span>
+1. <span data-ttu-id="742ae-118">在导航窗格中，转到**模块 > 纳税 > 间接税 > 销售税 > 销售税代码**。</span><span class="sxs-lookup"><span data-stu-id="742ae-118">In the navigation pane, go to **Modules > Tax > Indirect taxes > Sales tax > Sales tax codes**.</span></span>
+2. <span data-ttu-id="742ae-119">在操作窗格上，选择**销售税代码**。</span><span class="sxs-lookup"><span data-stu-id="742ae-119">On the Action Pane, select **Sales tax code**.</span></span>
+3. <span data-ttu-id="742ae-120">选择**已过帐的销售税**。</span><span class="sxs-lookup"><span data-stu-id="742ae-120">Select **Posted sales tax**.</span></span>
 

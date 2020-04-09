@@ -16,57 +16,57 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7168d13ef0b24d06aa28fbbc22bbb4e6093df24
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: 16e11be633cdffbc8ee3e206eb42e7e1a2f72b9c
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1994902"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146437"
 ---
-# <a name="manage-order-holds"></a><span data-ttu-id="69c37-103">管理订单保留</span><span class="sxs-lookup"><span data-stu-id="69c37-103">Manage order holds</span></span>
+# <a name="manage-order-holds"></a><span data-ttu-id="900f3-103">管理订单保留</span><span class="sxs-lookup"><span data-stu-id="900f3-103">Manage order holds</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="69c37-104">此过程演示如何将销售订单置于暂停状态、如何使用订单保留签出，以及如何删除订单保留。</span><span class="sxs-lookup"><span data-stu-id="69c37-104">This procedure demonstrates how to place customer sales orders on hold, how to work with order hold checkouts, and how to remove order holds.</span></span> <span data-ttu-id="69c37-105">订单可能出于多种原因被置于暂停状态。</span><span class="sxs-lookup"><span data-stu-id="69c37-105">An order might be placed on hold for a variety of reasons.</span></span> <span data-ttu-id="69c37-106">例如，在验证客户地址或付款方式之前，或在经理可以查看客户的信用额度之前，您可以保留订单。</span><span class="sxs-lookup"><span data-stu-id="69c37-106">For example, you might hold an order until a customer address or payment method can be verified or until a manager can review the customer’s credit limit.</span></span> <span data-ttu-id="69c37-107">订单出于保留状态时，仓库不能为装运处理该订单。</span><span class="sxs-lookup"><span data-stu-id="69c37-107">While the order on hold, it cannot be processed by the warehouse for shipping.</span></span> 
+<span data-ttu-id="900f3-104">此过程演示如何将销售订单置于暂停状态、如何使用订单保留签出，以及如何删除订单保留。</span><span class="sxs-lookup"><span data-stu-id="900f3-104">This procedure demonstrates how to place customer sales orders on hold, how to work with order hold checkouts, and how to remove order holds.</span></span> <span data-ttu-id="900f3-105">订单可能出于多种原因被置于暂停状态。</span><span class="sxs-lookup"><span data-stu-id="900f3-105">An order might be placed on hold for a variety of reasons.</span></span> <span data-ttu-id="900f3-106">例如，在验证客户地址或付款方式之前，或在经理可以查看客户的信用额度之前，您可以保留订单。</span><span class="sxs-lookup"><span data-stu-id="900f3-106">For example, you might hold an order until a customer address or payment method can be verified or until a manager can review the customer's credit limit.</span></span> <span data-ttu-id="900f3-107">订单出于保留状态时，仓库不能为装运处理该订单。</span><span class="sxs-lookup"><span data-stu-id="900f3-107">While the order on hold, it cannot be processed by the warehouse for shipping.</span></span> 
 
-<span data-ttu-id="69c37-108">您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="69c37-108">You can run this procedure in demo data company USMF or on your own data.</span></span>
+<span data-ttu-id="900f3-108">您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="900f3-108">You can run this procedure in demo data company USMF or on your own data.</span></span>
 
 
-## <a name="set-up-order-holds"></a><span data-ttu-id="69c37-109">设置订单暂停</span><span class="sxs-lookup"><span data-stu-id="69c37-109">Set up order holds</span></span>
-1. <span data-ttu-id="69c37-110">转到**导航窗格 > 模块 > 销售和营销 > 设置 > 销售订单 > 订单保留代码**。</span><span class="sxs-lookup"><span data-stu-id="69c37-110">Go to **Navigation pane > Modules > Sales and marketing > Setup > Sales orders > Order hold codes**.</span></span>
-2. <span data-ttu-id="69c37-111">单击**新建**。</span><span class="sxs-lookup"><span data-stu-id="69c37-111">Click **New**.</span></span>
-3. <span data-ttu-id="69c37-112">在**保留代码**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="69c37-112">In the **Hold code** field, type a value.</span></span> <span data-ttu-id="69c37-113">例如，输入“回电”。</span><span class="sxs-lookup"><span data-stu-id="69c37-113">For example, type 'Call back'.</span></span>  
-4. <span data-ttu-id="69c37-114">在**描述**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="69c37-114">In the **Description** field, type a value.</span></span>
-    - <span data-ttu-id="69c37-115">例如，已保留并在等待客户回电的订单。</span><span class="sxs-lookup"><span data-stu-id="69c37-115">For example, Order held waiting for customer callback.</span></span>  
-    - <span data-ttu-id="69c37-116">或者，也可以选中**删除预留**复选框，以便在添加此保留代码时从订单中删除所有实际预留。</span><span class="sxs-lookup"><span data-stu-id="69c37-116">Optionally, select the **Remove reservations** check box to remove any physical reservations from the order when this hold code is added.</span></span>  
-5. <span data-ttu-id="69c37-117">单击**保存**。</span><span class="sxs-lookup"><span data-stu-id="69c37-117">Click **Save**.</span></span>
+## <a name="set-up-order-holds"></a><span data-ttu-id="900f3-109">设置订单暂停</span><span class="sxs-lookup"><span data-stu-id="900f3-109">Set up order holds</span></span>
+1. <span data-ttu-id="900f3-110">转到**导航窗格 > 模块 > 销售和营销 > 设置 > 销售订单 > 订单保留代码**。</span><span class="sxs-lookup"><span data-stu-id="900f3-110">Go to **Navigation pane > Modules > Sales and marketing > Setup > Sales orders > Order hold codes**.</span></span>
+2. <span data-ttu-id="900f3-111">单击**新建**。</span><span class="sxs-lookup"><span data-stu-id="900f3-111">Click **New**.</span></span>
+3. <span data-ttu-id="900f3-112">在**保留代码**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="900f3-112">In the **Hold code** field, type a value.</span></span> <span data-ttu-id="900f3-113">例如，输入“回电”。</span><span class="sxs-lookup"><span data-stu-id="900f3-113">For example, type 'Call back'.</span></span>  
+4. <span data-ttu-id="900f3-114">在**描述**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="900f3-114">In the **Description** field, type a value.</span></span>
+    - <span data-ttu-id="900f3-115">例如，已保留并在等待客户回电的订单。</span><span class="sxs-lookup"><span data-stu-id="900f3-115">For example, Order held waiting for customer callback.</span></span>  
+    - <span data-ttu-id="900f3-116">或者，也可以选中**删除预留**复选框，以便在添加此保留代码时从订单中删除所有实际预留。</span><span class="sxs-lookup"><span data-stu-id="900f3-116">Optionally, select the **Remove reservations** check box to remove any physical reservations from the order when this hold code is added.</span></span>  
+5. <span data-ttu-id="900f3-117">单击**保存**。</span><span class="sxs-lookup"><span data-stu-id="900f3-117">Click **Save**.</span></span>
 
-## <a name="place-order-on-hold"></a><span data-ttu-id="69c37-118">将订单设置为保留状态</span><span class="sxs-lookup"><span data-stu-id="69c37-118">Place order on hold</span></span>
-1. <span data-ttu-id="69c37-119">转到**导航窗格 > 模块 > 销售和营销 > 销售订单 > 所有销售订单**。</span><span class="sxs-lookup"><span data-stu-id="69c37-119">Go to **Navigation pane > Modules > Sales and marketing > Sales orders > All sales orders**.</span></span>
-2. <span data-ttu-id="69c37-120">单击**新建**。</span><span class="sxs-lookup"><span data-stu-id="69c37-120">Click **New**.</span></span>
-3. <span data-ttu-id="69c37-121">在**客户帐户**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="69c37-121">In the **Customer account** field, enter or select a value.</span></span>
-4. <span data-ttu-id="69c37-122">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="69c37-122">Click **OK**.</span></span>
-5. <span data-ttu-id="69c37-123">在**物料编号**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="69c37-123">In the **Item number** field, enter or select a value.</span></span>
-6. <span data-ttu-id="69c37-124">在**数量**字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="69c37-124">In the **Quantity** field, enter a number.</span></span>
-7. <span data-ttu-id="69c37-125">在**操作窗格**上，单击**销售订单**。</span><span class="sxs-lookup"><span data-stu-id="69c37-125">On the **Action Pane**, click **Sales order**.</span></span>
-8. <span data-ttu-id="69c37-126">单击**订单保留**。</span><span class="sxs-lookup"><span data-stu-id="69c37-126">Click **Order holds**.</span></span>
-9. <span data-ttu-id="69c37-127">单击**新建**。</span><span class="sxs-lookup"><span data-stu-id="69c37-127">Click **New**.</span></span>
-10. <span data-ttu-id="69c37-128">在**保留代码**字段中，选择在上一个子任务中已创建的代码。</span><span class="sxs-lookup"><span data-stu-id="69c37-128">In the **Hold code** field, select the code you have created in the previous subtask.</span></span>
-11. <span data-ttu-id="69c37-129">单击**保存**。</span><span class="sxs-lookup"><span data-stu-id="69c37-129">Click **Save**.</span></span>
-12. <span data-ttu-id="69c37-130">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="69c37-130">Close the page.</span></span>
-13. <span data-ttu-id="69c37-131">转到**销售和营销 > 销售订单 > 所有销售订单**。</span><span class="sxs-lookup"><span data-stu-id="69c37-131">Go to **Sales and marketing > Sales orders > All sales orders**.</span></span>
-14. <span data-ttu-id="69c37-132">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="69c37-132">In the list, mark the selected row.</span></span> <span data-ttu-id="69c37-133">当前处于保留状态的订单的“请勿处理”和“保留”字段带有标记。</span><span class="sxs-lookup"><span data-stu-id="69c37-133">Orders that are currently on hold have the "Do not process" and "Hold" fields marked.</span></span>
-15. <span data-ttu-id="69c37-134">在“操作窗格”中，单击**领料和装箱**。</span><span class="sxs-lookup"><span data-stu-id="69c37-134">On the Action Pane, click **Pick and pack**.</span></span>
+## <a name="place-order-on-hold"></a><span data-ttu-id="900f3-118">将订单设置为保留状态</span><span class="sxs-lookup"><span data-stu-id="900f3-118">Place order on hold</span></span>
+1. <span data-ttu-id="900f3-119">转到**导航窗格 > 模块 > 销售和营销 > 销售订单 > 所有销售订单**。</span><span class="sxs-lookup"><span data-stu-id="900f3-119">Go to **Navigation pane > Modules > Sales and marketing > Sales orders > All sales orders**.</span></span>
+2. <span data-ttu-id="900f3-120">单击**新建**。</span><span class="sxs-lookup"><span data-stu-id="900f3-120">Click **New**.</span></span>
+3. <span data-ttu-id="900f3-121">在**客户帐户**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="900f3-121">In the **Customer account** field, enter or select a value.</span></span>
+4. <span data-ttu-id="900f3-122">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="900f3-122">Click **OK**.</span></span>
+5. <span data-ttu-id="900f3-123">在**物料编号**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="900f3-123">In the **Item number** field, enter or select a value.</span></span>
+6. <span data-ttu-id="900f3-124">在**数量**字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="900f3-124">In the **Quantity** field, enter a number.</span></span>
+7. <span data-ttu-id="900f3-125">在**操作窗格**上，单击**销售订单**。</span><span class="sxs-lookup"><span data-stu-id="900f3-125">On the **Action Pane**, click **Sales order**.</span></span>
+8. <span data-ttu-id="900f3-126">单击**订单保留**。</span><span class="sxs-lookup"><span data-stu-id="900f3-126">Click **Order holds**.</span></span>
+9. <span data-ttu-id="900f3-127">单击**新建**。</span><span class="sxs-lookup"><span data-stu-id="900f3-127">Click **New**.</span></span>
+10. <span data-ttu-id="900f3-128">在**保留代码**字段中，选择在上一个子任务中已创建的代码。</span><span class="sxs-lookup"><span data-stu-id="900f3-128">In the **Hold code** field, select the code you have created in the previous subtask.</span></span>
+11. <span data-ttu-id="900f3-129">单击**保存**。</span><span class="sxs-lookup"><span data-stu-id="900f3-129">Click **Save**.</span></span>
+12. <span data-ttu-id="900f3-130">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="900f3-130">Close the page.</span></span>
+13. <span data-ttu-id="900f3-131">转到**销售和营销 > 销售订单 > 所有销售订单**。</span><span class="sxs-lookup"><span data-stu-id="900f3-131">Go to **Sales and marketing > Sales orders > All sales orders**.</span></span>
+14. <span data-ttu-id="900f3-132">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="900f3-132">In the list, mark the selected row.</span></span> <span data-ttu-id="900f3-133">当前处于保留状态的订单的“请勿处理”和“保留”字段带有标记。</span><span class="sxs-lookup"><span data-stu-id="900f3-133">Orders that are currently on hold have the "Do not process" and "Hold" fields marked.</span></span>
+15. <span data-ttu-id="900f3-134">在“操作窗格”中，单击**领料和装箱**。</span><span class="sxs-lookup"><span data-stu-id="900f3-134">On the Action Pane, click **Pick and pack**.</span></span>
 
-## <a name="manage-order-holds"></a><span data-ttu-id="69c37-135">管理订单保留</span><span class="sxs-lookup"><span data-stu-id="69c37-135">Manage order holds</span></span>
-1. <span data-ttu-id="69c37-136">转到**销售和市场营销 > 销售订单 > 未结订单 > 订单保留**。</span><span class="sxs-lookup"><span data-stu-id="69c37-136">Go to **Sales and marketing > Sales orders > Open orders > Order holds**.</span></span> <span data-ttu-id="69c37-137">工作台形式的**订单保留**页面功能，可在其中获取所有当前保留和已处理保留的概述，以及处理这些保留和关联的销售订单。</span><span class="sxs-lookup"><span data-stu-id="69c37-137">**Order holds** page functions as a workbench where you can get an overview of all the current and processed holds, and handle them and associated sales orders.</span></span>     
-2. <span data-ttu-id="69c37-138">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="69c37-138">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="69c37-139">在**操作窗格**上，单击**保留签出**。</span><span class="sxs-lookup"><span data-stu-id="69c37-139">On the **Action Pane**, click **Hold checkout**.</span></span>
-4. <span data-ttu-id="69c37-140">单击**签出**。</span><span class="sxs-lookup"><span data-stu-id="69c37-140">Click **Check out**.</span></span>
-5. <span data-ttu-id="69c37-141">在列表中，取消标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="69c37-141">In the list, unmark the selected row.</span></span> <span data-ttu-id="69c37-142">**签出目标**字段现在显示您的用户 ID。</span><span class="sxs-lookup"><span data-stu-id="69c37-142">The **Checkout out to** field now shows your user ID.</span></span>   
-6. <span data-ttu-id="69c37-143">单击**清除签出**。</span><span class="sxs-lookup"><span data-stu-id="69c37-143">Click **Clear checkout**.</span></span>
-7. <span data-ttu-id="69c37-144">在**操作窗格**上，单击**清除保留**。</span><span class="sxs-lookup"><span data-stu-id="69c37-144">On the **Action Pane**, click **Clear hold**.</span></span>
-    - <span data-ttu-id="69c37-145">准备好删除保留并允许订单继续到下一个履行步骤时，必须清除保留。</span><span class="sxs-lookup"><span data-stu-id="69c37-145">When you are ready to remove the hold and allow the order to proceed to the next fulfilment step, you must clear the hold.</span></span> <span data-ttu-id="69c37-146">如果不需要更改订单，可以运行“清除保留”操作。</span><span class="sxs-lookup"><span data-stu-id="69c37-146">If the order requires no changes, you can run the Clear holds action.</span></span> <span data-ttu-id="69c37-147">但是，如果在清除保留时必须更新订单，可以使用“清除并修改”操作。</span><span class="sxs-lookup"><span data-stu-id="69c37-147">However, you can use the Clear and modify action if, when clearing a hold, the order has to be updated.</span></span>      
-    - <span data-ttu-id="69c37-148">仅当您使用呼叫中心功能时，**清除并提交**操作才适用。</span><span class="sxs-lookup"><span data-stu-id="69c37-148">The **Clear and submit** action is only applicable when you use Call center functionality.</span></span>  
-8. <span data-ttu-id="69c37-149">单击**清除保留**。</span><span class="sxs-lookup"><span data-stu-id="69c37-149">Click **Clear holds**.</span></span> <span data-ttu-id="69c37-150">保留现在已从订单中清除，并且已从“活动保留”列表中删除。</span><span class="sxs-lookup"><span data-stu-id="69c37-150">The hold has now been cleared from the order and removed from the list of Active holds.</span></span> <span data-ttu-id="69c37-151">若要根据特定状态查看所有保留及其子集，请更改“显示”字段中的值。</span><span class="sxs-lookup"><span data-stu-id="69c37-151">To see all the holds or their subset according to a specific status, change the value in the Show field.</span></span>     
+## <a name="manage-order-holds"></a><span data-ttu-id="900f3-135">管理订单保留</span><span class="sxs-lookup"><span data-stu-id="900f3-135">Manage order holds</span></span>
+1. <span data-ttu-id="900f3-136">转到**销售和市场营销 > 销售订单 > 未结订单 > 订单保留**。</span><span class="sxs-lookup"><span data-stu-id="900f3-136">Go to **Sales and marketing > Sales orders > Open orders > Order holds**.</span></span> <span data-ttu-id="900f3-137">工作台形式的**订单保留**页面功能，可在其中获取所有当前保留和已处理保留的概述，以及处理这些保留和关联的销售订单。</span><span class="sxs-lookup"><span data-stu-id="900f3-137">**Order holds** page functions as a workbench where you can get an overview of all the current and processed holds, and handle them and associated sales orders.</span></span>     
+2. <span data-ttu-id="900f3-138">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="900f3-138">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="900f3-139">在**操作窗格**上，单击**保留签出**。</span><span class="sxs-lookup"><span data-stu-id="900f3-139">On the **Action Pane**, click **Hold checkout**.</span></span>
+4. <span data-ttu-id="900f3-140">单击**签出**。</span><span class="sxs-lookup"><span data-stu-id="900f3-140">Click **Check out**.</span></span>
+5. <span data-ttu-id="900f3-141">在列表中，取消标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="900f3-141">In the list, unmark the selected row.</span></span> <span data-ttu-id="900f3-142">**签出目标**字段现在显示您的用户 ID。</span><span class="sxs-lookup"><span data-stu-id="900f3-142">The **Checkout out to** field now shows your user ID.</span></span>   
+6. <span data-ttu-id="900f3-143">单击**清除签出**。</span><span class="sxs-lookup"><span data-stu-id="900f3-143">Click **Clear checkout**.</span></span>
+7. <span data-ttu-id="900f3-144">在**操作窗格**上，单击**清除保留**。</span><span class="sxs-lookup"><span data-stu-id="900f3-144">On the **Action Pane**, click **Clear hold**.</span></span>
+    - <span data-ttu-id="900f3-145">准备好删除保留并允许订单继续到下一个履行步骤时，必须清除保留。</span><span class="sxs-lookup"><span data-stu-id="900f3-145">When you are ready to remove the hold and allow the order to proceed to the next fulfilment step, you must clear the hold.</span></span> <span data-ttu-id="900f3-146">如果不需要更改订单，可以运行“清除保留”操作。</span><span class="sxs-lookup"><span data-stu-id="900f3-146">If the order requires no changes, you can run the Clear holds action.</span></span> <span data-ttu-id="900f3-147">但是，如果在清除保留时必须更新订单，可以使用“清除并修改”操作。</span><span class="sxs-lookup"><span data-stu-id="900f3-147">However, you can use the Clear and modify action if, when clearing a hold, the order has to be updated.</span></span>      
+    - <span data-ttu-id="900f3-148">仅当您使用呼叫中心功能时，**清除并提交**操作才适用。</span><span class="sxs-lookup"><span data-stu-id="900f3-148">The **Clear and submit** action is only applicable when you use Call center functionality.</span></span>  
+8. <span data-ttu-id="900f3-149">单击**清除保留**。</span><span class="sxs-lookup"><span data-stu-id="900f3-149">Click **Clear holds**.</span></span> <span data-ttu-id="900f3-150">保留现在已从订单中清除，并且已从“活动保留”列表中删除。</span><span class="sxs-lookup"><span data-stu-id="900f3-150">The hold has now been cleared from the order and removed from the list of Active holds.</span></span> <span data-ttu-id="900f3-151">若要根据特定状态查看所有保留及其子集，请更改“显示”字段中的值。</span><span class="sxs-lookup"><span data-stu-id="900f3-151">To see all the holds or their subset according to a specific status, change the value in the Show field.</span></span>     
 

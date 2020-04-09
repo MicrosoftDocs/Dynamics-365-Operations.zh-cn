@@ -16,58 +16,58 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8e7cf6adc5c72494d6a9a72765a3d165424c72b2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 872b9733e18945ca2ff047820afd122025575601
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835811"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148779"
 ---
-# <a name="sequence-production-jobs-for-process-manufacturing"></a><span data-ttu-id="a9901-103">对流程制造的生产作业排序</span><span class="sxs-lookup"><span data-stu-id="a9901-103">Sequence production jobs for process manufacturing</span></span>
+# <a name="sequence-production-jobs-for-process-manufacturing"></a><span data-ttu-id="04b98-103">对流程制造的生产作业排序</span><span class="sxs-lookup"><span data-stu-id="04b98-103">Sequence production jobs for process manufacturing</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a9901-104">此过程使用油漆产品作为示例显示如何根据颜色和包装大小的优先级排序计划订单。</span><span class="sxs-lookup"><span data-stu-id="a9901-104">This procedure uses paint products as an example to show how to sequence planned orders according to the priority of color and package size.</span></span> <span data-ttu-id="a9901-105">创建此程序的演示数据公司是 USPI。</span><span class="sxs-lookup"><span data-stu-id="a9901-105">The demo data company used to create this procedure is USPI.</span></span> <span data-ttu-id="a9901-106">此程序是专为生产规划员设计的。</span><span class="sxs-lookup"><span data-stu-id="a9901-106">This procedure is intended for the production planner.</span></span>
+<span data-ttu-id="04b98-104">此过程使用油漆产品作为示例显示如何根据颜色和包装大小的优先级排序计划订单。</span><span class="sxs-lookup"><span data-stu-id="04b98-104">This procedure uses paint products as an example to show how to sequence planned orders according to the priority of color and package size.</span></span> <span data-ttu-id="04b98-105">创建此程序的演示数据公司是 USPI。</span><span class="sxs-lookup"><span data-stu-id="04b98-105">The demo data company used to create this procedure is USPI.</span></span> <span data-ttu-id="04b98-106">此程序是专为生产规划员设计的。</span><span class="sxs-lookup"><span data-stu-id="04b98-106">This procedure is intended for the production planner.</span></span>
 
 
-## <a name="run-master-planning-for-uspi"></a><span data-ttu-id="a9901-107">运行 USPI 的主计划</span><span class="sxs-lookup"><span data-stu-id="a9901-107">Run master planning for USPI</span></span>
-1. <span data-ttu-id="a9901-108">转到“主计划”>“主计划”>“运行”>“主计划”。</span><span class="sxs-lookup"><span data-stu-id="a9901-108">Go to Master planning > Master planning > Run > Master planning.</span></span>
-2. <span data-ttu-id="a9901-109">在“主计划”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="a9901-109">In the Master plan field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="a9901-110">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="a9901-110">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="a9901-111">选择主计划。</span><span class="sxs-lookup"><span data-stu-id="a9901-111">Select MasterPlan.</span></span>  
-4. <span data-ttu-id="a9901-112">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="a9901-112">Click OK.</span></span>
-    * <span data-ttu-id="a9901-113">这将开始主计划，包括顺序流程。</span><span class="sxs-lookup"><span data-stu-id="a9901-113">This starts Master Planning, including the sequence process.</span></span> <span data-ttu-id="a9901-114">此流程可能需要几分钟的时间。</span><span class="sxs-lookup"><span data-stu-id="a9901-114">This process can take a few minutes.</span></span>  
+## <a name="run-master-planning-for-uspi"></a><span data-ttu-id="04b98-107">运行 USPI 的主计划</span><span class="sxs-lookup"><span data-stu-id="04b98-107">Run master planning for USPI</span></span>
+1. <span data-ttu-id="04b98-108">转到“主计划”>“主计划”>“运行”>“主计划”。</span><span class="sxs-lookup"><span data-stu-id="04b98-108">Go to Master planning > Master planning > Run > Master planning.</span></span>
+2. <span data-ttu-id="04b98-109">在“主计划”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="04b98-109">In the Master plan field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="04b98-110">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="04b98-110">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="04b98-111">选择主计划。</span><span class="sxs-lookup"><span data-stu-id="04b98-111">Select MasterPlan.</span></span>  
+4. <span data-ttu-id="04b98-112">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="04b98-112">Click OK.</span></span>
+    * <span data-ttu-id="04b98-113">这将开始主计划，包括顺序流程。</span><span class="sxs-lookup"><span data-stu-id="04b98-113">This starts Master Planning, including the sequence process.</span></span> <span data-ttu-id="04b98-114">此流程可能需要几分钟的时间。</span><span class="sxs-lookup"><span data-stu-id="04b98-114">This process can take a few minutes.</span></span>  
 
-## <a name="view-planned-orders-for-the-paint-products"></a><span data-ttu-id="a9901-115">查看油漆产品的计划订单</span><span class="sxs-lookup"><span data-stu-id="a9901-115">View planned orders for the paint products</span></span>
-1. <span data-ttu-id="a9901-116">转到“主计划”>“主计划”>“计划订单”。</span><span class="sxs-lookup"><span data-stu-id="a9901-116">Go to Master planning > Master planning > Planned orders.</span></span>
-2. <span data-ttu-id="a9901-117">展开“物料详细信息”速见表。</span><span class="sxs-lookup"><span data-stu-id="a9901-117">Expand the Item details FactBox.</span></span>
-3. <span data-ttu-id="a9901-118">展开“计划详细信息”速见表。</span><span class="sxs-lookup"><span data-stu-id="a9901-118">Expand the Schedule details FactBox.</span></span>
-4. <span data-ttu-id="a9901-119">在“计划”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="a9901-119">In the Plan field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="a9901-120">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="a9901-120">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="a9901-121">选择主计划。</span><span class="sxs-lookup"><span data-stu-id="a9901-121">Select MasterPlan.</span></span>  
-6. <span data-ttu-id="a9901-122">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="a9901-122">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="a9901-123">使用“快速筛选”来筛选带有值“P300”的“物料编号”字段。</span><span class="sxs-lookup"><span data-stu-id="a9901-123">Use the Quick Filter to filter on the Item number field with a value of 'P300'.</span></span>
-    * <span data-ttu-id="a9901-124">解锁以滚动到右侧查看订单日期和交货日期。</span><span class="sxs-lookup"><span data-stu-id="a9901-124">Unlock to scroll to the right to see the order date and delivery date.</span></span> <span data-ttu-id="a9901-125">请注意，这些物料具有“今天”订单日期，计划订单的交货日期没有在颜色和包装尺寸优先级后序列化，如产品名称中所示。</span><span class="sxs-lookup"><span data-stu-id="a9901-125">Notice that these items have an order date of Today and the delivery dates for the planned orders are not sequenced after the priority of color and package size, as shown in the product name.</span></span> <span data-ttu-id="a9901-126">您可以悬停到物料编号上查看产品名称和优先级。</span><span class="sxs-lookup"><span data-stu-id="a9901-126">You can hover over an item number to see the product name and priority.</span></span>  
+## <a name="view-planned-orders-for-the-paint-products"></a><span data-ttu-id="04b98-115">查看油漆产品的计划订单</span><span class="sxs-lookup"><span data-stu-id="04b98-115">View planned orders for the paint products</span></span>
+1. <span data-ttu-id="04b98-116">转到“主计划”>“主计划”>“计划订单”。</span><span class="sxs-lookup"><span data-stu-id="04b98-116">Go to Master planning > Master planning > Planned orders.</span></span>
+2. <span data-ttu-id="04b98-117">展开“物料详细信息”速见表。</span><span class="sxs-lookup"><span data-stu-id="04b98-117">Expand the Item details FactBox.</span></span>
+3. <span data-ttu-id="04b98-118">展开“计划详细信息”速见表。</span><span class="sxs-lookup"><span data-stu-id="04b98-118">Expand the Schedule details FactBox.</span></span>
+4. <span data-ttu-id="04b98-119">在“计划”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="04b98-119">In the Plan field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="04b98-120">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="04b98-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="04b98-121">选择主计划。</span><span class="sxs-lookup"><span data-stu-id="04b98-121">Select MasterPlan.</span></span>  
+6. <span data-ttu-id="04b98-122">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="04b98-122">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="04b98-123">使用“快速筛选”来筛选带有值“P300”的“物料编号”字段。</span><span class="sxs-lookup"><span data-stu-id="04b98-123">Use the Quick Filter to filter on the Item number field with a value of 'P300'.</span></span>
+    * <span data-ttu-id="04b98-124">解锁以滚动到右侧查看订单日期和交货日期。</span><span class="sxs-lookup"><span data-stu-id="04b98-124">Unlock to scroll to the right to see the order date and delivery date.</span></span> <span data-ttu-id="04b98-125">请注意，这些物料具有“今天”订单日期，计划订单的交货日期没有在颜色和包装尺寸优先级后序列化，如产品名称中所示。</span><span class="sxs-lookup"><span data-stu-id="04b98-125">Notice that these items have an order date of Today and the delivery dates for the planned orders are not sequenced after the priority of color and package size, as shown in the product name.</span></span> <span data-ttu-id="04b98-126">您可以悬停到物料编号上查看产品名称和优先级。</span><span class="sxs-lookup"><span data-stu-id="04b98-126">You can hover over an item number to see the product name and priority.</span></span>  
 
-## <a name="sequence-planned-orders-for-paint"></a><span data-ttu-id="a9901-127">排序油漆产品的计划订单</span><span class="sxs-lookup"><span data-stu-id="a9901-127">Sequence planned orders for paint</span></span>
-1. <span data-ttu-id="a9901-128">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a9901-128">Close the page.</span></span>
-2. <span data-ttu-id="a9901-129">转到“主计划”>“主计划”>“序列化计划订单”。</span><span class="sxs-lookup"><span data-stu-id="a9901-129">Go to Master planning > Master planning > Sequenced planned orders.</span></span>
-3. <span data-ttu-id="a9901-130">展开“物料详细信息”速见表。</span><span class="sxs-lookup"><span data-stu-id="a9901-130">Expand the Item details FactBox.</span></span>
-4. <span data-ttu-id="a9901-131">展开“计划详细信息”速见表。</span><span class="sxs-lookup"><span data-stu-id="a9901-131">Expand the Schedule details FactBox.</span></span>
-    * <span data-ttu-id="a9901-132">注意：这里您看到计划订单的开始日期/时间根据 28 计算时段内的颜色和包装尺寸排序。</span><span class="sxs-lookup"><span data-stu-id="a9901-132">Note: Here you see that the Start date/time for the planned orders are sequenced according to color and package size within a bucket period of 28 days.</span></span> <span data-ttu-id="a9901-133">这些期间由字段“市场活动”中的数字定义。</span><span class="sxs-lookup"><span data-stu-id="a9901-133">These periods are defined by a number in the field Campaign.</span></span> <span data-ttu-id="a9901-134">“序列化计划订单”窗体类似于典型的计划订单窗体，生产规划员可以在此确定计划订单。</span><span class="sxs-lookup"><span data-stu-id="a9901-134">The sequenced planned order form acts like the typical planned order form, and the production planner can firm the planned orders here.</span></span>  
-5. <span data-ttu-id="a9901-135">标记所有行。</span><span class="sxs-lookup"><span data-stu-id="a9901-135">Mark all rows.</span></span>
-6. <span data-ttu-id="a9901-136">单击“接受”。</span><span class="sxs-lookup"><span data-stu-id="a9901-136">Click Accept.</span></span>
-    * <span data-ttu-id="a9901-137">这将使用所选的“延期”或“提前”顺序操作更新计划订单。</span><span class="sxs-lookup"><span data-stu-id="a9901-137">This will update the planned orders with the selected sequence action of either Postpone or Advance.</span></span>  
+## <a name="sequence-planned-orders-for-paint"></a><span data-ttu-id="04b98-127">排序油漆产品的计划订单</span><span class="sxs-lookup"><span data-stu-id="04b98-127">Sequence planned orders for paint</span></span>
+1. <span data-ttu-id="04b98-128">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="04b98-128">Close the page.</span></span>
+2. <span data-ttu-id="04b98-129">转到“主计划”>“主计划”>“序列化计划订单”。</span><span class="sxs-lookup"><span data-stu-id="04b98-129">Go to Master planning > Master planning > Sequenced planned orders.</span></span>
+3. <span data-ttu-id="04b98-130">展开“物料详细信息”速见表。</span><span class="sxs-lookup"><span data-stu-id="04b98-130">Expand the Item details FactBox.</span></span>
+4. <span data-ttu-id="04b98-131">展开“计划详细信息”速见表。</span><span class="sxs-lookup"><span data-stu-id="04b98-131">Expand the Schedule details FactBox.</span></span>
+    * <span data-ttu-id="04b98-132">注意：这里您看到计划订单的开始日期/时间根据 28 计算时段内的颜色和包装尺寸排序。</span><span class="sxs-lookup"><span data-stu-id="04b98-132">Note: Here you see that the Start date/time for the planned orders are sequenced according to color and package size within a bucket period of 28 days.</span></span> <span data-ttu-id="04b98-133">这些期间由字段“市场活动”中的数字定义。</span><span class="sxs-lookup"><span data-stu-id="04b98-133">These periods are defined by a number in the field Campaign.</span></span> <span data-ttu-id="04b98-134">“序列化计划订单”窗体类似于典型的计划订单窗体，生产规划员可以在此确定计划订单。</span><span class="sxs-lookup"><span data-stu-id="04b98-134">The sequenced planned order form acts like the typical planned order form, and the production planner can firm the planned orders here.</span></span>  
+5. <span data-ttu-id="04b98-135">标记所有行。</span><span class="sxs-lookup"><span data-stu-id="04b98-135">Mark all rows.</span></span>
+6. <span data-ttu-id="04b98-136">单击“接受”。</span><span class="sxs-lookup"><span data-stu-id="04b98-136">Click Accept.</span></span>
+    * <span data-ttu-id="04b98-137">这将使用所选的“延期”或“提前”顺序操作更新计划订单。</span><span class="sxs-lookup"><span data-stu-id="04b98-137">This will update the planned orders with the selected sequence action of either Postpone or Advance.</span></span>  
 
-## <a name="verify-the-sequence-of-the-planned-orders"></a><span data-ttu-id="a9901-138">确认计划订单的顺序</span><span class="sxs-lookup"><span data-stu-id="a9901-138">Verify the sequence of the planned orders</span></span>
-1. <span data-ttu-id="a9901-139">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a9901-139">Close the page.</span></span>
-2. <span data-ttu-id="a9901-140">转到“主计划”>“主计划”>“计划订单”。</span><span class="sxs-lookup"><span data-stu-id="a9901-140">Go to Master planning > Master planning > Planned orders.</span></span>
-3. <span data-ttu-id="a9901-141">展开“物料详细信息”速见表。</span><span class="sxs-lookup"><span data-stu-id="a9901-141">Expand the Item details FactBox.</span></span>
-4. <span data-ttu-id="a9901-142">展开“计划详细信息”速见表。</span><span class="sxs-lookup"><span data-stu-id="a9901-142">Expand the Schedule details FactBox.</span></span>
-5. <span data-ttu-id="a9901-143">在“计划”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="a9901-143">In the Plan field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="a9901-144">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="a9901-144">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="a9901-145">选择主计划。</span><span class="sxs-lookup"><span data-stu-id="a9901-145">Select MasterPlan.</span></span>  
-7. <span data-ttu-id="a9901-146">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="a9901-146">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="a9901-147">使用“快速筛选”来筛选带有值“P300”的“物料编号”字段。</span><span class="sxs-lookup"><span data-stu-id="a9901-147">Use the Quick Filter to filter on the Item number field with a value of 'P300'.</span></span>
-    * <span data-ttu-id="a9901-148">请注意，订单现在根据颜色和尺寸的优先级排序，计划订单从最早订单日期和交货日期开始。</span><span class="sxs-lookup"><span data-stu-id="a9901-148">Notice that the orders now are sequenced according to the priority of color and size and the planned orders start at the earliest order date and delivery date.</span></span> <span data-ttu-id="a9901-149">验证“计划详细信息”速见表中的订单日期列或开始日期。</span><span class="sxs-lookup"><span data-stu-id="a9901-149">Validate the Order date column or the Start date in the Schedule details FactBbox.</span></span>  
+## <a name="verify-the-sequence-of-the-planned-orders"></a><span data-ttu-id="04b98-138">确认计划订单的顺序</span><span class="sxs-lookup"><span data-stu-id="04b98-138">Verify the sequence of the planned orders</span></span>
+1. <span data-ttu-id="04b98-139">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="04b98-139">Close the page.</span></span>
+2. <span data-ttu-id="04b98-140">转到“主计划”>“主计划”>“计划订单”。</span><span class="sxs-lookup"><span data-stu-id="04b98-140">Go to Master planning > Master planning > Planned orders.</span></span>
+3. <span data-ttu-id="04b98-141">展开“物料详细信息”速见表。</span><span class="sxs-lookup"><span data-stu-id="04b98-141">Expand the Item details FactBox.</span></span>
+4. <span data-ttu-id="04b98-142">展开“计划详细信息”速见表。</span><span class="sxs-lookup"><span data-stu-id="04b98-142">Expand the Schedule details FactBox.</span></span>
+5. <span data-ttu-id="04b98-143">在“计划”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="04b98-143">In the Plan field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="04b98-144">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="04b98-144">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="04b98-145">选择主计划。</span><span class="sxs-lookup"><span data-stu-id="04b98-145">Select MasterPlan.</span></span>  
+7. <span data-ttu-id="04b98-146">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="04b98-146">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="04b98-147">使用“快速筛选”来筛选带有值“P300”的“物料编号”字段。</span><span class="sxs-lookup"><span data-stu-id="04b98-147">Use the Quick Filter to filter on the Item number field with a value of 'P300'.</span></span>
+    * <span data-ttu-id="04b98-148">请注意，订单现在根据颜色和尺寸的优先级排序，计划订单从最早订单日期和交货日期开始。</span><span class="sxs-lookup"><span data-stu-id="04b98-148">Notice that the orders now are sequenced according to the priority of color and size and the planned orders start at the earliest order date and delivery date.</span></span> <span data-ttu-id="04b98-149">验证“计划详细信息”速见表中的订单日期列或开始日期。</span><span class="sxs-lookup"><span data-stu-id="04b98-149">Validate the Order date column or the Start date in the Schedule details FactBbox.</span></span>  
 

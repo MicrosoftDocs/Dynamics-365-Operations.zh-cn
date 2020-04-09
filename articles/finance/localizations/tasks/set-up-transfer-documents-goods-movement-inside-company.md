@@ -16,61 +16,61 @@ ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fe4dd04595c961e1c66178e6ac6955e945869ded
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e85bd359ce1053629ad4217cf623e57b2976463a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185673"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143473"
 ---
-# <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a><span data-ttu-id="2557c-103">为公司内货物转移设置转移文档</span><span class="sxs-lookup"><span data-stu-id="2557c-103">Set up the transfer documents for goods movement inside a company</span></span>
+# <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a><span data-ttu-id="119f5-103">为公司内货物转移设置转移文档</span><span class="sxs-lookup"><span data-stu-id="119f5-103">Set up the transfer documents for goods movement inside a company</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="2557c-104">此过程显示如何为公司内货物转移创建转移单据。</span><span class="sxs-lookup"><span data-stu-id="2557c-104">This procedure shows how to create transfer documents for goods movement inside a company.</span></span> <span data-ttu-id="2557c-105">此过程仅适用于主地址在立陶宛的法人。</span><span class="sxs-lookup"><span data-stu-id="2557c-105">This procedure is only available for legal entities with a primary address in Lithuania.</span></span> <span data-ttu-id="2557c-106">此过程所用的演示数据公司为“DEMF“，其主要地址在立陶宛。</span><span class="sxs-lookup"><span data-stu-id="2557c-106">The procedure was created using the demo data company DEMF with a primary address in Lithuania.</span></span> <span data-ttu-id="2557c-107">必须先完成“为公司内的货物转移设置转移单据”过程，才能完成此过程。</span><span class="sxs-lookup"><span data-stu-id="2557c-107">Before you can complete this procedure, you must complete the “Set up transfer documents for goods movement inside a company” procedure.</span></span> <span data-ttu-id="2557c-108">该过程是专为库存会计师设计的。</span><span class="sxs-lookup"><span data-stu-id="2557c-108">This procedure is intended for inventory accountants.</span></span> <span data-ttu-id="2557c-109">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="2557c-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="119f5-104">此过程显示如何为公司内货物转移创建转移单据。</span><span class="sxs-lookup"><span data-stu-id="119f5-104">This procedure shows how to create transfer documents for goods movement inside a company.</span></span> <span data-ttu-id="119f5-105">此过程仅适用于主地址在立陶宛的法人。</span><span class="sxs-lookup"><span data-stu-id="119f5-105">This procedure is only available for legal entities with a primary address in Lithuania.</span></span> <span data-ttu-id="119f5-106">此过程所用的演示数据公司为“DEMF“，其主要地址在立陶宛。</span><span class="sxs-lookup"><span data-stu-id="119f5-106">The procedure was created using the demo data company DEMF with a primary address in Lithuania.</span></span> <span data-ttu-id="119f5-107">必须先完成“为公司内的货物转移设置转移单据”过程，才能完成此过程。</span><span class="sxs-lookup"><span data-stu-id="119f5-107">Before you can complete this procedure, you must complete the "Set up transfer documents for goods movement inside a company" procedure.</span></span> <span data-ttu-id="119f5-108">该过程是专为库存会计师设计的。</span><span class="sxs-lookup"><span data-stu-id="119f5-108">This procedure is intended for inventory accountants.</span></span> <span data-ttu-id="119f5-109">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="119f5-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="create-a-transfer-order"></a><span data-ttu-id="2557c-110">创建转移单</span><span class="sxs-lookup"><span data-stu-id="2557c-110">Create a transfer order</span></span>
-1. <span data-ttu-id="2557c-111">转到“库存管理”>“入站订单”>“转移单”。</span><span class="sxs-lookup"><span data-stu-id="2557c-111">Go to Inventory management > Inbound orders > Transfer order.</span></span>
-2. <span data-ttu-id="2557c-112">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="2557c-112">Click New.</span></span>
-3. <span data-ttu-id="2557c-113">在“源仓库”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="2557c-113">In the From warehouse field, enter or select a value.</span></span>
-4. <span data-ttu-id="2557c-114">在“目标仓库”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="2557c-114">In the To warehouse field, enter or select a value.</span></span>
-5. <span data-ttu-id="2557c-115">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="2557c-115">Click Add.</span></span>
-6. <span data-ttu-id="2557c-116">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="2557c-116">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="2557c-117">在“物料编号”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="2557c-117">In the Item number field, enter or select a value.</span></span>
+## <a name="create-a-transfer-order"></a><span data-ttu-id="119f5-110">创建转移单</span><span class="sxs-lookup"><span data-stu-id="119f5-110">Create a transfer order</span></span>
+1. <span data-ttu-id="119f5-111">转到“库存管理”>“入站订单”>“转移单”。</span><span class="sxs-lookup"><span data-stu-id="119f5-111">Go to Inventory management > Inbound orders > Transfer order.</span></span>
+2. <span data-ttu-id="119f5-112">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="119f5-112">Click New.</span></span>
+3. <span data-ttu-id="119f5-113">在“源仓库”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="119f5-113">In the From warehouse field, enter or select a value.</span></span>
+4. <span data-ttu-id="119f5-114">在“目标仓库”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="119f5-114">In the To warehouse field, enter or select a value.</span></span>
+5. <span data-ttu-id="119f5-115">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="119f5-115">Click Add.</span></span>
+6. <span data-ttu-id="119f5-116">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="119f5-116">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="119f5-117">在“物料编号”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="119f5-117">In the Item number field, enter or select a value.</span></span>
 
-## <a name="enter-transportation-details-for-the-transfer-order"></a><span data-ttu-id="2557c-118">输入转移单的运输详细信息</span><span class="sxs-lookup"><span data-stu-id="2557c-118">Enter transportation details for the transfer order</span></span>
-1. <span data-ttu-id="2557c-119">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="2557c-119">Click Save.</span></span>
-2. <span data-ttu-id="2557c-120">在操作窗格上，单击“装运”。</span><span class="sxs-lookup"><span data-stu-id="2557c-120">On the Action Pane, click Ship.</span></span>
-3. <span data-ttu-id="2557c-121">单击“运输详细信息”。</span><span class="sxs-lookup"><span data-stu-id="2557c-121">Click Transportation details.</span></span>
-4. <span data-ttu-id="2557c-122">在“打印运输详细信息”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="2557c-122">Select Yes in the Print transportation details field.</span></span>
-5. <span data-ttu-id="2557c-123">在“货物签发者”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="2557c-123">In the Goods issued by field, enter or select a value.</span></span>
-6. <span data-ttu-id="2557c-124">在“包装”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="2557c-124">In the Package field, type a value.</span></span>
-7. <span data-ttu-id="2557c-125">在“负荷风险级别”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="2557c-125">In the Risk level of the load field, type a value.</span></span>
-8. <span data-ttu-id="2557c-126">在“承运人”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="2557c-126">In the Carrier field, enter or select a value.</span></span>
-9. <span data-ttu-id="2557c-127">在“型号”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="2557c-127">In the Model field, enter or select a value.</span></span>
-10. <span data-ttu-id="2557c-128">在“登记编号”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="2557c-128">In the Registration number field, type a value.</span></span>
-11. <span data-ttu-id="2557c-129">在“装运人登记编号”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="2557c-129">In the Trailer registration number field, type a value.</span></span>
-12. <span data-ttu-id="2557c-130">在“驾驶员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="2557c-130">In the Driver field, enter or select a value.</span></span>
-13. <span data-ttu-id="2557c-131">在“驾驶员名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="2557c-131">In the Driver name field, type a value.</span></span>
-14. <span data-ttu-id="2557c-132">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="2557c-132">Click Save.</span></span>
-15. <span data-ttu-id="2557c-133">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="2557c-133">Close the page.</span></span>
+## <a name="enter-transportation-details-for-the-transfer-order"></a><span data-ttu-id="119f5-118">输入转移单的运输详细信息</span><span class="sxs-lookup"><span data-stu-id="119f5-118">Enter transportation details for the transfer order</span></span>
+1. <span data-ttu-id="119f5-119">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="119f5-119">Click Save.</span></span>
+2. <span data-ttu-id="119f5-120">在操作窗格上，单击“装运”。</span><span class="sxs-lookup"><span data-stu-id="119f5-120">On the Action Pane, click Ship.</span></span>
+3. <span data-ttu-id="119f5-121">单击“运输详细信息”。</span><span class="sxs-lookup"><span data-stu-id="119f5-121">Click Transportation details.</span></span>
+4. <span data-ttu-id="119f5-122">在“打印运输详细信息”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="119f5-122">Select Yes in the Print transportation details field.</span></span>
+5. <span data-ttu-id="119f5-123">在“货物签发者”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="119f5-123">In the Goods issued by field, enter or select a value.</span></span>
+6. <span data-ttu-id="119f5-124">在“包装”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="119f5-124">In the Package field, type a value.</span></span>
+7. <span data-ttu-id="119f5-125">在“负荷风险级别”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="119f5-125">In the Risk level of the load field, type a value.</span></span>
+8. <span data-ttu-id="119f5-126">在“承运人”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="119f5-126">In the Carrier field, enter or select a value.</span></span>
+9. <span data-ttu-id="119f5-127">在“型号”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="119f5-127">In the Model field, enter or select a value.</span></span>
+10. <span data-ttu-id="119f5-128">在“登记编号”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="119f5-128">In the Registration number field, type a value.</span></span>
+11. <span data-ttu-id="119f5-129">在“装运人登记编号”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="119f5-129">In the Trailer registration number field, type a value.</span></span>
+12. <span data-ttu-id="119f5-130">在“驾驶员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="119f5-130">In the Driver field, enter or select a value.</span></span>
+13. <span data-ttu-id="119f5-131">在“驾驶员名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="119f5-131">In the Driver name field, type a value.</span></span>
+14. <span data-ttu-id="119f5-132">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="119f5-132">Click Save.</span></span>
+15. <span data-ttu-id="119f5-133">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="119f5-133">Close the page.</span></span>
 
-## <a name="view-the-packing-slip-for-the-unposted-transfer-order"></a><span data-ttu-id="2557c-134">查看未过帐转移单的装箱单</span><span class="sxs-lookup"><span data-stu-id="2557c-134">View the packing slip for the unposted transfer order</span></span>
-1. <span data-ttu-id="2557c-135">单击“装箱单”。</span><span class="sxs-lookup"><span data-stu-id="2557c-135">Click Packing slip.</span></span>
-2. <span data-ttu-id="2557c-136">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="2557c-136">Click OK.</span></span>
-3. <span data-ttu-id="2557c-137">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="2557c-137">Close the page.</span></span>
+## <a name="view-the-packing-slip-for-the-unposted-transfer-order"></a><span data-ttu-id="119f5-134">查看未过帐转移单的装箱单</span><span class="sxs-lookup"><span data-stu-id="119f5-134">View the packing slip for the unposted transfer order</span></span>
+1. <span data-ttu-id="119f5-135">单击“装箱单”。</span><span class="sxs-lookup"><span data-stu-id="119f5-135">Click Packing slip.</span></span>
+2. <span data-ttu-id="119f5-136">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="119f5-136">Click OK.</span></span>
+3. <span data-ttu-id="119f5-137">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="119f5-137">Close the page.</span></span>
 
-## <a name="view-the-packing-slip-for-the-posted-transfer-order"></a><span data-ttu-id="2557c-138">查看已过帐转移单的装箱单</span><span class="sxs-lookup"><span data-stu-id="2557c-138">View the packing slip for the posted transfer order</span></span>
-1. <span data-ttu-id="2557c-139">在操作窗格上单击“转移单”。</span><span class="sxs-lookup"><span data-stu-id="2557c-139">On the Action Pane, click Transfer order.</span></span>
-2. <span data-ttu-id="2557c-140">在操作窗格上，单击“装运”。</span><span class="sxs-lookup"><span data-stu-id="2557c-140">On the Action Pane, click Ship.</span></span>
-3. <span data-ttu-id="2557c-141">单击“装运转移单”。</span><span class="sxs-lookup"><span data-stu-id="2557c-141">Click Ship transfer order.</span></span>
-4. <span data-ttu-id="2557c-142">单击“常规”选项卡。</span><span class="sxs-lookup"><span data-stu-id="2557c-142">Click the General tab.</span></span>
-5. <span data-ttu-id="2557c-143">在“更新”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="2557c-143">In the Update field, select an option.</span></span>
-6. <span data-ttu-id="2557c-144">单击“概览”选项卡。</span><span class="sxs-lookup"><span data-stu-id="2557c-144">Click the Overview tab.</span></span>
-7. <span data-ttu-id="2557c-145">在“装箱单”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="2557c-145">In the Packing slip field, type a value.</span></span>
-8. <span data-ttu-id="2557c-146">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="2557c-146">Click OK.</span></span>
-9. <span data-ttu-id="2557c-147">在操作窗格上，单击“装运”。</span><span class="sxs-lookup"><span data-stu-id="2557c-147">On the Action Pane, click Ship.</span></span>
-10. <span data-ttu-id="2557c-148">单击“装箱单”。</span><span class="sxs-lookup"><span data-stu-id="2557c-148">Click Packing slip.</span></span>
-11. <span data-ttu-id="2557c-149">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="2557c-149">Click OK.</span></span>
+## <a name="view-the-packing-slip-for-the-posted-transfer-order"></a><span data-ttu-id="119f5-138">查看已过帐转移单的装箱单</span><span class="sxs-lookup"><span data-stu-id="119f5-138">View the packing slip for the posted transfer order</span></span>
+1. <span data-ttu-id="119f5-139">在操作窗格上单击“转移单”。</span><span class="sxs-lookup"><span data-stu-id="119f5-139">On the Action Pane, click Transfer order.</span></span>
+2. <span data-ttu-id="119f5-140">在操作窗格上，单击“装运”。</span><span class="sxs-lookup"><span data-stu-id="119f5-140">On the Action Pane, click Ship.</span></span>
+3. <span data-ttu-id="119f5-141">单击“装运转移单”。</span><span class="sxs-lookup"><span data-stu-id="119f5-141">Click Ship transfer order.</span></span>
+4. <span data-ttu-id="119f5-142">单击“常规”选项卡。</span><span class="sxs-lookup"><span data-stu-id="119f5-142">Click the General tab.</span></span>
+5. <span data-ttu-id="119f5-143">在“更新”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="119f5-143">In the Update field, select an option.</span></span>
+6. <span data-ttu-id="119f5-144">单击“概览”选项卡。</span><span class="sxs-lookup"><span data-stu-id="119f5-144">Click the Overview tab.</span></span>
+7. <span data-ttu-id="119f5-145">在“装箱单”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="119f5-145">In the Packing slip field, type a value.</span></span>
+8. <span data-ttu-id="119f5-146">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="119f5-146">Click OK.</span></span>
+9. <span data-ttu-id="119f5-147">在操作窗格上，单击“装运”。</span><span class="sxs-lookup"><span data-stu-id="119f5-147">On the Action Pane, click Ship.</span></span>
+10. <span data-ttu-id="119f5-148">单击“装箱单”。</span><span class="sxs-lookup"><span data-stu-id="119f5-148">Click Packing slip.</span></span>
+11. <span data-ttu-id="119f5-149">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="119f5-149">Click OK.</span></span>
 

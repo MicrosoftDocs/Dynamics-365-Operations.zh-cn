@@ -16,38 +16,38 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f67d912b3349d4b5dd861b97533a7722a2b02fa4
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d5ac010b96892450c8d37bb08f967ecf4491b4b5
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845129"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148001"
 ---
-# <a name="add-an-expression-constraint-to-a-product-configuration-model"></a><span data-ttu-id="587ef-103">将表达式约束添加到产品配置模型</span><span class="sxs-lookup"><span data-stu-id="587ef-103">Add an expression constraint to a product configuration model</span></span>
+# <a name="add-an-expression-constraint-to-a-product-configuration-model"></a><span data-ttu-id="09709-103">将表达式约束添加到产品配置模型</span><span class="sxs-lookup"><span data-stu-id="09709-103">Add an expression constraint to a product configuration model</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="587ef-104">该过程显示如何添加新的约束表达式到产品配置模型。</span><span class="sxs-lookup"><span data-stu-id="587ef-104">This procedure shows how you can add a new constraint expression to a product configuration model.</span></span> <span data-ttu-id="587ef-105">它显示，如果用户选择为金属的前格栅，应该如何授权必须应用于扬声器的护角。</span><span class="sxs-lookup"><span data-stu-id="587ef-105">It shows how you can mandate that corner protection must be applied to a speaker if the user has selected a front grill in metal.</span></span> <span data-ttu-id="587ef-106">该过程使用演示公司 USMF 的高端扬声器组件。</span><span class="sxs-lookup"><span data-stu-id="587ef-106">The procedure uses the High end speaker component in the demo company USMF.</span></span>
+<span data-ttu-id="09709-104">该过程显示如何添加新的约束表达式到产品配置模型。</span><span class="sxs-lookup"><span data-stu-id="09709-104">This procedure shows how you can add a new constraint expression to a product configuration model.</span></span> <span data-ttu-id="09709-105">它显示，如果用户选择为金属的前格栅，应该如何授权必须应用于扬声器的护角。</span><span class="sxs-lookup"><span data-stu-id="09709-105">It shows how you can mandate that corner protection must be applied to a speaker if the user has selected a front grill in metal.</span></span> <span data-ttu-id="09709-106">该过程使用演示公司 USMF 的高端扬声器组件。</span><span class="sxs-lookup"><span data-stu-id="09709-106">The procedure uses the High end speaker component in the demo company USMF.</span></span>
 
 
-## <a name="create-an-expression-constraint"></a><span data-ttu-id="587ef-107">创建一个表达式约束</span><span class="sxs-lookup"><span data-stu-id="587ef-107">Create an expression constraint</span></span>
-1. <span data-ttu-id="587ef-108">单击“产品变型模型定义”。</span><span class="sxs-lookup"><span data-stu-id="587ef-108">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="587ef-109">单击“产品配置模型”。</span><span class="sxs-lookup"><span data-stu-id="587ef-109">Click Product configuration models.</span></span>
-3. <span data-ttu-id="587ef-110">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="587ef-110">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="587ef-111">此示例使用高端扬声器模型。</span><span class="sxs-lookup"><span data-stu-id="587ef-111">This example uses the high end speaker model.</span></span>  
-4. <span data-ttu-id="587ef-112">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="587ef-112">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="587ef-113">展开“约束”部分。</span><span class="sxs-lookup"><span data-stu-id="587ef-113">Expand the Constraints section.</span></span>
-6. <span data-ttu-id="587ef-114">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="587ef-114">Click Add.</span></span>
-7. <span data-ttu-id="587ef-115">单击“创建”。</span><span class="sxs-lookup"><span data-stu-id="587ef-115">Click Create.</span></span>
-8. <span data-ttu-id="587ef-116">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="587ef-116">In the Name field, type a value.</span></span>
+## <a name="create-an-expression-constraint"></a><span data-ttu-id="09709-107">创建一个表达式约束</span><span class="sxs-lookup"><span data-stu-id="09709-107">Create an expression constraint</span></span>
+1. <span data-ttu-id="09709-108">单击“产品变型模型定义”。</span><span class="sxs-lookup"><span data-stu-id="09709-108">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="09709-109">单击“产品配置模型”。</span><span class="sxs-lookup"><span data-stu-id="09709-109">Click Product configuration models.</span></span>
+3. <span data-ttu-id="09709-110">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="09709-110">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="09709-111">此示例使用高端扬声器模型。</span><span class="sxs-lookup"><span data-stu-id="09709-111">This example uses the high end speaker model.</span></span>  
+4. <span data-ttu-id="09709-112">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="09709-112">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="09709-113">展开“约束”部分。</span><span class="sxs-lookup"><span data-stu-id="09709-113">Expand the Constraints section.</span></span>
+6. <span data-ttu-id="09709-114">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="09709-114">Click Add.</span></span>
+7. <span data-ttu-id="09709-115">单击“创建”。</span><span class="sxs-lookup"><span data-stu-id="09709-115">Click Create.</span></span>
+8. <span data-ttu-id="09709-116">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="09709-116">In the Name field, type a value.</span></span>
 
-## <a name="enter-expression"></a><span data-ttu-id="587ef-117">输入表达式</span><span class="sxs-lookup"><span data-stu-id="587ef-117">Enter expression</span></span>
-1. <span data-ttu-id="587ef-118">单击“编辑表达式”。</span><span class="sxs-lookup"><span data-stu-id="587ef-118">Click Edit expression.</span></span>
-    * <span data-ttu-id="587ef-119">如果您解锁此阶段任务记录的用户界面，您可以使用 IntelliSense 和符号列表，以构建约束表达式。</span><span class="sxs-lookup"><span data-stu-id="587ef-119">If you unlock the user interface in the task recording at this stage, you can use IntelliSense and the list of symbols to build the constraint expression .</span></span>  
-2. <span data-ttu-id="587ef-120">在“约束体”字段中，输入“提示[前格栅==“金属”，护角]”。</span><span class="sxs-lookup"><span data-stu-id="587ef-120">In the ConstraintBody field, enter 'Implies[FrontGrill=="Metal", CornerProtection] '.</span></span>
-    * <span data-ttu-id="587ef-121">此表达逻辑表明：如果“前格栅”为金属，则必须选择护角选项。</span><span class="sxs-lookup"><span data-stu-id="587ef-121">This expression logic states: If the Front grill is  metal, then the corner protection option must be selected.</span></span>  
-3. <span data-ttu-id="587ef-122">单击“验证”。</span><span class="sxs-lookup"><span data-stu-id="587ef-122">Click Validate.</span></span>
-    * <span data-ttu-id="587ef-123">核实功能通过约束表达式运行并检查语法错误。</span><span class="sxs-lookup"><span data-stu-id="587ef-123">The validate function runs through the constraint expression and checks for syntax errors.</span></span>  
-4. <span data-ttu-id="587ef-124">单击“关闭”。</span><span class="sxs-lookup"><span data-stu-id="587ef-124">Click Close.</span></span>
-5. <span data-ttu-id="587ef-125">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="587ef-125">Click OK.</span></span>
+## <a name="enter-expression"></a><span data-ttu-id="09709-117">输入表达式</span><span class="sxs-lookup"><span data-stu-id="09709-117">Enter expression</span></span>
+1. <span data-ttu-id="09709-118">单击“编辑表达式”。</span><span class="sxs-lookup"><span data-stu-id="09709-118">Click Edit expression.</span></span>
+    * <span data-ttu-id="09709-119">如果您解锁此阶段任务记录的用户界面，您可以使用 IntelliSense 和符号列表，以构建约束表达式。</span><span class="sxs-lookup"><span data-stu-id="09709-119">If you unlock the user interface in the task recording at this stage, you can use IntelliSense and the list of symbols to build the constraint expression .</span></span>  
+2. <span data-ttu-id="09709-120">在“约束体”字段中，输入“提示[前格栅==“金属”，护角]”。</span><span class="sxs-lookup"><span data-stu-id="09709-120">In the ConstraintBody field, enter 'Implies[FrontGrill=="Metal", CornerProtection] '.</span></span>
+    * <span data-ttu-id="09709-121">此表达逻辑表明：如果“前格栅”为金属，则必须选择护角选项。</span><span class="sxs-lookup"><span data-stu-id="09709-121">This expression logic states: If the Front grill is  metal, then the corner protection option must be selected.</span></span>  
+3. <span data-ttu-id="09709-122">单击“验证”。</span><span class="sxs-lookup"><span data-stu-id="09709-122">Click Validate.</span></span>
+    * <span data-ttu-id="09709-123">核实功能通过约束表达式运行并检查语法错误。</span><span class="sxs-lookup"><span data-stu-id="09709-123">The validate function runs through the constraint expression and checks for syntax errors.</span></span>  
+4. <span data-ttu-id="09709-124">单击“关闭”。</span><span class="sxs-lookup"><span data-stu-id="09709-124">Click Close.</span></span>
+5. <span data-ttu-id="09709-125">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="09709-125">Click OK.</span></span>
 

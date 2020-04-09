@@ -16,36 +16,36 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eef6568e012c311c0e5438245c011b876fc4d522
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 317aa9ad5bc5953b7148846622b893e5b525c637
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844962"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150186"
 ---
-# <a name="approve-a-product-configuration-model"></a><span data-ttu-id="193e8-103">审核产品配置模型</span><span class="sxs-lookup"><span data-stu-id="193e8-103">Approve a product configuration model</span></span>
+# <a name="approve-a-product-configuration-model"></a><span data-ttu-id="e45f1-103">审核产品配置模型</span><span class="sxs-lookup"><span data-stu-id="e45f1-103">Approve a product configuration model</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="193e8-104">该过程的运行要求至少有一个产品配置模型可用。</span><span class="sxs-lookup"><span data-stu-id="193e8-104">Running this procedure requires that at least one product configuration model is available.</span></span> <span data-ttu-id="193e8-105">该过程使用演示数据公司 USMF 的高端扬声器模型。</span><span class="sxs-lookup"><span data-stu-id="193e8-105">This procedure uses the High end speaker model in the demo data company USMF.</span></span> <span data-ttu-id="193e8-106">请注意，此模型已通过审核，但该过程将向您介绍完整流程。</span><span class="sxs-lookup"><span data-stu-id="193e8-106">Note that this model has already been approved, but the procedure walks you through the entire process.</span></span>
+<span data-ttu-id="e45f1-104">该过程的运行要求至少有一个产品配置模型可用。</span><span class="sxs-lookup"><span data-stu-id="e45f1-104">Running this procedure requires that at least one product configuration model is available.</span></span> <span data-ttu-id="e45f1-105">该过程使用演示数据公司 USMF 的高端扬声器模型。</span><span class="sxs-lookup"><span data-stu-id="e45f1-105">This procedure uses the High end speaker model in the demo data company USMF.</span></span> <span data-ttu-id="e45f1-106">请注意，此模型已通过审核，但该过程将向您介绍完整流程。</span><span class="sxs-lookup"><span data-stu-id="e45f1-106">Note that this model has already been approved, but the procedure walks you through the entire process.</span></span>
 
-1. <span data-ttu-id="193e8-107">单击“产品变型模型定义”。</span><span class="sxs-lookup"><span data-stu-id="193e8-107">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="193e8-108">单击“产品配置模型”。</span><span class="sxs-lookup"><span data-stu-id="193e8-108">Click Product configuration models.</span></span>
-3. <span data-ttu-id="193e8-109">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="193e8-109">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="193e8-110">选择该过程的“高端扬声器模型”。</span><span class="sxs-lookup"><span data-stu-id="193e8-110">Select the High end speaker model for this procedure.</span></span>  
-4. <span data-ttu-id="193e8-111">单击“版本”。</span><span class="sxs-lookup"><span data-stu-id="193e8-111">Click Versions.</span></span>
-5. <span data-ttu-id="193e8-112">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="193e8-112">Click New.</span></span>
-6. <span data-ttu-id="193e8-113">在“产品编号”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="193e8-113">In the Product number field, enter or select a value.</span></span>
-    * <span data-ttu-id="193e8-114">该参考产品代表一个产品配置模型版本。</span><span class="sxs-lookup"><span data-stu-id="193e8-114">The reference to a product represents a version of a product configuration model.</span></span> <span data-ttu-id="193e8-115">仅拥有基于约束的配置技术的基础产品会出现在此列表中。</span><span class="sxs-lookup"><span data-stu-id="193e8-115">Only product masters which have the constraint-based configuration technology will appear in this list.</span></span>  
-7. <span data-ttu-id="193e8-116">在“开始日期”字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="193e8-116">In the From date field, enter a date.</span></span>
-    * <span data-ttu-id="193e8-117">选择产品模型版本何时可用。</span><span class="sxs-lookup"><span data-stu-id="193e8-117">Select when the product model version will be available.</span></span>  
-8. <span data-ttu-id="193e8-118">在“结束日期”字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="193e8-118">In the To date field, enter a date.</span></span>
-    * <span data-ttu-id="193e8-119">选择此产品模型版本将过期的结束日期，或选择“从不”。</span><span class="sxs-lookup"><span data-stu-id="193e8-119">Select an end date when this product model version will expire, or select Never.</span></span>  
-9. <span data-ttu-id="193e8-120">单击“审核”以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="193e8-120">Click Approve to open the drop dialog.</span></span>
-10. <span data-ttu-id="193e8-121">在“已审核”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="193e8-121">In the Approved by field, enter or select a value.</span></span>
-    * <span data-ttu-id="193e8-122">选择负责审批产品模型用于工序的人员。</span><span class="sxs-lookup"><span data-stu-id="193e8-122">Select the person who is responsible for approving product models for use in operations.</span></span>  
-11. <span data-ttu-id="193e8-123">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="193e8-123">Click OK.</span></span>
-12. <span data-ttu-id="193e8-124">在“定价方法”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="193e8-124">In the Pricing method field, select an option.</span></span>
-    * <span data-ttu-id="193e8-125">启用产品模型版本。</span><span class="sxs-lookup"><span data-stu-id="193e8-125">Activate the product model version.</span></span> <span data-ttu-id="193e8-126">一次只可能启用一个产品的一个产品模型。</span><span class="sxs-lookup"><span data-stu-id="193e8-126">It is only possible to have one product active for one product model at a time.</span></span>  
-13. <span data-ttu-id="193e8-127">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="193e8-127">Close the page.</span></span>
+1. <span data-ttu-id="e45f1-107">单击“产品变型模型定义”。</span><span class="sxs-lookup"><span data-stu-id="e45f1-107">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="e45f1-108">单击“产品配置模型”。</span><span class="sxs-lookup"><span data-stu-id="e45f1-108">Click Product configuration models.</span></span>
+3. <span data-ttu-id="e45f1-109">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="e45f1-109">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="e45f1-110">选择该过程的“高端扬声器模型”。</span><span class="sxs-lookup"><span data-stu-id="e45f1-110">Select the High end speaker model for this procedure.</span></span>  
+4. <span data-ttu-id="e45f1-111">单击“版本”。</span><span class="sxs-lookup"><span data-stu-id="e45f1-111">Click Versions.</span></span>
+5. <span data-ttu-id="e45f1-112">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="e45f1-112">Click New.</span></span>
+6. <span data-ttu-id="e45f1-113">在“产品编号”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="e45f1-113">In the Product number field, enter or select a value.</span></span>
+    * <span data-ttu-id="e45f1-114">该参考产品代表一个产品配置模型版本。</span><span class="sxs-lookup"><span data-stu-id="e45f1-114">The reference to a product represents a version of a product configuration model.</span></span> <span data-ttu-id="e45f1-115">仅拥有基于约束的配置技术的基础产品会出现在此列表中。</span><span class="sxs-lookup"><span data-stu-id="e45f1-115">Only product masters which have the constraint-based configuration technology will appear in this list.</span></span>  
+7. <span data-ttu-id="e45f1-116">在“开始日期”字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="e45f1-116">In the From date field, enter a date.</span></span>
+    * <span data-ttu-id="e45f1-117">选择产品模型版本何时可用。</span><span class="sxs-lookup"><span data-stu-id="e45f1-117">Select when the product model version will be available.</span></span>  
+8. <span data-ttu-id="e45f1-118">在“结束日期”字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="e45f1-118">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="e45f1-119">选择此产品模型版本将过期的结束日期，或选择“从不”。</span><span class="sxs-lookup"><span data-stu-id="e45f1-119">Select an end date when this product model version will expire, or select Never.</span></span>  
+9. <span data-ttu-id="e45f1-120">单击“审核”以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="e45f1-120">Click Approve to open the drop dialog.</span></span>
+10. <span data-ttu-id="e45f1-121">在“已审核”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="e45f1-121">In the Approved by field, enter or select a value.</span></span>
+    * <span data-ttu-id="e45f1-122">选择负责审批产品模型用于工序的人员。</span><span class="sxs-lookup"><span data-stu-id="e45f1-122">Select the person who is responsible for approving product models for use in operations.</span></span>  
+11. <span data-ttu-id="e45f1-123">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="e45f1-123">Click OK.</span></span>
+12. <span data-ttu-id="e45f1-124">在“定价方法”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="e45f1-124">In the Pricing method field, select an option.</span></span>
+    * <span data-ttu-id="e45f1-125">启用产品模型版本。</span><span class="sxs-lookup"><span data-stu-id="e45f1-125">Activate the product model version.</span></span> <span data-ttu-id="e45f1-126">一次只可能启用一个产品的一个产品模型。</span><span class="sxs-lookup"><span data-stu-id="e45f1-126">It is only possible to have one product active for one product model at a time.</span></span>  
+13. <span data-ttu-id="e45f1-127">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="e45f1-127">Close the page.</span></span>
 

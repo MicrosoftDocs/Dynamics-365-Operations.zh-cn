@@ -16,40 +16,40 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9959c20f9a8fd07cbf0cfd76f7760b44d7b5cae1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1ea59326a85d97d53795104f80486f2fac24148a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560063"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148499"
 ---
-# <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a><span data-ttu-id="d77f9-103">设置中心附属费用和附属主数据</span><span class="sxs-lookup"><span data-stu-id="d77f9-103">Set up hub accessorial charges and accessorial masters</span></span>
+# <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a><span data-ttu-id="fcfae-103">设置中心附属费用和附属主数据</span><span class="sxs-lookup"><span data-stu-id="fcfae-103">Set up hub accessorial charges and accessorial masters</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d77f9-104">此过程显示如何为中心创建附属主数据，并使用主数据来创建中心附加费。</span><span class="sxs-lookup"><span data-stu-id="d77f9-104">This procedure shows how to create an accessorial master for a hub and use that master to create a hub accessorial charge.</span></span> <span data-ttu-id="d77f9-105">此过程使用 USMF 数据集。</span><span class="sxs-lookup"><span data-stu-id="d77f9-105">The procedure uses the USMF dataset.</span></span> <span data-ttu-id="d77f9-106">此设置通常由运输协调员完成。</span><span class="sxs-lookup"><span data-stu-id="d77f9-106">This set up will typically be done by a transportation coordinator.</span></span>
+<span data-ttu-id="fcfae-104">此过程显示如何为中心创建附属主数据，并使用主数据来创建中心附加费。</span><span class="sxs-lookup"><span data-stu-id="fcfae-104">This procedure shows how to create an accessorial master for a hub and use that master to create a hub accessorial charge.</span></span> <span data-ttu-id="fcfae-105">此过程使用 USMF 数据集。</span><span class="sxs-lookup"><span data-stu-id="fcfae-105">The procedure uses the USMF dataset.</span></span> <span data-ttu-id="fcfae-106">此设置通常由运输协调员完成。</span><span class="sxs-lookup"><span data-stu-id="fcfae-106">This set up will typically be done by a transportation coordinator.</span></span>
 
 
-## <a name="set-up-a-hub-master"></a><span data-ttu-id="d77f9-107">设置汇集点主</span><span class="sxs-lookup"><span data-stu-id="d77f9-107">Set up a hub master</span></span>
-1. <span data-ttu-id="d77f9-108">转到“运输管理”>“设置”>“评级”>“附属主数据”。</span><span class="sxs-lookup"><span data-stu-id="d77f9-108">Go to Transportation management > Setup > Rating > Accessorial masters.</span></span>
-2. <span data-ttu-id="d77f9-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="d77f9-109">Click New.</span></span>
-3. <span data-ttu-id="d77f9-110">在“附属主数据”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="d77f9-110">In the Accessorial master field, type a value.</span></span>
-4. <span data-ttu-id="d77f9-111">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="d77f9-111">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="d77f9-112">在“附属类型”字段中，选择“中心”。</span><span class="sxs-lookup"><span data-stu-id="d77f9-112">In the Accessorial type field, select 'Hub'.</span></span>
-6. <span data-ttu-id="d77f9-113">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="d77f9-113">Click Save.</span></span>
-7. <span data-ttu-id="d77f9-114">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="d77f9-114">Close the page.</span></span>
+## <a name="set-up-a-hub-master"></a><span data-ttu-id="fcfae-107">设置汇集点主</span><span class="sxs-lookup"><span data-stu-id="fcfae-107">Set up a hub master</span></span>
+1. <span data-ttu-id="fcfae-108">转到“运输管理”>“设置”>“评级”>“附属主数据”。</span><span class="sxs-lookup"><span data-stu-id="fcfae-108">Go to Transportation management > Setup > Rating > Accessorial masters.</span></span>
+2. <span data-ttu-id="fcfae-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="fcfae-109">Click New.</span></span>
+3. <span data-ttu-id="fcfae-110">在“附属主数据”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="fcfae-110">In the Accessorial master field, type a value.</span></span>
+4. <span data-ttu-id="fcfae-111">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="fcfae-111">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="fcfae-112">在“附属类型”字段中，选择“中心”。</span><span class="sxs-lookup"><span data-stu-id="fcfae-112">In the Accessorial type field, select 'Hub'.</span></span>
+6. <span data-ttu-id="fcfae-113">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="fcfae-113">Click Save.</span></span>
+7. <span data-ttu-id="fcfae-114">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="fcfae-114">Close the page.</span></span>
 
-## <a name="set-up-a-hub-accessorial-charge"></a><span data-ttu-id="d77f9-115">设置中心附加费</span><span class="sxs-lookup"><span data-stu-id="d77f9-115">Set up a hub accessorial charge</span></span>
-1. <span data-ttu-id="d77f9-116">转到“运输管理”>“设置”>“评级”>“中心附加费”。</span><span class="sxs-lookup"><span data-stu-id="d77f9-116">Go to Transportation management > Setup > Rating > Hub accessorial charges.</span></span>
-2. <span data-ttu-id="d77f9-117">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="d77f9-117">Click New.</span></span>
-3. <span data-ttu-id="d77f9-118">在“中心附属 ID”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="d77f9-118">In the Hub accessorial ID field, type a value.</span></span>
-4. <span data-ttu-id="d77f9-119">在“中心”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="d77f9-119">In the Hub field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="d77f9-120">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="d77f9-120">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="d77f9-121">在“中心位置”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="d77f9-121">In the Hub position field, select an option.</span></span>
-    * <span data-ttu-id="d77f9-122">您可以创建装货或卸货费用。</span><span class="sxs-lookup"><span data-stu-id="d77f9-122">You can either create the charge as a pickup or drop-off.</span></span> <span data-ttu-id="d77f9-123">根据您的选择，费用将适用于您的路线中相应的运输细分市场。</span><span class="sxs-lookup"><span data-stu-id="d77f9-123">Depending on your selection the charge will be applied to the corresponding transportation segment on your route.</span></span>  
-7. <span data-ttu-id="d77f9-124">在“附属主数据”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="d77f9-124">In the Accessorial master field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="d77f9-125">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="d77f9-125">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="d77f9-126">选择您刚创建的主数据。</span><span class="sxs-lookup"><span data-stu-id="d77f9-126">Select the master you just created.</span></span>  
-9. <span data-ttu-id="d77f9-127">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="d77f9-127">Click Save.</span></span>
-10. <span data-ttu-id="d77f9-128">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="d77f9-128">Close the page.</span></span>
+## <a name="set-up-a-hub-accessorial-charge"></a><span data-ttu-id="fcfae-115">设置中心附加费</span><span class="sxs-lookup"><span data-stu-id="fcfae-115">Set up a hub accessorial charge</span></span>
+1. <span data-ttu-id="fcfae-116">转到“运输管理”>“设置”>“评级”>“中心附加费”。</span><span class="sxs-lookup"><span data-stu-id="fcfae-116">Go to Transportation management > Setup > Rating > Hub accessorial charges.</span></span>
+2. <span data-ttu-id="fcfae-117">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="fcfae-117">Click New.</span></span>
+3. <span data-ttu-id="fcfae-118">在“中心附属 ID”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="fcfae-118">In the Hub accessorial ID field, type a value.</span></span>
+4. <span data-ttu-id="fcfae-119">在“中心”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="fcfae-119">In the Hub field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="fcfae-120">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="fcfae-120">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="fcfae-121">在“中心位置”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="fcfae-121">In the Hub position field, select an option.</span></span>
+    * <span data-ttu-id="fcfae-122">您可以创建装货或卸货费用。</span><span class="sxs-lookup"><span data-stu-id="fcfae-122">You can either create the charge as a pickup or drop-off.</span></span> <span data-ttu-id="fcfae-123">根据您的选择，费用将适用于您的路线中相应的运输细分市场。</span><span class="sxs-lookup"><span data-stu-id="fcfae-123">Depending on your selection the charge will be applied to the corresponding transportation segment on your route.</span></span>  
+7. <span data-ttu-id="fcfae-124">在“附属主数据”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="fcfae-124">In the Accessorial master field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="fcfae-125">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="fcfae-125">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="fcfae-126">选择您刚创建的主数据。</span><span class="sxs-lookup"><span data-stu-id="fcfae-126">Select the master you just created.</span></span>  
+9. <span data-ttu-id="fcfae-127">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="fcfae-127">Click Save.</span></span>
+10. <span data-ttu-id="fcfae-128">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="fcfae-128">Close the page.</span></span>
 

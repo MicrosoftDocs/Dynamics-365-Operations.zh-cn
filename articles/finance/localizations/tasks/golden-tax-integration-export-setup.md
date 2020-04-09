@@ -16,27 +16,27 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f338d63c2caebe33c93cca856bb454f9fe0cbfa5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5cc9eaf70f86cdd3db24696c462681a867e6cb60
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183961"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138991"
 ---
-# <a name="golden-tax-integration-export-setup"></a><span data-ttu-id="653fe-103">金税集成导出设置</span><span class="sxs-lookup"><span data-stu-id="653fe-103">Golden tax integration export setup</span></span>
+# <a name="golden-tax-integration-export-setup"></a><span data-ttu-id="42d3f-103">金税集成导出设置</span><span class="sxs-lookup"><span data-stu-id="42d3f-103">Golden tax integration export setup</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="653fe-104">此过程显示如何配置金税集成的导出格式。</span><span class="sxs-lookup"><span data-stu-id="653fe-104">This procedure shows how to configure the export format for golden tax integration.</span></span> <span data-ttu-id="653fe-105">应该已经完成了金税集成的设置，才能完成此过程。</span><span class="sxs-lookup"><span data-stu-id="653fe-105">Before you complete this procedure, you should have already completed the setup of the golden tax integration.</span></span>
-<span data-ttu-id="653fe-106">完成此过程之后，接下来应该更新“税集成配置文件”页面中的“格式映射”字段。</span><span class="sxs-lookup"><span data-stu-id="653fe-106">After you complete this procedure, your next steps are to update the Format mapping field on the Tax integration profile page.</span></span> 
+<span data-ttu-id="42d3f-104">此过程显示如何配置金税集成的导出格式。</span><span class="sxs-lookup"><span data-stu-id="42d3f-104">This procedure shows how to configure the export format for golden tax integration.</span></span> <span data-ttu-id="42d3f-105">应该已经完成了金税集成的设置，才能完成此过程。</span><span class="sxs-lookup"><span data-stu-id="42d3f-105">Before you complete this procedure, you should have already completed the setup of the golden tax integration.</span></span>
+<span data-ttu-id="42d3f-106">完成此过程之后，接下来应该更新“税集成配置文件”页面中的“格式映射”字段。</span><span class="sxs-lookup"><span data-stu-id="42d3f-106">After you complete this procedure, your next steps are to update the Format mapping field on the Tax integration profile page.</span></span> 
 
-<span data-ttu-id="653fe-107">本流程是用演示公司 CNMF 数据生成的。</span><span class="sxs-lookup"><span data-stu-id="653fe-107">This procedure was created using the demo data company CNMF.</span></span> <span data-ttu-id="653fe-108">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="653fe-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="42d3f-107">本流程是用演示公司 CNMF 数据生成的。</span><span class="sxs-lookup"><span data-stu-id="42d3f-107">This procedure was created using the demo data company CNMF.</span></span> <span data-ttu-id="42d3f-108">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="42d3f-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
-1. <span data-ttu-id="653fe-109">转到“所有工作区”>“电子申报”。</span><span class="sxs-lookup"><span data-stu-id="653fe-109">Go to All workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="653fe-110">在列表中选择“Microsoft”。</span><span class="sxs-lookup"><span data-stu-id="653fe-110">In the list, select 'Microsoft'.</span></span>
-3. <span data-ttu-id="653fe-111">单击“存储库”。</span><span class="sxs-lookup"><span data-stu-id="653fe-111">Click Repositories.</span></span>
-4. <span data-ttu-id="653fe-112">单击“打开”。</span><span class="sxs-lookup"><span data-stu-id="653fe-112">Click Open.</span></span>
-5. <span data-ttu-id="653fe-113">在树中，选择“GoldenTax(CN)\GoldenTax(CN)格式”。</span><span class="sxs-lookup"><span data-stu-id="653fe-113">In the tree, select 'GoldenTax(CN)\GoldenTax(CN) format'.</span></span>
-6. <span data-ttu-id="653fe-114">单击“导入”。</span><span class="sxs-lookup"><span data-stu-id="653fe-114">Click Import.</span></span>
-7. <span data-ttu-id="653fe-115">单击“是”。</span><span class="sxs-lookup"><span data-stu-id="653fe-115">Click Yes.</span></span>
+1. <span data-ttu-id="42d3f-109">转到“所有工作区”>“电子申报”。</span><span class="sxs-lookup"><span data-stu-id="42d3f-109">Go to All workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="42d3f-110">在列表中选择“Microsoft”。</span><span class="sxs-lookup"><span data-stu-id="42d3f-110">In the list, select 'Microsoft'.</span></span>
+3. <span data-ttu-id="42d3f-111">单击“存储库”。</span><span class="sxs-lookup"><span data-stu-id="42d3f-111">Click Repositories.</span></span>
+4. <span data-ttu-id="42d3f-112">单击“打开”。</span><span class="sxs-lookup"><span data-stu-id="42d3f-112">Click Open.</span></span>
+5. <span data-ttu-id="42d3f-113">在树中，选择“GoldenTax(CN)\GoldenTax(CN)格式”。</span><span class="sxs-lookup"><span data-stu-id="42d3f-113">In the tree, select 'GoldenTax(CN)\GoldenTax(CN) format'.</span></span>
+6. <span data-ttu-id="42d3f-114">单击“导入”。</span><span class="sxs-lookup"><span data-stu-id="42d3f-114">Click Import.</span></span>
+7. <span data-ttu-id="42d3f-115">单击“是”。</span><span class="sxs-lookup"><span data-stu-id="42d3f-115">Click Yes.</span></span>
 

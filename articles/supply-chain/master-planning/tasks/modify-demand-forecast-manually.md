@@ -16,30 +16,30 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec51c1a500b5c9ff2c363cfb69cc1d404e939df9
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 58846f896d60610d0e90f8d04fda3101def53511
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250637"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148093"
 ---
-# <a name="modify-a-demand-forecast-manually"></a><span data-ttu-id="7bb8d-103">手动修改需求预测</span><span class="sxs-lookup"><span data-stu-id="7bb8d-103">Modify a demand forecast manually</span></span>
+# <a name="modify-a-demand-forecast-manually"></a><span data-ttu-id="64c81-103">手动修改需求预测</span><span class="sxs-lookup"><span data-stu-id="64c81-103">Modify a demand forecast manually</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7bb8d-104">此过程显示如何修改物料预测。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-104">This procedure shows how to modify the forecast for an item.</span></span> <span data-ttu-id="7bb8d-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="7bb8d-106">此记录专供生产规划员使用。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-106">This recording is intended for the production planner.</span></span> 
+<span data-ttu-id="64c81-104">此过程显示如何修改物料预测。</span><span class="sxs-lookup"><span data-stu-id="64c81-104">This procedure shows how to modify the forecast for an item.</span></span> <span data-ttu-id="64c81-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="64c81-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="64c81-106">此记录专供生产规划员使用。</span><span class="sxs-lookup"><span data-stu-id="64c81-106">This recording is intended for the production planner.</span></span> 
 
 
-## <a name="modify-the-forecast-for-an-item"></a><span data-ttu-id="7bb8d-107">修改物料预测</span><span class="sxs-lookup"><span data-stu-id="7bb8d-107">Modify the forecast for an item</span></span>
-1. <span data-ttu-id="7bb8d-108">在**导航窗格**中，转到**模块 > 产品信息管理 > 产品 > 已发放产品**。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-108">In the **Navigation pane**, go to **Modules > Product information management > Products > Released products**.</span></span>
-2. <span data-ttu-id="7bb8d-109">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-109">In the list, find and select the desired record.</span></span> <span data-ttu-id="7bb8d-110">选择要更改预测的物料。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-110">Select the item for which you want to modify the forecast.</span></span> <span data-ttu-id="7bb8d-111">例如，可以选择物料 D0001。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-111">For example, you can select item D0001.</span></span>  
-3. <span data-ttu-id="7bb8d-112">在**操作窗格**中，单击**计划**。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-112">On the **Action Pane**, click **Plan**.</span></span>
-4. <span data-ttu-id="7bb8d-113">单击**需求预测**。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-113">Click **Demand forecast**.</span></span>
-5. <span data-ttu-id="7bb8d-114">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-114">In the list, mark the selected row.</span></span> <span data-ttu-id="7bb8d-115">如果没有预测行，则单击在应用程序栏上的“新建”来创建一个新行。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-115">If there are no forecast lines, create a new line by clicking New on the app bar.</span></span>  
-6. <span data-ttu-id="7bb8d-116">在**销售数量**字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-116">In the **Sales quantity** field, enter a number.</span></span> <span data-ttu-id="7bb8d-117">此数字代表该物料的预测数量。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-117">This number represents the forecasted quantity for the item.</span></span>  
-7. <span data-ttu-id="7bb8d-118">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-118">Click Save.</span></span>
+## <a name="modify-the-forecast-for-an-item"></a><span data-ttu-id="64c81-107">修改物料预测</span><span class="sxs-lookup"><span data-stu-id="64c81-107">Modify the forecast for an item</span></span>
+1. <span data-ttu-id="64c81-108">在**导航窗格**中，转到**模块 > 产品信息管理 > 产品 > 已发放产品**。</span><span class="sxs-lookup"><span data-stu-id="64c81-108">In the **Navigation pane**, go to **Modules > Product information management > Products > Released products**.</span></span>
+2. <span data-ttu-id="64c81-109">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="64c81-109">In the list, find and select the desired record.</span></span> <span data-ttu-id="64c81-110">选择要更改预测的物料。</span><span class="sxs-lookup"><span data-stu-id="64c81-110">Select the item for which you want to modify the forecast.</span></span> <span data-ttu-id="64c81-111">例如，可以选择物料 D0001。</span><span class="sxs-lookup"><span data-stu-id="64c81-111">For example, you can select item D0001.</span></span>  
+3. <span data-ttu-id="64c81-112">在**操作窗格**中，单击**计划**。</span><span class="sxs-lookup"><span data-stu-id="64c81-112">On the **Action Pane**, click **Plan**.</span></span>
+4. <span data-ttu-id="64c81-113">单击**需求预测**。</span><span class="sxs-lookup"><span data-stu-id="64c81-113">Click **Demand forecast**.</span></span>
+5. <span data-ttu-id="64c81-114">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="64c81-114">In the list, mark the selected row.</span></span> <span data-ttu-id="64c81-115">如果没有预测行，则单击在应用程序栏上的“新建”来创建一个新行。</span><span class="sxs-lookup"><span data-stu-id="64c81-115">If there are no forecast lines, create a new line by clicking New on the app bar.</span></span>  
+6. <span data-ttu-id="64c81-116">在**销售数量**字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="64c81-116">In the **Sales quantity** field, enter a number.</span></span> <span data-ttu-id="64c81-117">此数字代表该物料的预测数量。</span><span class="sxs-lookup"><span data-stu-id="64c81-117">This number represents the forecasted quantity for the item.</span></span>  
+7. <span data-ttu-id="64c81-118">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="64c81-118">Click Save.</span></span>
 
-## <a name="modify-the-forecast-in-excel"></a><span data-ttu-id="7bb8d-119">在 Excel 中修改预测</span><span class="sxs-lookup"><span data-stu-id="7bb8d-119">Modify the forecast in Excel</span></span>
-1. <span data-ttu-id="7bb8d-120">在 Microsoft Office 中单击**打开**。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-120">Click **Open** in Microsoft Office.</span></span>
-2. <span data-ttu-id="7bb8d-121">单击 Excel 中的**编辑需求预测**。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-121">Click **Edit Demand forecast** in Excel.</span></span> <span data-ttu-id="7bb8d-122">在 Excel 中，您可以添加、删除和编辑需求预测行。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-122">In Excel, you can add, delete and edit demand forecast lines.</span></span> <span data-ttu-id="7bb8d-123">如果您将无法看到在 Excel 中的数据，需要使用已启用的“登录”选项登录，并且需要信任数据连接应用程序。</span><span class="sxs-lookup"><span data-stu-id="7bb8d-123">If you are not able to see the data in Excel, you need to sign in with the "Keep me signed in" option enabled and you need to trust the data connection app.</span></span>  
+## <a name="modify-the-forecast-in-excel"></a><span data-ttu-id="64c81-119">在 Excel 中修改预测</span><span class="sxs-lookup"><span data-stu-id="64c81-119">Modify the forecast in Excel</span></span>
+1. <span data-ttu-id="64c81-120">在 Microsoft Office 中单击**打开**。</span><span class="sxs-lookup"><span data-stu-id="64c81-120">Click **Open** in Microsoft Office.</span></span>
+2. <span data-ttu-id="64c81-121">单击 Excel 中的**编辑需求预测**。</span><span class="sxs-lookup"><span data-stu-id="64c81-121">Click **Edit Demand forecast** in Excel.</span></span> <span data-ttu-id="64c81-122">在 Excel 中，您可以添加、删除和编辑需求预测行。</span><span class="sxs-lookup"><span data-stu-id="64c81-122">In Excel, you can add, delete and edit demand forecast lines.</span></span> <span data-ttu-id="64c81-123">如果您将无法看到在 Excel 中的数据，需要使用已启用的“登录”选项登录，并且需要信任数据连接应用程序。</span><span class="sxs-lookup"><span data-stu-id="64c81-123">If you are not able to see the data in Excel, you need to sign in with the "Keep me signed in" option enabled and you need to trust the data connection app.</span></span>  
 
