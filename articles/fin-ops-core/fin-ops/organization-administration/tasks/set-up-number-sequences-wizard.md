@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f97c4cd6cdb117ebdd67a155478bb6f8d1703541
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 76dc32f2254ffd2a2e33eef594d6e602092bcb6f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176683"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140483"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>使用向导设置编号规则
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 “数序”被用于为需要它们的主数据记录和交易记录记录生成可读的唯一的标识符。 需要标识符的主数据或交易记录称为“参考”。 在您能为一个参考创建新记录之前，您必须设置编号规则并将其与参考相关联。 此主题说明如何同时使用向导设置所有必需的数序。 创建此程序的演示数据公司是 USMF。
 

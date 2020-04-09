@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 468a2637f4a5b2b7ff3514c92c52fb26b9231bc4
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e06fdda7d2d73c3fe4a4b9ee5bd44e6ef857b8d5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042911"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142221"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>定义 ER 配置与其他组件之间的依赖关系
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 若要完成这些步骤，首先必须完成任务指南“ER 管理模型映射配置”中的步骤，还必须可以访问 Microsoft Dynamics Lifecycle Services (LCS)。
 
@@ -62,7 +62,7 @@ ms.locfileid: "3042911"
 18. 选择 Microsoft Dynamics AX 7.0 RTW。
 19. 在”版本“字段中，键入”[7.0.1265.3015,7.1)“。
     * [7.0.1265.3015,7.1)  
-    * 如果从任何 ER 存储库下载了此配置，将评估依赖关系。 如果“示例数据模型”配置的版本 1 已提前准备就绪或下载，将从 ER 存储库下载此配置版本。 如果提前下载，则必须在 Microsoft Dynamics 365 for Finance and Operations 企业版中完成，其版本必须为 7.0.1265.3015 或更高，但是不得超过次要版本 1。   
+    * 如果从任何 ER 存储库下载了此配置，将评估依赖关系。 如果“示例数据模型”配置的版本 1 已提前准备就绪或下载，将从 ER 存储库下载此配置版本。 如果提前下载，则必须在 Microsoft Dynamics 365 for Finance and Operations Enterprise edition 中完成，其版本必须为 7.0.1265.3015 或更高，但是不得超过次要版本 1。   
 20. 单击“保存”。
 21. 关闭该页面。
 22. 单击“更改状态”。

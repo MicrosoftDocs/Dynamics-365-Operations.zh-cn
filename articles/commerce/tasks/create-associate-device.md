@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e9151adbadffa54633cb10a37522c065e86dd5c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: bb201dac1cbfa59f1a46ef42da3822040f74e620
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021745"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141468"
 ---
 # <a name="create-and-associate-a-device"></a>创建和关联设备
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此程序会逐步演示如何创建新设备并将其与收银机关联起来。 系统会假定收银机已创建。   此任务使用 USRT 演示数据公司。 此任务旨在面向管理员、IT 专业人员或商业 IT 和商店经理。
 

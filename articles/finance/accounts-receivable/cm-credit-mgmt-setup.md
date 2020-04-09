@@ -3,7 +3,7 @@ title: 信用管理参数设置
 description: 本主题描述可用于配置信用管理以满足业务需求的选项。
 author: mikefalkner
 manager: AnnBe
-ms.date: 09/04/2019
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba0b047fe984f6bc164cbe137320d6bf6c13dafc
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124177"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154520"
 ---
 # <a name="credit-management-parameters-setup"></a>信用管理参数设置
 
 [!include [banner](../includes/banner.md)]
 
-本主题描述可用于配置信用管理以满足业务需求的选项。 要开始使用信用管理功能，请在**信用管理参数**页（**信用管理 \> 设置 \> 信用管理参数**）上设置参数。
+本主题描述可用于配置信用管理以满足业务需求的选项。 要使用信用管理功能，请在**信用和收款参数**页（**信用和收款 \> 设置 \> 信用和收款参数**）上设置参数。
 
 ## <a name="credit-parameters"></a>信用参数
 
-您可以在以下四个快速选项卡中更改用于控制信用管理的参数：**信用保留**、**信用管理检查站**、**信用管理统计**和**信用额度**。 以下部分介绍了每个快速选项卡上可用的设置。
+您可以在**信用**部分的以下四个快速选项卡中更改用于控制信用管理的参数：**信用保留**、**信用管理检查站**、**信用管理统计**和**信用额度**。 以下部分介绍了每个快速选项卡上可用的设置。
 
 ### <a name="credit-holds"></a>信用保留
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0e2b98bde04b221730413bcd7ddd028074b19d47
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: e65d371486d53d0fe4f039da68fbb4dcc35074d1
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030937"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154566"
 ---
 # <a name="financial-dimensions-and-posting"></a>财务维度和过帐 
 

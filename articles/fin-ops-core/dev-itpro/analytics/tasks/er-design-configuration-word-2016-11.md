@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 327f03435ab55551953fd998dd89c831c76c4c26
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 208b1be20a8833afbf4929a7ceda706aeb5bda3b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182592"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142078"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>设计 ER 配置以生成 Word 格式的报表
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 以下步骤说明属于系统管理员或电子申报开发人员的用户如何配置电子申报 (ER) 格式，以便生成 Microsoft Word 文件格式的报表。 这些步骤可以在 GBSI 公司执行。
 
@@ -39,7 +39,7 @@ ms.locfileid: "2182592"
 
 
 ## <a name="select-the-existing-er-report-configuration"></a>选择现有 ER 报表配置
-1. 在导航窗格中，转到**模块 > 组织管理 > 工作区 > 电子申报**。 确保配置提供商“Litware 公司” 已选中为有效。  
+1. 在导航窗格中，转到**模块 > 组织管理 > 工作区 > 电子申报**。 确保配置提供商“Litware 公司”。 已选中为有效。  
 2. 单击**申报配置**。 我们将重复使用最初为生成 OPENXML 格式的报表输出而设计的现有 ER 配置。  
 3. 在树结构中，展开“付款模型”。
 4. 在树结构中，选择“付款模型\示例工作表报表”。

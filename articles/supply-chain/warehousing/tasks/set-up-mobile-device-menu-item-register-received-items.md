@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 599a533c90b0346637221fecc78ddd688410fb3c
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 5783742b382c333c9ba7b60701c043c74c87c458
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914737"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148300"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>设置登记已接收物料的移动设备菜单项
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题重点介绍设置移动设备菜单项。 此菜单项用于通过采购订单采购的物料的登记和接收。 
 

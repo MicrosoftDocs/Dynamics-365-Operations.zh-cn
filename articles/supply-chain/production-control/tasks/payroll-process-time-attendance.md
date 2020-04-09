@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a52ad77d3f03898d26c225900fe79ca30493a67
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2df4695b796b4e96e01fe5dac538b344cb76b910
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843521"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146713"
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a>启用考勤管理的工资流程
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此程序说明如何根据工时与出勤率来生成工资。 创建此程序的演示数据公司是 USMF。
 

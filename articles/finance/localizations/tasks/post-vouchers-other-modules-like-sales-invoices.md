@@ -16,16 +16,16 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c5a9419688d046fa00915555f889730dd5b34344
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f6f51736c34a749745ac35b655e366f974c20001
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175099"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138887"
 ---
 # <a name="post-vouchers-from-other-modules-like-sales-invoices"></a>从其他模块（如销售发票）过帐凭证
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 可以从总帐、库存变动日记帐、销售发票和采购发票过帐中国式凭证。 . 从这些源过帐时，将为这些财务凭证分配默认中国式凭证类型和中国式凭证号。
 此任务逐步演示如何从库存变动日记帐和从销售发票过帐中国式凭证。

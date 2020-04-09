@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec792ca27bf0245ff25e59cfe28122f17caec7fc
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 81b0e33d8f721cfcfd437e34b42a909798a6514b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1866842"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147449"
 ---
 # <a name="create-a-purchase-agreement"></a>创建采购协议
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题从头至尾指导您创建一份采购协议。 这通常由采购经理完成。 您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。 在您开始之前，您需要设置采购协议分类。 一旦创建完协议，您可以在创建采购订单时使用该协议，并且这会将采购协议条件复制到受该协议影响的订单的标题和任何行。
 

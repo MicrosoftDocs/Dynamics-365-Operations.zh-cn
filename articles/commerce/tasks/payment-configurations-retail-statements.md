@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72425526a4425eeb5cb7539f9633bda5657ca99e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 390ccdfde3f9bb93770d456af7532a42e81955a1
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021725"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140799"
 ---
 # <a name="payment-configurations-for-retail-statements"></a>零售报表的付款配置
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此程序会演示 Commerce 商店付款方式的配置（这会影响到如何创建和过帐对帐单）。
 

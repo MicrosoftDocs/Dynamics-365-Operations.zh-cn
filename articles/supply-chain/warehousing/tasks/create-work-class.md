@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5def9be0966d65728ffb0897229c0d749e7e13a0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6afbd9f54ef9046da10d0abc24ed545b5735a069
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571780"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146092"
 ---
 # <a name="create-a-work-class"></a>创建工作类
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程会显示如何设置工作类。 工作类用于处理和/或限制工作指令行的类型，以便仓库工作人员可以在移动设备上进行处理。 可以藉由仓库工作人员可以访问的移动设备菜单项上的工作类和工作行上指定的工作类，确定工作人员可以处理的行。 工作类还可用于验证工作指令行的存放位置。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。 该过程专门面向仓库经理。
 

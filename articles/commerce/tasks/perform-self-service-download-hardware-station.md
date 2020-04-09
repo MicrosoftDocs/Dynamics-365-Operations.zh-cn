@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a9b77916f02d32049690f12b97ec7ba7d515d97
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a4ad389a18d2b6d79ef9fb25da810323927e5f04
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021723"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140708"
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a>执行自助服务以下载硬件工作站
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此程序会逐步演示如何下载预定义的硬件工作站。 此程序使用的演示数据公司是 USRT。 在开始此任务之前，您必须已创建一个新的硬件工作站配置文件和硬件工作站。
 

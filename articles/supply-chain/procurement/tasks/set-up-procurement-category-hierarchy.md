@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d7010a1c612b9b3884c675f578657d951da06c38
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: c7010fb702d16dc276bfee397066ccf95bf5d25a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995274"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147265"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>设置采购类别层次结构
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程会显示如何在采购类别层次结构中创建新节点，以及如何配置采购类别以用于采购流程。 这些任务通常由采购经理完成。 在您开始该过程之前，采购类型层次结构必须存在。 如果您正在使用公司演示数据，则您可以在 USMF 公司中执行该过程。
 

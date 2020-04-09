@@ -16,16 +16,16 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 254fbbe9b13d913870032dbe6a3b883a7a54d88d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6b59d2bce76eb768fc89ff3865ee357775558651
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183963"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137906"
 ---
 # <a name="chinese-voucher-continuity-check"></a>中国式凭证连续性检查
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 每个凭证类型的中国式凭证号必须从 1 开始并且具有连续性，才能结转会计期间。
 此过程显示如何检查会计期间中的所有已过帐凭证，以及如何将中国式凭证号连续编号。 此过程是会计期间结转流程的一部分，因此只能为“暂停”会计期间运行。 第一个子任务逐步演示如何停止会计期间。 

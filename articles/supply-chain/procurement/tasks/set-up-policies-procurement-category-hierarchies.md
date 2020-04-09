@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 230794eacd5e9911496dd3826f08126cc21494cb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8d8c259ad081d02395c6ae3c3b7cf66b89933fdf
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844160"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149495"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>设置采购类别层次结构的策略
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 使用此过程设置类别中订购产品的规则。 规则是为具体采购政策定义的。 类别访问策略规则控制员工在创建申请时有权访问的采购类别。 在创建申请时，应采用的采购政策和类别访问规则由员工所属法人和运营单位确定。 您可以在演示数据公司 USMF 中使用此过程。 此任务通常由采购经理完成。
 

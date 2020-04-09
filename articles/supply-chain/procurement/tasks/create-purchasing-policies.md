@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e29df3b42479a215b66354f8dfceea002a146e74
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: c8416f9a869b9144a63a6fb08c667cc32dec9854
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856464"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149703"
 ---
 # <a name="create-purchasing-policies"></a>创建采购策略
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 本主题显示如何创建与您的采购业务流程一致的采购政策。 在您可以创建采购政策之前，必须设置采购政策参数。 可以创建、修改和废弃采购政策，但不能删除采购政策。 此过程通常由采购经理完成。 您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。
 

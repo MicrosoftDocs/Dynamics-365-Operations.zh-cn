@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3ecfa720dfa9b3ed6ee15ec68498d2a46612a9ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9a911fea9e7d1009160a021e53533c0ce49efbfe
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176698"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143688"
 ---
 # <a name="manage-email-templates"></a>管理电子邮件模板
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 您可以将组织数据库的信息转移到新文件的书签中，并在有助于您与申请人和职位候选人有效沟通的模板中使用。 为此，您创建包含某些标准文本和应向其插入系统数据的某些书签的模板。 例如，您可以将申请人的地址和联系信息插入到 Microsoft Word 文档中，这样您在与该申请人沟通时可使用该文档。 创建此程序的演示数据公司是 USMF。
 

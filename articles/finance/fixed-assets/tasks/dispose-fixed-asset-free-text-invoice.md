@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 179a6e45d57baf810068cb5c14aed670ebb94706
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 09a0c8087f610e7ff19bc2da66036e248ecfd637
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186961"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142769"
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>使用普通发票处置固定资产
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题介绍如何使用普通发票处置固定资产。
 

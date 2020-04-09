@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 04cb0afa74cb95acf4007e9292f9fb88d4c86f87
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c80283162f0d2d000dfd7d023c3de188511865ba
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837726"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149243"
 ---
 # <a name="create-transfer-activities-for-lean-manufacturing"></a>创建 lean manufacturing 的转移活动
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 创建 lean manufacturing 的转移活动。 
 

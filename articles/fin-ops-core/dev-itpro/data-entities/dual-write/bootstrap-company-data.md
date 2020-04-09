@@ -19,18 +19,17 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 6ce6c4e85ac1ef27060b53f43732f095a4efe9e7
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 1ed97d7c388347eb5afe101f51173b6d48b18fcd
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019664"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172915"
 ---
 # <a name="bootstrap-with-company-data-faq"></a>使用公司数据自扩展常见问题
  
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
 ## <a name="why-do-i-need-bootstrapping"></a>为什么需要自扩展？ 
 您可能已有一个包含业务数据的 Common Data Service 或其他 Dynamics 365 应用实例，并且想要对其启用双写入连接。 在这种情况下，您需要在启用双写入连接之前使用公司信息自扩展 Common Data Service 或其他 Dynamics 365 应用数据。  

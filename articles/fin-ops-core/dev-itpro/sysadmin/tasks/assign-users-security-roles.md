@@ -1,6 +1,6 @@
 ---
 title: 向安全角色分配用户
-description: 若要访问 Finance and Operations 应用，必须为用户分配安全角色。
+description: 若要访问 Finance and Operations 应用，用户必须分配给安全角色。
 author: ChrisGarty
 manager: AnnBe
 ms.date: 11/14/2019
@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e4f4ef4535de9e371829c2d86d4fdc1400510c7b
-ms.sourcegitcommit: 6aa74f66f1abd3a7977050a5339b0b17e62ff053
+ms.openlocfilehash: 0744f45ac91dfb9b5aae35091e3675202c9144f9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2807988"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143529"
 ---
 # <a name="assign-users-to-security-roles"></a>向安全角色分配用户
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 要使用除常用功能以外的任何功能，必须将用户分配到安全角色。 此过程说明系统管理员如何基于业务数据将用户自动分配到角色。 
 

@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9fbf5f12e10762e83bdf7a6c67a436ac906d0f7e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1dad2cc4a47e24d6cdd68edd4b3d391428d28320
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837846"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147058"
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>通过从现有配方复制来创建配方
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程显示如何通过复制现有配方，快速创建新的配方。 您可以使用演示数据公司 USMF、USP2 或 USPI 创建该过程。
 

@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e0247e50f03e61d8a04020d020c13afb812937b9
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: fefb33d568153670dbcb92db478e33db806809fc
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837870"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147081"
 ---
 # <a name="create-a-bom-line-event-kanban-rule"></a>创建物料清单行事件看板规则
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此任务介绍在混合精益和经典生产环境中创建事件看板规则以确保生产物料清单行的供应所需的设置。 创建此任务的演示数据公司是 USMF。 该任务面向工艺工程师和价值流经理，因为他们负责新型或改良产品的生产准备。
 

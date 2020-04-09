@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 540dd32c5da5859ef5e69f55d6806eada90bc840
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b6769eb1c971b4641aee7cae9dd710a856b3c8fb
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558179"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149358"
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>计算看板数量建议
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程重点是通过使用看板数量计算，优化特定看板规则的看板大小和数量。 创建此程序的演示数据公司是 USMF。 此程序是专为价值流经理设计的。 这是您完成“添加新看板数量计算策略到看到规则”这一过程的先决条件。
 

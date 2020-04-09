@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dcf216c65514820dc50486266a79ad1b4d696db3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 77f7a2df813eb0bf211b72646c1e99306fdf3f88
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835518"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148599"
 ---
 # <a name="mass-create-sales-quotations"></a>成批创建销售报价单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程演示如何有效创建发送一组产品或服务给多个客户的报价单。 此成批报价单创建基于报价单模板。 您可以使用演示数据公司 USMF 或您自己的数据运行该过程。
 

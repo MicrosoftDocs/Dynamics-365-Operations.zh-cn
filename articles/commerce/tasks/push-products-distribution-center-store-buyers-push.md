@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62eeb29e348c558e8954f656b89d90792b0c347b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: dad74855ab9a9c225a5cd64a8c27663aedcd21e4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021721"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141215"
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a>使用集中采购配送将产品从配送中心配送到商店
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此程序会逐步演示如何创建和处理集中采购配送，以将产品从一个位置配送到一个或许多商店。 用户可以定义多个配置，并让系统建议如何配送产品，或手动输入物料的配送目的地，以及如何配送到每一个商店。 此程序不包括可用于集中采购配送的数据的设置，例如补货规则、组织层次结构和商店权重。 此程序使用 USRT 演示公司。
 

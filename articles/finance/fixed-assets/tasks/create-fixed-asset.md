@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59d2b421fcce3551145b85e004380ed06cd45626
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: db1a372414a38446b7e55d94a3e6a8a22a889d0a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176573"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142792"
 ---
 # <a name="create-a-fixed-asset"></a>创建固定资产
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此任务指南使用 USMF 公司演示。  这里将使用固定资产列表页面创建新的固定资产。
 

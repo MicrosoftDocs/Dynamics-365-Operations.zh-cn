@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 06743ca3ed13906e3f65d3783db7a7f74fb53e3f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2112336045086d0eb3b2fb0018f33631528a05ec
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186179"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145091"
 ---
 # <a name="create-ledger-accrual-transactions"></a>创建分类帐应计交易记录
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此任务指南介绍生成基于应计架构的分类帐应计交易记录的步骤
 

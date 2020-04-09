@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c036f6aad79e33df6009913d1e21ff6176f22593
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 485afff3747a87a6e36f0249b146a39361d81b23
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843785"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147127"
 ---
 # <a name="change-kanban-rules-for-a-process-job"></a>更改处理作业的看板规则
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程旨在更改一个给定看板的惯用看板规则。 此适用于水平负荷资源以及万一出现故障的情况。 创建此程序的演示数据公司是 USMF。 该过程是为 lean manufacturing 公司的生产规划人员设计的，为价值流负责。
 

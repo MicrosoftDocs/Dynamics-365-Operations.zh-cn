@@ -16,16 +16,16 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19ec4499ba37628e037f862da28e271d5313c6ad
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3a0158c4ed17179b8b15d13fdc20e369da12de54
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174458"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3139093"
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>创建项目发票上的贷方通知单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 1. 转到项目管理和记账>项目>全部项目。 
 2. 在列表中，找到并选择所需记录。 

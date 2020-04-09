@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5ca5ff2290df2179004ca1cebd11f67fbb7a724e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 86d29782f616219b5d84e3567910cb28c60b65ae
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176645"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140298"
 ---
 # <a name="create-a-direct-debit-mandate-for-a-customer"></a>为客户创建直接借记授权单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此任务指南向您演示如何创建直接借记授权并将其使用在发票上。
 

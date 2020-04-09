@@ -3,7 +3,7 @@ title: 使用演示数据创建建议
 description: 此文档使用预填充的可自定义演示数据提供有关如何在 1 级单盒环境中利用全渠道产品建议的指导。
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/20
+ms.date: 03/19/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2e790d78b4d5216822ffda3a3895feb674876bd8
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: 59cb5e5c9b59ff2127149e3e47b6c30c9c938a27
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127828"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154241"
 ---
 # <a name="create-recommendations-with-demo-data"></a>使用演示数据创建建议
 
@@ -77,8 +77,6 @@ ms.locfileid: "3127828"
 [启用个性化建议](personalized-recommendations.md)
 
 [选择退出个性化产品建议](personalization-gdpr.md)
-
-[向电子商务站点添加建议列表](add-reco-list-to-page.md)
 
 [在 POS 中添加产品建议](product.md)
 

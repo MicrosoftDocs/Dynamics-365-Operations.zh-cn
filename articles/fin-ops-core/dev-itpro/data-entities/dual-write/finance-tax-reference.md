@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 28f47f8cebca6c7249e0596c53f3589dc6541e26
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: 50f906d62ad6f1e0b79c9c1bb6fcd373ba350c98
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112393"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172590"
 ---
 # <a name="access-to-finance-and-tax-reference-data"></a>访问财务和税务参考数据
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
 
 每家企业都需要处理一组基本财务数据，如会计日历年度、企业进行交易时使用的货币、开展业务所用资金出入的帐户、税率和汇款。 这些数据存储在 Finance and Operations 应用中。 但是，Common Data Service 可以访问，所以 Microsoft Dynamics 365 中的模型驱动应用对财务和税务数据使用一个来源。 因此，数据在整个业务生态系统中都是统一的。 
 

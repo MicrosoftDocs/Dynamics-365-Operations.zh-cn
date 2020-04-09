@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bb0b30be91e33cb50af0ae5c2e4dcd75bd12599b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dc6aeb39591c68cae78537faa077010d68628b02
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175311"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144758"
 ---
 # <a name="set-up-sales-tax-authorities"></a>设置增值税主管机构
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 销售税主管机构是收缴需要申报和缴纳的销售税的实体。 您可以直接向销售税主管机构支付销售税，也可以通过为销售税主管机构创建的供应商帐户支付。 如果您这样做，公司可以使用其日常付款程序及时向增值税主管机构付款。 如果您没有将增值税主管机构设置为供应商，则某个人必须在相应的到期日期时准备向增值税主管机构手动付款。 本任务使用 USMF 公司进行演示。
 

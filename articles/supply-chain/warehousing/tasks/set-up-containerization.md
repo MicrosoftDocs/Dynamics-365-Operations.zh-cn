@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba435ee145a8516391d7864bdfe338b0f3862f49
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f9dbf62e1c518b0cd77da693127588a04f17d622
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847199"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148254"
 ---
 # <a name="set-up-containerization"></a>设置集装化
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 本主题描述如何在“仓库管理”中自动进行装载集装化。 自动执行集装化在处理波次，且工作行可以分解为适合集装箱的数量时，创建集装箱和用于装运的领料工作。 这有助于仓库工作人员将物料直接拣选到选择的集装箱内。 与手动包装流程对比，创建集装箱、分配物料和封闭集装箱等任务由系统自动执行。 此过程使用 USMF 演示公司，并由仓库经理执行。
 

@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4bac365217c20bececa1b4ff2b9de12288326dcc
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: f15b035c01801041d637a2d315d8a3ddcc9d6540
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021738"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140918"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>创建在线渠道和定义渠道属性
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此程序会逐步演示如何创建新的在线渠道，然后将其添加到组织层次结构。 在创建新的在线渠道之前，您必须创建组织层次结构。 此程序使用 USRT 演示数据公司。
 

@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f27675a2aa2160619bf78eea33bba2ce0b7bd81
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 11089584e150a1a302eb969a5fb61cb9d1900901
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188088"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141733"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>为客户登记和过帐远期支票
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-您可以登记从客户处接收的远期支票的详细信息。 您还可以过帐该远期发票并生成财务交易记录。   在您登记和过帐从客户收到的远期支票之前，请完成以下任务：   • 在现金和银行管理页面设置远期支票 • 设置远期支票的付款方式   此过程的角色为出纳员。 该程序适用于 USMF 演示公司。
+您可以登记从客户处接收的远期支票的详细信息。 您还可以过帐该远期发票并生成财务交易记录。   在您登记和过帐从客户收到的远期支票之前，请完成以下任务：   * 在现金和银行管理页面设置远期支票 * 设置远期支票的付款方式   此过程的角色为出纳员。 该程序适用于 USMF 演示公司。
 
 1. 转到“应收账款”>“付款”>“付款日记帐”。
 2. 单击“新建”。

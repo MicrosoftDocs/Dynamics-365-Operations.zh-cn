@@ -3,7 +3,7 @@ title: 通过任务录制创建文档或培训
 description: 此主题介绍任务录制器和任务指南是什么，如何创建任务录制，以及如何自定义 Microsoft 任务指南和将其加入帮助中。
 author: josaw1
 manager: AnnBe
-ms.date: 10/24/2017
+ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 268b95aad57c2e4863a3f58cd54828dbb0e09465
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 927f6475e60b5b93aac0e0c2840cb0b4fc7f0ac8
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006187"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164550"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>通过任务录制创建文档或培训
 
@@ -40,8 +40,6 @@ ms.locfileid: "3006187"
 任务录制器是一种可用来记录您在产品用户界面 (UI) 上执行的操作的工具。 当您使用任务录制器时，将捕获您在 UI 中对服务器执行的所有事件（包括添加值、更改设置、删除数据）。 您记录的步骤统称为*任务录制*。 可通过多种方式使用任务录制：
 
 -   **任务录制可作为任务指南播放。** 任务指南是帮助体验的一个组成部分。任务指南是通过业务流程执行的受控的、引导式、交互式的体验。 系统将通过弹出提示（或“气泡”）方式指示用户完成每个步骤，这将跨 UI 创建动画效果并指向用户应与之交互的 UI 元素。 “气泡”还提供了有关如何与元素进行交互的信息，如“单击此处”或“在此字段中，输入一个值”。任务指南针对用户的当前数据集运行，而且输入的数据将保存在用户的环境中。
--   **任务录制可作为操作步骤显示在“帮助”窗格中。** 您可以使用“帮助”窗格搜索和显示任务录制。 您可以通过单击顶部导航栏中的 **?** 图标访问“帮助”窗格， 也可以使用快捷键组合  **Ctrl+Shift+?**。 您可以阅读“帮助”窗格中的任务录制步骤，也可以选择以任务指南方式播放录制以便其指导您完成 UI。
--   **任务录制可保存到 BPM。** 您可以将任务录制保存到 Lifecycle Services (LCS) 中 BPM 库中的层次结构行。 将从录制中生成一个步骤列表和一个业务流程图表。 已保存到 BPM 库中的任务录制可显示为帮助。
 -   **任务录制可另存为 Word 文档。** 这将允许您轻松地生成可打印的培训指南。
 
 您可以创建自己的任务录制、播放 Microsoft 提供的任务录制或修改 Microsoft 提供的任务录制以反映您的配置。有关任务录制器的详细信息，请参阅[任务录制器](task-recorder.md)。
@@ -114,8 +112,7 @@ ms.locfileid: "3006187"
 10. 在播放完录制后，单击屏幕顶部的任务录制器栏中的**停止**。
 11. 选择您希望用来保存任务录制的方式。
 
-## <a name="include-your-task-recordings-in-the-help-pane"></a>将您的任务录制包含在“帮助”窗格中
-要在“帮助”窗格中显示您自己的自定义任务录制以便它们可作为任务指南播放或作为文本查看，您必须将任务录制保存到自己的 BPM 库，然后更新帮助系统参数以指向您的 BPM 库。 有关更多信息，请参阅[连接帮助系统](../../fin-ops/get-started/help-connect.md)。
+
 
 <a name="additional-resources"></a>其他资源
 --------

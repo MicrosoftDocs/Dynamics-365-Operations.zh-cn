@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4b73282abd2df92b3f466f7c1c6c210173001fd7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 57081b9e737373641cd9d884919d03dcf62a2ffe
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021717"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140647"
 ---
 # <a name="store-configurations-for-retail-statements"></a>零售报表的商店配置
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此程序会逐步演示商店的配置（这会影响到如何创建和过帐商业报表）。 商店的财务维度将在另一个程序中论述。 此程序使用 USRT 演示公司。
 

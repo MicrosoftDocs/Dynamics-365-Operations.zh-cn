@@ -16,16 +16,16 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a0db1f2bcdc26639f762fa70b6c3e5b752170029
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6f7170c91aaf3aec4bc42919b1be71e41e2fbc89
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183959"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144894"
 ---
 # <a name="set-up-chinese-vouchers"></a>设置中国式凭证
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程逐步演示如何使用特定演示数据设置中国式凭证。
 中国式凭证编号是中国式财务报表的基础。 必须先设置此类编号，才能执行任何财务交易过帐。 只能按照此过程的演示一次一个设置凭证，也可以使用凭证类型设置向导设置。

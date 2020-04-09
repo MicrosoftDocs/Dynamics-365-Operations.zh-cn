@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9274a90ffbf6e5703d3ed97a8b974227b25c2a0
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: 6383576302789d268d64edcbbe05305b03e956d0
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924370"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148691"
 ---
 # <a name="confirm-sales-orders"></a>确认销售订单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程说明了如何确认销售订单。 将会向您显示如何确认单个订单，以及如何一次确认多个订单。 这些任务通常由销售订单处理员完成。 您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。 在您开始前，确保同一客户的若干未结销售订单可用。 如果您正在使用 USMF，您可以使用客户 US-027。
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4671e1df3bc86361736b5882d67e6b160b4c5644
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c843f3b504d8390b26fdc94dd747a73de75df6a9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174773"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143450"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>设置项目发票的付款单格式
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 企业通常将打印的付款单附加到发票上以帮助客户，并提供用于过帐和结算的付款参考。 除了销售发票和普通发票，付款单可用于项目或服务发票，催款单、利息单和帐户对账单。 若要处理付款单，首先设置您的债权人标识号和付款单附件格式。
 

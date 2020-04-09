@@ -16,16 +16,16 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e04a9b122fc6843feef855424d9af4c793fd4b49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4d937a710b84b1b9c18b650fffee1bd1a3d1e1a5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183960"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144151"
 ---
 # <a name="post-vouchers-from-the-general-journal"></a>过帐普通日记帐的凭证
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程逐步演示如何使用普通日记帐过帐中国式凭证。  必须确保已创建所有必需的会计日历，才能完成此过程。 
 

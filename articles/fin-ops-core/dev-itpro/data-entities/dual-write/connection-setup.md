@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1319f1228b635e207754f7c2516cb2b5353a9edd
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: d7ff514768ee8e4797b591da89e190a855385885
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112395"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172846"
 ---
 # <a name="supported-scenarios-for-dual-write-setup"></a>支持双写入的方案
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+[!include [preview-banner](../../includes/preview-banner.md)]
 
 可以在 Finance and Operations 环境与 Common Data Service 环境之间建立双写入连接。
 

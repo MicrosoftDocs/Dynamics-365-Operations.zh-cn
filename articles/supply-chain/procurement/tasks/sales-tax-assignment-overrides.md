@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40723d35c1914f6cec6aa361a6c38100d1667cb6
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e8d7025db9dae57d04ee8b0f827cc13d659ad699
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003619"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161769"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a> 销售税分配和覆盖
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程演示如何为商业渠道分配增值税组。 还逐步演示了新建增值税覆盖并分配给现有增值税覆盖组的过程。 此程序使用 USRT 演示数据公司。
 

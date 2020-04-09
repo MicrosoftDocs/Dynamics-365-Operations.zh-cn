@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46dc13416aa094f33879c017c1a1815fc791409d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a6287fa95b7ce7341e99d1b1a6b972db68a30398
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185098"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142152"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>定义 ER 模型映射并从中选择数据源
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 以下步骤说明属于系统管理员或电子报表开发人员的用户如何为电子报表 (ER) 数据模型选择数据源。 数据源将绑定到设计时所选数据模型的各个部分中，并在运行时间生成该数据模型的业务数据。 在此示例中，您将为给示例公司 Litware，Inc. 创建的现有数据模型选择数据源。为了完成这些步骤，您首先必须完成“创建新数据模型”这一过程中的步骤。
 
@@ -78,7 +78,7 @@ ms.locfileid: "2185098"
 17. 在树结构中，选择“交易记录\凭证”。
 18. 单击“添加数据源”。
 19. 在“公式”字段中，输入“CONCATENATE(Transactions.Voucher, "-",”。
-    * 在公式结尾键入[ , “-“, ]。  
+    * 在公式结尾键入[ , "-", ]。  
 20. 在树结构中，选择“字符串\文本”。
 21. 单击“添加”功能。
 22. 在树结构中，选择“交易记录\记录 ID”。

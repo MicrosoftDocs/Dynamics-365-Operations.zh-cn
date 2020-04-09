@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec17fc31df1daed943f9bc3f4cbe25a683c8ac7e
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 386c035fb84b1f88cf53837a1e875eb2aa8ba910
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026306"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146299"
 ---
-# <a name="reconcile-freight-manually"></a>对货运进行手动对帐
+# <a name="reconcile-freight-manually"></a>对货运进行手动对账
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]]
 
 此过程显示如何手动对帐货运。 这通常由运输协调员完成。 您可以在 USMF 演示数据公司中使用此过程。
 

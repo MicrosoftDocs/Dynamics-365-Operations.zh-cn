@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 523f6414ec212aef48eece487f4199ea2cf4b87e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5dfd5655ecdfa74d75490b0915c4cea609baebe3
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836135"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146487"
 ---
 # <a name="validate-a-production-flow-and-version"></a>验证生产流和版本
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程显示如何创建新的生产流以及 lean manufacturing 的第一个版本。 先决条件：必须定义 Lean manufacturing 的生产参数以及类别时间的度量单位。 您需要定义“价值流”和“生产组”。 请参阅 Lean manufacturing 白皮书，以了解生产流和活动的概念。 该过程在演示数据中使用的是 USMF 法人。 但是，如果已配置 Lean manufacturing 的法人，则可使用其他法人。
 

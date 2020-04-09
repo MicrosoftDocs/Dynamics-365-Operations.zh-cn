@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aea3f08ea2d1bd584448c3033aea41eca2a0e3ce
-ms.sourcegitcommit: 0e2e4d8419c03a30d2223662ba8d403a28fa31eb
+ms.openlocfilehash: 54c75696f7147a7a4eb7b9d984936af9c28ef501
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870908"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146207"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>设置采购订单储存的位置指令
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 本主题说明如何设置简单库位指令。 显示的示例创建将用于确定在何处放置已收到的采购订单的物料的位置指令。 您可以使用演示数据公司 USMF 提及的数据运行此任务指南。 先决条件：您需要创建一个处置代码。 在该过程中，我们使用了一个被称为“重新贴标签”的处置代码。 如果您正使用您自己的数据创建位置指令，您需要为您的仓库和物料设置高级仓库管理。 该过程专门面向仓库经理。
 

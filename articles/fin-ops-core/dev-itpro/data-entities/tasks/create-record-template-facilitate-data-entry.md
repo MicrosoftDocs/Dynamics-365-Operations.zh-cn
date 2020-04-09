@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08ee7d0f0ce7e92eaa85137dcd2761bfd702eb8c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ec21415158ad611d0ad55778e76aa128f53561bd
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181925"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143376"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>创建记录模板以加快数据输入
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题演示如何创建报表模板，以便不必明确为每条记录输入常用字段值。 在此过程中，您将为应添加到固定资产的新笔记本电脑创建一条新记录。 本流程使用了 USMF 示例公司。
 

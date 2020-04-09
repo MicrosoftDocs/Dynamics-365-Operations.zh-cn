@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22680a3033c1518735eb9edb4c6f22f310509aba
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4b9960c3fdf0d65be19e28dbb41913a310ae7530
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188801"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140206"
 ---
 # <a name="establish-customer-method-of-payment"></a>设定客户付款方式
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 本主题说明如何为客户付款创建付款方式。 此任务使用 USMF 公司演示。
 

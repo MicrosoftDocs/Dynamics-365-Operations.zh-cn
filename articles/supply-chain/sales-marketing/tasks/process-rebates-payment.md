@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a05565d220c53d0f860a2c0569622b55c4021d6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 412e7df299a419642018a62e6e8febd5d59c65e1
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1833859"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148433"
 ---
 # <a name="process-rebates-for-payment"></a>处理付款返利
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程说明如何将已批准和处理的客户返利转换到贷方通知单。 您可以使用 USMF 公司演示运行此指南。 本指南中的先决条件是拥有一个或多个状态为“标记”的要求。 如果您正在使用 USMF，在开始本指南之前，您应该运行“生成和处理客户返利”指南。
 

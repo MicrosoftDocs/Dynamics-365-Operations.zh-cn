@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcf2aa32ee9f89649ce8ce0afaf50b0facf053ce
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ff38ba2ed1d513d6b64cf5a64e021cbb08d69b21
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838695"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161746"
 ---
 # <a name="create-a-fixed-quantity-kanban-rule-for-manufacturing"></a>创建制造的固定数量看板规则
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程的重点是为触发精益环境的工作单元的转换活动创建固定的制造看板规则所需的设置。 创建此程序的演示数据公司是 USMF。 该过程面向工艺工程师和价值流经理，因为他们负责新型或改良产品的生产准备。
 

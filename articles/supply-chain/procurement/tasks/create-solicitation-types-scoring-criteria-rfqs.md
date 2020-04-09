@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1a3e0d00d674af913953d7fd01183b0289c20d3d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 57abbab21a20278d77001a39e226af11994230be
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844086"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149618"
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a>创建询价的申请类型和计分条件
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此指南演示如何创建申请类型和将其与计分方法关联。 还演示如何在随后将设置默认计分方法的询价 (RFQ) 中使用申请类型。 这些任务通常由采购经理完成。 您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。 首先需要有计分方法。
 

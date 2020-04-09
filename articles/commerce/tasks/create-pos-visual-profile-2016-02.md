@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc7d50805ec771d042732f36a42c2d9fb3c16cdf
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b265a94c6d8f9e2534e1509e4f33c6f8a05eded0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021736"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140917"
 ---
 # <a name="create-point-of-sale-pos-visual-profiles"></a>创建销售点 (POS) 可视化配置文件
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此程序会逐步演示如何创建新的销售点 (POS) 可视化配置文件。 可视化配置文件包含可以确定 POS 收银机外观的基本信息。 您可以创建多个可视化配置文件，并分配特定配置文件以在注册机上运行。 此程序使用 USRT 演示数据公司。
 

@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08fddd6404bf835283adaca14ad7ceb851f5a489
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7ebae3fac556348aafa595e6e21caf9cd6b44ba4
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837630"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149013"
 ---
 # <a name="execute-kanban-process-jobs"></a>执行看板处理作业
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程介绍看板流程作业的执行。 第一个作业按预期数量完成并没有错误。 第二个作业完成时包含错误。 创建此程序的演示数据公司是 USMF。 此过程是专为机器操作员设计的。
 

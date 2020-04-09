@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d575e609ac5289f9acb219322c9df93972e5dfc
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: d9036b5cbad10af725aaaf5d1d9498687c3a1d58
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995205"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146414"
 ---
 # <a name="set-up-sales-commission-rules"></a>设置销售佣金规则
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程显示如何设置和启用销售佣金计算和跟踪。 该过程显示如何创建客户和物料佣金组，以及如何链接选定客户和产品到各个组中。 这些组将用于佣金计算设置中，以创建客户、物料和销售代表组合，这必须与销售订单匹配，以使销售人员有权获得佣金。 客户和物料佣金组的创建为可选项，因为还可为单个客户和/或物料计算佣金。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。
 

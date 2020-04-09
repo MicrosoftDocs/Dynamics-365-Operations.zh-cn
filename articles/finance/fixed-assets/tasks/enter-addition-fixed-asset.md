@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fe1a1d4db696ac013afee05b697b301383232134
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dc1e13863ae13daaa641f52f7a55e01fc1353dc1
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186938"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142746"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>输入对固定资产的添加件
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 本流程展示如何对现有固定资产表添加新的成员。 固定资产添加功能的目的就是追踪添加的资产项目，对固定资产进行维护和改进，也只是以提供信息为目的。 任何对固定资产价值或服务年限的改变要单独进行。   
 

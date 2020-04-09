@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44f6ac3263f115e76d054e68c99d58dc11e6f1a0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cf19d69c498da32594e17e16fb83ed25e6747982
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182224"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142977"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>ER 将数据模型映射到所选数据源
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 以下步骤说明属于系统管理员或电子报表开发人员的用户如何映射电子报表 (ER) 数据模型到所选的数据源中。 此模型映射稍后将作为用于管理电子付款文件的格式配置中的数据源。 在此示例中，您将示例公司 Litware，Inc. 的数据模型映射到数据源。 为了完成这些步骤，您首先必须完成“为模型映射选择数据源”这一过程中的步骤。
 

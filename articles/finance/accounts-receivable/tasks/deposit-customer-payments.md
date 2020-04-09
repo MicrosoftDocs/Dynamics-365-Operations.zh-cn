@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 595d1b609ae83af8f1581caeff9ef7d3892a6207
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1d903f557fbaeb720dd4a34dc1c772be0dcb56eb
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176644"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140163"
 ---
 # <a name="deposit-customer-payments"></a>存放客户付款
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 存入客户付款。 此任务使用 USMF 公司演示。
 

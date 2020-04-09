@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4751256858da417ec9bb1b7d9ccd16fb6bef1cac
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 460e41d69a78cda664e0d3af828fdc482169ac52
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185926"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145067"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>设置销售税申报代码
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 销售税报表代码指销售税报表上的字段编号。 这些代码在国家特定的报表版式上使用，并且根据代码识别的销售税付款按照申报代码，申报打印一定结算期间内的销售税金额。 在创建销售税申报代码后，您可以在销售税代码页面的“报告设置”快速选项卡中引用这些代码。 
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e0c00b2a79ab588ff47c249f73570544d884b79e
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: a6ced839f93103a62bcfa8ea14ca463f0f1e174e
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995232"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145839"
 ---
 # <a name="check-the-availability-of-stock"></a>检查库存可用性
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程显示如何检查特定物料编号的现有和实际现有库存量。 它还向您显示如何获取有关物料的供应信息。 实际现有库存量为可用现有库存量，即购买、接收和登记的库存量。 现有库存量不仅包括可用的现有库存量，而且还包括已经订购但尚未收到或登记的库存量。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。 如果您正在使用 USMF，则可以使用显示的示例值。 这些任务通常由仓库工作人员完成。
 

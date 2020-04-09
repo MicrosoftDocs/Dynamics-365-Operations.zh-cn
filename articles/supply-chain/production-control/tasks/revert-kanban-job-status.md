@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44c9ce805826779ba682561779653d61905fcd8d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 3f9026aff0f54dd2a61cb0f35705b002a125610f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838503"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148852"
 ---
 # <a name="revert-kanban-job-status"></a>恢复看板作业状态
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程用于恢复一个不正确的看板作业状态。 此用于机器操作员更新错误作业或设置错误状态的情况。 在该过程中，先把一项看板作业错误登记为已准备，然后恢复其状态。 创建此程序的演示数据公司是 USMF。 该过程是为在 lean manufacturing 公司工作的店铺主管或机器操作员设计的。
 

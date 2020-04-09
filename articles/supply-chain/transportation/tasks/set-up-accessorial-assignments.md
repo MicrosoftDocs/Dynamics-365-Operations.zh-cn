@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b69bd2029914efd31569c57272339e27ef1bd6a3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cd951a65d9cfd20952865db81ac58c698aa124a7
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560878"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146322"
 ---
 # <a name="set-up-accessorial-assignments"></a>设置附属分配
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程显示如何设置附属分配。 这通常由运输协调员完成。 您需要运行“设置运输中心附加费用和附属主数据”指南才能使用该指南。
 

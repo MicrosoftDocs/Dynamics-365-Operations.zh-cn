@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a6b0fa28d778a4d9fa1f718b1d50bf1dce00be00
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ba720fd1bbbbf8b4f3b936d65d9d7840432f291a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186110"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145021"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>定义原始凭证的审计策略
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题介绍如何设置和运行审计政策规则。 本例使用含酒店费用类型的费用报表。 该程序适用于 USMF 演示公司。 审计角色包含执行这些任务的正确权限。
 

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba5e66b8c4b9ee991b2889eecf4dcec174b31ef2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8c45741dfef8be659dfe3ac632748cb5e19e977c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185765"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141545"
 ---
 # <a name="create-and-submit-vat-report"></a>创建和提交增值税报表
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程引导您创建 VAT 报表并提交给德国主管机构。 本流程用演示公司DEMF数据生成的。 本功能可为注册主地址为德国的法人所用。
 

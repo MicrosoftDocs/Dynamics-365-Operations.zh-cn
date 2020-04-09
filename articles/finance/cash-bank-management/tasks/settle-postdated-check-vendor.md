@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6d935ec24d97ca76a088cbe41d57c12c6e8a6689
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ee66bdb93d1252486efc7be25adeb6ee7cc6ce05
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188042"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144226"
 ---
 # <a name="settle-a-postdated-check-for-a-vendor"></a>结算供应商的远期支票
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 在支票过期银行清算之后，如果银行已清算支票交易记录，签发一张远期支票给供应商进行结算。 
 

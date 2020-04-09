@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 56621d8de89ee0a62e2ad92930b632bbce5d6b06
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 9d18677f6fc469043907e84032a25eae958f1875
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843713"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146874"
 ---
 # <a name="create-working-time-scheduling-properties"></a>创建工作时间计划属性
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 工时安排属性用于对工时间隔进行分类和定义操作人员必须考虑的设置。 该程序说明如何定义工时安排属性及相关属性值。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。
 

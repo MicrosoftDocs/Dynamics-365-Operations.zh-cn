@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 227a6865df826caf8ce154f9c44ebe082acd76a5
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 473bb133159bb6cdcbbd30ab2c8452eb69f8cfaf
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916729"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148185"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>设置采购订单的工作模板
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题介绍如何设置物料入库时使用的简单工作模板。 工作模板确定了在从接受区转移物料时，向仓管人员移动设备显示的指令集。 您可以使用演示数据公司 USMF 中提及的数据运行该过程。 在您开始本指南之前，请创建工作池 ID。 在此示例中，将使用称为“进货”的工作池 ID。 该过程专门面向仓库经理。
 

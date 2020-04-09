@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8b100d5da6ec26dc386c0c6cb0793245531eb0d8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b75ee76a1fb874652415a2174441f629955d763a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186248"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145141"
 ---
 # <a name="create-account-structures"></a>创建科目结构
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此任务指南介绍创建科目结构的步骤。 步骤使用演示数据公司 USMF。
 

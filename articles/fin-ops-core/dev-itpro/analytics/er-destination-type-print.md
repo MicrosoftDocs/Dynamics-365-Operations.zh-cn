@@ -3,7 +3,7 @@ title: 打印机 ER 目标类型
 description: 本主题说明如何为配置为以 PDF 或 Microsoft Office 格式 (Excel\Word) 生成出站文档的电子报告 (ER) 格式的每个文件夹或文件组件配置打印机目标。
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58e067baa130458e3a8e788d978604f208140a03
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 148da191ce4ea99c237895c40ec007a1aa0cd537
+ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019647"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150784"
 ---
-# <a name="PrinterDestinationType"></a> 打印机目标
+# <a name="printer-destination"></a><a name="PrinterDestinationType"></a> 打印机目标
 
 [!include [banner](../includes/banner.md)]
 
@@ -64,6 +64,8 @@ ms.locfileid: "3019647"
 
 > [!NOTE]
 > 如果配置**打印机**目标，则不必打开**转换成 PDF** 选项。 即使关闭该选项，也会进行用于打印用途的 PDF 转换。
+
+要在以 Excel 格式打印传出文档时使用特定的[页面方向](electronic-reporting-destinations.md#SelectPdfPageOrientation)，必须打开**转换为 PDF** 选项。 当您将**转换为 PDF** 选项设置为**是**时，**页面方向**字段将可用。 在**页面方向**字段中，您可以选择页面方向。
 
 ## <a name="additional-resources"></a>其他资源
 

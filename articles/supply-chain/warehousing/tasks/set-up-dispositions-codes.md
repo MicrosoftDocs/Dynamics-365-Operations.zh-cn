@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85402e05d55367da5fe89b242ad8eafc727b441e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec353ecffdc457e1502cfad24e7a50ae31048647
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557999"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146046"
 ---
 # <a name="set-up-dispositions-codes"></a>设置处置代码
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程在针对可以在移动设备上用于退货单接收流程的处置代码的设置。 部署代码是收到物料时可以使用的规则集合。 例如，在工作用户使用设备接收损坏的物料时，用户必须扫描损坏物料的处置代码。 接收的货物的库存状态、工作模板和位置指令可以通过扫描的处置代码确定。 对于采购订单接收流程和生产订单完工入库流程，使用处置代码是可选的。 对于销售订单退货接收流程，如果使用移动设备登记物料，使用处置代码是强制的。  本指南使用演示数据公司 USMF 创建。 该过程专门面向仓库经理。 
 

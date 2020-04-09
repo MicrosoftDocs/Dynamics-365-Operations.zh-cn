@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c54f7a9800bb0fcfb23f0c6c4d16f48bee8c28d
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: c391a29e72b004cf4f7f998de5a74cf5ec1ac520
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867117"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149726"
 ---
 # <a name="create-a-purchase-order"></a>创建采购订单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题说明如何手动创建采购订单。 作为主计划、直接交运和其他流程的结果自动创建对于采购订单更为典型。 采购订单通常由采购代理创建。 此处显示的示例可以在使用各步骤的注释建议的值的 USMF 演示数据公司使用。
 

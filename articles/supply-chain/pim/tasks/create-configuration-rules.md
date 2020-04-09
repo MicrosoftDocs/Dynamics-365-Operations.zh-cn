@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f15c0328e391d81c4c977f974553ae9135b207c
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6d5758b2903cd0a269f3e03e44b618c26e8b2310
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844889"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147863"
 ---
 # <a name="create-configuration-rules"></a>创建配置规则
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程创建配置规则，以用于基于维度的配置，从而执行或防止物料清单行的某些组合。 创建此程序的演示数据公司是 USMF。 这是八个过程中第七个说明如何构建基于维度的配置组合的过程。
 

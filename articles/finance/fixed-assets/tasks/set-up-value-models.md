@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a528bd12552d5ce100027c9a789f6e1bdc597b66
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a59bafe3099b50d34bdd9e125cfb7f43d219dcc6
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186846"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138130"
 ---
 # <a name="set-up-value-models"></a>设置价值模型
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程显示如何创建新固定资产帐簿并将其与固定资产组关联。 它为 USMF 法人实体使用会计角色和演示数据。
 

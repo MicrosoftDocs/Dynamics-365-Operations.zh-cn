@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 548f16034ebdf7e0f29e8e89d85aac880f6323a1
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: e77de79113e3f44da1d7f92f17a446df86f6852e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026232"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143022"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER 将创建的格式的组件映射到数据模型元素（2016 年 11 月）
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 以下过程显示属于系统管理员或电子报表开发人员的用户如何将数据模型元素映射到创建的电子申报 (ER) 配置的组件，该配置用于定义付款业务域的电子单据格式。 后面将使用此格式生成用于处理付款的电子单据。 在此示例中，您将创建示例公司“Litware 公司”的格式配置。 这些步骤适用于所有公司，因为所有公司共享 ER 配置。 为了完成这些步骤，您首先必须完成任务指南“创建格式配置”中的步骤。
 

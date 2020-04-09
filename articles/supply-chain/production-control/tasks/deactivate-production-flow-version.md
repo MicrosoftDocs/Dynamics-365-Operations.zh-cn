@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c9646a01924255b8b1b40fc2a5684ba30967fe1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 860873a1fd61d52f642774e69d48c5ef6c7465a9
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843833"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146828"
 ---
 # <a name="deactivate-a-production-flow-version"></a>停用生产流版本
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 如果不再需要某个有效生产流版本，可将其停用。 仅当所有看板规则和活动已结束且将不再激活，才应使用此选项。 请注意，将使用当前日期和时间更新与此生产流版本有关的所有看板规则的到期日期。 
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 818e641d19444e94a287134b68b25d52a05021d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: db662eb407fbcf3587f3fcb03347a3f14e83b879
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189859"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140487"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>逐个设置编号规则
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 本主题介绍如何逐个设置编号规则。 “数序”被用于为需要它们的主数据记录和交易记录记录生成可读的唯一的标识符。 需要标识符的主数据或交易记录称为“参考”。 在您能为一个参考创建新记录之前，您必须设置编号规则并将其与参考相关联。 您可以通过使用**设置编号规则**向导同时设置所有需要的编号规则，或者您可以通过使用**编号规则**页面修改各个编号规则。
 

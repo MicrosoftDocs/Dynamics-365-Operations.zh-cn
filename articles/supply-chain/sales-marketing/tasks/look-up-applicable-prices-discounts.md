@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: debf66029d6efa42fe6d85eadb3866aadb312a97
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 1ded87dcd553c0aa9c19ca273460f9adf0a4b542
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025820"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148622"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>查找适用的价格和折扣
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程会显示如何查找当前对于特定客户有效的产品价格和折扣，无需创建销售订单。 该过程用一个具体示例进行示范，您需要遵循该示例，使用 USMF 演示公司，以选择所需的值。
 

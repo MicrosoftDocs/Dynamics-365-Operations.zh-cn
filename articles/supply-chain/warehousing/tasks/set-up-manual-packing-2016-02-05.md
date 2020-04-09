@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30bbb404e624c33e047c5505c5b21565ed8cce10
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec4d86673555f594bb2f81010235fd7eb6e83f27
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847175"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148277"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>设置手动包装（2016 年 2 月和 2016 年 5 月）
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 包装流程允许您验证并将产品包装到集装箱中。 在此流程中，仓库工作人员从存储位置的拣选产品并将它们移到包装站，他们在包装站检查物料数量和类型，并将其分配到相应的集装箱。 在完全包装容器时，可以封闭它并将其移至出货台，然后产品可进行装运。 该程序适用于 USMF 演示公司。 此过程仅适用于 Dynamics 365 for Operations 的 2016 年 2 月和 2016 年 5 月的版本。
 

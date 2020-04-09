@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8274e390a177f51649f5cad70ef7ad5bd50a8830
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f1e99d7c84171e4affe59fb896a7e93c2a328740
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558458"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146759"
 ---
 # <a name="estimate-a-production-order"></a>估计生产订单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 您可以使用演示数据公司 USMF 或使用您自己的数据运行该过程。 在这两种情况下，您需要有一个状态为“已创建”的未结生产订单。 这是解释生产订单周期的七个步骤中的第二步。
 

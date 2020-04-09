@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8e7cf6adc5c72494d6a9a72765a3d165424c72b2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 872b9733e18945ca2ff047820afd122025575601
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835811"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148779"
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>对流程制造的生产作业排序
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程使用油漆产品作为示例显示如何根据颜色和包装大小的优先级排序计划订单。 创建此程序的演示数据公司是 USPI。 此程序是专为生产规划员设计的。
 

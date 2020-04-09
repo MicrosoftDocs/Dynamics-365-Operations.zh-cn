@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b346731ec80d08afabe648e1b47b30b53b29e744
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: 30ffb34e2aee984d29bedb47d6bfc9cb6173470a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924393"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148668"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>基于销售订单创建采购订单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程向您显示如何创建基于销售订单的采购订单。 采购订单上的产品数量将指定以履行源销售订单的需求。 这一履行销售需求的方法是更全面、优化的方法“分配需求计划”的替代方法。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。
 

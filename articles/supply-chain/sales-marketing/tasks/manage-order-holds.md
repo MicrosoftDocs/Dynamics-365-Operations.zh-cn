@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7168d13ef0b24d06aa28fbbc22bbb4e6093df24
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: 16e11be633cdffbc8ee3e206eb42e7e1a2f72b9c
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1994902"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146437"
 ---
 # <a name="manage-order-holds"></a>管理订单保留
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程演示如何将销售订单置于暂停状态、如何使用订单保留签出，以及如何删除订单保留。 订单可能出于多种原因被置于暂停状态。 例如，在验证客户地址或付款方式之前，或在经理可以查看客户的信用额度之前，您可以保留订单。 订单出于保留状态时，仓库不能为装运处理该订单。 
 

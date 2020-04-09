@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5df6128228b9ff620c606c550c5eb7a6039b915
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a4546de2c5c1773aadce0ec084ee7058ff2ae153
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182293"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141871"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>修改模型和映射以生成包含应用程序数据的单据
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 若要完成此过程中的步骤，首先必须完成“ER 使用应用程序数据更新生成单据（第 2 部分：生成单据）”这一过程。 
 
@@ -104,7 +104,7 @@ ms.locfileid: "2182293"
 12. 在“定义”字段中，输入或选择值“用于应用程序数据更新”。
     * 对于应用程序数据更新  
 13. 单击“确定”。
-14. 在树结构中，展开“模型”。
+14. 在树中，展开“模型”。
 15. 在树结构中，选择“功能\计算字段”。
 16. 在树中，选择“模型\存档标题”。
 17. 单击“添加”。

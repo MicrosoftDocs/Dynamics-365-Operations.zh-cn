@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e2fa54ff598bb6a09bbcc483995a6e1a3f4286b3
-ms.sourcegitcommit: 16612a632aad9d390f8d80d3fc1f766585b2911e
+ms.openlocfilehash: a55cd8f21b99589a44f7509123d3417fd9dc07f6
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3098068"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147426"
 ---
 # <a name="create-a-purchase-order-for-a-one-time-supplier"></a>创建零星供应商的采购订单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程演示如何为零星供应商创建采购订单。 供应商随采购订单自动创建，而不必手动创建供应商帐户。 采购订单通常由采购代理创建。 可以在 USMF 演示数据公司中使用本指南中的示例。 前提是已在“应付账款参数”页中设置了零星供应商帐户。
 

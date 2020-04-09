@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 57526fccd1e997acde570e712d64caf4df728318
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 9bf9f4725120a7b893bf113a50d208ae27755d56
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844217"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149841"
 ---
 # <a name="release-a-dimension-based-product-master"></a>发布基于维度的基础产品
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程会显示如何发布基础物料（将被用于基于维度的配置）。 创建此程序的演示数据公司是 USMF。 先决条件是您已使用基于维度的配置技术创建了某一基础物料。 这是八个过程中第二个说明如何构建基于维度的配置组合的过程。
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8dd3664d86ffdb8bf731a6ff1e0ed60b50eed61
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: be06343aba974ff23a7f328d2175f00768a76465
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916821"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149565"
 ---
 # <a name="create-a-vendor-bank-account"></a>创建供应商银行帐户
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程演示如何为供应商创建银行帐户。 您可以在演示数据公司 USMF 中使用此过程。
 

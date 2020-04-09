@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cbef5410d0e6f15fbb5025f3831486d55cd06216
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e0fabf5c9475b5acd7cbd77a51c2912c96681894
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185052"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142631"
 ---
 # <a name="er-configure-destinations"></a>ER 配置目标
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程演示如何设置和使用不同的电子申报 (ER) 输出组件的目标，例如文件夹或文件。 用于创建此过程的演示数据公司是 DEMF。 德国为法人主要地址的国家\地区，但您可以为此过程使用任何法人。 
 

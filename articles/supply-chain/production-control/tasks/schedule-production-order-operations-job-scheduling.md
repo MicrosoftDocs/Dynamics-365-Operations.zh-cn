@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3023d6a6fe09c84b47839a2c4b78c37907754ded
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 2181a84aea08aac0ddb202f7211dbda6330a3d49
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914876"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148829"
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>使用工序级和作业级计划来计划生产订单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题的重点是使用工序级排产和作业级排产计划生产订单。 不使用工序级排产创建作业，而使用作业级排产创建。 创建此任务的演示数据公司是 USMF。 此过程适用于在离散制造环境中工作的生产经理、生产规划员或车间主管。
 

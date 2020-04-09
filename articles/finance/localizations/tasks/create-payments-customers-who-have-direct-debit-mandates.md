@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 129c5291a29994f91ef325aa9b9a3b54a0e958d6
-ms.sourcegitcommit: 807dec193cd163c9f5d949e744cfde40f2eb24b4
+ms.openlocfilehash: 9a4714f1f1b24554684219fc1d766b4b87cff7bb
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2468947"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141595"
 ---
 # <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a>为有直接借记授权单的客户创建付款
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程显示如何为有直接借记配置和有要付款发票的客户生成 ISO20022 直接借记付款文件。 创建和过帐发票是可选操作。 可以在生成付款文件之前在日记帐中选择授权单，而不是创建要付款的发票，为客户预付款方案提供支持。
 

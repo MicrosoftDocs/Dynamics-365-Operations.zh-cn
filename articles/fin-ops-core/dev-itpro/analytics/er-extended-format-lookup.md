@@ -3,7 +3,7 @@ title: 电子报告 (ER) 扩展格式查找
 description: 本主题描述了将所需格式存储在全局存储库中时如何在 ER 格式查询中设置 ER 格式参考。
 author: NickSelin
 manager: AnnBe
-ms.date: 01/24/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: c72335d7d83934146f827ef0bb568b79a585a7a5
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 28bdd02c25db27536a489f9e8ab2a91a5ca0f09c
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015126"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138852"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>允许用户设置 ER 格式参考，以从全局存储库中查询格式
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 您可以使用[电子报告](general-electronic-reporting.md) (ER) 框架，以根据各个国家/地区的法律要求为出站文档配置[格式](general-electronic-reporting.md#FormatComponentOutbound)。 您还可以使用 ER 框架配置用于解析入站文档的[格式](general-electronic-reporting.md#FormatComponentInbound)，并使用这些文档中的信息附加或更新应用程序数据。 其中每种格式都可以在 Dynamics 365 Finance 实例中用于在特定业务流程中处理入站或出站业务文档。 
 

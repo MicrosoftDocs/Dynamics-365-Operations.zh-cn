@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd606461b9d7198bda12e297598fae0cbf8b39a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9b5cc07c5dfb2444ff086c8b1f3bcc7634d8644d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188709"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143330"
 ---
 # <a name="review-collections-information"></a>审核收款信息
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 本主题介绍如何审核收款信息以及如何设置各种选项和收款交易记录。 该程序适用于 USMF 演示公司。
 
@@ -107,8 +107,8 @@ ms.locfileid: "2188709"
 - 使用当前日期更新客户帐龄快照，因为帐龄日期是与交易日期相比较而言的。 如果该帐龄快照包含多个法人的信息，则更新的帐龄快照也同样包含这些法人的信息。 当更新该帐龄快照时，您所登录的法人记帐货币金额已储存。  
 - 选择帐龄期间定义。 默认情况下，显示的是该客户帐龄快照相关的帐龄期间定义。 帐龄期间定义决定帐龄期间以及在**帐龄余额**和**信用信息**速见表中显示的金额。  
 - 打开包含以下项的菜单：    
-  - 公司 - 在“帐龄余额”和“信用信息”速见表中以法人的记帐币种显示金额。  
-  - 客户名称-逾期应付款额及信用信息框（以该该客户会计货币计算）。  
+  - 公司 – 在“帐龄余额”和“信用信息”速见表中以法人的记帐币种显示金额。  
+  - 客户 – 在“帐龄余额”和“信用信息”速见表中以客户货币显示金额。  
 - 选择一个或多个法人的客户帐龄快照用于查看信息。 创建帐龄快照时已选择在列表中显示的法人。  
 - 用 Microsoft Excel 格式查看客户的报表。 为包含在此报表中的交易记录的范围选择一个开始日期，并确定是否仅包含打开交易记录，或包含打开和已结交易记录两种。 如果该帐龄快照包含多个法人，则包含所有这些法人的交易记录。  
 - 打开**单据**窗体，可在其中创建或编辑单据或注解。  

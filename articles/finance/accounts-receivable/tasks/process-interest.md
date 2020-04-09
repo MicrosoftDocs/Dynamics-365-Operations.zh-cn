@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7170a7a14237058064ed3091e9437cae312e6bd5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 093fbd23f9fcaf62db9988a98a94b8cebf582768
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188755"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140137"
 ---
 # <a name="process-interest"></a>处理利息
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程将向您展示如何创建、打印和过帐利息单。 此任务使用 USMF 公司演示。
 
