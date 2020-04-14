@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 800b7009f023bd2a0d8437b81d82c0e9de770841
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 05e8059f44000fd305ed2c2555511da29b130af9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174366"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144537"
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>为公共部门生成基本预算
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 您可以为特定的预算模型和维度值创建初步预算登记条目。 在实际预算经过审核后，您可以创建原始预算登记簿条目。 通过使用 PSUS 演示公司数据的公共扇区分区创建该过程。
 

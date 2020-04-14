@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 278cfe89181efbbb934e108708db8fc29c25ab62
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124397"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154172"
 ---
 # <a name="peripherals"></a>外围设备
 
@@ -158,7 +158,7 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 
 ### <a name="dedicated"></a>专门
 
-适用于 Windows 和 Android 的现代 POS 客户端包括**专用**或内置硬件工作站。 这些客户端可以使用应用程序内置的业务逻辑直接与外围设备通信。 Android 应用程序仅支持网络设备。 有关 Android 外设支持的更多信息，请访问[在 Android 和 iOS 上安装 POS Hybrid 应用](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp)文章。
+适用于 Windows 和 Android 的现代 POS 客户端包括**专用**或内置硬件工作站。 这些客户端可以使用应用程序内置的业务逻辑直接与外围设备通信。 Android 应用程序仅支持网络设备。 有关 Android 外设支持的更多信息，请访问[在 Android 和 iOS 上安装 POS Hybrid 应用](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)文章。
 
 若要使用专用硬件工作站，请为将使用 Modern POS for Windows 或 Android 应用程序的收银机分配硬件配置文件。 然后为将使用该收银机的商店创建一个类型为**专用**的硬件工作站。 在非银箱模式下启动 Modern POS 并使用**管理硬件工作站**操作打开硬件工作站功能，默认情况下专用硬件工作站将处于活动状态。 接下来，注销 Modern POS，然后重新登录并打开一个班次，即可使用硬件配置文件中配置的外围设备。 
 
@@ -199,7 +199,7 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Modern POS for Android 和 iOS 设置和配置
 
-有关信息，请参阅[在 Android 和 iOS 中安装 POS Hybrid 应用](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp)。
+有关信息，请参阅[在 Android 和 iOS 中安装 POS Hybrid 应用](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)。
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS 设备设置和配置
 
@@ -494,7 +494,7 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>带 IPC（内置）硬件工作站的 Modern POS for Android
 
-**10.0.8 的新功能** - Modern POS for Android 应用现在支持通过 DK 端口连接到这些打印机的 Epson 网络打印机和银箱。 有关详细信息，请访问[在 Android 和 iOS 上安装 POS hybrid 应用](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp)文章。
+**10.0.8 的新功能** - Modern POS for Android 应用现在支持通过 DK 端口连接到这些打印机的 Epson 网络打印机和银箱。 有关详细信息，请访问[在 Android 和 iOS 上安装 POS hybrid 应用](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)文章。
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>有调配的“共享”IIS 硬件工作站的所有 Modern POS 客户端
 

@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 75765c0cc03c64030fac6bc656f57a143828b85b
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: c78752aa1544b12f61071fa06617af4ac2809233
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112396"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172984"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>从 Lifecycle Services 设置双写入
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+[!include [preview-banner](../../includes/preview-banner.md)]
 
 此主题介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 设置新 Finance and Operations 环境与新 Common Data Service 环境之间的双写入连接。
 

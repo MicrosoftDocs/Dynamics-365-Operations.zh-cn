@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed4fa28039c9320998f6524c9c9edb0a0301b7b0
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 545f1c15888bcd0b46e1028f58cbe3a274846c92
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1866818"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146019"
 ---
 # <a name="enable-license-plate-label-printing"></a>启用牌照标签打印
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题显示如何在销售领料工作流程中从库存对最后一个物料拣货之后，对串行装运集装箱码 (SSCC) 标签启用自动打印。 您可以使用演示数据公司 USMF 运行此程序。 如果您使用自己的数据运行，则须为牌照设置一个数序。 在您开始此任务前，需要装配一台标签打印机。 转到“组织管理”>“设置”>“网络打印机”。 在“操作窗格”中，单击“选项”，然后单击“下载文档路由代理安装程序”按钮。 运行此安装程序并确认工作网络打印机设置为“主动”，方可继续该程序。
 

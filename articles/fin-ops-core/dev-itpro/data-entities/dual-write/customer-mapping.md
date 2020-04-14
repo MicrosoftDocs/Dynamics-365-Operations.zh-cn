@@ -19,20 +19,19 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 269346d38eeb3812c352d16f9d50fbcd09307c12
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 977b74b10b4549d09a8816264f9ff603fa86e91c
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124581"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172823"
 ---
-# <a name="integrated-customer-master"></a>集成的客户主数据
+# <a name="integrated-customer-master"></a>集成客户主数据
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-客户记录通常主控在多个应用程序中。 例如，销售活动可通过 Sales 应用程序获取商业客户记录，而电子商务和零售则可通过 Finance and Operations 应用程序获取客户记录。 无论客户记录源自何处，都跨越应用程序边界和基础结构差异在后台集成。 集成客户主控可以帮助处理多主控场景，并提供客户对 Dynamics 365 应用程序套件丰富的见解。
+可以在多个 Dynamics 365 应用程序中掌管客户数据。 例如，客户记录可以源自 Dynamics 365 Sales（Dynamics 365 中的模型驱动应用）中的销售活动，或者记录可以源自 Dynamics 365 Commerce（一个 Finance and Operations 应用）中的零售活动。 无论客户数据源自何处，它都在后台集成。 集成的客户主数据使您可以灵活地在任何 Dynamics 365 应用程序中掌管客户数据，并在整个 Dynamics 365 应用程序套件中提供客户的全面概览。
 
 ## <a name="customer-data-flow"></a>客户数据流
 
@@ -59,7 +58,6 @@ CDS 联系人 V2             | 联系人                        | 此模板同�
 客户付款方式     | msdyn_customerpaymentmethods    | 此模板同步客户付款方式信息。
 客户 V3                | 帐户                        | 此模板同步商业客户和组织客户的客户主信息。
 客户 V3                | 联系人                        | 此模板同步消费者和最终用户的客户主数据。
-会员卡                | msdyn_loyaltycards              | 此模板同步客户会员卡信息。
 名称词缀                | msdyn_nameaffixes               | 此模板同步客户和供应商的名称词缀引用数据。
 付款日行 CDS V2    | msdyn_paymentdaylines           | 此模板同步客户和供应商的付款日行引用数据。
 付款日 CDS            | msdyn_paymentdays               | 此模板同步客户和供应商的付款日引用数据。
@@ -78,8 +76,6 @@ CDS 联系人 V2             | 联系人                        | 此模板同�
 [!include [mapping customer accounts](includes/CustomersV3-accounts.md)]
 
 [!include [mapping customer contacts](includes/CustomersV3-contacts.md)]
-
-[!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
 
 [!include [mapping name affixes](includes/NameAffixes-msdyn-nameaffixes.md)]
 

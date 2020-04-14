@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48c8564694b22a5110341d853a79096fbe805c91
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dde06f758be57fb646696c861218565476abcadc
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176685"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140551"
 ---
 # <a name="create-an-organization-hierarchy"></a>创建组织层次结构。
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 使用以下过程创建组织层次结构。 可以使用组织层次结构查看和申报来自各种视角的业务。 例如，您可以针对纳税、法律或法定申报设置一种层次结构。 然后，您可以设置另一层次结构，以报告不是法律要求但用于内部报表的财务信息。 
 

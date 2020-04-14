@@ -162,38 +162,62 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Lifecycle Services 的双写入设置
                               href: data-entities/dual-write/lcs-setup.md
-                        - name: 应用之间的映射概念
+                            - name: 初始同步
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: 为现有 Finance and Operations 应用启用双写入
+                              items:
+                                - name: 为现有 Finance and Operations 应用启用双写入
+                                  href: data-entities/dual-write/enable-dual-write.md
+                                - name: 系统要求和先决条件
+                                  href: data-entities/dual-write/requirements-and-prerequisites.md
+                                - name: 如何使用双写入向导链接你的环境
+                                  href: data-entities/dual-write/link-your-environment.md
+                                - name: 启用双写入实体映射
+                                  href: data-entities/dual-write/enable-entity-map.md
+                        - name: 管理双写入
                           items:
-                            - name: Common Data Service 的组织层次结构
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: 公司集成
-                              items:
-                                - name: Common Data Services 中的公司概念
-                                  href: data-entities/dual-write/company-data.md
-                                - name: 使用公司数据引导
-                                  href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: 集成客户主数据
+                            - name: 自定义实体和字段映射
+                              href: data-entities/dual-write/customizing-mappings.md
+                            - name: 错误管理和预警通知
+                              href: data-entities/dual-write/errors-and-alerts.md
+                            - name: 应用程序生命周期管理
+                              href: data-entities/dual-write/app-lifecycle-management.md
+                        - name: 应用之间的概念映射
+                          items:
+                            - name: 集成的客户主数据
                               href: data-entities/dual-write/customer-mapping.md
-                            - name: 产品集成
-                              items:
-                                - name: 统一的产品体验
-                                  href: data-entities/dual-write/product-mapping.md
-                                - name: 集成的站点和仓库
-                                  href: data-entities/dual-write/sites-warehouses-mapping.md
-                            - name: 财税数据
-                              items:
-                                - name: 访问财税引用数据
-                                  href: data-entities/dual-write/finance-tax-reference.md
-                                - name: 集成的分类账
-                                  href: data-entities/dual-write/ledger-mapping.md
-                                - name: 集成的税收主数据
-                                  href: data-entities/dual-write/tax-mapping.md
                             - name: 供应商集成
                               items:
                                 - name: 集成的供应商主数据
                                   href: data-entities/dual-write/vendor-mapping.md
                                 - name: 在供应商设计之间切换
                                   href: data-entities/dual-write/vendor-switch.md
+                            - name: 客户会员卡和奖励积分
+                              href: data-entities/dual-write/loyalty-mapping.md
+                            - name: 产品集成
+                              items:
+                                - name: 统一的产品体验
+                                  href: data-entities/dual-write/product-mapping.md
+                                - name: 集成的站点和仓库
+                                  href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: 公司集成
+                              items:
+                                - name: Common Data Services 中的公司概念
+                                  href: data-entities/dual-write/company-data.md
+                                - name: 使用公司数据启动
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Common Data Service 中的组织层次结构
+                              href: data-entities/dual-write/organization-mapping.md
+                            - name: 财税数据
+                              items:
+                                - name: 访问财税引用数据
+                                  href: data-entities/dual-write/finance-tax-reference.md
+                                - name: 集成的分类帐
+                                  href: data-entities/dual-write/ledger-mapping.md
+                                - name: 集成的税收主数据
+                                  href: data-entities/dual-write/tax-mapping.md
+                            - name: 按需与 Dynamics 365 Supply Chain Management 定价引擎同步
+                              href: data-entities/dual-write/pricing-engine.md
                             - name: 现金的目标客户（采用双写入）
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
                             - name: 用于服务的内部资产
@@ -204,17 +228,31 @@
                           items:
                             - name: 支持 Field Service 解决方案和 Project Service Automation 解决方案
                               href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: 初始同步
-                              href: data-entities/dual-write/initial-sync.md
-                            - name: 数据集成疑难解答
-                              href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: 与 Power Platform 数据集成器集成
+                            - name: 故障排除
+                              items:
+                                - name: 验证 Finance and Operations 应用和 Common Data Service 中是否配置了双写入
+                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                                - name: 解决初始设置过程中的问题
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                                - name: 解决初始同步过程中的问题
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                                - name: 解决 Finance and Operations 应用有关双写入模块的问题
+                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                                - name: 解决实时同步问题
+                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                                - name: 解决与解决方案意识相关的问题
+                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                                - name: 解决与 Finance and Operations 应用升级相关的问题
+                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                                - name: 常规故障排除
+                                  href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: 与 Power Platform 集成
                       items:
-                        - name: 配置现金方案的目标客户
+                        - name: 配置“目标客户到现金”场景
                           items:
-                            - name: 现金的目标客户
+                            - name: 目标客户到现金
                               href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: 将 Sales 的客户直接同步到 Finance and Operations
+                            - name: 将客户从 Sales 直接同步到 Finance and Operations
                               href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
                             - name: 将产品从 Finance and Operations 直接同步到 Sales 的产品
                               href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
@@ -392,6 +430,8 @@
                       href: database/api/v1/reference-list-backups.md
                     - name: 创建数据库刷新
                       href: database/api/v1/reference-create-refresh.md
+                    - name: 创建数据库导出
+                      href: database/api/v1/reference-create-export.md
                     - name: 获取操作活动状态
                       href: database/api/v1/reference-get-status.md
         - name: 演示数据
@@ -1032,6 +1072,8 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: 监控和诊断
               href: lifecycle-services/monitoring-diagnostics.md
+            - name: 影响分析报表
+              href: lifecycle-services/impact-analysis-report.md
             - name: 重新启动服务环境
               href: lifecycle-services/restart-environment-services.md
             - name: 报告生产中断
@@ -1040,7 +1082,7 @@
               href: lifecycle-services/user-logins.md
             - name: 资产库
               href: lifecycle-services/asset-library.md
-            - name: 使用 LCS 中的工具进行性能疑难解答
+            - name: 使用 LCS 中的工具进行性能故障排除
               href: lifecycle-services/performancetroubleshooting.md
             - name: 查询指南
               href: lifecycle-services/querycookbook.md
@@ -1280,7 +1322,7 @@
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: 最佳实践
               href: perf-test/rsat/rsat-best-practices.md
-            - name: 疑难解答
+            - name: 故障排除
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: 使用 Lifecycle Services 发布解决方案
           items:
@@ -1396,6 +1438,10 @@
                   href: sysadmin/create-rules-optimization-advisor.md
             - name: 报告生产中断
               href: lifecycle-services/report-production-outage.md
+            - name: 配置和管理数据库日志记录
+              href: sysadmin/configure-manage-database-log.md
+            - name: AOS 启动时建立 OData 元数据缓存
+              href: sysadmin/odata-warmup.md
         - name: 升级、更新和修补程序
           items:
             - name: 升级、更新和修补程序资源

@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd87ded3bcc20b94fae723424d9cc6b94049a1a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9c5d8dbc5204464b2265029b6a11fcac7b79b464
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558753"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147150"
 ---
 # <a name="copy-a-formula"></a>复制配方
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程重点是创建包括相同的成分作为现有配方的配方，不过差异很小。 若要创建配方行，您可以使用“复制”功能复制具有大多数所需成分的现有配方。 然后可以对新版本中各行进行必要的更改。 通过使用“复制”功能，您不必创建几乎完全相同的多个配方。 使用 USP2 公司演示数据创建此任务。
 

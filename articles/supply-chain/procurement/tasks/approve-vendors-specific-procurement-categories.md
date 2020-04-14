@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e47124e22dd6c0e756bf42429327254f966b48a2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 135b3a6bea2c0a8940550299504139551c9c3559
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018081"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147495"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>审核特定采购类别的供应商
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 本主题说明如何在 Dynamics 365 Supply Chain Management 中审核特定采购类别的供应商。 创建采购申请时，可能需要选择核准供应商或首选供应商，具体取决于制订的采购政策。 此过程演示如何指定供应商是特定采购类别的核准供应商或首选供应商。 此任务通常由采购专业人员完成。 您可以在演示数据公司 USMF 中使用此过程。
 

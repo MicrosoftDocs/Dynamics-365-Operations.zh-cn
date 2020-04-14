@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec51c1a500b5c9ff2c363cfb69cc1d404e939df9
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 58846f896d60610d0e90f8d04fda3101def53511
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250637"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148093"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>手动修改需求预测
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程显示如何修改物料预测。 创建此程序的演示数据公司是 USMF。 此记录专供生产规划员使用。 
 

@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e9cf42f80ef7a4c9c5f68a308386db5835c8f2e
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 1d012af1924e9eedee41f46de6c253d009cb52d2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916637"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145701"
 ---
 # <a name="create-and-process-a-conformance"></a>创建和处理符合项
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题介绍如何执行不符合项管理，基于现有的质检订单。 您可以在 USMF 演示公司运行此录制并可以使用建议的值。 此过程通常由质检员执行。  作为先决条件，按照[检查货物质量](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md)中的说明完成操作。 若要处理不符合项的审核，运行任务录制的用户必须有在用户页分配的“名称”值。 若要使用文档注释，用户还必须具有在用户选项内启用的“文档处理”。
 

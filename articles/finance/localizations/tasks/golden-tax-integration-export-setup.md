@@ -16,16 +16,16 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f338d63c2caebe33c93cca856bb454f9fe0cbfa5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5cc9eaf70f86cdd3db24696c462681a867e6cb60
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183961"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138991"
 ---
 # <a name="golden-tax-integration-export-setup"></a>金税集成导出设置
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程显示如何配置金税集成的导出格式。 应该已经完成了金税集成的设置，才能完成此过程。
 完成此过程之后，接下来应该更新“税集成配置文件”页面中的“格式映射”字段。 

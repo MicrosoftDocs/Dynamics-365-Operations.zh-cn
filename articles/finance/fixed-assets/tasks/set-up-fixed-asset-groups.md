@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 246502f66c0cfcd4b4ed3c4b9f2ae616e71a1c50
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9bcb78158afbf7bb0e9b83b35e37b1532a7c6283
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186869"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138176"
 ---
 # <a name="set-up-fixed-asset-groups"></a>设置固定资产组
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题介绍如何创建新的固定资产组。 它为 USMF 法人实体使用会计角色和演示数据。
 

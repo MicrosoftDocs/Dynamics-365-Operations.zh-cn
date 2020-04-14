@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e20229ca910aa0d7d820434c22edf5a27030bba5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f50ee568df492bcd811d2fefb1784bb55b50384b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175313"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145044"
 ---
 # <a name="journalize-posted-journal-entries"></a>将过帐日记帐条目记入日记帐
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程显示如何将过帐的日记帐条目记入日记帐。 此过程使用演示数据公司 USMF。
 

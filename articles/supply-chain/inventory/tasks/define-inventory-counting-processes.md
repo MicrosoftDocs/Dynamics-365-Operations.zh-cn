@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 016447bca53bbc7b2eb3d7ea0790837fa8035dc6
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: b4f83ae0e33520f1777cea31e2f986af1691bfa1
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867189"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145540"
 ---
 # <a name="define-inventory-counting-processes"></a>定义库存盘点流程
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题介绍如何通过创建一个盘点组和盘点日记帐来配置基本存货盘点过程。 它也将向您展示如何在仓库和物料级别启用盘点策略。 这些任务通常由仓库主管执行。 它是某些现有发布产品和仓库的先决条件。 如果您使用演示数据公司，您可以在 USMF 公司中对任何库存物料执行此过程。
 

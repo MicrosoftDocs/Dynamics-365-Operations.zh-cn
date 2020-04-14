@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e767ca571255bcf583b83c6e300292552a96a38
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: bdbd9fa60fe4d000359e4695a9fb034fae3ca1b0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021722"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140713"
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a>处理会员奖励分调整
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 该过程说明了如何查看积分卡信息，以及如何调整奖励积分点数。 创建此任务的演示数据公司是 USRT。 此任务是为“商业业务经理”角色或“客服服务经理”角色而设计的。
 

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26a3dee8b73ae710def7e526ceefa7194171d716
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a261acee47c6d52e3a1390d0e55cb3f9d197efec
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182661"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142223"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>设计 ER 配置以分析传入单据
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程显示如何设计电子报告 (ER) 配置以分析传入电子单据。 在此过程中，将导入已为示例公司 Litware 公司创建的所需 ER 配置，并用于分析传入的电子单据。 为了完成此过程中的步骤，您必须首先完成“ER 创建配置提供商并标记为有效”这一过程。
 
@@ -80,12 +80,12 @@ ms.locfileid: "2182661"
 
 ## <a name="run-model-mapping-of-er-format-configured-for-parsing-incoming-files"></a>运行为分析传入文件配置的 ER 格式的模型映射
 您将为测试运行创建的模型映射，以了解配置的 ER 格式如何分析传入的服务响应。 此步骤使用不同的 XML 文件来模拟不同的 Web 服务响应类型。   
-1. 在 xml 阅读器（如 web 浏览器）中打开 Response1.xml 文件。 请注意，此文件包含有关已完成交易的确认详细信息（‘TraC’ 是根元素）。   
+1. 在 xml 阅读器（如 web 浏览器）中打开 Response1.xml 文件。 请注意，此文件包含有关已完成交易的确认详细信息（“TraC”是根元素）。   
 2. 单击“运行”。
     * 单击“浏览”并选择 Response1.xml 文件。  
 3. 单击“确定”。
     * 检查生成的输出。 请注意，响应类型已正确识别和分析（ERModelEnumDataSourceHandler#EFSTA model#enumType#C 意味着交易完成案例）。   
-    * 在 XML 阅读器中打开 Response2.xml 文件。 请注意，此文件包含有关上次提交的交易记录的信息（‘Tra’是根元素）。   
+    * 在 XML 阅读器中打开 Response2.xml 文件。 请注意，此文件包含有关上次提交的交易记录的信息（“Tra”是根元素）。   
 4. 单击“运行”。
     * 单击“浏览”并选择 Response2.xml 文件。  
 5. 单击“确定”。

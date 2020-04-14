@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: baf39040bef2ccd0c643ce0d034348807ecdc50c
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: fe8ad0540febcc703554e2451f7f644338e4d57b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914773"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149450"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>代表他人设置产品订购权限
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题介绍如何为工作人员授予代表其他工作人员起草采购申请的权限。 换句话说，采购申请“准备人”可以为其他“申请人”创建申请。 此过程还演示如何为工作人员授予在不同法人或营运单位中订购物料和服务的权限。 这些任务通常由采购经理执行。 您可以在此过程中使用 USMF 演示数据公司的数据，也可以使用您自己的数据。
 

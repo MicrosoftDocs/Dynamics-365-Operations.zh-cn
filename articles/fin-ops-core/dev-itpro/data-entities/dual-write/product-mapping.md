@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
-ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
+ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "3081143"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173192"
 ---
 # <a name="unified-product-experience"></a>统一的产品体验
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 当业务生态系统由 Dynamics 365 应用程序（例如 Finance、Supply Chain Management 和 Sales）组成时，企业往往会使用这些应用程序来获取产品数据。 这是因为这些应用提供了强大的产品基础架构，并辅以完善的定价概念和准确的现有库存数据。 使用外部产品生命周期管理 (PLM) 系统来获取产品数据的企业可以将产品从 Finance and Operations 应用导入其他 Dynamics 365 应用。 统一的产品体验将集成的产品数据模型引入 Common Data Service，以便包括 Power Platform 用户在内的所有应用程序用户都可以利用来自 Finance and Operations 应用的丰富产品数据。
 
@@ -52,7 +52,7 @@ ms.locfileid: "3081143"
 
 产品信息包含与产品及其定义有关的所有信息，例如产品维度或跟踪维度和存储维度。 如下表所示，将创建实体映射的集合以同步产品和相关信息。
 
-Finance and Operations | 其他 Dynamics 365 应用 | 说明
+Finance and Operations 应用 | 其他 Dynamics 365 应用 | 说明
 -----------------------|--------------------------------|---
 已发布产品 V2 | msdyn\_sharedproductdetails | **msdyn\_sharedproductdetails** 实体包含来自 Finance and Operations 应用的字段，这些字段定义产品，并包含产品的财务和管理信息。 
 Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定义产品的字段。 它包括单个产品（具有子类型产品的产品）和产品变型。 下表显示了映射。
@@ -75,8 +75,8 @@ Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定�
 单位换算 | msdyn_ unitofmeasureconversions
 产品特定度量单位转换 | msdyn_productspecificunitofmeasureconversion
 产品类别 | msdyn_productcategories | 每个产品类别以及有关其结构和特征的信息都包含在产品类别实体中。 
-产品类别层次结构 | msdyn_productcategoryhierarhies | 您可以使用产品层次结构对产品进行分类或分组。类别层次结构可在使用产品类别层次结构实体的 Common Data Service 中使用。 
-产品类别层次结构角色 | msdyn_productcategoryhierarchies | 产品层次结构可用于 D365 Finance and Operations 中的不同角色。 指定使用产品类别角色实体的每个角色中使用的类别。 
+产品类别层次结构 | msdyn_productcategoryhierarhies | 您可以使用产品层次结构来对产品进行分类或分组。 使用产品类别层次结构实体，类别层次结构在 Common Data Service 中可用。 
+产品类别层次结构角色 | msdyn_productcategoryhierarchies | 产品层次结构可用于 D365 Finance and Operations 中的不同角色。 它们指定使用产品类别角色实体的每个角色中使用的类别。 
 产品类别分配 | msdyn_productcategoryassignments | 要将产品分配给类别，可以使用产品类别分配实体。
 
 ## <a name="integration-of-products"></a>产品的集成
@@ -153,7 +153,7 @@ Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定�
 
 [!include [unit of measure conversions](includes/UnitOfMeasureConversionEntity-msdyn-unitofmeasureconversions.md)]
 
-[!include [product specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
+[!include [product-specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
 
 ## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-common-data-service"></a>Finance and Operations 与 Common Data Service 之间的单位数据匹配的初始同步
 
@@ -203,7 +203,7 @@ Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定�
 
 为了唯一标识 Dynamics 365 for Finance and Operations 和 Common Data Service 中的产品之间的产品，使用了集成密钥。 对于产品，**（产品编号）** 是在 Common Data Service 中标识产品的唯一密钥。 它由以下各项的串联组成：**（公司, msdyn_产品编号）**。 **公司**表示 Finance and Operations 中的法人，**msdyn_产品编号** 表示 Finance and Operations 中特定产品的产品编号。 
 
-对于其他 Dynamics 365 应用用户，产品在 UI 中标识为 **msdyn_productnumber**（请注意，字段的标签为**产品编号**）。 在产品表单中，同时显示公司和 msydn_产品编号。 但是，没有显示（产品编号）字段，即产品的唯一密钥。 
+对于其他 Dynamics 365 应用的用户，产品在 UI 中标识为 **msdyn_productnumber**（请注意，字段的标签为**产品编号**）。 在产品表单中，同时显示公司和 msydn_产品编号。 但是，没有显示（产品编号）字段，即产品的唯一密钥。 
 
 如果基于 Common Data Service 创建应用，则应将 **productnumber**（唯一产品 ID）用作集成密钥。 切勿使用 **msdyn_productnumber**，因为这不是唯一的。 
 

@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 466e3371f9e645d98072fa9d06740f5223ff62f5
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: cdca0b790131c6d30987ca9651b61ceef82d95ba
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021746"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141052"
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a>配置销售代表的功能模板
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此过程演示如何配置应用于销售代表的商店功能配置文件设置。 此过程使用 USRT 演示数据公司。
 

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 94ef09c8906c793b0187d82cef259122c91a8e01
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 31dabc8994ce9e49da744db5eff3d4f45c66ec4d
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567599"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147567"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product"></a>对已发布的产品分配产品生命周期状态
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程显示如何将产品生命周期状态分配给已发布的产品。 先决条件：您需要先播放任务指南“创建新的产品生命周期状态”以确保至少创建了一个产品生命周期状态，然后才可以播放此指南。
 

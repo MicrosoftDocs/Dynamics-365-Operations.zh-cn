@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 797e635beb0caa3228b667798405fd7be4158800
-ms.sourcegitcommit: 7a855deed9f95ca2589f38db214890464b2b9061
+ms.openlocfilehash: 587f1b28a2745bd7f1a63bcc7f24c9a3ad876db1
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2020
-ms.locfileid: "2951178"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143987"
 ---
 # <a name="configure-address-books"></a>配置通讯簿
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 使用该过程以及您在规划中作出的决定、全球通讯簿的配置和其他通讯簿主题，为您的组织设置其他通讯簿。
 

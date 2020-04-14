@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a681a369a55a45692979e8e6f24f9c4018e00677
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2bec8653c05d7684202c0e63d049ddb517e12834
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021730"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141271"
 ---
 # <a name="define-loyalty-schemes"></a>定义会员方案
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此程序会逐步演示如何定义会员方案。 会员方案是会员计划的奖励获得和兑换规则。 此程序使用 USRT 演示数据公司。
 

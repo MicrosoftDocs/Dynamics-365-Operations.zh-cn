@@ -3,7 +3,7 @@ title: 手动创建策划的建议
 description: 此主题介绍商家如何为 Microsoft Dynamics 365 Commerce 客户手动创建和管理产品列表。
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b39ef61e7dabdd8a53d5666926a95cb7b9e6b9a5
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: b00c83355850f6249068749096b011f805b37e3c
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127713"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154310"
 ---
 # <a name="manually-create-curated-recommendations"></a>手动创建策划的建议
 
@@ -63,8 +63,6 @@ ms.locfileid: "3127713"
 [启用个性化建议](personalized-recommendations.md)
 
 [选择退出个性化产品建议](personalization-gdpr.md)
-
-[向电子商务站点添加建议列表](add-reco-list-to-page.md)
 
 [在 POS 中添加产品建议](product.md)
 

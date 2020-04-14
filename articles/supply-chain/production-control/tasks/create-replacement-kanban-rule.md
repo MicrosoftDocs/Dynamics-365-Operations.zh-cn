@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ded10b0972f07f4f86ee32cee596c5e30b15ebd
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6d507418965f0ebcd657ef6363ec206eb73a722f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843761"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146943"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>创建替换看板规则
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程介绍在特定日期将现有看板规则替换为新看板规则。 在生产流或补货规则的更改需要协调和计划时这很有用。 用于创建过程的演示数据公司是 USMF。 当他们为更改的生产流或新补货规则准备生产时，该过程面向工艺工程师和价值流经理。 此任务使用新规则替换看板规则 000022，并且将新规则的最大数量从 48 增加到 100。
 

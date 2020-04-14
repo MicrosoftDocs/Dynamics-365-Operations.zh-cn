@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 91f5498bf5a5570c9d3b3f63e0a01b788fa00f35
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 9c4836b6f51f0be5afbdb55838dde27b3aaec5c1
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838623"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146966"
 ---
 # <a name="create-an-operations-resource"></a>创建运营资源
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 运营资源执行项目或生产流程的活动。 此过程显示您如何定义运营资源。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。
 

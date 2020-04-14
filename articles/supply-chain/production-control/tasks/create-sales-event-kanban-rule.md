@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7e05ebbec1ffb3e3cdd683d847ffc1d2cf817357
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e17778d0fb05a1a5f7562027dc4e7f037e95e555
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837774"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149151"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>创建销售事件看板规则
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程的重点是创建在销售订单创建期间触发的看板规则所需的设置。 事件看板规则源自销售订单行的补货要求。 创建此程序的演示数据公司是 USMF。 这面向工艺工程师和价值流经理，因为他们负责新型或改良产品的生产准备。
 

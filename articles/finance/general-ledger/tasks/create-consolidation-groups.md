@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: daa950877fd30174b46087303ae7275fb7dca337
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 826a65af563207fbfbc7391b176aa0e65b3363f9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186202"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145231"
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>创建合并组和其他合并帐户
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程显示如何创建合并帐户组，然后添加帐户到组中。 此过程使用了演示数据公司 USMF。
 

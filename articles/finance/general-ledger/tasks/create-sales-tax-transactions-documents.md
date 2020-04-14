@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 653b93744f5b891655cade0cb669d34179fca9cd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bdc4b5c31d9a478a5226ae6b5e8c776de3b661dd
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186133"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144827"
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>在单据中创建销售税交易记录
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 单据上的销售税通过在单据行上提供销售税组和物料销售税组计算。 这些默认显示主数据，但可以根据需要手动更改。 计算出的销售税可在行和单据中选中。 本任务使用 USMF 公司进行演示。
 

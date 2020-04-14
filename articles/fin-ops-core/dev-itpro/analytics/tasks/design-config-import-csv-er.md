@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf27590d80bbaf7749a0b6e69adc63ddcf4f9380
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c8511b83a5d327f6a1d5c9ace091eae9e546307b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185144"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142220"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>设计 ER 配置以从 CSV 格式的外部文件导入数据
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 使用此过程可以设计电子报告 (ER) 配置以从 CSV 格式的外部文件将数据导入应用程序。 在此过程中，将为示例公司 Litware 公司创建所需 ER 配置。若要完成这些步骤，您必须首先完成过程“ER 创建一个配置提供程序，并标记其为当前运行的”中的步骤。 
 
@@ -63,7 +63,7 @@ ms.locfileid: "2185144"
 ## <a name="review-format-settings"></a>检查格式设置
 1. 单击“设计器”。
 2. 单击”展开/折叠“。
-3. 打开“显示详细信息”。
+3. 打开”显示详细信息“。
     * 设计的格式表示 CSV 格式的外部文件的预期结构。  
 4. 在树中，选择“Incoming: File\Root: Sequence”。
     * 对于类型 SEQUENCE 的根元素，已选择了“特殊字符”字段中的选项“新行 - Windows (CR LF)”。 基于此设置，必须将分析文件的每一行视为单独的记录。   
@@ -102,7 +102,7 @@ ms.locfileid: "2185144"
     * 请注意，所需格式元素和可选格式元素，如 TransactionDate 和 CountryCode，在预定义的“格式”数据源组件中看上去不同。   
 12. 在树中，展开“交易记录 = '$both'”。
     * 请注意，用于定义所导入文件的结构的格式的元素绑定到数据模型的元素。 所导入 CSV 文件的内容将在运行时在现有数据模型中根据这些绑定排序。 请注意 CountryRegion 元素的绑定。 对于未指定国家/地区代码值的传入文件中的任何交易元素，将在数据模型中填充默认国家/杜集区代码“USA”。   
-13. 打开”显示详细信息“。
+13. 打开“显示详细信息”。
 14. 单击“验证”选项卡。
 15. 单击“搜索”。
 16. 在“查找”字段中，键入“供应商”。

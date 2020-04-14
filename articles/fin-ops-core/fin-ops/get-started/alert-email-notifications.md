@@ -16,18 +16,16 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: ba92c3dc1debed7e98210168d1a135e2cf567aec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a0cf8037ba151bb4e68da1cf4609fb2e4806303a
+ms.sourcegitcommit: b952b9f9066a5317259b8344db4c5d99eab4bf3c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191285"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "3165767"
 ---
 # <a name="client-alert-notifications-by-email"></a>通过电子邮件发送的客户端预警通知
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 您可以定义在预定义事件发生时监控筛选出的数据视图和自动发送电子邮件通知的自定义预警规则。 发送电子邮件通知的选项可用于所有支持的预警类型，也可为现有的预警规则打开。
 

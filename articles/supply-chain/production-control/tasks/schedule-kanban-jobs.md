@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3a56bca460af229b53d41959d48562ef425c0bf7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5dc359309dd96d93a59fbfb6d0b0f64cfaddc5fa
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843473"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146575"
 ---
 # <a name="schedule-kanban-jobs"></a>计划看板作业
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此程序是为特定工作单元调度处理看板作业而设计的。 创建该程序的先决条件是该程序为“在材料不可用的情况下特殊处理看板作业备用”。 创建此程序的演示数据公司是 USMF。 此任务用于车间主管与生产计划主任共同使用看板管理。
 

@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 2e819521828b054f70476b1eb061ee08c486d09f
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: 49cdfeac8cda9f1ddd3aca61f902f00f30f3485b
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113678"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154032"
 ---
-# <a name="public-preview-expense-receipt-processing"></a>公开预览：费用收据处理
+# <a name="expense-receipt-processing"></a>支出收据处理
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]

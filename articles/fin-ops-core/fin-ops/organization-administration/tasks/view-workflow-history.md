@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 16c6594161f1fecd36183a6b8f2c798f52d70a9c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dd5b8d9f3fd2edab50b52a8345f254ebc6b31d0a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189790"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140390"
 ---
 # <a name="view-workflow-history"></a>查看工作流历史记录
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 本主题介绍用于查看提交给工作流系统进行处理和审核的单据的状态的步骤。 创建此程序的演示数据公司是 USMF。
 

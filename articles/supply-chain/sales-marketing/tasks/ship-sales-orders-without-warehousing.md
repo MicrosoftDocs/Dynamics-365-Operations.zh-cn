@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e311d3e033168ed577094e94477e7fe47d185d
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 9bd90767af741760b1fbd3fd5c2b4cbbae95a477
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914922"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146391"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>装运无仓库的销售订单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题介绍在将产品发运给客户时如何更新销售订单。 本指南适用于没有为仓库管理设置的履行流程（不论是基本还是高级仓库），因而不需要在装运前登记产品领料。 您可以使用演示数据公司 USMF 或您自己的数据运行该过程。 在这两种情况下，在您开始此任务前，为数量大于 1 的库存产品创建销售订单。 为了避免过帐错误，您需要检查您在订单上选择的站点和仓库中产品的现有数量包含订单数量。
 

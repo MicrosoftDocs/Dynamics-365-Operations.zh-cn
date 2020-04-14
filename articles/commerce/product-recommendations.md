@@ -3,7 +3,7 @@ title: 产品建议概览
 description: 本主题提供有关产品建议的一般信息。 客户可通过产品建议轻松、快速地找到所需产品，甚至找到最初不打算购买的产品。
 author: Moonma
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: abeeb3c35c21f6d7a6ec24a84522033f9a5367f3
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: e61136ed296d673e14600762c6f6199093530546
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127851"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154218"
 ---
 # <a name="product-recommendations-overview"></a>产品建议概览
 
@@ -74,8 +74,6 @@ Microsoft Dynamics 365 Commerce 可用于在电子商务网站和销售点 (POS)
 [启用个性化建议](personalized-recommendations.md)
 
 [选择退出个性化产品建议](personalization-gdpr.md)
-
-[向电子商务站点添加建议列表](add-reco-list-to-page.md)
 
 [在 POS 中添加产品建议](product.md)
 

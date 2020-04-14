@@ -16,16 +16,16 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb81ddb8c7283f09e959635b91a7bda2aa9f07a2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dcf6725f45a7f8605c38e1c49ba9b43485153e73
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185374"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140062"
 ---
 # <a name="rename-or-modify-a-project-stage"></a>重命名或修改项目阶段
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 项目阶段可以充当项目生命周期的指引。 您可以在“项目管理与核算参数”页的“项目阶段”区域定义您想要包括在您的项目中的项目阶段。 Dynamics 365 Finance 提供五个预定义的项目阶段和三个用户定义的阶段。 可以更新用于跟踪项目进度的项目阶段的名称。 还可以为用户定义的状态名称提供名称。 此任务显示如何重命名或修改项目阶段，以及如何使用 USSI 数据集。
 

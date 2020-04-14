@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 798bbc68e625c58d56cdd769f48ba734ace1d028
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 7aa7c301946b92b956f4b1b0f92985451ffe917e
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914850"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149427"
 ---
 # <a name="submit-and-approve-project-budget"></a>提交和审查项目预算
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程显示如何创建和提交项目的预算。 
 

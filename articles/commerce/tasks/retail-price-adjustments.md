@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd6459416ca42530401aa439b1b8511657bd9b36
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 83498fa0a0432cb182106d6d273cb6117ed0b094
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021720"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141228"
 ---
 # <a name="retail-price-adjustments"></a>零售价调整
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此程序将逐步演示如何创建商业价格调整。 价格调整可以直接设置某一商品的销售价格，或修改其基础销售价格或贸易协议销售价格。 此程序使用 USRT 演示数据公司。
 

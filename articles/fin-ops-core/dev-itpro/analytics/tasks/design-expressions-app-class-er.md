@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f61228d328521d0c6fe8e0ae704001a65d03151f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 207309e8be6c097cec187f3475a489330e1f6b6c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249219"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142677"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>设计 ER 表达式以调用应用类方法
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 本指南提供有关如何通过在 ER 表达式中调用必需的应用类方法来在电子报告 (ER) 配置中重用现有应用逻辑的信息。 用于调用类的参数值可以在运行时动态定义：例如，根据分析文档中的信息确保其正确性。 在此指南中，将为示例公司 Litware 公司创建所需 ER 配置。此过程是为向其分配了系统管理员角色或电子申报开发人员角色的用户创建的。 
 
@@ -74,7 +74,7 @@ ms.locfileid: "2249219"
 7. 单击“添加”以打开下拉对话框。
 8. 在树中，选择“文本\序列”。
 9. 在“名称”字段中键入“Rows”。
-    * 行  
+    * 行数  
 10. 在“多样性”字段中，选择“一个 多个”。
     * 已选择“多样性”字段中的选项“一个 多个”。 基于此设置，应该至少在分析文件中存在一个行。  
 11. 单击“确定”。

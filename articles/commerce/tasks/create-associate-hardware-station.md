@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 772ccc44c01d97a07796bd1ee443012448955f49
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 305308b0e4ba99aae4bf6f8f94041db570a25893
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021744"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141029"
 ---
 # <a name="create-and-associate-a-hardware-station"></a>创建和关联硬件工作站
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此程序会逐步演示如何创建新的硬件工作站。 新硬件配置文件将被创建和用于添加新的硬件工作站到预定义的商店（渠道）。 此程序使用 USRT 演示数据公司。
 

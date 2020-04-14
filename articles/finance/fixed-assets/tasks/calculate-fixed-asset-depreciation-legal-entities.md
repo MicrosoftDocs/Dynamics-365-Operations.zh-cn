@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 500aa71e57f9c1ac8d1a2a080468381bc248741c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 074a1b80584050302920a95c20fb547523a4866c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187007"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142907"
 ---
 # <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a>计算各个法人的固定资产折旧
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 固定资产折旧可以一步跨多个法人运行。 此过程显示如何设置和运行多个法人的过程。 它为 USMF 法人实体使用会计角色和演示数据。
 

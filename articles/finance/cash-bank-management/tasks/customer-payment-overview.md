@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7777ba38e4bf41b17fae698200017b933fc9e876
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9196bedcea26a0024b3eabbbcb9c58a0155a7490
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188157"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141664"
 ---
 # <a name="customer-payment-overview"></a>客户付款概览
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 本任务指南逐步介绍用于输入客户付款的各种方法。 此任务使用 USMF 公司演示。
 
@@ -45,7 +45,7 @@ ms.locfileid: "2188157"
 14. 在**操作窗格**上，单击“行”。 在打开“行”时，您将看到您在**输入客户付款**页面记录并保存到日记帐的所有付款。 您还可以使用此页输入新的客户付款，或在现有客户付款过帐前对其进行编辑。
 15. 单击**新建**创建另一项付款。 
 16. 选择您接收其付款的客户。 如果您不知道客户，但知道付款支付的发票，则使用“发票”字段手动输入或选择发票。 选择发票后，客户将默认填充。  
-17. 单击**结算交易记录**标记已支付的发票。 您无需将付款结算到任何发票。 如果是预付款，或您不知道已支付的发票，您可以输入并过帐付款。 付款可以稍后结算到发票。  
+17. 单击**结算交易**以标记已付款发票。 您无需结算付款，以开具发票。 如果是预付款，或您不知道已支付的发票，您可以输入并过帐付款。 付款可以稍后结算到发票。  
 18. 标记付款已支付的发票。 
 19. 在**金额**字段中，输入将结算以标记发票的付款金额。
 20. 单击 **确定**。

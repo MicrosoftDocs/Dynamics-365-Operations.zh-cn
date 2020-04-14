@@ -1,6 +1,6 @@
 ---
 title: 在供应商设计之间切换
-description: 本主题介绍如何在 Finance and Operations 应用与 Common Data Service 之间的供应商数据集成之间切换。
+description: 本主题介绍如何在 Finance and Operations 应用与 Common Data Service 之间切换供应商数据集成。
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 09/20/2019
@@ -19,48 +19,61 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 587a9b98f28b11e303aff4b59e9726f220d956eb
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: ffd7a4c01810578b4abb6942aeff76e5147fafa9
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019653"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173031"
 ---
 # <a name="switch-between-vendor-designs"></a>在供应商设计之间切换
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 ## <a name="vendor-data-flow"></a>供应商数据流 
 
-如果您使用其他 Dynamics 365 应用进行供应商主控，并且希望隔离供应商信息与客户信息，请使用此基本供应商设计。  
+如果您选择使用**客户**实体来存储**组织**类型的供应商，使用**联系人**实体来存储**个人**类型的供应商，请配置以下工作流。 否则，不需要此配置。
 
-![基本供应商流](media/dual-write-vendor-data-flow.png)
- 
-如果您使用其他 Dynamics 365 应用进行供应商主控，并且希望继续使用**客户**实体存储供应商信息，请使用此扩展供应商设计。 在此设计中，扩展的供应商信息（如供应商暂停状态和供应商配置文件）存储在 Common Data Service 中的**供应商**实体中。 
+## <a name="use-the-extended-vendor-design-for-vendors-of-the-organization-type"></a>对“组织”类型的供应商使用扩展的供应商设计
 
-![扩展供应商流](media/dual-write-vendor-detail.jpg)
- 
-请按照以下步骤使用扩展供应商设计： 
- 
-1. **SupplyChainCommon** 解决方案包包含工作流程模板，如下图所示。
-    > [!div class="mx-imgBorder"]
-    > ![工作流程模板](media/dual-write-switch-3.png)
-2. 使用工作流程模板创建新的工作流程： 
-    1. 使用**在客户实体中创建供应商**工作流程模板为**供应商**实体创建新的工作流程，然后单击**确定**。 此工作流处理**客户**实体的供应商创建方案。
-        > [!div class="mx-imgBorder"]
-        > ![在客户实体中创建供应商](media/dual-write-switch-4.png)
-    2. 使用**更新客户实体**工作流程模板为**供应商**实体创建新的工作流程，然后单击**确定**。 此工作流处理**客户**实体的供应商更新方案。 
-        > [!div class="mx-imgBorder"]
-        > ![更新客户实体](media/dual-write-switch-5.png)
-    3. 从在**客户**实体上创建的模板创建新工作流程。 
-        > [!div class="mx-imgBorder"]
-        > ![在供应商实体中创建供应商](media/dual-write-switch-6.png)
-        > [!div class="mx-imgBorder"]
-        > ![更新供应商实体](media/dual-write-switch-7.png)
-    4. 您可以根据需要将工作流配置为实时或后台工作流。 
-        > [!div class="mx-imgBorder"]
-        > ![转换为后台工作流程](media/dual-write-switch-8.png)
-    5. 启用您在**客户**和**供应商**实体上创建的工作流，以开始使用**客户**实体存储供应商信息。 
- 
+**Dynamics365FinanceExtended** 解决方案包包含以下工作流程模板。 您将为每个模板创建工作流。
+
++ 在“客户”实体中创建供应商
++ 在“供应商”实体中创建供应商
++ 在“客户”实体中更新供应商
++ 在“供应商”实体中更新供应商
+
+要使用工作流程模板创建新的工作流程，请按照以下步骤操作。
+
+1. 为**供应商**实体创建工作流程，然后选择**在“客户”实体中创建供应商**工作流程模板。 然后选择**确定**。 此工作流处理**客户**实体的供应商创建方案。
+
+    ![在“客户”实体中创建供应商工作流程](media/create_process.png)
+
+2. 为**供应商**实体创建工作流程，然后选择**在“客户”实体中更新供应商**工作流程模板。 然后选择**确定**。 此工作流处理**客户**实体的供应商更新方案。
+3. 为**客户**实体创建工作流程，然后选择**在“供应商”实体中创建供应商**工作流程模板。
+4. 为**客户**实体创建工作流程，然后选择**在“供应商”实体中更新供应商**工作流程模板。
+5. 您可以根据需要将工作流配置为实时工作流或后台工作流。 要将工作流配置为后台工作流，请选择**转换为后台工作流**。
+
+    ![“转换为后台工作流”按钮](media/background_workflow.png)
+
+6. 启用您为**客户**和**供应商**实体创建的工作流，以开始使用**客户**实体存储**组织**类型的供应商信息。
+
+## <a name="use-the-extended-vendor-design-for-vendors-of-the-person-type"></a>对“个人”类型的供应商使用扩展的供应商设计
+
+**Dynamics365FinanceExtended** 解决方案包包含以下工作流程模板。 您将为每个模板创建工作流。
+
++ 在“供应商”实体中创建“个人”类型的供应商
++ 在“联系人”实体中创建“个人”类型的供应商
++ 在“联系人”实体中更新“个人”类型的供应商
++ 在“供应商”实体中更新“个人”类型的供应商
+
+要使用工作流程模板创建新的工作流程，请按照以下步骤操作。
+
+1. 为**供应商**实体创建工作流程，然后选择**在“联系人”实体中创建“个人”类型的供应商**工作流程模板。 然后选择**确定**。 此工作流处理**联系人**实体的供应商创建方案。
+2. 为**供应商**实体创建工作流程，然后选择**在“联系人”实体中更新“个人”类型的供应商**工作流程模板。 然后选择**确定**。 此工作流处理**联系人**实体的供应商更新方案。
+3. 为**联系人**实体创建工作流程，然后选择**在“供应商”实体中创建“个人”类型的供应商**模板。
+4. 为**联系人**实体创建工作流程，然后选择**在“供应商”实体中更新“个人”类型的供应商**工作流程模板。
+5. 您可以根据需要将工作流配置为实时工作流或后台工作流。 要将工作流配置为后台工作流，请选择**转换为后台工作流**。
+6. 启用您在**联系人**和**供应商**实体上创建的工作流，以开始使用**联系人**实体存储**个人**类型的供应商信息。

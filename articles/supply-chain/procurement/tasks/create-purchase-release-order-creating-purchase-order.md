@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad74f52682627d6164270de54e2dbcaeb57111fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 41d857dbe7c5f7af8ef7a50ee60784a53e5c6823
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547506"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147403"
 ---
 # <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a>创建采购订单时创建采购下达单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程会显示在创建采购订单时，如何使用采购协议。 在创建采购订单时必须应用采购协议，因为存在应复制到采购订单标题的一般条件。 此任务通常由采购人员完成。 作为本指南的先决条件，您必须拥有某个供应商和物料的带产品数量承诺的有效采购协议。 如果您拥有带其他类型承诺的采购协议，则可以使用相同过程。 您可以使用 USMF 公司演示数据运行此指南。 如果您正在使用 USMF，您可以先运行“创建采购协议”，以设置本指南所需的前提条件。
 

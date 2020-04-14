@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d9bcec1d4bb0207a2c3e0d46f7661b666fea3736
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: 6f1a1c7329f0936147fb8f7a8e0e9fea14f7dd4b
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112206"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173007"
 ---
 # <a name="integrated-ledger"></a>集成的分类账
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 在业务应用程序中，分类帐数据定义公司如何开展业务的核心设置。 例如，分类帐数据描述公司遵循的会计年度、交易所用的货币以及所使用的帐户。 本主题介绍此核心财务数据的集成。
 

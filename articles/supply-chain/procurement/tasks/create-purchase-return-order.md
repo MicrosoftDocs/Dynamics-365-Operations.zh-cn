@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d586f4cc92e7533cabb8810ce5a42a37e6ba9ff1
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: 743cb2677696727ac2730fec2c11954d150f4cfa
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995182"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147357"
 ---
 # <a name="create-a-purchase-return-order"></a>创建采购退货单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程演示如何通过使用“贷方通知单”操作将供应商发票单据中的行复制到新采购订单中来创建采购退货单。 还演示如何确认订单和处理要退给供应商的货物的装运。 可以在 USMF 演示数据公司中使用本过程中的示例。 此任务通常由采购代理完成。
 

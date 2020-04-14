@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c1fd41b1724eb2e0405c0e7a7e0ff0aea4a945e0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: af2899da843967bfaaa8f3c66906fc8e3765b573
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184937"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142493"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER 创建格式配置（2016 年 11 月）
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题说明属于系统管理员或电子报表开发人员的用户如何创建电子报表 (ER) 的格式配置。 此格式配置定义用于处理付款的电子单据的格式。 为了完成这些步骤，您首先必须完成“映射模型到所选数据源”这一过程中的步骤。
 

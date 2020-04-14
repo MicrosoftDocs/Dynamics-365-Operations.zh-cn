@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 543c1cd4bbb35e51e17d5e0c7c588d87fbe3c106
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4cf53e905cf32557f4671477b173b1c5072d186e
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187697"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137813"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>管理成本核算分类帐的数据源
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程用于管理成本核算分类帐的总帐数据源。 完成此任务之前，确保播放“创建成本核算分类帐”和“定义成本控制单元”任务指南。 此录制使用 USP2 演示数据公司。
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d6dc521fe4fc7ea901c882abad47d5fc899e0326
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1ffe5101c0848c8c7e76325c1a808581af041f32
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189813"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140436"
 ---
 # <a name="set-a-users-preferred-time-zone"></a>设置用户的首选时区
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 以下主题说明系统管理员角色的用户可以如何为用户设置时区。
 

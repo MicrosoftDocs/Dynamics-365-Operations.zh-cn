@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b048c49de7357ec1b5cbf36dd4f22a5d3efd443b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189399"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143778"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>设置应付账款发票匹配验证
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 在您开始前，请确保选择发票匹配 Configuration Key。 通过使用费用，如果您的跟踪法人费用，例如运费，请确保选择费用 Configuration Key。  应付账款发票匹配是匹配供应商发票、采购订单和装箱单信息的一个流程。 在这些单据之间的差异称作匹配差异。 用指定的匹配差异容差进行比较。 如果匹配差异超过容差百分比或金额，匹配差异图标将显示在**供应商发票**页上和**发票匹配详细信息**页上。
 

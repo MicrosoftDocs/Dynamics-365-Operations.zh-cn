@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9cab2f427ed4f90021ed74da07527bc4b9378d97
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 30870ea17ea73e48467698166ba14a9184f5a3b1
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186018"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144804"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>设置销售税分类帐过帐组
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 将计算销售税，并过帐到分类帐过帐组中指定的主科目。 分类帐过帐组将分配给每个销售税代码。 您可以为每个销售税代码设置单独的分类帐过帐组，将一个分类帐过帐组用于所有销售税代码，或者可以将多个分类帐过帐组分配给销售税代码。 此记录使用 DEMF 公司演示。 
 

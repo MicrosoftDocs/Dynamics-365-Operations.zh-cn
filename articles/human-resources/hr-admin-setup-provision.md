@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f982f3c3b2703a71e6c8a1a0d1be15fb260a6ef1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 4f2fd2b7bf9f09a61d07e1bc35ad48fe2c5d7383
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092238"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138351"
 ---
 # <a name="provision-human-resources"></a>设置 Human Resources
 
@@ -56,7 +56,7 @@ ms.locfileid: "3092238"
 2. 指示这是 Human Resources 的沙盒实例还是生产实例。 沙盒实例中可能提供提前预览功能以便提前反馈和测试。
    
     > [!NOTE]
-    > Talent 实例类型一旦设置就无法更改。 在继续之前，请验证是否选择了正确的实例类型。</br></br>
+    > Human Resources 实例类型一旦设置就无法更改。 在继续之前，请验证是否选择了正确的实例类型。</br></br>
     > Human Resources 实例类型独立于 Microsoft Power Apps 环境的实例类型，后者是您在 Power Apps 管理中心中设置的。
     
 3. 如果希望环境中包含 Human Resources 测试驱动器体验中使用的相同演示数据集，请选择**包括演示数据**选项。 这对长期演示或培训环境有益，但切勿用于生产环境。  请注意，必须在初始部署之后立即选择此选项。 不能在以后更新现有部署。
@@ -74,7 +74,7 @@ ms.locfileid: "3092238"
     > [!NOTE]
     > 如果您尚未验证最终要求，您可以在项目中部署 Human Resources 的测试实例。 您可以随后使用此实例来测试您的解决方案，直到验证完成。 如果您使用新环境进行测试，那么您必须重复此过程来创建一个生产环境。
 
-    > 由于 Human Resources 预订中仅允许两个 LCS 环境，所以可以考虑利用免费的 60 天的 [Human Resources 试用环境](https://dynamics.microsoft.com/talent/overview/)。 尽管试用环境归其请求用户所有，仍然可以通过 Human Resources 的系统管理体验邀请其他用户。 试用环境中包含可用于以安全方式探索该程序的虚拟数据。 不应将其用作生产环境。 请注意，如果试用环境在 60 天后到期，其中的所有数据都将被删除且不可恢复。 现有环境过期后，可以注册新试用环境。
+    > 您可以考虑使用 60 天免费的 [Human Resources 试用环境](https://dynamics.microsoft.com/talent/overview/)。 尽管试用环境归其请求用户所有，仍然可以通过 Human Resources 的系统管理体验邀请其他用户。 试用环境中包含可用于以安全方式探索该程序的虚拟数据。 不应将其用作生产环境。 请注意，如果试用环境在 60 天后到期，其中的所有数据都将被删除且不可恢复。 现有环境过期后，可以注册新试用环境。
 
 ## <a name="select-a-power-apps-environment"></a>选择 Power Apps 环境
 
@@ -97,7 +97,10 @@ ms.locfileid: "3092238"
     - **试用环境** - 这些环境在创建时有到期日期，在此时间过后将到期，从而导致自动删除您的环境和其中包含的所有 Human Resources 实例。
    
     - **不受支持的地区** - 目前仅在以下地区支持 Human Resources：美国、欧洲、英国、澳大利亚、加拿大和亚洲。
-  
+
+    > [!NOTE]
+    > Human Resources 环境在预配 Power Apps 环境的同一区域中预配。 不支持将 Human Resources 环境迁移到另一个区域。
+
 6. 确定了要使用的正确环境之后，可以继续进行配置流程。 
  
 ## <a name="grant-access-to-the-environment"></a>授予对环境的访问

@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 199ccc03cee1f6328ff42063a480146b0a361711
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 70cdd5aff68581af29984e88a16339de921c8ff0
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843569"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146644"
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>在移动作业设备上报告进度
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程向您展示如何在一个生产作业和工作设备登记表中开始并报告生产作业进度。
 

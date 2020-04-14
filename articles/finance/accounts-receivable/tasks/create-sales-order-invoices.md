@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a41524c773284812aa6eebddcd832c78bd29166
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c504ef36f61613c7aa7db5a1e5ddba6e69cd7285
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176643"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140253"
 ---
 # <a name="create-sales-order-invoices"></a>创建销售订单发票
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此任务指南介绍如何给销售订单开票，包括合并发票以及成批处理。 该程序适用于 USMF 演示公司。
 

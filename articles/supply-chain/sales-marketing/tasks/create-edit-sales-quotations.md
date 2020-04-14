@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2e9db489383d9c6ef05bc25d190d380b3150d311
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: f313aafb79faaf1344b7e70759405b3bab2d7e45
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1994996"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148699"
 ---
 # <a name="create-and-edit-sales-quotations"></a>创建和编辑销售报价单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程演示如何创建和更新销售报价单。 您可以使用演示数据公司 USMF 或您自己的数据运行该过程。
 

@@ -3,7 +3,7 @@ title: 购买框模块
 description: 此主题介绍购买框模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 13d044a150651dd18c3a09c4db6a783fe8f42287
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025451"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154055"
 ---
 # <a name="buy-box-module"></a>购买框模块
 
@@ -58,7 +58,7 @@ ms.locfileid: "3025451"
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>购买框模块中可使用的模块
 
 - **媒体库** – 此模块用于展示产品详细信息页上的产品图像。 它可以支持一到多个图像。 还支持缩略图。 缩略图可以水平排列（作为图像下的一行），或垂直排列（作为图像旁边的一列）。 可将媒体库模块添加到购买框模块中的**媒体**插槽。 它当前仅支持图像。 
-- **商店选择器** – 此模块显示附近可提货的商店的列表。 它使用户可以输入位置来查找附近的商店。 商店选择器模块与 Bing 地图地理编码应用程序编程接口 (API) 集成在一起，以将位置转换为纬度和经度。 必须提供 Bing 地图 API 密钥，并且必须将其添加到 Dynamics 365 Retail 内的“零售共享参数”页面中。 该模块支持**搜索半径**和**服务条款链接**这两个属性。 **搜索半径**属性定义以英里为单位的商店搜索半径。 如果未指定任何值，则使用默认搜索半径（50 英里）。 如果使用了 Bings 地图或任何外部服务，**服务条款链接**属性可用于提供指向服务条款的链接。 Bing 地图服务需要一个服务条款链接。 
+- **商店选择器** – 此模块显示附近可提货的商店的列表。 它使用户可以输入位置来查找附近的商店。 有关此模块的详细信息，请参阅[商店选择器模块](store-selector.md)。
 
 ## <a name="buy-box-module-settings"></a>购买框模块设置
 
@@ -93,11 +93,13 @@ ms.locfileid: "3025451"
 
 [入门套件概览](starter-kit-overview.md)
 
+[商店选择器模块](store-selector.md)
+
 [容器模块](add-container-module.md)
 
 [购物车模块](add-cart-module.md)
 
-[结帐模块](add-checkout-module.md)
+[结账模块](add-checkout-module.md)
 
 [订单确认模块](order-confirmation-module.md)
 

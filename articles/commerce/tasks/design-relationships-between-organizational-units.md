@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a5592e41ef8f2a082646b9024af0d91917bb451a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2c6502a05d3cc53d8031b9f8e365454556513c3c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021728"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140830"
 ---
 # <a name="design-the-relationships-between-organizational-units"></a>设计组织部门之间的关系
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此过程可以通过设计组织单位关系的方式完成。 您必须在定义组织单位关系之前创建一个新的组织用途，也可以使用现有的组织用途。 使用 USRT 公司演示数据完成此过程。 此任务专门面向管理人员。
 

@@ -3,7 +3,7 @@ title: 调整基于 AI-ML 的产品建议结果
 description: 此主题介绍如何基于人工智能-机器学习 (AI-ML) 针对您的业务调整产品建议结果。
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4631ef03e1d73b70d80e774d1efa4909e619bbc0
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: afd9271c680b1f4248d6e60036f3e79d204dc3c2
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127920"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154333"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>调整基于 AI-ML 的产品建议结果
 
@@ -110,9 +110,7 @@ ms.locfileid: "3127920"
 
 [选择退出个性化产品建议](personalization-gdpr.md)
 
-[向电子商务站点添加建议列表](add-reco-list-to-page.md)
-
-[在 POS 中添加产品建议](product.md)
+[在 POS 上添加产品建议](product.md)
 
 [向交易记录屏幕添加建议](add-recommendations-control-pos-screen.md)
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8f8cf8546187ae1c65d4966887e1c5842dff431
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a83870c4cec4de2e51e90ff1889d4beff6c23f95
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175316"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145184"
 ---
 # <a name="create-accrual-schemes"></a>创建应计方案
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 本主题说明如何创建应计方案。 此任务使用 USMF 公司演示。
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4da59781f3357a6713eebba03d87c5127b8cd3b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5cb0d3d51bf30717f05a4daf1a098565d5d48621
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174770"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143401"
 ---
 # <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a>为内部库存转移生成转移文档
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程显示如何为公司内货物转移创建转移单据。 此过程仅适用于主地址在立陶宛的法人。 此过程所用的演示数据公司为“DEMF“，其主要地址在立陶宛。 必须先完成“为公司内的货物转移设置转移单据”过程，才能完成此过程。 该过程是专为库存会计师设计的。 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 

@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c82126d64954f8691571b80ab97b198d58a9e2cb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8cc9fc58c9a14c20eecd486e3869a9b00c54c2c5
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837701"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149128"
 ---
 # <a name="create-working-time-templates"></a>创建工作时间模板
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 工作时间模板定义一周内的工作时间，可用于生成一段时期的工作时间。 该过程说明如何使用对工作时间间隔进行分类的工作时间计划属性定义工作时间模板。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。
 

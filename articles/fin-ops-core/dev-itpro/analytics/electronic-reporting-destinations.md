@@ -3,7 +3,7 @@ title: 电子报告 (ER) 目标
 description: 本主题提供有关电子报告 (ER) 目标管理、受支持的目标类型以及安全注意事项的信息。
 author: nselin
 manager: AnnBe
-ms.date: 02/07/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2e4c6951afbff367dc93072d20395c3a37fffbcb
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
+ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030765"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150807"
 ---
 # <a name="electronic-reporting-er-destinations"></a>电子申报 (ER) 目标
 
@@ -64,7 +64,7 @@ ER 目标功能不在 Microsoft Dynamics AX 7.0（2016 年 2 月）中提供。 
 
 在**版本 10.0.9 之前**的 Finance 版本中，您可以为同一格式的每个输出组件创建**一个文件目标**，如在**文件名**字段中选择的文件夹或文件。 但是，在**版本 10.0.9 及更高版本**中，您可以为相同格式的每个输出组件创建**多个文件目标**。
 
-例如，您可以使用此功能为用于生成 Excel 格式出站文档的文件组件配置文件目标。 可以配置一个目标（[存档](er-destination-type-archive.md)），以将原始 Excel 文件存储在 ER 作业归档文件中；可以配置另一个目标（[电子邮件](er-destination-type-email.md)），以同时将 Excel 文件[转换](#OutputConversionToPDF)为 PDF 格式，并通过电子邮件发送 PDF 文件。
+例如，您可以使用此功能为用于生成 Excel 格式出站文档的文件组件配置文件目标。 可以配置一个目标 ([存档](er-destination-type-archive.md))，以将原始 Excel 文件存储在 ER 作业归档文件中；可以配置另一个目标([电子邮件](er-destination-type-email.md))，以同时将 Excel 文件[转换](#OutputConversionToPDF)为 PDF 格式，并通过电子邮件发送 PDF 文件。
 
 [![为单个格式元素配置多个目标](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
 
@@ -114,7 +114,7 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 
 [![运行草稿选项](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
-## <a name="DestinationFailure"></a>目标故障处理
+## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>目标故障处理
 
 通常，ER 格式在特定业务流程范围内运行。 但是，在执行 ER 格式期间生成的出站文档的交付有时必须被视为该业务流程的一部分。 在这种情况下，如果将生成的出站文档传送到配置的目标失败，则必须取消执行业务流程。 要配置适当的 ER 目标，请选择**失败时停止处理**选项。
 
@@ -124,7 +124,7 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 
 如果针对目标中的**随函**组件清除**失败时停止处理**复选框，则付款将被认为已成功处理，即使未通过电子邮件成功传送随函也不例外。 即使无法发送随函，比如说因收件人或发件人的电子邮件地址丢失或不正确，付款状态也将从**无**更改为**已发送**。
 
-## <a name="OutputConversionToPDF"></a>输出转换为 PDF
+## <a name="output-conversion-to-pdf"></a><a name="OutputConversionToPDF"></a>输出转换为 PDF
 
 您可以使用 PDF 转换选项将 Microsoft Office 格式 (Excel/Word) 的输出转换为 PDF 格式。
 
@@ -157,6 +157,19 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 要为文件目标打开 PDF 转换，请选择**转换成 PDF** 复选框。
 
 [![为文件目标打开 PDF 转换](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+
+### <a name=""></a><a name="SelectPdfPageOrientation">选择 PDF 转换的页面方向</a>
+
+如果您以 Excel 格式生成 ER 配置并将其转换为 PDF 格式，您可以指定 PDF 的页面方向。 当您选择**转换为 PDF** 复选框以打开文件目标（生成 Excel 格式的输出文件）的 PDF 转换时，**页面方向**字段在 **PDF 转换设置**快速选项卡上显示。 在**页面方向**字段中，选择首选方向。
+
+[![选择 PDF 转换的页面方向](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+
+> [!NOTE]
+> 若要有选择 PDF 页面方向的选项，您必须安装 Microsoft Dynamics 365 Finance 版本 10.0.10（2020 年 5 月）或更高版本。
+>
+> 所选页面方向将应用于以 Excel 格式生成然后转换为 PDF 格式的所有 ER 配置。
+>
+> 如果从 ER 配置以 Word 格式创建了转换后的 PDF，则 PDF 的页面方向将从 Word 文档中获取。
 
 ## <a name="security-considerations"></a>安全考虑
 

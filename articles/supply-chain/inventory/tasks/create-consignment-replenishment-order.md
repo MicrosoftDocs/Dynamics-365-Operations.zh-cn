@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f426dbf00eace23da2f26eb50dd9675fe22ed445
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 766f29f7511c16eccd37e93f2de366ac23c35545
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914761"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145793"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>创建托运补货订单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题介绍如何创建托运补货订单，可将其用于跟踪供应商预期交货到您的托运库存。 还显示如何记录物料收据，以便将托运库存登记为供应商拥有的现有库存。 此过程通常由采购专员完成。 您可以使用演示数据公司 USMF 运行此指南。 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 

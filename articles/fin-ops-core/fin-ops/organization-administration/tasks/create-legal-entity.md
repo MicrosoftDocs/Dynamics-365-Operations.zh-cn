@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f63591d2bdb88de8c9bc7a544ac4f3adbab90a7c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cab889d89b239c746c98108a22746774203e4169
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176686"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140597"
 ---
 # <a name="create-a-legal-entity"></a>创建法人
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 法人是通过在法律机关注册标识的组织。 法人可以签订合同，并需要编制汇报其业绩的报表。 以下过程说明如何创建法人。 创建此程序的演示数据公司是 USMF。
 

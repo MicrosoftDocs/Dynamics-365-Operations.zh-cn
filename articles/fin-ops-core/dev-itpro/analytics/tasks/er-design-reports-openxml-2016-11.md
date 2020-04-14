@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ea5b17873dea4508230f39ffb41a50e2f427584f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769847"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142124"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题介绍系统管理员或电子报表开发人员角色的用户如何创建新电子报表 (ER) 配置，使其包含用于生成 OPENXML 格式的电子文档的模板。 此配置将用于处理供应商付款。
 
@@ -55,7 +55,7 @@ ms.locfileid: "2769847"
 3. 选择**创建配置**，以打开下拉对话框。
 4. 在**新建**字段中，输入 `Format based on data model PaymentModel`。 创建一个基于 PaymentModel 数据模型的格式。
 5. 在**名称**字段中，键入 `Sample worksheet report`。 示例工作表报表  
-6. 在**描述**字段中键入 `Sample worksheet report for vendors’ payments`。 供应商付款的示例工作表报表。  
+6. 在**描述**字段中键入 `Sample worksheet report for vendors' payments`。 供应商付款的示例工作表报表。  
 7. 在**数据模型定义**字段中，输入或选择一个值。 选择 **CustomerCreditTransferInitiation** 定义。  
 8. 选择**创建配置**。
 

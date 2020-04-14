@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1d235e32c7607add770fbf47f248edd9d965b2c0
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 0ab6315bf70c16c15b2fb3cd2f207dc6f844e8d1
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834068"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146484"
 ---
 # <a name="create-sales-orders"></a>创建销售订单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程说明如何创建销售订单。 您可以在演示数据公司 USMF 中使用此过程。 销售订单通常由销售订单处理器创建。 
 

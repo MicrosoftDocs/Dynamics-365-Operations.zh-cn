@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ed76f82532d43a3c05b60b12176fe851e327956
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bb53e9fee35712343f034389f00f3d4539cc652d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175307"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144666"
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>结算会计科目之间的交易记录
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该过程显示如何结算会计科目间的交易和取消分类帐结算。 此过程使用演示数据公司 USMF。
 

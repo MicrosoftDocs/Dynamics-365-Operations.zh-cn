@@ -3,7 +3,7 @@ title: 为仓库工作设置移动设备
 description: 此主题介绍了如何配置仓库工作人员用于在移动设备上执行工作的菜单项。
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 04/18/2019
+ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df3968c01006d773300593b966a69b5283a889a2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4c4b131c14101722593f685cbe1133b1aa1319b0
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813032"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161820"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>为仓库工作设置移动设备
 
@@ -95,11 +95,11 @@ ms.locfileid: "2813032"
 </tr>
 <tr>
 <td>牌照接收</td>
-<td>通过使用牌照 ID 接收进站负载。</td>
+<td>通过使用牌照 ID 接收入站发货通知 (ASN)。</td>
 </tr>
 <tr>
 <td>牌照接收和储存</td>
-<td>通过使用牌照 ID 接收和储存进站负载。</td>
+<td>通过使用牌照 ID 接收和储存入站发货通知 (ASN)。</td>
 </tr>
 <tr>
 <td>加载物料接收</td>
@@ -119,7 +119,7 @@ ms.locfileid: "2813032"
 <td>通过登记 RMA 编号来登记收货的物料数量，并将物料入库。 同一个工作人员执行两项操作。</td>
 </tr>
 <tr>
-<td rowspan="4">转移单</td>
+<td rowspan="6">转移单</td>
 <td>转移单物料接收</td>
 <td>登记收货的物料数量，并创建另一名工作人员的入库工作。
 
@@ -138,6 +138,14 @@ ms.locfileid: "2813032"
 <tr>
 <td>转移订单行接收和储存</td>
 <td>登记收货的物料数量，并将物料入库。 同一个工作人员执行两项操作。</td>
+</tr>
+<tr>
+<td>牌照接收</td>
+<td>通过使用牌照 ID 接收入站发货通知 (ASN)。</td>
+</tr>
+<tr>
+<td>牌照接收和储存</td>
+<td>通过使用牌照 ID 接收和储存入站发货通知 (ASN)。</td>
 </tr>
 <tr>
 <td rowspan="4">生产</td>

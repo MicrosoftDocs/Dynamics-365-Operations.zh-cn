@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5684c710b8e167a4a39f106eb3c0fd77e3011dbd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 02c87d25db447c82fd00042a37c040c52fa366a9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187835"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144423"
 ---
 # <a name="create-an-organization-report-hierarchy"></a>创建组织报告层次结构
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程用于为组织报告创建报告层次结构。 此录制的目的是引导您熟悉维度层次结构，以便继续操作，直到创建整个组织报告结构。 此录制使用 USP2 演示数据公司。
 

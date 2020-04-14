@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04ce158a833d04122ee5a724165b06925cea1185
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2cfec44bc1c767dff1109c4ecd4e2862443fb1d0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021747"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141491"
 ---
 # <a name="configure-credit-card-processing"></a>配置信用卡处理
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此程序会逐步演示如何查看付款提供商列表，以及如何配置应收账款的付款帐户。 此程序使用 USRT 演示数据公司，且旨在面向管理员和 IT 专业人员。
 

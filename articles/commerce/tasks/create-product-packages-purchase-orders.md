@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14e1fd19c6a27739ce9f57a4ab33f61e6baaeb2e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2b0084c6b4acbf14e3afec552575d5be26114237
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021735"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141353"
 ---
 # <a name="create-product-packages-for-purchase-orders"></a>创建采购订单的产品包装
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此程序会逐步演示如何创建产品包装，以及在采购订单上使用它。 采购订单将被用于创建预定义集合产品的订单。 此程序使用 USRT 演示数据公司。
 

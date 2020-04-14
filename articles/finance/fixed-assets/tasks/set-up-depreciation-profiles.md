@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cdfcf62615faa76a6bd1f00bd947ef04e23613df
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 68aa220896e3d6f598f32cad201cde1aa89f1670
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176575"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138199"
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>设置和创建折旧模板
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 折旧模板定义资产折旧的类型和频率。   此记录使用 USMF 演示公司和会计角色。
 

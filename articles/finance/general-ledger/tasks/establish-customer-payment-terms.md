@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 09e618dcedf798a5dfcfce2c6a296a8d37908fa9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f641d75e06b11ca325d2624f836fc2a7c92d69e4
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175314"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138391"
 ---
 # <a name="establish-customer-payment-terms"></a>设定客户付款期限
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此程序定义了一个现金折扣和到期日期设置。 此任务指南使用 USMF 公司演示。
 

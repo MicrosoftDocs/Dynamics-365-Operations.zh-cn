@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 042a7495d55fb9d884771972cfc18e5ddb25330d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f26b55f6e79200ac273fbb642c49998d8cd7e388
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844313"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147610"
 ---
 # <a name="manage-unit-of-measure"></a>管理度量单位
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程显示如何定义度量单位，提供单位换算及其描述，以及定义相关单位的转换规则。 您可以使用演示数据或使用您自己的数据浏览此过程。
 

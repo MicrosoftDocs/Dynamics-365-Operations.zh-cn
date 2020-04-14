@@ -15,26 +15,26 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47d8cf2ff1e275df0466a7fe327a3180c0399e49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4cdcb9c337440b8fa9de2bdeb78d3b2d118e91ca
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186915"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138269"
 ---
 # <a name="reclassify-fixed-assets"></a>将固定资产重新分类
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 若要重新划分固定资产，您必须将固定资产转移到新的固定资产组，或者将新的固定资产编号分配给同一组内的固定资产。 
 
 为某件固定资产重新分类时：
 
-• 为新的固定资产创建现有固定资产的所有帐簿。 为原始固定资产设置的所有信息都复制到新的固定资产。 原始固定资产的帐簿的状态为“已结算”。 
+* 为新的固定资产创建现有固定资产的所有帐簿。 为原始固定资产设置的所有信息都复制到新的固定资产。 原始固定资产的帐簿的状态为“已结算”。 
 
-• 新固定资产的新帐簿将在**购置日期**字段中包含重新分类的日期。 **折旧开始日期**字段中的日期从原始资产信息复制。 如果已开始折旧，则**最近计提折旧日期**字段将显示重新分类的日期。 
+* 新固定资产的新帐簿将在**购置日期**字段中包含重新分类的日期。 **折旧开始日期**字段中的日期从原始资产信息复制。 如果已开始折旧，则**最近计提折旧日期**字段将显示重新分类的日期。 
 
-• 为新的固定资产，取消和生成原始固定资产的现有固定资产交易记录。
+* 为新的固定资产，取消和生成原始固定资产的现有固定资产交易记录。
 
 请执行以下步骤为固定资产重新分类：
 

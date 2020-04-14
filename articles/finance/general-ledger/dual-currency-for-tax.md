@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1ba4d09240888f0c533fb07614e75ffecea0742c
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 863403dc3b2444f00f0cac27a494fc49d3d70de7
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124085"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161584"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>销售税的双币种支持
 [!include [banner](../includes/banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "3124085"
 
 在早期版本中，交易记录按以下顺序转换为申报币种： 
 
-使用交易币种计算交易记录合计 > 交易记录金额转换为记帐币种 > 记帐币种金额转换为申报币种
+- 使用交易币种计算交易记录合计 > 交易记录金额转换为记帐币种 > 记帐币种金额转换为申报币种
 
 启用双币种功能之后，交易记录按照以下顺序转换为申报币种：
 
@@ -48,8 +48,6 @@ ms.locfileid: "3124085"
 - 税务结算自动平衡采用申报币种（版本 10.0.11 中发布）
 
 销售税的双币种支持确保使用税金币种准确计算税额，以及同时使用记帐币种和申报币种准确计算销售税结算余额。 
-
-这些新功能现在对专用预览客户启用。 若要启用这些功能，请通过相应渠道向 Microsoft 提出服务请求。
 
 ## <a name="sales-tax-conversion"></a>销售税换算
 

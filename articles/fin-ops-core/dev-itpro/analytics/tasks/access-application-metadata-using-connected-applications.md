@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5020b523ca5d76d36f7436a8f43e8629c029e3e8
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 28b8346b916729669af42ca47fe9a882e7a77bd0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769870"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142193"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>通过使用相连应用程序访问应用程序元数据
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 以下步骤介绍系统管理员或电子报表开发人员角色的 Regulatory Configuration Service (RCS) 用户如何使用 Finance and Operations 中的元数据设计新的电子报表 (ER) 模型映射。 将使用与 RCS 相连的应用程序联机访问应用程序元数据。 将配置示例 ER 模型映射以访问外贸交易。 为了完成这些步骤，在 RCS 中，您必须首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)主题中的步骤。 如果已完成了[使用 ER 配置访问应用程序元数据](access-application-metadata-er-configuration.md)主题中的步骤，请转至[电子申报示例页](https://go.microsoft.com/fwlink/?linkid=862266)下载并保存以下 ER 配置：Foreign trade metadata.xml、Foreign trade model.xml、Foreign trade mapping.xml，然后完成此过程中的步骤。
 
@@ -54,7 +54,7 @@ ms.locfileid: "2769870"
 2. 关闭该页面。 
 3. 转到**所有工作区** > **电子申报**。 
 4. 单击**相连应用程序**。 
-5. 确保配置的应用程序基于 Azura 且可供当前 RCS 用户访问。 还要求当前 RCS 用户可访问所选应用程序，并且已注册为此应用程序的用户，从而使其有权访问应用程序的元数据。 
+5. 确保配置的应用程序基于 Azure 且可供当前 RCS 用户访问。 还要求当前 RCS 用户可访问所选应用程序，并且已注册为此应用程序的用户，从而使其有权访问应用程序的元数据。 
 6. 单击**新建**。 
 7. 在**名称**字段中，键入“MyConnectedApp”。 
 8. 在**应用程序**字段中，键入“https:// mycompany.operations.dynamics.com”。 

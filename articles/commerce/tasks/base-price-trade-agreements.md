@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7576c4218118724562ff739ff9805a06b7ba22d5
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 022db9365f25c1d3e387870dd9d173077d864b3d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021749"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141514"
 ---
 # <a name="base-price-and-trade-agreements"></a>基价和贸易协议
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此程序会逐步演示如何创建渠道特定销售价格贸易协议。 此程序使用 USRT 演示数据公司。
 

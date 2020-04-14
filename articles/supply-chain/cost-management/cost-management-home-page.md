@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: df8552aab5f1566dccf0b905c2d5db372671ec09
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249624"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144103"
 ---
 # <a name="cost-management-home-page"></a>成本管理主页
 
@@ -32,12 +32,13 @@ ms.locfileid: "2249624"
 
 可通过[成本管理（视频）](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)处理原材料、半成品、成品和在制品资产的计价和核算。 这是定义、管理和报告[库存会计](cost-object.md)和[制造会计](bom-calculations.md)的过程。
 
-可以在以下区域中定义成本策略： 
--  [预先确定的成本](costing-versions.md)
--  [库存会计](cost-object.md)
--  [制造会计](bom-calculations.md)
--  [间接成本核算](costing-sheets.md)
--  [分类帐集成](production-order-cost-analysis.md)
+可以在以下区域中定义成本策略：
+
+- [预先确定的成本](costing-versions.md)
+- [库存会计](cost-object.md)
+- [制造会计](bom-calculations.md)
+- [间接成本核算](costing-sheets.md)
+- [分类帐集成](production-order-cost-analysis.md)
 
 例如，可定义要在库存核算中应用于[物料类型组](../inventory/reserve-inventory-quantities.md)中的产品的库存计价方法，如[先进先出](fifo-physical-value-marking.md)、[加权平均](weighted-average-physical-value-marking.md)、[标准成本](prerequisites-standard-costs.md)或[移动平均](moving-average.md)。
 
@@ -51,23 +52,16 @@ ms.locfileid: "2249624"
 
 #### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转到 [Microsoft Dynamics 365 路线图](https://roadmap.dynamics.com/)以了解已发布和正在开发的新功能。 
+转到 [Microsoft Dynamics 365 路线图](https://roadmap.dynamics.com/)以了解已发布和正在开发的新功能。
 
 #### <a name="white-paper"></a>白皮书
-[使用成本计算单计算物料清单](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet)介绍了如何设置包含物料和制造的成本计算单，以及该设置对物料清单计算结果的影响。 为了加强这些主题的说明效果，提供了具体方案和数据，用于演示各种设置和配置的效果。 我们不期望您执行所有这些方案，因为本文提供的详细信息不足，无法配置这些方案。 不过，如果您具备基础知识，则可尝试按照显示顺序播放下面列出的任务指南。 使用阅读本文获得的知识执行物料清单计算分析。 
 
--  [创建成品](tasks/create-finished-product-2016-02.md)
--  [创建半成品](tasks/create-semi-finished-product-2016-02.md)
--  [创建原材料](tasks/create-raw-materials-2016-02.md)
--  [创建 BOM](tasks/create-boms-2016-02.md)
--  [创建路线](tasks/create-routes-2016-02.md)
--  [通过使用单级结构计算 BOM](tasks/calculate-bom-single-level-structure-2016-02.md)
--  [通过使用多级结构计算 BOM](tasks/calculate-bom-multilevel-structure-2016-02.md)
-
+[使用成本计算单计算物料清单](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet)介绍了如何设置包含物料和制造的成本计算单，以及该设置对物料清单计算结果的影响。 为了加强这些主题的说明效果，提供了具体方案和数据，用于演示各种设置和配置的效果。
 
 #### <a name="blogs"></a>博客
+
 您可以在 [Dynamics AX 制造研发团队博客](https://blogs.msdn.microsoft.com/axmfg)和 [Dynamics AX 研发团队中的 Supply Chain Management 博客](https://blogs.msdn.microsoft.com/dynamicsaxscm)中找到有关成本管理的建议、新闻和其他信息。 尽管一些文章是针对成本管理的旧版本编写的，但相同的概念仍适用，并且过程在当前版本中也是相似的。
 
 #### <a name="task-guides"></a>任务指南
-其他帮助作为任务指南提供。 若要访问任务指南，请单击任何页面上的“帮助”按钮。
 
+其他帮助作为任务指南提供。 若要访问任务指南，请单击任何页面上的“帮助”按钮。

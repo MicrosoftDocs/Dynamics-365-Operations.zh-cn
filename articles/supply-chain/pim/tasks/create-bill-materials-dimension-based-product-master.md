@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 677aacb72d1c3f33bed8bb6c9cd32e5dbca677cc
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: de62c246e022a315852f9b1b21f3378b3408a00f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844913"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150147"
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>创建基于维度的基础产品的物料清单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 对于此过程，您应该已经以八个记录的这个顺序完成之前的 4 个指南。 前 4 个记录设置完成此过程需要的数据。 创建此程序的演示数据公司是 USMF。 此任务通常由产品设计器处理。
 

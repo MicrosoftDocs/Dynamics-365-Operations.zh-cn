@@ -16,16 +16,16 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3412b4f9b2d25072628eb50f5c763f5a7bce793
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 23b85dc016fe103fbfcc41b344cbc897a5c68365
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551164"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144294"
 ---
 # <a name="adjust-project-transactions"></a>调整项目交易记录
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此任务指南向您介绍如何调整项目的交易记录。 但是，您可以一次一个的调整项目交易，或者从所有项目交易记录列表中进行选择。 此任务通常由项目主管来完成。 此任务指南使用 USSI 数据集。
 

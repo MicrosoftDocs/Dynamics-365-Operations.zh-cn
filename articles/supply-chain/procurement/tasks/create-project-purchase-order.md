@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 195fa23fc3d4f407ab82e1584fe870bfdd01c82a
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d2751f6e547ccdce70f550cf30a4184f8afdf132
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838182"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149772"
 ---
 # <a name="create-project-purchase-order"></a>创建项目采购订单
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程说明如何创建项目采购订单。 此任务使用 USSI 数据集。
 

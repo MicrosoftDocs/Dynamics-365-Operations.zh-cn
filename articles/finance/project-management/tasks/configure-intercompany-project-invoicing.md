@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c89b17c09a4f145b5a4ca9cdd127b4e635447d4b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 31dbae2d37aefe1841fe85cb6caf185c78596e55
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174435"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144271"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>配置内部公司项目开票
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题显示如何设置贵组织内部两个公司之间的项目开票。 此任务使用 USSI 数据集。
 

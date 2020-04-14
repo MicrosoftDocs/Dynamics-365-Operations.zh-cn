@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 815d968b37cf285544799735fdd3f00f0c7ebffb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d09a7388377899b7cfb11ba744232d06aa2c4db6
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838158"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149782"
 ---
 # <a name="approve-vendors-for-specific-products"></a>审核特定产品的供应商
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程显示如何审核特定产品的供应商。 这允许您控制使在产品添加到采购订单时可以使用哪个供应商。 您可以使用演示数据公司 USMF 或您自己的数据使用该程序。 此任务通常由采购经理完成。
 

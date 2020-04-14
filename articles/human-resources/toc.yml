@@ -5,6 +5,8 @@
       items:
         - name: Human Resources 新增功能或更改
           href: hr-admin-whats-new.md
+        - name: 2020 年 3 月 19 日
+          href: hr-whats-new-2020-03-19.md
         - name: 2020 年 3 月 10 日
           href: hr-whats-new-2020-03-10.md
         - name: 2020 年 3 月 3 日
@@ -539,3 +541,9 @@
               href: hr-learning-create-closed-ended-question.md
             - name: 创建相关问题
               href: hr-learning-depending-question.md
+        - name: 设置员工和经理自助服务
+          items:
+            - name: 员工和经理自助服务概览
+              href: hr-employee-manager-self-service-overview.md
+            - name: 编辑个人信息
+              href: hr-employee-manager-self-service-edit-personal-information.md
