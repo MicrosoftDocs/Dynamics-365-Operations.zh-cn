@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 635a1c50390bca59cd1c9ba0cf0421c510b2998c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bc6f90e7adb3facdfa1facb50fecb0de4ccb04d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176610"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141572"
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>结算客户的远期支票
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 该支票由银行清算后，您可以结算过期支票。 此财务交易记录也清算了过期支票的过桥科目交易记录。 
 

@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f0a80e5b1a79c874ce0a8d24c85be71d0dc5c9c8
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b89d08d8f6a4223eb592ffa2b918504839e5287b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550548"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142401"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-4---run-format"></a>ER 配置格式以执行盘点和合计（第 4 部分 - 运行格式）
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 以下步骤介绍指定为系统管理或电子申报开发人员角色的用户如何配置电子申报 (ER) 格式，以便基于已生成的文本输出的数据执行盘点和合计。 这些步骤可以在 DEMF 公司执行。
 
-必须首先完成“ER 配置格式以执行盘点和合计（第 3 部分：使用计算创建输出）”过程中的步骤，才能完成这些步骤。
+为了完成这些步骤，您必须首先完成“ER 配置格式以执行盘点和合计（第 3 部分：使用计算创建输出）”这一过程中的步骤。
 
 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 

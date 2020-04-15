@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 788564bfd7c3df146266976d8eef6621ff37ca2a
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 48ce4942f8407242013df45f533390784694d4e6
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550617"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142539"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER 将财务维度用作数据源（第 2 部分 - 模型映射）
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便将财务维度用作 ER 报表的数据源。 这些步骤可以在任何公司执行。
 
-若要完成这些步骤，则必须首先完成“ER 将财务维度用作数据源（第 1 部分：设计数据模型）”过程中的步骤。
+为了完成这些步骤，您必须首先完成“ER 将财务维度用作数据源（第 1 部分：设计数据模型）”这一过程中的步骤。
 
 
 ## <a name="add-required-data-sources-to-model-mapping"></a>向模型映射添加所需数据源

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 722414eee1e738e1438bbb40dbd9b8ca606f9245
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 611fc0cff7fe2d580e971149630e92afd16be228
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844793"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147840"
 ---
 # <a name="create-a-new-product"></a>创建新产品
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题描述如何创建新共享产品。 它通常由产品设计器执行。 创建此任务的演示数据公司是 USMF。
 

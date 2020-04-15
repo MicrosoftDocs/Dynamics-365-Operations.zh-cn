@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7be4e9da6f3dbaf2683c0dba78e0e780628f4b2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: b52e33c34a2fd151765833c68eab9091b22405cc
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838647"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147012"
 ---
 # <a name="create-a-kanban-rule-for-multiple-activities"></a>创建多个活动的看板规则
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程演示如何创建包含来自生产流的多个活动的看板规则。 创建此任务的演示数据公司是 USMF。 该任务面向工艺工程师或价值流经理，因为他们负责新型或改良产品的生产准备。
 

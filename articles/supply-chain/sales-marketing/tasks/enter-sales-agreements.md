@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7699f426c102b4ae2610db0851ddd127e514b652
-ms.sourcegitcommit: 6545bef4584d72dd7789f2d3935cf00ac8f489b0
+ms.openlocfilehash: 06d251992c7facca471ac893e5a0fee333e0cbed
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1871021"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148645"
 ---
 # <a name="enter-sales-agreements"></a>输入销售协议
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题介绍如何向您的客户创建承诺：在超限时间采购议定数量的产品将获得特定的销售折扣的销售协议。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。
 
@@ -43,7 +43,7 @@ ms.locfileid: "1871021"
 
 ## <a name="set-up-product-value-commitment-lines"></a>设置产品值承诺行
 1. 选择**添加行**。
-2. 在**物料编号**字段中，从下拉菜单选择所需记录。 为协议所选择的承诺类型会影响您可以为协议行输入信息的种类。 例如，对于基于值的协议，必须为客户承诺购买您的货物的金额指定总净额（使用协定币种）。 在此示例中，由于您在为某一客户创建的购买特定值的产品的协议，所以该行上的**数量**和**单位**字段不可用。   
+2. 在**物料编号**字段中，从下拉菜单选择所需记录。 为协议所选择的承诺类型会影响您可以为协议行输入信息的种类。 例如，对于基于值的协议，必须为客户承诺购买您的货物的金额指定总净额（使用协定币种）。 在此示例中，由于您在为某一客户创建购买特定值的产品的协议，所以该行上的**数量**和**单位**字段不可用。   
 3. 在**净额**字段中，输入客户承诺要购买产品的金额。
 4. 在**折扣百分比**字段，输入与该协议相关的应用于客户销售订单行的百分值。
 5. 展开**行详细信息**部分。
