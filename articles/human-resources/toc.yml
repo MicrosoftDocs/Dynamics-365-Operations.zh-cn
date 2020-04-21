@@ -5,6 +5,12 @@
       items:
         - name: Human Resources 新增功能或更改
           href: hr-admin-whats-new.md
+        - name: 2020 年 4 月 13 日
+          href: hr-whats-new-2020-04-13.md
+        - name: 2020 年 4 月 3 日
+          href: hr-whats-new-2020-04-03.md
+        - name: 2020 年 3 月 24 日
+          href: hr-whats-new-2020-03-24.md
         - name: 2020 年 3 月 19 日
           href: hr-whats-new-2020-03-19.md
         - name: 2020 年 3 月 10 日
@@ -401,7 +407,7 @@
               href: hr-compensation-process.md
         - name: 管理福利
           items:
-            - name: 预览功能：福利管理
+            - name: 福利管理
               items:
                 - name: 福利管理概览
                   href: hr-benefits-management-overview.md
@@ -445,12 +451,8 @@
                   items:
                     - name: 设置福利计划
                       href: hr-benefits-plans-setup.md
-                    - name: 创建工作人员福利计划
-                      href: hr-benefits-plans-worker.md
                     - name: 设置弹性信贷计划
                       href: hr-benefits-plans-flex-credit-programs.md
-                    - name: 配置将来生活事件
-                      href: hr-benefits-plans-future-life-events.md
                 - name: 处理福利计划
                   items:
                     - name: 处理登记资格
@@ -499,6 +501,8 @@
               href: hr-leave-and-absence-enroll.md
             - name: 累积休假和缺勤计划
               href: hr-leave-and-absence-accrue.md
+            - name: 暂停休假
+              href: hr-leave-and-absence-suspend-leave.md
             - name: 查看休假和缺勤分析
               href: hr-leave-and-absence-analytics.md
             - name: 管理休假和缺勤申请
