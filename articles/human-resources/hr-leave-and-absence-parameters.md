@@ -3,7 +3,7 @@ title: 配置休假和缺勤参数
 description: 在 Dynamics 365 Human Resources 中定义休假和缺勤的人力资源参数。
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2acb8502ebcab122a0a1ff21e9f5e23931026327
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: eb992cbfbed33f88e125d3a8b721f8815414599a
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008205"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197973"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>配置休假和缺勤参数
 
@@ -50,18 +50,25 @@ ms.locfileid: "3008205"
 
 7. 选择**保存**。
 
-## <a name="configure-calendar-parameters"></a>配置日历参数
-
-如果启用了休假和缺勤日历预览功能，您需要配置其他参数。 
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-> [!NOTE]
-> 对于 2020 年 2 月 3 日的预览版本，仅启用了**等待处理的休假请求**。
+## <a name="view-and-change-leave-and-absence-parameters"></a>查看和更改休假和缺勤参数
 
 1. 在**休假和缺勤**页面，选择**链接**选项卡。
 
-2. 在**设置**下，选择**人力资源参数**。
+2. 在**设置**下，选择**休假和缺勤参数**。
+
+3. 在**常规**选项卡上，设置以下参数：
+ 
+    - 将**休假和缺勤单位**设置为小时或天。 如果为天，则可以选择**启用半天定义**，以便允许员工在休假请求中选择前半天或后半天。 
+
+    - 选择**服务生效日期的月份**以设置使用服务月份的休假计划的假期额度费率生效时间。
+
+    - 选择**余额计算**以显示截至今日的余额或应计期间的余额。 如果选择**截至今日的余额**，则余额显示截止今日的所有应计、调整和请求的总计。 如果选择**截至应计期间的余额**，则余额显示截止休假计划中的频率定义的应计期间所有应计、调整和请求的总计。 
+
+## <a name="configure-calendar-parameters"></a>配置日历参数
+
+1. 在**休假和缺勤**页面，选择**链接**选项卡。
+
+2. 在**设置**下，选择**休假和缺勤参数**。
 
 3. 在**日历**选项卡上，根据需要更改日历设置。
 

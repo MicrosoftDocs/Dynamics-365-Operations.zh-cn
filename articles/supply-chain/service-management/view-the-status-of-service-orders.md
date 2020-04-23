@@ -2,7 +2,7 @@
 title: 产科服务订单的状态
 description: 您可以使用“派遣板”窗体查看服务订单中服务活动的状态。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67f8f9a24aeb88496d5b694dff550455bae6aa17
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 14f9132479bac8a6bfd632a91e0acb94b9bde4e5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742972"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206350"
 ---
 # <a name="view-the-status-of-service-orders"></a>产科服务订单的状态 
 

@@ -2,7 +2,7 @@
 title: 发票预订交易记录
 description: 发票预订交易记录
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/03/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b49039e383c87d7460ecbf87b6687d19337776e2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 25f3468838054ae6fbfefc399d59652081986ece
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559869"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202299"
 ---
 # <a name="invoice-subscription-transactions"></a>发票预订交易记录 
 

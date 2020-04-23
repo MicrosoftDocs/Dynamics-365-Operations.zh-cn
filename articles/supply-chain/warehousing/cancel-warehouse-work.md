@@ -2,7 +2,7 @@
 title: 取消仓库工作以进行异常处理
 description: 本主题介绍“取消工作”功能，该功能使仓库主管可以处理被阻止的工作。
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSTroubIeshootingSeIfService
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6aa073f72a3ece81d945f75b32f906d5846f7ce9
-ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
+ms.openlocfilehash: cb725885fb48293a08915f13a4fb14085e930444
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2625849"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205797"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>取消仓库工作以进行异常处理
 

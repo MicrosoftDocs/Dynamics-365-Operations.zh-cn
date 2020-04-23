@@ -2,7 +2,7 @@
 title: 产品配置概览
 description: “将产品配置为可满足特定要求”这一需求在“企业对企业”和“企业对消费者”关系中都正在成为规则而不是特例。
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 75083
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f05e119f02d2d5e7c76c554d6a8b3db97c86ab0
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: a9287cd5719eb558f379331946d7896d61e4345a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934855"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208631"
 ---
 # <a name="product-configuration-overview"></a>产品配置概览
 

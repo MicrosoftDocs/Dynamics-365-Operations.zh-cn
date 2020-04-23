@@ -2,7 +2,7 @@
 title: 将 Supply Chain Management 的产品直接同步到 Sales
 description: 此主题介绍用于将产品从 Dynamics 365 Supply Chain Management 同步到 Dynamics 365 Sales 的模板和基础任务。
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1a96fda4e7f7b6407c51ee4056088d05027462cf
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 85ea6d37079c965ac5ddfdc4cdd20f2f3d184e4f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813239"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216066"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>将 Supply Chain Management 的产品直接同步到 Sales
 

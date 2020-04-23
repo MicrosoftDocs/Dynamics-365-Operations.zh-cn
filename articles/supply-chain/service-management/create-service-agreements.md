@@ -2,7 +2,7 @@
 title: 创建服务协议
 description: 本主题描述如何在服务管理和项目管理与核算模块中使用功能创建服务协议。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68dee63f8a426aba4bb408b6052ca9d730629bee
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1c937f43896d239a5cc8b48ed06854add8c9a618
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813170"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202782"
 ---
 # <a name="create-service-agreements"></a>创建服务协议
 

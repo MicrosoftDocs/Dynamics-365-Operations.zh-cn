@@ -1,27 +1,28 @@
 ---
 title: Regression Suite Automation Tool 设置和安装教程
 description: 本主题是演示如何设置和安装 Regression Suite Automation Tool (RSAT) 的教程。
-author: kfend
+author: robinarh
 manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
+ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
-ms.custom: 21761
+ms.custom: 21761, NotInToc
 ms.search.region: Global
-ms.author: kfend
+ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 50450669387f4e2c9e81975d5345c525c7929c47
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f5670f6a580249491ad16ae46470160545bb8f91
+ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180637"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248705"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool 设置和安装教程
 本主题是帮助您设置和开始使用 RSAT 以及与使用 RSAT 有关的工具的教程。 

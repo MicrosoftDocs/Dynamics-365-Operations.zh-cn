@@ -2,7 +2,7 @@
 title: 对基准预测进行手动调整
 description: 本主题介绍如何手动调整基准预测和查看预测的详细信息。
 author: roxanadiaconu
-manager: AnnBe
+manager: tfehr
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c9963a54a052549a6bfeabcb3d91b7b0f3cf68e
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: 27e1000f9709a2ec449c5e867624b445a84697fa
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935408"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213760"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>对基准预测进行手动调整
 

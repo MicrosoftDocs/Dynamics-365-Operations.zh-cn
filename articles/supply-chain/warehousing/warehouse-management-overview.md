@@ -2,7 +2,7 @@
 title: 仓库管理概览
 description: 使用仓库管理进行监控并使仓库流程自动化。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f50b950b8588f2b17611889e0cb0eeb6da359886
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 17e4429dbf3f7e5d6c737c365f0351d5c588fcd2
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813009"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204577"
 ---
 # <a name="warehouse-management-overview"></a>仓库管理概览
 

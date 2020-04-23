@@ -1,30 +1,30 @@
 ---
 title: 审核和确认采购订单
-description: 本主题介绍了创建后采购订单 (PO) 所经历的状态，以及对采购订单启用更改管理的效果。
-author: FrankDahl
-manager: AnnBe
-ms.date: 06/20/2017
+description: 本主题介绍了创建后采购订单所经历的状态，以及对采购订单启用更改管理的效果。
+author: mkirknel
+manager: tfehr
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: fdahl
+ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 6b331b7e7725b3dd284deb02e59fcf2d699822c4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813423"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207986"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>审核和确认采购订单
 
@@ -69,9 +69,10 @@ ms.locfileid: "2813423"
 
 如果通过使用更改管理流程创建采购订单，您可以通过撤回订单进行更改，或如果订单已通过审批，则通过使用**请求更改**操作进行更改。 在这种情况下，审核状态更改回**草稿**，然后可以修改订单。 完成更改后，您可能必须提交采购订单以重新审核。 您可以通过使用**采购策略**页的**采购订单的重新审核规则**政策规则配置需要重新审核的更改类型。
 
-如果采购订单行的订购数量的一部分已交货，则不能更改订购的数量。 但是，您可以更改行上的**剩余交货量**数量。 然后，您可以使用**完成**操作来取消行并阻止进一步的处理。 
+如果采购订单行的订购数量的一部分已交货，则不能在采购订单的状态为**草稿**时更改订购的数量。 但是，可以更改状态为**草稿**的采购订单的行中的**剩余交货量**数量。
 
-订单被确认后，不能再将其删除。 但是，您可以取消总数量或订单上的任何剩余数量，前提是尚未收到该数量或未对该数量开票。
+订单被确认后，不能再将其删除。 但是，您可以取消总数量或订单上的任何剩余数量，前提是尚未收到该数量或未对该数量开票。 然后，您可以使用**完成**操作阻止进一步的处理。 
+
 
 ## <a name="canceling-purchase-orders"></a>取消采购订单
 

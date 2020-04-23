@@ -3,7 +3,7 @@ title: 配置资格规则和选项
 description: 在 Microsoft Dynamics 365 Human Resources 的“福利管理”中设置资格规则和选项。
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 448156a2428e99d8b95de547cb6f1621d49b1c7b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 07dd8a6ca7edb460769f761950dc0c143112f708
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008285"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229893"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>配置资格规则和选项
-
-[!include [banner](includes/preview-feature.md)]
 
 在 Microsoft Dynamics 365 Human Resources 中配置福利管理的必要参数之后，您可以创建将与福利计划相关联的资格规则、捆绑、期间和项目。
 
@@ -57,6 +55,7 @@ ms.locfileid: "3008285"
    | **雇用类别** | 员工的雇用类别（如果**使用雇用类别**切换设置为**是**）。 |
    | **使用新雇员规则** | 指定是否作为福利资格规则的一部分使用新雇员的新雇用期间值。 |
    | **登记期间** | 允许新雇用登记的时间期间。 如果您还在参数中设置了此项，参数设置将优先于这里的设置。 |
+   | **使用先前雇用状态** | 指定是否作为福利资格规则的一部分使用员工的上一个雇用状态。 例如，可以指定有关放弃上次雇用后 90 天内状态从**下岗**转换为**雇用**的所有员工的覆盖范围等待期的资格规则。 |
 
 4. 在**其他条件**下，选择以下选项并根据需要添加信息：
 

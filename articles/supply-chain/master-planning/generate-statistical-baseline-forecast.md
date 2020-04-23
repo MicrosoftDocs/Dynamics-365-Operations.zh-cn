@@ -2,7 +2,7 @@
 title: 生成统计基准预测
 description: 此主题提供有关用于需求预测计算的参数和筛选器的信息。
 author: roxanadiaconu
-manager: AnnBe
+manager: tfehr
 ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0d9b8708df413118d6e1c1dbe788ce4f6ed5b2f
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: c56d80dca9bf7753585532dffd57552ce2ee7a3f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815172"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203817"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>生成统计基准预测
 

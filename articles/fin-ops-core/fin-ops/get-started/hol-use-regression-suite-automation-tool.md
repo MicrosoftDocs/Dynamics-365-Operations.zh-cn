@@ -1,7 +1,7 @@
 ---
 title: 使用 Regression Suite Automation Tool 教程
 description: 本主题说明如何使用 Regression Suite Automation Tool (RSAT)。 其中介绍各种功能，并提供使用高级脚本的示例。
-author: kfend
+author: robinarh
 manager: AnnBe
 ms.date: 06/09/2019
 ms.topic: article
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: kfend
+ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
+ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070812"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248728"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool 使用教程
 
@@ -30,79 +30,13 @@ ms.locfileid: "3070812"
 > [!NOTE]
 > 可使用 Internet 浏览器工具下载此页并以 pdf 格式保存。 
 
-本教程演练 Regression Suite Automation Tool (RSAT) 的部分高级功能，包括演示分配，还介绍策略和关键学习点。
+本教程演练 Regression Suite Automation Tool (RSAT) 的部分高级功能，包括演示分配，还介绍策略和关键学习点。 
 
-## <a name="features-of-rsattask-recorder"></a>RSAT/任务录制器的功能
+## <a name="notable-features-of-rsat-and-task-recorder"></a>值得注意的 RSAT 和任务录制器功能
 
 ### <a name="validate-a-field-value"></a>验证字段值
 
-有关此功能的信息，请参阅[创建具有验证功能的新任务录制](./hol-set-up-regression-suite-automation-tool.md#create-a-new-task-recording-that-has-a-validate-function)。
-
-### <a name="saved-variable"></a>已保存变量
-
-有关此功能的信息，请参阅[修改现有任务录制以创建已保存变量](./hol-set-up-regression-suite-automation-tool.md#modify-an-existing-task-recording-to-create-a-saved-variable)。
-
-### <a name="derived-test-case"></a>派生测试用例
-
-1. 打开 Regression Suite Automation Tool (RSAT)，然后选择您在[设置和安装 Regression Suite Automation Tool 教程](./hol-set-up-regression-suite-automation-tool.md)中创建的测试用例。
-2. 选择**新建 \> 创建派生测试用例**。
-
-    ![“新建”菜单上的“创建派生测试用例”命令](./media/use_rsa_tool_01.png)
-
-3. 您将收到一条消息，说明将为当前测试套件中选择的每个测试用例创建一个派生测试用例，以及每个派生测试用例将有自己的 Excel 参数文件副本。 选择**确定**。
-
-    > [!NOTE]
-    > 运行派生测试用例时，其使用自己的父测试用例的任务录制和自己的 Excel 参数文件副本。 因此，可以使用不同参数运行同一个测试，不必维护多个任务录制。 派生测试用例不必与其父测试用例属于同一个测试套件。
-
-    ![消息框](./media/use_rsa_tool_02.png)
-
-    将创建两个额外的测试用例，并且为其选中**是否派生?** 复选框。
-
-    ![已创建派生测试用例](./media/use_rsa_tool_03.png)
-
-    将在 Azure DevOps 中创建一个派生测试用例。 这是**创建新产品**测试用例的子项，并带有特殊关键字标记：**RSAT:DerivedTestSteps**。 还会将这些测试用例自动添加到 Azure DevOps 中的测试计划。
-
-    ![RSAT:DerivedTestSteps 关键字](./media/use_rsa_tool_04.png)
-
-    > [!NOTE]
-    > 如果因为任何原因导致创建的派生测试用例的顺序不正确，请转到 Azure DevOps 并为测试套件中的测试用例重新排序，以便 RSAT 按正确顺序运行这些测试用例。
-
-4. 选择派生测试用例，然后选择**编辑**打开相应 Excel 参数文件。
-5. 按照编辑父文件的方式编辑这些 Excel 参数文件。 换句话说，确保设置产品 ID，以便自动生成。 同时确保将已保存变量复制到相关字段。
-6. 在两个 Excel 参数文件的**常规**选项卡上，将**公司**字段的值更新为 **USSI**，以便对非父测试用例法人运行派生测试用例。 若要对特定用户（或与特定用户关联的角色）运行测试用例，可以更新**测试用户**字段的值。
-7. 选择**运行**，并且验证是否同时在 USMF 法人和 USSI 法人中创建了产品。
-
-### <a name="validate-notifications"></a>验证通知
-
-可使用此功能验证是否执行了某个操作。 例如，创建、估计，然后开始履行生产订单时，应用程序将显示“生产 - 开始”消息，通知您已开始履行生产订单。
-
-![“生产 – 开始”通知](./media/use_rsa_tool_05.png)
-
-可通过 RSAT 验证此消息，方法是在相应录制的 Excel 参数文件的 **MessageValidation** 选项卡上输入消息文本。
-
-![“消息验证”选项卡](./media/use_rsa_tool_06.png)
-
-运行测试用例之后，将把 Excel 参数文件中的消息与显示的消息进行比较。 如果这些消息不匹配，测试用例将失败。
-
-> [!NOTE]
-> 可在 Excel 参数文件中的 **MessageValidation** 选项卡上输入多条消息。 这些消息也可以是错误消息或警告消息，而不是参考消息。
-
-### <a name="validate-values-by-using-operators"></a>使用运算符验证值
-
-在 RSAT 早期版本中，仅当控制值等于预期值时，才可以验证值。 新功能则允许您验证某个变量是否不等于、小于或大于指定值。
-
-- 若要使用此功能，请打开 RSAT 安装文件夹（如 **C:\\Program Files (x86)\\Regression Suite Automation Tool**）下的 **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** 文件，然后将以下元素中的值从 **false** 更改为 **true**。
-
-    ```xml
-    <add key="AddOperatorFieldsToExcelValidation" value="false" />
-    ```
-
-    在 Excel 参数文件中，将显示一个新的**运算符**字段。
-
-    > [!NOTE]
-    > 如果已经在使用 RSAT 早期版本，则必须生成新的 Excel 参数文件。
-
-    ![“运算符”字段](./media/use_rsa_tool_07.png)
+RSAT 允许您在测试用例中包含验证步骤，以验证期望值。 有关此功能的信息，请参阅文章[验证期望值](../../dev-itpro/perf-test/rsat/rsat-validate-expected.md)。
 
 以下示例演示如何使用此功能来验证现有库存量是否超过 0（零）。
 
@@ -115,7 +49,7 @@ ms.locfileid: "3070812"
     5. 在列表中，标记所选的行。
     6. 验证**可用合计**字段的值是否为 **411.0000000000000000**。
 
-2. 将任务录制保存到 LCS 中的 BPM 库，然后同步到 Azure DevOps。
+2. 保存任务录制，并在 Azure Devops 中将其附加到测试用例中。
 3. 将测试用例添加到测试计划，然后将测试用例加载到 RSAT 中。
 4. 打开 Excel 参数文件。 在 **InventOnhandItem** 选项卡上，将看到 **Validate InventOnhandItem** 部分，其中包含一个**运算符**字段。
 
@@ -130,28 +64,32 @@ ms.locfileid: "3070812"
 
 现在，如果库存中指定物料的**可用合计**字段的值大于 0（零），无论实际现有库存量值是多少，测试都将失败。
 
-### <a name="generator-logs"></a>生成器日志
+### <a name="saved-variables-and-chaining-of-test-cases"></a>保存的变量和链接测试用例
 
-此功能将创建一个文件夹，其中包含已运行的测试用例的日志。
+RSAT 的一项关键功能是链接测试用例，即一个测试将变量传递给其他测试这项功能。 有关详细信息，请参阅文章[复制变量以链接测试用例](../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md)。
 
-- 若要使用此功能，请打开 RSAT 安装文件夹（如 **C:\\Program Files (x86)\\Regression Suite Automation Tool**）下的 **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** 文件，然后将以下元素中的值从 **false** 更改为 **true**。
+### <a name="derived-test-case"></a>派生测试用例
 
-    ```xml
-    <add key="LogGeneration" value="false" />
-    ```
+RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以使用不同数据配置运行一个任务。 有关详细信息，请参阅文章[派生测试用例](../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md)。
 
-运行测试用例之后，可以在 **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\generatorLogs** 下找到日志文件。
+### <a name="validate-notifications-and-messages"></a>验证通知和消息
 
-![GeneratorLogs 文件夹](./media/use_rsa_tool_10.png)
+可使用此功能验证是否执行了某个操作。 例如，创建、估计，然后开始履行生产订单时，应用程序将显示“生产 - 开始”消息，通知您已开始履行生产订单。
+
+![“生产 – 开始”通知](./media/use_rsa_tool_05.png)
+
+可通过 RSAT 验证此消息，方法是在相应录制的 Excel 参数文件的 **MessageValidation** 选项卡上输入消息文本。
+
+![“消息验证”选项卡](./media/use_rsa_tool_06.png)
+
+运行测试用例之后，将把 Excel 参数文件中的消息与显示的消息进行比较。 如果这些消息不匹配，测试用例将失败。
 
 > [!NOTE]
-> 如果更改 .config 文件中的值之前已有测试用例，则生成新的测试执行文件之前，不会为这些测试用例生成日志。
-> 
-> ![“新建”菜单上的“仅生成测试执行文件”命令](./media/use_rsa_tool_11.png)
+> 可在 Excel 参数文件中的 **MessageValidation** 选项卡上输入多条消息。 这些消息也可以是错误消息或警告消息，而不是参考消息。
 
 ### <a name="snapshot"></a>快照
 
-此功能用于拍摄任务录制期间执行的步骤的屏幕快照。
+此功能用于拍摄任务录制期间执行的步骤的屏幕快照。 非常适合审核或调试用途。
 
 - 若要使用此功能，请打开 RSAT 安装文件夹（如 **C:\\Program Files (x86)\\Regression Suite Automation Tool**）下的 **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** 文件，然后将以下元素的值从 **false** 更改为 **true**。
 
@@ -159,17 +97,11 @@ ms.locfileid: "3070812"
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-将在 **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback** 下为运行的每个测试用例创建一个单独的文件夹。
-
-![测试用例的快照文件夹](./media/use_rsa_tool_12.png)
-
-在这些文件夹的每一个中，都可以找到运行测试用例期间执行的步骤的快照。
-
-![快照文件](./media/use_rsa_tool_13.png)
+运行测试用例时，RSAT 将在工作目录中测试用例的播放文件夹内生成步骤的快照（映像）。 如果使用的 RSAT 版本较低，将把这些映像保存到 **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback** 中，这是为运行的每个测试用例创建的单独文件夹。
 
 ## <a name="assignment"></a>赋值
 
-### <a name="scenario"></a>方案
+### <a name="scenario"></a>应用场景
 
 1. 产品设计人员创建一个新发布的产品。
 2. 生产经理发起一个生产订单以将库存水平提升到两件。
@@ -183,7 +115,7 @@ ms.locfileid: "3070812"
 
 ![演示场景的流程](./media/use_rsa_tool_14.png)
 
-下图显示此场景在 RSAT 中的业务流程。
+下图显示该方案在业务流程建模器中的业务流程层次结构。
 
 ![演示场景的业务流程](./media/use_rsa_tool_15.png)
 
@@ -377,7 +309,7 @@ ms.locfileid: "3070812"
 
 
 #### <a name="help"></a>help
-与 [?](####?) 相同 命令
+与 [?](#section) 相同 命令
 
 
 #### <a name="list"></a>列表
@@ -512,6 +444,8 @@ playback e:\temp\test.xlsx
 
 ### <a name="windows-powershell-examples"></a>Windows PowerShell 示例
 
+[!IMPORTANT] 下面的示例脚本出于演示目的按原样提供，不受 Microsoft 支持。
+
 #### <a name="run-a-test-case-in-a-loop"></a>循环运行测试用例
 
 您有一个测试脚本用于创建新客户。 通过脚本，可以在运行每个迭代之前随机化以下数据来运行此测试用例。
@@ -551,7 +485,7 @@ function RunTestCase
     $cmd = $cmd + $filename
     cmd /c $cmd
 }
-$excelFilename = "full path to excel file parameter file"
+$excelFilename = "full path to Excel parameter file"
 l$sheetName = "DirPartyQuickCreateForm"
 for ($i = $start; $i -lt $start + $nr; $i++ )
 {

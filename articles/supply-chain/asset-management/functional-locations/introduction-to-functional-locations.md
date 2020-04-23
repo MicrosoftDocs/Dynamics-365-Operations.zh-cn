@@ -2,7 +2,7 @@
 title: 功能位置简介
 description: 本主题概述资产管理中的功能位置。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 577c888393163bdb7e445e436c336f20381cc78f
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 6d0eca00e8c692e722a0b4276896966b7eef7cd2
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572144"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205360"
 ---
 # <a name="introduction-to-functional-locations"></a>功能位置简介
 

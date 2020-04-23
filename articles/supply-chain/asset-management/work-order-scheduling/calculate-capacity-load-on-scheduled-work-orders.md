@@ -2,7 +2,7 @@
 title: 对计划的工作订单计算产能负荷
 description: 本主题介绍如何在资产管理中对计划的工作订单计算产能负荷。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d7684d1a4f78c95ebc7fd0a88f1c7dc7fead0303
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: b817909ac0950b773cba775be2502b5796c6d8d6
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652095"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215347"
 ---
 # <a name="calculate-capacity-load-on-scheduled-work-orders"></a>对计划的工作订单计算产能负荷
 

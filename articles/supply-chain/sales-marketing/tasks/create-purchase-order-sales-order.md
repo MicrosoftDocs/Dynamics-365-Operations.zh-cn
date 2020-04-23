@@ -2,7 +2,7 @@
 title: 基于销售订单创建采购订单
 description: 此过程向您显示如何创建基于销售订单的采购订单。
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30ffb34e2aee984d29bedb47d6bfc9cb6173470a
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 3379f5899fedbe8944585388bdb98c4d810c2e26
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148668"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204347"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>基于销售订单创建采购订单
 

@@ -2,14 +2,14 @@
 title: Dynamics 365 Supply Chain Management 10.0.6（2019 年 11 月）中的新增功能或更改
 description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.6 中的新增功能或更改的功能。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: josaw1
+ms.reviewer: kamaybac1
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 16e97d47934ce0e41387fa34309931d804d0dc0e
-ms.sourcegitcommit: c6be9706bca05089d4a4dc898d991410edb5c609
+ms.openlocfilehash: 319ba09184c087a194b664ca87076d57c6ba0c66
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097425"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201540"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1006-november-2019"></a>Dynamics 365 Supply Chain Management 10.0.6（2019 年 11 月）中的新增功能或更改
 

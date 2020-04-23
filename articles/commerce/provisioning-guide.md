@@ -3,7 +3,7 @@ title: 配置 Dynamics 365 Commerce 预览环境
 description: 本主题说明如何预配 Microsoft Dynamics 365 Commerce 预览环境。
 author: psimolin
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cbd4c118de2e91c8849461b20a01403049a07e66
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024628"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254740"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>配置 Dynamics 365 Commerce 预览环境
 
@@ -234,8 +234,6 @@ ms.locfileid: "3024628"
 ## <a name="commerce-preview-environment-support"></a>Commerce 预览环境支持
 
 如果您在完成预配步骤时遇到问题，请访问 [Microsoft Dynamics 365 Commerce 预览 Yammer 组](https://aka.ms/Dynamics365CommercePreviewYammer)获取帮助。
-
-如果您在尝试访问 Yammer 组时遇到问题，您可以通过电子邮件 <Dynamics365Commerce@microsoft.com> 与 Microsoft 联系。 此电子邮件地址的查看频率较低。 因此，回复会比较迟。
 
 ## <a name="next-steps"></a>后续步骤
 

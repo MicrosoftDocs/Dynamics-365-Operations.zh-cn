@@ -2,7 +2,7 @@
 title: 查看服务订单的开始时间和持续时间
 description: 您可以查看服务订单上的工作何时开始以及服务订单何时将要完成。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 606204e3939fe49b89ddb8829a1b5b5bf1ccabaf
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 2891e0cb5b65f22c3cb444db4352f8e7767c900b
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550382"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206373"
 ---
 # <a name="view-the-start-time-and-duration-of-a-service-order"></a>查看服务订单的开始时间和持续时间 
 

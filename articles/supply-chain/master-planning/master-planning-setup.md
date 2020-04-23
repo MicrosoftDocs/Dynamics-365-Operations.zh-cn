@@ -2,7 +2,7 @@
 title: 设置主计划
 description: 此主题介绍用于设置主计划的各种重要策略和参数。
 author: t-benebo
-manager: AnnBe
+manager: tfehr
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 5dcfee8d48c274e16b07b051f8f36fd27432720c
-ms.sourcegitcommit: 98894aa32150e95fb7e87f98703b266b03493362
+ms.openlocfilehash: 7b6b4cb1c3035e8341928562c447b03affd40167
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "1718562"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213553"
 ---
 # <a name="set-up-master-planning"></a>设置主计划
 

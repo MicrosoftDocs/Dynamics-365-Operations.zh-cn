@@ -2,15 +2,15 @@
 title: 预测缩减参数
 description: 本主题提供显示如何设置缩减参数的示例。 它包含有关各种缩减参数设置以及每个结果的信息。 可以使用缩减参数以定义如何缩减预测需求。
 author: roxanadiaconu
-manager: AnnBe
-ms.date: 07/09/2019
+manager: tfehr
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19251
 ms.assetid: aa9e0dfb-6052-4a2e-9378-89507c02fdf2
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11d5613f23805993b2a83d007c818c80de6a4b9b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 25cdde073878ed090a4d981eff75a337a79b37af
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814275"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225097"
 ---
 # <a name="forecast-reduction-keys"></a>预测缩减参数
 
@@ -34,7 +34,7 @@ ms.locfileid: "2814275"
 
 ## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>用于缩减预测需求的方法
 
-向主计划添加预测时，可以选择包含实际需求时如何缩减预测需求。
+向主计划添加预测时，可以选择包含实际需求时如何缩减预测需求。 请注意，主计划中不包含过去的预测要求，即当天以前的所有预测要求。
 
 若要在主计划中添加预测并选择用于缩减预测需求的方法，请转到**主计划 \> 设置 \> 计划 \> 主计划**。 在**预测模型**字段中，选择一个预测模型。 在**用于减少预测需求的方法**字段中，选择一个方法。 选项如下：
 

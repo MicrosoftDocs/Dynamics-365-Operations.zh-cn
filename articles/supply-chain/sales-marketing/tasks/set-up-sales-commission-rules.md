@@ -2,7 +2,7 @@
 title: 设置销售佣金规则
 description: 该过程显示如何设置和启用销售佣金计算和跟踪。
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CommissionCustomerGroup, CommissionItemGroup, CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, CommissionCalc, InventPosting, CustTable, EcoResProductDetailsExtended
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d9036b5cbad10af725aaaf5d1d9498687c3a1d58
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 4507405039cd27a071e0f0ed8bfad31fd30f16f0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3146414"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203190"
 ---
 # <a name="set-up-sales-commission-rules"></a>设置销售佣金规则
 

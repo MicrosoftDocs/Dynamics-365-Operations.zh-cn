@@ -2,7 +2,7 @@
 title: 覆盖范围设置
 description: 本主题提供有关主计划编制用于计算物料要求的覆盖范围设置的信息。
 author: roxanadiaconu
-manager: AnnBe
+manager: tfehr
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqGroup, ReqItemTable, ReqItemTableWizard
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2494
 ms.assetid: 5a95ae4f-ca75-47d9-a1c3-68c97b42f166
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b8263afd8469d9bf3f566c4c44a5976d7ff3e86
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: a7722921407eab2bf053761eec099d506ce4d67c
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815195"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203886"
 ---
 # <a name="coverage-settings"></a>覆盖范围设置
 

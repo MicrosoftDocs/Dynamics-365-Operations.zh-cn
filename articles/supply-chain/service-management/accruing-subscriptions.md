@@ -2,7 +2,7 @@
 title: 应计预订
 description: 使用服务预订，您可以在费用交易记录开票日期后的期间中手动计入收入。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27908e2852f3f28264f83e0118eb4be79c9e03bc
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: a9fba99eeea605f35abfe00068fe9a4cda4db0b6
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742278"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203104"
 ---
 # <a name="accruing-subscriptions"></a>应计预订 
 

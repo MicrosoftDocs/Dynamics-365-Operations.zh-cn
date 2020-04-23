@@ -2,7 +2,7 @@
 title: 预测、工作订单和项目
 description: 此主题介绍预测和工作订单与资产管理中的项目管理与核算模块的集成。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e527a1ade9b050c0700ef42bbcac8da3f36160b9
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 3a55564875afa9125ee0dbb808a514f7b4b17b0b
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571775"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205314"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>预测、工作订单和项目
 
@@ -71,7 +71,7 @@ ms.locfileid: "2571775"
 
 为工作订单创建新的工作订单作业时，将为该作业自动创建一个工作订单项目。 将把与该工作订单作业关联的资产的财务维度自动传输到该工作订单项目。
 
-为工作订单作业创建的项目活动附加有相关信息。 此信息与维护作业类型、维护作业类型变型和交易有关。 其在如下情况下非常有用：基于工作订单创建采购订单（请参阅[采购](../work-orders/procurement.md)），或将**项目管理与核算**模块用于时间登记。
+为工作订单作业创建的项目活动附加有相关信息。 此信息与维护作业类型、维护作业类型变型和交易有关。 其在如下情况下非常有用：基于工作订单创建采购订单(请参阅[采购](../work-orders/procurement.md))，或将**项目管理与核算**模块用于时间登记。
 
 如果资产已安装到某个功能位置，但是之后又安装到其他功能位置，则为该资产自动更新与新功能位置关联的财务维度。 然后，当您为该资产创建工作订单作业时，该工作订单作业的工作订单项目将自动获取现在与这个资产关联的财务维度。 因此，如果使用功能位置，则始终可以跟踪在任何给定时间安装了资产的功能位置的成本。 自动更新财务维度有助确保可以完全跟踪成本来进行项目控制和报告。
 

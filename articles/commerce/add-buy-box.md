@@ -3,7 +3,7 @@ title: 购买框模块
 description: 此主题介绍购买框模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 35b7027e0f0b680dd82ebfcea754fef1617c0163
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154055"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261390"
 ---
 # <a name="buy-box-module"></a>购买框模块
 
@@ -46,7 +46,7 @@ ms.locfileid: "3154055"
 购买框模块呈现产品的标题、描述、价格和等级。 还可以让客户选择具有不同产品属性（例如尺寸、样式和颜色）的产品变型。 如果选择了产品变型，将更新购买框中的其他属性（如产品描述和图像）以反映变型信息。 
 
 提供数量选择器，以便客户可以指定要购买的商品数量。 可以在站点设置中定义可以购买的最大数量。
- 
+
 客户还可以从购买框中执行一些操作，例如将产品添加到购物车，将产品添加到其愿望列表以及选择取货地点。 可以在产品或产品变型上执行这些操作。 要将产品添加到愿望列表中，客户必须先登录。
 
 主题可用于删除或更改购买框产品属性和操作控件的顺序。 
@@ -65,7 +65,8 @@ ms.locfileid: "3154055"
 购买框模块中有可在**站点设置 \> 扩展**中配置的三个设置：
 
 - **最大数量** – 此属于用于指定可以添加到购物车的每种项的最大数量。 例如，一位零售商可能决定一笔交易中只能出售每种产品 10 件。
-- **库存检查** – 如果此值设置为 **True**，则只有在购买框模块确信某种项有现货时，才能将此项添加到购物车中。 将在项发货时和在商店中提货时执行库存检查。 如果此值设置为 **False**，则向购物车添加项和下订单前，不进行库存检查。
+- **库存检查** – 如果此值设置为 **True**，则只有在购买框模块确信某种项有现货时，才能将此项添加到购物车中。 将在物料发货时和在商店中提货时执行库存检查。 如果此值设置为 **False**，则向购物车添加项和下订单前，不进行库存检查。 有关如何配置后端库存设置的信息，请参阅[计算零售渠道的库存现有量](calculated-inventory-retail-channels.md)。
+
 - **库存缓冲区** – 此属性用于指定库存的缓冲区号。 库存会被实时维护，如果多位客户下订单，则很难维持精确的库存计数。 进行库存检查时，如果库存比缓冲区数量少，则将产品视为库存不足。 因此，当通过多个渠道快速进行销售，导致库存计数无法充分同步时，出售库存不足的项的风险较低。
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unit 交互
@@ -99,10 +100,14 @@ ms.locfileid: "3154055"
 
 [购物车模块](add-cart-module.md)
 
+[购物车图标模块](cart-icon-module.md)
+
 [结账模块](add-checkout-module.md)
 
 [订单确认模块](order-confirmation-module.md)
 
-[页眉模块](author-header-module.md)
+[标题模块](author-header-module.md)
 
 [页脚模块](author-footer-module.md)
+
+[计算零售渠道的库存现有量](calculated-inventory-retail-channels.md)

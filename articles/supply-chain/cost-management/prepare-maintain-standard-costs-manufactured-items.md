@@ -2,7 +2,7 @@
 title: 准备为制造物料维护标准成本
 description: 本主题介绍准备维护制造物料成本的步骤。
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 01/17/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbd7344f3d542cbd46e3568d8a7911ab4ab53b17
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 866da2ce58e33676c2fa4bb2d6abfde891a5d021
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545940"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214588"
 ---
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>准备为制造物料维护标准成本
 

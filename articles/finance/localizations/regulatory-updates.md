@@ -3,7 +3,7 @@ title: 监管更新
 description: 此主题提供 Microsoft Dynamics 365 Finance 的已计划和已发布监管更新的列表。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 03/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f35ab4b3ad49edfd0b68f906f44b8a2b04787f1a
-ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
+ms.openlocfilehash: 6e403e3d18aec616d0c569b16ba77eaefdf4b0ea
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3161797"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262618"
 ---
 # <a name="regulatory-updates"></a>监管更新
 
@@ -51,8 +51,11 @@ Microsoft 致力于尽早实施新的监管要求。 实际交付日期取决于
 |      巴西         |   2020 年 1 月       | 10.0.8      |   ICMS-ST 的补充信息    |
 |      巴西         |   2020 年 3 月 - 2020 年 1 月       | 10.0.9、10.0.8HF      |   Sped 财政布局 014 |
 |      巴西         |   2020 年 3 月 - 2020 年 1 月       | 10.0.9、10.0.8HF      |   DRCST SC – 法令 SEF Nº 343DR   |
+|      巴西         |   2020 年 5 月 - 2020 年 3 月      | 10.0.11、10.0.10HF、10.0.9HF      |   SPED ECD 布局 8   |
+|      巴西         |   2020 年 5 月 - 2020 年 4 月      | 10.0.11、10.0.10HF、10.0.9HF、10.0.8HF      |   技术说明 NT2019.001 v1.40   |
 |      法国         |   2020 年 4 月       | 10.0.10      |   向自由职业者的税务主管机构申报法律费用 (DAS2)    |
 |      法国         |   2020 年 3 月       | 10.0.9      |   法国本地化：用于国际支付和库务转移的 ISO 20022 格式    |
+|      匈牙利         |   2020 年 5 月 - 2020 年 3 月       | 10.0.11、10.0.9HF、10.0.8HF     |   Finance and Operations 中的在线开票系统 v.2.0    |
 |      印度         |   2020 年 3 月      | 10.0.9      |   新的 GSTR（ANX-1 和 ANX-2）脱机退货工具    |
 |      意大利         |   2020 年 1 月      | 10.0.8      |   D.L 对 VAT 管理的更新。 2018 年 10 月 23 日 119：年度税务申报    |
 |      意大利         |   2020 年 3 月      | 10.0.9、10.0.8HF      |   Retail - 管理 POS 中的客户信息 |
@@ -68,6 +71,9 @@ Microsoft 致力于尽早实施新的监管要求。 实际交付日期取决于
 |      波兰          |   2020 年 3 月 - 2020 年 1 月     | 10.0.9、10.0.8HF     |   Retail - 打印财务收据中的客户信息 |
 |      波兰          |   2020 年 3 月 - 2020 年 1 月     | 10.0.9、10.0.8     |   2019 年 12 月 2 日以来的 SAF 发票 (JPK_FA) v.3 |
 |      波兰          |   2020 年 4 月 - 2020 年 1 月     | 10.0.10、10.0.9、10.0.8     |   JPK_VDEK 将取代 JPK_VAT（SAF 增值税） |
+|      波兰          |   2020 年 5 月     | 10.0.11     |   将 AP/AR 已实现的汇率差额拆分为账单净值与增值税金额之间的汇率差额  |
+|      波兰          |   2020 年 5 月     | 10.0.11     |   SAF 会计帐簿 – 过帐层筛选改进 |
+|      波兰          |   2020 年 5 月     | 10.0.11     |   JPK_VDEK 补充包 I |
 |      俄罗斯          |   2020 年 3 月     | 10.0.9     |   用于 2019 年申报的财产税申报格式 |
 |      俄罗斯          |   2020 年 3 月     | 10.0.9     |   利润税申报格式更新 |
 |      新加坡           |   2020 年 1 月     | 10.0.8      |   GST 退货报表 |

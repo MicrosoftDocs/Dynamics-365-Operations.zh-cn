@@ -2,7 +2,7 @@
 title: 交货备选方案
 description: 销售订单处理人员可以使用交货备选方案页发现备选订单履行选项。
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesLineDeliveryDetails
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 271623
 ms.assetid: 527f6084-44fe-41bb-924f-4386e926358a
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 1fbf8f08322c954a482777abcf041ff0b9d8fb77
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 48cc8974cc8a8769b3d05f47f82166164e877ae5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555854"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3210080"
 ---
 # <a name="delivery-alternatives"></a>交货备选方案
 

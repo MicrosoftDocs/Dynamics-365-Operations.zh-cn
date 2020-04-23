@@ -2,7 +2,7 @@
 title: 包括容器重量和负荷的体积
 description: 此主题描述如何设置和应用要包括容器重量和负荷的体积的功能。
 author: pjacobse
-manager: AnnBe
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRateRouteWorkbench, TMSDriverLogListPage, TMSTransportationTender
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adbaa379889d373d597b2f6882b78f82bd71ae57
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7e6b29bf2e42ea2df3d36f39fa577078009aa584
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549213"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206280"
 ---
 # <a name="include-container-weight-and-volume-on-load"></a>包括容器重量和负荷的体积
 

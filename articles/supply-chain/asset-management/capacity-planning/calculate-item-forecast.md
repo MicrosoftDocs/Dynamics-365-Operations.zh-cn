@@ -2,7 +2,7 @@
 title: 计算物料预测
 description: 本主题介绍如何在资产管理中计算物料预测。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 65d95507e27ade373008e2046ac4691c271484ca
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 20f969b68e4e9a9936f377000191ba9db202447f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652440"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216451"
 ---
 # <a name="calculate-item-forecast"></a>计算物料预测
 

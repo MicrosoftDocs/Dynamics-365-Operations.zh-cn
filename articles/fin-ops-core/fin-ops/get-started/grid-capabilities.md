@@ -3,7 +3,7 @@ title: 网格功能
 description: 本主题介绍网格控件的几个强大功能。 必须启用新的网格功能才能访问这些功能。
 author: jasongre
 manager: AnnBe
-ms.date: 02/10/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7136edba828bf97b6e0c8d2a698b884640d680e5
-ms.sourcegitcommit: 880f617d1d6e95eccbed762c7ea04398553c2ec0
+ms.openlocfilehash: 0fd0e15ea88e9f5f34d8dff82606a8d26616a16d
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036257"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260452"
 ---
 # <a name="grid-capabilities"></a>网格功能
 
@@ -90,4 +90,23 @@ ms.locfileid: "3036257"
 ## <a name="evaluating-math-expressions"></a>评估数学表达式
 随着生产力的迅速提高，用户可以在网格中的数值列内输入数学公式。 不必在系统外的应用内进行计算。 例如，如果输入 **=15\*4**，然后按 **Tab** 键离开字段，系统将计算该表达式，并保存该字段的值 **60**。
 
-要使系统将值识别为表达式，请将值以等号 (**=**) 开头。 有关受支持的运算符和语法的更多详细信息，请参阅[支持的数学符号](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols)。  
+要使系统将值识别为表达式，请将值以等号 (**=**) 开头。 有关受支持的运算符和语法的详细信息，请参阅[支持的数学符号](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols)。
+
+## <a name="frequently-asked-questions"></a>常见问题
+### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>如何在我的环境中启用新的网格控件？ 
+
+**10.0.9/平台更新 33 及更高版本** 在任何环境中，**新网格控件**功能均可直接在功能管理中使用。 与其他公共预览功能一样，在生产环境中启用此功能取决于[补充使用条款协议](https://go.microsoft.com/fwlink/?linkid=2105274)。  
+
+**10.0.8/平台更新 32 及 10.0.7/平台更新 31** 可以在第 1 层（开发/测试）和第 2 层（沙盒）环境中启用**新网格控件**功能，以便按照以下步骤进行其他测试和设计更改。
+
+1.  **启用外部测试版**：执行以下 SQL 语句： 
+
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
+
+2. **重置 IIS**，用于清空静态外部测试缓存。 
+
+3.  **查找功能**：转到**功能管理**工作区。 如果所有功能列表中不显示**新网格控件**，请选择**检查更新**。   
+
+4.  **启用功能**：在功能列表中找到**新网格控件**功能，然后选择详细信息窗格上的**立即启用**。 请注意，必须刷新浏览器。 
+
+所有后续用户会话都将从启用新网格控件开始。

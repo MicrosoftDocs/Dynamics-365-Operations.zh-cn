@@ -2,7 +2,7 @@
 title: 耗用原则
 description: 本主题描述为原材料消耗量使用的四个耗用原则。
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 84cada71937604c013dbaaa47435015e63203595
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9f7546b70ddef30d88a79b00fe31d4e82d9bfb9b
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552202"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211529"
 ---
 # <a name="flushing-principles"></a>耗用原则
 

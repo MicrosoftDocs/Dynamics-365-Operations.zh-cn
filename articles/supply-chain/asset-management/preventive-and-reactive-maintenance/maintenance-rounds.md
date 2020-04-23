@@ -2,7 +2,7 @@
 title: 维护阶段
 description: 本主题介绍资产管理中的维护阶段。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4c9a2fee7d43142f8bb17f4e819c9949a2a20c41
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 97f1984b71ab60519f81bb1f6ab38278a0e5aa43
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570022"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206096"
 ---
 # <a name="maintenance-rounds"></a>维护阶段
 
@@ -115,5 +115,5 @@ ms.locfileid: "2570022"
 
 - 为供应商保修涵盖的资产手动创建工作订单时，将显示一个对话框，用于提醒用户注意保修。 然后可以取消创建此工作订单。 将对自动创建的工作订单忽略检查保修关联。  
 - 可以在**在后台运行**快速选项卡上设置批处理作业，以便安排定期执行的阶段。  
-- 如果一个阶段包含在多个工作订单池中（请参阅[工作订单池](../work-orders/work-order-pools.md)），将为**打开维护安排池**中的每个池显示一条记录。 这是为了优化工作订单池的筛选选项。
+- 如果一个阶段包含在多个工作订单池中(请参阅[工作订单池](../work-orders/work-order-pools.md))，将为**打开维护安排池**中的每个池显示一条记录。 这是为了优化工作订单池的筛选选项。
 

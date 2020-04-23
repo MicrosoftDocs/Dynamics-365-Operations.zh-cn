@@ -2,7 +2,7 @@
 title: 产品数据实体
 description: 本主题提供有关可用于导入和导出产品数据的不同实体的信息。
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: 83191ea3d07ec9e2ed6261ee997e06b802ee7645
-ms.sourcegitcommit: b806f0c94d703bec39680fead827733361d47045
+ms.openlocfilehash: 340cb33537c7ba07555e1f0b6437fa4a3458a11a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935931"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208608"
 ---
 # <a name="product-data-entities"></a>产品数据实体
 

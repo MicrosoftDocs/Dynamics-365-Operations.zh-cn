@@ -2,7 +2,7 @@
 title: 批次和牌照确认
 description: 此主题描述如何从移动设备设置和应用批次和牌照确认。
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efab5b11782fd2344fb5f532272007d187c1465b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 020d33bfb7e23df7898414f5becf96d31307f2fa
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563876"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201310"
 ---
 # <a name="batch-and-license-plate-confirmation"></a>批次和牌照确认
 

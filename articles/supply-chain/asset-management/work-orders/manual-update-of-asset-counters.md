@@ -2,7 +2,7 @@
 title: 手动更新资产计数器
 description: 本主题介绍如何在资产管理中手动更新资产计数器。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3072ab204b53b16988d2973b28a697041cb84c27
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 9d9cd755f5dec125676a8dbefe63a64e226366ed
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626124"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204508"
 ---
 # <a name="manual-update-of-asset-counters"></a>手动更新资产计数器
 

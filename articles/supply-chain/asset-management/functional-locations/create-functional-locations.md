@@ -2,7 +2,7 @@
 title: 创建功能位置
 description: 本主题介绍如何在资产管理中创建功能位置。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01bd399e6104ec216d5c8aa80f32700df76bc514
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: a8ba905224fbbcc5db95820e2b228a0d478e6146
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571821"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205383"
 ---
 # <a name="create-functional-locations"></a>创建功能位置
 

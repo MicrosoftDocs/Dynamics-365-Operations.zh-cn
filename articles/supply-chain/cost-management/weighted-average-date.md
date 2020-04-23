@@ -2,7 +2,7 @@
 title: 加权平均日期
 description: 加权平均日期是基于加权平均原则的库存模型，其中，来自库存的发货按照物料的平均价值进行估价，这些物料是在库存结转期间中的每一天接收到库存中的物料。
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b89082ef0dcaafd059fdc496acf49efbf2b9324a
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: cb3f781c82c0c1e13966f1490bcb4a76b5e7ed69
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569194"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204945"
 ---
 # <a name="weighted-average-date"></a>加权平均日期
 

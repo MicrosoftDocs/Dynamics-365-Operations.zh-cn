@@ -2,7 +2,7 @@
 title: 领料行分组
 description: 本主题概述领料行分组。
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 1b1d0135d450bc9be7b1303240a9ca70f95ae38e
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 4b9cd7dac680c1691fb4c6dd4078f109254be784
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906260"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215584"
 ---
 # <a name="pick-line-grouping"></a>领料行分组
 

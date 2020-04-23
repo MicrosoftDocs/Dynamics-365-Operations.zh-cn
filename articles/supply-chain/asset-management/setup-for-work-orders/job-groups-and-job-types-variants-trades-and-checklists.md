@@ -2,7 +2,7 @@
 title: 维护作业类型类别和维护工作类型、维护作业类型变型、维护作业工种和维护清单
 description: 此主题介绍资产管理中的维护作业类型类别和维护工作类型、维护作业类型变型、维护作业工种和维护清单。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2a5da707069966ea0dac282b2a0b2074ec5a41ff
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8dfac98e8425a270109abecaab4e5338ddabeb8a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812229"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215531"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>维护作业类型类别和维护工作类型、维护作业类型变型、维护作业工种和维护清单
 

@@ -3,7 +3,7 @@ title: 应计休假和缺勤计划
 description: 您可以在 Dynamics 365 Human Resources 中累积多个或单个员工的休假和缺勤。
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba60fc2e5b17ec32aa6ad7eb104e8ae55ddee3bb
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092330"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197305"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>应计休假和缺勤计划
 
@@ -35,7 +35,7 @@ ms.locfileid: "3092330"
 
 2. 在**管理休假**下，选择**累积休假和缺勤计划**。
 
-3. 在**累积休假和缺勤计划**对话框中，在**累积截至**中，选择**今日日期**或选择**自定义日期**并输入自定义日期。
+3. 将显示**累积休假和缺勤计划**对话框。 在**累积截至**中，选择**今日日期**，或选择**自定义日期**并输入一个自定义日期。
 
 4. 如果要在后台运行累积流程，请选择**在后台运行**并执行以下任务：
 
@@ -53,7 +53,7 @@ ms.locfileid: "3092330"
 
 2. 选择**累积休假和缺勤**。
 
-3. 在**累积休假和缺勤计划**对话框中，在**累积截至**中，选择**今日日期**或选择**自定义日期**并输入自定义日期。
+3. 将显示**累积休假和缺勤计划**对话框。 在**累积截至**中，选择**今日日期**，或选择**自定义日期**并输入一个自定义日期。
 
 4. 如果要在后台运行累积流程，请选择**在后台运行**并执行以下任务：
 
@@ -65,15 +65,43 @@ ms.locfileid: "3092330"
 
    4. 选择**确定**。 累积流程将使用您设置的参数运行。
 
-## <a name="preview-features-for-leave-and-absence"></a>休假和缺勤的预览功能
+## <a name="delete-leave-and-absence-accruals-for-multiple-employees"></a>删除多个员工的休假和缺勤累积
 
-[!include [banner](includes/preview-feature-leave-absence.md)]
+删除特定计划和日期范围的累积记录。 累积日期必须是今天或将来的日期。
 
-您可以启用以下休假和缺勤预览功能：
+1. 在**休假和缺勤**页面，选择**链接**选项卡。
 
-- **删除休假和缺勤累积**。 删除特定计划和日期范围的累积记录。 累积日期必须是今天或将来的日期。
+2. 在**管理休假**下，选择**删除休假和缺勤计划应计项目**。
 
-- **休假累积审核**。 显示某人每一次运行或删除一个或所有员工的累积的操作，以及日期和执行操作的人。
+3. 在**删除休假和缺勤计划应计项目**对话框中，选择**休假计划**。 
+
+4. 如果适合，选择**删除余额调整**。
+
+5. 输入或选择一个**休假应计日期**。 这个日期必须是当天或在将来。 
+
+6. 选择**确定**。 累积流程将使用您设置的参数删除累积。 
+
+## <a name="delete-leave-and-absence-accruals-for-a-single-employee"></a>删除一个员工的休假和缺勤累积
+
+1. 在员工的记录上，选择**休假**。
+
+2. 选择**删除休假和缺勤计划应计项目**。
+
+3. 在**删除休假和缺勤计划应计项目**对话框中，选择**休假计划**。 
+
+4. 如果适合，选择**删除余额调整**。
+
+5. 输入或选择一个**休假应计日期**。 这个日期必须是当天或在将来。 
+
+6. 选择**确定**。 累积流程将使用您设置的参数删除累积。 
+
+## <a name="review-leave-accrual-and-deletion-processes"></a>检查休假累积和删除流程
+
+每次运行或删除一个或多个员工的累积时，都将显示**休假累积审核**。 还将显示执行操作的日期和人员。
+
+1. 在**休假和缺勤**页面，选择**链接**选项卡。
+
+2. 在**管理休假**下，选择**删除休假累积审核**。
 
 ## <a name="see-also"></a>请参阅
 

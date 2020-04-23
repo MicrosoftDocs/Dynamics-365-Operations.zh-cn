@@ -2,7 +2,7 @@
 title: 设置集装化
 description: 本主题描述如何在“仓库管理”中自动进行装载集装化。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 07/22/19
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9dbf62e1c518b0cd77da693127588a04f17d622
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 2b5ad1bdd91a2fb9109f29400f082e9a8af009ba
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148254"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216934"
 ---
 # <a name="set-up-containerization"></a>设置集装化
 

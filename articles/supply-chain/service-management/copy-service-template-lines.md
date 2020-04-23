@@ -2,7 +2,7 @@
 title: 复制服务模板行
 description: 模板信息可以复制到服务协议或服务订单。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 10/11/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable, SMAServiceOrderTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26b400d00a73c43ab74bb74b58dee833c792dad8
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 97e3c06cd8ff7e615bd5f4f1286fdb51df1aa840
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653218"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202920"
 ---
 # <a name="copy-service-templates-lines"></a>复制服务模板行 
 

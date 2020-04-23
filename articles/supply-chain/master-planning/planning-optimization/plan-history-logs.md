@@ -2,7 +2,7 @@
 title: 查看计划历史记录和计划日志
 description: 本主题说明如何查看由计划优化功能触发的计划作业的历史记录。
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 10/30/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3e69a9534343ce0bbf14ed87fc5ab5300ead1690
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: fc78507ba8958405b7a9c37d0c28e3e9d5bbab8e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076193"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209758"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>查看计划历史记录和计划日志
 

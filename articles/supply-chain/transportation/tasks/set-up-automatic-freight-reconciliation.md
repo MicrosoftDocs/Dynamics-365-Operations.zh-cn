@@ -2,7 +2,7 @@
 title: 设置自动装运对帐
 description: 此过程显示如何为自动货运对帐设置数据。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 10/16/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSFreightBillTypeAssignment, TMSCarrierCodeLookup, DefaultDashboard, TMSAuditMaster
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7551805b7b942b042a0f0f8d2ce408d0bac19d06
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: f8fc4ad5396446aa9f818e237efb06180d398f08
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3146236"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214933"
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>设置自动装运对帐
 

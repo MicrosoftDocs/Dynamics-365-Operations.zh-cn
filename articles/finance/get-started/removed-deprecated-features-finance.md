@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ec13076e6a05c3402af566487f7921f6971da215
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: aebce032d7d780b296ba74fea4467425a3cbe1a7
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127969"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175100"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance 中已删除或弃用的功能
 
@@ -47,6 +47,18 @@ ms.locfileid: "3127969"
 | **影响的产品区域**         | 申请表 |
 | **部署选项**              | 所有 |
 | **状态**                         | 已弃用：我们计划从 2021 年 7 月 1 日开始不再支持 SSRS 报表：**销售增值税登记簿、采购增值税登记簿、欧盟增值税汇总登记簿 – 功能引用 PL-00014**。 将改为引入包含增值税申报的标准审计文件的 Excel 格式示例 (JPK_VDEK)。 |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Finance 10.0.11 版本中已经删除或弃用的功能
+
+### <a name="norwegian-standard-main-accounts"></a>挪威标准主科目
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 重新设计  |
+| **被另一个功能取代？**   | 是（已被 ER 格式应用程序特定参数取代） |
+| **影响的产品区域**         | 申请表 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用：我们计划从 2021 年 4 月 1 日开始不再支持与标准主科目有关的功能：“引用”字段、相关表、数据实体。 |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Finance 10.0.7 版本中已经删除或弃用的功能
 

@@ -2,7 +2,7 @@
 title: 计算物料消耗量
 description: 本文提供有关与物料消耗量的计算相关的不同选项的信息。
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMDesignerEditBOM, BOMTable, ProdBOM
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 53401
 ms.assetid: 9cff88e4-0425-4707-9178-3c2cb10df7c2
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e4010b5abb6b5a871d098422f1489cb2db3a071
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f58365278200344169b93658e9c92dea2bc4f18f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572642"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211621"
 ---
 # <a name="calculate-material-consumption"></a>计算物料消耗量
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a37436eb15ee4c561d5d0c15c90e37815cb80860
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa61a70e14b7997258376beaf389129a4ad2fa73
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897917"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197259"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Dynamics 365 Talent（2019 年 4 月 16 日）中的新增功能或更改
 
@@ -46,10 +46,6 @@ ms.locfileid: "2897917"
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Common Data Service 中的“薪酬区域”、“薪酬级别”、“福利选项”和“技能类型”实体已更新，现在包含客户字段支持。
 
 在此版本中，已将这些 Common Data Service 实体更新为可包含通过 Talent: Core HR 添加的自定义字段。
-
-### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>新增了对以下 Common Data Service 实体的支持：“薪酬股份行权规则”、“薪酬可变计划”、“可变薪酬”
-
-在此版本中，已向 Common Data Service 添加了“薪酬股份行权规则”、“薪酬可变计划”和“可变薪酬”实体。 这些实体也支持通过 Talent: Core HR 添加的自定义字段。
 
 ### <a name="powerbi-refresh-issues-314342"></a>PowerBI 刷新问题 (314342)
 
@@ -93,6 +89,6 @@ ms.locfileid: "2897917"
 
 ### <a name="email-support-for-alerts"></a>警报的电子邮件支持
 
-安装 Finance and Operations 的平台更新 25 之后，用户可创建警报规则，用于在被事件触发后自动为联系人发送电子邮件通知。
+安装 Finance and Operations 的平台更新 25 之后，用户可创建警报规则，用于在被事件触发后自动向联系人发送电子邮件通知。
 
 

@@ -2,7 +2,7 @@
 title: 创建配置规则
 description: 该过程创建配置规则，以用于基于维度的配置，从而执行或防止物料清单行的某些组合。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable, BOMConfigRule, ConfigItemIdLookup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6d5758b2903cd0a269f3e03e44b618c26e8b2310
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: c53ea2eea7dfe3c02d1b21964decc6630d3a41cf
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3147863"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208263"
 ---
 # <a name="create-configuration-rules"></a>创建配置规则
 

@@ -2,7 +2,7 @@
 title: 维护条码类型
 description: 该过程显示如何设置新条码定义，这可作为领料单报表的一部分。
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BarcodeSetup, InventParameters
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7834745923bf5ec05018ff5829ddaa0b75df5db7
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 979726a1d094146b546bbc6d31963367de2c59f5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145549"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204071"
 ---
 # <a name="maintain-barcode-types"></a>维护条码类型
 

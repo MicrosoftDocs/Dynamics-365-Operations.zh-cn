@@ -2,7 +2,7 @@
 title: 需求预测设置
 description: 本主题介绍为准备需求预测您必须执行的设置任务。
 author: roxanadiaconu
-manager: AnnBe
+manager: tfehr
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 72653
 ms.assetid: c5fa4b09-512d-4349-ac51-cc13da69a160
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f56157be8cc61486801fc4c01bb191432dd9a541
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: 52e5f42f41a95897003f707f408a9d325dc31470
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935483"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203863"
 ---
 # <a name="demand-forecasting-setup"></a>需求预测设置
 

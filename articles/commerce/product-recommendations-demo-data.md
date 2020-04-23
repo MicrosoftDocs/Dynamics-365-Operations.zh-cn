@@ -1,9 +1,9 @@
 ---
 title: 使用演示数据创建建议
-description: 此文档使用预填充的可自定义演示数据提供有关如何在 1 级单盒环境中利用全渠道产品建议的指导。
+description: 此主题使用预填充的可自定义演示数据提供有关如何在 1 级单盒环境中利用全渠道产品建议的指导。
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/20
+ms.date: 03/30/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 59cb5e5c9b59ff2127149e3e47b6c30c9c938a27
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ec23461352abc53b90b6af539a3dd1764e4b5460
+ms.sourcegitcommit: 67cf9e2cf0f75e90526cae6bf176a40156c62a53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154241"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175541"
 ---
 # <a name="create-recommendations-with-demo-data"></a>使用演示数据创建建议
 
 [!include [banner](includes/banner.md)]
 
-此文档使用预填充的可自定义演示数据提供有关如何在 1 级单盒环境中利用全渠道产品建议的指导。
+此主题使用预填充的可自定义演示数据提供有关如何在 1 级单盒环境中利用全渠道产品建议的指导。
 
 全渠道产品建议提供一组以编辑身份策划或以编程方式生成的产品列表。 可以在多种方案中使用这些列表，具体取决于业务需要。 有关产品建议列表的详细信息，请参阅[产品建议概述](product-recommendations.md)。
 
@@ -42,16 +42,17 @@ ms.locfileid: "3154241"
 若要启用产品建议演示日期，需要将 Dynamics 365 Commerce 预览演示扩展部署到相应环境。 这将自动启用产品建议演示数据。
 
 ## <a name="default-demo-data"></a>默认演示数据
-每个 Onebox 类型的环境都自带一组预加载的产品建议演示数据，这些数据存储在以逗号分隔的“reco_demo_data.csv”文件中，该文件位于 Commerce Scale Unit 上。
+每个 OneBox 类型的环境都自带一组预加载的产品建议演示数据，这些数据存储在以逗号分隔的“reco_demo_data.csv”文件中，该文件位于 Commerce Scale Unit 上。
 
 此数据与以下列一起结构化。
 
-| 列名         | 限定          | 说明                                                                                                                                 | 可能的值                                                              |
+| 列名         | 强制          | 说明                                                                                                                                 | 可能的值                                                              |
 |---------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | RecoList            | :heavy_check_mark: | 演示数据点要生成的特定产品建议列表类型。                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li></ul> |
 | OperatingUnitNumber | :heavy_check_mark: | 预期在其中出现产品建议的特定运营单位编号。                                        |                                                                              |
 | 类别            |                    |    应该为其返回特定列表的类别。 如果不指定任何类别，则列表仅针对导航层次结构顶部。    |                                                                              |
 | SeedItemId          |                    |    对于需要种子的列表（RecoPeopleAlsoBuy 和 RecoCart），为这些列表应为其显示更多产品的产品。            |                                                                              |
+| CustomerId          |                    |    对于需要客户标识的列表 (RecoPicks)。  默认值“0”适用于所有客户。          |                                                                              |
 | ItemIds             | :heavy_check_mark: | 要作为结果返回且以“;”分隔的一个或多个产品。                                                                  |                                                                              |
 
 ## <a name="customize-demo-data"></a>自定义演示数据

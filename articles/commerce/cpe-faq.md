@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce 预览环境常见问题
 description: 本主题提供对有关 Microsoft Dynamics 365 Commerce 预览环境的常见问题的解答。
 author: v-chgri
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024744"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254716"
 ---
 # <a name="dynamics-365-commerce-preview-environment-faq"></a>Dynamics 365 Commerce 预览环境常见问题
 
@@ -77,8 +77,6 @@ Dynamics 365 Retail Cloud Scale Unit (RCSU) 和电子商务完全是软件即服
 ## <a name="dynamics-365-commerce-preview-environment-contact-information"></a>Dynamics 365 Commerce 预览环境联系信息
 
 如果您有关 Commerce 预览环境的问题或要求，需要与 Microsoft 联系，请访问 [Microsoft Dynamics 365 Commerce 预览 Yammer 组](https://aka.ms/Dynamics365CommercePreviewYammer)寻求帮助。
-
-如果您在尝试访问 Yammer 组时遇到问题，您可以通过电子邮件 <Dynamics365Commerce@microsoft.com> 与 Microsoft 联系。 此电子邮件地址的查看频率较低。 因此，回复会比较迟。
 
 ## <a name="additional-resources"></a>其他资源
 

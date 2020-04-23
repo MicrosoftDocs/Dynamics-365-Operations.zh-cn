@@ -2,7 +2,7 @@
 title: 在移动设备上领取最早的批次
 description: 此主题描述如何从移动设备设置和应用领取最早批次的选项。
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a592425ed28f591783ec45bdfd61574bb889557
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f235c34d6369c6f0584a7bac1c1be75f3d84c9c0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558276"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215623"
 ---
 # <a name="pick-oldest-batch-on-a-mobile-device"></a>在移动设备上领取最早的批次
 

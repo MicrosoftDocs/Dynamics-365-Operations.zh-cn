@@ -3,7 +3,7 @@ title: REPLACE ER 函数
 description: 本主题提供有关 REPLACE 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba2590635ba465dae9ea50d3e4da989365548f3b
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 83d5095620a938f1ac4b8428fff9209fda7a7831
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040978"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201058"
 ---
-# <a name="REPLACE">REPLACE ER 函数</a>
+# <a name=""></a><a name="REPLACE">REPLACE ER 函数</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -69,7 +69,7 @@ REPLACE (text, pattern, replacement, regular expression flag)
 
 如果 `regular expression flag` 参数是 **TRUE**，此函数将在通过应用 `pattern` 参数指定的正则表达式更改指定的字符串后返回该字符串。 此正则表达式用于查找必须替换的字符。
 
-如果 `regular expression flag` 参数是 **FALSE**，此函数的行为类似于 [TRANSLATE](er-functions-text-translate.md)。 由 `replacement` 参数指定的字符用于替换找到的字符。 
+如果 `regular expression flag` 参数为 **FALSE**，在 `pattern` 中定义的字符集被 `replacement` 参数的字符替换后，此函数将返回指定的字符串。 
 
 ## <a name="example-1"></a>示例 1
 

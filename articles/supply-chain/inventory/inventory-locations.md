@@ -2,7 +2,7 @@
 title: 库存库位
 description: 库存库位用于与基本仓库 (WMS I) 一同确定物料的存储位置和从 WMS I 仓库领取物料的位置。
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSLocation
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2134
 ms.assetid: 69bf6922-4151-447f-b678-4ba95637f54c
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce1e33fab6704dd3387f0c2034a8a950a858b2e0
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 72d9d41cd98670e45a1d20b61c2c09f190f15d19
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814298"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212748"
 ---
 # <a name="inventory-locations"></a>库存库位
 

@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c7ad8c6ee3450d57656f8c167ea8aa7554ac575a
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: b976bccf7f5da4483ec8a015f464db764b82a2f1
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008287"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197881"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>定义和管理福利计划
 
-人力资源提供一组工具，可使用这组工具设置和维护组织提供或为其工作人员处理的福利、扣缴和工作人员的薪酬计划。 本文章提供了有关如何设置和管理福利的信息。
+Human Resources 提供一组工具，可使用这组工具设置和维护组织提供或为其工作人员处理的福利、扣缴和工作人员的薪酬计划。 本文章提供了有关如何设置和管理福利的信息。
 
 ## <a name="benefit-setup"></a>福利设置
 

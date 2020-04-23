@@ -3,7 +3,7 @@ title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 03/03/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: d394f5ca84efc5beb943d349e45a3d2c9639d83c
-ms.sourcegitcommit: 75974ae567bb0eacf0f65cac992b34ce5c680b93
+ms.openlocfilehash: 0072ca507301fdb880f0595a06377ff01366ca20
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3095766"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260521"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
 
@@ -35,6 +35,28 @@ ms.locfileid: "3095766"
 
 > [!NOTE]
 > [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+
+## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.11 的平台更新
+
+### <a name="field-groups-containing-invalid-field-references"></a>其中包含无效字段引用的字段组
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 表元数据定义中的字段组中可能包含无效的字段引用。 如果部署这些字段组，可能导致 Financial Reporting 和 Microsoft SQL Server Reporting Services (SSRS) 中发生运行时失败。 平台更新 23 引入了编译器*警告*，从而解决了这个元数据问题。 Finance and Operations 应用版本 10.0.11 的平台更新将此问题归类为编译器*错误*。<p>若要解决此问题，请按照以下步骤操作。</p><ol><li>删除表字段组定义中的无效字段引用。</li><li>重新编译。</li><li>确保解决了所有错误。</li></ol> |
+| **被另一个功能取代？**   | 此编译器错误将永久替代编译器警告。  |
+| **影响的产品区域**         | Visual Studio 开发工具 |
+| **部署选项**              | 所有 |
+| **状态**                         | **已弃用**：在 Finance and Operations 应用版本 10.0.11 的平台更新中，此编译器警告现在已成为了编译器错误。 |
+
+### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>使用 SHA1 哈希算法创建的 ISV 许可证
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 已经改变了独立软件供应商 (ISV) 许可证的创建方法。 有关详细信息，请参阅[独立软件供应商 (ISV) 许可](../dev-tools/isv-licensing.md#appendix-create-self-signed-certificates-for-test-purposes)。 |
+| **被另一个功能取代？**   | 是。 使用 Windows PowerShell 创建许可证。 |
+| **影响的产品区域**         | Visual Studio 开发工具 |
+| **部署选项**              | 所有 |
+| **状态**                         | <strong>已弃用：</strong>使用 SHA1 哈希算法创建的 ISV 许可证。 此算法依赖于使用 MakeCert 实用程序创建的证书，但现在已弃用了该实用程序。<p><strong>已弃用：</strong>SHA1 用于安全或哈希用途。 SHA1 将于 2021 年年初停止工作。 因此不应再使用它。<p><strong>已去除：</strong>对传输层安全 (TLS) 1.0 和 TLS 1.1 传入或传出请求的支持。 |
 
 ## <a name="platform-update-32"></a>平台 update 32
 

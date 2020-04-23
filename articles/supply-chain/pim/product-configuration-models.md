@@ -2,7 +2,7 @@
 title: 产品配置模型概述
 description: 本文定义与产品配置模型有关的术语和概念。 可通过产品配置模型构建可用于为单个产品配置大量产品变型的通用产品结构。
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 4031
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eed6ca8236afa0e28cc4945757424c995f053d7
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: df370297b94b01a1135b1901dbb94b81952e2139
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653617"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209459"
 ---
 # <a name="product-configuration-models-overview"></a>产品配置模型概述
 

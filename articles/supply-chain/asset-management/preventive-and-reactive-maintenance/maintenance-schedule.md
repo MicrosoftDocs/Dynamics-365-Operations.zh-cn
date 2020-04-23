@@ -2,7 +2,7 @@
 title: 维护安排
 description: 本主题介绍资产管理中的维护安排。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fab21d6f3a1b7386d304ece6ebf3b93cdc0c504d
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: fc45dc73073f32db78dc5a8203c661d78437e55f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569999"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203288"
 ---
 # <a name="maintenance-schedule"></a>维护安排
 
@@ -38,12 +38,12 @@ ms.locfileid: "2569999"
 | 菜单项                  | 内容的描述                                                                                                                                             |
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 所有维护安排       | 将显示所有维护安排行。     |
-| 我的资产计划        | 此列表中显示其中包含在您作为工人关联的功能位置（在[维护工人和工人组](../setup-for-objects/workers-and-worker-groups.md)中设置）安装的资产的所有维护安排行。 |
+| 我的资产计划        | 此列表中显示其中包含在您作为工人关联的功能位置(在[维护工人和工人组](../setup-for-objects/workers-and-worker-groups.md)中设置)安装的资产的所有维护安排行。 |
 | 打开维护安排行 | 此列表中显示状态为“已创建”（表示尚未转换为工作订单或尚未被放弃）的维护安排行。                                            |
 | 打开维护安排池 | 此列表中显示与工作订单池关联的维护安排行。                                                                                                                  |
 
 >[!NOTE]
->如果一个维护安排行包含在多个工作订单池中（请参阅[工作订单池](../work-orders/work-order-pools.md)），将为**打开维护安排池**中的每个池显示一条记录。 这是为了优化工作订单池中的筛选选项。
+>如果一个维护安排行包含在多个工作订单池中(请参阅[工作订单池](../work-orders/work-order-pools.md))，将为**打开维护安排池**中的每个池显示一条记录。 这是为了优化工作订单池中的筛选选项。
 
 若要打开一个维护安排：
 

@@ -3,7 +3,7 @@ title: 电子报告高级公式编辑器
 description: 本主题描述如何使用高级公式编辑器来配置电子报告 (ER) 模型映射和格式组件中的表达式。
 author: NickSelin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: df402bc20753d2ba14295592f4b40e20f9fdc7bf
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: d9911c858d6832aa70378d37e0fd5cf7d7831b1b
+ms.sourcegitcommit: dce8c5d3b2fc4a752d676cf9ba91e0dea2fa80d8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138890"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "3257053"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>电子报告高级公式编辑器
 
@@ -156,6 +156,16 @@ ms.locfileid: "3138890"
 - 双括号中可以表示文本常量的标签 ID 的文本。
 
 [![ER 公式编辑器](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
+
+## <a name="limitations"></a>限制
+
+以下 Web 浏览器中现在支持此编辑器。
+
+- Chrome
+- Edge
+- Firefox
+- Opera
+- Safari
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -2,7 +2,7 @@
 title: 即时补货
 description: 本主题介绍如何在位置指令无法分配库存时使用即时补货为库存补货。
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ab1f06951d5daceaf002b2cc23236dd818457985
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 911a1da7d762b25f637b7d3b4d3b6214023203f5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543299"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205613"
 ---
 # <a name="immediate-replenishment"></a>即时补货
 

@@ -2,7 +2,7 @@
 title: 主计划设置向导
 description: 此主题介绍用于设置主计划的各种重要策略和参数。
 author: t-benebo
-manager: AnnBe
+manager: tfehr
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 9d7da31f2df31c7e5cbac73b3232233090ac369e
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: b38009cbfdd5444c6643c5c0159a1aa475aaa3ac
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031059"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213576"
 ---
 # <a name="master-planning-setup-wizard"></a>主计划设置向导
 

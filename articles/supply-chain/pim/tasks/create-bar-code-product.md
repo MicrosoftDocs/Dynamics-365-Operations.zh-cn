@@ -2,7 +2,7 @@
 title: 为产品创建条码
 description: 本主题显示以物料编号 M0001 为例如何手动创建条码。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, InventItemBarcode, InventItemBarcodeLookup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d7518169e2cd725fdef295d3ea31ffc45a7952fd
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 3f03c5e7a0c0d13b98d8f6181273b803f93c9f9a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150209"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209298"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>为产品创建条码
 

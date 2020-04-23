@@ -2,7 +2,7 @@
 title: 成本条目
 description: 本文提供有关成本条目及其何时创建的信息。 成本条目是登记指定事件的数量和成本的记录。
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19131
 ms.assetid: dd2663d8-bcc0-47b1-b36d-57433143487c
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb1a218dd5e6ab3f8029788af359b89521d6afdc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c8dc87ed64c888078f606a2b4d2e35c7c81e78b0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572873"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201853"
 ---
 # <a name="cost-entries"></a>成本条目
 

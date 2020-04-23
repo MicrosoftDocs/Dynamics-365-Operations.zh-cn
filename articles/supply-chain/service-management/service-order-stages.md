@@ -2,7 +2,7 @@
 title: 服务订单阶段
 description: 通过定义服务订单的阶段并将其分配给工作人员，您可以通过服务组织中的不同人员所执行的任务来控制服务订单的流程。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAStageTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b924be95c7e60598879e4d0cfd03193fe888dd7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b6ab601891faac34db6bc5397b387c126fa1289f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569697"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215048"
 ---
 # <a name="service-order-stages"></a>服务订单阶段   
 

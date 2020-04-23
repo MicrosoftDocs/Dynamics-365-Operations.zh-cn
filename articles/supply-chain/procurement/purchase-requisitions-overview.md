@@ -2,7 +2,7 @@
 title: 采购申请概览
 description: 此主题介绍了采购申请工作流和采购申请可能具有的不同状态。
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a51d443e40dbf948a06657293dcca77dc177896
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e3b365bf99fcb5c97a1afe1675ddcf34a0db8f07
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003645"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207848"
 ---
 # <a name="purchase-requisition-overview"></a>采购申请概览
 

@@ -2,7 +2,7 @@
 title: 将生产订单报告为已完工入库
 description: 完工入库是生产阶段。 在此阶段，将报告成品并将其从生产订单移到库存。
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdJournalTransJob, ProdJournalTransProd, ProdJournalTransRoute, ProdParmReportFinished, ProdRouteOprOverview
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 27061
 ms.assetid: 1c2dfc54-a293-49f2-9b96-5a912ac5762c
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 61c12ee3a831abcb46af18645eba55fe100c99c9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 87e5d4f46a2ae34a2bc114a92ed4e037875dde43
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567390"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211138"
 ---
 # <a name="report-production-orders-as-finished"></a>将生产订单报告为已完工入库
 

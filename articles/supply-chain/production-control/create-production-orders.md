@@ -2,7 +2,7 @@
 title: 生产订单生命周期概览
 description: 在创建生产订单时，将发起开始生产物料的请求。 生产订单包含与将生产的产品、生产数量和计划完工日期有关的信息。 它还包含要消耗的物料以及要用于生产物料的流程的信息。
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTable, ProdTableCreate
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19741
 ms.assetid: bbb6e69d-479c-45fc-a0a8-66da5df16c7f
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 79b1866cdca885d408aca07c546ca54aa0c3616b
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 80031737ab0d0c4ab1e4dbd5646ad91f1a010cd5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865178"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211598"
 ---
 # <a name="production-order-lifecycle-overview"></a>生产订单生命周期概览
 

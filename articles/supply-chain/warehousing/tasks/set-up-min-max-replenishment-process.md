@@ -2,7 +2,7 @@
 title: 设置最小-最大补货流程
 description: 此过程显示设置使用最小/最大补货战略的新补货流程。
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 10/02/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation, InventItemIdLookupSimple, WMSLocationIdLookup, WHSLocDirTable, InventLocationIdLookup, SysQueryForm, WHSWorkTemplateTable, WHSReplenishmentTemplates, UnitOfMeasureLookup, SysQueryTableLookUp, SysQueryFieldLookUp, SysRecurrence
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8210369139b3c3d4123deff5279abb26b1cbb17
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: b6b99cac46ea33b018a3f67dd4bf0164b8a7f0e6
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145954"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216865"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>设置最小-最大补货流程
 

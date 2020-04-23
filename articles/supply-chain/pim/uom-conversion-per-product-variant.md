@@ -2,7 +2,7 @@
 title: 按照产品变型的度量单位转换
 description: 本主题说明如何在产品变型中设置度量单位转换。
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
@@ -11,18 +11,18 @@ ms.technology: ''
 ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c8181f0bda9b781a6c2b0feb0aba1beb51bfea65
-ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
+ms.openlocfilehash: e50be7fa6fa686a90b2dd5c5200c881e4629f019
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2935091"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204485"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>按照产品变型的度量单位转换
 

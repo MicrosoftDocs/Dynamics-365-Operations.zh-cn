@@ -3,7 +3,7 @@ title: 页眉模块
 description: 此主题介绍标题模块和如何在 Microsoft Dynamics 365 Commerce 中创建页面标题。
 author: anupamar
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: efadd19681bbb21ea5b2b469e55bc6f4b0535046
-ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
+ms.openlocfilehash: cec138ebefbd2beb2f1cf6302ce58d8bbc5c4bbd
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3025643"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261436"
 ---
 # <a name="header-module"></a>标题模块
 
@@ -51,6 +51,7 @@ ms.locfileid: "3025643"
 
 - **导航菜单** – 导航菜单提供渠道导航层次结构和其他静态导航链接。 可以在 Dynamics 365 Commerce 中配置渠道导航层次结构。 导航菜单有一个**导航来源**属性，用于指定零售服务器导航菜单项和静态菜单项作为来源。 如果将静态菜单项指定为来源，则可以提供指向站点上其他页面的相对链接。 配置的项然后显示为页眉导航。 
 - **搜索** – 用户可使用搜索模块输入搜索词以搜索产品。 必须在**站点设置 \> 扩展**中提供默认搜索页面的 URL 和搜索查询参数。 搜索模块的属性可让您根据需要隐藏搜索按钮或标签。 搜索模块还支持自动建议选项，例如产品、关键字和类别搜索结果。
+- **购物车图标** - 购物车图标模块提供购物车图标，并显示任何给定时间购物车中的商品数量。 有关详细信息，请参阅[购物车图标模块](cart-icon-module.md)。
 
 ## <a name="create-a-header-module-for-a-page"></a>创建页面的标题模块
 
@@ -65,7 +66,10 @@ ms.locfileid: "3025643"
 1. 在导航菜单模块的属性窗格中，配置导航菜单模块的属性。
 1. 在标题模块的**搜索**插槽中，添加搜索模块。 
 1. 在搜索模块的属性窗格中，配置搜索模块的属性。 
+1. 在页眉模块的**购物车图标**插槽中，添加购物车图标模块。 
+1. 在购物车图标模块的属性窗格中，配置购物车图标模块的属性。 如果要在将鼠标光标悬停在购物车图标上方时显示迷你购物车，请为**显示迷你购物车**选择 **True**。
 1. 保存页面片段，完成编辑，然后发布。 
+
 
 若要帮助确保每个页面中显示页眉，请在为站点创建的每个页面模板中执行以下步骤。
 
@@ -82,10 +86,12 @@ ms.locfileid: "3025643"
 
 [购物车模块](add-cart-module.md)
 
-[结帐模块](add-checkout-module.md)
+[购物车图标模块](cart-icon-module.md)
+
+[结账模块](add-checkout-module.md)
 
 [订单确认模块](order-confirmation-module.md)
 
-[页眉模块](author-header-module.md)
+[标题模块](author-header-module.md)
 
 [页脚模块](author-footer-module.md)

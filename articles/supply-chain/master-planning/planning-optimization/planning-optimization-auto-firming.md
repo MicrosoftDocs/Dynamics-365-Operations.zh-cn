@@ -2,7 +2,7 @@
 title: 通过计划优化自动确认
 description: 本主题说明如何通过计划优化使用自动确认。
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 11/05/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 90319222e7357d7c54243faa8c64575377348467
-ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
+ms.openlocfilehash: 5bfa8a1f025c2884f31b9fcb817e008a007ac010
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2783145"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209735"
 ---
 # <a name="auto-firming-with-planning-optimization"></a>通过计划优化自动确认
 

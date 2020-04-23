@@ -2,7 +2,7 @@
 title: 采购订单审核移动工作区
 description: 此主题提供有关采购订单审核移动工作区的信息，以便您查看采购订单和通过操作作出响应。 例如，您可以审核或拒绝采购订单。
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 30211
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 33e5993f57a8c0248ac2e314f91cc40a2b355858
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 68676fba895dcc91fd3dba065788f3be3a6e9ee4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653456"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207940"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>采购订单审核移动工作区
 
@@ -73,7 +73,7 @@ ms.locfileid: "2653456"
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
-下载并安装 Finance and Operations 移动应用程序：
+下载并安装 Finance and Operations 移动应用：
 
 - [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 - [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

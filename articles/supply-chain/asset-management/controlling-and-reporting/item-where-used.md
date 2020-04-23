@@ -2,7 +2,7 @@
 title: 物料的使用位置
 description: 本主题介绍如何在资产管理中获取有关物料使用位置的概览。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 476b01a4bae34a271203f34481ff18042783d4df
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: aa1f00ba6b8259221aa2b1ee460be43ee9a311b2
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811255"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205455"
 ---
 # <a name="item-where-used"></a>物料的使用位置
 

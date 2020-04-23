@@ -2,14 +2,14 @@
 title: 资产管理移动工作区
 description: 此主题提供有关资产管理移动工作区的信息。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: fd6f45a7dc9d062a3602499e89a6473b3b4aeaee
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 525f21d076027f1bf339e59fd0e346706044839c
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278365"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216497"
 ---
 # <a name="asset-management-mobile-workspace"></a>资产管理移动工作区
 

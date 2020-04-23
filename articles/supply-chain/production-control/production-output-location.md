@@ -2,14 +2,14 @@
 title: 生产输出位置
 description: 本主题描述用于标识生产输出位置的层次结构。
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9445db6d78d46831ed961977d6041459f118fee9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e4002bf7dddb196edf306268ecc16e1bfa5d6d1e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548875"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211299"
 ---
 # <a name="production-output-location"></a>生产输出位置
 

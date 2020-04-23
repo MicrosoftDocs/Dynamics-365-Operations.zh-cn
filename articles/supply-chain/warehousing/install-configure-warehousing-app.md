@@ -2,7 +2,7 @@
 title: 安装和配置仓库应用概览
 description: 此主题介绍如何安装和配置 Dynamics 365 for Finance and Operations – 仓库应用。
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: df0bc9ff2405cc2f370ea777a70e005a1ff338a0
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 52882ef7542bfedebdae4a08de8404cddd01ed55
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814942"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205590"
 ---
 # <a name="install-and-configure-the-warehousing-app-overview"></a>安装和配置仓库应用概览
 
@@ -52,7 +52,7 @@ ms.locfileid: "2814942"
 -   Windows (UWP)
      - [Windows 应用商店上的 Finance and Operations - Warehousing](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 -   Android
-    - [Google Play Store 上的 Finance and Operations - Warehousing](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
+    - [Google Play Store 上的Finance and Operations - Warehousing](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
 > [!NOTE]
 > Zebra App Gallery 已停用，这意味着仓库应用程序不能再从该位置下载。

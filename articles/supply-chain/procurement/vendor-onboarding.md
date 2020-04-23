@@ -2,7 +2,7 @@
 title: 载入供应商
 description: 此主题介绍新供应商载入流程。 它介绍了各种角色在此过程中需要采取的操作。
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: a7168f9042bae561eb46ecdc8eea377862af8df0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250126"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203403"
 ---
 # <a name="onboard-vendors"></a>载入供应商
 [!include [banner](../includes/banner.md)]
@@ -48,7 +48,7 @@ ms.locfileid: "2250126"
 | 管理员            | | | 在 Supply Chain Management 和 Microsoft Azure 中创建用户。 | | | |
 | 供应商联系人    | | | 向联系人发送电子邮件。 | 登记供应商信息。 | | |
 
-有关供应商入职流程的快速演示，请观看有关[如何在 Finance and Operations 中为新供应商办理入职](https://www.youtube.com/watch?v=0KUc3AGaTKk)的 YouTube 短片。
+若要了解供应商入职流程的快速演示，请观看下面的 YouTube 短视频：[在 Finance and Operations 中为新供应商办理入职](https://www.youtube.com/watch?v=0KUc3AGaTKk)。
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>导入潜在供应商注册请求
 

@@ -3,7 +3,7 @@ title: 全渠道高级自动费用
 description: 此主题描述使用高级自动费用功能管理 Commerce 渠道订单的额外订单费用的功能。
 author: hhaines
 manager: annbe
-ms.date: 03/08/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: fd02a81f35b40e5075ccfe5c9a617d7de4e8250d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021803"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175146"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>全渠道高级自动费用
 
@@ -77,7 +77,7 @@ ms.locfileid: "3021803"
 
 #### <a name="use-case-scenario"></a>用例场景
 
-零售商要在需要向客户装运产品的任何 Commerce 渠道中创建交易记录时自动添加运费。 零售商提供 2 种交货方式：陆运和空运。 如果客户选择陆运，并且订单值少于 100 美元，零售商希望向客户收取 10.00 美元运费。 如果订单值超过 100 美元，并且客户选择陆运，客户将不会被收取任何额外的运费。 如果客户为所有订单选择空运交货方式，不论订单总值是多少，其将被收取运费 20.00 美元。
+零售商要在需要向客户装运产品的任何 Commerce 渠道中创建交易记录时自动添加运费。 零售商提供两种交货方式：陆运和空运。 如果客户选择陆运，并且订单值少于 100 美元，零售商希望向客户收取 10.00 美元运费。 如果订单值超过 100 美元，并且客户选择陆运，客户将不会被收取任何额外的运费。 如果客户为所有订单选择空运交货方式，不论订单总值是多少，其将被收取运费 20.00 美元。
 
 #### <a name="setup-and-configuration"></a>设置和配置
 
@@ -157,7 +157,7 @@ ms.locfileid: "3021803"
 
 #### <a name="use-case-scenario"></a>用例场景
 
-客户请求将其销售订单中的 2 件商品（共 5 件）包装成礼品。 零售商提供此可选服务的费用为每件商品 2.00 美元。 订单接受者需要将这些费用添加到需要礼品包装的特定商品。
+客户请求将其销售订单中的两件商品（共五件）包装成礼品。 零售商提供此可选服务的费用为每件商品 2.00 美元。 订单接受者需要将这些费用添加到需要礼品包装的特定商品。
 
 #### <a name="setup-and-configuration"></a>设置和配置
 
@@ -215,3 +215,10 @@ ms.locfileid: "3021803"
 ### <a name="charges-override-reports"></a>费用覆盖报表
 
 如果用户手动覆盖计算费用或向交易记录添加手动费用，则可在**费用覆盖历史记录**报表中审计这些数据。 此报表可以从 **Retail 和 Commerce \> 查询和报表 \> 费用覆盖历史记录**访问。 请务必注意，此报表需要的数据是通过“P”分发计划作业从渠道数据库导入到 HQ 的。 因此，此作业将商店交易记录输入导入到 HQ 中之前，此报表中可能不会立即包含有关仅在 POS 中执行的覆盖的信息。
+
+## <a name="additional-resources"></a>其他资源
+
+[按渠道启用和配置自动费用](auto-charges-by-channel.md)
+
+[将标头费用按比例分配给匹配的销售行](pro-rate-charges-matching-lines.md)
+

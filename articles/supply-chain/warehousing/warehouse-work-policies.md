@@ -2,7 +2,7 @@
 title: 仓库工作策略概览
 description: 仓库工作策略控制是否通过仓库流程在制造中基于工作订单类型、库存库位和产品创建仓库工作。
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 196561
 ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7476cf797685feb4c50e3cefef4c53ca37b82dff
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3fe22a92b445abbf6d1dcc67ead878db3f80d532
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251400"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204554"
 ---
 # <a name="warehouse-work-policies-overview"></a>仓库工作策略概览
 

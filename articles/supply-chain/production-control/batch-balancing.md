@@ -2,7 +2,7 @@
 title: 批次平衡
 description: 此主题介绍批次平衡流程。
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 46411052c7db25c3d1410c5280e8e856f0a40d3d
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 555c76651609718aeed11230b4de4fec3bb39ce9
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250121"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203334"
 ---
 # <a name="batch-balancing"></a>批次平衡
 

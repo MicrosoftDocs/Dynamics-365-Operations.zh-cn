@@ -3,7 +3,7 @@ title: 创建休假和缺勤计划
 description: 在 Dynamics 365 Human Resources 中为不同类型的休假创建休假计划。
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: 532d9b276692858c77e4de41018775e9520f1882
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087292"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197351"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>创建休假和缺勤计划
 
@@ -42,6 +42,11 @@ ms.locfileid: "3087292"
 1. 在**休假和缺勤**页中，选择**创建新计划**。
 
 2. 在**详细信息**下，为您的计划输入**名称**、**开始日期**、**说明**和**休假类型**。
+
+如果启用了**为单个休假和缺勤计划配置多个休假类型**功能，则将在**应计计划**中配置休假类型，而不是在**详细信息**下配置。 对于累积计划表中的每个记录，您可以定义休假类型。
+
+ > [!IMPORTANT]
+   > 启用此功能后，将无法关闭。
 
 3. 在**累积**选项卡中定义累积。累积确定何时以及多久向员工奖励一次休息时间。 在此步骤中，您将定义应在何时奖励累积的政策，以及按比例分配休假福利的政策。
 
@@ -95,8 +100,8 @@ ms.locfileid: "3087292"
    您可以创建层来基于不同级别奖励休息时间。
 
    如果您有小时员工，可以根据工作时数奖励休假，而不是根据在职年限。 工作时数数据通常存储在考勤管理系统中。 您可以从时间和出勤系统导入正常工时和加班工时，并将其用作员工奖励的基数。
-
-   1. 从**累积类型**下拉框中选择一个选项：
+   
+    1. 从**累积类型**下拉框中选择一个选项：
 
       - **服务月数** - 根据按服务月数计算的累积计划。
 
@@ -117,6 +122,13 @@ ms.locfileid: "3087292"
       - **最大结转** - 累积过程将在开始日期的周年纪念日调整超过最大结转余额的休假余额。
 
       - **赠予额度** - 员工在休假计划中首次登记时被赠予的初始时数或天数。 此金额不针对每个应计期间计入。
+      
+如果启用了**为单个休假和缺勤计划配置多个休假类型**功能，请从**休假类型**选择选项。 
+
+   > [!IMPORTANT]
+   > 启用此功能后，将无法关闭。
+
+如果启用了**使用全职等价**功能，Human Resources 将使用为职位定义的全职等价 (FTE) 来按比例分配员工的累积。 例如，如果 FTE 为 0.5，累积额度为 10，员工将累积 5。 仅当启用多个休假类型时，才能使用此功能。  
 
 5. 选择**保存**。
 
@@ -357,19 +369,6 @@ Human Resources 使用以下公式：
 |---------------------|-------------------|-----------------|------------|----------------|-----------------|---------|
 | Jeannette Nicholson | 0.00              | 6/1/2018        | 6/1/2018   | 1.00           | 9/1/2018        | 3.00    |
 | Jay Norman          | 0.00              | 6/15/2018       | 6/15/2018  | 1.00           | 9/1/2018        | 2.00    |
-
-## <a name="configure-preview-features"></a>配置预览功能
-
-如果您已启用休假和缺勤的预览功能，您还需要为其配置设置。
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. **预览功能：为单个休假和缺勤计划配置多个休假类型**。 对于累积计划表中的每个记录，您可以定义休假类型。
-
-   > [!IMPORTANT]
-   > 启用此功能后，将无法关闭。
-
-2. **预览功能：使用全职等价**。 如果启用此预览功能，Human Resources 将使用为职位定义的全职等价 (FTE) 来按比例分配员工的累积。 例如，如果 FTE 为 0.5，累积额度为 10，员工将累积 5。 仅当启用多个休假类型时，才能使用此功能。
 
 ## <a name="see-also"></a>请参阅
 

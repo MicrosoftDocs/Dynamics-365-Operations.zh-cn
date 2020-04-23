@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 49cdfeac8cda9f1ddd3aca61f902f00f30f3485b
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: efba2faf9428d9b556d74273bc7daadba7211c48
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154032"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248955"
 ---
 # <a name="expense-receipt-processing"></a>支出收据处理
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 通过为收据引入光学字符识别 (OCR) 处理，费用录入得到了增强。 此功能适合在创建费用报表时改善用户体验。
 

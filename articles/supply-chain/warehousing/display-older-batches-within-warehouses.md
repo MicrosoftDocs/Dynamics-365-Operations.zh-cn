@@ -2,7 +2,7 @@
 title: 在移动设备上配置“显示仓库内的更早批次”
 description: 本主题介绍如何设置移动设备以显示早于当前工作行位置的批次的位置列表。
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 946266e73d59bdf383f1f91cdf70dd58f01b995c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5b1c9452a811d662976a25993264be0617ac67fe
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569415"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205636"
 ---
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a>在移动设备上配置“显示仓库内的更早批次”
 

@@ -2,7 +2,7 @@
 title: 物料异常的可见性
 description: 此主题介绍如何提高用于生产订单和批次订单的原材料异常的可见性。
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c7a5cc4f6c6f430a2ceb9125edb3916fe7b71ab8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 37d0841b656153255b9230a60229d30064b81fbe
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569791"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212610"
 ---
 # <a name="visibility-into-material-exceptions"></a>物料异常的可见性
 

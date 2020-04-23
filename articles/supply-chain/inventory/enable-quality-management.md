@@ -2,7 +2,7 @@
 title: 质量管理概述
 description: 本主题介绍如何在 Dynamics 365 Supply Chain Management 中使用质量管理来帮助改进您的供应链中的产品质量。
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2d51c659d9d06f075458359d81de978e7a6d14b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
+ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814390"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3224901"
 ---
 # <a name="quality-management-overview"></a>质量管理概述
 
@@ -302,122 +302,6 @@ ms.locfileid: "2814390"
 
 - 如果将**按照更新的数量**选项设置为**是**，则会根据物料抽样中收到的数量和设置，根据采购订单为每个收货生成质检订单。 每次根据采购订单接收数量时，都会根据新接收的数量生成新的质检订单。
 - 如果将**按照更新的数量**选项设置为**否**，则会根据收到的数量，根据采购订单为第一个收货生成质检订单。 此外，根据跟踪维度，将基于剩余数量创建一个或多个质检订单。 不会根据采购订单为后续收货生成质检订单。
-
-<table>
-<tbody>
-<tr>
-<th>质量规范</th>
-<th>按照更新的数量</th>
-<th>按照跟踪维度</th>
-<th>结果</th>
-</tr>
-<tr>
-<td>百分比：10%</td>
-<td>是</td>
-<td>
-<p>批处理号：否</p>
-<p>序列号：否</p>
-</td>
-<td>
-<p>订单数量：100</p>
-<ol>
-<li>30 的完工入库量
-<ul>
-<li>3 的质检订单 #1（30 的 10%）</li>
-</ul>
-</li>
-<li>70 的完工入库量
-<ul>
-<li>7 的质检订单 #2（剩余订单数量的 10%，该数量在此例中等于 70）</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>固定数量：1</td>
-<td>否</td>
-<td>
-<p>批处理号：否</p>
-<p>序列号：否</p>
-</td>
-<td>订单数量：100
-<ol>
-<li>30 的完工入库量
-<ul>
-<li>为 1 创建质检订单 #1（对于第一个完工入库数量，其固定值为 1）。</li>
-<li>不会再根据剩余数量创建更多质检订单。</li>
-</ul>
-</li>
-<li>10 的完工入库量
-<ul>
-<li>未创建质检订单。</li>
-</ul>
-</li>
-<li>60 的完工入库量
-<ul>
-<li>未创建质检订单。</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>固定数量：1</td>
-<td>是</td>
-<td>
-<p>批处理号：是</p>
-<p>序列号：是</p>
-</td>
-<td>
-<p>订单数量：10</p>
-<ol>
-<li>3 的完工入库量
-<ul>
-<li>批次 #b1、序列 #s1 的 1 的质检订单 #1</li>
-<li>批次 #b2、序列 #s2 的 1 的质检订单 #2</li>
-<li>批次 #b3、序列 #s3 的 1 的质检订单 #3</li>
-</ul>
-</li>
-<li>2 的完工入库量
-<ul>
-<li>批次 #b4、序列 #s4 的 1 的质检订单 #4</li>
-<li>批次 #b5、序列 #s5 的 1 的质检订单 #5</li>
-</ul>
-</li>
-</ol>
-<p><strong>注意：</strong>批次可以重复使用。</p>
-</td>
-</tr>
-<tr>
-<td>固定数量：2</td>
-<td>否</td>
-<td>
-<p>批处理号：是</p>
-<p>序列号：是</p>
-</td>
-<td>
-<p>订单数量：10</p>
-<ol>
-<li>4 的完工入库量
-<ul>
-<li>批次 #b1、序列 #s1 的 1 的质检订单 #1。</li>
-<li>批次 #b2、序列 #s2 的 1 的质检订单 #2。</li>
-<li>批次 #b3、序列 #s3 的 1 的质检订单 #3。</li>
-<li>批次 #b4、序列 #s4 的 1 的质检订单 #4。</li>
-<li>不会再根据剩余数量创建更多质检订单。</li>
-</ul>
-</li>
-<li>6 的完工入库量
-<ul>
-<li>未创建质检订单。</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### <a name="production"></a>生产
 

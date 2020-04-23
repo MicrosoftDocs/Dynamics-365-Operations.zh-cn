@@ -2,7 +2,7 @@
 title: 针对标准成本的先决条件概览
 description: 本主题介绍使用标准成本的基本步骤。
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventStdCostConv, CostingVersion
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d5fd28f2605c6382a5901b7d52389b07c54d037
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: f66f7061c608379689016e3c0b9c5ba4ad23dc9e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865488"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214497"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>针对标准成本的先决条件概览
 
