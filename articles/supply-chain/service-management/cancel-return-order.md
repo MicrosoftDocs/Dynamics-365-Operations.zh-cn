@@ -2,7 +2,7 @@
 title: 取消退货单
 description: 在您想要保存计划退货的记录时，您可以取消某一退货单，而非删除它。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,34 +18,34 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a920c54e7cbb4d8478b6e409459807db68c77cc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 904d0e026cf05ab70a245546e41977de0a42a721
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555413"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202989"
 ---
-# <a name="cancel-a-return-order"></a><span data-ttu-id="145cc-103">取消退货单</span><span class="sxs-lookup"><span data-stu-id="145cc-103">Cancel a return order</span></span> 
+# <a name="cancel-a-return-order"></a><span data-ttu-id="bfab1-103">取消退货单</span><span class="sxs-lookup"><span data-stu-id="bfab1-103">Cancel a return order</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="145cc-104">在您想要保存计划退货的记录时，您可以取消某一退货单，而非删除它。</span><span class="sxs-lookup"><span data-stu-id="145cc-104">You can cancel a return order, instead of deleting it, when you want to save a record of the planned return.</span></span>
+<span data-ttu-id="bfab1-104">在您想要保存计划退货的记录时，您可以取消某一退货单，而非删除它。</span><span class="sxs-lookup"><span data-stu-id="bfab1-104">You can cancel a return order, instead of deleting it, when you want to save a record of the planned return.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="145cc-105">只能取消状态为<STRONG>已创建</STRONG>的退货单。</span><span class="sxs-lookup"><span data-stu-id="145cc-105">Only return orders that have a <STRONG>Created</STRONG> status can be canceled.</span></span> <span data-ttu-id="145cc-106">状态为<STRONG>未结</STRONG>或<STRONG>已关闭</STRONG>的退货单不能取消。</span><span class="sxs-lookup"><span data-stu-id="145cc-106">Return orders with an <STRONG>Open</STRONG> or <STRONG>Closed</STRONG> status cannot be canceled.</span></span></P>
+> <P><span data-ttu-id="bfab1-105">只能取消状态为<STRONG>已创建</STRONG>的退货单。</span><span class="sxs-lookup"><span data-stu-id="bfab1-105">Only return orders that have a <STRONG>Created</STRONG> status can be canceled.</span></span> <span data-ttu-id="bfab1-106">状态为<STRONG>未结</STRONG>或<STRONG>已关闭</STRONG>的退货单不能取消。</span><span class="sxs-lookup"><span data-stu-id="bfab1-106">Return orders with an <STRONG>Open</STRONG> or <STRONG>Closed</STRONG> status cannot be canceled.</span></span></P>
 
 
-1.  <span data-ttu-id="145cc-107">单击**销售和市场营销** \> **通用** \> **退货单** \> **所有退货单**。</span><span class="sxs-lookup"><span data-stu-id="145cc-107">Click **Sales and marketing** \> **Common** \> **Return orders** \> **All return orders**.</span></span>
+1.  <span data-ttu-id="bfab1-107">单击**销售和市场营销** \> **通用** \> **退货单** \> **所有退货单**。</span><span class="sxs-lookup"><span data-stu-id="bfab1-107">Click **Sales and marketing** \> **Common** \> **Return orders** \> **All return orders**.</span></span>
     
-    <span data-ttu-id="145cc-108">–或–</span><span class="sxs-lookup"><span data-stu-id="145cc-108">–or–</span></span>
+    <span data-ttu-id="bfab1-108">–或–</span><span class="sxs-lookup"><span data-stu-id="bfab1-108">–or–</span></span>
     
-    <span data-ttu-id="145cc-109">单击**销售和市场营销** \> **通用** \> **退货单** \> **已创建的退货单**。</span><span class="sxs-lookup"><span data-stu-id="145cc-109">Click **Sales and marketing** \> **Common** \> **Return orders** \> **Created return orders**.</span></span>
+    <span data-ttu-id="bfab1-109">单击**销售和市场营销** \> **通用** \> **退货单** \> **已创建的退货单**。</span><span class="sxs-lookup"><span data-stu-id="bfab1-109">Click **Sales and marketing** \> **Common** \> **Return orders** \> **Created return orders**.</span></span>
 
-2.  <span data-ttu-id="145cc-110">取消要取消的退货单。</span><span class="sxs-lookup"><span data-stu-id="145cc-110">Select the return order to cancel.</span></span>
+2.  <span data-ttu-id="bfab1-110">取消要取消的退货单。</span><span class="sxs-lookup"><span data-stu-id="bfab1-110">Select the return order to cancel.</span></span>
 
-3.  <span data-ttu-id="145cc-111">单击**取消订单**。</span><span class="sxs-lookup"><span data-stu-id="145cc-111">Click **Cancel order**.</span></span>
+3.  <span data-ttu-id="bfab1-111">单击**取消订单**。</span><span class="sxs-lookup"><span data-stu-id="bfab1-111">Click **Cancel order**.</span></span>
 
 
 

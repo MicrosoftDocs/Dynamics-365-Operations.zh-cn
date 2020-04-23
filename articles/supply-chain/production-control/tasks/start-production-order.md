@@ -2,71 +2,71 @@
 title: 开始生产订单
 description: 该过程显示如何在作业车间启动生产订单。
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e770c905079461c1f4f0117f61f6c10b86ddaf6
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: e444f6c521c47964b9b9b864b62fb486102c2fc7
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3146598"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3210379"
 ---
-# <a name="start-a-production-order"></a><span data-ttu-id="1dfb6-103">开始生产订单</span><span class="sxs-lookup"><span data-stu-id="1dfb6-103">Start a production order</span></span>
+# <a name="start-a-production-order"></a><span data-ttu-id="01dbc-103">开始生产订单</span><span class="sxs-lookup"><span data-stu-id="01dbc-103">Start a production order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="1dfb6-104">该过程显示如何在作业车间启动生产订单。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="1dfb6-105">此流程会报告时间和物料消耗量。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="1dfb6-106">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="1dfb6-107">这是解释生产订单周期的七个步骤中的第五步。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="01dbc-104">该过程显示如何在作业车间启动生产订单。</span><span class="sxs-lookup"><span data-stu-id="01dbc-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="01dbc-105">此流程会报告时间和物料消耗量。</span><span class="sxs-lookup"><span data-stu-id="01dbc-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="01dbc-106">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="01dbc-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="01dbc-107">这是解释生产订单周期的七个步骤中的第五步。</span><span class="sxs-lookup"><span data-stu-id="01dbc-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="start-a-production-order"></a><span data-ttu-id="1dfb6-108">开始生产订单</span><span class="sxs-lookup"><span data-stu-id="1dfb6-108">Start a production order</span></span>
-1. <span data-ttu-id="1dfb6-109">转到“生产控制”>“生产订单”>“全部生产订单”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-109">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="1dfb6-110">选择一个状态为“已发布”的生产订单。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-110">Select a production order that has the Released status.</span></span>  
-2. <span data-ttu-id="1dfb6-111">在操作窗格上单击“生产订单”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-111">On the Action Pane, click Production order.</span></span>
-3. <span data-ttu-id="1dfb6-112">单击“开始”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-112">Click Start.</span></span>
-    * <span data-ttu-id="1dfb6-113">在此页，可以确认生产订单的开始时间。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-113">On this page, you can confirm the start of the production order.</span></span>  
-4. <span data-ttu-id="1dfb6-114">单击“常规”选项卡。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-114">Click the General tab.</span></span>
-5. <span data-ttu-id="1dfb6-115">在“开始工序</span><span class="sxs-lookup"><span data-stu-id="1dfb6-115">In the From Oper.</span></span> <span data-ttu-id="1dfb6-116">编号</span><span class="sxs-lookup"><span data-stu-id="1dfb6-116">No.</span></span> <span data-ttu-id="1dfb6-117">字段中，输入“10”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-117">field, enter '10'.</span></span>
-6. <span data-ttu-id="1dfb6-118">在“自动工艺路线消耗量”字段中，选择“始终”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-118">In the Automatic route consumption field, select 'Always'.</span></span>
-7. <span data-ttu-id="1dfb6-119">单击“现在过帐工艺卡”复选框。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-119">Click the Post route card now checkbox.</span></span>
-8. <span data-ttu-id="1dfb6-120">在“自动 BOM 消耗量”字段中，选择“始终”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
-9. <span data-ttu-id="1dfb6-121">单击“过帐领料单”复选框。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-121">Click the Post picking list now checkbox.</span></span>
-10. <span data-ttu-id="1dfb6-122">单击“打印过帐领料单”复选框。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-122">Click the Print picking list checkbox.</span></span>
-11. <span data-ttu-id="1dfb6-123">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-123">Click OK.</span></span>
-    * <span data-ttu-id="1dfb6-124">这是一个已打印的显示生产订单所使用的物料的领料单。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
-12. <span data-ttu-id="1dfb6-125">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-125">Close the page.</span></span>
+## <a name="start-a-production-order"></a><span data-ttu-id="01dbc-108">开始生产订单</span><span class="sxs-lookup"><span data-stu-id="01dbc-108">Start a production order</span></span>
+1. <span data-ttu-id="01dbc-109">转到“生产控制”>“生产订单”>“全部生产订单”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-109">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="01dbc-110">选择一个状态为“已发布”的生产订单。</span><span class="sxs-lookup"><span data-stu-id="01dbc-110">Select a production order that has the Released status.</span></span>  
+2. <span data-ttu-id="01dbc-111">在操作窗格上单击“生产订单”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-111">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="01dbc-112">单击“开始”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-112">Click Start.</span></span>
+    * <span data-ttu-id="01dbc-113">在此页，可以确认生产订单的开始时间。</span><span class="sxs-lookup"><span data-stu-id="01dbc-113">On this page, you can confirm the start of the production order.</span></span>  
+4. <span data-ttu-id="01dbc-114">单击“常规”选项卡。</span><span class="sxs-lookup"><span data-stu-id="01dbc-114">Click the General tab.</span></span>
+5. <span data-ttu-id="01dbc-115">在“开始工序</span><span class="sxs-lookup"><span data-stu-id="01dbc-115">In the From Oper.</span></span> <span data-ttu-id="01dbc-116">编号</span><span class="sxs-lookup"><span data-stu-id="01dbc-116">No.</span></span> <span data-ttu-id="01dbc-117">字段中，输入“10”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-117">field, enter '10'.</span></span>
+6. <span data-ttu-id="01dbc-118">在“自动工艺路线消耗量”字段中，选择“始终”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-118">In the Automatic route consumption field, select 'Always'.</span></span>
+7. <span data-ttu-id="01dbc-119">单击“现在过帐工艺卡”复选框。</span><span class="sxs-lookup"><span data-stu-id="01dbc-119">Click the Post route card now checkbox.</span></span>
+8. <span data-ttu-id="01dbc-120">在“自动 BOM 消耗量”字段中，选择“始终”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
+9. <span data-ttu-id="01dbc-121">单击“过帐领料单”复选框。</span><span class="sxs-lookup"><span data-stu-id="01dbc-121">Click the Post picking list now checkbox.</span></span>
+10. <span data-ttu-id="01dbc-122">单击“打印过帐领料单”复选框。</span><span class="sxs-lookup"><span data-stu-id="01dbc-122">Click the Print picking list checkbox.</span></span>
+11. <span data-ttu-id="01dbc-123">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-123">Click OK.</span></span>
+    * <span data-ttu-id="01dbc-124">这是一个已打印的显示生产订单所使用的物料的领料单。</span><span class="sxs-lookup"><span data-stu-id="01dbc-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
+12. <span data-ttu-id="01dbc-125">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="01dbc-125">Close the page.</span></span>
 
-## <a name="validate-the-picking-list"></a><span data-ttu-id="1dfb6-126">验证领料单</span><span class="sxs-lookup"><span data-stu-id="1dfb6-126">Validate the picking list</span></span>
-1. <span data-ttu-id="1dfb6-127">在操作窗格上，单击“查看”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-127">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="1dfb6-128">单击“领料单”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-128">Click Picking list.</span></span>
-3. <span data-ttu-id="1dfb6-129">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-129">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="1dfb6-130">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-130">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="1dfb6-131">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-131">Click Edit.</span></span>
-6. <span data-ttu-id="1dfb6-132">在“消耗”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-132">In the Consumption field, enter a number.</span></span>
-7. <span data-ttu-id="1dfb6-133">单击“过帐”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-133">Click Post.</span></span>
-8. <span data-ttu-id="1dfb6-134">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-134">Click OK.</span></span>
-    * <span data-ttu-id="1dfb6-135">在领料单日记帐中，过帐生产订单的物料消耗量。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="1dfb6-136">在过帐日记帐之前，如果在估计数量和实际消耗的数量之间存在差异，可以进行调整。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
-9. <span data-ttu-id="1dfb6-137">单击“网格面板”选项卡。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-137">Click the GridPanel tab.</span></span>
-10. <span data-ttu-id="1dfb6-138">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-138">Close the page.</span></span>
+## <a name="validate-the-picking-list"></a><span data-ttu-id="01dbc-126">验证领料单</span><span class="sxs-lookup"><span data-stu-id="01dbc-126">Validate the picking list</span></span>
+1. <span data-ttu-id="01dbc-127">在操作窗格上，单击“查看”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-127">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="01dbc-128">单击“领料单”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-128">Click Picking list.</span></span>
+3. <span data-ttu-id="01dbc-129">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="01dbc-129">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="01dbc-130">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="01dbc-130">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="01dbc-131">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-131">Click Edit.</span></span>
+6. <span data-ttu-id="01dbc-132">在“消耗”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="01dbc-132">In the Consumption field, enter a number.</span></span>
+7. <span data-ttu-id="01dbc-133">单击“过帐”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-133">Click Post.</span></span>
+8. <span data-ttu-id="01dbc-134">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-134">Click OK.</span></span>
+    * <span data-ttu-id="01dbc-135">在领料单日记帐中，过帐生产订单的物料消耗量。</span><span class="sxs-lookup"><span data-stu-id="01dbc-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="01dbc-136">在过帐日记帐之前，如果在估计数量和实际消耗的数量之间存在差异，可以进行调整。</span><span class="sxs-lookup"><span data-stu-id="01dbc-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
+9. <span data-ttu-id="01dbc-137">单击“网格面板”选项卡。</span><span class="sxs-lookup"><span data-stu-id="01dbc-137">Click the GridPanel tab.</span></span>
+10. <span data-ttu-id="01dbc-138">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="01dbc-138">Close the page.</span></span>
 
-## <a name="verify-the-route-card-journal"></a><span data-ttu-id="1dfb6-139">核实工艺卡日记帐</span><span class="sxs-lookup"><span data-stu-id="1dfb6-139">Verify the route card journal</span></span>
-1. <span data-ttu-id="1dfb6-140">在操作窗格上，单击“查看”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-140">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="1dfb6-141">单击“工艺卡”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-141">Click Route card.</span></span>
-3. <span data-ttu-id="1dfb6-142">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-142">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="1dfb6-143">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-143">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="1dfb6-144">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-144">Click Edit.</span></span>
-6. <span data-ttu-id="1dfb6-145">在“小时”字段，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-145">In the Hours field, enter a number.</span></span>
-7. <span data-ttu-id="1dfb6-146">单击“过帐”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-146">Click Post.</span></span>
-8. <span data-ttu-id="1dfb6-147">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-147">Click OK.</span></span>
-    * <span data-ttu-id="1dfb6-148">在“工艺卡日记帐”，记录各工序所用的时间。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="1dfb6-149">还可以报告完好和残次数量。</span><span class="sxs-lookup"><span data-stu-id="1dfb6-149">Good and error quantity can also be reported.</span></span>  
+## <a name="verify-the-route-card-journal"></a><span data-ttu-id="01dbc-139">核实工艺卡日记帐</span><span class="sxs-lookup"><span data-stu-id="01dbc-139">Verify the route card journal</span></span>
+1. <span data-ttu-id="01dbc-140">在操作窗格上，单击“查看”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-140">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="01dbc-141">单击“工艺卡”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-141">Click Route card.</span></span>
+3. <span data-ttu-id="01dbc-142">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="01dbc-142">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="01dbc-143">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="01dbc-143">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="01dbc-144">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-144">Click Edit.</span></span>
+6. <span data-ttu-id="01dbc-145">在“小时”字段，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="01dbc-145">In the Hours field, enter a number.</span></span>
+7. <span data-ttu-id="01dbc-146">单击“过帐”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-146">Click Post.</span></span>
+8. <span data-ttu-id="01dbc-147">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="01dbc-147">Click OK.</span></span>
+    * <span data-ttu-id="01dbc-148">在“工艺卡日记帐”，记录各工序所用的时间。</span><span class="sxs-lookup"><span data-stu-id="01dbc-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="01dbc-149">还可以报告完好和残次数量。</span><span class="sxs-lookup"><span data-stu-id="01dbc-149">Good and error quantity can also be reported.</span></span>  

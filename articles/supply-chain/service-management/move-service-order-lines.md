@@ -2,7 +2,7 @@
 title: 移动服务订单行
 description: 移动服务订单行。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,39 +18,39 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ae467efc273e112ea9330d8578d57ae3e22240f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5911a3c48d7ddd7dc705cb90fd72b821a2ae1921
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566379"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202207"
 ---
-# <a name="move-service-order-lines"></a><span data-ttu-id="c6255-103">移动服务订单行</span><span class="sxs-lookup"><span data-stu-id="c6255-103">Move service order lines</span></span> 
+# <a name="move-service-order-lines"></a><span data-ttu-id="907e6-103">移动服务订单行</span><span class="sxs-lookup"><span data-stu-id="907e6-103">Move service order lines</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="c6255-104">单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。</span><span class="sxs-lookup"><span data-stu-id="c6255-104">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="907e6-104">单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。</span><span class="sxs-lookup"><span data-stu-id="907e6-104">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="c6255-105">双击包含您要移到其他服务订单的行的服务订单。</span><span class="sxs-lookup"><span data-stu-id="c6255-105">Double-click the service order that contains the lines that you want to move to another service order.</span></span>
+2.  <span data-ttu-id="907e6-105">双击包含您要移到其他服务订单的行的服务订单。</span><span class="sxs-lookup"><span data-stu-id="907e6-105">Double-click the service order that contains the lines that you want to move to another service order.</span></span>
 
-3.  <span data-ttu-id="c6255-106">在**服务订单**窗体中的操作窗格上，单击**移动行**按钮。</span><span class="sxs-lookup"><span data-stu-id="c6255-106">In the **Service orders** form, on the Action Pane, click the **Move lines** button.</span></span>
+3.  <span data-ttu-id="907e6-106">在**服务订单**窗体中的操作窗格上，单击**移动行**按钮。</span><span class="sxs-lookup"><span data-stu-id="907e6-106">In the **Service orders** form, on the Action Pane, click the **Move lines** button.</span></span>
 
-4.  <span data-ttu-id="c6255-107">在**移动服务订单行**窗体上的**服务订单**字段中，选择要将行移到的服务订单。</span><span class="sxs-lookup"><span data-stu-id="c6255-107">In the **Move service order lines** form, in the **Service order** field, select the service order that you want to move the lines to.</span></span>
+4.  <span data-ttu-id="907e6-107">在**移动服务订单行**窗体上的**服务订单**字段中，选择要将行移到的服务订单。</span><span class="sxs-lookup"><span data-stu-id="907e6-107">In the **Move service order lines** form, in the **Service order** field, select the service order that you want to move the lines to.</span></span>
 
-5.  <span data-ttu-id="c6255-108">如果要删除从中移走了服务订单行的服务订单，则选中**删除空服务订单**复选框。</span><span class="sxs-lookup"><span data-stu-id="c6255-108">Select the **Delete empty service order** check box to delete the service order that you moved the service order lines from.</span></span>
+5.  <span data-ttu-id="907e6-108">如果要删除从中移走了服务订单行的服务订单，则选中**删除空服务订单**复选框。</span><span class="sxs-lookup"><span data-stu-id="907e6-108">Select the **Delete empty service order** check box to delete the service order that you moved the service order lines from.</span></span>
 
-6.  <span data-ttu-id="c6255-109">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="c6255-109">Click **OK**.</span></span>
+6.  <span data-ttu-id="907e6-109">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="907e6-109">Click **OK**.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="c6255-110">您只能在附加到相同服务协议的服务订单之间移动服务订单行。</span><span class="sxs-lookup"><span data-stu-id="c6255-110">You can move service order lines only between service orders that are attached to the same service agreement.</span></span></P>
+> <P><span data-ttu-id="907e6-110">您只能在附加到相同服务协议的服务订单之间移动服务订单行。</span><span class="sxs-lookup"><span data-stu-id="907e6-110">You can move service order lines only between service orders that are attached to the same service agreement.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="c6255-111">请参阅</span><span class="sxs-lookup"><span data-stu-id="c6255-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="907e6-111">请参阅</span><span class="sxs-lookup"><span data-stu-id="907e6-111">See also</span></span>
 
-[<span data-ttu-id="c6255-112">服务订单</span><span class="sxs-lookup"><span data-stu-id="c6255-112">Service orders</span></span>](service-orders.md)
+[<span data-ttu-id="907e6-112">服务订单</span><span class="sxs-lookup"><span data-stu-id="907e6-112">Service orders</span></span>](service-orders.md)
 
   
 

@@ -2,7 +2,7 @@
 title: 开始使用计划优化
 description: 本主题说明如何开始使用计划优化功能。
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,85 +19,85 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3e64699005387adcc92e2e7c9fefad68a9de85c0
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4f9124e824a0b6d5035b2567cb19c2c494390d55
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076124"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213507"
 ---
-# <a name="get-started-with-planning-optimization"></a><span data-ttu-id="d774d-103">开始使用计划优化</span><span class="sxs-lookup"><span data-stu-id="d774d-103">Get started with Planning Optimization</span></span>
+# <a name="get-started-with-planning-optimization"></a><span data-ttu-id="d8ff1-103">开始使用计划优化</span><span class="sxs-lookup"><span data-stu-id="d8ff1-103">Get started with Planning Optimization</span></span>
 
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d774d-104">计划优化功能当前不支持 Microsoft Dynamics 365 Supply Chain Management 内置的计划引擎中提供的所有功能。</span><span class="sxs-lookup"><span data-stu-id="d774d-104">The Planning Optimization functionality doesn't currently support all the features that are available in the planning engine that is built into Microsoft Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="d774d-105">因此，重要的是要评估计划优化中当前可用的功能集是否满足您的要求。</span><span class="sxs-lookup"><span data-stu-id="d774d-105">Therefore, it's important that you evaluate whether the feature set that is currently available in Planning Optimization will meet your requirements.</span></span> <span data-ttu-id="d774d-106">默认情况下，Dynamics Lifecycle Services (LCS) 中默认不启用计划优化功能。</span><span class="sxs-lookup"><span data-stu-id="d774d-106">By default, the Planning Optimization functionality isn't turned on in Dynamics Lifecycle Services (LCS) by default.</span></span> <span data-ttu-id="d774d-107">因此，您有机会在启用之前进行评估。</span><span class="sxs-lookup"><span data-stu-id="d774d-107">Therefore, you have an opportunity to do your evaluation before it's turned on.</span></span>
+<span data-ttu-id="d8ff1-104">计划优化功能当前不支持 Microsoft Dynamics 365 Supply Chain Management 内置的计划引擎中提供的所有功能。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-104">The Planning Optimization functionality doesn't currently support all the features that are available in the planning engine that is built into Microsoft Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="d8ff1-105">因此，重要的是要评估计划优化中当前可用的功能集是否满足您的要求。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-105">Therefore, it's important that you evaluate whether the feature set that is currently available in Planning Optimization will meet your requirements.</span></span> <span data-ttu-id="d8ff1-106">默认情况下，Dynamics Lifecycle Services (LCS) 中默认不启用计划优化功能。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-106">By default, the Planning Optimization functionality isn't turned on in Dynamics Lifecycle Services (LCS) by default.</span></span> <span data-ttu-id="d8ff1-107">因此，您有机会在启用之前进行评估。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-107">Therefore, you have an opportunity to do your evaluation before it's turned on.</span></span>
 
-<span data-ttu-id="d774d-108">最终，计划优化将取代现有的内置 Supply Chain Management 计划引擎。</span><span class="sxs-lookup"><span data-stu-id="d774d-108">Eventually, Planning Optimization will replace the existing built-in Supply Chain Management planning engine.</span></span>
+<span data-ttu-id="d8ff1-108">最终，计划优化将取代现有的内置 Supply Chain Management 计划引擎。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-108">Eventually, Planning Optimization will replace the existing built-in Supply Chain Management planning engine.</span></span>
 
-<span data-ttu-id="d774d-109">在打开计划优化之前，强烈建议您评估计划优化拟合分析的结果。</span><span class="sxs-lookup"><span data-stu-id="d774d-109">Before you turn on Planning Optimization, we strongly recommend that you evaluate the results of the Planning Optimization fit analysis.</span></span> <span data-ttu-id="d774d-110">有关详细信息，请参阅[计划优化拟合分析](planning-optimization-fit-analysis.md)。</span><span class="sxs-lookup"><span data-stu-id="d774d-110">For more information, see [Planning Optimization fit analysis](planning-optimization-fit-analysis.md).</span></span>
+<span data-ttu-id="d8ff1-109">在打开计划优化之前，强烈建议您评估计划优化拟合分析的结果。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-109">Before you turn on Planning Optimization, we strongly recommend that you evaluate the results of the Planning Optimization fit analysis.</span></span> <span data-ttu-id="d8ff1-110">有关详细信息，请参阅[计划优化拟合分析](planning-optimization-fit-analysis.md)。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-110">For more information, see [Planning Optimization fit analysis](planning-optimization-fit-analysis.md).</span></span>
 
-### <a name="licensing"></a><span data-ttu-id="d774d-111">许可授权</span><span class="sxs-lookup"><span data-stu-id="d774d-111">Licensing</span></span>
+### <a name="licensing"></a><span data-ttu-id="d8ff1-111">许可授权</span><span class="sxs-lookup"><span data-stu-id="d8ff1-111">Licensing</span></span>
 
-<span data-ttu-id="d774d-112">如果您可以使用当前的许可证来运行主计划，则无需购买其他许可证即可开始使用计划优化。</span><span class="sxs-lookup"><span data-stu-id="d774d-112">If you can run master planning by using your current license, you don't have to buy an additional license to start to use Planning Optimization.</span></span>
+<span data-ttu-id="d8ff1-112">如果您可以使用当前的许可证来运行主计划，则无需购买其他许可证即可开始使用计划优化。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-112">If you can run master planning by using your current license, you don't have to buy an additional license to start to use Planning Optimization.</span></span>
 
-### <a name="install-the-add-in"></a><span data-ttu-id="d774d-113">安装加载项</span><span class="sxs-lookup"><span data-stu-id="d774d-113">Install the add-in</span></span>
+### <a name="install-the-add-in"></a><span data-ttu-id="d8ff1-113">安装加载项</span><span class="sxs-lookup"><span data-stu-id="d8ff1-113">Install the add-in</span></span>
 
-<span data-ttu-id="d774d-114">若要使用计划优化，请安装 Dynamics 365 Supply Chain Management 的计划优化加载项。</span><span class="sxs-lookup"><span data-stu-id="d774d-114">To use Planning Optimization, install the Planning Optimization Add-in for Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="d774d-115">您可以从 LCS 项目访问加载项，然后从 Supply Chain Management 用户界面 (UI) 启用计划优化功能。</span><span class="sxs-lookup"><span data-stu-id="d774d-115">You can access the add-in from your LCS project and turn on the Planning Optimization functionality from the Supply Chain Management user interface (UI).</span></span>
+<span data-ttu-id="d8ff1-114">若要使用计划优化，请安装 Dynamics 365 Supply Chain Management 的计划优化加载项。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-114">To use Planning Optimization, install the Planning Optimization Add-in for Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="d8ff1-115">您可以从 LCS 项目访问加载项，然后从 Supply Chain Management 用户界面 (UI) 启用计划优化功能。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-115">You can access the add-in from your LCS project and turn on the Planning Optimization functionality from the Supply Chain Management user interface (UI).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="d774d-116">计划优化的要求是 LCS 通过 Dynamics 365 Supply Chain Management 版本 10.0.7 或更高版本实现了高可用性环境（而不是 OneBox 环境）。</span><span class="sxs-lookup"><span data-stu-id="d774d-116">The requirement for Planning Optimization is an LCS enabled high-availability environment (not a OneBox environment), with Dynamics 365 Supply Chain Management version 10.0.7 or later.</span></span>
+> <span data-ttu-id="d8ff1-116">计划优化的要求是 LCS 通过 Dynamics 365 Supply Chain Management 版本 10.0.7 或更高版本实现了高可用性环境（而不是 OneBox 环境）。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-116">The requirement for Planning Optimization is an LCS enabled high-availability environment (not a OneBox environment), with Dynamics 365 Supply Chain Management version 10.0.7 or later.</span></span>
 
-1. <span data-ttu-id="d774d-117">登录到 LCS，然后打开所需的环境。</span><span class="sxs-lookup"><span data-stu-id="d774d-117">Sign in to LCS, and open the desired environment.</span></span>
-1. <span data-ttu-id="d774d-118">转到**完整详细信息**。</span><span class="sxs-lookup"><span data-stu-id="d774d-118">Go to **Full details**.</span></span>
-1. <span data-ttu-id="d774d-119">向下滚动到**环境加载项**快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="d774d-119">Scroll down to the **Environment add-ins** FastTab.</span></span>
-1. <span data-ttu-id="d774d-120">选择**安装新加载项**。</span><span class="sxs-lookup"><span data-stu-id="d774d-120">Select **Install a new add-in**.</span></span>
-1. <span data-ttu-id="d774d-121">选择**计划优化**。</span><span class="sxs-lookup"><span data-stu-id="d774d-121">Select **Planning Optimization**.</span></span>
-1. <span data-ttu-id="d774d-122">按照安装指南操作，并同意条款和条件。</span><span class="sxs-lookup"><span data-stu-id="d774d-122">Follow the installation guide, and agree to the terms and conditions.</span></span>
-1. <span data-ttu-id="d774d-123">选择**安装**。</span><span class="sxs-lookup"><span data-stu-id="d774d-123">Select **Install**.</span></span>
-1. <span data-ttu-id="d774d-124">在**环境加载项**快速选项卡上，您应该看到正在安装计划优化。</span><span class="sxs-lookup"><span data-stu-id="d774d-124">On the **Environment add-ins** FastTab you should see that Planning Optimization is installing.</span></span>
-1. <span data-ttu-id="d774d-125">几分钟后**正在安装**应会改为**已安装**（您可能需要刷新页面）。</span><span class="sxs-lookup"><span data-stu-id="d774d-125">After a few minutes **Installing** should change to **Installed** (you may need to refresh the page).</span></span> <span data-ttu-id="d774d-126">安装后，您就可以在 Dynamics 365 Supply Chain Management 中激活计划优化了。</span><span class="sxs-lookup"><span data-stu-id="d774d-126">When installed, you are ready to activate Planning Optimization in Dynamics 365 Supply Chain Management.</span></span>
+1. <span data-ttu-id="d8ff1-117">登录到 LCS，然后打开所需的环境。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-117">Sign in to LCS, and open the desired environment.</span></span>
+1. <span data-ttu-id="d8ff1-118">转到**完整详细信息**。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-118">Go to **Full details**.</span></span>
+1. <span data-ttu-id="d8ff1-119">向下滚动到**环境加载项**快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-119">Scroll down to the **Environment add-ins** FastTab.</span></span>
+1. <span data-ttu-id="d8ff1-120">选择**安装新加载项**。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-120">Select **Install a new add-in**.</span></span>
+1. <span data-ttu-id="d8ff1-121">选择**计划优化**。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-121">Select **Planning Optimization**.</span></span>
+1. <span data-ttu-id="d8ff1-122">按照安装指南操作，并同意条款和条件。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-122">Follow the installation guide, and agree to the terms and conditions.</span></span>
+1. <span data-ttu-id="d8ff1-123">选择**安装**。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-123">Select **Install**.</span></span>
+1. <span data-ttu-id="d8ff1-124">在**环境加载项**快速选项卡上，您应该看到正在安装计划优化。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-124">On the **Environment add-ins** FastTab you should see that Planning Optimization is installing.</span></span>
+1. <span data-ttu-id="d8ff1-125">几分钟后**正在安装**应会改为**已安装**（您可能需要刷新页面）。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-125">After a few minutes **Installing** should change to **Installed** (you may need to refresh the page).</span></span> <span data-ttu-id="d8ff1-126">安装后，您就可以在 Dynamics 365 Supply Chain Management 中激活计划优化了。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-126">When installed, you are ready to activate Planning Optimization in Dynamics 365 Supply Chain Management.</span></span>
 
-### <a name="planning-optimization-integration"></a><span data-ttu-id="d774d-127">计划优化集成</span><span class="sxs-lookup"><span data-stu-id="d774d-127">Planning Optimization integration</span></span>
+### <a name="planning-optimization-integration"></a><span data-ttu-id="d8ff1-127">计划优化集成</span><span class="sxs-lookup"><span data-stu-id="d8ff1-127">Planning Optimization integration</span></span>
 
-<span data-ttu-id="d774d-128">要配置是否应将计划优化加载项用于主计划，请转到**主计划** \> **设置** \> **计划优化参数**。</span><span class="sxs-lookup"><span data-stu-id="d774d-128">To configure whether the Planning Optimization Add-in should be used for master planning, go to **Master planning** \> **Setup** \> **Planning Optimization parameters**.</span></span>
+<span data-ttu-id="d8ff1-128">要配置是否应将计划优化加载项用于主计划，请转到**主计划** \> **设置** \> **计划优化参数**。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-128">To configure whether the Planning Optimization Add-in should be used for master planning, go to **Master planning** \> **Setup** \> **Planning Optimization parameters**.</span></span>
 
-#### <a name="connection-status"></a><span data-ttu-id="d774d-129">连接状态</span><span class="sxs-lookup"><span data-stu-id="d774d-129">Connection status</span></span>
+#### <a name="connection-status"></a><span data-ttu-id="d8ff1-129">连接状态</span><span class="sxs-lookup"><span data-stu-id="d8ff1-129">Connection status</span></span>
 
-<span data-ttu-id="d774d-130">连接状态指示 Supply Chain Management 和计划优化服务之间的连接的当前状态。</span><span class="sxs-lookup"><span data-stu-id="d774d-130">The connection status indicates the current status of the connection between Supply Chain Management and the Planning Optimization service.</span></span> <span data-ttu-id="d774d-131">下表显示可能的值。</span><span class="sxs-lookup"><span data-stu-id="d774d-131">The following table shows the possible values.</span></span>
+<span data-ttu-id="d8ff1-130">连接状态指示 Supply Chain Management 和计划优化服务之间的连接的当前状态。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-130">The connection status indicates the current status of the connection between Supply Chain Management and the Planning Optimization service.</span></span> <span data-ttu-id="d8ff1-131">下表显示可能的值。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-131">The following table shows the possible values.</span></span>
 
-| <span data-ttu-id="d774d-132">连接状态</span><span class="sxs-lookup"><span data-stu-id="d774d-132">Connection status</span></span> | <span data-ttu-id="d774d-133">说明</span><span class="sxs-lookup"><span data-stu-id="d774d-133">Description</span></span> | <span data-ttu-id="d774d-134">是否可以使用计划优化？</span><span class="sxs-lookup"><span data-stu-id="d774d-134">Can Planning Optimization be used?</span></span> |
+| <span data-ttu-id="d8ff1-132">连接状态</span><span class="sxs-lookup"><span data-stu-id="d8ff1-132">Connection status</span></span> | <span data-ttu-id="d8ff1-133">说明</span><span class="sxs-lookup"><span data-stu-id="d8ff1-133">Description</span></span> | <span data-ttu-id="d8ff1-134">是否可以使用计划优化？</span><span class="sxs-lookup"><span data-stu-id="d8ff1-134">Can Planning Optimization be used?</span></span> |
 |---|---|---|
-| <span data-ttu-id="d774d-135">已连接</span><span class="sxs-lookup"><span data-stu-id="d774d-135">Connected</span></span> | <span data-ttu-id="d774d-136">已在计划优化服务和 Supply Chain Management 之间建立连接。</span><span class="sxs-lookup"><span data-stu-id="d774d-136">A connection has been established between the Planning Optimization service and Supply Chain Management.</span></span> | <span data-ttu-id="d774d-137">是</span><span class="sxs-lookup"><span data-stu-id="d774d-137">Yes</span></span> |
-| <span data-ttu-id="d774d-138">正在启用连接</span><span class="sxs-lookup"><span data-stu-id="d774d-138">Enabling connection</span></span> | <span data-ttu-id="d774d-139">当前正在处理打开计划优化服务连接的请求。</span><span class="sxs-lookup"><span data-stu-id="d774d-139">A request to turn on the connection to the Planning Optimization service is currently in progress.</span></span> | <span data-ttu-id="d774d-140">否</span><span class="sxs-lookup"><span data-stu-id="d774d-140">No</span></span> |
-| <span data-ttu-id="d774d-141">已断开连接</span><span class="sxs-lookup"><span data-stu-id="d774d-141">Disconnected</span></span> | <span data-ttu-id="d774d-142">没有与计划优化服务的连接。</span><span class="sxs-lookup"><span data-stu-id="d774d-142">There is no connection to the Planning Optimization service.</span></span> <span data-ttu-id="d774d-143">可以从 LCS 打开连接，如本主题前面所述。</span><span class="sxs-lookup"><span data-stu-id="d774d-143">The connection can be turned on from LCS, as described earlier in this topic.</span></span> | <span data-ttu-id="d774d-144">否</span><span class="sxs-lookup"><span data-stu-id="d774d-144">No</span></span> |
-| <span data-ttu-id="d774d-145">正在禁用连接</span><span class="sxs-lookup"><span data-stu-id="d774d-145">Disabling connection</span></span> | <span data-ttu-id="d774d-146">当前正在处理关闭计划优化服务连接的请求。</span><span class="sxs-lookup"><span data-stu-id="d774d-146">A request to turn off the connection to the Planning Optimization service is currently in progress.</span></span> | <span data-ttu-id="d774d-147">否</span><span class="sxs-lookup"><span data-stu-id="d774d-147">No</span></span> |
-| <span data-ttu-id="d774d-148">正在获取状态</span><span class="sxs-lookup"><span data-stu-id="d774d-148">Getting status</span></span> | <span data-ttu-id="d774d-149">系统正在等待来自计划优化服务的状态信息。</span><span class="sxs-lookup"><span data-stu-id="d774d-149">The system is waiting for status information from the Planning Optimization service.</span></span> | <span data-ttu-id="d774d-150">否</span><span class="sxs-lookup"><span data-stu-id="d774d-150">No</span></span> |
+| <span data-ttu-id="d8ff1-135">已连接</span><span class="sxs-lookup"><span data-stu-id="d8ff1-135">Connected</span></span> | <span data-ttu-id="d8ff1-136">已在计划优化服务和 Supply Chain Management 之间建立连接。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-136">A connection has been established between the Planning Optimization service and Supply Chain Management.</span></span> | <span data-ttu-id="d8ff1-137">是</span><span class="sxs-lookup"><span data-stu-id="d8ff1-137">Yes</span></span> |
+| <span data-ttu-id="d8ff1-138">正在启用连接</span><span class="sxs-lookup"><span data-stu-id="d8ff1-138">Enabling connection</span></span> | <span data-ttu-id="d8ff1-139">当前正在处理打开计划优化服务连接的请求。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-139">A request to turn on the connection to the Planning Optimization service is currently in progress.</span></span> | <span data-ttu-id="d8ff1-140">否</span><span class="sxs-lookup"><span data-stu-id="d8ff1-140">No</span></span> |
+| <span data-ttu-id="d8ff1-141">已断开连接</span><span class="sxs-lookup"><span data-stu-id="d8ff1-141">Disconnected</span></span> | <span data-ttu-id="d8ff1-142">没有与计划优化服务的连接。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-142">There is no connection to the Planning Optimization service.</span></span> <span data-ttu-id="d8ff1-143">可以从 LCS 打开连接，如本主题前面所述。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-143">The connection can be turned on from LCS, as described earlier in this topic.</span></span> | <span data-ttu-id="d8ff1-144">否</span><span class="sxs-lookup"><span data-stu-id="d8ff1-144">No</span></span> |
+| <span data-ttu-id="d8ff1-145">正在禁用连接</span><span class="sxs-lookup"><span data-stu-id="d8ff1-145">Disabling connection</span></span> | <span data-ttu-id="d8ff1-146">当前正在处理关闭计划优化服务连接的请求。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-146">A request to turn off the connection to the Planning Optimization service is currently in progress.</span></span> | <span data-ttu-id="d8ff1-147">否</span><span class="sxs-lookup"><span data-stu-id="d8ff1-147">No</span></span> |
+| <span data-ttu-id="d8ff1-148">正在获取状态</span><span class="sxs-lookup"><span data-stu-id="d8ff1-148">Getting status</span></span> | <span data-ttu-id="d8ff1-149">系统正在等待来自计划优化服务的状态信息。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-149">The system is waiting for status information from the Planning Optimization service.</span></span> | <span data-ttu-id="d8ff1-150">否</span><span class="sxs-lookup"><span data-stu-id="d8ff1-150">No</span></span> |
 
-#### <a name="the-use-planning-optimization-option"></a><span data-ttu-id="d774d-151">“使用计划优化”选项</span><span class="sxs-lookup"><span data-stu-id="d774d-151">The Use Planning Optimization option</span></span>
+#### <a name="the-use-planning-optimization-option"></a><span data-ttu-id="d8ff1-151">“使用计划优化”选项</span><span class="sxs-lookup"><span data-stu-id="d8ff1-151">The Use Planning Optimization option</span></span>
 
-<span data-ttu-id="d774d-152">**使用计划优化**选项的设置确定哪个计划引擎用于主计划：</span><span class="sxs-lookup"><span data-stu-id="d774d-152">The setting of the **Use Planning Optimization** option determines which planning engine is used for master planning:</span></span>
+<span data-ttu-id="d8ff1-152">**使用计划优化**选项的设置确定哪个计划引擎用于主计划：</span><span class="sxs-lookup"><span data-stu-id="d8ff1-152">The setting of the **Use Planning Optimization** option determines which planning engine is used for master planning:</span></span>
 
-- <span data-ttu-id="d774d-153">**是** – 计划优化用于主计划。</span><span class="sxs-lookup"><span data-stu-id="d774d-153">**Yes** – Planning Optimization is used for master planning.</span></span>
-- <span data-ttu-id="d774d-154">**否** – 内置 Supply Chain Management 计划引擎用于主计划。</span><span class="sxs-lookup"><span data-stu-id="d774d-154">**No** – The built-in Supply Chain Management planning engine is used for master planning.</span></span>
+- <span data-ttu-id="d8ff1-153">**是** – 计划优化用于主计划。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-153">**Yes** – Planning Optimization is used for master planning.</span></span>
+- <span data-ttu-id="d8ff1-154">**否** – 内置 Supply Chain Management 计划引擎用于主计划。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-154">**No** – The built-in Supply Chain Management planning engine is used for master planning.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="d774d-155">如果在**使用计划优化**选项设置为**是**的情况下触发了为内置 Supply Chain Management 计划引擎创建的现有计划批处理作业，这些作业将失败。</span><span class="sxs-lookup"><span data-stu-id="d774d-155">If existing planning batch jobs that were created for the built-in Supply Chain Management planning engine are triggered while the **Use Planning Optimization** option is set to **Yes**, those jobs will fail.</span></span>
+> <span data-ttu-id="d8ff1-155">如果在**使用计划优化**选项设置为**是**的情况下触发了为内置 Supply Chain Management 计划引擎创建的现有计划批处理作业，这些作业将失败。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-155">If existing planning batch jobs that were created for the built-in Supply Chain Management planning engine are triggered while the **Use Planning Optimization** option is set to **Yes**, those jobs will fail.</span></span>
 
-### <a name="integration-with-the-setup"></a><span data-ttu-id="d774d-156">与设置集成</span><span class="sxs-lookup"><span data-stu-id="d774d-156">Integration with the setup</span></span>
+### <a name="integration-with-the-setup"></a><span data-ttu-id="d8ff1-156">与设置集成</span><span class="sxs-lookup"><span data-stu-id="d8ff1-156">Integration with the setup</span></span>
 
-<span data-ttu-id="d774d-157">如果打开了计划优化预览，则使用计划优化加载项来完成主计划。</span><span class="sxs-lookup"><span data-stu-id="d774d-157">If the Planning Optimization preview is turned on, master planning is done by using the Planning Optimization Add-in.</span></span> <span data-ttu-id="d774d-158">在这种情况下，主计划结果和功能会受到影响。</span><span class="sxs-lookup"><span data-stu-id="d774d-158">In this case, master planning results and features are affected.</span></span>
+<span data-ttu-id="d8ff1-157">如果打开了计划优化预览，则使用计划优化加载项来完成主计划。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-157">If the Planning Optimization preview is turned on, master planning is done by using the Planning Optimization Add-in.</span></span> <span data-ttu-id="d8ff1-158">在这种情况下，主计划结果和功能会受到影响。</span><span class="sxs-lookup"><span data-stu-id="d8ff1-158">In this case, master planning results and features are affected.</span></span>
 
-## <a name="related-resources"></a><span data-ttu-id="d774d-159">相关资源</span><span class="sxs-lookup"><span data-stu-id="d774d-159">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="d8ff1-159">相关资源</span><span class="sxs-lookup"><span data-stu-id="d8ff1-159">Related resources</span></span>
 
-[<span data-ttu-id="d774d-160">预览条款和条件</span><span class="sxs-lookup"><span data-stu-id="d774d-160">Terms and conditions for the preview</span></span>](https://go.microsoft.com/fwlink/?linkid=2015274)
+[<span data-ttu-id="d8ff1-160">预览条款和条件</span><span class="sxs-lookup"><span data-stu-id="d8ff1-160">Terms and conditions for the preview</span></span>](https://go.microsoft.com/fwlink/?linkid=2015274)
 
-[<span data-ttu-id="d774d-161">计划优化概述</span><span class="sxs-lookup"><span data-stu-id="d774d-161">Planning Optimization overview</span></span>](planning-optimization-overview.md)
+[<span data-ttu-id="d8ff1-161">计划优化概述</span><span class="sxs-lookup"><span data-stu-id="d8ff1-161">Planning Optimization overview</span></span>](planning-optimization-overview.md)
 
-[<span data-ttu-id="d774d-162">计划优化拟合分析</span><span class="sxs-lookup"><span data-stu-id="d774d-162">Planning Optimization fit analysis</span></span>](planning-optimization-fit-analysis.md)
+[<span data-ttu-id="d8ff1-162">计划优化拟合分析</span><span class="sxs-lookup"><span data-stu-id="d8ff1-162">Planning Optimization fit analysis</span></span>](planning-optimization-fit-analysis.md)
 
-[<span data-ttu-id="d774d-163">查看计划历史记录和计划日志</span><span class="sxs-lookup"><span data-stu-id="d774d-163">View plan history and planning logs</span></span>](plan-history-logs.md)
+[<span data-ttu-id="d8ff1-163">查看计划历史记录和计划日志</span><span class="sxs-lookup"><span data-stu-id="d8ff1-163">View plan history and planning logs</span></span>](plan-history-logs.md)
 
-[<span data-ttu-id="d774d-164">将筛选器应用于计划</span><span class="sxs-lookup"><span data-stu-id="d774d-164">Apply filters to a plan</span></span>](plan-filters.md)
+[<span data-ttu-id="d8ff1-164">将筛选器应用于计划</span><span class="sxs-lookup"><span data-stu-id="d8ff1-164">Apply filters to a plan</span></span>](plan-filters.md)
 
-[<span data-ttu-id="d774d-165">取消计划作业</span><span class="sxs-lookup"><span data-stu-id="d774d-165">Cancel a planning job</span></span>](cancel-planning-job.md)
+[<span data-ttu-id="d8ff1-165">取消计划作业</span><span class="sxs-lookup"><span data-stu-id="d8ff1-165">Cancel a planning job</span></span>](cancel-planning-job.md)
