@@ -2,7 +2,7 @@
 title: 创建消耗报表
 description: 本主题说明如何在资产管理中创建消耗报表。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/21/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eecfb101af9a91f515aab221181c54d53e358a68
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: d28acbccc35b3f59f9cca7236dd721a1d9bdead8
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652417"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216428"
 ---
 # <a name="create-consumption-reports"></a>创建消耗报表
 

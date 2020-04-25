@@ -2,7 +2,7 @@
 title: 计划优化概述
 description: 本主题提供计划优化功能的概述。
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 9ccf00b6fcd1e3a6002086360b1a4c5c464ba054
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: f88ee8067fdd816ba6890ee28bafe8fa4d3b3ac5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076147"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208723"
 ---
 # <a name="planning-optimization-overview"></a>计划优化概述
 

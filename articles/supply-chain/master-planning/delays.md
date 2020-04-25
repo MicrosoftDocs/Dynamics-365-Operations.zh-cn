@@ -2,15 +2,15 @@
 title: 延迟
 description: 本主题提供有关主计划中的延期日期的信息。 如果主计划计算的最早履行日期在请求日期之后，延期日期是交易记录收到的实际到期日期。
 author: roxanadiaconu
-manager: AnnBe
-ms.date: 03/15/2019
+manager: tfehr
+ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransFuturesListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1a8c738fffda76f2a8492c20e2c67a154c68559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 34252e5cd9ee5151b1cba47975fc0cc612521a17
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1522281"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203840"
 ---
 # <a name="delays"></a>延迟
 
@@ -44,6 +44,12 @@ ms.locfileid: "1522281"
 
 > [!NOTE]
 > 在较早版本中，计算的延迟称为*先期备货消息*，延迟的日期称为*将来日期*，延期的交易记录称作为*将来设置的交易记录*。
+
+## <a name="limited-delays-in-production-setup-with-multiple-bom-levels"></a>具有多个 BOM 级别的生产设置中的有限延迟
+在具有多个 BOM 级别的生产设置中处理延迟时，务必注意，主计划运行期间将仅使用延迟仅更新（在 BOM 结构中）项目正上方的项目。 首次运行主计划时，当批准或确定顶级计划订单时，将不为 BOM 结构中的其他项目应用延迟。 
+
+为了解决这项已知限制，可以在下次运行主计划之前批准（或确认）具有延迟的 BOM 结构最上层的生产订单。 这样，将保留延迟的已批准计划生产订单的延迟，并且相应更新所有基础组件。
+也可以使用操作消息识别可以因为 BOM 结构中的其他延迟而移到以后的计划订单。
 
 ## <a name="desired-date"></a>所需的日期
 

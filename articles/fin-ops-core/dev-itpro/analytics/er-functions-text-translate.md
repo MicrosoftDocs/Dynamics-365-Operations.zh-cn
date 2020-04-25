@@ -3,7 +3,7 @@ title: TRANSLATE ER 函数
 description: 本主题提供有关 TRANSLATE 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07fe19c5f66c33e336f76f3a72d3bbda0c7e8d86
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 415444bda097c00522155d1b37988a79da836902
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040902"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201104"
 ---
-# <a name="TRANSLATE">TRANSLATE ER 函数</a>
+# <a name=""></a><a name="TRANSLATE">TRANSLATE ER 函数</a>
 
 [!include [banner](../includes/banner.md)]
 
-在将全部或部分指定文本字符串替换为另一个字符串之后，`TRANSLATE` 函数作为*字符串*值返回指定的文本字符串。
+`TRANSLATE` 函数返回一个*字符串*值，该值中包含对提供的另一个字符集中的指定文本进行字符替换的结果。
 
 ## <a name="syntax"></a>语法
 
@@ -57,9 +57,23 @@ TRANSLATE (text , pattern, replacement)
 
 生成的文本值。
 
-## <a name="example"></a>示例
+## <a name="usage-notes"></a>使用说明
 
-`TRANSLATE ("abcdef", "cd", "GH")` 将模式 **"cd"** 替换为字符串 **"GH"**，返回 **"abGHef"**。
+`TRANSLATE` 函数一次替换一个字符。 此函数将 `text` 变量的第一个字符替换为 `pattern` 参数的第一个字符，然后替换第二个字符，并执行相同流程，直到完成。 当 `text` 和 `pattern` 变量中有一个字符匹配时，将被替换为 `replacement` 变量中与 `pattern` 变量中的字符位于同一个位置的字符。 如果某个字符在 `pattern` 变量中多次出现，则使用与此字符的第一次出现对应的 `replacement` 变量映射。
+
+## <a name="example-1"></a>示例 1
+
+因为下面的原因，`TRANSLATE ("abcdef", "cd", "GH")` 将指定的 **abcdef** 文本的 **c** 字符替换为 `replacement` 文本的 **G** 字符：
+-   `pattern` 文本中第一个位置有 **c** 字符。
+-   `replacement` 文本的第一个位置中包含 **G** 字符。
+
+## <a name="example-2"></a>示例 2
+
+`TRANSLATE ("abcdef", "ccd", "GH")` 返回 **abGdef**。
+
+## <a name="example-3"></a>示例 3
+
+`TRANSLATE ("abccba", "abc", "123")` 将返回 **"123321"**。
 
 ## <a name="additional-resources"></a>其他资源
 

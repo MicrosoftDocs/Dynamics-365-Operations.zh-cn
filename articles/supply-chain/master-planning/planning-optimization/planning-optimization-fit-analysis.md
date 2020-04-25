@@ -2,7 +2,7 @@
 title: 计划优化拟合分析
 description: 本主题说明如何根据计划优化功能的能力来验证当前的设置和数据。
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 10/30/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 25f3b39d0e6e88eb3f042ab93773e9724528ab0f
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 17114d4c0ef2c74ab1bb56d41e4a008150c21f36
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076170"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208746"
 ---
 # <a name="planning-optimization-fit-analysis"></a>计划优化拟合分析
 

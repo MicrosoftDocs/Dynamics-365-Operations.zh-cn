@@ -2,7 +2,7 @@
 title: 混合模式计划 - 合并不同的流程和精益采购
 description: 文主题提供有关混合模式计划的信息。
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9186d69e86798a5bd6541432518e407eff5700cc
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ae87f03acac9eca291b70a0b31d2880556bf6d35
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250041"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212587"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>混合模式计划 - 合并不同的流程和精益采购
 

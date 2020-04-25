@@ -2,7 +2,7 @@
 title: 补货概览
 description: 此主题介绍可用于使用仓库管理提供功能的仓库的补货策略。
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 90043
 ms.assetid: 49fa97eb-8e10-49a5-9261-1e393159f178
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7aa17df3c3632c89f35a69022084bbd9f4171f36
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: be7b1142b011b805c78a3b9380d12085e4b7d28f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076332"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204969"
 ---
 # <a name="replenishment-overview"></a>补货概览
 

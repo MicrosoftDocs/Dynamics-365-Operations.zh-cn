@@ -2,7 +2,7 @@
 title: 包装材料和费用
 description: 此主题介绍按特定间隔支付给回收公司的包装材料费用。
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2351cce9dc6e1a554800817f75591c4a4e24d43
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076239"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215692"
 ---
 # <a name="packing-materials-and-fees"></a>包装材料和费用
 
@@ -39,7 +39,7 @@ ms.locfileid: "3076239"
 > [!NOTE]
 > 即使您的公司不支付包装材料费用，您也可以使用此功能来计算包装材料重量的统计。
 
-## <a name="allocations"></a>设置包装材料分配
+## <a name="set-up-packing-material-allocation"></a><a name="allocations"></a>设置包装材料分配
 
 必须先开启计算和定义哪些材料和费用适用于哪些物料，才能计算包装材料的重量和/或费用。
 

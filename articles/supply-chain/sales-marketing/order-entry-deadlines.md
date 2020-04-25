@@ -2,7 +2,7 @@
 title: 订单输入截止时间
 description: 本文提供有关订单条目截止时间的信息。 订单条目截止日期是确定客户订单是否被视作（并履行）在当前日期或第二天接收。
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOrderEntryDeadlineGroup, InventOrderEntryDeadlineParameters, InventOrderEntryDeadlineTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 7151
 ms.assetid: bbc4f9a2-df4b-4d92-9f18-25282a85541f
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 412ab5e2e411a93da2424cb8959b4270594bbf57
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a5266e58a0f18141af920100b5f44ce98a3dbc6c
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564019"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215554"
 ---
 # <a name="order-entry-deadlines"></a>订单输入截止时间
 

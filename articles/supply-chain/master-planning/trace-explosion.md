@@ -2,7 +2,7 @@
 title: 使用跟踪进行分解
 description: 本文说明如何可以使用跟踪来探索订单分解结果背后的原因。
 author: roxanadiaconu
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransExplosion
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19231
 ms.assetid: 9bc9bfbe-a7a9-437b-a947-826229b0585a
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f2821eb6a17d2caaacf399f8d519e4caf3ecd04
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 046d4f5270869542d33023b9b9c927e89f5ad40b
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813653"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209505"
 ---
 # <a name="use-tracing-for-explosion"></a>使用跟踪进行分解
 

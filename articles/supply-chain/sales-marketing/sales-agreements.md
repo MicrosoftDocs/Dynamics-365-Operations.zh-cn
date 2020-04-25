@@ -2,7 +2,7 @@
 title: 销售协议概览
 description: 此主题提供了有关销售协议的信息。 销售协议是使客户在一段时间用购买特定数量或特定金额的产品作交换获得特定价格和折扣的合同。
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37378b85b90f91c74da717f0a25c1847ac0b1598
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ffd5e04625c20dbe8dc4acc67c46b5ce986542ed
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251285"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215991"
 ---
 # <a name="sales-agreements-overview"></a>销售协议概览
 

@@ -2,7 +2,7 @@
 title: 生产差异的常见来源
 description: 本文说明生产差异的每个生产类型的各个典型来源。
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostTrans
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 79753
 ms.assetid: 14ac7db4-fb40-43c1-bb0d-1d51fc91d24f
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50f8cd7904e1d32175edd321fbd6533e985fb324
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: da09e24d7ed041686385b8239287288228d3668e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553522"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201954"
 ---
 # <a name="common-sources-of-production-variances"></a>生产差异的常见来源
 

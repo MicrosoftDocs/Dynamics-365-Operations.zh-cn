@@ -2,7 +2,7 @@
 title: 停用生产流版本
 description: 如果不再需要某个有效生产流版本，可将其停用。
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 860873a1fd61d52f642774e69d48c5ef6c7465a9
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 7ec2d9f8b275cd4babdf46434aebf0cbf9105eed
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3146828"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212104"
 ---
 # <a name="deactivate-a-production-flow-version"></a>停用生产流版本
 

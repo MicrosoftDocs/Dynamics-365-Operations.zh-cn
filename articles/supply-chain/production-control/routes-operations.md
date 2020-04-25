@@ -2,7 +2,7 @@
 title: 工艺路线和工序
 description: 本主题提供了有关工艺路线和工序的信息。
 author: sorenva
-manager: AnnBe
+manager: tfehr
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
@@ -11,7 +11,7 @@ ms.technology: ''
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable
 ms.author: sorenand
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 268124
 ms.assetid: f78d5836-3e71-42b7-a5d1-41f19228d9d2
@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ecdece43b9d609e70e385dc5c3ec70b82f582ab
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 2a6d792a0e52d2b82b25de461dcec358fdc8f439
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653663"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211069"
 ---
 # <a name="routes-and-operations"></a>工艺路线和工序
 

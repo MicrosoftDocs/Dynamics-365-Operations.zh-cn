@@ -2,7 +2,7 @@
 title: 资产 BOM
 description: 本主题介绍资产管理中的物料清单 (BOM)。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02686c97a19fa86c3ea93d7c400067f0855b5c4d
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 32bb95445a31c1de949c6aa1821bf84d42198acb
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571476"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214793"
 ---
 # <a name="asset-boms"></a>资产 BOM
 

@@ -3,7 +3,7 @@ title: 将抬头费用按比例分配给匹配的销售行
 description: 本主题介绍通过使用高级自动费用功能为商业渠道订单计算和应用自动费用的附加功能。
 author: hhaines
 manager: annbe
-ms.date: 04/23/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 5c03b1a1db11098058022a6916dc5bddf5518f9b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021785"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175123"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>将抬头费用按比例分配给匹配的销售行
 
@@ -37,7 +37,7 @@ ms.locfileid: "3021785"
 
 这项新功能可以提高组织在计算抬头级别费用并应用于销售交易记录时的灵活性。
 
-在版本 10.0.1 之前应用版本中，仅当存在销售订单抬头中定义的特定交货方式的匹配项时，才计算具有该交货方式关系的抬头级别自动费用。
+在 10.0.1 之前的应用版本中，仅当存在销售订单抬头中定义的特定交货方式的匹配项时，才计算具有该交货方式关系的抬头级别自动费用。
 
 例如，为交货方式 **99** 和 **11** 定义了抬头级别自动费用。 创建了一个销售订单，并在订单抬头定义了交货方式 **99**。 但是，设置了一些销售行，以便使用交货方式 **11** 为其发货。 在此情况下，将仅考虑链接到交货方式 **99** 的抬头级别费用，并将这些费用应用于该销售订单。
 
@@ -169,3 +169,9 @@ ms.locfileid: "3021785"
 ![项 81334 的销售行的按比例分配费用](media/proratedlinecharge.png)
 
 如果在部分退货方案中使用这种计算方法，并且费用代码为可退款，则该项退货时仅为分配给该行的那部分费用退款。
+
+## <a name="additional-resources"></a>其他资源
+
+[全渠道高级自动费用](omni-auto-charges.md)
+
+[按渠道启用和配置自动费用](auto-charges-by-channel.md)

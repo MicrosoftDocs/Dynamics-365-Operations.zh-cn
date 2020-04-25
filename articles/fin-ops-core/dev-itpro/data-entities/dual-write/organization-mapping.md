@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fbf7cc33d12fb54d2ff02acc46ba2e284b2a2b3f
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: fc5db8d04a2860df0c917816e2910c6fbda941ff
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019658"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173146"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>Common Data Service 中的组织层次结构
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 因为 Dynamics 365 Finance 是财务系统，所以*组织*是核心概念，并且系统设置从确认组织层次结构开始。 然后可以在组织级别，还可以在组织层次结构中的任何级别跟踪企业的财务。
 
@@ -50,7 +50,7 @@ ms.locfileid: "3019658"
 
 产品信息包含与产品及其定义有关的所有信息，例如产品维度或跟踪维度和存储维度。 如下表所示，将创建实体映射的集合以同步产品和相关信息。
 
-Finance and Operations | 其他 Dynamics 365 应用 | 说明
+Finance and Operations 应用 | 其他 Dynamics 365 应用 | 说明
 -----------------------|--------------------------------|---
 组织层次结构目的 | msdyn_internalorganizationhierarchypurposes | 此模板提供组织层次结构目的实体的单向同步。
 组织层次结构类型 | msdyn_internalorganizationhierarchytypes | 此模板提供组织层次结构类型实体的单向同步。

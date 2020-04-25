@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 442557a01b25e13b76074c865dfe5468bbc9fde0
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025846"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259624"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>使用 Power BI Embedded 将分析添加到工作区
 
@@ -84,7 +84,7 @@ ms.locfileid: "3025846"
 8. 右键单击，然后选择**新选项卡页**。
 9. 将选项卡页重命名为有意义的名称，例如**分析**。
 10. 在窗体设计器，选择**分析（选项卡页）**。
-11. 将**标题**属性设置为**分析**。
+11. 将**字幕**属性设置为**分析**，然后将**自动声明**属性设置为**是**。
 12. 右键单击控件，然后选择**新** \> **组**以添加新的窗体组控件。
 13. 将窗体组重命名为有意义的名称，例如 **powerBIReportGroup**。
 14. 在窗体设计器中，选择 **PanoramaBody（选项卡）**，然后将控件拖动到**工作区**选项卡上。

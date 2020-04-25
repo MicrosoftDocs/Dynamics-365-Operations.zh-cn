@@ -2,7 +2,7 @@
 title: 设置首选技术人员
 description: 您可以选择任何工作人员作为某一服务协议或服务订单的首选技术人员。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable, SMADispatchBoard
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43327b5c9077ab6cbde23fe069cccfc74a0edf88
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 80ea0265eb27fb5cf32f5f921caa7ac2e44a0116
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815011"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3217279"
 ---
 # <a name="set-up-a-preferred-technician"></a>设置首选技术人员 
 

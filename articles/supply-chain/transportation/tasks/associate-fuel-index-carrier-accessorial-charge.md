@@ -2,26 +2,26 @@
 title: 将燃油指数作为附属费用与承运人关联
 description: 本指南显示如何创建附属分配、承运人附加费用、燃油附加费的附属主数据，以及将承运人燃油指数与承运人关联。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fbd58fb6b03f3c6eb5e54f811d98ad636e65a94
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 43b3267122594329444fc4b0458db6b14aa5c672
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3146368"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206188"
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>将燃油指数作为附属费用与承运人关联
 

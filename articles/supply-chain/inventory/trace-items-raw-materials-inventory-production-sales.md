@@ -2,7 +2,7 @@
 title: 库存、生产和销售中的物料和原材料跟踪
 description: 本主题介绍如何使用物料跟踪来确定物料或原材料被用在了何处、正在被何处使用或者将被运用于生产和销售流程中的哪个环节。
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adfb8ffce3f91c0e8e8b996c284414f5ddc1baf1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: fa1be4970f1106bf4b87eeaa428bac07c645b4f5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004057"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213838"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>库存、生产和销售中的物料和原材料跟踪
 

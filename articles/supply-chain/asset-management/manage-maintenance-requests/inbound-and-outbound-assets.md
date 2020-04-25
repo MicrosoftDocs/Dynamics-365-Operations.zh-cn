@@ -2,7 +2,7 @@
 title: 入站资产和出站资产
 description: 本主题介绍如何在资产管理中登记入站资产和出站资产。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 53100a897dc71758b8920672fea1e684817cb4b7
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: eb491b1c3eced52f6cfc69e3da028dfed36b823b
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812275"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205176"
 ---
 # <a name="inbound-and-outbound-assets"></a>入站资产和出站资产
 

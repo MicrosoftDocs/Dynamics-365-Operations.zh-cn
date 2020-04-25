@@ -3,7 +3,7 @@ title: 供应商付款工作区
 description: 此主题提供有关供应商付款工作区的信息。 供应商付款工作区显示与处理供应商付款有关的信息。
 author: abruer
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 89ba0d68bd52413328dd583e87b09b01fd523d6f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 895725eeac46b5c20a2fb8dd932595a25fe372ce
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176678"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225005"
 ---
 # <a name="vendor-payments-workspace"></a>供应商付款工作区
 
@@ -36,7 +36,7 @@ ms.locfileid: "2176678"
 1. 转到**系统管理 > 设置 > 系统参数**以设置**系统币种**和**系统汇率**。
 2. 转到**总帐 > 设置 > 分类帐**以设置**记帐币种**和**汇率类型**。 
 2. 定义交易币种与记帐币种和记帐币种与系统币种之间的汇率。 方法是，转到**总帐 > 币种 > 币种汇率**。
-3. 转到**系统管理 > 设置 > 实体商店**以刷新 **VendPaymentBIMeasure** 聚合度量。 
+3. 转到**系统管理 > 设置 > 实体商店**以刷新 **VendPaymentBIMeasureV2** 聚合度量。 
 
 ## <a name="my-work-view"></a>我的工作视图
 

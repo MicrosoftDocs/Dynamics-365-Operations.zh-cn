@@ -2,7 +2,7 @@
 title: 订单承诺
 description: 本文提供有关订单承诺的信息。 订单承诺帮助您向客户确切承诺交货日期，并给予您履行这些日期的灵活性。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 193933
 ms.assetid: 676fc53a-fa25-4688-9f26-1005316763b8
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad70e94521fdb8c6d3f9a76a84aa9da5759fcf89
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 78b81431d44ea5f85676b6999eece1330d3101a4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548270"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3210038"
 ---
 # <a name="order-promising"></a>订单承诺
 

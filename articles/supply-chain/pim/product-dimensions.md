@@ -2,7 +2,7 @@
 title: 产品维度
 description: 有四产品维度 - 颜色、配置、大小和样式。 您在维度组中合并产品维度，并将维度组分配给基础产品。 产品维度的组合确定如何定义产品变型。
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f226329b774344a3de5c8f115ffb358611bf7d60
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: f5e9b10fa18ada9534ce5e279d4f1f09973a802b
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570763"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208424"
 ---
 # <a name="product-dimensions"></a>产品维度
 

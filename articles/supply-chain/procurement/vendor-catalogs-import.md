@@ -2,7 +2,7 @@
 title: 导入供应商目录
 description: 此主题介绍供应商目录数据导入流程。
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/20/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9f85b1d1f0b1c2378dd3f278640d984c31923c35
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 35b8e2a87708c88b12c5c7605a7977712a35a0f4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017866"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207362"
 ---
 # <a name="import-vendor-catalogs"></a>导入供应商目录
 [!include[banner](../includes/banner.md)]
@@ -35,17 +35,16 @@ ms.locfileid: "2017866"
 可以上传客户从 Microsoft Dynamics 365 客户端提交的目录数据。
 
 在目录维护请求 (CMR) 文件的窗体中，供应商提交给您的产品数据必须是 XML 文件格式。 CMR 文件应包含供应商向贵公司提供的产品的详细信息。
-
+''''
 ## <a name="import-vendor-catalog-data"></a>导入供应商目录数据
-
-若要导入供应商目录数据，您必须完成以下任务：
+'' 若要导入供应商目录数据，您必须完成以下任务：
 
 1.  在数据管理工作区（已在其中定义了数据映射规则）中设置一个项目。 选择**数据管理**，然后选择 **设置数据项目的角色**。 
-
+    ''
 2.  设置采购类别层次结构，并将您的供应商分配到采购类别。 如果您使用了商品代码，则添加这些商品代码到采购类别中。 有关设置采购类别层次结构的信息，请参阅[设置采购类别层次结构](../procurement/tasks/set-up-procurement-category-hierarchy.md)。
-
+    ''
 3.  配置目录导入的供应商。 选择供应商，然后选择**采购**  >  **设置**  >  **配置目录导入的供应商**。
-
+''''
 4.  配置目录导入的工作流。 创建一个 CMR 文件模板，然后将其与供应商共享。
 
 5.  选择**采购** \> **通用** \> **目录** \> **供应商目录**以创建供应商目录。 在此目录中对您从供应商处接收的目录维护请求 (CMR) 文件进行分组。 

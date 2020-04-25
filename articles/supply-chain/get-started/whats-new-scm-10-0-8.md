@@ -2,7 +2,7 @@
 title: Dynamics 365 Supply Chain Management 10.0.8（2020 年 2 月）中的新增功能或更改
 description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.8 中的新增功能或更改的功能。
 author: kamaybac
-manager: AnnBe
+manager: tfehr
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: d62cf8be089eb8bccaf323041bf446b7f120b93f
-ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
+ms.openlocfilehash: 6ace25bc64bcd5afce7e3f23479b0d93535b1a9b
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3164527"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201494"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Dynamics 365 Supply Chain Management 10.0.8（2020 年 2 月）中的新增功能或更改
 

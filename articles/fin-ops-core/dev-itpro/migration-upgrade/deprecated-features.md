@@ -3,7 +3,7 @@ title: 先前版本中已删除或弃用的功能
 description: 此主题介绍从 Dynamics 365 for Finance and Operations 和该产品的早期版本已经删除或曾经计划删除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 03/05/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2e079f1eb43d46acdc39819ae81e0472bba6aa1
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124558"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225120"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>先前版本中已删除或弃用的功能
 
@@ -263,11 +263,11 @@ ms.locfileid: "3124558"
 
 |   |  |
 |------------|--------------------|
-| **弃用/移除的原因** | 表元数据定义中可以有包含无效字段引用的字段组。 此问题目前归类为*编译器警告*，而不是*错误*，这意味着可以在不解决此问题的情况下继续创建和部署可部署包。 如果部署，可能导致 Financial Reporting 和 SQL Server Reporting Services (SSRS) 中发生运行时失败。 要解决此问题，请执行以下操作：<br><br>1. 删除表字段组定义中的无效字段引用。<br><br>2. 重新编译。<br><br>3. 确保解决所有警告或错误。 |
-| **被另一个功能取代？**   | 以后此警告将替换为编译器错误。  |
-| **影响的产品区域**         | Visual Studio 开发工具。 |
-| **部署选项**              | 全部。 |
-| **状态**                         | 已弃用：此警告在将来将成为编译时错误。 现在的目标为平台更新 30。 |
+| **弃用/移除的原因** | 表元数据定义中可以有包含无效字段引用的字段组。 如果部署，可能导致 Financial Reporting 和 SQL Server Reporting Services (SSRS) 中发生运行时失败。 此问题目前归类为*编译器警告*，而不是*错误*，这意味着可以在不解决此问题的情况下继续创建和部署可部署包。 要解决此问题，请执行以下操作：<br><br>1. 删除表字段组定义中的无效字段引用。<br><br>2. 重新编译。<br><br>3. 确保解决所有警告或错误。 |
+| **被另一个功能取代？**   | 以后此警告将替换为编译器错误。 |
+| **影响的产品区域**         | Visual Studio 开发工具 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用：此警告在将来将成为编译时错误。 此更改的目标为 Finance and Operations 应用版本 10.0.11 的平台更新。 |
 
 #### <a name="complete-list"></a>完整列表
 若要访问将弃用的 API 的完整列表，请参阅[弃用方法和元数据元素](deprecation-deletion-apis.md)。

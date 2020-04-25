@@ -2,7 +2,7 @@
 title: 维护状态
 description: 本主题说明如何在资产管理中计算维护状态。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8f336086838632dd3f464de2870e9a9197746daa
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: fbe2b3fd9ce63c34aedb790583dea572d3d9b079
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652118"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205454"
 ---
 # <a name="maintenance-status"></a>维护状态
 

@@ -2,7 +2,7 @@
 title: 创建内部公司计划
 description: 此过程显示如何创建内部公司计划。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqIntercompanyPlanningGroupSetup,  ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a321f7e781f1ae93d8a69ee45a0e6e8e6eeb1e8d
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 3a64817f140d8a2302b3b2c2d1e55de103a5bb36
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150324"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209689"
 ---
 # <a name="create-an-intercompany-plan"></a>创建内部公司计划
 

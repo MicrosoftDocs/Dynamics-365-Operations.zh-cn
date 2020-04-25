@@ -2,7 +2,7 @@
 title: 对标准成本的成本计算版本的限制
 description: 本主题介绍适用于标准成本的成本计算版本的限制。
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 01/17/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 484471c6bbda1d7396dfcfa34c33f50d247dad98
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 2348d7721cd281bb2a1b5af007c98ce69377a412
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812664"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214427"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>对标准成本的成本计算版本的限制
 

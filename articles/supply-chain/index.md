@@ -2,14 +2,14 @@
 title: Supply Chain Management 的帮助资源
 description: 本页提供了针对 Supply Chain Management 功能的一系列帮助主题和其他资源。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 11/26/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b5f82d76f2e285b6318d900d41919aae14ec71a
-ms.sourcegitcommit: b8a51a0ba8fc33576ff78e5bbe826c14e1df2844
+ms.openlocfilehash: 014b5db6efc15fbed7401d9a857586912c7578f2
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "2853980"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201517"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Supply Chain Management 的帮助资源
 
@@ -61,7 +61,7 @@ ms.locfileid: "2853980"
 
 - [在 Field Service 和 Finance and Operations 之间同步工作订单](https://youtu.be/hAB4TDVMjxU)
 
-这些视频短片可帮助您了解 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3（2017 年 12 月）中的新功能。
+这些视频短片可帮助您了解 Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3（2017 年 12 月）中的新功能。
 
 -  [现金集成的目标客户](https://youtu.be/AVV9x5x-XCg) 
 -  [优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)

@@ -3,7 +3,7 @@ title: 配置工作流属性
 description: 本主题说明如何配置工作流的各个属性。
 author: sericks007
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76d44c472989a73d71c2edd19f1187ecd09827ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190112"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3199428"
 ---
 # <a name="configure-workflow-properties"></a>配置工作流属性
 
@@ -75,9 +75,11 @@ ms.locfileid: "2190112"
     5. 要对文本进行个性化设置，可以插入占位符。 有关如何输入占位符的说明，请参阅步骤 3。
     6. 单击**关闭**。
 
-## <a name="specify-when-this-workflow-is-used"></a>指定何时使用此工作流
+## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>通过激活条件指定何时使用此工作流
 
-可以创建基于同一类型的多个工作流。 例如，可以为您运营所在的每个国家/地区创建采购申请工作流，如“丹麦采购申请”和“西班牙采购申请”。 有多个工作流基于同一类型时，必须指定何时使用各个工作流。 继续上面的示例，您指定以下条件：
+可以创建基于同一工作流类型的多个工作流。 有多个工作流基于同一类型时，必须使用激活条件指定何时使用各个工作流。 如果不满足激活条件，则使用默认工作流。 同样，如果为某个工作流类型仅定义一个工作流配置，则无论哪种激活条件，都将使用该工作流配置。
+
+例如，可以为您运营所在的每个国家/地区创建采用以下条件的采购申请工作流，如“丹麦采购申请”和“西班牙采购申请”：
 
 - 在以下情况下使用丹麦采购申请：国家/地区 = DK。
 - 在以下情况下使用西班牙采购申请：国家/地区 = ES。

@@ -2,7 +2,7 @@
 title: 物料清单和配方
 description: 本主题提供有关物料清单 (BOM) 和配方的信息，物料清单和配方是产品和产品变型定义的核心部分。
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19331
 ms.assetid: c19b437a-2de2-4728-9477-2bcb0c2b1f5e
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0833143722df5402a17e4f8f456a923792c478a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5a24136c9fad3f1de68158cbd14a60b0ebd147b
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569490"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211690"
 ---
 # <a name="bills-of-materials-and-formulas"></a>物料清单和配方
 

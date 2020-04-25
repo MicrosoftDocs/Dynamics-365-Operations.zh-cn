@@ -2,7 +2,7 @@
 title: 维护产品配置模型的物料清单
 description: 运行该过程要求有现有的产品配置模型。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCBOMLineDetails, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bf4854b8c596abd45eb2cffd21cf03adff68982
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 1aa2a22056ff4435d4c66f13c170aeadc02fbe03
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3147633"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203564"
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a>维护产品配置模型的物料清单
 

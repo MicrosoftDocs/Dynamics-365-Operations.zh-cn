@@ -2,7 +2,7 @@
 title: 创建和编辑销售报价单
 description: 该过程演示如何创建和更新销售报价单。
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SalesQuotationTotals, SalesQuotationPriceSimulation, SalesQuotationEditLines, SrsReportViewerForm, smmSetNumSeqIfManual, CustTable, SalesTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f313aafb79faaf1344b7e70759405b3bab2d7e45
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 1ddad2814915e14821f03efda72858d9a57f2d4e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148699"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204393"
 ---
 # <a name="create-and-edit-sales-quotations"></a>创建和编辑销售报价单
 

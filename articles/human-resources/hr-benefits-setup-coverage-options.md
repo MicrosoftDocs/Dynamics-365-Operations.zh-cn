@@ -1,9 +1,9 @@
 ---
 title: 创建覆盖范围选项
-description: Microsoft Dynamics 365 Human Resources 中的覆盖范围选项是供参与者在福利计划或项目中选择的覆盖范围级别，例如医疗计划的“仅限员工”，或人寿保险计划的“2x 薪金”。
+description: Microsoft Dynamics 365 Human Resources 中的覆盖范围选项是参与者在福利计划或项目中的选择覆盖级别。
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0af2b6ae0853b4c7f64c4d4f04299c87089d622b
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 021fea7604af2fff833ddc6868d55a316ef70aae
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092698"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230169"
 ---
 # <a name="create-coverage-options"></a>创建覆盖范围选项
 
-[!include [banner](includes/preview-feature.md)]
-
-Microsoft Dynamics 365 Human Resources 中的覆盖范围选项是供参与者在福利计划或项目中选择的覆盖范围级别，例如医疗计划的“仅限员工”，或人寿保险计划的“2x 薪金”。 定义后，覆盖范围选项可以重复使用，您可以将一个选项与一个或多个计划相关联。
+Microsoft Dynamics 365 Human Resources 中的覆盖范围选项是参与者在福利计划或项目中的选择覆盖级别。 例如，覆盖范围选项可以包括某个医疗计划的**仅限员工**，或某个人寿保险计划的 **2x 薪金**。 定义后，可以重复使用福利覆盖范围选项。 可以将一个选项与一个或多个计划关联。
 
 定义覆盖范围选项后，将覆盖范围选项附加到福利计划类型中。 然后计划类型将与福利计划或项目关联。 与计划类型相关联的覆盖范围选项可用于使用该计划类型创建的所有计划。 
 

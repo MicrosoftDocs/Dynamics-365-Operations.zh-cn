@@ -2,7 +2,7 @@
 title: 监控主计划运行
 description: 本主题说明生产规划员如何查看主计划运行是否正在进行。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 11/04/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, InventItemIdLookupSimple, ReqLog, ReqProcessTaskTrace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d6e7fdd51670ea63efc04e883703f1763955115b
-ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
+ms.openlocfilehash: 159043f37b067df26fdd1de5610eafd663bf6a57
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781911"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209551"
 ---
 # <a name="monitor-a-master-planning-run"></a>监控主计划运行
 

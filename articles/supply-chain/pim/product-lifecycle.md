@@ -2,7 +2,7 @@
 title: 产品生命周期状态概览
 description: 产品生命周期状态记载已发布产品或产品变型的生命周期状态。
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: b5b0ceb1926de6efda239fdbc69fb36a9d4b28e0
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 7889f1d21bf38a9063fff6a64da50febd15df5d6
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934832"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209436"
 ---
 # <a name="product-lifecycle-state-overview"></a>产品生命周期状态概览
 

@@ -2,7 +2,7 @@
 title: 管理仓库工作人员
 description: 本文介绍如何使用 Dynamics 365 Supply Chain Management - 仓库应用程序帮助监控由您仓库的员工执行的工作。
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 72891
 ms.assetid: feaa6f15-49d2-41f5-9b87-453463c52e4e
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0de87e10f9213838dd5e5436b8b5699b19547bf
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0b143051ba39c74869d2ec56203ee4f1cda7268a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018613"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205567"
 ---
 # <a name="manage-warehouse-workers"></a>管理仓库工作人员
 

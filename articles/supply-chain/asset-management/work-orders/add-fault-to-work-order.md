@@ -2,7 +2,7 @@
 title: 将故障添加到工作订单
 description: 此主题介绍如何在资产管理中向工作订单添加故障登记。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2b58cc31578d7bb102c6b5aa8b4ce2d6cfe8c893
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: e82026f1d73e7368d93109bc0b895b7368ac84d4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626193"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215186"
 ---
 # <a name="add-fault-to-work-order"></a>将故障添加到工作订单
 

@@ -2,7 +2,7 @@
 title: 采购工作流
 description: 某些组织要求采购申请和采购订单由输入交易记录的人之外的用户进行审核。 若要设置审核流程，您可以创建一个工作流。
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2074
 ms.assetid: e54a1d59-b9fb-421b-821d-01f32878aa9b
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93ceab555bf278ced13d8360956f6db65ba275f8
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0a20be4730189f1f81a08b5dda21e97aaedd7d3b
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813446"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209229"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>采购工作流
 

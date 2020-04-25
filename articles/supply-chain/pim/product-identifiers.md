@@ -2,7 +2,7 @@
 title: 产品标识符
 description: 此主题提供有关不同类型的产品标识符的信息，并说明了如何在您的产品数据中添加产品标识符。
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 0aa8baf5802ccdd9a502e2a7d291a76fc4afe932
-ms.sourcegitcommit: d91d96c98b31ae59bc82ec91efbb7da86ffb25fa
+ms.openlocfilehash: 44e5496904c10c644b33f5cf5d9e51c39bcd4a9e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172017"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209528"
 ---
 # <a name="product-identifiers"></a>产品标识符
 

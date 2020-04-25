@@ -2,7 +2,7 @@
 title: 功能位置生命周期状态
 description: 本主题介绍如何在资产管理中设置功能位置状态和生命周期模型。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4804d5f38fb65aa8ab3eafceccbbc6f52f2e81b
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c6981180e9a8c33a2adedb36c5402711d0212f6a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569930"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205958"
 ---
 # <a name="functional-location-lifecycle-states"></a>功能位置生命周期状态
 

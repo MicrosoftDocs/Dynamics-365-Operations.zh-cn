@@ -2,7 +2,7 @@
 title: 将 Field Service 中的工作订单同步到 Supply Chain Management 中的销售订单
 description: 本主题讨论用于将 Field Service 中的工作订单同步到 Supply Chain Management 中的销售订单的模板和基础任务。
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 2aa37ada18120e3b2a6e6b309c7d7b7ca9d9158f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: a896acb984f64860df54b61350c0e6d12e0dd678
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249811"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209137"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>将 Field Service 中的工作订单同步到 Supply Chain Management 中的销售订单
 
@@ -256,7 +256,7 @@ ms.locfileid: "2249811"
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>工作订单到销售订单（Field Service 到 Supply Chain Management）：WorkOrderServiceLineUsed
 
-筛选器：(msdynce_headersystemstatus ne 690970005) 和 (msdynce_headersystemstatus ne 690970000) 及 (msdynce_orderhasexternalmaintainedproductsonly eq true) 与（(msdyn_linestatus eq 690970001) 或 (msdynce_headersystemstatus eq 690970004)）
+筛选器：(msdynce_headersystemstatus ne 690970005) 和 (msdynce_headersystemstatus ne 690970000) 及 (msdynce_orderhasexternalmaintainedproductsonly eq true) 与((msdyn_linestatus eq 690970001) 或 (msdynce_headersystemstatus eq 690970004))
 
 [![数据集成中的模板映射](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
@@ -268,6 +268,6 @@ ms.locfileid: "2249811"
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>工作订单到销售订单（Field Service 到 Supply Chain Management）：WorkOrderProductLineUsed
 
-筛选器：(msdynce_headersystemstatus ne 690970005) 和 (msdynce_headersystemstatus ne 690970000) 及 (msdynce_orderhasexternalmaintainedproductsonly eq true) 和（(msdyn_linestatus eq 690970001) 或 (msdynce_headersystemstatus eq 690970004) 或 (msdyn_allocated ne true)）
+筛选器：(msdynce_headersystemstatus ne 690970005) 和 (msdynce_headersystemstatus ne 690970000) 及 (msdynce_orderhasexternalmaintainedproductsonly eq true) 和((msdyn_linestatus eq 690970001) 或 (msdynce_headersystemstatus eq 690970004) 或 (msdyn_allocated ne true))
 
 [![数据集成中的模板映射](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)

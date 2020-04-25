@@ -2,7 +2,7 @@
 title: 维护属性类型
 description: 本主题介绍如何在资产管理中创建属性类型。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 625e2c6a6b385c69d33ec4325a462310a37f1eed
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 2ed333a3064654691966eac3c20626955ada0030
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812183"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205889"
 ---
 # <a name="maintenance-attribute-types"></a>维护属性类型
 

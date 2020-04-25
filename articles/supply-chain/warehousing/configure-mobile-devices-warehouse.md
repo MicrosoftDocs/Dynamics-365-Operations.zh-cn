@@ -2,7 +2,7 @@
 title: 为仓库工作设置移动设备
 description: 此主题介绍了如何配置仓库工作人员用于在移动设备上执行工作的菜单项。
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 29941
 ms.assetid: 6dff6313-dc6e-4f06-9c0c-dab24eefe4da
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c4b131c14101722593f685cbe1133b1aa1319b0
-ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
+ms.openlocfilehash: 438e13d6887decc9867d474467efc06d7a2f3274
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3161820"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205705"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>为仓库工作设置移动设备
 

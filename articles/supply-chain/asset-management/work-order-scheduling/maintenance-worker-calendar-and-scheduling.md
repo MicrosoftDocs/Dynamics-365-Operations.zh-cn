@@ -2,7 +2,7 @@
 title: 维护工人日历和排产
 description: 本主题介绍资产管理中与排产有关的维护工人。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: aa2d50a976af7ee7dde5335f94336b995fdc2d11
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: b47a24ff31419ab4f9d719ad7524b9e221ca25c1
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652049"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215278"
 ---
 # <a name="maintenance-worker-calendar-and-scheduling"></a>维护工人日历和排产
 

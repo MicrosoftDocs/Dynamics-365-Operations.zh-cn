@@ -2,26 +2,26 @@
 title: 创建和处理符合项
 description: 此主题介绍如何执行不符合项管理，基于现有的质检订单。
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 08/07/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d012af1924e9eedee41f46de6c253d009cb52d2
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: c0c0c4415f490219485b3d96fa678a317c1f12f2
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145701"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204117"
 ---
 # <a name="create-and-process-a-conformance"></a>创建和处理符合项
 

@@ -2,7 +2,7 @@
 title: 使用仓库管理进行实际称重产品处理
 description: 本主题介绍如何使用工作模板和库位指令确定在仓库中如何以及在哪里完成工作。
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 3014a7b22c47f99b5c57fd6acd9be8d89c6fb8ab
-ms.sourcegitcommit: 75974ae567bb0eacf0f65cac992b34ce5c680b93
+ms.openlocfilehash: 5a751b360b2da8f786dd7b8d139e1a0a44052894
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3095789"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211966"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>使用仓库管理进行实际称重产品处理
 

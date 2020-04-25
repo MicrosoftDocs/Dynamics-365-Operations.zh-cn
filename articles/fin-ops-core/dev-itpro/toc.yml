@@ -14,7 +14,9 @@
               items:
                 - name: “Platform update 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
-                - name: Platform update 34（2020 年 5 月）
+                - name: 针对 10.0.11 的 Platform update（2020 年 7 月）
+                  href: get-started/whats-new-platform-update-35.md
+                - name: 针对 10.0.10 的 Platform update（2020 年 5 月）
                   href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33（2020 年 4 月）
                   href: get-started/whats-new-platform-update-33.md
@@ -324,8 +326,6 @@
                       href: data-entities/configuration-data-packages.md
                     - name: 配置数据包（仅 2017 年 7 月版本）
                       href: data-entities/configuration-data-packages.md
-                    - name: 将实体商店用作 Data Lake
-                      href: data-entities/entity-store-data-lake.md
                 - name: 配置数据模板
                   href: data-entities/configuration-data-templates.md
                 - name: 跟踪实体更改
@@ -384,6 +384,14 @@
               href: user-interface/data-validation-workspace.md
             - name: 数据管理错误描述
               href: data-entities/dm-error-descriptions.md
+        - name: Azure Data Lake
+          items:
+            - name: Azure Data Lake 概览
+              href: data-entities/azure-data-lake-overview.md
+            - name: Azure Data Lake 中的 Finance and Operations 应用
+              href: data-entities/finance-data-azure-data-lake.md
+            - name: 将实体商店用作 Data Lake
+              href: data-entities/entity-store-data-lake.md
         - name: 数据库移动操作
           items:
             - name: 概览
@@ -482,38 +490,46 @@
               items:
                 - name: 本地部署主页
                   href: deployment/on-premises-deployment-landing-page.md
-                - name: 本地部署概览
-                  href: deployment/on-premises-overview.md
-                - name: 计划和准备本地部署
-                  href: deployment/plan-onprem-deployment.md
-                - name: 硬件规模调整要求
-                  href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                - name: 设置本地项目
-                  href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                - name: 准备本地部署
+                  items:
+                    - name: 本地部署概览
+                      href: deployment/on-premises-overview.md
+                    - name: 计划和准备本地部署
+                      href: deployment/plan-onprem-deployment.md
+                    - name: 硬件规模调整要求
+                      href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                 - name: 设置并部署本地环境
                   items:
-                    - name: 设置并部署本地环境主页
-                      href: deployment/setup-deploy-on-premises-environments.md
-                    - name: 部署本地环境（Platform update 12 及更高版本）
+                    - name: 在 LCS 中设置本地项目
+                      href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                    - name: 设置并部署本地环境
                       href: deployment/setup-deploy-on-premises-pu12.md
-                    - name: 部署本地环境（Platform update 8 和 11）
-                      href: deployment/setup-deploy-on-premises-pu8-pu11.md
                     - name: 本地环境中 Retail 渠道组件的安装步骤
                       href: deployment/deploy-retail-onprem.md
+                    - name: 开发自定义模型并将其部署到本地环境
+                      href: deployment/develop-deploy-custom-models-on-premises.md
+                - name: 环境维护
+                  items:
+                    - name: 将更新应用于本地部署
+                      href: deployment/apply-updates-on-premises.md
+                    - name: 证书轮换
+                      href: deployment/certificate-rotation-on-prem.md
+                    - name: 客户端 Internet 连接
+                      href: user-interface/client-disconnected.md
+                    - name: 为本地环境配置代理
+                      href: deployment/onprem-reverseproxy.md
+                    - name: 本地诊断
+                      href: deployment/on-premises-diagnostics.md
+                    - name: PowerBI.com 与本地环境集成
+                      href: analytics/entity-store-on-prem.md
+                    - name: 重新配置环境
+                      href: lifecycle-services/reconfigure-environment.md
+                    - name: 重新部署本地部署
+                      href: deployment/redeploy-on-prem.md
+                    - name: 删除并重新安装 AOS 节点
+                      href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: 在多个环境中重复使用相同的 AD FS 实例
                       href: deployment/onprem-reuseadfs.md
-                - name: 开发自定义模型并将其部署到本地环境
-                  href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: PowerBI.com 与本地环境集成
-                  href: analytics/entity-store-on-prem.md
-                - name: 为本地环境配置代理
-                  href: deployment/onprem-reverseproxy.md
-                - name: 将更新应用于本地部署
-                  href: deployment/apply-updates-on-premises.md
-                - name: 本地诊断
-                  href: deployment/on-premises-diagnostics.md
-                - name: 重新部署本地部署
-                  href: deployment/redeploy-on-prem.md
                 - name: 本地代理
                   items:
                     - name: AD FS Office 365 兼容性
@@ -522,16 +538,12 @@
                       href: lifecycle-services/pre-post-scripts.md
                     - name: 更新本地代理
                       href: lifecycle-services/update-local-agent.md
-                - name: 重新配置环境
-                  href: lifecycle-services/reconfigure-environment.md
-                - name: 客户端 Internet 连接
-                  href: user-interface/client-disconnected.md
-                - name: 对本地部署进行故障排除
-                  href: deployment/troubleshoot-on-prem.md
-                - name: 在本地环境中解决问题的脚本
-                  href: deployment/onprem-tsg-implementations.md
-                - name: 证书轮换
-                  href: deployment/certificate-rotation-on-prem.md
+                - name: 故障排除
+                  items:
+                    - name: 对本地部署进行故障排除
+                      href: deployment/troubleshoot-on-prem.md
+                    - name: 在本地环境中解决问题的脚本
+                      href: deployment/onprem-tsg-implementations.md
             - name: 部署自定义代码
               items:
                 - name: 创建模型的可部署包
@@ -928,7 +940,9 @@
                       href: extensibility/extensibility-attributes.md
                     - name: 破坏性的更改
                       href: extensibility/breaking-changes.md
-            - name: 性能
+                    - name: 兼容性检查器工具
+                      href: extensibility/compatibility-checker-tool.md
+            - name: 绩效
               items:
                 - name: 使用 Trace parser 进行跟踪
                   href: perf-test/trace-trace-tutorial.md
@@ -1442,6 +1456,8 @@
               href: sysadmin/configure-manage-database-log.md
             - name: AOS 启动时建立 OData 元数据缓存
               href: sysadmin/odata-warmup.md
+            - name: 设置 Azure 密钥保管库客户端
+              href: ../../finance/localizations/setting-up-azure-key-vault-client.md
         - name: 升级、更新和修补程序
           items:
             - name: 升级、更新和修补程序资源
@@ -1542,7 +1558,7 @@
                   href: deployment/apply-updates-on-premises.md
                 - name: 重新部署本地部署
                   href: deployment/redeploy-on-prem.md
-                - name: 本地 7.x 到 8.1 的就地升级
+                - name: 本地环境的就地升级流程
                   href: migration-upgrade/on-prem-upgrade.md
             - name: 修补程序
               items:

@@ -2,7 +2,7 @@
 title: 过帐退回物料的到达日志
 description: 过帐退回物料的到达日志。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverview
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63659288ab8551e458f6e92a5045c72441ff68cc
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: c96f1499cf9ef93a56a636f990aa5d0d183f9627
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743271"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202115"
 ---
 # <a name="post-arrival-journal-for-returned-products"></a>过帐退回物料的到达日志 
 

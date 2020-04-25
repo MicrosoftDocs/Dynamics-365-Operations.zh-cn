@@ -2,7 +2,7 @@
 title: 定义库存盘点流程
 description: 此主题介绍如何通过创建一个盘点组和盘点日记帐来配置基本存货盘点过程。
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 07/26/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCountGroup, InventJournalName, InventParameters, EcoResProductDetailsExtended, InventItemLocation, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b4f83ae0e33520f1777cea31e2f986af1691bfa1
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 9df5db0e71f550e82820e15b1597d9e287071f83
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145540"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213990"
 ---
 # <a name="define-inventory-counting-processes"></a>定义库存盘点流程
 

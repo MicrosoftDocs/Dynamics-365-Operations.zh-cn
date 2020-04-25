@@ -2,7 +2,7 @@
 title: 分派工作订单
 description: 本主题介绍如何在资产管理中分派工作订单。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 026b34934d6527416a4632d8e1aee76a8836dcb0
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 3412b447876d5cd0b16bdbfc0a30ae1afa3e33c0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652003"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215301"
 ---
 # <a name="dispatch-work-order"></a>分派工作订单
 

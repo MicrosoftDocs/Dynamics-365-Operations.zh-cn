@@ -2,7 +2,7 @@
 title: 将物料清单报告为已完工入库
 description: 本文提供了有关将物料清单报告为已完工入库的信息。
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMReportFinish, BOMReportFinishMax
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 53251
 ms.assetid: 510d05a3-0073-438d-b0c4-b6a6df1882ea
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a80bda7dd469bc5c07ba0160e5e8c349ed2137fd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 62514833a80acff27d774f96150aa34b7eb081c7
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553453"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211207"
 ---
 # <a name="report-boms-as-finished"></a>将物料清单报告为已完工入库
 

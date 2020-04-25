@@ -2,7 +2,7 @@
 title: 执行看板处理作业
 description: 此过程介绍看板流程作业的执行。
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ebae3fac556348aafa595e6e21caf9cd6b44ba4
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: a1c32b577007c400f3528a110436eb97aaabefe2
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149013"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207017"
 ---
 # <a name="execute-kanban-process-jobs"></a>执行看板处理作业
 

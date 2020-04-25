@@ -2,7 +2,7 @@
 title: 创建询价的计分方法
 description: 此过程演示如何创建计分方法。
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQScoringMethod
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e0e1fe2a27998c01012e40d80eacf13aa11f5689
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: dd8657098519391ee488025e175e1499c58a55ce
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3147334"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204646"
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>创建询价的计分方法
 

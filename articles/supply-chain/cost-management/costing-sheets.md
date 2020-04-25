@@ -2,7 +2,7 @@
 title: 成本计算单
 description: 设置成本计算单涉及两个目标。 作为第一个目标，您定义用于显示与制造物料或生产订单有关的所售货物成本信息的格式。 采用此格式的显示称作成本计算单。 作为第二个目标，您定义用于计算间接成本的基数。 成本计算单设置建立在用于显示信息和用于间接成本计算公式的成本组功能的基础上。 本文介绍两个成本计算单设置的目标。
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostSheetDesigner
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 53201
 ms.assetid: e7d72b43-3892-49ae-8821-9eede3f4d24a
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1421049adb86916202ad6f7ee748c8525fd55fa8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eded428d24b6ade35eb5606535fdedc0e3be0e39
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550713"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201816"
 ---
 # <a name="costing-sheets"></a>成本计算单
 

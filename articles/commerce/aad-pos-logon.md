@@ -3,7 +3,7 @@ title: 对 POS 登录启用 Azure Active Directory 身份验证
 description: 此主题介绍如何为 Microsoft Dynamics 365 Commerce 销售点 (POS) 配置登录体验，以便使用 Azure Active Directory 身份验证。
 author: boycezhu
 manager: annbe
-ms.date: 03/04/2020
+ms.date: 03/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,16 +15,16 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: f030e8382627191dd32d855e15432fc85dca4bbd
-ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
+ms.openlocfilehash: dfc49585434383385b6b993893d93b95ef888384
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "3100372"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248932"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>对 POS 登录启用 Azure Active Directory 身份验证
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 许多使用 Microsoft Dynamics 365 Commerce 的客户也使用其他 Microsoft 云服务，并且可能使用 Azure Active Directory (Azure AD) 来管理这些服务的用户凭据。 在这些情况下，客户可能希望在多个应用程序中使用同一个 Azure AD 帐户。 此主题介绍如何配置 Commerce 销售点 (POS) 登录体验，以便使用 Azure AD 身份验证。
 

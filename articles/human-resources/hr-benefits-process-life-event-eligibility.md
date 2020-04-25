@@ -3,7 +3,7 @@ title: 处理生命事件资格
 description: 本文将向您展示如何运行生命事件资格的流程。
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 899c49fd2946fbadf4264e9178a57fb28598c0de
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: de4c5b951f9d4b07f457ce392c310fb96ba34947
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008182"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229962"
 ---
 # <a name="process-life-event-eligibility"></a>处理生命事件资格
-
-[!include [banner](includes/preview-feature.md)]
 
 本文将向您展示如何运行生命事件资格的流程。
 
@@ -37,7 +35,7 @@ ms.locfileid: "3008182"
 
    | 字段 | 说明 |
    | --- | --- |
-   | 登记期间 | 要处理其间的生命事件资格的登记期间。 |
+   | **登记期间** | 要处理其间的生命事件资格的登记期间。 |
 
 3. 如果要在后台运行此流程，请选择**在后台运行**并执行以下任务：
 

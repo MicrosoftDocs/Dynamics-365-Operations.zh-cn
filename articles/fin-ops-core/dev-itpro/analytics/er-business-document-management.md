@@ -3,7 +3,7 @@ title: 业务文档管理概览
 description: 本主题介绍有关如何使用 ER 框架的业务文档管理功能的信息。
 author: NickSelin
 manager: AnnBe
-ms.date: 01/15/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117329"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258549"
 ---
 # <a name="business-document-management-overview"></a>业务文档管理概览
 
@@ -46,7 +46,7 @@ ms.locfileid: "3117329"
 
 ## <a name="business-document-availability"></a>业务文档可用性
 
-公共预览版中支持采用基于 Excel 的模板的以下报告：
+公共预览版中将提供采用基于 Excel 的模板的以下报告：
 
 **应收帐款**（2019 年 8 月）
 
@@ -248,9 +248,18 @@ ms.locfileid: "3117329"
 1. 以具有业务文档管理工作区访问权限的用户的身份登录。
 2. 打开业务文档管理工作区。
 
+在**功能管理**工作区中关闭了**类似于 Office 的业务文档管理 UI 体验**功能之后，**业务文档管理**工作区的主网格中将显示以下模板：
+
+- ER 配置提供商（即**电子申报**工作区中当前标记为可用的提供商）负责的模板。 选择这些模板之一后，可以选择**编辑模板**开始或继续编辑该模板。
+- 其他 ER 配置提供商负责的模板。 选择这些模板之一后，可以选择**新建文档**创建 ER 配置提供商负责的模板的副本，然后开始编辑该副本。
+
 ![业务文档管理工作区页](./media/BDM-Overview-EditingTemplate1.png)
 
 **模板**选项卡中提供所选模板的内容。 选择**详细信息**选项卡以查看所选模板的详细信息，以及此模板所在 ER 格式配置的详细信息。 请注意，所有模板的状态均为**已发布**，并且其**修订**列中不包含任何详细信息。 这表示当前未在编辑这些模板。
+
+如果在**功能管理**中开启了**类似于 Office 的业务文档管理 UI 体验**功能，则**业务文档管理**工作区中的主网格显示您的 ER 配置提供商（即**电子申报**工作区中标记为可用的提供商）负责的模板。 选择这些模板之一后，可以选择**编辑模板**开始或继续编辑该模板。
+
+若要使用其他 ER 配置提供商负责的模板，请选择**新建文档**创建您的 ER 提供商负责的模板的副本。 然后就可以开始编辑该副本。 有关详细信息，请参阅[业务文档管理中的新文档用户界面](er-business-document-management-new-template-ui.md)。
 
 ### <a name="initiate-editing-templates-owned-by-your-configuration-provider"></a>开始编辑配置提供商负责的模板
 

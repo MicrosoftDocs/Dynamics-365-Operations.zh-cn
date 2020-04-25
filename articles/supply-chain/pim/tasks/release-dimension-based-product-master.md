@@ -2,7 +2,7 @@
 title: 发布基于维度的基础产品
 description: 该过程会显示如何发布基础物料（将被用于基于维度的配置）。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductRelease
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9bf9f4725120a7b893bf113a50d208ae27755d56
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: fb2aa6b2a1d32dce662f13855c7bcf81191e51a0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149841"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213093"
 ---
 # <a name="release-a-dimension-based-product-master"></a>发布基于维度的基础产品
 

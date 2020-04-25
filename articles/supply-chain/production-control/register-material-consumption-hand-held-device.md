@@ -2,7 +2,7 @@
 title: 使用移动设备登记物料消耗量
 description: 此主题介绍允许使用手持设备登记生产中的原材料消耗量的工作流。
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 1706093
 ms.assetid: 75ee68e0-4b9f-4f4d-b286-f498e0eb73fa
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5b9c73cf9b23eb8ad9ed872b76b92b395609e9a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 67fbb8eebb637a96638c574373441213c66e9ddc
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571015"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211253"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>使用移动设备登记物料消耗量
 

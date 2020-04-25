@@ -2,7 +2,7 @@
 title: 手动修改需求预测
 description: 此过程显示如何修改物料预测。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, ForecastSales
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58846f896d60610d0e90f8d04fda3101def53511
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: ddb14968bee06dd26b6584fab3d88445cd926cbe
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148093"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209574"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>手动修改需求预测
 

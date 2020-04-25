@@ -2,7 +2,7 @@
 title: 设置可以生产或采购的产品
 description: 产品可以以各种方式采购：可以生产（制造）或采购（购买）。 本文介绍在您配置产品以支持多方采购时要考虑的一些典型问题。
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqGroup, ReqItemTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 21841
 ms.assetid: acc608b7-2cad-4fba-afee-9b7cc93761ec
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a910b5782c8f15cfdd4cf93ea883bc28a5ce8e1a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e68488a714764e7260fb141ccecdc361a8fd7bfa
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552337"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214703"
 ---
 # <a name="set-up-products-that-can-be-produced-or-procured"></a>设置可以生产或采购的产品
 

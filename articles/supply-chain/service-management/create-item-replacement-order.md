@@ -2,7 +2,7 @@
 title: 创建物料更换单
 description: 在退回和检查产品后，通常创建物料更换单。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edee455fdbfa5cd79e025c91021dfcc7a703e6d0
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: b92c4400f2c852af49c78e9e94fdffa2e498b45c
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835542"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202874"
 ---
 # <a name="create-an-item-replacement-order"></a>创建物料更换单 
 

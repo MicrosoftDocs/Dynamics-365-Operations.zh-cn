@@ -2,7 +2,7 @@
 title: 将库存转移和调整从 Field Service 同步到 Supply Chain Management
 description: 本主题讨论用于将 Dynamics 365 Supply Chain Management 中的库存调整和转移同步到 Dynamics 365 Field Service 的模板和基础任务。
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: d76adf10b9df48f5a7a5196e0469bb7cb1dbb34f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ff64f28af570b792f73b51aa9caf06dd2445b2ca
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552225"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204416"
 ---
 # <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>将库存转移和调整从 Field Service 同步到 Supply Chain Management
 

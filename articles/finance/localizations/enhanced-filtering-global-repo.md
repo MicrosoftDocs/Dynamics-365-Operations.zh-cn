@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ed5a217b8844bfc76d53370ab4c4c339f5bece36
-ms.sourcegitcommit: 0dcdfedec7125562f6b33deb009a3e044a1243eb
+ms.openlocfilehash: 1adbd690795139778dc77a574e9d5f91a4bdeb3c
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3099859"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3249157"
 ---
 # <a name="enhanced-filtering-options-for-finding-configurations-in-the-global-repository"></a>用于在全局知识库中查找配置的增强筛选选项
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 此主题介绍 Regulatory Configuration Service (RCS) 全局知识库的增强筛选功能，已经改进了这些功能，以便包含以下筛选器： 
 - **国家/地区** - 基于 ISO 国家/地区代码  

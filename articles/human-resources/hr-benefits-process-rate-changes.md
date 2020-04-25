@@ -3,7 +3,7 @@ title: 处理比率更改
 description: 处理当新的或现有的福利计划的资格规则设置发生更改时，Microsoft Dynamics 365 Human Resources 中的福利比率更改。
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9ebe5cfc2bdf7790770d27ece2dc67f7677db593
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 850709480326f6a0871f19ea1bb287631cd58b42
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008181"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229924"
 ---
 # <a name="process-rate-changes"></a>处理比率更改
-
-[!include [banner](includes/preview-feature.md)]
 
 处理当新的或现有的福利计划的资格规则设置发生更改时，Microsoft Dynamics 365 Human Resources 中的福利比率更改。 如果创建了新的资格规则并将其分配给计划，这将提示系统重新运行工作人员资格，以根据新的资格选项检查工作人员现在是否有资格享受计划。 
 
@@ -37,7 +35,7 @@ ms.locfileid: "3008181"
 
    | 字段 | 说明 |
    | --- | --- |
-   | 登记期间 | 要处理其间的比率更改的登记期间。 |
+   | **登记期间** | 要处理其间的比率更改的登记期间。 |
 
 3. 如果要在后台运行此流程，请选择**在后台运行**并执行以下任务：
 

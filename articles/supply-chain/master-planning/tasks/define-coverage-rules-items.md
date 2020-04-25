@@ -2,7 +2,7 @@
 title: 定义物料的覆盖规则
 description: 创建此程序的演示数据公司是 USMF。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,22 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqGroup, DefaultDashboard, EcoResProductDetailsExtended, EcoResProductCreate, InventItemOrderSetup, ReqItemTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 680d7c9339b089a4da82bef18bae3af41e23af30
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: fd44c458da03807ddc1dc9d652da29c1404dbe64
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845157"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209597"
 ---
 # <a name="define-coverage-rules-for-items"></a>定义物料的覆盖规则
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 创建此程序的演示数据公司是 USMF。 该过程会显示如何创建覆盖范围规则，以及覆写特定物料的覆盖范围设置。 它也显示了如何确定默认库存设置。
 

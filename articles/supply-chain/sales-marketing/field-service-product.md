@@ -2,7 +2,7 @@
 title: 将 Supply Chain Management 中的产品直接同步到 Field Service 中的产品
 description: 此主题介绍用于同步 Dynamics 365 Supply Chain Management 与 Dynamics 365 Field Service 的产品的模板和基础任务。
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c87e4cbfa375ef99d00c9a145c190af78e912d56
-ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
+ms.openlocfilehash: 1efa4e403f5cf2cdc5fb797f05781f6d42245ed5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029397"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209999"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>将 Supply Chain Management 中的产品直接同步到 Field Service 中的产品
 

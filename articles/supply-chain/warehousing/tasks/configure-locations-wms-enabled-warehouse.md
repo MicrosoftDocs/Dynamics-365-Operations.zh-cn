@@ -2,7 +2,7 @@
 title: 配置启用了 WMS 的仓库中的位置
 description: 本指南会显示如何配置启用 WMS 的新仓库的位置设置（使用高级仓库管理流程的仓库）。
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, WHSLocationFormat, WHSLocationType, WHSLocationProfile, WHSParameters, WHSZoneGroup, WHSZone, WHSLocationBuild, WHSLocation, WHSPackSizeCategory, WHSLocationLimit, WHSInventFixedLocation, WMSLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 43fd5a293671d63c1c0db3019ba89fdf84f9fff8
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 31f016c4c8b8b08139836336ac38196fbd1fba6f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3146161"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3217187"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>配置启用了 WMS 的仓库中的位置
 

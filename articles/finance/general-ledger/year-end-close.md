@@ -3,7 +3,7 @@ title: 年终结算
 description: 此主题描述运行总帐年终结算流程所需设置和步骤。
 author: kweekley
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3071365640eb6c012cb9af5461e885bb3f135143
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f5b81ed788536a8b81ca53d6b6f12200836b6f5
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175304"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259763"
 ---
 # <a name="year-end-close"></a>年终结算
 
@@ -74,7 +74,7 @@ ms.locfileid: "2175304"
 年终结算流程不遵循科目结构。 这是因为科目结构在会计年度中可能改变，并且这些更改导致并非始终可以标识相关科目结构。  创建期初交易记录时，将按照年终结算模板中的定义使用财务维度结转余额。 在当前科目结构以及在当前科目结构中不再有效的段落组合中，期初余额条目内不再刻意包含财务维度。 如果您的组织希望排除留存利润期初余额的财务维度，请将该财务维度设置为**结算单个**，并将维度值保留为空。
 
 ## <a name="run-the-year-end-close-process"></a>运行年终结算流程
-创建年终结算模板支护，可通过在操作窗格中选择**运行会计年度**启动年终结算流程。 从模板中选择要对其运行年终结算的所有法人或一小组法人。 在会计年度中首次运行年终结算时，刻意选择所有法人，以便为所有法人创建期初余额。 如果再次运行年终结算，刻意仅为过帐了其调整条目的法人运行此流程。 
+创建年终结算模板支护，可通过在操作窗格中选择**运行会计结算**启动年终结算流程。 从模板中选择要对其运行年终结算的所有法人或一小组法人。 在会计年度中首次运行年终结算时，刻意选择所有法人，以便为所有法人创建期初余额。 如果再次运行年终结算，刻意仅为过帐了其调整条目的法人运行此流程。 
 
 选择要对其运行年终结算流程的会计年度。 如果会计年度的最后一个期间有多个期末期间，并且定义了设置以创建期末交易记录，**期间名称**将变为可用，这样您就可以选择哪个期末期间过帐期末交易记录。 
 

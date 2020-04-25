@@ -2,7 +2,7 @@
 title: 将库存物料附加到服务对象
 description: 本主题说明如何将库存物料附加到服务对象。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88a833032284982fd44fbc8d785276b665a0f370
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4be7d686f8157307f4b89f03a082446533a866a1
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814136"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203058"
 ---
 # <a name="attach-inventory-items-to-service-objects"></a>将库存物料附加到服务对象    
 

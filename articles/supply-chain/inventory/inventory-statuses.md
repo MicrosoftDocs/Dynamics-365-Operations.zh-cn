@@ -2,7 +2,7 @@
 title: 库存状态
 description: 本文介绍如何使用库存状态来分类和跟踪库存。
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 21331
 ms.assetid: b35f495f-de4f-48a0-9d09-4d06781d7650
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 79ddc91aa3bbe0613543595006b10e6e0bef4427
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: e96ed6d01e22ee2cbc5b3b2be8168fbb43904c89
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653479"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212702"
 ---
 # <a name="inventory-statuses"></a>库存状态
 

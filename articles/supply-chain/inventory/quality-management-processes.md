@@ -2,7 +2,7 @@
 title: 质量管理流程
 description: 本文提供有关未达标产品的质量管理流程的信息。 它介绍了如何使用质量控制功能、如何定义和维护不符合项以及如何处理更正。
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 11574
 ms.assetid: 5ac8a059-5cb4-4cb5-ba14-b944bd08dae9
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 544721af404775a6d8b65628848caa84ceaebe30
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 2ab3b886b9d5237e96e193d7369c6060f19516e5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813814"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214059"
 ---
 # <a name="quality-management-processes"></a>质量管理流程
 

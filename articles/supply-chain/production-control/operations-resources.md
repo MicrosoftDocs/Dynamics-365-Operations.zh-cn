@@ -2,7 +2,7 @@
 title: Operations 资源
 description: 运营资源执行项目或生产流程的活动。 它们可以是不同类型，可以具有不同功能。
 author: sorenva
-manager: AnnBe
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e11d64ec37775f4fe2fc113af238a6294b459454
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7b4063d918b2d4454a23f01c414214a1d17988c9
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557533"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212564"
 ---
 # <a name="operations-resources"></a>Operations 资源
 

@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0cfa7d55f5d4d219c0bc43eb6313c0c6bd014ab6
-ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
+ms.openlocfilehash: cb797af1ae14ebbb420a1b4a1591202c42bd8824
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3133888"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3249110"
 ---
 # <a name="vendor-invoices-overview"></a>供应商发票概览
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题提供有关供应商发票的一般信息。 供应商发票收到的产品和服务的付款请求。 供应商发票可以表示正在进行中的服务的帐单，也可以基于特定物料和服务的采购订单。
 
@@ -71,7 +70,7 @@ ms.locfileid: "3133888"
 
 可通过下面的几种方法阻止将发票提交给工作流。
 
-- **发票合计和等记合计不相等。** 发票提交者将收到预警，说明合计不相等，所以他们可以在重新将发票提交给工作流之前更正余额。 如果已开启了**功能管理**页面中的**发票合计和等记发票合计不相等时禁止提交给工作流**参数，则可使用此功能。 
+- **发票合计和登记合计不相等。** 发票提交者将收到预警，说明合计不相等，所以他们可以在重新将发票提交给工作流之前更正余额。 如果已开启了**功能管理**页面中的**发票合计和登记发票合计不相等时禁止提交给工作流**参数，则可使用此功能。 
 
 - **发票中包含未分配的费用。** 发票提交者将收到预警，说明发票有未分配的费用，所以他们可以在重新将发票提交给工作流之前更正发票。 如果已开启了**功能管理**页面中的**供应商发票中有未分配的费用时禁止提交给工作流**参数，则可使用此功能。
 

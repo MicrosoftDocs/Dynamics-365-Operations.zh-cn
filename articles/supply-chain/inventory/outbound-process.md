@@ -2,7 +2,7 @@
 title: 出站流程概览
 description: 此主题概要介绍了库存管理中的出库流程。
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 2f6638b3e79be5a2ebdbf6e5773285406239a080
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: db1a6887e7742700dd3451c9a877b948b5ab691b
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865440"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207270"
 ---
 # <a name="outbound-process-overview"></a>出站流程概览
 

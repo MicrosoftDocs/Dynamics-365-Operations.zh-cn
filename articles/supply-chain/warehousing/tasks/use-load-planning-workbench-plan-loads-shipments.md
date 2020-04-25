@@ -2,26 +2,26 @@
 title: 使用装载计划工作台计划负荷和装运
 description: 本主题显示如何使用装载计划工作台创建销售订单的装载量。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a51031647e270662f37138848b0db9ed08d544e
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 6a6af2f0623744f2cddf46c0310231afb0870fd7
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145866"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216724"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>使用装载计划工作台计划负荷和装运
 

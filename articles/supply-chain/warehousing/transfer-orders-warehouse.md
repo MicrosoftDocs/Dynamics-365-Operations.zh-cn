@@ -2,25 +2,25 @@
 title: 设置转移单的仓库
 description: 此主题介绍如何设置转移单的仓库。
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 01/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 91db6e8f921bd674211f6d478b6d0f0a832c983c
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: aa5786df72f87da992f1020bbaaa1c2185adf043
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847007"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216704"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>设置转移单的仓库 
 

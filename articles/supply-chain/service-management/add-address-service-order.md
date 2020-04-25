@@ -2,7 +2,7 @@
 title: 将地址添加到服务订单
 description: 此主题描述如何将客户地址添加到服务订单。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/02/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58188be6f82b6587011188379e5370b81f8fd114
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a5b1c0e300edc45ae3f4be9eae8afa56e06cccd6
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570357"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203081"
 ---
 # <a name="add-an-address-to-a-service-order"></a>将地址添加到服务订单    
 

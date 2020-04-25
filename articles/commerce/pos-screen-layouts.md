@@ -1,9 +1,9 @@
 ---
-title: 销售点 (POS) 的屏幕布局
+title: POS 用户界面视觉效果配置
 description: 此主题提供有关 Dynamics 365 Commerce 销售点 (POS) 体验的屏幕布局的信息。
-author: jblucher
-manager: AnnBe
-ms.date: 05/20/2019
+author: boycezhu
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,23 +16,22 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5bf7b3d20ff0b42eb9eaedf584b2a508c1307707
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021790"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261459"
 ---
-# <a name="screen-layouts-for-the-point-of-sale-pos"></a>销售点 (POS) 的屏幕布局
+# <a name="pos-user-interface-visual-configurations"></a>POS 用户界面视觉效果配置
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
-此主题提供有关 Dynamics 365 Commerce 销售点 (POS) 体验的屏幕布局的信息。
-
-可使用为商店、收银机和/或用户分配的视觉配置文件和屏幕布局，配置 POS 用户界面 (UI)。
+可使用为商店、收银机和用户分配的视觉配置文件和屏幕布局，配置 Microsoft Dynamics 365 Commerce 销售点 (POS) 的用户界面 (UI)。 此主题介绍这些配置选项。
 
 下图显示构成 POS UI 可配置项的各实体之间的关系。
 
@@ -40,7 +39,7 @@ ms.locfileid: "3021790"
 
 ## <a name="visual-profile"></a>可视化配置文件
 
-视觉配置文件分配给收银机，用于指定收银机特定且在用户中共享的视觉元素。 每位登录收银机的用户都将看到相同的主题、颜色和图像。
+视觉配置文件分配给收银机，用于指定收银机特定且在用户中共享的视觉元素。 每位登录收银机的用户都将看到相同的主题、布局、颜色和图像。
 
 ![采用浅色主题的 POS 欢迎使用屏幕](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
@@ -48,16 +47,24 @@ ms.locfileid: "3021790"
 
 - **配置文件编号** – 配置文件编号是可视化配置文件的唯一标识符。
 - **描述** - 您可以指定有意义的名称，帮助确定适合您的情况的配置文件。
-- **主题** – 您可以在“浅色”和“深色”两种应用程序主题之间选择。 主题影响整个应用程序中的字体和背景色。
+- **主题** – 您可以在**浅色**和**深色**两种应用程序主题之间选择。 主题影响整个应用程序中的字体和背景色。
 - **个性色** – 个性色在整个 POS 中用于区分或突出显示特定视觉元素，如标题、命令按钮和超链接。 这些元素通常可操作。
-- **标题颜色** – 您可以配置页标题的颜色，以便满足零售商的品牌需要。 只有 Retail 版本 1611 中才有此功能。
-- **显示日期/时间** – 启用后，POS 标题中将显示当前日期和时间。
-- **登录背景** – 您可以为登录屏幕指定背景图像。 背景图像的文件大小应尽量小，因为存储和加载大型文件可能影响应用程序的行为和性能。
-- **应用程序背景** – 您可以指定整个应用程序中使用的背景图像来代替纯色主题色。 至于登录背景，文件大小应该尽量小。
+- **标题颜色** – 您可以配置页标题的颜色，以便满足零售商的品牌需要。
+- **字体主题** – 可在**标准**和**大**字体方案之间选择。 字体方案影响整个应用程序的字体大小。 默认选择为**标准**。
+- **始终显示应用程序栏标签** – 如果开启了此选项，应用程序栏按钮下始终显示标签文本。
+- **布局** – 可在**居中**和**靠右**布局之间选择。 布局影响登录屏幕中登录框的对齐。 默认选择为**居中**。
+- **显示日期/时间** – 开启此选项之后，POS 标题和登录屏幕中将显示当前日期和时间。
+- **键盘** – 可在**默认使用操作系统键盘**和**显示数字键盘**之间选择以指定用于在登录屏幕中进行输入的默认键盘。 数字键盘是主要用于触控设备的虚拟键盘。 默认选择为**默认使用操作系统键盘**。
+- **徽标图像** – 可指定登录屏幕中显示的徽标图像。 建议使用透明背景的图像。 文件大小应尽量小，因为存储和加载大型文件可能影响应用程序的行为和性能。
+- **登录背景** – 您可以为登录屏幕指定背景图像。 背景图像的文件大小应尽量小。
+- **背景** – 您可以指定整个应用程序中使用的背景图像来代替纯色主题色。 对于登录屏幕的背景图像，文件大小应尽量小。
+
+> [!NOTE]
+> **靠右**布局和日期/时间显示不适用于紧凑视图的登录屏幕。
 
 ## <a name="screen-layouts"></a>屏幕布局
 
-屏幕布局配置决定 POS 欢迎屏幕和**交易记录**屏幕中的 UI 控件的操作、内容和位置。
+屏幕布局配置决定 POS **欢迎**屏幕和**交易记录**屏幕中的 UI 控件的操作、内容和位置。
 
 ![POS 屏幕布局视图](../commerce/media/POS-Screen-Layout-View.png)
 

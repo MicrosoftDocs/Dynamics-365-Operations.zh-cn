@@ -2,7 +2,7 @@
 title: 度量单位和库存政策
 description: 本文介绍如何在仓库流程中使用默认单位、单位序列和单位换算。
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductDetailsExtended, EcoResStorageDimensionGroup, InventItemOrderSetup, UnitOfMeasureConversion, WHSRFMenuItem, WHSUOMSeqGroupTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 29611
 ms.assetid: 4b5ca875-9a06-416d-9ac0-cc3ab8f7338e
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c484f814d9f1e726fd326e1cd0ea8fe694f797b9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6bd6a3ea9d7b339df99ffa65f058fc4b98b58b9c
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545236"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216681"
 ---
 # <a name="unit-of-measure-and-stocking-policies"></a>度量单位和库存政策
 

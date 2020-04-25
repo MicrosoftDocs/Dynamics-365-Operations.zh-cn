@@ -2,7 +2,7 @@
 title: 使用最小库存事件创建看板规则
 description: 此过程重点介绍通过使用最低存货事件创建看板规则以确保特定产品在特定地点始终可用时所需的设置。
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,23 +10,23 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4b578a664e9e3b6496e5665b2eefd9d75f86ecc3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: b295000e132b8551045520df1af55a37673f131d
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837822"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212242"
 ---
 # <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a>使用最小库存事件创建看板规则
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此过程重点介绍通过使用最低存货事件创建看板规则以确保特定产品在特定地点始终可用时所需的设置。 创建看板规则，以便在库存水平下降到低于 200 件时将物料转移到该地点。 通过运行需求声明事件处理，创建所需看板。 创建此任务的演示数据公司是 USMF。 该任务面向工艺工程师或价值流经理，因为他们负责新型或改良产品的生产准备。
 

@@ -3,7 +3,7 @@ title: 文本类别的 ER 函数列表
 description: 本主题提供有关电子申报 (ER) 支持的文本函数的信息。
 author: NickSelin
 manager: kfend
-ms.date: 12/05/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f519d242fe74196b0d12bdc9df4f1b4b0e585752
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bd4dd7e9a3e1aa448adea5abd0c21b8133f34e3b
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916606"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201081"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>文本类别的 ER 函数列表
 
@@ -52,7 +52,7 @@ ms.locfileid: "2916606"
 | [替换](er-functions-text-replace.md) | 在将全部或部分指定文本字符串替换为另一个字符串之后，此函数作为*字符串*值返回指定的文本字符串。 |
 | [右对齐](er-functions-text-right.md) | 此函数返回*字符串*值，该值在指定字符串的末尾显示指定的字符数量。 |
 | [文本](er-functions-text-text.md) | 在将指定的数字转换为根据当前应用程序实例的服务器区域设置设定格式的文本字符串后，此函数将该数字作为*字符串*值返回。 |
-| [翻译](er-functions-text-translate.md) | 在将全部或部分指定文本字符串替换为另一个字符串之后，此函数作为*字符串*值返回指定的文本字符串。 |
+| [翻译](er-functions-text-translate.md) | 此函数返回一个*字符串*值，该值中包含使用指定文本字符替换提供的另一组字符的结果。 |
 | [Trim](er-functions-text-trim.md) | 在删除前导和尾随空格以及删除单词之间的多个空格之后，此函数作为*字符串*值返回指定的文本字符串。 |
 | [Upper](er-functions-text-upper.md) | 在将指定的文本字符串转换为大写字母后，此函数作为*字符串*值返回该字符串。 |
 

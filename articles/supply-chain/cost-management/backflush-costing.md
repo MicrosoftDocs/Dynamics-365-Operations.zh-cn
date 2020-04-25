@@ -2,7 +2,7 @@
 title: 倒冲成本计算
 description: 本主题介绍了用于 Lean manufacturing 的倒冲成本计算法概念。
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 272063
 ms.assetid: 62a2a7da-ff79-49bf-a6e8-29460ba5252f
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: be4dbadaeac747953af44236156453edc596fcd5
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 698ffc05823a796c63646d18036a23464c275815
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018104"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209045"
 ---
 # <a name="backflush-costing"></a>倒冲成本计算
 

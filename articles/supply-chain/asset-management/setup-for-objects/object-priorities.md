@@ -2,7 +2,7 @@
 title: 资产服务级别
 description: 本主题介绍资产管理中的资产服务级别。
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6dad0cb480f69eac84df5ea9a67f2adb94e2f52c
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 35e7a55b1ba230be6bb72b20fcd805ea061b648e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811795"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216566"
 ---
 # <a name="asset-service-levels"></a>资产服务级别
 

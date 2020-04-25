@@ -2,7 +2,7 @@
 title: 与 Microsoft Dynamics 365 Field Service 的集成概述
 description: 本主题提供与 Microsoft Dynamics 365 Field Service 集成的概述。
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: cf1c4cbc18728b6094f862792d20a893b2a8d6ea
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 041044cf6b5a5de2091a4b61d98b7d07445e43ef
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815264"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209114"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>与 Microsoft Dynamics 365 Field Service 的集成概述
 

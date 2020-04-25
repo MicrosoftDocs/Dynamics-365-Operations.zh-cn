@@ -2,7 +2,7 @@
 title: 指定如何处置退回物料
 description: 指定如何处置退回物料。
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQuarantineOrder
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6991fc04f5015fc3d604306e9327a5e551e728db
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: cb991b5e9abbe517dcbd73de4f34744955383e82
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743064"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206649"
 ---
 # <a name="specify-how-to-dispose-of-returned-items"></a>指定如何处置退回物料 
 

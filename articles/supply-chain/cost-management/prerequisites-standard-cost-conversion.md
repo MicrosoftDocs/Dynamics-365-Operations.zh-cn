@@ -2,7 +2,7 @@
 title: 用于标准成本转换的先决条件
 description: 本主题讨论在运行标准成本转换前需执行的任务。
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 50891
 ms.assetid: 73af66cf-c924-45be-837a-a648dbd05a31
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 955191a32165a32c455d0dba7424a82eb2559399
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: da5605e3542cfb8803b6a9f3645bcb2cc613c0bd
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547828"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214557"
 ---
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>用于标准成本转换的先决条件
 

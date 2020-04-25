@@ -2,7 +2,7 @@
 title: “时间和出勤”中的缺勤登记
 description: 本主题说明如何处理“时间和出勤”中的缺勤登记。
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JMGParameters
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ef244d5abf762bcaab426cf1cefb232383a8109
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a076ade51ad295886bef747302c4874ef09d3fa7
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549282"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203265"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>“时间和出勤”中的缺勤登记
 

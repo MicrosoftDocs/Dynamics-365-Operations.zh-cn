@@ -2,7 +2,7 @@
 title: 在 Dynamics 365 for Finance and Operations – 仓库应用程序中使用摄像头扫描条码
 description: 本主题介绍如何设置 Dynamics 365 for Finance and Operations – 仓库应用程序以在移动设备上使用摄像头扫描条码。
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 01/03/2018
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 58cf27a250778d68bdffa1eefa5e939276e467fc
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: 9d3b807b18a0a9c7d24763a2a2a7ea9eccf9c2bb
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578141"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205844"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>在 Dynamics 365 Supply Chain Management - 仓库应用程序中使用摄像头扫描条码
 

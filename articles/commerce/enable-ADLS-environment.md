@@ -3,7 +3,7 @@ title: 在 Dynamics 365 Commerce 环境中启用 ADLS
 description: 本主题说明如何针对 Dynamics 365 Commerce 环境启用和测试 Azure Data Lake Storage (ADLS)，这是启用产品推荐的先决条件。
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c037f5603af5af84917084eefa1edd508891c0d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154428"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259740"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>在 Dynamics 365 Commerce 环境中启用 ADLS
 
@@ -48,7 +48,8 @@ ms.locfileid: "3154428"
   
 ## <a name="configuration-steps"></a>配置步骤
 
-本节介绍在环境中启用 ADLS 所需的配置步骤。
+此部分介绍在环境中启用 ADLS（当其与产品建议有关时）需要执行的配置步骤。
+有关启用 ADLS 需要执行的步骤的更深度概述，请参阅[将实体商店用作 Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)。
 
 ### <a name="enable-adls-in-the-environment"></a>在环境中启用 ADLS
 
@@ -91,6 +92,8 @@ ms.locfileid: "3154428"
 
 ## <a name="additional-resources"></a>其他资源
 
+[将实体商店用作 Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
+
 [产品建议概览](product-recommendations.md)
 
 [启用产品建议](enable-product-recommendations.md)
@@ -110,5 +113,3 @@ ms.locfileid: "3154428"
 [使用演示数据创建建议](product-recommendations-demo-data.md)
 
 [产品建议常见问题](faq-recommendations.md)
-
-

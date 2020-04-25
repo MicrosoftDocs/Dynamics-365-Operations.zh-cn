@@ -3,7 +3,7 @@ title: 设置福利管理参数
 description: 在 Microsoft Dynamics 365 Human Resources 中配置福利管理的参数。
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab9b1fc78ce42479d9265b80337adf899cec3866
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 9d6d463df08b9ae68047f09316f19e98740a8441
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008231"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229755"
 ---
 # <a name="set-benefits-management-parameters"></a>设置福利管理参数
-
-[!include [banner](includes/preview-feature.md)]
 
 您必须先配置福利管理参数，然后才能在 Microsoft Dynamics 365 Human Resources 中设置休假计划。 这些参数设置默认值、原因代码和其他选项。
 
@@ -47,7 +45,6 @@ ms.locfileid: "3008231"
    | **比率更改原因代码** | 在比率更改更新流程中取消和重新打开员工福利计划时使用的原因代码。 指示比率更改更新流程更改了哪些记录。 |
    | **新雇员符合资格** | 指定新雇员是否符合资格。 |
    | **新雇用登记期间** | 允许新雇用登记的时间段。</br></br>**注意**：此设置将覆盖您在计划资格规则中设置的所有新雇用登记期间。 | 
-   | **年薪增强** | 指定是否自动计算**雇用福利详细信息**中的**年度福利薪金**金额。 基于员工的**固定薪酬付薪比率**、**平均工时数**和**付款频率**。</br></br>**平均工时数** x **固定付薪比率** x **付款频率** (付款期间数) = **年度福利薪金** </br></br>如果**平均工时数**、**固定薪酬付薪比率**或**付款频率**字段中的任何值更改，系统将基于更改后的值自动重新计算员工的**年度福利薪金**金额。 系统将创建**生效日期**记录来标识更改发生的确切日期和时间。 如有必要，您可以手动编辑**年度福利薪金**金额。 |
    | **生命事件已启用** | 启用生命事件。 |
    | **隐藏旧版福利窗体** | 允许您隐藏旧版福利窗体。 |
 
