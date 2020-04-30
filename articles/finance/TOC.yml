@@ -70,12 +70,12 @@
                   items:
                     - name: “Finance 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.11（2020 年 7 月）
+                      href: get-started/whats-new-changed-10-0-11.md
                     - name: Finance 10.0.10（2020 年 5 月）
                       href: get-started/whats-new-changed-10-0-10.md
                     - name: Finance 10.0.9（2020 年 4 月）
                       href: get-started/whats-new-changed-10-0-9.md
-                    - name: Finance 10.0.8（2020 年 2 月）
-                      href: get-started/whats-new-changed-10-0-8.md
             - name: 已删除或弃用的功能
               items:
                 - name: Dynamics 365 Finance 中已删除或弃用的功能
@@ -978,12 +978,16 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: 配置人工和支出的标准成本
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
+            - name: 设置并使用被付后支付的供应商付款
+              href: project-management/setup-manage-vendor-payments.md
             - name: 采购收据上的项目成本应计
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
-            - name: 项目开票
+            - name: 项目开单
               href: accounts-payable/project-invoicing.md
             - name: 项目合同
               href: project-management/project-contracts.md
+            - name: 根据进度创建高级计费合同
+              href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
             - name: 项目预测和预算
               href: project-management/project-forecasts-budgets.md
             - name: 在会计年度末转移项目预算
@@ -1014,6 +1018,8 @@
                   href: project-management/mobile-timesheets.md
                 - name: 为 Project Timesheet 移动应用实施自定义字段
                   href: project-management/custom-fields-mobile.md
+            - name: 项目授权
+              href: project-management/project-grants.md
         - name: 公共部门
           items:
             - name: 公共部门主页
@@ -2016,6 +2022,8 @@
                   href: localizations/emea-ita-exil-unique-certification.md
                 - name: 汇票拒付导入
                   href: localizations/emea-ita-exil-protest-boe.md
+                - name: 税收优惠
+                  href: localizations/emea-ita-exil-tax-plafond.md
             - name: 日本
               items:
                 - name: 日本概览
