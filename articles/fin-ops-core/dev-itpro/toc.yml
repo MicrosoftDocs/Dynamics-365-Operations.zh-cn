@@ -22,32 +22,6 @@
                   href: get-started/whats-new-platform-update-33.md
                 - name: Platform update 32（2020 年 2 月）
                   href: get-started/whats-new-platform-update-32.md
-                - name: Platform update 31（2020 年 1 月）
-                  href: get-started/whats-new-platform-update-31.md
-                - name: Platform update 30（2019 年 11 月）
-                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
-                - name: Platform update 29（2019 年 10 月）
-                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
-                - name: Platform update 28（2019 年 7 月）
-                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
-                - name: Platform update 27（2019 年 6 月）
-                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
-                - name: Platform update 26（2019 年 5 月）
-                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
-                - name: Platform update 25（2019 年 4 月）
-                  href: ../fin-ops/get-started/whats-new-platform-25.md
-                - name: Platform update 24（2019 年 3 月）
-                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
-                - name: Platform update 23（2019 年 1 月）
-                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
-                - name: Platform update 22（2018 年 12 月）
-                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
-                - name: Platform update 21（2018 年 11 月）
-                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
-                - name: Platform update 20（2018 年 9 月）
-                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
-                - name: Platform update 15（2018 年 3 月）
-                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: 已删除或弃用的功能
               items:
                 - name: 已删除或弃用的 Platform 功能
@@ -104,6 +78,8 @@
               href: dev-tools/exclude-test-packages.md
             - name: 使用源代码管理来管理第三方模型和运行时包
               href: dev-tools/manage-runtime-packages.md
+            - name: 一体式可部署包
+              href: dev-tools/aio-deployable-packages.md
             - name: 更新自动生成中的模型版本
               href: dev-tools/version-models-build.md
         - name: 数据集成
@@ -526,7 +502,7 @@
                       href: lifecycle-services/reconfigure-environment.md
                     - name: 重新部署本地部署
                       href: deployment/redeploy-on-prem.md
-                    - name: 删除并重新安装 AOS 节点
+                    - name: 删除并重新安装 AOS 节点，或添加 AOS 节点
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: 在多个环境中重复使用相同的 AD FS 实例
                       href: deployment/onprem-reuseadfs.md
