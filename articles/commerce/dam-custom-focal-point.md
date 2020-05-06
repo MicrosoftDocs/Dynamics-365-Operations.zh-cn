@@ -3,7 +3,7 @@ title: 自定义图像焦点
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中自定义图像焦点。
 author: psimolin
 manager: annbe
-ms.date: 03/03/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c9bbd51f1fe9a19198a455eedd3ba744d54a165
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: af922e857e6bd7a58c0b9891939c8265568b549b
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096975"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269513"
 ---
 # <a name="customize-image-focal-points"></a>自定义图像焦点
 
@@ -41,7 +41,7 @@ ms.locfileid: "3096975"
 
 1. 在 Commerce 站点构建器的左侧导航窗格中，选择**媒体库**。
 1. 在主窗口中，选择要修改的图像。
-1. 在命令栏上，选择**编辑**签出文件。
+1. 在命令栏中，选择**编辑**。
 1. 选择图像以进入**编辑模式**。
 1. 在**编辑模式**下，选择**更改焦点**。 图像上方将显示一个圆形焦点控件。
 1. 选择该焦点控件将其移到所需焦点上方。

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8c2cdbf055a2854c4140d3ccc264da260c7cdf5
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 45d96317f5b6ef956647bfc511e80533e2c34bca
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002258"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275340"
 ---
 # <a name="compliance-overview"></a>合规概述
 
@@ -41,6 +41,8 @@ ms.locfileid: "3002258"
 
 [辅助功能和功能](accessibility.md)
 
-[Cookie 合规](cookie-compliance.md)
+[Cookie 合规性](cookie-compliance.md)
 
 [添加隐私政策页面](add-privacy-page.md)
+
+[替换与所跟踪内容更改相关联的用户 ID](replace-IDs-tracked-changes.md)

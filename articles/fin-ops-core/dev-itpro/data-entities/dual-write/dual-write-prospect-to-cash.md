@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 12a0e07d1c60a359b3ba6c0d20176927ffe89431
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 57aabeef0ee94b4b13bbe6e3925bcafe1e809ab2
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172800"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270280"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>双写入中的目标客户到现金
 
@@ -66,6 +66,14 @@ ms.locfileid: "3172800"
 + 可以向报价单中的产品添加折扣。 在此情况下，折扣将同步到 Supply Chain Management。 标题上的**折扣**、**费用**和**税金**字段由 Supply Chain Management 中的设置控制。 此设置不支持集成映射。 **价格**、**折扣**、**费用**和**税金**字段在 Supply Chain Management 中维护和处理。
 + 销售报价单标题上的**折扣 %**、**折扣**和**运费**字段为只读字段。
 + **货运条款**、**交货条款**、**装运方法**和**交货方式**字段不是默认映射的一部分。 若要映射这些字段，必须设置特定于在其中同步实体的组织中的数据的值映射。
+
+如果您还使用 Field Service 解决方案，请确保重新启用**询价行快速创建**参数。 重新启用此参数可使您继续使用快速创建功能创建询价行。
+1. 导航到您的 Dynamics 365 Sales 应用程序。
+2. 选择顶部导航栏中的设置图标。
+3. 选择**高级设置**。
+4. 选择**自定义系统**选项。
+5. 选择**询价行**菜单项。
+6. 转到**数据服务**部分，然后选择**允许快速创建**复选框。
 
 ## <a name="sales-orders"></a>销售订单
 

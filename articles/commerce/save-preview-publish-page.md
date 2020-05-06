@@ -3,7 +3,7 @@ title: 保存、预览和发布页面
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中保存、预览和发布页面。
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 04200264fabca265484b5e66426810efe8028a50
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002797"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269973"
 ---
 # <a name="save-preview-and-publish-a-page"></a>保存、预览和发布页面
-
 
 [!include [banner](includes/banner.md)]
 
@@ -33,7 +32,7 @@ ms.locfileid: "3002797"
 
 ## <a name="save-a-page"></a>保存页面
 
-若要保存页面，必须先将其签出给您自己，然后在页面编辑器中打开。 应该在修改页面之后立即保存页面，以帮助确保存储更改。
+若要保存页面，必须先将其签出给您自己，然后在页面编辑器中打开。 要签出页面，在命令栏上选择**编辑**。 编辑完页面后，应立即保存该页面，以确保存储您的更改。
 
 保存页面时，更改仅对您显示。 保存操作应该主要用于在页面尚未准备好签入时存储更改。 修改完页面后，建议将其签入，这样就可以对其他人显示更改。 此时，其他必须修改页面的用户也可以签出该页面。
 
@@ -50,7 +49,7 @@ ms.locfileid: "3002797"
 
 ## <a name="publish-a-page"></a>发布页面
 
-页面准备就绪之后，下一步是发布，以便外部用户查看内容。 页面只有在签入后，才能发布。
+页面准备就绪之后，下一步是发布，以便外部用户查看内容。 在发布页面之前，您必须先在命令栏上选择**完成编辑**来签入页面。
 
 可从页面检查器或页面编辑器发布和取消发布页面。 页面检查器显示页面列表，并允许执行批量操作。 页面编辑器只能用于发布或取消发布其中打开的单个页面。
 
@@ -70,9 +69,9 @@ ms.locfileid: "3002797"
 1. 在**站点**下，选择 **Fabrikam**（或您的站点的名称）。
 1. 在左侧的导航窗格中，选择**页面**。
 1. 转到并选择主页在页面编辑器中将其打开。
-1. 选择**签出**。
+1. 选择**编辑**。
 1. 根据需要修改页面。
-1. 选择**保存**，然后选择**签入**。
+1. 选择**保存**，然后选择**完成编辑**。
 1. 在**注释**字段中，输入有关您所做更改的注释，然后选择**确定**。
 1. 选择**预览**预览您的页面。 完成后，关闭预览标签页回到创作工具。
 1. 选择**发布**。

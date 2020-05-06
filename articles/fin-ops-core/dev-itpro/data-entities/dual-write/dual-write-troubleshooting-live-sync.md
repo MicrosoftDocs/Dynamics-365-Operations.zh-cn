@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 60839bbd1b3ae642cdd419c7df2388292776a461
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: d45b19c1e88e6a27bde4335d4a356f2173bdfcd3
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172729"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275409"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>解决实时同步问题
 
@@ -102,7 +102,7 @@ ms.locfileid: "3172729"
 
 这是在 Dynamics 365 中的模型驱动应用中出现的错误情况：
 
-*ISV 代码发生意外错误。(ErrorType = ClientError) 插件发生意外异常 (Execute)：Microsoft.Dynamics.Integrator.CrmPlugins.Plugin: System.Exception：无法处理实体帐户 -（连接尝试失败，因为连接方未在一段时间后正确响应，或由于连接的主机未能响应导致建立的连接失败*
+*ISV 代码发生意外错误。(ErrorType = ClientError) 插件发生意外异常 (Execute)：Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception：无法处理实体帐户 -（连接尝试失败，因为连接方未在一段时间后正确响应，或由于连接的主机未能响应导致建立的连接失败*
 
 当您尝试在 Finance and Operations 应用中创建数据但未正确重置 Common Data Service 环境时，将发生此错误。
 

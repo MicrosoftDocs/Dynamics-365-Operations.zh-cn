@@ -3,7 +3,7 @@ title: 裁剪图像
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中裁剪图像。
 author: psimolin
 manager: annbe
-ms.date: 03/03/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 771f98ef11355ad30ededcb310e9794ce792b7f0
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 9496a1f96e2d0e18eb477a9743927b2076c5548a
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096974"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269559"
 ---
 # <a name="crop-images"></a>裁剪图像
 
@@ -41,7 +41,7 @@ Commerce 站点构建器的媒体库允许您裁剪图像，以便针对不同�
 
 1. 在 Commerce 站点构建器的左侧导航窗格中，选择**媒体库**。
 1. 在主窗口中，选择要修改的图像。
-1. 在命令栏上，选择**编辑**签出文件。
+1. 在命令栏中，选择**编辑**。
 1. 选择图像以进入**编辑模式**。
 1. 在**编辑模式**下，选择**按模块编辑视图**。
 1. 在**模块**下拉菜单中选择模块类型。

@@ -3,7 +3,7 @@ title: 财务报告概览
 description: 本主题介绍从哪里访问 Microsoft Dynamics 365 Finance 中的财务申报，以及如何使用财务申报功能。 其中包括提供的默认财务报表的描述。
 author: aprilolson
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01fcc7c4f3e1eb7aadfc93b120cd57e62077d0c0
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 6cd77e22f9c6f90f6aa9934d70a121008e1274dd
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249052"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262641"
 ---
 # <a name="financial-reporting-overview"></a>财务报告概览
 
@@ -83,13 +83,15 @@ ms.locfileid: "3249052"
 ## <a name="report-deletions-and-expirations"></a>报表删除和到期
 生成报表的用户可以删除他们自己的报表。 具有**维护财务报表安全**责任的用户可以删除其他人的报表。 
 
-从 10.0.7 版本开始，引入了到期日期概念。 新的必需功能将在功能管理工作区启用。 此功能包含以下更改：
+在版本 10.0.8 中，引入了到期日期的概念。 一项新的必需功能将在功能管理工作区的**所有**页面中启用。 **财务报表保留策略**功能包含以下更改：
 * 新生成的报表将从生成之日起自动被标记为具有 90 天的有效期
 * 安装该功能之前的所有现有报表将提供 90 天的有效期。 该日期可能会在短时间内显示为空白，直到 Financial Reporting 服务运行、生成报表，并且该服务执行对具有空白到期日期的现有报表的更新。 
-* 具有**维护财务报表安全**的用户有权使用此功能。 具有**维护财务报表**责任并被授予了**维持财务报表到期**特权的任何用户还可以修改有效期。 目前有两个保留选项可用 - 
-  * 90 天有效期
-  * 将报表设置为永不过期
-
+* 具有**维护财务报表安全**的用户有权使用此功能。 具有**维护财务报表**责任并被授予了**维持财务报表到期**特权的任何用户还可以修改有效期。 目前有两个保留选项可用。 
+  * 90 天有效期。
+  * 将报表设置为永不过期。
+  
+将来的功能中将考虑其他选项。 默认值为 90 天有效期，具有适当权限的用户可以在**财务报表**列表页上覆盖默认值。    
+  
 当选择了有效期（例如 90 天）时，将授予从当天开始 90 天的期限，这与从报表生成过程中设置的原始生成日期开始的 90 天是不同的行为。 
 
 ## <a name="default-reports"></a>默认报表

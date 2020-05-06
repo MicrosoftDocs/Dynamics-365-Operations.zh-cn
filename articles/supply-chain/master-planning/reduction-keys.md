@@ -3,7 +3,7 @@ title: 预测缩减参数
 description: 本主题提供显示如何设置缩减参数的示例。 它包含有关各种缩减参数设置以及每个结果的信息。 可以使用缩减参数以定义如何缩减预测需求。
 author: roxanadiaconu
 manager: tfehr
-ms.date: 04/03/2020
+ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25cdde073878ed090a4d981eff75a337a79b37af
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 6191b4809c3785d92395bec1b7d51bfc978f9245
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225097"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262688"
 ---
 # <a name="forecast-reduction-keys"></a>预测缩减参数
 
@@ -222,7 +222,7 @@ ms.locfileid: "3225097"
 
 ## <a name="reduce-a-forecast-by-transactions"></a>按交易记录缩减预测
 
-如果用于缩减预测需求的方法选择**交易记录 - 缩减参数**或**交易记录 - 动态期间**，则可指定哪些交易记录缩减预测。 如果所有交易记录均应缩减预测，请在**已发布产品**页面**其他**快速选项卡上的**预测减少依据**字段中选择**所有交易记录**，如果只有销售订单才应缩减预测，请选择**订单**。
+如果用于缩减预测需求的方法选择**交易记录 - 缩减参数**或**交易记录 - 动态期间**，则可指定哪些交易记录缩减预测。 如果所有交易记录均应缩减预测，请在**覆盖范围组**页面**其他**快速选项卡上的**预测减少依据**字段中选择**所有交易记录**，如果只有销售订单才应缩减预测，请选择**订单**。
 
 ## <a name="additional-resources"></a>其他资源
 

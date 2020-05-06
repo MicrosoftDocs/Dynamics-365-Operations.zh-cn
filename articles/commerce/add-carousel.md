@@ -3,7 +3,7 @@ title: 传送模块
 description: 此主题介绍传送模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f279d7db0a92df9e64b1d3f6ca01c65ca1478d79
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: f399e4c5618b65b781fdd3ec835e841614579313
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025773"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269720"
 ---
 # <a name="carousel-module"></a>传送模块
 
@@ -58,9 +58,10 @@ ms.locfileid: "3025773"
 
 若要向新页面添加传送模块和设置必需的属性，请执行以下步骤。
 
-1. 创建一个名称为**传送模板**的页面模板。
+1. 选择**新建**以创建页面模板。
+1. 在**新建模板**对话框的**模板名称**下，输入**传送模板**，然后选择**确定**。
 1. 在**正文**插槽中，添加一个**默认页面**模块。
-1. 签入模板，然后发布。 
+1. 选择**完成编辑**签入模板，然后选择**发布**进行发布。  
 1. 使用您刚才创建的传送模板创建一个名称为**传送页**的页面。
 1. 在新页的**主**插槽中，添加一个容器模块。 
 1. 在右侧窗格中，将**宽度**值设置为**填充屏幕**。
@@ -68,8 +69,8 @@ ms.locfileid: "3025773"
 1. 向该传送模块添加一个内容块模块。 通过提供**标题**、**链接**、**布局**和其他属性来设置内容块模块的属性。
 1. 添加并配置另一个内容块模块。
 1. 根据需要为传送模块设置其他属性。
-1. 保存并预览页面。 此页应该显示一个传送，其中有两个模块（即主图模块和特色模块）。 可以更改传送、主图和特色模块的其他属性以获得所需效果。
-1. 编辑完页面，然后发布。
+1. 选择**保存**，然后选择**预览**以预览页面。 此页应该显示一个传送，其中有两个模块（即主图模块和特色模块）。 可以更改传送、主图和特色模块的其他属性以获得所需效果。
+1. 选择**完成编辑**签入页面，然后选择**发布**进行发布。
 
 ## <a name="additional-resources"></a>其他资源
 

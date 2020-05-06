@@ -3,7 +3,7 @@ title: 选择页面布局
 description: 本主题说明如何在 Microsoft Dynamics 365 Commerce 中创建和选择页面布局。
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a3e8efcdc236911ac79007c606d5d1da56f6c424
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0cbcba7ce4f40298e0f2665fa811b125f11e9490
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002766"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269904"
 ---
 # <a name="select-page-layouts"></a>选择页面布局
 
@@ -39,7 +39,7 @@ ms.locfileid: "3002766"
 若要为现有页面创建布局，请执行以下步骤。
 
 1. 转到**页面**，然后在列表中找到该现有页面。 如果需要，请使用搜索功能。
-1. 选择页面，签出，然后选中以将其打开。 记下模块顺序。
+1. 选择页面，选择**编辑**将其签出，然后选择页面名称将其打开。 记下模块顺序。
 1. 选择**另存为新布局**。
 1. 输入布局的名称，然后选择**确定**。
 1. 选择**转换为嵌入式布局**。
@@ -47,6 +47,7 @@ ms.locfileid: "3002766"
 1. 选择**另存为新布局**。
 1. 输入布局的名称，然后选择**确定**。
 1. 选择**更改布局**，选择创建的第一个布局，然后选择**确定**。 记下模块顺序。 将其更改为与随布局保存的模块顺序匹配。
+1. 选择**完成编辑**签入页面，然后选择**发布**进行发布。 
 
 ## <a name="select-a-different-layout-for-an-existing-page"></a>为现有页面选择其他布局
 
@@ -56,9 +57,10 @@ ms.locfileid: "3002766"
 若要为现有页面选择其他布局，请执行以下步骤。
 
 1. 转到**页面**，然后在列表中找到该现有页面。 如果需要，请使用搜索功能。
-1. 选择页面，签出，然后选中以将其打开。
+1. 选择页面，选择**编辑**将其签出，然后选择页面名称将其打开。
 1. 选择**更改布局**。
 1. 选择页面的新布局，然后选择**确定**。 将刷新页面编辑器以显示新布局。
+1. 选择**完成编辑**签入页面，然后选择**发布**进行发布。
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d5cf2804c44e81ad135a3248d38c228148b530cc
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 3febd3ca36f4d517033e910c4087ad3a6ffff35a
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096670"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269927"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>部署新的电子商务租户
 
@@ -66,8 +66,8 @@ Microsoft Dynamics Lifecycle Services (LCS) 是基于云的协作工作空间，
     - 重置密码策略 ID。
     - 编辑个人资料策略 ID。
 
-[!NOTE]
-以后可通过服务请求添加此信息。
+> [!NOTE]
+> 以后可通过服务请求添加此信息。
 
 收集所需信息之后，请执行以下步骤初始化电子商务。
 

@@ -3,7 +3,7 @@ title: 使用预设布局
 description: 此主题描述如何在 Microsoft Dynamics 365 Commerce 中使用预设布局。
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c8149c6e443c77dabfa641a698c931176bedbc98
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002628"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269881"
 ---
 # <a name="work-with-preset-layouts"></a>使用预设布局
 
@@ -44,7 +44,7 @@ ms.locfileid: "3002628"
 若要基于现有自定义布局创建预设布局，请执行以下步骤。
 
 1. 打开现在不使用预设布局，并且具有您要用于站点中其他页面的模块结构的现有页面。
-1. 选择**签出**。
+1. 选择**编辑**签出页面。
 1. 选择**另存为新布局**。 将显示**另存为新布局**对话框。
 1. 为预设布局输入名称和描述。 其他作者基于您的布局创建新页面或切换到您的布局时，将对这些作者显示您输入的值。 因此，输入对页面作者有用的值。
 1. 选择**确定**。
@@ -91,14 +91,14 @@ ms.locfileid: "3002628"
 若要保存和签入预设布局，请执行以下步骤。
 
 1. 选择布局编辑器顶部的**保存**。 保存的更改在签入前，不影响下游页。
-1. 选择**签入**。 现在可为下游工作流发现更改。
+1. 选择**完成编辑**。 现在可为下游工作流发现更改。
 
 若要预览更改，请打开使用预设布局的现有页面，或基于布局创建新页面。
 
 预览对预设布局的更改之后，执行以下步骤之一将布局发布到您的活动站点：
 
 * 转到**布局**，选择布局，然后选择**发布**。
-* 在布局编辑器中，选择**发布**。
+* 选择布局名称打开布局编辑器，然后选择**发布**。
 * 发布引用未发布布局的页面。 将自动发布布局。
 
 > [!WARNING]

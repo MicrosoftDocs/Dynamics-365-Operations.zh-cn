@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: ef4465144155130087b078f9f96911df38b62c41
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 5ffc0358ff58b2a05aa84b4467a27d88b5e1ec42
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173169"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270328"
 ---
 # <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>按需与 Dynamics 365 Supply Chain Management 定价引擎同步
 
@@ -50,6 +50,12 @@ Microsoft Dynamics 365 Supply Chain Management 包括处理贸易协议、价目
     + 运费金额
     + 税金总计
     + 总金额
+    
+5. 为确保系统考虑贸易和销售协议来计算价格：
+    1. 导航到您的 Supply Chain Management 环境。
+    2. 导航到**应收帐款 \> 设置 \> 应收帐款参数**。
+    3. 选择侧导航栏中的**价格**选项卡。
+    4. 在**贸易协议评估**快速选项卡下，取消选中**手动输入**选项。
 
 ## <a name="how-it-works"></a>工作原理
 

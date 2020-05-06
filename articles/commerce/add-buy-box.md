@@ -3,7 +3,7 @@ title: 购买框模块
 description: 此主题介绍购买框模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35b7027e0f0b680dd82ebfcea754fef1617c0163
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 095374c14cddf1ae3608ae1427a7144b3e7ca7b2
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261390"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269743"
 ---
 # <a name="buy-box-module"></a>购买框模块
 
@@ -80,15 +80,15 @@ ms.locfileid: "3261390"
 1. 创建一个名称为**购买框片段**的片段，然后向其添加一个购买框模块。
 1. 在该购买框模块的**媒体**插槽中，添加一个媒体库模块。
 1. 在购买框模块的**商店选择器**插槽中，添加商店选择器模块。
-1. 签入页面，然后发布。
+1. 选择**保存**，选择**完成编辑**签入片段，然后选择**发布**进行发布。
 1. 为产品详细信息页创建一个模块，然后命名为 **PDP 模板**。
 1. 添加默认页。
 1. 在默认页的**主**插槽中，添加一个购买框片段。
-1. 保存模板，完成编辑，然后发布。
+1. 选择**保存**，选择**完成编辑**签入模板，然后选择**发布**进行发布。
 1. 使用您刚才创建的模板创建一个名称为 **PDP 页**的页面。
 1. 在新页的**主**插槽中，添加一个购买框片段。
 1. 保存并预览页面。 在上一页的 URL 中添加查询字符串参数 **?productid=&lt;product id&gt;**。 这样，将把产品上下文用于加载和显示上一页。
-1. 保存页面，完成编辑，然后发布。 应该会在产品详细信息页显示一个购买框。
+1. 选择**保存**，选择**完成编辑**签入页面，然后选择**发布**进行发布。 应该会在产品详细信息页显示一个购买框。
 
 ## <a name="additional-resources"></a>其他资源
 

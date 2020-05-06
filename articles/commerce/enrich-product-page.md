@@ -3,7 +3,7 @@ title: 丰富产品页面
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中扩充产品页面。
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4c495fc6dfe4aa6561a1bb703253ef8ec71dc13
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 12508a80c440894ec6e2073b5e550846480e6c45
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003065"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269812"
 ---
 # <a name="enrich-a-product-page"></a>丰富产品页面
 
@@ -53,7 +53,7 @@ ms.locfileid: "3003065"
 1. 选择**功能**，然后选择**确定**。
 1. 在右侧的属性窗格中**富文本**字段内，输入更新后的产品描述。
 1. 在**标题**字段中，输入标题文本，然后选择**确定**。
-1. 选择**保存**，然后选择**签入**。
+1. 选择**保存**，然后选择**完成编辑**。
 1. 在**注释**字段中，输入**已扩充产品**，然后选择**确定**。
 1. 选择**预览**预览扩充后的产品页。 完成后，关闭预览标签页回到创作工具。
 1. 选择**发布**。

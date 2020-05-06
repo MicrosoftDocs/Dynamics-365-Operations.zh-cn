@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 3ef4b77df29daefefaa775b7453db2137154c730
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 479a7edd456a1f4d121ceef292d2559c400c31a2
+ms.sourcegitcommit: c30a9956d9c29a504856487a3a98090eef9aab2b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261598"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3266315"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-june-2020"></a>Dynamics 365 Supply Chain Management 10.0.11（2020 年 6 月）新增功能或更改
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Dynamics 365 Supply Chain Management 10.0.11 的新增功能或更改（2020 年 7 月）
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "3261598"
 
 - **预览版本：** 2020 年 4 月
 - **公开发布（自行更新）：** 2020 年 5 月
-- **自动更新：** 2020 年 6 月
+- **自动更新：** 2020 年 7 月
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 

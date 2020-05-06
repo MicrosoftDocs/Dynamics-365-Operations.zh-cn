@@ -3,7 +3,7 @@ title: 促销横幅模块
 description: 此主题介绍促销横幅模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: da5e220e4578d1064eb7b627b441d3f585b3c095
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 12cabbf0b8d9f337f15a8cd6cb1f2a85100b75f7
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025612"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269766"
 ---
 # <a name="promo-banner-module"></a>促销横幅模块
 
@@ -64,16 +64,17 @@ ms.locfileid: "3025612"
 
 若要向页面添加促销横幅模块和设置必需的属性，请执行以下步骤。
 
-1. 创建一个名称为**促销横幅模板**的页面模板。
+1. 选择**新建**以创建页面模板。
+1. 在**新建模板**对话框的**模板名称**下，输入**促销横幅模板**，然后选择**确定**。
 1. 在**页面大纲**下面，将**默认页面**模块添加到**正文**插槽中。 
-1. 签入模板，然后发布。 
+1. 选择**完成编辑**签入模板，然后选择**发布**进行发布。 
 1. 使用您刚才创建的模板创建一个名称为**促销横幅页**的页面。 
 1. 在新页的**主**插槽中，添加一个容器模块。 
 1. 在右侧窗格中，将**宽度**值设置为**填充容器**。
 1. 在**页面大纲**下面，将促销横幅模块添加到容器模块中。
 1. 在横幅模块的设置中，添加一个或多个横幅消息。 每条消息都可以具有带有链接的文本。 可以编辑其他属性以进一步自定义模块。
-1. 保存并预览页面。 在页面顶部，应该会看到显示您添加的文本的预警。
-1. 编辑完页面，然后发布。 
+1. 选择**保存**，然后选择**预览**以预览页面。 在页面顶部，应该会看到显示您添加的文本的预警。
+1. 选择**完成编辑**签入页面，然后选择**发布**进行发布。 
 
 > [!NOTE]
 > 通常在页面标题槽或子标题槽中使用促销横幅。

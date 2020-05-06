@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59384d8e8d043eb14231a471c7218ced2dddf739
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172869"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275456"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>解决与 Finance and Operations 应用升级相关的问题
 
@@ -85,9 +85,8 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 > 这些步骤将指导您完成删除实体然后再次添加实体的过程。 为避免出现问题，请确保严格按照以下步骤操作。
 
 1. 在 Finance and Operations 应用中，转到**工作区 \> 数据管理**，然后选择**数据实体**磁贴。
-2. 查找缺少该字段的实体。 记下目标实体、暂存表、实体名称和其他列值。
-3. 如果您的任何处理组都依赖此实体，请在删除实体之前对处理组采取适当的措施。
-4. 删除缺少该字段的实体。
-5. 选择**新建**，然后重新添加实体。 指定在步骤 2 中记下的值。
-6. 从 Finance and Operations 应用中的**双写入**页面打开**实体映射**页面。
-7. 选择**刷新实体列表**自动填充实体映射中的字段。
+2. 查找缺少该属性的实体。 单击工具栏中的**修改目标映射**。
+3. 在**将暂存映射到目标**窗格中，单击**生成映射**。
+4. 从 Finance and Operations 应用中的**双写入**页面打开**实体映射**页面。
+5. 如果该属性未在映射中自动填充，请单击**添加属性**按钮，然后单击**保存**手动添加该属性。 
+6. 选择映射并单击**运行**。

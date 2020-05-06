@@ -3,20 +3,20 @@ title: 适用于 Finance and Operations 的学习目录
 description: 查找适用于 Finance and Operations 的所有培训选项。
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 02/19/2020
+ms.date: 04/17/2020
 ms.author: v-lshann
-audience: Application User
+audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: Operations
 ms.search.region: Global
-ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 751e0ec649d962af084f992957f0e4821ea9509d
-ms.sourcegitcommit: 41950e3b5e4d1d0014bef308ac017cb4c2b8e134
+ms.search.validFrom: 2019-1-29
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 32b67cfd4c007ddc590cd0ee95255d6f3fbc1d17
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3077985"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278929"
 ---
 # <a name="learning-catalog-for-finance-and-operations"></a>适用于 Finance and Operations 的学习目录
 
@@ -33,6 +33,10 @@ ms.locfileid: "3077985"
     您在决定是否要投资新技术吗？ 
 
     [业务和技术决策者学习目录](learning-catalog-bdm.md#)
+
+    [开始](learning-catalog-bdm.md#get-started)
+
+    [考试](learning-catalog-bdm.md#exam)
 
         :::column-end:::
     :::column:::
@@ -53,12 +57,14 @@ ms.locfileid: "3077985"
 
     [财务管理](learning-catalog-business-user.md#financial-management)
 
+    [考试](learning-catalog-business-user.md#exam)
+
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-        ### <a name="implementation-project-managers"></a>实施项目经理
+    ### <a name="implementation-project-managers"></a>实施项目经理
 
     您负责确保公司的实施顺利进行吗？
 
@@ -73,6 +79,9 @@ ms.locfileid: "3077985"
     [制造](learning-catalog-project-manager.md#manufacturing)
 
     [供应链管理](learning-catalog-project-manager.md#supply-chain-management)
+
+    [考试](learning-catalog-project-manager.md#exams)
+
         :::column-end:::
     :::column:::
 
@@ -82,15 +91,19 @@ ms.locfileid: "3077985"
 
     [管理员学习目录](learning-catalog-administrator.md)
 
-    [入门](learning-catalog-administrator.md#get-started)
+    [开始](learning-catalog-administrator.md#get-started)
 
     [核心平台知识](learning-catalog-administrator.md#core-platform-knowledge)
+
+    [核心开发](learning-catalog-administrator.md#core-development)
 
     [迁移和升级](learning-catalog-administrator.md#migration-and-upgrade)
 
     [服务](learning-catalog-administrator.md#servicing)
 
     [正在测试](learning-catalog-administrator.md#testing)
+
+    [考试](learning-catalog-administrator.md#exam)
 
   :::column-end:::
 :::row-end:::
@@ -131,6 +144,8 @@ ms.locfileid: "3077985"
 
     [供应链管理](learning-catalog-functional-consultant.md#supply-chain-management)
 
+    [考试](learning-catalog-functional-consultant.md#exams)
+
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -141,6 +156,10 @@ ms.locfileid: "3077985"
     您负责帮助您的客户购买正确的解决方案吗？ 
 
     [Microsoft 合作伙伴销售和市场营销学习目录](learning-catalog-partner-sales.md)
+
+    [开始](learning-catalog-partner-sales.md#get-started)
+
+    [考试](learning-catalog-partner-sales.md#exam)
 
         :::column-end:::
     :::column:::

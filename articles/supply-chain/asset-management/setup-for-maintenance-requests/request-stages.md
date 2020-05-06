@@ -3,7 +3,7 @@ title: 维护请求生命周期状态
 description: 本主题介绍如何在资产管理中设置维护请求生命周期状态。
 author: josaw1
 manager: tfehr
-ms.date: 07/26/2019
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1e4412af0619b57467b5bcba75ea7259604d1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 08c45742b064f3a13a0ea2704f8873b9c53aad4e
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208999"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275618"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>维护请求生命周期状态
 
@@ -47,7 +47,7 @@ ms.locfileid: "3208999"
 6. 如果应该为处于此生命周期状态的维护请求自动输入实际结束日期和时间，请将**设置实际结束时间**选项设置为**是**。
 7. 如果可以从处于此生命周期状态的维护请求创建工作订单，请将**创建工作订单**选项设置为**是**。
 8. 如果可以删除处于此生命周期状态的维护请求，请将**删除**选项设置为**是**。
-9. 如果使用仓库维修，则**更新**快速选项卡上**资产**部分中的**入站**和**出站**选项相关。如果当维护请求的维护请求生命周期状态设置为**入站**或**出站**时，应将对该维护请求选择的资产的资产生命周期状态自动更新为**入站**或**出站**，则将相应选项设置为**是**。
+9. 如果您使用仓库维修，则在**更新**快速选项卡上，**资产**部分中的**收货**和**出货**选项是相关的。 如果当维护请求的维护请求生命周期状态设置为**收货**或**出货**时，该维护请求中选择的资产的资产生命周期状态应自动更新为**收货**或**出货**，则将适当的选项设置为**是**。
 
 下图显示**维护请求生命周期状态**页的示例。
 
