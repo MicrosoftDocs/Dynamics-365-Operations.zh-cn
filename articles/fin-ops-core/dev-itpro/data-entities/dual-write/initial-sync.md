@@ -19,22 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 4adb2c8d57ad8f67346b8d34212b7a4b0bd052ab
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 9ae14703941b97308bca5845eeac3eb9b181ae75
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173123"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275479"
 ---
 # <a name="entity-dependency-chain-synchronization-order"></a>实体依赖关系链（同步顺序）
 
 [!include [banner](../../includes/banner.md)]
 
-
-
-在下表中，实体按其应该启用的顺序列出。 为初始同步启用映射时，双写入会自动检测必须启用的其他映射。 您可以使用 Finance and Operations 应用中的**双写入**页面在初始同步期间选择或取消选择实体。
-
-在最新版本的双写入中，您可以仅启用一些实体，系统将为您处理依赖关系。
+本主题指定如果不使用**初始同步**功能提供的实体依赖项，创建初始数据必须遵循的同步顺序。 如果您不使用**初始同步**，则必须分别运行每个实体映射。
 
 ## <a name="dynamics-365-supply-chain-management-entities"></a>Dynamics 365 Supply Chain Management 实体
 

@@ -18,18 +18,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3da8bdf6feb932e074680b6cb80e1b7b71f9a82b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: eb5c7389ba29d50232f9321e40bccceecd5f5fc6
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004243"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265610"
 ---
 # <a name="retail-transaction-consistency-checker"></a>零售交易记录一致性检查器
 
-
 [!include [banner](includes/banner.md)]
-[!include [preview banner](includes/preview-banner.md)]
 
 本主题将介绍 Microsoft Dynamics 365 Commerce 中的交易记录一致性检查器功能。 一致性检查器在对账单过账流程选择交易记录之前标识和隔离不一致的交易记录。
 

@@ -3,7 +3,7 @@ title: 添加版权声明
 description: 此主题介绍如何向电子商务网站添加版权声明。
 author: psimolin
 manager: AnnBe
-ms.date: 01/23/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: a2ed52dbd19508e07fcced92a7fad831180b1d1d
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025474"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269582"
 ---
 # <a name="add-a-copyright-notice"></a>添加版权声明
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,12 +50,12 @@ ms.locfileid: "3025474"
 1. 在对话框中，选择**文本块**，然后选择**确定**。
 1. 在导航窗格中，选择**文字块**。
 1. 在右侧的属性窗格中**段落**字段内，添加版权消息。 例如，输入 **(C) Fabrikam 2019**。
-1. 选择**保存**，选择**签入**，然后选择**发布**。
-1. 转到**模板**，选择模板，然后选择**签出**。
+1. 选择**保存**，选择**完成编辑**，然后选择**发布**。
+1. 转到**模板**，选择模板，然后选择**编辑**。
 1. 在**页面大纲**下，展开**正文**，然后展开**默认页面**。
 1. 选择**页脚**插槽旁边的省略号按钮，然后选择**添加片段**。
 1. 选择前面创建的片段，然后选择**选择**。
-1. 签入模板，然后发布。
+1. 选择**完成编辑**签入模板，然后选择**发布**进行发布。
 
 将在使用所选模板的所有页面的底部自动显示其中包含版权声明的页脚。
 

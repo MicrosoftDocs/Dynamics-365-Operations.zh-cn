@@ -3,7 +3,7 @@ title: 添加欢迎消息
 description: 此主题介绍如何向 Microsoft Dynamics 365 Commerce 网站添加欢迎消息。
 author: psimolin
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ca10b01268b5dcd4c6fe448d90cd0ebd65a2673b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d2a125b4e71016ad620f128af2e3c9f29aa04f4c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001246"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269605"
 ---
 # <a name="add-a-welcome-message"></a>添加欢迎消息
 
@@ -41,17 +41,14 @@ ms.locfileid: "3001246"
 
 若要向站点添加欢迎消息，请执行以下步骤。
 
-1. 在 Dynamics 365 Commerce 中，转到您的站点。
+1. 在 Commerce 站点构建器中，转到您的站点。
 1. 选择**片段**。
 1. 选择要将消息添加到的页眉片段。
 1. 在大纲树中，展开**错误/信息消息**。
-1. 选择预警模块。
-
-    如果还没有预警模块，请选择 **错误/信息消息**旁边的省略号按钮 (**...**)，然后选择**添加模块**。 选择预警模块，然后选择**确定**。
-
+1. 选择预警模块，然后选择**确定**。 如果还没有预警模块，首先选择**错误/信息消息**旁边的省略号按钮 (**...**)，然后选择**添加模块**。
 1. 在右侧的属性窗格中**数据**选项卡上，选择**添加数据源**，然后选择**内容**。
 1. 在**输入文本**字段中，输入欢迎消息的文本。
-1. 保存页眉片段，签入，然后发布。
+1. 选择**保存**，选择**完成编辑**签入页眉片段，然后选择**发布**进行发布。 
 
 现在将在使用所选页眉片段的每个站点页顶部显示欢迎消息。
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 79b4640a23d4fc78ade4de57e4071abe6c9ecb56
+ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042703"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284348"
 ---
 # <a name="electronic-reporting-formula-language"></a>电子申报公式语言
 
 [!include [banner](../includes/banner.md)]
 
-电子申报 (ER) 提供了强大的数据换算体验。 ER 公式设计器中用于表达所需数据操作的语言类似于 Microsoft Excel 中的公式语言。
+电子申报 (ER) 提供了强大的数据换算体验。 [ER 公式设计器](general-electronic-reporting-formula-designer.md)中用于表达所需数据操作的语言类似于 Microsoft Excel 中的公式语言。
 
 ## <a name="basic-syntax"></a>基本语法
 
@@ -41,13 +41,13 @@ ER 表达式可以包含任意或所有以下元素：
 - [路径](#Paths)
 - [功能](#Functions)
 
-## <a name="Constants">常量</a>
+## <a name=""></a><a name="Constants">常量</a>
 
 您可以在设计表达式时使用文本和数值常量（即未计算的值）。 例如，表达式 `VALUE ("100") + 20` 使用数值常量 **20** 和字符串常量 **"100"**，返回数值 **120**。
 
 ER 公式设计器支持转义序列。 因此，可以指定应以不同方式处理的表达式字符串。 例如，表达式 `"Leo Tolstoy ""War and Peace"" Volume 1"` 返回文本字符串 **Leo Tolstoy "War and Peace" Volume 1**。
 
-## <a name="Operators">运算符</a>
+## <a name=""></a><a name="Operators">运算符</a>
 
 下表显示您可以用于执行基本算术运算的算术运算符，例如加、减、乘和除。
 
@@ -91,7 +91,7 @@ ER 公式设计器支持转义序列。 因此，可以指定应以不同方式�
 
 如果表达式中包含多个具有相同优先级的连续运算符，将从左到右执行这些运算。 例如，表达式 `1 + 6 / 2 \* 3 > 5` 返回 **true**。 我们建议您使用括号明确指示评估表达式中所需的运算顺序，以使表达式更便于读取和维护。
 
-## <a name="References">参考</a>
+## <a name=""></a><a name="References">参考</a>
 
 在表达式设计期间当前 ER 组件的所有数据源均可用作指定引用。 当前的 ER 组件可以是模型映射或格式。 例如，当前的 ER 模型映射包含数据源 **ReportingDate** 数据源，该数据源返回 *DateTime* 数据类型的值。 若要获取在生成文档中正确格式化的值，您可以按照如下方法在表达式中引用数据源：`DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`。
 
@@ -112,7 +112,7 @@ ER 公式设计器支持转义序列。 因此，可以指定应以不同方式�
 - 只有常量可传递到此类型的方法。 常量的值定义为设计时间。
 - 此类型的参数仅支持原始（基本）数据类型。 原始数据类型包括*整数*、*实数*、*布尔值*、*字符串*。
 
-## <a name="Paths">路径</a>
+## <a name=""></a><a name="Paths">路径</a>
 
 在表达式引用结构化的数据源时，可以使用路径定义选择该数据源的特定基本元素。 点字符 (.) 用于分离结构化数据源的各个元素。 例如，当前的 ER 模型映射包含 **InvoiceTransactions** 数据源，并且该数据源返回记录列表。 **InvoiceTransactions** 记录结构包含 **AmountDebit** 和 **AmountCredit** 字段，并且这两个字段都将返回数值。 因此，您可以设计以下表达式来计算开票金额：`InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`。 此表达式中的 `InvoiceTransactions.AmountDebit` 构造是用于访问*记录列表*类型的 **InvoiceTransactions** 数据源的 **AmountDebit** 字段的路径。
 
@@ -130,7 +130,7 @@ ER 公式设计器支持转义序列。 因此，可以指定应以不同方式�
 
 ![ER 公式设计器页面上绝对路径的其余部分](./media/ER-FormulaLanguage-RelativePath2.png)
 
-## <a name="Functions">功能</a>
+## <a name=""></a><a name="Functions">功能</a>
 
 ER 内置函数可以在 ER 表达式中使用。 根据调用函数参数的列表，可将表达式上下文（即当前 ER 模型映射或 ER 格式）的所有数据源用作调用函数的参数，以便与调用函数的参数列表保持一致。 也可以将常量用作调用函数的参数。 例如，当前的 ER 模型映射包含 **InvoiceTransactions** 数据源，并且该数据源返回记录列表。 **InvoiceTransactions** 记录结构包含 **AmountDebit** 和 **AmountCredit** 字段，并且这两个字段都将返回数值。 因此，若要计算发票金额，可以设计使用内置的 ER 舍入函数的以下表达式：`ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`。
 

@@ -70,12 +70,12 @@
                   items:
                     - name: “Supply Chain Management 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.11（2020 年 7 月）
+                      href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10（2020 年 5 月）
                       href: get-started/whats-new-scm-10-0-10.md
                     - name: Supply Chain Management 10.0.9（2020 年 4 月）
                       href: get-started/whats-new-scm-10-0-9.md
-                    - name: Supply Chain Management 10.0.8（2020 年 2 月）
-                      href: get-started/whats-new-scm-10-0-8.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
@@ -349,6 +349,8 @@
               items:
                 - name: 预测、工作订单和项目
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+            - name: 将资产管理与固定资产进行集成
+              href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: 预防性和反应性维护
               items:
                 - name: 预防性维护概览
@@ -565,6 +567,8 @@
                   href: cost-management/lifo-physical-value-marking.md
                 - name: 移动平均
                   href: cost-management/moving-average.md
+                - name: 移动平均回退成本序列
+                  href: cost-management/moving-average-fallback.md
                 - name: 实际和财务更新
                   href: cost-management/physical-financial-updates.md
                 - name: 移动平均成本价
@@ -579,7 +583,9 @@
                   href: cost-management/inventory-close.md
                 - name: 调整现有库存量成本价值
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: 库龄报表
+                - name: 库存值存储报表
+                  href: cost-management/inventory-value-report-storage.md
+                - name: 库龄报表存储
                   href: cost-management/inventory-aging-report-storage.md
             - name: 制造会计
               items:
@@ -1223,6 +1229,8 @@
                   href: inventory/enable-quality-management.md
                 - name: 质量管理流程
                   href: inventory/quality-management-processes.md
+                - name: 仓库流程质量管理
+                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: 不符合项管理
                   href: inventory/enable-nonconformance-management.md
                 - name: 设置管理的先决条件
@@ -2549,6 +2557,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                 - name: 对未结工作列表的系统分组
                   href: warehousing/system-group-on-open-work-list.md
+                - name: 牌照标签的文档路线选择布局
+                  href: warehousing/document-routing-layout-for-license-plates.md
                 - name: 在 Dynamics 365 for Finance and Operations 中使用摄像头扫描条码
                   href: warehousing/scan-bar-codes-using-a-camera.md
                 - name: 移动条码支持
@@ -2653,6 +2663,8 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: 为仓库工作设置移动设备
                   href: warehousing/configure-mobile-devices-warehouse.md
+                - name: 通过 Warehousing Mobile App 接收牌照
+                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: 为完成采购订单中的工作设置移动设备菜单项
                   href: warehousing/tasks/set-up-mobile-device-menu.md
                 - name: 设置登记已接收物料的移动设备菜单项
@@ -2673,7 +2685,9 @@
                   href: warehousing/upgrade-migration-warehouse-management-processes.md
             - name: 登记和储存的收据
               items:
-                - name: 使用物料到达日记账登记启用了高级仓库的物料
+                - name: 仓库对采购订单入站负荷的处理
+                  href: warehousing/inbound-load-handling.md
+                - name: 使用物料到达日记帐登记启用了高级仓库的物料
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: 使用物料到达日记账登记启用了基本仓库的物料
                   href: warehousing/tasks/register-items-basic-warehousing.md
@@ -2682,6 +2696,7 @@
                 - name: 设置采购订单储存的位置指令
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: 设置采购订单的工作模板
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
         - name: Supply Chain Management 开发
           items:
             - name: 甘特图控件开发指南

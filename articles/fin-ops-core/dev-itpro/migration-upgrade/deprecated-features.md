@@ -3,7 +3,7 @@ title: 先前版本中已删除或弃用的功能
 description: 此主题介绍从 Dynamics 365 for Finance and Operations 和该产品的早期版本已经删除或曾经计划删除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225120"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284006"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>先前版本中已删除或弃用的功能
 
@@ -230,7 +230,7 @@ ms.locfileid: "3225120"
 | **被另一个功能取代？**   | 编号 |
 | **影响的产品区域**         | 产品信息管理 |
 | **部署选项**              | 所有  |
-| **状态**                         | 已从带平台更新 24 的 Finance and Operations 10.0.0 开始移除。 （当且仅当需要修复之前重命名已发布产品的主键导致的数据损坏时，才应联系 Microsoft 支持以请求暂时解除此项限制。） |
+| **状态**                         | 已从带平台更新 24 的 Finance and Operations 10.0.0 开始移除。|
 
 
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>带平台更新 23 的 Finance and Operations 8.1.3
@@ -267,7 +267,7 @@ ms.locfileid: "3225120"
 | **被另一个功能取代？**   | 以后此警告将替换为编译器错误。 |
 | **影响的产品区域**         | Visual Studio 开发工具 |
 | **部署选项**              | 所有 |
-| **状态**                         | 已弃用：此警告在将来将成为编译时错误。 此更改的目标为 Finance and Operations 应用版本 10.0.11 的平台更新。 |
+| **状态**                         | 已弃用：在 Finance and Operations 应用版本 10.0.11 的平台更新中，此警告已成为编译时错误。 |
 
 #### <a name="complete-list"></a>完整列表
 若要访问将弃用的 API 的完整列表，请参阅[弃用方法和元数据元素](deprecation-deletion-apis.md)。

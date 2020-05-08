@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 26e798c664844b575de6f019ad8f5349ed92be98
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: d2691ef6b08a44a845857c34fe60072211364f82
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3114396"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265472"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>在 POS 中更改交货方式
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 此主题介绍如何在销售点 (POS) 环境中设置和使用“更改交货方式”功能。 
 

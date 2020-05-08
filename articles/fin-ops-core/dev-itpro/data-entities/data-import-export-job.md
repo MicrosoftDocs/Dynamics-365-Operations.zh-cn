@@ -3,7 +3,7 @@ title: 数据导入和导出作业概览
 description: 使用数据管理工作区创建和管理数据导入和导出作业。
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 02/20/2020
+ms.date: 04/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124604"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278890"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>数据导入和导出作业概览
 
@@ -151,6 +151,18 @@ ms.locfileid: "3124604"
 您可以将暂存数据下载到一个文件用于导出作业，或将其下载为包用于导入和导出作业。
 
 您还可以从执行详细信息打开执行日志。
+
+## <a name="parallel-imports"></a>并行导入
+为了加快数据导入，如果实体支持并行导入，可以启用导入文件的并行处理。 要为实体配置并行导入，必须遵循以下步骤。
+
+1. 转到**系统管理 \> 工作区 \> 数据管理**。
+2. 在**导入/导出**部分，选择**框架参数**磁贴打开**数据导入/导出框架参数**页。
+3. 在**实体设定**选项卡上，选择**配置实体执行参数**打开**实体导入执行参数**页。
+4. 设置以下字段以为实体配置并行导入：
+
+    - 在**实体**字段中，选择相应实体。
+    - 在**导入阈值记录数**字段中，输入要导入的阈值记录数。 这确定线程要处理的记录数。 如果一个文件有 1 万条记录，记录数为 2500，任务数为 4，意味着每个线程将处理 2500 条记录。
+    - 在**导入任务数**字段中，输入导入任务的数量。 不能超过在**系统管理 \> 服务器配置**中为批处理分配的最大批处理线程数。
 
 ## <a name="clean-up-the-staging-tables"></a>清除暂存表
 从平台更新 29 开始，已弃用此功能。 已被下面介绍的新作业历史记录清理功能版本取代。

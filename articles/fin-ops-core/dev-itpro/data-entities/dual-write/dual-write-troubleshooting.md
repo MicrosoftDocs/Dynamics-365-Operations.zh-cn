@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f7ee0b5aa4e72614205e129acd986376b33efc70
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: d5d9dbce0c74d32107db6bbae033b921e4201693
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172683"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275642"
 ---
 # <a name="general-troubleshooting"></a>常规故障排除
 
@@ -70,14 +70,12 @@ ms.locfileid: "3172683"
 若要查看跟踪日志，请执行以下步骤。
 
 1. 登录到 Finance and Operations 应用，打开**设置**页面，然后在**自定义**下，选择**插件跟踪日志**。
-2. 找到**类型名称**字段设置为 **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** 的跟踪日志。
+2. 找到**类型名称**字段设置为 **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin** 的跟踪日志。
 3. 双击一个项目查看完整日志，然后在**执行**快速选项卡上，查看**消息块**文本。
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>启用调试模式来解决 Finance and Operations 应用中的实时同步问题
 
-**查看错误所需的角色：** 系统管理员
-
-源自 Common Data Service 的双写入错误可能出现在 Finance and Operations 应用中。 在某些情况下，错误消息的完整文本不可用，因为消息太长或包含个人身份信息 (PII)。 您可以按照以下步骤打开详细错误日志记录。
+**查看错误所需的角色：** 系统管理员，源自 Common Data Service 的双写入错误可能会出现在 Finance and Operations 应用中。 在某些情况下，错误消息的完整文本不可用，因为消息太长或包含个人身份信息 (PII)。 您可以按照以下步骤打开详细错误日志记录。
 
 1. Finance and Operations 应用中的所有项目配置在 **DualWriteProjectConfiguration** 实体中均具有 **IsDebugMode** 属性。 使用 Excel 加载项打开 **DualWriteProjectConfiguration** 实体。
 
@@ -104,7 +102,7 @@ ms.locfileid: "3172683"
 
 ## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>从 Finance and Operations 应用取消链接并链接另一个 Common Data Service 环境
 
-**取消链接环境所需的凭据：** Azure AD 租户管理员
+**取消环境链接所需的角色：** Finance and Operations 应用或 Common Data Service 的系统管理员。
 
 1. 登录到 Finance and Operations 应用。
 2. 转到**工作区 \> 数据管理**，然后选择**双写入**磁贴。
@@ -113,3 +111,13 @@ ms.locfileid: "3172683"
 5. 选择**是**以确认操作。
 
 现在，您可以链接新环境。
+
+## <a name="unable-to-view-the-sales-order-line-information-form"></a>无法查看销售订单行“信息”窗体 
+
+在 Dynamics 365 Sales 中创建销售订单时，单击 **+ 添加产品**可能会将您重定向到 Dynamics 365 Project Operations 订单行窗体。 从该窗体无法查看销售订单行**信息**窗体。 **信息**选项未出现在**新订单行**下方的下拉菜单中。 发生这种情况是因为您的环境中已经安装了 Project Operations。
+
+要重新启用**信息**窗体选项，请按照下列步骤操作：
+1. 导航到**订单行**实体。
+2. 在窗体节点下找到**信息**窗体。 
+3. 选择**信息**窗体并单击**启用安全角色**。 
+4. 将安全设置更改为**向所有人显示**。

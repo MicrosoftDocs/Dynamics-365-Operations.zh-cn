@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
-ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
+ms.openlocfilehash: e1d7828e6bb9a3684c1d76e2cfac96174a8dfbf4
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3224901"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268808"
 ---
 # <a name="quality-management-overview"></a>质量管理概述
 
@@ -43,7 +43,11 @@ ms.locfileid: "3224901"
 
 -   根据预定义的标准自动启动质量控制流程（特定供应商的某一采购订单的仓库登记）。
 -   在检查时锁定库存以防止使用未审核的库存（采购订单数量的完全锁定）。
--   使用物料抽样作为质量关联的一部分来定义必须检查的当前实际库存的金额。 抽样可以基于固定数量或百分比。
+-   使用物料抽样作为质量关联的一部分来定义必须检查的当前实际库存的金额。 抽样可以基于固定数量、百分比或完整牌照。
+
+> [!NOTE]
+> _仓库流程质量管理_功能扩展了质量管理能力。 如果您正在使用此功能，请参阅[仓库流程质量管理](quality-management-for-warehouses-processes.md)获取启用此功能时质量管理工作方式的示例。
+
 -   为部分收货创建质检订单。 若要创建基于某订单已实际接收的数量的质检订单，必须在**物料抽样**窗体上选择**按照更新的数量**复选框。
 -   创建测试包括最小值、最大值和目标测试值在内的类型，然后执行具有预定义验证结果的定性与定量测试。
 -   指定一个可接受质量级别 (AQL) 来控制质量度量容差。
@@ -428,6 +432,9 @@ ms.locfileid: "3224901"
 </tbody>
 </table>
 
+> [!NOTE]
+> *仓库流程质量管理*功能添加了将**事件类型**设置为*报告为完工入库*并将**执行**设置为*以后*的生产，以及将**事件类型**设置为*登记*的采购的质检订单处理能力。 有关详细信息，请参阅[仓库流程质量管理](quality-management-for-warehouses-processes.md)。
+
 ## <a name="quality-management-pages"></a>质量管理页
 <table>
 <colgroup>
@@ -437,7 +444,7 @@ ms.locfileid: "3224901"
 </colgroup>
 <thead>
 <tr class="header">
-<th>页面</th>
+<th>页</th>
 <th>说明</th>
 <th>示例</th>
 </tr>
@@ -495,3 +502,5 @@ ms.locfileid: "3224901"
 [质量管理流程](quality-management-processes.md)
 
 [不符合项管理](enable-nonconformance-management.md)
+
+[仓库流程质量管理](quality-management-for-warehouses-processes.md)

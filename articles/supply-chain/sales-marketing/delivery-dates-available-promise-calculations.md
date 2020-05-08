@@ -1,9 +1,9 @@
 ---
 title: 订单承诺
-description: 本文提供有关订单承诺的信息。 订单承诺帮助您向客户确切承诺交货日期，并给予您履行这些日期的灵活性。
+description: 本主题提供有关订单承诺的信息。 订单承诺帮助您向客户确切承诺交货日期，并给予您履行这些日期的灵活性。
 author: ShylaThompson
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78b81431d44ea5f85676b6999eece1330d3101a4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ccb7ef432553c0516eb49013eaad68dd21bf752c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210038"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270019"
 ---
 # <a name="order-promising"></a>订单承诺
 
 [!include [banner](../includes/banner.md)]
 
-本文提供有关订单承诺的信息。 订单承诺帮助您向客户确切承诺交货日期，并给予您履行这些日期的灵活性。
+本主题提供有关订单承诺的信息。 订单承诺帮助您向客户确切承诺交货日期，并给予您履行这些日期的灵活性。
 
 订单承诺计算最早的装运日期和接收日期，它是基于交货日期控制方法和运输天数的。 您可以在四个交货日期控制方法中进行选择：
 
@@ -47,11 +47,13 @@ ATP 使用以下公式计算：
 
 ATP = 前一期间的 ATP + 当前期间的收货 - 当前期间的发货 - 截至以下期间前的各个将来期间的净发货数量：在所有将来期间（直到并且包括该将来期间）的收货之和超过发货之和（直到并且包括该将来期间）时的期间。  
 
+请注意，ATP 计算不包括有关到期日期以及可以承诺任何数量时超出系统预期的 ATP 时间范围之外的信息。
+
 在没有要考虑的更多发货或收货时，用于以下日期的 ATP 数量与最新计算的 ATP 数量相同。  
 
 如果在执行 ATP 检查时未提供用于某一物料的所有维度，则在发货和收货时仍可以指定它们。 在此情况下，在 ATP 计算中，收货和发货必须聚合到现有维度中，以便减少在 ATP 计算中使用的收货行和发货行的数目。  
 
-显示的 ATP 数量始终大于或等于 0（零）。 如果该计算返回负的 ATP 数量（例如，如果以前承诺的数量超出可用数量），程序会自动将数量设置为 **0**。
+显示的 ATP 数量始终大于或等于 0（零）。 如果该计算返回负的 ATP 数量（例如，如果以前承诺的数量超出可用数量），数量会自动设置为 0。
 
 ### <a name="example"></a>示例
 

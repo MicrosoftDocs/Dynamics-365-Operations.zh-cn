@@ -3,7 +3,7 @@ title: 自定义站点导航
 description: 此主题介绍如何创建自定义的在线导航层次结构，以便组织产品以在 Microsoft Dynamics 365 Commerce 站点中进行浏览。
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ae7696dcb5cdd99cd46b89ed1de1b03c16146e2d
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001821"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269651"
 ---
 # <a name="customize-site-navigation"></a>自定义站点导航
 
@@ -93,7 +93,7 @@ ms.locfileid: "3001821"
 1. 在属性窗格中的**数据**选项卡上，选择**添加项**以创建新的内容管理系统 (CMS) 导航项。
 1. 输入链接文本和 URL。
 1. 重复执行步骤 2 和 3 以添加更多自定义导航选项。
-1. 完成后，保存模板或片段，然后签入。
+1. 完成后，选择**保存**以保存模板或片段，然后选择**完成编辑**将其签入。
 
 ## <a name="additional-resources"></a>其他资源
 

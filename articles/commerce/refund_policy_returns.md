@@ -17,18 +17,16 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 66bb9bbd338561315f2f69ae4aff86a67513b190
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: c2a9325f09ffe43c3436b7e0ca2ab511e1f57f83
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3021812"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265566"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>为渠道创建和更新退货和退款政策
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
-
 
 ## <a name="overview"></a>概览
 

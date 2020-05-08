@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 679448255bd85aafb07270f4858d4b83d2fe643b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4577b8b189403b3d71eb634e159d51d2fa53ce12
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204025"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268785"
 ---
 # <a name="set-up-quality-orders"></a>设置质检订单
 
@@ -78,6 +78,9 @@ ms.locfileid: "3204025"
 8. 单击**保存**。
 9. 关闭该页面。
 
+> [!NOTE]
+> *仓库流程质量管理*功能提供其他的物料抽样功能。 它增加了*物料抽样范围*概念以及将完整牌照定义为数量规范的能力。 如果已启用此功能，请参阅[仓库流程质量管理](../quality-management-for-warehouses-processes.md)了解详细信息。
+
 ## <a name="create-a-quality-group"></a>创建质检组
 1. 转到**库存管理 > 设置 > 质量控制 > 质量组**。
 2. 单击**新建**。
@@ -131,3 +134,5 @@ ms.locfileid: "3204025"
 16. 单击**保存**。
 17. 关闭该页面。
 
+> [!NOTE]
+> *仓库流程质量管理*功能提供设置质量关联的其他选项。 它增加了一个新条件（**适用仓库类型**）和一个新设置（**质量处理策略**）。 如果已启用此功能，请参阅[仓库流程质量管理](../quality-management-for-warehouses-processes.md)了解详细信息。

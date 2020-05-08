@@ -3,7 +3,7 @@ title: 为 4xx/5xx 状态代码错误生成自定义响应页面
 description: 此主题介绍如何使用 Microsoft Dynamics 365 Commerce 中的制作工具为 4xx 和 5xx 状态代码错误生成自定义响应页。
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4477a0a43971b5322c6acd6971cba2e79e2dc8c6
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001109"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269536"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>为 4xx/5xx 状态代码错误生成自定义响应页面
 
@@ -46,19 +46,21 @@ ms.locfileid: "3001109"
 
 若要生成状态代码错误响应页的模板，请执行以下步骤。
 
-1. 转到**模板 \> 新建模板**。
-1. 为新模板命名。
+1. 转到**模板**。
+1. 选择**新建**以创建页面模板。
+1. 在**新建模板**对话框的**模板名称**下，为新模板输入名称，然后选择**确定**。
 1. 基于希望状态代码错误响应页要采用的结构生成模板。
-1. 签入模板，然后发布。
+1. 选择**保存**，选择**完成编辑**签入模板，然后选择**发布**进行发布。 
 
 ### <a name="build-the-status-code-error-response-page"></a>生成状态代码错误响应页
 
 若要生成状态代码错误响应页，请执行以下步骤。
 
-1. 转到**页面 \> 新建页面**。
-1. 为状态代码错误响应页命名，但**不**设置 **URL** 字段。
+1. 转到**页面**。
+1. 选择**新建**创建页面。
+1. 在**选择模板**对话框中，选择一个模板，然后在**页面名称**下，输入状态代码错误响应页面的名称。 保持**页面 URL** 字段为空。
 1. 生成页面。
-1. 签入页面，然后发布。
+1. 选择**保存**，选择**完成编辑**签入页面，然后选择**发布**进行发布。
 
 > [!NOTE]
 > 可为 4xx 和 5xx 状态代码错误创建单独的状态代码错误响应页。 也可以将同一个通用状态代码错误响应页用于两个错误类别。

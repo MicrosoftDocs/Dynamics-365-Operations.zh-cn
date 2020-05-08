@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a3d0b6c4ef9e6f21e1542bece9046e98edcab6b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5cbf313666e03c0006bee985bcf622a20ce4e51
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207825"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281501"
 ---
 # <a name="purchase-requisition-workflow"></a>采购申请工作流
 
@@ -85,6 +85,9 @@ ms.locfileid: "3207825"
 3.  申请人的行经理将审核和批准该采购申请行。 审核可以传送至申请人的经理，例如，如果采购申请行的金额超过申请人的采购申请行的花费限制。 经理可以审核或拒绝某个或两个采购申请行。
 4.  市场部门的部门经理查看海报和 T 恤衫的采购申请行。 销售部门经历只查看海报的采购申请行，因为只有该行是会记入销售部门的唯一的成本。
 5.  只有在需要组经理审核时，组经理才审核并批准 T 恤衫的采购申请行，因为，例如，如果采购申请行的金额超出了部门经理的审核限制。 组经理无需审核海报的采购申请行。
+
+> [!NOTE]
+> 如果采购申请的抬头工作流需要与签名限制相关的批准，则必须设置系统货币。
 
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>配置采购申请的工作流
 若要传送采购申请至审核人，则必须配置采购申请工作流流程。 您定义工作流中请求了物料（申请人）的用户、复核人和审核人之间的交互控制的工作流流程。 采购申请的传送取决于在该工作流配置中指定的条件。 例如，这些条件确定应何时传送采购申请、它应传送到的用户或角色，以及用户可以采取的行动。  

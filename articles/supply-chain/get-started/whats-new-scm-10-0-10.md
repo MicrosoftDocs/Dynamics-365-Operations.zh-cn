@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 8297daa0d802b0b821b43aebe7a841011c70fd55
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: fdf4464e5b6fc6f2f4b99dcac80eb199799bf13d
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261180"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268762"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Dynamics 365 Supply Chain Management 10.0.10（2020 年 5 月）中的新增功能或更改
 
@@ -43,7 +43,7 @@ ms.locfileid: "3261180"
 - [用于仓库管理的标签打印增强](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management) - 有关详细信息，请参阅[牌照标签的文档路线选择](../warehousing/document-routing-layout-for-license-plates.md)。
 - [主计划在启用预处理筛选器后包括具有现有库存量的物料](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 - [制造区域的新数据实体](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [仓库流程质量管理](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)
+- [仓库流程质量管理](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes) - 有关详细信息，请参阅[仓库流程质量管理](../inventory/quality-management-for-warehouses-processes.md)。
 
 ## <a name="additional-resources"></a>其他资源
 

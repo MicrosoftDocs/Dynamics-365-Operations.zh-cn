@@ -3,7 +3,7 @@ title: 辅助功能和功能
 description: 本主题提供有关 Microsoft Dynamics 365 Commerce 中的辅助功能和功能的信息。
 author: BrianShook
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3edc6250dd5438be31d80a9d6b0f3b730438ca53
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001752"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274180"
 ---
 # <a name="accessibility-features-and-capabilities"></a>辅助功能和功能
 
@@ -49,7 +49,7 @@ Dynamics 365 Commerce 数字资产管理系统支持视频内容的多种辅助�
 
 | 视频功能               | 说明 |
 |-----------------------------|-------------|
-| 隐藏式字幕 (CC)      | 可以为视频的音频和音频描述元素显示的文本，以帮助有听力障碍的用户 |
+| 隐藏式字幕 (CC)      | 可以为视频的音频和音频描述元素显示的文本，以帮助失聪或有听力障碍的用户 |
 | 字幕                   | 在屏幕上显示上下文线索或对话框文本的字幕文件 |
 | 音频记录           | 从视频资产的音频生成的口头词句的文本记录 |
 | 描述性音频           | 描述屏幕上正在发生的内容或上下文的非主要音频通道 |
@@ -57,7 +57,7 @@ Dynamics 365 Commerce 数字资产管理系统支持视频内容的多种辅助�
 
 ### <a name="configure-video-accessibility-elements"></a>配置视频辅助功能元素
 
-在 Dynamics 365 Commerce 中，在站点的**资产**部分，您可以上载包含隐藏式字幕、常规音频和描述性音频的单独文件的视频资产。 上载视频资产时，还可以自动生成隐藏式字幕。
+在站点的 Commerce **媒体库**部分，您可以上载包含隐藏式字幕、常规音频和描述性音频的单独文件的视频资产。 上载视频资产时，还可以自动生成隐藏式字幕。
 
 #### <a name="generate-or-upload-closed-caption-files-during-video-asset-upload"></a>在视频资产上载过程中生成或上载隐藏式字幕文件
 
@@ -72,7 +72,7 @@ Dynamics 365 Commerce 数字资产管理系统支持视频内容的多种辅助�
 要上载视频的常规音频或描述性音频文件，请使用**资产上载**对话框中的文件选择器。
 
 > [!NOTE]
-> 视频资产上载后，还可以添加隐藏式字幕、常规音频和描述性音频资产。 转到**资产**，选择视频资产，将其签出，然后，在视频资产的属性窗格中，上载其他资产。
+> 视频资产上载后，还可以添加隐藏式字幕、常规音频和描述性音频资产。 转到**媒体库**，选择视频资产，然后选择**编辑**将其签出。然后，在视频资产的属性窗格中，上载其他资产。
 
 #### <a name="edit-cc-and-audio-transcript-files"></a>编辑 CC 和音频记录文件
 
@@ -80,10 +80,10 @@ CC 和音频记录文件可以直接在创作工具中进行编辑。 可以在�
 
 若要编辑 CC 和音频记录文件，请按照下列步骤操作。
 
-1. 转到**资产**，选择视频资产，然后选择**编辑 CC/记录**。 将出现隐藏式字幕和记录内容编辑器。
-1. 选择**签出**。
+1. 转到**媒体库**，然后选择视频资产的文件名。 将出现隐藏式字幕和记录内容编辑器。
+1. 选择**编辑**。
 1. 编辑隐藏式字幕或记录文本。
-1. 完成后，选择**保存**，然后选择**签入**。
+1. 完成后，选择**保存**，然后选择**完成编辑**。
 1. 准备好发布时，选择**发布**。
 
 #### <a name="set-the-minimum-age-attribute"></a>设置“最低年龄”属性
@@ -92,8 +92,8 @@ CC 和音频记录文件可以直接在创作工具中进行编辑。 可以在�
 
 要为视频资产设置**最低年龄**属性，请按照以下步骤操作。
 
-1. 转到**资产**，然后选择视频资产。
-1. 选择**签出**。
+1. 转到**媒体库**，然后选择视频资产。
+1. 选择**编辑**。
 1. 在视频资产的属性窗格中，设置**最低年龄**属性。
 
 > [!NOTE]
@@ -107,8 +107,10 @@ CC 和音频记录文件可以直接在创作工具中进行编辑。 可以在�
 
 [Dynamics 365 辅助功能中心](https://docs.microsoft.com/dynamics365/get-started/accessibility/index)
 
-[合规概述](compliance-overview.md)
+[合规性概览](compliance-overview.md)
 
-[Cookie 合规](cookie-compliance.md)
+[Cookie 合规性](cookie-compliance.md)
 
 [添加隐私政策页面](add-privacy-page.md)
+
+[替换与所跟踪内容更改相关联的用户 ID](replace-IDs-tracked-changes.md)

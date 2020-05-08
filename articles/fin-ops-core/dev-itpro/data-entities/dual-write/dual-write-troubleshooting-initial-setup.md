@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e20c9c5e1250c8e65b5642a7c45d7ae859315697
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172660"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275433"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>解决初始设置过程中的问题
 
@@ -39,7 +39,7 @@ ms.locfileid: "3172660"
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-common-data-service"></a>您无法将 Finance and Operations 应用链接到 Common Data Service
 
-**设置双写入所需的凭据：** Azure AD 租户管理员
+**设置双写入所需的角色：** Finance and Operations 应用和 Common Data Service 中的系统管理员。
 
 **设置到 Common Data Service 的链接**页面上的错误通常是由不完整的设置或权限问题引起的。 请在**设置到 Common Data Service 的链接**页面上通过了整个运行状况检查，如下图所示。 除非整个运行状况检查通过，否则您无法链接双写入。
 
