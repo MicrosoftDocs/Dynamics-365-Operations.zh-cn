@@ -990,6 +990,8 @@
               href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
             - name: 项目预测和预算
               href: project-management/project-forecasts-budgets.md
+            - name: 创建项目预算的预测模型
+              href: project-management/create-forecast-models-project-budgets.md
             - name: 在会计年度末转移项目预算
               href: project-management/process-project-budgets-for-fiscal-year-end.md
             - name: 项目销售订单
@@ -1742,8 +1744,8 @@
               items:
                 - name: 匈牙利概览
                   href: localizations/hungary.md
-                - name: 汇率计算
-                  href: localizations/tasks/hu-00001-exchange-rate-calculation.md
+                - name: 平均和每日汇率计算
+                  href: localizations/emea-hun-average-daily-exchange-rate-calculation.md
                 - name: 固定资产折旧方法
                   href: localizations/emea-hun-fixed-assets-depreciation-methods.md
                 - name: 低成本固定资产
@@ -2280,10 +2282,12 @@
                   href: localizations/netherlands.md
                 - name: 增值税申报
                   href: localizations/emea-nl-VAT-declaration.md
-                - name: 电子纳税申报（电子增值税）
+                - name: 电子纳税申报 (EVAT)
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL 集成
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
+                - name: 审计文件（XML Auditfile Financieel，XAF）
+                  hred: localizations/emea-nl-audit-file.md
             - name: 挪威
               items:
                 - name: 挪威概览
@@ -2930,7 +2934,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/finance/toc.json
                 - name: 向聚合度量添加财务维度
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/finance/toc.json
-                - name: 使用 Power BI Desktop 创建分析报表
+                - name: 使用 Power BI Desktop 创建分析报告
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/finance/toc.json
                 - name: 使用 Power BI Embedded 将分析添加到工作区
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/finance/toc.json
@@ -2978,7 +2982,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: 在目标应用程序中测试准备的电子报告解决方案
                       items:
-                        - name: (ER) 从 RCS 导入配置
+                        - name: 从 RCS 导入配置
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
                         - name: 使用格式配置生成付款的电子单据
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
@@ -3026,6 +3030,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/finance/toc.json
                         - name: SessionToday
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
+                        - name: Today
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
                     - name: 列表
                       items:
                         - name: 列表函数
@@ -3240,12 +3246,6 @@
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: 创建格式时选择数据模型定义
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: 增强的筛选选项，用于在全局存储库中查找配置
-              href: ../finance/localizations/enhanced-filtering-global-repo.md
-            - name: 通过将内容添加为原始 XML 生成报告
-              href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
-            - name: (ER) 电子报告中的跨公司数据源
-              href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
             - name: 设计电子报告格式以生成各种格式的传出电子单据
               items:
                 - name: (ER) 设计用于生成 OPENXML 格式的报表的配置
@@ -3270,44 +3270,12 @@
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
             - name: 定义其他组件上的电子报告配置的依赖关系
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: 设计一个使用财务维度的电子报告解决方案
-              items:
-                - name: 将数据模型设计为使用财务维度作为数据源
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/finance/toc.json
-                - name: 将模型映射为使用财务维度作为数据源
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/finance/toc.json
-                - name: 将报表设计为使用财务维度作为数据源
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
-                - name: 运行使用财务维度作为数据源的报表
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
-            - name: 设计电子报告格式以使用来自所生成输出的信息执行盘点和合计
-              items:
-                - name: 创建格式以执行盘点和合计
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/finance/toc.json
-                - name: 配置格式以执行盘点和合计
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/finance/toc.json
-                - name: 使用计算以生成用于盘点和合计的输出
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/finance/toc.json
-                - name: 运行格式以执行盘点和合计
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/finance/toc.json
             - name: 将作为水平扩展范围的列动态添加到 Excel 报表
               items:
                 - name: 设计格式以将列作为水平扩展范围动态添加到 Excel 报表
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                 - name: 运行格式以将作为水平扩展范围的列动态添加到 Excel 报表
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
-            - name: 在格式输出中使用票据管理文件
-              items:
-                - name: 准备数据模型以在电子报告输出中使用文档管理文件
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/finance/toc.json
-                - name: 扩展数据模型以在电子报告输出中使用文档管理文件
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/finance/toc.json
-                - name: 创建格式以在电子报告输出中使用文档管理文件
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/finance/toc.json
-                - name: 运行格式以在电子报告输出中使用票据管理文件
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
-                - name: 修改并运行格式以在电子报告输出中使用票据管理文件
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
             - name: 使用电子报告更新应用程序数据
               items:
                 - name: 生成电子文档并更新应用程序数据
@@ -3340,8 +3308,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
             - name: 基于文件大小和内容数量拆分生成的 XML 文件
               href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
-            - name: 支持对计算字段类型的 ER 数据源的参数化调用
-              href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
             - name: 配置生命周期
               items:
                 - name: 管理配置生命周期
@@ -3356,36 +3322,84 @@
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: 增强的筛选选项，用于在全局存储库中查找配置
                   href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                - name: 从富通信存储库中下载电子报告配置
+                - name: 从 RCS 存储库中下载电子报告配置
                   items:
-                    - name: 从富通信类型的电子报告存储库中下载配置
+                    - name: 从 RCS 类型的电子报告存储库中下载配置
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: 从 RCS 导入配置
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
             - name: 教程
               items:
-                - name: 使用 JOIN 数据源从多个申请表中获取数据
-                  href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                - name: 了解如何使用数据源
+                  items:
+                    - name: 使用“联接”从多个表中获取数据
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: 使用原始 XML 添加内容
+                      href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
+                    - name: 支持计算字段数据源的参数化调用
+                      href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
+                    - name: 跨公司电子报告数据源
+                      href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: 使用财务维度明细数据源
+                      items:
+                        - name: 设计数据模型
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/finance/toc.json
+                        - name: 映射模型以使用财务维度
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/finance/toc.json
+                        - name: 设计报表
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
+                        - name: 运行报表
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
+                    - name: 使用生成的输出作为数据源执行盘点和合计
+                      items:
+                        - name: 创建格式
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/finance/toc.json
+                        - name: 配置格式以执行盘点和合计
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/finance/toc.json
+                        - name: 生成盘点和合计的输出
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/finance/toc.json
+                        - name: 运行格式以执行盘点和合计
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/finance/toc.json
+                    - name: 使用文档关系访问文档管理文件
+                      items:
+                        - name: 准备数据模型
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/finance/toc.json
+                        - name: 扩展数据模型以使用文档管理文件
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/finance/toc.json
+                        - name: 创建格式
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/finance/toc.json
+                        - name: 运行格式以使用文档管理文件
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
+                        - name: 修改并运行格式以使用文档管理文件
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
+                        - name: 调试数据源
+                          href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
                 - name: 配置与国家/地区上下文相关的电子报告模型映射
-                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
                 - name: 配置电子报告格式以使用每个法人指定的参数
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
                 - name: 为每个法人设置电子报告格式的参数
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
                 - name: 推迟执行电子报告格式元素
                   items:
                     - name: 推迟执行序列元素
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
                     - name: 推迟执行 XML 元素
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                - name: 数据绑定中的相对路径
+                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: 在 Finance and Operations 中使用电子报告解决方案
               items:
                 - name: 配置框架
                   items:
                     - name: 配置电子报告框架
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/finance/toc.json
-                    - name: 备份和恢复 ER 模板
-                      href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/finance/toc.json
+                    - name: 备份和恢复电子报告模板
+                      items:
+                        - name: 电子报告模板的备份存储
+                          href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/finance/toc.json
+                        - name: 电子报告迁移清理
+                          href: ../fin-ops-core/dev-itpro/analytics/er-migration-cleanup.md?toc=/dynamics365/finance/toc.json
                     - name: 创建配置提供程序并将其标记为有效
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: 目标
