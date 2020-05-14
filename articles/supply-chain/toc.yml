@@ -425,6 +425,8 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: 维护状态
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: 将资产管理与 Dynamics 365 Guides 进行集成
+              href: asset-management/asset-management-guides-integration.md
             - name: 资产管理移动工作区
               href: asset-management/asset-management-mobile-workspace.md
         - name: 数据管理
@@ -703,7 +705,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 向聚合度量添加财务维度
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 使用 Power BI Desktop 创建分析报表
+                - name: 使用 Power BI Desktop 创建分析报告
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 使用 Power BI Embedded 将分析添加到工作区
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1129,7 +1131,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 从富通信存储库中下载电子报告配置
                   items:
-                    - name: 从富通信类型的电子报告存储库中下载配置
+                    - name: 从 RCS 类型的电子报告存储库中下载配置
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 从 RCS 导入配置
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
@@ -1155,7 +1157,7 @@
                   items:
                     - name: 配置电子报告框架
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 备份和恢复 ER 模板
+                    - name: 备份和恢复电子报告模板
                       href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 创建配置提供程序并将其标记为有效
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/supply-chain/toc.json
@@ -1319,7 +1321,7 @@
               items:
                 - name: 计划优化概览
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: 负库存处理为零库存
+                - name: 使用负现有数量进行计划
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: 开始使用计划优化
                   href: master-planning/planning-optimization/get-started.md
@@ -2653,8 +2655,6 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: 设置最小-最大补货流程
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-                - name: 设置采购订单的工作模板
-                  href: ../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md
             - name: 安装和配置仓库应用
               items:
                 - name: 安装和配置概览
@@ -2663,7 +2663,7 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: 为仓库工作设置移动设备
                   href: warehousing/configure-mobile-devices-warehouse.md
-                - name: 通过 Warehousing Mobile App 接收牌照
+                - name: 通过仓库应用接收牌照
                   href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: 为完成采购订单中的工作设置移动设备菜单项
                   href: warehousing/tasks/set-up-mobile-device-menu.md
