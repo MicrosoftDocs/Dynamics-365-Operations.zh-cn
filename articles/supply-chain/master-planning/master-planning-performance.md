@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 01db8a02e57c61daf940e2f459124a857ced68cb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fa8426c3a1f19f8607f45e9ac4d57300abddb161
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213599"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323638"
 ---
 # <a name="improve-master-planning-performance"></a>改善主计划性能
 
-[!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
 
 本主题介绍可帮助您提高主计划绩效或诊断问题的各种选项。 包括有关参数、设置，以及建议的配置和操作的信息。 另外还包括需要执行长时间运行的主计划作业时应考虑的所有重要参数的摘要。

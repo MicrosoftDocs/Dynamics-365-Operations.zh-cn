@@ -3,7 +3,7 @@ title: 开始使用计划优化
 description: 本主题说明如何开始使用计划优化功能。
 author: ChristianRytt
 manager: tfehr
-ms.date: 02/10/2020
+ms.date: 05/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4f9124e824a0b6d5035b2567cb19c2c494390d55
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ce1bbb18e9a448e84d001a4195421d2b0e4af5be
+ms.sourcegitcommit: c0d37fdd70f3dec4605fdee6f981f84a49be9b9e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213507"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339870"
 ---
 # <a name="get-started-with-planning-optimization"></a>开始使用计划优化
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 计划优化功能当前不支持 Microsoft Dynamics 365 Supply Chain Management 内置的计划引擎中提供的所有功能。 因此，重要的是要评估计划优化中当前可用的功能集是否满足您的要求。 默认情况下，Dynamics Lifecycle Services (LCS) 中默认不启用计划优化功能。 因此，您有机会在启用之前进行评估。
@@ -36,6 +35,11 @@ ms.locfileid: "3213507"
 最终，计划优化将取代现有的内置 Supply Chain Management 计划引擎。
 
 在打开计划优化之前，强烈建议您评估计划优化拟合分析的结果。 有关详细信息，请参阅[计划优化拟合分析](planning-optimization-fit-analysis.md)。
+
+### <a name="availability"></a>可用性
+Planning Optimization 当前在以下 Azure 地域中可用：美国、加拿大、欧洲、英国和澳大利亚。 如果您尝试从其他地理区域安装加载项，则 LCS 将显示一条消息，指明不支持该地理区域。
+
+请注意，Planning Optimization 不支持 Dynamics 365 Supply Chain Management 的本地部署。
 
 ### <a name="licensing"></a>许可授权
 
@@ -46,7 +50,7 @@ ms.locfileid: "3213507"
 若要使用计划优化，请安装 Dynamics 365 Supply Chain Management 的计划优化加载项。 您可以从 LCS 项目访问加载项，然后从 Supply Chain Management 用户界面 (UI) 启用计划优化功能。
 
 > [!NOTE]
-> 计划优化的要求是 LCS 通过 Dynamics 365 Supply Chain Management 版本 10.0.7 或更高版本实现了高可用性环境（而不是 OneBox 环境）。
+> Planning Optimization 的要求是：支持 LCS 的第 2 层或更高层高可用性环境（不是 OneBox 环境），并且具有 Dynamics 365 Supply Chain Management 版本 10.0.7 或更高版本。 如果您尝试在 OneBox 环境中安装加载项，则安装将无法完成，因此您需要取消安装。
 
 1. 登录到 LCS，然后打开所需的环境。
 1. 转到**完整详细信息**。
@@ -88,11 +92,11 @@ ms.locfileid: "3213507"
 
 如果打开了计划优化预览，则使用计划优化加载项来完成主计划。 在这种情况下，主计划结果和功能会受到影响。
 
-## <a name="related-resources"></a>相关资源
+## <a name="additional-resources"></a>其他资源
 
 [预览条款和条件](https://go.microsoft.com/fwlink/?linkid=2015274)
 
-[计划优化概述](planning-optimization-overview.md)
+[计划优化概览](planning-optimization-overview.md)
 
 [计划优化拟合分析](planning-optimization-fit-analysis.md)
 

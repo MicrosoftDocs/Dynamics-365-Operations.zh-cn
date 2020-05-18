@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 6ace25bc64bcd5afce7e3f23479b0d93535b1a9b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 40d1090d18857c6978ce42a34d6d67241f9df18f
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201494"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346321"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Dynamics 365 Supply Chain Management 10.0.8（2020 年 2 月）中的新增功能或更改
 
@@ -51,7 +51,7 @@ ms.locfileid: "3201494"
 - [从创建领料工作步骤中拆分出需求补货工作](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
 - [拆分工作](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
 - [系统导向的群集领料](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking) - 有关详细信息，请参阅[系统导向的群集领料](../warehousing/system-directed-cluster-pick.md)。
-- [使用 RSAT 的仓库应用任务验证](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
+- [使用 RSAT 的 Warehousing 应用任务验证](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
 - [仓库发放规则](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
 - [波次状态可视化](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
 - [波次模板分组](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)

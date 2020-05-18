@@ -3,7 +3,7 @@ title: 在 ER 模型映射中使用 JOIN 数据源从多个应用程序表中获
 description: 本主题介绍如何在电子申报 (ER) 中使用 JOIN 类型数据源。
 author: NickSelin
 manager: AnnBe
-ms.date: 10/25/2019
+ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 224acc19ee5dda430cd9471aa50e9d870a4f8c60
-ms.sourcegitcommit: 564aa8eec89defdbe2abaf38d0ebc4cca3e28109
+ms.openlocfilehash: 668ab28297ee7baf8f28cbbaf179d13cb5151dc4
+ms.sourcegitcommit: 248369a0da5f2b2a1399f6adab81f9e82df831a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667946"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3332314"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>在电子申报 (ER) 模型映射中使用 JOIN 数据源从多个应用程序表中获取数据
 
@@ -140,7 +140,7 @@ ms.locfileid: "2667946"
 
 7.  关闭该页面。
 
-### <a name="review"></a>查看 ER 模型映射（第 2 部分）
+### <a name="review-er-model-mapping-part-2"></a><a name="review"></a>查看 ER 模型映射（第 2 部分）
 
 查看 ER 模型映射组件的设置。 该组件配置为使用 **Join** 类型的数据源访问有关 ER 配置版本、配置详细信息和配置提供程序的信息。
 
@@ -185,7 +185,7 @@ ms.locfileid: "2667946"
 9.  关闭该页面。
 10. 选择**取消**。
 
-### <a name="executeERformat"></a> 执行 ER 格式
+### <a name="execute-er-format"></a><a name="executeERformat"></a> 执行 ER 格式
 
 1.  使用与第一个会话相同的凭据和公司，在 Web 浏览器的第二个会话中访问 Finance 或 RCS。
 2.  转到**组织管理 \> 电子申报 \> 配置**。
@@ -240,7 +240,7 @@ ms.locfileid: "2667946"
 
     ![ER 用户对话框页面](./media/GER-JoinDS-Set2Run.PNG)
 
-#### <a name="analyze"></a>分析 ER 格式执行跟踪
+#### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a>分析 ER 格式执行跟踪
 
 1.  在 Finance 或 RCS 的第一个会话中，选择**设计器**。
 2.  选择**性能跟踪**。
@@ -256,6 +256,33 @@ ms.locfileid: "2667946"
     - 已调用一次应用程序数据库，以使用在 **Details** 数据源中配置的联接来计算配置版本数。
 
     ![ER 模型映射设计器页面](./media/GER-JoinDS-Set2Run3.PNG)
+
+## <a name="limitations"></a>限制
+
+从本主题的示例中可以看到，可以利用多个数据源构建 **JOIN** 数据源，前者描述了最终必须连接的记录的各个数据集。 您可以使用内置的 ER [FILTER](er-functions-list-filter.md) 函数来配置这些数据源。 当您配置数据源以使其在 **JOIN** 数据源之外被调用时，您可以将公司范围用作数据选择条件的一部分。 **JOIN** 数据源的初始实现不支持这种类型的数据源。 例如，在 **JOIN** 数据源的执行范围内调用基于 [FILTER](er-functions-list-filter.md) 的数据源时，如果被调用的数据源包含公司范围，并将其作为数据选择条件的一部分，则会发生异常。
+
+在 Microsoft Dynamics 365 Finance 版本 10.0.12（2020 年 8 月）中，可以将公司范围用作在基于 [FILTER](er-functions-list-filter.md) 的数据源中进行数据选择的部分条件，这些数据源在 **JOIN** 数据源的执行范围内被调用。 由于应用程序[查询](../dev-ref/xpp-library-objects.md#query-object-model)生成器限制的缘故，仅对 **JOIN** 数据源的第一个数据源支持公司范围。
+
+### <a name="example"></a>示例
+
+例如，您必须对应用程序数据库进行单次调用，才能获取多个公司的外贸交易列表，以及这些交易中引用的库存项目的详细信息。
+
+在这种情况下，您可以在 ER 模型映射中配置以下项目：
+
+- 表示 **Intrastat** 表的**内部统计**根数据源。
+- 表示 **InventTable** 表的**项目**根数据源。
+- **公司**根数据源，它返回必须在其中访问交易的公司（在此示例中为 **DEMF** 和 **GBSI**）列表。 公司代码可从 **Companies.Code** 字段获得。
+- 具有 `FILTER (Intrastat, VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code))` 表达式的 **X1** 根数据源。 作为数据选择条件的一部分，此表达式包含公司范围 `VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code)` 的定义。
+- 作为 **X1** 数据源的嵌套项的 **X2** 数据源。 它包括 `FILTER (Items, Items.ItemId = X1.ItemId)` 表达式。
+
+最后，您可以配置 **JOIN** 数据源，其中 **X1** 是第一个数据源，**X2** 是第二个数据源。 您可以将**查询**指定为**执行**选项，以强制 ER 作为直接 SQL 调用在数据库级别运行此数据源。
+
+在[跟踪](trace-execution-er-troubleshoot-perf.md) ER 执行情况期间运行配置的数据源时，以下语句在 ER 模型映射设计器中显示为 ER 性能跟踪的一部分。
+
+`SELECT ... FROM INTRASTAT T1 CROSS JOIN INVENTTABLE T2 WHERE ((T1.PARTITION=?) AND (T1.DATAAREAID IN (N'DEMF',N'GBSI') )) AND ((T2.PARTITION=?) AND (T2.ITEMID=T1.ITEMID AND (T2.DATAAREAID = T1.DATAAREAID) AND (T2.PARTITION = T1.PARTITION))) ORDER BY T1.DISPATCHID,T1.SEQNUM`
+
+> [!NOTE]
+> 如果运行已配置的 **JOIN** 数据源，以便该数据源包含数据选择条件，并且这些数据选择条件具有已执行 **JOIN** 数据源的其他数据源的公司范围，则会出现错误。
 
 ## <a name="additional-resources"></a>其他资源
 

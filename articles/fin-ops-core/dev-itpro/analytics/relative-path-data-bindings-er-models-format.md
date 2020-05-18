@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
-ms.search.form: ERSolutionTable , ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
+ms.search.form: ERSolutionTable, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2940d99243ac52ee0d56a1c4423c4f0250f42f57
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: c08e81b6e2983a8f16104698944820e93ba3852d
+ms.sourcegitcommit: 139c8007e68d279d7ca9aa302598217522abb8cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091764"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331316"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>在 ER 模型和格式的数据绑定中使用相对路径
 
@@ -29,10 +29,10 @@ ms.locfileid: "3091764"
 
 用户可通过电子申报 (ER) 工具定义电子格式结构，然后描述应如何使用应用程序中的数据和算法填充这些结构。 有关详细信息，请参阅[创建电子申报 (ER) 配置](electronic-reporting-configuration.md)。 若要指定用于检索 Finance and Operations 数据并将其用于生成电子文档的数据流，需要执行以下操作：
 
-- 将配置的数据源绑定到特定于域的所设计数据模型的元素。 模型结构和所选数据源可能是复杂层次结构的组成部分。 因此，最终绑定可能相当大，并且包含不同类型的大量元素（例如，关系、表和方法）。 绑定可能变得可读性不高且相当复杂，难以查看和理解，尤其是对于非负责人而言。 
-- 将具有用于定义使用来自数据模型的哪些数据进行填充的格式组件的数据模型元素绑定到生成的格式的输出。
+- 将配置的数据源绑定到特定于域的所设计[数据模型](general-electronic-reporting.md#data-model-and-model-mapping-components)的元素。 模型结构和所选数据源可能是复杂层次结构的组成部分。 因此，最终绑定可能相当大，并且包含不同类型的大量元素（例如，关系、表和方法）。 绑定可能变得可读性不高且相当复杂，难以查看和理解，尤其是对于非负责人而言。 
+- 将[格式](general-electronic-reporting.md#FormatComponentOutbound)组件用于定义使用来自数据模型的哪些数据进行填充的数据模型元素绑定到生成的格式的输出。
 
-为了提高 ER 映射设计器的可用性，已发布了相对路径功能。 默认情况下，将为应用程序的所有新实例（其中启用了 ER 设计体验，即 Microsoft Dynamics 365 Finance、Microsoft Regulatory Configuration Service）开启相对路径表示选项。 实施相对路径参数是为了让用户在使用 ER 绑定的此表示时继续使用完整路径。
+为了提高 ER 映射设计器的可用性，已发布了[相对路径](er-formula-language.md#relative-path)功能。 默认情况下，将为应用程序的所有新实例（其中启用了 ER 设计体验，即 Microsoft Dynamics 365 Finance、Microsoft Regulatory Configuration Service）开启相对路径表示选项。 实施相对路径参数是为了让用户在使用 ER 绑定的此表示时继续使用完整路径。
 
 [![用户参数](./media/relative-path-01.png)](./media/relative-path-01.png)
 
@@ -54,3 +54,7 @@ ms.locfileid: "3091764"
 
 > [!NOTE]
 > 将把通过大量修改模型映射中嵌套元素的绑定造成的所有更改正确保存到配置增量（即更改跟踪）中。 这样，客户就可以将其模型映射派生版本的基本值重定为使用这项新功能修改的任何新基础版本。
+
+## <a name="additional-resources"></a>其他资源
+
+[ER 公式语言](er-formula-language.md)

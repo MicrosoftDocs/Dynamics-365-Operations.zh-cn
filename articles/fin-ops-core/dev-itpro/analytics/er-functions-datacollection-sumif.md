@@ -3,7 +3,7 @@ title: SUMIF ER 函数
 description: 本主题提供有关 SUMIF 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
 manager: kfend
-ms.date: 12/04/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 374569d3bbe59f1b96eee9c789b97b7b2a6004bf
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 9df7be0825203f91434d348385c1ee358ae555ea
+ms.sourcegitcommit: ef6fd78c817f93610771cfb2477f52f16b882164
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042473"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "3290192"
 ---
-# <a name="SUMIF">SUMIF ER 函数</a>
+# <a name=""></a><a name="SUMIF">SUMIF ER 函数</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -62,6 +62,8 @@ SUMIF (key name for summing, condition range, condition value)
 ## <a name="example"></a>示例
 
 有关如何使用此函数的详细信息，请参阅[盘点和合计格式输出的 ER 使用数据](tasks/er-format-counting-summing-1.md)任务指南，这是**购置/开发 IT 服务/解决方案组件**业务流程的一部分。
+
+有关使用此函数的更多信息和示例，请参阅[推迟执行 ER 格式的序列元素](er-defer-sequence-element.md#Example)和[推迟执行 ER 格式的 XML 元素](er-defer-xml-element.md#Example)。
 
 ## <a name="additional-resources"></a>其他资源
 

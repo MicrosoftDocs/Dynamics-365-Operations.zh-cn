@@ -1,7 +1,7 @@
 ---
 title: 设置和生成付款确认文件
 description: 本主题说明如何设置付款确认和生成付款确认文件。
-author: abruer
+author: panolte
 manager: AnnBe
 ms.date: 03/06/2019
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0c44d172e8ed9cdb9c26501b3f4eb9fef4f8cf0b
-ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
+ms.openlocfilehash: 82f7c8947bcc2dab394ea24e28a3631cc8682e5a
+ms.sourcegitcommit: 1b00e21faf89de8b3450936253a4c02cb4d12a3d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3059393"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295238"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>设置和生成付款确认文件
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 81a3d64d04ceb20fec2f5ca4bb005e7ecb3c1929
+ms.sourcegitcommit: d2b111bf7a5fbf62ff2874d6c57c5ef8412df82e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658612"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331364"
 ---
 # <a name="project-invoicing"></a>项目开票
 
@@ -112,6 +112,9 @@ ms.locfileid: "2658612"
 
 -   对物料的项目客户开票：将物料的行属性设置为采购订单的一个应计费值，然后通过使用正确的项目开票方法对该客户开票。
 -   请不要为物料的项目客户开票：不要选择物料的采购订单行上的**应计费**行属性。 然后您可以采购订单开票，且无需执行其他操作。
+
+> [!NOTE] 
+> 默认情况下，释放保留行不应计费。 这意味着未启用为释放的保留创建发票建议的功能。
 
 ## <a name="credit-notes"></a>贷方通知单
 在客户发票的金额具有负值时，该发票将划分为贷方通知单。 当该文档打印时，该前缀为“贷方通知单”。 

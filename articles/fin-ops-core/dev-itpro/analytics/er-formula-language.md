@@ -3,7 +3,7 @@ title: 电子申报公式语言
 description: 本主题提供有关如何在电子申报 (ER) 中使用公式语言的信息。
 author: NickSelin
 manager: kfend
-ms.date: 12/18/2019
+ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 79b4640a23d4fc78ade4de57e4071abe6c9ecb56
-ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
+ms.openlocfilehash: bb1f026b6a83aa8c1de0dc5088940d7377867a8b
+ms.sourcegitcommit: 139c8007e68d279d7ca9aa302598217522abb8cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284348"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331339"
 ---
 # <a name="electronic-reporting-formula-language"></a>电子申报公式语言
 
@@ -129,6 +129,8 @@ ER 公式设计器支持转义序列。 因此，可以指定应以不同方式�
 绝对路径的其余部分还显示在 [ER 公式编辑器](general-electronic-reporting-formula-designer.md)中。
 
 ![ER 公式设计器页面上绝对路径的其余部分](./media/ER-FormulaLanguage-RelativePath2.png)
+
+有关更多信息，请参阅[在 ER 模型和格式的数据绑定中使用相对路径](relative-path-data-bindings-er-models-format.md)。
 
 ## <a name=""></a><a name="Functions">功能</a>
 
