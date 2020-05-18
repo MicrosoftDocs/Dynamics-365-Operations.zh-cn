@@ -1,0 +1,79 @@
+---
+title: 在 POS 中处理序列化产品
+description: 本主题说明如何在销售点 (POS) 应用程序中管理序列化产品。
+author: boycezhu
+manager: annbe
+ms.date: 04/21/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.search.region: global
+ms.author: boycezhu
+ms.search.validFrom: ''
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 1e0d6aa7cd5576578378e70c6ee808833314aff3
+ms.sourcegitcommit: 919620b4aca425e6a1248ee12f50a622d2531e58
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "3290762"
+---
+# <a name="work-with-serialized-items-in-the-pos"></a><span data-ttu-id="77b41-103">在 POS 中处理序列化产品</span><span class="sxs-lookup"><span data-stu-id="77b41-103">Work with serialized items in the POS</span></span>
+
+[!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
+
+<span data-ttu-id="77b41-104">许多零售商出售需要进行一系列控制的产品。</span><span class="sxs-lookup"><span data-stu-id="77b41-104">Many retailers sell products that require serial control.</span></span> <span data-ttu-id="77b41-105">这些产品称为*序列化产品*。</span><span class="sxs-lookup"><span data-stu-id="77b41-105">These items are referred to as *serialized items*.</span></span> <span data-ttu-id="77b41-106">一些零售商可能希望保留序列号以进行跟踪。</span><span class="sxs-lookup"><span data-stu-id="77b41-106">Some retailers might want to maintain serial numbers for tracking purposes.</span></span> <span data-ttu-id="77b41-107">其他零售商可能希望在销售流程中获取序列号，以用于维护和保修目的。</span><span class="sxs-lookup"><span data-stu-id="77b41-107">Other retailers might want to capture serial numbers during the sales process, for service and warranty purposes.</span></span> <span data-ttu-id="77b41-108">本主题说明如何在 Microsoft Dynamics 365 Commerce 销售点 (POS) 应用程序中管理序列化产品。</span><span class="sxs-lookup"><span data-stu-id="77b41-108">This topic explains how you can manage serialized items in the Microsoft Dynamics 365 Commerce point of sale (POS) application.</span></span>
+
+## <a name="serial-number-configurations"></a><span data-ttu-id="77b41-109">序列号配置</span><span class="sxs-lookup"><span data-stu-id="77b41-109">Serial number configurations</span></span>
+
+<span data-ttu-id="77b41-110">如果为项目分配了跟踪维度组，且该组被设置为允许使用序列号，则该产品被视为序列化产品。</span><span class="sxs-lookup"><span data-stu-id="77b41-110">An item is considered a serialized item if it's assigned a tracking dimension group that is set up to allow for serial numbers.</span></span> <span data-ttu-id="77b41-111">在商务总部的**跟踪维度组**页面上，选择**有效**选项以针对库存流程启用序列号。</span><span class="sxs-lookup"><span data-stu-id="77b41-111">In Commerce headquarters, on the **Tracking dimension groups** page, select the **Active** option to enable serial numbers for the inventory process.</span></span> <span data-ttu-id="77b41-112">要针对销售流程启用序列号，请选择**在销售流程中有效**选项。</span><span class="sxs-lookup"><span data-stu-id="77b41-112">To enable serial numbers for the sales process, select the **Active in sales process** option.</span></span>
+
+<span data-ttu-id="77b41-113">在**跟踪维度**快速选项卡上，如果打开了**允许空白收据**选项，则序列号是库存收货流程中的可选输入。</span><span class="sxs-lookup"><span data-stu-id="77b41-113">On the **Tracking dimensions** FastTab, if the **Blank receipt allowed** option is turned on, the serial number is an optional input during the inventory receipt process.</span></span> <span data-ttu-id="77b41-114">如果关闭了该选项，则需要提供序列号。</span><span class="sxs-lookup"><span data-stu-id="77b41-114">If the option is turned off, the serial number is required.</span></span>
+
+<span data-ttu-id="77b41-115">在**序列号**快速选项卡上，如果打开了**序列号控制**选项，则序列号在每个单位中必须唯一。</span><span class="sxs-lookup"><span data-stu-id="77b41-115">On the **Serial numbers** FastTab, if the **Serial number control** option is turned on, the serial number must be unique per unit.</span></span> <span data-ttu-id="77b41-116">换句话说，不允许有重复的序列号。</span><span class="sxs-lookup"><span data-stu-id="77b41-116">In other words, duplicated serial numbers aren't allowed.</span></span>
+
+## <a name="serialized-items-in-the-receiving-process"></a><span data-ttu-id="77b41-117">接收流程中的序列化产品</span><span class="sxs-lookup"><span data-stu-id="77b41-117">Serialized items in the receiving process</span></span>
+
+<span data-ttu-id="77b41-118">通过 POS 应用程序中的**入站库存**操作，用户可以对序列化产品执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="77b41-118">The **Inbound inventory** operation in the POS application lets users perform the following tasks for serialized items:</span></span>
+
+- <span data-ttu-id="77b41-119">当通过采购订单在商店中收到序列化产品时，为这些序列化产品注册序列号。</span><span class="sxs-lookup"><span data-stu-id="77b41-119">Register serial numbers against serialized items when those items are received in the store via a purchase order.</span></span>
+- <span data-ttu-id="77b41-120">当通过采购订单或转移订单在商店中收到序列化产品时，为这些序列化产品验证预先注册的序列号。</span><span class="sxs-lookup"><span data-stu-id="77b41-120">Validate preregistered serial numbers against serialized items when those items are received in the store via a purchase order or transfer order.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="77b41-121">要使用**入站库存**操作来注册或验证序列化产品，必须为产品分配一个跟踪维组，该组设置为允许针对**有效**选项（而不是**在销售流程中有效**选项）使用序列号。</span><span class="sxs-lookup"><span data-stu-id="77b41-121">To use the **Inbound inventory** operation to register or validate a serialized item, the item must be assigned a tracking dimension group that is set up to allow for serial numbers for the **Active** option, not the **Active in sales process** option.</span></span>
+
+<span data-ttu-id="77b41-122">要开始接收流程，您可以在**入站库存**操作过程中扫描产品条形码或输入产品 ID，从而在**立即接收**视图中开始。</span><span class="sxs-lookup"><span data-stu-id="77b41-122">To begin the receiving process, in the **Inbound inventory** operation, you can start in the **Receiving now** view by scanning the item bar code or entering the item ID.</span></span> <span data-ttu-id="77b41-123">或者，您可以手动选择产品以在**完整订单列表**视图中开始。</span><span class="sxs-lookup"><span data-stu-id="77b41-123">Alternatively, you can start in the **Full order list** view by manually selecting the item.</span></span>
+
+<span data-ttu-id="77b41-124">如果正在选择或接收的产品是序列化产品，则该产品的**详细信息**窗格包含**管理序列号**链接，此链接将打开**序列号管理**页面。</span><span class="sxs-lookup"><span data-stu-id="77b41-124">If the item that is being selected or received is a serialized item, the **Details** pane for the item contains a **Manage serial number** link that opens the **Serial number management** page.</span></span> <span data-ttu-id="77b41-125">或者，您可以通过以下方法打开**序列号管理**页面：在订单详细信息视图的应用栏上选择**序列号**，或者在接收过程中提示您的对话框中选择**管理序列号**。</span><span class="sxs-lookup"><span data-stu-id="77b41-125">Alternatively, you can open the **Serial number management** page either by selecting **Serial number** on the app bar of the order details view or by selecting **Manage serial number** in the dialog box that prompts you during the receiving process.</span></span> <span data-ttu-id="77b41-126">**序列号管理**页面列出了所有待注册或待验证的已打开序列号行。</span><span class="sxs-lookup"><span data-stu-id="77b41-126">The **Serial number management** page lists all open serial number lines that are pending registration or validation.</span></span> <span data-ttu-id="77b41-127">此页面上可能有两个选项卡：一个适用于当前产品，一个适用于订单中的所有序列化产品。</span><span class="sxs-lookup"><span data-stu-id="77b41-127">There might be two tabs on this page: one for the current item and one for all the serialized items in the order.</span></span>
+
+<span data-ttu-id="77b41-128">**序列号管理**页面上的**状态**字段提供有关每个序列号所在的当前阶段的信息：</span><span class="sxs-lookup"><span data-stu-id="77b41-128">The **Status** field on the **Serial number management** page provides information about the current stage that each serial number is in:</span></span>
+
+- <span data-ttu-id="77b41-129">**未注册** – 尚未提供序列号，或者尚未验证预注册的序列号。</span><span class="sxs-lookup"><span data-stu-id="77b41-129">**Not registered** – The serial number hasn't been provided, or the preregistered serial number hasn't yet been validated.</span></span>
+- <span data-ttu-id="77b41-130">**正在注册** – 序列号已注册并保存在本地商店的渠道数据库中，或者预注册的序列号已通过验证。</span><span class="sxs-lookup"><span data-stu-id="77b41-130">**Registering** – The serial number has been registered and saved locally to the store's channel database, or the preregistered serial number has been validated.</span></span> <span data-ttu-id="77b41-131">只有在完成接收后，状态为**正在注册**的序列号才会提交至商务总部。</span><span class="sxs-lookup"><span data-stu-id="77b41-131">Only serial numbers that have a status of **Registering** will be submitted to Commerce headquarters when you finish receiving.</span></span>
+
+### <a name="register-serial-numbers-against-serialized-items"></a><span data-ttu-id="77b41-132">为序列化产品注册序列号</span><span class="sxs-lookup"><span data-stu-id="77b41-132">Register serial numbers against serialized items</span></span>
+
+<span data-ttu-id="77b41-133">对于采购订单，序列化产品接收流程中会出现一个提示对话框，其中提供了**管理序列号**选项。</span><span class="sxs-lookup"><span data-stu-id="77b41-133">For a purchase order, a dialog box that prompts you during the receiving process of a serialized item offers the **Manage serial number** option.</span></span> <span data-ttu-id="77b41-134">您可以选择该选项以打开**序列号管理**页面并开始注册序列号。</span><span class="sxs-lookup"><span data-stu-id="77b41-134">You can select that option to open the **Serial number management** page and start to register serial numbers.</span></span> <span data-ttu-id="77b41-135">您也可以在接收流程中跳过此步骤，并稍后提供输入，然后再过帐收据。</span><span class="sxs-lookup"><span data-stu-id="77b41-135">You can also skip this step during the receiving process and provide the input later, before the receipt is posted.</span></span>
+
+<span data-ttu-id="77b41-136">默认情况下显示了当前产品的选项卡。</span><span class="sxs-lookup"><span data-stu-id="77b41-136">By default, the tab for the current item is shown.</span></span> <span data-ttu-id="77b41-137">所有序列号行都有一个空序列号值，并且状态为**未注册**。</span><span class="sxs-lookup"><span data-stu-id="77b41-137">All serial number lines have an empty serial number value and a status of **Not registered**.</span></span> <span data-ttu-id="77b41-138">您可以扫描序列号条形码，也可以在应用栏上选择**序列号**以在对话框中连续输入序列号。</span><span class="sxs-lookup"><span data-stu-id="77b41-138">You can scan serial number bar codes, or you can select **Serial number** on the app bar to continuously enter serial numbers in the dialog box.</span></span> <span data-ttu-id="77b41-139">您输入的序列号会出现在列表中，并且序列号行的状态会更改为**正在注册**。</span><span class="sxs-lookup"><span data-stu-id="77b41-139">The serial numbers that you enter appear in the list, and the status of the serial number lines is changed to **Registering**.</span></span> <span data-ttu-id="77b41-140">您可以在列表中注册的序列号的最大数目等于接收数量。</span><span class="sxs-lookup"><span data-stu-id="77b41-140">The maximum number of serial numbers that you can register in the list equals the receiving quantity.</span></span> <span data-ttu-id="77b41-141">如果输入有误，则可以在**详细信息**窗格中选择**编辑**或**清除**，以更改输入的序列号。</span><span class="sxs-lookup"><span data-stu-id="77b41-141">If you make a mistake, you can select **Edit** or **Clear** in the **Details** pane to make changes to the serial numbers that you entered.</span></span>
+
+<span data-ttu-id="77b41-142">您还可以在**序列号管理**页面的**所有序列化产品**选项卡上注册序列号。</span><span class="sxs-lookup"><span data-stu-id="77b41-142">You can also register serial numbers on the **All serialized items** tab of the **Serial number management** page.</span></span> <span data-ttu-id="77b41-143">在此列表中，选择要为其注册序列号的产品。</span><span class="sxs-lookup"><span data-stu-id="77b41-143">In the list, select the item that you want to register serial numbers against.</span></span>
+
+<span data-ttu-id="77b41-144">在此页面上注册序列号期间，将进行重复验证。</span><span class="sxs-lookup"><span data-stu-id="77b41-144">During serial number registration on this page, duplication validation occurs.</span></span> <span data-ttu-id="77b41-145">如果您尝试为打开了序列号控制的产品输入重复的序列号，则会收到错误消息，并且必须提供其他编号。</span><span class="sxs-lookup"><span data-stu-id="77b41-145">If you try to enter a duplicated serial number against an item that serial number control is turned on for, you receive an error message and must provide a different number.</span></span>
+
+### <a name="validate-serial-numbers-on-serialized-items"></a><span data-ttu-id="77b41-146">验证序列化产品的序列号</span><span class="sxs-lookup"><span data-stu-id="77b41-146">Validate serial numbers on serialized items</span></span>
+
+<span data-ttu-id="77b41-147">对于转移订单，出库方必须在装运过程中对序列化产品预先注册序列号。</span><span class="sxs-lookup"><span data-stu-id="77b41-147">For a transfer order, the outbound side must preregister serial numbers on the serialized items during the shipment process.</span></span> <span data-ttu-id="77b41-148">对于采购订单，供应商可能会通过装运前通知 (ASN) 提供序列号信息，您可以对要装运的产品预先注册编号。</span><span class="sxs-lookup"><span data-stu-id="77b41-148">For a purchase order, the supplier might provide serial number information through an Advance Shipment Notice (ASN), and you can preregister the numbers on the items that will be shipped.</span></span> <span data-ttu-id="77b41-149">在这两种情况下，序列号在接收之前都是已知的。</span><span class="sxs-lookup"><span data-stu-id="77b41-149">In both cases, the serial numbers are known before the receipt.</span></span> <span data-ttu-id="77b41-150">因此，在入库端，您只需要验证您已经收到了应该收到的东西即可。</span><span class="sxs-lookup"><span data-stu-id="77b41-150">Therefore, on the inbound side, you just have to validate that you received what you were supposed to receive.</span></span>
+
+<span data-ttu-id="77b41-151">要验证序列号，您可以在接收流程中或在过帐收据之前随时打开**序列号管理**页面。</span><span class="sxs-lookup"><span data-stu-id="77b41-151">To validate serial numbers, you can open the **Serial number management** page either during the receiving process or at any time before the receipt is posted.</span></span> <span data-ttu-id="77b41-152">对于每个具有预先注册的序列号的序列化产品，所有序列号都会在此页面上自动设置为**未注册**初始状态。</span><span class="sxs-lookup"><span data-stu-id="77b41-152">For each serialized item that has preregistered serial numbers, all the serial numbers are automatically set to an initial status of **Not registered** on this page.</span></span> <span data-ttu-id="77b41-153">要验证序列号，您可以扫描或输入序列号。</span><span class="sxs-lookup"><span data-stu-id="77b41-153">To validate serial numbers, you can scan or enter them.</span></span> <span data-ttu-id="77b41-154">输入序列号后，应用程序将验证它们是否与预注册的序列号匹配。</span><span class="sxs-lookup"><span data-stu-id="77b41-154">As serial number are entered, the application validates whether they match preregistered serial numbers.</span></span> <span data-ttu-id="77b41-155">如果它们匹配，则它们的状态将更改为**正在注册**。</span><span class="sxs-lookup"><span data-stu-id="77b41-155">If they match, their status is changed to **Registering**.</span></span> <span data-ttu-id="77b41-156">否则，您会收到一条错误消息。</span><span class="sxs-lookup"><span data-stu-id="77b41-156">Otherwise, you receive an error message.</span></span> <span data-ttu-id="77b41-157">您可以在列表中验证的序列号的最大数目等于接收数量。</span><span class="sxs-lookup"><span data-stu-id="77b41-157">The maximum number of serial numbers that you can validate in the list equals to the receiving quantity.</span></span>
+
+<span data-ttu-id="77b41-158">您还可以在**序列号管理**页面的**所有序列化产品**选项卡上验证序列号。</span><span class="sxs-lookup"><span data-stu-id="77b41-158">You can also validate serial numbers on the **All serialized items** tab of the **Serial number management** page.</span></span> <span data-ttu-id="77b41-159">在此列表中，选择要为其验证序列号的产品。</span><span class="sxs-lookup"><span data-stu-id="77b41-159">In the list, select the item that you want to validate serial numbers against.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="77b41-160">其他资源</span><span class="sxs-lookup"><span data-stu-id="77b41-160">Additional resources</span></span>
+
+[<span data-ttu-id="77b41-161">POS 中的传入库存操作</span><span class="sxs-lookup"><span data-stu-id="77b41-161">Inbound inventory operation in POS</span></span>](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
