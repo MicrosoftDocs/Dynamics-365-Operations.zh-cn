@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0fe9ed9f2bebe8683f3b8bb37b33e8a63b9521f6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205659"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346460"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>灵活的仓库级维度预留策略
 
@@ -233,7 +233,7 @@ ms.locfileid: "3205659"
 <td>是</td>
 <td>
 <ol>
-<li>开始领料工作时，在 Warehouse Mmobile App (WMA) 上选择<strong>覆盖库位</strong>菜单项。</li>
+<li>开始领料工作时，在 Warehousing 应用中选择<strong>替代位置</strong>菜单项。</li>
 <li>选择<strong>建议</strong>。</li>
 <li>根据批次数量的可用性确认建议的新库位。</li>
 </ol>
@@ -247,10 +247,10 @@ ms.locfileid: "3205659"
 <td>不适用</td>
 </tr>
 <tr>
-<td>否</td>
+<td>无</td>
 <td>
 <ol>
-<li>开始领料工作时，在 WMA 上选择<strong>覆盖库位</strong>菜单项。</li>
+<li>开始领料工作时，在 Warehousing 应用中选择<strong>替代位置</strong>菜单项。</li>
 <li>手动输入库位。</li>
 </ol>
 </td>
@@ -278,7 +278,7 @@ ms.locfileid: "3205659"
 <td>不适用</td>
 <td>
 <ol>
-<li>处理领料工作时，在 WMA 上选择<strong>全部</strong>菜单项。</li>
+<li>执行领料工作时，在 Warehousing 应用中选择<strong>完全</strong>菜单项。</li>
 <li>在<strong>领料数量</strong>字段中，输入需要领料的部分数量来指示全部产能。</li>
 </ol>
 </td>
@@ -353,7 +353,7 @@ ms.locfileid: "3205659"
 <td>是</td>
 <td>
 <ol>
-<li>在 WMA 上开始移动。</li>
+<li>在 Warehousing 应用中开始移动。</li>
 <li>输入“起始”和“目标”库位。</li>
 </ol></td>
 <td>
@@ -469,7 +469,7 @@ ms.locfileid: "3205659"
 <td>是</td>
 <td>
 <ol>
-<li>运行领料工作时，在 WMA 上选择<strong>ShortPick</strong>菜单项。</li>
+<li>执行领料工作时，在 Warehousing 应用中选择<strong>领料不足</strong>菜单项。</li>
 <li>在<strong>领料数量</strong>字段中，输入<strong>0</strong>（零）。</li>
 <li>在<strong>原因</strong>字段中，输入<strong>未重新分配</strong>。</li>
 </ol>
@@ -498,7 +498,7 @@ ms.locfileid: "3205659"
 <td>是</td>
 <td>
 <ol>
-<li>运行领料工作时，在 WMA 上选择<strong>ShortPick</strong>菜单项。</li>
+<li>执行领料工作时，在 Warehousing 应用中选择<strong>领料不足</strong>菜单项。</li>
 <li>在<strong>领料数量</strong>字段中，输入<strong>0</strong>（零）。</li>
 <li>在<strong>原因</strong>字段中，输入<strong>未重新分配</strong>。</li>
 </ol>
@@ -522,7 +522,7 @@ ms.locfileid: "3205659"
 <td>是</td>
 <td>
 <ol>
-<li>运行领料工作时，在 WMA 上选择<strong>ShortPick</strong>菜单项。</li>
+<li>执行领料工作时，在 Warehousing 应用中选择<strong>领料不足</strong>菜单项。</li>
 <li>在<strong>领料短缺数量</strong>字段中，输入<strong>0</strong>（零）。</li>
 <li>在<strong>原因</strong>字段中，选择<strong>手动重新分配领料短缺</strong>。</li>
 <li>在列表中选择库位/牌照。</li>
@@ -545,10 +545,10 @@ ms.locfileid: "3205659"
 </tr>
 <tr>
 <td>设置<strong>领料短缺</strong>类型的工作异常，其中，<strong>物料重新分配</strong> = <strong>手动</strong>，<strong>调整库存</strong> = <strong>是</strong>，<strong>删除预留</strong> = <strong>否</strong>。 此外，<strong>允许手动重新分配物料</strong>选项在工作人员上启用。</td>
-<td>否</td>
+<td>无</td>
 <td>
 <ol>
-<li>运行领料工作时，在 WMA 上选择<strong>ShortPick</strong>菜单项。</li>
+<li>执行领料工作时，在 Warehousing 应用中选择<strong>领料不足</strong>菜单项。</li>
 <li>在<strong>领料短缺数量</strong>字段中，输入<strong>0</strong>（零）。</li>
 <li>在<strong>原因</strong>字段中，选择<strong>手动重新分配领料短缺</strong>。</li>
 </ol>
@@ -558,10 +558,10 @@ ms.locfileid: "3205659"
 </tr>
 <tr>
 <td>设置<strong>领料短缺</strong>类型的工作异常，其中，<strong>物料重新分配</strong> = <strong>手动</strong>，<strong>调整库存</strong> = <strong>是</strong>，<strong>删除预留</strong> = <strong>是</strong>。 此外，<strong>允许手动重新分配物料</strong>选项在工作人员上启用。</td>
-<td>否</td>
+<td>无</td>
 <td>
 <ol>
-<li>运行领料工作时，在 WMA 上选择<strong>ShortPick</strong>菜单项。</li>
+<li>执行领料工作时，在 Warehousing 应用中选择<strong>领料不足</strong>菜单项。</li>
 <li>在<strong>领料短缺数量</strong>字段中，输入<strong>0</strong>（零）。</li>
 <li>在<strong>原因</strong>字段中，选择<strong>手动重新分配领料短缺</strong>。</li>
 <li>在列表中选择库位/牌照。</li>
@@ -585,7 +585,7 @@ ms.locfileid: "3205659"
 <td>不适用</td>
 <td>
 <ol>
-<li>运行领料工作时，在 WMA 上选择<strong>ShortPick</strong>菜单项。</li>
+<li>执行领料工作时，在 Warehousing 应用中选择<strong>领料不足</strong>菜单项。</li>
 <li>在<strong>领料短缺数量</strong>字段中，输入<strong>0</strong>（零）。</li>
 <li>在<strong>原因</strong>字段中，选择<strong>自动重新分配领料短缺</strong>。</li>
 </ol>

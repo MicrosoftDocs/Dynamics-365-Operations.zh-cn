@@ -3,7 +3,7 @@ title: 计划优化拟合分析
 description: 本主题说明如何根据计划优化功能的能力来验证当前的设置和数据。
 author: ChristianRytt
 manager: tfehr
-ms.date: 04/17/2020
+ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0382e78942e6cb2047e37b76f1daf5725638d5c3
-ms.sourcegitcommit: 915ee7c59ef5fbd4927c10840e5c5e8652f667a9
+ms.openlocfilehash: 9bf19604d246988e05b91c8a41b1f57b523d2192
+ms.sourcegitcommit: 73ae66c9464bcc9ddc1efbf4e76abb2758862fe6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3277790"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346645"
 ---
 # <a name="planning-optimization-fit-analysis"></a>计划优化拟合分析
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 要查看您当前的设置和数据与计划优化功能之间的兼容性，请转到**主计划** \> **设置** \> **计划优化拟合分析**，然后选择**运行分析**。 如果分析发现任何不一致之处，则会在同一页面上列出。 （分析可能需要几分钟运行。）
@@ -73,6 +72,7 @@ ms.locfileid: "3277790"
 | 内部公司 | 包括计划的下游需求的主计划：_\#_ | 此功能待定。 当前，无论此设置如何，启用计划优化后主计划都不包括下游计划需求。 请注意，已下达/确认的订单仍可与一般内部公司功能一起使用，将覆盖大多数情况。 |
 | 看板 | 具有计划的看板订单类型的物料覆盖范围记录：_\#_ | 此功能待定。 当前，启用计划优化后，将忽略设置为看板的物料覆盖范围。 看板计划订单类型将在主计划期间创建警告，并将创建计划采购订单来满足相关需求。 |
 | 看板 | 具有默认的看板订单类型的物料：_\#_ | 当前，启用计划优化后，将忽略设置为看板的默认订单类型。 看板默认订单类型将在主计划期间创建警告，并将创建计划采购订单来满足相关需求。 |
+| 产品生命周期状态   | 产品生命周期状态对于计划无效：_\#_ | 这是一项待定功能。 当前，启用 Planning Optimization 后，产品生命周期状态会被忽略。 您可以调整计划级别产品筛选器，以避免包括针对计划禁用了产品生命周期状态的产品。 |
 | 生产 | 具有舍入或多个设置的物料清单行：_\#_ | 此功能待定。 当前，无论此设置如何，在启用计划优化后，物料清单行上的舍入和多个设置都将被忽略。 |
 | 生产 | 具有配方度量的物料清单/配方行：_\#_ | 此功能待定。 当前，无论此设置如何，在启用计划优化后，物料清单和配方行上的配方度量都将被忽略。 |
 | 生产 | 具有物料替换的物料清单/配方行(计划组)：_\#_ | 此功能待定。 当前，无论此设置如何，在启用计划优化后，物料清单和配方行上的物料替换（计划组）都将被忽略。 |
@@ -99,7 +99,7 @@ ms.locfileid: "3277790"
 | 销售报价单 | 启用了销售报价单的主计划：_\#_ | 此功能待定。 当前，启用计划优化后不会考虑报价单。 无论此设置如何，都将忽略。 |
 | 保质期 | 启用了保质期的主计划：_\#_ | 此功能待定。 当前，无论此设置如何，启用计划优化后都不会考虑保质期。 |
 
-## <a name="related-resources"></a>相关资源
+## <a name="additional-resources"></a>其他资源
 
 [计划优化概览](planning-optimization-overview.md)
 

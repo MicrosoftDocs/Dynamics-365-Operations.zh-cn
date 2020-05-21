@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 479a7edd456a1f4d121ceef292d2559c400c31a2
-ms.sourcegitcommit: c30a9956d9c29a504856487a3a98090eef9aab2b
+ms.openlocfilehash: 0b71a76b348941f5a010e2f3e4bbb2fa60d37101
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3266315"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346345"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Dynamics 365 Supply Chain Management 10.0.11 的新增功能或更改（2020 年 7 月）
 
@@ -40,7 +40,7 @@ ms.locfileid: "3266315"
 此版本中包含以下功能。 功能标题链接至[发布计划](https://docs.microsoft.com/dynamics365/release-plans/)站点中的更多信息。 更多链接指向该功能的更多当前可用文档或视频。 这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
 
 - [现有库存报表存储](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
-- [仓库移动应用的牌照接收增强](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - 有关详细信息，请参阅[通过仓库移动应用接收牌照](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)。
+- [Warehousing 应用的牌照接收增强](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - 有关详细信息，请参阅[通过 Warehousing 应用进行的牌照接收](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)。
 - [批号预留窗体的行预留增强](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)  - 有关详细信息，请参阅[为销售订单预留相同的批次](../sales-marketing/reserve-same-batch-sales-order.md)
 - [制造区域的新数据实体](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 - [负荷数量超收](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - 有关详细信息，请参阅[仓库对采购订单入站负荷的处理](../warehousing/inbound-load-handling.md)。

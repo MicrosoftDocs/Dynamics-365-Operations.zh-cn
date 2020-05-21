@@ -5,6 +5,8 @@
       items:
         - name: Human Resources 新增功能或更改
           href: hr-admin-whats-new.md
+        - name: 2020 年 5 月 1 日
+          href: hr-whats-new-2020-05-01.md
         - name: 2020 年 4 月 13 日
           href: hr-whats-new-2020-04-13.md
         - name: 2020 年 4 月 3 日
@@ -503,6 +505,8 @@
               href: hr-leave-and-absence-accrue.md
             - name: 暂停休假
               href: hr-leave-and-absence-suspend-leave.md
+            - name: 管理员工休假
+              href: hr-leave-and-absence-manage-employee-leave.md
             - name: 查看休假和缺勤分析
               href: hr-leave-and-absence-analytics.md
             - name: 管理休假和缺勤申请

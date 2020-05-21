@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33（2020 年 4 月）
                   href: get-started/whats-new-platform-update-33.md
-                - name: Platform update 32（2020 年 2 月）
-                  href: get-started/whats-new-platform-update-32.md
             - name: 已删除或弃用的功能
               items:
                 - name: 已删除或弃用的 Platform 功能
@@ -140,8 +138,6 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Lifecycle Services 的双写入设置
                               href: data-entities/dual-write/lcs-setup.md
-                            - name: 初始同步
-                              href: data-entities/dual-write/initial-sync.md
                             - name: 为现有 Finance and Operations 应用启用双写入
                               items:
                                 - name: 为现有 Finance and Operations 应用启用双写入
@@ -556,6 +552,16 @@
                   href: dev-tools/development-system-requirements.md
             - name: 版本控制、元数据搜索和导航
               href: dev-tools/version-control-metadata-navigation.md
+            - name: 使用 Azure 构建自动化系统
+              items:
+                - name: 使用 Microsoft 托管的代理和 Azure Pipelines 构建自动化系统
+                  href: dev-tools/hosted-build-automation.md
+                - name: 将许可证文件添加到 Azure Pipelines 中的可部署程序包
+                  href: dev-tools/pipeline-add-license-package.md
+                - name: 在 Azure Pipelines 中创建可部署程序包
+                  href: dev-tools/pipeline-create-deployable-package.md
+                - name: Azure Pipelines 中的 X++ 模型版本控制
+                  href: dev-tools/pipeline-model-version.md
             - name: 车队管理示例应用程序
               items:
                 - name: 车队管理示例应用程序的端到端方案
@@ -1396,6 +1402,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: 向安全角色分配用户
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: 任务录制的安全诊断
+                  href: sysadmin/tasks/security-diagstics-task-recordings.md
             - name: 批处理
               items:
                 - name: 批处理概览

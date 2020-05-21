@@ -3,7 +3,7 @@ title: 创建休假请求工作流
 description: 在 Dynamics 365 Human Resources 中创建休假和缺勤请求工作流以一致地管理休假请求。
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 05/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c2689a0cdf2969455a301593e8f60b10c07e6f91
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: c2e994d11bbd45907a48c1f3955fa751a676a327
+ms.sourcegitcommit: e69cfc74e9dbce64ae0e1ab7cd441e5ae6efd4c9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008204"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "3353680"
 ---
 # <a name="create-a-leave-request-workflow"></a>创建休假请求工作流
 
@@ -44,6 +44,38 @@ ms.locfileid: "3008204"
 4. 当**打开此文件?** 消息框出现时，选择**打开**并使用您的公司凭据登录。
 
 5. 使用工作流编辑器为休假请求创建工作流。 有关使用工作流的详细信息，请参阅[创建工作流概述](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)
+
+## <a name="leave-and-absence-request-workflow-data-elements"></a>休假和缺勤请求工作流数据元素
+
+您可以使用以下数据元素在工作流中为休假和缺勤请求创建条件或自动审批：
+
+- **注释**
+- **公司**
+- **创建人**
+- **创建日期和时间**
+- **结束日期**
+- **休假类型**
+- **修改者**
+- **修改日期和时间**
+- **原因代码**
+- **请求 ID**
+- **开始日期**
+- **状态** 
+- **提交日期**
+- **提交者**
+- **由人力资源部门提交**
+- **由经理提交**
+- **作为代表提交**
+- **工作线程**
+- **工作人员类型**
+
+这些示例说明如何使用以下数据元素创建不同类型的工作流条件：
+
+- 在条件语句中使用**原因代码**将病假请求和原因代码**外科**一起发送给 HR 审批，同时将所有其他原因代码发送给经理。 有关条件语句的更多信息，请参阅[配置工作流中的条件判定](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow)。 
+
+- 在自动操作中使用**由人力资源部门提交**和**由经理提交**，以自动批准这些角色代表员工提交的休假请求。 有关自动操作的更多信息，请参阅[配置工作流中的批准流程](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow)。
+
+- 在条件语句或自动操作中使用**休假类型**，以控制工作流如何传送特定休假类型的请求。
 
 ## <a name="see-also"></a>请参阅
 

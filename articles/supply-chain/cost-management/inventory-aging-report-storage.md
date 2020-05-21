@@ -19,18 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9148a9032615222a1fdfe453488e716bacadbabc
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 1e68833cc2b4430f66419a67b1cba5f6c8c209f4
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275571"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323615"
 ---
 # <a name="inventory-aging-report-storage"></a>库龄报表存储
 
-
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 在 Microsoft Dynamics 365 Supply Chain Management 中，您可以运行**库龄报表存储**报表，并使输出以表单和图表形式提供。 在表单中，根据配置的布局动态调整列和聚合余额。 图表提供支持筛选的可视概览，并允许您向下钻取到详细信息。 此外，名为**库龄报表**的数据实体使您可以将**库龄报表存储**报表运行的结果导出为 Microsoft Excel 文件或 PDF 文件等格式。
 

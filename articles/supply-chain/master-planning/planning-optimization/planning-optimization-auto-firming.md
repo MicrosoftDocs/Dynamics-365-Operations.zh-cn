@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 5bfa8a1f025c2884f31b9fcb817e008a007ac010
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 81c26b8a99f86d663d91ac4f549987262c0541ad
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209735"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323523"
 ---
 # <a name="auto-firming-with-planning-optimization"></a>通过计划优化自动确认
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 自动确认可以使您作为主计划流程的一部分确认（即下达）计划订单。 确认计划订单后，它们将转换为实际的采购订单、转移单或生产订单。 使用计划优化时，如果订单日期（即开始日期）在用于确认的时间范围内，在主计划运行期间将确认计划订单。

@@ -10,17 +10,17 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DataValidationWorkspace
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: 17d8fc2ebc626068b77725329bc6e0d5013d7dc6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ab3d470150a5fbcfebcff685350deaaafa67ec88
+ms.sourcegitcommit: 17fe0218e8e3f2f4c57c73c0c438a6ebf1ef32a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191354"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "3329903"
 ---
 # <a name="data-validation-checklist-workspace"></a>数据验证核对清单工作区
 
