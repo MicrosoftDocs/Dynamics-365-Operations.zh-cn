@@ -1,9 +1,9 @@
 ---
 title: 视频
-description: 此页列出 Microsoft 制作的与 Finance and Operations 应用程序有关的“操作方法”视频和技术交流视频，可在 YouTube 和其他网站中观看。
+description: 此页列出 Microsoft 制作的与 Finance and Operations应用有关的“操作方法”视频和技术交流视频，可在 YouTube 和其他网站中观看。
 author: josaw1
 manager: AnnBe
-ms.date: 11/11/2019
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,34 +17,34 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 00ea8de8ba0567e8cc086a754062b3fec9672937
-ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
+ms.openlocfilehash: f5e7751b71c75f80f1c3031ef00b32e80e7db42a
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781842"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367121"
 ---
 # <a name="videos"></a>视频 
 
 [!include [banner](../includes/banner.md)]
 
-在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)中，可找到 Microsoft 制作的视频，这些视频介绍 Dynamics 365 产品的各种业务解决方案。 此部分列出该渠道中的 Finance and Operations 应用程序“操作方法”视频。
+在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)中，可找到 Microsoft 制作的视频，这些视频介绍 Dynamics 365 产品的各种业务解决方案。 此部分列出该渠道中的 Finance and Operations 应用“操作方法”视频。
 
 > [!Note]
 > 列出的部分视频在以前的产品名名下列出，但是仍然适用。
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Finance and Operations 开发和管理视频
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>有关开发和管理 Finance and Operations 的视频
 
 ### <a name="data-integration"></a>数据集成
 
 - [现金集成的目标客户](https://youtu.be/AVV9x5x-XCg)
-- [在 Dynamics 365 for Field Service 和 Finance and Operations 应用程序之间同步工作订单](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [在 Dynamics 365 for Field Service 和 Finance and Operations 之间同步工作订单](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>数据管理
 
 - [使用数据实体和数据包](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
 
-### <a name="development"></a>开发
+### <a name="development"></a>发展
 
 - [如何解决 Visual Studio 中的冲突](https://youtu.be/4rxO0zUN2zU)
 - [优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
@@ -55,8 +55,8 @@ ms.locfileid: "2781842"
 ### <a name="intelligence"></a>智能
 
 - [如何编辑分析工作区中的嵌入式报表](https://youtu.be/_8WlwmSggcQ)
-- [如何在 Finance and Operations 应用程序中嵌入 PowerBI.com 报告](https://youtu.be/gGWuNJDoi-M)
-- [将自己的数据库 (BYOD) 导入 Finance and Operations 应用程序中](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [如何在 Finance and Operations 应用中嵌入 PowerBI.com 报表](https://youtu.be/gGWuNJDoi-M)
+- [将自己的数据库 (BYOD) 导入 Finance and Operations 应用](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [如何在 Dynamics 365 中使用成本管理 Power BI 内容](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
@@ -76,6 +76,12 @@ ms.locfileid: "2781842"
 - [刷新生产环境中的数据](https://www.youtube.com/watch?v=VCd5SgkYPTw)
 - [使用平台更新 3 后的新平台发行版](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [在 Dynamics Lifecycle Services 中使用遥测监控关键性能计数器](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
+
+### <a name="regression-suite-automation-tool-rsat"></a>Regression Suite Automation Tool (RSAT)
+
+- [如何使用任务录制器为 Regression Suite Automation Tool (RSAT) 创建测试案例](https://youtu.be/bBr4BXAxTNI)
+- [如何在 Azure DevOps 中创建用于 Regression Suite Automation Tool (RSAT) 的测试计划](https://youtu.be/3jIuBleAnQk) 
+- [如何使用 Regression Suite Automation Tool (RSAT)](https://youtu.be/uhN9JItzGAk)
 
 
 ## <a name="videos-for-dynamics-365-finance"></a>Dynamics 365 Finance 的视频

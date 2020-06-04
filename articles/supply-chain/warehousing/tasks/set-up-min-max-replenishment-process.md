@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b6b99cac46ea33b018a3f67dd4bf0164b8a7f0e6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d2997a39311e371443de3bc11ace17ab36be20e8
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216865"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383565"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>设置最小-最大补货流程
 
@@ -43,7 +43,7 @@ ms.locfileid: "3216865"
 ## <a name="create-a-replenishment-location-directive"></a>创建补货位置指令
 1. 转到**仓库管理 > 设置 > 库位指令**。 库位指令用于确定在补货流程中应从哪里领料。
 2. 在**工作订单类型**字段中，选择“补货”。
-3. 在**操作窗格**中，单击**新建**。
+3. 在**操作窗格**中，单击**复制**。
 4. 在**名称**字段中，键入一个值。
 5. 在**工作类型**字段中，选择“领料”。
 6. 在**站点**字段中，输入或选择一个值。 如果您使用 USMF，您可以选择站点 2。  
@@ -65,7 +65,7 @@ ms.locfileid: "3216865"
 ## <a name="create-a-replenishment-work-template"></a>创建补货工作模板
 1. 转到**仓库管理 > 设置 > 工作 > 工作模板**。 工作模板用于指导系统必须如何创建最小/最大补货工作。 至少，必须具有用于领料和放置的工作模板行。 工作模板将显示无效，直到所有必要信息全部填充。 
 2. 在**工作订单类型**字段中，选择“补货”。
-3. 在**操作窗格**中，单击**新建**。
+3. 在**操作窗格**中，单击**复制**。
 4. 在**工作模板**字段中，键入一个值。
 5. 单击**保存**。
 6. 在**工作模板详细信息**中，单击**新建**。
@@ -80,7 +80,7 @@ ms.locfileid: "3216865"
 
 ## <a name="create-a-new-replenishment-template"></a>创建新的补货模板
 1. 转到**仓库管理 > 设置 > 补货 > 补货模板**。 补货模板用于定义物料和数量以及补货位置。
-2. 在**操作窗格**中，单击**新建**。
+2. 在**操作窗格**中，单击**复制**。
 3. 在**补货模板**字段中，键入一个值。 为模板指定一个名称以指示它是用于最小/最大补货。  
 4. 在**描述**字段中，键入一个值。
 5. 选择**允许波次需求使用未预留的数量**复选框。 如果选择此选项，将支持波次需求补货消耗与最小/最大补货相关的数量。 例如，如果最小/最大补货工作不立即处理，为了避免创建不必要的需求补货工作，这可能很有用。

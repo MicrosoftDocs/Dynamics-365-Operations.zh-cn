@@ -1,5 +1,5 @@
 ---
-title: Supply Chain Management 的帮助资源
+title: Supply Chain Management 主页
 description: 本页提供了针对 Supply Chain Management 功能的一系列帮助主题和其他资源。
 author: josaw1
 manager: tfehr
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 014b5db6efc15fbed7401d9a857586912c7578f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cf505f3e84cb8a8b4a1ac0af9f776587c06acf77
+ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201517"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3386379"
 ---
-# <a name="help-resources-for-supply-chain-management"></a>Supply Chain Management 的帮助资源
+# <a name="supply-chain-management-home-page"></a>Supply Chain Management 主页
 
 [!include [banner](includes/banner.md)]
 
@@ -42,6 +42,7 @@ ms.locfileid: "3201517"
 - [成本核算](../finance/cost-accounting/cost-accounting-home-page.md)
 - [成本管理](cost-management/cost-management-home-page.md)  
 - [库存管理](inventory/inventory-home-page.md)
+- [IoT 智能](iot/iot-intelligence-home-page.md)
 - [主计划](master-planning/master-planning-home-page.md)
 - [采购](procurement/procurement-sourcing-overview.md)
 - [产品信息管理](pim/product-information.md)

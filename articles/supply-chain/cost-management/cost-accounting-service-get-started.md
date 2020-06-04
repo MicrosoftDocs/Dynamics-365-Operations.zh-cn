@@ -1,5 +1,5 @@
 ---
-title: 开始使用成本核算服务
+title: 开始使用成本核算服务（私人预览版）
 description: 本主题提供成本核算服务的许可详细信息和安装说明。
 author: AndersGirke
 manager: tfehr
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cbbce7eaac264973bf0b95ad5175bf70ed2b4ae9
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: a82af9e8ec1806f470103897389d0316d33a4a06
+ms.sourcegitcommit: 7fec9dc5297ed6e687d4a0dff099922d59d6a830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276892"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372728"
 ---
-# <a name="get-started-with-the-cost-accounting-service"></a>开始使用成本核算服务
+# <a name="get-started-with-the-cost-accounting-service-private-preview"></a>开始使用成本核算服务（私人预览版）
 
 [!INCLUDE [banner](../includes/banner.md)]
 
@@ -43,16 +43,22 @@ ms.locfileid: "3276892"
 
 成本核算服务当前不支持 Dynamics 365 Supply Chain Management 内置的所有成本管理功能。 因此，重要的是要评估当前可用的功能集是否满足您的要求。
 
-## <a name="licensing"></a>许可授权
-
-成本核算服务与可用于 Supply Chain Management 的库存核算标准功能一起获得许可。 您无需购买其他许可证即可使用成本核算服务。
-
-## <a name="install-the-add-in"></a>安装加载项
+## <a name="how-to-get-the-cost-accounting-service-private-preview"></a><a name="sign-up"></a>如何获取成本核算服务（私人预览版）
 
 > [!IMPORTANT]
 > 若要使用成本核算服务，您必须具有启用 LCS 的高可用性环境（不是 OneBox 环境），并且您必须运行 Dynamics 365 Supply Chain Management 版本 10.0.11 或更高版本。
 
+若要注册成本核算服务私人预览版，请通过电子邮件向[成本核算服务（私人预览版）](mailto:aevengir@microsoft.com?subject=Cost%20accounting%20service%20%28private%20preview%29)发送 LCS 环境 ID。 批准您参加此计划之后，我们将向您发送跟进电子邮件，其中包含成本核算服务测试密钥。 收到测试密钥之后，您可以继续[安装加载项](#install)。
+
+## <a name="licensing"></a>许可授权
+
+成本核算服务与可用于 Supply Chain Management 的库存核算标准功能一起获得许可。 您无需购买其他许可证即可使用成本核算服务。
+
+## <a name="install-the-add-in"></a><a name="install"></a>安装加载项
+
 要使用成本核算服务，请按照以下过程中的说明安装用于 Supply Chain Management 的成本核算服务加载项。
+
+1. [注册](#sign-up)成本核算服务（私人预览版）。
 
 1. 登录 LCS。
 

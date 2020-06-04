@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ccaeea8d0494644b4d55c29a778d9a8239de10b9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fafa2f7da5575206d452f31bb297790874369dfd
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207776"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383266"
 ---
 # <a name="approve-vendors-for-specific-products"></a>审核特定产品的供应商
 
@@ -33,7 +33,7 @@ ms.locfileid: "3207776"
 2. 在列表中，找到并选择所需记录。
 3. 在列表中，单击所选行中的链接。
 4. 展开**采购**快速选项卡。 如果在**供应商**字段中显示主供应商，则您需要在以下步骤中添加此供应商为核准供应商。 如果显示了供应商编号，请记下该编号。  
-5. 在操作窗格上，单击**采购**。
+5. 在“操作窗格”上，单击**采购**。
 6. 单击**设置**。
 7. 单击**添加**。
 8. 在“供应商”字段中，输入或选择一个值。 选择核准供应商。 如果在产品记录中有一个供应商，至少有一个行必须是主供应商。 如果您之前记录了供应商编号，请在此处选择它。  

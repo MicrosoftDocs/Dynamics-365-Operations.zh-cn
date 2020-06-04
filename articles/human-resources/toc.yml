@@ -5,6 +5,8 @@
       items:
         - name: Human Resources 新增功能或更改
           href: hr-admin-whats-new.md
+        - name: 2020 年 5 月 14 日
+          href: hr-whats-new-2020-05-14.md
         - name: 2020 年 5 月 1 日
           href: hr-whats-new-2020-05-01.md
         - name: 2020 年 4 月 13 日
@@ -67,7 +69,7 @@
                   href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: 创建“在 Excel 中打开”体验
                   href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Office 集成故障排除
+                - name: 解决 Office 集成问题
                   href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: 管理功能
           href: hr-admin-manage-features.md
@@ -111,14 +113,16 @@
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
             - name: 了解 Lifecycle Services
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+        - name: Teams 中的 Human Resources 应用
+          href: hr-admin-teams-leave-app.md
         - name: 文档资源
           items:
             - name: 帮助系统
               href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: 连接帮助系统
               href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
-            - name: 连接自定义帮助站点
-              href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json
+            - name: 自定义帮助概览
+              href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: 查看和导出字段描述
               href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
             - name: 任务录制器
@@ -181,7 +185,7 @@
                   href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: 创建“在 Excel 中打开”体验
                   href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Office 集成故障排除
+                - name: 解决 Office 集成问题
                   href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: 实体 API 引用
           items:
@@ -515,13 +519,15 @@
               href: hr-employee-self-service-request-time-off.md
             - name: 查看团队和公司日历
               href: hr-employee-self-service-calendar.md
+        - name: 管理 Teams 中的休假申请
+          href: hr-teams-leave-app.md
         - name: 培养员工
           items:
             - name: 绩效管理概览
               href: hr-develop-performance-management-overview.md
             - name: 调整劳动力技能
               href: hr-develop-skills.md
-            - name: 添加到您的绩效日记账
+            - name: 添加到您的绩效日记帐
               href: hr-develop-add-performance-journal.md
             - name: 创建目标
               href: hr-develop-create-goal.md

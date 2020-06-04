@@ -3,7 +3,7 @@ title: 费用收据处理
 description: 本主题提供有关收据的光学字符识别 (OCR) 处理的信息。 此功能适合在 Microsoft Dynamics 365 Finance 中创建费用报表时改善用户体验。
 author: stsporen
 manager: AnnBe
-ms.date: 11/20/2019
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: efba2faf9428d9b556d74273bc7daadba7211c48
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
+ms.sourcegitcommit: 15c5ec742d648c5f3506d031a2ab6150dcbae348
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248955"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3378223"
 ---
 # <a name="expense-receipt-processing"></a>支出收据处理
 
@@ -36,24 +36,24 @@ ms.locfileid: "3248955"
 
 ## <a name="usage-examples"></a>用法示例
 
-- **自动附加创建费用报表时包括信用卡交易记录的收据。**
+若要自动附加创建费用报表时包括信用卡交易记录的收据，请执行以下操作：
 
-    1. 打开**费用管理**工作区。
-    2. 在**收据**选项卡上，验证是否存在未附加的收据。 您也可以在**收据**选项卡上上传收据。
-    3. 在**费用**选项卡上，验证是否存在未附加的费用。 通常，费用管理员会从信用卡提供商处导入这些费用。
-    4. 选择**新建费用报表**。 请注意，当您创建费用报表时，现在还可以包括费用和收据。 如果同时添加费用和收据，则会触发按费用自动匹配收据。
+  1. 打开**费用管理**工作区。
+  2. 在**收据**选项卡上，验证是否存在未附加的收据。 您也可以在**收据**选项卡上上传收据。
+  3. 在**费用**选项卡上，验证是否存在未附加的费用。 通常，费用管理员会从信用卡提供商处导入这些费用。
+  4. 选择**新建费用报表**。 请注意，当您创建费用报表时，现在还可以包括费用和收据。 如果同时添加费用和收据，则会触发按费用自动匹配收据。
 
-- **创建费用，或匹配收据中的费用。**
+若要创建费用，或匹配收据中的费用，请执行以下操作：
 
-    1. 在费用报表中的**收据**选项卡上，选择**添加收据**来附加收据。
-    2. 在上传的收据图像下面，注意**创建**和**匹配**选项。
+  1. 在费用报表中的**收据**选项卡上，选择**添加收据**来附加收据。
+  2. 在上传的收据图像下面，注意**创建**和**匹配**选项。
 
-        - 选择**创建**以创建手动输入的费用交易记录并填写从收据中提取的值。
-        - 如果选择**匹配**，系统会尝试将现有费用与收据进行匹配。
+      - 选择**创建**以创建手动输入的费用交易记录并填写从收据中提取的值。
+      - 如果选择**匹配**，系统会尝试将现有费用与收据进行匹配。
 
 ## <a name="installation"></a>安装
 
-此功能与**已重构的费用报表**功能联合使用，有助于简化费用体验。
+此功能与**已重构的费用报表**功能联合使用，有助于简化费用体验。 此功能仅可用于二级以上环境，即沙盒和生产。
 
 要使用这些高级费用功能，请安装 Microsoft Dynamics 365 Finance 费用管理服务加载项，然后在实例中打开这些功能。 您可以在 Microsoft Dynamics Lifecycle Services (LCS) 中从您的项目访问加载项。
 

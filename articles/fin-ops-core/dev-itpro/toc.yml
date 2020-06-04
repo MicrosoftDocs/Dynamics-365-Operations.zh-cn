@@ -144,7 +144,7 @@
                                   href: data-entities/dual-write/enable-dual-write.md
                                 - name: 系统要求和先决条件
                                   href: data-entities/dual-write/requirements-and-prerequisites.md
-                                - name: 如何使用双写入向导链接你的环境
+                                - name: 如何使用双写入向导链接您的环境
                                   href: data-entities/dual-write/link-your-environment.md
                                 - name: 启用双写入实体映射
                                   href: data-entities/dual-write/enable-entity-map.md
@@ -186,7 +186,7 @@
                               items:
                                 - name: 访问财税引用数据
                                   href: data-entities/dual-write/finance-tax-reference.md
-                                - name: 集成的分类帐
+                                - name: 集成的分类账
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: 集成的税收主数据
                                   href: data-entities/dual-write/tax-mapping.md
@@ -274,7 +274,7 @@
                               href: ../../finance/project-management/project-categories-templates.md
                             - name: 将项目评估同步到项目预测
                               href: ../../finance/project-management/project-estimates-templates.md
-                            - name: 将项目实际值同步到项目集成日记账
+                            - name: 将项目实际值同步到项目集成日记帐
                               href: ../../finance/project-management/project-actuals-templates.md
             - name: 使用外部 Web 服务
               href: data-entities/consume-external-web-service.md
@@ -316,7 +316,7 @@
               items:
                 - name: 数据导入和导出作业概览
                   href: data-entities/data-import-export-job.md
-                - name: 使用普通日记账实体导入凭证的最佳实践
+                - name: 使用普通日记帐实体导入凭证的最佳实践
                   href: data-entities/tips-tricks-import-general-journal-entity.md
             - name: 数据实体开发
               items:
@@ -526,6 +526,32 @@
                   href: deployment/uninstall-deployable-package.md
                 - name: 解决包应用程序问题
                   href: deployment/deployable-package-troubleshooting.md
+            - name: 部署自定义帮助
+              items:
+                - name: 自定义帮助概览
+                  href: help/custom-help-overview.md
+                - name: 准备要用于“帮助”窗格的内容
+                  href: help/preparing-content.md
+                - name: 将自定义帮助部署到 Azure
+                  href: help/walkthrough-help-azure.md
+                - name: 将您的自定义帮助连接到“帮助”窗格
+                  href: help/connect-help-pane.md
+                - name: 自定义帮助工具包
+                  items:
+                    - name: 概览
+                      href: help/custom-help-toolkit.md
+                    - name: HTML From Repo Generator 工具
+                      href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
+                    - name: Convert HTML To JSON 工具
+                      href: help/custom-help-toolkit-ConvertHtmlToJson.md
+                    - name: HTML Locale Changer 工具
+                      href: help/custom-help-toolkit-HtmlLocaleChanger.md
+                    - name: 转换 Dynamics AX 自定义帮助以便在 Dynamics 365 中使用
+                      href: help/migrate-dynamicsax2012.md
+                - name: 产品和帮助中的语言和区域设置描述符
+                  href: help/language-locale.md
+                - name: 针对帮助进行扩展、自定义和协作
+                  href: help/contributor-guide.md
         - name: 开发和自定义
           items:
             - name: 开发和自定义主页
@@ -835,7 +861,7 @@
                     - name: 可扩展性更改版本 8.0.1
                       href: extensibility/extensibility-changes-801.md
                     - name: 版本 8.0 中的可扩展性更改
-                      href: extensibility/changes-80.md
+                      href: extensibility/Changes-80.md
                     - name: 版本 7.3 中的可扩展性更改
                       href: extensibility/extensibility-changes-73.md
                     - name: 可扩展性更改，2017 年 7 月
@@ -1360,7 +1386,7 @@
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 支持概览
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: 获取对由 21Vianet 在中国运营的 Finance and Operations 的支持
+            - name: 获取对由世纪互联在中国运营的 Finance and Operations 的支持
               href: lifecycle-services/21vianet-support.md
             - name: 设置对 Finance and Operations 的技术支持
               href: lifecycle-services/support-experience.md
@@ -1476,7 +1502,7 @@
                   items:
                     - name: 使会计科目表分隔符的成为唯一的
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: 升级单一凭证日记账和货币重估
+                    - name: 升级单一凭证日记帐和货币重估
                       href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
                     - name: 项目资源计划数据模型
                       href: migration-upgrade/data-model-changes-resource-management.md
@@ -1520,7 +1546,7 @@
               items:
                 - name: 移至最新更新的流程
                   href: migration-upgrade/upgrade-latest-update.md
-                - name: 一个版本的路径
+                - name: One Version 的路径
                   items:
                     - name: 最新版本的自助服务升级
                       href: migration-upgrade/self-service-upgrade.md

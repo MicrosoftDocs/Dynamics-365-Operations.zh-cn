@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26112a9d25c0097bdbf30003247ce6dd4b4fb634
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7ed359521dd018047fdbd5312d0cb73d764de925
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204876"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383220"
 ---
 # <a name="create-a-purchase-order"></a>创建采购订单
 
@@ -68,7 +68,7 @@ ms.locfileid: "3204876"
 ## <a name="review-order-totals"></a>审查订单总计
 1. 选择**合计**。
 
-    - 如果您没有看到**总计**操作，请选择操作栏上的**采购订单**选项卡。  
+    - 如果您没有看到**总计**操作，请选择操作窗格上的**采购订单**选项卡。  
     - 此对话框显示整个订单的总计。  
     - **选择**字段允许您更改如何计算总计的基础。 例如，您可以选择**产品收货数量**来显示与已接收的产品金额相关的总计，或者选择**订购数量**来显示已订购的产品金额。  
 

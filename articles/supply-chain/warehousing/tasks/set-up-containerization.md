@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b5ad1bdd91a2fb9109f29400f082e9a8af009ba
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f0f042e6ffe5ecf01b9e5044fc83d081528fbc56
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216934"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383289"
 ---
 # <a name="set-up-containerization"></a>设置集装化
 
@@ -60,7 +60,7 @@ ms.locfileid: "3216934"
 
 ## <a name="set-up-a-container-group"></a>设置集装箱组
 1. 在导航窗格中，转到**模块 > 仓库管理 > 设置 > 集装箱 > 集装箱组**。
-2. 在操作窗格中，选择**新建**。 可以设置集装箱类型的逻辑组。 对于每个组，可以指定集装箱包装和集装箱填充百分比的序列。物料的尺寸维度用于决定其在集装箱中是否合适。 使用最接近物料尺寸维度的集装箱。 如果在组中有多个集装箱类型，我们建议您按尺寸排列顺序，因此最大的集装箱在序列中排第一，编号为 1，最小的集装箱排最后。    
+2. 在操作窗格上，选择**新建**。 可以设置集装箱类型的逻辑组。 对于每个组，可以指定集装箱包装和集装箱填充百分比的序列。物料的尺寸维度用于决定其在集装箱中是否合适。 使用最接近物料尺寸维度的集装箱。 如果在组中有多个集装箱类型，我们建议您按尺寸排列顺序，因此最大的集装箱在序列中排第一，编号为 1，最小的集装箱排最后。    
 3. 在**集装箱组 ID** 字段中，键入您之前创建的值。
 4. 在**描述**字段中，键入一个值。
 5. 对前面创建的所有三个集装箱类型重复执行步骤 2-4。

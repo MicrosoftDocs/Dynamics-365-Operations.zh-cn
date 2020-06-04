@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ae42c9012a430aeeed6adb78b33776c727e4a3f8
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4ce9c9d5b5def386f159df581c87d48f3e0b0ad9
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551141"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367307"
 ---
-[!include [banner](../includes/banner.md)]
-
 # <a name="electronic-reporting-sample-vendor-checks"></a>电子申报示例供应商支票
+
+[!include [banner](../includes/banner.md)]
 
 您可以使用电子申报 (ER) 来确定供应商支票格式。 市场上提供许多银行和支票提供商特定的支票格式。 ER 工具库中的付款支票模型已经包含示例支票格式。 这些示例支票标记为**支票在中间（美国）** 和**支票在上面，存根在下面（美国）**。
 

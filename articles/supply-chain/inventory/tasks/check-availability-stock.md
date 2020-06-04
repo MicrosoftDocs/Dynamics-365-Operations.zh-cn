@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e76c123ffbeb33cbc3ba01b4b2758208ed0c445f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 66b6b365958820a76f733df5eb2aabf6c3c4ebac
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204209"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383483"
 ---
 # <a name="check-the-availability-of-stock"></a>检查库存可用性
 
@@ -35,7 +35,7 @@ ms.locfileid: "3204209"
 2. 选择**物料编号**行。 要按物料编号查询现有库存量，请选择“表”设置为**现有库存量**和“字段”设置为**物料**编号的行。
 3. 在**标准**字段中，选择要查询的物料。 如果您正在使用 USMF 演示数据公司，则可以选择“M9201”。  
 4. 单击 **确定**。
-5. 在**操作窗格**上，单击**维度**。 **维度**选项卡允许您选择您要查看的现有库存信息的详细程度。 如果您需要有关预留的数据，则必须显示使用高级仓库程序 (WHS) 物料的所有库存维度。
+5. 在**操作窗格**上，单击**维度**。 **维度**选项卡允许您选择您要查看的现有库存信息的详细程度。 如果您需要有关预留的数据，则必须显示使用高级仓库程序 (WMS) 物料的所有库存维度。
 6. 单击 **确定**。
 7. 在**操作窗格**上，单击**相关信息**。 如果未看到此选项，则需要单击省略号按钮 (…) 以查看其他的操作窗格选项。
 8. 单击**供给概览**。 **供给概览**选项卡提供了特定物料的供应信息，例如现有数量、提前期和供应商信息。  

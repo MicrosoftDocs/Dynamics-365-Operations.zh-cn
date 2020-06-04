@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaab2093eb2531b63f27717d828f7064a8f9ed1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e45c80718c73ad785643c2a5fc0e712b291104d5
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207500"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383105"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>设置采购类别层次结构
 
@@ -32,7 +32,7 @@ ms.locfileid: "3207500"
 ## <a name="add-a-new-procurement-category"></a>添加新采购类别
 1. 转到**导航窗格 > 模块 > 采购 > 托运 > 采购目录**。
 2. 在操作窗格上选择**编辑类别层次结构**。 当前采购类别层次结构会显示在页左侧。 您即将修改该层次结构。  
-3. 在操作窗格上选择**新建类别模式**。 系统会默认选择顶端节点。 如果您正在运行该过程以作为任务指南，您可以单击“解除锁定”按钮，并选择另一个父节点，以插入您的新节点。 一旦完成此项操作，再次锁定任务指南，然后单击“新类别节点”。  
+3. 在操作窗格上选择**新建类别节点**。 系统会默认选择顶端节点。 如果您正在运行该过程以作为任务指南，您可以单击“解除锁定”按钮，并选择另一个父节点，以插入您的新节点。 一旦完成此项操作，再次锁定任务指南，然后单击“新类别节点”。  
 4. 在**名称**字段中，键入一个值。
 5. 在**描述**字段中，键入一个值。
 6. 在**易记名称**字段中，键入一个值。 易记名称是可选的。 它将连同类别名称一起显示在类别查找中。  
