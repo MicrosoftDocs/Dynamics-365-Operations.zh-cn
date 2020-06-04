@@ -2,17 +2,17 @@
   items:
     - name: Dynamics 365 Commerce
       items:
-        - name: Dynamics 365 Commerce
+        - name: Dynamics 365 Commerce 主页
           href: index.md
         - name: 入门
           items:
             - name: 购买之前
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
-            - name: 一个版本服务更新
+            - name: One Version 服务更新
               items:
-                - name: 一个版本服务更新概览
+                - name: One Version 服务更新概览
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: 一个版本服务更新常见问题
+                - name: One Version 服务更新常见问题
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/commerce/toc.json
                 - name: 软件生命周期策略 - 云
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/commerce/toc.json
@@ -32,7 +32,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: 数据任务自动化
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
-                - name: 使用一个版本提供 ISV 解决方案
+                - name: 使用 One Version 提供 ISV 解决方案
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: 创建和自动执行用户接受度测试
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
@@ -79,7 +79,7 @@
                 - name: 分阶段推出 (N-1) 安装、配置和直接转换
                   href: dev-itpro/n-1-installation-configuration.md
                 - name: 将零售渠道扩展升级到最新的 Retail SDK
-                  href: dev-itpro/retailSDK-update.md
+                  href: dev-itpro/RetailSDK-update.md
             - name: 新增功能或更改
               items:
                 - name: Finance and Operations 应用新增功能或更改
@@ -112,8 +112,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: 连接帮助系统
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
-                - name: 连接自定义帮助站点
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/commerce/toc.json
+                - name: 自定义帮助概览
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: 查看和导出字段描述
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
                 - name: 任务录制器
@@ -498,8 +498,10 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: Adyen 付款连接器
                       href: dev-itpro/adyen-connector.md
-                    - name: 使用 Adyen 连接器保存在线付款工具
-                      href: dev-itpro/adyen-connector-listpi.md
+                    - name: 使用 Adyen 连接器保存在线支付工具
+                      href: dev-itpro/adyen-connector-listPI.md
+                    - name: 使用 Adyen 连接器的强大客户身份验证 (SCA)
+                      href: adyen_redirect.md
                     - name: 礼品卡和贷项通知单操作的无缝离线切换
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: 设置付款账单方案
@@ -510,6 +512,8 @@
                       href: omni-channel-payments.md
                     - name: 付款常见问题
                       href: dev-itpro/payments-retail.md
+                - name: 为您的组织管理必应地图
+                  href: dev-itpro/manage-bing-maps.md
         - name: 您的产品和服务促销
           items:
             - name: 类别、产品和分类
@@ -824,6 +828,8 @@
                   href: search-engine-optimization-considerations.md
                 - name: 管理内容安全策略 (CSP)
                   href: manage-csp.md
+                - name: 选择退出 Web 活动事件收集
+                  href: web-activity-opt-out.md
             - name: 管理您的站点内容
               items:
                 - name: 添加内容的方法
@@ -1714,9 +1720,11 @@
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
             - name: 配置和发送电子邮件
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: 创建交易事件的电子邮件模板
+              href: email-templates-transactions.md
             - name: 开发电子邮件体验
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
-            - name: Office 集成故障排除
+            - name: 解决 Office 集成问题
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/commerce/toc.json
         - name: 组织管理
           items:
@@ -2116,6 +2124,8 @@
                   href: dev-itpro/async-commerce-extension.md
                 - name: 渠道数据库中的预扩展列
                   href: dev-itpro/extended-columns.md
+                - name: 扩展 Commerce Data Exchange - 实时服务
+                  href: dev-itpro/extend-commerce-data-exchange.md
             - name: 付款连接器可扩展性
               items:
                 - name: 为付款终端创建付款集成
