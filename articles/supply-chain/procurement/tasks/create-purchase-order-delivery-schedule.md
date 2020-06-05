@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e16c9adf592282a941b1112e197ea1ce9bdd34f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7f84701f5b82ece1806d289dd6aea370bbd8c750
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207707"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383243"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>创建含交货计划的采购订单
 
@@ -31,7 +31,7 @@ ms.locfileid: "3207707"
 
 ## <a name="create-a-delivery-schedule"></a>创建交货计划
 1. 在导航窗格中，转到**模块 > 采购 > 采购订单 > 所有采购订单**。
-2. 在操作窗格中，选择**新建**。
+2. 在操作窗格上，选择**新建**。
 3. 在**供应商帐户**字段中输入 `US-101`。
 4. 选择**确定**。
 5. 在**物料编号**字段中输入 `M0001`。

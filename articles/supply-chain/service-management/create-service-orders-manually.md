@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d80461694a28a0842155cbd8ca224c37bd85dde7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 45261931d8083e179f0d3a8285b12fdaa2494adc
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202690"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383358"
 ---
 # <a name="create-service-orders-manually"></a>手动创建服务订单    
 

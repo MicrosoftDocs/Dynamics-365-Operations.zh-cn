@@ -19,23 +19,24 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2019-09-06
 ms.dyn365.ops.version: AX 10.0.6
-ms.openlocfilehash: f5863202facc83afb91b380ba5666334783ccbcf
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 74e1e30f5afe51cd0ecec2530ffcb9a59eec5fee
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211161"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367237"
 ---
-[!include [banner](../includes/banner.md)]
+# <a name="report-as-finished-to-a-license-plate-controlled-location-from-the-job-card-device"></a>从作业卡设备进行完工入库到牌照控制的库位
 
-# <a name="report-as-finished-to-a-license-plate-controlled-location-from-the-job-card-device"></a>从作业卡设备进行完工入库到牌照控制的库位 
+[!include [banner](../includes/banner.md)]
 
 称为“完工入库”的过程用于完成生产订单中的完工产品的入库。 如果为高级仓库流程启用了成品，则将该产品报告为完工入库到称为生产输出库位的库位。 有关设置生产输出库位的信息，请参阅[生产输出库位](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location)。
 
-如果生产输出位置是牌照控制的，则必须在完工入库时提供牌照。 **作业卡设备**页上的**报告进度**中将显示**牌照**字段。 仅当报告生产订单的上一次操作并且为仓库管理流程启用了生产订单的物料时，此字段才会在**报告进度**提示上可见。 
+如果生产输出位置是牌照控制的，则必须在完工入库时提供牌照。 **作业卡设备**页上的**报告进度**中将显示**牌照**字段。 仅当报告生产订单的上一次操作并且为仓库管理流程启用了生产订单的物料时，此字段才会在**报告进度**提示上可见。
 
-提供牌照有两种选择
-- 用户正在牌照字段中选择现有的牌照。
+提供牌照有两种选择：
+
+- 用户牌照字段中选择现有的牌照。
 - 牌照从编号规则自动生成，并默认为牌照字段。
 
 另一个选择是通过选择**配置设备的作业卡**页面上的选项**生成牌照**来配置自动生成牌照。

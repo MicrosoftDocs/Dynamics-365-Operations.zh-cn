@@ -10,11 +10,11 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: 注册预览订阅
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
-            - name: 一个版本服务更新
+            - name: One Version 服务更新
               items:
-                - name: 一个版本服务更新概览
+                - name: One Version 服务更新概览
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/finance/toc.json
-                - name: 一个版本服务更新常见问题
+                - name: One Version 服务更新常见问题
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/finance/toc.json
                 - name: 软件生命周期策略 - 云
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/finance/toc.json
@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: 数据任务自动化
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/finance/toc.json
-                - name: 使用一个版本提供 ISV 解决方案
+                - name: 使用 One Version 提供 ISV 解决方案
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/finance/toc.json
                 - name: 创建和自动执行用户接受度测试
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/finance/toc.json
@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: 连接帮助系统
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/finance/toc.json
-                - name: 连接自定义帮助站点
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/finance/toc.json
+                - name: 自定义帮助概览
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: 查看和导出字段描述
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/finance/toc.json
                 - name: 任务录制器
@@ -208,13 +208,13 @@
                   href: accounts-payable/accounts-payable-overview.md
                 - name: 使用供应商账单将账单数据键入应付账款
                   href: accounts-payable/tasks/key-invoice-data-ap-system-vendor-invoice.md
-                - name: 使用审核日记账将账单数据键入应付账款
+                - name: 使用审核日记帐将账单数据键入应付账款
                   href: accounts-payable/tasks/key-invoice-data-into-ap-system-approval-journal.md
                 - name: 使用账单池将账单数据键入 AP 系统
                   href: accounts-payable/tasks/key-invoice-data-into-ap-system-invoice-pool.md
                 - name: 使用共享的编号规则复制供应商
                   href: accounts-payable/vendor-copy.md
-                - name: 在账单日记账中记录供应商账单
+                - name: 在账单日记帐中记录供应商账单
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
             - name: 审核应付账款中的账单和关键数据
               href: general-ledger/tasks/audit-invoices-key-data-ap-system.md
@@ -226,7 +226,7 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: 设置应付账款账单匹配验证
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
-            - name: 会计分配和供应商账单的子分类日记账条目
+            - name: 会计分配和供应商账单的子分类日记帐条目
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: 账单匹配和内部公司采购订单
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
@@ -238,7 +238,7 @@
               href: accounts-payable/positive-pay-overview.md
             - name: 设置和生成付款确认文件
               href: accounts-payable/set-up-generate-positive-pay-files.md
-            - name: 供应商账单日记账和账单审核日记账的默认对方科目
+            - name: 供应商账单日记帐和账单审核日记帐的默认对方科目
               href: accounts-payable/default-offset-accounts-vendor-invoice-journals.md
             - name: 供应商工作流
               href: accounts-payable/vendor-workflow.md
@@ -342,7 +342,7 @@
               href: accounts-receivable/revenue-recognition-so-basics.md
             - name: 设置和处理重复账单
               href: accounts-receivable/set-up-process-recurring-invoices.md
-            - name: 会计分配和普通账单的子分类日记账条目
+            - name: 会计分配和普通账单的子分类日记帐条目
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: 客户过账模板
               href: accounts-receivable/customer-posting-profiles.md
@@ -354,7 +354,7 @@
               href: accounts-receivable/credit-card-authorizations.md
             - name: 创建普通账单
               href: accounts-receivable/create-free-text-invoice-new.md
-            - name: 会计分配和普通账单的子分类日记账条目
+            - name: 会计分配和普通账单的子分类日记帐条目
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: 创建普通账单模板
               href: accounts-receivable/create-free-text-invoice-template-new.md
@@ -446,7 +446,7 @@
               href: accounts-receivable/tasks/process-collection-letters.md
             - name: 设置并生成应收账款的账龄信息
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
-            - name: 创建客户的勾销日记账
+            - name: 创建客户的勾销日记帐
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
         - name: 预算编制
           items:
@@ -538,7 +538,7 @@
               href: cash-bank-management/set-up-centralized-payments.md
             - name: 自动结算和优先级
               href: accounts-receivable/automatic-settlement-prioritization.md
-            - name: 银行账户对账
+            - name: 银行帐户对账
               href: cash-bank-management/reconcile-bank-account.md
             - name: 高级银行对账
               items:
@@ -556,7 +556,7 @@
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
                 - name: 银行对账单文件导入故障排除
                   href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
-                - name: 更新银行日记账组合实体
+                - name: 更新银行日记帐组合实体
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: 成本核算
           items:
@@ -600,7 +600,7 @@
               href: cost-accounting/tasks/configure-access-rights-cost-object-controller.md
             - name: 定义成本控制单元
               href: cost-accounting/tasks/define-cost-control-units.md
-            - name: 创建成本核算分类帐
+            - name: 创建成本核算分类账
               href: cost-accounting/tasks/create-cost-accounting-ledger.md
             - name: 统计维度成员和统计度量提供方模板
               href: cost-accounting/statistical-measure-provider-template.md
@@ -614,7 +614,7 @@
               href: cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
             - name: 创建成本累积政策
               href: cost-accounting/tasks/create-cost-rollup-policy.md
-            - name: 管理成本核算分类帐的数据源
+            - name: 管理成本核算分类账的数据源
               href: cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
             - name: 处理和跟踪源数据
               href: cost-accounting/tasks/process-trace-source-data.md
@@ -796,7 +796,7 @@
                   href: general-ledger/elimination-rules.md
                 - name: 帐户和维度组合
                   href: general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: 单位间核算的平衡日记账
+                - name: 单位间核算的平衡日记帐
                   href: general-ledger/example-balanced-journals-interunit-accounting.md
                 - name: 过账定义
                   href: general-ledger/posting-definitions.md
@@ -856,43 +856,43 @@
                   href: general-ledger/configure-account-structures.md
                 - name: 双货币
                   href: general-ledger/dual-currency.md
-            - name: 日记账和分类帐
+            - name: 日记帐和分类账
               items:
-                - name: 普通日记账处理
+                - name: 普通日记帐处理
                   href: general-ledger/general-journal-processing.md
-                - name: 过账期间日记账
+                - name: 过账期间日记帐
                   href: general-ledger/tasks/post-periodic-journals.md
-                - name: 冲销日记账过账
+                - name: 冲销日记帐过账
                   href: general-ledger/reverse-journal-posting.md
-                - name: 处理分类帐分配日记账
+                - name: 处理分类账分配日记帐
                   href: general-ledger/tasks/process-ledger-allocation-journal.md
                 - name: 内部公司会计设置
                   href: general-ledger/intercompany-accounting-setup.md
-                - name: 分类帐分配规则
+                - name: 分类账分配规则
                   href: general-ledger/ledger-allocation-rules.md
-                - name: 创建日记账高级规则
+                - name: 创建日记帐高级规则
                   href: general-ledger/tasks/create-advanced-rules-journals.md
                 - name: 创建和分配高级规则结构
                   href: general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: 分类帐日记账类型
+                - name: 分类账日记帐类型
                   href: general-ledger/ledger-journal-types.md
-                - name: 创建和验证日记账
+                - name: 创建和验证日记帐
                   href: general-ledger/tasks/create-validate-journals.md
-                - name: 查看日记账条目或交易记录
+                - name: 查看日记帐条目或交易记录
                   href: general-ledger/tasks/view-journal-entries-or-transactions.md
-                - name: 查看日记账的相关内部公司凭证
+                - name: 查看日记帐的相关内部公司凭证
                   href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: 使用模板创建日记账条目
+                - name: 使用模板创建日记帐条目
                   href: general-ledger/tasks/create-journal-entry-template.md
-                - name: 创建分类帐应计交易记录
+                - name: 创建分类账应计交易记录
                   href: general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: 子分类帐转移到总账
+                - name: 子分类账转移到总账
                   href: general-ledger/subledger-transfer.md
-                - name: 从 Excel 发布日记账行和单据
+                - name: 从 Excel 发布日记帐行和单据
                   href: general-ledger/open-lines-excel-journals-documents.md
-                - name: 查看日记账条目和交易记录
+                - name: 查看日记帐条目和交易记录
                   href: general-ledger/view-journal-entries-transactions.md
-                - name: 将过账日记账条目记入日记账
+                - name: 将过账日记帐条目记入日记帐
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
                 - name: 合并公司中的币种重估
                   href: general-ledger/currency-revaluation-consolidation-company.md
@@ -902,7 +902,7 @@
                   href: general-ledger/import-currency-exchange-rates.md
                 - name: 一个凭证
                   href: general-ledger/one-voucher.md
-                - name: 分类帐结算
+                - name: 分类账结算
                   href: general-ledger/ledger-settlements.md
             - name: 期间结束关闭
               items:
@@ -928,17 +928,17 @@
                   href: general-ledger/sales-tax-calculation-methods-origin-field.md
                 - name: 全部金额和销售税代码的间隔计算选项
                   href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: 普通日记账行的销售税计算
+                - name: 普通日记帐行的销售税计算
                   href: general-ledger/sales-tax-calculation-on-general-journal.md
                 - name: 计算和调整供应商账单上的销售税
                   href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: 对日记账启用延期税金计算
+                - name: 对日记帐启用延期税金计算
                   href: general-ledger/enable-delayed-tax-calculation.md
                 - name: 创建销售税支付
                   href: general-ledger/tasks/create-sales-tax-payment.md
                 - name: 在单据中创建销售税交易记录
                   href: general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: 设置销售税分类帐记账组
+                - name: 设置销售税分类账记账组
                   href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
                 - name: 设置销售税主管机构
                   href: general-ledger/tasks/set-up-sales-tax-authorities.md
@@ -950,7 +950,7 @@
                   href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
                 - name: 销售税的双货币支持
                   href: general-ledger/dual-currency-for-tax.md
-                - name: 销售税明细（按分类帐）报表
+                - name: 销售税明细（按分类账）报表
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: 设置销售税结算期间
                   href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
@@ -1108,9 +1108,9 @@
               items:
                 - name: 公共部门中的总账概览
                   href: public-sector/general-ledger-public-sector.md
-                - name: 公共部门中的高级分类帐条目
+                - name: 公共部门中的高级分类账条目
                   href: public-sector/advanced-ledger-entries-public-sector.md
-                - name: 在公共部门中创建高级分类帐条目
+                - name: 在公共部门中创建高级分类账条目
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
                 - name: 使用现金控制限制
                   href: public-sector/cash-control.md
@@ -1292,7 +1292,7 @@
                       href: localizations/tasks/br-00052-2-cancel-sales-complementary-fiscal-document.md
                     - name: 服务电子会计单据
                       href: localizations/latam-bra-service-electronic-fiscal-document.md
-                    - name: 在电子付款退回过程中生成日记账
+                    - name: 在电子付款退回过程中生成日记帐
                       href: localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md
                     - name: 项目借方通知单
                       href: localizations/tasks/br-00076-project-debit-notes.md
@@ -1434,7 +1434,7 @@
                   href: localizations/apac-chn-post-inventory-main-accounts-by-site.md
                 - name: 过账其他模块的凭证
                   href: localizations/tasks/post-vouchers-other-modules-like-sales-invoices.md
-                - name: 过账普通日记账的凭证
+                - name: 过账普通日记帐的凭证
                   href: localizations/tasks/post-vouchers-general-journal.md
                 - name: 设置中国的基本税务集成模板
                   href: localizations/tasks/set-up-basic-tax-integration-profile-china.md
@@ -1466,11 +1466,11 @@
                       href: localizations/emea-cze-fixed-assets-depreciation.md
                     - name: 过账购置前
                       href: localizations/emea-pre-acquisition-acquisition-fixed-asset.md
-                - name: 过账期间日记账
+                - name: 过账期间日记帐
                   href: general-ledger/tasks/post-periodic-journals.md
                 - name: 设置打印表格的签名人
                   href: localizations/emea-set-up-signers-for-printing-forms.md
-                - name: 拆分期间日记账中的期间
+                - name: 拆分期间日记帐中的期间
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: 更新金额在报表和单据上显示的方式
                   href: localizations/emea-amount-printing-forms.md
@@ -1530,7 +1530,7 @@
                   href: localizations/emea-bank-reconciliation.md
                 - name: 可更正开单
                   href: localizations/emea-corrective-invoice.md
-                - name: 创建并过账期间日记账
+                - name: 创建并过账期间日记帐
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: 为有直接借记授权单的客户创建付款
                   href: localizations/tasks/create-payments-customers-who-have-direct-debit-mandates.md
@@ -1584,7 +1584,7 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: 生成欧盟内部统计申报
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
-                - name: 库存日记账报表
+                - name: 库存日记帐报表
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: 账单签发截止时间
                   href: localizations/emea-invoice-issue-deadline.md
@@ -1702,9 +1702,9 @@
                   href: localizations/tasks/fr-00003-naf-codes-siret-numbers.md
                 - name: 逾期客户付款罚金
                   href: localizations/emea-fra-apply-penalty-customer-payment-past-due.md
-                - name: 过账拒付签发汇票日记账
+                - name: 过账拒付签发汇票日记帐
                   href: localizations/tasks/fr-00004-post-protest-draw-bill-exchange-journal.md
-                - name: 过账重新签发汇票日记账
+                - name: 过账重新签发汇票日记帐
                   href: localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal.md
                 - name: 在客户账单上打印延时付款罚息总额文字
                   href: localizations/emea-fra-print-lump-sum-recovery-text.md
@@ -1736,7 +1736,9 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: 增值税申报的电子传输 (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
-                - name: 日记账清单报告
+                - name: 德国增值税申报
+                  href: localizations/emea-de-vat-declaration.md
+                - name: 日记帐清单报告
                   href: localizations/emea-deu-journal-list-report.md
                 - name: 设置电子纳税申报
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
@@ -1940,7 +1942,7 @@
                       href: localizations/apac-ind-GST-tax-adjustments.md
                     - name: 基于规则的税务结算
                       href: localizations/apac-ind-GST-tax-settlement.md
-                    - name: 创建税收日记账
+                    - name: 创建税收日记帐
                       href: localizations/apac-ind-GST-tax-journal.md
                     - name: 为税收返还生成 GSTR 报表数据
                       href: localizations/apac-ind-GST-tax-returns.md
@@ -2016,7 +2018,7 @@
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
                 - name: 佣金结算
                   href: localizations/emea-ita-exil-commission-settlement.md
-                - name: 总分类帐模拟（意大利）
+                - name: 总分类账模拟（意大利）
                   href: localizations/emea-ita-exil-general-ledger-simulations.md
                 - name: 银行和汇款类型的可配置过账模板
                   href: localizations/emea-ita-exil-bank-remittance.md
@@ -2110,13 +2112,13 @@
                   href: localizations/tasks/import-customer-payment-jba-file-format.md
                 - name: 导入邮政编码
                   href: localizations/apac-jpn-import-postal-codes.md
-                - name: 在 T 字科目窗体内输入日记账
+                - name: 在 T 字科目窗体内输入日记帐
                   href: localizations/tasks/jp-00005-input-journal-t-account-form-japan.md
                 - name: 查询资产报废义务相关交易记录
                   href: localizations/tasks/inquiries-asset-retirement-obligation.md
                 - name: 查询可扣减费用
                   href: localizations/tasks/inquiry-deductible-expenses.md
-                - name: 查询日记账中的付款费用
+                - name: 查询日记帐中的付款费用
                   href: localizations/tasks/inquiries-payment-fee-journal.md
                 - name: 维护可扣减费用的固定资产主数据文件
                   href: localizations/tasks/maintain-fixed-asset-master-data-files-deductible-expenses.md
@@ -2136,7 +2138,7 @@
                   href: localizations/tasks/propose-post-accelerated-depreciation.md
                 - name: 按批次建议并过账减损金额
                   href: localizations/tasks/propose-post-impairment-amount-batch.md
-                - name: 通过使用固定资产日记账建议并过账减损金额
+                - name: 通过使用固定资产日记帐建议并过账减损金额
                   href: localizations/tasks/propose-post-impairment-amount-fixed-asset-journal.md
                 - name: 建议并过账现金产出单元上的减损金额
                   href: localizations/tasks/propose-post-impairment-amount-cash-generating-unit.md
@@ -2174,11 +2176,11 @@
                   href: localizations/tasks/vendor-master-po.md
                 - name: 结算已背书的汇票
                   href: localizations/tasks/settle-endorsed-bill-exchange.md
-                - name: 使用付款日记账结算客户的合并的账单
+                - name: 使用付款日记帐结算客户的合并的账单
                   href: localizations/tasks/settle-customer-consolidated-invoices-payment-journal.md
                 - name: 使用结算交易记录结算客户的合并的账单
                   href: localizations/tasks/settle-customer-consolidated-invoices-settle-transactions.md
-                - name: 使用付款日记账结算供应商的合并的账单
+                - name: 使用付款日记帐结算供应商的合并的账单
                   href: localizations/tasks/settle-vendor-consolidated-invoices-payment-journal.md
                 - name: 使用结算交易记录结算供应商的合并的账单
                   href: localizations/tasks/settle-vendor-consolidated-invoices-settle-transactions.md
@@ -2282,11 +2284,11 @@
                   href: localizations/netherlands.md
                 - name: 增值税申报
                   href: localizations/emea-nl-VAT-declaration.md
-                - name: 电子纳税申报 (EVAT)
+                - name: 电子纳税申报（电子增值税）
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL 集成
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 审计文件（XML Auditfile Financieel，XAF）
+                - name: 审计文件 - XML Auditfile Financieel，XAF
                   hred: localizations/emea-nl-audit-file.md
             - name: 挪威
               items:
@@ -2340,13 +2342,13 @@
                   items:
                     - name: 帐户对应关系
                       href: localizations/rus-correspondence-accounts.md
-                    - name: 预览分类帐交易记录
+                    - name: 预览分类账交易记录
                       href: localizations/rus-ledger-transactions-preview.md
                     - name: 设置货币交易的汇率
                       href: localizations/rus-exchange-difference.md
                     - name: 导入俄罗斯联邦中央银行的币种汇率
                       href: general-ledger/import-currency-exchange-rates.md
-                    - name: 分类帐转换
+                    - name: 分类账转换
                       href: localizations/rus-ledger-translation-procedure.md
                     - name: 交易额余额对账单报表
                       href: localizations/rus-turnover-balance-statement-reports.md
@@ -2392,12 +2394,14 @@
                       href: localizations/rus-tax-agent.md
                     - name: 增值税申报
                       href: localizations/rus-VAT-declaration.md
-                    - name: 销售账簿、采购账簿和账单日记账
+                    - name: 销售账簿、采购账簿和账单日记帐
                       href: localizations/rus-sales-books-purchase-books.md
                     - name: 预付款管理
                       href: localizations/rus-prepayments-management.md
                     - name: 传入增值税还原
                       href: localizations/rus-incoming-VAT-restoring.md
+                    - name: 处理出口贸易账单
+                      href: localizations/rus-export-trade.md
                 - name: 固定资产
                   items:
                     - name: 固定资产概览
@@ -2438,7 +2442,7 @@
                           href: localizations/rus-fixed-asset-currency-revaluation.md
                         - name: 重新评估固定资产成本和折旧
                           href: localizations/rus-fixed-assets-revaluation.md
-                        - name: 创建和过账固定资产购置预算日记账
+                        - name: 创建和过账固定资产购置预算日记帐
                           href: localizations/rus-post-budget-fixed-asset-acquisition.md
                         - name: 转移固定资产
                           href: localizations/rus-fixed-asset-transfer.md
@@ -2496,6 +2500,12 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: 库存报表
                       href: localizations/rus-inventory-reports.md
+                    - name: 库存配置文件概览
+                      href: localizations/rus-inventory-profile-overview.md
+                    - name: 设置库存配置文件
+                      hreF: localizations/rus-set-up-inventory-profile.md
+                    - name: 在文档和查询中使用库存配置文件
+                      href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: 报告
                   items:
                     - name: 财务报告
@@ -2772,7 +2782,7 @@
                   href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
                 - name: 调整劳动力技能
                   href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
-                - name: 添加到您的绩效日记账
+                - name: 添加到您的绩效日记帐
                   href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
                 - name: 创建目标
                   href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
@@ -3248,34 +3258,40 @@
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: 设计电子报告格式以生成各种格式的传出电子单据
               items:
-                - name: (ER) 设计用于生成 OPENXML 格式的报表的配置
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
-                - name: (ER) 设计配置以生成 Word 格式的报表
+                - name: 设计配置以生成 Excel 格式的传出文档
+                  items:
+                    - name: 设计配置以生成 Excel 格式的文档
+                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
+                    - name: 生成 OPENXML 格式的报表的示例
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: 通过重新应用 Excel 模板修改电子报告格式
+                      href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: 将作为水平扩展范围的列动态添加到 Excel 报表
+                      items:
+                        - name: 设计格式以将列动态添加到 Excel 报表
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
+                        - name: 运行格式以将列动态添加到 Excel 报表
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                - name: 设计配置以生成 Word 格式的报告
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: 设计配置以填写 PDF 模板
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
-            - name: 嵌入图像和形状
-              items:
-                - name: (ER) 在您生成的文档中嵌入图像和形状
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
-                - name: 嵌入图像和形状的示例
+                - name: 嵌入图像和形状
                   items:
-                    - name: 设计配置以生成包含嵌入图像的 Office 格式报表
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
-                    - name: 查看配置以生成包含嵌入图像的 Office 格式报表
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: 生成包含嵌入图像的 Office 格式报表
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
-            - name: 通过重新应用 Excel 模板修改电子报告格式
-              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: (ER) 在您生成的文档中嵌入图像和形状
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
+                    - name: 嵌入图像和形状的示例
+                      items:
+                        - name: 设计配置以生成包含嵌入图像的 Office 格式报表
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
+                        - name: 查看配置以生成包含嵌入图像的 Office 格式报表
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: 生成包含嵌入图像的 Office 格式报表
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                - name: 基于文件大小和内容数量拆分生成的 XML 文件
+                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: 定义其他组件上的电子报告配置的依赖关系
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: 将作为水平扩展范围的列动态添加到 Excel 报表
-              items:
-                - name: 设计格式以将列作为水平扩展范围动态添加到 Excel 报表
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
-                - name: 运行格式以将作为水平扩展范围的列动态添加到 Excel 报表
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
             - name: 使用电子报告更新应用程序数据
               items:
                 - name: 生成电子文档并更新应用程序数据
@@ -3306,8 +3322,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
                     - name: 配置电子报告格式以导入包含可选属性的 XML 格式文件
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
-            - name: 基于文件大小和内容数量拆分生成的 XML 文件
-              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: 配置生命周期
               items:
                 - name: 管理配置生命周期
@@ -3327,7 +3341,11 @@
                     - name: 从 RCS 类型的电子报告存储库中下载配置
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: 从 RCS 导入配置
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: 在 RCS 中创建电子报告配置并将其上传到全局存储库
+                  href: localizations/rcs-global-repo-upload.md
+                - name: 与外部组织共享 RCS 中的电子报告配置
+                  href: localizations/rcs-global-repo-share-configuration.md
             - name: 教程
               items:
                 - name: 了解如何使用数据源
@@ -3512,7 +3530,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/finance/toc.json
             - name: 开发电子邮件体验
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/finance/toc.json
-            - name: Office 集成故障排除
+            - name: 解决 Office 集成问题
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/finance/toc.json
         - name: 组织管理
           items:

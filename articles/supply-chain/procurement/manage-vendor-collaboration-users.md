@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8491fd7c5af015989d409391e3ac143d88b6ad92
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 29930fdb65f96e281e0f0f01db41ec1475ad81c2
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207155"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383059"
 ---
 # <a name="manage-vendor-collaboration-users"></a>管理供应商协作用户
 

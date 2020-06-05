@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Supply Chain Management
       items:
-        - name: Dynamics 365 Supply Chain Management
+        - name: Dynamics 365 Supply Chain Management 主页
           href: index.md
         - name: 入门
           items:
@@ -10,11 +10,11 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
             - name: 注册预览订阅
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 一个版本服务更新
+            - name: One Version 服务更新
               items:
-                - name: 一个版本服务更新概览
+                - name: One Version 服务更新概览
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 一个版本服务更新常见问题
+                - name: One Version 服务更新常见问题
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 软件生命周期策略 - 云
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 数据任务自动化
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 使用一个版本提供 ISV 解决方案
+                - name: 使用 One Version 提供 ISV 解决方案
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 创建和自动执行用户接受度测试
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/supply-chain/toc.json
@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 连接帮助系统
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 连接自定义帮助站点
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 自定义帮助概览
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 查看和导出字段描述
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 任务录制器
@@ -475,7 +475,7 @@
               href: ../finance/cost-accounting/tasks/configure-access-rights-cost-object-controller.md?toc=/dynamics365/supply-chain/toc.json
             - name: 定义成本控制单元
               href: ../finance/cost-accounting/tasks/define-cost-control-units.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 创建成本核算分类帐
+            - name: 创建成本核算分类账
               href: ../finance/cost-accounting/tasks/create-cost-accounting-ledger.md?toc=/dynamics365/supply-chain/toc.json
             - name: 统计维度成员和统计度量提供方模板
               href: ../finance/cost-accounting/statistical-measure-provider-template.md?toc=/dynamics365/supply-chain/toc.json
@@ -489,7 +489,7 @@
               href: ../finance/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md?toc=/dynamics365/supply-chain/toc.json
             - name: 创建成本累积政策
               href: ../finance/cost-accounting/tasks/create-cost-rollup-policy.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 管理成本核算分类帐的数据源
+            - name: 管理成本核算分类账的数据源
               href: ../finance/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md?toc=/dynamics365/supply-chain/toc.json
             - name: 处理和跟踪源数据
               href: ../finance/cost-accounting/tasks/process-trace-source-data.md?toc=/dynamics365/supply-chain/toc.json
@@ -1251,7 +1251,7 @@
                   href: inventory/tasks/create-maintain-inventory-blocking.md
             - name: 库存操作
               items:
-                - name: 库存日记账
+                - name: 库存日记帐
                   href: inventory/inventory-journals.md
                 - name: 库存库位
                   href: inventory/inventory-locations.md
@@ -1313,6 +1313,22 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: 按库存维度跟踪移动平均成本
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+        - name: IoT 智能
+          items:
+            - name: IoT 智能主页
+              href: iot/iot-intelligence-home-page.md
+            - name: 设置 Azure 资源
+              href: iot/iot-azure-setup.md
+            - name: IoT 中心的消息架构格式
+              href: iot/iot-schema-format.md
+            - name: 在 LCS 中安装加载项
+              href: iot/iot-lcs-setup.md
+            - name: 设置指标
+              href: iot/iot-metrics-setup.md
+            - name: 方案设置
+              href: iot/iot-scenario-setup.md
+            - name: 监控和管理
+              href: iot/iot-management.md
         - name: 主计划
           items:
             - name: 主计划主页
@@ -1335,6 +1351,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: 取消计划作业
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: 解决计划优化问题
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: 主计划
               items:
                 - name: 主计划概览
@@ -1475,7 +1493,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/supply-chain/toc.json
             - name: 开发电子邮件体验
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Office 集成故障排除
+            - name: 解决 Office 集成问题
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/supply-chain/toc.json
         - name: 组织管理
           items:
@@ -1991,7 +2009,7 @@
                       href: production-control/tasks/report-finished-non-license-plate-controlled-location-2016-11.md
                     - name: 在移动作业设备上报告进度
                       href: production-control/tasks/report-progress-mobile-job-device.md
-                    - name: 使用安全存货日记账更新最小覆盖范围
+                    - name: 使用安全存货日记帐更新最小覆盖范围
                       href: production-control/tasks/use-safety-stock-journal-update-minimum-coverage.md
                     - name: 生产中的物料替换
                       href: production-control/substitute-items-bom-lines.md
@@ -2637,7 +2655,7 @@
                   href: warehousing/partial-location-cycle-counting.md
                 - name: 定义部分库位周期盘点流程
                   href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                - name: 库存日记账
+                - name: 库存日记帐
                   href: inventory/inventory-journals.md
                 - name: 库存库位
                   href: inventory/inventory-locations.md
@@ -2657,7 +2675,7 @@
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
             - name: 安装和配置仓库应用
               items:
-                - name: 安装和配置概览
+                - name: 安装和连接仓库应用
                   href: warehousing/install-configure-warehousing-app.md
                 - name: 在仓库应用中配置字段名称
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
@@ -2689,7 +2707,7 @@
                   href: warehousing/inbound-load-handling.md
                 - name: 使用物料到达日记帐登记启用了高级仓库的物料
                   href: warehousing/tasks/register-items-advanced-warehousing.md
-                - name: 使用物料到达日记账登记启用了基本仓库的物料
+                - name: 使用物料到达日记帐登记启用了基本仓库的物料
                   href: warehousing/tasks/register-items-basic-warehousing.md
                 - name: 将产品从接收仓库越库配送到商店
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
@@ -2697,6 +2715,22 @@
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: 设置采购订单的工作模板
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
+            - name: 装运合并政策
+              items:
+                - name: 装运合并政策
+                  href: warehousing/about-shipment-consolidation-policies.md
+                - name: 配置装运合并政策
+                  href: warehousing/configure-shipment-consolidation-policies.md
+                - name: 方案 1 - 使用自动发放销售订单将装运发放到仓库时合并装运
+                  href: warehousing/consolidate-shipments-automatic.md
+                - name: 方案 2 - 从“发放到仓库”页面覆盖装运合并政策时合并装运
+                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                - name: 方案 3 - 使用从装载计划工作台发放到仓库来合并装运
+                  href: warehousing/consolidate-shipments-load-planning-workbench.md
+                - name: 方案 4 - 使用装运合并工作台来合并装运
+                  href: warehousing/consolidate-shipments-manual-workbench.md
+                - name: 方案 5 - 使用“合并装运”页面手动合并装运
+                  href: warehousing/consolidate-shipments-manual-form.md
         - name: Supply Chain Management 开发
           items:
             - name: 甘特图控件开发指南

@@ -1,9 +1,9 @@
 ---
 title: 定义支出策略
 description: 您可以在 Microsoft Dynamics 365 Finance 中定义您的工作人员在输入和提交支出报表和出差申请时必须遵守的支出政策。
-author: ryansandness
+author: suvaidya
 manager: AnnBe
-ms.date: 04/26/2019
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d3b4a8f6cf74bb1fe7e53a4dfdd607f604e16e3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 22504e0e26c025d117f29dee3b59b41d508e7724
+ms.sourcegitcommit: 4f90b9ddedf312e75a714e0ec7f7ee5fd43cac6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187444"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "3389707"
 ---
 # <a name="define-expense-policies"></a>定义支出策略
 
@@ -48,6 +48,7 @@ ms.locfileid: "2187444"
 下面是一些在为费用管理新建政策时可以帮助您的建议。 
 * 政策有生效日期，如果创建政策时不为其设置费用产生后的日期，政策不会生效。 例如，如果今天创建新政策以实施最大餐费 50 美元，则不会针对此政策检查截止昨天的任何现有费用。
 * 为可明细化的费用类别创建政策时，请考虑为费用行类型添加条件。 某些政策（如索取收据）可能对明细化行无意义，只应该应用于标题行或非明细化行。 
+* 默认情况下，针对源法人评估费用管理策略。 对于内部公司方案，可以改为设置为针对目标法人（借入方法人）评估策略。 若要针对目标法人运行策略，请在**功能管理**工作区中开启“根据借入方法人评估策略”。
 
 ## <a name="when-to-evaluate-policies"></a>何时评估政策
 

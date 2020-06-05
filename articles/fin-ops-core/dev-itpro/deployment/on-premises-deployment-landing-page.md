@@ -3,7 +3,7 @@ title: 本地部署主页
 description: 本主题提供有关本地部署的信息和内容链接。
 author: sericks007
 manager: AnnBe
-ms.date: 03/04/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b251125323bb74eb8be4172cb1b143c4866a8eac
-ms.sourcegitcommit: ec4df51e17be0b2df393635605ea17250c991ee9
+ms.openlocfilehash: 90285c8f2e0e86e04c8f2ac401c324c888740e99
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3099722"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367050"
 ---
 # <a name="on-premises-deployment-home-page"></a>本地部署主页
 
@@ -41,7 +41,6 @@ ms.locfileid: "3099722"
 ## <a name="onboard"></a>入职
 - [在 Lifecycle Services (LCS) 中设置本地项目](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
 - [设置和部署本地环境（Platform update 12 及更高版本）](setup-deploy-on-premises-pu12.md)
-- [设置并部署本地环境（平台更新 8 和 11）](setup-deploy-on-premises-pu8-pu11.md)
 - [在本地环境中安装网络打印机设备](../analytics/install-network-printer-onprem.md)
 - [为本地部署配置 SQL Server Reporting Services](../analytics/configure-ssrs-on-premises.md)
 - [开发自定义模型并将其部署到本地环境](develop-deploy-custom-models-on-premises.md)

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ddad2814915e14821f03efda72858d9a57f2d4e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 44fe6589b43627f44e32fb728784c24c40b4261a
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204393"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383381"
 ---
 # <a name="create-and-edit-sales-quotations"></a>创建和编辑销售报价单
 

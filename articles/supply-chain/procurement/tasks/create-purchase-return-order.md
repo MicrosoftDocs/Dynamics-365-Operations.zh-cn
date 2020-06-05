@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c83cafd3a8934c488bb7a9f315bd5cb154f88c09
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b4587c9d64c2456e5f9f27cdb19625d9537f1e29
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204807"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383197"
 ---
 # <a name="create-a-purchase-return-order"></a>创建采购退货单
 
@@ -34,7 +34,7 @@ ms.locfileid: "3204807"
 2. 单击**新建**。
 3. 在**供应商帐户**字段中输入“US-102”。
 4. 单击 **确定**。
-5. 在**操作窗格**上，单击**采购**。
+5. 在**操作窗格**上，单击**购买**。
 6. 单击**贷方通知单**。 这是可在其中将现有供应商发票中的内容复制到退货单的页面。 这是用于其他复制操作的相同页面。 因为此页面是通过贷方通知单操作打开的，所以此页面配置为支持创建用于抵消供应商发票的退货单。  
 7. 展开**参数**部分。
     - **符号反转**选项自动选中，并且不能更改。 这保证为数量更改此符号，并且添加的订单行抵消供应商发票。  

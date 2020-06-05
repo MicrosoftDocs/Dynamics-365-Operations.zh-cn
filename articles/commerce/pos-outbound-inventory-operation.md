@@ -3,7 +3,7 @@ title: POS 中的出站库存操作
 description: 此主题介绍销售点 (POS) 出站库存操作的功能。
 author: hhaines
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 26d8d67ac6d2fde0753104483fd2127f9acbaa05
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
+ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123914"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3384121"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>POS 中的出站库存操作
 
@@ -117,6 +117,18 @@ POS 用户可通过出站操作执行以下任务：
 ### <a name="over-delivery-shipping-validations"></a>超交装运验证
 
 单据行的接收流程中执行验证。 其中包括超交验证。 如果用户尝试接收的库存比采购订单中订购的多，但是未配置超交，或接收的数量超过了为采购订单行配置的超交容差，用户将收到错误，并且不能接收超额数量。
+
+### <a name="underdelivery-close-lines"></a>欠交结束行
+
+在 Commerce 版本 10.0.12 中，增加了一项功能，供 POS 用户在出站订单装运期间出站仓库确定不能装运请求的所有数量时，结束或取消剩余数量。 也可以在以后结束或取消数量。 若要使用此功能，必须将公司配置为允许欠交转移单。 此外，还必须为转移单行定义欠交百分比。
+
+若要将公司配置为允许欠交转移单，请在 Commerce Headquarters 中转到**库存管理 \> 设置 \> 库存和仓库管理参数**。 在**库存和仓库管理参数**页的**转移单**选项卡上，开启**接受欠交**参数。 然后运行 **1070** 配送调度程序作业将参数更改同步到商店渠道。
+
+可以在 Commerce Headquarters 中配置产品时为产品预定义转移单行的欠交百分比。 此外，还可以通过 Commerce Headquarters 在特定转移单行中设置或覆盖。
+
+在组织配置完转移单欠交后，用户在 POS 中通过**出站操作**操作选择出站转移单行时，将在**详细信息**窗格中看到一个新的**结束剩余数量**选项。 然后，当用户使用**完成履行**操作完成装运时，可以向 Commerce Headquarters 发送请求以取消剩余未装运数量。 如果用户选择结束剩余数量，Commerce 将进行验证以验证要取消的数量是否在转移单行中定义的欠交百分比容差内。 如果超过了欠交容差，用户将收到错误消息，并且在之前装运加“立即装运”数量达到或超过欠交容差前，不能结束剩余数量。
+
+装运同步到 Commerce Headquarters 之后，将把 POS 中转移单行的**立即装运**字段中定义的数量在 Commerce Headquarters 中更新为已装运状态。 将把之前本应视为“装运剩余”数量（即将在以后装运的数量）的未装运数量改为视为已取消数量。 将把转移单行的“装运剩余”数量设置为 **0**（零），并将此行视为已完全装运。
 
 ### <a name="shipping-location-controlled-items"></a>装运位置控制的物料
 

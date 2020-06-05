@@ -3,7 +3,7 @@ title: 供应商发票自动化
 description: 此主题说明对供应商发票（甚至是包括附件的发票）端到端自动化提供的功能。
 author: abruer
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 05/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba986afb5c17c7a317b47d1e9cf4ae57ac29da97
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4560d7b61fa8f014f9a1185da087df8b1c8e61ba
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176660"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396001"
 ---
 # <a name="vendor-invoice-automation"></a>供应商发票自动化
 
@@ -61,7 +61,7 @@ ms.locfileid: "2176660"
 
 供应商发票文档附件是作为此功能的一部分而引进的新数据实体。 供应商发票抬头实体已经过修改以支持附件。 供应商发票行实体未针对此功能进行修改。
 
-此主题不提供数据包的详细定义。 也不解释如何创建数据包。 有关此信息，请参阅 [数据实体和包框架](../../dev-itpro/data-entities/data-entities-data-packages.md)。
+有关数据包的详细信息，请参阅[数据管理概述](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)。 有关如何使用数据管理工作区创建数据包的信息，请参阅[处理和使用 Dynamics 365 Finance and Operations 应用解决方案中的数据包](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md)。
 
 要快速生成包括发票和附件的测试数据，请执行以下步骤。
 
