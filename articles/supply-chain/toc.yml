@@ -70,12 +70,12 @@
                   items:
                     - name: “Supply Chain Management 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.12（2020 年 8 月）
+                      href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11（2020 年 7 月）
                       href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10（2020 年 5 月）
                       href: get-started/whats-new-scm-10-0-10.md
-                    - name: Supply Chain Management 10.0.9（2020 年 4 月）
-                      href: get-started/whats-new-scm-10-0-9.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
@@ -595,6 +595,8 @@
                   href: cost-management/bom-calculations.md
                 - name: 物料清单计算组
                   href: cost-management/bom-calculation-groups.md
+                - name: 成本计算级别
+                  href: cost-management/cost-calculation-level.md
                 - name: 倒冲成本计算法
                   href: cost-management/backflush-costing.md
                 - name: 生产差异的常见来源
@@ -1345,6 +1347,8 @@
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: 将筛选器应用到计划
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: 使用采购贸易协议进行主计划
+                  href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: 查看计划历史记录和计划日志
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: 计划优化自动确认
@@ -1989,7 +1993,9 @@
                       href: production-control/release-production-orders.md
                     - name: 将生产订单报告为已完工入库
                       href: production-control/report-production-orders-as-finished.md
-                    - name: 报告为已完工入库到牌照控制的库位
+                    - name: 配置设备的作业卡
+                      href: production-control/config-job-card-device.md
+                    - name: 从作业卡设备报告为已完工入库
                       href: production-control/report-finished-job-device.md
                     - name: 反转生产订单状态
                       href: production-control/reverse-production-order-status.md
@@ -2259,6 +2265,16 @@
                   href: sales-marketing/tasks/register-sales-commissions.md
                 - name: 设置销售佣金规则
                   href: sales-marketing/tasks/set-up-sales-commission-rules.md
+            - name: Dynamics 365 Supply Chain Management 客户门户
+              items:
+                - name: 客户门户概览
+                  href: sales-marketing/customer-portal-overview.md
+                - name: 安装、设置和更新客户门户
+                  href: sales-marketing/customer-portal-setup.md
+                - name: 创建和管理客户门户用户
+                  href: sales-marketing/customer-portal-user-admin.md
+                - name: 自定义和使用客户门户
+                  href: sales-marketing/customer-portal-customize.md
             - name: 贸易折让
               href: sales-marketing/trade-allowance.md
             - name: 创建新的贸易协议
@@ -2655,6 +2671,8 @@
                   href: warehousing/partial-location-cycle-counting.md
                 - name: 定义部分库位周期盘点流程
                   href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                - name: 仓库管理现有条目清除作业
+                  href: warehousing/onhand-cleanup.md
                 - name: 库存日记帐
                   href: inventory/inventory-journals.md
                 - name: 库存库位
