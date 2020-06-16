@@ -5,6 +5,8 @@
       items:
         - name: Human Resources 新增功能或更改
           href: hr-admin-whats-new.md
+        - name: 2020 年 5 月 28 日
+          href: hr-whats-new-2020-05-28.md
         - name: 2020 年 5 月 14 日
           href: hr-whats-new-2020-05-14.md
         - name: 2020 年 5 月 1 日
@@ -509,6 +511,8 @@
               href: hr-leave-and-absence-accrue.md
             - name: 暂停休假
               href: hr-leave-and-absence-suspend-leave.md
+            - name: 休假申请
+              href: hr-employee-self-service-request-leave-of-absence.md
             - name: 管理员工休假
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: 查看休假和缺勤分析
@@ -519,6 +523,10 @@
               href: hr-employee-self-service-request-time-off.md
             - name: 查看团队和公司日历
               href: hr-employee-self-service-calendar.md
+            - name: 管理购买和出售休假策略
+              href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: 购买和出售休假
+              href: hr-employee-self-service-buy-sell-leave.md
         - name: 管理 Teams 中的休假申请
           href: hr-teams-leave-app.md
         - name: 培养员工

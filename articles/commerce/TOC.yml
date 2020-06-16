@@ -88,6 +88,8 @@
                   items:
                     - name: “Commerce 中的新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.12（2020 年 8 月）
+                      href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11（2020 年 7 月）
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10（2020 年 5 月）
@@ -212,9 +214,9 @@
               items:
                 - name: 在 Dynamics 365 Commerce 中同步自助服务安装程序
                   href: dev-itpro/Synchronize-installers.md
-                - name: Commerce Scale Unit
+                - name: Commerce Scale Unit（自托管）
                   href: dev-itpro/retail-store-system-begin.md
-                - name: 配置和安装 Commerce Scale Unit
+                - name: 配置和安装 Commerce Scale Unit（自托管）
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
                 - name: Modern POS 配置和安装
                   href: retail-modern-pos-device-activation.md
@@ -604,7 +606,7 @@
               items:
                 - name: 产品建议概览
                   href: product-recommendations.md
-                - name: 在 Dynamics 365 Commerce 环境中启用 ADLS
+                - name: 在 Dynamics 365 Commerce 环境中启用 Azure Data Lake Storage
                   href: enable-ADLS-environment.md
                 - name: 启用产品建议
                   href: enable-product-recommendations.md
@@ -646,8 +648,8 @@
                   items:
                     - name: 商店库存管理
                       href: work-with-store-inventory.md
-                    - name: 使用序列化物料
-                      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: 配置库存缓冲区和库存级别
+                      href: inventory-buffers-levels.md
                     - name: 在 POS 中使用序列化物料
                       href: pos-serialized-items.md
                     - name: 使用集中采购配送将产品从配送中心配送到商店
@@ -824,6 +826,8 @@
                   href: authoring-home-overview.md
                 - name: 管理用户和角色
                   href: manage-ecommerce-users-roles.md
+                - name: 应用库存设置
+                  href: inventory-settings.md
                 - name: 站点的搜索引擎优化 (SEO) 注意事项
                   href: search-engine-optimization-considerations.md
                 - name: 管理内容安全策略 (CSP)
@@ -848,6 +852,8 @@
                       href: select-site-theme.md
                     - name: 使用 CSS 覆盖文件
                       href: css-override-files.md
+                    - name: 使用样式预设
+                      href: style-presets.md
                     - name: 添加收藏夹图标
                       href: add-favicon.md
                     - name: 添加欢迎消息
@@ -932,6 +938,10 @@
                   items:
                     - name: 容器模块
                       href: add-container-module.md
+                    - name: 可折叠模块
+                      href: add-accordion.md
+                    - name: 标签模块
+                      href: add-tab.md
                 - name: 市场营销模块
                   items:
                     - name: 促销横幅模块
@@ -978,6 +988,10 @@
                   items:
                     - name: 产品集合模块
                       href: product-collection-module-overview.md
+                - name: 导航模块
+                  items:
+                    - name: 痕迹导航模块
+                      href: add-breadcrumb.md
             - name: 搜索
               items:
                 - name: 默认类别登陆页面和搜索结果页面
@@ -1048,6 +1062,10 @@
                   href: localizations/emea-fra-cash-registers.md
                 - name: 收银机部署指南
                   href: localizations/emea-fra-deployment.md
+            - name: 德国
+              items:
+                - name: 德国的会计登记服务集成示例
+                  href: localizations/emea-deu-fi-sample.md
             - name: 印度
               items:
                 - name: 收银机的商品劳务税 (GST) 集成
@@ -1976,7 +1994,9 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: 配置主题设置
                       href: e-commerce-extensibility/configure-theme-settings.md
-                    - name: 扩展主题
+                    - name: 扩展主题以添加模块扩展
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: 从基础主题扩展主题
                       href: e-commerce-extensibility/extend-theme.md
                 - name: 注入脚本
                   items:
@@ -2072,11 +2092,11 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: Retail Server 可扩展性
               items:
-                - name: 扩展 Retail Server OData 控制器
+                - name: 扩展 Commerce Scale Unit OData 控制器
                   href: dev-itpro/extend-retail-server-odata-controller.md
-                - name: Retail Server 客户和用户 API
+                - name: Commerce Scale Unit 客户和消费者 API
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: 扩展默认 Retail Server 元数据控制器
+                - name: 扩展默认的 Commerce Scale Unit 元数据控制器
                   href: dev-itpro/extend-metadata.md
                 - name: 调用脱机模式下的 CRT 服务
                   href: dev-itpro/call-crt-service-offline.md
@@ -2096,8 +2116,6 @@
                   href: dev-itpro/add-customer-preference-channel.md
                 - name: 管理零售渠道机密
                   href: dev-itpro/manage-secrets.md
-                - name: 将属性添加到销售订单
-                  href: dev-itpro/add-properties-sales-order.md
                 - name: CRT 可扩展性和触发器
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: 使用触发器锁定交易记录

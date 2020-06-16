@@ -70,12 +70,12 @@
                   items:
                     - name: “Finance 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.12（2020 年 8 月）
+                      href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11（2020 年 7 月）
                       href: get-started/whats-new-changed-10-0-11.md
                     - name: Finance 10.0.10（2020 年 5 月）
                       href: get-started/whats-new-changed-10-0-10.md
-                    - name: Finance 10.0.9（2020 年 4 月）
-                      href: get-started/whats-new-changed-10-0-9.md
             - name: 已删除或弃用的功能
               items:
                 - name: Dynamics 365 Finance 中已删除或弃用的功能
@@ -232,6 +232,8 @@
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
             - name: 设置供应商账单策略
               href: accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: 自动执行供应商付款方案
+              href: accounts-payable/automate-vendor-payment-proposal.md
             - name: 记录供应商账单和匹配接收的数量
               href: accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: 付款确认概览
@@ -324,14 +326,6 @@
               href: accounts-receivable/copy-customer.md
             - name: 客户工作流
               href: accounts-receivable/customer-workflow.md
-            - name: 应收账款中的信用和收款
-              href: accounts-receivable/collections-credit-accounts-receivable.md
-            - name: 配置应收账款以及信用和收款
-              href: accounts-receivable/accounts-receivables-set-up-overview.md
-            - name: 设置信用和收款
-              href: accounts-receivable/set-up-collections.md
-            - name: 审核收款信息
-              href: accounts-receivable/tasks/review-collections-information.md
             - name: 收入确认概览
               href: accounts-receivable/revenue-recognition-overview.md
             - name: 收入确认设置
@@ -410,6 +404,14 @@
               items:
                 - name: 信用和收款概览
                   href: accounts-receivable/cm-credit-and-collections-overview.md
+                - name: 应收账款中的收款
+                  href: accounts-receivable/collections-credit-accounts-receivable.md
+                - name: 配置应收账款以及信用和收款
+                  href: accounts-receivable/accounts-receivables-set-up-overview.md
+                - name: 设置信用和收款
+                  href: accounts-receivable/set-up-collections.md
+                - name: 审核收款信息
+                  href: accounts-receivable/tasks/review-collections-information.md
                 - name: 信用管理设置
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: 信用管理设置信息
@@ -448,6 +450,8 @@
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: 创建客户的勾销日记帐
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
+            - name: 高级注释管理
+              href: localizations/emea-ita-exil-structured-notes.md
         - name: 预算编制
           items:
             - name: 预算编制主页
@@ -978,6 +982,8 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: 配置人工和支出的标准成本
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
+            - name: 创建并应用供应商付款保留条款
+              href: project-management/create-and-apply-vendor-payment-retention-terms.md
             - name: 设置并使用被付后支付的供应商付款
               href: project-management/setup-manage-vendor-payments.md
             - name: 采购收据上的项目成本应计
@@ -1000,6 +1006,10 @@
               href: project-management/project-purchase-orders.md
             - name: 项目报价单
               href: project-management/project-quotations.md
+            - name: 确认、更新并发送项目报价单
+              href: project-management/confirm-update-send-project-quotation.md
+            - name: 将报价单转移到项目
+              href: project-management/transfer-quote-new-existing-project.md
             - name: 项目资源
               href: project-management/project-resourcing.md
             - name: 根据物料需求接收采购订单上的物料
@@ -1022,6 +1032,8 @@
                   href: project-management/custom-fields-mobile.md
             - name: 项目授权
               href: project-management/project-grants.md
+            - name: 清除项目评估
+              href: project-management/eliminate-project-estimate.md
         - name: 公共部门
           items:
             - name: 公共部门主页
@@ -1758,6 +1770,8 @@
                   href: localizations/emea-hun-tax-reimbursement-docs.md
                 - name: 年终结算
                   href: localizations/emea-cze-hun-year-end.md
+                - name: 在线开单系统
+                  href: localizations/emea-hun-online-invoicing.md
             - name: 冰岛
               items:
                 - name: 冰岛概览
@@ -2008,11 +2022,9 @@
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
                 - name: 内部统计申报中的每千克杂项费用
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
-                - name: 高级注释管理
-                  href: localizations/emea-ita-exil-structured-notes.md
                 - name: 意向书 - 向常见的出口商提供账单
                   href: localizations/emea-ita-exil-intent-letter.md
-                - name: 免费交付货物的税务发票
+                - name: 免费交付货物的税务账单
                   href: localizations/emea-ita-exil-goods-for-free.md
                 - name: 改进借方或贷方结算查询
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
@@ -2284,12 +2296,12 @@
                   href: localizations/netherlands.md
                 - name: 增值税申报
                   href: localizations/emea-nl-VAT-declaration.md
-                - name: 电子纳税申报（电子增值税）
+                - name: 电子纳税申报 (EVAT)
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL 集成
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 审计文件 - XML Auditfile Financieel，XAF
-                  hred: localizations/emea-nl-audit-file.md
+                - name: 审计文件 (XML Auditfile Financieel XAF)
+                  href: localizations/emea-nl-audit-file.md
             - name: 挪威
               items:
                 - name: 挪威概览
@@ -2970,6 +2982,8 @@
               items:
                 - name: 创建配置
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/finance/toc.json
+                - name: 定义其他组件上的电子报告配置的依赖关系
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: 准备电子报告解决方案的组件
                   items:
                     - name: 设计域特定数据模型
@@ -3252,10 +3266,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
                         - name: 文本：Text
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: 管理单独电子报告配置中的电子报告模型映射
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: 创建格式时选择数据模型定义
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: 设计电子报告格式以生成各种格式的传出电子单据
               items:
                 - name: 设计配置以生成 Excel 格式的传出文档
@@ -3290,8 +3300,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
                 - name: 基于文件大小和内容数量拆分生成的 XML 文件
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
-            - name: 定义其他组件上的电子报告配置的依赖关系
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: 使用电子报告更新应用程序数据
               items:
                 - name: 生成电子文档并更新应用程序数据
@@ -3321,31 +3329,41 @@
                     - name: 导入包含可选属性的 XML 格式文件
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
                     - name: 配置电子报告格式以导入包含可选属性的 XML 格式文件
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/finance/toc.json
             - name: 配置生命周期
               items:
                 - name: 管理配置生命周期
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/finance/toc.json
-                - name: 将配置上载到 Lifecycle Services 中
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
-                - name: 从 Lifecycle Services 导入配置
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/finance/toc.json
-                - name: 从 Lifecycle Services 下载配置
-                  href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
-                - name: 导入配置
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: 增强的筛选选项，用于在全局存储库中查找配置
-                  href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                - name: 从 RCS 存储库中下载电子报告配置
+                - name: Lifecycle Services (LCS)
                   items:
-                    - name: 从 RCS 类型的电子报告存储库中下载配置
-                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: 从 RCS 导入配置
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
-                - name: 在 RCS 中创建电子报告配置并将其上传到全局存储库
-                  href: localizations/rcs-global-repo-upload.md
-                - name: 与外部组织共享 RCS 中的电子报告配置
-                  href: localizations/rcs-global-repo-share-configuration.md
+                    - name: 将配置上传到 LCS 中
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
+                    - name: 从 LCS 导入配置
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/finance/toc.json
+                    - name: 从 LCS 下载配置
+                      href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
+                    - name: 导入配置 (LBD)
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
+                - name: Regulatory services (RCS)
+                  items:
+                    - name: Regulatory Configuration Service (RCS) - 全球化功能
+                      href: localizations/rcs-globalization-feature.md
+                    - name: 将电子报告配置下载到 Finance
+                      items:
+                        - name: 从 RCS 下载配置
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: 从 RCS 导入配置
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: 全球资料库 (GR)
+                      items:
+                        - name: 从 GR 导入配置
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: 增强的筛选，用于在 GR 中查找配置
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: 将配置上传到 GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: 在 GR 中共享配置
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
             - name: 教程
               items:
                 - name: 了解如何使用数据源
@@ -3392,18 +3410,26 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
                         - name: 调试数据源
                           href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
-                - name: 配置与国家/地区上下文相关的电子报告模型映射
-                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
-                - name: 配置电子报告格式以使用每个法人指定的参数
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
-                - name: 为每个法人设置电子报告格式的参数
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
-                - name: 推迟执行电子报告格式元素
+                - name: 配置模型映射
                   items:
-                    - name: 推迟执行序列元素
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
-                    - name: 推迟执行 XML 元素
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                    - name: 配置与国家/地区上下文相关的电子报告模型映射
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
+                    - name: 管理单独电子报告配置中的电子报告模型映射
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
+                - name: 配置格式
+                  items:
+                    - name: 配置电子报告格式以使用每个法人指定的参数
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
+                    - name: 为每个法人设置电子报告格式的参数
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
+                    - name: 创建格式时选择模型定义
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
+                    - name: 推迟执行电子报告格式元素
+                      items:
+                        - name: 推迟执行序列元素
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
+                        - name: 推迟执行 XML 元素
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                 - name: 数据绑定中的相对路径
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: 在 Finance and Operations 中使用电子报告解决方案
