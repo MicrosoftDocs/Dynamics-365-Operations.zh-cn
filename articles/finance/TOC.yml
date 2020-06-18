@@ -2371,7 +2371,7 @@
                     - name: 俄罗斯预付款持有人概览
                       href: localizations/rus-advance-holders.md
                     - name: 创建预付款持有人
-                      href: 'localizations/emea-advance-holders.md#create-an-advance-holder'
+                      href: localizations/emea-advance-holders.md#create-an-advance-holder
                     - name: 预付款持有人的日常运营
                       href: localizations/rus-advance-holders-daily-operations.md
                     - name: 预算控制中的预付款报表
@@ -3346,7 +3346,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory services (RCS)
                   items:
-                    - name: Regulatory Configuration Service (RCS) - 全球化功能
+                    - name: Regulatory Configuration Services (RCS) - 全球化功能
                       href: localizations/rcs-globalization-feature.md
                     - name: 将电子报告配置下载到 Finance
                       items:
