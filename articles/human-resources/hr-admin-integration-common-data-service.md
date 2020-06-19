@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: CDSIntegrationAdministration
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 04280aa0908ed6dab86ef87b6c1843e4b4348e08
-ms.sourcegitcommit: c9657b44adb9c1a77c7c2f6ab63a58cc848974ea
+ms.openlocfilehash: 7aad8217d48917d6855046a6810fe994f5564d94
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3198414"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431306"
 ---
 # <a name="configure-common-data-service-integration"></a>配置 Common Data Service 集成
 

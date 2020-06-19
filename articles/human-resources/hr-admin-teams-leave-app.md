@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 423ec36a73e8af9d915c5cfe16bd4d552448e2b6
-ms.sourcegitcommit: d1541831d556b722a71aed442043ffb4a4576d87
+ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "3388108"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431122"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams 中的 Human Resources 应用
 
@@ -45,6 +45,7 @@ ms.locfileid: "3388108"
 
 | 发货 | 状态 |
 | --- | --- |
+| 错误：查找要连接的环境时出现问题。 | 即使您已确认用户可以访问一个或多个 Human Resources 环境，也可能会收到此错误。 此外，您可能看不到您预期的所有环境。 在我们修复此问题之前，请删除用户，然后再次将其导入以解决此问题。 |
 | 提交将来日期的请假时，余额不正确。 | 预测尚不可用。 显示当前日期的余额。 |
 | 减少现有请求所用小时数时，**余额**变小而不是变大。 | 我们将在以后解决这个已知问题。 显示不正确，但是提交后会调整正确金额。 |
 | 为相同日期显示两个**近期请假**卡。 | 这些卡显示各项提交。 我们将继续征集反馈并进行调整。 |

@@ -3,7 +3,7 @@ title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f6365d42de5d19d960641f188cb6052ef07d721f
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: 6fc699907d30fff2d05e752ea055cae8d1134d9b
+ms.sourcegitcommit: 3eaa71c889545318737b3bc88b05eae1a47ad2c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268739"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "3433914"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
 
@@ -36,7 +36,39 @@ ms.locfileid: "3268739"
 > [!NOTE]
 > [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
 
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.12 的平台更新
+
+### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>包含无效字段引用的网格或组控件窗体扩展
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 网格或组控件上的数据组属性用于自动显示字段组的所有字段。 通过扩展添加的网格或组控件可能包含不再在字段组中定义的字段，或者可能缺少在字段组中定义的字段。 这可能会导致运行时行为不一致。 Finance and Operations 应用版本 10.0.12 的平台更新现在将此问题归类为编译器*警告*。 要解决此问题，请打开窗体扩展，然后保存它。
+| **被另一个功能取代？**   | 在以后的更新中，此编译器警告将替换为编译器错误。 |
+| **影响的产品区域**         | Visual Studio 开发工具 |
+| **部署选项**              | 所有 |
+| **状态**                         | 在 Finance and Operations 应用版本 10.0.12 的平台更新中引入了编译器警告。 |
+
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.11 的平台更新
+
+### <a name="explicit-whitelisting-for-self-service-environments"></a>自助服务环境的显式白名单
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | IP 白名单的流程已更改。 自助服务不再支持 IP 白名单。 |
+| **被另一个功能取代？**   | 有关详细信息，请参阅[配置 Azure Active Directory 条件访问](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access)。|
+| **影响的产品区域**         | 安全性 |
+| **部署选项**              | 云 |
+| **状态**                         | **已弃用：** 自助服务部署已完全弃用此功能。 |
+
+### <a name="visual-studio-2015"></a>Visual Studio2015
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 为了支持 Visual Studio 的最新版本，必须对 Visual Studio 的 X++ 扩展进行一些更改。 这些更改与 Visual Studio 2015 不兼容。 |
+| **被另一个功能取代？**   | Visual Studio 2017 将取代 Visual Studio 2015 成为已部署的必需版本。 |
+| **影响的产品区域**         | Visual Studio 开发工具 |
+| **部署选项**              | 所有 |
+| **状态**                         | 公布推出使用 Visual Studio 2017 的新虚拟机 (VM) 后，仅使用 Visual Studio 2015 的现有 VM 必须在 2021 年发布第 1 波前重新部署。 |
 
 ### <a name="field-groups-containing-invalid-field-references"></a>其中包含无效字段引用的字段组
 
