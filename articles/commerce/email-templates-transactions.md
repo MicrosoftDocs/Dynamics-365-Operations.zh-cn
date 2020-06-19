@@ -3,7 +3,7 @@ title: 为交易事件创建电子邮件模板
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中为交易事件创建，上传和配置电子邮件模板。
 author: stuharg
 manager: annbe
-ms.date: 05/11/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5cd928e90654cca639ed1e163be9192c0dffd9ad
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: a02839088addfa9b405af486f3b795eace1671cc
+ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367167"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3416571"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>为交易事件创建电子邮件模板
 
@@ -40,7 +40,7 @@ Dynamics 365 Commerce 提供用于发送电子邮件的现成解决方案以向�
 
 若要创建电子邮件模板，请执行以下步骤。
 
-1. 在 Commerce Headquarters 中，转到**Retail 和 Commerce \> Headquarters 设置 \> 组织电子邮件模板**。
+1. 在 Commerce Headquarters 中，转到**组织电子邮件模板**，它在 **Retail 和 Commerce \> 总部设置 \> 组织电子邮件模板**或**组织管理 \> 设置 \> 组织电子邮件模板**下。
 1. 选择**新建**。
 1. 在**常规**下，设置以下字段：
 

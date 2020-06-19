@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8d4185b958ed35e9d2bc764db8ea77b3a2f53c37
-ms.sourcegitcommit: 13c4a6f98ccce243d6befde90992aefcf562bdab
+ms.openlocfilehash: 36b8145764338b91bfedf96c43a7137a89831742
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029857"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410096"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>通过 Power Apps 和 Power Automate 扩展
 
@@ -58,4 +58,3 @@ ms.locfileid: "3029857"
 ## <a name="additional-resources"></a>其他资源
 
 [该 Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
-[在租户与环境之间迁移应用](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

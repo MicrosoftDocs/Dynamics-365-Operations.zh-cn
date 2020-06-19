@@ -3,12 +3,12 @@ title: 概览
 description: 在 Dynamics 365 Human Resources 中，休假和缺勤工作区提供用于创建新休假计划的灵活框架、管理请求的工作流，以及供员工请求休息时间的直观自助服务页面。
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/30/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
-ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
+ms.openlocfilehash: ec72d2d741f7f8428a7daa97bb982e9fc00b8c3f
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3325757"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428959"
 ---
 # <a name="overview"></a>概览
 
@@ -84,10 +84,9 @@ Dynamics 365 Human Resources 帮助您向工作人员提供出色的休假福利
 
 预览功能包括：
 
-- **休假暂停** - 可在 Human Resources 中暂停员工的休假和缺勤。 暂停休假将停止所选休假类型的休假应计。 如果应计流程后发生暂停，暂停休假将为员工的休假余额创建按比例调整。 您还可以在暂停员工休假时加入原因代码。 用户体验已更新以表明已暂停。 
+- **按公司或计划的休假应计** - 您可以对所有公司或单个公司运行应计流程。 您还可以对特定公司的特定休假和缺勤计划运行应计流程。 
 
-- **结转规则** - 可为转移了结转调整的结转余额指定结转休假类型。 例如，如果员工结转 10 天，则可为这 10 天选择其他休假类型。 
+- **购买休假** - 您可以为员工提交购买请求启用和创建购买休假政策。 员工可以提交购买请求，并让余额自动更新来反映请求。  
 
-- **包括调整的原因代码和注释** - 在调整员工的休假余额时，您可以包括原因代码和注释。 
+- **向批准的休假请求添加附件** - 您可以将附件添加到已经批准的休假请求中。 
 
-- **转换为休假和缺勤参数** - 现在，您只能使用休假和缺勤参数，而不能使用人力资源参数。 

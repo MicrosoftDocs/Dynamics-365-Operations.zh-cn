@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 67501a1fa65493a1a23eb6176ece5be98d6e4659
-ms.sourcegitcommit: 7fc0726c0a93ce6f4dafaad3232b4687f61cdc88
+ms.openlocfilehash: b3daa76385518ad4c7150fa93ce33be0351bfd57
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "3393000"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428820"
 ---
 # <a name="manage-leave-requests-in-teams"></a>在 Teams 中管理请假
 

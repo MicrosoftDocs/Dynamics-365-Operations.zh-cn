@@ -3,7 +3,7 @@ title: 零售销售价管理
 description: 本主题介绍在 Dynamics 365 Commerce 中创建和管理销售价的概念。
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 84d673bef8597bd7d376c5c74737d5c7db247759
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057479"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431993"
 ---
 # <a name="retail-sales-price-management"></a>零售销售价格管理
 
@@ -53,7 +53,9 @@ ms.locfileid: "3057479"
 
 创建价格组时，不应将一个价格组用于多种商业实体。 否则可能很难确定为何将特定价格或折扣应用于某个交易。
 
-正如图中红色虚线所示，Commerce 的确支持直接为客户设置价格组这项 Microsoft Dynamics 365 核心功能。 但是在此情况下，将仅获得销售价贸易协议。 如果要应用客户特定的价格，建议不要直接为客户设置价格组。 而应使用隶属关系。
+正如图中红色虚线所示，Commerce 的确支持直接为客户设置价格组这项 Microsoft Dynamics 365 核心功能。 但是在此情况下，将仅获得销售价贸易协议。 如果要应用客户特定的价格，建议不要直接为客户设置价格组。 而应使用隶属关系。 
+
+请注意，如果在客户上设置了价格组，那么此价格组将与为此客户创建的订单的销售订单头相关联。 如果用户更改订单头上的价格组，仅当前订单的旧价格组会替换为新价格组。 例如，旧价格组不会影响当前订单，但仍会在将来的订单中与客户关联。
 
 下面的章节提供有关使用价格组时可用于设置不同价格的商业实体的更多信息。 所有这些实体的价格和折扣配置过程分为两步。 可按照任何顺序执行这些步骤。 但是，合理的顺序是首先为实体设置价格组，因为此步骤可能是要在实施期间完成的一次性设置。 然后可以在创建价格和折扣后为这些价格和折扣单独设置价格组。
 
@@ -226,6 +228,7 @@ Microsoft SQL Server Express 因为成本原因（免费），通常用于渠道
 - 不支持按站点或站点和仓库存储维度设置价格。 如果仅在贸易协议上指定站点维度，定价引擎将忽略站点并将贸易协议应用于所有站点。 如果同时指定“站点”和“仓库”，此行为是未定义/未测试的，因为预计零售商会使用商店价格组来控制每个商店/仓库的价格。
 - 不支持基于属性的定价。
 - 不支持供应商折扣传递。
+- 标准 Supply Chain Management 定价引擎支持基于“要求装运日期”和“要求收货日期”以及当前日期计算定价。 但是，零售定价目前不支持这些值。 原因是对于 B2C 场景，客户不希望要求交货日期影响商品价格。 在某些情况下，零售商同时有 B2B 和 B2C 运营。 对于 B2B 运营，通常会根据交货日期更改价格。 这些零售商可以将 Supply Chain Management 定价用于 B2B 业务，将零售定价用于 B2C 业务。 仅当将应用程序用户被添加为呼叫中心用户时，零售定价才会生效，因此零售商可以分配某些将使用 Supply Chain Management 定价的用户，并分配几个将使用零售定价的用户，即这些用户应该添加为呼叫中心用户。 此外，**Commerce 参数 > 定价和折扣 > 杂项**部分的**使用今天的日期计算价格**属性必须打开。 这样，他们可以继续为 Supply Chain Management 定价的要求装运日期或要求收货日期使用应收帐款参数值，但零售定价将继续使用今天的日期进行定价计算。
 
 此外，**只有**定价引擎支持以下定价功能：
 

@@ -3,7 +3,7 @@ title: 雇用个性化产品建议
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中让个性化产品建议可以为客户所用。
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9b847a67306861052a360e0137e2e257b056888e
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 0e49b4db17ffd792e8dd536a1671773253c74d71
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154264"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404132"
 ---
 # <a name="enable-personalized-recommendations"></a>启用个性化建议
 
@@ -110,7 +110,7 @@ ms.locfileid: "3154264"
 
 [产品建议概览](product-recommendations.md)
 
-[在 Dynamics 365 Commerce 环境中启用 ADLS](enable-adls-environment.md)
+[在 Dynamics 365 Commerce 环境中启用 Azure Data Lake Storage](enable-adls-environment.md)
 
 [启用产品建议](enable-product-recommendations.md)
 

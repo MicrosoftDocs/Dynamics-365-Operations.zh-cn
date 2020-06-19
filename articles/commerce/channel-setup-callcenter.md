@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 14cee020cc8aead627180343c82bf23534ae83c4
-ms.sourcegitcommit: 0681a00d60c9f8cc8f7b9888b8c5ddf07279fc04
+ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
+ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3131723"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410405"
 ---
 # <a name="set-up-a-call-center-channel"></a>设置呼叫中心渠道
 
@@ -34,7 +34,7 @@ ms.locfileid: "3131723"
 ## <a name="overview"></a>概览
 
 
-在 Dynamics 365 Commerce 中，呼叫中心是一种可在应用程序中定义的零售渠道。 为呼叫中心实体定义渠道使系统能够将特定数据和订单处理默认值绑定到销售订单。 虽然一家公司可以在 Commerce 中定义多个呼叫中心渠道，还是请务必注意，只能将一位用户链接到一个呼叫中心渠道。 
+在 Dynamics 365 Commerce 中，呼叫中心是一种可在应用程序中定义的 Commerce 渠道。 为呼叫中心实体定义渠道使系统能够将特定数据和订单处理默认值绑定到销售订单。 虽然一家公司可以在 Commerce 中定义多个呼叫中心渠道，还是请务必注意，只能将一位用户链接到一个呼叫中心渠道。 
 
 在创建新呼叫中心渠道之前，请确保已完成[渠道设置先决条件](channels-prerequisites.md)。
 
@@ -84,7 +84,7 @@ ms.locfileid: "3131723"
 
 下图显示了现金支付方式的示例。
 
-![付款方法示例](media/channel-setup-retail-5.png)
+![付款方法示例](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>设置交货方式
 
