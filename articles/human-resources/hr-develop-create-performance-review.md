@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd
+ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Core, Operations
@@ -16,65 +16,65 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22f3e82e7a1ebba689c1aa1ebbe75603a5c09188
-ms.sourcegitcommit: f06e48c7d487299aa4e2cff3e8f60cb8be0790df
+ms.openlocfilehash: 99825dd580d617bb47b4f0ece784afbf6573ae8a
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3334675"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3430455"
 ---
-# <a name="create-performance-reviews"></a><span data-ttu-id="8419f-103">创建绩效审核</span><span class="sxs-lookup"><span data-stu-id="8419f-103">Create performance reviews</span></span>
+# <a name="create-performance-reviews"></a><span data-ttu-id="53af0-103">创建绩效审核</span><span class="sxs-lookup"><span data-stu-id="53af0-103">Create performance reviews</span></span>
 
 
-<span data-ttu-id="8419f-104">此主题介绍如何创建绩效审核和介绍审核各部分的目的。</span><span class="sxs-lookup"><span data-stu-id="8419f-104">This topic explains how to create a performance review and describes the purpose for each section of the review.</span></span> <span data-ttu-id="8419f-105">创建该过程的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="8419f-105">This procedure was created using the USMF demo data company.</span></span>
+<span data-ttu-id="53af0-104">此主题介绍如何创建绩效审核和介绍审核各部分的目的。</span><span class="sxs-lookup"><span data-stu-id="53af0-104">This topic explains how to create a performance review and describes the purpose for each section of the review.</span></span> <span data-ttu-id="53af0-105">创建该过程的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="53af0-105">This procedure was created using the USMF demo data company.</span></span>
 
-1. <span data-ttu-id="8419f-106">在主页中，选择**员工自助服务**工作区。</span><span class="sxs-lookup"><span data-stu-id="8419f-106">On the home page, select the **Employee self service** workspace.</span></span>
-2. <span data-ttu-id="8419f-107">选择**新审核**创建新审核。</span><span class="sxs-lookup"><span data-stu-id="8419f-107">Select **New review** to create a new review.</span></span>
-3. <span data-ttu-id="8419f-108">在**审核类型**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8419f-108">In the **Review type** field, enter or select a value.</span></span>
-4. <span data-ttu-id="8419f-109">在**绩效期间**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8419f-109">In the **Performance period** field, enter or select a value.</span></span>
-5. <span data-ttu-id="8419f-110">在**结束日期**字段中，输入日期。</span><span class="sxs-lookup"><span data-stu-id="8419f-110">In the **End date** field, enter a date.</span></span>
-6. <span data-ttu-id="8419f-111">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="8419f-111">Select **OK**.</span></span> <span data-ttu-id="8419f-112">您还可以从模板创建审核。</span><span class="sxs-lookup"><span data-stu-id="8419f-112">You can also create a review from a template.</span></span> <span data-ttu-id="8419f-113">这是最好的审核创建方法，因为每个部分中都包含启动审核所需信息。</span><span class="sxs-lookup"><span data-stu-id="8419f-113">This is the best way to create a review because each section will contain the information that you need to start a review.</span></span>  
-7. <span data-ttu-id="8419f-114">可以显示或隐藏附件选项卡之类选项卡：</span><span class="sxs-lookup"><span data-stu-id="8419f-114">You can show or hide tabs such as the attachments tab:</span></span>
+1. <span data-ttu-id="53af0-106">在主页中，选择**员工自助服务**工作区。</span><span class="sxs-lookup"><span data-stu-id="53af0-106">On the home page, select the **Employee self service** workspace.</span></span>
+2. <span data-ttu-id="53af0-107">选择**新审核**创建新审核。</span><span class="sxs-lookup"><span data-stu-id="53af0-107">Select **New review** to create a new review.</span></span>
+3. <span data-ttu-id="53af0-108">在**审核类型**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="53af0-108">In the **Review type** field, enter or select a value.</span></span>
+4. <span data-ttu-id="53af0-109">在**绩效期间**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="53af0-109">In the **Performance period** field, enter or select a value.</span></span>
+5. <span data-ttu-id="53af0-110">在**结束日期**字段中，输入日期。</span><span class="sxs-lookup"><span data-stu-id="53af0-110">In the **End date** field, enter a date.</span></span>
+6. <span data-ttu-id="53af0-111">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="53af0-111">Select **OK**.</span></span> <span data-ttu-id="53af0-112">您还可以从模板创建审核。</span><span class="sxs-lookup"><span data-stu-id="53af0-112">You can also create a review from a template.</span></span> <span data-ttu-id="53af0-113">这是最好的审核创建方法，因为每个部分中都包含启动审核所需信息。</span><span class="sxs-lookup"><span data-stu-id="53af0-113">This is the best way to create a review because each section will contain the information that you need to start a review.</span></span>  
+7. <span data-ttu-id="53af0-114">可以显示或隐藏附件选项卡之类选项卡：</span><span class="sxs-lookup"><span data-stu-id="53af0-114">You can show or hide tabs such as the attachments tab:</span></span>
 
-    1. <span data-ttu-id="8419f-115">在操作窗格上，选择**显示部分**以打开对话框菜单。</span><span class="sxs-lookup"><span data-stu-id="8419f-115">On the Action Pane, select **Show sections** to open the dialog menu.</span></span>
-    1. <span data-ttu-id="8419f-116">在**显示附件**字段中选择**是** 或**否**以显示或隐藏附件选项卡。</span><span class="sxs-lookup"><span data-stu-id="8419f-116">Select **Yes** or **No** in the **Show attachments** field to show or hide the attachments tab.</span></span>
-    1. <span data-ttu-id="8419f-117">选择**保存**。</span><span class="sxs-lookup"><span data-stu-id="8419f-117">Select **Save**.</span></span>
+    1. <span data-ttu-id="53af0-115">在操作窗格上，选择**显示部分**以打开对话框菜单。</span><span class="sxs-lookup"><span data-stu-id="53af0-115">On the Action Pane, select **Show sections** to open the dialog menu.</span></span>
+    1. <span data-ttu-id="53af0-116">在**显示附件**字段中选择**是** 或**否**以显示或隐藏附件选项卡。</span><span class="sxs-lookup"><span data-stu-id="53af0-116">Select **Yes** or **No** in the **Show attachments** field to show or hide the attachments tab.</span></span>
+    1. <span data-ttu-id="53af0-117">选择**保存**。</span><span class="sxs-lookup"><span data-stu-id="53af0-117">Select **Save**.</span></span>
 
-8. <span data-ttu-id="8419f-118">选择**添加要审核的目标**以添加目标。</span><span class="sxs-lookup"><span data-stu-id="8419f-118">Select **Add goal to review** to add a goal.</span></span> <span data-ttu-id="8419f-119">完成后，选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="8419f-119">Select **OK** when finished.</span></span>
-9. <span data-ttu-id="8419f-120">选择**添加能力**以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="8419f-120">Select **Add competency** to open the drop dialog.</span></span>
-10. <span data-ttu-id="8419f-121">在**标题**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="8419f-121">In the **Title** field, type a value.</span></span>
-11. <span data-ttu-id="8419f-122">在**描述**字段中，输入 `Increase customer skills by working with the support team`。</span><span class="sxs-lookup"><span data-stu-id="8419f-122">In the **Description** field, enter `Increase customer skills by working with the support team`.</span></span>
-12. <span data-ttu-id="8419f-123">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="8419f-123">Select **OK**.</span></span>
-13. <span data-ttu-id="8419f-124">选择**全部折叠**。</span><span class="sxs-lookup"><span data-stu-id="8419f-124">Select **Collapse all**.</span></span>
-14. <span data-ttu-id="8419f-125">选择**全部展开**。</span><span class="sxs-lookup"><span data-stu-id="8419f-125">Select **Expand all**.</span></span>
-15. <span data-ttu-id="8419f-126">选择**添加注释**。</span><span class="sxs-lookup"><span data-stu-id="8419f-126">Select **Add comment**.</span></span>
-16. <span data-ttu-id="8419f-127">选择**过帐**。</span><span class="sxs-lookup"><span data-stu-id="8419f-127">Select **Post**.</span></span>
-17. <span data-ttu-id="8419f-128">选择**度量**选项卡。</span><span class="sxs-lookup"><span data-stu-id="8419f-128">Select the **Measurements** tab.</span></span>
-18. <span data-ttu-id="8419f-129">选择**添加度量**以打开对话框菜单。</span><span class="sxs-lookup"><span data-stu-id="8419f-129">Select **Add measurement** to open the dialog menu.</span></span>
-19. <span data-ttu-id="8419f-130">在**度量**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8419f-130">In the **Measurement** field, enter or select a value.</span></span>
-26. <span data-ttu-id="8419f-131">在**目标金额**字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="8419f-131">In the **Target amount** field, enter a number.</span></span>
-20. <span data-ttu-id="8419f-132">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="8419f-132">Select **OK**.</span></span>
-21. <span data-ttu-id="8419f-133">选择**活动**选项卡。</span><span class="sxs-lookup"><span data-stu-id="8419f-133">Select the **Activities** tab.</span></span>
-22. <span data-ttu-id="8419f-134">选择**添加**。</span><span class="sxs-lookup"><span data-stu-id="8419f-134">Select **Add**.</span></span>
-23. <span data-ttu-id="8419f-135">在**标题**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="8419f-135">In the **Title** field, type a value.</span></span>
-24. <span data-ttu-id="8419f-136">在**描述**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="8419f-136">In the **Description** field, type a value.</span></span>
-25. <span data-ttu-id="8419f-137">在**开始日期**字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="8419f-137">In the **Start date** field, enter a date.</span></span>
-26. <span data-ttu-id="8419f-138">在**完成日期**字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="8419f-138">In the **Date completed** field, enter a date.</span></span>
-27. <span data-ttu-id="8419f-139">在**开发计划**字段中，选择**是**。</span><span class="sxs-lookup"><span data-stu-id="8419f-139">Select **Yes** in the **Development plan** field.</span></span>
-28. <span data-ttu-id="8419f-140">在**关键字**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="8419f-140">In the **Keywords** field, type a value.</span></span>
-29. <span data-ttu-id="8419f-141">选择**保存**。</span><span class="sxs-lookup"><span data-stu-id="8419f-141">Select **Save**.</span></span>
-30. <span data-ttu-id="8419f-142">选择**等级**选项卡。</span><span class="sxs-lookup"><span data-stu-id="8419f-142">Select the **Ratings** tab.</span></span>  
+8. <span data-ttu-id="53af0-118">选择**添加要审核的目标**以添加目标。</span><span class="sxs-lookup"><span data-stu-id="53af0-118">Select **Add goal to review** to add a goal.</span></span> <span data-ttu-id="53af0-119">完成后，选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="53af0-119">Select **OK** when finished.</span></span>
+9. <span data-ttu-id="53af0-120">选择**添加能力**以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="53af0-120">Select **Add competency** to open the drop dialog.</span></span>
+10. <span data-ttu-id="53af0-121">在**标题**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="53af0-121">In the **Title** field, type a value.</span></span>
+11. <span data-ttu-id="53af0-122">在**描述**字段中，输入 `Increase customer skills by working with the support team`。</span><span class="sxs-lookup"><span data-stu-id="53af0-122">In the **Description** field, enter `Increase customer skills by working with the support team`.</span></span>
+12. <span data-ttu-id="53af0-123">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="53af0-123">Select **OK**.</span></span>
+13. <span data-ttu-id="53af0-124">选择**全部折叠**。</span><span class="sxs-lookup"><span data-stu-id="53af0-124">Select **Collapse all**.</span></span>
+14. <span data-ttu-id="53af0-125">选择**全部展开**。</span><span class="sxs-lookup"><span data-stu-id="53af0-125">Select **Expand all**.</span></span>
+15. <span data-ttu-id="53af0-126">选择**添加注释**。</span><span class="sxs-lookup"><span data-stu-id="53af0-126">Select **Add comment**.</span></span>
+16. <span data-ttu-id="53af0-127">选择**过帐**。</span><span class="sxs-lookup"><span data-stu-id="53af0-127">Select **Post**.</span></span>
+17. <span data-ttu-id="53af0-128">选择**度量**选项卡。</span><span class="sxs-lookup"><span data-stu-id="53af0-128">Select the **Measurements** tab.</span></span>
+18. <span data-ttu-id="53af0-129">选择**添加度量**以打开对话框菜单。</span><span class="sxs-lookup"><span data-stu-id="53af0-129">Select **Add measurement** to open the dialog menu.</span></span>
+19. <span data-ttu-id="53af0-130">在**度量**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="53af0-130">In the **Measurement** field, enter or select a value.</span></span>
+26. <span data-ttu-id="53af0-131">在**目标金额**字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="53af0-131">In the **Target amount** field, enter a number.</span></span>
+20. <span data-ttu-id="53af0-132">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="53af0-132">Select **OK**.</span></span>
+21. <span data-ttu-id="53af0-133">选择**活动**选项卡。</span><span class="sxs-lookup"><span data-stu-id="53af0-133">Select the **Activities** tab.</span></span>
+22. <span data-ttu-id="53af0-134">选择**添加**。</span><span class="sxs-lookup"><span data-stu-id="53af0-134">Select **Add**.</span></span>
+23. <span data-ttu-id="53af0-135">在**标题**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="53af0-135">In the **Title** field, type a value.</span></span>
+24. <span data-ttu-id="53af0-136">在**描述**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="53af0-136">In the **Description** field, type a value.</span></span>
+25. <span data-ttu-id="53af0-137">在**开始日期**字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="53af0-137">In the **Start date** field, enter a date.</span></span>
+26. <span data-ttu-id="53af0-138">在**完成日期**字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="53af0-138">In the **Date completed** field, enter a date.</span></span>
+27. <span data-ttu-id="53af0-139">在**开发计划**字段中，选择**是**。</span><span class="sxs-lookup"><span data-stu-id="53af0-139">Select **Yes** in the **Development plan** field.</span></span>
+28. <span data-ttu-id="53af0-140">在**关键字**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="53af0-140">In the **Keywords** field, type a value.</span></span>
+29. <span data-ttu-id="53af0-141">选择**保存**。</span><span class="sxs-lookup"><span data-stu-id="53af0-141">Select **Save**.</span></span>
+30. <span data-ttu-id="53af0-142">选择**等级**选项卡。</span><span class="sxs-lookup"><span data-stu-id="53af0-142">Select the **Ratings** tab.</span></span>  
 
-    - <span data-ttu-id="8419f-143">**等级详细信息**快速选项卡允许员工对自己进行评分，并允许经理对员工进行评分。</span><span class="sxs-lookup"><span data-stu-id="8419f-143">The **Rating details** FastTab allows employees to rate themselves and the manager to rate the employee.</span></span> <span data-ttu-id="8419f-144">如果使用权重，将自动计算分数的权重值。</span><span class="sxs-lookup"><span data-stu-id="8419f-144">If weights are used, the weight value of the scores will be calculated automatically.</span></span>  
-    - <span data-ttu-id="8419f-145">要查看此部分，请启用用于显示员工等级的参数设置。</span><span class="sxs-lookup"><span data-stu-id="8419f-145">To view this section, enable the parameter settings for showing employee ratings.</span></span>  
+    - <span data-ttu-id="53af0-143">**等级详细信息**快速选项卡允许员工对自己进行评分，并允许经理对员工进行评分。</span><span class="sxs-lookup"><span data-stu-id="53af0-143">The **Rating details** FastTab allows employees to rate themselves and the manager to rate the employee.</span></span> <span data-ttu-id="53af0-144">如果使用权重，将自动计算分数的权重值。</span><span class="sxs-lookup"><span data-stu-id="53af0-144">If weights are used, the weight value of the scores will be calculated automatically.</span></span>  
+    - <span data-ttu-id="53af0-145">要查看此部分，请启用用于显示员工等级的参数设置。</span><span class="sxs-lookup"><span data-stu-id="53af0-145">To view this section, enable the parameter settings for showing employee ratings.</span></span>  
 
-31. <span data-ttu-id="8419f-146">选择**签核**选项卡。如果审核使用工作流，则仅在完成工作流之后，才显示签核。</span><span class="sxs-lookup"><span data-stu-id="8419f-146">Select the **Sign offs** tab. If the review uses workflow, then the signoffs will appear only after the workflow is complete.</span></span> <span data-ttu-id="8419f-147">如果不使用工作流，则同时在此处列出工作人员和经理。</span><span class="sxs-lookup"><span data-stu-id="8419f-147">If no workflow is used, then both the worker and the manager are listed here.</span></span> <span data-ttu-id="8419f-148">将根据审核类型的设置选中所需复选框。</span><span class="sxs-lookup"><span data-stu-id="8419f-148">The required check box is selected based on the settings of the review type.</span></span>  
-32. <span data-ttu-id="8419f-149">选择**常规**选项卡。</span><span class="sxs-lookup"><span data-stu-id="8419f-149">Select the **General** tab.</span></span>
+31. <span data-ttu-id="53af0-146">选择**签核**选项卡。如果审核使用工作流，则仅在完成工作流之后，才显示签核。</span><span class="sxs-lookup"><span data-stu-id="53af0-146">Select the **Sign offs** tab. If the review uses workflow, then the signoffs will appear only after the workflow is complete.</span></span> <span data-ttu-id="53af0-147">如果不使用工作流，则同时在此处列出工作人员和经理。</span><span class="sxs-lookup"><span data-stu-id="53af0-147">If no workflow is used, then both the worker and the manager are listed here.</span></span> <span data-ttu-id="53af0-148">将根据审核类型的设置选中所需复选框。</span><span class="sxs-lookup"><span data-stu-id="53af0-148">The required check box is selected based on the settings of the review type.</span></span>  
+32. <span data-ttu-id="53af0-149">选择**常规**选项卡。</span><span class="sxs-lookup"><span data-stu-id="53af0-149">Select the **General** tab.</span></span>
 
-    - <span data-ttu-id="8419f-150">绩效期间创建默认开始和结束日期。</span><span class="sxs-lookup"><span data-stu-id="8419f-150">The performance period creates the default start and end dates.</span></span> <span data-ttu-id="8419f-151">这些日期可编辑。</span><span class="sxs-lookup"><span data-stu-id="8419f-151">Those dates are editable.</span></span>  
-    - <span data-ttu-id="8419f-152">状态控制对审核的访问。</span><span class="sxs-lookup"><span data-stu-id="8419f-152">The statuses control the access to the review.</span></span> <span data-ttu-id="8419f-153">**未开始**状态允许任何人编辑审核。</span><span class="sxs-lookup"><span data-stu-id="8419f-153">The **Not started** status allows everyone to edit the review.</span></span> <span data-ttu-id="8419f-154">**进行中**状态仅允许员工查看和编辑审核。</span><span class="sxs-lookup"><span data-stu-id="8419f-154">The **In progress** status allows only the employee to view and edit the review.</span></span> <span data-ttu-id="8419f-155">**为审核做准备**仅允许管理员查看和编辑审核。</span><span class="sxs-lookup"><span data-stu-id="8419f-155">**Ready for review** allows only the manager to view and edit the review.</span></span> <span data-ttu-id="8419f-156">**最终审核**状态使员工和经理都可以查看审核，还允许进行编辑（如果在审核类型中进行了设置）。</span><span class="sxs-lookup"><span data-stu-id="8419f-156">**Final review** status allows both the employee and manager to view the review and also edit it if set up in the review type.</span></span> <span data-ttu-id="8419f-157">**已完成**和**已取消**状态会使审核为只读。</span><span class="sxs-lookup"><span data-stu-id="8419f-157">The **Completed** and **Canceled** statuses make the review read only.</span></span> <span data-ttu-id="8419f-158">如果审核被**拒绝**并发回给员工，则员工和经理都可以进行必要的编辑，以便员工可以重新提交。</span><span class="sxs-lookup"><span data-stu-id="8419f-158">If a review is **Rejected** and sent back to the employee, both the employee and manager can make necessary edits so the employee can resubmit.</span></span>
+    - <span data-ttu-id="53af0-150">绩效期间创建默认开始和结束日期。</span><span class="sxs-lookup"><span data-stu-id="53af0-150">The performance period creates the default start and end dates.</span></span> <span data-ttu-id="53af0-151">这些日期可编辑。</span><span class="sxs-lookup"><span data-stu-id="53af0-151">Those dates are editable.</span></span>  
+    - <span data-ttu-id="53af0-152">状态控制对审核的访问。</span><span class="sxs-lookup"><span data-stu-id="53af0-152">The statuses control the access to the review.</span></span> <span data-ttu-id="53af0-153">**未开始**状态允许任何人编辑审核。</span><span class="sxs-lookup"><span data-stu-id="53af0-153">The **Not started** status allows everyone to edit the review.</span></span> <span data-ttu-id="53af0-154">**进行中**状态仅允许员工查看和编辑审核。</span><span class="sxs-lookup"><span data-stu-id="53af0-154">The **In progress** status allows only the employee to view and edit the review.</span></span> <span data-ttu-id="53af0-155">**为审核做准备**仅允许管理员查看和编辑审核。</span><span class="sxs-lookup"><span data-stu-id="53af0-155">**Ready for review** allows only the manager to view and edit the review.</span></span> <span data-ttu-id="53af0-156">**最终审核**状态使员工和经理都可以查看审核，还允许进行编辑（如果在审核类型中进行了设置）。</span><span class="sxs-lookup"><span data-stu-id="53af0-156">**Final review** status allows both the employee and manager to view the review and also edit it if set up in the review type.</span></span> <span data-ttu-id="53af0-157">**已完成**和**已取消**状态会使审核为只读。</span><span class="sxs-lookup"><span data-stu-id="53af0-157">The **Completed** and **Canceled** statuses make the review read only.</span></span> <span data-ttu-id="53af0-158">如果审核被**拒绝**并发回给员工，则员工和经理都可以进行必要的编辑，以便员工可以重新提交。</span><span class="sxs-lookup"><span data-stu-id="53af0-158">If a review is **Rejected** and sent back to the employee, both the employee and manager can make necessary edits so the employee can resubmit.</span></span>
 
-33. <span data-ttu-id="8419f-159">在**概述**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="8419f-159">In the **Overview** field, type a value.</span></span>
-34. <span data-ttu-id="8419f-160">选择**审核**选项卡。随着审核经历这些状态，员工和经理可以为每个目标或能力添加注释。</span><span class="sxs-lookup"><span data-stu-id="8419f-160">Select the **Review** tab. As the review moves through the statuses, the employee and manager can add comments for each goal or competency.</span></span>  
-35. <span data-ttu-id="8419f-161">选择**签核**选项卡。工作人员和经理可以签核审核。</span><span class="sxs-lookup"><span data-stu-id="8419f-161">Select the **Sign offs** tab. The worker and manager can sign off on the review.</span></span> <span data-ttu-id="8419f-162">当所有必需签核均已完成时，状态将更改为**已完成**，并且再也不能执行更改。</span><span class="sxs-lookup"><span data-stu-id="8419f-162">When all required signoffs are complete, the status is changed to **Completed** and no more changes can be made.</span></span>  
+33. <span data-ttu-id="53af0-159">在**概述**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="53af0-159">In the **Overview** field, type a value.</span></span>
+34. <span data-ttu-id="53af0-160">选择**审核**选项卡。随着审核经历这些状态，员工和经理可以为每个目标或能力添加注释。</span><span class="sxs-lookup"><span data-stu-id="53af0-160">Select the **Review** tab. As the review moves through the statuses, the employee and manager can add comments for each goal or competency.</span></span>  
+35. <span data-ttu-id="53af0-161">选择**签核**选项卡。工作人员和经理可以签核审核。</span><span class="sxs-lookup"><span data-stu-id="53af0-161">Select the **Sign offs** tab. The worker and manager can sign off on the review.</span></span> <span data-ttu-id="53af0-162">当所有必需签核均已完成时，状态将更改为**已完成**，并且再也不能执行更改。</span><span class="sxs-lookup"><span data-stu-id="53af0-162">When all required signoffs are complete, the status is changed to **Completed** and no more changes can be made.</span></span>  
 

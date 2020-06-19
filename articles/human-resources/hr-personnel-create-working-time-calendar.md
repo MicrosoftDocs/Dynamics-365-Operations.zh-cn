@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalendarDate
+ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalendarDate, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Core, Operations
@@ -16,30 +16,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 38c0482c62e86e3e12e4bdd67f6d8f090ddfbfeb
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7f4960f895ac6a9e6284119a998af540523785ed
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008201"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3430363"
 ---
-# <a name="create-calendars-and-generate-working-times"></a><span data-ttu-id="b7b54-104">创建日历并生成工作时间</span><span class="sxs-lookup"><span data-stu-id="b7b54-104">Create calendars and generate working times</span></span>
+# <a name="create-calendars-and-generate-working-times"></a><span data-ttu-id="1c1ec-104">创建日历并生成工作时间</span><span class="sxs-lookup"><span data-stu-id="1c1ec-104">Create calendars and generate working times</span></span>
 
 
 
-<span data-ttu-id="b7b54-105">日历描述运营资源的产能和工作时间。</span><span class="sxs-lookup"><span data-stu-id="b7b54-105">Calendars describe the capacity and working times of operations resources.</span></span> <span data-ttu-id="b7b54-106">本文介绍如何定义基于工作时间模板的工作日历。</span><span class="sxs-lookup"><span data-stu-id="b7b54-106">This article explains how to define a work calendar based on a working time template.</span></span> <span data-ttu-id="b7b54-107">您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。</span><span class="sxs-lookup"><span data-stu-id="b7b54-107">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
+<span data-ttu-id="1c1ec-105">日历描述运营资源的产能和工作时间。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-105">Calendars describe the capacity and working times of operations resources.</span></span> <span data-ttu-id="1c1ec-106">本文介绍如何定义基于工作时间模板的工作日历。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-106">This article explains how to define a work calendar based on a working time template.</span></span> <span data-ttu-id="1c1ec-107">您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-107">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 
-1. <span data-ttu-id="b7b54-108">在主页上，选择**资源生命周期管理**。</span><span class="sxs-lookup"><span data-stu-id="b7b54-108">On the home page, select **Resource lifecycle management**.</span></span>
-2. <span data-ttu-id="b7b54-109">选择**日历**。</span><span class="sxs-lookup"><span data-stu-id="b7b54-109">Select **Calendars**.</span></span>
-3. <span data-ttu-id="b7b54-110">选择**新建**。</span><span class="sxs-lookup"><span data-stu-id="b7b54-110">Select **New**.</span></span>
-4. <span data-ttu-id="b7b54-111">在**日历**字段中，为日历分类。</span><span class="sxs-lookup"><span data-stu-id="b7b54-111">In the **Calendar** field, classify your calendar.</span></span> <span data-ttu-id="b7b54-112">这是日历的 ID，用作分配日历时的参考，如分配至运营资源或资源组。</span><span class="sxs-lookup"><span data-stu-id="b7b54-112">This is the ID of the calendar, which is used as a reference when assigning calendars, such as to an operations resource or a resource group.</span></span>  
-5. <span data-ttu-id="b7b54-113">在**名称**字段中，为日历命名。</span><span class="sxs-lookup"><span data-stu-id="b7b54-113">In the **Name** field, name your calendar.</span></span>
-6. <span data-ttu-id="b7b54-114">在**标准工作日工时数**字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="b7b54-114">In the **Standard work day in hours** field, enter a number.</span></span>
-7. <span data-ttu-id="b7b54-115">确保选择行，然后从操作窗格选择**工作时间**。</span><span class="sxs-lookup"><span data-stu-id="b7b54-115">Make sure the row is selected, then select **Working times** from the Action Pane.</span></span>
-8. <span data-ttu-id="b7b54-116">选择**设计工作时间**。</span><span class="sxs-lookup"><span data-stu-id="b7b54-116">Select **Compose working times**.</span></span> <span data-ttu-id="b7b54-117">生成您希望能够安排工作的每日工时。</span><span class="sxs-lookup"><span data-stu-id="b7b54-117">Generate working hours for each day in the period where you want to be able to schedule work.</span></span> <span data-ttu-id="b7b54-118">随着时间的推移，您可以生成其他期间的工作时间。</span><span class="sxs-lookup"><span data-stu-id="b7b54-118">As time goes by, you can generate working times for additional periods.</span></span>  
-9. <span data-ttu-id="b7b54-119">在**开始日期**字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="b7b54-119">In the **From date** field, enter a date.</span></span> <span data-ttu-id="b7b54-120">这是日历必须打开的第一天。</span><span class="sxs-lookup"><span data-stu-id="b7b54-120">This is the first day that this calendar must be open.</span></span>  
-10. <span data-ttu-id="b7b54-121">在**结束日期**字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="b7b54-121">In the **To date field**, enter a date.</span></span> <span data-ttu-id="b7b54-122">这是日历打开的最后一天。</span><span class="sxs-lookup"><span data-stu-id="b7b54-122">This is the last day that this calendar is open.</span></span>  
-11. <span data-ttu-id="b7b54-123">在**工作时间模板**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="b7b54-123">In the **Working time template** field, enter or select a value.</span></span> <span data-ttu-id="b7b54-124">工作时间模板定义一周每天的工时。</span><span class="sxs-lookup"><span data-stu-id="b7b54-124">The working time template defines the working hours for each day of the week.</span></span>  
-12. <span data-ttu-id="b7b54-125">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="b7b54-125">Select **OK**.</span></span>
-13. <span data-ttu-id="b7b54-126">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="b7b54-126">Close the page.</span></span>
+1. <span data-ttu-id="1c1ec-108">在主页上，选择**资源生命周期管理**。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-108">On the home page, select **Resource lifecycle management**.</span></span>
+2. <span data-ttu-id="1c1ec-109">选择**日历**。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-109">Select **Calendars**.</span></span>
+3. <span data-ttu-id="1c1ec-110">选择**新建**。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-110">Select **New**.</span></span>
+4. <span data-ttu-id="1c1ec-111">在**日历**字段中，为日历分类。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-111">In the **Calendar** field, classify your calendar.</span></span> <span data-ttu-id="1c1ec-112">这是日历的 ID，用作分配日历时的参考，如分配至运营资源或资源组。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-112">This is the ID of the calendar, which is used as a reference when assigning calendars, such as to an operations resource or a resource group.</span></span>  
+5. <span data-ttu-id="1c1ec-113">在**名称**字段中，为日历命名。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-113">In the **Name** field, name your calendar.</span></span>
+6. <span data-ttu-id="1c1ec-114">在**标准工作日工时数**字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-114">In the **Standard work day in hours** field, enter a number.</span></span>
+7. <span data-ttu-id="1c1ec-115">确保选择行，然后从操作窗格选择**工作时间**。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-115">Make sure the row is selected, then select **Working times** from the Action Pane.</span></span>
+8. <span data-ttu-id="1c1ec-116">选择**设计工作时间**。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-116">Select **Compose working times**.</span></span> <span data-ttu-id="1c1ec-117">生成您希望能够安排工作的每日工时。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-117">Generate working hours for each day in the period where you want to be able to schedule work.</span></span> <span data-ttu-id="1c1ec-118">随着时间的推移，您可以生成其他期间的工作时间。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-118">As time goes by, you can generate working times for additional periods.</span></span>  
+9. <span data-ttu-id="1c1ec-119">在**开始日期**字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-119">In the **From date** field, enter a date.</span></span> <span data-ttu-id="1c1ec-120">这是日历必须打开的第一天。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-120">This is the first day that this calendar must be open.</span></span>  
+10. <span data-ttu-id="1c1ec-121">在**结束日期**字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-121">In the **To date field**, enter a date.</span></span> <span data-ttu-id="1c1ec-122">这是日历打开的最后一天。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-122">This is the last day that this calendar is open.</span></span>  
+11. <span data-ttu-id="1c1ec-123">在**工作时间模板**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-123">In the **Working time template** field, enter or select a value.</span></span> <span data-ttu-id="1c1ec-124">工作时间模板定义一周每天的工时。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-124">The working time template defines the working hours for each day of the week.</span></span>  
+12. <span data-ttu-id="1c1ec-125">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-125">Select **OK**.</span></span>
+13. <span data-ttu-id="1c1ec-126">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="1c1ec-126">Close the page.</span></span>
 
