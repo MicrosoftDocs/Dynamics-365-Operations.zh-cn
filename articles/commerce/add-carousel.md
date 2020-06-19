@@ -3,7 +3,7 @@ title: 传送模块
 description: 此主题介绍传送模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f399e4c5618b65b781fdd3ec835e841614579313
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 35aaf35419a8c5b83b2a3e1136a02200bf347c6b
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269720"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411288"
 ---
 # <a name="carousel-module"></a>传送模块
 
-
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 此主题介绍传送模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
@@ -44,6 +44,10 @@ ms.locfileid: "3269720"
 - 可在产品详细信息页中使用内部有多个促销模块的传送。
 - 可在任何市场营销页中使用传送来促销多个促销或产品。
 
+下图显示了主页上使用的传送模块的示例。 此传送模块包含多个内容块项。
+
+![传送模块的示例](./media/Hero.PNG)
+
 ## <a name="carousel-module-properties"></a>传送模块属性
 
 | 属性名称             | 值                 | 说明 |
@@ -58,7 +62,7 @@ ms.locfileid: "3269720"
 
 若要向新页面添加传送模块和设置必需的属性，请执行以下步骤。
 
-1. 选择**新建**以创建页面模板。
+1. 转到**模板**，选择**新建**创建新模板。
 1. 在**新建模板**对话框的**模板名称**下，输入**传送模板**，然后选择**确定**。
 1. 在**正文**插槽中，添加一个**默认页面**模块。
 1. 选择**完成编辑**签入模板，然后选择**发布**进行发布。  

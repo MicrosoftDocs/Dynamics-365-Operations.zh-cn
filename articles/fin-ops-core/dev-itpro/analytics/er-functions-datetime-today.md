@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7e9917dcdc45a52e0ad490f5fa194d5390cc437
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 94ef15d1971287e8bf13944bc8f693b567950031
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917411"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411429"
 ---
-# <a name="TODAY">TODAY ER 函数</a>
+# <a name=""></a><a name="TODAY">TODAY ER 函数</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,7 +33,7 @@ ms.locfileid: "2917411"
 
 ## <a name="syntax"></a>语法
 
-```
+```xpp
 TODAY ()
 ```
 

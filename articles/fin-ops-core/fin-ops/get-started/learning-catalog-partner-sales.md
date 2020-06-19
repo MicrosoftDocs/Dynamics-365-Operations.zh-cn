@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d2c029f6e5654f0da399ee7fc26ead6d787e59f5
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 69db88dd5a30d35cbc2c5b46f0ab3fbce057f799
+ms.sourcegitcommit: 840230f3dc500852791953d05c2737dd539ed0b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278931"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3418507"
 ---
 # <a name="microsoft-partner-sales-and-marketing-learning-catalog"></a>Microsoft 合作伙伴销售和市场营销学习目录
 
@@ -31,7 +31,7 @@ ms.locfileid: "3278931"
 | [了解 Microsoft Dynamics 365 和 Power Platform 的业务价值](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | 您是否有兴趣了解业务应用程序？ 也许您不知道从哪里开始使用 Microsoft Dynamics 365 和 Power Platform 应用程序？ 了解业务应用程序的力量如何帮助您转变业务。  | 自由、自定进度的在线学习路径                                          | 7 小时 |
 | [Dynamics 365 和 Power Platform 基本原理](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/)  | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 5.5 小时 |
 | [Finance and Operations 应用入门](https://docs.microsoft.com/learn/paths/get-started-with-dynamics-365-for-finance-and-ops/)  | 了解 Finance and Operations 应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用 Finance and Operations 应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径   | 2 小时 |
-| [课程 MB-900T01-A：Dynamics 365 基本原理](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01)  | 此课程帮助学习者熟悉 Dynamics 365 功能和业务价值。 此课程介绍 Dynamics 365 应用程序、Power Platform、云概念、安全模型和许可注意事项。  | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天     |
+
 
 
 ## <a name="exam"></a>考试<a name="exam"></a>

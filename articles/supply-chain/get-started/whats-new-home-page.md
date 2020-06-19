@@ -3,7 +3,7 @@ title: Dynamics 365 Supply Chain Management 中的新增功能或更改
 description: 此主题指向介绍各 Dynamics 365 Supply Chain Management 版本中的新增功能和更改的功能的主题。
 author: kamaybac
 manager: tfehr
-ms.date: 03/11/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 276924e67e0507847cfb4ca9cf0b077c36c084b5
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: ad8f01a27fde8525c09807a28ed980c335eb8d25
+ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261226"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3417407"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 中的新增功能或更改 
 
@@ -36,14 +36,14 @@ ms.locfileid: "3261226"
 |---|---|---|---|
 | 10.0.11 | 10.0.464 | 2020 年 6 月 | [Dynamics 365 Supply Chain Management 版本 10.0.11 的新增功能或更改](whats-new-scm-10-0-11.md) |
 | 10.0.10 | 10.0.420 | 2020 年 5 月 | [Dynamics 365 Supply Chain Management 版本 10.0.10 的新增功能或更改](whats-new-scm-10-0-10.md) |
-| 10.0.9 | 10.0.383 | 2020 年 4 月 | [Dynamics 365 Supply Chain Management 版本 10.0.9 的新增功能或更改](whats-new-scm-10-0-9.md) |
 
 ## <a name="releases-before-march-2020"></a>2020 年 3 月发布
 
 要查看 2019 年 11 月之前版本中的新增功能或更改的功能，请参阅以下主题。
 
-| 下达 | 版本 | 内部版本号 | 可用性 | 了解更多 |
+| 下达 | 版本 | 内部版本号 | 可用性 | 了解详细信息 |
 |---|---|---|---|---|
+| Dynamics 365 Supply Chain Management | 10.0.9  | 10.0.383   | 2020 年 4 月 | [Dynamics 365 Supply Chain Management 版本 10.0.9 的新增功能或更改](whats-new-scm-10-0-9.md) |
 | Dynamics 365 Supply Chain Management | 10.0.8  | 10.0.319   | 2020 年 2 月 | [Dynamics 365 Supply Chain Management 版本 10.0.8 的新增功能或更改](whats-new-scm-10-0-8.md) |
 | Dynamics 365 Supply Chain Management | 10.0.7  | 10.0.283   | 2020 年 1 月 | [Dynamics 365 Supply Chain Management 版本 10.0.7 的新增功能或更改](whats-new-scm-10-0-7.md) |
 | Dynamics 365 Supply Chain Management | 10.0.6 |   10.0.234   | 2019 年 11 月  | [Dynamics 365 Supply Chain Management 10.0.6 新增功能或更改](whats-new-scm-10-0-6.md) |

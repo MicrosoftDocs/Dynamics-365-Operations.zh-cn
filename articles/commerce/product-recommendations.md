@@ -3,7 +3,7 @@ title: 产品建议概览
 description: 本主题提供有关产品建议的一般信息。 客户可通过产品建议轻松、快速地找到所需产品，甚至找到最初不打算购买的产品。
 author: Moonma
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e61136ed296d673e14600762c6f6199093530546
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 1b01589322c26b6a7b69d1b992b03603f5f3d29a
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154218"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404340"
 ---
 # <a name="product-recommendations-overview"></a>产品建议概览
 
@@ -40,7 +40,7 @@ Microsoft Dynamics 365 Commerce 可用于在电子商务网站和销售点 (POS)
 
 产品建议服务按照以下方式使用人工智能和机器学习 (AI-ML) 技术：
 
-- 从 Commerce 操作数据库提取建议服务所需格式的数据并发送到 Azure Data Lake Storage (ADLS) 或实体商店。
+- 从 Commerce 操作数据库提取建议服务所需格式的数据并发送到 Azure Data Lake Storage 或实体商店。
 - 建议服务使用存储的数据培训**用户也喜欢**、**人气组合**、**新品**、**最畅销**和**热门**列表的建议模型。
 
 ## <a name="scenarios"></a>方案
@@ -67,7 +67,7 @@ Microsoft Dynamics 365 Commerce 可用于在电子商务网站和销售点 (POS)
 
 ## <a name="additional-resources"></a>其他资源
 
-[在 Dynamics 365 Commerce 环境中启用 ADLS](enable-adls-environment.md)
+[在 Dynamics 365 Commerce 环境中启用 Azure Data Lake Storage](enable-adls-environment.md)
 
 [启用产品建议](enable-product-recommendations.md)
 

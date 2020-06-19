@@ -3,7 +3,7 @@ title: 购物车图标模块
 description: 此主题介绍购物车图标模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8cc96e0476a9d8a46aed7011359dc65fbc678fbf
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 6771a84118504cd5c8e44302380eb970e4658902
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261554"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411081"
 ---
 # <a name="cart-icon-module"></a>购物车图标模块
 
@@ -33,6 +33,10 @@ ms.locfileid: "3261554"
 ## <a name="overview"></a>概览
 
 购物车图标模块在页面的页眉模块中提供购物车，并显示购物车中的商品数量。 将鼠标光标悬停在购物车图标上方时，购物车图标模块还会显示购物车摘要（也称为迷你购物车）。 用户不必导航到购物车页面，迷你购物车就为用户提供购物车中的商品摘要。 此外，还允许用户在对摘要满意的情况下直接转到结帐页面。 这样可以减少页面导航次数，加快结帐速度。 
+
+下图显示了购物车图标模块的示例，该模块在 Fabrikam 标题中显示迷你购物车。
+
+![购物车图标模块的示例](./media/ecommerce-Minicart.PNG)
 
 ## <a name="module-properties"></a>模块属性
 

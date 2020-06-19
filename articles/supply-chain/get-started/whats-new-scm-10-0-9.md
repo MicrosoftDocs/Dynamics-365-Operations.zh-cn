@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c9965d72474e5fa39fbc0a43753f7645df6881a5
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 22ffe71ccb890d35f2b0d5ef2bc3767b1e700be9
+ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275689"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412999"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a> Dynamics 365 Supply Chain Management 10.0.9 中的新增功能或更改（2020 年 4 月）
 
@@ -48,7 +48,7 @@ ms.locfileid: "3275689"
 - 进一步的实际称重集成 [10.0.1](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.1)、[10.0.2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.2)、[10.0.3](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.3)、[10.0.4](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.4)、[10.0.5](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.5)、[10.0.6](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.6)、[10.0.7](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.7) - 有关详细信息，请观看[使用仓库管理进行实际称重产品处理](../warehousing/catch-weight-processing.md)和[实际称重产品改进](https://www.microsoft.com/videoplayer/embed/RE4jzx8)视频。
 - [固定资产与资产管理生命周期集成](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/fixed-assets-integration-asset-management-lifecycle) - 有关详细信息，请参阅[将资产管理与固定资产进行集成](../asset-management/integration-to-fixed-assets/fixed-asset-integration.md)
 - [灵活的仓库级维度预留](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/flexible-warehouse-level-dimension-reservation) - 有关详细信息，请参阅[灵活的仓库级维度预留策略](../warehousing/flexible-warehouse-level-dimension-reservation.md)。
-- [改进的作业卡设备](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device) - 有关详细信息，请参阅[在移动作业设备上报告进度](../production-control/tasks/report-progress-mobile-job-device.md)和[从作业卡设备进行完工入库到牌照控制的库位](../production-control/report-finished-job-device.md)
+- [改进的作业卡设备](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device) - 有关详细信息，请参阅[在移动作业设备上报告进度](../production-control/tasks/report-progress-mobile-job-device.md)和[从作业卡设备完工入库](../production-control/report-finished-job-device.md)
 - [入库质量检查](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inbound-quality-check)
 - [库龄报表存储](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-aging-report-storage)
 - [库存值报表存储](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-value-report-storage)
@@ -67,7 +67,7 @@ ms.locfileid: "3275689"
 - [资产管理中的工作订单可视计划](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/visual-scheduling-work-orders-asset-management) - 有关详细信息，请参阅[使用甘特图处理计划的工作订单](../asset-management/work-order-scheduling/schedule-work-orders.md#gantt)
 - [仓库时隙](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)
 - [波次标签打印增强](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
-- [波次步骤代码](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)
+- [波次步骤代码](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code) - 有关详细信息，请参阅[波次步骤代码](../warehousing/wave-step-codes.md)
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b2d65be5163e5dcb7971f04ebcad2fce55a06dad
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 9da6fc7338942e97a1a7417dbd4dfca55fa95272
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008177"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410050"
 ---
 # <a name="overview"></a>概览
 
@@ -35,19 +35,19 @@ ms.locfileid: "3008177"
   - [预配 Human Resources](hr-admin-setup-provision.md)
   - [复制实例](hr-admin-setup-copy-instance.md)
   - [删除实例](hr-admin-setup-remove-instance.md)
-  - [更新过程](hr-admin-setup-update-process.md)
+  - [更新流程](hr-admin-setup-update-process.md)
 
 - 设置数据集成
   - [选择数据集成技术](hr-admin-integration-choose-technology.md)
   - [配置 Common Data Service 集成](hr-admin-integration-common-data-service.md)
   - [配置与 Finance 的集成](hr-admin-integration-finance.md)
   - [配置与 Dayforce 的集成](hr-admin-integration-dayforce.md)
-  - [创建重复性数据导出应用](hr-admin-integration-recurring-data-export.md)
+  - [创建定期数据导出应用](hr-admin-integration-recurring-data-export.md)
   - 与 Office 集成
     - [Office 集成教程](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [更新 Excel 中的实体数据](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [创建“在 Excel 中打开”体验](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Office 集成疑难解答](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [解决 Office 集成问题](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [管理功能](hr-admin-manage-features.md)
 
@@ -75,18 +75,17 @@ ms.locfileid: "3008177"
 - 文档资源
   - [帮助系统](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)
   - [连接帮助系统](../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json)
-  - [连接自定义帮助站点](../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json        )
   - [查看和导出字段描述](../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json)
   - [任务录制器](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
   - [通过任务录制器创建文档或培训](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
-- Human Resources 疑难解答
+- Human Resources 故障排除
   - [获取支持](hr-admin-troubleshooting-support.md)
   - [使用自动清理任务优化性能](hr-admin-troubleshooting-batch-history.md)
   - [未更新分析报表](hr-admin-troubleshooting-analytic-reports.md)
   - [无法在 Power Apps 管理中心内创建环境](hr-admin-troubleshooting-power-apps.md)
   - [客户端断开连接](hr-admin-troubleshooting-disconnect.md)
-  - [避免职位层次结构中出现截断文本](hr-admin-troubleshooting-truncate.md)
+  - [避免在职位层次结构中截断文本](hr-admin-troubleshooting-truncate.md)
   - [执行薪酬流程](hr-admin-troubleshooting-compensation.md)
   - [将任务指南保存到 LCS](hr-admin-troubleshooting-task-guide.md)
   - [通过安全角色访问专用地址](hr-admin-troubleshooting-private-addresses.md)
