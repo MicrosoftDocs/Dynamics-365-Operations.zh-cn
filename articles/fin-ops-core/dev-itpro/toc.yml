@@ -14,6 +14,8 @@
               items:
                 - name: “Platform update 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: 针对 10.0.12 的 Platform update（2020 年 8 月）
+                  href: get-started/whats-new-platform-update-10-0-12.md
                 - name: 针对 10.0.11 的 Platform update（2020 年 7 月）
                   href: get-started/whats-new-platform-update-35.md
                 - name: 针对 10.0.10 的 Platform update（2020 年 5 月）
@@ -198,6 +200,8 @@
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 集成工作人员、作业和岗位
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: 库存可用性
+                              href: data-entities/dual-write/inventory-availability.md
                         - name: 支持双写入
                           items:
                             - name: 支持 Field Service 解决方案和 Project Service Automation 解决方案
@@ -452,9 +456,9 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: 将更新应用于云环境
                   href: deployment/apply-deployable-package-system.md
-                - name: 将更新和扩展应用于云托管零售渠道组件
+                - name: 将更新和扩展应用于 Commerce Scale Unit（云）
                   href: deployment/Update-retail-channel.md
-                - name: 初始化 Retail Cloud Scale Unit
+                - name: 初始化 Commerce Scale Unit（云）
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Retail 数据驻留
                   href: deployment/retail-data-residency.md
@@ -488,6 +492,8 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: 客户端 Internet 连接
                       href: user-interface/client-disconnected.md
+                    - name: 在本地部署中配置仅批处理和仅交互式的 AOS 节点
+                      href: deployment/onprem-batchonly.md
                     - name: 为本地环境配置代理
                       href: deployment/onprem-reverseproxy.md
                     - name: 本地诊断
@@ -1048,6 +1054,8 @@
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Lifecycle Services 用户指南
               href: lifecycle-services/lcs-user-guide.md
+            - name: 项目启动
+              href: lifecycle-services/project-onboarding.md
             - name: 订阅估算器
               href: lifecycle-services/subscription-estimator.md
             - name: 配置安全性
@@ -1118,6 +1126,20 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: 翻译记忆库文件
                   href: lifecycle-services/use-translation-service-tm.md
+        - name: Microsoft Power Platform 集成
+          items:
+            - name: Microsoft Power Platform 与 Finance and Operations 的集成
+              href: power-platform/overview.md
+            - name: 实体建模
+              href: power-platform/entity-modeling.md
+            - name: 应用程序生命周期管理
+              href: power-platform/application-lifecycle-management.md
+            - name: Finance and Operations 和 Common Data Service 管理员参考
+              href: power-platform/admin-reference.md
+            - name: Finance and Operations 的 Power Apps 门户
+              href: power-platform/power-portal-reference.md
+            - name: Finance and Operations 虚拟实体常见问题
+              href: power-platform/faq.md
         - name: 移动平台
           items:
             - name: 移动平台资源
@@ -1330,9 +1352,7 @@
               href: perf-test/rsat/rsat-overview.md
             - name: 安装和配置
               href: perf-test/rsat/rsat-install-configure.md
-            - name: 使用 Regression Suite Automation Tool 的分区不可知测试
-              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: 运行测试用例
+            - name: 使用 Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
             - name: 验证预期值
               href: perf-test/rsat/rsat-validate-expected.md
@@ -1340,10 +1360,12 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: 派生测试用例
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: 使用 Regression Suite Automation Tool 教程
+            - name: Regression Suite Automation Tool 教程和其他功能
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: 最佳实践
               href: perf-test/rsat/rsat-best-practices.md
+            - name: 使用 Regression Suite Automation Tool 的分区不可知测试
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: 故障排除
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: 使用 Lifecycle Services 发布解决方案
@@ -1442,6 +1464,8 @@
                   href: sysadmin/copy-batch-job.md
                 - name: 活动批处理期间
                   href: sysadmin/activeperiod.md
+                - name: 活动批处理期间的夏令时支持
+                  href: sysadmin/batch-active-period-dst.md
                 - name: 批处理管理器安全角色
                   href: sysadmin/runby.md
                 - name: 用于处理 SQL 索引碎片整理的批处理作业
