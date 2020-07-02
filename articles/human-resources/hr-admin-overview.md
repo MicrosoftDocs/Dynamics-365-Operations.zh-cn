@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9da6fc7338942e97a1a7417dbd4dfca55fa95272
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
+ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410050"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "3443410"
 ---
 # <a name="overview"></a>概览
 
@@ -50,6 +50,8 @@ ms.locfileid: "3410050"
     - [解决 Office 集成问题](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [管理功能](hr-admin-manage-features.md)
+
+- [配置和管理数据库日志记录](hr-admin-database-logging.md)
 
 - 浏览用户界面
   - [用户界面元素](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)

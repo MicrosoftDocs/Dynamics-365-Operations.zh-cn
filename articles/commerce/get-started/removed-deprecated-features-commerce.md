@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce 中已删除或弃用的功能
 description: 本主题介绍 Dynamics 365 Commerce 中已经删除或计划删除的功能。
 author: josaw
 manager: AnnBe
-ms.date: 05/04/2020
+ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: c47c5430a8f5d67e13c95db609a95d5ad66933ae
-ms.sourcegitcommit: a8b6cd799eddaf5be9aec9ea3c2b55e2c3231652
+ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
+ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3335268"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3443910"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中已删除或弃用的功能
 
@@ -35,6 +35,16 @@ ms.locfileid: "3335268"
 
 > [!NOTE]
 > [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Commerce 10.0.11 版本中已经删除或弃用的功能
+### <a name="data-action-hooks"></a>数据操作挂接
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 由于性能问题，数据操作挂接功能已弃用。 |
+| **被另一个功能取代？**   | 建议改为使用[数据操作覆盖](../e-commerce-extensibility/data-action-overrides.md)来修改数据操作层中的业务逻辑。|
+| **影响的产品区域**         | 电子商务可扩展性数据操作 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用：从版本 10.0.11 开始 |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10010-release"></a>Commerce 10.0.10 版本中已经删除或弃用的功能
 ### <a name="pos-operation-803---picking-and-receiving"></a>POS 操作 803 - 领料和接收

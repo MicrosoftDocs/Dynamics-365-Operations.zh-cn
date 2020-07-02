@@ -3,7 +3,7 @@ title: 在 POS 中添加产品建议
 description: 本主题介绍如何在销售点 (POS) 设备上使用产品建议。
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/20
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a1dc1e8934bcd6a8cb94b780bbfe247f64067912
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: fabf08e8dde1b9b6d27af3e42d3aaff904b467b0
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404248"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454525"
 ---
 # <a name="add-product-recommendations-on-pos"></a>在 POS 中添加产品建议
 

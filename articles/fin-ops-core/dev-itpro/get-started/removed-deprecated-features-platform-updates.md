@@ -3,7 +3,7 @@ title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 06/02/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6fc699907d30fff2d05e752ea055cae8d1134d9b
-ms.sourcegitcommit: 3eaa71c889545318737b3bc88b05eae1a47ad2c0
+ms.openlocfilehash: 1faee75c9112b3aa584ad021ffdc1144fcf4ba32
+ms.sourcegitcommit: 3485d7f36058151cb4fff5c425ef27f56e3ee7d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "3433914"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3457558"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
 
@@ -36,6 +36,22 @@ ms.locfileid: "3433914"
 > [!NOTE]
 > [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
 
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.13 的平台更新
+
+> [!NOTE]
+> 版本 10.0.13 尚未发布。 提供此信息出于计划目的。 版本 10.0.13 的内容和功能可能会发生变化。 有关发布的详细信息，请参阅[服务更新可用性](../../fin-ops/get-started/public-preview-releases.md)。
+
+
+### <a name="upgrade-of-three-jquery-component-libraries"></a>升级三个 jQuery 组件库 
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 三个 jQuery 组件库正在更新，以进行安全修复和维护货币。   
+| **被另一个功能取代？**   | 以下库会受到影响：jQuery（从版本 2.1.4 到版本 3.5.0），jQuery UI（从版本 1.11.4 到版本 1.12.1），jQuery qTip（从版本 2.2.1 到版本 3.0.3）。 迁移指南已由 jQuery 在线提供。  |
+| **影响的产品区域**         | 可扩展控件，特别是使用已弃用或已删除 API 的自定义 JavaScript 代码 |
+| **部署选项**              | 所有 |
+| **状态**                         | 使用版本 10.0.13/Platform update 37，客户可以通过启用“升级三个 jQuery 组件库”功能来有选择地迁移到最新库。 2021 年 4 月版本将必须迁移到新库以为迁移到受影响的 API 留下时间。   |
+
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.12 的平台更新
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>包含无效字段引用的网格或组控件窗体扩展
@@ -50,11 +66,11 @@ ms.locfileid: "3433914"
 
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.11 的平台更新
 
-### <a name="explicit-whitelisting-for-self-service-environments"></a>自助服务环境的显式白名单
+### <a name="explicit-safe-lists-for-self-service-environments"></a>自助服务环境的显式安全列表
 
 |   |  |
 |------------|--------------------|
-| **弃用/移除的原因** | IP 白名单的流程已更改。 自助服务不再支持 IP 白名单。 |
+| **弃用/移除的原因** | 将 IP 移至安全列表的流程已更改。 自助服务不再支持 IP 安全列表。 |
 | **被另一个功能取代？**   | 有关详细信息，请参阅[配置 Azure Active Directory 条件访问](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access)。|
 | **影响的产品区域**         | 安全性 |
 | **部署选项**              | 云 |

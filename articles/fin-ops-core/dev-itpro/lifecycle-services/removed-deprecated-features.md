@@ -3,7 +3,7 @@ title: Lifecycle Services (LCS) 中已移除或弃用的功能
 description: 本主题介绍已经从 Microsoft Dynamics Lifecycle Services (LCS) 移除或计划移除的功能。
 author: AngelMarshall
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c5c525b403715ba8dfd3c1bc2dfac4dd69f4a3d
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: e571cc26f55e0bd7a1eef301e193921e0b3f8e31
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367260"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454687"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Lifecycle Services (LCS) 中已移除或弃用的功能
 
@@ -56,6 +56,7 @@ ms.locfileid: "3367260"
 <td>已弃用：BPM 中的流程图图表组件预计将于 2020 年移除。 以下功能将不可用：
 <ul>
 <li>所有流程图均为只读，不可编辑。 与流程图活动关联的形状属性也将不可用。 这些流程图既包括自动生成的默认流程图，也包括基于这些默认流程图修改的自定义流程图。</li>
+<li>流程步骤为只读，不可编辑。</li>     
 <li>旧版适应/差距分析功能将不再可用。 因此，不会再自动创建差距列表或提供导出。
 <p><strong>注意：</strong>此功能先前已被弃用，已由 Microsoft Azure DevOps 集成取代。</p>
 </li>

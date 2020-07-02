@@ -3,7 +3,7 @@ title: 创建新用户
 description: 用户是您的组织的内部员工或外部客户和供应商，该用户需要访问系统以履行职责。
 author: maertenm
 manager: AnnBe
-ms.date: 02/06/2020
+ms.date: 06/08/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9db4b6d355d6499bce6c550b2fbe76b82cf69fd4
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: d126b449074663772549b96b86acb53db971a5d4
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143555"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435576"
 ---
 # <a name="create-new-users"></a>创建新用户
 
@@ -50,8 +50,9 @@ ms.locfileid: "3143555"
 10. 选择**保存**。
 
 ## <a name="import-users"></a>导入用户
-1. 在操作窗格上，选择**导入用户**。
-2. 在列表中，标记所选的行。
-3. 选择**导入用户**。
-4. 选择**关闭**。
+1. 转到**系统管理 \> 用户 \> 用户**。
+2. 在操作窗格上，选择**导入用户**。
+3. 在列表中，标记所选的行。
+4. 选择**导入用户**。
+5. 选择**关闭**。
 

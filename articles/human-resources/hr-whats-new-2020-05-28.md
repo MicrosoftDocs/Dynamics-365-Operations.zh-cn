@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c386025843edef83d229a42d3f2314678fadae20
-ms.sourcegitcommit: beddfba095c23b3265f0004f5124c4e9dc6404cc
+ms.openlocfilehash: 37f21fffe209e17a6fe89c2661e49fc0dc8b9655
+ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411922"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "3443456"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-28-2020"></a>Dynamics 365 Human Resources（2020 年 5 月 28 日）中的新增功能或更改
 
@@ -79,7 +79,10 @@ ms.locfileid: "3411922"
 
 ## <a name="buy-and-sell-leave-in-preview-june-1"></a>购买和出售休假（6 月 1 日预览）
 
-一些组织提供允许员工购买和出售其休假的福利。 此流程通常通过手动管理。 此功能提供了一种更加自动化的方法来管理人力资源部门的政策和请求，它可以帮助消除错误并简化休假管理流程。
+一些组织提供允许员工购买和出售其休假的福利。 此流程通常通过手动管理。 此功能提供了一种更加自动化的方法来管理人力资源部门的政策和请求，它可以帮助消除错误并简化休假管理流程。 有关详细信息，请参阅：
+
+- [管理购买和出售休假策略](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [购买和出售休假](hr-employee-self-service-buy-sell-leave.md)
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>用于福利管理的数据管理框架 (DMF) 实体
  

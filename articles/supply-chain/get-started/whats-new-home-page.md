@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: ad8f01a27fde8525c09807a28ed980c335eb8d25
-ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
+ms.openlocfilehash: f6824e4c8e0e6d3071973dc92d2ff90d78f4dde5
+ms.sourcegitcommit: d64a07748bdd7c85877cfe0343bee952f235f38e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3417407"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3457185"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 中的新增功能或更改 
 
@@ -32,9 +32,9 @@ ms.locfileid: "3417407"
 
 要查看每个版本的 Dynamics 365 Supply Chain Management 中的新增功能或更改的功能，请参阅以下主题。
 
-| 版本 | 内部版本号 | 自动更新可用性 | 了解更多 |
+| 版本 | 内部版本号 | 自动更新可用性 | 了解详细信息 |
 |---|---|---|---|
-| 10.0.11 | 10.0.464 | 2020 年 6 月 | [Dynamics 365 Supply Chain Management 版本 10.0.11 的新增功能或更改](whats-new-scm-10-0-11.md) |
+| 10.0.11 | 10.0.464 | 2020 年 7 月 | [Dynamics 365 Supply Chain Management 版本 10.0.11 的新增功能或更改](whats-new-scm-10-0-11.md) |
 | 10.0.10 | 10.0.420 | 2020 年 5 月 | [Dynamics 365 Supply Chain Management 版本 10.0.10 的新增功能或更改](whats-new-scm-10-0-10.md) |
 
 ## <a name="releases-before-march-2020"></a>2020 年 3 月发布

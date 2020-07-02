@@ -1820,6 +1820,32 @@
                   items:
                     - name: 印度 GST 概览
                       href: localizations/apac-ind-gst.md
+                    - name: APAC 印度 GST 本地化的新增功能或更改
+                      items:
+                        - name: 10.0.0 新增功能或更改
+                          href: localizations/apac-ind-news-letter-10-0-00.md
+                        - name: 10.0.01 新增功能或更改
+                          href: localizations/apac-ind-news-letter-10-0-01.md
+                        - name: 10.0.02 新增功能或更改
+                          href: localizations/apac-ind-news-letter-10-0-02.md
+                        - name: 10.0.03 新增功能或更改
+                          href: localizations/apac-ind-news-letter-10-0-03.md
+                        - name: 10.0.04 新增功能或更改
+                          href: localizations/apac-ind-news-letter-10-0-04.md
+                        - name: 10.0.05 新增功能或更改
+                          href: localizations/apac-ind-news-letter-10-0-05.md
+                        - name: 10.0.06 新增功能或更改
+                          href: localizations/apac-ind-news-letter-10-0-06.md
+                        - name: 10.0.07 新增功能或更改
+                          href: localizations/apac-ind-news-letter-10-0-07.md
+                        - name: 10.0.08 新增功能或更改
+                          href: localizations/apac-ind-news-letter-10-0-08.md
+                        - name: 10.0.09 新增功能或更改
+                          href: localizations/apac-ind-news-letter-10-0-09.md
+                        - name: 10.0.10 新增功能或更改
+                          href: localizations/apac-ind-news-letter-10-0-10.md
+                        - name: 10.0.11 新增功能或更改
+                          href: localizations/apac-ind-news-letter-10-0-11.md
                     - name: 印度 GST 参考组
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: 收银机 GST 集成
@@ -2346,6 +2372,8 @@
                   href: localizations/emea-pol-interest-calculation.md
                 - name: 交易额余额对账单
                   href: localizations/emea-pol-turnover-balances-statement.md
+                - name: 拆分应付账款/应收账款汇率差额
+                  href: localizations/emea-pol-split-ap-ar-exchange-difference.md
             - name: 俄罗斯
               items:
                 - name: 俄罗斯概览
@@ -3408,8 +3436,10 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
                         - name: 修改并运行格式以使用文档管理文件
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
-                        - name: 调试数据源
-                          href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                    - name: 调试数据源
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                    - name: 使用 BARCODE 生成条码图像
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: 配置模型映射
                   items:
                     - name: 配置与国家/地区上下文相关的电子报告模型映射
@@ -3418,18 +3448,20 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: 配置格式
                   items:
+                    - name: 创建格式时选择模型定义
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: 配置电子报告格式以使用每个法人指定的参数
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
                     - name: 为每个法人设置电子报告格式的参数
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
-                    - name: 创建格式时选择模型定义
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: 推迟执行电子报告格式元素
                       items:
                         - name: 推迟执行序列元素
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
                         - name: 推迟执行 XML 元素
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                    - name: 设计多语言报告
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                 - name: 数据绑定中的相对路径
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: 在 Finance and Operations 中使用电子报告解决方案

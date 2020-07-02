@@ -3,7 +3,7 @@ title: Dynamics 365 Supply Chain Management 客户门户概述
 description: 本主题介绍客户门户，并说明谁应该使用它及其如何工作。
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6b57365d8042c1d791ee2c50c5458a6595a58270
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 709ba18be9e2edd5d0a7f143aaed5ef94f365b91
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413937"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456918"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Dynamics 365 Supply Chain Management 客户门户概述
 
@@ -37,6 +37,12 @@ ms.locfileid: "3413937"
 
 > [!NOTE]
 > 客户门户文档面向将为 Supply Chain Management 安装设置客户门户的管理员、定制员和系统集成商。 它使用术语_客户_和_用户_描述属于运行 Supply Chain Management 的组织的客户，以及将使用最终门户的人员。
+
+## <a name="video"></a>视频
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
+
+[Dynamics 365 Supply Chain Management 中的客户门户模板概述](https://youtu.be/nPrqoLuHfV8)视频（上方所示）包含在 YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
 
 ## <a name="who-should-use-it"></a>谁应该使用它？
 
@@ -58,6 +64,6 @@ ms.locfileid: "3413937"
 
 [双写入](https://docs.microsoft.com/powerapps/maker/portals/overview)是一种自带的基础结构产品，提供 Dynamics 365 中的模型驱动应用与 Finance and Operations 应用之间的近实时交互。 双写入提供 Finance and Operations 应用与 Common Data Service 之间的双向集成。 因此，它可以提供应用之间的集成用户体验。 客户门户依赖于与双写入同步的实体。 必须先对所有适当的实体启用双写入，才能在客户门户中显示来自 Supply Chain Management 的数据。
 
-![![客户门户依赖关系](media/customer-portal-elements.png "客户门户依赖关系")](media/customer-portal-elements.png "Customer portal dependencies")
+![客户门户依赖关系](media/customer-portal-elements.png "客户门户依赖关系")
 
 对于想要使用 Power Apps 门户构建面向外部的使用其 Supply Chain Management 安装中数据的网站的组织，客户门户充当一个起点。 它帮助组织连接双写入、Supply Chain Management 和 Power Apps 门户。

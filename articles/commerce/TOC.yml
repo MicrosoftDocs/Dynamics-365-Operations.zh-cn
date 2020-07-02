@@ -74,7 +74,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: 升级和 N-1 支持
               items:
-                - name: Retail 的升级和 N-1 支持
+                - name: Commerce 的升级和 N-1 支持
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 分阶段推出 (N-1) 安装、配置和直接转换
                   href: dev-itpro/n-1-installation-configuration.md
@@ -94,8 +94,6 @@
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10（2020 年 5 月）
                       href: get-started/whats-new-commerce-10-0-10.md
-                    - name: Commerce 10.0.9（2020 年 4 月）
-                      href: get-started/whats-new-10-0-9.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: Finance and Operations 中已删除或弃用的功能
@@ -504,6 +502,8 @@
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: 使用 Adyen 连接器的强大客户身份验证 (SCA)
                       href: adyen_redirect.md
+                    - name: 打印机和银箱的专用的付款终端和提示
+                      href: pos-multi-hws.md
                     - name: 礼品卡和贷项通知单操作的无缝离线切换
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: 设置付款账单方案
@@ -572,6 +572,10 @@
                       href: set-up-bar-codes.md
                     - name: 设置条码掩码
                       href: set-up-bar-code-masks.md
+                - name: 保修
+                  items:
+                    - name: 创建和配置扩展保修
+                      href: extended-warranty.md
             - name: 定价和折扣
               items:
                 - name: 折扣
@@ -974,7 +978,7 @@
                       href: cart-icon-module.md
                     - name: 结账模块
                       href: add-checkout-module.md
-                    - name: 订单确认模块
+                    - name: 订单详细信息模块
                       href: order-confirmation-module.md
                     - name: 商店选择器模块
                       href: store-selector.md
@@ -1896,6 +1900,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: 配置开发环境 (.env) 文件
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: 针对 Tier 1 Commerce 开发环境进行调试
+                      href: e-commerce-extensibility/debug-tier-1.md
                     - name: 设置 Azure DevOps 代码共享并创建构建管道
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: 平台概览
@@ -2028,6 +2034,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: 没有管理员访问权限的云托管开发环境中的部署
                   href: dev-itpro/cloud-dev-box.md
+                - name: 设置 Commerce SDK 构建管道
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
             - name: 销售点可扩展性
               items:
                 - name: POS 屏幕布局
@@ -2102,7 +2110,7 @@
                   href: dev-itpro/call-crt-service-offline.md
                 - name: 创建新的 Retail Server 扩展
                   href: dev-itpro/retail-server-extension.md
-                - name: 'Retail Typescript 和 C# 代理'
+                - name: Retail Typescript 和 C# 代理
                   href: dev-itpro/typescript-proxy-retail-pos.md
             - name: Commerce Runtime (CRT) 可扩展性
               items:

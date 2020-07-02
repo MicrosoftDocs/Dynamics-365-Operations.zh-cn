@@ -3,7 +3,7 @@ title: 配置工作流中的手动决策
 description: 本主题说明如何配置手动决策的属性。
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46b875f52d3d3e7c755ee92dcd5faddf0d94356
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 130cb50369c13bc3478340023c94f169ee5250cf
+ms.sourcegitcommit: a5009c8958037afbaa1dd4f1469255b187ced93a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176693"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3455025"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>配置工作流中的手动决策
 
@@ -239,26 +239,6 @@ ms.locfileid: "2176693"
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
     <li><strong>可用用户</strong>列表包含所有用户。 选择要向其分配决策的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
     </ol>
-    </td>
-    </tr>
-    <tr>
-    <td>队列</td>
-    <td>工作项队列</td>
-    <td>
-    <ol>
-    <li>在选择<strong>队列</strong>后，单击<strong>基于队列</strong>选项卡。</li>
-    <li>要将决策分配到特定的队列，请执行以下步骤： <ol>
-    <li>在<strong>队列类型</strong>列表中，选择<strong>工作项队列</strong>。</li>
-    <li>在<strong>队列名称</strong>列表中，选择该队列。</li>
-    </ol>
-    </li>
-    <li>如果特定条件应确定将决策分配到的队列，请执行以下步骤： <ol>
-    <li>在<strong>队列类型</strong>列表中，选择<strong>条件工作项队列</strong>。</li>
-    <li>在<strong>队列名称</strong>列表中，选择<strong>条件队列</strong>。</li>
-    </ol>
-    </li>
-    </ol>
-    <blockquote>[!NOTE] 此选项仅用于几个工作流，如案例管理。</blockquote>
     </td>
     </tr>
     </tbody>

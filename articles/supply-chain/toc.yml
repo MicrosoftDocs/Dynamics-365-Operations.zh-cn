@@ -589,6 +589,8 @@
                   href: cost-management/inventory-value-report-storage.md
                 - name: 库龄报表存储
                   href: cost-management/inventory-aging-report-storage.md
+                - name: 库龄报表示例和逻辑
+                  href: cost-management/inventory-aging-report.md
             - name: 制造会计
               items:
                 - name: 物料清单计算

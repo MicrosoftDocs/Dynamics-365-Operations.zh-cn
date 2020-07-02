@@ -3,7 +3,7 @@ title: 安装、设置和更新客户门户
 description: 本主题提供客户门户的许可详细信息和设置说明。
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b9d1e742f78254d949dc49fda008d63b8bff4d65
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 0343100362c4d7bc3e09334fb7890919bdb84941
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413938"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435599"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>安装、设置和更新客户门户
 
@@ -35,7 +35,7 @@ ms.locfileid: "3413938"
 
 客户门户依赖 Power Apps 门户和双写入，如下图所示。
 
-![![客户门户依赖关系](media/customer-portal-elements.png "客户门户依赖关系")](media/customer-portal-elements.png "Customer portal dependencies")
+![客户门户依赖关系](media/customer-portal-elements.png "客户门户依赖关系")
 
 与 Supply Chain Management 的其他功能不同，客户门户模板位于 Power Apps 门户中。 因此，客户门户受 Power Apps 门户和采用双写入的实体提供的功能限制。
 
@@ -59,7 +59,7 @@ ms.locfileid: "3413938"
 
 1. 转到 [make.powerapps.com](https://make.powerapps.com/)。
 2. 确保您使用的是启用了双写入的环境。
-3. 在**创建**选项卡上，向下滚动到**从模板开始**部分，然后选择名为 **Supply Chain Management 客户**的模板。
+3. 在**创建**选项卡上，向下滚动到**从模板开始**部分，然后选择名为**客户门户**的模板。
 4. 按照屏幕上的说明操作。
 
 预配完成后，您可以在**主页**页面**我的应用**部分访问客户门户。
@@ -71,7 +71,7 @@ ms.locfileid: "3413938"
 
 以后可能会向客户门户添加更多功能。 Microsoft 对基础解决方案组件所做的任何更改都将自动显示在您的环境中。 但是，在您的环境中预配的网站不会自动反映对配置数据所作的更改。 您必须通过从新模板获取代码并将其与预配的网站合并来手动应用这些更改。
 
-## <a name="resources"></a>资源
+## <a name="additional-resources"></a>其他资源
 
 要了解如何设置和自定义客户门户，您应该先查看以下有关基础技术的文档：
 

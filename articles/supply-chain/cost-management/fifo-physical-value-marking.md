@@ -3,7 +3,7 @@ title: 具有实际成本和标记的先进先出
 description: 先进先出 (FIFO) 是一种库存模型，其中，最先的收货将最先发货。 基于库存交易记录的财务日期，按照最先财务更新的入库结算从库存的财务更新的发货。
 author: AndersGirke
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e237d1e9f9bb83d0fe65556eca07c8757f920664
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a66a1b977a4e36f9ad057683366c39a81ba1d833
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201747"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454618"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>具有实际成本和标记的先进先出
 
@@ -49,8 +49,8 @@ ms.locfileid: "3201747"
 -   4a. 数量 1（单件成本为 USD 30.00）的库存实际收货。
 -   4b. 数量 1（单件成本为 USD 30.00）的库存财务收货。
 -   5a. 数量 1（单件成本价为 USD 20.00）的库存实际发货（财务更新的交易记录的移动平均）。
--   5b. 数量 1（单件成本价为 USD 20.00）的库存财务发货（财务更新的交易记录的移动平均）。
--   6. 执行库存结转。 基于先进先出方法，将针对最先财务更新的收货来结算最先财务更新的发货。 将对发货交易记录执行 USD 10.00 的调整。
+-   5b. 数量 1（单件成本价为 USD 15.00）的库存财务发货（财务更新的交易记录的移动平均）。
+-   6. 执行库存结转。 基于先进先出方法，将针对最先财务更新的收货来结算最先财务更新的发货。 将对发货交易记录执行 USD 5.00 的调整。
 
 新的移动平均成本价反映财务更新的交易记录的平均值。 下图说明了在未使用**包括实际成本**选项时，先进先出库存模型对此系列的交易记录的影响。 
 

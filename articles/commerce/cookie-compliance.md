@@ -3,7 +3,7 @@ title: Cookie 合规
 description: 本主题介绍 Cookie 合规注意事项以及 Microsoft Dynamics 365 Commerce 中包含的默认政策。
 author: BrianShook
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 06/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b25fd3fffe153e1a07a1f8b21f0cc96f633fb894
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: e1fa016dc9f46b048220f0f83e4b0783087de91e
+ms.sourcegitcommit: c66c4c67a21e7d7d3a94a3fd766c3184b6e65c4e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275363"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3446905"
 ---
 # <a name="cookie-compliance"></a>Cookie 合规
-
 
 [!include [banner](includes/banner.md)]
 
@@ -33,9 +32,29 @@ ms.locfileid: "3275363"
 
 ## <a name="overview"></a>概览
 
-每当使用任何会影响电子商务客户的跟踪技术时，隐私都是一个重要因素。 由于诸如欧盟 (EU) 的一般数据保护条例 (GDPR) 等隐私合规标准，今天处于活动状态的任何站点都必须考虑电子隐私准则。 由于默认情况下许多电子商务站点在全球范围内都可以访问，因此审查电子商务站点的合规标准很重要。
+当跟踪影响电子商务客户的技术时，隐私是一个重要因素。 由于诸如欧盟 (EU) 的一般数据保护条例 (GDPR) 等隐私合规标准，今天处于活动状态的任何站点都必须考虑电子隐私准则。 由于默认情况下许多电子商务站点在全球范围内都可以访问，因此审查电子商务站点的合规标准很重要。
 
 要了解有关 Microsoft 针对 Cookie 合规使用的基本原则的详细信息，请访问 [Microsoft 信任中心](https://www.microsoft.com/trust-center)。 在该站点上，您还可以获得有关合规和隐私区域的更多信息。
+
+下表显示了 Dynamics 365 Commerce 站点放置的 cookie 的当前参考列表。
+
+| Cookie 名称                               | 用法                                                        |
+| ------------------------------------------- | ------------------------------------------------------------ |
+| .AspNet.Cookies                             | 存储用于单点登录的 (SSO) 的 Microsoft Azure Active Directory (Azure AD) 身份验证 cookie。 存储加密的用户主体信息（名字、姓氏、电子邮件）。 |
+| &#95;msdyn365___cart&#95;                           | 存储用于获取已添加到购物车实例的产品列表的购物车 ID。 |
+| &#95;msdyn365___ucc&#95;                            | Cookie 合规性同意跟踪。                          |
+| ai_session                                  | 检测有多少用户活动会话已包含应用的某些页面和功能。 |
+| ai_user                                     | 检测有多少人使用了应用及其功能。 使用匿名 ID 对用户进行计数。 |
+| b2cru                                       | 动态存储重定向 URL。                              |
+| JSESSIONID                                  | 由付款连接器 Adyen 用来存储用户会话。       |
+| OpenIdConnect.nonce.&#42;                       | 身份验证                                               |
+| x-ms-cpim-cache:.&#42;                          | 用于维护请求状态。                      |
+| x-ms-cpim-csrf                              | 用于防御 CRSF 的跨网站请求伪造 (CRSF) 令牌。     |
+| x-ms-cpim-dc                                | 用于将请求路由到适当的生产身份验证服务器实例。 |
+| x-ms-cpim-rc.&#42;                              | 用于将请求路由到适当的生产身份验证服务器实例。 |
+| x-ms-cpim-slice                             | 用于将请求路由到适当的生产身份验证服务器实例。 |
+| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | 用于维护 SSO 会话。                        |
+| x-ms-cpim-trans                             | 用于跟踪事务（对企业对消费者 (B2C) 站点进行身份验证的打开选项卡的数量），包括当前事务。 |
 
 ## <a name="additional-resources"></a>其他资源
 
