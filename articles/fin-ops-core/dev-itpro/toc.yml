@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: 针对 10.0.10 的 Platform update（2020 年 5 月）
                   href: get-started/whats-new-platform-update-34.md
-                - name: Platform update 33（2020 年 4 月）
-                  href: get-started/whats-new-platform-update-33.md
             - name: 已删除或弃用的功能
               items:
                 - name: 已删除或弃用的 Platform 功能
@@ -150,6 +148,8 @@
                                   href: data-entities/dual-write/link-your-environment.md
                                 - name: 启用双写入实体映射
                                   href: data-entities/dual-write/enable-entity-map.md
+                            - name: 货币数据类型迁移以实现双重写入
+                              href: data-entities/dual-write/currrency-decimal-places.md
                         - name: 管理双写入
                           items:
                             - name: 自定义实体和字段映射
@@ -364,6 +364,8 @@
           items:
             - name: Azure Data Lake 概览
               href: data-entities/azure-data-lake-overview.md
+            - name: 配置导出到 Azure Data Lake
+              href: data-entities/configure-export-data-lake.md
             - name: Azure Data Lake 中的 Finance and Operations 应用
               href: data-entities/finance-data-azure-data-lake.md
             - name: 将实体商店用作 Data Lake
@@ -498,6 +500,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: 本地诊断
                       href: deployment/on-premises-diagnostics.md
+                    - name: 本地灾难恢复配置
+                      href: deployment/onprem-dr.md
                     - name: PowerBI.com 与本地环境集成
                       href: analytics/entity-store-on-prem.md
                     - name: 重新配置环境
@@ -652,11 +656,11 @@
                   href: dev-tools/debug-xpp.md
                 - name: 请求或响应方案中的 EventHandlerResult 类
                   href: dev-tools/event-handler-result-class.md
-                - name: '使用 C# 和 X++ 源代码编写业务逻辑'
+                - name: 使用 C# 和 X++ 源代码编写业务逻辑
                   href: dev-tools/write-business-logic.md
                 - name: X++ 和 X++ 编译器中的更改
                   href: dev-tools/programming-language-support.md
-                - name: 'C# 的 LINQ 提供程序'
+                - name: C# 的 LINQ 提供程序
                   href: dev-tools/linq-provider-c.md
                 - name: 编写最佳实践规则
                   href: dev-tools/author-best-practice-rules.md
@@ -716,7 +720,7 @@
                       href: dev-ref/xpp-macros.md
                     - name: X++ 属性类
                       href: dev-ref/xpp-attribute-classes.md
-                    - name: 'X++ 和 C# 对比'
+                    - name: X++ 和 C# 对比
                       href: dev-ref/xpp-cs-comparison.md
                     - name: X++ 语法
                       href: dev-ref/xpp-syntax.md
@@ -1436,6 +1440,8 @@
                   href: sysadmin/role-based-security.md
                 - name: 安全体系结构
                   href: sysadmin/security-architecture.md
+                - name: Finance and Operations 应用中的加密
+                  href: sysadmin/encryption.md
                 - name: 将会话设置为空闲超时
                   href: sysadmin/session-idle-timeout.md
                 - name: 现成安全报表
