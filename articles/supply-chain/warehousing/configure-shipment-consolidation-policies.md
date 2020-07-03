@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: e879ec53a88e5e30257608cba7604b404ac2368a
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e11ccdf138adbf05ae1fc8ef739687b9212ae1fe
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383720"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403327"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>配置装运合并策略
 
@@ -270,7 +270,7 @@ ms.locfileid: "3383720"
 
 - 此策略将查询特定订单池以识别接受合并的装运的客户。
 - 已关闭与未结装运合并。
-- 将使用默认 CrossOrder 策略选择的字段跨订单进行合并（以复制之前的**仓库**复选框）。
+- 将使用默认 CrossOrder 策略选择的字段跨订单进行合并（以复制之前的**在发放到仓库时合并装运**复选框）。
 
 - 可以通过选择其他订单池覆盖销售订单中的规则。
 
@@ -306,7 +306,7 @@ ms.locfileid: "3383720"
 
 - 此策略将查询特定订单池以识别可合并装运的仓库。
 - 已关闭与未结装运合并。
-- 将使用默认 CrossOrder 策略选择的字段跨订单进行合并（以复制之前的**仓库**复选框）。
+- 将使用默认 CrossOrder 策略选择的字段跨订单进行合并（以复制之前的**在发放到仓库时合并装运**复选框）。
 
 通常可使用在[方案 1](#scenario-1) 中创建的默认策略解决此业务案例。 但是，也可以执行以下步骤手动创建类似策略。
 

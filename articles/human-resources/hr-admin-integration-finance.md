@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1558d050627c8dc64727884901ed0d0716df0c50
-ms.sourcegitcommit: f481dfd6bf93bb3e03a7bd9a765e2cfd14305d02
+ms.openlocfilehash: f542bb12910e3a4884c38a2fb24831c42a545908
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "3169269"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431260"
 ---
 # <a name="configure-integration-with-finance"></a>配置与 Finance 的集成
 

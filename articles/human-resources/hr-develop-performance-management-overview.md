@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 062e04527c18e744d6935c92894891a36ab55bed
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 6147b5d92381d76c572f8a10e52c9ed00225e7eb
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008223"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3430432"
 ---
 # <a name="performance-management"></a>绩效管理
 

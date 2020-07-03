@@ -1,0 +1,90 @@
+---
+title: 手风琴模块
+description: 本主题介绍手风琴模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+author: anupamar-ms
+manager: annbe
+ms.date: 06/01/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+audience: Application User
+ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: ''
+ms.author: anupamar
+ms.search.validFrom: 2019-10-31
+ms.dyn365.ops.version: ''
+ms.openlocfilehash: e06a0e0289e8c0c718aff4beab2c7a6ceb0a8cb1
+ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3417246"
+---
+# <a name="accordion-module"></a>手风琴模块
+
+[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
+
+本主题介绍手风琴模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+
+## <a name="overview"></a>概览
+
+手风琴模块是类似于容器的模块，用于通过提供可折叠的类似于抽屉的功能来组织页面上的信息或模块。 手风琴模块可以在任何页面上使用。
+
+在每个手风琴模块内，可以添加一个或多个手风琴项模块。 每个手风琴项模块都代表一个可折叠的抽屉。 在每个手风琴项模块内，可以添加一个或多个模块。 可添加到手风琴项模块的模块类型没有限制。
+
+下图显示了手风琴模块的示例，该模块用于组织商店的常见问题 (FAQ) 页面的信息。
+
+![手风琴模块的示例](./media/ecommerce-accordion.PNG)
+
+## <a name="accordion-module-properties"></a>手风琴模块属性
+
+| 属性名称 | 值 | 说明 |
+|---------------|--------|-------------|
+| 标题 | 文本 | 此属性为手风琴模块指定可选的文本标题。 |
+| 全部展开 | **True** 或 **False** | 如果此值设置为 **True**，表明展开/折叠功能已打开，手风琴模块中的所有项都可以展开和折叠。 |
+| 交互样式 | **独立**或**仅展开一项** | 此属性定义手风琴项的交互样式。 如果此值设置为**独立**，每个手风琴项都可以独立展开或折叠。 如果此值设置为**仅展开一项**，一次只能展开一项。 项展开时，以前展开的项将折叠。 |
+
+## <a name="accordion-item-module-properties"></a>手风琴项模块属性
+
+| 属性名称 | 值 | 说明 |
+|----------------|--------|-------------|
+| 职称 | 文本 | 此属性为手风琴项模块指定标题文本。 通过选择标题区域，用户可以展开或折叠此部分。 |
+| 默认展开 | **True** 或 **False** | 如果此值设置为 **True**，默认情况下，加载页面时会折叠手风琴项。 |
+
+## <a name="add-an-accordion-module-to-a-faq-page"></a>将手风琴模块添加到常见问题页面
+
+若要在站点构建器中将手风琴模块添加到常见问题页面，并设置模块的属性，请执行以下步骤。
+
+1. 转到**页面**，使用 Fabrikam 市场营销模板（或任何没有限制的模板）创建一个名为**商店常见问题**的新页面。
+1. 在**默认页**的**主**插槽，选择省略号 (**...**)，然后选择**添加模块**。
+1. 在**添加模块**对话框中，选择**容器**模块，然后选择**确定**。
+1. 在**容器**插槽中，选择省略号 (**...**)，然后选择**添加模块**。
+1. 在**添加模块**对话框中，选择**手风琴**模块，然后选择**确定**。
+1. 在手风琴模块的属性窗格中，选择铅笔符号旁边的**标题**。
+1. 在**标题**对话框中，在**标题文本**下，输入**常见问题**。 然后选择**确定**。
+1. 在手风琴模块的属性窗格中，选择**显示全部展开**复选框，然后在**交互样式**字段中，选择**独立**。
+1. 在**手风琴**插槽中，选择省略号 (**...**)，然后选择**添加模块**。
+1. 在**添加模块**对话框中，选择**手风琴项**模块，然后选择**确定**。
+1. 在手风琴项模块的属性窗格中，在**标题**下，输入标题文本（例如，**如何进行退货?**）。
+1. 在**手风琴项**插槽中，选择省略号 (**...**)，然后选择**添加模块**。
+1. 在**添加模块**对话框中，选择**文本块**模块，然后选择**确定**。
+1. 在文本块模块的属性窗格中，输入一段文本（例如，**退货必须通过呼叫中心处理。退货请联系 1-800-FABRIKAM。产品拥有 30 天退货政策。退货必须在此时间范围内发起。**）。
+1. 在**手风琴**插槽中，再添加几个手风琴项模块。 在每个手风琴项模块中，添加一个有内容的文本块模块。
+1. 选择**保存**，然后选择**预览**以预览页面。 页面将显示一个包含您添加的内容的手风琴模块。
+1. 选择**完成编辑**签入页面，然后选择**发布**进行发布。
+
+## <a name="additional-resources"></a>其他资源
+
+[入门套件概览](starter-kit-overview.md)
+
+[容器模块](add-container-module.md)
+
+[选项卡模块](add-tab.md)
+
+[文本块模块](add-content-rich-block.md)

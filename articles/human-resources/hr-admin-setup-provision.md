@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 88a0be50a9b861190e7ce9b3f56bb4e583b791d1
-ms.sourcegitcommit: 33685a5cc37081a189279e917def7f122d3beaef
+ms.openlocfilehash: e37777b8000fb3afbc72ff9c61347085816e36c9
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "3285481"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431214"
 ---
 # <a name="provision-human-resources"></a>设置 Human Resources
 

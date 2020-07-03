@@ -3,7 +3,7 @@ title: 客户服务解决方案概述
 description: 此主题提供商店应用程序中可用的新客户服务解决方案功能的概览。
 author: bebeale
 manager: AnnBe
-ms.date: 11/01/19
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 4f045f8509a6b5027fd3cf8e5ca9e382457a5e83
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
+ms.sourcegitcommit: 21943fa91c35f063a5bd064290bf2c005394df52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021702"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456499"
 ---
 # <a name="clienteling-overview"></a>客户服务解决方案概览
 
@@ -115,7 +115,7 @@ ms.locfileid: "3021702"
 3. 创建一个 Azure 密钥保管库，并保存应用程序密钥。 有关说明，请参阅[快速入门：使用 Azure 门户设置密钥以及从 Azure 密钥保管库检索密钥](https://docs.microsoft.com/azure/key-vault/quick-create-portal)。
 4. 启用从 Commerce 访问 Azure 密钥保管库。 要完成此步骤，您必须具有应用程序 ID 和密钥。 此应用程序可以是您在步骤 1 中创建的同一个应用程序，也可以是新应用程序。 （换句话说，您可以将在步骤 1 中创建的应用程序同时用于密钥保管库访问和 Customer Insights 服务访问，也可以为每种类型的访问创建唯一的应用程序。）有关说明，请参阅[将服务主体凭据存储在 Azure Stack 密钥保管库中](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal)。
 5. 在“总部”中，转到**系统管理 \> 设置 \> 密钥保管库参数**，然后输入密钥保管库所需的信息。 然后，在**密钥保管库客户端**字段中，输入您在步骤 4 中使用的应用程序 ID，以便 Commerce 可以访问密钥保管库中的密钥。
-6. 要将您在步骤 1 中创建的应用程序添加到安全应用程序列表（有时称为白名单）中，请转到 Customer Insights，并提供对应用程序的**查看**访问权限。 有关说明，请参阅[权限](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions)。
+6. 要将您在步骤 1 中创建的应用程序添加到安全应用程序列表（有时称为安全列表）中，请转到 Customer Insights，并提供对应用程序的**查看**访问权限。 有关说明，请参阅[权限](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions)。
 7. 在 Commerce 中，在**商业参数**页面上，在**客户服务解决方案**选项卡上的 **Dynamics 365 Customer Insights** 快速选项卡中，请执行以下步骤：
 
     1. 在**应用程序 ID** 字段中，输入您在步骤 1 中使用的应用程序 ID。

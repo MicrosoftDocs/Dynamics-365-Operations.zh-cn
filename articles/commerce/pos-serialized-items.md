@@ -3,7 +3,7 @@ title: 在 POS 中处理序列化产品
 description: 本主题说明如何在销售点 (POS) 应用程序中管理序列化产品。
 author: boycezhu
 manager: annbe
-ms.date: 04/21/2020
+ms.date: 05/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,17 +15,16 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 1e0d6aa7cd5576578378e70c6ee808833314aff3
-ms.sourcegitcommit: 919620b4aca425e6a1248ee12f50a622d2531e58
+ms.openlocfilehash: eedb64ae04345cb94bdd8cc68de833cfcfd40119
+ms.sourcegitcommit: 39981582778b0a62567324452485a6721ca18284
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "3290762"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3407490"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>在 POS 中处理序列化产品
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 许多零售商出售需要进行一系列控制的产品。 这些产品称为*序列化产品*。 一些零售商可能希望保留序列号以进行跟踪。 其他零售商可能希望在销售流程中获取序列号，以用于维护和保修目的。 本主题说明如何在 Microsoft Dynamics 365 Commerce 销售点 (POS) 应用程序中管理序列化产品。
 

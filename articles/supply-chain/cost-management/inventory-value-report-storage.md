@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 03426e86186c6aa283531eb37ae26527e6891042
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 2742c5c12dcc554745b618dd1ff819c8c1e1d05f
+ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276890"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3413091"
 ---
 # <a name="inventory-value-storage-report"></a>库存值存储报表
 
@@ -50,7 +50,7 @@ ms.locfileid: "3276890"
 1. 选择**新建**。
 1. 在显示的**库存值**对话框中，设置以下值以定义报表中包括哪些记录：
 
-    - 在**参数**快速选项卡上，输入报表的唯一名称，然后使用**日期间隔**部分的字段来定义报表中包括哪些记录。 要定义日期间隔，您可以在**日期间隔代码**字段中选择预设范围（相对于报表生成日期），也可以在**开始日期**和**结束日期**字段中选择特定日期。 <!-- KFM: What is the ID setting for here? What do its values mean? -->
+    - 在**参数**快速选项卡上，输入报表的唯一名称，然后使用**日期间隔**部分的字段来定义报表中包括哪些记录。 要定义日期间隔，您可以在**日期间隔代码**字段中选择预设范围（相对于报表生成日期），也可以在**开始日期**和**结束日期**字段中选择特定日期。
     - 在**要包括的记录**快速选项卡上，设置筛选器和约束以定义要在报表中包括的数据。
     - 在**在后台运行**快速选项卡上，指定生成报表的方式、时间和频率。
 

@@ -1,6 +1,6 @@
 ---
-title: 在应收账款中的信用和收款
-description: 应付帐款收款信息使用 Microsoft Dynamics 365 Finance 收款页在一个中央视图中进行管理。 信用和收款经理可以使用该中央视图管理收款。 收款代理通过使用预定义的收集标准，或者从客户页生成的客户列表收集流程开始。
+title: 应收账款中的收款
+description: 应付帐款收款信息使用 Microsoft Dynamics 365 Finance 收款页在一个中央视图中进行管理。 信用和收款经理可以使用该中央视图管理收款。 收款代理可以从使用预定义收款条件生成的客户列表或从“客户”页开始收款流程。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 471de43bc0d171e60100613a6d779a249cd9e92f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c150eb7283b34c82e728da36ed0e1e6643eff46a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189169"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426388"
 ---
-# <a name="credit-and-collections-in-accounts-receivable"></a>在应收账款中的信用和收款
+# <a name="collections-in-accounts-receivable"></a>应收账款中的收款
 
 [!include [banner](../includes/banner.md)]
 

@@ -3,7 +3,7 @@ title: 视频
 description: 此页列出 Microsoft 制作的与 Finance and Operations应用有关的“操作方法”视频和技术交流视频，可在 YouTube 和其他网站中观看。
 author: josaw1
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: f5e7751b71c75f80f1c3031ef00b32e80e7db42a
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: e4756e4d1697fdba40ad8a71a5d33594583a219a
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367121"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456941"
 ---
 # <a name="videos"></a>视频 
 
@@ -122,6 +122,9 @@ ms.locfileid: "3367121"
 - [成本控制移动工作区](https://youtu.be/imsuTg8rUVk)
 - [开始使用成本核算](https://youtu.be/1pUDtJQZ8FU)
 - [使用 Excel 进行成本分析](https://youtu.be/-HKHYdClvx8)
+
+### <a name="customer-portal"></a>客户门户
+- [Dynamics 365 Supply Chain Management 中的客户门户模板概述](https://youtu.be/nPrqoLuHfV8)
 
 ### <a name="help-system"></a>帮助系统
 

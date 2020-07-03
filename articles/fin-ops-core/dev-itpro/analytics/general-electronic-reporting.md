@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: d050bfa5b28219ef421dba4ed3a72f11bfd4daee
+ms.sourcegitcommit: 7816902b59aa61d9183d54b50a86e282661e3971
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933924"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3421647"
 ---
 # <a name="electronic-reporting-er-overview"></a>电子申报 (ER) 概览
 
@@ -81,7 +81,7 @@ ER 支持两种组件类型：**数据模型**和**格式**。
 
 为每个业务域设计了一个数据模型组件，业务域将用作报告的统一数据源，用于将报告与数据源的物理实施隔离。 它表示提高了报告格式的初始设计和后续维护的效率的窗体中特定于域的业务概念和功能。
 
-#### <a name="FormatComponentOutbound"></a>传出电子文档的格式组件
+#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>传出电子文档的格式组件
 
 格式组件是在运行时生成的报告输出的方案。 方案由下列元素组成︰
 
@@ -107,7 +107,7 @@ ER 支持两种组件类型：**数据模型**和**格式**。
 
 要运行单个 ER 格式配置和生成传出电子文档，您必须确定格式配置的映射。
 
-#### <a name="FormatComponentInbound"></a>传入电子文档的格式组件
+#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>传入电子文档的格式组件
 格式组件是在运行时导入的传入文档的方案。 方案由下列元素组成︰
 
 - 定义包含在运行时导入的数据的传入电子文档的结构和内容的格式。 格式组件用于分析不同格式（例如文本和 XML）的传入文档。
@@ -144,7 +144,7 @@ ER 组件版本是有时限的。 可以设置 ER 组件的**生效**日期以�
 
 不同版本的数据格式组件可以有不同的 ISO 国家/地区代码设置。
 
-#### <a name="Configuration"></a>配置
+#### <a name="configuration"></a><a name="Configuration"></a>配置
 
 ER 配置是特定 ER 组件的包装。 该组件可以是数据模型组件或组件格式。 配置可包括不同版本的 ER 组件。 每个配置被标记为由特定配置提供商所有。 当配置的所有者已选为应用程序内 ER 设置中的有效提供商时，配置的组件的**草稿**版本可进行编辑。
 
@@ -154,26 +154,26 @@ ER 配置是特定 ER 组件的包装。 该组件可以是数据模型组件或
 
 将对应用程序公司共享 ER 配置。
 
-#### <a name="Provider"></a>提供程序
+#### <a name="provider"></a><a name="Provider"></a>提供程序
 
 ER 提供商是用于指示每个 ER 配置的作者（所有者）的当事方的标识符。 ER 可以管理配置提供商的列表。 作为 Finance and Operations 解决方案的一部分为电子单据发布的格式配置被标记为由配置提供商 **Microsoft** 所有。
 
 要了解如何登记新的 ER 提供商，可播放任务指南，**ER 创建配置提供商并将其标记为有效**（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）。
 
-#### <a name="Repository"></a>知识库
+#### <a name="repository"></a><a name="Repository"></a>知识库
 
 ER 存储库中会存储 ER 配置。 目前支持以下 ER 存储库类型： 
 
 - LCS 共享库
 - LCS 项目
 - 文件系统
-- 监管配置服务 (RCS)
-- 运营资源
-
+- RCS
+- Operations 资源
+- 全局知识库
 
 **LCS 共享库**存储库提供对 Lifecycle Services (LCS) 中共享资产库内的配置列表的访问。 只能为 Microsoft 提供程序注册这种类型的 ER 存储库。 可将最新版本的 ER 配置从 LCS 共享资产库导入到当前实例中。
 
-**LCS 项目**存储库允许您访问在存储库登记阶段选择的特定 LCS 项目（LCS 项目资产库）的配置列表。 ER 让你可以从当前实例将共享配置上载到特定 **LCS 项目**存储库。 你还可以从 **LCS 项目**存储库将配置导入到当前的 Finance and Operations 实例。
+**LCS 项目**存储库允许您访问在存储库登记时选择的特定 LCS 项目（LCS 项目资产库）的配置列表。 ER 让你可以从当前实例将共享配置上载到特定 **LCS 项目**存储库。 您还可以从 **LCS 项目**存储库将配置导入到您的 Finance and Operations 应用的当前实例。
 
 **文件系统**存储库提供对作为 xml 文件位于承载 AOS 服务的计算机的本地文件系统的特定文件夹的配置列表的访问。 所需文件夹在存储库登记阶段选择。 你可以从**文件系统**存储库将配置导入到当前实例。 
 
@@ -184,9 +184,13 @@ ER 存储库中会存储 ER 配置。 目前支持以下 ER 存储库类型：
 
 有关详细信息，请参阅[导入电子申报 (ER) 配置](./electronic-reporting-import-ger-configurations.md)。
 
-**RCS 实例**存储库允许您访问在存储库登记阶段选择的特定 RCS 实例的配置列表。 ER 让您可以将完成的或共享的配置从所选的 RCS 实例导入到当前实例并用于电子申报。
+**RCS** 存储库允许您访问在存储库登记阶段选择的 [Configuration service (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) 的特定实例的配置列表。 ER 让您可以将完成的或共享的配置从所选的 RCS 实例导入到当前实例并用于电子申报。
 
-有关详细信息，请参阅[从监管配置服务 (RCS) 导入电子申报 (ER) 配置](./rcs-download-configurations.md)。
+有关详细信息，请参阅[从 RCS 导入电子申报 (ER) 配置](./rcs-download-configurations.md)。
+
+一个**全局知识库**存储库提供对[配置服务](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)中全局知识库中的配置列表的访问。 只能为 Microsoft 提供程序注册这种类型的 ER 存储库。 可将最新版本的 ER 配置从全局知识库导入到当前实例中。
+
+有关详细信息，请参阅[从配置服务的全局知识库导入电子申报 (ER) 配置](./er-download-configurations-global-repo.md)。
 
 **运营资源**存储库允许您访问由 Microsoft 最初作为 EER 配置提供商发布的作为应用程序解决方案的一部分的配置的列表。 这些配置可以导入到当前实例，并且可以用于电子申报或播放示例任务指南。 它们还可以用于其他本地化和自定义。 请注意，必须使用相应的 ER 存储库从 LCS 共享资产库导入 Microsoft ER 配置提供的最新版本。
 

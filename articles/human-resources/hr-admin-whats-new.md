@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: SystemAdministrationWorkspaceForm, FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f14056735b927d9b14f686f43bd9be121808ba23
-ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
+ms.openlocfilehash: 33c436c0ac65470c6237d079314222b2925cfca7
+ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3379275"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "3443433"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Human Resources 新增功能或更改
 
@@ -41,7 +41,10 @@ ms.locfileid: "3379275"
 
 要查看 Human Resources 的双周版本的中的新增功能或更改的功能，请参阅以下文章：
 
-[2020 年 5 月 14 日](hr-whats-new-2020-05-14.md)</br>[2020 年 5 月 1 日](hr-whats-new-2020-05-01.md)</br>
+[2020 年 6 月 11 日](hr-whats-new-2020-06-11.md)</br>
+[2020 年 5 月 28 日](hr-whats-new-2020-05-28.md)</br>
+[2020 年 5 月 14 日](hr-whats-new-2020-05-14.md)</br>
+[2020 年 5 月 1 日](hr-whats-new-2020-05-01.md)</br>
 [2020 年 4 月 13 日](hr-whats-new-2020-04-13.md)</br>
 [2020 年 4 月 3 日](hr-whats-new-2020-04-03.md)</br>
 [三月 24, 2020](hr-whats-new-2020-03-24.md)</br>

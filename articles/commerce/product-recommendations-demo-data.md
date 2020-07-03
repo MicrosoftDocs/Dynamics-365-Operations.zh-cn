@@ -3,7 +3,7 @@ title: 使用演示数据创建建议
 description: 此主题使用预填充的可自定义演示数据提供有关如何在 1 级单盒环境中利用全渠道产品建议的指导。
 author: bebeale
 manager: AnnBe
-ms.date: 03/30/20
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec23461352abc53b90b6af539a3dd1764e4b5460
-ms.sourcegitcommit: 67cf9e2cf0f75e90526cae6bf176a40156c62a53
+ms.openlocfilehash: 59b4dd7a29af739d92a20f6fe55eff9f201fcb6d
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175541"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454548"
 ---
 # <a name="create-recommendations-with-demo-data"></a>使用演示数据创建建议
 
@@ -71,7 +71,7 @@ ms.locfileid: "3175541"
 
 [产品建议概览](product-recommendations.md)
 
-[在 Dynamics 365 Commerce 环境中启用 ADLS](enable-adls-environment.md)
+[在 Dynamics 365 Commerce 环境中启用 Azure Data Lake Storage](enable-adls-environment.md)
 
 [启用产品建议](enable-product-recommendations.md)
 

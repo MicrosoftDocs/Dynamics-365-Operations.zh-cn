@@ -3,12 +3,12 @@ title: 应计休假和缺勤计划
 description: 您可以在 Dynamics 365 Human Resources 中累积多个或单个员工的休假和缺勤。
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3197305"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429051"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>应计休假和缺勤计划
 
@@ -103,7 +103,19 @@ ms.locfileid: "3197305"
 
 2. 在**管理休假**下，选择**删除休假累积审核**。
 
+## <a name="configure-preview-features"></a>配置预览功能
+
+[!include [banner](includes/preview-feature-leave-absence.md)]
+
+如果您已启用休假和缺勤的预览功能，您还需要为其配置设置。
+
+### <a name="accrue-leave-per-company-or-per-leave-plan"></a>按公司或按休假计划累积休假
+
+在累积休假和缺勤计划时，您可以选择对所有公司累积。 如果选择所有公司，则不能选择单个休假计划。 如果您选择不对所有公司累积，您可以对特定休假计划累积。 
+
+当对所有员工或单个员工累积时，这些选项可用。 
+
 ## <a name="see-also"></a>请参阅
 
-- [休假和缺勤概览](hr-leave-and-absence-overview.md)
-- [创建休假和缺勤计划](hr-leave-and-absence-plans.md)
+[休假和缺勤概览](hr-leave-and-absence-overview.md)</br>
+[创建休假和缺勤计划](hr-leave-and-absence-plans.md)

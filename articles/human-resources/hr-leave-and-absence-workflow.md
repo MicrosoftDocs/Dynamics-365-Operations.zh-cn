@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c985a0cb242fb6696b55a2514bd788ff4269f8ca
-ms.sourcegitcommit: def66a9dc7feadd33411248af2545ee4a9e27c4f
+ms.openlocfilehash: 209f0ec7236778cc0a828102e554b02206b45b73
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "3385540"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428677"
 ---
 # <a name="create-a-leave-request-workflow"></a>创建休假请求工作流
 

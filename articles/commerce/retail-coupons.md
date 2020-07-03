@@ -3,7 +3,7 @@ title: 设置零售销售优惠券
 description: 此主题提供优惠券概览并阐述如何进行设置。
 author: scott-tucker
 manager: AnnBe
-ms.date: 05/22/2017
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4c580e40ae1f0398ab9f8437d42ddcb2979558c3
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057363"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431970"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>设置零售销售优惠券
 
@@ -48,8 +48,10 @@ ms.locfileid: "3057363"
 
 此限制按优惠券上的优惠券代码执行。 例如，具有两个优惠券代码的单次使用优惠券可以使用两次：每个优惠券代码可使用一次。 优惠券上的每个代码可以单独设置为有效。
 
+优惠券可以跨任何销售渠道使用，但是对于呼叫中心订单，限制使用优惠券只能用于那些呼叫中心的**订单完成**设置已启用的呼叫中心订单。 如果未启用此设置，呼叫中心订单只能使用非限制使用类型的优惠券。
+
 > [!NOTE]
-> 优惠券达到使用限制时，系统*不*自动将优惠券代码的状态更改为“已用”。 但是，系统不允许再使用已达到使用限制的优惠券代码。 如果将优惠券代码的状态手动设置为除“活动”之外的其他状态，则任何渠道均不可使用此优惠券代码。
+> 优惠券达到使用限制后，系统*不*自动将优惠券代码的状态更改为“已用”。 但是，该优惠券代码已达到使用限制，无法使用。 如果将优惠券代码的状态手动设置为除**活动**之外的其他状态，则任何渠道均不可使用此优惠券代码。  
 
 ## <a name="managing-coupons"></a>管理优惠券
 

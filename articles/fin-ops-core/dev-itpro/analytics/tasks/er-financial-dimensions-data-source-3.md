@@ -3,7 +3,7 @@ title: ER 将财务维度用作数据源（第 3 部分 - 设计报表）
 description: 以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便将财务维度用作 ER 报表的数据源。
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7bbbc81eaf8c13e8d13e30a0276e38453e07ead9
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: cef61787e50561eaac4fd52741ab5f90d9c4171d
+ms.sourcegitcommit: d9125c20b21459076e4fd92fd9ebfe2e53a0431b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142516"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3406489"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER 将财务维度用作数据源（第 3 部分 - 设计报表）
 
@@ -95,6 +95,7 @@ ms.locfileid: "3142516"
 59. 单击“添加属性”。
 60. 在“名称”字段中，键入“描述”。
 61. 单击“确定”。
+![ER Operations 设计器页](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>将报表元素映射到数据源
 1. 单击“映射”选项卡。
@@ -143,4 +144,5 @@ ms.locfileid: "3142516"
 44. 单击“绑定”。
 45. 单击“保存”。
 46. 关闭该页面。
+![ER Operations 设计器页](../media/er-financial-dimensions-guides-format2.png)
 

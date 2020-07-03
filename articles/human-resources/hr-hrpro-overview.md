@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EssWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7bef82f83de150df69a1a001fa9c07e34270742d
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091716"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428748"
 ---
 # <a name="overview"></a>概览
 
@@ -109,7 +109,7 @@ Dynamics 365 Human Resources 用户指南为您提供有关设置 Human Resource
 
 [绩效管理概览](hr-develop-performance-management-overview.md)</br>
 [调整劳动力技能](hr-develop-skills.md)</br>
-[添加到您的绩效日记账](hr-develop-add-performance-journal.md)</br>
+[添加到您的绩效日记帐](hr-develop-add-performance-journal.md)</br>
 [创建目标](hr-develop-create-goal.md)</br>
 [创建绩效审核](hr-develop-create-performance-review.md)</br>
 

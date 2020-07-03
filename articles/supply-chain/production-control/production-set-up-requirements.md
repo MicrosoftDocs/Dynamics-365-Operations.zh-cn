@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55820d7376750c210d2b7f214f705ffcb222c6cd
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
+ms.sourcegitcommit: f3456df4d91cf0c51cd395ae64e3c192bd46835e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212495"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428392"
 ---
 # <a name="production-setup-requirements"></a>生产设置需求
 
@@ -71,7 +71,7 @@ ms.locfileid: "3212495"
 2.  **成本组** – 设置用于创建和维护不同类型的成本计算的成本组。
 3.  **工艺路线组** – 设置工艺路线组，以便定义与工艺路线组有关的参数。 您必须首先设置工艺路线组，然后才能创建生产工艺路线。
 4.  **工艺路线** – 设置生产工艺路线，并定义默认设置，用于控制排产、成本计算和工艺路线工序价格以及控制进度报告。
-5.  **工艺路线** – 设置工艺路线版本，以便实现生产中的物料变化。
+5.  **工艺路线版本** – 设置工艺路线版本，以便实现生产中的物料变化。
 
 ## <a name="optional-advanced-settings"></a>可选的高级设置
 1.  **生产组** – 设置生产组，以便在生产订单和会计科目之间建立关系。 会计科目用于对订单进行过帐或分组，以便报告。

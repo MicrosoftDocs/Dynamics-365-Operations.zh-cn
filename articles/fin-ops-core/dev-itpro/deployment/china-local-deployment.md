@@ -1,28 +1,28 @@
 ---
-title: 由世纪互联在中国运营的 Finance and Operations 应用
-description: 该主题提供有关由世纪互联在中国运营的 Finance and Operations 应用的信息。
-author: ShylaThompson
+title: 世纪互联在中国运营的 Dynamics 365 Finance 和世纪互联在中国运营的 Dynamics 365 Supply Chain Management
+description: 本主题提供有关 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management（由世纪互联在中国运营）的信息。
+author: kfend
 manager: AnnBe
-ms.date: 03/06/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 62803149640c909994e2c36f61235a124a025dcc
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: 4088c8e82c1087e240e35d73b2e567e091af2a2e
+ms.sourcegitcommit: 3fa1e8583003a90ba486f757c3826b139e1b3f73
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112252"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3421520"
 ---
-# <a name="finance-and-operations-apps---operated-by-21vianet-in-china"></a>由世纪互联在中国运营的 Finance and Operations 应用
+# <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management---operated-by-21vianet-in-china"></a>Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management - 由世纪互联在中国运营
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,11 +32,11 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 
 ## <a name="provisioning"></a>预配
 
-在选择如何访问 Finance and Operations 应用时，中国客户有两个选项。
+在选择如何访问 Finance 和 Supply Chain Management 应用时，中国客户有两个选项。
 
-- 由世纪互联在中国运营的服务 - 世纪互联在中国运营并提供 Finance and Operations 服务。 此选项提供与全球服务同样的一致应用程序体验。 此选项同时可满足希望使用由在中国境内存储数据的本地公司提供的联机服务的客户的要求。 为了遵守中国法律，这些服务有可能会有所更改。
+- 由世纪互联在中国运营的服务 - 世纪互联在中国运营并提供 Finance 和 Supply Chain Management 服务。 此选项提供与全球服务同样的一致应用程序体验。 此选项同时可满足希望使用由在中国境内存储数据的本地公司提供的联机服务的客户的要求。 为了遵守中国法律，这些服务有可能会有所更改。
 
-- 由 Microsoft 运营的服务 - 此选项适用于希望使用 Microsoft 管理和提供的服务的 Finance and Operations 客户。 无论是新客户还是现有客户，只要客户通过企业协议购买了 Microsoft Azure、Dynamics 365 和 Office，Office 365 和/或 Dynamics 365 就可以在租户中共存。
+- 由 Microsoft 运营的服务 – 此选项适用于希望使用 Microsoft 管理和提供的服务的 Finance 和 Supply Chain Management 客户。 无论是新客户还是现有客户，只要客户通过企业协议购买了 Microsoft Azure、Dynamics 365 和 Office，Office 365 和/或 Dynamics 365 就可以在租户中共存。
 
 预配服务期间需要考虑到若干技术限制，以避免潜在的问题。 
 
@@ -104,3 +104,4 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 - [OSPT of Dynamics 365 (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/ostpt/)
 - [Azure 文档（中文）](https://docs.azure.cn/zh-cn/)
 - [中国区 Azure 世纪互联](https://docs.microsoft.com/azure/china/china-welcome)
+- [业务应用程序在中国的可用性 – 由世纪互联在中国运营](https://docs.microsoft.com/power-platform/admin/business-applications-availability-china)

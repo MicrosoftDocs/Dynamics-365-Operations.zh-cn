@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 0c2babc3144cae5c68075bd853a2587505263776
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248728"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410142"
 ---
-# <a name="use-the-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool 使用教程
+# <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool 教程
 
 [!include [banner](../includes/banner.md)]
 
@@ -454,7 +454,7 @@ playback e:\temp\test.xlsx
 - 客户名称
 - 客户地址
 
-客户 ID 的格式为 *ATCUS\<number\>*，其中， \<number\> 是一个 **000000001** 与 **999999999** 之间的值。
+客户 ID 的格式为 *ATCUS\<number\>*，其中，\<number\> 是一个 **000000001** 与 **999999999** 之间的值。
 
 以下示例使用一个参数 **start** 定义使用的第一个数字。 使用第二个参数 **nr** 定义必须创建的客户数量。 对于每个迭代，可使用 UpdateCustomer 函数更改 Excel 参数文件中的参数。 然后，在 RunTestCase 函数中调用 RSAT 命令行。
 

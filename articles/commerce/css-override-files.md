@@ -3,7 +3,7 @@ title: 处理 CSS 覆盖文件
 description: 本主题介绍为什么、何时以及如何在 Microsoft Dynamics 365 Commerce 中使用级联样式表 (CSS) 覆盖文件。
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3c40145ea76296c1b8df9284af820534e3c869d4
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3ec43b16b1df07400cffe597378ad4035e4d07e0
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001844"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411239"
 ---
 # <a name="work-with-css-override-files"></a>处理 CSS 覆盖文件
 
@@ -102,6 +102,8 @@ ms.locfileid: "3001844"
 [添加徽标](add-logo.md)
 
 [选择站点主题](select-site-theme.md)
+
+[使用样式预设](style-presets.md)
 
 [添加收藏夹图标](add-favicon.md)
 

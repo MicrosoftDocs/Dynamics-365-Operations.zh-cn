@@ -3,24 +3,24 @@ title: 对 POS 登录启用 Azure Active Directory 身份验证
 description: 此主题介绍如何为 Microsoft Dynamics 365 Commerce 销售点 (POS) 配置登录体验，以便使用 Azure Active Directory 身份验证。
 author: boycezhu
 manager: annbe
-ms.date: 03/08/2020
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: v-chgri
 ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: dfc49585434383385b6b993893d93b95ef888384
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248932"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410027"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>对 POS 登录启用 Azure Active Directory 身份验证
 [!include [banner](includes/banner.md)]
@@ -47,6 +47,8 @@ ms.locfileid: "3248932"
 
 > [!NOTE]
 > Azure AD 身份验证需要 Internet 连接。 如果 POS 处于脱机模式，将不能工作。
+> 
+> 目前，**经理覆盖**功能不支持将 Azure AD 作为身份验证方法。 即使将 Azure AD 配置为 POS 登录的身份验证方法，也需要操作员 ID 和密码。
 
 ## <a name="associate-an-azure-ad-account-with-a-worker"></a>将 Azure AD 帐户与工作人员关联
 
