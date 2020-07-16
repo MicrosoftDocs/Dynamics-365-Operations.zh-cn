@@ -14,15 +14,13 @@
               items:
                 - name: “Platform update 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
-                - name: 针对 10.0.12 的 Platform update（2020 年 8 月）
+                - name: 针对 10.0.12 的平台更新（2020 年 8 月）
                   href: get-started/whats-new-platform-update-10-0-12.md
-                - name: 针对 10.0.11 的 Platform update（2020 年 7 月）
+                - name: 针对 10.0.11 的平台更新（2020 年 7 月）
                   href: get-started/whats-new-platform-update-35.md
-                - name: 针对 10.0.10 的 Platform update（2020 年 5 月）
-                  href: get-started/whats-new-platform-update-34.md
             - name: 已删除或弃用的功能
               items:
-                - name: 已删除或弃用的 Platform 功能
+                - name: 已删除或弃用的平台功能
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: 先前版本中已删除或弃用的功能
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -64,7 +62,7 @@
                   href: business-events/how-to/FormsPro.md
                 - name: 业务事件和 Azure 事件中心
                   href: business-events/how-to/event-hub.md
-                - name: 财务期间结账中的业务事件
+                - name: 财务期间结帐中的业务事件
                   href: business-events/how-to/period-close.md
         - name: 连续交货
           items:
@@ -188,7 +186,7 @@
                               items:
                                 - name: 访问财税引用数据
                                   href: data-entities/dual-write/finance-tax-reference.md
-                                - name: 集成的分类账
+                                - name: 集成的分类帐
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: 集成的税收主数据
                                   href: data-entities/dual-write/tax-mapping.md
@@ -713,9 +711,29 @@
                         - name: 事件
                           href: dev-ref/xpp-events.md
                     - name: X++ 数据选择和操作
-                      href: dev-ref/xpp-data-query.md
-                    - name: 使用 SysDa API 进行数据访问
-                      href: dev-ref/sysda.md
+                      items:
+                        - name: X++ 数据选择和操作概览
+                          href: dev-ref/xpp-data/xpp-data-home-page.md
+                        - name: select 语句
+                          href: dev-ref/xpp-data/xpp-select-statement.md
+                        - name: 选择数据
+                          href: dev-ref/xpp-data/xpp-select.md
+                        - name: 插入数据
+                          href: dev-ref/xpp-data/xpp-insert.md
+                        - name: 更新数据
+                          href: dev-ref/xpp-data/xpp-update.md
+                        - name: 删除数据
+                          href: dev-ref/xpp-data/xpp-delete.md
+                        - name: while select 语句
+                          href: dev-ref/xpp-data/xpp-while-select.md
+                        - name: 编写选择语句作为表达式
+                          href: dev-ref/xpp-data/xpp-select-expression.md
+                        - name: 事务完整性
+                          href: dev-ref/xpp-data/xpp-transaction.md
+                        - name: 从基于集的操作转换为逐记录操作
+                          href: dev-ref/xpp-data/xpp-data-perf.md
+                        - name: 使用 SysDa API 进行数据访问
+                          href: dev-ref/sysda.md
                     - name: X++ 宏
                       href: dev-ref/xpp-macros.md
                     - name: X++ 属性类
@@ -754,76 +772,58 @@
                   href: dev-ref/system-tables.md
                 - name: 系统类
                   items:
-                    - name: A 类
-                      href: dev-ref/a-classes.md
-                    - name: B 类
-                      href: dev-ref/b-classes.md
-                    - name: C 类
-                      href: dev-ref/c-classes.md
-                    - name: D 类
-                      href: dev-ref/d-classes.md
-                    - name: E 类
-                      href: dev-ref/e-classes.md
-                    - name: F 类（FieldBinding 到 FormBuildAnimateControl）
-                      href: dev-ref/fieldbinding-classes.md
-                    - name: F 类（FormBuildButtonControl 到 FormBuildFastTabSummarySeparator）
-                      href: dev-ref/formbuildbuttoncontrol-classes.md
-                    - name: F 类（FormBuildFilterPaneControl 到 FormBuildRealControl）
-                      href: dev-ref/formbuildfilterpanecontrol-classes.md
-                    - name: F 类（FormBuildReferenceControl 到 FormButtonSeparatorControl）
-                      href: dev-ref/formbuildreferencecontrol-classes.md
-                    - name: F 类（FormChangeTracker 到 FormControlEventArgs）
-                      href: dev-ref/formchangetracker-classes.md
-                    - name: F 类（FormDataObject 到 FormFastTabHeaderControl）
-                      href: dev-ref/formdataobject-classes.md
-                    - name: F 类（FormFastTabSummarySeparator 到 FormGridControl）
-                      href: dev-ref/formfasttabsummaryseparator-classes.md
-                    - name: F 类（FormGroupControl 到 FormIntControl）
-                      href: dev-ref/formgroupcontrol-classes.md
-                    - name: F 类（FormListBoxControl 到 FormNotifyEventArgs）
-                      href: dev-ref/formlistboxcontrol-classes.md
-                    - name: F 类（FormObject 到 FormRealControl）
-                      href: dev-ref/formobject-classes.md
-                    - name: F 类（FormReferenceControl 到 FormStringControl）
-                      href: dev-ref/formreferencecontrol-classes.md
-                    - name: F 类（FormTabControl 到 FormWindowControl）
-                      href: dev-ref/formtabcontrol-classes.md
-                    - name: G 类
-                      href: dev-ref/g-classes.md
-                    - name: H 类
-                      href: dev-ref/h-classes.md
-                    - name: I 类
-                      href: dev-ref/i-classes.md
-                    - name: J 类
-                      href: dev-ref/j-classes.md
-                    - name: K 类
-                      href: dev-ref/k-classes.md
-                    - name: L 类
-                      href: dev-ref/l-classes.md
-                    - name: M 类
-                      href: dev-ref/m-classes.md
-                    - name: N 类
-                      href: dev-ref/n-classes.md
-                    - name: O 类
-                      href: dev-ref/o-classes.md
-                    - name: P 类
-                      href: dev-ref/p-classes.md
-                    - name: Q 类
-                      href: dev-ref/q-classes.md
-                    - name: R 类
-                      href: dev-ref/r-classes.md
-                    - name: S 类
-                      href: dev-ref/s-classes.md
-                    - name: T 类
-                      href: dev-ref/t-classes.md
-                    - name: U 类
-                      href: dev-ref/u-classes.md
-                    - name: V 类
-                      href: dev-ref/v-classes.md
-                    - name: W 类
-                      href: dev-ref/w-classes.md
-                    - name: X 类
-                      href: dev-ref/x-classes.md
+                    - name: 系统类列表
+                      href: dev-ref/system-classes/toc.yml
+                    - name: 按字母顺序分组的系统类
+                      items:
+                        - name: A 类
+                          href: dev-ref/a-classes.md
+                        - name: B 类
+                          href: dev-ref/b-classes.md
+                        - name: C 类
+                          href: dev-ref/c-classes.md
+                        - name: D 类
+                          href: dev-ref/d-classes.md
+                        - name: E 类
+                          href: dev-ref/e-classes.md
+                        - name: F 类
+                          href: dev-ref/f-classes.md
+                        - name: G 类
+                          href: dev-ref/g-classes.md
+                        - name: H 类
+                          href: dev-ref/h-classes.md
+                        - name: I 类
+                          href: dev-ref/i-classes.md
+                        - name: J 类
+                          href: dev-ref/j-classes.md
+                        - name: K 类
+                          href: dev-ref/k-classes.md
+                        - name: L 类
+                          href: dev-ref/l-classes.md
+                        - name: M 类
+                          href: dev-ref/m-classes.md
+                        - name: N 类
+                          href: dev-ref/n-classes.md
+                        - name: O 类
+                          href: dev-ref/o-classes.md
+                        - name: P 类
+                          href: dev-ref/p-classes.md
+                        - name: Q 类
+                          href: dev-ref/q-classes.md
+                        - name: R 类
+                          href: dev-ref/r-classes.md
+                        - name: S 类
+                          href: dev-ref/s-classes.md
+                        - name: T 类
+                          href: dev-ref/t-classes.md
+                        - name: U 类
+                          href: dev-ref/u-classes.md
+                        - name: V 类
+                          href: dev-ref/v-classes.md
+                        - name: W 类
+                          href: dev-ref/w-classes.md
+                        - name: X 类
+                          href: dev-ref/x-classes.md
             - name: 可扩展性
               items:
                 - name: 可扩展性主页
@@ -964,15 +964,15 @@
               items:
                 - name: 使用 Trace parser 进行跟踪
                   href: perf-test/trace-trace-tutorial.md
-                - name: 通过任务录制器和性能 SDK 进行单用户测试
+                - name: 通过任务录制器和 Performance SDK 进行单用户测试
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: 通过性能 SDK 和本地测试控制器进行多用户测试
+                - name: 通过 Performance SDK 和本地测试控制器进行多用户测试
                   href: perf-test/multi-user-testing-local-test-controller.md
                 - name: 通过 Performance SDK 和 Azure DevOps 进行多用户测试
                   href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: 通过性能 SDK 进行单用户或多用户测试的故障排除指南
+                - name: 通过 Performance SDK 进行单用户或多用户测试的故障排除指南
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
-                - name: 本地环境中的性能 SDK 和多用户测试
+                - name: 本地环境中的 Performance SDK 和多用户测试
                   href: perf-test/perfsdk-tutorial-lbd.md
                 - name: 使用 Trace parser 诊断问题和分析性能
                   href: perf-test/trace-parser.md
@@ -1434,6 +1434,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: 将 B2B 用户导出到 Azure AD
               href: sysadmin/implement-b2b.md
+            - name: 流程自动化
+              href: sysadmin/process-automation.md
             - name: 安全性
               items:
                 - name: 基于角色的安全性
@@ -1454,10 +1456,12 @@
                   href: sysadmin/tasks/set-up-segregation-duties.md
                 - name: 确定和解决职责划分冲突
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
-                - name: 向安全角色分配用户
+                - name: 将用户分配给安全角色
                   href: sysadmin/tasks/assign-users-security-roles.md
                 - name: 任务录制的安全诊断
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+            - name: 流程自动化
+              href: /sysadmin/process-automation.md
             - name: 批处理
               items:
                 - name: 批处理概览
@@ -1518,6 +1522,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: AX 2012 升级 - 沙盒环境中的数据升级
                   href: migration-upgrade/upgrade-data-sandbox.md
+                - name: AX 2012 升级 - 本地环境
+                  href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: AX 2012 升级 - 直接转换测试
                   href: migration-upgrade/upgrade-cutover-testing.md
                 - name: AX 2012 升级 - 升级后任务

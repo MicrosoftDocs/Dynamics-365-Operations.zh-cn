@@ -74,8 +74,6 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11（2020 年 7 月）
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10（2020 年 5 月）
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
@@ -443,7 +441,7 @@
               href: ../finance/budgeting/fiscal-calendars-fiscal-years-periods.md?toc=/dynamics365/supply-chain/toc.json
             - name: 财务维度
               href: ../finance/general-ledger/financial-dimensions.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 财务维度和过账
+            - name: 财务维度和过帐
               href: ../finance/general-ledger/Default-dimensions.md?toc=/dynamics365/supply-chain/toc.json
             - name: 向首席财务官工作区添加财务维度
               href: ../finance/general-ledger/CFO-workspace.md?toc=/dynamics365/supply-chain/toc.json
@@ -475,7 +473,7 @@
               href: ../finance/cost-accounting/tasks/configure-access-rights-cost-object-controller.md?toc=/dynamics365/supply-chain/toc.json
             - name: 定义成本控制单元
               href: ../finance/cost-accounting/tasks/define-cost-control-units.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 创建成本核算分类账
+            - name: 创建成本核算分类帐
               href: ../finance/cost-accounting/tasks/create-cost-accounting-ledger.md?toc=/dynamics365/supply-chain/toc.json
             - name: 统计维度成员和统计度量提供方模板
               href: ../finance/cost-accounting/statistical-measure-provider-template.md?toc=/dynamics365/supply-chain/toc.json
@@ -489,7 +487,7 @@
               href: ../finance/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md?toc=/dynamics365/supply-chain/toc.json
             - name: 创建成本累积政策
               href: ../finance/cost-accounting/tasks/create-cost-rollup-policy.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 管理成本核算分类账的数据源
+            - name: 管理成本核算分类帐的数据源
               href: ../finance/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md?toc=/dynamics365/supply-chain/toc.json
             - name: 处理和跟踪源数据
               href: ../finance/cost-accounting/tasks/process-trace-source-data.md?toc=/dynamics365/supply-chain/toc.json
@@ -617,7 +615,7 @@
                   href: cost-management/tasks/view-current-wip-status-production-order.md
                 - name: 比较生产订单上的有效、估计和实际成本
                   href: cost-management/tasks/compare-active-estimated-realized-costs.md
-                - name: 生产过账
+                - name: 生产过帐
                   href: cost-management/production-posting.md
                 - name: 设置可以生产或采购的产品
                   href: cost-management/manufactured-items-treated-as-purchased-items.md
@@ -1133,7 +1131,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 导入配置
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 从富通信存储库中下载电子报告配置
+                - name: 从 RCS 存储库中下载电子报告配置
                   items:
                     - name: 从 RCS 类型的电子报告存储库中下载配置
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
@@ -1141,7 +1139,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
             - name: 教程
               items:
-                - name: 使用 JOIN 数据源从多个申请表中获取数据
+                - name: 使用“联接”数据源从多个申请表中获取数据
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置与国家/地区上下文相关的电子报告模型映射
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
@@ -1739,7 +1737,7 @@
                   href: procurement/tasks/create-vendor-account.md
                 - name: 创建供应商银行帐户
                   href: procurement/tasks/create-vendor-bank-account.md
-                - name: 供应商过账模板
+                - name: 供应商过帐模板
                   href: ../finance/accounts-payable/vendor-posting-profiles.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 供应商请求配置
                   href: procurement/vendor-request-configurations.md
@@ -2035,7 +2033,7 @@
                       href: production-control/allocate-time-jobs-job-bundle.md
                     - name: 计算物料消耗量
                       href: production-control/consumption.md
-                    - name: 生产过账
+                    - name: 生产过帐
                       href: cost-management/production-posting.md
                 - name: 考勤管理登记
                   items:
@@ -2197,7 +2195,7 @@
                       href: production-control/allocate-time-jobs-job-bundle.md
                     - name: 计算物料消耗量
                       href: production-control/consumption.md
-                    - name: 生产过账
+                    - name: 生产过帐
                       href: cost-management/production-posting.md
         - name: 销售和市场营销
           items:
@@ -2429,7 +2427,7 @@
                       href: service-management/delete-return-order.md
                     - name: 将退回物料送检
                       href: service-management/pass-returned-items-on-to-inspection.md
-                    - name: 过账退回物料的到达日志
+                    - name: 过帐退回物料的到达日志
                       href: service-management/post-arrival-journal-for-returned-products.md
                     - name: 接收退回物料的部分交货
                       href: service-management/receive-partial-deliveries-returned-items.md
@@ -2537,9 +2535,9 @@
                   href: warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md
             - name: 包括容器重量和负荷的体积
               href: transportation/include-container-weight-volume-on-load.md
-            - name: 对货运进行手动对账
+            - name: 对货运进行手动对帐
               href: transportation/tasks/reconcile-freight-manually.md
-            - name: 对货运进行对账
+            - name: 对货运进行对帐
               href: transportation/reconcile-freight-transportation-management.md
             - name: 登记约会的驾驶员签入和签出
               href: transportation/tasks/register-driver-check-check-out-appointment.md
@@ -2551,7 +2549,7 @@
               href: transportation/tasks/set-up-accessorial-assignments.md
             - name: 为负荷设置约会
               href: transportation/tasks/set-up-appointment-load.md
-            - name: 设置自动装运对账
+            - name: 设置自动装运对帐
               href: transportation/tasks/set-up-automatic-freight-reconciliation.md
             - name: 设置中心附属费用和附属主数据
               href: transportation/tasks/set-up-hub-accessorial-charges-accessorial-masters.md
@@ -2565,192 +2563,230 @@
           items:
             - name: 仓库管理概览
               href: warehousing/warehouse-management-overview.md
-            - name: 仓库配置
+            - name: 收货仓库工序
               items:
-                - name: 仓库配置概览
-                  href: warehousing/warehouse-configuration.md
-                - name: 使用仓库配置模板设置仓库
-                  href: inventory/warehouse-template.md
-                - name: 使用工作模板和位置指令控制工作
-                  href: warehousing/control-warehouse-location-directives.md
-                - name: 波次步骤代码
-                  href: warehousing/wave-step-codes.md
-                - name: 配置波次处理
-                  href: warehousing/tasks/configure-wave-processing.md
-                - name: 自动更新装运
-                  href: warehousing/auto-update-shipment.md
-                - name: 创建库位模板
-                  href: warehousing/tasks/create-location-profile.md
-                - name: 配置启用了 WMS 的仓库中的位置
-                  href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
-                - name: 计划负载利用率
-                  href: warehousing/schedule-load-utilization.md
-                - name: 计划工作量产能
-                  href: warehousing/schedule-workload-capacity.md
-                - name: 设置处置代码
-                  href: warehousing/tasks/set-up-dispositions-codes.md
-                - name: 度量单位和库存策略
-                  href: warehousing/unit-measure-stocking-policies.md
-                - name: 仓库 Power BI 内容
-                  href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
-                - name: 对未结工作列表的系统分组
-                  href: warehousing/system-group-on-open-work-list.md
-                - name: 牌照标签的文档路线选择布局
-                  href: warehousing/document-routing-layout-for-license-plates.md
-                - name: 在 Dynamics 365 for Finance and Operations 中使用摄像头扫描条码
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: 移动条码支持
-                  href: warehousing/mobile-barcode-support.md
-                - name: 设置转移单的仓库
-                  href: warehousing/transfer-orders-warehouse.md
-            - name: 仓库管理中的预留
+                - name: 登记和储存的收据
+                  items:
+                    - name: 仓库对采购订单入站负荷的处理
+                      href: warehousing/inbound-load-handling.md
+                    - name: 使用物料到达日记帐登记启用了高级仓库的物料
+                      href: warehousing/tasks/register-items-advanced-warehousing.md
+                    - name: 使用物料到达日记帐登记启用了基本仓库的物料
+                      href: warehousing/tasks/register-items-basic-warehousing.md
+                    - name: 将产品从接收仓库越库配送到商店
+                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                    - name: 设置采购订单储存的位置指令
+                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                    - name: 设置采购订单的工作模板
+                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                    - name: 库位产品维度混合
+                      href: warehousing/location-product-dimension-mixing.md
+            - name: 出货仓库工序
               items:
-                - name: 灵活的仓库级维度预留策略
-                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
-            - name: 仓库工作策略
-              items:
-                - name: 仓库工作策略概览
-                  href: warehousing/warehouse-work-policies.md
-                - name: 设置仓库工作策略
-                  href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
-                - name: 仓库管理中关联工作的库存变动
-                  href: warehousing/move-inventory-associated-work.md
-                - name: 创建工作类
-                  href: warehousing/tasks/create-work-class.md
-                - name: 管理仓库工作人员
-                  href: warehousing/manage-warehouse-workers.md
-                - name: 仓库工作延期处理
-                  href: warehousing/deferred-put.md
-            - name: 越库配送
-              items:
-                - name: 从生产订单到出货台的越库配送
-                  href: production-control/cross-docking-opportunities.md
-                - name: 越库配送的自动解除装运
-                  href: warehousing/auto-release-shipment-for-cross-docking.md
-            - name: 部分解除和部分装运
-              items:
-                - name: 运输负荷的部分装运
-                  href: warehousing/partial-shipping-of-transport-loads.md
-                - name: 部分预留的转移单批发布
-                  href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
-            - name: 领料和打包
-              items:
-                - name: 设置群集领料
-                  href: warehousing/set-up-cluster-picking.md
-                - name: 设置集装化
-                  href: warehousing/tasks/set-up-containerization.md
-                - name: 批次和牌照确认
-                  href: warehousing/batch-and-license-plate-confirmation.md
-                - name: 启用牌照标签打印
-                  href: warehousing/tasks/license-plate-label-printing.md
-                - name: 在 Dynamics 365 for Finance and Operations 中使用摄像头扫描条码
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: 单件领料确认
-                  href: warehousing/piece-picking-confirmation.md
-                - name: 包装材料和费用
-                  href: warehousing/pack-materials-packing-material-fees.md
-                - name: 设置人工装箱（仅 2016 年 2 月和 5 月）
-                  href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
-                - name: 设置领料短缺的物料重新分配
-                  href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                - name: 取消要进行异常处理的仓库工作
-                  href: warehousing/cancel-warehouse-work.md
-                - name: 系统导向的群集领料
-                  href: warehousing/system-directed-cluster-pick.md
-                - name: 领料行分组
-                  href: warehousing/pick-line-grouping.md
-            - name: 库存盘点
-              items:
-                - name: 库存盘点原因代码
-                  href: warehousing/reason-codes-for-counting-journals.md
-                - name: 锁定库存
-                  href: inventory/inventory-blocking.md
-                - name: 周期盘点
-                  href: warehousing/cycle-counting.md
-                - name: 定义周期盘点
-                  href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
-                - name: 部分库位周期盘点
-                  href: warehousing/partial-location-cycle-counting.md
-                - name: 定义部分库位周期盘点流程
-                  href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                - name: 仓库管理现有条目清除作业
-                  href: warehousing/onhand-cleanup.md
-                - name: 库存日记帐
-                  href: inventory/inventory-journals.md
-                - name: 库存库位
-                  href: inventory/inventory-locations.md
-                - name: 库存状态
-                  href: inventory/inventory-statuses.md
-                - name: 库存标签盘点
-                  href: inventory/inventory-tag-counting.md
-            - name: 补货
-              items:
-                - name: 补货概览
-                  href: warehousing/replenishment.md
-                - name: 即时补货
-                  href: warehousing/immediate-replenishment.md
-                - name: 通过提领看板补货
-                  href: warehousing/material-replenishment-withdrawal-kanban.md
-                - name: 设置最小-最大补货流程
-                  href: warehousing/tasks/set-up-min-max-replenishment-process.md
-            - name: 安装和配置仓库应用
-              items:
-                - name: 安装和连接仓库应用
-                  href: warehousing/install-configure-warehousing-app.md
-                - name: 在仓库应用中配置字段名称
-                  href: warehousing/configure-app-field-names-priorities-warehouse.md
-                - name: 为仓库工作设置移动设备
-                  href: warehousing/configure-mobile-devices-warehouse.md
-                - name: 通过仓库应用接收牌照
-                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                - name: 为完成采购订单中的工作设置移动设备菜单项
-                  href: warehousing/tasks/set-up-mobile-device-menu.md
-                - name: 设置登记已接收物料的移动设备菜单项
-                  href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                - name: 创建牌照合并的移动设备菜单项
-                  href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                - name: 移动设备上的混合牌照接收
-                  href: warehousing/mixed-license-plate-receiving.md
-                - name: 在移动设备上配置“显示仓库内的更早批次”
-                  href: warehousing/display-older-batches-within-warehouses.md
-                - name: 在移动设备上领取最早的批次
-                  href: warehousing/pick-oldest-batch.md
-                - name: 流程指南框架
-                  href: warehousing/process-guide-framework.md
-            - name: 升级和迁移
-              items:
-                - name: 将仓库管理流程从 Microsoft Dynamics AX 2012 升级到 Finance and Operations
-                  href: warehousing/upgrade-migration-warehouse-management-processes.md
-            - name: 登记和储存的收据
-              items:
-                - name: 仓库对采购订单入站负荷的处理
-                  href: warehousing/inbound-load-handling.md
-                - name: 使用物料到达日记帐登记启用了高级仓库的物料
-                  href: warehousing/tasks/register-items-advanced-warehousing.md
-                - name: 使用物料到达日记帐登记启用了基本仓库的物料
-                  href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: 将产品从接收仓库越库配送到商店
-                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                - name: 设置采购订单储存的位置指令
-                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                - name: 设置采购订单的工作模板
-                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
-            - name: 装运合并政策
-              items:
+                - name: 仓库管理中的预留
+                  items:
+                    - name: 灵活的仓库级维度预留策略
+                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                - name: 部分发放和部分装运
+                  items:
+                    - name: 运输负荷的部分装运
+                      href: warehousing/partial-shipping-of-transport-loads.md
+                    - name: 部分预留的转移单批发布
+                      href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                - name: 领料和打包
+                  items:
+                    - name: 设置群集领料
+                      href: warehousing/set-up-cluster-picking.md
+                    - name: 设置集装化
+                      href: warehousing/tasks/set-up-containerization.md
+                    - name: 批次和牌照确认
+                      href: warehousing/batch-and-license-plate-confirmation.md
+                    - name: 启用牌照标签打印
+                      href: warehousing/tasks/license-plate-label-printing.md
+                    - name: 在 Dynamics 365 for Finance and Operations 中使用摄像头扫描条码
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: 单件领料确认
+                      href: warehousing/piece-picking-confirmation.md
+                    - name: 包装材料和费用
+                      href: warehousing/pack-materials-packing-material-fees.md
+                    - name: 设置人工装箱（仅 2016 年 2 月和 5 月）
+                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: 设置领料短缺的物料重新分配
+                      href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                    - name: 取消仓库工作以进行异常处理
+                      href: warehousing/cancel-warehouse-work.md
+                    - name: 系统导向的群集领料
+                      href: warehousing/system-directed-cluster-pick.md
+                    - name: 系统导向的工作序列
+                      href: warehousing/system-directed-work-sequencing.md
+                    - name: 领料行分组
+                      href: warehousing/pick-line-grouping.md
+                    - name: 仓库时隙
+                      href: warehousing/warehouse-slotting.md
+                - name: 补货
+                  items:
+                    - name: 补货概览
+                      href: warehousing/replenishment.md
+                    - name: 即时补货
+                      href: warehousing/immediate-replenishment.md
+                    - name: 通过提领看板补货
+                      href: warehousing/material-replenishment-withdrawal-kanban.md
+                    - name: 设置最小-最大补货流程
+                      href: warehousing/tasks/set-up-min-max-replenishment-process.md
+                    - name: 区域阈值补货
+                      href: warehousing/zone-threshold-replenishment.md
+                - name: 负荷构建和装运
+                  items:
+                    - name: 确认并转移
+                      href: warehousing/confirm-and-transfer.md
+                    - name: 波次期间进行高级负荷构建
+                      href: warehousing/advanced-load-building-during-wave.md
+                    - name: 发放到仓库规则
+                      href: warehousing/release-to-warehouse-rule.md
+                    - name: 波次模板分组
+                      href: warehousing/wave-template-grouping.md
                 - name: 装运合并政策
-                  href: warehousing/about-shipment-consolidation-policies.md
-                - name: 配置装运合并政策
-                  href: warehousing/configure-shipment-consolidation-policies.md
-                - name: 方案 1 - 使用自动发放销售订单将装运发放到仓库时合并装运
-                  href: warehousing/consolidate-shipments-automatic.md
-                - name: 方案 2 - 从“发放到仓库”页面覆盖装运合并政策时合并装运
-                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                - name: 方案 3 - 使用从装载计划工作台发放到仓库来合并装运
-                  href: warehousing/consolidate-shipments-load-planning-workbench.md
-                - name: 方案 4 - 使用装运合并工作台来合并装运
-                  href: warehousing/consolidate-shipments-manual-workbench.md
-                - name: 方案 5 - 使用“合并装运”页面手动合并装运
-                  href: warehousing/consolidate-shipments-manual-form.md
+                  items:
+                    - name: 装运合并政策
+                      href: warehousing/about-shipment-consolidation-policies.md
+                    - name: 配置装运合并政策
+                      href: warehousing/configure-shipment-consolidation-policies.md
+                    - name: 方案 1 - 使用自动发放销售订单将装运发放到仓库时合并装运
+                      href: warehousing/consolidate-shipments-automatic.md
+                    - name: 方案 2 - 从“发放到仓库”页面覆盖装运合并政策时合并装运
+                      href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                    - name: 方案 3 - 使用从装载计划工作台发放到仓库来合并装运
+                      href: warehousing/consolidate-shipments-load-planning-workbench.md
+                    - name: 方案 4 - 使用装运合并工作台来合并装运
+                      href: warehousing/consolidate-shipments-manual-workbench.md
+                    - name: 方案 5 - 使用“合并装运”页面手动合并装运
+                      href: warehousing/consolidate-shipments-manual-form.md
+            - name: 仓库内操作
+              items:
+                - name: 仓库工作策略
+                  items:
+                    - name: 仓库工作策略概览
+                      href: warehousing/warehouse-work-policies.md
+                    - name: 设置仓库工作策略
+                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
+                    - name: 仓库管理中关联工作的库存变动
+                      href: warehousing/move-inventory-associated-work.md
+                    - name: 创建工作类
+                      href: warehousing/tasks/create-work-class.md
+                    - name: 管理仓库工作人员
+                      href: warehousing/manage-warehouse-workers.md
+                    - name: 仓库工作延期处理
+                      href: warehousing/deferred-put.md
+                - name: 越库配送
+                  items:
+                    - name: 从生产订单越库配送到出货台
+                      href: production-control/cross-docking-opportunities.md
+                    - name: 自动发放装运以实现越库配送
+                      href: warehousing/auto-release-shipment-for-cross-docking.md
+                    - name: 计划越库配送
+                      href: warehousing/planned-cross-docking.md
+                - name: 库存盘点
+                  items:
+                    - name: 库存盘点原因代码
+                      href: warehousing/reason-codes-for-counting-journals.md
+                    - name: 锁定库存
+                      href: inventory/inventory-blocking.md
+                    - name: 周期盘点
+                      href: warehousing/cycle-counting.md
+                    - name: 定义周期盘点
+                      href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
+                    - name: 部分库位周期盘点
+                      href: warehousing/partial-location-cycle-counting.md
+                    - name: 定义部分库位周期盘点流程
+                      href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: 仓库管理现有条目清除作业
+                      href: warehousing/onhand-cleanup.md
+                    - name: 库存日记帐
+                      href: inventory/inventory-journals.md
+                    - name: 库存库位
+                      href: inventory/inventory-locations.md
+                    - name: 库存状态
+                      href: inventory/inventory-statuses.md
+                    - name: 库存标签盘点
+                      href: inventory/inventory-tag-counting.md
+                - name: 仓库工作
+                  items:
+                    - name: 工作行详细信息
+                      href: warehousing/work-line-details.md
+                    - name: 库位牌照定位
+                      href: warehousing/location-license-plate-positioning.md
+            - name: 仓库设置
+              items:
+                - name: 仓库配置
+                  items:
+                    - name: 仓库配置概览
+                      href: warehousing/warehouse-configuration.md
+                    - name: 使用仓库配置模板设置仓库
+                      href: inventory/warehouse-template.md
+                    - name: 使用工作模板和位置指令控制工作
+                      href: warehousing/control-warehouse-location-directives.md
+                    - name: 波次步骤代码
+                      href: warehousing/wave-step-codes.md
+                    - name: 配置波次处理
+                      href: warehousing/tasks/configure-wave-processing.md
+                    - name: 自动更新装运
+                      href: warehousing/auto-update-shipment.md
+                    - name: 创建库位配置文件
+                      href: warehousing/tasks/create-location-profile.md
+                    - name: 在启用了 WMS 的仓库中配置库位
+                      href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
+                    - name: 仓库库位状态
+                      href: warehousing/warehouse-location-status.md
+                    - name: 其他库位区域
+                      href: warehousing/additional-location-zones.md
+                    - name: 计划负荷利用率
+                      href: warehousing/schedule-load-utilization.md
+                    - name: 计划工作负荷产能
+                      href: warehousing/schedule-workload-capacity.md
+                    - name: 设置处置代码
+                      href: warehousing/tasks/set-up-dispositions-codes.md
+                    - name: 度量单位和库存策略
+                      href: warehousing/unit-measure-stocking-policies.md
+                    - name: 仓库 Power BI 内容
+                      href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
+                    - name: 对未结工作列表的系统分组
+                      href: warehousing/system-group-on-open-work-list.md
+                    - name: 牌照标签的文档路线选择布局
+                      href: warehousing/document-routing-layout-for-license-plates.md
+                    - name: 在 Dynamics 365 for Finance and Operations 中使用摄像头扫描条码
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: 移动条码支持
+                      href: warehousing/mobile-barcode-support.md
+                    - name: 设置仓库以支持转移单
+                      href: warehousing/transfer-orders-warehouse.md
+                - name: 安装和配置仓库应用
+                  items:
+                    - name: 安装和连接仓库应用
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: 配置仓库应用中的字段名称
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: 设置移动设备以执行仓库工作
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: 通过仓库应用接收牌照
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: 设置移动设备菜单项以完成采购订单中的工作
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: 设置登记已接收物料的移动设备菜单项
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: 创建牌照合并的移动设备菜单项
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: 移动设备上的混合牌照接收
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: 在移动设备上配置“显示仓库内的更早批次”
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: 在移动设备上领取最早的批次
+                      href: warehousing/pick-oldest-batch.md
+                    - name: 流程指南框架
+                      href: warehousing/process-guide-framework.md
+                - name: 升级和迁移
+                  items:
+                    - name: 将仓库管理流程从 Microsoft Dynamics AX 2012 升级到 Finance and Operations
+                      href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: Supply Chain Management 开发
           items:
             - name: 甘特图控件开发指南

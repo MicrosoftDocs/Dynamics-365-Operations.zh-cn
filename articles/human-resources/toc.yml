@@ -3,8 +3,10 @@
   items:
     - name: 新增功能
       items:
-        - name: Human Resources 新增功能或更改
+        - name: Human Resources 中新增或更改的功能
           href: hr-admin-whats-new.md
+        - name: 2020 年 6 月 25 日
+          href: hr-whats-new-2020-06-23.md
         - name: 2020 年 6 月 11 日
           href: hr-whats-new-2020-06-11.md
         - name: 2020 年 5 月 28 日
@@ -141,6 +143,8 @@
           items:
             - name: 获取支持
               href: hr-admin-troubleshooting-support.md
+            - name: 通过安排在下班后执行批处理作业而优化性能
+              href: hr-admin-troubleshooting-batch-jobs.md
             - name: 使用自动清理任务优化性能
               href: hr-admin-troubleshooting-batch-history.md
             - name: 未更新分析报表
