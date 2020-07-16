@@ -1,9 +1,9 @@
 ---
 title: Supply Chain Management 主页
 description: 本页提供了针对 Supply Chain Management 功能的一系列帮助主题和其他资源。
-author: josaw1
+author: kamaybac
 manager: tfehr
-ms.date: 11/26/2019
+ms.date: 06/30/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,109 +15,98 @@ ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: ''
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf505f3e84cb8a8b4a1ac0af9f776587c06acf77
-ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
+ms.openlocfilehash: ab0c66ad0536b20b1ab23e9498ca3cb56b98ccf5
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "3386379"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530251"
 ---
-# <a name="supply-chain-management-home-page"></a><span data-ttu-id="8886c-103">Supply Chain Management 主页</span><span class="sxs-lookup"><span data-stu-id="8886c-103">Supply Chain Management home page</span></span>
+# <a name="supply-chain-management-home-page"></a><span data-ttu-id="ad576-103">Supply Chain Management 主页</span><span class="sxs-lookup"><span data-stu-id="ad576-103">Supply Chain Management home page</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="8886c-104">本主题提供了 Dynamics 365 Supply Chain Management 中的一系列帮助主题和其他资源。</span><span class="sxs-lookup"><span data-stu-id="8886c-104">This topic provides a list of the help topics and other resources in Dynamics 365 Supply Chain Management.</span></span> 
+<span data-ttu-id="ad576-104">本主题提供了 Dynamics 365 Supply Chain Management 中的一系列帮助主题和其他资源。</span><span class="sxs-lookup"><span data-stu-id="ad576-104">This topic provides a list of the help topics and other resources in Dynamics 365 Supply Chain Management.</span></span>
 
-## <a name="whats-new-and-in-development"></a><span data-ttu-id="8886c-105">新增功能和开发中的功能</span><span class="sxs-lookup"><span data-stu-id="8886c-105">What's new and in development</span></span>
-<span data-ttu-id="8886c-106">转到 <a href="https://roadmap.dynamics.com/">Dynamics 365 路线图</a>以了解已发布和正在开发的新功能。</span><span class="sxs-lookup"><span data-stu-id="8886c-106">Go to the <a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a> to see what new features are released and what new features are in development.</span></span> 
+## <a name="whats-new-and-in-development"></a><span data-ttu-id="ad576-105">新增功能和开发中的功能</span><span class="sxs-lookup"><span data-stu-id="ad576-105">What's new and in development</span></span>
 
-## <a name="core-concepts-and-tasks"></a><span data-ttu-id="8886c-107">核心概念和任务</span><span class="sxs-lookup"><span data-stu-id="8886c-107">Core concepts and tasks</span></span>
+<span data-ttu-id="ad576-106">转到 [Dynamics 365 路线图](https://roadmap.dynamics.com/)以了解已发布和正在开发的新功能。</span><span class="sxs-lookup"><span data-stu-id="ad576-106">Go to the [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features are released and what new features are in development.</span></span>
 
-<span data-ttu-id="8886c-108">选择一个功能区域以了解有关它的更多信息。</span><span class="sxs-lookup"><span data-stu-id="8886c-108">Select a feature area to learn more about it.</span></span>
+## <a name="core-concepts-and-tasks"></a><span data-ttu-id="ad576-107">核心概念和任务</span><span class="sxs-lookup"><span data-stu-id="ad576-107">Core concepts and tasks</span></span>
 
-- [<span data-ttu-id="8886c-109">资产管理</span><span class="sxs-lookup"><span data-stu-id="8886c-109">Asset management</span></span>](asset-management/index.md)
-- [<span data-ttu-id="8886c-110">成本核算</span><span class="sxs-lookup"><span data-stu-id="8886c-110">Cost accounting</span></span>](../finance/cost-accounting/cost-accounting-home-page.md)
-- [<span data-ttu-id="8886c-111">成本管理</span><span class="sxs-lookup"><span data-stu-id="8886c-111">Cost management</span></span>](cost-management/cost-management-home-page.md)  
-- [<span data-ttu-id="8886c-112">库存管理</span><span class="sxs-lookup"><span data-stu-id="8886c-112">Inventory management</span></span>](inventory/inventory-home-page.md)
-- [<span data-ttu-id="8886c-113">IoT 智能</span><span class="sxs-lookup"><span data-stu-id="8886c-113">IoT Intelligence</span></span>](iot/iot-intelligence-home-page.md)
-- [<span data-ttu-id="8886c-114">主计划</span><span class="sxs-lookup"><span data-stu-id="8886c-114">Master planning</span></span>](master-planning/master-planning-home-page.md)
-- [<span data-ttu-id="8886c-115">采购</span><span class="sxs-lookup"><span data-stu-id="8886c-115">Procurement and sourcing</span></span>](procurement/procurement-sourcing-overview.md)
-- [<span data-ttu-id="8886c-116">产品信息管理</span><span class="sxs-lookup"><span data-stu-id="8886c-116">Product information management</span></span>](pim/product-information.md)
-- [<span data-ttu-id="8886c-117">生产控制</span><span class="sxs-lookup"><span data-stu-id="8886c-117">Production control</span></span>](production-control/production-process-overview.md)
-- [<span data-ttu-id="8886c-118">销售和市场营销</span><span class="sxs-lookup"><span data-stu-id="8886c-118">Sales and marketing</span></span>](sales-marketing/overview-sales-marketing.md)
-- [<span data-ttu-id="8886c-119">服务管理</span><span class="sxs-lookup"><span data-stu-id="8886c-119">Service management</span></span>](service-management/service-management-home-page.md)
-- [<span data-ttu-id="8886c-120">运输管理</span><span class="sxs-lookup"><span data-stu-id="8886c-120">Transportation management</span></span>](transportation/transportation-management-overview.md)
-- [<span data-ttu-id="8886c-121">仓库管理</span><span class="sxs-lookup"><span data-stu-id="8886c-121">Warehouse management</span></span>](warehousing/warehouse-configuration.md)
+<span data-ttu-id="ad576-108">选择一个功能区域以了解有关它的更多信息。</span><span class="sxs-lookup"><span data-stu-id="ad576-108">Select a feature area to learn more about it.</span></span>
 
-## <a name="dynamics-365-finance"></a><span data-ttu-id="8886c-122">Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="8886c-122">Dynamics 365 Finance</span></span>
+- [<span data-ttu-id="ad576-109">资产管理</span><span class="sxs-lookup"><span data-stu-id="ad576-109">Asset management</span></span>](asset-management/index.md)
+- [<span data-ttu-id="ad576-110">成本核算</span><span class="sxs-lookup"><span data-stu-id="ad576-110">Cost accounting</span></span>](../finance/cost-accounting/cost-accounting-home-page.md)
+- [<span data-ttu-id="ad576-111">成本管理</span><span class="sxs-lookup"><span data-stu-id="ad576-111">Cost management</span></span>](cost-management/cost-management-home-page.md)  
+- [<span data-ttu-id="ad576-112">库存管理</span><span class="sxs-lookup"><span data-stu-id="ad576-112">Inventory management</span></span>](inventory/inventory-home-page.md)
+- [<span data-ttu-id="ad576-113">IoT 智能</span><span class="sxs-lookup"><span data-stu-id="ad576-113">IoT Intelligence</span></span>](iot/iot-intelligence-home-page.md)
+- [<span data-ttu-id="ad576-114">主计划</span><span class="sxs-lookup"><span data-stu-id="ad576-114">Master planning</span></span>](master-planning/master-planning-home-page.md)
+- [<span data-ttu-id="ad576-115">采购</span><span class="sxs-lookup"><span data-stu-id="ad576-115">Procurement and sourcing</span></span>](procurement/procurement-sourcing-overview.md)
+- [<span data-ttu-id="ad576-116">产品信息管理</span><span class="sxs-lookup"><span data-stu-id="ad576-116">Product information management</span></span>](pim/product-information.md)
+- [<span data-ttu-id="ad576-117">生产控制</span><span class="sxs-lookup"><span data-stu-id="ad576-117">Production control</span></span>](production-control/production-process-overview.md)
+- [<span data-ttu-id="ad576-118">销售和市场营销</span><span class="sxs-lookup"><span data-stu-id="ad576-118">Sales and marketing</span></span>](sales-marketing/overview-sales-marketing.md)
+- [<span data-ttu-id="ad576-119">服务管理</span><span class="sxs-lookup"><span data-stu-id="ad576-119">Service management</span></span>](service-management/service-management-home-page.md)
+- [<span data-ttu-id="ad576-120">运输管理</span><span class="sxs-lookup"><span data-stu-id="ad576-120">Transportation management</span></span>](transportation/transportation-management-overview.md)
+- [<span data-ttu-id="ad576-121">仓库管理</span><span class="sxs-lookup"><span data-stu-id="ad576-121">Warehouse management</span></span>](warehousing/warehouse-configuration.md)
 
-<span data-ttu-id="8886c-123">有关 Dynamics 365 Finance 的信息，请转到[财务管理主页](../finance/index.md)页面。</span><span class="sxs-lookup"><span data-stu-id="8886c-123">For information on Dynamics 365 Finance, go to the [Financial management home page](../finance/index.md) page.</span></span>
+## <a name="dynamics-365-finance"></a><span data-ttu-id="ad576-122">Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="ad576-122">Dynamics 365 Finance</span></span>
 
-## <a name="videos"></a><span data-ttu-id="8886c-124">视频</span><span class="sxs-lookup"><span data-stu-id="8886c-124">Videos</span></span>
+<span data-ttu-id="ad576-123">有关 Dynamics 365 Finance 的信息，请转到 [Finance 主页](../finance/index.md)。</span><span class="sxs-lookup"><span data-stu-id="ad576-123">For information on Dynamics 365 Finance, go to the [Finance home page](../finance/index.md).</span></span>
 
-<span data-ttu-id="8886c-125">这些视频短片可帮助您了解 Microsoft Dynamics 365 for Finance and Operations 版本 8.0（2018 年 4 月）中的新功能。</span><span class="sxs-lookup"><span data-stu-id="8886c-125">These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations version 8.0 (April 2018).</span></span>
+## <a name="videos"></a><span data-ttu-id="ad576-124">视频</span><span class="sxs-lookup"><span data-stu-id="ad576-124">Videos</span></span>
 
-- [<span data-ttu-id="8886c-126">在 Field Service 和 Finance and Operations 之间同步工作订单</span><span class="sxs-lookup"><span data-stu-id="8886c-126">Synchronize a work order between Field Service and Finance and Operations</span></span>](https://youtu.be/hAB4TDVMjxU)
+<span data-ttu-id="ad576-125">这段短视频概述了 Microsoft Dynamics 365 for Finance and Operations 8.0 版（2018 年 4 月）新增的供应链管理功能。</span><span class="sxs-lookup"><span data-stu-id="ad576-125">This short video summarize the new supply chain management features added to Microsoft Dynamics 365 for Finance and Operations version 8.0 (April 2018).</span></span>
 
-<span data-ttu-id="8886c-127">这些视频短片可帮助您了解 Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3（2017 年 12 月）中的新功能。</span><span class="sxs-lookup"><span data-stu-id="8886c-127">These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (December 2017).</span></span>
+- [<span data-ttu-id="ad576-126">在 Field Service 和 Finance and Operations 之间同步工作订单</span><span class="sxs-lookup"><span data-stu-id="ad576-126">Synchronize a work order between Field Service and Finance and Operations</span></span>](https://youtu.be/hAB4TDVMjxU)
 
--  [<span data-ttu-id="8886c-128">现金集成的目标客户</span><span class="sxs-lookup"><span data-stu-id="8886c-128">Prospect to cash integration</span></span>](https://youtu.be/AVV9x5x-XCg) 
--  [<span data-ttu-id="8886c-129">优化顾问</span><span class="sxs-lookup"><span data-stu-id="8886c-129">Optimization advisor</span></span>](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
--  [<span data-ttu-id="8886c-130">使用仓库模板复制配置</span><span class="sxs-lookup"><span data-stu-id="8886c-130">Use warehouse template to copy configuration</span></span>](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
+<span data-ttu-id="ad576-127">这些短视频概述了 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3（2017 年 12 月）新增的供应链管理功能。</span><span class="sxs-lookup"><span data-stu-id="ad576-127">These short videos summarize the new supply chain management features added to Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (December 2017).</span></span>
 
-<span data-ttu-id="8886c-131">这些视频短片可帮助您了解 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition（2017 年 7 月）中的新功能。</span><span class="sxs-lookup"><span data-stu-id="8886c-131">These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017).</span></span>
+- [<span data-ttu-id="ad576-128">现金集成的目标客户</span><span class="sxs-lookup"><span data-stu-id="ad576-128">Prospect to cash integration</span></span>](https://youtu.be/AVV9x5x-XCg) 
+- [<span data-ttu-id="ad576-129">优化顾问</span><span class="sxs-lookup"><span data-stu-id="ad576-129">Optimization advisor</span></span>](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+- [<span data-ttu-id="ad576-130">使用仓库模板复制配置</span><span class="sxs-lookup"><span data-stu-id="ad576-130">Use warehouse template to copy configuration</span></span>](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
--  [<span data-ttu-id="8886c-132">开始使用成本核算</span><span class="sxs-lookup"><span data-stu-id="8886c-132">Get started with Cost accounting</span></span>](https://youtu.be/1pUDtJQZ8FU)
--  [<span data-ttu-id="8886c-133">成本控制移动工作区</span><span class="sxs-lookup"><span data-stu-id="8886c-133">Cost control mobile workspace</span></span>](https://youtu.be/imsuTg8rUVk)
--  [<span data-ttu-id="8886c-134">使用 Excel 进行成本分析</span><span class="sxs-lookup"><span data-stu-id="8886c-134">Use Excel for cost analysis</span></span>](https://youtu.be/-HKHYdClvx8)
--  [<span data-ttu-id="8886c-135">在移动设备上审批采购订单</span><span class="sxs-lookup"><span data-stu-id="8886c-135">Approve purchase orders on a mobile device</span></span>](https://youtu.be/gZ-gOlJe7H8)
--  [<span data-ttu-id="8886c-136">使用用于生产和批次订单的甘特图进行可视计划</span><span class="sxs-lookup"><span data-stu-id="8886c-136">Visual scheduling with Gantt chart for production and batch orders</span></span>](https://youtu.be/BtbuShkGj4I)
+<span data-ttu-id="ad576-131">这些短视频概述了 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition（2017 年 7 月）新增的供应链管理功能。</span><span class="sxs-lookup"><span data-stu-id="ad576-131">These short videos summarize the new supply chain management features added to Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017).</span></span>
 
-<span data-ttu-id="8886c-137">这些技术会议录制讨论的是 Finance and Operations 旧版本中的产品功能，但同一概念仍适用，并且相关过程在当前版本中是相似的。</span><span class="sxs-lookup"><span data-stu-id="8886c-137">These tech conference recordings discuss product functionality in the previous version of Finance and Operations, but the same concepts still apply, and the procedures are similar in the current version.</span></span> 
+- [<span data-ttu-id="ad576-132">开始使用成本核算</span><span class="sxs-lookup"><span data-stu-id="ad576-132">Get started with Cost accounting</span></span>](https://youtu.be/1pUDtJQZ8FU)
+- [<span data-ttu-id="ad576-133">成本控制移动工作区</span><span class="sxs-lookup"><span data-stu-id="ad576-133">Cost control mobile workspace</span></span>](https://youtu.be/imsuTg8rUVk)
+- [<span data-ttu-id="ad576-134">使用 Excel 进行成本分析</span><span class="sxs-lookup"><span data-stu-id="ad576-134">Use Excel for cost analysis</span></span>](https://youtu.be/-HKHYdClvx8)
+- [<span data-ttu-id="ad576-135">在移动设备上审批采购订单</span><span class="sxs-lookup"><span data-stu-id="ad576-135">Approve purchase orders on a mobile device</span></span>](https://youtu.be/gZ-gOlJe7H8)
+- [<span data-ttu-id="ad576-136">用甘特图可视地安排生产订单和批次订单</span><span class="sxs-lookup"><span data-stu-id="ad576-136">Visual scheduling with Gantt chart for production and batch orders</span></span>](https://youtu.be/BtbuShkGj4I)
 
-<span data-ttu-id="8886c-138">**成本管理**</span><span class="sxs-lookup"><span data-stu-id="8886c-138">**Cost management**</span></span>
+<span data-ttu-id="ad576-137">以下技术会议录像讨论了 Finance and Operations 先前版本中的供应链管理功能。</span><span class="sxs-lookup"><span data-stu-id="ad576-137">The following tech conference recordings discuss supply chain management functionality from previous versions of Finance and Operations.</span></span> <span data-ttu-id="ad576-138">此功能现在是 Dynamics 365 Supply Chain Management 的一部分；相同的概念在当前版本中仍适用，并且各种过程在当前版本中也类似。</span><span class="sxs-lookup"><span data-stu-id="ad576-138">This functionality is now part of Dynamics 365 Supply Chain Management; the same concepts still apply, and the procedures are similar in the current version.</span></span>
 
--  [<span data-ttu-id="8886c-139">成本管理概览</span><span class="sxs-lookup"><span data-stu-id="8886c-139">Overview of Cost management</span></span>](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+- <span data-ttu-id="ad576-139">**成本管理：**</span><span class="sxs-lookup"><span data-stu-id="ad576-139">**Cost management:**</span></span>
+  - [<span data-ttu-id="ad576-140">成本管理概览</span><span class="sxs-lookup"><span data-stu-id="ad576-140">Overview of Cost management</span></span>](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+- <span data-ttu-id="ad576-141">**主计划：**</span><span class="sxs-lookup"><span data-stu-id="ad576-141">**Master planning:**</span></span>
+  - [<span data-ttu-id="ad576-142">扩展需求预测功能</span><span class="sxs-lookup"><span data-stu-id="ad576-142">Extend the demand forecasting functionality</span></span>](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+  - [<span data-ttu-id="ad576-143">主计划 - 关于排查性能问题的提示和窍门</span><span class="sxs-lookup"><span data-stu-id="ad576-143">Master planning - tips and tricks for troubleshooting performance</span></span>](https://youtu.be/7v8BPmEs9Dg)
+  - [<span data-ttu-id="ad576-144">求助！MRP 太慢！</span><span class="sxs-lookup"><span data-stu-id="ad576-144">Help! MRP is slow!</span></span>](https://youtu.be/RLXybx20B5o)
+- <span data-ttu-id="ad576-145">**产品信息管理：**</span><span class="sxs-lookup"><span data-stu-id="ad576-145">**Product information management:**</span></span>
+  - [<span data-ttu-id="ad576-146">Microsoft Dynamics AX 中的产品配置器</span><span class="sxs-lookup"><span data-stu-id="ad576-146">Product configurator in Microsoft Dynamics AX</span></span>](https://youtu.be/zotrj3SbCl4)
+- <span data-ttu-id="ad576-147">**仓库管理：**</span><span class="sxs-lookup"><span data-stu-id="ad576-147">**Warehouse management:**</span></span>
+  - [<span data-ttu-id="ad576-148">充分利用仓库管理系统</span><span class="sxs-lookup"><span data-stu-id="ad576-148">Get the best out of your warehouse management system</span></span>](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+  - [<span data-ttu-id="ad576-149">高级 R3 仓库管理 - 收货处理和最小/最大补货</span><span class="sxs-lookup"><span data-stu-id="ad576-149">Advanced R3 Warehouse management - Inbound processing and min/max replenishment</span></span>](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+  - [<span data-ttu-id="ad576-150">高级 R3 仓库管理 - 生命周期、发货处理和需求补货中的一天</span><span class="sxs-lookup"><span data-stu-id="ad576-150">Advanced R3 Warehouse management - A day in the life, outbound processing and demand Replenishment</span></span>](https://youtu.be/Og0gLlVp7jA)
+  - [<span data-ttu-id="ad576-151">新 Microsoft Dynamics AX 2012 R3 仓库管理中的标签</span><span class="sxs-lookup"><span data-stu-id="ad576-151">Labels in the new Microsoft Dynamics AX 2012 R3 Warehouse management</span></span>](https://youtu.be/5w1MngVchBA)
+  - [<span data-ttu-id="ad576-152">Dynamics AX 2012 R3：高级仓库管理 - 流程制造生命周期中的一天</span><span class="sxs-lookup"><span data-stu-id="ad576-152">Dynamics AX 2012 R3: Advanced warehouse management - A day in the life of process manufacturing</span></span>](https://www.youtube.com/embed/QUxXUrN-7n4)
+- <span data-ttu-id="ad576-153">**生产控制视频：**</span><span class="sxs-lookup"><span data-stu-id="ad576-153">**Production control videos:**</span></span>
+  - [<span data-ttu-id="ad576-154">制造中的转包工序和活动</span><span class="sxs-lookup"><span data-stu-id="ad576-154">Subcontracting operations and activities in manufacturing</span></span>](https://youtu.be/y1jrd3A_k70)
+- <span data-ttu-id="ad576-155">**运输管理视频：**</span><span class="sxs-lookup"><span data-stu-id="ad576-155">**Transportation management videos:**</span></span>
+  - [<span data-ttu-id="ad576-156">新 Microsoft Dynamics AX 中的运输管理 (TMS)</span><span class="sxs-lookup"><span data-stu-id="ad576-156">Transportation management (TMS) in the new Microsoft Dynamics AX</span></span>](https://youtu.be/jgmTgJIgEFQ)
 
-<span data-ttu-id="8886c-140">**主计划**</span><span class="sxs-lookup"><span data-stu-id="8886c-140">**Master planning**</span></span>
+## <a name="blogs"></a><span data-ttu-id="ad576-157">博客</span><span class="sxs-lookup"><span data-stu-id="ad576-157">Blogs</span></span>
 
--  [<span data-ttu-id="8886c-141">扩展需求预测功能</span><span class="sxs-lookup"><span data-stu-id="8886c-141">Extend the demand forecasting functionality</span></span>](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
--  [<span data-ttu-id="8886c-142">主计划 - 有关性能疑难解答的提示和窍门</span><span class="sxs-lookup"><span data-stu-id="8886c-142">Master planning - tips and tricks for troubleshooting performance</span></span>](https://youtu.be/7v8BPmEs9Dg)
--  [<span data-ttu-id="8886c-143">求助！MRP 太慢！</span><span class="sxs-lookup"><span data-stu-id="8886c-143">Help! MRP is slow!</span></span>](https://youtu.be/RLXybx20B5o)
+<span data-ttu-id="ad576-158">[Dynamics AX 制造研发团队博客](https://blogs.msdn.microsoft.com/axmfg/)和 [Dynamics AX 研发团队中的 Supply Chain Management 博客](https://blogs.msdn.microsoft.com/dynamicsaxscm/)上有很多关于制造和供应链管理的主题。</span><span class="sxs-lookup"><span data-stu-id="ad576-158">There are many topics about manufacturing and supply chain management on the [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg/) and [Supply Chain Management in Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm/).</span></span> <span data-ttu-id="ad576-159">其中大多数文章是针对旧版本编写的，但相同的概念在当前版本中仍适用，并且各种过程在当前版本中也类似。</span><span class="sxs-lookup"><span data-stu-id="ad576-159">Most of these were written for the previous version, but the same concepts still apply, and the procedures are similar in the current version.</span></span>
 
-<span data-ttu-id="8886c-144">**产品信息管理**</span><span class="sxs-lookup"><span data-stu-id="8886c-144">**Product information management**</span></span>
+## <a name="white-papers"></a><span data-ttu-id="ad576-160">白皮书</span><span class="sxs-lookup"><span data-stu-id="ad576-160">White papers</span></span>
 
--  [<span data-ttu-id="8886c-145">Microsoft Dynamics AX 中的产品配置器</span><span class="sxs-lookup"><span data-stu-id="8886c-145">Product configurator in Microsoft Dynamics AX</span></span>](https://youtu.be/zotrj3SbCl4)
+- [<span data-ttu-id="ad576-161">Lean manufacturing：可承诺量和看板作业级计划</span><span class="sxs-lookup"><span data-stu-id="ad576-161">Lean manufacturing: Capable to promise and kanban job scheduling</span></span>](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/)
+- [<span data-ttu-id="ad576-162">使用成本计算单计算物料清单</span><span class="sxs-lookup"><span data-stu-id="ad576-162">BOM calculation by using a costing sheet</span></span>](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/)
 
-<span data-ttu-id="8886c-146">**仓库管理**</span><span class="sxs-lookup"><span data-stu-id="8886c-146">**Warehouse management**</span></span> 
+## <a name="elearning-courses"></a><span data-ttu-id="ad576-163">网络培训课程</span><span class="sxs-lookup"><span data-stu-id="ad576-163">eLearning courses</span></span>
 
-<!---  [Process inbound ASNs in Warehouse management](https://mix.office.com/watch/wpf78tr7rjuh)-->  
--  [<span data-ttu-id="8886c-147">充分利用仓库管理系统</span><span class="sxs-lookup"><span data-stu-id="8886c-147">Get the best out of your warehouse management system</span></span>](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
--  [<span data-ttu-id="8886c-148">高级 R3 仓库管理 - 收货处理和最小/最大补货</span><span class="sxs-lookup"><span data-stu-id="8886c-148">Advanced R3 Warehouse management - Inbound processing and min/max replenishment</span></span>](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
--  [<span data-ttu-id="8886c-149">高级 R3 仓库管理 - 生命周期、发货处理和需求补货中的一天</span><span class="sxs-lookup"><span data-stu-id="8886c-149">Advanced R3 Warehouse management - A day in the life, outbound processing and demand Replenishment</span></span>](https://youtu.be/Og0gLlVp7jA)
--  [<span data-ttu-id="8886c-150">新 Microsoft Dynamics AX 2012 R3 仓库管理中的标签</span><span class="sxs-lookup"><span data-stu-id="8886c-150">Labels in the new Microsoft Dynamics AX 2012 R3 Warehouse management</span></span>](https://youtu.be/5w1MngVchBA)
--  [<span data-ttu-id="8886c-151">Dynamics AX 2012 R3：高级仓库管理 - 流程制造生命周期中的一天</span><span class="sxs-lookup"><span data-stu-id="8886c-151">Dynamics AX 2012 R3: Advanced warehouse management - A day in the life of process manufacturing</span></span>](https://www.youtube.com/embed/QUxXUrN-7n4)
-
-<span data-ttu-id="8886c-152">**生产控制**</span><span class="sxs-lookup"><span data-stu-id="8886c-152">**Production control**</span></span>
-
--  [<span data-ttu-id="8886c-153">制造中的转包工序和活动</span><span class="sxs-lookup"><span data-stu-id="8886c-153">Subcontracting operations and activities in manufacturing</span></span>](https://youtu.be/y1jrd3A_k70)
-
-<span data-ttu-id="8886c-154">**运输管理**</span><span class="sxs-lookup"><span data-stu-id="8886c-154">**Transportation management**</span></span>
-
--  [<span data-ttu-id="8886c-155">新 Microsoft Dynamics AX 中的运输管理 (TMS)</span><span class="sxs-lookup"><span data-stu-id="8886c-155">Transportation management (TMS) in the new Microsoft Dynamics AX</span></span>](https://youtu.be/jgmTgJIgEFQ)
-
-## <a name="blogs"></a><span data-ttu-id="8886c-156">博客</span><span class="sxs-lookup"><span data-stu-id="8886c-156">Blogs</span></span>
-<span data-ttu-id="8886c-157"><a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX 制造研发团队博客</a>和 <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX 研发团队中的供应链管理博客</a>上有很多关于制造和供应链管理的主题。</span><span class="sxs-lookup"><span data-stu-id="8886c-157">There are many topics about manufacturing and supply chain management on the <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX Manufacturing R&D Team Blog</a> and <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Supply Chain Management in Dynamics AX R&D Team Blog </a>.</span></span> <span data-ttu-id="8886c-158">其中大多数文章是针对旧版本编写的，但同一概念仍适用，并且相关程序在当前版本中是相似的。</span><span class="sxs-lookup"><span data-stu-id="8886c-158">Most of these were written for the previous version, but the same concepts still apply, and the procedures are similar in the current version.</span></span> 
-
-## <a name="white-papers"></a><span data-ttu-id="8886c-159">白皮书</span><span class="sxs-lookup"><span data-stu-id="8886c-159">White papers</span></span>
--  <span data-ttu-id="8886c-160"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">成本核算动手实验室</a></span><span class="sxs-lookup"><span data-stu-id="8886c-160"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Cost accounting hands-on labs</a></span></span> 
--  <span data-ttu-id="8886c-161"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing：可承诺量和看板作业级计划</a></span><span class="sxs-lookup"><span data-stu-id="8886c-161"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing: Capable to promise and kanban job scheduling</a></span></span> 
--  <span data-ttu-id="8886c-162"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">使用成本计算单计算物料清单</a></span><span class="sxs-lookup"><span data-stu-id="8886c-162"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">BOM calculation by using a costing sheet</a></span></span>
-
-## <a name="elearning-courses"></a><span data-ttu-id="8886c-163">网络培训课程</span><span class="sxs-lookup"><span data-stu-id="8886c-163">eLearning courses</span></span>
-<span data-ttu-id="8886c-164">有关 Dynamics 365 培训的信息，请参阅 <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics 学习门户</a>。</span><span class="sxs-lookup"><span data-stu-id="8886c-164">For information about Dynamics 365 training, see <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics Learning Portal</a>.</span></span> <span data-ttu-id="8886c-165">（需要 CustomerSource 帐户）</span><span class="sxs-lookup"><span data-stu-id="8886c-165">(requires CustomerSource account)</span></span> 
-
-
+<span data-ttu-id="ad576-164">有关在线课程和培训，请查看 [Microsoft Learn 上的 Dynamics 365](https://docs.microsoft.com/learn/dynamics365/)。</span><span class="sxs-lookup"><span data-stu-id="ad576-164">For online courses and training, check out [Dynamics 365 on Microsoft Learn](https://docs.microsoft.com/learn/dynamics365/).</span></span>
