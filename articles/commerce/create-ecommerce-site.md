@@ -3,7 +3,7 @@ title: 创建电子商务站点
 description: 本主题描述了在 Dynamics 365 Commerce 站点构建器中创建新电子商务站点所需的步骤和信息。
 author: bicyclingfool
 manager: AnnBe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,25 +19,20 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7177bae911dfa91a645b40581bf23b3ed76562a3
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: ea3517a4f2b84db8a87a97d2f644bb4436f8693f
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096766"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533428"
 ---
 # <a name="create-an-e-commerce-site"></a>创建电子商务站点
-
 
 [!include [banner](includes/banner.md)]
 
 本主题描述了在 Dynamics 365 Commerce 站点构建器中创建新电子商务站点所需的步骤和信息。
 
-在开始开发电子商务站点之前，必须先在站点构建器中建立新站点。 
-
-
-若要开始开发电子商务站点，必须先在站点创作环境中建立新站点。 必须至少在 Commerce 中创建一个在线商店，才能创建新站点。 
-
+许可电子商务功能时，将为站点构建器预配可用作您自己站点的基础的入门站点。 但是，如果要从头开始或要建立第二个站点，则需要在站点创作环境中建立一个新站点。 
 
 ## <a name="set-up-your-site"></a>设置站点
 
@@ -64,8 +59,6 @@ ms.locfileid: "3096766"
 [配置域名](configure-your-domain-name.md)
 
 [部署新的电子商务站点](deploy-ecommerce-site.md)
-
-[设置在线商店渠道](online-stores.md)
 
 [将在线站点与渠道关联](associate-site-online-store.md)
 

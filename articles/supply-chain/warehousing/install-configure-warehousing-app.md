@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 290888dbf7d194b8cf259d7218d01d4a4f911db0
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367074"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530067"
 ---
-# <a name="install-and-connect-the-warehousing-app"></a>安装和连接仓库应用
+# <a name="install-and-connect-the-warehouse-app"></a>安装和连接仓库应用
 
 [!include [banner](../includes/banner.md)]
 
@@ -47,7 +47,7 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
 > [!NOTE]
 > 如果必须支持不能运行最新 Windows 版本的较低版本 Windows 设备，仍然可以从 Microsoft Store 下载仓库应用的版本 1.6.3.0。 此版本将在 Windows 10 (UWP) 11 月更新 1511（固件版本 10.0.10586）或更高版本上运行。 但是，请注意，此版本的仓库应用不支持批量部署连接设置。 因此，必须在运行此版本应用的每个设备上[手动配置连接](#config-manually)。
 
-## <a name="get-the-warehousing-app"></a>获取仓库应用
+## <a name="get-the-warehouse-app"></a>获取仓库应用
 
 使用以下链接之一下载该应用：
 

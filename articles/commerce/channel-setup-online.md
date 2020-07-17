@@ -3,7 +3,7 @@ title: 设置在线渠道
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的在线渠道。
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9b7a2b8fd157df8b39e9e227d188a3802cacb4e3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002419"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533313"
 ---
 # <a name="set-up-an-online-channel"></a>设置在线渠道
 
@@ -35,9 +35,9 @@ ms.locfileid: "3002419"
 
 Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线商店、呼叫中心和零售商店（亦称实体商店）。 除了在其零售商店中购买外，在线商店还使客户可以选择从零售商的在线商店中购买产品。
 
-要在 Commerce 中创建在线商店，必须首先创建在线渠道。 
+要在 Commerce 中创建在线商店，必须首先创建在线渠道。 在创建新在线渠道之前，请确保已完成[渠道设置先决条件](channels-prerequisites.md)。
 
-在创建新在线渠道之前，请确保已完成[渠道设置先决条件](channels-prerequisites.md)。
+必须至少在 Commerce 中创建一个在线商店，才能创建新站点。 有关详细信息，请参阅[创建电子商务站点](create-ecommerce-site.md)。
 
 ## <a name="create-and-configure-a-new-online-channel"></a>创建和配置新在线渠道
 

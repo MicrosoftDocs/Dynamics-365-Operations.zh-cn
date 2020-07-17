@@ -3,7 +3,7 @@ title: 配置 Dynamics 365 Commerce 预览环境
 description: 本主题说明如何在预配后配置 Microsoft Dynamics 365 Commerce 预览环境。
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: ad05996eaabd3965308370649a27b8bc3080c7ce
+ms.sourcegitcommit: f72e90dccc80718e99cab2752eaf8931dcbb915e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057709"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3534059"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>配置 Dynamics 365 Commerce 预览环境
 
@@ -116,7 +116,7 @@ ms.locfileid: "3057709"
 
 要在 Commerce 中运行完整的数据同步，请按照下列步骤操作。
 
-1. 使用左侧菜单转到**模块 \> Retail 和 Commerce \> 总部设置 \> 零售调度 \> 渠道数据库**。
+1. 使用左侧菜单转到**模块 \> Retail 和 Commerce \> 总部设置 \> 商业调度程序 \> 渠道数据库**。
 1. 在左侧的列表中，已选择了**默认**渠道。 选择其他可用渠道。 此渠道名为 **scXXXXXXXXX**。
 1. 在操作窗格中，选择**完全数据同步**。
 1. 输入 **9999** 作为配送计划。

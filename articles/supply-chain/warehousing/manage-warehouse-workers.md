@@ -1,6 +1,6 @@
 ---
 title: 管理仓库工作人员
-description: 本文介绍如何使用 Dynamics 365 Supply Chain Management - 仓库应用程序帮助监控由您仓库的员工执行的工作。
+description: 本文介绍如何使用仓库应用帮助监控由您仓库的员工执行的工作。
 author: perlynne
 manager: tfehr
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b143051ba39c74869d2ec56203ee4f1cda7268a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d8e7790fa8ab8d60d0e5fd8eb470d86d6728091b
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205567"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530021"
 ---
 # <a name="manage-warehouse-workers"></a>管理仓库工作人员
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍如何使用 Dynamics 365 Supply Chain Management - 仓库应用程序帮助监控由您仓库的员工执行的工作。
+本文介绍如何使用仓库应用帮助监控由您仓库的员工执行的工作。
 
 如果在仓库管理中使用此功能，所有仓库工作人员的操作称作*工作*。 领料、移动和盘点现有库存量等工作使用移动设备记录。 在仓库工作人员可以执行工作之前，他或她必须与人力资源的工作人员关联。 每个**工作人员**帐户可以有多个仓库工作用户与它关联。 这些工作用户可以在不同的仓库工作，并且可具有不同级别的各个移动设备菜单的访问权限。 您可以将仓库工作用户视作所选工作人员的多重登录。 每个工作用户具有默认仓库，并且特定工作流由可用于该工作用户的菜单项显示。 
 

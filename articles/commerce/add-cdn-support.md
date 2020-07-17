@@ -3,7 +3,7 @@ title: 添加对内容交付网络 (CDN) 的支持
 description: 此主题介绍如何向 Microsoft Dynamics 365 Commerce 环境添加内容交付网络 (CDN)。
 author: brianshook
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 23ac9d8844c2a8ae20bd316c40078319601a3a4d
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: febef3bcc06dc1b5868a0decebee33d76110c505
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096717"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533336"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>添加对内容交付网络 (CDN) 的支持
 
@@ -143,8 +143,6 @@ CDN 的设置过程通常包含下面的步骤：
 [配置域名](configure-your-domain-name.md)
 
 [部署新的电子商务站点](deploy-ecommerce-site.md)
-
-[设置在线商店渠道](online-stores.md)
 
 [创建电子商务站点](create-ecommerce-site.md)
 

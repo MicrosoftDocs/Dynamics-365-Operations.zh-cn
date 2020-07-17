@@ -1,5 +1,5 @@
 ---
-title: 产品详细信息页概述
+title: 产品详细信息页面概览
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中的产品详细信息页 (PDP)。
 author: anupamar-ms
 manager: annbe
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dbf8f4c1ea479a508f4a0294020b7201b32fe228
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025917"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527531"
 ---
-# <a name="overview-of-product-details-pages"></a>产品详细信息页概述
-
+# <a name="product-details-pages-overview"></a>产品详细信息页面概览
 
 [!include [banner](includes/banner.md)]
 
@@ -84,10 +83,8 @@ PDP 上最重要的模块是购买框模块，它在页面主要部分中显示�
 
 [主页概览](quick-tour-home-page.md)
 
-[默认类别登陆页面和搜索结果页面概览](category-search-page-overview.md)
-
 [购物车和结账页面概览](quick-tour-cart-checkout.md)
 
-[帐户管理页概述](quick-tour-account-management.md)
+[帐户管理页面概览](quick-tour-account-management.md)
 
 [丰富产品详细信息页面](enrich-product-page.md)
