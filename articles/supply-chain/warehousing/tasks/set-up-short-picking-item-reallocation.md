@@ -1,9 +1,9 @@
 ---
 title: 设置领料短缺的物料重新分配
-description: 此过程显示如何启用仓库工作人员，以便在为其指示的库位的库存不足时，快速找到备用库位。
+description: 此主题显示如何启用仓库工作人员，以便在为其指示的货位的库存不足时，快速找到备用货位。
 author: ShylaThompson
 manager: tfehr
-ms.date: 08/29/2018
+ms.date: 06/29/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,35 +17,50 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e860a54c2306f8140947b77cdcb538160a84e06f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e14a4fc72d256bea31296bff80d5b5818b95ea9d
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216796"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527411"
 ---
-# <a name="set-up-short-picking-item-reallocation"></a><span data-ttu-id="53623-103">设置领料短缺的物料重新分配</span><span class="sxs-lookup"><span data-stu-id="53623-103">Set up short picking item reallocation</span></span>
+# <a name="set-up-short-picking-item-reallocation"></a><span data-ttu-id="0c66e-103">设置领料短缺的物料重新分配</span><span class="sxs-lookup"><span data-stu-id="0c66e-103">Set up short picking item reallocation</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="53623-104">此过程显示如何启用仓库工作人员，以便在为其指示的库位的库存不足时，快速找到备用库位。</span><span class="sxs-lookup"><span data-stu-id="53623-104">This procedure shows you how to enable warehouse workers to quickly find alternative locations if there isn't sufficient inventory at the location they've been directed to.</span></span> <span data-ttu-id="53623-105">可以使用自动重新分配流程，该流程使用库位指令检索货物，前提是这些货物在另一个库位可用。</span><span class="sxs-lookup"><span data-stu-id="53623-105">It's possible to use an automatic re-allocation process, which uses location directives to retrieve the goods if they're available at another location.</span></span> <span data-ttu-id="53623-106">此外，如果使用手动重新分配，则移动设备上将显示库位列表和可用数量，供仓库工作人员选择使用哪个库位的库存。</span><span class="sxs-lookup"><span data-stu-id="53623-106">Alternatively, when manual re-allocation is used, a list of the locations with the available quantity is shown on the mobile device, allowing the warehouse worker to choose which location to use inventory from.</span></span> <span data-ttu-id="53623-107">您可以在演示数据公司 USMF 中使用此过程。</span><span class="sxs-lookup"><span data-stu-id="53623-107">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="53623-108">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="53623-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="0c66e-104">此过程显示如何启用仓库工作人员，以便在为其指示的货位的库存不足时，快速找到备用货位。</span><span class="sxs-lookup"><span data-stu-id="0c66e-104">This procedure shows how to enable warehouse workers to quickly find alternative locations if there isn’t sufficient inventory at the location they’ve been directed to.</span></span> 
 
+<span data-ttu-id="0c66e-105">重新分配过程由**工作异常**控制，由仓库**工作人员**使用。</span><span class="sxs-lookup"><span data-stu-id="0c66e-105">The reallocation process is controlled by a **Work exception** and used by the warehouse **worker.**</span></span>
 
-## <a name="set-up-work-exceptions"></a><span data-ttu-id="53623-109">设置工作异常</span><span class="sxs-lookup"><span data-stu-id="53623-109">Set up work exceptions</span></span>
-1. <span data-ttu-id="53623-110">在**导航窗格**中，转到**仓库管理 > 设置 > 工作 > 工作异常**。</span><span class="sxs-lookup"><span data-stu-id="53623-110">In the **Navigation pane**, go to **Warehouse management > Setup > Work > Work exceptions**.</span></span>
-2. <span data-ttu-id="53623-111">单击**新建**。</span><span class="sxs-lookup"><span data-stu-id="53623-111">Click **New**.</span></span> <span data-ttu-id="53623-112">可以使用不同物料重新分配策略定义多个工作异常，以便让仓库工作人员可以根据处理的装运需求选择一个。</span><span class="sxs-lookup"><span data-stu-id="53623-112">It's possible to define several work exceptions with different item reallocation policies to enable the warehouse worker to choose one based on the needs of the shipment that they are processing.</span></span>  
-3. <span data-ttu-id="53623-113">在**工作异常代码**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="53623-113">In the **Work exception code** field, type a value.</span></span> <span data-ttu-id="53623-114">为工作异常分配标题以指示其用途。</span><span class="sxs-lookup"><span data-stu-id="53623-114">Give the work exception a title to indicate what it's used for.</span></span> <span data-ttu-id="53623-115">例如，“手动领料短缺”。</span><span class="sxs-lookup"><span data-stu-id="53623-115">For example, Short picking manual.</span></span>  
-4. <span data-ttu-id="53623-116">在**描述**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="53623-116">In the **Description** field, type a value.</span></span>
-5. <span data-ttu-id="53623-117">在**异常类型**字段中，选择“领料短缺”。</span><span class="sxs-lookup"><span data-stu-id="53623-117">In the **Exception** type field, select 'Short pick'.</span></span>
-6. <span data-ttu-id="53623-118">选中**调整库存**复选框。</span><span class="sxs-lookup"><span data-stu-id="53623-118">Select the **Adjust inventory** check box.</span></span> <span data-ttu-id="53623-119">此选项意味着领料短缺库位自动将库存调整为 0。</span><span class="sxs-lookup"><span data-stu-id="53623-119">This option means that inventory will automatically be adjusted to 0 at the short picked location.</span></span>  
-7. <span data-ttu-id="53623-120">在**默认调整类型代码**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="53623-120">In the **Default adjustment type code** field, enter or select a value.</span></span> <span data-ttu-id="53623-121">例如，在 USMF 中，可以选择“删除 Res Adj Out”。</span><span class="sxs-lookup"><span data-stu-id="53623-121">For example, in USMF you can select 'Remove Res Adj Out'.</span></span>  
-8. <span data-ttu-id="53623-122">在**物料重新分配**字段中，选择“手动”。</span><span class="sxs-lookup"><span data-stu-id="53623-122">In the **Item reallocation** field, select 'Manual'.</span></span> <span data-ttu-id="53623-123">如果选择“手动”或“自动和手动”，需要启用仓库工作人员才能使用手动重新分配。</span><span class="sxs-lookup"><span data-stu-id="53623-123">If you select Manual, or Automatic and Manual, the warehouse worker needs to be enabled to use manual reallocation.</span></span>  
+<span data-ttu-id="0c66e-106">可以使用自动和/或手动重新分配流程：</span><span class="sxs-lookup"><span data-stu-id="0c66e-106">It is possible to use Automatic, Manual, or both reallocation processes:</span></span>
 
-## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a><span data-ttu-id="53623-124">设置工作人员以使用物料手动重新分配</span><span class="sxs-lookup"><span data-stu-id="53623-124">Set up a worker to use manual item reallocation</span></span>
-1. <span data-ttu-id="53623-125">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="53623-125">Close the page.</span></span>
-2. <span data-ttu-id="53623-126">在**导航窗格**中，转到**仓库管理 > 设置 > 工作人员**。</span><span class="sxs-lookup"><span data-stu-id="53623-126">In the **Navigation pane**, go to **Warehouse management > Setup > Worker**.</span></span>
-3. <span data-ttu-id="53623-127">单击**编辑**。</span><span class="sxs-lookup"><span data-stu-id="53623-127">Click **Edit**.</span></span>
-4. <span data-ttu-id="53623-128">在列表中，选择工作人员 24。</span><span class="sxs-lookup"><span data-stu-id="53623-128">In the list, select worker 24.</span></span>
-5. <span data-ttu-id="53623-129">展开**工作**快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="53623-129">Expand the **Work** fastTab.</span></span>
-6. <span data-ttu-id="53623-130">在**允许手动重新分配物料**字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="53623-130">Select 'Yes' in the **Allow manual item reallocation** field.</span></span>
+- <span data-ttu-id="0c66e-107">自动重新分配 - 货位指令用于确定另一个货位是否提供这些货物。</span><span class="sxs-lookup"><span data-stu-id="0c66e-107">Automatic reallocation - Location directives are used to determine if the goods are available at another location.</span></span> <span data-ttu-id="0c66e-108">如果可以，将更新工作，并将仓库用户定向到备用货位。</span><span class="sxs-lookup"><span data-stu-id="0c66e-108">If possible, the work will be updated and the warehouse user will be directed to the alternative location.</span></span>
+- <span data-ttu-id="0c66e-109">手动重新分配 - 允许仓库用户在拥有未预留货物数量的一个或多个货位中进行选择。</span><span class="sxs-lookup"><span data-stu-id="0c66e-109">Manual reallocation - Allows the warehouse user to select from one or more locations with unreserved quantities of goods.</span></span> 
+- <span data-ttu-id="0c66e-110">自动加手动 - 如果系统无法执行自动重新分配，并且有货位具有未预留数量，将提示用户选择货位。</span><span class="sxs-lookup"><span data-stu-id="0c66e-110">Automatic and manual - If the system is unable to perform an automatic reallocation, and locations are available with unreserved quantities, the user will be prompted to select a location.</span></span>
 
+## <a name="set-up-work-exceptions"></a><span data-ttu-id="0c66e-111">设置工作异常</span><span class="sxs-lookup"><span data-stu-id="0c66e-111">Set up work exceptions</span></span>
+<span data-ttu-id="0c66e-112">可以使用不同物料重新分配策略定义多个工作异常，以便让仓库工作人员可以根据处理的装运需求选择一个。</span><span class="sxs-lookup"><span data-stu-id="0c66e-112">It's possible to define several work exceptions with different item reallocation policies to enable the warehouse worker to choose one based on the needs of the shipment that they are processing.</span></span>
+
+<span data-ttu-id="0c66e-113">创建此过程时使用的是 USMF 演示数据格式。</span><span class="sxs-lookup"><span data-stu-id="0c66e-113">The USMF demo data company was used to create this procedure.</span></span>
+
+1. <span data-ttu-id="0c66e-114">在**导航窗格**中，转到**仓库管理 > 设置 > 工作 > 工作异常**。</span><span class="sxs-lookup"><span data-stu-id="0c66e-114">In the **Navigation pane**, go to **Warehouse management > Setup > Work > Work exceptions**.</span></span>
+2. <span data-ttu-id="0c66e-115">单击**新建**</span><span class="sxs-lookup"><span data-stu-id="0c66e-115">Click **New**</span></span> 
+3. <span data-ttu-id="0c66e-116">在**工作异常代码**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="0c66e-116">In the **Work exception code** field, type a value.</span></span> <span data-ttu-id="0c66e-117">这将是此异常的标题。</span><span class="sxs-lookup"><span data-stu-id="0c66e-117">This will be the title of this exception .</span></span> <span data-ttu-id="0c66e-118">例如，“手动领料短缺”。</span><span class="sxs-lookup"><span data-stu-id="0c66e-118">For example, Short picking manual.</span></span>
+4. <span data-ttu-id="0c66e-119">在**描述**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="0c66e-119">In the **Description** field, type a value.</span></span> <span data-ttu-id="0c66e-120">这将是此异常的使用情况简短说明。</span><span class="sxs-lookup"><span data-stu-id="0c66e-120">This will be a short description of the usage of this exception.</span></span> <span data-ttu-id="0c66e-121">例如，“领料短缺 - 物料不可用”。</span><span class="sxs-lookup"><span data-stu-id="0c66e-121">For example, Short picking - item not available.</span></span>
+5. <span data-ttu-id="0c66e-122">在**异常类型**字段中，选择**领料短缺**。</span><span class="sxs-lookup"><span data-stu-id="0c66e-122">In the **Exception** type field, select **Short pick**.</span></span>
+6. <span data-ttu-id="0c66e-123">选中**调整库存**复选框。</span><span class="sxs-lookup"><span data-stu-id="0c66e-123">Select the **Adjust inventory** check box.</span></span> <span data-ttu-id="0c66e-124">如果选中，领料短缺货位自动将库存调整为 0。</span><span class="sxs-lookup"><span data-stu-id="0c66e-124">If selected, inventory will automatically be adjusted to 0 at the short picked location.</span></span>
+7. <span data-ttu-id="0c66e-125">在**默认调整类型代码**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="0c66e-125">In the **Default adjustment type code** field, enter or select a value.</span></span> <span data-ttu-id="0c66e-126">例如，在 USMF 中，可以选择**删除 Res Adj Out**。每个调整类型代码中包含四个特征：名称、说明、库存日记帐名称和**删除预留**。</span><span class="sxs-lookup"><span data-stu-id="0c66e-126">For example, in USMF you can select **Remove Res Adj Out**. Each Adjustment type code contains four characteristics: name, description, inventory journal name, and **Remove reservations**.</span></span> <span data-ttu-id="0c66e-127">如果启用了**删除预留**，将删除领料短缺行的预留。</span><span class="sxs-lookup"><span data-stu-id="0c66e-127">If **Remove reservations** is enabled, the short-picked order line's reservations will be removed.</span></span>  
+8. <span data-ttu-id="0c66e-128">在**物料重新分配**字段中，选择一个值，如“手动”。</span><span class="sxs-lookup"><span data-stu-id="0c66e-128">In the **Item reallocation** field, select a value, such as Manual.</span></span> <span data-ttu-id="0c66e-129">如果选择“手动”或“自动和手动”，需要启用仓库工作人员才能使用手动重新分配。</span><span class="sxs-lookup"><span data-stu-id="0c66e-129">If you select Manual, or Automatic and Manual, the warehouse worker needs to be enabled to use manual reallocation.</span></span>
+
+## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a><span data-ttu-id="0c66e-130">设置工作人员以使用物料手动重新分配</span><span class="sxs-lookup"><span data-stu-id="0c66e-130">Set up a worker to use manual item reallocation</span></span>
+
+<span data-ttu-id="0c66e-131">创建此过程时使用的是 USMF 演示数据格式。</span><span class="sxs-lookup"><span data-stu-id="0c66e-131">The USMF demo data company was used to create this procedure.</span></span>
+
+1. <span data-ttu-id="0c66e-132">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="0c66e-132">Close the page.</span></span>
+2. <span data-ttu-id="0c66e-133">在**导航窗格**中，转到**仓库管理 > 设置 > 工作人员**。</span><span class="sxs-lookup"><span data-stu-id="0c66e-133">In the **Navigation pane**, go to **Warehouse management > Setup > Worker**.</span></span>
+3. <span data-ttu-id="0c66e-134">单击**编辑**。</span><span class="sxs-lookup"><span data-stu-id="0c66e-134">Click **Edit**.</span></span>
+4. <span data-ttu-id="0c66e-135">在列表中，选择工作人员。</span><span class="sxs-lookup"><span data-stu-id="0c66e-135">In the list, select worker.</span></span> <span data-ttu-id="0c66e-136">例如，Julia Funderburk。</span><span class="sxs-lookup"><span data-stu-id="0c66e-136">For example, Julia Funderburk.</span></span>
+5. <span data-ttu-id="0c66e-137">展开**用户**快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="0c66e-137">Expand the **Users** FastTab.</span></span>
+6. <span data-ttu-id="0c66e-138">在列表中选择一个**用户 ID**。</span><span class="sxs-lookup"><span data-stu-id="0c66e-138">In the list, select a **User ID**.</span></span> <span data-ttu-id="0c66e-139">例如，24。</span><span class="sxs-lookup"><span data-stu-id="0c66e-139">For example, 24.</span></span>
+7. <span data-ttu-id="0c66e-140">展开**工作**快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="0c66e-140">Expand the **Work** FastTab.</span></span>
+8. <span data-ttu-id="0c66e-141">在**允许手动重新分配物料**字段中选择**是**。</span><span class="sxs-lookup"><span data-stu-id="0c66e-141">Select **Yes** in the **Allow manual item reallocation** field.</span></span>
