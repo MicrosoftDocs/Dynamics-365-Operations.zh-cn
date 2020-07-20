@@ -1,6 +1,6 @@
 ---
-title: 通过 Warehouse 应用进行的牌照收货
-description: 此主题介绍如何设置 Warehousing 应用以支持使用牌照收货流程接收实际库存。
+title: 通过仓库应用进行的牌照收货
+description: 此主题介绍如何设置仓库应用以支持使用牌照收货流程接收实际库存。
 author: perlynne
 manager: tfehr
 ms.date: 04/29/2020
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 82b4f40510d5bbf829508f17f1064886620a4aed
-ms.sourcegitcommit: a3cd2783ae120ac6681431c010b9b126a9ca7d94
+ms.openlocfilehash: 5330981bde98b80e81076a9b1416473135ebdac6
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410877"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530182"
 ---
-# <a name="license-plate-receiving-via-the-warehousing-app"></a>通过 Warehouse 应用进行的牌照收货
+# <a name="license-plate-receiving-via-the-warehouse-app"></a>通过仓库应用进行的牌照收货
 
-此主题介绍如何设置 Warehousing 应用，以便支持使用牌照收货流程接收实际库存。
+此主题介绍如何设置仓库应用，以便支持使用牌照收货流程接收实际库存。
 
 可使用此功能快速记录与发货通知 (ASN) 有关的入站库存的收货。 当使用仓库管理流程为转移单发货时，系统将自动创建 ASN。 对于采购订单流程，ASN 可以手动创建，也可以使用入站 ASN 数据实体流程自动导入。
 
@@ -35,7 +35,7 @@ ASN 数据将通过*装箱结构*链接到负荷和装运，其中的托盘（�
 
 ## <a name="warehousing-mobile-device-app-processing"></a>仓库移动设备应用处理
 
-当工作人员扫描传入的牌照 ID 时，系统会初始化牌照接收流程。 根据此信息，牌照的内容（来自 ASN 的数据）在进货台库位进行实际登记。 接下来的流程将取决于您的业务流程需求。
+当工作人员扫描传入的牌照 ID 时，系统会初始化牌照接收流程。 根据此信息，牌照的内容（来自 ASN 的数据）在入库台货位进行实际登记。 接下来的流程将取决于您的业务流程需求。
 
 ## <a name="work-policies"></a>工作策略
 
@@ -53,14 +53,14 @@ ASN 数据将通过*装箱结构*链接到负荷和装运，其中的托盘（�
 - *牌照接收和储存*
 
 > [!NOTE]
-> - 您必须在**库存库位**部分为工作策略定义至少一个位置。 您不能为多个工作政策指定相同的位置。
+> - 您必须在**库存货位**部分为工作策略定义至少一个位置。 您不能为多个工作政策指定相同的位置。
 > - 仓库移动设备菜单项的**打印标签**选项不会在不创建工作的情况下打印牌照标签。
 
 要使此功能在您的系统上可用，您必须在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开*牌照接收增强*功能。
 
 ### <a name="receive-inventory-on-a-location-that-doesnt-track-license-plates"></a>在不跟踪牌照的位置接收库存
 
-即使未打开**使用牌照跟踪**，也可以使用分配给库位配置文件的仓库库位。 因此，当您接收库存时，可以直接在某个位置登记现有库存量，而无需创建工作。
+即使未打开**使用牌照跟踪**，也可以使用分配给货位模板的仓库货位。 因此，当您接收库存时，可以直接在某个位置登记现有库存量，而无需创建工作。
 
 ## <a name="add-mobile-device-menu-items-for-each-receiving-location-in-a-warehouse"></a>为仓库中的每个接收位置添加移动设备菜单项
 
@@ -81,7 +81,7 @@ ASN 数据将通过*装箱结构*链接到负荷和装运，其中的托盘（�
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>阻止转移单已装运牌照用于目标仓库以外的其他仓库
 
-如果 ASN 中包含已存在的牌照 ID，并且具有的实际现有数据所在仓库位置不是牌照的登记仓库位置，则不能使用牌照接收流程。
+如果 ASN 中包含已存在的牌照 ID，并且具有的实际现有数据所在仓货位置不是牌照的登记仓货位置，则不能使用牌照接收流程。
 
 对于中转仓库不跟踪牌照（因此也不跟踪每个牌照的实际现有库存）的转移单方案，可使用*阻止转移单已装运牌照用于目标仓库以外的其他仓库*功能阻止中转中的牌照的实际现有更新。
 

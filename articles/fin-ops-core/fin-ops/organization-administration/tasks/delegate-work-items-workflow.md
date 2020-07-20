@@ -1,9 +1,9 @@
 ---
 title: 在工作流中委托工作项
 description: 如果您计划外出一段时间或无法对工作项进行操作，则您可以将您的工作项委托或重新分配给其他用户。
-author: jasongre
+author: ChrisGarty
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 06/23/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: jasongre
+ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aceafbe8dfcdac2ac7b97a4f77a9a30599c60c51
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7d98d84b89f1f3322a9c896b74b63a3b6425b13b
+ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140574"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "3515756"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>在工作流中委托工作项
 
@@ -30,6 +30,16 @@ ms.locfileid: "3140574"
 ## <a name="manually-delegate-a-work-item"></a>手动委托工作项
 
 若要委托单个工作项，请在**工作流**菜单中选择**委托**选项，然后输入要委托给的用户和注释。 这将把该工作项重新分配给该用户，以便该用户完成此工作项。
+
+## <a name="manually-delegate-multiple-work-items"></a>手动委托多个工作项
+
+可以从**分配给我的工作项**页一并委托多个工作项。 以下工作流类型支持批量委托：采购协议审核工作流、采购订单工作流、采购申请审核和供应商账单工作流。 **委托多个工作项**功能默认已禁用，可以在**工作区 > 功能管理**中启用。 请与系统管理员联系，获取启用此功能的帮助。
+1.  转到**通用 > 通用 > 工作项 > 分配给我的工作项**。
+2.  选择将委托的工作项。
+3.  单击**委托工作项**菜单。
+4.  在**用户**字段中，选择要将工作项委托给的用户。
+5.  在**注释**字段中，输入说明您委托工作项的原因的注释。
+6.  单击**委托工作项**按钮完成工作项委托。
 
 ## <a name="automatically-delegate-work-items"></a>自动委托工作项
 

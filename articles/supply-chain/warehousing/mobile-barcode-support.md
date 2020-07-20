@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cbaed4da3ccd17d83c002994f01829f76db0d36a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0612833391cf7690343b7180f11d49ba1ad92d24
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215738"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530435"
 ---
 # <a name="mobile-barcode-support"></a>移动条码支持
 

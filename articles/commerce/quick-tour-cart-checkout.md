@@ -1,9 +1,9 @@
 ---
-title: 购物车和结帐页概述
+title: 购物车和结账页面概览
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中的购物车和结帐页。
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002927"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527554"
 ---
-# <a name="overview-of-cart-and-checkout-pages"></a>购物车和结帐页概述
-
+# <a name="cart-and-checkout-pages-overview"></a>购物车和结账页面概览
 
 [!include [banner](includes/banner.md)]
 
@@ -105,8 +104,6 @@ ms.locfileid: "3002927"
 
 [主页概览](quick-tour-home-page.md)
 
-[默认类别登陆页面和搜索结果页面的概述](category-search-page-overview.md)
+[产品详细信息页面概览](quick-tour-pdp.md)
 
-[产品详细信息页概述](quick-tour-pdp.md)
-
-[帐户管理页概述](quick-tour-account-management.md)
+[帐户管理页面概览](quick-tour-account-management.md)

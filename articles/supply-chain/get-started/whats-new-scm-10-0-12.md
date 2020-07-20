@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: c773b5e1013bbd58f48cd345f50a342175ed0c98
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: fd64a4ea53976293a6ff484a370d7804bf6c724f
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413885"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530136"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Dynamics 365 Supply Chain Management 10.0.12 的新增功能或更改（2020 年 8 月）
 
@@ -43,10 +43,9 @@ ms.locfileid: "3413885"
 - [负荷物料接收期间在仓库应用中捕获产品变型和跟踪维度](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving) - 有关详细信息，请参阅[为仓库工作设置移动设备](../warehousing/configure-mobile-devices-warehouse.md)。
 - 成本计算级别（新物料清单级别）- 有关详细信息，请参阅[成本计算级别](../cost-management/cost-calculation-level.md)。
 - [Dynamics 365 Supply Chain Management 客户门户](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences) - 有关详细信息，请参阅 [Dynamics 365 Supply Chain Management 客户门户概述](../sales-marketing/customer-portal-overview.md)。
-- [现有库存量服务](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-service)
 - [IoT 智能核心见解](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) - 有关详细信息，请参阅 [IoT 智能主页](../iot/iot-intelligence-home-page.md)。
 - [仓库应用的牌照接收增强（续）](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)- 有关详细信息，请参阅[通过仓库应用进行的牌照接收](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)。
-- [Warehouse mobile app 的批量部署](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app) - 有关详细信息，请参阅[安装和配置 Warehousing 应用概述](../warehousing/install-configure-warehousing-app.md)。
+- [Warehouse mobile app 的批量部署](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app) - 有关详细信息，请参阅[安装和配置仓库应用概述](../warehousing/install-configure-warehousing-app.md)。
 - [仓库管理现有条目清除作业的最长执行时间](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job) - 有关详细信息，请参阅[仓库管理现有条目清除作业](../warehousing/onhand-cleanup.md)。
 - [采购贸易协议的计划优化支持](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements) - 有关详细信息，请参阅[使用采购贸易协议进行主计划](../master-planning/planning-optimization/purchase-trade-agreement.md)。
 

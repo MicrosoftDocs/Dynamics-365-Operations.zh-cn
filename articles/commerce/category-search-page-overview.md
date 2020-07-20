@@ -1,9 +1,9 @@
 ---
-title: 默认类别登陆页面和搜索结果页面的概述
+title: 默认类别登陆页面和搜索结果页面概览
 description: 此主题概述 Dynamics 365 Commerce 中的默认类别登陆页和搜索结果页。
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 17746d2923ab84311253c47647c0020807bdb75c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002488"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527460"
 ---
-# <a name="overview-of-default-category-landing-page-and-search-results-page"></a>默认类别登陆页面和搜索结果页面的概述
-
+# <a name="default-category-landing-page-and-search-results-page-overview"></a>默认类别登陆页面和搜索结果页面概览
 
 [!include [banner](includes/banner.md)]
 
@@ -96,13 +95,19 @@ ms.locfileid: "3002488"
 - 网站访问者可使用**分页**从一页已分类产品结果移到另一页。
 - **总计数**提供类别中定义且与搜索条件匹配的产品的总数。
 
+>[!NOTE]
+>从版本 10.0.8 开始可使用这些云助力的搜索功能。 确保 **Commerce 参数 > 配置参数**下有一个条目是“ProductSearch.UseAzureSearch 设置为 true”。 
+![云助力搜索的配置参数](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>其他资源
+
+[云助力的搜索概览](cloud-powered-search-overview.md)
 
 [主页概览](quick-tour-home-page.md)
 
-[产品详细信息页概述](quick-tour-pdp.md)
+[产品详细信息页面概览](quick-tour-pdp.md)
 
-[购物车和结帐页概述](quick-tour-cart-checkout.md)
+[购物车和结账页面概览](quick-tour-cart-checkout.md)
 
-[帐户管理页概述](quick-tour-account-management.md)
+[帐户管理页面概览](quick-tour-account-management.md)
 

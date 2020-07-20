@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7521784931cc4aac5a7e7729d045e501cba9460e
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: b310b787906850a60c9e2a453ce2d13330dad212
+ms.sourcegitcommit: 26399aafe2b02732c79073455f5bc9ac07bab4b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278932"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "3502105"
 ---
 # <a name="implementation-project-manager-learning-catalog"></a>实施项目经理学习目录
 
@@ -29,7 +29,7 @@ ms.locfileid: "3278932"
 | 内容 | 说明  | 格式  | 长度    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------|
 | [了解 Microsoft Dynamics 365 和 Power Platform 的业务价值](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | 您是否有兴趣了解业务应用程序？ 也许您不知道从哪里开始使用 Microsoft Dynamics 365 和 Power Platform 应用程序？ 了解业务应用程序的力量如何帮助您转变业务。 | 自由、自定进度的在线学习路径   | 7 小时   |
-| [Dynamics 365 和 Power Platform 基本原理](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/ | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 自由、自定进度的在线学习路径   | 5.5 小时 |
+| [Dynamics 365 和 Power Platform 基本原理](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 自由、自定进度的在线学习路径   | 5.5 小时 |
 | [Finance and Operations 应用入门](https://docs.microsoft.com/learn/paths/get-started-finance-operations/)  | 了解 Finance and Operations 应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用 Finance and Operations 应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径   | 2 小时   |
 | [购买之前](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy)  | 无论您是仍然在评估 Finance and Operations 还是准备购买，都请查看此分步指导。| 文档  |           |
 | [发布计划](https://docs.microsoft.com/dynamics365/release-plans/)  | 了解 Dynamics 365 的最新功能和增强  | 文档  |           |
@@ -106,7 +106,7 @@ ms.locfileid: "3278932"
 | [在 Dynamics 365 Supply Chain Management 中配置和管理产品和库存](https://docs.microsoft.com/learn/paths/configure-manage-products-inventory-d365-finance-ops/)  | 产品信息是跨所有行业的供应链和零售应用程序的核心。 在不同的业务解决方案模块中，需要产品的特定信息和配置以管理与产品、产品系列、物料清单和产品类别有关的业务流程。 库存报告通过多种方式显示库存量，并说明如何提高库存投入的效率。 | 自由、自定进度的在线学习路径 | 6 小时    | 
 | [在 Dynamics 365 Supply Chain Management 中配置和管理采购和供应商](https://docs.microsoft.com/learn/paths/configure-manage-procurement-vendors-d365-finance-ops/)  | 查找供应商和与供货商合作，采购产品，以及确保货物和服务的质量全部都是会影响公司声誉和成功的重要因素的过程。  | 自由、自定进度的在线学习路径  | 6 小时    | 
 | [在 Dynamics 365 for Finance and Operations 中配置和使用仓库管理](https://docs.microsoft.com/learn/paths/configure-work-warehouse-management-d365-finance-ops/)  | Dynamics 365 for Finance and Operations 中的仓库管理可根据您的单独需要帮助组织和简化仓库流程，还可以提供对您的仓库和工具的见解来帮助提高客户满意度和降低成本。| 自由、自定进度的在线学习路径  | 5 小时    | 
-| [在 Dynamics 365 Supply Chain Management 中配置和使用运输管理](https://docs.microsoft.com/learn/paths/configure-work-transportation-mgmt-dyn365-supply-chain-mgmt/)            | Dynamics 365 Supply Chain Management 中的运输管理模块可帮助您找到最有效的方式将商品交付给客户。 运输管理计算出最便宜、最快的交货方式，使您可以确定进货和出货订单的供应商和路线解决方案。 | 自由、自定进度的在线学习路径   | 3 小时  | 
+| [在 Dynamics 365 Supply Chain Management 中配置和使用运输管理](https://docs.microsoft.com/learn/paths/configure-work-transportation-mgmt-dyn365-supply-chain-mgmt/)            | Dynamics 365 Supply Chain Management 中的运输管理模块可帮助您找到最有效的方式将商品交付给客户。 运输管理计算出最便宜、最快的交货方式，使您可以确定入库和出库订单的供应商和路线解决方案。 | 自由、自定进度的在线学习路径   | 3 小时  | 
 | [移动仓库应用程序 (VIR816PAL)](https://community.dynamics.com/365/b/techtalks/posts/warehousing-mobile-app-march-22-2017)  | 此技术交流讨论 Dynamics 365 for Operations 中的高级仓库系统，以及高级仓库移动界面的未来会怎样。 我们将查看已发布的新移动应用程序，并将其与旧 WMDP 进行比较。 我们将了解要安装、配置和运行此移动应用程序需要满足的先决条件，以及如何将其用于识别您的实施。 | 自由录制 Web 会议   | 54 分钟 | 
 | [供应商协作 (DYN327PAL)](https://community.dynamics.com/365/b/techtalks/posts/vendor-collaboration-july-25-2017) | 此技术交流提供供应商协作功能的演练，包括 7 月（春季）发行版中包含的“供应商响应使用”功能。  | 自由录制 Web 会议  | 58 分钟    | 
 | [使用高级仓库管理的物料和仓库迁移流程 (DYN316PAL)](https://community.dynamics.com/365/b/techtalks/posts/item-and-warehouse-migration-process-to-use-advanced-warehouse-management-june-27-2017)   | 在此技术交流中，将介绍如何通过未结交易记录将现有仓库设置和物料迁移到高级仓库管理，方法是使用新功能更改物料的维度组和让仓库使用高级仓库管理流程。| 自由、自定进度的在线学习路径  | 54 分钟  | 
