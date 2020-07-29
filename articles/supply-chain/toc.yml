@@ -74,6 +74,8 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11（2020 年 7 月）
                       href: get-started/whats-new-scm-10-0-11.md
+                    - name: Supply Chain Management 10.0.10（2020 年 5 月）
+                      href: get-started/whats-new-scm-10-0-10.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
@@ -1351,10 +1353,12 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: 查看计划历史记录和计划日志
                   href: master-planning/planning-optimization/plan-history-logs.md
-                - name: 计划优化自动确认
+                - name: 通过计划优化自动确认
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: 取消计划作业
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: 计划优化可扩展性
+                  href: master-planning/planning-optimization/extensibility.md
                 - name: 解决计划优化问题
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: 主计划
@@ -1511,6 +1515,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 使用向导设置编号规则
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 配置仓库流的编号规则
+                  href: warehousing/configure-number-sequence-extensions.md?toc=/dynamics365/supply-chain/toc.json
             - name: 组织和组织层次结构
               items:
                 - name: 组织和组织层次结构概览
@@ -1817,6 +1823,10 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: 排除主计划中的产品
                       href: pim/tasks/exclude-products-master-planning.md
+                - name: 两用商品
+                  href: pim/dual-use.md
+                - name: 原产国家/地区
+                  href: pim/country-of-origin.md
                 - name: 为产品创建条码
                   href: pim/tasks/create-bar-code-product.md
                 - name: 输入产品的 GTIN 代码
@@ -2565,22 +2575,20 @@
               href: warehousing/warehouse-management-overview.md
             - name: 收货仓库工序
               items:
-                - name: 登记和储存的收据
-                  items:
-                    - name: 仓库对采购订单入站负荷的处理
-                      href: warehousing/inbound-load-handling.md
-                    - name: 使用物料到达日记帐登记启用了高级仓库的物料
-                      href: warehousing/tasks/register-items-advanced-warehousing.md
-                    - name: 使用物料到达日记帐登记启用了基本仓库的物料
-                      href: warehousing/tasks/register-items-basic-warehousing.md
-                    - name: 将产品从接收仓库越库配送到商店
-                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                    - name: 设置采购订单储存的位置指令
-                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                    - name: 设置采购订单的工作模板
-                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
-                    - name: 库位产品维度混合
-                      href: warehousing/location-product-dimension-mixing.md
+                - name: 仓库对采购订单入站负荷的处理
+                  href: warehousing/inbound-load-handling.md
+                - name: 使用物料到达日记帐登记启用了高级仓库的物料
+                  href: warehousing/tasks/register-items-advanced-warehousing.md
+                - name: 使用物料到达日记帐登记启用了基本仓库的物料
+                  href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: 将产品从接收仓库越库配送到商店
+                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                - name: 设置采购订单储存的位置指令
+                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                - name: 设置采购订单的工作模板
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                - name: 库位产品维度混合
+                  href: warehousing/location-product-dimension-mixing.md
             - name: 出货仓库工序
               items:
                 - name: 仓库管理中的预留
@@ -2597,14 +2605,14 @@
                   items:
                     - name: 设置群集领料
                       href: warehousing/set-up-cluster-picking.md
+                    - name: 系统导向的群集领料
+                      href: warehousing/system-directed-cluster-pick.md
                     - name: 设置集装化
                       href: warehousing/tasks/set-up-containerization.md
                     - name: 批次和牌照确认
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: 启用牌照标签打印
                       href: warehousing/tasks/license-plate-label-printing.md
-                    - name: 在 Dynamics 365 for Finance and Operations 中使用摄像头扫描条码
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: 单件领料确认
                       href: warehousing/piece-picking-confirmation.md
                     - name: 包装材料和费用
@@ -2615,14 +2623,18 @@
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: 取消仓库工作以进行异常处理
                       href: warehousing/cancel-warehouse-work.md
-                    - name: 系统导向的群集领料
-                      href: warehousing/system-directed-cluster-pick.md
                     - name: 系统导向的工作序列
                       href: warehousing/system-directed-work-sequencing.md
                     - name: 领料行分组
                       href: warehousing/pick-line-grouping.md
                     - name: 仓库时隙
                       href: warehousing/warehouse-slotting.md
+                    - name: 库位指令库存领料帐龄
+                      href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: 出站排序
+                      href: warehousing/outbound-sorting.md
+                    - name: 上架 - 放到店内
+                      href: warehousing/put-to-wall-put-to-store.md
                 - name: 补货
                   items:
                     - name: 补货概览
@@ -2645,6 +2657,8 @@
                       href: warehousing/release-to-warehouse-rule.md
                     - name: 波次模板分组
                       href: warehousing/wave-template-grouping.md
+                    - name: 重新打印波次标签并使之无效
+                      href: warehousing/reprint-and-void-wave-labels.md
                 - name: 装运合并政策
                   items:
                     - name: 装运合并政策
@@ -2715,6 +2729,10 @@
                       href: warehousing/work-line-details.md
                     - name: 库位牌照定位
                       href: warehousing/location-license-plate-positioning.md
+                    - name: 更改工作的工作池
+                      href: warehousing/change-work-pool-on-work.md
+                    - name: 物料合并 - 库位利用率
+                      href: warehousing/item-consolidation-location-utilization.md
             - name: 仓库设置
               items:
                 - name: 仓库配置
@@ -2729,6 +2747,8 @@
                       href: warehousing/wave-step-codes.md
                     - name: 配置波次处理
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: 设置和使用波形标签打印
+                      href: warehousing/configure-wave-label-printing.md
                     - name: 自动更新装运
                       href: warehousing/auto-update-shipment.md
                     - name: 创建库位配置文件
@@ -2753,11 +2773,9 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: 牌照标签的文档路线选择布局
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: 在 Dynamics 365 for Finance and Operations 中使用摄像头扫描条码
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: 移动条码支持
                       href: warehousing/mobile-barcode-support.md
-                    - name: 设置仓库以支持转移单
+                    - name: 设置转移单的仓库
                       href: warehousing/transfer-orders-warehouse.md
                 - name: 安装和配置仓库应用
                   items:
@@ -2765,8 +2783,10 @@
                       href: warehousing/install-configure-warehousing-app.md
                     - name: 配置仓库应用中的字段名称
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: 设置移动设备以执行仓库工作
+                    - name: 为仓库工作设置移动设备
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: 在仓库应用中使用摄像头扫描条码
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: 通过仓库应用接收牌照
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: 设置移动设备菜单项以完成采购订单中的工作

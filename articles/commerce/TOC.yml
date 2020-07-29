@@ -36,19 +36,19 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: 创建和自动执行用户接受度测试
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: 设置 Dynamics 365 Commerce 预览环境
+            - name: 设置 Dynamics 365 Commerce 评估环境
               items:
-                - name: Dynamics 365 Commerce 预览环境概览
+                - name: Dynamics 365 Commerce 评估环境概览
                   href: cpe-overview.md
-                - name: 配置 Dynamics 365 Commerce 预览环境
+                - name: 配置 Dynamics 365 Commerce 评估环境
                   href: provisioning-guide.md
-                - name: 配置 Dynamics 365 Commerce 预览环境
+                - name: 配置 Dynamics 365 Commerce 评估环境
                   href: cpe-post-provisioning.md
-                - name: 在 Dynamics 365 Commerce 环境中配置 BOPIS
+                - name: 在 Dynamics 365 Commerce 评估环境中配置 BOPIS
                   href: cpe-bopis.md
-                - name: 为 Dynamics 365 Commerce 预览环境配置可选功能
+                - name: 为 Dynamics 365 Commerce 评估环境配置可选功能
                   href: cpe-optional-features.md
-                - name: Dynamics 365 Commerce 预览环境常见问题
+                - name: Dynamics 365 Commerce 评估环境常见问题
                   href: cpe-faq.md
             - name: 部署注意事项
               items:
@@ -72,6 +72,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: 法国的 Finance and Operations 应用
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
+            - name: 获取 Dynamics 365 Commerce 支持
+              href: retail-support.md
             - name: 升级和 N-1 支持
               items:
                 - name: Commerce 的升级和 N-1 支持
@@ -192,6 +194,8 @@
                   href: commerce-architecture.md
                 - name: Dynamics 365 Commerce 身份验证流程
                   href: arch-auth-flow.md
+                - name: Dynamics 365 Commerce 组件版本控制要求
+                  href: arch-component-versioning.md
                 - name: Commerce Scale Unit 体系结构
                   href: dev-itpro/retail-server-architecture.md
                 - name: 选择店内拓扑
@@ -1984,6 +1988,8 @@
                       href: e-commerce-extensibility/create-observable-data-action.md
                     - name: 跨模块共享状态
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: 数据操作缓存设置
+                      href: e-commerce-extensibility/data-action-cache-settings.md
                     - name: 数据操作覆盖
                       href: e-commerce-extensibility/data-action-overrides.md
                     - name: 数据操作挂接
