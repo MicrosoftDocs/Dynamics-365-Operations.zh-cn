@@ -3,8 +3,10 @@
   items:
     - name: 新增功能
       items:
-        - name: Human Resources 中新增或更改的功能
+        - name: Human Resources 新增功能或更改
           href: hr-admin-whats-new.md
+        - name: 2020 年 7 月 8 日
+          href: hr-whats-new-2020-07-08.md
         - name: 2020 年 6 月 25 日
           href: hr-whats-new-2020-06-23.md
         - name: 2020 年 6 月 11 日
@@ -577,5 +579,7 @@
           items:
             - name: 员工和经理自助服务概览
               href: hr-employee-manager-self-service-overview.md
+            - name: 更改员工自助服务工作区名称
+              href: hr-employee-self-service-workspace-name.md
             - name: 编辑个人信息
               href: hr-employee-manager-self-service-edit-personal-information.md
