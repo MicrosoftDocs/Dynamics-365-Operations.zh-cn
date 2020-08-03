@@ -2,7 +2,7 @@
 title: 库龄报表示例和逻辑
 description: 本主题提供了一些示例来展示如何解释库龄报表的结果。
 author: RichardLuan
-manager: AnnBe
+manager: tfehr
 ms.date: 5/29/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: riluan
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6c165599c11b84e4064a9303d8b1f59558fc6b9d
-ms.sourcegitcommit: 6bf8602333191e5161ba3a9ceecf160c85ff7e79
+ms.openlocfilehash: cb7b7a055c26b53ee3acc3b872acf04fcf089eca
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484522"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597232"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>库龄报表示例和逻辑
 

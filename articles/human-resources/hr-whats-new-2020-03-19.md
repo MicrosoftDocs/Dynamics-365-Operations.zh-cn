@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d6988bb95cf2ffe8146434f4b194d97491952915
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: f636dbd3b0ba59ea6cafbc431af46315210dded1
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3157362"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555238"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>Dynamics 365 Human Resources（2020 年 3 月 19 日）中的新增功能或更改
 
@@ -122,3 +122,9 @@ Lifecycle Services (LCS) 中每个项目的环境数量限制已更改。 先前
 
 - **福利管理预览功能** - 有关详细信息（包括已知问题），请参阅[福利管理概述](hr-benefits-management-overview.md)。
 
+## <a name="see-also"></a>请参阅
+
+[Human Resources 中新增或更改的功能](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[更新流程](hr-admin-setup-update-process.md)</br>
+[管理功能](hr-admin-manage-features.md)

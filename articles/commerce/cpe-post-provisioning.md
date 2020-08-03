@@ -1,9 +1,9 @@
 ---
-title: 配置 Dynamics 365 Commerce 预览环境
-description: 本主题说明如何在预配后配置 Microsoft Dynamics 365 Commerce 预览环境。
+title: 配置 Dynamics 365 Commerce 评估环境
+description: 本主题说明如何在预配后配置 Microsoft Dynamics 365 Commerce 评估环境。
 author: psimolin
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,25 +17,24 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ad05996eaabd3965308370649a27b8bc3080c7ce
-ms.sourcegitcommit: f72e90dccc80718e99cab2752eaf8931dcbb915e
+ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3534059"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599716"
 ---
-# <a name="configure-a-dynamics-365-commerce-preview-environment"></a>配置 Dynamics 365 Commerce 预览环境
-
+# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>配置 Dynamics 365 Commerce 评估环境
 
 [!include [banner](includes/banner.md)]
 
-本主题说明如何在预配后配置 Microsoft Dynamics 365 Commerce 预览环境。
+本主题说明如何在预配后配置 Microsoft Dynamics 365 Commerce 评估环境。
 
 ## <a name="overview"></a>概览
 
-请仅在预配了 Commerce 预览环境之后，再完成本主题中的过程。 有关如何预配 Commerce 预览环境的信息，请参阅[预配 Commerce 预览环境](provisioning-guide.md)。
+请仅在预配了 Commerce 评估环境之后，再完成本主题中的过程。 有关如何预配 Commerce 评估环境的信息，请参阅[预配 Commerce 评估环境](provisioning-guide.md)。
 
-端到端预配 Commerce 预览环境后，必须先完成其他预配后配置步骤，然后才能开始评估环境。 要完成这些步骤，您必须使用 Microsoft Dynamics Lifecycle Services (LCS) 和 Dynamics 365 Commerce。
+端到端预配 Commerce 评估环境后，必须先完成其他预配后配置步骤，然后才能开始评估环境。 要完成这些步骤，您必须使用 Microsoft Dynamics Lifecycle Services (LCS) 和 Dynamics 365 Commerce。
 
 ## <a name="before-you-start"></a>开始之前
 
@@ -43,19 +42,20 @@ ms.locfileid: "3534059"
 1. 转到您的项目。
 1. 在顶级菜单上，选择**云托管的环境**。
 1. 在列表中选择您的环境。
-1. 在右侧的环境信息中，选择**完整详细信息**。
-1. 选择**登录**打开菜单，然后选择**登录到环境**。
+1. 在右侧的环境信息中，选择**登录到环境**。 您将被送到 Commerce headquarters。
 1. 确保选择了右上角的 **USRT** 法人。
 
-## <a name="configure-the-point-of-sale-in-lcs"></a>在 LCS 中配置销售点
+在 Commerce headquarters 进行预配后活动期间，请确保 **USRT** 法人始终处于选中状态。
+
+## <a name="configure-the-point-of-sale"></a>配置销售点
 
 ### <a name="associate-a-worker-with-your-identity"></a>将工作人员与您的标识关联
 
-要在 LCS 中将工作人员与您的标识关联，请执行以下步骤。
+要将工作人员与您的标识关联，请在 Commerce headquarters 中执行以下步骤。
 
 1. 使用左侧菜单转到**模块 \> Retail 和 Commerce \> 员工 \> 工作人员**。
 1. 在列表中，找到并选择以下记录：**000713 - Andrew Collette**。
-1. 在操作窗格上，选择 **Retail**。
+1. 在“操作窗格”上，选择 **Commerce**。
 1. 选择**关联现有标识**。
 1. 在（**使用电子邮件搜索**右侧的）**电子邮件**字段中，输入您的电子邮件地址。
 1. 选择**搜索**。
@@ -65,25 +65,24 @@ ms.locfileid: "3534059"
 
 ### <a name="activate-cloud-pos"></a>激活 Cloud POS
 
-要在 LCS 中激活 Cloud POS，请执行以下步骤。
+要激活 Cloud POS，请在 LCS 中执行以下步骤。
 
 1. 在顶级菜单上，选择**云托管的环境**。
 1. 在列表中选择您的环境。
-1. 在右侧的环境信息中，选择**完整详细信息**。
-1. 选择**登录**打开菜单，然后选择**登录到云销售点**打开销售点 (POS)。
-1. 选择**下一步**。
+1. 在右侧的环境信息中，选择**登录到云销售点**。
+1. 选择**下一步**打开**开始之前**对话框。
+1. 保留**服务器 URL** 字段不变。 选择**下一步**。
 1. 使用您的 Microsoft Azure Active Directory (Azure AD) 帐户登录。
-1. 在**商店名称**下，选择**旧金山**。
-1. 选择**下一步**。
+1. 在**商店名称**下，选择**旧金山**，然后选择**下一步**。
 1. 在**收银机和设备**下，选择 **SANFRAN-1**。
 1. 选择**激活**。 您已注销并进入 POS 登录页面。
 1. 现在可使用操作员 ID **000713** 和密码 **123** 登录到云 POS 体验。
 
 ## <a name="set-up-your-site-in-commerce"></a>在 Commerce 中设置站点
 
-要开始在 Commerce 中设置预览站点，请按照下列步骤操作。
+要开始在 Commerce 中设置评估站点，请按照下列步骤操作。
 
-1. 使用您在预配期间初始化电子商务时记下的 URL 登录站点管理工具（请参阅[初始化电子商务](provisioning-guide.md#initialize-e-commerce)）。
+1. 使用您在预配期间初始化电子商务时记下的 URL 登录站点构建器（请参阅[初始化电子商务](provisioning-guide.md#initialize-e-commerce)）。
 1. 选择 **Fabrikam** 站点打开站点设置对话框。
 1. 选择初始化电子商务时输入的域。
 1. 选择 **Fabrikam 扩展的在线商店**作为默认渠道。 （请务必选择**扩展的**在线商店。）
@@ -106,18 +105,24 @@ ms.locfileid: "3534059"
     * 同步订单作业
 
 1. 使用快速筛选器按名称搜索作业。
-1. 如果作业的状态为**预扣**，请执行以下步骤：
+1. 如果作业的状态为**正在执行**，请执行以下步骤：
 
     1. 选择记录。
     1. 在操作窗格上，在**批处理作业**选项卡上，选择**更改状态**。
-    1. 选择**等待**，然后选择**确定**。
+    1. 选择**取消**，然后选择**确定**。
+
+（可选）您还可以将以下作业的重复执行间隔设置为一 (1) 分钟：
+
+* 处理零售订单电子邮件通知作业
+* P-0001 作业
+* 同步订单作业
 
 ### <a name="run-full-data-synchronization"></a>运行完全数据同步
 
-要在 Commerce 中运行完整的数据同步，请按照下列步骤操作。
+要在 Commerce 中运行完整的数据同步，请在 Commerce headquarters 中按照下列步骤操作。
 
 1. 使用左侧菜单转到**模块 \> Retail 和 Commerce \> 总部设置 \> 商业调度程序 \> 渠道数据库**。
-1. 在左侧的列表中，已选择了**默认**渠道。 选择其他可用渠道。 此渠道名为 **scXXXXXXXXX**。
+1. 选择名为 **scXXXXXXXXX** 的渠道。
 1. 在操作窗格中，选择**完全数据同步**。
 1. 输入 **9999** 作为配送计划。
 1. 选择**确定**。
@@ -136,19 +141,21 @@ ms.locfileid: "3534059"
 
 ## <a name="next-steps"></a>后续步骤
 
-在预配和配置步骤完成之后，您就可以评估预览环境了。 使用 Commerce 站点管理工具的 URL 可以转到创作体验。 使用 Commerce 站点的 URL 可以转到零售客户站点体验。
+在预配和配置步骤完成之后，您就可以开始使用评估环境了。 使用 Commerce 站点构建器 URL 可以转到创作体验。 使用 Commerce 站点 URL 可以转到零售客户站点体验。
 
-要为 Commerce 预览环境配置可选功能，请参阅[为 Commerce 预览环境配置可选功能](cpe-optional-features.md)。
+要为 Commerce 评估环境配置可选功能，请参阅[为 Commerce 评估环境配置可选功能](cpe-optional-features.md)。
 
 ## <a name="additional-resources"></a>其他资源
 
-[Dynamics 365 Commerce 预览环境概览](cpe-overview.md)
+[Dynamics 365 Commerce 评估环境概览](cpe-overview.md)
 
-[配置 Dynamics 365 Commerce 预览环境](provisioning-guide.md)
+[预配 Dynamics 365 Commerce 评估环境](provisioning-guide.md)
 
-[为 Dynamics 365 Commerce 预览环境配置可选功能](cpe-optional-features.md)
+[为 Dynamics 365 Commerce 评估环境配置可选功能](cpe-optional-features.md)
 
-[Dynamics 365 Commerce 预览环境常见问题](cpe-faq.md)
+[在 Dynamics 365 Commerce 评估环境中配置 BOPIS](cpe-bopis.md)
+
+[Dynamics 365 Commerce 评估环境常见问题](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

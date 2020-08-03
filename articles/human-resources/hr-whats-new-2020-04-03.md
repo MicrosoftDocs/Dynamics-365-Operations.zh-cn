@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab732853a2c37338d8003c5f8911c011aa8ffc60
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 02243b2c75a4f50683a51c1d9d811f2e2a2d413f
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225143"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555043"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>Dynamics 365 Human Resources（2020 年 4 月 3 日）新增功能或更改
 
@@ -128,3 +128,10 @@ LCS 中每个项目的环境数量限制已更改。 先前的限制是两个环
 3. 访问 SharePoint 中的附件启动文档预览。
 
 4. 使用有权访问附件的另一个用户帐户登录，然后验证预览是否按预期工作。
+
+## <a name="see-also"></a>请参阅
+
+[Human Resources 中新增或更改的功能](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[更新流程](hr-admin-setup-update-process.md)</br>
+[管理功能](hr-admin-manage-features.md)

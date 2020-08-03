@@ -3,7 +3,7 @@ title: 现金概览 Power BI 内容
 description: 此主题介绍现金概览 Power BI 内容。 它说明如何访问内容中包括的报表，并提供有关用于构建内容的数据模型和实体的信息。
 author: saraschi2
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7621ca961288af81966e0ac883c6525f89960654
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553132"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598125"
 ---
 # <a name="cash-overview-power-bi-content"></a>现金概览 Power BI 内容
 
@@ -38,10 +38,11 @@ ms.locfileid: "2553132"
 必须完成以下设置，才能在**现金概览**和**银行管理** Power BI 视觉对象中显示数据。
 
 1. 转到**系统管理 > 设置 > 系统参数**以设置**系统币种**和**系统汇率**。
-2. 转到**总帐 > 设置 > 分类帐**以设置**记帐币种**和**汇率类型**。
-2. 定义交易币种与记帐币种、记帐币种与系统币种，以记帐币种与银行币种之间的汇率。 方法是，转到**总帐 > 币种 > 币种汇率**。
-3. 配置和运行现金流预测。 有关如何设置现金流预测的详细信息，请参阅[现金流预测](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting)。 
-4. 转到**系统管理 > 设置 > 实体商店**以刷新 **LedgerCovLiquidityMeasurement** 聚合度量。
+2. 转到**总帐 > 日历 > 会计日历**验证分配到有效时段的会计日历日期。
+3. 转到**总帐 > 设置 > 分类帐**以设置**记帐币种**和**汇率类型**。
+4. 定义交易币种与记帐币种、记帐币种与系统币种，以记帐币种与银行币种之间的汇率。 方法是，转到**总帐 > 币种 > 币种汇率**。
+5. 配置和运行现金流预测。 有关如何设置现金流预测的详细信息，请参阅[现金流预测](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting)。 
+6. 转到**系统管理 > 设置 > 实体商店**以刷新 **LedgerCovLiquidityMeasurement** 聚合度量。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 

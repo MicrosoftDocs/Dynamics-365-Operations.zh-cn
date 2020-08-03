@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8385b7dfcd1d7294542c7f54f609b26b7988ac4
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
+ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431237"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3554317"
 ---
 # <a name="copy-an-instance"></a>复制实例
 
@@ -108,6 +108,6 @@ ms.locfileid: "3431237"
 
 ## <a name="environment-admin"></a>环境管理员
 
-目标沙盒环境中的所有用户（包括管理员）都将被替换为源环境的用户。 复制实例之前，请确保您是目标环境中的管理员。 如果不是，则复制完成后您将无法登录到目标沙盒环境。
+目标沙盒环境中的所有用户（包括管理员）都将被替换为源环境的用户。 复制实例之前，请确保您是源环境中的管理员。 如果不是，则复制完成后您将无法登录到目标沙盒环境。
 
 目标沙盒环境中的所有非管理员用户均会被禁用，以防止在沙盒环境中进行不必要的登录。 管理员可以根据需要重新启用用户。

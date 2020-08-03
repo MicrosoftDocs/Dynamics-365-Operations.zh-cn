@@ -2,7 +2,7 @@
 title: IoT 智能的方案设置
 description: 此主题介绍如何在 Supply Chain Management 中为 IoT 智能创建方案。
 author: robinarh
-manager: AnnBe
+manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: ''
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b87a9b73f49e73fe13b98fb11da939c9b30e0f6e
-ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
+ms.openlocfilehash: 5633741fcd9c04b68e5b174447d7ead3c521ccd7
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "3386490"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597160"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>IoT 智能的方案设置
 

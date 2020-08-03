@@ -2,7 +2,7 @@
 title: 其他货位区域
 description: 本主题概述已向 Microsoft Dynamics 365 Supply Chain Management 添加的新货位区域。
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 9727187ad555f9e3d09beed3f3447a22c29ed22a
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 32114db4cf202870bae5ce307517170d3e618762
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530159"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597134"
 ---
 # <a name="additional-location-zones"></a>其他货位区域
 

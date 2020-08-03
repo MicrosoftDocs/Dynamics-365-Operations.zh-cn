@@ -3,7 +3,7 @@ title: 信用和收款管理 Power BI 内容
 description: 此主题介绍信用和收款管理 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5c4a2289d7fa0f062735c93cf26cba9ac29ab94e
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278866"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598050"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>信用和收款管理 Power BI 内容
 
@@ -47,9 +47,10 @@ ms.locfileid: "3278866"
 需要完成以下设置，才能在**客户信用和收款** Power BI 视觉对象中显示数据。
 
 1. 转到**系统管理 > 设置 > 系统参数**以设置**系统币种**和**系统汇率**。
-2. 转到**总帐 > 设置 > 分类帐**并设置**记帐币种**和**汇率类型**。
-3. 定义交易币种与记帐币种和记帐币种与系统币种之间的汇率。 方法是，转到**总帐 > 币种 > 币种汇率**。
-4. 转到**系统管理 > 设置 > 实体商店**刷新 **CustCollectionsBIMeasurementsV2** 聚合度量。
+2. 转到**总帐 > 日历 > 会计日历**验证分配到有效时段的会计日历日期。
+3. 转到**总帐 > 设置 > 分类帐**并设置**记帐币种**和**汇率类型**。
+4. 定义交易币种与记帐币种和记帐币种与系统币种之间的汇率。 方法是，转到**总帐 > 币种 > 币种汇率**。
+5. 转到**系统管理 > 设置 > 实体商店**刷新 **CustCollectionsBIMeasurementsV2** 聚合度量。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 

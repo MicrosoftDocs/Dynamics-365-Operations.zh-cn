@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cc1931cee0f3da15e07908f221282ad6b57e1681
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: 8d83268292ac65d62cbe8fa9a4c146bf4af36b50
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500429"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555019"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Dynamics 365 Human Resources（2020 年 6 月 23 日）新增功能或更改
 
@@ -119,3 +119,10 @@ DMF 实体现在可用于暂停应计。
 ## <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service 中包含的核对清单实体
 
 Common Data Service 内很快将为入职、离职、转移和业务流程提供核对清单实体。
+
+## <a name="see-also"></a>请参阅
+
+[Human Resources 中新增或更改的功能](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[更新流程](hr-admin-setup-update-process.md)</br>
+[管理功能](hr-admin-manage-features.md)

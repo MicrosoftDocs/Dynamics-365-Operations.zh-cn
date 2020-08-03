@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83f24dd6f094715f96666c3ae94faa4bdb97a652
-ms.sourcegitcommit: fac1d519a85eab0c936b54e0a9247f6a11842871
+ms.openlocfilehash: 4f46d631379711dd2002a95dfa6001a362727f4f
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "3177929"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555091"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>Dynamics 365 Human Resources（2020 年 3 月 24 日）中的新增功能或更改
 
@@ -113,3 +113,10 @@ Lifecycle Services (LCS) 中每个项目的环境数量限制已更改。 先前
 ## <a name="employment-detail-entity"></a>雇用详细信息实体
 
 已经更新了**雇用详细信息**实体的以下字段：**付款频率**、**雇用类别 ID**、**雇用类型**、**雇用类型ID** 和**福利雇用状态**。 这些字段的设置数据依赖于功能管理中启用的福利管理。 不应在**雇用详细信息**实体中填充或更新这些字段，因为将导致导入期间出错。
+
+## <a name="see-also"></a>请参阅
+
+[Human Resources 中新增或更改的功能](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[更新流程](hr-admin-setup-update-process.md)</br>
+[管理功能](hr-admin-manage-features.md)

@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce 中已删除或弃用的功能
 description: 本主题介绍 Dynamics 365 Commerce 中已经删除或计划删除的功能。
 author: josaw
 manager: AnnBe
-ms.date: 06/10/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: aa18e7446a72a907fcad70f92ea529088b6cecbd
+ms.sourcegitcommit: 83c7e5ab54c1cad2e21e33769cc524cfa4213f58
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443910"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3539871"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中已删除或弃用的功能
 
@@ -41,8 +41,35 @@ ms.locfileid: "3443910"
 |   |  |
 |------------|--------------------|
 | **弃用/移除的原因** | 由于性能问题，数据操作挂接功能已弃用。 |
-| **被另一个功能取代？**   | 建议改为使用[数据操作覆盖](../e-commerce-extensibility/data-action-overrides.md)来修改数据操作层中的业务逻辑。|
+| **被另一个功能取代？**   | 建议使用[数据操作覆盖](../e-commerce-extensibility/data-action-overrides.md)来修改数据操作层中的业务逻辑。|
 | **影响的产品区域**         | 电子商务可扩展性数据操作 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用：从版本 10.0.11 开始 |
+
+### <a name="retail-sdk-support-for-visual-studio-2015-msbuild-140-and-retail-sdkreference-libraries-and-tools"></a>Visual Studio 2015 的 Retail SDK 支持、msbuild 14.0 和 Retail SDK\参考库和工具
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | Visual Studio 2015 的 Retail SDK 支持已弃用并更新为支持 VS 2017，msbuild 15.0 以及 RetailSDK\参考文件夹中的所有参考库和商业代理生成器工具已移至 NuGet 包，以简化扩展模型和 SDK 升级流程。|
+| **被另一个功能取代？**   | 我们建议您按照[将 Retail SDK 从 Visual Studio 2015 迁移至 Visual Studio 2017](../dev-itpro/retail-sdk/migrate-sdk.md) 中的信息更新系统。 |
+| **影响的产品区域**         | Retail SDK 扩展 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用：从版本 10.0.11 开始 |
+
+### <a name="retail-server-extension-using-iedmmodelextender-and-commercecontroller"></a>使用 IEdmModelExtender 和 CommerceController 的 Retail Server 扩展
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 使用 IEdmModelExtender 和 CommerceController 的 Retail Server 扩展已弃用，以提供简化的扩展模型。 新实现将仅具有控制器类，没有任何其他 IEdmModelExtender 类实现。 这同时避免了对特定 OData 版本的依赖性（如果 OData 版本已更新，可能会中断扩展。） |
+| **被另一个功能取代？**   |  我们建议您通过导入 NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts) 包来使用 IController 类扩展模型。 |
+| **影响的产品区域**         | Retail Server 扩展 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用：从版本 10.0.11 开始 |
+
+### <a name="hardware-station-extension-using-ihardwarestationcontroller"></a>使用 IHardwareStationController 的 Hardware Station 扩展
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 使用 IHardwareStationController 的 Hardware Station 扩展已弃用，以提供简化的扩展模型。 新实现将仅具有 IController 类，没有任何其他类实现，以避免对核心硬件工作站库的依赖，以前的扩展需要引用多个库。） |
+| **被另一个功能取代？**   | 建议通过导入 NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts) 包来使用 IController 类扩展模型。 |
+| **影响的产品区域**         | Hardware Station 扩展 |
 | **部署选项**              | 所有 |
 | **状态**                         | 已弃用：从版本 10.0.11 开始 |
 
