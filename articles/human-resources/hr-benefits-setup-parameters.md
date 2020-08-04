@@ -3,7 +3,7 @@ title: 设置福利管理参数
 description: 在 Microsoft Dynamics 365 Human Resources 中配置福利管理的参数。
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3e001c08751ea9c8bcab0e11a04b6cf639e51d1d
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 85bbe5d3b422f2f29f1d1fe8ee269b407da691c2
+ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429975"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3599348"
 ---
 # <a name="set-benefits-management-parameters"></a>设置福利管理参数
 
@@ -31,7 +31,7 @@ ms.locfileid: "3429975"
 
 ## <a name="configure-general-parameters"></a>配置常规参数
 
-1. 在**福利管理**工作区中，在**设置**下，选择**参数**。
+1. 在**福利管理**工作区中，在**设置**下，选择**人力资源共享参数**。
 
 2. 在**常规**选项卡上，为以下字段指定值：
 
@@ -43,8 +43,10 @@ ms.locfileid: "3429975"
    | **重新打开原因代码** | 重新打开员工福利计划时使用的原因代码。 将在取消过程中显示在对话框中。 如有必要，用户可以更改**重新打开原因代码**。 | 
    | **生命事件原因代码** | 生命事件发生时要使用的原因代码。 |
    | **比率更改原因代码** | 在比率更改更新流程中取消和重新打开员工福利计划时使用的原因代码。 指示比率更改更新流程更改了哪些记录。 |
+   | **年度福利薪金** | 使您可以为员工设置**福利年薪**金额。 人力资源部门在确定覆盖范围金额时将使用**福利年薪**金额，而不是固定薪酬年度金额。 |
    | **新雇员符合资格** | 指定新雇员是否符合资格。 |
-   | **新雇用登记期间** | 允许新雇用登记的时间段。</br></br>**注意**：此设置将覆盖您在计划资格规则中设置的所有新雇用登记期间。 | 
+   | **新雇用登记期间** | 允许新雇用登记的时间段。</br></br>**注意**：此设置将覆盖您在计划资格规则中设置的所有新雇用登记期间。 |
+   | **默认付薪频率** | 添加新工作人员时使用的默认付薪频率。 |
    | **生命事件已启用** | 启用生命事件。 |
    | **隐藏旧版福利窗体** | 允许您隐藏旧版福利窗体。 |
 
@@ -52,7 +54,7 @@ ms.locfileid: "3429975"
 
 ## <a name="configure-employee-self-service-parameters"></a>配置员工自助服务参数
 
-1. 在**福利管理**工作区中，在**设置**下，选择**参数**。
+1. 在**福利管理**工作区中，在**设置**下，选择**人力资源参数**。
 
 2. 在**员工自助服务**选项卡上，为以下字段指定值：
 

@@ -1434,8 +1434,6 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: 将 B2B 用户导出到 Azure AD
               href: sysadmin/implement-b2b.md
-            - name: 流程自动化
-              href: sysadmin/process-automation.md
             - name: 安全性
               items:
                 - name: 基于角色的安全性
@@ -1458,10 +1456,16 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: 将用户分配给安全角色
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: 使用数据管理导入或导出自定义的安全配置
+                  href: sysadmin/import-export-customized-security.md
                 - name: 任务录制的安全诊断
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+                - name: 可扩展的数据安全策略
+                  href: sysadmin/extensible-data-security-policies.md
+                - name: 创建安全策略
+                  href: sysadmin/create-simple-security-policy.md
             - name: 流程自动化
-              href: /sysadmin/process-automation.md
+              href: sysadmin/process-automation.md
             - name: 批处理
               items:
                 - name: 批处理概览
@@ -1670,7 +1674,7 @@
                   href: user-interface/check-box-tree-controls.md
                 - name: 筛选选项
                   href: user-interface/filtering.md
-                - name: PowerApps 主机控制
+                - name: Power Apps 主机控制
                   href: user-interface/powerapps-host-control.md
             - name: 窗口管理
               items:

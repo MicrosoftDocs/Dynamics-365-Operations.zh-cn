@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a6d792a0e52d2b82b25de461dcec358fdc8f439
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f2422dcec1fb222f1be7162d7c799a13046329b4
+ms.sourcegitcommit: f0faa2929435cd1408c5925f0ee4d6636fec5da1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211069"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3552909"
 ---
 # <a name="routes-and-operations"></a>工艺路线和工序
 
@@ -225,7 +225,7 @@ ms.locfileid: "3211069"
 如果不为工序的资源要求指定工序资源或资源组，则适用的资源可能以不同速度操作。 因此，处理工序所需时间可能会有所不同。 为了解决此问题，您可以使用工序关系中的**公式**字段指定处理时间的计算方法。 选项如下：
 
 -   **标准** -（默认选项）计算仅使用工序关系中的字段，并将指定的运行时间乘以订单数量。
--   **产能** – 计算包括工序资源中的**产能**字段。 因此，时间与资源相关。 在工序资源中指定的值是每小时的产能。 此值乘以订单数量和工序关系中的**系数**值。
+-   **产能** – 计算包括工序资源中的**产能**字段。 因此，时间与资源相关。 在工序资源中指定的值是每小时的产能。 **处理时间**计算为**订单数量**除以**产能**。
 -   **批次** – 批次产能通过使用工序关系中的信息来计算。 所以可以根据订单数量计算批次的数量和处理时间。
 -   **资源批次** – 此选项基本与**批次**选项相同。 但是，计算中包含工序资源中的**批次产能**。 因此，时间与资源相关。
 

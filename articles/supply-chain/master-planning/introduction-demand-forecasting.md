@@ -3,7 +3,7 @@ title: 需求预测概览
 description: 需求预测用于从销售订单预测无关需求并从客户订单的任何解耦点预测相关需求。 增强型需求预测缩减规则为批量自定义提供了一个理想的解决方案。
 author: roxanadiaconu
 manager: tfehr
-ms.date: 01/07/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be60bb5c856020d76d185249fddf09493ea1d2ed
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1033432d0d820516d8c9b2f58f27241351e7c64b
+ms.sourcegitcommit: 2e7454c07adfc05164121307050f6f24303d36d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213875"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3550032"
 ---
 # <a name="demand-forecasting-overview"></a>需求预测概览
 
@@ -48,7 +48,7 @@ ms.locfileid: "3213875"
 三个主要主题在需求预测中实施：
 
 -   **模块性** – 需求预测是模块化的和易于配置。 您可以通过在**贸易** &gt; **库存预测** &gt; **需求预测**更改 Configuration Key 来打开和关闭功能。
--   **Microsoft 堆栈的重用** – Microsoft 在 2015 年 2 月启动机器学习平台。 机器学习现在是 Microsoft Cortana 分析套件的一部分，让您可以通过使用算法 R 或 Python 编程语言和简单的拖放界面来迅速轻松地创建预测性分析实验，如需求估计实验。
+-   **Microsoft Stack 的重用** – 机器学习是 Microsoft Cortana 分析套件的一部分，让您可以通过使用算法 R 或 Python 编程语言和简单的拖放界面来迅速轻松地创建预测性分析实验，如需求估计实验。
     -   您可以下载需求预测实验，更改它们以满足您的业务要求，在 Azure 上作为 Web 服务发布它们，并使用它们生成需求预测。 如果您作为企业级用户购买了生产规划员的 Supply Chain Management 订阅，则可以下载这些实验。
     -   您可以从 [Cortana 分析库](https://gallery.cortanaanalytics.com/)下载当前可用的任何需求预测实验。 而需求预测实验将自动与 Supply Chain Management 集成，客户和合作伙伴必须处理从 [Cortana 分析库](https://gallery.cortanaanalytics.com/) 下载的实验的集成。 因此，[Cortana 分析库](https://gallery.cortanaanalytics.com/)的实验不如使用 Finance and Operations 需求预测实验那样简单。 您必须修改实验代码，以便它们使用 Finance and Operations 应用程序编程接口 (API)。
     -   您可以在 Microsoft Azure 机器学习工作室（经典）中创建自己的实验，在 Azure 上作为服务发布，并使用它们生成需求预测。
@@ -70,6 +70,16 @@ ms.locfileid: "3213875"
 
 ## <a name="limitations"></a>限制
 需求预测是帮助制造行业客户创建预测流程的工具。 它提供了需求预测解决方案的核心功能，并设计为可以轻松扩展。 需求预测可能对商业、批发、仓库、运输或其他专业服务等行业的客户不是最合适。
+
+### <a name="demand-forecast-variant-conversion-limitation"></a>需求预测变型转换限制
+
+如果库存 UOM 与需求预测 UOM 不同，在生成需求预测时将不完全支持每个变型转换的计量单位 (UOM)。
+
+生成预测（**库存 UOM > 需求预测 UOM**）使用产品 UOM 转换。 在为需求预测生成加载历史数据时，即使在变型级别定义了转换，从库存 UOM 转换为需求预测 UOM 时也将始终使用产品级别 UOM 转换。
+
+授权预测的第一部分（**需求预测 UOM > 库存 UOM**）使用产品 UOM 转换。 授权预测的第二部分（**库存 UOM > 销售 UOM**）使用变型 UOM 转换。 授权所生成的需求预测后，将使用产品级别的 UOM 转换完成从需求预测 UOM 到库存 UOM 的转换。 同时，库存单位和销售 UOM 之间的转换将遵循变型级别定义的转换。
+
+请注意，需求预测 UOM 不必具有任何特定含义。 它可以定义为“需求预测单位”。 对于每个产品，您可以使用库存 UOM 将转换定义为 1:1。
 
 <a name="additional-resources"></a>其他资源
 --------

@@ -3,7 +3,7 @@ title: 福利管理概览
 description: Dynamics 365 Human Resources 中的福利管理功能概述。 通过易于使用的在线体验，为您的员工提供更多的福利选项。
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4157cb1f83d686d435f3d04e47c578df455376c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
+ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429243"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3599372"
 ---
 # <a name="benefits-management-overview"></a>福利管理概述
 
@@ -59,6 +59,8 @@ ms.locfileid: "3429243"
 ## <a name="configure-employee-information"></a>配置员工信息
 
 必须先提供必需信息，才能为员工登记福利。 您必须在员工的开始日期在**固定薪酬计划**中登记员工，并且必须在**工作人员**窗体的**雇用详细信息**中选择**福利支付频率**。
+
+如果您有一名员工将收到诸如佣金之类的附加报酬，您可以从员工记录添加**福利年薪**金额。 人力资源部门在确定覆盖范围金额时将使用**福利年薪**金额，而不是固定薪酬年度金额。 **福利年薪**必须自员工的开始日期或福利期开始之日（以较早者为准）起生效。 如果同时记录了员工的固定薪酬和福利年薪金额，福利年薪将用于确定覆盖范围金额。
 
 创建用户基于性别或年龄评定的福利计划时，必须输入员工的生日和性别以计算福利成本。
 

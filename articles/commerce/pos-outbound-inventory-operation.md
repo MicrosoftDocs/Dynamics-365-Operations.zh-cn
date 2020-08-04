@@ -3,7 +3,7 @@ title: POS 中的出站库存操作
 description: 此主题介绍销售点 (POS) 出站库存操作的功能。
 author: hhaines
 manager: annbe
-ms.date: 05/14/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
-ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
+ms.openlocfilehash: c2c8acfaf7b84870ce00bf1ae84440dd369df9da
+ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3384121"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3551617"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>POS 中的出站库存操作
 
@@ -58,6 +58,9 @@ ms.locfileid: "3384121"
 7. 在**常规**快速选项卡的**设置**部分中，将**连续**选项设置为**否**以确保无性能问题。
 
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>为单据处理和监视任务创建和计划两个批处理作业
+
+> [!NOTE]
+> 在 Commerce 版本 10.0.13 和更高版本中，您不必通过批处理作业框架配置这些批处理作业。 批处理流程可以从 **Retail 和 Commerce > Retail 和 Commerce IT** 菜单配置。 使用**零售单据操作监控**和**零售单据操作处理**菜单选项来配置批处理作业
 
 将把创建的批处理作业用于处理失败或超时的单据。还会在从 POS 处理的活动库存单据数量超过系统配置的值时使用。
 

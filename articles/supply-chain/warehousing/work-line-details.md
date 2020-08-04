@@ -2,7 +2,7 @@
 title: 工作行详细信息
 description: 本主题介绍“工作行详细信息”页，该页显示系统中单个工作行丰富的可排序、可筛选列表。
 author: mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0bd2133afb21524efd5988892c32705b5f5b27e2
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 4f0952cc8778ffc509bed80b3a5038dbf4fb76c2
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530389"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597184"
 ---
 # <a name="work-line-details"></a>工作行详细信息
 

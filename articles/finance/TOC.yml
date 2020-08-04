@@ -2540,12 +2540,14 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: 库存报表
                       href: localizations/rus-inventory-reports.md
-                    - name: 库存配置文件概览
-                      href: localizations/rus-inventory-profile-overview.md
-                    - name: 设置库存配置文件
-                      hreF: localizations/rus-set-up-inventory-profile.md
-                    - name: 在文档和查询中使用库存配置文件
-                      href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: 库存配置文件
+                      items:
+                        - name: 库存配置文件概览
+                          href: localizations/rus-inventory-profile-overview.md
+                        - name: 设置库存配置文件
+                          hreF: localizations/rus-set-up-inventory-profile.md
+                        - name: 在文档和查询中使用库存配置文件
+                          href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: 报告
                   items:
                     - name: 财务报告

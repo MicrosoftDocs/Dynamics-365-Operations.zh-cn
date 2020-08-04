@@ -2,7 +2,7 @@
 title: 发放到仓库规则
 description: 本主题介绍“发放到仓库规则”功能，该功能用于在发放到仓库期间提供灵活性。 其添加了一个配置选项，用于控制系统是否允许发放部分保留的订单行。
 author: mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 06039c57b7fc0bb850b3fb31c810fe21bfdf747f
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 27030e8dd58b290d80f6b00cbd250e09c1e50819
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530412"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597328"
 ---
 # <a name="release-to-warehouse-rule"></a>发放到仓库规则
 

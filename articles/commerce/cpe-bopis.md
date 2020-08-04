@@ -1,9 +1,9 @@
 ---
-title: 在 Dynamics 365 Commerce 环境中配置 BOPIS
-description: 本主题说明在预配 Microsoft Dynamics 365 Commerce 环境后如何在此环境中配置“线上购买，店内提货”(BOPIS)。
+title: 在 Dynamics 365 Commerce 评估环境中配置 BOPIS
+description: 本主题说明在预配 Microsoft Dynamics 365 Commerce 评估环境后如何在此环境中配置“线上购买，店内提货”(BOPIS)。
 author: rubendel
 manager: annbe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 956d66d09885d4d54655ce25b3aa7ba6a9c34cf4
-ms.sourcegitcommit: dfef2faf881b2db1bd0f016df36e2b838105312b
+ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3282788"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599788"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-environment"></a>在 Dynamics 365 Commerce 环境中配置 BOPIS
-
+# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>在 Dynamics 365 Commerce 评估环境中配置 BOPIS
 
 [!include [banner](includes/banner.md)]
 
-本主题说明在预配 Microsoft Dynamics 365 Commerce 环境后如何在其中配置“线上购买，店内提货”(BOPIS)。
+本主题说明在预配 Microsoft Dynamics 365 Commerce 评估环境后如何在其中配置“线上购买，店内提货”(BOPIS)。
 
 ## <a name="prerequisite"></a>必备项
 
-请仅在预配和配置了 Commerce 预览环境之后，再完成本主题中的过程。 有关如何预配和配置环境的信息，请参阅[预配 Dynamics 365 Commerce 预览环境](provisioning-guide.md)和[配置 Dynamics 365 Commerce 预览环境](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning)。
+请仅在预配和配置了 Commerce 评估环境之后，再完成本主题中的过程。 有关如何预配和配置环境的信息，请参阅[预配 Dynamics 365 Commerce 评估环境](provisioning-guide.md)和[配置 Dynamics 365 Commerce 评估环境](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning)。
 
 端到端预配和配置 Commerce 环境之后，可以使用本主题启用 BOPIS 方案。
 
@@ -71,7 +70,7 @@ ms.locfileid: "3282788"
 5. 身份验证对话框将出现。 选择使用以前与工作人员 **000713 - Andrew Collette** 关联的电子邮件地址的帐户。
 
     > [!NOTE]
-    > 如果您尚未将工作人员与您的标识相关联，激活将不会成功。 在这种情况下，请按照[配置 Dynamics 365 Commerce 预览环境](cpe-post-provisioning.md#associate-a-worker-with-your-identity)主题中“将工作人员与您的标识关联”一节的步骤进行操作。
+    > 如果您尚未将工作人员与您的标识相关联，激活将不会成功。 在这种情况下，请按照[配置 Dynamics 365 Commerce 评估环境](cpe-post-provisioning.md#associate-a-worker-with-your-identity)主题中“将工作人员与您的标识关联”一节的步骤进行操作。
     
 6. 当提示您让您的组织管理设备时，请选择**仅此应用**。
 7. 激活完成后，选择**开始**。
@@ -144,13 +143,13 @@ ms.locfileid: "3282788"
 
 ## <a name="additional-resources"></a>其他资源
 
-[Dynamics 365 Commerce 预览环境概览](cpe-overview.md)
+[Dynamics 365 Commerce 评估环境概览](cpe-overview.md)
 
-[配置 Dynamics 365 Commerce 预览环境](provisioning-guide.md)
+[预配 Dynamics 365 Commerce 评估环境](provisioning-guide.md)
 
-[为 Dynamics 365 Commerce 预览环境配置可选功能](cpe-optional-features.md)
+[为 Dynamics 365 Commerce 评估环境配置可选功能](cpe-optional-features.md)
 
-[Dynamics 365 Commerce 预览环境常见问题](cpe-faq.md)
+[Dynamics 365 Commerce 评估环境常见问题](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

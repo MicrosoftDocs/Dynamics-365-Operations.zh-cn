@@ -3,7 +3,7 @@ title: 绩效管理
 description: 绩效管理流程供员工记录自己的绩效并与经理讨论。 相应地，经理然后可以向员工提供反馈和指导。
 author: andreabichsel
 manager: AnnBe
-ms.date: 12/11/2019
+ms.date: 07/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6147b5d92381d76c572f8a10e52c9ed00225e7eb
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 4786717826592973d3b049c4aa5ca615332d5bc6
+ms.sourcegitcommit: 98cfbb42fc556e1afcb2fab50d8dff0ae2b7aa67
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430432"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3609764"
 ---
 # <a name="performance-management"></a>绩效管理
 
@@ -145,7 +145,7 @@ ms.locfileid: "3430432"
 
 ### <a name="performance-journal-source-types"></a>绩效日记帐源类型
 
-绩效日记帐源类型介绍绩效日记帐的来源。 您可以查看某个日记帐项将默认只有经理才能查看，只有员工才能查看，还是经理和员工都可以查看。 还可以通过更改“表扬”源类型启用或禁用“发送表扬”功能。 此时不能禁用其他源类型。
+绩效日记帐源类型介绍绩效日记帐的来源。 您可以查看某个日记帐项将默认只有经理才能查看，只有员工才能查看，还是经理和员工都可以查看。 您此时不能禁用源类型。
 
 ### <a name="review-types"></a>审核类型
 

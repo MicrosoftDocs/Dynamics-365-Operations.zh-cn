@@ -3,7 +3,7 @@ title: POS 中的入站库存操作
 description: 此主题介绍销售点 (POS) 入站库存操作的功能。
 author: hhaines
 manager: annbe
-ms.date: 03/12/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: b212906dcf037171af264c60720f361215eed599
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
+ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123891"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3551593"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>POS 中的入站库存操作
 
@@ -57,6 +57,9 @@ ms.locfileid: "3123891"
 5. 在**常规**快速选项卡的**设置**部分中，将**连续**选项设置为**否**以确保无性能问题。
 
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>为单据处理和监视任务创建和计划两个批处理作业
+
+> [!NOTE]
+> 在 Commerce 版本 10.0.13 和更高版本中，您不必通过批处理作业框架配置这些批处理作业。 批处理流程可以从 **Retail 和 Commerce > Retail 和 Commerce IT** 菜单配置。 使用**零售单据操作监控**和**零售单据操作处理**菜单选项来配置批处理作业。
 
 将把创建的批处理作业用于处理失败或超时的单据。还会在从 POS 处理的活动库存单据数量超过系统配置的值时使用。
 

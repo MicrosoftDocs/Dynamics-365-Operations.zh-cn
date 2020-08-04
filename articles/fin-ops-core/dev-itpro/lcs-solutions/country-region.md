@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 89c38b354bbca022e80ace4aa8d0b947cfe67f3e
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812080"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598173"
 ---
 # <a name="globalization-resources"></a>全球化资源
 
 ## <a name="local-and-regional-deployments"></a>本地和区域部署
 如果您的政府法规要求以不同于其他国家/地区要求的方式存储或处理数据，则您在部署时可能需要考虑相应国家/地区的要求。 请考虑可能与您相关的以下资源：
 
-[Microsoft Dynamics 365 Finance and Operations 应用由 21Vianet 在中国运营](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Finance and Operations 应用由世纪互联在中国运营](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>本地化和监管功能
 
 [!include [banner](../includes/banner.md)]
 
-Dynamics 365 Finance and Operations 应用包含适用于[产品本地化和翻译可用性指南](https://aka.ms/dynamics_365_international_availability_deck)中记录的国家/地区的功能。 此功能基于有效法人的主要地址启用。 
+Finance and Operations 应用包含适用于[产品本地化和翻译可用性指南](https://aka.ms/dynamics_365_international_availability_deck)中记录的国家/地区的功能。 此功能基于有效法人的主要地址启用。 
 
 本主题包含的一系列资源可帮助您达到以下目的： 
 - 详细了解发展中国家/地区的特定解决方案。
@@ -67,7 +67,7 @@ Dynamics 365 Finance and Operations 应用包含适用于[产品本地化和翻�
 [Dynamics 365 版本计划](https://docs.microsoft.com/business-applications-release-notes/)提供针对 Dynamics 365 业务应用程序和应用程序平台计划推出的新增功能和增强功能的描述。 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations 应用新增功能
-[Finance and Operations 主页的新增功能或更改](../../fin-ops/get-started/whats-new-changed.md)列出了 Finance and Operations 应用特定版本中的功能。
+[Finance and Operations 主页新增功能或更改](../../fin-ops/get-started/whats-new-changed.md)列出了 Finance and Operations 应用特定版本中的功能。
 
 ### <a name="electronic-reporting"></a>电子报告
 电子报告 (ER) 工具可让您根据各个国家/地区的法律要求配置电子单据的格式。 ER 可让您在电子单据的生命周期中管理它们。 有关详细信息，请参阅以下主题之一：

@@ -3,7 +3,7 @@ title: 配置工作流属性
 description: 本主题说明如何配置工作流的各个属性。
 author: sericks007
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
-ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
+ms.openlocfilehash: 268448049955170b8eb9e64cbd50416565a041b1
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3199428"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541101"
 ---
 # <a name="configure-workflow-properties"></a>配置工作流属性
 
@@ -91,12 +91,7 @@ ms.locfileid: "3199428"
 3. 单击**添加条件**。
 4. 输入条件。
 5. 输入需要的任何其他条件。
-6. 要验证输入的条件是否正确设置，请按照以下步骤操作：
-
-    1. 单击**测试**。
-    2. 在**测试工作流条件**页面，在**验证条件**区域，选择一条记录。
-    3. 单击**测试**。 系统对该记录进行评估，判断其是否符合您指定的条件。 例如，如果您为西班牙创建采购申请工作流，页面的**验证条件**区域显示采购申请列表。 单击**测试**后，系统评估所选采购申请，以确定国家/地区是否为 ES。
-    4. 单击**确定**或**取消**返回到**属性**页面。
+6. 在工作流中运行一些目标记录来验证条件是否正确包含和排除了记录。
 
 ## <a name="specify-when-notifications-are-sent"></a>指定发送通知的时间
 

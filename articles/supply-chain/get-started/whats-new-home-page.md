@@ -3,7 +3,7 @@ title: Dynamics 365 Supply Chain Management 中的新增功能或更改
 description: 此主题指向介绍各 Dynamics 365 Supply Chain Management 版本中的新增功能和更改的功能的主题。
 author: kamaybac
 manager: tfehr
-ms.date: 06/01/2020
+ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,16 +15,16 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: 2020-02-13
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f6824e4c8e0e6d3071973dc92d2ff90d78f4dde5
-ms.sourcegitcommit: d64a07748bdd7c85877cfe0343bee952f235f38e
+ms.search.validFrom: 2020-07-08
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: a3e55d891bb029fa363a52191ae5c425de18899c
+ms.sourcegitcommit: 9c28aca7fc99e38139b7935bcdb6132cba2c81b2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "3457185"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "3545680"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 中的新增功能或更改 
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 中的新增功能或更改
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,17 +36,17 @@ ms.locfileid: "3457185"
 |---|---|---|---|
 | 10.0.11 | 10.0.464 | 2020 年 7 月 | [Dynamics 365 Supply Chain Management 版本 10.0.11 的新增功能或更改](whats-new-scm-10-0-11.md) |
 | 10.0.10 | 10.0.420 | 2020 年 5 月 | [Dynamics 365 Supply Chain Management 版本 10.0.10 的新增功能或更改](whats-new-scm-10-0-10.md) |
+| 10.0.9  | 10.0.383   | 2020 年 4 月 | [Dynamics 365 Supply Chain Management 版本 10.0.9 的新增功能或更改](whats-new-scm-10-0-9.md) |
+| 10.0.8  | 10.0.319   | 2020 年 2 月 | [Dynamics 365 Supply Chain Management 版本 10.0.8 的新增功能或更改](whats-new-scm-10-0-8.md) |
+| 10.0.7  | 10.0.283   | 2020 年 1 月 | [Dynamics 365 Supply Chain Management 版本 10.0.7 的新增功能或更改](whats-new-scm-10-0-7.md) |
+| 10.0.6 |   10.0.234   | 2019 年 11 月  | [Dynamics 365 Supply Chain Management 10.0.6 新增功能或更改](whats-new-scm-10-0-6.md) |
 
-## <a name="releases-before-march-2020"></a>2020 年 3 月发布
+## <a name="releases-before-november-2019"></a>2019 年 11 月之前的版本
 
 要查看 2019 年 11 月之前版本中的新增功能或更改的功能，请参阅以下主题。
 
-| 下达 | 版本 | 内部版本号 | 可用性 | 了解详细信息 |
+| 下达 | 版本 | 内部版本号 | 可用性 | 了解更多 |
 |---|---|---|---|---|
-| Dynamics 365 Supply Chain Management | 10.0.9  | 10.0.383   | 2020 年 4 月 | [Dynamics 365 Supply Chain Management 版本 10.0.9 的新增功能或更改](whats-new-scm-10-0-9.md) |
-| Dynamics 365 Supply Chain Management | 10.0.8  | 10.0.319   | 2020 年 2 月 | [Dynamics 365 Supply Chain Management 版本 10.0.8 的新增功能或更改](whats-new-scm-10-0-8.md) |
-| Dynamics 365 Supply Chain Management | 10.0.7  | 10.0.283   | 2020 年 1 月 | [Dynamics 365 Supply Chain Management 版本 10.0.7 的新增功能或更改](whats-new-scm-10-0-7.md) |
-| Dynamics 365 Supply Chain Management | 10.0.6 |   10.0.234   | 2019 年 11 月  | [Dynamics 365 Supply Chain Management 10.0.6 新增功能或更改](whats-new-scm-10-0-6.md) |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.5      | 10.0.197         | 2019 年 10 月     | [Dynamics 365 for Finance and Operations 版本 10.0.5（2019 年 10 月）中的新增功能或更改内容](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md)                 |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.4      | 10.0.136         | 2019 年 7 月        | [Dynamics 365 for Finance and Operations 版本 10.0.4（2019 年 7 月）中的新增功能或更改内容](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md)                    |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.3      | 10.0.107         | 2019 年 6 月        | [Dynamics 365 for Finance and Operations 版本 10.0.3（2019 年 6 月）中的新增功能或更改内容](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-3.md)                    |

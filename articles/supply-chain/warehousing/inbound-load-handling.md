@@ -2,7 +2,7 @@
 title: 仓库对采购订单入站负荷的处理
 description: 此主题介绍仓库对采购订单入站负荷的处理流程。
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9a030f2e219c7c389d6255254545f3f895eff75b
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 1c990911489fa6d73624a91e7d6580e29ddfc419
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530573"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597424"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>仓库对采购订单入站负荷的处理
 
