@@ -70,6 +70,8 @@
                   items:
                     - name: “Finance 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.13（2020 年 10 月）
+                      href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12（2020 年 8 月）
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11（2020 年 7 月）
@@ -107,23 +109,23 @@
             - name: 学习目录
               items:
                 - name: 学习目录主页
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: 业务决策者
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-bdm.md
                 - name: 业务用户
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: 实施项目经理
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: 管理员
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: 开发人员
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: 合作伙伴销售和市场营销
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: 功能顾问
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: 解决方案架构师
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: 浏览用户界面
               items:
                 - name: 用户界面元素
@@ -846,6 +848,8 @@
                   href: accounts-payable/accounting-distributions.md
                 - name: 处理分配
                   href: general-ledger/process-allocations.md
+                - name: 分摊条件
+                  href: general-ledger/main-account-allocation-terms.md
                 - name: 财务维度
                   href: general-ledger/financial-dimensions.md
                 - name: 合并帐户组和其他合并帐户
@@ -1122,6 +1126,8 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: 在公共部门中创建高级分类帐条目
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
+                - name: 具有交易明细报告的试算平衡表
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: 使用现金控制限制
                   href: public-sector/cash-control.md
                 - name: 公共部门中的年终处理
@@ -1146,6 +1152,8 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: 将认证类型添加到公共部门中的供应商
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
+            - name: 计算加拿大协调销售税
+              href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: 财务报告
           items:
             - name: 财务报告概览
@@ -1846,6 +1854,8 @@
                           href: localizations/apac-ind-news-letter-10-0-10.md
                         - name: 10.0.11 新增功能或更改
                           href: localizations/apac-ind-news-letter-10-0-11.md
+                        - name: 10.0.12 新增功能或更改
+                          href: localizations/apac-ind-news-letter-10-0-12.md
                     - name: 印度 GST 参考组
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: 收银机 GST 集成
@@ -2016,7 +2026,7 @@
                   href: localizations/italy.md
                 - name: 增值税报表明细
                   href: localizations/emea-ita-vat-statements-details.md
-                - name: 黑名单报告
+                - name: 阻止列表报告
                   href: localizations/emea-ita-black-list-report.md
                 - name: 生效日期
                   href: localizations/emea-ita-competence-date.md
@@ -2632,10 +2642,14 @@
                   href: localizations/emea-esp-promissory-note-options.md
                 - name: 报表 340
                   href: localizations/emea-esp-report-340.md
+                - name: 申报 347 报告
+                  href: localizations/emea-esp-declaration-347-report.md
                 - name: 销售和采购周期
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: 特殊条目和期初单
                   href: localizations/emea-esp-opening-sheets-spain.md
+                - name: 立即提供增值税信息
+                  href: localizations/emea-esp-sii.md
             - name: 瑞典
               items:
                 - name: 瑞典概览
