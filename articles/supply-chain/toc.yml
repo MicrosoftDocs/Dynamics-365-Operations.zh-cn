@@ -70,12 +70,12 @@
                   items:
                     - name: “Supply Chain Management 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.13（2020 年 10 月）
+                      href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12（2020 年 8 月）
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11（2020 年 7 月）
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10（2020 年 5 月）
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
@@ -109,23 +109,23 @@
             - name: 学习目录
               items:
                 - name: 学习目录主页
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 业务决策者
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 业务用户
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: 实施项目经理
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: 管理员
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: 开发人员
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: 合作伙伴销售和市场营销
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: 功能顾问
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: 解决方案架构师
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: 浏览用户界面
               items:
                 - name: 用户界面元素
@@ -1257,6 +1257,8 @@
               items:
                 - name: 库存日记帐
                   href: inventory/inventory-journals.md
+                - name: 库存日记帐审核工作流
+                  href: inventory/inventory-journal-workflow.md
                 - name: 库存库位
                   href: inventory/inventory-locations.md
                 - name: 库存状态
@@ -1267,6 +1269,8 @@
                   href: inventory/tasks/maintain-barcode-types.md
                 - name: 检查库存可用性
                   href: inventory/tasks/check-availability-stock.md
+                - name: 现有库存列表
+                  href: inventory/inventory-on-hand-list.md
                 - name: 初始化仓库中的库存级别
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: 转移仓库内的实际库存
@@ -1951,7 +1955,7 @@
                       href: production-control/tasks/define-resource-capabilities.md
                     - name: 工艺路线和工序
                       href: production-control/routes-operations.md
-                    - name: 仓库工作策略
+                    - name: 工作策略
                       href: warehousing/warehouse-work-policies.md
                     - name: 创建工作时间计划属性
                       href: production-control/tasks/create-working-time-scheduling-properties.md
@@ -2589,6 +2593,8 @@
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: 库位产品维度混合
                   href: warehousing/location-product-dimension-mixing.md
+                - name: 质量检查
+                  href: warehousing/quality-check.md
             - name: 出货仓库工序
               items:
                 - name: 仓库管理中的预留
@@ -2647,10 +2653,14 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: 区域阈值补货
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: 库位容量范围内的补货
+                      href: warehousing/replenishment-over-location-capacity.md
                 - name: 负荷构建和装运
                   items:
                     - name: 确认并转移
                       href: warehousing/confirm-and-transfer.md
+                    - name: 确认来自批处理作业的出站装运
+                      href: warehousing/confirm-outbound-shipments-from-batch-jobs.md
                     - name: 波次期间进行高级负荷构建
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: 发放到仓库规则
@@ -2679,10 +2689,8 @@
               items:
                 - name: 仓库工作策略
                   items:
-                    - name: 仓库工作策略概览
+                    - name: 工作策略
                       href: warehousing/warehouse-work-policies.md
-                    - name: 设置仓库工作策略
-                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
                     - name: 仓库管理中关联工作的库存变动
                       href: warehousing/move-inventory-associated-work.md
                     - name: 创建工作类

@@ -14,6 +14,8 @@
               items:
                 - name: “Platform update 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: 针对 10.0.13 的平台更新（2020 年 10 月）
+                  href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: 针对 10.0.12 的平台更新（2020 年 8 月）
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: 针对 10.0.11 的平台更新（2020 年 7 月）
@@ -82,6 +84,8 @@
           items:
             - name: 选择数据集成（导入/导出）策略
               href: data-entities/integration-overview.md
+            - name: 基于优先级的限制
+              hreF: data-entities/priority-based-throttling.md
             - name: 数据集成 API
               items:
                 - name: 数据管理包 REST API
@@ -152,6 +156,8 @@
                           items:
                             - name: 自定义实体和字段映射
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: 设置双写入后编辑法人
+                              href: data-entities/dual-write/edit-legal-entity.md
                             - name: 错误管理和预警通知
                               href: data-entities/dual-write/errors-and-alerts.md
                             - name: 应用程序生命周期管理

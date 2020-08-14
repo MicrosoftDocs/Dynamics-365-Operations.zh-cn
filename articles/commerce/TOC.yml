@@ -90,6 +90,8 @@
                   items:
                     - name: “Commerce 中的新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.13（2020 年 10 月）
+                      href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12（2020 年 8 月）
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11（2020 年 7 月）
@@ -127,23 +129,23 @@
             - name: 学习目录
               items:
                 - name: 学习目录主页
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: 业务决策者
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?
                 - name: 业务用户
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: 实施项目经理
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: 管理员
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: 开发人员
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: 合作伙伴销售和市场营销
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: 功能顾问
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: 解决方案架构师
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: 浏览用户界面
               items:
                 - name: 用户界面元素
@@ -310,6 +312,8 @@
                           href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
                         - name: 全部金额和销售税代码的间隔计算选项
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
+                        - name: 免税的计算
+                          href: tax-exempt-price-inclusive.md
                     - name: 设置电子邮件通知配置文件
                       href: email-notification-profiles.md
                     - name: 编号规则
@@ -386,6 +390,8 @@
                           href: define-maintain-channel-clients-registers-hw-stations.md
                         - name: POS 外围设备和服务的运行状况检查
                           href: pos-healthcheck.md
+                        - name: 对网络外围设备的支持
+                          href: dev-itpro/network-peripherals.md
                     - name: 屏幕布局
                       items:
                         - name: MPOS/CPOS 中的演示数据屏幕布局
@@ -946,6 +952,8 @@
                       href: add-accordion.md
                     - name: 标签模块
                       href: add-tab.md
+                    - name: Iframe 模块
+                      href: iframe-module.md
                 - name: 市场营销模块
                   items:
                     - name: 促销横幅模块
@@ -968,6 +976,8 @@
                   items:
                     - name: 购买框模块
                       href: add-buy-box.md
+                    - name: 媒体库模块
+                      href: media-gallery-module.md
                     - name: 评分和评价模块
                       href: ratings-reviews-modules.md
                 - name: 采购模块
@@ -980,10 +990,14 @@
                       href: add-checkout-module.md
                     - name: 订单详细信息模块
                       href: order-confirmation-module.md
-                    - name: 商店选择器模块
-                      href: store-selector.md
                     - name: 礼品卡模块
                       href: add-giftcard.md
+                - name: 商店查找器模块
+                  items:
+                    - name: 地图模块
+                      href: map-module.md
+                    - name: 商店选择器模块
+                      href: store-selector.md
                 - name: 帐户管理模块
                   items:
                     - name: 帐户管理页面和模块
@@ -1938,7 +1952,7 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: 预览和调试模块
                       href: e-commerce-extensibility/test-module.md
-                    - name: 使用模拟测试模块
+                    - name: 使用模块模拟测试模块
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: 使用页面模拟测试模块
                       href: e-commerce-extensibility/test-page-mock.md
