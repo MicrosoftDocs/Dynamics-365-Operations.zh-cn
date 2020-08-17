@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 3418021f7b4c693779833e1c3c31501df02a0c21
-ms.sourcegitcommit: c5d0bd90334e259e96df17a217b2eff03c265f07
+ms.openlocfilehash: a1e3305bff99fa39240176ac9fc7aaee84b98e6c
+ms.sourcegitcommit: be51e892003778e71b67fb409a8e16965c89b5ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "3423028"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3618403"
 ---
 # <a name="automate-vendor-payment-proposals"></a>自动运行供应商付款方案
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 按重复执行的计划向供应商付款的组织现在可以自动运行生成供应商付款方案的流程。 供应商付款方案自动化定义以下详细信息：
 

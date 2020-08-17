@@ -1,9 +1,9 @@
 ---
 title: 视频
 description: 此页列出 Microsoft 制作的与 Finance and Operations应用有关的“操作方法”视频和技术交流视频，可在 YouTube 和其他网站中观看。
-author: josaw1
+author: sericks007
 manager: AnnBe
-ms.date: 06/16/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
-ms.author: josaw
+ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: e4756e4d1697fdba40ad8a71a5d33594583a219a
-ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
+ms.openlocfilehash: c620e5e75ba1c547f0a1ee6830a5cf1b7fa58377
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456941"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645357"
 ---
 # <a name="videos"></a>视频 
 
@@ -124,7 +124,8 @@ ms.locfileid: "3456941"
 - [使用 Excel 进行成本分析](https://youtu.be/-HKHYdClvx8)
 
 ### <a name="customer-portal"></a>客户门户
-- [Dynamics 365 Supply Chain Management 中的客户门户模板概述](https://youtu.be/nPrqoLuHfV8)
+- [客户门户模板概述](https://youtu.be/nPrqoLuHfV8)
+- [邀请客户注册和使用您的客户门户](https://youtu.be/drGUYHX9QIQ)
 
 ### <a name="help-system"></a>帮助系统
 

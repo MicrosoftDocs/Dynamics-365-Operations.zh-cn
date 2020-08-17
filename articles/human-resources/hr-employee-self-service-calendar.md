@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0efc2b50b080b769cb103d1519217517b8330668
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3478c4c2acb134df1c293c1c33f615595aeaadd0
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429646"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628421"
 ---
 # <a name="view-team-and-company-calendars"></a>查看团队和公司日历
 
@@ -33,15 +33,13 @@ ms.locfileid: "3429646"
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>以员工身份查看团队日历
 
-1. 在**员工自助服务**工作区中，选择**我的团队**。
-
-2. 选择**休假和缺勤**，然后选择**查看团队日历**。
+1. 在**员工自助服务**工作区，选择**摘要**下的**团队缺勤日历**。
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>以经理身份查看团队日历
 
 1. 在**员工自助服务**工作区中，选择**我的团队**。
 
-2. 选择**休假和缺勤**，然后选择**查看团队日历**。
+2. 选择**休假和缺勤**，然后选择**查看经理缺勤日历**。
 
 经理也可以从**我的团队的待处理休息请求**、**批准的休息时间**和**休息时间请求**访问团队日历。 
 

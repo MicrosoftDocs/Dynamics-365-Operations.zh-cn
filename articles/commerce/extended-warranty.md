@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6d956f63eb5525e45651e8b0698f6f0989f4a3cb
-ms.sourcegitcommit: a0fe7187b1120dc41b3c03d248a20c36d3fc28a2
+ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435739"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621185"
 ---
 # <a name="create-and-configure-extended-warranties"></a>创建和配置延长保修
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 本主题介绍延长保修，以及如何在 Microsoft Dynamics 365 Commerce 中创建和配置延长保修。
 

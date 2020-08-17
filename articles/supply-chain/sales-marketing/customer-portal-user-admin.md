@@ -3,7 +3,7 @@ title: 创建和管理客户门户用户
 description: 本主题说明如何创建客户门户用户帐户并为其设置权限。
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: c56e41b8ea5039531205083b5b42aff05e05cf66
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: a751cbffd98b8d47ca7dad222f0ce374381a393d
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413939"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645305"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>创建和管理客户门户用户
 
@@ -30,11 +30,16 @@ ms.locfileid: "3413939"
 
 用户自助注册时，将自动为其创建联系人记录。 因此，您无法确保用户选择正确的客户帐户和法人。 另一方面，邀请流程允许管理员在邀请发送之前将正确的客户帐户和法人分配给联系人记录。 如果您正在考虑自定义解决方案以使用户可以自助注册，请务必考虑可能的后果。
 
+## <a name="video"></a>视频
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
+
+[邀请客户注册和使用您的客户门户](https://youtu.be/drGUYHX9QIQ)视频（上方所示）包括在 YouTube 上提供的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
+
 ## <a name="prerequisite-setup"></a>先决条件设置
 
 Power Apps 门户中的联系人作为记录存储在 Common Data Service 中的**联系人**实体中。 然后双写入根据需要将这些记录同步到 Microsoft Dynamics 365 Supply Chain Management。
 
-![![客户门户联系人的系统图](media/customer-portal-contacts.png "客户门户联系人的系统图")](media/customer-portal-contacts.png "System diagram for Customer portal contacts")
+![客户门户联系人的系统图](media/customer-portal-contacts.png "客户门户联系人的系统图")
 
 在开始邀请新客户之前，请确保以双写入形式启用了**联系人**实体映射。
 

@@ -3,7 +3,7 @@ title: 现金流量预测
 description: 此主题提供现金流量预测流程的概览。 它还介绍了现金流量预测如何与系统中的其他模块集成。
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9795758a60d7913d306488ae6fbbfb7f9865cfc4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2ffb8522729049ca98acfb70992738b45c05b552
+ms.sourcegitcommit: cf39369545a94201f367a4efada595a04a319d42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188410"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3653768"
 ---
 # <a name="cash-flow-forecasting"></a>现金流量预测
 
@@ -102,7 +102,14 @@ ms.locfileid: "2188410"
 - 要清除所有现金流量预测交易记录并重新计算，将**现金流量预测计算方法**字段设置为**总计**。 如果您长时间未更新现金流量预测，我们建议您使用此方法。 
 - 若要仅更新新交易记录的现有现金流量信息，将**现金流量预测计算方法**字段设置为**新**。 此页将显示上次运行现金流量计算的日期。
 
-您还可以为您的现金流量预测使用批处理。 为了帮助保证定期更新您的预测分析，为现金流量预测计算设置重复执行的批处理。
+您还可以为您的现金流量预测使用批处理。 为了帮助确保定期更新您的预测分析，为现金流量预测计算设置重复执行的批处理。
+
+在版本 10.0.13 中，发布了计算流程的增强功能，可以使用流程自动化框架来计划现金流计算作业。 可使用**功能管理**工作区中的**现金流预测自动化**功能启用此增强功能。 启用后，选择**现金流预测自动化**链接可以显示新的自动化页面，您可以在其中计划现金流计算流程。 要创建新的现金流预测计划，请选择**创建新流程自动化**，然后在**计划类型**下拉菜单中选择**现金流预测自动化**。 您必须为要为其更新现金流预测数据的每个公司设置计划。  此页面还显示哪些现金流预测自动化作业正在等待处理，以及最后一个作业在何时完成。  
+
+> [!NOTE] 
+> 如果已经为现金流预测计划了现有批处理作业，则会收到错误消息，您将无法启用此功能。 要启用此功能，需要先清除现有的批处理作业。 
+
+有关详细信息，请参阅[流程自动化](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md)。
 
 ### <a name="reporting"></a>申报
 
@@ -128,7 +135,7 @@ ms.locfileid: "2188410"
 
 **现金概览–当前公司**工作区以公司定义的记帐币种显示现金流量预测分析。 用于分析的记帐币种在**分类帐**页上进行定义。 此工作区显示当前公司的现金流量预测和银行帐户余额概览。 现金流入和流出图表提供未来现金移动和记帐币种的余额的概览，以及关于预测交易记录的详细信息。 您还可以看到预测币种余额。
 
-有关现金流量预测分析的详细信息，请参阅现金概览 Power BI 内容主题。
+有关现金流预测分析的详细信息，请参阅[现金概览 Power BI 内容](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content)主题。
 
 此外，您还可以在以下页面上查看特定帐户、订单和物料的现金流量预测数据：
 

@@ -3,7 +3,7 @@ title: 先前版本中已删除或弃用的功能
 description: 此主题介绍从 Dynamics 365 for Finance and Operations 和该产品的早期版本已经删除或曾经计划删除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 06/23/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: bccc9a0a2b0abfdeba248007cfdb2bd599e35f48
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500404"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645381"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>先前版本中已删除或弃用的功能
 
@@ -62,7 +62,7 @@ ms.locfileid: "3500404"
 | **被另一个功能取代？**   | 是 |
 | **影响的产品区域**         | 申请 |
 | **部署选项**              | 所有 |
-| **状态**                         | 弃用：到 2020 年 4 月 1 日，开发人员必须使用新 API。 |
+| **状态**                         | 已弃用：到 2020 年 4 月 1 日，开发人员必须使用类 **HasFunction** 中找到的平台 API。 |
 
 ### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(string message)
 
@@ -72,7 +72,7 @@ ms.locfileid: "3500404"
 | **被另一个功能取代？**   | 是 |
 | **影响的产品区域**         | 平台 |
 | **部署选项**              | 所有 |
-| **状态**                         | 弃用：到 2020 年 4 月 1 日，开发人员必须使用新 API。 |
+| **状态**                         | 已弃用：到 2020 年 4 月 1 日，开发人员必须使用类 **HasFunction** 中找到的平台 API。 |
 
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()
@@ -85,7 +85,7 @@ ms.locfileid: "3500404"
 | **部署选项**              | 所有 |
 | **状态**                         | 弃用：到 2020 年 10 月 1 日，我们计划不再支持 **setUtcString()** 方法。 开发人员应改用 **setUtcDateTime()** 方法。 |
 
-### <a name="blacklist-report-it--feature-reference-it-00001"></a>黑名单报告 (IT) – 功能引用 IT-00001
+### <a name="blacklist-report-it--feature-reference-it-00001"></a>方块列表报告 (IT) – 功能引用 IT-00001
 
 |   |  |
 |------------|--------------------|
@@ -93,7 +93,7 @@ ms.locfileid: "3500404"
 | **被另一个功能取代？**   | 否 |
 | **影响的产品区域**         | 意大利本地化 |
 | **部署选项**              | 所有 |
-| **状态**                         | 弃用：到 2020 年 10 月 1 日，我们计划不再支持 **黑名单报告 (IT) – 功能引用 IT-00001**。 |
+| **状态**                         | 弃用：到 2020 年 10 月 1 日，我们计划不再支持**方块列表报告 (IT) – 功能引用 IT-00001**。 |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>国内税报表 – 功能引用 IT-00003
 

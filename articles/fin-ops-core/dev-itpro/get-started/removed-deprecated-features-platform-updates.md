@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 50362ccd9df7a44961bd6e46fa16779829b1c408
-ms.sourcegitcommit: 96ec8b7252296de0049bff406c743f8da9e0f0be
+ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "3606814"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651658"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
 
@@ -38,8 +38,7 @@ ms.locfileid: "3606814"
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.13 的平台更新
 
 > [!NOTE]
-> 版本 10.0.13 尚未发布。 提供此信息出于计划目的。 版本 10.0.13 的内容和功能可能会发生变化。 有关发布的详细信息，请参阅[服务更新可用性](../../fin-ops/get-started/public-preview-releases.md)。
-
+> 版本 10.0.13 是预览版本。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅[服务更新可用性](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases)。
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>升级三个 jQuery 组件库 
 
@@ -49,7 +48,28 @@ ms.locfileid: "3606814"
 | **被另一个功能取代？**   | 以下库会受到影响：jQuery（从版本 2.1.4 到版本 3.5.0），jQuery UI（从版本 1.11.4 到版本 1.12.1），jQuery qTip（从版本 2.2.1 到版本 3.0.3）。 迁移指南已由 jQuery 在线提供。  |
 | **影响的产品区域**         | 可扩展控件，特别是使用已弃用或已删除 API 的自定义 JavaScript 代码 |
 | **部署选项**              | 所有 |
-| **状态**                         | 使用版本 10.0.13/Platform update 37，客户可以通过启用“升级三个 jQuery 组件库”功能来有选择地迁移到最新库。 2021 年 4 月版本将必须迁移到新库以为迁移到受影响的 API 留下时间。   |
+| **状态**                         | 使用版本 10.0.13/平台更新 37，客户可以通过启用“升级三个 jQuery 组件库”功能来有选择地迁移到最新库。 2021 年 4 月版本将必须迁移到新库以为迁移到受影响的 API 留下时间。   |
+
+### <a name="existing-grid-controlforcelegacygrid-api"></a>现有网格控件/forceLegacyGrid() API
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 现有网格控件由新网格控件替换。 |
+| **被另一个功能取代？**   | [新网格控件](../..//fin-ops/get-started/grid-capabilities.md) |
+| **影响的产品区域**         | Web 客户端 |
+| **部署选项**              | 所有 |
+| **状态**                         | 在版本 10.0.13 中，新网格控件已正式推出，客户可以选择打开此功能。 新网格控件将在 2021 年 10 月版本中强制使用。 强制使用新网格控件后，将不再支持 **forceLegacyGrid()** API。 |
+
+### <a name="personalization-without-saved-views"></a>无已保存视图的个性化 
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 个性化子系统已全面改革，加入了已保存视图功能，因而具有更好的性能并提供更多功能。 |
+| **被另一个功能取代？**   | 已保存的视图 |
+| **影响的产品区域**         | Web 客户端 |
+| **部署选项**              | 所有 |
+| **状态**                         | 在版本 10.0.13/平台更新 37 中，已保存视图功能已正式推出，客户可以选择打开此功能。 已保存视图功能将在 2021 年 10 月版本中强制使用。 |
+
 
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.12 的平台更新
 

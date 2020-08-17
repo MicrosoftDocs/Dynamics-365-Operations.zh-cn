@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 3ee74ba108008ccef53fe3b904c71ddf5f51afb7
-ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
+ms.openlocfilehash: 2f4506d2c1808198d4b10e50f4635bcc21d934e1
+ms.sourcegitcommit: 0f877ee4b53cfb002b179a53a67c4f9adae354bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "3546410"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3640391"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>为仓库流配置编号规则
 
@@ -36,7 +36,7 @@ ms.locfileid: "3546410"
 - 可以预先生成提单 (BOL) ID。
 - 可以为系列装运集装箱代码 (SSCC) 编号生成唯一的编号规则。
 - 可以为 BOL 和 SSCC 编号创建符合 GS1 要求的编号规则。 此功能增加了对牌照 ID、集装箱 ID、波次标签 ID 和 BOL ID 的现成支持。
-- 牌照 ID 编号的配置是灵活的。 例如，您可以包括或排除人工智能 (AI)，如前导零 (00)。
+- 牌照 ID 编号的配置是灵活的。 例如，您可以包括或排除应用程序标识符 (AI)，如前导零 (00)。
 
 此功能使支持货箱标签和调整系统生成的新编号更加有效。
 

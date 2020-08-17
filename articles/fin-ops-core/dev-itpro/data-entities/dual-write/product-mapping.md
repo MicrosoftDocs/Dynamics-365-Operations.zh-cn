@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 3b9a1485d37da614eea2427735e0e1323897682d
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173192"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621320"
 ---
 # <a name="unified-product-experience"></a>统一的产品体验
 
@@ -86,7 +86,7 @@ Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定�
 由于产品表示为 SKU，因此可以通过以下方式在 Common Data Service 中捕获独特产品、基础产品和产品变型的概念：
 
 - **具有子类型产品的产品**是它们自己定义的产品。 无需定义维度。 一个例子是特定帐簿。 对于这些产品，在 **Product** 实体中创建一个记录，并在 **msdyn\_sharedproductdetails** 实体中创建一个记录。 不创建产品系列记录。
-- **基础产品**用作具有定义和规则的一般产品，这些定义和规则确定业务流程中的行为。 基于这些定义，可以生成称为产品变型的独特产品。 例如，T 恤是基础产品，可以具有颜色和尺寸维度。 可以发布具有这些维度的不同组合的变型，例如小号蓝色 T 恤或中号绿色 T 恤。 在集成中，在产品表中为每个变型创建一个记录。 此记录包含特定于变型的信息，例如不同的维度。 产品的一般信息存储在 **msdyn\_sharedproductdetails** 实体中。 （此一般信息保留在基础产品中。）此外，每个基础产品都会创建一个产品系列记录。 创建已发放的基础产品后（但在发放变型之前），基础产品信息即同步到 Common Data Service。
+- **基础产品**用作具有定义和规则的一般产品，这些定义和规则确定业务流程中的行为。 基于这些定义，可以生成称为产品变型的独特产品。 例如，T 恤是基础产品，可以具有颜色和尺寸维度。 可以发布具有这些维度的不同组合的变型，例如小号蓝色 T 恤或中号绿色 T 恤。 在集成中，在产品表中为每个变型创建一个记录。 此记录包含特定于变型的信息，例如不同的维度。 产品的一般信息存储在 **msdyn\_sharedproductdetails** 实体中。 （此一般信息保留在基础产品中。）创建已发放的基础产品后（但在发放变型之前），基础产品信息即同步到 Common Data Service。
 - **独特产品**是指所有产品子类型产品和所有产品变型。 
 
 ![产品的数据模型](media/dual-write-product.png)

@@ -3,7 +3,7 @@ title: 建议固定资产购置
 description: 本主题介绍如何使用固定资产日记帐中的购置方案购置固定资产。
 author: saraschi2
 manager: AnnBe
-ms.date: 07/22/2019
+ms.date: 07/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e08177aad2db2438c2d5d4ddd294c1056b88167c
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 0997af638c141661afb677e2407a90a883168aed
+ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142723"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628877"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>建议固定资产购置
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何使用固定资产日记帐中的购置方案购置固定资产。 它为 USMF 法人实体使用会计角色和演示数据。
+本主题介绍如何使用固定资产日记帐中的购置方案购置固定资产。 它为 USMF 法人实体使用会计角色和演示数据。 要通过固定资产建议日记帐获取固定资产，必须首先创建固定资产记录，然后在资产帐簿中定义购置价格。
 
 1. 在导航窗格中，转到**模块 > 固定资产 > 日记帐条目 > 固定资产日记帐**。
 2. 选择**新建**。
@@ -43,4 +43,3 @@ ms.locfileid: "3142723"
 - 只有在帐簿中设置了购置日期和购置价格的固定资产才会包含在购置方案中。  
 11. 在页面上，选择**帐簿**选项卡。
 12. 选择**过帐**。
-

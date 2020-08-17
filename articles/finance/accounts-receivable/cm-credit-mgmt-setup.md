@@ -3,7 +3,7 @@ title: 信用管理参数设置
 description: 本主题描述可用于配置信用管理以满足业务需求的选项。
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: c4930d346ddc4679e6a3196c5f35adb598ed38c1
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154520"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651897"
 ---
 # <a name="credit-management-parameters-setup"></a>信用管理参数设置
 
@@ -34,7 +34,7 @@ ms.locfileid: "3154520"
 
 ### <a name="credit-holds"></a>信用保留
 
-- 将**允许在释放订单保留后编辑销售订单值**选项设置为**是**以提出以下要求：如果自从保留列表中下达销售订单以来更改了销售订单值（扩展价格），则必须再次检查过帐规则。 .
+- 将**允许在释放订单保留后编辑销售订单值**选项设置为**否**以提出以下要求：如果自从保留列表中下达销售订单以来增加了销售订单值（延伸价格），则必须再次检查过帐规则。 .
 - 在**取消订单的原因**字段中，选择取消信用管理暂停的销售订单时将默认使用的下达原因。
 - 将**查看客户信用组信用额度**选项设置为**是**，以在销售订单上的客户属于客户信用组时检查客户信用组的信用额度。 将检查该组的信用额度，然后，如果信用额度足够，则将检查该客户的信用额度。
 - 将**增加付款条款时检查信用额度**选项设置为**是**，以检查付款条款排名，从而确定销售订单上的付款条款是否与客户的默认付款条款不同。 如果新付款条款的排名高于原始付款条款的排名，则该订单会处于信用管理暂停状态。

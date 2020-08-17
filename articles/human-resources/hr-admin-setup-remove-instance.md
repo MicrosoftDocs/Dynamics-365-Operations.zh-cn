@@ -3,7 +3,7 @@ title: 删除实例
 description: 此文将指导您如何删除 Microsoft Dynamics 365 Human Resources 的测试驱动器或生产环境。
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17f299f81d1326dfb06c11a6125acc54b8ef2a6e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431191"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621372"
 ---
 # <a name="remove-an-instance"></a>删除实例
 
@@ -67,8 +67,21 @@ Human Resources 测试驱动器设置了 60 天的到期策略。 不过，测�
 1. 联系支持以发起删除请求。
 2. 支持团队将向 Human Resources DevOps 团队发起删除请求。 
 3. 在收到环境已删除的消息后继续操作。
-4.  使用您用于订阅 Human Resources 的帐户登录到 LCS。 
+4. 使用您用于订阅 Human Resources 的帐户登录到 LCS。 
 5. 选择包含环境的 Human Resources 项目。 
 6. 在您的 LCS 项目中，选择 **Human Resources 应用管理**磁贴。 
 7. 选择要删除的实例，其应标记有部署状态**失败**。
 8. 选择**删除实例**并确认您的决定。 
+
+## <a name="recover-a-soft-deleted-environment"></a>恢复软删除的环境
+
+如果删除与 Human Resources 环境连接的 Power Apps 环境，Lifecycle Services 中 Human Resources 环境的状态将为**已软删除**。 在这种情况下，用户无法连接到 Human Resources。
+
+要恢复环境：
+
+1. 按照[恢复 Power Apps 环境](/power-platform/admin/recover-environment.md)中的说明操作。
+
+2. 与客户支持联系恢复 Human Resources 环境。 有关详细信息，请参阅[获取支持](hr-admin-troubleshooting-support.md)。
+
+> [!Warning]
+> Power Apps 环境在删除后仅保存 7 天。 您必须在 7 天之内恢复环境。

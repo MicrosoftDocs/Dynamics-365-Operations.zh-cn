@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32271e967da2e7f3702b0c6c2dcdba460aa1b382
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4c8216ebdd1f26601743e6b35849be0813d06b4a
+ms.sourcegitcommit: 4676ea9646fa1a182103ecab93e78a69001f0b8d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770612"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3612654"
 ---
 # <a name="process-allocations"></a>处理分配
 
@@ -34,8 +34,8 @@ ms.locfileid: "2770612"
 以下功能支持此流程：
 
 -   通过在会计分配中使用“分解”操作，或者通过将财务维度默认模板应用到文档，手动分配交易记录金额。 有关详细信息，请参阅[会计分配](../accounts-payable/accounting-distributions.md)。
--   将基于在单个主科目中定义的分配期限自动分配交易记录。 分配科目条目将基于百分比和目标会计科目为每个日记帐生成，只要会计条目满足定义为源会计科目的条件。
--   将基于分类帐分配规则自动分配分类帐余额或固定金额。 使用分配日记帐定期处理分类帐分配规则。 
+-   将基于在单个主科目中定义的分配期限自动分配交易记录。 分配科目条目将基于百分比和目标会计科目为每个日记帐生成，只要会计条目满足定义为源会计科目的条件。 有关详细信息，请参阅[主科目分摊条件](../general-ledger/main-account-allocation-terms.md)
+-   将基于分类帐分配规则自动分配分类帐余额或固定金额。 使用分配日记帐定期处理分类帐分配规则。 有关详细信息，请参阅[分配规则](../general-ledger/ledger-allocation-rules.md)。
 
 ###  <a name="allocations-in-budget-planning"></a>预算计划中的分配
 
@@ -43,8 +43,4 @@ ms.locfileid: "2770612"
 
 > [!NOTE]
 > 您不能为预算计划使用内部公司的分类帐分配规则。
-
-
-
-
 

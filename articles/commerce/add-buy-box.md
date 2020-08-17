@@ -3,7 +3,7 @@ title: 购买框模块
 description: 此主题介绍购买框模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 583937be92b62991cd13f0806df4a0a6c9ac049c
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411334"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645331"
 ---
 # <a name="buy-box-module"></a>购买框模块
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 此主题介绍购买框模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
@@ -61,7 +61,7 @@ ms.locfileid: "3411334"
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>购买框模块中可使用的模块
 
-- **媒体库** – 此模块用于展示产品详细信息页上的产品图像。 它可以支持一到多个图像。 还支持缩略图。 缩略图可以水平排列（作为图像下的一行），或垂直排列（作为图像旁边的一列）。 可将媒体库模块添加到购买框模块中的**媒体**插槽。 它当前仅支持图像。 
+- **媒体库** – 此模块用于展示产品详细信息页上的产品图像。 有关此模块的详细信息，请参阅[媒体库模块](mediagallery-module.md)。
 - **商店选择器** – 此模块显示附近可提货的商店的列表。 它使用户可以输入位置来查找附近的商店。 有关此模块的详细信息，请参阅[商店选择器模块](store-selector.md)。
 
 ## <a name="buy-box-module-settings"></a>购买框模块设置
@@ -112,13 +112,15 @@ ms.locfileid: "3411334"
 
 [商店选择器模块](store-selector.md)
 
+[媒体库模块](media-gallery-module.md)
+
 [容器模块](add-container-module.md)
 
 [购物车模块](add-cart-module.md)
 
 [购物车图标模块](cart-icon-module.md)
 
-[结账模块](add-checkout-module.md)
+[结帐模块](add-checkout-module.md)
 
 [订单确认模块](order-confirmation-module.md)
 
