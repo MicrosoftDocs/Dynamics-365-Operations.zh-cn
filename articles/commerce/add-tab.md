@@ -18,70 +18,69 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 60af9b74f7e647e83229e352a03c09d63d0c7902
-ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
+ms.openlocfilehash: b4187dfd704c78d506d7840b04c986687fe807a3
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3417361"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621005"
 ---
-# <a name="tab-module"></a><span data-ttu-id="34df7-103">选项卡模块</span><span class="sxs-lookup"><span data-stu-id="34df7-103">Tab module</span></span>
+# <a name="tab-module"></a><span data-ttu-id="2e871-103">选项卡模块</span><span class="sxs-lookup"><span data-stu-id="2e871-103">Tab module</span></span>
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="34df7-104">此主题介绍选项卡模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。</span><span class="sxs-lookup"><span data-stu-id="34df7-104">This topic covers tab modules and describes how to add them to site pages in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="2e871-104">此主题介绍选项卡模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。</span><span class="sxs-lookup"><span data-stu-id="2e871-104">This topic covers tab modules and describes how to add them to site pages in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="34df7-105">概览</span><span class="sxs-lookup"><span data-stu-id="34df7-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="2e871-105">概览</span><span class="sxs-lookup"><span data-stu-id="2e871-105">Overview</span></span>
 
-<span data-ttu-id="34df7-106">选项卡模块是类似于容器的模块，用于组织选项卡的站点页面上的信息。</span><span class="sxs-lookup"><span data-stu-id="34df7-106">Tab modules are container-like modules that are used to organize the information on a site page on tabs.</span></span> <span data-ttu-id="34df7-107">此类模块可以在必须在选项卡上呈现信息的任何页面上使用。</span><span class="sxs-lookup"><span data-stu-id="34df7-107">They can be used on any page where information must be presented on tabs.</span></span>
+<span data-ttu-id="2e871-106">选项卡模块是类似于容器的模块，用于组织选项卡的站点页面上的信息。</span><span class="sxs-lookup"><span data-stu-id="2e871-106">Tab modules are container-like modules that are used to organize the information on a site page on tabs.</span></span> <span data-ttu-id="2e871-107">此类模块可以在必须在选项卡上呈现信息的任何页面上使用。</span><span class="sxs-lookup"><span data-stu-id="2e871-107">They can be used on any page where information must be presented on tabs.</span></span>
 
-<span data-ttu-id="34df7-108">在每个选项卡模块中，可以添加一个或多个选项卡项模块。</span><span class="sxs-lookup"><span data-stu-id="34df7-108">In every tab module, one or more tab item modules can be added.</span></span> <span data-ttu-id="34df7-109">每个选项卡项模块代表一个选项卡。在每个选项卡项模块中，可以添加一个或多个模块。</span><span class="sxs-lookup"><span data-stu-id="34df7-109">Each tab item module represents a single tab. In each tab item module, one or more modules can be added.</span></span> <span data-ttu-id="34df7-110">可添加到选项卡项模块的模块类型没有限制。</span><span class="sxs-lookup"><span data-stu-id="34df7-110">There are no restrictions on the types of modules that can be added to a tab item module.</span></span>
+<span data-ttu-id="2e871-108">在每个选项卡模块中，可以添加一个或多个选项卡项模块。</span><span class="sxs-lookup"><span data-stu-id="2e871-108">In every tab module, one or more tab item modules can be added.</span></span> <span data-ttu-id="2e871-109">每个选项卡项模块代表一个选项卡。在每个选项卡项模块中，可以添加一个或多个模块。</span><span class="sxs-lookup"><span data-stu-id="2e871-109">Each tab item module represents a single tab. In each tab item module, one or more modules can be added.</span></span> <span data-ttu-id="2e871-110">可添加到选项卡项模块的模块类型没有限制。</span><span class="sxs-lookup"><span data-stu-id="2e871-110">There are no restrictions on the types of modules that can be added to a tab item module.</span></span>
 
-<span data-ttu-id="34df7-111">下图显示了站点页上的选项卡模块的示例。</span><span class="sxs-lookup"><span data-stu-id="34df7-111">The following image shows an example of a tab module on a site page.</span></span> <span data-ttu-id="34df7-112">在此示例中，已选择**装运**选项卡。</span><span class="sxs-lookup"><span data-stu-id="34df7-112">In this example, the **Shipping** tab selected.</span></span>
+<span data-ttu-id="2e871-111">下图显示了站点页上的选项卡模块的示例。</span><span class="sxs-lookup"><span data-stu-id="2e871-111">The following image shows an example of a tab module on a site page.</span></span> <span data-ttu-id="2e871-112">在此示例中，已选择**装运**选项卡。</span><span class="sxs-lookup"><span data-stu-id="2e871-112">In this example, the **Shipping** tab selected.</span></span>
 
 ![选项卡模块的示例](./media/ecommerce-tab.PNG)
 
-## <a name="tab-module-properties"></a><span data-ttu-id="34df7-114">选项卡模块属性</span><span class="sxs-lookup"><span data-stu-id="34df7-114">Tab module properties</span></span>
+## <a name="tab-module-properties"></a><span data-ttu-id="2e871-114">选项卡模块属性</span><span class="sxs-lookup"><span data-stu-id="2e871-114">Tab module properties</span></span>
 
-| <span data-ttu-id="34df7-115">属性名称</span><span class="sxs-lookup"><span data-stu-id="34df7-115">Property name</span></span> | <span data-ttu-id="34df7-116">值</span><span class="sxs-lookup"><span data-stu-id="34df7-116">Values</span></span> | <span data-ttu-id="34df7-117">说明</span><span class="sxs-lookup"><span data-stu-id="34df7-117">Description</span></span> |
+| <span data-ttu-id="2e871-115">属性名称</span><span class="sxs-lookup"><span data-stu-id="2e871-115">Property name</span></span> | <span data-ttu-id="2e871-116">值</span><span class="sxs-lookup"><span data-stu-id="2e871-116">Values</span></span> | <span data-ttu-id="2e871-117">说明</span><span class="sxs-lookup"><span data-stu-id="2e871-117">Description</span></span> |
 |---------------|--------|-------------|
-| <span data-ttu-id="34df7-118">标题</span><span class="sxs-lookup"><span data-stu-id="34df7-118">Heading</span></span> | <span data-ttu-id="34df7-119">文本</span><span class="sxs-lookup"><span data-stu-id="34df7-119">Text</span></span> | <span data-ttu-id="34df7-120">此属性为选项卡模块指定可选的文本标题。</span><span class="sxs-lookup"><span data-stu-id="34df7-120">This property specifies an optional text heading for the tab module.</span></span> |
-| <span data-ttu-id="34df7-121">活动选项卡索引</span><span class="sxs-lookup"><span data-stu-id="34df7-121">Active Tab Index</span></span> | <span data-ttu-id="34df7-122">数值</span><span class="sxs-lookup"><span data-stu-id="34df7-122">Number</span></span> | <span data-ttu-id="34df7-123">此属性指定在加载页面时默认应处于活动状态的选项卡。</span><span class="sxs-lookup"><span data-stu-id="34df7-123">This property specifies the tab that should be active by default when a page is loaded.</span></span> <span data-ttu-id="34df7-124">如果未提供任何值，默认第一个选项卡项处于活动状态。</span><span class="sxs-lookup"><span data-stu-id="34df7-124">If no value is provided, the first tab item is active by default.</span></span> |
+| <span data-ttu-id="2e871-118">标题</span><span class="sxs-lookup"><span data-stu-id="2e871-118">Heading</span></span> | <span data-ttu-id="2e871-119">文本</span><span class="sxs-lookup"><span data-stu-id="2e871-119">Text</span></span> | <span data-ttu-id="2e871-120">此属性为选项卡模块指定可选的文本标题。</span><span class="sxs-lookup"><span data-stu-id="2e871-120">This property specifies an optional text heading for the tab module.</span></span> |
+| <span data-ttu-id="2e871-121">活动选项卡索引</span><span class="sxs-lookup"><span data-stu-id="2e871-121">Active Tab Index</span></span> | <span data-ttu-id="2e871-122">数值</span><span class="sxs-lookup"><span data-stu-id="2e871-122">Number</span></span> | <span data-ttu-id="2e871-123">此属性指定在加载页面时默认应处于活动状态的选项卡。</span><span class="sxs-lookup"><span data-stu-id="2e871-123">This property specifies the tab that should be active by default when a page is loaded.</span></span> <span data-ttu-id="2e871-124">如果未提供任何值，默认第一个选项卡项处于活动状态。</span><span class="sxs-lookup"><span data-stu-id="2e871-124">If no value is provided, the first tab item is active by default.</span></span> |
 
-## <a name="tab-item-module-properties"></a><span data-ttu-id="34df7-125">选项卡项模块属性</span><span class="sxs-lookup"><span data-stu-id="34df7-125">Tab item module properties</span></span>
+## <a name="tab-item-module-properties"></a><span data-ttu-id="2e871-125">选项卡项模块属性</span><span class="sxs-lookup"><span data-stu-id="2e871-125">Tab item module properties</span></span>
 
-| <span data-ttu-id="34df7-126">属性名称</span><span class="sxs-lookup"><span data-stu-id="34df7-126">Property name</span></span> | <span data-ttu-id="34df7-127">值</span><span class="sxs-lookup"><span data-stu-id="34df7-127">Values</span></span> | <span data-ttu-id="34df7-128">说明</span><span class="sxs-lookup"><span data-stu-id="34df7-128">Description</span></span> |
+| <span data-ttu-id="2e871-126">属性名称</span><span class="sxs-lookup"><span data-stu-id="2e871-126">Property name</span></span> | <span data-ttu-id="2e871-127">值</span><span class="sxs-lookup"><span data-stu-id="2e871-127">Values</span></span> | <span data-ttu-id="2e871-128">说明</span><span class="sxs-lookup"><span data-stu-id="2e871-128">Description</span></span> |
 |---------------|--------|-------------|
-| <span data-ttu-id="34df7-129">职称</span><span class="sxs-lookup"><span data-stu-id="34df7-129">Title</span></span> | <span data-ttu-id="34df7-130">文本</span><span class="sxs-lookup"><span data-stu-id="34df7-130">Text</span></span> | <span data-ttu-id="34df7-131">此属性为选项卡项模块指定标题文本。</span><span class="sxs-lookup"><span data-stu-id="34df7-131">This property specifies the title text for the tab item module.</span></span> |
+| <span data-ttu-id="2e871-129">职称</span><span class="sxs-lookup"><span data-stu-id="2e871-129">Title</span></span> | <span data-ttu-id="2e871-130">文本</span><span class="sxs-lookup"><span data-stu-id="2e871-130">Text</span></span> | <span data-ttu-id="2e871-131">此属性为选项卡项模块指定标题文本。</span><span class="sxs-lookup"><span data-stu-id="2e871-131">This property specifies the title text for the tab item module.</span></span> |
 
-## <a name="add-a-tab-module-to-a-page"></a><span data-ttu-id="34df7-132">向页面添加选项卡模块</span><span class="sxs-lookup"><span data-stu-id="34df7-132">Add a tab module to a page</span></span>
+## <a name="add-a-tab-module-to-a-page"></a><span data-ttu-id="2e871-132">向页面添加选项卡模块</span><span class="sxs-lookup"><span data-stu-id="2e871-132">Add a tab module to a page</span></span>
 
-<span data-ttu-id="34df7-133">若要向页面添加选项卡模块和设置属性，请执行以下步骤。</span><span class="sxs-lookup"><span data-stu-id="34df7-133">To add a tab module to a page and set the properties, follow these steps.</span></span>
+<span data-ttu-id="2e871-133">若要向页面添加选项卡模块和设置属性，请执行以下步骤。</span><span class="sxs-lookup"><span data-stu-id="2e871-133">To add a tab module to a page and set the properties, follow these steps.</span></span>
 
-1. <span data-ttu-id="34df7-134">使用 Fabrikam 市场营销模板（或任何没有限制的模板）创建一个名为**商店政策页面**的新页面。</span><span class="sxs-lookup"><span data-stu-id="34df7-134">Use the Fabrikam marketing template (or any template that has no restrictions) to create a new page that is named **Store policies page**.</span></span>
-1. <span data-ttu-id="34df7-135">在**默认页**的**主**插槽，选择省略号 (**...**)，然后选择**添加模块**。</span><span class="sxs-lookup"><span data-stu-id="34df7-135">In the **Main** slot of the **Default page**, select the ellipsis (**...**), and then select **Add Module**.</span></span>
-1. <span data-ttu-id="34df7-136">在**添加模块**对话框中，选择**容器**模块，然后选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="34df7-136">In the **Add Module** dialog box, select the **Container** module, and then select **OK**.</span></span>
-1. <span data-ttu-id="34df7-137">在**容器**插槽中，选择省略号 (**...**)，然后选择**添加模块**。</span><span class="sxs-lookup"><span data-stu-id="34df7-137">In the **Container** slot, select the ellipsis (**...**), and then select **Add Module**.</span></span>
-1. <span data-ttu-id="34df7-138">在**添加模块**对话框中，选择**选项卡**模块，然后选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="34df7-138">In the **Add Module** dialog box, select the **Tab** module, and then select **OK**.</span></span>
-1. <span data-ttu-id="34df7-139">在选项卡模块的属性窗格中，选择铅笔符号旁边的**标题**。</span><span class="sxs-lookup"><span data-stu-id="34df7-139">In the property pane of the tab module, select **Heading** next to the pencil symbol.</span></span>
-1. <span data-ttu-id="34df7-140">在**标题**对话框中，在**标题文本**下，输入标题文本（例如，**政策**）。</span><span class="sxs-lookup"><span data-stu-id="34df7-140">In the **Heading** dialog box, under **Heading Text**, enter heading text (for example, **Policies**).</span></span> <span data-ttu-id="34df7-141">然后选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="34df7-141">Then select **OK**.</span></span>
-1. <span data-ttu-id="34df7-142">在**选项卡**插槽中，选择省略号 (**...**)，然后选择**添加模块**。</span><span class="sxs-lookup"><span data-stu-id="34df7-142">In the **Tab** slot, select the ellipsis (**...**), and then select **Add Module**.</span></span>
-1. <span data-ttu-id="34df7-143">在**添加模块**对话框中，选择**选项卡项**模块，然后选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="34df7-143">In the **Add Module** dialog box, select the **Tab item** module, and then select **OK**.</span></span>
-1. <span data-ttu-id="34df7-144">在选项卡项模块的属性窗格中，在**标题**下，输入标题文本（例如，**交货**）。</span><span class="sxs-lookup"><span data-stu-id="34df7-144">In the property pane of the tab item module, under **Title**, enter title text (for example, **Delivery**).</span></span>
-1. <span data-ttu-id="34df7-145">在**选项卡项**插槽中，选择省略号 (**...**)，然后选择**添加模块**。</span><span class="sxs-lookup"><span data-stu-id="34df7-145">In the **Tab item** slot, select the ellipsis (**...**), and then select **Add Module**.</span></span>
-1. <span data-ttu-id="34df7-146">在**添加模块**对话框中，选择**文本块**模块，然后选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="34df7-146">In the **Add Module** dialog box, select the **Text block** module, and then select **OK**.</span></span>
-1. <span data-ttu-id="34df7-147">在文本块模块的属性窗格中，在**富文本**下，输入一段文本。</span><span class="sxs-lookup"><span data-stu-id="34df7-147">In the property pane of the text block module, under **Rich text**, enter a paragraph of text.</span></span>
-1. <span data-ttu-id="34df7-148">在**选项卡**插槽中，再添加几个带有标题的选项卡项模块。</span><span class="sxs-lookup"><span data-stu-id="34df7-148">In the **Tab** slot, add a few more tab item modules that have titles.</span></span> <span data-ttu-id="34df7-149">在每个选项卡项模块中，添加一个有内容的文本块模块。</span><span class="sxs-lookup"><span data-stu-id="34df7-149">In each tab item module, add a text block module that has content.</span></span>
-1. <span data-ttu-id="34df7-150">选择**保存**，然后选择**预览**以预览页面。</span><span class="sxs-lookup"><span data-stu-id="34df7-150">Select **Save**, and then select **Preview** to preview the page.</span></span> <span data-ttu-id="34df7-151">页面将显示一个选项卡模块，其中包含具有您添加的内容的选项卡项模块。</span><span class="sxs-lookup"><span data-stu-id="34df7-151">The page will show a tab module that contains tab item modules have the content that you added.</span></span>
-1. <span data-ttu-id="34df7-152">选择**完成编辑**签入页面，然后选择**发布**进行发布。</span><span class="sxs-lookup"><span data-stu-id="34df7-152">Select **Finish editing** to check in the page, and then select **Publish** to publish it.</span></span>
+1. <span data-ttu-id="2e871-134">使用 Fabrikam 市场营销模板（或任何没有限制的模板）创建一个名为**商店政策页面**的新页面。</span><span class="sxs-lookup"><span data-stu-id="2e871-134">Use the Fabrikam marketing template (or any template that has no restrictions) to create a new page that is named **Store policies page**.</span></span>
+1. <span data-ttu-id="2e871-135">在**默认页**的**主**插槽，选择省略号 (**...**)，然后选择**添加模块**。</span><span class="sxs-lookup"><span data-stu-id="2e871-135">In the **Main** slot of the **Default page**, select the ellipsis (**...**), and then select **Add Module**.</span></span>
+1. <span data-ttu-id="2e871-136">在**添加模块**对话框中，选择**容器**模块，然后选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="2e871-136">In the **Add Module** dialog box, select the **Container** module, and then select **OK**.</span></span>
+1. <span data-ttu-id="2e871-137">在**容器**插槽中，选择省略号 (**...**)，然后选择**添加模块**。</span><span class="sxs-lookup"><span data-stu-id="2e871-137">In the **Container** slot, select the ellipsis (**...**), and then select **Add Module**.</span></span>
+1. <span data-ttu-id="2e871-138">在**添加模块**对话框中，选择**选项卡**模块，然后选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="2e871-138">In the **Add Module** dialog box, select the **Tab** module, and then select **OK**.</span></span>
+1. <span data-ttu-id="2e871-139">在选项卡模块的属性窗格中，选择铅笔符号旁边的**标题**。</span><span class="sxs-lookup"><span data-stu-id="2e871-139">In the property pane of the tab module, select **Heading** next to the pencil symbol.</span></span>
+1. <span data-ttu-id="2e871-140">在**标题**对话框中，在**标题文本**下，输入标题文本（例如，**政策**）。</span><span class="sxs-lookup"><span data-stu-id="2e871-140">In the **Heading** dialog box, under **Heading Text**, enter heading text (for example, **Policies**).</span></span> <span data-ttu-id="2e871-141">然后选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="2e871-141">Then select **OK**.</span></span>
+1. <span data-ttu-id="2e871-142">在**选项卡**插槽中，选择省略号 (**...**)，然后选择**添加模块**。</span><span class="sxs-lookup"><span data-stu-id="2e871-142">In the **Tab** slot, select the ellipsis (**...**), and then select **Add Module**.</span></span>
+1. <span data-ttu-id="2e871-143">在**添加模块**对话框中，选择**选项卡项**模块，然后选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="2e871-143">In the **Add Module** dialog box, select the **Tab item** module, and then select **OK**.</span></span>
+1. <span data-ttu-id="2e871-144">在选项卡项模块的属性窗格中，在**标题**下，输入标题文本（例如，**交货**）。</span><span class="sxs-lookup"><span data-stu-id="2e871-144">In the property pane of the tab item module, under **Title**, enter title text (for example, **Delivery**).</span></span>
+1. <span data-ttu-id="2e871-145">在**选项卡项**插槽中，选择省略号 (**...**)，然后选择**添加模块**。</span><span class="sxs-lookup"><span data-stu-id="2e871-145">In the **Tab item** slot, select the ellipsis (**...**), and then select **Add Module**.</span></span>
+1. <span data-ttu-id="2e871-146">在**添加模块**对话框中，选择**文本块**模块，然后选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="2e871-146">In the **Add Module** dialog box, select the **Text block** module, and then select **OK**.</span></span>
+1. <span data-ttu-id="2e871-147">在文本块模块的属性窗格中，在**富文本**下，输入一段文本。</span><span class="sxs-lookup"><span data-stu-id="2e871-147">In the property pane of the text block module, under **Rich text**, enter a paragraph of text.</span></span>
+1. <span data-ttu-id="2e871-148">在**选项卡**插槽中，再添加几个带有标题的选项卡项模块。</span><span class="sxs-lookup"><span data-stu-id="2e871-148">In the **Tab** slot, add a few more tab item modules that have titles.</span></span> <span data-ttu-id="2e871-149">在每个选项卡项模块中，添加一个有内容的文本块模块。</span><span class="sxs-lookup"><span data-stu-id="2e871-149">In each tab item module, add a text block module that has content.</span></span>
+1. <span data-ttu-id="2e871-150">选择**保存**，然后选择**预览**以预览页面。</span><span class="sxs-lookup"><span data-stu-id="2e871-150">Select **Save**, and then select **Preview** to preview the page.</span></span> <span data-ttu-id="2e871-151">页面将显示一个选项卡模块，其中包含具有您添加的内容的选项卡项模块。</span><span class="sxs-lookup"><span data-stu-id="2e871-151">The page will show a tab module that contains tab item modules have the content that you added.</span></span>
+1. <span data-ttu-id="2e871-152">选择**完成编辑**签入页面，然后选择**发布**进行发布。</span><span class="sxs-lookup"><span data-stu-id="2e871-152">Select **Finish editing** to check in the page, and then select **Publish** to publish it.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="34df7-153">其他资源</span><span class="sxs-lookup"><span data-stu-id="34df7-153">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="2e871-153">其他资源</span><span class="sxs-lookup"><span data-stu-id="2e871-153">Additional resources</span></span>
 
-[<span data-ttu-id="34df7-154">入门套件概览</span><span class="sxs-lookup"><span data-stu-id="34df7-154">Starter kit overview</span></span>](starter-kit-overview.md)
+[<span data-ttu-id="2e871-154">入门套件概览</span><span class="sxs-lookup"><span data-stu-id="2e871-154">Starter kit overview</span></span>](starter-kit-overview.md)
 
-[<span data-ttu-id="34df7-155">容器模块</span><span class="sxs-lookup"><span data-stu-id="34df7-155">Container module</span></span>](add-container-module.md)
+[<span data-ttu-id="2e871-155">容器模块</span><span class="sxs-lookup"><span data-stu-id="2e871-155">Container module</span></span>](add-container-module.md)
 
-[<span data-ttu-id="34df7-156">手风琴模块</span><span class="sxs-lookup"><span data-stu-id="34df7-156">Accordion module</span></span>](add-accordion.md)
+[<span data-ttu-id="2e871-156">手风琴模块</span><span class="sxs-lookup"><span data-stu-id="2e871-156">Accordion module</span></span>](add-accordion.md)
 
-[<span data-ttu-id="34df7-157">文本块模块</span><span class="sxs-lookup"><span data-stu-id="34df7-157">Text block module</span></span>](add-content-rich-block.md)
+[<span data-ttu-id="2e871-157">文本块模块</span><span class="sxs-lookup"><span data-stu-id="2e871-157">Text block module</span></span>](add-content-rich-block.md)
