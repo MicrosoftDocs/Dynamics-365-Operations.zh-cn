@@ -3,7 +3,7 @@ title: 使用片段
 description: 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用片段的原因、条件和方法。
 author: v-chgri
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 7ae834f38fe380ce0a66f5b1968f1261af670979
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124351"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645983"
 ---
 # <a name="work-with-fragments"></a>使用片段 
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用片段的原因、条件和方法。
 
@@ -62,9 +62,10 @@ ms.locfileid: "3124351"
 若要将以前配置的模块转换为可重复使用的片段，请执行以下步骤。
 
 1. 打开其中包含要将片段转换为的模块的页面或模板。
-1. 在左侧的大纲窗格中，选择模块名称旁边的省略号按钮 (**...**)。 
-1. 选择**共享为片段**。 
-1. 对话框出现 为片段输入名称和元数据。
+1. 在左侧的大纲窗格中或直接在主画布中，选择以前配置的模块。
+1. 在大纲窗格或画布中所选模块的工具栏上，选择模块名称旁边的省略号 (**...**)。 
+1. 选择**共享为页面片段**。 
+1. 在**另存为页面片段**对话框中，为片段输入名称。
 1. 选择**确定**将模块配置保存为可添加到其他页面的片段。
 
 下图显示了如何将模块配置另存为片段。
@@ -94,15 +95,16 @@ ms.locfileid: "3124351"
 
 若要向页面添加片段，请执行以下步骤。
 
-1. 在左侧的大纲窗格中，选择可向其添加子模块的容器或插槽。
-1. 选择容器或插槽名称旁边的省略号按钮，然后选择**添加片段**。 对话框出现
+1. 在左侧的大纲窗格中或直接在主画布中，选择可向其添加子模块的容器或插槽。
+1. 在大纲窗格中，选择容器或插槽名称旁边的省略号 (**...**)。  或者，如果使用主画布，请选择加号 (**+**)。  
+1. 选择**添加片段**。
 
     ![有关如何将现有片段添加到插槽或容器的屏幕截图](./media/add-fragment.png)
  
     > [!NOTE]
     > 如果容器或插槽不支持新子模块，则**添加片段**选项不可用。
     
-1. 在对话框中，搜索并选择要添加的片段。 如果未列出可用片段，可能必须先基于所选容器或插槽支持的模块类型创建片段。
+1. 在**添加片段**对话框中，搜索并选择要添加的片段。 如果未列出可用片段，可能必须先基于所选容器或插槽支持的模块类型创建片段。
 1. 选择所需的片段以将其添加到页面上的容器或插槽中。
 
     ![关于片段选择器模式窗口的屏幕截图](./media/fragment-picker.png)
@@ -114,7 +116,7 @@ ms.locfileid: "3124351"
 
 若要从站点中的插槽或容器删除片段，请执行以下步骤。
 
-1. 在左侧大纲窗格中，选择要删除的片段的名称旁边的省略号按钮，然后选择废纸篓按钮。
+1. 在左侧大纲窗格中，选择要删除的片段的名称旁边的省略号 (**...**)，然后选择垃圾桶符号。  或者，您可以在画布中选择片段，然后在片段的工具栏中选择垃圾桶符号。
 1. 系统提示确认要删除片段时，选择**确定**。
 
 > [!NOTE]

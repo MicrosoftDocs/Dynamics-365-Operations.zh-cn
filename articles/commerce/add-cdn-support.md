@@ -3,7 +3,7 @@ title: 添加对内容交付网络 (CDN) 的支持
 description: 此主题介绍如何向 Microsoft Dynamics 365 Commerce 环境添加内容交付网络 (CDN)。
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: febef3bcc06dc1b5868a0decebee33d76110c505
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533336"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646031"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>添加对内容交付网络 (CDN) 的支持
 
@@ -35,7 +35,7 @@ ms.locfileid: "3533336"
 
 在 Dynamics 365 Commerce 中设置电子商务环境时，可将其配置为支持 CDN 服务。 
 
-可以在电子商务环境的预配过程中启用自定义域。 也可以在预配过程完成后使用服务请求设置。 电子商务环境的预配过程将生成一个与该环境关联的主机名。 此主机名采用以下格式，其中，*e-commerce-tenant-name* 是您的环境的名称：
+可以在电子商务环境的预配过程中启用自定义域。 也可以在预配过程完成后使用服务请求设置。 电子商务环境的预配过程将生成一个与该环境关联的主机名。 此主机名采用以下格式，其中，\<*e-commerce-tenant-name*\> 是您的环境的名称：
 
 &lt;e-commerce-tenant-name&gt;.commerce.dynamics.com
 
@@ -74,18 +74,20 @@ CDN 的设置过程通常包含下面的步骤：
 
 有关如何设置 Azure Front Door Service 的信息，请参阅[快速入门：为高可用全局 Web 应用程序创建 Front Door](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door)。
 
-### <a name="configure-a-back-end-pool-in-azure-front-door-service"></a>在 Azure Front Door Service 中配置后端池
+### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>在 Azure Front Door 服务中配置后端池
 
-若要在 Azure Front Door Service 中配置后端池，请执行以下步骤。
+若要在 Azure Front Door 服务中配置后端池，请执行以下步骤。
 
 1. 向后端池添加 **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** 充当具有空后端主机标头的自定义主机。
-1. 在**运行状况探测**下的**路径**字段中，输入 **/keepalive**。
-1. 在**间隔(秒)** 字段中，输入 **255**。
 1. 在**负载平衡**下，保留默认值。
 
-下图显示 Azure Front Door Service 中的**添加后端池**对话框。
+下图显示 Azure Front Door 服务中输入了后端主机名的**添加后端**对话框。
 
 ![“添加后端池”对话框](./media/CDN_BackendPool.png)
+
+下图显示 Azure Front Door 服务中具有默认负载均衡值的**添加后端池**对话框。
+
+![“添加后端池”对话框（续）](./media/CDN_BackendPool_2.png)
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>在 Azure Front Door Service 中设置规则
 
@@ -121,20 +123,22 @@ CDN 的设置过程通常包含下面的步骤：
 
 ![“添加规则”对话框](./media/CDN_CachingRule.png)
 
-部署此初始配置之后，必须将自定义域添加到 Azure Front Door Service 的配置中。 若要添加自定义域（如 `www.fabrikam.com`），必须为该域配置一个规范名称 (CNAME)。
+> [!WARNING]
+> 如果要使用的域已激活且处于活动状态，请从 [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) 中的**支持**磁贴创建支持票证来获取后续步骤的帮助。 有关详细信息，请参阅[获取对 Finance and Operations 应用或 Lifecycle Services (LCS) 的支持](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)。
+
+如果您的域是新域，而不是预先存在的活动域，您可以将自定义域添加到 Azure Front Door 服务的配置中。 这将使 Web 流量可以通过 Azure Front Door 实例定向到您的站点。 若要添加自定义域（如 `www.fabrikam.com`），必须为该域配置一个规范名称 (CNAME)。
 
 下图显示 Azure Front Door Service 中的 **CNAME 配置**对话框。
 
 ![“CNAME 配置”对话框](./media/CNAME_Configuration.png)
-
-> [!NOTE]
-> 如果要使用的域已激活且处于活动状态，请联系支持为 Azure Front Door Service 启用此域以设置测试。
 
 可使用 Azure Front Door Service 管理证书，也可以对自定义域使用您自己的证书。
 
 下图显示 Azure Front Door Service 中的**自定义域 HTTPS** 对话框。
 
 ![“自定义域 HTTPS”对话框](./media/Custom_Domain_HTTPS.png)
+
+有关将自定义域添加到 Azure Front Door 的详细说明，请参阅[将自定义域添加到 Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain)。
 
 现在应该已经正确配置了您的 CDN，可将其用于您的 Commerce 站点。
 

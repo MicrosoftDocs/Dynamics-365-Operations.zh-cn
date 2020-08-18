@@ -3,7 +3,7 @@ title: Human Resources 新增功能或更改
 description: 每周，我们都会为 Microsoft Dynamics 365 Human Resources 提供新版本。 此处列举的文章详细介绍了每周进行的更改。
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/01/2020
+ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 418ac9cf680f3a3f6316888c62f02b4dc86030c9
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: a0fc9d521d40f47821d6134ebef4dc041df3059f
+ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555355"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3614304"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Human Resources 新增功能或更改
 
@@ -41,6 +41,7 @@ ms.locfileid: "3555355"
 
 要查看 Human Resources 的双周版本的中的新增功能或更改的功能，请参阅以下文章：
 
+[2020 年 7 月 23 日](hr-whats-new-2020-07-23.md)</br>
 [2020 年 7 月 8 日](hr-whats-new-2020-07-08.md)</br>
 [2020 年 6 月 23 日](hr-whats-new-2020-06-23.md)</br>
 [2020 年 6 月 11 日](hr-whats-new-2020-06-11.md)</br>

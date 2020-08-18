@@ -3,7 +3,7 @@ title: POS 中的入站库存操作
 description: 此主题介绍销售点 (POS) 入站库存操作的功能。
 author: hhaines
 manager: annbe
-ms.date: 07/10/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
-ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
+ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
+ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3551593"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3627530"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>POS 中的入站库存操作
 
@@ -33,7 +33,7 @@ ms.locfileid: "3551593"
 在 Microsoft Dynamics 365 Commerce 版本 10.0.10 及更高版本中，销售点 (POS) 中的入站和出站操作取代了领料和收货操作。
 
 > [!NOTE]
-> 在版本 10.0.10 及更高版本中，POS 应用程序中中与接收商店库存和采购订单及转移单有关的所有新功能将添加到**入站操作** POS 操作中。 如果您正在使用 POS 中的领料和收货操作，建议您指定策略从该操作迁移到新的入站和出站操作。 虽然此产品中不会移除领料和收货操作，但是在版本 10.0.9 之后，从功能角度到性能角度，都不会再对其进行更多投入。
+> 在 Commerce 版本 10.0.10 及更高版本中，POS 应用程序中中与接收商店库存和采购订单及转移单有关的所有新功能将添加到**入站操作** POS 操作中。 如果您正在使用 POS 中的领料和收货操作，建议您指定策略从该操作迁移到新的入站和出站操作。 虽然此产品中不会移除领料和收货操作，但是在版本 10.0.9 之后，从功能角度到性能角度，都不会再对其进行更多投入。
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>先决条件：配置异步单据框架
 
@@ -153,6 +153,20 @@ POS 用户可通过入站操作执行以下任务：
 如果要接收库存，并且希望暂时停止收货流程，可以使用**暂停收货**功能。 例如，您可能希望从 POS 执行另一个操作（如记录客户销售额），或推迟收货过帐。
 
 选择**暂停收货**之后，单据状态将变为**已暂停**。 因此，用户就会知道已为单据输入了值，但是尚未提交单据。 准备好恢复收货流程后，选择暂停的单据，然后选择**订单详细信息**。 之前保存的所有**立即收货**数量将保留，并且可以从**完整订单列表**视图查看。
+
+### <a name="review"></a>审核
+
+在将最终承诺接收到 Commerce headquarters (HQ) 之前，您可以使用审核功能验证入站单据。 审核功能会提醒您可能导致处理失败的任何数据缺少或不正确的情况，并为您提供在提交接收请求之前更正问题的机会。 要在应用栏上启用**审核**功能，请通过 Commerce headquarters (HQ) 中的**功能管理**工作区启用**在 POS 入站和出站库存操作中启用验证**功能。
+
+**审核**功能可验证入站单据中的以下问题：
+
+- **超收** – 立即接收数量大于订购数量。 此问题的严重性取决于 Commerce headquarters (HQ) 中的超交配置。
+- **接收不足** – 立即接收数量小于订购数量。 此问题的严重性取决于 Commerce headquarters (HQ) 中的欠交配置。
+- **序列号** – 未为在库存中登记需要序列号的序列化物料提供或验证序列号。
+- **位置未设置** – 没有为不允许空白位置的位置控制物料指定位置。
+- **删除的行** – 订单中有 POS 应用程序未知的 Commerce headquarters (HQ) 用户删除的行。
+
+在 **Commerce 参数** > **库存** > **商店库存**中将**启用自动验证**参数设置为**是**，以在选择**完成接收**时自动执行验证。
 
 ### <a name="finish-receiving"></a>完成接收
 

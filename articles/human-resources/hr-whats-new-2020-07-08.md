@@ -3,7 +3,7 @@ title: Dynamics 365 Human Resources 的新增功能或更改（2020 年 7 月 8 
 description: 此主题介绍了 Microsoft Dynamics 365 Human Resources 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
-ms.date: 7/08/2020
+ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8fe7bc33407bd5781d565f854c0f096766da5fc9
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: c4382aa7473e2b67201ac00753ac9abe11b3c646
+ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555380"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3614354"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Dynamics 365 Human Resources 的新增功能或更改（2020 年 7 月 8 日）
 

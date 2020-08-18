@@ -3,7 +3,7 @@ title: 销售点 (POS) 中的产品搜索和客户搜索
 description: 此主题概述 Dynamics 365 Commerce 中的产品和客户搜索的增强功能。
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 2b4c17b41056a35c2d2caaedb4f52998179b3c3e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
+ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021686"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628901"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>销售点 (POS) 中的产品搜索和客户搜索
 
@@ -95,6 +95,9 @@ ms.locfileid: "3021686"
 
 已简化了基于电话号码的搜索。 此类搜索现在忽略创建客户时可能添加的特殊字符，如空格、连字符和括号。 因此，收银员在进行搜索时无需担心电话号码格式。 也可以通过键入部分电话号码搜索客户。 如果电话号码中包含特殊字符，也可以通过搜索特殊字符后显示的数字查找。 例如，如果输入的客户电话号码为 **123-456-7890**，则收银员可以通过键入 **123**、**456**、**7890** 或 **1234567890** 来搜索客户，也可以通过输入电话号码的前几个数字来搜索客户。
 
+> [!NOTE]
+> 一个客户可以有多个电话号码和多个电子邮件。 客户搜索算法也会搜索这些辅助电子邮件和电话号码，但是客户搜索结果页仅显示主要电子邮件和电话号码。 这可能会造成一些混乱，因为返回的客户结果将不会显示搜索到的电子邮件或电话号码。 在将来的版本中，我们计划改进客户搜索结果屏幕来显示此信息。
+
 传统的客户搜索可能很费时间，因为要在多个字段中进行搜索。 不过，收银员现在可在单个客户属性（如姓名、电子邮件地址或电话号码）中进行搜索。 客户搜索算法使用的属性统称为*客户搜索条件*。 系统管理员可以轻松地将一个或多个条件配置为 POS 中显示的快捷方式。 因为搜索限制为单个条件，所以将仅显示相关搜索结果，而性能则比标准客户搜索的性能好得多。 下图显示 POS 中的客户搜索快捷方式。
 
 ![客户搜索快捷方式](./media/SearchShortcutsPOS.png "客户搜索快捷方式")
@@ -114,3 +117,4 @@ ms.locfileid: "3021686"
 在即将推出的 Commerce 版本中，零售商可以将 POS 中的默认客户搜索模式设置为**搜索所有商店**。 如果必须立即搜索在 POS 外部创建的客户（例如，即使在运行配送作业之前），则此配置可能非常有用。 POS 功能配置文件中将增加一个新的**默认客户搜索模式**选项。 如果将其设置为**开**，将把默认搜索模式设置为**搜索所有商店**。 然后，每次尝试搜索客户都会实时调用总部。
 
 为了帮助避免意外的性能问题，此配置隐藏在名称为 **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING** 的战旗后面。 因此，若要在设置用户界面 (UI) 时显示**默认客户搜索模式**，零售商应该为其用户接受测试 (UAT) 环境和生产环境创建支持工单。 收到工单后，工程团队将与零售商合作，以确保零售商在非生产环境中进行测试来评估性能和实施需要的所有优化。
+

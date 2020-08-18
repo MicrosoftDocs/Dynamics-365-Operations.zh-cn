@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: fd64a4ea53976293a6ff484a370d7804bf6c724f
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: 22ebe1640f17163351b63710534052ce3d810986
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3542116"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652051"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Dynamics 365 Supply Chain Management 10.0.12 的新增功能或更改（2020 年 8 月）
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 此主题列出了 Microsoft Dynamics 365 Supply Chain Management 预览版本 10.0.12 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.507，并以下面的形式提供：
 
@@ -39,15 +38,15 @@ ms.locfileid: "3542116"
 
 此版本中包含以下功能。 功能标题链接至[发布计划](https://docs.microsoft.com/dynamics365/release-plans/)站点中的更多信息。 更多链接指向该功能的更多当前可用文档或视频。 这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
 
-- [允许锁定作业卡触摸屏以进行净化](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization) - 有关详细信息，请参阅[配置设备的作业卡](../production-control/config-job-card-device.md)。
-- [负荷物料接收期间在仓库应用中捕获产品变型和跟踪维度](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving) - 有关详细信息，请参阅[为仓库工作设置移动设备](../warehousing/configure-mobile-devices-warehouse.md)。
-- 成本计算级别（新物料清单级别）- 有关详细信息，请参阅[成本计算级别](../cost-management/cost-calculation-level.md)。
-- [Dynamics 365 Supply Chain Management 客户门户](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences) - 有关详细信息，请参阅 [Dynamics 365 Supply Chain Management 客户门户概述](../sales-marketing/customer-portal-overview.md)。
-- [IoT 智能核心见解](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) - 有关详细信息，请参阅 [IoT 智能主页](../iot/iot-intelligence-home-page.md)。
-- [仓库应用的牌照接收增强（续）](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)- 有关详细信息，请参阅[通过仓库应用进行的牌照接收](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)。
-- [Warehouse mobile app 的批量部署](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app) - 有关详细信息，请参阅[安装和配置仓库应用概述](../warehousing/install-configure-warehousing-app.md)。
-- [仓库管理现有条目清除作业的最长执行时间](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job) - 有关详细信息，请参阅[仓库管理现有条目清除作业](../warehousing/onhand-cleanup.md)。
-- [采购贸易协议的计划优化支持](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements) - 有关详细信息，请参阅[使用采购贸易协议进行主计划](../master-planning/planning-optimization/purchase-trade-agreement.md)。
+- [允许锁定作业卡触摸屏以进行净化](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - 有关详细信息，请参阅[配置设备的作业卡](../production-control/config-job-card-device.md)。
+- [负荷物料接收期间在仓库应用中捕获产品变型和跟踪维度](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - 有关详细信息，请参阅[为仓库工作设置移动设备](../warehousing/configure-mobile-devices-warehouse.md)。
+- 成本计算级别（新物料清单级别）<br> - 有关详细信息，请参阅[成本计算级别](../cost-management/cost-calculation-level.md)。
+- [Dynamics 365 Supply Chain Management 客户门户](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - 有关详细信息，请参阅 [Dynamics 365 Supply Chain Management 客户门户概述](../sales-marketing/customer-portal-overview.md)。
+- [IoT 智能核心见解](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - 有关详细信息，请参阅 [IoT 智能主页](../iot/iot-intelligence-home-page.md)。
+- [仓库应用的牌照接收增强（续）](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - 有关详细信息，请参阅[通过仓库应用进行的牌照接收](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)。
+- [Warehouse mobile app 的批量部署](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - 有关详细信息，请参阅[安装和配置仓库应用概述](../warehousing/install-configure-warehousing-app.md)。
+- [仓库管理现有条目清理作业的最长执行时间](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - 有关详细信息，请参阅[仓库管理现有条目清除作业](../warehousing/onhand-cleanup.md)。
+- [采购贸易协议的计划优化支持](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - 有关详细信息，请参阅[使用采购贸易协议进行主计划](../master-planning/planning-optimization/purchase-trade-agreement.md)。
 
 ## <a name="additional-resources"></a>其他资源
 

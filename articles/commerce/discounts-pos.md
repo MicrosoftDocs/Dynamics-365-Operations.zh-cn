@@ -3,7 +3,7 @@ title: 在 POS 中显示折扣
 description: 此主题说明 Microsoft Dynamics 365 Commerce 如何帮助销售助理了解促销和如何将其用于交叉销售和向上销售动态。
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 05/05/2020
+ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 0ffa7ca6294c7b523ec743f1cb9bc4aef8ef46a8
-ms.sourcegitcommit: 4d5bcda288341572076364559125c86e2ec05273
+ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
+ms.sourcegitcommit: db1a8ffcaebc2896e8f528d7807c54f8597f450e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3334700"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "3638174"
 ---
 # <a name="show-discounts-in-pos"></a>在 POS 中显示折扣
 
@@ -54,7 +54,7 @@ Commerce 中有一项操作，名称为“查看所有折扣”。 此操作显�
 
 多行折扣（如数量折扣、组合购买折扣和阈值折扣）非常适合刺激客户购买更多产品以享受更大折扣。 因此，也有助于增加客户购物车的大小和提高零售商的收入。 可以在电子商务网站、社交媒体和店内标语中公布这些折扣。
 
-但是，即使使用了所有这些宣传方式，客户也可能错过享受促销的机会。 为了方便销售助理了解哪些促销适用于选定的行，或者甚至适用于整个购物车，零售商可以将“查看可用折扣”操作的按钮添加到**交易**页上的按钮网格中。 这样，销售助理可以选择一个交易行，然后选择按钮以显示可用于所选行的所有折扣。 销售助理还可以选择另一个选项卡以显示适用于整个交易的折扣。
+但是，即使使用了所有这些宣传方式，客户也可能错过享受促销的机会。 为了方便销售助理了解哪些促销适用于选定的行，或者甚至适用于整个购物车，零售商可以将 **“查看可用折扣”** 操作的按钮添加到**交易**页上的按钮网格中。 这样，销售助理可以选择一个交易行，然后选择按钮以显示可用于所选行的所有折扣。 销售助理还可以选择另一个选项卡以显示适用于整个交易的折扣。 务必注意，**查看可用折扣**不会显示已在销售行应用的折扣，因为折扣信息已显示在销售行上。 此方案的目的是仅显示尚未应用的折扣。 例外情况是基于标记为“应用但不使用优惠券代码”的优惠券应用的折扣。 这使销售助理可以轻松删除他们已应用的优惠券。
 
 **所有折扣**页面仅显示不与任何已应用折扣竞争的折扣。 此行为有助于确保在销售助理向客户介绍折扣，并且客户执行了所需操作（例如，客户多购买一件商品以享受 10% 的折扣）时，将该折扣应用于交易。 仅在启用了**应用但不使用优惠券代码**选项时，才会显示基于优惠券的折扣。
 

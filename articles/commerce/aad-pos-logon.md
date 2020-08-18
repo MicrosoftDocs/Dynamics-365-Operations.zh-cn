@@ -3,7 +3,7 @@ title: 对 POS 登录启用 Azure Active Directory 身份验证
 description: 此主题介绍如何为 Microsoft Dynamics 365 Commerce 销售点 (POS) 配置登录体验，以便使用 Azure Active Directory 身份验证。
 author: boycezhu
 manager: annbe
-ms.date: 05/20/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: ccb2d62b09153d03b064d9661227f3499d67bca2
+ms.sourcegitcommit: dc1dcd0ccc40be5d45701114fa8c952c13488344
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410027"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3641025"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>对 POS 登录启用 Azure Active Directory 身份验证
 [!include [banner](includes/banner.md)]
@@ -64,9 +64,12 @@ ms.locfileid: "3410027"
 
 将填写该工作人员详细信息页的 **Commerce** 选项卡中的**别名**、**UPN** 和 **外部子标识**字段。
 
+> [!NOTE]
+> 更新工作记录后，例如，如果关联了新的 Azure AD 帐户，更改了密码或更新了员工通讯簿，建议您运行 **1060**（**人员**）分配计划将最新的人员信息同步到渠道。 这样，POS 应用程序可以获取正确的数据以进行用户身份验证和授权检查。
+
 ## <a name="additional-resources"></a>其他资源
 
-[为 MPOS 和 Cloud MPOS 设置扩展登录功能](extended-logon.md)
+[为 MPOS 和 Cloud POS 设置扩展登录功能](extended-logon.md)
 
 [创建零售功能配置文件](retail-functionality-profile.md)
 

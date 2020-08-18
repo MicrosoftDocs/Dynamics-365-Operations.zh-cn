@@ -3,7 +3,7 @@ title: 配置 Common Data Service 集成
 description: 您可以打开或关闭 Common Data Service 和 Dynamics 365 Human Resources 之间的集成。 您还可以查看同步详细信息、清除跟踪数据以及重新同步实体，以帮助解决两个环境之间的数据问题。
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7aad8217d48917d6855046a6810fe994f5564d94
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 8cbead2961c4576a5394080aae2fec109bce3f10
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431306"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621296"
 ---
 # <a name="configure-common-data-service-integration"></a>配置 Common Data Service 集成
 
@@ -66,6 +66,9 @@ ms.locfileid: "3431306"
 - 要关闭集成，请将此选项设置为**否**。
 
 [![打开或关闭 Common Data Service 集成](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
+
+> [!WARNING]
+> 强烈建议在执行数据迁移任务时关闭 Common Data Service 集成。 上载大量数据会严重影响性能。 例如，启用集成后，上载 2000 个工作人员可能要花费几个小时，禁用后则不到一小时。 本示例中提供的数字仅用于演示目的。 导入记录所需的确切时间由于很多因素可能出现很大差异。
 
 ## <a name="view-data-integration-details"></a>查看数据集成详细信息
 
