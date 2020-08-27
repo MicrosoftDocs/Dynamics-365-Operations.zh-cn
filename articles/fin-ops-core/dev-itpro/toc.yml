@@ -150,12 +150,14 @@
                                   href: data-entities/dual-write/link-your-environment.md
                                 - name: 启用双写入实体映射
                                   href: data-entities/dual-write/enable-entity-map.md
-                            - name: 货币数据类型迁移以实现双重写入
+                            - name: 双写入货币数据类型迁移
                               href: data-entities/dual-write/currrency-decimal-places.md
                         - name: 管理双写入
                           items:
                             - name: 自定义实体和字段映射
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: 处理多个实体映射
+                              href: data-entities/dual-write/multiple-entity-maps.md
                             - name: 设置双写入后编辑法人
                               href: data-entities/dual-write/edit-legal-entity.md
                             - name: 错误管理和预警通知
