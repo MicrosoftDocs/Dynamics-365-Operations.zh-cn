@@ -1156,7 +1156,7 @@
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: 财务报告
           items:
-            - name: 财务报告概览
+            - name: 开始使用财务报告
               href: general-ledger/financial-reporting-getting-started.md
             - name: 财务报告概览
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
@@ -2600,6 +2600,12 @@
                       href: localizations/rus-counting-deferrals.md
                     - name: 延期报告
                       href: localizations/rus-reporting-deferrals.md
+                - name: 税务会计
+                  items:
+                    - name: 费用和收入代码
+                      href: localizations/rus-expense-and-income-codes.md
+                    - name: 资产税务登记册
+                      href: localizations/rus-assets-tax-registers.md
             - name: 沙特阿拉伯
               items:
                 - name: 沙特阿拉伯概览
@@ -3114,7 +3120,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/finance/toc.json
                         - name: Enumerate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/finance/toc.json
-                        - name: 筛选器
+                        - name: Filter
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/finance/toc.json
                         - name: First
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/finance/toc.json
@@ -3124,8 +3130,10 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/finance/toc.json
                         - name: IsEmpty
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/finance/toc.json
-                        - name: 列表
+                        - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
+                        - name: ListDistinct
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/finance/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/finance/toc.json
                         - name: ListOfFields
@@ -3412,8 +3420,10 @@
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
             - name: 快速入门指南
               items:
-                - name: 调整 ER 格式以生成自定义电子单据
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
+                - name: 调整电子报告格式以生成自定义电子单据
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
+                - name: 设计新的电子报告解决方案以打印自定义报告
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
             - name: 教程
               items:
                 - name: 了解如何使用数据源
