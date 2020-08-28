@@ -3,7 +3,7 @@ title: Modern POS (MPOS) 中的客户订单
 description: 此主题提供有 Modern POS (MPOS) 中的客户订单的信息。 客户订单也称为特殊订单。 此主题中包含对相关参数和交易记录流的讨论。
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b8ea8339c2ad25ceed2415eb5ccf5e2048c612fa
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
+ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021699"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699361"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Modern POS (MPOS) 中的客户订单
 
@@ -53,6 +53,8 @@ ms.locfileid: "3021699"
 
     - 费用在销售订单抬头级别实施，并且如果退回了某个产品行的一定数量，则不能按照适合所有客户的方式确定为这些产品和数量允许的最大装运费用退款。
     - 每次运货都会产生装运费用。 如果客户多次退货，而零售商的政策规定由零售商承担退货装运费用的成本，退货装运费用将超过实际装运费用。
+    
+- **税款计算行为** - **重新计算**是将订单导入后端办公系统后如何重新计算税款的默认和传统设置。 当触发重新计算时，**不重新计算**将禁用税款重新计算，直到或除非在后端办公系统中编辑了订单。 
 
 ## <a name="transaction-flow-for-customer-orders"></a>客户订单的交易记录流
 

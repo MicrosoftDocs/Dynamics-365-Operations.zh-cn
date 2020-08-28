@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: dd1df355d39065d6959915cc916987d3c58b15a6
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 93c9f2bebd038723d50e64bdaa0e0992c003f88d
+ms.sourcegitcommit: cec5de2dcfc7210a86a220e308f80ab204f12383
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570186"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665834"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>普通日记帐行的销售税计算
 [!include [banner](../includes/banner.md)]
@@ -64,23 +64,6 @@ ms.locfileid: "2570186"
 
 如果凭证中的日记帐行内科目类型为**供应商**，则该凭证中的所有日记帐行采用相同税金方向。 以下点显示供应商科目可能的税金方向。 
 
-•   如果销售税代码为免税，则税金方向为“免税采购”。
-
-•   如果销售税代码为集团内部增值税，则税金方向为“应收销售税”。
-
-•   如果销售税代码为冲销费用，则税金方向为“应收销售税”。
-
-
-否则，税金方向为“应付销售税”。
-
-下图以图形方式演示规则。
-
-![供应商科目的税金方向可能情况](media/Sales-Tax-Direction-Vendor.jpg)
-
-### <a name="account-type-is-customer"></a>科目类型为“客户”
-
-如果凭证中的日记帐行内科目类型为**客户**，则该凭证中的所有日记帐行采用相同税金方向。 以下点显示客户科目可能的税金方向。
-
 •   如果销售税代码为销项税，则税金方向为“销售税”。
 
 •   如果销售税代码为免税，则税金方向为“免税采购”。
@@ -90,6 +73,22 @@ ms.locfileid: "2570186"
 •   如果销售税代码为冲销费用，则税金方向为“应付销售税”。
 
 否则，税金方向为“应收销售税”。
+
+下图以图形方式演示规则。
+
+![供应商科目的税金方向可能情况](media/Sales-Tax-Direction-Vendor.jpg)
+
+### <a name="account-type-is-customer"></a>科目类型为“客户”
+
+如果凭证中的日记帐行内科目类型为**客户**，则该凭证中的所有日记帐行采用相同税金方向。 以下点显示客户科目可能的税金方向。
+
+•   如果销售税代码为免税，则税金方向为“免税采购”。
+
+•   如果销售税代码为集团内部增值税，则税金方向为“应收销售税”。
+
+•   如果销售税代码为冲销费用，则税金方向为“应收销售税”。
+
+否则，税金方向为“应付销售税”。
 
 下图以图形方式演示规则。
 

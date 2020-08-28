@@ -3,7 +3,7 @@ title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 07/20/2020
+ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 8b26ad668b6cc15d759e10952c042acd5e85bdea
+ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651658"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3678214"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
 
@@ -39,6 +39,16 @@ ms.locfileid: "3651658"
 
 > [!NOTE]
 > 版本 10.0.13 是预览版本。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅[服务更新可用性](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases)。
+
+### <a name="custom-code-defined-in-ssrs-report-properties"></a>SSRS 报表属性中定义的自定义代码 
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 通常，自定义代码优点有限，同时需要大量资源和计算来提供支持。 自定义代码主要由报表作者用来从自定义代码程序集调用公共方法。 但是，云托管服务不支持对 SSRS 报表的自定义程序集的引用。 |
+| **被另一个功能取代？**   | 报表作者可以选择继续从任何文本框表达式引用公共 .NET API 来进行数学、转换和格式操作。 有关详细信息，请参阅[向报表添加代码 (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15)。  |
+| **影响的产品区域**         | RDL 中定义的包含自定义代码的应用程序报表设计的子集。 |
+| **部署选项**              | 所有 |
+| **状态**                         | 在版本 10.0.13 中，编译器将开始针对在 SSRS 报表定义中检测到自定义代码的实例发出警告。 要解决此问题，打开报表设计定义，删除所有自定义代码项目。 在以后的更新中，此警告将替换为编译器错误。   |
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>升级三个 jQuery 组件库 
 

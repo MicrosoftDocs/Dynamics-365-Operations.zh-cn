@@ -3,7 +3,7 @@ title: 总帐和财务报表概览
 description: 使用总帐定义和管理法人的财务记录。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/31/2017
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4cad11bcd1b1674055a07b5093093e33d3ac556
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e68fee44fdc18cada99e3c7e2cba021036e869db
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771791"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696656"
 ---
-# <a name="general-ledger-and-financial-reporting-overview"></a>总帐和财务报表概览
+# <a name="general-ledger-home-page"></a>总账主页
 
 [!include [banner](../includes/banner.md)]
 
@@ -55,7 +55,10 @@ ms.locfileid: "2771791"
 
 #### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转到 [Microsoft Dynamics 365 发布计划](https://go.microsoft.com/fwlink/?linkid=2010158)，了解已经规划了哪些新功能。 
+转到 [Microsoft Dynamics 365 版本计划](https://go.microsoft.com/fwlink/?linkid=2010158)，了解已经规划了哪些新功能。 
+
+#### <a name="financial-reporting"></a>财务报告
+转到 [Financial reporting 概述](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)主题，了解有关财务报表的信息。
 
 #### <a name="blogs"></a>博客
 

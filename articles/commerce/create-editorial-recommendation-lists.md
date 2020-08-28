@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b866704b419fb07dcf1ddd386af2f7d6cfa02e2
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: 9826785700dcc1a35e6199b7aeff4e06b6d9da39
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404108"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665049"
 ---
 # <a name="manually-create-curated-recommendations"></a>手动创建策划的建议
 
@@ -64,7 +64,9 @@ ms.locfileid: "3404108"
 
 [选择退出个性化产品建议](personalization-gdpr.md)
 
-[在 POS 中添加产品建议](product.md)
+[启用“购买类似外观”建议](shop-similar-looks.md)
+
+[在 POS 上添加产品建议](product.md)
 
 [向交易记录屏幕添加建议](add-recommendations-control-pos-screen.md)
 

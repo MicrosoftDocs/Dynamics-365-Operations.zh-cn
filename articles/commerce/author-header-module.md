@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5f7ad7d9c5ff63c3c3a8fe38275eec0d138891d
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e7dde3ba1ad375b309ae66cc6d31ccad85615e45
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411190"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686614"
 ---
 # <a name="header-module"></a>标题模块
 
@@ -62,7 +62,7 @@ ms.locfileid: "3411190"
 
 若要创建页眉模块，请执行以下步骤。
 
-1. 转到**页面片段**，选择**新建**创建新片段。
+1. 转到**片段**，选择**新建**创建新片段。
 1. 在**新建页面片段**对话框中，选择**容器**模块，输入页面片段的名称，然后选择**确定**。
 1. 选择**默认容器**插槽，然后在右侧的属性窗格中将**宽度**属性设置为**填充容器**。
 1. 在**默认容器**插槽中，选择省略号 (**...**)，然后选择**添加模块**。

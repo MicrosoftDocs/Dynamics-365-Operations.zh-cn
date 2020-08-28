@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
-ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
+ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "3295072"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686782"
 ---
 # <a name="add-a-favicon"></a>添加收藏夹图标
 
@@ -62,7 +62,7 @@ ms.locfileid: "3295072"
 
 要创建一个包含收藏夹图标元标记的页面片段，请执行以下步骤。
 
-1. 转到**页面片段**，然后选择**新建**.
+1. 转到**片段**，然后选择**新建**.
 1. 在**新建页面片段**对话框中，选择**元标记**作为页面片段所基于的模块。
 1. 输入页面片段名称，然后选择**确定**。
 1. 在片段层次结构树中，选择**默认元标记**子项。

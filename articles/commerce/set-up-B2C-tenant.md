@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b017b0f91960be1504134f6d46878fce956de203
-ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
+ms.openlocfilehash: f31f8898358626f2b008826aa69694dc16742aa0
+ms.sourcegitcommit: 59a9e840989bc9f2c7004efa3499b69c09a91b06
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3497160"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677896"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>在 Commerce 中设置 B2C 租户
 
@@ -77,7 +77,7 @@ Dynamics 365 Commerce 使用 Azure AD B2C 为用户凭据和身份验证流提�
 
 若要创建 B2C 应用程序，请执行以下步骤。
 
-1. 在 Azure 门户中，选择**应用程序**，然后选择**添加**。
+1. 在 Azure 门户中，选择**应用程序(旧版)**，然后选择**添加**。
 1. 在**名称**下，输入所需 AAD B2C 应用程序的名称。
 1. 在 **Web 应用/Web API** 下，为**包含 Web 应用/Web API** 选择**是**。
 1. 为**允许隐式流**选择**是**（默认值）。

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Retail, Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3ad24c2f59b8d698f0ef34b83f333c75b79a8516
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 3bc82c3af2b99303a650f672f2b2ccd48c9889a9
+ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597304"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677426"
 ---
 # <a name="advanced-load-building-during-wave"></a>波次期间的高级负荷计划
 

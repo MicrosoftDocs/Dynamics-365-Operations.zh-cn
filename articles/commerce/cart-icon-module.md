@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6771a84118504cd5c8e44302380eb970e4658902
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 137debe3f4cad3948d20b2902ea80e66fa74ffd4
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411081"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661139"
 ---
 # <a name="cart-icon-module"></a>购物车图标模块
 
@@ -42,22 +42,22 @@ ms.locfileid: "3411081"
 
 - **显示迷你购物车** – 如果为 true，此属性用于启用将鼠标光标悬停在购物车图标上方时显示的购物车摘要（迷你购物车）。 只有桌面视图端口中才支持此功能。
 
-
 ## <a name="add-a-cart-icon-module-to-a-page"></a>向页面添加购物车图标模块
 
 若要添加购物车图标模块，请参阅[页眉模块](author-header-module.md)。
 
-
 ## <a name="additional-resources"></a>其他资源
-
-[购买框模块](add-buy-box.md)
 
 [购物车模块](add-cart-module.md)
 
-[结账模块](add-checkout-module.md)
+[结帐模块](add-checkout-module.md)
 
-[订单确认模块](order-confirmation-module.md)
+[付款模块](payment-module.md)
 
-[页眉模块](author-header-module.md)
+[装运地址模块](ship-address-module.md)
 
-[页脚模块](author-footer-module.md)
+[交货选项模块](delivery-options-module.md)
+
+[订单详细信息模块](order-confirmation-module.md)
+
+[礼品卡模块](add-giftcard.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 81c36685c1eccceb2f1854fe7c866186120c08a3
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 4f26ed5b6674566f579e801f4b7be63c2d0dc38d
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154078"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686806"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>将脚本代码添加到站点页面以支持遥测
 
@@ -45,7 +45,7 @@ ms.locfileid: "3154078"
 
 要在站点构建器中为内联脚本代码创建可重复使用的页面片段，请按照下列步骤操作。
 
-1. 转到**页面片段**，然后选择**新建**。
+1. 转到**片段**，然后选择**新建**.
 1. 在**新建页面片段**对话框中，选择**内联脚本**。
 1. 在**页面片段名称**下，输入片段的名称，然后选择**确定**。
 1. 在您创建的页面片段下，选择**默认内联脚本**模块。
@@ -57,7 +57,7 @@ ms.locfileid: "3154078"
 
 要在站点构建器中为外部脚本代码创建可重复使用的页面片段，请按照下列步骤操作。
 
-1. 转到**页面片段**，然后选择**新建**。
+1. 转到**片段**，然后选择**新建**.
 1. 在**新建页面片段**对话框中，选择**外部脚本**。
 1. 在**页面片段名称**下，输入片段的名称，然后选择**确定**。
 1. 在您创建的页面片段下，选择**默认外部脚本**模块。

@@ -5,7 +5,7 @@ author: rubendel
 manager: AnnBe
 ms.date: 05/20/2020
 ms.topic: article
-ms.prod: tonyafehr
+ms.prod: ''
 ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4035817fb534477eb4146ff712a92d6e29ce2db2
-ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
+ms.openlocfilehash: 41b0faa7ef24bdae229f7e6760d22357cb87eb0d
+ms.sourcegitcommit: 7b7cc93c0f78c6bfc7a3ea66a74a29ba0f218553
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3416598"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "3658350"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>打印机和银箱的专用的付款终端和提示
 

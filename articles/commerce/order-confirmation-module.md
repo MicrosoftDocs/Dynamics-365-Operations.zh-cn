@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2ec629d9fd027be01652351ab1c99001e063e30
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 5876b953a3b3d960c106acf37731fde13b93f8e7
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464922"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661164"
 ---
 # <a name="order-details-module"></a>订单详细信息模块
-
 
 [!include [banner](includes/banner.md)]
 
@@ -72,16 +71,16 @@ ms.locfileid: "3464922"
 
 ## <a name="additional-resources"></a>其他资源
 
-[入门套件概览](starter-kit-overview.md)
-
-[容器模块](add-container-module.md)
-
-[购买框模块](add-buy-box.md)
-
 [购物车模块](add-cart-module.md)
+
+[购物车图标模块](cart-icon-module.md)
 
 [结帐模块](add-checkout-module.md)
 
-[页眉模块](author-header-module.md)
+[付款模块](payment-module.md)
 
-[页脚模块](author-footer-module.md)
+[装运地址模块](ship-address-module.md)
+
+[交货选项模块](delivery-options-module.md)
+
+[礼品卡模块](add-giftcard.md)

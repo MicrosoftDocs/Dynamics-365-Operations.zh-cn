@@ -1,7 +1,7 @@
 ---
 title: 配置工作流中的审核流程
 description: 使用以下过程配置审核流程的属性。
-author: sericks007
+author: ChrisGarty
 manager: AnnBe
 ms.date: 01/24/2020
 ms.topic: article
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 195643
 ms.assetid: f853f57b-83ae-4fb0-a9fa-06ea3fc34fa1
 ms.search.region: Global
-ms.author: donaldc
+ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f58e227542b1e5ca1235748d14e71bddac826ee
-ms.sourcegitcommit: 759325234a763e14071348a6f5399999a92f8264
+ms.openlocfilehash: 927a41f39e9ba9c05a7af0b962972168afa7a1ea
+ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "2983756"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "3698283"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>配置工作流中的审核流程
 

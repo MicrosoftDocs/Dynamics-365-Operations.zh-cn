@@ -1,7 +1,7 @@
 ---
 title: 工作流审核流程中的操作
 description: 本文说明每个工作流审核流程的参与者可以采取的操作。
-author: sericks007
+author: ChrisGarty
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 56411
 ms.assetid: 65fb711c-6474-42d1-81ed-ca657c29bf1f
 ms.search.region: Global
-ms.author: tjvass
+ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6516e8b1e4be83f3450f03c769bca6d158ffb79b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0796574c19fa417a8f63187b5d952b853d90e93f
+ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176682"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "3697985"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>工作流审核流程中的操作
 
