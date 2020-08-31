@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87ffc0204019f2f7122c40dc21bdb5de012929d6
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411187"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686710"
 ---
 # <a name="footer-module"></a>页脚模块  
 
@@ -50,7 +50,7 @@ ms.locfileid: "3411187"
 
 ## <a name="create-a-footer-module"></a>创建页脚模块
 
-1. 转到**页面片段**，选择**新建**创建新片段。
+1. 转到**片段**，选择**新建**创建新片段。
 1. 在**新建页面片段**对话框中，选择**容器**模块，输入页面片段的名称，然后选择**确定**。
 1. 在**默认容器**插槽中，选择省略号 (**...**)，然后选择**添加模块**。
 1. 在**添加模块**对话框中，选择**页脚类别**模块，然后选择**确定**。

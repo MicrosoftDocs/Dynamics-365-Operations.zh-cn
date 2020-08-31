@@ -1,9 +1,9 @@
 ---
 title: 财务报告概览
-description: 本主题介绍从哪里访问 Microsoft Dynamics 365 Finance 中的财务申报，以及如何使用财务申报功能。 其中包括提供的默认财务报表的描述。
+description: 本主题介绍从哪里访问 Microsoft Dynamics 365 Finance 中的财务申报，以及如何使用财务申报功能。
 author: aprilolson
 manager: AnnBe
-ms.date: 07/23/2020
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
-ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
+ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618030"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696680"
 ---
-# <a name="financial-reporting-overview"></a>财务报告概览
+# <a name="get-started-with-financial-reporting"></a>开始使用 Financial reporting 
 
 [!include [banner](../includes/banner.md)]
 
@@ -88,7 +88,7 @@ ms.locfileid: "3618030"
 生成报表的用户可以删除他们自己的报表。 具有**维护财务报表安全**责任的用户可以删除其他人的报表。 
 
 在版本 10.0.8 中，引入了到期日期的概念。 一项新的必需功能在功能管理工作区的**所有**页面中启用。 **财务报表保留策略**功能包含以下更改：
-* 新生成的报表将从生成之日起自动被标记为具有 90 天的有效期
+* 新生成的报表将从生成之日起自动被标记为具有 90 天的有效期。
 * 安装该功能之前的所有现有报表将提供 90 天的有效期。 该日期可能会在短时间内显示为空白，直到 Financial Reporting 服务运行、生成报表，并且该服务执行对具有空白到期日期的现有报表的更新。 
 * 具有**维护财务报表安全**的用户有权使用此功能。 具有**维护财务报表**责任并被授予了**维持财务报表到期**特权的任何用户还可以修改有效期。 目前有两个保留选项可用： 
   * 90 天有效期。
@@ -134,6 +134,12 @@ ms.locfileid: "3618030"
 ## <a name="creating-and-modifying-financial-reports"></a>创建和修改财务报表
 从财务报表列表中，您可以创建一个新的报表或修改现有的报表。 如果您具有相应的权限，则可以通过选择“操作窗格”上的**新建**以创建新财务报表 。 报表设计器程序将下载到您的设备。 报表设计器启动之后，您就可以创建新报表。 在您保存新的报表后，它显示在财务报表列表中。 此列表仅显示为您在 Dynamics 365 Finance 中使用的公司创建的报表。 
 
+## <a name="reporting-tree-definitions"></a>报告树定义 
+用于生成财务报表的组件之一是报告树定义。 报告结构树定义帮助定义您组织的结构和层次结构。 这是基于财务数据中的维度关系的跨维层次结构。 它在报告单位级别和摘要级别为结构树中的所有单位提供信息。
+
+您可以创建数量不限的报告结构树来以各种方式显示组织的数据。 每个报告树可以包含部门和汇总单位的任意组合，但是报表定义一次只能链接到一个报告树。 
+
+
 ## <a name="troubleshooting-issues-opening-report-designer"></a>解决打开报表设计器存在的问题
 打开报表设计器时，有一些常见问题可能会导致出现故障。 这些问题及其解决步骤如下。
 
@@ -162,3 +168,4 @@ ms.locfileid: "3618030"
 
 ## <a name="additional-resources"></a>其他资源
 - [查看财务报表](view-financial-reports.md)
+- [财务报表中的报告结构树定义](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)

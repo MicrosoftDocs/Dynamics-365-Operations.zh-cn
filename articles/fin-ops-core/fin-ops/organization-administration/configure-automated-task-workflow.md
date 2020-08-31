@@ -1,7 +1,7 @@
 ---
 title: 配置工作流中的自动化任务
 description: 本主题说明如何配置自动化任务的属性。
-author: sericks007
+author: ChrisGarty
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 192061
 ms.assetid: c0aceb57-b5e6-4ef3-91e7-89a21c9f048a
 ms.search.region: Global
-ms.author: donaldc
+ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c02b4ff61b5b1f1e69d7fc0d537fe5ce535a430
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2ca46e6c69b8e823be15f3e039408017e6463406
+ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190227"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "3698259"
 ---
 # <a name="configure-automated-tasks-in-a-workflow"></a>配置工作流中的自动化任务
 

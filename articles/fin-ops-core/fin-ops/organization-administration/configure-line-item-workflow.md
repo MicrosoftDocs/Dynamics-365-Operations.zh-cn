@@ -1,7 +1,7 @@
 ---
 title: 配置行项工作流
 description: 本主题说明如何配置行项工作流元素。
-author: sericks007
+author: ChrisGarty
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 195833
 ms.assetid: 3237347e-71d5-4569-bc9a-0d0fc9410b78
 ms.search.region: Global
-ms.author: donaldc
+ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b85370a4c38bbe5511d501b1ab5afcfd8fd0838
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f35676799a625656b6885cbc33d30870cee85e12
+ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190181"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "3698187"
 ---
 # <a name="configure-line-item-workflows"></a>配置行项工作流
 

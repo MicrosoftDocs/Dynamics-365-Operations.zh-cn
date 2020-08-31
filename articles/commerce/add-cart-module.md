@@ -3,7 +3,7 @@ title: 购物车模块
 description: 此主题介绍购物车模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f21268ed4cffed1d5c789f722796cdf05e965819
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 07d485012bfc93c957b3dc42e3b0ed62e761dee1
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621028"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686758"
 ---
 # <a name="cart-module"></a>购物车模块
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 此主题介绍购物车模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
@@ -42,9 +43,17 @@ ms.locfileid: "3621028"
 
 ![购物车模块的示例](./media/cart2.PNG)
 
+下图显示了 Fabrikam 站点上购物车页面的示例。 在此示例中，行项有手续费。
+
+![购物车模块的示例](./media/ecommerce-handling-fee.png)
+
 ## <a name="cart-module-properties-and-slots"></a>购物车模块属性和插槽
 
-购物车模块有一个**标题**属性，此属性可以设置为**购物袋**和**购物车中的商品**之类的值。 
+| 属性 | 值 | 说明 |
+|----------------|--------|-------------|
+| 标题 | 标题文本和标题标记（**H1**、**H2**、**H3**、**H4**、**H5** 或 **H6**） | 购物车的标题，如“购物袋”或“购物车内的商品”。 |
+| 显示库存不足错误 | **True** 或 **False** | 如果此属性设置为 **True**，购物车页面将显示与库存相关的错误。 如果在站点上应用了库存检查，我们建议您将此属性设置为 **True**。 |
+| 显示行项的装运费用 | **True** 或 **False** | 如果将此属性设置为 **True**，购物车行项将显示装运费用（如果有此信息）。 Fabrikam 主题不支持此功能，因为用户仅在结帐流中选择装运。 不过，如果适用，可以在其他工作流中打开此功能。 |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>购物车模块中可使用的模块
 
@@ -67,7 +76,7 @@ ms.locfileid: "3621028"
 
 若要向新页面添加购物车模块和设置必需的属性，请执行以下步骤。
 
-1. 转到**页面片段**，选择**新建**创建新片段。
+1. 转到**片段**，选择**新建**创建新片段。
 1. 在**新建页面片段**对话框中，选择**购物车**模块。
 1. 在**页面片段名称**下，输入名称**购物车片段**，然后选择**确定**。
 1. 选择**购物车**插槽。
@@ -77,7 +86,7 @@ ms.locfileid: "3621028"
 1. 选择**保存**，选择**完成编辑**签入片段，然后选择**发布**进行发布。
 1. 转到**模板**，选择**新建**创建新模板。
 1. 在**新建模板**对话框的**模板名称**下，为模板输入名称。
-1. 在大纲树中，选择**正文**插槽，选择省略号 (**...**)，然后选择**添加片段**。
+1. 在大纲树中，选择**正文**插槽，选择省略号 (**...**)，然后选择**添加页面片段**。
 1. 在**选择页面片段**对话框中，选择**购物车片段**片段，然后选择**确定**。
 1. 选择**保存**，选择**完成编辑**签入模板，然后选择**发布**进行发布。
 1. 转到**页面**，选择**新建**创建新页面。
@@ -87,22 +96,18 @@ ms.locfileid: "3621028"
 
 ## <a name="additional-resources"></a>其他资源
 
-[入门套件概览](starter-kit-overview.md)
-
-[容器模块](add-container-module.md)
-
-[商店选择器模块](store-selector.md)
-
-[购买框模块](add-buy-box.md)
-
 [购物车图标模块](cart-icon-module.md)
 
-[结账模块](add-checkout-module.md)
+[结帐模块](add-checkout-module.md)
 
-[订单确认模块](order-confirmation-module.md)
+[付款模块](payment-module.md)
 
-[标题模块](author-header-module.md)
+[装运地址模块](ship-address-module.md)
 
-[页脚模块](author-footer-module.md)
+[交货选项模块](delivery-options-module.md)
+
+[订单详细信息模块](order-confirmation-module.md)
+
+[礼品卡模块](add-giftcard.md)
 
 [计算零售渠道的库存现有量](calculated-inventory-retail-channels.md)

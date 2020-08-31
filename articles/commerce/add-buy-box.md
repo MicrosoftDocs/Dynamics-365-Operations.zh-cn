@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: 3fe5c1eb5808ef778aeda29442fa884556671296
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645331"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686662"
 ---
 # <a name="buy-box-module"></a>购买框模块
 
@@ -61,7 +61,7 @@ ms.locfileid: "3645331"
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>购买框模块中可使用的模块
 
-- **媒体库** – 此模块用于展示产品详细信息页上的产品图像。 有关此模块的详细信息，请参阅[媒体库模块](mediagallery-module.md)。
+- **媒体库** – 此模块用于展示产品详细信息页上的产品图像。 有关此模块的详细信息，请参阅[媒体库模块](media-gallery-module.md)。
 - **商店选择器** – 此模块显示附近可提货的商店的列表。 它使用户可以输入位置来查找附近的商店。 有关此模块的详细信息，请参阅[商店选择器模块](store-selector.md)。
 
 ## <a name="buy-box-module-settings"></a>购买框模块设置
@@ -84,7 +84,7 @@ ms.locfileid: "3645331"
 
 若要向新页面添加购买框模块和设置必需的属性，请执行以下步骤。
 
-1. 转到**页面片段**，选择**新建**创建新片段。
+1. 转到**片段**，选择**新建**创建新片段。
 1. 在**新建页面片段**对话框中，选择**购买框**模块。
 1. 在**页面片段名称**下，输入名称**购买框片段**，然后选择**确定**。
 1. 在购买框模块的**媒体库**插槽中，选择省略号 (**...**)，然后选择**添加模块**。

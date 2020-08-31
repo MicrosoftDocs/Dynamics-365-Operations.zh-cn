@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59a2d9712a73c607cf5521f8e79e8e2558854fc4
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 2ee361c2e99b79e503e8d94c12602f9427f1ed5c
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3274203"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686687"
 ---
 # <a name="add-a-privacy-policy-page"></a>添加隐私政策页面
 
@@ -88,7 +88,7 @@ ms.locfileid: "3274203"
 
 若要向页脚片段添加链接，请执行以下步骤。
 
-1. 转到**页面片段**，然后选择**新建**创建页面片段。
+1. 转到**片段**，然后选择**新建**创建页面片段。
 1. 在**新建页面片段**对话框中，选择**页脚**模块。
 1. 在**页面片段名称**下，输入片段的名称，然后选择**确定**。
 1. 在**页脚类别**插槽中，添加一个**页脚项**模块。

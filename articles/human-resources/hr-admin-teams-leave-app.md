@@ -3,7 +3,7 @@ title: Teams 中的 Human Resources 应用
 description: 此主题介绍 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用。
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/18/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 4822cc6560926df878a8b4e9f821b331ede27a8c
+ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431122"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3666352"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams 中的 Human Resources 应用
 
@@ -43,12 +43,12 @@ ms.locfileid: "3431122"
 
 ## <a name="known-issues"></a>已知问题
 
-| 发货 | 状态 |
+| 签发 | 状态 |
 | --- | --- |
+| 水平滚动不适用于 Android 手机 | 水平滚动在 iOS 或台式机设备上不是问题。 我们正在解决 Android 上的问题。 |
 | 错误：查找要连接的环境时出现问题。 | 即使您已确认用户可以访问一个或多个 Human Resources 环境，也可能会收到此错误。 此外，您可能看不到您预期的所有环境。 在我们修复此问题之前，请删除用户，然后再次将其导入以解决此问题。 |
 | 提交将来日期的请假时，余额不正确。 | 预测尚不可用。 显示当前日期的余额。 |
 | 减少现有请求所用小时数时，**余额**变小而不是变大。 | 我们将在以后解决这个已知问题。 显示不正确，但是提交后会调整正确金额。 |
-| 为相同日期显示两个**近期请假**卡。 | 这些卡显示各项提交。 我们将继续征集反馈并进行调整。 |
 | 不能取消**审查中**请求。 | 现在不支持此功能，将来的版本中将增加此功能。 |
 | 将计算截止当天的余额信息。 | 系统现在不显示截止实际期间的余额，即使已在“休假和缺勤”参数中配置。 |
 

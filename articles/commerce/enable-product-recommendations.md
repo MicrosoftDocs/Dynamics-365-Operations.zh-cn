@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 694e5a451b8e25f3729364dfaed0adc7d242f2fe
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: d2dacd4a94f706be5aa65947c0b6a92e281733ca
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404201"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665018"
 ---
 # <a name="enable-product-recommendations"></a>启用产品建议
 
@@ -95,6 +95,8 @@ ms.locfileid: "3404201"
 [在 Dynamics 365 Commerce 环境中启用 Azure Data Lake Storage](enable-adls-environment.md)
 
 [启用个性化建议](personalized-recommendations.md)
+
+[启用“购买类似外观”建议](shop-similar-looks.md)
 
 [选择退出个性化产品建议](personalization-gdpr.md)
 

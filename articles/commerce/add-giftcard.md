@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a8428963e105e422dcd048863c17df0926a409ac
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 41f808d671bf5e7425390484ea30470e044899d8
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411104"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661234"
 ---
 # <a name="gift-card-module"></a>礼品卡模块
 
@@ -63,8 +63,18 @@ ms.locfileid: "3411104"
 
 ## <a name="additional-resources"></a>其他资源
 
-[入门套件概览](starter-kit-overview.md)
+[购物车模块](add-cart-module.md)
 
-[结账模块](add-checkout-module.md)
+[购物车图标模块](cart-icon-module.md)
+
+[结帐模块](add-checkout-module.md)
+
+[付款模块](payment-module.md)
+
+[装运地址模块](ship-address-module.md)
+
+[交货选项模块](delivery-options-module.md)
+
+[订单详细信息模块](order-confirmation-module.md)
 
 [对外部礼品卡的支持](./dev-itpro/gift-card.md)

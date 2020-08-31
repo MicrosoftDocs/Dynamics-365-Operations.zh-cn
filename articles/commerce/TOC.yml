@@ -408,12 +408,6 @@
                           href: set-up-manage-images-retail-mpos.md
                         - name: POS 中的客户端图像
                           href: pos-image.md
-                    - name: 客户订单
-                      items:
-                        - name: MPOS 中的客户订单
-                          href: customer-orders-overview.md
-                        - name: 混合客户订单
-                          href: hybrid-customer-orders.md
                     - name: 销售关联
                       items:
                         - name: 使用销售组跟踪 POS 中的佣金
@@ -628,8 +622,10 @@
                   items:
                     - name: 启用个性化建议
                       href: personalized-recommendations.md
-                    - name: 选择退出个性化产品建议
+                    - name: 选择退出个性化建议
                       href: personalization-gdpr.md
+                - name: 启用“购买相似外观产品”建议
+                  href: shop-similar-looks.md
                 - name: POS 体验
                   items:
                     - name: 在 POS 上添加产品建议
@@ -692,6 +688,12 @@
                       href: tasks/create-product-packages-purchase-orders.md
         - name: 管理您的订单
           items:
+            - name: 客户订单
+              items:
+                - name: MPOS 中的客户订单
+                  href: customer-orders-overview.md
+                - name: 混合客户订单
+                  href: hybrid-customer-orders.md
             - name: 销售订单
               items:
                 - name: 创建呼叫中心订单
@@ -988,6 +990,12 @@
                       href: cart-icon-module.md
                     - name: 结帐模块
                       href: add-checkout-module.md
+                    - name: 付款模块
+                      href: payment-module.md
+                    - name: 收货地址模块
+                      href: ship-address-module.md
+                    - name: 交付选项模块
+                      href: delivery-options-module.md
                     - name: 订单详细信息模块
                       href: order-confirmation-module.md
                     - name: 礼品卡模块
@@ -1974,6 +1982,8 @@
                       href: e-commerce-extensibility/extend-module-definition.md
                     - name: Cookie API 概览
                       href: e-commerce-extensibility/cookie-api-overview.md
+                    - name: 交互式组件概述
+                      href: e-commerce-extensibility/interactive-components.md
                     - name: 通过使用 CultureInfoFormatter 类全球化模块
                       href: e-commerce-extensibility/globalize-modules.md
                 - name: 开发数据操作
@@ -2026,6 +2036,10 @@
                   items:
                     - name: 脚本注入
                       href: e-commerce-extensibility/script-injector.md
+                - name: 连接器
+                  items:
+                    - name: 配置并启用连接器
+                      href: e-commerce-extensibility/connectors.md
                 - name: 遥测和分析
                   items:
                     - name: 遥测记录器
@@ -2042,6 +2056,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Retail SDK 中即将进行的更改
                   href: dev-itpro/UpcomingSDKChanges.md
+                - name: 重要开发和从 10.0.10 版本到 10.0.13 版本的 ALM 版本变更
+                  href: dev-itpro/dev-changes-10-13.md
                 - name: 合并 Commerce 和 Finance and Operations 的生成系统
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: 将 Retail SDK 从 Visual Studio 2015 迁移至 Visual Studio 2017
@@ -2118,15 +2134,11 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: Retail Server 可扩展性
               items:
-                - name: 扩展 Commerce Scale Unit OData 控制器
-                  href: dev-itpro/extend-retail-server-odata-controller.md
                 - name: Commerce Scale Unit 客户和消费者 API
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: 扩展默认的 Commerce Scale Unit 元数据控制器
-                  href: dev-itpro/extend-metadata.md
-                - name: 调用脱机模式下的 CRT 服务
-                  href: dev-itpro/call-crt-service-offline.md
-                - name: 创建新的 Retail Server 扩展
+                - name: 创建新的 Retail Server 扩展 API（Retail SDK 版本 10.0.11 及更高版本）
+                  href: dev-itpro/retail-server-icontroller-extension.md
+                - name: 创建新的 Retail Server 扩展 API（Retail SDK 版本 10.0.11 及早期版本）
                   href: dev-itpro/retail-server-extension.md
                 - name: Retail Typescript 和 C# 代理
                   href: dev-itpro/typescript-proxy-retail-pos.md
@@ -2138,16 +2150,12 @@
                   href: dev-itpro/crt-services.md
                 - name: CRT 和 Retail Server 可扩展性
                   href: dev-itpro/commerce-runtime-extensibility.md
-                - name: 将客户首选项数据添加到渠道数据库
-                  href: dev-itpro/add-customer-preference-channel.md
                 - name: 管理零售渠道机密
                   href: dev-itpro/manage-secrets.md
                 - name: CRT 可扩展性和触发器
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: 使用触发器锁定交易记录
                   href: dev-itpro/trigger-example-blocking-transaction.md
-                - name: 使用触发器实施退货政策
-                  href: dev-itpro/trigger-example-return-policy.md
                 - name: 会员扩展
                   href: dev-itpro/retail-sdk/loyalty-extension-sample.md
                 - name: 装箱单的扩展点

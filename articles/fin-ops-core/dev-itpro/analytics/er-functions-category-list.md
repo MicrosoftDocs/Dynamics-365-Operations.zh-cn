@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: 6e51d9a1d68c48391a223fe48f396c63c206580e
+ms.sourcegitcommit: 41e165482b9bff4175c0e3b224dbeead13461956
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201035"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3687950"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>列表类别的 ER 函数列表
 
@@ -46,6 +46,7 @@ ms.locfileid: "3201035"
 | [索引](er-functions-list-index.md)                       | 此函数返回使用指定列表中的指定数字索引选择的*容器（记录）* 值。 如果索引超出指定列表中记录的范围，此函数将引发异常。 |
 | [IsEmpty](er-functions-list-isempty.md)                   | 此函数返回一个*布尔*值 **TRUE**（如果指定列表未包含记录）。 否则，返回*布尔*值 **FALSE**。 |
 | [列表](er-functions-list-list.md)                         | 此函数返回一个*记录列表*值，此值由根据指定参数创建的新列表组成。|
+| [ListDistinct](er-functions-list-listdistinct.md)         | 此函数将指定表达式计算为指定列表的每个记录的选择器。 将返回新的*记录列表*值，其中包含每个唯一选择器值的单个记录。|
 | [ListJoin](er-functions-list-listjoin.md)                 | 此函数返回一个*记录列表*值，此值表示根据指定参数创建的新连接列表。|
 | [ListOfFields](er-functions-list-listoffields.md)         | 此函数返回一个*记录列表*值，此值基于指定的*枚举*或*容器（记录）* 类型的参数的结构创建。 |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | 此函数返回一个*记录列表*值，此值仅包含指定列表的第一条记录。|

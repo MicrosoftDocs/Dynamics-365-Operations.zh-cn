@@ -2749,8 +2749,10 @@
                       href: warehousing/warehouse-configuration.md
                     - name: 使用仓库配置模板设置仓库
                       href: inventory/warehouse-template.md
-                    - name: 使用工作模板和位置指令控制工作
+                    - name: 使用工作模板和库位指令控制工作
                       href: warehousing/control-warehouse-location-directives.md
+                    - name: 创建库位指令
+                      href: warehousing/create-location-directive.md
                     - name: 波次步骤代码
                       href: warehousing/wave-step-codes.md
                     - name: 配置波次处理
@@ -2821,6 +2823,8 @@
               href: ../fin-ops-core/dev-itpro/user-interface/gantt-development-guide.md?toc=/dynamics365/supply-chain/toc.json
             - name: 创建新的运输管理引擎
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
+            - name: 扩展现有库存数据实体
+              href: inventory/extend-on-hand-entities.md
     - name: Finance and Operations 应用开发和管理
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

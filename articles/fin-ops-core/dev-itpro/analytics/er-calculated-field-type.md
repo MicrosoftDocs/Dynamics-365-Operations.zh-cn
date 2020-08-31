@@ -3,7 +3,7 @@ title: 支持对计算字段类型的 ER 数据源执行参数化调用
 description: 此主题提供有关如何对 ER 数据源使用计算字段类型的信息。
 author: NickSelin
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
+ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771321"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665602"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>支持对计算字段类型的 ER 数据源执行参数化调用
 
@@ -45,14 +45,14 @@ ms.locfileid: "2771321"
     - 电子申报功能顾问
     - 系统管理员
 
-从 [Microsoft 下载中心](https://go.microsoft.com/fwlink/?linkid=874684)下载压缩文件**支持对计算字段类型的 ER 数据源执行参数化调用**。 其中包含必须提取并存储到本地的以下 ER 配置。
+还必须下载并在本地存储以下文件。
 
 | **内容**                           | **文件名**                                        |
 |---------------------------------------|------------------------------------------------------|
-| 示例 ER 数据模型配置    | 用于了解参数化调用的模型.版本.1.xml     |
-| 示例 ER 元数据配置      | 用于了解参数化调用的元数据.版本.1.xml  |
-| 示例 ER 模型映射配置 | 用于了解参数化调用的映射.版本.1.1.xml |
-| 示例 ER 格式配置        | 用于了解参数化调用的格式.版本.1.1.xml  |
+| 示例 ER 数据模型配置    | [用于了解参数化调用的模型.版本.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
+| 示例 ER 元数据配置      | [用于了解参数化调用的元数据.版本.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| 示例 ER 模型映射配置 | [用于了解参数化调用的映射.版本.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
+| 示例 ER 格式配置        | [用于了解参数化调用的格式.版本.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>登录您的 RCS 实例
 在此示例中，将为示例公司 Litware 公司创建一个配置。首先必须在 RCS 中完成[创建配置提供程序并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)过程中的步骤：
