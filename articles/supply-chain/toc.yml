@@ -54,7 +54,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 本地部署的系统要求
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 购买 Finance + Operations (on-premises)
+                - name: 购买 Finance + Operations（本地版）
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置用于本地部署的仓库
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 创建并使用自定义字段
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 嵌入 PowerApps 应用
+                - name: 嵌入 Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 使用查询来查找信息
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -633,13 +633,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/supply-chain/toc.json
             - name: 信息访问和报告
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/supply-chain/toc.json
-            - name: PowerBI.com 的个性化选项
+            - name: Power BI 的个性化选项
               items:
-                - name: PowerBI.com 集成提供的功能
+                - name: Power BI 集成提供的功能
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 固定 PowerBI.com 内容
+                - name: 固定 Power BI 内容
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 从 PowerBI.com 中选择分析工作区
+                - name: 从 Power BI 中选择分析工作区
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: Power BI 内容
               items:
@@ -709,7 +709,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 向聚合度量添加财务维度
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 使用 Power BI Desktop 创建分析报告
+                - name: 使用 PowerBI Desktop 创建分析报告
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 使用 Power BI Embedded 将分析添加到工作区
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1827,10 +1827,6 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: 排除主计划中的产品
                       href: pim/tasks/exclude-products-master-planning.md
-                - name: 两用商品
-                  href: pim/dual-use.md
-                - name: 原产国家/地区
-                  href: pim/country-of-origin.md
                 - name: 为产品创建条码
                   href: pim/tasks/create-bar-code-product.md
                 - name: 输入产品的 GTIN 代码
@@ -1839,6 +1835,20 @@
                   href: pim/tasks/create-batch-attributes-product.md
                 - name: 向产品添加图像
                   href: pim/tasks/add-image-product.md
+                - name: 原产国家/地区
+                  href: pim/country-of-origin.md
+                - name: 两用商品
+                  href: pim/dual-use.md
+                - name: 危险物料
+                  items:
+                    - name: 危险物料概览
+                      href: pim/hazmat-overview.md
+                    - name: 设置危险物料
+                      href: pim/hazmat-setup.md
+                    - name: 产品、订单、装运和负荷中的危险物料
+                      href: pim/hazmat-items.md
+                    - name: 危险物料查询和报告
+                      href: pim/hazmat-reports.md
                 - name: 产品信息翻译常见问题
                   href: pim/translations-product-related-information.md
                 - name: 在订单输入期间搜索产品
