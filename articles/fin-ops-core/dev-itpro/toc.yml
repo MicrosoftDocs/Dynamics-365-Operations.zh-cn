@@ -130,6 +130,8 @@
                       items:
                         - name: 双写入主页
                           href: data-entities/dual-write/dual-write-home-page.md
+                        - name: 双写入中新增或更改的功能
+                          href: data-entities/dual-write/whats-new-dual-write.md
                         - name: 双写入概览
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: 双写入设置
@@ -1472,6 +1474,8 @@
                   href: sysadmin/extensible-data-security-policies.md
                 - name: 创建安全策略
                   href: sysadmin/create-simple-security-policy.md
+            - name: 保持符合用户许可要求
+              href: sysadmin/stay-compliant-user-license-requirement.md
             - name: 流程自动化
               href: sysadmin/process-automation.md
             - name: 批处理
