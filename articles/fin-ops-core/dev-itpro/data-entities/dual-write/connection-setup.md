@@ -3,7 +3,7 @@ title: 支持双写入的方案
 description: 此主题介绍支持双写入的方案。
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: d7ff514768ee8e4797b591da89e190a855385885
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 275d24d8f32fd1d2d15356d14c5c6591e8503c65
+ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172846"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3706244"
 ---
 # <a name="supported-scenarios-for-dual-write-setup"></a>支持双写入的方案
 
@@ -34,8 +34,11 @@ ms.locfileid: "3172846"
 
 可以在 Finance and Operations 环境与 Common Data Service 环境之间建立双写入连接。
 
-+ **Finance and Operations 环境** 为 **Finance and Operations 应用**（如 Microsoft Dynamics 365 Finance、Dynamics 365 Supply Chain Management、Dynamics 365 Retail 和 Dynamics 365 Human Resources）提供基础平台。
++ **Finance and Operations 环境**为 **Finance and Operations 应用**（例如，Microsoft Dynamics 365 Finance、Dynamics 365 Supply Chain Management 和 Dynamics 365 Retail）提供基础平台。
 + **Common Data Service 环境**为 **Dynamics 365 中的模型驱动应用**（Dynamics 365 Sales、Dynamics 365 Customer Service、Dynamics 365 Field Service、Dynamics 365 Marketing 和 Dynamics 365 Project Service Automation）提供基础平台。
+
+>[!IMPORTANT]
+>Finance and Operations 中的 Human Resources 支持双写入连接，但 Dynamics 365 Human Resources 应用不支持。
 
 设置机制取决于订阅和环境。
 

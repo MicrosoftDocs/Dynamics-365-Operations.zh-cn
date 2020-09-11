@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5006f06d90ddcc314a51878e9e21337de7d493e7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 079c8d23250368c92e5d79f0e2624f8340db2077
+ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208448"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699528"
 ---
 # <a name="hazardous-materials"></a>危险物料
 
@@ -35,7 +35,7 @@ ms.locfileid: "3208448"
 当您运输分类为危险货物的物料时，必须在装运中提供附加文件。 危险物料功能使客户可以存储分类信息，并将其关联以发放物料。 然后，可以使用此信息来帮助准备装运文档。
 
 > [!IMPORTANT]
-> 为了帮助管理危险货物的装运，Microsoft Dynamics 365 Supply Chain Management 使您可以设置与产品相关的附加参考信息。 您还可以设置附加装运文档。 但是，系统不会自动遵守您所在国家或地区的法规。 而是充当可以帮助您实施总体计划的工具。
+> Microsoft Dynamics 365 Supply Chain Management 中的危险物料功能提供了一组有用的产品信息字段和相关功能，可以帮助您记录和引用与危险物料有关的信息。 这些功能还可以帮助您设计和打印包含有关您所装运的任何危险物料的某些信息的装运文档。 但是，系统不会自动使您遵守您所在国家或地区的所有适用法规。 虽然这些工具的目的是帮助您遵守常见法规，但它们本身并不足够，也不能保证一定合规。 您的组织有责任了解所有适用法规，并采取所有必要的步骤来遵守这些法规。
 
 在使用此功能之前，需要进行以下设置：
 

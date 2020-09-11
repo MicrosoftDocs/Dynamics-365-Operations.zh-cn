@@ -3,7 +3,7 @@ title: 员工和经理自助服务概述
 description: 本文提供了员工和经理自助服务工作区的概述。
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5934b6a1a1a8aa30aa18d9be26845c84acfa2fd0
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: fd642d0976c607b47a7874d0771e441153272ec9
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429788"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712224"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>员工和经理自助服务概述
 
@@ -32,6 +32,25 @@ ms.locfileid: "3429788"
 ## <a name="edit-personal-details"></a>编辑个人详细信息
 
 如果您需要添加或更改任何个人信息，请参阅[编辑个人信息](hr-employee-manager-self-service-edit-personal-information.md)。
+
+## <a name="user-not-assigned-to-a-worker-record"></a>用户未分配给工作人员记录
+
+如果您尚未将用户链接到**用户**页面中的**工作人员**记录，将显示以下消息：
+
+**您的用户 ID 未与系统中的员工记录关联。在二者关联之前，您将无法查看或更新您的信息。请与您的经理或支持团队联系以获取帮助。**
+
+要将用户与**工作人员**记录关联，请导航到**用户**并选择用户。 选择**编辑**，在窗体的**人员**字段中添加相应的工作人员，然后选择**保存**。 您现在应该可以访问“员工自助服务”。
+
+## <a name="security-requirements-for-employee-and-manager-self-service"></a>员工和经理自助服务的安全性要求
+
+员工和经理自助服务需要两个安全角色：
+
+- 员工需要员工角色。
+- 经理同时需要员工和经理角色。
+
+>[!NOTE]
+>您还可以使用自定义角色来访问员工和经理自助服务，只要它们已被授予对员工和经理工作区的访问权限。<br>
+>经理对员工信息的访问基于 Human Resources 中定义的当前职位行层次结构。
 
 ## <a name="employee-self-service"></a>员工自助服务
 

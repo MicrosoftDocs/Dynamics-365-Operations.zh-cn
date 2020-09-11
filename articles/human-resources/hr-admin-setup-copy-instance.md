@@ -3,7 +3,7 @@ title: 复制实例
 description: 您可以使用 Microsoft Dynamics Lifecycle Services (LCS) 将 Microsoft Dynamics 365 Human Resources 数据库复制到沙盒环境。
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
-ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
+ms.openlocfilehash: 6b52b696d323df6bafead2418ae322d1a9cdf64a
+ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3554317"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3706220"
 ---
 # <a name="copy-an-instance"></a>复制实例
 
 您可以使用 Microsoft Dynamics Lifecycle Services (LCS) 将 Microsoft Dynamics 365 Human Resources 数据库复制到沙盒环境。 如果您有另一个沙盒环境，还可以将数据库从该环境复制到目标沙盒环境。
 
-要复制实例，您需要确保：
+要复制实例，请牢记以下提示：
 
 - 您要覆盖的 Human Resources 实例必须是沙盒环境。
 
@@ -37,7 +37,9 @@ ms.locfileid: "3554317"
 
 - 您必须是目标环境中的管理员，这样您才能在复制实例后登录环境。
 
-- 复制 Human Resources 数据库时，不复制 Microsoft PowerApps 环境中包含的元素（应用或数据）。 有关如何在 PowerApps 环境中复制元素的信息，请参阅[复制环境](https://docs.microsoft.com/power-platform/admin/copy-environment)。 您要覆盖的 PowerApps 环境必须是沙盒环境。 您必须是全局租户管理员才能将 PowerApps 生产环境更改为沙盒环境。 有关更改 PowerApps 环境的详细信息，请参阅[切换实例](https://docs.microsoft.com/dynamics365/admin/switch-instance)。
+- 复制 Human Resources 数据库时，不复制 Microsoft Power Apps 环境中包含的元素（应用或数据）。 有关如何在 Power Apps 环境中复制元素的信息，请参阅[复制环境](https://docs.microsoft.com/power-platform/admin/copy-environment)。 您要覆盖的 Power Apps 环境必须是沙盒环境。 您必须是全局租户管理员才能将 Power Apps 生产环境更改为沙盒环境。 有关更改 Power Apps 环境的详细信息，请参阅[切换实例](https://docs.microsoft.com/dynamics365/admin/switch-instance)。
+
+- 如果将实例复制到沙盒环境中，并想要将沙盒环境与 Common Data Service 集成，必须将自定义字段重新应用于 Common Data Service 实体。 请参阅[将自定义字段应用于 Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service)。
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>复制 Human Resources 数据库的影响
 
@@ -49,13 +51,13 @@ ms.locfileid: "3554317"
 
 - Microsoft Azure Blob 存储中的文档不会从一个环境复制到另一个环境。 因此，附加的所有文档和模板都不会被复制，并将保留在源环境中。
 
-- 除管理员用户和其他内部服务用户帐户之外的所有用户将不可用。 因此，在允许其他用户返回到系统之前，管理员用户可以删除或打乱数据。
+- 除管理员用户和其他内部服务用户帐户之外的所有用户将不可用。 在允许其他用户返回到系统之前，管理员用户可以删除或打乱数据。
 
 - 管理员用户必须进行必要的配置更改，例如将集成终结点重新连接到特定服务或 URL。
 
 ## <a name="copy-the-human-resources-database"></a>复制 Human Resources 数据库
 
-要完成此任务，您首先要复制一个实例，然后登录到 Microsoft Power Platform 管理中心以复制 PowerApps 环境。
+要完成此任务，您首先要复制一个实例，然后登录到 Microsoft Power Platform 管理中心以复制 Power Apps 环境。
 
 > [!WARNING]
 > 复制实例时，目标实例中的数据库将被擦除。 在此过程中，目标实例不可用。
@@ -74,7 +76,7 @@ ms.locfileid: "3554317"
 
    ![[选择 Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
-6. 选择要复制的 PowerApps 环境，然后选择**复制**。
+6. 选择要复制的 Power Apps 环境，然后选择**复制**。
 
 7. 复制过程完成后，登录到目标实例，然后启用 Common Data Service 集成。 有关详细信息和说明，请参阅[配置 Common Data Service 集成](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration)。
 
@@ -98,7 +100,13 @@ ms.locfileid: "3554317"
 
 - **PersonnelIntegrationConfiguration** 表中的连接字符串
 
-这些元素中的某些元素是特定于环境的，因此不会被复制。 示例包括 **BatchServerConfig** 和 **SysCorpNetPrinters** 记录。 其他元素由于支持票证的数量，不会被复制。 例如，可能由于在用户接受测试（沙盒）环境中仍启用 SMTP 而发送了重复的电子邮件，可能由于仍启用了批处理作业而发送了无效的集成消息，或者可能在管理员可以执行刷新后清理操作之前启用了用户。
+这些元素中的某些元素是特定于环境的，因此不会被复制。 示例包括 **BatchServerConfig** 和 **SysCorpNetPrinters** 记录。 其他元素由于支持票证的数量，不会被复制。 例如:
+
+- 可能由于在用户接受测试（沙盒）环境中仍启用 SMTP 而发送了重复的电子邮件。
+
+- 可能由于仍启用了批处理作业而发送了无效的集成消息。
+
+- 可能在管理员可以执行刷新后清理操作之前启用了用户。
 
 此外，复制实例时，以下状态也会更改：
 
@@ -111,3 +119,32 @@ ms.locfileid: "3554317"
 目标沙盒环境中的所有用户（包括管理员）都将被替换为源环境的用户。 复制实例之前，请确保您是源环境中的管理员。 如果不是，则复制完成后您将无法登录到目标沙盒环境。
 
 目标沙盒环境中的所有非管理员用户均会被禁用，以防止在沙盒环境中进行不必要的登录。 管理员可以根据需要重新启用用户。
+
+## <a name="apply-custom-fields-to-common-data-service"></a>将自定义字段应用于 Common Data Service
+
+如果将实例复制到沙盒环境中，并想要将沙盒环境与 Common Data Service 集成，必须将自定义字段重新应用于 Common Data Service 实体。
+
+对于在 Common Data Service 实体上公开的每个自定义字段，请执行以下步骤：
+
+1. 转到自定义字段，然后选择**编辑**。
+
+2. 为启用了自定义字段的每个 cdm_* 实体取消选择**已启用**字段。
+
+3. 选择**应用更改**。
+
+4. 再次选择**编辑**。
+
+5. 为启用了自定义字段的每个 cdm_* 实体选择**已启用**字段。
+
+6. 再次选择**应用更改**。
+
+取消选择、应用更改、重新选择和应用更改的流程会提示架构在 Common Data Service 中进行更新以包含自定义字段。
+
+有关自定义字段的详细信息，请参阅[创建并使用自定义字段](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)。
+
+## <a name="see-also"></a>请参阅
+
+[设置 Human Resources](hr-admin-setup-provision.md)</br>
+[删除实例](hr-admin-setup-remove-instance.md)</br>
+[更新流程](hr-admin-setup-update-process.md)
+

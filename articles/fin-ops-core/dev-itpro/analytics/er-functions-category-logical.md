@@ -3,7 +3,7 @@ title: 逻辑类别的 ER 函数列表
 description: 本主题提供有关电子申报 (ER) 支持的逻辑函数的信息。
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 408b3c5ec37b24e0ccf6e368012a936701eedf0f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: e622778c60646e5cc84cd6e23a5d4954a0fe0bb3
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916629"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705087"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>逻辑类别的 ER 函数列表
 
@@ -41,6 +41,8 @@ ms.locfileid: "2916629"
 | [不](er-functions-logical-not.md)                       | 此函数作为*布尔*值返回指定条件的冲销逻辑值。 |
 | [Or](er-functions-logical-or.md)                         | 此函数返回一个*布尔*值 **FALSE**（如果所有指定条件都为 false）。 如果所有指定条件都为 true，此函数返回一个*布尔*值 **TRUE**。 |
 | [ValueIn](er-functions-logical-valuein.md)               | 此函数确定指定的输入是否匹配指定列表中任何指定项目的值。 如果指定的输入与为指定列表的至少一条记录运行指定表达式的结果匹配，它将返回*布尔*值 **TRUE**。 否则，返回*布尔*值 **FALSE**。 |
+| [ValueInLarge](er-functions-logical-valueinlarge.md)     | 此函数确定指定的 *Int64* 或*整数*类型的输入是否匹配指定列表中任何指定项目的值。 如果指定的输入与为指定列表的至少一条记录运行指定表达式的结果匹配，它将返回*布尔*值 **TRUE**。 否则，返回*布尔*值 **FALSE**。 |
+
 
 ## <a name="additional-resources"></a>其他资源
 

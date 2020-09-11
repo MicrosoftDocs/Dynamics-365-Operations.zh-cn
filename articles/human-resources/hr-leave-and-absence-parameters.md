@@ -3,7 +3,7 @@ title: 配置休假和缺勤参数
 description: 在 Dynamics 365 Human Resources 中定义休假和缺勤的人力资源参数。
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5e4d3b3e4b373631bed5e2d7e3c3a4e14f0c5c98
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 196c3901b5bc19f73b882bac7d3361e5bcc37e07
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428936"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712368"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>配置休假和缺勤参数
 
@@ -46,8 +46,6 @@ ms.locfileid: "3428936"
 
 5. 在**员工自助服务**选项卡上，指示经理是否可以代表员工输入休假和缺勤请求。
 
-6. 在**休假和缺勤**选项卡上，验证设置并根据需要进行更改。
-
 7. 选择**保存**。
 
 ## <a name="view-and-change-leave-and-absence-parameters"></a>查看和更改休假和缺勤参数
@@ -63,6 +61,10 @@ ms.locfileid: "3428936"
     - 选择**服务生效日期的月份**以设置使用服务月份的休假计划的假期额度费率生效时间。
 
     - 选择**余额计算**以显示截至今日的余额或应计期间的余额。 如果选择**截至今日的余额**，则余额显示截止今日的所有应计、调整和请求的总计。 如果选择**截至应计期间的余额**，则余额显示截止休假计划中的频率定义的应计期间所有应计、调整和请求的总计。 
+
+    - 设置结转到期批处理作业的开始时间。  
+    
+    - 为**允许员工购买休假**和**允许员工出售休假**选择**是**。 如果为这些选项选择**是**，可以创建购买和出售休假策略，让员工能够提交购买和出售休假请求。
 
 ## <a name="configure-calendar-parameters"></a>配置日历参数
 

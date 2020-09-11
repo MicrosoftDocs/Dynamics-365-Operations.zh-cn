@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 41b0faa7ef24bdae229f7e6760d22357cb87eb0d
-ms.sourcegitcommit: 7b7cc93c0f78c6bfc7a3ea66a74a29ba0f218553
+ms.openlocfilehash: 03cb68ede82668523e6970d33df676738e65fd83
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3658350"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719206"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>打印机和银箱的专用的付款终端和提示
 
@@ -78,8 +78,8 @@ Microsoft Dynamics 365 Commerce 通过实现以下方案来支持这些趋势：
 
     | 设备 | 类型 | 设备名称 | 其他详细信息 |
     |---|---|---|---|
-    | 打印机 | 回退 | **Epson** 或 **Star** | 设备名称区分大小写。 **收据模板 ID** 应该与映射到网络打印机的**收据模板 ID** 相同，网络打印机在渠道级别分配给硬件工作站的硬件配置文件中设置。 |
-    | 银箱 | 回退 | **Epson** 或 **Star** | 设备名称区分大小写。 将**使用共享班次**选项设置为**是**。 |
+    | 打印机 | 回退 | *任何* | 设备名称区分大小写。 **收据模板 ID** 应该与映射到网络打印机的**收据模板 ID** 相同，网络打印机在渠道级别分配给硬件工作站的硬件配置文件中设置。 |
+    | 银箱 | 回退 | *任何* | 设备名称区分大小写。 将**使用共享班次**选项设置为**是**。 |
     | EFT 服务 | Adyen | 不适用 | 有关如何设置现成的 Adyen 连接器的信息，请参阅[适用于 Adyen 的 Dynamics 365 Payment Connector](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)。 可以通过 [Commerce 付款软件开发套件 (SDK)](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension) 支持其他付款连接器。 |
     | PIN 小键盘 | 网络 | **MicrosoftAdyenDeviceV001** | 无。 |
 
@@ -103,7 +103,7 @@ Microsoft Dynamics 365 Commerce 通过实现以下方案来支持这些趋势：
     | 设备 | 类型 | 说明 | 其他详细信息 |
     |---|---|---|---|
     | 打印机 | 网络 | **Epson** 或 **Star** | 设备名称区分大小写。 **收据模板 ID** 应该与映射到打印机的**收据模板 ID** 相同，打印机在分配给收银机的硬件配置文件中设置。 |
-    | 银箱 | 回退 | **Epson** 或 **Star** | 设备名称区分大小写。 将**使用共享班次**选项设置为**是**。 |
+    | 银箱 | 网络 | **Epson** 或 **Star** | 设备名称区分大小写。 将**使用共享班次**选项设置为**是**。 |
 
 5. 选择**保存**。
 

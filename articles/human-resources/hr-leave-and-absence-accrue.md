@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 43c16c5d0de91bf1f433f4fde36e7d13775f44a0
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429051"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712151"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>应计休假和缺勤计划
 
@@ -37,7 +37,9 @@ ms.locfileid: "3429051"
 
 3. 将显示**累积休假和缺勤计划**对话框。 在**累积截至**中，选择**今日日期**，或选择**自定义日期**并输入一个自定义日期。
 
-4. 如果要在后台运行累积流程，请选择**在后台运行**并执行以下任务：
+4. 如果要为所有公司运行应计，请选择**所有公司**。 如果要处理单个休假计划的应计，请为**所有计划**选择**否**，然后选择**休假计划**。 如果选择所有公司，则不能选择单个休假计划。 
+
+5. 如果要在后台运行累积流程，请选择**在后台运行**并执行以下任务：
 
    1. 输入累积流程的信息。
 
@@ -55,7 +57,9 @@ ms.locfileid: "3429051"
 
 3. 将显示**累积休假和缺勤计划**对话框。 在**累积截至**中，选择**今日日期**，或选择**自定义日期**并输入一个自定义日期。
 
-4. 如果要在后台运行累积流程，请选择**在后台运行**并执行以下任务：
+4. 如果要为所有公司运行应计，请选择**所有公司**。 如果要处理单个休假计划的应计，请为**所有计划**选择**否**，然后选择**休假计划**。 如果选择所有公司，则不能选择单个休假计划。 
+
+5. 如果要在后台运行累积流程，请选择**在后台运行**并执行以下任务：
 
    1. 输入累积流程的信息。
 
@@ -102,18 +106,6 @@ ms.locfileid: "3429051"
 1. 在**休假和缺勤**页面，选择**链接**选项卡。
 
 2. 在**管理休假**下，选择**删除休假累积审核**。
-
-## <a name="configure-preview-features"></a>配置预览功能
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-如果您已启用休假和缺勤的预览功能，您还需要为其配置设置。
-
-### <a name="accrue-leave-per-company-or-per-leave-plan"></a>按公司或按休假计划累积休假
-
-在累积休假和缺勤计划时，您可以选择对所有公司累积。 如果选择所有公司，则不能选择单个休假计划。 如果您选择不对所有公司累积，您可以对特定休假计划累积。 
-
-当对所有员工或单个员工累积时，这些选项可用。 
 
 ## <a name="see-also"></a>请参阅
 

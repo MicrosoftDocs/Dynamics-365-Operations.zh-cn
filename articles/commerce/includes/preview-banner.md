@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> 本主题中介绍的功能作为预览版的一部分提供。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅[一个版本服务更新常见问题](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version)。
+> 本主题中介绍的部分或全部功能作为预览版的一部分提供。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅[一个版本服务更新常见问题](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version)。

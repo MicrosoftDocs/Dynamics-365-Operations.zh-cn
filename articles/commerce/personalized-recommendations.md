@@ -3,7 +3,7 @@ title: 雇用个性化产品建议
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中让个性化产品建议可以为客户所用。
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4103096f23e5568cc2bf64f21720c7c16d3e0cd1
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664850"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700858"
 ---
 # <a name="enable-personalized-recommendations"></a>启用个性化建议
 
@@ -49,11 +49,13 @@ ms.locfileid: "3664850"
 
 若要打开个性化，请执行以下步骤。
 
-1. 转到 **Retail 和 Commerce \> 产品建议 \> 建议参数**。
-1. 在 Retail 共享参数列表中，选择**建议列表**。
-1. 将**启用个性化**选项设置为**是**。
+1. 在 Commerce headquarters 中，搜索**功能管理**。
+1. 选择**所有**查看可用功能列表。 
+1. 在搜索框中，输入**建议**。
+1. 选择**个性化产品建议**功能。
+1. 在**个性化产品建议**属性窗格中，选择**立即启用**。
 
-![打开个性化](./media/enablepersonalization.png)
+![打开个性化](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > 打开个性化时，将启动生成个性化产品建议列表的过程。 这些列表最多可能需要一天时间完成在线以及在 POS 上提供和显示。
