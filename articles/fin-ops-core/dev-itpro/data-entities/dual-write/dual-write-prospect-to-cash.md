@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b10e5f0fe97e65ad380e85815c56e88a3ce4e303
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443887"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719256"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>双写入中的目标客户到现金
 
@@ -79,7 +79,7 @@ ms.locfileid: "3443887"
 
 销售订单既可以在 Sales 中创建，也可以在 Supply Chain Management 中创建。 如果在 Sales 中创建销售订单，其将实时同步到 Supply Chain Management。 同样，如果在 Supply Chain Management 中创建销售订单，其将实时同步到 Sales。 请注意以下点：
 
-+ 仅当订单中的所有产品都来自 Finance and Operations 应用时，才能从 Sales 激活和同步订单。 因此，可能没有目录外产品。
++ Dynamics 365 Sales 中的目录外产品将在 Dynamics 365 Supply Chain Management 中显示为产品类别。
 + 折扣计算和化整：
 
     - Sales 中的折扣计算模型不同于 Supply Chain Management。 在 Supply Chain Management 中，销售行的最终折扣金额可以是折扣金额和折扣百分比组合的结果。 如果此最终折扣金额除以行中的数量，可能发生化整。 不过，如果化整的每单位折扣金额同步到 Sales，则不考虑此化整。 为了帮助确保 Supply Chain Management 中销售行的完整折扣金额正确同步到 Sales，全部金额都必须同步，而无需再除以行中的数量。 因此，您必须在 Sales 中将折扣计算方法定义为**行项**。

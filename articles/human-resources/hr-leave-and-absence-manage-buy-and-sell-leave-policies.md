@@ -3,7 +3,7 @@ title: 管理购买和出售休假策略
 description: 您可以在 Dynamics 365 Human Resources 中让员工可以购买和出售休假。
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,24 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 859445f2b6e980b5960e512e69129f6a8fc6df2b
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 55d29c42cc1b2d69517e2fcd458ee6a1bdf5277f
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429005"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712102"
 ---
 # <a name="manage-buy-and-sell-leave-policies"></a>管理购买和出售休假策略
 
-[!include [banner](includes/preview-feature.md)]
-
-您可以通过创建购买休假策略使员工能够购买休假。  
+您可以通过创建购买和出售休假策略使员工能够购买和出售休假。 您可以配置这些策略来使用审批工作流、设置最大金额和费率以及设置购买和出售费率。 
 
 ## <a name="enable-employees-to-buy-and-sell-leave"></a>让员工可以购买和出售休假
 
-1. 在**休假和缺勤参数**页面上，为**允许员工购买休假**选择**是**。 
+1. 在**休假和缺勤参数**页面上，为**允许员工购买休假**和**允许员工出售休假**选择**是**。
 
-## <a name="create-a-buy-leave-policy"></a>创建购买休假策略
+## <a name="create-a-buy-and-sell-leave-policy"></a>创建购买和出售休假策略
 
 1. 在**休假和缺勤**页面，选择**链接**选项卡。 
 
@@ -51,19 +49,23 @@ ms.locfileid: "3429005"
 
 6. 为策略选择**开始日期**和**结束日期**。 购买和出售休假的请求只能在此时间范围内提交。 
 
-7. 在**购买策略**下，选择**全职等效** (FTE)，根据在员工职位中定义的 FTE 按比例分配最大金额。 如果策略类型是**金额**，请输入**最大固定金额**。 
+7. 为策略选择一个**工作流 ID**。 任何购买和出售请求都将使用此工作流进行审核和审批。 
 
-8. 选择**添加**为员工购买休假添加休假类型。 您可以向策略添加多个休假类型。 
+8. 在**购买策略**下，选择**全职等效** (FTE)，根据在员工职位中定义的 FTE 按比例分配最大金额。 如果策略类型是**金额**，请输入**最大固定金额**。 
 
-9. 为休假类型输入**服务月数**，可以通过不同的服务月数确定员工可以购买的最大金额。 
+9. 选择**添加**为员工购买休假添加休假类型。 您可以向策略添加多个休假类型。 
 
-10. 为休假类型输入**最大金额**。 
+10. 为休假类型输入**服务月数**，可以通过不同的服务月数确定员工可以购买的最大金额。 
 
-11. 输入员工购买休假所使用的**费率**。 
+11. 为休假类型输入**最大金额**。 
 
-12. （可选）输入用于购买休假的**收入代码**。 
+12. 输入员工购买休假所使用的**费率**。 
 
-13. （可选）设置是否使用 FTE 确定休假类型的最大金额。 
+13. （可选）输入用于购买休假的**收入代码**。 
+
+14. （可选）设置是否使用 FTE 确定休假类型的最大金额。 
+
+15. 要创建出售策略，请按照**出售策略**下的步骤 8 到 14 操作。 
 
 ## <a name="add-the-buy-and-sell-leave-policy-to-a-leave-and-absence-plan"></a>将购买和出售休假策略添加到休假和缺勤计划中
 

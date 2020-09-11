@@ -3,7 +3,7 @@ title: 保修协议
 description: 本主题介绍资产管理中的保修协议。
 author: josaw1
 manager: tfehr
-ms.date: 08/30/2019
+ms.date: 08/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e9cbb9068101f3004179f338da18af0369190807
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f049165fd12dfae672293e0c30ddb186ad3ed12c
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215370"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719230"
 ---
 # <a name="warranty-agreements"></a>保修协议
 
@@ -42,12 +42,12 @@ ms.locfileid: "3215370"
 
 1. 选择**资产管理** \> **设置** \> **资产** \> **保修**。
 2. 选择**新建**创建产品。
-3. 在**保修**字段中，输入保修 ID。
+3. 在**保修**字段中，输入保修 ID。 
 4. 在**名称**字段中，输入描述。
 
     **详细信息**快速选项卡上的**资产**字段显示使用保修协议的有效资产的数量。
 
-5. 在**工时保修**和**物料保修**快速选项卡上，执行以下步骤添加保修协议中应该包含的与工时或物料有关的行：
+5. 在**保修行**快速选项卡上，按照以下步骤添加应包含在保修协议中的行：
 
     1. 选择**添加行**，向保修添加新条件。 将在**行**字段中输入连续的行号。
     2. 在**期间**字段中，选择保修期的类型。

@@ -3,7 +3,7 @@ title: 日历和主计划
 description: 此主题提供供应链日历及其如何影响主计划的概述。
 author: t-benebo
 manager: tfehr
-ms.date: 05/08/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d542c52623c1b3c0aa4b23159d56791cdc981f48
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 373af2e7bdcbf6860f21e049403fdf174d5e8ca7
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213479"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710325"
 ---
 # <a name="calendars-and-master-planning"></a>日历和主计划
 
@@ -105,28 +105,28 @@ ms.locfileid: "3213479"
 
 ### <a name="delivery-date-of-a-planned-purchase-order"></a>计划采购订单的交货日期
 采购的收货日期指示将收到货物的日期。 它将是日历中的打开日期。 被考虑用来指示可以接收采购订单的日期的日历如下，按优先级最高到最低的顺序排列： 
-    1. 供应商日历
-    2. 覆盖范围组日历
-    3. 接收仓库的仓库日历
+1. 供应商日历
+1. 覆盖范围组日历
+1. 接收仓库的仓库日历
 
 请注意，覆盖范围组日历可以在不同页面设置，按以下顺序排定优先级：
-    1. **已发放产品详细信息**页的物料覆盖范围组
-    2. **物料覆盖范围**页的物料覆盖范围组
-    3. **主计划参数**中的默认物料覆盖范围组
+1. **物料覆盖范围**页的物料覆盖范围组
+1. **已发放产品详细信息**页的物料覆盖范围组
+1. **主计划参数**中的默认物料覆盖范围组
 
 ### <a name="shipping-date-of-a-planned-transfer-order"></a>计划转移单的装运日期
 在两个仓库之间创建转移单时，装运日期和收货日期以及“源”仓库和“目标”仓库包括在转移单标题中。 这两个日期之间的差值是仓库之间的预期运输时间（天）。
 
 计划转移单的装运日期指示从“源”仓库装运货物的日期。 用于指定可用装运日期的日历按优先级列出： 
-    1. “源”仓库的仓库日历
-    2. 覆盖范围组日历（参见上方的此日历的回退订单），如果存在设置的仓库日历，装运日期将是日历中的打开日期。 如果没有设置的仓库日历，将获取覆盖范围组日历。 
+1. “源”仓库的仓库日历
+1. 覆盖范围组日历（参见上方的此日历的回退订单），如果存在设置的仓库日历，装运日期将是日历中的打开日期。 如果没有设置的仓库日历，将获取覆盖范围组日历。 
 
 ### <a name="receipt-date-of-a-planned-transfer-order"></a>计划转移单的收货日期
 计划转移单的收货日期指示在“目标”仓库中接收货物的日期。
 
 用于指定收货日期的日历按优先级列出： 
-    1. 覆盖范围组日历 
-    2. “目标”仓库的仓库日历，如果存在设置的覆盖范围日历，收货日期将是日历中的打开日期。 如果没有设置的覆盖范围组日历，将获取仓库日历。 
+1. 覆盖范围组日历 
+1. “目标”仓库的仓库日历，如果存在设置的覆盖范围日历，收货日期将是日历中的打开日期。 如果没有设置的覆盖范围组日历，将获取仓库日历。 
 
 在查找计划转移的装运和收货日期时，装运和收货用户建立的宽限期也会被考虑到。 
 

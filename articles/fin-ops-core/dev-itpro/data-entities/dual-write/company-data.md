@@ -3,7 +3,7 @@ title: Common Data Service 中的公司概念
 description: 本主题介绍 Finance and Operations 与 Common Data Service 之间的公司数据集成。
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/15/2019
+ms.date: 08/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a39cf5fa980d9a815ba675e410589dbd1279c83
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
+ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172892"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3728405"
 ---
 # <a name="company-concept-in-common-data-service"></a>Common Data Service 中的公司概念
 
@@ -72,3 +72,32 @@ Common Data Service 集成通过使用公司标识符剥离数据来为公司提
 + 对于记录，添加并保存公司之后，该值变为只读。 因此，用户应确保选择正确的公司。
 + 只有包含公司数据的记录才符合应用程序与 Common Data Service 之间的双写入的资格。
 + 对于现有 Common Data Service 数据，很快将提供管理员引导的自扩展体验。
+
+
+## <a name="autopopulate-company-name-in-customer-engagement-apps"></a>在 Customer Engagement 应用中自动填充公司名称
+
+有几种方法可以在 Customer Engagement 应用中自动填充公司名称。
+
++ 如果您是系统管理员，可以通过导航到**高级设置 > 系统 > 安全性 > 用户**来设置默认公司。 打开**用户**窗体，然后在**组织信息**部分，设置**窗体中的默认公司**值。
+
+    :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="在“组织信息”部分设置默认公司。":::
+
++ 如果您对**业务单位**级别的 **SystemUser** 实体具有**写入**访问权限，可以通过从**公司**下拉菜单中选择公司来更改任何一个窗体上的默认公司。
+
+    :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="更改新客户中的公司名称。":::
+
++ 如果您对多个公司中的数据具有**写入**访问权限，可以通过选择属于不同公司的记录来更改默认公司。
+
+    :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="通过选择记录更改默认公司。":::
+
++ 如果您是系统配置者或管理员，想要在自定义窗体上自动填充公司数据，可以使用[窗体事件](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids)。 将 JavaScript 引用添加到 **msdyn_/DefaultCompany.js** 并使用以下事件。 您可以使用任何现成的窗体，例如，**客户**窗体。
+
+    + 窗体的 **OnLoad** 事件：设置 **defaultCompany** 字段。
+    + **公司**字段的 **OnChange** 事件：设置 **updateDefaultCompany** 字段。
+
+## <a name="apply-filtering-based-on-the-company-context"></a>基于公司上下文应用筛选
+
+要在自定义窗体或添加到标准窗体的自定义查找字段中基于公司上下文应用筛选，请打开窗体，然后使用**相关记录筛选**部分应用公司筛选器。 您必须为每个需要基于给定记录中的基础公司来筛选的查找字段设置此项。 下图中显示了**客户**的设置。
+
+:::image type="content" source="media/apply-company-context.png" alt-text="应用公司上下文":::
+

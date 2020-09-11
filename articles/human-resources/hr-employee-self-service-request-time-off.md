@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f4c2d082ebe7f97d5c649c38d2462a3c011aa0e7
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b034f3bac7264ff96100396cbb45e5b869765ce8
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429581"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712344"
 ---
 # <a name="request-time-off"></a>请求休息时间
 
@@ -44,8 +44,6 @@ ms.locfileid: "3429581"
 6. 准备好提交请求时选择**提交**。 否则，选择**保存草稿**。
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>将附件添加到现有请求
-
-[!include [banner](includes/preview-feature.md)]
 
 更新现有休假请求时，可以添加附件。 您还可以查看特定日期的所有相关请求。 
 

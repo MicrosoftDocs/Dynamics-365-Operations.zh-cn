@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
-ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
+ms.openlocfilehash: a6fdc7b8d7ad65c9e4bf1d3b932b62918dea6e77
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699361"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710251"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Modern POS (MPOS) 中的客户订单
 
@@ -54,7 +54,10 @@ ms.locfileid: "3699361"
     - 费用在销售订单抬头级别实施，并且如果退回了某个产品行的一定数量，则不能按照适合所有客户的方式确定为这些产品和数量允许的最大装运费用退款。
     - 每次运货都会产生装运费用。 如果客户多次退货，而零售商的政策规定由零售商承担退货装运费用的成本，退货装运费用将超过实际装运费用。
     
-- **税款计算行为** - **重新计算**是将订单导入后端办公系统后如何重新计算税款的默认和传统设置。 当触发重新计算时，**不重新计算**将禁用税款重新计算，直到或除非在后端办公系统中编辑了订单。 
+
+## <a name="disable-option-to-pay-later"></a>禁用稍后支付选项
+
+在 Commerce 版本 10.0.12 及更高版本中，商家可以在 POS 上创建客户订单时删除稍后支付选项。 要禁用此选项，请打开不允许使用稍后支付的渠道的**功能配置文件**，然后选择**编辑**。 在**常规**选项卡上，选择**履行订单需要付款**的下拉菜单。 如果不应在 POS 上允许稍后支付，请选择**需要卡**，然后选择**保存**。 运行 **1070** 配送计划将此更改同步到渠道。 
 
 ## <a name="transaction-flow-for-customer-orders"></a>客户订单的交易记录流
 

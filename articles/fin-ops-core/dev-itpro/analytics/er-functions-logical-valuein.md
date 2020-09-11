@@ -3,7 +3,7 @@ title: VALUEIN ER 函数
 description: 本主题提供有关 VALUEIN 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0df97234df41d11897473dea4e85354e82d36ec
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 44459ae56891a08eb11a6c254f4b4d5652a0e693
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041691"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705111"
 ---
-# <a name="VALUEIN">VALUEIN ER 函数</a>
+# <a name=""></a><a name="VALUEIN">VALUEIN ER 函数</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,7 +59,7 @@ VALUEIN (input, list, list item expression)
 
 ## <a name="usage-notes"></a>使用说明
 
-一般来说，`VALUEIN` 函数转换为一组 **OR** 条件。
+一般来说，`VALUEIN` 函数转换为一组 **OR** 条件。 如果 **OR** 条件的列表很大，可能超出了 SQL 语句的最大总长度，请考虑使用 [`VALUEINLARGE`](er-functions-logical-valueinlarge.md) 函数。
 
 ```vb
 (input = list.item1.value) OR (input = list.item2.value) OR …
@@ -77,13 +77,13 @@ VALUEIN (input, list, list item expression)
 
 此条件的文本中的字符数的上限为 32,768 个字符。 因此，您不应该在运行时创建可能超出此限制的数据源。 如果超出限制，应用程序将停止运行，并引发异常。 例如，如果数据源被配置为 `WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)`，并且 **List1** 和 **List2** 列表包含大量记录，将发生此情况。
 
-在某些情况下，`VALUEIN` 函数通过使用 `EXISTS JOIN` 运算符转换为数据库语句。 此行为会在使用 [FILTER](er-functions-list-filter.md) 函数并且当满足以下条件时发生：
+在某些情况下，`VALUEIN` 函数通过使用 `EXISTS JOIN` 运算符转换为数据库语句。 此行为会在使用 [`FILTER`](er-functions-list-filter.md) 函数并且当满足以下条件时发生：
 
 - **ASK FOR QUERY** 选项将对引用记录列表的 `VALUEIN` 函数的数据源关闭。 附加条件不会在运行时应用于此数据源。
 - 不会为引用记录列表的 `VALUEIN` 函数的数据源配置嵌套表达式。
 - `VALUEIN` 函数的列表项引用指定数据源的字段，不是该数据源的表达式或方法。
 
-请考虑使用此选项而不是 [WHERE](er-functions-list-where.md) 函数，在本示例前面有述。
+请考虑使用此选项而不是 [`WHERE`](er-functions-list-where.md) 函数，在本示例前面有述。
 
 ## <a name="example-2"></a>示例 2
 
@@ -118,3 +118,5 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 ## <a name="additional-resources"></a>其他资源
 
 [逻辑函数](er-functions-category-logical.md)
+
+[VALUEINLARGE 函数](er-functions-logical-valueinlarge.md)
