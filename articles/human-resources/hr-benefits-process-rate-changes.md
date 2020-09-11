@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
+ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitRate, BenefitEligibilityProcessResultViewer
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,33 +18,33 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b12c845b92b29063f3b0b2f6a9d98143b7f10eff
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: da42ef6ea91b95903316e35b551b222b8ff3b946
+ms.sourcegitcommit: 9723b5ff40c84677316d71e185cf862556b32cf9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429189"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "3741451"
 ---
-# <a name="process-rate-changes"></a><span data-ttu-id="d8079-103">处理比率更改</span><span class="sxs-lookup"><span data-stu-id="d8079-103">Process rate changes</span></span>
+# <a name="process-rate-changes"></a><span data-ttu-id="5e0c7-103">处理比率更改</span><span class="sxs-lookup"><span data-stu-id="5e0c7-103">Process rate changes</span></span>
 
-<span data-ttu-id="d8079-104">处理当新的或现有的福利计划的资格规则设置发生更改时，Microsoft Dynamics 365 Human Resources 中的福利比率更改。</span><span class="sxs-lookup"><span data-stu-id="d8079-104">Process benefit rate changes in Microsoft Dynamics 365 Human Resources when a new or existing benefit plan has a change in eligibility rule settings.</span></span> <span data-ttu-id="d8079-105">如果创建了新的资格规则并将其分配给计划，这将提示系统重新运行工作人员资格，以根据新的资格选项检查工作人员现在是否有资格享受计划。</span><span class="sxs-lookup"><span data-stu-id="d8079-105">If a new eligibility rule is created and assigned to the plan, this prompts the system to rerun worker eligibility to check if workers may now be eligible for the plan based on new eligibility options.</span></span> 
+<span data-ttu-id="5e0c7-104">处理当新的或现有的福利计划的资格规则设置发生更改时，Microsoft Dynamics 365 Human Resources 中的福利比率更改。</span><span class="sxs-lookup"><span data-stu-id="5e0c7-104">Process benefit rate changes in Microsoft Dynamics 365 Human Resources when a new or existing benefit plan has a change in eligibility rule settings.</span></span> <span data-ttu-id="5e0c7-105">如果创建了新的资格规则并将其分配给计划，这将提示系统重新运行工作人员资格，以根据新的资格选项检查工作人员现在是否有资格享受计划。</span><span class="sxs-lookup"><span data-stu-id="5e0c7-105">If a new eligibility rule is created and assigned to the plan, this prompts the system to rerun worker eligibility to check if workers may now be eligible for the plan based on new eligibility options.</span></span> 
 
-1. <span data-ttu-id="d8079-106">在**福利管理**工作区中，在**处理**下，选择**比率更改更新处理**。</span><span class="sxs-lookup"><span data-stu-id="d8079-106">In the **Benefits management** workspace, under **Processing**, select **Rate change update processing**.</span></span>
+1. <span data-ttu-id="5e0c7-106">在**福利管理**工作区中，在**处理**下，选择**比率更改更新处理**。</span><span class="sxs-lookup"><span data-stu-id="5e0c7-106">In the **Benefits management** workspace, under **Processing**, select **Rate change update processing**.</span></span>
 
-2. <span data-ttu-id="d8079-107">在**运行福利比率更新流程**对话框中，为以下字段指定值：</span><span class="sxs-lookup"><span data-stu-id="d8079-107">In the **Run benefit rate update process** dialog box, specify values for the following fields:</span></span>
+2. <span data-ttu-id="5e0c7-107">在**运行福利比率更新流程**对话框中，为以下字段指定值：</span><span class="sxs-lookup"><span data-stu-id="5e0c7-107">In the **Run benefit rate update process** dialog box, specify values for the following fields:</span></span>
 
-   | <span data-ttu-id="d8079-108">字段</span><span class="sxs-lookup"><span data-stu-id="d8079-108">Field</span></span> | <span data-ttu-id="d8079-109">说明</span><span class="sxs-lookup"><span data-stu-id="d8079-109">Description</span></span> |
+   | <span data-ttu-id="5e0c7-108">字段</span><span class="sxs-lookup"><span data-stu-id="5e0c7-108">Field</span></span> | <span data-ttu-id="5e0c7-109">说明</span><span class="sxs-lookup"><span data-stu-id="5e0c7-109">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="d8079-110">**登记期间**</span><span class="sxs-lookup"><span data-stu-id="d8079-110">**Enrollment period**</span></span> | <span data-ttu-id="d8079-111">要处理其间的比率更改的登记期间。</span><span class="sxs-lookup"><span data-stu-id="d8079-111">The enrollment period to process rate changes for.</span></span> |
+   | <span data-ttu-id="5e0c7-110">**登记期间**</span><span class="sxs-lookup"><span data-stu-id="5e0c7-110">**Enrollment period**</span></span> | <span data-ttu-id="5e0c7-111">要处理其间的比率更改的登记期间。</span><span class="sxs-lookup"><span data-stu-id="5e0c7-111">The enrollment period to process rate changes for.</span></span> |
 
-3. <span data-ttu-id="d8079-112">如果要在后台运行此流程，请选择**在后台运行**并执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="d8079-112">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
+3. <span data-ttu-id="5e0c7-112">如果要在后台运行此流程，请选择**在后台运行**并执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="5e0c7-112">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
 
-   1. <span data-ttu-id="d8079-113">输入流程的信息。</span><span class="sxs-lookup"><span data-stu-id="d8079-113">Enter information for the process.</span></span>
+   1. <span data-ttu-id="5e0c7-113">输入流程的信息。</span><span class="sxs-lookup"><span data-stu-id="5e0c7-113">Enter information for the process.</span></span>
 
-   2. <span data-ttu-id="d8079-114">要设置重复性作业，请选择**重复**，输入重复信息，然后选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="d8079-114">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
+   2. <span data-ttu-id="5e0c7-114">要设置重复性作业，请选择**重复**，输入重复信息，然后选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="5e0c7-114">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
 
-   3. <span data-ttu-id="d8079-115">要设置作业预警，请选择**预警**，选择要接收的预警，然后选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="d8079-115">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
+   3. <span data-ttu-id="5e0c7-115">要设置作业预警，请选择**预警**，选择要接收的预警，然后选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="5e0c7-115">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
 
-   4. <span data-ttu-id="d8079-116">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="d8079-116">Select **OK**.</span></span> <span data-ttu-id="d8079-117">流程将使用您设置的参数运行。</span><span class="sxs-lookup"><span data-stu-id="d8079-117">The process will run with the parameters you set.</span></span>
+   4. <span data-ttu-id="5e0c7-116">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="5e0c7-116">Select **OK**.</span></span> <span data-ttu-id="5e0c7-117">流程将使用您设置的参数运行。</span><span class="sxs-lookup"><span data-stu-id="5e0c7-117">The process will run with the parameters you set.</span></span>
 
-4. <span data-ttu-id="d8079-118">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="d8079-118">Select **OK**.</span></span>
+4. <span data-ttu-id="5e0c7-118">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="5e0c7-118">Select **OK**.</span></span>
