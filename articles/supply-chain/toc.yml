@@ -70,12 +70,12 @@
                   items:
                     - name: “Supply Chain Management 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.14（2020 年 11 月）
+                      href: get-started/whats-new-scm-10-0-14.md
                     - name: Supply Chain Management 10.0.13（2020 年 10 月）
                       href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12（2020 年 8 月）
                       href: get-started/whats-new-scm-10-0-12.md
-                    - name: Supply Chain Management 10.0.11（2020 年 7 月）
-                      href: get-started/whats-new-scm-10-0-11.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
@@ -333,7 +333,7 @@
                   href: asset-management/work-orders/automatic-update-of-asset-counters.md
                 - name: 维护清单
                   href: asset-management/work-orders/maintenance-checklists.md
-                - name: 维护停机时间
+                - name: 工作订单的维护停机时间
                   href: asset-management/work-orders/maintenance-downtime.md
                 - name: 将故障添加到工作订单
                   href: asset-management/work-orders/add-fault-to-work-order.md
@@ -341,7 +341,7 @@
                   href: asset-management/work-orders/work-order-report.md
                 - name: 工作订单池
                   href: asset-management/work-orders/work-order-pools.md
-                - name: 有效工作订单维护作业
+                - name: 有效的工作订单维护作业
                   href: asset-management/work-orders/active-work-order-jobs-overview.md
                 - name: 工作订单和固定资产
                   href: asset-management/work-orders/work-orders-and-fixed-assets.md
@@ -367,7 +367,7 @@
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
                 - name: 创建工作订单
                   href: asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
-                - name: 维护停机时间
+                - name: 维护停机时间活动
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
             - name: 产能规划
               items:
@@ -1345,26 +1345,30 @@
               items:
                 - name: 计划优化概览
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: 使用负现有数量进行计划
-                  href: master-planning/planning-optimization/negative-on-hand.md
                 - name: 开始使用计划优化
                   href: master-planning/planning-optimization/get-started.md
                 - name: 计划优化适应分析
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: 将筛选器应用到计划
+                - name: 为计划应用筛选器
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: 使用采购贸易协议进行主计划
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: 查看计划历史记录和计划日志
-                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: 安全宽限期
+                  href: master-planning/planning-optimization/safety-margins.md
+                - name: 审核计划订单
+                  href: master-planning/planning-optimization/approved-planned-order.md
                 - name: 通过计划优化自动确认
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: 使用负现有数量进行计划
+                  href: master-planning/planning-optimization/negative-on-hand.md
+                - name: 查看计划历史记录和计划日志
+                  href: master-planning/planning-optimization/plan-history-logs.md
                 - name: 取消计划作业
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: 计划优化可扩展性
-                  href: master-planning/planning-optimization/extensibility.md
                 - name: 解决计划优化问题
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: 计划优化可扩展性
+                  href: master-planning/planning-optimization/extensibility.md
             - name: 主计划
               items:
                 - name: 主计划概览
@@ -2621,6 +2625,8 @@
                   items:
                     - name: 设置群集领料
                       href: warehousing/set-up-cluster-picking.md
+                    - name: 群集位置已满
+                      href: warehousing/cluster-position-full.md
                     - name: 系统导向的群集领料
                       href: warehousing/system-directed-cluster-pick.md
                     - name: 设置集装化

@@ -70,6 +70,8 @@
                   items:
                     - name: “Finance 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.14（2020 年 11 月）
+                      href: get-started/whats-new-changed-10-0-14.md
                     - name: Finance 10.0.13（2020 年 10 月）
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12（2020 年 8 月）
@@ -412,6 +414,8 @@
                   href: accounts-receivable/set-up-collections.md
                 - name: 审核收款信息
                   href: accounts-receivable/tasks/review-collections-information.md
+                - name: 收款流程自动化
+                  href: accounts-receivable/collections-process-automate.md
                 - name: 信用管理设置
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: 信用管理设置信息
@@ -756,6 +760,8 @@
                   href: fixed-assets/175-percent-reducing-balance-depreciation.md
                 - name: 200% 余额递减法折旧
                   href: fixed-assets/200-percent-reducing-balance-depreciation.md
+                - name: 半年折旧惯例方法
+                  href: fixed-assets/half-year-depreciation-methodology.md
                 - name: 额外折旧
                   href: fixed-assets/bonus-depreciation.md
                 - name: 设置额外折旧
@@ -1013,7 +1019,27 @@
             - name: 将报价单转移到项目
               href: project-management/transfer-quote-new-existing-project.md
             - name: 项目资源
-              href: project-management/project-resourcing.md
+              items:
+                - name: 项目资源概览
+                  href: project-management/project-resourcing.md
+                - name: 设置项目资源
+                  href: project-management/set-up-project-resources.md
+                - name: 管理资源能力
+                  href: project-management/manage-resource-competencies.md
+                - name: 创建新项目
+                  href: project-management/create-new-project.md
+                - name: 设置基于角色的定价
+                  href: project-management/set-up-role-based-pricing.md
+                - name: 创建项目团队
+                  href: project-management/create-project-team.md
+                - name: 同步资源产能
+                  href: project-management/synchronize-resource-capacity.md
+                - name: 项目资源计划编制性能
+                  href: project-management/project-scheduling-performance.md
+                - name: 在工作分解结构模板上设置角色
+                  href: project-management/set-up-roles-wbs-template.md
+                - name: 计划资源的资源完成
+                  href: project-management/resource-fulfillment-planned-resources.md
             - name: 根据物料需求接收采购订单上的物料
               href: project-management/tasks/receive-items-purchase-order-item-requirement.md
             - name: 工作分解结构
@@ -1224,11 +1250,21 @@
                   href: localizations/emea-aut-packing-material-fee-calculation.md
                 - name: 增值税报表
                   href: localizations/emea-aut-vat-statement-details.md
+            - name: 巴林
+              items:
+                - name: 巴林概览
+                  href: localizations/bahrain.md
+                - name: 配置巴林的账单版式
+                  href: localizations/emea-bhr-invoice-layout.md
+                - name: 巴林增值税申报
+                  href: localizations/emea-bhr-vat-declaration.md
+                - name: 账单签发截止时间
+                  href: localizations/gcc-invoice-issue-deadline.md
             - name: 比利时
               items:
                 - name: 比利时概览
                   href: localizations/belgium.md
-                - name: CODA 银行对账单
+                - name: CODA 银行对帐单
                   href: localizations/emea-bel-coda-bank-statement-import.md
                 - name: 创建交易记录并将交易记录转移到 BLWI
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
@@ -1496,6 +1532,8 @@
                   href: localizations/emea-amount-printing-forms.md
                 - name: 增值税报表
                   href: localizations/emea-cze-vat-statement-details.md
+                - name: 增值税申报（捷克共和国）
+                  href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: 年终结算
                   href: localizations/emea-cze-hun-year-end.md
             - name: 丹麦
@@ -1778,8 +1816,10 @@
                   href: localizations/emea-hun-tax-reimbursement-docs.md
                 - name: 年终结算
                   href: localizations/emea-cze-hun-year-end.md
-                - name: 在线开单系统
+                - name: 在线开票系统
                   href: localizations/emea-hun-online-invoicing.md
+                - name: 延期销售税计算
+                  href: localizations/emea-hun-deferred-vat.md
             - name: 冰岛
               items:
                 - name: 冰岛概览
@@ -2238,11 +2278,15 @@
                   href: localizations/tasks/use-assemble-list-fixed-asset.md
                 - name: 使用固定资产的拆卸清单
                   href: localizations/tasks/use-disassemble-list-fixed-assets.md
+            - name: 科威特
+              items:
+                - name: 科威特概览
+                  href: localizations/kuwait.md
             - name: 拉脱维亚
               items:
                 - name: 拉脱维亚概览
                   href: localizations/latvia.md
-                - name: 固定资产会计
+                - name: 固定资产核算
                   href: localizations/emea-lva-fixed-assets-accounting.md
                 - name: 固定资产位置更改跟踪
                   href: localizations/emea-lva-fixed-assets-location-fields-change.md
@@ -2288,13 +2332,15 @@
                   href: localizations/tasks/my-00007-self-billed-invoices.md
                 - name: 设置 GST 减免条款
                   href: localizations/tasks/my-00006-01-gst-relief-clauses.md
+                - name: 马来西亚 SST-02 申报
+                  href: localizations/apac-mys-sst-declaration.md
             - name: 墨西哥
               items:
                 - name: 墨西哥概览
                   href: localizations/mexico.md
                 - name: 本地化的范围
                   href: localizations/latam-mex-scope.md
-                - name: 调整通货膨胀申报报告
+                - name: 调整通货膨胀申报报表
                   href: localizations/latam-mex-adjustment-inflation-declaration-report.md
                 - name: 取消电子账单
                   href: localizations/tasks/mx-00010-cancel-electronic-invoice.md
@@ -2328,13 +2374,17 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: 供应商注册 ID
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
+            - name: 阿曼
+              items:
+                - name: 阿曼概览
+                  href: localizations/oman.md
             - name: 荷兰
               items:
                 - name: 荷兰概览
                   href: localizations/netherlands.md
                 - name: 增值税申报
                   href: localizations/emea-nl-VAT-declaration.md
-                - name: 电子纳税申报 (EVAT)
+                - name: 电子纳税申报（电子增值税）
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL 集成
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
@@ -2382,10 +2432,14 @@
                   href: localizations/emea-pol-standard-audit-file-saf.md
                 - name: 税利息和自由利息
                   href: localizations/emea-pol-interest-calculation.md
-                - name: 交易额余额对账单
+                - name: 交易额余额对帐单
                   href: localizations/emea-pol-turnover-balances-statement.md
                 - name: 拆分应付帐款/应收帐款汇率差额
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+            - name: 卡塔尔
+              items:
+                - name: 卡塔尔概览
+                  href: localizations/qatar.md
             - name: 俄罗斯
               items:
                 - name: 俄罗斯概览
@@ -2724,6 +2778,8 @@
                   href: localizations/noam-usa-year-end-1099-reporting.md
                 - name: 公共部门的 1099 表格
                   href: localizations/noam-usa-form-1099-public-sector.md
+                - name: 设置供应商进行 1099 申报
+                  href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
         - name: Human Resources
           items:
             - name: Human Resources 概览
@@ -2970,6 +3026,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: IaaS 环境中的默认报告体验
                   href: ../fin-ops-core/dev-itpro/analytics/reporting-experience-iias-environments.md?toc=/dynamics365/finance/toc.json
+                - name: 文档报告预览选项
+                  href: ../fin-ops-core/dev-itpro/analytics/reporting-printing-preview-page-options.md
                 - name: 正在打印
                   items:
                     - name: 文档打印概览
@@ -3437,7 +3495,11 @@
                     - name: 使用原始 XML 添加内容
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
                     - name: 支持计算字段数据源的参数化调用
-                      href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
+                      items:
+                        - name: 改善用户体验和可用性维护
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
+                        - name: 提高数据访问性能
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-ds-performance.md?toc=/dynamics365/finance/toc.json
                     - name: 跨公司电子报告数据源
                       href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: 使用财务维度明细数据源

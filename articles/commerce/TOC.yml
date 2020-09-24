@@ -88,10 +88,12 @@
               items:
                 - name: Finance and Operations 应用新增功能或更改
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
-                - name: Commerce 中的新增功能或更改
+                - name: Commerce 新增功能或更改
                   items:
-                    - name: “Commerce 中的新增功能或更改”主页
+                    - name: “Commerce 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.14（2020 年 11 月）
+                      href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13（2020 年 10 月）
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12（2020 年 8 月）
@@ -242,9 +244,9 @@
                   href: retail-hardware-station-configuration-installation.md
                 - name: 自助服务组件批量部署
                   href: dev-itpro/retail-mass-deployment.md
-                - name: Retail 组件的诊断和故障排除事件
+                - name: Commerce 组件的诊断和故障排除事件
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
-                - name: 应用可部署包
+                - name: 应用可部署程序包
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: 初始化新 Commerce 环境中的种子数据
                   href: enable-configure-retail-functionality.md
@@ -526,6 +528,8 @@
                       href: omni-channel-payments.md
                     - name: 全渠道 Commerce 订单付款
                       href: dev-itpro/commerce-payments.md
+                    - name: 在没有硬件工作站的情况下处理信用卡
+                      href: dev-itpro/cnp-pos.md
                     - name: 付款常见问题
                       href: dev-itpro/payments-retail.md
                 - name: 为您的组织管理必应地图
@@ -700,7 +704,7 @@
           items:
             - name: 客户订单
               items:
-                - name: MPOS 中的客户订单
+                - name: 销售点 (POS) 中的客户订单
                   href: customer-orders-overview.md
                 - name: 混合客户订单
                   href: hybrid-customer-orders.md
@@ -770,7 +774,7 @@
               href: edit-audit-retail-transactions.md
             - name: 为零售商店交易记录创建基于缓慢馈送的订单
               href: trickle-feed.md
-            - name: 创建、计算和过帐零售商店的对账单
+            - name: 创建、计算和过帐零售商店的对帐单
               href: tasks/create-calculate-post-statement-retail-store.md
             - name: 零售商店中的财务对帐
               href: fin-recon.md
@@ -826,7 +830,9 @@
                   href: custom-pages-user-logins.md
                 - name: 在 Commerce 环境中配置多个 B2C 租户
                   href: configure-multi-B2C-tenants.md
-                - name: 添加对内容传送网络 (CDN) 的支持
+                - name: Dynamics 365 Commerce 中的域
+                  href: domains-commerce.md
+                - name: 添加对内容分发网络 (CDN) 的支持
                   href: add-cdn-support.md
                 - name: 启用基于位置的商店检测
                   href: enable-store-detection.md
@@ -990,6 +996,8 @@
                       href: media-gallery-module.md
                     - name: 评分和评价模块
                       href: ratings-reviews-modules.md
+                    - name: 社交共享模块
+                      href: social-share-module.md
                 - name: 采购模块
                   items:
                     - name: 购物车模块
@@ -1026,6 +1034,12 @@
                   items:
                     - name: 痕迹导航模块
                       href: add-breadcrumb.md
+                    - name: 导航菜单模块
+                      href: nav-menu-module.md
+                - name: 合规性模块
+                  items:
+                    - name: Cookie 同意模块
+                      href: cookie-consent-module.md
             - name: 搜索
               items:
                 - name: 默认类别登陆页面和搜索结果页面概览
@@ -1652,9 +1666,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
                 - name: 推迟执行电子报告格式元素
                   items:
-                    - name: 推迟执行序列元素
+                    - name: 推迟执行电子报告格式的序列元素
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
-                    - name: 推迟执行 XML 元素
+                    - name: 推迟执行电子报告格式的 XML 元素
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
             - name: 在 Finance and Operations 中使用电子报告解决方案
               items:
