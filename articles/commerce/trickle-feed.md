@@ -3,7 +3,7 @@ title: 为零售商店交易记录创建基于缓慢馈送的订单
 description: 本主题介绍如何为 Microsoft Dynamics 365 Commerce 中的商店交易记录创建基于缓慢馈送的订单。
 author: josaw1
 manager: AnnBe
-ms.date: 06/08/2020
+ms.date: 09/04/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6e097ead7cacb3f71452323656546a4be661457f
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.openlocfilehash: 79f99b9b401de3e3bcca6ec5a13a3b4f7bad6f8c
+ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710275"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3766728"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>为零售商店交易记录创建基于缓慢馈送的订单
 
@@ -34,24 +34,22 @@ ms.locfileid: "3710275"
 通过 Retail 版本 10.0.5 中推出的、基于缓慢馈送的订单创建，可在全天中处理交易记录，并且在一天结束时仅处理支付方式和其他现金管理交易记录的财务对帐。 此功能将创建销售订单、发票和付款的负荷拆分到全天中完成，从而更够更清晰地了解绩效并且能够近乎实时地在帐簿中确认收入和付款。 
 
 
-## <a name="how-to-use-trickle-feed-based-posting"></a>如何使用基于缓慢馈送的过账
+## <a name="how-to-use-trickle-feed-based-posting"></a>如何使用基于缓慢馈送的过帐
   
-1. 若要对交易记录启用基于缓慢馈送的过账，请转到**系统管理 > 设置 > 许可证配置**，然后禁用**对账单**密钥。
+1. 要启用基于缓慢馈送的零售交易记录过帐，请使用功能管理启用名为**零售对帐单 - 缓慢馈送**的功能。
 
-2. 在同一页上，启用**对账单（缓慢馈送）– 预览**许可证密钥。 启用此密钥时，请确保不存在等待过账的待处理对账单。 
+    > [!IMPORTANT]
+    > 在启用该功能之前，请确保不存在等待过帐的待处理对帐单。
 
-    > [!Important]
-    > 在启用**对账单（缓慢馈送）– 预览**许可证密钥之前，请确保不存在等待过账的待处理对账单。
+2. 当前对帐单文档将拆分为两种类型：交易记录对帐单和财务报表。
 
-3. 当前对帐单文档将拆分为两种不同的类型，分别为交易记录对帐单和财务对帐单。
-
-      - 交易记录对账单将选取所有未过账的和已验证的交易记录，并按照您配置的频率创建销售订单、销售账单、付款和折扣日记账以及收入-支出交易记录。 您应将此过程配置为以较高的频率运行，以便当通过 P 作业将交易记录上传到 Headquarters 中时会创建文档。 对于已创建销售订单和销售账单的交易记录对账单，则无需配置**过账库存**批处理作业。 但是，您仍可以使用它来满足您可能具有的特定业务需求。  
+      - 交易记录对帐单将选取所有未过帐的和已验证的交易记录，并按照您配置的频率创建销售订单、销售账单、付款和折扣日记帐以及收入-支出交易记录。 您应将此过程配置为以较高的频率运行，以便当通过 P 作业将交易记录上传到 Headquarters 中时会创建文档。 对于已创建销售订单和销售账单的交易记录对账单，则无需配置**过账库存**批处理作业。 但是，您仍可以使用它来满足您可能具有的特定业务需求。  
       
-     - 财务对帐单设计为仅在一天结束时创建，并且仅支持**班次**的结帐方法。 此对账单仅限用于财务对账，并且仅针对不同支付方式的计算金额与交易记录金额之间的差异金额而创建日记账，以及针对其他现金管理交易记录创建日记账。   
+     - 财务报表设计为仅在一天结束时创建，并且仅支持**班次**的结帐方法。 此对帐单仅限用于财务对帐，并且仅针对不同支付方式的计算金额与交易记录金额之间的差异金额而创建日记帐，以及针对其他现金管理交易记录创建日记帐。   
 
-4. 若要计算交易记录对账单，请单击 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过账 > 批量计算交易记录对账单**。 若要批量过账交易记录对账单，请单击 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过账 > 批量过账交易记录对账单**。
+3. 若要计算交易记录对帐单，请转到 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过帐 > 批量计算交易记录对帐单**。 若要对交易记录对帐单进行批量过帐，请转到 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过帐 > 批量过帐交易记录对帐单**。
 
-5. 若要计算财务报表，请单击 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过账 > 批量计算财务报表**。 若要对财务报表进行批量过账，请单击 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过账 > 对财务报表进行批量过账**。
+4. 若要计算财务报表，请转到 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过帐 > 批量计算财务报表**。 若要对财务报表进行批量过帐，请转到 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过帐 > 批量过帐财务报表**。
 
 > [!NOTE]
 > 此新功能中删除了菜单项 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过账 > 批量计算对账单**和 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过账 > 批量过账对账单**。
