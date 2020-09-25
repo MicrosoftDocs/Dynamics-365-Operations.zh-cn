@@ -18,45 +18,45 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6134ae7eb1a8044cf906f2a8d02eb153522a6cf
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: ab953136b7500665bdb13e6ff585e3b76896c9ee
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041921"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744977"
 ---
-# <span data-ttu-id="f315b-103"><a name="REVERSE">REVERSE ER 函数</a></span><span class="sxs-lookup"><span data-stu-id="f315b-103"><a name="REVERSE">REVERSE ER function</a></span></span>
+# <a name="reverse-er-function"></a><span data-ttu-id="bf6af-103">REVERSE ER 函数</span><span class="sxs-lookup"><span data-stu-id="bf6af-103">REVERSE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f315b-104">`REVERSE` 函数以相反的排序顺序将指定列表返回为*记录列表*值。</span><span class="sxs-lookup"><span data-stu-id="f315b-104">The `REVERSE` function returns the specified list as a *Record list* value in reversed sort order.</span></span>
+<span data-ttu-id="bf6af-104">`REVERSE` 函数以相反的排序顺序将指定列表返回为*记录列表*值。</span><span class="sxs-lookup"><span data-stu-id="bf6af-104">The `REVERSE` function returns the specified list as a *Record list* value in reversed sort order.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f315b-105">语法</span><span class="sxs-lookup"><span data-stu-id="f315b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bf6af-105">语法</span><span class="sxs-lookup"><span data-stu-id="bf6af-105">Syntax</span></span>
 
 ```vb
 REVERSE (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="f315b-106">参数</span><span class="sxs-lookup"><span data-stu-id="f315b-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="bf6af-106">参数</span><span class="sxs-lookup"><span data-stu-id="bf6af-106">Arguments</span></span>
 
-<span data-ttu-id="f315b-107">`list`：*记录列表*</span><span class="sxs-lookup"><span data-stu-id="f315b-107">`list`: *Record list*</span></span>
+<span data-ttu-id="bf6af-107">`list`：*记录列表*</span><span class="sxs-lookup"><span data-stu-id="bf6af-107">`list`: *Record list*</span></span>
 
-<span data-ttu-id="f315b-108">*记录列表*数据类型的数据源的有效路径。</span><span class="sxs-lookup"><span data-stu-id="f315b-108">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="bf6af-108">*记录列表*数据类型的数据源的有效路径。</span><span class="sxs-lookup"><span data-stu-id="bf6af-108">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="f315b-109">返回值</span><span class="sxs-lookup"><span data-stu-id="f315b-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="bf6af-109">返回值</span><span class="sxs-lookup"><span data-stu-id="bf6af-109">Return values</span></span>
 
-<span data-ttu-id="f315b-110">*记录列表*</span><span class="sxs-lookup"><span data-stu-id="f315b-110">*Record list*</span></span>
+<span data-ttu-id="bf6af-110">*记录列表*</span><span class="sxs-lookup"><span data-stu-id="bf6af-110">*Record list*</span></span>
 
-<span data-ttu-id="f315b-111">生成的记录列表。</span><span class="sxs-lookup"><span data-stu-id="f315b-111">The resulting list of records.</span></span>
+<span data-ttu-id="bf6af-111">生成的记录列表。</span><span class="sxs-lookup"><span data-stu-id="bf6af-111">The resulting list of records.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="f315b-112">示例 1</span><span class="sxs-lookup"><span data-stu-id="f315b-112">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="bf6af-112">示例 1</span><span class="sxs-lookup"><span data-stu-id="bf6af-112">Example 1</span></span>
 
-<span data-ttu-id="f315b-113">如果输入*计算字段*类型的数据源 **DS**，并且它包含表达式 `SPLIT ("C|B|A", "|")`，表达式 `FIRST( REVERSE( ORDERBY( DS, DS. Value))).Value` 将返回文本值 **"C"**。</span><span class="sxs-lookup"><span data-stu-id="f315b-113">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("C|B|A", "|")`, the expression `FIRST( REVERSE( ORDERBY( DS, DS. Value))).Value` returns the text value **"C"**.</span></span>
+<span data-ttu-id="bf6af-113">如果输入*计算字段*类型的数据源 **DS**，并且它包含表达式 `SPLIT ("C|B|A", "|")`，表达式 `FIRST( REVERSE( ORDERBY( DS, DS. Value))).Value` 将返回文本值 **"C"**。</span><span class="sxs-lookup"><span data-stu-id="bf6af-113">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("C|B|A", "|")`, the expression `FIRST( REVERSE( ORDERBY( DS, DS. Value))).Value` returns the text value **"C"**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="f315b-114">示例 2</span><span class="sxs-lookup"><span data-stu-id="f315b-114">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="bf6af-114">示例 2</span><span class="sxs-lookup"><span data-stu-id="bf6af-114">Example 2</span></span>
 
-<span data-ttu-id="f315b-115">如果**供应商**配置为引用 VendTable 表的电子申报 (ER) 数据源，表达式 `REVERSE (ORDERBY (Vendors, Vendors.'name()'))` 将返回按名称降序排序的供应商列表。</span><span class="sxs-lookup"><span data-stu-id="f315b-115">If **Vendor** is configured as an Electronic reporting (ER) data source that refers to the VendTable table, the expression `REVERSE (ORDERBY (Vendors, Vendors.'name()'))` returns a list of vendors that is sorted by name in descending order.</span></span>
+<span data-ttu-id="bf6af-115">如果**供应商**配置为引用 VendTable 表的电子申报 (ER) 数据源，表达式 `REVERSE (ORDERBY (Vendors, Vendors.'name()'))` 将返回按名称降序排序的供应商列表。</span><span class="sxs-lookup"><span data-stu-id="bf6af-115">If **Vendor** is configured as an Electronic reporting (ER) data source that refers to the VendTable table, the expression `REVERSE (ORDERBY (Vendors, Vendors.'name()'))` returns a list of vendors that is sorted by name in descending order.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="f315b-116">其他资源</span><span class="sxs-lookup"><span data-stu-id="f315b-116">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="bf6af-116">其他资源</span><span class="sxs-lookup"><span data-stu-id="bf6af-116">Additional resources</span></span>
 
-[<span data-ttu-id="f315b-117">列表函数</span><span class="sxs-lookup"><span data-stu-id="f315b-117">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="bf6af-117">列表函数</span><span class="sxs-lookup"><span data-stu-id="bf6af-117">List functions</span></span>](er-functions-category-list.md)

@@ -18,45 +18,45 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c08aca949ffc7e62009bf3f6c664d96b368f43e7
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 20313133ce29b8d5048814ff78ce4ea4f5c54d4a
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040886"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743680"
 ---
-# <span data-ttu-id="883c5-103"><a name="TEXT">TEXT ER 函数</a></span><span class="sxs-lookup"><span data-stu-id="883c5-103"><a name="TEXT">TEXT ER function</a></span></span>
+# <a name="text-er-function"></a><span data-ttu-id="bada0-103">TEXT ER 函数</span><span class="sxs-lookup"><span data-stu-id="bada0-103">TEXT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="883c5-104">在将指定的数字转换为根据当前应用程序实例的服务器区域设置设定格式的文本字符串后，`TEXT` 函数将该数字作为*字符串*值返回。</span><span class="sxs-lookup"><span data-stu-id="883c5-104">The `TEXT` function returns the specified number as a *String* value after it has been converted to a text string that is formatted according to the server locale settings of the current application instance.</span></span>
+<span data-ttu-id="bada0-104">在将指定的数字转换为根据当前应用程序实例的服务器区域设置设定格式的文本字符串后，`TEXT` 函数将该数字作为*字符串*值返回。</span><span class="sxs-lookup"><span data-stu-id="bada0-104">The `TEXT` function returns the specified number as a *String* value after it has been converted to a text string that is formatted according to the server locale settings of the current application instance.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="883c5-105">语法</span><span class="sxs-lookup"><span data-stu-id="883c5-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bada0-105">语法</span><span class="sxs-lookup"><span data-stu-id="bada0-105">Syntax</span></span>
 
 ```vb
 TEXT (number)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="883c5-106">参数</span><span class="sxs-lookup"><span data-stu-id="883c5-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="bada0-106">参数</span><span class="sxs-lookup"><span data-stu-id="bada0-106">Arguments</span></span>
 
-<span data-ttu-id="883c5-107">`number`：*整数*或*实数*</span><span class="sxs-lookup"><span data-stu-id="883c5-107">`number`: *Integer* or *Real*</span></span>
+<span data-ttu-id="bada0-107">`number`：*整数*或*实数*</span><span class="sxs-lookup"><span data-stu-id="bada0-107">`number`: *Integer* or *Real*</span></span>
 
-<span data-ttu-id="883c5-108">必须转换为文本字符串的数字。</span><span class="sxs-lookup"><span data-stu-id="883c5-108">A number that must be converted to a text string.</span></span>
+<span data-ttu-id="bada0-108">必须转换为文本字符串的数字。</span><span class="sxs-lookup"><span data-stu-id="bada0-108">A number that must be converted to a text string.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="883c5-109">返回值</span><span class="sxs-lookup"><span data-stu-id="883c5-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="bada0-109">返回值</span><span class="sxs-lookup"><span data-stu-id="bada0-109">Return values</span></span>
 
-<span data-ttu-id="883c5-110">*字符串*</span><span class="sxs-lookup"><span data-stu-id="883c5-110">*String*</span></span>
+<span data-ttu-id="bada0-110">*字符串*</span><span class="sxs-lookup"><span data-stu-id="bada0-110">*String*</span></span>
 
-<span data-ttu-id="883c5-111">生成的文本值。</span><span class="sxs-lookup"><span data-stu-id="883c5-111">The resulting text value.</span></span>
+<span data-ttu-id="bada0-111">生成的文本值。</span><span class="sxs-lookup"><span data-stu-id="bada0-111">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="883c5-112">使用说明</span><span class="sxs-lookup"><span data-stu-id="883c5-112">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="bada0-112">使用说明</span><span class="sxs-lookup"><span data-stu-id="bada0-112">Usage notes</span></span>
 
-<span data-ttu-id="883c5-113">对于*实数*类型的值，字符串转换被限制为两位小数。</span><span class="sxs-lookup"><span data-stu-id="883c5-113">For values of the *Real* type, the string conversion is limited to two decimal places.</span></span>
+<span data-ttu-id="bada0-113">对于*实数*类型的值，字符串转换被限制为两位小数。</span><span class="sxs-lookup"><span data-stu-id="bada0-113">For values of the *Real* type, the string conversion is limited to two decimal places.</span></span>
 
-## <a name="example"></a><span data-ttu-id="883c5-114">示例</span><span class="sxs-lookup"><span data-stu-id="883c5-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="bada0-114">示例</span><span class="sxs-lookup"><span data-stu-id="bada0-114">Example</span></span>
 
-<span data-ttu-id="883c5-115">如果将 Microsoft Dynamics 365 Finance 实例的服务器区域定义为 **EN-US**，`TEXT (NOW ())` 将返回当前 Finance 会话日期 2015 年 12 月 17 日为文本字符串 **"12/17/2015 07:59:23 AM"**。</span><span class="sxs-lookup"><span data-stu-id="883c5-115">If the server locale of the Microsoft Dynamics 365 Finance instance is defined as **EN-US**, `TEXT (NOW ())` returns the current Finance session date, December 17, 2015, as the text string **"12/17/2015 07:59:23 AM"**.</span></span> <span data-ttu-id="883c5-116">`TEXT (1/3)` 将返回 **"0.33"**。</span><span class="sxs-lookup"><span data-stu-id="883c5-116">`TEXT (1/3)` returns **"0.33"**.</span></span>
+<span data-ttu-id="bada0-115">如果将 Microsoft Dynamics 365 Finance 实例的服务器区域定义为 **EN-US**，`TEXT (NOW ())` 将返回当前 Finance 会话日期 2015 年 12 月 17 日为文本字符串 **"12/17/2015 07:59:23 AM"**。</span><span class="sxs-lookup"><span data-stu-id="bada0-115">If the server locale of the Microsoft Dynamics 365 Finance instance is defined as **EN-US**, `TEXT (NOW ())` returns the current Finance session date, December 17, 2015, as the text string **"12/17/2015 07:59:23 AM"**.</span></span> <span data-ttu-id="bada0-116">`TEXT (1/3)` 将返回 **"0.33"**。</span><span class="sxs-lookup"><span data-stu-id="bada0-116">`TEXT (1/3)` returns **"0.33"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="883c5-117">其他资源</span><span class="sxs-lookup"><span data-stu-id="883c5-117">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="bada0-117">其他资源</span><span class="sxs-lookup"><span data-stu-id="bada0-117">Additional resources</span></span>
 
-[<span data-ttu-id="883c5-118">文本函数</span><span class="sxs-lookup"><span data-stu-id="883c5-118">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="bada0-118">文本函数</span><span class="sxs-lookup"><span data-stu-id="bada0-118">Text functions</span></span>](er-functions-category-text.md)

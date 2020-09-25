@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72d2ea1b26c295c97575a3c7a479ee4e06762424
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: c48483a6677aaeb36eac57a57cec71bf54c7991d
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042197"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745337"
 ---
-# <span data-ttu-id="eb7ae-103"><a name="COUNT">COUNT ER 函数</a></span><span class="sxs-lookup"><span data-stu-id="eb7ae-103"><a name="COUNT">COUNT ER function</a></span></span>
+# <a name="count-er-function"></a><span data-ttu-id="eb2f1-103">COUNT ER 函数</span><span class="sxs-lookup"><span data-stu-id="eb2f1-103">COUNT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="eb7ae-104">`COUNT` 函数返回一个表示指定列表中的记录数的*整数*值（如果列表不为空）。</span><span class="sxs-lookup"><span data-stu-id="eb7ae-104">The `COUNT` function returns an *Integer* value that represents the number of records in the specified list, if the list isn't empty.</span></span> <span data-ttu-id="eb7ae-105">如果列表为空，此函数返回 **0**（零）。</span><span class="sxs-lookup"><span data-stu-id="eb7ae-105">If the list is empty, this function returns **0** (zero).</span></span>
+<span data-ttu-id="eb2f1-104">`COUNT` 函数返回一个表示指定列表中的记录数的*整数*值（如果列表不为空）。</span><span class="sxs-lookup"><span data-stu-id="eb2f1-104">The `COUNT` function returns an *Integer* value that represents the number of records in the specified list, if the list isn't empty.</span></span> <span data-ttu-id="eb2f1-105">如果列表为空，此函数返回 **0**（零）。</span><span class="sxs-lookup"><span data-stu-id="eb2f1-105">If the list is empty, this function returns **0** (zero).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="eb7ae-106">语法</span><span class="sxs-lookup"><span data-stu-id="eb7ae-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="eb2f1-106">语法</span><span class="sxs-lookup"><span data-stu-id="eb2f1-106">Syntax</span></span>
 
 ```vb
 COUNT (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="eb7ae-107">参数</span><span class="sxs-lookup"><span data-stu-id="eb7ae-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="eb2f1-107">参数</span><span class="sxs-lookup"><span data-stu-id="eb2f1-107">Arguments</span></span>
 
-<span data-ttu-id="eb7ae-108">`list`：*记录列表*</span><span class="sxs-lookup"><span data-stu-id="eb7ae-108">`list`: *Record list*</span></span>
+<span data-ttu-id="eb2f1-108">`list`：*记录列表*</span><span class="sxs-lookup"><span data-stu-id="eb2f1-108">`list`: *Record list*</span></span>
 
-<span data-ttu-id="eb7ae-109">*记录列表*数据类型的数据源的有效路径。</span><span class="sxs-lookup"><span data-stu-id="eb7ae-109">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="eb2f1-109">*记录列表*数据类型的数据源的有效路径。</span><span class="sxs-lookup"><span data-stu-id="eb2f1-109">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="eb7ae-110">返回值</span><span class="sxs-lookup"><span data-stu-id="eb7ae-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="eb2f1-110">返回值</span><span class="sxs-lookup"><span data-stu-id="eb2f1-110">Return values</span></span>
 
-<span data-ttu-id="eb7ae-111">*整数*</span><span class="sxs-lookup"><span data-stu-id="eb7ae-111">*Integer*</span></span>
+<span data-ttu-id="eb2f1-111">*整数*</span><span class="sxs-lookup"><span data-stu-id="eb2f1-111">*Integer*</span></span>
 
-<span data-ttu-id="eb7ae-112">生成的数字值。</span><span class="sxs-lookup"><span data-stu-id="eb7ae-112">The resulting numeric value.</span></span>
+<span data-ttu-id="eb2f1-112">生成的数字值。</span><span class="sxs-lookup"><span data-stu-id="eb2f1-112">The resulting numeric value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="eb7ae-113">示例</span><span class="sxs-lookup"><span data-stu-id="eb7ae-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="eb2f1-113">示例</span><span class="sxs-lookup"><span data-stu-id="eb2f1-113">Example</span></span>
 
-<span data-ttu-id="eb7ae-114">`COUNT (SPLIT("abcd" , 3))` 返回 **2**，因为本示例中使用的 `SPLIT` 函数创建一个包含两个记录的列表。</span><span class="sxs-lookup"><span data-stu-id="eb7ae-114">`COUNT (SPLIT("abcd" , 3))` returns **2**, because the `SPLIT` function that is used in this example creates a list that consists of two records.</span></span>
+<span data-ttu-id="eb2f1-114">`COUNT (SPLIT("abcd" , 3))` 返回 **2**，因为本示例中使用的 `SPLIT` 函数创建一个包含两个记录的列表。</span><span class="sxs-lookup"><span data-stu-id="eb2f1-114">`COUNT (SPLIT("abcd" , 3))` returns **2**, because the `SPLIT` function that is used in this example creates a list that consists of two records.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="eb7ae-115">其他资源</span><span class="sxs-lookup"><span data-stu-id="eb7ae-115">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="eb2f1-115">其他资源</span><span class="sxs-lookup"><span data-stu-id="eb2f1-115">Additional resources</span></span>
 
-[<span data-ttu-id="eb7ae-116">列表函数</span><span class="sxs-lookup"><span data-stu-id="eb7ae-116">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="eb2f1-116">列表函数</span><span class="sxs-lookup"><span data-stu-id="eb2f1-116">List functions</span></span>](er-functions-category-list.md)
