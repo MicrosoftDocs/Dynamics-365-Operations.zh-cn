@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d11e2d8b46614085156228ab1001d1f9340a05b0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 3f8a8e2006fe279b25bbf154c6e1802babf51117
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040955"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744351"
 ---
-# <span data-ttu-id="d0055-103"><a name="PADLEFT">PADLEFT ER 函数</a></span><span class="sxs-lookup"><span data-stu-id="d0055-103"><a name="PADLEFT">PADLEFT ER function</a></span></span>
+# <a name="padleft-er-function"></a><span data-ttu-id="41771-103">PADLEFT ER 函数</span><span class="sxs-lookup"><span data-stu-id="41771-103">PADLEFT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d0055-104">`PADLEFT` 函数返回指定长度的*字符串*值，其中指定字符串的开头是使用指定字符填充的。</span><span class="sxs-lookup"><span data-stu-id="d0055-104">The `PADLEFT` function returns a *String* value of the specified length, where the start of the specified string is padded with the specified characters.</span></span>
+<span data-ttu-id="41771-104">`PADLEFT` 函数返回指定长度的*字符串*值，其中指定字符串的开头是使用指定字符填充的。</span><span class="sxs-lookup"><span data-stu-id="41771-104">The `PADLEFT` function returns a *String* value of the specified length, where the start of the specified string is padded with the specified characters.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d0055-105">语法</span><span class="sxs-lookup"><span data-stu-id="d0055-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="41771-105">语法</span><span class="sxs-lookup"><span data-stu-id="41771-105">Syntax</span></span>
 
 ```vb
 PADLEFT (text, length, padding chars)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="d0055-106">参数</span><span class="sxs-lookup"><span data-stu-id="d0055-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="41771-106">参数</span><span class="sxs-lookup"><span data-stu-id="41771-106">Arguments</span></span>
 
-<span data-ttu-id="d0055-107">`text`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="d0055-107">`text`: *String*</span></span>
+<span data-ttu-id="41771-107">`text`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="41771-107">`text`: *String*</span></span>
 
-<span data-ttu-id="d0055-108">代表原始文本的*字符串*值。</span><span class="sxs-lookup"><span data-stu-id="d0055-108">A *String* value that represents the original text.</span></span>
+<span data-ttu-id="41771-108">代表原始文本的*字符串*值。</span><span class="sxs-lookup"><span data-stu-id="41771-108">A *String* value that represents the original text.</span></span>
 
-<span data-ttu-id="d0055-109">`length`：*整数*</span><span class="sxs-lookup"><span data-stu-id="d0055-109">`length`: *Integer*</span></span>
+<span data-ttu-id="41771-109">`length`：*整数*</span><span class="sxs-lookup"><span data-stu-id="41771-109">`length`: *Integer*</span></span>
 
-<span data-ttu-id="d0055-110">表示填充的字符串中最终的字符数的*整数*值。</span><span class="sxs-lookup"><span data-stu-id="d0055-110">An *Integer* value that represents the final number of characters in the padded string.</span></span>
+<span data-ttu-id="41771-110">表示填充的字符串中最终的字符数的*整数*值。</span><span class="sxs-lookup"><span data-stu-id="41771-110">An *Integer* value that represents the final number of characters in the padded string.</span></span>
 
-<span data-ttu-id="d0055-111">`padding chars`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="d0055-111">`padding chars`: *String*</span></span>
+<span data-ttu-id="41771-111">`padding chars`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="41771-111">`padding chars`: *String*</span></span>
 
-<span data-ttu-id="d0055-112">用于填充的字符。</span><span class="sxs-lookup"><span data-stu-id="d0055-112">The characters to use for padding.</span></span>
+<span data-ttu-id="41771-112">用于填充的字符。</span><span class="sxs-lookup"><span data-stu-id="41771-112">The characters to use for padding.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="d0055-113">返回值</span><span class="sxs-lookup"><span data-stu-id="d0055-113">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="41771-113">返回值</span><span class="sxs-lookup"><span data-stu-id="41771-113">Return values</span></span>
 
-<span data-ttu-id="d0055-114">*字符串*</span><span class="sxs-lookup"><span data-stu-id="d0055-114">*String*</span></span>
+<span data-ttu-id="41771-114">*字符串*</span><span class="sxs-lookup"><span data-stu-id="41771-114">*String*</span></span>
 
-<span data-ttu-id="d0055-115">生成的文本值。</span><span class="sxs-lookup"><span data-stu-id="d0055-115">The resulting text value.</span></span>
+<span data-ttu-id="41771-115">生成的文本值。</span><span class="sxs-lookup"><span data-stu-id="41771-115">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d0055-116">示例</span><span class="sxs-lookup"><span data-stu-id="d0055-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="41771-116">示例</span><span class="sxs-lookup"><span data-stu-id="41771-116">Example</span></span>
 
-<span data-ttu-id="d0055-117">`PADLEFT ("1234", 10, "`&nbsp;`")` 返回文本字符串 **"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234"**。</span><span class="sxs-lookup"><span data-stu-id="d0055-117">`PADLEFT ("1234", 10, "`&nbsp;`")` returns the text string **"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234"**.</span></span>
+<span data-ttu-id="41771-117">`PADLEFT ("1234", 10, "`&nbsp;`")` 返回文本字符串 **"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234"**。</span><span class="sxs-lookup"><span data-stu-id="41771-117">`PADLEFT ("1234", 10, "`&nbsp;`")` returns the text string **"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="d0055-118">其他资源</span><span class="sxs-lookup"><span data-stu-id="d0055-118">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="41771-118">其他资源</span><span class="sxs-lookup"><span data-stu-id="41771-118">Additional resources</span></span>
 
-[<span data-ttu-id="d0055-119">文本函数</span><span class="sxs-lookup"><span data-stu-id="d0055-119">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="41771-119">文本函数</span><span class="sxs-lookup"><span data-stu-id="41771-119">Text functions</span></span>](er-functions-category-text.md)

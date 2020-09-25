@@ -18,39 +18,39 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 24a295a6ad8aca7718e60dd351248c9fbfdafee8
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: edf43cc19636f51387504a7d9da73d757d96e558
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042312"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744279"
 ---
-# <span data-ttu-id="768a0-103"><a name="NULLDATE">NULLDATE ER 函数</a></span><span class="sxs-lookup"><span data-stu-id="768a0-103"><a name="NULLDATE">NULLDATE ER function</a></span></span>
+# <a name="nulldate-er-function"></a><span data-ttu-id="e8868-103">NULLDATE ER 函数</span><span class="sxs-lookup"><span data-stu-id="e8868-103">NULLDATE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="768a0-104">`NULLDATE` 函数返回一个表示**空**日期（1900 年 1 月 1 日）的*日期*值。</span><span class="sxs-lookup"><span data-stu-id="768a0-104">The `NULLDATE` function returns a *Date* value that represents the **null** date (January 1, 1900).</span></span>
+<span data-ttu-id="e8868-104">`NULLDATE` 函数返回一个表示**空**日期（1900 年 1 月 1 日）的*日期*值。</span><span class="sxs-lookup"><span data-stu-id="e8868-104">The `NULLDATE` function returns a *Date* value that represents the **null** date (January 1, 1900).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="768a0-105">语法</span><span class="sxs-lookup"><span data-stu-id="768a0-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e8868-105">语法</span><span class="sxs-lookup"><span data-stu-id="e8868-105">Syntax</span></span>
 
 ```vb
 NULLDATE () as 
 ```
 
-## <a name="return-values"></a><span data-ttu-id="768a0-106">返回值</span><span class="sxs-lookup"><span data-stu-id="768a0-106">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="e8868-106">返回值</span><span class="sxs-lookup"><span data-stu-id="e8868-106">Return values</span></span>
 
-<span data-ttu-id="768a0-107">*日期*</span><span class="sxs-lookup"><span data-stu-id="768a0-107">*Date*</span></span>
+<span data-ttu-id="e8868-107">*日期*</span><span class="sxs-lookup"><span data-stu-id="e8868-107">*Date*</span></span>
 
-<span data-ttu-id="768a0-108">生成的日期值。</span><span class="sxs-lookup"><span data-stu-id="768a0-108">The resulting date value.</span></span>
+<span data-ttu-id="e8868-108">生成的日期值。</span><span class="sxs-lookup"><span data-stu-id="e8868-108">The resulting date value.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="768a0-109">示例 1</span><span class="sxs-lookup"><span data-stu-id="768a0-109">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="e8868-109">示例 1</span><span class="sxs-lookup"><span data-stu-id="e8868-109">Example 1</span></span>
 
-<span data-ttu-id="768a0-110">`DATEFORMAT (NULLDATE(), "yyyy-MM-dd")` 基于指定的自定义格式返回**空**日期 1900 年 1 月 1 日为 **"1900-01-01"**。</span><span class="sxs-lookup"><span data-stu-id="768a0-110">`DATEFORMAT (NULLDATE(), "yyyy-MM-dd")` returns the **null** date, January 1, 1900, as **"1900-01-01"**, based on the specified custom format.</span></span>
+<span data-ttu-id="e8868-110">`DATEFORMAT (NULLDATE(), "yyyy-MM-dd")` 基于指定的自定义格式返回**空**日期 1900 年 1 月 1 日为 **"1900-01-01"**。</span><span class="sxs-lookup"><span data-stu-id="e8868-110">`DATEFORMAT (NULLDATE(), "yyyy-MM-dd")` returns the **null** date, January 1, 1900, as **"1900-01-01"**, based on the specified custom format.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="768a0-111">示例 2</span><span class="sxs-lookup"><span data-stu-id="768a0-111">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="e8868-111">示例 2</span><span class="sxs-lookup"><span data-stu-id="e8868-111">Example 2</span></span>
 
-<span data-ttu-id="768a0-112">当 **DocumentDate** 字段的值等于**空**日期时，表达式 `IF( Invoice.DocumentDate = NULLDATE(), true, false)` 返回 **True**。</span><span class="sxs-lookup"><span data-stu-id="768a0-112">The expression `IF( Invoice.DocumentDate = NULLDATE(), true, false)` returns **True** when the value of the **DocumentDate** field equals the **null** date.</span></span> <span data-ttu-id="768a0-113">在此示例中，**Invoice** 为 **Finance/Table 记录**类型的电子申报 (ER) 数据源，引用 CustInvoiceJour 表。</span><span class="sxs-lookup"><span data-stu-id="768a0-113">In this example, **Invoice** is an Electronic reporting (ER) data source of the **Finance/Table records** type, and it refers to the CustInvoiceJour table.</span></span>
+<span data-ttu-id="e8868-112">当 **DocumentDate** 字段的值等于**空**日期时，表达式 `IF( Invoice.DocumentDate = NULLDATE(), true, false)` 返回 **True**。</span><span class="sxs-lookup"><span data-stu-id="e8868-112">The expression `IF( Invoice.DocumentDate = NULLDATE(), true, false)` returns **True** when the value of the **DocumentDate** field equals the **null** date.</span></span> <span data-ttu-id="e8868-113">在此示例中，**Invoice** 为 **Finance/Table 记录**类型的电子申报 (ER) 数据源，引用 CustInvoiceJour 表。</span><span class="sxs-lookup"><span data-stu-id="e8868-113">In this example, **Invoice** is an Electronic reporting (ER) data source of the **Finance/Table records** type, and it refers to the CustInvoiceJour table.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="768a0-114">其他资源</span><span class="sxs-lookup"><span data-stu-id="768a0-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="e8868-114">其他资源</span><span class="sxs-lookup"><span data-stu-id="e8868-114">Additional resources</span></span>
 
-[<span data-ttu-id="768a0-115">日期和时间函数</span><span class="sxs-lookup"><span data-stu-id="768a0-115">Date and time functions</span></span>](er-functions-category-datetime.md)
+[<span data-ttu-id="e8868-115">日期和时间函数</span><span class="sxs-lookup"><span data-stu-id="e8868-115">Date and time functions</span></span>](er-functions-category-datetime.md)

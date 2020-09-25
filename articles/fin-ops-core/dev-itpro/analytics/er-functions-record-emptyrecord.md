@@ -18,46 +18,46 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a02cdd085a236065bb3622b36f7d3284144d96e5
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 2e46fcef3d53483b782ac39a0661fc0edc8d861c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041265"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743942"
 ---
-# <span data-ttu-id="1c43e-103"><a name="EMPTYRECORD">EMPTYRECORD ER 函数</a></span><span class="sxs-lookup"><span data-stu-id="1c43e-103"><a name="EMPTYRECORD">EMPTYRECORD ER function</a></span></span>
+# <a name="emptyrecord-er-function"></a><span data-ttu-id="5d64e-103">EMPTYRECORD ER 函数</span><span class="sxs-lookup"><span data-stu-id="5d64e-103">EMPTYRECORD ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="1c43e-104">`EMPTYRECORD` 函数返回与指定记录列表或记录具有相同结构的空*容器（记录）* 值。</span><span class="sxs-lookup"><span data-stu-id="1c43e-104">The `EMPTYRECORD` function returns a null *Container (record)* value that has the same structure as the specified record list or record.</span></span>
+<span data-ttu-id="5d64e-104">`EMPTYRECORD` 函数返回与指定记录列表或记录具有相同结构的空*容器（记录）* 值。</span><span class="sxs-lookup"><span data-stu-id="5d64e-104">The `EMPTYRECORD` function returns a null *Container (record)* value that has the same structure as the specified record list or record.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1c43e-105">语法</span><span class="sxs-lookup"><span data-stu-id="1c43e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5d64e-105">语法</span><span class="sxs-lookup"><span data-stu-id="5d64e-105">Syntax</span></span>
 
 ```vb
 EMPTYRECORD (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="1c43e-106">参数</span><span class="sxs-lookup"><span data-stu-id="1c43e-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="5d64e-106">参数</span><span class="sxs-lookup"><span data-stu-id="5d64e-106">Arguments</span></span>
 
-<span data-ttu-id="1c43e-107">`list`：*记录列表*或*容器（记录）*</span><span class="sxs-lookup"><span data-stu-id="1c43e-107">`list`: *Record list* or *Container (record)*</span></span>
+<span data-ttu-id="5d64e-107">`list`：*记录列表*或*容器（记录）*</span><span class="sxs-lookup"><span data-stu-id="5d64e-107">`list`: *Record list* or *Container (record)*</span></span>
 
-<span data-ttu-id="1c43e-108">*记录列表*或*容器（记录）* 类型的数据源的有效路径。</span><span class="sxs-lookup"><span data-stu-id="1c43e-108">The valid path of a data source of either the *Record list* or *Container (record)* type.</span></span>
+<span data-ttu-id="5d64e-108">*记录列表*或*容器（记录）* 类型的数据源的有效路径。</span><span class="sxs-lookup"><span data-stu-id="5d64e-108">The valid path of a data source of either the *Record list* or *Container (record)* type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="1c43e-109">返回值</span><span class="sxs-lookup"><span data-stu-id="1c43e-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="5d64e-109">返回值</span><span class="sxs-lookup"><span data-stu-id="5d64e-109">Return values</span></span>
 
-<span data-ttu-id="1c43e-110">*容器（记录）*</span><span class="sxs-lookup"><span data-stu-id="1c43e-110">*Container (record)*</span></span>
+<span data-ttu-id="5d64e-110">*容器（记录）*</span><span class="sxs-lookup"><span data-stu-id="5d64e-110">*Container (record)*</span></span>
 
-<span data-ttu-id="1c43e-111">生成的记录值。</span><span class="sxs-lookup"><span data-stu-id="1c43e-111">The resulting record value.</span></span>
+<span data-ttu-id="5d64e-111">生成的记录值。</span><span class="sxs-lookup"><span data-stu-id="5d64e-111">The resulting record value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="1c43e-112">使用说明</span><span class="sxs-lookup"><span data-stu-id="1c43e-112">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="5d64e-112">使用说明</span><span class="sxs-lookup"><span data-stu-id="5d64e-112">Usage notes</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="1c43e-113">null 记录为其中的所有字符串都有空值的记录。</span><span class="sxs-lookup"><span data-stu-id="1c43e-113">A null record is a record where all fields have an empty value.</span></span> <span data-ttu-id="1c43e-114">空值对于数字来说为 **0**（零），对于字符串来说为空字符串，依此类推。</span><span class="sxs-lookup"><span data-stu-id="1c43e-114">An empty value is **0** (zero) for numbers, an empty string for strings, and so on.</span></span>
+> <span data-ttu-id="5d64e-113">null 记录为其中的所有字符串都有空值的记录。</span><span class="sxs-lookup"><span data-stu-id="5d64e-113">A null record is a record where all fields have an empty value.</span></span> <span data-ttu-id="5d64e-114">空值对于数字来说为 **0**（零），对于字符串来说为空字符串，依此类推。</span><span class="sxs-lookup"><span data-stu-id="5d64e-114">An empty value is **0** (zero) for numbers, an empty string for strings, and so on.</span></span>
 
-## <a name="example"></a><span data-ttu-id="1c43e-115">示例</span><span class="sxs-lookup"><span data-stu-id="1c43e-115">Example</span></span>
+## <a name="example"></a><span data-ttu-id="5d64e-115">示例</span><span class="sxs-lookup"><span data-stu-id="5d64e-115">Example</span></span>
 
-<span data-ttu-id="1c43e-116">`EMPTYRECORD (SPLIT ("abc", 1))` 返回具有与 `SPLIT` 函数返回的列表相同结构的新空记录。</span><span class="sxs-lookup"><span data-stu-id="1c43e-116">`EMPTYRECORD (SPLIT ("abc", 1))` returns a new empty record that has the same structure as the list that is returned by the `SPLIT` function.</span></span> <span data-ttu-id="1c43e-117">有关详细信息，请参阅 [SPLIT](er-functions-list-split.md)。</span><span class="sxs-lookup"><span data-stu-id="1c43e-117">For more information, see [SPLIT](er-functions-list-split.md).</span></span>
+<span data-ttu-id="5d64e-116">`EMPTYRECORD (SPLIT ("abc", 1))` 返回具有与 `SPLIT` 函数返回的列表相同结构的新空记录。</span><span class="sxs-lookup"><span data-stu-id="5d64e-116">`EMPTYRECORD (SPLIT ("abc", 1))` returns a new empty record that has the same structure as the list that is returned by the `SPLIT` function.</span></span> <span data-ttu-id="5d64e-117">有关详细信息，请参阅 [SPLIT](er-functions-list-split.md)。</span><span class="sxs-lookup"><span data-stu-id="5d64e-117">For more information, see [SPLIT](er-functions-list-split.md).</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="1c43e-118">其他资源</span><span class="sxs-lookup"><span data-stu-id="1c43e-118">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="5d64e-118">其他资源</span><span class="sxs-lookup"><span data-stu-id="5d64e-118">Additional resources</span></span>
 
-[<span data-ttu-id="1c43e-119">记录函数</span><span class="sxs-lookup"><span data-stu-id="1c43e-119">Record functions</span></span>](er-functions-category-record.md)
+[<span data-ttu-id="5d64e-119">记录函数</span><span class="sxs-lookup"><span data-stu-id="5d64e-119">Record functions</span></span>](er-functions-category-record.md)

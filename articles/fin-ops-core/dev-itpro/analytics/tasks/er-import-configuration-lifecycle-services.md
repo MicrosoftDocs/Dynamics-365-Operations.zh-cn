@@ -1,14 +1,14 @@
 ---
-title: ER 从 Lifecycle Services 导入配置
-description: 以下步骤说明系统管理员或电子报表开发人员角色的用户可如何从 Microsoft Lifecycle Services (LCS) 导入新电子申报 (ER) 配置版本。
+title: 从 Lifecycle Services 导入配置
+description: 此主题介绍系统管理员或电子报表开发人员角色的用户如何从 Microsoft Dynamics Lifecycle Services (LCS) 导入新电子申报 (ER) 配置版本。
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable,  ERSolutionRepositoryTable, ERSolutionImport
+ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,57 +16,91 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67e09e3187ac49e12727116f55066b64a386e2de
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 59dbbf820f7a3de1e5fb31f781943320b8b1a60a
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142378"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810635"
 ---
-# <a name="er-import-a-configuration-from-lifecycle-services"></a><span data-ttu-id="18e6e-103">ER 从 Lifecycle Services 导入配置</span><span class="sxs-lookup"><span data-stu-id="18e6e-103">ER Import a configuration from Lifecycle Services</span></span>
+# <a name="import-a-configuration-from-lifecycle-services"></a><span data-ttu-id="bb581-103">从 Lifecycle Services 导入配置</span><span class="sxs-lookup"><span data-stu-id="bb581-103">Import a configuration from Lifecycle Services</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="18e6e-104">以下步骤说明系统管理员或电子报表开发人员角色的用户可如何从 Microsoft Lifecycle Services (LCS) 导入新电子申报 (ER) 配置版本。</span><span class="sxs-lookup"><span data-stu-id="18e6e-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can import a new version of an Electronic reporting (ER) configuration from Microsoft Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="bb581-104">此主题介绍系统管理员或电子报表开发人员角色的用户如何从 Microsoft Dynamics Lifecycle Services (LCS) 中的[项目级资产库](../../lifecycle-services/asset-library.md)导入新[电子申报 (ER) 配置](../general-electronic-reporting.md#Configuration)版本。</span><span class="sxs-lookup"><span data-stu-id="bb581-104">This topic explains how a user in the System administrator or Electronic reporting developer role can import a new version of an [Electronic reporting (ER) configuration](../general-electronic-reporting.md#Configuration) from the [project-level Asset library](../../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-<span data-ttu-id="18e6e-105">在此示例中，您将为示例公司 Litware 公司选择所需的 ER 配置版本并将其导入。这些步骤适用于所有公司，因为这些公司共享 ER 配置。</span><span class="sxs-lookup"><span data-stu-id="18e6e-105">In this example, you will select the desired version of the ER configuration and import it for sample company, Litware, Inc. These steps can be performed in any company as ER configurations are shared among companies.</span></span> <span data-ttu-id="18e6e-106">为了完成这些步骤，您必须首先完成“将 ER 配置上载到 Lifecycle Services”这一过程中的步骤。</span><span class="sxs-lookup"><span data-stu-id="18e6e-106">To complete these steps, you must first complete the steps in the "Upload an ER configuration into Lifecycle Services" procedure.</span></span> <span data-ttu-id="18e6e-107">完成这些步骤还需要能够访问 LCS。</span><span class="sxs-lookup"><span data-stu-id="18e6e-107">Access to LCS is also required for completion of these steps.</span></span>
+<span data-ttu-id="bb581-105">在此示例中，您将为名称为 Litware, Inc. 的示例公司选择所需的 ER 配置版本并将其导入。这些步骤可以在任何公司完成，因为这些公司共享 ER 配置。</span><span class="sxs-lookup"><span data-stu-id="bb581-105">In this example, you will select the desired version of the ER configuration and import it for a sample company that is named Litware, Inc. These steps can be completed in any company, because ER configurations are shared among companies.</span></span> <span data-ttu-id="bb581-106">为了完成这些步骤，您必须首先完成[将配置上载到 Lifecycle Services](er-upload-configuration-into-lifecycle-services.md) 中的步骤。</span><span class="sxs-lookup"><span data-stu-id="bb581-106">To complete these steps, you must first complete the steps in [Upload a configuration into Lifecycle Services](er-upload-configuration-into-lifecycle-services.md).</span></span> <span data-ttu-id="bb581-107">还需要 LCS 的访问权限。</span><span class="sxs-lookup"><span data-stu-id="bb581-107">Access to LCS is also required.</span></span>
 
-1. <span data-ttu-id="18e6e-108">转到“组织管理”>“工作区”>“电子申报”。</span><span class="sxs-lookup"><span data-stu-id="18e6e-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="18e6e-109">单击“配置”。</span><span class="sxs-lookup"><span data-stu-id="18e6e-109">Click Configurations.</span></span>
+1. <span data-ttu-id="bb581-108">通过使用以下角色之一登录到应用程序：</span><span class="sxs-lookup"><span data-stu-id="bb581-108">Sign in to the application by using one of the following roles:</span></span>
 
-## <a name="delete-a-shared-version-of-data-model-configuration"></a><span data-ttu-id="18e6e-110">删除数据模型配置的共享版本</span><span class="sxs-lookup"><span data-stu-id="18e6e-110">Delete a shared version of data model configuration</span></span>
-1. <span data-ttu-id="18e6e-111">在树结构中，选择“示例模型配置”。</span><span class="sxs-lookup"><span data-stu-id="18e6e-111">In the tree, select 'Sample model configuration'.</span></span>
-    * <span data-ttu-id="18e6e-112">在“将 ER 配置上载到 Lifecycle Services”过程中，示例数据模型配置的第一个版本已创建并发布到 LCS。</span><span class="sxs-lookup"><span data-stu-id="18e6e-112">The first version of a sample data model configuration has been created and published to LCS during the "Upload an ER configuration into Lifecycle Services" procedure.</span></span> <span data-ttu-id="18e6e-113">在此过程中，您将删除 ER 配置的这一版本。</span><span class="sxs-lookup"><span data-stu-id="18e6e-113">In this procedure, you will delete this version of the ER configuration.</span></span> <span data-ttu-id="18e6e-114">此示例数据模型配置版本以后将从 LCS 导入。</span><span class="sxs-lookup"><span data-stu-id="18e6e-114">This version of a sample data model configuration will be imported later from LCS.</span></span>  
-2. <span data-ttu-id="18e6e-115">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="18e6e-115">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="18e6e-116">选择状态不为“已共享”的此配置的版本。</span><span class="sxs-lookup"><span data-stu-id="18e6e-116">Select the version of this configuration that is in the 'Shared' status.</span></span> <span data-ttu-id="18e6e-117">此状态指示配置已发布到为 LCS。</span><span class="sxs-lookup"><span data-stu-id="18e6e-117">This status indicates that the configuration has been published to LCS.</span></span>  
-3. <span data-ttu-id="18e6e-118">单击“更改状态”。</span><span class="sxs-lookup"><span data-stu-id="18e6e-118">Click Change status.</span></span>
-4. <span data-ttu-id="18e6e-119">单击“中断”。</span><span class="sxs-lookup"><span data-stu-id="18e6e-119">Click Discontinue.</span></span>
-    * <span data-ttu-id="18e6e-120">将所选版本的状态从“已共享”更改为“已中断”以使它可删除。</span><span class="sxs-lookup"><span data-stu-id="18e6e-120">Change the status of the selected version from 'Shared' to 'Discontinued' to make it available for deletion.</span></span>  
-5. <span data-ttu-id="18e6e-121">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="18e6e-121">Click OK.</span></span>
-6. <span data-ttu-id="18e6e-122">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="18e6e-122">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="18e6e-123">选择状态为“已中断”的此配置的版本。</span><span class="sxs-lookup"><span data-stu-id="18e6e-123">Select the version of this configuration that has a status of 'Discontinued'.</span></span>  
-7. <span data-ttu-id="18e6e-124">单击“删除”。</span><span class="sxs-lookup"><span data-stu-id="18e6e-124">Click Delete.</span></span>
-8. <span data-ttu-id="18e6e-125">单击“是”。</span><span class="sxs-lookup"><span data-stu-id="18e6e-125">Click Yes.</span></span>
-    * <span data-ttu-id="18e6e-126">请注意，仅所选数据模型配置的草稿版本 2 可用。</span><span class="sxs-lookup"><span data-stu-id="18e6e-126">Note that the only draft version 2 of the selected data model configuration is available.</span></span>  
-9. <span data-ttu-id="18e6e-127">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="18e6e-127">Close the page.</span></span>
+    - <span data-ttu-id="bb581-109">电子申报开发人员</span><span class="sxs-lookup"><span data-stu-id="bb581-109">Electronic reporting developer</span></span>
+    - <span data-ttu-id="bb581-110">系统管理员</span><span class="sxs-lookup"><span data-stu-id="bb581-110">System administrator</span></span>
 
-## <a name="import-a-shared-version-of-data-model-configuration-from-lcs"></a><span data-ttu-id="18e6e-128">从 LCS 导入数据模型配置的共享版本</span><span class="sxs-lookup"><span data-stu-id="18e6e-128">Import a shared version of data model configuration from LCS</span></span>
-1. <span data-ttu-id="18e6e-129">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="18e6e-129">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="18e6e-130">打开“Litware 公司”的存储库列表。</span><span class="sxs-lookup"><span data-stu-id="18e6e-130">Open the list of repositories for the 'Litware, Inc.'</span></span> <span data-ttu-id="18e6e-131">配置提供程序的存储库列表。</span><span class="sxs-lookup"><span data-stu-id="18e6e-131">configuration provider.</span></span>  
-2. <span data-ttu-id="18e6e-132">单击“存储库”。</span><span class="sxs-lookup"><span data-stu-id="18e6e-132">Click Repositories.</span></span>
-3. <span data-ttu-id="18e6e-133">单击“打开”。</span><span class="sxs-lookup"><span data-stu-id="18e6e-133">Click Open.</span></span>
-    * <span data-ttu-id="18e6e-134">选择 LCS 存储库然后打开它。</span><span class="sxs-lookup"><span data-stu-id="18e6e-134">Select the LCS repository and open it.</span></span>  
-4. <span data-ttu-id="18e6e-135">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="18e6e-135">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="18e6e-136">选择版本列表中“示例模型配置”的第一个版本。</span><span class="sxs-lookup"><span data-stu-id="18e6e-136">Select the first version of the 'Sample model configuration' in the versions list.</span></span>  
-5. <span data-ttu-id="18e6e-137">单击“导入”。</span><span class="sxs-lookup"><span data-stu-id="18e6e-137">Click Import.</span></span>
-6. <span data-ttu-id="18e6e-138">单击“是”。</span><span class="sxs-lookup"><span data-stu-id="18e6e-138">Click Yes.</span></span>
-    * <span data-ttu-id="18e6e-139">确认将所选版本从 LCS 导入。</span><span class="sxs-lookup"><span data-stu-id="18e6e-139">Confirm the import of the selected version from LCS .</span></span>  
-    * <span data-ttu-id="18e6e-140">请注意，信息消息（在窗体上方）确认所选版本导入的成功完成。</span><span class="sxs-lookup"><span data-stu-id="18e6e-140">Note that the information message (above the form) confirms the successful completion of the import of the selected version.</span></span>  
-7. <span data-ttu-id="18e6e-141">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="18e6e-141">Close the page.</span></span>
-8. <span data-ttu-id="18e6e-142">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="18e6e-142">Close the page.</span></span>
-9. <span data-ttu-id="18e6e-143">单击“配置”。</span><span class="sxs-lookup"><span data-stu-id="18e6e-143">Click Configurations.</span></span>
-10. <span data-ttu-id="18e6e-144">在树结构中，选择“示例模型配置”。</span><span class="sxs-lookup"><span data-stu-id="18e6e-144">In the tree, select 'Sample model configuration'.</span></span>
-11. <span data-ttu-id="18e6e-145">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="18e6e-145">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="18e6e-146">选择状态为“已共享”的此配置的版本。</span><span class="sxs-lookup"><span data-stu-id="18e6e-146">Select the version of this configuration that has a status of 'Shared'.</span></span>  
-    * <span data-ttu-id="18e6e-147">请注意，所选数据模型配置的共享版本 1 现在也可用。</span><span class="sxs-lookup"><span data-stu-id="18e6e-147">Note that the shared version 1 of the selected data model configuration is available now as well.</span></span>  
+2. <span data-ttu-id="bb581-111">转到**组织管理** \> **工作区** \> **电子申报**。</span><span class="sxs-lookup"><span data-stu-id="bb581-111">Go to **Organization administration** \> **Workspaces** \> **Electronic reporting**.</span></span>
+3. <span data-ttu-id="bb581-112">选择**配置**。</span><span class="sxs-lookup"><span data-stu-id="bb581-112">Select **Configurations**.</span></span>
 
+<a name="accessconditions"></a>
+> [!NOTE]
+> <span data-ttu-id="bb581-113">确保当前 Dynamics 365 Finance 用户是其中包含用户希望[访问](../../lifecycle-services/asset-library.md#asset-library-support)来导入 ER 配置的资产库的 LCS 项目的成员。</span><span class="sxs-lookup"><span data-stu-id="bb581-113">Make sure that the current Dynamics 365 Finance user is a member of the LCS project that contains the Asset library that the user wants to [access](../../lifecycle-services/asset-library.md#asset-library-support) to import ER configurations.</span></span>
+>
+> <span data-ttu-id="bb581-114">不能从提供的域与 Finance 中使用的域不同的 ER 存储库访问 LCS 项目。</span><span class="sxs-lookup"><span data-stu-id="bb581-114">You can't access an LCS project from an ER repository that represents a different domain than the domain that is used in Finance.</span></span> <span data-ttu-id="bb581-115">如果尝试访问，将显示空的 LCS 项目列表，并且您不能从 LCS 中的项目级资产库导入 ER 配置。</span><span class="sxs-lookup"><span data-stu-id="bb581-115">If you try, an empty list of LCS projects will be shown, and you won't be able to import ER configurations from the project-level Asset library in LCS.</span></span> <span data-ttu-id="bb581-116">若要从用于导入 ER 配置的 ER 存储库访问项目级资产库，请使用属于为其预配了当前 Finance 实例的租户（域）的用户的凭证登录 Finance。</span><span class="sxs-lookup"><span data-stu-id="bb581-116">To access project-level Asset libraries from an ER repository that is used to import ER configurations, sign in to Finance by using the credentials of a user who belongs to the tenant (domain) that the current Finance instance has been provisioned for.</span></span>
+
+## <a name="delete-a-shared-version-of-a-data-model-configuration"></a><span data-ttu-id="bb581-117">删除数据模型配置的共享版本</span><span class="sxs-lookup"><span data-stu-id="bb581-117">Delete a shared version of a data model configuration</span></span>
+
+1. <span data-ttu-id="bb581-118">在**配置**页上的配置树中，选择**示例模型配置**。</span><span class="sxs-lookup"><span data-stu-id="bb581-118">On the **Configurations** page, in the configurations tree, select **Sample model configuration**.</span></span>
+
+    <span data-ttu-id="bb581-119">在完成[将配置上载到 Lifecycle Services](er-upload-configuration-into-lifecycle-services.md) 中的步骤时，创建了示例数据模型配置的第一个版本并发布到了 LCS。</span><span class="sxs-lookup"><span data-stu-id="bb581-119">You created the first version of a sample data model configuration and published it to LCS when you completed the steps in [Upload a configuration into Lifecycle Services](er-upload-configuration-into-lifecycle-services.md).</span></span> <span data-ttu-id="bb581-120">在此过程中，您将删除 ER 配置的这一版本。</span><span class="sxs-lookup"><span data-stu-id="bb581-120">In this procedure, you will delete that version of the ER configuration.</span></span> <span data-ttu-id="bb581-121">然后将在本主题后文从 LCS 导入该版本。</span><span class="sxs-lookup"><span data-stu-id="bb581-121">You will then import that version from LCS later in this topic.</span></span>
+
+2. <span data-ttu-id="bb581-122">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="bb581-122">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="bb581-123">对于此示例，请选择状态为**已共享**的配置版本。</span><span class="sxs-lookup"><span data-stu-id="bb581-123">For this example, select the version of the configuration that has a status of **Shared**.</span></span> <span data-ttu-id="bb581-124">此状态指示配置已发布到为 LCS。</span><span class="sxs-lookup"><span data-stu-id="bb581-124">This status indicates that the configuration has been published to LCS.</span></span>
+
+3. <span data-ttu-id="bb581-125">选择**更改状态**。</span><span class="sxs-lookup"><span data-stu-id="bb581-125">Select **Change status**.</span></span>
+4. <span data-ttu-id="bb581-126">选择**中断**。</span><span class="sxs-lookup"><span data-stu-id="bb581-126">Select **Discontinue**.</span></span>
+
+    <span data-ttu-id="bb581-127">通过将所选版本的状态从**已共享**更改为**已中断**，使此版本可删除。</span><span class="sxs-lookup"><span data-stu-id="bb581-127">By changing the status of the selected version from **Shared** to **Discontinued**, you make the version available for deletion.</span></span>
+
+5. <span data-ttu-id="bb581-128">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="bb581-128">Select **OK**.</span></span>
+6. <span data-ttu-id="bb581-129">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="bb581-129">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="bb581-130">对于此示例，请选择状态为**中断**的配置版本。</span><span class="sxs-lookup"><span data-stu-id="bb581-130">For this example, select the version of the configuration that has a status of **Discontinued**.</span></span>
+
+7. <span data-ttu-id="bb581-131">选择**删除**。</span><span class="sxs-lookup"><span data-stu-id="bb581-131">Select **Delete**.</span></span>
+8. <span data-ttu-id="bb581-132">选择**是**。</span><span class="sxs-lookup"><span data-stu-id="bb581-132">Select **Yes**.</span></span>
+
+    <span data-ttu-id="bb581-133">请注意，仅所选数据模型配置的草稿版本 2 现在可用。</span><span class="sxs-lookup"><span data-stu-id="bb581-133">Notice that the only draft version 2 of the selected data model configuration is now available.</span></span>
+
+9. <span data-ttu-id="bb581-134">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="bb581-134">Close the page.</span></span>
+
+## <a name="import-a-shared-version-of-a-data-model-configuration-from-lcs"></a><span data-ttu-id="bb581-135">从 LCS 导入数据模型配置的共享版本</span><span class="sxs-lookup"><span data-stu-id="bb581-135">Import a shared version of a data model configuration from LCS</span></span>
+
+1. <span data-ttu-id="bb581-136">转到**组织管理 \> 工作区 \> 电子申报**。</span><span class="sxs-lookup"><span data-stu-id="bb581-136">Go to **Organization administration \> Workspaces \> Electronic reporting**.</span></span>
+
+2. <span data-ttu-id="bb581-137">在**配置提供程序**部分中，选择 **Litware, Inc.** 磁贴。</span><span class="sxs-lookup"><span data-stu-id="bb581-137">In the **Configuration providers** section, select the **Litware, Inc.** tile.</span></span>
+
+3. <span data-ttu-id="bb581-138">在 **Litware, Inc.** 磁贴上，选择**存储库**。</span><span class="sxs-lookup"><span data-stu-id="bb581-138">On the **Litware, Inc.** tile, select **Repositories**.</span></span>
+
+    <span data-ttu-id="bb581-139">现在可以打开 Litware, Inc 配置提供程序的存储库列表。</span><span class="sxs-lookup"><span data-stu-id="bb581-139">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
+
+4. <span data-ttu-id="bb581-140">选择**打开**。</span><span class="sxs-lookup"><span data-stu-id="bb581-140">Select **Open**.</span></span>
+
+    <span data-ttu-id="bb581-141">对于此示例，请选择 **LCS** 存储库，然后打开。</span><span class="sxs-lookup"><span data-stu-id="bb581-141">For this example, select the **LCS** repository, and open it.</span></span> <span data-ttu-id="bb581-142">必须具有该 LCS 项目和所选 ER 存储库访问的资产库的[访问权限](#accessconditions)。</span><span class="sxs-lookup"><span data-stu-id="bb581-142">You must have [access](#accessconditions) to the LCS project and to the Asset library that is accessed by the selected ER repository.</span></span>
+
+5. <span data-ttu-id="bb581-143">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="bb581-143">In the list, mark the selected row.</span></span>
+
+    <span data-ttu-id="bb581-144">对于此示例，请在版本列表中选择**示例模型配置**的第一个版本。</span><span class="sxs-lookup"><span data-stu-id="bb581-144">For this example, select the first version of **Sample model configuration** in the version list.</span></span>
+
+6. <span data-ttu-id="bb581-145">选择**导入**。</span><span class="sxs-lookup"><span data-stu-id="bb581-145">Select **Import**.</span></span>
+7. <span data-ttu-id="bb581-146">选择**是**确认从 LCS 导入所选版本。</span><span class="sxs-lookup"><span data-stu-id="bb581-146">Select **Yes** to confirm the import of the selected version from LCS.</span></span>
+
+    <span data-ttu-id="bb581-147">将通过参考消息确认已成功导入了所选版本。</span><span class="sxs-lookup"><span data-stu-id="bb581-147">An informational message confirms that the selected version was successfully imported.</span></span>
+
+8. <span data-ttu-id="bb581-148">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="bb581-148">Close the page.</span></span>
+9. <span data-ttu-id="bb581-149">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="bb581-149">Close the page.</span></span>
+10. <span data-ttu-id="bb581-150">选择**配置**。</span><span class="sxs-lookup"><span data-stu-id="bb581-150">Select **Configurations**.</span></span>
+11. <span data-ttu-id="bb581-151">在树结构中，选择**示例模型配置**。</span><span class="sxs-lookup"><span data-stu-id="bb581-151">In the tree, select **Sample model configuration**.</span></span>
+12. <span data-ttu-id="bb581-152">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="bb581-152">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="bb581-153">对于此示例，请选择状态为**已共享**的配置版本。</span><span class="sxs-lookup"><span data-stu-id="bb581-153">For this example, select the version of the configuration that has a status of **Shared**.</span></span>
+
+    <span data-ttu-id="bb581-154">请注意，所选数据模型配置的共享版本 1 现在也可用。</span><span class="sxs-lookup"><span data-stu-id="bb581-154">Notice that shared version 1 of the selected data model configuration is also available now.</span></span>

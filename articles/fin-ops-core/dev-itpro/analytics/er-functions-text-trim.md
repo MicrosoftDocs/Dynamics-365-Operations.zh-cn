@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c95663f1aacaf93c1c4bfc8d36d9515f495bf61e
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: a1f7999ccbcd167280cca1abc48377c36d2bc15f
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040817"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744207"
 ---
-# <span data-ttu-id="333f8-103"><a name="TRIM">TRIM ER 函数</a></span><span class="sxs-lookup"><span data-stu-id="333f8-103"><a name="TRIM">TRIM ER function</a></span></span>
+# <a name="trim-er-function"></a><span data-ttu-id="f6cdd-103">TRIM ER 函数</span><span class="sxs-lookup"><span data-stu-id="f6cdd-103">TRIM ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="333f8-104">在删除前导和尾随空格以及删除单词之间的多个空格之后，`TRIM` 函数作为*字符串*值返回指定的文本字符串。</span><span class="sxs-lookup"><span data-stu-id="333f8-104">The `TRIM` function returns the specified text string as a *String* value after leading and trailing spaces have been truncated, and after multiple spaces between words have been removed.</span></span>
+<span data-ttu-id="f6cdd-104">在删除前导和尾随空格以及删除单词之间的多个空格之后，`TRIM` 函数作为*字符串*值返回指定的文本字符串。</span><span class="sxs-lookup"><span data-stu-id="f6cdd-104">The `TRIM` function returns the specified text string as a *String* value after leading and trailing spaces have been truncated, and after multiple spaces between words have been removed.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="333f8-105">语法</span><span class="sxs-lookup"><span data-stu-id="333f8-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f6cdd-105">语法</span><span class="sxs-lookup"><span data-stu-id="f6cdd-105">Syntax</span></span>
 
 ```vb
 TRIM (text )
 ```
 
-## <a name="arguments"></a><span data-ttu-id="333f8-106">参数</span><span class="sxs-lookup"><span data-stu-id="333f8-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="f6cdd-106">参数</span><span class="sxs-lookup"><span data-stu-id="f6cdd-106">Arguments</span></span>
 
-<span data-ttu-id="333f8-107">`text`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="333f8-107">`text`: *String*</span></span>
+<span data-ttu-id="f6cdd-107">`text`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="f6cdd-107">`text`: *String*</span></span>
 
-<span data-ttu-id="333f8-108">*字符串*类型的数据源的有效路径。</span><span class="sxs-lookup"><span data-stu-id="333f8-108">The valid path of a data source of the *String* type.</span></span>
+<span data-ttu-id="f6cdd-108">*字符串*类型的数据源的有效路径。</span><span class="sxs-lookup"><span data-stu-id="f6cdd-108">The valid path of a data source of the *String* type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="333f8-109">返回值</span><span class="sxs-lookup"><span data-stu-id="333f8-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="f6cdd-109">返回值</span><span class="sxs-lookup"><span data-stu-id="f6cdd-109">Return values</span></span>
 
-<span data-ttu-id="333f8-110">*字符串*</span><span class="sxs-lookup"><span data-stu-id="333f8-110">*String*</span></span>
+<span data-ttu-id="f6cdd-110">*字符串*</span><span class="sxs-lookup"><span data-stu-id="f6cdd-110">*String*</span></span>
 
-<span data-ttu-id="333f8-111">生成的文本值。</span><span class="sxs-lookup"><span data-stu-id="333f8-111">The resulting text value.</span></span>
+<span data-ttu-id="f6cdd-111">生成的文本值。</span><span class="sxs-lookup"><span data-stu-id="f6cdd-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="333f8-112">示例</span><span class="sxs-lookup"><span data-stu-id="333f8-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f6cdd-112">示例</span><span class="sxs-lookup"><span data-stu-id="f6cdd-112">Example</span></span>
 
-<span data-ttu-id="333f8-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` 返回 **"Sample text"**。</span><span class="sxs-lookup"><span data-stu-id="333f8-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` returns **"Sample text"**.</span></span>
+<span data-ttu-id="f6cdd-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` 返回 **"Sample text"**。</span><span class="sxs-lookup"><span data-stu-id="f6cdd-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` returns **"Sample text"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="333f8-114">其他资源</span><span class="sxs-lookup"><span data-stu-id="333f8-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="f6cdd-114">其他资源</span><span class="sxs-lookup"><span data-stu-id="f6cdd-114">Additional resources</span></span>
 
-[<span data-ttu-id="333f8-115">文本函数</span><span class="sxs-lookup"><span data-stu-id="333f8-115">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="f6cdd-115">文本函数</span><span class="sxs-lookup"><span data-stu-id="f6cdd-115">Text functions</span></span>](er-functions-category-text.md)

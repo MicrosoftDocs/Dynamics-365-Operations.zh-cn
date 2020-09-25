@@ -18,69 +18,69 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3bba9cd190db61fda3636cc3c8093030f886b9bd
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 605bd50005ee4e5866a5be9e16df6da3139ad19c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041760"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744759"
 ---
-# <span data-ttu-id="10f44-103"><a name="CASE">CASE ER 函数</a></span><span class="sxs-lookup"><span data-stu-id="10f44-103"><a name="CASE">CASE ER function</a></span></span>
+# <a name="case-er-function"></a><span data-ttu-id="e6e33-103">CASE ER 函数</span><span class="sxs-lookup"><span data-stu-id="e6e33-103">CASE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="10f44-104">`CASE` 函数根据指定的替代选项评估指定表达式的值，并返回等于指定表达式值的第一个选项的结果。</span><span class="sxs-lookup"><span data-stu-id="10f44-104">The `CASE` function evaluates the value of the specified expression against the specified alternative options and returns the result of the first option that equals the value of the specified expression.</span></span> <span data-ttu-id="10f44-105">否则，如果将默认结果指定为被调用函数最后一个参数（前面没有选项），则返回可选默认结果。</span><span class="sxs-lookup"><span data-stu-id="10f44-105">Otherwise, it returns the optional default result, if a default result is specified as the last argument of the called function that isn't preceded by an option.</span></span> <span data-ttu-id="10f44-106">返回的值可以是任何受支持的数据类型的值。</span><span class="sxs-lookup"><span data-stu-id="10f44-106">The value that is returned can be a value of any of the supported data types.</span></span>
+<span data-ttu-id="e6e33-104">`CASE` 函数根据指定的替代选项评估指定表达式的值，并返回等于指定表达式值的第一个选项的结果。</span><span class="sxs-lookup"><span data-stu-id="e6e33-104">The `CASE` function evaluates the value of the specified expression against the specified alternative options and returns the result of the first option that equals the value of the specified expression.</span></span> <span data-ttu-id="e6e33-105">否则，如果将默认结果指定为被调用函数最后一个参数（前面没有选项），则返回可选默认结果。</span><span class="sxs-lookup"><span data-stu-id="e6e33-105">Otherwise, it returns the optional default result, if a default result is specified as the last argument of the called function that isn't preceded by an option.</span></span> <span data-ttu-id="e6e33-106">返回的值可以是任何受支持的数据类型的值。</span><span class="sxs-lookup"><span data-stu-id="e6e33-106">The value that is returned can be a value of any of the supported data types.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="10f44-107">语法</span><span class="sxs-lookup"><span data-stu-id="10f44-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e6e33-107">语法</span><span class="sxs-lookup"><span data-stu-id="e6e33-107">Syntax</span></span>
 
 ```vb
 CASE (expression, option 1, result 1[, option 2, result 2, …, option N, result N, default result])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="10f44-108">参数</span><span class="sxs-lookup"><span data-stu-id="10f44-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="e6e33-108">参数</span><span class="sxs-lookup"><span data-stu-id="e6e33-108">Arguments</span></span>
 
-<span data-ttu-id="10f44-109">`expression`：*原始数据类型*（布尔值、数字或文本）</span><span class="sxs-lookup"><span data-stu-id="10f44-109">`expression`: *Primitive data type* (Boolean, numeric, or text)</span></span>
+<span data-ttu-id="e6e33-109">`expression`：*原始数据类型*（布尔值、数字或文本）</span><span class="sxs-lookup"><span data-stu-id="e6e33-109">`expression`: *Primitive data type* (Boolean, numeric, or text)</span></span>
 
-<span data-ttu-id="10f44-110">返回原始数据类型的值的有效表达式。</span><span class="sxs-lookup"><span data-stu-id="10f44-110">A valid expression that returns a value of the primitive data type.</span></span>
+<span data-ttu-id="e6e33-110">返回原始数据类型的值的有效表达式。</span><span class="sxs-lookup"><span data-stu-id="e6e33-110">A valid expression that returns a value of the primitive data type.</span></span>
 
-<span data-ttu-id="10f44-111">`option 1`：*原始数据类型*（布尔值、数字或文本）</span><span class="sxs-lookup"><span data-stu-id="10f44-111">`option 1`: *Primitive data type* (Boolean, numeric, or text)</span></span>
+<span data-ttu-id="e6e33-111">`option 1`：*原始数据类型*（布尔值、数字或文本）</span><span class="sxs-lookup"><span data-stu-id="e6e33-111">`option 1`: *Primitive data type* (Boolean, numeric, or text)</span></span>
 
-<span data-ttu-id="10f44-112">一个有效表达式，返回与被调用函数的 `expression` 参数相同的原始数据类型的值。</span><span class="sxs-lookup"><span data-stu-id="10f44-112">A valid expression that returns a value of the same primitive data type as the `expression` argument of the called function.</span></span> <span data-ttu-id="10f44-113">此参数是必需的。</span><span class="sxs-lookup"><span data-stu-id="10f44-113">This argument is required.</span></span>
+<span data-ttu-id="e6e33-112">一个有效表达式，返回与被调用函数的 `expression` 参数相同的原始数据类型的值。</span><span class="sxs-lookup"><span data-stu-id="e6e33-112">A valid expression that returns a value of the same primitive data type as the `expression` argument of the called function.</span></span> <span data-ttu-id="e6e33-113">此参数是必需的。</span><span class="sxs-lookup"><span data-stu-id="e6e33-113">This argument is required.</span></span>
 
-<span data-ttu-id="10f44-114">`result 1`：*任何受支持的数据类型*</span><span class="sxs-lookup"><span data-stu-id="10f44-114">`result 1`: *Any of the supported data types*</span></span>
+<span data-ttu-id="e6e33-114">`result 1`：*任何受支持的数据类型*</span><span class="sxs-lookup"><span data-stu-id="e6e33-114">`result 1`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="10f44-115">返回的结果与前面的选项相对应。</span><span class="sxs-lookup"><span data-stu-id="10f44-115">The returned result that corresponds to the preceding option.</span></span> <span data-ttu-id="10f44-116">此参数是必需的。</span><span class="sxs-lookup"><span data-stu-id="10f44-116">This argument is required.</span></span>
+<span data-ttu-id="e6e33-115">返回的结果与前面的选项相对应。</span><span class="sxs-lookup"><span data-stu-id="e6e33-115">The returned result that corresponds to the preceding option.</span></span> <span data-ttu-id="e6e33-116">此参数是必需的。</span><span class="sxs-lookup"><span data-stu-id="e6e33-116">This argument is required.</span></span>
 
-<span data-ttu-id="10f44-117">`option N`：*原始数据类型*（布尔值、数字或文本）</span><span class="sxs-lookup"><span data-stu-id="10f44-117">`option N`: *Primitive data type* (Boolean, numeric, or text)</span></span>
+<span data-ttu-id="e6e33-117">`option N`：*原始数据类型*（布尔值、数字或文本）</span><span class="sxs-lookup"><span data-stu-id="e6e33-117">`option N`: *Primitive data type* (Boolean, numeric, or text)</span></span>
 
-<span data-ttu-id="10f44-118">一个有效表达式，返回与被调用函数的 `expression` 参数相同的原始数据类型的值。</span><span class="sxs-lookup"><span data-stu-id="10f44-118">A valid expression that returns a value of the same primitive data type as the `expression` argument of the called function.</span></span> <span data-ttu-id="10f44-119">此参数是可选的。</span><span class="sxs-lookup"><span data-stu-id="10f44-119">This argument is optional.</span></span>
+<span data-ttu-id="e6e33-118">一个有效表达式，返回与被调用函数的 `expression` 参数相同的原始数据类型的值。</span><span class="sxs-lookup"><span data-stu-id="e6e33-118">A valid expression that returns a value of the same primitive data type as the `expression` argument of the called function.</span></span> <span data-ttu-id="e6e33-119">此参数是可选的。</span><span class="sxs-lookup"><span data-stu-id="e6e33-119">This argument is optional.</span></span>
 
-<span data-ttu-id="10f44-120">`result N`：*任何受支持的数据类型*</span><span class="sxs-lookup"><span data-stu-id="10f44-120">`result N`: *Any of the supported data types*</span></span>
+<span data-ttu-id="e6e33-120">`result N`：*任何受支持的数据类型*</span><span class="sxs-lookup"><span data-stu-id="e6e33-120">`result N`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="10f44-121">返回的结果与前面的选项相对应。</span><span class="sxs-lookup"><span data-stu-id="10f44-121">The returned result that corresponds to the preceding option.</span></span> <span data-ttu-id="10f44-122">此参数是可选的。</span><span class="sxs-lookup"><span data-stu-id="10f44-122">This argument is optional.</span></span>
+<span data-ttu-id="e6e33-121">返回的结果与前面的选项相对应。</span><span class="sxs-lookup"><span data-stu-id="e6e33-121">The returned result that corresponds to the preceding option.</span></span> <span data-ttu-id="e6e33-122">此参数是可选的。</span><span class="sxs-lookup"><span data-stu-id="e6e33-122">This argument is optional.</span></span>
 
-<span data-ttu-id="10f44-123">`default result`：*任何受支持的数据类型*</span><span class="sxs-lookup"><span data-stu-id="10f44-123">`default result`: *Any of the supported data types*</span></span>
+<span data-ttu-id="e6e33-123">`default result`：*任何受支持的数据类型*</span><span class="sxs-lookup"><span data-stu-id="e6e33-123">`default result`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="10f44-124">如果没有匹配项，应返回的结果。</span><span class="sxs-lookup"><span data-stu-id="10f44-124">The result that should be returned if there is no match.</span></span> <span data-ttu-id="10f44-125">此参数是可选的。</span><span class="sxs-lookup"><span data-stu-id="10f44-125">This argument is optional.</span></span>
+<span data-ttu-id="e6e33-124">如果没有匹配项，应返回的结果。</span><span class="sxs-lookup"><span data-stu-id="e6e33-124">The result that should be returned if there is no match.</span></span> <span data-ttu-id="e6e33-125">此参数是可选的。</span><span class="sxs-lookup"><span data-stu-id="e6e33-125">This argument is optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="10f44-126">返回值</span><span class="sxs-lookup"><span data-stu-id="10f44-126">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="e6e33-126">返回值</span><span class="sxs-lookup"><span data-stu-id="e6e33-126">Return values</span></span>
 
-<span data-ttu-id="10f44-127">*任何受支持的数据类型*</span><span class="sxs-lookup"><span data-stu-id="10f44-127">*Any of the supported data types*</span></span>
+<span data-ttu-id="e6e33-127">*任何受支持的数据类型*</span><span class="sxs-lookup"><span data-stu-id="e6e33-127">*Any of the supported data types*</span></span>
 
-<span data-ttu-id="10f44-128">生成的任何受支持数据类型的值。</span><span class="sxs-lookup"><span data-stu-id="10f44-128">The resulting value of any of the supported data types.</span></span>
+<span data-ttu-id="e6e33-128">生成的任何受支持数据类型的值。</span><span class="sxs-lookup"><span data-stu-id="e6e33-128">The resulting value of any of the supported data types.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="10f44-129">使用说明</span><span class="sxs-lookup"><span data-stu-id="10f44-129">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="e6e33-129">使用说明</span><span class="sxs-lookup"><span data-stu-id="e6e33-129">Usage notes</span></span>
 
-<span data-ttu-id="10f44-130">如果没有匹配项，并且未定义可选的默认结果，将在运行时引发异常。</span><span class="sxs-lookup"><span data-stu-id="10f44-130">An exception is thrown at runtime if there is no match and an optional default result isn't defined.</span></span>
+<span data-ttu-id="e6e33-130">如果没有匹配项，并且未定义可选的默认结果，将在运行时引发异常。</span><span class="sxs-lookup"><span data-stu-id="e6e33-130">An exception is thrown at runtime if there is no match and an optional default result isn't defined.</span></span>
 
-<span data-ttu-id="10f44-131">必须使用相同的数据类型指定所有结果。</span><span class="sxs-lookup"><span data-stu-id="10f44-131">All results must be specified by using the same data type.</span></span> <span data-ttu-id="10f44-132">如果配置结果的数据类型不匹配，则会在设计时引发异常。</span><span class="sxs-lookup"><span data-stu-id="10f44-132">An exception is thrown at design time if the data types of the configured results don't match.</span></span>
+<span data-ttu-id="e6e33-131">必须使用相同的数据类型指定所有结果。</span><span class="sxs-lookup"><span data-stu-id="e6e33-131">All results must be specified by using the same data type.</span></span> <span data-ttu-id="e6e33-132">如果配置结果的数据类型不匹配，则会在设计时引发异常。</span><span class="sxs-lookup"><span data-stu-id="e6e33-132">An exception is thrown at design time if the data types of the configured results don't match.</span></span>
 
-<span data-ttu-id="10f44-133">如果第一个结果值与第 *N* 个结果值是*容器（记录）* 或*记录列表*数据类型的值，结果只包含两个值中都存在的字段。</span><span class="sxs-lookup"><span data-stu-id="10f44-133">If the first result value and the *N*th result value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
+<span data-ttu-id="e6e33-133">如果第一个结果值与第 *N* 个结果值是*容器（记录）* 或*记录列表*数据类型的值，结果只包含两个值中都存在的字段。</span><span class="sxs-lookup"><span data-stu-id="e6e33-133">If the first result value and the *N*th result value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
 
-## <a name="example"></a><span data-ttu-id="10f44-134">示例</span><span class="sxs-lookup"><span data-stu-id="10f44-134">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e6e33-134">示例</span><span class="sxs-lookup"><span data-stu-id="e6e33-134">Example</span></span>
 
-<span data-ttu-id="10f44-135">如果当前应用程序会话日期在 10 月到 12 月之间，`CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")` 将返回字符串 **"WINTER"**。</span><span class="sxs-lookup"><span data-stu-id="10f44-135">`CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")` returns the string **"WINTER"** if the current application session date is between October and December.</span></span> <span data-ttu-id="10f44-136">否则，它返回一个空字符串。</span><span class="sxs-lookup"><span data-stu-id="10f44-136">Otherwise, it returns a blank string.</span></span>
+<span data-ttu-id="e6e33-135">如果当前应用程序会话日期在 10 月到 12 月之间，`CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")` 将返回字符串 **"WINTER"**。</span><span class="sxs-lookup"><span data-stu-id="e6e33-135">`CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")` returns the string **"WINTER"** if the current application session date is between October and December.</span></span> <span data-ttu-id="e6e33-136">否则，它返回一个空字符串。</span><span class="sxs-lookup"><span data-stu-id="e6e33-136">Otherwise, it returns a blank string.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="10f44-137">其他资源</span><span class="sxs-lookup"><span data-stu-id="10f44-137">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="e6e33-137">其他资源</span><span class="sxs-lookup"><span data-stu-id="e6e33-137">Additional resources</span></span>
 
-[<span data-ttu-id="10f44-138">逻辑函数</span><span class="sxs-lookup"><span data-stu-id="10f44-138">Logical functions</span></span>](er-functions-category-logical.md)
+[<span data-ttu-id="e6e33-138">逻辑函数</span><span class="sxs-lookup"><span data-stu-id="e6e33-138">Logical functions</span></span>](er-functions-category-logical.md)
