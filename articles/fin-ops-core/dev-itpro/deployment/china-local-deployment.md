@@ -3,7 +3,7 @@ title: 世纪互联在中国运营的 Dynamics 365 Finance 和世纪互联在中
 description: 本主题提供有关 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management（由世纪互联在中国运营）的信息。
 author: kfend
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 09/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4088c8e82c1087e240e35d73b2e567e091af2a2e
-ms.sourcegitcommit: 3fa1e8583003a90ba486f757c3826b139e1b3f73
+ms.openlocfilehash: 1b5a9bdfb9596e2eceaebe729b036397d73f2c5b
+ms.sourcegitcommit: 55b729361ea852e38531c51972c6730e3d9c2b45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "3421520"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3776345"
 ---
 # <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management---operated-by-21vianet-in-china"></a>Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management - 由世纪互联在中国运营
 
@@ -37,20 +37,6 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 - 由世纪互联在中国运营的服务 - 世纪互联在中国运营并提供 Finance 和 Supply Chain Management 服务。 此选项提供与全球服务同样的一致应用程序体验。 此选项同时可满足希望使用由在中国境内存储数据的本地公司提供的联机服务的客户的要求。 为了遵守中国法律，这些服务有可能会有所更改。
 
 - 由 Microsoft 运营的服务 – 此选项适用于希望使用 Microsoft 管理和提供的服务的 Finance 和 Supply Chain Management 客户。 无论是新客户还是现有客户，只要客户通过企业协议购买了 Microsoft Azure、Dynamics 365 和 Office，Office 365 和/或 Dynamics 365 就可以在租户中共存。
-
-预配服务期间需要考虑到若干技术限制，以避免潜在的问题。 
-
-|场景  |建议  |
-|---------|---------|
-|**通过 OSPA 购买 Azure、Office 365 和 Dynamics 365。**    |建议的预配顺序：必须先预配 Office 365 或 Dynamics 365，再预配 Azure。|
-|**先通过 OSPA 购买 Azure，然后通过 OSPA 购买 Office 365。最后再通过 OSPA 购买 Dynamics 365。**   | 客户已经有两个租户，一个用于 Azure，另一个用于 Office 365。 Dynamics 365 可以添加到包含 Office 365 OSPA 的租户。        |
-|**通过 OSPA 购买 Office 365，然后通过 OSPA 购买 Azure。最后再通过 OSPA 购买 Dynamics 365。**     | 客户先购买了 Office 365，然后添加了 Azure。 Dynamics 365 可以预配在同一租户上。        |
-|**通过 OSPA 购买 Office 365，并计划添加 Dynamics 365。**   |如果已预配 Office 365，则客户可以在同一租户上预配 Dynamics 365。         |
-|**通过 OSSA 或 CSP 购买 Office 365，然后购买 Dynamics 365。**    |Dynamics 365 需要在单独的租户上预配。          |
-
-- OSPA = 联机服务高级版协议 
-- OSSA = 联机服务标准版协议
-- CSP = 云解决方案提供商
 
 有关预配环境的信息，请参阅 [Power Platform 管理中心的“创建和管理环境”部分](https://docs.microsoft.com/power-platform/admin/create-environment)。
 
@@ -85,6 +71,9 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
     -   [嵌入式 Power Apps](../../fin-ops/get-started/embed-power-apps.md) 和与 Microsoft Power Apps 和 Microsoft Power Automate 的连接将不可用。
 
     -   [使用 Common Data Service 的数据集成概述](../data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json)将不可用。
+    
+  > [!NOTE]
+  > 由世纪互联在中国运营的实施的 Lifecycle Services URL 为 lcs.dynamics.cn。
 
 -   由于中国目前存在某些 **Azure Active Directory 限制**，以下功能将不可用：
 

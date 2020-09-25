@@ -3,7 +3,7 @@ title: 创建休假和缺勤计划
 description: 在 Dynamics 365 Human Resources 中为不同类型的休假创建休假计划。
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 75a70c5784e7032cfebbe58c1d173923a3023507
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428701"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796489"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>创建休假和缺勤计划
 
@@ -43,7 +43,15 @@ ms.locfileid: "3428701"
 
 2. 在**详细信息**下，为您的计划输入**名称**、**开始日期**、**说明**和**休假类型**。
 
-如果启用了**为单个休假和缺勤计划配置多个休假类型**功能，则将在**应计计划**中配置休假类型，而不是在**详细信息**下配置。 对于累积计划表中的每个记录，您可以定义休假类型。
+如果启用了**为单个休假和缺勤计划配置多个休假类型**功能，则将在**应计计划**中配置休假类型，而不是在**详细信息**下配置。 对于累积计划表中的每个记录，您可以定义休假类型。 此外，启用此功能之后，需要为集成或需要使用实体的其他方案使用新数据实体。 
+
+这些新实体为：
+
+- 休假和缺勤银行交易记录 V2
+- 休假和缺勤登记 V2
+- 休假和缺勤计划层 V2
+- 休假和缺勤计划 V2
+- 休假请求 V2
 
  > [!IMPORTANT]
    > 启用此功能后，将无法关闭。

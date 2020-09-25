@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 188f79e10610f8cb5281cfee351ab0eef48dccd2
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: cc857a004d988a421c32722b1f69e86b7fefeb36
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042565"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743607"
 ---
-# <a name="COUNTIF">COUNTIF ER 函数</a>
+# <a name="countif-er-function"></a>COUNTIF ER 函数
 
 [!include [banner](../includes/banner.md)]
 

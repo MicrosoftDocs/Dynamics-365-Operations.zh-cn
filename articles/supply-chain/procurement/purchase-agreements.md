@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdc3fe95ec0917c09128997e254f29ce863dcc38
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 253177103435c765bfe45daffeae0c436617af21
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208009"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803155"
 ---
 # <a name="purchase-agreements"></a>采购协议
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 文本提供有关采购协议的信息。 采购协议是提交到某一组织，随时间推移通过使用多个采购订单购买指定的数量或金额的合同。 以此承诺作为交换，买方接收特价和折扣。 
 
@@ -42,8 +41,13 @@ ms.locfileid: "3208009"
 
 ## <a name="responsible-workers-on-purchase-agreements"></a>采购协议中的负责工作人员
 
-您可以在采购协议分类中标识主要负责工作人员和次要负责工作人员。 这些值将由生成的采购协议继承。 您不需要在采购协议中添加负责工作人员，他们可以在采购协议上针对每个案例直接进行修改。 没有主要负责工作人员无法指定次要负责工作人员，但您不是必须指定次要负责工作人员。 您不能将同一个工作人员同时指定为主要负责工作人员和次要负责工作人员。 
+您可以在采购协议分类中标识主要负责工作人员和次要负责工作人员。 这些值将由生成的采购协议继承。 您不需要在采购协议中添加负责工作人员，他们可以在采购协议上针对每个案例直接进行修改。 没有主要负责工作人员无法指定次要负责工作人员，但您不是必须指定次要负责工作人员。 您不能将同一个工作人员同时指定为主要负责工作人员和次要负责工作人员。
 
+> [!IMPORTANT]
+> 负责方功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在**功能管理**工作区中，此功能按照下面的方式列出：
+> 
+> - **模块**：*采购任务*
+> - **功能名称**：*采购协议负责方*
 
 ## <a name="commitment-types"></a>承诺类型
 采购协议的每一行都是采购的承诺。 您可以使用来自多个采购订单行 (PO) 履行承诺。 有以下四种承诺类型：

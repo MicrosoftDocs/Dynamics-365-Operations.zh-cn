@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
-ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
+ms.openlocfilehash: 10c843670a280c86790185c8a39cb2943e2838f9
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628901"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759927"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>销售点 (POS) 中的产品搜索和客户搜索
 
@@ -93,7 +93,7 @@ ms.locfileid: "3628901"
 
 ### <a name="enhancements-to-local-customer-search"></a>本地客户搜索增强功能
 
-已简化了基于电话号码的搜索。 此类搜索现在忽略创建客户时可能添加的特殊字符，如空格、连字符和括号。 因此，收银员在进行搜索时无需担心电话号码格式。 也可以通过键入部分电话号码搜索客户。 如果电话号码中包含特殊字符，也可以通过搜索特殊字符后显示的数字查找。 例如，如果输入的客户电话号码为 **123-456-7890**，则收银员可以通过键入 **123**、**456**、**7890** 或 **1234567890** 来搜索客户，也可以通过输入电话号码的前几个数字来搜索客户。
+已简化了基于电话号码的搜索。 此类搜索现在忽略创建客户时可能添加的特殊字符，如空格、连字符和括号。 因此，收银员在进行搜索时无需担心电话号码格式。 例如，如果输入的客户电话号码为 **123-456-7890**，则收银员可以通过键入 **1234567890** 来搜索客户，也可以通过输入电话号码的前几个数字来搜索客户。
 
 > [!NOTE]
 > 一个客户可以有多个电话号码和多个电子邮件。 客户搜索算法也会搜索这些辅助电子邮件和电话号码，但是客户搜索结果页仅显示主要电子邮件和电话号码。 这可能会造成一些混乱，因为返回的客户结果将不会显示搜索到的电子邮件或电话号码。 在将来的版本中，我们计划改进客户搜索结果屏幕来显示此信息。

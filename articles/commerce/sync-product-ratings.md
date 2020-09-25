@@ -7,7 +7,7 @@ ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
-ms.technology: '---'
+ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6757a5a13d16c490dced7118c1da8aa0ea6d8994
-ms.sourcegitcommit: 523049c363a999050c58d20695f1c7d151b3fd3e
+ms.openlocfilehash: dec87b548f3a218e1f833b752305f373e893b14c
+ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029478"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "3793579"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>在 Dynamics 365 Commerce 中同步产品评分
 

@@ -1,6 +1,6 @@
 ---
-title: 审核 AP 系统中的发票和关键数据
-description: 在您从供应商处收到针对采购订单上的货物或服务的发票时，该业务流程可能要求首先接收货物或服务，然后才能对发票进行审核以便付款。
+title: 审核应付帐款中的账单和关键数据
+description: 本主题介绍如何审核应付帐款中的账单和关键数据。
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e1af0dac107be6009eb3ca576c49ac5abbd9848
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 5bb89f0adce41b045b1f573c4c0e841f78b2248c
+ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3139927"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761541"
 ---
-# <a name="audit-invoices-and-key-data-in-ap-system"></a>审核 AP 系统中的发票和关键数据
+# <a name="audit-invoices-and-key-data-in-accounts-payable"></a>审核应付帐款中的账单和关键数据
 
 [!include [banner](../../includes/banner.md)]
 
 在您从供应商处收到针对采购订单上的货物或服务的发票时，该业务流程可能要求首先接收货物或服务，然后才能对发票进行审核以便付款。 在您开始前，请确保选择发票匹配 Configuration Key。 
 
-在应付账款参数页面，确保已选择“启用发票匹配验证”选项，已设置“过帐发票差异”字段为“请求批准”，以及已设置“行匹配政策”字段为三向匹配。
+在**应付帐款参数**页面，确保已选择“启用发票匹配验证”选项，已设置**过帐发票差异**字段为**请求批准**，以及已设置**行匹配政策**字段为**三向匹配**。
 
 该程序适用于 USMF 演示公司。 应付账款经理或会计经理将执行以下步骤。
 

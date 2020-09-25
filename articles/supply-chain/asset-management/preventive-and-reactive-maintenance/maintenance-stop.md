@@ -1,6 +1,6 @@
 ---
-title: 维护停机时间
-description: 本主题介绍资产管理中的维护停机时间。
+title: 维护停机时间活动
+description: 此主题介绍如何维护停机时间用于获取在特定期间对特定资产执行维护作业所需产能的概览。
 author: josaw1
 manager: tfehr
 ms.date: 08/27/2019
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 2f864e7fe0129f8487cddadc99b32f75a2b6d9ca
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383519"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802813"
 ---
-# <a name="maintenance-downtime"></a>维护停机时间
+# <a name="maintenance-downtime-activities"></a>维护停机时间活动
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 维护停机时间用于获取在特定期间对特定资产执行维护作业所需产能的概览。 例如，可为生产地点 02 的生产大厅 29-A 中的产品线 10 创建维护停机时间登记。 维护停机时间登记有开始时间和结束时间，用于指示与维护停止有关的资产不可用于生产。
 

@@ -5,18 +5,21 @@ author: margoc
 ms.date: 07/27/2020
 ms.topic: article
 ms.author: margoc
+ms.prod: ''
+ms.service: Dynamics365Operations
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 25fcca5c9d06a3c8d826cb289b825810ac1620ea
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 4490cd5e9ad9696fd4ef512e2671894b0e22c972
+ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646191"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "3793771"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-supply-chain-management"></a>考虑了 Dynamics 365 Supply Chain Management 的业务决策者学习目录
 

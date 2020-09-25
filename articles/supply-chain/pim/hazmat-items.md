@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 77598717129742f291fae4df8f09953027ce0c60
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: d3573aa5f8f986fa4fbf1c9ea8b322a1256aee36
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699590"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803181"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>产品、订单、装运和负荷中的危险物料
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 本主题说明如何为已发布产品设置危险物料属性，如何为危险物料设置库存限制，以及如何在销售订单、装运或负荷中包括危险物料。
 

@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99f2aa9863e36a2f2eb1db5d0569d2a82402969a
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 37546fccf804a4522638147d39206997e8c0c24c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070636"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745361"
 ---
-# <a name="ALLITEMSQUERY">ALLITEMSQUERY ER 函数</a>
+# <a name="allitemsquery-er-function"></a>ALLITEMSQUERY ER 函数
 
 [!include [banner](../includes/banner.md)]
 

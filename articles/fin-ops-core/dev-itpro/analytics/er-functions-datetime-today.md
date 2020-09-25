@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94ef15d1971287e8bf13944bc8f693b567950031
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e2ee153c1dde99810a78ed15c7505fa705088797
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411429"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745433"
 ---
-# <a name=""></a><a name="TODAY">TODAY ER 函数</a>
+# <a name="today-er-function"></a>TODAY ER 函数
 
 [!include [banner](../includes/banner.md)]
 

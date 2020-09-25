@@ -3,7 +3,7 @@ title: 网格功能
 description: 本主题介绍网格控件的几个强大功能。 必须启用新的网格功能才能访问这些功能。
 author: jasongre
 manager: AnnBe
-ms.date: 08/03/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,24 +16,23 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651682"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760391"
 ---
 # <a name="grid-capabilities"></a>网格功能
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 新的网格控件提供了许多有用而强大的功能，可用于提高用户生产率、构造更有趣的数据视图并获得有意义的数据见解。 本文将介绍以下功能： 
 
 -  正在计算合计
--  分组数据
 -  先于系统键入
 -  评估数学表达式 
+-  为表格式数据分组（已使用 **(预览版) 网格中的分组**功能单独启用）
 
 ## <a name="calculating-totals"></a>正在计算合计
 在 Finance and Operations 应用中，用户可以在网格中数字列的底部查看总计。 这些总计显示在网格底部的页脚部分。 
@@ -71,21 +70,6 @@ ms.locfileid: "3651682"
 
 总计将在您更新、删除或创建数据集中的行时自动更新。  
 
-## <a name="grouping-data"></a>分组数据
-业务用户通常需要执行专门的数据分析。 尽管可以通过将数据导出到 Microsoft Excel 并使用数据透视表来完成此操作，但表格式网格中的**分组**功能允许用户在 Finance and Operations 应用中以有趣的方式组织其数据。 随着此功能扩展**总计**功能，**分组**还允许您通过在组级别提供小计来获得有意义的数据见解。
-
-要使用此功能，右键单击分组所基于的列，然后选择**按此列分组**。 此操作将按所选列对数据进行排序，将新的“按列分组”添加到网格的开头，并在每个组的开头插入“标题行”。 这些标题行提供有关每个组的以下信息： 
--  组的数据值 
--  列标签（在支持多级分组之后，此信息特别有用。）
--  该组中的数据行数
--  配置为显示总计的所有列的小计
-
-启用[保存的视图](saved-views.md)后，可以通过个性化将分组保存为视图的一部分，以便下次访问页面时快速访问。  
-
-如果您选择另一列的**按此列分组**，原始分组将被替换，因为带平台更新 33 的版本 10.0.9 仅支持一级分组。
-
-要撤消网格中的分组，右键单击分组列，然后选择**取消分组**。  
-
 ## <a name="typing-ahead-of-the-system"></a>先于系统键入
 在许多业务场景中，快速将数据输入系统的能力非常重要。 在引入新的网格控件之前，用户只能在当前行中更改数据。 他们不得不等待系统成功验证任何更改，然后才能够创建新行或切换到其他行。 为了减少用户等待这些验证完成的时间并提高用户的工作效率，新的网格调整了这些验证以使其实现异步。 因此，用户可以在之前行的验证等待处理时移至其他行进行更改。 
 
@@ -109,6 +93,32 @@ ms.locfileid: "3651682"
 
 要使系统将值识别为表达式，请将值以等号 (**=**) 开头。 有关受支持的运算符和语法的详细信息，请参阅[支持的数学符号](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols)。
 
+## <a name="grouping-tabular-data"></a>为表格式数据分组
+[!include [preview banner](../includes/preview-banner.md)]
+
+业务用户通常需要执行专门的数据分析。 尽管可以通过将数据导出到 Microsoft Excel 并使用数据透视表来完成此操作，但依赖于新网格控件功能的 **(预览版) 网格中的分组**功能允许用户在 Finance and Operations 应用中以有趣的方式组织其表格式数据。 因为此功能扩展**总计**功能，**分组**允许您通过在组级别提供小计来获得有意义的数据见解。
+
+要使用此功能，右键单击分组所基于的列，然后选择**按此列分组**。 此操作将按所选列对数据进行排序，将新的**按列分组**添加到网格的开头，并在每个组的开头插入“标题行”。 这些标题行提供有关每个组的以下信息： 
+-  组的数据值 
+-  列名（在支持多级分组之后，此信息特别有用。）  
+-  该组中的数据行数
+-  配置为显示总计的所有列的小计
+
+启用[保存的视图](saved-views.md)后，可以通过个性化将分组保存为视图的一部分，以便下次访问页面时快速访问。  
+
+如果您选择另一列的**按此列分组**，原始分组将被替换，因为到版本 10.0.9/平台更新 33 为止仅支持一级分组。
+
+要撤消网格中的分组，右键单击分组列，然后选择**取消分组**。  
+
+### <a name="expanding-and-collapsing-groups"></a>展开和折叠组
+数据的初始分组将扩展所有组。 可以通过折叠单个组来创建数据的汇总视图，也可以使用组展开和折叠功能帮助浏览数据。 若要展开或折叠组，请选择相应组标题行中的 V 形按钮 (>)。 请注意，单个组的展开/折叠状态**不**保存到个性化设置中。
+
+### <a name="selecting-and-unselecting-rows-at-the-group-level"></a>在组级别选择和取消选择行
+也可以按照通过选中网格中第一列顶部的复选框选择（或取消选择）网格中的所有行的相同方法，通过选中相应组标题行中的复选框快速选中（或取消选中）组中的所有行。 组标题行中的复选框始终反映该组中行的当前选择状态，无论选中了所有行，未选中任何行，还是仅选中了部分行。
+
+### <a name="hiding-column-names"></a>隐藏列名
+对数据分组时，默认行为是在组标题行中显示列名。 从版本 10.0.14/平台更新 38 开始，可以通过选择**网格选项** > **隐藏组列名**在组标题行中隐藏列名。
+
 ## <a name="frequently-asked-questions"></a>常见问题
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>如何在我的环境中启用新的网格控件？ 
 
@@ -131,7 +141,7 @@ ms.locfileid: "3651682"
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[开发人员] 让单个页面退出使用新网格 
 如果您的组织发现使用新网格时存在一些问题的页面，可以使用 API 允许单个窗体使用旧版网格控件，同时仍然允许系统的其余部分使用新网格控件。 要让单个页面退出新网格，请在窗体的 `run()` 方法中添加以下 post `super()` 调用。
 
-        this.forceLegacyGrid();
+ ```this.forceLegacyGrid();```
 
 在新网格控件在 2021 年 10 月发布中被强制使用之前，此 API 一直可以使用。 请向 Microsoft 报告任何需要使用此 API 的问题。 
 
