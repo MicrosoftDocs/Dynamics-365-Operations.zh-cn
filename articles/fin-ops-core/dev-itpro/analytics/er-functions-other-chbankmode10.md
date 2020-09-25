@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 808e328bfcc35c96091da9a69850429b82a71070
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: c18a7f96096fbc6bbc7b6d15135c11bd70960d26
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070567"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744462"
 ---
-# <a name="CH_BANK_MOD_10">CH_BANK_MOD_10 ER 函数</a>
+# <a name="ch_bank_mod_10-er-function"></a>CH_BANK_MOD_10 ER 函数
 
 [!include [banner](../includes/banner.md)]
 

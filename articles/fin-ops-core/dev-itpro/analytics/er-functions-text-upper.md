@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77854d645ba5b65a2819437af510fcd67be6d99d
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 672abf4938df7d96c0190bfd5325689b381e2764
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040932"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744327"
 ---
-# <a name="UPPER">UPPER ER 函数</a>
+# <a name="upper-er-function"></a>UPPER ER 函数
 
 [!include [banner](../includes/banner.md)]
 

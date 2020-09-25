@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: CAMCostControlUnit
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a19d5b364305b817e3fd8e5e9001ed52db80c508
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: efb08c60121fa0210003ea92c8cfa27b2882450b
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3137883"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759176"
 ---
 # <a name="define-cost-control-units"></a>定义成本控制单元
 

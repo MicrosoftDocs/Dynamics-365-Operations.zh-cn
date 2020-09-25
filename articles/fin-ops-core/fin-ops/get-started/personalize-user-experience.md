@@ -3,7 +3,7 @@ title: 打造个性化的用户体验
 description: 本主题说明如何个性化应用程序。
 author: jasongre
 manager: AnnBe
-ms.date: 07/28/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8afbea3b3a6a06d005efae7305b2e394907c67c
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: f01580117b22191976400b2e2ba1a5dde8ad559d
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652123"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802983"
 ---
 # <a name="personalize-the-user-experience"></a>打造个性化的用户体验
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题说明如何个性化应用，包括以下主题： 
 

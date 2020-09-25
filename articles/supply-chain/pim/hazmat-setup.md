@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: aaf66b98717c72b4260e0a482400bdb29bbd9ecb
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699591"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803205"
 ---
 # <a name="set-up-hazardous-materials"></a>设置危险物料
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 要使用危险物料功能，必须首先设置将物料分类为危险物料所需的数据。 然后，在创建包含分类为危险物料的物料的销售订单时，系统会在装运时为该销售订单生成危险物料文档。
 

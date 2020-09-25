@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adeefd08531f59e478efbb45ab294b3bc8216f4c
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: d281fe710381b0ecb075a0d9281d46bd6edf987d
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042128"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745289"
 ---
-# <a name="FILTER">FILTER ER 函数</a>
+# <a name="filter-er-function"></a>FILTER ER 函数
 
 [!include [banner](../includes/banner.md)]
 

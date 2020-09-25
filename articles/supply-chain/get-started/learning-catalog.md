@@ -5,18 +5,21 @@ author: margoc
 ms.topic: article
 ms.date: 07/23/2020
 ms.author: margoc
+ms.prod: ''
+ms.service: Dynamics365Operations
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 03a610b228ead302451788215f163ec171ae71df
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: a3c9ae7f9347aedc9dfba669a788b93f339e9fe8
+ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646187"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "3793021"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management"></a>适用于 Dynamics 365 Supply Chain Management 的学习目录
 

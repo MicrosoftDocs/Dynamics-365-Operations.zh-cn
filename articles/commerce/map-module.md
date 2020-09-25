@@ -18,17 +18,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a0f5d902289c5867095e34a135c50d342f3c4f13
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: ca531e6cbf0a1044b0a13e5cdf42c7b4f0498fe5
+ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646870"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3811176"
 ---
 # <a name="map-module"></a>地图模块
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 此主题介绍地图模块以及如何在 Microsoft Dynamics 365 Commerce 中配置该模块。
 

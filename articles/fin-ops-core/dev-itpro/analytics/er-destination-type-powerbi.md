@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 10.0.09
-ms.openlocfilehash: 9202e8e9ca11f7f0159287b52495a923297c6ed6
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: e17ca4eb6b446edd18f4b3c5e697b073f8136a6b
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019649"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745529"
 ---
-# <a name="PowerBIDestinationType">Power BI 目标</a>
+# <a name="power-bi-destination"></a>Power BI 目标
 
 [!include [banner](../includes/banner.md)]
 

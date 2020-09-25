@@ -14,13 +14,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-03-21
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 1c990911489fa6d73624a91e7d6580e29ddfc419
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.dyn365.ops.version: Release 10.0.10
+ms.openlocfilehash: 0716d662e0740c4b32313e4905e0e6bb42755e6b
+ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597424"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "3763351"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>仓库对采购订单入站负荷的处理
 

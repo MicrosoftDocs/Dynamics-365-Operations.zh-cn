@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9df7be0825203f91434d348385c1ee358ae555ea
-ms.sourcegitcommit: ef6fd78c817f93610771cfb2477f52f16b882164
+ms.openlocfilehash: 174ac28ee2b726ec7fb2ff6d3dda45906c56af65
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "3290192"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745601"
 ---
-# <a name=""></a><a name="SUMIF">SUMIF ER 函数</a>
+# <a name="sumif-er-function"></a>SUMIF ER 函数
 
 [!include [banner](../includes/banner.md)]
 
