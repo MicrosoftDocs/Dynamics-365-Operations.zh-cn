@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d24aabb582151b0b357b64a988cc932a9c9f3cea
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 755f5f1de28f95ed682648caf47155ad71c8f4b0
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070659"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745481"
 ---
-# <a name="DAYOFYEAR">DAYOFYEAR ER 函数</a>
+# <a name="dayofyear-er-function"></a>DAYOFYEAR ER 函数
 
 [!include [banner](../includes/banner.md)]
 

@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: ''
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: ''
+ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2bcbf69362e4ca3a156d1d404e15489ddb3f0d0
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: ae6b36c40d2f2f9e5266dfb3e2d1cbbb57755222
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597208"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803083"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>在 LCS 中安装 IoT 智能加载项
 

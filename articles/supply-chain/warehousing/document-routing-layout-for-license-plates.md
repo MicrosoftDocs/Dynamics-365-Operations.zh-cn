@@ -15,13 +15,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ca7bf50800f3b376b809d89c5de969b2233c5e2b
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.dyn365.ops.version: Release 10.0.10
+ms.openlocfilehash: 9af077022ab0759534d2c1da5f39997712e6a354
+ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677378"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "3763447"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>牌照标签的文档路线选择布局
 

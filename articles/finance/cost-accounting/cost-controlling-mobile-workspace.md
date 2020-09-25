@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: CAMMobileCostObjectOverviewDetailsCurrentPeriod, CAMMobileCostObjectList, CAMMobileCostObjectOverviewDetailsPreviousPeriod, CAMMobileCostObjectOverview, CAMMobileCostObjectOverviewDetailsYearToDate, CAMMobileCostControlWorkspaceConfiguration
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -17,12 +18,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 27381a408df64b8f11323b2f164d242bb2c4b6c5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 22acdcfbecc1efe78a1b1be87e40b2e7d23506fc
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249693"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759440"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>成本控制移动工作区
 
@@ -30,7 +31,7 @@ ms.locfileid: "2249693"
 
 此主题提供有关**成本控制**移动工作区的信息。 此工作区让成本中心经理可以在任何时候任何位置查看有关成本中心绩效的信息。
 
-此工作区应该与 Finance and Operations mobile 应用程序结合使用。
+此工作区应该与 Finance and Operations 移动应用结合使用。
 
 ## <a name="overview"></a>概览
 **成本控制**移动工作区通过比较实际成本与预算成本，提供成本中心当前绩效的即时视图。 可以向下钻取单个成本元素的状态。
@@ -115,7 +116,7 @@ ms.locfileid: "2249693"
 
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
-下载并安装 Finance and Operations 移动应用程序：
+下载并安装 Finance and Operations 移动应用：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

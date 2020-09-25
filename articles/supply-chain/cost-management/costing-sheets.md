@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostSheetDesigner
+ms.search.form: CostSheetDesigner, CostSheetCalculationFactor
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eded428d24b6ade35eb5606535fdedc0e3be0e39
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f772dbd1d559e7438e328729ad5333ec9f6863dc
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201816"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759608"
 ---
 # <a name="costing-sheets"></a>成本计算单
 

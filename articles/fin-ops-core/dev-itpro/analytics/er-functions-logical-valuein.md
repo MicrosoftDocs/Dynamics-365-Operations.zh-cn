@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 44459ae56891a08eb11a6c254f4b4d5652a0e693
-ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
+ms.openlocfilehash: b4f88c0d71b6fa6980ee8e180ae5be482a463f1c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3705111"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744663"
 ---
-# <a name=""></a><a name="VALUEIN">VALUEIN ER 函数</a>
+# <a name="valuein-er-function"></a>VALUEIN ER 函数
 
 [!include [banner](../includes/banner.md)]
 
