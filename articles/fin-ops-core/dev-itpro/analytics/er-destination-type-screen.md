@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: be4050f24127491a3b2a57c9b9a0b2163e3f9e52
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 54beb1db7df5a6a5cfa02f038822c41f13a9e1b8
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019652"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744447"
 ---
-# <a name="ScreenDestinationType">屏幕目标</a>
+# <a name="screen-destination"></a>屏幕目标
 
 [!include [banner](../includes/banner.md)]
 

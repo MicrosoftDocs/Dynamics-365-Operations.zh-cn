@@ -3,7 +3,7 @@ title: 部分库位周期盘点
 description: 周期盘点计划指导实际盘点操作。 您可以要求仅盘点特定的产品和产品变型，无需对库位中的所有现有库存进行盘点。
 author: perlynne
 manager: tfehr
-ms.date: 11/02/2017
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f07c7754dbe36334e8972d49edf9fb84a78f5d0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 46365f618b13c2bcaef9a45d2a835fda27019857
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215669"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759999"
 ---
 # <a name="partial-location-cycle-counting"></a>部分库位周期盘点
 
@@ -45,7 +45,7 @@ ms.locfileid: "3215669"
 
 可以处理部分周期盘点工作前，您必须至少为移动设备菜单项选择**显示物料编号**作为周期盘点设置的一部分。 系统将要求仓库操作员仅记录与盘点行相关联的盘点信息（物料编号和产品维度）。 此盘点流程将忽略所有其他现有库存。 
 
-对于部分周期盘点流程，不会更新此库位的**上一次周期盘点**日期/时间。
+对于部分周期盘点流程，不会更新此库位的**上一次周期盘点**日期/时间，即使盘点了给定库位的所有物料也不例外。 部分周期盘点不会考虑**周期盘点计划**页面中的参数**周期盘点之间的天数**。 部分周期盘点不支持同时盘点同一个库位的多个物料。 部分周期盘点功能可能导致在运行**处理周期盘点计划**时，多次为一个物料盘点同一个库位。 若要避免此情况，请在**选择库位**字段中指定筛选器。
 
 ## <a name="example"></a>示例
 在此示例中，仅须盘点仓库 61 中的物料编号 A0001。

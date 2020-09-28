@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209206"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813826"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>采购主页
 
@@ -55,7 +55,7 @@ ms.locfileid: "3209206"
 -   [供应商与客户协作](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [管理供应商协作用户](manage-vendor-collaboration-users.md)
 -   [设置和维护供应商协作](set-up-maintain-vendor-collaboration.md)
--   [Microsoft Dynamics 365 for Finance and Operations 的入站托运库存演示脚本](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)（白皮书）
+-   [Microsoft Dynamics 365 for Finance and Operations 的入站托运库存演示脚本](https://www.microsoft.com/download/details.aspx?id=101945)（白皮书）
 -   [使用供应商协作监控托运库存](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [使用供应商门户与供应商协作](collaborate-vendors-vendor-portal.md)（仅限 Dynamics AX 2016 年 2 月版本和 2016 年 5 月版本）
 -   [供应商门户用户安全性](configure-security-vendor-portal-users.md)（仅限 Finance and Operations 2016 年版本和 2016 年 5 月版本）
@@ -98,7 +98,7 @@ ms.locfileid: "3209206"
 -   [采购工作流](procurement-sourcing-workflows.md)
 -   [记录采购订单上的收货](tasks/record-receipt-goods-purchase-order.md)
 -   [采购申请工作流](purchase-requisitions-workflow.md)
--   [定义采购申请的业务流程工作流](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)（白皮书）
+-   [定义采购申请的业务流程工作流](https://www.microsoft.com/download/details.aspx?id=101821)（白皮书）
 -   [采购策略概览](purchase-policies.md)
 -   [创建采购策略](tasks/create-purchasing-policies.md)
 

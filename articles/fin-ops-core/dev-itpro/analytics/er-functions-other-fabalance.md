@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76a087157ae53e2c571654ade7383d7bd7a005c3
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 6a969e3a484208388fd82d7a714bee27b7fe64a9
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041438"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744159"
 ---
-# <a name="FA_BALANCE">FA_BALANCE ER 函数</a>
+# <a name="fa_balance-er-function"></a>FA_BALANCE ER 函数
 
 [!include [banner](../includes/banner.md)]
 

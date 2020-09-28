@@ -5,18 +5,21 @@ author: margoc
 ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
+ms.prod: ''
+ms.service: Dynamics365Operations
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 67196b4f06ebd495ae55e3b8ef85ea8e923cace8
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 7a0c8dabc91d4d69d3f7098672611610a4ec73ac
+ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646350"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "3793481"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>使用 Dynamics 365 Finance 的实施项目经理学习目录
 

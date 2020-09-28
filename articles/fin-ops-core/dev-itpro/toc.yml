@@ -10,16 +10,16 @@
           items:
             - name: Finance and Operations 应用新增功能或更改
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Platform update 新增功能或更改
+            - name: 平台更新的新增功能或更改
               items:
-                - name: “Platform update 新增功能或更改”主页
+                - name: “平台更新的新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: 针对 10.0.14 的平台更新（2020 年 11 月）
+                  href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: 针对 10.0.13 的平台更新（2020 年 10 月）
                   href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: 针对 10.0.12 的平台更新（2020 年 8 月）
                   href: get-started/whats-new-platform-update-10-0-12.md
-                - name: 针对 10.0.11 的平台更新（2020 年 7 月）
-                  href: get-started/whats-new-platform-update-35.md
             - name: 已删除或弃用的功能
               items:
                 - name: 已删除或弃用的平台功能
@@ -606,6 +606,14 @@
                   href: dev-tools/pipeline-create-deployable-package.md
                 - name: Azure Pipelines 中的 X++ 模型版本控制
                   href: dev-tools/pipeline-model-version.md
+                - name: 使用 Azure Pipelines 下载资产
+                  href: dev-tools/pipeline-asset-download.md
+                - name: 使用 Azure Pipelines 上传资产
+                  href: dev-tools/pipeline-asset-upload.md
+                - name: 使用 Azure Pipelines 部署资产
+                  href: dev-tools/pipeline-deploy-asset.md
+                - name: 在 Azure Pipelines 中创建 Lifecycle Services (LCS) 连接
+                  href: dev-tools/pipeline-lcs-connection.md
             - name: 车队管理示例应用程序
               items:
                 - name: 车队管理示例应用程序的端到端方案

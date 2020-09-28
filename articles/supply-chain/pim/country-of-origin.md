@@ -15,18 +15,26 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: fd234c57bf9893e9b8bcfa5ada7439a642f7a288
-ms.sourcegitcommit: 70d0b4e6bdacc15ec75935550ae55fc02cb79624
+ms.openlocfilehash: d0d93a02817bab8e188818862c1bb7f84b498fc1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "3596206"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802789"
 ---
 # <a name="country-of-origin"></a>原产国家/地区
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 许多组织向其供应商颁发证书，以确保产品符合特定的认证标准。 这些证书通常依赖于原产国家/地区。 原产国家/地区功能让您可以将产品链接到其原产国家/地区并跟踪产品认证。
+
+## <a name="turn-on-the-country-of-origin-feature"></a>打开原产国家/地区功能
+
+此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在**功能管理**工作区中，此功能按照下面的方式列出：
+
+- **模块**：*产品信息管理*
+- **功能名称**：*远程国家/地区管理功能*
 
 ## <a name="configure-source-and-destination-countries"></a>配置来源与目标国家/地区
 
@@ -39,7 +47,7 @@ ms.locfileid: "3596206"
     | 字段 | 说明 |
     |---|---|
     | 物料编号 | 选择产品的物料编号。 |
-    | 目标国家 | 选择要将产品发送到的国家/地区。 |
+    | 目标国家/地区 | 选择要将产品发送到的国家/地区。 |
     | 原产国家/地区 | 选择您装运产品的国家/地区。 |
 
 此设置的目的是帮助您生成物料清单 (BOM) 报告，报告中可以包括指定了来源和目标国家/地区的每个部件的原产国家/地区。 此报告将帮助您全面了解部件的来源和去向。

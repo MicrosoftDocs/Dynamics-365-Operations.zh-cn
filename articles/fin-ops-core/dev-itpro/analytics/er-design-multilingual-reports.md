@@ -3,7 +3,7 @@ title: 在电子报告中设计多语言报告
 description: 本主题说明如何使用电子报告 (ER) 标签来设计和生成多语言报告。
 author: NickSelin
 manager: AnnBe
-ms.date: 04/24/2020
+ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65efb8dbec925b5238acaa5d6769f3085e9715b9
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: 26a912aa2002f1d60dd650248bd3c68e45e68596
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3444613"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810659"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>在电子报告中设计多语言报告
 
@@ -33,7 +33,7 @@ ms.locfileid: "3444613"
 
 作为业务用户，您可以使用[电子报告 (ER)](general-electronic-reporting.md) 框架根据各个国家或地区的法律要求配置必须生成的传出文档的格式。 当这些要求需要针对不同国家或地区以不同语言生成传出文档时，您可以配置一个包含语言相关资源的 ER [格式](general-electronic-reporting.md#FormatComponentOutbound)。 这样，您可以重用此格式来生成各个国家或地区的传出文档。 您可能还希望使用一个 ER 格式为相应的客户、供应商、子公司或任何其他方生成不同语言的传出文档。
 
-您可以将 ER 数据模型和模型映射配置为已配置的 ER 格式的数据源，来定义指定将哪些应用程序数据放入生成的文档的数据流。 作为 ER 配置[提供者](general-electronic-reporting.md#Provider)，您可以[发布](tasks/er-upload-configuration-into-lifecycle-services.md#upload-configuration-into-lcs)配置的[数据模型](general-electronic-reporting.md#data-model-and-model-mapping-components)、[模型映射](general-electronic-reporting.md#data-model-and-model-mapping-components)和[格式](general-electronic-reporting.md#FormatComponentOutbound)作为 ER 解决方案的组成部分，来生成特定的传出文档。 您还可以允许客户[上载](general-electronic-reporting-manage-configuration-lifecycle.md)已发布的 ER 解决方案，以便可以使用和定制该解决方案。 如果您希望客户讲其他语言，则可以配置 ER 组件，使其包含语言相关资源。 以此方式，可在设计时以客户的用户首选语言呈现可编辑 ER 组件的内容。
+您可以将 ER 数据模型和模型映射配置为已配置的 ER 格式的数据源，来定义指定将哪些应用程序数据放入生成的文档的数据流。 作为 ER 配置[提供者](general-electronic-reporting.md#Provider)，您可以[发布](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs)配置的[数据模型](general-electronic-reporting.md#data-model-and-model-mapping-components)、[模型映射](general-electronic-reporting.md#data-model-and-model-mapping-components)和[格式](general-electronic-reporting.md#FormatComponentOutbound)作为 ER 解决方案的组成部分，来生成特定的传出文档。 您还可以允许客户[上载](general-electronic-reporting-manage-configuration-lifecycle.md)已发布的 ER 解决方案，以便可以使用和定制该解决方案。 如果您希望客户讲其他语言，则可以配置 ER 组件，使其包含语言相关资源。 以此方式，可在设计时以客户的用户首选语言呈现可编辑 ER 组件的内容。
 
 您可以将语言相关资源配置为 ER 标签。 然后，可以使用这些标签来配置 ER 组件以用于以下目的：
 

@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 961ccd18e70d4f9851027492366a7d9408a668c5
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: eac09c9b410815ad9ae71dec53fc0416b020ca1e
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042404"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744807"
 ---
-# <a name="DATETODATETIME">DATETODATETIME ER 函数</a>
+# <a name="datetodatetime-er-function"></a>DATETODATETIME ER 函数
 
 [!include [banner](../includes/banner.md)]
 

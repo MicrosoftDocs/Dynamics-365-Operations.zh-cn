@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87613978c149b5d41aefc58f9896424229819626
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 33ccf358dc5355cd00d5ff41ebd8148a334cba38
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041152"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743847"
 ---
-# <a name="GETENUMVALUEBYNAME">GETENUMVALUEBYNAME ER 函数</a>
+# <a name="getenumvaluebyname-er-function"></a>GETENUMVALUEBYNAME ER 函数
 
 [!include [banner](../includes/banner.md)]
 

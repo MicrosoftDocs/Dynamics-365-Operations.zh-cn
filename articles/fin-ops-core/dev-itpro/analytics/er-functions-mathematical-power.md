@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c57222d7fcc133faa679bab43431272c984c9d8b
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 080b2f9b1ada55209c9470386aceab2d3ef456af
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041622"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744567"
 ---
-# <a name="POWER">POWER ER 函数</a>
+# <a name="power-er-function"></a>POWER ER 函数
 
 [!include [banner](../includes/banner.md)]
 

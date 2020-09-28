@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CAMDimension, CAMDimensionMember
+ms.search.form: CAMDimension, CAMDimensionMember, CAMDimensionMapping
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: deb9b5aab9cd69270c78d4e1ea0e2a6cac6ac370
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 835a542ad5f7606f76805e54fda9f49ecc79205f
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176606"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759272"
 ---
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>将成本元素维度成员映射到一组常用维度成员
 

@@ -3,7 +3,7 @@ title: 添加收藏夹图标
 description: 此主题介绍如何向站点添加收藏夹图标。
 author: bicyclingfool
 manager: annbe
-ms.date: 04/27/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686782"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761145"
 ---
 # <a name="add-a-favicon"></a>添加收藏夹图标
 
@@ -58,30 +58,30 @@ ms.locfileid: "3686782"
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>创建一个包含收藏夹图标元标记的页面片段
+## <a name="create-a-fragment-that-contains-a-metatag-for-your-favicon"></a>创建一个包含收藏夹图标元标记的片段
 
-要创建一个包含收藏夹图标元标记的页面片段，请执行以下步骤。
+要创建一个包含收藏夹图标元标记的片段，请执行以下步骤。
 
 1. 转到**片段**，然后选择**新建**.
-1. 在**新建页面片段**对话框中，选择**元标记**作为页面片段所基于的模块。
-1. 输入页面片段名称，然后选择**确定**。
+1. 在**新建片段**对话框中，选择**元标记**作为片段所基于的模块。
+1. 输入片段名称，然后选择**确定**。
 1. 在片段层次结构树中，选择**默认元标记**子项。
 1. 在右窗格中的**元标记**下，选择**添加**，然后输入您先前为该收藏夹图标创建的 HTML 字符串。 
-1. 选择**完成编辑**，然后选择**发布**以发布页面片段。
+1. 选择**完成编辑**，然后选择**发布**以发布片段。
 
-## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>将元标记页面片段添加到页面的 HTML 标头部分
+## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>将元标记片段添加到页面的 HTML 标头部分
 
-要将元标记页面片段添加到页面的 HTML **标头**部分，请执行以下步骤。
+要将元标记片段添加到页面的 HTML **标头**部分，请执行以下步骤。
 
 1. 转到**模板**，打开要向其中添加收藏夹图标的页面的模板，然后选择**编辑**。
-1. 在模板层次结构树中，选择 **HTML 标头**容器右侧的省略号 (**...**) 按钮，然后选择**添加页面片段**。
-1. 在**选择页面片段**对话框中，选择您之前创建的元标记页面片段，然后选择**确定**。
+1. 在模板层次结构树中，选择 **HTML 标头**容器右侧的省略号 (**...**) 按钮，然后选择**添加片段**。
+1. 在**选择片段**对话框中，选择您之前创建的元标记片段，然后选择**确定**。
 1. 选择**完成编辑**，然后选择**发布**以发布模板。
 
 > [!NOTE]
-> 如果您的站点使用多个模板，则必须将元标记页面片段添加到所有项中。
+> 如果您的站点使用多个模板，则必须将元标记片段添加到所有项中。
 
-当您预览的页面基于元标记页面片段所添加到的模板时，您现在应该会在浏览器选项卡上看到收藏夹图标。
+当您预览的页面基于元标记片段所添加到的模板时，您现在应该会在浏览器选项卡上看到收藏夹图标。
 
 ## <a name="additional-resources"></a>其他资源
 

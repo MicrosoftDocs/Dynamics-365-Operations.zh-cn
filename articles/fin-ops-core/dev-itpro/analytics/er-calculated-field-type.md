@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
-ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
+ms.openlocfilehash: c68f0a0e2481c69add8c50a1581466ad0b1483c0
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665602"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759903"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>支持对计算字段类型的 ER 数据源执行参数化调用
 
@@ -339,4 +339,7 @@ ms.locfileid: "3665602"
 8. 比较生成的输出的内容。
 
 ## <a name="additional-resources"></a>其他资源
-[电子申报中 (ER) 的配方设计器](general-electronic-reporting-formula-designer.md)
+
+- [电子申报中 (ER) 的配方设计器](general-electronic-reporting-formula-designer.md)
+- [通过添加参数化的计算字段数据源提高 ER 解决方案的性能](er-calculated-field-ds-performance.md)
+

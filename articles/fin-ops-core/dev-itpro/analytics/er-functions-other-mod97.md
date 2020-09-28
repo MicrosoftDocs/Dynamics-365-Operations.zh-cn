@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce2192c7bc849996e08573d71d8ed43956c8fb89
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: b58e06a034fc6d26c891b78c26ac53c87a39b92b
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070521"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744039"
 ---
-# <a name="MOD_97">MOD_97 ER 函数</a>
+# <a name="mod_97-er-function"></a>MOD_97 ER 函数
 
 [!include [banner](../includes/banner.md)]
 

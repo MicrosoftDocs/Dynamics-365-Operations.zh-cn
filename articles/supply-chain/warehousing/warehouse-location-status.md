@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 128083b22bb14d9b445863a0ba1217f723727ee4
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 7b17df2afee22dde1af5c44de31c585069daa349
+ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597498"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3775166"
 ---
 # <a name="warehouse-location-status"></a>仓库货位状态
 
@@ -76,6 +76,9 @@ Microsoft Dynamics 365 Supply Chain Management 中有若干货位字段，让您
     这些选项控制货位中的引用字段是否处于活动状态。
 
 1. 对 **PICK-06** 模板重复执行步骤 3 到 4。
+
+> [!NOTE]
+> 当库位配置文件中的参数（**在库位中启用物料**、**启用库位位置**、**启用库位状态**）设置为*是*时，系统将通过执行*仓库库位状态一致性检查*作业立即更新相关库位。
 
 ### <a name="scenario"></a>应用场景
 

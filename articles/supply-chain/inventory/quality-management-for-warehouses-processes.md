@@ -14,13 +14,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 3469c8936dd2eaa53e541f0ea684ea1eb12db4cb
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.dyn365.ops.version: Release 10.0.10
+ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
+ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530113"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "3763471"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>仓库流程质量管理
 
@@ -282,7 +282,7 @@ _仓库流程质量管理_功能还为**数量规范**字段引入了*完全牌�
 
 ## <a name="cross-docking"></a>越库配送
 
-您可以使用创建物料抽样工作的质量关联设置。 但是，当越库配送与创建质检物料抽样工作的质量关联同时存在时，如果只有足够的数量满足越库配送，则仅创建物料抽样工作。 如果接收仓库的***启用仓库流程质检订单**选项设置为_是_，并且质量关联的**适用仓库类型**字段设置为_仅仓库流程质量管理_，质检物料抽样工作的创建将优先于越库配送工作的创建。 如果数量超过越库配送的要求，系统仍将仅创建物料抽样工作。
+您可以使用创建物料抽样工作的质量关联设置。 但是，当越库配送与创建质检物料抽样工作的质量关联同时存在时，如果只有足够的数量满足越库配送，则仅创建物料抽样工作。 如果接收仓库的**启用仓库流程质检订单**选项设置为_是_，并且质量关联的**适用仓库类型**字段设置为_仅仓库流程质量管理_，质检物料抽样工作的创建将优先于越库配送工作的创建。 如果数量超过越库配送的要求，系统仍将仅创建物料抽样工作。
 
 ## <a name="destructive-testing"></a>破坏性测试
 

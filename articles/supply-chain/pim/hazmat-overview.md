@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 227111f4703d9dc381270382dcb796874d7de937
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699589"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802741"
 ---
 # <a name="hazardous-materials-overview"></a>危险物料概述
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 为了始终遵守装运和运输法规，装运被分类为危险货物的物料的组织必须在装运中提供其他文件。 危险物料功能使客户可以存储与已发布物料有关的信息。 然后，可以使用此信息来帮助准备装运文档。 装运危险货物的组织必须有自己的流程和程序来管理装运流程。 Microsoft Dynamics 365 Supply Chain Management 只是可以帮助生成所需文档的工具。
 

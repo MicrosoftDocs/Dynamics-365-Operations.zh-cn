@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a02cdd085a236065bb3622b36f7d3284144d96e5
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 2e46fcef3d53483b782ac39a0661fc0edc8d861c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041265"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743942"
 ---
-# <a name="EMPTYRECORD">EMPTYRECORD ER 函数</a>
+# <a name="emptyrecord-er-function"></a>EMPTYRECORD ER 函数
 
 [!include [banner](../includes/banner.md)]
 

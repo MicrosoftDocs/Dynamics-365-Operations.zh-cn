@@ -3,7 +3,7 @@ title: 在 Teams 中管理请假
 description: 此主题显示如何在 Microsoft Teams 中的 Dynamics 365 Human Resources 应用内请假。
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/18/2020
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b3daa76385518ad4c7150fa93ce33be0351bfd57
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 0fbf44fe35af3147fd5fb478b6cbfc5a5d0b109d
+ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428820"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3766752"
 ---
 # <a name="manage-leave-requests-in-teams"></a>在 Teams 中管理请假
 
@@ -82,11 +82,11 @@ ms.locfileid: "3428820"
 
    ![Human Resources Teams 休假应用请假](./media/hr-teams-leave-app-bot-request.png)
  
-启动请假后，可以直接在卡中调整天数，也可以选择**编辑详细信息**向请求添加更多信息。
+开始请假后，可以直接在卡片内调整天数。
 
 ![Human Resources Teams 休假应用编辑请求](./media/hr-teams-leave-app-bot-edit.png)
  
-输入完信息后，键入**提交**提交请求供批准。 也可以键入**另存为草稿**以后再回来。
+输入完信息后，选择**提交**提交请求供批准。 也可以选择**另存为草稿**以后再回来。
 
 ![Human Resources Teams 休假应用提交请求](./media/hr-teams-leave-app-bot-submit.png)
 
@@ -130,15 +130,43 @@ ms.locfileid: "3428820"
 
    ![Human Resources Teams 休假应用编辑草稿](./media/hr-teams-leave-app-drafts-edit.png)
    
+### <a name="teams-notifications"></a>Teams 通知
+
+当您或作为审批者的您的下属工作人员提交请假时，您将在 Teams 中的 Human Resources 应用内收到通知。 您可以选择通知进行查看。 也会在**聊天**区域中显示通知。
+
+如果您是审批者，您可以在通知中选择**批准**或**拒绝**。 还可以提供可选消息。
+
+![Human Resources Teams 中的请假通知](./media/hr-teams-leave-app-notification.png)
+
+## <a name="view-your-teams-leave-calendar"></a>查看您的休假日历
+
+如果您是具有直接下属的的经理，则可以查看团队的批准和待定请假。
+
+1. 在 Teams 中的 Human Resources 应用内，选择**请假**。
+
+2. 选择 **Team 日历**。
+
+   ![在 Human Resources Teams 应用中查看日历](./media/hr-teams-leave-app-view-calendar.png)
+
+日历显示直接下属的已批准和待定请假。
+
+![Human Resources Teams 应用中的请假](./media/hr-teams-leave-app-calendar.png)
+
 ## <a name="privacy-notice"></a>隐私声明
 
-Microsoft Teams 中的 Dynamics 365 Human Resources 机器人用于分析用户的文本输入以了解底层的查询/意图。 “搜索帐户 Contoso”之类用户输入将传递到一个名称为语言理解智能服务 (LUIS) 的 Microsoft Cognitive Service。 请在 [此处](https://www.luis.ai/)详细了解 LUIS。 LUIS 服务用于厘清或了解用户输入的意图（此示例中的意图为查找信息）和目标实体（此示例中的意向实体为帐户 Contoso）。 然后将此信息继续传递到 Microsoft 的  [Azure 机器人框架](https://azure.microsoft.com/services/bot-service/) 后者与来自 Dynamics 365 Human Resources 的数据交互和检索用户查询所需信息。 
+### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft 语言理解智能服务 (LUIS)
+
+Microsoft Teams 中的 Dynamics 365 Human Resources 机器人用于分析用户的文本输入以了解底层的查询/意图。 “搜索帐户 Contoso”之类用户输入将传递到一个名称为语言理解智能服务 (LUIS) 的 Microsoft Cognitive Service。 请在 [此处](https://www.luis.ai/)详细了解 LUIS。 LUIS 服务用于厘清或了解用户输入的意图（此示例中的意图为查找信息）和目标实体（此示例中的意向实体为帐户 Contoso）。 然后将此信息继续传递到 Microsoft 的  [Azure Bot Framework](https://azure.microsoft.com/services/bot-service/)，后者与来自 Dynamics 365 Human Resources 的数据交互和检索用户查询所需信息。 
 
 安装并允许访问使用机器人即表示您同意允许 LUIS 服务和 Azure 机器人框架处理输入背后的意图，从而增强对话用户体验。 与 Dynamics 365 Human Resources 相比，LUIS 服务和 Azure 机器人框架的合规性级别可能很多。 由于 LUIS 服务只能访问用户查询，不应连接到用户的 Dynamics 365 Human Resources 数据或帐户，所以 Dynamics 365 Human Resources 机器人的用户可以自愿输入其中包含客户数据、个人数据或其他数据的查询，并且可能将此类查询意图发送给 LUIS 服务和 Azure 机器人框架。 
 
 用户的查询和消息的意图在 LUIS 系统中最多保留 30 天，静态加密，且不用于改进训练或服务。 请在 [此处](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/)详细了解 Cognitive Services。 
 
-若要管理 Microsoft Teams 中的应用的管理员设置，请转到 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com/)。 
+若要管理 Microsoft Teams 中的应用的管理员设置，请转到 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com/)。
+
+### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>Microsoft Azure 事件网格和 Microsoft Teams
+
+使用 Teams 中的 Dynamics 365 Human Resources 应用的通知功能时，某些客户数据会流到租户的 Human Resources 服务的部署地理区域之外。 Dynamics 365 Human Resources 将员工的请假和工作流程任务详细信息传输到 Microsoft Azure 事件网格和 Microsoft Teams。 此数据可以存储最多 24 小时和在美国处理，在传输期间和静态时加密，并且不由 Microsoft 或其附属机构用于训练或服务改进。
 
 ## <a name="see-also"></a>请参阅
 

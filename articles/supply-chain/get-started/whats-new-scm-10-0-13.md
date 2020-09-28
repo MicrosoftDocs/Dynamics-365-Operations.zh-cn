@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.13 预览功能（2020 年 10 月）
+title: Dynamics 365 Supply Chain Management 10.0.13（2020 年 10 月）中的新增功能或更改
 description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.13 中的新增功能或更改的功能。
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: dae936ea9a72b865096cdda54d767f3e44816e20
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: af468f0cc5d5f1baab62afb3cf90dfca353b3291
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652215"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802935"
 ---
-# <a name="preview-features-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Dynamics 365 Supply Chain Management 10.0.13 预览功能（2020 年 10 月）
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Dynamics 365 Supply Chain Management 10.0.13（2020 年 10 月）中的新增功能或更改
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-此主题列出了 Microsoft Dynamics 365 Supply Chain Management 预览版本 10.0.13 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.569，并以下面的形式提供： 
+此主题列出了 Microsoft Dynamics 365 Supply Chain Management 预览版本 10.0.13 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.569，并以下面的形式提供：
 
 - **预览版本：** 2020 年 8 月
 - **正式发布（自行更新）：** 2020 年 9 月
@@ -61,7 +60,7 @@ ms.locfileid: "3652215"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.13 中包含平台更新。 若要了解详细信息，请参阅 [Finance and Operations 应用版本 10.0.13 的平台更新（2020 年 10 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-13.md)。
+Microsoft Dynamics 365 Supply Chain Management 10.0.13 中包含平台更新。 若要了解详细信息，请参阅 [Finance and Operations 应用版本 10.0.13 的平台更新（2020 年 10 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md)。
 
 ### <a name="bug-fixes"></a>缺陷修复
 

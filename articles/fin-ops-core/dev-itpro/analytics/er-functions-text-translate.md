@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 415444bda097c00522155d1b37988a79da836902
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: 51b9a2e25a9f1dfc08e9e0f7fc3ad84b359a6d1b
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201104"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744231"
 ---
-# <a name=""></a><a name="TRANSLATE">TRANSLATE ER 函数</a>
+# <a name="translate-er-function"></a>TRANSLATE ER 函数
 
 [!include [banner](../includes/banner.md)]
 

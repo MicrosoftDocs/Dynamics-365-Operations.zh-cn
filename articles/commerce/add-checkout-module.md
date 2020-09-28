@@ -3,7 +3,7 @@ title: 结帐模块
 description: 此主题介绍如何向页面添加结帐模块和设置必需的属性。
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d913fdc9ab9a3dbf7d5534fba38add7f942652a
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 389e3e9d631574eac499f7c6146e2776b8126a52
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686734"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761097"
 ---
 # <a name="checkout-module"></a>结帐模块
 
@@ -97,8 +97,8 @@ ms.locfileid: "3686734"
 若要向新页面添加结帐模块和设置必需的属性，请执行以下步骤。
 
 1. 转到**片段**，选择**新建**创建新片段。
-1. 在**新建页面片段**对话框中，选择**结帐**模块。
-1. 在**页面片段名称**下，输入名称**结帐片段**，然后选择**确定**。
+1. 在**新建片段**对话框中，选择**结帐**模块。
+1. 在**片段名称**下，输入名称**结帐片段**，然后选择**确定**。
 1. 选择**结帐模块**插槽。
 1. 在右侧的属性窗格中，选择铅笔符号，在字段中输入标题文本，然后选择复选标记符号。
 1. 在**结帐信息**插槽中，选择省略号 (**...**)，然后选择**添加模块**。

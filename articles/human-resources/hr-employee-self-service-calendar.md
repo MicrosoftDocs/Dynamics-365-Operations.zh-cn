@@ -3,7 +3,7 @@ title: 创建团队日历
 description: 在 Dynamics 365 Human Resources 中查看和创建团队日历。
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2862c98014f91c5500ec11119d04d15bd050c89c
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f7d11b11864f73d4405a4e3629e6873b8cd13e8d
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712200"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796461"
 ---
 # <a name="view-team-and-company-calendars"></a>查看团队和公司日历
 
@@ -50,6 +50,22 @@ ms.locfileid: "3712200"
 2. 选择**休假和缺勤日历**。
 
 人力资源角色也可以从**休假和缺勤请求**、**批准的休息时间**和**休息时间请求**访问公司日历。 
+
+[!include [banner](includes/preview-feature.md)]
+
+日历现在包含更多筛选器和选项。 所有日历都包含以下对象的视图选项：
+
+- 审核的请求
+- 待定请求
+- 已请假的员工
+- 无请假的员工
+- 员工生日
+- 休假请求 
+- 休假申请
+
+“休假和缺勤”参数中的日历配置决定可用视图选项。
+
+还可以按经理或部门筛选日历。 主要职位分配确定设置了这些筛选器时显示的员工。 
 
 有关日历设置的信息，请参阅[配置日历参数](hr-leave-and-absence-parameters.md?configure-calendar-parameters)。
 

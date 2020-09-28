@@ -1,6 +1,6 @@
 ---
 title: 键盘快捷方式
-description: 以下键盘快捷方式可帮助您快速、高效地输入数据。
+description: 本主题概述使用 Finance and Operations 应用时可使用的快捷键组合。
 author: jasongre
 manager: AnnBe
 ms.date: 10/02/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa35037b435bafa3f22013e41f0692f836e99a14
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
+ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811547"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761613"
 ---
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
 [!include [banner](../includes/banner.md)]
 
-以下键盘快捷方式可帮助您快速、高效地输入数据。
+以下键盘快捷方式可帮助您快速、高效地在 Finance and Operations 应用中输入数据。
 
 > [!NOTE]
 > 此处描述的键盘快捷方式是指美式键盘布局。 其他键盘布局中的键可能不能与美式键盘上的键完全对应。
@@ -236,6 +236,7 @@ ms.locfileid: "2811547"
 | 上移/下移查找中的行                                                                                        | 向上箭头/向下箭头            |
 | 上移/下移查找中的页                                                                                       | Page up / Page down              |
 | 移到查找的顶部/底部                                                                                    | Home / End                       |
+
 ## <a name="additional-resources"></a>其他资源
 
 - [缺少科目分析的键盘快捷方式](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)

@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7f78b687865e63e658c1c1c4f148b50595bf063
-ms.sourcegitcommit: 54bdcf8e9b6d1b1aae2a244f7a82754879d12053
+ms.openlocfilehash: 035bf720a892e987ff9fc073ab8ed6f6cc6ea18e
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "3740655"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745097"
 ---
-# <a name=""></a><a name="LISTJOIN">LISTJOIN ER 函数</a>
+# <a name="listjoin-er-function"></a>LISTJOIN ER 函数
 
 [!include [banner](../includes/banner.md)]
 
@@ -73,11 +73,11 @@ LIST (list 1 [, list 2, …, list N])
 
 在此例中，表达式 `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` 返回包含两个记录的新列表。
 
-![ER 模型映射设计器页面](./media/er-functions-list-listjoin-image2.gif)
+![带有两个记录的 ER 模型映射设计器页面](./media/er-functions-list-listjoin-image2.gif)
 
 此列表的结构由一个 `Real` 类型的**金额**字段组成，因为此字段是被调用函数每个参数中显示的唯一字段。
 
-![ER 模型映射设计器页面](./media/er-functions-list-listjoin-image3.gif)
+![ER 模型映射设计器页面金额字段](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -7,7 +7,7 @@ ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
-ms.technology: Dynamics 365 Human Resources;PowerApps;Flow;Common Data Service
+ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36b8145764338b91bfedf96c43a7137a89831742
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: 1c5bc0776174960af6cb8a62f00e3fd7d56b1676
+ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410096"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "3793603"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>通过 Power Apps 和 Power Automate 扩展
 

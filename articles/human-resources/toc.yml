@@ -3,8 +3,10 @@
   items:
     - name: 新增功能
       items:
-        - name: Human Resources 中新增或更改的功能
+        - name: Human Resources 新增功能或更改
           href: hr-admin-whats-new.md
+        - name: 2020 年 9 月 3 日
+          href: hr-whats-new-2020-09-03.md
         - name: 2020 年 8 月 20 日
           href: hr-whats-new-2020-08-20.md
         - name: 2020 年 8 月 6 日
@@ -23,12 +25,12 @@
           href: hr-whats-new-2020-05-14.md
         - name: 2020 年 5 月 1 日
           href: hr-whats-new-2020-05-01.md
-        - name: 2020 年 4 月 13 日
-          href: hr-whats-new-2020-04-13.md
-        - name: 2020 年 4 月 3 日
-          href: hr-whats-new-2020-04-03.md
         - name: 2020 年新增功能存档
           items:
+            - name: 2020 年 4 月 13 日
+              href: hr-whats-new-2020-04-13.md
+            - name: 2020 年 4 月 3 日
+              href: hr-whats-new-2020-04-03.md
             - name: 2020 年 3 月 24 日
               href: hr-whats-new-2020-03-24.md
             - name: 2020 年 3 月 19 日
@@ -459,7 +461,7 @@
               href: hr-personnel-define-jobs.md
             - name: 创建工作时间日历
               href: hr-personnel-create-working-time-calendar.md
-            - name: 人事行动常见问题解答
+            - name: 人事行动常见问题
               href: hr-personnel-actions-faq.md
             - name: 使用工作流管理员工信息
               href: hr-workflow-manage-employee-information.md

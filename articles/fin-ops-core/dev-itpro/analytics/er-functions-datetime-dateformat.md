@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 759ccd3cf16c6c109faf44cea350745e3b2bff0b
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 4e9347937d088f15b4f489f0b85704a8688f8131
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042427"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743295"
 ---
-# <a name="DATEFORMAT">DATEFORMAT ER 函数</a>
+# <a name="dateformat-er-function"></a>DATEFORMAT ER 函数
 
 [!include [banner](../includes/banner.md)]
 

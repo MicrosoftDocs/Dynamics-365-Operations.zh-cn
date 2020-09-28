@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6585e44701160bf31c107c07226f992b12cf035e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 207783f5a44d5c6432539ac27a8c491bca811da4
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550640"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760023"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>跟踪 ER 格式的执行情况以解决性能问题
 
@@ -101,7 +101,7 @@ ms.locfileid: "2550640"
 
 假设您已经完成了 ER 解决方案第一版的设计。 现在希望在实例中进行测试并分析执行性能。
 
-### <a id='import-configuration'></a>将 ER 配置从 RCS 导入 Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>将 ER 配置从 RCS 导入 Finance and Operations
 
 1. 登录您的应用程序实例。
 2. 对于本教程，您将把配置从 RCS 实例（即您设计 ER 组件的位置）导入实例（即测试并最终使用这些实例的位置）。 因此，您必须确保已准备好所有必需的项目。 有关说明，请参阅[从监管配置服务 (RCS) 导入电子申报 (ER) 配置](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations)过程。
@@ -146,7 +146,7 @@ ms.locfileid: "2550640"
 
     ![“用户参数”选项卡](./media/GER-PerfTrace-GER-UserParameters.png)
 
-### <a id='run-format'></a>运行 ER 格式
+### <a name="run-the-er-format"></a><a id='run-format'></a>运行 ER 格式
 
 1. 选择 **DEMF** 公司。
 2. 转到**组织管理 \> 电子申报 \> 配置**。
@@ -157,7 +157,7 @@ ms.locfileid: "2550640"
 
 ## <a name="review-the-execution-trace"></a>查看执行跟踪
 
-### <a id='export-trace'></a>从应用程序导出生成的跟踪
+### <a name="export-the-generated-trace-from-the-application"></a><a id='export-trace'></a>从应用程序导出生成的跟踪
 
 性能跟踪将从源 ER 格式分离，并可序列化为外部 zip 文件。
 
@@ -176,7 +176,7 @@ ms.locfileid: "2550640"
 
 请注意，已经为所执行 ER 格式生成的性能跟踪与 ER 模型映射之间的关联基于所用根描述符和常用数据模型。 不考虑格式和模型映射的版本编号。 也不考虑模型映射的**模型映射默认值**标记的设置。
 
-### <a id='import-trace'></a>将生成的跟踪导入 RCS
+### <a name="import-the-generated-trace-into-rcs"></a><a id='import-trace'></a>将生成的跟踪导入 RCS
 
 1. 在 RCS 的**电子申报**工作区中，选择**报告配置**磁贴。
 2. 在**配置**页的配置树中，展开**性能跟踪模型**项，然后选择**性能跟踪格式**项。
@@ -201,7 +201,7 @@ ms.locfileid: "2550640"
 
 2. 关闭**格式设计器**页。
 
-### <a id='use-trace'></a>在 RCS 中使用性能跟踪进行分析 – 模型映射
+### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a><a id='use-trace'></a>在 RCS 中使用性能跟踪进行分析 – 模型映射
 
 1. 在 RCS 的**配置**页的配置树中，选择**性能跟踪映射**项。
 2. 在操作窗格上，选择**设计器**。
@@ -301,7 +301,7 @@ ms.locfileid: "2550640"
 
 重复本主题前面的[运行 ER 格式](#run-format)部分中的步骤生成一个新的性能跟踪。
 
-## <a name="review-the-execution-trace"></a>查看执行跟踪
+## <a name="work-with-the-execution-trace"></a>使用执行跟踪
 
 ### <a name="export-the-generated-trace-from-the-application"></a>从应用程序导出生成的跟踪
 
@@ -347,7 +347,7 @@ ms.locfileid: "2550640"
 
 请注意，Web 浏览器提供一个可供下载的 zip 文件。 这个文件中包含 PerfView 格式的性能跟踪。 然后可使用 PerfView 性能分析工具分析 ER 格式执行情况的详细信息。
 
-![在 PerfView 中跟踪执行的 ER 格式的信息](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![PerfView 格式的性能跟踪信息](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>使用外部工具查看其中包含数据库查询的执行跟踪
 
@@ -363,7 +363,7 @@ ms.locfileid: "2550640"
     - 将**收集查询统计信息**选项设置为**是**。
     - 将**跟踪查询**选项设置为**是**。
 
-    ![“用户参数”选项卡](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![执行跟踪部分，“用户参数”对话框](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>运行 ER 格式
 
@@ -372,3 +372,8 @@ ms.locfileid: "2550640"
 请注意，Web 浏览器提供一个可供下载的 zip 文件。 这个文件中包含 PerfView 格式的性能跟踪。 然后可使用 PerfView 性能分析工具分析 ER 格式执行情况的详细信息。 执行 ER 格式期间，此跟踪中现在包含 SQL 数据库访问权限的详细信息。
 
 ![在 PerfView 中跟踪执行的 ER 格式的信息](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+
+## <a name="additional-resources"></a>其他资源
+
+- [电子申报概览](general-electronic-reporting.md)
+- [通过添加参数化的计算字段数据源提高 ER 解决方案的性能](er-calculated-field-ds-performance.md)

@@ -3,7 +3,7 @@ title: 将脚本代码添加到站点页面以支持遥测
 description: 此主题介绍如何向站点页添加客户端脚本代码来支持收集客户端遥测。
 author: bicyclingfool
 manager: annbe
-ms.date: 03/20/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4f26ed5b6674566f579e801f4b7be63c2d0dc38d
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: a88f4f920154aafaa15a48af67365152e21111f7
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686806"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761241"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>将脚本代码添加到站点页面以支持遥测
 
@@ -37,48 +37,48 @@ ms.locfileid: "3686806"
 > [!NOTE]
 > 此主题中的说明也适用于 Microsoft Dynamics 365 Commerce 本机不提供的其他自定义客户端功能。
 
-## <a name="create-a-reusable-page-fragment-for-your-script-code"></a>为脚本代码创建可重复使用的页面片段
+## <a name="create-a-reusable-fragment-for-your-script-code"></a>为脚本代码创建可重复使用的片段
 
-页面片段使您可以在站点上的所有页面上重复使用内联或外部脚本代码，不管它们使用的模板是什么。
+片段使您可以在站点上的所有页面上重复使用内联或外部脚本代码，不管它们使用的模板是什么。
 
-### <a name="create-a-reusable-page-fragment-for-your-inline-script-code"></a>为内联脚本代码创建可重复使用的页面片段
+### <a name="create-a-reusable-fragment-for-your-inline-script-code"></a>为内联脚本代码创建可重复使用的片段
 
-要在站点构建器中为内联脚本代码创建可重复使用的页面片段，请按照下列步骤操作。
+要在站点构建器中为内联脚本代码创建可重复使用的片段，请按照下列步骤操作。
 
 1. 转到**片段**，然后选择**新建**.
-1. 在**新建页面片段**对话框中，选择**内联脚本**。
-1. 在**页面片段名称**下，输入片段的名称，然后选择**确定**。
-1. 在您创建的页面片段下，选择**默认内联脚本**模块。
+1. 在**新建片段**对话框中，选择**内联脚本**。
+1. 在**片段名称**下，输入片段的名称，然后选择**确定**。
+1. 在您创建的片段下，选择**默认内联脚本**模块。
 1. 在右侧的属性窗格中，在**内联脚本**下，输入您的客户端脚本。 然后根据需要配置其他选项。
 1. 选择**保存**，然后选择**完成编辑**。
 1. 选择**发布**。
 
-### <a name="create-a-reusable-page-fragment-for-your-external-script-code"></a>为外部脚本代码创建可重复使用的页面片段
+### <a name="create-a-reusable-fragment-for-your-external-script-code"></a>为外部脚本代码创建可重复使用的片段
 
-要在站点构建器中为外部脚本代码创建可重复使用的页面片段，请按照下列步骤操作。
+要在站点构建器中为外部脚本代码创建可重复使用的片段，请按照下列步骤操作。
 
 1. 转到**片段**，然后选择**新建**.
-1. 在**新建页面片段**对话框中，选择**外部脚本**。
-1. 在**页面片段名称**下，输入片段的名称，然后选择**确定**。
-1. 在您创建的页面片段下，选择**默认外部脚本**模块。
+1. 在**新建片段**对话框中，选择**外部脚本**。
+1. 在**片段名称**下，输入片段的名称，然后选择**确定**。
+1. 在您创建的片段下，选择**默认外部脚本**模块。
 1. 在右侧的属性窗格中，在**脚本源**下，为外部脚本源添加一个外部或相对 URL。 然后根据需要配置其他选项。
 1. 选择**保存**，然后选择**完成编辑**。
 1. 选择**发布**。
 
-## <a name="add-a-page-fragment-that-includes-script-code-to-a-template"></a>将包含脚本代码的页面片段添加到模板
+## <a name="add-a-fragment-that-includes-script-code-to-a-template"></a>将包含脚本代码的片段添加到模板
 
-要将包含脚本代码的页面片段添加到站点构建器中的模板，请按照下列步骤操作。
+要将包含脚本代码的片段添加到站点构建器中的模板，请按照下列步骤操作。
 
 1. 转到**模板**，然后打开要将脚本代码添加到的页面的模板。
 1. 在左侧窗格中，展开层次结构以打开 **HTML 标头**插槽。
-1. 在 **HTML 标头**插槽中，选择省略号按钮 (**...**)，然后选择**添加页面片段**。
+1. 在 **HTML 标头**插槽中，选择省略号按钮 (**...**)，然后选择**添加片段**。
 1. 选择为脚本代码创建的片段。
 1. 选择**保存**，然后选择**完成编辑**。
 1. 选择**发布**。
 
 ## <a name="add-an-external-script-or-inline-script-directly-to-a-template"></a>将外部脚本或内联脚本直接添加到模板
 
-如果要将内联脚本或外部脚本直接插入由单个模板控制的一组页面中，则不必先创建页面片段。
+如果要将内联脚本或外部脚本直接插入由单个模板控制的一组页面中，则不必先创建片段。
 
 ### <a name="add-an-inline-script-directly-to-a-template"></a>将内联脚本直接添加到模板
 

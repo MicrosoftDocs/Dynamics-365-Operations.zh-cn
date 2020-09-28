@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 15611a4f0000ca5ccb0ac3f4012251d5bf5689ec
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 8797a68507a5116c6adbf1f2d805838fa507958c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019648"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745577"
 ---
-# <a name="ArchiveDestinationType">归档目标</a>
+# <a name="archive-destination"></a>归档目标
 
 [!include [banner](../includes/banner.md)]
 

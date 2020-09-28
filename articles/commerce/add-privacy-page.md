@@ -3,7 +3,7 @@ title: 添加隐私政策页面
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中添加隐私政策页面。
 author: v-chgri
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2ee361c2e99b79e503e8d94c12602f9427f1ed5c
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686687"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761265"
 ---
 # <a name="add-a-privacy-policy-page"></a>添加隐私政策页面
 
@@ -89,8 +89,8 @@ ms.locfileid: "3686687"
 若要向页脚片段添加链接，请执行以下步骤。
 
 1. 转到**片段**，然后选择**新建**创建页面片段。
-1. 在**新建页面片段**对话框中，选择**页脚**模块。
-1. 在**页面片段名称**下，输入片段的名称，然后选择**确定**。
+1. 在**新建片段**对话框中，选择**页脚**模块。
+1. 在**片段名称**下，输入片段的名称，然后选择**确定**。
 1. 在**页脚类别**插槽中，添加一个**页脚项**模块。
 1. 在右侧的属性窗格中，选择**链接文本**。
 1. 在**链接文本**对话框中，输入隐私政策页面的链接文本和链接目标，然后单击**确定**。

@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6eeb66f4206eb39141a5b2573fcb9d15428ae52a
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 13346c4810d6c93d4ef47ce525831332562c7f51
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042637"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743391"
 ---
-# <a name="NUMBERVALUE">NUMBERVALUE ER 函数</a>
+# <a name="numbervalue-er-function"></a>NUMBERVALUE ER 函数
 
 [!include [banner](../includes/banner.md)]
 

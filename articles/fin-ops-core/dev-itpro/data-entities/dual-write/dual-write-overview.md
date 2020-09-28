@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 64626ebdd7fbad3d47a4b4c6bbc45bf3bc0c8277
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 8957065bcadc3f33adb60c2a8f2be78710289631
+ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172776"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3775139"
 ---
 # <a name="dual-write-overview"></a>双写入概述
 
@@ -34,7 +34,7 @@ ms.locfileid: "3172776"
 
 ## <a name="what-is-dual-write"></a>什么是双写入？
 
-双写入是一种自带基础结构，其提供 Microsoft Dynamics 365 中的模型驱动应用与 Finance and Operations 应用之间的近实时交互。 当有关客户、产品、人员和操作的数据越过应用程序边界时，将为组织中的所有部门授权。
+双写入是一种自带基础结构，其提供 Customer Engagement 应用与 Finance and Operations 应用之间的近实时交互。 当有关客户、产品、人员和操作的数据越过应用程序边界时，将为组织中的所有部门授权。
 
 双写入提供 Finance and Operations 应用与 Common Data Service 之间紧密耦合的双向集成。 Finance and Operations 应用中的所有数据变化都会写入 Common Data Service，而 Common Data Service 中的所有数据变化也会导致写入 Finance and Operations 应用。 这个自动化的数据流提供了应用之间的集成用户体验。
 
@@ -59,7 +59,7 @@ ms.locfileid: "3172776"
 
 ### <a name="application"></a>申请
 
-双写入在 Finance and Operations 应用中的概念与 Dynamics 365 中模型驱动应用中的概念之间建立映射。 此项集成支持以下方案：
+双写入在 Finance and Operations 应用中的概念与 Customer Engagement 应用中的概念之间建立映射。 此项集成支持以下方案：
 
 + 集成客户主数据
 + 访问客户会员卡和奖励分
@@ -90,19 +90,21 @@ ms.locfileid: "3172776"
 + 双写入基础结构遵循无代码/少代码原则。 扩展标准表到表映射和包含自定义映射所需工程工作量非常少。
 + 双写入同时支持在线模式和脱机模式。 只有 Microsoft 公司同时支持在线模式和脱机模式。
 
-## <a name="what-does-dual-write-mean-for-users-and-architects-of-crm-products"></a>双写入对 CRM 产品的用户和架构师有何意义？
+## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>双写入对 Customer Engagement 应用的开发人员和架构师有何意义？
 
-双写入实现了 Finance and Operations 应用与 Common Data Service 之间数据流自动化。 在将来的版本中，Dynamics 365 中的模型驱动应用内的概念（如客户、联系人、报价单和订单）将延伸到中端市场和中高端市场客户。
+双写入实现了 Finance and Operations 应用与 Customer Engagement 应用之间数据流自动化。 双写入由 Common Data Service 中安装的两个 AppSource 解决方案构成。 这些解决方案扩展 Common Data Service 中的实体架构、插件和工作流，以使其可适应 ERP 规模。 若要成功实施，Customer Engagement 应用的开发人员和架构师必须了解这些更改和与其对应方协作使用 Finance and Operations 应用。
 
-在第一个版本中，大多数自动化由双写入解决方案处理。 在将来的版本中，这些解决方案将成为 Common Data Service 的一部分。 了解到即将推出的 Common Data Service 更改，可以长期节约工作量。 下面是一些关键更改：
+为了创建与 Finance and Operations 应用程序之间的对等性，双写入在 Common Data Service 架构中进行一些关键更改。 如果了解此计划，可以在将来避免一些重复性的设计和开发工作。
 
-+ Common Data Service 将采用新概念，如公司和当事方。 这些概念将影响基于 Common Data Service 创建的所有应用，如 Dynamics 365 Sales、Dynamics 365 Marketing、Dynamics 365 Customer Service 和 Dynamics 365 Field Service。
++ 安装了双写入 AppSource 包之后，Common Data Service 将具有新概念，如公司和相关方。 这些概念可帮助基于 Common Data Service 构建的应用程序（包括 Dynamics 365 Sales、Dynamics 365 Marketing、Dynamics 365 Customer Service 和 Dynamics 365 Field Service）与 Finance and Operations 应用无缝交互。
+
 + 活动和通知单统一且已经过扩展，同时支持 C1（系统用户）和 C2（系统客户）。
-+ 下面是 Common Data Service 中即将推出的一些更改：
 
-    - 十进制数据类型将取代金钱数据类型。
-    - 日期有效性将在同一个位置支持过去、现在和将来的数据。
-    - 将提供更多对货币和汇率的支持，并且将修订**汇率**应用程序编程接口 (API)。
-    - 将支持单位转换。
++ 若要在 Finance and Operations 应用与 Common Data Service 之间传输币种时避免数据丢失，可以增加 Customer Engagement 应用中币种数据类型内的小数位数。 此功能将现有记录自动转换为元数据层的新扩展状态。 在此过程中，币种值转换为十进制数据，而不是货币数据，而货币值则支持 10 个小数位数。 此功能是选择加入的，小数位数不需要超过 4 位的组织不需要选择加入。 有关详细信息，请参阅[双写入货币数据类型迁移](currrency-decimal-places.md)。
 
-有关即将推出的更改的详细信息，请参阅 [Common Data Service 中的数据 – 阶段 1 和 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/finance-operations-crossapp-capabilities/data-common-data-service-phase-1)。
++ [日期有效性](../../dev-tools/date-effectivity.md)将添加到 Common Data Service。 其将支持同一个实体的过去、现在和将来的数据。
+
++ 产品、报价单、订单和发票支持产品[单位转换](../../../../supply-chain/pim/tasks/manage-unit-measure.md)。
+
+有关即将推出的更改的详细信息，请参阅[双写入中新增或更改的功能](whats-new-dual-write.md)。
+

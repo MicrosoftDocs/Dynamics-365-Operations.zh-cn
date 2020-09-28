@@ -3,7 +3,7 @@ title: 页脚模块
 description: 此主题介绍页脚模块和如何在 Dynamics 365 Commerce 中制作页脚模块。
 author: anupamar
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 6dd9f214fbeeeaabadac4853916363c20a3288ca
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686710"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761193"
 ---
 # <a name="footer-module"></a>页脚模块  
 
@@ -51,7 +51,7 @@ ms.locfileid: "3686710"
 ## <a name="create-a-footer-module"></a>创建页脚模块
 
 1. 转到**片段**，选择**新建**创建新片段。
-1. 在**新建页面片段**对话框中，选择**容器**模块，输入页面片段的名称，然后选择**确定**。
+1. 在**新建片段**对话框中，选择**容器**模块，输入片段的名称，然后选择**确定**。
 1. 在**默认容器**插槽中，选择省略号 (**...**)，然后选择**添加模块**。
 1. 在**添加模块**对话框中，选择**页脚类别**模块，然后选择**确定**。
 1. 在**页脚类别**插槽中，选择省略号 (**...**)，然后选择**添加模块**。
@@ -68,7 +68,7 @@ ms.locfileid: "3686710"
 1. 在**默认页**模块的**页脚**插槽中，添加创建的页脚片段。
 1. 选择**完成编辑**签入模板，然后选择**发布**进行发布。
 
-通过向页面模板添加页面片段，可帮助确保在每个页面中显示页脚。
+通过向页面模板添加片段，可帮助确保在每个页面中显示页脚。
 
 ## <a name="additional-resources"></a>其他资源
 

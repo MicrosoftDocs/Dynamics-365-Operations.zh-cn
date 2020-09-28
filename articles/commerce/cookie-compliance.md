@@ -3,7 +3,7 @@ title: Cookie 合规
 description: 本主题介绍 Cookie 合规注意事项以及 Microsoft Dynamics 365 Commerce 中包含的默认政策。
 author: BrianShook
 manager: annbe
-ms.date: 06/12/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1fa016dc9f46b048220f0f83e4b0783087de91e
-ms.sourcegitcommit: c66c4c67a21e7d7d3a94a3fd766c3184b6e65c4e
+ms.openlocfilehash: 4f54b9b8130a167dbecdb13fccd7039f827f6ed0
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3446905"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761313"
 ---
 # <a name="cookie-compliance"></a>Cookie 合规
 
@@ -56,6 +56,10 @@ ms.locfileid: "3446905"
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | 用于维护 SSO 会话。                        |
 | x-ms-cpim-trans                             | 用于跟踪事务（对企业对消费者 (B2C) 站点进行身份验证的打开选项卡的数量），包括当前事务。 |
 
+## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>电子商务站点中的站点用户 cookie 同意 
+
+如果模块中的电子商务站点功能使用非基本 cookie，则必须先获取站点用户的同意，然后才能跟踪 cookie。 若要允许站点用户在电子商务站点中提供 cookie 同意，站点作者必须在页面的页眉中添加和配置 cookie 同意模块，以确保提示提供和接收同意。 必须先提供站点用户同意，然后才能在站点页面中显示使用非基本 cookie 的功能或模块。
+
 ## <a name="additional-resources"></a>其他资源
 
 [辅助功能和功能](accessibility.md)
@@ -65,3 +69,7 @@ ms.locfileid: "3446905"
 [添加隐私政策页面](add-privacy-page.md)
 
 [替换与所跟踪内容更改相关联的用户 ID](replace-IDs-tracked-changes.md)
+
+[Cookie 同意模块](cookie-consent-module.md) 
+ 
+[标题模块](author-header-module.md)
