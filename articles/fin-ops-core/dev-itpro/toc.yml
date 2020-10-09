@@ -86,6 +86,8 @@
               href: data-entities/integration-overview.md
             - name: 基于优先级的限制
               hreF: data-entities/priority-based-throttling.md
+            - name: 基于优先级的限制常见问题
+              href: data-entities/throttling-faq.md
             - name: 数据集成 API
               items:
                 - name: 数据管理包 REST API
@@ -154,6 +156,8 @@
                                   href: data-entities/dual-write/enable-entity-map.md
                             - name: 双写入货币数据类型迁移
                               href: data-entities/dual-write/currrency-decimal-places.md
+                            - name: 设置销售订单状态字段的映射
+                              href: data-entities/dual-write/sales-status-map.md
                         - name: 管理双写入
                           items:
                             - name: 自定义实体和字段映射
@@ -522,7 +526,7 @@
                       href: deployment/onprem-reuseadfs.md
                 - name: 本地代理
                   items:
-                    - name: AD FS Office 365 兼容性
+                    - name: AD FS Microsoft 365 兼容性
                       href: deployment/onprem-adfscompatibility.md
                     - name: 本地代理部署前和部署后脚本
                       href: lifecycle-services/pre-post-scripts.md
@@ -627,9 +631,7 @@
                 - name: 开发工具教程
                   href: dev-tools/introduction-visual-studio.md
                 - name: 应用程序检查工具
-                  items:
-                    - name: 为应用程序检查工具安装 BaseX
-                      href: dev-tools/install-basex.md
+                  href: dev-tools/application-checker.md
                 - name: 应用程序资源管理器
                   href: dev-tools/application-explorer.md
                 - name: 生成和调试项目
@@ -1368,6 +1370,24 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: ValueMetadata 类型
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+        - name: 流程自动化框架
+          items:
+            - name: 流程自动化框架开发
+              href: process-automation/process-automation-framework.md
+            - name: 类型登记
+              href: process-automation/type-registration.md
+            - name: 系列登记
+              href: process-automation/series-registration.md
+            - name: 流程参数
+              href: process-automation/process-parameters.md
+            - name: 用户可配置查询
+              href: process-automation/user-queries.md
+            - name: 执行流程
+              href: process-automation/run-process.md
+            - name: 记录结果和消息
+              href: process-automation/log-results.md
+            - name: 自定义用户界面
+              href: process-automation/ui-customization.md
         - name: Regression Suite Automation Tool
           items:
             - name: Regression Suite Automation Tool 概览
@@ -1395,7 +1415,7 @@
             - name: 开发和发布
               href: lcs-solutions/lcs-solutions-app-source.md
             - name: 阶段和发布
-              href: lcs-solutions/marketing-content-lcs-solutions.md
+              href: /azure/marketplace/partner-center-portal/create-new-operations-offer
             - name: 添加方法
               href: lcs-solutions/methodologies-lcs-solutions.md
             - name: 设置业务流程建模器库

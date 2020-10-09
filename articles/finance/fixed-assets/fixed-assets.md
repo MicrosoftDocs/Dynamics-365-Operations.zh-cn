@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bfa6dcbd8d75c1a6c40896311ed367a835eccc7f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e761283057ff71fb10d4a5333a0b0dd4b6b6149e
+ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770750"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888076"
 ---
 # <a name="fixed-assets-home-page"></a>固定资产主页
 
@@ -47,7 +47,7 @@ ms.locfileid: "2770750"
 
 您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)和 [Microsoft Dynamics 365 Finance and Operations - 财务博客](https://community.dynamics.com/365/financeandoperations/b/financials)上查找意见、新闻和其他信息。
 
-[Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 MBS Operations 中的新增功能和趋势的单一资源。
+[Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 Dynamics 365 中的新增功能和趋势的单一资源。
 
 #### <a name="task-guides"></a>任务指南
 其他帮助作为任务指南提供。 若要访问任务指南，请单击任何页面上的“帮助”按钮。

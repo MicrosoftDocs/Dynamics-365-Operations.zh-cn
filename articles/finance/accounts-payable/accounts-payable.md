@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: b663f63552f9de4dbafc0cb71b4381db6d8dc99a
+ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772229"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888148"
 ---
 # <a name="accounts-payable-home-page"></a>应付帐款主页
 
@@ -129,7 +129,7 @@ ms.locfileid: "2772229"
 
 您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)和 [Microsoft Dynamics 365 Finance - 财务博客](https://community.dynamics.com/365/financeandoperations/b/financials)上查找有关应付帐款的意见、新闻和其他信息以及其他解决方案。
 
-[Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 MBS Operations 中的新增功能和趋势的单一资源。
+[Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 Dynamics 365 中的新增功能和趋势的单一资源。
 
 #### <a name="community-blogs"></a>社区博客
 

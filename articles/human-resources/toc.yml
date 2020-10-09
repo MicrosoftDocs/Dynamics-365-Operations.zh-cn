@@ -5,6 +5,8 @@
       items:
         - name: Human Resources 新增功能或更改
           href: hr-admin-whats-new.md
+        - name: 2020 年 9 月 16 日
+          href: hr-whats-new-2020-09-16.md
         - name: 2020 年 9 月 3 日
           href: hr-whats-new-2020-09-03.md
         - name: 2020 年 8 月 20 日
@@ -201,7 +203,7 @@
               href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
             - name: 创建并使用自定义字段
               href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-            - name: 嵌入 PowerApps 应用
+            - name: 嵌入来自 Power Apps 的画布应用
               href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
             - name: 使用查询来查找信息
               href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
