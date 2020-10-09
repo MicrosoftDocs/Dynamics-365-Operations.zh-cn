@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12（2020 年 8 月）
                       href: get-started/whats-new-changed-10-0-12.md
-                    - name: Finance 10.0.11（2020 年 7 月）
-                      href: get-started/whats-new-changed-10-0-11.md
             - name: 已删除或弃用的功能
               items:
                 - name: Dynamics 365 Finance 中已删除或弃用的功能
@@ -160,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: 创建并使用自定义字段
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: 嵌入 Microsoft Power Apps
+                - name: 嵌入来自 Power Apps 的画布应用
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
                 - name: 使用查询来查找信息
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
@@ -1228,6 +1226,22 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: 监管更新
               href: localizations/regulatory-updates.md
+            - name: 电子开单加载项
+              items:
+                - name: 电子开单加载项概览
+                  href: localizations/e-invoicing-service-overview.md
+                - name: 创建 Azure 存储帐户和 Key Vault
+                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                - name: 开始使用电子开单加载项
+                  href: localizations/e-invoicing-get-started.md
+                - name: 开始使用适用于巴西的电子开单加载项
+                  href: localizations/e-invoicing-bra-get-started.md
+                - name: 开始使用适用于意大利的电子开单加载项
+                  href: localizations/e-invoicing-ita-get-started.md
+                - name: 开始使用适用于墨西哥的电子开单加载项
+                  href: localizations/e-invoicing-mex-get-started.md
+                - name: 设置电子开单加载项
+                  href: localizations/e-invoicing-setup.md
             - name: 澳大利亚
               items:
                 - name: 澳大利亚概览
@@ -1268,6 +1282,8 @@
                   href: localizations/emea-bel-coda-bank-statement-import.md
                 - name: 创建交易记录并将交易记录转移到 BLWI
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
+                - name: 导出分类帐交易记录
+                  href: localizations/emea-bel-export-ledger-transactions.md
                 - name: INTERVAT 纳税申报
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: 对帐报表
@@ -2036,6 +2052,8 @@
                       href: localizations/apac-ind-GST-tax-journal.md
                     - name: 为税收返还生成 GSTR 报表数据
                       href: localizations/apac-ind-GST-tax-returns.md
+                    - name: 为 GSTR 报表启用多批次处理
+                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: 税金查询
                       href: localizations/apac-ind-GST-tax-inquiry.md
                 - name: 税引擎
@@ -3560,6 +3578,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                     - name: 设计多语言报告
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: 压缩大量传出文档
+                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: 数据绑定中的相对路径
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: 在 Finance and Operations 中使用电子报告解决方案

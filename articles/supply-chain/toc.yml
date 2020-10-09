@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 创建并使用自定义字段
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 嵌入 Microsoft Power Apps
+                - name: 嵌入来自 Power Apps 的画布应用
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 使用查询来查找信息
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -1655,6 +1655,8 @@
               href: procurement/procurement-sourcing-overview.md
             - name: 采购工作流
               href: procurement/procurement-sourcing-workflows.md
+            - name: 解决采购工作流问题
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: 采购目录
               items:
                 - name: 采购目录概览
@@ -1695,6 +1697,8 @@
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: 记录采购订单上的收货
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: 解决采购订单问题
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: 采购订单创建
               items:
                 - name: 手动创建采购订单
@@ -1725,6 +1729,8 @@
                   href: procurement/tasks/create-purchase-agreement.md
                 - name: 供应商返点
                   href: procurement/vendor-rebates.md
+                - name: 解决价格、折扣、协议和返点问题
+                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: 采购策略
               items:
                 - name: 采购策略概览
@@ -1737,8 +1743,10 @@
               items:
                 - name: 针对采购订单的物料收货
                   href: procurement/product-receipt-against-purchase-orders.md
-                - name: 供应商账单的概览
+                - name: 供应商账单概览
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 解决物料收货和开单问题
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: 供应商管理和协作
               items:
                 - name: 设置和维护供应商协作
@@ -1765,6 +1773,8 @@
                   href: procurement/vendor-catalogs-import.md
                 - name: 为电子采购发包设置外部目录
                   href: procurement/set-up-external-catalog-for-punchout.md
+                - name: 采购 cXML 增强功能
+                  href: procurement/purchasing-cxml-enhancements.md
                 - name: 针对电子采购发包使用外部目录
                   href: procurement/use-external-catalogs-for-punchout.md
                 - name: 供应商协作移动工作区
@@ -2261,11 +2271,13 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: 确认销售订单
                   href: sales-marketing/tasks/confirm-sales-orders.md
+                - name: 解决销售订单问题
+                  href: sales-marketing/troubleshooting-sales.md
             - name: 销售协议
               items:
                 - name: 销售协议概览
                   href: sales-marketing/sales-agreements.md
-                - name: 输入销售协议
+                - name: 签订销售协议
                   href: sales-marketing/tasks/enter-sales-agreements.md
                 - name: 履行销售协议
                   href: sales-marketing/tasks/fulfill-sales-agreements.md
@@ -2279,10 +2291,12 @@
               items:
                 - name: 价格模拟
                   href: sales-marketing/price-simulation.md
-                - name: 批量创建销售报价单
+                - name: 成批创建销售报价单
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: 创建和编辑销售报价单
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+                - name: 解决销售报价单问题
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: 退货
               items:
                 - name: 销售退货
@@ -2807,18 +2821,20 @@
                   items:
                     - name: 安装和连接仓库应用
                       href: warehousing/install-configure-warehousing-app.md
-                    - name: 配置仓库应用中的字段名称
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: 为仓库工作设置移动设备
-                      href: warehousing/configure-mobile-devices-warehouse.md
                     - name: 在仓库应用中使用摄像头扫描条码
                       href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: 配置仓库应用中的字段名称
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: 设置移动设备以执行仓库工作
+                      href: warehousing/configure-mobile-devices-warehouse.md
                     - name: 通过仓库应用接收牌照
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: 设置移动设备菜单项以完成采购订单中的工作
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: 设置登记已接收物料的移动设备菜单项
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: 设置提供领料行概览的移动设备菜单项
+                      href: warehousing/pick-line-overview.md
                     - name: 创建牌照合并的移动设备菜单项
                       href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
                     - name: 移动设备上的混合牌照接收

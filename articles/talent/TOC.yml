@@ -150,7 +150,7 @@
           href: modular-app-tech-faq.md
         - name: 从 Attract 和 Onboard 中导出数据
           href: attract-onboard-export-data.md
-        - name: 嵌入 Microsoft Power Apps
+        - name: 嵌入来自 Power Apps 的画布应用
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: 获取 Talent 支持
           href: talent-support.md
@@ -250,5 +250,7 @@
           href: attract-troubleshoot-linkedin.md
         - name: 用户可以访问 Human Resources，但无法访问 Onboard 或 Attract 应用
           href: user-access-core-hr.md
-        - name: 未在人员选择器中找到 Azure Active Directory 用户
+        - name: 未在人员选取器中找到 Azure Active Directory 用户
           href: people-picker-user-not-found.md
+        - name: Attract 用户无法通过求职门户申请职位
+          href: attract-troubleshoot-career-portal.md

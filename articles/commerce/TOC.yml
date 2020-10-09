@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12（2020 年 8 月）
                       href: get-started/whats-new-commerce-10-0-12.md
-                    - name: Commerce 10.0.11（2020 年 7 月）
-                      href: get-started/whats-new-commerce-10-0-11.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: Finance and Operations 中已删除或弃用的功能
@@ -182,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: 创建并使用自定义字段
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: 嵌入 Microsoft Power Apps
+                - name: 嵌入来自 Power Apps 的画布应用
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: 使用查询来查找信息
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -952,13 +950,13 @@
                   href: accessibility.md
                 - name: Cookie 合规性
                   href: cookie-compliance.md
-                - name: 添加隐私政策页面
+                - name: 添加隐私策略页面
                   href: add-privacy-page.md
                 - name: 替换与所跟踪内容更改相关联的用户 ID
                   href: replace-IDs-tracked-changes.md
-            - name: 入门套件
+            - name: 模块库
               items:
-                - name: 入门套件概览
+                - name: 模块库概览
                   href: starter-kit-overview.md
                 - name: 容器模块
                   items:
@@ -1976,7 +1974,7 @@
                   items:
                     - name: 新建模块
                       href: e-commerce-extensibility/create-new-module.md
-                    - name: 克隆入门套件模块
+                    - name: 克隆模块库模块
                       href: e-commerce-extensibility/clone-starter-module.md
                     - name: 添加模块配置字段
                       href: e-commerce-extensibility/add-module-config-fields.md
@@ -2070,7 +2068,7 @@
                   items:
                     - name: 打包配置并将其部署到联机环境
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: SDK 和商店入门套件更新
+                    - name: SDK 和模块库更新
                       href: e-commerce-extensibility/sdk-updates.md
             - name: Retail SDK
               items:
@@ -2148,6 +2146,8 @@
                   href: implementation-considerations-devices.md
                 - name: POS 购物车查看事件和处理程序
                   href: dev-itpro/cart-view-handlers.md
+                - name: 将自定义按钮添加到 POS 标题栏
+                  href: dev-itpro/pos-header-bar.md
             - name: Hardware Station 可扩展性
               items:
                 - name: Hardware Station 和可扩展性
