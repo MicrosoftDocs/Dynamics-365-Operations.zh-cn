@@ -1,12 +1,12 @@
 ---
 title: 获取对 Finance and Operations 应用或 Lifecycle Services (LCS) 的支持
 description: 本主题介绍如何获取有关 Finance and Operations 应用或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。
-author: kfend
+author: EricMoos
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
@@ -17,79 +17,55 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ac2cf0c2b78dd3456c5c1a69981a4e498b115ae
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: e839c6e29a76d7f08f23e007c1e7b8c4699c7580
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005508"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817890"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a><span data-ttu-id="05821-103">获取对 Finance and Operations 应用或 Lifecycle Services (LCS) 的支持</span><span class="sxs-lookup"><span data-stu-id="05821-103">Get support for Finance and Operations apps or Lifecycle Services (LCS)</span></span>
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a><span data-ttu-id="8c5db-103">获取对 Finance and Operations 应用或 Lifecycle Services (LCS) 的支持</span><span class="sxs-lookup"><span data-stu-id="8c5db-103">Get support for Finance and Operations apps or Lifecycle Services (LCS)</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="05821-104">本主题介绍如何获取有关 Finance and Operations 应用或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。</span><span class="sxs-lookup"><span data-stu-id="05821-104">This topic explains how to get help with Finance and Operations apps or Microsoft Dynamics Lifecycle Services (LCS).</span></span> 
-
-## <a name="contact-support"></a><span data-ttu-id="05821-105">联系技术支持</span><span class="sxs-lookup"><span data-stu-id="05821-105">Contact support</span></span>
-
-<span data-ttu-id="05821-106">如果有技术疑问，或访问 Microsoft Dynamics Lifecycle Services (LCS) 时需要帮助，可使用本文中的信息联系 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="05821-106">Use the information in this article to contact Microsoft if you have technical questions, or if you need help accessing Microsoft Dynamics Lifecycle Services (LCS).</span></span>
-
-### <a name="finance-and-operations-apps-support"></a><span data-ttu-id="05821-107">Finance and Operations 应用支持</span><span class="sxs-lookup"><span data-stu-id="05821-107">Finance and Operations apps support</span></span>
-
-<span data-ttu-id="05821-108">要获取支持，请使用下表中的资源。</span><span class="sxs-lookup"><span data-stu-id="05821-108">To obtain support, use the resources in the following table.</span></span> <span data-ttu-id="05821-109">这些资源按照我们建议你在执行故障排除时应遵守的顺序排列。</span><span class="sxs-lookup"><span data-stu-id="05821-109">These resources are listed in the order that we recommend that you follow when you're troubleshooting.</span></span>
+<span data-ttu-id="8c5db-104">本主题介绍如何获取有关 Finance and Operations 应用或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。</span><span class="sxs-lookup"><span data-stu-id="8c5db-104">This topic explains how to get help with Finance and Operations apps or Microsoft Dynamics Lifecycle Services (LCS).</span></span> 
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
-<th><span data-ttu-id="05821-110">任务</span><span class="sxs-lookup"><span data-stu-id="05821-110">Task</span></span></th>
-<th><span data-ttu-id="05821-111">更多信息</span><span class="sxs-lookup"><span data-stu-id="05821-111">More information</span></span></th>
+<tr>
+<th><span data-ttu-id="8c5db-105">任务</span><span class="sxs-lookup"><span data-stu-id="8c5db-105">Task</span></span></th>
+<th><span data-ttu-id="8c5db-106">更多信息</span><span class="sxs-lookup"><span data-stu-id="8c5db-106">More information</span></span></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td><span data-ttu-id="05821-112">询问社区。</span><span class="sxs-lookup"><span data-stu-id="05821-112">Ask the community.</span></span></td>
-<td><span data-ttu-id="05821-113">转到 <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">社区页</span></a>以在 Dynamics 社区中查找有关您的问题的帮助。</span><span class="sxs-lookup"><span data-stu-id="05821-113">Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">Community page</span></a> to find help with your questions from the Dynamics community.</span></span></td>
+<tr>
+<td><span data-ttu-id="8c5db-107">询问社区。</span><span class="sxs-lookup"><span data-stu-id="8c5db-107">Ask the community.</span></span></td>
+<td><span data-ttu-id="8c5db-108">转到 <a href="https://community.dynamics.com/">Dynamics 365 社区</a>页，从 Microsoft Dynamics 社区获取有关您的问题的帮助。</span><span class="sxs-lookup"><span data-stu-id="8c5db-108">Go to the <a href="https://community.dynamics.com/">Dynamics 365 Community</a> page to get help with your questions from the Microsoft Dynamics community.</span></span></td>
 </tr>
-<tr class="even">
-<td><span data-ttu-id="05821-114">使用问题搜索工具。</span><span class="sxs-lookup"><span data-stu-id="05821-114">Use the Issue search tool.</span></span></td>
-<td><span data-ttu-id="05821-115">在 <a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a> 中，可使用问题搜索快速搜索 Retail 中报告的问题的 Microsoft 知识库 (KB) 文章、修补程序和解决办法。</span><span class="sxs-lookup"><span data-stu-id="05821-115">In <a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a>, use Issue search to quickly search for Microsoft Knowledge Base (KB) articles, hotfixes, and workarounds for reported issues.</span></span> <span data-ttu-id="05821-116">可查看正在或已经为特定功能区域修复报告的哪些问题。</span><span class="sxs-lookup"><span data-stu-id="05821-116">You can see which reported issues are in the process of being fixed or have already been fixed for a specific functional area .</span></span> <span data-ttu-id="05821-117">有关详细信息，请参阅<a href="issue-search-lcs.md"><span style="color: #0066cc;">问题搜索（Lifecycle Services，LCS）</span></a>。</span><span class="sxs-lookup"><span data-stu-id="05821-117">For more information, see <a href="issue-search-lcs.md"><span style="color: #0066cc;">Issue search (Lifecycle Services, LCS)</span></a>.</span></span></td>
+<tr>
+<td><span data-ttu-id="8c5db-109">获取与许可有关的问题的帮助。</span><span class="sxs-lookup"><span data-stu-id="8c5db-109">Get help with questions about licensing.</span></span></td>
+<td><span data-ttu-id="8c5db-110">联系合作伙伴或 Microsoft 销售代表。</span><span class="sxs-lookup"><span data-stu-id="8c5db-110">Contact your partner or a Microsoft sales representative.</span></span></td>
 </tr>
-<tr class="odd">
-<td><span data-ttu-id="05821-118">使用云助力的支持工具。</span><span class="sxs-lookup"><span data-stu-id="05821-118">Use the Cloud-powered support tool.</span></span></td>
-<td><span data-ttu-id="05821-119">在 <a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a> 中，<strong>支持</strong>磁贴是用于帮助管理支持事件的工具。</span><span class="sxs-lookup"><span data-stu-id="05821-119">In <a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a>, the <strong>Support</strong> tile is a tool that helps you manage support incidents.</span></span> <span data-ttu-id="05821-120">若要将问题直接提交给 Microsoft，请在 LCS 项目中转至<strong>支持</strong>磁贴。</span><span class="sxs-lookup"><span data-stu-id="05821-120">To submit issues directly to Microsoft, go to the <strong>Support</strong> tile in your LCS project.</span></span> <span data-ttu-id="05821-121">可在此处通过两种方式提交问题：</span><span class="sxs-lookup"><span data-stu-id="05821-121">From there, you can submit issues in two ways:</span></span>
+<tr>
+<td><span data-ttu-id="8c5db-111">使用<strong>问题搜索</strong>工具。</span><span class="sxs-lookup"><span data-stu-id="8c5db-111">Use the <strong>Issue search</strong> tool.</span></span></td>
+<td><span data-ttu-id="8c5db-112">在 <a href="https://lcs.dynamics.com/">LCS</a> 中，可使用<strong>问题搜索</strong>工具快速搜索报告的问题的 Microsoft 知识库 (KB) 文章、修补程序和解决办法。</span><span class="sxs-lookup"><span data-stu-id="8c5db-112">In <a href="https://lcs.dynamics.com/">LCS</a>, use the <strong>Issue search</strong> tool to quickly search for Microsoft Knowledge Base (KB) articles, hotfixes, and workarounds for reported issues.</span></span> <span data-ttu-id="8c5db-113">您可以查看正在为特定功能区域修复哪些报告的问题，以及已经修复的问题。</span><span class="sxs-lookup"><span data-stu-id="8c5db-113">You can see which reported issues are in the process of being fixed for a specific functional area, and which issues have already been fixed.</span></span> <span data-ttu-id="8c5db-114">有关详细信息，请参阅<a href="issue-search-lcs.md">问题搜索（Lifecycle Services，LCS）</a>。</span><span class="sxs-lookup"><span data-stu-id="8c5db-114">For more information, see <a href="issue-search-lcs.md">Issue search (Lifecycle Services, LCS)</a>.</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="8c5db-115">获取应用内支持。</span><span class="sxs-lookup"><span data-stu-id="8c5db-115">Get in-app support.</span></span></td>
+<td><span data-ttu-id="8c5db-116">选择应用右上角的<strong>帮助</strong>按钮 (<strong>?</strong>)，然后选择<strong>支持</strong>。</span><span class="sxs-lookup"><span data-stu-id="8c5db-116">Select the <strong>Help</strong> button (<strong>?</strong>) in the upper-right corner of the app, and then select <strong>Support</strong>.</span></span> <span data-ttu-id="8c5db-117">将在 LCS 中的<strong>有效问题</strong>选项卡上报告问题。</span><span class="sxs-lookup"><span data-stu-id="8c5db-117">Issues are reported on the <strong>Active issues</strong> tab in LCS.</span></span> <span data-ttu-id="8c5db-118">管理员可以在那里确定是应该提供内部支持还是将问题提交给 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="8c5db-118">There, admins can determine whether they should provide in-house support or submit the issues to Microsoft.</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="8c5db-119">在 Microsoft 支持团队的帮助下开立支持票证。</span><span class="sxs-lookup"><span data-stu-id="8c5db-119">Open a support ticket with the Microsoft Support team.</span></span></td>
+<td><span data-ttu-id="8c5db-120">在 <a href="https://lcs.dynamics.com/">LCS</a> 中，<strong>支持</strong>磁贴将打开用于帮助管理支持事件的工具。</span><span class="sxs-lookup"><span data-stu-id="8c5db-120">In <a href="https://lcs.dynamics.com/">LCS</a>, the <strong>Support</strong> tile opens a tool that helps you manage support incidents.</span></span> <span data-ttu-id="8c5db-121">若要将问题直接提交给 Microsoft，请在 LCS 项目中选择<strong>支持</strong>磁贴。</span><span class="sxs-lookup"><span data-stu-id="8c5db-121">To submit issues directly to Microsoft, select the <strong>Support</strong> tile in your LCS project.</span></span> <span data-ttu-id="8c5db-122">然后，您可以通过两种方式提交问题：</span><span class="sxs-lookup"><span data-stu-id="8c5db-122">You can then submit issues in two ways:</span></span>
 <ul>
-<li><span data-ttu-id="05821-122">在<strong>未解决问题</strong>选项卡上，选择问题，然后单击 <strong>提交给 Microsoft</strong>。</span><span class="sxs-lookup"><span data-stu-id="05821-122">On the <strong>Active issue</strong> tab, select your issue, and then click <strong>Submit to Microsoft</strong>.</span></span></li>
-<li><span data-ttu-id="05821-123">在<strong>已提交给 Microsoft</strong>选项卡上，单击<strong>提交新事件</strong>以提交问题。</span><span class="sxs-lookup"><span data-stu-id="05821-123">On the <strong>Submitted to Microsoft</strong> tab, click <strong>Submit a new Incident</strong> to submit the issue.</span></span></li>
+<li><span data-ttu-id="8c5db-123">在<strong>未解决问题</strong>选项卡上，选择问题，然后选择<strong>提交给 Microsoft</strong>。</span><span class="sxs-lookup"><span data-stu-id="8c5db-123">On the <strong>Active issue</strong> tab, select your issue, and then select <strong>Submit to Microsoft</strong>.</span></span></li>
+<li><span data-ttu-id="8c5db-124">在<strong>已提交给 Microsoft</strong> 选项卡上，选择<strong>提交事件</strong>，然后按照屏幕上的说明提交事件。</span><span class="sxs-lookup"><span data-stu-id="8c5db-124">On the <strong>Submitted to Microsoft</strong> tab, select <strong>Submit an incident</strong>, and then follow the on-screen instructions to submit the incident.</span></span> <span data-ttu-id="8c5db-125">提交事件后，您将收到分配给您的案例的 Microsoft 支持工程师发送的电子邮件。</span><span class="sxs-lookup"><span data-stu-id="8c5db-125">After you submit an incident, you will receive an email message from the Microsoft Support engineer who is assigned to your case.</span></span></li>
 </ul>
-<span data-ttu-id="05821-124">注意：Microsoft 顶级客户和合作伙伴也可以使用上面的步骤提交顶级支持票证。</span><span class="sxs-lookup"><span data-stu-id="05821-124">Note: Microsoft Premier Customers and Partners can also submit premier support tickets using the steps above.</span></span></td>
+</td>
 </tr>
-<tr class="even">
-<td><span data-ttu-id="05821-125">在支持团队的帮助下开立支持票证。</span><span class="sxs-lookup"><span data-stu-id="05821-125">Open a support ticket with the support team.</span></span></td>
-<td><span data-ttu-id="05821-126">如果尝试从 LCS 中的<strong>支持</strong>磁贴向 Microsoft 提交票证时遇到问题，请参阅<a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">联系 Microsoft Business Solutions 支持</span></a>以获取有关如何联系 Microsoft Dynamics 区域运营中心的信息。</span><span class="sxs-lookup"><span data-stu-id="05821-126">If you have issues when you try to submit a ticket to Microsoft from the <strong>Support</strong> tile in LCS, see <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Contact Microsoft Business Solutions Support</span></a> for information about to contact a Microsoft Dynamics Regional Operations Center.</span></span> <span data-ttu-id="05821-127">支持团队可帮助你解决以下类型的技术问题：</span><span class="sxs-lookup"><span data-stu-id="05821-127">The support team can help you resolve the following types of technical issues:</span></span>
-<ul>
-<li><span data-ttu-id="05821-128">使用 LCS 时出现的问题或尝试访问 LCS 时出现的问题。</span><span class="sxs-lookup"><span data-stu-id="05821-128">Errors that occur when you use LCS or issues that occur when you try to access LCS.</span></span></li>
-<li><span data-ttu-id="05821-129">使用 Finance and Operations 应用时出现的错误。</span><span class="sxs-lookup"><span data-stu-id="05821-129">Errors that occur when you use Finance and Operations apps.</span></span></li>
-</ul>
-<span data-ttu-id="05821-130">对于与登录和访问 CustomerSource、远程学习、搜索、知识库、文件下载和页面或系统错误有关的技术问题，请转至<a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">网站支持</span></a>。</span><span class="sxs-lookup"><span data-stu-id="05821-130">For technical questions that are related to signing in to and accessing CustomerSource, e-learning, Search, Knowledge Base, file download, and page or system errors, go to <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Website Support</span></a>.</span></span></td>
-</tr>
-<tr class="odd">
-<td><span data-ttu-id="05821-131">获取与 Finance and Operations 应用许可有关的问题的帮助。</span><span class="sxs-lookup"><span data-stu-id="05821-131">Get help with questions about Finance and Operations apps licensing.</span></span></td>
-<td><span data-ttu-id="05821-132">联系合作伙伴、大客户经销商 (LAR) 或 Microsoft 销售代表。</span><span class="sxs-lookup"><span data-stu-id="05821-132">Contact your partner, large account reseller (LAR), or Microsoft sales representative.</span></span></td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="05821-133">使用 LCS 事件监控仪表板。</span><span class="sxs-lookup"><span data-stu-id="05821-133">Use the LCS Event monitoring dashboard.</span></span></td>
-<td><span data-ttu-id="05821-134">若要查看平台和服务的当前运行状况状态，请转至 LCS 项目的<strong>环境</strong>部分。</span><span class="sxs-lookup"><span data-stu-id="05821-134">To see the current health status of the platform and services, go to the <strong>Environments</strong> section of your LCS project.</span></span></td>
+<tr>
+<td><span data-ttu-id="8c5db-126">申请新特性和功能。</span><span class="sxs-lookup"><span data-stu-id="8c5db-126">Request new features and functionality.</span></span></td>
+<td><span data-ttu-id="8c5db-127">访问 <a href="https://experience.dynamics.com/ideas/">Dynamics 365 应用程序想法</a>查看、搜索现有想法或为其投票，或添加新想法。</span><span class="sxs-lookup"><span data-stu-id="8c5db-127">Visit <a href="https://experience.dynamics.com/ideas/">Dynamics 365 Application Ideas</a> to view, search, or vote for existing ideas, or to add new ideas.</span></span></td>
 </tr>
 </tbody>
 </table>
-
-
-## <a name="additional-resources"></a><span data-ttu-id="05821-135">其他资源</span><span class="sxs-lookup"><span data-stu-id="05821-135">Additional resources</span></span>
-- [<span data-ttu-id="05821-136">获取 Dynamics 365 Retail 支持</span><span class="sxs-lookup"><span data-stu-id="05821-136">Get support for Dynamics 365 Retail</span></span>](../../../retail/retail-support.md)
-- [<span data-ttu-id="05821-137">获取 Microsoft Dynamics 365 Human Resources 支持</span><span class="sxs-lookup"><span data-stu-id="05821-137">Get support for Microsoft Dynamics 365 Human Resources</span></span>](../../../human-resources/hr-admin-troubleshooting-support.md)
-- <span data-ttu-id="05821-138">有关 Microsoft Dynamics 支持产品的详细信息，请参阅[管理 Finance and Operations 应用的支持体验](cloud-powered-support-lcs.md)。</span><span class="sxs-lookup"><span data-stu-id="05821-138">For more information about Microsoft Dynamics support offerings, see [Manage the support experiences for Finance and Operations apps](cloud-powered-support-lcs.md).</span></span>
-
