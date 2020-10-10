@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce 管理员学习目录
-description: 查找适用于 Dynamics 365 Commerce 的所有培训选项。
+description: 查找面向 Dynamics 365 Commerce 中的管理员角色的所有培训选项。
 author: margoc
 ms.topic: article
 ms.date: 07/23/2020
@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7a6e0b6103bf453b74ae485f06bf139b13bae7b2
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: fc4df1c7fc47608300d705616768b6c8ef135652
+ms.sourcegitcommit: ea335b4536342e496e8b61847b1ae6da3924f94c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793385"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3821196"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Dynamics 365 Commerce 管理员学习目录
 
@@ -39,7 +39,7 @@ ms.locfileid: "3793385"
 
 | 内容  | 说明  | 格式  | 长度    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [部署 Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/)                                    | 此学习路径介绍如何使用适合每个零售商业务需求的正确拓扑，为成功实施 Commerce 部署 Dynamics 365 Commerce 环境并执行预配后步骤。                               | 自由、自定进度的在线学习路径 | 5 小时   |
+| [部署和扩展 Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | 此学习路径介绍如何使用适合每个零售商业务需求的正确拓扑，为成功实施 Commerce 部署 Dynamics 365 Commerce 环境并执行预配后步骤。 | 自由、自定进度的在线学习路径 | 5 小时   |
 | [在 Dynamics 365 Commerce 中配置和使用销售点 (POS)](https://docs.microsoft.com/learn/paths/configure-use-pos-commerce/)         | 交易数据在销售点 (POS) 创建，然后上载到 Dynamics 365 Commerce Headquarters 进行处理。 此学习路径介绍如何安装和激活 POS，以及如何在 POS 中创建每日交易。 | 自由、自定进度的在线学习路径 | 4.5 小时 |
 | [在 Dynamics 365 Commerce 中配置和使用呼叫中心](https://docs.microsoft.com/learn/paths/configure-work-call-centers-commerce/) | Dynamics 365 Commerce 是一种全渠道解决方案，为呼叫中心渠道提供默认选择特定订单处理设置的功能，以及呼叫中心用户创建的销售订单的默认数据。                                  | 自由、自定进度的在线学习路径 | 2 小时   |
 

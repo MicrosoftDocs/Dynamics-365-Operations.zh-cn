@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4acde9703c721ab7c20d1603299a10dda91b23c4
-ms.sourcegitcommit: b8f8ccab2cd9d848e5ecd71caaf0a63237e2236b
+ms.openlocfilehash: 015b595f85397fc1cf2c0368814ddc0369176f82
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957055"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893187"
 ---
 # <a name="new-document-user-interface-in-business-document-management"></a>业务文档管理中的新文档用户界面
 
 [!include [banner](../includes/banner.md)]
 
-业务文档管理使业务用户可以使用 Microsoft Office 365 服务或相应的 Microsoft Office 桌面应用程序来编辑业务文档模板。 编辑可能包括设计更改或新部署，或者用户可能会添加占位符以包含其他数据，而不必更改源代码。 有关如何使用业务文档管理的更多信息，请参见[业务文档管理概述](er-business-document-management.md)。
+业务文档管理使业务用户可以使用 Microsoft 365 服务或相应的 Microsoft Office 桌面应用程序来编辑业务文档模板。 编辑可能包括设计更改或新部署，或者用户可能会添加占位符以包含其他数据，而不必更改源代码。 有关如何使用业务文档管理的更多信息，请参见[业务文档管理概述](er-business-document-management.md)。
 
 新的文档用户界面 (UI) 更清晰，使用起来更舒适。 **业务文档**区域仅显示当前提供商可用的模板。
 

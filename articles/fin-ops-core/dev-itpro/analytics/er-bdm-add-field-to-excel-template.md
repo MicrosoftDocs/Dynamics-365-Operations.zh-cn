@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d6e0f2c914b8d348ef6eac42557fb46c53df04a9
-ms.sourcegitcommit: d16d370dab734e09312cb06711beca9cca52d4c9
+ms.openlocfilehash: 8c3a905c90f5dd4ad3487f004a958c0dcd52115d
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809512"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893239"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>在 Microsoft Excel 中将新字段添加到业务文档模板
 
@@ -67,7 +67,7 @@ ms.locfileid: "2809512"
 5.  在**标题**字段中，输入**普通发票 (Excel) Contoso** 作为新模板的标题。
 6.  选择**确定**以确认开始执行编辑流程。
 
-将出现 BDM 模板编辑器页面。 您可以使用 Microsoft Office 365 在嵌入式控件中在线编辑所选模板。
+将出现 BDM 模板编辑器页面。 您可以使用 Microsoft 365 在嵌入式控件中在线编辑所选模板。
 
 ![BDM 模板编辑器页面](./media/BDM-AddFldExcel-EditableTemplate.png)
 

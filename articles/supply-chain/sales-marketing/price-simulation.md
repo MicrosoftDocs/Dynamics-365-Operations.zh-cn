@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesQuotationPriceSimulation
+ms.search.form: SalesQuotationPriceSimulation, SalesQuotationsTableLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 821e35f9c7dbae6bf877fe79d82ec2ef7fe11dc1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 354b6c769c86934489924a6c56734695307cfb70
+ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212978"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830614"
 ---
 # <a name="price-simulation"></a>价格模拟
 

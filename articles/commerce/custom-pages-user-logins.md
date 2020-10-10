@@ -3,7 +3,7 @@ title: 设置用户登录自定义页面
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中生成用于处理 Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户用户的自定义登录的自定义页面。
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533451"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817298"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>设置用户登录自定义页面
 
@@ -181,13 +181,13 @@ ms.locfileid: "3533451"
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>自定义标签和描述的默认文本字符串
 
-在入门套件中，已经为登录模块预填充了标签和描述的默认文本字符串。 可通过更新登录模块的 global.json 文件来自定义软件开发工具包 (SDK) 中的这些字符串。
+在模块库中，已经为登录模块预填充了标签和描述的默认文本字符串。 可通过更新登录模块的 global.json 文件来自定义软件开发工具包 (SDK) 中的这些字符串。
 
 例如，遗忘密码链接的默认文本为**忘记密码了?**。 下面显示登录页面中的默认文本。
 
 ![登录页面中忘记密码了链接的默认文本](./media/B2C_SignUp_ModuleFace.png)
 
-但是，在入门套件登录模块的 global.json 文件中，可将文本编辑为**忘记了密码?**，如下图中所示。
+但是，在模块库登录模块的 global.json 文件中，可将文本编辑为**忘记了密码?**，如下图中所示。
 
 ![登录模块的 global.json 文件中更新后的链接文本](./media/B2C_CustomizingStringsForModule.png)
 

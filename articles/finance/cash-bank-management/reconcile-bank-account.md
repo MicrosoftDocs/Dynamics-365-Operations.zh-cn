@@ -1,7 +1,7 @@
 ---
 title: 银行帐户对帐
 description: 本主题介绍如何对银行帐户对帐。
-author: ShivamPandey-msft
+author: panolte
 manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: article
@@ -12,17 +12,17 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: shpandey
+ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fdfc65d02d4468aee094a92e6760400c5e25af8f
-ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
+ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2888647"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899317"
 ---
 # <a name="reconcile-a-bank-account"></a>银行帐户对帐
 

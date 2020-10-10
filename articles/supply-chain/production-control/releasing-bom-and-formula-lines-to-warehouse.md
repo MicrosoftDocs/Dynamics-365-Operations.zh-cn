@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SysOperationTemplateForm
+ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: dd28e6f96f70c261edc9ba85a9356a704335382b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ab0a6e7de02b4b69d3f7a129392a1057482f0c26
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211184"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826327"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>将物料清单和配方行发放到仓库
 

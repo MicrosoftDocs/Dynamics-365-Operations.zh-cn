@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9acc4c26febacf4ec7647cf436ac678e52df3973
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 25996cbccf3e9eec6fc29b80b8241e89b5b6b4a5
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772550"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893271"
 ---
 # <a name="document-printing-overview"></a>文档打印概览
 
@@ -52,7 +52,7 @@ ms.locfileid: "2772550"
 由于解决方案因场景而异，所以应用程序提供内置服务和工具，帮助用户达成目标：
 
 - **场景 1** 受浏览器的 HTML5客户端呈现支持。
-- **场景 2** 使用客户端应用程序和 Microsoft Office 365 服务。
+- **场景 2** 使用客户端应用程序和 Microsoft 365 服务。
 - **场景 3** 需要客户端应用程序支持和 Microsoft Azure 中托管的服务支持。
 
 除了部署到 Azure 订阅的平台，Finance and Operations 应用程序还为客户提供集成的第一方 Azure 应用程序，帮助客户轻松使用域托管的设备打印文档。

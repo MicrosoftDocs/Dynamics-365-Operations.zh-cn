@@ -3,7 +3,7 @@ title: 选择退出个性化产品建议
 description: 本主题说明如何在 Microsoft Dynamics 365 Commerce 中让客户选择不接收个性化建议。
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a51c8c0e2743b67df9d66a8c45ab7a69597f4002
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664922"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817515"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>选择退出个性化产品建议
 
@@ -74,7 +74,7 @@ ms.locfileid: "3664922"
 1. 零售商创建自定义扩展来代表用户提取个人建议数据。 有关如何创建模块、克隆现有模块，调用 Retail Server API 和调用数据操作的信息，请参阅[在线渠道可扩展性](e-commerce-extensibility/overview.md)。
 2. 自定义扩展对 **get-recommendations** 核心数据操作进行调用，然后根据列表的要求将所需信息传递给它。 如果是**为您推荐**列表，扩展必须将正确的列表名称和客户 ID 传递给此数据操作。
 
-    创建自定义扩展的一种方法是克隆现有的用于返回建议结果的产品集合模块。 通过克隆此现有模块，零售商可以修改现有代码并添加新按钮，以将建议结果导出到 CSV 文件。 有关详细信息，请参阅[克隆入门套件模块](e-commerce-extensibility/clone-starter-module.md)和[产品集合模块](product-collection-module-overview.md)。
+    创建自定义扩展的一种方法是克隆现有的用于返回建议结果的产品集合模块。 通过克隆此现有模块，零售商可以修改现有代码并添加新按钮，以将建议结果导出到 CSV 文件。 有关详细信息，请参阅[克隆模块库模块](e-commerce-extensibility/clone-starter-module.md)和[产品集合模块](product-collection-module-overview.md)。
 
     有关 Retail Server API 库的完整视图，请参见 [Retail Server 客户和用户 API](dev-itpro/retail-server-customer-consumer-api.md)。
 

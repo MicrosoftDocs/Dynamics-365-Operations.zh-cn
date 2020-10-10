@@ -3,7 +3,7 @@ title: 购物车和结账页面概览
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中的购物车和结帐页。
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527554"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817770"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>购物车和结账页面概览
 
@@ -40,7 +40,7 @@ ms.locfileid: "3527554"
 
 购物车页充当购物袋，其中包含已添加到购物车的所有商品。
 
-下图显示使用在线入门套件和“Fabrikam”主题生成的购物车页的示例。
+下图显示使用模块库和“Fabrikam”主题生成的购物车页的示例。
 
 ![购物车页示例](./media/cart2.PNG)
 
@@ -56,7 +56,7 @@ ms.locfileid: "3527554"
 
 结帐页是客户输入下订单所需信息时所在位置。
 
-下图显示使用入门套件生成的结帐页的示例。
+下图显示使用模块库生成的结帐页的示例。
 
 ![结帐页示例](./media/Checkout.PNG)
 
@@ -66,7 +66,7 @@ ms.locfileid: "3527554"
 
 如果必须装运商品，则需要装运地址。 可以在 Dynamics 365 Commerce 中为每个区域设置配置装运地址格式。 例如，如果要将商品运到美国，则装运地址必须包含街道地址、州和邮政编码。 将为装运地址字段执行一些基本输入验证，如验证字母数字字符、最大长度和数字。 虽然不验证地址是否有效，但可以使用自定义的第三方服务进行此项验证。
 
-装运地址应用于购物车中所有选择了“装运”选项的商品。 如果使用在线入门套件中提供的结帐流程，则不能将单件购物车商品装运到不同地址。 如果需要此功能，可以通过自定义结帐模块来实施。
+装运地址应用于购物车中所有选择了“装运”选项的商品。 如果使用模块库中提供的结帐流程，则不能将单件购物车商品装运到不同地址。 如果需要此功能，可以通过自定义结帐模块来实施。
 
 提供装运地址之后，将显示 Dynamics 365 Commerce 在线商店中的可用装运方式。 可以在 Commerce 中配置装运方式及其支持的地址。
 
@@ -80,7 +80,7 @@ ms.locfileid: "3527554"
 
 #### <a name="gift-cards"></a>礼品卡
 
-在线入门套件支持为订单兑换内部礼品卡。 客户必须先登录，才能应用内部礼品卡。 为了提高安全，我们建议您为内部礼品卡使用个人标识号 (PIN) 来自定义流程。
+模块库支持为订单兑换内部礼品卡。 客户必须先登录，才能应用内部礼品卡。 为了提高安全，我们建议您为内部礼品卡使用个人标识号 (PIN) 来自定义流程。
 
 ### <a name="signed-in-and-guest-users"></a>已登录用户和访客用户
 

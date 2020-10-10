@@ -17,17 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: d9a15f85838849796d6ce4674712636251c75bf3
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761121"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818267"
 ---
 # <a name="cart-module"></a>购物车模块
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 此主题介绍购物车模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
@@ -41,11 +40,11 @@ ms.locfileid: "3761121"
 
 下图显示了 Fabrikam 站点上购物车页面的示例。
 
-![购物车模块的示例](./media/cart2.PNG)
+![Fabrikam 站点上的购物车模块示例](./media/cart2.PNG)
 
 下图显示了 Fabrikam 站点上购物车页面的示例。 在此示例中，行项有手续费。
 
-![购物车模块的示例](./media/ecommerce-handling-fee.png)
+![行项包含手续费的购物车模块的示例](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>购物车模块属性和插槽
 

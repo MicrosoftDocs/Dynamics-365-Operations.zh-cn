@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: KanbanQuantityPolicy, KanbanRules
+ms.search.form: KanbanQuantityPolicy, KanbanRules, KanbanQuantityCalculation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 19f563379a10bbe42681a5f61779fb9e72d1f60c
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 039c4aaa355cf2b850ded06913e8e39ee8cac543
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211000"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826628"
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>向看板规则中添加看板数量计算策略
 
@@ -47,7 +47,7 @@ ms.locfileid: "3211000"
 10. 在“提前天数”字段中，输入“30”。
     * 此为在看板数量计算日前之前，包括在需求计算中的天数。  
 11. 在“滞后天数”字段中，输入“30”。
-    * 这是从包括在需求计算中的看板数量计算日期正推的天数。  用于此计算的公式与实际值一起显示。 例如，看板数量 = ((平均每日需求量 x 提前期 x 2.00) / 每物料处理单元的产品数量 + 1  
+    * 这是从包括在需求计算中的看板数量计算日期正推的天数。  用于此计算的公式与实际值一起显示。 例如，看板数量 = ((平均每日需求量 x 提前期 x 2.00) / 每物料处理单元的产品数量) + 1  
 12. 关闭该页面。
 
 ## <a name="add-the-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>向看板规则中添加看板数量计算策略

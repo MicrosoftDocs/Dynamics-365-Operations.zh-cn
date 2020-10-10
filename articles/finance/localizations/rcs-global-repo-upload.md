@@ -3,7 +3,7 @@ title: 在 RCS 中创建 ER 配置并上传到全局知识库
 description: 此主题介绍如何在 Microsoft Regulatory Configuration Services (RCS) 中创建电子申报 (ER) 配置并上传到全局知识库。
 author: JaneA07
 manager: AnnBe
-ms.date: 05/05/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 0e194a8b777f984412d81e315f92ab4bb8a3b0c9
-ms.sourcegitcommit: 204cec8ca2a6c4474d21dbcd408e369131a47856
+ms.openlocfilehash: 5b2b8f35b9931f8fd1824c20e9045da68af33ad5
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3371233"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834225"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>在 Regulatory Configuration Service (RCS) 中创建 ER 配置并上传到全局知识库
 
@@ -54,7 +54,7 @@ ms.locfileid: "3371233"
 5. 输入名称和说明，然后选择**创建配置**创建新的派生版本。
 6. 选择新派生的配置，添加版本说明，然后选择**确定**。 配置的状态将更改为**已完成**。
 
-![RCS 中的新配置版本](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_CompleteConfig.JPG)
+![RCS 中的新配置版本](media/RCS_CompleteConfig.JPG)
 
 > [!NOTE]
 > 更改配置状态之后，可能会收到与相连应用程序有关的验证错误消息。 若要关闭验证，请在操作窗格上的**配置**选项卡中，选择**用户参数**，然后将**配置状态更改时跳过验证并重定基本值**选项设置为**是** 
@@ -66,7 +66,7 @@ ms.locfileid: "3371233"
 1. 选择配置的已完成版本，然后选择**上传到知识库中**。
 2. 选择**全局 (Microsoft)** 选项，然后选择**上传**。
 
-    ![“上传到知识库中”选项](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_Upload_to_GlobalRepo_options.JPG)
+    ![“上传到知识库中”选项](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. 在配置消息框中选择**是**。 
 4. 按照需要更新版本说明，然后选择**确定**。 
@@ -74,6 +74,27 @@ ms.locfileid: "3371233"
 配置状态将更新为**共享**，并将配置上传到全局知识库中。 可以在此处按照下面的方法进行处理：
 
 - 将其导入到您的 Dynamics 365 实例中。 有关详细信息，请参阅 [(ER) 从 RCS 导入配置](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md)。
-- 与第三方或外部组织共享；请参阅 [RCS 与外部组织共享电子申报 (ER) 配置](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/rcs-global-share-configuration.md)
+- 与第三方或外部组织共享；请参阅 [RCS 与外部组织共享电子申报 (ER) 配置](rcs-global-repo-share-configuration.md)
 
-![全局知识库中的派生内部统计 Contoso 配置版本](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_Config_upload_GlobalRepo.JPG)
+    ![全局知识库中的派生内部统计 Contoso 配置版本](media/RCS_Config_upload_GlobalRepo.JPG)
+
+## <a name="delete-a-configuration-from-the-global-repository"></a>从全局存储库中删除配置
+完成以下步骤，删除您的组织创建的配置。
+
+1. 在**电子报告**工作区中，确认您的配置提供程序是**活动**的。 有关详细信息，请参阅[创建配置提供程序并将其标记为有效](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md)。
+2. 在活动的配置提供程序上，选择**存储库**。
+3. 选择存储库类型**全局**，然后选择**打开**。
+4. 在**筛选器**快速选项卡上，使用**筛选器**功能找到要删除的配置。
+5. 在**版本**快速选项卡上，选择要删除的配置版本，然后选择**删除**：
+
+    ![从全局存储库中删除配置](media/RCS_Delete_from_GlobalRepo.JPG)
+
+6. 在配置消息框中选择**是**。
+
+    ![删除配置版本确认消息](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
+ 
+配置版本已删除，并显示确认消息。 
+
+> [!NOTE]
+> 配置只能由创建配置的配置提供程序删除。 如果配置已与另一个组织共享，在删除配置之前，需要取消共享配置。
+ 

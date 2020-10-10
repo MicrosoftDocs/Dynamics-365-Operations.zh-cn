@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
+ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771837"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3823447"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>财务合并和货币折算概览
 
@@ -103,6 +103,7 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
     ![“合并”页面的“合并交易记录”](./media/managing-consolidation-transactions.png "“合并”页面的“合并交易记录”")
 
 若要再次运行合并，只需处理合并。 也可以先选择**合并**页中的**删除合并**。
+如果您的合并帐户中的余额不准确，可以使用**结转期间调整**页更正这些余额。
 
 ## <a name="consolidate-with-import"></a>与导入合并
 具有导入功能的合并的工作原理与在线合并功能相似。 选择法人时，将浏览至外部以查找包含数据的源文件。
@@ -156,6 +157,7 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 - 只能为当前层过帐清除日记帐。
 - 仅合并运营余额。 因此，若要查看期初余额，仍然必须在合并公司中运行年终结算。
 - 可在清除公司中过帐日常日记帐，但是在合并公司中不能。
+- 对合并公司中的余额进行调整只能使用**结转期间调整**页进行。 
 
 ## <a name="benefits-of-using-financial-reporting-for-financial-consolidations-and-currency-translation-or-to-complement-consolidate-online-for-consolidated-reporting"></a>将财务申报用于财务合并和货币折算或补充在线合并以执行合并的申报的优点
 将财务申报用于财务合并和货币折算或补充在线合并以执行合并的申报的客户将享受各种优点：

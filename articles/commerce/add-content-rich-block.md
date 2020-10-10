@@ -3,7 +3,7 @@ title: 文本块模块
 description: 此主题介绍文本块模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 93ad09a05d188a30b099b9a44c35e15839be80a7
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: c6527ad00e74fa105f3873036eb56557b98b05aa
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411127"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817370"
 ---
 # <a name="text-block-module"></a>文本块模块
-
 
 [!include [banner](includes/banner.md)]
 
@@ -80,7 +79,7 @@ ms.locfileid: "3411127"
 
 ## <a name="additional-resources"></a>其他资源
 
-[入门套件概览](starter-kit-overview.md)
+[模块库概述](starter-kit-overview.md)
 
 [促销横幅模块](add-alert.md)
 

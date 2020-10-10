@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 022db9365f25c1d3e387870dd9d173077d864b3d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141514"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899341"
 ---
 # <a name="base-price-and-trade-agreements"></a>基价和贸易协议
 
@@ -58,7 +58,7 @@ ms.locfileid: "3141514"
 26. 在**名称**字段中，单击下拉按钮以打开查找。
 27. 在列表中，选择 **Commerce**。 在演示数据中，**Commerce** 日记帐名称拥有默认关系**价格(销售)**。 这意味着所有新建的行将默认设置为销售价格贸易协议。  
 28. 在**操作窗格**上，单击**行**。
-29. 在**帐户编码**字段中，选择“组”。
+29. 在**当事方代码类型**字段中，选择“组”。
 30. 在**帐户选择**字段中，单击下拉按钮以打开查找。
 31. 在列表中，找到并选择所需记录。 这将完成从渠道到价格组再到贸易协议的链接。  
 32. 在**物料关系**字段中，输入一个值。

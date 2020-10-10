@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable
+ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable, ProdRouteJob, ProdRouteTrans, ProdRouteOverview, ProdRouteJobOverview, ProdRouteJobListPagePreviewPane, RouteTable, RouteVersionFeasibility, ProdRouteJobCurrent, RouteGroup, RouteProductionOrder, EngChgCaseRouteTablePart, EcoResProductProdTypeFormulaNoActiveRouteFormPart,
 ms.author: sorenand
 audience: Application User
 ms.reviewer: kamaybac
@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2422dcec1fb222f1be7162d7c799a13046329b4
-ms.sourcegitcommit: f0faa2929435cd1408c5925f0ee4d6636fec5da1
+ms.openlocfilehash: 4bb2f340afffc5f62c200b4daac311db435d796e
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3552909"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895369"
 ---
 # <a name="routes-and-operations"></a>工艺路线和工序
 
