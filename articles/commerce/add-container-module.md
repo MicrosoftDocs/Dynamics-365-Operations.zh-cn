@@ -3,7 +3,7 @@ title: 容器模块
 description: 此主题介绍容器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c7d607047aab92144932b4b59db050a588d6483d
-ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
+ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3417338"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817394"
 ---
 # <a name="container-module"></a>容器模块
 
@@ -123,11 +123,11 @@ ms.locfileid: "3417338"
 
 ## <a name="additional-resources"></a>其他资源
 
-[入门套件概览](starter-kit-overview.md)
+[模块库概述](starter-kit-overview.md)
 
-[手风琴模块](add-accordion.md)
+[可折叠模块](add-accordion.md)
 
-[选项卡模块](add-tab.md)
+[标签模块](add-tab.md)
 
 [传送模块](add-carousel.md)
 

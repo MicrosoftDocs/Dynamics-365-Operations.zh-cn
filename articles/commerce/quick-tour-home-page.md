@@ -3,7 +3,7 @@ title: 主页概览
 description: 本主题提供 Microsoft Dynamics 365 Commerce 中的主页的概述。
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c51c5af38f4ba50bbad124de4ac7f66be4001fa6
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527568"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817746"
 ---
 # <a name="home-page-overview"></a>主页概览
 
@@ -34,7 +34,7 @@ ms.locfileid: "3527568"
 
 主页是购买者在访问电子商务站点时转到的默认页。 此页通常通过使用市场营销模块组合展示产品和促销。 主页应该非常丰富，包含用于吸引购买者的图像和文本。
 
-下图显示使用在线入门套件和“Fabrikam”主题生成的主页的示例。
+下图显示使用模块库和“Fabrikam”主题生成的主页的示例。
 
 ![主页示例](./media/Homepage2.PNG)
 

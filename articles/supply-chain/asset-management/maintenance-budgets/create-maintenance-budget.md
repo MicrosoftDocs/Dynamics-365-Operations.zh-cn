@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetBudgetLineAdjust, EntAssetBudget, EntAssetBudgetRecalc, EntAssetBudgetCopy, EntAssetBudgetLine, EntAssetBudgetCreate, EntAssetBudgetApprove, EntAssetBudgetCalculateActualCost
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: aa373a1a15c19154e6c822c3a962c2b43b8d9e10
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2aaba8794bf0025f0449509752e4f197d3bf3db4
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205291"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3889689"
 ---
 # <a name="create-maintenance-budgets"></a>创建维护预算
 

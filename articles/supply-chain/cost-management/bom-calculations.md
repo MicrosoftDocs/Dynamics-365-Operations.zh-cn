@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice
+ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, ProdSetupCostEstimation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 6e83d438f4f1a913bfa86827d7ba0c1d9366030f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f90e5babb440a2226638f7d96f111816732f0e70
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202000"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826758"
 ---
 # <a name="bom-calculations"></a>BOM 计算
 

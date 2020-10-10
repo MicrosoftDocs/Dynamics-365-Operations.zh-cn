@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetRequestLifecycleState, EntAssetRequestLifecycleModel
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08c45742b064f3a13a0ea2704f8873b9c53aad4e
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 5849e3a8c3c619916c718032579d4fe6444fa49b
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275618"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3889113"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>维护请求生命周期状态
 

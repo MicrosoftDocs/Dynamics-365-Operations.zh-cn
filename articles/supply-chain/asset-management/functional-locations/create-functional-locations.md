@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationCopyStructure, EntAssetFunctionalLocationCreate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8ba905224fbbcc5db95820e2b228a0d478e6146
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 37da9d59e4e9cf84238f6798a1aa7de72ff91f02
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205383"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888816"
 ---
 # <a name="create-functional-locations"></a>创建功能位置
 

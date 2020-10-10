@@ -3,7 +3,7 @@ title: POS 用户界面视觉效果配置
 description: 此主题提供有关 Dynamics 365 Commerce 销售点 (POS) 体验的屏幕布局的信息。
 author: boycezhu
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,15 +16,15 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: boycezhu
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a037c8514d7838b3a4797f21b3ef3f6d5736e840
-ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
+ms.openlocfilehash: 75bce16c5e1b0898a0284659f9ce5e4716a93049
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3505626"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834201"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>POS 用户界面视觉效果配置
 
@@ -62,6 +62,8 @@ ms.locfileid: "3505626"
 > [!NOTE]
 > **靠右**布局和日期/时间显示不适用于紧凑视图的登录屏幕。
 
+您需要运行 **1090**（**收银机**）分发计划作业，来将最新的可视化配置文件配置同步到渠道数据库。
+
 ## <a name="screen-layouts"></a>屏幕布局
 
 屏幕布局配置决定 POS **欢迎**屏幕和**交易记录**屏幕中的 UI 控件的操作、内容和位置。
@@ -81,6 +83,8 @@ ms.locfileid: "3505626"
 ### <a name="assignment"></a>赋值
 
 可在商店、收银机或用户级别分配屏幕布局。 用户的分配将覆盖收银机和商店的分配，而收银机分配则覆盖商店分配。 在简单方案中（即无论任何收银机或角色，所有用户都使用相同布局），只能在商店级别设计屏幕布局。 如果特定收银机或用户需要定制布局，可以为其分配这些布局。
+
+根据分配的屏幕布局级别，您需要运行 **1070**（**渠道配置**）、**1090**（**收银机**）和/或 **1060**（**人员**）分发计划作业，来将最新的屏幕布局配置同步到渠道数据库。
 
 ### <a name="layout-sizes"></a>布局大小
 

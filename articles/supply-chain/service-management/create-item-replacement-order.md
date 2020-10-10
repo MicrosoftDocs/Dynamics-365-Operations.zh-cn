@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReturnTableListPage
+ms.search.form: ReturnTableListPage, ReturnReplaceItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b92c4400f2c852af49c78e9e94fdffa2e498b45c
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e63c175d12cac91648cb57a3f41d1769e81d57af
+ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202874"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830091"
 ---
 # <a name="create-an-item-replacement-order"></a>创建物料更换单 
 

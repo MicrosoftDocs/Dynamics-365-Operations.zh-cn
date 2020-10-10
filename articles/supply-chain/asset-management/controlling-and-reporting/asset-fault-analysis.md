@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetObjectFaultCalculate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 32cd8fb55cd9245a9a7c426a7c956bb40c3fdb0e
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e911f7ca3b67acd9d5a1b170d8c99135da730847
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383542"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3889138"
 ---
 # <a name="asset-fault-analysis"></a>资产故障分析
 

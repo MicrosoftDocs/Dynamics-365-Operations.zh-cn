@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalendarDate, HcmPersonnelManagementWorkspace
+ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalendarDate, HcmPersonnelManagementWorkspace, WrkCtrGroupDateCalendar, WrkCtrDateCalendar
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f4960f895ac6a9e6284119a998af540523785ed
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: f5c630297a8962d1bb383110881b2acdc872b9cd
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430363"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826062"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>创建日历并生成工作时间
 

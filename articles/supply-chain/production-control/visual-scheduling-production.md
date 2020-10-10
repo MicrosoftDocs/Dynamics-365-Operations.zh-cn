@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430a012fbc198b90df0c0bf4084705037c95f7be
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210149"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887232"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>用于作业级排产的甘特图
 
@@ -38,7 +38,7 @@ ms.locfileid: "3210149"
 -   来自计划生产订单的作业。
 -   工时预测类型的作业已计划项目活动。
 
-甘特图可以在两个不同的视图中打开，**订单视图**和**资源视图**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true)。 在**订单视图**中，活动在生产订单下分组。 这非常实用，例如，如果您要维护属于相同订单的所有作业的概览时。 在**资源视图**中，所有作业按照单独的资源进行分组。 优化资源级别（例如机器或机器组）的计划时，此视图非常实用。 下图显示的甘特图显示具有以下关键元素的**订单视图**和**资源视图**：
+甘特图可以在两个不同的视图中打开：**订单视图**和**资源视图**。 在**订单视图**中，活动在生产订单下分组。 这非常实用，例如，如果您要维护属于相同订单的所有作业的概览时。 在**资源视图**中，所有作业按照单独的资源进行分组。 优化资源级别（例如机器或机器组）的计划时，此视图非常实用。 下图显示的甘特图显示具有以下关键元素的**订单视图**和**资源视图**：
 
 1.  甘特图活动
 2.  物料短缺图标

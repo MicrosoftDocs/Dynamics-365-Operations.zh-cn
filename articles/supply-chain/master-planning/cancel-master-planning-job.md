@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReqCreatePlanWorkspace
+ms.search.form: ReqCreatePlanWorkspace, ReqProcessList
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1e38b1bb84414dde603dbf5bcda0e8253a12e40b
-ms.sourcegitcommit: 78a1aa37f9a1565135b139e36501b759e7b2f849
+ms.openlocfilehash: 6f5ce460cc2915d1d4d9b5699723a62ed7f94599
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "3374788"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3886863"
 ---
 # <a name="cancel-a-master-planning-job"></a>取消主计划作业
 

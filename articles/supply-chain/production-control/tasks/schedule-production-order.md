@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob, WrkCtrCapResSum
+ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob, WrkCtrCapResSum, ProdRouteJobSched, ProductionOrderScheduleDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: daaf7a593f8ae5185333c33b9e475dfd62358eb8
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 8b3fe8f6890c7d8ac8835503091642faa773f7f6
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210425"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826038"
 ---
 # <a name="schedule-a-production-order"></a>计划生产订单
 

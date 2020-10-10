@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c6d3742425a3b92282a62c142b9c325e2d7042f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4b7d6e3dea1b3c1ef47490df678f639c036cdd5c
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216588"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3889809"
 ---
 # <a name="asset-criticality-types"></a>资产关键性类型
 

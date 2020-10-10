@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityWizard, LeanWorkCellLookup, InventLocationIdLookup
+ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityWizard, LeanWorkCellLookup, InventLocationIdLookup, PlanActivityDetails, KanbanJobPickingListPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc93f3f696f470d7e2f174bd3342f0877e0b4e74
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fb8068012453fd4a8b06dea8cc8e5067d6968fe3
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212150"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826591"
 ---
 # <a name="create-process-activities-for-lean-manufacturing"></a>创建 lean manufacturing 的流程活动
 

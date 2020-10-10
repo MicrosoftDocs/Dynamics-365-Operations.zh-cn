@@ -3,7 +3,7 @@ title: 网格功能
 description: 本主题介绍网格控件的几个强大功能。 必须启用新的网格功能才能访问这些功能。
 author: jasongre
 manager: AnnBe
-ms.date: 08/31/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
-ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760391"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835078"
 ---
 # <a name="grid-capabilities"></a>网格功能
 
@@ -33,6 +33,7 @@ ms.locfileid: "3760391"
 -  先于系统键入
 -  评估数学表达式 
 -  为表格式数据分组（已使用 **(预览版) 网格中的分组**功能单独启用）
+-  固定系统列
 
 ## <a name="calculating-totals"></a>正在计算合计
 在 Finance and Operations 应用中，用户可以在网格中数字列的底部查看总计。 这些总计显示在网格底部的页脚部分。 
@@ -119,12 +120,19 @@ ms.locfileid: "3760391"
 ### <a name="hiding-column-names"></a>隐藏列名
 对数据分组时，默认行为是在组标题行中显示列名。 从版本 10.0.14/平台更新 38 开始，可以通过选择**网格选项** > **隐藏组列名**在组标题行中隐藏列名。
 
+## <a name="pinned-system-columns"></a>固定系统列
+新网格中的行选择列和行状态列固定或冻结在网格的最左侧。 因此，当这些列包含在网格中时，无论网格中的水平滚动位置如何，用户会始终看到它们。   
+
 ## <a name="frequently-asked-questions"></a>常见问题
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>如何在我的环境中启用新的网格控件？ 
 
-**10.0.9/平台更新 33 及更高版本** 在任何环境中，**新网格控件**功能均可直接在功能管理中使用。 与其他公共预览功能一样，在生产环境中启用此功能取决于[补充使用条款协议](https://go.microsoft.com/fwlink/?linkid=2105274)。  
+**10.0.9/平台更新 33 及更高版本**
 
-**10.0.8/平台更新 32 及 10.0.7/平台更新 31** 可以在第 1 层（开发/测试）和第 2 层（沙盒）环境中启用**新网格控件**功能，以便按照以下步骤进行其他测试和设计更改。
+在任何环境中，**新建网格控件**功能均可直接在“功能管理”中使用。 与其他公共预览功能一样，在生产环境中启用此功能取决于[补充使用条款协议](https://go.microsoft.com/fwlink/?linkid=2105274)。  
+
+**10.0.8/平台更新 32 和 10.0.7/平台更新 31**
+
+可以在第 1 层（开发/测试）和第 2 层（沙盒）环境中启用**新建网格控件**功能，以按照以下步骤进行其他测试和设计更改。
 
 1.  **启用外部测试版**：执行以下 SQL 语句： 
 
@@ -139,11 +147,14 @@ ms.locfileid: "3760391"
 所有后续用户会话都将从启用新网格控件开始。
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[开发人员] 让单个页面退出使用新网格 
-如果您的组织发现使用新网格时存在一些问题的页面，可以使用 API 允许单个窗体使用旧版网格控件，同时仍然允许系统的其余部分使用新网格控件。 要让单个页面退出新网格，请在窗体的 `run()` 方法中添加以下 post `super()` 调用。
+如果您的组织发现使用新网格时存在一些问题的页面，从版本 10.0.13/平台更新 37 开始，可以使用 API 允许单个窗体使用旧版网格控件，同时仍然允许系统的其余部分使用新网格控件。 要让单个页面退出新网格，请在窗体的 `run()` 方法中添加以下 post `super()` 调用。
 
  ```this.forceLegacyGrid();```
 
-在新网格控件在 2021 年 10 月发布中被强制使用之前，此 API 一直可以使用。 请向 Microsoft 报告任何需要使用此 API 的问题。 
+在新网格控件在 2021 年 10 月发布中被强制使用之前，此 API 一直可以使用。 如果有任何问题需要使用此 API，请向 Microsoft 报告。
+
+## <a name="developer-size-to-available-width-columns"></a>[开发人员]尺寸到可用宽度列
+如果开发人员将新网格内的列的 **WidthMode** 属性设置为 **SizeToAvailable**，这些列的初始宽度会与将此属性设置为 **SizeToContent** 时的宽度相同。 不过，它们会拉伸以使用网格内任何可用的额外宽度。 如果将多个列的此属性设置为 **SizeToAvailable**，所有这些列将在网格内共享任何可用的额外宽度。 但是，如果用户手动调整这些列中一个列的大小，该列将变为静态。 它将保持该宽度，不会再拉伸，占用可用的额外网格宽度。  
 
 ## <a name="known-issues"></a>已知问题
 此部分保留功能处于预览状态时新网格控件的已知问题列表。  

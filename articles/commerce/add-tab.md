@@ -3,7 +3,7 @@ title: 选项卡模块
 description: 此主题介绍选项卡模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b4187dfd704c78d506d7840b04c986687fe807a3
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: c9d897113442f14b95539efb9fec9482be96447a
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621005"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817026"
 ---
 # <a name="tab-module"></a>选项卡模块
 
@@ -77,10 +77,10 @@ ms.locfileid: "3621005"
 
 ## <a name="additional-resources"></a>其他资源
 
-[入门套件概览](starter-kit-overview.md)
+[模块库概述](starter-kit-overview.md)
 
 [容器模块](add-container-module.md)
 
-[手风琴模块](add-accordion.md)
+[可折叠模块](add-accordion.md)
 
 [文本块模块](add-content-rich-block.md)

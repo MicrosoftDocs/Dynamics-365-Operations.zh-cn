@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
-ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
+ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
+ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "3719256"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3829204"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>双写入中的目标客户到现金
 
@@ -99,29 +99,7 @@ ms.locfileid: "3719256"
 
 ## <a name="dual-write-solution-for-sales"></a>适用于 Sales 的双写入解决方案
 
-新字段已添加到**订单**实体并显示在以下页面。 这些字段中的大多数都在 Sales 中的**集成**选项卡内显示。 有一些特殊字段：
-
-+ **处理状态**字段显示订单在 Supply Chain Management 中的处理状态。 此字段已锁定，并且仅显示来自 Supply Chain Management 的订单的状态。 提供以下值：
-
-    + **活动** – 通过使用**激活**按钮在 Sales 中激活订单后的状态。
-    + **已确认**
-    + **已交货**
-    + **已开票**
-    + **已部分交货**
-    + **已部分开票**
-    + **已领料**
-    + **已取消**
-
-    下表显示如何将处理状态映射到 **CRM 状态代码**值。
-
-    | 处理状态           | CRM 状态代码    |
-    |-----------------------------|--------------------|
-    | 活动                      | 新/待定/暂停 |
-    | 已确认/已取货            | 在进行中        |
-    | 已部分交货         | 部分            |
-    | 已交货                   | 已完成           |
-    | 已开票/已部分开票 | 已开票           |
-    | 已取消                    | 无钱           |
+新字段已添加到**订单**实体并显示在以下页面。 这些字段中的大多数都在 Sales 中的**集成**选项卡内显示。 要了解有关如何映射状态字段的详细信息，请参阅[设置销售订单状态字段的映射](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map)文档主题
 
 + **销售订单**页中的**创建发票**和**取消订单**按钮在 Sales 中已隐藏。
 + **销售订单状态**值将保持**活动**状态，以帮助确保来自 Supply Chain Management 的更改可以流向 Sales 中的销售订单。 若要控制此行为，请将默认的**状态代码 \[Status\]** 值设置为**活动**。

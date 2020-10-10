@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReqTransPo, PMFSeqReqRouteChangesListPage
+ms.search.form: ReqTransPo, PMFSeqReqRouteChangesListPage, PMFSeqReqRoute, PMFSeqReqRouteChanges, PMFSeqReqSchedDetailsFactBox, PMFSequenceGroup, PMFSequenceItemTable, PMFSequenceTable, PmfSeqWrkCtrCapRes
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 422f05c6edcc8856192ba944c97c551eaba8a7c3
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: db2c881f60b6e5251e2bcdf198da9e1c9f39a0e6
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210402"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3886913"
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>对流程制造的生产作业排序
 

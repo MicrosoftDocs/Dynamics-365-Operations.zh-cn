@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventCostTrans
+ms.search.form: InventCostTrans, ProdCalcVarianceTrans
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da09e24d7ed041686385b8239287288228d3668e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: bc310f1d5e1f99a320b803f68395d0926d39780b
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201954"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826735"
 ---
 # <a name="common-sources-of-production-variances"></a>生产差异的常见来源
 
