@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
-ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
+ms.openlocfilehash: 65874e5ca73c18c3df7b94b8abb6eb15491482bf
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "3258549"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893127"
 ---
 # <a name="business-document-management-overview"></a>业务文档管理概览
 
@@ -31,7 +31,7 @@ ms.locfileid: "3258549"
 
 业务用户使用[电子申报 (ER)](general-electronic-reporting.md) 框架根据各个国家/地区的法律要求配置传出文档的格式。 用户也可以定义数据流，以便指定在生成的文档中放置哪些数据。 ER 框架使用预定义的模板生成 Microsoft Office 格式（Excel 工作簿或 Word 文档）格式的传出文档。 将根据生成所需文档时配置的数据流使用必需数据填充模板。 可以在 ER 解决方案中发布配置的每种格式，以便生成特定传出文档。 这通过 ER 格式配置表示，其中可包含可用于生成不同传出文档的模板。 业务用户可使用此框架管理所需业务文档。
 
-**业务文档管理**建立在 ER 框架的基础上，可供业务用户使用 Microsoft Office 365 服务或相应 Microsoft Office 桌面应用程序编辑业务文档模板。 对此类文档的编辑包括在不执行源代码更改和不进行新部署的情况下，更改业务文档设计和为更多数据添加占位符。 若要更新业务文档模板，无需了解 ER 框架。
+**业务文档管理**建立在 ER 框架的基础上，可供业务用户使用 Microsoft 365 服务或相应的 Microsoft Office 桌面应用程序编辑业务文档模板。 对此类文档的编辑包括在不执行源代码更改和不进行新部署的情况下，更改业务文档设计和为更多数据添加占位符。 若要更新业务文档模板，无需了解 ER 框架。
 
 > [!NOTE]
 > 请注意，可通过业务文档管理修改用于生成订单、发票等之类业务文档的模板。修改模板和发布模板新版本之后，此版本用于生成必需的业务文档。 业务文档管理不可用于修改已生成的业务文档。
@@ -170,7 +170,7 @@ ms.locfileid: "3258549"
 所选文档类型特定于公司，将在当用户在为其配置了所选文档类型的公司中使用业务文档管理时使用。 当用户在另一家公司使用业务文档管理时，如果尚未为此公司配置文档类型，将使用选择的同一个文档类型。 如果已配置了文档类型，则使用此文档类型，而不是在 **SharePoint 文档类型**字段中选择的文档类型。
 
 > [!NOTE]
-> **SharePoint 文档类型**参数将 SharePoint 文件夹定义为可使用 Microsoft Excel 或 Word 进行编辑的模板的临时存储。 如果打算使用这些 Office 桌面应用程序来编辑模板，则需要设置此参数。 有关更多信息，请参见[在 Office 桌面应用程序中编辑模板](#EditInOfficeDesktopApp)。 如果您打算仅使用 Office 365 中的功能来修改模板，则可以将此参数保留为空白。 有关详细信息，请参阅[在 Office 365 中编辑模板](#EditInOffice365)。
+> **SharePoint 文档类型**参数将 SharePoint 文件夹定义为可使用 Microsoft Excel 或 Word 进行编辑的模板的临时存储。 如果打算使用这些 Office 桌面应用程序来编辑模板，则需要设置此参数。 有关更多信息，请参见[在 Office 桌面应用程序中编辑模板](#EditInOfficeDesktopApp)。 如果您打算仅使用 Microsoft 365 中的功能来修改模板，则可以将此参数保留为空白。 有关详细信息，请参阅[在 Microsoft 365 中编辑模板](#EditInOffice365)。
 
 ## <a name="configure-access-permissions"></a>配置访问权限
 
@@ -295,13 +295,13 @@ ms.locfileid: "3258549"
 
 5. 选择**确定**以确认开始执行编辑流程。
 
-将打开 **BDM 模板编辑器**页。 可通过使用 Office 365 在线编辑所选模板。
+将打开 **BDM 模板编辑器**页。 可通过使用 Microsoft 365 在线编辑所选模板。
 
 ![业务文档管理工作区页](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name=""></a><a name="EditInOffice365">在 Office 365 中编辑模板</a>
+### <a name=""></a><a name="EditInOffice365">在 Microsoft 365 中编辑模板</a>
 
-无法使用 Office 365 修改模板。 例如，在 Office Online 中，将模板标题中的字段提示的字体从**常规**更改为**加粗**。 这些更改会自动存储在主模板存储（默认情况下为 Azure blob 存储）中存储的可编辑模板中。 已为 ER 框架配置此项。
+您可以使用 Microsoft 365 修改模板。 例如，在 Office Online 中，将模板标题中的字段提示的字体从**常规**更改为**加粗**。 这些更改会自动存储在主模板存储（默认情况下为 Azure blob 存储）中存储的可编辑模板中。 已为 ER 框架配置此项。
 
 ![业务文档管理模板编辑器页面](./media/BDM-Overview-EditingLayout2.png)
 
@@ -398,10 +398,10 @@ ms.locfileid: "3258549"
 
 ## <a name="frequently-asked-questions"></a>常见问题
 
-#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>我选择了**编辑文档**，但是结果不是在 Finance and Operations 中打开 **BDM 模板编辑器**页，而是转到了 Office 365 网页。
-这是 Office 365 重定向的已知问题。 首次登录 Office 365 时会出现此情况。 若要解决此问题，请选择浏览器的**后退**按钮返回。
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page"></a>我选择了**编辑文档**，但是结果不是在 Finance and Operations 中打开 **BDM 模板编辑器**页，而是转到了 Microsoft 365 网页。
+这是 Microsoft 365 重定向的已知问题。 首次登录 Microsoft 365 时会出现此情况。 若要解决此问题，请选择浏览器的**后退**按钮返回。
 
-#### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>我知道如何在第一个应用程序会话中通过使用 Office 365 编辑模板，以及如何在第二个应用程序会话中使用模板，并调整模板来查看我的更改对生成的业务文档有何影响。 我可以使用 Office 桌面应用程序执行此操作吗？
+#### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>我知道如何在第一个应用程序会话中通过使用 Microsoft 365 编辑模板，以及如何在第二个应用程序会话中使用模板，并调整模板来查看我的更改对生成的业务文档有何影响。 我可以使用 Office 桌面应用程序执行此操作吗？
 是的，可以。 在第一个应用程序会话中，选择**在桌面应用程序中打开**。 将把您的模板存储到临时文件存储中，并在 Office 桌面应用程序中打开。 接下来，完成以下步骤在生成的业务文档中预览模板更改：
 
 1. 通过使用 Office 桌面应用程序在模板中进行更改。

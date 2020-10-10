@@ -1,14 +1,14 @@
 ---
 title: 产品维度
 description: 产品有五个维度 - 颜色、配置、尺寸、样式和版本。 您在维度组中合并产品维度，并将维度组分配给基础产品。 产品维度的组合确定如何定义产品变型。
-author: cvocph
+author: t-benebo
 manager: tfehr
-ms.date: 08/03/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle
+ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -16,15 +16,15 @@ ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: conradv
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 72b8cd8149ab7b2074eb815231be348db62e282e
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657308"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895441"
 ---
 # <a name="product-dimensions"></a>产品维度
 
@@ -107,7 +107,7 @@ ms.locfileid: "3657308"
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **地图：** 如果有任何地图使用库存维度，则必须更新这些地图的相应的关系映射，以使其包含版本维度。 在扩展模型或表扩展中，查找字段包含库存维度的表。
-1. **Microsoft Dynamics 365 Commerce 功能：** 打开后，版本维度将出现在 Dynamics 365 Supply Chain Management 中特定于 Commerce 的代码中。 但是，Commerce 渠道数据库或销售点 (POS) 应用程序尚不支持版本维度。 此行为类似于当前整个 Commerce 中的配置维度的行为。
+1. **Microsoft Dynamics 365 Commerce 功能：** 打开后，版本维度将出现在 Dynamics 365 Supply Chain Management 中特定于 Commerce 的代码中。 但是，Commerce 渠道数据库、销售点 (POS) 或电子商务应用程序尚不支持版本维度。 这些特定于 Commerce 的应用程序将不支持用户按版本维度销售/装运或退回/接收库存。 库存可用性查询功能不会在 Commerce 应用中按版本维度识别库存。 此行为类似于当前整个 Commerce 中的配置维度的行为。
 
 #### <a name="turn-on-the-version-dimension"></a>打开版本维度
 

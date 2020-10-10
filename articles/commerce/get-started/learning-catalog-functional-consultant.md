@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8e029c128140b5773f6ceef882d3f6cd0c0dd750
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: 504433fba95893bc0af651d74f43dd112238e8c1
+ms.sourcegitcommit: ea335b4536342e496e8b61847b1ae6da3924f94c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793289"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3821172"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-functional-consultants"></a>Dynamics 365 Commerce 功能顾问学习目录
 
@@ -35,6 +35,8 @@ ms.locfileid: "3793289"
 
 | 内容| 说明  | 格式  | 长度  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|
+| [了解 Microsoft Dynamics 365 和 Power Platform 的业务价值](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | 此学习体验首先将向您展示数字转换和业务应用程序的功能如何改造您的业务。 我们将介绍 Dynamics 365 和 Power Platform 如何帮助您根据组织的需要和目标，通过现代、统一、智能和适应性这四大数字转换构建基块来做出明智的决定。 | 自由、自定进度的在线学习路径 | 6.5 小时 |
+| [开始使用 Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce 基于经实践检验的 Dynamics 365 Retail 功能构建，提供统一后勤办公室、商店、呼叫中心和数字体验的综合性全渠道解决方案。 可使用 Dynamics 365 Commerce 通过更新后的客户参与建立品牌忠诚，通过提高员工生产效率提高收入，优化运营以减少成本和推动供应链效率，最终提高业务成果。 | 自由、自定进度的在线学习路径 | 2 小时 |
 | [开始使用 Dynamics 365 Fraud Protection](https://docs.microsoft.com/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection 是一种基于云的解决方案，专为电子商务、实体商店和全渠道商家而设计，通过提供减少欺诈和滥用、减少运营费用和提高接受率，同时保护用户帐户免遭欺诈的工具和能力，来帮助保护商家的收入和声誉。 | 自由、自定进度的在线学习路径 | 35 分钟 |
 
 ## <a name="commerce"></a>商业<a name="commerce"></a>

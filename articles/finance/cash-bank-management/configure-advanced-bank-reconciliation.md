@@ -1,7 +1,7 @@
 ---
 title: 高级银行对帐设置流程
 description: 高级银行对帐允许您在 Microsoft Dynamics 365 Finance 中导入电子银行对帐单，并与银行交易记录自动对帐。 这篇文章将介绍对帐流程设置。
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 98303
 ms.assetid: ae071f04-f038-4b17-812d-0a241ed15521
 ms.search.region: Global
-ms.author: saraschi
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 405af4e3e122953bbfa74e7e91d2feef8f068708
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7103cb93ad0d9ea0f1b92e317bee7454eb08d1f2
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772620"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899538"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>高级银行对帐设置流程
 

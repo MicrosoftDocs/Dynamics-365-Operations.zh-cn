@@ -3,7 +3,7 @@ title: 痕迹导航模块
 description: 本主题介绍痕迹导航模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 38efc3a60ae0ba49db2036dc84c49e4896727d94
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 7c6f215c3a7539cc16b0d72594702e6bdde7c58e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621052"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817102"
 ---
 # <a name="breadcrumb-module"></a>痕迹导航模块
 
@@ -37,6 +37,9 @@ ms.locfileid: "3621052"
 
 在具有产品类别上下文的页面（如 PDP 和类别页面）上，痕迹导航模块显示类别层次结构。 在没有类别上下文的页面上，痕迹导航模块默认显示**&lt;站点根&gt; / &lt;当前页面&gt;**。 痕迹导航模块还可以在其他类型的站点页面上手动配置，以显示指向站点上特定页面的链接。
 
+> [!NOTE]
+> 此痕迹导航模块在 Dynamics 365 Commerce 10.0.12 版本中提供。
+
 下图显示了痕迹导航模块的示例，该模块显示 PDP 上的类别层次结构。
 
 ![痕迹导航模块的示例](./media/ecommerce-breadcrumb.PNG)
@@ -48,6 +51,9 @@ ms.locfileid: "3621052"
 - **显示类别层次结构** – 选择此值时，痕迹导航模块将显示在 PDP 上查看的产品的完整类别层次结构。
 - **显示返回到结果**– 选择此值时，如果用户从允许“返回到结果”链接的模块打开的 PDP，痕迹导航模块将在 PDP 上显示“返回到结果”链接。 当用户从类别、搜索、列表和建议列表页面导航时，此功能可用。 为了支持此功能，产品集合和搜索结果模块具有一个名为**允许在 PDP 上返回到结果**的属性。 此属性使您可以灵活地定义哪些模块应该在 PDP 上支持“返回到结果”链接功能。 例如，当为痕迹导航模块的 **PDP 上的痕迹导航显示类型**设置选择了**显示返回到结果**，并为搜索页面搜索结果模块选择了**允许在 PDP 上返回到结果**时，当用户从搜索页面导航到 PDP 时，将显示“返回到结果”链接。
 - **显示类别层次结构和返回到结果**– 此值是前两个值的组合。 选择此值时，痕迹导航模块将在 PDP 上显示完整类别层次结构和“返回到结果”链接（如果已配置）。
+
+> [!IMPORTANT]
+> 这些设置在 Dynamics 365 Commerce 10.0.12 版本中提供。 如果要从旧版本的 Dynamics 365 Commerce 更新，必须手动更新 appsettings.json 文件。 有关更新 appsettings.json 文件的说明，请参阅 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)。
 
 ## <a name="breadcrumb-module-properties"></a>痕迹导航模块属性
 
@@ -76,10 +82,12 @@ ms.locfileid: "3621052"
 
 ## <a name="additional-resources"></a>其他资源
 
-[入门套件概览](starter-kit-overview.md)
+[模块库概述](starter-kit-overview.md)
 
 [默认类别登陆页面和搜索结果页面概览](category-search-page-overview.md)
 
 [产品集合模块](product-collection-module-overview.md)
 
 [购买框模块](add-buy-box.md)
+
+[SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md)
