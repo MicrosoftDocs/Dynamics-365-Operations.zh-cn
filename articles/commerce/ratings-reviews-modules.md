@@ -3,7 +3,7 @@ title: 评分和评价模块
 description: 此主题介绍 Microsoft Dynamics 365 Commerce 中产品详细信息页上使用的评分和评论模块。
 author: gvrmohanreddy
 manager: annbe
-ms.date: 02/17/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: ee2a2a781537b592fb5f80ce424a7331c4e21d41
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: 85fb1272103eed7d6e44635b7c20438471d96b34
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071842"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817722"
 ---
 # <a name="ratings-and-reviews-modules"></a>评分和评价模块
 
@@ -87,7 +87,7 @@ PDP 中的三个模块显示评分和评价摘要：
 
 ## <a name="additional-resources"></a>其他资源
 
-[入门套件概览](starter-kit-overview.md)
+[模块库概述](starter-kit-overview.md)
 
 [容器模块](add-container-module.md)
 

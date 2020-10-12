@@ -3,7 +3,7 @@ title: 工作流常见问题
 description: 本主题解答有关工作流系统的常见问题。
 author: ChrisGarty
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4ba60c832b1f1ac5f514baef4cc0a9c36dd85af9
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076078"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826182"
 ---
 # <a name="workflow-faq"></a>工作流常见问题
 
@@ -58,3 +58,5 @@ ms.locfileid: "3076078"
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>为什么在处理工作流时遇到了 SQL 死锁？ 
 **工作流参数**页中**每个批处理任务的工作流项目数**的默认字段值为 0。 值为 0 将导致默认值更改为每个批次 20 个项目。 调整此值时，请务必小心，因为每个批次的项目数太大 (> 40) 可能导致 SQL 死锁。
 
+## <a name="what-is-the-workflow-enhanced-error-feature"></a>什么是“工作流增强错误”功能？
+版本 10.0.13 中的“工作流增强错误”功能添加了错误代码来区分不同的工作流错误类。 报告的错误消息大致相似，只有微小差异，以使它们更清晰。

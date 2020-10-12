@@ -15,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1b5a9bdfb9596e2eceaebe729b036397d73f2c5b
-ms.sourcegitcommit: 55b729361ea852e38531c51972c6730e3d9c2b45
+ms.openlocfilehash: 2b64d2bd782692bc4eec519600780b1f969bcb84
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "3776345"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893095"
 ---
 # <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management---operated-by-21vianet-in-china"></a>Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management - 由世纪互联在中国运营
 
@@ -36,7 +36,7 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 
 - 由世纪互联在中国运营的服务 - 世纪互联在中国运营并提供 Finance 和 Supply Chain Management 服务。 此选项提供与全球服务同样的一致应用程序体验。 此选项同时可满足希望使用由在中国境内存储数据的本地公司提供的联机服务的客户的要求。 为了遵守中国法律，这些服务有可能会有所更改。
 
-- 由 Microsoft 运营的服务 – 此选项适用于希望使用 Microsoft 管理和提供的服务的 Finance 和 Supply Chain Management 客户。 无论是新客户还是现有客户，只要客户通过企业协议购买了 Microsoft Azure、Dynamics 365 和 Office，Office 365 和/或 Dynamics 365 就可以在租户中共存。
+- 由 Microsoft 运营的服务 – 此选项适用于希望使用 Microsoft 管理和提供的服务的 Finance 和 Supply Chain Management 客户。 无论是新客户还是现有客户，只要客户通过企业协议购买了 Microsoft Azure、Dynamics 365 和 Office，Microsoft 365 和/或 Dynamics 365 就可以在租户中共存。
 
 有关预配环境的信息，请参阅 [Power Platform 管理中心的“创建和管理环境”部分](https://docs.microsoft.com/power-platform/admin/create-environment)。
 

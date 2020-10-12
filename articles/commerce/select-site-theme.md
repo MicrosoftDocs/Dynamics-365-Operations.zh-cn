@@ -3,7 +3,7 @@ title: 选择站点主题
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中设置或更改站点的主题。
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 45184c7b0e29d1258b26368fbc7221df91013cc3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002743"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817698"
 ---
 # <a name="select-a-site-theme"></a>选择站点主题
-
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +34,7 @@ ms.locfileid: "3002743"
 
 站点的布局和样式（如字体、大小和颜色）由主题定义，并应用于站点。 主题由公司的开发人员创建和部署。 有关主题概述，请参阅[主题概述](http://)。 有关如何创建和部署主题的详细信息，请参阅[创建新主题](http://)。
 
-默认情况下，首次创建站点时，使用名称为 **Fabrikam** 的主题。 入门套件中提供此默认主题。 为站点开发了更多主题之后，可以配置站点，使其改用其中之一。
+默认情况下，首次创建站点时，使用名称为 **Fabrikam** 的主题。 Commerce 模块库中提供此默认主题。 为站点开发了更多主题之后，可以配置站点，使其改用其中之一。
 
 ## <a name="select-the-site-theme"></a>选择站点主题
 

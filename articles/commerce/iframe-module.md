@@ -3,7 +3,7 @@ title: iframe 模块
 description: 此主题介绍 iframe 模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0616a772a416a7c9d9756a840c93b8601c08c3d0
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 58446289c9a53af30d4d6d331a1a609ae0d2a0ad
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646871"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818190"
 ---
 # <a name="iframe-module"></a>iframe 模块
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 此主题介绍 iframe 模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
@@ -37,6 +36,9 @@ ms.locfileid: "3646871"
 iframe 模块提供在站点上托管外部内容的 iframe（内联框架）。 例如，它可以用于在任何站点页面上托管 YouTube 视频或 PDF 文件查看器。 
 
 iframe 模块需要目标 URL。 然后，它将目标页面的内容托管在 HTML **iframe** 元素内。 根据站点的内容安全策略 (CSP) 指令，外部 URL 必须在允许列表（也称为“白名单”）上。 对于 iframe 内容，应使用 **frame-ancestor** 指令允许 URL。 有关详细信息，请参阅[管理内容安全策略 (CSP)](manage-csp.md)。
+
+> [!NOTE]
+> 此 iFrame 模块在 Dynamics 365 Commerce 10.0.13 版本中提供。
 
 下图显示了 iframe 模块的示例，这些模块在站点页面上展示外部视频。
 
@@ -72,6 +74,6 @@ iframe 模块需要目标 URL。 然后，它将目标页面的内容托管在 H
  
 ## <a name="additional-resources"></a>其他资源
 
-[入门套件概览](starter-kit-overview.md)
+[模块库概述](starter-kit-overview.md)
 
 [管理内容安全策略 (CSP)](manage-csp.md)

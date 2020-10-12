@@ -3,7 +3,7 @@ title: 地图模块
 description: 此主题介绍地图模块以及如何在 Microsoft Dynamics 365 Commerce 中配置该模块。
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ca531e6cbf0a1044b0a13e5cdf42c7b4f0498fe5
-ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
+ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3811176"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817198"
 ---
 # <a name="map-module"></a>地图模块
 
@@ -38,7 +38,8 @@ ms.locfileid: "3811176"
 
 将地图模块与商店选择器模块结合使用可以确定必须在地图上呈现的商店的地理位置。 当用户在站点页面上的其中一个模块中选择商店时，商店选择器和地图模块进行交互。 除了与商店选择器模块进行交互外，地图模块还可以针对其他场景扩展。 但是，需要对模块进行自定义。
 
-地图模块在 Commerce 版本 10.0.13 中引入。
+> [!NOTE]
+> 此地图模块在 Dynamics 365 Commerce 10.0.13 版本中提供。
 
 下图显示了商店位置页面上使用的地图块模块的示例。
 
@@ -70,7 +71,7 @@ ms.locfileid: "3811176"
  
 ## <a name="additional-resources"></a>其他资源
 
-[入门套件概览](starter-kit-overview.md)
+[模块库概述](starter-kit-overview.md)
 
 [购买框模块](add-buy-box.md)
 

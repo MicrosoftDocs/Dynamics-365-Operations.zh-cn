@@ -18,22 +18,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a022f8297066793080d254baa01410884a3fafd9
-ms.sourcegitcommit: 55b729361ea852e38531c51972c6730e3d9c2b45
+ms.openlocfilehash: 33322b9b553076125695f257b201463e9d8275c6
+ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "3776300"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3828906"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams 中的 Human Resources 应用
 
 [!include [banner](includes/preview-feature.md)]
 
-员工可通过 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用在 Microsoft Teams 中快速请假和查看自己的请假余额信息。 员工可以与机器人交互以请求信息。 **休假**选项卡提供更详细信息。
+员工可通过 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用在 Microsoft Teams 中快速请假和查看自己的请假余额信息。 员工可以与机器人交互以请求信息。 **休假**选项卡提供更详细的信息。此外，他们还可以发送有关团队中的近期休假以及 Human Resources 应用外的聊天的人员信息。
 
 ![Human Resources Teams 休假应用机器人](./media/hr-admin-teams-leave-app-bot.png)
 
 ![Human Resources Teams 休假应用“休假”选项卡](./media/hr-teams-leave-app-timeoff-tab.png)
+
+![Human Resources 休假请求卡](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>安装和设置
 
@@ -85,7 +87,6 @@ ms.locfileid: "3776300"
 | 签发 | 状态 |
 | --- | --- |
 | 水平滚动不适用于 Android 手机 | 水平滚动在 iOS 或台式机设备上不是问题。 我们正在解决 Android 上的问题。 |
-| 错误：查找要连接的环境时出现问题。 | 即使您已确认用户可以访问一个或多个 Human Resources 环境，也可能会收到此错误。 此外，您可能看不到您预期的所有环境。 在我们修复此问题之前，请删除用户，然后再次将其导入以解决此问题。 |
 | 提交将来日期的请假时，余额不正确。 | 预测尚不可用。 显示当前日期的余额。 |
 | 不能取消**审查中**请求。 | 现在不支持此功能，将来的版本中将增加此功能。 |
 | 将计算截止当天的余额信息。 | 系统现在不显示截止实际期间的余额，即使已在“休假和缺勤”参数中配置。 |
@@ -102,9 +103,15 @@ Microsoft Teams 中的 Dynamics 365 Human Resources 机器人用于分析用户�
 
 若要管理 Microsoft Teams 中的应用的管理员设置，请转到 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com/)。
 
-### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>Microsoft Azure 事件网格和 Microsoft Teams
+### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams、Azure Event Grid 和 Azure Cosmos DB
 
-使用 Teams 中的 Dynamics 365 Human Resources 应用的通知功能时，某些客户数据会流到租户的 Human Resources 服务的部署地理区域之外。 Dynamics 365 Human Resources 将员工的请假和工作流程任务详细信息传输到 Microsoft Azure 事件网格和 Microsoft Teams。 此数据可以存储最多 24 小时和在美国处理，在传输期间和静态时加密，并且不由 Microsoft 或其附属机构用于训练或服务改进。
+使用 Microsoft Teams 中的 Dynamics 365 Human Resources 应用时，某些客户数据可能会流到租户的 Human Resources 服务的部署地理区域之外。
+
+Dynamics 365 Human Resources 将员工的请假和工作流程任务详细信息传输到 Microsoft Azure 事件网格和 Microsoft Teams。 此数据可以在 Microsoft Azure 事件网格中最多存储 24 小时，将在美国处理，在传输期间和静态时加密，并且不由 Microsoft 或其附属机构用于训练或服务改进。 要了解您的数据在 Teams 中的存储位置，请参阅：[Microsoft Teams 数据的位置](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true)。
+
+与 Human Resources 应用中的聊天机器人进行对话时，对话内容可以存储在 Azure Cosmos DB 中并传输到 Microsoft Teams。 此数据最多可以在 Azure Cosmos DB 中存储 24 小时，可以在您的租户的 Human Resources 服务所部署的地理区域之外进行处理，在传输过程中和静态时进行加密，不会被 Microsoft 或其子处理器用于培训或服务改进。 要了解您的数据在 Teams 中的存储位置，请参阅：[Microsoft Teams 数据的位置](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true)。
+ 
+要对您的组织或组织内的用户限制对 Microsoft Teams 中的 Human Resources 应用的访问，请参阅[在 Microsoft Teams 中管理应用权限策略](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies)。
 
 ## <a name="see-also"></a>请参阅 
 

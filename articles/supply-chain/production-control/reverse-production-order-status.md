@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ProdParmStatusDecrease
+ms.search.form: ProdParmStatusDecrease, ProdSetupStatusDecrease
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10816f0a6b651de24fc5b0f9b51a71b1c349e037
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c7529e6c2bd7cb6b8386565c9f19075e56a65d3c
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211092"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826112"
 ---
 # <a name="reverse-the-production-order-status"></a>冲销生产订单状态
 

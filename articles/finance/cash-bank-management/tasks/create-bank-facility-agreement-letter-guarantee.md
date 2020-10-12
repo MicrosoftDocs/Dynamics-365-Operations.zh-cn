@@ -1,7 +1,7 @@
 ---
 title: 创建保函的银行信贷协议
 description: 此任务可以创建一个银行融资协议，以便处理保函。
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 11/10/2016
 ms.topic: business-process
@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: leguo
+ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 106ce3e9e6263802f9b28e0b0c95ac554e38f67d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 165552cade2a38d9605240ab6a8ff423585786ca
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141687"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899485"
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>创建保函的银行信贷协议
 

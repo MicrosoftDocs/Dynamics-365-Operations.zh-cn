@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f4f6baa3c4a42a2994cab772c98d373996e2648b
-ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
+ms.openlocfilehash: 4267391edaf70ec645933b2c5c08a72735f52894
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "3661191"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818318"
 ---
 # <a name="payment-module"></a>付款模块
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 此主题介绍付款模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
 

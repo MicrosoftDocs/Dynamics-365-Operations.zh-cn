@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 275d24d8f32fd1d2d15356d14c5c6591e8503c65
-ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
+ms.openlocfilehash: b4f69e7933bc5a50cccad6911c99cf08d2768578
+ms.sourcegitcommit: b3df62842e62234e8eaa16992375582518976131
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3706244"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3818588"
 ---
 # <a name="supported-scenarios-for-dual-write-setup"></a>支持双写入的方案
 
@@ -42,7 +42,7 @@ ms.locfileid: "3706244"
 
 设置机制取决于订阅和环境。
 
-+ 对于 Finance and Operations 应用的新实例，双写入连接的设置在 Microsoft Dynamics Lifecycle Services (LCS) 中开始。 如果您有 Microsoft Power Platform 的许可证，并且您的租户没有 Common Data Service 环境，您将获取一个新的该环境。
++ 对于 Finance and Operations 应用的新实例，双写入连接的设置在 Microsoft Dynamics Lifecycle Services (LCS) 中开始。 如果您有 Power Platform 的许可证，并且您的租户没有 Common Data Service 环境，您将获取一个新的该环境。
 + 对于现有实例的 Finance and Operations 应用，双写入连接的设置在 Finance and Operations 环境中开始。
 
 支持以下设置方案：

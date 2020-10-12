@@ -3,7 +3,7 @@ title: 商店选择器模块
 description: 此主题介绍商店选择器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1531b27dad4188dca96cf5728a9858f94001977c
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646127"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818242"
 ---
 # <a name="store-selector-module"></a>商店选择器模块
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 此主题介绍商店选择器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
@@ -65,7 +64,7 @@ ms.locfileid: "3646127"
 
 下图显示了 PDP 上使用的商店选择器模块的示例。
 
-![商店选择器模块的示例](./media/BOPIS.PNG)
+![PDP 上使用的商店选择器模块的示例](./media/BOPIS.PNG)
 
 ## <a name="find-stores-mode"></a>查找商店模式
 
@@ -73,7 +72,7 @@ ms.locfileid: "3646127"
 
 下图显示了与商店位置页面上的地图模块一起使用的商店选择器模块的示例。
 
-![商店选择器模块的示例](./media/ecommerce-Storelocator.PNG)
+![商店位置页面上的商店选择器模块和地图模块的示例](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>呈现地图
 
@@ -127,7 +126,7 @@ ms.locfileid: "3646127"
  
 ## <a name="additional-resources"></a>其他资源
 
-[入门套件概览](starter-kit-overview.md)
+[模块库概述](starter-kit-overview.md)
 
 [购买框模块](add-buy-box.md)
 

@@ -3,7 +3,7 @@ title: 购买框模块
 description: 此主题介绍购买框模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6556ee8acf1e24a9f6ceddb622960cb3ac891852
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e07bf02f10c943947fdf9ed3333373b859ff5b6c
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761289"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817077"
 ---
 # <a name="buy-box-module"></a>购买框模块
 
@@ -75,9 +75,12 @@ ms.locfileid: "3761289"
 - **库存** – 有关如何应用库存设置的信息，请参阅[应用库存设置](inventory-settings.md)。
 - **添加到购物车** - 此属性用于指定将商品添加到购物车后的行为。 可能的值为**导航到购物车**、**不导航到购物车**和**显示通知**。 当此值设置为**导航到购物车**时，用户将在添加商品后被发送到购物车页面。 当此值设置为**不导航到购物车**时，用户在添加商品后不会被发送到购物车页面。 当此值设置为**显示通知**时，会向用户显示一条确认通知，用户可以继续在产品详细信息页浏览。 
 
-    下图显示了 Fabrikam 站点上“已添加到购物车”确认通知的示例。
+> [!IMPORTANT]
+> **添加到购物车**站点设置在 Dynamics 365 Commerce 10.0.11 版本中可用。 如果要从旧版本的 Dynamics 365 Commerce 更新，必须手动更新 appsettings.json 文件。 有关更新 appsettings.json 文件的说明，请参阅 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)。 
 
-    ![通知模块示例](./media/ecommerce-addtocart-notifications.PNG)
+下图显示了 Fabrikam 站点上“已添加到购物车”确认通知的示例。
+
+![通知模块示例](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unit 交互
 
@@ -111,7 +114,7 @@ ms.locfileid: "3761289"
 
 ## <a name="additional-resources"></a>其他资源
 
-[入门套件概览](starter-kit-overview.md)
+[模块库概述](starter-kit-overview.md)
 
 [商店选择器模块](store-selector.md)
 
@@ -132,3 +135,5 @@ ms.locfileid: "3761289"
 [社交共享模块](social-share-module.md)
 
 [计算零售渠道的库存现有量](calculated-inventory-retail-channels.md)
+
+[SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md)

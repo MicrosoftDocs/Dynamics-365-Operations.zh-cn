@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c46c4c060d61503779726c68d32449c87b441f1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7f170fc501e995bf9497d86501f4e086e486d0fb
+ms.sourcegitcommit: 8fe59d216154dbed1208274f44707465b668a8e0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207894"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830741"
 ---
 # <a name="purchasing-policies-overview"></a>采购策略概览
 
@@ -102,9 +102,9 @@ Sam 在 Contoso 的英国办事处的英国销售 - 销售部门中工作。 “
 
 ### <a name="purchase-requisition-control-rule"></a>采购申请控制规则
 
-采购申请控制规则是可选规则。 当您创建此规则的类型时，您可以在各个选项卡上设置选项：
+**消耗量**类型申请的采购申请控制规则是一项可选规则。 当您创建此规则的类型时，您可以在各个选项卡上设置选项：
 
--   在**工作流提交**选项卡上，您可以配置必须在申请行上输入的字段，以便在申请目的为**消耗**时提交申请以供审核。
+-   在**工作流提交**选项卡上，您可以配置必须在申请行上输入的字段，以提交申请供审批。
 -   在**订单数量**选项卡上，您可以配置采购申请在特定条件下需要的字段。 您还可以强制实施订单数量。
 -   在**日期**选项卡上，您可以配置会计日期是否与请求的日期相同
 -   在**地址**选项卡上，您可以定义是否允许用户在系统中创建要应用于采购申请的新地址。

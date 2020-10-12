@@ -3,7 +3,7 @@ title: 帐户管理页和模块
 description: 此主题介绍 Microsoft Dynamics 365 Commerce 中的帐户管理页和模块。
 author: v-chgri
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,15 +18,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8787a7b01ecf15752569d2a3a8d7804fe492e63d
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: b0f963bcf65ae622522fe52fd59996c6ec0ecf17
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025659"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817150"
 ---
 # <a name="account-management-pages-and-modules"></a>帐户管理页和模块
-
 
 [!include [banner](includes/banner.md)]
 
@@ -75,7 +74,7 @@ ms.locfileid: "3025659"
 
 ## <a name="additional-resources"></a>其他资源
 
-[入门套件概览](starter-kit-overview.md)
+[模块库概述](starter-kit-overview.md)
 
 [容器模块](add-container-module.md)
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventOnhandItem, InventOnHandItemListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 537595e23cd48dd7ba7d0f28bd4dfe39768fe9ac
-ms.sourcegitcommit: 7be450990ba04a6c118dda01b40d7306b180fcb8
+ms.openlocfilehash: 275a37cd76715ab9909e057ec759c66c4f9c617b
+ms.sourcegitcommit: 8cbaeb6443ce47a4c4bc02b5e1a1212eb0056b38
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "3638995"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3829841"
 ---
 # <a name="inventory-on-hand-list"></a>现有库存量列表
 

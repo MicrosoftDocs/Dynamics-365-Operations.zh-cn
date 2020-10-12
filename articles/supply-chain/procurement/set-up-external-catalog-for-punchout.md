@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28c9152996b7efc84b4259bd7323411df0b62258
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7aecc2c4786a1912bf5ae44f3949428c778f1df9
+ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207799"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826820"
 ---
-# <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>为电子采购发包设置外部目录
+# <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>为电子采购发包设置外部目录
 
 [!include [banner](../includes/banner.md)]
 
@@ -86,7 +86,8 @@ ms.locfileid: "3207799"
 ### <a name="extrinsic-elements"></a>外在元素
 
 外在元素的附加信息，例如基于发包的用户的用户名称。外在元素在发生发包且可以在请求设置消息中发送时进行设置。
-您的供应商可能提出在设置请求中收到外在元素的要求。 在这种情况下，您应将外在元素添加到**外部目录**页的**消息格式**部分中的外在元素列表。 指定供应商可以识别并将其映射到值的外在元素的名称。 值的选项为：用户名、用户电子邮件或随机值。
+您的供应商可能提出在设置请求中收到外在元素的要求。 在这种情况下，您应将外在元素添加到**外部目录**页的**消息格式**部分中的外在元素列表。
+指定供应商可以识别并将其映射到值的外在元素的名称。 值的选项为：用户名、用户电子邮件或随机值。
 有关 cXML 协议的详细信息，请访问 [cXML.org 网站](http://cxml.org/)。
 
 ## <a name="post-back-message"></a>回发消息
@@ -109,3 +110,7 @@ ms.locfileid: "3207799"
 
 如果从外部供应商的目录请求产品，不能删除外部供应商目录。 相反，外部供应商目录的状态被设置为无效。 如果您要取消对外部供应商的目录站点的访问，但是不删除它，请将外部目录的状态更改为无效。
 
+## <a name="additional-resources"></a>其他资源
+
+- [采购 cXML 增强功能](purchasing-cxml-enhancements.md)
+- [针对电子采购发包使用外部目录](use-external-catalogs-for-punchout.md)

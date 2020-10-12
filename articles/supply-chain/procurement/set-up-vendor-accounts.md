@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2ea87e4147757a584e38b819faa8a0423ec0028
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 59c8071ed20740f81854d29e21f87b2e8650d10f
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216061"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893153"
 ---
 # <a name="set-up-vendor-accounts"></a>设置供应商帐户
 
@@ -66,7 +66,7 @@ ms.locfileid: "3216061"
 
 如果联系人在文档中引用，您无法删除联系人记录。 相反，可以直接停用该联系人。  
 
-您可以在 Microsoft Office 365 中将供应商联系人添加到您的个人联系人。 但是，您必须首先在 Microsoft Exchange Server 同步和 Microsoft Outlook 设置向导中在 Supply Chain Management 和 Office 365 之间设置同步。
+您可以在 Microsoft 365 中将供应商联系人添加到您的个人联系人。 但是，您必须首先在 Microsoft Exchange Server 同步和 Microsoft Outlook 设置向导中在 Supply Chain Management 和 Microsoft 365 之间设置同步。
 
 ## <a name="vendors-in-different-legal-entities"></a>不同法人的供应商
 如果供应商在您的组织中只为一个法人注册，其他法人必须注册相同供应商，您可以使用**将供应商添加到其他法人**页面来配置供应商与其他法人开展业务。 您必须在所选法人中选择供应商组、货币和供应商的保留状态。  

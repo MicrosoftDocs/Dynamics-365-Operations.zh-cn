@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 8957065bcadc3f33adb60c2a8f2be78710289631
-ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
+ms.openlocfilehash: 1eb5e4ea8d086baeee686ccb3d044b3ef9d2a4fa
+ms.sourcegitcommit: b3df62842e62234e8eaa16992375582518976131
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "3775139"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3818564"
 ---
 # <a name="dual-write-overview"></a>双写入概述
 
@@ -86,7 +86,7 @@ ms.locfileid: "3775139"
 双写入提供 Microsoft Dynamics 365 应用程序之间的数据集成。 这个强大的框架链接了环境，并让不同业务应用程序可以一起工作。 下面是为什么应该使用双写入的主要原因：
 
 + 双写入提供 Finance and Operations 应用与 Dynamics 365 中的模型驱动应用之间紧密耦合的近实时双向集成。 此集成使 Microsoft Dynamics 365 成为了所有业务解决方案的一站式商店。 使用 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management，但对客户关系管理 (CRM) 使用非 Microsoft 解决方案的客户正在转向 Dynamics 365，以享受其双写入支持。
-+ 客户、产品、操作、项目和物联网 (IoT) 的数据通过双写入自动流向 Common Data Service。 这种连接对于对 Microsoft Power Platform 扩展感兴趣的企业非常有用。
++ 客户、产品、操作、项目和物联网 (IoT) 的数据通过双写入自动流向 Common Data Service。 这种连接对于对 Power Platform 扩展感兴趣的企业非常有用。
 + 双写入基础结构遵循无代码/少代码原则。 扩展标准表到表映射和包含自定义映射所需工程工作量非常少。
 + 双写入同时支持在线模式和脱机模式。 只有 Microsoft 公司同时支持在线模式和脱机模式。
 

@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 389e3e9d631574eac499f7c6146e2776b8126a52
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: 8439b88ccda3f72e5a9b918c6c89bd406599b516
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761097"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818218"
 ---
 # <a name="checkout-module"></a>结帐模块
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 此主题介绍如何向页面添加结帐模块和设置必需的属性。
 

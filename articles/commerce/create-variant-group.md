@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
+ms.search.form: RetailSizeGroupTable, ConfigGroupIdLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
@@ -17,12 +18,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b9acd41c000b22e6c74b0d636a7f58917e4b5ac5
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 5d9279e1076796bb455429e5ff004c89ec5829e7
+ms.sourcegitcommit: 3cc289399e8879b499e31a9559e1031d6ca8570a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001867"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3885937"
 ---
 # <a name="create-a-variant-group"></a>创建变型组
 

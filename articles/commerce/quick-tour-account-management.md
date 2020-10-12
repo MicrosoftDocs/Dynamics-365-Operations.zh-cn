@@ -3,7 +3,7 @@ title: 帐户管理页面概览
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中的帐户管理页。
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 03a2ebd07c2a95198f506df3fd94c967ad0315e8
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: d0e066428e8c4717b5a50144f63e59b87089d286
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527600"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817794"
 ---
 # <a name="account-management-pages-overview"></a>帐户管理页面概览
 
@@ -46,7 +46,7 @@ ms.locfileid: "3527600"
 
 **我的个人资料**页显示客户的帐户信息，如姓名和电话号码。 客户可在此页中更新自己的个人资料信息。 可以自定义此页，以使其包含更多客户帐户首选项，如用于选择参加市场营销电子邮件的选项。
 
-下图显示使用入门套件生成的**我的个人资料**页的示例。
+下图显示使用模块库生成的**我的个人资料**页的示例。
 
 ![“我的个人资料”页示例](./media/Account-Management-MyProfile.PNG)
 

@@ -3,7 +3,7 @@ title: 自定义站点导航
 description: 此主题介绍如何创建自定义的在线导航层次结构，以便组织产品以在 Microsoft Dynamics 365 Commerce 站点中进行浏览。
 author: bicyclingfool
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ae7696dcb5cdd99cd46b89ed1de1b03c16146e2d
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: c2b6a7a3b35873e80be391c627d0397fd6398a99
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269651"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817222"
 ---
 # <a name="customize-site-navigation"></a>自定义站点导航
 
@@ -81,7 +81,7 @@ ms.locfileid: "3269651"
 若要在在线店面中显示类别层次结构，必须在模板或片段中的相应位置添加导航菜单模块。 然后，如果已将导航层次结构发布到站点绑定到的渠道，导航菜单模块将显示您的导航层次结构。
 
 > [!NOTE]
-> 用户可使用商店入门套件中包含的导航菜单模块仅导航到没有子类别的类别。 如果客户应该可以导航到有子类别的类别，则必须自定义导航菜单模块。
+> 用户可使用模块库中包含的导航菜单模块仅导航到没有子类别的类别。 如果客户应该可以导航到有子类别的类别，则必须自定义导航菜单模块。
 
 ## <a name="add-custom-navigation-options"></a>添加自定义导航选项
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4412fb08c8548c8ebe8455db0547618578e5e5b4
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771275"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893355"
 ---
 # <a name="generate-printable-fti-forms"></a>生成可打印的 FTI 窗体
 
@@ -111,7 +111,7 @@ FTI 表单在 ER 框架中按照生成 SSRS 报表的相同方法生成。
 ER 框架当前支持生成的文档采用以下目标：
 
 - **下载的文件** – 生成的表单以可通过使用浏览器保存的下载的形式提供。
-- **屏幕** – Microsoft Office 365 Excel 用于预览生成的 Excel 格式的 FTI 表单。
+- **屏幕** – Microsoft 365 Excel 用于预览生成的 Excel 格式的 FTI 表单。
 - **SharePoint 文件夹** – 生成的表单基于文档管理框架的设置存储。
 - **应用程序存档** – 生成的表单作为执行日志记录的附件存储在 Microsoft Azure 存储中。
 - **电子邮件** – 生成的表单作为电子邮件附件发送。

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e6a3330b0123605d4c7b86cedcb8bc95b3cf6de8
+ms.sourcegitcommit: a52a789044ca66c6771224a6cf0be8749bc99e5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383082"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3837255"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>为仓库工作设置移动设备
 
@@ -399,6 +399,9 @@ ms.locfileid: "3383082"
 <tr class="odd">
 <td>工作模板代码</td>
 <td>选择用于创建工作流程的工作模板。 例如，如果您接收了工作订单中的某个物料，那么会基于工作模板生成入库工作。 如果您未选择工作模板，那么 Supply Chain Management 将基于查询准则分配一个模板。 有关工作模板的详细信息，请参阅<a href="control-warehouse-location-directives.md">使用工作模板和库位指令控制仓库的工作</a>。</td>
+<tr class="even">
+<td>显示工作行列表</td>
+<td>选择一个工作人员能够如何查看当前所选的领料工作的行并与之交互的选项。 有关此选项的详细信息，请参阅<a href="pick-line-overview.md">设置移动设备菜单项以提供领料行概览</a>。</td>
 </tr>
 </tbody>
 </table>

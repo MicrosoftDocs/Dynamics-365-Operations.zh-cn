@@ -3,7 +3,7 @@ title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2d54cfaddc1697eda543952831e745182df2753
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803131"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819881"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
 
@@ -34,6 +34,22 @@ ms.locfileid: "3803131"
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
 [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.14 的平台更新
+
+> [!NOTE]
+> 版本 10.0.14 是预览版本。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅[服务更新可用性](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases)。
+
+
+### <a name="online-users-page"></a>联机用户页面 
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 这是为以前的客户端/服务器体系结构构建的旧页面。 此页面上的信息并不总是准确的，这可能会造成混淆和误导。 |
+| **被另一个功能取代？**   | 我们将在以后的更新中提供新页面。|
+| **影响的产品区域**         | 系统管理 |
+| **部署选项**              | 所有 |
+| **状态**                         | 此窗体将在 2021 年 10 月前删除。   |
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.13 的平台更新
 

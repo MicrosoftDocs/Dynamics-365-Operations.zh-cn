@@ -3,12 +3,12 @@ title: 维度和产品变型的默认订单设置
 description: 默认订单设置定义作为物料采购来源或存储物料的站点和仓库，在贸易或库存管理中将要使用的最低量、最高量、倍数和标准量，提前期，停止标志，以及订单承诺方法。
 author: t-benebo
 manager: tfehr
-ms.date: 07/31/2020
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventItemOrderSetup
+ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0654ba019b71dc952ea52f206bc60d8fa05dd4ff
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657332"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895588"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>维度和产品变型的默认订单设置
 
@@ -51,8 +51,11 @@ Dynamics 365 Supply Chain Management 中的默认订单设置定义作为物料�
 - 采购协议行
 - 询价行
 - 采购申请行
-- 托运补货行
+- 托运补货行（部分支持，请参见注释）
 - 计划采购订单
+
+> [!NOTE]
+> 对于托运补货订单行，所应用的**默认订单设置**页的**采购订单**快速选项卡中的仅有设置是**默认站点**字段、**默认仓库**字段和**已停止**复选框。
 
 创建以下项时，使用销售的默认订单设置：
 

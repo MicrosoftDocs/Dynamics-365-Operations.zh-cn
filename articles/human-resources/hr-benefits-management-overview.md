@@ -3,7 +3,7 @@ title: 福利管理概览
 description: Dynamics 365 Human Resources 中的福利管理功能概述。 通过易于使用的在线体验，为您的员工提供更多的福利选项。
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/16/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
-ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
+ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3599372"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819757"
 ---
 # <a name="benefits-management-overview"></a>福利管理概述
 
@@ -41,15 +41,9 @@ ms.locfileid: "3599372"
 
 如果您想访问演示数据，您需要重新部署沙盒环境。
 
-## <a name="benefits-management-known-issues"></a>福利管理已知问题
-
-### <a name="flex-credit-programs"></a>弹性信贷项目
-
-**工作人员福利计划**窗体中不显示为弹性信贷项目定义的信贷值总计。 此外，如果将弹性信贷项目设置为采用按比例分配规则**无**，则选择和确认计划时，**工作人员福利计划**窗体中将显示错误。
-
 ## <a name="enable-benefits-management"></a>雇用福利管理
 
-本文介绍如何在 Human Resources 中开启功能。 还介绍在打开“福利管理”后，“福利管理”将替换或禁用 Human Resources 中的哪些现有功能。
+本主题介绍如何在 Human Resources 中开启功能。 还介绍在打开“福利管理”后，“福利管理”将替换或禁用 Human Resources 中的哪些现有功能。
 
 > [!IMPORTANT]
 > 不能在**生产**环境中禁用已启用的福利管理。 建议在**生产**环境中启用福利管理之前，在**沙盒**环境中启用和测试。 旧福利功能和新福利管理功能之间差别很大，需要在投入生产之前进行更多设置和应该进行测试。

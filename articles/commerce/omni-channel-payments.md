@@ -3,7 +3,7 @@ title: 全渠道付款概述
 description: 本主题提供有关 Dynamics 365 Commerce 中的全渠道付款的概述。
 author: rubendel
 manager: AnnBe
-ms.date: 07/21/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
-ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
+ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3613169"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819805"
 ---
 # <a name="omni-channel-payments-overview"></a>全渠道付款概述
 
@@ -92,6 +92,9 @@ ms.locfileid: "3613169"
 - 呼叫中心购买，店内提货
 - 商店 A 购买，商店 B 提货
 - 商店 A 购买，发货给客户
+
+    > [!NOTE]
+    > 在呼叫中心进行的映射到“普通”付款功能的付款必须标记为**预付** = **是**，以在 POS 中撤回订单时反映在到期金额中。 在 POS 中撤回订单时，不会识别“普通”类型的非预付付款。 
 
 也支持验证这些方案。 例如，一个在线订单中可能同时包含要发货给客户的行和店内提货的行。 将通过全渠道付款支持所有订单履行选项。 
 
@@ -190,8 +193,8 @@ ms.locfileid: "3613169"
 2. 在**交易记录**页中，通过使用数字小键盘输入 **2001** 来将 Karen Berg 添加到交易记录。
 3. 向交易记录添加一行或多行。
 4. 选择**订单**以查看订单选项。
-5. 选择**全部提货**，然后在系统提示时选择**客户订单**。
-6. 在搜索栏中，输入**西雅图**，然后选择**西雅图**商店提货。 
+5. 选择**全部装运**，然后在系统提示时选择**客户订单**。
+6. 在装运方式页面中，选择**标准隔夜**，然后选择**确定**接受今天的日期作为装运日期。 
 7. 选择**确定**接受当前日期作为提货日期。
 8. 选择**卡支付**启动付款。
 9. 为卡付款支付存款结欠金额。 
@@ -233,5 +236,5 @@ ms.locfileid: "3613169"
 
 - [付款常见问题](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [适用于 Adyen 的 Dynamics 365 付款连接器](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [在 Dynamics 365 Commerce 评估环境中配置 BOPIS](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+- [在 Dynamics 365 Commerce 评估环境中配置 BOPIS](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 

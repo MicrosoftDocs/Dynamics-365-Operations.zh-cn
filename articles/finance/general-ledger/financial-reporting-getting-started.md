@@ -3,7 +3,7 @@ title: 财务报告概览
 description: 本主题介绍从哪里访问 Microsoft Dynamics 365 Finance 中的财务申报，以及如何使用财务申报功能。
 author: aprilolson
 manager: AnnBe
-ms.date: 08/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
-ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
+ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "3696680"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835102"
 ---
 # <a name="get-started-with-financial-reporting"></a>开始使用 Financial reporting 
 
@@ -148,9 +148,7 @@ ms.locfileid: "3696680"
 * 在 Internet Explorer 中，选择**设置**，然后选择 **Internet 选项**。 选择**安全**选项卡。选择“受信任站点”，然后选择**站点**。 在**将此网站添加到区域**中，输入“\*\.dynamics.com”（不带引号），然后选择**添加**。 
 * 在 Internet Explorer 中，选择**设置**，然后选择 **Internet 选项**。 选择**安全**选项卡。选择“受信任站点”。 在标有此区域的安全级别区域中，将此选项更改为**中-低**。
 * 在浏览器中禁用弹出窗口阻止程序。
-* 工作站需要安装 Visual Studio .NET 4.6.2 或更高版本。
-
-可从 [Microsoft 下载中心](https://www.microsoft.com/download/details.aspx?id=53345)下载和安装此版本的 Microsoft .NET Framework。
+* 工作站需要安装 Microsoft .NET Framework 4.6.2 或更高版本。 可从 [Microsoft 下载中心](https://www.microsoft.com/download/details.aspx?id=53345)下载和安装此版本的 Microsoft .NET Framework。
 * 如果使用的是 Chrome 浏览器，则必须安装 ClickOnce 扩展才能下载报表设计器客户端。 如果以匿名模式运行，请确保为匿名模式启用了 ClickOnce 扩展。 如果您无法使用 Chrome 登录，请尝试使用 Internet Explorer 或 Edge 按照问题 1 中描述的设置步骤操作。 
 
 问题 2：未为用户分配使用 Financial Reporting 所需的权限。 

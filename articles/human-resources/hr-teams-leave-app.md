@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0fbf44fe35af3147fd5fb478b6cbfc5a5d0b109d
-ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
+ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
+ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766752"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3828936"
 ---
 # <a name="manage-leave-requests-in-teams"></a>在 Teams 中管理请假
 
 [!include [banner](includes/preview-feature.md)]
 
-可通过 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用直接在 Microsoft Teams 中快速请假和查看自己的请假余额信息。 可以与机器人交互以请求信息。 **休假**选项卡提供更详细信息。
+可通过 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用直接在 Microsoft Teams 中快速请假和查看自己的请假余额信息。 您可以与机器人交互来请求信息和开始请假请求。 **休假**选项卡提供更详细信息。 此外，您可以在 Human Resources 应用之外在团队和聊天中发送有关您的近期休假的人员信息。
 
 ## <a name="install-the-app"></a>安装应用
 
@@ -56,8 +56,8 @@ ms.locfileid: "3766752"
 
 如果可以访问多个 Human Resources 实例，可以在**设置**选项卡中选择要连接哪个环境。
 
-> [!WARNING]
-> 此应用现在支持系统管理员安全角色，并且在您使用系统管理员帐户时显示错误消息。 若要使用其他帐户登录，请在**设置**选项卡上选择**切换帐户**按钮，然后使用无系统管理员权限的用户帐户登录。
+> [!NOTE]
+> 此应用现在支持系统管理员安全角色。
  
 ## <a name="use-the-bot"></a>使用机器人
 
@@ -130,13 +130,33 @@ ms.locfileid: "3766752"
 
    ![Human Resources Teams 休假应用编辑草稿](./media/hr-teams-leave-app-drafts-edit.png)
    
-### <a name="teams-notifications"></a>Teams 通知
+### <a name="respond-to-teams-notifications"></a>响应 Teams 通知
 
 当您或作为审批者的您的下属工作人员提交请假时，您将在 Teams 中的 Human Resources 应用内收到通知。 您可以选择通知进行查看。 也会在**聊天**区域中显示通知。
 
 如果您是审批者，您可以在通知中选择**批准**或**拒绝**。 还可以提供可选消息。
 
 ![Human Resources Teams 中的请假通知](./media/hr-teams-leave-app-notification.png)
+
+## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>向您的同事发送近期休假信息
+
+安装 Teams 的 Human Resources 应用后，您可以轻松地在团队或聊天中向同事发送您的近期休假的信息。
+
+1. 在 Teams 中的团队或聊天中，选择聊天窗口下方的 Human Resources 按钮。
+
+   ![聊天窗口下的 Human Resources 按钮](./media/hr-teams-leave-app-chat-button.png)
+
+2. 选择您要共享的休假请求。 如果要共享休假请求草稿，请先选择**草稿**。
+
+   ![选择要共享的近期休假请求](./media/hr-teams-leave-app-chat-search.png)
+
+您的休假请求将显示在聊天中。
+
+![Human Resources 休假请求卡](./media/hr-teams-leave-app-chat-card.png)
+
+如果您共享了请求草稿，它将显示为草稿：
+
+![Human Resources 休假请求草稿卡](./media/hr-teams-leave-app-chat-draft-card.png)
 
 ## <a name="view-your-teams-leave-calendar"></a>查看您的休假日历
 
@@ -164,9 +184,15 @@ Microsoft Teams 中的 Dynamics 365 Human Resources 机器人用于分析用户�
 
 若要管理 Microsoft Teams 中的应用的管理员设置，请转到 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com/)。
 
-### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>Microsoft Azure 事件网格和 Microsoft Teams
+### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams、Azure Event Grid 和 Azure Cosmos DB
 
-使用 Teams 中的 Dynamics 365 Human Resources 应用的通知功能时，某些客户数据会流到租户的 Human Resources 服务的部署地理区域之外。 Dynamics 365 Human Resources 将员工的请假和工作流程任务详细信息传输到 Microsoft Azure 事件网格和 Microsoft Teams。 此数据可以存储最多 24 小时和在美国处理，在传输期间和静态时加密，并且不由 Microsoft 或其附属机构用于训练或服务改进。
+使用 Microsoft Teams 中的 Dynamics 365 Human Resources 应用时，某些客户数据可能会流到租户的 Human Resources 服务的部署地理区域之外。
+
+Dynamics 365 Human Resources 将员工的请假和工作流程任务详细信息传输到 Microsoft Azure 事件网格和 Microsoft Teams。 此数据可以在 Microsoft Azure 事件网格中最多存储 24 小时，将在美国处理，在传输期间和静态时加密，并且不由 Microsoft 或其附属机构用于训练或服务改进。 要了解您的数据在 Teams 中的存储位置，请参阅：[Microsoft Teams 数据的位置](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true)。
+
+与 Human Resources 应用中的聊天机器人进行对话时，对话内容可以存储在 Azure Cosmos DB 中并传输到 Microsoft Teams。 此数据最多可以在 Azure Cosmos DB 中存储 24 小时，可以在您的租户的 Human Resources 服务所部署的地理区域之外进行处理，在传输过程中和静态时进行加密，不会被 Microsoft 或其子处理器用于培训或服务改进。 要了解您的数据在 Teams 中的存储位置，请参阅：[Microsoft Teams 数据的位置](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true)。
+ 
+要对您的组织或组织内的用户限制对 Microsoft Teams 中的 Human Resources 应用的访问，请参阅[在 Microsoft Teams 中管理应用权限策略](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies)。
 
 ## <a name="see-also"></a>请参阅
 

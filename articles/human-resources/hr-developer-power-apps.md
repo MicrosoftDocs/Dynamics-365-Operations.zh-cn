@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1c5bc0776174960af6cb8a62f00e3fd7d56b1676
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: b28480ff584870e931fdc288a2652a5649268576
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793603"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893069"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>通过 Power Apps 和 Power Automate 扩展
 
@@ -37,13 +37,13 @@ ms.locfileid: "3793603"
 - 若要导入包，用户必须具有**环境制造者**权限。
 - 若要导出或导入应用，用户必须拥有 Power Apps 计划 2 许可证或 Power Apps 计划 2 试用许可证。
 
-## <a name="integration-with-office-365-power-automate"></a>与 Office 365 的集成 Power Automate
+## <a name="integration-with-microsoft-365-power-automate"></a>与 Microsoft 365 Power Automate 集成
 
-**与 Office 365 的集成**应用可用于从 Microsoft Office 365 为已登录用户提取团队信息。 它引用 Human Resources 中的工作人员来提取员工身份证明类型。 经理可以检查员工 ID 类型的到期日期。 如果员工 ID 类型即将到期，他们还可以发送电子邮件提醒。 Power Automate 与 Power Apps 集成来发送此提醒。 发送提醒后，确认将从 Power Automate 发送回 Power Apps。 身份证明类型包括驾照、护照和其他可接受的 ID 形式。
+**与 Microsoft 365 集成**应用可用于从 Microsoft 365 为已登录用户提取团队信息。 它引用 Human Resources 中的工作人员来提取员工身份证明类型。 经理可以检查员工 ID 类型的到期日期。 如果员工 ID 类型即将到期，他们还可以发送电子邮件提醒。 Power Automate 与 Power Apps 集成来发送此提醒。 发送提醒后，确认将从 Power Automate 发送回 Power Apps。 身份证明类型包括驾照、护照和其他可接受的 ID 形式。
 
 您可以扩展此应用来处理其他场景。 例如，可以使用它来显示团队休假信息、日历事件和团队特定的任何事件。
 
-若要下载**与 Office 365 的集成 Power Automate** 应用，请转到 Microsoft 下载中心中的[与 Office 365 的集成](https://go.microsoft.com/fwlink/?linkid=2081787)。
+若要下载**与 Microsoft 365 Power Automate 集成** 应用，请转到 Microsoft 下载中心中的[与 Microsoft 365 集成](https://go.microsoft.com/fwlink/?linkid=2081787)。
 
 ## <a name="power-automate--sql-connect-and-execute"></a>Power Automate – SQL 连接和执行
 

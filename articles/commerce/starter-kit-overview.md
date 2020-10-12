@@ -1,9 +1,9 @@
 ---
-title: 入门套件概览
-description: 此主题概述 Microsoft Dynamics 365 Commerce 入门套件。
+title: 模块库概述
+description: 此主题概述 Microsoft Dynamics 365 Commerce 模块库。
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,29 +18,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1960e1354744fe1034783177ba331f5877d0bee7
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025894"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817818"
 ---
-# <a name="starter-kit-overview"></a>入门套件概览
-
+# <a name="module-library-overview"></a>模块库概述
 
 [!include [banner](includes/banner.md)]
 
-此主题概述 Microsoft Dynamics 365 Commerce 入门套件。
+此主题概述 Microsoft Dynamics 365 Commerce 模块库。
 
 ## <a name="overview"></a>概览
 
-Dynamics 365 Commerce 入门套件是可用于生成电子商务网站的模块的集合。 模块同时采用用户界面 (UI) 和功能行为。
+Dynamics 365 Commerce 模块库是可用于生成电子商务网站的模块的集合。 模块同时采用用户界面 (UI) 和功能行为。
 
-可将主题应用于入门套件中的模块以更改其外观。 这些主题使用级联样式表 (CSS)。 入门套件中提供一个名称为“Fabrikam”的虚构电子商务站点主题，可将其用作参考。
+可将主题应用于模块库中的模块以更改其外观。 这些主题使用级联样式表 (CSS)。 模块库中提供一个名称为“Fabrikam”的虚构电子商务站点主题，可将其用作参考。
 
-## <a name="starter-kit-modules"></a>入门套件模块
+## <a name="module-library-modules"></a>模块库模块
 
-入门套件中提供以下类型的模块：
+模块库中提供以下类型的模块：
 
 - **容器模块** – 容器模块是充当其他模块的主机的简单模块。 用于控制模块在其内的布局。
 - **市场营销模块** – 市场营销模块包括内容块、文本块、视频播放器和传送模块。 所有这些模块都可用于展示内容。 可以放到任何页面中，并由内容管理系统 (CMS) 的数据驱动。

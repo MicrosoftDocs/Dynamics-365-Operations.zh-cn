@@ -1,9 +1,9 @@
 ---
 title: 使用模块
 description: 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用模块的方法和条件。
-author: v-chgri
+author: phinneyridge
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -14,20 +14,19 @@ ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: phinneyridge
+ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: da430857801d8007244c04aadd325e99c0b882c5
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 301eb6206fb9e02c3aa7d3c07cf368ba800a1ab9
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646007"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818414"
 ---
 # <a name="work-with-modules"></a>使用模块
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用模块的方法和条件。
 
@@ -35,7 +34,7 @@ ms.locfileid: "3646007"
 
 模块是构成页面结构的逻辑构建基块，其具有多种用途和作用范围。 某些模块是高级别容器，唯一用途是容纳和组织其他模块（子模块）。 其他模块（如简单图像放置模块）具有非常具体的用途。 其他模块（如传送模块）介于这两种类别之间。
 
-默认情况下，Dynamics 365 Commerce 站点中有一个入门套件模块库，用于实现大多数基本的电子商务方案。 仅使用这些模块应该就可以构造端到端的电子商务站点。 但是，您也可能希望自定义这些模块或生成新的自定义模块来满足特定需要。 如果要生成自定义模块，提供了模块设计软件开发工具包 (SDK) 来帮助您创建自定义模块库。
+默认情况下，Dynamics 365 Commerce 站点中有一个模块库，用于实现大多数基本的电子商务方案。 仅使用这些模块应该就可以构造端到端的电子商务站点。 但是，您也可能希望自定义这些模块或生成新的自定义模块来满足特定需要。 如果要生成自定义模块，提供了模块设计软件开发工具包 (SDK) 来帮助您创建自定义模块库。
 
 ## <a name="container-modules-and-slots"></a>容器模块和插槽
 

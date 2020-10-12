@@ -3,7 +3,7 @@ title: 应用库存设置
 description: 本主题介绍库存设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 737e71dc73750bf151629fd904081924ac15b91e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: d7d25fd62efca52dd2d60ed3435104c3507a1d19
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621213"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817601"
 ---
 # <a name="apply-inventory-settings"></a>应用库存设置
 
@@ -38,6 +38,9 @@ ms.locfileid: "3621213"
 Dynamics 365 Commerce 提供对产品现有量的估计。 有关如何计算估计现有量的信息，请参阅[计算零售渠道的库存现有量](calculated-inventory-retail-channels.md)。
 
 在 Commerce 站点构建器中，可以为产品或类别定义库存阈值和范围。 它们确定库存是分类为有存货、低库存还是库存不足。 有关详细信息，请参阅[配置库存缓冲区和库存级别](inventory-buffers-levels.md)。
+
+> [!NOTE]
+> 对库存阈值和范围的支持在 Dynamics 365 Commerce 10.0.12 版本中提供。
 
 ## <a name="inventory-settings"></a>库存设置
 
@@ -55,6 +58,9 @@ Dynamics 365 Commerce 提供对产品现有量的估计。 有关如何计算估
     - 选择**库存不足**时，将仅显示“库存不足”消息。
 
 - **库存不足阈值** – 这是一个旧的数字设置，只有在为**库存级别确定条件**设置选择了**库存不足阈值**值时才会生效。
+
+> [!IMPORTANT] 
+> 这些设置在 Dynamics 365 Commerce 10.0.12 版本中提供。 如果要从旧版本的 Dynamics 365 Commerce 更新，必须手动更新 appsettings.json 文件。 有关更新 appsettings.json 文件的说明，请参阅 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)。
 
 ## <a name="modules-that-use-inventory-settings"></a>使用库存设置的模块
 
@@ -74,7 +80,7 @@ Dynamics 365 Commerce 提供对产品现有量的估计。 有关如何计算估
 
 ## <a name="additional-resources"></a>其他资源
 
-[入门套件概览](starter-kit-overview.md)
+[模块库概述](starter-kit-overview.md)
 
 [配置库存缓冲区和库存级别](inventory-buffers-levels.md)
 
@@ -85,3 +91,5 @@ Dynamics 365 Commerce 提供对产品现有量的估计。 有关如何计算估
 [帐户管理页面和模块](account-management.md)
 
 [商店选择器模块](store-selector.md)
+
+[SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md)

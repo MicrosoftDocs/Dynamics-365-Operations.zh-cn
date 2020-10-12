@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 12971
 ms.assetid: b5073f83-31dc-404f-af42-3fd84a02a7c6
 ms.search.region: Global
-ms.author: leguo
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2dcff7abfaf71c9e5e73ec2ffbdc1b377babdb2
-ms.sourcegitcommit: 1daa297b0c09090a9c30c5f84bd7000e5b948a26
+ms.openlocfilehash: 3302738a05852dfb37f8266074386d9f2998994d
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "3720685"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899462"
 ---
 # <a name="set-up-bank-reconciliation-matching-rules"></a>设置银行对帐匹配规则
 
