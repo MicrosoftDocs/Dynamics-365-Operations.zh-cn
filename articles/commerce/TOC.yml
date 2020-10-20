@@ -74,8 +74,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: 法国的 Finance and Operations 应用
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
-            - name: 获取 Dynamics 365 Commerce 支持
-              href: retail-support.md
+            - name: 获取支持
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: 升级和 N-1 支持
               items:
                 - name: Commerce 的升级和 N-1 支持
@@ -92,6 +92,8 @@
                   items:
                     - name: “Commerce 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.15（2021 年 1 月）
+                      href: get-started/whats-new-commerce-10-0-15.md
                     - name: Commerce 10.0.14（2020 年 11 月）
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13（2020 年 10 月）
@@ -274,6 +276,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
                 - name: 将 LCS 实施项目移动到其他 Azure AD 租户
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: 将 LCS 实施项目从本地移动到云
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: 一个 Azure AD 租户上的多个 LCS 项目和生产环境
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
                 - name: 实施 Finance and Operations Commerce 项目
@@ -706,6 +710,8 @@
                   href: customer-orders-overview.md
                 - name: 混合客户订单
                   href: hybrid-customer-orders.md
+                - name: POS 中的撤回订单操作
+                  href: enhancedorderrecall.md
             - name: 销售订单
               items:
                 - name: 创建呼叫中心订单
@@ -780,8 +786,6 @@
               href: statement-posting-eod.md
             - name: 改进了批量跟踪物料的处理
               href: batch.md
-            - name: 配置影响对账单的 Commerce 参数
-              href: tasks/parameter-configurations-retail-statements.md
             - name: 配置影响零售对账单的付款方式设置
               href: tasks/payment-configurations-retail-statements.md
             - name: 配置和运行计算对账单作业
@@ -868,6 +872,8 @@
                   href: document-states-overview.md
                 - name: 使用发布组
                   href: publish-groups.md
+                - name: 启用和使用跨渠道共享
+                  href: cross-channel-sharing.md
                 - name: 标记您的站点并添加商店详细信息
                   items:
                     - name: 添加徽标
@@ -1048,6 +1054,24 @@
               items:
                 - name: 生成在线渠道报表
                   href: generate-reports.md
+            - name: 试验
+              items:
+                - name: Dynamics 365 Commerce 试验
+                  href: experimentation-overview.md
+                - name: 建立假设并确定试验指标
+                  href: experimentation-identify.md
+                - name: 设计试验
+                  href: experimentation-setup.md
+                - name: 连接和编辑试验
+                  href: experimentation-connect-edit.md
+                - name: 预览并发布试验
+                  href: experimentation-preview-publish.md
+                - name: 运行和监控试验
+                  href: experimentation-run-monitor.md
+                - name: 加入变量并完成试验
+                  href: experimentation-review-complete.md
+                - name: 查看试验状态
+                  href: experimentation-status.md
             - name: 错误处理
               items:
                 - name: 为 4xx/5xx 状态代码错误生成自定义响应页面
@@ -1076,13 +1100,19 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: 设置 Commerce 渠道的会计整合
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: 用于零售商店的用户定义的证书配置文件
+              href: localizations/certificate-profiles-for-retail-stores.md
             - name: 奥地利
               items:
                 - name: 奥地利的会计登记服务集成示例
                   href: localizations/emea-aut-fi-sample.md
+            - name: 巴西
+              items:
+                - name: 巴西的 Commerce 本地化
+                  href: localizations/latam-bra-commerce-localization.md
             - name: 东欧
               items:
-                - name: 常用
+                - name: 通用
                   items:
                     - name: 东欧的 Commerce 预付款账单
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
@@ -2052,9 +2082,11 @@
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: 从基础主题扩展主题
                       href: e-commerce-extensibility/extend-theme.md
+                    - name: 将自定义资源添加到自定义代码
+                      href: e-commerce-extensibility/add-custom-resources.md
                 - name: 注入脚本
                   items:
-                    - name: 脚本注入
+                    - name: 脚本注入程序
                       href: e-commerce-extensibility/script-injector.md
                 - name: 连接器
                   items:
@@ -2164,6 +2196,8 @@
                   href: dev-itpro/retail-server-extension.md
                 - name: Retail Typescript 和 C# 代理
                   href: dev-itpro/typescript-proxy-retail-pos.md
+                - name: 在外部应用程序中使用 Retail Server API
+                  href: dev-itpro/consume-retail-server-api
             - name: Commerce Runtime (CRT) 可扩展性
               items:
                 - name: CRT 体系结构和配置

@@ -70,6 +70,8 @@
                   items:
                     - name: “Finance 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.15（2021 年 1 月）
+                      href: get-started/whats-new-changed-10-0-15.md
                     - name: Finance 10.0.14（2020 年 11 月）
                       href: get-started/whats-new-changed-10-0-14.md
                     - name: Finance 10.0.13（2020 年 10 月）
@@ -194,6 +196,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/finance/toc.json
                 - name: 将 LCS 实施项目移动到其他 Azure AD 租户
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/finance/toc.json
+                - name: 将 LCS 实施项目从本地移动到云
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/finance/toc.json
                 - name: 一个 Azure AD 租户上的多个 LCS 项目和生产环境
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/finance/toc.json
         - name: 应付帐款
@@ -220,15 +224,25 @@
               href: general-ledger/tasks/audit-invoices-key-data-ap-system.md
             - name: 三向匹配政策
               href: accounts-payable/three-way-matching-policies.md
-            - name: 应付帐款账单匹配
+            - name: 应付帐款发票匹配
               items:
-                - name: 应付帐款账单匹配概览
+                - name: 应付帐款发票匹配概览
                   href: accounts-payable/accounts-payable-invoice-matching.md
-                - name: 设置应付帐款账单匹配验证
+                - name: 设置应付帐款发票匹配验证
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
-            - name: 会计分配和供应商账单的子分类日记帐条目
+            - name: 供应商发票自动化
+              items:
+                - name: 供应商自动开票流程概述
+                  href: accounts-payable/auto-vendr-invc-process.md
+                - name: 供应商发票自动化的设置选项
+                  href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: 将账单提交至工作流系统并匹配物料收货行
+                  href: accounts-payable/submit-invoice-workflow-automatically.md
+                - name: 查看供应商发票自动化结果
+                  href: accounts-payable/view-automated-vendor-invoice.md
+            - name: 会计分配和供应商发票的子分类日记帐分录
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
-            - name: 账单匹配和内部公司采购订单
+            - name: 发票匹配和内部公司采购订单
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
             - name: 设置供应商账单策略
               href: accounts-receivable/tasks/set-up-vendor-invoice-policies.md
@@ -256,9 +270,9 @@
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: 移动账单审核
               href: accounts-payable/mobile-invoice-approvals.md
-            - name: 供应商协作开单工作区
+            - name: 供应商协作开票工作区
               href: accounts-payable/vendor-portal-invoicing-workspace.md
-            - name: 供应商账单自动化
+            - name: 已扫描文档的账单自动化
               href: accounts-payable/vendor-invoice-automation.md
             - name: 代理人合同管理
               href: accounts-payable/broker-contract.md
@@ -450,6 +464,8 @@
               href: accounts-receivable/tasks/process-collection-letters.md
             - name: 设置并生成应收帐款的帐龄信息
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: 客户帐龄分析表
+              href: accounts-receivable/customer-aging.md
             - name: 创建客户的勾销日记帐
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: 高级注释管理
@@ -792,6 +808,10 @@
                   href: fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: 直线法使用年限折旧
                   href: fixed-assets/straight-line-service-life-depreciation.md
+        - name: 资产租赁
+          items:
+            - name: 资产租赁入门
+              href: asset-leasing/asset-leasing-quick-start.md
         - name: 总帐
           items:
             - name: 总帐概览
@@ -1884,7 +1904,7 @@
                   items:
                     - name: 印度 GST 概览
                       href: localizations/apac-ind-gst.md
-                    - name: APAC 印度 GST 本地化的新增功能或更改
+                    - name: 印度 GST 本地化的新增功能或更改
                       items:
                         - name: 10.0.0 新增功能或更改
                           href: localizations/apac-ind-news-letter-10-0-00.md
@@ -1912,6 +1932,8 @@
                           href: localizations/apac-ind-news-letter-10-0-11.md
                         - name: 10.0.12 新增功能或更改
                           href: localizations/apac-ind-news-letter-10-0-12.md
+                        - name: 10.0.13 新增功能或更改
+                          href: localizations/ind-news-letter-10-0-13.md
                     - name: 印度 GST 参考组
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: 收银机 GST 集成
@@ -2022,6 +2044,8 @@
                           href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
                     - name: 存货交易记录
                       items:
+                        - name: 存货转移单
+                          href: localizations/apac-ind-stock-transfer.md
                         - name: 具有转让价格税的存货转移单
                           href: localizations/apac-ind-GST-stock-transfer-transactions.md
                     - name: 客户付款交易记录
@@ -2072,17 +2096,15 @@
                       href: general-ledger/tax-engine-integration.md
                     - name: 扩展税引擎
                       href: general-ledger/extend-tax-engine-configurations.md
-                    - name: 故障排除 GTE
+                    - name: 解决 GTE 问题
                       href: localizations/tax-engine-trouble-shooting.md
                 - name: 税金阈值常见问题
                   href: localizations/apac-ind-tax-thresholds.md
-                - name: 库存转移
-                  href: localizations/apac-ind-stock-transfer.md
             - name: 意大利
               items:
                 - name: 意大利概览
                   href: localizations/italy.md
-                - name: 增值税报表明细
+                - name: VAT 报表明细
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: 阻止列表报告
                   href: localizations/emea-ita-black-list-report.md
@@ -2124,7 +2146,7 @@
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
                 - name: 佣金结算
                   href: localizations/emea-ita-exil-commission-settlement.md
-                - name: 总分类帐模拟（意大利）
+                - name: 总帐模拟（意大利）
                   href: localizations/emea-ita-exil-general-ledger-simulations.md
                 - name: 银行和汇款类型的可配置过帐模板
                   href: localizations/emea-ita-exil-bank-remittance.md

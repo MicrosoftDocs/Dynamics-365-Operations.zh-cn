@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 106043
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b56f56f5307c292ced30ec94d178244268c5e68
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: 5a7a03e6149d3677ac4f35522e4898e1f62da329
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935434"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975260"
 ---
 # <a name="budgeting-home-page"></a>预算编制主页
 
