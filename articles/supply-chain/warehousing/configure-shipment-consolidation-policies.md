@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: v-olbara
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: e11ccdf138adbf05ae1fc8ef739687b9212ae1fe
-ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
+ms.openlocfilehash: 4df62d7b2c8b0463ca6e9564e167f9060e811a24
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3403327"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975408"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>配置装运合并策略
 

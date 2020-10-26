@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: vstehman
+ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 863403dc3b2444f00f0cac27a494fc49d3d70de7
-ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
+ms.openlocfilehash: 9e5db8e4bbd14aa30196e3be617cdfcb72c091fd
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3161584"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977159"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>销售税的双币种支持
 [!include [banner](../includes/banner.md)]

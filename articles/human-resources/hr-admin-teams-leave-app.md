@@ -3,7 +3,7 @@ title: Teams 中的 Human Resources 应用
 description: 此主题介绍 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用。
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/01/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 33322b9b553076125695f257b201463e9d8275c6
-ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
+ms.openlocfilehash: 51f04e553da822c4e09d31bcd72c71b674ad1f1b
+ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3828906"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3930009"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams 中的 Human Resources 应用
 
 [!include [banner](includes/preview-feature.md)]
 
-员工可通过 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用在 Microsoft Teams 中快速请假和查看自己的请假余额信息。 员工可以与机器人交互以请求信息。 **休假**选项卡提供更详细的信息。此外，他们还可以发送有关团队中的近期休假以及 Human Resources 应用外的聊天的人员信息。
+员工可通过 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用在 Microsoft Teams 中快速请假和查看自己的请假余额信息。 员工可以与机器人交互以请求信息。 **休假**选项卡提供更详细信息。 此外，他们可以在 Human Resources 应用之外在团队和聊天中发送有关近期休假的人员信息。
 
 ![Human Resources Teams 休假应用机器人](./media/hr-admin-teams-leave-app-bot.png)
 
@@ -90,6 +90,22 @@ ms.locfileid: "3828906"
 | 提交将来日期的请假时，余额不正确。 | 预测尚不可用。 显示当前日期的余额。 |
 | 不能取消**审查中**请求。 | 现在不支持此功能，将来的版本中将增加此功能。 |
 | 将计算截止当天的余额信息。 | 系统现在不显示截止实际期间的余额，即使已在“休假和缺勤”参数中配置。 |
+
+## <a name="troubleshooting"></a>疑难解答
+
+如果用户在登录或使用 Human Resources Teams 应用时遇到问题，请尝试按照以下疑难解答说明进行操作。 如果在进行疑难解答后仍有问题，请联系支持人员。 有关详细信息，请参阅[获取支持](hr-admin-troubleshooting-support.md)。
+
+### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>无法登录到 Teams 中的 Human Resources 应用
+
+如果用户由于无法登录应用而与您联系，请确认该用户在 Human Resources 中具有关联的员工记录。
+
+### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>在 Teams 中的 Human Resources 应用中审批请假请求时出错
+
+如果用户在尝试批准 Teams 应用中的请假请求时收到错误，请执行以下疑难解答步骤：
+
+1. 验证其 Teams 帐户与用于访问 Human Resources 的帐户相同。
+
+2. 通过检查请假审批的工作流设置，验证他们是否是该请求的有效审批者。 有关请假请求工作流的详细信息，请参阅[创建请假请求工作流](hr-leave-and-absence-workflow.md)。
 
 ## <a name="privacy-notice"></a>隐私声明
 

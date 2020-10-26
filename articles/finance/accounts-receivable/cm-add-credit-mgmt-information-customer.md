@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschloma
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 872d129494b815d6dbf88cc9f84b4e80723a8d6d
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 919aa50136f02a44eb69146589496ad1284721f2
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124315"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976635"
 ---
 # <a name="add-credit-management-information-for-customers"></a>为客户添加信用管理信息
 

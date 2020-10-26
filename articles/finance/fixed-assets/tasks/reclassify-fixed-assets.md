@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4cdcb9c337440b8fa9de2bdeb78d3b2d118e91ca
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: bd108f2e778b31749c66b2787d9f59467cae97dd
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138269"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977207"
 ---
 # <a name="reclassify-fixed-assets"></a>将固定资产重新分类
 

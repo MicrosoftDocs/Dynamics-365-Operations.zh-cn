@@ -3,7 +3,7 @@ title: POS 中的入站库存操作
 description: 此主题介绍销售点 (POS) 入站库存操作的功能。
 author: hhaines
 manager: annbe
-ms.date: 08/18/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710301"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971489"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>POS 中的入站库存操作
 
@@ -133,6 +133,18 @@ POS 用户可通过入站操作执行以下任务：
 单据行的接收流程中执行验证。 其中包括超交验证。 如果用户尝试接收的库存比采购订单中订购的多，但是未配置超交，或接收的量超过了为采购订单行配置的超交容差，用户将收到错误，并且不能接收超额数量。
 
 转移单单据不允许超收。 用户如果尝试收货数量超过为转移单行装运的数量，则始终会收到错误。
+
+### <a name="close-purchase-order-lines"></a>结转采购订单行
+
+如果发货人已确认他们无法装运请求的全部数量，则可以在收货流程中结转入站采购订单上的剩余数量。 若要这样做，必须将公司配置为允许欠交采购订单。 此外，还必须为采购订单行定义欠交容差百分比。
+
+若要将公司配置为允许欠交采购订单，请在 Commerce Headquarters 中，转到**采购** > **设置** > **采购参数**。 在**交货**选项卡上，打开**接受欠交**参数。 然后，运行 **1070**（**渠道配置**）配送计划作业以将设置更改同步到渠道。
+
+可以在 Commerce Headquarters 中配置产品时为产品预定义采购订单行的欠交容差百分比。 此外，还可以在 Commerce Headquarters 中在特定采购订单上设置或覆盖它们。
+
+在组织完成采购订单欠交配置后，当在**入站库存**操作中选择入站采购订单行时，POS 用户将在**详细信息**窗格中看到一个新的**结转剩余数量**选项。 如果用户结转剩余数量，POS 将执行验证以验证要结转的数量是否在采购订单行中定义的欠交容差百分比内。 如果超过欠交容差，将显示一条错误消息，并且用户将无法结转剩余数量，直到之前收货的数量加上**立即收货**数量等于或超过根据欠交容差百分比需要收货的最小数量。 
+
+如果为采购订单行打开了**结转剩余数量**选项，当用户使用**完成收货**操作完成收货时，结转请求还将发送给 Commerce Headquarters，并且将取消此订单行的任何未收货数量。 此时，该行将视为已完全收货。 
 
 ### <a name="receiving-location-controlled-items"></a>接收位置控制的物料
 

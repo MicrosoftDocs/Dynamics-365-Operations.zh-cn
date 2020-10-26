@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1802938f54a1d78e6ea60572a76177a037192ae0
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 6e6ca7d04b86232ba48474fcbe288a18995661ae
+ms.sourcegitcommit: 6a89816f94c8cdcae6e56fa89843eb99c28b21fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428585"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3969014"
 ---
 # <a name="configure-leave-and-absence-types"></a>配置休假和缺勤类型
 
@@ -56,7 +56,9 @@ Dynamics 365 Human Resources 中的休假类型定义员工可报告的各种缺
 
 8. 在**限制对选定角色的访问**下，选择是否要限制访问。 然后在**此休假类型的安全角色**下选择安全角色。 安全角色在您在此过程前面在**工作流 ID** 下选择的工作流程中定义。
 
-9. 在**暂停关系**下，选择是否要让此休假类型暂停其他休假类型或被其他休假类型暂停。 当提交休假请求以暂停休假类型时，将自动为暂停的休假类型创建休假暂停。 
+9. 在**日历颜色**下，选择该请假类型在请假和缺勤日历上显示的颜色。 
+
+10. 在**暂停关系**下，选择是否要让此休假类型暂停其他休假类型或被其他休假类型暂停。 当提交休假请求以暂停休假类型时，将自动为暂停的休假类型创建休假暂停。 
 
 10. 选择**保存**。
 

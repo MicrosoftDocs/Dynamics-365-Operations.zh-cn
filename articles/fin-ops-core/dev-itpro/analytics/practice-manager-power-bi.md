@@ -14,15 +14,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
-ms.author: knelson
+ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a6e6b8d6243c1f7c5831baaee91baf38d51e0c26
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 065981276f124da7b2d6196b5a0e8143e81cc10a
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769989"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979080"
 ---
 # <a name="practice-manager-power-bi-content"></a>实践经理 Power BI 内容
 

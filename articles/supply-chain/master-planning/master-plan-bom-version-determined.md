@@ -16,15 +16,15 @@ ms.custom: 2534
 ms.assetid: a5b64301-a011-4469-afaf-e4c9164ef9c6
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efc980e3a3dfff6d163812396613a1493f4428a4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 766c857cca603f84bb7fcef2c7eea3bc76620c19
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213783"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976884"
 ---
 # <a name="determine-the-bom-version"></a>确定物料清单版本
 

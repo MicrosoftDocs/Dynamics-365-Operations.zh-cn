@@ -16,15 +16,15 @@ ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9d6893531ec4386ea7c6101aa9368019e2a0946
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: d6f0c63459bb61bef9251a677f7fc050120e53fe
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826145"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979186"
 ---
 # <a name="production-process-overview"></a>生产流程概览
 

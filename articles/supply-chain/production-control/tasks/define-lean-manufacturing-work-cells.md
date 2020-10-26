@@ -14,15 +14,15 @@ ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e81fe2b21d3a9a8ed5ad00a5c9f96d442f6454f5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4f460fb42be5cbeda55a82e536e2a83cd2f6b608
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210655"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975864"
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>定义 lean manufacturing 工作单元
 

@@ -1,9 +1,9 @@
 ---
 title: 管理评分和评价
-description: 此主题介绍如何使用 Microsoft Dynamics 365 Commerce 评分和评价审查工具管理评分和评价。
+description: 本主题介绍了如何在 Microsoft Dynamics 365 Commerce 站点构建器中选择管理评分和评价。
 author: gvrmohanreddy
 manager: annbe
-ms.date: 01/30/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,38 +18,30 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a7fa2ae3124a0a68b3890987c5dce2730e5c2183
-ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
+ms.openlocfilehash: 3fc88bc5a5868dce7c0539bf3f0ddc5b751e7b75
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027234"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973998"
 ---
 # <a name="manage-ratings-and-reviews"></a>管理评分和评价
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何使用 Microsoft Dynamics 365 Commerce 评分和评价审查工具管理评分和评价。
+本主题介绍了如何在 Microsoft Dynamics 365 Commerce 站点构建器中选择管理评分和评价。
 
 ## <a name="overview"></a>概览
 
-Dynamics 365 Commerce 使用 Microsoft Azure Cognitive Service 通过修正猥亵词自动审查评价文本。 此外，审查者还可以使用评分和评价审查工具执行以下手动任务：
+Dynamics 365 Commerce 使用 Microsoft Azure Cognitive Service 通过修正猥亵词自动审查评价文本。 此外，审查者可以使用 Dynamics 365 Commerce 站点构建器实现以下手动任务：
 
 - 通过响应或删除评级来审查评级
 - 在客户的请求下删除客户的评价。
 - 将所有产品的评分和评价数据批量导入 Microsoft Power BI 模板中，以便分析评分和评价的趋势。
 
-## <a name="access-ratings-and-reviews-moderation-features"></a>访问评分和评价审查功能
-
-要访问电子商务站点管理工具中的评分和评价审查功能，请按照下列步骤操作。
-
-1. 登录 [Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com)。
-1. 打开包含要在其中初始化电子商务的环境的项目。
-1. 在**环境**部分中，选择环境。
-1. 在**环境功能**下，选择**零售管理**。
-1. 在**电子商务**选项卡上，在**链接**下，选择**电子商务站点管理工具**。
-
 ## <a name="read-a-review"></a>阅读评价 
+
+若要在 Commerce 站点构建器中阅读评价，请执行以下步骤。
 
 1. 转到**主页 \> 评价 \> 审查**。
 1. 可使用页面右上角的搜索字段按产品 ID、产品名或评价文本筛选评价。
@@ -62,7 +54,7 @@ Dynamics 365 Commerce 使用 Microsoft Azure Cognitive Service 通过修正猥�
 
 有时，购买了产品的客户会表示自己满意或不满意，或者不知道如何使用产品。 作为审查者，您可以发布对评价的响应。 此响应和评价一起在站点中显示。 
 
-若要响应评价，请执行以下步骤。
+若要在 Commerce 站点构建器中响应评价，请执行以下步骤。
 
 1. 转到**主页 \> 评价 \> 审查**。
 1. 找到并选择需要响应的评价。
@@ -76,20 +68,20 @@ Dynamics 365 Commerce 使用 Microsoft Azure Cognitive Service 通过修正猥�
 
 有时设立了业务仲裁供审查者撤下客户评价。 
 
-若要撤下评价，请执行以下步骤。
+若要在 Commerce 站点构建器中撤下评价，请执行以下步骤。
 
 1. 转到**主页 \> 评价 \> 审查**。
 1. 找到并选择必须撤下的评价。
-1. 在右侧的属性窗格中，选择撤下原因，然后选择**撤下**。
+1. 在右侧的属性窗格中，在**撤下评价**下方选择撤下原因，然后选择**撤下**。
     
 ## <a name="delete-a-customers-reviews-at-the-customers-request"></a>在客户的请求下删除客户的评价 
 
 有时，客户希望从电子商务网站中永久删除自己的评分和评价数据。 收到客户的删除请求的注册者可以使用评价删除功能删除客户的数据。 若要找到并删除客户的数据，审查者需要客户用于登录和提供评价的电子邮件地址。 
 
-若要查找和删除客户数据，请执行以下步骤。
+若要在 Commerce 站点构建器中查找和删除客户数据，请执行以下步骤。
 
 1. 转到**主页 \> 评价 \> 删除**。
-1. 在**按电子邮件地址搜索用户**字段中，输入客户的电子邮件地址，然后选择**搜索**。
+1. 在**按电子邮件地址搜索用户**框中，输入客户的电子邮件地址，然后选择**搜索**。
 1. 如果客户进行了任何评价活动（例如，提交评价，对另一位客户的评价是否有帮助投票，或评论了另一位客户的评价），将显示结果。 每项有一个**删除**按钮。
 1. 为必须删除的每项选择**删除**。 提示确认时，选择**是**。 
     
@@ -101,9 +93,9 @@ Dynamics 365 Commerce 使用 Microsoft Azure Cognitive Service 通过修正猥�
 
 ## <a name="download-ratings-and-reviews-data"></a>下载评分和评价数据
 
-审查者可使用评分和评价审查工具批量导入评分和评价数据，以便分析趋势。 提供其中包含基本度量的 Power BI 模板。 审查者可使用此模板连接批量导入的数据和查看仪表板。 不必创建自定义仪表板。 审查者也可以自定义 Power BI 模板满足其具体需求。 
+通过 Commerce 站点构建器，审查者可以批量导入评分和评价数据，以便分析趋势。 提供其中包含基本度量的 Power BI 模板。 审查者可使用此模板连接批量导入的数据和查看仪表板。 不必创建自定义仪表板。 审查者也可以自定义 Power BI 模板满足其具体需求。 
 
-若要下载评分和评价数据，请执行以下步骤。
+若要在 Commerce 站点构建器中下载评分和评价，请执行以下步骤。
 
 1. 转到**主页 \> 评价 \> 报告**。
 1. 选择**下载评价数据**使用逗号分隔的值 (CSV) 格式批量下载评分和评价数据。
@@ -112,7 +104,7 @@ Dynamics 365 Commerce 使用 Microsoft Azure Cognitive Service 通过修正猥�
 
 审查者可下载 Power BI 模板，以便在仪表板中查看趋势。
 
-若要查看评分和评价趋势，请执行以下步骤。
+若要在 Commerce 站点构建器中查看评分和评价趋势，请执行以下步骤。
 
 1. 转到**主页 \> 评价 \> 报告**。
 1. 选择 **PowerBI 模板**下载模板。

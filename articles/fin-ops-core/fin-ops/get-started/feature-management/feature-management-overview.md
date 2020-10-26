@@ -3,7 +3,7 @@ title: 功能管理概览
 description: 本主题介绍功能管理功能及其用法。
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/15/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
-ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
+ms.openlocfilehash: 22e5333859d37ad33f5806d63fc874b1b5a52831
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499611"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967326"
 ---
 # <a name="feature-management-overview"></a>功能管理概览
 
@@ -179,3 +179,24 @@ ms.locfileid: "3499611"
 
 ### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>功能是否会在客户不知情的情况下关闭外部测试？ 
 是，如果某项功能影响没有功能性影响的环境的运行，则可能默认启用它们。
+
+### <a name="how-can-feature-enablement-be-checked-in-code"></a>如何在代码中检查功能启用？
+使用 **FeatureStateProvider** 类上的 **isFeatureEnabled** 方法，向其传递功能类的一个实例。 示例: 
+
+    if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+
+### <a name="how-can-feature-enablement-be-checked-in-metadata"></a>如何在元数据中检查功能启用？
+**FeatureClass** 属性可用于指示某些元数据与功能相关联。 应该使用用于功能的类名，例如 **BatchContentionPreventionFeature**。 此元数据仅在该功能中可见。 **FeatureClass** 属性在菜单、菜单项、枚举值和表/视图字段上可用。
+
+### <a name="what-is-a-feature-class"></a>什么是功能类？
+功能管理中的功能将定义为*功能类*。 功能类将**实现 IFeatureMetadata** 并使用功能类属性，以向功能管理工作区标识自身。 有许多可用的功能类示例，可用于使用 **FeatureStateProvider** API 在代码中以及使用 **FeatureClass** 属性在元数据中检查功能启用。 示例: 
+
+    [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
+    internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
+    
+### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>一些功能类实现的 IFeatureLifecycle 是什么？
+IFeatureLifecycle 是 Microsoft 内部的一种机制，用于指示功能生命周期阶段。 功能可以是：
+- PrivatePreview - 需要外部测试版可见。
+- PublicPreview - 默认显示，但具有该功能处于预览状态的警告。
+- Released - 已完全发布。
+

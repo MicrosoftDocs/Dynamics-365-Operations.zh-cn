@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d5961b2459a1c43cee24b611cf73879c6e776a4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34d941c3806ccc9d2b8baa29eef45fbd4216686e
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176669"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967302"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>在折扣日期之前完全结算部分供应商付款和最后付款
 
@@ -64,7 +64,7 @@ April 单击**现金折扣**选项卡以查看折扣金额。
 | 7/25/2015          | 0.00                 | 1,000.00                       |
 
 ## <a name="partial-payment-on-july-1-by-using-the-settle-transactions-page"></a>在 7 月 1 日使用“结算交易记录”页进行部分付款
-April 可以通过打开“应付账款”中的**付款日记帐**页来创建此付款的付款日记帐。 她创建了一个新日记帐，并为客户 3064 输入一个行。 然后，她打开**结算交易记录**页，以便她可以标记要结算的发票。 April 标记了发票并将**要结算的金额**字段中的值更改为 **-500.00**。 她看到完整发票的**现金折扣金额**字段中的值为 **-10.00**，**要提取的现金折扣金额**字段中的值为 **-5.05**。 因此，April 以 -505.05 结算此发票。
+April 可以通过打开“应付账款”中的**付款日记帐**页来创建此付款的付款日记帐。 她创建了一个新日记帐，并为供应商 3064 输入一个行。 然后，她打开**结算交易记录**页，以便她可以标记要结算的发票。 April 标记了发票并将**要结算的金额**字段中的值更改为 **-500.00**。 她看到完整发票的**现金折扣金额**字段中的值为 **-10.00**，**要提取的现金折扣金额**字段中的值为 **-5.05**。 因此，April 以 -505.05 结算此发票。
 
 | 标记     | 使用现金折扣 | 凭证   | 帐户 | 日期      | 到期日期  | 开票 | 交易记录币种金额 | 货币 | 要结算的金额 |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

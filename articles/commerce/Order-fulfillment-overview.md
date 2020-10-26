@@ -14,15 +14,15 @@ ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: rubencdelgado
+ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74347e06dec8517145e79f77f553970324757128
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: fb535b1f20d97042e6205b680de1cc687350f071
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021689"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975139"
 ---
 # <a name="store-order-fulfillment"></a>商店订单履行
 

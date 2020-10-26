@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 65431
 ms.assetid: d2c604df-daae-42cd-82d9-c80e3dee4a60
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53d37d0a02b6771957e2516ef7e3b0bb277014a6
-ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
+ms.openlocfilehash: 1ade10020e4bab02490c9104c37fe1f234d634e8
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888124"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975212"
 ---
 # <a name="general-ledger-home-page"></a>总账主页
 

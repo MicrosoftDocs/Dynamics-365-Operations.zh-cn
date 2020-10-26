@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschloma
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ca9bb7f77283ec30d4648d6763f4156494050ac
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 17b4b2f487fdeb9f1aa7d77bf87197885ba60e47
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124154"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977927"
 ---
 # <a name="periodic-credit-management-tasks"></a>定期信用管理任务
 

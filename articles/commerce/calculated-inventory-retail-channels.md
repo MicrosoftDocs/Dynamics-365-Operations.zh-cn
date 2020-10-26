@@ -14,15 +14,15 @@ ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: hhainesms
+ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 6d25a426268ebfb6990eb3dadb1ad451f86f59a1
-ms.sourcegitcommit: 65a8681c46a1d99e7ff712094f472d5612455ff0
+ms.openlocfilehash: de4ee98198f441b8f42a8a55aa5ff1015f485234
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3694914"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975984"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>计算零售渠道的库存现有量
 
@@ -34,7 +34,7 @@ ms.locfileid: "3694914"
 
 Commerce 使用多个服务器和数据库确保可扩展性和性能。 因此，请务必了解通过销售点 (POS) 应用程序提供的可用库存值、电子商务库存现有量应用程序编程接口 (API)，以及 Commerce Headquarters 中的现有库存页面可能达不到实时 100% 准确。 如果尚未将为在线渠道或商店渠道中的产品创建的交易同步到 Commerce Headquarters 服务器和数据库，则 Commerce Headquarters 中的现有库存页可能不显示这些产品的准确实时库存值。 相反，如果配置了公司，因此 Commerce Headquarters 或其他集成应用程序中的用户可以销售、接收、退回或调整商店或在线仓库的库存，则 POS 或在线渠道可能没有显示物料的准确实时现有值所需全部信息。
 
-此主题介绍可经常运行以帮助限制应用程序或渠道之间的延迟的数据同步流程。 但是，请务必了解运行期间提供的所有现有量数据都被视为估计值。 因此，如果您尝试将应用程序提供的现有库存量与货架上的实际物理库存进行比较，或者如果您尝试将 POS 中显示的现有值与 Commerce Headquarters 中为同一个仓库找到的现有数据进行比较，值可能不同。 运行期间的此差异是正常的，不应被视为问题。 如果要审核数据和确保库存现有量 API 和 Commerce Headquarters 中提供的值与您在商店或仓库货架中找到的实际物理单元匹配，最佳处理时间是在渠道结束☭当天经营且 Commerce Headquarters 与渠道之间已经正确同步了所有交易之后。
+此主题介绍可经常运行以帮助限制应用程序或渠道之间的延迟的数据同步流程。 但是，请务必了解运行期间提供的所有现有量数据都被视为估计值。 因此，如果您尝试将应用程序提供的现有库存量与货架上的实际物理库存进行比较，或者如果您尝试将 POS 中显示的现有值与 Commerce Headquarters 中为同一个仓库找到的现有数据进行比较，值可能不同。 运行期间的此差异是正常的，不应被视为问题。 如果要审核数据和确保库存现有量 API 和 Commerce Headquarters 中提供的值与您在商店或仓库货架中找到的实际物理单元匹配，最佳处理时间是在渠道结束当天经营且 Commerce Headquarters 与渠道之间已经正确同步了所有交易之后。
 
 ## <a name="use-inventory-lookup-apis-for-e-commerce-inventory-availability-requests"></a>将库存查找 API 用于电子商务库存现有量请求
 

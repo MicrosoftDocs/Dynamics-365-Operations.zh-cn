@@ -3,7 +3,7 @@ title: 页面模型词汇表
 description: 此主题介绍 Microsoft Dynamics 365 Commerce 站点页面中使用的各种元素。
 author: phinneyridge
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: da41440581ad952540c7dcf3caa5e23582198a36
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 5c772a19958ebf0687d09af4c3055c733d99d750
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025986"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973901"
 ---
 # <a name="page-model-glossary"></a>页面模型词汇表
 
@@ -54,6 +54,8 @@ ms.locfileid: "3025986"
 [文档状态和生命周期](document-states-overview.md)
 
 [使用发布组](publish-groups.md)
+
+[启用和使用跨渠道共享](cross-channel-sharing.md)
 
 [使用模块](work-with-modules.md)
 

@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f07483d0ccb8593f0e7ce8dbd3c83f63ce60d457
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: c240e11394582ad1af563ee4a8e58632babfff3a
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759368"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976371"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>成本累积政策和开销计算 
 

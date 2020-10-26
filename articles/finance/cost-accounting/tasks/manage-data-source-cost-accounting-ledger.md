@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48d92a634a08f686e29260a71782bbacf7215f2f
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: 88f5170610ea9b5634c4bf5da7079cacccdafe04
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759152"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977567"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>管理成本核算分类帐的数据源
 

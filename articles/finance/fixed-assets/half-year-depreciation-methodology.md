@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: vstehman
+ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 578f812a0426566c6bc2b943a6b2b7b6c01b94de
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: 55fb03cf08d8ec042aa8fb37fd1fb858d98279b1
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761435"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977231"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>半年折旧惯例方法
 

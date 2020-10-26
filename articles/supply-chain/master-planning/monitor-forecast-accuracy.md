@@ -16,15 +16,15 @@ ms.custom: 72863
 ms.assetid: 810a0d63-f4c6-4167-b2b3-a178b74ead89
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab74ba88ba9eb683107ef82bc105f5a3ed8fac08
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 60e5425e54f9e0093888f355a51064e7f0057976
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209804"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976056"
 ---
 # <a name="monitor-forecast-accuracy"></a>监控预测准确性
 
