@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b60d5cf5ebae2386e7d9dc3d25833524044672d0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ce3cb9ebc3536ba1b333a7bef6b5c679e09d7516
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202966"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980403"
 ---
 # <a name="cancel-service-orders"></a>取消服务订单   
 

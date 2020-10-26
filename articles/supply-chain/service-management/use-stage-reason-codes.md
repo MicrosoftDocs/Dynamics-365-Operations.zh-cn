@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54dae6edb6681e1ba29709ebeeea2e5094262257
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 74594871e9eeed86ae2914d1e5a08c0af28ab643
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206465"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985086"
 ---
 # <a name="use-stage-reason-codes"></a>使用阶段原因代码 
 

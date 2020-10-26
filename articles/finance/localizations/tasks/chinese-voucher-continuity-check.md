@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: China (PRC)
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6b59d2bce76eb768fc89ff3865ee357775558651
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: a3a1eb200395a36661b832d255715108edaad41d
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3137906"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978565"
 ---
 # <a name="chinese-voucher-continuity-check"></a>中国式凭证连续性检查
 

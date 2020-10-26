@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b489add43bb523a7684115b942395b0d830f3c4a
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.openlocfilehash: 7d3a35c7140b886f931df48e583b1582201b6547
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830201"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982009"
 ---
 # <a name="fulfill-sales-agreements"></a>履行销售协议
 

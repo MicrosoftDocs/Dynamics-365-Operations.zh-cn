@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: debfce7eb5e6dcf64830475db53f719cf56525c9
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.openlocfilehash: a8ebc281036842bdc8965e062990438e1fb466ff
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830590"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986856"
 ---
 # <a name="generate-and-process-customer-rebates"></a>生成和处理客户返利
 

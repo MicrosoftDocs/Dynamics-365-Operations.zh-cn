@@ -13,15 +13,15 @@ audience: Application User, SalesTableDelete, SalesTableListPagePreviewPage, Sal
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 534e78e95b3dde5e428903f2f0f3401435fe1aac
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.openlocfilehash: 9aa353ad771844abc0860f06d9bc22b9f4adce92
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830225"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982057"
 ---
 # <a name="create-sales-orders"></a>创建销售订单
 

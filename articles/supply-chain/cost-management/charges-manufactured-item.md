@@ -16,15 +16,15 @@ ms.custom: 274483
 ms.assetid: 6f5b851b-c5a7-43ef-b380-0d316667c1ef
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: kamaybac
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: b955bfe4f26620724d297691e052edaca239937a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c5e0175e5743c800d8f04723d03ae503cff3a67a
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201977"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975889"
 ---
 # <a name="display-charges-for-a-manufactured-item"></a>显示制造物料的费用
 

@@ -16,15 +16,15 @@ ms.custom: 223174
 ms.assetid: 2a1cdd35-30cb-41e7-9506-67fd04a537c5
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 879d4ce5710974d2838c646e0e184eab653f7293
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: a090ecae2aadf1d0e08dd6127f831abdbf4a6b0a
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759392"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976419"
 ---
 # <a name="cost-object-dimensions"></a>成本对象维度
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87c90ed6ee62a094fe44f549c827cf9de2bf5b2f
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269996"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961626"
 ---
 # <a name="modify-an-existing-site-page"></a>修改现有的站点页面
 
@@ -47,7 +47,7 @@ ms.locfileid: "3269996"
 但是，您的更改有时涉及添加或删除模块或片段。 若要添加片段或模块，请使用页面大纲树查找要向其添加模块或片段的插槽，然后选择该插槽的省略号按钮 (**...**)。 将显示一个菜单，其中包含用于添加模块或片段的命令。 若要删除模块或片段，请在页面大纲树中找到并选择，选择省略号按钮，然后选择用于删除模块或片段的命令。
 
 > [!TIP]
-> 也可以通过直接选择，查看和编辑“所见即所得”(WYSIWYG) 预览中显示的任何模块的属性。
+> 也可以通过直接选择，查看和编辑可视页面构建器预览中显示的任何模块的属性。
 
 进行更改并预览其效果之后，应该通过选择命令栏中的**完成编辑**签入页面。 
 

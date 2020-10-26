@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 000a2861bfc108754860f4090ea34901aee5949e
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: b5887efc32c71759e4cb3c31e1b18c4c8b64f173
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092052"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977183"
 ---
 # <a name="electronic-messaging"></a>电子消息
 

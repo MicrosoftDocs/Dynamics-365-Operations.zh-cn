@@ -16,15 +16,15 @@ ms.custom: 50871
 ms.assetid: 1855f744-f73f-4fa8-8290-a7ee126d368b
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d78649cd371b51bf6b9403aea0358630ed57b8c7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9dee8e40de43480cd010b5acc41a3d87611c2ab6
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201793"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981600"
 ---
 # <a name="cost-groups"></a>成本组
 

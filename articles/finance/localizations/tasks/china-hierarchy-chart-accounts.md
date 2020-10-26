@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: China (PRC)
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c4d11443f6f43bd9664476aeaf9bfb4f727bf42d
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: ae8573ec814b96d28b1954decbd6c0c960fea2cf
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3137961"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978567"
 ---
 # <a name="cn-00010-china-hierarchy-of-chart-of-accounts"></a>CN-00010 中国会计科目表的层次结构
 

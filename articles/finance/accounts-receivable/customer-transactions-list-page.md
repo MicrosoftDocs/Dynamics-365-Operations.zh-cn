@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mikefalkner
+ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 8295c2bcdd2eb99290e1a955df84a092d8ae6adb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 28669014b4998de6ae13ec7dbc4c704a14aff6e2
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176651"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975332"
 ---
 # <a name="customer-transactions-list-page"></a>客户交易记录列表页
 

@@ -16,15 +16,15 @@ ms.custom: 2494
 ms.assetid: 5a95ae4f-ca75-47d9-a1c3-68c97b42f166
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9a170ee07da27977fd65ef8f01f3bb87b7ef8b4
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: b1134f734f1025151a56b2a72266a6baa5763ba4
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887106"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982712"
 ---
 # <a name="coverage-settings"></a>覆盖范围设置
 

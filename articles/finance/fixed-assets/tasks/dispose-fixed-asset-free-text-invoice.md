@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: knelson
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 09a0c8087f610e7ff19bc2da66036e248ecfd637
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7014e3a4384e08b0c218585a3c2110243360ec08
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142769"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980784"
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>使用普通发票处置固定资产
 

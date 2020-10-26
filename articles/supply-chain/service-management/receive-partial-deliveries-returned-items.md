@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e33096abc8e4fd84f5c3c53ce4f62db9e4e0f03
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cf35169d8afd6e88b8ebe921514ed6d55607a4dd
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211759"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975720"
 ---
 # <a name="receive-partial-deliveries-of-returned-items"></a>接收退回物料的部分交货    
 

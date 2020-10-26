@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mikefalkner
+ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: afda0ead11ec1adac2d436511eef8165a7f0aed2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 55ae179298a980073a03a804711707a1f02c68bd
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189261"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977975"
 ---
 # <a name="vendor-workflow"></a>供应商工作流
 

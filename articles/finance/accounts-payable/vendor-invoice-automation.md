@@ -1,5 +1,5 @@
 ---
-title: 供应商发票自动化
+title: 已扫描单据的发票自动化
 description: 此主题说明对供应商发票（甚至是包括附件的发票）端到端自动化提供的功能。
 author: abruer
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4560d7b61fa8f014f9a1185da087df8b1c8e61ba
-ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
+ms.openlocfilehash: f6d19d0e10f477e498e8f0fff1f431bc4bfdd9a1
+ms.sourcegitcommit: 6ffbae02de2eee1f3be9bab2da37a3771aae8bec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "3396001"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "3904947"
 ---
-# <a name="vendor-invoice-automation"></a>供应商发票自动化
+# <a name="invoice-automation-for-scanned-documents"></a>已扫描单据的发票自动化
 
 [!include [banner](../includes/banner.md)]
 

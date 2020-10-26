@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: China (PRC)
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ff8052948e2c5dfdd21f5450b660727fad9993a
-ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
+ms.openlocfilehash: 732eefdce7b9f6fc3d132eeb0f132f8d9a2d160e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3161841"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979617"
 ---
 # <a name="set-up-basic-tax-integration-profile-for-china"></a>设置中国的基本税务集成模板
 

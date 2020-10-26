@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 25c1a50f99070953c86dbff897757fd959beec79
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fdb30b46a0e5a6d4fac997588dd47148f2664c03
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208240"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986087"
 ---
 # <a name="create-a-product-master"></a>创建基础产品
 

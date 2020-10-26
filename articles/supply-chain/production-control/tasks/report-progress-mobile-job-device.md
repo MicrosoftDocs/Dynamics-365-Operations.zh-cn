@@ -14,15 +14,15 @@ ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a56e538d18c4e458f0e40801d0f01537a2246d2
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 34067902f05546b5c420feca633f77f16033ed2c
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826259"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983884"
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>在移动作业设备上报告进度
 

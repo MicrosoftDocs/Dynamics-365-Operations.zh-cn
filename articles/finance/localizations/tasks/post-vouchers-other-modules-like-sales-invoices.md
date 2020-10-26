@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: China (PRC)
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f6f51736c34a749745ac35b655e366f974c20001
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: 6d0a561abb775b6f2903ec1da5ec2e898dbb2250
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138887"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982974"
 ---
 # <a name="post-vouchers-from-other-modules-like-sales-invoices"></a>从其他模块（如销售发票）过帐凭证
 

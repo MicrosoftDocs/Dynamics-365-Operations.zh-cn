@@ -16,15 +16,15 @@ ms.custom: 19211
 ms.assetid: fe08c2e6-9cc5-4e34-bbb2-cd07843403b5
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 380f8069a726e53084164a5ac1fc0a0a99c83590
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 482c036294f525be5db1dc6efefe76a9ba5b3ce5
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213737"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983687"
 ---
 # <a name="explosion-of-a-bom-version"></a>物料清单版本的分解
 

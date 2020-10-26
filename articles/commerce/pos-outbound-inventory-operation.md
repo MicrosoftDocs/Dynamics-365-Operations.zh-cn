@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 026d25717dec8c5633f19fe63c6d6f64284d322d
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646151"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971537"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>POS 中的出站库存操作
 
@@ -164,7 +164,7 @@ POS 用户可通过出站操作执行以下任务：
 - **位置未设置** – 没有为位置不允许为空白的位置控制物料指定位置。
 - **删除的行** – 订单中有 POS 应用程序未知的 Commerce headquarters (HQ) 用户删除的行。
 
-如果您在 **Commerce 参数** > **库存** > **商店库存**中将**启用自动验证**参数设置为**是**，当您选择**完成履行**功能时将自动执行验证。
+如果您在 **Commerce 参数** > **库存** > **商店库存操作**中将**启用自动验证**参数设置为**是**，当您选择**完成履行**功能时，将自动执行验证。
 
 ### <a name="finish-fulfillment"></a>完成履行
 
