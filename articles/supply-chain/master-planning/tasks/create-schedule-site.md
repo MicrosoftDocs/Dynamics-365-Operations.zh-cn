@@ -13,46 +13,46 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9bc2dc4a03f9d937339ec2470f6a065f77c7036a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d9059080fcd77a5317ce4226de6aad38b0066500
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209620"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979006"
 ---
-# <a name="create-a-schedule-for-a-site"></a><span data-ttu-id="beb2a-103">创建站点计划</span><span class="sxs-lookup"><span data-stu-id="beb2a-103">Create a schedule for a site</span></span>
+# <a name="create-a-schedule-for-a-site"></a><span data-ttu-id="5926a-103">创建站点计划</span><span class="sxs-lookup"><span data-stu-id="5926a-103">Create a schedule for a site</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="beb2a-104">此过程显示如何计划没有为站点开始的生产订单。</span><span class="sxs-lookup"><span data-stu-id="beb2a-104">This procedure shows how to schedule production orders that are not yet started for a site.</span></span>  <span data-ttu-id="beb2a-105">演示数据公司 USMF 用于完成此过程。</span><span class="sxs-lookup"><span data-stu-id="beb2a-105">The demo data company USMF is used to complete this procedure.</span></span>
+<span data-ttu-id="5926a-104">此过程显示如何计划没有为站点开始的生产订单。</span><span class="sxs-lookup"><span data-stu-id="5926a-104">This procedure shows how to schedule production orders that are not yet started for a site.</span></span>  <span data-ttu-id="5926a-105">演示数据公司 USMF 用于完成此过程。</span><span class="sxs-lookup"><span data-stu-id="5926a-105">The demo data company USMF is used to complete this procedure.</span></span>
 
 
-## <a name="identify-production-orders-that-are-not-started"></a><span data-ttu-id="beb2a-106">确定未开始的生产订单</span><span class="sxs-lookup"><span data-stu-id="beb2a-106">Identify production orders that are not started</span></span>
-1. <span data-ttu-id="beb2a-107">转到“生产控制”>“生产订单”>“全部生产订单”。</span><span class="sxs-lookup"><span data-stu-id="beb2a-107">Go to Production control > Production orders > All production orders.</span></span>
-2. <span data-ttu-id="beb2a-108">使用“快速筛选器”以查找记录。</span><span class="sxs-lookup"><span data-stu-id="beb2a-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="beb2a-109">例如，使用值“1”在“站点”字段中进行筛选。</span><span class="sxs-lookup"><span data-stu-id="beb2a-109">For example, filter on the Site field with a value of '1'.</span></span>
-    * <span data-ttu-id="beb2a-110">1 表示 USMF 中的站点。</span><span class="sxs-lookup"><span data-stu-id="beb2a-110">1 represents a site in USMF.</span></span> <span data-ttu-id="beb2a-111">如果您不使用 USMF，请选择您公司的站点。</span><span class="sxs-lookup"><span data-stu-id="beb2a-111">If you are not using USMF, select a site from your own company.</span></span>  
-3. <span data-ttu-id="beb2a-112">打开状态列筛选器。</span><span class="sxs-lookup"><span data-stu-id="beb2a-112">Open the Status column filter.</span></span>
-4. <span data-ttu-id="beb2a-113">使用“正好是”筛选器运算符将筛选器应用于值为“已计划”的“状态”字段。</span><span class="sxs-lookup"><span data-stu-id="beb2a-113">Apply a filter on the "Status" field, with a value of "Scheduled", using the "is exactly" filter operator.</span></span>
+## <a name="identify-production-orders-that-are-not-started"></a><span data-ttu-id="5926a-106">确定未开始的生产订单</span><span class="sxs-lookup"><span data-stu-id="5926a-106">Identify production orders that are not started</span></span>
+1. <span data-ttu-id="5926a-107">转到“生产控制”>“生产订单”>“全部生产订单”。</span><span class="sxs-lookup"><span data-stu-id="5926a-107">Go to Production control > Production orders > All production orders.</span></span>
+2. <span data-ttu-id="5926a-108">使用“快速筛选器”以查找记录。</span><span class="sxs-lookup"><span data-stu-id="5926a-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="5926a-109">例如，使用值“1”在“站点”字段中进行筛选。</span><span class="sxs-lookup"><span data-stu-id="5926a-109">For example, filter on the Site field with a value of '1'.</span></span>
+    * <span data-ttu-id="5926a-110">1 表示 USMF 中的站点。</span><span class="sxs-lookup"><span data-stu-id="5926a-110">1 represents a site in USMF.</span></span> <span data-ttu-id="5926a-111">如果您不使用 USMF，请选择您公司的站点。</span><span class="sxs-lookup"><span data-stu-id="5926a-111">If you are not using USMF, select a site from your own company.</span></span>  
+3. <span data-ttu-id="5926a-112">打开状态列筛选器。</span><span class="sxs-lookup"><span data-stu-id="5926a-112">Open the Status column filter.</span></span>
+4. <span data-ttu-id="5926a-113">使用“正好是”筛选器运算符将筛选器应用于值为“已计划”的“状态”字段。</span><span class="sxs-lookup"><span data-stu-id="5926a-113">Apply a filter on the "Status" field, with a value of "Scheduled", using the "is exactly" filter operator.</span></span>
 
-## <a name="create-a-schedule"></a><span data-ttu-id="beb2a-114">创建计划</span><span class="sxs-lookup"><span data-stu-id="beb2a-114">Create a schedule</span></span>
-1. <span data-ttu-id="beb2a-115">在列表中，标记或取消标记所有行。</span><span class="sxs-lookup"><span data-stu-id="beb2a-115">In the list, mark or unmark all rows.</span></span>
-2. <span data-ttu-id="beb2a-116">在“操作窗格”上，单击“计划” 。</span><span class="sxs-lookup"><span data-stu-id="beb2a-116">On the Action Pane, click Schedule.</span></span>
-3. <span data-ttu-id="beb2a-117">单击“计划作业”。</span><span class="sxs-lookup"><span data-stu-id="beb2a-117">Click Schedule jobs.</span></span>
-4. <span data-ttu-id="beb2a-118">在“计划的方向”字段中，选择“从交货日期倒推”。</span><span class="sxs-lookup"><span data-stu-id="beb2a-118">In the Scheduling direction field, select 'Backward from delivery date'.</span></span>
-5. <span data-ttu-id="beb2a-119">在“有限产能”字段中选择“否”。</span><span class="sxs-lookup"><span data-stu-id="beb2a-119">Select No in the Finite capacity field.</span></span>
-6. <span data-ttu-id="beb2a-120">在“有限物料”字段中，选择“否”。</span><span class="sxs-lookup"><span data-stu-id="beb2a-120">Select No in the Finite material field.</span></span>
-7. <span data-ttu-id="beb2a-121">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="beb2a-121">Click OK.</span></span>
-    * <span data-ttu-id="beb2a-122">这可能需要花费一段时间。</span><span class="sxs-lookup"><span data-stu-id="beb2a-122">This may take a while.</span></span>  
+## <a name="create-a-schedule"></a><span data-ttu-id="5926a-114">创建计划</span><span class="sxs-lookup"><span data-stu-id="5926a-114">Create a schedule</span></span>
+1. <span data-ttu-id="5926a-115">在列表中，标记或取消标记所有行。</span><span class="sxs-lookup"><span data-stu-id="5926a-115">In the list, mark or unmark all rows.</span></span>
+2. <span data-ttu-id="5926a-116">在“操作窗格”上，单击“计划” 。</span><span class="sxs-lookup"><span data-stu-id="5926a-116">On the Action Pane, click Schedule.</span></span>
+3. <span data-ttu-id="5926a-117">单击“计划作业”。</span><span class="sxs-lookup"><span data-stu-id="5926a-117">Click Schedule jobs.</span></span>
+4. <span data-ttu-id="5926a-118">在“计划的方向”字段中，选择“从交货日期倒推”。</span><span class="sxs-lookup"><span data-stu-id="5926a-118">In the Scheduling direction field, select 'Backward from delivery date'.</span></span>
+5. <span data-ttu-id="5926a-119">在“有限产能”字段中选择“否”。</span><span class="sxs-lookup"><span data-stu-id="5926a-119">Select No in the Finite capacity field.</span></span>
+6. <span data-ttu-id="5926a-120">在“有限物料”字段中，选择“否”。</span><span class="sxs-lookup"><span data-stu-id="5926a-120">Select No in the Finite material field.</span></span>
+7. <span data-ttu-id="5926a-121">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="5926a-121">Click OK.</span></span>
+    * <span data-ttu-id="5926a-122">这可能需要花费一段时间。</span><span class="sxs-lookup"><span data-stu-id="5926a-122">This may take a while.</span></span>  
 
-## <a name="view-the-result-of-scheduled-production-orders"></a><span data-ttu-id="beb2a-123">查看已计划生产订单的结果</span><span class="sxs-lookup"><span data-stu-id="beb2a-123">View the result of scheduled production orders</span></span>
-1. <span data-ttu-id="beb2a-124">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="beb2a-124">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="beb2a-125">您可以标记任何行。</span><span class="sxs-lookup"><span data-stu-id="beb2a-125">You can mark any row.</span></span>  
-2. <span data-ttu-id="beb2a-126">在操作窗格上单击“生产订单”。</span><span class="sxs-lookup"><span data-stu-id="beb2a-126">On the Action Pane, click Production order.</span></span>
-3. <span data-ttu-id="beb2a-127">单击“所有作业”。</span><span class="sxs-lookup"><span data-stu-id="beb2a-127">Click All jobs.</span></span>
-    * <span data-ttu-id="beb2a-128">在此页，您可以查看工作列表。</span><span class="sxs-lookup"><span data-stu-id="beb2a-128">On this page, you can see the list of jobs.</span></span> <span data-ttu-id="beb2a-129">在”计划“选项卡上，您可以查看作业的开始日期和结束日期。</span><span class="sxs-lookup"><span data-stu-id="beb2a-129">On the Scheduling tab, you can see the Start date and End date for a job.</span></span>  
-4. <span data-ttu-id="beb2a-130">单击“物料”。</span><span class="sxs-lookup"><span data-stu-id="beb2a-130">Click Materials.</span></span>
-    * <span data-ttu-id="beb2a-131">在此页，您可以查看生产订单中操作的估计物料消耗量和当前可用库存。</span><span class="sxs-lookup"><span data-stu-id="beb2a-131">On this page, you can see the estimated material consumption for the operations on the production order and the current available inventory.</span></span>  
+## <a name="view-the-result-of-scheduled-production-orders"></a><span data-ttu-id="5926a-123">查看已计划生产订单的结果</span><span class="sxs-lookup"><span data-stu-id="5926a-123">View the result of scheduled production orders</span></span>
+1. <span data-ttu-id="5926a-124">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="5926a-124">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="5926a-125">您可以标记任何行。</span><span class="sxs-lookup"><span data-stu-id="5926a-125">You can mark any row.</span></span>  
+2. <span data-ttu-id="5926a-126">在操作窗格上单击“生产订单”。</span><span class="sxs-lookup"><span data-stu-id="5926a-126">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="5926a-127">单击“所有作业”。</span><span class="sxs-lookup"><span data-stu-id="5926a-127">Click All jobs.</span></span>
+    * <span data-ttu-id="5926a-128">在此页，您可以查看工作列表。</span><span class="sxs-lookup"><span data-stu-id="5926a-128">On this page, you can see the list of jobs.</span></span> <span data-ttu-id="5926a-129">在”计划“选项卡上，您可以查看作业的开始日期和结束日期。</span><span class="sxs-lookup"><span data-stu-id="5926a-129">On the Scheduling tab, you can see the Start date and End date for a job.</span></span>  
+4. <span data-ttu-id="5926a-130">单击“物料”。</span><span class="sxs-lookup"><span data-stu-id="5926a-130">Click Materials.</span></span>
+    * <span data-ttu-id="5926a-131">在此页，您可以查看生产订单中操作的估计物料消耗量和当前可用库存。</span><span class="sxs-lookup"><span data-stu-id="5926a-131">On this page, you can see the estimated material consumption for the operations on the production order and the current available inventory.</span></span>  
 

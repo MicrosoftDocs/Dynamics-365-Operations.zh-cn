@@ -13,41 +13,41 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed020348e50158362fda7b6b36dcdb17c48b4532
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 55f5f6e5048f70e744cb3dc82a2a279aae69b4af
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142309"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976107"
 ---
-# <a name="create-cost-objects"></a><span data-ttu-id="10042-103">创建成本对象</span><span class="sxs-lookup"><span data-stu-id="10042-103">Create cost objects</span></span> 
+# <a name="create-cost-objects"></a><span data-ttu-id="d5634-103">创建成本对象</span><span class="sxs-lookup"><span data-stu-id="d5634-103">Create cost objects</span></span> 
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="10042-104">此过程显示如何通过数据连接器将成本中心财务维度导入成本核算来创建成本对象。</span><span class="sxs-lookup"><span data-stu-id="10042-104">This procedure shows how to create cost objects by importing the cost center financial dimension into Cost accounting via a data connector.</span></span> <span data-ttu-id="10042-105">用于创建该过程的是演示公司 USMF。</span><span class="sxs-lookup"><span data-stu-id="10042-105">The USMF demo company was used to create this procedure.</span></span> 
+<span data-ttu-id="d5634-104">此过程显示如何通过数据连接器将成本中心财务维度导入成本核算来创建成本对象。</span><span class="sxs-lookup"><span data-stu-id="d5634-104">This procedure shows how to create cost objects by importing the cost center financial dimension into Cost accounting via a data connector.</span></span> <span data-ttu-id="d5634-105">用于创建该过程的是演示公司 USMF。</span><span class="sxs-lookup"><span data-stu-id="d5634-105">The USMF demo company was used to create this procedure.</span></span> 
 
 
-## <a name="create-new-cost-objects"></a><span data-ttu-id="10042-106">新建成本对象</span><span class="sxs-lookup"><span data-stu-id="10042-106">Create new cost objects</span></span>
-1. <span data-ttu-id="10042-107">转到“成本核算”>“维度”>“成本对象维度”。</span><span class="sxs-lookup"><span data-stu-id="10042-107">Go to Cost accounting > Dimensions > Cost object dimensions.</span></span>
-2. <span data-ttu-id="10042-108">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="10042-108">Click New.</span></span>
-3. <span data-ttu-id="10042-109">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="10042-109">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="10042-110">在“维度成员的数据连接器”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="10042-110">In the Data connector for dimension members field, enter or select a value.</span></span>
-5. <span data-ttu-id="10042-111">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="10042-111">In the Description field, type a value.</span></span>
-6. <span data-ttu-id="10042-112">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="10042-112">Click Save.</span></span>
+## <a name="create-new-cost-objects"></a><span data-ttu-id="d5634-106">新建成本对象</span><span class="sxs-lookup"><span data-stu-id="d5634-106">Create new cost objects</span></span>
+1. <span data-ttu-id="d5634-107">转到“成本核算”>“维度”>“成本对象维度”。</span><span class="sxs-lookup"><span data-stu-id="d5634-107">Go to Cost accounting > Dimensions > Cost object dimensions.</span></span>
+2. <span data-ttu-id="d5634-108">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="d5634-108">Click New.</span></span>
+3. <span data-ttu-id="d5634-109">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="d5634-109">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="d5634-110">在“维度成员的数据连接器”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="d5634-110">In the Data connector for dimension members field, enter or select a value.</span></span>
+5. <span data-ttu-id="d5634-111">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="d5634-111">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="d5634-112">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="d5634-112">Click Save.</span></span>
 
-## <a name="configure-the-data-connector"></a><span data-ttu-id="10042-113">配置数据连接器</span><span class="sxs-lookup"><span data-stu-id="10042-113">Configure the data connector</span></span>
-1. <span data-ttu-id="10042-114">单击“配置维度成员提供方”。</span><span class="sxs-lookup"><span data-stu-id="10042-114">Click Configure dimension member provider.</span></span>
-    * <span data-ttu-id="10042-115">选择 CostCenter 将 CostCenter 维度导入成本核算中。</span><span class="sxs-lookup"><span data-stu-id="10042-115">Select CostCenter to import the CostCenter dimension into Cost accounting.</span></span>  
-2. <span data-ttu-id="10042-116">在“维度名称”字段中，选择“成本中心”。</span><span class="sxs-lookup"><span data-stu-id="10042-116">In the Dimension name field, select Cost center.</span></span>
-3. <span data-ttu-id="10042-117">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="10042-117">Click OK.</span></span>
+## <a name="configure-the-data-connector"></a><span data-ttu-id="d5634-113">配置数据连接器</span><span class="sxs-lookup"><span data-stu-id="d5634-113">Configure the data connector</span></span>
+1. <span data-ttu-id="d5634-114">单击“配置维度成员提供方”。</span><span class="sxs-lookup"><span data-stu-id="d5634-114">Click Configure dimension member provider.</span></span>
+    * <span data-ttu-id="d5634-115">选择 CostCenter 将 CostCenter 维度导入成本核算中。</span><span class="sxs-lookup"><span data-stu-id="d5634-115">Select CostCenter to import the CostCenter dimension into Cost accounting.</span></span>  
+2. <span data-ttu-id="d5634-116">在“维度名称”字段中，选择“成本中心”。</span><span class="sxs-lookup"><span data-stu-id="d5634-116">In the Dimension name field, select Cost center.</span></span>
+3. <span data-ttu-id="d5634-117">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="d5634-117">Click OK.</span></span>
 
-## <a name="import-cost-centers"></a><span data-ttu-id="10042-118">导入成本中心</span><span class="sxs-lookup"><span data-stu-id="10042-118">Import cost centers</span></span>
-1. <span data-ttu-id="10042-119">单击“导入维度成员”。</span><span class="sxs-lookup"><span data-stu-id="10042-119">Click Import dimension members.</span></span>
-2. <span data-ttu-id="10042-120">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="10042-120">Click OK.</span></span>
+## <a name="import-cost-centers"></a><span data-ttu-id="d5634-118">导入成本中心</span><span class="sxs-lookup"><span data-stu-id="d5634-118">Import cost centers</span></span>
+1. <span data-ttu-id="d5634-119">单击“导入维度成员”。</span><span class="sxs-lookup"><span data-stu-id="d5634-119">Click Import dimension members.</span></span>
+2. <span data-ttu-id="d5634-120">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="d5634-120">Click OK.</span></span>
 
-## <a name="view-the-imported-cost-centers"></a><span data-ttu-id="10042-121">查看导入的成本中心</span><span class="sxs-lookup"><span data-stu-id="10042-121">View the imported cost centers</span></span>
-1. <span data-ttu-id="10042-122">单击“查看维度成员”。</span><span class="sxs-lookup"><span data-stu-id="10042-122">Click View dimension members.</span></span>
+## <a name="view-the-imported-cost-centers"></a><span data-ttu-id="d5634-121">查看导入的成本中心</span><span class="sxs-lookup"><span data-stu-id="d5634-121">View the imported cost centers</span></span>
+1. <span data-ttu-id="d5634-122">单击“查看维度成员”。</span><span class="sxs-lookup"><span data-stu-id="d5634-122">Click View dimension members.</span></span>
 

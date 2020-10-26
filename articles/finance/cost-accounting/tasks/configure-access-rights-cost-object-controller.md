@@ -12,60 +12,60 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a931980add70ddc003d8a7c1a78f451bacbf57d4
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: a4b50782c7a1b69b6953c65d6df155f003028333
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144488"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976299"
 ---
-# <a name="configure-access-rights-for-a-cost-object-controller"></a><span data-ttu-id="72662-103">配置成本对象控制器的访问权限</span><span class="sxs-lookup"><span data-stu-id="72662-103">Configure access rights for a cost object controller</span></span>
+# <a name="configure-access-rights-for-a-cost-object-controller"></a><span data-ttu-id="a2561-103">配置成本对象控制器的访问权限</span><span class="sxs-lookup"><span data-stu-id="a2561-103">Configure access rights for a cost object controller</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="72662-104">此过程用于配置成本对象总监的访问权限。</span><span class="sxs-lookup"><span data-stu-id="72662-104">Use this procedure to configure access rights for a cost object controller.</span></span> <span data-ttu-id="72662-105">此录制使用 USP2 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="72662-105">This recording uses the USP2 demo data company.</span></span>
+<span data-ttu-id="a2561-104">此过程用于配置成本对象总监的访问权限。</span><span class="sxs-lookup"><span data-stu-id="a2561-104">Use this procedure to configure access rights for a cost object controller.</span></span> <span data-ttu-id="a2561-105">此录制使用 USP2 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="a2561-105">This recording uses the USP2 demo data company.</span></span>
 
 
-## <a name="assign-the-cost-object-controller-role"></a><span data-ttu-id="72662-106">分配成本对象总监角色</span><span class="sxs-lookup"><span data-stu-id="72662-106">Assign the cost object controller role</span></span>
-1. <span data-ttu-id="72662-107">转到“系统管理”>“用户”>“用户”。</span><span class="sxs-lookup"><span data-stu-id="72662-107">Go to System administration > Users > Users.</span></span>
-2. <span data-ttu-id="72662-108">使用“快速筛选器”以查找记录。</span><span class="sxs-lookup"><span data-stu-id="72662-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="72662-109">例如，在“用户名”字段中筛选值“alicia”。</span><span class="sxs-lookup"><span data-stu-id="72662-109">For example, filter on the User name field with a value of 'alicia'.</span></span>
-3. <span data-ttu-id="72662-110">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="72662-110">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="72662-111">单击“分配角色”。</span><span class="sxs-lookup"><span data-stu-id="72662-111">Click Assign roles.</span></span>
-5. <span data-ttu-id="72662-112">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="72662-112">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="72662-113">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="72662-113">Click OK.</span></span>
+## <a name="assign-the-cost-object-controller-role"></a><span data-ttu-id="a2561-106">分配成本对象总监角色</span><span class="sxs-lookup"><span data-stu-id="a2561-106">Assign the cost object controller role</span></span>
+1. <span data-ttu-id="a2561-107">转到“系统管理”>“用户”>“用户”。</span><span class="sxs-lookup"><span data-stu-id="a2561-107">Go to System administration > Users > Users.</span></span>
+2. <span data-ttu-id="a2561-108">使用“快速筛选器”以查找记录。</span><span class="sxs-lookup"><span data-stu-id="a2561-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="a2561-109">例如，在“用户名”字段中筛选值“alicia”。</span><span class="sxs-lookup"><span data-stu-id="a2561-109">For example, filter on the User name field with a value of 'alicia'.</span></span>
+3. <span data-ttu-id="a2561-110">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="a2561-110">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="a2561-111">单击“分配角色”。</span><span class="sxs-lookup"><span data-stu-id="a2561-111">Click Assign roles.</span></span>
+5. <span data-ttu-id="a2561-112">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="a2561-112">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="a2561-113">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="a2561-113">Click OK.</span></span>
 
-## <a name="enable-access-list-security"></a><span data-ttu-id="72662-114">启用访问列表安全性</span><span class="sxs-lookup"><span data-stu-id="72662-114">Enable access list security</span></span>
-1. <span data-ttu-id="72662-115">转到“成本核算”>“维度”>“维度层次结构”。</span><span class="sxs-lookup"><span data-stu-id="72662-115">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
-2. <span data-ttu-id="72662-116">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="72662-116">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="72662-117">选择“组织”。</span><span class="sxs-lookup"><span data-stu-id="72662-117">Select Organization.</span></span>  
-3. <span data-ttu-id="72662-118">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="72662-118">Click Edit.</span></span>
-4. <span data-ttu-id="72662-119">在“访问列表层次结构”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="72662-119">Select Yes in the Access list hierarchy field.</span></span>
-5. <span data-ttu-id="72662-120">单击“查看层次结构”。</span><span class="sxs-lookup"><span data-stu-id="72662-120">Click View hierarchy.</span></span>
+## <a name="enable-access-list-security"></a><span data-ttu-id="a2561-114">启用访问列表安全性</span><span class="sxs-lookup"><span data-stu-id="a2561-114">Enable access list security</span></span>
+1. <span data-ttu-id="a2561-115">转到“成本核算”>“维度”>“维度层次结构”。</span><span class="sxs-lookup"><span data-stu-id="a2561-115">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
+2. <span data-ttu-id="a2561-116">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="a2561-116">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="a2561-117">选择“组织”。</span><span class="sxs-lookup"><span data-stu-id="a2561-117">Select Organization.</span></span>  
+3. <span data-ttu-id="a2561-118">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="a2561-118">Click Edit.</span></span>
+4. <span data-ttu-id="a2561-119">在“访问列表层次结构”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="a2561-119">Select Yes in the Access list hierarchy field.</span></span>
+5. <span data-ttu-id="a2561-120">单击“查看层次结构”。</span><span class="sxs-lookup"><span data-stu-id="a2561-120">Click View hierarchy.</span></span>
 
-## <a name="assign-access-rights-to-user"></a><span data-ttu-id="72662-121">为用户分配访问权限</span><span class="sxs-lookup"><span data-stu-id="72662-121">Assign access rights to user</span></span>
-1. <span data-ttu-id="72662-122">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="72662-122">Click New.</span></span>
-2. <span data-ttu-id="72662-123">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="72662-123">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="72662-124">在“用户身份”字段，输入或选一个值。</span><span class="sxs-lookup"><span data-stu-id="72662-124">In the User ID field, enter or select a value.</span></span>
-    * <span data-ttu-id="72662-125">选择“管理员”。</span><span class="sxs-lookup"><span data-stu-id="72662-125">Select Admin.</span></span>  
-4. <span data-ttu-id="72662-126">在树中，选择“组织\CEO\CFO\FIM”。</span><span class="sxs-lookup"><span data-stu-id="72662-126">In the tree, select 'Organization\CEO\CFO\FIM'.</span></span>
-5. <span data-ttu-id="72662-127">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="72662-127">Click New.</span></span>
-6. <span data-ttu-id="72662-128">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="72662-128">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="72662-129">在“用户身份”字段，输入或选一个值。</span><span class="sxs-lookup"><span data-stu-id="72662-129">In the User ID field, enter or select a value.</span></span>
-    * <span data-ttu-id="72662-130">选择“Alicia”。</span><span class="sxs-lookup"><span data-stu-id="72662-130">Select Alicia.</span></span>  
-8. <span data-ttu-id="72662-131">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="72662-131">Click Save.</span></span>
+## <a name="assign-access-rights-to-user"></a><span data-ttu-id="a2561-121">为用户分配访问权限</span><span class="sxs-lookup"><span data-stu-id="a2561-121">Assign access rights to user</span></span>
+1. <span data-ttu-id="a2561-122">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="a2561-122">Click New.</span></span>
+2. <span data-ttu-id="a2561-123">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="a2561-123">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="a2561-124">在“用户身份”字段，输入或选一个值。</span><span class="sxs-lookup"><span data-stu-id="a2561-124">In the User ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="a2561-125">选择“管理员”。</span><span class="sxs-lookup"><span data-stu-id="a2561-125">Select Admin.</span></span>  
+4. <span data-ttu-id="a2561-126">在树中，选择“组织\CEO\CFO\FIM”。</span><span class="sxs-lookup"><span data-stu-id="a2561-126">In the tree, select 'Organization\CEO\CFO\FIM'.</span></span>
+5. <span data-ttu-id="a2561-127">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="a2561-127">Click New.</span></span>
+6. <span data-ttu-id="a2561-128">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="a2561-128">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="a2561-129">在“用户身份”字段，输入或选一个值。</span><span class="sxs-lookup"><span data-stu-id="a2561-129">In the User ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="a2561-130">选择“Alicia”。</span><span class="sxs-lookup"><span data-stu-id="a2561-130">Select Alicia.</span></span>  
+8. <span data-ttu-id="a2561-131">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="a2561-131">Click Save.</span></span>
 
-## <a name="enable-access-rights-in-cost-accounting"></a><span data-ttu-id="72662-132">在成本核算中启用访问权限</span><span class="sxs-lookup"><span data-stu-id="72662-132">Enable access rights in Cost accounting</span></span>
-1. <span data-ttu-id="72662-133">转至“成本核算”>“设置”>“参数”。</span><span class="sxs-lookup"><span data-stu-id="72662-133">Go to Cost accounting > Setup > Parameters.</span></span>
-2. <span data-ttu-id="72662-134">单击“常规”选项卡。</span><span class="sxs-lookup"><span data-stu-id="72662-134">Click the General tab.</span></span>
-3. <span data-ttu-id="72662-135">在“为成本对象维度成员启用视图访问”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="72662-135">Select Yes in the Enable view access for cost object dimension members field.</span></span>
-4. <span data-ttu-id="72662-136">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="72662-136">Click Save.</span></span>
-5. <span data-ttu-id="72662-137">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="72662-137">Close the page.</span></span>
-6. <span data-ttu-id="72662-138">转至“成本核算”>“设置”>“成本控制工作区配置”。</span><span class="sxs-lookup"><span data-stu-id="72662-138">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
-7. <span data-ttu-id="72662-139">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="72662-139">Click Edit.</span></span>
-8. <span data-ttu-id="72662-140">在“已发布”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="72662-140">Select Yes in the Published field.</span></span>
-    * <span data-ttu-id="72662-141">如果选择“是”，为其分配了以下四种角色之一的用户可查看“成本控制”工作区中的报表：成本核算经理、成本会计师、成本核算师和成本对象总监。</span><span class="sxs-lookup"><span data-stu-id="72662-141">If you select Yes, a user who is assigned one of the following four roles can see the reports in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, and cost object controller.</span></span> <span data-ttu-id="72662-142">如果选择“否”，为其分配了以下角色之一的用户可查看报表：成本核算经理、成本会计师和成本核算师。</span><span class="sxs-lookup"><span data-stu-id="72662-142">If you select No, only a user who is assigned one of the following roles can see the reports: cost accounting manager, cost accountant, and cost accountant clerk.</span></span>    
-9. <span data-ttu-id="72662-143">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="72662-143">Click Save.</span></span>
+## <a name="enable-access-rights-in-cost-accounting"></a><span data-ttu-id="a2561-132">在成本核算中启用访问权限</span><span class="sxs-lookup"><span data-stu-id="a2561-132">Enable access rights in Cost accounting</span></span>
+1. <span data-ttu-id="a2561-133">转至“成本核算”>“设置”>“参数”。</span><span class="sxs-lookup"><span data-stu-id="a2561-133">Go to Cost accounting > Setup > Parameters.</span></span>
+2. <span data-ttu-id="a2561-134">单击“常规”选项卡。</span><span class="sxs-lookup"><span data-stu-id="a2561-134">Click the General tab.</span></span>
+3. <span data-ttu-id="a2561-135">在“为成本对象维度成员启用视图访问”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="a2561-135">Select Yes in the Enable view access for cost object dimension members field.</span></span>
+4. <span data-ttu-id="a2561-136">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="a2561-136">Click Save.</span></span>
+5. <span data-ttu-id="a2561-137">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a2561-137">Close the page.</span></span>
+6. <span data-ttu-id="a2561-138">转至“成本核算”>“设置”>“成本控制工作区配置”。</span><span class="sxs-lookup"><span data-stu-id="a2561-138">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
+7. <span data-ttu-id="a2561-139">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="a2561-139">Click Edit.</span></span>
+8. <span data-ttu-id="a2561-140">在“已发布”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="a2561-140">Select Yes in the Published field.</span></span>
+    * <span data-ttu-id="a2561-141">如果选择“是”，为其分配了以下四种角色之一的用户可查看“成本控制”工作区中的报表：成本核算经理、成本会计师、成本核算师和成本对象总监。</span><span class="sxs-lookup"><span data-stu-id="a2561-141">If you select Yes, a user who is assigned one of the following four roles can see the reports in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, and cost object controller.</span></span> <span data-ttu-id="a2561-142">如果选择“否”，为其分配了以下角色之一的用户可查看报表：成本核算经理、成本会计师和成本核算师。</span><span class="sxs-lookup"><span data-stu-id="a2561-142">If you select No, only a user who is assigned one of the following roles can see the reports: cost accounting manager, cost accountant, and cost accountant clerk.</span></span>    
+9. <span data-ttu-id="a2561-143">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="a2561-143">Click Save.</span></span>
 

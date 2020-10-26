@@ -15,100 +15,100 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0098decb7132fe5c3e6b28c309365e130c068914
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4d45732ff35069a64b37b6c53d9e22adf9a9a46d
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202161"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975600"
 ---
-# <a name="repair-management"></a><span data-ttu-id="e9048-103">维修管理</span><span class="sxs-lookup"><span data-stu-id="e9048-103">Repair management</span></span>       
+# <a name="repair-management"></a><span data-ttu-id="d8316-103">维修管理</span><span class="sxs-lookup"><span data-stu-id="d8316-103">Repair management</span></span>       
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="e9048-104">对于您可以系统化地分组问题的维修管理。</span><span class="sxs-lookup"><span data-stu-id="e9048-104">For repair management you can group problems systematically.</span></span> <span data-ttu-id="e9048-105">这是为了帮助在过去成功的解决办法的建议。</span><span class="sxs-lookup"><span data-stu-id="e9048-105">This is to help with the suggestion of solutions that have been successful in the past.</span></span>
+<span data-ttu-id="d8316-104">对于您可以系统化地分组问题的维修管理。</span><span class="sxs-lookup"><span data-stu-id="d8316-104">For repair management you can group problems systematically.</span></span> <span data-ttu-id="d8316-105">这是为了帮助在过去成功的解决办法的建议。</span><span class="sxs-lookup"><span data-stu-id="d8316-105">This is to help with the suggestion of solutions that have been successful in the past.</span></span>
 
-<span data-ttu-id="e9048-106">您设置了故障、诊断和解决方法设置。</span><span class="sxs-lookup"><span data-stu-id="e9048-106">You set up symptoms, diagnosis, and resolution settings.</span></span> <span data-ttu-id="e9048-107">在您接受维修的类似的物料时，能在以后适用所有这些。</span><span class="sxs-lookup"><span data-stu-id="e9048-107">All these can later be applied when you receive a similar item for repair.</span></span> <span data-ttu-id="e9048-108">您还可以设置能够跟踪某一维修问题的进展情况的维修阶段。</span><span class="sxs-lookup"><span data-stu-id="e9048-108">You can also set up repair stages that can follow the progress of a repair issue.</span></span>
+<span data-ttu-id="d8316-106">您设置了故障、诊断和解决方法设置。</span><span class="sxs-lookup"><span data-stu-id="d8316-106">You set up symptoms, diagnosis, and resolution settings.</span></span> <span data-ttu-id="d8316-107">在您接受维修的类似的物料时，能在以后适用所有这些。</span><span class="sxs-lookup"><span data-stu-id="d8316-107">All these can later be applied when you receive a similar item for repair.</span></span> <span data-ttu-id="d8316-108">您还可以设置能够跟踪某一维修问题的进展情况的维修阶段。</span><span class="sxs-lookup"><span data-stu-id="d8316-108">You can also set up repair stages that can follow the progress of a repair issue.</span></span>
 
-## <a name="setting-up-repair-management"></a><span data-ttu-id="e9048-109">设置维修管理</span><span class="sxs-lookup"><span data-stu-id="e9048-109">Setting up repair management</span></span>
+## <a name="setting-up-repair-management"></a><span data-ttu-id="d8316-109">设置维修管理</span><span class="sxs-lookup"><span data-stu-id="d8316-109">Setting up repair management</span></span>
 
-<span data-ttu-id="e9048-110">使用以下设置窗体可以输入将用于指定维修的故障、诊断和解决方法的信息。</span><span class="sxs-lookup"><span data-stu-id="e9048-110">Use the following setup forms to enter information that will be used to specify the symptoms, the diagnosis, and the resolution, of the repair.</span></span>
+<span data-ttu-id="d8316-110">使用以下设置窗体可以输入将用于指定维修的故障、诊断和解决方法的信息。</span><span class="sxs-lookup"><span data-stu-id="d8316-110">Use the following setup forms to enter information that will be used to specify the symptoms, the diagnosis, and the resolution, of the repair.</span></span>
 
-1.  <span data-ttu-id="e9048-111">单击**服务管理** \> **设置** \> **维修** \> **条件**。</span><span class="sxs-lookup"><span data-stu-id="e9048-111">Click **Service management** \> **Setup** \> **Repair** \> **Conditions**.</span></span>
+1.  <span data-ttu-id="d8316-111">单击**服务管理** \> **设置** \> **维修** \> **条件**。</span><span class="sxs-lookup"><span data-stu-id="d8316-111">Click **Service management** \> **Setup** \> **Repair** \> **Conditions**.</span></span>
 
-2.  <span data-ttu-id="e9048-112">单击**服务管理** \> **设置** \> **维修** \> **故障区域**。</span><span class="sxs-lookup"><span data-stu-id="e9048-112">Click **Service management** \> **Setup** \> **Repair** \> **Symptom areas**.</span></span>
+2.  <span data-ttu-id="d8316-112">单击**服务管理** \> **设置** \> **维修** \> **故障区域**。</span><span class="sxs-lookup"><span data-stu-id="d8316-112">Click **Service management** \> **Setup** \> **Repair** \> **Symptom areas**.</span></span>
 
-3.  <span data-ttu-id="e9048-113">单击**服务管理** \> **设置** \> **维修** \> **诊断区域**。</span><span class="sxs-lookup"><span data-stu-id="e9048-113">Click **Service management** \> **Setup** \> **Repair** \> **Diagnosis areas**.</span></span>
+3.  <span data-ttu-id="d8316-113">单击**服务管理** \> **设置** \> **维修** \> **诊断区域**。</span><span class="sxs-lookup"><span data-stu-id="d8316-113">Click **Service management** \> **Setup** \> **Repair** \> **Diagnosis areas**.</span></span>
 
-4.  <span data-ttu-id="e9048-114">单击**服务管理** \> **设置** \> **维修** \> **解决方法**。</span><span class="sxs-lookup"><span data-stu-id="e9048-114">Click **Service management** \> **Setup** \> **Repair** \> **Resolutions**.</span></span>
+4.  <span data-ttu-id="d8316-114">单击**服务管理** \> **设置** \> **维修** \> **解决方法**。</span><span class="sxs-lookup"><span data-stu-id="d8316-114">Click **Service management** \> **Setup** \> **Repair** \> **Resolutions**.</span></span>
 
-5.  <span data-ttu-id="e9048-115">单击**服务管理** \> **设置** \> **维修** \> **维修阶段**。</span><span class="sxs-lookup"><span data-stu-id="e9048-115">Click **Service management** \> **Setup** \> **Repair** \> **Repair stages**.</span></span>
+5.  <span data-ttu-id="d8316-115">单击**服务管理** \> **设置** \> **维修** \> **维修阶段**。</span><span class="sxs-lookup"><span data-stu-id="d8316-115">Click **Service management** \> **Setup** \> **Repair** \> **Repair stages**.</span></span>
 
-## <a name="symptoms-and-conditions"></a><span data-ttu-id="e9048-116">故障和条件</span><span class="sxs-lookup"><span data-stu-id="e9048-116">Symptoms and conditions</span></span>
+## <a name="symptoms-and-conditions"></a><span data-ttu-id="d8316-116">故障和条件</span><span class="sxs-lookup"><span data-stu-id="d8316-116">Symptoms and conditions</span></span>
 
-<span data-ttu-id="e9048-117">故障是客户如何表述问题。</span><span class="sxs-lookup"><span data-stu-id="e9048-117">Symptoms are how the customer characterizes the problem.</span></span> <span data-ttu-id="e9048-118">症状包括指示需要维修的客户观察。</span><span class="sxs-lookup"><span data-stu-id="e9048-118">Symptoms include the customer observations that indicate the need for repair.</span></span>
+<span data-ttu-id="d8316-117">故障是客户如何表述问题。</span><span class="sxs-lookup"><span data-stu-id="d8316-117">Symptoms are how the customer characterizes the problem.</span></span> <span data-ttu-id="d8316-118">症状包括指示需要维修的客户观察。</span><span class="sxs-lookup"><span data-stu-id="d8316-118">Symptoms include the customer observations that indicate the need for repair.</span></span>
 
-<span data-ttu-id="e9048-119">您可以设置故障区域、故障代码和情况。</span><span class="sxs-lookup"><span data-stu-id="e9048-119">You can set up symptom areas, symptom codes, and conditions.</span></span> <span data-ttu-id="e9048-120">故障区域涉及出问题的区域，故障代码涉及出问题的故障。</span><span class="sxs-lookup"><span data-stu-id="e9048-120">The symptom area covers the area of malfunction, and the symptom code covers the malfunction symptom.</span></span> <span data-ttu-id="e9048-121">在该问题发生时，条件描述仍然存在的情况或环境。</span><span class="sxs-lookup"><span data-stu-id="e9048-121">The condition describes the situation or environment that is present when the problem occurs.</span></span>
+<span data-ttu-id="d8316-119">您可以设置故障区域、故障代码和情况。</span><span class="sxs-lookup"><span data-stu-id="d8316-119">You can set up symptom areas, symptom codes, and conditions.</span></span> <span data-ttu-id="d8316-120">故障区域涉及出问题的区域，故障代码涉及出问题的故障。</span><span class="sxs-lookup"><span data-stu-id="d8316-120">The symptom area covers the area of malfunction, and the symptom code covers the malfunction symptom.</span></span> <span data-ttu-id="d8316-121">在该问题发生时，条件描述仍然存在的情况或环境。</span><span class="sxs-lookup"><span data-stu-id="d8316-121">The condition describes the situation or environment that is present when the problem occurs.</span></span>
 
-<span data-ttu-id="e9048-122">**示例**</span><span class="sxs-lookup"><span data-stu-id="e9048-122">**Example**</span></span>
+<span data-ttu-id="d8316-122">**示例**</span><span class="sxs-lookup"><span data-stu-id="d8316-122">**Example**</span></span>
 
-<span data-ttu-id="e9048-123">因为硬盘在一个扩展的使用期后失败，所以为修理带来一台计算机。</span><span class="sxs-lookup"><span data-stu-id="e9048-123">A computer is brought in for repair because the hard drive fails after an extended period of use.</span></span> <span data-ttu-id="e9048-124">硬盘故障生成一个蓝屏错误。</span><span class="sxs-lookup"><span data-stu-id="e9048-124">The hard drive failure causes a blue screen error.</span></span> <span data-ttu-id="e9048-125">接收计算机的技术人员输入以下故障和条件：</span><span class="sxs-lookup"><span data-stu-id="e9048-125">The technician who receives the computer enters the following symptoms and conditions:</span></span>
+<span data-ttu-id="d8316-123">因为硬盘在一个扩展的使用期后失败，所以为修理带来一台计算机。</span><span class="sxs-lookup"><span data-stu-id="d8316-123">A computer is brought in for repair because the hard drive fails after an extended period of use.</span></span> <span data-ttu-id="d8316-124">硬盘故障生成一个蓝屏错误。</span><span class="sxs-lookup"><span data-stu-id="d8316-124">The hard drive failure causes a blue screen error.</span></span> <span data-ttu-id="d8316-125">接收计算机的技术人员输入以下故障和条件：</span><span class="sxs-lookup"><span data-stu-id="d8316-125">The technician who receives the computer enters the following symptoms and conditions:</span></span>
 
-1.  <span data-ttu-id="e9048-126">故障区域是硬盘</span><span class="sxs-lookup"><span data-stu-id="e9048-126">The symptom area is the hard drive</span></span>
+1.  <span data-ttu-id="d8316-126">故障区域是硬盘</span><span class="sxs-lookup"><span data-stu-id="d8316-126">The symptom area is the hard drive</span></span>
 
-2.  <span data-ttu-id="e9048-127">故障代码是蓝屏错误</span><span class="sxs-lookup"><span data-stu-id="e9048-127">The symptom code is the blue screen error</span></span>
+2.  <span data-ttu-id="d8316-127">故障代码是蓝屏错误</span><span class="sxs-lookup"><span data-stu-id="d8316-127">The symptom code is the blue screen error</span></span>
 
-3.  <span data-ttu-id="e9048-128">该条件是硬盘在分散使用后失败</span><span class="sxs-lookup"><span data-stu-id="e9048-128">The condition is that the hard drive fails after extended use</span></span>
+3.  <span data-ttu-id="d8316-128">该条件是硬盘在分散使用后失败</span><span class="sxs-lookup"><span data-stu-id="d8316-128">The condition is that the hard drive fails after extended use</span></span>
 
-## <a name="diagnosis-and-resolutions"></a><span data-ttu-id="e9048-129">诊断和解决方法</span><span class="sxs-lookup"><span data-stu-id="e9048-129">Diagnosis and resolutions</span></span>
+## <a name="diagnosis-and-resolutions"></a><span data-ttu-id="d8316-129">诊断和解决方法</span><span class="sxs-lookup"><span data-stu-id="d8316-129">Diagnosis and resolutions</span></span>
 
-<span data-ttu-id="e9048-130">诊断和解决方案字段是从维修角度进行的陈述。</span><span class="sxs-lookup"><span data-stu-id="e9048-130">The diagnosis and resolution fields are statements from the repair perspective.</span></span> <span data-ttu-id="e9048-131">它们是技术人员为调查问题所执行的步骤。</span><span class="sxs-lookup"><span data-stu-id="e9048-131">These are the steps that a technician went through to investigate the problem.</span></span>
+<span data-ttu-id="d8316-130">诊断和解决方案字段是从维修角度进行的陈述。</span><span class="sxs-lookup"><span data-stu-id="d8316-130">The diagnosis and resolution fields are statements from the repair perspective.</span></span> <span data-ttu-id="d8316-131">它们是技术人员为调查问题所执行的步骤。</span><span class="sxs-lookup"><span data-stu-id="d8316-131">These are the steps that a technician went through to investigate the problem.</span></span>
 
-<span data-ttu-id="e9048-132">诊断区域涉及为解决问题而必须执行的操作。</span><span class="sxs-lookup"><span data-stu-id="e9048-132">The diagnosis area covers the operation that must occur to solve the issue.</span></span> <span data-ttu-id="e9048-133">诊断代码指示处理问题的方式，解决方法可以是维修或更换物料，也可以是客户取消订单。</span><span class="sxs-lookup"><span data-stu-id="e9048-133">The diagnosis code is how the problem was handled, and the resolution could be that the item was repaired, replaced, or the order was canceled by the customer.</span></span> <span data-ttu-id="e9048-134">例如，如果计算机已维修，则诊断区域可以是“有缺陷部件”，诊断代码可以是“安装了新显卡”，解决方法可以是“已更换”。</span><span class="sxs-lookup"><span data-stu-id="e9048-134">For example, if the computer is repaired, the diagnosis area could be "defective part," the diagnosis code could be "new video card installed," and the resolution could be "replaced."</span></span>
+<span data-ttu-id="d8316-132">诊断区域涉及为解决问题而必须执行的操作。</span><span class="sxs-lookup"><span data-stu-id="d8316-132">The diagnosis area covers the operation that must occur to solve the issue.</span></span> <span data-ttu-id="d8316-133">诊断代码指示处理问题的方式，解决方法可以是维修或更换物料，也可以是客户取消订单。</span><span class="sxs-lookup"><span data-stu-id="d8316-133">The diagnosis code is how the problem was handled, and the resolution could be that the item was repaired, replaced, or the order was canceled by the customer.</span></span> <span data-ttu-id="d8316-134">例如，如果计算机已维修，则诊断区域可以是“有缺陷部件”，诊断代码可以是“安装了新显卡”，解决方法可以是“已更换”。</span><span class="sxs-lookup"><span data-stu-id="d8316-134">For example, if the computer is repaired, the diagnosis area could be "defective part," the diagnosis code could be "new video card installed," and the resolution could be "replaced."</span></span>
 
-## <a name="repair-stages"></a><span data-ttu-id="e9048-135">维修阶段</span><span class="sxs-lookup"><span data-stu-id="e9048-135">Repair stages</span></span>
+## <a name="repair-stages"></a><span data-ttu-id="d8316-135">维修阶段</span><span class="sxs-lookup"><span data-stu-id="d8316-135">Repair stages</span></span>
 
-<span data-ttu-id="e9048-136">维修阶段指示维修过程的进度。</span><span class="sxs-lookup"><span data-stu-id="e9048-136">Repair stages state the progress of the repair process.</span></span> <span data-ttu-id="e9048-137">维修阶段具有**已完成**验证参数，指示维修行已完成，并且完工日期和时间已记录。</span><span class="sxs-lookup"><span data-stu-id="e9048-137">The repair stage has a **Finished** sign-off parameter that indicates that the repair line has been completed, and the finishing date and time has been recorded.</span></span>
+<span data-ttu-id="d8316-136">维修阶段指示维修过程的进度。</span><span class="sxs-lookup"><span data-stu-id="d8316-136">Repair stages state the progress of the repair process.</span></span> <span data-ttu-id="d8316-137">维修阶段具有**已完成**验证参数，指示维修行已完成，并且完工日期和时间已记录。</span><span class="sxs-lookup"><span data-stu-id="d8316-137">The repair stage has a **Finished** sign-off parameter that indicates that the repair line has been completed, and the finishing date and time has been recorded.</span></span>
 
-## <a name="applying-repair-management"></a><span data-ttu-id="e9048-138">应用维修管理</span><span class="sxs-lookup"><span data-stu-id="e9048-138">Applying repair management</span></span>
+## <a name="applying-repair-management"></a><span data-ttu-id="d8316-138">应用维修管理</span><span class="sxs-lookup"><span data-stu-id="d8316-138">Applying repair management</span></span>
 
-<span data-ttu-id="e9048-139">若要将维修管理应用于某一物料，必须用某一服务订单上的服务对象关系设置该物料。</span><span class="sxs-lookup"><span data-stu-id="e9048-139">To apply repair management to an item, the item must be set up with a service object relation on a service order.</span></span> <span data-ttu-id="e9048-140">然后，从该服务订单，您可以创建一个维修行，行中具有与当前问题有关的信息。</span><span class="sxs-lookup"><span data-stu-id="e9048-140">From the service order you can then create a repair line with information about the current issue.</span></span> <span data-ttu-id="e9048-141">在该维修行上，您定义处于维修中的服务对象，以及与故障、诊断和执行有关的信息。</span><span class="sxs-lookup"><span data-stu-id="e9048-141">On the repair line you define the service object that is in repair and information about symptoms, diagnosis, and execution.</span></span> <span data-ttu-id="e9048-142">您还可以创建该维修行的备注。</span><span class="sxs-lookup"><span data-stu-id="e9048-142">You can also create a note for the repair line.</span></span>
+<span data-ttu-id="d8316-139">若要将维修管理应用于某一物料，必须用某一服务订单上的服务对象关系设置该物料。</span><span class="sxs-lookup"><span data-stu-id="d8316-139">To apply repair management to an item, the item must be set up with a service object relation on a service order.</span></span> <span data-ttu-id="d8316-140">然后，从该服务订单，您可以创建一个维修行，行中具有与当前问题有关的信息。</span><span class="sxs-lookup"><span data-stu-id="d8316-140">From the service order you can then create a repair line with information about the current issue.</span></span> <span data-ttu-id="d8316-141">在该维修行上，您定义处于维修中的服务对象，以及与故障、诊断和执行有关的信息。</span><span class="sxs-lookup"><span data-stu-id="d8316-141">On the repair line you define the service object that is in repair and information about symptoms, diagnosis, and execution.</span></span> <span data-ttu-id="d8316-142">您还可以创建该维修行的备注。</span><span class="sxs-lookup"><span data-stu-id="d8316-142">You can also create a note for the repair line.</span></span>
 
-<span data-ttu-id="e9048-143">可以为维修过程中的每个步骤创建维修行。</span><span class="sxs-lookup"><span data-stu-id="e9048-143">You can create repair lines for each step in the repair process.</span></span>
+<span data-ttu-id="d8316-143">可以为维修过程中的每个步骤创建维修行。</span><span class="sxs-lookup"><span data-stu-id="d8316-143">You can create repair lines for each step in the repair process.</span></span>
 
-## <a name="create-a-repair-line-on-a-service-order"></a><span data-ttu-id="e9048-144">在服务订单上创建维修行</span><span class="sxs-lookup"><span data-stu-id="e9048-144">Create a repair line on a service order</span></span>
+## <a name="create-a-repair-line-on-a-service-order"></a><span data-ttu-id="d8316-144">在服务订单上创建维修行</span><span class="sxs-lookup"><span data-stu-id="d8316-144">Create a repair line on a service order</span></span>
 
-1.  <span data-ttu-id="e9048-145">单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。</span><span class="sxs-lookup"><span data-stu-id="e9048-145">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="d8316-145">单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。</span><span class="sxs-lookup"><span data-stu-id="d8316-145">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="e9048-146">选择具有需要维修的服务对象的服务订单。</span><span class="sxs-lookup"><span data-stu-id="e9048-146">Select the service order with the service object that needs repair.</span></span>
+2.  <span data-ttu-id="d8316-146">选择具有需要维修的服务对象的服务订单。</span><span class="sxs-lookup"><span data-stu-id="d8316-146">Select the service order with the service object that needs repair.</span></span>
 
-3.  <span data-ttu-id="e9048-147">单击**维修** \> **维修行**打开**维修行**窗体。</span><span class="sxs-lookup"><span data-stu-id="e9048-147">Click **Repair** \> **Repair lines** to open the **Repair lines** form.</span></span>
+3.  <span data-ttu-id="d8316-147">单击**维修** \> **维修行**打开**维修行**窗体。</span><span class="sxs-lookup"><span data-stu-id="d8316-147">Click **Repair** \> **Repair lines** to open the **Repair lines** form.</span></span>
 
-4.  <span data-ttu-id="e9048-148">按 Ctrl+N 创建新行。</span><span class="sxs-lookup"><span data-stu-id="e9048-148">Press CTRL+N to create a new line.</span></span>
+4.  <span data-ttu-id="d8316-148">按 Ctrl+N 创建新行。</span><span class="sxs-lookup"><span data-stu-id="d8316-148">Press CTRL+N to create a new line.</span></span>
 
-5.  <span data-ttu-id="e9048-149">选择某一服务对象。</span><span class="sxs-lookup"><span data-stu-id="e9048-149">Select a service object.</span></span> <span data-ttu-id="e9048-150">您可以选择已用该服务订单上的对象关系设置的任何服务对象。</span><span class="sxs-lookup"><span data-stu-id="e9048-150">You can select any service object that has been set up with an object relation on the service order.</span></span>
+5.  <span data-ttu-id="d8316-149">选择某一服务对象。</span><span class="sxs-lookup"><span data-stu-id="d8316-149">Select a service object.</span></span> <span data-ttu-id="d8316-150">您可以选择已用该服务订单上的对象关系设置的任何服务对象。</span><span class="sxs-lookup"><span data-stu-id="d8316-150">You can select any service object that has been set up with an object relation on the service order.</span></span>
 
-6.  <span data-ttu-id="e9048-151">选择在维修行中相关的任何预设故障、诊断和执行值，如果需要，然后单击**备注**选项卡以便创建针对该维修行的备注。</span><span class="sxs-lookup"><span data-stu-id="e9048-151">Select any of the preset symptoms, diagnosis, and execution values that are relevant in the repair line and then click the **Note** tab to create a note on the repair line, if needed.</span></span>
+6.  <span data-ttu-id="d8316-151">选择在维修行中相关的任何预设故障、诊断和执行值，如果需要，然后单击**备注**选项卡以便创建针对该维修行的备注。</span><span class="sxs-lookup"><span data-stu-id="d8316-151">Select any of the preset symptoms, diagnosis, and execution values that are relevant in the repair line and then click the **Note** tab to create a note on the repair line, if needed.</span></span>
 
-7.  <span data-ttu-id="e9048-152">按下 CTRL+S 以保存这一新的维修行。</span><span class="sxs-lookup"><span data-stu-id="e9048-152">Press CTRL+S to save the new repair line.</span></span> <span data-ttu-id="e9048-153">使用保存时间更新**维修行**窗体的**常规**选项卡的**创建日期和时间**字段。</span><span class="sxs-lookup"><span data-stu-id="e9048-153">The **Created date and time** field in the **General** tab of the **Repair lines** form is updated with the time of saving.</span></span>
+7.  <span data-ttu-id="d8316-152">按下 CTRL+S 以保存这一新的维修行。</span><span class="sxs-lookup"><span data-stu-id="d8316-152">Press CTRL+S to save the new repair line.</span></span> <span data-ttu-id="d8316-153">使用保存时间更新**维修行**窗体的**常规**选项卡的**创建日期和时间**字段。</span><span class="sxs-lookup"><span data-stu-id="d8316-153">The **Created date and time** field in the **General** tab of the **Repair lines** form is updated with the time of saving.</span></span>
 
-## <a name="tracking-progress-and-resolving-a-repair-issue"></a><span data-ttu-id="e9048-154">跟踪进度和解决维修问题</span><span class="sxs-lookup"><span data-stu-id="e9048-154">Tracking progress and resolving a repair issue</span></span>
+## <a name="tracking-progress-and-resolving-a-repair-issue"></a><span data-ttu-id="d8316-154">跟踪进度和解决维修问题</span><span class="sxs-lookup"><span data-stu-id="d8316-154">Tracking progress and resolving a repair issue</span></span>
 
-<span data-ttu-id="e9048-155">您可以设置维修行的维修阶段，以便跟踪维修的进度。</span><span class="sxs-lookup"><span data-stu-id="e9048-155">You can set the repair stages of a repair line to track the progress of the repair.</span></span>
+<span data-ttu-id="d8316-155">您可以设置维修行的维修阶段，以便跟踪维修的进度。</span><span class="sxs-lookup"><span data-stu-id="d8316-155">You can set the repair stages of a repair line to track the progress of the repair.</span></span>
 
-<span data-ttu-id="e9048-156">在解决某一维修问题时，可以关闭该维修行。</span><span class="sxs-lookup"><span data-stu-id="e9048-156">When a repair issue is resolved, you can close the repair line.</span></span> <span data-ttu-id="e9048-157">设置维修阶段到该启用的**已完成**属性的阶段。</span><span class="sxs-lookup"><span data-stu-id="e9048-157">Set the repair stage to a stage with a **Finished** property enabled.</span></span> <span data-ttu-id="e9048-158">当前日期和时间在该行上作为结束时间登记。</span><span class="sxs-lookup"><span data-stu-id="e9048-158">The current date and time is registered as the finish time on the line.</span></span>
+<span data-ttu-id="d8316-156">在解决某一维修问题时，可以关闭该维修行。</span><span class="sxs-lookup"><span data-stu-id="d8316-156">When a repair issue is resolved, you can close the repair line.</span></span> <span data-ttu-id="d8316-157">设置维修阶段到该启用的**已完成**属性的阶段。</span><span class="sxs-lookup"><span data-stu-id="d8316-157">Set the repair stage to a stage with a **Finished** property enabled.</span></span> <span data-ttu-id="d8316-158">当前日期和时间在该行上作为结束时间登记。</span><span class="sxs-lookup"><span data-stu-id="d8316-158">The current date and time is registered as the finish time on the line.</span></span>
 
-## <a name="close-a-repair-line-for-a-resolved-issue"></a><span data-ttu-id="e9048-159">为已解决问题关闭维修行</span><span class="sxs-lookup"><span data-stu-id="e9048-159">Close a repair line for a resolved issue</span></span>
+## <a name="close-a-repair-line-for-a-resolved-issue"></a><span data-ttu-id="d8316-159">为已解决问题关闭维修行</span><span class="sxs-lookup"><span data-stu-id="d8316-159">Close a repair line for a resolved issue</span></span>
 
-1.  <span data-ttu-id="e9048-160">打开**维修行行**窗体。</span><span class="sxs-lookup"><span data-stu-id="e9048-160">Open the **Repair lines** form.</span></span> <span data-ttu-id="e9048-161">通过执行本主题中前述过程以创建一个维修行。</span><span class="sxs-lookup"><span data-stu-id="e9048-161">Follow the procedure earlier in this topic to create a repair line.</span></span>
+1.  <span data-ttu-id="d8316-160">打开**维修行行**窗体。</span><span class="sxs-lookup"><span data-stu-id="d8316-160">Open the **Repair lines** form.</span></span> <span data-ttu-id="d8316-161">通过执行本主题中前述过程以创建一个维修行。</span><span class="sxs-lookup"><span data-stu-id="d8316-161">Follow the procedure earlier in this topic to create a repair line.</span></span>
 
-2.  <span data-ttu-id="e9048-162">选择具有您要关闭的维修问题的维修行。</span><span class="sxs-lookup"><span data-stu-id="e9048-162">Select the repair line with the repair issue that you want to close.</span></span>
+2.  <span data-ttu-id="d8316-162">选择具有您要关闭的维修问题的维修行。</span><span class="sxs-lookup"><span data-stu-id="d8316-162">Select the repair line with the repair issue that you want to close.</span></span>
 
-3.  <span data-ttu-id="e9048-163">在**维修阶段**字段中，选择启用了**已完成**属性的阶段。</span><span class="sxs-lookup"><span data-stu-id="e9048-163">In the **Repair stage** field, select a stage with the **Finished** property enabled.</span></span>
+3.  <span data-ttu-id="d8316-163">在**维修阶段**字段中，选择启用了**已完成**属性的阶段。</span><span class="sxs-lookup"><span data-stu-id="d8316-163">In the **Repair stage** field, select a stage with the **Finished** property enabled.</span></span>
 
   
 
