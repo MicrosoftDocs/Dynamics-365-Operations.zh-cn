@@ -13,67 +13,67 @@ ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43b3267122594329444fc4b0458db6b14aa5c672
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: bfecdbd8ca2d6124906ef664493602a1d0ac0baf
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206188"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981913"
 ---
-# <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a><span data-ttu-id="4313a-103">将燃油指数作为附属费用与承运人关联</span><span class="sxs-lookup"><span data-stu-id="4313a-103">Associate a fuel index with a carrier as an accessorial charge</span></span>
+# <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a><span data-ttu-id="ee6fe-103">将燃油指数作为附属费用与承运人关联</span><span class="sxs-lookup"><span data-stu-id="ee6fe-103">Associate a fuel index with a carrier as an accessorial charge</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="4313a-104">本指南显示如何创建附属分配、承运人附加费用、燃油附加费的附属主数据，以及将承运人燃油指数与承运人关联。</span><span class="sxs-lookup"><span data-stu-id="4313a-104">This guide shows how to create an accessorial assignment, carrier accessorial charge, accessorial master for fuel surcharge, and associate a carrier fuel index with a carrier.</span></span> <span data-ttu-id="4313a-105">您需要设置承运人燃油指数才能运行此指南。</span><span class="sxs-lookup"><span data-stu-id="4313a-105">You need to have set up a carrier fuel index before you run this guide.</span></span> <span data-ttu-id="4313a-106">您可以使用“设置承运人燃油指数”指南来执行此操作。</span><span class="sxs-lookup"><span data-stu-id="4313a-106">You can use the "Set up a carrier fuel index" guide to do this.</span></span> <span data-ttu-id="4313a-107">这些设置任务通常由物流经理完成。</span><span class="sxs-lookup"><span data-stu-id="4313a-107">These setup tasks are typically done by a Logistics manager.</span></span> <span data-ttu-id="4313a-108">使用 USMF 演示数据创建此过程。</span><span class="sxs-lookup"><span data-stu-id="4313a-108">The demo data used to create this procedure is USMF.</span></span>
+<span data-ttu-id="ee6fe-104">本指南显示如何创建附属分配、承运人附加费用、燃油附加费的附属主数据，以及将承运人燃油指数与承运人关联。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-104">This guide shows how to create an accessorial assignment, carrier accessorial charge, accessorial master for fuel surcharge, and associate a carrier fuel index with a carrier.</span></span> <span data-ttu-id="ee6fe-105">您需要设置承运人燃油指数才能运行此指南。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-105">You need to have set up a carrier fuel index before you run this guide.</span></span> <span data-ttu-id="ee6fe-106">您可以使用“设置承运人燃油指数”指南来执行此操作。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-106">You can use the "Set up a carrier fuel index" guide to do this.</span></span> <span data-ttu-id="ee6fe-107">这些设置任务通常由物流经理完成。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-107">These setup tasks are typically done by a Logistics manager.</span></span> <span data-ttu-id="ee6fe-108">使用 USMF 演示数据创建此过程。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-108">The demo data used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-an-accessorial-master"></a><span data-ttu-id="4313a-109">创建附属主数据</span><span class="sxs-lookup"><span data-stu-id="4313a-109">Create an accessorial master</span></span>
-1. <span data-ttu-id="4313a-110">转到“运输管理”>“设置”>“评级”>“附属主数据”。</span><span class="sxs-lookup"><span data-stu-id="4313a-110">Go to Transportation management > Setup > Rating > Accessorial masters.</span></span>
-2. <span data-ttu-id="4313a-111">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4313a-111">Click New.</span></span>
-3. <span data-ttu-id="4313a-112">在“附属主数据”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="4313a-112">In the Accessorial master field, type a value.</span></span>
-4. <span data-ttu-id="4313a-113">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="4313a-113">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="4313a-114">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4313a-114">Click Save.</span></span>
+## <a name="create-an-accessorial-master"></a><span data-ttu-id="ee6fe-109">创建附属主数据</span><span class="sxs-lookup"><span data-stu-id="ee6fe-109">Create an accessorial master</span></span>
+1. <span data-ttu-id="ee6fe-110">转到“运输管理”>“设置”>“评级”>“附属主数据”。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-110">Go to Transportation management > Setup > Rating > Accessorial masters.</span></span>
+2. <span data-ttu-id="ee6fe-111">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-111">Click New.</span></span>
+3. <span data-ttu-id="ee6fe-112">在“附属主数据”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-112">In the Accessorial master field, type a value.</span></span>
+4. <span data-ttu-id="ee6fe-113">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="ee6fe-114">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-114">Click Save.</span></span>
 
-## <a name="create-a-carrier-accessorial-charge"></a><span data-ttu-id="4313a-115">创建装运承运人附加费</span><span class="sxs-lookup"><span data-stu-id="4313a-115">Create a carrier accessorial charge</span></span>
-1. <span data-ttu-id="4313a-116">转到“运输管理”>“设置”>“评级”>“承运人附加费”。</span><span class="sxs-lookup"><span data-stu-id="4313a-116">Go to Transportation management > Setup > Rating > Carrier accessorial charges.</span></span>
-2. <span data-ttu-id="4313a-117">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4313a-117">Click New.</span></span>
-3. <span data-ttu-id="4313a-118">在“承运人附属 ID”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="4313a-118">In the Carrier accessorial ID field, type a value.</span></span>
-4. <span data-ttu-id="4313a-119">在“装运承运人”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4313a-119">In the Shipping carrier field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="4313a-120">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="4313a-120">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="4313a-121">在本示例中，选择卡车承运人。</span><span class="sxs-lookup"><span data-stu-id="4313a-121">In this example, choose Truck Carrier.</span></span>  
-6. <span data-ttu-id="4313a-122">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="4313a-122">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="4313a-123">在“承运人服务”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4313a-123">In the Carrier service field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="4313a-124">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="4313a-124">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="4313a-125">在“附属主数据”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4313a-125">In the Accessorial master field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="4313a-126">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="4313a-126">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="4313a-127">在本示例中，选择新创建的附属主数据。</span><span class="sxs-lookup"><span data-stu-id="4313a-127">In this example, choose the newly created Accessorial master.</span></span>  
-11. <span data-ttu-id="4313a-128">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4313a-128">Click Save.</span></span>
+## <a name="create-a-carrier-accessorial-charge"></a><span data-ttu-id="ee6fe-115">创建装运承运人附加费</span><span class="sxs-lookup"><span data-stu-id="ee6fe-115">Create a carrier accessorial charge</span></span>
+1. <span data-ttu-id="ee6fe-116">转到“运输管理”>“设置”>“评级”>“承运人附加费”。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-116">Go to Transportation management > Setup > Rating > Carrier accessorial charges.</span></span>
+2. <span data-ttu-id="ee6fe-117">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-117">Click New.</span></span>
+3. <span data-ttu-id="ee6fe-118">在“承运人附属 ID”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-118">In the Carrier accessorial ID field, type a value.</span></span>
+4. <span data-ttu-id="ee6fe-119">在“装运承运人”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-119">In the Shipping carrier field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="ee6fe-120">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="ee6fe-121">在本示例中，选择卡车承运人。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-121">In this example, choose Truck Carrier.</span></span>  
+6. <span data-ttu-id="ee6fe-122">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-122">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="ee6fe-123">在“承运人服务”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-123">In the Carrier service field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="ee6fe-124">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-124">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="ee6fe-125">在“附属主数据”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-125">In the Accessorial master field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="ee6fe-126">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-126">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="ee6fe-127">在本示例中，选择新创建的附属主数据。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-127">In this example, choose the newly created Accessorial master.</span></span>  
+11. <span data-ttu-id="ee6fe-128">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-128">Click Save.</span></span>
 
-## <a name="create-an-accessorial-assignment"></a><span data-ttu-id="4313a-129">创建附属分配</span><span class="sxs-lookup"><span data-stu-id="4313a-129">Create an accessorial assignment</span></span>
-1. <span data-ttu-id="4313a-130">单击“附属分配”。</span><span class="sxs-lookup"><span data-stu-id="4313a-130">Click Accessorial assignments.</span></span>
-2. <span data-ttu-id="4313a-131">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4313a-131">Click New.</span></span>
-3. <span data-ttu-id="4313a-132">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="4313a-132">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="4313a-133">切换“标准”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="4313a-133">Toggle the expansion of the Criteria section.</span></span>
-    * <span data-ttu-id="4313a-134">在此标准中，您可以选择始终应用燃油附加费或为此示例选择仅特定区域适用的燃油附加费。</span><span class="sxs-lookup"><span data-stu-id="4313a-134">In the criteria, you can choose to always apply the fuel surcharge or for this example choose that it only applies within a certain region.</span></span>  
-5. <span data-ttu-id="4313a-135">在“发件人邮政编码”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="4313a-135">In the ZIP/postal code from field, type a value.</span></span>
-6. <span data-ttu-id="4313a-136">在“收件人邮政编码”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="4313a-136">In the ZIP/postal code to field, type a value.</span></span>
-7. <span data-ttu-id="4313a-137">切换“计算”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="4313a-137">Toggle the expansion of the Calculation section.</span></span>
-    * <span data-ttu-id="4313a-138">在计算部分可以指定如何计算燃油附加费。</span><span class="sxs-lookup"><span data-stu-id="4313a-138">In the calculation section you can specify how to calculate the fuel surcharge.</span></span> <span data-ttu-id="4313a-139">此计算取决于您选择作为计算基数的附属单位。</span><span class="sxs-lookup"><span data-stu-id="4313a-139">This calculation depends on the Accessorial unit that you chose as the base for your calculation.</span></span>  
-8. <span data-ttu-id="4313a-140">在“附加费用类型”字段中，选择“燃油附加费”。</span><span class="sxs-lookup"><span data-stu-id="4313a-140">In the Accessorial fee type field, select 'Fuel surcharge'.</span></span>
-9. <span data-ttu-id="4313a-141">在“附属单位”字段中，选择“里程”。</span><span class="sxs-lookup"><span data-stu-id="4313a-141">In the Accessorial unit field, select 'Mileage'.</span></span>
-10. <span data-ttu-id="4313a-142">在“区域”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4313a-142">In the Region field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="4313a-143">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="4313a-143">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="4313a-144">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4313a-144">Click Save.</span></span>
+## <a name="create-an-accessorial-assignment"></a><span data-ttu-id="ee6fe-129">创建附属分配</span><span class="sxs-lookup"><span data-stu-id="ee6fe-129">Create an accessorial assignment</span></span>
+1. <span data-ttu-id="ee6fe-130">单击“附属分配”。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-130">Click Accessorial assignments.</span></span>
+2. <span data-ttu-id="ee6fe-131">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-131">Click New.</span></span>
+3. <span data-ttu-id="ee6fe-132">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-132">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="ee6fe-133">切换“标准”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-133">Toggle the expansion of the Criteria section.</span></span>
+    * <span data-ttu-id="ee6fe-134">在此标准中，您可以选择始终应用燃油附加费或为此示例选择仅特定区域适用的燃油附加费。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-134">In the criteria, you can choose to always apply the fuel surcharge or for this example choose that it only applies within a certain region.</span></span>  
+5. <span data-ttu-id="ee6fe-135">在“发件人邮政编码”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-135">In the ZIP/postal code from field, type a value.</span></span>
+6. <span data-ttu-id="ee6fe-136">在“收件人邮政编码”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-136">In the ZIP/postal code to field, type a value.</span></span>
+7. <span data-ttu-id="ee6fe-137">切换“计算”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-137">Toggle the expansion of the Calculation section.</span></span>
+    * <span data-ttu-id="ee6fe-138">在计算部分可以指定如何计算燃油附加费。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-138">In the calculation section you can specify how to calculate the fuel surcharge.</span></span> <span data-ttu-id="ee6fe-139">此计算取决于您选择作为计算基数的附属单位。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-139">This calculation depends on the Accessorial unit that you chose as the base for your calculation.</span></span>  
+8. <span data-ttu-id="ee6fe-140">在“附加费用类型”字段中，选择“燃油附加费”。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-140">In the Accessorial fee type field, select 'Fuel surcharge'.</span></span>
+9. <span data-ttu-id="ee6fe-141">在“附属单位”字段中，选择“里程”。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-141">In the Accessorial unit field, select 'Mileage'.</span></span>
+10. <span data-ttu-id="ee6fe-142">在“区域”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-142">In the Region field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="ee6fe-143">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-143">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="ee6fe-144">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-144">Click Save.</span></span>
 
-## <a name="update-the-carrier-rating-profile"></a><span data-ttu-id="4313a-145">更新承运人评级资料</span><span class="sxs-lookup"><span data-stu-id="4313a-145">Update the carrier rating profile</span></span>
-1. <span data-ttu-id="4313a-146">转到“运输管理”>“设置”>“承运人”>“装运承运人”。</span><span class="sxs-lookup"><span data-stu-id="4313a-146">Go to Transportation management > Setup > Carriers > Shipping carriers.</span></span>
-2. <span data-ttu-id="4313a-147">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="4313a-147">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="4313a-148">切换“评级资料”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="4313a-148">Toggle the expansion of the Rating profiles section.</span></span>
-4. <span data-ttu-id="4313a-149">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="4313a-149">Click Edit.</span></span>
-5. <span data-ttu-id="4313a-150">在“承运人燃油指数”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4313a-150">In the Carrier fuel index field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="4313a-151">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="4313a-151">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="4313a-152">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4313a-152">Click Save.</span></span>
+## <a name="update-the-carrier-rating-profile"></a><span data-ttu-id="ee6fe-145">更新承运人评级资料</span><span class="sxs-lookup"><span data-stu-id="ee6fe-145">Update the carrier rating profile</span></span>
+1. <span data-ttu-id="ee6fe-146">转到“运输管理”>“设置”>“承运人”>“装运承运人”。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-146">Go to Transportation management > Setup > Carriers > Shipping carriers.</span></span>
+2. <span data-ttu-id="ee6fe-147">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-147">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="ee6fe-148">切换“评级资料”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-148">Toggle the expansion of the Rating profiles section.</span></span>
+4. <span data-ttu-id="ee6fe-149">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-149">Click Edit.</span></span>
+5. <span data-ttu-id="ee6fe-150">在“承运人燃油指数”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-150">In the Carrier fuel index field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="ee6fe-151">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-151">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="ee6fe-152">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="ee6fe-152">Click Save.</span></span>
 

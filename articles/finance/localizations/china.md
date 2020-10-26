@@ -12,43 +12,43 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: China (PRC)
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 90df54b2aca434369fd176c9d6890b589a2a0fef
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: c118d99371f199a6c8e6e5c42375424b674245c4
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773404"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981879"
 ---
-# <a name="china-overview"></a><span data-ttu-id="8dfe3-103">中国概览</span><span class="sxs-lookup"><span data-stu-id="8dfe3-103">China overview</span></span>
+# <a name="china-overview"></a><span data-ttu-id="1fd3b-103">中国概览</span><span class="sxs-lookup"><span data-stu-id="1fd3b-103">China overview</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="8dfe3-104">本主题中包含的信息和资源链接可帮助您设置主要地址在中国的法人。</span><span class="sxs-lookup"><span data-stu-id="8dfe3-104">This topic includes information and links to resources that can help you set up legal entities with a primary address in China.</span></span>
+<span data-ttu-id="1fd3b-104">本主题中包含的信息和资源链接可帮助您设置主要地址在中国的法人。</span><span class="sxs-lookup"><span data-stu-id="1fd3b-104">This topic includes information and links to resources that can help you set up legal entities with a primary address in China.</span></span>
 
--   [<span data-ttu-id="8dfe3-105">物料清单比较</span><span class="sxs-lookup"><span data-stu-id="8dfe3-105">Bill of materials comparison</span></span>](apac-chn-bom-comparison.md)
--   [<span data-ttu-id="8dfe3-106">会计科目表层次结构</span><span class="sxs-lookup"><span data-stu-id="8dfe3-106">Chart of accounts hierarchy</span></span>](tasks/china-hierarchy-chart-accounts.md) 
--   [<span data-ttu-id="8dfe3-107">中国式凭证</span><span class="sxs-lookup"><span data-stu-id="8dfe3-107">Chinese vouchers</span></span>](apac-chn-vouchers.md)
-    -   [<span data-ttu-id="8dfe3-108">凭证连续性检查</span><span class="sxs-lookup"><span data-stu-id="8dfe3-108">Voucher continuity check</span></span>](tasks/chinese-voucher-continuity-check.md)
-    -   [<span data-ttu-id="8dfe3-109">过帐其他模块的凭证</span><span class="sxs-lookup"><span data-stu-id="8dfe3-109">Post vouchers from other modules</span></span>](tasks/post-vouchers-other-modules-like-sales-invoices.md)
-    -   [<span data-ttu-id="8dfe3-110">过帐普通日记帐的凭证</span><span class="sxs-lookup"><span data-stu-id="8dfe3-110">Post vouchers from the general journal</span></span>](tasks/post-vouchers-general-journal.md)
-    -   [<span data-ttu-id="8dfe3-111">设置中国式凭证</span><span class="sxs-lookup"><span data-stu-id="8dfe3-111">Set up Chinese vouchers</span></span>](tasks/set-up-chinese-vouchers.md)
--   [<span data-ttu-id="8dfe3-112">配置税务集成</span><span class="sxs-lookup"><span data-stu-id="8dfe3-112">Configure tax integration</span></span>](apac-chn-tax-integration.md)
-    -   [<span data-ttu-id="8dfe3-113">增值税客户发票的中国税务集成修改常见问题</span><span class="sxs-lookup"><span data-stu-id="8dfe3-113">Chinese tax integration modification for VAT customer invoices FAQ</span></span>](apac-chn-tax-integration-vat-customer-invoices.md)
-    -   [<span data-ttu-id="8dfe3-114">增值税客户发票常见问题</span><span class="sxs-lookup"><span data-stu-id="8dfe3-114">VAT customer invoices FAQ</span></span>](apac-chn-tax-integration-vat-customer-invoices.md)
-    -   [<span data-ttu-id="8dfe3-115">设置基本税务集成模板</span><span class="sxs-lookup"><span data-stu-id="8dfe3-115">Set up basic tax integration profile</span></span>](tasks/set-up-basic-tax-integration-profile-china.md)
--   [<span data-ttu-id="8dfe3-116">固定资产折旧方法</span><span class="sxs-lookup"><span data-stu-id="8dfe3-116">Fixed assets depreciation methods </span></span>](apac-chn-depreciation-methods-fixed-assets.md)
-    -   [<span data-ttu-id="8dfe3-117">设置固定资产折旧费用分配</span><span class="sxs-lookup"><span data-stu-id="8dfe3-117">Setup fixed asset depreciation allocation </span></span>](tasks/fixed-asset-depreciation-allocation.md)
--   [<span data-ttu-id="8dfe3-118">导入中国金税数据实体</span><span class="sxs-lookup"><span data-stu-id="8dfe3-118">Import the Chinese Golden Tax data entity</span></span>](apac-chn-import-golden-tax-data-entity.md)
-    -   [<span data-ttu-id="8dfe3-119">金税集成导出设置</span><span class="sxs-lookup"><span data-stu-id="8dfe3-119">Golden tax integration export setup</span></span>](tasks/golden-tax-integration-export-setup.md)
--   [<span data-ttu-id="8dfe3-120">每月平均成本模型</span><span class="sxs-lookup"><span data-stu-id="8dfe3-120">Monthly average cost model</span></span>](apac-chn-monthly-average-cost-model.md)
--   [<span data-ttu-id="8dfe3-121">按站点过帐库存主科目</span><span class="sxs-lookup"><span data-stu-id="8dfe3-121">Post inventory main accounts by site</span></span>](apac-chn-post-inventory-main-accounts-by-site.md)
--   [<span data-ttu-id="8dfe3-122">显示会计科目的借方和贷方金额</span><span class="sxs-lookup"><span data-stu-id="8dfe3-122">Display debit and credit amounts for ledger accounts</span></span>](apac-chn-negative-debits-credits.md)
--   [<span data-ttu-id="8dfe3-123">符合中国工作规则的用户操作日志</span><span class="sxs-lookup"><span data-stu-id="8dfe3-123">User operation log by China working rule</span></span>](tasks/user-operation-log-china-working-rule.md)
+-   [<span data-ttu-id="1fd3b-105">物料清单比较</span><span class="sxs-lookup"><span data-stu-id="1fd3b-105">Bill of materials comparison</span></span>](apac-chn-bom-comparison.md)
+-   [<span data-ttu-id="1fd3b-106">会计科目表层次结构</span><span class="sxs-lookup"><span data-stu-id="1fd3b-106">Chart of accounts hierarchy</span></span>](tasks/china-hierarchy-chart-accounts.md) 
+-   [<span data-ttu-id="1fd3b-107">中国式凭证</span><span class="sxs-lookup"><span data-stu-id="1fd3b-107">Chinese vouchers</span></span>](apac-chn-vouchers.md)
+    -   [<span data-ttu-id="1fd3b-108">凭证连续性检查</span><span class="sxs-lookup"><span data-stu-id="1fd3b-108">Voucher continuity check</span></span>](tasks/chinese-voucher-continuity-check.md)
+    -   [<span data-ttu-id="1fd3b-109">过帐其他模块的凭证</span><span class="sxs-lookup"><span data-stu-id="1fd3b-109">Post vouchers from other modules</span></span>](tasks/post-vouchers-other-modules-like-sales-invoices.md)
+    -   [<span data-ttu-id="1fd3b-110">过帐普通日记帐的凭证</span><span class="sxs-lookup"><span data-stu-id="1fd3b-110">Post vouchers from the general journal</span></span>](tasks/post-vouchers-general-journal.md)
+    -   [<span data-ttu-id="1fd3b-111">设置中国式凭证</span><span class="sxs-lookup"><span data-stu-id="1fd3b-111">Set up Chinese vouchers</span></span>](tasks/set-up-chinese-vouchers.md)
+-   [<span data-ttu-id="1fd3b-112">配置税务集成</span><span class="sxs-lookup"><span data-stu-id="1fd3b-112">Configure tax integration</span></span>](apac-chn-tax-integration.md)
+    -   [<span data-ttu-id="1fd3b-113">增值税客户发票的中国税务集成修改常见问题</span><span class="sxs-lookup"><span data-stu-id="1fd3b-113">Chinese tax integration modification for VAT customer invoices FAQ</span></span>](apac-chn-tax-integration-vat-customer-invoices.md)
+    -   [<span data-ttu-id="1fd3b-114">增值税客户发票常见问题</span><span class="sxs-lookup"><span data-stu-id="1fd3b-114">VAT customer invoices FAQ</span></span>](apac-chn-tax-integration-vat-customer-invoices.md)
+    -   [<span data-ttu-id="1fd3b-115">设置基本税务集成模板</span><span class="sxs-lookup"><span data-stu-id="1fd3b-115">Set up basic tax integration profile</span></span>](tasks/set-up-basic-tax-integration-profile-china.md)
+-   [<span data-ttu-id="1fd3b-116">固定资产折旧方法</span><span class="sxs-lookup"><span data-stu-id="1fd3b-116">Fixed assets depreciation methods </span></span>](apac-chn-depreciation-methods-fixed-assets.md)
+    -   [<span data-ttu-id="1fd3b-117">设置固定资产折旧费用分配</span><span class="sxs-lookup"><span data-stu-id="1fd3b-117">Setup fixed asset depreciation allocation </span></span>](tasks/fixed-asset-depreciation-allocation.md)
+-   [<span data-ttu-id="1fd3b-118">导入中国金税数据实体</span><span class="sxs-lookup"><span data-stu-id="1fd3b-118">Import the Chinese Golden Tax data entity</span></span>](apac-chn-import-golden-tax-data-entity.md)
+    -   [<span data-ttu-id="1fd3b-119">金税集成导出设置</span><span class="sxs-lookup"><span data-stu-id="1fd3b-119">Golden tax integration export setup</span></span>](tasks/golden-tax-integration-export-setup.md)
+-   [<span data-ttu-id="1fd3b-120">每月平均成本模型</span><span class="sxs-lookup"><span data-stu-id="1fd3b-120">Monthly average cost model</span></span>](apac-chn-monthly-average-cost-model.md)
+-   [<span data-ttu-id="1fd3b-121">按站点过帐库存主科目</span><span class="sxs-lookup"><span data-stu-id="1fd3b-121">Post inventory main accounts by site</span></span>](apac-chn-post-inventory-main-accounts-by-site.md)
+-   [<span data-ttu-id="1fd3b-122">显示会计科目的借方和贷方金额</span><span class="sxs-lookup"><span data-stu-id="1fd3b-122">Display debit and credit amounts for ledger accounts</span></span>](apac-chn-negative-debits-credits.md)
+-   [<span data-ttu-id="1fd3b-123">符合中国工作规则的用户操作日志</span><span class="sxs-lookup"><span data-stu-id="1fd3b-123">User operation log by China working rule</span></span>](tasks/user-operation-log-china-working-rule.md)
 
-## <a name="additional-resources"></a><span data-ttu-id="8dfe3-124">其他资源</span><span class="sxs-lookup"><span data-stu-id="8dfe3-124">Additional resources</span></span>
-- [<span data-ttu-id="8dfe3-125">Microsoft Dynamics 本地化门户：中国报表</span><span class="sxs-lookup"><span data-stu-id="8dfe3-125">Microsoft Dynamics Localization Portal: China report</span></span>](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/China.html)
-- [<span data-ttu-id="8dfe3-126">电子申报概览</span><span class="sxs-lookup"><span data-stu-id="8dfe3-126">Electronic reporting overview</span></span>](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [<span data-ttu-id="8dfe3-127">从 Lifecycle Services 下载电子申报配置</span><span class="sxs-lookup"><span data-stu-id="8dfe3-127">Download Electronic reporting configurations from Lifecycle Services</span></span>](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+## <a name="additional-resources"></a><span data-ttu-id="1fd3b-124">其他资源</span><span class="sxs-lookup"><span data-stu-id="1fd3b-124">Additional resources</span></span>
+- [<span data-ttu-id="1fd3b-125">Microsoft Dynamics 本地化门户：中国报表</span><span class="sxs-lookup"><span data-stu-id="1fd3b-125">Microsoft Dynamics Localization Portal: China report</span></span>](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/China.html)
+- [<span data-ttu-id="1fd3b-126">电子申报概览</span><span class="sxs-lookup"><span data-stu-id="1fd3b-126">Electronic reporting overview</span></span>](../../dev-itpro/analytics/general-electronic-reporting.md)
+- [<span data-ttu-id="1fd3b-127">从 Lifecycle Services 下载电子申报配置</span><span class="sxs-lookup"><span data-stu-id="1fd3b-127">Download Electronic reporting configurations from Lifecycle Services</span></span>](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)

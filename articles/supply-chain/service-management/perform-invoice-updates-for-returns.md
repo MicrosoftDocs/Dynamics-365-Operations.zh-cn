@@ -15,44 +15,44 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec803aaa2f750c43a1865c9536730b275e6ef1d4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 5d60e29aec1ebdec939aaafc978ee4de04b96136
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202123"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983835"
 ---
-# <a name="perform-invoice-updates-for-returns"></a><span data-ttu-id="c46e3-103">为退货执行发票更新</span><span class="sxs-lookup"><span data-stu-id="c46e3-103">Perform invoice updates for returns</span></span> 
+# <a name="perform-invoice-updates-for-returns"></a><span data-ttu-id="1ff6a-103">为退货执行发票更新</span><span class="sxs-lookup"><span data-stu-id="1ff6a-103">Perform invoice updates for returns</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="c46e3-104">退货单是一种标记为退回订单的销售订单。</span><span class="sxs-lookup"><span data-stu-id="c46e3-104">A return order is a type of sales order that is marked as a returned order.</span></span> <span data-ttu-id="c46e3-105">因此，**所有销售订单**列表页用于生成退货单的发票，而不是从**退货单**窗体中生成。</span><span class="sxs-lookup"><span data-stu-id="c46e3-105">Therefore, the **All sales orders** list page is used to generate invoices for return orders instead of the **Return orders** form.</span></span> <span data-ttu-id="c46e3-106">此功能支持组织选择采用的业务流程，即同时由同一人对退货单和销售订单开票。</span><span class="sxs-lookup"><span data-stu-id="c46e3-106">This functionality supports the business processes of organizations that choose to have return orders and sales orders invoiced at the same time and by the same person.</span></span>
+<span data-ttu-id="1ff6a-104">退货单是一种标记为退回订单的销售订单。</span><span class="sxs-lookup"><span data-stu-id="1ff6a-104">A return order is a type of sales order that is marked as a returned order.</span></span> <span data-ttu-id="1ff6a-105">因此，**所有销售订单**列表页用于生成退货单的发票，而不是从**退货单**窗体中生成。</span><span class="sxs-lookup"><span data-stu-id="1ff6a-105">Therefore, the **All sales orders** list page is used to generate invoices for return orders instead of the **Return orders** form.</span></span> <span data-ttu-id="1ff6a-106">此功能支持组织选择采用的业务流程，即同时由同一人对退货单和销售订单开票。</span><span class="sxs-lookup"><span data-stu-id="1ff6a-106">This functionality supports the business processes of organizations that choose to have return orders and sales orders invoiced at the same time and by the same person.</span></span>
 
-<span data-ttu-id="c46e3-107">由于退回物料的发票用于负金额，称作贷方通知单。</span><span class="sxs-lookup"><span data-stu-id="c46e3-107">Because the invoice for a returned item is for a negative amount, it is called a credit note.</span></span>
+<span data-ttu-id="1ff6a-107">由于退回物料的发票用于负金额，称作贷方通知单。</span><span class="sxs-lookup"><span data-stu-id="1ff6a-107">Because the invoice for a returned item is for a negative amount, it is called a credit note.</span></span>
 
-<span data-ttu-id="c46e3-108">在您为批处理设置发票更新时，**退回订单**类型的销售订单必须具有**已接收**的退货单行状态，指示该订单的装箱单已更新。</span><span class="sxs-lookup"><span data-stu-id="c46e3-108">When you set up the invoice update for batch processing, the sales order of type **Returned order** must have a return line status of **Received**, which indicates that the order's packing slip has been updated.</span></span>
+<span data-ttu-id="1ff6a-108">在您为批处理设置发票更新时，**退回订单**类型的销售订单必须具有**已接收**的退货单行状态，指示该订单的装箱单已更新。</span><span class="sxs-lookup"><span data-stu-id="1ff6a-108">When you set up the invoice update for batch processing, the sales order of type **Returned order** must have a return line status of **Received**, which indicates that the order's packing slip has been updated.</span></span>
 
-## <a name="post-an-invoice-for-a-return-order"></a><span data-ttu-id="c46e3-109">过帐退货单的发票</span><span class="sxs-lookup"><span data-stu-id="c46e3-109">Post an invoice for a return order</span></span>
+## <a name="post-an-invoice-for-a-return-order"></a><span data-ttu-id="1ff6a-109">过帐退货单的发票</span><span class="sxs-lookup"><span data-stu-id="1ff6a-109">Post an invoice for a return order</span></span>
 
-1.  <span data-ttu-id="c46e3-110">单击**应收帐款** \> **通用** \> **销售订单** \> **所有销售订单**。</span><span class="sxs-lookup"><span data-stu-id="c46e3-110">Click **Accounts receivable** \> **Common** \> **Sales orders** \> **All sales orders**.</span></span>
+1.  <span data-ttu-id="1ff6a-110">单击**应收帐款** \> **通用** \> **销售订单** \> **所有销售订单**。</span><span class="sxs-lookup"><span data-stu-id="1ff6a-110">Click **Accounts receivable** \> **Common** \> **Sales orders** \> **All sales orders**.</span></span>
 
-2.  <span data-ttu-id="c46e3-111">选择在**订单类型**字段中显示的**退回订单**的销售订单。</span><span class="sxs-lookup"><span data-stu-id="c46e3-111">Select a sales order for which **Returned order** is displayed in the **Order type** field.</span></span>
+2.  <span data-ttu-id="1ff6a-111">选择在**订单类型**字段中显示的**退回订单**的销售订单。</span><span class="sxs-lookup"><span data-stu-id="1ff6a-111">Select a sales order for which **Returned order** is displayed in the **Order type** field.</span></span>
 
-3.  <span data-ttu-id="c46e3-112">在操作窗格**发票**选项卡的**常规**组中，单击**发票**。</span><span class="sxs-lookup"><span data-stu-id="c46e3-112">On the Action Pane, on the **Invoice** tab, in the **Generate** group, click **Invoice**.</span></span>
+3.  <span data-ttu-id="1ff6a-112">在操作窗格**发票**选项卡的**常规**组中，单击**发票**。</span><span class="sxs-lookup"><span data-stu-id="1ff6a-112">On the Action Pane, on the **Invoice** tab, in the **Generate** group, click **Invoice**.</span></span>
 
-4.  <span data-ttu-id="c46e3-113">在**参数**选项卡上，选中**过帐**复选框。</span><span class="sxs-lookup"><span data-stu-id="c46e3-113">On the **Parameters** tab, select the **Posting** check box.</span></span>
+4.  <span data-ttu-id="1ff6a-113">在**参数**选项卡上，选中**过帐**复选框。</span><span class="sxs-lookup"><span data-stu-id="1ff6a-113">On the **Parameters** tab, select the **Posting** check box.</span></span>
 
-5.  <span data-ttu-id="c46e3-114">查看窗体中的信息，并进行必要的更改。</span><span class="sxs-lookup"><span data-stu-id="c46e3-114">Review information in the form and make any changes that are needed.</span></span>
+5.  <span data-ttu-id="1ff6a-114">查看窗体中的信息，并进行必要的更改。</span><span class="sxs-lookup"><span data-stu-id="1ff6a-114">Review information in the form and make any changes that are needed.</span></span>
 
-6.  <span data-ttu-id="c46e3-115">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="c46e3-115">Click **OK**.</span></span> <span data-ttu-id="c46e3-116">– 贷方通知单已过帐。</span><span class="sxs-lookup"><span data-stu-id="c46e3-116">The credit note is posted.</span></span>
+6.  <span data-ttu-id="1ff6a-115">单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="1ff6a-115">Click **OK**.</span></span> <span data-ttu-id="1ff6a-116">– 贷方通知单已过帐。</span><span class="sxs-lookup"><span data-stu-id="1ff6a-116">The credit note is posted.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c46e3-117">请参阅</span><span class="sxs-lookup"><span data-stu-id="c46e3-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1ff6a-117">请参阅</span><span class="sxs-lookup"><span data-stu-id="1ff6a-117">See also</span></span>
 
-[<span data-ttu-id="c46e3-118">退货的装箱单更新</span><span class="sxs-lookup"><span data-stu-id="c46e3-118">Packing slip updates for returns</span></span>](packing-slip-updates-returns.md)
+[<span data-ttu-id="1ff6a-118">退货的装箱单更新</span><span class="sxs-lookup"><span data-stu-id="1ff6a-118">Packing slip updates for returns</span></span>](packing-slip-updates-returns.md)
 
   
 

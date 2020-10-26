@@ -14,47 +14,47 @@ ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5f1afae08344a096c582c059e44b7ecf3e29606
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1745642dd270e62557b8624cc9daf85d13da044e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216957"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982568"
 ---
-# <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-an-item-arrival-journal"></a><span data-ttu-id="8ba03-103">使用物料到达日记帐登记启用的基础仓库物料</span><span class="sxs-lookup"><span data-stu-id="8ba03-103">Register items for a basic warehousing enabled item using an item an item arrival journal</span></span>
+# <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-an-item-arrival-journal"></a><span data-ttu-id="bb278-103">使用物料到达日记帐登记启用的基础仓库物料</span><span class="sxs-lookup"><span data-stu-id="bb278-103">Register items for a basic warehousing enabled item using an item an item arrival journal</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8ba03-104">此过程说明了在库存管理模块中使用“基本仓库”时如何使用物料到达日记帐登记物料。</span><span class="sxs-lookup"><span data-stu-id="8ba03-104">This procedure shows you how to register items using the item arrival journal when you are using "basic warehousing" in the Inventory management module.</span></span> <span data-ttu-id="8ba03-105">这将通常由一个收料员完成。</span><span class="sxs-lookup"><span data-stu-id="8ba03-105">This would usually be done by a receiving clerk.</span></span> <span data-ttu-id="8ba03-106">您可以使用所示的示例值运行 USMF 公司演示数据的过程。</span><span class="sxs-lookup"><span data-stu-id="8ba03-106">You can run this procedure in demo data company USMF with the example values that are shown.</span></span>  <span data-ttu-id="8ba03-107">如果您没有使用 USMF，则在开始本指南前，您需要使用未结采购订单行以确认采购订单。</span><span class="sxs-lookup"><span data-stu-id="8ba03-107">If you are not using USMF, you need to have a confirmed purchase order with an open purchase order line before you start this guide.</span></span> <span data-ttu-id="8ba03-108">必须贮存行中的物料。</span><span class="sxs-lookup"><span data-stu-id="8ba03-108">The item on the line must be stocked.</span></span> <span data-ttu-id="8ba03-109">而且物料需与存储维度组进行关联，其站点和仓库是有效的。</span><span class="sxs-lookup"><span data-stu-id="8ba03-109">And the item needs to be associated with a storage dimension group, where site and warehouse are active.</span></span>
+<span data-ttu-id="bb278-104">此过程说明了在库存管理模块中使用“基本仓库”时如何使用物料到达日记帐登记物料。</span><span class="sxs-lookup"><span data-stu-id="bb278-104">This procedure shows you how to register items using the item arrival journal when you are using "basic warehousing" in the Inventory management module.</span></span> <span data-ttu-id="bb278-105">这将通常由一个收料员完成。</span><span class="sxs-lookup"><span data-stu-id="bb278-105">This would usually be done by a receiving clerk.</span></span> <span data-ttu-id="bb278-106">您可以使用所示的示例值运行 USMF 公司演示数据的过程。</span><span class="sxs-lookup"><span data-stu-id="bb278-106">You can run this procedure in demo data company USMF with the example values that are shown.</span></span>  <span data-ttu-id="bb278-107">如果您没有使用 USMF，则在开始本指南前，您需要使用未结采购订单行以确认采购订单。</span><span class="sxs-lookup"><span data-stu-id="bb278-107">If you are not using USMF, you need to have a confirmed purchase order with an open purchase order line before you start this guide.</span></span> <span data-ttu-id="bb278-108">必须贮存行中的物料。</span><span class="sxs-lookup"><span data-stu-id="bb278-108">The item on the line must be stocked.</span></span> <span data-ttu-id="bb278-109">而且物料需与存储维度组进行关联，其站点和仓库是有效的。</span><span class="sxs-lookup"><span data-stu-id="bb278-109">And the item needs to be associated with a storage dimension group, where site and warehouse are active.</span></span>
 
 
-## <a name="create-item-arrival-journal-header"></a><span data-ttu-id="8ba03-110">创建物料到达日记帐标题</span><span class="sxs-lookup"><span data-stu-id="8ba03-110">Create item arrival journal header</span></span>
-1. <span data-ttu-id="8ba03-111">转到“库存管理”>“日记帐条目”>“物料到达”>“物料到达”。</span><span class="sxs-lookup"><span data-stu-id="8ba03-111">Go to Inventory management > Journal entries > Item arrival > Item arrival.</span></span>
-2. <span data-ttu-id="8ba03-112">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="8ba03-112">Click New.</span></span>
-3. <span data-ttu-id="8ba03-113">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="8ba03-113">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="8ba03-114">如果您正在使用 USMF，可以键入 WHS。</span><span class="sxs-lookup"><span data-stu-id="8ba03-114">If you are using USMF, you can type WHS.</span></span> <span data-ttu-id="8ba03-115">如果您正在使用其他数据，您选择的日记帐名称必须具有以下属性：“检查领料库位”必须设置为“否”，以及“检验管理”必须设置为“否”。</span><span class="sxs-lookup"><span data-stu-id="8ba03-115">If you're using other data, the journal whose name you choose has to have the following properties: cheque picking location must be set to No, and Quarantine management must be set to No.</span></span>  
-4. <span data-ttu-id="8ba03-116">在“装箱单”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="8ba03-116">In the Packing slip field, type a value.</span></span>
-    * <span data-ttu-id="8ba03-117">它是来自供应商签发的装箱单的 ID。</span><span class="sxs-lookup"><span data-stu-id="8ba03-117">This is the packing slip ID from the packing slip issued by the vendor.</span></span> <span data-ttu-id="8ba03-118">添加唯一编号。</span><span class="sxs-lookup"><span data-stu-id="8ba03-118">Add a unique number.</span></span>  
-5. <span data-ttu-id="8ba03-119">在“数字”字段中，在“数字”字段中，选择采购订单..</span><span class="sxs-lookup"><span data-stu-id="8ba03-119">In the Number field, In the Number field, select the purchase order..</span></span>
-6. <span data-ttu-id="8ba03-120">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="8ba03-120">Click OK.</span></span>
+## <a name="create-item-arrival-journal-header"></a><span data-ttu-id="bb278-110">创建物料到达日记帐标题</span><span class="sxs-lookup"><span data-stu-id="bb278-110">Create item arrival journal header</span></span>
+1. <span data-ttu-id="bb278-111">转到“库存管理”>“日记帐条目”>“物料到达”>“物料到达”。</span><span class="sxs-lookup"><span data-stu-id="bb278-111">Go to Inventory management > Journal entries > Item arrival > Item arrival.</span></span>
+2. <span data-ttu-id="bb278-112">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="bb278-112">Click New.</span></span>
+3. <span data-ttu-id="bb278-113">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="bb278-113">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="bb278-114">如果您正在使用 USMF，可以键入 WHS。</span><span class="sxs-lookup"><span data-stu-id="bb278-114">If you are using USMF, you can type WHS.</span></span> <span data-ttu-id="bb278-115">如果您正在使用其他数据，您选择的日记帐名称必须具有以下属性：“检查领料库位”必须设置为“否”，以及“检验管理”必须设置为“否”。</span><span class="sxs-lookup"><span data-stu-id="bb278-115">If you're using other data, the journal whose name you choose has to have the following properties: cheque picking location must be set to No, and Quarantine management must be set to No.</span></span>  
+4. <span data-ttu-id="bb278-116">在“装箱单”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="bb278-116">In the Packing slip field, type a value.</span></span>
+    * <span data-ttu-id="bb278-117">它是来自供应商签发的装箱单的 ID。</span><span class="sxs-lookup"><span data-stu-id="bb278-117">This is the packing slip ID from the packing slip issued by the vendor.</span></span> <span data-ttu-id="bb278-118">添加唯一编号。</span><span class="sxs-lookup"><span data-stu-id="bb278-118">Add a unique number.</span></span>  
+5. <span data-ttu-id="bb278-119">在“数字”字段中，在“数字”字段中，选择采购订单..</span><span class="sxs-lookup"><span data-stu-id="bb278-119">In the Number field, In the Number field, select the purchase order..</span></span>
+6. <span data-ttu-id="bb278-120">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="bb278-120">Click OK.</span></span>
 
-## <a name="add-lines-to-item-arrival-journal"></a><span data-ttu-id="8ba03-121">添加行至物料到达日记帐</span><span class="sxs-lookup"><span data-stu-id="8ba03-121">Add lines to item arrival journal</span></span>
-1. <span data-ttu-id="8ba03-122">单击“功能”。</span><span class="sxs-lookup"><span data-stu-id="8ba03-122">Click Functions.</span></span>
-2. <span data-ttu-id="8ba03-123">单击“创建行”。</span><span class="sxs-lookup"><span data-stu-id="8ba03-123">Click Create lines.</span></span>
-    * <span data-ttu-id="8ba03-124">行可以手动输入到此日记帐中或自动创建。</span><span class="sxs-lookup"><span data-stu-id="8ba03-124">The lines can be entered manually into this journal or created automatically.</span></span> <span data-ttu-id="8ba03-125">它将显示您如何自动创建此字段。</span><span class="sxs-lookup"><span data-stu-id="8ba03-125">This will show you how to create this automatically.</span></span>  
-3. <span data-ttu-id="8ba03-126">选中或取消选中“初始化数量”复选框。</span><span class="sxs-lookup"><span data-stu-id="8ba03-126">Check or uncheck the Initialize quantity checkbox.</span></span>
-    * <span data-ttu-id="8ba03-127">这将用采购订单行未登记的数量初始化日记帐行上的数量。</span><span class="sxs-lookup"><span data-stu-id="8ba03-127">This will initialize the quantity on the journal lines with the quantity not registered from the purchase order line.</span></span>  
-4. <span data-ttu-id="8ba03-128">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="8ba03-128">Click OK.</span></span>
+## <a name="add-lines-to-item-arrival-journal"></a><span data-ttu-id="bb278-121">添加行至物料到达日记帐</span><span class="sxs-lookup"><span data-stu-id="bb278-121">Add lines to item arrival journal</span></span>
+1. <span data-ttu-id="bb278-122">单击“功能”。</span><span class="sxs-lookup"><span data-stu-id="bb278-122">Click Functions.</span></span>
+2. <span data-ttu-id="bb278-123">单击“创建行”。</span><span class="sxs-lookup"><span data-stu-id="bb278-123">Click Create lines.</span></span>
+    * <span data-ttu-id="bb278-124">行可以手动输入到此日记帐中或自动创建。</span><span class="sxs-lookup"><span data-stu-id="bb278-124">The lines can be entered manually into this journal or created automatically.</span></span> <span data-ttu-id="bb278-125">它将显示您如何自动创建此字段。</span><span class="sxs-lookup"><span data-stu-id="bb278-125">This will show you how to create this automatically.</span></span>  
+3. <span data-ttu-id="bb278-126">选中或取消选中“初始化数量”复选框。</span><span class="sxs-lookup"><span data-stu-id="bb278-126">Check or uncheck the Initialize quantity checkbox.</span></span>
+    * <span data-ttu-id="bb278-127">这将用采购订单行未登记的数量初始化日记帐行上的数量。</span><span class="sxs-lookup"><span data-stu-id="bb278-127">This will initialize the quantity on the journal lines with the quantity not registered from the purchase order line.</span></span>  
+4. <span data-ttu-id="bb278-128">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="bb278-128">Click OK.</span></span>
 
-## <a name="post-the-journal"></a><span data-ttu-id="8ba03-129">过帐日记帐</span><span class="sxs-lookup"><span data-stu-id="8ba03-129">Post the journal</span></span>
-1. <span data-ttu-id="8ba03-130">单击“过帐”。</span><span class="sxs-lookup"><span data-stu-id="8ba03-130">Click Post.</span></span>
-2. <span data-ttu-id="8ba03-131">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="8ba03-131">Click OK.</span></span>
+## <a name="post-the-journal"></a><span data-ttu-id="bb278-129">过帐日记帐</span><span class="sxs-lookup"><span data-stu-id="bb278-129">Post the journal</span></span>
+1. <span data-ttu-id="bb278-130">单击“过帐”。</span><span class="sxs-lookup"><span data-stu-id="bb278-130">Click Post.</span></span>
+2. <span data-ttu-id="bb278-131">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="bb278-131">Click OK.</span></span>
 
-## <a name="generate-the-product-receipt"></a><span data-ttu-id="8ba03-132">生成产品收据</span><span class="sxs-lookup"><span data-stu-id="8ba03-132">Generate the product receipt</span></span>
-1. <span data-ttu-id="8ba03-133">单击“功能”。</span><span class="sxs-lookup"><span data-stu-id="8ba03-133">Click Functions.</span></span>
-2. <span data-ttu-id="8ba03-134">单击“产品收据”。</span><span class="sxs-lookup"><span data-stu-id="8ba03-134">Click Product receipt.</span></span>
-3. <span data-ttu-id="8ba03-135">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="8ba03-135">Click OK.</span></span>
+## <a name="generate-the-product-receipt"></a><span data-ttu-id="bb278-132">生成产品收据</span><span class="sxs-lookup"><span data-stu-id="bb278-132">Generate the product receipt</span></span>
+1. <span data-ttu-id="bb278-133">单击“功能”。</span><span class="sxs-lookup"><span data-stu-id="bb278-133">Click Functions.</span></span>
+2. <span data-ttu-id="bb278-134">单击“产品收据”。</span><span class="sxs-lookup"><span data-stu-id="bb278-134">Click Product receipt.</span></span>
+3. <span data-ttu-id="bb278-135">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="bb278-135">Click OK.</span></span>
 
