@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: v-chgri
 ms.search.scope: Core, Operations, Retail
 ms.search.region: global
-ms.author: boycezhu
+ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: ccb2d62b09153d03b064d9661227f3499d67bca2
-ms.sourcegitcommit: dc1dcd0ccc40be5d45701114fa8c952c13488344
+ms.openlocfilehash: 6946cb5f8bc8aa451f72d1eebcd324f408ad5f7a
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "3641025"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975063"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>对 POS 登录启用 Azure Active Directory 身份验证
 [!include [banner](includes/banner.md)]

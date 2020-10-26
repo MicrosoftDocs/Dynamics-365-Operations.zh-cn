@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6710dcb1cb53e7221b03b35ceee5ac8e055b6dd2
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826398"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958733"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>用于精益生产的可视排产
 
@@ -61,7 +61,7 @@ ms.locfileid: "3826398"
 
 ### <a name="view-the-time-scale"></a>查看时间刻度
 
-该板划分为多个时间段，每个时间段表示为一个节点 (4)。 时间段节点列在垂直轴上，水平访问表示显示时间段长度的时间刻度 (7)。 时间段的长度为一天或一周。 时间段长度由为看板计划板 (2) 选择的工作单元的配置确定。 对于每个时间段节点，看板计划板指示有多少已计划的看板计划加载此时间段。 此外还存在该时间段最大生产量的指示。 如果已计划的生产量超出最大生产量，则该时间段被视为超负荷，并且显示红色警告符号。 已计划的看板作业显示在已计划了开始和结束时间 (5) 的时间段中。 作业的长度与活动时间相等。 如果看板作业的活动时间超出工作单元的单位产品生产时间，则该看板作业在时间段中显示为重叠。
+该板划分为多个时间段，每个时间段表示为一个节点 (4)。 时间段节点列在垂直轴上，水平轴表示显示时间段长度的时间刻度 (7)。 时间段的长度为一天或一周。 时间段长度由为看板计划板 (2) 选择的工作单元的配置确定。 对于每个时间段节点，看板计划板指示有多少已计划的看板计划加载此时间段。 此外还存在该时间段最大生产量的指示。 如果已计划的生产量超出最大生产量，则该时间段被视为超负荷，并且显示红色警告符号。 已计划的看板作业显示在已计划了开始和结束时间 (5) 的时间段中。 作业的长度与活动时间相等。 如果看板作业的活动时间超出工作单元的任务时间，则该看板作业在时间段中显示为重叠。
 
 ### <a name="view-job-status"></a>查看作业状态
 

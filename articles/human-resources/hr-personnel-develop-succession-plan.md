@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cf056f9c8f1f24bb6eb0f619c476b1095a854bb
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e9334bb8a594d19aa82167cfa11a9522bbba4bea
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428631"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958835"
 ---
 # <a name="develop-succession-plan"></a>制订继任计划
 
@@ -38,7 +38,7 @@ ms.locfileid: "3428631"
 7. 单击“人员”。
 8. 在“人员”字段中，键入名称或选择拖放功能。  示例：Cassie Hicks。
 9. 单击“确定”。
-10. 展开“证书”快速选项卡以查看或编辑含技能表所包含的证书。
+10. 展开“证书”快速选项卡以查看或编辑技能表中包括的证书。
 11. 展开“技能”快速选项卡以查看或编辑技能。
 12. 在列表中，标记第一行。  示例：会计
 13. 单击“可选”复选框。

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 65304216b579b8def493d1e4218174cb9617013d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: d75e6a8b48447a33156e03d50e990b8514bacda9
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652171"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970695"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>灵活的仓库级维度预留策略
 
@@ -233,6 +233,9 @@ ms.locfileid: "3652171"
 ![“按牌照处理”选项设置为“是”的移动设备菜单项](media/Handle-by-LP-menu-item.png)
 
 由于**按牌照处理**功能不支持包含多个托盘的工作，因此最好为不同的牌照使用单独的工作项。 要使用此方法，请在**工作模板**页面上添加**订单承诺牌照 ID** 字段作为工作标题分行符。
+
+> [!NOTE]
+> 对于订单承诺工作创建过程，“订单承诺库存维度”值将分配给领料工作行，并且无法直接查看牌照值。 在设置移动设备菜单项时，仅支持*用户导向*过程。
 
 ## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>示例方案：设置和处理订单承诺牌照预留
 

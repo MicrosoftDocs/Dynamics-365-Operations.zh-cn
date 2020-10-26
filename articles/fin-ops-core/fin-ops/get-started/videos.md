@@ -3,7 +3,7 @@ title: 视频
 description: 此页列出 Microsoft 制作的与 Finance and Operations应用有关的“操作方法”视频和技术交流视频，可在 YouTube 和其他网站中观看。
 author: sericks007
 manager: AnnBe
-ms.date: 07/31/2020
+ms.date: 10/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: c620e5e75ba1c547f0a1ee6830a5cf1b7fa58377
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: f61872e25cd2e91724d4918b8f974ee913913d37
+ms.sourcegitcommit: 47166b3e10097cc2754e0c8459f62dcdeef27053
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645357"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "3991444"
 ---
 # <a name="videos"></a>视频 
 
@@ -82,6 +82,7 @@ ms.locfileid: "3645357"
 - [如何使用任务录制器为 Regression Suite Automation Tool (RSAT) 创建测试案例](https://youtu.be/bBr4BXAxTNI)
 - [如何在 Azure DevOps 中创建用于 Regression Suite Automation Tool (RSAT) 的测试计划](https://youtu.be/3jIuBleAnQk) 
 - [如何使用 Regression Suite Automation Tool (RSAT)](https://youtu.be/uhN9JItzGAk)
+- [Regression Suite Automation Tool (RSAT) 2.0 中的改进的 Excel 体验](https://youtu.be/fcEkSIVQ1Bg)
 
 
 ## <a name="videos-for-dynamics-365-finance"></a>Dynamics 365 Finance 的视频

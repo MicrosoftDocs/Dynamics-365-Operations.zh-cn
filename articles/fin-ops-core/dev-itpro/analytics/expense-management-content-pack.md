@@ -14,15 +14,15 @@ ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0dcb6114544b3817d8b80122a32759e67ad8dc94
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2f47fe032896d314a144f825cddf6eb5f1b74a70
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181695"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984002"
 ---
 # <a name="expense-management-power-bi-content"></a>费用管理 Power BI 内容
 

@@ -3,7 +3,7 @@ title: 键盘快捷方式
 description: 本主题概述使用 Finance and Operations 应用时可使用的快捷键组合。
 author: jasongre
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
-ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
+ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
+ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761613"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3962512"
 ---
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
@@ -32,6 +32,8 @@ ms.locfileid: "3761613"
 
 > [!NOTE]
 > 此处描述的键盘快捷方式是指美式键盘布局。 其他键盘布局中的键可能不能与美式键盘上的键完全对应。
+
+此页面上的某些快捷方式是*键和弦*，这意味着它们需要两组连续的键组合（以逗号分隔），需要分别按下这些键组合才能触发所需的操作。 例如，快捷方式“Alt+M,A”要求用户首先按“Alt+M”，释放这些键，然后按“A”。 
 
 ## <a name="finding-a-shortcut"></a>查找快捷方式
 
@@ -193,7 +195,7 @@ ms.locfileid: "3761613"
 | 移到主页内容（焦点在其他窗格内）                    | Alt+M、M                    |
 | 移到速见表窗格（可能包括将其打开）                       | Alt+M、B 或 Ctrl+F2         |
 
-## <a name="personalization-shortcuts"></a>个性化快捷方式
+## <a name="personalization-shortcuts"></a>[个性化](personalize-user-experience.md)快捷方式 
 
 | 要执行的操作                                                                                                             | 按                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
@@ -237,7 +239,20 @@ ms.locfileid: "3761613"
 | 上移/下移查找中的页                                                                                       | Page up / Page down              |
 | 移到查找的顶部/底部                                                                                    | Home / End                       |
 
+## <a name="task-recordershortcuts"></a>[任务录制器](../../dev-itpro/user-interface/task-recorder.md)快捷方式 
+
+| 要执行的操作                                                                    | 按                       |
+|-------------------------------------------------------------------------------|----------------------------|
+| 停止录制（在录音时）                                          | Alt+R,S                    |
+| 切换“任务录制器”窗格的可见性（在录制时）             | Alt+R,T                    |
+| 切换 Rails 模式（在播放任务指南时）                                | Alt+R,L                    |
+| 转到上一步（在播放任务指南时）                          | Alt+R,P                    |
+| 转到下一步（在播放任务指南时）                              | Alt+R,N                    |
+| 在页面和动画弹出提示之间切换焦点（在播放任务指南时） | Alt+R,F               |
+| 展开/折叠动画弹出提示（在播放任务指南时）              | Alt+R,C                    |
+| 在动画弹出提示中显示更多/更少信息（在播放任务指南时） | Alt+R,M                    |
+
 ## <a name="additional-resources"></a>其他资源
 
-- [缺少科目分析的键盘快捷方式](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
+[缺少科目分析的键盘快捷方式](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 

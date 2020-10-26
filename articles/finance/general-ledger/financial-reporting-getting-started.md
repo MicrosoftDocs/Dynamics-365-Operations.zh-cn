@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: 363ce16b31a199e519c969746c4f10430d9d7497
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835102"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967250"
 ---
 # <a name="get-started-with-financial-reporting"></a>开始使用 Financial reporting 
 
@@ -149,7 +149,12 @@ ms.locfileid: "3835102"
 * 在 Internet Explorer 中，选择**设置**，然后选择 **Internet 选项**。 选择**安全**选项卡。选择“受信任站点”。 在标有此区域的安全级别区域中，将此选项更改为**中-低**。
 * 在浏览器中禁用弹出窗口阻止程序。
 * 工作站需要安装 Microsoft .NET Framework 4.6.2 或更高版本。 可从 [Microsoft 下载中心](https://www.microsoft.com/download/details.aspx?id=53345)下载和安装此版本的 Microsoft .NET Framework。
-* 如果使用的是 Chrome 浏览器，则必须安装 ClickOnce 扩展才能下载报表设计器客户端。 如果以匿名模式运行，请确保为匿名模式启用了 ClickOnce 扩展。 如果您无法使用 Chrome 登录，请尝试使用 Internet Explorer 或 Edge 按照问题 1 中描述的设置步骤操作。 
+* 如果您结合使用 Microsoft Edge 和 Chrome 浏览器，则必须安装 ClickOnce 扩展才能下载报表设计器客户端。 如果以匿名模式运行，请确保为匿名模式启用了 ClickOnce 扩展。 
+     1. 在 Microsoft Edge 中打开新浏览器。
+     2. 输入 **edge://flags**，然后选择**输入**。
+     3. 搜索 **ClickOnce 支持**选项或使用此直接链接：**edge://flags/#edge-click-once**。
+     4. 将下拉菜单选项设置为**已启用**。
+     5. 选择**重启浏览器**。
 
 问题 2：未为用户分配使用 Financial Reporting 所需的权限。 
 

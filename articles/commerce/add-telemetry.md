@@ -3,7 +3,7 @@ title: 将脚本代码添加到站点页面以支持遥测
 description: 此主题介绍如何向站点页添加客户端脚本代码来支持收集客户端遥测。
 author: bicyclingfool
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a88f4f920154aafaa15a48af67365152e21111f7
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e15ba6a0d624bd97c25936aa6d3bfafb844b66c0
+ms.sourcegitcommit: 7e8a9f92a2675bf5b620889678a2918f63f3e199
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761241"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3901488"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>将脚本代码添加到站点页面以支持遥测
 
@@ -64,6 +64,9 @@ ms.locfileid: "3761241"
 1. 在右侧的属性窗格中，在**脚本源**下，为外部脚本源添加一个外部或相对 URL。 然后根据需要配置其他选项。
 1. 选择**保存**，然后选择**完成编辑**。
 1. 选择**发布**。
+
+> [!NOTE]
+> 如果为您的站点启用了内容安全策略 (CSP)，请确保将所有外部 URL 添加到 Commerce 站点构建器中的 **script-src** CSP 指令。 有关详细信息，请参阅[管理内容安全策略 (CSP)](manage-csp.md)。
 
 ## <a name="add-a-fragment-that-includes-script-code-to-a-template"></a>将包含脚本代码的片段添加到模板
 
