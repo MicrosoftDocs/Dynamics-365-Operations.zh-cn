@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: mikefalkner
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5d1c58463c24dc6a40b036f0bb803316bbb65c2
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: e3244d857a9135249130672501f8b766ff9a0680
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091891"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980930"
 ---
 # <a name="reverse-journal-posting"></a>冲销日记帐过帐
 

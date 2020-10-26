@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: v-olbara
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 373b6bf6219ef76bacef3c67a816aec4c084c405
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: f4d095456435a3401daa173d79b80b81176a3c17
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383719"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987110"
 ---
 # <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>使用自动发放销售订单发放到仓库时使用合并
 
@@ -215,7 +215,7 @@ ms.locfileid: "3383719"
 1. 创建具有以下设置的两个相同销售订单：
 
     - **客户帐户**：*US-007*
-    - **站点**： *6*
+    - **站点**：*6*
     - **仓库**：*61*
     - **池**：保持此字段为空。
 

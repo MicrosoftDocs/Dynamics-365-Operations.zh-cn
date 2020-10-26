@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
-ms.author: rschloma
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e110c7fe6881825fe2b075c1795bc4f7e938da4
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 147dc55160de7d3cc01cc077095d2eb71f4d7861
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811499"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978170"
 ---
 # <a name="view-and-export-field-descriptions"></a>查看和导出字段描述
 

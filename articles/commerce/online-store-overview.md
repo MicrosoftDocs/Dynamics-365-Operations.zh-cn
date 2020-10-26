@@ -1,7 +1,7 @@
 ---
 title: 在线商店概览
 description: 本主题讨论 Dynamics 365 Commerce 中的在线商店。
-author: stuharg
+author: bicyclingfool
 manager: AnnBe
 ms.date: 10/01/2019
 ms.topic: article
@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: bicyclingfool
+ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e3dd95800699360f1e33d5efe947358aaaddeee
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: da73ca07426aa072b8dfd33cd63d3138930000ec
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003341"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984290"
 ---
 # <a name="online-store-overview"></a>在线商店概览
 [!include [banner](includes/banner.md)]
