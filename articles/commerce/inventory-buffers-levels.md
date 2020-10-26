@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: v-chgri
 ms.search.scope: Core, Operations, Retail
 ms.search.region: global
-ms.author: boycezhu
+ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 8a07e951aadaa1cc44b637ef9fd77f5f4e84cbda
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: ef58dbb756c7bed3924010cb33eff27af66cd0bd
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621159"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982592"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>配置库存缓冲区和库存级别
 

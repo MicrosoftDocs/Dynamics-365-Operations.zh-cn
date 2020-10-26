@@ -16,15 +16,15 @@ ms.custom: 201853
 ms.assetid: c0286bba-f54b-42de-904c-81fd796bdd1d
 ms.search.region: global
 ms.search.industry: Product information
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 424919625f39127a1b2dcc6be446d01804f79f7e
-ms.sourcegitcommit: 3cc289399e8879b499e31a9559e1031d6ca8570a
+ms.openlocfilehash: 08cdf168ab64a34e781c85db2990f483ce7f7463
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3885961"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980982"
 ---
 # <a name="product-related-translations-faq"></a>与产品相关的翻译常见问题
 

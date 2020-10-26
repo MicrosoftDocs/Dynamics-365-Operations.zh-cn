@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2e9af7167e4a4209b708d00493b8866f6d5f7e0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 981068d26d232b10efd8d7288daaf7358aee3728
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209919"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980686"
 ---
 # <a name="process-rebates-for-payment"></a>处理付款返利
 
@@ -42,7 +42,7 @@ ms.locfileid: "3209919"
     * 根据您想要包括在贷方通知单中的要求，设置“标记”字段中的核取标志。   
 9. 单击“功能”。
 10. 单击“创建贷方通知单”。
-    * 一条消息会显示，以通知您某一日记帐已过帐（这是“应收账款参数”页中明确指出的“应收账款耗损日记帐”)。 这会导致实际负债（贷方）金额被移到客户余额。 这意味着，客户的帐户已被记入贷方，“返利”应计项目帐户已被记入借方。  
+    * 一条消息会显示，以通知您某一日记帐已过帐（这是“应收账款参数”页中明确指出的“应收账款耗损日记帐”）。 这会导致实际负债（贷方）金额被移到客户余额。 这意味着，客户的帐户已被记入贷方，“返利”应计项目帐户已被记入借方。  
 11. 关闭该页面。
 12. 单击“取消”。
     * 这会刷新页面，以便您可以查看更新。  

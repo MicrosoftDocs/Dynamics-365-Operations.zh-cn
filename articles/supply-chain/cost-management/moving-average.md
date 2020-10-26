@@ -16,15 +16,15 @@ ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 40cb135c285afb4466f36dbe637368829fec196f
-ms.sourcegitcommit: 097e92f4da7ed9c33f8eb0a7e09969260c399446
+ms.openlocfilehash: fb0472a0d2ac9b552cd16e4d6bf516a876ea4a0e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763601"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981503"
 ---
 # <a name="moving-average"></a>移动平均
 

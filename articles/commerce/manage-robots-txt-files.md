@@ -14,15 +14,15 @@ ms.reviewer: v-chgri
 ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: brishoo
+ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b3856a7a0b4b198e71ce9af6691b1d90362f3e7
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 1f7a779d69bf49d3416de3e92d4414cfabf358eb
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533405"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983615"
 ---
 # <a name="manage-robotstxt-files"></a>管理 robots.txt 文件
 

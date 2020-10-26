@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cb725885fb48293a08915f13a4fb14085e930444
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 88c94306eda4eb462f6b3fae73e0cdb05ed647a1
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205797"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984026"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>取消仓库工作以进行异常处理
 

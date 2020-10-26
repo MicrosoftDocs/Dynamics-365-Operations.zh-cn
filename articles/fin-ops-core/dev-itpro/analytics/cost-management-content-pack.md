@@ -16,15 +16,15 @@ ms.custom: 270314
 ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54da05bb6b84390f9928d8400e3dafc3228ee2fc
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: b4e12abceeef59d05fa21cb030b8aa738842cafb
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759248"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982789"
 ---
 # <a name="cost-management-power-bi-content"></a>成本管理 Power BI 内容
 

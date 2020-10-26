@@ -16,15 +16,15 @@ ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd84e6c01c3942bd72e174cdb818ae5afda18bf1
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 9119655384cd05e5aa3622712e699b346a43f492
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826230"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981320"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>管理生产中的转包工作
 

@@ -14,15 +14,15 @@ ms.reviewer: v-chgri
 ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: BriShoo
+ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f31f8898358626f2b008826aa69694dc16742aa0
-ms.sourcegitcommit: 59a9e840989bc9f2c7004efa3499b69c09a91b06
+ms.openlocfilehash: 1910563865a21dab3345a82711ead9b9e57b92fa
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677896"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980956"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>在 Commerce 中设置 B2C 租户
 

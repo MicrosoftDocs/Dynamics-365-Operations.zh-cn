@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35c7237bd84aeb13f6c24626a6aaa722f8ad5756
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 823ef5cddbba8a72bd67ba87edd1aa497022a81e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206695"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981785"
 ---
 # <a name="set-up-template-to-represent-objects-at-customer-site"></a>设置表示客户站点中对象的模板 
 

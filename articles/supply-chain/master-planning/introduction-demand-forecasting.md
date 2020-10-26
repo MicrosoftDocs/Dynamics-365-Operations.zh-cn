@@ -16,15 +16,15 @@ ms.custom: 72004
 ms.assetid: 916707c9-1333-460f-a0fa-4e95f6fda2ad
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1033432d0d820516d8c9b2f58f27241351e7c64b
-ms.sourcegitcommit: 2e7454c07adfc05164121307050f6f24303d36d2
+ms.openlocfilehash: 62ee31b7931c6e7d8f54c1efb556a2ba01eb7746
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3550032"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981442"
 ---
 # <a name="demand-forecasting-overview"></a>需求预测概览
 

@@ -16,15 +16,15 @@ ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3d85d10113e7cc4e95a25efe7fee6d1f23990694
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208452"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979820"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>产品配置模型中的表达式约束和表约束
 
@@ -83,7 +83,7 @@ ms.locfileid: "3208452"
 
 ### <a name="expression-constraint-setup"></a>表达式约束设置
 
-(颜色 == “黑色” & (尺寸 == “30” | 尺寸 == “50”)) | (颜色 ==“红色” & 大小 = “20” ）
+(颜色 == “黑色” & (尺寸 == “30” | 尺寸 == “50”)) | (颜色 ==“红色” & 大小 = “20”)
 
 ## <a name="should-i-use-operators-or-infix-notation-when-i-write-expression-constraints"></a>当我编写表达式约束时，我应该使用运算符还是中缀表示法？
 您既可以使用运算符又可以使用中缀表示法来编写表达式约束。 对于**Min**、**Max**和**Abs**运算符，您不能使用中缀表示法。 这些运算符作为标准运算符包括在大多数编程语言中。
