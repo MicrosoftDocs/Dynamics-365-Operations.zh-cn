@@ -13,27 +13,27 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 73bd97793ecd390cd1b9a2295d6cff4cfe909f6e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f4bcea2107c1510423145f6246c7b71d05598e79
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213346"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986424"
 ---
-# <a name="add-an-image-to-a-product"></a><span data-ttu-id="90316-103">向产品添加图像</span><span class="sxs-lookup"><span data-stu-id="90316-103">Add an image to a product</span></span>
+# <a name="add-an-image-to-a-product"></a><span data-ttu-id="fd173-103">向产品添加图像</span><span class="sxs-lookup"><span data-stu-id="fd173-103">Add an image to a product</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="90316-104">此过程显示如何向产品添加图像。用于创建此任务的演示数据公司为 USMF。</span><span class="sxs-lookup"><span data-stu-id="90316-104">This procedure shows how to add an image to a product The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="fd173-104">此过程显示如何向产品添加图像。用于创建此任务的演示数据公司为 USMF。</span><span class="sxs-lookup"><span data-stu-id="fd173-104">This procedure shows how to add an image to a product The demo data company used to create this task is USMF.</span></span>
 
-1. <span data-ttu-id="90316-105">转到“产品信息管理”>“产品”>“已发布产品”。</span><span class="sxs-lookup"><span data-stu-id="90316-105">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="90316-106">展开“产品图像”速见表。</span><span class="sxs-lookup"><span data-stu-id="90316-106">Expand the Product image FactBox.</span></span>
-3. <span data-ttu-id="90316-107">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="90316-107">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="90316-108">例如，选择物料编号 C0002。</span><span class="sxs-lookup"><span data-stu-id="90316-108">For example, select the item number C0002.</span></span>  
-4. <span data-ttu-id="90316-109">单击“更改图像”。</span><span class="sxs-lookup"><span data-stu-id="90316-109">Click Change image.</span></span>
-5. <span data-ttu-id="90316-110">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="90316-110">Click New.</span></span>
-    * <span data-ttu-id="90316-111">单击浏览。</span><span class="sxs-lookup"><span data-stu-id="90316-111">Click Browse.</span></span> <span data-ttu-id="90316-112">找到要使用的图像，选择，然后关闭对话框。</span><span class="sxs-lookup"><span data-stu-id="90316-112">Find the image that you want to use, select it, and then close the dialog box.</span></span>    
+1. <span data-ttu-id="fd173-105">转到“产品信息管理”>“产品”>“已发布产品”。</span><span class="sxs-lookup"><span data-stu-id="fd173-105">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="fd173-106">展开“产品图像”速见表。</span><span class="sxs-lookup"><span data-stu-id="fd173-106">Expand the Product image FactBox.</span></span>
+3. <span data-ttu-id="fd173-107">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="fd173-107">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="fd173-108">例如，选择物料编号 C0002。</span><span class="sxs-lookup"><span data-stu-id="fd173-108">For example, select the item number C0002.</span></span>  
+4. <span data-ttu-id="fd173-109">单击“更改图像”。</span><span class="sxs-lookup"><span data-stu-id="fd173-109">Click Change image.</span></span>
+5. <span data-ttu-id="fd173-110">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="fd173-110">Click New.</span></span>
+    * <span data-ttu-id="fd173-111">单击浏览。</span><span class="sxs-lookup"><span data-stu-id="fd173-111">Click Browse.</span></span> <span data-ttu-id="fd173-112">找到要使用的图像，选择，然后关闭对话框。</span><span class="sxs-lookup"><span data-stu-id="fd173-112">Find the image that you want to use, select it, and then close the dialog box.</span></span>    
 

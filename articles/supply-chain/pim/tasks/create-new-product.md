@@ -13,33 +13,33 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0bf15359e085b541407bb49c266f7d9505893e25
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2a4745fe4fc44f85bcfd388ee573f5a6d0cd8519
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203702"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986160"
 ---
-# <a name="create-a-new-product"></a><span data-ttu-id="e02e7-103">创建新产品</span><span class="sxs-lookup"><span data-stu-id="e02e7-103">Create a new product</span></span>
+# <a name="create-a-new-product"></a><span data-ttu-id="d985b-103">创建新产品</span><span class="sxs-lookup"><span data-stu-id="d985b-103">Create a new product</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="e02e7-104">此主题描述如何创建新共享产品。</span><span class="sxs-lookup"><span data-stu-id="e02e7-104">This topic describes how to create a new shared product.</span></span> <span data-ttu-id="e02e7-105">它通常由产品设计器执行。</span><span class="sxs-lookup"><span data-stu-id="e02e7-105">It is usually carried out by a product designer.</span></span> <span data-ttu-id="e02e7-106">创建此任务的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="e02e7-106">The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="d985b-104">此主题描述如何创建新共享产品。</span><span class="sxs-lookup"><span data-stu-id="d985b-104">This topic describes how to create a new shared product.</span></span> <span data-ttu-id="d985b-105">它通常由产品设计器执行。</span><span class="sxs-lookup"><span data-stu-id="d985b-105">It is usually carried out by a product designer.</span></span> <span data-ttu-id="d985b-106">创建此任务的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="d985b-106">The demo data company used to create this task is USMF.</span></span>
 
 
-## <a name="create-a-product"></a><span data-ttu-id="e02e7-107">创建产品</span><span class="sxs-lookup"><span data-stu-id="e02e7-107">Create a product</span></span>
-1. <span data-ttu-id="e02e7-108">在导航窗格中，转到**导航窗格 > 模块 > 产品信息管理 > 产品 > 产品**。</span><span class="sxs-lookup"><span data-stu-id="e02e7-108">In the Navigation pane, go to **Modules > Product information management > Products > Products**.</span></span>
-2. <span data-ttu-id="e02e7-109">选择**新建**。</span><span class="sxs-lookup"><span data-stu-id="e02e7-109">Select **New**.</span></span>
-3. <span data-ttu-id="e02e7-110">在**产品编号**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="e02e7-110">In the **Product number** field, type a value.</span></span> <span data-ttu-id="e02e7-111">如果编号规则没有为产品编号设置，必须手动输入它。</span><span class="sxs-lookup"><span data-stu-id="e02e7-111">If a number sequence has not been set up for the product number, it must be entered manually.</span></span>  
-4. <span data-ttu-id="e02e7-112">在**产品名称**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="e02e7-112">In the **Product name** field, type a value.</span></span> <span data-ttu-id="e02e7-113">产品名称默认为搜索名称。</span><span class="sxs-lookup"><span data-stu-id="e02e7-113">The product name defaults to the search name.</span></span> <span data-ttu-id="e02e7-114">可以根据需要更改。</span><span class="sxs-lookup"><span data-stu-id="e02e7-114">You can change this if needed.</span></span>  
-5. <span data-ttu-id="e02e7-115">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="e02e7-115">Select **OK**.</span></span>
+## <a name="create-a-product"></a><span data-ttu-id="d985b-107">创建产品</span><span class="sxs-lookup"><span data-stu-id="d985b-107">Create a product</span></span>
+1. <span data-ttu-id="d985b-108">在导航窗格中，转到**导航窗格 > 模块 > 产品信息管理 > 产品 > 产品**。</span><span class="sxs-lookup"><span data-stu-id="d985b-108">In the Navigation pane, go to **Modules > Product information management > Products > Products**.</span></span>
+2. <span data-ttu-id="d985b-109">选择**新建**。</span><span class="sxs-lookup"><span data-stu-id="d985b-109">Select **New**.</span></span>
+3. <span data-ttu-id="d985b-110">在**产品编号**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="d985b-110">In the **Product number** field, type a value.</span></span> <span data-ttu-id="d985b-111">如果编号规则没有为产品编号设置，必须手动输入它。</span><span class="sxs-lookup"><span data-stu-id="d985b-111">If a number sequence has not been set up for the product number, it must be entered manually.</span></span>  
+4. <span data-ttu-id="d985b-112">在**产品名称**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="d985b-112">In the **Product name** field, type a value.</span></span> <span data-ttu-id="d985b-113">产品名称默认为搜索名称。</span><span class="sxs-lookup"><span data-stu-id="d985b-113">The product name defaults to the search name.</span></span> <span data-ttu-id="d985b-114">可以根据需要更改。</span><span class="sxs-lookup"><span data-stu-id="d985b-114">You can change this if needed.</span></span>  
+5. <span data-ttu-id="d985b-115">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="d985b-115">Select **OK**.</span></span>
 
-## <a name="set-up-dimension-groups"></a><span data-ttu-id="e02e7-116">设置维度组</span><span class="sxs-lookup"><span data-stu-id="e02e7-116">Set up dimension groups</span></span>
-1. <span data-ttu-id="e02e7-117">单击**维度组**以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="e02e7-117">Select **Dimension groups** to open the drop dialog.</span></span>
-2. <span data-ttu-id="e02e7-118">在**存储维度组**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="e02e7-118">In the **Storage dimension group** field, enter or select a value.</span></span> <span data-ttu-id="e02e7-119">存储维度组确定哪些存储维度您必须在产品的每个交易记录中输入，以及如何在库存中跟踪。</span><span class="sxs-lookup"><span data-stu-id="e02e7-119">The storage dimension group determines which storage dimensions you must enter on each transaction for the product and how it will be tracked in inventory.</span></span>  
-3. <span data-ttu-id="e02e7-120">在**跟踪维度组**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="e02e7-120">In the **Tracking dimension group** field, enter or select a value.</span></span> <span data-ttu-id="e02e7-121">跟踪维度组确定哪些跟踪维度您必须为产品的每个交易记录输入，以及如何在库存中处置。</span><span class="sxs-lookup"><span data-stu-id="e02e7-121">The tracking dimension group determines which tracking dimensions you must enter for each transaction for the product, and how it will be handled in inventory.</span></span>  
-4. <span data-ttu-id="e02e7-122">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="e02e7-122">Select **OK**.</span></span>
+## <a name="set-up-dimension-groups"></a><span data-ttu-id="d985b-116">设置维度组</span><span class="sxs-lookup"><span data-stu-id="d985b-116">Set up dimension groups</span></span>
+1. <span data-ttu-id="d985b-117">单击**维度组**以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="d985b-117">Select **Dimension groups** to open the drop dialog.</span></span>
+2. <span data-ttu-id="d985b-118">在**存储维度组**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="d985b-118">In the **Storage dimension group** field, enter or select a value.</span></span> <span data-ttu-id="d985b-119">存储维度组确定哪些存储维度您必须在产品的每个交易记录中输入，以及如何在库存中跟踪。</span><span class="sxs-lookup"><span data-stu-id="d985b-119">The storage dimension group determines which storage dimensions you must enter on each transaction for the product and how it will be tracked in inventory.</span></span>  
+3. <span data-ttu-id="d985b-120">在**跟踪维度组**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="d985b-120">In the **Tracking dimension group** field, enter or select a value.</span></span> <span data-ttu-id="d985b-121">跟踪维度组确定哪些跟踪维度您必须为产品的每个交易记录输入，以及如何在库存中处置。</span><span class="sxs-lookup"><span data-stu-id="d985b-121">The tracking dimension group determines which tracking dimensions you must enter for each transaction for the product, and how it will be handled in inventory.</span></span>  
+4. <span data-ttu-id="d985b-122">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="d985b-122">Select **OK**.</span></span>
 

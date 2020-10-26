@@ -1,5 +1,5 @@
 ---
-title: 供应商发票自动化
+title: 已扫描单据的发票自动化
 description: 此主题说明对供应商发票（甚至是包括附件的发票）端到端自动化提供的功能。
 author: abruer
 manager: AnnBe
@@ -16,219 +16,219 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4560d7b61fa8f014f9a1185da087df8b1c8e61ba
-ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
+ms.openlocfilehash: f6d19d0e10f477e498e8f0fff1f431bc4bfdd9a1
+ms.sourcegitcommit: 6ffbae02de2eee1f3be9bab2da37a3771aae8bec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "3396001"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "3904947"
 ---
-# <a name="vendor-invoice-automation"></a><span data-ttu-id="9723c-103">供应商发票自动化</span><span class="sxs-lookup"><span data-stu-id="9723c-103">Vendor invoice automation</span></span>
+# <a name="invoice-automation-for-scanned-documents"></a><span data-ttu-id="74280-103">已扫描单据的发票自动化</span><span class="sxs-lookup"><span data-stu-id="74280-103">Invoice automation for scanned documents</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="9723c-104">此主题说明对供应商发票（甚至是包括附件的发票）端到端自动化提供的功能。</span><span class="sxs-lookup"><span data-stu-id="9723c-104">This topic explains the features that are available for end-to-end automation of vendor invoices, even invoices that include attachments.</span></span>
+<span data-ttu-id="74280-104">此主题说明对供应商发票（甚至是包括附件的发票）端到端自动化提供的功能。</span><span class="sxs-lookup"><span data-stu-id="74280-104">This topic explains the features that are available for end-to-end automation of vendor invoices, even invoices that include attachments.</span></span>
 
-<span data-ttu-id="9723c-105">想要优化其应付账款 (AP) 流程的组织通常将发票处理确定为应提高效率的优先流程领域。</span><span class="sxs-lookup"><span data-stu-id="9723c-105">Organizations that want to streamline their Accounts payable (AP) processes often identify invoice processing as one of the top process areas that should be more efficient.</span></span> <span data-ttu-id="9723c-106">在大多数情况下，这些组织将纸质发票的处理委托给第三方光学字符识别 (OCR) 服务提供商。</span><span class="sxs-lookup"><span data-stu-id="9723c-106">In many cases, these organizations offload the processing of paper invoices to a third-party optical character recognition (OCR) service provider.</span></span> <span data-ttu-id="9723c-107">然后，他们收到机器可读的发票元数据和每张发票的扫描图像。</span><span class="sxs-lookup"><span data-stu-id="9723c-107">They then receive machine-readable invoice metadata together with a scanned image of each invoice.</span></span> <span data-ttu-id="9723c-108">为了帮助实现自动化，生成了“最后一英里”解决方案以实现这些项目在发票系统中的使用。</span><span class="sxs-lookup"><span data-stu-id="9723c-108">To help with automation, a “last mile” solution is then built to enable consumption of these artifacts in the invoicing system.</span></span> <span data-ttu-id="9723c-109">现在通过发票自动化解决方案实现此现成的“最后一英里”自动化。</span><span class="sxs-lookup"><span data-stu-id="9723c-109">Now this “last mile” automation is enabled out of the box, through an invoice automation solution.</span></span>
+<span data-ttu-id="74280-105">想要优化其应付账款 (AP) 流程的组织通常将发票处理确定为应提高效率的优先流程领域。</span><span class="sxs-lookup"><span data-stu-id="74280-105">Organizations that want to streamline their Accounts payable (AP) processes often identify invoice processing as one of the top process areas that should be more efficient.</span></span> <span data-ttu-id="74280-106">在大多数情况下，这些组织将纸质发票的处理委托给第三方光学字符识别 (OCR) 服务提供商。</span><span class="sxs-lookup"><span data-stu-id="74280-106">In many cases, these organizations offload the processing of paper invoices to a third-party optical character recognition (OCR) service provider.</span></span> <span data-ttu-id="74280-107">然后，他们收到机器可读的发票元数据和每张发票的扫描图像。</span><span class="sxs-lookup"><span data-stu-id="74280-107">They then receive machine-readable invoice metadata together with a scanned image of each invoice.</span></span> <span data-ttu-id="74280-108">为了帮助实现自动化，生成了“最后一英里”解决方案以实现这些项目在发票系统中的使用。</span><span class="sxs-lookup"><span data-stu-id="74280-108">To help with automation, a “last mile” solution is then built to enable consumption of these artifacts in the invoicing system.</span></span> <span data-ttu-id="74280-109">现在通过发票自动化解决方案实现此现成的“最后一英里”自动化。</span><span class="sxs-lookup"><span data-stu-id="74280-109">Now this “last mile” automation is enabled out of the box, through an invoice automation solution.</span></span>
 
-## <a name="solution-context"></a><span data-ttu-id="9723c-110">解决方案环境</span><span class="sxs-lookup"><span data-stu-id="9723c-110">Solution context</span></span>
+## <a name="solution-context"></a><span data-ttu-id="74280-110">解决方案环境</span><span class="sxs-lookup"><span data-stu-id="74280-110">Solution context</span></span>
 
-<span data-ttu-id="9723c-111">发票自动化解决方案支持标准界面，可以接受发票抬头和发票行的发票元数据，以及适用于发票的附件。</span><span class="sxs-lookup"><span data-stu-id="9723c-111">The invoice automation solution enables a standard interface that can accept invoice metadata for the invoice header and invoice lines, and also attachments that are applicable to the invoice.</span></span> <span data-ttu-id="9723c-112">可能生成符合此界面的项目的任何外部系统将能够发送馈送进行发票和附件的自动化处理。</span><span class="sxs-lookup"><span data-stu-id="9723c-112">Any external system that can generate artifacts that comply with this interface will be able to send the feed for automatic processing of invoices and attachments.</span></span>
+<span data-ttu-id="74280-111">发票自动化解决方案支持标准界面，可以接受发票抬头和发票行的发票元数据，以及适用于发票的附件。</span><span class="sxs-lookup"><span data-stu-id="74280-111">The invoice automation solution enables a standard interface that can accept invoice metadata for the invoice header and invoice lines, and also attachments that are applicable to the invoice.</span></span> <span data-ttu-id="74280-112">可能生成符合此界面的项目的任何外部系统将能够发送馈送进行发票和附件的自动化处理。</span><span class="sxs-lookup"><span data-stu-id="74280-112">Any external system that can generate artifacts that comply with this interface will be able to send the feed for automatic processing of invoices and attachments.</span></span>
 
-<span data-ttu-id="9723c-113">下图显示 Contoso 与 OCR 服务提供商合作进行供应商发票处理的集成示例场景。</span><span class="sxs-lookup"><span data-stu-id="9723c-113">The following illustration shows a sample integration scenario where Contoso has partnered with an OCR service provider for vendor invoice processing.</span></span> <span data-ttu-id="9723c-114">Contoso 的供应商通过电子邮件将发票发送给服务提供商。</span><span class="sxs-lookup"><span data-stu-id="9723c-114">Contoso’s vendors send invoices to the service provider by email.</span></span> <span data-ttu-id="9723c-115">通过 OCR 处理，该服务提供商生成发票元数据（抬头和/或行）和发票的扫描图像。</span><span class="sxs-lookup"><span data-stu-id="9723c-115">Through OCR processing, the service provider generates invoice metadata (header and/or lines) and a scanned image of the invoice.</span></span> <span data-ttu-id="9723c-116">然后，集成层将这些项目进行转换，使其可以使用。</span><span class="sxs-lookup"><span data-stu-id="9723c-116">An integration layer then transforms these artifacts so that they can be consumed.</span></span>
+<span data-ttu-id="74280-113">下图显示 Contoso 与 OCR 服务提供商合作进行供应商发票处理的集成示例场景。</span><span class="sxs-lookup"><span data-stu-id="74280-113">The following illustration shows a sample integration scenario where Contoso has partnered with an OCR service provider for vendor invoice processing.</span></span> <span data-ttu-id="74280-114">Contoso 的供应商通过电子邮件将发票发送给服务提供商。</span><span class="sxs-lookup"><span data-stu-id="74280-114">Contoso’s vendors send invoices to the service provider by email.</span></span> <span data-ttu-id="74280-115">通过 OCR 处理，该服务提供商生成发票元数据（抬头和/或行）和发票的扫描图像。</span><span class="sxs-lookup"><span data-stu-id="74280-115">Through OCR processing, the service provider generates invoice metadata (header and/or lines) and a scanned image of the invoice.</span></span> <span data-ttu-id="74280-116">然后，集成层将这些项目进行转换，使其可以使用。</span><span class="sxs-lookup"><span data-stu-id="74280-116">An integration layer then transforms these artifacts so that they can be consumed.</span></span>
 
 ![集成示例场景](media/vendor_invoice_automation_01.png)
 
-<span data-ttu-id="9723c-118">如果要求发票集成，上述场景可以存在多种变体。</span><span class="sxs-lookup"><span data-stu-id="9723c-118">Several variations of the preceding scenario are possible if invoice integration is required.</span></span> <span data-ttu-id="9723c-119">数据迁移是使用此界面创建发票和附件的另一个使用案例。</span><span class="sxs-lookup"><span data-stu-id="9723c-119">Data migration is another use case where this interface can be used to create invoices and attachments.</span></span>
+<span data-ttu-id="74280-118">如果要求发票集成，上述场景可以存在多种变体。</span><span class="sxs-lookup"><span data-stu-id="74280-118">Several variations of the preceding scenario are possible if invoice integration is required.</span></span> <span data-ttu-id="74280-119">数据迁移是使用此界面创建发票和附件的另一个使用案例。</span><span class="sxs-lookup"><span data-stu-id="74280-119">Data migration is another use case where this interface can be used to create invoices and attachments.</span></span>
 
-### <a name="solution-components"></a><span data-ttu-id="9723c-120">解决方案构成</span><span class="sxs-lookup"><span data-stu-id="9723c-120">Solution components</span></span>
+### <a name="solution-components"></a><span data-ttu-id="74280-120">解决方案构成</span><span class="sxs-lookup"><span data-stu-id="74280-120">Solution components</span></span>
 
-<span data-ttu-id="9723c-121">解决方案足迹包括以下构成：</span><span class="sxs-lookup"><span data-stu-id="9723c-121">The solution footprint consists of the following components:</span></span>
+<span data-ttu-id="74280-121">解决方案足迹包括以下构成：</span><span class="sxs-lookup"><span data-stu-id="74280-121">The solution footprint consists of the following components:</span></span>
 
-+ <span data-ttu-id="9723c-122">发票抬头、发票行和发票附件的数据实体</span><span class="sxs-lookup"><span data-stu-id="9723c-122">Data entities for the invoice header, invoice lines, and invoice attachments</span></span>
-+ <span data-ttu-id="9723c-123">异常发票处理</span><span class="sxs-lookup"><span data-stu-id="9723c-123">Exception processing for invoices</span></span>
-+ <span data-ttu-id="9723c-124">发票中的并行附件查看器</span><span class="sxs-lookup"><span data-stu-id="9723c-124">A side-by-side attachment viewer in invoices</span></span>
++ <span data-ttu-id="74280-122">发票抬头、发票行和发票附件的数据实体</span><span class="sxs-lookup"><span data-stu-id="74280-122">Data entities for the invoice header, invoice lines, and invoice attachments</span></span>
++ <span data-ttu-id="74280-123">异常发票处理</span><span class="sxs-lookup"><span data-stu-id="74280-123">Exception processing for invoices</span></span>
++ <span data-ttu-id="74280-124">发票中的并行附件查看器</span><span class="sxs-lookup"><span data-stu-id="74280-124">A side-by-side attachment viewer in invoices</span></span>
 
-<span data-ttu-id="9723c-125">此主题的其余内容提供关于这些解决方案构成的详细说明。</span><span class="sxs-lookup"><span data-stu-id="9723c-125">The rest of this topic provides detailed descriptions of these solution components.</span></span>
+<span data-ttu-id="74280-125">此主题的其余内容提供关于这些解决方案构成的详细说明。</span><span class="sxs-lookup"><span data-stu-id="74280-125">The rest of this topic provides detailed descriptions of these solution components.</span></span>
 
-## <a name="data-entities"></a><span data-ttu-id="9723c-126">数据实体</span><span class="sxs-lookup"><span data-stu-id="9723c-126">Data entities</span></span>
+## <a name="data-entities"></a><span data-ttu-id="74280-126">数据实体</span><span class="sxs-lookup"><span data-stu-id="74280-126">Data entities</span></span>
 
-<span data-ttu-id="9723c-127">数据包是指必须发送以创建发票抬头、发票行和发票附件的工作单元。</span><span class="sxs-lookup"><span data-stu-id="9723c-127">A data package is the unit of work that must be sent so that invoice headers, invoice lines, and invoice attachments can be created.</span></span> <span data-ttu-id="9723c-128">以下数据实体用于构成数据包的项目：</span><span class="sxs-lookup"><span data-stu-id="9723c-128">The following data entities are used for the artifacts that make up the data package:</span></span>
+<span data-ttu-id="74280-127">数据包是指必须发送以创建发票抬头、发票行和发票附件的工作单元。</span><span class="sxs-lookup"><span data-stu-id="74280-127">A data package is the unit of work that must be sent so that invoice headers, invoice lines, and invoice attachments can be created.</span></span> <span data-ttu-id="74280-128">以下数据实体用于构成数据包的项目：</span><span class="sxs-lookup"><span data-stu-id="74280-128">The following data entities are used for the artifacts that make up the data package:</span></span>
 
-+ <span data-ttu-id="9723c-129">供应商发票标题</span><span class="sxs-lookup"><span data-stu-id="9723c-129">Vendor invoice header</span></span>
-+ <span data-ttu-id="9723c-130">供应商发票行</span><span class="sxs-lookup"><span data-stu-id="9723c-130">Vendor invoice line</span></span>
-+ <span data-ttu-id="9723c-131">供应商发票文档附件</span><span class="sxs-lookup"><span data-stu-id="9723c-131">Vendor invoice document attachment</span></span>
++ <span data-ttu-id="74280-129">供应商发票标题</span><span class="sxs-lookup"><span data-stu-id="74280-129">Vendor invoice header</span></span>
++ <span data-ttu-id="74280-130">供应商发票行</span><span class="sxs-lookup"><span data-stu-id="74280-130">Vendor invoice line</span></span>
++ <span data-ttu-id="74280-131">供应商发票文档附件</span><span class="sxs-lookup"><span data-stu-id="74280-131">Vendor invoice document attachment</span></span>
 
-<span data-ttu-id="9723c-132">供应商发票文档附件是作为此功能的一部分而引进的新数据实体。</span><span class="sxs-lookup"><span data-stu-id="9723c-132">Vendor invoice document attachment is a new data entity that is introduced as part of this feature.</span></span> <span data-ttu-id="9723c-133">供应商发票抬头实体已经过修改以支持附件。</span><span class="sxs-lookup"><span data-stu-id="9723c-133">The Vendor invoice header entity has been modified so that it supports attachments.</span></span> <span data-ttu-id="9723c-134">供应商发票行实体未针对此功能进行修改。</span><span class="sxs-lookup"><span data-stu-id="9723c-134">The Vendor invoice line entity hasn’t been modified for this feature.</span></span>
+<span data-ttu-id="74280-132">供应商发票文档附件是作为此功能的一部分而引进的新数据实体。</span><span class="sxs-lookup"><span data-stu-id="74280-132">Vendor invoice document attachment is a new data entity that is introduced as part of this feature.</span></span> <span data-ttu-id="74280-133">供应商发票抬头实体已经过修改以支持附件。</span><span class="sxs-lookup"><span data-stu-id="74280-133">The Vendor invoice header entity has been modified so that it supports attachments.</span></span> <span data-ttu-id="74280-134">供应商发票行实体未针对此功能进行修改。</span><span class="sxs-lookup"><span data-stu-id="74280-134">The Vendor invoice line entity hasn’t been modified for this feature.</span></span>
 
-<span data-ttu-id="9723c-135">有关数据包的详细信息，请参阅[数据管理概述](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)。</span><span class="sxs-lookup"><span data-stu-id="9723c-135">For detailed information about data packages, see [Data management overview](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).</span></span> <span data-ttu-id="9723c-136">有关如何使用数据管理工作区创建数据包的信息，请参阅[处理和使用 Dynamics 365 Finance and Operations 应用解决方案中的数据包](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md)。</span><span class="sxs-lookup"><span data-stu-id="9723c-136">For information about how to create data packages using the data management workspace, see [Process and consume data packages in Dynamics 365 Finance and Operations apps solution](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).</span></span>
+<span data-ttu-id="74280-135">有关数据包的详细信息，请参阅[数据管理概述](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)。</span><span class="sxs-lookup"><span data-stu-id="74280-135">For detailed information about data packages, see [Data management overview](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).</span></span> <span data-ttu-id="74280-136">有关如何使用数据管理工作区创建数据包的信息，请参阅[处理和使用 Dynamics 365 Finance and Operations 应用解决方案中的数据包](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md)。</span><span class="sxs-lookup"><span data-stu-id="74280-136">For information about how to create data packages using the data management workspace, see [Process and consume data packages in Dynamics 365 Finance and Operations apps solution](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).</span></span>
 
-<span data-ttu-id="9723c-137">要快速生成包括发票和附件的测试数据，请执行以下步骤。</span><span class="sxs-lookup"><span data-stu-id="9723c-137">To quickly generate test data that includes invoices and attachments, follow these steps.</span></span>
+<span data-ttu-id="74280-137">要快速生成包括发票和附件的测试数据，请执行以下步骤。</span><span class="sxs-lookup"><span data-stu-id="74280-137">To quickly generate test data that includes invoices and attachments, follow these steps.</span></span>
 
-1. <span data-ttu-id="9723c-138">登录您的实例。</span><span class="sxs-lookup"><span data-stu-id="9723c-138">Sign in to your instance.</span></span>
-1. <span data-ttu-id="9723c-139">转到**应付账款** > **发票** > **待定供应商发票**。</span><span class="sxs-lookup"><span data-stu-id="9723c-139">Go to **Accounts payables** > **Invoices** > **Pending vendor invoices**.</span></span>
-1. <span data-ttu-id="9723c-140">创建具有行和附件的发票。</span><span class="sxs-lookup"><span data-stu-id="9723c-140">Create invoices that have lines and attachments.</span></span>
+1. <span data-ttu-id="74280-138">登录您的实例。</span><span class="sxs-lookup"><span data-stu-id="74280-138">Sign in to your instance.</span></span>
+1. <span data-ttu-id="74280-139">转到**应付账款** > **发票** > **待定供应商发票**。</span><span class="sxs-lookup"><span data-stu-id="74280-139">Go to **Accounts payables** > **Invoices** > **Pending vendor invoices**.</span></span>
+1. <span data-ttu-id="74280-140">创建具有行和附件的发票。</span><span class="sxs-lookup"><span data-stu-id="74280-140">Create invoices that have lines and attachments.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="9723c-141">附件必须是抬头附件。</span><span class="sxs-lookup"><span data-stu-id="9723c-141">The attachments must be header attachments.</span></span> <span data-ttu-id="9723c-142">目前，供应商发票文档附件实体不支持行附件。</span><span class="sxs-lookup"><span data-stu-id="9723c-142">Currently, the Vendor invoice document attachment entity doesn’t support line attachments.</span></span>
+    > <span data-ttu-id="74280-141">附件必须是抬头附件。</span><span class="sxs-lookup"><span data-stu-id="74280-141">The attachments must be header attachments.</span></span> <span data-ttu-id="74280-142">目前，供应商发票文档附件实体不支持行附件。</span><span class="sxs-lookup"><span data-stu-id="74280-142">Currently, the Vendor invoice document attachment entity doesn’t support line attachments.</span></span>
 
-1. <span data-ttu-id="9723c-143">打开**数据管理**工作区。</span><span class="sxs-lookup"><span data-stu-id="9723c-143">Open the **Data management** workspace.</span></span>
-1. <span data-ttu-id="9723c-144">创建包括供应商发票抬头、供应商发票行和供应商发票文档附件实体的导出作业。</span><span class="sxs-lookup"><span data-stu-id="9723c-144">Create an export job that includes the Vendor invoice header, Vendor invoice line, and Vendor invoice document attachment entities.</span></span>
-1. <span data-ttu-id="9723c-145">导出数据。</span><span class="sxs-lookup"><span data-stu-id="9723c-145">Export the data.</span></span>
-1. <span data-ttu-id="9723c-146">将导出的数据下载为包。</span><span class="sxs-lookup"><span data-stu-id="9723c-146">Download the exported data as a package.</span></span> <span data-ttu-id="9723c-147">您现在可以使用包将数据导入到目标实例以用于测试目的。</span><span class="sxs-lookup"><span data-stu-id="9723c-147">You can now use the package to import data into target instances for testing purposes.</span></span>
+1. <span data-ttu-id="74280-143">打开**数据管理**工作区。</span><span class="sxs-lookup"><span data-stu-id="74280-143">Open the **Data management** workspace.</span></span>
+1. <span data-ttu-id="74280-144">创建包括供应商发票抬头、供应商发票行和供应商发票文档附件实体的导出作业。</span><span class="sxs-lookup"><span data-stu-id="74280-144">Create an export job that includes the Vendor invoice header, Vendor invoice line, and Vendor invoice document attachment entities.</span></span>
+1. <span data-ttu-id="74280-145">导出数据。</span><span class="sxs-lookup"><span data-stu-id="74280-145">Export the data.</span></span>
+1. <span data-ttu-id="74280-146">将导出的数据下载为包。</span><span class="sxs-lookup"><span data-stu-id="74280-146">Download the exported data as a package.</span></span> <span data-ttu-id="74280-147">您现在可以使用包将数据导入到目标实例以用于测试目的。</span><span class="sxs-lookup"><span data-stu-id="74280-147">You can now use the package to import data into target instances for testing purposes.</span></span>
 
-### <a name="determining-the-legal-entity-for-an-invoice"></a><span data-ttu-id="9723c-148">确定发票的法人</span><span class="sxs-lookup"><span data-stu-id="9723c-148">Determining the legal entity for an invoice</span></span>
+### <a name="determining-the-legal-entity-for-an-invoice"></a><span data-ttu-id="74280-148">确定发票的法人</span><span class="sxs-lookup"><span data-stu-id="74280-148">Determining the legal entity for an invoice</span></span>
 
-<span data-ttu-id="9723c-149">通过数据包导入的发票可以通过两种方式与他们所属的法人关联：</span><span class="sxs-lookup"><span data-stu-id="9723c-149">Invoices that are imported via data packages can be associated with the legal entity that they belong to in two ways:</span></span>
+<span data-ttu-id="74280-149">通过数据包导入的发票可以通过两种方式与他们所属的法人关联：</span><span class="sxs-lookup"><span data-stu-id="74280-149">Invoices that are imported via data packages can be associated with the legal entity that they belong to in two ways:</span></span>
 
-+ <span data-ttu-id="9723c-150">处理发票的导入作业将其导入到在**数据管理**工作区中计划作业的相同公司。</span><span class="sxs-lookup"><span data-stu-id="9723c-150">The import job that processes the invoice imports it into the same company in which the job was scheduled in the **Data management** workspace.</span></span> <span data-ttu-id="9723c-151">换言之，作业的公司确定发票所属的公司。</span><span class="sxs-lookup"><span data-stu-id="9723c-151">In other words, the company of the job determines the company that the invoice belongs to.</span></span>
-+ <span data-ttu-id="9723c-152">将包含发票的数据包发送到 Finance 后，调用方（即在 Finance 以外运行的集成应用）可以在 HTTP 请求中明确记载公司 ID。</span><span class="sxs-lookup"><span data-stu-id="9723c-152">When the data package that contains invoices is sent to Finance, the caller (that is, the integration application that runs outside of Finance) can explicitly mention the company ID in the HTTP request.</span></span> <span data-ttu-id="9723c-153">在这种情况下，在 Finance 中运行的处理作业的公司环境被覆盖，发票被导入到通过 HTTP 请求传递的公司。</span><span class="sxs-lookup"><span data-stu-id="9723c-153">In this case, the company context in which the processing job runs in Finance is overridden, and the invoices are imported into the company that was passed via the HTTP request.</span></span>
++ <span data-ttu-id="74280-150">处理发票的导入作业将其导入到在**数据管理**工作区中计划作业的相同公司。</span><span class="sxs-lookup"><span data-stu-id="74280-150">The import job that processes the invoice imports it into the same company in which the job was scheduled in the **Data management** workspace.</span></span> <span data-ttu-id="74280-151">换言之，作业的公司确定发票所属的公司。</span><span class="sxs-lookup"><span data-stu-id="74280-151">In other words, the company of the job determines the company that the invoice belongs to.</span></span>
++ <span data-ttu-id="74280-152">将包含发票的数据包发送到 Finance 后，调用方（即在 Finance 以外运行的集成应用）可以在 HTTP 请求中明确记载公司 ID。</span><span class="sxs-lookup"><span data-stu-id="74280-152">When the data package that contains invoices is sent to Finance, the caller (that is, the integration application that runs outside of Finance) can explicitly mention the company ID in the HTTP request.</span></span> <span data-ttu-id="74280-153">在这种情况下，在 Finance 中运行的处理作业的公司环境被覆盖，发票被导入到通过 HTTP 请求传递的公司。</span><span class="sxs-lookup"><span data-stu-id="74280-153">In this case, the company context in which the processing job runs in Finance is overridden, and the invoices are imported into the company that was passed via the HTTP request.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="9723c-154">此行为是标准数据管理行为。</span><span class="sxs-lookup"><span data-stu-id="9723c-154">This behavior is standard data management behavior.</span></span> <span data-ttu-id="9723c-155">此处仅出于完整性的目的在发票上下文中对其进行了解释。</span><span class="sxs-lookup"><span data-stu-id="9723c-155">It’s explained here, in the context of invoices, just for the sake of completeness.</span></span>
+> <span data-ttu-id="74280-154">此行为是标准数据管理行为。</span><span class="sxs-lookup"><span data-stu-id="74280-154">This behavior is standard data management behavior.</span></span> <span data-ttu-id="74280-155">此处仅出于完整性的目的在发票上下文中对其进行了解释。</span><span class="sxs-lookup"><span data-stu-id="74280-155">It’s explained here, in the context of invoices, just for the sake of completeness.</span></span>
 
-## <a name="exception-processing"></a><span data-ttu-id="9723c-156">异常处理</span><span class="sxs-lookup"><span data-stu-id="9723c-156">Exception processing</span></span>
+## <a name="exception-processing"></a><span data-ttu-id="74280-156">异常处理</span><span class="sxs-lookup"><span data-stu-id="74280-156">Exception processing</span></span>
 
-<span data-ttu-id="9723c-157">在供应商发票通过集成进入到 Finance and Operations 的场景中，应付账款团队成员必须可以通过简单的方法处理异常或失败的发票和使用失败的发票创建待定发票。</span><span class="sxs-lookup"><span data-stu-id="9723c-157">In scenarios where vendor invoices come into Finance and Operations via integration, there must be an easy way for an Accounts payable team member to process exceptions or failed invoices, and to create pending invoices out of failed invoices.</span></span> <span data-ttu-id="9723c-158">此供应商发票异常处理现在是 Finance and Operations 的一部分。</span><span class="sxs-lookup"><span data-stu-id="9723c-158">This exception processing for vendor invoices is now part of Finance and Operations.</span></span>
+<span data-ttu-id="74280-157">在供应商发票通过集成进入到 Finance and Operations 的场景中，应付账款团队成员必须可以通过简单的方法处理异常或失败的发票和使用失败的发票创建待定发票。</span><span class="sxs-lookup"><span data-stu-id="74280-157">In scenarios where vendor invoices come into Finance and Operations via integration, there must be an easy way for an Accounts payable team member to process exceptions or failed invoices, and to create pending invoices out of failed invoices.</span></span> <span data-ttu-id="74280-158">此供应商发票异常处理现在是 Finance and Operations 的一部分。</span><span class="sxs-lookup"><span data-stu-id="74280-158">This exception processing for vendor invoices is now part of Finance and Operations.</span></span>
 
-### <a name="exceptions-list-page"></a><span data-ttu-id="9723c-159">异常列表页</span><span class="sxs-lookup"><span data-stu-id="9723c-159">Exceptions list page</span></span>
+### <a name="exceptions-list-page"></a><span data-ttu-id="74280-159">异常列表页</span><span class="sxs-lookup"><span data-stu-id="74280-159">Exceptions list page</span></span>
 
-<span data-ttu-id="9723c-160">新的发票异常列表页在**应付账款** > **发票** > **导入功能** > **导入失败的供应商发票**中可用。</span><span class="sxs-lookup"><span data-stu-id="9723c-160">The new list page for invoice exceptions is available at **Accounts payable** > **Invoices** > **Import failures** > **Vendor invoices that failed to import**.</span></span> <span data-ttu-id="9723c-161">此页显示来自供应商发票抬头数据实体暂存表的所有供应商发票抬头记录。</span><span class="sxs-lookup"><span data-stu-id="9723c-161">This page shows all the vendor invoice header records from the staging table of the Vendor invoice header data entity.</span></span> <span data-ttu-id="9723c-162">请注意，您可以查看来自**数据管理**工作区的相同记录，您也可以在这里执行在异常处理功能中提供的相同操作。</span><span class="sxs-lookup"><span data-stu-id="9723c-162">Note that you can view the same records from the **Data management** workspace, where you can also perform the same actions that are provided in the exception handling feature.</span></span> <span data-ttu-id="9723c-163">但是，异常处理功能提供的 UI 针对功能用户进行了优化。</span><span class="sxs-lookup"><span data-stu-id="9723c-163">However, the UI that the exception handling feature provides is optimized for a functional user.</span></span>
+<span data-ttu-id="74280-160">新的发票异常列表页在**应付账款** > **发票** > **导入功能** > **导入失败的供应商发票**中可用。</span><span class="sxs-lookup"><span data-stu-id="74280-160">The new list page for invoice exceptions is available at **Accounts payable** > **Invoices** > **Import failures** > **Vendor invoices that failed to import**.</span></span> <span data-ttu-id="74280-161">此页显示来自供应商发票抬头数据实体暂存表的所有供应商发票抬头记录。</span><span class="sxs-lookup"><span data-stu-id="74280-161">This page shows all the vendor invoice header records from the staging table of the Vendor invoice header data entity.</span></span> <span data-ttu-id="74280-162">请注意，您可以查看来自**数据管理**工作区的相同记录，您也可以在这里执行在异常处理功能中提供的相同操作。</span><span class="sxs-lookup"><span data-stu-id="74280-162">Note that you can view the same records from the **Data management** workspace, where you can also perform the same actions that are provided in the exception handling feature.</span></span> <span data-ttu-id="74280-163">但是，异常处理功能提供的 UI 针对功能用户进行了优化。</span><span class="sxs-lookup"><span data-stu-id="74280-163">However, the UI that the exception handling feature provides is optimized for a functional user.</span></span>
 
 ![异常列表页](media/vendor_invoice_automation_02.png)
 
-<span data-ttu-id="9723c-165">此列表页包括通过馈送进入的以下字段：</span><span class="sxs-lookup"><span data-stu-id="9723c-165">This list page includes the following fields that come in via the feed:</span></span>
+<span data-ttu-id="74280-165">此列表页包括通过馈送进入的以下字段：</span><span class="sxs-lookup"><span data-stu-id="74280-165">This list page includes the following fields that come in via the feed:</span></span>
 
-+ <span data-ttu-id="9723c-166">**公司** – 发票所属的公司</span><span class="sxs-lookup"><span data-stu-id="9723c-166">**Company** – The company that the invoice belongs to</span></span>
-+ <span data-ttu-id="9723c-167">**错误消息** –数据管理框架签发的错误消息，用来解释无法创建发票的原因</span><span class="sxs-lookup"><span data-stu-id="9723c-167">**Error message** – The error message that the data management framework issues to explain why the invoice could not be created</span></span>
-+ <span data-ttu-id="9723c-168">**编号** - 发票编号</span><span class="sxs-lookup"><span data-stu-id="9723c-168">**Number** – The invoice number</span></span>
-+ <span data-ttu-id="9723c-169">**发票帐户**</span><span class="sxs-lookup"><span data-stu-id="9723c-169">**Invoice account**</span></span>
-+ <span data-ttu-id="9723c-170">**名称** - 供应商的名称</span><span class="sxs-lookup"><span data-stu-id="9723c-170">**Name** – The vendor’s name</span></span>
-+ <span data-ttu-id="9723c-171">**供应商帐户**</span><span class="sxs-lookup"><span data-stu-id="9723c-171">**Vendor account**</span></span>
-+ <span data-ttu-id="9723c-172">**采购订单** - 发票的采购订单 (PO) 编号</span><span class="sxs-lookup"><span data-stu-id="9723c-172">**Purchase order** – The purchase order (PO) number for the invoice</span></span>
-+ <span data-ttu-id="9723c-173">**过帐日期**</span><span class="sxs-lookup"><span data-stu-id="9723c-173">**Posting date**</span></span>
-+ <span data-ttu-id="9723c-174">**发票日期**</span><span class="sxs-lookup"><span data-stu-id="9723c-174">**Invoice date**</span></span>
-+ <span data-ttu-id="9723c-175">**发票描述**</span><span class="sxs-lookup"><span data-stu-id="9723c-175">**Invoice description**</span></span>
-+ <span data-ttu-id="9723c-176">**币种**</span><span class="sxs-lookup"><span data-stu-id="9723c-176">**Currency**</span></span>
-+ <span data-ttu-id="9723c-177">**日志**</span><span class="sxs-lookup"><span data-stu-id="9723c-177">**Log**</span></span>
-+ <span data-ttu-id="9723c-178">**行参考** –来自外部系统的标识符</span><span class="sxs-lookup"><span data-stu-id="9723c-178">**Line reference** – The identifier that comes from the external system</span></span>
++ <span data-ttu-id="74280-166">**公司** – 发票所属的公司</span><span class="sxs-lookup"><span data-stu-id="74280-166">**Company** – The company that the invoice belongs to</span></span>
++ <span data-ttu-id="74280-167">**错误消息** –数据管理框架签发的错误消息，用来解释无法创建发票的原因</span><span class="sxs-lookup"><span data-stu-id="74280-167">**Error message** – The error message that the data management framework issues to explain why the invoice could not be created</span></span>
++ <span data-ttu-id="74280-168">**编号** - 发票编号</span><span class="sxs-lookup"><span data-stu-id="74280-168">**Number** – The invoice number</span></span>
++ <span data-ttu-id="74280-169">**发票帐户**</span><span class="sxs-lookup"><span data-stu-id="74280-169">**Invoice account**</span></span>
++ <span data-ttu-id="74280-170">**名称** - 供应商的名称</span><span class="sxs-lookup"><span data-stu-id="74280-170">**Name** – The vendor’s name</span></span>
++ <span data-ttu-id="74280-171">**供应商帐户**</span><span class="sxs-lookup"><span data-stu-id="74280-171">**Vendor account**</span></span>
++ <span data-ttu-id="74280-172">**采购订单** - 发票的采购订单 (PO) 编号</span><span class="sxs-lookup"><span data-stu-id="74280-172">**Purchase order** – The purchase order (PO) number for the invoice</span></span>
++ <span data-ttu-id="74280-173">**过帐日期**</span><span class="sxs-lookup"><span data-stu-id="74280-173">**Posting date**</span></span>
++ <span data-ttu-id="74280-174">**发票日期**</span><span class="sxs-lookup"><span data-stu-id="74280-174">**Invoice date**</span></span>
++ <span data-ttu-id="74280-175">**发票描述**</span><span class="sxs-lookup"><span data-stu-id="74280-175">**Invoice description**</span></span>
++ <span data-ttu-id="74280-176">**币种**</span><span class="sxs-lookup"><span data-stu-id="74280-176">**Currency**</span></span>
++ <span data-ttu-id="74280-177">**日志**</span><span class="sxs-lookup"><span data-stu-id="74280-177">**Log**</span></span>
++ <span data-ttu-id="74280-178">**行参考** –来自外部系统的标识符</span><span class="sxs-lookup"><span data-stu-id="74280-178">**Line reference** – The identifier that comes from the external system</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="9723c-179">行参考不是发票 ID。</span><span class="sxs-lookup"><span data-stu-id="9723c-179">The line reference isn’t the invoice ID.</span></span>
+    > <span data-ttu-id="74280-179">行参考不是发票 ID。</span><span class="sxs-lookup"><span data-stu-id="74280-179">The line reference isn’t the invoice ID.</span></span>
 
-<span data-ttu-id="9723c-180">此列表页还具有预览窗格，您可以通过以下方式使用：</span><span class="sxs-lookup"><span data-stu-id="9723c-180">This list page also has a preview pane that you can used in the following ways:</span></span>
+<span data-ttu-id="74280-180">此列表页还具有预览窗格，您可以通过以下方式使用：</span><span class="sxs-lookup"><span data-stu-id="74280-180">This list page also has a preview pane that you can used in the following ways:</span></span>
 
-+ <span data-ttu-id="9723c-181">查看完整的错误消息，因而无需在网格中扩展**错误消息**列。</span><span class="sxs-lookup"><span data-stu-id="9723c-181">View the whole error message, so that you don’t have to expand the **Error message** column in the grid.</span></span>
-+ <span data-ttu-id="9723c-182">如果发票伴随任何附件，则可查看发票附件的完整列表。</span><span class="sxs-lookup"><span data-stu-id="9723c-182">View the whole list of attachments for the invoice, if any attachments came with the invoice.</span></span>
++ <span data-ttu-id="74280-181">查看完整的错误消息，因而无需在网格中扩展**错误消息**列。</span><span class="sxs-lookup"><span data-stu-id="74280-181">View the whole error message, so that you don’t have to expand the **Error message** column in the grid.</span></span>
++ <span data-ttu-id="74280-182">如果发票伴随任何附件，则可查看发票附件的完整列表。</span><span class="sxs-lookup"><span data-stu-id="74280-182">View the whole list of attachments for the invoice, if any attachments came with the invoice.</span></span>
 
-<span data-ttu-id="9723c-183">列表页支持以下操作：</span><span class="sxs-lookup"><span data-stu-id="9723c-183">The list page supports the following actions:</span></span>
+<span data-ttu-id="74280-183">列表页支持以下操作：</span><span class="sxs-lookup"><span data-stu-id="74280-183">The list page supports the following actions:</span></span>
 
-+ <span data-ttu-id="9723c-184">**编辑** –在编辑模式中打开异常记录，以便修复问题。</span><span class="sxs-lookup"><span data-stu-id="9723c-184">**Edit** – Open the exception record in edit mode, so that you can fix the issues.</span></span>
-+ <span data-ttu-id="9723c-185">**选项** –访问在列表页提供的标准选项。</span><span class="sxs-lookup"><span data-stu-id="9723c-185">**Options** – Access the standard options that are available on list pages.</span></span> <span data-ttu-id="9723c-186">您可以使用**添加到工作区**选项将异常列表页作为列表或图块固定到您的工作区。</span><span class="sxs-lookup"><span data-stu-id="9723c-186">You can use the **Add to workspace** option to pin the exceptions list page to your workspace as a list or tile.</span></span>
++ <span data-ttu-id="74280-184">**编辑** –在编辑模式中打开异常记录，以便修复问题。</span><span class="sxs-lookup"><span data-stu-id="74280-184">**Edit** – Open the exception record in edit mode, so that you can fix the issues.</span></span>
++ <span data-ttu-id="74280-185">**选项** –访问在列表页提供的标准选项。</span><span class="sxs-lookup"><span data-stu-id="74280-185">**Options** – Access the standard options that are available on list pages.</span></span> <span data-ttu-id="74280-186">您可以使用**添加到工作区**选项将异常列表页作为列表或图块固定到您的工作区。</span><span class="sxs-lookup"><span data-stu-id="74280-186">You can use the **Add to workspace** option to pin the exceptions list page to your workspace as a list or tile.</span></span>
 
-### <a name="exception-details-page"></a><span data-ttu-id="9723c-187">异常详细信息页</span><span class="sxs-lookup"><span data-stu-id="9723c-187">Exception details page</span></span>
+### <a name="exception-details-page"></a><span data-ttu-id="74280-187">异常详细信息页</span><span class="sxs-lookup"><span data-stu-id="74280-187">Exception details page</span></span>
 
-<span data-ttu-id="9723c-188">开始编辑模式后，显示存在问题的发票的异常详细信息页。</span><span class="sxs-lookup"><span data-stu-id="9723c-188">When you start edit mode, the exception details page for the invoice that has issues appears.</span></span> <span data-ttu-id="9723c-189">如果有任何附件，发票和默认附件在异常详细信息页上并排显示。</span><span class="sxs-lookup"><span data-stu-id="9723c-189">If there are any attachments, the invoice and the default attachment appear side by side on the exception details page.</span></span>
+<span data-ttu-id="74280-188">开始编辑模式后，显示存在问题的发票的异常详细信息页。</span><span class="sxs-lookup"><span data-stu-id="74280-188">When you start edit mode, the exception details page for the invoice that has issues appears.</span></span> <span data-ttu-id="74280-189">如果有任何附件，发票和默认附件在异常详细信息页上并排显示。</span><span class="sxs-lookup"><span data-stu-id="74280-189">If there are any attachments, the invoice and the default attachment appear side by side on the exception details page.</span></span>
 
 ![异常详细信息页](media/vendor_invoice_automation_03.png)
 
-<span data-ttu-id="9723c-191">在上图中，进入的供应商发票抬头不具有任何行。</span><span class="sxs-lookup"><span data-stu-id="9723c-191">In the preceding illustration, there weren’t any lines for the vendor invoice header that came in.</span></span> <span data-ttu-id="9723c-192">因此，行部分为空。</span><span class="sxs-lookup"><span data-stu-id="9723c-192">Therefore, the lines section is empty.</span></span>
+<span data-ttu-id="74280-191">在上图中，进入的供应商发票抬头不具有任何行。</span><span class="sxs-lookup"><span data-stu-id="74280-191">In the preceding illustration, there weren’t any lines for the vendor invoice header that came in.</span></span> <span data-ttu-id="74280-192">因此，行部分为空。</span><span class="sxs-lookup"><span data-stu-id="74280-192">Therefore, the lines section is empty.</span></span>
 
-<span data-ttu-id="9723c-193">异常详细信息页支持以下操作：</span><span class="sxs-lookup"><span data-stu-id="9723c-193">The exception details page supports the following operation:</span></span>
+<span data-ttu-id="74280-193">异常详细信息页支持以下操作：</span><span class="sxs-lookup"><span data-stu-id="74280-193">The exception details page supports the following operation:</span></span>
 
-+ <span data-ttu-id="9723c-194">**创建待定发票** - 在异常处理过程中修复发票上的问题后，您可以单击此按钮创建待定发票。</span><span class="sxs-lookup"><span data-stu-id="9723c-194">**Create pending invoice** – After you’ve fixed the issues on the invoice as part of exception processing, you can click this button to create the pending invoice.</span></span> <span data-ttu-id="9723c-195">创建待定发票在后台进行（作为异步操作）。</span><span class="sxs-lookup"><span data-stu-id="9723c-195">The creation of pending invoices occurs in the background (as an asynchronous operation).</span></span>
++ <span data-ttu-id="74280-194">**创建待定发票** - 在异常处理过程中修复发票上的问题后，您可以单击此按钮创建待定发票。</span><span class="sxs-lookup"><span data-stu-id="74280-194">**Create pending invoice** – After you’ve fixed the issues on the invoice as part of exception processing, you can click this button to create the pending invoice.</span></span> <span data-ttu-id="74280-195">创建待定发票在后台进行（作为异步操作）。</span><span class="sxs-lookup"><span data-stu-id="74280-195">The creation of pending invoices occurs in the background (as an asynchronous operation).</span></span>
 
-### <a name="shared-service-vs-organization-based-exception-processing"></a><span data-ttu-id="9723c-196">共享服务与基于组织的异常处理</span><span class="sxs-lookup"><span data-stu-id="9723c-196">Shared service vs. organization-based exception processing</span></span>
+### <a name="shared-service-vs-organization-based-exception-processing"></a><span data-ttu-id="74280-196">共享服务与基于组织的异常处理</span><span class="sxs-lookup"><span data-stu-id="74280-196">Shared service vs. organization-based exception processing</span></span>
 
-<span data-ttu-id="9723c-197">异常列表页支持**数据管理**工作区支持处理暂存记录的标准安全结构。</span><span class="sxs-lookup"><span data-stu-id="9723c-197">The exceptions list page supports the standard security constructs that the **Data management** workspace supports for the processing of staging records.</span></span> <span data-ttu-id="9723c-198">发票导入作业可以通过以下方式受到保护：</span><span class="sxs-lookup"><span data-stu-id="9723c-198">The invoice import job can be secured in the following ways:</span></span>
+<span data-ttu-id="74280-197">异常列表页支持**数据管理**工作区支持处理暂存记录的标准安全结构。</span><span class="sxs-lookup"><span data-stu-id="74280-197">The exceptions list page supports the standard security constructs that the **Data management** workspace supports for the processing of staging records.</span></span> <span data-ttu-id="74280-198">发票导入作业可以通过以下方式受到保护：</span><span class="sxs-lookup"><span data-stu-id="74280-198">The invoice import job can be secured in the following ways:</span></span>
 
-+ <span data-ttu-id="9723c-199">按用户角色</span><span class="sxs-lookup"><span data-stu-id="9723c-199">By user role</span></span>
-+ <span data-ttu-id="9723c-200">按用户</span><span class="sxs-lookup"><span data-stu-id="9723c-200">By user</span></span>
-+ <span data-ttu-id="9723c-201">按法人</span><span class="sxs-lookup"><span data-stu-id="9723c-201">By legal entity</span></span>
++ <span data-ttu-id="74280-199">按用户角色</span><span class="sxs-lookup"><span data-stu-id="74280-199">By user role</span></span>
++ <span data-ttu-id="74280-200">按用户</span><span class="sxs-lookup"><span data-stu-id="74280-200">By user</span></span>
++ <span data-ttu-id="74280-201">按法人</span><span class="sxs-lookup"><span data-stu-id="74280-201">By legal entity</span></span>
 
 ![按用户角色和法人受到保护的导入作业](media/vendor_invoice_automation_04.png)
 
-<span data-ttu-id="9723c-203">如果对发票导入作业配置安全性，异常列表页将遵守这些设置。</span><span class="sxs-lookup"><span data-stu-id="9723c-203">If security is configured for the invoice import job, the exceptions list page honors those settings.</span></span> <span data-ttu-id="9723c-204">用户将仅能够看到此设置允许他们看到的发票异常记录。</span><span class="sxs-lookup"><span data-stu-id="9723c-204">Users will be able to see only the invoice exception records that this setup allows them to see.</span></span>
+<span data-ttu-id="74280-203">如果对发票导入作业配置安全性，异常列表页将遵守这些设置。</span><span class="sxs-lookup"><span data-stu-id="74280-203">If security is configured for the invoice import job, the exceptions list page honors those settings.</span></span> <span data-ttu-id="74280-204">用户将仅能够看到此设置允许他们看到的发票异常记录。</span><span class="sxs-lookup"><span data-stu-id="74280-204">Users will be able to see only the invoice exception records that this setup allows them to see.</span></span>
 
-<span data-ttu-id="9723c-205">例如，Contoso 已决定按法人处理发票异常。</span><span class="sxs-lookup"><span data-stu-id="9723c-205">For example, Contoso has decided to process invoice exceptions by legal entity.</span></span> <span data-ttu-id="9723c-206">因此，发票导入作业上的安全性配置方式使法人中的用户 A 仅可看到法人 A 中的发票异常，而法人 B 中的用户仅可看到法人 B 中的发票异常。此设置支持对发票异常管理的职责划分。</span><span class="sxs-lookup"><span data-stu-id="9723c-206">Therefore, security is configured on the invoice import job in such a way that a user in legal entity A can see only invoice exceptions in legal entity A, whereas a user in legal entity B can see only invoice exceptions in legal entity B. This setup enables segregation of duties for the management of invoice exceptions.</span></span>
+<span data-ttu-id="74280-205">例如，Contoso 已决定按法人处理发票异常。</span><span class="sxs-lookup"><span data-stu-id="74280-205">For example, Contoso has decided to process invoice exceptions by legal entity.</span></span> <span data-ttu-id="74280-206">因此，发票导入作业上的安全性配置方式使法人中的用户 A 仅可看到法人 A 中的发票异常，而法人 B 中的用户仅可看到法人 B 中的发票异常。此设置支持对发票异常管理的职责划分。</span><span class="sxs-lookup"><span data-stu-id="74280-206">Therefore, security is configured on the invoice import job in such a way that a user in legal entity A can see only invoice exceptions in legal entity A, whereas a user in legal entity B can see only invoice exceptions in legal entity B. This setup enables segregation of duties for the management of invoice exceptions.</span></span>
 
-<span data-ttu-id="9723c-207">Contoso 还可以决定不强制执行任何安全性，因此相同用户可以处理所有法人的发票异常。</span><span class="sxs-lookup"><span data-stu-id="9723c-207">Contoso could also decide not to enforce any security, so that the same users can process invoice exceptions for all legal entities.</span></span> <span data-ttu-id="9723c-208">此设置至此和发票异常管理的共享服务场景。</span><span class="sxs-lookup"><span data-stu-id="9723c-208">This setup enables a shared services scenario for the management of invoice exceptions.</span></span>
+<span data-ttu-id="74280-207">Contoso 还可以决定不强制执行任何安全性，因此相同用户可以处理所有法人的发票异常。</span><span class="sxs-lookup"><span data-stu-id="74280-207">Contoso could also decide not to enforce any security, so that the same users can process invoice exceptions for all legal entities.</span></span> <span data-ttu-id="74280-208">此设置至此和发票异常管理的共享服务场景。</span><span class="sxs-lookup"><span data-stu-id="74280-208">This setup enables a shared services scenario for the management of invoice exceptions.</span></span>
 
-## <a name="side-by-side-attachment-viewer"></a><span data-ttu-id="9723c-209">并行附件查看器</span><span class="sxs-lookup"><span data-stu-id="9723c-209">Side-by-side attachment viewer</span></span>
+## <a name="side-by-side-attachment-viewer"></a><span data-ttu-id="74280-209">并行附件查看器</span><span class="sxs-lookup"><span data-stu-id="74280-209">Side-by-side attachment viewer</span></span>
 
-<span data-ttu-id="9723c-210">为了帮助您轻松查看供应商发票的附件，在开票流程中使用的以下页提供一个附件查看器：</span><span class="sxs-lookup"><span data-stu-id="9723c-210">To help you easily view the attachments for vendor invoices, the following pages that are used in the invoicing process now provide an attachment viewer:</span></span>
+<span data-ttu-id="74280-210">为了帮助您轻松查看供应商发票的附件，在开票流程中使用的以下页提供一个附件查看器：</span><span class="sxs-lookup"><span data-stu-id="74280-210">To help you easily view the attachments for vendor invoices, the following pages that are used in the invoicing process now provide an attachment viewer:</span></span>
 
-+ <span data-ttu-id="9723c-211">**异常处理**</span><span class="sxs-lookup"><span data-stu-id="9723c-211">**Exception handling**</span></span>
-+ <span data-ttu-id="9723c-212">**待定供应商发票**页（在发票审核流程中也可用）</span><span class="sxs-lookup"><span data-stu-id="9723c-212">**Pending vendor invoices** page (also available in the invoice review process)</span></span>
-+ <span data-ttu-id="9723c-213">**发票日记帐**查询页（用于过帐的发票）</span><span class="sxs-lookup"><span data-stu-id="9723c-213">**Invoice journal** inquiry page (for posted invoices)</span></span>
++ <span data-ttu-id="74280-211">**异常处理**</span><span class="sxs-lookup"><span data-stu-id="74280-211">**Exception handling**</span></span>
++ <span data-ttu-id="74280-212">**待定供应商发票**页（在发票审核流程中也可用）</span><span class="sxs-lookup"><span data-stu-id="74280-212">**Pending vendor invoices** page (also available in the invoice review process)</span></span>
++ <span data-ttu-id="74280-213">**发票日记帐**查询页（用于过帐的发票）</span><span class="sxs-lookup"><span data-stu-id="74280-213">**Invoice journal** inquiry page (for posted invoices)</span></span>
 
-<span data-ttu-id="9723c-214">这是附件查看器提供的主要功能：</span><span class="sxs-lookup"><span data-stu-id="9723c-214">Here is the main functionality that the attachment viewer provides:</span></span>
+<span data-ttu-id="74280-214">这是附件查看器提供的主要功能：</span><span class="sxs-lookup"><span data-stu-id="74280-214">Here is the main functionality that the attachment viewer provides:</span></span>
 
-+ <span data-ttu-id="9723c-215">查看文档管理支持的所有附件类型（文件、图像、URL 和注释）</span><span class="sxs-lookup"><span data-stu-id="9723c-215">View all attachment types that Document management supports (files, images, URLs, and notes).</span></span>
-+ <span data-ttu-id="9723c-216">显示多页 TIFF 文件。</span><span class="sxs-lookup"><span data-stu-id="9723c-216">View multi-page TIFF files.</span></span>
-+ <span data-ttu-id="9723c-217">对图像文件执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="9723c-217">Perform the following actions on image files:</span></span>
-  + <span data-ttu-id="9723c-218">突出显示图像的某些部分。</span><span class="sxs-lookup"><span data-stu-id="9723c-218">Highlight parts of the image.</span></span>
-  + <span data-ttu-id="9723c-219">阻止图像的某些部分。</span><span class="sxs-lookup"><span data-stu-id="9723c-219">Block parts of the image.</span></span>
-  + <span data-ttu-id="9723c-220">添加图像注释。</span><span class="sxs-lookup"><span data-stu-id="9723c-220">Add annotations to the image.</span></span>
-  + <span data-ttu-id="9723c-221">缩放图像。</span><span class="sxs-lookup"><span data-stu-id="9723c-221">Zoom in and out on the image.</span></span>
-  + <span data-ttu-id="9723c-222">平移图像。</span><span class="sxs-lookup"><span data-stu-id="9723c-222">Pan the image.</span></span>
-  + <span data-ttu-id="9723c-223">撤销和重新执行操作。</span><span class="sxs-lookup"><span data-stu-id="9723c-223">Undo and redo actions.</span></span>
-  + <span data-ttu-id="9723c-224">适应图像大小。</span><span class="sxs-lookup"><span data-stu-id="9723c-224">Fit the image to size.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="9723c-225">这些操作仅对图像文件（JPEG、TIFF、PNG 等）可用。</span><span class="sxs-lookup"><span data-stu-id="9723c-225">These actions are available only for image files (JPEG, TIFF, PNG, and so on).</span></span> <span data-ttu-id="9723c-226">您通过这些操作对图像进行的任何更改均保存到图像文件。</span><span class="sxs-lookup"><span data-stu-id="9723c-226">Any changes that you make to an image by using these actions are saved to the image file.</span></span> <span data-ttu-id="9723c-227">目前，附件查看器不包括版本控制和审核功能。</span><span class="sxs-lookup"><span data-stu-id="9723c-227">Currently, the attachment viewer doesn’t include versioning or auditing capabilities.</span></span>
-
-### <a name="default-attachment"></a><span data-ttu-id="9723c-228">默认附件</span><span class="sxs-lookup"><span data-stu-id="9723c-228">Default attachment</span></span>
-
-<span data-ttu-id="9723c-229">如果供应商发票具有多个附件，您可以在**附件**页将其中一个文档设置为默认附件。</span><span class="sxs-lookup"><span data-stu-id="9723c-229">If a vendor invoice has more than one attachment, you can set one of the documents as the default attachment on the **Attachments** page.</span></span> <span data-ttu-id="9723c-230">**为默认附件**选项是作为此功能的一部分添加的一个新选项。</span><span class="sxs-lookup"><span data-stu-id="9723c-230">The **Is default attachment** option is a new option that was added as part of this feature.</span></span> <span data-ttu-id="9723c-231">此选项也在供应商发票单据附件数据实体中公开。</span><span class="sxs-lookup"><span data-stu-id="9723c-231">This option is also exposed in the Vendor invoice document attachment data entity.</span></span> <span data-ttu-id="9723c-232">因此，可以通过集成设置默认附件。</span><span class="sxs-lookup"><span data-stu-id="9723c-232">Therefore, the default attachment can be set through integrations.</span></span>
-
-<span data-ttu-id="9723c-233">仅一个单据可以设置为默认附件。</span><span class="sxs-lookup"><span data-stu-id="9723c-233">Only one document can be set as the default attachment.</span></span> <span data-ttu-id="9723c-234">将单据设置为默认附件后，在打开发票时会自动显示在附件查看器中。</span><span class="sxs-lookup"><span data-stu-id="9723c-234">After you set a document as the default attachment, it’s automatically shown in the attachment viewer when the invoice is opened.</span></span> <span data-ttu-id="9723c-235">如果您没有将任何单据设置为默认附件，则在打开发票时，查看器不会自动显示任何单据。</span><span class="sxs-lookup"><span data-stu-id="9723c-235">If you don’t set any document as the default attachment, the viewer doesn’t automatically show any attachment when the invoice is opened.</span></span>
-
-### <a name="showhide-invoice-attachments"></a><span data-ttu-id="9723c-236">显示/隐藏发票附件</span><span class="sxs-lookup"><span data-stu-id="9723c-236">Show/hide invoice attachments</span></span>
-
-<span data-ttu-id="9723c-237">在**异常处理**、**待定发票**和**发票日记帐**查询页面提供的新按钮让您能够显示或隐藏附件查看器。</span><span class="sxs-lookup"><span data-stu-id="9723c-237">A new button that is available on the **Exception processing**, **Pending invoice**, and **Invoice journal** inquiry pages lets you show or hide the attachment viewer.</span></span>
-
-### <a name="security"></a><span data-ttu-id="9723c-238">安全性</span><span class="sxs-lookup"><span data-stu-id="9723c-238">Security</span></span>
-
-<span data-ttu-id="9723c-239">附件查看器中的以下操作通过基于角色的安全性进行控制：</span><span class="sxs-lookup"><span data-stu-id="9723c-239">The following actions in the attachment viewer are controlled via role-based security:</span></span>
-
-+ <span data-ttu-id="9723c-240">突出显示</span><span class="sxs-lookup"><span data-stu-id="9723c-240">Highlighting</span></span>
-+ <span data-ttu-id="9723c-241">锁定</span><span class="sxs-lookup"><span data-stu-id="9723c-241">Block</span></span>
-+ <span data-ttu-id="9723c-242">批注</span><span class="sxs-lookup"><span data-stu-id="9723c-242">Annotation</span></span>
-
-### <a name="pending-vendor-invoices-page"></a><span data-ttu-id="9723c-243">待定供应商发票页</span><span class="sxs-lookup"><span data-stu-id="9723c-243">Pending vendor invoices page</span></span>
-
-<span data-ttu-id="9723c-244">以下权限提供对附件查看器执行突出显示、锁定和批注操作的只读访问权限或读/写访问权限：</span><span class="sxs-lookup"><span data-stu-id="9723c-244">The following privileges provide ready-only access or read/write access to the attachment viewer for the highlighting, block, and annotation actions:</span></span>
-
-+ <span data-ttu-id="9723c-245">**维护供应商发票图像** –此权限提供读/写访问权限。</span><span class="sxs-lookup"><span data-stu-id="9723c-245">**Maintain vendor invoice image** – This privilege provides read/write access.</span></span>
-+ <span data-ttu-id="9723c-246">**查看供应商发票图像** –此权限提供只读访问权限。</span><span class="sxs-lookup"><span data-stu-id="9723c-246">**View vendor invoice image** – This privilege provides read-only access.</span></span>
-
-<span data-ttu-id="9723c-247">以下职责提供对附件查看器执行以下操作的只读访问权限或读/写访问权限：</span><span class="sxs-lookup"><span data-stu-id="9723c-247">The following duties provide read-only access or read/write access to the attachment viewer for those actions:</span></span>
-
-+ <span data-ttu-id="9723c-248">**维护供应商发票** - 维护供应商发票图像权限被分配到此职责。</span><span class="sxs-lookup"><span data-stu-id="9723c-248">**Maintain vendor invoices** – The Maintain vendor invoice image privilege is assigned to this duty.</span></span>
-+ <span data-ttu-id="9723c-249">**查询供应商发票状态** - 查看供应商发票图像权限被分配到此职责。</span><span class="sxs-lookup"><span data-stu-id="9723c-249">**Inquire into vendor invoice status** – The View vendor invoice image privilege is assigned to this duty.</span></span>
-
-<span data-ttu-id="9723c-250">以下角色提供对附件查看器执行以下操作的只读访问权限或读/写访问权限：</span><span class="sxs-lookup"><span data-stu-id="9723c-250">The following roles provide read-only access or read/write access to the attachment viewer for those actions:</span></span>
-
-+ <span data-ttu-id="9723c-251">**应付账款职员**和**应付账款经理** – 维护供应商发票职责被分配到这些角色。</span><span class="sxs-lookup"><span data-stu-id="9723c-251">**Accounts payable clerk** and **Accounts payable manager** – The Maintain vendor invoices duty is assigned to these roles.</span></span>
-+ <span data-ttu-id="9723c-252">**应付账款职员**、**应付账款经理**、**应付账款的集中付款员**和 **应付账款付款职员** – 查询供应商发票状态职责被分配到这些角色。</span><span class="sxs-lookup"><span data-stu-id="9723c-252">**Accounts payable clerk**, **Accounts payable manager**, **Accounts payable centralized payments clerk**, and **Accounts payable payments clerk** – The Inquire into vendor invoice status duty is assigned to these roles.</span></span>
-
-### <a name="invoice-exception-details-page"></a><span data-ttu-id="9723c-253">发票异常详细信息页</span><span class="sxs-lookup"><span data-stu-id="9723c-253">Invoice exception details page</span></span>
-
-<span data-ttu-id="9723c-254">以下权限提供对附件查看器执行突出显示、锁定和批注操作的只读访问权限或读/写访问权限。</span><span class="sxs-lookup"><span data-stu-id="9723c-254">The following privileges provide ready-only access or read/write access to the attachment viewer for the highlighting, block, and annotation actions.</span></span>
++ <span data-ttu-id="74280-215">查看文档管理支持的所有附件类型（文件、图像、URL 和注释）</span><span class="sxs-lookup"><span data-stu-id="74280-215">View all attachment types that Document management supports (files, images, URLs, and notes).</span></span>
++ <span data-ttu-id="74280-216">显示多页 TIFF 文件。</span><span class="sxs-lookup"><span data-stu-id="74280-216">View multi-page TIFF files.</span></span>
++ <span data-ttu-id="74280-217">对图像文件执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="74280-217">Perform the following actions on image files:</span></span>
+  + <span data-ttu-id="74280-218">突出显示图像的某些部分。</span><span class="sxs-lookup"><span data-stu-id="74280-218">Highlight parts of the image.</span></span>
+  + <span data-ttu-id="74280-219">阻止图像的某些部分。</span><span class="sxs-lookup"><span data-stu-id="74280-219">Block parts of the image.</span></span>
+  + <span data-ttu-id="74280-220">添加图像注释。</span><span class="sxs-lookup"><span data-stu-id="74280-220">Add annotations to the image.</span></span>
+  + <span data-ttu-id="74280-221">缩放图像。</span><span class="sxs-lookup"><span data-stu-id="74280-221">Zoom in and out on the image.</span></span>
+  + <span data-ttu-id="74280-222">平移图像。</span><span class="sxs-lookup"><span data-stu-id="74280-222">Pan the image.</span></span>
+  + <span data-ttu-id="74280-223">撤销和重新执行操作。</span><span class="sxs-lookup"><span data-stu-id="74280-223">Undo and redo actions.</span></span>
+  + <span data-ttu-id="74280-224">适应图像大小。</span><span class="sxs-lookup"><span data-stu-id="74280-224">Fit the image to size.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="9723c-255">本节提及的这些角色创造性地提供对附件查看器中的发票图像的只读访问权限。</span><span class="sxs-lookup"><span data-stu-id="9723c-255">Out of the box, the roles that are mentioned in this section provide read-only access to the invoice images in the attachment viewer.</span></span> <span data-ttu-id="9723c-256">如果某个角色必须具有对图像的写入访问权限，您可以使用此处描述的权限和职责对该角色授予写入访问权限。</span><span class="sxs-lookup"><span data-stu-id="9723c-256">If a role must also have write access to the images, you can grant write access to that role by using the privilege and duty that are described here.</span></span>
+> <span data-ttu-id="74280-225">这些操作仅对图像文件（JPEG、TIFF、PNG 等）可用。</span><span class="sxs-lookup"><span data-stu-id="74280-225">These actions are available only for image files (JPEG, TIFF, PNG, and so on).</span></span> <span data-ttu-id="74280-226">您通过这些操作对图像进行的任何更改均保存到图像文件。</span><span class="sxs-lookup"><span data-stu-id="74280-226">Any changes that you make to an image by using these actions are saved to the image file.</span></span> <span data-ttu-id="74280-227">目前，附件查看器不包括版本控制和审核功能。</span><span class="sxs-lookup"><span data-stu-id="74280-227">Currently, the attachment viewer doesn’t include versioning or auditing capabilities.</span></span>
 
-+ <span data-ttu-id="9723c-257">**维护供应商发票抬头实体图像** – 此权限提供对附件查看器中的发票图像的读/写访问权限。</span><span class="sxs-lookup"><span data-stu-id="9723c-257">**Maintain vendor invoice header entity image** – This privilege provides read/write access to the invoice images in the attachment viewer.</span></span>
-+ <span data-ttu-id="9723c-258">**查看供应商发票抬头实体图像** – 此权限提供对附件查看器中的发票图像的只读视图。</span><span class="sxs-lookup"><span data-stu-id="9723c-258">**View vendor invoice header entity image** – This privilege provides read-only view to the invoice image in the attachment viewer.</span></span>
+### <a name="default-attachment"></a><span data-ttu-id="74280-228">默认附件</span><span class="sxs-lookup"><span data-stu-id="74280-228">Default attachment</span></span>
 
-<span data-ttu-id="9723c-259">以下职责提供对附件查看器执行以下操作的只读访问权限：</span><span class="sxs-lookup"><span data-stu-id="9723c-259">The following duties provide read-only access to the attachment viewer for those actions:</span></span>
+<span data-ttu-id="74280-229">如果供应商发票具有多个附件，您可以在**附件**页将其中一个文档设置为默认附件。</span><span class="sxs-lookup"><span data-stu-id="74280-229">If a vendor invoice has more than one attachment, you can set one of the documents as the default attachment on the **Attachments** page.</span></span> <span data-ttu-id="74280-230">**为默认附件**选项是作为此功能的一部分添加的一个新选项。</span><span class="sxs-lookup"><span data-stu-id="74280-230">The **Is default attachment** option is a new option that was added as part of this feature.</span></span> <span data-ttu-id="74280-231">此选项也在供应商发票单据附件数据实体中公开。</span><span class="sxs-lookup"><span data-stu-id="74280-231">This option is also exposed in the Vendor invoice document attachment data entity.</span></span> <span data-ttu-id="74280-232">因此，可以通过集成设置默认附件。</span><span class="sxs-lookup"><span data-stu-id="74280-232">Therefore, the default attachment can be set through integrations.</span></span>
 
-+ <span data-ttu-id="9723c-260">**维护供应商发票** - 维护供应商发票抬头实体图像权限被分配到此职责。</span><span class="sxs-lookup"><span data-stu-id="9723c-260">**Maintain vendor invoices** – The Maintain vendor invoice header entity image privilege is assigned to this duty.</span></span>
+<span data-ttu-id="74280-233">仅一个单据可以设置为默认附件。</span><span class="sxs-lookup"><span data-stu-id="74280-233">Only one document can be set as the default attachment.</span></span> <span data-ttu-id="74280-234">将单据设置为默认附件后，在打开发票时会自动显示在附件查看器中。</span><span class="sxs-lookup"><span data-stu-id="74280-234">After you set a document as the default attachment, it’s automatically shown in the attachment viewer when the invoice is opened.</span></span> <span data-ttu-id="74280-235">如果您没有将任何单据设置为默认附件，则在打开发票时，查看器不会自动显示任何单据。</span><span class="sxs-lookup"><span data-stu-id="74280-235">If you don’t set any document as the default attachment, the viewer doesn’t automatically show any attachment when the invoice is opened.</span></span>
 
-<span data-ttu-id="9723c-261">以下角色提供对附件查看器执行以下操作的只读访问权限：</span><span class="sxs-lookup"><span data-stu-id="9723c-261">The following roles provide read-only access to the attachment viewer for those actions:</span></span>
+### <a name="showhide-invoice-attachments"></a><span data-ttu-id="74280-236">显示/隐藏发票附件</span><span class="sxs-lookup"><span data-stu-id="74280-236">Show/hide invoice attachments</span></span>
 
-+ <span data-ttu-id="9723c-262">**应付账款职员**和**应付账款经理** – 维护供应商发票职责被分配到这些角色。</span><span class="sxs-lookup"><span data-stu-id="9723c-262">**Accounts payable clerk** and **Accounts payable manager** – The Maintain vendor invoices duty is assigned to these roles.</span></span>
+<span data-ttu-id="74280-237">在**异常处理**、**待定发票**和**发票日记帐**查询页面提供的新按钮让您能够显示或隐藏附件查看器。</span><span class="sxs-lookup"><span data-stu-id="74280-237">A new button that is available on the **Exception processing**, **Pending invoice**, and **Invoice journal** inquiry pages lets you show or hide the attachment viewer.</span></span>
 
-<span data-ttu-id="9723c-263">默认情况下，如果用户角色提供对任何页面的编辑权限，则用户还将拥有对附件查看器执行突出显示、锁定和批注操作的编辑权限。</span><span class="sxs-lookup"><span data-stu-id="9723c-263">By default, if the user role provides edit rights on any page, the user will also have edit rights on the attachments viewer for the highlighting, block, and annotation actions.</span></span> <span data-ttu-id="9723c-264">但是，如果有些场景中要求特定角色对页面（而不是附件查看器）具有编辑权限，则上述列表中的相应权限可用来满足该使用案例。</span><span class="sxs-lookup"><span data-stu-id="9723c-264">However, if there are scenarios where a specific role should have edit rights on the page but not on the attachment viewer, the appropriate privileges from the preceding list can be used to satisfy the use case.</span></span>
+### <a name="security"></a><span data-ttu-id="74280-238">安全性</span><span class="sxs-lookup"><span data-stu-id="74280-238">Security</span></span>
+
+<span data-ttu-id="74280-239">附件查看器中的以下操作通过基于角色的安全性进行控制：</span><span class="sxs-lookup"><span data-stu-id="74280-239">The following actions in the attachment viewer are controlled via role-based security:</span></span>
+
++ <span data-ttu-id="74280-240">突出显示</span><span class="sxs-lookup"><span data-stu-id="74280-240">Highlighting</span></span>
++ <span data-ttu-id="74280-241">锁定</span><span class="sxs-lookup"><span data-stu-id="74280-241">Block</span></span>
++ <span data-ttu-id="74280-242">批注</span><span class="sxs-lookup"><span data-stu-id="74280-242">Annotation</span></span>
+
+### <a name="pending-vendor-invoices-page"></a><span data-ttu-id="74280-243">待定供应商发票页</span><span class="sxs-lookup"><span data-stu-id="74280-243">Pending vendor invoices page</span></span>
+
+<span data-ttu-id="74280-244">以下权限提供对附件查看器执行突出显示、锁定和批注操作的只读访问权限或读/写访问权限：</span><span class="sxs-lookup"><span data-stu-id="74280-244">The following privileges provide ready-only access or read/write access to the attachment viewer for the highlighting, block, and annotation actions:</span></span>
+
++ <span data-ttu-id="74280-245">**维护供应商发票图像** –此权限提供读/写访问权限。</span><span class="sxs-lookup"><span data-stu-id="74280-245">**Maintain vendor invoice image** – This privilege provides read/write access.</span></span>
++ <span data-ttu-id="74280-246">**查看供应商发票图像** –此权限提供只读访问权限。</span><span class="sxs-lookup"><span data-stu-id="74280-246">**View vendor invoice image** – This privilege provides read-only access.</span></span>
+
+<span data-ttu-id="74280-247">以下职责提供对附件查看器执行以下操作的只读访问权限或读/写访问权限：</span><span class="sxs-lookup"><span data-stu-id="74280-247">The following duties provide read-only access or read/write access to the attachment viewer for those actions:</span></span>
+
++ <span data-ttu-id="74280-248">**维护供应商发票** - 维护供应商发票图像权限被分配到此职责。</span><span class="sxs-lookup"><span data-stu-id="74280-248">**Maintain vendor invoices** – The Maintain vendor invoice image privilege is assigned to this duty.</span></span>
++ <span data-ttu-id="74280-249">**查询供应商发票状态** - 查看供应商发票图像权限被分配到此职责。</span><span class="sxs-lookup"><span data-stu-id="74280-249">**Inquire into vendor invoice status** – The View vendor invoice image privilege is assigned to this duty.</span></span>
+
+<span data-ttu-id="74280-250">以下角色提供对附件查看器执行以下操作的只读访问权限或读/写访问权限：</span><span class="sxs-lookup"><span data-stu-id="74280-250">The following roles provide read-only access or read/write access to the attachment viewer for those actions:</span></span>
+
++ <span data-ttu-id="74280-251">**应付账款职员**和**应付账款经理** – 维护供应商发票职责被分配到这些角色。</span><span class="sxs-lookup"><span data-stu-id="74280-251">**Accounts payable clerk** and **Accounts payable manager** – The Maintain vendor invoices duty is assigned to these roles.</span></span>
++ <span data-ttu-id="74280-252">**应付账款职员**、**应付账款经理**、**应付账款的集中付款员**和 **应付账款付款职员** – 查询供应商发票状态职责被分配到这些角色。</span><span class="sxs-lookup"><span data-stu-id="74280-252">**Accounts payable clerk**, **Accounts payable manager**, **Accounts payable centralized payments clerk**, and **Accounts payable payments clerk** – The Inquire into vendor invoice status duty is assigned to these roles.</span></span>
+
+### <a name="invoice-exception-details-page"></a><span data-ttu-id="74280-253">发票异常详细信息页</span><span class="sxs-lookup"><span data-stu-id="74280-253">Invoice exception details page</span></span>
+
+<span data-ttu-id="74280-254">以下权限提供对附件查看器执行突出显示、锁定和批注操作的只读访问权限或读/写访问权限。</span><span class="sxs-lookup"><span data-stu-id="74280-254">The following privileges provide ready-only access or read/write access to the attachment viewer for the highlighting, block, and annotation actions.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="74280-255">本节提及的这些角色创造性地提供对附件查看器中的发票图像的只读访问权限。</span><span class="sxs-lookup"><span data-stu-id="74280-255">Out of the box, the roles that are mentioned in this section provide read-only access to the invoice images in the attachment viewer.</span></span> <span data-ttu-id="74280-256">如果某个角色必须具有对图像的写入访问权限，您可以使用此处描述的权限和职责对该角色授予写入访问权限。</span><span class="sxs-lookup"><span data-stu-id="74280-256">If a role must also have write access to the images, you can grant write access to that role by using the privilege and duty that are described here.</span></span>
+
++ <span data-ttu-id="74280-257">**维护供应商发票抬头实体图像** – 此权限提供对附件查看器中的发票图像的读/写访问权限。</span><span class="sxs-lookup"><span data-stu-id="74280-257">**Maintain vendor invoice header entity image** – This privilege provides read/write access to the invoice images in the attachment viewer.</span></span>
++ <span data-ttu-id="74280-258">**查看供应商发票抬头实体图像** – 此权限提供对附件查看器中的发票图像的只读视图。</span><span class="sxs-lookup"><span data-stu-id="74280-258">**View vendor invoice header entity image** – This privilege provides read-only view to the invoice image in the attachment viewer.</span></span>
+
+<span data-ttu-id="74280-259">以下职责提供对附件查看器执行以下操作的只读访问权限：</span><span class="sxs-lookup"><span data-stu-id="74280-259">The following duties provide read-only access to the attachment viewer for those actions:</span></span>
+
++ <span data-ttu-id="74280-260">**维护供应商发票** - 维护供应商发票抬头实体图像权限被分配到此职责。</span><span class="sxs-lookup"><span data-stu-id="74280-260">**Maintain vendor invoices** – The Maintain vendor invoice header entity image privilege is assigned to this duty.</span></span>
+
+<span data-ttu-id="74280-261">以下角色提供对附件查看器执行以下操作的只读访问权限：</span><span class="sxs-lookup"><span data-stu-id="74280-261">The following roles provide read-only access to the attachment viewer for those actions:</span></span>
+
++ <span data-ttu-id="74280-262">**应付账款职员**和**应付账款经理** – 维护供应商发票职责被分配到这些角色。</span><span class="sxs-lookup"><span data-stu-id="74280-262">**Accounts payable clerk** and **Accounts payable manager** – The Maintain vendor invoices duty is assigned to these roles.</span></span>
+
+<span data-ttu-id="74280-263">默认情况下，如果用户角色提供对任何页面的编辑权限，则用户还将拥有对附件查看器执行突出显示、锁定和批注操作的编辑权限。</span><span class="sxs-lookup"><span data-stu-id="74280-263">By default, if the user role provides edit rights on any page, the user will also have edit rights on the attachments viewer for the highlighting, block, and annotation actions.</span></span> <span data-ttu-id="74280-264">但是，如果有些场景中要求特定角色对页面（而不是附件查看器）具有编辑权限，则上述列表中的相应权限可用来满足该使用案例。</span><span class="sxs-lookup"><span data-stu-id="74280-264">However, if there are scenarios where a specific role should have edit rights on the page but not on the attachment viewer, the appropriate privileges from the preceding list can be used to satisfy the use case.</span></span>
