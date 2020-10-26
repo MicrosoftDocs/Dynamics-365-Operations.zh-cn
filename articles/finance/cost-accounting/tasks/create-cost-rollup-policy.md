@@ -12,59 +12,59 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff37655150596a4be8088e20b43f626f97262aba
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: 8b6d32cc2c1844c6c334dd00b249c736e153f13d
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3137837"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977639"
 ---
-# <a name="create-a-cost-rollup-policy"></a><span data-ttu-id="8a6a5-103">创建成本累积政策</span><span class="sxs-lookup"><span data-stu-id="8a6a5-103">Create a cost rollup policy</span></span>
+# <a name="create-a-cost-rollup-policy"></a><span data-ttu-id="9f1fc-103">创建成本累积政策</span><span class="sxs-lookup"><span data-stu-id="9f1fc-103">Create a cost rollup policy</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8a6a5-104">此过程显示如何创建成本累积政策并为其创建规则。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-104">This procedure shows how to create a cost rollup policy and create rules for the policy.</span></span> <span data-ttu-id="8a6a5-105">使用 USP2 演示数据创建此过程。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-105">The demo data used to create this procedure is USP2.</span></span>
+<span data-ttu-id="9f1fc-104">此过程显示如何创建成本累积政策并为其创建规则。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-104">This procedure shows how to create a cost rollup policy and create rules for the policy.</span></span> <span data-ttu-id="9f1fc-105">使用 USP2 演示数据创建此过程。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-105">The demo data used to create this procedure is USP2.</span></span>
 
 
-## <a name="create-a-policy"></a><span data-ttu-id="8a6a5-106">创建政策</span><span class="sxs-lookup"><span data-stu-id="8a6a5-106">Create a policy</span></span>
-1. <span data-ttu-id="8a6a5-107">转到“成本核算”>“政策”>“成本累积政策”。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-107">Go to Cost accounting > Policies > Cost rollup policies.</span></span>
-2. <span data-ttu-id="8a6a5-108">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-108">Click New.</span></span>
-3. <span data-ttu-id="8a6a5-109">在“政策名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-109">In the Policy name field, type a value.</span></span>
-4. <span data-ttu-id="8a6a5-110">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-110">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="8a6a5-111">在“成本对象维度层次结构”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-111">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="8a6a5-112">选择“成本累积 CC”。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-112">Select Cost rollup CC.</span></span>  
-6. <span data-ttu-id="8a6a5-113">在“成本元素维度层次结构”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-113">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="8a6a5-114">选择“成本累积 CC”。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-114">Select Cost rollup CC.</span></span>  
-7. <span data-ttu-id="8a6a5-115">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-115">Click Save.</span></span>
+## <a name="create-a-policy"></a><span data-ttu-id="9f1fc-106">创建政策</span><span class="sxs-lookup"><span data-stu-id="9f1fc-106">Create a policy</span></span>
+1. <span data-ttu-id="9f1fc-107">转到“成本核算”>“政策”>“成本累积政策”。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-107">Go to Cost accounting > Policies > Cost rollup policies.</span></span>
+2. <span data-ttu-id="9f1fc-108">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-108">Click New.</span></span>
+3. <span data-ttu-id="9f1fc-109">在“政策名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-109">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="9f1fc-110">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="9f1fc-111">在“成本对象维度层次结构”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-111">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f1fc-112">选择“成本累积 CC”。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-112">Select Cost rollup CC.</span></span>  
+6. <span data-ttu-id="9f1fc-113">在“成本元素维度层次结构”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-113">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f1fc-114">选择“成本累积 CC”。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-114">Select Cost rollup CC.</span></span>  
+7. <span data-ttu-id="9f1fc-115">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-115">Click Save.</span></span>
 
-## <a name="create-rules-for-the-cost-rollup-policy"></a><span data-ttu-id="8a6a5-116">为成本累积政策创建规则</span><span class="sxs-lookup"><span data-stu-id="8a6a5-116">Create rules for the cost rollup policy</span></span>
-1. <span data-ttu-id="8a6a5-117">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-117">Click New.</span></span>
-2. <span data-ttu-id="8a6a5-118">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-118">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="8a6a5-119">在“成本对象维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-119">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="8a6a5-120">选择“007”。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-120">Select 007.</span></span>  
-4. <span data-ttu-id="8a6a5-121">在“成本元素维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-121">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="8a6a5-122">选择“成本累积 CE”。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-122">Select Cost rollup CE.</span></span>  
-5. <span data-ttu-id="8a6a5-123">在“辅助成本元素维度”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-123">In the Secondary cost element field, enter or select a value.</span></span>
-    * <span data-ttu-id="8a6a5-124">在此示例中，将辅助成本元素 CC-007 映射到成本中心。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-124">For this example, map the secondary cost element CC-007 to the cost center.</span></span>  
-6. <span data-ttu-id="8a6a5-125">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-125">Click New.</span></span>
-7. <span data-ttu-id="8a6a5-126">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-126">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="8a6a5-127">在“成本对象维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="8a6a5-128">选择“008”。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-128">Select 008.</span></span>  
-9. <span data-ttu-id="8a6a5-129">在“成本元素维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-129">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="8a6a5-130">选择“成本累积 CE”。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-130">Select Cost rollup CE.</span></span>  
-10. <span data-ttu-id="8a6a5-131">在“辅助成本元素维度”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-131">In the Secondary cost element field, enter or select a value.</span></span>
-    * <span data-ttu-id="8a6a5-132">在此示例中，将辅助成本元素 CC-008 映射到成本中心。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-132">For this example, map the secondary cost element CC-008 to the cost center.</span></span>  
-11. <span data-ttu-id="8a6a5-133">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-133">Click New.</span></span>
-12. <span data-ttu-id="8a6a5-134">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-134">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="8a6a5-135">在“成本对象维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-135">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="8a6a5-136">选择“009”。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-136">Select 009.</span></span>  
-14. <span data-ttu-id="8a6a5-137">在“成本元素维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-137">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="8a6a5-138">选择“成本累积 CE”。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-138">Select Cost rollup CE.</span></span>  
-15. <span data-ttu-id="8a6a5-139">在“辅助成本元素维度”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-139">In the Secondary cost element field, enter or select a value.</span></span>
-    * <span data-ttu-id="8a6a5-140">在此示例中，将辅助成本元素 CC-009 映射到成本中心。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-140">For this example, map the secondary cost element CC-009 to the cost center.</span></span>  
-    * <span data-ttu-id="8a6a5-141">继续操作，直到所有成本中心均已映射到其相应辅助成本元素。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-141">Continue until all cost centers are mapped to their corresponding secondary cost elements.</span></span>  
-16. <span data-ttu-id="8a6a5-142">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="8a6a5-142">Click Save.</span></span>
+## <a name="create-rules-for-the-cost-rollup-policy"></a><span data-ttu-id="9f1fc-116">为成本累积政策创建规则</span><span class="sxs-lookup"><span data-stu-id="9f1fc-116">Create rules for the cost rollup policy</span></span>
+1. <span data-ttu-id="9f1fc-117">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-117">Click New.</span></span>
+2. <span data-ttu-id="9f1fc-118">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-118">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="9f1fc-119">在“成本对象维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-119">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f1fc-120">选择“007”。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-120">Select 007.</span></span>  
+4. <span data-ttu-id="9f1fc-121">在“成本元素维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-121">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f1fc-122">选择“成本累积 CE”。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-122">Select Cost rollup CE.</span></span>  
+5. <span data-ttu-id="9f1fc-123">在“辅助成本元素维度”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-123">In the Secondary cost element field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f1fc-124">在此示例中，将辅助成本元素 CC-007 映射到成本中心。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-124">For this example, map the secondary cost element CC-007 to the cost center.</span></span>  
+6. <span data-ttu-id="9f1fc-125">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-125">Click New.</span></span>
+7. <span data-ttu-id="9f1fc-126">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-126">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="9f1fc-127">在“成本对象维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f1fc-128">选择“008”。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-128">Select 008.</span></span>  
+9. <span data-ttu-id="9f1fc-129">在“成本元素维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-129">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f1fc-130">选择“成本累积 CE”。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-130">Select Cost rollup CE.</span></span>  
+10. <span data-ttu-id="9f1fc-131">在“辅助成本元素维度”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-131">In the Secondary cost element field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f1fc-132">在此示例中，将辅助成本元素 CC-008 映射到成本中心。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-132">For this example, map the secondary cost element CC-008 to the cost center.</span></span>  
+11. <span data-ttu-id="9f1fc-133">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-133">Click New.</span></span>
+12. <span data-ttu-id="9f1fc-134">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-134">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="9f1fc-135">在“成本对象维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-135">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f1fc-136">选择“009”。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-136">Select 009.</span></span>  
+14. <span data-ttu-id="9f1fc-137">在“成本元素维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-137">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f1fc-138">选择“成本累积 CE”。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-138">Select Cost rollup CE.</span></span>  
+15. <span data-ttu-id="9f1fc-139">在“辅助成本元素维度”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-139">In the Secondary cost element field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f1fc-140">在此示例中，将辅助成本元素 CC-009 映射到成本中心。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-140">For this example, map the secondary cost element CC-009 to the cost center.</span></span>  
+    * <span data-ttu-id="9f1fc-141">继续操作，直到所有成本中心均已映射到其相应辅助成本元素。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-141">Continue until all cost centers are mapped to their corresponding secondary cost elements.</span></span>  
+16. <span data-ttu-id="9f1fc-142">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9f1fc-142">Click Save.</span></span>
 

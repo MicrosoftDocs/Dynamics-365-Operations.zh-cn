@@ -13,76 +13,76 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f52133df2d374d6dc0f1efb33ffc85eb7d11fa9
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: cfdff9b1af9183d21e988dd53559e749eed077eb
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759224"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976226"
 ---
-# <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a><span data-ttu-id="133f3-103">创建成本行为策略并将其分配到成本控制单元</span><span class="sxs-lookup"><span data-stu-id="133f3-103">Create and assign a cost behavior policy to a cost control unit</span></span>
+# <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a><span data-ttu-id="63974-103">创建成本行为策略并将其分配到成本控制单元</span><span class="sxs-lookup"><span data-stu-id="63974-103">Create and assign a cost behavior policy to a cost control unit</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="133f3-104">成本行为是将成本分类为固定或可变。</span><span class="sxs-lookup"><span data-stu-id="133f3-104">Cost behavior is the classification of costs as either fixed or variable.</span></span> <span data-ttu-id="133f3-105">必须将政策和相应规则分配给成本控制单元，政策才能生效。</span><span class="sxs-lookup"><span data-stu-id="133f3-105">A policy and the corresponding rules have to be assigned to a cost control unit for the policy to become effective.</span></span> <span data-ttu-id="133f3-106">此过程用于创建政策，然后将其分配给成本控制单元。</span><span class="sxs-lookup"><span data-stu-id="133f3-106">Use this procedure to create a policy and then assign the policy to a cost control unit.</span></span>
+<span data-ttu-id="63974-104">成本行为是将成本分类为固定或可变。</span><span class="sxs-lookup"><span data-stu-id="63974-104">Cost behavior is the classification of costs as either fixed or variable.</span></span> <span data-ttu-id="63974-105">必须将政策和相应规则分配给成本控制单元，政策才能生效。</span><span class="sxs-lookup"><span data-stu-id="63974-105">A policy and the corresponding rules have to be assigned to a cost control unit for the policy to become effective.</span></span> <span data-ttu-id="63974-106">此过程用于创建政策，然后将其分配给成本控制单元。</span><span class="sxs-lookup"><span data-stu-id="63974-106">Use this procedure to create a policy and then assign the policy to a cost control unit.</span></span>
 
 
-## <a name="create-a-cost-behavior-hierarchy"></a><span data-ttu-id="133f3-107">创建成本行为层次结构</span><span class="sxs-lookup"><span data-stu-id="133f3-107">Create a cost behavior hierarchy</span></span>
-1. <span data-ttu-id="133f3-108">转到“成本核算”>“维度”>“维度层次结构”。</span><span class="sxs-lookup"><span data-stu-id="133f3-108">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
-2. <span data-ttu-id="133f3-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="133f3-109">Click New.</span></span>
-3. <span data-ttu-id="133f3-110">单击“创建”。</span><span class="sxs-lookup"><span data-stu-id="133f3-110">Click Create.</span></span>
-4. <span data-ttu-id="133f3-111">在“维度层次结构名称”中，键入“成本行为层次结构”。</span><span class="sxs-lookup"><span data-stu-id="133f3-111">In the Dimension hierarchy name field, type 'Cost behavior hierarchy'.</span></span>
-5. <span data-ttu-id="133f3-112">在“维度”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="133f3-112">In the Dimension field, enter or select a value.</span></span>
-    * <span data-ttu-id="133f3-113">选择“成本元素”。</span><span class="sxs-lookup"><span data-stu-id="133f3-113">Select Cost elements.</span></span>  
-6. <span data-ttu-id="133f3-114">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="133f3-114">Click Save.</span></span>
-7. <span data-ttu-id="133f3-115">单击“查看层次结构”。</span><span class="sxs-lookup"><span data-stu-id="133f3-115">Click View hierarchy.</span></span>
-8. <span data-ttu-id="133f3-116">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="133f3-116">Click New.</span></span>
-9. <span data-ttu-id="133f3-117">在“节点名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="133f3-117">In the Node name field, type a value.</span></span>
-    * <span data-ttu-id="133f3-118">输入固定成本</span><span class="sxs-lookup"><span data-stu-id="133f3-118">Enter Fixed cost.</span></span>  
-10. <span data-ttu-id="133f3-119">在树中，选择“成本行为层次结构”。</span><span class="sxs-lookup"><span data-stu-id="133f3-119">In the tree, select 'Cost behavior hierarchy'.</span></span>
-11. <span data-ttu-id="133f3-120">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="133f3-120">Click New.</span></span>
-12. <span data-ttu-id="133f3-121">在“节点名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="133f3-121">In the Node name field, type a value.</span></span>
-    * <span data-ttu-id="133f3-122">输入可变成本。</span><span class="sxs-lookup"><span data-stu-id="133f3-122">Enter Variable cost.</span></span>  
-13. <span data-ttu-id="133f3-123">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="133f3-123">Click Save.</span></span>
-14. <span data-ttu-id="133f3-124">在树中，选择“成本行为层次结构\固定成本”。</span><span class="sxs-lookup"><span data-stu-id="133f3-124">In the tree, select 'Cost behavior hierarchy\Fixed cost'.</span></span>
-15. <span data-ttu-id="133f3-125">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="133f3-125">Click New.</span></span>
-16. <span data-ttu-id="133f3-126">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="133f3-126">In the list, mark the selected row.</span></span>
-17. <span data-ttu-id="133f3-127">在“起始维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="133f3-127">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="133f3-128">维度成员的范围中可包含差距，但是这些成员不能重叠。</span><span class="sxs-lookup"><span data-stu-id="133f3-128">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
-18. <span data-ttu-id="133f3-129">在“截止维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="133f3-129">In the To dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="133f3-130">维度成员的范围中可包含差距，但是这些成员不能重叠。</span><span class="sxs-lookup"><span data-stu-id="133f3-130">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
-19. <span data-ttu-id="133f3-131">在树中，选择“成本行为层次结构\可变成本”。</span><span class="sxs-lookup"><span data-stu-id="133f3-131">In the tree, select 'Cost behavior hierarchy\Variable cost'.</span></span>
-20. <span data-ttu-id="133f3-132">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="133f3-132">Click New.</span></span>
-21. <span data-ttu-id="133f3-133">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="133f3-133">In the list, mark the selected row.</span></span>
-22. <span data-ttu-id="133f3-134">在“起始维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="133f3-134">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="133f3-135">维度成员的范围中可包含差距，但是这些成员不能重叠。</span><span class="sxs-lookup"><span data-stu-id="133f3-135">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
-23. <span data-ttu-id="133f3-136">在“截止维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="133f3-136">In the To dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="133f3-137">维度成员的范围中可包含差距，但是这些成员不能重叠。</span><span class="sxs-lookup"><span data-stu-id="133f3-137">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
-24. <span data-ttu-id="133f3-138">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="133f3-138">Click Save.</span></span>
+## <a name="create-a-cost-behavior-hierarchy"></a><span data-ttu-id="63974-107">创建成本行为层次结构</span><span class="sxs-lookup"><span data-stu-id="63974-107">Create a cost behavior hierarchy</span></span>
+1. <span data-ttu-id="63974-108">转到“成本核算”>“维度”>“维度层次结构”。</span><span class="sxs-lookup"><span data-stu-id="63974-108">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
+2. <span data-ttu-id="63974-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="63974-109">Click New.</span></span>
+3. <span data-ttu-id="63974-110">单击“创建”。</span><span class="sxs-lookup"><span data-stu-id="63974-110">Click Create.</span></span>
+4. <span data-ttu-id="63974-111">在“维度层次结构名称”中，键入“成本行为层次结构”。</span><span class="sxs-lookup"><span data-stu-id="63974-111">In the Dimension hierarchy name field, type 'Cost behavior hierarchy'.</span></span>
+5. <span data-ttu-id="63974-112">在“维度”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="63974-112">In the Dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="63974-113">选择“成本元素”。</span><span class="sxs-lookup"><span data-stu-id="63974-113">Select Cost elements.</span></span>  
+6. <span data-ttu-id="63974-114">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="63974-114">Click Save.</span></span>
+7. <span data-ttu-id="63974-115">单击“查看层次结构”。</span><span class="sxs-lookup"><span data-stu-id="63974-115">Click View hierarchy.</span></span>
+8. <span data-ttu-id="63974-116">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="63974-116">Click New.</span></span>
+9. <span data-ttu-id="63974-117">在“节点名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="63974-117">In the Node name field, type a value.</span></span>
+    * <span data-ttu-id="63974-118">输入固定成本</span><span class="sxs-lookup"><span data-stu-id="63974-118">Enter Fixed cost.</span></span>  
+10. <span data-ttu-id="63974-119">在树中，选择“成本行为层次结构”。</span><span class="sxs-lookup"><span data-stu-id="63974-119">In the tree, select 'Cost behavior hierarchy'.</span></span>
+11. <span data-ttu-id="63974-120">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="63974-120">Click New.</span></span>
+12. <span data-ttu-id="63974-121">在“节点名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="63974-121">In the Node name field, type a value.</span></span>
+    * <span data-ttu-id="63974-122">输入可变成本。</span><span class="sxs-lookup"><span data-stu-id="63974-122">Enter Variable cost.</span></span>  
+13. <span data-ttu-id="63974-123">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="63974-123">Click Save.</span></span>
+14. <span data-ttu-id="63974-124">在树中，选择“成本行为层次结构\固定成本”。</span><span class="sxs-lookup"><span data-stu-id="63974-124">In the tree, select 'Cost behavior hierarchy\Fixed cost'.</span></span>
+15. <span data-ttu-id="63974-125">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="63974-125">Click New.</span></span>
+16. <span data-ttu-id="63974-126">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="63974-126">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="63974-127">在“起始维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="63974-127">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="63974-128">维度成员的范围中可包含差距，但是这些成员不能重叠。</span><span class="sxs-lookup"><span data-stu-id="63974-128">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+18. <span data-ttu-id="63974-129">在“截止维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="63974-129">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="63974-130">维度成员的范围中可包含差距，但是这些成员不能重叠。</span><span class="sxs-lookup"><span data-stu-id="63974-130">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+19. <span data-ttu-id="63974-131">在树中，选择“成本行为层次结构\可变成本”。</span><span class="sxs-lookup"><span data-stu-id="63974-131">In the tree, select 'Cost behavior hierarchy\Variable cost'.</span></span>
+20. <span data-ttu-id="63974-132">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="63974-132">Click New.</span></span>
+21. <span data-ttu-id="63974-133">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="63974-133">In the list, mark the selected row.</span></span>
+22. <span data-ttu-id="63974-134">在“起始维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="63974-134">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="63974-135">维度成员的范围中可包含差距，但是这些成员不能重叠。</span><span class="sxs-lookup"><span data-stu-id="63974-135">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+23. <span data-ttu-id="63974-136">在“截止维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="63974-136">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="63974-137">维度成员的范围中可包含差距，但是这些成员不能重叠。</span><span class="sxs-lookup"><span data-stu-id="63974-137">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+24. <span data-ttu-id="63974-138">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="63974-138">Click Save.</span></span>
 
-## <a name="create-the-policy-and-rules"></a><span data-ttu-id="133f3-139">创建策略和规则</span><span class="sxs-lookup"><span data-stu-id="133f3-139">Create the policy and rules</span></span>
-1. <span data-ttu-id="133f3-140">转到“成本核算”>“政策”>“成本行为政策”。</span><span class="sxs-lookup"><span data-stu-id="133f3-140">Go to Cost accounting > Policies > Cost behavior policies.</span></span>
-2. <span data-ttu-id="133f3-141">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="133f3-141">Click New.</span></span>
-3. <span data-ttu-id="133f3-142">在“政策名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="133f3-142">In the Policy name field, type a value.</span></span>
-4. <span data-ttu-id="133f3-143">在“成本元素维度层次结构”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="133f3-143">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="133f3-144">选择刚才创建的政策层次结构。</span><span class="sxs-lookup"><span data-stu-id="133f3-144">Select the policy hierarchy that you just created.</span></span>  
-5. <span data-ttu-id="133f3-145">在“成本对象维度层次结构”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="133f3-145">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="133f3-146">选择“组织”。</span><span class="sxs-lookup"><span data-stu-id="133f3-146">Select Organization.</span></span>  
-6. <span data-ttu-id="133f3-147">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="133f3-147">Click Save.</span></span>
-7. <span data-ttu-id="133f3-148">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="133f3-148">Click New.</span></span>
-8. <span data-ttu-id="133f3-149">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="133f3-149">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="133f3-150">在“成本元素维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="133f3-150">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="133f3-151">展开层次结构以选择“可变成本”。</span><span class="sxs-lookup"><span data-stu-id="133f3-151">Expand the hierarchy to select Variable cost.</span></span>  
-10. <span data-ttu-id="133f3-152">在“成本对象维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="133f3-152">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="133f3-153">默认情况下，可变百分比为 100%。</span><span class="sxs-lookup"><span data-stu-id="133f3-153">By default, the variable percentage is 100 percent.</span></span>  
-11. <span data-ttu-id="133f3-154">单击“成本控制单元的政策分配”。</span><span class="sxs-lookup"><span data-stu-id="133f3-154">Click Policy assignments for cost control unit.</span></span>
-12. <span data-ttu-id="133f3-155">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="133f3-155">Click New.</span></span>
-13. <span data-ttu-id="133f3-156">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="133f3-156">In the list, mark the selected row.</span></span>
-14. <span data-ttu-id="133f3-157">在“核算生效日期”字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="133f3-157">In the Valid from accounting date field, enter a date.</span></span>
-    * <span data-ttu-id="133f3-158">规则具有时效性，创建了更新版本时，用户或系统可让规则到期。</span><span class="sxs-lookup"><span data-stu-id="133f3-158">The rules are date-effective, and a user or the system can expire a rule if a newer version is created.</span></span>  
-15. <span data-ttu-id="133f3-159">在“成本控制单元”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="133f3-159">In the Cost control unit field, enter or select a value.</span></span>
-16. <span data-ttu-id="133f3-160">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="133f3-160">Click Save.</span></span>
+## <a name="create-the-policy-and-rules"></a><span data-ttu-id="63974-139">创建策略和规则</span><span class="sxs-lookup"><span data-stu-id="63974-139">Create the policy and rules</span></span>
+1. <span data-ttu-id="63974-140">转到“成本核算”>“政策”>“成本行为政策”。</span><span class="sxs-lookup"><span data-stu-id="63974-140">Go to Cost accounting > Policies > Cost behavior policies.</span></span>
+2. <span data-ttu-id="63974-141">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="63974-141">Click New.</span></span>
+3. <span data-ttu-id="63974-142">在“政策名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="63974-142">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="63974-143">在“成本元素维度层次结构”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="63974-143">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="63974-144">选择刚才创建的政策层次结构。</span><span class="sxs-lookup"><span data-stu-id="63974-144">Select the policy hierarchy that you just created.</span></span>  
+5. <span data-ttu-id="63974-145">在“成本对象维度层次结构”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="63974-145">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="63974-146">选择“组织”。</span><span class="sxs-lookup"><span data-stu-id="63974-146">Select Organization.</span></span>  
+6. <span data-ttu-id="63974-147">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="63974-147">Click Save.</span></span>
+7. <span data-ttu-id="63974-148">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="63974-148">Click New.</span></span>
+8. <span data-ttu-id="63974-149">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="63974-149">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="63974-150">在“成本元素维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="63974-150">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="63974-151">展开层次结构以选择“可变成本”。</span><span class="sxs-lookup"><span data-stu-id="63974-151">Expand the hierarchy to select Variable cost.</span></span>  
+10. <span data-ttu-id="63974-152">在“成本对象维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="63974-152">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="63974-153">默认情况下，可变百分比为 100%。</span><span class="sxs-lookup"><span data-stu-id="63974-153">By default, the variable percentage is 100 percent.</span></span>  
+11. <span data-ttu-id="63974-154">单击“成本控制单元的政策分配”。</span><span class="sxs-lookup"><span data-stu-id="63974-154">Click Policy assignments for cost control unit.</span></span>
+12. <span data-ttu-id="63974-155">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="63974-155">Click New.</span></span>
+13. <span data-ttu-id="63974-156">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="63974-156">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="63974-157">在“核算生效日期”字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="63974-157">In the Valid from accounting date field, enter a date.</span></span>
+    * <span data-ttu-id="63974-158">规则具有时效性，创建了更新版本时，用户或系统可让规则到期。</span><span class="sxs-lookup"><span data-stu-id="63974-158">The rules are date-effective, and a user or the system can expire a rule if a newer version is created.</span></span>  
+15. <span data-ttu-id="63974-159">在“成本控制单元”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="63974-159">In the Cost control unit field, enter or select a value.</span></span>
+16. <span data-ttu-id="63974-160">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="63974-160">Click Save.</span></span>
 
