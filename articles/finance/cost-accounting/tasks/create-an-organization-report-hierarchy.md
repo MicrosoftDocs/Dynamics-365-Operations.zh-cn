@@ -12,86 +12,86 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02c87d25db447c82fd00042a37c040c52fa366a9
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 57203a7ddbacd631cbf800fb3a98e35a485cb74f
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144423"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976251"
 ---
-# <a name="create-an-organization-report-hierarchy"></a><span data-ttu-id="9e055-103">创建组织报告层次结构</span><span class="sxs-lookup"><span data-stu-id="9e055-103">Create an organization report hierarchy</span></span>
+# <a name="create-an-organization-report-hierarchy"></a><span data-ttu-id="4aa93-103">创建组织报告层次结构</span><span class="sxs-lookup"><span data-stu-id="4aa93-103">Create an organization report hierarchy</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="9e055-104">此过程用于为组织报告创建报告层次结构。</span><span class="sxs-lookup"><span data-stu-id="9e055-104">Use this procedure to create a report hierarchy for organization reporting.</span></span> <span data-ttu-id="9e055-105">此录制的目的是引导您熟悉维度层次结构，以便继续操作，直到创建整个组织报告结构。</span><span class="sxs-lookup"><span data-stu-id="9e055-105">The purpose of this recording is to guide you through the dimension hierarchy so that you can continue until the whole organization reporting structure is created.</span></span> <span data-ttu-id="9e055-106">此录制使用 USP2 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="9e055-106">This recording uses the USP2 demo data company.</span></span>
+<span data-ttu-id="4aa93-104">此过程用于为组织报告创建报告层次结构。</span><span class="sxs-lookup"><span data-stu-id="4aa93-104">Use this procedure to create a report hierarchy for organization reporting.</span></span> <span data-ttu-id="4aa93-105">此录制的目的是引导您熟悉维度层次结构，以便继续操作，直到创建整个组织报告结构。</span><span class="sxs-lookup"><span data-stu-id="4aa93-105">The purpose of this recording is to guide you through the dimension hierarchy so that you can continue until the whole organization reporting structure is created.</span></span> <span data-ttu-id="4aa93-106">此录制使用 USP2 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="4aa93-106">This recording uses the USP2 demo data company.</span></span>
 
-1. <span data-ttu-id="9e055-107">转到“成本核算”>“维度”>“维度层次结构”。</span><span class="sxs-lookup"><span data-stu-id="9e055-107">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
-2. <span data-ttu-id="9e055-108">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9e055-108">Click New.</span></span>
-3. <span data-ttu-id="9e055-109">在“层次结构类型组合框”字段中，选择“维度分类层次结构”。</span><span class="sxs-lookup"><span data-stu-id="9e055-109">In the HierarchyTypeComboBox field, select 'Dimension classification hierarchy'.</span></span>
-    * <span data-ttu-id="9e055-110">选择“维度分类层次结构”。</span><span class="sxs-lookup"><span data-stu-id="9e055-110">Select Dimension classification hierarchy.</span></span> <span data-ttu-id="9e055-111">维度分级层次结构类型用于定义规则和用于报告目的。</span><span class="sxs-lookup"><span data-stu-id="9e055-111">The Dimension classification hierarchy type is used to define rules and for reporting purposes.</span></span> <span data-ttu-id="9e055-112">它支持所有维度，例如成本对象、成本元素和统计维度。</span><span class="sxs-lookup"><span data-stu-id="9e055-112">It supports all dimensions, such as cost objects, cost elements, and statistical dimensions.</span></span>  
-4. <span data-ttu-id="9e055-113">单击“创建”。</span><span class="sxs-lookup"><span data-stu-id="9e055-113">Click Create.</span></span>
-5. <span data-ttu-id="9e055-114">在“维度层次结构名称”字段中，键入“组织 USP2”。</span><span class="sxs-lookup"><span data-stu-id="9e055-114">In the Dimension hierarchy name field, type 'Oganization USP2'.</span></span>
-6. <span data-ttu-id="9e055-115">在“维度”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9e055-115">In the Dimension field, enter or select a value.</span></span>
-    * <span data-ttu-id="9e055-116">选择“成本中心”。</span><span class="sxs-lookup"><span data-stu-id="9e055-116">Select Cost centers.</span></span>  
-7. <span data-ttu-id="9e055-117">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9e055-117">Click Save.</span></span>
-8. <span data-ttu-id="9e055-118">单击“查看层次结构”。</span><span class="sxs-lookup"><span data-stu-id="9e055-118">Click View hierarchy.</span></span>
-9. <span data-ttu-id="9e055-119">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9e055-119">Click New.</span></span>
-10. <span data-ttu-id="9e055-120">在“节点名称”字段中，键入“CEO”。</span><span class="sxs-lookup"><span data-stu-id="9e055-120">In the Node name field, type 'CEO'.</span></span>
-11. <span data-ttu-id="9e055-121">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9e055-121">Click Save.</span></span>
-12. <span data-ttu-id="9e055-122">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9e055-122">Click New.</span></span>
-13. <span data-ttu-id="9e055-123">在“节点名称”字段中，键入“CEO 成本中心”。</span><span class="sxs-lookup"><span data-stu-id="9e055-123">In the Node name field, type 'CEO cost centers'.</span></span>
-14. <span data-ttu-id="9e055-124">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9e055-124">Click Save.</span></span>
-15. <span data-ttu-id="9e055-125">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9e055-125">Click New.</span></span>
-16. <span data-ttu-id="9e055-126">在“节点名称”字段中，键入“东部区域”。</span><span class="sxs-lookup"><span data-stu-id="9e055-126">In the Node name field, type 'Region East'.</span></span>
-17. <span data-ttu-id="9e055-127">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9e055-127">Click Save.</span></span>
-18. <span data-ttu-id="9e055-128">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9e055-128">Click New.</span></span>
-19. <span data-ttu-id="9e055-129">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="9e055-129">In the list, mark the selected row.</span></span>
-20. <span data-ttu-id="9e055-130">在“起始维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9e055-130">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="9e055-131">选中与节点对应的维度成员。</span><span class="sxs-lookup"><span data-stu-id="9e055-131">Select the dimension member that corresponds to the node.</span></span>  
-21. <span data-ttu-id="9e055-132">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9e055-132">Click Save.</span></span>
-22. <span data-ttu-id="9e055-133">在树中，选择“组织 USP2\CEO\CEO 成本中心”。</span><span class="sxs-lookup"><span data-stu-id="9e055-133">In the tree, select 'Oganization USP2\CEO\CEO cost centers'.</span></span>
-23. <span data-ttu-id="9e055-134">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9e055-134">Click New.</span></span>
-24. <span data-ttu-id="9e055-135">在“节点名称”字段中，键入“西部区域”。</span><span class="sxs-lookup"><span data-stu-id="9e055-135">In the Node name field, type 'Region West'.</span></span>
-25. <span data-ttu-id="9e055-136">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9e055-136">Click Save.</span></span>
-26. <span data-ttu-id="9e055-137">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9e055-137">Click New.</span></span>
-27. <span data-ttu-id="9e055-138">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="9e055-138">In the list, mark the selected row.</span></span>
-28. <span data-ttu-id="9e055-139">在“起始维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9e055-139">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="9e055-140">选中与节点对应的维度成员。</span><span class="sxs-lookup"><span data-stu-id="9e055-140">Select the dimension member that corresponds to the node.</span></span>  
-29. <span data-ttu-id="9e055-141">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9e055-141">Click Save.</span></span>
-30. <span data-ttu-id="9e055-142">在树中，选择“组织 USP2\CEO”。</span><span class="sxs-lookup"><span data-stu-id="9e055-142">In the tree, select 'Oganization USP2\CEO'.</span></span>
-31. <span data-ttu-id="9e055-143">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9e055-143">Click New.</span></span>
-32. <span data-ttu-id="9e055-144">在“节点名称”字段中，键入“CFO 成本中心”。</span><span class="sxs-lookup"><span data-stu-id="9e055-144">In the Node name field, type 'CFO cost centers'.</span></span>
-33. <span data-ttu-id="9e055-145">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9e055-145">Click Save.</span></span>
-34. <span data-ttu-id="9e055-146">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9e055-146">Click New.</span></span>
-35. <span data-ttu-id="9e055-147">在“节点名称”字段中，键入“营销市场活动”。</span><span class="sxs-lookup"><span data-stu-id="9e055-147">In the Node name field, type 'Marketing campa'.</span></span>
-36. <span data-ttu-id="9e055-148">在“节点名称”字段中，键入“营销市场活动”。</span><span class="sxs-lookup"><span data-stu-id="9e055-148">In the Node name field, type 'Marketing campaign'.</span></span>
-37. <span data-ttu-id="9e055-149">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9e055-149">Click Save.</span></span>
-38. <span data-ttu-id="9e055-150">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9e055-150">Click New.</span></span>
-39. <span data-ttu-id="9e055-151">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="9e055-151">In the list, mark the selected row.</span></span>
-40. <span data-ttu-id="9e055-152">在“起始维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9e055-152">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="9e055-153">选中与节点对应的维度成员。</span><span class="sxs-lookup"><span data-stu-id="9e055-153">Select the dimension member that corresponds to the node.</span></span>  
-41. <span data-ttu-id="9e055-154">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9e055-154">Click Save.</span></span>
-42. <span data-ttu-id="9e055-155">在树中，选择“组织 USP2\CEO\CFO 成本中心”。</span><span class="sxs-lookup"><span data-stu-id="9e055-155">In the tree, select 'Organization USP2\CEO\CFO cost centers'.</span></span>
-43. <span data-ttu-id="9e055-156">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9e055-156">Click New.</span></span>
-44. <span data-ttu-id="9e055-157">在“节点名称”字段中，键入“商业展览会”。</span><span class="sxs-lookup"><span data-stu-id="9e055-157">In the Node name field, type 'Trade shows'.</span></span>
-45. <span data-ttu-id="9e055-158">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9e055-158">Click Save.</span></span>
-46. <span data-ttu-id="9e055-159">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9e055-159">Click New.</span></span>
-47. <span data-ttu-id="9e055-160">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="9e055-160">In the list, mark the selected row.</span></span>
-48. <span data-ttu-id="9e055-161">在“起始维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9e055-161">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="9e055-162">选中与节点对应的维度成员。</span><span class="sxs-lookup"><span data-stu-id="9e055-162">Select the dimension member that corresponds to the node.</span></span>  
-49. <span data-ttu-id="9e055-163">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9e055-163">Click Save.</span></span>
-50. <span data-ttu-id="9e055-164">在树中，选择“组织 USP2\CEO”。</span><span class="sxs-lookup"><span data-stu-id="9e055-164">In the tree, select 'Oganization USP2\CEO'.</span></span>
-51. <span data-ttu-id="9e055-165">在“节点名称”字段中，键入“CIO 成本中心”。</span><span class="sxs-lookup"><span data-stu-id="9e055-165">In the Node name field, type 'CIO cost centers'.</span></span>
-52. <span data-ttu-id="9e055-166">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9e055-166">Click Save.</span></span>
-53. <span data-ttu-id="9e055-167">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9e055-167">Click New.</span></span>
-54. <span data-ttu-id="9e055-168">在“节点名称”字段中，键入“呼叫中心”。</span><span class="sxs-lookup"><span data-stu-id="9e055-168">In the Node name field, type 'Call centers'.</span></span>
-55. <span data-ttu-id="9e055-169">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9e055-169">Click Save.</span></span>
-56. <span data-ttu-id="9e055-170">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9e055-170">Click New.</span></span>
-57. <span data-ttu-id="9e055-171">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="9e055-171">In the list, mark the selected row.</span></span>
-58. <span data-ttu-id="9e055-172">在“起始维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9e055-172">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="9e055-173">选中与节点对应的维度成员。</span><span class="sxs-lookup"><span data-stu-id="9e055-173">Select the dimension member that corresponds to the node.</span></span>  
-59. <span data-ttu-id="9e055-174">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9e055-174">Click Save.</span></span>
+1. <span data-ttu-id="4aa93-107">转到“成本核算”>“维度”>“维度层次结构”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-107">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
+2. <span data-ttu-id="4aa93-108">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-108">Click New.</span></span>
+3. <span data-ttu-id="4aa93-109">在“层次结构类型组合框”字段中，选择“维度分类层次结构”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-109">In the HierarchyTypeComboBox field, select 'Dimension classification hierarchy'.</span></span>
+    * <span data-ttu-id="4aa93-110">选择“维度分类层次结构”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-110">Select Dimension classification hierarchy.</span></span> <span data-ttu-id="4aa93-111">维度分级层次结构类型用于定义规则和用于报告目的。</span><span class="sxs-lookup"><span data-stu-id="4aa93-111">The Dimension classification hierarchy type is used to define rules and for reporting purposes.</span></span> <span data-ttu-id="4aa93-112">它支持所有维度，例如成本对象、成本元素和统计维度。</span><span class="sxs-lookup"><span data-stu-id="4aa93-112">It supports all dimensions, such as cost objects, cost elements, and statistical dimensions.</span></span>  
+4. <span data-ttu-id="4aa93-113">单击“创建”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-113">Click Create.</span></span>
+5. <span data-ttu-id="4aa93-114">在“维度层次结构名称”字段中，键入“组织 USP2”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-114">In the Dimension hierarchy name field, type 'Oganization USP2'.</span></span>
+6. <span data-ttu-id="4aa93-115">在“维度”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="4aa93-115">In the Dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="4aa93-116">选择“成本中心”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-116">Select Cost centers.</span></span>  
+7. <span data-ttu-id="4aa93-117">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-117">Click Save.</span></span>
+8. <span data-ttu-id="4aa93-118">单击“查看层次结构”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-118">Click View hierarchy.</span></span>
+9. <span data-ttu-id="4aa93-119">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-119">Click New.</span></span>
+10. <span data-ttu-id="4aa93-120">在“节点名称”字段中，键入“CEO”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-120">In the Node name field, type 'CEO'.</span></span>
+11. <span data-ttu-id="4aa93-121">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-121">Click Save.</span></span>
+12. <span data-ttu-id="4aa93-122">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-122">Click New.</span></span>
+13. <span data-ttu-id="4aa93-123">在“节点名称”字段中，键入“CEO 成本中心”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-123">In the Node name field, type 'CEO cost centers'.</span></span>
+14. <span data-ttu-id="4aa93-124">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-124">Click Save.</span></span>
+15. <span data-ttu-id="4aa93-125">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-125">Click New.</span></span>
+16. <span data-ttu-id="4aa93-126">在“节点名称”字段中，键入“东部区域”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-126">In the Node name field, type 'Region East'.</span></span>
+17. <span data-ttu-id="4aa93-127">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-127">Click Save.</span></span>
+18. <span data-ttu-id="4aa93-128">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-128">Click New.</span></span>
+19. <span data-ttu-id="4aa93-129">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="4aa93-129">In the list, mark the selected row.</span></span>
+20. <span data-ttu-id="4aa93-130">在“起始维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="4aa93-130">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="4aa93-131">选中与节点对应的维度成员。</span><span class="sxs-lookup"><span data-stu-id="4aa93-131">Select the dimension member that corresponds to the node.</span></span>  
+21. <span data-ttu-id="4aa93-132">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-132">Click Save.</span></span>
+22. <span data-ttu-id="4aa93-133">在树中，选择“组织 USP2\CEO\CEO 成本中心”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-133">In the tree, select 'Oganization USP2\CEO\CEO cost centers'.</span></span>
+23. <span data-ttu-id="4aa93-134">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-134">Click New.</span></span>
+24. <span data-ttu-id="4aa93-135">在“节点名称”字段中，键入“西部区域”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-135">In the Node name field, type 'Region West'.</span></span>
+25. <span data-ttu-id="4aa93-136">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-136">Click Save.</span></span>
+26. <span data-ttu-id="4aa93-137">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-137">Click New.</span></span>
+27. <span data-ttu-id="4aa93-138">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="4aa93-138">In the list, mark the selected row.</span></span>
+28. <span data-ttu-id="4aa93-139">在“起始维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="4aa93-139">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="4aa93-140">选中与节点对应的维度成员。</span><span class="sxs-lookup"><span data-stu-id="4aa93-140">Select the dimension member that corresponds to the node.</span></span>  
+29. <span data-ttu-id="4aa93-141">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-141">Click Save.</span></span>
+30. <span data-ttu-id="4aa93-142">在树中，选择“组织 USP2\CEO”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-142">In the tree, select 'Oganization USP2\CEO'.</span></span>
+31. <span data-ttu-id="4aa93-143">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-143">Click New.</span></span>
+32. <span data-ttu-id="4aa93-144">在“节点名称”字段中，键入“CFO 成本中心”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-144">In the Node name field, type 'CFO cost centers'.</span></span>
+33. <span data-ttu-id="4aa93-145">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-145">Click Save.</span></span>
+34. <span data-ttu-id="4aa93-146">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-146">Click New.</span></span>
+35. <span data-ttu-id="4aa93-147">在“节点名称”字段中，键入“营销市场活动”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-147">In the Node name field, type 'Marketing campa'.</span></span>
+36. <span data-ttu-id="4aa93-148">在“节点名称”字段中，键入“营销市场活动”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-148">In the Node name field, type 'Marketing campaign'.</span></span>
+37. <span data-ttu-id="4aa93-149">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-149">Click Save.</span></span>
+38. <span data-ttu-id="4aa93-150">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-150">Click New.</span></span>
+39. <span data-ttu-id="4aa93-151">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="4aa93-151">In the list, mark the selected row.</span></span>
+40. <span data-ttu-id="4aa93-152">在“起始维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="4aa93-152">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="4aa93-153">选中与节点对应的维度成员。</span><span class="sxs-lookup"><span data-stu-id="4aa93-153">Select the dimension member that corresponds to the node.</span></span>  
+41. <span data-ttu-id="4aa93-154">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-154">Click Save.</span></span>
+42. <span data-ttu-id="4aa93-155">在树中，选择“组织 USP2\CEO\CFO 成本中心”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-155">In the tree, select 'Organization USP2\CEO\CFO cost centers'.</span></span>
+43. <span data-ttu-id="4aa93-156">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-156">Click New.</span></span>
+44. <span data-ttu-id="4aa93-157">在“节点名称”字段中，键入“商业展览会”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-157">In the Node name field, type 'Trade shows'.</span></span>
+45. <span data-ttu-id="4aa93-158">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-158">Click Save.</span></span>
+46. <span data-ttu-id="4aa93-159">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-159">Click New.</span></span>
+47. <span data-ttu-id="4aa93-160">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="4aa93-160">In the list, mark the selected row.</span></span>
+48. <span data-ttu-id="4aa93-161">在“起始维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="4aa93-161">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="4aa93-162">选中与节点对应的维度成员。</span><span class="sxs-lookup"><span data-stu-id="4aa93-162">Select the dimension member that corresponds to the node.</span></span>  
+49. <span data-ttu-id="4aa93-163">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-163">Click Save.</span></span>
+50. <span data-ttu-id="4aa93-164">在树中，选择“组织 USP2\CEO”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-164">In the tree, select 'Oganization USP2\CEO'.</span></span>
+51. <span data-ttu-id="4aa93-165">在“节点名称”字段中，键入“CIO 成本中心”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-165">In the Node name field, type 'CIO cost centers'.</span></span>
+52. <span data-ttu-id="4aa93-166">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-166">Click Save.</span></span>
+53. <span data-ttu-id="4aa93-167">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-167">Click New.</span></span>
+54. <span data-ttu-id="4aa93-168">在“节点名称”字段中，键入“呼叫中心”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-168">In the Node name field, type 'Call centers'.</span></span>
+55. <span data-ttu-id="4aa93-169">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-169">Click Save.</span></span>
+56. <span data-ttu-id="4aa93-170">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-170">Click New.</span></span>
+57. <span data-ttu-id="4aa93-171">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="4aa93-171">In the list, mark the selected row.</span></span>
+58. <span data-ttu-id="4aa93-172">在“起始维度成员”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="4aa93-172">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="4aa93-173">选中与节点对应的维度成员。</span><span class="sxs-lookup"><span data-stu-id="4aa93-173">Select the dimension member that corresponds to the node.</span></span>  
+59. <span data-ttu-id="4aa93-174">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4aa93-174">Click Save.</span></span>
 

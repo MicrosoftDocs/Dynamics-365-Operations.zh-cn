@@ -12,31 +12,31 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55550c087b064090bead3415816a0c380830fb7c
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 98cd12e04d8a9a41cd6987f58f46cfe9a761ee2e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208401"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986351"
 ---
-# <a name="configure-linked-products"></a><span data-ttu-id="a3176-103">配置链接的产品</span><span class="sxs-lookup"><span data-stu-id="a3176-103">Configure linked products</span></span>
+# <a name="configure-linked-products"></a><span data-ttu-id="3c17c-103">配置链接的产品</span><span class="sxs-lookup"><span data-stu-id="3c17c-103">Configure linked products</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a3176-104">此程序会逐步演示如何配置链接产品。</span><span class="sxs-lookup"><span data-stu-id="a3176-104">This procedure walks through configuring linked products.</span></span> <span data-ttu-id="a3176-105">此程序使用 USRT 演示数据，并假定两种产品已创建并发布。</span><span class="sxs-lookup"><span data-stu-id="a3176-105">This procedure uses the USRT demo data, and assumes both products have already been created and released.</span></span>
+<span data-ttu-id="3c17c-104">此程序会逐步演示如何配置链接产品。</span><span class="sxs-lookup"><span data-stu-id="3c17c-104">This procedure walks through configuring linked products.</span></span> <span data-ttu-id="3c17c-105">此程序使用 USRT 演示数据，并假定两种产品已创建并发布。</span><span class="sxs-lookup"><span data-stu-id="3c17c-105">This procedure uses the USRT demo data, and assumes both products have already been created and released.</span></span>
 
-1. <span data-ttu-id="a3176-106">转到“产品信息管理”>“产品”>“已发布产品”。</span><span class="sxs-lookup"><span data-stu-id="a3176-106">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="a3176-107">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="a3176-107">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="a3176-108">在操作窗格上，单击“Retail 和 Commerce”。</span><span class="sxs-lookup"><span data-stu-id="a3176-108">On the Action Pane, click Retail and Commerce.</span></span>
-4. <span data-ttu-id="a3176-109">单击“链接的产品”。</span><span class="sxs-lookup"><span data-stu-id="a3176-109">Click Linked products.</span></span>
-5. <span data-ttu-id="a3176-110">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="a3176-110">Click Edit.</span></span>
-6. <span data-ttu-id="a3176-111">在“链接的产品编号”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="a3176-111">In the Linked product number field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="a3176-112">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="a3176-112">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="a3176-113">在“单位”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="a3176-113">In the Unit field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="a3176-114">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="a3176-114">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="a3176-115">在“数量”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="a3176-115">In the Quantity field, enter a number.</span></span>
-11. <span data-ttu-id="a3176-116">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="a3176-116">Click Save.</span></span>
+1. <span data-ttu-id="3c17c-106">转到“产品信息管理”>“产品”>“已发布产品”。</span><span class="sxs-lookup"><span data-stu-id="3c17c-106">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="3c17c-107">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="3c17c-107">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="3c17c-108">在操作窗格上，单击“Retail 和 Commerce”。</span><span class="sxs-lookup"><span data-stu-id="3c17c-108">On the Action Pane, click Retail and Commerce.</span></span>
+4. <span data-ttu-id="3c17c-109">单击“链接的产品”。</span><span class="sxs-lookup"><span data-stu-id="3c17c-109">Click Linked products.</span></span>
+5. <span data-ttu-id="3c17c-110">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="3c17c-110">Click Edit.</span></span>
+6. <span data-ttu-id="3c17c-111">在“链接的产品编号”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="3c17c-111">In the Linked product number field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="3c17c-112">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="3c17c-112">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="3c17c-113">在“单位”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="3c17c-113">In the Unit field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="3c17c-114">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="3c17c-114">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="3c17c-115">在“数量”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="3c17c-115">In the Quantity field, enter a number.</span></span>
+11. <span data-ttu-id="3c17c-116">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="3c17c-116">Click Save.</span></span>
 

@@ -15,42 +15,42 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 31beaf76b9e710807974bde7ec7dd53561e2ab28
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 165c1c89af52aac0b540cb6aee577d717d12b0f6
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206672"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979724"
 ---
-# <a name="subscription-groups"></a><span data-ttu-id="25c2e-103">预订组</span><span class="sxs-lookup"><span data-stu-id="25c2e-103">Subscription groups</span></span>    
+# <a name="subscription-groups"></a><span data-ttu-id="5bc80-103">预订组</span><span class="sxs-lookup"><span data-stu-id="5bc80-103">Subscription groups</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="25c2e-104">预订共享为预订组定义的以下信息：</span><span class="sxs-lookup"><span data-stu-id="25c2e-104">Subscriptions share the following information, which is defined for the subscription group:</span></span>
+<span data-ttu-id="5bc80-104">预订共享为预订组定义的以下信息：</span><span class="sxs-lookup"><span data-stu-id="5bc80-104">Subscriptions share the following information, which is defined for the subscription group:</span></span>
 
-  - <span data-ttu-id="25c2e-105">用于预订的编号规则代码（如果有）。</span><span class="sxs-lookup"><span data-stu-id="25c2e-105">Number sequence code for the subscription, if any.</span></span>
+  - <span data-ttu-id="5bc80-105">用于预订的编号规则代码（如果有）。</span><span class="sxs-lookup"><span data-stu-id="5bc80-105">Number sequence code for the subscription, if any.</span></span>
 
-  - <span data-ttu-id="25c2e-106">创建预订交易记录的开票期。</span><span class="sxs-lookup"><span data-stu-id="25c2e-106">The invoicing period for which subscription transactions are created.</span></span> <span data-ttu-id="25c2e-107">例如，如果**预订组**窗体中的**开票**期间代码设置为**每季度**，则用于附加到预订组的所有预订的交易记录将基于每季度创建。</span><span class="sxs-lookup"><span data-stu-id="25c2e-107">For example, if the **Invoicing** period code in the **Subscription groups** form is set to **Quarterly**, transactions for all subscriptions that are attached to the subscription group are created on a quarterly basis.</span></span>
+  - <span data-ttu-id="5bc80-106">创建预订交易记录的开票期。</span><span class="sxs-lookup"><span data-stu-id="5bc80-106">The invoicing period for which subscription transactions are created.</span></span> <span data-ttu-id="5bc80-107">例如，如果**预订组**窗体中的**开票**期间代码设置为**每季度**，则用于附加到预订组的所有预订的交易记录将基于每季度创建。</span><span class="sxs-lookup"><span data-stu-id="5bc80-107">For example, if the **Invoicing** period code in the **Subscription groups** form is set to **Quarterly**, transactions for all subscriptions that are attached to the subscription group are created on a quarterly basis.</span></span>
 
-  - <span data-ttu-id="25c2e-108">预订应计的频繁程度（如果全部）。</span><span class="sxs-lookup"><span data-stu-id="25c2e-108">How frequently the subscription is to be accrued, if at all.</span></span>
+  - <span data-ttu-id="5bc80-108">预订应计的频繁程度（如果全部）。</span><span class="sxs-lookup"><span data-stu-id="5bc80-108">How frequently the subscription is to be accrued, if at all.</span></span>
 
-<span data-ttu-id="25c2e-109">您还可以为附加到预订组的所有预订完成以下任务：</span><span class="sxs-lookup"><span data-stu-id="25c2e-109">You can also complete the following tasks for all subscriptions that are attached to the subscription group:</span></span>
+<span data-ttu-id="5bc80-109">您还可以为附加到预订组的所有预订完成以下任务：</span><span class="sxs-lookup"><span data-stu-id="5bc80-109">You can also complete the following tasks for all subscriptions that are attached to the subscription group:</span></span>
 
-  - <span data-ttu-id="25c2e-110">创建预订交易记录。</span><span class="sxs-lookup"><span data-stu-id="25c2e-110">Create subscription transactions.</span></span>
+  - <span data-ttu-id="5bc80-110">创建预订交易记录。</span><span class="sxs-lookup"><span data-stu-id="5bc80-110">Create subscription transactions.</span></span>
 
-  - <span data-ttu-id="25c2e-111">更新预订的基价或指数。</span><span class="sxs-lookup"><span data-stu-id="25c2e-111">Update the base price or the index for the subscriptions.</span></span>
+  - <span data-ttu-id="5bc80-111">更新预订的基价或指数。</span><span class="sxs-lookup"><span data-stu-id="5bc80-111">Update the base price or the index for the subscriptions.</span></span>
 
-  - <span data-ttu-id="25c2e-112">为预订交易记录过帐应计收入。</span><span class="sxs-lookup"><span data-stu-id="25c2e-112">Post accrued revenue for subscription transactions.</span></span>
+  - <span data-ttu-id="5bc80-112">为预订交易记录过帐应计收入。</span><span class="sxs-lookup"><span data-stu-id="5bc80-112">Post accrued revenue for subscription transactions.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="25c2e-113">请参阅</span><span class="sxs-lookup"><span data-stu-id="25c2e-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5bc80-113">请参阅</span><span class="sxs-lookup"><span data-stu-id="5bc80-113">See also</span></span>
 
-<span data-ttu-id="25c2e-114">[预订组（窗体）](https://technet.microsoft.com/library/aa553150\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="25c2e-114">[Subscription groups (form)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))</span></span>
+<span data-ttu-id="5bc80-114">[预订组（窗体）](https://technet.microsoft.com/library/aa553150\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="5bc80-114">[Subscription groups (form)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))</span></span>
 
-[<span data-ttu-id="25c2e-115">设置预订组</span><span class="sxs-lookup"><span data-stu-id="25c2e-115">Set up subscription groups</span></span>](set-up-subscription-groups.md)
+[<span data-ttu-id="5bc80-115">设置预订组</span><span class="sxs-lookup"><span data-stu-id="5bc80-115">Set up subscription groups</span></span>](set-up-subscription-groups.md)
 
   
 
