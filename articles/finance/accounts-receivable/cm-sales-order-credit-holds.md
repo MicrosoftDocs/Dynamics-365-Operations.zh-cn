@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschloma
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8a0e006be8a72f35d6c6009ca9d67d083b8fac89
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 102ea4285407a4f4985cc8dd46ebc1ad21fc6f67
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124246"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977903"
 ---
 # <a name="credit-holds-for-sales-orders"></a>销售订单的信用保留
 [!include [banner](../includes/banner.md)]

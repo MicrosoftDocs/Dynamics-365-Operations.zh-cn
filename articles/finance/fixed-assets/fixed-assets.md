@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 21481
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e761283057ff71fb10d4a5333a0b0dd4b6b6149e
-ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
+ms.openlocfilehash: e7ac2ba5dca7b2607a754a64a25ea079ac961300
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888076"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977255"
 ---
 # <a name="fixed-assets-home-page"></a>固定资产主页
 

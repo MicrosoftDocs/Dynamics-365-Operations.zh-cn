@@ -14,15 +14,15 @@ ms.reviewer: v-chgri
 ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: BriShoo
+ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6ca48badbe15b7e1bf543716a9b0e3da31477a20
-ms.sourcegitcommit: 236672932ffd0a758012ebb7b2df9bc51249c126
+ms.openlocfilehash: d0b14e0c662af74464768b66c1c86d03d2944014
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096492"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976008"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>在 Commerce 环境中配置多个 B2C 租户
 

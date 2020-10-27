@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: maertenm
+ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d8b55895c9dfaf1c69cd319697f1e0da5990daf
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: fa86d408727ecf2127308070fda592ff6a1fccf4
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144079"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982446"
 ---
 # <a name="import-users-in-bulk"></a>批量导入用户
 

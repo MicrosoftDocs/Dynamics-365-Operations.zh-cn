@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cd28e38c0ffbc2cb154cd38cb4aaeea76087bf7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b6b1dbb4d53785c226f7c9d40339d9dd19f47152
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203173"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984146"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>装运无仓库的销售订单
 

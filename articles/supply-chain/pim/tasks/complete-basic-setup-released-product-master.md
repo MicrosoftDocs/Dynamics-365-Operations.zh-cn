@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b8fde67699270906b893eee06600b8acf4c681e9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 8ac4ceeb3e21ab089eb16565bb6e38c7eb44be80
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208309"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986399"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>完成已发布基础产品的基本设置
 

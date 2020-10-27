@@ -16,15 +16,15 @@ ms.custom: 19291
 ms.assetid: e97f1d3d-1306-4c42-b2bc-d1755fe574d5
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e8b017455c0821d97f9039d4ebf00d2dfa28eaa
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: faeb90aa3366a58b746c0b397dd950bfb8c9024f
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211629"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979467"
 ---
 # <a name="consolidated-batch-orders"></a>合并的批次订单
 

@@ -14,15 +14,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 261454
 ms.search.region: China (PRC)
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bbaf57cefbf826cd392603ed5eb0d4d42adfb5fa
-ms.sourcegitcommit: 0681a00d60c9f8cc8f7b9888b8c5ddf07279fc04
+ms.openlocfilehash: 2f3a4ef5a7cf8e6f745f4eec7821f359e4e49dc1
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3131746"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987503"
 ---
 # <a name="chinese-vouchers"></a>中国式凭证
 

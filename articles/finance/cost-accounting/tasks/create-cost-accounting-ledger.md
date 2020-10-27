@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7ac02bfc0e9981e3dff6bba350b0748946862b4
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: b0339b3c90817540f7ae58b903c8b5e6383eb938
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142332"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976155"
 ---
 # <a name="create-a-cost-accounting-ledger"></a>创建成本核算分类帐
 

@@ -13,15 +13,15 @@ ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4ce9c9d5b5def386f159df581c87d48f3e0b0ad9
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: a5c14f9529d11898e43f128c26859fc17fac9b73
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367307"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976685"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>电子申报示例供应商支票
 

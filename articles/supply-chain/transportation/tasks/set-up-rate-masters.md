@@ -13,15 +13,15 @@ ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 91877c777c6f76bd4fcf1c786bd708051c2fcd47
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 44eb817bbc6053eeefaef18f9d3be1822bcb057c
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201448"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981889"
 ---
 # <a name="set-up-rate-masters"></a>设置费率主数据
 

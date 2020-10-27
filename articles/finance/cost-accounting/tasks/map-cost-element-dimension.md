@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a5805b7d86979389f1eb7496a63e3f4e7056c92
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: 6f8d5356e6c7f8aff507d3fa87bb3c30cb38cf36
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3137860"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977591"
 ---
 # <a name="map-a-cost-element-dimension"></a>映射成本元素维度
 

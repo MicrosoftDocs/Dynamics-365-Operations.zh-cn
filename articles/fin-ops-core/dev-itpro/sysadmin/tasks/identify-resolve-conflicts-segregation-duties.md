@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: maertenm
+ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 70fe3bb707f2f204cda92ec979fe9fe1a3b96bac
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 69dabb44ef08bf798b86cd031536146880c8fd40
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143596"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982470"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>确定和解决职责划分冲突
 

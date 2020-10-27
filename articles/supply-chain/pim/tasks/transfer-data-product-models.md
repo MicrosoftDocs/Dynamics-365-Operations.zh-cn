@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6bb2a3d941b6f263c3ef32c6d0b8763f18b4485c
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 1ba4e01bec0ce5e7c0234dea13313fcf2db70b48
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3886940"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981006"
 ---
 # <a name="transfer-data-for-product-models"></a>转移产品模型的数据
 

@@ -70,12 +70,12 @@
                   items:
                     - name: “Supply Chain Management 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.15（2020 年 12 月）
+                      href: get-started/whats-new-scm-10-0-15.md
                     - name: Supply Chain Management 10.0.14（2020 年 11 月）
                       href: get-started/whats-new-scm-10-0-14.md
                     - name: Supply Chain Management 10.0.13（2020 年 10 月）
                       href: get-started/whats-new-scm-10-0-13.md
-                    - name: Supply Chain Management 10.0.12（2020 年 8 月）
-                      href: get-started/whats-new-scm-10-0-12.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
@@ -194,6 +194,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 将 LCS 实施项目移动到其他 Azure AD 租户
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 将 LCS 实施项目从本地移动到云
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 一个 Azure AD 租户上的多个 LCS 项目和生产环境
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
         - name: 全球化
@@ -202,6 +204,10 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
             - name: 监管更新
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
+            - name: 印度
+              items:
+                - name: 存货转移单
+                  href: ../finance/localizations/apac-ind-stock-transfer.md
             - name: 俄罗斯
               items:
                 - name: 俄罗斯概览
@@ -1407,6 +1413,8 @@
                   href: master-planning/supply-chain-calendars-master-planning.md
                 - name: 改善主计划性能
                   href: master-planning/master-planning-performance.md
+                - name: 改善计划编制引擎性能
+                  href: master-planning/scheduling-engine-performance.md
                 - name: 主计划和多站点功能
                   items:
                     - name: 主计划和多站点功能概览
@@ -1939,6 +1947,8 @@
                       href: pim/tasks/maintain-bom-product-configuration-model.md
                     - name: 维护产品模型的工艺路线
                       href: pim/tasks/maintain-route-product-model.md
+                    - name: 基于属性的销售价格适用于基于约束的产品配置
+                      href: pim/attribute-based-product-configurator.md
                     - name: 审核产品配置模型
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: 转移产品模型的数据
@@ -2035,6 +2045,8 @@
                       href: production-control/config-job-card-device.md
                     - name: 从作业卡设备报告为已完工入库
                       href: production-control/report-finished-job-device.md
+                    - name: 为生产中的工作人员提供混合现实指南
+                      href: production-control/instruction-guides-in-production-overview.md
                     - name: 反转生产订单状态
                       href: production-control/reverse-production-order-status.md
                     - name: 物料异常的可见性
@@ -2649,6 +2661,10 @@
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: 启用牌照标签打印
                       href: warehousing/tasks/license-plate-label-printing.md
+                    - name: 通过仓库应用创建转移单
+                      href: warehousing/create-transfer-order-from-warehouse-app.md
+                    - name: 仓库应用事件处理
+                      href: warehousing/warehouse-app-events.md
                     - name: 单件领料确认
                       href: warehousing/piece-picking-confirmation.md
                     - name: 包装材料和费用
@@ -2845,6 +2861,8 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: 流程指南框架
                       href: warehousing/process-guide-framework.md
+                    - name: 解决仓库应用的连接问题
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: 升级和迁移
                   items:
                     - name: 将仓库管理流程从 Microsoft Dynamics AX 2012 升级到 Finance and Operations

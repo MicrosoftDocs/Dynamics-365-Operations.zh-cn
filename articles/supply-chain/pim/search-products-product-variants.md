@@ -16,15 +16,15 @@ ms.custom: 248534
 ms.assetid: 99dd5ce1-0029-4f06-90e7-865e6d46d86e
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 15a6439595174978e379aaf248cd565bdf636428
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6acfdf819ffce496f0a9b5d6242b55d857510b49
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209399"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986591"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>在输入订单时搜索产品和产品变型
 

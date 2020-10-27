@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9979c6180bda406513cc3234c9fa5d9db2b32a75
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 42ca1d4d2d9b45d79cf479833f83e498e3b73540
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202069"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975624"
 ---
 # <a name="register-the-receipt-of-returned-items"></a>登记退回物料的接收 
 

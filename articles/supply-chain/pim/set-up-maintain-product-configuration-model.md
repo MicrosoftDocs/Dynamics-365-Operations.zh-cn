@@ -16,15 +16,15 @@ ms.custom: 4051
 ms.assetid: 00df5537-b148-4e32-a248-3e35876ad4e1
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3560012c39f0ff2ea695006c232bc1ab1b61f971
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7af9aaa01d89da909f2b30089c17d67d377d9e78
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209367"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986567"
 ---
 # <a name="set-up-a-product-configuration-model"></a>设置产品配置模型
 

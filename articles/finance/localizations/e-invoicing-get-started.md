@@ -3,7 +3,7 @@ title: 开始使用电子开票附加产品
 description: 本主题提供的信息将帮助您开始使用 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中的电子开票附加产品。
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 61933bb846383932d7dd73e9c4d3c2db7a515a98
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: e7f58b8a449e056c4718ac6db30dcd0f0623d2a4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835913"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971464"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>开始使用电子开票附加产品
 
@@ -62,7 +62,7 @@ ms.locfileid: "3835913"
 在完成本主题中的步骤之前，必须具备以下先决条件：
 
 - 访问您的 LCS 帐户。
-- 一个包含 Finance 或 Supply Chain Management 版本 10.0.12 或更高版本的 LCS 部署项目。
+- 一个包含 Finance 或 Supply Chain Management 版本 10.0.13 或更高版本的 LCS 部署项目。
 - 访问您的 RCS 帐户。
 - 通过**功能管理**模块为您的 RCS 帐户启用全球化功能。 有关详细信息，请参阅 [Regulatory Configuration Services (RCS) - 全球化功能](rcs-globalization-feature.md)
 - 在 Azure 中创建密钥保管库资源和存储帐户。 有关详细信息，请参阅[创建 Azure 存储帐户和密钥保管库](e-invoicing-create-azure-storage-account-key-vault.md)。
@@ -85,16 +85,18 @@ ms.locfileid: "3835913"
 ## <a name="lcs-setup"></a>LCS 设置
 
 1. 登录您的 LCS 帐户。
-2. 选择 LCS 部署项目。 必须先设置并运行项目，您才能够选择项目。
-3. 在**环境加载项**快速选项卡上，选择**安装新加载项**。
-4. 选择**业务文档提交**。
-5. 在**设置加载项**对话框的 **AAD 应用程序 ID** 字段中，输入 **091c98b0-a1c9-4b02-b62c-7753395ccabe**。 此值是一个固定值。
-6. 在 **AAD 租户 ID** 字段中，输入您的 Azure 订阅帐户的 ID。
+2. 选择**预览功能管理**磁贴，并在**公共预览功能**字段组中，选择**业务文档提交**。
+3. 标记**预览功能已启用**字段。
+4. 选择 LCS 部署项目。 必须先设置并运行项目，您才能够选择项目。
+5. 在**环境加载项**快速选项卡上，选择**安装新加载项**。
+6. 选择**业务文档提交**。
+7. 在**设置加载项**对话框的 **AAD 应用程序 ID** 字段中，输入 **091c98b0-a1c9-4b02-b62c-7753395ccabe**。 此值是一个固定值。
+8. 在 **AAD 租户 ID** 字段中，输入您的 Azure 订阅帐户的 ID。
 
     ![LCS 中的“设置加载项”对话框](media/e-invoicing-services-get-started-lcs-addin-setup.png)
 
-7. 选中复选框接受条款和条件。
-8. 选择**安装**。
+9. 选中复选框接受条款和条件。
+10. 选择**安装**。
 
 ## <a name="rcs-setup"></a>RCS 设置
 
@@ -124,7 +126,7 @@ ms.locfileid: "3835913"
 
     ![“密钥保管库 URI”字段](media/e-invoicing-services-get-started-enter-key-vault-uri.png)
 
-7. 在**证书**快速选项卡上，选择**添加**，然后输入数字证书名称和密钥保管库密码。 两组值都在 Azure 中的密钥保管库资源上配置。
+7. 在**证书**快速选项卡上，选择**添加**以输入建立可信连接所需的所有数字证书名称和密钥保管库。 在**类型**列中，您可以指定它是证书还是密钥。 两组值都在 Azure 中的密钥保管库资源上配置。
 
     ![添加证书](media/e-invoicing-services-get-started-add-digital-certificates.png)
 
@@ -132,9 +134,9 @@ ms.locfileid: "3835913"
 
 ### <a name="set-up-the-rcs-integration-with-the-electronic-invoicing-add-on-server"></a>设置与电子开票附加产品服务器的 RCS 集成
 
-1. 在**全球化功能**工作区的**相关链接**部分，选择**电子报告参数**链接。
+1. 在**全球化功能**工作区的**相关设置**部分中，选择**电子报告参数**链接。
 2. 选择**单击此处连接到 Lifecycle Service**。 如果您不想连接到 LCS，请选择**取消**。
-3. 在**电子开票附加产品**选项卡上，在**服务终结点 URI** 字段中，输入 `https://businessdocumentsubmission.us.operations365.dynamics.com/`。
+3. 在**电子开票服务**选项卡上的**服务终结点 URI** 字段中，根据可用的地理位置输入值：`https://businessdocumentsubmission.us.operations365.dynamics.com/` 或 `https://businessdocumentsubmission.eu.operations365.dynamics.com/`。
 4. 在**应用程序 ID** 字段中，验证其是否显示 ID **0cdb527f-a8d1-4bf8-9436-b352c68682b2**。 此值是一个固定值。
 5. 在 **LCS 环境 ID** 字段中，输入您的 LCS 订阅帐户的 ID。
 

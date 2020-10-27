@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschloma
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9b236f489fa2045bdff05f76fadbeacc2f9ed2f4
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: d55a7c5e24213f70a1b71f89691f0e5be8c36f10
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124200"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976563"
 ---
 # <a name="credit-limit-adjustments"></a>信用额度调整 
 

@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 4031
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
 ms.search.region: Global
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ee8d70e8d7c11513ff067847577285f10bb9bcb
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 87d61203d36722194b98a247609fa126b71b846c
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887208"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981150"
 ---
 # <a name="product-configuration-models-overview"></a>产品配置模型概述
 

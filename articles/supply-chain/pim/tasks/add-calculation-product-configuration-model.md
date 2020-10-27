@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 32bc2ac5815c2739147664f1e1df2528178db51e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e703c6d505f1e2e77f454732301de7a6c130c58a
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213392"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986495"
 ---
 # <a name="add-a-calculation-to-a-product-configuration-model"></a>将计算添加到产品配置模型
 

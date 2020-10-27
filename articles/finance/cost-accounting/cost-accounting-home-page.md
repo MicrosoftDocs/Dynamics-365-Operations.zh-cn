@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2281c3222ff8c38a66e799fc8bf4a5d29a9c6072
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: 20dd6ce5b12d39f0207244c404ae20cd61e3fa60
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759488"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977711"
 ---
 # <a name="cost-accounting-home-page"></a>成本核算主页
 

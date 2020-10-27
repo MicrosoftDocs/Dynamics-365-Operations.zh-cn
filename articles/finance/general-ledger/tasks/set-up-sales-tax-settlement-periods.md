@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: vstehman
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5972c44261a6ebd49df0fcbcef9a8c60aaa487e2
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: e5068c121e921c1586dc6ae003c0021bf41d2254
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144712"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976761"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>设置销售税结算期间
 

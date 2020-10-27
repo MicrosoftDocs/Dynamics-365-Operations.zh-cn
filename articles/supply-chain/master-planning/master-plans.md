@@ -16,15 +16,15 @@ ms.custom: 7911
 ms.assetid: a116b7de-3d6d-4321-87ba-5a5d99c2f64e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5b37347cf2d5b720ed7ac364800fb8cfe2d67ca
-ms.sourcegitcommit: ace6451fde3e4b20cbcaa6279fa1da4d7151ad1e
+ms.openlocfilehash: 70a5b8f0c7e4857aa2904003b458bf6d02b72064
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3409514"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982225"
 ---
 # <a name="master-plans-overview"></a>主计划概览
 

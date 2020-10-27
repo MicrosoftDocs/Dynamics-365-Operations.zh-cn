@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7c7afed8e4620d5fe49ead47eb6c17d97d7492ad
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6ffc772addb330abe7205007662a3f3e08a3e47f
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002789"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961578"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>站点的搜索引擎优化 (SEO) 注意事项
 
@@ -47,7 +47,7 @@ ms.locfileid: "3002789"
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>适用于内部预览、首先受众和所有受众的页面 SEO 设置
 
-因为 Dynamics 365 Commerce 支持已经过身份验证的的“所见即所得”(WYSIWYG) 预览，所以作者可以准备自己的页面内容，不必担心信息对站点访问者显示。 如果必须发布某个页面，但是其公开性受到限制，则应采用 **NOINDEX** 元标记，从而让搜索引擎不为其建立索引。 然后，页面准备好对所有受众公开时，应该准备好所有基本 SEO 元数据，以便将搜索引擎索引编制的效率发挥到极致。 此外，还应该删除 **NOLIMIT** 元标记。
+因为 Dynamics 365 Commerce 在可视页面构建器中支持已经过身份验证的“所见即所得”(WYSIWYG) 预览，所以作者可以准备自己的页面内容，不必担心信息对站点访问者可见。 如果必须发布某个页面，但是其公开性受到限制，则应采用 **NOINDEX** 元标记，从而让搜索引擎不为其建立索引。 然后，页面准备好对所有受众公开时，应该准备好所有基本 SEO 元数据，以便将搜索引擎索引编制的效率发挥到极致。 此外，还应该删除 **NOLIMIT** 元标记。
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
-ms.author: omulvad
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf54254b38a8bc6e1f0aa70cc090f59734203896
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.openlocfilehash: b848a0450c1cce1b3c6f7954397c75a44526d2b1
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829923"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982129"
 ---
 # <a name="sales-agreements-overview"></a>销售协议概览
 

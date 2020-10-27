@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: PJacobse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: v-olbara
+ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 4c221a2817d71d79a5515379d2a33793660ebde5
-ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
+ms.openlocfilehash: 0b831361631aa66712813706eaa4ff3339683868
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "3546409"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986639"
 ---
 # <a name="reprint-and-void-wave-labels"></a>重新打印和取消波次标签
 

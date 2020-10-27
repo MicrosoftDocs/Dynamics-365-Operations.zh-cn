@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: db4866b22060b764fdde3e4a44e99e969133c0a0
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269973"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961602"
 ---
 # <a name="save-preview-and-publish-a-page"></a>保存、预览和发布页面
 
@@ -38,9 +38,9 @@ ms.locfileid: "3269973"
 
 ## <a name="preview-a-page"></a>预览页面
 
-创作工具提供两种预览功能：页面编辑器中的“所见即所得”(WYSIWYG) 预览窗格和单独的预览窗口。
+创作工具提供两种预览功能：作为页面编辑器中的“所见即所得”(WYSIWYG) 预览窗格的可视页面构建器和单独的预览窗口。
 
-使用页面编辑器时，中央窗格中将显示“所见即所得”(WYSIWYG) 预览。 只要保存页面，都将自动更新此预览。 也可以通过选择命令栏中的**刷新**手动更新。 WYSIWYG 预览呈现的页面和站点用户看到的完全一样，但是创作帮助器在顶部显示。
+使用页面编辑器时，中央窗格中将显示“所见即所得”(WYSIWYG) 预览。 只要保存页面，都将自动更新此预览。 也可以通过选择命令栏中的**刷新**手动更新。 预览呈现的页面和站点用户看到的完全一样，但是创作帮助器在顶部显示。
 
 修改完页面之后，您可能希望预览页面以查看客户将看到的效果。 若要预览页面，请在命令栏中选择**预览**。 将在一个单独的浏览器窗口中显示预览。 预览窗口中显示的页面和站点用户将看到的完全一样。 可以调整窗口大小以确保所有查看端口中都正确显示响应模块。
 

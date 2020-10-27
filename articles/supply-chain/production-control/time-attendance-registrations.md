@@ -16,15 +16,15 @@ ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 31d01ad209cc3d4ce57db76e92dc091d0b93f162
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 9b6fa5715a04aa8077651f5c6e29e6bca83d763c
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826122"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975187"
 ---
 # <a name="time-and-attendance-registration-overview"></a>考勤管理登记概览
 

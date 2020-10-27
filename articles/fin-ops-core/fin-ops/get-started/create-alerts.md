@@ -3,7 +3,7 @@ title: 创建预警规则
 description: 此主题提供有关预警的信息，并说明如何创建预警规则以通知您各个事件（例如到达的日期或发生的特定更改）。
 author: tjvass
 manager: AnnBe
-ms.date: 02/19/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 94b68138066867fad641c70a1674c9292920ec6a
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3075916"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970671"
 ---
 # <a name="create-alert-rules"></a>创建预警规则
 
@@ -92,3 +92,14 @@ ms.locfileid: "3075916"
 7. 在**提示以下内容**快速选项卡上，在**主题**字段中，接受默认的电子邮件主题标题或输入新的主题。 文本用作触发预警时所收到电子邮件的主题标题。 如果要将预警作为业务事件发送，请将**外部发送**设置为**是**。
 8. 在**消息**字段中，输入可选消息 文本用作触发预警时收到的消息。
 9. 选择**确定**保存设置和创建预警规则。
+
+## <a name="limitations-and-workarounds"></a>限制和解决方法
+
+### <a name="workaround-for-creating-alerts-for-the-secondary-data-sources-of-a-form"></a>为窗体的辅助数据源创建预警的解决方法
+无法为窗体上的某些辅助数据源创建预警。 例如，当在客户或供应商过帐配置文件窗体上创建预警时，仅标题（客户分类帐或供应商分类帐）上的字段可用，而维度帐户不可用。 此限制的解决方法是使用 **SysTableBrowser** 打开该表作为主要数据源。 
+1. 在 **SysTableBrowser** 窗体中打开该表。
+    ```
+        https://<EnvironmentURL>/?cmp=USMF&mi=SysTableBrowser&TableName=<TableName>
+    ```
+2. 从 SysTableBrowser 窗体创建预警。
+

@@ -14,15 +14,15 @@ ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8dc890462ac44f0471882e65b928563415aceaea
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f95958e57b1b1a93e43eb2cf02d2651ccb9587b6
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212426"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979748"
 ---
 # <a name="add-an-existing-activity-to-a-production-flow-version"></a>将现有活动添加到生产流版本
 

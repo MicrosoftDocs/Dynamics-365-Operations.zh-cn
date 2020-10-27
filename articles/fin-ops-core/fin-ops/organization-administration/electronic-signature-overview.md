@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 13611
 ms.assetid: 98dc6b79-1895-45d8-9dd1-2c8a351b58af
 ms.search.region: Global
-ms.author: maertenm
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3d1d8952324bb16bcfa6a8b42fc4f157edb75cf1
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 118c4464bf4fc86ecb7eee59bf3611f6f8f2cbaf
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811290"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981708"
 ---
 # <a name="electronic-signatures-overview"></a>电子签名概览
 

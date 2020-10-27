@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: v-olbara
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: acc6e1d09894b57d2bb063bacbcddef239c1a8bd
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: ac60bef797d8e0bbe0d20f1585d5c3c0163f8788
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383718"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986784"
 ---
 # <a name="consolidate-shipments-manually-by-using-the-consolidate-shipments-page"></a>使用合并装运页面手动合并装运
 

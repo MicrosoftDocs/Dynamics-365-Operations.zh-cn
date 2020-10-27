@@ -14,15 +14,15 @@ ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: hhainesms
+ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: d2691ef6b08a44a845857c34fe60072211364f82
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 1e9f8d202fa81546a9f84af62824e6d8f620cf35
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265472"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975089"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>在 POS 中更改交货方式
 

@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: maertenm
+ms.author: sericks
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: fada3abb9362426c7c9ec33f5d25552edf3ef630
-ms.sourcegitcommit: 71fec2553158c332ce4d4bfcedc2c1ab58c1a1a5
+ms.openlocfilehash: 4aecda7e0d604b70dec58a4f5bb2992fe7e0a5e2
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3340667"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982422"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>任务录制的安全诊断
 

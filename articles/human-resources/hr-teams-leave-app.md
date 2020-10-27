@@ -3,7 +3,7 @@ title: 在 Teams 中管理请假
 description: 此主题显示如何在 Microsoft Teams 中的 Dynamics 365 Human Resources 应用内请假。
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
-ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
+ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
+ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3828936"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3929985"
 ---
 # <a name="manage-leave-requests-in-teams"></a>在 Teams 中管理请假
 
@@ -171,6 +171,22 @@ ms.locfileid: "3828936"
 日历显示直接下属的已批准和待定请假。
 
 ![Human Resources Teams 应用中的请假](./media/hr-teams-leave-app-calendar.png)
+
+## <a name="troubleshooting"></a>疑难解答
+
+如果您在登录或使用 Human Resources Teams 应用时遇到问题，请尝试按照以下疑难解答说明进行操作。 如果在进行疑难解答后仍有问题，请联系支持人员。 有关详细信息，请参阅[获取支持](hr-admin-troubleshooting-support.md)。
+
+### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>无法登录到 Teams 中的 Human Resources 应用
+
+如果您无法登录该应用，则可能是您用来登录 Microsoft Teams 的帐户与 Dynamics 365 Human Resources 中的员工记录无关。 请与系统管理员联系，以确保您的员工记录已正确关联。
+
+### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>在 Teams 中的 Human Resources 应用中审批请假请求时出错
+
+如果您在尝试在 Teams 应用中审批请假请求时收到错误，请执行以下疑难解答步骤：
+
+1. 验证您用于登录 Microsoft Teams 的帐户是否与用于访问 Dynamics 365 Human Resources 的帐户相同。
+
+2. 通过检查请假审批的工作流设置，验证您是否是该请求的有效审批者。 有关请假请求工作流的详细信息，请参阅[创建请假请求工作流](hr-leave-and-absence-workflow.md)。
 
 ## <a name="privacy-notice"></a>隐私声明
 

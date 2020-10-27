@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c4930d346ddc4679e6a3196c5f35adb598ed38c1
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 0b25bbeb270f33d1d158de2091ab86e7e98be98a
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651897"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976539"
 ---
 # <a name="credit-management-parameters-setup"></a>信用管理参数设置
 

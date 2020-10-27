@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ec7e81c3a0135b075ecb88ab5fc9e7c8b30588a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cb0fc054e0feec4c54c0bd916e01ce3a2a4cd903
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209344"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986543"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>产品配置的求解器策略
 

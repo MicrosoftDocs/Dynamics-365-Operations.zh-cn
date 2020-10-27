@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: b01162f034a948a94139aed66b7ec8d2e861ee9b
-ms.sourcegitcommit: 4b63e71fb031d8f47bd9e72dd9cdfb9bc7ef2efc
+ms.openlocfilehash: 4fd099116a342780961079c600368d81b30ec4c5
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789740"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985935"
 ---
 # <a name="regulatory-updates"></a>监管更新
 

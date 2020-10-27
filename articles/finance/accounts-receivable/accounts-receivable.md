@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 20671
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00af26a9f41a6908fd0010ec9eac37e41ad9c2b6
-ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
+ms.openlocfilehash: 69d2d320434baab21fb7e7c57ce1f043e4946d69
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888100"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976611"
 ---
 # <a name="accounts-receivable-home-page"></a>应收帐款主页
 
