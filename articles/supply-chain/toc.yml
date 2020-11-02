@@ -14,7 +14,7 @@
               items:
                 - name: One Version 服务更新概览
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: One Version 服务更新常见问题
+                - name: One Version 服务更新常见问题解答
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 软件生命周期策略 - 云
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
@@ -134,7 +134,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 功能管理概览
                   href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 客户端常见问题
+                - name: 客户端常见问题解答
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 操作搜索
                   href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/supply-chain/toc.json
@@ -182,11 +182,11 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 准备实施
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 实施常见问题
+                - name: 实施常见问题解答
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 提交服务请求
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 订阅、LCS 项目和 Azure AD 租户常见问题
+                - name: 订阅、LCS 项目和 Azure AD 租户常见问题解答
                   href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 在数据中心之间移动环境
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/supply-chain/toc.json
@@ -1553,7 +1553,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置全球通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 通讯簿常见问题
+                - name: 通讯簿常见问题解答
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/supply-chain/toc.json
@@ -1619,7 +1619,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 工作流类型报告
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 工作流常见问题
+                - name: 工作流常见问题解答
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/supply-chain/toc.json
             - name: 预警
               items:
@@ -1735,6 +1735,8 @@
                   href: procurement/purchase-agreements.md
                 - name: 创建采购协议
                   href: procurement/tasks/create-purchase-agreement.md
+                - name: 费用自动分摊
+                  href: procurement/automatic-charges-allocation.md
                 - name: 供应商返点
                   href: procurement/vendor-rebates.md
                 - name: 解决价格、折扣、协议和返点问题
@@ -1871,7 +1873,7 @@
                       href: pim/hazmat-items.md
                     - name: 危险物料查询和报告
                       href: pim/hazmat-reports.md
-                - name: 产品信息翻译常见问题
+                - name: 产品信息翻译常见问题解答
                   href: pim/translations-product-related-information.md
                 - name: 在订单输入期间搜索产品
                   href: pim/search-products-product-variants.md
@@ -1923,7 +1925,7 @@
                   items:
                     - name: 设置产品配置模型
                       href: pim/set-up-maintain-product-configuration-model.md
-                    - name: 产品配置模型的计算常见问题
+                    - name: 产品配置模型的计算常见问题解答
                       href: pim/calculate-product-configuration-models.md
                     - name: 配置规则
                       href: pim/configuration-rules.md
@@ -2041,6 +2043,14 @@
                       href: production-control/release-production-orders.md
                     - name: 将生产订单报告为已完工入库
                       href: production-control/report-production-orders-as-finished.md
+                    - name: 设置并使用生产车间执行界面
+                      items:
+                        - name: 配置生产车间执行界面
+                          href: production-control/production-floor-execution-configure.md
+                        - name: 设置设备以运行生产车间执行界面
+                          href: production-control/production-floor-execution-setup.md
+                        - name: 工作人员如何使用生产车间执行界面
+                          href: production-control/production-floor-execution-use.md
                     - name: 配置设备的作业卡
                       href: production-control/config-job-card-device.md
                     - name: 从作业卡设备报告为已完工入库
@@ -2275,6 +2285,8 @@
                   href: sales-marketing/tasks/ship-orders-direct-deliveries.md
                 - name: 装运无仓库的销售订单
                   href: sales-marketing/tasks/ship-sales-orders-without-warehousing.md
+                - name: 费用自动分摊
+                  href: procurement/automatic-charges-allocation.md
                 - name: 基于销售订单创建采购订单
                   href: sales-marketing/tasks/create-purchase-order-sales-order.md
                 - name: 创建销售订单
@@ -2663,8 +2675,6 @@
                       href: warehousing/tasks/license-plate-label-printing.md
                     - name: 通过仓库应用创建转移单
                       href: warehousing/create-transfer-order-from-warehouse-app.md
-                    - name: 仓库应用事件处理
-                      href: warehousing/warehouse-app-events.md
                     - name: 单件领料确认
                       href: warehousing/piece-picking-confirmation.md
                     - name: 包装材料和费用
@@ -2843,6 +2853,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: 设置移动设备以执行仓库工作
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: 仓库应用事件处理
+                      href: warehousing/warehouse-app-events.md
                     - name: 通过仓库应用接收牌照
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: 设置移动设备菜单项以完成采购订单中的工作
