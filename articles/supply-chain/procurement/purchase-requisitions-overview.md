@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
+ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e09c4ebd3ee978076ac4f1d0b71041e7c1e954be
-ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
+ms.openlocfilehash: a14ae2771890085308b560cea59240556c6a55a3
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826892"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018667"
 ---
 # <a name="purchase-requisition-overview"></a>采购申请概览
 
@@ -36,9 +36,9 @@ ms.locfileid: "3826892"
 在审核采购申请后，其可用于生成采购订单。 采购订单是采购部门提交给供应商的外部文档。
 
 ## <a name="creating-purchase-requisitions"></a>创建采购申请
-您可以在**我的采购申请**页上创建采购申请并选择您所需的物料和服务。 通过选择采购类别和输入产品详细信息，您可以从组织创建的采购目录中选择物料，或请求目录中未找到的物料。  
+您可以在 **我的采购申请** 页上创建采购申请并选择您所需的物料和服务。 通过选择采购类别和输入产品详细信息，您可以从组织创建的采购目录中选择物料，或请求目录中未找到的物料。  
 
-在可提交采购申请供查看前，必须配置工作流。 您使用工作流通过审核流程移动采购申请，从**草稿**的初始状态到**已审核**最终状态。
+在可提交采购申请供查看前，必须配置工作流。 您使用工作流通过审核流程移动采购申请，从 **草稿** 的初始状态到 **已审核** 最终状态。
 
 ### <a name="purchase-requisition-statuses"></a>采购申请状态
 
@@ -147,14 +147,14 @@ ms.locfileid: "3826892"
 
 补货具有补货的目的表示需求以补充库存。 例如，您创建补货物料的申请，以便他们可以在特定的零售位置的指定时间销售。 由此申请创建的需求可以按采购订单、转移单、生产订单或看板执行。  
 
-当申请目的为补货时，需求表示为数量而不是货币金额。 因此，预留款核算、预算控制、固定资产确定的业务规则 (BRAD)，项目核算和任何相关的规则不适用。 已存储和发放到指定法人的产品可以履行补货申请要求。 若要定义在申请用途是补货时可用的产品，请使用**补货类别访问政策规则**页。  
+当申请目的为补货时，需求表示为数量而不是货币金额。 因此，预留款核算、预算控制、固定资产确定的业务规则 (BRAD)，项目核算和任何相关的规则不适用。 已存储和发放到指定法人的产品可以履行补货申请要求。 若要定义在申请用途是补货时可用的产品，请使用 **补货类别访问政策规则** 页。  
 
 若要使用具有补货目的的采购申请，您必须将主计划编制设计为包括申请需求。 将基于在您的组织中为物料设置的供应策略自动确定由此类申请创建的需求的履行方法，并通过使用主计划编制计划。
 
 ## <a name="purchase-requisitions-and-requests-for-quotation"></a>采购申请和询价
 有时候，您必须开始询价 (RFQ) 流程以确定在采购申请中申请的产品的供应商和价格。 在采购申请正在审核时，可以生成询价。 当您接受出价时，有关供应商、价格等的信息将转移到申请。  
 
-您可以通过选中**采购申请详细信息**页上的**暂停**复选框来将采购申请置于暂停状态。 处理采购申请只能在您通过清除此复选框删除暂停后继续。  
+您可以通过选中 **采购申请详细信息** 页上的 **暂停** 复选框来将采购申请置于暂停状态。 处理采购申请只能在您通过清除此复选框删除暂停后继续。  
 
 > [!NOTE]
 > 在电子采购中，您的采购申请的询价可能允许供应商添加备选行。 在此情况下，采购申请将反映已审核的备选项。
@@ -167,14 +167,14 @@ ms.locfileid: "3826892"
 -   采购申请已审核。
 -   采购申请符合手动进行处理和要求合并的采购策略规则条件。
 
-符合手动处理条件的已审核的采购申请行在**发布已审核的采购申请**页列出。 如果采购申请行还满足需求合并的条件，可以将该行添加到“合并机会”。  
+符合手动处理条件的已审核的采购申请行在 **发布已审核的采购申请** 页列出。 如果采购申请行还满足需求合并的条件，可以将该行添加到“合并机会”。  
 
-合并机会是一组组合在一起的采购申请行，以便该采购的专业人员可以与供应商协商最佳交易。 您为合并机会选择的采购申请行上显示在**采购申请合并**页。 如果需要更改，您可以在此页修改行。 您还可以为该合并机会添加新行或从中删除现有行。  
+合并机会是一组组合在一起的采购申请行，以便该采购的专业人员可以与供应商协商最佳交易。 您为合并机会选择的采购申请行上显示在 **采购申请合并** 页。 如果需要更改，您可以在此页修改行。 您还可以为该合并机会添加新行或从中删除现有行。  
 
 在将申请行添加到合并机会并作出所需更改后，您可以为该合并采购申请行创建采购订单。  
 
 > [!NOTE]
-> 您为在**采购申请合并**页中的某一采购申请行做出的更改反映在您创建的采购订单上。 但是在采购申请中，该行保持不变，以便保留其历史记录。  
+> 您为在 **采购申请合并** 页中的某一采购申请行做出的更改反映在您创建的采购订单上。 但是在采购申请中，该行保持不变，以便保留其历史记录。  
 
 若要为没有资格享受需求合并或没有为合并机会选择的采购申请行创建采购订单，您必须手动处理行。
 

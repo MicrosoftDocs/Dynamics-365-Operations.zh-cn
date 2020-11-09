@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchVendorPortalConfirmedOrders, DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventOwner, InventTableInventoryDimensionGroups, VendTable
+ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchTablePart, PurchVendorPortalConfirmedOrders, DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventOwner, InventTableInventoryDimensionGroups, VendTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af30938929677ad0e1388760e6b7a992a8718240
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0127cc64688bc7878623b08ef143dfd040484ce0
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212886"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018368"
 ---
 # <a name="set-up-consignment"></a>设置托运
 
@@ -40,35 +40,35 @@ ms.locfileid: "3212886"
 2.  供应商获得关于预期交货的信息。 这可以通过以下三种方式中的其中一种进行：
     -   USMF 中的某个工作人员向供应商发送订单信息。
     -   供应商可以使用供应商协作界面监控预期现有库存。
-    -   USMF 的某个工作人员筛选**现有库存**页面上的数据，以仅显示收货状态为**已订购**的供应商 US-104 的记录，然后将此信息发送给供应商。
+    -   USMF 的某个工作人员筛选 **现有库存** 页面上的数据，以仅显示收货状态为 **已订购** 的供应商 US-104 的记录，然后将此信息发送给供应商。
 3.  库存从 US-104 传递到 USMF。
 4.  在物料到达 USMF 后，使用物料收货更新托运补货订单。 仅记录供应商拥有的库存的实际数量。 为创建总帐交易记录，因为库存仍然归供应商所有。
-5.  供应商使用**现有托运库存**页面监控实际现有库存。
+5.  供应商使用 **现有托运库存** 页面监控实际现有库存。
 6.  现在实际库存为现有量，生产流程预留供应商拥有的库存，开始要消耗原材料 M9211CI 的成品的生产订单。
-7.  在今天的生产中要消耗的预留的原材料的所有者从 US-104 更改为 USMF。 这通过库存所有权更改日记帐完成。 此流程创建采购订单，其中**来源**字段设置为**托运**。
-8.  供应商在**从托运库存接收的产品**页面上监控消耗量（所有权变更），并且基于两家公司间的协议开具发票。
+7.  在今天的生产中要消耗的预留的原材料的所有者从 US-104 更改为 USMF。 这通过库存所有权更改日记帐完成。 此流程创建采购订单，其中 **来源** 字段设置为 **托运** 。
+8.  供应商在 **从托运库存接收的产品** 页面上监控消耗量（所有权变更），并且基于两家公司间的协议开具发票。
 9.  生产流程通过生产领料单消耗原材料。 实际预留自动更新，以反映现有库存量归 USMF 所有。
 10. 来自 US-104 的发票对照处理库存所有权更改日记帐时自动生成的采购订单进行处理。 对消耗的库存向供应商 US-104 付款。
 
 USMF 执行其他定期流程：
 
 -   使用转移日记帐处理供应商拥有的库存在不同仓库之间的物理移动。
--   使用**物料盘点**日记帐更新实际库存现有量。 如果供应商有权限这样做，供应商也可以使用盘点更新现有库存量。
+-   使用 **物料盘点** 日记帐更新实际库存现有量。 如果供应商有权限这样做，供应商也可以使用盘点更新现有库存量。
 
-供应商 US-104 可以通过**现有托运库存**页面监控更新。
+供应商 US-104 可以通过 **现有托运库存** 页面监控更新。
 
 ## <a name="consignment-replenishment-orders"></a>托运补货订单
 托运补货订单是通过记录已订购的库存交易记录请求和跟踪记录供应商计划在特定的日期间隔内交货的产品库存量的文档。 通常，这基于特定产品的预测和实际需求。 要对照托运补货订单收货的库存仍然归供应商所有。 仅记录与实际收货有关的产品拥有更新，因此不会发生总帐交易记录更新。 
 
-**所有者**维度用于分隔与供应商拥有的库存有关和与接收法人拥有的库存有关的信息。 托运补货订单行只要是行未接收或取消全部数量，便具有**未结订单**的状态。 已接收或取消全部数量后，状态更改为**已完成**。 可以使用登记流程和收货更新流程记录与托运补货订单有关的实际现有库存量。 登记可作为物料到达流程的一部分或通过手动更新订单行完成。 使用收货更新流程时，在收货日记帐中进行记录，可用来向供应商确认收货。
+**所有者** 维度用于分隔与供应商拥有的库存有关和与接收法人拥有的库存有关的信息。 托运补货订单行只要是行未接收或取消全部数量，便具有 **未结订单** 的状态。 已接收或取消全部数量后，状态更改为 **已完成** 。 可以使用登记流程和收货更新流程记录与托运补货订单有关的实际现有库存量。 登记可作为物料到达流程的一部分或通过手动更新订单行完成。 使用收货更新流程时，在收货日记帐中进行记录，可用来向供应商确认收货。
 
 [![托运补货订单](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>库存所有权更改日记帐
 将库存所有者从供应商更改为接收法人的流程通过库存所有者更改日记帐完成。 不会对日记帐创建任何预期库存交易记录。 仅创建与过帐的日记帐有关的库存交易记录。 过帐日记帐时：
 
--   使用具有**已售出**状态的**所有权更改**引用发放供应商拥有的库存。
--   消耗物料的法人使用通过采购订单物料收据更新的库存交易接收现有库存量。 这将订单的状态设置为**已接收**。 用于托运的采购订单的**来源**字段设置为**托运**。
+-   使用具有 **已售出** 状态的 **所有权更改** 引用发放供应商拥有的库存。
+-   消耗物料的法人使用通过采购订单物料收据更新的库存交易接收现有库存量。 这将订单的状态设置为 **已接收** 。 用于托运的采购订单的 **来源** 字段设置为 **托运** 。
 
 不可能在创建订单后在托运采购订单行上更新数量。
 
@@ -77,22 +77,22 @@ USMF 执行其他定期流程：
 ## <a name="vendor-collaboration-in-consignment-processes"></a>托运流程中的供应商协作
 供应商协作界面有三页与入站托运流程有关：
 
--   **销售托运库存**的**采购订单** - 显示与托运流程中的所有权更改有关的详细的采购订单信息。
+-   **销售托运库存** 的 **采购订单** - 显示与托运流程中的所有权更改有关的详细的采购订单信息。
 -   **从托运库存接收的产品** - 显示在所有权更改流程中进行物料收货更新的物料和数量信息。
 -   **现有托运库存** - 显示预期交货及在客户站点已经实际可用的托运物料的信息。
 
 ## <a name="inventory-owners"></a>库存所有者
-要记录实际入站托运库存，您需要定义供应商所有者。 此操作在**库存所有者**页完成。 当您选择一个**供应商帐户**后，将为**名称**和**所有者**字段生成默认值。 **所有者**字段中的值将对供应商可见，因此如果您的供应商帐户名称不易被外部人员识别，则您可能要更改该名称。 可以编辑**所有者**字段，但仅在您保存**库存所有者**记录时。 **名称**字段使用供应商帐户关联的当事方的名称进行填充，并且无法更改。
+要记录实际入站托运库存，您需要定义供应商所有者。 此操作在 **库存所有者** 页完成。 当您选择一个 **供应商帐户** 后，将为 **名称** 和 **所有者** 字段生成默认值。 **所有者** 字段中的值将对供应商可见，因此如果您的供应商帐户名称不易被外部人员识别，则您可能要更改该名称。 可以编辑 **所有者** 字段，但仅在您保存 **库存所有者** 记录时。 **名称** 字段使用供应商帐户关联的当事方的名称进行填充，并且无法更改。
 
 [![库存所有者](./media/inventory-owners.png)](./media/inventory-owners.png)
 
 ## <a name="tracking-dimension-group"></a>跟踪维度组
-要在托运流程中使用的物料必须与**所有者**维度设置为**活动**的**跟踪维度组**相关联。 所有者维度始终选择了**实际库存**和**财务库存**选项。 从不选择**按维度的覆盖范围计划**。
+要在托运流程中使用的物料必须与 **所有者** 维度设置为 **活动** 的 **跟踪维度组** 相关联。 所有者维度始终选择了 **实际库存** 和 **财务库存** 选项。 从不选择 **按维度的覆盖范围计划** 。
 
 [![跟踪维度组](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 ## <a name="inventory-ownership-change-journal"></a>库存所有权更改日记帐
-**库存所有权更改**日记帐用于记录托运库存所有权从供应商转移到消耗它的法人。 同任何库存日记帐一样，它必须使用库存日记帐名称进行标识。 这些名称在**库存日记帐名称**页上创建，且**日记帐类型**必须设置为**所有权更改**。
+**库存所有权更改** 日记帐用于记录托运库存所有权从供应商转移到消耗它的法人。 同任何库存日记帐一样，它必须使用库存日记帐名称进行标识。 这些名称在 **库存日记帐名称** 页上创建，且 **日记帐类型** 必须设置为 **所有权更改** 。
 
 [![库存所有权更改日记帐](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 

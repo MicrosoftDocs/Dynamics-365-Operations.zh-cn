@@ -19,15 +19,14 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 08e6a521818c919b364033e22643b9ee4ce0ec65
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 211bcf3f4938b438e417f92cd385aaa04278a404
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024652"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107153"
 ---
 # <a name="commerce-home-page"></a>Commerce 主页
-
 
 [!include [banner](includes/banner.md)]
 
@@ -50,7 +49,7 @@ Dynamics 365 Commerce - 基于经实践检验的 Dynamics 365 Retail 功能构�
 - [配置 Commerce 预览环境](provisioning-guide.md)
 - [Commerce 体系结构](retail-components.md)
 - [设置您的渠道](channels-overview.md)
-- [您的产品和服务促销](set-up-retail-products.md)
+- [促销您的产品和服务](set-up-retail-products.md)
 - [管理您的订单](Order-fulfillment-overview.md)
 - [管理您的客户](set-up-customer-loyalty-program.md)
 - [管理财务](retail-statements.md)

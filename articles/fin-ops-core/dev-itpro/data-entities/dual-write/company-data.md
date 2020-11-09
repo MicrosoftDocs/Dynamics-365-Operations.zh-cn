@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,21 +18,21 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
-ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
+ms.openlocfilehash: 46a6ed9763781de8e05cff7adadf75fe2a931fdc
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "3728405"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997518"
 ---
 # <a name="company-concept-in-common-data-service"></a>Common Data Service 中的公司概念
 
 [!include [banner](../../includes/banner.md)]
 
 
-在 Finance and Operations 中，*公司*的概念既是法律构造，又是业务构造。 还是数据的安全和可见性界限。 用户始终在单个公司的上下文中工作，并且大多数数据已剥离了公司的性质。
+在 Finance and Operations 中， *公司* 的概念既是法律构造，又是业务构造。 还是数据的安全和可见性界限。 用户始终在单个公司的上下文中工作，并且大多数数据已剥离了公司的性质。
 
-Common Data Service 没有同等概念。 最接近的概念是*业务单位*，这主要是用户数据的安全和可见性界限。 此概念没有公司概念具有的同样法律或业务含义。
+Common Data Service 没有同等概念。 最接近的概念是 *业务单位* ，这主要是用户数据的安全和可见性界限。 此概念没有公司概念具有的同样法律或业务含义。
 
 因为业务单位和公司不是同等概念，所以不能为了 Common Data Service 集成而在两者之间强制执行一对一 (1:1) 的映射。 但是，因为默认情况下用户必须可以在应用程序和 Common Data Service 中查看相同的记录，所以 Microsoft 在 Common Data Service 中引入了一个新实体，名称为 cdm\_Company。 这个实体与应用程序中的公司实体等同。 为了帮助确保应用程序与 Common Data Service 之间记录的原始可见性等同，所以我们建议在 Common Data Service 中对数据进行以下设置：
 
@@ -55,9 +54,9 @@ Common Data Service 没有同等概念。 最接近的概念是*业务单位*，
 
 ![如何使用团队](media/dual-write-company-2.png)
 
-上图显示，业务单位、公司和团队之间的这种 1:1 映射还只是开始。 在此示例中，在 Common Data Service 中手动新建了“欧洲”业务单位，同时充当 DEMF 和 ESMF 的父级。 这个新的根业务单位未与双写入关联。 但是，可用于为“EUR 销售”团队的成员提供 DEMF 和 ESMF 中的客户数据的访问权限，方法是在关联的安全角色中将数据可用性设置为**父级/子级 BU**。
+上图显示，业务单位、公司和团队之间的这种 1:1 映射还只是开始。 在此示例中，在 Common Data Service 中手动新建了“欧洲”业务单位，同时充当 DEMF 和 ESMF 的父级。 这个新的根业务单位未与双写入关联。 但是，可用于为“EUR 销售”团队的成员提供 DEMF 和 ESMF 中的客户数据的访问权限，方法是在关联的安全角色中将数据可用性设置为 **父级/子级 BU** 。
 
-最后要介绍的是双写入如何确定应该将记录分配给哪个负责团队。 此行为由 cdm\_Company 记录中的**默认负责团队**控制。 如果为 cdm\_Company 记录启用双写入，一个插件将自动创建关联的业务单位和负责团队（如果还没有），并设置**默认负责团队**字段。 管理员可以将此字段更改为其他值。 但是，只要为该实体启用了双写入，管理员就不能清除该字段。
+最后要介绍的是双写入如何确定应该将记录分配给哪个负责团队。 此行为由 cdm\_Company 记录中的 **默认负责团队** 控制。 如果为 cdm\_Company 记录启用双写入，一个插件将自动创建关联的业务单位和负责团队（如果还没有），并设置 **默认负责团队** 字段。 管理员可以将此字段更改为其他值。 但是，只要为该实体启用了双写入，管理员就不能清除该字段。
 
 > [!div class="mx-imgBorder"]
 ![默认负责团队字段](media/dual-write-default-owning-team.jpg)
@@ -78,26 +77,26 @@ Common Data Service 集成通过使用公司标识符剥离数据来为公司提
 
 有几种方法可以在 Customer Engagement 应用中自动填充公司名称。
 
-+ 如果您是系统管理员，可以通过导航到**高级设置 > 系统 > 安全性 > 用户**来设置默认公司。 打开**用户**窗体，然后在**组织信息**部分，设置**窗体中的默认公司**值。
++ 如果您是系统管理员，可以通过导航到 **高级设置 > 系统 > 安全性 > 用户** 来设置默认公司。 打开 **用户** 窗体，然后在 **组织信息** 部分，设置 **窗体中的默认公司** 值。
 
     :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="在“组织信息”部分设置默认公司。":::
 
-+ 如果您对**业务单位**级别的 **SystemUser** 实体具有**写入**访问权限，可以通过从**公司**下拉菜单中选择公司来更改任何一个窗体上的默认公司。
++ 如果您对 **业务单位** 级别的 **SystemUser** 实体具有 **写入** 访问权限，可以通过从 **公司** 下拉菜单中选择公司来更改任何一个窗体上的默认公司。
 
     :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="更改新客户中的公司名称。":::
 
-+ 如果您对多个公司中的数据具有**写入**访问权限，可以通过选择属于不同公司的记录来更改默认公司。
++ 如果您对多个公司中的数据具有 **写入** 访问权限，可以通过选择属于不同公司的记录来更改默认公司。
 
     :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="通过选择记录更改默认公司。":::
 
-+ 如果您是系统配置者或管理员，想要在自定义窗体上自动填充公司数据，可以使用[窗体事件](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids)。 将 JavaScript 引用添加到 **msdyn_/DefaultCompany.js** 并使用以下事件。 您可以使用任何现成的窗体，例如，**客户**窗体。
++ 如果您是系统配置者或管理员，想要在自定义窗体上自动填充公司数据，可以使用[窗体事件](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids)。 将 JavaScript 引用添加到 **msdyn_/DefaultCompany.js** 并使用以下事件。 您可以使用任何现成的窗体，例如， **客户** 窗体。
 
     + 窗体的 **OnLoad** 事件：设置 **defaultCompany** 字段。
-    + **公司**字段的 **OnChange** 事件：设置 **updateDefaultCompany** 字段。
+    + **公司** 字段的 **OnChange** 事件：设置 **updateDefaultCompany** 字段。
 
 ## <a name="apply-filtering-based-on-the-company-context"></a>基于公司上下文应用筛选
 
-要在自定义窗体或添加到标准窗体的自定义查找字段中基于公司上下文应用筛选，请打开窗体，然后使用**相关记录筛选**部分应用公司筛选器。 您必须为每个需要基于给定记录中的基础公司来筛选的查找字段设置此项。 下图中显示了**客户**的设置。
+要在自定义窗体或添加到标准窗体的自定义查找字段中基于公司上下文应用筛选，请打开窗体，然后使用 **相关记录筛选** 部分应用公司筛选器。 您必须为每个需要基于给定记录中的基础公司来筛选的查找字段设置此项。 下图中显示了 **客户** 的设置。
 
 :::image type="content" source="media/apply-company-context.png" alt-text="应用公司上下文":::
 

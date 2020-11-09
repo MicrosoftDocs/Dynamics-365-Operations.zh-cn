@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,36 +16,36 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1aa4043aca2e53eae32256a98d556c25b4ec1957
-ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
+ms.openlocfilehash: bd8ca2cbd24f326c4eaf9cd39e32de0eca81149d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454779"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018598"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>记录采购订单上的收货
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何直接在采购订单中记录收货。 还可以在仓库中登记产品收货，以后再记录到采购订单中。 此任务通常由代购代理或应付账款协调员执行。 可以在 USMF 演示数据公司中使用本指南中的示例。 此示例包括简单采购订单的创建步骤，以便您将此过程用作任务指南。 如果您使用此过程和您自己的数据，则可以从**记录收货**子任务着手。
+本主题介绍如何直接在采购订单中记录收货。 还可以在仓库中登记产品收货，以后再记录到采购订单中。 此任务通常由代购代理或应付账款协调员执行。 可以在 USMF 演示数据公司中使用本指南中的示例。 此示例包括简单采购订单的创建步骤，以便您将此过程用作任务指南。 如果您使用此过程和您自己的数据，则可以从 **记录收货** 子任务着手。
 
 
 ## <a name="prepare-a-new-purchase-order-for-receipt-of-goods"></a>为收货准备新采购订单
-1. 转到**导航窗格 > 模块 > 采购 > 采购订单 > 所有采购订单**。
-2. 选择**新建**。
-3. 在**供应商帐户**字段中输入 `US-101`。
-4. 选择**确定**。
-5. 在**物料编号**字段中输入 `M0001`。
-6. 在**数量**字段中，输入 `5`。
-7. 在操作窗格上，选择**采购**。
-8. 选择**确认**。
+1. 转到 **导航窗格 > 模块 > 采购 > 采购订单 > 所有采购订单** 。
+2. 选择 **新建** 。
+3. 在 **供应商帐户** 字段中输入 `US-101`。
+4. 选择 **确定** 。
+5. 在 **物料编号** 字段中输入 `M0001`。
+6. 在 **数量** 字段中，输入 `5`。
+7. 在操作窗格上，选择 **采购** 。
+8. 选择 **确认** 。
 
 ## <a name="record-receipt-of-goods"></a>记录收货
-1. 在操作窗格上，选择**接收**。
-2. 选择**物料收货**。 **数量**字段用于为要接收的数量选择不同选项。 例如，如果某个数量以前在仓库中已登记，可以选择**登记数量**。 对于此示例，请使用**订购数量**的值。
-3. 展开**概览**部分。
-4. 在**物料收货**字段中键入任何值。 此字段用于输入将用作产品收货日记帐的凭证的参考。  
-5. 展开**行**部分。
-6. 将**数量**设置为“4”。 您可以在此处手动指定订单中各行将收到的数量。  
-7. 选择**确定**。 此货物现已在采购订单中记录为已接收，并已创建了单据格式的产品收货日记帐以体现此信息。 可使用“产品收货”操作审查随采购订单创建的日记帐，以了解产品的收货内容和收货时间。  
+1. 在操作窗格上，选择 **接收** 。
+2. 选择 **物料收货** 。 **数量** 字段用于为要接收的数量选择不同选项。 例如，如果某个数量以前在仓库中已登记，可以选择 **登记数量** 。 对于此示例，请使用 **订购数量** 的值。
+3. 展开 **概览** 部分。
+4. 在 **物料收货** 字段中键入任何值。 此字段用于输入将用作产品收货日记帐的凭证的参考。  
+5. 展开 **行** 部分。
+6. 将 **数量** 设置为“4”。 您可以在此处手动指定订单中各行将收到的数量。  
+7. 选择 **确定** 。 此货物现已在采购订单中记录为已接收，并已创建了单据格式的产品收货日记帐以体现此信息。 可使用“产品收货”操作审查随采购订单创建的日记帐，以了解产品的收货内容和收货时间。  
 

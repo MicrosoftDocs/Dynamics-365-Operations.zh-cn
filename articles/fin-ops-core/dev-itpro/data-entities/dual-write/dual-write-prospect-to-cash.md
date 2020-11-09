@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
-ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
+ms.openlocfilehash: b21d468d672277be14877b93e291e9833659c54a
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829204"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997391"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>双写入中的目标客户到现金
 
@@ -44,36 +43,36 @@ ms.locfileid: "3829204"
 
 ### <a name="setup-in-sales"></a>Sales 中的设置
 
-在 Sales 中，转到**设置 \> 管理 \> 系统设置 \> Sales**，确保使用以下设置：
+在 Sales 中，转到 **设置 \> 管理 \> 系统设置 \> Sales** ，确保使用以下设置：
 
-- **使用系统定价计算**系统选项设置为**是**。
-- **折扣计算方法**字段设置为**行项**。
+- **使用系统定价计算** 系统选项设置为 **是** 。
+- **折扣计算方法** 字段设置为 **行项** 。
 
 ### <a name="sites-and-warehouses"></a>站点和仓库
 
-在 Supply Chain Management 中，**站点**和**仓库**字段是报价单行和订单行的必填字段。 如果设置默认订单设置中的站点和仓库，向报价单行或订单行添加产品时，将自动设置这些字段。 
+在 Supply Chain Management 中， **站点** 和 **仓库** 字段是报价单行和订单行的必填字段。 如果设置默认订单设置中的站点和仓库，向报价单行或订单行添加产品时，将自动设置这些字段。 
 
 ### <a name="number-sequences-for-quotations-and-orders"></a>报价单和订单的编号规则
 
 在 Sales 和 Supply Chain Management 中创建和同步报价单和订单时，不会连接 Supply Chain Management 和 Sales 的编号规则。 如果 Sales 中创建的销售订单同步到 Supply Chain Management，则其在, Supply Chain Management 中具有相同的销售订单编号。 若要帮助确保销售订单编号不重复，必须在这两个应用中使用不同编号规则系统。
 
-例如，Supply Chain Management 中的编号规则为 **1, 2, 3, 4, 5, ...**，而 Sales 中的编号规则为 **100, 99, 98, ...**。如果在 Sales 中创建 100 个销售订单，则最终生成的一个订单编号已经在 Supply Chain Management 中存在。 换句话说，因为在 Supply Chain Management 和 Sales 中创建销售订单，所以这两个编号规则最终将重合。 不过，可以在 Supply Chain Management 中使用 **F1, F2, F3, ...** 这样的编号规则，在 Sales 中则使用 **C1, C2, C3, ...** 这样的编号规则。 这些编号规则始终不会生成重复的销售订单编号。
+例如，Supply Chain Management 中的编号规则为 **1, 2, 3, 4, 5, ...** ，而 Sales 中的编号规则为 **100, 99, 98, ...** 。如果在 Sales 中创建 100 个销售订单，则最终生成的一个订单编号已经在 Supply Chain Management 中存在。 换句话说，因为在 Supply Chain Management 和 Sales 中创建销售订单，所以这两个编号规则最终将重合。 不过，可以在 Supply Chain Management 中使用 **F1, F2, F3, ...** 这样的编号规则，在 Sales 中则使用 **C1, C2, C3, ...** 这样的编号规则。 这些编号规则始终不会生成重复的销售订单编号。
 
 ## <a name="sales-quotations"></a>销售报价单
 
 销售报价单既可以在 Sales 中创建，也可以在 Supply Chain Management 中创建。 如果在 Sales 中创建报价单，其将实时同步到 Supply Chain Management。 同样，如果在 Supply Chain Management 中创建报价单，其将实时同步到 Sales。 请注意以下点：
 
-+ 可以向报价单中的产品添加折扣。 在此情况下，折扣将同步到 Supply Chain Management。 标题上的**折扣**、**费用**和**税金**字段由 Supply Chain Management 中的设置控制。 此设置不支持集成映射。 **价格**、**折扣**、**费用**和**税金**字段在 Supply Chain Management 中维护和处理。
-+ 销售报价单标题上的**折扣 %**、**折扣**和**运费**字段为只读字段。
-+ **货运条款**、**交货条款**、**装运方法**和**交货方式**字段不是默认映射的一部分。 若要映射这些字段，必须设置特定于在其中同步实体的组织中的数据的值映射。
++ 可以向报价单中的产品添加折扣。 在此情况下，折扣将同步到 Supply Chain Management。 标题上的 **折扣** 、 **费用** 和 **税金** 字段由 Supply Chain Management 中的设置控制。 此设置不支持集成映射。 **价格** 、 **折扣** 、 **费用** 和 **税金** 字段在 Supply Chain Management 中维护和处理。
++ 销售报价单标题上的 **折扣 %** 、 **折扣** 和 **运费** 字段为只读字段。
++ **货运条款** 、 **交货条款** 、 **装运方法** 和 **交货方式** 字段不是默认映射的一部分。 若要映射这些字段，必须设置特定于在其中同步实体的组织中的数据的值映射。
 
-如果您还使用 Field Service 解决方案，请确保重新启用**询价行快速创建**参数。 重新启用此参数可使您继续使用快速创建功能创建询价行。
+如果您还使用 Field Service 解决方案，请确保重新启用 **询价行快速创建** 参数。 重新启用此参数可使您继续使用快速创建功能创建询价行。
 1. 导航到您的 Dynamics 365 Sales 应用程序。
 2. 选择顶部导航栏中的设置图标。
-3. 选择**高级设置**。
-4. 选择**自定义系统**选项。
-5. 选择**询价行**菜单项。
-6. 转到**数据服务**部分，然后选择**允许快速创建**复选框。
+3. 选择 **高级设置** 。
+4. 选择 **自定义系统** 选项。
+5. 选择 **询价行** 菜单项。
+6. 转到 **数据服务** 部分，然后选择 **允许快速创建** 复选框。
 
 ## <a name="sales-orders"></a>销售订单
 
@@ -82,8 +81,8 @@ ms.locfileid: "3829204"
 + Dynamics 365 Sales 中的目录外产品将在 Dynamics 365 Supply Chain Management 中显示为产品类别。
 + 折扣计算和化整：
 
-    - Sales 中的折扣计算模型不同于 Supply Chain Management。 在 Supply Chain Management 中，销售行的最终折扣金额可以是折扣金额和折扣百分比组合的结果。 如果此最终折扣金额除以行中的数量，可能发生化整。 不过，如果化整的每单位折扣金额同步到 Sales，则不考虑此化整。 为了帮助确保 Supply Chain Management 中销售行的完整折扣金额正确同步到 Sales，全部金额都必须同步，而无需再除以行中的数量。 因此，您必须在 Sales 中将折扣计算方法定义为**行项**。
-    - 在销售订单行从 Sales 同步到 Supply Chain Management 时，将使用完整行折扣金额。 因为 Supply Chain Management 没有能够存储完整折扣金额的字段，此金额除以数量，并存储在**行折扣**字段中。 在此除法计算期间发生的任何舍入都将存储在销售行的**销售费用**字段中。
+    - Sales 中的折扣计算模型不同于 Supply Chain Management。 在 Supply Chain Management 中，销售行的最终折扣金额可以是折扣金额和折扣百分比组合的结果。 如果此最终折扣金额除以行中的数量，可能发生化整。 不过，如果化整的每单位折扣金额同步到 Sales，则不考虑此化整。 为了帮助确保 Supply Chain Management 中销售行的完整折扣金额正确同步到 Sales，全部金额都必须同步，而无需再除以行中的数量。 因此，您必须在 Sales 中将折扣计算方法定义为 **行项** 。
+    - 在销售订单行从 Sales 同步到 Supply Chain Management 时，将使用完整行折扣金额。 因为 Supply Chain Management 没有能够存储完整折扣金额的字段，此金额除以数量，并存储在 **行折扣** 字段中。 在此除法计算期间发生的任何舍入都将存储在销售行的 **销售费用** 字段中。
 
 ### <a name="example-synchronization-from-sales-to-supply-chain-management"></a>示例：从 Sales 同步到 Supply Chain Management
 
@@ -99,19 +98,19 @@ ms.locfileid: "3829204"
 
 ## <a name="dual-write-solution-for-sales"></a>适用于 Sales 的双写入解决方案
 
-新字段已添加到**订单**实体并显示在以下页面。 这些字段中的大多数都在 Sales 中的**集成**选项卡内显示。 要了解有关如何映射状态字段的详细信息，请参阅[设置销售订单状态字段的映射](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map)文档主题
+新字段已添加到 **订单** 实体并显示在以下页面。 这些字段中的大多数都在 Sales 中的 **集成** 选项卡内显示。 要了解有关如何映射状态字段的详细信息，请参阅[设置销售订单状态字段的映射](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map)文档主题
 
-+ **销售订单**页中的**创建发票**和**取消订单**按钮在 Sales 中已隐藏。
-+ **销售订单状态**值将保持**活动**状态，以帮助确保来自 Supply Chain Management 的更改可以流向 Sales 中的销售订单。 若要控制此行为，请将默认的**状态代码 \[Status\]** 值设置为**活动**。
++ **销售订单** 页中的 **创建发票** 和 **取消订单** 按钮在 Sales 中已隐藏。
++ **销售订单状态** 值将保持 **活动** 状态，以帮助确保来自 Supply Chain Management 的更改可以流向 Sales 中的销售订单。 若要控制此行为，请将默认的 **状态代码 \[Status\]** 值设置为 **活动** 。
 
 ## <a name="invoices"></a>发票
 
 销售发票在 Supply Chain Management 中创建并同步到 Sales。 请注意以下点：
 
-+ **发票编号**字段已添加到**发票**实体中并显示在页面上。
-+ **销售订单**页上的**创建发票**按钮被隐藏，因为将在 Supply Chain Management 中创建发票并同步到 Sales。 **发票**页不可编辑，因为发票将从 Supply Chain Management 同步。
-+ 当关联的发票从 Supply Chain Management 同步到 Sales 后，**销售订单状态**值自动更改为**已开票**。 而且，创建发票的销售订单的所有者被指定为发票的所有者。 因此，销售订单的所有者可以查看发票。
-+ **货运条款**、**交货条款**和**交货方式**字段不包括在默认映射中。 若要映射这些字段，必须设置特定于在其中同步实体的组织中的数据的值映射。
++ **发票编号** 字段已添加到 **发票** 实体中并显示在页面上。
++ **销售订单** 页上的 **创建发票** 按钮被隐藏，因为将在 Supply Chain Management 中创建发票并同步到 Sales。 **发票** 页不可编辑，因为发票将从 Supply Chain Management 同步。
++ 当关联的发票从 Supply Chain Management 同步到 Sales 后， **销售订单状态** 值自动更改为 **已开票** 。 而且，创建发票的销售订单的所有者被指定为发票的所有者。 因此，销售订单的所有者可以查看发票。
++ **货运条款** 、 **交货条款** 和 **交货方式** 字段不包括在默认映射中。 若要映射这些字段，必须设置特定于在其中同步实体的组织中的数据的值映射。
 
 ## <a name="templates"></a>模板
 

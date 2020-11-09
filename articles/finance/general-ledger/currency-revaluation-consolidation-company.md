@@ -1,7 +1,7 @@
 ---
 title: 合并公司中的币种重估
 description: 此主题描述如何重估合并公司中的币种。
-author: ShylaThompson
+author: roschlom
 manager: AnnBe
 ms.date: 10/02/2018
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.scope: Core, Operations
 ms.custom: 62183
 ms.assetid: 2762baaf-0c10-4ff7-8713-c506d6c29b98
 ms.search.region: Global
-ms.author: hminzner
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b7f0a18910cbaed382971e47eb688c075e7e6a5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 33db12388c969b8dadb38bfacf4d9df333b78bd4
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176564"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014975"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>合并公司中的币种重估
 
 [!include [banner](../includes/banner.md)]
 
-将一个记帐币种的数据与另一个记帐币种的数据合并时，如果汇率发生更改，则仍必须运行币种重估，以便准确重估帐户余额。 在最初合并数据时，使用**币种折算**选项卡可选择合并过程中用于折算的初始汇率。 在输入新的汇率后（例如，在下一个月），您必须重估帐户余额。 随后，将根据新的汇率和日期更新或有利润或损失。 以下示例说明了该过程中创建的会计条目。
+将一个记帐币种的数据与另一个记帐币种的数据合并时，如果汇率发生更改，则仍必须运行币种重估，以便准确重估帐户余额。 在最初合并数据时，使用 **币种折算** 选项卡可选择合并过程中用于折算的初始汇率。 在输入新的汇率后（例如，在下一个月），您必须重估帐户余额。 随后，将根据新的汇率和日期更新或有利润或损失。 以下示例说明了该过程中创建的会计条目。
 
 ## <a name="company-setup"></a>公司设置
 -   **源/运营公司 (USMF)** – 美元 (USD) 用作会计和申报币种。

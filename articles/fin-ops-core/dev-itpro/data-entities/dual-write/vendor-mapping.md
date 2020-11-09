@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 8d531ed4e46d8ee5d2b0937b6efc480e051fe708
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 5c4cc92fd7809f4016d8421c98f41a85fcfedc7b
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173100"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997639"
 ---
 # <a name="integrated-vendor-master"></a>集成的供应商主数据
 
@@ -32,17 +31,17 @@ ms.locfileid: "3173100"
 
 
 
-术语*供应商*是指为企业提供商品或服务的供应商组织或独立经营者。 尽管*供应商*是 Microsoft Dynamics 365 Supply Chain Management 中的一个熟悉的概念，而 Dynamics 365 中的模型驱动应用中则不存在供应商这个概念。 但是，您可以重载**客户/联系人**实体来存储供应商信息。 集成的供应商主数据在 Dynamics 365 中的模型驱动应用中引入了明确的供应商概念。 您可以使用新的供应商设计，也可以将供应商数据存储在**客户/联系人**实体中。 双写入同时支持这两种方法。
+术语 *供应商* 是指为企业提供商品或服务的供应商组织或独立经营者。 尽管 *供应商* 是 Microsoft Dynamics 365 Supply Chain Management 中的一个熟悉的概念，而 Dynamics 365 中的模型驱动应用中则不存在供应商这个概念。 但是，您可以重载 **客户/联系人** 实体来存储供应商信息。 集成的供应商主数据在 Dynamics 365 中的模型驱动应用中引入了明确的供应商概念。 您可以使用新的供应商设计，也可以将供应商数据存储在 **客户/联系人** 实体中。 双写入同时支持这两种方法。
 
 在这两种方法中，供应商数据在 Dynamics 365 Supply Chain Management、Dynamics 365 Sales、Dynamics 365 Field Service 和 Power Apps 门户之间集成。 在 Supply Chain Management 中，此数据可用于工作流，如采购申请和采购订单。
 
 ## <a name="vendor-data-flow"></a>供应商数据流
 
-如果您不希望将供应商数据存储在 Common Data Service 中的**客户/联系人**实体中，您可以使用新的供应商设计。
+如果您不希望将供应商数据存储在 Common Data Service 中的 **客户/联系人** 实体中，您可以使用新的供应商设计。
 
 ![供应商数据流](media/dual-write-vendor-data-flow.png)
 
-如果您希望继续将供应商数据存储在**客户/联系人**实体中，您可以使用扩展的供应商设计。 要使用扩展的供应商设计，必须在双写入解决方案包中配置供应商工作流。 有关详细信息，请参阅[在供应商设计之间切换](vendor-switch.md)。
+如果您希望继续将供应商数据存储在 **客户/联系人** 实体中，您可以使用扩展的供应商设计。 要使用扩展的供应商设计，必须在双写入解决方案包中配置供应商工作流。 有关详细信息，请参阅[在供应商设计之间切换](vendor-switch.md)。
 
 ![扩展供应商数据流](media/dual-write-vendor-detail.jpg)
 

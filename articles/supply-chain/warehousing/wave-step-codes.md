@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWaveTableListPage, WHSWaveStepCode, WHSReplenishmentTemplates, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 251e9982451c888424589e0f0d6fce48aab42df1
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: 9332e45f7213ed815e4417969b617256778598db
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323569"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017797"
 ---
 # <a name="wave-step-codes"></a>波次步骤代码
 
@@ -46,8 +46,8 @@ ms.locfileid: "3323569"
 
 请执行以下步骤开启波次步骤代码功能。
 
-1. 转到**功能管理**。
-2. 选择以启用称为**组织范围波次步骤代码**的功能。
+1. 转到 **功能管理** 。
+2. 选择以启用称为 **组织范围波次步骤代码** 的功能。
 
 将把所有法人中的所有现有波次步骤普通文本升级为新结构。 对所有法人完成此升级后，此功能便会启用。 如果无法为一个或多个法人启用此功能，也不会为任何法人启用。
 
@@ -59,11 +59,11 @@ ms.locfileid: "3323569"
 
 解决验证期间确定的所有冲突之后，您可以重试启用此功能。
 
-启用此功能后，**波次步骤代码**页（**仓库管理 \> 设置 \> 波次 \> 波次步骤代码**）变为可用。 此页中列出启用组织范围波次步骤代码功能后升级的波次步骤代码。
+启用此功能后， **波次步骤代码** 页（ **仓库管理 \> 设置 \> 波次 \> 波次步骤代码** ）变为可用。 此页中列出启用组织范围波次步骤代码功能后升级的波次步骤代码。
 
 ### <a name="create-new-wave-step-codes"></a>创建新波次步骤代码
 
-可使用**波次步骤代码**页创建和删除波次步骤代码。
+可使用 **波次步骤代码** 页创建和删除波次步骤代码。
 
 每个新波次步骤代码及其关联的 ID 必须在所有波次步骤类型中唯一，并且必须是为特定波次步骤类型定义的。
 
@@ -85,11 +85,11 @@ ms.locfileid: "3323569"
 
 以下过程可帮助确保为波次模板应用您创建的补货模板。
 
-1. 转到**仓库管理 \> 设置 \> 波次 \> 波次步骤代码**，然后为**补货**类型创建波次步骤代码。
-2. 转到**仓库管理 \> 设置 \> 补货 \> 补货模板**，然后创建补货模板。
-3. 在补货模板中，选择为**补货**类型创建的波次步骤代码。
-4. 转到**仓库管理 \> 设置 \> 波次 \> 波次模板**，然后选择要使用的波次模板。
-5. 在该模板中的**方法**快速选项卡上，选择**捕获**方法。
-6. 在**波次步骤代码**字段中，选择在补货模板中选择的波次步骤代码。
+1. 转到 **仓库管理 \> 设置 \> 波次 \> 波次步骤代码** ，然后为 **补货** 类型创建波次步骤代码。
+2. 转到 **仓库管理 \> 设置 \> 补货 \> 补货模板** ，然后创建补货模板。
+3. 在补货模板中，选择为 **补货** 类型创建的波次步骤代码。
+4. 转到 **仓库管理 \> 设置 \> 波次 \> 波次模板** ，然后选择要使用的波次模板。
+5. 在该模板中的 **方法** 快速选项卡上，选择 **捕获** 方法。
+6. 在 **波次步骤代码** 字段中，选择在补货模板中选择的波次步骤代码。
 
 请对每个法人执行这些步骤。

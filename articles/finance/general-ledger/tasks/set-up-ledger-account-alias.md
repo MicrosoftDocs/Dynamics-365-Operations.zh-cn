@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2098ffed81ab3c18855363f0c3ef43dc1d11a77d
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: e1764f31c98039e9ea6f665dcb04a1cfd23c31dc
+ms.sourcegitcommit: 3feccc9facb33e3dee18f04e202f7b20785df0a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138067"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3998840"
 ---
 # <a name="set-up-a-ledger-account-alias"></a>设置会计科目别名
 
 [!include [banner](../../includes/banner.md)]
 
-该过程显示如何创建可提供科目编号快捷输入方式的科目别名。 此过程使用演示数据公司 USMF。
+该过程显示如何创建可提供科目编号快捷输入方式的科目别名。 该过程使用演示数据公司 USMF。
 
 1. 转到“总帐”>“会计科目表”>“科目”>“会计科目别名”。
 2. 单击“新建”。

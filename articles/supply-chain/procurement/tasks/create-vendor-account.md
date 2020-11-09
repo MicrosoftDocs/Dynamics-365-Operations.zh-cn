@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: VendTable, LogisticsPostalAddressGrid, DirPartyLookup, LogisticsPostalAddress, SysLookupMultiSelectGrid
+ms.search.form: VendTable, LogisticsPostalAddressGrid, DirPartyLookup, LogisticsPostalAddress, SysLookupMultiSelectGrid, WHSFilterGenerallyAvail
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aca23db2a0cc86a2c12ea74d3b1e491643b7efec
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: dd8cd2bb7b03c0415a5c5656f0e3ffada961973e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207684"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017199"
 ---
 # <a name="create-a-vendor-account"></a>创建供应商帐户
 
@@ -31,31 +31,31 @@ ms.locfileid: "3207684"
 
 
 ## <a name="create-a-vendor-account"></a>创建供应商帐户
-1. 转到**导航窗格 > 模块 > 采购 > 供应商 > 所有供应商**。
-2. 单击**新建**。
-3. 在**供应商帐户**字段中，键入一个值。
+1. 转到 **导航窗格 > 模块 > 采购 > 供应商 > 所有供应商** 。
+2. 单击 **新建** 。
+3. 在 **供应商帐户** 字段中，键入一个值。
     - 值可以自动填充。 如果是这样，您可以跳过此步骤。  
     - 您可以为某个人或组织创建供应商帐户。 这将影响到哪些字段可用。 在此示例中，我们将为一个组织创建供应商帐户。   
-4. 在**名称**字段中，输入或选择一个值。 如果您的供应商在您的系统中是已登记的当事方，您可以使用下拉功能，在此字段中选择他们，并且新的供应商帐户将会继承已登记的地址和联系信息。
-5. 在**组**字段中，输入或选择一个值。 供应商组用于对具有以下任何共同参数的供应商进行分组：“付款条款”、结算期间、库存过帐会计科目（包括销售税组）、默认会计科目、产品筛选器代码或供应预测配置。
-6. 在**员工数量**字段中，输入一个数字。
-7. 在**组织编号**字段中，键入一个值。
+4. 在 **名称** 字段中，输入或选择一个值。 如果您的供应商在您的系统中是已登记的当事方，您可以使用下拉功能，在此字段中选择他们，并且新的供应商帐户将会继承已登记的地址和联系信息。
+5. 在 **组** 字段中，输入或选择一个值。 供应商组用于对具有以下任何共同参数的供应商进行分组：“付款条款”、结算期间、库存过帐会计科目（包括销售税组）、默认会计科目、产品筛选器代码或供应预测配置。
+6. 在 **员工数量** 字段中，输入一个数字。
+7. 在 **组织编号** 字段中，键入一个值。
 
 ## <a name="add-an-address"></a>添加地址
-1. 展开**地址**部分。
-2. 单击**添加**。
-3. 在**用途**字段中，输入或选择一个值。 您可以选择一个或多个用途。 这些用于为指定用途选择正确的地址。 例如，如果用途是“发票”，则在您发送发票时将使用该地址。
-4. 在**名称或描述**字段中，键入一个值。
-5. 在**国家/地区**字段中，输入或选择一个值。 输入地址详情。 您选定的国家/地区将确定您使用与该国家/地区对应的地址格式显示的字段。 
-6. 单击 **确定**。
+1. 展开 **地址** 部分。
+2. 单击 **添加** 。
+3. 在 **用途** 字段中，输入或选择一个值。 您可以选择一个或多个用途。 这些用于为指定用途选择正确的地址。 例如，如果用途是“发票”，则在您发送发票时将使用该地址。
+4. 在 **名称或描述** 字段中，键入一个值。
+5. 在 **国家/地区** 字段中，输入或选择一个值。 输入地址详情。 您选定的国家/地区将确定您使用与该国家/地区对应的地址格式显示的字段。 
+6. 单击 **确定** 。
 
 ## <a name="add-contact-information"></a>添加联系信息
-1. 展开**联系信息**部分。
-2. 单击**添加**。
-3. 在**描述**字段中，键入一个值。
-4. 在**类型**字段中，选择一个选项。
-5. 在**联系电话/地址**字段中，键入一个值。 如果这是主要联系人，您可以选中“主要”复选框。  
-6. 单击**保存**。
+1. 展开 **联系信息** 部分。
+2. 单击 **添加** 。
+3. 在 **描述** 字段中，键入一个值。
+4. 在 **类型** 字段中，选择一个选项。
+5. 在 **联系电话/地址** 字段中，键入一个值。 如果这是主要联系人，您可以选中“主要”复选框。  
+6. 单击 **保存** 。
 7. 关闭该页面。
 8. 关闭该页面。
 

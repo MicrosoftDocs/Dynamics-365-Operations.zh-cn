@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: af468f0cc5d5f1baab62afb3cf90dfca353b3291
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 49b90037c182e10d0cc9d449649e8501537fdc4f
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802935"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012382"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Dynamics 365 Supply Chain Management 10.0.13（2020 年 10 月）中的新增功能或更改
 
 [!include [banner](../includes/banner.md)]
 
-此主题列出了 Microsoft Dynamics 365 Supply Chain Management 预览版本 10.0.13 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.569，并以下面的形式提供：
+此主题列出了 Microsoft Dynamics 365 Supply Chain Management 10.0.13 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.569，并以下面的形式提供：
 
 - **预览版本：** 2020 年 8 月
 - **正式发布（自行更新）：** 2020 年 9 月
@@ -49,8 +49,6 @@ ms.locfileid: "3802935"
 - [用于产品版本跟踪的新库存维度和增强的可扩展性](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - 有关详细信息，请参阅[产品维度](../pim/product-dimensions.md)。
 
 - [基于牌照的订单承诺预留](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - 有关详细信息，请参阅[灵活牌照预留](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation)。
-
-- [出站工作负荷可视化](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)
 
 - [工作领料行概览](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
 
@@ -76,8 +74,8 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.13 中包含平台更新。 
 
 [Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
 
-- *已移除*的功能在产品中不再可用。
-- *已弃用*的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
+- *已移除* 的功能在产品中不再可用。
+- *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
 从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。
 
