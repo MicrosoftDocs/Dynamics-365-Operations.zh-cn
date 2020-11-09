@@ -17,59 +17,59 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69e711ad2011703efa450d97575784aaee3137dd
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 7a71ea3983018b136d4fe3b22eadc0c332d2a698
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982323"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016439"
 ---
-# <a name="set-up-shipping-carriers"></a><span data-ttu-id="237e5-103">设置装运承运人</span><span class="sxs-lookup"><span data-stu-id="237e5-103">Set up shipping carriers</span></span>
+# <a name="set-up-shipping-carriers"></a><span data-ttu-id="c25f6-103">设置装运承运人</span><span class="sxs-lookup"><span data-stu-id="c25f6-103">Set up shipping carriers</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="237e5-104">此主题显示如何设置装运承运人和定义详细信息，诸如服务、装运方式、运输招标、运输约束和装运费用。</span><span class="sxs-lookup"><span data-stu-id="237e5-104">This topic shows how to set up a shipping carrier and define details such as service, shipment mode, transportation tender, transportation constraints, and shipping rate.</span></span> <span data-ttu-id="237e5-105">运输协调员可将装运承运人分配给某个入站或出站装载。</span><span class="sxs-lookup"><span data-stu-id="237e5-105">A transportation coordinator can then assign a shipping carrier to an inbound or outbound load.</span></span>
+<span data-ttu-id="c25f6-104">此主题显示如何设置装运承运人和定义详细信息，诸如服务、装运方式、运输招标、运输约束和装运费用。</span><span class="sxs-lookup"><span data-stu-id="c25f6-104">This topic shows how to set up a shipping carrier and define details such as service, shipment mode, transportation tender, transportation constraints, and shipping rate.</span></span> <span data-ttu-id="c25f6-105">运输协调员可将装运承运人分配给某个入站或出站装载。</span><span class="sxs-lookup"><span data-stu-id="c25f6-105">A transportation coordinator can then assign a shipping carrier to an inbound or outbound load.</span></span>
 
 
-## <a name="create-a-new-shipping-carrier"></a><span data-ttu-id="237e5-106">创建新装运承运人</span><span class="sxs-lookup"><span data-stu-id="237e5-106">Create a new shipping carrier</span></span>
-1. <span data-ttu-id="237e5-107">转到**导航窗格 > 模块 > 运输管理 > 设置 > 承运人 > 装运承运人**。</span><span class="sxs-lookup"><span data-stu-id="237e5-107">Go to **Navigation pane > Modules > Transportation management > Setup > Carriers > Shipping carriers**.</span></span>
-2. <span data-ttu-id="237e5-108">在操作窗格上选择**新建**。</span><span class="sxs-lookup"><span data-stu-id="237e5-108">Select **New** on the Action Pane.</span></span>
-3. <span data-ttu-id="237e5-109">在**装运承运人**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="237e5-109">In the **Shipping carrier** field, type a value.</span></span>
-4. <span data-ttu-id="237e5-110">在**名称**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="237e5-110">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="237e5-111">在**模式**字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="237e5-111">In the **Mode** field, select an option from the drop-down menu.</span></span>
+## <a name="create-a-new-shipping-carrier"></a><span data-ttu-id="c25f6-106">创建新装运承运人</span><span class="sxs-lookup"><span data-stu-id="c25f6-106">Create a new shipping carrier</span></span>
+1. <span data-ttu-id="c25f6-107">转到 **导航窗格 > 模块 > 运输管理 > 设置 > 承运人 > 装运承运人** 。</span><span class="sxs-lookup"><span data-stu-id="c25f6-107">Go to **Navigation pane > Modules > Transportation management > Setup > Carriers > Shipping carriers**.</span></span>
+2. <span data-ttu-id="c25f6-108">在操作窗格上选择 **新建** 。</span><span class="sxs-lookup"><span data-stu-id="c25f6-108">Select **New** on the Action Pane.</span></span>
+3. <span data-ttu-id="c25f6-109">在 **装运承运人** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c25f6-109">In the **Shipping carrier** field, type a value.</span></span>
+4. <span data-ttu-id="c25f6-110">在 **名称** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c25f6-110">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="c25f6-111">在 **模式** 字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="c25f6-111">In the **Mode** field, select an option from the drop-down menu.</span></span>
 
-## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a><span data-ttu-id="237e5-112">填写装运承运人的一般信息</span><span class="sxs-lookup"><span data-stu-id="237e5-112">Fill in the general information for the shipping carrier</span></span>
-1. <span data-ttu-id="237e5-113">切换**概览**部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="237e5-113">Toggle the expansion of the **Overview** section.</span></span>
-2. <span data-ttu-id="237e5-114">勾选或不勾选**启用承运装运人**复选框。</span><span class="sxs-lookup"><span data-stu-id="237e5-114">Check or uncheck the **Activate shipping carrier** checkbox.</span></span>
-3. <span data-ttu-id="237e5-115">在**供应商帐户**字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="237e5-115">In the **Vendor account** field, select an option from the drop-down menu.</span></span> <span data-ttu-id="237e5-116">选择向其分配装运承运人的供应商帐户。</span><span class="sxs-lookup"><span data-stu-id="237e5-116">Select the vendor account to assign the shipping carrier to.</span></span>  
-4. <span data-ttu-id="237e5-117">在**运输招标类型**字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="237e5-117">In the **Transportation tender type** field, select an option.</span></span> <span data-ttu-id="237e5-118">选择**手动**以使用“运输招标”页面，或选择 **EDI** 来通过使用电子数据交换 (EDI) 更新招标信息。</span><span class="sxs-lookup"><span data-stu-id="237e5-118">Select **Manual** to use the Transportation Tender page, or select **EDI** to update the tender by using Electronic Data Interchange (EDI).</span></span>  
-5. <span data-ttu-id="237e5-119">勾选或不勾选**启用承运评级**复选框。</span><span class="sxs-lookup"><span data-stu-id="237e5-119">Check or uncheck the **Activate carrier rating** checkbox.</span></span>
+## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a><span data-ttu-id="c25f6-112">填写装运承运人的一般信息</span><span class="sxs-lookup"><span data-stu-id="c25f6-112">Fill in the general information for the shipping carrier</span></span>
+1. <span data-ttu-id="c25f6-113">切换 **概览** 部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="c25f6-113">Toggle the expansion of the **Overview** section.</span></span>
+2. <span data-ttu-id="c25f6-114">勾选或不勾选 **启用承运装运人** 复选框。</span><span class="sxs-lookup"><span data-stu-id="c25f6-114">Check or uncheck the **Activate shipping carrier** checkbox.</span></span>
+3. <span data-ttu-id="c25f6-115">在 **供应商帐户** 字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="c25f6-115">In the **Vendor account** field, select an option from the drop-down menu.</span></span> <span data-ttu-id="c25f6-116">选择向其分配装运承运人的供应商帐户。</span><span class="sxs-lookup"><span data-stu-id="c25f6-116">Select the vendor account to assign the shipping carrier to.</span></span>  
+4. <span data-ttu-id="c25f6-117">在 **运输招标类型** 字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="c25f6-117">In the **Transportation tender type** field, select an option.</span></span> <span data-ttu-id="c25f6-118">选择 **手动** 以使用“运输招标”页面，或选择 **EDI** 来通过使用电子数据交换 (EDI) 更新招标信息。</span><span class="sxs-lookup"><span data-stu-id="c25f6-118">Select **Manual** to use the Transportation Tender page, or select **EDI** to update the tender by using Electronic Data Interchange (EDI).</span></span>  
+5. <span data-ttu-id="c25f6-119">勾选或不勾选 **启用承运评级** 复选框。</span><span class="sxs-lookup"><span data-stu-id="c25f6-119">Check or uncheck the **Activate carrier rating** checkbox.</span></span>
 
-## <a name="create-the-necessary-services-for-the-shipping-carrier"></a><span data-ttu-id="237e5-120">创建装运承运人的必需服务</span><span class="sxs-lookup"><span data-stu-id="237e5-120">Create the necessary services for the shipping carrier</span></span>
-1. <span data-ttu-id="237e5-121">切换**服务**部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="237e5-121">Toggle the expansion of the **Services** section.</span></span>
-2. <span data-ttu-id="237e5-122">选择**新建**。</span><span class="sxs-lookup"><span data-stu-id="237e5-122">Select **New**.</span></span>
-3. <span data-ttu-id="237e5-123">在**承运人服务**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="237e5-123">In the **Carrier service** field, type a value.</span></span>
-4. <span data-ttu-id="237e5-124">在**名称**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="237e5-124">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="237e5-125">在**运输方法**字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="237e5-125">In the **Transportation method** field, select an option from the drop-down menu.</span></span>
+## <a name="create-the-necessary-services-for-the-shipping-carrier"></a><span data-ttu-id="c25f6-120">创建装运承运人的必需服务</span><span class="sxs-lookup"><span data-stu-id="c25f6-120">Create the necessary services for the shipping carrier</span></span>
+1. <span data-ttu-id="c25f6-121">切换 **服务** 部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="c25f6-121">Toggle the expansion of the **Services** section.</span></span>
+2. <span data-ttu-id="c25f6-122">选择 **新建** 。</span><span class="sxs-lookup"><span data-stu-id="c25f6-122">Select **New**.</span></span>
+3. <span data-ttu-id="c25f6-123">在 **承运人服务** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c25f6-123">In the **Carrier service** field, type a value.</span></span>
+4. <span data-ttu-id="c25f6-124">在 **名称** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c25f6-124">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="c25f6-125">在 **运输方法** 字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="c25f6-125">In the **Transportation method** field, select an option from the drop-down menu.</span></span>
 
-## <a name="set-up-the-address-for-the-carrier-optional"></a><span data-ttu-id="237e5-126">设置承运人的地址（可选）</span><span class="sxs-lookup"><span data-stu-id="237e5-126">Set up the address for the carrier (optional)</span></span>
-1. <span data-ttu-id="237e5-127">切换**地址**部分的扩展项。</span><span class="sxs-lookup"><span data-stu-id="237e5-127">Toggle the expansion of the **Addresses** section.</span></span>
-2. <span data-ttu-id="237e5-128">选择**新建**。</span><span class="sxs-lookup"><span data-stu-id="237e5-128">Select **New**.</span></span>
-3. <span data-ttu-id="237e5-129">在**名称或描述**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="237e5-129">In the **Name or description** field, type a value.</span></span>
-4. <span data-ttu-id="237e5-130">在**国家/地区**字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="237e5-130">In the **Country/region** field, select an option from the drop-down menu.</span></span>
-5. <span data-ttu-id="237e5-131">在**邮政编码**字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="237e5-131">In the **ZIP/postal code** field, select an option from the drop-down menu.</span></span>
-6. <span data-ttu-id="237e5-132">在**街道**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="237e5-132">In the **Street** field, type a value.</span></span>
-7. <span data-ttu-id="237e5-133">选择**确定**。</span><span class="sxs-lookup"><span data-stu-id="237e5-133">Select **OK**.</span></span>
+## <a name="set-up-the-address-for-the-carrier-optional"></a><span data-ttu-id="c25f6-126">设置承运人的地址（可选）</span><span class="sxs-lookup"><span data-stu-id="c25f6-126">Set up the address for the carrier (optional)</span></span>
+1. <span data-ttu-id="c25f6-127">切换 **地址** 部分的扩展项。</span><span class="sxs-lookup"><span data-stu-id="c25f6-127">Toggle the expansion of the **Addresses** section.</span></span>
+2. <span data-ttu-id="c25f6-128">选择 **新建** 。</span><span class="sxs-lookup"><span data-stu-id="c25f6-128">Select **New**.</span></span>
+3. <span data-ttu-id="c25f6-129">在 **名称或描述** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c25f6-129">In the **Name or description** field, type a value.</span></span>
+4. <span data-ttu-id="c25f6-130">在 **国家/地区** 字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="c25f6-130">In the **Country/region** field, select an option from the drop-down menu.</span></span>
+5. <span data-ttu-id="c25f6-131">在 **邮政编码** 字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="c25f6-131">In the **ZIP/postal code** field, select an option from the drop-down menu.</span></span>
+6. <span data-ttu-id="c25f6-132">在 **街道** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c25f6-132">In the **Street** field, type a value.</span></span>
+7. <span data-ttu-id="c25f6-133">选择 **确定** 。</span><span class="sxs-lookup"><span data-stu-id="c25f6-133">Select **OK**.</span></span>
 
-## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a><span data-ttu-id="237e5-134">设置装运承运人的评级资料。</span><span class="sxs-lookup"><span data-stu-id="237e5-134">Set up the rating profile for the shipping carrier</span></span>
-1. <span data-ttu-id="237e5-135">切换**评级资料**部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="237e5-135">Toggle the expansion of the **Rating profiles** section.</span></span>
-2. <span data-ttu-id="237e5-136">选择**新建**。</span><span class="sxs-lookup"><span data-stu-id="237e5-136">Select **New**.</span></span>
-3. <span data-ttu-id="237e5-137">在**评级资料**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="237e5-137">In the **Rating profile** field, type a value.</span></span>
-4. <span data-ttu-id="237e5-138">在**名称**字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="237e5-138">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="237e5-139">在**站点**字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="237e5-139">In the **Site** field, select an option from the drop-down menu.</span></span>
-6. <span data-ttu-id="237e5-140">在**仓库**字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="237e5-140">In the **Warehouse** field, select an option from the drop-down menu.</span></span>
-7. <span data-ttu-id="237e5-141">在**费率引擎**字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="237e5-141">In the **Rate engine** field, select an option from the drop-down menu.</span></span> <span data-ttu-id="237e5-142">选择根据合同，您与承运人订立的费率引擎。</span><span class="sxs-lookup"><span data-stu-id="237e5-142">Select the Rate engine that is in accordance with the contract that you have with the carrier.</span></span>  
-8. <span data-ttu-id="237e5-143">在**费率主数据**字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="237e5-143">In the **Rate master** field, select an option from the drop-down menu.</span></span>
-9. <span data-ttu-id="237e5-144">在**运输时间引擎**字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="237e5-144">In the **Transit time engine** field, select an option from the drop-down menu.</span></span>
-10. <span data-ttu-id="237e5-145">选择**保存**。</span><span class="sxs-lookup"><span data-stu-id="237e5-145">Select **Save**.</span></span>
+## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a><span data-ttu-id="c25f6-134">设置装运承运人的评级资料。</span><span class="sxs-lookup"><span data-stu-id="c25f6-134">Set up the rating profile for the shipping carrier</span></span>
+1. <span data-ttu-id="c25f6-135">切换 **评级资料** 部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="c25f6-135">Toggle the expansion of the **Rating profiles** section.</span></span>
+2. <span data-ttu-id="c25f6-136">选择 **新建** 。</span><span class="sxs-lookup"><span data-stu-id="c25f6-136">Select **New**.</span></span>
+3. <span data-ttu-id="c25f6-137">在 **评级资料** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c25f6-137">In the **Rating profile** field, type a value.</span></span>
+4. <span data-ttu-id="c25f6-138">在 **名称** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c25f6-138">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="c25f6-139">在 **站点** 字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="c25f6-139">In the **Site** field, select an option from the drop-down menu.</span></span>
+6. <span data-ttu-id="c25f6-140">在 **仓库** 字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="c25f6-140">In the **Warehouse** field, select an option from the drop-down menu.</span></span>
+7. <span data-ttu-id="c25f6-141">在 **费率引擎** 字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="c25f6-141">In the **Rate engine** field, select an option from the drop-down menu.</span></span> <span data-ttu-id="c25f6-142">选择根据合同，您与承运人订立的费率引擎。</span><span class="sxs-lookup"><span data-stu-id="c25f6-142">Select the Rate engine that is in accordance with the contract that you have with the carrier.</span></span>  
+8. <span data-ttu-id="c25f6-143">在 **费率主数据** 字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="c25f6-143">In the **Rate master** field, select an option from the drop-down menu.</span></span>
+9. <span data-ttu-id="c25f6-144">在 **运输时间引擎** 字段中，从下拉菜单中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="c25f6-144">In the **Transit time engine** field, select an option from the drop-down menu.</span></span>
+10. <span data-ttu-id="c25f6-145">选择 **保存** 。</span><span class="sxs-lookup"><span data-stu-id="c25f6-145">Select **Save**.</span></span>
 
