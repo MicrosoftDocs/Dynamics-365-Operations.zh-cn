@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ed8f0351d1e16cceb6c9749f434a8980ef2be29d
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: 3c564d580d2743d8a80cdf5667b1f95e00736d60
+ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835846"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000756"
 ---
 # <a name="unified-product-experience"></a>统一的产品体验
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 当业务生态系统由 Dynamics 365 应用程序（例如 Finance、Supply Chain Management 和 Sales）组成时，企业往往会使用这些应用程序来获取产品数据。 这是因为这些应用提供了强大的产品基础架构，并辅以完善的定价概念和准确的现有库存数据。 使用外部产品生命周期管理 (PLM) 系统来获取产品数据的企业可以将产品从 Finance and Operations 应用导入其他 Dynamics 365 应用。 统一的产品体验将集成的产品数据模型引入 Common Data Service，以便包括 Power Platform 用户在内的所有应用程序用户都可以利用来自 Finance and Operations 应用的丰富产品数据。
 
@@ -55,7 +52,7 @@ ms.locfileid: "3835846"
 Finance and Operations 应用 | 其他 Dynamics 365 应用 | 说明
 -----------------------|--------------------------------|---
 已发布产品 V2 | msdyn\_sharedproductdetails | **msdyn\_sharedproductdetails** 实体包含来自 Finance and Operations 应用的字段，这些字段定义产品，并包含产品的财务和管理信息。 
-Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定义产品的字段。 它包括单个产品（具有子类型产品的产品）和产品变型。 下表显示了映射。
+Common Data Service 发布的独特产品 | 产品 | **产品** 实体包含定义产品的字段。 它包括单个产品（具有子类型产品的产品）和产品变型。 下表显示了映射。
 产品编号标识条形码 | msdyn\_productbarcodes | 产品条形码用于唯一标识产品。
 默认订单设置 | msdyn\_productdefaultordersettings
 产品特定默认订单设置 | msdyn_productdefaultordersettings
@@ -66,10 +63,10 @@ Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定�
 大小 | msdyn\_productsizes
 样式 | msdyn\_productsytles
 配置 | msdyn\_productconfigurations
-基础产品颜色 | msdyn_sharedproductcolors | **共享产品颜色**实体表示特定基础产品可以具有的颜色。 此概念已迁移到 Common Data Service 以保持数据一致。
-基础产品大小 | msdyn_sharedproductsizes | **共享产品尺寸**实体表示特定基础产品可以具有的尺寸。 此概念已迁移到 Common Data Service 以保持数据一致。
-基础产品样式 | msdyn_sharedproductstyles | **共享产品样式**实体表示特定基础产品可以具有的样式。 此概念已迁移到 Common Data Service 以保持数据一致。
-基础产品配置 | msdyn_sharedproductconfigurations | **共享产品配置**实体表示特定基础产品可以具有的配置。 此概念已迁移到 Common Data Service 以保持数据一致。
+基础产品颜色 | msdyn_sharedproductcolors | **共享产品颜色** 实体表示特定基础产品可以具有的颜色。 此概念已迁移到 Common Data Service 以保持数据一致。
+基础产品大小 | msdyn_sharedproductsizes | **共享产品尺寸** 实体表示特定基础产品可以具有的尺寸。 此概念已迁移到 Common Data Service 以保持数据一致。
+基础产品样式 | msdyn_sharedproductstyles | **共享产品样式** 实体表示特定基础产品可以具有的样式。 此概念已迁移到 Common Data Service 以保持数据一致。
+基础产品配置 | msdyn_sharedproductconfigurations | **共享产品配置** 实体表示特定基础产品可以具有的配置。 此概念已迁移到 Common Data Service 以保持数据一致。
 所有产品 | msdyn_globalproducts | 所有产品实体都包含 Finance and Operations 应用中可用的所有产品，包括已发放产品和未发放产品。
 单位 | uoms
 单位换算 | msdyn_ unitofmeasureconversions
@@ -81,19 +78,19 @@ Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定�
 
 ## <a name="integration-of-products"></a>产品的集成
 
-在此模型中，产品由 Common Data Service 中两个实体的组合表示：**Product** 和 **msdyn\_sharedproductdetails**。 第一个实体包含产品的定义（产品的唯一标识符、产品名称和说明），而第二个实体包含在产品级别存储的字段。 这两个实体的组合用于根据库存单位 (SKU) 的概念定义产品。 每个发放的产品将在提及的实体（“产品”和“共享产品详细信息”）中具有其信息。 为了跟踪所有产品（已发放和未发放），使用**全局产品**实体。 
+在此模型中，产品由 Common Data Service 中两个实体的组合表示： **Product** 和 **msdyn\_sharedproductdetails** 。 第一个实体包含产品的定义（产品的唯一标识符、产品名称和说明），而第二个实体包含在产品级别存储的字段。 这两个实体的组合用于根据库存单位 (SKU) 的概念定义产品。 每个发放的产品将在提及的实体（“产品”和“共享产品详细信息”）中具有其信息。 为了跟踪所有产品（已发放和未发放），使用 **全局产品** 实体。 
 
 由于产品表示为 SKU，因此可以通过以下方式在 Common Data Service 中捕获独特产品、基础产品和产品变型的概念：
 
-- **具有子类型产品的产品**是它们自己定义的产品。 无需定义维度。 一个例子是特定帐簿。 对于这些产品，在 **Product** 实体中创建一个记录，并在 **msdyn\_sharedproductdetails** 实体中创建一个记录。 不创建产品系列记录。
-- **基础产品**用作具有定义和规则的一般产品，这些定义和规则确定业务流程中的行为。 基于这些定义，可以生成称为产品变型的独特产品。 例如，T 恤是基础产品，可以具有颜色和尺寸维度。 可以发布具有这些维度的不同组合的变型，例如小号蓝色 T 恤或中号绿色 T 恤。 在集成中，在产品表中为每个变型创建一个记录。 此记录包含特定于变型的信息，例如不同的维度。 产品的一般信息存储在 **msdyn\_sharedproductdetails** 实体中。 （此一般信息保留在基础产品中。）创建已发放的基础产品后（但在发放变型之前），基础产品信息即同步到 Common Data Service。
-- **独特产品**是指所有产品子类型产品和所有产品变型。 
+- **具有子类型产品的产品** 是它们自己定义的产品。 无需定义维度。 一个例子是特定帐簿。 对于这些产品，在 **Product** 实体中创建一个记录，并在 **msdyn\_sharedproductdetails** 实体中创建一个记录。 不创建产品系列记录。
+- **基础产品** 用作具有定义和规则的一般产品，这些定义和规则确定业务流程中的行为。 基于这些定义，可以生成称为产品变型的独特产品。 例如，T 恤是基础产品，可以具有颜色和尺寸维度。 可以发布具有这些维度的不同组合的变型，例如小号蓝色 T 恤或中号绿色 T 恤。 在集成中，在产品表中为每个变型创建一个记录。 此记录包含特定于变型的信息，例如不同的维度。 产品的一般信息存储在 **msdyn\_sharedproductdetails** 实体中。 （此一般信息保留在基础产品中。）创建已发放的基础产品后（但在发放变型之前），基础产品信息即同步到 Common Data Service。
+- **独特产品** 是指所有产品子类型产品和所有产品变型。 
 
 ![产品的数据模型](media/dual-write-product.png)
 
-启用双写入功能后，Finance and Operations 中的产品将在其他 Dynamics 365 产品中同步并处于**草稿**状态。 它们将以相同的货币添加到第一个价目表中。 换言之，它们将被添加到 Dynamics 365 应用中的第一个价目表中，该应用与在 Finance and Operations 应用中发放产品的法人的货币相匹配。 
+启用双写入功能后，Finance and Operations 中的产品将在其他 Dynamics 365 产品中同步并处于 **草稿** 状态。 它们将以相同的货币添加到第一个价目表中。 换言之，它们将被添加到 Dynamics 365 应用中的第一个价目表中，该应用与在 Finance and Operations 应用中发放产品的法人的货币相匹配。 
 
-默认情况下，Finance and Operations 应用中的产品会以**草稿**状态同步到其他 Dynamics 365 应用。 要同步状态为**活动**的产品，以便您可以直接在销售订单报价单中使用它，例如，需要选择以下设置：**系统 > 管理 > 系统管理 > 系统设置 > Sales** 选项卡，选择**创建处于活动状态的产品 = 是**。 
+默认情况下，Finance and Operations 应用中的产品会以 **草稿** 状态同步到其他 Dynamics 365 应用。 要同步状态为 **活动** 的产品，以便您可以直接在销售订单报价单中使用它，例如，需要选择以下设置： **系统 > 管理 > 系统管理 > 系统设置 > Sales** 选项卡，选择 **创建处于活动状态的产品 = 是** 。 
 
 请注意，产品的同步是从 Finance and Operations 应用到 Common Data Service。 这意味着可以在 Common Data Service 中更改产品实体字段的值，但是当触发同步时（在 Finance and Operations 应用中修改了产品字段时），这将覆盖 Common Data Service 中的值。 
 
@@ -109,7 +106,7 @@ Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定�
 
 产品维度是标识产品变型的特性。 四个产品维度（颜色、尺寸、样式和配置）也映射到 Common Data Service 以定义产品变型。 下图显示了产品维度“颜色”的数据模型。 相同的模型也应用于“尺寸”、“样式”和“配置”。 
 
-![产品的数据模型](media/dual-write-product-two.png)
+![产品维度的数据模型](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +142,7 @@ Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定�
 
 度量单位及其各自的转换按照图中所示的数据模型在 Common Data Service 中提供。
 
-![产品的数据模型](media/dual-write-product-three.png)
+![度量单位的数据模型](media/dual-write-product-three.png)
 
 度量单位概念在 Finance and Operations 应用与其他 Dynamics 365 应用之间进行了集成。 对于 Finance and Operations 应用中的每个单位类别，将在 Dynamics 365 应用中创建一个单位组，其中包含属于该单位类别的单位。 另外还为每个单位组创建一个默认基础单位。 
 
@@ -167,7 +164,7 @@ Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定�
 
 对于 Finance and Operations 应用和其他 Dynamics 365 应用中的单位匹配/重叠：
 
-+ **单位属于其他 Dynamics 365 应用中的单位组，该单位组与 Finance and Operations 应用中的关联单位类别相对应**。 在这种情况下，必须使用 Finance and Operations 应用中的单位符号填充其他 Dynamics 365 应用中的 msdyn_symbol 字段。 因此，在将数据匹配时，在其他 Dynamics 365 应用中会将单位组设置为“外部维护”。
++ **单位属于其他 Dynamics 365 应用中的单位组，该单位组与 Finance and Operations 应用中的关联单位类别相对应** 。 在这种情况下，必须使用 Finance and Operations 应用中的单位符号填充其他 Dynamics 365 应用中的 msdyn_symbol 字段。 因此，在将数据匹配时，在其他 Dynamics 365 应用中会将单位组设置为“外部维护”。
 + **单位属于其他 Dynamics 365 应用中的单位组，该单位组与 Finance and Operations 应用中的关联单位类别不对应（其他 Dynamics 365 应用中的单位类别在 Finance and Operations 应用中没有现有的单位类别）。** 在这种情况下，必须使用随机字符串填充 msdyn_symbol。 请注意，此值在其他 Dynamics 365 应用中必须是唯一的。
 
 对于 Finance and Operations 中其他 Dynamics 365 应用中不存在的单位和单位类别：
@@ -201,11 +198,11 @@ Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定�
 
 ## <a name="integration-key-for-products"></a>产品的集成密钥 
 
-为了唯一标识 Dynamics 365 for Finance and Operations 和 Common Data Service 中的产品之间的产品，使用了集成密钥。 对于产品，**（产品编号）** 是在 Common Data Service 中标识产品的唯一密钥。 它由以下各项的串联组成：**（公司, msdyn_产品编号）**。 **公司**表示 Finance and Operations 中的法人，**msdyn_产品编号** 表示 Finance and Operations 中特定产品的产品编号。 
+为了唯一标识 Dynamics 365 for Finance and Operations 和 Common Data Service 中的产品之间的产品，使用了集成密钥。 对于产品， **（产品编号）** 是在 Common Data Service 中标识产品的唯一密钥。 它由以下各项的串联组成： **（公司, msdyn_产品编号）** 。 **公司** 表示 Finance and Operations 中的法人， **msdyn_产品编号** 表示 Finance and Operations 中特定产品的产品编号。 
 
-对于其他 Dynamics 365 应用的用户，产品在 UI 中标识为 **msdyn_productnumber**（请注意，字段的标签为**产品编号**）。 在产品表单中，同时显示公司和 msydn_产品编号。 但是，没有显示（产品编号）字段，即产品的唯一密钥。 
+对于其他 Dynamics 365 应用的用户，产品在 UI 中标识为 **msdyn_productnumber** （请注意，字段的标签为 **产品编号** ）。 在产品表单中，同时显示公司和 msydn_产品编号。 但是，没有显示（产品编号）字段，即产品的唯一密钥。 
 
-如果基于 Common Data Service 创建应用，则应将 **productnumber**（唯一产品 ID）用作集成密钥。 切勿使用 **msdyn_productnumber**，因为这不是唯一的。 
+如果基于 Common Data Service 创建应用，则应将 **productnumber** （唯一产品 ID）用作集成密钥。 切勿使用 **msdyn_productnumber** ，因为这不是唯一的。 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>产品的初始同步以及数据从 Common Data Service 到 Finance and Operations 的迁移
 
@@ -216,7 +213,7 @@ Common Data Service 发布的独特产品 | 产品 | **产品**实体包含定�
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>匹配 Finance and Operations 和其他 Dynamics 365 应用中的产品数据
 
 如果在 Finance and Operations 中以及在 Common Data Service 和其他 Dynamics 365 应用中保留（重叠/匹配）相同的产品，则在启用双写入时，将进行 Finance and Operations 中产品的同步，并且相同产品的重复记录将出现在 Common Data Service 中。
-为避免上述情况，如果其他 Dynamics 365 应用中的产品与 Finance and Operations 重叠/匹配，则启用双写入的管理员必须在产品进行同步之前自扩展字段**公司**（例如：“USMF”）和 **msdyn_产品编号**（例如：“1234:Black:S”）。 换言之，Common Data Service 中产品中的这两个字段在 Finance and Operations 中必须使用产品需要与之匹配的相应公司及其产品编号填充。 
+为避免上述情况，如果其他 Dynamics 365 应用中的产品与 Finance and Operations 重叠/匹配，则启用双写入的管理员必须在产品进行同步之前自扩展字段 **公司** （例如：“USMF”）和 **msdyn_产品编号** （例如：“1234:Black:S”）。 换言之，Common Data Service 中产品中的这两个字段在 Finance and Operations 中必须使用产品需要与之匹配的相应公司及其产品编号填充。 
 
 然后，启用并进行同步后，Finance and Operations 中的产品将与 Common Data Service 和其他 Dynamics 365 应用中的匹配产品同步。 这适用于不同的产品和产品变型。 
 

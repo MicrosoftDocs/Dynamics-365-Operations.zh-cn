@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules
+ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d712cc3ebdc959d1fee4a2a79e3283b84f0b901a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205544"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017062"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>通过提领看板补货
 
@@ -54,11 +54,11 @@ ms.locfileid: "3205544"
 
 ## <a name="configure-warehouse-work-for-kanban-picking-for-the-withdrawal-kanban"></a>为提领看板配置仓库看板领料工作
 
-要启用提领看板的原材料领取，则为**看板领料**工作订单类型配置波次模板、工作模板和库位指令。 此工作订单类型不仅支持提领看板的领料流程。 它还支持制造看板的领料流程。 但是，您可以通过界定波次模板、工作模板和库位指令的方式为每种看板类型配置单独的领料流程。 要界定波次模板、工作模板和库位指令，请在这些实体的查询中对该活动类型（**流程**或**转移**）设置条件
+要启用提领看板的原材料领取，则为 **看板领料** 工作订单类型配置波次模板、工作模板和库位指令。 此工作订单类型不仅支持提领看板的领料流程。 它还支持制造看板的领料流程。 但是，您可以通过界定波次模板、工作模板和库位指令的方式为每种看板类型配置单独的领料流程。 要界定波次模板、工作模板和库位指令，请在这些实体的查询中对该活动类型（ **流程** 或 **转移** ）设置条件
 
 ## <a name="configure-the-withdrawal-kanban"></a>配置提领看板
 
-用于提领看板的转移活动配置为精益生产流中激活的活动计划的一部分。 作为配置转移活动的一部分，您指定转移的“自”和“到”库位。 配置转移活动后，您可以将其分配到**提领**类型的看板规则。 看板规则设定提领看板的策略和配置。 看板的数量定义看板在转移流程期间携带多少个物料处理单元。 选择固定补货策略时使用固定看板数量。 此数量定义为了防止存货或版本存货在需求源被耗尽所需的看板数量。 固定数量可以基于实际需求、历史需求和服务级别进行计算。 以下两个方案介绍如何管理使用提领看板的物料补货。
+用于提领看板的转移活动配置为精益生产流中激活的活动计划的一部分。 作为配置转移活动的一部分，您指定转移的“自”和“到”库位。 配置转移活动后，您可以将其分配到 **提领** 类型的看板规则。 看板规则设定提领看板的策略和配置。 看板的数量定义看板在转移流程期间携带多少个物料处理单元。 选择固定补货策略时使用固定看板数量。 此数量定义为了防止存货或版本存货在需求源被耗尽所需的看板数量。 固定数量可以基于实际需求、历史需求和服务级别进行计算。 以下两个方案介绍如何管理使用提领看板的物料补货。
 
 ## <a name="scenario-1-replenish-a-production-input-location-by-using-a-fixed-withdrawal-kanban"></a>方案 1：使用固定提领看板对生产输入库位补货
 

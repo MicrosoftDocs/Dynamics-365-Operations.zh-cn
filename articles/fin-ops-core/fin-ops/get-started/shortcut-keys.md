@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
-ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
+ms.openlocfilehash: 1a69e262c1dc731839e0bf347a0fb14983742dbe
+ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3962512"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013172"
 ---
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
@@ -33,11 +33,11 @@ ms.locfileid: "3962512"
 > [!NOTE]
 > 此处描述的键盘快捷方式是指美式键盘布局。 其他键盘布局中的键可能不能与美式键盘上的键完全对应。
 
-此页面上的某些快捷方式是*键和弦*，这意味着它们需要两组连续的键组合（以逗号分隔），需要分别按下这些键组合才能触发所需的操作。 例如，快捷方式“Alt+M,A”要求用户首先按“Alt+M”，释放这些键，然后按“A”。 
+此页面上的某些快捷方式是 *键和弦* ，这意味着它们需要两组连续的键组合（以逗号分隔），需要分别按下这些键组合才能触发所需的操作。 例如，快捷方式“Alt+M,A”要求用户首先按“Alt+M”，释放这些键，然后按“A”。 
 
 ## <a name="finding-a-shortcut"></a>查找快捷方式
 
-从平台更新 11 开始，用户可以直接从用户界面发现当前可用的快捷方式。 只需右键单击控件并选择**查看快捷方式**。 这将基于您在页面上的位置打开显示您可以使用的快捷方式的对话框。
+从平台更新 11 开始，用户可以直接从用户界面发现当前可用的快捷方式。 只需右键单击控件并选择 **查看快捷方式** 。 这将基于您在页面上的位置打开显示您可以使用的快捷方式的对话框。
 
 ## <a name="action-shortcuts"></a>操作快捷方式
 
@@ -239,7 +239,7 @@ ms.locfileid: "3962512"
 | 上移/下移查找中的页                                                                                       | Page up / Page down              |
 | 移到查找的顶部/底部                                                                                    | Home / End                       |
 
-## <a name="task-recordershortcuts"></a>[任务录制器](../../dev-itpro/user-interface/task-recorder.md)快捷方式 
+## <a name="task-recorder-shortcuts"></a>[任务录制器](../../dev-itpro/user-interface/task-recorder.md)快捷方式 
 
 | 要执行的操作                                                                    | 按                       |
 |-------------------------------------------------------------------------------|----------------------------|
