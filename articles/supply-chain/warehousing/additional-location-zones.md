@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSLocationBuild
+ms.search.form: WHSLocationBuild, WHSZone
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Supply Chain Management
@@ -18,43 +18,43 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c0bed8c95760b3dee350048c5f824f974b784f26
-ms.sourcegitcommit: 7b7cc93c0f78c6bfc7a3ea66a74a29ba0f218553
+ms.openlocfilehash: 6cf81939989b8faffcda51bbbd5bc6b27aec7eea
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3658326"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016291"
 ---
-# <a name="additional-location-zones"></a><span data-ttu-id="772e0-103">其他货位区域</span><span class="sxs-lookup"><span data-stu-id="772e0-103">Additional location zones</span></span>
+# <a name="additional-location-zones"></a><span data-ttu-id="94ade-103">其他货位区域</span><span class="sxs-lookup"><span data-stu-id="94ade-103">Additional location zones</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="772e0-104">Microsoft Dynamics 365 Supply Chain Management 中新增了三个区域字段。</span><span class="sxs-lookup"><span data-stu-id="772e0-104">Three new zone fields are available in Microsoft Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="772e0-105">仓库经理可将其用于定义更多仓库组织或布局。</span><span class="sxs-lookup"><span data-stu-id="772e0-105">Warehouse managers can use them to define additional warehouse organizations or layouts.</span></span> <span data-ttu-id="772e0-106">可以手动或通过使用**货位设置**向导设置新区域字段。</span><span class="sxs-lookup"><span data-stu-id="772e0-106">The new zone fields can be set either manually or by using the **Location setup** wizard.</span></span> <span data-ttu-id="772e0-107">可以在任何使用“货位”表的查询或筛选中使用这些字段。</span><span class="sxs-lookup"><span data-stu-id="772e0-107">They can be used in any query or filtering that uses the Locations table.</span></span>
+<span data-ttu-id="94ade-104">Microsoft Dynamics 365 Supply Chain Management 中新增了三个区域字段。</span><span class="sxs-lookup"><span data-stu-id="94ade-104">Three new zone fields are available in Microsoft Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="94ade-105">仓库经理可将其用于定义更多仓库组织或布局。</span><span class="sxs-lookup"><span data-stu-id="94ade-105">Warehouse managers can use them to define additional warehouse organizations or layouts.</span></span> <span data-ttu-id="94ade-106">可以手动或通过使用 **货位设置** 向导设置新区域字段。</span><span class="sxs-lookup"><span data-stu-id="94ade-106">The new zone fields can be set either manually or by using the **Location setup** wizard.</span></span> <span data-ttu-id="94ade-107">可以在任何使用“货位”表的查询或筛选中使用这些字段。</span><span class="sxs-lookup"><span data-stu-id="94ade-107">They can be used in any query or filtering that uses the Locations table.</span></span>
 
-<span data-ttu-id="772e0-108">无需进行更多设置即可使用区域字段。</span><span class="sxs-lookup"><span data-stu-id="772e0-108">No additional setup is required to use the zone fields.</span></span>
+<span data-ttu-id="94ade-108">无需进行更多设置即可使用区域字段。</span><span class="sxs-lookup"><span data-stu-id="94ade-108">No additional setup is required to use the zone fields.</span></span>
 
-## <a name="turn-on-the-additional-location-zone-feature"></a><span data-ttu-id="772e0-109">开启“其他货位区域”功能</span><span class="sxs-lookup"><span data-stu-id="772e0-109">Turn on the Additional location zone feature</span></span>
+## <a name="turn-on-the-additional-location-zone-feature"></a><span data-ttu-id="94ade-109">开启“其他货位区域”功能</span><span class="sxs-lookup"><span data-stu-id="94ade-109">Turn on the Additional location zone feature</span></span>
 
-<span data-ttu-id="772e0-110">*其他货位区域*功能只有在系统中开启之后才能使用。</span><span class="sxs-lookup"><span data-stu-id="772e0-110">Before you can use the *Additional location zone* feature, it must be turned on in your system.</span></span> <span data-ttu-id="772e0-111">管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能（如果需要）。</span><span class="sxs-lookup"><span data-stu-id="772e0-111">Admins can use the [feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) settings to check the status of the feature and turn it on if it's required.</span></span> <span data-ttu-id="772e0-112">在**功能管理**工作区中，此功能按照下面的方式列出：</span><span class="sxs-lookup"><span data-stu-id="772e0-112">In the **Feature management** workspace, the feature is listed in the following way:</span></span>
+<span data-ttu-id="94ade-110">*其他货位区域* 功能只有在系统中开启之后才能使用。</span><span class="sxs-lookup"><span data-stu-id="94ade-110">Before you can use the *Additional location zone* feature, it must be turned on in your system.</span></span> <span data-ttu-id="94ade-111">管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能（如果需要）。</span><span class="sxs-lookup"><span data-stu-id="94ade-111">Admins can use the [feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) settings to check the status of the feature and turn it on if it's required.</span></span> <span data-ttu-id="94ade-112">在 **功能管理** 工作区中，此功能按照下面的方式列出：</span><span class="sxs-lookup"><span data-stu-id="94ade-112">In the **Feature management** workspace, the feature is listed in the following way:</span></span>
 
-- <span data-ttu-id="772e0-113">**模块**：*仓库管理*</span><span class="sxs-lookup"><span data-stu-id="772e0-113">**Module:** *Warehouse management*</span></span>
-- <span data-ttu-id="772e0-114">**功能名称**：*其他货位区域*</span><span class="sxs-lookup"><span data-stu-id="772e0-114">**Feature name:** *Additional location zone*</span></span>
+- <span data-ttu-id="94ade-113">**模块** ： *仓库管理*</span><span class="sxs-lookup"><span data-stu-id="94ade-113">**Module:** *Warehouse management*</span></span>
+- <span data-ttu-id="94ade-114">**功能名称** ： *其他货位区域*</span><span class="sxs-lookup"><span data-stu-id="94ade-114">**Feature name:** *Additional location zone*</span></span>
 
-## <a name="use-location-zones"></a><span data-ttu-id="772e0-115">使用货位区域</span><span class="sxs-lookup"><span data-stu-id="772e0-115">Use location zones</span></span>
+## <a name="use-location-zones"></a><span data-ttu-id="94ade-115">使用货位区域</span><span class="sxs-lookup"><span data-stu-id="94ade-115">Use location zones</span></span>
 
-1. <span data-ttu-id="772e0-116">转到**仓库管理 \> 设置 \> 仓库 \> 货位设置向导**。</span><span class="sxs-lookup"><span data-stu-id="772e0-116">Go to **Warehouse management \> Setup \> Warehouse \> Location setup wizard**.</span></span>
-2. <span data-ttu-id="772e0-117">设置以下值：</span><span class="sxs-lookup"><span data-stu-id="772e0-117">Set the following values:</span></span>
+1. <span data-ttu-id="94ade-116">转到 **仓库管理 \> 设置 \> 仓库 \> 货位设置向导** 。</span><span class="sxs-lookup"><span data-stu-id="94ade-116">Go to **Warehouse management \> Setup \> Warehouse \> Location setup wizard**.</span></span>
+2. <span data-ttu-id="94ade-117">设置以下值：</span><span class="sxs-lookup"><span data-stu-id="94ade-117">Set the following values:</span></span>
 
-    - <span data-ttu-id="772e0-118">在**仓库**字段中，选择 _62_。</span><span class="sxs-lookup"><span data-stu-id="772e0-118">In the **Warehouse** field, select _62_.</span></span>
-    - <span data-ttu-id="772e0-119">在**区域 ID** 字段中，选择 _FLOOR_。</span><span class="sxs-lookup"><span data-stu-id="772e0-119">In the **Zone ID** field, select _FLOOR_.</span></span>
-    - <span data-ttu-id="772e0-120">在**其他区域 1** 字段中，选择 _PICKZONE1_。</span><span class="sxs-lookup"><span data-stu-id="772e0-120">In the **Additional Zone 1** field, select _PICKZONE1_.</span></span>
-    - <span data-ttu-id="772e0-121">在**其他区域 2** 字段中，选择 _WEBSHOP1_。</span><span class="sxs-lookup"><span data-stu-id="772e0-121">In the **Additional Zone 2** field, select _WEBSHOP1_.</span></span>
-    - <span data-ttu-id="772e0-122">在**货位模板 ID** 字段中，选择 _FLOOR_。</span><span class="sxs-lookup"><span data-stu-id="772e0-122">In the **Location profile ID** field, select _FLOOR_.</span></span>
+    - <span data-ttu-id="94ade-118">在 **仓库** 字段中，选择 _62_ 。</span><span class="sxs-lookup"><span data-stu-id="94ade-118">In the **Warehouse** field, select _62_.</span></span>
+    - <span data-ttu-id="94ade-119">在 **区域 ID** 字段中，选择 _FLOOR_ 。</span><span class="sxs-lookup"><span data-stu-id="94ade-119">In the **Zone ID** field, select _FLOOR_.</span></span>
+    - <span data-ttu-id="94ade-120">在 **其他区域 1** 字段中，选择 _PICKZONE1_ 。</span><span class="sxs-lookup"><span data-stu-id="94ade-120">In the **Additional Zone 1** field, select _PICKZONE1_.</span></span>
+    - <span data-ttu-id="94ade-121">在 **其他区域 2** 字段中，选择 _WEBSHOP1_ 。</span><span class="sxs-lookup"><span data-stu-id="94ade-121">In the **Additional Zone 2** field, select _WEBSHOP1_.</span></span>
+    - <span data-ttu-id="94ade-122">在 **货位模板 ID** 字段中，选择 _FLOOR_ 。</span><span class="sxs-lookup"><span data-stu-id="94ade-122">In the **Location profile ID** field, select _FLOOR_.</span></span>
 
-3. <span data-ttu-id="772e0-123">选择**场地**行。</span><span class="sxs-lookup"><span data-stu-id="772e0-123">Select the **Floor** line.</span></span>
-4. <span data-ttu-id="772e0-124">在**起始编号**字段中，输入 _1_。</span><span class="sxs-lookup"><span data-stu-id="772e0-124">In the **From number** field, enter _1_.</span></span> <span data-ttu-id="772e0-125">在**结束编号**字段中，输入 _3_。</span><span class="sxs-lookup"><span data-stu-id="772e0-125">In the **To number** field, enter _3_.</span></span>
-5. <span data-ttu-id="772e0-126">选择**通道**行。</span><span class="sxs-lookup"><span data-stu-id="772e0-126">Select the **Aisle** line.</span></span>
-6. <span data-ttu-id="772e0-127">在**起始编号**字段中，输入 _1_。</span><span class="sxs-lookup"><span data-stu-id="772e0-127">In the **From number** field, enter _1_.</span></span> <span data-ttu-id="772e0-128">在**结束编号**字段中，输入 _5_。</span><span class="sxs-lookup"><span data-stu-id="772e0-128">In the **To number** field, enter _5_.</span></span>
-7. <span data-ttu-id="772e0-129">选择**创建**。</span><span class="sxs-lookup"><span data-stu-id="772e0-129">Select **Create**.</span></span>
-8. <span data-ttu-id="772e0-130">将收到消息，说明已添加了新货位。</span><span class="sxs-lookup"><span data-stu-id="772e0-130">You receive messages that state that new locations have been added.</span></span> <span data-ttu-id="772e0-131">选择**显示消息**按钮查看消息。</span><span class="sxs-lookup"><span data-stu-id="772e0-131">Select the **Show messages** button to view the messages.</span></span>
-9. <span data-ttu-id="772e0-132">转到**仓库管理 \> 设置 \> 仓库 \> 货位**。</span><span class="sxs-lookup"><span data-stu-id="772e0-132">Go to **Warehouse management \> Setup \> Warehouse \> Locations**.</span></span> <span data-ttu-id="772e0-133">将在列表中显示新货位，并且可使用所有区域字段（即，现有区域字段和新的其他区域字段）。</span><span class="sxs-lookup"><span data-stu-id="772e0-133">The new locations appear in the list, and all zone fields are available (that is, the existing zone field and the new additional zone fields).</span></span>
+3. <span data-ttu-id="94ade-123">选择 **场地** 行。</span><span class="sxs-lookup"><span data-stu-id="94ade-123">Select the **Floor** line.</span></span>
+4. <span data-ttu-id="94ade-124">在 **起始编号** 字段中，输入 _1_ 。</span><span class="sxs-lookup"><span data-stu-id="94ade-124">In the **From number** field, enter _1_.</span></span> <span data-ttu-id="94ade-125">在 **结束编号** 字段中，输入 _3_ 。</span><span class="sxs-lookup"><span data-stu-id="94ade-125">In the **To number** field, enter _3_.</span></span>
+5. <span data-ttu-id="94ade-126">选择 **通道** 行。</span><span class="sxs-lookup"><span data-stu-id="94ade-126">Select the **Aisle** line.</span></span>
+6. <span data-ttu-id="94ade-127">在 **起始编号** 字段中，输入 _1_ 。</span><span class="sxs-lookup"><span data-stu-id="94ade-127">In the **From number** field, enter _1_.</span></span> <span data-ttu-id="94ade-128">在 **结束编号** 字段中，输入 _5_ 。</span><span class="sxs-lookup"><span data-stu-id="94ade-128">In the **To number** field, enter _5_.</span></span>
+7. <span data-ttu-id="94ade-129">选择 **创建** 。</span><span class="sxs-lookup"><span data-stu-id="94ade-129">Select **Create**.</span></span>
+8. <span data-ttu-id="94ade-130">将收到消息，说明已添加了新货位。</span><span class="sxs-lookup"><span data-stu-id="94ade-130">You receive messages that state that new locations have been added.</span></span> <span data-ttu-id="94ade-131">选择 **显示消息** 按钮查看消息。</span><span class="sxs-lookup"><span data-stu-id="94ade-131">Select the **Show messages** button to view the messages.</span></span>
+9. <span data-ttu-id="94ade-132">转到 **仓库管理 \> 设置 \> 仓库 \> 货位** 。</span><span class="sxs-lookup"><span data-stu-id="94ade-132">Go to **Warehouse management \> Setup \> Warehouse \> Locations**.</span></span> <span data-ttu-id="94ade-133">将在列表中显示新货位，并且可使用所有区域字段（即，现有区域字段和新的其他区域字段）。</span><span class="sxs-lookup"><span data-stu-id="94ade-133">The new locations appear in the list, and all zone fields are available (that is, the existing zone field and the new additional zone fields).</span></span>

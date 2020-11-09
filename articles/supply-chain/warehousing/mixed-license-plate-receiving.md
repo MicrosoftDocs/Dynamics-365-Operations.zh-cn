@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSRFAutoConfirm
+ms.search.form: WHSRFAutoConfirm, WHSLicensePlate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,35 +17,35 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15c058887da33b522c5d9a1a8d2c45a5d1566a5d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cc87da5fefde33832fc0be1cfef3aa44b155c0d0
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215761"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015841"
 ---
-# <a name="mixed-license-plate-receiving"></a><span data-ttu-id="83ce9-103">正在接收混合牌照</span><span class="sxs-lookup"><span data-stu-id="83ce9-103">Mixed license plate receiving</span></span>
+# <a name="mixed-license-plate-receiving"></a><span data-ttu-id="0afdb-103">正在接收混合牌照</span><span class="sxs-lookup"><span data-stu-id="0afdb-103">Mixed license plate receiving</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="83ce9-104">混合牌照接收允许您在登记和创建入库工作前生成包含多个物料的牌照。</span><span class="sxs-lookup"><span data-stu-id="83ce9-104">Mixed license plate receiving allows you to build a license plate consisting of multiple items before you register and create put-away work.</span></span> 
+<span data-ttu-id="0afdb-104">混合牌照接收允许您在登记和创建入库工作前生成包含多个物料的牌照。</span><span class="sxs-lookup"><span data-stu-id="0afdb-104">Mixed license plate receiving allows you to build a license plate consisting of multiple items before you register and create put-away work.</span></span> 
 
-<span data-ttu-id="83ce9-105">包含多个物料的牌照不必在您登记每个物料时在收货台进行拆分。</span><span class="sxs-lookup"><span data-stu-id="83ce9-105">A license plate that consists of multiple items does not have to be split at the receiving dock for you to register each item.</span></span> 
+<span data-ttu-id="0afdb-105">包含多个物料的牌照不必在您登记每个物料时在收货台进行拆分。</span><span class="sxs-lookup"><span data-stu-id="0afdb-105">A license plate that consists of multiple items does not have to be split at the receiving dock for you to register each item.</span></span> 
 
-<span data-ttu-id="83ce9-106">使用物料相关流确定原始凭证行时，您可以扫描物料控制上的条码。</span><span class="sxs-lookup"><span data-stu-id="83ce9-106">When using an item-related flow to identify the source document lines, you can scan bar codes on the item control.</span></span> <span data-ttu-id="83ce9-107">如果条码上配置了一个数量和一个度量单位 (UOM)，该物料和数量将自动添加到混合牌照，且您将返回到屏幕以扫描其他物料。</span><span class="sxs-lookup"><span data-stu-id="83ce9-107">If the bar code has a quantity and a unit of measure (UOM) configured on it, the item and quantity will automatically be added to the mixed license plate, and you will be returned to the screen to scan another item.</span></span> <span data-ttu-id="83ce9-108">这可用于快速扫描所有物料，而不必在每个步骤进行确认。</span><span class="sxs-lookup"><span data-stu-id="83ce9-108">This allows you to quickly scan all the items without having to make a confirmation at each step.</span></span> 
+<span data-ttu-id="0afdb-106">使用物料相关流确定原始凭证行时，您可以扫描物料控制上的条码。</span><span class="sxs-lookup"><span data-stu-id="0afdb-106">When using an item-related flow to identify the source document lines, you can scan bar codes on the item control.</span></span> <span data-ttu-id="0afdb-107">如果条码上配置了一个数量和一个度量单位 (UOM)，该物料和数量将自动添加到混合牌照，且您将返回到屏幕以扫描其他物料。</span><span class="sxs-lookup"><span data-stu-id="0afdb-107">If the bar code has a quantity and a unit of measure (UOM) configured on it, the item and quantity will automatically be added to the mixed license plate, and you will be returned to the screen to scan another item.</span></span> <span data-ttu-id="0afdb-108">这可用于快速扫描所有物料，而不必在每个步骤进行确认。</span><span class="sxs-lookup"><span data-stu-id="0afdb-108">This allows you to quickly scan all the items without having to make a confirmation at each step.</span></span> 
 
-<span data-ttu-id="83ce9-109">在混合牌照接收流中，您可以显示已经扫描到牌照的物料的列表，并从此处修改或更正物料的数量。</span><span class="sxs-lookup"><span data-stu-id="83ce9-109">In the flow for mixed license plate receiving, you can display the list of items that are already scanned to the license plate and from here you can modify or correct the quantity of an item.</span></span>
+<span data-ttu-id="0afdb-109">在混合牌照接收流中，您可以显示已经扫描到牌照的物料的列表，并从此处修改或更正物料的数量。</span><span class="sxs-lookup"><span data-stu-id="0afdb-109">In the flow for mixed license plate receiving, you can display the list of items that are already scanned to the license plate and from here you can modify or correct the quantity of an item.</span></span>
 
-## <a name="where-it-applies"></a><span data-ttu-id="83ce9-110">适用情况</span><span class="sxs-lookup"><span data-stu-id="83ce9-110">Where it applies</span></span>
+## <a name="where-it-applies"></a><span data-ttu-id="0afdb-110">适用情况</span><span class="sxs-lookup"><span data-stu-id="0afdb-110">Where it applies</span></span>
 
-<span data-ttu-id="83ce9-111">混合牌照接收是同时为多个行/物料登记和创建工作的移动设备接收流。</span><span class="sxs-lookup"><span data-stu-id="83ce9-111">Mixed license plate receiving is a mobile device receiving flow to register and create work for multiple lines/items at the same time.</span></span> <span data-ttu-id="83ce9-112">这在您收到具有多个物料的传入牌照时很有用。</span><span class="sxs-lookup"><span data-stu-id="83ce9-112">This is useful if you receive inbound license plates with multiple items.</span></span> 
+<span data-ttu-id="0afdb-111">混合牌照接收是同时为多个行/物料登记和创建工作的移动设备接收流。</span><span class="sxs-lookup"><span data-stu-id="0afdb-111">Mixed license plate receiving is a mobile device receiving flow to register and create work for multiple lines/items at the same time.</span></span> <span data-ttu-id="0afdb-112">这在您收到具有多个物料的传入牌照时很有用。</span><span class="sxs-lookup"><span data-stu-id="0afdb-112">This is useful if you receive inbound license plates with multiple items.</span></span> 
 
-## <a name="how-to-set-up-mixed-license-plate-receiving"></a><span data-ttu-id="83ce9-113">如何设置混合牌照接收</span><span class="sxs-lookup"><span data-stu-id="83ce9-113">How to set up mixed license plate receiving</span></span>
-<span data-ttu-id="83ce9-114">混合牌照接收设置为移动设备菜单项。</span><span class="sxs-lookup"><span data-stu-id="83ce9-114">Mixed license plate receiving is set up as a mobile device menu item.</span></span>
+## <a name="how-to-set-up-mixed-license-plate-receiving"></a><span data-ttu-id="0afdb-113">如何设置混合牌照接收</span><span class="sxs-lookup"><span data-stu-id="0afdb-113">How to set up mixed license plate receiving</span></span>
+<span data-ttu-id="0afdb-114">混合牌照接收设置为移动设备菜单项。</span><span class="sxs-lookup"><span data-stu-id="0afdb-114">Mixed license plate receiving is set up as a mobile device menu item.</span></span>
 
-<span data-ttu-id="83ce9-115">您需要创建一个使用模式工作的新菜单项，其不使用现有工作，且使用以下其中一种方法：</span><span class="sxs-lookup"><span data-stu-id="83ce9-115">You need to create a new menu item with mode work that does not use existing work and use one of the following methods:</span></span>
+<span data-ttu-id="0afdb-115">您需要创建一个使用模式工作的新菜单项，其不使用现有工作，且使用以下其中一种方法：</span><span class="sxs-lookup"><span data-stu-id="0afdb-115">You need to create a new menu item with mode work that does not use existing work and use one of the following methods:</span></span>
 
-- <span data-ttu-id="83ce9-116">正在接收混合牌照</span><span class="sxs-lookup"><span data-stu-id="83ce9-116">Mixed license plate receiving</span></span>
-- <span data-ttu-id="83ce9-117">混合牌照接收和储存</span><span class="sxs-lookup"><span data-stu-id="83ce9-117">Mixed license plate receiving and put away</span></span>
+- <span data-ttu-id="0afdb-116">正在接收混合牌照</span><span class="sxs-lookup"><span data-stu-id="0afdb-116">Mixed license plate receiving</span></span>
+- <span data-ttu-id="0afdb-117">混合牌照接收和储存</span><span class="sxs-lookup"><span data-stu-id="0afdb-117">Mixed license plate receiving and put away</span></span>
 
-<span data-ttu-id="83ce9-118">用于标识原始凭证行的选项为采购订单物料、采购订单行、退货订单、转移单物料和转移单行。</span><span class="sxs-lookup"><span data-stu-id="83ce9-118">The options to identify the source document lines are purchase order item, purchase order line, return order, transfer order item, and transfer order line.</span></span> <span data-ttu-id="83ce9-119">这些选项可以更改对单个牌照的接收单。</span><span class="sxs-lookup"><span data-stu-id="83ce9-119">These options can change the receiving order on a single license plate.</span></span> <span data-ttu-id="83ce9-120">最后一个选项是按加载物料。</span><span class="sxs-lookup"><span data-stu-id="83ce9-120">The last option is by load item.</span></span> <span data-ttu-id="83ce9-121">您可以将多个物料添加到牌照，但不能在多个负荷之间切换。</span><span class="sxs-lookup"><span data-stu-id="83ce9-121">You can add multiple items to a license plate, but you cannot switch between multiple loads.</span></span>
+<span data-ttu-id="0afdb-118">用于标识原始凭证行的选项为采购订单物料、采购订单行、退货订单、转移单物料和转移单行。</span><span class="sxs-lookup"><span data-stu-id="0afdb-118">The options to identify the source document lines are purchase order item, purchase order line, return order, transfer order item, and transfer order line.</span></span> <span data-ttu-id="0afdb-119">这些选项可以更改对单个牌照的接收单。</span><span class="sxs-lookup"><span data-stu-id="0afdb-119">These options can change the receiving order on a single license plate.</span></span> <span data-ttu-id="0afdb-120">最后一个选项是按加载物料。</span><span class="sxs-lookup"><span data-stu-id="0afdb-120">The last option is by load item.</span></span> <span data-ttu-id="0afdb-121">您可以将多个物料添加到牌照，但不能在多个负荷之间切换。</span><span class="sxs-lookup"><span data-stu-id="0afdb-121">You can add multiple items to a license plate, but you cannot switch between multiple loads.</span></span>

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,41 +18,41 @@ ms.search.industry: ''
 ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 20c038d0d4fe8ec3e07219862f98aef970882f26
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 7f5435a97776b817a4b99887cbab8283de25b692
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985237"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014850"
 ---
-# <a name="integrated-ledger"></a><span data-ttu-id="34733-103">集成的分类账</span><span class="sxs-lookup"><span data-stu-id="34733-103">Integrated ledger</span></span>
+# <a name="integrated-ledger"></a><span data-ttu-id="33f49-103">集成的分类账</span><span class="sxs-lookup"><span data-stu-id="33f49-103">Integrated ledger</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-<span data-ttu-id="34733-104">在业务应用程序中，分类帐数据定义公司如何开展业务的核心设置。</span><span class="sxs-lookup"><span data-stu-id="34733-104">In a business application, ledger data defines the core set up for how a company does business.</span></span> <span data-ttu-id="34733-105">例如，分类帐数据描述公司遵循的会计年度、交易所用的货币以及所使用的帐户。</span><span class="sxs-lookup"><span data-stu-id="34733-105">For example, ledger data describes the fiscal year the company follows, the currencies it transacts in, and the accounts it uses.</span></span> <span data-ttu-id="34733-106">本主题介绍此核心财务数据的集成。</span><span class="sxs-lookup"><span data-stu-id="34733-106">This topic describes the integration of this core financial data.</span></span>
+<span data-ttu-id="33f49-104">在业务应用程序中，分类帐数据定义公司如何开展业务的核心设置。</span><span class="sxs-lookup"><span data-stu-id="33f49-104">In a business application, ledger data defines the core set up for how a company does business.</span></span> <span data-ttu-id="33f49-105">例如，分类帐数据描述公司遵循的会计年度、交易所用的货币以及所使用的帐户。</span><span class="sxs-lookup"><span data-stu-id="33f49-105">For example, ledger data describes the fiscal year the company follows, the currencies it transacts in, and the accounts it uses.</span></span> <span data-ttu-id="33f49-106">本主题介绍此核心财务数据的集成。</span><span class="sxs-lookup"><span data-stu-id="33f49-106">This topic describes the integration of this core financial data.</span></span>
 
-## <a name="templates"></a><span data-ttu-id="34733-107">模板</span><span class="sxs-lookup"><span data-stu-id="34733-107">Templates</span></span>
+## <a name="templates"></a><span data-ttu-id="33f49-107">模板</span><span class="sxs-lookup"><span data-stu-id="33f49-107">Templates</span></span>
 
-<span data-ttu-id="34733-108">分类帐数据包括核心财务实体映射的集合，这些映射在数据交互期间协同工作，如下表所示。</span><span class="sxs-lookup"><span data-stu-id="34733-108">Ledger data includes a collection of core financial entity maps that work together during data interaction, as shown in the following table.</span></span>
+<span data-ttu-id="33f49-108">分类帐数据包括核心财务实体映射的集合，这些映射在数据交互期间协同工作，如下表所示。</span><span class="sxs-lookup"><span data-stu-id="33f49-108">Ledger data includes a collection of core financial entity maps that work together during data interaction, as shown in the following table.</span></span>
 
-<span data-ttu-id="34733-109">Finance and Operations 应用</span><span class="sxs-lookup"><span data-stu-id="34733-109">Finance and Operations apps</span></span>      | <span data-ttu-id="34733-110">Dynamics 365 中的模型驱动应用</span><span class="sxs-lookup"><span data-stu-id="34733-110">Model-driven app in Dynamics 365</span></span> | <span data-ttu-id="34733-111">说明</span><span class="sxs-lookup"><span data-stu-id="34733-111">Description</span></span>
+<span data-ttu-id="33f49-109">Finance and Operations 应用</span><span class="sxs-lookup"><span data-stu-id="33f49-109">Finance and Operations apps</span></span>      | <span data-ttu-id="33f49-110">Dynamics 365 中的模型驱动应用</span><span class="sxs-lookup"><span data-stu-id="33f49-110">Model-driven app in Dynamics 365</span></span> | <span data-ttu-id="33f49-111">说明</span><span class="sxs-lookup"><span data-stu-id="33f49-111">Description</span></span>
 ---------------------------------|----------------------------------|------------
-<span data-ttu-id="34733-112">币种</span><span class="sxs-lookup"><span data-stu-id="34733-112">Currencies</span></span>                       | <span data-ttu-id="34733-113">transactioncurrencies</span><span class="sxs-lookup"><span data-stu-id="34733-113">transactioncurrencies</span></span>            |
-<span data-ttu-id="34733-114">FiscalCalendar</span><span class="sxs-lookup"><span data-stu-id="34733-114">FiscalCalendar</span></span>                   | <span data-ttu-id="34733-115">msdyn\_fiscalcalendars</span><span class="sxs-lookup"><span data-stu-id="34733-115">msdyn\_fiscalcalendars</span></span>        |
-<span data-ttu-id="34733-116">FiscalCalendarYear</span><span class="sxs-lookup"><span data-stu-id="34733-116">FiscalCalendarYear</span></span>               | <span data-ttu-id="34733-117">msdyn\_fiscalcalendaryears</span><span class="sxs-lookup"><span data-stu-id="34733-117">msdyn\_fiscalcalendaryears</span></span>        |
-<span data-ttu-id="34733-118">ExchRateType</span><span class="sxs-lookup"><span data-stu-id="34733-118">ExchRateType</span></span>                     | <span data-ttu-id="34733-119">msdyn\_exchangeratetypes</span><span class="sxs-lookup"><span data-stu-id="34733-119">msdyn\_exchangeratetypes</span></span>        |
-<span data-ttu-id="34733-120">ExchangeRateCurrencyPair</span><span class="sxs-lookup"><span data-stu-id="34733-120">ExchangeRateCurrencyPair</span></span>         | <span data-ttu-id="34733-121">msdyn\_currencyexchangeratepairs</span><span class="sxs-lookup"><span data-stu-id="34733-121">msdyn\_currencyexchangeratepairs</span></span>        |
-<span data-ttu-id="34733-122">FiscalPeriodEntity</span><span class="sxs-lookup"><span data-stu-id="34733-122">FiscalPeriodEntity</span></span>               | <span data-ttu-id="34733-123">msdyn\_fiscalcalendarperiods</span><span class="sxs-lookup"><span data-stu-id="34733-123">msdyn\_fiscalcalendarperiods</span></span>        |
-<span data-ttu-id="34733-124">MainAccountCategory</span><span class="sxs-lookup"><span data-stu-id="34733-124">MainAccountCategory</span></span>              | <span data-ttu-id="34733-125">msdyn\_mainaccountcategory</span><span class="sxs-lookup"><span data-stu-id="34733-125">msdyn\_mainaccountcategory</span></span>        |
-<span data-ttu-id="34733-126">主科目</span><span class="sxs-lookup"><span data-stu-id="34733-126">MainAccount</span></span>                      | <span data-ttu-id="34733-127">msdyn\_mainaccounts</span><span class="sxs-lookup"><span data-stu-id="34733-127">msdyn\_mainaccounts</span></span>        |
-<span data-ttu-id="34733-128">分类帐</span><span class="sxs-lookup"><span data-stu-id="34733-128">Ledger</span></span>                           | <span data-ttu-id="34733-129">msdyn\_ledgers</span><span class="sxs-lookup"><span data-stu-id="34733-129">msdyn\_ledgers</span></span>        |
-<span data-ttu-id="34733-130">ExchangeRates</span><span class="sxs-lookup"><span data-stu-id="34733-130">ExchangeRates</span></span>                    | <span data-ttu-id="34733-131">msdyn\_currencyexchangerates</span><span class="sxs-lookup"><span data-stu-id="34733-131">msdyn\_currencyexchangerates</span></span>        |
-<span data-ttu-id="34733-132">FinancialCalendarPeriod</span><span class="sxs-lookup"><span data-stu-id="34733-132">FinancialCalendarPeriod</span></span>          | <span data-ttu-id="34733-133">msdyn\_fiscalcalendarperiods</span><span class="sxs-lookup"><span data-stu-id="34733-133">msdyn\_fiscalcalendarperiods</span></span>        |
-<span data-ttu-id="34733-134">DimensionAttributeEntity</span><span class="sxs-lookup"><span data-stu-id="34733-134">DimensionAttributeEntity</span></span>         | <span data-ttu-id="34733-135">msdyn\_dimensionattributes</span><span class="sxs-lookup"><span data-stu-id="34733-135">msdyn\_dimensionattributes</span></span>        |
-<span data-ttu-id="34733-136">DimensionIntegrationFormatEntity</span><span class="sxs-lookup"><span data-stu-id="34733-136">DimensionIntegrationFormatEntity</span></span> | <span data-ttu-id="34733-137">msdyn\_financialdimensionformats</span><span class="sxs-lookup"><span data-stu-id="34733-137">msdyn\_financialdimensionformats</span></span>        |
-<span data-ttu-id="34733-138">LedgerChartOfAccounts</span><span class="sxs-lookup"><span data-stu-id="34733-138">LedgerChartOfAccounts</span></span>            | <span data-ttu-id="34733-139">msdyn\_chartofaccounts</span><span class="sxs-lookup"><span data-stu-id="34733-139">msdyn\_chartofaccounts</span></span>        |
+<span data-ttu-id="33f49-112">币种</span><span class="sxs-lookup"><span data-stu-id="33f49-112">Currencies</span></span>                       | <span data-ttu-id="33f49-113">transactioncurrencies</span><span class="sxs-lookup"><span data-stu-id="33f49-113">transactioncurrencies</span></span>            |
+<span data-ttu-id="33f49-114">FiscalCalendar</span><span class="sxs-lookup"><span data-stu-id="33f49-114">FiscalCalendar</span></span>                   | <span data-ttu-id="33f49-115">msdyn\_fiscalcalendars</span><span class="sxs-lookup"><span data-stu-id="33f49-115">msdyn\_fiscalcalendars</span></span>        |
+<span data-ttu-id="33f49-116">FiscalCalendarYear</span><span class="sxs-lookup"><span data-stu-id="33f49-116">FiscalCalendarYear</span></span>               | <span data-ttu-id="33f49-117">msdyn\_fiscalcalendaryears</span><span class="sxs-lookup"><span data-stu-id="33f49-117">msdyn\_fiscalcalendaryears</span></span>        |
+<span data-ttu-id="33f49-118">ExchRateType</span><span class="sxs-lookup"><span data-stu-id="33f49-118">ExchRateType</span></span>                     | <span data-ttu-id="33f49-119">msdyn\_exchangeratetypes</span><span class="sxs-lookup"><span data-stu-id="33f49-119">msdyn\_exchangeratetypes</span></span>        |
+<span data-ttu-id="33f49-120">ExchangeRateCurrencyPair</span><span class="sxs-lookup"><span data-stu-id="33f49-120">ExchangeRateCurrencyPair</span></span>         | <span data-ttu-id="33f49-121">msdyn\_currencyexchangeratepairs</span><span class="sxs-lookup"><span data-stu-id="33f49-121">msdyn\_currencyexchangeratepairs</span></span>        |
+<span data-ttu-id="33f49-122">FiscalPeriodEntity</span><span class="sxs-lookup"><span data-stu-id="33f49-122">FiscalPeriodEntity</span></span>               | <span data-ttu-id="33f49-123">msdyn\_fiscalcalendarperiods</span><span class="sxs-lookup"><span data-stu-id="33f49-123">msdyn\_fiscalcalendarperiods</span></span>        |
+<span data-ttu-id="33f49-124">MainAccountCategory</span><span class="sxs-lookup"><span data-stu-id="33f49-124">MainAccountCategory</span></span>              | <span data-ttu-id="33f49-125">msdyn\_mainaccountcategory</span><span class="sxs-lookup"><span data-stu-id="33f49-125">msdyn\_mainaccountcategory</span></span>        |
+<span data-ttu-id="33f49-126">主科目</span><span class="sxs-lookup"><span data-stu-id="33f49-126">MainAccount</span></span>                      | <span data-ttu-id="33f49-127">msdyn\_mainaccounts</span><span class="sxs-lookup"><span data-stu-id="33f49-127">msdyn\_mainaccounts</span></span>        |
+<span data-ttu-id="33f49-128">分类帐</span><span class="sxs-lookup"><span data-stu-id="33f49-128">Ledger</span></span>                           | <span data-ttu-id="33f49-129">msdyn\_ledgers</span><span class="sxs-lookup"><span data-stu-id="33f49-129">msdyn\_ledgers</span></span>        |
+<span data-ttu-id="33f49-130">ExchangeRates</span><span class="sxs-lookup"><span data-stu-id="33f49-130">ExchangeRates</span></span>                    | <span data-ttu-id="33f49-131">msdyn\_currencyexchangerates</span><span class="sxs-lookup"><span data-stu-id="33f49-131">msdyn\_currencyexchangerates</span></span>        |
+<span data-ttu-id="33f49-132">FinancialCalendarPeriod</span><span class="sxs-lookup"><span data-stu-id="33f49-132">FinancialCalendarPeriod</span></span>          | <span data-ttu-id="33f49-133">msdyn\_fiscalcalendarperiods</span><span class="sxs-lookup"><span data-stu-id="33f49-133">msdyn\_fiscalcalendarperiods</span></span>        |
+<span data-ttu-id="33f49-134">DimensionAttributeEntity</span><span class="sxs-lookup"><span data-stu-id="33f49-134">DimensionAttributeEntity</span></span>         | <span data-ttu-id="33f49-135">msdyn\_dimensionattributes</span><span class="sxs-lookup"><span data-stu-id="33f49-135">msdyn\_dimensionattributes</span></span>        |
+<span data-ttu-id="33f49-136">DimensionIntegrationFormatEntity</span><span class="sxs-lookup"><span data-stu-id="33f49-136">DimensionIntegrationFormatEntity</span></span> | <span data-ttu-id="33f49-137">msdyn\_financialdimensionformats</span><span class="sxs-lookup"><span data-stu-id="33f49-137">msdyn\_financialdimensionformats</span></span>        |
+<span data-ttu-id="33f49-138">LedgerChartOfAccounts</span><span class="sxs-lookup"><span data-stu-id="33f49-138">LedgerChartOfAccounts</span></span>            | <span data-ttu-id="33f49-139">msdyn\_chartofaccounts</span><span class="sxs-lookup"><span data-stu-id="33f49-139">msdyn\_chartofaccounts</span></span>        |
 
 
 [!include [banner](../../includes/dual-write-symbols.md)]
@@ -67,8 +66,6 @@ ms.locfileid: "3985237"
 [!include [Exchange rate types](includes/ExchRateType-msdyn-exchangeratetypes.md)]
 
 [!include [Exchange rate pair](includes/ExchangeRateCurrencyPair-msdyn-currencyexchangeratepairs.md)]
-
-[!include [Ledger fiscal periods](includes/FiscalPeriodEntity-msdyn-fiscalcalendarperiods.md)]
 
 [!include [Main account category](includes/MainAccountCategory-msdyn-mainaccountcategory.md)]
 

@@ -17,42 +17,42 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4ec10e0f79e4eca7f51ba48c679dcf6fe745eb29
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: dce2fdd9d91c2bd867f0455573733aefb0796fa7
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141422"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107344"
 ---
-# <a name="create-call-center-orders"></a><span data-ttu-id="e6849-103">创建呼叫中心订单</span><span class="sxs-lookup"><span data-stu-id="e6849-103">Create call center orders</span></span>
+# <a name="create-call-center-orders"></a><span data-ttu-id="dd940-103">创建呼叫中心订单</span><span class="sxs-lookup"><span data-stu-id="dd940-103">Create call center orders</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e6849-104">此程序会逐步演示如何查找客户，创建新订单，检索产品和收取客户的付款。</span><span class="sxs-lookup"><span data-stu-id="e6849-104">This procedure walks through looking up a customer, creating a new order, searching for a product, and collecting payment from the customer.</span></span> <span data-ttu-id="e6849-105">此程序使用演示数据公司 USRT，旨在供销售订单职员使用。</span><span class="sxs-lookup"><span data-stu-id="e6849-105">This procedure uses demo data company USRT and is intended for the Sales Order Clerk.</span></span> <span data-ttu-id="e6849-106">先决条件：完成此过程的用户被设置为呼叫中心用户，并且使用至少一个源代码发布 Fabrikam 半年目录。</span><span class="sxs-lookup"><span data-stu-id="e6849-106">Pre-requisites:  The user who completes the procedure is set up as a Call center user and the Fabrikam Semi-Annual Catalog is published with at least one Source code on it.</span></span>
+<span data-ttu-id="dd940-104">此程序会逐步演示如何查找客户，创建新订单，检索产品和收取客户的付款。</span><span class="sxs-lookup"><span data-stu-id="dd940-104">This procedure walks through looking up a customer, creating a new order, searching for a product, and collecting payment from the customer.</span></span> <span data-ttu-id="dd940-105">此程序使用演示数据公司 USRT，旨在供销售订单职员使用。</span><span class="sxs-lookup"><span data-stu-id="dd940-105">This procedure uses demo data company USRT and is intended for the Sales Order Clerk.</span></span> <span data-ttu-id="dd940-106">先决条件：完成此过程的用户被设置为呼叫中心用户，并且使用至少一个源代码发布 Fabrikam 半年目录。</span><span class="sxs-lookup"><span data-stu-id="dd940-106">Pre-requisites:  The user who completes the procedure is set up as a Call center user and the Fabrikam Semi-Annual Catalog is published with at least one Source code on it.</span></span>
 
-1. <span data-ttu-id="e6849-107">转至“Retail 和 Commerce”>“客户”>“客户服务”。</span><span class="sxs-lookup"><span data-stu-id="e6849-107">Go to Retail and Commerce > Customers > Customer service.</span></span>
-2. <span data-ttu-id="e6849-108">在 SearchText 字段中，输入检索条件以查找客户。</span><span class="sxs-lookup"><span data-stu-id="e6849-108">In the SearchText field, enter the search criteria to look up the customer.</span></span>
-    * <span data-ttu-id="e6849-109">对于此示例程序，键入“Karen”，然后按下选项卡。</span><span class="sxs-lookup"><span data-stu-id="e6849-109">For this example procedure type in 'karen' and press tab.</span></span>  
-3. <span data-ttu-id="e6849-110">单击“搜索”。</span><span class="sxs-lookup"><span data-stu-id="e6849-110">Click Search.</span></span>
-    * <span data-ttu-id="e6849-111">由于演示数据中仅有一名客户的姓名是 Karen，因此它们将被自动选中。</span><span class="sxs-lookup"><span data-stu-id="e6849-111">Since there is only one customer named Karen in demo data they will be automatically selected.</span></span>  
-4. <span data-ttu-id="e6849-112">单击“新建销售订单”。</span><span class="sxs-lookup"><span data-stu-id="e6849-112">Click New sales order.</span></span>
-5. <span data-ttu-id="e6849-113">扩展或折叠“销售订单标题”部分。</span><span class="sxs-lookup"><span data-stu-id="e6849-113">Expand or collapse the Sales order header section.</span></span>
-6. <span data-ttu-id="e6849-114">选择目录的源代码。</span><span class="sxs-lookup"><span data-stu-id="e6849-114">Select the source code for the catalog.</span></span>
-    * <span data-ttu-id="e6849-115">如果没有活动源代码，您可以关闭源字段并跳过此步骤。</span><span class="sxs-lookup"><span data-stu-id="e6849-115">If there are no active Source codes you can close the Source field and skip this step.</span></span>  
-7. <span data-ttu-id="e6849-116">单击“添加行”。</span><span class="sxs-lookup"><span data-stu-id="e6849-116">Click Add line.</span></span>
-8. <span data-ttu-id="e6849-117">在“物料编号”字段中，输入物料搜索词。</span><span class="sxs-lookup"><span data-stu-id="e6849-117">In the Item number field, enter the item search term.</span></span>
-    * <span data-ttu-id="e6849-118">对于此示例过程，输入部分物料编号“8111”并按下选项卡。这将弹出物料检索窗口。</span><span class="sxs-lookup"><span data-stu-id="e6849-118">For this sample procedure enter a partial item number of '8111' and press tab. This will pop up the item search window.</span></span>  
-9. <span data-ttu-id="e6849-119">选择产品以添加到销售订单</span><span class="sxs-lookup"><span data-stu-id="e6849-119">Select the product to add to the sales order</span></span>
-10. <span data-ttu-id="e6849-120">输入销售数量。</span><span class="sxs-lookup"><span data-stu-id="e6849-120">Enter the sales quantity.</span></span>
-11. <span data-ttu-id="e6849-121">单击“创建”。</span><span class="sxs-lookup"><span data-stu-id="e6849-121">Click Create.</span></span>
-12. <span data-ttu-id="e6849-122">单击“完成”以获取客户付款。</span><span class="sxs-lookup"><span data-stu-id="e6849-122">Click Complete to capture the customer payment.</span></span>
-13. <span data-ttu-id="e6849-123">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="e6849-123">Click Add.</span></span>
-    * <span data-ttu-id="e6849-124">“添加”链接位于“付款”选项卡中。如果重叠，则扩展“付款”选项卡。</span><span class="sxs-lookup"><span data-stu-id="e6849-124">The Add link is in the Payments tab. Expand the Payments tab if it is collapsed.</span></span>  
-14. <span data-ttu-id="e6849-125">选择付款方式。</span><span class="sxs-lookup"><span data-stu-id="e6849-125">Select the payment method.</span></span>
-    * <span data-ttu-id="e6849-126">对于此程序，选择现金付款方法。</span><span class="sxs-lookup"><span data-stu-id="e6849-126">For this procedure, select the cash payment method.</span></span>  
-15. <span data-ttu-id="e6849-127">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="e6849-127">Close the page.</span></span>
-16. <span data-ttu-id="e6849-128">输入金额。</span><span class="sxs-lookup"><span data-stu-id="e6849-128">Enter the amount.</span></span>
-    * <span data-ttu-id="e6849-129">对于此程序，输入与订单余额相等的金额，订单余额可在“销售订单摘要”页面的金额字段左侧看到。</span><span class="sxs-lookup"><span data-stu-id="e6849-129">For this procedure enter an amount equal to the order balance which can be seen in the Sales order summary page to the left of the amount field.</span></span> <span data-ttu-id="e6849-130">这将允许您以全部付讫形式完成订单。</span><span class="sxs-lookup"><span data-stu-id="e6849-130">This will allow you to complete the order as fully paid.</span></span>  
-17. <span data-ttu-id="e6849-131">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="e6849-131">Click OK.</span></span>
-18. <span data-ttu-id="e6849-132">单击“提交”。</span><span class="sxs-lookup"><span data-stu-id="e6849-132">Click Submit.</span></span>
+1. <span data-ttu-id="dd940-107">转到 **Retail 和 Commerce \> 客户 \> 客户服务** 。</span><span class="sxs-lookup"><span data-stu-id="dd940-107">Go to **Retail and Commerce \> Customers \> Customer service**.</span></span>
+2. <span data-ttu-id="dd940-108">对于 **SearchText** ，输入搜索条件以查找客户。</span><span class="sxs-lookup"><span data-stu-id="dd940-108">For **SearchText** , enter the search criteria to look up the customer.</span></span>
+    * <span data-ttu-id="dd940-109">对于此示例过程，输入“Karen”，然后选择 **选项卡** 。</span><span class="sxs-lookup"><span data-stu-id="dd940-109">For this example procedure, enter "Karen" and select **Tab**.</span></span>  
+3. <span data-ttu-id="dd940-110">选择搜索。</span><span class="sxs-lookup"><span data-stu-id="dd940-110">Select Search.</span></span>
+    * <span data-ttu-id="dd940-111">由于演示数据中仅有一名客户的姓名是“Karen”，因此将自动选中。</span><span class="sxs-lookup"><span data-stu-id="dd940-111">Since there is only one customer named "Karen" in demo data, the result will be automatically selected.</span></span>  
+4. <span data-ttu-id="dd940-112">选择 **新建销售订单** 。</span><span class="sxs-lookup"><span data-stu-id="dd940-112">Select **New sales order**.</span></span>
+5. <span data-ttu-id="dd940-113">展开或折叠 **销售订单** 标题部分。</span><span class="sxs-lookup"><span data-stu-id="dd940-113">Expand or collapse the **Sales order** header section.</span></span>
+6. <span data-ttu-id="dd940-114">选择目录的源代码。</span><span class="sxs-lookup"><span data-stu-id="dd940-114">Select the source code for the catalog.</span></span>
+    * <span data-ttu-id="dd940-115">如果没有活动源代码，您可以跳过此步骤。</span><span class="sxs-lookup"><span data-stu-id="dd940-115">If there are no active source codes you can skip this step.</span></span>  
+7. <span data-ttu-id="dd940-116">选择 **添加行** 。</span><span class="sxs-lookup"><span data-stu-id="dd940-116">Select **Add line**.</span></span>
+8. <span data-ttu-id="dd940-117">对于 **物料编号** ，输入物料搜索词。</span><span class="sxs-lookup"><span data-stu-id="dd940-117">For **Item number** , enter the item search term.</span></span>
+    * <span data-ttu-id="dd940-118">对于此示例过程，输入部分物料编号“8111”并按下选项卡。此操作将显示物料搜索窗口。</span><span class="sxs-lookup"><span data-stu-id="dd940-118">For this sample procedure, enter a partial item number of '8111' and press tab. This action will bring up the item search window.</span></span>  
+9. <span data-ttu-id="dd940-119">选择要添加到销售订单的产品。</span><span class="sxs-lookup"><span data-stu-id="dd940-119">Select the product to add to the sales order.</span></span>
+10. <span data-ttu-id="dd940-120">输入销售数量。</span><span class="sxs-lookup"><span data-stu-id="dd940-120">Enter the sales quantity.</span></span>
+11. <span data-ttu-id="dd940-121">选择 **创建** 。</span><span class="sxs-lookup"><span data-stu-id="dd940-121">Select **Create**.</span></span>
+12. <span data-ttu-id="dd940-122">选择 **完成** 以捕获客户付款。</span><span class="sxs-lookup"><span data-stu-id="dd940-122">Select **Complete** to capture the customer payment.</span></span>
+13. <span data-ttu-id="dd940-123">选择 **添加** 。</span><span class="sxs-lookup"><span data-stu-id="dd940-123">Select **Add**.</span></span>
+    * <span data-ttu-id="dd940-124">“添加”链接位于“付款”选项卡中。如果重叠，则扩展“付款”选项卡。</span><span class="sxs-lookup"><span data-stu-id="dd940-124">The Add link is in the Payments tab. Expand the Payments tab if it is collapsed.</span></span>  
+14. <span data-ttu-id="dd940-125">选择付款方式。</span><span class="sxs-lookup"><span data-stu-id="dd940-125">Select the payment method.</span></span>
+    * <span data-ttu-id="dd940-126">对于此程序，选择现金付款方法。</span><span class="sxs-lookup"><span data-stu-id="dd940-126">For this procedure, select the cash payment method.</span></span>  
+15. <span data-ttu-id="dd940-127">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="dd940-127">Close the page.</span></span>
+16. <span data-ttu-id="dd940-128">输入金额。</span><span class="sxs-lookup"><span data-stu-id="dd940-128">Enter the amount.</span></span>
+    * <span data-ttu-id="dd940-129">对于此过程，输入与订单余额相等的金额，可在“销售订单摘要”页面的金额字段左侧看到订单余额。</span><span class="sxs-lookup"><span data-stu-id="dd940-129">For this procedure, enter an amount equal to the order balance that can be seen in the Sales order summary page to the left of the amount field.</span></span> <span data-ttu-id="dd940-130">此操作将允许您以全额付清形式完成订单。</span><span class="sxs-lookup"><span data-stu-id="dd940-130">This action will allow you to complete the order as fully paid.</span></span>  
+17. <span data-ttu-id="dd940-131">选择 **确定** 。</span><span class="sxs-lookup"><span data-stu-id="dd940-131">Select **OK**.</span></span>
+18. <span data-ttu-id="dd940-132">选择 **提交** 。</span><span class="sxs-lookup"><span data-stu-id="dd940-132">Select **Submit**.</span></span>
 
