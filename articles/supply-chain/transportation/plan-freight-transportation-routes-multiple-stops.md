@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
+ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate, TMSRouteSchedule, TMSRouteRateDetail
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b76a6530517ec9e2e513cda7477f271558632650
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 04346363070fff4dc3110a620c3d9bc9b1016d1e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206257"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017843"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>计划具有多个停止点的货运运输路线
 
@@ -43,10 +43,10 @@ ms.locfileid: "3206257"
 每个路线计划必须与路线指南关联。
 
 ## <a name="route-guides"></a>路线指南
-路线指南定义将负荷与特定路线计划匹配的条件。 例如，您可以指定起始枢纽和目标枢纽，容器体积或重量限制，以及配送承运人、服务或组。 路线指南在**费率路线工作台**页面提供，在此页面上，负荷可以手动或自动与路线匹配。 如果路线指南针对计划路线，它也在**装载计划工作台**页提供。
+路线指南定义将负荷与特定路线计划匹配的条件。 例如，您可以指定起始枢纽和目标枢纽，容器体积或重量限制，以及配送承运人、服务或组。 路线指南在 **费率路线工作台** 页面提供，在此页面上，负荷可以手动或自动与路线匹配。 如果路线指南针对计划路线，它也在 **装载计划工作台** 页提供。
 
 ## <a name="scheduled-routes"></a>计划的路线
-计划路线是具有装运日期计划的预定义路线计划。 计划路线和非计划路线在负荷分配的方式方面不同。 如果通过使用费率路线工作台分配非计划路线，则仅负荷和路线指南进行验证。 如果分配计划路线，还考虑订单和枢纽的日期和地址，以及路线计划的日期。 您不必使用费率路线工作台页面手动将负荷分配到计划路线。 相反，可以使用装载计划工作台建议基于给定计划路线的销售订单的客户地址和交货日期构建。 对于计划路线，路线计划将具有固定的起始和目标枢纽。 通常情况下，装运承运人和服务对所有段将是相同的，但它们可以有区别。 目标枢纽使用在路线访问的客户的邮政编码创建。 可以为一个路线计划定义几种路线计划。 路线计划必须与路线指南关联。 不过，对于计划路线，计划可只与一个路线指南关联。 路线计划只能用于在**路线计划**页创建实际路线。 在装载计划工作台建议负荷时，可以使用默认的负荷模板。
+计划路线是具有装运日期计划的预定义路线计划。 计划路线和非计划路线在负荷分配的方式方面不同。 如果通过使用费率路线工作台分配非计划路线，则仅负荷和路线指南进行验证。 如果分配计划路线，还考虑订单和枢纽的日期和地址，以及路线计划的日期。 您不必使用费率路线工作台页面手动将负荷分配到计划路线。 相反，可以使用装载计划工作台建议基于给定计划路线的销售订单的客户地址和交货日期构建。 对于计划路线，路线计划将具有固定的起始和目标枢纽。 通常情况下，装运承运人和服务对所有段将是相同的，但它们可以有区别。 目标枢纽使用在路线访问的客户的邮政编码创建。 可以为一个路线计划定义几种路线计划。 路线计划必须与路线指南关联。 不过，对于计划路线，计划可只与一个路线指南关联。 路线计划只能用于在 **路线计划** 页创建实际路线。 在装载计划工作台建议负荷时，可以使用默认的负荷模板。
 
 ## <a name="load-building-workbench"></a>装载计划工作台
 装载计划工作台使用销售订单的客户地址和交货日期以及可用的计划路线建议负荷。 默认情况下，在工作台上输入路线的值。 但是，您可以选择早于路线上的“起始”日期的“起始”日期。 当建议负荷时，将检查所有未结销售订单的交货地址和交货日期。 如果交货地址的邮政编码与路线计划中的枢纽邮政编码匹配，且如果交货日期是在条件中选择的范围内，将为负荷建议销售订单。 此外还考虑负荷模板的产能。 一次只建议一个负荷。 如果您有不包含的销售订单，您可能必须使用不同的负荷模板（例如，更大的卡车或集装箱的负荷模板），或者计划额外交货。

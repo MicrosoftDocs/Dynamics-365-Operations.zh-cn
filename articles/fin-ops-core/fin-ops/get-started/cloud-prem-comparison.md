@@ -3,7 +3,7 @@ title: 比较云和本地功能
 description: 此主题显示在云和本地支持的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 03/04/2020
+ms.date: 10/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 50ab5827f864b53137acb77e75055e995ea6f439
-ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
+ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "3100274"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040091"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>云和本地功能的比较
 
@@ -58,10 +58,10 @@ ms.locfileid: "3100274"
 |                                      | ER：与 LCS 的集成                                                                  | 是       | 否              |
 |                                      | ER：与 SharePoint 的集成                                                           | 是       | 否              |
 |                                      | ER：与监管配置服务 (RCS) 的集成                              | 是       | 否              |
-|                                      | ER：将本地文件系统用作可通过 ER 存储库访问的 ER 配置的存储 | 否        | 是             |
-|                                      | 与 PowerBI.com 集成                                                              | 是       | 否              |
-|                                      | 与 PowerBI Desktop 的集成                                                          | 否        | 是             |
-|                                      | 分析工作区                                                                     | 是       | 否              |
+|                                      | ER：将本地文件系统用作可通过 ER 存储库访问的 ER 配置的存储 | 无        | 是             |
+|                                      | 与 PowerBI.com 集成                                                              | 是       | 无              |
+|                                      | 与 PowerBI Desktop 集成                                                          | 无        | 是             |
+|                                      | 分析工作区                                                                     | 是       | 无              |
 |                                      | 智能业务流程：建议                                             | 是       | 无              |
 |                                      | 使用 Power BI 桌面或 Excel PowerQuery 工具创作具有 OData 的 Power BI 报表    | 是       | 无              |
 |                                      | SQL Server Reporting Services (SSRS) 支持缩放                                 | 是       | 否              |
@@ -81,12 +81,13 @@ ms.locfileid: "3100274"
 |                                      | 任务录制器 - 从 BPM 库保存或加载任务录制                         | 是       | 无              |
 | 支持                              |                                                                                           | 是       | 是             |
 |                                      | 通过“帮助和支持”菜单访问支持                                             | 是       | 否              |
-|                                      | 业务事件                                                                           | 是       | 是（需要 Internet 连接，或必须为内联网中的发送/接收业务事件实施自定义终结点）              |
+|                                      | 业务事件                                                                           | 是       | 是（需要 Internet 连接，或必须实施自定义终结点以在 Intranet 中发送/接收业务事件）              |
 
 ## <a name="dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 
 
-| **面积**                | **功能**             | **云** | **本地** |
+| **范围**                | **功能**             | **云** | **本地** |
 |-------------------------|-------------------|-----------|-----------------|
+| 资产管理                     |                                                                                           | 是       | 无 |
 | 符合性和证书        |                                                                                           | 是       | 是             |
 |                                      | SOC 1 类型 1 认证                                                                | 是       | 无              |
 | 成本核算                      |                                                                                           | 是       | 是             |
@@ -106,10 +107,10 @@ ms.locfileid: "3100274"
 |                                      | ER：与 LCS 的集成                                                                  | 是       | 否              |
 |                                      | ER：与 SharePoint 的集成                                                           | 是       | 否              |
 |                                      | ER：与监管配置服务 (RCS) 的集成                              | 是       | 否              |
-|                                      | ER：将本地文件系统用作可通过 ER 存储库访问的 ER 配置的存储 | 否        | 是             |
-|                                      | 与 PowerBI.com 集成                                                              | 是       | 否              |
-|                                      | 与 PowerBI Desktop 的集成                                                          | 否        | 是             |
-|                                      | 分析工作区                                                                     | 是       | 否              |
+|                                      | ER：将本地文件系统用作可通过 ER 存储库访问的 ER 配置的存储 | 无        | 是             |
+|                                      | 与 PowerBI.com 集成                                                              | 是       | 无              |
+|                                      | 与 PowerBI Desktop 集成                                                          | 无        | 是             |
+|                                      | 分析工作区                                                                     | 是       | 无              |
 |                                      | 智能业务流程：建议                                             | 是       | 无              |
 |                                      | 使用 Power BI 桌面或 Excel PowerQuery 工具创作具有 OData 的 Power BI 报表    | 是       | 无              |
 |                                      | SQL Server Reporting Services (SSRS) 支持缩放                                 | 是       | 无              |

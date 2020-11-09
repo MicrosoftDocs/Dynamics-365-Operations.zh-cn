@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench
+ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3d8a34195edbae7daf1a9db4e236aad33f98d08
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4affc5846ee329a4571d6fb3e0c42873387241ad
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201333"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016370"
 ---
 # <a name="transportation-management-overview"></a>运输管理概览
 
@@ -83,7 +83,7 @@ ms.locfileid: "3201333"
 ![计划和处理出站装载](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>装载计划
-Supply Chain Management 提供称作“基于容量的装载计划策略”的装载计划策略。 此策略允许您在装载模板上为高度和重量指定最大值，或您可以通过输入新的值来覆盖设置。 若要使用此策略，请在**装载计划工作台**页中**设置**快速选项卡上的**装载计划策略**字段中选择。 此外，可以在应用程序对象树 (AOT) 中创建新类添加您自己的负荷创建策略。
+Supply Chain Management 提供称作“基于容量的装载计划策略”的装载计划策略。 此策略允许您在装载模板上为高度和重量指定最大值，或您可以通过输入新的值来覆盖设置。 若要使用此策略，请在 **装载计划工作台** 页中 **设置** 快速选项卡上的 **装载计划策略** 字段中选择。 此外，可以在应用程序对象树 (AOT) 中创建新类添加您自己的负荷创建策略。
 
 
 

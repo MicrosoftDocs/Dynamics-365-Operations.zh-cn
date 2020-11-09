@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 20c038d0d4fe8ec3e07219862f98aef970882f26
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 7f5435a97776b817a4b99887cbab8283de25b692
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985237"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014850"
 ---
 # <a name="integrated-ledger"></a>集成的分类账
 
@@ -67,8 +66,6 @@ LedgerChartOfAccounts            | msdyn\_chartofaccounts        |
 [!include [Exchange rate types](includes/ExchRateType-msdyn-exchangeratetypes.md)]
 
 [!include [Exchange rate pair](includes/ExchangeRateCurrencyPair-msdyn-currencyexchangeratepairs.md)]
-
-[!include [Ledger fiscal periods](includes/FiscalPeriodEntity-msdyn-fiscalcalendarperiods.md)]
 
 [!include [Main account category](includes/MainAccountCategory-msdyn-mainaccountcategory.md)]
 

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 1ed97d7c388347eb5afe101f51173b6d48b18fcd
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: a2adf284111f2ccc9a830635ab3fb8f4731c84d9
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172915"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997568"
 ---
 # <a name="bootstrap-with-company-data-faq"></a>使用公司数据自扩展常见问题
  
@@ -37,7 +36,7 @@ ms.locfileid: "3172915"
 ## <a name="when-should-i-use-bootstrapping"></a>我什么时候应该使用自扩展？ 
 应在启用双写入实体映射之前（步骤 #5）使用自扩展。  
 1. 要在 Finance and Operations 应用的实例与 Common Data Service 或其他 Dynamics 365 应用之间设置双写入连接，请以管理员身份登录到 Finance and Operations 应用。 
-2. 转到**数据管理**模块，然后单击**双写入**按钮。 这将启动**数据集成器**。 
+2. 转到 **数据管理** 模块，然后单击 **双写入** 按钮。 这将启动 **数据集成器** 。 
 3. 为一个或多个公司创建双写入连接。  
     > [!div class="mx-imgBorder"]
     > ![创建双写入连接](media/dual-write-boot-1.png)
@@ -52,16 +51,16 @@ ms.locfileid: "3172915"
 ## <a name="how-to-i-use-the-code-sample"></a>如何使用代码示例？
 示例代码是一个 C# 应用程序，您可以在 Visual Studio 中加载它。 它获取 Common Data Service 上的 NuGet 包依赖项，您可以通过标准 Visual Studio 工具进行刷新。 
 
-解压缩并在 Visual Studio 中打开解决方案并还原 NuGet 包后，在代码中搜索 **TODO**。 **TODO** 指出了针对您要如何自扩展公司信息需要做的每个决策，以及用于规范实现的示例代码。 
+解压缩并在 Visual Studio 中打开解决方案并还原 NuGet 包后，在代码中搜索 **TODO** 。 **TODO** 指出了针对您要如何自扩展公司信息需要做的每个决策，以及用于规范实现的示例代码。 
 
 示例代码仅显示您可以按公司对实体记录进行分类的多种方式中的一种。 通过更改 **TODO** 部分的逻辑，您可以创建自定义分类。 
  
 ## <a name="what-should-i-expect"></a>我会看到什么结果？
 默认情况下，示例应用程序使您可以提供业务单位到公司代码映射的字典。 您使用 **OwningBusinessUnit** 字段进行自扩展的任何实体都会自动设置为使用指定的公司。 没有 **OwningBusinessUnit** 字段的任何实体（例如产品）都将根据映射使用空业务单位值设置公司。
 
-控制台应用程序需要一个参数，即 **–simulate** 或 **–apply**。 如果您使用 **–simulate** 命令行参数，则不会更新数据。 在与工具相同的目录中仅生成 **simulation_<entityname>.csv** 文件，每个更新的实体一个。 您可以在确保代码按预期更新公司值的同时迭代地查看这些文件。 
+控制台应用程序需要一个参数，即 **–simulate** 或 **–apply** 。 如果您使用 **–simulate** 命令行参数，则不会更新数据。 在与工具相同的目录中仅生成 **simulation_<entityname>.csv** 文件，每个更新的实体一个。 您可以在确保代码按预期更新公司值的同时迭代地查看这些文件。 
 
-完成模拟更新后，使用 **–apply** 参数。 这将更新当前具有不正确公司值的所有记录，按一次更新 1000 个记录的批次进行（默认）。 所提供的代码是幂等的，这意味着您可以重新运行它，并且仅会更新错误分配的公司。 当使用 **–apply** 运行时，代码将输出所做更改的 CSV 文件，这些文件名为 **applied_<entityname>.csv**。 
+完成模拟更新后，使用 **–apply** 参数。 这将更新当前具有不正确公司值的所有记录，按一次更新 1000 个记录的批次进行（默认）。 所提供的代码是幂等的，这意味着您可以重新运行它，并且仅会更新错误分配的公司。 当使用 **–apply** 运行时，代码将输出所做更改的 CSV 文件，这些文件名为 **applied_<entityname>.csv** 。 
 
  ```csharp
  using Microsoft.Crm.Sdk.Messages;

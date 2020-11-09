@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSInvoiceTable
+ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSInvoiceTable, TMSFreightBillDetail, TMSFreightBillTypeAssignment, TMSFBDetailReconcile, TMSRejectInvoiceLine, TMSMiscellaneousCharge
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e1680572f1ba9816c9ec45ef52498cab1f45247
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 8472094ba532d531b15dc4e9f120646b2c3bbe96
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206211"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017291"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>在运输管理中对运费进行对帐
 
@@ -40,7 +40,7 @@ ms.locfileid: "3206211"
 [![运费对帐流程](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>手动对帐
-如果要手动对帐运费，必须将每个发票行与已开票负荷的运费帐单行匹配。 您在**运费帐单和发票匹配**页进行此匹配。 如果发票行上的金额与运费帐单金额不匹配，则必须选择上差异对帐原因。 如果有多个对帐原因，您可以在它们之间拆分不匹配的金额。 对帐原因确定如何在总帐中过帐差异金额。 当对帐所计算的整个发票金额时，将金额提交供审批，然后过帐日记帐。 下图显示了如何生成运费发票和执行运费对帐。 
+如果要手动对帐运费，必须将每个发票行与已开票负荷的运费帐单行匹配。 您在 **运费帐单和发票匹配** 页进行此匹配。 如果发票行上的金额与运费帐单金额不匹配，则必须选择上差异对帐原因。 如果有多个对帐原因，您可以在它们之间拆分不匹配的金额。 对帐原因确定如何在总帐中过帐差异金额。 当对帐所计算的整个发票金额时，将金额提交供审批，然后过帐日记帐。 下图显示了如何生成运费发票和执行运费对帐。 
 [![运费对帐任务](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 ## <a name="automatic-reconciliation"></a>自动对帐
 若要使用自动对帐，您必须指定对帐计划和发票，以及要使用的装运承运人。 发票行和运费帐单的匹配根据审计主数据和运费帐单类型的设置进行。 运行自动对帐后，必须处理所有系统不能匹配的发票。 然后，您必须手动处理这些发票，然后才能过帐所有付款发票。

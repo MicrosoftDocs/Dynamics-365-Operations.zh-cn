@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSHubAccessorial,TMSAccessorialMaster
+ms.search.form: TMSHubAccessorial, TMSAccessorialMaster, TMSCarrierAccessorial
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82cd18c7109b5a0287ee2eb8b7adf901c97ec7c7
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: f728339ed9a0c6fffa8f6d8171976aafc41fc75e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982616"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016531"
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>设置中心附属费用和附属主数据
 

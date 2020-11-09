@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: VendProspectiveVendorRegistrationRequests
+ms.search.form: VendProspectiveVendorRegistrationRequests, CatVendorCatalogDetails, CatVendorCatalogReleaseApprovedProducts, CatVendorCMRDetails, CatVendorCatalogProductPerCompanyStatus, CatVendorMaintenanceEventLog, CatVendorCatalogReviewTool, CatVendorCatalogFileUpload, CatVendorCatalogMaintenanceRequest, CatVendorCatalogFileInLegalEntity, CatVendorCatalogSchema, CatVendorCatalogFilePreviewPane, CatVendorCatalogImportParameter
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 608d2b57bb4d5ab80d75b22ed5c8a4df5263e5f3
-ms.sourcegitcommit: 86052c58e3c365c443bd6f37ad1054bea395e21b
+ms.openlocfilehash: 7ed2c50b28fdbd1baf4caa0a8a7f2f05d6a53fd6
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3338300"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018575"
 ---
 # <a name="import-vendor-catalogs"></a>导入供应商目录
 
@@ -41,15 +41,15 @@ ms.locfileid: "3338300"
 
 若要导入供应商目录数据，您必须完成以下任务：
 
-1. 在数据管理工作区（已在其中定义了数据映射规则）中设置一个项目。 选择**数据管理**，然后选择 **设置数据项目的角色**。
+1. 在数据管理工作区（已在其中定义了数据映射规则）中设置一个项目。 选择 **数据管理** ，然后选择 **设置数据项目的角色** 。
 
 2. 设置采购类别层次结构，并将您的供应商分配到采购类别。 如果您使用了商品代码，则添加这些商品代码到采购类别中。 有关设置采购类别层次结构的信息，请参阅[设置采购类别层次结构](../procurement/tasks/set-up-procurement-category-hierarchy.md)。
 
-3. 配置目录导入的供应商。 选择供应商，然后选择**采购**  >  **设置**  >  **配置目录导入的供应商**。
+3. 配置目录导入的供应商。 选择供应商，然后选择 **采购**  >  **设置**  >  **配置目录导入的供应商** 。
 
 4. 配置目录导入的工作流。 创建一个 CMR 文件模板，然后将其与供应商共享。
 
-5. 选择**采购** \> **通用** \> **目录** \> **供应商目录**以创建供应商目录。 在此目录中对您从供应商处接收的目录维护请求 (CMR) 文件进行分组。 
+5. 选择 **采购** \> **通用** \> **目录** \> **供应商目录** 以创建供应商目录。 在此目录中对您从供应商处接收的目录维护请求 (CMR) 文件进行分组。 
 
 6. 上载 CMR 文件。
 
@@ -61,12 +61,12 @@ ms.locfileid: "3338300"
 
 目录导入文件模板是您用于为供应商产品创建的 CMR 文件的 XSD 文件。 您可以使用 CMR 文件创建新的目录，替换现有目录或修改现有的目录。
 
-1. 选择**采购** \> **目录** \> **供应商目录**，然后双击要使用的目录。
+1. 选择 **采购** \> **目录** \> **供应商目录** ，然后双击要使用的目录。
 
-2. 下载一个当前目录导入模板（XSD 文件）。 在**更新目录**页**操作窗格**上**目录**选项卡的**相关信息**组中，单击**生成目录模板**，然后选择**采购类别**。
+2. 下载一个当前目录导入模板（XSD 文件）。 在 **更新目录** 页 **操作窗格** 上 **目录** 选项卡的 **相关信息** 组中，单击 **生成目录模板** ，然后选择 **采购类别** 。
 
-    - 可使用**采购类别**选项生成包括供应商授权提供产品的采购类别的目录模板。
+    - 可使用 **采购类别** 选项生成包括供应商授权提供产品的采购类别的目录模板。
 
-3. 在**另存为**对话框中，选择要存储目录文件模板和保存该文件的位置。
+3. 在 **另存为** 对话框中，选择要存储目录文件模板和保存该文件的位置。
 
 有关更多信息和示例，请参阅以下博客文章：[Dynamics AX 中的供应商目录](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/)。

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSLicensePlateLabel
+ms.search.form: WHSLicensePlateLabel, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 9af077022ab0759534d2c1da5f39997712e6a354
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763447"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017705"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>牌照标签的文档路线选择布局
 
@@ -49,7 +49,7 @@ ms.locfileid: "3763447"
 
 在标签打印流程中，此示例中的文本 `$LicensePlateId$` 将替换为数据值。
 
-若要查看将打印的值，请转到**仓库管理 \> 查看和报表 \> 牌照标签**。
+若要查看将打印的值，请转到 **仓库管理 \> 查看和报表 \> 牌照标签** 。
 
 几种广泛使用的标签生成工具可帮助您设置标签布局的文本的格式。 这些工具中许多都支持 `$FieldName$` 格式。 此外，Microsoft Dynamics 365 Supply Chain Management 在文档路线选择布局的字段映射中使用特殊格式设置逻辑。
 
@@ -63,10 +63,10 @@ $FieldName:FormatString$
 
 下面是对此格式的说明：
 
-- `FieldName` 是数据字段的名称（如 **Qty**）。
+- `FieldName` 是数据字段的名称（如 **Qty** ）。
 - `FormatString` 定义必须如何打印数据。
 
-下面的示例显示如何自定义工作数量 (**Qty**) 字段：
+下面的示例显示如何自定义工作数量 ( **Qty** ) 字段：
 
 - 若要始终显示四位数（将零用作占位符），请使用 `$Qty:0000$`。 例如，如果数量为 10，则标签将显示“0010”。
 - 若要始终显示两位数，请使用 `$Qty:0.00$`。 例如，如果数量为 10，则标签将显示“10.00”。

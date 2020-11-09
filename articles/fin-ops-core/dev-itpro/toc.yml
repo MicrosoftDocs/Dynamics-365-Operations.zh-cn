@@ -72,7 +72,7 @@
           items:
             - name: 连续交货主页
               href: dev-tools/continuous-delivery-home-page.md
-            - name: 开发和连续交货常见问题
+            - name: 开发和连续交货常见问题解答
               href: dev-tools/continuous-delivery-faq.md
             - name: 从生成输出中排除测试包
               href: dev-tools/exclude-test-packages.md
@@ -88,7 +88,7 @@
               href: data-entities/integration-overview.md
             - name: 基于优先级的限制
               hreF: data-entities/priority-based-throttling.md
-            - name: 基于优先级的限制常见问题
+            - name: 基于优先级的限制常见问题解答
               href: data-entities/throttling-faq.md
             - name: 数据集成 API
               items:
@@ -142,8 +142,10 @@
                           items:
                             - name: 双写入的系统要求
                               href: data-entities/dual-write/dual-write-system-req.md
-                            - name: 支持的双写入设置方案
+                            - name: 双写入设置指南
                               href: data-entities/dual-write/connection-setup.md
+                            - name: 初始同步注意事项
+                              href: data-entities/dual-write/initial-sync-guidance.md
                             - name: Lifecycle Services 的双写入设置
                               href: data-entities/dual-write/lcs-setup.md
                             - name: 为现有 Finance and Operations 应用启用双写入
@@ -404,6 +406,8 @@
                   href: database/database-point-in-time-restore.md
                 - name: 将生产数据库的时间点还原到沙盒环境
                   href: database/database-pitr-prod-sandbox.md
+                - name: 启用即时数据库访问
+                  href: database/database-just-in-time-jit-access.md
             - name: 教程
               items:
                 - name: 出于培训目的进行刷新
@@ -458,7 +462,7 @@
                       href: deployment/infrastructure-stack.md
                     - name: 部署新环境
                       href: deployment/deployenvironment-newinfrastructure.md
-                    - name: 部署常见问题
+                    - name: 部署常见问题解答
                       href: deployment/deploymentFAQ.md
                     - name: 自助服务部署的已知问题
                       href: deployment/known-issues-new-deployment-experience.md
@@ -480,6 +484,8 @@
                   href: deployment/Update-retail-channel.md
                 - name: 初始化 Commerce Scale Unit（云）
                   href: deployment/Initialize-Retail-Channels.md
+                - name: 将渠道迁移到其他 Commerce Scale Unit
+                  href: deployment/Reassign-CSU.md
                 - name: Retail 数据驻留
                   href: deployment/retail-data-residency.md
             - name: 本地部署
@@ -598,7 +604,7 @@
                   href: dev-tools/configure-developer-vm.md
                 - name: 在开发计算机上创建新用户
                   href: dev-tools/enable-development-machine.md
-                - name: 开发和构建不允许管理员访问的 VM 的常见问题
+                - name: 开发和构建不允许管理员访问的 VM 的常见问题解答
                   href: sysadmin/VMs-no-admin-access.md
                 - name: 重命名本地环境以访问 Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
@@ -860,7 +866,7 @@
                       href: extensibility/extensibility-roadmap.md
                     - name: 可扩展性请求
                       href: extensibility/extensibility-requests.md
-                    - name: 可扩展性常见问题
+                    - name: 可扩展性常见问题解答
                       href: extensibility/app-sealing-faq.md
                     - name: 从覆盖迁移到扩展
                       href: extensibility/migrate-overlayer-extension.md
@@ -1128,7 +1134,7 @@
                   href: lifecycle-services/cloud-operations-servicing.md
                 - name: 将服务请求提交给 Dynamics 服务工程团队
                   href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-                - name: 计划的维护时段常见问题
+                - name: 计划的维护时段常见问题解答
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: 监控和诊断
               href: lifecycle-services/monitoring-diagnostics.md
@@ -1168,7 +1174,7 @@
               href: power-platform/admin-reference.md
             - name: Finance and Operations 的 Power Apps 门户
               href: power-platform/power-portal-reference.md
-            - name: Finance and Operations 虚拟实体常见问题
+            - name: Finance and Operations 虚拟实体常见问题解答
               href: power-platform/faq.md
         - name: 移动平台
           items:
@@ -1458,9 +1464,9 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: 获取对由世纪互联在中国运营的 Finance and Operations 的支持
               href: lifecycle-services/21vianet-support.md
-            - name: 设置对 Finance and Operations 的技术支持
+            - name: 设置对 Finance and Operations 应用的技术支持
               href: lifecycle-services/support-experience.md
-            - name: 管理 Finance and Operations 支持体验
+            - name: 管理 Finance and Operations 应用支持体验
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: 系统管理
           items:
@@ -1760,7 +1766,7 @@
                   href: user-interface/slider-messagebox.md
                 - name: 消息中心、消息栏和消息详细信息 API
                   href: user-interface/messaging-api-center-bar-details.md
-                - name: 消息中心、消息栏和消息详细信息常见问题
+                - name: 消息中心、消息栏和消息详细信息常见问题解答
                   href: user-interface/messaging-user.md
             - name: 窗体模式准则
               items:

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WMSLocation, WMSBlockingCause
+ms.search.form: WMSLocation, WMSBlockingCause, WHSLocation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 009106327db971a7fc43a2a3ad233f16eb7ff620
-ms.sourcegitcommit: 8cbaeb6443ce47a4c4bc02b5e1a1212eb0056b38
+ms.openlocfilehash: 490f510ca0a5522d7bc892733ff066ebc65bcd24
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829721"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017360"
 ---
 # <a name="inventory-locations"></a>库存库位
 

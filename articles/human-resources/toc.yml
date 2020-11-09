@@ -3,8 +3,14 @@
   items:
     - name: 新增功能
       items:
-        - name: Human Resources 新增功能或更改
+        - name: Human Resources 中新增或更改的功能
           href: hr-admin-whats-new.md
+        - name: 2020 年 10 月 22 日
+          href: hr-whats-new-2020-10-22.md
+        - name: 2020 年 10 月 6 日
+          href: hr-whats-new-2020-10-06.md
+        - name: 2020 年 9 月 26 日
+          href: hr-whats-new-2020-09-26.md
         - name: 2020 年 9 月 16 日
           href: hr-whats-new-2020-09-16.md
         - name: 2020 年 9 月 3 日
@@ -83,6 +89,8 @@
               href: hr-admin-integration-dayforce.md
             - name: 创建定期数据导出应用
               href: hr-admin-integration-recurring-data-export.md
+            - name: 与 LinkedIn Talent Hub 集成
+              href: hr-admin-integration-linkedin.md
             - name: 与 Office 集成
               items:
                 - name: Office 集成教程
@@ -183,7 +191,7 @@
               href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
             - name: 功能管理概览
               href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
-            - name: 客户端常见问题
+            - name: 客户端常见问题解答
               href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
             - name: 操作搜索
               href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
@@ -217,6 +225,10 @@
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
         - name: Teams 中的 Human Resources 应用
           href: hr-admin-teams-leave-app.md
+        - name: 准备实施
+          href: hr-admin-go-live-prepare.md
+        - name: 实施常见问题解答
+          href: hr-admin-go-live-faq.md
         - name: 文档资源
           items:
             - name: 帮助系统
@@ -257,7 +269,7 @@
               href: hr-admin-troubleshooting-not-in-apps.md
             - name: 报告选项
               href: hr-admin-troubleshooting-reporting.md
-            - name: 集成常见问题
+            - name: 集成常见问题解答
               href: hr-admin-troubleshooting-integration.md
     - name: 开发人员指南
       items:
@@ -347,7 +359,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: 配置全球通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
-                - name: 通讯簿常见问题
+                - name: 通讯簿常见问题解答
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: 配置通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
@@ -413,7 +425,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
                 - name: 工作流类型报告
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
-                - name: 工作流常见问题
+                - name: 工作流常见问题解答
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
             - name: 预警
               items:
@@ -465,7 +477,7 @@
               href: hr-personnel-define-jobs.md
             - name: 创建工作时间日历
               href: hr-personnel-create-working-time-calendar.md
-            - name: 人事行动常见问题
+            - name: 人事行动常见问题解答
               href: hr-personnel-actions-faq.md
             - name: 使用工作流管理员工信息
               href: hr-workflow-manage-employee-information.md
@@ -669,6 +681,8 @@
           items:
             - name: 员工和经理自助服务概览
               href: hr-employee-manager-self-service-overview.md
+            - name: 在经理自助服务中创建自定义链接
+              href: hr-employee-manager-self-service-custom-links.md
             - name: 更改员工自助服务工作区名称
               href: hr-employee-self-service-workspace-name.md
             - name: 编辑个人信息

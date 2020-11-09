@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSParameters
+ms.search.form: WHSParameters, WHSWorkPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0df7fa277bd2447fa6e2631806461e1e7c13cf17
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ad0659a86e75dc4a5a204ebc05405f62abf2ca1e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987086"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017452"
 ---
 # <a name="warehouse-management-overview"></a>仓库管理概览
 
@@ -32,7 +32,7 @@ ms.locfileid: "3987086"
 ## <a name="get-started"></a>开始
 若要开始使用仓库管理，您需完成常规仓库参数的设置，以支持公司的业务流程。
 
-- 转到**仓库管理参数** **仓库管理** > **设置**以设置常规仓库参数。
+- 转到 **仓库管理参数** **仓库管理** > **设置** 以设置常规仓库参数。
 
 您必须根据业务要求配置入站和出站仓库流程工作流的组件。 必须配置的最重要组件是通知波次模板、工作模板、工作池和位置指令。
 

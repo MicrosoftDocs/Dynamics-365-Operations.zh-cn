@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup
+ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup, WHSBatchAttribReserve
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7e94fb630afbe12a7fe3e791f59dca0bd38a0fc
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 370893e415a79091404f1c4eb0404ba8fd5b9ff2
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985625"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017517"
 ---
 # <a name="batch-attributes"></a>批次属性
 
@@ -40,13 +40,13 @@ ms.locfileid: "3985625"
 为更好地管理属性的数量和类型，您可以使用批次属性组。 这样，就不必逐个添加各个属性。
 
 ## <a name="assign-batch-attributes"></a>分配批次属性
-您可以将批次属性分配到库存批次中包含的各个产品或者您可以将它们分配给与特定客户关联的产品。 在您可以将批次属性分配在客户水平前，必须先将其分配在产品级别。 产品必须具有批次维度在“跟踪维度组”中设置为**有效**。 若要将批次属性分配到单个产品，请使用“产品特定”页。 如果该属性特定于客户的产品，请使用“客户特定”页。 在您添加一个属性给产品时，还可以定义其他参数。 下面举了一些示例加以说明：
+您可以将批次属性分配到库存批次中包含的各个产品或者您可以将它们分配给与特定客户关联的产品。 在您可以将批次属性分配在客户水平前，必须先将其分配在产品级别。 产品必须具有批次维度在“跟踪维度组”中设置为 **有效** 。 若要将批次属性分配到单个产品，请使用“产品特定”页。 如果该属性特定于客户的产品，请使用“客户特定”页。 在您添加一个属性给产品时，还可以定义其他参数。 下面举了一些示例加以说明：
 
--   **整数**或**分数**类型的属性的最小值和最大值范围。
--   **整数**或**分数**类型属性的容差操作。 如果该属性的值超出最小值和最大值范围，行动可以是警告消息或错误消息。
+-   **整数** 或 **分数** 类型的属性的最小值和最大值范围。
+-   **整数** 或 **分数** 类型属性的容差操作。 如果该属性的值超出最小值和最大值范围，行动可以是警告消息或错误消息。
 -   属性的目标值。 此值是最佳值属性，并且该规则将应用于所有属性类型。
 
-您可以访问在“产品信息管理”的**发布产品**页中选择的产品的页面。 在向产品分配批次属性后，可以添加特定值到**库存批次属性**页的属性。
+您可以访问在“产品信息管理”的 **发布产品** 页中选择的产品的页面。 在向产品分配批次属性后，可以添加特定值到 **库存批次属性** 页的属性。
 
 ## <a name="reserve-batches"></a>预留批次
 在为销售订单进行批次预留以履行客户订单时，或者当您为生产订单领取和预留批次时，您可以搜索批次属性。 搜索帮助找到包含具有所需批次属性的产品的库存批次。 找到该批次或这些批次后，然后可以预留产品到起源库存交易记录行。

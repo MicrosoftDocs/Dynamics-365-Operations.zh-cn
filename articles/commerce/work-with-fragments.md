@@ -3,7 +3,7 @@ title: 使用片段
 description: 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用片段的原因、条件和方法。
 author: phinneyridge
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b3e3299388190f03e761591a0c23164b705db9e8
-ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
+ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
+ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961650"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4019556"
 ---
 # <a name="work-with-fragments"></a>使用片段 
 
@@ -58,31 +58,27 @@ ms.locfileid: "3961650"
 
 ### <a name="save-an-existing-module-configuration-as-a-fragment"></a>将现有模块配置另存为片段
 
-若要将以前配置的模块转换为可重复使用的片段，请执行以下步骤。
+若要在 Commerce 站点构建器中将以前配置的模块转换为可重复使用的片段，请执行以下步骤。
 
 1. 打开其中包含要将片段转换为的模块的页面或模板。
 1. 在左侧的大纲窗格中或直接在可视页面构建器中，选择以前配置的模块。
-1. 在大纲窗格中或可视页面构建器中所选模块的工具栏上，选择模块名称旁边的省略号 (**...**)。 
-1. 选择**共享为页面片段**。 
-1. 在**另存为页面片段**对话框中，为片段输入名称。
-1. 选择**确定**将模块配置保存为可添加到其他页面的片段。
-
-下图显示了如何将模块配置另存为片段。
-
-![有关如何将模块配置另存为片段的屏幕截图](./media/save-as-fragment.png)
+1. 在大纲窗格中或可视页面构建器中所选模块的工具栏上，选择模块名称旁边的省略号 ( **...** )。 
+1. 选择 **共享为片段** 。 
+1. 在 **另存为片段** 对话框中，输入片段的名称。
+1. 选择 **确定** 将模块配置保存为可添加到其他页面的片段。
+<!-- The following image shows how to save a module configuration as a fragment.-->
+<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
 
 ### <a name="create-a-new-fragment"></a>创建新片段
 
-若要创建新片段，请执行以下步骤。
+若要在 Commerce 站点构建器中创建新片段，请执行以下步骤。
 
-1. 在左侧的导航窗格中，选择**片段**。
-1. 选择**新建页面片段**。 将显示一个对话框，其中显示所有可用模块类型。 前文中介绍过，可以基于任何模块类型创建片段。
+1. 在左侧的导航窗格中，选择 **片段** 。
+1. 选择 **新建** 。 将显示 **新建片段** 对话框，其中显示所有可用的模块类型。 前文中介绍过，可以基于任何模块类型创建片段。
 1. 选择片段的模块类型。
 
-下图显示了在哪里创建新片段。
-
-![关于在哪里创建新片段的屏幕截图](./media/fragment-nav-menu.png)
-
+<!-- The following image shows where to create a new fragment.-->
+<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > 如果需要在以后更新和配置片段，则选择通用容器模块类型的灵活性最大。
 
@@ -92,46 +88,44 @@ ms.locfileid: "3961650"
 
 ### <a name="add-a-fragment"></a>添加片段
 
-若要向页面添加片段，请执行以下步骤。
+若要在 Commerce 站点构建器中将片段添加到页面，请执行以下步骤。
 
 1. 在左侧的大纲窗格中或直接在可视页面构建器中，选择可向其添加子模块的容器或插槽。
-1. 在大纲窗格中，选择容器或插槽名称旁边的省略号 (**...**)。  或者，如果使用可视页面构建器，请选择加号 (**+**)。  
-1. 选择**添加片段**。
-
-    ![有关如何将现有片段添加到插槽或容器的屏幕截图](./media/add-fragment.png)
+1. 选择容器或插槽名称旁边的省略号 ( **...** )。  或者，如果使用可视页面构建器，请选择加号 ( **+** )。  
+1. 选择 **添加片段** 。
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
  
     > [!NOTE]
-    > 如果容器或插槽不支持新子模块，则**添加片段**选项不可用。
+    > 如果容器或插槽不支持新的子模块，则 **添加片段** 选项不可用。
     
-1. 在**添加片段**对话框中，搜索并选择要添加的片段。 如果未列出可用片段，可能必须先基于所选容器或插槽支持的模块类型创建片段。
+1. 在 **选择片段** 对话框中，搜索并选择要添加的片段。 如果未列出可用片段，可能必须先基于所选容器或插槽支持的模块类型创建片段。
 1. 选择所需的片段以将其添加到页面上的容器或插槽中。
-
-    ![关于片段选择器模式窗口的屏幕截图](./media/fragment-picker.png)
+<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > 容器或插槽中允许的模块由页面的模板或模块自己的定义定义。
 
 ### <a name="remove-a-fragment"></a>删除片段
 
-若要从站点中的插槽或容器删除片段，请执行以下步骤。
+若要在 Commerce 站点构建器中从页面上的插槽或容器中删除片段，请执行以下步骤。
 
-1. 在左侧大纲窗格中，选择要删除的片段的名称旁边的省略号 (**...**)，然后选择垃圾桶符号。  此外，您可以在可视页面构建器中选择片段，然后在片段的工具栏中选择垃圾桶符号。
-1. 系统提示确认要删除片段时，选择**确定**。
+1. 在左侧大纲窗格中，选择要删除的片段的名称旁边的省略号 ( **...** )，然后选择垃圾桶符号。  此外，您可以在可视页面构建器中选择片段，然后在片段的工具栏中选择垃圾桶符号。
+1. 系统提示确认要删除片段时，选择 **确定** 。
 
 > [!NOTE]
-> 从页面中删除片段时，仅从页面中删除对该片段的引用。 切**勿**从站点中删除片段。 若要从站点中删除片段，必须使用片段检查器用户界面 (UI)。 只能删除当前没有任何页面、模板或其他片段正在引用的片段。
+> 从页面中删除片段时，仅从页面中删除对该片段的引用。 切 **勿** 从站点中删除片段。 若要从站点中删除片段，必须使用片段检查器用户界面 (UI)。 只能删除当前没有任何页面、模板或其他片段正在引用的片段。
 
 ### <a name="edit-a-fragment"></a>编辑片段
 
 若要编辑片段，必须使用片段编辑器 UI。 这是设计制订的限制。 这样有助于确保作者不会混淆特定页面的模块编辑流程和可能在多个页面之间共享的片段的编辑流程。
 
-若要编辑片段，请执行以下步骤。
+若要在 Commerce 站点构建器中编辑片段，请执行以下步骤。
 
-1. 在左侧的导航窗格中，选择**片段**。
-1. 在**片段**下，选择要编辑的片段。
+1. 在左侧的导航窗格中，选择 **片段** 。
+1. 在 **片段** 下，选择要编辑的片段。
 1. 根据需要编辑片段的模块属性和结构。 此流程类似在页面编辑器视图中编辑模块的流程。
 
-也可以通过在页面、模板或父片段中打开片段，然后在右侧属性窗格中选择**编辑片段**来编辑片段。
+也可以通过在页面、模板或父片段中打开片段，然后在右侧属性窗格中选择 **编辑片段** 来编辑片段。
 
 ## <a name="additional-resources"></a>其他资源
 

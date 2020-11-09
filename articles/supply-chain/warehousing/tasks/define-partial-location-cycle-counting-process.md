@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb5c8e615302cba05fbd14a47af6578bca7bc16e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 39a256a5a88a6d70373d6e23f1f380da6791f418
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976942"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016070"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>定义部分库位周期盘点流程 
 

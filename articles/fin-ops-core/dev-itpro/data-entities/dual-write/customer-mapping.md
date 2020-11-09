@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5643be99ac2c58f4da1a2a068e84bf526f8575cb
-ms.sourcegitcommit: 164de749f394a133f223c526aa0c46bf922d1ea8
+ms.openlocfilehash: 36716c302d86bc5715798bf4cf4899f666d0872c
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3770004"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997446"
 ---
 # <a name="integrated-customer-master"></a>集成客户主数据
 
@@ -35,15 +34,15 @@ ms.locfileid: "3770004"
 
 ## <a name="customer-data-flow"></a>客户数据流
 
-*客户*是应用程序中精心定义的概念。 因此，客户数据的集成包括在这两个应用程序之间协调客户概念。 下图显示客户数据流。
+*客户* 是应用程序中精心定义的概念。 因此，客户数据的集成包括在这两个应用程序之间协调客户概念。 下图显示客户数据流。
 
 ![客户数据流](media/dual-write-customer-data-flow.png)
 
 客户可以大致分为两类：商业/组织客户和消费者/最终用户。 这两种类型的客户存储在 Finance and Operations 和 Common Data Service 中并以不同方式处理。
 
-在 Finance and Operations 中，商业/组织客户和消费者/最终用户在名为 **CustTable** (CustCustomerV3Entity) 的一个表中主控，并根据**类型**属性分类。 （如果**类型**设置为**组织**，则客户为商业/组织客户，如果**类型**设置为**个人**，则客户为消费者/最终用户。）主联系人信息通过 SMMContactPersonEntity 实体处理。
+在 Finance and Operations 中，商业/组织客户和消费者/最终用户在名为 **CustTable** (CustCustomerV3Entity) 的一个表中主控，并根据 **类型** 属性分类。 （如果 **类型** 设置为 **组织** ，则客户为商业/组织客户，如果 **类型** 设置为 **个人** ，则客户为消费者/最终用户。）主联系人信息通过 SMMContactPersonEntity 实体处理。
 
-在 Common Data Service 中，商业/组织客户在“客户”实体中主控，并在 **RelationshipType** 属性设置为**客户**时标识为客户。 消费者/最终用户和联系人均通过联系人实体表示。 为了提供客户/最终用户与联系人之间的清晰界限，**联系人**实体有一个布尔值标记，名称为 **Sellable**。 如果 **Sellable** 为 **True**，则联系人为消费者/最终用户，可以为该联系人创建报价单和订单。 如果 **Sellable** 为 **False**，则联系人只是客户的主要联系人。
+在 Common Data Service 中，商业/组织客户在“客户”实体中主控，并在 **RelationshipType** 属性设置为 **客户** 时标识为客户。 消费者/最终用户和联系人均通过联系人实体表示。 为了提供客户/最终用户与联系人之间的清晰界限， **联系人** 实体有一个布尔值标记，名称为 **Sellable** 。 如果 **Sellable** 为 **True** ，则联系人为消费者/最终用户，可以为该联系人创建报价单和订单。 如果 **Sellable** 为 **False** ，则联系人只是客户的主要联系人。
 
 如果非适销联系人参与报价单或订单流程，则 **Sellable** 设置为 **True** 以将该联系人标记为适销联系人。 已成为适销联系人的联系人仍是适销联系人。
 

@@ -1,9 +1,9 @@
 ---
-title: 支持双写入的方案
+title: 有关如何设置双写入的指南
 description: 此主题介绍支持双写入的方案。
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 08/17/2020
+ms.date: 10/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: b4f69e7933bc5a50cccad6911c99cf08d2768578
-ms.sourcegitcommit: b3df62842e62234e8eaa16992375582518976131
+ms.openlocfilehash: 2d77a1458f3f4c79b231e6a6d7cc320b8ee1fad9
+ms.sourcegitcommit: ee643d651d57560bccae2f99238faa39881f5c64
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3818588"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4088498"
 ---
-# <a name="supported-scenarios-for-dual-write-setup"></a>支持双写入的方案
+# <a name="guidance-for-how-to-set-up-dual-write"></a>有关如何设置双写入的指南
 
 [!include [banner](../../includes/banner.md)]
 
@@ -34,8 +33,8 @@ ms.locfileid: "3818588"
 
 可以在 Finance and Operations 环境与 Common Data Service 环境之间建立双写入连接。
 
-+ **Finance and Operations 环境**为 **Finance and Operations 应用**（例如，Microsoft Dynamics 365 Finance、Dynamics 365 Supply Chain Management 和 Dynamics 365 Retail）提供基础平台。
-+ **Common Data Service 环境**为 **Dynamics 365 中的模型驱动应用**（Dynamics 365 Sales、Dynamics 365 Customer Service、Dynamics 365 Field Service、Dynamics 365 Marketing 和 Dynamics 365 Project Service Automation）提供基础平台。
++ **Finance and Operations 环境** 为 **Finance and Operations 应用** （例如，Microsoft Dynamics 365 Finance、Dynamics 365 Supply Chain Management 和 Dynamics 365 Retail）提供基础平台。
++ **Common Data Service 环境** 为 **Customer Engagement 应用** （Dynamics 365 Sales、Dynamics 365 Customer Service、Dynamics 365 Field Service、Dynamics 365 Marketing 和 Dynamics 365 Project Service Automation）提供基础平台。
 
 >[!IMPORTANT]
 >Finance and Operations 中的 Human Resources 支持双写入连接，但 Dynamics 365 Human Resources 应用不支持。
@@ -45,28 +44,33 @@ ms.locfileid: "3818588"
 + 对于 Finance and Operations 应用的新实例，双写入连接的设置在 Microsoft Dynamics Lifecycle Services (LCS) 中开始。 如果您有 Power Platform 的许可证，并且您的租户没有 Common Data Service 环境，您将获取一个新的该环境。
 + 对于现有实例的 Finance and Operations 应用，双写入连接的设置在 Finance and Operations 环境中开始。
 
+在实体上开始双写入之前，您可以运行初始同步以处理 Finance and Operations 应用和 Customer Engagement 应用上的现有数据。 如果不需要在两个环境之间同步数据，则可以跳过初始同步。
+
+初始同步使您可以将现有数据从一个应用双向复制到另一个应用。 根据已有的环境以及环境中的数据类型，有几种不同的设置方案。
+
 支持以下设置方案：
 
-+ [一个新 Finance and Operations 应用实例和一个新模型驱动应用实例](#new-new)
-+ [一个新 Finance and Operations 应用实例和一个现有模型驱动应用实例](#new-existing)
-+ [一个具有演示数据的新 Finance and Operations 应用实例和一个新模型驱动应用实例](#new-demo-new)
-+ [一个具有演示数据的新 Finance and Operations 应用实例和一个现有模型驱动应用实例](#new-demo-existing)
-+ [一个现有 Finance and Operations 应用实例和一个新的或现有模型驱动应用实例](#existing-existing)
++ [一个新的 Finance and Operations 应用实例和一个新的 Customer Engagement 应用实例](#new-new)
++ [一个新的 Finance and Operations 应用实例和一个现有的 Customer Engagement 应用实例](#new-existing)
++ [一个具有数据的新 Finance and Operations 应用实例和一个新的 Customer Engagement 应用实例](#new-data-new)
++ [一个具有数据的新 Finance and Operations 应用实例和一个现有的 Customer Engagement 应用实例](#new-data-existing)
++ [一个现有的 Finance and Operations 应用实例和一个新的 Customer Engagement 应用实例](#existing-new)
++ [一个现有的 Finance and Operations 应用实例和一个现有的 Customer Engagement 应用实例](#existing-existing)
 
-## <a name="a-new-finance-and-operations-app-instance-and-a-new-model-driven-app-instance"></a><a id="new-new"></a>一个新 Finance and Operations 应用实例和一个新模型驱动应用实例
+## <a name="a-new-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="new-new"></a>一个新的 Finance and Operations 应用实例和一个新的 Customer Engagement 应用实例
 
-若要在无数据的 Finance and Operations 应用新实例与 Dynamics 365 中的模型驱动应用新实例之间设置双写入连接，请执行[从 Lifecycle Services 设置双写入](lcs-setup.md)中的步骤。 完成连接设置之后，将自动执行以下操作：
+若要在一个无数据的新 Finance and Operations 应用实例与一个新的 Customer Engagement 应用实例之间设置双写入连接，请按照[从 Lifecycle Services 设置双写入](lcs-setup.md)中的步骤操作。 完成连接设置之后，将自动执行以下操作：
 
 - 预配一个新的空 Finance and Operations 环境。
-- 预配一个新的空模型驱动应用实例，其中已安装了 CRM 主解决方案。
+- 预配一个新的空 Customer Engagement 应用实例，其中已安装了 CRM 主解决方案。
 - 为 DAT 公司数据建立双写入连接。
 - 为实时同步启用实体映射。
 
 然后，这两个环境准备好了进行实时数据同步。
 
-## <a name="a-new-finance-and-operations-app-instance-and-an-existing-model-driven-app-instance"></a><a id="new-existing"></a>一个新 Finance and Operations 应用实例和一个现有模型驱动应用实例
+## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a>一个新的 Finance and Operations 应用实例和一个现有的 Customer Engagement 应用实例
 
-若要在无数据的 Finance and Operations 应用新实例与 Dynamics 365 中的模型驱动应用现有实例之间设置双写入连接，请执行[从 Lifecycle Services 设置双写入](lcs-setup.md)中的步骤。 完成连接设置之后，将自动执行以下操作：
+若要在一个无数据的新 Finance and Operations 应用实例与一个现有的 Customer Engagement 应用实例之间设置双写入连接，请按照[从 Lifecycle Services 设置双写入](lcs-setup.md)中的步骤操作。 完成连接设置之后，将自动执行以下操作：
 
 - 预配一个新的空 Finance and Operations 环境。
 - 为 DAT 公司数据建立双写入连接。
@@ -79,36 +83,56 @@ ms.locfileid: "3818588"
 1. 在 Finance and Operations 应用中创建一个新公司。
 2. 将该公司添加到双写入连接设置。
 3. 通过使用三个字母的国际标准化组织 (ISO) 公司代码[引导](bootstrap-company-data.md) Common Data Service 数据。
+4. 对要同步其数据的实体运行 **初始同步** 功能。
 
-因为双写入处于实时同步模式，所以 Common Data Service 中的数据将自动开始流向 Finance and Operations 应用。
+有关示例和替代方法，请参阅[示例](#example)。
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-demo-data-and-a-new-model-driven-app-instance"></a><a id="new-demo-new"></a>一个具有演示数据的新 Finance and Operations 应用实例和一个新模型驱动应用实例
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a>一个具有数据的新 Finance and Operations 应用实例和一个新的 Customer Engagement 应用实例
 
-若要在有演示数据的新 Finance and Operations 应用实例与 Dynamics 365 中的模型驱动应用新实例之间建立双写入连接，请执行此主题前文中[一个新 Finance and Operations 应用程序和一个新模型驱动应用实例](#new-new)部分中的步骤。 完成连接设置后，如果要将演示数据同步到模型驱动应用，请执行以下步骤。
+若要在一个具有数据的新 Finance and Operations 应用实例与一个新的 Customer Engagement 应用实例之间设置双写入连接，请按照本主题前面的[一个新的 Finance and Operations 应用实例和一个新的 Customer Engagement 应用实例](#new-new)部分中的步骤操作。 完成连接设置后，如果要将数据同步到 Customer Engagement 应用，请按照以下步骤操作。
 
-1. 从 LCS 页面打开 Finance and Operations 应用，然后转到**数据管理 \> 双写入**。
-2. 对要同步其数据的实体运行**初始同步**功能。
+1. 从 LCS 页面打开 Finance and Operations 应用，然后转到 **数据管理 \> 双写入** 。
+2. 对要同步其数据的实体运行 **初始同步** 功能。
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-demo-data-and-an-existing-model-driven-app-instance"></a><a id="new-demo-existing"></a>一个具有演示数据的新 Finance and Operations 应用实例和一个现有模型驱动应用实例
+有关示例和替代方法，请参阅[示例](#example)。
 
-若要在有演示数据的新 Finance and Operations 应用实例与 Dynamics 365 中的模型驱动应用现有实例之间建立双写入连接，请执行此主题前文中[一个新 Finance and Operations 应用程序和一个现有模型驱动应用实例](#new-existing)部分中的步骤。 完成连接设置后，如果要将演示数据同步到模型驱动应用，请执行以下步骤。
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a>一个具有数据的新 Finance and Operations 应用实例和一个现有的 Customer Engagement 应用实例
 
-1. 从 LCS 页面打开 Finance and Operations 应用，然后转到**数据管理 \> 双写入**。
-2. 对要同步其数据的实体运行**初始同步**功能。
+若要在一个具有数据的新 Finance and Operations 应用实例与一个现有的 Customer Engagement 应用实例之间设置双写入连接，请按照本主题前面的[一个新的 Finance and Operations 应用实例和一个现有的 Customer Engagement 应用实例](#new-existing)部分中的步骤操作。 完成连接设置后，如果要将数据同步到 Customer Engagement 应用，请按照以下步骤操作。
+
+1. 从 LCS 页面打开 Finance and Operations 应用，然后转到 **数据管理 \> 双写入** 。
+2. 对要同步其数据的实体运行 **初始同步** 功能。
 
 若要将现有 Common Data Service 数据同步到 Finance and Operations 应用，请执行以下步骤。
 
 1. 在 Finance and Operations 应用中创建一个新公司。
 2. 将该公司添加到双写入连接设置。
 3. 通过使用三个字母的 ISO 公司代码[引导](bootstrap-company-data.md) Common Data Service 数据。
+4. 对要同步其数据的实体运行 **初始同步** 功能。
 
-因为双写入处于实时同步模式，所以 Common Data Service 中的数据将自动开始流向 Finance and Operations 应用。
+有关示例和替代方法，请参阅[示例](#example)。
 
-## <a name="an-existing-finance-and-operations-app-instance-and-a-new-or-existing-model-driven-app-instance"></a><a id="existing-existing"></a>一个现有 Finance and Operations 应用实例和一个新的或现有模型驱动应用实例
+## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a>一个现有的 Finance and Operations 应用实例和一个新的 Customer Engagement 应用实例
 
-若要设置现有 Finance and Operations 应用实例与 Dynamics 365 中的模型驱动应用的新的或现有的实例之间的双写入连接，需要在 Finance and Operation 环境中进行。
+若要在一个现有的 Finance and Operations 应用实例与一个新的 Customer Engagement 应用实例之间设置双写入连接，需要在 Finance and Operation 环境中进行。
+
+1. [从 Finance and Operations 应用设置连接](enable-dual-write.md)。
+2. 对要同步其数据的实体运行 **初始同步** 功能。
+
+有关示例和替代方法，请参阅[示例](#example)。
+
+## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a>一个现有的 Finance and Operations 应用实例和一个现有的 Customer Engagement 应用实例
+
+若要在一个现有的 Finance and Operations 应用实例与一个现有的 Customer Engagement 应用实例之间设置双写入连接，需要在 Finance and Operation 环境中进行。
 
 1. 从 Finance and Operations 应用设置连接。
 2. 若要将现有 Common Data Service 数据同步到 Finance and Operations 应用，请使用三个字母的 ISO 公司代码[引导](bootstrap-company-data.md) Common Data Service 数据。
+3. 对要同步其数据的实体运行 **初始同步** 功能。
 
-因为双写入处于实时同步模式，所以 Common Data Service 中的数据将自动开始流向 Finance and Operations 应用。
+有关示例和替代方法，请参阅[示例](#example)。
+
+## <a name="example"></a>示例
+
+有关示例，请参见[启用客户 V3 到联系人的实体映射](enable-entity-map.md#example-enabling-the-customers-v3contacts-entity-map)
+
+有关基于每个实体中需要运行初始同步的数据量的替代方法，请参阅[初始同步的注意事项](initial-sync-guidance.md)。

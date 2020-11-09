@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWorkException, WHSWorker
+ms.search.form: WHSWorkException, WHSWorker, WHSLocationWithWorkException
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e14a4fc72d256bea31296bff80d5b5818b95ea9d
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: 4e8f5c23f82e96145f411ec993f766a90137b5b8
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527411"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015956"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>设置领料短缺的物料重新分配
 
@@ -30,7 +30,7 @@ ms.locfileid: "3527411"
 
 此过程显示如何启用仓库工作人员，以便在为其指示的货位的库存不足时，快速找到备用货位。 
 
-重新分配过程由**工作异常**控制，由仓库**工作人员**使用。
+重新分配过程由 **工作异常** 控制，由仓库 **工作人员** 使用。
 
 可以使用自动和/或手动重新分配流程：
 
@@ -43,24 +43,24 @@ ms.locfileid: "3527411"
 
 创建此过程时使用的是 USMF 演示数据格式。
 
-1. 在**导航窗格**中，转到**仓库管理 > 设置 > 工作 > 工作异常**。
-2. 单击**新建** 
-3. 在**工作异常代码**字段中，键入一个值。 这将是此异常的标题。 例如，“手动领料短缺”。
-4. 在**描述**字段中，键入一个值。 这将是此异常的使用情况简短说明。 例如，“领料短缺 - 物料不可用”。
-5. 在**异常类型**字段中，选择**领料短缺**。
-6. 选中**调整库存**复选框。 如果选中，领料短缺货位自动将库存调整为 0。
-7. 在**默认调整类型代码**字段中，输入或选择一个值。 例如，在 USMF 中，可以选择**删除 Res Adj Out**。每个调整类型代码中包含四个特征：名称、说明、库存日记帐名称和**删除预留**。 如果启用了**删除预留**，将删除领料短缺行的预留。  
-8. 在**物料重新分配**字段中，选择一个值，如“手动”。 如果选择“手动”或“自动和手动”，需要启用仓库工作人员才能使用手动重新分配。
+1. 在 **导航窗格** 中，转到 **仓库管理 > 设置 > 工作 > 工作异常** 。
+2. 单击 **新建** 
+3. 在 **工作异常代码** 字段中，键入一个值。 这将是此异常的标题。 例如，“手动领料短缺”。
+4. 在 **描述** 字段中，键入一个值。 这将是此异常的使用情况简短说明。 例如，“领料短缺 - 物料不可用”。
+5. 在 **异常类型** 字段中，选择 **领料短缺** 。
+6. 选中 **调整库存** 复选框。 如果选中，领料短缺货位自动将库存调整为 0。
+7. 在 **默认调整类型代码** 字段中，输入或选择一个值。 例如，在 USMF 中，可以选择 **删除 Res Adj Out** 。每个调整类型代码中包含四个特征：名称、说明、库存日记帐名称和 **删除预留** 。 如果启用了 **删除预留** ，将删除领料短缺行的预留。  
+8. 在 **物料重新分配** 字段中，选择一个值，如“手动”。 如果选择“手动”或“自动和手动”，需要启用仓库工作人员才能使用手动重新分配。
 
 ## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a>设置工作人员以使用物料手动重新分配
 
 创建此过程时使用的是 USMF 演示数据格式。
 
 1. 关闭该页面。
-2. 在**导航窗格**中，转到**仓库管理 > 设置 > 工作人员**。
-3. 单击**编辑**。
+2. 在 **导航窗格** 中，转到 **仓库管理 > 设置 > 工作人员** 。
+3. 单击 **编辑** 。
 4. 在列表中，选择工作人员。 例如，Julia Funderburk。
-5. 展开**用户**快速选项卡。
-6. 在列表中选择一个**用户 ID**。 例如，24。
-7. 展开**工作**快速选项卡。
-8. 在**允许手动重新分配物料**字段中选择**是**。
+5. 展开 **用户** 快速选项卡。
+6. 在列表中选择一个 **用户 ID** 。 例如，24。
+7. 展开 **工作** 快速选项卡。
+8. 在 **允许手动重新分配物料** 字段中选择 **是** 。

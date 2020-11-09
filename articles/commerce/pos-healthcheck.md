@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: b818553b7763ad03e2e23b869b364bb21c8afd57
-ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
+ms.openlocfilehash: 86f0964b6d929d0434a8bf04aaefc173bee21c6f
+ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "3515803"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013196"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>POS 外围设备和服务的运行状况检查
 
@@ -46,7 +46,7 @@ Microsoft Dynamics 365 Commerce 版本 10.0.10 及更高版本中有一项运行
 
 ## <a name="health-check-operation"></a>运行状况检查操作
 
-运行状况检查操作是 Commerce Headquarters 中 **POS 操作**页内的操作 717。 其可在 POS 处于非银箱模式时使用。 但是，必须有一个硬件工作站处于活动状态。
+运行状况检查操作是 Commerce Headquarters 中 **POS 操作** 页内的操作 717。 其可在 POS 处于非银箱模式时使用。 但是，必须有一个硬件工作站处于活动状态。
 
 默认情况下，运行状况检查经测试收银机的当前活动硬件工作站的硬件配置文件中配置的设备。 如果收银机在一天内使用多个硬件工作站，若要对所有这些硬件工作站执行运行状况检查，该收银机同时只能连接到一个硬件工作站。 不存在商店级运行状况检查。 但是，可以通过 Commerce Server 扩展执行这种检查。
 
@@ -54,25 +54,25 @@ Microsoft Dynamics 365 Commerce 版本 10.0.10 及更高版本中有一项运行
 
 | 类型 | 连接 | 明细 |
 |---|---|---|
-| 打印机 | OPOS | 此项检查测试 POS (OPOS) 功能的链接和嵌入。 下面举了一些示例加以说明：<ul><li>打开：**Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭：**DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
-| 行显示内容 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开：**Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭：**DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
+| 打印机 | OPOS | 此项检查测试 POS (OPOS) 功能的链接和嵌入。 下面举了一些示例加以说明：<ul><li>打开： **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭： **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
+| 行显示内容 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开： **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭： **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
 | 双显示器 | 窗口 | 此项检查确保操作系统检测第二个 Windows 显示器。 | 
-| MSR | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开：**Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭：**DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
-| 银箱 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开：**Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭：**DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> | 
-| 扫描仪 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开：**Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭：**DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> | 
-| 比例 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开：**Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭：**DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
-| PIN 小键盘 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开：**Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭：**DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
+| MSR | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开： **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭： **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
+| 银箱 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开： **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭： **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> | 
+| 扫描仪 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开： **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭： **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> | 
+| 比例 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开： **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭： **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
+| PIN 小键盘 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开： **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭： **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
 | 付款终端 | 付款 SDK | 此项检查测试付款 SDK 提供的基本付款终端功能。 <ul><li>锁定</li><li>BeginTransaction</li><li>EndTransaction</li><li>ReleaseDevice</li><li>期结</li></ul> |
 
 ### <a name="using-the-health-check-operation-in-the-pos"></a>在 POS 中使用运行状况检查操作
 
-在 POS 中启动运行状况检查操作之后，右侧的窗格将列出配置的设备，并显示各设备的状态。 若要对一个设备执行运行状况检查，请选择该设备，然后选择**测试选定设备**。 若要对所有设备执行运行状况检查，请选择**全部测试**。 **全部测试**功能一次一个测试所有设备，并更新**状态**列中各设备的状态。
+在 POS 中启动运行状况检查操作之后，右侧的窗格将列出配置的设备，并显示各设备的状态。 若要对一个设备执行运行状况检查，请选择该设备，然后选择 **测试选定设备** 。 若要对所有设备执行运行状况检查，请选择 **全部测试** 。 **全部测试** 功能一次一个测试所有设备，并更新 **状态** 列中各设备的状态。
 
-**上次检查**列 显示上次对每个设备执行运行状况检查的时间。
+**上次检查** 列 显示上次对每个设备执行运行状况检查的时间。
 
-如果通过了某个设备的运行状况检查（即未遇到任何错误），该设备的状态将为**正常**。 如果运行状况检查失败，则状态将指示存在错误。 在此情况下，右侧的窗格提供与错误有关的详细信息，或指示用户联系系统管理员。
+如果通过了某个设备的运行状况检查（即未遇到任何错误），该设备的状态将为 **正常** 。 如果运行状况检查失败，则状态将指示存在错误。 在此情况下，右侧的窗格提供与错误有关的详细信息，或指示用户联系系统管理员。
 
-某些设备（如 OPOS 键锁）没有自带运行状况检查测试。 如果没有为使用的任何设备检测到运行状况检查测试，状态将为**不支持**。
+某些设备（如 OPOS 键锁）没有自带运行状况检查测试。 如果没有为使用的任何设备检测到运行状况检查测试，状态将为 **不支持** 。
 
 ### <a name="extending-health-checks"></a>扩展运行状况检查
 
@@ -82,4 +82,4 @@ Microsoft Dynamics 365 Commerce 版本 10.0.10 及更高版本中有一项运行
 
 ## <a name="related-articles"></a>相关文章
 
-[Modern POS (MPOS) 触发器和打印](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/pos-trigger-printing)
+[Modern POS (MPOS) 触发器和打印](dev-itpro/pos-trigger-printing.md)

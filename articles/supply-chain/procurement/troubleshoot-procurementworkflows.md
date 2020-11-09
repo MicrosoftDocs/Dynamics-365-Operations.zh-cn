@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 940a6c39ac83e7388d4e1a08b656b75df81ed801
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.openlocfilehash: cdedc45b8f057310801f134104156a732fb58d86
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834318"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018529"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>采购工作流故障排除
 
@@ -32,7 +32,7 @@ ms.locfileid: "3834318"
 
 ## <a name="error-when-re-submitting-a-purchase-order-to-the-workflow-after-a-change-changes-to-purchase-order-x-are-allowed-only-in-a-draft-state-when-change-management-is-activated"></a>更改后将采购订单重新提交到工作流时出错：“激活更改管理后，仅允许在“草稿”状态下对采购订单 X 进行更改”
 
-仅当在您请求更改之前采购订单处于*已确认*状态时，才会发生此问题。 如果您在采购订单处于*已批准*状态时请求更改，工作流可以成功处理。
+仅当在您请求更改之前采购订单处于 *已确认* 状态时，才会发生此问题。 如果您在采购订单处于 *已批准* 状态时请求更改，工作流可以成功处理。
 
 ### <a name="error-description"></a>错误描述
 
@@ -48,7 +48,7 @@ SysWorkflowQueue-resume
 
 发生此问题可能是由于采购订单分配不一致。
 
-要解决此问题并将采购订单重置为*草稿*状态，请转到**采购 \> 定期任务 \> 清除 \> 采购订单分配重置**。 有关详细信息，请参阅以下博客文章：[解决 Dynamics 365 Supply Chain Management 中的采购订单分配错误](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/)。
+要解决此问题并将采购订单重置为 *草稿* 状态，请转到 **采购 \> 定期任务 \> 清除 \> 采购订单分配重置** 。 有关详细信息，请参阅以下博客文章：[解决 Dynamics 365 Supply Chain Management 中的采购订单分配错误](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/)。
 
 此问题将通过[此 Microsoft 知识库 (KB) 文章](https://msdyneng.visualstudio.com/FinOps/_workitems/edit/467138)解决。
 
@@ -56,13 +56,13 @@ SysWorkflowQueue-resume
 
 发生此问题可能是由于采购订单分配不一致。
 
-要解决此问题并将采购订单重置为*草稿*状态，请转到**采购 \> 定期任务 \> 清除 \> 采购订单分配重置**。 有关详细信息，请参阅以下博客文章：[解决 Dynamics 365 Supply Chain Management 中的采购订单分配错误](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/)。
+要解决此问题并将采购订单重置为 *草稿* 状态，请转到 **采购 \> 定期任务 \> 清除 \> 采购订单分配重置** 。 有关详细信息，请参阅以下博客文章：[解决 Dynamics 365 Supply Chain Management 中的采购订单分配错误](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/)。
 
 ## <a name="if-a-delivery-remainder-is-canceled-on-a-purchase-order-where-change-management-is-turned-on-the-purchase-order-goes-to-a-confirmed-state"></a>如果在打开了更改管理的采购订单上取消了剩余交货量，采购订单将进入“已确认”状态。
 
 ### <a name="issue-description"></a>问题描述
 
-对于需要接受更改管理的采购订单，如果请求的唯一更改是取消一个或多个行上的剩余交货量，该采购订单在获得批准后将直接进入*已确认*状态，不会创建日记帐。
+对于需要接受更改管理的采购订单，如果请求的唯一更改是取消一个或多个行上的剩余交货量，该采购订单在获得批准后将直接进入 *已确认* 状态，不会创建日记帐。
 
 ### <a name="issue-resolution"></a>解决问题
 
@@ -74,9 +74,9 @@ SysWorkflowQueue-resume
 
 ### <a name="issue-description"></a>问题描述
 
-取消处于*已确认*状态的采购订单后，取消的采购订单仍会出现在**采购订单准备**工作区中的草稿采购订单列表中。
+取消处于 *已确认* 状态的采购订单后，取消的采购订单仍会出现在 **采购订单准备** 工作区中的草稿采购订单列表中。
 
 ### <a name="issue-resolution"></a>解决问题
 
-仅需要接受更改管理的采购订单会发生此问题。 发生这种情况是因为取消被认为是必须进行审批的更改。 审批可以由系统自动完成。 因此，流程是将取消的采购订单提交到审批工作流，让它可以进入*已批准*状态。 此时，采购订单将不再出现在**采购订单准备**工作区中的草稿采购订单列表中。
+仅需要接受更改管理的采购订单会发生此问题。 发生这种情况是因为取消被认为是必须进行审批的更改。 审批可以由系统自动完成。 因此，流程是将取消的采购订单提交到审批工作流，让它可以进入 *已批准* 状态。 此时，采购订单将不再出现在 **采购订单准备** 工作区中的草稿采购订单列表中。
 

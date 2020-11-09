@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow, Kanban, KanbanQuantityOverview, KanbanAssignCard, KanbanCirculatingCards, KanbanRules
+ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow, Kanban, KanbanQuantityOverview, KanbanAssignCard, KanbanCirculatingCards, KanbanRules, WHSKanbanWaveTableManagePickingListPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80845db4f3e555b2673f7a3bd331b63245793775
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 63a9856035088642254fd43d14cb324a89bc19d6
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826662"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017866"
 ---
 # <a name="lean-manufacturing-overview"></a>Lean manufacturing 概览
 
@@ -51,9 +51,9 @@ ms.locfileid: "3826662"
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a>使用看板标记需求的要求
 货物在需要的情况下，系统下拉生产物料。 此操作将减少交货提前期和额外库存。 您可以使用看板计划、跟踪和处理基于生产流程的需求。 若要创建看板结构，创建看板时，创建看板规则定义，并且要求如何执行。 您可以创建规则的两种类型。 制造规则创建处理看板作业，并且，提领看板的规则创建转移看板作业。 可以设置以下补货策略：
--   **固定数量**看板规则与处理单位的固定编号相关，这意味着，活动看板的数量是固定的。 只要使用了看板中的所有产品并手动清空了处理单元，将创建同一类型的新看板。在创建固定数量看板规则时，您可以计算最佳看板数量和使用的产品数量。 该计算考虑到预测、未结订单的实际需求、补货物料的提前期以及历史需求。
--   **计划**的看板规则由主计划计算的补货需求。 主计划生成可以确定到看板的计划看板。
--   **事件**看板规则源自销售订单行、生产物料清单行的行或最小库存量设置的补货要求。 在生成事件看板时，这些限定为源需求。
+-   **固定数量** 看板规则与处理单位的固定编号相关，这意味着，活动看板的数量是固定的。 只要使用了看板中的所有产品并手动清空了处理单元，将创建同一类型的新看板。在创建固定数量看板规则时，您可以计算最佳看板数量和使用的产品数量。 该计算考虑到预测、未结订单的实际需求、补货物料的提前期以及历史需求。
+-   **计划** 的看板规则由主计划计算的补货需求。 主计划生成可以确定到看板的计划看板。
+-   **事件** 看板规则源自销售订单行、生产物料清单行的行或最小库存量设置的补货要求。 在生成事件看板时，这些限定为源需求。
 
 在创建看板时，基于定义在看板规则中的看板流活动中将生成一个或多个看板作业。
 

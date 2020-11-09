@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSLocDirTable
+ms.search.form: WHSLocDirTable, WHSReplenishmentTemplates
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 911a1da7d762b25f637b7d3b4d3b6214023203f5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c69a9c9fd595280ba4f05a11409a3e672e4b1691
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205613"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017498"
 ---
 # <a name="immediate-replenishment"></a>即时补货
 
@@ -47,7 +47,7 @@ ms.locfileid: "3205613"
 
 ## <a name="set-up-immediate-replenishment"></a>设置即时补货
 
-- 转至**仓库管理** \> **设置** \> **位置指令**，然后在**行**选项卡的**即时补货模板**列表中为波形需求选择补货模板。
+- 转至 **仓库管理** \> **设置** \> **位置指令** ，然后在 **行** 选项卡的 **即时补货模板** 列表中为波形需求选择补货模板。
 
 如果位置指令行未能分配专用度量单位，则应用补货模板。
 
@@ -55,5 +55,5 @@ ms.locfileid: "3205613"
 
 如果为位置指令行选择了即时补货，但是对该位置指令行使用需求补货模板时未生成补货工作，则必须调查下面的两种主要原因：
 
-- 确保应用的需求补货模板设置为使用**补货**类型的正确位置模板和工作模板。
+- 确保应用的需求补货模板设置为使用 **补货** 类型的正确位置模板和工作模板。
 - 确保需求补货模板在其中为补货搜索现货库存的位置中现货库存充足。

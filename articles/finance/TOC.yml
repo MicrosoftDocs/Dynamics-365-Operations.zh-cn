@@ -14,7 +14,7 @@
               items:
                 - name: One Version 服务更新概览
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/finance/toc.json
-                - name: One Version 服务更新常见问题
+                - name: One Version 服务更新常见问题解答
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/finance/toc.json
                 - name: 软件生命周期策略 - 云
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/finance/toc.json
@@ -136,7 +136,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/finance/toc.json
                 - name: 功能管理概览
                   href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/finance/toc.json
-                - name: 客户端常见问题
+                - name: 客户端常见问题解答
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/finance/toc.json
                 - name: 操作搜索
                   href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/finance/toc.json
@@ -184,11 +184,11 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/finance/toc.json
                 - name: 准备实施
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/finance/toc.json
-                - name: 实施常见问题
+                - name: 实施常见问题解答
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/finance/toc.json
                 - name: 提交服务请求
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/finance/toc.json
-                - name: 订阅、LCS 项目和 Azure AD 租户常见问题
+                - name: 订阅、LCS 项目和 Azure AD 租户常见问题解答
                   href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/finance/toc.json
                 - name: 在数据中心之间移动环境
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/finance/toc.json
@@ -240,6 +240,8 @@
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: 查看供应商发票自动化结果
                   href: accounts-payable/view-automated-vendor-invoice.md
+                - name: 供应商发票输入工作区
+                  href: accounts-payable/vendor-invoices-workspace.md
             - name: 会计分配和供应商发票的子分类日记帐分录
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: 发票匹配和内部公司采购订单
@@ -922,6 +924,8 @@
                   href: general-ledger/open-lines-excel-journals-documents.md
                 - name: 查看日记帐条目和交易记录
                   href: general-ledger/view-journal-entries-transactions.md
+                - name: 具有交易明细报告的试算平衡表
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: 将过帐日记帐条目记入日记帐
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
                 - name: 合并公司中的币种重估
@@ -1170,8 +1174,6 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: 在公共部门中创建高级分类帐条目
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: 具有交易明细报告的试算平衡表
-                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: 使用现金控制限制
                   href: public-sector/cash-control.md
                 - name: 公共部门中的年终处理
@@ -1398,6 +1400,8 @@
                       href: localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
                     - name: NF-e 证书
                       href: localizations/latam-bra-nfe-certs.md
+                    - name: NF-e 自定义证书验证
+                      href: localizations/nf-e-custom-certificate-validation.md
                     - name: 设置、导入并验证 NF-e XML 文档和 DANFE
                       href: localizations/latam-bra-set-up-import-nfe.md
                     - name: 设置 NF-e 联邦参数
@@ -1538,7 +1542,7 @@
                   href: localizations/apac-chn-negative-debits-credits.md
                 - name: 符合中国工作规则的用户操作日志
                   href: localizations/tasks/user-operation-log-china-working-rule.md
-                - name: 增值税客户账单常见问题
+                - name: 增值税客户账单常见问题解答
                   href: localizations/apac-chn-tax-integration-vat-customer-invoices.md
             - name: 捷克共和国
               items:
@@ -2080,6 +2084,8 @@
                       href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: 税金查询
                       href: localizations/apac-ind-GST-tax-inquiry.md
+                    - name: 清除 TaxDocumentJSON 表
+                      href: localizations/gte-clean-up-tax-document-json-table.md
                 - name: 税引擎
                   items:
                     - name: 税引擎概览
@@ -2098,7 +2104,7 @@
                       href: general-ledger/extend-tax-engine-configurations.md
                     - name: 解决 GTE 问题
                       href: localizations/tax-engine-trouble-shooting.md
-                - name: 税金阈值常见问题
+                - name: 税金阈值常见问题解答
                   href: localizations/apac-ind-tax-thresholds.md
             - name: 意大利
               items:
@@ -2216,7 +2222,7 @@
                   href: localizations/tasks/depreciate-accrue-interest-expense.md
                 - name: 折旧具有已过帐缩减条目的固定资产
                   href: localizations/tasks/depreciation-fixed-assets-reduction-entry-posted.md
-                - name: 折旧常见问题
+                - name: 折旧常见问题解答
                   href: localizations/apac-jpn-fixed-asset-depreciation.md
                 - name: 处置具有缩减条目的固定资产
                   href: localizations/tasks/dispose-fixed-asset-reduction-entry.md
@@ -2651,7 +2657,7 @@
                         - name: 库存配置文件概览
                           href: localizations/rus-inventory-profile-overview.md
                         - name: 设置库存配置文件
-                          hreF: localizations/rus-set-up-inventory-profile.md
+                          href: localizations/rus-set-up-inventory-profile.md
                         - name: 在文档和查询中使用库存配置文件
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: 报告
@@ -2848,7 +2854,7 @@
                   href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
                 - name: 创建工作时间日历
                   href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
-                - name: 人事行动常见问题
+                - name: 人事行动常见问题解答
                   href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
                 - name: 使用工作流管理员工信息
                   href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
@@ -3762,7 +3768,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: 配置全球通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
-                - name: 通讯簿常见问题
+                - name: 通讯簿常见问题解答
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: 配置通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/finance/toc.json
@@ -3828,7 +3834,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/finance/toc.json
                 - name: 工作流类型报告
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/finance/toc.json
-                - name: 工作流常见问题
+                - name: 工作流常见问题解答
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/finance/toc.json
             - name: 预警
               items:
@@ -3892,7 +3898,7 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-earning-code-group-tasks.md
                 - name: 设置税、税区、税码和税组
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-tax-information-tasks.md
-                - name: 税码、税组和过帐定义常见问题
+                - name: 税码、税组和过帐定义常见问题解答
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-tax-codes-tax-groups-definitions.md
                 - name: 输入工资期初余额
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-enter-beginning-balances.md
@@ -3904,7 +3910,7 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md
                 - name: 设置津贴收入
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-premium-earning-setup-tasks.md
-                - name: 扣押、征税和管理费用常见问题
+                - name: 扣押、征税和管理费用常见问题解答
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-garnishment-tax-levy-administrative-fees.md
             - name: 跟踪家庭医疗休假法的休假
               href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-track-time-for-fmla.md
@@ -3918,7 +3924,7 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-issue-worker-payments.md
                 - name: 过帐工资单分配并生成供应商账单
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-post-payroll-generate-vendor-invoices.md
-                - name: 工资单和付款生成常见问题
+                - name: 工资单和付款生成常见问题解答
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-pay-statements-payment-generation-process.md
             - name: 完成付款流程
               items:
@@ -3930,7 +3936,7 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-pay-statements.md
             - name: 维护和申报
               items:
-                - name: 工资单数据更新常见问题
+                - name: 工资单数据更新常见问题解答
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-payroll-data-updates.md
                 - name: 标准工资单报表
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-generate-payroll-reports.md

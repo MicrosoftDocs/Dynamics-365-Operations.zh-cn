@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 756924c87ced7cd2d5fc4e7c2a01b571558d3550
-ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
+ms.openlocfilehash: 1b18965b41822c6ae6c263948c6605a229277165
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3801450"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012313"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Dynamics 365 Supply Chain Management 10.0.8（2020 年 2 月）中的新增功能或更改
 
@@ -36,13 +36,14 @@ ms.locfileid: "3801450"
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
-此版本中包含以下功能。 功能标题链接至[发布计划](https://docs.microsoft.com/dynamics365/release-plans/)站点中的更多信息。 更多链接指向该功能的更多当前可用文档或视频。 这些功能中的一部分也可以包含在之前的某个增量版本中，但是未在之前的*新增功能*主题中公布，因此我们在这里添加这些功能。 这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
+此版本中包含以下功能。 功能标题链接至[发布计划](https://docs.microsoft.com/dynamics365/release-plans/)站点中的更多信息。 更多链接指向该功能的更多当前可用文档或视频。 这些功能中的一部分也可以包含在之前的某个增量版本中，但是未在之前的 *新增功能* 主题中公布，因此我们在这里添加这些功能。 这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
 
 - [其他位置区域](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+
 - [资产管理](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - 有关详细信息，请参阅[资产管理概述](../asset-management/index.md)。
 - [取消工作](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - 有关详细信息，请参阅[取消要进行异常处理的仓库工作](../warehousing/cancel-warehouse-work.md)。
 - [更改工作的工作池](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - 有关详细信息，请参阅[更改工作的工作池](../warehousing/change-work-pool-on-work.md)。
-- [群集位置已满](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full) - 有关详细信息，请参阅[群集位置已满](../warehousing/cluster-position-full.md)。
+- [群集位置已满](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - 有关详细信息，请参阅[集群位置已满](../warehousing/cluster-position-full.md)。
 - [确认并转移](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - 有关详细信息，请参阅[确认并转移](../warehousing/confirm-and-transfer.md)。
 - [库位指令库存领料帐龄](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - 有关详细信息，请参阅[库位指令库存领料帐龄](../warehousing/location-directive-inventory-picking-aging.md)。
 - [库位状态](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
@@ -78,8 +79,8 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.8 中包含平台更新 32�
 
 [Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
 
-- *已移除*的功能在产品中不再可用。
-- *已弃用*的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
+- *已移除* 的功能在产品中不再可用。
+- *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
 从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。
 

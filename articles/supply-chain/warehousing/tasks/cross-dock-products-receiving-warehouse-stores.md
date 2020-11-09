@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: RetailBuyersPushPerPackage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -16,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f17585359d93030d7830eb60ce07af7c48f5d49f
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 033d4f72b626130c144faff30fe0d35349b26c6d
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979567"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015864"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>将产品从接收仓库越库配送到商店
 

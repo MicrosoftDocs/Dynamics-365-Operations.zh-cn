@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchRFQTable
+ms.search.form: PurchTable, PurchTablePart, PurchRFQTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b83490acdc58c9ee0ffae9480f69a99477913843
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.openlocfilehash: b4349eeba285492202b5df8481b277a06708a4c8
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834321"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018205"
 ---
 # <a name="troubleshoot-prices-discounts-agreements-and-rebates"></a>价格、折扣、协议和返点故障排除
 
@@ -48,7 +48,7 @@ ms.locfileid: "3834321"
 
 以下过程显示了一种重现此问题的方法。
 
-1. 在**采购参数**页上的**交货**选项卡上，确保将**在产品收货时生成费用**选项设置为*是*。
+1. 在 **采购参数** 页上的 **交货** 选项卡上，确保将 **在产品收货时生成费用** 选项设置为 *是* 。
 1. 创建包含费用的采购订单。
 1. 确认采购订单。
 1. 接收采购订单。
@@ -67,7 +67,7 @@ ms.locfileid: "3834321"
 
 ### <a name="reason-for-the-issue"></a>问题原因
 
-如果通过数据管理导入的采购订单行已经包含价格信息，将不会重新评估这些行的贸易协议。 例如，如果**单行折扣率**或为某行设置了价格和折扣值，则不会查找该行的贸易协议。
+如果通过数据管理导入的采购订单行已经包含价格信息，将不会重新评估这些行的贸易协议。 例如，如果 **单行折扣率** 或为某行设置了价格和折扣值，则不会查找该行的贸易协议。
 
 ### <a name="issue-workaround"></a>问题解决方法
 
@@ -105,11 +105,11 @@ ms.locfileid: "3834321"
 
 当采购订单上的货币不同时，不会根据货币重新计算贸易协议价格。
 
-*通用货币*功能可让您仅使用一种货币定义价格和折扣。 然后，您可以根据需要转换为其他货币。 而且，转换完成后，此功能还可以自动应用智能舍入。
+*通用货币* 功能可让您仅使用一种货币定义价格和折扣。 然后，您可以根据需要转换为其他货币。 而且，转换完成后，此功能还可以自动应用智能舍入。
 
 ## <a name="when-i-open-the-purchase-agreement-page-in-a-line-view-mode-i-cant-personalize-the-page-by-adding-the-price-unit-field-in-the-overview-of-the-line"></a>当我以行视图模式打开“采购协议”页时，我无法通过在该行的概览中添加“计价单位”字段来个性化该页面。
 
-协议框架中的某些共享字段不能包含在个性化设置中。 由于实现了数据模型，因此会出现此限制。 因此，您无法个性化**计价单位**字段。
+协议框架中的某些共享字段不能包含在个性化设置中。 由于实现了数据模型，因此会出现此限制。 因此，您无法个性化 **计价单位** 字段。
 
 ## <a name="the-maximum-limit-from-a-purchase-agreement-isnt-effective-on-a-purchase-requisition"></a>采购协议的最大限制对采购申请无效。
 

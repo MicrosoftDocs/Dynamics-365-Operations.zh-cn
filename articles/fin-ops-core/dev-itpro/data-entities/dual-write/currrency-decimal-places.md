@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 889337560f073708fb16b2dc173f9872593dd570
-ms.sourcegitcommit: be4fcf8f19c55e852a729b215a16e24e971ff5b7
+ms.openlocfilehash: 7e1f70d95f29dc154044f09c6020300a8e4f8987
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456806"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997470"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>双写入货币数据类型迁移
 
@@ -51,7 +50,7 @@ Common Data Service 中现有货币字段的存储无法支持超过四个小数
 
 ### <a name="request-a-migration"></a>请求迁移
 
-要使此功能可用，请发送电子邮件到 **CDSExpandDecimal@microsoft.com**，并包含以下信息：
+要使此功能可用，请发送电子邮件到 **CDSExpandDecimal@microsoft.com** ，并包含以下信息：
 
 + **主题：** 请求为 \<organizationID\> 启用扩展的十进制支持
 + **正文：** 我想要为我的组织 \<organizationID\> 启用扩展的十进制支持。
@@ -71,23 +70,23 @@ Microsoft 代表将在两到三个工作日内与您联系以完成后续步骤�
 
 要进行此更改，您必须在 Power Apps 中更新以下设置：
 
-+ **系统设置：定价的货币精度** – **设置用于整个系统定价的货币精度**字段定义当选择**定价精度**时货币在组织中的行为方式。
-+ **业务管理：货币** – **货币精度**字段可让您指定特定货币的自定义小数位数。 组织范围的设置可以回退。
++ **系统设置：定价的货币精度** – **设置用于整个系统定价的货币精度** 字段定义当选择 **定价精度** 时货币在组织中的行为方式。
++ **业务管理：货币** – **货币精度** 字段可让您指定特定货币的自定义小数位数。 组织范围的设置可以回退。
 
 存在一些限制：
 
 + 您无法在实体上配置货币字段。
-+ 您只能在**定价**和**交易货币**级别指定四个以上的小数位。
++ 您只能在 **定价** 和 **交易货币** 级别指定四个以上的小数位。
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>系统设置：定价的货币精度
 
-迁移完成后，管理员可以设置货币精度。 转到**设置 \> 管理**，然后选择**系统设置**。 然后，在**常规**选项卡上，更改**设置用于整个系统定价的货币精度**字段的值，如下图所示。
+迁移完成后，管理员可以设置货币精度。 转到 **设置 \> 管理** ，然后选择 **系统设置** 。 然后，在 **常规** 选项卡上，更改 **设置用于整个系统定价的货币精度** 字段的值，如下图所示。
 
 ![货币的系统设置](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>业务管理：货币
 
-如果您需要特定货币的货币精度与用于定价的货币精度不同，可以对其进行更改。 转到**设置 \> 业务管理**，选择**货币**，然后选择要更改的货币。 然后，将**货币精度**字段设置为所需的小数位数，如下图所示。
+如果您需要特定货币的货币精度与用于定价的货币精度不同，可以对其进行更改。 转到 **设置 \> 业务管理** ，选择 **货币** ，然后选择要更改的货币。 然后，将 **货币精度** 字段设置为所需的小数位数，如下图所示。
 
 ![特定区域的货币设置](media/specific-currency.png)
 

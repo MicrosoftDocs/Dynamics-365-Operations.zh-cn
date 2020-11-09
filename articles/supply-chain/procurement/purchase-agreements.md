@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
+ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 253177103435c765bfe45daffeae0c436617af21
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: ce6b76d92526b9a353bda2524bdfd0f7f4a5f68e
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803155"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018828"
 ---
 # <a name="purchase-agreements"></a>采购协议
 
@@ -33,21 +33,21 @@ ms.locfileid: "3803155"
 
 采购协议可应用于采购类别中的产品的特定数量、产品的特定币种金额或该产品的特定币种金额。 采购协议的价格和折扣覆盖存在的所有贸易协议中指定的价格和折扣。  
 
-在**采购协议**页上，您可以创建、应用和跟进您的组织及供应商之间存在的采购协议。 例如，在创建采购协议后，您可以直接从中进行订购。 每个采购协议都具有由创建采购协议的人员定义的有效期间。 采购的交货日期必须处于此有效期间的生效日期。  
+在 **采购协议** 页上，您可以创建、应用和跟进您的组织及供应商之间存在的采购协议。 例如，在创建采购协议后，您可以直接从中进行订购。 每个采购协议都具有由创建采购协议的人员定义的有效期间。 采购的交货日期必须处于此有效期间的生效日期。  
 
-在您创建某一采购协议后，必须激活它，然后它才会生效。 若要激活采购协议，请将**将协议标记为有效**选项设置为**是**。 
+在您创建某一采购协议后，必须激活它，然后它才会生效。 若要激活采购协议，请将 **将协议标记为有效** 选项设置为 **是** 。 
 
-为防止使用和确认您的购买协议，请将协议状态标记为**关闭**。 进行此更改后，您仍然可以随时将状态更新为**有效**。
+为防止使用和确认您的购买协议，请将协议状态标记为 **关闭** 。 进行此更改后，您仍然可以随时将状态更新为 **有效** 。
 
 ## <a name="responsible-workers-on-purchase-agreements"></a>采购协议中的负责工作人员
 
 您可以在采购协议分类中标识主要负责工作人员和次要负责工作人员。 这些值将由生成的采购协议继承。 您不需要在采购协议中添加负责工作人员，他们可以在采购协议上针对每个案例直接进行修改。 没有主要负责工作人员无法指定次要负责工作人员，但您不是必须指定次要负责工作人员。 您不能将同一个工作人员同时指定为主要负责工作人员和次要负责工作人员。
 
 > [!IMPORTANT]
-> 负责方功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在**功能管理**工作区中，此功能按照下面的方式列出：
+> 负责方功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
 > 
-> - **模块**：*采购任务*
-> - **功能名称**：*采购协议负责方*
+> - **模块** ： *采购任务*
+> - **功能名称** ： *采购协议负责方*
 
 ## <a name="commitment-types"></a>承诺类型
 采购协议的每一行都是采购的承诺。 您可以使用来自多个采购订单行 (PO) 履行承诺。 有以下四种承诺类型：
@@ -75,13 +75,13 @@ ms.locfileid: "3803155"
 -   **最小发放金额和最大发放金额** – 如果指定了金额，则如果更改导致订单行与相关承诺不同的订单行，您会收到一条消息。
 
 ## <a name="fulfillment-calculations-for-purchase-agreements"></a>采购协议的履行计算
-履行数量和金额显示在**采购协议**页的**行明细**快速选项卡上的**履行**选项卡上。  
+履行数量和金额显示在 **采购协议** 页的 **行明细** 快速选项卡上的 **履行** 选项卡上。  
 
-**履行**区域显示要求履行承诺的剩余金额或数量。  
+**履行** 区域显示要求履行承诺的剩余金额或数量。  
 
-**协议**区域显示销售协议行有效的总数量或总金额。  
+**协议** 区域显示销售协议行有效的总数量或总金额。  
 
-您可以通过选择采购订单行和发票行上或采购协议的标题上的**相关信息**操作，来访问对履行计算有贡献的采购订单行和发票行。
+您可以通过选择采购订单行和发票行上或采购协议的标题上的 **相关信息** 操作，来访问对履行计算有贡献的采购订单行和发票行。
 
 ## <a name="confirmations-and-version-history-for-purchase-agreements"></a>采购协议的确认和版本历史记录
 在确认某一采购协议时，将采购协议的当前版本存储在历史记录表中。 如果您更改该采购协议，您可以在历史记录中再次确认，以存储采购协议的其他版本。 如果未确认某一采购协议，您还可以将其用于创建采购订单。 但是，不存储采购协议的历史记录信息。 您可以预览或打印协议的所有版本。 然后可以与您的供应商共享该修订供审核。
@@ -93,7 +93,7 @@ ms.locfileid: "3803155"
 在某些情况下间接创建采购订单，您可以控制 Supply Chain Management 是否自动搜索适用的采购协议。 例如，在您自动确定计划的采购订单或基于销售订单创建的采购订单时，您可以执行这些操作。
 
 ## <a name="matching-policy-on-purchase-agreements"></a>采购协议的匹配政策
-您可以在采购协议的标头上定义行匹配政策。 当**应付帐款参数**页面上的**允许匹配政策覆盖**字段（在**价格和数量匹配**快速选项卡上）设置为**高于公司政策**时，此行匹配政策将遵守应付帐款参数行匹配政策。 引用采购协议的文档将使用在采购协议标头上定义的行匹配政策，除非在相应的物料、物料和供应商或类别采购策略上另有定义。
+您可以在采购协议的标头上定义行匹配政策。 当 **应付帐款参数** 页面上的 **允许匹配政策覆盖** 字段（在 **价格和数量匹配** 快速选项卡上）设置为 **高于公司政策** 时，此行匹配政策将遵守应付帐款参数行匹配政策。 引用采购协议的文档将使用在采购协议标头上定义的行匹配政策，除非在相应的物料、物料和供应商或类别采购策略上另有定义。
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>采购协议和内部公司交易
 内部公司贸易关系可以在不同的法人中的供应商帐户和客户帐户之间创建。 在为其中一个当事方创建销售订单或采购订单时，创建内部公司订单链。 在订单链中，在相应法人中创建销售订单和采购订单。  

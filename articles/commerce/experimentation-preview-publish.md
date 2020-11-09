@@ -3,7 +3,7 @@ title: 预览和发布试验
 description: 本主题介绍了如何从 Dynamics 365 Commerce 中预览和发布试验。
 author: sushma-rao
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 91e2e4840a2d53f195d881279050b6415d48b070
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: f1a565917ab7a048d4d455bc0a0fbd9316237aeb
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930149"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097108"
 ---
 # <a name="preview-and-publish-an-experiment"></a>预览和发布试验
 
@@ -34,18 +34,20 @@ ms.locfileid: "3930149"
 ## <a name="preview-your-experiment-variations"></a>预览试验变体
 您可以预览变体并继续进行编辑，直到它们实现您的预期效果。
 
-1. 在站点构建器中，使用命令栏下方的变体下拉菜单选择要预览的内容。 
-1. 选择顶部栏中的**预览**。 显示内容发布时的预览情况。
-1. 若要预览其他变体，请从变体下拉列表中选择它，然后再次选择**预览**。
+若要在 Commerce 站点构建器中预览试验变体，请按照以下步骤操作。
+
+1. 从命令栏下方的变体下拉菜单中，选择要预览的内容。 
+1. 在命令栏中，选择 **预览** 。 显示内容发布时的预览情况。
+1. 若要预览其他变体，请从变体下拉菜单中选择它，然后再次选择 **预览** 。
 
 ## <a name="publish-your-experiment"></a>发布试验
-如果您没有使用发布组来计划试验上线的时间，并且想立即发布，请在命令栏中选择**发布**。 将发布属于该试验的所有变体。
+如果您没有使用发布组来计划试验上线的时间，并且想立即发布，请在命令栏中选择 **发布** 。 将发布属于该试验的所有变体。
     
 > [!IMPORTANT]
 > 如果页面上有取消发布的 URL，必须首先发布该 URL，否则它将对您的网站用户不可见。 有关详细信息，请参阅[保存、预览和发布页面](save-preview-publish-page.md)。
     
 ### <a name="use-publish-groups-to-schedule-when-your-experiment-goes-live"></a>使用发布组计划试验上线的时间
-可以使用发布组计划发布在站点构建器中创建的变体。 在发布组中，您可以通过转到**试验**选项卡或者**页面**或**片段**选项卡来将页面或片段连接到试验。有关详细信息，请参阅[连接试验和编辑变体](experimentation-connect-edit.md)主题。 有关发布组的信息，请参阅[使用发布组](publish-groups.md)。
+可以使用发布组计划发布在站点构建器中创建的变体。 在发布组中，您可以通过选择左侧导航窗格中的 **试验** 将页面或片段连接到试验。 您也可以通过选择 **页面** 或 **片段** 并按照[连接试验和编辑变体](experimentation-connect-edit.md)中的说明来执行此操作。 有关发布组的信息，请参阅[使用发布组](publish-groups.md)。
 
 当使用发布组进行试验时，有一些需要注意的重要考虑事项。
 - 当您将运行了试验的页面或片段添加到发布组时，该试验将从发布组的页面或片段中删除。

@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 062e8972c879d770cc4106c2811cd4c16fff0446
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 5f3a1bba4596c7b645c20a790a6cbe8725ab665d
+ms.sourcegitcommit: e43aef72b7d65db1dcb014dfada5233ac051ba7c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974853"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013045"
 ---
 # <a name="customer-aging-report"></a>客户帐龄分析表 
 
-**客户帐龄**分析表显示应收客户余额，按日期间隔或帐龄期间排序。
+**客户帐龄** 分析表显示应收客户余额，按日期间隔或帐龄期间排序。
 
 生成此分析表时，显示下列默认参数。 可使用这些参数筛选将在分析表中显示的数据。 有关详细信息，请参阅[设置收款](set-up-collections.md)。
 
@@ -115,8 +115,9 @@ ms.locfileid: "3974853"
 <tr class="even">
 <td><p><strong>打印方向</strong></p></td>
 <td><p>选择是否计算余额，是为过去还是将来期间打印帐龄分析表。 相对于<strong>余额截止日期</strong>字段中选择的日期评估日期。 选择<strong>倒推</strong>以显示过去期间的信息。 选择<strong>正推</strong>以显示将来期间的信息。</p>
-
-**注意：** 只有当您未选择帐龄期间定义时，才能使用在此字段中输入的信息。</P>
+<div class="alert">
+  
+<STRONG>注意：</STRONG>只有当您未选择帐龄期间定义时，才能使用在此字段中输入的信息。</P>
 
 
 </div></td>

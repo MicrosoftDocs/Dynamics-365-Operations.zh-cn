@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: d45b19c1e88e6a27bde4335d4a356f2173bdfcd3
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 82bdcc71196c22689cc65601f98187aaa9e5e9d6
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275409"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997294"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>解决实时同步问题
 
@@ -58,7 +57,7 @@ ms.locfileid: "3275409"
 如果两处都存在数据，并且您已确认问题与数据无关，请按照以下步骤操作。
 
 1. 停止相关实体。
-2. 登录到 Finance and Operations 应用，并确保失败实体的记录存在于 DualWriteProjectConfiguration 和 DualWriteProjectFieldConfiguration 表中。 例如，以下是**客户**实体失败时查询将呈现的类似状态。
+2. 登录到 Finance and Operations 应用，并确保失败实体的记录存在于 DualWriteProjectConfiguration 和 DualWriteProjectFieldConfiguration 表中。 例如，以下是 **客户** 实体失败时查询将呈现的类似状态。
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -82,15 +81,15 @@ ms.locfileid: "3275409"
 
     ![组织映射](media/mapped_business_unit.png)
 
-2. 登录到 Dynamics 365 中的模型驱动应用内的环境，导航至**设置 \> 安全**，找到映射业务单位的团队。
+2. 登录到 Dynamics 365 中的模型驱动应用内的环境，导航至 **设置 \> 安全** ，找到映射业务单位的团队。
 
     ![映射业务单位的团队](media/setting_security_page.png)
 
-3. 打开要编辑的团队页面，然后选择**管理角色**打开**管理团队角色**对话框。
+3. 打开要编辑的团队页面，然后选择 **管理角色** 打开 **管理团队角色** 对话框。
 
     ![管理角色按钮](media/manage_team_roles.png)
 
-4. 为相关实体分配具有读/写权限的角色，然后选择**确定**。
+4. 为相关实体分配具有读/写权限的角色，然后选择 **确定** 。
 
 ## <a name="fix-synchronization-issues-in-an-environment-that-has-a-recently-changed-common-data-service-environment"></a>在最近更改了 Common Data Service 环境的环境中解决同步问题
 
@@ -98,7 +97,7 @@ ms.locfileid: "3275409"
 
 当您在 Finance and Operations 应用中创建数据时，您可能会收到以下错误消息：
 
-*{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**无法为实体 CustCustomerV3Entity 生成有效负载**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"有效负载创建失败，显示错误“URI 无效：此 URI 是空的”。"}\],"isErrorCountUpdated":true}*
+*{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":" **无法为实体 CustCustomerV3Entity 生成有效负载** ","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"有效负载创建失败，显示错误“URI 无效：此 URI 是空的”。"}\],"isErrorCountUpdated":true}*
 
 这是在 Dynamics 365 中的模型驱动应用中出现的错误情况：
 
@@ -108,7 +107,7 @@ ms.locfileid: "3275409"
 
 若要解决此问题，请按照以下步骤操作。
 
-1. 登录到 Finance and Operations 虚拟机 (VM)，打开 SQL Server Management Studio (SSMS)，在 DUALWRITEPROJECTCONFIGURATIONENTITY 表中查找记录，其中 **internalentityname** 等于 **客户 V3**，**externalentityname** 等于**客户**。 这是查询呈现的状态。
+1. 登录到 Finance and Operations 虚拟机 (VM)，打开 SQL Server Management Studio (SSMS)，在 DUALWRITEPROJECTCONFIGURATIONENTITY 表中查找记录，其中 **internalentityname** 等于 **客户 V3** ， **externalentityname** 等于 **客户** 。 这是查询呈现的状态。
 
     ```sql
     select projectname, externalenvironmentURL ,\* 

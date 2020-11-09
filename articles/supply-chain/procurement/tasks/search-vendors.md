@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: VendSearchCriterion, VendSearchAddCategory
+ms.search.form: VendSearchCriterion, VendSearchAddCategory, VendSearchAddReviewCriterionGroup, VendSearchResults, VendSearchAddReviewCriterion
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dda8cfa55809ebeeda695d02ed5f99e493325c3b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: bc28deb979fe8dc4e31befe6d4d5f6f91388f13e
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207569"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018044"
 ---
 # <a name="search-for-vendors"></a>搜索供应商
 
 [!include [banner](../../includes/banner.md)]
 
-了解如何基于特定条件检索供应商。 此示例显示了如何检索被批准用于特定采购类别，并拥有特定国家内首选地址的供应商。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。 此任务通常由采购专业人员完成。
+了解如何基于特定条件检索供应商。 此示例显示了如何检索被批准用于特定采购类别，并拥有特定国家/地区内首选地址的供应商。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。 此任务通常由采购专业人员完成。
 
 1. 转到“采购”>“供应商”>“供应商检索”。
 2. 单击“加号”图标以打开采购类别选择页。  

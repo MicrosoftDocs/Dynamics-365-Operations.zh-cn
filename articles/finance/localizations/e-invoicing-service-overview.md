@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b3445157efce6349b3febafb6c860260052f7d6c
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835909"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039738"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>电子开票附加产品概述
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 的电子开票附加产品是一种超级可扩展的多租户服务，可对电子发票单据进行可配置的处理并进行可配置的文档交换。 处理和集成规则完全可配置，逻辑在 Finance 和 Supply Chain Management 外部运行。 此服务主要针对企业对政府方案中的电子发票处理，但可以自定义配置来用于其他目的。
 
