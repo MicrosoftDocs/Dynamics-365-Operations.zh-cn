@@ -1,0 +1,256 @@
+- name: Dynamics 365 for Talent
+  href: talent-welcome.md
+  items:
+    - name: 入门
+      items:
+        - name: Talent 入门
+          href: talent-get-started.md
+        - name: Talent 新增功能或更改
+          href: whats-new.md
+          items:
+            - name: 2020 年 9 月 1 日
+              href: whats-new-talent-september-01-2020.md
+            - name: 2020 年 1 月 21 日
+              href: whats-new-talent-january-21-2020.md
+            - name: 2020 年 1 月 14 日
+              href: whats-new-talent-january-14-2020.md
+            - name: 2020 年 1 月 7 日
+              href: whats-new-talent-january-7-2020.md
+            - name: 2019 年 12 月 17 日
+              href: whats-new-talent-december-17-2019.md
+            - name: 2019 年 12 月 12 日
+              href: whats-new-talent-december-12-2019.md
+            - name: 2019 年 12 月 3 日
+              href: whats-new-talent-december-3-2019.md
+            - name: 2019 年 11 月 19 日
+              href: whats-new-talent-november-19-2019.md
+            - name: 2019 年 11 月 12 日
+              href: whats-new-talent-november-12-2019.md
+            - name: 2019 年 11 月 5 日
+              href: whats-new-talent-november-5-2019.md
+            - name: 2019 年 10 月 29 日
+              href: whats-new-talent-oct-29-2019.md
+            - name: 2019 年 10 月 23 日
+              href: whats-new-talent-october-23-2019.md
+            - name: 2019 年 10 月 8 日
+              href: whats-new-talent-october-8-2019.md
+            - name: 2019 年 10 月 1 日
+              href: whats-new-talent-october-1-2019.md
+            - name: 2019 年新增功能存档
+              items:
+                - name: 2019 年 9 月 17 日
+                  href: whats-new-talent-september-17-2019.md
+                - name: 2019 年 9 月 10 日
+                  href: whats-new-talent-september-12-2019.md
+                - name: 2019 年 8 月 27 日
+                  href: whats-new-talent-august-28-2019.md
+                - name: 2019 年 8 月 22 日
+                  href: whats-new-talent-august-21-2019.md
+                - name: 2019 年 8 月 13 日
+                  href: whats-new-talent-august-15-2019.md
+                - name: 2019 年 8 月 6 日
+                  href: whats-new-talent-august-7-2019.md
+                - name: 2019 年 7 月 30 日
+                  href: whats-new-talent-july-31-2019.md
+                - name: 2019 年 7 月 23 日
+                  href: whats-new-talent-july-24-2019.md
+                - name: 2019 年 7 月 16 日
+                  href: whats-new-talent-july-16-2019.md
+                - name: 2019 年 7 月 9 日
+                  href: whats-new-talent-july-9-2019.md
+                - name: 2019 年 7 月 2 日
+                  href: whats-new-talent-july-2-2019.md
+                - name: 2019 年 6 月 25 日
+                  href: whats-new-talent-june-25-2019.md
+                - name: 2019 年 6 月 18 日
+                  href: whats-new-talent-june-18-2019.md
+                - name: 2019 年 6 月 11 日
+                  href: whats-new-talent-june-11-2019.md
+                - name: 2019 年 6 月 4 日
+                  href: whats-new-talent-june-4-2019.md
+                - name: 2019 年 5 月 28 日
+                  href: whats-new-talent-may-28-2019.md
+                - name: 2019 年 5 月 21 日
+                  href: whats-new-talent-may-21-2019.md
+                - name: 2019 年 5 月 13 日
+                  href: whats-new-talent-may-13-2019.md
+                - name: 2019 年 5 月 6 日
+                  href: whats-new-talent-may-6-2019.md
+                - name: 2019 年 4 月 30 日
+                  href: whats-new-talent-april-30-2019.md
+                - name: 2019 年 4 月 25 日
+                  href: whats-new-talent-april-25-2019.md
+                - name: 2019 年 4 月 16 日
+                  href: whats-new-talent-april-16-2019.md
+                - name: 2019 年 4 月 9 日
+                  href: whats-new-talent-april-9-2019.md
+                - name: 2019 年 4 月 2 日
+                  href: whats-new-talent-april-2-2019.md
+                - name: 2019 年 3 月 26 日
+                  href: whats-new-talent-march-26-2019.md
+                - name: 2019 年 3 月 20 日
+                  href: whats-new-talent-march-20.md
+                - name: 2019 年 3 月 14 日
+                  href: whats-new-talent-march-14.md
+                - name: 2019 年 3 月 5 日
+                  href: whats-new-talent-march-5.md
+                - name: 2019 年 2 月 27 日
+                  href: whats-new-talent-feb-27.md
+                - name: 2019 年 2 月 14 日
+                  href: whats-new-talent-feb14.md
+                - name: 2019 年 2 月 7 日
+                  href: whats-new-talent-february-7.md
+                - name: 2019 年 1 月 31 日
+                  href: whats-new-talent-january-29.md
+                - name: 2019 年 1 月 23 日
+                  href: whats-new-talent-january-23.md
+                - name: 2019 年 1 月 17 日
+                  href: whats-new-talent-january-17.md
+                - name: 2019 年 1 月 11 日
+                  href: whats-new-talent-january-11.md
+            - name: 2018 年新增功能存档
+              items:
+                - name: 2018 年 12 月 14 日
+                  href: whats-new-talent-december-14.md
+                - name: 2018 年 12 月 6 日
+                  href: whats-new-talent-december-6.md
+                - name: 2018 年 11 月 27 日
+                  href: whats-new-talent-november-27.md
+                - name: 2018 年 11 月 15 日
+                  href: whats-new-talent-november-15.md
+                - name: 2018 年 10 月 31 日
+                  href: whats-new-talent-october-31.md
+                - name: 2018 年 10 月 19 日
+                  href: whats-new-talent-october-19.md
+                - name: 2018 年 10 月 15 日
+                  href: whats-new-talent-october-11.md
+                - name: 2018 年 10 月 8 日
+                  href: whats-new-talent-october-8.md
+                - name: 2018 年 10 月 1 日
+                  href: whats-new-talent-october-01.md
+                - name: 2018 年 9 月 24 日
+                  href: whats-new-talent-september-24.md
+                - name: 2018 年 9 月 17 日
+                  href: whats-new-talent-september-17-2018.md
+                - name: 2018 年 9 月 10 日
+                  href: whats-new-talent-september-10.md
+                - name: 2018 年 8 月
+                  href: whats-new-talent-august2018.md
+                - name: 2018 年 7 月
+                  href: whats-new-talent-july2018.md
+        - name: 系统要求
+          href: talent-versions-update-policy.md
+        - name: Talent 更新
+          href: talent-updates.md
+        - name: 配置 Talent
+          href: provisioning-talent.md
+        - name: 管理功能
+          href: access-preview-feature.md
+        - name: 配置 Onboard
+          href: modular-app-tech-faq.md
+        - name: 从 Attract 和 Onboard 中导出数据
+          href: attract-onboard-export-data.md
+        - name: 嵌入来自 Power Apps 的画布应用
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: 获取 Talent 支持
+          href: talent-support.md
+    - name: 通过 Attract 为您的组织配备人员
+      items:
+        - name: 选择 Attract 版本
+          href: attract-comprehensive-hiring.md
+        - name: Attract 特色和功能
+          href: attract-overview.md
+        - name: 配置系统设置
+          items:
+            - name: 配置公司信息
+              href: admin-settings-attract.md
+            - name: 设置用户权限
+              href: security-attract.md
+            - name: 设置您的求职站点
+              href: career-site.md
+            - name: 启用 Broadbean 集成
+              href: attract-admin-job-board-settings.md
+            - name: 配置电子邮件设置
+              href: attract-configure-email-settings.md
+            - name: 设置 LinkedIn 集成
+              href: attract-admin-linkedin.md
+            - name: LinkedIn 集成常见问题
+              href: attract-linkedin-faq.md
+        - name: 创建招聘流程
+          items:
+            - name: 创建招聘流程模板
+              href: process-templates-attract.md
+            - name: 将活动添加到招聘流程
+              href: activities-attract.md
+            - name: 创建电子邮件模板
+              href: email-templates.md
+            - name: 使用分析报告
+              href: analytic-reports.md
+        - name: 创建和发布职位
+          items:
+            - name: 创建职位
+              href: creating-jobs-attract.md
+            - name: 将职位发布至 LinkedIn
+              href: attract-post-jobs-to-linkedin.md
+            - name: 将职位发布至 Broadbean
+              href: posting-jobs-external.md
+            - name: 关闭职位
+              href: attract-close-job.md
+        - name: 搜寻候选人
+          items:
+            - name: 使用人才池搜寻候选人
+              href: attract-talent-pools.md
+            - name: 使用 LinkedIn Recruiter 搜寻候选人
+              href: attract-linkedin-recruiter.md
+            - name: 跟踪候选人来源
+              href: source-tracking.md
+            - name: 智能建议
+              href: intelligent-recommendations.md
+        - name: 安排面试
+          items:
+            - name: 计划面试
+              href: interview-scheduling-feedback.md
+        - name: 发出聘约
+          items:
+            - name: 设置聘约管理
+              href: offer-setup.md
+            - name: 创建、审核和签署聘约
+              href: creating-offers.md
+        - name: Attract 的可扩展性
+          href: extensibility-attract.md
+    - name: 欢迎新雇员使用 Onboard
+      items:
+        - name: Onboard 入门
+          href: create-onboarding-experience.md
+        - name: 获取 Onboard 应用
+          href: onboard-get-app.md
+        - name: 创建和发送入职指南
+          href: onboard-create-guide.md
+        - name: 创建入职模板
+          href: onboard-create-template.md
+        - name: 编辑指南和模板
+          href: onboard-edit-guides-templates.md
+        - name: 共享内容
+          href: onboard-share-template.md
+        - name: 查看状态
+          href: onboard-view-status.md
+        - name: 创建招聘团队
+          href: onboard-create-team.md
+    - name: 可扩展性
+      items:
+        - name: 跟踪招聘数据的变化
+          href: process-auditing.md
+        - name: Attract 的可扩展性
+          href: extensibility-attract.md
+        - name: 通过 Power Apps 和 Power Automate 扩展 Talent
+          href: extensibility-examples.md
+    - name: Attract 和 Onboard 故障排除
+      items:
+        - name: 将职位发布到 LinkedIn 疑难解答
+          href: attract-troubleshoot-linkedin.md
+        - name: 用户可以访问 Human Resources，但无法访问 Onboard 或 Attract 应用
+          href: user-access-core-hr.md
+        - name: 未在人员选取器中找到 Azure Active Directory 用户
+          href: people-picker-user-not-found.md
+        - name: Attract 用户无法通过求职门户申请职位
+          href: attract-troubleshoot-career-portal.md

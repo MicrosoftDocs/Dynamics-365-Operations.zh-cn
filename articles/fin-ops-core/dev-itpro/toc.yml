@@ -1,0 +1,1906 @@
+- name: Finance and Operations 应用的开发和管理
+  items:
+    - name: Finance and Operations 应用的开发和管理
+      items:
+        - name: Finance and Operations 应用程序文档
+          href: ../fin-ops/index.md
+        - name: Finance and Operations 应用的开发和管理
+          href: index.md
+        - name: 新增功能或更改
+          items:
+            - name: Finance and Operations 应用新增功能或更改
+              href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: 平台更新的新增功能或更改
+              items:
+                - name: “平台更新的新增功能或更改”主页
+                  href: get-started/whats-new-home-page.md
+                - name: 针对 10.0.16 的平台更新（2021 年 2 月）
+                  href: get-started/whats-new-platform-updates-10-0-16.md
+                - name: 针对 10.0.15 的平台更新（2021 年 1 月）
+                  href: get-started/whats-new-platform-updates-10-0-15.md
+                - name: 针对 10.0.14 的平台更新（2020 年 11 月）
+                  href: get-started/whats-new-platform-updates-10-0-14.md
+            - name: 已删除或弃用的功能
+              items:
+                - name: 已删除或弃用的平台功能
+                  href: get-started/removed-deprecated-features-platform-updates.md
+                - name: 先前版本中已删除或弃用的功能
+                  href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: 延迟发布的 AX 2012 功能
+              href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Microsoft Dynamics AX 2009 和 2012 主流支持结束
+              href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+        - name: 业务事件
+          items:
+            - name: 业务事件概览
+              href: business-events/home-page.md
+            - name: 应用程序业务事件
+              href: business-events/app-business-events.md
+            - name: 工作流业务事件
+              href: business-events/business-events-workflow.md
+            - name: 业务事件预警
+              href: business-events/alerts-business-events.md
+            - name: Microsoft Flow 中的业务事件
+              href: business-events/business-events-flow.md
+            - name: 业务事件开发人员文档
+              href: business-events/business-events-dev-doc.md
+            - name: 业务事件故障排除
+              href: business-events/troubleshooting.md
+            - name: 业务事件用例
+              href: business-events/potential-use-cases.md
+            - name: 教程
+              items:
+                - name: 业务事件和 Microsoft Flow
+                  href: business-events/how-to/how-to-flow.md
+                - name: 业务事件和 Azure 事件网格
+                  href: business-events/how-to/how-to-eventgrid.md
+                - name: 业务事件和 Azure 服务总线
+                  href: business-events/how-to/how-to-servicebus.md
+                - name: 业务事件和工作流审核
+                  href: business-events/how-to/how-to-workflow.md
+                - name: 业务事件和 Microsoft Forms Pro
+                  href: business-events/how-to/FormsPro.md
+                - name: 业务事件和 Azure 事件中心
+                  href: business-events/how-to/event-hub.md
+                - name: 财务期间结帐中的业务事件
+                  href: business-events/how-to/period-close.md
+        - name: 连续交货
+          items:
+            - name: 连续交货主页
+              href: dev-tools/continuous-delivery-home-page.md
+            - name: 开发和连续交货常见问题
+              href: dev-tools/continuous-delivery-faq.md
+            - name: 从生成输出中排除测试包
+              href: dev-tools/exclude-test-packages.md
+            - name: 使用源代码管理来管理第三方模型和运行时包
+              href: dev-tools/manage-runtime-packages.md
+            - name: 一体式可部署包
+              href: dev-tools/aio-deployable-packages.md
+            - name: 更新自动生成中的模型版本
+              href: dev-tools/version-models-build.md
+        - name: 数据集成
+          items:
+            - name: 选择数据集成（导入/导出）策略
+              href: data-entities/integration-overview.md
+            - name: 基于优先级的限制
+              hreF: data-entities/priority-based-throttling.md
+            - name: 基于优先级的限制常见问题
+              href: data-entities/throttling-faq.md
+            - name: 数据集成 API
+              items:
+                - name: 数据管理包 REST API
+                  href: data-entities/data-management-api.md
+                - name: 服务终结点
+                  items:
+                    - name: 服务终结点概览
+                      href: data-entities/services-home-page.md
+                    - name: 服务身份验证故障排除
+                      href: data-entities/troubleshoot-service-authentication.md
+                - name: OData
+                  href: data-entities/odata.md
+                - name: 自定义服务开发
+                  href: data-entities/custom-services.md
+                - name: 定期集成
+                  href: data-entities/recurring-integrations.md
+                - name: 使用第三方实用程序测试服务
+                  href: data-entities/third-party-service-test.md
+            - name: Finance and Operations 连接器
+              href: data-entities/fin-ops-connector.md
+            - name: 集成开发
+              items:
+                - name: 使用数据实体进行数据集成
+                  items:
+                    - name: 使用数据实体进行数据集成概览
+                      href: data-entities/data-management-integration-data-entity.md
+                    - name: 开发数据迁移实体
+                      href: data-entities/develop-entity-for-data-migration.md
+                    - name: 开发复合数据实体
+                      href: data-entities/develop-composite-data-entities.md
+                    - name: 配置跨公司财务数据共享
+                      href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
+                    - name: 创建记录模板以加快数据输入
+                      href: data-entities/tasks/create-record-template-facilitate-data-entry.md
+                    - name: 使用记录模板创建记录
+                      href: data-entities/tasks/use-record-template-new-record.md
+                - name: 使用 Common Data Service 的数据集成
+                  items:
+                    - name: 使用 Common Data Service 的数据集成概览
+                      href: data-entities/data-integration-cds.md
+                    - name: 双写入集成
+                      items:
+                        - name: 双写入主页
+                          href: data-entities/dual-write/dual-write-home-page.md
+                        - name: 双写入中新增或更改的功能
+                          href: data-entities/dual-write/whats-new-dual-write.md
+                        - name: 双写入概览
+                          href: data-entities/dual-write/dual-write-overview.md
+                        - name: 双写入设置
+                          items:
+                            - name: 双写入的系统要求
+                              href: data-entities/dual-write/dual-write-system-req.md
+                            - name: 双写入设置指南
+                              href: data-entities/dual-write/connection-setup.md
+                            - name: 初始同步注意事项
+                              href: data-entities/dual-write/initial-sync-guidance.md
+                            - name: Lifecycle Services 的双写入设置
+                              href: data-entities/dual-write/lcs-setup.md
+                            - name: 为现有 Finance and Operations 应用启用双写入
+                              items:
+                                - name: 为现有 Finance and Operations 应用启用双写入
+                                  href: data-entities/dual-write/enable-dual-write.md
+                                - name: 系统要求和先决条件
+                                  href: data-entities/dual-write/requirements-and-prerequisites.md
+                                - name: 如何使用双写入向导链接您的环境
+                                  href: data-entities/dual-write/link-your-environment.md
+                                - name: 启用双写入实体映射
+                                  href: data-entities/dual-write/enable-entity-map.md
+                            - name: 双写入货币数据类型迁移
+                              href: data-entities/dual-write/currrency-decimal-places.md
+                            - name: 设置销售订单状态字段的映射
+                              href: data-entities/dual-write/sales-status-map.md
+                            - name: 筛选内部公司订单以避免同步订单和订单行
+                              href: data-entities/dual-write/filtering-intercompany-orders.md
+                        - name: 管理双写入
+                          items:
+                            - name: 自定义实体和字段映射
+                              href: data-entities/dual-write/customizing-mappings.md
+                            - name: 处理多个实体映射
+                              href: data-entities/dual-write/multiple-entity-maps.md
+                            - name: 设置双写入后编辑法人
+                              href: data-entities/dual-write/edit-legal-entity.md
+                            - name: 错误管理和预警通知
+                              href: data-entities/dual-write/errors-and-alerts.md
+                            - name: 应用程序生命周期管理
+                              href: data-entities/dual-write/app-lifecycle-management.md
+                        - name: 应用之间的概念映射
+                          items:
+                            - name: 集成的客户主数据
+                              href: data-entities/dual-write/customer-mapping.md
+                            - name: 供应商集成
+                              items:
+                                - name: 集成的供应商主数据
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: 在供应商设计之间切换
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: 客户会员卡和奖励积分
+                              href: data-entities/dual-write/loyalty-mapping.md
+                            - name: 产品集成
+                              items:
+                                - name: 统一的产品体验
+                                  href: data-entities/dual-write/product-mapping.md
+                                - name: 集成的站点和仓库
+                                  href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: 公司集成
+                              items:
+                                - name: Common Data Services 中的公司概念
+                                  href: data-entities/dual-write/company-data.md
+                                - name: 使用公司数据启动
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Common Data Service 中的组织层次结构
+                              href: data-entities/dual-write/organization-mapping.md
+                            - name: 财税数据
+                              items:
+                                - name: 访问财税引用数据
+                                  href: data-entities/dual-write/finance-tax-reference.md
+                                - name: 集成的分类帐
+                                  href: data-entities/dual-write/ledger-mapping.md
+                                - name: 集成的税收主数据
+                                  href: data-entities/dual-write/tax-mapping.md
+                            - name: 现金的目标客户（采用双写入）
+                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: 按需与 Dynamics 365 Supply Chain Management 定价引擎同步
+                              href: data-entities/dual-write/pricing-engine.md
+                            - name: 将 Dynamics 365 Commerce 定价引擎与 Dynamics 365 Sales 结合使用
+                              href: data-entities/dual-write/commerce-pricing.md
+                            - name: 用于服务的内部资产
+                              href: data-entities/dual-write/in-house-assets.md
+                            - name: 集成工作人员、作业和岗位
+                              href: data-entities/dual-write/integrated-hr.md
+                            - name: 库存可用性
+                              href: data-entities/dual-write/inventory-availability.md
+                        - name: 支持双写入
+                          items:
+                            - name: 支持 Field Service 解决方案和 Project Service Automation 解决方案
+                              href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: 故障排除
+                              items:
+                                - name: 验证 Finance and Operations 应用和 Common Data Service 中是否配置了双写入
+                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                                - name: 解决初始设置过程中的问题
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                                - name: 解决初始同步过程中的问题
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                                - name: 解决 Finance and Operations 应用有关双写入模块的问题
+                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                                - name: 解决实时同步问题
+                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                                - name: 解决与解决方案意识相关的问题
+                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                                - name: 解决与 Finance and Operations 应用升级相关的问题
+                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                                - name: 常规故障排除
+                                  href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: 双写入常见问题
+                          href: data-entities/dual-write/dual-write-faq.md
+                    - name: 与 Power Platform 集成
+                      items:
+                        - name: 配置“目标客户到现金”场景
+                          items:
+                            - name: 目标客户到现金
+                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                            - name: 将客户从 Sales 直接同步到 Finance and Operations
+                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                            - name: 将产品从 Finance and Operations 直接同步到 Sales 的产品
+                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                            - name: 将联系人从 Sales 直接同步到 Finance and Operations 的联系人或客户
+                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                            - name: 将销售报价单标题和行从 Sales 直接同步到 Finance and Operations
+                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                            - name: 直接在 Sales 和 Finance and Operations 之间同步销售订单
+                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                            - name: 将销售账单标题和行从 Finance and Operations 直接同步到 Sales
+                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                        - name: 配置与 Field Service 的集成
+                          items:
+                            - name: 配置与 Field Service 的集成概览
+                              href: ../../supply-chain/sales-marketing/field-service.md
+                            - name: 将 Finance and Operations 中的产品同步到 Field Service 中的产品
+                              href: ../../supply-chain/sales-marketing/field-service-product.md
+                            - name: 将 Field Service 中的工作订单同步到 Finance and Operations 中的销售订单
+                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                            - name: 将 Field Service 中的协议账单同步到 Finance and Operations 中的普通账单
+                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                            - name: 将库存转移和调整从 Field Service 同步到 Finance and Operations
+                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                            - name: 将库存级别信息从 Finance and Operations 同步到 Field Service
+                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                            - name: 将具有库存单位的产品从 Finance and Operations 同步到 Field Service
+                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                            - name: 将项目列表从 Finance and Operations 同步到 Field Service
+                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                            - name: 将仓库从 Finance and Operations 同步到 Field Service
+                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                            - name: 将带项目的工作订单从 Field Service 同步到 Finance and Operations
+                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                        - name: 配置 Project Service Automation 集成
+                          items:
+                            - name: Project Service Automation 概览
+                              href: ../../finance/project-management/PSA-integration.md
+                            - name: Project Service Automation 集成参数
+                              href: ../../finance/project-management/PSA-parameters.md
+                            - name: 同步项目合同和项目
+                              href: ../../finance/project-management/project-contracts-templates.md
+                            - name: 同步项目任务
+                              href: ../../finance/project-management/project-tasks-template.md
+                            - name: 同步项目支出类别
+                              href: ../../finance/project-management/project-categories-templates.md
+                            - name: 将项目评估同步到项目预测
+                              href: ../../finance/project-management/project-estimates-templates.md
+                            - name: 将项目实际值同步到项目集成日记帐
+                              href: ../../finance/project-management/project-actuals-templates.md
+            - name: 使用外部 Web 服务
+              href: data-entities/consume-external-web-service.md
+            - name: 电子消息
+              href: ../../finance/general-ledger/electronic-messaging.md
+        - name: 数据管理
+          items:
+            - name: 数据管理概览
+              href: data-entities/data-entities-data-packages.md
+            - name: 数据实体
+              items:
+                - name: 数据实体概览
+                  href: data-entities/data-entities.md
+                - name: 配置数据项目
+                  href: data-entities/configuration-data-projects.md
+                - name: 在公司或法人之间复制配置数据
+                  items:
+                    - name: 复制配置数据概览
+                      href: data-entities/copy-configuration.md
+                    - name: 配置数据包
+                      href: data-entities/configuration-data-packages.md
+                    - name: 配置数据包（仅 2017 年 7 月版本）
+                      href: data-entities/configuration-data-packages.md
+                - name: 配置数据模板
+                  href: data-entities/configuration-data-templates.md
+                - name: 跟踪实体更改
+                  href: data-entities/entity-change-track.md
+                - name: 查找有关标准数据实体的信息
+                  href: data-entities/data-entities-report.md
+                - name: 带有多个工作表的数据模板
+                  href: data-entities/excel-template-multiple.md
+                - name: 启用对实体的更改跟踪
+                  href: data-entities/entity-change-track.md
+                - name: Configuration Key 和数据实体
+                  href: data-entities/config-key-entities.md
+                - name: 配置数据包
+                  href: data-entities/configuration-data-packages.md
+            - name: 数据导入和导出作业
+              items:
+                - name: 数据导入和导出作业概览
+                  href: data-entities/data-import-export-job.md
+                - name: 使用普通日记帐实体导入凭证的最佳实践
+                  href: data-entities/tips-tricks-import-general-journal-entity.md
+            - name: 数据实体开发
+              items:
+                - name: 数据实体的设计原则和最佳实践
+                  href: dev-tools/design-best-practices.md
+                - name: 创建新数据实体
+                  href: data-entities/build-consuming-data-entities.md
+                - name: 数据实体属性
+                  href: data-entities/behavioral-properties-data-entities.md
+                - name: 创建计算列和虚拟字段
+                  href: data-entities/data-entity-computed-columns-virtual-fields.md
+                - name: 跨公司行为
+                  href: data-entities/cross-company-behavior.md
+                - name: 处理国家/地区代码
+                  href: data-entities/countryregion-codes-configuration-keys.md
+                - name: 继承模式
+                  href: data-entities/support-super-type-sub-type.md
+                - name: 数据实体向导规则
+                  href: data-entities/data-entity-wizard-rules.md
+                - name: 元数据属性
+                  href: data-entities/behavioral-properties-data-entities.md
+                - name: 验证、默认值和未映射的字段
+                  href: data-entities/validations-defaults-unmapped-fields.md
+                - name: 安全和数据实体
+                  href: data-entities/security-data-entities.md
+                - name: 使用第三方服务测试实用程序
+                  href: data-entities/third-party-service-test.md
+                - name: 创建用于公开财务维度的只读实体
+                  href: financial/read-only-entity-financial.md
+            - name: 提供您自己的数据库
+              href: analytics/export-entities-to-your-own-database.md
+            - name: 自动化实体商店刷新
+              href: analytics/automated-entity-store-refresh.md
+            - name: 数据任务自动化
+              href: data-entities/data-task-automation.md
+            - name: 数据验证核对清单工作区
+              href: user-interface/data-validation-workspace.md
+            - name: 数据管理错误描述
+              href: data-entities/dm-error-descriptions.md
+        - name: Azure Data Lake
+          items:
+            - name: Azure Data Lake 概览
+              href: data-entities/azure-data-lake-overview.md
+            - name: 配置导出到 Azure Data Lake
+              href: data-entities/configure-export-data-lake.md
+            - name: Azure Data Lake 中的 Finance and Operations 应用
+              href: data-entities/finance-data-azure-data-lake.md
+            - name: 将实体商店用作 Data Lake
+              href: data-entities/entity-store-data-lake.md
+        - name: 数据库移动操作
+          items:
+            - name: 概览
+              href: database/dbmovement-operations.md
+            - name: 数据库移动工具包
+              href: database/database-movement-toolkit.md
+            - name: 快速入门指南
+              items:
+                - name: 刷新数据库
+                  href: database/database-refresh.md
+                - name: 导出数据库
+                  href: database/export-database.md
+                - name: 导入数据库
+                  href: database/import-database.md
+                - name: 数据库时间点还原
+                  href: database/database-point-in-time-restore.md
+                - name: 将生产数据库的时间点还原到沙盒环境
+                  href: database/database-pitr-prod-sandbox.md
+                - name: 启用即时数据库访问
+                  href: database/database-just-in-time-jit-access.md
+            - name: 教程
+              items:
+                - name: 出于培训目的进行刷新
+                  href: database/dbmovement-scenario-general-refresh.md
+                - name: 针对生产数据库的副本进行调试
+                  href: database/dbmovement-scenario-debugdiag.md
+                - name: 导出标准用户接受度测试 (UAT) 数据库的副本
+                  href: database/dbmovement-scenario-exportuat.md
+                - name: 黄金配置提升
+                  href: database/dbmovement-scenario-goldenconfig.md
+                - name: 破坏性测试
+                  href: database/dbmovement-scenario-destructivetests.md
+            - name: RESTful API
+              items:
+                - name: 概览
+                  href: database/api/dbmovement-api-overview.md
+                - name: 版本控制和支持
+                  href: database/api/dbmovement-api-versioning-support.md
+                - name: 身份验证
+                  href: database/api/dbmovement-api-authentication.md
+                - name: 限制
+                  href: database/api/dbmovement-api-throttling.md
+                - name: 引用
+                  items:
+                    - name: API v1 引用
+                      href: database/api/v1/dbmovement-api-v1-overview.md
+                    - name: 列出数据库备份
+                      href: database/api/v1/reference-list-backups.md
+                    - name: 创建数据库刷新
+                      href: database/api/v1/reference-create-refresh.md
+                    - name: 创建数据库导出
+                      href: database/api/v1/reference-create-export.md
+                    - name: 获取操作活动状态
+                      href: database/api/v1/reference-get-status.md
+        - name: 演示数据
+          items:
+            - name: 演示数据概览
+              href: ../fin-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
+            - name: 使用数据包生成演示数据
+              href: data-entities/generate-demo-data-packages.md
+        - name: 部署
+          items:
+            - name: 部署演示环境
+              href: deployment/deploy-demo-environment.md
+            - name: 云部署
+              items:
+                - name: 云部署概览
+                  href: deployment/cloud-deployment-overview.md
+                - name: 自助服务部署
+                  items:
+                    - name: 自助服务部署概览
+                      href: deployment/infrastructure-stack.md
+                    - name: 部署新环境
+                      href: deployment/deployenvironment-newinfrastructure.md
+                    - name: 部署常见问题
+                      href: deployment/deploymentFAQ.md
+                    - name: 自助服务部署的已知问题
+                      href: deployment/known-issues-new-deployment-experience.md
+                    - name: 部署的维护操作
+                      href: deployment/maintenanceoperationsguide-newinfrastructure.md
+                    - name: 更新环境
+                      href: deployment/updateenvironment-newinfrastructure.md
+                    - name: 对通过自助服务部署所部署的环境进行故障排除
+                      href: deployment/troubleshoot-newinfrastructure.md
+                - name: 完成 Azure 资源管理器使用培训
+                  href: deployment/arm-onboarding.md
+                - name: Azure ExpressRoute 和 Finance and Operations
+                  href: deployment/expressroute.md
+                - name: Finance and Operations 体系结构
+                  href: ../fin-ops/imp-lifecycle/architecture-overview.md
+                - name: 将更新应用于云环境
+                  href: deployment/apply-deployable-package-system.md
+                - name: 将更新和扩展应用于 Commerce Scale Unit（云）
+                  href: deployment/Update-retail-channel.md
+                - name: 初始化 Commerce Scale Unit（云）
+                  href: deployment/Initialize-Retail-Channels.md
+                - name: 将渠道迁移到其他 Commerce Scale Unit
+                  href: deployment/Reassign-CSU.md
+                - name: Retail 数据驻留
+                  href: deployment/retail-data-residency.md
+            - name: 本地部署
+              items:
+                - name: 本地部署主页
+                  href: deployment/on-premises-deployment-landing-page.md
+                - name: 准备本地部署
+                  items:
+                    - name: 本地部署概览
+                      href: deployment/on-premises-overview.md
+                    - name: 计划和准备本地部署
+                      href: deployment/plan-onprem-deployment.md
+                    - name: 硬件规模调整要求
+                      href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+                    - name: Dynamics 365 Finance + Operations (on-premises) 中的身份验证
+                      href: deployment/authentication-onprem.md
+                - name: 设置并部署本地环境
+                  items:
+                    - name: 在 LCS 中设置本地项目
+                      href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                    - name: 设置并部署本地环境
+                      href: deployment/setup-deploy-on-premises-pu12.md
+                    - name: 本地环境中 Retail 渠道组件的安装步骤
+                      href: deployment/deploy-retail-onprem.md
+                    - name: 开发自定义模型并将其部署到本地环境
+                      href: deployment/develop-deploy-custom-models-on-premises.md
+                - name: 环境维护
+                  items:
+                    - name: 将更新应用于本地部署
+                      href: deployment/apply-updates-on-premises.md
+                    - name: 证书轮换
+                      href: deployment/certificate-rotation-on-prem.md
+                    - name: 客户端 Internet 连接
+                      href: user-interface/client-disconnected.md
+                    - name: 在本地部署中配置仅批处理和仅交互式的 AOS 节点
+                      href: deployment/onprem-batchonly.md
+                    - name: 为本地环境配置代理
+                      href: deployment/onprem-reverseproxy.md
+                    - name: 本地诊断
+                      href: deployment/on-premises-diagnostics.md
+                    - name: 本地灾难恢复配置
+                      href: deployment/onprem-dr.md
+                    - name: PowerBI.com 与本地环境集成
+                      href: analytics/entity-store-on-prem.md
+                    - name: 重新配置环境
+                      href: lifecycle-services/reconfigure-environment.md
+                    - name: 重新部署本地部署
+                      href: deployment/redeploy-on-prem.md
+                    - name: 删除并重新安装 AOS 节点，或添加 AOS 节点
+                      href: deployment/onprem-remove-reinstall-AOS-node.md
+                    - name: 在多个环境中重复使用相同的 AD FS 实例
+                      href: deployment/onprem-reuseadfs.md
+                - name: 本地代理
+                  items:
+                    - name: AD FS Microsoft 365 兼容性
+                      href: deployment/onprem-adfscompatibility.md
+                    - name: 本地代理部署前和部署后脚本
+                      href: lifecycle-services/pre-post-scripts.md
+                    - name: 更新本地代理
+                      href: lifecycle-services/update-local-agent.md
+                - name: 故障排除
+                  items:
+                    - name: 对本地部署进行故障排除
+                      href: deployment/troubleshoot-on-prem.md
+                    - name: 在本地环境中解决问题的脚本
+                      href: deployment/onprem-tsg-implementations.md
+            - name: 部署自定义代码
+              items:
+                - name: 创建模型的可部署包
+                  href: deployment/create-apply-deployable-package.md
+                - name: 安装来自命令行的可部署包
+                  href: deployment/install-deployable-package.md
+                - name: 卸载包
+                  href: deployment/uninstall-deployable-package.md
+                - name: 解决包应用程序问题
+                  href: deployment/deployable-package-troubleshooting.md
+            - name: 部署自定义帮助
+              items:
+                - name: 自定义帮助概览
+                  href: help/custom-help-overview.md
+                - name: 准备要用于“帮助”窗格的内容
+                  href: help/preparing-content.md
+                - name: 将自定义帮助部署到 Azure
+                  href: help/walkthrough-help-azure.md
+                - name: 将您的自定义帮助连接到“帮助”窗格
+                  href: help/connect-help-pane.md
+                - name: 自定义帮助工具包
+                  items:
+                    - name: 概览
+                      href: help/custom-help-toolkit.md
+                    - name: HTML From Repo Generator 工具
+                      href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
+                    - name: Convert HTML To JSON 工具
+                      href: help/custom-help-toolkit-ConvertHtmlToJson.md
+                    - name: HTML Locale Changer 工具
+                      href: help/custom-help-toolkit-HtmlLocaleChanger.md
+                    - name: 转换 Dynamics AX 自定义帮助以便在 Dynamics 365 中使用
+                      href: help/migrate-dynamicsax2012.md
+                - name: 产品和帮助中的语言和区域设置描述符
+                  href: help/language-locale.md
+                - name: 针对帮助进行扩展、自定义和协作
+                  href: help/contributor-guide.md
+        - name: 开发和自定义
+          items:
+            - name: 开发和自定义主页
+              href: dev-tools/developer-home-page.md
+            - name: 应用程序堆栈和服务器体系结构
+              href: dev-tools/application-stack-server-architecture.md
+            - name: 获取评估副本
+              href: dev-tools/get-evaluation-copy.md
+            - name: 注册预览订阅
+              href: dev-tools/sign-up-preview-subscription.md
+            - name: 部署和访问开发环境
+              items:
+                - name: 开发环境
+                  href: dev-tools/access-instances.md
+                - name: 配置一体框开发环境
+                  href: dev-tools/configure-developer-vm.md
+                - name: 在开发计算机上创建新用户
+                  href: dev-tools/enable-development-machine.md
+                - name: 开发和构建不允许管理员访问的 VM 的常见问题
+                  href: sysadmin/VMs-no-admin-access.md
+                - name: 重命名本地环境以访问 Azure DevOps
+                  href: migration-upgrade/vso-machine-renaming.md
+                - name: 开发系统要求
+                  href: dev-tools/development-system-requirements.md
+            - name: 版本控制、元数据搜索和导航
+              href: dev-tools/version-control-metadata-navigation.md
+            - name: 使用 Azure 构建自动化系统
+              items:
+                - name: 使用 Microsoft 托管的代理和 Azure Pipelines 构建自动化系统
+                  href: dev-tools/hosted-build-automation.md
+                - name: 将许可证文件添加到 Azure Pipelines 中的可部署程序包
+                  href: dev-tools/pipeline-add-license-package.md
+                - name: 在 Azure Pipelines 中创建可部署程序包
+                  href: dev-tools/pipeline-create-deployable-package.md
+                - name: Azure Pipelines 中的 X++ 模型版本控制
+                  href: dev-tools/pipeline-model-version.md
+                - name: 使用 Azure Pipelines 下载资产
+                  href: dev-tools/pipeline-asset-download.md
+                - name: 使用 Azure Pipelines 上传资产
+                  href: dev-tools/pipeline-asset-upload.md
+                - name: 使用 Azure Pipelines 部署资产
+                  href: dev-tools/pipeline-deploy-asset.md
+                - name: 在 Azure Pipelines 中创建 Lifecycle Services (LCS) 连接
+                  href: dev-tools/pipeline-lcs-connection.md
+                - name: 更新 Azure Pipelines 中的旧管道
+                  href: dev-tools/pipeline-msbuild-update.md
+            - name: 车队管理示例应用程序
+              items:
+                - name: 车队管理示例应用程序的端到端方案
+                  href: dev-tools/fleet-management-sample.md
+                - name: 车队管理示例应用程序
+                  href: dev-tools/introduction-fleet-management-sample.md
+            - name: Visual Studio Tools
+              items:
+                - name: 开发工具
+                  href: dev-tools/development-tools-overview.md
+                - name: 开发工具教程
+                  href: dev-tools/introduction-visual-studio.md
+                - name: 应用程序检查工具
+                  href: dev-tools/application-checker.md
+                - name: 应用程序资源管理器
+                  href: dev-tools/application-explorer.md
+                - name: 生成和调试项目
+                  href: dev-tools/build-debug-project.md
+                - name: 生成操作
+                  href: dev-tools/build-operations.md
+                - name: 代码编辑器功能
+                  href: dev-tools/code-editor.md
+                - name: 创建模型和数据模型元素
+                  items:
+                    - name: 创建模型和数据模型元素概览
+                      href: dev-tools/create-data-model-elements.md
+                    - name: 扩展的命名准则
+                      href: extensibility/NamingGuidelines.md
+                    - name: 关闭模型自定义和弃用功能
+                      href: dev-tools/lock-models.md
+                - name: 定制分析报表
+                  href: dev-tools/customization-analysis-report.md
+                - name: 元素设计器
+                  href: dev-tools/element-designers.md
+                - name: 用于确定元素使用的命令
+                  href: dev-tools/element-usage.md
+                - name: 导出和导入模型
+                  href: dev-tools/models-export-import.md
+                - name: Visual Studio 中的元数据搜索
+                  href: dev-tools/metadata-search-visual-studio.md
+                - name: 模型和包装
+                  href: dev-tools/models.md
+                - name: Finance and Operations 项目类型
+                  href: dev-tools/projects.md
+                - name: Visual Studio 工具加载项
+                  href: dev-tools/developer-tools-add-ins.md
+                - name: 更新 Visual Studio 开发工具
+                  href: dev-tools/update-development-tools.md
+            - name: X++ 编程语言
+              items:
+                - name: X++ 和调试器功能
+                  href: dev-tools/new-x-debugger-features.md
+                - name: 调试 X++ 代码
+                  href: dev-tools/debug-xpp.md
+                - name: 请求或响应方案中的 EventHandlerResult 类
+                  href: dev-tools/event-handler-result-class.md
+                - name: 使用 C# 和 X++ 源代码编写业务逻辑
+                  href: dev-tools/write-business-logic.md
+                - name: X++ 和 X++ 编译器中的更改
+                  href: dev-tools/programming-language-support.md
+                - name: C# 的 LINQ 提供程序
+                  href: dev-tools/linq-provider-c.md
+                - name: 编写最佳实践规则
+                  href: dev-tools/author-best-practice-rules.md
+                - name: 应用程序资源管理器属性
+                  href: dev-ref/application-explorer-aot-properties.md
+                - name: X++ 语言参考
+                  items:
+                    - name: X++ 语言参考概览
+                      href: dev-ref/xpp-language-reference.md
+                    - name: 变量和数据类型
+                      items:
+                        - name: 变量
+                          href: dev-ref/xpp-variables-data-types.md
+                        - name: 原始数据类型
+                          href: dev-ref/xpp-data-primitive.md
+                        - name: 复合数据类型
+                          href: dev-ref/xpp-data-composite.md
+                        - name: 集合类
+                          href: dev-ref/xpp-data-collection.md
+                        - name: 扩展数据类型
+                          href: dev-ref/xpp-data-edt.md
+                    - name: 语句、循环和异常处理
+                      items:
+                        - name: 注释、使用和打印
+                          href: dev-ref/xpp-statements-loops.md
+                        - name: 条件语句
+                          href: dev-ref/xpp-conditional.md
+                        - name: 循环语句
+                          href: dev-ref/xpp-loops.md
+                        - name: 异常处理
+                          href: dev-ref/xpp-exceptions.md
+                    - name: SQL 连接错误 X++ 异常
+                      href: dev-ref/sql-connection-error.md
+                    - name: X++ 运算符
+                      href: dev-ref/xpp-operators.md
+                    - name: X++ 运算符优先级
+                      href: dev-ref/xpp-operator-precedence.md
+                    - name: X++ 类和方法
+                      items:
+                        - name: 类和方法
+                          href: dev-ref/xpp-classes-methods.md
+                        - name: 继承
+                          href: dev-ref/xpp-inheritance.md
+                        - name: 静态类成员
+                          href: dev-ref/xpp-static-classes.md
+                        - name: 接口
+                          href: dev-ref/xpp-interfaces.md
+                        - name: 库
+                          href: dev-ref/xpp-library-objects.md
+                        - name: 事件
+                          href: dev-ref/xpp-events.md
+                    - name: X++ 数据选择和操作
+                      items:
+                        - name: X++ 数据选择和操作概览
+                          href: dev-ref/xpp-data/xpp-data-home-page.md
+                        - name: select 语句
+                          href: dev-ref/xpp-data/xpp-select-statement.md
+                        - name: 选择数据
+                          href: dev-ref/xpp-data/xpp-select.md
+                        - name: 插入数据
+                          href: dev-ref/xpp-data/xpp-insert.md
+                        - name: 更新数据
+                          href: dev-ref/xpp-data/xpp-update.md
+                        - name: 删除数据
+                          href: dev-ref/xpp-data/xpp-delete.md
+                        - name: while select 语句
+                          href: dev-ref/xpp-data/xpp-while-select.md
+                        - name: 编写选择语句作为表达式
+                          href: dev-ref/xpp-data/xpp-select-expression.md
+                        - name: 事务完整性
+                          href: dev-ref/xpp-data/xpp-transaction.md
+                        - name: 从基于集的操作转换为逐记录操作
+                          href: dev-ref/xpp-data/xpp-data-perf.md
+                        - name: 使用 SysDa API 进行数据访问
+                          href: dev-ref/sysda.md
+                        - name: 减少 SQL 注入攻击
+                          href: dev-ref/query-with-parameters.md
+                    - name: X++ 宏
+                      href: dev-ref/xpp-macros.md
+                    - name: X++ 属性类
+                      href: dev-ref/xpp-attribute-classes.md
+                    - name: X++ 和 C# 对比
+                      href: dev-ref/xpp-cs-comparison.md
+                    - name: X++ 语法
+                      href: dev-ref/xpp-syntax.md
+            - name: API、类和表引用
+              items:
+                - name: API、类和表资源
+                  href: dev-ref/api-reference.md
+                - name: X++ 编译时函数
+                  href: dev-ref/xpp-compile-time-functions.md
+                - name: X++ 运行时函数
+                  items:
+                    - name: X++ 运行时函数资源
+                      href: dev-ref/xpp-run-time-functions.md
+                    - name: X++ 业务运行时函数
+                      href: dev-ref/xpp-business-run-time-functions.md
+                    - name: X++ 容器运行时函数
+                      href: dev-ref/xpp-container-run-time-functions.md
+                    - name: X++ 换算运行时函数
+                      href: dev-ref/xpp-conversion-run-time-functions.md
+                    - name: X++ 日期运行时函数
+                      href: dev-ref/xpp-date-run-time-functions.md
+                    - name: X++ 数学运行时函数
+                      href: dev-ref/xpp-math-run-time-functions.md
+                    - name: X++ 反射运行时函数
+                      href: dev-ref/xpp-reflection-run-time-functions.md
+                    - name: X++ 会话运行时函数
+                      href: dev-ref/xpp-session-run-time-functions.md
+                    - name: X++ 字符串运行时函数
+                      href: dev-ref/xpp-string-run-time-functions.md
+                - name: 系统表
+                  href: dev-ref/system-tables.md
+                - name: 系统类
+                  items:
+                    - name: 系统类列表
+                      href: dev-ref/system-classes/toc.yml
+                    - name: 按字母顺序分组的系统类
+                      items:
+                        - name: A 类
+                          href: dev-ref/a-classes.md
+                        - name: B 类
+                          href: dev-ref/b-classes.md
+                        - name: C 类
+                          href: dev-ref/c-classes.md
+                        - name: D 类
+                          href: dev-ref/d-classes.md
+                        - name: E 类
+                          href: dev-ref/e-classes.md
+                        - name: F 类
+                          href: dev-ref/f-classes.md
+                        - name: G 类
+                          href: dev-ref/g-classes.md
+                        - name: H 类
+                          href: dev-ref/h-classes.md
+                        - name: I 类
+                          href: dev-ref/i-classes.md
+                        - name: J 类
+                          href: dev-ref/j-classes.md
+                        - name: K 类
+                          href: dev-ref/k-classes.md
+                        - name: L 类
+                          href: dev-ref/l-classes.md
+                        - name: M 类
+                          href: dev-ref/m-classes.md
+                        - name: N 类
+                          href: dev-ref/n-classes.md
+                        - name: O 类
+                          href: dev-ref/o-classes.md
+                        - name: P 类
+                          href: dev-ref/p-classes.md
+                        - name: Q 类
+                          href: dev-ref/q-classes.md
+                        - name: R 类
+                          href: dev-ref/r-classes.md
+                        - name: S 类
+                          href: dev-ref/s-classes.md
+                        - name: T 类
+                          href: dev-ref/t-classes.md
+                        - name: U 类
+                          href: dev-ref/u-classes.md
+                        - name: V 类
+                          href: dev-ref/v-classes.md
+                        - name: W 类
+                          href: dev-ref/w-classes.md
+                        - name: X 类
+                          href: dev-ref/x-classes.md
+            - name: 可扩展性
+              items:
+                - name: 可扩展性主页
+                  href: extensibility/extensibility-home-page.md
+                - name: 简介和入门
+                  items:
+                    - name: 应用程序可扩展性计划
+                      href: extensibility/extensibility-roadmap.md
+                    - name: 可扩展性请求
+                      href: extensibility/extensibility-requests.md
+                    - name: 可扩展性常见问题
+                      href: extensibility/app-sealing-faq.md
+                    - name: 从覆盖迁移到扩展
+                      href: extensibility/migrate-overlayer-extension.md
+                    - name: 通过扩展自定义模型元素（教程）
+                      href: extensibility/customize-model-elements-extensions.md
+                    - name: 通过扩展和覆盖进行自定义
+                      href: extensibility/customization-overlayering-extensions.md
+                - name: 新增功能
+                  items:
+                    - name: 可扩展性的新增功能或更改
+                      href: extensibility/extensibility-new.md
+                    - name: 可扩展性更改版本 10.0.3
+                      href: extensibility/extensibility-changes-10-3.md
+                    - name: 可扩展性更改版本 10.0.2
+                      href: extensibility/extensibility-changes-10-2.md
+                    - name: 可扩展性更改版本 10.0.1
+                      href: extensibility/extensibility-changes-10-1.md
+                    - name: 可扩展性更改版本 10.0
+                      href: extensibility/extensibility-changes-10.md
+                    - name: 可扩展性更改版本 8.1.3
+                      href: extensibility/extensibility-changes-813.md
+                    - name: 可扩展性更改版本 8.1.2
+                      href: extensibility/extensibility-changes-812.md
+                    - name: 可扩展性更改版本 8.1.1
+                      href: extensibility/extensibility-changes-811.md
+                    - name: 可扩展性更改版本 8.1
+                      href: extensibility/extensibility-changes-81.md
+                    - name: 可扩展性更改版本 8.0.4
+                      href: extensibility/extensibility-changes-804.md
+                    - name: 可扩展性更改版本 8.0.3
+                      href: extensibility/extensibility-changes-803.md
+                    - name: 可扩展性更改版本 8.0.2
+                      href: extensibility/extensibility-changes-802.md
+                    - name: 可扩展性更改版本 8.0.1
+                      href: extensibility/extensibility-changes-801.md
+                    - name: 版本 8.0 中的可扩展性更改
+                      href: extensibility/Changes-80.md
+                    - name: 版本 7.3 中的可扩展性更改
+                      href: extensibility/extensibility-changes-73.md
+                    - name: 可扩展性更改，2017 年 7 月
+                      href: extensibility/changes-july-2017.md
+                - name: 基本原理
+                  items:
+                    - name: 自动插入的自定义项
+                      href: extensibility/intrusive-customizations.md
+                    - name: 类扩展模型
+                      href: extensibility/class-extensions.md
+                    - name: 通过方法包装和命令链实现的类扩展
+                      href: extensibility/method-wrapping-coc.md
+                    - name: 扩展的命名准则
+                      href: extensibility/naming-guidelines-extensions.md
+                    - name: 放宽模型限制以将覆盖重构到扩展
+                      href: extensibility/refactoring-over-layering.md
+                - name: 创建扩展
+                  items:
+                    - name: 将值添加到枚举
+                      href: extensibility/add-enum-value.md
+                    - name: 修改扩展数据类型
+                      href: extensibility/modify-edt.md
+                    - name: 登记工厂方法子类
+                      href: extensibility/register-subclass-factory-methods.md
+                    - name: 使用 EventHandlerResult 进行响应
+                      href: extensibility/respond-event-handler-result.md
+                    - name: 扩展 RunBase 类
+                      href: extensibility/extend-runbase-class.md
+                    - name: 使用委托自定义应用程序启动
+                      href: extensibility/startup-customizations.md
+                    - name: 修改表中的现有字段
+                      href: extensibility/modify-existing-field.md
+                    - name: 将字段添加到表
+                      href: extensibility/add-field-extension.md
+                    - name: 将索引添加到表
+                      href: extensibility/add-index.md
+                    - name: 将关系添加到表
+                      href: extensibility/add-relation.md
+                    - name: 修改表属性
+                      href: extensibility/modify-properties.md
+                    - name: 将方法添加到表
+                      href: extensibility/add-method-table.md
+                    - name: 在表记录的整个生命周期执行业务行动
+                      href: extensibility/subscribe-table-events.md
+                    - name: 将数据源添加到窗体
+                      href: extensibility/add-datasource.md
+                    - name: 更改窗体标题
+                      href: extensibility/change-caption-form.md
+                    - name: 修改窗体控件属性
+                      href: extensibility/modify-control-properties.md
+                    - name: 扩展编号规则的作用域
+                      href: extensibility/extend-number-sequence-scope.md
+                    - name: 添加新库存维度
+                      href: extensibility/inventory-dimensions.md
+                    - name: 价格和折扣可扩展性
+                      href: extensibility/pricing-app73.md
+                    - name: 表映射扩展
+                      href: extensibility/map-extensions.md
+                    - name: 扩展用作界面的表映射
+                      href: extensibility/maps-as-interfaces.md
+                    - name: 扩展用于版本控制的表映射
+                      href: extensibility/maps-with-versioning.md
+                    - name: 扩展用于选定数据类型的小数点精度
+                      href: extensibility/decimal-point-precision.md
+                - name: 创建可扩展解决方案
+                  items:
+                    - name: 编写可扩展代码
+                      href: extensibility/writing-extensible-code.md
+                    - name: 类
+                      href: extensibility/extensible-classes.md
+                    - name: 方法
+                      href: extensibility/extensible-methods.md
+                    - name: 窗体
+                      href: extensibility/extensible-forms.md
+                    - name: 扩展数据类型
+                      href: extensibility/extensible-edts.md
+                    - name: 可扩展枚举
+                      href: extensibility/extensible-enums.md
+                    - name: 委托人
+                      href: extensibility/extensible-code-delegates.md
+                    - name: 表
+                      href: extensibility/extensible-tables.md
+                    - name: 方法的可扩展性属性
+                      href: extensibility/extensibility-attributes.md
+                    - name: 破坏性的更改
+                      href: extensibility/breaking-changes.md
+                    - name: 兼容性检查器工具
+                      href: extensibility/compatibility-checker-tool.md
+            - name: 绩效
+              items:
+                - name: 使用 Trace parser 进行跟踪
+                  href: perf-test/trace-trace-tutorial.md
+                - name: 通过任务录制器和 Performance SDK 进行单用户测试
+                  href: perf-test/single-user-test-perf-sdk.md
+                - name: 通过 Performance SDK 和本地测试控制器进行多用户测试
+                  href: perf-test/multi-user-testing-local-test-controller.md
+                - name: 通过 Performance SDK 和 Azure DevOps 进行多用户测试
+                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+                - name: 通过 Performance SDK 进行单用户或多用户测试的故障排除指南
+                  href: perf-test/troubleshoot-perf-sdk-user-testing.md
+                - name: 本地环境中的 Performance SDK 和多用户测试
+                  href: perf-test/perfsdk-tutorial-lbd.md
+                - name: 使用 Trace parser 诊断问题和分析性能
+                  href: perf-test/trace-parser.md
+                - name: 性能计时器
+                  href: perf-test/performance-timer.md
+            - name: Visual Studio 中的测试支持
+              items:
+                - name: 测试和验证
+                  href: perf-test/testing-validation.md
+                - name: Visual Studio 中的测试项目
+                  href: perf-test/testing-support.md
+                - name: 部署支持连续生成和测试自动化的环境
+                  href: perf-test/continuous-build-test-automation.md
+                - name: 使用类和方法属性的 SysTest 筛选
+                  href: perf-test/systest-filtering.md
+                - name: 接受度测试库
+                  items:
+                    - name: 接受度测试库资源
+                      href: perf-test/acceptance-test-library.md
+                    - name: 导航概念
+                      href: perf-test/concepts-navigation.md
+                    - name: 测试数据方法
+                      href: perf-test/test-data-methods.md
+                    - name: 接受度测试库中的实体
+                      href: perf-test/concepts-entities.md
+                    - name: 接受度测试库命令
+                      href: perf-test/concepts-commands.md
+                    - name: 接受度测试库中的创建者
+                      href: perf-test/concepts-creators.md
+                    - name: 接受度测试库中的查询
+                      href: perf-test/concepts-queries.md
+                    - name: 说明类
+                      href: perf-test/concepts-specifications.md
+                    - name: 接受度测试库代码生成向导
+                      href: perf-test/code-generation-wizard.md
+                    - name: 接受度测试库的最佳实践
+                      href: perf-test/atl-best-practices.md
+                    - name: 常见问题
+                      href: perf-test/atl-faq.md
+            - name: 日期有效性
+              href: dev-tools/date-effectivity.md
+            - name: ISV 许可
+              href: dev-tools/isv-licensing.md
+            - name: 本地 ISV 许可
+              href: dev-tools/isv-licensing-on-prem.md
+        - name: 一般数据保护条例 (GDPR)
+          items:
+            - name: 一般数据保护条例概览
+              href: gdpr/gdpr-guide.md
+            - name: 响应 GDPR 数据请求
+              items:
+                - name: 响应 GDPR 数据请求资源
+                  href: gdpr/gdpr-home-page.md
+                - name: 资产分类
+                  href: gdpr/gdpr-asset-classification-values.md
+                - name: 人员搜索报告
+                  href: gdpr/gdpr-person-search-report.md
+                - name: 扩展人员搜索报告
+                  href: gdpr/gdpr-extend-person-search-report.md
+                - name: 管理对敏感数据的访问权限
+                  href: gdpr/gdpr-auditing-sensitive-data.md
+                - name: 使用 Human Resources 响应个人数据请求
+                  href: gdpr/respond-dsr-request-talent.md
+                - name: 响应对 AX 2012 中的个人数据的请求
+                  href: gdpr/gdpr-ax2012.md
+                - name: 针对 LCS 的 GDPR 数据请求
+                  href: gdpr/gdpr-lcs.md
+        - name: Lifecycle Services
+          items:
+            - name: Lifecycle Services 的资源
+              items:
+                - name: Lifecycle Services 资源
+                  href: lifecycle-services/lcs.md
+                - name: 适用于客户的 LCS
+                  href: lifecycle-services/lcs-works-lcs.md
+                - name: 适用于合作伙伴的 LCS
+                  href: lifecycle-services/getting-started-lcs.md
+                - name: Lifecycle Services 中的新增功能或更改
+                  href: lifecycle-services/whats-new-lcs.md
+                - name: 已知问题
+                  href: lifecycle-services/known-issues.md
+                - name: Lifecycle Services (LCS) 中已删除或弃用的功能
+                  href: lifecycle-services/removed-deprecated-features.md
+            - name: Lifecycle Services 用户指南
+              href: lifecycle-services/lcs-user-guide.md
+            - name: 项目启动
+              href: lifecycle-services/project-onboarding.md
+            - name: 订阅估算器
+              href: lifecycle-services/subscription-estimator.md
+            - name: 配置安全性
+              href: lifecycle-services/configure-lcs-security.md
+            - name: 问题搜索
+              href: lifecycle-services/issue-search-lcs.md
+            - name: 配置管理器
+              items:
+                - name: 配置管理器概览
+                  href: lifecycle-services/configuration-manager-lcs.md
+                - name: 设置配置管理器
+                  href: lifecycle-services/set-up-configuration-manager-lcs.md
+            - name: 配置代码升级服务
+              href: lifecycle-services/configure-execute-code-upgrade.md
+            - name: 创建或更新方法
+              href: lifecycle-services/create-methodology.md
+            - name: 业务流程建模器 (BPM)
+              items:
+                - name: 业务流程建模器 (BPM) 概览
+                  href: lifecycle-services/bpm-overview.md
+                - name: 业务流程建模器中的业务流程库
+                  href: lifecycle-services/business-process-libraries-business-process-modeler.md
+                - name: 创建、编辑并浏览业务流程建模器库
+                  href: lifecycle-services/creating-editing-browsing.md
+                - name: 在业务流程建模器中完成任务
+                  href: lifecycle-services/complete-tasks-bpm.md
+                - name: 使用 BPM 库中的活动图
+                  href: lifecycle-services/using-activity-diagrams.md
+                - name: 将 BPM 库与 Azure DevOps 同步
+                  href: lifecycle-services/synchronize-bpm-vsts.md
+                - name: 使用任务指南和 BPM 创建用户接受度测试库
+                  href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+                - name: 业务流程建模器中的流程图
+                  href: lifecycle-services/flowcharts-business-process-modeler.md
+                - name: 将自定义业务流程上传到业务流程建模器
+                  href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: 服务请求
+              items:
+                - name: 云操作和服务
+                  href: lifecycle-services/cloud-operations-servicing.md
+                - name: 将服务请求提交给 Dynamics 服务工程团队
+                  href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+                - name: 计划的维护时段常见问题
+                  href: lifecycle-services/planned-maintenance-window-faq.md
+            - name: 监控和诊断
+              href: lifecycle-services/monitoring-diagnostics.md
+            - name: 影响分析报表
+              href: lifecycle-services/impact-analysis-report.md
+            - name: 重新启动服务环境
+              href: lifecycle-services/restart-environment-services.md
+            - name: 报告生产中断
+              href: lifecycle-services/report-production-outage.md
+            - name: 跟踪用户登录
+              href: lifecycle-services/user-logins.md
+            - name: 资产库
+              href: lifecycle-services/asset-library.md
+            - name: 使用 LCS 中的工具进行性能故障排除
+              href: lifecycle-services/performancetroubleshooting.md
+            - name: 查询指南
+              href: lifecycle-services/querycookbook.md
+            - name: Microsoft Dynamics 365 Translation Service
+              items:
+                - name: Dynamics 365 Translation Service 概览
+                  href: lifecycle-services/translation-service-overview.md
+                - name: 翻译用户界面文件
+                  href: lifecycle-services/use-translation-service.md
+                - name: 翻译文档文件
+                  href: lifecycle-services/use-translation-service-ua.md
+                - name: 翻译记忆库文件
+                  href: lifecycle-services/use-translation-service-tm.md
+        - name: Microsoft Power Platform 集成
+          items:
+            - name: Microsoft Power Platform 与 Finance and Operations 的集成
+              href: power-platform/overview.md
+            - name: 实体建模
+              href: power-platform/entity-modeling.md
+            - name: 应用程序生命周期管理
+              href: power-platform/application-lifecycle-management.md
+            - name: Finance and Operations 和 Common Data Service 管理员参考
+              href: power-platform/admin-reference.md
+            - name: Finance and Operations 的 Power Apps 门户
+              href: power-platform/power-portal-reference.md
+            - name: Finance and Operations 虚拟实体常见问题
+              href: power-platform/faq.md
+        - name: 移动平台
+          items:
+            - name: 移动平台资源
+              href: mobile-apps/platform/mobile-platform-home-page.md
+            - name: 入门
+              items:
+                - name: 移动平台入门
+                  href: mobile-apps/platform/mobile-platform-getting-started.md
+                - name: 体系结构和设计注意事项
+                  href: mobile-apps/platform/mobile-platform-architecture.md
+                - name: 业务逻辑事件
+                  href: mobile-apps/platform/business-logic-events-overview.md
+                - name: 页面设计准则
+                  href: mobile-apps/platform/page-design-guidelines.md
+                - name: 操作设计准则
+                  href: mobile-apps/platform/action-design-guidelines.md
+                - name: 窗体设计要求
+                  href: mobile-apps/platform/form-design-requirements.md
+            - name: 普通任务
+              items:
+                - name: 使用 SysAppWorkspace 类配置工作区
+                  href: mobile-apps/platform/scenarios/mobile-workspace-configuration.md
+                - name: 使移动应用页面上的字段可单击
+                  href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
+                - name: 在字段中显示计数
+                  href: mobile-apps/platform/scenarios/display-count-workspace.md
+                - name: 帮助保护移动工作区
+                  href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
+                - name: 本地化移动工作区
+                  href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
+                - name: 使用工作区类将字段设置为必填字段
+                  href: mobile-apps/platform/scenarios/make-field-mandatory.md
+            - name: 服务器端开发参考
+              items:
+                - name: 服务器端开发（工作区 X++ API）
+                  href: mobile-apps/platform/mobile-workspace-server-apis.md
+            - name: 客户端开发参考
+              items:
+                - name: 客户端设计 API
+                  href: mobile-apps/platform/scenarios/client-api-design-overview.md
+                - name: 客户端 API
+                  items:
+                    - name: 客户端 API 主页
+                      href: mobile-apps/platform/client-apis/client-apis-reference.md
+                    - name: PageState 枚举
+                      href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
+                    - name: 应用程序模块
+                      href: mobile-apps/platform/client-apis/modules/services-application.md
+                    - name: 延期模块
+                      href: mobile-apps/platform/client-apis/modules/defer.md
+                    - name: 事件模块
+                      href: mobile-apps/platform/client-apis/modules/event-ievent.md
+                    - name: 控制模块
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md
+                    - name: 容器模块
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
+                    - name: 字段模块
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md
+                    - name: 文件上传器模块
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md
+                    - name: 组模块
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md
+                    - name: 超链接模块
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md
+                    - name: 图像模块
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md
+                    - name: 输入模块
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md
+                    - name: 列表模块
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md
+                    - name: 查找模块
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md
+                    - name: 多条件查找模块
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md
+                    - name: 页面模块
+                      href: mobile-apps/platform/client-apis/modules/view-model-ipage.md
+                    - name: Pagelink 模块
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md
+                    - name: 部件模块
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md
+                    - name: 服务模块
+                      href: mobile-apps/platform/client-apis/modules/services-business-logic-services.md
+                    - name: 值模块
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md
+                    - name: 应用程序类型
+                      href: mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md
+                    - name: ApplicationMetadata 类型
+                      href: mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md
+                    - name: AsyncService 类型
+                      href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md
+                    - name: CacheService 类型
+                      href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md
+                    - name: CompleteEventArgs 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md
+                    - name: ContainerControl 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md
+                    - name: ContainerControlDesign 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md
+                    - name: ContainerControlMetadata 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md
+                    - name: ControlMetadata 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md
+                    - name: DataService 类型
+                      href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md
+                    - name: Deferred 类型<T>
+                      href: mobile-apps/platform/client-apis/interfaces/defer-ideferred.md
+                    - name: Design 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md
+                    - name: EventHook 类型<T>
+                      href: mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md
+                    - name: Field 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md
+                    - name: FieldDesign 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md
+                    - name: FieldMetadata 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md
+                    - name: FileUploader 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md
+                    - name: FileUploaderDesign 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md
+                    - name: FileUploaderMetadata 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md
+                    - name: GenericValue 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md
+                    - name: getDataSource 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md
+                    - name: Group 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md
+                    - name: GroupDesign 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md
+                    - name: GroupMetadata 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md
+                    - name: HyperLink 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md
+                    - name: HyperLinkDesign 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md
+                    - name: HyperLinkMetadata 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md
+                    - name: Image 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md
+                    - name: ImageDesign 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md
+                    - name: ImageMetadata 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md
+                    - name: InputControl 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md
+                    - name: InputControlDesign 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md
+                    - name: InputControlMetadata 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md
+                    - name: List 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md
+                    - name: ListDesign 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md
+                    - name: ListMetadata 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md
+                    - name: Lookup 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md
+                    - name: LookupDesign 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md
+                    - name: LookupMetadata 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md
+                    - name: MetadataService 类型
+                      href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md
+                    - name: MultiLookup 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md
+                    - name: MultiLookupDesign 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md
+                    - name: MultiLookupMetadata 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md
+                    - name: NavigationArgs 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md
+                    - name: NumberSequenceConfig 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md
+                    - name: Page 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md
+                    - name: PageData 类型
+                      href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md
+                    - name: PageLink 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md
+                    - name: PageLinkDesign 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md
+                    - name: PageLinkMetadata 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md
+                    - name: PageMetadata 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md
+                    - name: PageOptions 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md
+                    - name: PageSubmitArgs 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md
+                    - name: PageTarget 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md
+                    - name: Part 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md
+                    - name: PartDesign 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md
+                    - name: PartMetadata 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
+                    - name: Row 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
+                    - name: Value 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
+                    - name: ValueDesign 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
+                    - name: ValueMetadata 类型
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+        - name: 流程自动化框架
+          items:
+            - name: 流程自动化框架开发
+              href: process-automation/process-automation-framework.md
+            - name: 类型登记
+              href: process-automation/type-registration.md
+            - name: 系列登记
+              href: process-automation/series-registration.md
+            - name: 流程参数
+              href: process-automation/process-parameters.md
+            - name: 用户可配置查询
+              href: process-automation/user-queries.md
+            - name: 执行流程
+              href: process-automation/run-process.md
+            - name: 记录结果和消息
+              href: process-automation/log-results.md
+            - name: 自定义用户界面
+              href: process-automation/ui-customization.md
+        - name: Regression Suite Automation Tool
+          items:
+            - name: Regression Suite Automation Tool 概览
+              href: perf-test/rsat/rsat-overview.md
+            - name: 安装和配置
+              href: perf-test/rsat/rsat-install-configure.md
+            - name: 使用 Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-run.md
+            - name: 验证预期值
+              href: perf-test/rsat/rsat-validate-expected.md
+            - name: 链测试用例
+              href: perf-test/rsat/rsat-chain-test-cases.md
+            - name: 派生测试用例
+              href: perf-test/rsat/rsat-derived-test-cases.md
+            - name: Regression Suite Automation Tool 教程和其他功能
+              href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
+            - name: 最佳实践
+              href: perf-test/rsat/rsat-best-practices.md
+            - name: 使用 Regression Suite Automation Tool 的分区不可知测试
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: 故障排除
+              href: perf-test/rsat/rsat-troubleshooting.md
+        - name: 使用 Lifecycle Services 发布解决方案
+          items:
+            - name: 开发和发布
+              href: lcs-solutions/lcs-solutions-app-source.md
+            - name: 阶段和发布
+              href: /azure/marketplace/partner-center-portal/create-new-operations-offer
+            - name: 添加方法
+              href: lcs-solutions/methodologies-lcs-solutions.md
+            - name: 设置业务流程建模器库
+              href: lcs-solutions/business-process-modeler-libraries-lcs-solutions.md
+            - name: 迁移代码
+              href: lcs-solutions/code-migration-lcs-solutions.md
+            - name: 验证应用程序
+              href: lcs-solutions/app-validation-lcs-solutions.md
+            - name: 流程和用户数据包
+              href: lcs-solutions/process-data-packages-lcs-solutions.md
+            - name: 备份解决方案数据库
+              href: lcs-solutions/database-backup-lcs-solutions.md
+            - name: 本地化和监管功能
+              items:
+                - name: 全球化资源
+                  href: lcs-solutions/country-region.md
+                - name: 本地化功能的分类
+                  href: lcs-solutions/classify-localization-features.md
+                - name: 应用国家/地区上下文
+                  href: lcs-solutions/apply-country-context.md
+                - name: 功能标题中的管理认证信息
+                  href: lcs-solutions/regulatory-certifications.md
+                - name: 监管更新
+                  href: lcs-solutions/regulatory-watch-communication.md
+                - name: 本地化模型分离
+                  href: lcs-solutions/separate-localization-models.md
+                - name: 提交监管预警
+                  href: lcs-solutions/submit-localization-alerts.md
+        - name: 支持
+          items:
+            - name: 获取对 Finance and Operations 和 Lifecycle Services 的支持
+              href: lifecycle-services/lcs-support.md
+            - name: Dynamics 365 支持概览
+              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
+            - name: 获取对在中国由 21Vianet 运营的 Finance and Operations 的支持
+              href: lifecycle-services/21vianet-support.md
+            - name: 设置对 Finance and Operations 应用的技术支持
+              href: lifecycle-services/support-experience.md
+            - name: 管理 Finance and Operations 应用支持体验
+              href: lifecycle-services/cloud-powered-support-lcs.md
+        - name: 系统管理
+          items:
+            - name: 系统管理主页
+              href: sysadmin/system-administration-home-page.md
+            - name: 添加指向您的法律条款和隐私声明的链接
+              href: sysadmin/legal-terms-privacy-statement.md
+            - name: 许可证代码和 Configuration Key 报表
+              href: sysadmin/license-codes-configuration-keys-report.md
+            - name: 跨公司数据共享
+              href: sysadmin/cross-company-data-sharing.md
+            - name: 维护模式
+              href: sysadmin/maintenance-mode.md
+            - name: 预配置系统帐户
+              href: sysadmin/pre-configured-system-accounts.md
+            - name: 将 B2B 用户导出到 Azure AD
+              href: sysadmin/implement-b2b.md
+            - name: 安全性
+              items:
+                - name: 基于角色的安全性
+                  href: sysadmin/role-based-security.md
+                - name: 安全体系结构
+                  href: sysadmin/security-architecture.md
+                - name: Finance and Operations 应用中的加密
+                  href: sysadmin/encryption.md
+                - name: 设置会话不活动超时
+                  href: sysadmin/session-idle-timeout.md
+                - name: 现成安全报表
+                  href: sysadmin/security-reports.md
+                - name: 创建新用户
+                  href: sysadmin/tasks/create-new-users.md
+                - name: 用户会话管理
+                  href: sysadmin/user-session-management.md
+                - name: 批量导入用户
+                  href: sysadmin/tasks/import-bulk-users.md
+                - name: 设置职责划分
+                  href: sysadmin/tasks/set-up-segregation-duties.md
+                - name: 确定和解决职责划分冲突
+                  href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
+                - name: 将用户分配给安全角色
+                  href: sysadmin/tasks/assign-users-security-roles.md
+                - name: 使用数据管理导入或导出自定义的安全配置
+                  href: sysadmin/import-export-customized-security.md
+                - name: 任务录制的安全诊断
+                  href: sysadmin/tasks/security-diagstics-task-recordings.md
+                - name: 可扩展的数据安全策略
+                  href: sysadmin/extensible-data-security-policies.md
+                - name: 创建安全策略
+                  href: sysadmin/create-simple-security-policy.md
+            - name: 保持符合用户许可要求
+              href: sysadmin/stay-compliant-user-license-requirement.md
+            - name: 流程自动化
+              href: sysadmin/process-automation.md
+            - name: 批处理
+              items:
+                - name: 批处理概览
+                  href: sysadmin/batch-processing-overview.md
+                - name: 批处理和批处理服务器
+                  href: sysadmin/batch-server-overview.md
+                - name: 创建批处理作业
+                  href: sysadmin/tasks/create-batch-job.md
+                - name: 复制批处理作业
+                  href: sysadmin/copy-batch-job.md
+                - name: 活动批处理期间
+                  href: sysadmin/activeperiod.md
+                - name: 活动批处理期间的夏令时支持
+                  href: sysadmin/batch-active-period-dst.md
+                - name: 批处理管理器安全角色
+                  href: sysadmin/runby.md
+                - name: 用于处理 SQL 索引碎片整理的批处理作业
+                  href: sysadmin/batch-job-SQL-defragmentation.md
+                - name: 配置批处理预警
+                  href: sysadmin/alerts.md
+                - name: 增强型批处理窗体
+                  href: sysadmin/enhanced-forms.md
+                - name: 清除批处理历史记录
+                  href: sysadmin/batch-history-cleanup.md
+                - name: 中止正在执行的批处理作业
+                  href: sysadmin/batch-abort.md
+            - name: 优化顾问
+              items:
+                - name: 优化顾问概览
+                  href: sysadmin/optimization-advisor-overview.md
+                - name: 创建优化顾问规则
+                  href: sysadmin/create-rules-optimization-advisor.md
+            - name: 报告生产中断
+              href: lifecycle-services/report-production-outage.md
+            - name: 配置和管理数据库日志记录
+              href: sysadmin/configure-manage-database-log.md
+            - name: AOS 启动时建立 OData 元数据缓存
+              href: sysadmin/odata-warmup.md
+            - name: 设置 Azure 密钥保管库客户端
+              href: ../../finance/localizations/setting-up-azure-key-vault-client.md
+            - name: 清理例程
+              href: sysadmin/cleanuproutines.md
+        - name: 升级、更新和修补程序
+          items:
+            - name: 升级、更新和修补程序资源
+              href: migration-upgrade/upgrade-home-page.md
+            - name: 从 AX 2012 升级
+              items:
+                - name: 从 AX 2012 升级到 Finance and Operations
+                  href: migration-upgrade/upgrade-overview-2012.md
+                - name: AX 2012 升级 - 使用升级分析器工具进行计划
+                  href: migration-upgrade/upgrade-analyzer-tool.md
+                - name: AX 2012 升级 - 使用代码升级服务评估工作
+                  href: migration-upgrade/analyze-code-upgrade.md
+                - name: AX 2012 升级 - 部署用于分析的演示环境
+                  href: migration-upgrade/analysis-sandbox.md
+                - name: AX 2012 升级 - 开发环境中的数据升级
+                  href: migration-upgrade/data-upgrade-2012.md
+                - name: AX 2012 升级 - 数据升级的升级前核对清单
+                  href: migration-upgrade/prepare-data-upgrade.md
+                - name: AX 2012 升级 - 沙盒环境中使用 DACPAC 流程的数据升级
+                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
+                - name: AX 2012 升级 - 沙盒环境中的数据升级
+                  href: migration-upgrade/upgrade-data-sandbox.md
+                - name: AX 2012 升级 - 本地环境
+                  href: migration-upgrade/on-prem-upgrade-2012.md
+                - name: AX 2012 升级 - 直接转换测试
+                  href: migration-upgrade/upgrade-cutover-testing.md
+                - name: AX 2012 升级 - 升级后任务
+                  href: migration-upgrade/app-validation-process.md
+                - name: AX 2012 升级 - 功能测试传递
+                  href: migration-upgrade/upgrade-functional-validation.md
+                - name: AX 2012 升级 - 准备实施
+                  href: migration-upgrade/upgrade-go-live-prep.md
+                - name: AX 2012 升级 - 实施
+                  href: migration-upgrade/2012-upgrade-cutover.md
+                - name: 影响从 AX 2012 升级的更改
+                  items:
+                    - name: 使会计科目表分隔符的成为唯一的
+                      href: migration-upgrade/chart-accounts-delimiter-unique.md
+                    - name: 升级单一凭证日记帐和货币重估
+                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
+                    - name: 项目资源计划数据模型
+                      href: migration-upgrade/data-model-changes-resource-management.md
+                    - name: 工作流子系统更改
+                      href: migration-upgrade/workflow-subsystem.md
+                    - name: 聚合使用的模型而不是用于分析的多维数据集
+                      href: migration-upgrade/in-memory-real-time-aggregate-models.md
+                    - name: 将升级的销售多维数据集迁移至实体商店
+                      href: migration-upgrade/migrate-upgraded-cube-entity-store.md
+                    - name: 升级预算计划
+                      href: migration-upgrade/upgrade-budget-planning.md
+            - name: 从 AX 2009 迁移数据
+              items:
+                - name: 将数据从 AX 2009 迁移到 Finance and Operations
+                  href: migration-upgrade/data-migration-tool.md
+                - name: AX 2009 迁移 - 安装数据迁移工具
+                  href: migration-upgrade/install-dmt.md
+                - name: AX 2009 迁移 - 生成映射
+                  href: migration-upgrade/generate-maps.md
+                - name: AX 2009 迁移 - 创建模板
+                  href: migration-upgrade/create-package-templates-dmt.md
+                - name: AX 2009 迁移 - 创建迁移组
+                  href: migration-upgrade/create-definition.md
+                - name: AX 2009 迁移 - 导出包
+                  href: migration-upgrade/ax2009-upgrade-export-package.md
+                - name: AX 2009 迁移 - 导入包
+                  href: migration-upgrade/ax2009-upgrade-import-package.md
+            - name: 代码迁移和升级
+              items:
+                - name: 代码迁移和升级主页
+                  href: migration-upgrade/code-migration-home-page.md
+                - name: 准备迁移代码
+                  href: migration-upgrade/prepare-migration.md
+                - name: 配置 Azure DevOps 映射
+                  href: migration-upgrade/configure-vso-solution.md
+                - name: 模型拆分
+                  href: dev-tools/model-split.md
+                - name: 使用委托解决模型之间的依赖关系
+                  href: migration-upgrade/delegates-migration.md
+            - name: 升级到最近更新（云）
+              items:
+                - name: 移至最新更新的流程
+                  href: migration-upgrade/upgrade-latest-update.md
+                - name: One Version 的路径
+                  items:
+                    - name: 最新版本的自助服务升级
+                      href: migration-upgrade/self-service-upgrade.md
+                    - name: 重建并更新到最新版本
+                      href: migration-upgrade/appupdate-80-81.md
+                - name: 软件生命周期策略和云版本
+                  href: migration-upgrade/versions-update-policy.md
+                - name: 将最新平台更新应用于环境
+                  href: migration-upgrade/upgrade-latest-platform-update.md
+                - name: 在开发或演示环境中升级数据
+                  href: migration-upgrade/upgrade-data-to-latest-update.md
+                - name: 更新开发工具
+                  href: dev-tools/update-development-tools.md
+                - name: 针对最新更新计划和准备代码编译
+                  href: migration-upgrade/compile-considerations.md
+            - name: 升级到最近更新（本地）
+              items:
+                - name: 将更新应用于本地部署
+                  href: deployment/apply-updates-on-premises.md
+                - name: 重新部署本地部署
+                  href: deployment/redeploy-on-prem.md
+                - name: 本地环境的就地升级流程
+                  href: migration-upgrade/on-prem-upgrade.md
+            - name: 修补程序
+              items:
+                - name: 从 Lifecycle Services 获取更新
+                  href: migration-upgrade/download-hotfix-lcs.md
+                - name: 将更新应用于云环境
+                  href: deployment/apply-deployable-package-system.md
+                - name: 在开发环境中安装元数据修补程序
+                  href: migration-upgrade/install-metadata-hotfix-package.md
+                - name: 在一体框环境中修补 Reporting Services
+                  href: migration-upgrade/patch-reporting-service-environment.md
+                - name: 更新 Visual Studio 开发工具
+                  href: dev-tools/update-development-tools.md
+            - name: 弃用
+              items:
+                - name: 已删除或弃用的功能
+                  href: migration-upgrade/deprecated-features.md
+                - name: 方法和元数据元素的弃用
+                  href: migration-upgrade/deprecation-deletion-apis.md
+                - name: 弃用的 API
+                  href: migration-upgrade/deprecated-apis.md
+        - name: 用户界面开发
+          items:
+            - name: 用户界面开发主页
+              href: user-interface/user-interface-development-home-page.md
+            - name: 教程
+              items:
+                - name: 构建租赁费用类型窗体
+                  href: user-interface/build-rental-charge-type-form.md
+                - name: 构建客户窗体
+                  href: user-interface/build-customer-form.md
+                - name: 构建导航
+                  href: user-interface/build-navigation.md
+                - name: 修改工作区
+                  href: user-interface/build-workspace.md
+            - name: 窗体
+              items:
+                - name: 导航概念
+                  href: user-interface/page-navigation.md
+                - name: Web 客户端中的页面布局
+                  href: user-interface/page-layout.md
+                - name: Dynamics 符号字体
+                  href: user-interface/symbol-font.md
+                - name: 已保存的视图
+                  href: ../fin-ops/get-started/saved-views.md
+                - name: 生成可充分利用已保存视图的窗体
+                  href: user-interface/understanding-saved-views.md
+                - name: 使用自定义模式的测试窗体
+                  href: user-interface/testing-forms-custom-patterns.md
+                - name: 创建可共享且安全的 URL（深层链接）
+                  href: user-interface/create-deep-links.md
+                - name: 窗体、产品和控件中的辅助功能
+                  href: user-interface/enable-accessibility.md
+                - name: 自定义字段描述
+                  href: user-interface/customize-field-help.md
+            - name: 控件
+              items:
+                - name: 操作控件
+                  href: user-interface/action-controls.md
+                - name: 输入控件和网格列大小
+                  href: user-interface/sizing-input-controls-grid-columns.md
+                - name: 树型控件中的复选框支持
+                  href: user-interface/check-box-tree-controls.md
+                - name: 筛选选项
+                  href: user-interface/filtering.md
+                - name: Power Apps 主机控制
+                  href: user-interface/powerapps-host-control.md
+            - name: 窗口管理
+              items:
+                - name: 迁移上下文菜单代码
+                  href: migration-upgrade/code-migration-context-menus.md
+                - name: 迁移鼠标双击逻辑
+                  href: migration-upgrade/code-migration-double-click.md
+                - name: 查找的上下文数据条目
+                  href: user-interface/contextual-data-entry-lookups.md
+                - name: HierarchyViewer 控件
+                  href: user-interface/hierarchy-viewer-control.md
+                - name: 查找控件
+                  href: user-interface/lookups-controls.md
+                - name: 文件上载控件
+                  href: user-interface/file-upload-control.md
+                - name: 系统定义的按钮
+                  href: user-interface/system-defined-buttons.md
+                - name: 页面上或网格中的图像
+                  href: user-interface/images-form-grid.md
+                - name: 输入、表和网格控件的字体和背景颜色
+                  href: user-interface/specify-color-font-background-controls.md
+                - name: 从右到左语言支持和双向文本
+                  href: user-interface/bidirectional-support.md
+                - name: 创建工作区磁贴的图标
+                  href: user-interface/create-icons-workspace-tiles.md
+                - name: 可扩展控件的公共 JavaScript API
+                  href: user-interface/public-javascript-apis.md
+                - name: 控制核对清单
+                  href: user-interface/control-checklist.md
+            - name: 消息
+              items:
+                - name: 功能标注
+                  href: user-interface/feature-callouts.md
+                - name: 滑块和消息框对话框
+                  href: user-interface/slider-messagebox.md
+                - name: 消息中心、消息栏和消息详细信息 API
+                  href: user-interface/messaging-api-center-bar-details.md
+                - name: 消息中心、消息栏和消息详细信息常见问题
+                  href: user-interface/messaging-user.md
+            - name: 窗体模式准则
+              items:
+                - name: 已迁移窗体的窗体模式
+                  href: user-interface/select-form-pattern.md
+                - name: 窗体样式和模式
+                  href: user-interface/form-styles-patterns.md
+                - name: 支持窗体模式的 Visual Studio 加载项
+                  href: user-interface/form-pattern-add-ins.md
+            - name: 窗体模式
+              items:
+                - name: 一般窗体准则
+                  href: user-interface/general-form-guidelines.md
+                - name: 详细信息主窗体模式
+                  href: user-interface/details-master-form-pattern.md
+                - name: 详细信息交易窗体模式
+                  href: user-interface/details-transaction-form-pattern.md
+                - name: 窗体部件分区列表窗体模式
+                  href: user-interface/section-list-form-pattern.md
+                - name: 列表页窗体模式
+                  href: user-interface/list-page-form-pattern.md
+                - name: 简单详细信息窗体模式
+                  href: user-interface/simple-details-form-pattern.md
+                - name: 简单列表和详细信息窗体模式
+                  href: user-interface/simple-list-details-form-pattern.md
+                - name: 简单列表窗体模式
+                  href: user-interface/simple-list-form-pattern.md
+                - name: 目录窗体模式
+                  href: user-interface/table-of-contents-form-pattern.md
+                - name: 任务双窗体模式
+                  href: user-interface/task-double-form-pattern.md
+                - name: 任务单窗体模式
+                  href: user-interface/task-single-form-pattern.md
+                - name: 向导窗体模式
+                  href: user-interface/wizard-form-pattern.md
+                - name: 工作区窗体模式
+                  href: user-interface/workspace-form-pattern.md
+            - name: 附属窗体模式
+              items:
+                - name: 高级选择窗体模式
+                  href: user-interface/advanced-selection-form-pattern.md
+                - name: 对话窗体模式
+                  href: user-interface/dialog-form-pattern.md
+                - name: 删除对话框窗体模式
+                  href: user-interface/drop-dialog-form-pattern.md
+                - name: 查找窗体模式
+                  href: user-interface/lookup-form-pattern.md
+                - name: 速见表窗体模式
+                  href: user-interface/factbox-form-patterns.md
+            - name: 子模式
+              items:
+                - name: 自定义筛选器组子模式
+                  href: user-interface/custom-filter-group-subpattern.md
+                - name: 维度条目控件子模式
+                  href: financial/dimension-entry-control-subpattern.md
+                - name: 维度表达式生成器子模式
+                  href: financial/dimension-expression-builder-subpattern.md
+                - name: 字段和字段组子模式
+                  href: user-interface/fields-field-groups-subpattern.md
+                - name: 筛选器和工具栏子模式
+                  href: user-interface/filters-toolbar-subpattern.md
+                - name: 填充文本子模式
+                  href: user-interface/fill-text-subpattern.md
+                - name: 水平字段和按钮组子模式
+                  href: user-interface/horizontal-fields-buttons-group-subpattern.md
+                - name: 图像预览子模式
+                  href: user-interface/image-preview-subpattern.md
+                - name: 列表面板子模式
+                  href: user-interface/list-panel-subpattern.md
+                - name: 嵌套简单列表和详细信息子模式
+                  href: user-interface/nested-simple-list-details-subpattern.md
+                - name: 部分图表窗体模式
+                  href: user-interface/section-chart-form-pattern.md
+                - name: 部分 Power BI 子模式
+                  href: user-interface/section-powerbi-subpattern.md
+                - name: 部分相关链接子模式
+                  href: user-interface/section-related-links-subpattern.md
+                - name: 部分堆积图子模式
+                  href: user-interface/section-stacked-chart-subpattern.md
+                - name: 部分选项卡式列表子模式
+                  href: user-interface/section-tabbed-list-subpattern.md
+                - name: 部分磁贴子模式
+                  href: user-interface/section-tiles-subpattern.md
+                - name: 表格式字段子模式
+                  href: user-interface/tabular-fields-subpattern.md
+                - name: 工具栏和字段子模式
+                  href: user-interface/toolbar-fields-subpattern.md
+                - name: 工具栏和列表子模式
+                  href: user-interface/toolbar-list-subpattern.md
+                - name: 工作区页面筛选器组子模式
+                  href: user-interface/workspace-filter-group-subpattern.md
+            - name: 控件可扩展性
+              items:
+                - name: 构建可扩展控件
+                  href: user-interface/build-extensible-control.md
+                - name: 可扩展控件的键盘快捷键
+                  href: user-interface/keyboard-shortcuts-controls.md
+                - name: 可扩展控件编程参考
+                  href: user-interface/extensible-control-programming-reference.md
+                - name: 控件可扩展性
+                  href: user-interface/control-extensibility.md
+                - name: 创建可本地化的标签
+                  href: user-interface/create-localizable-labels-client.md
+                - name: 可扩展控件布局准则
+                  href: user-interface/extensible-controls-layout.md
+                - name: 控制任务录制器为控件生成的文本
+                  href: user-interface/task-recorder-control-text.md
+            - name: 构建工作区
+              items:
+                - name: 构建运营工作区
+                  href: user-interface/build-workspaces.md
+                - name: 工作区的磁贴和列表缓存
+                  href: user-interface/tile-list-caching-workspaces.md
+            - name: 任务录制器
+              items:
+                - name: 任务录制器资源
+                  href: user-interface/task-recorder.md
+                - name: 任务录制器快速参考
+                  href: user-interface/task-recorder-quick-reference.md
+                - name: 通过任务录制创建文档或培训
+                  href: user-interface/task-recorder-training-docs.md
+    - name: Dynamics 365 Supply Chain Management
+      href: ../../supply-chain/index.md
+    - name: Dynamics 365 Finance
+      href: ../../finance/index.md
+    - name: Dynamics 365 Commerce
+      href: ../../commerce/index.md
