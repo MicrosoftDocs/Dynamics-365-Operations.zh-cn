@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c5a3a90b0065f8cd076117818df810cf10202d29
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 92af567499c1a8a23cd4d51e5bab48eaab2d8422
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030960"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4458562"
 ---
 # <a name="revenue-recognition-overview"></a>收入确认概览
 
@@ -51,6 +51,6 @@ ms.locfileid: "3030960"
 
 在确认销售订单后，如果任何销售订单行具有收入计划，则还将创建预期收入计划。 在为销售订单开票后，预期收入计划将被删除并被实际收入确认计划替代。
 
-每个销售订单行均维护收入确认计划详细信息。 因此，在完成合同义务后，收入确认经理可以查看详细信息并将销售订单行发放到收入。 每个阶段结束时，收入确认经理可以创建收入日记帐来发放任何在其指定的日期当日或之前截止的计划行。 此收入日记帐不会立即过帐。 因此，收入确认经理可验证从延期收入向实际收入发放的金额是否正确。
+每个销售订单行均维护收入确认计划详细信息。 因此，在完成合同义务后，收入确认经理可以查看详细信息并将销售订单行发放到收入。 每个期间结束时，收入确认经理可以创建收入日记帐来发放任何在其指定的日期当日或之前截止的计划行。 此收入日记帐不会立即过帐。 因此，收入确认经理可验证从延期收入向实际收入发放的金额是否正确。
 
 如果合同发生变化，现有销售订单或新销售订单中添加了新的销售订单行，则可以运行重新分配流程以更正销售订单的所有行中的收入价格。

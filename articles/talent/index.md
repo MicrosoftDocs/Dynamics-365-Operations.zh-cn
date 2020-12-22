@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.openlocfilehash: 3e77b5586c7b4a6abe58c8006b8773ee3a0f26f9
-ms.sourcegitcommit: 880f617d1d6e95eccbed762c7ea04398553c2ec0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036468"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458501"
 ---
 # <a name="welcome-to-dynamics-365-talent"></a>欢迎使用 Dynamics 365 Talent
 

@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.openlocfilehash: 6a6f53007f8bd04724c43c518c5a9b10856b68d7
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976711"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458538"
 ---
 # <a name="accounts-payable-home-page"></a>应付帐款主页
 
@@ -31,7 +31,7 @@ ms.locfileid: "3976711"
 
 此主题概要介绍了应付帐款。 
 
-您可以手动输入供应商发票或通过数据实体以电子方式接收这些发票。 在输入或接收发票后，可以通过使用发票审核日记帐或**供应商发票**页查看和审核发票。 您可以使用发票匹配、供应商发票策略和工作流来实现审核流程自动化，以便自动审核满足特定条件的发票，并标记其余的发票由得到授权的用户进行审核。
+您可以手动输入供应商发票或通过数据实体以电子方式接收这些发票。 在输入或接收发票后，可以通过使用发票审核日记帐或 **供应商发票** 页查看和审核发票。 您可以使用发票匹配、供应商发票策略和工作流来实现审核流程自动化，以便自动审核满足特定条件的发票，并标记其余的发票由得到授权的用户进行审核。
 
 **业务流程**
 

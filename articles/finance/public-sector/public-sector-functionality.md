@@ -20,11 +20,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f4a3722cf286909c83b5154137c86508929a2691
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981368"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458508"
 ---
 # <a name="public-sector-home-page"></a>公共部门主页
 
@@ -55,7 +55,7 @@ ms.locfileid: "3981368"
 \* 仅当您的组织位于法国时才适用。
 
 ## <a name="why-do-i-need-the-public-sector-configuration-key"></a>为什么需要公共部门 Configuration Key？
-**公共部门** Configuration Key 支持可补充核心应用的页面和控件。 您可以在**许可证配置**页面上启用或禁用此秘钥。
+**公共部门** Configuration Key 支持可补充核心应用的页面和控件。 您可以在 **许可证配置** 页面上启用或禁用此秘钥。
 
 ## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a>公共部门 Configuration Key 与其他 Configuration Key 有何关联？
 下表提供了此 Configuration Key 与其他 Configuration Key 有何关联的信息。

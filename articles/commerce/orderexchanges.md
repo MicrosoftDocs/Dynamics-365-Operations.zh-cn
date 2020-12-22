@@ -19,11 +19,11 @@ ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: a6d7688e78a375bc262b1156c5439c0fff7cd1f0
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004427"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458533"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>配置和处理有关退货单的交换
 
@@ -37,8 +37,8 @@ ms.locfileid: "3004427"
 
 请按以下步骤操作，将系统配置为支持就退货单进行产品交换。
 
-1. 转到 **Retail 和 Commerce \> Headquarters 设置 \> 参数 \> Commerce 参数**。 在**客户订单**快速选项卡上，将**将退货单作为销售订单处理**选项设置为**是**。
-2. 运行**全局配置配送计划**作业 (**1110**)。
+1. 转到 **Retail 和 Commerce \> Headquarters 设置 \> 参数 \> Commerce 参数**。 在 **客户订单** 快速选项卡上，将 **将退货单作为销售订单处理** 选项设置为 **是**。
+2. 运行 **全局配置配送计划** 作业 (**1110**)。
 
 ## <a name="make-an-exchange"></a>进行交换
 
@@ -49,5 +49,5 @@ ms.locfileid: "3004427"
 为了让用户更好地了解购物车的各项金额，购物车中新增了三个金额字段。 您可以使用屏幕设计器，在 POS 用户界面 (UI) 中提供这些新字段。
 
 - **存款单已应用** - 当用户执行客户订单选择时应用于交易的存款金额。 如果不存在存款覆盖，并且配置了 10% 的存款，则此字段中的金额为客户订单总金额的 90%。
-- **执行金额** - 创建或编辑客户订单时或者在客户订单交换期间，交货方式设置为**执行**情况下各行的总金额。 此字段中的金额包括税款和费用。
+- **执行金额** - 创建或编辑客户订单时或者在客户订单交换期间，交货方式设置为 **执行** 情况下各行的总金额。 此字段中的金额包括税款和费用。
 - **退货金额** - 客户订单交换期间具有负数量的行的总金额。 此字段中的金额包括税款和费用。

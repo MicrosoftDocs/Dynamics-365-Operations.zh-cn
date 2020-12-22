@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a7a03e6149d3677ac4f35522e4898e1f62da329
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8a910aa7f54905f305ed69e9dd9eea0909e5558d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975260"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528537"
 ---
 # <a name="budgeting-home-page"></a>预算编制主页
 
@@ -64,7 +64,7 @@ ms.locfileid: "3975260"
 ## <a name="user-interface-and-reporting-capabilities"></a>用户界面和报告功能
 用户可以直接在客户端中创建预算计划（通过使用可配置预算计划文档页），也可以通过 Excel 创建预算计划。 Excel 提供了几个额外功能。 例如，您可以使用外部数据作为预算计划的来源，执行自定义计算，并使用 Microsoft 数据透视表和图表。 预算计划流程中的大多数变量都可配置。 
 
-例如，您可以定义执行预算编制的人员、预算的对象以及具体流程。 尽管您可以使用 Excel 进行预算计划，但应用程序仍将作为唯一的数据来源，帮助防止预算控制问题。 周期性流程可用于将预算的初始数据纳入预算计划。 对于报告，应用程序提供了一系列标准查询页，供您查看和分析预算编制数据。 预算计划数据可通过 Management Reporter 访问，单独的预算计划方案可在 Management Reporter 报告中显示为列。
+例如，您可以定义执行预算编制的人员、预算的对象以及具体流程。 尽管您可以使用 Excel 进行预算计划，但应用程序仍将作为唯一的数据来源，帮助防止预算控制问题。 周期性流程可用于将预算的初始数据纳入预算计划。 对于报告，应用程序提供了一系列标准查询页，供您查看和分析预算编制数据。 预算计划数据可通过[财务报告](../general-ledger/financial-reporting-getting-started.md)访问，单独的预算计划方案可在财务报告中显示为列。
 
 
 

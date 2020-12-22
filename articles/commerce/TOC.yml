@@ -12,8 +12,10 @@
               items:
                 - name: One Version 服务更新概览
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: One Version 服务更新常见问题解答
+                - name: One Version 服务更新常见问题
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/commerce/toc.json
+                - name: 管理更新和自定义代码生命周期，包括 Dynamics 365 Commerce
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/commerce/toc.json
                 - name: 软件生命周期策略 - 云
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/commerce/toc.json
                 - name: 软件生命周期策略 - 本地
@@ -48,7 +50,7 @@
                   href: cpe-bopis.md
                 - name: 为 Dynamics 365 Commerce 评估环境配置可选功能
                   href: cpe-optional-features.md
-                - name: Dynamics 365 Commerce 评估环境常见问题解答
+                - name: Dynamics 365 Commerce 评估环境常见问题
                   href: cpe-faq.md
             - name: 部署注意事项
               items:
@@ -66,11 +68,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: 本地环境中 Retail 渠道组件的安装步骤
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: 购买 Finance + Operations（本地版）
+                - name: 购买 Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce Data Exchange 实施指南
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: 由世纪互联在中国运营的 Finance and Operations 应用
+                - name: Finance and Operations 应用在中国由 21Vianet 运营
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: 法国的 Finance and Operations 应用
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
@@ -92,12 +94,12 @@
                   items:
                     - name: “Commerce 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.16（2021 年 2 月）
+                      href: get-started/whats-new-commerce-10-0-16.md
                     - name: Commerce 10.0.15（2021 年 1 月）
                       href: get-started/whats-new-commerce-10-0-15.md
                     - name: Commerce 10.0.14（2020 年 11 月）
                       href: get-started/whats-new-commerce-10-0-14.md
-                    - name: Commerce 10.0.13（2020 年 10 月）
-                      href: get-started/whats-new-commerce-10-0-13.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: Finance and Operations 中已删除或弃用的功能
@@ -106,8 +108,6 @@
                       href: get-started/removed-deprecated-features-commerce.md
                 - name: 延迟发布的 AX 2012 功能
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
-                - name: 未在本地部署中实现的功能
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: Microsoft Dynamics AX 2009 和 2012 主流支持结束
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/commerce/toc.json
             - name: 文档资源
@@ -156,7 +156,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/commerce/toc.json
                 - name: 功能管理概览
                   href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: 客户端常见问题解答
+                - name: 客户端常见问题
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/commerce/toc.json
                 - name: 操作搜索
                   href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/commerce/toc.json
@@ -262,11 +262,11 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
                 - name: 准备实施
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
-                - name: 实施常见问题解答
+                - name: 实施常见问题
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
                 - name: 提交服务请求
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
-                - name: 订阅、LCS 项目和 Azure AD 租户常见问题解答
+                - name: 订阅、LCS 项目和 Azure AD 租户常见问题
                   href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: 在数据中心之间移动环境
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
@@ -324,6 +324,8 @@
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
                         - name: 免税的计算
                           href: tax-exempt-price-inclusive.md
+                        - name: 配置在线订单的销售税
+                          href: sales-tax-config.md
                     - name: 设置电子邮件通知配置文件
                       href: email-notification-profiles.md
                     - name: 编号规则
@@ -366,8 +368,6 @@
                       href: dev-itpro/retail-POS-activation-changes.md
                     - name: 为 POS 登录启用 Azure Active Directory 身份验证
                       href: aad-pos-logon.md
-                    - name: MPOS 和 Cloud POS 中的演示数据屏幕布局
-                      href: demo-data.md
                     - name: POS 中的产品和客户搜索
                       href: POS-search-improvements.md
                     - name: 在订单输入期间搜索产品和产品变型
@@ -510,9 +510,11 @@
                       href: cash-denominations.md
                     - name: 配置信用卡处理
                       href: tasks/configure-credit-card-processing.md
-                    - name: Adyen 付款连接器
+                    - name: 跳过 POS 中的“到期更改”对话框
+                      href: dev-itpro/skip-change-due.md
+                    - name: Adyen Payment Connector
                       href: dev-itpro/adyen-connector.md
-                    - name: 使用 Adyen 连接器保存在线支付工具
+                    - name: 使用 Adyen 连接器保存在线付款方式
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: 使用 Adyen 连接器的强大客户身份验证 (SCA)
                       href: adyen_redirect.md
@@ -530,10 +532,16 @@
                       href: dev-itpro/commerce-payments.md
                     - name: 在没有硬件工作站的情况下处理信用卡
                       href: dev-itpro/cnp-pos.md
-                    - name: 付款常见问题解答
+                    - name: 适用于 PayPal 的 Dynamics 365 Payment Connector
+                      href: paypal.md
+                    - name: 钱包付款支持
+                      href: wallets.md
+                    - name: 付款常见问题
                       href: dev-itpro/payments-retail.md
                 - name: 为您的组织管理必应地图
                   href: dev-itpro/manage-bing-maps.md
+                - name: 创建和更新用于客户提货的时隙
+                  href: dev-itpro/pickup-timeslots.md
         - name: 促销您的产品和服务
           items:
             - name: 类别、产品和分类
@@ -652,7 +660,7 @@
                   href: create-editorial-recommendation-lists.md
                 - name: 使用演示数据创建建议
                   href: product-recommendations-demo-data.md
-                - name: 产品建议常见问题解答
+                - name: 产品建议常见问题
                   href: faq-recommendations.md
             - name: 评分和评价
               items:
@@ -710,11 +718,15 @@
                   href: hybrid-customer-orders.md
                 - name: POS 中的撤回订单操作
                   href: enhancedorderrecall.md
+                - name: 启用多种提货交付模式
+                  href: multiple-pickup-modes.md
             - name: 销售订单
               items:
                 - name: 创建呼叫中心订单
                   href: tasks/create-call-center-orders.md
-                - name: 在 POS 上更改交货方式
+                - name: 按交货模式自定义事务电子邮件
+                  href: customize-email-delivery-mode.md
+                - name: 在 POS 上更改交货模式
                   href: POS-change-delivery-mode.md
             - name: 分配的订单管理
               items:
@@ -773,7 +785,17 @@
             - name: 禁用零售交易记录一致性检查器中的规则
               href: disable-consistency-check-rule.md
             - name: 编辑和审计零售商店交易记录
-              href: edit-audit-retail-transactions.md
+              items:
+                - name: 编辑并审计现金和结转及现金管理交易记录
+                  href: edit-cash-trans.md
+                - name: 编辑并审计在线订单和异步客户订单交易记录
+                  href: edit-order-trans.md
+                - name: 编辑零售交易记录的财务维度
+                  href: edit-financial-dim.md
+                - name: 创建 Excel 工作簿以编辑零售交易记录
+                  href: create-excel-edit.md
+                - name: 将字段添加到 Excel 工作簿以编辑零售交易记录
+                  href: add-fields-excel.md
             - name: 为零售商店交易记录创建基于缓慢馈送的订单
               href: trickle-feed.md
             - name: 创建、计算和过帐零售商店的对帐单
@@ -808,17 +830,17 @@
               href: task-mgmt-pos.md
         - name: 管理电子商务站点
           items:
-            - name: 在线商店概览
+            - name: 电子商务站点概览
               href: online-store-overview.md
-            - name: 创建电子商务网站
+            - name: 创建电子商务站点
               items:
                 - name: 配置域名
                   href: configure-your-domain-name.md
                 - name: 部署新的电子商务租户
                   href: deploy-ecommerce-site.md
-                - name: 创建电子商务网站
+                - name: 创建电子商务站点
                   href: create-ecommerce-site.md
-                - name: 将电子商务网站与在线渠道关联
+                - name: 将 Dynamics 365 Commerce 站点与在线渠道关联
                   href: associate-site-online-store.md
                 - name: 管理 robots.txt 文件
                   href: manage-robots-txt-files.md
@@ -946,6 +968,8 @@
                   href: dam-crop-images.md
                 - name: 自定义图像焦点
                   href: dam-custom-focal-point.md
+                - name: 上传并处理静态文件
+                  href: upload-serve-static-files.md
             - name: 使您的站点合规
               items:
                 - name: 合规性概览
@@ -1014,6 +1038,8 @@
                       href: ship-address-module.md
                     - name: 交付选项模块
                       href: delivery-options-module.md
+                    - name: 提货信息模块
+                      href: pickup-info-module.md
                     - name: 订单详细信息模块
                       href: order-confirmation-module.md
                     - name: 礼品卡模块
@@ -1852,7 +1878,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: 配置全球通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
-                - name: 通讯簿常见问题解答
+                - name: 通讯簿常见问题
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: 配置通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/commerce/toc.json
@@ -1918,7 +1944,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/commerce/toc.json
                 - name: 工作流类型报告
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/commerce/toc.json
-                - name: 工作流常见问题解答
+                - name: 工作流常见问题
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/commerce/toc.json
             - name: 预警
               items:
@@ -1966,27 +1992,29 @@
                   href: e-commerce-extensibility/overview.md
                 - name: 入门
                   items:
+                    - name: 电子商务在线可扩展性开发入门
+                      href: e-commerce-extensibility/sdk-getting-started.md
                     - name: 系统要求
                       href: e-commerce-extensibility/system-requirements.md
                     - name: 设置开发环境
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: 配置开发环境 (.env) 文件
                       href: e-commerce-extensibility/configure-env-file.md
-                    - name: 针对 Tier 1 Commerce 开发环境进行调试
+                    - name: 针对 Commerce 云环境配置电子商务开发环境
                       href: e-commerce-extensibility/debug-tier-1.md
                     - name: 设置 Azure DevOps 代码共享并创建构建管道
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: 平台概览
                   items:
-                    - name: 体系结构概览
+                    - name: 电子商务体系结构概览
                       href: e-commerce-extensibility/architectural-overview.md
-                    - name: 在线组件
+                    - name: 电子商务组件
                       href: e-commerce-extensibility/ecommerce-components.md
                     - name: CLI 命令参考
                       href: e-commerce-extensibility/cli-command-reference.md
                 - name: 模块的解析
                   items:
-                    - name: 模块概述
+                    - name: 模块概览
                       href: e-commerce-extensibility/modules-overview.md
                     - name: 模块定义文件
                       href: e-commerce-extensibility/module-definition-file.md
@@ -2112,10 +2140,12 @@
                       href: e-commerce-extensibility/package-deploy.md
                     - name: SDK 和模块库更新
                       href: e-commerce-extensibility/sdk-updates.md
-                - name: 最佳实践
+                - name: 最佳实践和常见问题
                   items:
                     - name: Dynamics 365 Commerce 开发最佳实践
                       href: e-commerce-extensibility/best-practices-dev.md
+                    - name: Dynamics 365 Commerce 在线 SDK 常见问题
+                      href: e-commerce-extensibility/sdk-faq.md
             - name: Retail SDK
               items:
                 - name: Retail SDK 体系结构
@@ -2132,11 +2162,13 @@
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
                 - name: 创建可部署包
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-                - name: 在没有管理员访问权限的情况下在云托管开发环境中部署
+                - name: 在没有管理员访问权限的情况下在云托管开发环境中开发
                   href: dev-itpro/cloud-dev-box.md
                 - name: 设置 Commerce SDK 构建管道
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
-                - name: Retail SDK 常见问题解答
+                - name: 从 GitHub 和 NuGet 下载示例和软件包
+                  href: dev-itpro/retail-sdk/sdk-github.md
+                - name: Retail SDK 常见问题
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: 销售点可扩展性
               items:
@@ -2156,6 +2188,8 @@
                   href: dev-itpro/POS-APIs.md
                 - name: POS 付款扩展
                   href: dev-itpro/pos-payment-extension.md
+                - name: POS 付款 SDK 中支持支付小费
+                  href: dev-itpro/tipping.md
                 - name: 对外部礼品卡的支持
                   href: dev-itpro/gift-card.md
                 - name: 创建品牌并将其应用于 Retail Experience 应用
@@ -2218,9 +2252,9 @@
                   href: dev-itpro/commerce-runtime-overview.md
                 - name: CRT 服务
                   href: dev-itpro/crt-services.md
-                - name: CRT 和 Retail Server 可扩展性
+                - name: CRT 扩展模式
                   href: dev-itpro/commerce-runtime-extensibility.md
-                - name: 管理零售渠道机密
+                - name: 管理 Retail 渠道机密
                   href: dev-itpro/manage-secrets.md
                 - name: CRT 可扩展性和触发器
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md

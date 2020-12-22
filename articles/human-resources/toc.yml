@@ -3,8 +3,10 @@
   items:
     - name: 新增功能
       items:
-        - name: Human Resources 中新增或更改的功能
+        - name: Human Resources 中的新增功能或更改
           href: hr-admin-whats-new.md
+        - name: 2020 年 12 月 2 日
+          href: hr-whats-new-2020-12-02.md
         - name: 2020 年 10 月 22 日
           href: hr-whats-new-2020-10-22.md
         - name: 2020 年 10 月 6 日
@@ -191,7 +193,7 @@
               href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
             - name: 功能管理概览
               href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
-            - name: 客户端常见问题解答
+            - name: 客户端常见问题
               href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
             - name: 操作搜索
               href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
@@ -227,7 +229,7 @@
           href: hr-admin-teams-leave-app.md
         - name: 准备实施
           href: hr-admin-go-live-prepare.md
-        - name: 实施常见问题解答
+        - name: 实施常见问题
           href: hr-admin-go-live-faq.md
         - name: 文档资源
           items:
@@ -269,7 +271,7 @@
               href: hr-admin-troubleshooting-not-in-apps.md
             - name: 报告选项
               href: hr-admin-troubleshooting-reporting.md
-            - name: 集成常见问题解答
+            - name: 集成常见问题
               href: hr-admin-troubleshooting-integration.md
     - name: 开发人员指南
       items:
@@ -359,7 +361,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: 配置全球通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
-                - name: 通讯簿常见问题解答
+                - name: 通讯簿常见问题
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: 配置通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
@@ -425,7 +427,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
                 - name: 工作流类型报告
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
-                - name: 工作流常见问题解答
+                - name: 工作流常见问题
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
             - name: 预警
               items:
@@ -477,7 +479,9 @@
               href: hr-personnel-define-jobs.md
             - name: 创建工作时间日历
               href: hr-personnel-create-working-time-calendar.md
-            - name: 人事行动常见问题解答
+            - name: 招聘工作应聘者
+              href: hr-personnel-recruit.md
+            - name: 人事行动常见问题
               href: hr-personnel-actions-faq.md
             - name: 使用工作流管理员工信息
               href: hr-workflow-manage-employee-information.md
@@ -533,7 +537,9 @@
                   href: hr-benefits-management-overview.md
                 - name: 配置福利管理
                   items:
-                    - name: 设置福利管理参数
+                    - name: 配置每个公司的福利管理参数
+                      href: hr-benefits-setup-parameters-per-company.md
+                    - name: 为所有公司设置福利管理和员工自助服务参数
                       href: hr-benefits-setup-parameters.md
                     - name: 配置资格规则和选项
                       href: hr-benefits-setup-eligibility-rules.md

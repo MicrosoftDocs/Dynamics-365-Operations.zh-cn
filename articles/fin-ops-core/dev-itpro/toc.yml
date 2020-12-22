@@ -14,14 +14,12 @@
               items:
                 - name: “平台更新的新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: 针对 10.0.16 的平台更新（2021 年 2 月）
+                  href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: 针对 10.0.15 的平台更新（2021 年 1 月）
                   href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: 针对 10.0.14 的平台更新（2020 年 11 月）
                   href: get-started/whats-new-platform-updates-10-0-14.md
-                - name: 针对 10.0.13 的平台更新（2020 年 10 月）
-                  href: get-started/whats-new-platform-updates-10-0-13.md
-                - name: 针对 10.0.12 的平台更新（2020 年 8 月）
-                  href: get-started/whats-new-platform-update-10-0-12.md
             - name: 已删除或弃用的功能
               items:
                 - name: 已删除或弃用的平台功能
@@ -30,8 +28,6 @@
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: 延迟发布的 AX 2012 功能
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: 未在本地部署中实现的功能
-              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Microsoft Dynamics AX 2009 和 2012 主流支持结束
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: 业务事件
@@ -72,7 +68,7 @@
           items:
             - name: 连续交货主页
               href: dev-tools/continuous-delivery-home-page.md
-            - name: 开发和连续交货常见问题解答
+            - name: 开发和连续交货常见问题
               href: dev-tools/continuous-delivery-faq.md
             - name: 从生成输出中排除测试包
               href: dev-tools/exclude-test-packages.md
@@ -88,7 +84,7 @@
               href: data-entities/integration-overview.md
             - name: 基于优先级的限制
               hreF: data-entities/priority-based-throttling.md
-            - name: 基于优先级的限制常见问题解答
+            - name: 基于优先级的限制常见问题
               href: data-entities/throttling-faq.md
             - name: 数据集成 API
               items:
@@ -162,6 +158,8 @@
                               href: data-entities/dual-write/currrency-decimal-places.md
                             - name: 设置销售订单状态字段的映射
                               href: data-entities/dual-write/sales-status-map.md
+                            - name: 筛选内部公司订单以避免同步订单和订单行
+                              href: data-entities/dual-write/filtering-intercompany-orders.md
                         - name: 管理双写入
                           items:
                             - name: 自定义实体和字段映射
@@ -208,10 +206,12 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: 集成的税收主数据
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: 按需与 Dynamics 365 Supply Chain Management 定价引擎同步
-                              href: data-entities/dual-write/pricing-engine.md
                             - name: 现金的目标客户（采用双写入）
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: 按需与 Dynamics 365 Supply Chain Management 定价引擎同步
+                              href: data-entities/dual-write/pricing-engine.md
+                            - name: 将 Dynamics 365 Commerce 定价引擎与 Dynamics 365 Sales 结合使用
+                              href: data-entities/dual-write/commerce-pricing.md
                             - name: 用于服务的内部资产
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 集成工作人员、作业和岗位
@@ -462,7 +462,7 @@
                       href: deployment/infrastructure-stack.md
                     - name: 部署新环境
                       href: deployment/deployenvironment-newinfrastructure.md
-                    - name: 部署常见问题解答
+                    - name: 部署常见问题
                       href: deployment/deploymentFAQ.md
                     - name: 自助服务部署的已知问题
                       href: deployment/known-issues-new-deployment-experience.md
@@ -500,6 +500,8 @@
                       href: deployment/plan-onprem-deployment.md
                     - name: 硬件规模调整要求
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+                    - name: Dynamics 365 Finance + Operations (on-premises) 中的身份验证
+                      href: deployment/authentication-onprem.md
                 - name: 设置并部署本地环境
                   items:
                     - name: 在 LCS 中设置本地项目
@@ -604,7 +606,7 @@
                   href: dev-tools/configure-developer-vm.md
                 - name: 在开发计算机上创建新用户
                   href: dev-tools/enable-development-machine.md
-                - name: 开发和构建不允许管理员访问的 VM 的常见问题解答
+                - name: 开发和构建不允许管理员访问的 VM 的常见问题
                   href: sysadmin/VMs-no-admin-access.md
                 - name: 重命名本地环境以访问 Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
@@ -630,6 +632,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: 在 Azure Pipelines 中创建 Lifecycle Services (LCS) 连接
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: 更新 Azure Pipelines 中的旧管道
+                  href: dev-tools/pipeline-msbuild-update.md
             - name: 车队管理示例应用程序
               items:
                 - name: 车队管理示例应用程序的端到端方案
@@ -766,6 +770,8 @@
                           href: dev-ref/xpp-data/xpp-data-perf.md
                         - name: 使用 SysDa API 进行数据访问
                           href: dev-ref/sysda.md
+                        - name: 减少 SQL 注入攻击
+                          href: dev-ref/query-with-parameters.md
                     - name: X++ 宏
                       href: dev-ref/xpp-macros.md
                     - name: X++ 属性类
@@ -866,7 +872,7 @@
                       href: extensibility/extensibility-roadmap.md
                     - name: 可扩展性请求
                       href: extensibility/extensibility-requests.md
-                    - name: 可扩展性常见问题解答
+                    - name: 可扩展性常见问题
                       href: extensibility/app-sealing-faq.md
                     - name: 从覆盖迁移到扩展
                       href: extensibility/migrate-overlayer-extension.md
@@ -1134,7 +1140,7 @@
                   href: lifecycle-services/cloud-operations-servicing.md
                 - name: 将服务请求提交给 Dynamics 服务工程团队
                   href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-                - name: 计划的维护时段常见问题解答
+                - name: 计划的维护时段常见问题
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: 监控和诊断
               href: lifecycle-services/monitoring-diagnostics.md
@@ -1174,7 +1180,7 @@
               href: power-platform/admin-reference.md
             - name: Finance and Operations 的 Power Apps 门户
               href: power-platform/power-portal-reference.md
-            - name: Finance and Operations 虚拟实体常见问题解答
+            - name: Finance and Operations 虚拟实体常见问题
               href: power-platform/faq.md
         - name: 移动平台
           items:
@@ -1462,7 +1468,7 @@
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 支持概览
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: 获取对由世纪互联在中国运营的 Finance and Operations 的支持
+            - name: 获取对在中国由 21Vianet 运营的 Finance and Operations 的支持
               href: lifecycle-services/21vianet-support.md
             - name: 设置对 Finance and Operations 应用的技术支持
               href: lifecycle-services/support-experience.md
@@ -1492,12 +1498,14 @@
                   href: sysadmin/security-architecture.md
                 - name: Finance and Operations 应用中的加密
                   href: sysadmin/encryption.md
-                - name: 将会话设置为空闲超时
+                - name: 设置会话不活动超时
                   href: sysadmin/session-idle-timeout.md
                 - name: 现成安全报表
                   href: sysadmin/security-reports.md
                 - name: 创建新用户
                   href: sysadmin/tasks/create-new-users.md
+                - name: 用户会话管理
+                  href: sysadmin/user-session-management.md
                 - name: 批量导入用户
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: 设置职责划分
@@ -1558,6 +1566,8 @@
               href: sysadmin/odata-warmup.md
             - name: 设置 Azure 密钥保管库客户端
               href: ../../finance/localizations/setting-up-azure-key-vault-client.md
+            - name: 清理例程
+              href: sysadmin/cleanuproutines.md
         - name: 升级、更新和修补程序
           items:
             - name: 升级、更新和修补程序资源
@@ -1696,7 +1706,7 @@
                   href: user-interface/build-customer-form.md
                 - name: 构建导航
                   href: user-interface/build-navigation.md
-                - name: 构建工作区
+                - name: 修改工作区
                   href: user-interface/build-workspace.md
             - name: 窗体
               items:
@@ -1766,7 +1776,7 @@
                   href: user-interface/slider-messagebox.md
                 - name: 消息中心、消息栏和消息详细信息 API
                   href: user-interface/messaging-api-center-bar-details.md
-                - name: 消息中心、消息栏和消息详细信息常见问题解答
+                - name: 消息中心、消息栏和消息详细信息常见问题
                   href: user-interface/messaging-user.md
             - name: 窗体模式准则
               items:

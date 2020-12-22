@@ -14,8 +14,10 @@
               items:
                 - name: One Version 服务更新概览
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: One Version 服务更新常见问题解答
+                - name: One Version 服务更新常见问题
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 管理更新和自定义代码生命周期，包括 Dynamics 365 Commerce
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 软件生命周期策略 - 云
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 软件生命周期策略 - 本地
@@ -54,11 +56,11 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 本地部署的系统要求
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 购买 Finance + Operations（本地版）
+                - name: 购买 Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置用于本地部署的仓库
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 由世纪互联在中国运营的 Finance and Operations 应用
+                - name: Finance and Operations 应用在中国由 21Vianet 运营
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 法国的 Finance and Operations 应用
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
@@ -70,12 +72,12 @@
                   items:
                     - name: “Supply Chain Management 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.15（2020 年 12 月）
+                    - name: Supply Chain Management 10.0.16（2021 年 2 月）
+                      href: get-started/whats-new-scm-10-0-16.md
+                    - name: Supply Chain Management 10.0.15（2021 年 1 月）
                       href: get-started/whats-new-scm-10-0-15.md
                     - name: Supply Chain Management 10.0.14（2020 年 11 月）
                       href: get-started/whats-new-scm-10-0-14.md
-                    - name: Supply Chain Management 10.0.13（2020 年 10 月）
-                      href: get-started/whats-new-scm-10-0-13.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
@@ -84,8 +86,6 @@
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 延迟发布的 AX 2012 功能
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 未在本地部署中实现的功能
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Microsoft Dynamics AX 2009 和 2012 主流支持结束
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: 文档资源
@@ -134,7 +134,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 功能管理概览
                   href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 客户端常见问题解答
+                - name: 客户端常见问题
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 操作搜索
                   href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/supply-chain/toc.json
@@ -182,11 +182,11 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 准备实施
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 实施常见问题解答
+                - name: 实施常见问题
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 提交服务请求
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 订阅、LCS 项目和 Azure AD 租户常见问题解答
+                - name: 订阅、LCS 项目和 Azure AD 租户常见问题
                   href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 在数据中心之间移动环境
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/supply-chain/toc.json
@@ -216,6 +216,14 @@
                   items:
                     - name: 来自供应商的在途货物
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
+        - name: 云和边缘
+          items:
+            - name: 用于制造和仓库管理工作负载的云和边缘缩放单元
+              href: cloud-edge/cloud-edge-landing-page.md
+            - name: 云和边缘缩放单元的制造执行工作负载
+              href: cloud-edge/cloud-edge-workload-manufacturing.md
+            - name: 云和边缘缩放单元的仓库管理工作负载
+              href: cloud-edge/cloud-edge-workload-warehousing.md
         - name: 资产管理
           items:
             - name: 资产管理概览
@@ -230,9 +238,9 @@
                 - name: 功能位置生命周期状态
                   href: asset-management/setup-for-functional-locations/functional-location-stages.md
                 - name: 维护属性类型
-                  href: asset-management/setup-for-functional-locations/functional-location-types.md
-                - name: 功能位置类型
                   href: asset-management/setup-for-functional-locations/specification-types.md
+                - name: 功能位置类型
+                  href: asset-management/setup-for-functional-locations/functional-location-types.md
             - name: 功能位置
               items:
                 - name: 功能位置简介
@@ -633,6 +641,8 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: 成本管理 Power BI 内容包
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
+            - name: 成本管理疑难解答
+              href: cost-management/troubleshoot-costmanagement.md
         - name: 报告和 Power BI 集成
           items:
             - name: 利用 Power BI 进行报告和分析
@@ -1327,6 +1337,8 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: 按库存维度跟踪移动平均成本
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+            - name: 库存可见性加载项
+              href: inventory/inventory-visibility.md
         - name: IoT 智能
           items:
             - name: IoT 智能主页
@@ -1347,6 +1359,8 @@
           items:
             - name: 主计划主页
               href: master-planning/master-planning-home-page.md
+            - name: 将主计划迁移到计划优化
+              href: master-planning/new-master-planning-engine.md
             - name: 计划优化
               items:
                 - name: 计划优化概览
@@ -1357,10 +1371,18 @@
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: 为计划应用筛选器
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: 主计划与需求预测
+                  href: master-planning/planning-optimization/demand-forecast.md
                 - name: 使用采购贸易协议进行主计划
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: 安全宽限期
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: 通过计划优化进行库存标记
+                  href: master-planning/planning-optimization/marking.md
+                - name: 内部公司计划
+                  href: master-planning/planning-optimization/Intercompany-planning.md
+                - name: 排除具有某些产品生命周期状态的产品
+                  href: master-planning/planning-optimization/product-lifecycle-state.md
                 - name: 审核计划订单
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: 通过计划优化自动确认
@@ -1463,6 +1485,8 @@
                   href: master-planning/tasks/create-baseline-forecast.md
                 - name: 手动修改需求预测
                   href: master-planning/tasks/modify-demand-forecast-manually.md
+            - name: 主计划疑难解答
+              href: master-planning/troubleshoot-masterplanning.md
         - name: 移动应用
           items:
             - name: 移动应用主页
@@ -1553,7 +1577,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置全球通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 通讯簿常见问题解答
+                - name: 通讯簿常见问题
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/supply-chain/toc.json
@@ -1619,7 +1643,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 工作流类型报告
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 工作流常见问题解答
+                - name: 工作流常见问题
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/supply-chain/toc.json
             - name: 预警
               items:
@@ -1873,7 +1897,7 @@
                       href: pim/hazmat-items.md
                     - name: 危险物料查询和报告
                       href: pim/hazmat-reports.md
-                - name: 产品信息翻译常见问题解答
+                - name: 产品信息翻译常见问题
                   href: pim/translations-product-related-information.md
                 - name: 在订单输入期间搜索产品
                   href: pim/search-products-product-variants.md
@@ -1895,6 +1919,8 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: 物料清单计算
                   href: cost-management/bom-calculations.md
+                - name: 产品信息疑难解答
+                  href: pim/troubleshooting-productinformation.md
             - name: 产品配置
               items:
                 - name: 产品配置概览
@@ -1925,7 +1951,7 @@
                   items:
                     - name: 设置产品配置模型
                       href: pim/set-up-maintain-product-configuration-model.md
-                    - name: 产品配置模型的计算常见问题解答
+                    - name: 产品配置模型的计算常见问题
                       href: pim/calculate-product-configuration-models.md
                     - name: 配置规则
                       href: pim/configuration-rules.md
@@ -1955,6 +1981,34 @@
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: 转移产品模型的数据
                       href: pim/tasks/transfer-data-product-models.md
+                - name: 产品配置器疑难解答
+                  href: pim/troubleshooting-productconfigurator.md
+        - name: 工程更改管理
+          items:
+            - name: 工程更改管理概览
+              href: engineering-change-management/product-engineering-overview.md
+            - name: 工程更改管理功能演练
+              href: engineering-change-management/engineering-scenarios.md
+            - name: 工程更改管理参数
+              href: engineering-change-management/engineering-parameters.md
+            - name: 为工程更改管理建立共同的价值观
+              href: engineering-change-management/engineering-change-management-setup.md
+            - name: 工程组织和数据所有权规则
+              href: engineering-change-management/engineering-org-data-ownership-rules.md
+            - name: 产品所有者
+              href: engineering-change-management/product-owner.md
+            - name: 工程属性和工程属性搜索
+              href: engineering-change-management/engineering-attributes-and-search.md
+            - name: 工程版本和工程产品类别
+              href: engineering-change-management/engineering-versions-product-category.md
+            - name: 产品生命周期状态和交易记录
+              href: engineering-change-management/product-lifecycle-state-transactions.md
+            - name: 管理工程产品更改
+              href: engineering-change-management/engineering-change-management.md
+            - name: 产品准备情况
+              href: engineering-change-management/product-readiness.md
+            - name: 发布产品结构
+              href: engineering-change-management/release-product-structure.md
         - name: 生产控制
           items:
             - name: 生产流程概览
@@ -2047,6 +2101,8 @@
                       items:
                         - name: 配置生产车间执行界面
                           href: production-control/production-floor-execution-configure.md
+                        - name: 设计生产车间执行界面
+                          href: production-control/production-floor-execution-tabs.md
                         - name: 设置设备以运行生产车间执行界面
                           href: production-control/production-floor-execution-setup.md
                         - name: 工作人员如何使用生产车间执行界面
@@ -2105,9 +2161,11 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: 弹性组
                       href: production-control/time-attendance-flex-groups.md
-            - name: Lean manufacturing
+                - name: 离散制造疑难解答
+                  href: production-control/troubleshoot-discretemanufacturing.md
+            - name: 精益化生产
               items:
-                - name: Lean manufacturing 概览
+                - name: 精益化生产概览
                   href: production-control/lean-manufacturing-overview.md
                 - name: 基于活动的转包
                   href: production-control/activity-based-subcontracting.md
@@ -2257,6 +2315,8 @@
                       href: production-control/consumption.md
                     - name: 生产过帐
                       href: cost-management/production-posting.md
+                - name: 流程制造疑难解答
+                  href: production-control/troubleshoot-processmanufacturing.md
         - name: 销售和市场营销
           items:
             - name: 销售和市场营销概览
@@ -2589,6 +2649,8 @@
               href: transportation/create-new-transportation-management-engine.md
             - name: 将燃油指数作为附属费用与承运人关联
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
+            - name: USMCA 原产地证明
+              href: transportation/usmca-certification-of-origin.md
             - name: 创建提单
               href: transportation/create-bill-of-lading.md
             - name: 计划货运运输路线
@@ -2605,8 +2667,28 @@
               href: transportation/tasks/reconcile-freight-manually.md
             - name: 对货运进行对帐
               href: transportation/reconcile-freight-transportation-management.md
-            - name: 登记约会的驾驶员签入和签出
+            - name: 登记预约的驾驶员签入和签出
               href: transportation/tasks/register-driver-check-check-out-appointment.md
+            - name: 折扣
+              href: transportation/transportation-management-discount.md
+            - name: 杂项费用
+              href: transportation/transportation-management-misc-charge.md
+            - name: 模式和方法
+              href: transportation/transportation-management-modes-methods.md
+            - name: 编号规则
+              href: transportation/transportation-management-number-sequence.md
+            - name: 状态
+              href: transportation/transportation-management-status.md
+            - name: 主区域
+              href: transportation/transportation-management-zone-master.md
+            - name: 承运人组
+              href: transportation/tasks/carrier-groups.md
+            - name: 装载计划工作台
+              href: transportation/tasks/load-building-workbench.md
+            - name: 负荷模板
+              href: transportation/tasks/load-template.md
+            - name: 评级模板
+              href: transportation/tasks/setup-a-rating-profile.md
             - name: 设置承运人燃油指数
               href: transportation/tasks/set-up-carrier-fuel-index.md
             - name: 设置运输支付方式
@@ -2645,20 +2727,28 @@
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: 库位产品维度混合
                   href: warehousing/location-product-dimension-mixing.md
+                - name: 储存群集
+                  href: warehousing/putaway-clusters.md
                 - name: 质量检查
                   href: warehousing/quality-check.md
+                - name: 收货仓库工序疑难解答
+                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: 出货仓库工序
               items:
                 - name: 仓库管理中的预留
                   items:
                     - name: 灵活的仓库级维度预留策略
                       href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                    - name: 仓库管理中的预留疑难解答
+                      href: warehousing/troubleshoot-warehouse-reservations.md
                 - name: 部分发放和部分装运
                   items:
                     - name: 运输负荷的部分装运
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: 部分预留的转移单批发布
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                    - name: 部分发放和部分装运疑难解答
+                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: 领料和打包
                   items:
                     - name: 设置群集领料
@@ -2697,6 +2787,10 @@
                       href: warehousing/outbound-sorting.md
                     - name: 上架 - 放到店内
                       href: warehousing/put-to-wall-put-to-store.md
+                    - name: 出站工作负荷可视化
+                      href: warehousing/outbound-workload-visualization.md
+                    - name: 领料和打包疑难解答
+                      href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: 补货
                   items:
                     - name: 补货概览
@@ -2705,13 +2799,17 @@
                       href: warehousing/immediate-replenishment.md
                     - name: 通过提领看板补货
                       href: warehousing/material-replenishment-withdrawal-kanban.md
-                    - name: 设置最小-最大补货流程
+                    - name: 设置最小 - 最大补货流程
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: 区域阈值补货
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: 补货策略
+                      href: warehousing/replenishment-strategies.md
                     - name: 库位容量范围内的补货
                       href: warehousing/replenishment-over-location-capacity.md
-                - name: 负荷构建和装运
+                    - name: 仓库补货疑难解答
+                      href: warehousing/troubleshoot-warehouse-replenishment.md
+                - name: 装载计划和装运
                   items:
                     - name: 确认并转移
                       href: warehousing/confirm-and-transfer.md
@@ -2725,6 +2823,8 @@
                       href: warehousing/wave-template-grouping.md
                     - name: 重新打印波次标签并使之无效
                       href: warehousing/reprint-and-void-wave-labels.md
+                    - name: 装载计划和装运疑难解答
+                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: 装运合并政策
                   items:
                     - name: 装运合并政策
@@ -2741,6 +2841,8 @@
                       href: warehousing/consolidate-shipments-manual-workbench.md
                     - name: 方案 5 - 使用“合并装运”页面手动合并装运
                       href: warehousing/consolidate-shipments-manual-form.md
+                - name: 出货仓库工序疑难解答
+                  href: warehousing/troubleshoot-warehouse-outbound.md
             - name: 仓库内操作
               items:
                 - name: 仓库工作策略
@@ -2797,6 +2899,10 @@
                       href: warehousing/change-work-pool-on-work.md
                     - name: 物料合并 - 库位利用率
                       href: warehousing/item-consolidation-location-utilization.md
+                    - name: 仓库工作疑难解答
+                      href: warehousing/troubleshoot-warehouse-work.md
+                    - name: 工作拆分
+                      href: warehousing/work-split.md
             - name: 仓库设置
               items:
                 - name: 仓库配置
@@ -2807,13 +2913,15 @@
                       href: inventory/warehouse-template.md
                     - name: 使用工作模板和库位指令控制工作
                       href: warehousing/control-warehouse-location-directives.md
-                    - name: 创建库位指令
+                    - name: 使用库位指令
                       href: warehousing/create-location-directive.md
+                    - name: 库位库存限制
+                      href: warehousing/location-stocking-limits.md
                     - name: 波次步骤代码
                       href: warehousing/wave-step-codes.md
                     - name: 配置波次处理
                       href: warehousing/tasks/configure-wave-processing.md
-                    - name: 设置和使用波形标签打印
+                    - name: 设置和使用波次标签打印
                       href: warehousing/configure-wave-label-printing.md
                     - name: 自动更新装运
                       href: warehousing/auto-update-shipment.md
@@ -2841,8 +2949,10 @@
                       href: warehousing/document-routing-layout-for-license-plates.md
                     - name: 移动条码支持
                       href: warehousing/mobile-barcode-support.md
-                    - name: 设置转移单的仓库
+                    - name: 设置仓库以支持转移单
                       href: warehousing/transfer-orders-warehouse.md
+                    - name: 仓库配置疑难解答
+                      href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: 安装和配置仓库应用
                   items:
                     - name: 安装和连接仓库应用
@@ -2879,6 +2989,10 @@
                   items:
                     - name: 将仓库管理流程从 Microsoft Dynamics AX 2012 升级到 Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+                    - name: 升级和迁移到高级仓库管理疑难解答
+                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
+                - name: 仓库设置疑难解答
+                  href: warehousing/troubleshoot-warehouse-setup.md
         - name: Supply Chain Management 开发
           items:
             - name: 甘特图控件开发指南

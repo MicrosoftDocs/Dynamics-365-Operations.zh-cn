@@ -19,11 +19,11 @@ ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: e95f06ffaaf2d250b02a8458faa2d9e0b5ef5631
-ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760242"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458511"
 ---
 # <a name="return-items-across-multiple-customer-orders-and-invoices"></a>跨多个客户订单和账单的退回物料
 
@@ -36,15 +36,15 @@ ms.locfileid: "3760242"
 
 此功能可针对同一客户订单进行多次关联退款。 
 
-1. 转到**功能管理**工作区并搜索**启用针对多个捕获的退款**。
-2. 选择**启用针对多个订单的退款**，然后单击**启用**。 
+1. 转到 **功能管理** 工作区并搜索 **启用针对多个捕获的退款**。
+2. 选择 **启用针对多个订单的退款**，然后单击 **启用**。 
 
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>对具有部分数量的退货启用正确的税金计算
 
 此功能可确保在使用多个账单进行订单退货时，最终的税金等于最初收取的税额。 
 
-1. 转到**功能管理**工作区并搜索**对具有部分数量的退货启用正确的税金计算**。
-2. 选择**对具有部分数量的退货启用正确的税金计算**，然后单击**启用**。 
+1. 转到 **功能管理** 工作区并搜索 **对具有部分数量的退货启用正确的税金计算**。
+2. 选择 **对具有部分数量的退货启用正确的税金计算**，然后单击 **启用**。 
 
 
 ## <a name="process-returns"></a>处理退货

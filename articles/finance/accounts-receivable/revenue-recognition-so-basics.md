@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.openlocfilehash: 6e2eafc6785aaf9bc7421bc80c90fa4a7f98a2d4
-ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2693012"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458510"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>销售订单上的收入确认
 
@@ -56,7 +56,7 @@ ms.locfileid: "2693012"
 
 ## <a name="confirm-the-sales-order"></a>确认销售订单
 
-若要查看有关收入价格和收入计划的其他详细信息，请使用销售订单操作窗格的**管理**选项卡的**收入确认**组中的按钮。 由于此时未确认销售订单，用于收入确认的按钮不可用。 随着销售订单进展到履行的各个阶段，这些按钮将变得可用或不可用。
+若要查看有关收入价格和收入计划的其他详细信息，请使用销售订单操作窗格的 **管理** 选项卡的 **收入确认** 组中的按钮。 由于此时未确认销售订单，用于收入确认的按钮不可用。 随着销售订单进展到履行的各个阶段，这些按钮将变得可用或不可用。
 
 [![销售订单头](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
 
@@ -71,11 +71,11 @@ ms.locfileid: "2693012"
 - **预期的收入确认计划** - 确认销售订单之后，此按钮将变得可用，但在对销售订单开票之后，它将变得不可用。 将打开显示预期收入计划的页面。 最终计划可能会发生变化，因为预期计划使用要求装运日期，而最终计划使用实际的装运日期。
 - **收入确认计划** - 在对销售订单开票之后，此按钮将变得可用。 进行确认或创建装箱单时，将不会创建最终收入确认计划。 仅当对销售订单开票时才会创建。
 
-在以下示例中，确认销售订单时进行了收入价格分配。 请注意，即使以不同的方式分配了收入价格，**要确认的收入**字段中的金额总计必须等于对客户开票的销售订单行的总和。 例如，销售订单行的总和除税后为 1,499 美元。 因此，**要确认的收入**值的总和也必须为 1,499 美元。
+在以下示例中，确认销售订单时进行了收入价格分配。 请注意，即使以不同的方式分配了收入价格，**要确认的收入** 字段中的金额总计必须等于对客户开票的销售订单行的总和。 例如，销售订单行的总和除税后为 1,499 美元。 因此，**要确认的收入** 值的总和也必须为 1,499 美元。
 
 [![收入价格分配](./media/revenue-recognition-so-basic-revenue-price-allocation.png)](./media/revenue-recognition-so-basic-revenue-price-allocation.png)
 
-此外，还将创建预期的收入确认计划。 收入计划使用**要确认的收入**值作为要延期的金额。 物料 S0001 延期 321.21 美元而不是 300 美元，物料 S0008 延期 160.61 美元而不是 100 美元。 物料 S0012 未显示在预期计划中，因为延期了收入。 进行过帐时，物料 S0012 将 1,017.18 美元直接过帐到收入会计科目。
+此外，还将创建预期的收入确认计划。 收入计划使用 **要确认的收入** 值作为要延期的金额。 物料 S0001 延期 321.21 美元而不是 300 美元，物料 S0008 延期 160.61 美元而不是 100 美元。 物料 S0012 未显示在预期计划中，因为延期了收入。 进行过帐时，物料 S0012 将 1,017.18 美元直接过帐到收入会计科目。
 
 [![预期的收入确认计划](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)
 
@@ -89,11 +89,11 @@ ms.locfileid: "2693012"
 
 [![凭证交易记录](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
 
-创建发票之后，用于收入确认的**收入价格分配**、**使用新订单行重新分配价格**和**收入确认计划**按钮将变得可用，但**更新收入价格分配**和**预期收入确认计划**按钮不可用。
+创建发票之后，用于收入确认的 **收入价格分配**、**使用新订单行重新分配价格** 和 **收入确认计划** 按钮将变得可用，但 **更新收入价格分配** 和 **预期收入确认计划** 按钮不可用。
 
 [![可用收入确认按钮可用性](./media/revenue-recognition-so-basic-after-invoice-buttons.png)](./media/revenue-recognition-so-basic-after-invoice-buttons.png)
 
-**收入价格分配**按钮仍然可用，以便您可以查看收入价格计算。 如果销售订单在确认之后未进行任何更改，则对发票过帐不会更改**要确认的收入**字段中的已计算金额。
+**收入价格分配** 按钮仍然可用，以便您可以查看收入价格计算。 如果销售订单在确认之后未进行任何更改，则对发票过帐不会更改 **要确认的收入** 字段中的已计算金额。
 
 预期收入确认计划将被移除并替换为最终收入确认计划。 每个销售订单行的收入计划详细信息均会得到保持，并会用于在履行合同义务的同时将延迟收入发布到实际收入中。
 

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005532"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694377"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Finance and Operations 应用程序文档
 
@@ -51,8 +50,8 @@ ms.locfileid: "3005532"
 <p><a href="imp-lifecycle/onboard.md">入职项目</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">准备实施</a></p>
 
-<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">一个版本服务更新</a></h3>
-<p><a href="get-started/one-version.md">一个版本服务更新常见问题</a></p>
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">One Version 服务更新</a></h3>
+<p><a href="get-started/one-version.md">One Version 服务更新常见问题</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">软件生命周期策略：云</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">软件生命周期策略：本地</a></p>
 <p><a href="get-started/public-preview-releases.md">标准版及首发版服务更新</a></p>

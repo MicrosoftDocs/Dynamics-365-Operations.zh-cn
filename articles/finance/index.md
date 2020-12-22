@@ -18,11 +18,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c39d8ea92b5482b32e27d433b745151373553120
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987506"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458549"
 ---
 # <a name="finance-home-page"></a>Finance 主页
 

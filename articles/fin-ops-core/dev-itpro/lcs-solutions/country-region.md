@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d81471036d88e4faaf2cae4f3cc25d1eeaaa821
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979296"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685045"
 ---
 # <a name="globalization-resources"></a>全球化资源
 
 ## <a name="local-and-regional-deployments"></a>本地和区域部署
 如果您的政府法规要求以不同于其他国家/地区要求的方式存储或处理数据，则您在部署时可能需要考虑相应国家/地区的要求。 请考虑可能与您相关的以下资源：
 
-[Finance and Operations 应用由世纪互联在中国运营](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Finance and Operations 应用在中国由 21Vianet 运营](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>本地化和监管功能
 
