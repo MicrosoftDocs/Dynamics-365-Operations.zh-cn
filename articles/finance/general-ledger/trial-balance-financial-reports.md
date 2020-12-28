@@ -19,11 +19,11 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1b48510febf5a5f9f4a01728b242d9750b3c62c2
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771720"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440603"
 ---
 # <a name="trial-balance-financial-reports"></a>试算平衡表财务报表
 
@@ -55,8 +55,8 @@ ms.locfileid: "2771720"
 
 行定义，试算平衡表 – 默认，包含拉取所有主科目的单行 因此，任何人都可以生成报表，而不必进行任何修改。 在您查看报表时，您深化到单个行可以查看有关每个科目的详细信息。 您可以修改行定义，以便包括更多详细信息。 若要修改“试算平衡表 – 默认”行定义，以便包括所有科目的行，请执行以下步骤。
 
-1.  单击**编辑**，然后单击**从维度插入行**。 **从维度插入行**命令允许您选择希望哪些维度在您的行定义中。 对于此行定义，则使用**主科目**。
-2.  确保**主科目**包含所有符号 (&)，然后单击**确定**。
+1.  单击 **编辑**，然后单击 **从维度插入行**。 **从维度插入行** 命令允许您选择希望哪些维度在您的行定义中。 对于此行定义，则使用 **主科目**。
+2.  确保 **主科目** 包含所有符号 (&)，然后单击 **确定**。
 
 行定义现在包含默认法人的所有主科目。
 

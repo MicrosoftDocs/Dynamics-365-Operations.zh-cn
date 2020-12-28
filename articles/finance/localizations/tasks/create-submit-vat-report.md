@@ -16,11 +16,11 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 8c45741dfef8be659dfe3ac632748cb5e19e977c
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141545"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440851"
 ---
 # <a name="create-and-submit-vat-report"></a>创建和提交增值税报表
 

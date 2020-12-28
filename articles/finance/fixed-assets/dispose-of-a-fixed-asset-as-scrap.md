@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 371cc2efa64916698da8e4230825c3c949920698
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975236"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440693"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>将固定资产作为废料处置
 
@@ -43,7 +43,7 @@ ms.locfileid: "3975236"
 > [!NOTE]
 > 我们建议您与公司的首席财务官 (CFO) 或财务总监紧密合作，以确定每种交易记录类型应使用的正确科目，并验证处置过程及其产生的交易记录是否正确更新了这些科目。
 
-在将固定资产作为废料处置之前，必须创建与资产的购置价值、当年的折旧、前一年的折旧以及资产的 NBV 关联的会计科目。 固定资产交易记录类型列在**固定资产过帐模板**页面上。 转到**固定资产 \> 设置 \> 固定资产过帐模板**，然后在**处置**快速选项卡上，在网格上方的字段中选择**废料**。 下图显示了**固定资产过帐模板**页面上的固定资产交易记录类型的列表。
+在将固定资产作为废料处置之前，必须创建与资产的购置价值、当年的折旧、前一年的折旧以及资产的 NBV 关联的会计科目。 固定资产交易记录类型列在 **固定资产过帐模板** 页面上。 转到 **固定资产 \> 设置 \> 固定资产过帐模板**，然后在 **处置** 快速选项卡上，在网格上方的字段中选择 **废料**。 下图显示了 **固定资产过帐模板** 页面上的固定资产交易记录类型的列表。
 
 
 [![作为废料处置资产，图 1](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
@@ -64,14 +64,14 @@ ms.locfileid: "3975236"
 [![固定资产折旧示例](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
 
 
-要创建处置日记帐，请转到**固定资产 \> 日记帐分录 \> 固定资产日记帐**，然后，在“操作窗格”中，选择**行**。 选择**处置 – 报废**，然后选择固定资产 ID。 要完全处置资产，请不要在**借记**字段或**贷记**字段中输入值。
+要创建处置日记帐，请转到 **固定资产 \> 日记帐分录 \> 固定资产日记帐**，然后，在“操作窗格”中，选择 **行**。 选择 **处置 – 报废**，然后选择固定资产 ID。 要完全处置资产，请不要在 **借记** 字段或 **贷记** 字段中输入值。
 
 [![固定资产日记帐](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
 
 固定资产处置报废交易记录通过以下方式更改固定资产帐簿的字段值：
 
-- 在**余额**部分，**状态**字段更新为**已报废**。
-- 在**签发**部分，**处置日期**字段设置为资产报废的日期。
+- 在 **余额** 部分，**状态** 字段更新为 **已报废**。
+- 在 **签发** 部分，**处置日期** 字段设置为资产报废的日期。
 
 [![固定资产日记帐明细](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
 

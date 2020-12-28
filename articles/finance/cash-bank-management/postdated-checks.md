@@ -19,11 +19,11 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 38ee6c5b3d258c313a2066b388a83330bf696d39
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176625"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440907"
 ---
 # <a name="postdated-checks"></a>远期支票
 
@@ -59,7 +59,7 @@ Dynamics 365 Finance 支持应收帐款和应付帐款中远期支票的完整�
 <tr class="even">
 <td>为客户或供应商登记和过帐更换远期支票</td>
 <td>
-如果您给供应商或从客户处收到的原始支票已丢失或损坏，您可以签发替代远期支票给供应商。 当您登记该支票的详细信息后，提供参考给该原始支票并指示新支票是原始支票的替代。 您也可以过账替代支票。</td>
+如果您给供应商或从客户处收到的原始支票已丢失或损坏，您可以签发替代远期支票给供应商。 当您登记该支票的详细信息后，提供参考给该原始支票并指示新支票是原始支票的替代。 您也可以过帐替代支票。</td>
 </tr>
 <tr class="odd">
 <td>将客户远期支票转移到供应商</td>

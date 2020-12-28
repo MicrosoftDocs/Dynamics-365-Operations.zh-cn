@@ -17,11 +17,11 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4809a352f87cc3d88429461a06dfe36189ed5f31
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138961"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440580"
 ---
 # <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a>设置 ISO20022 贷方转帐的供应商及供应商银行帐户
 
@@ -34,7 +34,7 @@ ms.locfileid: "3138961"
 
 
 ## <a name="set-up-bank-details"></a>设置银行详情
-1. 转到“应付账款”>“供应商”>“所有供应商”。
+1. 转到“应付帐款”>“供应商”>“所有供应商”。
 2. 使用“快速筛选器”以查找记录。 例如，在“供应商帐户”字段中筛选“DE-001”数值。
 3. 单击 DE-001 以打开供应商详细信息。
 4. 在“操作窗格”上，单击“供应商”。

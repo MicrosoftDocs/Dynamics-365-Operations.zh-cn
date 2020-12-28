@@ -19,11 +19,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 8b23b152ed6348b8f20b5deccf94394de6fbe85d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176636"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440873"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>会计日历、会计年度和期间
 
@@ -38,7 +38,7 @@ ms.locfileid: "2176636"
 ## <a name="create-fiscal-calendars-fiscal-years-and-periods"></a>创建会计日历、会计年度和期间
 您可以在“会计日历”页上创建并且删除会计日历、会计年度和期间。 您还可以划分现有期间和创建可用于结算某个会计年度的结转期间。 
 
-结算期间用于划分结算某个会计年度时生成的总账交易记录。 当结算交易记录都处于一个会计期间时，很容易创建包括或排除不同类型结算条目的财务报表。 如果将一个会计年度划分为 12 个会计期间，这结算期通常为第 13 期。 但是，可以从具有状态“未完成”的任何期间创建结算期间。 
+结算期间用于划分结算某个会计年度时生成的总帐交易记录。 当结算交易记录都处于一个会计期间时，很容易创建包括或排除不同类型结算条目的财务报表。 如果将一个会计年度划分为 12 个会计期间，这结算期通常为第 13 期。 但是，可以从具有状态“未完成”的任何期间创建结算期间。 
 
 当您创建一个结算期间时，选择一个具有状态“未完成”并具有您要使用的日期的期间。 新的结算期间将从现有期间中复制开始日期和结束日期。 原始期间将继续存在。 例如，您选择了为该会计年度的最后一个期间并具有 8 月 1 日到 8 月 31 日这些日期的“期间 12”。 您为该结算期间输入了一个名词，如 “结算”。 当您创建了该新的结算期间后，现在您拥有原始期间和结算期间。 都含有 8 月 1 日到 8 月 31 日的日期。
 

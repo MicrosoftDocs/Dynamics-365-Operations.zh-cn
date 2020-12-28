@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9f9c73ec1347e72f8cd4ae8eec580bb8fe3df8ed
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141756"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440822"
 ---
 # <a name="import-letter-of-credit"></a>导入信用证
 
@@ -33,7 +33,7 @@ ms.locfileid: "3141756"
 
 
 ## <a name="create-a-purchase-order-with-letter-of-credit"></a>创建一个“信用证采购订单”
-1. 转到“应付账款”>“采购订单”>“所有采购订单”。
+1. 转到“应付帐款”>“采购订单”>“所有采购订单”。
 2. 单击“新建”。
 3. 在“供应商帐户”字段中，输入或选择一个值。
 4. 在列表中，找到并选择所需记录。
@@ -116,7 +116,7 @@ ms.locfileid: "3141756"
 5. 关闭该页面。
 
 ## <a name="post-purchase-invoice"></a>过帐采购发票
-1. 转到“应付账款”>“采购订单”>“所有采购订单”。
+1. 转到“应付帐款”>“采购订单”>“所有采购订单”。
     * 选择此信用证创建的采购订单。  
 2. 在列表中，找到并选择所需记录。
 3. 在列表中，单击所选行中的链接。
@@ -146,7 +146,7 @@ ms.locfileid: "3141756"
 9. 关闭该页面。
 
 ## <a name="post-vendor-payment-journal-for-the-created-purchase-invoice-with-letter-of-credit"></a>为创建信用证采购发票过帐“供应商”付款日记帐
-1. 转至“应付账款”>“付款”>“付款日记帐”。
+1. 转至“应付帐款”>“付款”>“付款日记帐”。
 2. 单击“新建”。
 3. 在“名称”字段中，输入或选择一个值。
 4. 在列表中，单击所选行中的链接。
@@ -176,7 +176,7 @@ ms.locfileid: "3141756"
 1. 转到现金和银行管理>查询与报告>信用证或担保人
 2. 扩展“要包括的记录”部分。
 3. 单击“筛选器”。
-    * 用所需银行账户定义“条件”字段。  
+    * 用所需银行帐户定义“条件”字段。  
 4. 在“标准”字段中，输入或选择一个值。
 5. 在列表中，单击所选行中的链接。
 6. 单击“确定”。

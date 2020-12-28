@@ -17,11 +17,11 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9a4714f1f1b24554684219fc1d766b4b87cff7bb
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141595"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440852"
 ---
 # <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a>为有直接借记授权单的客户创建付款
 
@@ -39,7 +39,7 @@ ms.locfileid: "3141595"
 
 
 ## <a name="post-a-free-text-invoice-with-direct-debit-information"></a>过帐具有直接借记信息的普通发票
-1. 转到“应收账款”>“发票”>“所有普通发票”。
+1. 转到“应收帐款”>“发票”>“所有普通发票”。
 2. 单击“新建”。
 3. 在“客户帐户”字段中，输入或选择一个值。
     * 例如，选择“DE-010”。  
@@ -54,7 +54,7 @@ ms.locfileid: "3141595"
 11. 单击“确定”。
 
 ## <a name="create-a-payment"></a>创建付款
-1. 转到“应收账款”>“付款”>“付款日记帐”。
+1. 转到“应收帐款”>“付款”>“付款日记帐”。
 2. 单击“新建”。
 3. 在“名称”字段中，输入或选择一个值。
 4. 单击“行”。

@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0bf6e7a070d7c151c6ff5d868f4f916359b82683
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030984"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440622"
 ---
 # <a name="correct-a-free-text-invoice"></a>更正普通发票
 
@@ -31,7 +31,7 @@ ms.locfileid: "3030984"
 
 本文说明如更正已过帐的普通发票，并作为更正发票重新签发该发票。
 
-若要更正已过帐的普通发票，请打开已过帐的普通发票。 在**发票**页上，选择**取消**，然后选择**更正发票**。 选择一个原因代码，添加注释，并且为新的已更正发票选择日期。 您可以修改已更正发票并将其过帐。 
+若要更正已过帐的普通发票，请打开已过帐的普通发票。 在 **发票** 页上，选择 **取消**，然后选择 **更正发票**。 选择一个原因代码，添加注释，并且为新的已更正发票选择日期。 您可以修改已更正发票并将其过帐。 
 
 在您过帐已更正发票时，会为一个等于原始发票金额的贷方金额创建取消发票。 因此，原始发票和取消发票的组合余额为 0（零）。 会比对原始发票结算取消发票。 
 
@@ -43,11 +43,11 @@ ms.locfileid: "3030984"
 
 您可以通过两种方式标识取消和更正发票：
 
--   **所有普通发票**页包括**更正**列，在其中您可以看到哪些发票是正在取消的发票和已更正的发票。
--   普通发票的标题显示状态**正在取消发票‘\[发票编号\]** 或**已更正的发票‘\[发票编号\]**。
+-   **所有普通发票** 页包括 **更正** 列，在其中您可以看到哪些发票是正在取消的发票和已更正的发票。
+-   普通发票的标题显示状态 **正在取消发票‘\[发票编号\]** 或 **已更正的发票‘\[发票编号\]**。
 
 > [!NOTE]
-> 只有当选择**普通发票更正**配置键后，此功能才可用。 有关如何启用 Configuration keys 的详细信息，请参阅[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)主题中的“启用（或禁用）configuration key”部分。 
+> 只有当选择 **普通发票更正** 配置键后，此功能才可用。 有关如何启用 Configuration keys 的详细信息，请参阅[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)主题中的“启用（或禁用）configuration key”部分。 
 
 
 

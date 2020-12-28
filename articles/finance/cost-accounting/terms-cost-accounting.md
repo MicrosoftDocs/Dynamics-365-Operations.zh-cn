@@ -20,11 +20,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 948beb7baa19c69530dca52b5d4c119b69f8f011
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977519"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440884"
 ---
 # <a name="cost-accounting-terminology"></a>成本核算术语
 
@@ -46,7 +46,7 @@ ms.locfileid: "3977519"
 
 **成本条目**
 
-成本条目是通过数据连接器从总帐条目、成本分摊及成本日记帐中已过账成本条目转移的结果。
+成本条目是通过数据连接器从总帐条目、成本分摊及成本日记帐中已过帐成本条目转移的结果。
 
 **成本对象**
 
@@ -163,7 +163,7 @@ ms.locfileid: "3977519"
 -   会计费用
 -   折旧
 -   保险
--   兴趣
+-   利息
 -   法律费用
 -   税金
 -   公共设施费用

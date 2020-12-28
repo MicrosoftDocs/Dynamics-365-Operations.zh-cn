@@ -19,11 +19,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: e65d371486d53d0fe4f039da68fbb4dcc35074d1
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154566"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440716"
 ---
 # <a name="financial-dimensions-and-posting"></a>财务维度和过帐 
 
@@ -45,11 +45,11 @@ ms.locfileid: "3154566"
 
 ### <a name="balancing-dimension"></a>平衡维度
 
-可以选择定义平衡财务维度。 在**分类帐**页中，可以定义应平衡的财务维度。 然后，只要将交易过帐到该财务维度，系统都将自动创建条目并过帐，以便平衡该财务维度。
+可以选择定义平衡财务维度。 在 **分类帐** 页中，可以定义应平衡的财务维度。 然后，只要将交易过帐到该财务维度，系统都将自动创建条目并过帐，以便平衡该财务维度。
 
 ### <a name="defaultfixed-financial-dimensions-on-the-main-account"></a>主科目中的默认/固定财务维度
 
-默认维度来自各种位置，如主记录（如客户或供应商记录）、单据抬头和主科目。 本主题重点介绍主科目中按法人分类的默认维度。 可以为分类帐的所有科目结构中使用的各财务维度定义主科目具有**非固定**还是**固定**值。 如果财务维度**非固定**，则使用默认值，但不能改写该值。 此行为适用于系统中的所有默认值，即使来自主记录的默认值也不例外。 如果财务维度设置为**固定**值，无论该值与默认值来自同一位置还是用户输入的。都将始终应用该值。
+默认维度来自各种位置，如主记录（如客户或供应商记录）、单据抬头和主科目。 本主题重点介绍主科目中按法人分类的默认维度。 可以为分类帐的所有科目结构中使用的各财务维度定义主科目具有 **非固定** 还是 **固定** 值。 如果财务维度 **非固定**，则使用默认值，但不能改写该值。 此行为适用于系统中的所有默认值，即使来自主记录的默认值也不例外。 如果财务维度设置为 **固定** 值，无论该值与默认值来自同一位置还是用户输入的。都将始终应用该值。
 
 ## <a name="order-in-which-default-dimensions-are-applied-during-posting"></a>过帐期间默认维度的应用顺序
 
@@ -90,7 +90,7 @@ ms.locfileid: "3154566"
 
 ### <a name="example-2"></a>示例 2
 
-此示例使用与第一个示例相同的设置。 但是，将再添加一个组件，并将部门维度用作平衡维度。 在下图中，**部门**设置为 USMF 分类帐的平衡财务维度。
+此示例使用与第一个示例相同的设置。 但是，将再添加一个组件，并将部门维度用作平衡维度。 在下图中，**部门** 设置为 USMF 分类帐的平衡财务维度。
 
 [![分类帐](./media/ledger.png)](./media/ledger.png)
 

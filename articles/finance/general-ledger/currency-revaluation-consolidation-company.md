@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 33db12388c969b8dadb38bfacf4d9df333b78bd4
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014975"
+ms.locfileid: "4440922"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>合并公司中的币种重估
 
@@ -45,7 +45,7 @@ ms.locfileid: "4014975"
 | 日期       | 会计科目               | 货币 | 金额 |
 |------------|------------------------------|----------|--------|
 | 10/11/2015 | 110110 – 现金                | 美元      | 500    |
-| 10/11/2015 | 130100 – 应收账款 | 美元      | -500   |
+| 10/11/2015 | 130100 – 应收帐款 | 美元      | -500   |
 
 ## <a name="exchange-rates"></a>汇率
 

@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.openlocfilehash: f64b2bc6c336ba833cbd95f83596fe516bce8b56
-ms.sourcegitcommit: 1b00e21faf89de8b3450936253a4c02cb4d12a3d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "3295215"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440709"
 ---
 # <a name="positive-pay-overview"></a>付款确认概览
 

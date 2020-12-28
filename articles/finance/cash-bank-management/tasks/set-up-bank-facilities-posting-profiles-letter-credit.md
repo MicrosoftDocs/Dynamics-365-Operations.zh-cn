@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 6afa52fa2c784fd7afbdc8db0e079af0689b4bec
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144156"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440821"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letter-of-credit"></a>设置信用证的银行设施和过帐模板
 
@@ -71,6 +71,6 @@ ms.locfileid: "3144156"
     * 此帐户会在计算现金流预测时使用。  
 7. 在“收费帐户”字段中，选择交易费用适用的帐户。
 8. 在“利润帐户”字段中，选择交易利润适用的帐户。
-    * 当过账打开的毛利时借记此科目，当过账贷款时贷记此科目。  
+    * 当过帐打开的毛利时借记此科目，当过帐贷款时贷记此科目。  
 9. 单击“保存”。
 

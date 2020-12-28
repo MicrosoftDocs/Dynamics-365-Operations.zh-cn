@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6a23443c985ac681c8c31956ae5ea3e513337577
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977543"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440885"
 ---
 # <a name="process-and-trace-source-data"></a>处理和跟踪源数据
 

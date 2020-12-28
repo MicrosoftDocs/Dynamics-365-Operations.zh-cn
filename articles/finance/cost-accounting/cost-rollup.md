@@ -20,11 +20,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006158"
+ms.locfileid: "4440918"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>成本累积政策和开销计算 
 
@@ -186,7 +186,7 @@ HR 服务由以下度量值分配使用。
 | &nbsp;&nbsp;&nbsp;&nbsp;主要成本                        | 10001                   | 10003               |
 | &nbsp;&nbsp;&nbsp;&nbsp;次要成本                         | **SC-CC001**            | **SC-CC004**        |
 
-创建 **成本累积策略** ，其中每个成本中心被映射到相应的 **辅助** 类型的成本元素。
+创建 **成本累积策略**，其中每个成本中心被映射到相应的 **辅助** 类型的成本元素。
 
 **成本累积策略**
 
@@ -211,7 +211,7 @@ HR 服务由以下度量值分配使用。
 |---------|-------------------------|------------------------|------|--------|---------------|
 | 00002   | 成本分配日记帐 | 会计                 | 2017    | 期间 1 | 开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1 |
 
-系统现在将在创建 **成本对象余额日记帐条目** 时应用 **成本累积策略** 。
+系统现在将在创建 **成本对象余额日记帐条目** 时应用 **成本累积策略**。
 
 **成本对象余额日记帐条目**
 

@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0de35934e8bdb160f68f68dab118997d0141bf29
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570394"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440619"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>信用卡设置、授权和捕获
 
@@ -35,7 +35,7 @@ ms.locfileid: "2570394"
 ------------------------------------------
 
 若要使用信用卡，您必须设置并激活付款服务页的付款服务。 付款服务充当您的法人和处理客户信用卡费用的银行之间的桥梁。 您必须使用在“付款连接器”字段中列出的信用卡提供商，并在该提供商那里设置帐户。 然后必须在“付款服务”页设置其他选项，在“信用卡类型”页上设置信用卡类型为 American Express、Discover、MasterCard 和 Discover，并激活提供商为默认提供商。 您还必须按照下面的步骤完成您的设置：
--   在“应收账款参数”页，指定用于信用卡授权的参数。
+-   在“应收帐款参数”页，指定用于信用卡授权的参数。
 -   在“付款期限”页，设置信用卡的付款期限。 在“付款类型”字段中，选择“信用卡”。
 -   在“客户信用卡”页，输入客户的信用卡信息。
 

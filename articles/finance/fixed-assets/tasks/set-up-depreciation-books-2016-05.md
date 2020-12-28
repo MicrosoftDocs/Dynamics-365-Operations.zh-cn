@@ -1,6 +1,6 @@
 ---
-title: 设置折旧账簿
-description: 此过程将逐步完成创建新折旧账簿并将其与固定资产组关联的流程。
+title: 设置折旧帐簿
+description: 此过程将逐步完成创建新折旧帐簿并将其与固定资产组关联的流程。
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,17 +17,17 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 03f915fa91e0eeff2f26ab9a60bbd5118317e853
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154590"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440826"
 ---
-# <a name="set-up-depreciation-books"></a>设置折旧账簿 
+# <a name="set-up-depreciation-books"></a>设置折旧帐簿 
 
 [!include [banner](../../includes/banner.md)]
 
-此过程将逐步完成创建新折旧账簿并将其与固定资产组关联的流程。 
+此过程将逐步完成创建新折旧帐簿并将其与固定资产组关联的流程。 
 
 ## <a name="create-a-depreciation-book"></a>创建折旧帐簿
 1. 转到“固定资产”>“设置”>“折旧帐簿”。

@@ -1,5 +1,5 @@
 ---
-title: 应付账款的集中付款
+title: 应付帐款的集中付款
 description: 包括多个法人的组织可以使用处理所有付款的单个法人创建和管理付款。 因此，不必在多个法人中输入同一付款。 本文提供显示集中付款过帐如何在不同环境中处理的示例。
 author: abruer
 manager: AnnBe
@@ -19,13 +19,13 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2a4632056d6873cfeb748251c77becc410f5cf54
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189698"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440802"
 ---
-# <a name="centralized-payments-for-accounts-payable"></a>应付账款的集中付款
+# <a name="centralized-payments-for-accounts-payable"></a>应付帐款的集中付款
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,13 +33,13 @@ ms.locfileid: "2189698"
 
 包括多个法人的组织可以使用处理所有付款的法人创建和管理付款。 因此，不必在多个法人中输入同一付款。 此外，组织节省时间，因为付款流程简化。
 
-在集中付款的组织中，有很多营业的法人，且每个营业的法人都管理自己的供应商发票。 所有营业的法人的付款都是从称作付款的法人的单个法人中生成的。 在结算流程中，生成适用的应付和应收交易记录。 您可以指定组织内的哪个法人接收已有收益或已有损失交易记录，以及如何处理与跨公司付款相关的现金折扣交易记录。 在集中支付日记帐行中，**科目类型**应设置为“供应商”。 **对方科目类型**应设置为“银行”或“分类帐”。 银行科目应在当前公司中。 
+在集中付款的组织中，有很多营业的法人，且每个营业的法人都管理自己的供应商发票。 所有营业的法人的付款都是从称作付款的法人的单个法人中生成的。 在结算流程中，生成适用的应付和应收交易记录。 您可以指定组织内的哪个法人接收已有收益或已有损失交易记录，以及如何处理与跨公司付款相关的现金折扣交易记录。 在集中支付日记帐行中，**科目类型** 应设置为“供应商”。 **对方科目类型** 应设置为“银行”或“分类帐”。 银行科目应在当前公司中。 
 
 以下示例说明如何在不同的环境中处理过帐。 假定所有这些示例都采用以下配置：
 
 -   法人分别为 Fabrikam、Fabrikam East 和 Fabrikam West。 从 Fabrikam 进行付款。
--   **内部公司**页上的**过帐现金折扣**字段设置为**发票法人**。
--   **内部公司**页上的**过帐币种汇兑损益**字段设置为**付款法人**。
+-   **内部公司** 页上的 **过帐现金折扣** 字段设置为 **发票法人**。
+-   **内部公司** 页上的 **过帐币种汇兑损益** 字段设置为 **付款法人**。
 -   客户 Fourth Coffee 在每个法人中设置为一个供应商。 来自不同法人的供应商被标识为同一供应商，因为他们共享相同的全球通讯簿 ID。
 
 | 名录 ID | 供应商帐户 | 姓名          | 法人  |
@@ -200,7 +200,7 @@ Fabrikam East 为供应商 100 (Fourth Coffee) 具有一个未结发票。 该�
 | 现金折扣 (Fabrikam East)    |                         | 11.28 EUR / 13.61 USD   |
 
 ## <a name="example-5-vendor-credit-note-with-primary-payment"></a>示例 5：具有主付款的供应商贷方通知单
-Fabrikam 为供应商 3004 (Fourth Coffee) 生成 75.00 的付款。 该付款用针对 Fabrikam West 供应商 3004 的未结发票和针对 Fabrikam East 供应商 100 的未结贷方通知单结算。 该付款在**未结交易记录编辑**页中选择为主付款。
+Fabrikam 为供应商 3004 (Fourth Coffee) 生成 75.00 的付款。 该付款用针对 Fabrikam West 供应商 3004 的未结发票和针对 Fabrikam East 供应商 100 的未结贷方通知单结算。 该付款在 **未结交易记录编辑** 页中选择为主付款。
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>发票为供应商 3004 过帐到 Fabrikam West
 
@@ -249,7 +249,7 @@ Fabrikam 为供应商 3004 (Fourth Coffee) 生成 75.00 的付款。 该付款�
 | 向 Fabrikam (Fabrikam West) 的应付金额  |              | 100.00        |
 
 ## <a name="example-6-vendor-credit-note-without-primary-payment"></a>示例 6：不具有主付款的供应商贷方通知单
-Fabrikam 为供应商 3004 (Fourth Coffee) 生成 75.00 的付款。 该付款用针对 Fabrikam West 供应商 3004 的未结发票和针对 Fabrikam East 供应商 100 的未结贷方通知单结算。 该付款未在**未结交易记录编辑**页中选择为主付款。
+Fabrikam 为供应商 3004 (Fourth Coffee) 生成 75.00 的付款。 该付款用针对 Fabrikam West 供应商 3004 的未结发票和针对 Fabrikam East 供应商 100 的未结贷方通知单结算。 该付款未在 **未结交易记录编辑** 页中选择为主付款。
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>发票为供应商 3004 过帐到 Fabrikam West
 
@@ -294,7 +294,7 @@ Fabrikam 为供应商 3004 (Fourth Coffee) 生成 75.00 的付款。 该付款�
 |--------------------------------------|--------------|---------------|
 | 应付帐款 (Fabrikam West)     | 75.00        |               |
 | 向 Fabrikam (Fabrikam West) 的应付金额      |              | 75.00         |
-| 应付账款 (Fabrikam West)     | 25.00        |               |
+| 应付帐款 (Fabrikam West)     | 25.00        |               |
 | 向 Fabrikam East (Fabrikam West) 的应付金额 |              | 25.00         |
 
 

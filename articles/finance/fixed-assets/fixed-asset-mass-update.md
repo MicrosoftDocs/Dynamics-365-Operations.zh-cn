@@ -18,11 +18,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 30b9aaaabcac09c9147c350422924a23f785c0ce
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176581"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440734"
 ---
 # <a name="fixed-asset-mass-update"></a>固定资产成批更新
 

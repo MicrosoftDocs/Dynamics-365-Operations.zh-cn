@@ -17,11 +17,11 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 0b09d7d203f1bb58fad26a109962005affa6d307
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144899"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440677"
 ---
 # <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a>设置 ISO20022 直接借记的客户及客户银行帐户
 
@@ -29,7 +29,7 @@ ms.locfileid: "3144899"
 
 此任务通过设置所需的客户银行帐户和客户直接借记授权以生成客户付款文件（如 ISO20022 直接借记）。 客户或客户银行帐户可能需要此过程中未介绍的更多信息，具体取决于设置的客户付款格式。 
 
-本任务所用的演示数据公司为“DEMF“， 其法定注册国家主地址为”德国“。
+本任务所用的演示数据公司为“DEMF“， 其法定注册国家/地区主地址为”德国“。
 
 
 
@@ -37,7 +37,7 @@ ms.locfileid: "3144899"
 
 
 ## <a name="set-up-a-customer-bank-account"></a>设置客户银行帐户
-1. 转到“应付账款”>“客户”>“所有客户”。
+1. 转到“应付帐款”>“客户”>“所有客户”。
 2. 使用“快速筛选器”以查找记录。 例如，在含有“DE-010”值的“帐户”字段中筛选。
 3. 在列表中，单击所选行中的链接。
 4. 在“操作窗格”上，单击“客户”。

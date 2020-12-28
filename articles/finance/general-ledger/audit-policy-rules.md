@@ -1,6 +1,6 @@
 ---
 title: 审计策略规则
-description: 您可以使用审核策略对支出报告、供应商发票和采购订单做出评估，从而确保它们都符合您所创建的策略规则。 根据您指定的作业安排，所有与审计策略相关的规则都是以批模式运行的。  每个策略过账都是某个策略规则类型的实例。 对于每个策略规则类型，一次仅有一个策略规则可以有效。
+description: 您可以使用审核策略对支出报告、供应商发票和采购订单做出评估，从而确保它们都符合您所创建的策略规则。 根据您指定的作业安排，所有与审计策略相关的规则都是以批模式运行的。  每个策略过帐都是某个策略规则类型的实例。 对于每个策略规则类型，一次仅有一个策略规则可以有效。
 author: ryansandness
 manager: AnnBe
 ms.date: 08/01/2017
@@ -19,17 +19,17 @@ ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: de6406029aa88424863dd9a47505f5b3ad27f237
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176566"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440713"
 ---
 # <a name="audit-policy-rules"></a>审计策略规则
 
 [!include [banner](../includes/banner.md)]
 
-您可以使用审核策略对支出报告、供应商发票和采购订单做出评估，从而确保它们都符合您所创建的策略规则。 根据您指定的作业安排，所有与审计策略相关的规则都是以批模式运行的。  每个策略过账都是某个策略规则类型的实例。 对于每个策略规则类型，一次仅有一个策略规则可以有效。 
+您可以使用审核策略对支出报告、供应商发票和采购订单做出评估，从而确保它们都符合您所创建的策略规则。 根据您指定的作业安排，所有与审计策略相关的规则都是以批模式运行的。  每个策略过帐都是某个策略规则类型的实例。 对于每个策略规则类型，一次仅有一个策略规则可以有效。 
 
 <a name="queries-and-query-types"></a>查询和查询类型
 -----------------------

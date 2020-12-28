@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 67e0b3d1058e5fc085f51577ccf0b79e51546de0
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976587"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440722"
 ---
 # <a name="credit-and-collections-overview"></a>信用和收款概览
 
@@ -47,7 +47,7 @@ ms.locfileid: "3976587"
 
 ## <a name="collections-management"></a>收款管理
 
-**收款**页会提供集中式视图，可在其中管理应收帐款收集信息。 收款经理可以使用该集中式视图来管理收款。 收款代理可以从使用预定义收款条件生成的客户列表或从**客户**页开始收款流程。
+**收款** 页会提供集中式视图，可在其中管理应收帐款收集信息。 收款经理可以使用该集中式视图来管理收款。 收款代理可以从使用预定义收款条件生成的客户列表或从 **客户** 页开始收款流程。
 
 在开始设置或使用收款前，应了解以下概念：
 

@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 9e5db8e4bbd14aa30196e3be617cdfcb72c091fd
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977159"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440711"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>销售税的双币种支持
 [!include [banner](../includes/banner.md)]
@@ -51,7 +51,7 @@ ms.locfileid: "3977159"
 
 ## <a name="sales-tax-conversion"></a>销售税换算
 
-**销售税转换**参数提供两个选项，用于将税额从交易币种转换为税金币种。 
+**销售税转换** 参数提供两个选项，用于将税额从交易币种转换为税金币种。 
 
 - 记帐币种：路径将为“交易币种的金额 > 记帐币种的金额 > 税金币种的金额”。 将把记帐币种汇率类型（在分类帐设置中配置）用于币种转换。
 - 申报币种：路径将为“交易币种的金额 > 申报币种的金额 > 税金币种的金额”。 将把申报币种汇率类型（在分类帐设置中配置）用于币种转换。

@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 7e631f1bf64b47b5f3e85d4f98c6edafe67d627a
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039884"
+ms.locfileid: "4440933"
 ---
 # <a name="set-up-the-electronic-invoicing-add-on"></a>设置电子开票附加产品
 
@@ -56,7 +56,7 @@ ms.locfileid: "4039884"
     ![添加电子开票附加产品功能](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
-> 创建新的电子开票附加产品功能时，它具有版本号，默认状态将设置为 **草稿** 。
+> 创建新的电子开票附加产品功能时，它具有版本号，默认状态将设置为 **草稿**。
 
 ### <a name="configurations"></a>配置
 
@@ -76,7 +76,7 @@ ms.locfileid: "4039884"
     ![编辑电子开票附加产品功能配置](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
-    > 在编辑格式时，配置版本的状态将设置为 **草稿** 。
+    > 在编辑格式时，配置版本的状态将设置为 **草稿**。
 
 3. 使用 **格式设计器** 页更改文件格式配置。 有关详细信息，请参阅[创建电子单据配置](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration)。
 
@@ -126,7 +126,7 @@ ms.locfileid: "4039884"
 | 操作名称  | 操作的名称及其执行顺序。 |
 | 说明  | 操作的说明。 |
 | 启用重试 | 选中复选框表示如果上一次尝试失败，可以重试该操作。 |
-| 重试操作 | 重试时，从其开始重试的操作。 然后重试于当前操作（包括重试）结束。 对于有重试的操作， **最小退避** 和 **最大退避** 参数指定最小重试次数和最大重试次数。 |
+| 重试操作 | 重试时，从其开始重试的操作。 然后重试于当前操作（包括重试）结束。 对于有重试的操作，**最小退避** 和 **最大退避** 参数指定最小重试次数和最大重试次数。 |
 
 #### <a name="parameters-fasttab"></a>“参数”快速选项卡
 
@@ -194,13 +194,13 @@ ms.locfileid: "4039884"
 |-----------------------------|-------------|
 | Web 服务 URL             | 请求发送到的 URL。 |
 | Web 请求超时         | 等待 Web 服务响应的最长时间（以毫秒为单位）。 |
-| 请求操作类型      | HTTP 请求操作的类型（例如， **GET** 、 **POST** 或 **DELETE** ）。 |
+| 请求操作类型      | HTTP 请求操作的类型（例如，**GET**、**POST** 或 **DELETE**）。 |
 | 证书名称           | 证书名称。 |
 | 响应正文编码      | 预期的 HTTP 响应正文的编码，以可以正确解码。 |
 | HTTP 请求内容类型   | HTTP 请求内容类型标题输入。 |
 | HTTP 请求内容正文   | HTTP 请求正文。 （正文可以为空。） |
 | HTTP 参数查询值 | 用于使用可变参数填充 URL 的参数查询值。 |
-| 请求路由               | HTTP 请求的路由路径。 变量参数可以用 **\{paramName\}** 表示法编写。 这是一个示例： **"api/{id}/submit"** 。 |
+| 请求路由               | HTTP 请求的路由路径。 变量参数可以用 **\{paramName\}** 表示法编写。 这是一个示例：**"api/{id}/submit"**。 |
 | 路由参数列表        | 用于将变量插入路由的路由参数（采用键值表示法）。 |
 | 自定义 HTTP 标题         | 要放入请求中的自定义 HTTP 标题。 |
 | HTTP 请求 cookie        | 要放入 HTTP cookie 标题请求中的 cookie（采用键值表示法）的列表。 |
@@ -265,7 +265,7 @@ ms.locfileid: "4039884"
     ![管理适用性规则](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
 2. 在网格中，选择应分组的子句。
-3. 选择 **分组子句** 。
+3. 选择 **分组子句**。
 
     ![分组子句](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
 
@@ -273,7 +273,7 @@ ms.locfileid: "4039884"
 
     ![分组子句的逻辑运算符](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
 
-若要取消对子句的分组，请选择要取消分组的分组子句，然后选择 **取消子句分组** 。
+若要取消对子句的分组，请选择要取消分组的分组子句，然后选择 **取消子句分组**。
 
 ![取消子句分组](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
 
@@ -334,11 +334,11 @@ ms.locfileid: "4039884"
 
 - 在 **电子开票附加产品功能** 页上的 **组织** 选项卡上，选择 **共享** 添加要与之共享电子开票附加产品功能的组织。
 
-要停止与组织共享电子开票附加产品功能，请选择 **取消共享** 。
+要停止与组织共享电子开票附加产品功能，请选择 **取消共享**。
 
 ## <a name="versions"></a>版本
 
-版本通过管理电子开票附加产品功能的状态来帮助控制电子开票附加产品功能的生命周期。 您可以创建现有电子开票附加产品功能的新版本，或在完成电子开票附加产品功能的所有配置后，可以将功能的状态更改为 **完成** ，然后更改为 **发布** 。
+版本通过管理电子开票附加产品功能的状态来帮助控制电子开票附加产品功能的生命周期。 您可以创建现有电子开票附加产品功能的新版本，或在完成电子开票附加产品功能的所有配置后，可以将功能的状态更改为 **完成**，然后更改为 **发布**。
 
 ### <a name="create-a-new-version-of-an-existing-electronic-invoicing-add-on-feature"></a>创建现有电子开票附加产品功能的新版本
 
@@ -350,14 +350,14 @@ ms.locfileid: "4039884"
 请按照以下步骤管理电子开票附加产品功能的生命周期。
 
 1. 在 **电子开票附加产品功能** 页上，在左侧的网格中，选择电子开票附加产品功能。
-2. 在 **版本** 选项卡上，选择 **更改状态** ，然后将状态从 **草稿** 更改为 **完成** 。
+2. 在 **版本** 选项卡上，选择 **更改状态**，然后将状态从 **草稿** 更改为 **完成**。
 3. 系统将提示您确认要完成电子开票附加产品功能及其所有组件。 选择 **是** 确认操作或选择 **否** 取消。
 
     > [!NOTE]
-    > 当您选择 **是** 时，作为电子开票附加产品功能的组件的配置版本的状态会自动从 **草稿** 更改为 **完成** 。
+    > 当您选择 **是** 时，作为电子开票附加产品功能的组件的配置版本的状态会自动从 **草稿** 更改为 **完成**。
 
-4. 选择 **更改状态** ，然后将状态从 **完成** 更改为 **发布** 。
+4. 选择 **更改状态**，然后将状态从 **完成** 更改为 **发布**。
 5. 系统将提示您确认要将电子开票附加产品功能及其所有组件发布到全局存储库。 选择 **是** 确认操作或选择 **否** 取消。
 
     > [!NOTE]
-    > 当您选择 **是** 时，配置版本的状态会自动从 **已完成** 更改为 **已共享** 。
+    > 当您选择 **是** 时，配置版本的状态会自动从 **已完成** 更改为 **已共享**。

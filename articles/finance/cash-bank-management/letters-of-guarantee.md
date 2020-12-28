@@ -19,11 +19,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e3dbf08679c165258a4a4027bf1cf73484d9efd3
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899586"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440801"
 ---
 # <a name="letters-of-guarantee"></a>保函
 
@@ -35,9 +35,9 @@ ms.locfileid: "3899586"
 
 若要结算信用保证书，受益人必须在到期日期之前提交原始信用保证书和通知主要客户默认的银行。 根据保函条款，银行然后由于受益人的帐户支付金额。 银行预留付款的百分比作为毛利。 百分比在协议条款审核并指定。 
 
-您可以创建代码跟踪保函的用途。 当保函取消时，您还可以指定可与保函关联的原因。 您可以在**付款目的代码**和**银行原因**页查看目的代码和银行原因。 
+您可以创建代码跟踪保函的用途。 当保函取消时，您还可以指定可与保函关联的原因。 您可以在 **付款目的代码** 和 **银行原因** 页查看目的代码和银行原因。 
 
-您可以使用**保函**页完成以下任务：
+您可以使用 **保函** 页完成以下任务：
 
 -   创建正确的分类帐条目并消除手动输入。
 -   记录所有货币性和非货币性交易记录和跟踪保函余额。

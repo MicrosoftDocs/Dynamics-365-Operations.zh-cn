@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 40fd019b1b5900fbd15866d9d3c32ed6d88147b4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187076"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440810"
 ---
 # <a name="round-off-amount-for-depreciation-calculations"></a>计算化整折旧金额
 

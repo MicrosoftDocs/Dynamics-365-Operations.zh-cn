@@ -1,6 +1,6 @@
 ---
 title: 应收帐款关帐
-description: 以下主题列出了支持应收账款关帐业务流程的页面。
+description: 以下主题列出了支持应收帐款关帐业务流程的页面。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
@@ -18,17 +18,17 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c3563f0f4d7d281a02231c1d3edcfe3ceb4277f5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189192"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440724"
 ---
 # <a name="close-accounts-receivable"></a>应收帐款关帐
 
 [!include [banner](../includes/banner.md)]
 
-下表列出了支持应收账款关帐业务流程的页面。
+下表列出了支持应收帐款关帐业务流程的页面。
 
 > [!NOTE] 
 > 要打开该表中的一些页面，您必须输入信息或指定参数设置。

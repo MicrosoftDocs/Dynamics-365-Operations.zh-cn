@@ -17,11 +17,11 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 995d68f6224b6dfbb1928c907ad991b86fc47668
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140344"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440697"
 ---
 # <a name="research-or-resolve-exceptions"></a>研究或解析异常
 
@@ -31,25 +31,25 @@ ms.locfileid: "3140344"
 
 供应商发票此策略不适用于在发票登记簿或发票日志中创建的发票。 
 
-发票匹配验证并不使用供应商发票政策，但是，需在应付账款参数页面进行设置。
+发票匹配验证并不使用供应商发票政策，但是，需在应付帐款参数页面进行设置。
 
-此记录使用 USMF 公司演示。 应付账款经理或会计经理将执行以下步骤。 在您开始前，请确保选择发票匹配 Configuration Key。
+此记录使用 USMF 公司演示。 应付帐款经理或会计经理将执行以下步骤。 在您开始前，请确保选择发票匹配 Configuration Key。
 
 
 ## <a name="prepare-to-create-vendor-invoice-policies"></a>准备为供应商发票策略
-1. 转到“应付账款”>“设置”>“应付账款参数”。
+1. 转到“应付帐款”>“设置”>“应付帐款参数”。
 2. 单击“发票验证”选项卡。
 3. 选择或清除“自动更新发票抬头状态”复选框。
 4. 单击“确定”。
 5. 在“过帐发票差异”字段中，选择一个选项。
 6. 关闭该页面。
-7. 转到“应付账款”>“政策设置”>“供应商发票政策”。
+7. 转到“应付帐款”>“政策设置”>“供应商发票政策”。
 8. 单击“参数”。
 9. 单击“btnAdd”。
 10. 关闭该页面。
 
 ## <a name="create-policy-rule-types-for-vendor-invoices"></a>创建或更新供应商发票政策规则类型
-1. 转到“应付账款”>“政策设置”>“供应商发票政策规则类型”。
+1. 转到“应付帐款”>“政策设置”>“供应商发票政策规则类型”。
 2. 单击“新建”。
 3. 在“规则名称”字段中，输入一个值。
 4. 在“描述”字段中，键入一个值。
@@ -60,7 +60,7 @@ ms.locfileid: "3140344"
 9. 关闭该页面。
 
 ## <a name="define-a-vendor-invoice-policy"></a>定义一个供应商发票策略
-1. 转到“应付账款”>“政策设置”>“供应商发票政策”。
+1. 转到“应付帐款”>“政策设置”>“供应商发票政策”。
 2. 单击“新建”。
 3. 在“名称”字段中，键入一个值。
 4. 在“描述”字段中，键入一个值。

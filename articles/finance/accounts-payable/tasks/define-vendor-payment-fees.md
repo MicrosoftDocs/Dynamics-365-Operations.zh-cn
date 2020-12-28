@@ -17,11 +17,11 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 404bd1e22caa8098f114a2dcc67dd420509cce2b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140459"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440593"
 ---
 # <a name="define-vendor-payment-fees"></a>定义供应商付款费用
 
@@ -29,7 +29,7 @@ ms.locfileid: "3140459"
 
 设置供应商付款费用。 本任务使用 USMF 公司进行演示。
 
-1. 转到“应付账款”>“付款设置”>“付款费用”。
+1. 转到“应付帐款”>“付款设置”>“付款费用”。
 2. 单击“新建”。
 3. 在“费用 ID”字段中，输入一个值。
     * “费用 ID”应描述何时使用此费用，如“EFT_Fee”。  

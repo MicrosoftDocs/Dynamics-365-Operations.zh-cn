@@ -20,11 +20,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: a090ecae2aadf1d0e08dd6127f831abdbf4a6b0a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976419"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440784"
 ---
 # <a name="cost-object-dimensions"></a>成本对象维度
 

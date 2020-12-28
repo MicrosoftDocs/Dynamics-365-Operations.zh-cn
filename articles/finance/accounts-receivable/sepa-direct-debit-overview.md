@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fcb7585d344988e00093231f785c1a746226e4e0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176648"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440655"
 ---
 # <a name="sepa-direct-debit-overview"></a>SEPA 直接借记概览
 
@@ -42,7 +42,7 @@ SEPA 直接借记第一次创建了一种可以用于 32 个 SEPA 国家/地区�
 
 ## <a name="what-is-the-core-direct-debit-scheme"></a>什么是核心直接借记方案？
 SEPA 核心直接借记方案是基本方案。 它具有以下属性：
--   资金以欧元转帐（即便是银行帐户可能以其他币种存有资金)。
+-   资金以欧元转帐（即便是银行帐户可能以其他币种存有资金）。
 -   客户和债权人必须各自持有位于 SEPA 中信用机构的帐户。
 -   客户必须授予该债权人一份已签署的授权。
 -   在最后启动收款的 36 个月之后授权到期。
@@ -70,7 +70,7 @@ SEPA B2B 直接借记方案应用于企业到企业的交易记录以及在 SEPA
 客户签署授权允许债权人收取付款并指示客户的银行支付该收款。 客户可以以纸质或电子形式签发授权。 默认情况下，在最后启动直接借记的 36 个月之后该授权到期。
 
 ## <a name="where-do-i-specify-the-sepa-direct-debit-file-format-iso-20022"></a>我在何处指定 SEPA 直接借记文件格式 (ISO 20022)?
-SEPA 数据格式基于 ISO 20022 消息标准。 当您配置应收账款的付款方式时，您将选中“一般电子申报”复选框并选择 SEPA 直接借记格式作为导出格式配置。 当您在客户付款日记帐中生成一个付款文件时，您使用该付款方式。
+SEPA 数据格式基于 ISO 20022 消息标准。 当您配置应收帐款的付款方式时，您将选中“一般电子申报”复选框并选择 SEPA 直接借记格式作为导出格式配置。 当您在客户付款日记帐中生成一个付款文件时，您使用该付款方式。
 
 ## <a name="in-what-file-formats-can-i-generate-sepa-direct-debit-payment-files"></a>我可以生成哪种格式的 SEPA 直接借记付款文件？
 可以按照以下格式为 SEPA 直接借记生成电子付款文件：
