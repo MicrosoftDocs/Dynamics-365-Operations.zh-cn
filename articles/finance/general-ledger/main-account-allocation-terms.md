@@ -1,0 +1,72 @@
+---
+title: 分摊条件
+description: 本主题提供有关在主科目上使用分摊条件的信息。
+author: rachel-profitt
+manager: AnnBe
+ms.date: 06/15/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount, AllocationTerms
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.custom: 17361
+ms.assetid: 04c8548a-0af9-492b-954b-946b4f8ca023
+ms.search.region: Global
+ms.author: raprofit
+ms.search.validFrom: 2020-06-15
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 637e12f0deaa53811093a8745bc74dbc19e34f6b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440667"
+---
+# <a name="allocation-terms"></a><span data-ttu-id="072b4-103">分摊条件</span><span class="sxs-lookup"><span data-stu-id="072b4-103">Allocation terms</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="072b4-104">本主题提供有关在主科目上使用分摊条件的信息。</span><span class="sxs-lookup"><span data-stu-id="072b4-104">This topic provides information about using allocation terms on a main account.</span></span> <span data-ttu-id="072b4-105">分摊条件用于跨多个会计科目组合分配金额。</span><span class="sxs-lookup"><span data-stu-id="072b4-105">Allocation terms are used to distribute amounts across multiple ledger account combinations.</span></span> <span data-ttu-id="072b4-106">它们帮助确保向核算的正确对象计入费用或收入。</span><span class="sxs-lookup"><span data-stu-id="072b4-106">They help ensure that expenses or revenues are charged to the correct object in accounting.</span></span>
+
+<span data-ttu-id="072b4-107">您在主科目上创建的每个分摊条件定义要从单一来源主科目分配的凭证的百分比，以及财务维度的组合。</span><span class="sxs-lookup"><span data-stu-id="072b4-107">Each allocation term that you create on a main account defines the percentage of a voucher to be allocated from a single-source main account and a combination of financial dimensions.</span></span> <span data-ttu-id="072b4-108">此外，您将定义将要分配金额的目标主科目和财务维度。</span><span class="sxs-lookup"><span data-stu-id="072b4-108">In addition, you define the destination main account and financial dimensions where the amount will be allocated.</span></span> 
+
+<span data-ttu-id="072b4-109">在定义用于分摊的源财务维度时，可以选择每个维度是特定还是非特定。</span><span class="sxs-lookup"><span data-stu-id="072b4-109">When you define the source financial dimension for the allocation, you can select if each dimension is specific or unspecific.</span></span> <span data-ttu-id="072b4-110">特定表示源交易的财务维度必须与所选维度匹配。</span><span class="sxs-lookup"><span data-stu-id="072b4-110">Specific indicates that the financial dimension for the source transaction must match the selected dimension.</span></span> <span data-ttu-id="072b4-111">选择非特定时，表示财务维度的任何值都可以用于匹配。</span><span class="sxs-lookup"><span data-stu-id="072b4-111">When you select unspecific, it indicates that any value for the financial dimension can contribute to a match.</span></span>
+
+<span data-ttu-id="072b4-112">在为分摊条件定义目标会计科目时，必须指定金额要分摊到的主科目。</span><span class="sxs-lookup"><span data-stu-id="072b4-112">When you define the destination ledger account for an allocation term, you must specify the main account that you are allocating the amount to.</span></span> <span data-ttu-id="072b4-113">您可以使用向其过帐源交易的同一个主科目，或使用其他主科目。</span><span class="sxs-lookup"><span data-stu-id="072b4-113">You can use the same main account where the source transaction is posted to, or a different main account.</span></span> <span data-ttu-id="072b4-114">如果使用相同的主科目，在保存记录时会显示警告。</span><span class="sxs-lookup"><span data-stu-id="072b4-114">If the same main account is used, a warning displays when saving the record.</span></span> <span data-ttu-id="072b4-115">除指定主科目外，还必须指定目标维度。</span><span class="sxs-lookup"><span data-stu-id="072b4-115">In addition to specifying the main account, you must also specify the destination dimensions.</span></span> <span data-ttu-id="072b4-116">对于每个维度，您可以指定是否要保留或更改源财务维度值。</span><span class="sxs-lookup"><span data-stu-id="072b4-116">For each dimension, you can specify if you want to keep the source financial dimension value or change it.</span></span> <span data-ttu-id="072b4-117">如果选择否，则必须为财务维度选择一个新值。</span><span class="sxs-lookup"><span data-stu-id="072b4-117">If you select no, then you must select a new value for the financial dimension.</span></span> <span data-ttu-id="072b4-118">如果选择是，将不指定其他信息，过帐时系统将保留原始财务维度。</span><span class="sxs-lookup"><span data-stu-id="072b4-118">If you select yes, no additional information is specified, and the system will maintain the original financial dimensions when you post.</span></span>
+
+<span data-ttu-id="072b4-119">您可以添加到主科目的分摊条件的数量没有限制；但是，按分摊条件分摊的百分比之和不能超过 100。</span><span class="sxs-lookup"><span data-stu-id="072b4-119">There is no limit to the number of allocations terms that you can add to a main account; however, the sum of the percent to allocate on an allocation term cannot exceed 100.</span></span> <span data-ttu-id="072b4-120">如果原始凭证金额的一部分应保留为源财务维度，您可以创建少于 100% 的分摊。</span><span class="sxs-lookup"><span data-stu-id="072b4-120">You can create allocations for less than 100 percent if a portion of the original voucher amount should remain in the source financial dimensions.</span></span> <span data-ttu-id="072b4-121">可以将分摊条件作为法人覆盖添加到主科目。</span><span class="sxs-lookup"><span data-stu-id="072b4-121">Allocations terms can be added to a main account as a legal entity override.</span></span> <span data-ttu-id="072b4-122">如果使用共享会计科目表，则必须为每个法人定义分摊条件。</span><span class="sxs-lookup"><span data-stu-id="072b4-122">If you are using a shared chart of accounts, allocation terms must be defined for each legal entity.</span></span> <span data-ttu-id="072b4-123">要访问 **分摊条件** 按钮，您必须先选择法人覆盖上的 **分摊** 复选框。</span><span class="sxs-lookup"><span data-stu-id="072b4-123">To access the **Allocation terms** button, you must first select the **Allocation** check box on the Legal entity override.</span></span>
+
+## <a name="allocation-term-example"></a><span data-ttu-id="072b4-124">分摊条件示例</span><span class="sxs-lookup"><span data-stu-id="072b4-124">Allocation term example</span></span>
+<span data-ttu-id="072b4-125">您为组织定义了一个成本中心，名为 CORPORATE，编号为 000。</span><span class="sxs-lookup"><span data-stu-id="072b4-125">You have defined a cost center for your organization called CORPORATE that is numbered 000.</span></span> <span data-ttu-id="072b4-126">过帐公用事业费用的发票时，它们被编码到此 CORPORATE 成本中心。</span><span class="sxs-lookup"><span data-stu-id="072b4-126">When invoices are posted for utility expenses, they are coded to this CORPORATE cost center.</span></span> <span data-ttu-id="072b4-127">您的公司已经定义了一个规则，即所有公用事业费用应按一定百分比分摊到每个单独的成本中心。</span><span class="sxs-lookup"><span data-stu-id="072b4-127">Your company has defined a rule that all utility expenses should be allocated by a percentage to each of the individual cost centers.</span></span> <span data-ttu-id="072b4-128">部门和业务单位的其他财务维度保持不变。</span><span class="sxs-lookup"><span data-stu-id="072b4-128">The other financial dimensions for department and business unit will stay the same.</span></span>
+
+<span data-ttu-id="072b4-129">在此示例中，将为公用事业费用主科目创建新分摊条件。</span><span class="sxs-lookup"><span data-stu-id="072b4-129">With this example, a new allocation term would be created for the utility expense main account.</span></span> <span data-ttu-id="072b4-130">将为每个成本中心创建一行，其中包含要分摊的百分比。</span><span class="sxs-lookup"><span data-stu-id="072b4-130">One row would be created for each cost center with the percentage to be allocated.</span></span> <span data-ttu-id="072b4-131">每行的源财务维度的 **选择条件** 对于 **成本中心** 将是 **特定** 的，此值将设置为 000: CORPORATE。</span><span class="sxs-lookup"><span data-stu-id="072b4-131">The **Selection criteria** for the source financial dimensions for each row would be **Specific** for the **Cost center** and the value would be set to 000: CORPORATE.</span></span> <span data-ttu-id="072b4-132">对于部门和业务单位，**选择条件** 将是 **非特定** 的。</span><span class="sxs-lookup"><span data-stu-id="072b4-132">For department and business unit, the **Selection criteria** would be **Unspecific**.</span></span>
+
+<span data-ttu-id="072b4-133">在 **目标会计科目** 快速选项卡上，主科目将是相同的公用事业费用科目，**业务单位** 和 **部门** 的 **保留源财务维度** 将设置为 **是**。</span><span class="sxs-lookup"><span data-stu-id="072b4-133">On the **Destination ledger account** FastTab, the main account will be the same utility expense account, and the **Keep source financial dimensions** will be set to **Yes** for **Business unit** and **Department.**</span></span> <span data-ttu-id="072b4-134">**成本中心** 的 **保留源财务维度** 将设置为 **否**，所选值将是您要分摊到的各个成本中心。</span><span class="sxs-lookup"><span data-stu-id="072b4-134">The **Keep source financial dimensions** will be set to **No** for **Cost center**, and the value selected will be each respective cost center that you are allocating to.</span></span> <span data-ttu-id="072b4-135">如果要向三个成本中心分摊，将创建三个分摊条件记录。</span><span class="sxs-lookup"><span data-stu-id="072b4-135">If there are three cost centers to allocate to, then three allocation terms records would be created.</span></span> <span data-ttu-id="072b4-136">每个分摊条件之间的唯一区别是在目标会计科目上指定的成本中心。</span><span class="sxs-lookup"><span data-stu-id="072b4-136">The only difference between each allocation term is the cost center that is specified on the destination ledger account.</span></span>
+
+## <a name="create-an-allocation-term-on-a-main-account"></a><span data-ttu-id="072b4-137">在主科目上创建分摊条件</span><span class="sxs-lookup"><span data-stu-id="072b4-137">Create an allocation term on a main account</span></span>
+
+1. <span data-ttu-id="072b4-138">在 **导航窗格** 中，转到 **模块 > 总帐 > 会计科目表 > 科目 > 主科目**。</span><span class="sxs-lookup"><span data-stu-id="072b4-138">In the **Navigation pane**, go to **Modules > General ledger > Chart of accounts > Accounts > Main accounts**.</span></span>
+2. <span data-ttu-id="072b4-139">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="072b4-139">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="072b4-140">在 **法人覆盖** 快速选项卡上，选择 **添加**。</span><span class="sxs-lookup"><span data-stu-id="072b4-140">On the **Legal entity overrides** FastTab, select **Add**.</span></span>
+4. <span data-ttu-id="072b4-141">选择 **公司**，然后选择 **添加**。</span><span class="sxs-lookup"><span data-stu-id="072b4-141">Select the **Company** and then select **Add**.</span></span>
+5. <span data-ttu-id="072b4-142">选中 **分摊** 复选框。</span><span class="sxs-lookup"><span data-stu-id="072b4-142">Select the **Allocation** check box.</span></span>
+6. <span data-ttu-id="072b4-143">选择 **分摊条件**。</span><span class="sxs-lookup"><span data-stu-id="072b4-143">Select **Allocation terms** .</span></span>
+7. <span data-ttu-id="072b4-144">选择 **编辑** 修改默认记录，或选择 **新建** 添加一条记录。</span><span class="sxs-lookup"><span data-stu-id="072b4-144">Select **Edit** to modify the default record, or select **New** to add a record.</span></span>
+8. <span data-ttu-id="072b4-145">在 **百分比** 字段中，输入您要分摊的凭证交易记录的百分比。</span><span class="sxs-lookup"><span data-stu-id="072b4-145">In the **Percent** field, enter the percentage of voucher transactions that you want to allocate.</span></span>
+9. <span data-ttu-id="072b4-146">在 **源财务维度** 快速选项卡上，在每个财务维度的 **选择条件** 中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="072b4-146">On the **Source financial dimension** FastTab, in the **Selection criteria** for each financial dimension, select an option.</span></span>
+    - <span data-ttu-id="072b4-147">如果选择 **特定**，则在右侧的下拉框中选择财务维度值。</span><span class="sxs-lookup"><span data-stu-id="072b4-147">If you select **Specific**, then select the financial dimension value in the drop-down box on the right.</span></span>
+    - <span data-ttu-id="072b4-148">如果选择 **非特定**，财务维度将不需要其他信息。</span><span class="sxs-lookup"><span data-stu-id="072b4-148">If you select **Unspecific**, no additional information is required for the financial dimension.</span></span>
+10. <span data-ttu-id="072b4-149">在 **目标科目** 字段中的 **目标会计科目** 快速选项卡上，选择要分摊凭证交易记录百分比的主科目。</span><span class="sxs-lookup"><span data-stu-id="072b4-149">On the **Destination ledger** account FastTab in the **To account** field, select the main account where you want to allocate the percentage of the voucher transaction.</span></span>
+11. <span data-ttu-id="072b4-150">在每个财务维度的 **保留源财务维度** 中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="072b4-150">In **Keep source financial dimensions** for each financial dimension, select an option.</span></span>
+    - <span data-ttu-id="072b4-151">如果选择 **否**，则在右侧的下拉框中选择您希望向其分摊凭证交易记录的财务维度值。</span><span class="sxs-lookup"><span data-stu-id="072b4-151">If you select **No**, then select the financial dimension value in the drop-down box on the right where you want the voucher transaction to be allocated to.</span></span>
+    - <span data-ttu-id="072b4-152">如果选择 **是**，则无需其他信息。</span><span class="sxs-lookup"><span data-stu-id="072b4-152">If you select **Yes**, then no additional information is required.</span></span> <span data-ttu-id="072b4-153">过帐分摊时，系统会将值保留在原始凭证上。</span><span class="sxs-lookup"><span data-stu-id="072b4-153">The system will keep the value on the original voucher when posting the allocation.</span></span>
+12. <span data-ttu-id="072b4-154">对其他每个分摊重复步骤 7-11。</span><span class="sxs-lookup"><span data-stu-id="072b4-154">Repeat steps 7-11 for each additional allocation.</span></span> <span data-ttu-id="072b4-155">所有分摊的总和显示在 **总百分比** 字段中。</span><span class="sxs-lookup"><span data-stu-id="072b4-155">The sum of all allocations is indicated in the **Total percent** field.</span></span> <span data-ttu-id="072b4-156">此数量不能超过 100。</span><span class="sxs-lookup"><span data-stu-id="072b4-156">This amount cannot exceed 100.</span></span>
+13. <span data-ttu-id="072b4-157">关闭所有页面。</span><span class="sxs-lookup"><span data-stu-id="072b4-157">Close all of the pages.</span></span>
+
+>[!NOTE] 
+> <span data-ttu-id="072b4-158">您可以选择使用 **复制** 按钮复制所选分摊。</span><span class="sxs-lookup"><span data-stu-id="072b4-158">You can optionally use the **Copy** button to duplicate the selected allocation.</span></span>
+
+<span data-ttu-id="072b4-159">在为主科目创建分摊条件后，当过帐与分摊条件上的源财务维度匹配的凭证时，系统将自动过帐新凭证。</span><span class="sxs-lookup"><span data-stu-id="072b4-159">When an allocation term is created for a main account, the system will automatically post a new voucher when a voucher is posted that matches the source financial dimensions on the allocation terms.</span></span>

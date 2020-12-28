@@ -1,0 +1,107 @@
+---
+title: 配置 Talent
+description: 此主题将指导您如何为 Microsoft Dynamics 365 Talent 配置新环境。
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/18/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Talent
+ms.custom: 17271
+ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2017-11-20
+ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: 5bcdb50475fb341a538211cb122eb7c13067d86a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527210"
+---
+# <a name="provision-talent"></a><span data-ttu-id="d5c6e-103">配置 Talent</span><span class="sxs-lookup"><span data-stu-id="d5c6e-103">Provision Talent</span></span>
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+<span data-ttu-id="d5c6e-104">此主题将指导您如何为 Microsoft Dynamics 365 Talent 配置新生产环境。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-104">This topic walks you through the process of provisioning a new production environment for Microsoft Dynamics 365 Talent.</span></span> <span data-ttu-id="d5c6e-105">此主题假设您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Talent。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-105">This topic assumes that you've purchased Talent through a Cloud Solution Provider (CSP) or enterprise architecture (EA) agreement.</span></span> <span data-ttu-id="d5c6e-106">如果您有已包括 Talent 服务计划的现有 Microsoft Dynamics 365 许可证，但无法完成本主题中的步骤，请联系支持人员。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-106">If you have an existing Microsoft Dynamics 365 license that already includes the Talent service plan, and you can't complete the steps in this topic, contact Support.</span></span>
+
+<span data-ttu-id="d5c6e-107">若要开始，全局管理员应登录到 [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) 并创建新的 Talent 项目。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-107">To begin, the global administrator should sign in to [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) and create a new Talent project.</span></span> <span data-ttu-id="d5c6e-108">除非许可问题妨碍了您配置 Talent，否则不需要从支持人员或 Dynamics Service 工程 (DSE) 代表处获得帮助。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-108">Unless a licensing issue prevents you from provisioning Talent, assistance from Support or Dynamics Service Engineering (DSE) representatives isn't required.</span></span>
+
+## <a name="create-an-lcs-project"></a><span data-ttu-id="d5c6e-109">创建 LCS 项目</span><span class="sxs-lookup"><span data-stu-id="d5c6e-109">Create an LCS project</span></span>
+<span data-ttu-id="d5c6e-110">若要使用 LCS 来管理您的 Talent 环境，您必须先创建 LCS 项目。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-110">To use LCS to manage your Talent environments, you must first create an LCS project.</span></span>
+
+1. <span data-ttu-id="d5c6e-111">使用您用于订阅 Talent 的帐户登录到 [LCS](https://lcs.dynamics.com/Logon/Index)。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-111">Sign in to [LCS](https://lcs.dynamics.com/Logon/Index) by using the account that you used to subscribe to Talent.</span></span>
+
+2. <span data-ttu-id="d5c6e-112">选择加号 (**+**) 创建项目。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-112">Select the plus sign (**+**) to create a project.</span></span>
+
+3. <span data-ttu-id="d5c6e-113">选择 **Microsoft Dynamics 365 Talent** 作为产品名称和产品版本。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-113">Select **Microsoft Dynamics 365 Talent** as the product name and product version.</span></span>
+
+4. <span data-ttu-id="d5c6e-114">选择 **Dynamics 365 Talent** 方法。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-114">Select the **Dynamics 365 Talent** methodology.</span></span>
+
+5. <span data-ttu-id="d5c6e-115">选择 **创建**。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-115">Select **Create**.</span></span> 
+
+<span data-ttu-id="d5c6e-116">有关如何开始 Talent 的信息，请参阅在新项目中创建的 **Talent** 方法。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-116">For information about how to get started with Talent, see the **Talent** methodology that you created in your new project.</span></span> <span data-ttu-id="d5c6e-117">在您完成创建项目后，请完成以下过程来设置您的 Talent 环境。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-117">After you've finished creating the project, complete the following procedure to provision your Talent environment.</span></span>
+
+## <a name="provision-a-talent-project"></a><span data-ttu-id="d5c6e-118">配置 Talent 项目</span><span class="sxs-lookup"><span data-stu-id="d5c6e-118">Provision a Talent project</span></span>
+
+<span data-ttu-id="d5c6e-119">在创建 LCS 项目之后，您可以将 Talent 配置到环境中。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-119">After you've created an LCS project, you can provision Talent into an environment.</span></span>
+
+1. <span data-ttu-id="d5c6e-120">在您的 LCS 项目中，选择 **Talent 应用管理** 磁贴。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-120">In your LCS project, select the **Talent App Management** tile.</span></span>
+
+2. <span data-ttu-id="d5c6e-121">指示这是 Talent 的沙盒实例还是生产实例。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-121">Indicate whether this is a Sandbox or Production instance of Talent.</span></span> <span data-ttu-id="d5c6e-122">沙盒实例中可能提供提前预览功能以便提前反馈和测试。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-122">Early preview features may be available in Sandbox instances to allow for early feedback and testing.</span></span> 
+
+    > [!NOTE]
+    > <span data-ttu-id="d5c6e-123">Talent 实例类型一旦设置就无法更改。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-123">The Talent instance type cannot be changed once set.</span></span> <span data-ttu-id="d5c6e-124">在继续之前，请验证是否选择了正确的实例类型。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-124">Verify the correct instance type is selected before continuing.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="d5c6e-125">Talent 实例类型独立于 Microsoft Power Apps 环境的实例类型，后者是您在 Power Apps 管理中心中设置的。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-125">The Talent instance type is separate from the instance type of the Microsoft Power Apps environment, which you set in the Power Apps Admin center.</span></span>
+
+3. <span data-ttu-id="d5c6e-126">如果希望环境中包含 Talent 测试驱动器体验中使用的相同演示数据集，请选择 **包括演示数据** 选项。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-126">Select the **Include Demo Data** option if you want your environment to include the same demo data set used in the Talent Test Drive experience.</span></span> <span data-ttu-id="d5c6e-127">这对长期演示或培训环境有益，但切勿用于生产环境。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-127">This is beneficial for long-term demo or training environments, and should never be used for production environments.</span></span>  <span data-ttu-id="d5c6e-128">请注意，必须在初始部署之后立即选择此选项。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-128">Note that you must choose this option upon initial deployment.</span></span> <span data-ttu-id="d5c6e-129">不能在以后更新现有部署。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-129">You cannot update an existing deployment later.</span></span>
+
+4. <span data-ttu-id="d5c6e-130">Talent 始终配置到 Microsoft Power Apps 环境，以支持 Power Apps 集成和可扩展性。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-130">Talent is always provisioned into a Microsoft Power Apps environment to enable Power Apps integration and extensibility.</span></span> <span data-ttu-id="d5c6e-131">在继续之前，请阅读本主题的“选择 Power Apps 环境”部分。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-131">Read the “Selecting a Power Apps environment” section of this topic before you continue.</span></span> <span data-ttu-id="d5c6e-132">如果您没有 Power Apps 环境，在 LCS 中选择“管理环境”或导航到 Power Apps 管理员中心。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-132">If you don't already have a Power Apps environment, select Manage environments in LCS or navigate to the Power Apps Admin center.</span></span> <span data-ttu-id="d5c6e-133">然后按照步骤[创建 Power Apps 环境](https://docs.microsoft.com/powerapps/administrator/create-environment)。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-133">Then follow the steps to [Create a Power Apps environment](https://docs.microsoft.com/powerapps/administrator/create-environment).</span></span>
+
+5. <span data-ttu-id="d5c6e-134">选择要设置 Talent 的环境。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-134">Select the environment to provision Talent into.</span></span>
+
+6. <span data-ttu-id="d5c6e-135">选择 **是** 同意条款并开始部署。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-135">Select **Yes** to agree to the terms and begin deployment.</span></span>
+
+    <span data-ttu-id="d5c6e-136">您的新环境将出现在左侧导航窗格的环境列表中。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-136">Your new environment appears in the list of environments in the navigation pane on the left.</span></span> <span data-ttu-id="d5c6e-137">不过，在部署状态更新为 **已部署** 前，您无法开始使用此环境。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-137">However, you can't start to use the environment until the deployment status is updated to **Deployed**.</span></span> <span data-ttu-id="d5c6e-138">此过程通常需要几分钟。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-138">This process typically takes a few minutes.</span></span> <span data-ttu-id="d5c6e-139">如果配置过程失败，您必须与支持人员联系。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-139">If the provisioning process is unsuccessful, you must contact Support.</span></span>
+
+7. <span data-ttu-id="d5c6e-140">选择 **登录 Talent** 来使用您的新环境。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-140">Select **Log on to Talent** to use your new environment.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="d5c6e-141">如果您尚未验证最终要求，您可以在项目中部署 Talent 的测试实例。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-141">If you haven't yet signed off on the final requirements, you can deploy a test instance of Talent in the project.</span></span> <span data-ttu-id="d5c6e-142">您可以随后使用此实例来测试您的解决方案，直到验证完成。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-142">You can then use this instance to test your solution until you sign off.</span></span> <span data-ttu-id="d5c6e-143">如果您使用新环境进行测试，那么您必须重复此过程来创建一个生产环境。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-143">If you use your new environment for testing, you must repeat this procedure to create a production environment.</span></span>
+
+    > <span data-ttu-id="d5c6e-144">由于 Talent 预订中仅允许两个 LCS 环境，所以可以考虑利用免费的 60 天的 [Talent 试用环境](https://dynamics.microsoft.com/talent/overview/)。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-144">Because only two LCS environments are allowed as part of the Talent subscription, you might consider leveraging a free 60-day [Talent trial environment](https://dynamics.microsoft.com/talent/overview/).</span></span> <span data-ttu-id="d5c6e-145">尽管试用环境归其请求用户所有，仍然可以通过 Human Resources 的系统管理体验邀请其他用户。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-145">Although a trial environment is owned by the user who requested it, other users can be invited through the system administration experience for Human Resources.</span></span> <span data-ttu-id="d5c6e-146">试用环境中包含可用于以安全方式探索该程序的虚拟数据。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-146">Trial environments contain fictitious data that can be used to explore the program in a safe manner.</span></span> <span data-ttu-id="d5c6e-147">不应将其用作生产环境。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-147">They aren't intended to be used as production environments.</span></span> <span data-ttu-id="d5c6e-148">请注意，如果试用环境在 60 天后到期，其中的所有数据都将被删除且不可恢复。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-148">Note that when a trial environment expires after 60 days, all the data that's in it is deleted and can't be recovered.</span></span> <span data-ttu-id="d5c6e-149">现有环境过期后，可以注册新试用环境。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-149">You can sign up for a new trial environment after the existing environment expires.</span></span>
+
+## <a name="select-a-power-apps-environment"></a><span data-ttu-id="d5c6e-150">选择 Power Apps 环境</span><span class="sxs-lookup"><span data-stu-id="d5c6e-150">Select a Power Apps environment</span></span>
+
+<span data-ttu-id="d5c6e-151">通过 Talent 与 Power Apps 环境之间的集成，可使用 Power Apps 工具集成和扩展 Talent 数据的使用。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-151">The integration between Talent and the Power Apps environments lets you integrate and extend the use of Talent data using Power Apps tools.</span></span> <span data-ttu-id="d5c6e-152">了解 Power Apps 环境的用途不仅有助于您构建扩展 Talent 的应用，还将帮助您在配置 Talent 时选择正确的环境。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-152">Understanding the purpose of Power Apps environments will not only help you build apps to extend Talent, but will also help you select the correct environment when provisioning Talent.</span></span> <span data-ttu-id="d5c6e-153">有关 Power Apps 环境的信息，包括环境范围、环境访问和创建与选择环境，请参阅[介绍 Power Apps 环境](https://powerapps.microsoft.com/blog/powerapps-environments/)。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-153">For information about Power Apps environments, including environment scope, environment access, and creating and choosing an environment, see [Announcing Power Apps environments](https://powerapps.microsoft.com/blog/powerapps-environments/).</span></span> 
+
+<span data-ttu-id="d5c6e-154">在确定部署 Talent 的目标 Power Apps 环境时请使用以下指南：</span><span class="sxs-lookup"><span data-stu-id="d5c6e-154">Use the following guidance when determining which Power Apps environment to deploy Talent into:</span></span> 
+
+1. <span data-ttu-id="d5c6e-155">在 LCS 中，选择 **管理环境**，或直接转到 Power Apps 管理员中心，您可以在那里查看现有的环境和创建新的环境。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-155">In LCS, select **Manage environments**, or go directly to the Power Apps Admin center where you can view existing environments and create new environments.</span></span>
+
+2. <span data-ttu-id="d5c6e-156">单个 Talent 环境映射到单个 Power Apps 环境。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-156">A single Talent environment is mapped to a single Power Apps environment.</span></span>
+
+3. <span data-ttu-id="d5c6e-157">Power Apps 环境包含 Talent，以及相应的 Power Apps、Power Automate 和 Common Data Service 应用程序。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-157">A Power Apps environment contains Talent, along with the corresponding Power Apps, Power Automate, and Common Data Service applications.</span></span> <span data-ttu-id="d5c6e-158">如果 Power Apps 环境被删除，其中的应用也会被删除。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-158">If the Power Apps environment is deleted, so are the apps within it.</span></span> <span data-ttu-id="d5c6e-159">在设置 Talent 环境时，可以设置 **试用** 或 **生产** 环境。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-159">When provisioning a Talent environment, you can provision either a **Trial** or **Production** environment.</span></span> <span data-ttu-id="d5c6e-160">根据环境使用方式选择环境类型。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-160">Choose the type of environment based on how the environment will be used.</span></span> 
+
+4. <span data-ttu-id="d5c6e-161">应该考虑数据集成和测试策略，如沙盒、UAT 或生产。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-161">Data integration and testing strategies should be considered, such as Sandbox, UAT, or Production.</span></span> <span data-ttu-id="d5c6e-162">建议您考虑对您的部署的各种影响，因为以后不容易更改将哪个 Talent 环境映射到 Power Apps 环境。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-162">We recommend that you consider the various implications for your deployment, because it isn't easy to later change which Talent environment is mapped to a Power Apps environment.</span></span>
+
+5. <span data-ttu-id="d5c6e-163">以下 Power Apps 环境不能用于 Talent，将从 LCS 内的选择列表中筛除：</span><span class="sxs-lookup"><span data-stu-id="d5c6e-163">The following Power Apps environments cannot be used for Talent and will be filtered from the selection list within LCS:</span></span>
+ 
+    - <span data-ttu-id="d5c6e-164">**默认 Power Apps 环境** - 虽然每个租户均自动配置为默认的 Power Apps 环境，但我们不建议在 Talent 中使用它们，因为所有租户用户均有权访问 Power Apps 环境，有可能会在使用 Power Apps 或 Power Automate 集成进行测试和探索时意外损坏生产数据。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-164">**Default Power Apps environments** - Although each tenant is automatically provisioned with a default Power Apps environment, we don't recommend using them with Talent because all tenant users have access to the Power Apps environment and could unintentionally corrupt production data when testing and exploring with Power Apps or Power Automate integrations.</span></span>
+   
+    - <span data-ttu-id="d5c6e-165">**试用环境** - 这些环境在创建时有到期日期，在此时间过后将到期，从而导致自动删除您的环境和其中包含的所有 Talent 实例。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-165">**Trial environments** - These environments are created with an expiration date and will expire after that time, causing your environment and any Talent instances contained within to be removed automatically.</span></span>
+   
+    - <span data-ttu-id="d5c6e-166">**不受支持的地区** - 目前仅在以下地区支持 Talent：美国、欧洲、英国、澳大利亚、加拿大和亚洲。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-166">**Unsupported regions** - Currently Talent is only supported in the following regions: United States, Europe, United Kingdom, Australia, Canada and Asia.</span></span>
+  
+6. <span data-ttu-id="d5c6e-167">确定了要使用的正确环境之后，可以继续进行配置流程。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-167">After you have determined the correct environment to use, you can continue with the provisioning process.</span></span> 
+ 
+## <a name="grant-access-to-the-environment"></a><span data-ttu-id="d5c6e-168">授予对环境的访问</span><span class="sxs-lookup"><span data-stu-id="d5c6e-168">Grant access to the environment</span></span>
+
+<span data-ttu-id="d5c6e-169">默认情况下，创建环境的全局管理员可以访问环境。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-169">By default, the global administrator who created the environment has access to it.</span></span> <span data-ttu-id="d5c6e-170">但是，必须为更多应用程序用户明确授予访问权限。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-170">However, additional application users must be explicitly granted access.</span></span> <span data-ttu-id="d5c6e-171">若要授予访问权限，需要在 Human Resources 环境中添加用户并为其分配相应角色。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-171">To grant access, you need to add users and assign the appropriate roles to them in the Human Resources environment.</span></span> <span data-ttu-id="d5c6e-172">部署了 Talent 的全局管理员还必须启动 Attract 和 Onboard 以完成初始化和允许其他租户用户访问。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-172">The global administrator that deployed Talent must also launch both Attract and Onboard to complete the initialization and enable access for other tenant users.</span></span>  <span data-ttu-id="d5c6e-173">在此之前，其他用户不能访问 Attract 和 Onboard，并且将发生访问冲突错误。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-173">Until this happens, other users will not be able to access Attract and Onboard and will get access violation errors.</span></span> <span data-ttu-id="d5c6e-174">有关详细信息，请参阅[创建新用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)和[向安全角色分配用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)。</span><span class="sxs-lookup"><span data-stu-id="d5c6e-174">For more information, see [Create new users](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) and [Assign users to security roles](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles).</span></span> 
