@@ -1,0 +1,205 @@
+---
+title: 为交易事件创建电子邮件模板
+description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中为交易事件创建，上传和配置电子邮件模板。
+author: bicyclingfool
+manager: annbe
+ms.date: 06/01/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+audience: Application User
+ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: stuharg
+ms.search.validFrom: 2020-01-20
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: ea484bfc1e9b293c53d7293c50630c4955000131
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410398"
+---
+# <a name="create-email-templates-for-transactional-events"></a><span data-ttu-id="04bcc-103">为交易事件创建电子邮件模板</span><span class="sxs-lookup"><span data-stu-id="04bcc-103">Create email templates for transactional events</span></span>
+
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="04bcc-104">此主题介绍如何在 Microsoft Dynamics 365 Commerce 中为交易事件创建，上传和配置电子邮件模板。</span><span class="sxs-lookup"><span data-stu-id="04bcc-104">This topic describes how to create, upload, and configure email templates for transactional events in Microsoft Dynamics 365 Commerce.</span></span>
+
+## <a name="overview"></a><span data-ttu-id="04bcc-105">概览</span><span class="sxs-lookup"><span data-stu-id="04bcc-105">Overview</span></span>
+
+<span data-ttu-id="04bcc-106">Dynamics 365 Commerce 提供用于发送电子邮件的现成解决方案以向客户警示交易事件（例如，下达订单时，订单准备好领料时，或已经为订单发货了时）。</span><span class="sxs-lookup"><span data-stu-id="04bcc-106">Dynamics 365 Commerce provides an out-of-box solution for sending emails that alert customers about transactional events (for example, when an order is placed, an order is ready for pickup, or an order has been shipped).</span></span> <span data-ttu-id="04bcc-107">此主题介绍创建，上传和配置用于发送交易电子邮件的电子邮件模板的步骤。</span><span class="sxs-lookup"><span data-stu-id="04bcc-107">This topic describes the steps for creating, uploading, and configuring the email templates that are used to send transactional emails.</span></span>
+
+## <a name="create-an-email-template"></a><span data-ttu-id="04bcc-108">创建电子邮件模板</span><span class="sxs-lookup"><span data-stu-id="04bcc-108">Create an email template</span></span>
+
+<span data-ttu-id="04bcc-109">必须先创建模板，才能将特定交易事件映射到电子邮件模板。</span><span class="sxs-lookup"><span data-stu-id="04bcc-109">Before you can map a specific transactional event to an email template, you must create the template.</span></span>
+
+<span data-ttu-id="04bcc-110">若要创建电子邮件模板，请执行以下步骤。</span><span class="sxs-lookup"><span data-stu-id="04bcc-110">To create an email template, follow these steps.</span></span>
+
+1. <span data-ttu-id="04bcc-111">在 Commerce Headquarters 中，转到 **组织电子邮件模板**，它在 **Retail 和 Commerce \> 总部设置 \> 组织电子邮件模板** 或 **组织管理 \> 设置 \> 组织电子邮件模板** 下。</span><span class="sxs-lookup"><span data-stu-id="04bcc-111">In Commerce headquarters, go to **Organization email templates**, which is under **Retail and Commerce \> Headquarters setup \> Organization email templates** or **Organization administration \> Setup \> Organization email templates**.</span></span>
+1. <span data-ttu-id="04bcc-112">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="04bcc-112">Select **New**.</span></span>
+1. <span data-ttu-id="04bcc-113">在 **常规** 下，设置以下字段：</span><span class="sxs-lookup"><span data-stu-id="04bcc-113">Under **General**, set the following fields:</span></span>
+
+    - <span data-ttu-id="04bcc-114">**电子邮件 ID** – 电子邮件 ID 是模板的唯一标识，这是选择要映射到事件的模板时显示的值。</span><span class="sxs-lookup"><span data-stu-id="04bcc-114">**Email ID** – The email ID is the unique identifier for a template, and it's the value that is shown when you select a template to map to an event.</span></span>
+    - <span data-ttu-id="04bcc-115">**电子邮件说明** – 可以使用这个可选字段提供模板的说明。</span><span class="sxs-lookup"><span data-stu-id="04bcc-115">**Email description** – You can use this optional field to provide a description of the template.</span></span> <span data-ttu-id="04bcc-116">您输入的值仅在 Commerce Headquarters 中显示。</span><span class="sxs-lookup"><span data-stu-id="04bcc-116">The value that you enter appears only in Commerce headquarters.</span></span>
+    - <span data-ttu-id="04bcc-117">**发件人姓名** – 您输入的姓名在大多数电子邮件客户端的“发件人”字段中显示。</span><span class="sxs-lookup"><span data-stu-id="04bcc-117">**Sender name** – The name that you enter appears in the "from" field of most email clients.</span></span>
+    - <span data-ttu-id="04bcc-118">**发件人电子邮件** – 输入应该用于使用此模板发送的电子邮件的电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="04bcc-118">**Sender email** – Enter the email address that should be used for emails that are sent by using this template.</span></span>
+    - <span data-ttu-id="04bcc-119">**默认语言代码** – 如果调用此模板的渠道未提供语言，此字段指定默认发送的电子邮件的本地化版本。</span><span class="sxs-lookup"><span data-stu-id="04bcc-119">**Default language code** – This field specifies the localized version of the email that is sent by default, if no language is provided by the channel that invokes this template.</span></span>
+
+1. <span data-ttu-id="04bcc-120">在 **电子邮件内容** 下，选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="04bcc-120">Under **Email message content**, select **New**.</span></span>
+1. <span data-ttu-id="04bcc-121">在 **语言** 字段中，输入电子邮件模板的语言。</span><span class="sxs-lookup"><span data-stu-id="04bcc-121">In the **Language** field, enter the language for the email template.</span></span> <span data-ttu-id="04bcc-122">以后可以添加更多语言和本地化的模板。</span><span class="sxs-lookup"><span data-stu-id="04bcc-122">You can add more languages and localized templates later.</span></span>
+1. <span data-ttu-id="04bcc-123">在 **主题** 字段中，输入应该在电子邮件的主题字段中显示的电子邮件主题。</span><span class="sxs-lookup"><span data-stu-id="04bcc-123">In the **Subject** field, enter the email subject that should appear in the subject field of the email.</span></span>
+1. <span data-ttu-id="04bcc-124">选择 **编辑** 上传您的电子邮件模板。</span><span class="sxs-lookup"><span data-stu-id="04bcc-124">Select **Edit** to upload your email template.</span></span>
+
+## <a name="create-an-email-message-body-by-using-html"></a><span data-ttu-id="04bcc-125">使用 HTML 创建电子邮件正文</span><span class="sxs-lookup"><span data-stu-id="04bcc-125">Create an email message body by using HTML</span></span>
+
+<span data-ttu-id="04bcc-126">将使用 HTML 撰写电子邮件正文。</span><span class="sxs-lookup"><span data-stu-id="04bcc-126">The message body of your email is composed in HTML.</span></span> <span data-ttu-id="04bcc-127">可使用 HTML 和内嵌级联样式表 (CSS) 允许的任何布局、样式和品牌。</span><span class="sxs-lookup"><span data-stu-id="04bcc-127">You can use any layout, styling, and branding that HTML and inline Cascading Style Sheets (CSS) allow for.</span></span> <span data-ttu-id="04bcc-128">也可以使用在公开提供的 Web 终结点中托管的图像。</span><span class="sxs-lookup"><span data-stu-id="04bcc-128">You can also use images, if you host them on a publicly available web endpoint.</span></span> <span data-ttu-id="04bcc-129">若要添加图像，请在 HTML **&lt;img&gt;** 标记的 **src** 属性中输入图像的 URL。</span><span class="sxs-lookup"><span data-stu-id="04bcc-129">To add an image, enter the image's URL in the **src** attribute of the HTML **&lt;img&gt;** tag.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="04bcc-130">每个电子邮件客户端实施的布局和样式限制可能需要调整用于消息正文的 HTML 和 CSS。</span><span class="sxs-lookup"><span data-stu-id="04bcc-130">Email clients impose layout and style limitations that might require adjustments to the HTML and CSS that you use for the message body.</span></span> <span data-ttu-id="04bcc-131">建议您自己熟悉有关最受欢迎电子邮件客户端支持的 HTML 的最佳实践。</span><span class="sxs-lookup"><span data-stu-id="04bcc-131">We recommend that you familiarize yourself with the best practices for creating HTML that will be supported by the most popular email clients.</span></span>
+
+## <a name="add-placeholders-to-the-email-message-body"></a><span data-ttu-id="04bcc-132">在电子邮件正文中添加占位符</span><span class="sxs-lookup"><span data-stu-id="04bcc-132">Add placeholders to the email message body</span></span>
+
+<span data-ttu-id="04bcc-133">您的电子邮件中可以包含生成电子邮件时将替换为客户特定的和交易特定的值的占位符。</span><span class="sxs-lookup"><span data-stu-id="04bcc-133">Your email can contain placeholders that are replaced with customer-specific and transaction-specific values when the email is generated.</span></span> <span data-ttu-id="04bcc-134">占位符两侧始终是百分比符号 (%)，并且将直接插入到 HTML 文档中。</span><span class="sxs-lookup"><span data-stu-id="04bcc-134">Placeholders are always surrounded by percent signs (%) and are inserted directly into the HTML document.</span></span>
+
+<span data-ttu-id="04bcc-135">下面是一个示例。</span><span class="sxs-lookup"><span data-stu-id="04bcc-135">Here is an example.</span></span>
+
+```html
+<p>
+    Hello %customername%,<br />
+    Order number %salesid%, can be picked up from the <b>%pickupstorename%</b> store.
+</p>
+```
+
+### <a name="order-placeholders-sales-order-level"></a><span data-ttu-id="04bcc-136">订单占位符（销售订单级）</span><span class="sxs-lookup"><span data-stu-id="04bcc-136">Order placeholders (sales order level)</span></span>
+
+<span data-ttu-id="04bcc-137">以下占位符检索和显示销售订单级（相对销售行级）定义的数据。</span><span class="sxs-lookup"><span data-stu-id="04bcc-137">The following placeholders retrieve and show data that is defined at the sales order level (as opposed to the sales line level).</span></span>
+
+| <span data-ttu-id="04bcc-138">占位符名称</span><span class="sxs-lookup"><span data-stu-id="04bcc-138">Placeholder name</span></span>    | <span data-ttu-id="04bcc-139">占位符值</span><span class="sxs-lookup"><span data-stu-id="04bcc-139">Placeholder value</span></span>                                                |
+|---------------------|------------------------------------------------------------------|
+| <span data-ttu-id="04bcc-140">customername</span><span class="sxs-lookup"><span data-stu-id="04bcc-140">customername</span></span>        | <span data-ttu-id="04bcc-141">下订单的客户的姓名。</span><span class="sxs-lookup"><span data-stu-id="04bcc-141">The name of the customer who placed the order.</span></span>                   |
+| <span data-ttu-id="04bcc-142">salesid</span><span class="sxs-lookup"><span data-stu-id="04bcc-142">salesid</span></span>             | <span data-ttu-id="04bcc-143">订单的销售 ID。</span><span class="sxs-lookup"><span data-stu-id="04bcc-143">The sales ID of the order.</span></span>                                       |
+| <span data-ttu-id="04bcc-144">deliveryaddress</span><span class="sxs-lookup"><span data-stu-id="04bcc-144">deliveryaddress</span></span>     | <span data-ttu-id="04bcc-145">所装运订单的交货地址。</span><span class="sxs-lookup"><span data-stu-id="04bcc-145">The delivery address for shipped orders.</span></span>                         |
+| <span data-ttu-id="04bcc-146">customeraddress</span><span class="sxs-lookup"><span data-stu-id="04bcc-146">customeraddress</span></span>     | <span data-ttu-id="04bcc-147">客户的地址。</span><span class="sxs-lookup"><span data-stu-id="04bcc-147">The address of the customer.</span></span>                                     |
+| <span data-ttu-id="04bcc-148">deliverydate</span><span class="sxs-lookup"><span data-stu-id="04bcc-148">deliverydate</span></span>        | <span data-ttu-id="04bcc-149">交货日期。</span><span class="sxs-lookup"><span data-stu-id="04bcc-149">The delivery date.</span></span>                                               |
+| <span data-ttu-id="04bcc-150">shipdate</span><span class="sxs-lookup"><span data-stu-id="04bcc-150">shipdate</span></span>            | <span data-ttu-id="04bcc-151">装运日期。</span><span class="sxs-lookup"><span data-stu-id="04bcc-151">The ship date.</span></span>                                                   |
+| <span data-ttu-id="04bcc-152">modeofdelivery</span><span class="sxs-lookup"><span data-stu-id="04bcc-152">modeofdelivery</span></span>      | <span data-ttu-id="04bcc-153">订单的交货方式。</span><span class="sxs-lookup"><span data-stu-id="04bcc-153">The delivery mode of the order.</span></span>                                  |
+| <span data-ttu-id="04bcc-154">费用</span><span class="sxs-lookup"><span data-stu-id="04bcc-154">charges</span></span>             | <span data-ttu-id="04bcc-155">订单的总费用。</span><span class="sxs-lookup"><span data-stu-id="04bcc-155">The total charges for the order.</span></span>                                 |
+| <span data-ttu-id="04bcc-156">税</span><span class="sxs-lookup"><span data-stu-id="04bcc-156">tax</span></span>                 | <span data-ttu-id="04bcc-157">订单的总税金。</span><span class="sxs-lookup"><span data-stu-id="04bcc-157">The total tax for the order.</span></span>                                     |
+| <span data-ttu-id="04bcc-158">合计</span><span class="sxs-lookup"><span data-stu-id="04bcc-158">total</span></span>               | <span data-ttu-id="04bcc-159">订单的总金额。</span><span class="sxs-lookup"><span data-stu-id="04bcc-159">The total amount for the order.</span></span>                                  |
+| <span data-ttu-id="04bcc-160">ordernetamount</span><span class="sxs-lookup"><span data-stu-id="04bcc-160">ordernetamount</span></span>      | <span data-ttu-id="04bcc-161">订单的总金额减去总税金。</span><span class="sxs-lookup"><span data-stu-id="04bcc-161">The total amount for the order, minus the total tax.</span></span>             |
+| <span data-ttu-id="04bcc-162">discount / 折扣</span><span class="sxs-lookup"><span data-stu-id="04bcc-162">discount</span></span>            | <span data-ttu-id="04bcc-163">订单的总折扣。</span><span class="sxs-lookup"><span data-stu-id="04bcc-163">The total discount for the order.</span></span>                                |
+| <span data-ttu-id="04bcc-164">storename</span><span class="sxs-lookup"><span data-stu-id="04bcc-164">storename</span></span>           | <span data-ttu-id="04bcc-165">下订单所在商店的名称。</span><span class="sxs-lookup"><span data-stu-id="04bcc-165">The name of the store where the order was placed.</span></span>                |
+| <span data-ttu-id="04bcc-166">storeaddress</span><span class="sxs-lookup"><span data-stu-id="04bcc-166">storeaddress</span></span>        | <span data-ttu-id="04bcc-167">下订单的商店的地址。</span><span class="sxs-lookup"><span data-stu-id="04bcc-167">The address of the store that placed the order.</span></span>                  |
+| <span data-ttu-id="04bcc-168">storeopenfrom</span><span class="sxs-lookup"><span data-stu-id="04bcc-168">storeopenfrom</span></span>       | <span data-ttu-id="04bcc-169">下订单的商店的上班时间。</span><span class="sxs-lookup"><span data-stu-id="04bcc-169">The opening time of the store that placed the order.</span></span>             |
+| <span data-ttu-id="04bcc-170">storeopento</span><span class="sxs-lookup"><span data-stu-id="04bcc-170">storeopento</span></span>         | <span data-ttu-id="04bcc-171">下订单的商店的下班时间。</span><span class="sxs-lookup"><span data-stu-id="04bcc-171">The closing time of the store that placed the order.</span></span>             |
+| <span data-ttu-id="04bcc-172">pickupstorename</span><span class="sxs-lookup"><span data-stu-id="04bcc-172">pickupstorename</span></span>     | <span data-ttu-id="04bcc-173">订单提货所在商店的名称。</span><span class="sxs-lookup"><span data-stu-id="04bcc-173">The name of the store where the order will be picked up.</span></span>         |
+| <span data-ttu-id="04bcc-174">pickupstoreaddress</span><span class="sxs-lookup"><span data-stu-id="04bcc-174">pickupstoreaddress</span></span>  | <span data-ttu-id="04bcc-175">订单提货所在商店的地址。</span><span class="sxs-lookup"><span data-stu-id="04bcc-175">The address of the store where the order will be picked up.</span></span>      |
+| <span data-ttu-id="04bcc-176">pickupopenstorefrom</span><span class="sxs-lookup"><span data-stu-id="04bcc-176">pickupopenstorefrom</span></span> | <span data-ttu-id="04bcc-177">订单提货所在商店的上班时间。</span><span class="sxs-lookup"><span data-stu-id="04bcc-177">The opening time of the store where the order will be picked up.</span></span> |
+| <span data-ttu-id="04bcc-178">pickupopenstoreto</span><span class="sxs-lookup"><span data-stu-id="04bcc-178">pickupopenstoreto</span></span>   | <span data-ttu-id="04bcc-179">订单提货所在商店的下班时间。</span><span class="sxs-lookup"><span data-stu-id="04bcc-179">The closing time of the store where the order will be picked up.</span></span> |
+
+### <a name="order-line-placeholders-sales-line-level"></a><span data-ttu-id="04bcc-180">订单行占位符（销售行级）</span><span class="sxs-lookup"><span data-stu-id="04bcc-180">Order line placeholders (sales line level)</span></span>
+
+<span data-ttu-id="04bcc-181">以下占位符检索和显示销售订单中单个产品（行）的数据。</span><span class="sxs-lookup"><span data-stu-id="04bcc-181">The following placeholders retrieve and show data for individual products (lines) in the sales order.</span></span>
+
+| <span data-ttu-id="04bcc-182">占位符名称</span><span class="sxs-lookup"><span data-stu-id="04bcc-182">Placeholder name</span></span>               | <span data-ttu-id="04bcc-183">占位符值</span><span class="sxs-lookup"><span data-stu-id="04bcc-183">Placeholder value</span></span> |
+|--------------------------------|-------------------|
+| <span data-ttu-id="04bcc-184">productid</span><span class="sxs-lookup"><span data-stu-id="04bcc-184">productid</span></span>                      | <span data-ttu-id="04bcc-185">行的产品 ID。</span><span class="sxs-lookup"><span data-stu-id="04bcc-185">The product ID for the line.</span></span> |
+| <span data-ttu-id="04bcc-186">lineproductname</span><span class="sxs-lookup"><span data-stu-id="04bcc-186">lineproductname</span></span>                | <span data-ttu-id="04bcc-187">产品的名称。</span><span class="sxs-lookup"><span data-stu-id="04bcc-187">The name of the product.</span></span> |
+| <span data-ttu-id="04bcc-188">lineproductdescription</span><span class="sxs-lookup"><span data-stu-id="04bcc-188">lineproductdescription</span></span>         | <span data-ttu-id="04bcc-189">产品的描述。</span><span class="sxs-lookup"><span data-stu-id="04bcc-189">The description of the product.</span></span> |
+| <span data-ttu-id="04bcc-190">linequantity</span><span class="sxs-lookup"><span data-stu-id="04bcc-190">linequantity</span></span>                   | <span data-ttu-id="04bcc-191">为行订购的单位数量加度量单位（例如，**ea** 或 **对**）。</span><span class="sxs-lookup"><span data-stu-id="04bcc-191">The number of units that were ordered for the line, plus the unit of measure (for example, **ea**, or **pair**).</span></span> |
+| <span data-ttu-id="04bcc-192">lineunit</span><span class="sxs-lookup"><span data-stu-id="04bcc-192">lineunit</span></span>                       | <span data-ttu-id="04bcc-193">行的度量单位。</span><span class="sxs-lookup"><span data-stu-id="04bcc-193">The unit of measure for the line.</span></span> |
+| <span data-ttu-id="04bcc-194">linequantity_withoutunit</span><span class="sxs-lookup"><span data-stu-id="04bcc-194">linequantity_withoutunit</span></span>       | <span data-ttu-id="04bcc-195">为行订购的单位数量，但不含度量单位。</span><span class="sxs-lookup"><span data-stu-id="04bcc-195">The number of units that were ordered for the line, without the unit of measure.</span></span> |
+| <span data-ttu-id="04bcc-196">linequantitypicked</span><span class="sxs-lookup"><span data-stu-id="04bcc-196">linequantitypicked</span></span>             | <span data-ttu-id="04bcc-197">使用 **PickOrder** 事件时，为提货单位数量。</span><span class="sxs-lookup"><span data-stu-id="04bcc-197">When the **PickOrder** event is used, the number of units that were picked.</span></span> <span data-ttu-id="04bcc-198">否则为 **0**（零）。</span><span class="sxs-lookup"><span data-stu-id="04bcc-198">Otherwise, **0** (zero).</span></span> |
+| <span data-ttu-id="04bcc-199">linequantitypicked_withoutunit</span><span class="sxs-lookup"><span data-stu-id="04bcc-199">linequantitypicked_withoutunit</span></span> | <span data-ttu-id="04bcc-200">使用 **PickOrder** 事件时，为提货单位数量，但不含度量单位。</span><span class="sxs-lookup"><span data-stu-id="04bcc-200">When the **PickOrder** event is used, the number of units that were picked, without the unit of measure.</span></span> <span data-ttu-id="04bcc-201">否则为 **0**（零）。</span><span class="sxs-lookup"><span data-stu-id="04bcc-201">Otherwise, **0** (zero).</span></span> |
+| <span data-ttu-id="04bcc-202">linequantitypacked</span><span class="sxs-lookup"><span data-stu-id="04bcc-202">linequantitypacked</span></span>             | <span data-ttu-id="04bcc-203">使用 **PackOrder** 和 **订单可提货** 事件时，为包装单位数量。</span><span class="sxs-lookup"><span data-stu-id="04bcc-203">When the **PackOrder** and **Order ready for pickup** events are used, the number of units that were packed.</span></span> <span data-ttu-id="04bcc-204">否则为 **0**（零）。</span><span class="sxs-lookup"><span data-stu-id="04bcc-204">Otherwise, **0** (zero).</span></span> |
+| <span data-ttu-id="04bcc-205">linequantitypacked_withoutuom</span><span class="sxs-lookup"><span data-stu-id="04bcc-205">linequantitypacked_withoutuom</span></span>  | <span data-ttu-id="04bcc-206">使用 **PackOrder** 和 **订单可提货** 事件时，为包装单位数量，但不含度量单位。</span><span class="sxs-lookup"><span data-stu-id="04bcc-206">When the **PackOrder** and **Order ready for pickup** events are used, the number of units that were packed, without the unit of measure.</span></span> <span data-ttu-id="04bcc-207">否则为 **0**（零）。</span><span class="sxs-lookup"><span data-stu-id="04bcc-207">Otherwise, **0** (zero).</span></span> |
+| <span data-ttu-id="04bcc-208">linequantityshipped</span><span class="sxs-lookup"><span data-stu-id="04bcc-208">linequantityshipped</span></span>            | <span data-ttu-id="04bcc-209">始终为 **0**，除了使用特定事件时，如下一行中所述。</span><span class="sxs-lookup"><span data-stu-id="04bcc-209">Always **0**, except when specific events are used, as described in the next row.</span></span> |
+| <span data-ttu-id="04bcc-210">linequantityshipped_withoutuom</span><span class="sxs-lookup"><span data-stu-id="04bcc-210">linequantityshipped_withoutuom</span></span> | <span data-ttu-id="04bcc-211">使用 **ShipOrder** 事件时，为提货单位数量，但不含度量单位。</span><span class="sxs-lookup"><span data-stu-id="04bcc-211">When the **ShipOrder** event is used, the number of units that were picked, without the unit of measure.</span></span> <span data-ttu-id="04bcc-212">否则为 **0**（零）。</span><span class="sxs-lookup"><span data-stu-id="04bcc-212">Otherwise, **0** (zero).</span></span> |
+| <span data-ttu-id="04bcc-213">lineprice</span><span class="sxs-lookup"><span data-stu-id="04bcc-213">lineprice</span></span>                      | <span data-ttu-id="04bcc-214">一个单位的价格。</span><span class="sxs-lookup"><span data-stu-id="04bcc-214">The price of a single unit.</span></span> |
+| <span data-ttu-id="04bcc-215">linenetamount</span><span class="sxs-lookup"><span data-stu-id="04bcc-215">linenetamount</span></span>                  | <span data-ttu-id="04bcc-216">实施单位数量和折扣后的行价格。</span><span class="sxs-lookup"><span data-stu-id="04bcc-216">The price of the line after the number of units and discount are applied.</span></span> |
+| <span data-ttu-id="04bcc-217">linediscount</span><span class="sxs-lookup"><span data-stu-id="04bcc-217">linediscount</span></span>                   | <span data-ttu-id="04bcc-218">单个单位的折扣。</span><span class="sxs-lookup"><span data-stu-id="04bcc-218">The discount for an individual unit.</span></span> |
+| <span data-ttu-id="04bcc-219">lineshipdate</span><span class="sxs-lookup"><span data-stu-id="04bcc-219">lineshipdate</span></span>                   | <span data-ttu-id="04bcc-220">行的装运日期。</span><span class="sxs-lookup"><span data-stu-id="04bcc-220">The ship date for the line.</span></span> |
+| <span data-ttu-id="04bcc-221">linedeliverydate</span><span class="sxs-lookup"><span data-stu-id="04bcc-221">linedeliverydate</span></span>               | <span data-ttu-id="04bcc-222">行的交货日期。</span><span class="sxs-lookup"><span data-stu-id="04bcc-222">The delivery date for the line.</span></span> |
+| <span data-ttu-id="04bcc-223">linedeliverymode</span><span class="sxs-lookup"><span data-stu-id="04bcc-223">linedeliverymode</span></span>               | <span data-ttu-id="04bcc-224">行的交货方式。</span><span class="sxs-lookup"><span data-stu-id="04bcc-224">The delivery mode for the line.</span></span> |
+| <span data-ttu-id="04bcc-225">linedeliveryaddress</span><span class="sxs-lookup"><span data-stu-id="04bcc-225">linedeliveryaddress</span></span>            | <span data-ttu-id="04bcc-226">行的交货地址。</span><span class="sxs-lookup"><span data-stu-id="04bcc-226">The delivery address for the line.</span></span> |
+| <span data-ttu-id="04bcc-227">giftcardnumber</span><span class="sxs-lookup"><span data-stu-id="04bcc-227">giftcardnumber</span></span>                 | <span data-ttu-id="04bcc-228">礼品卡类型产品的礼品卡编号。</span><span class="sxs-lookup"><span data-stu-id="04bcc-228">The gift card number, for products of the gift card type.</span></span> |
+| <span data-ttu-id="04bcc-229">giftcardbalance</span><span class="sxs-lookup"><span data-stu-id="04bcc-229">giftcardbalance</span></span>                | <span data-ttu-id="04bcc-230">礼品卡类型产品的礼品卡余额。</span><span class="sxs-lookup"><span data-stu-id="04bcc-230">The gift card balance, for products of the gift card type.</span></span> |
+| <span data-ttu-id="04bcc-231">giftcardmessage</span><span class="sxs-lookup"><span data-stu-id="04bcc-231">giftcardmessage</span></span>                | <span data-ttu-id="04bcc-232">礼品卡类型产品的礼品卡消息。</span><span class="sxs-lookup"><span data-stu-id="04bcc-232">The gift card message, for products of the gift card type.</span></span> |
+| <span data-ttu-id="04bcc-233">giftcardpin</span><span class="sxs-lookup"><span data-stu-id="04bcc-233">giftcardpin</span></span>                    | <span data-ttu-id="04bcc-234">礼品卡类型产品的礼品卡个人标识号 (PIN)。</span><span class="sxs-lookup"><span data-stu-id="04bcc-234">The personal identification number (PIN) of the gift card, for products of the gift card type.</span></span> <span data-ttu-id="04bcc-235">（此占位符特定于外部礼品卡。）</span><span class="sxs-lookup"><span data-stu-id="04bcc-235">(This placeholder is specific to external gift cards.)</span></span> |
+| <span data-ttu-id="04bcc-236">giftcardexpiration</span><span class="sxs-lookup"><span data-stu-id="04bcc-236">giftcardexpiration</span></span>             | <span data-ttu-id="04bcc-237">礼品卡类型产品的礼品卡到期日期。</span><span class="sxs-lookup"><span data-stu-id="04bcc-237">The expiration date of the gift card, for products of the gift card type.</span></span> <span data-ttu-id="04bcc-238">（此占位符特定于外部礼品卡。）</span><span class="sxs-lookup"><span data-stu-id="04bcc-238">(This placeholder is specific to external gift cards.)</span></span> |
+| <span data-ttu-id="04bcc-239">giftcardrecipientname</span><span class="sxs-lookup"><span data-stu-id="04bcc-239">giftcardrecipientname</span></span>          | <span data-ttu-id="04bcc-240">礼品卡类型产品的礼品卡接收人姓名。</span><span class="sxs-lookup"><span data-stu-id="04bcc-240">The name of the gift card recipient, for products of the gift card type.</span></span> |
+| <span data-ttu-id="04bcc-241">giftcardbuyername</span><span class="sxs-lookup"><span data-stu-id="04bcc-241">giftcardbuyername</span></span>              | <span data-ttu-id="04bcc-242">礼品卡类型产品的礼品卡购买者姓名。</span><span class="sxs-lookup"><span data-stu-id="04bcc-242">The name of the gift card buyer, for products of the gift card type.</span></span> |
+
+### <a name="format-of-order-line-placeholders-in-the-email-message-body"></a><span data-ttu-id="04bcc-243">电子邮件正文中的订单行占位符的格式</span><span class="sxs-lookup"><span data-stu-id="04bcc-243">Format of order line placeholders in the email message body</span></span>
+
+<span data-ttu-id="04bcc-244">为电子邮件正文中的单个订单行创建 HTML 时，在行的重复 HTML 块和占位符两侧加上放到 HTML 注释标记内的以下占位符。</span><span class="sxs-lookup"><span data-stu-id="04bcc-244">When you create the HTML for the individual order lines in the email message body, surround the repeating block of HTML and placeholders for the lines with the following placeholders that are put inside HTML comment tags.</span></span>
+
+```html
+<!--%tablebegin.salesline%-->
+
+(Insert the repeating block of HTML and placeholders for individual lines here.)
+
+<!--%tableend.salesline%-->
+```
+
+<span data-ttu-id="04bcc-245">下面是一个示例。</span><span class="sxs-lookup"><span data-stu-id="04bcc-245">Here is an example.</span></span>
+
+```HTML
+<table>
+    <tr>
+        <td>Product name</td>
+        <td>Quantity</td>
+        <td>Price</td>
+    </tr>
+    <!--%tablebegin.salesline%-->
+    <tr>
+        <td>%lineproductname%</td>
+        <td>%linequantity_withoutunit%</td>
+        <td>%lineprice%</td>
+    </tr>
+    <!--%tableend.salesline%-->
+</table>
+```
+
+## <a name="create-a-template-for-emailed-receipts"></a><span data-ttu-id="04bcc-246">为通过电子邮件发送的收据创建模板</span><span class="sxs-lookup"><span data-stu-id="04bcc-246">Create a template for emailed receipts</span></span>
+
+<span data-ttu-id="04bcc-247">可以通过电子邮件将收据发给在销售点 (POS) 进行购买的客户。</span><span class="sxs-lookup"><span data-stu-id="04bcc-247">Receipts can be emailed to customers who make purchases at a retail point of sale (POS).</span></span> <span data-ttu-id="04bcc-248">通过电子邮件发送的收据模板的创建步骤与其他交易事件的模板的创建步骤相同。</span><span class="sxs-lookup"><span data-stu-id="04bcc-248">In general, the steps for creating the emailed receipt template are the same as the steps for creating templates for other transactional events.</span></span> <span data-ttu-id="04bcc-249">但是需要进行以下更改：</span><span class="sxs-lookup"><span data-stu-id="04bcc-249">However, the following changes are required:</span></span>
+
+- <span data-ttu-id="04bcc-250">电子邮件模板的电子邮件 ID 必须为 **emailRecpt**。</span><span class="sxs-lookup"><span data-stu-id="04bcc-250">The email ID of the email template must be **emailRecpt**.</span></span>
+- <span data-ttu-id="04bcc-251">使用 **%message%** 占位符将收据的文本插入到电子邮件中。</span><span class="sxs-lookup"><span data-stu-id="04bcc-251">The text of the receipt is inserted into the email by using the **%message%** placeholder.</span></span> <span data-ttu-id="04bcc-252">若要确保正确显示收据正文，请在 **%message%** 占位符两侧添加 HTML **&lt;pre&gt;** 和 **&lt;/pre&gt;** 标记。</span><span class="sxs-lookup"><span data-stu-id="04bcc-252">To ensure that the receipt body is correctly rendered, surround the **%message%** placeholder with HTML **&lt;pre&gt;** and **&lt;/pre&gt;** tags.</span></span>
+- <span data-ttu-id="04bcc-253">将电子邮件页眉和页脚 HTML 中的换行符转换为 HTML **&lt;br /&gt;** 标记，以便正确显示收据正文。</span><span class="sxs-lookup"><span data-stu-id="04bcc-253">Line breaks in the HTML for the header and footer of the email are converted to HTML **&lt;br /&gt;** tags so that the receipt body is rendered correctly.</span></span> <span data-ttu-id="04bcc-254">若要杜绝收据电子邮件中不需要的垂直空格，请删除 HTML 中不需要垂直空格的任何位置的换行符。</span><span class="sxs-lookup"><span data-stu-id="04bcc-254">To eliminate unwanted vertical space in your receipt emails, remove line breaks from any place in the HTML where vertical space isn't required.</span></span>
+
+<span data-ttu-id="04bcc-255">有关如何配置电子邮件收据的详细信息，请参阅[设置电子邮件收据](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)。</span><span class="sxs-lookup"><span data-stu-id="04bcc-255">For more information about how to configure email receipts, see [Set up email receipts](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts).</span></span>
+
+## <a name="upload-the-email-html"></a><span data-ttu-id="04bcc-256">上传电子邮件 HTML</span><span class="sxs-lookup"><span data-stu-id="04bcc-256">Upload the email HTML</span></span>
+
+<span data-ttu-id="04bcc-257">创建和测试邮件正文的 HTML 之后，必须将其上传到 Commerce Headquarters。</span><span class="sxs-lookup"><span data-stu-id="04bcc-257">After you've created and tested the HTML for your message body, it must be uploaded to Commerce headquarters.</span></span> <span data-ttu-id="04bcc-258">现在不能导出电子邮件 HTML。</span><span class="sxs-lookup"><span data-stu-id="04bcc-258">Currently, email HTML can't be exported.</span></span> <span data-ttu-id="04bcc-259">因此，必须在 Commerce Headquarters 外部维护 HTML 的主副本。</span><span class="sxs-lookup"><span data-stu-id="04bcc-259">Therefore, you must maintain the master copy of your HTML outside Commerce headquarters.</span></span>
+
+<span data-ttu-id="04bcc-260">若要上传新的或编辑后的电子邮件模板 HTML，请执行以下步骤。</span><span class="sxs-lookup"><span data-stu-id="04bcc-260">To upload a new or edited email template HTML, follow these steps.</span></span>
+
+1. <span data-ttu-id="04bcc-261">在 Commerce Headquarters 中，转到 **Retail 和 Commerce \> Headquarters 设置 \> 组织电子邮件模板**。</span><span class="sxs-lookup"><span data-stu-id="04bcc-261">In Commerce headquarters, go to **Retail and Commerce \> Headquarters setup \> Organization email templates**.</span></span>
+1. <span data-ttu-id="04bcc-262">选择要为其添加或替换 HTML 的语言的行。</span><span class="sxs-lookup"><span data-stu-id="04bcc-262">Select the row for the language that you want to add or replace HTML for.</span></span> <span data-ttu-id="04bcc-263">也可以选择 **新建** 为新语言创建行。</span><span class="sxs-lookup"><span data-stu-id="04bcc-263">Alternatively, select **New** to create a row for a new language.</span></span>
+1. <span data-ttu-id="04bcc-264">选择 **编辑**。</span><span class="sxs-lookup"><span data-stu-id="04bcc-264">Select **Edit**.</span></span>
+1. <span data-ttu-id="04bcc-265">在显示的对话框中，选择 **浏览**。</span><span class="sxs-lookup"><span data-stu-id="04bcc-265">In the dialog box that appears, select **Browse**.</span></span> <span data-ttu-id="04bcc-266">浏览到要上传的 HTML 文档，选中，然后选择 **打开**。</span><span class="sxs-lookup"><span data-stu-id="04bcc-266">Browse to the HTML document that you want to upload, select it, and then select **Open**.</span></span>
+1. <span data-ttu-id="04bcc-267">选择 **上载**。</span><span class="sxs-lookup"><span data-stu-id="04bcc-267">Select **Upload**.</span></span>
+1. <span data-ttu-id="04bcc-268">预览窗口中显示您的电子邮件 HTML 之后，请选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="04bcc-268">After your email HTML appears in the preview window, select **OK**.</span></span>
+1. <span data-ttu-id="04bcc-269">确保为行选中 **有正文** 复选框。</span><span class="sxs-lookup"><span data-stu-id="04bcc-269">Make sure that the **Has body** check box is selected for the row.</span></span>
+
+<span data-ttu-id="04bcc-270">如果已经配置了 Commerce Headquarters 以发送电子邮件，将把您的新的或更新后的电子邮件发送给执行的交易将调用映射到模板的事件的所有客户。</span><span class="sxs-lookup"><span data-stu-id="04bcc-270">If you've already configured Commerce headquarters to send email, your new or updated email will be sent to all customers who perform a transaction that invokes the event that is mapped to the template.</span></span>
+
+<span data-ttu-id="04bcc-271">有关如何在 Dynamics 365 Commerce 中配置电子邮件的详细信息，请参阅[配置和发送电子邮件](../fin-ops-core/fin-ops/organization-administration/configure-email.md)。</span><span class="sxs-lookup"><span data-stu-id="04bcc-271">For more information about how to configure emails in Dynamics 365 Commerce, see [Configure and send email](../fin-ops-core/fin-ops/organization-administration/configure-email.md).</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="04bcc-272">其他资源</span><span class="sxs-lookup"><span data-stu-id="04bcc-272">Additional resources</span></span> 
+
+[<span data-ttu-id="04bcc-273">设置电子邮件通知配置文件</span><span class="sxs-lookup"><span data-stu-id="04bcc-273">Set up an email notification profile</span></span>](email-notification-profiles.md)
+
+[<span data-ttu-id="04bcc-274">配置和发送电子邮件</span><span class="sxs-lookup"><span data-stu-id="04bcc-274">Configure and send email</span></span>](../fin-ops-core/fin-ops/organization-administration/configure-email.md)
+
+[<span data-ttu-id="04bcc-275">设置电子邮件收据</span><span class="sxs-lookup"><span data-stu-id="04bcc-275">Set up email receipts</span></span>](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
+
+[<span data-ttu-id="04bcc-276">从 Modern POS 发送电子邮件收据</span><span class="sxs-lookup"><span data-stu-id="04bcc-276">Send email receipts from Modern POS </span></span>](email-receipts.md)

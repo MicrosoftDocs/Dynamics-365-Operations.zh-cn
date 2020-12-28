@@ -1,0 +1,54 @@
+---
+title: 处理生命事件更改
+description: 在 Microsoft Dynamics 365 Human Resources 中处理生命事件更改以进行生命事件更改。
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-human-resources
+ms.technology: ''
+ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: 7521
+ms.assetid: ''
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2020-02-03
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 39d1e94347809a1756fc4f66e5edc345c70eaf39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417408"
+---
+# <a name="process-life-event-changes"></a><span data-ttu-id="e74ea-103">处理生命事件更改</span><span class="sxs-lookup"><span data-stu-id="e74ea-103">Process life event changes</span></span>
+
+<span data-ttu-id="e74ea-104">在 Microsoft Dynamics 365 Human Resources 中处理生命事件更改以进行两项生命事件更改：</span><span class="sxs-lookup"><span data-stu-id="e74ea-104">Process life event changes in Microsoft Dynamics 365 Human Resources for two life event changes:</span></span>
+
+- <span data-ttu-id="e74ea-105">生日更改</span><span class="sxs-lookup"><span data-stu-id="e74ea-105">Birthday changes</span></span>
+- <span data-ttu-id="e74ea-106">资格规则覆盖到期更改</span><span class="sxs-lookup"><span data-stu-id="e74ea-106">Eligibility rule override expiration changes</span></span> 
+
+1. <span data-ttu-id="e74ea-107">在 **福利管理** 工作区中，在 **处理** 下，选择 **生命事件更改处理**。</span><span class="sxs-lookup"><span data-stu-id="e74ea-107">In the **Benefits management** workspace, under **Processing**, select **Life event change processing**.</span></span>
+
+2. <span data-ttu-id="e74ea-108">在 **运行生命事件更改流程** 对话框中，为以下字段指定值：</span><span class="sxs-lookup"><span data-stu-id="e74ea-108">In the **Run life event change process** dialog box, specify values for the following fields:</span></span>
+
+   | <span data-ttu-id="e74ea-109">字段</span><span class="sxs-lookup"><span data-stu-id="e74ea-109">Field</span></span> | <span data-ttu-id="e74ea-110">说明</span><span class="sxs-lookup"><span data-stu-id="e74ea-110">Description</span></span> |
+   | --- | --- |
+   | <span data-ttu-id="e74ea-111">登记期间</span><span class="sxs-lookup"><span data-stu-id="e74ea-111">Enrollment period</span></span> | <span data-ttu-id="e74ea-112">要处理其间的生命事件更改的登记期间。</span><span class="sxs-lookup"><span data-stu-id="e74ea-112">The enrollment period to process life event changes for.</span></span> |
+   | <span data-ttu-id="e74ea-113">法人</span><span class="sxs-lookup"><span data-stu-id="e74ea-113">Legal entity</span></span> | <span data-ttu-id="e74ea-114">要为其处理生命事件更改的法人。</span><span class="sxs-lookup"><span data-stu-id="e74ea-114">The legal entity to process life event changes for.</span></span> |
+
+3. <span data-ttu-id="e74ea-115">如果要在后台运行此流程，请选择 **在后台运行** 并执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="e74ea-115">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
+
+   1. <span data-ttu-id="e74ea-116">输入流程的信息。</span><span class="sxs-lookup"><span data-stu-id="e74ea-116">Enter information for the process.</span></span>
+
+   2. <span data-ttu-id="e74ea-117">要设置重复性作业，请选择 **重复**，输入重复信息，然后选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="e74ea-117">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
+
+   3. <span data-ttu-id="e74ea-118">要设置作业预警，请选择 **预警**，选择要接收的预警，然后选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="e74ea-118">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
+
+   4. <span data-ttu-id="e74ea-119">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="e74ea-119">Select **OK**.</span></span> <span data-ttu-id="e74ea-120">流程将使用您设置的参数运行。</span><span class="sxs-lookup"><span data-stu-id="e74ea-120">The process will run with the parameters you set.</span></span>
+
+4. <span data-ttu-id="e74ea-121">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="e74ea-121">Select **OK**.</span></span>
