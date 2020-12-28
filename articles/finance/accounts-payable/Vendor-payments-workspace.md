@@ -18,11 +18,11 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 39a9ba54ba26db5904c2cd519be9f83bbc68c037
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022511"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "4440926"
 ---
 # <a name="vendor-payments-workspace"></a>供应商付款工作区
 
@@ -33,10 +33,10 @@ ms.locfileid: "4022511"
 ## <a name="setup-needed-to-view-power-bi-content"></a>查看 Power BI 内容所需设置
 
 需要完成以下设置，才能在 **供应商付款** Power BI 视觉对象中显示数据。
-1. 转到 **系统管理 > 设置 > 系统参数** 以设置 **系统币种** 和 **系统汇率** 。
+1. 转到 **系统管理 > 设置 > 系统参数** 以设置 **系统币种** 和 **系统汇率**。
 2. 转到 **总帐 > 日历 > 会计日历** 验证分配到有效时段的会计日历日期。
-3. 转到 **总帐 > 设置 > 分类帐** 以设置 **记帐币种** 和 **汇率类型** 。 
-4. 定义交易币种与记帐币种和记帐币种与系统币种之间的汇率。 方法是，转到 **总帐 > 币种 > 币种汇率** 。
+3. 转到 **总帐 > 设置 > 分类帐** 以设置 **记帐币种** 和 **汇率类型**。 
+4. 定义交易币种与记帐币种和记帐币种与系统币种之间的汇率。 方法是，转到 **总帐 > 币种 > 币种汇率**。
 5. 转到 **系统管理 > 设置 > 实体商店** 以刷新 **VendPaymentBIMeasureV2** 聚合度量。
 
 ## <a name="my-work-view"></a>我的工作视图
@@ -61,7 +61,7 @@ ms.locfileid: "4022511"
 
 ## <a name="analytics-page"></a>分析页
 
-**分析** 页提供重要指标，例如逾期的供应商发票和在将来到期的供应商发票。 此页包含九个报表页。 一页提供概览，另外八页提供关于应付账款付款指标的详细信息。
+**分析** 页提供重要指标，例如逾期的供应商发票和在将来到期的供应商发票。 此页包含九个报表页。 一页提供概览，另外八页提供关于应付帐款付款指标的详细信息。
 
 下表显示在每个报表页上可用的可视化项。
 

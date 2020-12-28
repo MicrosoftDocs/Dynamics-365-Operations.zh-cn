@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 104233
 ms.assetid: 2a2ffa1e-5a15-4e2a-b18c-c4d890d38a50
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.openlocfilehash: 930c744ff2a28451d4267f060867b4b6474d45e7
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: d17c038081b5c9b94337549334c2c61421dc01ff
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811570"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694957"
 ---
 # <a name="new-or-updated-task-guides-may-2016"></a>新的或更新任务指南（2016 年 5 月）
 
@@ -49,7 +48,7 @@ ms.locfileid: "2811570"
 | FR-00003 NAF 代码和 Siret 编号                                     | 法国                            |
 | FR-00004 审核和过帐签发汇票                          | 法国                            |
 | 配置累计折旧参数和过帐模板       | 日本                             |
-| 配置合并的发票参数和应付账款的设置 | 日本                             |
+| 配置合并的发票参数和应付帐款的设置 | 日本                             |
 | 创建一个加速折旧文档并输入使用数据         | 日本                             |
 | 创建 CGU 组和现金产出单元                               | 日本                             |
 | 处理具有缩减条目的固定资产                            | 日本                             |

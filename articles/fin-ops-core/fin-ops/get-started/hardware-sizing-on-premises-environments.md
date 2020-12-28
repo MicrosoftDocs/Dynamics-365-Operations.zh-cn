@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 8fa644f35a086af99cde74fd6a2062f9b59a6ff7
-ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
+ms.openlocfilehash: b89135cd9e951e690e53c1b4bf98dfcb03f2d652
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "2870256"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694461"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>针对本地环境的硬件规模调整要求
 

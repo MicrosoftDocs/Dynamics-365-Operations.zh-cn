@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
 ms.openlocfilehash: 1b59fdbdd9ed46f42afd3e7310d2cd3f076edd95
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006371"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460497"
 ---
 # <a name="get-the-onboard-app"></a>获取 Onboard 应用
 
@@ -63,9 +63,9 @@ ms.locfileid: "3006371"
 
 ## <a name="try-the-walkthrough"></a>尝试演练
 
-首次打开 Onboard 时，您可以选择**开始演练**以开始使用工作模板。
+首次打开 Onboard 时，您可以选择 **开始演练** 以开始使用工作模板。
 
-如果您跳过演练，可以稍后通过选择**帮助**按钮 (**?**) 然后选择**开始**来访问演练。
+如果您跳过演练，可以稍后通过选择 **帮助** 按钮 (**?**) 然后选择 **开始** 来访问演练。
 
 ![[开始 Onboard 演练](./media/onboard-start-walkthrough.png)](./media/onboard-start-walkthrough.png)
 
@@ -75,7 +75,7 @@ ms.locfileid: "3006371"
 
 1. 打开 [Microsoft 登录页面](https://portal.office.com/)。
 2. 出现提示时，输入您的 Microsoft 365 电子邮件地址和密码。
-3. 如果您看到建议让您在**为您推荐**下添加您自己的域，请选择**查看建议**，然后按照提示操作。 如果您没有看到建议，请在左侧菜单中选择**全部显示**，选择**设置**，选择**域**，然后选择**添加域**或**购买域**。 然后按照提示操作。
+3. 如果您看到建议让您在 **为您推荐** 下添加您自己的域，请选择 **查看建议**，然后按照提示操作。 如果您没有看到建议，请在左侧菜单中选择 **全部显示**，选择 **设置**，选择 **域**，然后选择 **添加域** 或 **购买域**。 然后按照提示操作。
 
 ## <a name="next-steps"></a>后续步骤
 

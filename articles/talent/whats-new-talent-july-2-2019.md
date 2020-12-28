@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 2aaf64fe1ebdaad8ec9b84615dbb8d48616f9a3a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899004"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460504"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-02-2019"></a>Dynamics 365 Talent（2019 年 7 月 2 日）新增功能或更改
 
@@ -46,7 +46,7 @@ ms.locfileid: "2899004"
 ### <a name="coming-soon-in-attract"></a>Attract 中即将推出
 #### <a name="job-approvals-appear-on-the-home-page"></a>主页中显示工作审核
 
-仪表板的**审核**部分中将显示审核。 审核人可以在**已分配给您**（其中显示工作 ID、工作头衔、其他审核人和作业的分配日期）下查看自己的审核。 提交待审核工作的用户可以在**您请求的**（其中显示仍然必须审核提交的工作的审核者）下查看自己的工作。
+仪表板的 **审核** 部分中将显示审核。 审核人可以在 **已分配给您**（其中显示工作 ID、工作头衔、其他审核人和作业的分配日期）下查看自己的审核。 提交待审核工作的用户可以在 **您请求的**（其中显示仍然必须审核提交的工作的审核者）下查看自己的工作。
 
 ## <a name="changes-in-onboard"></a>Onboard 中的更改
 

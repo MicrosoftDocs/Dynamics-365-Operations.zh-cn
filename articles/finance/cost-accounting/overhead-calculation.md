@@ -20,11 +20,11 @@ ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 923e6e38a664e17ec3349d839c4b77ec903c5dc2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976467"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440864"
 ---
 # <a name="overhead-calculation"></a>开销计算
 
@@ -80,7 +80,7 @@ ms.locfileid: "3976467"
 
 ### <a name="step-1-process-the-cost-behavior-calculation"></a>步骤 1：处理成本行为计算
 
-默认情况下，当成本条目从源数据导入时，它们在成本核算中接收**未分类**成本行为分类。 通过应用成本行为政策规则，您可以将成本条目重新分类为**固定成本**或**可变成本**。
+默认情况下，当成本条目从源数据导入时，它们在成本核算中接收 **未分类** 成本行为分类。 通过应用成本行为政策规则，您可以将成本条目重新分类为 **固定成本** 或 **可变成本**。
 
 #### <a name="define-the-cost-behavior-rule"></a>定义成本行为规则
 

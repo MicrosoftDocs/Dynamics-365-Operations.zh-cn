@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd53ece77b08fc9723c838da5ba08bf3825b5e56
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 13884182cb986564e81f310993747997341ffc07
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743703"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682934"
 ---
 # <a name="right-er-function"></a>RIGHT ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`RIGHT` 函数返回*字符串*值，该值在指定字符串的末尾显示指定的字符数量。
+`RIGHT` 函数返回 *字符串* 值，该值在指定字符串的末尾显示指定的字符数量。
 
 ## <a name="syntax"></a>语法
 
@@ -41,7 +40,7 @@ RIGHT (text, number)
 
 `text`：*字符串*
 
-代表原始文本的*字符串*值。
+代表原始文本的 *字符串* 值。
 
 `number`：*整数*
 

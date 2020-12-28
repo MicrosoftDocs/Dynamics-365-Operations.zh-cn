@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 196043
 ms.assetid: dfdae2b8-6a4f-4760-b339-b755c66f3f89
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c64c0fab6a020684e768cf2720af27cdb89c1e44
-ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
+ms.openlocfilehash: e67a2c7cde3a3b6d1dcfcc2ccdd3255d30ac40b8
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3698161"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693322"
 ---
 # <a name="configure-parallel-branches-in-a-workflow"></a>配置工作流中的并行分支
 
@@ -36,10 +35,10 @@ ms.locfileid: "3698161"
 
 按照以下步骤为并行分支输入名称。
 
-1. 右键单击并行分支，然后单击**属性**。 将显示**属性**窗体。
-2. 在左侧窗格中，单击**基本设置**。
-3. 在**名称**字段中，为该并行分支输入唯一名称。
-4. 单击**关闭**。
+1. 右键单击并行分支，然后单击 **属性**。 将显示 **属性** 窗体。
+2. 在左侧窗格中，单击 **基本设置**。
+3. 在 **名称** 字段中，为该并行分支输入唯一名称。
+4. 单击 **关闭**。
 
 ## <a name="design-and-configure-the-elements-of-a-branch"></a>设计和配置分支的元素
 

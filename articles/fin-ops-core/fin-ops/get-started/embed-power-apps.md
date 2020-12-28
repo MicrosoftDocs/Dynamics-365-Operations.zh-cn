@@ -3,7 +3,7 @@ title: 从 Power Apps 嵌入画布应用
 description: 此主题说明如何将 Microsoft Power Apps 中的画布应用嵌入到客户端以细分该产品的功能。
 author: jasongre
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 11/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: FormRunConfigurationAddPAControl, FormRunConfigurationEditPAControl
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: e57e4567a80aa9f9ba5ac434b0d71204460e164f
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: ba3b736aeae8540349309ddd82bd431720b9701c
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893099"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693475"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>从 Power Apps 嵌入画布应用
 
@@ -49,20 +48,20 @@ Microsoft Power Apps 是一项服务，让开发人员和非技术用户无需�
 以下过程显示了如何将 Power Apps 中的画布应用嵌入到 Web 客户端。
 
 1. 转到您要嵌入画布应用的页面。 此页面将是包含必须作为输入传递到应用的数据的页面。
-2. 打开**从 Power Apps 中添加应用**窗格：
+2. 打开 **从 Power Apps 中添加应用** 窗格：
 
-    - 单击**选项**，然后选择**个性化设置此页面**。 在**插入**菜单下，选择 **Power Apps**。 最后，选择要添加应用的区域。 如果要在 Power Apps 菜单按钮下嵌入应用，选择操作窗格。 如果要将应用直接嵌入到页面上，选择相应的选项卡、快速选项卡、边栏选项卡或部分（如果您处于工作区）。
-    - 如果将使用 Power Apps 菜单按钮访问应用，您可以单击标准操作窗格中的 **Power Apps** 菜单按钮，然后选择**添加应用**。
+    - 单击 **选项**，然后选择 **个性化设置此页面**。 在 **插入** 菜单下，选择 **Power Apps**。 最后，选择要添加应用的区域。 如果要在 Power Apps 菜单按钮下嵌入应用，选择操作窗格。 如果要将应用直接嵌入到页面上，选择相应的选项卡、快速选项卡、边栏选项卡或部分（如果您处于工作区）。
+    - 如果将使用 Power Apps 菜单按钮访问应用，您可以单击标准操作窗格中的 **Power Apps** 菜单按钮，然后选择 **添加应用**。
 
 3. 配置嵌入的应用：
 
-    - **名称**字段指示为将包含嵌入的应用的按钮或选项卡显示的文本。 通常，您可能要在此字段中重复应用的名称。
-    - **应用 ID** 字段表示要嵌入的画布应用的全局唯一标识符 (GUID)。 若要检索此值，在 [web.powerapps.com](https://web.powerapps.com) 上找到应用，然后在**详细信息**下查找**应用 ID** 字段。
-    - 对于**应用的输入上下文**，您可以有选择性地选择包含您要作为输入传送到应用的数据的字段。 请参阅本主题后面名为[构建利用从 Finance and Operations 应用发送的数据的应用](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps)部分，了解有关应用如何访问发送自 Finance and Operations 应用的数据的详细信息。
-    - 选择与您嵌入的应用类型匹配的**应用程序大小**。 为针对移动设备构建的应用选择**窄**，为平板电脑构建的应用选择**宽**。 这将确保为嵌入的应用分配足够的空间量。
-    - **法人**快速选项卡提供选择应用可用于哪些法人的功能。 默认让所有法人都能访问应用。 此选项仅在[保存的视图](saved-views.md)功能已禁用时才可用。 
+    - **名称** 字段指示为将包含嵌入的应用的按钮或选项卡显示的文本。 通常，您可能要在此字段中重复应用的名称。
+    - **应用 ID** 字段表示要嵌入的画布应用的全局唯一标识符 (GUID)。 若要检索此值，在 [make.powerapps.com](https://make.powerapps.com) 上找到应用，然后在 **详细信息** 下查找 **应用 ID** 字段。
+    - 对于 **应用的输入上下文**，您可以有选择性地选择包含您要作为输入传送到应用的数据的字段。 请参阅本主题后面名为[构建利用从 Finance and Operations 应用发送的数据的应用](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps)部分，了解有关应用如何访问发送自 Finance and Operations 应用的数据的详细信息。
+    - 选择与您嵌入的应用类型匹配的 **应用程序大小**。 为针对移动设备构建的应用选择 **窄**，为平板电脑构建的应用选择 **宽**。 这将确保为嵌入的应用分配足够的空间量。
+    - **法人** 快速选项卡提供选择应用可用于哪些法人的功能。 默认让所有法人都能访问应用。 此选项仅在[保存的视图](saved-views.md)功能已禁用时才可用。 
 
-4. 在确认配置正确后，请单击**插入**在页面上嵌入 Power App。 系统将提示您刷新浏览器以查看嵌入的应用。
+4. 在确认配置正确后，请单击 **插入** 在页面上嵌入 Power App。 系统将提示您刷新浏览器以查看嵌入的应用。
 
 ## <a name="sharing-an-embedded-app"></a>共享嵌入的应用
 
@@ -100,19 +99,19 @@ If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsI
 
 执行以下步骤来编辑嵌入的应用的配置：
 
-1. 转到**编辑应用**窗格。
+1. 转到 **编辑应用** 窗格。
 
-    - 如果嵌入的应用通过 Power Apps 菜单按钮访问，右键单击 Power Apps 菜单按钮并选择**个性化**。 选择您想要从**选择应用**下拉菜单配置的应用。
-    - 如果嵌入的应用直接出现在页面上，选择**选项**，然后选择**个性化设置此页面**。 使用**选择**工具，单击嵌入的应用。
+    - 如果嵌入的应用通过 Power Apps 菜单按钮访问，右键单击 Power Apps 菜单按钮并选择 **个性化**。 选择您想要从 **选择应用** 下拉菜单配置的应用。
+    - 如果嵌入的应用直接出现在页面上，选择 **选项**，然后选择 **个性化设置此页面**。 使用 **选择** 工具，单击嵌入的应用。
 
-2. 对应用配置进行需要的修改，然后单击**保存**。
+2. 对应用配置进行需要的修改，然后单击 **保存**。
 
 ## <a name="removing-an-app"></a>移除应用
 
 在应用嵌入到页面上后，如果需要，有两种方法可以删除它：
 
-- 使用此主题前面[编辑嵌入的应用](#editing-an-embedded-app)部分中的说明转到**编辑应用**窗格。 确认窗格显示您要删除的嵌入应用的信息，然后单击**删除**按钮。
-- 由于嵌入的应用保存为个性化数据，清除页面的个性化也将删除该页面上所有嵌入的应用。 请注意，清除页面的个性化是永久的，并且无法撤消。 若要删除您的页面上的个性化设置，依次选择**选项**、**个性化设置此页面**和**清除**。 刷新您的浏览器后，将删除此页之前的所有个性化设置。 请参阅[打造个性化的用户体验](personalize-user-experience.md)了解有关如何使用个性化设置优化页面的更多信息。
+- 使用此主题前面 [编辑嵌入的应用](#editing-an-embedded-app)部分中的说明转到 **编辑应用** 窗格。 确认窗格显示您要删除的嵌入应用的信息，然后单击 **删除** 按钮。
+- 由于嵌入的应用保存为个性化数据，清除页面的个性化也将删除该页面上所有嵌入的应用。 请注意，清除页面的个性化是永久的，并且无法撤消。 若要删除您的页面上的个性化设置，依次选择 **选项**、**个性化设置此页面** 和 **清除**。 刷新您的浏览器后，将删除此页之前的所有个性化设置。 请参阅[打造个性化的用户体验](personalize-user-experience.md)了解有关如何使用个性化设置优化页面的更多信息。
 
 ## <a name="appendix"></a>附录
 

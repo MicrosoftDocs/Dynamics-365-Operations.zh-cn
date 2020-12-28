@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51f04e553da822c4e09d31bcd72c71b674ad1f1b
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: e714be06984f399235f0799ef077a92deae64d9e
+ms.sourcegitcommit: b0aa724a18ab1fbb5a62925f048c54b2c676ebf4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930009"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4476069"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams 中的 Human Resources 应用
 
 [!include [banner](includes/preview-feature.md)]
 
-员工可通过 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用在 Microsoft Teams 中快速请假和查看自己的请假余额信息。 员工可以与机器人交互以请求信息。 **休假**选项卡提供更详细信息。 此外，他们可以在 Human Resources 应用之外在团队和聊天中发送有关近期休假的人员信息。
+员工可通过 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用在 Microsoft Teams 中快速请假和查看自己的请假余额信息。 员工可以与机器人交互以请求信息。 **休假** 选项卡提供更详细信息。 此外，他们可以在 Human Resources 应用之外在团队和聊天中发送有关近期休假的人员信息。
 
 ![Human Resources Teams 休假应用机器人](./media/hr-admin-teams-leave-app-bot.png)
 
@@ -50,17 +50,17 @@ ms.locfileid: "3930009"
 >[!NOTE]
 >只有已登录 Teams 且使用 Human Resources Teams 应用的用户才会收到通知。
 
-1. 在 Human Resources 中，选择**系统管理**。
+1. 在 Human Resources 中，选择 **系统管理**。
 
-2. 选择**链接**。
+2. 选择 **链接**。
 
-3. 在**设置**下，选择**系统参数**。
+3. 在 **设置** 下，选择 **系统参数**。
 
-4. 在**常规**选项卡中，将**启用 Teams 应用通知**设置为**是**。
+4. 在 **常规** 选项卡中，将 **启用 Teams 应用通知** 设置为 **是**。
 
    ![在系统参数中启用 Teams 应用通知](./media/hr-admin-teams-leave-app-enable-notifications.png)
 
-5. 若要为所有用户打开 Teams 通知，请在提示符处选择**是**。
+5. 若要为所有用户打开 Teams 通知，请在提示符处选择 **是**。
 
    ![为所有用户启用 Teams 通知](./media/hr-admin-teams-leave-app-notifications-all-users.png)
 
@@ -68,27 +68,26 @@ ms.locfileid: "3930009"
 
 启用 Human Resources Teams 应用通知最后，可以为单个用户打开或关闭通知。
 
-1. 在 Human Resources 中，选择**系统管理**。
+1. 在 Human Resources 中，选择 **系统管理**。
 
-2. 选择**链接**。
+2. 选择 **链接**。
 
-3. 在**用户**下，选择**用户选项**。
+3. 在 **用户** 下，选择 **用户选项**。
 
-4. 选择**工作流**选项卡。
+4. 选择 **工作流** 选项卡。
 
-5. 将**启用 Teams 应用通知**设置为**是**为用户启用通知，或设置为**否**为用户禁用通知。
+5. 将 **启用 Teams 应用通知** 设置为 **是** 为用户启用通知，或设置为 **否** 为用户禁用通知。
 
    ![在“用户选项工作流”选项卡中启用 Teams 应用通知](./media/hr-admin-teams-leave-app-notifications.png)
 
-6. 选择**保存**。
+6. 选择 **保存**。
 
 ## <a name="known-issues"></a>已知问题
 
 | 签发 | 状态 |
 | --- | --- |
-| 水平滚动不适用于 Android 手机 | 水平滚动在 iOS 或台式机设备上不是问题。 我们正在解决 Android 上的问题。 |
 | 提交将来日期的请假时，余额不正确。 | 预测尚不可用。 显示当前日期的余额。 |
-| 不能取消**审查中**请求。 | 现在不支持此功能，将来的版本中将增加此功能。 |
+| 不能取消 **审查中** 请求。 | 现在不支持此功能，将来的版本中将增加此功能。 |
 | 将计算截止当天的余额信息。 | 系统现在不显示截止实际期间的余额，即使已在“休假和缺勤”参数中配置。 |
 
 ## <a name="troubleshooting"></a>疑难解答

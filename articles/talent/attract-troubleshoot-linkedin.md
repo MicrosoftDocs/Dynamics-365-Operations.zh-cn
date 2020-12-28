@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
 ms.openlocfilehash: ec095642f556b8d0087dd22f35097671a30047a6
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898495"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460413"
 ---
 # <a name="troubleshoot-integration-with-linkedin-and-attract"></a>与 LinkedIn 和 Attract 集成疑难解答
 

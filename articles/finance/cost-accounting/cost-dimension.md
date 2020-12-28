@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: d61358be79adc943572bb4a5d624cb7c80b52e6e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977663"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440781"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>创建维度并导入维度成员
 
@@ -35,7 +35,7 @@ ms.locfileid: "3977663"
 -  成本对象
 -  统计维度
 
-一个**成本元素**对应于会计科目表的成本相关物料。 **成本对象**对应于任何类型的财务维度，例如您要估算、分配成本或直接衡量的产品、成本中心和项目。 **统计维度**及其成员用于登记非货币条目。 统计维度成员可用作成本分配和成本分摊中的分配基础 
+一个 **成本元素** 对应于会计科目表的成本相关物料。 **成本对象** 对应于任何类型的财务维度，例如您要估算、分配成本或直接衡量的产品、成本中心和项目。 **统计维度** 及其成员用于登记非货币条目。 统计维度成员可用作成本分配和成本分摊中的分配基础 
 
 下图说明在成本核算中使用的维度。
 

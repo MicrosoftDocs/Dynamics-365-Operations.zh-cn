@@ -11,26 +11,25 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 791038981e88d0f52026bfb17d2d1fa381f28c46
-ms.sourcegitcommit: 41e165482b9bff4175c0e3b224dbeead13461956
+ms.openlocfilehash: 2333cfc21a16a5905acadd590982020fdf878330
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3687999"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682259"
 ---
 # <a name="listdistinct-er-function"></a>LISTDISTINCT ER 函数
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
 
-`LISTDISTINCT` 函数将指定表达式计算为指定列表的每个记录的选择器。 将返回新的*记录列表*值，其中包含每个唯一选择器值的单个记录。
+`LISTDISTINCT` 函数将指定表达式计算为指定列表的每个记录的选择器。 将返回新的 *记录列表* 值，其中包含每个唯一选择器值的单个记录。
 
 ## <a name="syntax"></a>语法
 
@@ -42,7 +41,7 @@ LISTDISTINCT (list, selector)
 
 `list`：*记录列表*
 
-*记录列表*数据类型的数据源的有效路径。
+*记录列表* 数据类型的数据源的有效路径。
 
 `selector`：*原始数据类型*
 
@@ -71,7 +70,7 @@ LISTDISTINCT (list, selector)
 
 可能会为指定列表中的多个记录计算相同的选择器值。 在这种情况下，创建的列表中相应记录的字段值，等于为其计算选择器值的指定列表中第一个记录的值。
 
-此函数的执行在内存中存在的*记录列表*类型的任意[电子报告 (ER)](general-electronic-reporting.md) 数据源上进行。
+此函数的执行在内存中存在的 *记录列表* 类型的任意[电子报告 (ER)](general-electronic-reporting.md) 数据源上进行。
 
 **GROUPBY** 数据源还可用于生成为其计算具有不同值的选择器的记录列表。 但是，从性能和内存消耗角度看，使用 `LISTDISTINCT` 函数比使用 **GROUPBY** 数据源更好，因为此函数的执行在内存中进行。
 

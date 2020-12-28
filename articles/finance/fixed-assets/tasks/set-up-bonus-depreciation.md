@@ -17,11 +17,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 91243a4cee44410a221902990d31a10f1805eb08
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138245"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440674"
 ---
 # <a name="set-up-bonus-depreciation"></a>设置额外折旧
 

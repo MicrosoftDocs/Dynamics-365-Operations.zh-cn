@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 55260a4d25f41bc649f5e1f1f8c950c6b438ecfb
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 20ee5d1bb624943d1ee67bbf2e7b5ecef1d59e9d
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144033"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693080"
 ---
 # <a name="develop-and-open-job-requisition"></a>制订和开放工作申请
 

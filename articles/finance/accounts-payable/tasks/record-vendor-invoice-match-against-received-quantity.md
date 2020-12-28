@@ -17,11 +17,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: aa79ab46e9fdc6f8a2b4524d372949314ac2d200
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143844"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440698"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>记录供应商发票和匹配接收的数量
 
@@ -29,9 +29,9 @@ ms.locfileid: "3143844"
 
 在您从供应商处收到针对采购订单上的货物或服务的发票时，该业务流程可能要求首先接收货物或服务，然后才能对发票进行审核以便付款。 在您开始前，请确保选择发票匹配 Configuration Key。 
 
-在应付账款参数页面，确保已选择“启用发票匹配验证”选项，已设置“过帐发票差异”字段为“请求批准”，以及已设置“行匹配政策”字段为三向匹配。
+在应付帐款参数页面，确保已选择“启用发票匹配验证”选项，已设置“过帐发票差异”字段为“请求批准”，以及已设置“行匹配政策”字段为三向匹配。
 
-该程序适用于 USMF 演示公司。 应付账款经理或会计经理将执行以下步骤。
+该程序适用于 USMF 演示公司。 应付帐款经理或会计经理将执行以下步骤。
 
 
 ## <a name="create-a-purchase-order"></a>创建采购订单

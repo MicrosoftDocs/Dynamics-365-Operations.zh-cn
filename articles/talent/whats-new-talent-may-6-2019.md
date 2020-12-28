@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f06d989ea4e927111729dfbd4bb7700745a16a54
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: c04af27bcc446b516f14125e71fb707bfd1d7708
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897503"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529700"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-may-6-2019"></a>Dynamics 365 Talent（2019 年 5 月 6 日）中的新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
@@ -43,9 +45,9 @@ ms.locfileid: "2897503"
 
 本部分中的更改适用于内部版本号 8.1.2282。 某些标题中括号内的数字是 Microsoft Dynamics Lifecycle Services (LCS) 中的支持号码。
 
-### <a name="platform-update-26-for-finance-and-operations"></a>Finance and Operations 的平台更新 26
+### <a name="platform-update-26-for-finance-and-operations"></a>Finance and Operations 平台更新 26
 
-有关 Finance and Operations 的平台更新 26 的更多详细信息，请参阅 [Dynamics 365 Finance and Operations 平台更新 26（2019 年 5 月）的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26)。 
+有关 Finance and Operations 平台更新 26 的其他详细信息，请参阅 [Dynamics 365 Finance and Operations 平台更新 26（2019 年 5 月）中的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26)。 
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Common Data Service 实体对自定义字段的支持
 
@@ -61,7 +63,7 @@ ms.locfileid: "2897503"
 
 ### <a name="dimension-fields-arent-updated-when-using-open-in-excel-176261"></a>使用“在 Excel 中打开”时不更新维度字段 (176261)
 
-在此版本中，现在可从**工作人员**页面中使用**在 Excel 中打开**更新财务维度。 
+在此版本中，现在可从 **工作人员** 页面中使用 **在 Excel 中打开** 更新财务维度。 
 
 ### <a name="worker-address-created-in-common-data-service-isnt-synced-to-talent-317555"></a>Common Data Service 中创建的工作人员地址不同步到 Talent (317555)
 
@@ -72,7 +74,7 @@ ms.locfileid: "2897503"
 
 ### <a name="new-page-to-validate-position-hierarchy-data"></a>用于验证职位层次结构数据的新页面
 
-人力资源 (HR) 和管理员现在可以验证管理层次结构以查找任何可能已无意导入的循环引用。 可从**组织管理 > 链接 > 职位 > 职位层次结构验证**访问这个新页面。
+人力资源 (HR) 和管理员现在可以验证管理层次结构以查找任何可能已无意导入的循环引用。 可从 **组织管理 > 链接 > 职位 > 职位层次结构验证** 访问这个新页面。
 
 ### <a name="specify-reason-codes-on-leave-types"></a>指定休假类型的原因代码
 
@@ -90,4 +92,4 @@ ms.locfileid: "2897503"
 
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>配置 Talent 时指示实例类型
 
-配置新的 Talent 时，可以指示实例类型为**生产**还是**沙盒**，这样就可以提前测试新功能。 将把所有现有 Talent 实例更新为生产实例类型。 如果需要将现有实例之一更新为沙盒实例类型，请联系支持以发起更改请求。
+配置新的 Talent 时，可以指示实例类型为 **生产** 还是 **沙盒**，这样就可以提前测试新功能。 将把所有现有 Talent 实例更新为生产实例类型。 如果需要将现有实例之一更新为沙盒实例类型，请联系支持以发起更改请求。

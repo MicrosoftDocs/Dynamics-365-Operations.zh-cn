@@ -18,20 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9787df5f36c1f08ade40e3e8fc5d5189e3bd5b0
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 28eecb6289e5e895e860cffa29a55e773c6aadaa
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3711932"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528709"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Dynamics 365 Human Resources（2020 年 6 月 23 日）新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Human Resources 中的新增功能和更改的功能。 更改适用于内部版本号 8.1.3347。 某些标题中括号内的数字是 LCS 支持号码，供您参考。
 
 ## <a name="when-an-enrollment-is-expired-for-a-terminated-employee-the-leave-type-balance-and-amount-are-all-cleared-in-the-leave-enrollment-form-444867"></a>当已离职员工的等记到期时，将彻底清除休假等记表中的休假类型、余额和数量 (444867)
 
-现在在进行此项选择之后，将保留**休假类型**、**余额**和**数量**中的值，而不是清除。
+现在在进行此项选择之后，将保留 **休假类型**、**余额** 和 **数量** 中的值，而不是清除。
 
 ## <a name="incorrect-forecasted-balance-when-new-feature-leave-accrual-for-a-single-company-or-a-single-plan-is-enabled-456553"></a>启用了新功能（单个公司或单个计划的休假应计）时，预测余额不正确 (456553)
 
@@ -47,7 +49,7 @@ ms.locfileid: "3711932"
  
 ## <a name="inconsistency-in-showing-compensation-management-data-432562"></a>薪酬管理数据显示不一致 (432562)
 
-现在经理自助服务中薪酬数据的视图保持一致。 薪酬数据现在可以按照您导航到工作人员**薪酬详细信息**的方式一致地对经理显示。
+现在经理自助服务中薪酬数据的视图保持一致。 薪酬数据现在可以按照您导航到工作人员 **薪酬详细信息** 的方式一致地对经理显示。
  
 ## <a name="fixed-compensation-plans-effective-date-defaults-to-todays-date-411994"></a>固定薪酬计划的生效日期默认为当天日期 (411994)
 
@@ -55,7 +57,7 @@ ms.locfileid: "3711932"
 
 ## <a name="leave-and-absence-form-enable-half-day-definition-is-disabled-when-form-opens-452607"></a>休假和缺勤窗体打开时禁用该窗体的“启用半天定义” (452607)
 
-进行此更改之后，将启用**启用半天定义**，直到出现新的休假事务。 
+进行此更改之后，将启用 **启用半天定义**，直到出现新的休假事务。 
 
 ## <a name="unable-to-publish-to-hcmdiscussionentity-via-excel-totalratingscore-field-error-453899"></a>无法通过 Excel 发布到 HcmDiscussionEntity；TotalRatingScore 字段错误 (453899)
 
@@ -69,7 +71,7 @@ ms.locfileid: "3711932"
 
 ## <a name="mandatory-fields"></a>必填字段 
 
-现在可使用 Human Resources 个性化功能将字段设置为必填字段。 此功能需要**保存的视图**。
+现在可使用 Human Resources 个性化功能将字段设置为必填字段。 此功能需要 **保存的视图**。
 
 ## <a name="human-resources-application-in-teams"></a>Teams 中的 Human Resources 应用程序
 
@@ -114,7 +116,7 @@ DMF 实体现在可用于暂停应计。
 
 ## <a name="configure-the-name-of-employee-self-service"></a>配置员工自助服务的名称
 
-**人力资源参数**中将提供一个新选项，可以将“员工自助服务”工作区的名称更新为“自助服务”。
+**人力资源参数** 中将提供一个新选项，可以将“员工自助服务”工作区的名称更新为“自助服务”。
 
 ## <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service 中包含的核对清单实体
 

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3aabd622d15917d7e4549d0b0679aa20231c5815
-ms.sourcegitcommit: d9125c20b21459076e4fd92fd9ebfe2e53a0431b
+ms.openlocfilehash: 3214ddb1e077d889fb7b785bee2554b96c3907ed
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "3406512"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681677"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER 将财务维度用作数据源（第 2 部分 - 模型映射）
 

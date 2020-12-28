@@ -17,17 +17,17 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598125"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440792"
 ---
 # <a name="cash-overview-power-bi-content"></a>现金概览 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍**现金概览** Microsoft Power BI 内容。 它说明如何访问内容中包括的报表，并提供有关用于构建内容的数据模型和实体的信息。
+此主题介绍 **现金概览** Microsoft Power BI 内容。 它说明如何访问内容中包括的报表，并提供有关用于构建内容的数据模型和实体的信息。
 
 ## <a name="overview"></a>概览
 
@@ -35,26 +35,26 @@ ms.locfileid: "3598125"
 
 ## <a name="setup-needed-to-view-power-bi-content"></a>查看 Power BI 内容所需设置
 
-必须完成以下设置，才能在**现金概览**和**银行管理** Power BI 视觉对象中显示数据。
+必须完成以下设置，才能在 **现金概览** 和 **银行管理** Power BI 视觉对象中显示数据。
 
-1. 转到**系统管理 > 设置 > 系统参数**以设置**系统币种**和**系统汇率**。
-2. 转到**总帐 > 日历 > 会计日历**验证分配到有效时段的会计日历日期。
-3. 转到**总帐 > 设置 > 分类帐**以设置**记帐币种**和**汇率类型**。
-4. 定义交易币种与记帐币种、记帐币种与系统币种，以记帐币种与银行币种之间的汇率。 方法是，转到**总帐 > 币种 > 币种汇率**。
+1. 转到 **系统管理 > 设置 > 系统参数** 以设置 **系统币种** 和 **系统汇率**。
+2. 转到 **总帐 > 日历 > 会计日历** 验证分配到有效时段的会计日历日期。
+3. 转到 **总帐 > 设置 > 分类帐** 以设置 **记帐币种** 和 **汇率类型**。
+4. 定义交易币种与记帐币种、记帐币种与系统币种，以记帐币种与银行币种之间的汇率。 方法是，转到 **总帐 > 币种 > 币种汇率**。
 5. 配置和运行现金流预测。 有关如何设置现金流预测的详细信息，请参阅[现金流预测](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting)。 
-6. 转到**系统管理 > 设置 > 实体商店**以刷新 **LedgerCovLiquidityMeasurement** 聚合度量。
+6. 转到 **系统管理 > 设置 > 实体商店** 以刷新 **LedgerCovLiquidityMeasurement** 聚合度量。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 
-来自**现金概览** Power BI 内容的报表显示在**现金概览**和**银行管理**工作区。
+来自 **现金概览** Power BI 内容的报表显示在 **现金概览** 和 **银行管理** 工作区。
 
-若要查看带数据的现金流量预测报表，你必须先从“现金和银行管理”区域使用**计算现金流量预测**功能运行预测计算流程。 需要为包括在预测中的每个公司完成此操作。  然后，你需刷新**实体商店**页上的 LedgerCovLiquidityMeasurement 聚合度量。  
+若要查看带数据的现金流量预测报表，你必须先从“现金和银行管理”区域使用 **计算现金流量预测** 功能运行预测计算流程。 需要为包括在预测中的每个公司完成此操作。  然后，你需刷新 **实体商店** 页上的 LedgerCovLiquidityMeasurement 聚合度量。  
 
-为了演示目的，你可以从演示数据模块使用**生成数据**页添加现金流量预测演示数据。  此脚本将数据插入到现金流量预测表以快速填充报表所需的信息。  仅当你在环境上部署演示数据套件模型时，此模块才可用。 
+为了演示目的，你可以从演示数据模块使用 **生成数据** 页添加现金流量预测演示数据。  此脚本将数据插入到现金流量预测表以快速填充报表所需的信息。  仅当你在环境上部署演示数据套件模型时，此模块才可用。 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 
-下表提供有关在**现金概览** Power BI 内容中的每个报表页找到的指标的详细信息。
+下表提供有关在 **现金概览** Power BI 内容中的每个报表页找到的指标的详细信息。
 
 | 报表                                | 内容 |
 |---------------------------------------|----------|
@@ -68,7 +68,7 @@ ms.locfileid: "3598125"
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
 
-下表显示**现金概览** Power BI 内容所基于的实体。
+下表显示 **现金概览** Power BI 内容所基于的实体。
 
 | 实体                                                                          | 内容 |
 |---------------------------------------------------------------------------------|----------|

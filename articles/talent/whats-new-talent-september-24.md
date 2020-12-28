@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: e0c1a3bf7613db4887e0943a70ad6262a70997f0
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898958"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460439"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-september-24-2018"></a>Dynamics 365 Talent - Core HR（2018 年 9 月 24 日）中的新增功能或更改
 
@@ -45,4 +45,4 @@ ms.locfileid: "2898958"
 
 ## <a name="known-issue"></a>已知问题
 
--   **问题：** 向工作人员添加新附件时，**新建**和**编辑**按钮灰显。**解决方法：** 打开附件页面之前，确保已关闭**工作人员**页面中的速见表。 如果加载**工作人员**页面时速见表已关闭，将启用附件按钮。 （下一个平台更新中将解决这个问题。）
+-   **问题：** 向工作人员添加新附件时，**新建** 和 **编辑** 按钮灰显。**解决方法：** 打开附件页面之前，确保已关闭 **工作人员** 页面中的速见表。 如果加载 **工作人员** 页面时速见表已关闭，将启用附件按钮。 （下一个平台更新中将解决这个问题。）

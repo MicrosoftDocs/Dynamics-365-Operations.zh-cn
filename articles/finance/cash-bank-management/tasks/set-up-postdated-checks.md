@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 22e67aa051b5ea8267df7efac40e007d0f11a83d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141100"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440819"
 ---
 # <a name="set-up-postdated-checks"></a>设置远期支票
 
@@ -46,7 +46,7 @@ ms.locfileid: "3141100"
 9. 在“预缴税金清算帐户”字段中，指定所需的值。
 10. 单击“保存”。
 11. 关闭该页面。
-12. 转至“应付账款”>“付款设置”>“付款方式”。
+12. 转至“应付帐款”>“付款设置”>“付款方式”。
 13. 单击“新建”。
 14. 在“付款方式”字段中，输入值。
 15. 选择“远期支票清算过帐”选项以指明支票金额被过帐到清算帐户中。

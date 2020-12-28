@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 501936734b6ec970062d0d2cbcc8a3cdc11b934f
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: e36a2238ab4c67a2384d6da2a1e2c767414c21a1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142355"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684491"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER 使用可水平扩展的范围在 Excel 报表中动态添加列（第 1 部分 - 设计格式）
 

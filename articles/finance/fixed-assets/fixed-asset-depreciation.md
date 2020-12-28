@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1056dadab4294072cc064670f5cfcda239e22e19
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176586"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440736"
 ---
 # <a name="fixed-asset-depreciation"></a>固定资产折旧
 
@@ -51,7 +51,7 @@ ms.locfileid: "2176586"
 ## <a name="depreciation-calendars"></a>折旧年份：日历
 每个帐簿都有在折旧固定资产时使用的日历。 默认情况下，如果您未在帐簿上指示日历，帐簿将使用分类帐会计日历。 如果帐簿的关联折旧模板使用会计折旧年度，您必须为该帐簿选择会计日历。 
 
-您可以在总帐中使用**会计日历**页创建共享日历。
+您可以在总帐中使用 **会计日历** 页创建共享日历。
 
 有关详细信息，请参阅[折旧法和惯例](depreciation-methods-conventions.md)。
 

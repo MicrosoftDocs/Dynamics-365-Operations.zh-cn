@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 208b1be20a8833afbf4929a7ceda706aeb5bda3b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 9d4959b511022e1aa98544d23da6afcda1f6adf2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142078"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681917"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>设计 ER 配置以生成 Word 格式的报表
 
@@ -39,8 +38,8 @@ ms.locfileid: "3142078"
 
 
 ## <a name="select-the-existing-er-report-configuration"></a>选择现有 ER 报表配置
-1. 在导航窗格中，转到**模块 > 组织管理 > 工作区 > 电子申报**。 确保配置提供商“Litware 公司”。 已选中为有效。  
-2. 单击**申报配置**。 我们将重复使用最初为生成 OPENXML 格式的报表输出而设计的现有 ER 配置。  
+1. 在导航窗格中，转到 **模块 > 组织管理 > 工作区 > 电子申报**。 确保配置提供商“Litware 公司”。 已选中为有效。  
+2. 单击 **申报配置**。 我们将重复使用最初为生成 OPENXML 格式的报表输出而设计的现有 ER 配置。  
 3. 在树结构中，展开“付款模型”。
 4. 在树结构中，选择“付款模型\示例工作表报表”。
 5. 单击“设计器”。
@@ -49,17 +48,17 @@ ms.locfileid: "3142078"
 
 目前使用 Excel 文档作为模板生成 OPENXML 格式的输出。 我们将导入 Word 格式的报表模板。
 
-1. 单击**附加**。 将现有 Excel 模板替换为前面下载的 Word 模板 SampleVendPaymDocReport.docx。 请注意，此模板中仅包含要作为 ER 输出生成的文档的布局。  
-2. 单击**删除**。
-3. 单击**是**。
-4. 单击**新建**。
-5. 单击**文件**。
-6. 单击**浏览**。 导航到前面下载的 SampleVendPaymDocReport.docx 并选中。 单击 **确定**。 选择上一步中下载的模板。  
-7. 在**模板**字段中，输入或选择一个值。
+1. 单击 **附加**。 将现有 Excel 模板替换为前面下载的 Word 模板 SampleVendPaymDocReport.docx。 请注意，此模板中仅包含要作为 ER 输出生成的文档的布局。  
+2. 单击 **删除**。
+3. 单击 **是**。
+4. 单击 **新建**。
+5. 单击 **文件**。
+6. 单击 **浏览**。 导航到前面下载的 SampleVendPaymDocReport.docx 并选中。 单击 **确定**。 选择上一步中下载的模板。  
+7. 在 **模板** 字段中，输入或选择一个值。
 
 ## <a name="extend-the-word-template-by-adding-a-custom-xml-part"></a>通过添加自定义 XML 部件扩展 Work 模板
-1. 单击**保存**。 除了存储配置更改之外，“保存”操作还会更新附加的 Word 模板。 所设计格式的结构采用名称“报表”并作为新的自定义 XML 的一部分移植到附加的 Word 文档。 请注意，附加的 Word 模板中不仅包含要作为 ER 输出生成的文档的布局，还包含 ER 将在运行时填充到此模板中的数据的结构。  
-2. 单击**附加**。
+1. 单击 **保存**。 除了存储配置更改之外，“保存”操作还会更新附加的 Word 模板。 所设计格式的结构采用名称“报表”并作为新的自定义 XML 的一部分移植到附加的 Word 文档。 请注意，附加的 Word 模板中不仅包含要作为 ER 输出生成的文档的布局，还包含 ER 将在运行时填充到此模板中的数据的结构。  
+2. 单击 **附加**。
     + 现在需要将自定义 XML 部件“报表”的元素绑定到 Word 文档部件。  
     + 如果您熟悉可设计为包含与自定义 XML 部件的元素绑定的内容控件的窗体的 Word 文档，请执行下一个子任务的所有步骤以创建此类文档。 有关更多详细信息，请参阅[在 Words 中创建用户填写或打印的表单](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US)。 否则，请跳过下一子任务的所有步骤。  
 
@@ -72,31 +71,31 @@ ms.locfileid: "3142078"
 4. 执行所选自定义 XML 部件的元素与 Word 文档的内容控件之间的映射。  5 将更新后的 Word 文档保存到本地驱动器。  
 
 ## <a name="upload-the-word-template-with-custom-xml-part-bounded-to-content-controls"></a>上传包含绑定到内容控件的自定义 XML 部件的 Word 模板
-1. 单击**删除**。
-2. 单击**是**。 添加新模板。 如果完成了前面的子任务中的步骤，请选择已准备并保存到本地的 Word 文档。 否则，选择之前下载的 SampleVendPaymDocReportBounded.docx MS Word 模板。  
-3. 单击**新建**。
-4. 单击**文件**。
-5. 单击**浏览**。 导航到前面下载的 SampleVendPaymDocReportBounded.docx 并选中。 单击 **确定**。
-6. 在**模板**字段中，选择上一步中下载的文档。
-7. 单击**保存**。
+1. 单击 **删除**。
+2. 单击 **是**。 添加新模板。 如果完成了前面的子任务中的步骤，请选择已准备并保存到本地的 Word 文档。 否则，选择之前下载的 SampleVendPaymDocReportBounded.docx MS Word 模板。  
+3. 单击 **新建**。
+4. 单击 **文件**。
+5. 单击 **浏览**。 导航到前面下载的 SampleVendPaymDocReportBounded.docx 并选中。 单击 **确定**。
+6. 在 **模板** 字段中，选择上一步中下载的文档。
+7. 单击 **保存**。
 8. 关闭该页面。
 
 ## <a name="execute-the-format-to-create-word-output"></a>执行格式以创建 Word 输出
-1. 在**操作窗格**上，单击**配置**。
-2. 单击**用户参数**。
-3. 在**运行设置**字段中选择“是”。
+1. 在 **操作窗格** 上，单击 **配置**。
+2. 单击 **用户参数**。
+3. 在 **运行设置** 字段中选择“是”。
 4. 单击 **确定**。
-5. 单击**编辑**。
-6. 在**运行草稿**字段中选择“是”。
-7. 单击**保存**。
+5. 单击 **编辑**。
+6. 在 **运行草稿** 字段中选择“是”。
+7. 单击 **保存**。
 8. 关闭该页面。
 9. 关闭该页面。
-10. 在**导航窗格**中，转到**模块 > 应付帐款 > 付款 > 付款日记帐**。
-11. 单击**行**。
+10. 在 **导航窗格** 中，转到 **模块 > 应付帐款 > 付款 > 付款日记帐**。
+11. 单击 **行**。
 12. 在列表中，标记或取消标记所有行。
-13. 单击**付款状态**。
-14. 单击**无**。
-15. 单击**生成付款**。
+13. 单击 **付款状态**。
+14. 单击 **无**。
+15. 单击 **生成付款**。
 16. 单击 **确定**。
 17. 单击 **确定**。 分析生成的输出。 请注意，创建的输出以 Word 格式表示，并且其中包含处理的付款的详细信息。  
 

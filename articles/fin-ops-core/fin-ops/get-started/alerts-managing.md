@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: a06ca45de3a7bb6d65a8ed5466cd6591d4e0820f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4e34685731a09131d2ab49a0e04479c9c20f4da8
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180798"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693790"
 ---
 # <a name="batch-processing-of-alerts"></a>预警的批处理
 
@@ -51,12 +50,12 @@ ms.locfileid: "2180798"
 
 如果为基于变化的事件的批处理设置了低频率，则与预警规则中的条件相关的数据可能在批处理执行前就已变化。 因此，您可能错过预警。
 
-例如，当事件为**客户联系信息更改**且条件为**客户 = BB** 时，设置预警规则以触发预警。 换言之，当客户 BB 的客户联系人更改时，事件就被记录下来。 但是，对批处理系统进行设置，以便批处理出现的频率小于数据输入出现的频率。 如果事件处理之前客户名称从 **BB** 更改为 **AA**，那么数据库中的数据不再符合规则（**客户= BB**）中的条件。 因此，最后在事件处理时，不会生成任何预警。
+例如，当事件为 **客户联系信息更改** 且条件为 **客户 = BB** 时，设置预警规则以触发预警。 换言之，当客户 BB 的客户联系人更改时，事件就被记录下来。 但是，对批处理系统进行设置，以便批处理出现的频率小于数据输入出现的频率。 如果事件处理之前客户名称从 **BB** 更改为 **AA**，那么数据库中的数据不再符合规则（**客户= BB**）中的条件。 因此，最后在事件处理时，不会生成任何预警。
 
 ### <a name="set-up-processing-for-change-based-alerts"></a>设置基于变化的预警的处理
 
-1. 转到**系统管理** &gt; **定期任务** &gt; **预警** &gt; **基于变化的预警**。
-2. 在**基于变化的预警**对话框中，输入相应的信息。
+1. 转到 **系统管理** &gt; **定期任务** &gt; **预警** &gt; **基于变化的预警**。
+2. 在 **基于变化的预警** 对话框中，输入相应的信息。
 
 ## <a name="batch-processing-for-due-date-events"></a>到期日期事件的批处理
 
@@ -81,5 +80,5 @@ ms.locfileid: "2180798"
 
 ### <a name="set-up-processing-for-due-date-alerts"></a>设置到期日期预警的处理
 
-1. 转到**系统管理** &gt; **定期任务** &gt; **预警** &gt; **到期日期预警**。
-2. 在**到期日期预警**对话框中，输入相应的信息。
+1. 转到 **系统管理** &gt; **定期任务** &gt; **预警** &gt; **到期日期预警**。
+2. 在 **到期日期预警** 对话框中，输入相应的信息。

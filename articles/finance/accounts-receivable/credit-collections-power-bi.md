@@ -17,11 +17,11 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.sourcegitcommit: 219aa992b1f4c913f26243eeb7e40a383fa1ca67
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040045"
+ms.locfileid: "4440937"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>信用和收款管理 Power BI 内容
 
@@ -46,10 +46,10 @@ ms.locfileid: "4040045"
 
 需要完成以下设置，才能在 **客户信用和收款** Power BI 视觉对象中显示数据。
 
-1. 转到 **系统管理 > 设置 > 系统参数** 以设置 **系统币种** 和 **系统汇率** 。
+1. 转到 **系统管理 > 设置 > 系统参数** 以设置 **系统币种** 和 **系统汇率**。
 2. 转到 **总帐 > 日历 > 会计日历** 验证分配到有效时段的会计日历日期。
-3. 转到 **总帐 > 设置 > 分类帐** 并设置 **记帐币种** 和 **汇率类型** 。
-4. 定义交易币种与记帐币种和记帐币种与系统币种之间的汇率。 方法是，转到 **总帐 > 币种 > 币种汇率** 。
+3. 转到 **总帐 > 设置 > 分类帐** 并设置 **记帐币种** 和 **汇率类型**。
+4. 定义交易币种与记帐币种和记帐币种与系统币种之间的汇率。 方法是，转到 **总帐 > 币种 > 币种汇率**。
 5. 转到 **系统管理 > 设置 > 实体商店** 刷新 **CustCollectionsBIMeasurementsV2** 聚合度量。
 
 >[!NOTE] 

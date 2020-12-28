@@ -17,11 +17,11 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 5e121ce7d87ee50a4e6b367a170eea4375d64fb3
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144857"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440676"
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-credit-transfers"></a>设置 ISO20022 贷方转帐的公司银行帐户
 
@@ -35,7 +35,7 @@ ms.locfileid: "3144857"
 
 
 ## <a name="set-up-iban-and-swift-code"></a>设置 BAN 和 SWIFT 代码
-1. 转到现金和银行管理>银行账号。
+1. 转到现金和银行管理>银行帐号。
 2. 使用“快速筛选器”以筛选含有 'DEMF OPER' 值的“银行帐户”。
 3. 单击“DEMF OPER”以打开银行帐户详细信息。
 4. 单击“编辑”。

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b951c9074c68a9f7592c17e0688498880397b223
-ms.sourcegitcommit: d9125c20b21459076e4fd92fd9ebfe2e53a0431b
+ms.openlocfilehash: 35c4a05fb15a7e3166c6d075569debcf9cbc3cc3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "3406535"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681701"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-1---design-data-model"></a>ER 将财务维度用作数据源（第 1 部分 - 设计数据模型）
 

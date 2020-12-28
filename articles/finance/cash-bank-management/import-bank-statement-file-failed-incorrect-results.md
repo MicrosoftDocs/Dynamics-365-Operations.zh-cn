@@ -19,11 +19,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 09b24b88ee5f8104aabd11397d5bd2745e846cb0
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899562"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440634"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>银行对账单文件导入故障排除
 
@@ -40,7 +40,7 @@ ms.locfileid: "3899562"
 比较银行文件布局定义与 Finance 导入定义，注意字段和元素中的任何差异。 比较银行对账单文件与相关示例 Finance 文件。 在 ISO20022 文件中，应易于查看任何差异。
 
 ## <a name="time-zone-differences-on-imported-bank-statements"></a>导入的银行对帐单中时区不同
-导入文件中的日期时间值可能与 Finance and Operations 中显示的日期时间值不同。 若要避免此项差异，请在**配置数据源**页中输入时区首选项。 有关输入时区首选项的详细信息，请参阅[设置高级银行对帐导入流程](set-up-advanced-bank-reconciliation-import-process.md)。
+导入文件中的日期时间值可能与 Finance and Operations 中显示的日期时间值不同。 若要避免此项差异，请在 **配置数据源** 页中输入时区首选项。 有关输入时区首选项的详细信息，请参阅[设置高级银行对帐导入流程](set-up-advanced-bank-reconciliation-import-process.md)。
 
 ## <a name="transformations"></a>转换
 通常，必须在三个转换之一中进行更改。 每个转换为特定标准写入。

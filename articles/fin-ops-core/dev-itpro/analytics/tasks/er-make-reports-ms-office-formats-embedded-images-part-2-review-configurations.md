@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f81f0f86c255d048393047965c0aa29cbef09d0
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 8c41ff1ba99411b97ea2b5d9f31bdee7c7701315
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143068"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684347"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>检查配置以生成 Office 格式的包含嵌入图像的报表
 

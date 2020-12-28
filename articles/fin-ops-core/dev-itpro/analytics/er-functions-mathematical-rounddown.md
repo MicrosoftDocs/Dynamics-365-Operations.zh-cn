@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ac559983609d4fdb80c9ac70d84031e4a231889
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 9221476c1c12a7cc3fe2367cdee3ad44e5cbe381
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744519"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686874"
 ---
 # <a name="rounddown-er-function"></a>ROUNDDOWN ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`ROUNDDOWN` 函数作为*实数*值返回已向下舍入到指定小数位数的指定数字。
+`ROUNDDOWN` 函数作为 *实数* 值返回已向下舍入到指定小数位数的指定数字。
 
 ## <a name="syntax"></a>语法
 

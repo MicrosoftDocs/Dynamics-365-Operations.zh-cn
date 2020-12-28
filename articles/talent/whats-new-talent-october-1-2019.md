@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6bfe8a60b8c7eb9b7542a6ef3be6094144b06b3c
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 69c0a805027f215b2a2a42d826ee7a346cfdd511
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897411"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529652"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-1-2019"></a>Dynamics 365 Talent（2019 年 10 月 1 日）中的新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
@@ -43,7 +45,7 @@ ms.locfileid: "2897411"
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>简化的员工条目和导航
 
-此功能现在可在所有环境中使用。 要打开此功能，请导航至**系统管理 > 链接 > 设置 > 系统参数 > 预览功能**。 选择**增强的工作人员窗体和导航**。 这为所有用户启用了这些更改。 您可以随时关闭此选项。
+此功能现在可在所有环境中使用。 要打开此功能，请导航至 **系统管理 > 链接 > 设置 > 系统参数 > 预览功能**。 选择 **增强的工作人员窗体和导航**。 这为所有用户启用了这些更改。 您可以随时关闭此选项。
 
 有关详细信息，请参阅[简化的员工输入和导航](./streamlined-employee-entry.md)。 若要观看这些更改的视频，请参阅 [Dynamics 365 for Talent 2019 发布第 2 波概述](https://aka.ms/ROGT19RW2ROV)。
 
@@ -59,11 +61,11 @@ ms.locfileid: "2897411"
 
 ### <a name="not-able-to-end-compensation-along-with-its-position-assignment-328993"></a>无法与职位分配一起结束薪酬 (328993)
 
-应用此更改之后，结束职位分配时，可以在已开启了个人操作的情况下使用**工作人员职位分配**页中的**结束分配**终止薪酬。
+应用此更改之后，结束职位分配时，可以在已开启了个人操作的情况下使用 **工作人员职位分配** 页中的 **结束分配** 终止薪酬。
 
 ### <a name="bank-account-validation-requires-routing-and-account-numbers-in-all-locations-340403"></a>需要所有位置的银行代号和账号，才能验证用户帐户 (340403)
 
-本周的更改已经添加了一个新的配置选项，用于禁用需要**银行代号**和**账号**的验证。 
+本周的更改已经添加了一个新的配置选项，用于禁用需要 **银行代号** 和 **账号** 的验证。 
 
 ### <a name="attachments-are-not-enabled-in-mss-performance-journals-for-performance-feedback-341794"></a>MSS 绩效日记帐中不能为绩效反馈启用附件 (341794)
 
@@ -75,7 +77,7 @@ ms.locfileid: "2897411"
 
 ### <a name="job-description-doesnt-display-for-the-job-in-the-skill-gap-analysis-page-369398"></a>“技能差距分析”页中不显示工作的工作描述 (369398)
 
-在本周的版本中，在**技能差距分析**页中选择工作时，将显示此描述。
+在本周的版本中，在 **技能差距分析** 页中选择工作时，将显示此描述。
 
 ## <a name="coming-soon"></a>即将到期
 

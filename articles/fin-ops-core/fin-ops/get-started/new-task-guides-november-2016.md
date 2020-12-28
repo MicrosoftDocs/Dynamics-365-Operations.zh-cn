@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 270894
 ms.assetid: 1b90768d-8bf7-4e35-90c0-65962fea5d26
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 40317cdef777ca6524feb66caf66ddec3d855d32
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 56545e56201180bf73420bf73f9a9f6e7a426b33
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811593"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695029"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>新的或更新任务指南（2016 年 11 月）
 
@@ -30,7 +29,7 @@ ms.locfileid: "2811593"
 
 本主题列出了发布到 Microsoft Dynamics 365 for Operations 的 Microsoft（2016 年 11 月 – 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
 
-（2016 年 11 月 – 所有语言）APQC 标准库中包含用于帮助 Microsoft Dynamics 365 for Operations、Microsoft Dynamics 365 for Operations 平台更新 3、Microsoft Dynamics AX 平台更新 2、Dynamics AX 2016 年 5 月更新和 Microsoft Dynamics AX 2016 年 2 月版本的任务指南。 有关这些版本的详细信息，请参阅 [Finance and Operations 新增功能或更改主页](whats-new-changed.md)。 此库中提供了任务指南的本地化版本。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助系统](help-overview.md)。
+（2016 年 11 月 – 所有语言）APQC 标准库中包含用于帮助 Microsoft Dynamics 365 for Operations、Microsoft Dynamics 365 for Operations 平台更新 3、Microsoft Dynamics AX 平台更新 2、Dynamics AX 2016 年 5 月更新和 Microsoft Dynamics AX 2016 年 2 月版本的任务指南。 有关这些版本的详细信息，请参阅 [Finance and Operations 主页中的新增和更改内容](whats-new-changed.md)。 此库中提供了任务指南的本地化版本。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助系统](help-overview.md)。
 
 > [!NOTE]
 > 业务流程建模器 (BPM) 行的标题旁边的星号 (\*) 表示该业务流程的任务指南是为 Dynamics 365 for Operations 2016 年 11 月更新创建，不支持 Microsoft Dynamics AX 的早期版本。
@@ -44,10 +43,10 @@ ms.locfileid: "2811593"
 | 使用发票日记帐的 AP 系统中的重要发票数据                                              | 全局         |
 | 使用发票池的 AP 系统中的重要发票数据                                                 | 全局         |
 | 记录供应商发票的接收和匹配接收的数量                           | 全局         |
-| 设置应付账款发票匹配验证                                                | 全局         |
+| 设置应付帐款发票匹配验证                                                | 全局         |
 | 设置供应商发票政策                                                                    | 全局         |
 
-### <a name="accounts-receivable"></a>应收账款
+### <a name="accounts-receivable"></a>应收帐款
 
 | BPM line / 磁墨字符识别行                                                                           | 国家/地区 |
 |------------------------------------------------------------------------------------|----------------|
@@ -63,7 +62,7 @@ ms.locfileid: "2811593"
 | 生成和过帐重复执行普通发票                                     | 全局         |
 | 处理催款单                                                         | 全局         |
 | 查看收款信息                                                      | 全局         |
-| 设置并生成应收账款的帐龄信息                          | 全局         |
+| 设置并生成应收帐款的帐龄信息                          | 全局         |
 
 ### <a name="address-book"></a>通讯簿
 
@@ -154,8 +153,8 @@ ms.locfileid: "2811593"
 | EUR-00002 将交易记录转移到内部统计                                                                                 | 欧洲                            |
 | EUR-00011 生成欧盟（EU）销售清单报表                                                                                      | 欧洲                            |
 | EUR-00011 设置EU销售清单报表                                                                                         | 欧洲                            |
-| EUR-00012 颁发欧盟记账证书。                                                                                          | 欧洲                            |
-| EUR-00012 获得EU 记账证书。                                                                                        | 欧洲                            |
+| EUR-00012 颁发欧盟记帐证书。                                                                                          | 欧洲                            |
+| EUR-00012 获得EU 记帐证书。                                                                                        | 欧洲                            |
 | \*EUR-00015 使用增值税 ID 搜索当事方                                                                                            | 欧洲                            |
 | \*EUR-00015 登记供应商增值税 ID                                                                                        | 欧洲                            |
 | \*EUR-00015 设置增值税 ID                                                                                                        | 欧洲                            |
@@ -176,8 +175,8 @@ ms.locfileid: "2811593"
 | FR-00003 NAF 代码和 Siret 编号                                                                                             | 法国                            |
 | FR-00004 审核和过帐签发汇票                                                                                  | 法国                            |
 | FR-00004 法国汇票和本票                                                                           | 法国                            |
-| FR-00004 过账拒收汇票账目项                                                                              | 法国                            |
-| FR-00004 过账重签汇票的账目项                                                                                    | 法国                            |
+| FR-00004 过帐拒收汇票帐目项                                                                              | 法国                            |
+| FR-00004 过帐重签汇票的帐目项                                                                                    | 法国                            |
 | FR-00004 设立付款方法                                                                                                 | 法国                            |
 | FR-00004 更新客户付款方式                                                                                    | 法国                            |
 | FR-00018 延时付款的日息计算以及在发票和催款信中的总额体现                           | 法国                            |
@@ -222,7 +221,7 @@ ms.locfileid: "2811593"
 | CN-00004 固定资产折旧分配 (JP-)                                                                               | 日本                             |
 | 配置其他折旧的折旧模板和过帐模板                                               | 日本                             |
 | 配置特殊折旧的折旧模板和过帐模板                                                  | 日本                             |
-| 配置合并的发票参数和应付账款的设置                                                         | 日本                             |
+| 配置合并的发票参数和应付帐款的设置                                                         | 日本                             |
 | 配置资产报废合同过帐和市场折扣率的主科目                                        | 日本                             |
 | 创建具有其他折旧的固定资产                                                                                | 日本                             |
 | 创建具有特殊折旧模板的固定资产                                                                           | 日本                             |
@@ -241,7 +240,7 @@ ms.locfileid: "2811593"
 | 支持 JBA 付款文件格式                                                                                                   | 日本                             |
 | 在折旧模板中输入折旧率计划和关联项                                                           | 日本                             |
 | 生成和过帐付款费用                                                                                                    | 日本                             |
-| 以 JBA (日本银行协会）格式生成一个 EFT（电子资金支付）付款文件                                                                                 | 日本                             |
+| 以 JBA（日本银行协会）格式生成一个 EFT（电子资金支付）付款文件                                                                                 | 日本                             |
 | 生成日本消费税报表                                                                                            | 日本                             |
 | 以 JBA 文件格式输入一个客户付款记录                                                                                 | 日本                             |
 | 查询日记帐中的付款费用                                                                                              | 日本                             |
@@ -287,11 +286,11 @@ ms.locfileid: "2811593"
 | MX-00010 CFDI 电子发票功能。                                                                                                        | 墨西哥                            |
 | MX-00010 为墨西哥法人输入税务注册号                                                                   | 墨西哥                            |
 | MX-00010 查询和打印电子发票。                                                                                 | 墨西哥                            |
-| MX-00010 过账非常规销售账目                                                                                                 | 墨西哥                            |
+| MX-00010 过帐非常规销售帐目                                                                                                 | 墨西哥                            |
 | MX-00010 为电子发票设置参数。                                                                                | 墨西哥                            |
-| MX-00020：生成墨西哥电子分类记账报表（1.1 版本）                                                        | 墨西哥                            |
+| MX-00020：生成墨西哥电子分类记帐报表（1.1 版本）                                                        | 墨西哥                            |
 | MX-00020 为墨西哥法人建立会计表                                                               | 墨西哥                            |
-| MX-00020 - 为墨西哥银行账号设定RFC注册号                                                              | 墨西哥                            |
+| MX-00020 - 为墨西哥银行帐号设定RFC注册号                                                              | 墨西哥                            |
 | NL-00003 Semansys XBRL 集成                                                                                               | 荷兰                       |
 | NL-00010 电子报税(EVAT)                                                                                      | 荷兰                       |
 | MY-00003 管理 GST 的客户借方通知单和贷方通知单                                                                      | 新加坡、马来西亚和泰国 |
@@ -306,8 +305,8 @@ ms.locfileid: "2811593"
 |  创建包括要求逆向征收增值税的物料的采购订单                                                        | 英国                    |
 |  创建包括应该逆向征收增值税的项的销售订单                                                           | 英国                    |
 | GB-00002 设立增值税退税设立物料组，规则及参数。                                                            | 英国                    |
-| GB-00009 为结账折扣生成信用证。                                                                         | 英国                    |
-| GB-00009 为现金付账折扣信用证设置参数。                                                             | 英国                    |
+| GB-00009 为结帐折扣生成信用证。                                                                         | 英国                    |
+| GB-00009 为现金付帐折扣信用证设置参数。                                                             | 英国                    |
 |  设置反向增值税的物料销售税组                                                                              | 英国                    |
 |  设置反向增值税的销售税组                                                                                   | 英国                    |
 
@@ -325,7 +324,7 @@ ms.locfileid: "2811593"
 | 更改资产组                                        | 全局         |
 | 更改多项固定资产的折旧惯例 | 全局         |
 | 创建固定资产                                      | 全局         |
-| 从应付账款创建和购置资产           | 全局         |
+| 从应付帐款创建和购置资产           | 全局         |
 | 创建折旧方案                              | 全局         |
 | 使用普通发票处理固定资产        | 全局         |
 | 输入对固定资产的添加件                        | 全局         |

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 06758ff5eb1c00ae299b1b8849fcabb0cd9593e8
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 40898ca7f54089337180def964b8942e8653663b
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896627"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529472"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-8-2019"></a>Dynamics 365 Talent（2019 年 10 月 8 日）中的新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 
@@ -51,7 +53,7 @@ ms.locfileid: "2896627"
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>简化的员工条目和导航
 
-现在，在所有环境中都可以使用员工输入和导航功能。 要启用此功能，请转到**系统管理 \> 链接 \> 设置 \> 系统参数 \> 预览功能**，然后选择**增强的工作人员窗体和导航**。 然后为所有用户打开此功能。 您可以随时关闭此选项。
+现在，在所有环境中都可以使用员工输入和导航功能。 要启用此功能，请转到 **系统管理 \> 链接 \> 设置 \> 系统参数 \> 预览功能**，然后选择 **增强的工作人员窗体和导航**。 然后为所有用户打开此功能。 您可以随时关闭此选项。
 
 有关详细信息，请参阅“Dynamics 365: 2019 发布波次 2 计划”中的[简化的员工输入和导航](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/streamlined-employee-data-entry)。
 
@@ -67,13 +69,13 @@ ms.locfileid: "2896627"
 
 此版本包括有关 **HcmOnboardingWorkerChecklistTaskEntity** 的附加信息。 下面举了一些示例加以说明：
 
-- 分配的类型为**组**时的**组名称**
-- 分配的类型为**员工**时的**员工姓名**
-- 分配的类型为**经理**时的**经理姓名**
+- 分配的类型为 **组** 时的 **组名称**
+- 分配的类型为 **员工** 时的 **员工姓名**
+- 分配的类型为 **经理** 时的 **经理姓名**
 
 ### <a name="entities-arent-listed-in-alphabetical-order-in-common-data-service-administration-377414"></a>在 Common Data Service 管理中未按字母顺序列出实体 (377414)
 
-现在，实体在 **CDS 管理**页面上按字母顺序列出。
+现在，实体在 **CDS 管理** 页面上按字母顺序列出。
 
 ### <a name="changing-the-employment-type-with-a-future-date-doesnt-allow-a-position-assignment-339958"></a>更改具有未来日期的雇用类型不允许进行职位分配 (339958)
 

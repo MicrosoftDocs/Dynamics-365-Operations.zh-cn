@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8cbead2961c4576a5394080aae2fec109bce3f10
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: d9ee4715526e18b33ae4b7e90b081ed5868bb19c
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621296"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527908"
 ---
 # <a name="configure-common-data-service-integration"></a>配置 Common Data Service 集成
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 您可以打开或关闭 Common Data Service 和 Dynamics 365 Human Resources 之间的集成。 您还可以查看同步详细信息、清除跟踪数据以及重新同步实体，以帮助解决两个环境之间的数据问题。
 
@@ -37,33 +39,33 @@ ms.locfileid: "3621296"
 
 - 您正在通过数据管理框架填写数据，并且必须多次导入数据才能使其进入正确状态。
 
-- Human Resources 或 Common Data Service 中的数据存在问题。 如果关闭集成，您可以在一个环境中删除一条记录，而在另一个环境中不删除。 重新打开集成后，未删除记录的环境中的记录将同步到已删除记录的环境。 同步将在下一次运行 **Common Data Service 集成错过的请求同步**批处理作业时开始。
+- Human Resources 或 Common Data Service 中的数据存在问题。 如果关闭集成，您可以在一个环境中删除一条记录，而在另一个环境中不删除。 重新打开集成后，未删除记录的环境中的记录将同步到已删除记录的环境。 同步将在下一次运行 **Common Data Service 集成错过的请求同步** 批处理作业时开始。
 
 > [!WARNING]
 > 关闭数据集成时，请确保不要在两个环境中编辑同一个记录。 当您重新打开集成时，上次编辑的记录将被同步。 因此，如果您在两个环境中均未对记录进行相同更改，可能会发生数据丢失。
 
 ## <a name="access-the-common-data-service-integration-page"></a>访问 Common Data Service 集成页面
 
-1. 在要查看或配置与 Common Data Service 集成的设置的 Human Resources 实例中，选择**系统管理**磁贴。
+1. 在要查看或配置与 Common Data Service 集成的设置的 Human Resources 实例中，选择 **系统管理** 磁贴。
 
     [![系统管理磁贴](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
 
-2. 选择**链接**选项卡。
+2. 选择 **链接** 选项卡。
 
     [![链接选项卡](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
 
-3. 在**集成**下，选择 **Common Data Service 配置**。
+3. 在 **集成** 下，选择 **Common Data Service 配置**。
 
     [![Common Data Service 配置链接](./media/hr-select-common-data-service-configuration.png)](./media/hr-select-common-data-service-configuration.png)
 
 ## <a name="turn-data-integration-between-human-resources-and-common-data-service-on-or-off"></a>打开或关闭 Human Resources 和 Common Data Service 之间的数据集成
 
-- 要打开集成，请将**启用对 Common Data Service 的集成**选项设置为**是**。
+- 要打开集成，请将 **启用对 Common Data Service 的集成** 选项设置为 **是**。
 
     > [!NOTE]
-    > 当您打开集成时，下次运行 **Common Data Service 集成错过的请求同步**批处理作业时，将同步数据。 批处理作业完成后，所有数据都应该可用。
+    > 当您打开集成时，下次运行 **Common Data Service 集成错过的请求同步** 批处理作业时，将同步数据。 批处理作业完成后，所有数据都应该可用。
 
-- 要关闭集成，请将此选项设置为**否**。
+- 要关闭集成，请将此选项设置为 **否**。
 
 [![打开或关闭 Common Data Service 集成](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
 
@@ -72,9 +74,9 @@ ms.locfileid: "3621296"
 
 ## <a name="view-data-integration-details"></a>查看数据集成详细信息
 
-在 **Common Data Service 集成**页面的**管理**快速选项卡上，您可以看到记录在 Human Resources 和 Common Data Service 之间如何链接在一起。
+在 **Common Data Service 集成** 页面的 **管理** 快速选项卡上，您可以看到记录在 Human Resources 和 Common Data Service 之间如何链接在一起。
 
-- 要查看实体的记录，请在 **CDS 实体名称**字段中选择实体。 网格显示链接到所选实体的所有记录。
+- 要查看实体的记录，请在 **CDS 实体名称** 字段中选择实体。 网格显示链接到所选实体的所有记录。
 
 [![查看实体的记录](./media/hr-common-data-service-configuration-view-entity.png)](./media/hr-common-data-service-configuration-view-entity.png)
 
@@ -93,7 +95,7 @@ ms.locfileid: "3621296"
 
 如果您在 Human Resources 和 Common Data Service 之间进行数据同步期间遇到问题，可以通过清除跟踪并使跟踪表重新同步来解决这些问题。 如果您删除关联，然后更改或删除 Common Data Service 中的记录，更改将不会同步到 Human Resources。 如果您在 Human Resources 中进行更改，将创建新的跟踪记录，并在 Common Data Service 中更新该记录。
 
-- 要删除 Human Resources 和 Common Data Service 之间的记录的关联，请在 **CDS 实体名称**字段中选择实体，然后选择**清除跟踪信息**。
+- 要删除 Human Resources 和 Common Data Service 之间的记录的关联，请在 **CDS 实体名称** 字段中选择实体，然后选择 **清除跟踪信息**。
 
 [![清除跟踪信息](./media/hr-common-data-service-configuration-clear-tracking.png)](./media/hr-common-data-service-configuration-clear-tracking.png)
 
@@ -109,9 +111,9 @@ ms.locfileid: "3621296"
 
 若要在 Human Resources 与 Common Data Service 之间对实体运行网站同步：
 
-1. 在 **CDS 实体名称**字段中选择实体。
+1. 在 **CDS 实体名称** 字段中选择实体。
 
-2. 选择**立即同步**。
+2. 选择 **立即同步**。
 
 [![运行完全同步](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 

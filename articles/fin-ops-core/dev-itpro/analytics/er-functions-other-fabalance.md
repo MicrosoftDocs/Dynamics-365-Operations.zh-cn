@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a969e3a484208388fd82d7a714bee27b7fe64a9
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 5570e1295ff6da0eadd7e18143a2206032597ae5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744159"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684827"
 ---
 # <a name="fa_balance-er-function"></a>FA_BALANCE ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`FA_BALANCE` 函数返回*容器（记录）* 值，该值由指定固定资产项目的固定资产余额、价值模型代码、报告年度和报告日期数据组成。
+`FA_BALANCE` 函数返回 *容器（记录）* 值，该值由指定固定资产项目的固定资产余额、价值模型代码、报告年度和报告日期数据组成。
 
 ## <a name="syntax"></a>语法
 
@@ -41,11 +40,11 @@ FA_BALANCE (fixed asset code, value model code, reporting year, reporting date)
 
 `fixed asset code`：*字符串*
 
-一个*字符串*值，表示要为其计算余额的固定资产项目的代码。
+一个 *字符串* 值，表示要为其计算余额的固定资产项目的代码。
 
 `value model code`：*字符串*
 
-一个*字符串*值，表示要为其计算余额的价值模型的代码。
+一个 *字符串* 值，表示要为其计算余额的价值模型的代码。
 
 `reporting year`：*枚举值*
 
@@ -53,7 +52,7 @@ FA_BALANCE (fixed asset code, value model code, reporting year, reporting date)
 
 `reporting date`：*日期*
 
-定义余额计算日期的*日期*值。
+定义余额计算日期的 *日期* 值。
 
 ## <a name="return-values"></a>返回值
 

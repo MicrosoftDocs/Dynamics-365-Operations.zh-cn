@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 950fc711f0e28eaee7fabc437ee16a022e1b705e
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: d0f527dcf313a6a5e3b6601cac9a0f6495f66833
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744783"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680330"
 ---
 # <a name="splitlist-er-function"></a>SPLITLIST ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`SPLITLIST` 函数将指定的列表拆分为多个子列表（或批次），每个批次包含指定的记录数。 然后作为包含批次的新*记录列表*值返回结果。
+`SPLITLIST` 函数将指定的列表拆分为多个子列表（或批次），每个批次包含指定的记录数。 然后作为包含批次的新 *记录列表* 值返回结果。
 
 ## <a name="syntax"></a>语法
 
@@ -41,7 +40,7 @@ SPLITLIST (list, number)
 
 `list`：*记录列表*
 
-*记录列表*数据类型的数据源的有效路径。
+*记录列表* 数据类型的数据源的有效路径。
 
 `number`：*整数*
 
@@ -67,11 +66,11 @@ SPLITLIST (list, number)
 
 ## <a name="example"></a>示例
 
-下图中，将创建一个**行**数据源以充当具有三条记录的记录列表。 此列表分为多个批次，每个批次中最多包含两条记录。
+下图中，将创建一个 **行** 数据源以充当具有三条记录的记录列表。 此列表分为多个批次，每个批次中最多包含两条记录。
 
 <a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
 
-下图显示设计的格式布局。 在此格式布局中，创建了与**行**数据源的绑定，以便生成 XML 格式的输出。 此输出为各批次及其中的记录提供单个节点。
+下图显示设计的格式布局。 在此格式布局中，创建了与 **行** 数据源的绑定，以便生成 XML 格式的输出。 此输出为各批次及其中的记录提供单个节点。
 
 <a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a>
 

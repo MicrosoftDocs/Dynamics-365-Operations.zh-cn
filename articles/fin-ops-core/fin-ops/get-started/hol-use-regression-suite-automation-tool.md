@@ -10,18 +10,17 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 0c2babc3144cae5c68075bd853a2587505263776
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: 798717b276e68949a9425350720bf683a37d6fb5
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410142"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692982"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool 教程
 
@@ -42,27 +41,27 @@ RSAT 允许您在测试用例中包含验证步骤，以验证期望值。 有�
 
 1. 在 **USMF** 公司的演示数据中，创建一个包含以下步骤的任务录制：
 
-    1. 转到**产品信息管理 \> 产品 \> 已发布产品**。
-    2. 使用“快速筛选器”以查找记录。 例如，对**物料编号**字段使用值 **1000** 进行筛选。
-    3. 选择**现有库存量**。
-    4. 使用“快速筛选器”以查找记录。 例如，对**站点**字段使用值 **1** 进行筛选。
+    1. 转到 **产品信息管理 \> 产品 \> 已发布产品**。
+    2. 使用“快速筛选器”以查找记录。 例如，对 **物料编号** 字段使用值 **1000** 进行筛选。
+    3. 选择 **现有库存量**。
+    4. 使用“快速筛选器”以查找记录。 例如，对 **站点** 字段使用值 **1** 进行筛选。
     5. 在列表中，标记所选的行。
-    6. 验证**可用合计**字段的值是否为 **411.0000000000000000**。
+    6. 验证 **可用合计** 字段的值是否为 **411.0000000000000000**。
 
 2. 保存任务录制，并在 Azure Devops 中将其附加到测试用例中。
 3. 将测试用例添加到测试计划，然后将测试用例加载到 RSAT 中。
-4. 打开 Excel 参数文件。 在 **InventOnhandItem** 选项卡上，将看到 **Validate InventOnhandItem** 部分，其中包含一个**运算符**字段。
+4. 打开 Excel 参数文件。 在 **InventOnhandItem** 选项卡上，将看到 **Validate InventOnhandItem** 部分，其中包含一个 **运算符** 字段。
 
     ![“运算符”字段](./media/use_rsa_tool_08.png)
 
-5. 若要验证现有库存量是否始终大于 0，请将**值**字段的值从 **411** 更改为 **0**，将**运算符**字段的值从等号 (**=**) 更改为大于符号 (**\>**)。
+5. 若要验证现有库存量是否始终大于 0，请将 **值** 字段的值从 **411** 更改为 **0**，将 **运算符** 字段的值从等号 (**=**) 更改为大于符号 (**\>**)。
 
     ![“值”和“运算符”字段的值已更改](./media/use_rsa_tool_09.png)
 
 6. 保存并关闭 Excel 参数文件。
-7. 选择**上载**将对 Excel 参数文件执行的更改保存到 Azure DevOps。
+7. 选择 **上载** 将对 Excel 参数文件执行的更改保存到 Azure DevOps。
 
-现在，如果库存中指定物料的**可用合计**字段的值大于 0（零），无论实际现有库存量值是多少，测试都将失败。
+现在，如果库存中指定物料的 **可用合计** 字段的值大于 0（零），无论实际现有库存量值是多少，测试都将失败。
 
 ### <a name="saved-variables-and-chaining-of-test-cases"></a>保存的变量和链接测试用例
 
@@ -143,20 +142,20 @@ RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以
 
 ### <a name="rsat"></a>RSAT
 
-- 若要在另一个公司中运行测试，可以在 Excel 参数文件的**常规**选项卡上更改公司。 确保新选择的公司中有设置和数据。
-- 可在 Excel 参数文件的**常规**选项卡上更改测试用户。 指定将运行测试用例的用户的电子邮件 ID。 这样，就可以通过使用所指定用户的安全权限运行测试用例。
-- 若要在开始测试之前等待，可在 Excel 参数文件的**常规**选项卡上定义暂停。 可在批处理作业中使用此暂停（例如，如果必须向运行工作流，才能执行下一个步骤。）
+- 若要在另一个公司中运行测试，可以在 Excel 参数文件的 **常规** 选项卡上更改公司。 确保新选择的公司中有设置和数据。
+- 可在 Excel 参数文件的 **常规** 选项卡上更改测试用户。 指定将运行测试用例的用户的电子邮件 ID。 这样，就可以通过使用所指定用户的安全权限运行测试用例。
+- 若要在开始测试之前等待，可在 Excel 参数文件的 **常规** 选项卡上定义暂停。 可在批处理作业中使用此暂停（例如，如果必须向运行工作流，才能执行下一个步骤。）
 
 ## <a name="advanced-scripting"></a>高级脚本
 
 ### <a name="cli"></a>CLI
 
-可以从**命令提示符** 或 **PowerShell** 窗口调用 RSAT。
+可以从 **命令提示符** 或 **PowerShell** 窗口调用 RSAT。
 
 > [!NOTE]
-> 请验证环境变量 **TestRoot** 是否设置为 RSAT 安装路径。 （在 Microsoft Windows 中，打开**控制面板**，选择**系统和安全 \> 系统 \> 高级安全设置**，然后选择**环境变量**。）
+> 请验证环境变量 **TestRoot** 是否设置为 RSAT 安装路径。 （在 Microsoft Windows 中，打开 **控制面板**，选择 **系统和安全 \> 系统 \> 高级安全设置**，然后选择 **环境变量**。）
 
-1. 以管理员身份打开**命令提示符**或 **PowerShell** 窗口。
+1. 以管理员身份打开 **命令提示符** 或 **PowerShell** 窗口。
 2. 浏览至 RSAT 安装目录。
 
     ```Console
@@ -497,7 +496,7 @@ for ($i = $start; $i -lt $start + $nr; $i++ )
 
 #### <a name="run-a-script-that-depends-on-data-in-microsoft-dynamics-365"></a>在 Microsoft Dynamics 365 中运行依赖数据的脚本
 
-以下示例使用开放数据协议 (OData) 调用查找采购订单的订单状态。 例如，如果状态不是**已开票**，则可调用 RSAT 测试用例以过帐发票。
+以下示例使用开放数据协议 (OData) 调用查找采购订单的订单状态。 例如，如果状态不是 **已开票**，则可调用 RSAT 测试用例以过帐发票。
 
 ```xpp
 function Odata_Get

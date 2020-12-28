@@ -19,11 +19,11 @@ ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
 ms.openlocfilehash: 740ae20704abd9c59f64c2c7622fa96d65dccb1d
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997138"
+ms.locfileid: "4450199"
 ---
 # <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>按需与 Dynamics 365 Supply Chain Management 定价引擎同步
 
@@ -35,10 +35,10 @@ Microsoft Dynamics 365 Supply Chain Management 包括处理贸易协议、价目
 
 ## <a name="use-the-pricing-engine-from-supply-chain-management-in-sales"></a>使用 Sales 中的 Supply Chain Management 中的定价引擎
 
-1. 在 Sales 中，转到 **销售 \> 订单** 。
+1. 在 Sales 中，转到 **销售 \> 订单**。
 2. 选择 **新建** 创建新订单，或在 **我的订单** 列表中选择现有订单。
 3. 添加新订单行。
-4. 如果您要创建新订单，请选择在操作窗格上 **价格订单** 。 如果您要更新现有订单，请选择在操作窗格上 **重新计算** 。
+4. 如果您要创建新订单，请选择在操作窗格上 **价格订单**。 如果您要更新现有订单，请选择在操作窗格上 **重新计算**。
 
     下列字段将自动填写：
 
@@ -52,7 +52,7 @@ Microsoft Dynamics 365 Supply Chain Management 包括处理贸易协议、价目
     
 5. 为确保系统考虑贸易和销售协议来计算价格：
     1. 导航到您的 Supply Chain Management 环境。
-    2. 导航到 **应收帐款 \> 设置 \> 应收帐款参数** 。
+    2. 导航到 **应收帐款 \> 设置 \> 应收帐款参数**。
     3. 选择侧导航栏中的 **价格** 选项卡。
     4. 在 **贸易协议评估** 快速选项卡下，取消选中 **手动输入** 选项。
 

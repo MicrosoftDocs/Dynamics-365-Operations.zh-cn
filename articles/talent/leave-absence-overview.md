@@ -19,15 +19,15 @@ ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3376a9aec5c0003e9cc7c076c4d221a697df61ce
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898286"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460475"
 ---
 # <a name="leave-and-absence-management"></a>休假和缺勤管理
 
-**休假爱喝缺勤管理**模块提供灵活的框架，用于定义缺勤管理流程。 可以创建休假和缺勤计划以确定员工累积假期或如何赠予休假。 员工在计划中登记后，可以提交休假申请供经理审批。 休假跟踪荣一线经理和人力资源 (HR) 经理都可以看到谁在休假，以及每位员工剩余的假期量。  
+**休假爱喝缺勤管理** 模块提供灵活的框架，用于定义缺勤管理流程。 可以创建休假和缺勤计划以确定员工累积假期或如何赠予休假。 员工在计划中登记后，可以提交休假申请供经理审批。 休假跟踪荣一线经理和人力资源 (HR) 经理都可以看到谁在休假，以及每位员工剩余的假期量。  
 
 休假和缺勤管理提供以下功能： 
 

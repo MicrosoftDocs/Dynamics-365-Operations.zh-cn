@@ -19,11 +19,11 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4c8216ebdd1f26601743e6b35849be0813d06b4a
-ms.sourcegitcommit: 4676ea9646fa1a182103ecab93e78a69001f0b8d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3612654"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440761"
 ---
 # <a name="process-allocations"></a>处理分配
 

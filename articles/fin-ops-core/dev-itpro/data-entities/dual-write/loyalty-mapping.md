@@ -1,6 +1,6 @@
 ---
 title: 客户会员卡和奖励积分
-description: 本主题介绍有关 Finance and Operations 应用和 Common Data Service 之间的客户会员卡和奖励积分的数据的集成。
+description: 本主题介绍有关双写入中的客户会员卡和奖励积分的数据的集成。
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/10/2019
@@ -18,20 +18,20 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 24ce08bb6cba9c74075151bafe0b07509fbdf73d
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 28872e9510394cf3d5cee151798d4130b8b6fe27
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3998006"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683490"
 ---
 # <a name="customer-loyalty-cards-and-reward-points"></a>客户会员卡和奖励积分
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-企业根据客户的购物和消费模式对客户进行分类并提供完善的服务。 在 Microsoft Dynamics 365 应用程序套件中，Dynamics 365 Commerce 具有推进和处理客户会员卡、奖励积分、基于会员制的定价和基于奖励的购物体验的基础结构和功能。 当有关 Commerce 中客户会员卡和奖励积分的数据同步到 Common Data Service 时，Dynamics 365 中的模型驱动应用可以使用该数据。 例如，Dynamics 365 Customer Service 用户可以使用数据通过帮助台提供相同的完善服务。
+企业根据客户的购物和消费模式对客户进行分类并提供完善的服务。 例如，Dynamics 365 Commerce 具有推进和处理客户会员卡、奖励积分、基于会员制的定价和基于奖励的购物体验的基础结构和功能。 当有关 Commerce 中客户会员卡和奖励积分的数据同步到 Dataverse 时，客户参与应用可以使用该数据。 例如，Dynamics 365 Customer Service 用户可以使用数据通过帮助台提供相同的完善服务。
 
 ## <a name="templates"></a>模板
 

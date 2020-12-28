@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: afc8c7fffbded82be32357bdeb30546afc8b0957
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: ac1b0c8baaddd6ca62cc49657fff364df21c14f2
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533290"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517106"
 ---
 # <a name="configure-your-domain-name"></a>配置域名
 
@@ -33,21 +33,21 @@ ms.locfileid: "3533290"
 
 此主题介绍如何为 Microsoft Dynamics 365 电子商务站点配置域名。 
 
-## <a name="add-domains-during-e-commerce-initialization"></a>电子商务初始化期间添加域
+## <a name="add-domains-during-e-commerce-initialization"></a>在电子商务初始化期间添加域
 
-若要将域与电子商务环境关联，请按照[部署新电子商务站点](deploy-ecommerce-site.md)中的说明初始化电子商务。 初始化期间，将请您提供将用于预配电子商务环境的信息。 在**支持的主机名**字段中，添加计划用于此环境的所有域。 应该使用分号分隔多个域。 这样，将在所有必需电子商务组件中配置域，并且在您从内容交付网络 (CDN) 或 Web 服务器切换流量并将其指向电子商务前端时，可以使用这些域。
+若要将域与 Dynamics 365 Commerce 电子商务环境关联，请按照[部署新电子商务租户](deploy-ecommerce-site.md)中的说明初始化电子商务。 在初始化期间，系统将要求您提供将用于预配电子商务环境的信息。 在 **支持的主机名** 字段中，添加计划用于此环境的所有域。 应该使用分号分隔多个域。 这样，将在所有必需电子商务组件中配置域，并且在您从内容交付网络 (CDN) 或 Web 服务器切换流量并将其指向电子商务前端时，可以使用这些域。
 
-## <a name="add-domains-after-e-commerce-initialization"></a>电子商务初始化后添加域
+## <a name="add-domains-after-e-commerce-initialization"></a>在电子商务初始化后添加域
 
-若要在电子商务初始化之后将新域与电子商务环境关联，必须提交服务请求。
+若要在电子商务初始化之后将新域与电子商务环境关联，您必须提交服务请求。
 
 ## <a name="additional-resources"></a>其他资源
 
-[部署新的电子商务站点](deploy-ecommerce-site.md)
+[部署新的电子商务租户](deploy-ecommerce-site.md)
 
 [创建电子商务站点](create-ecommerce-site.md)
 
-[将在线站点与渠道关联](associate-site-online-store.md)
+[将 Dynamics 365 Commerce 站点与在线渠道相关联](associate-site-online-store.md)
 
 [管理 robots.txt 文件](manage-robots-txt-files.md)
 

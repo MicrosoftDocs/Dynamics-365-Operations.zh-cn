@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0343100362c4d7bc3e09334fb7890919bdb84941
-ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
+ms.openlocfilehash: e61fc5f7151a0bb61d496d47f4ad4e727a2a1d65
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435599"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529522"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>安装、设置和更新客户门户
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="licensing-requirements"></a>许可要求
 
@@ -59,10 +61,10 @@ ms.locfileid: "3435599"
 
 1. 转到 [make.powerapps.com](https://make.powerapps.com/)。
 2. 确保您使用的是启用了双写入的环境。
-3. 在**创建**选项卡上，向下滚动到**从模板开始**部分，然后选择名为**客户门户**的模板。
+3. 在 **创建** 选项卡上，向下滚动到 **从模板开始** 部分，然后选择名为 **客户门户** 的模板。
 4. 按照屏幕上的说明操作。
 
-预配完成后，您可以在**主页**页面**我的应用**部分访问客户门户。
+预配完成后，您可以在 **主页** 页面 **我的应用** 部分访问客户门户。
 
 > [!NOTE]
 > 如果您使用的环境中未安装双写入解决方案，您会收到错误消息，客户门户不会预配。

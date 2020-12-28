@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 20dd6ce5b12d39f0207244c404ae20cd61e3fa60
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977711"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440645"
 ---
 # <a name="cost-accounting-home-page"></a>成本核算主页
 

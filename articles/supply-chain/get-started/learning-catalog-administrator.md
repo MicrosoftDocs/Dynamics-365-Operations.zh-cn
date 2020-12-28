@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4b0c8a265971c4a3f0b83ac1d6404b7d4aa82660
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: ba93bdcb64237af627c5a6d5adb834583f08f768
+ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793795"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4516611"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Dynamics 365 Supply Chain Management 管理员学习目录
 
@@ -46,7 +46,7 @@ ms.locfileid: "3793795"
 | [管理 Finance and Operations 的实施项目](https://docs.microsoft.com/learn/paths/implement-finance-operations/) | 学习管理成功的 Finance and Operations 实施项目最重要的元素和最佳实践。 从计划和设计项目方法的第一步、使用 FastTrack 服务、开发策略、数据管理等等，一直到上线后维护和监视运营的最佳方法。 | 自由、自定进度的在线学习路径 | 11.5 小时 |
 | [系统管理主页](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | 此主题针对适用于 Microsoft Dynamics 365 for Finance and Operations 系统管理员的内容。 此内容将帮助您配置系统，使其顺畅有效地为您的组织工作。 | 文档 | |
 | [Finance and Operations：登录到 Dynamics 365 (DYN542PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-onboarding-to-dynamics-365-1-10-19) | FastTrack 为每个 Dynamics 365 for Finance and Operations 项目提供一个入职服务。 在此技术交流中，我们将介绍入职流程，引导您熟悉入职会话的内容，并介绍我们将在不久的将来如何提高入职的效率和易用性。 此会话尤其与在项目早期阶段（即达成许可协议到启动实施项目）与客户打交道的每个人关系最深。 | 自由录制 Web 会议 | 62 分钟 |
-| [本地（本地业务数据）部署 (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | 若需了解 Dynamics 365 for Finance and Operations Enterprise Edition 本地部署选项的概览，请加入此技术交流。 在此会话中，我们将查看本地部署的解决方案架构、ALM 方面、系统要求和如何设置 Life Cycle Services 项目。 | 自由录制 Web 会议 | 48 分钟 |
+| [本地（本地业务数据）部署 (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | 有关 Dynamics 365 for Finance and Operations Enterprise Edition 的本地部署选项的概述，请加入此技术交流。 在此会话中，我们将查看本地部署的解决方案架构、ALM 方面、系统要求和如何预配 Life Cycle Services 项目。 | 自由录制 Web 会议 | 48 分钟 |
 | [复制到法人 (DYN383PAL)](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017) | 在此会话中，我们将讨论数据管理框架中的新功能“复制到法人”。 我们将首先简要回顾平台 8 中为工作区、模板和数据项目向数据管理框架添加的新功能，然后讨论为“复制到法人”添加的其他功能。 | 自由录制 Web 会议 | 54 分钟 |
 
 ## <a name="core-development"></a>核心开发<a name="core-development"></a>

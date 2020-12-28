@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ee66bdb93d1252486efc7be25adeb6ee7cc6ce05
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144226"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440816"
 ---
 # <a name="settle-a-postdated-check-for-a-vendor"></a>结算供应商的远期支票
 
@@ -39,10 +39,10 @@ ms.locfileid: "3144226"
 
 本过程由财务主管完成。 该程序适用于 USMF 演示公司。
 
-1. 转到“应付账款”>“付款”>“供应商远期支票”。
+1. 转到“应付帐款”>“付款”>“供应商远期支票”。
 2. 单击“结算”。
 3. 单击“结算清算条目”。
-    * 结算供应商账户的支票交易记录。  
+    * 结算供应商帐户的支票交易记录。  
 4. 关闭该页面。
 5. 转到“总帐”>“日记帐条目”>“普通日记帐”。
 6. 在“显示”字段中，选择“全部”。

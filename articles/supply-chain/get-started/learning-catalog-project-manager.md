@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 80d52fa59f2f0e31595aefd7e18956f14e2c29a8
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: 73662929f116ce6128c57a71037298f208c3c16b
+ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793121"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4516661"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-supply-chain-management"></a>使用 Dynamics 365 Supply Chain Management 的实施项目经理学习目录
 
@@ -47,7 +47,7 @@ ms.locfileid: "3793121"
 | [迁移数据和实行 Finance and Operations 应用](https://docs.microsoft.com/learn/paths/migrate-data-go-live-finance-operations/) | 作为功能顾问，您必须了解如何准备要迁移的客户数据，使用数据管理，以及执行用户接受度测试以实行 Finance and Operations 应用。 | 自由、自定进度的在线学习路径 | 4 小时 |
 | [在 Finance and Operations 应用中配置和使用分析与报告](https://docs.microsoft.com/learn/paths/configure-analytics-reporting-finance-operations/) | 企业领导如果可以洞察基础财务数据和运营数据，就可以在公司内做出重要的决策。 业务用户还可以配置和使用电子报告工具来采用新的法规要求，并以所需格式生成业务文档与政府机构、银行和其他方进行电子信息交换，无需编写一行代码。 | 自由、自定进度的在线学习路径 | 4 小时 |
 | [Finance and Operations：登录到 Dynamics 365 (DYN542PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-onboarding-to-dynamics-365-1-10-19) | FastTrack 为每个 Dynamics 365 for Finance and Operations 项目提供一个入职服务。 在此技术交流中，我们将介绍入职流程，引导您熟悉入职会话的内容，并介绍我们将在不久的将来如何提高入职的效率和易用性。 此会话尤其与在项目早期阶段（即达成许可协议到启动实施项目）与客户打交道的每个人关系最深。 | 技术交流（录制的网络研讨会） | 62 分钟 |
-| [本地（本地业务数据）部署 (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | 若需了解 Dynamics 365 for Finance and Operations Enterprise Edition 本地部署选项的概览，请加入此技术交流。 在此会话中，我们将查看本地部署的解决方案架构、ALM 方面、系统要求和如何设置 Life Cycle Services 项目。 | 技术交流（录制的网络研讨会） | 48 分钟 |
+| [本地（本地业务数据）部署 (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | 有关 Dynamics 365 for Finance and Operations Enterprise Edition 的本地部署选项的概述，请加入此技术交流。 在此会话中，我们将查看本地部署的解决方案架构、ALM 方面、系统要求和如何预配 Life Cycle Services 项目。 | 技术交流（录制的网络研讨会） | 48 分钟 |
 | [实行计划 (DYN458PAL2)](https://community.dynamics.com/365/b/techtalks/posts/go-live-planning-8-9-18) | 我们将详细探讨实行流程，并探讨其最佳准备方法，以便让客户、合作伙伴和 Microsoft 尽可能顺利地实行。 | 技术交流（录制的网络研讨会） | 60 分钟 |
 | [环境计划 (DYN450PAL2)](https://community.dynamics.com/365/b/techtalks/posts/environment-planning-may-23-2018) | 请与我们一起加入这场环境计划技术交流。 了解标准环境，可能需要其他哪些环境，用于获取和部署这些环境的选项和时机，以及预期代码和环境之间的数据流。 | 技术交流（录制的网络研讨会） | 53 分钟 |
 | [Finance and Operations：功能管理 (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | 有关功能管理体验的技术交流。 提供一个工作区，可在其中查看、启用、禁用和安排每个发行版中已交付的功能。 默认情况下，新功能处于关闭状态。 可使用该工作区开启这些功能并查看其文档。 若要查看 10.0.3 中交付了哪些功能和我们对未来发行版的计划，请参加此会议。 | 技术交流（录制的网络研讨会） | 47 分钟 |

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 25991
 ms.assetid: eef0676f-c4b1-490e-a032-e9c8580f3fea
 ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff4e16a2e07002043331dcc3b2b04cb8288004b4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b68182ff7da07f350e2eacaf569089e0fdf44a8d
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176729"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695053"
 ---
 # <a name="navigation-search"></a>导航搜索
 
@@ -32,20 +31,20 @@ ms.locfileid: "2176729"
 
 此应用程序包括大量区域和页面，可帮助您执行各种任务。 要快速查找完成任务所需的页面，请使用导航搜索功能。
 
-要使用此功能，请单击**搜索**图标以显示**搜索**框。 然后，您可以在该框中键入一个或多个词。 系统将立即在该应用程序中搜索与您输入的词匹配的相关页面。 例如，您可键入“供应商发票”作为输入，然后系统将显示匹配该输入的结果。
+要使用此功能，请单击 **搜索** 图标以显示 **搜索** 框。 然后，您可以在该框中键入一个或多个词。 系统将立即在该应用程序中搜索与您输入的词匹配的相关页面。 例如，您可键入“供应商发票”作为输入，然后系统将显示匹配该输入的结果。
 
 > [!NOTE]
-> **搜索**框可帮助您查找并导航至页面。 它不会帮助您查找特定的数据或操作。
+> **搜索** 框可帮助您查找并导航至页面。 它不会帮助您查找特定的数据或操作。
 
 [![搜索框](media/navigation-search.png "搜索框")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>快速导航到特定页面
 
-此导航搜索功能还是帮助您快速导航至某个特定页面的绝佳方式。 例如，如果您是一位经常使用**付款日记帐**页面的应付账款文员，则可在**搜索**框中输入付款日记帐”。 由于该输入与页面标题完全匹配，因此将在搜索结果的顶部列出该页面，而且您可以快速导航到该页面。
+此导航搜索功能还是帮助您快速导航至某个特定页面的绝佳方式。 例如，如果您是一位经常使用 **付款日记帐** 页面的应付帐款文员，则可在 **搜索** 框中输入付款日记帐”。 由于该输入与页面标题完全匹配，因此将在搜索结果的顶部列出该页面，而且您可以快速导航到该页面。
 
 此搜索结果列表显示页面标题以及导航路径。 这将在应用程序中显示页面的位置。 还帮助您区分结果中的两个或两个以上的相似页面。
 
-当您搜索页面时，您的输入将针对页面标题及其导航路径进行匹配。 例如，如果您在**搜索**框中输入“应收”，则将在“应收帐款”区域中看到为您提供的页面的结果 – 即使页面标题不包含“应收”一词。
+当您搜索页面时，您的输入将针对页面标题及其导航路径进行匹配。 例如，如果您在 **搜索** 框中输入“应收”，则将在“应收帐款”区域中看到为您提供的页面的结果 – 即使页面标题不包含“应收”一词。
 
 ## <a name="quickly-navigate-to-a-page-based-on-the-technical-form-name"></a>基于技术窗体名称快速导航到页面
 

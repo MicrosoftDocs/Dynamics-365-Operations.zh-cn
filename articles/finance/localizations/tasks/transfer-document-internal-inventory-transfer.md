@@ -17,11 +17,11 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 5cb0d3d51bf30717f05a4daf1a098565d5d48621
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143401"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440778"
 ---
 # <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a>为内部库存转移生成转移文档
 

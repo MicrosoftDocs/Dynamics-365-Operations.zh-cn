@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1f19049b362070e2573db769bf7070ace0028406
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 8965636e539345be5ef0ad591f7017938efd322d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005932"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529796"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-27-2019"></a>Dynamics 365 for Talent 的新增功能或更改（2019 年 8 月 27 日）
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 for Talent 中的新增功能和更改的功能。
 
@@ -65,11 +67,11 @@ ms.locfileid: "3005932"
 
 ### <a name="the-cdsjobposition-entity-displays-an-error-when-valid-to-date-is-set-349387"></a>CDSJobPosition 实体在设置了失效日期时显示错误 (349387)
 
-在此版本中，**CDSJobPosition** 实体上的**职位详细信息**和**职位持续时间**数据源允许从 Common Data Service 到**生效日期**字段的编辑。 
+在此版本中，**CDSJobPosition** 实体上的 **职位详细信息** 和 **职位持续时间** 数据源允许从 Common Data Service 到 **生效日期** 字段的编辑。 
 
 ### <a name="for-employee-termination-the-last-day-worked-is-populated-on-assignment-end-date-332496"></a>对于员工终止雇用，工作的最后一天将在分配结束日期填充 (332496)
 
-此更改现在将职位的**分配结束日期**默认为**雇用结束日期**。 您可以在输入数据时更改这些默认值。
+此更改现在将职位的 **分配结束日期** 默认为 **雇用结束日期**。 您可以在输入数据时更改这些默认值。
 
 ### <a name="legal-entities-arent-limited-with-hire-338871"></a>法人不受雇用限制 (338871)
  
@@ -79,7 +81,7 @@ ms.locfileid: "3005932"
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>简化的员工条目和导航
 
-此功能现在可在沙盒和试用环境中使用。 要打开此功能，请导航至**系统管理 > 链接 > 设置 > 系统参数 > 预览功能**。 选择**增强的工作人员窗体和导航**。 这为所有用户启用了这些更改。 您可以随时关闭此选项。
+此功能现在可在沙盒和试用环境中使用。 要打开此功能，请导航至 **系统管理 > 链接 > 设置 > 系统参数 > 预览功能**。 选择 **增强的工作人员窗体和导航**。 这为所有用户启用了这些更改。 您可以随时关闭此选项。
 
 有关详细信息，请参阅[简化的员工输入和导航](./streamlined-employee-entry.md)。
 

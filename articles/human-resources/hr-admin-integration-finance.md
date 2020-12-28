@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f542bb12910e3a4884c38a2fb24831c42a545908
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431260"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527902"
 ---
 # <a name="configure-integration-with-finance"></a>配置与 Finance 的集成
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 集成 Dynamics 365 Human Resources 与 Dynamics 365 Finance，您可以使用[数据集成器](https://docs.microsoft.com/powerapps/administrator/data-integrator)中的“Human Resources 到 Finance”模板。 “Human Resources 到 Finance”模板支持工作、职位和工作人员数据流。 此模板允许数据从 Human Resources 流向 Finance，但不允许数据从 Finance 流向 Human Resources。
 
@@ -51,7 +53,7 @@ ms.locfileid: "3431260"
 
 1. 打开 [Power Apps 管理中心](https://admin.powerapps.com/)。 
 
-2. 选择**项目**，然后选择右上角的**新建项目**。 为要集成到 Finance 中的每个法人创建一个新项目。
+2. 选择 **项目**，然后选择右上角的 **新建项目**。 为要集成到 Finance 中的每个法人创建一个新项目。
 
 3. 选择 **Human Resources（Human Resources Common Data Service 到 Finance）** 将记录从 Human Resources 同步到 Finance。
 
@@ -244,7 +246,7 @@ ms.locfileid: "3431260"
 
 从 Human Resources 到 Finance 的集成将尝试根据 ID 匹配记录。 如果记录匹配，数据集成器将使用 Human Resources 中的值覆盖 Finance 中的数据。 但是，如果逻辑上这些记录是不同的，但根据各自的编号规则在 Human Resources 或 Finance 中生成了相同的 ID，则可能发生问题。
 
-**工作人员**（使用**人员编号**进行匹配）和**职位**可能发生此错误。 工作不使用编号规则。 结果，如果 Human Resources 和 Finance 中同时存在同一个工作 ID，Human Resources 信息将覆盖 Dynamics 365 Finance 信息。 
+**工作人员**（使用 **人员编号** 进行匹配）和 **职位** 可能发生此错误。 工作不使用编号规则。 结果，如果 Human Resources 和 Finance 中同时存在同一个工作 ID，Human Resources 信息将覆盖 Dynamics 365 Finance 信息。 
 
 为防止出现重复 ID 问题，您可以在[编号规则](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json)中添加前缀，或在编号规则中设置一个超出其他系统范围的开始编号。 
 

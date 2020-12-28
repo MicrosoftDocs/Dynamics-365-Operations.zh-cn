@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 38c30a878ada9ed0b63ade3d0f234aeffce0ad12
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 2539baba84bffeb21d351cc307191eea3e940515
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897872"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528187"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-30-2019"></a>Dynamics 365 Talent（2019 年 4 月 30 日）中的新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 
@@ -43,7 +45,7 @@ ms.locfileid: "2897872"
 
 ### <a name="provide-feedback"></a>提供反馈
 
-Talent 中用于提供反馈的选项位于**帮助**菜单 (**?**) 上。 可通过此菜单访问下列资源：
+Talent 中用于提供反馈的选项位于 **帮助** 菜单 (**?**) 上。 可通过此菜单访问下列资源：
 
 - 反馈
 - 帮助
@@ -94,8 +96,8 @@ Talent 中用于提供反馈的选项位于**帮助**菜单 (**?**) 上。 可�
 
 跟踪员工休假和了解休假的计算方法这一功能不仅可以帮助人力资源 (HR) 解答员工的问题，还可以帮助确保员工的休假奖励精确无误。 HR 现在可以以新的视觉查看交易记录（授权、应计、调整和请求），这样 HR 人员就可以查看余额背后的原因。
 
-## <a name="coming-soon"></a>即将到期
+## <a name="coming-soon"></a>即将推出
 
 ### <a name="email-support-for-alerts"></a>警报的电子邮件支持
 
-在 Finance and Operations 的平台更新 26 中，用户可创建警报规则，用于在被事件触发后自动为联系人发送电子邮件通知。
+安装 Finance and Operations 平台更新 26 之后，用户可创建警报规则，用于在事件触发通知后自动向联系人发送电子邮件通知。

@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a751cbffd98b8d47ca7dad222f0ce374381a393d
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645305"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528285"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>创建和管理客户门户用户
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 在现成的实现中，用户无法自助注册使用客户门户创建的网站。 要登录和使用网站，必须由管理员邀请用户。Microsoft 有意阻止了用户自助注册的能力。
 
@@ -37,11 +39,11 @@ ms.locfileid: "3645305"
 
 ## <a name="prerequisite-setup"></a>先决条件设置
 
-Power Apps 门户中的联系人作为记录存储在 Common Data Service 中的**联系人**实体中。 然后双写入根据需要将这些记录同步到 Microsoft Dynamics 365 Supply Chain Management。
+Power Apps 门户中的联系人作为记录存储在 Common Data Service 中的 **联系人** 实体中。 然后双写入根据需要将这些记录同步到 Microsoft Dynamics 365 Supply Chain Management。
 
 ![客户门户联系人的系统图](media/customer-portal-contacts.png "客户门户联系人的系统图")
 
-在开始邀请新客户之前，请确保以双写入形式启用了**联系人**实体映射。
+在开始邀请新客户之前，请确保以双写入形式启用了 **联系人** 实体映射。
 
 ## <a name="the-invitation-process"></a>邀请流程
 
@@ -49,8 +51,8 @@ Power Apps 门户中的联系人作为记录存储在 Common Data Service 中的
 
 在邀请客户加入客户门户之前，请确保客户的[联系人记录](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts)已通过以下方式提供并设置：
 
-1. 将**公司**字段设置为您希望客户在 Supply Chain Management 中所属的法人。
-2. 将**帐号**字段设置为您希望用户在 Supply Chain Management 中拥有的客户帐号。
+1. 将 **公司** 字段设置为您希望客户在 Supply Chain Management 中所属的法人。
+2. 将 **帐号** 字段设置为您希望用户在 Supply Chain Management 中拥有的客户帐号。
 
 联系人创建后，您应该可以在 Supply Chain Management 中看到它。
 

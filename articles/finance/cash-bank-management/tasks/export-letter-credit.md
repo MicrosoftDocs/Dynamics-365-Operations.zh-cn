@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 3cd18320ca8505b1357ce505dfb4c94e81aaae91
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141641"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440715"
 ---
 # <a name="export-letter-of-credit"></a>导出信用证
 
@@ -116,7 +116,7 @@ ms.locfileid: "3141641"
     * 核实“导出信用证”的装运状态为“已开发票”。  
 
 ## <a name="customer-payment"></a>客户 - 付款
-1. 转到“应收账款”>“付款”>“付款日记帐”。
+1. 转到“应收帐款”>“付款”>“付款日记帐”。
 2. 单击“新建”。
 3. 在列表中，标记所选的行。
 4. 在“名称”字段中，单击下拉按钮以打开查找。

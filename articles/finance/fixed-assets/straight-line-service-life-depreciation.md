@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7b7b9b240156263b4dc1bc308a7f4457380a27f3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176579"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440786"
 ---
 # <a name="straight-line-service-life-depreciation"></a>直线法折旧
 

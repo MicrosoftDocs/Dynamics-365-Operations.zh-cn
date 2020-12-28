@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f2ee23733d686480cd4323cab952ae12eceaf142
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 20dc0768463d9a5d6762cb062deb0bdbe4d53fe3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897572"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528661"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>Dynamics 365 Talent（2019 年 6 月 11 日）新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 
@@ -33,7 +35,7 @@ ms.locfileid: "2897572"
 
 ### <a name="search-engine-optimization-for-job-posts"></a>针对工作发布的搜索引擎优化
 
-在 Dynamics 365 Talent: Attract: 管理中心中开启**搜索引擎优化**之后，只要激活并发布新工作或更新现有工作，Attract 都会通知 Google Indexing 应用程序编程接口 (API) 去抓取网页。 这样就会在 Google 和其他搜索引擎的搜索结果中显示该作业。
+在 Dynamics 365 Talent: Attract: 管理中心中开启 **搜索引擎优化** 之后，只要激活并发布新工作或更新现有工作，Attract 都会通知 Google Indexing 应用程序编程接口 (API) 去抓取网页。 这样就会在 Google 和其他搜索引擎的搜索结果中显示该作业。
 
 同样，只要取消发布工作，Attract 就会通知 Indexing API，这样取消发布的工作就会不再在搜索结果中显示。
 
@@ -44,7 +46,7 @@ ms.locfileid: "2897572"
 
 ### <a name="job-approvals-appear-on-the-home-page"></a>主页中显示工作审核
 
-仪表板的**审核**部分中将显示审核。 审核人可以在**已分配给您**（其中显示工作 ID、工作头衔、其他审核人和作业的分配日期）下查看自己的审核。 提交待审核工作的用户可以在**您请求的**（其中显示仍然必须审核提交的工作的审核者）下查看自己的工作。
+仪表板的 **审核** 部分中将显示审核。 审核人可以在 **已分配给您**（其中显示工作 ID、工作头衔、其他审核人和作业的分配日期）下查看自己的审核。 提交待审核工作的用户可以在 **您请求的**（其中显示仍然必须审核提交的工作的审核者）下查看自己的工作。
 
 ## <a name="changes-in-onboard"></a>Onboard 中的更改
 
@@ -54,13 +56,13 @@ ms.locfileid: "2897572"
 
 本部分中介绍的更改适用于内部版本号 8.1.2337。
 
-### <a name="platform-update-27-for-finance-and-operations"></a>Finance and Operations 的平台更新 27
+### <a name="platform-update-27-for-finance-and-operations"></a>Finance and Operations 平台更新 27
 
-有关 Finance and Operations 的平台更新 27 的更多详细信息，请参阅 [Dynamics 365 Finance and Operations 平台更新 27（2019 年 6 月）的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27)。
+有关 Finance and Operations 平台更新 27 的其他详细信息，请参阅 [Dynamics 365 Finance and Operations 平台更新 27（2019 年 6 月）中的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27)。
 
 ### <a name="feature-management-workspace-in-talent"></a>Talent 中的功能管理工作区
 
-可使用**系统管理**中的**功能管理**工作区查看、启用、禁用和计划各版本中提供的功能。 默认情况下，新功能处于关闭状态。 可使用**功能管理**工作区开启这些功能并查看其文档。
+可使用 **系统管理** 中的 **功能管理** 工作区查看、启用、禁用和计划各版本中提供的功能。 默认情况下，新功能处于关闭状态。 可使用 **功能管理** 工作区开启这些功能并查看其文档。
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Common Data Service 实体对自定义字段的支持
 
@@ -76,7 +78,7 @@ ms.locfileid: "2897572"
 
 有关如何发布更改的详细信息，请参阅[配置 Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent)。
 
-配置新的 Talent 实例时，可指示实例类型为“生产”还是“沙盒”。 “沙盒”实例类型可用于提前测试新功能。 将把所有现有 Talent 实例更新为**生产**实例类型。 如果需要将现有实例之一更新为**沙盒**实例类型，请联系[支持](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support)以发起更改请求。
+配置新的 Talent 实例时，可指示实例类型为“生产”还是“沙盒”。 “沙盒”实例类型可用于提前测试新功能。 将把所有现有 Talent 实例更新为 **生产** 实例类型。 如果需要将现有实例之一更新为 **沙盒** 实例类型，请联系[支持](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support)以发起更改请求。
 
 ### <a name="restrict-the-leave-types-in-time-off-requests"></a>限制请假中的休假类型
 

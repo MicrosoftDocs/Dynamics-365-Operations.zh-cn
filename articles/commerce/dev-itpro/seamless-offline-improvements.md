@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.custom: 141393
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 3c2a644fd7096668fcefc73c67068fccde6894b0
-ms.sourcegitcommit: 472f8bfc02acf80b07caf7c53bbb397411e946cc
+ms.openlocfilehash: 0bf37453740d1c2b09b5bd7ae4841f23da20a3ec
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3040225"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687529"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>礼品卡和贷项通知单操作无缝脱机切换
 
@@ -37,7 +36,7 @@ ms.locfileid: "3040225"
 
 但是，如果在礼品卡已添加到交易之后 POS 断开连接，礼品卡可能变为不可用。 为了帮助避免发生这种情况，Dynamics 365 Commerce 采用了一个参数，用于在 POS 脱机时完成包含礼品卡行的交易。 如果开启此参数，将把已强制脱机的礼品卡交易记录与脱机交易记录一起保存，并在同步脱机交易记录时间这些交易记录同步到 Commerce Headquarters。 同步还将解锁礼品卡，使其可在另一台终端中使用。
 
-若要在切换到脱机模式后让此功能完成礼品卡交易，请转到 **Commerce 参数**页中的**过帐**选项卡。 在该选项卡上，找到**礼品卡**快速选项卡，然后将**允许在脱机模式下完成礼品卡交易**设置为**是**。
+若要在切换到脱机模式后让此功能完成礼品卡交易，请转到 **Commerce 参数** 页中的 **过帐** 选项卡。 在该选项卡上，找到 **礼品卡** 快速选项卡，然后将 **允许在脱机模式下完成礼品卡交易** 设置为 **是**。
 
 ![脱机礼品卡设置](../media/gift.png)
 
@@ -47,7 +46,7 @@ ms.locfileid: "3040225"
 
 和内部礼品卡一样，贷项通知单集中存储在 Commerce Headquarters 中。 Commerce 采用了一个参数，用于在 POS 脱机时完成贷项通知单交易。 此参数的工作方式类似上一节中介绍的礼品卡参数。 开启此参数之后，将把已被强制脱机的贷项通知单交易记录和 POS 脱机期间执行的其他交易记录一起同步回渠道数据库。
 
-若要在切换到脱机模式后让此功能完成贷项通知单交易，请转到 **Commerce 参数**页中的**过帐**选项卡。 在该选项卡上，找到**贷项通知单**快速选项卡，然后将**允许在脱机模式下完成贷项通知单交易**设置为**是**。
+若要在切换到脱机模式后让此功能完成贷项通知单交易，请转到 **Commerce 参数** 页中的 **过帐** 选项卡。 在该选项卡上，找到 **贷项通知单** 快速选项卡，然后将 **允许在脱机模式下完成贷项通知单交易** 设置为 **是**。
 
 ![脱机贷项通知单设置](../media/creditmemo.png)
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c8e0288da16829c04a9b97c0a52caa8bd27cddf8
-ms.sourcegitcommit: fde8045ea49d0cf26d5e7ac5a0da5c0d3d69d5bc
+ms.openlocfilehash: 988fa0b6d39a49b973626a8a0abe83c546f42297
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "3166490"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529998"
 ---
 # <a name="common-data-service-entities"></a>Common Data Service 实体
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Microsoft Dynamics 365 Human Resources 使用 Common Data Service 实现可扩展性和集成方案。
 
@@ -93,7 +95,7 @@ Common Data Service 中提供以下 Human Resources 实体。
 | 职位 | cdm_title |
 
 > [!NOTE]
-> **职位类型**、**职位工作人员分配**和**雇用**的财务维度提供到 Common Data Service 的单向集成。 财务维度更新现在不能从 Common Data Service 同步到 Human Resources。 
+> **职位类型**、**职位工作人员分配** 和 **雇用** 的财务维度提供到 Common Data Service 的单向集成。 财务维度更新现在不能从 Common Data Service 同步到 Human Resources。 
 
 ## <a name="leave-and-absence-entities"></a>休假和缺勤实体
 

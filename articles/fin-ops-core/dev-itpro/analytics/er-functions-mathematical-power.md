@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 080b2f9b1ada55209c9470386aceab2d3ef456af
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 858f59cf0bc6387b09cbb6f0c59f58ba8107582c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744567"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683321"
 ---
 # <a name="power-er-function"></a>POWER ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`POWER` 函数返回一个*实数*值，其代表将指定正数提高到指定幂的结果的值。
+`POWER` 函数返回一个 *实数* 值，其代表将指定正数提高到指定幂的结果的值。
 
 ## <a name="syntax"></a>语法
 
@@ -39,11 +38,11 @@ POWER (number, power)
 
 ## <a name="arguments"></a>参数
 
-`number`：*实数*或*整数*
+`number`：*实数* 或 *整数*
 
 必须提高到指定幂的数值。
 
-`power`：*实数*或*整数*
+`power`：*实数* 或 *整数*
 
 代表特定幂的数值。
 

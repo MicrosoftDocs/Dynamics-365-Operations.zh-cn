@@ -17,11 +17,11 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 38afbc3a49d9020540a56e58ce51196b53d6a9e1
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143424"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440638"
 ---
 # <a name="setup-method-of-payment-for-iso20022-direct-debit"></a>为 ISO20022 银行转帐设置付款方式
 
@@ -41,7 +41,7 @@ ms.locfileid: "3143424"
 
 这是五个用于演示使用电子申报配置的客户付款流程的过程中的第三个。
 
-1. 转到“应收账款”>“付款设置”>“付款方式”。
+1. 转到“应收帐款”>“付款设置”>“付款方式”。
 2. 使用“快速筛选器”以查找记录。 例如，在含有“ELECTRONIC”值的“付款方式”字段中筛选。
 3. 单击“编辑”。
 4. 在“付款帐户”字段中，指定“DEMF OPER”值。

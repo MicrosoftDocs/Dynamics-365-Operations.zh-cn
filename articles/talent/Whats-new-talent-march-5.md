@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 855eafaca88d180997cf5a68c7f0fe975c177f88
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 115d7cd3d71eaddce2434cb1939c503d36bccdf8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898911"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527282"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Dynamics 365 Talent（2019 年 3 月 5 日）中的新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Talent 中的新增功能和更改的功能。
 
@@ -33,10 +35,10 @@ ms.locfileid: "2898911"
 
 ### <a name="extending-option-sets-in-attract"></a>扩展了 Attract 中的选项集
 
-在 Attract 中，有多个字段是 Common Data Service 内的选项集。 已引入了新功能，用于扩展选项集，从**拒绝原因**字段、**雇佣类型**字段和**任职类型**字段开始。
+在 Attract 中，有多个字段是 Common Data Service 内的选项集。 已引入了新功能，用于扩展选项集，从 **拒绝原因** 字段、**雇佣类型** 字段和 **任职类型** 字段开始。
 
 > [!IMPORTANT]
-> 工作发布到 LinkedIn 这一功能要求使用**工作详细信息**页中的**雇佣类型**和**任职类型**字段。 这些字段中的默认值受 LinkedIn 支持，将在发布工作时显示。 如果要将工作发布到 LinkedIn，并且修改这些字段的现有选项集值，仍将发布工作，但是 LinkedIn 不会显示自定义的**雇佣类型**和**任职类型**值。
+> 工作发布到 LinkedIn 这一功能要求使用 **工作详细信息** 页中的 **雇佣类型** 和 **任职类型** 字段。 这些字段中的默认值受 LinkedIn 支持，将在发布工作时显示。 如果要将工作发布到 LinkedIn，并且修改这些字段的现有选项集值，仍将发布工作，但是 LinkedIn 不会显示自定义的 **雇佣类型** 和 **任职类型** 值。
 
 ## <a name="changes-in-onboarding"></a>Onboarding 中的更改
 
@@ -76,5 +78,5 @@ ms.locfileid: "2898911"
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>高级薪酬安全（固定和可变）
 在许多组织中，薪酬和福利经理只能访问特定薪酬记录，如管理层或区域员工的记录。 通过此更改，您可以管理和维护组织中不同员工群的薪酬计划。 可为固定计划和可变计划分配安全角色，用于决定这些计划和与其有关的员工数据（例如，工资和奖金记录）的访问权限。 只有具有给定访问权限的角色才能处理这些员工的薪酬。
 
-###  <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operations 的平台更新 24
-有关 Finance and Operations 的平台更新 24 的更多详细信息，请参阅 [Finance and Operations 平台更新 24（2019 年 3 月）中的新增功能或更改](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)。
+###  <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operations 平台更新 24
+有关 Finance and Operations 平台更新 24 的更多详细信息，请参阅 [Finance and Operations 平台更新 24（2019 年 3 月）中的新增或更改功能](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)。

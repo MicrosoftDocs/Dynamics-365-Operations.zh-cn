@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 255e45ec724eb4e6a4a87c65f62867eb50c7df93
-ms.sourcegitcommit: cb94f16d69455cbf6fd059f9f394e7623810c924
+ms.openlocfilehash: c5b1bc5f227a0944c513dee2c12a5042decde872
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4011601"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684227"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>通过重新应用 Excel 模板修改格式
 

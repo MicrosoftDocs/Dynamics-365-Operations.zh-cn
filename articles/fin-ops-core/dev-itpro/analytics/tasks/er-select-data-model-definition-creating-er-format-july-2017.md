@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 374c31b5ea9160fba773e82f658e8de05c67cab4
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 44288cc3979a0ac2ed6b4a8478aac21a85aca24e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143238"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684203"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>创建格式时选择数据模型定义
 

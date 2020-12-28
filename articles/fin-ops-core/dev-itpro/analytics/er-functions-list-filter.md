@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d281fe710381b0ecb075a0d9281d46bd6edf987d
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 55fa3d4ad4427e2a45f7c5fce679c50a91c40b6d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745289"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679430"
 ---
 # <a name="filter-er-function"></a>FILTER ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`FILTER` 函数在查询更改以针对指定条件进行筛选后作为*记录列表*值返回指定列表。
+`FILTER` 函数在查询更改以针对指定条件进行筛选后作为 *记录列表* 值返回指定列表。
 
 ## <a name="syntax"></a>语法
 
@@ -41,7 +40,7 @@ FILTER (list, condition)
 
 `list`：*记录列表*
 
-*记录列表*数据类型的数据源的有效路径。
+*记录列表* 数据类型的数据源的有效路径。
 
 `condition`：*布尔值*
 
@@ -55,21 +54,21 @@ FILTER (list, condition)
 
 ## <a name="usage-notes"></a>使用说明
 
-此函数与 [WHERE](er-functions-list-where.md) 函数不同，因为指定条件适用于数据库级别的*表格记录*类型的任何电子申报 (ER) 数据源。 可使用表格和关系定义列表和条件。
+此函数与 [WHERE](er-functions-list-where.md) 函数不同，因为指定条件适用于数据库级别的 *表格记录* 类型的任何电子申报 (ER) 数据源。 可使用表格和关系定义列表和条件。
 
 如果为此函数配置的一个或两个参数（`list` 和 `condition`）不允许将此请求转换为直接 SQL 调用，在设计时会引发异常。 此异常通知用户 `list` 或 `condition` 不能用于查询数据库。
 
 ## <a name="example-1"></a>示例 1
 
-如果**供应商**配置为引用 VendTable 表的 ER 数据源，表达式 `FILTER (Vendors, Vendors.VendGroup = "40")` 将返回仅包含属于供应商组 40 的供应商的列表。
+如果 **供应商** 配置为引用 VendTable 表的 ER 数据源，表达式 `FILTER (Vendors, Vendors.VendGroup = "40")` 将返回仅包含属于供应商组 40 的供应商的列表。
 
 ## <a name="example-2"></a>示例 2
 
-如果**供应商**配置为引用 VendTable 表的 ER 数据源，并且配置为 ER 数据源的 **parmVendorBankGroup** 返回*字符串*数据类型的值，表达式 `FILTER ( Vendor.'<Relations'.VendBankAccount, Vendor.'<Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)` 将返回仅包含属于特定银行组的供应商帐户的列表。
+如果 **供应商** 配置为引用 VendTable 表的 ER 数据源，并且配置为 ER 数据源的 **parmVendorBankGroup** 返回 *字符串* 数据类型的值，表达式 `FILTER ( Vendor.'<Relations'.VendBankAccount, Vendor.'<Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)` 将返回仅包含属于特定银行组的供应商帐户的列表。
 
 ## <a name="example-3"></a>示例 3
 
-输入*计算字段*类型的数据源 **DS**，它包含表达式 `SPLIT ("A,B,C", ",")`。 然后输入另一个表达式 `FILTER( DS, DS.Value = "B")`。 当您尝试在 ER 公式设计器中保存此表达式时，将引发以下异常：“验证错误：FILTER 函数的列表表达式不可查询。”
+输入 *计算字段* 类型的数据源 **DS**，它包含表达式 `SPLIT ("A,B,C", ",")`。 然后输入另一个表达式 `FILTER( DS, DS.Value = "B")`。 当您尝试在 ER 公式设计器中保存此表达式时，将引发以下异常：“验证错误：FILTER 函数的列表表达式不可查询。”
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0912b620fc70f8ed33e336da9ecefacd1f4e376e
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: f1c4ddf0fac5ba962c3dab545bfa7e0df4afa948
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143169"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684107"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>使用模型映射配置在数据库级别执行聚合计算
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1be555c35ef45029f2a26716e57a4e05c9be6112
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 29e941ddab1b2746ccd74d6e335fec7742d1391e
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896834"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529600"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-may-28-2019"></a>Dynamics 365 Talent（2019 年 5 月 28 日）中的新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
@@ -36,7 +38,7 @@ ms.locfileid: "2896834"
 
 ### <a name="job-approvals-on-home-page"></a>主页中的工作审核
 
-仪表板的**审核**部分中将显示审核。 审核人可以在**已分配给您**（其中显示工作 ID、头衔、其他审核人和分配的日期）下查看自己的审核。 提交工作共审核的用户可以在**您请求的**（其中显示仍然需要审核提交的工作的审核者）下查看自己的工作。
+仪表板的 **审核** 部分中将显示审核。 审核人可以在 **已分配给您**（其中显示工作 ID、头衔、其他审核人和分配的日期）下查看自己的审核。 提交工作共审核的用户可以在 **您请求的**（其中显示仍然需要审核提交的工作的审核者）下查看自己的工作。
 
 ## <a name="changes-in-onboard"></a>Onboard 中的更改
 本版本中包含 Dynamics 365 Talent: Onboard 的小缺陷修复。
@@ -49,7 +51,7 @@ ms.locfileid: "2896834"
 在此版本中，以下 Common Data Service 实体现在支持自定义字段：“福利计算比率详细信息”、“工作日历假期行”和“雇用”。
 
 ### <a name="copy-position-now-includes-payroll-details"></a>复制职位现在包含工资明细
-使用**复制职位**并选择所有职位时，复制信息中现在包含工资明细信息。 
+使用 **复制职位** 并选择所有职位时，复制信息中现在包含工资明细信息。 
 
 ## <a name="in-preview-in-core-hr"></a>Core HR 中的预览中
 
@@ -59,7 +61,7 @@ ms.locfileid: "2896834"
 
 ### <a name="new-page-to-validate-position-hierarchy-data"></a>用于验证职位层次结构数据的新页面
 
-HR 和管理员现在可以验证管理层次结构以查找任何可能已无意导入的循环引用。 可从**组织管理 > 链接 > 职位 > 职位层次结构验证**访问这个新页面。
+HR 和管理员现在可以验证管理层次结构以查找任何可能已无意导入的循环引用。 可从 **组织管理 > 链接 > 职位 > 职位层次结构验证** 访问这个新页面。
 
 ### <a name="specify-reason-codes-on-leave-types"></a>指定休假类型的原因代码
 

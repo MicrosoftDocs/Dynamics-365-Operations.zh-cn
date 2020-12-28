@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-09-10
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 0aadecd5b37759492f7895ccfda1a777793a08b3
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006233"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460441"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-september-10-2019"></a>Dynamics 365 for Talent（2019 年 9 月 10 日）中的新增功能或更改
 
@@ -101,6 +101,6 @@ ms.locfileid: "3006233"
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>简化的员工条目和导航
 
-此功能现在可在沙盒环境中使用。 要打开此功能，请导航至**系统管理 > 链接 > 设置 > 系统参数 > 预览功能**。 选择**增强的工作人员窗体和导航**。 这将为所有用户启用这些更改。 您可以随时关闭此选项。
+此功能现在可在沙盒环境中使用。 要打开此功能，请导航至 **系统管理 > 链接 > 设置 > 系统参数 > 预览功能**。 选择 **增强的工作人员窗体和导航**。 这将为所有用户启用这些更改。 您可以随时关闭此选项。
 
 有关详细信息，请参阅[简化的员工输入和导航](./streamlined-employee-entry.md)。

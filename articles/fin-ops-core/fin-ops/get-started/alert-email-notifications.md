@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: a0cf8037ba151bb4e68da1cf4609fb2e4806303a
-ms.sourcegitcommit: b952b9f9066a5317259b8344db4c5d99eab4bf3c
+ms.openlocfilehash: bf485b407d56b21621617682bab3492925f7f9a4
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "3165767"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693814"
 ---
 # <a name="client-alert-notifications-by-email"></a>通过电子邮件发送的客户端预警通知
 
@@ -29,7 +28,7 @@ ms.locfileid: "3165767"
 
 您可以定义在预定义事件发生时监控筛选出的数据视图和自动发送电子邮件通知的自定义预警规则。 发送电子邮件通知的选项可用于所有支持的预警类型，也可为现有的预警规则打开。
 
-您可以使用内置控件创建监控筛选出的系统批处理作业视图的预警规则。 通过监视**状态**字段值，还可以配置在批处理作业失败时发送电子邮件的预警规则。 在创建这些预警规则后，您不必再检查报表了解对业务数据所作的更改。 您可以让智能更改检测服务为您执行监控。
+您可以使用内置控件创建监控筛选出的系统批处理作业视图的预警规则。 通过监视 **状态** 字段值，还可以配置在批处理作业失败时发送电子邮件的预警规则。 在创建这些预警规则后，您不必再检查报表了解对业务数据所作的更改。 您可以让智能更改检测服务为您执行监控。
 
 客户端预警依靠通过与 Microsoft Office 的集成提供的电子邮件子系统。 我们建议您使用简单邮件传输协议 (SMTP) 提供程序，以使电子邮件分发不必依靠本地的邮件客户端。
 
@@ -37,12 +36,12 @@ ms.locfileid: "3165767"
 
 有关如何配置电子邮件的详细信息，请参阅[配置和发送电子邮件](../organization-administration/configure-email.md)。
 
-以下图像显示**创建预警规则**对话框，其现在包括**发送电子邮件**选项。
+以下图像显示 **创建预警规则** 对话框，其现在包括 **发送电子邮件** 选项。
 
 [![创建将“发送电子邮件”选项设置为“是”的预警规则对话框](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
 
 > [!NOTE]
-> 在**发送电子邮件**选项设置为**是**时，预警通知将继续从操作中心提供。
+> 在 **发送电子邮件** 选项设置为 **是** 时，预警通知将继续从操作中心提供。
 
 ## <a name="alert-notification-email-templates"></a>预警通知电子邮件模板
 

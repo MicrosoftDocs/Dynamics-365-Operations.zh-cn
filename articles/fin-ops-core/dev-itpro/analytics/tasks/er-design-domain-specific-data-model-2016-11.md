@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERDataContainerDescriptorReferenceSwitchDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f2b93f74a121de4c23eb5dddfb94c6596b78544d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 268f661079b80551b36ad2e1877615d878350051
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142654"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681941"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER 设计域特定数据模型
 

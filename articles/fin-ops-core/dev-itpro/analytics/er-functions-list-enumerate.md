@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1871ee41267c2c0e8b35007a47c9601079f05d7
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 34ebbec94644276be4ef9beb1c77638606dd37a0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745241"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679454"
 ---
 # <a name="enumerate-er-function"></a>ENUMERATE ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`ENUMERATE` 函数返回一个新的*记录列表*值，此值由指定列表的枚举记录组成。
+`ENUMERATE` 函数返回一个新的 *记录列表* 值，此值由指定列表的枚举记录组成。
 
 ## <a name="syntax"></a>语法
 
@@ -41,7 +40,7 @@ ENUMERATE (list)
 
 `list`：*记录列表*
 
-*记录列表*数据类型的数据源的有效路径。
+*记录列表* 数据类型的数据源的有效路径。
 
 ## <a name="return-values"></a>返回值
 
@@ -53,12 +52,12 @@ ENUMERATE (list)
 
 返回的枚举记录列表包含以下其他元素：
 
-- 字段的记录（**值**组件）
-- 当前记录索引（**编号**组件）
+- 字段的记录（**值** 组件）
+- 当前记录索引（**编号** 组件）
 
 ## <a name="example"></a>示例
 
-在下图中中，**枚举**数据源创建为引用 VendTable 表的**供应商**数据源的供应商记录的枚举列表。
+在下图中中，**枚举** 数据源创建为引用 VendTable 表的 **供应商** 数据源的供应商记录的枚举列表。
 
 <a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a>
 

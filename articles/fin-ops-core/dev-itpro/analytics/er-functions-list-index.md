@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 051e22daa3fe2d6c328e36403201d940f724bd29
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: a49def8aaa5398fbc7e0f06cc26df8a745207c93
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745169"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687983"
 ---
 # <a name="index-er-function"></a>INDEX ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`INDEX` 函数返回使用指定列表中的指定数字索引选择的*容器（记录）* 值。 如果索引超出了指定列表中的记录范围，将引发异常。
+`INDEX` 函数返回使用指定列表中的指定数字索引选择的 *容器（记录）* 值。 如果索引超出了指定列表中的记录范围，将引发异常。
 
 ## <a name="syntax"></a>语法
 
@@ -41,7 +40,7 @@ INDEX (list, index)
 
 `list`：*记录列表*
 
-*记录列表*数据类型的数据源的有效路径。
+*记录列表* 数据类型的数据源的有效路径。
 
 `index`：*整数*
 
@@ -55,11 +54,11 @@ INDEX (list, index)
 
 ## <a name="example-1"></a>示例 1
 
-如果输入*计算字段*类型的数据源 **DS**，而该数据源中包含表达式 `SPLIT ("A|B|C", "|")`，则表达式 `DS.Value` 将返回此记录列表的第二条记录的文本值 **"B"**。 表达式 `INDEX (SPLIT ("A|B|C", "|"), 2).Value` 也会返回文本值 **"B"**。
+如果输入 *计算字段* 类型的数据源 **DS**，而该数据源中包含表达式 `SPLIT ("A|B|C", "|")`，则表达式 `DS.Value` 将返回此记录列表的第二条记录的文本值 **"B"**。 表达式 `INDEX (SPLIT ("A|B|C", "|"), 2).Value` 也会返回文本值 **"B"**。
 
 ## <a name="example-2"></a>示例 2
 
-如果输入*计算字段*类型的数据源 **DS**，并且它包含表达式 `SPLIT ("A|B|C", "|")`，表达式 `INDEX (SPLIT ("A|B|C", "|"), 4).Value` 将在运行时引发异常。
+如果输入 *计算字段* 类型的数据源 **DS**，并且它包含表达式 `SPLIT ("A|B|C", "|")`，表达式 `INDEX (SPLIT ("A|B|C", "|"), 4).Value` 将在运行时引发异常。
 
 ## <a name="additional-resources"></a>其他资源
 

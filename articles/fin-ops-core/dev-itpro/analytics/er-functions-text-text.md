@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20313133ce29b8d5048814ff78ce4ea4f5c54d4a
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: d489da24d0589549153913bbc6db699e3c217e72
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743680"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682887"
 ---
 # <a name="text-er-function"></a>TEXT ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-在将指定的数字转换为根据当前应用程序实例的服务器区域设置设定格式的文本字符串后，`TEXT` 函数将该数字作为*字符串*值返回。
+在将指定的数字转换为根据当前应用程序实例的服务器区域设置设定格式的文本字符串后，`TEXT` 函数将该数字作为 *字符串* 值返回。
 
 ## <a name="syntax"></a>语法
 
@@ -39,7 +38,7 @@ TEXT (number)
 
 ## <a name="arguments"></a>参数
 
-`number`：*整数*或*实数*
+`number`：*整数* 或 *实数*
 
 必须转换为文本字符串的数字。
 
@@ -51,7 +50,7 @@ TEXT (number)
 
 ## <a name="usage-notes"></a>使用说明
 
-对于*实数*类型的值，字符串转换被限制为两位小数。
+对于 *实数* 类型的值，字符串转换被限制为两位小数。
 
 ## <a name="example"></a>示例
 

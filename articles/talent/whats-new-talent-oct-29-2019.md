@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-29
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e2d79ee9e182df4a4efe65beb685567b1e7446ce
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 09d53c82b4244f20d0d7f301691b01263258a32f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897434"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529676"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-29-2019"></a>Dynamics 365 Talent 中的新增功能或更改（2019 年 10 月 29 日）
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
@@ -43,19 +45,19 @@ ms.locfileid: "2897434"
 
 ### <a name="delete-parties-with-no-roles-should-be-on-by-default-371233"></a>“删除不含角色的当事方”默认应启用 (371233)
 
-在 Talent 中预配新环境时，**如果没有角色则删除当事方**默认打开。 当您删除工作人员时，除非启用此设置，否则不会删除与该工作人员关联的当事方。 当您需要导入、更改或重新导入工作人员时，此更改将限制全球通讯簿中的重复记录。
+在 Talent 中预配新环境时，**如果没有角色则删除当事方** 默认打开。 当您删除工作人员时，除非启用此设置，否则不会删除与该工作人员关联的当事方。 当您需要导入、更改或重新导入工作人员时，此更改将限制全球通讯簿中的重复记录。
 
 ### <a name="draft-and-cancelled-leave-requests-should-be-allowed-to-be-deleted-in-common-data-service-376999"></a>应允许在 Common Data Service 中删除草稿和已取消的休假请求 (376999)
 
-通过此更改，您现在可以在 Common Data Service 中删除状态为**草稿**或**已取消**的休假请求。
+通过此更改，您现在可以在 Common Data Service 中删除状态为 **草稿** 或 **已取消** 的休假请求。
 
 ### <a name="additional-list-values-in-custom-fields-arent-reflected-in-common-data-service-after-clicking-apply-on-the-custom-fields-form-379599"></a>单击自定义字段窗体上的“应用”后，自定义字段中的其他列表值不会反映在 Common Data Service 中 (379599)
 
-当您将新列表值添加到已与 Common Data Service 同步的现有自定义字段时，在**自定义字段**窗体中应用更改后，它们现在可在 Common Data Serivce 中提供。
+当您将新列表值添加到已与 Common Data Service 同步的现有自定义字段时，在 **自定义字段** 窗体中应用更改后，它们现在可在 Common Data Serivce 中提供。
 
 ### <a name="apply-onboarding-checklists-across-legal-entities-when-more-than-one-employment-exists-371270"></a>存在多个雇用时，跨法人应用入职核对清单 (371270)
 
-在本周的版本中，您可以在**工作人员窗体 > 核对清单**中将核对清单应用于具有一个或多个雇用的员工。
+在本周的版本中，您可以在 **工作人员窗体 > 核对清单** 中将核对清单应用于具有一个或多个雇用的员工。
 
 ### <a name="benefits-open-enrollment-preview-feature-has-been-removed"></a>福利开放登记预览功能已删除
 

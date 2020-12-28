@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 56381
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 068f464fe5385486827b2f904114eb663e08b2e8
-ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
+ms.openlocfilehash: feb4ef0233b99420ebdd8781aae0191c9fa379f8
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697961"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692834"
 ---
 # <a name="workflow-system-overview"></a>工作流系统概览
 
@@ -32,7 +31,7 @@ ms.locfileid: "3697961"
 
 ## <a name="what-is-workflow"></a>什么是工作流？
 
-术语*工作流*可以通过两种方式定义：作为系统和作为业务流程。
+术语 *工作流* 可以通过两种方式定义：作为系统和作为业务流程。
 
 ### <a name="workflow-is-a-system"></a>工作流是一个系统
 

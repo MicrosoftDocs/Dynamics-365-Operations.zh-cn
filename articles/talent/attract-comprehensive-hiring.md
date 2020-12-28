@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: 380f72f564d800d3f5b2e9f8fd3a5f8e8c9e81d5
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898522"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460498"
 ---
 # <a name="choose-a-version-of-attract"></a>选择 Attract 版本
 
@@ -64,7 +64,7 @@ ms.locfileid: "2898522"
 ## <a name="find-out-which-version-of-attract-you-have"></a>了解您的 Attract 是哪个版本
 
 1. 在 Attract 中，选择页面右上角的问号 (**?**)。
-2. 选择**关于**。
+2. 选择 **关于**。
 
     显示的窗口中将显示您的 Attract 的许可证类型。
 

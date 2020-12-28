@@ -19,11 +19,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: acbe3d6c10891ba8b290f3efdd8e5aab3ca2c1c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186409"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440664"
 ---
 # <a name="main-account-types"></a>主科目类型
 

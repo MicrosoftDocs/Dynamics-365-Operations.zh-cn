@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-04-24
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: a850d46a22a29d9e37191397cd1dd093959ed0cc
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896949"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460430"
 ---
 # <a name="welcome-to-onboard"></a>欢迎使用 Onboard
 

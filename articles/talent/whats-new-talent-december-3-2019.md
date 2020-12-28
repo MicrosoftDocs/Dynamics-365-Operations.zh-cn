@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-12-03
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b1ed998302762203bad736161a27a48152de65f7
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: bf1ad4ca2e0ab18aaa35a7410d80a54e7a2160ce
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897710"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528685"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-december-3-2019"></a>Dynamics 365 Talent（2019 年 12 月 3 日）中的新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 本文介绍 Dynamics 365 Talent 中的新增功能或更改的功能。
 
@@ -43,17 +45,17 @@ ms.locfileid: "2897710"
 
 ### <a name="feature-management-workspace"></a>“功能管理”工作区
 
-**功能管理**工作区提供了每个版本提供的功能列表。 默认情况下，新功能处于关闭状态。 可使用该工作区开启这些功能并查看其文档。 有关功能管理的更多信息，请参阅[功能管理概述](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)。
+**功能管理** 工作区提供了每个版本提供的功能列表。 默认情况下，新功能处于关闭状态。 可使用该工作区开启这些功能并查看其文档。 有关功能管理的更多信息，请参阅[功能管理概述](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)。
 
-所有新功能都会在预览阶段提供至少 30 天，通常为 30-60 天。 主要功能通常在预览期之后的每年 10 月和 4 月公开发布。 在**功能管理**工作区中看到新功能后，即可将其打开。 有些功能可能默认已启用。
+所有新功能都会在预览阶段提供至少 30 天，通常为 30-60 天。 主要功能通常在预览期之后的每年 10 月和 4 月公开发布。 在 **功能管理** 工作区中看到新功能后，即可将其打开。 有些功能可能默认已启用。
  
-有时，完整功能默认启用，并且无法关闭（例如，**功能管理**工作区）。
+有时，完整功能默认启用，并且无法关闭（例如，**功能管理** 工作区）。
  
-某项功能公开发布后，即可以在生产环境中将其打开或关闭。 **功能管理**工作区指示何时将强制使用某项预览功能。 此日期通常是 10 月 1 日或 4 月 1 日，以与半年发布计划保持一致。 您无法关闭强制功能。 在强制使用之前，您可以在所有环境中打开和关闭功能。
+某项功能公开发布后，即可以在生产环境中将其打开或关闭。 **功能管理** 工作区指示何时将强制使用某项预览功能。 此日期通常是 10 月 1 日或 4 月 1 日，以与半年发布计划保持一致。 您无法关闭强制功能。 在强制使用之前，您可以在所有环境中打开和关闭功能。
 
 ### <a name="add-automatic-scheduling-of-batch-job-history-cleanup-332528"></a>添加批处理作业历史记录清理的自动计划 (332528)
 
-进行此更改后，**批处理作业历史记录**每天晚上运行，并删除 30 天以上的批处理作业历史记录项目。
+进行此更改后，**批处理作业历史记录** 每天晚上运行，并删除 30 天以上的批处理作业历史记录项目。
 
 ### <a name="talent-doesnt-respond-in-worker-actions-when-identification-number-length-doesnt-match-the-identification-type-390971"></a>当标识号长度与标识类型不匹配时，Talent 不响应工作人员的操作 (390971)
 
@@ -61,7 +63,7 @@ ms.locfileid: "2897710"
 
 ### <a name="fixed-compensation-doesnt-update-level-with-changes-to-position-details--348085"></a>固定薪酬不随着职位详细信息的更改更新级别 (348085)
 
-在本周的发布中，**薪酬开始日期**确定为员工创建新的固定薪酬记录时在该日期与职位关联的作业。
+在本周的发布中，**薪酬开始日期** 确定为员工创建新的固定薪酬记录时在该日期与职位关联的作业。
 
 ### <a name="workers-employees-and-contractors-lists-show-worker-type-as-both-when-they-should-only-be-worker-or-contractor-384473"></a>当仅应为“工作人员”或“合同工”时，“工作人员、员工和合同工”列表都显示为“工作人员”类型 (384473)
 
@@ -77,7 +79,7 @@ ms.locfileid: "2897710"
 
 ### <a name="address-changes-list-should-be-sorted-by-effective-date-352798"></a>地址更改列表应按生效日期排序 (352798)
 
-进行此更改后，地址更改列表现在按**生效日期**排序。
+进行此更改后，地址更改列表现在按 **生效日期** 排序。
 
 ### <a name="leave-requests-should-allow-deletes-from-common-data-service-to-talent-376999"></a>休假请求应允许在 Talent 中从 Common Data Service 删除 (376999)
 
@@ -93,7 +95,7 @@ ms.locfileid: "2897710"
 
 ### <a name="issue-date-doesnt-sync-to-common-data-service-when-updated-or-entered-in-talent-397361"></a>在 Talent 中更新或输入后，发布日期不同步到 Common Data Service (397361)
 
-此更改更正了**人员标识**记录的发布日期不同步到 Talent 中的 Common Data Service 的问题。
+此更改更正了 **人员标识** 记录的发布日期不同步到 Talent 中的 Common Data Service 的问题。
 
 ### <a name="hierarchy-circular-reference-error-issued-when-assigning-a-manager-to-a-position-386659"></a>将经理分配到职位时出现层次结构循环引用错误 (386659)
 
@@ -173,7 +175,7 @@ ms.locfileid: "2897710"
 
 ## <a name="in-preview"></a>预览模式
 
-仅在**沙盒**环境中才能使用预览功能。
+仅在 **沙盒** 环境中才能使用预览功能。
 
 ### <a name="print-performance-reviews"></a>打印绩效复查
 

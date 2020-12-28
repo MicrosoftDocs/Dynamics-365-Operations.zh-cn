@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 687ba57042ad65d3a1ff4ad92f0da774c6751eac
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187375"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440633"
 ---
 # <a name="bonus-depreciation"></a>额外折旧
 
@@ -31,7 +31,7 @@ ms.locfileid: "2187375"
 
 本文提供红利折旧功能的概览。
 
-对于额外折旧，您可以在资产投入使用并开始折旧的第一年中提取额外的折旧金额。 必须在进行任何其他折旧计算前提取额外折旧。 因此，最好是在帐簿禁用“过帐到总帐”功能时使用额外折旧。 您可以使用**删除尚未过帐到总帐的交易记录**选项删除未过帐到总帐的帐簿的历史交易记录。 然后，您将来可以通过删除先前过帐的折旧交易记录在资产生命周期中容纳额外折旧。 
+对于额外折旧，您可以在资产投入使用并开始折旧的第一年中提取额外的折旧金额。 必须在进行任何其他折旧计算前提取额外折旧。 因此，最好是在帐簿禁用“过帐到总帐”功能时使用额外折旧。 您可以使用 **删除尚未过帐到总帐的交易记录** 选项删除未过帐到总帐的帐簿的历史交易记录。 然后，您将来可以通过删除先前过帐的折旧交易记录在资产生命周期中容纳额外折旧。 
 
 您可以通过使用方案过程计算额外折旧，也可以创建手动额外折旧交易记录。 如果该资产帐簿存在折旧交易记录或折旧调整交易记录，则不能创建额外折旧交易记录。
 

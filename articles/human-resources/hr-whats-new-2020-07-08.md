@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2f542195693e825391b85efc4a7e91fdfea3944
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3711884"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528465"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Dynamics 365 Human Resources 的新增功能或更改（2020 年 7 月 8 日）
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Human Resources 中的新增功能和更改的功能。 更改适用于内部版本号 8.1.3382。 某些标题中括号内的数字是 LCS 支持号码，供您参考。
 
@@ -35,19 +37,19 @@ ms.locfileid: "3711884"
 
 ## <a name="configure-the-name-of-employee-self-service"></a>配置员工自助服务的名称
 
-现在，在 **Human Resources 参数**中，您可以将**员工自助服务**工作区的名称更改为**自助服务**。 有关详细信息，请参阅[更改员工自助服务工作区名称](hr-employee-self-service-workspace-name.md)
+现在，在 **Human Resources 参数** 中，您可以将 **员工自助服务** 工作区的名称更改为 **自助服务**。 有关详细信息，请参阅[更改员工自助服务工作区名称](hr-employee-self-service-workspace-name.md)
 
 ## <a name="benefits-management-open-enrollment-access-outside-of-period"></a>在期间之外访问福利管理开放登记
 
-此版本修复了员工可以在登记期间之外或在没有生活事件的情况下访问福利开放登记的问题。 因此，如果您需要在员工自助服务中演示开放登记，则必须将开放登记日期调整为今天（或更早）才能使用。 您可以在**福利管理 > 规则和选项期间**下更改此设置。
+此版本修复了员工可以在登记期间之外或在没有生活事件的情况下访问福利开放登记的问题。 因此，如果您需要在员工自助服务中演示开放登记，则必须将开放登记日期调整为今天（或更早）才能使用。 您可以在 **福利管理 > 规则和选项期间** 下更改此设置。
 
 ## <a name="email-employee-enrollment-confirmation"></a>电子邮件员工登记确认
 
-您现在可以在员工完成福利选择后向他们发送电子邮件。 您可以发送默认消息，也可以使用组织电子邮件模板。 这些设置在 **Human resource 参数 > 福利管理**下。
+您现在可以在员工完成福利选择后向他们发送电子邮件。 您可以发送默认消息，也可以使用组织电子邮件模板。 这些设置在 **Human resource 参数 > 福利管理** 下。
 
 ## <a name="canceled-leave-still-appears-in-upcoming-time-off-on-people-workspace-441358"></a>已取消的休假仍然会在“人员”工作区上即将发生的休假中显示 (441358)
 
-已取消休假不会再在**人员**工作区中的休假卡上显示为即将发生的休假。
+已取消休假不会再在 **人员** 工作区中的休假卡上显示为即将发生的休假。
 
 ## <a name="unable-to-use-the-department-entity-property-in-the-positionv2-entity-456486"></a>无法在 PositionV2 实体中使用部门实体属性 (456486)
 
@@ -59,7 +61,7 @@ ms.locfileid: "3711884"
  
 ## <a name="confusing-translations-in-czech-language-in-personnel-management-and-employee-self-service-400276"></a>“人事管理”和“员工自助服务”中的捷克语翻译难以理解 (400276)
 
-此版本更正了**公司目录**、**下一个注册的课程**、**工作**和**职位**的翻译。
+此版本更正了 **公司目录**、**下一个注册的课程**、**工作** 和 **职位** 的翻译。
  
 ## <a name="the-workcalendaremployment-table-doesnt-have-the-created-and-modified-system-fields-enabled-460171"></a>WorkCalendarEmployment 表未启用创建和修改的系统字段 (460171)
 
@@ -67,11 +69,11 @@ ms.locfileid: "3711884"
  
 ## <a name="null-reference-exception-for-hire-and-add-details-for-future-employee-455475"></a>用于未来员工的“雇用并添加详细信息”的空引用异常 (455475)
 
-此版本更正了当您使用**雇用并添加详细信息**选项雇用员工时，简化的员工输入中出现的错误（空引用）。
+此版本更正了当您使用 **雇用并添加详细信息** 选项雇用员工时，简化的员工输入中出现的错误（空引用）。
 
 ## <a name="changes-made-in-the-common-data-service-worker-entity-dont-reflect-in-human-resources-455652"></a>Common Data Service“工作人员”实体中所作的更改不反映在 Human Resources 中 (455652)
 
-现在，在 Common Data Service 中对**工作人员**实体中的以下字段进行的更改将显示在 Human Resources 中：
+现在，在 Common Data Service 中对 **工作人员** 实体中的以下字段进行的更改将显示在 Human Resources 中：
 
 - **在家办公**
 - **受聘日期**
@@ -80,13 +82,13 @@ ms.locfileid: "3711884"
 
 ## <a name="correct-compensation-level-doesnt-default-based-on-the-job-assigned-to-the-position-394136"></a>不能根据分配给职位的工作默认显示正确的薪酬级别 (394136)
 
-进行此更改后，将根据**薪酬计划分配**的**职位详细信息**和**开始日期**的**生效日期**记录，默认显示正确的薪酬级别。
+进行此更改后，将根据 **薪酬计划分配** 的 **职位详细信息** 和 **开始日期** 的 **生效日期** 记录，默认显示正确的薪酬级别。
 
 ## <a name="in-preview"></a>预览模式
 
 ## <a name="mandatory-fields"></a>必填字段 
 
-现在可使用 Human Resources 个性化功能将字段设置为必填字段。 此功能需要**保存的视图**。
+现在可使用 Human Resources 个性化功能将字段设置为必填字段。 此功能需要 **保存的视图**。
 
 ## <a name="human-resources-application-in-teams"></a>Teams 中的 Human Resources 应用程序
 

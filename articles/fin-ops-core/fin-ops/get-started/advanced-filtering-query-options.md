@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: SysQueryForm
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 3811
 ms.assetid: b4969b30-2fe1-4a3c-bbea-725dc37c8b60
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a525422a091efe8ea88f42e91dc52488430cfe5
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: b867099b131594a64cad102e50ead7c355594f2b
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112183"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694535"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>高级筛选和查询语法
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍在“过滤器”窗格或网格列标题过滤器中使用“高级过滤器/排序”对话框或**匹配**运算符时的可用过滤和查询选项。
+此主题介绍在“过滤器”窗格或网格列标题过滤器中使用“高级过滤器/排序”对话框或 **匹配** 运算符时的可用过滤和查询选项。
 
 ## <a name="advanced-query-syntax"></a>高级查询语法
 
@@ -140,7 +139,7 @@ ms.locfileid: "3112183"
 <td>键入具有指定值或值的范围的参数的 <strong>SysQueryRangeUtil</strong> 方法。</td>
 <td>
 <ol>
-<li>单击<strong>应收账款</strong> &gt; <strong>发票</strong> &gt; <strong>未结客户发票</strong>。</li>
+<li>单击<strong>应收帐款</strong> &gt; <strong>发票</strong> &gt; <strong>未结客户发票</strong>。</li>
 <li>按 Ctrl+Shift+F3 打开<strong>查询</strong>页。</li>
 <li>在<strong>范围</strong>选项卡上，单击<strong>添加</strong>。</li>
 <li>在<strong>表</strong>字段中，选择<strong>未结客户交易记录</strong>。</li>

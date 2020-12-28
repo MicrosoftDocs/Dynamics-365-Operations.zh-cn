@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: b7bdbbee7468eba100dedc96b5bcee7e03f249e1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897273"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460440"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-september-17-2019"></a>Dynamics 365 for Talent（2019 年 9 月 17 日）中的新增功能或更改
 
@@ -46,16 +46,16 @@ ms.locfileid: "2897273"
 
 ### <a name="human-resources-staff-cant-see-performance-review-details-once-assigned-to-them-by-workflow-370308"></a>人力资源员工无法查看工作流为其分配的绩效审核详细信息 (370308)
 
-应用本周的更新之后，HR 专业人员可以查看已经通过工作流处理为其分配的绩效审核详细信息。 若要查看审核，请导航到**员工自助服务 > 分配给我的工作项**。
+应用本周的更新之后，HR 专业人员可以查看已经通过工作流处理为其分配的绩效审核详细信息。 若要查看审核，请导航到 **员工自助服务 > 分配给我的工作项**。
 
 ### <a name="job-family-field-missing-in-the-manage-changes-page-for-job-details-346031"></a>缺少工作详细信息的“管理更改”页面中缺少工作系列字段 (346031)
 
-在此版本中，已向工作详细信息的**管理更改**页面添加了工作系列字段。
+在此版本中，已向工作详细信息的 **管理更改** 页面添加了工作系列字段。
 
 ## <a name="in-preview"></a>预览模式
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>简化的员工条目和导航
 
-此功能现在可在沙盒环境中使用。 要打开此功能，请导航至**系统管理 > 链接 > 设置 > 系统参数 > 预览功能**。 选择**增强的工作人员窗体和导航**。 这将为所有用户启用这些更改。 您可以随时关闭此选项。
+此功能现在可在沙盒环境中使用。 要打开此功能，请导航至 **系统管理 > 链接 > 设置 > 系统参数 > 预览功能**。 选择 **增强的工作人员窗体和导航**。 这将为所有用户启用这些更改。 您可以随时关闭此选项。
 
 有关详细信息，请参阅[简化的员工输入和导航](./streamlined-employee-entry.md)。 若要查看这些更改，请观看视频 [Dynamics 365 for Talent 2019 发布第 2 波概述](https://aka.ms/ROGT19RW2ROV)。

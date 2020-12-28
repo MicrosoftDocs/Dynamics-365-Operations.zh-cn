@@ -3,24 +3,23 @@ title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 09/24/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51d1d0ed2ce95573ec123121999d73446a7e4ea4
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971437"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689558"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
 
@@ -28,8 +27,8 @@ ms.locfileid: "3971437"
 
 本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
 
-- *已移除*的功能在产品中不再可用。
-- *已弃用*的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
+- *已移除* 的功能在产品中不再可用。
+- *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
@@ -37,8 +36,16 @@ ms.locfileid: "3971437"
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.15 的平台更新
 
-> [!NOTE]
-> 版本 10.0.15 是预览版本。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅[一个版本服务更新常见问题](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version)。
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Dynamics 365 不再支持 Internet Explorer 11
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 从 2020 年 12 月开始，所有 Dynamics 365 产品不再支持 Microsoft Internet Explorer 11，2021 年 8 月之后，不再支持 Internet Explorer 11。<br><br>这将影响所用 Dynamics 365 产品设计为通过 Internet Explorer 11 界面使用的客户。 2021 年 8 月之后，此类 Dynamics 365 产品将不支持 Internet Explorer 11。 |
+| **被另一个功能取代？**   | 我们建议客户过渡到 Microsoft Edge。|
+| **影响的产品区域**         | 所有 Dynamics 365 产品 |
+| **部署选项**              | 所有|
+| **状态**                         | 已弃用。 2021 年 8 月之后将不再支持 Internet Explorer 11。|
+
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio 加载项以应用元数据修补程序
 
@@ -52,10 +59,6 @@ ms.locfileid: "3971437"
 
 
 ## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.14 的平台更新
-
-> [!NOTE]
-> 版本 10.0.14 是预览版本。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅[服务更新可用性](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases)。
-
 
 ### <a name="online-users-page"></a>联机用户页面 
 
@@ -118,7 +121,7 @@ ms.locfileid: "3971437"
 
 |   |  |
 |------------|--------------------|
-| **弃用/移除的原因** | 网格或组控件上的数据组属性用于自动显示字段组的所有字段。 通过扩展添加的网格或组控件可能包含不再在字段组中定义的字段，或者可能缺少在字段组中定义的字段。 这可能会导致运行时行为不一致。 Finance and Operations 应用版本 10.0.12 的平台更新现在将此问题归类为编译器*警告*。 要解决此问题，请打开窗体扩展，然后保存它。
+| **弃用/移除的原因** | 网格或组控件上的数据组属性用于自动显示字段组的所有字段。 通过扩展添加的网格或组控件可能包含不再在字段组中定义的字段，或者可能缺少在字段组中定义的字段。 这可能会导致运行时行为不一致。 Finance and Operations 应用版本 10.0.12 的平台更新现在将此问题归类为编译器 *警告*。 要解决此问题，请打开窗体扩展，然后保存它。
 | **被另一个功能取代？**   | 在以后的更新中，此编译器警告将替换为编译器错误。 |
 | **影响的产品区域**         | Visual Studio 开发工具 |
 | **部署选项**              | 所有 |
@@ -144,13 +147,13 @@ ms.locfileid: "3971437"
 | **被另一个功能取代？**   | Visual Studio 2017 将取代 Visual Studio 2015 成为已部署的必需版本。 |
 | **影响的产品区域**         | Visual Studio 开发工具 |
 | **部署选项**              | 所有 |
-| **状态**                         | 公布推出使用 Visual Studio 2017 的新虚拟机 (VM) 后，仅使用 Visual Studio 2015 的现有 VM 必须在 2021 年发布第 1 波前重新部署。 |
+| **状态**                         | 版本 10.0.13（平台更新 37）或更高版本中部署的虚拟机中包含 Visual Studio 2017。 版本 10.0.16（平台更新 40）是最后一个支持 Visual Studio 2015 的发行版。 仅具有 Visual Studio 2015 的虚拟机不能更新到版本 10.0.17（平台更新 41）。 |
 
 ### <a name="field-groups-containing-invalid-field-references"></a>其中包含无效字段引用的字段组
 
 |   |  |
 |------------|--------------------|
-| **弃用/移除的原因** | 表元数据定义中的字段组中可能包含无效的字段引用。 如果部署这些字段组，可能导致 Financial Reporting 和 Microsoft SQL Server Reporting Services (SSRS) 中发生运行时失败。 平台更新 23 引入了编译器*警告*，从而解决了这个元数据问题。 Finance and Operations 应用版本 10.0.11 的平台更新将此问题归类为编译器*错误*。<p>若要解决此问题，请按照以下步骤操作。</p><ol><li>删除表字段组定义中的无效字段引用。</li><li>重新编译。</li><li>确保解决了所有错误。</li></ol> |
+| **弃用/移除的原因** | 表元数据定义中的字段组中可能包含无效的字段引用。 如果部署这些字段组，可能导致 Financial Reporting 和 Microsoft SQL Server Reporting Services (SSRS) 中发生运行时失败。 平台更新 23 引入了编译器 *警告*，从而解决了这个元数据问题。 Finance and Operations 应用版本 10.0.11 的平台更新将此问题归类为编译器 *错误*。<p>若要解决此问题，请按照以下步骤操作。</p><ol><li>删除表字段组定义中的无效字段引用。</li><li>重新编译。</li><li>确保解决了所有错误。</li></ol> |
 | **被另一个功能取代？**   | 此编译器错误将永久替代编译器警告。  |
 | **影响的产品区域**         | Visual Studio 开发工具 |
 | **部署选项**              | 所有 |

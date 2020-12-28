@@ -10,48 +10,47 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 270274
 ms.assetid: b74549df-35d5-4f2f-b3c7-405b0d38ea78
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b0929b449f20e7340c3607d842b7c4f779cbb8fe
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893296"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683863"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>成本核算分析 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍**成本核算分析** Microsoft Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+此主题介绍 **成本核算分析** Microsoft Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 
 ## <a name="overview"></a>概览
 
-**成本核算分析** Power BI 内容面向成本总监或负责执行组织的成本控制的任何人。 其中包含关键指标，如成本、度量值，以及按实际成本、预算成本和可变预算成本的成本率。 它使用来自**成本核算**模块中的交易记录数据，并使用一种申报币种提供整个组织的成本聚合视图。 经理可以按成本对象筛选这些数据，以便对其组织单元执行成本控制，即使该组织有多个法人。
+**成本核算分析** Power BI 内容面向成本总监或负责执行组织的成本控制的任何人。 其中包含关键指标，如成本、度量值，以及按实际成本、预算成本和可变预算成本的成本率。 它使用来自 **成本核算** 模块中的交易记录数据，并使用一种申报币种提供整个组织的成本聚合视图。 经理可以按成本对象筛选这些数据，以便对其组织单元执行成本控制，即使该组织有多个法人。
 
-由于**成本核算分析**内容突出显示实际成本与预算成本之间的差异，所以可以通知经理有关其运营单位正负趋势的信息。 经理可以向下钻取到成本元素层次结构或单独的成本元素。 这样，经理可详细了解成本差异是如何发生的，并采取有效的行动。
+由于 **成本核算分析** 内容突出显示实际成本与预算成本之间的差异，所以可以通知经理有关其运营单位正负趋势的信息。 经理可以向下钻取到成本元素层次结构或单独的成本元素。 这样，经理可详细了解成本差异是如何发生的，并采取有效的行动。
 
-成本会计员可通过**成本核算分析**内容分析成本在整个组织的成本对象中的流向。
+成本会计员可通过 **成本核算分析** 内容分析成本在整个组织的成本对象中的流向。
 
 若要了解有关成本核算的详细信息，请参阅[成本核算主页](../../../finance/cost-accounting/cost-accounting-home-page.md)。
 
-通过在成本核算中定义访问级安全并将其与 Power BI 中的行级安全结合，可以授予所有成本对象所有者**成本核算分析** Power BI 内容的访问权限。 然后将根据成本核算中控制的访问级别筛选可视化中的所有数据。 若要了解有关访问级安全和行级安全的详细信息，请参阅[设置成本核算分析 Power BI 内容的安全性](setup-security-cost-accounting-content-pack.md)。
+通过在成本核算中定义访问级安全并将其与 Power BI 中的行级安全结合，可以授予所有成本对象所有者 **成本核算分析** Power BI 内容的访问权限。 然后将根据成本核算中控制的访问级别筛选可视化中的所有数据。 若要了解有关访问级安全和行级安全的详细信息，请参阅[设置成本核算分析 Power BI 内容的安全性](setup-security-cost-accounting-content-pack.md)。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-您可以在 Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库中找到**成本核算分析** Power BI 内容。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/)。
+您可以在 Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库中找到 **成本核算分析** Power BI 内容。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/)。
 
-请确保下载适用于您使用的 Microsoft Dynamics 365 版本的**成本核算分析**内容。
+请确保下载适用于您使用的 Microsoft Dynamics 365 版本的 **成本核算分析** 内容。
 
 > [!NOTE]
 > KB 4011327 是此 Power BI 内容的先决条件。 登录 LCS 之后，可访问该知识库，地址为 <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>。
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的度量
-此内容中包含一组报表页面。 每个页面中包含一组可视化为图表、磁贴和表的指标。 下表概要介绍**成本核算分析** Power BI 内容中的可视化。
+此内容中包含一组报表页面。 每个页面中包含一组可视化为图表、磁贴和表的指标。 下表概要介绍 **成本核算分析** Power BI 内容中的可视化。
 
 | 报表页                      | 图表                                                                                                                         | 磁贴                                          |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
@@ -72,7 +71,7 @@ ms.locfileid: "3893296"
 |                                  | 按成本对象维度成员名称和成本元素维度成员名称的实际成本                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
-以下数据用于填充**成本核算分析** Power BI 内容中的报表页。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成](power-bi-integration-entity-store.md)。
+以下数据用于填充 **成本核算分析** Power BI 内容中的报表页。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成](power-bi-integration-entity-store.md)。
 
 以下关键聚合度量用作该内容的基础。
 

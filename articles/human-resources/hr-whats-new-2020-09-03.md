@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 24799e304c27b57375640a5bf6a024a22b757bec
-ms.sourcegitcommit: a47a4652a29fdb567a8ba67c4f914a8698e8c48c
+ms.openlocfilehash: ddffff18e1d6d16bd5a5f7e7021f9a34651307fa
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3765017"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527450"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>Dynamics 365 Human Resources（2020 年 9 月 3 日）中的新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Human Resources 中的新增功能和更改的功能。 更改适用于内部版本号 8.1.3504。 某些标题中括号内的数字是 Lifecycle Services (LCS) 支持编号，以供参考。
 
@@ -42,11 +44,11 @@ ms.locfileid: "3765017"
 
 ### <a name="entries-dont-appear-in-company-leave-calendar-if-leave-and-absence-calendar-enhancements-arent-enabled-484406"></a>如果未启用休假和缺勤日历增强，则公司休假日历中不显示条目 (484406)
 
-此版本中解决了公司休假日历中不显示休假条目这一问题。 仅当未启用功能管理选项**休假和缺勤日历增强**时，才会出现此问题。
+此版本中解决了公司休假日历中不显示休假条目这一问题。 仅当未启用功能管理选项 **休假和缺勤日历增强** 时，才会出现此问题。
 
 ### <a name="benefitplanemployeeentity-issue-467597"></a>BenefitPlanEmployeeEntity 问题 (467597)
 
-此版本解决了 **BenefitsPlanEmployee** 实体的问题。 导入工作人员登记时，现在**覆盖范围代码**和**计划类型代码**设置正确。 此问题导致了员工福利计划在“员工自助服务”的**工作人员福利计划**和**开放登记**窗体中显示不正确。
+此版本解决了 **BenefitsPlanEmployee** 实体的问题。 导入工作人员登记时，现在 **覆盖范围代码** 和 **计划类型代码** 设置正确。 此问题导致了员工福利计划在“员工自助服务”的 **工作人员福利计划** 和 **开放登记** 窗体中显示不正确。
 
 ### <a name="electronic-file-1094-c-output-missing-letter-in-xml-435190"></a>XML 格式的电子文件 1094-C 输出中丢失字母 (435190)
 
@@ -66,7 +68,7 @@ ms.locfileid: "3765017"
 
 ### <a name="data-displays-as-column-headers-instead-of-rows-for-the-pay-rate-field-in-the-compensation-plan-report-476077"></a>薪酬计划报表中的“付薪比率”字段的数据显示为列标题，而不是行 (476077)
 
-此分析报表现在显示正确的**付薪比率**信息。
+此分析报表现在显示正确的 **付薪比率** 信息。
 
 ## <a name="in-preview"></a>预览模式
 
@@ -92,7 +94,7 @@ ms.locfileid: "3765017"
 
 ### <a name="configuration-option-to-position-work-items-assigned-to-me-list-477004"></a>用于定位“分配给我的工作项”列表的配置选项 (477004)
 
-现在在仪表板右侧列中提供了一个新的选项，用于定位**分配给我的工作项**列表。 通过此更改，所有工作项和待办事宜列表在同一个区域显示。 请通过在功能管理中打开**预览 - 工作流体验增强**启用此功能。 有关打开预览功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。
+现在在仪表板右侧列中提供了一个新的选项，用于定位 **分配给我的工作项** 列表。 通过此更改，所有工作项和待办事宜列表在同一个区域显示。 请通过在功能管理中打开 **预览 - 工作流体验增强** 启用此功能。 有关打开预览功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。
 
 此功能还可以用于升级个人操作窗体中显示的工作流选项。 工作流选项还在操作快速选项卡上方显示，以便加快访问速度。 有关详细信息，请参阅： 
 
@@ -110,7 +112,7 @@ Common Data Service 内很快将为入职、离职、转移和业务流程提供
 
 ### <a name="benefits-management-reason-codes"></a>福利管理原因代码
 
-福利管理原因代码很快将与 Human Resources 中的现有原因代码合并。 如果在福利管理中创建了超过 15 个字符的原因代码，则必须在福利管理**原因代码**窗体中将该原因代码的名称更改为 15 个字符或更少。 更新名称后，该原因代码将在个人管理中现有原因代码窗体下显示。 此更改将在以后推出，不会影响现有功能。
+福利管理原因代码很快将与 Human Resources 中的现有原因代码合并。 如果在福利管理中创建了超过 15 个字符的原因代码，则必须在福利管理 **原因代码** 窗体中将该原因代码的名称更改为 15 个字符或更少。 更新名称后，该原因代码将在个人管理中现有原因代码窗体下显示。 此更改将在以后推出，不会影响现有功能。
 
 ## <a name="see-also"></a>请参阅
 

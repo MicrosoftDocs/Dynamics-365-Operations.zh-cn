@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 398bfd769946d4b6560e36e2713f06d7b8c4d8d3
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 65100ba5798ac5731d510c8f6f112bb7a33b4e65
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092075"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529772"
 ---
 # <a name="welcome-to-dynamics-365-human-resources"></a>欢迎使用 Dynamics 365 Human Resources
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Human Resources 提供您跨多个区域构建数据驱动的员工体验所需的劳动力见解，包括：
 

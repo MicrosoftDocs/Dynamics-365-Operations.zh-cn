@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-09-17
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 229ae14b9e2dedcd0ade094a772f16c0524d32a7
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006070"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460474"
 ---
 # <a name="accrue-time-off-based-on-hours-worked"></a>根据工作时数累积休假时间
 
@@ -37,12 +37,12 @@ ms.locfileid: "3006070"
 
 若要将休假计划设置为使用工作时数，请执行以下步骤：
 
-1. 在**休假和缺勤计划**页中，单击**创建新计划**。
+1. 在 **休假和缺勤计划** 页中，单击 **创建新计划**。
 2. 输入休假计划的名称。
 3. 选择计划的累积频率。
 5. 选择计划的开始日期。
 6. 选择累积期间基数，然后选择员工的具体日期（如果适用）。
-7. 对于累积计划，为累积类型选择**工作时数**。
+7. 对于累积计划，为累积类型选择 **工作时数**。
 8. 选择要用于累积的时数类型。
 9. 输入工作时数和关联的累积量、最小余额和最大结转或授权量。
 

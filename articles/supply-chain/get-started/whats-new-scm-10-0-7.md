@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.7（2020 年 1 月）新增功能或更改
+title: Dynamics 365 Supply Chain Management 10.0.7 新增功能或更改（2020 年 1 月）
 description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.7 中的新增功能或更改的功能。
 author: josaw1
 manager: tfehr
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 81fea8cb5be4d99247da5f6f373aa4250859fcda
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: a91f7b0ed715c383930db319de08fa37e6bbca37
+ms.sourcegitcommit: ce34e1ac6ce3a7033618bb9fd2983b11d63d3112
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802863"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4597098"
 ---
-# <a name="whats-new-and-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>Dynamics 365 Supply Chain Management 10.0.7（2020 年 1 月）新增功能或更改
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>Dynamics 365 Supply Chain Management 10.0.7 新增功能或更改（2020 年 1 月）
 
 [!include [banner](../includes/banner.md)]
 
@@ -48,7 +48,7 @@ ms.locfileid: "3802863"
 有关 10.0.7 中各更新内的缺陷修复的信息，请登录 Lifecycle Services (LCS)，然后查看[知识库文章](https://fix.lcs.dynamics.com/Issue/Details?kb=4528173&bugId=386529&dbType=3&qc=d6f5cd3ead06907477eae511043a52c1d4290a12bf52374dd55faf0d28ae732e)。
 
 ### <a name="platform-update-31"></a>平台 update 31
-Microsoft Dynamics 365 Supply Chain Management 10.0.7 中包含平台更新 31。 若要了解有关平台更新 31 的详细信息，请参阅[平台更新 31 中的新增功能和更改的功能](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31.md)。
+Microsoft Dynamics 365 Supply Chain Management 10.0.7 中包含平台更新 31。 若要了解有关平台更新 31 的详细信息，请参阅[平台更新 31 中的新增功能或更改的功能](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31.md)。
 
 ### <a name="dynamics-365-2019-release-wave-2-plan"></a>Dynamics 365：2019 发布波次 2 计划
 是否对我们的任何商业应用或平台即将推出和最近发布的功能感兴趣？
@@ -59,8 +59,8 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.7 中包含平台更新 31�
 
 [Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
 
-- *已移除*的功能在产品中不再可用。
-- *已弃用*的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
+- *已移除* 的功能在产品中不再可用。
+- *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
 从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。
 

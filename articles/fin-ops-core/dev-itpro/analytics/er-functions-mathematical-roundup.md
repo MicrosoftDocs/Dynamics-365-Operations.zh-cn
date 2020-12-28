@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83262a11f92a924e5e49461cf414fb07ab278541
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 8ed86e2a848248dd8f2fc99401d12e0a162bf20a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744495"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686826"
 ---
 # <a name="roundup-er-function"></a>ROUNDUP ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`ROUNDUP` 函数作为*实数*值返回已向上舍入到指定小数位数的指定数字。
+`ROUNDUP` 函数作为 *实数* 值返回已向上舍入到指定小数位数的指定数字。
 
 ## <a name="syntax"></a>语法
 

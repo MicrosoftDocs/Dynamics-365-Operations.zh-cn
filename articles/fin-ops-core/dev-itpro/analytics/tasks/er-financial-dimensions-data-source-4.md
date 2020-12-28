@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, SysQueryForm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9a6f07d6c665097fabab4d3ec6d7fa5ba80b65d
-ms.sourcegitcommit: d9125c20b21459076e4fd92fd9ebfe2e53a0431b
+ms.openlocfilehash: fb7f49310aa25ff7c17ab4bcd50e1842be84fe2d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "3406466"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684731"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>ER 将财务维度用作数据源（第 4 部分 - 运行报表）
 

@@ -18,11 +18,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: ec196600a54a2aed4565cf422dc386d6646ff524
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899634"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440618"
 ---
 # <a name="update-the-bank-journal-composite-entity"></a>更新银行日记帐组合实体
 
@@ -40,14 +40,14 @@ ms.locfileid: "3899634"
     -   表\\BankJournalLineStaging
 
 2.  数据管理\\数据项目
-    -   在**源数据**版式上公开**银行交易记录**类型。
+    -   在 **源数据** 版式上公开 **银行交易记录** 类型。
         -   源数据格式 = XML-元素
         -   实体名称 = 银行日记帐
         -   上载数据文件 = SampleBankJournalCompositeEntity.xml 的新版本
-        -   单击**是**以覆盖现有文件。
-        -   单击**是**从头开始生成新的映射。
+        -   单击 **是** 以覆盖现有文件。
+        -   单击 **是** 从头开始生成新的映射。
         -   验证银行交易记录类型是否已映射。
-            -   单击“行”实体上的**查看映射**。
+            -   单击“行”实体上的 **查看映射**。
             -   验证“银行交易记录”类型是否已从源映射到暂存。
 
 3.  导入新的对账单。

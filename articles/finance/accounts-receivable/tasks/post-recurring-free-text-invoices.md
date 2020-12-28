@@ -17,23 +17,23 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f3b31dbf296a06ea6253a8ae71bfea6193a1e03e
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138015"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440743"
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>生成和过帐重复执行普通发票
 
 [!include [banner](../../includes/banner.md)]
 
-使用重复发票定期给客户开相同金额的发票。 此记录使用 USMF 公司演示。 由负责管理和处理应收账款发票的用户负责记录。
+使用重复发票定期给客户开相同金额的发票。 此记录使用 USMF 公司演示。 由负责管理和处理应收帐款发票的用户负责记录。
 
 
 ## <a name="generate-recurring-invoices"></a>生成经常性发票
 
 ## <a name="post-recurring-invoices"></a>过帐重复性发票
-1. 转到“应收账款”>“发票”>“循环发票”>“过帐循环发票”。
+1. 转到“应收帐款”>“发票”>“循环发票”>“过帐循环发票”。
     * 使用此页可以查看和打印已生成的循环发票。  
 2. 在列表中，单击所选行中的链接。
     * 选择循环发票组。  

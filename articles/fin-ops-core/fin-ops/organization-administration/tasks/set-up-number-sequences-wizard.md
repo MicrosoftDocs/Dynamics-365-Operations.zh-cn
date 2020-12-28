@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceWizard
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 76dc32f2254ffd2a2e33eef594d6e602092bcb6f
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: ca8174444d5a84f7efb402d6efc787e693801e82
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140483"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694731"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>使用向导设置编号规则
 
@@ -29,13 +28,13 @@ ms.locfileid: "3140483"
 
 “数序”被用于为需要它们的主数据记录和交易记录记录生成可读的唯一的标识符。 需要标识符的主数据或交易记录称为“参考”。 在您能为一个参考创建新记录之前，您必须设置编号规则并将其与参考相关联。 此主题说明如何同时使用向导设置所有必需的数序。 创建此程序的演示数据公司是 USMF。
 
-1. 转到**导航 > 模块 > 组织管理 > 标号规则 > 编号规则**。
-2. 选择**生成**。
-3. 选择**下一步**。
+1. 转到 **导航 > 模块 > 组织管理 > 标号规则 > 编号规则**。
+2. 选择 **生成**。
+3. 选择 **下一步**。
 
    - 在此页上您可以修改标识代码、最低值和最高值。 此外，您可以指示该编号规则是否必须是连续的。   
-   - 如果您必须为该编号规则分配编号，请不要选择**连续**选项。 为了将范围段落添加到编号规则的格式，请在列表中选择该格式，然后选择**将范围包括在格式中**。 为了将范围段落从编号规则的格式中删除，请在列表中选择该格式，然后选择**从格式中删除范围**。 为了将编号规则从自动生成中排除，请在列表中选择该编号规则，然后选择**删除**。  
+   - 如果您必须为该编号规则分配编号，请不要选择 **连续** 选项。 为了将范围段落添加到编号规则的格式，请在列表中选择该格式，然后选择 **将范围包括在格式中**。 为了将范围段落从编号规则的格式中删除，请在列表中选择该格式，然后选择 **从格式中删除范围**。 为了将编号规则从自动生成中排除，请在列表中选择该编号规则，然后选择 **删除**。  
 
-4. 选择**下一步**。
-5. 选择**完成**。
+4. 选择 **下一步**。
+5. 选择 **完成**。
 

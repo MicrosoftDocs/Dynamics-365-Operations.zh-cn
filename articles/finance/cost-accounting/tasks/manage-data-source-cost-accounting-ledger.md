@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 88f5170610ea9b5634c4bf5da7079cacccdafe04
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977567"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440887"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>管理成本核算分类帐的数据源
 

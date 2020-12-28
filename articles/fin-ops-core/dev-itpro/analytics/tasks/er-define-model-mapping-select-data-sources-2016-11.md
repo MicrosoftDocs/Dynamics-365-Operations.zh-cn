@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a6287fa95b7ce7341e99d1b1a6b972db68a30398
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7d57c191761b8e2367ff8806c1cd98d6d83559e3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142152"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682109"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>定义 ER 模型映射并从中选择数据源
 

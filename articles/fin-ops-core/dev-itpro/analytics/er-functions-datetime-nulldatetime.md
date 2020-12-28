@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e1aaed3e85fc99d6451577d19e834afd37ad008
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 65e9ef92dc30e46c297d93e262bad8878df47a0c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743535"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682285"
 ---
 # <a name="nulldatetime-er-function"></a>NULLDATETIME ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`NULLDATETIME` 函数返回一个*日期时间*值，此值表示协调世界时（格林威治标准时间 \[GMT\]）的**空**日期/时间值（1900 年 1 月 1 日）。
+`NULLDATETIME` 函数返回一个 *日期时间* 值，此值表示协调世界时（格林威治标准时间 \[GMT\]）的 **空** 日期/时间值（1900 年 1 月 1 日）。
 
 ## <a name="syntax"></a>语法
 
@@ -45,7 +44,7 @@ NULLDATETIME ()
 
 ## <a name="example"></a>示例
 
-当由在**语言和国家/地区首选项**部分具有时区值 **(GMT) 协调世界时**的应用程序用户启动的流程中调用时，`DATETIMEFORMAT( NULLDATETIME(), "O")` 返回字符串值 **1900-01-01T00:00:00.0000000+00:00**。
+当由在 **语言和国家/地区首选项** 部分具有时区值 **(GMT) 协调世界时** 的应用程序用户启动的流程中调用时，`DATETIMEFORMAT( NULLDATETIME(), "O")` 返回字符串值 **1900-01-01T00:00:00.0000000+00:00**。
 
 ## <a name="additional-resources"></a>其他资源
 

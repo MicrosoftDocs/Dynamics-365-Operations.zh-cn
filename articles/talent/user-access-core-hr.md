@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 6c384d9a7100982eabd201d910e1bea14355dc1f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006302"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460431"
 ---
 # <a name="user-can-access-human-resources-but-not-onboard-or-attract"></a>用户可以访问 Human Resources，但无法访问 Onboard 或 Attract
 
@@ -35,7 +35,7 @@ ms.locfileid: "3006302"
 
 **发货**
 
-用户 B 可以访问 Human Resources，但无法访问 Talent: Attract 或 Talent: Onboard 应用。 在用户尝试转到**体验应用**时，用户被带入试用环境。
+用户 B 可以访问 Human Resources，但无法访问 Talent: Attract 或 Talent: Onboard 应用。 在用户尝试转到 **体验应用** 时，用户被带入试用环境。
 
 **解决方案**
 

@@ -11,19 +11,18 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Operations
 ms.custom: 91213
 ms.assetid: f0bbc78f-87fc-40e9-b46a-6655893f69be
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 715e0f8d08c6abbde35eb917cddc4ecf4b7b67ed
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1dd76150dd1519adf2c453db8e874d6db32b5906
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811448"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693134"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）的新增功能和更改内容
 
@@ -57,7 +56,7 @@ ms.locfileid: "2811448"
 
 | 您能怎么做？ | 为什么如此重要 |
 |------------------|------------------------|
-| 生成应付账款付款的付款确认文件。 | 可以生成付款确认文件以帮助防止支票欺诈。 |
+| 生成应付帐款付款的付款确认文件。 | 可以生成付款确认文件以帮助防止支票欺诈。 |
 
 ## <a name="warehouse-and-production"></a>仓库和生产
 
@@ -104,6 +103,6 @@ ms.locfileid: "2811448"
 
 ## <a name="additional-resources"></a>其他资源
 
-[Finance and Operations 新增功能或更改主页](whats-new-changed.md)
+[Finance and Operations 主页中的新增功能或更改](whats-new-changed.md)
 
 [新的或更新任务指南（2016 年 5 月）](new-updated-task-guides-available-may-2016.md)

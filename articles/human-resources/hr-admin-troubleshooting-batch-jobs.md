@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: f67b4b4c20345297f186c792fe2766c686e2ddbf
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: 452a87cf5ba6c1ac73636584d75b2ec2ac555e02
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500497"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527757"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>通过将批处理作业安排到非营业时间优化性能
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="issue"></a>发货
 
@@ -44,21 +46,21 @@ ms.locfileid: "3500497"
 | 需要在非工作时间定期运行的数据库压缩系统作业 | 每天 1 次 |
 | 需要在非工作时间定期运行的数据库索引重建系统作业 | 每天 1 次 |
 
-1. 在 Human Resources 中，选择**系统管理**。
+1. 在 Human Resources 中，选择 **系统管理**。
 
-2. 在**搜索**栏中，搜索上面的一个批处理作业。
+2. 在 **搜索** 栏中，搜索上面的一个批处理作业。
 
-3. 选择**在后台运行**，然后选择**重复执行**。
+3. 选择 **在后台运行**，然后选择 **重复执行**。
 
    ![设置重复执行](media/talent-batch-history-cleanup-recurrence.png)
 
-4. 在**定义重复项**下，将**开始日期**和**开始时间**设置为在下班时间或周末进行。 选择**无结束日期**。 
+4. 在 **定义重复项** 下，将 **开始日期** 和 **开始时间** 设置为在下班时间或周末进行。 选择 **无结束日期**。 
 
    ![定义重复执行的开始日期和时间](media/talent-batch-history-cleanup-define-recurrence.png)
 
-5. 选择**确定**。
+5. 选择 **确定**。
 
-6. 如果需要，更改**在后台运行**下的其他任何参数，然后选择**确定**。
+6. 如果需要，更改 **在后台运行** 下的其他任何参数，然后选择 **确定**。
 
 ## <a name="additional-resources"></a>其他资源
 

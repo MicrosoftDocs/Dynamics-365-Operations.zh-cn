@@ -1,6 +1,6 @@
 ---
 title: 解决初始设置过程中的问题
-description: 本主题提供故障排除信息，可以帮助您解决在 Finance and Operations 应用和 Common Data Service 之间的双写入集成的初始设置期间可能发生的问题。
+description: 本主题提供故障排除信息，可以帮助您解决在 Finance and Operations 应用和 Dataverse 之间的双写入集成的初始设置期间可能发生的问题。
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,39 +18,41 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6fb71a17d767a1e84511743794d85523db25eba8
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 5ac6ec5003794fb5875fed6a2c4403c1444ab8b2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997342"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685578"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>解决初始设置过程中的问题
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-本主题提供 Finance and Operations 应用与 Common Data Service 之间的双写入集成的故障排除信息。 具体来说，提供可以帮助您解决在双写入集成的初始设置期间可能发生的问题的信息。
+
+本主题提供 Finance and Operations 应用与 Dataverse 之间的双写入集成的故障排除信息。 具体来说，提供可以帮助您解决在双写入集成的初始设置期间可能发生的问题的信息。
 
 > [!IMPORTANT]
 > 本主题解决的某些问题可能需要系统管理员角色或 Microsoft Azure Active Directory (Azure AD) 租户管理员凭据。 介绍每个问题的每一节说明了是否需要特定角色或凭据。
 
-## <a name="you-cant-link-a-finance-and-operations-app-to-common-data-service"></a>您无法将 Finance and Operations 应用链接到 Common Data Service
+## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>您无法将 Finance and Operations 应用链接到 Dataverse
 
-**设置双写入所需的角色：** Finance and Operations 应用和 Common Data Service 中的系统管理员。
+**设置双写入所需的角色：** Finance and Operations 应用和 Dataverse 中的系统管理员。
 
-**设置到 Common Data Service 的链接** 页面上的错误通常是由不完整的设置或权限问题引起的。 请在 **设置到 Common Data Service 的链接** 页面上通过了整个运行状况检查，如下图所示。 除非整个运行状况检查通过，否则您无法链接双写入。
+**设置到 Dataverse 的链接** 页面上的错误通常是由不完整的设置或权限问题引起的。 请在 **设置到 Dataverse 的链接** 页面上通过了整个运行状况检查，如下图所示。 除非整个运行状况检查通过，否则您无法链接双写入。
 
 ![成功的运行状况检查](media/health_check.png)
 
-您必须具有 Azure AD 租户管理员凭据才能链接 Finance and Operations 和 Common Data Service 环境。 链接环境后，用户可以使用其帐户凭据登录并更新现有实体映射。
+您必须具有 Azure AD 租户管理员凭据才能链接 Finance and Operations 和 Dataverse 环境。 链接环境后，用户可以使用其帐户凭据登录并更新现有表映射。
 
-## <a name="error-when-you-open-the-link-to-common-data-service-page"></a>当您打开“链接到 Common Data Service”页面时出错
+## <a name="error-when-you-open-the-link-to-dataverse-page"></a>当您打开“链接到 Dataverse”页面时出错
 
 **解决此问题所需的凭据：** Azure AD 租户管理员
 
-当您在 Finance and Operations 应用中打开 **链接到 Common Data Service** 页面时，您可能会收到以下错误消息：
+当您在 Finance and Operations 应用中打开 **链接到 Dataverse** 页面时，您可能会收到以下错误消息：
 
 *响应状态代码未指示成功：404（未找到）。*
 
@@ -65,21 +67,21 @@ ms.locfileid: "3997342"
 2. 选择 **接受** 指示您同意在您的租户中安装具有 ID **33976c19-1db5-4c02-810e-c243db79efde** 的应用。
 
     > [!TIP]
-    > 需要此应用才能链接 Common Data Service 和 Finance and Operations 应用。 如果您在执行此步骤时遇到问题，请以匿名模式（在 Google Chrome 中）或隐私模式（在 Microsoft Edge 中）打开浏览器。
+    > 需要此应用才能链接 Dataverse 和 Finance and Operations 应用。 如果您在执行此步骤时遇到问题，请以匿名模式（在 Google Chrome 中）或隐私模式（在 Microsoft Edge 中）打开浏览器。
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>验证链接期间是否正确设置了公司数据和双写入团队
 
-为确保双写入正常工作，将在 Common Data Service 环境中创建您在配置过程中选择的公司。 默认情况下，这些公司是只读的， **IsDualWriteEnable** 属性设置为 **True** 。 此外，还将创建默认的负责业务单位负责人和团队，并包括公司名称。 在启用映射之前，请验证是否已指定默认团队负责人。 要查找 **公司(CDM\_公司)** 实体，请按照以下步骤操作。
+为确保双写入正常工作，将在 Dataverse 环境中创建您在配置过程中选择的公司。 默认情况下，这些公司是只读的，**IsDualWriteEnable** 属性设置为 **True**。 此外，还将创建默认的负责业务单位负责人和团队，并包括公司名称。 在启用映射之前，请验证是否已指定默认团队负责人。 要查找 **公司(CDM\_公司)** 实体，请按照以下步骤操作。
 
 1. 在 Dynamics 365 中的模型驱动应用中，选择右上角的筛选器。
-2. 在下拉列表中，选择 **公司** 。
+2. 在下拉列表中，选择 **公司**。
 3. 选择 **运行** 查看结果。
 4. 选择配置双写入时链接的公司。
-5. 验证 **默认负责团队** 字段是否具有值。 在下图中， **默认负责团队** 字段设置为 **USMF 双写入** 。
+5. 验证 **默认负责团队** 字段是否具有值。 在下图中，**默认负责团队** 字段设置为 **USMF 双写入**。
 
     ![验证默认负责团队](media/default_owning_team.png)
 
-## <a name="find-the-limit-on-the-number-of-legal-entities-or-companies-that-can-be-linked-for-dual-write"></a>查找可以为双写入链接的法人或公司的数量限制
+## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>查找可以为双写入链接的法人或公司的数量限制
 
 当您尝试启用映射时，您可能会收到以下错误消息：
 

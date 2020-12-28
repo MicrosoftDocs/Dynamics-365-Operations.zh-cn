@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: e67ce047d08af6d34090ee4e1dc379dd16ecce07
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976395"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440847"
 ---
 # <a name="cost-element-dimensions"></a>成本元素维度
 

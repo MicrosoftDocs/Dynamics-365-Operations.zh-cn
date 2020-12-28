@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21962952bb3bdd016831dc5e196af27c69ecc6db
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: c3bceb15bbe1dc65abc88c1229459707a6166482
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744063"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680654"
 ---
 # <a name="isvalidcharacteriso7064-er-function"></a>ISVALIDCHARACTERISO7064 ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-如果指定字符串表示有效的国际银行帐号 (IBAN)，`ISVALIDCHARACTERISO7064` 函数返回*布尔*值 **TRUE**。 否则，返回*布尔*值 **FALSE**。
+如果指定字符串表示有效的国际银行帐号 (IBAN)，`ISVALIDCHARACTERISO7064` 函数返回 *布尔* 值 **TRUE**。 否则，返回 *布尔* 值 **FALSE**。
 
 ## <a name="syntax"></a>语法
 

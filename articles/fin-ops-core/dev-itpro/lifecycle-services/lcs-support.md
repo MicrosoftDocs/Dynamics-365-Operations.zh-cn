@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 254844
 ms.assetid: 0e9471f9-4c2b-42f0-9b10-6578211f01d5
 ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e839c6e29a76d7f08f23e007c1e7b8c4699c7580
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 2ec326f2df53ee465b5a75b4f3c24ed914b28551
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817890"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679984"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>获取对 Finance and Operations 应用或 Lifecycle Services (LCS) 的支持
 

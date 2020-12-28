@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af922e857e6bd7a58c0b9891939c8265568b549b
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: b20fbc20f18243c712595795a0b16ae417e755e6
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269513"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594324"
 ---
 # <a name="customize-image-focal-points"></a>自定义图像焦点
 
@@ -39,13 +39,13 @@ ms.locfileid: "3269513"
 
 若要为图像定义自定义焦点，请执行以下步骤。
 
-1. 在 Commerce 站点构建器的左侧导航窗格中，选择**媒体库**。
+1. 在 Commerce 站点构建器的左侧导航窗格中，选择 **媒体库**。
 1. 在主窗口中，选择要修改的图像。
-1. 在命令栏中，选择**编辑**。
-1. 选择图像以进入**编辑模式**。
-1. 在**编辑模式**下，选择**更改焦点**。 图像上方将显示一个圆形焦点控件。
+1. 在命令栏中，选择 **编辑**。
+1. 选择图像以进入 **编辑模式**。
+1. 在 **编辑模式** 下，选择 **更改焦点**。 图像上方将显示一个圆形焦点控件。
 1. 选择该焦点控件将其移到所需焦点上方。
-1. 完成后，在命令栏中选择**保存**，然后选择**完成编辑**。
+1. 完成后，在命令栏中选择 **保存**，然后选择 **完成编辑**。
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -58,3 +58,5 @@ ms.locfileid: "3269513"
 [上传文件](dam-upload-files.md)
 
 [裁剪图像](dam-crop-images.md)
+
+[上传和提供静态文件](upload-serve-static-files.md)

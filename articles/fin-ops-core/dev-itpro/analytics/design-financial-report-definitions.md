@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 07f49e63fc2e0410d2673f3ca9378325e9b4ebf8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 779548dc49be0a92456df791017045803f70bd86
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174136"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683103"
 ---
 # <a name="report-definitions-in-financial-report-designer"></a>财务报表设计器中的报表定义
 
@@ -40,8 +39,8 @@ ms.locfileid: "2174136"
 但是，根据数据在 Microsoft Dynamics ERP 系统中的存储方式，可能无法在报表中使用交易记录明细。
 
 ## <a name="create-a-report-definition"></a>创建报表定义
-1. 在报表设计器的**文件**菜单上，单击**新建**，然后选择**报表定义**。
-2. 在**报表**、**输出和分配**、**页眉和页脚**以及**设置**选项卡上指定相应信息。
+1. 在报表设计器的 **文件** 菜单上，单击 **新建**，然后选择 **报表定义**。
+2. 在 **报表**、**输出和分配**、**页眉和页脚** 以及 **设置** 选项卡上指定相应信息。
 
 ## <a name="contents-of-a-report-definition"></a>报表定义的内容
 下表说明了报表定义中的各个选项卡以及如何使用这些信息。

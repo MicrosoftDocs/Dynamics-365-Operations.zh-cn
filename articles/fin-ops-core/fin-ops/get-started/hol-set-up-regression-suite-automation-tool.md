@@ -11,18 +11,17 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 21761, NotInToc
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f5670f6a580249491ad16ae46470160545bb8f91
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 4757d506239e309dcbc3e181469b17e3286cc111
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248705"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695107"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool 设置和安装教程
 本主题是帮助您设置和开始使用 RSAT 以及与使用 RSAT 有关的工具的教程。 
@@ -73,11 +72,11 @@ RSAT 对测试用例使用 Azure Devops，以及测试套件管理，报告和�
 否则，对于本教程，建议新建 Azure DevOps 项目。 有关详细信息，请参阅[使用自定义 Azure DevOps (VSTS) 流程模板同步到 BPM 时的问题](https://blogs.msdn.microsoft.com/lcs/2018/11/28/issues-when-syncing-to-bpm-using-a-custom-azure-devops-vsts-process-template/)。
 
 1. 打开 Azure DevOps URL (`https://dev.azure.com/<Azure DevOps Name>`)。
-2. 选择 Azure DevOps 页中右上角的**创建项目**。
+2. 选择 Azure DevOps 页中右上角的 **创建项目**。
 
     ![“创建项目”按钮](./media/setup_rsa_tool_03.png)
 
-3. 填写以下字段，然后选择**创建**：
+3. 填写以下字段，然后选择 **创建**：
 
     - **项目名称**
     - **版本控制** – 选择 **Team Foundation 版本控制**。 请注意，不支持默认消息 **Git**。
@@ -89,19 +88,19 @@ RSAT 对测试用例使用 Azure Devops，以及测试套件管理，报告和�
 
 本教程中，将使用 LCS 业务流程建模器 (BPM) 创建测试用例库，并将测试用例与 Azure DevOps 同步。 需要个人访问令牌才能将 BPM 与 Azure DevOps 同步。
 
-1. 选择您的 Azure DevOps 项目的页面右上角中的配置文件图标，然后选择**安全**。
+1. 选择您的 Azure DevOps 项目的页面右上角中的配置文件图标，然后选择 **安全**。
 
     ![“安全”命令](./media/setup_rsa_tool_05.png)
 
-2. 在左窗格中**安全**下，选择**个人访问令牌**。 然后选择**新建令牌**。
+2. 在左窗格中 **安全** 下，选择 **个人访问令牌**。 然后选择 **新建令牌**。
 
     ![“用户”设置中“个人访问令牌”选项卡上的“新建令牌”按钮](./media/setup_rsa_tool_06.png)
 
-3. 填写以下字段，然后选择**创建**：
+3. 填写以下字段，然后选择 **创建**：
 
     - **姓名**
-    - **到期 (UTC)** – 选择**自定义**，然后使用日期选取器选择上一个可用日期。
-    - **范围** – 选择**完全访问权限**选项。
+    - **到期 (UTC)** – 选择 **自定义**，然后使用日期选取器选择上一个可用日期。
+    - **范围** – 选择 **完全访问权限** 选项。
 
     ![“新建个人访问令牌”对话框](./media/setup_rsa_tool_07.png)
 
@@ -119,14 +118,14 @@ RSAT 对测试用例使用 Azure Devops，以及测试套件管理，报告和�
 ### <a name="update-the-lcs-language"></a>更新 LCS 语言
 
 > [!NOTE]
-> 要让用户界面 (UI) 正确显示业务流程，必须将 LCS 首选语言设置为**语言(美国)**。
+> 要让用户界面 (UI) 正确显示业务流程，必须将 LCS 首选语言设置为 **语言(美国)**。
 
 1. 转到 LCS 实施项目。
-2. 选择页面右上角的**设置**按钮（齿轮符号），然后选择**语言首选项**。
+2. 选择页面右上角的 **设置** 按钮（齿轮符号），然后选择 **语言首选项**。
 
     ![“设置”菜单上的命令](./media/setup_rsa_tool_09.png)
 
-3. 在**首选语言**字段中，选择**英语 (美国)**，然后选择**保存**。
+3. 在 **首选语言** 字段中，选择 **英语 (美国)**，然后选择 **保存**。
 
     ![“用户设置”中的“语言首选项”选项卡](./media/setup_rsa_tool_10.png)
 
@@ -135,39 +134,39 @@ RSAT 对测试用例使用 Azure Devops，以及测试套件管理，报告和�
 如果前面新建了 Azure DevOps 项目，请配置 LCS 项目以连接到新建的这个项目。 否则，如果已将您的 LCS 项目连接到了 Azure DevOps 项目，则可继续到下一部分。
 
 1. 转到 LCS 实施项目。
-2. 选择**菜单**按钮，然后选择**项目设置**。
+2. 选择 **菜单** 按钮，然后选择 **项目设置**。
 
     ![“项目设置”命令](./media/setup_rsa_tool_11.png)
 
-3. 在左窗格中，选择 **Visual Studio Team Services**，然后选择**设置 Visual Studio Team Services**。
+3. 在左窗格中，选择 **Visual Studio Team Services**，然后选择 **设置 Visual Studio Team Services**。
 
     ![“项目设置”中的“Visual Studio Team Services”选项卡](./media/setup_rsa_tool_12.png)
 
-4. 在 **Azure DevOps 站点 URL** 字段中，输入 Azure DevOps 站点的 URL。 在**个人访问令牌**字段中，输入之前创建的个人访问令牌。
+4. 在 **Azure DevOps 站点 URL** 字段中，输入 Azure DevOps 站点的 URL。 在 **个人访问令牌** 字段中，输入之前创建的个人访问令牌。
 
     > [!NOTE]
     > 尽管 VSTS 现在称为 Azure DevOps，要将 LCS 连接到 Azure DevOps 项目，请使用原来的 URL。 例如，本教程中使用的 Azure DevOps URL 为 `https://dev.azure.com/D365FOFastTrack/`。 但是，下图中输入的是 `https://D365FOFastTrack.visualstudio.com/`。
 
     ![“设置 Visual Studio Team Services”中的步骤 1](./media/setup_rsa_tool_13.png)
 
-5. 选择**继续**。
-6. 在 **Visual Studio Team Services 项目**字段中，在所选站点上选择要与 LCS 项目链接的 VSTS 项目。 默认情况下，**流程模板**字段设置为 **Agile**。 对于自定义模板，请参阅[新建 Azure DevOps 项目](#create-a-new-azure-devops-project)部分中的最佳实践指南。 然后选择**继续**。
+5. 选择 **继续**。
+6. 在 **Visual Studio Team Services 项目** 字段中，在所选站点上选择要与 LCS 项目链接的 VSTS 项目。 默认情况下，**流程模板** 字段设置为 **Agile**。 对于自定义模板，请参阅[新建 Azure DevOps 项目](#create-a-new-azure-devops-project)部分中的最佳实践指南。 然后选择 **继续**。
 
     ![“设置 Visual Studio Team Services”中的步骤 2](./media/setup_rsa_tool_14.png)
 
-7. 检查设置，然后选择**保存**。
+7. 检查设置，然后选择 **保存**。
 
     ![“设置 Visual Studio Team Services”中的步骤 3](./media/setup_rsa_tool_15.png)
 
-8. 选择**授权**为 LCS 授予代表您访问所配置 Azure DevOps 站点的权限，以便开启与 VSTS 集成的功能。
+8. 选择 **授权** 为 LCS 授予代表您访问所配置 Azure DevOps 站点的权限，以便开启与 VSTS 集成的功能。
 
     ![“授权”按钮](./media/setup_rsa_tool_16.png)
 
-9. 将显示一个消息框，其中说明“您即将重定向到外部站点以授权 LCS 代表您连接到 Visual Studio Team Services。 是否要继续？” 选择**是**。
+9. 将显示一个消息框，其中说明“您即将重定向到外部站点以授权 LCS 代表您连接到 Visual Studio Team Services。 是否要继续？” 选择 **是**。
 
     ![消息框](./media/setup_rsa_tool_17.png)
 
-10. 选择**接受**。
+10. 选择 **接受**。
 
     ![授予访问权限](./media/setup_rsa_tool_18.png)
 
@@ -178,24 +177,24 @@ RSAT 对测试用例使用 Azure Devops，以及测试套件管理，报告和�
 ### <a name="create-a-new-bpm-library"></a>创建新的 BPM 库
 
 1. 转到 LCS 实施项目。
-2. 选择**菜单**按钮，然后选择**业务流程建模器**。
+2. 选择 **菜单** 按钮，然后选择 **业务流程建模器**。
 
     ![“业务流程建模器”命令](./media/setup_rsa_tool_20.png)
 
-3. 选择**新建库**。
+3. 选择 **新建库**。
 
     ![“新建库”按钮](./media/setup_rsa_tool_21.png)
 
-4. 在**库名**字段中，输入名称，然后选择**创建**。 对于本教程，请将 BPM 库命名为 **RSAT**。
+4. 在 **库名** 字段中，输入名称，然后选择 **创建**。 对于本教程，请将 BPM 库命名为 **RSAT**。
 
     ![“新建库”对话框](./media/setup_rsa_tool_22.png)
 
 5. 打开新的 **RSAT** BPM 库。
-6. 选择**示例核心业务流程**流程，然后选择右侧的**编辑模式**。
+6. 选择 **示例核心业务流程** 流程，然后选择右侧的 **编辑模式**。
 
     ![“编辑模式”按钮](./media/setup_rsa_tool_23.png)
 
-7. 将**名称**字段和**说明**字段的值更改为**创建产品**。 然后选择**保存**。
+7. 将 **名称** 字段和 **说明** 字段的值更改为 **创建产品**。 然后选择 **保存**。
 
     ![“名称”和“说明”字段](./media/setup_rsa_tool_24.png)
 
@@ -217,14 +216,14 @@ RSAT 对测试用例使用 Azure Devops，以及测试套件管理，报告和�
 需要执行此步骤才能与 LCS 连接，这样就可以通过客户端将任务录制保存到 LCS 中的相应 BPM 库。
 
 1. 打开客户端。
-2. 转到**系统管理 \> 设置 \> 系统参数**。
-3. 在**帮助**选项卡上的 **Lifecycle Services 帮助配置**字段中，选择相关 LCS 项目（本教程中为 **RSAT**）。
+2. 转到 **系统管理 \> 设置 \> 系统参数**。
+3. 在 **帮助** 选项卡上的 **Lifecycle Services 帮助配置** 字段中，选择相关 LCS 项目（本教程中为 **RSAT**）。
 
     ![“帮助”选项卡上的“Lifecycle Services 帮助配置”字段](./media/setup_rsa_tool_25.png)
 
     将在相应 LCS 项目下填写 BPM 库。
 
-4. 选择**保存**。
+4. 选择 **保存**。
 5. 可能必须刷新浏览器才能查看更新后的帮助内容。
 
     ![有关刷新浏览器的通知](./media/setup_rsa_tool_26.png)
@@ -239,23 +238,23 @@ RSAT 对测试用例使用 Azure Devops，以及测试套件管理，报告和�
 创建一个相应任务录制，可将其附加到在新的 BPM 库中创建的简单业务流程。
 
 1. 打开客户端。
-2. 在主仪表板上，选择**设置**按钮（齿轮符号），然后选择**任务录制器**。
+2. 在主仪表板上，选择 **设置** 按钮（齿轮符号），然后选择 **任务录制器**。
 
     ![“设置”菜单上的命令](./media/setup_rsa_tool_27.png)
 
-3. 选择**创建录制**。
+3. 选择 **创建录制**。
 
     ![“创建录制”按钮](./media/setup_rsa_tool_28.png)
 
-4. 填写**记录名称**和**记录说明**字段，然后选择**开始**。
+4. 填写 **记录名称** 和 **记录说明** 字段，然后选择 **开始**。
 
     ![“录制名称”和“录制说明”字段](./media/setup_rsa_tool_29.png)
 
-5. 录制用于创建产品的步骤。 完成后，选择**停止**以停止录制。
+5. 录制用于创建产品的步骤。 完成后，选择 **停止** 以停止录制。
 
     ![用于创建产品的步骤](./media/setup_rsa_tool_30.png)
 
-6. 选择**保存到 Lifecycle Services**。
+6. 选择 **保存到 Lifecycle Services**。
 
     ![保存选项](./media/setup_rsa_tool_31.png)
 
@@ -263,7 +262,7 @@ RSAT 对测试用例使用 Azure Devops，以及测试套件管理，报告和�
 
     ![进度指示器](./media/setup_rsa_tool_32.png)
 
-7. 选择要与任务录制关联的 BPM 库。 对于本教程，请选择之前创建的 **RSAT** BPM 库及其下的**创建产品**业务流程。 然后选择**确定**。
+7. 选择要与任务录制关联的 BPM 库。 对于本教程，请选择之前创建的 **RSAT** BPM 库及其下的 **创建产品** 业务流程。 然后选择 **确定**。
 
     ![将任务录制与 BPM 库和业务流程关联](./media/setup_rsa_tool_33.png)
 
@@ -273,20 +272,20 @@ RSAT 对测试用例使用 Azure Devops，以及测试套件管理，报告和�
 
 8. 如果要在本地保存任务录制，然后通过 LCS 上载到 BPM，请执行以下步骤：
 
-    1. 完成录制后，选择**保存到此 PC**。
+    1. 完成录制后，选择 **保存到此 PC**。
 
         ![保存选项](./media/setup_rsa_tool_35.png)
 
-    2. 在浏览器的通知栏中，选择**保存**或**另存为**，将文件保存到您的本地计算机上。
+    2. 在浏览器的通知栏中，选择 **保存** 或 **另存为**，将文件保存到您的本地计算机上。
 
         ![通知栏](./media/setup_rsa_tool_36.png)
 
     3. 转到 **RSAT** BPM 库，然后选择要针对其保存任务录制的业务流程。
-    4. 在**概述**选项卡上，选择**上载**。
+    4. 在 **概述** 选项卡上，选择 **上载**。
 
         ![“上载”按钮](./media/setup_rsa_tool_37.png)
 
-    5. 选择**浏览**，然后选择之前保存的 .axtr 文件。 然后选择**上载**。
+    5. 选择 **浏览**，然后选择之前保存的 .axtr 文件。 然后选择 **上载**。
 
         ![选择要上载的 .axtr 文件](./media/setup_rsa_tool_38.png)
 
@@ -302,7 +301,7 @@ RSAT 对测试用例使用 Azure Devops，以及测试套件管理，报告和�
 
     ![省略号菜单中的“VSTS 同步”命令](./media/setup_rsa_tool_39.png)
 
-    完成 VSTS 同步之后，左侧将显示**要求**选项卡，其中包含相应 Azure DevOps 工作项。
+    完成 VSTS 同步之后，左侧将显示 **要求** 选项卡，其中包含相应 Azure DevOps 工作项。
 
     > [!NOTE]
     > Azure DevOps 中创建的工作项采用 BPM 库名称充当标题前缀。
@@ -310,20 +309,20 @@ RSAT 对测试用例使用 Azure Devops，以及测试套件管理，报告和�
     ![“要求”选项卡](./media/setup_rsa_tool_40.png)
 
 3. 刷新该页面。
-4. 选择省略号按钮 (**...**)。将再显示一个选项，即**同步测试用例**。 选择此选项。
+4. 选择省略号按钮 (**...**)。将再显示一个选项，即 **同步测试用例**。 选择此选项。
 
     ![省略号菜单中的“同步测试用例”命令](./media/setup_rsa_tool_41.png)
 
     > [!NOTE]
-    > 如果刷新页面之后**同步测试用例**选项不可用，请转到 BPM 的主页，然后为整个库本身选择**同步测试用例**。 这样就可以有效地为整个库强制实施同步。
+    > 如果刷新页面之后 **同步测试用例** 选项不可用，请转到 BPM 的主页，然后为整个库本身选择 **同步测试用例**。 这样就可以有效地为整个库强制实施同步。
     > 
     > ![为整个库选择同步测试用例](./media/setup_rsa_tool_42.png)
 
-    完成同步测试用例后，将在**要求**选项卡上新建一个测试用例。
+    完成同步测试用例后，将在 **要求** 选项卡上新建一个测试用例。
 
     ![“要求”选项卡上的“新建测试用例”](./media/setup_rsa_tool_43.png)
 
-5. 转到 Azure DevOps 项目，然后选择**面板 \> 工作项**。
+5. 转到 Azure DevOps 项目，然后选择 **面板 \> 工作项**。
 
     ![“面板”下的“工作项”命令](./media/setup_rsa_tool_44.png)
 
@@ -350,19 +349,19 @@ RSAT 对测试用例使用 Azure Devops，以及测试套件管理，报告和�
     $certificate = New-SelfSignedCertificate -dnsname 127.0.0.1 -CertStoreLocation cert:\LocalMachine\My -FriendlyName "D365 Automated testing certificate" -Provider "Microsoft Strong Cryptographic Provider"
     ```
 
-2. 通过在**运行**对话框中输入 **certlm.msc** 打开证书管理器，然后在**个人 \> 证书**下确认创建的 **D365 Automated 测试证书**证书。
+2. 通过在 **运行** 对话框中输入 **certlm.msc** 打开证书管理器，然后在 **个人 \> 证书** 下确认创建的 **D365 Automated 测试证书** 证书。
 
     > [!NOTE]
     > 务必输入 **certlm.msc**，不要输入 **certmgr.msc**，因为证书存储在本地计算机上。
 
     ![“D365 Automated 测试证书”证书](./media/setup_rsa_tool_46.png)
 
-3. 右键单击证书，然后选择**复制**。
-4. 转到**可信根证书主管机构 \> 证书**。
+3. 右键单击证书，然后选择 **复制**。
+4. 转到 **可信根证书主管机构 \> 证书**。
 
     ![“可信根证书主管机构”文件夹下的“证书”文件夹](./media/setup_rsa_tool_47.png)
 
-5. 在**操作**菜单上，选择**粘贴**将证书复制到**可信根证书主管机构**位置。
+5. 在 **操作** 菜单上，选择 **粘贴** 将证书复制到 **可信根证书主管机构** 位置。
 
     ![“操作”菜单上的“粘贴”命令](./media/setup_rsa_tool_48.png)
 
@@ -380,14 +379,14 @@ RSAT 对测试用例使用 Azure Devops，以及测试套件管理，报告和�
 #### <a name="configure-the-aos-computer-to-trust-the-connection"></a>将 AOS 计算机配置为信任连接
 
 > [!NOTE]
-> 如果环境是二级以上环境，则必须在 wif.config 文件中为环境的**所有** AOS 计算机更新证书指纹。
+> 如果环境是二级以上环境，则必须在 wif.config 文件中为环境的 **所有** AOS 计算机更新证书指纹。
 
 1. 建立与 AOS 计算机之间的远程桌面协议 (RDP) 连接。 LCS 中的环境详细信息页中提供登录详细信息。
 2. 打开 Microsoft Internet 信息服务 (IIS)，然后在站点列表中找到 **AOSService**。
 
     ![站点列表中的 AOSService](./media/setup_rsa_tool_49.png)
 
-3. 右键单击**浏览**以打开 **\<Drive\>: \\AosService\\WebRoot** 文件夹。 找到 **wif.config** 文件。
+3. 右键单击 **浏览** 以打开 **\<Drive\>: \\AosService\\WebRoot** 文件夹。 找到 **wif.config** 文件。
 
     ![WebRoot 文件夹中的 Wif.config 文件](./media/setup_rsa_tool_50.png)
 
@@ -432,12 +431,12 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
 ### <a name="install-rsat"></a>安装 RSAT
 
-1. 转到 <https://www.microsoft.com/download/details.aspx?id=57357>，然后选择**下载**。
-2. 选择所有文件，然后选择**下一步**。
+1. 转到 <https://www.microsoft.com/download/details.aspx?id=57357>，然后选择 **下载**。
+2. 选择所有文件，然后选择 **下一步**。
 
     ![选择所有文件](./media/setup_rsa_tool_51.png)
 
-3. 双击 .msi 包运行安装程序。 然后，在安装完成时，选择**完成**。
+3. 双击 .msi 包运行安装程序。 然后，在安装完成时，选择 **完成**。
 
     ![RSAT 安装程序文件](./media/setup_rsa_tool_52.png)
 
@@ -452,19 +451,19 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
 ### <a name="create-a-test-plan-and-test-suites"></a>创建测试计划和测试套件
 
-1. 转到 Azure DevOps 项目，然后选择**测试计划**。
+1. 转到 Azure DevOps 项目，然后选择 **测试计划**。
 
     ![“测试计划”命令](./media/setup_rsa_tool_53.png)
 
-2. 选择**新建测试计划**。
+2. 选择 **新建测试计划**。
 
     ![“新建测试计划”按钮](./media/setup_rsa_tool_54.png)
 
-3. 填写**名称**字段，然后选择**创建**。 对于本教程，将测试计划命名为 **RSAT 测试计划**。
+3. 填写 **名称** 字段，然后选择 **创建**。 对于本教程，将测试计划命名为 **RSAT 测试计划**。
 
     ![“新建测试计划”对话框](./media/setup_rsa_tool_55.png)
 
-4. 选择加号 (**+**)，然后选择**静态套件**在新测试计划下创建一个静态套件。 将这个新的测试套件命名为 **T01 – 制造到库存**。
+4. 选择加号 (**+**)，然后选择 **静态套件** 在新测试计划下创建一个静态套件。 将这个新的测试套件命名为 **T01 – 制造到库存**。
 
     > [!NOTE]
     > 如果希望将新测试用例从 BPM 自动提取到 RSAT 测试套件中，也可以创建基于查询的套件。
@@ -473,15 +472,15 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
 ### <a name="attach-test-cases-to-test-suites"></a>将测试用例附加到测试套件
 
-1. 选择右侧的**添加现有**将现有测试用例添加到测试套件。
+1. 选择右侧的 **添加现有** 将现有测试用例添加到测试套件。
 
     ![“添加现有”按钮](./media/setup_rsa_tool_57.png)
 
-2. 在**将测试用例添加到套件**页上，选择**运行查询**，然后选择要添加到测试套件的测试用例。 对于本教程，请选择**创建新产品**测试用例。 然后选择页面右下角的**添加测试用例**（下图中未显示此按钮）。
+2. 在 **将测试用例添加到套件** 页上，选择 **运行查询**，然后选择要添加到测试套件的测试用例。 对于本教程，请选择 **创建新产品** 测试用例。 然后选择页面右下角的 **添加测试用例**（下图中未显示此按钮）。
 
     ![“运行查询”按钮](./media/setup_rsa_tool_58.png)
 
-    将把测试用例添加到 **T01 - 制造到库存**测试套件。
+    将把测试用例添加到 **T01 - 制造到库存** 测试套件。
 
     ![测试案例已添加到测试套件](./media/setup_rsa_tool_59.png)
 
@@ -491,21 +490,21 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
     ![“RSAT”图标](./media/setup_rsa_tool_60.png)
 
-2. 将收到警告消息，说明“Regression Suite Automation Tool 需要 Selenium。是否要立即自动下载并安装？”。 选择**是**。
+2. 将收到警告消息，说明“Regression Suite Automation Tool 需要 Selenium。是否要立即自动下载并安装？”。 选择 **是**。
 
     ![警告消息](./media/setup_rsa_tool_61.png)
 
-3. 选择右上角的**设置**按钮（齿轮符号），然后填写显示的对话框中的以下字段：
+3. 选择右上角的 **设置** 按钮（齿轮符号），然后填写显示的对话框中的以下字段：
 
     - **Azure DevOps Url** – 输入您的 Azure DevOps 项目的 URL，如 `https://yourAzureDevOpsUrlHere.visualStudio.com`。
     - **访问令牌** – 输入用于将工具连接到 Azure DevOps 的访问令牌。 使用本教程前面创建的个人访问令牌。 有关详细信息，请参阅[使用个人访问令牌对访问进行身份验证](https://www.visualstudio.com/docs/setup-admin/team-services/use-personal-access-tokens-to-authenticate)。
     - **项目名称** – 选择您的 Azure DevOps 项目的名称。
-    - **测试计划** – 选择其中包含您的测试用例的 Azure DevOps 测试计划。 有关详细信息，请参阅[创建测试计划和测试套件](https://www.visualstudio.com/docs/test/manual-exploratory-testing/getting-started/create-a-test-plan)。 选择测试计划之后，选择**测试连接**以测试您与 Azure DevOps 之间的连接。
+    - **测试计划** – 选择其中包含您的测试用例的 Azure DevOps 测试计划。 有关详细信息，请参阅[创建测试计划和测试套件](https://www.visualstudio.com/docs/test/manual-exploratory-testing/getting-started/create-a-test-plan)。 选择测试计划之后，选择 **测试连接** 以测试您与 Azure DevOps 之间的连接。
     - **主机名** – 输入测试环境的主机名，如 **\<myaos\>.cloudax.dynamics.com**。 请勿在其中包含 **https://** 或 **http://** 前缀。
     - **SOAP 主机名** – 输入测试环境的 SOAP 主机名。 SOAP 主机名通常与主机名相同，但带有 **soap** 后缀。 下面是示例：**\<myaos\>soap.cloudax.dynamics.com**。 请勿在其中包含 **https://** 或 **http://** 前缀。
 
         > [!NOTE]
-        > 若要查找主机名和 SOAP 主机名，请打开 IIS 管理器，右键单击**站点 \> AOSService**，然后选择**编辑绑定**。 **主机名**列中的值提供主机名和 SOAP 主机名（在 URL 中，SOAP 主机名带有后缀 **soap**）。
+        > 若要查找主机名和 SOAP 主机名，请打开 IIS 管理器，右键单击 **站点 \> AOSService**，然后选择 **编辑绑定**。 **主机名** 列中的值提供主机名和 SOAP 主机名（在 URL 中，SOAP 主机名带有后缀 **soap**）。
 
         ![“主机名”列中的主机名和 SOAP 主机名](./media/setup_rsa_tool_63.png)
 
@@ -523,19 +522,19 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
     ![“设置”对话框](./media/setup_rsa_tool_62.png)
 
-4. 选择**应用**以应用和保存您的设置。
+4. 选择 **应用** 以应用和保存您的设置。
 
-    若要将当前设置保存到计算机上的配置文件，请选择**另存为**。 若要从计算机上的配置文件还原设置，请选择**打开**。
+    若要将当前设置保存到计算机上的配置文件，请选择 **另存为**。 若要从计算机上的配置文件还原设置，请选择 **打开**。
 
-5. 选择**关闭**关闭对话框。
+5. 选择 **关闭** 关闭对话框。
 
 ### <a name="load-and-run-test-cases"></a>加载和运行测试用例
 
-1. 选择**加载**从 Azure DevOps 项目加载 **RSAT 测试计划**测试计划。
+1. 选择 **加载** 从 Azure DevOps 项目加载 **RSAT 测试计划** 测试计划。
 
     ![“加载”按钮](./media/setup_rsa_tool_64.png)
 
-2. 从测试套件选择**创建新产品**测试用例，然后选择**新建 \> 生成测试执行和参数文件**。
+2. 从测试套件选择 **创建新产品** 测试用例，然后选择 **新建 \> 生成测试执行和参数文件**。
 
     ![“新建”菜单上的“生成测试执行和参数文件”命令](./media/setup_rsa_tool_65.png)
 
@@ -543,11 +542,11 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
     ![已创建 Excel 参数文件](./media/setup_rsa_tool_66.png)
 
-3. 如果要保存参数文件，请选择**上载**。 将把选择的所有测试用例的测试自动化文件上载到 Azure DevOps 供将来使用。 （这些文件包括 Excel 测试参数文件。）
+3. 如果要保存参数文件，请选择 **上载**。 将把选择的所有测试用例的测试自动化文件上载到 Azure DevOps 供将来使用。 （这些文件包括 Excel 测试参数文件。）
 
-    这样就可以选择**加载**直接从 Azure DevOps 加载测试用例中的参数文件（和自动化文件）。 不必重新生成参数文件。 以后要保留参数文件中的修改，不希望覆盖时，此方法会变得非常重要。
+    这样就可以选择 **加载** 直接从 Azure DevOps 加载测试用例中的参数文件（和自动化文件）。 不必重新生成参数文件。 以后要保留参数文件中的修改，不希望覆盖时，此方法会变得非常重要。
 
-4. 若要验证是否已将自动化文件和参数文件保存到了 Azure DevOps，请转到 Azure DevOps 项目，选择**面板 \> 工作项**，然后选择**创建新产品**测试用例。 在**附件**选项卡上，应该可以看到四个文件：
+4. 若要验证是否已将自动化文件和参数文件保存到了 Azure DevOps，请转到 Azure DevOps 项目，选择 **面板 \> 工作项**，然后选择 **创建新产品** 测试用例。 在 **附件** 选项卡上，应该可以看到四个文件：
 
     - **.cs** – C\# 自动化文件
     - **.dll** – 已编译为程序集的自动化文件
@@ -556,14 +555,14 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
     ![“附件”选项卡上的文件](./media/setup_rsa_tool_67.png)
 
-5. 选择要运行的测试用例，然后选择**运行**。
+5. 选择要运行的测试用例，然后选择 **运行**。
 
     > [!NOTE]
-    > 如果浏览器使用的是 Internet Explorer，请在运行测试用例之前，确保 **Windows 显示设置 \> 比例和布局**中的桌面分辨率设置为 **100%**。 如果无法在虚拟机 (VM) 中更改此设置，请在用于访问该 VM 的客户端（笔记本电脑）上更改。 然后，VM 显示设置将继承这些分辨率设置。
+    > 如果浏览器使用的是 Internet Explorer，请在运行测试用例之前，确保 **Windows 显示设置 \> 比例和布局** 中的桌面分辨率设置为 **100%**。 如果无法在虚拟机 (VM) 中更改此设置，请在用于访问该 VM 的客户端（笔记本电脑）上更改。 然后，VM 显示设置将继承这些分辨率设置。
 
     ![桌面分辨率设置为 100%](./media/setup_rsa_tool_68.png)
 
-6. 如果系统中未安装浏览器驱动程序，将收到警告消息，说明“此操作需要 \<browser name\> 驱动程序。 是否要立即自动下载并安装？“ 选择**是**。
+6. 如果系统中未安装浏览器驱动程序，将收到警告消息，说明“此操作需要 \<browser name\> 驱动程序。 是否要立即自动下载并安装？“ 选择 **是**。
 
     ![Internet Explorer 的警告消息](./media/setup_rsa_tool_69.png)
 
@@ -574,11 +573,11 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
     ![Chrome 的错误消息](./media/setup_rsa_tool_71.png)
 
-    将运行测试用例，并更新**结果**字段。
+    将运行测试用例，并更新 **结果** 字段。
 
     ![进度指示器](./media/setup_rsa_tool_72.png)
 
-    如果已按照本教程的内容进行了操作，则**创建新产品**测试用例将失败，因为用于创建产品的任务录制将产品名另存为了硬编码的值。 如果重新运行同一个测试用例，则应该会收到错误消息，因为已存在该产品。
+    如果已按照本教程的内容进行了操作，则 **创建新产品** 测试用例将失败，因为用于创建产品的任务录制将产品名另存为了硬编码的值。 如果重新运行同一个测试用例，则应该会收到错误消息，因为已存在该产品。
 
     ![“结果”字段已设置为“失败”](./media/setup_rsa_tool_72.png)
 
@@ -590,23 +589,23 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
     ![错误消息](./media/setup_rsa_tool_73.png)
 
-2. 选择**详细信息**以查看完整的错误消息。
+2. 选择 **详细信息** 以查看完整的错误消息。
 
     ![完整的错误消息](./media/setup_rsa_tool_74.png)
 
-3. 若要在 Azure DevOps 中查看错误消息的详细版本，请选择**在 Azure DevOps 中打开**。 在 Azure DevOps 中，可查看测试用例的状态和详细错误消息。
+3. 若要在 Azure DevOps 中查看错误消息的详细版本，请选择 **在 Azure DevOps 中打开**。 在 Azure DevOps 中，可查看测试用例的状态和详细错误消息。
 
     ![Azure DevOps 中的详细错误消息](./media/setup_rsa_tool_75.png)
 
-4. 若要直接在 Azure DevOps 项目中查看测试结果，请转到**测试计划 \> 测试计划 \> 运行**。 双击要查看其更多详细信息的测试运行。
+4. 若要直接在 Azure DevOps 项目中查看测试结果，请转到 **测试计划 \> 测试计划 \> 运行**。 双击要查看其更多详细信息的测试运行。
 
     ![Azure DevOps 中的测试运行列表](./media/setup_rsa_tool_76.png)
 
-5. **运行摘要**选项卡指示测试用例失败，但是不提供实际的错误消息。 若要查看详细错误消息，请选择**测试结果**选项卡。
+5. **运行摘要** 选项卡指示测试用例失败，但是不提供实际的错误消息。 若要查看详细错误消息，请选择 **测试结果** 选项卡。
 
     ![“运行摘要”选项卡](./media/setup_rsa_tool_77.png)
 
-    **测试结果**选项卡提供测试用例信息，以及结果和错误消息。
+    **测试结果** 选项卡提供测试用例信息，以及结果和错误消息。
 
     ![“测试结果”选项卡](./media/setup_rsa_tool_78.png)
 
@@ -617,16 +616,16 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
     > [!NOTE]
     > 本地的 **C:\\Users\\\$YourUserName\\AppData\\Roaming\\regressionTool\\errormsg-.txt** 中也有所有错误消息。
 
-7. 也可以通过选择**导出**导出测试计划级结果。
+7. 也可以通过选择 **导出** 导出测试计划级结果。
 
     ![导出测试计划](./media/setup_rsa_tool_80.png)
 
 ### <a name="modify-the-excel-parameter-file"></a>修改 Excel 参数文件
 
 1. 打开 RSAT。
-2. 选择测试用例，然后选择**编辑**打开 Excel 参数文件。
+2. 选择测试用例，然后选择 **编辑** 打开 Excel 参数文件。
 
-    请注意，**EcoResProductCreate** 表中的**产品编号**字段为硬编码。 必须先将此字段更新为新的产品编号，才能再次运行测试用例。
+    请注意，**EcoResProductCreate** 表中的 **产品编号** 字段为硬编码。 必须先将此字段更新为新的产品编号，才能再次运行测试用例。
 
 3. 若要为每次运行生成唯一的产品编号，同时不必每次都重新打开 Excel 参数文件并手动更新产品编号，请使用以下 Excel 公式。
 
@@ -635,23 +634,23 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
     ```
 
     > [!NOTE]
-    > 除了**常规**选项卡，测试用例访问的每个窗体页在 Excel 参数文件中都有一个数据选项卡。
+    > 除了 **常规** 选项卡，测试用例访问的每个窗体页在 Excel 参数文件中都有一个数据选项卡。
 
     ![“产品编号”字段](./media/setup_rsa_tool_81.png)
 
-4. 选择**保存**，然后关闭 Excel 工作簿。
-5. 选择**上载**将 Excel 参数文件保存到 Azure DevOps。
+4. 选择 **保存**，然后关闭 Excel 工作簿。
+5. 选择 **上载** 将 Excel 参数文件保存到 Azure DevOps。
 
     ![上载成功消息](./media/setup_rsa_tool_82.png)
 
     > [!NOTE]
-    > 若要在特定用户上下文中运行测试用例，请在 Excel 参数文件**常规**选项卡上的**测试用户**字段中输入用户的电子邮件 ID。 在最新 RSAT 版本中，已更新了 Excel 参数文件中的字段布局，但是概念不变。
+    > 若要在特定用户上下文中运行测试用例，请在 Excel 参数文件 **常规** 选项卡上的 **测试用户** 字段中输入用户的电子邮件 ID。 在最新 RSAT 版本中，已更新了 Excel 参数文件中的字段布局，但是概念不变。
     >
     > ![“测试用户”字段](./media/setup_rsa_tool_83.png)
 
 ### <a name="validate-the-results"></a>验证结果
 
-- 选择**运行**以重新运行测试用例，并且验证测试用例是否已通过。 可按照[查看测试结果](#view-the-test-results)部分中的说明查看测试结果。
+- 选择 **运行** 以重新运行测试用例，并且验证测试用例是否已通过。 可按照[查看测试结果](#view-the-test-results)部分中的说明查看测试结果。
 
     ![“结果”字段已设置为“通过”](./media/setup_rsa_tool_84.png)
 
@@ -664,16 +663,16 @@ RSAT 的一项关键功能是链接测试用例（即一个测试将值传递给
 #### <a name="modify-an-existing-task-recording-to-create-a-saved-variable"></a>修改现有任务录制以创建已保存变量
 
 1. 打开客户端。
-2. 选择**设置**按钮（齿轮符号），然后选择**任务录制器**。
-3. 选择**编辑录制**。
+2. 选择 **设置** 按钮（齿轮符号），然后选择 **任务录制器**。
+3. 选择 **编辑录制**。
 
     ![“编辑录制”按钮](./media/setup_rsa_tool_85.png)
 
-4. 选择**从 Lifecycle Services 打开**。
+4. 选择 **从 Lifecycle Services 打开**。
 
     ![“从 Lifecycle Services 打开”按钮](./media/setup_rsa_tool_86.png)
 
-5. 选择**选择 Lifecycle Services 库**。
+5. 选择 **选择 Lifecycle Services 库**。
 
     ![“选择 Lifecycle Services 库”按钮](./media/setup_rsa_tool_87.png)
 
@@ -681,47 +680,47 @@ RSAT 的一项关键功能是链接测试用例（即一个测试将值传递给
 
     ![进度指示器](./media/setup_rsa_tool_88.png)
 
-6. 从 LCS 加载 BPM 库之后，选择任务录制关联的 **RSAT** BPM 库和**创建新产品**业务流程。 然后选择**确定**。
+6. 从 LCS 加载 BPM 库之后，选择任务录制关联的 **RSAT** BPM 库和 **创建新产品** 业务流程。 然后选择 **确定**。
 
     ![选择 BPM 库和业务流程](./media/setup_rsa_tool_89.png)
 
-7. 将在**录制名称**字段中输入相应任务录制的名称。 选择**开始**。
+7. 将在 **录制名称** 字段中输入相应任务录制的名称。 选择 **开始**。
 
     ![“录制名称”字段中的任务录制名称](./media/setup_rsa_tool_90.png)
 
-8. 转到**产品信息管理 \> 产品**，然后选择**新建**打开在其中录制了原始任务录制（即**创建产品**）的页面。
-9. 选择**插入步骤**。
+8. 转到 **产品信息管理 \> 产品**，然后选择 **新建** 打开在其中录制了原始任务录制（即 **创建产品**）的页面。
+9. 选择 **插入步骤**。
 
     > [!NOTE]
-    > 将在窗格中选择的步骤**后面**插入新步骤。
+    > 将在窗格中选择的步骤 **后面** 插入新步骤。
 
     ![“插入步骤”按钮](./media/setup_rsa_tool_91.png)
 
-10. 右键单击**产品编号**字段，然后选择**任务录制器 \> 复制**。
+10. 右键单击 **产品编号** 字段，然后选择 **任务录制器 \> 复制**。
 
     ![“复制”命令](./media/setup_rsa_tool_92.png)
 
-11. 将在窗格中添加一个新步骤。 记下**产品编号**字段中的值，因为后面需要。
+11. 将在窗格中添加一个新步骤。 记下 **产品编号** 字段中的值，因为后面需要。
 
     ![添加了新步骤](./media/setup_rsa_tool_93.png)
 
-12. 选择**完成编辑**。
-13. 选择**保存到 Lifecycle Services**，然后将新任务录制与原始任务录制关联的相同 BPM 库和业务流程关联。 有关详细信息，请参阅[创建任务录制并保存到 BPM 库](#create-a-task-recording-and-save-it-to-the-bpm-library)部分。
-14. 转到 BPM 库，然后选择**同步测试用例**以按照[测试从 BPM 到 Azure DevOps 的同步](#test-the-synchronization-from-bpm-to-azure-devops)部分中的说明在 Azure DevOps 中覆盖附加到测试用例的任务录制。
-15. 打开 RSAT，然后选择**加载**以重新加载测试套件中的所有测试用例。 必须按照[加载和运行测试用例](#load-and-run-test-cases)部分中的说明为相应测试用例重新生成自动化文件和参数文件，方法是选择测试用例，然后选择**新建 \> 生成测试执行和参数文件**。
+12. 选择 **完成编辑**。
+13. 选择 **保存到 Lifecycle Services**，然后将新任务录制与原始任务录制关联的相同 BPM 库和业务流程关联。 有关详细信息，请参阅[创建任务录制并保存到 BPM 库](#create-a-task-recording-and-save-it-to-the-bpm-library)部分。
+14. 转到 BPM 库，然后选择 **同步测试用例** 以按照[测试从 BPM 到 Azure DevOps 的同步](#test-the-synchronization-from-bpm-to-azure-devops)部分中的说明在 Azure DevOps 中覆盖附加到测试用例的任务录制。
+15. 打开 RSAT，然后选择 **加载** 以重新加载测试套件中的所有测试用例。 必须按照 [加载和运行测试用例](#load-and-run-test-cases)部分中的说明为相应测试用例重新生成自动化文件和参数文件，方法是选择测试用例，然后选择 **新建 \> 生成测试执行和参数文件**。
 
     > [!NOTE]
     > 如果 Excel 参数文件未关闭，重新生成将失败。 因此，生成新的 Excel 参数文件之前，确保关闭测试用例的 Excel 参数文件。
 
-16. 选择**编辑**打开新的 Excel 参数文件。 将在行 9 中看到新的**已保存变量**条目。 此变量（即 **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}**）将保存到任务录制的 XML 文件，并且可以在后续测试中使用。
+16. 选择 **编辑** 打开新的 Excel 参数文件。 将在行 9 中看到新的 **已保存变量** 条目。 此变量（即 **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}**）将保存到任务录制的 XML 文件，并且可以在后续测试中使用。
 
     ![“已保存变量”条目](./media/setup_rsa_tool_94.png)
 
 #### <a name="create-a-new-test-case"></a>创建新的测试用例
 
 1. 转到 **RSAT** BPM 库。
-2. 选择**示例支持业务流程**流程，然后选择右侧的**编辑模式**。
-3. 将**名称**字段和**说明**字段的值更改为**发布产品**。 然后选择**保存**。
+2. 选择 **示例支持业务流程** 流程，然后选择右侧的 **编辑模式**。
+3. 将 **名称** 字段和 **说明** 字段的值更改为 **发布产品**。 然后选择 **保存**。
 
     ![“名称”和“说明”已更改为“发布产品”](./media/setup_rsa_tool_95.png)
 
@@ -730,17 +729,17 @@ RSAT 的一项关键功能是链接测试用例（即一个测试将值传递给
 - 创建任务录制以将之前创建的产品发布给 USRT 法人。 有关详细信息，请参阅[创建任务录制并保存到 BPM 库](#create-a-task-recording-and-save-it-to-the-bpm-library)部分。
 
     > [!NOTE]
-    > 对于链式测试用例，我们始终建议您通过*手动键入字段的值*查找或筛选您需要的记录。 这样，此工具就可以确定后续测试用例中必须对其执行操作的记录。
+    > 对于链式测试用例，我们始终建议您通过 *手动键入字段的值* 查找或筛选您需要的记录。 这样，此工具就可以确定后续测试用例中必须对其执行操作的记录。
 
     ![具有验证功能的新任务录制](./media/setup_rsa_tool_96.png)
 
-    如上图所示，使用快速筛选器找到产品之后，选择**发布产品**之前，请验证**产品编号**字段的值以确保产品 ID 是之前创建的产品 ID。  若要验证该值，请右键单击**产品编号**字段，然后选择**任务录制器 \> 验证 \> 当前值**。
+    如上图所示，使用快速筛选器找到产品之后，选择 **发布产品** 之前，请验证 **产品编号** 字段的值以确保产品 ID 是之前创建的产品 ID。  若要验证该值，请右键单击 **产品编号** 字段，然后选择 **任务录制器 \> 验证 \> 当前值**。
 
     ![验证当前值](./media/setup_rsa_tool_97.png)
 
 #### <a name="save-the-task-recording-to-bpm"></a>将任务录制保存到 BPM
 
-1. 完成任务录制后，选择**保存到 Lifecycle Services**。
+1. 完成任务录制后，选择 **保存到 Lifecycle Services**。
 
     ![保存选项](./media/setup_rsa_tool_98.png)
 
@@ -748,21 +747,21 @@ RSAT 的一项关键功能是链接测试用例（即一个测试将值传递给
 
     ![进度指示器](./media/setup_rsa_tool_99.png)
 
-3. 选择要与任务录制关联的 BPM 库。 对于本教程，请选择之前创建的 **RSAT** BPM 库及其下的**发布产品**业务流程。 然后选择**确定**。
+3. 选择要与任务录制关联的 BPM 库。 对于本教程，请选择之前创建的 **RSAT** BPM 库及其下的 **发布产品** 业务流程。 然后选择 **确定**。
 
 #### <a name="sync-bpm-to-azure-devops"></a>将 BPM 同步到 Azure DevOps
 
 1. 转到 BPM 库，然后打开 **RSAT** 库。
-2. 选择 **VSTS 同步**，然后选择**同步测试用例**。 有关详细信息，请参阅[测试从 BPM 到 Azure DevOps 的同步](#test-the-synchronization-from-bpm-to-azure-devops)部分。
+2. 选择 **VSTS 同步**，然后选择 **同步测试用例**。 有关详细信息，请参阅[测试从 BPM 到 Azure DevOps 的同步](#test-the-synchronization-from-bpm-to-azure-devops)部分。
 
-    同步完成后，Azure DevOps 中**面板 \> 工作项**内将显示**发布产品**业务流程的新工作项和相应测试用例。
+    同步完成后，Azure DevOps 中 **面板 \> 工作项** 内将显示 **发布产品** 业务流程的新工作项和相应测试用例。
 
 #### <a name="add-the-new-test-case-to-the-existing-test-suite"></a>将新测试用例添加到现有测试套件
 
-1. 转到**测试计划 \> 测试计划**，然后选择 **RSAT 测试计划**计划。
-2. 选择**添加现有**。
-3. 在**向套件添加测试用例**页中，选择**运行查询**。
-4. 选择为**发布产品**创建的新测试用例，然后选择页面右下角的**添加测试用例**（下图中未显示此按钮）。
+1. 转到 **测试计划 \> 测试计划**，然后选择 **RSAT 测试计划** 计划。
+2. 选择 **添加现有**。
+3. 在 **向套件添加测试用例** 页中，选择 **运行查询**。
+4. 选择为 **发布产品** 创建的新测试用例，然后选择页面右下角的 **添加测试用例**（下图中未显示此按钮）。
 
     ![“向套件添加测试用例”页](./media/setup_rsa_tool_100.png)
 
@@ -772,33 +771,33 @@ RSAT 的一项关键功能是链接测试用例（即一个测试将值传递给
 
 #### <a name="load-test-cases-into-rsat"></a>将测试用例加载到 RSAT 中
 
-1. 打开 RSAT，然后选择**加载**。
-2. 将加载测试用例，而您会收到警告，说明“此操作将覆盖 Excel 测试数据文件，本地更改将丢失。 是否要继续?” 选择**是**以更新本地系统中的 Excel 参数文件，但是不更新上载到 Azure DevOps 的 Excel 参数文件。
+1. 打开 RSAT，然后选择 **加载**。
+2. 将加载测试用例，而您会收到警告，说明“此操作将覆盖 Excel 测试数据文件，本地更改将丢失。 是否要继续?” 选择 **是** 以更新本地系统中的 Excel 参数文件，但是不更新上载到 Azure DevOps 的 Excel 参数文件。
 
     ![警告消息](./media/setup_rsa_tool_102.png)
 
-    将加载这两个测试用例，以及第一个测试用例的 Excel 参数文件。 因为在上一个运行中选择了**上载**，所以将从 Azure DevOps 提取参数文件。
+    将加载这两个测试用例，以及第一个测试用例的 Excel 参数文件。 因为在上一个运行中选择了 **上载**，所以将从 Azure DevOps 提取参数文件。
 
     ![已加载测试用例](./media/setup_rsa_tool_103.png)
 
-3. 仅选择第二个测试用例，然后选择**新建 \> 生成测试执行和参数文件**。
+3. 仅选择第二个测试用例，然后选择 **新建 \> 生成测试执行和参数文件**。
 
 #### <a name="edit-the-excel-parameter-file"></a>编辑 Excel 参数文件
 
-1. 仅选择第二个测试用例，然后选择**编辑**打开相应 Excel 参数文件。
-2. 将已保存变量 **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}**（请参阅[修改现有任务录制以创建已保存变量](#modify-an-existing-task-recording-to-create-a-saved-variable)部分）从第一个测试用例复制到使用产品编号的所有字段中。 在此情况下，将把变量复制到 **EcoResProductListPage** 表的**产品编号**和**验证产品编号**字段中。
+1. 仅选择第二个测试用例，然后选择 **编辑** 打开相应 Excel 参数文件。
+2. 将已保存变量 **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}**（请参阅[修改现有任务录制以创建已保存变量](#modify-an-existing-task-recording-to-create-a-saved-variable)部分）从第一个测试用例复制到使用产品编号的所有字段中。 在此情况下，将把变量复制到 **EcoResProductListPage** 表的 **产品编号** 和 **验证产品编号** 字段中。
 
     ![“产品编号”和“验证产品编号”字段](./media/setup_rsa_tool_104.png)
 
     > [!NOTE]
     > 只有在同一个测试运行期间才能在测试之间传递变量。 变量的名称必须完全匹配。
 
-3. 选择**保存**，然后关闭 Excel 工作簿。
-4. 选择**上载**保存对 Excel 参数文件执行的更改。
+3. 选择 **保存**，然后关闭 Excel 工作簿。
+4. 选择 **上载** 保存对 Excel 参数文件执行的更改。
 
 #### <a name="run-the-chained-test-cases"></a>运行链式测试用例
 
-1. 同时选择这两个测试用例，然后选择**运行**。
+1. 同时选择这两个测试用例，然后选择 **运行**。
 2. 验证这两个测试用例是否均已通过。
 
     ![两个测试用例的“结果”字段均设置为已通过](./media/setup_rsa_tool_105.png)

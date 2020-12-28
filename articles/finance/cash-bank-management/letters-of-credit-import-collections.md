@@ -19,11 +19,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7c31b8af25ea231f23ac5f4968760257b3f5894f
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899437"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440769"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>信用证和进口托收
 
@@ -45,7 +45,7 @@ ms.locfileid: "3899437"
 
 信用证包括货物的描述、任何所需的凭证、装运数据以及未进行付款之前的到期日期。 签发银行收取信用证的毛利。 
 
-信用证可以是**可撤销**的或**不可撤销**的。 信用证的性质可以是**可转让**、**不可转让**或**循环**。 通常，信用证是不可撤销的已确认的协议，将向提交完整且正确的装运文档的特定受益人付款。
+信用证可以是 **可撤销** 的或 **不可撤销** 的。 信用证的性质可以是 **可转让**、**不可转让** 或 **循环**。 通常，信用证是不可撤销的已确认的协议，将向提交完整且正确的装运文档的特定受益人付款。
 
 ## <a name="import-collections"></a>进口托收
 进口托收是银行和出口商（卖方）直接的协议，在其中银行同意将装运文档传送到国际进口商（买方）。 银行预期根据以现金显示的已装运货物的付款收据或根据针对付款的签名收据传送装运文档。 

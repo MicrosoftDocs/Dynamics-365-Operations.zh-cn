@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1a7f66797dea62a22d93ab105722bb26b4cf94e1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a252c3ecb12cb6a4dc429f35c8aeab6bd3914d03
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210103"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528941"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>将 Sales 的联系人直接同步到 Supply Chain Management 中的联系人或客户
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
 > 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
@@ -43,7 +45,7 @@ ms.locfileid: "3210103"
 
 ## <a name="templates-and-tasks"></a>模板和任务
 
-若要访问可用模板，打开 [PowerApps 管理中心](https://preview.admin.powerapps.com/dataintegration)。 选择**项目**，然后在右上角，选择**新项目**以选择公共模板。
+若要访问可用模板，打开 [PowerApps 管理中心](https://preview.admin.powerapps.com/dataintegration)。 选择 **项目**，然后在右上角，选择 **新项目** 以选择公共模板。
 
 以下模板和基础任务用于将 Sales 中的联系人（联系人）实体同步到 Supply Chain Management 中的联系人（客户）实体：
 
@@ -72,18 +74,18 @@ ms.locfileid: "3210103"
 
 Sales 中的联系人可以成为 Supply Chain Management 中的联系人或客户。 为了确定在 Sales 中的联系人是否应该作为联系人或客户同步到 Supply Chain Management，系统将在 Sales 中查看联系人的以下属性：
 
-- **同步到 Supply Chain Management 中的客户：** 联系人的**是可用客户**设置为**是**
-- **同步到 Supply Chain Management 中的联系人：** 联系人的**是可用客户**设置为**否**且**公司**（上级单位/联系人）指向帐户（不是联系人）
+- **同步到 Supply Chain Management 中的客户：** 联系人的 **是可用客户** 设置为 **是**
+- **同步到 Supply Chain Management 中的联系人：** 联系人的 **是可用客户** 设置为 **否** 且 **公司**（上级单位/联系人）指向帐户（不是联系人）
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>用于 Sales 的“从目标客户到现金”解决方案
 
-新的**是可用客户**字段已添加到联系人。 此字段用于区分具有销售活动的联系人和没有销售活动的联系人。 **是可用客户**仅对具有相关报价单、订单或发票的联系人设置为**是**。 仅这些联系人作为客户同步到 Supply Chain Management。
+新的 **是可用客户** 字段已添加到联系人。 此字段用于区分具有销售活动的联系人和没有销售活动的联系人。 **是可用客户** 仅对具有相关报价单、订单或发票的联系人设置为 **是**。 仅这些联系人作为客户同步到 Supply Chain Management。
 
-新的 **IsCompanyAnAccount** 字段已添加到联系人。 此字段指示联系人是否已链接到**帐户**类型的公司（上级单位/联系人）。 此信息用于确定应该作为联系人同步到 Supply Chain Management 的联系人。
+新的 **IsCompanyAnAccount** 字段已添加到联系人。 此字段指示联系人是否已链接到 **帐户** 类型的公司（上级单位/联系人）。 此信息用于确定应该作为联系人同步到 Supply Chain Management 的联系人。
 
-新的**联系人号码**字段已添加到联系人以帮助保证一个用于集成的自然和唯一参数。 在创建新的联系人时，将使用编号规则自动创建**联系人号码**值。 该值由 **CON** 以及依次紧跟在后面的一个增加的编号规则和一个由六个字符组成的后缀构成。 示例：**CON-01000-BVRCPS**
+新的 **联系人号码** 字段已添加到联系人以帮助保证一个用于集成的自然和唯一参数。 在创建新的联系人时，将使用编号规则自动创建 **联系人号码** 值。 该值由 **CON** 以及依次紧跟在后面的一个增加的编号规则和一个由六个字符组成的后缀构成。 示例：**CON-01000-BVRCPS**
 
-应用用于 Sales 的集成解决方案后，一个升级脚本使用前面提到的编号规则设置现有联系人的**联系人号码**字段。 升级脚本还可以对任何具有销售活动的联系人将**是可用客户**字段设置为**是**。
+应用用于 Sales 的集成解决方案后，一个升级脚本使用前面提到的编号规则设置现有联系人的 **联系人号码** 字段。 升级脚本还可以对任何具有销售活动的联系人将 **是可用客户** 字段设置为 **是**。
 
 ## <a name="in-supply-chain-management"></a>在 Supply Chain Management 中
 
@@ -97,7 +99,7 @@ Sales 中的联系人可以成为 Supply Chain Management 中的联系人或客�
 
     默认模板值为 **10**。
 
-- 添加以下映射有助于减少在 Supply Chain Management 中所需的手动更新的次数。 你可以使用默认值或来自**国家/地区**或**城市**等的值映射。
+- 添加以下映射有助于减少在 Supply Chain Management 中所需的手动更新的次数。 你可以使用默认值或来自 **国家/地区** 或 **城市** 等的值映射。
 
     - **SiteId** – 还可以对 Supply Chain Management 中的产品定义默认站点。 在 Supply Chain Management 中生成报价单和销售订单必需有站点。
 

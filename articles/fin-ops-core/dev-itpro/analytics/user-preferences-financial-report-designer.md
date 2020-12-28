@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 31161
 ms.assetid: 59da4854-0f8c-4021-acd1-b303c06f4a34
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a4f045a5852447600391e541f66d2a533736f6b7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a7d7124da3d0e9596f364c17065c95610384a8ca
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182109"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687369"
 ---
 # <a name="user-preferences-in-financial-report-designer"></a>财务报表设计器中的用户首选项
 
@@ -33,9 +32,9 @@ ms.locfileid: "2182109"
 
 ## <a name="set-user-preferences"></a>设置用户首选项
 
-1. 在报表设计器的**工具**菜单上，单击**选项**。
-2. 在**选项**对话框中，选择您的首选项。
-3. 单击**OK**。
+1. 在报表设计器的 **工具** 菜单上，单击 **选项**。
+2. 在 **选项** 对话框中，选择您的首选项。
+3. 单击 **OK**。
 
 ## <a name="options-dialog-box-options"></a>选择对话框选项
 <table>

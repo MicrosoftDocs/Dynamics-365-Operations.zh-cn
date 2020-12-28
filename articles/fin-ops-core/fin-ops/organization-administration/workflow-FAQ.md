@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ba60c832b1f1ac5f514baef4cc0a9c36dd85af9
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 785b14d20a647ea2187f311f1cd056b8181d4849
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826182"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694048"
 ---
 # <a name="workflow-faq"></a>工作流常见问题
 
@@ -37,7 +36,7 @@ ms.locfileid: "3826182"
 这是现有工作流导出功能的一项限制，它会阻止超过 48 个字符的工作流名称。 使用超过 48 个字符的名称可能会导致“服务器未能对请求进行身份验证”错误，以及/或者阻止导出无文件类型的文件。 以下博客文章提供了有关[工作流导出疑难解答](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting)的更多详细信息。
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>工作流的提交者是否也可以审核工作流？
-可以。如果按照这种方式配置，工作流的提交者也可以审核工作流。 若要避免此行为，请将**系统管理 > 工作流 > 工作流参数 > 常规 > 审核人 > 不允许提交者进行审核**设置为**是**。
+可以。如果按照这种方式配置，工作流的提交者也可以审核工作流。 若要避免此行为，请将 **系统管理 > 工作流 > 工作流参数 > 常规 > 审核人 > 不允许提交者进行审核** 设置为 **是**。
 
 ## <a name="can-i-add-alerts-to-workflows-to-provide-notifications-to-users"></a>是否可向工作流添加预警以向用户提供通知？
 下面是向工作流添加预警以提供通知时需要注意的一些关键方面：
@@ -56,7 +55,7 @@ ms.locfileid: "3826182"
 在升级的环境中的 Active Directory 联合身份验证服务 (AD FS) 下运行时，工作流编辑器可能无法启动。 如果是这样，请确保 URL“https://dynamicsaxworkfloweditor/”已添加到 ADFS 设置中的属性 **Microsoft Dynamics 365 for Operations On-premises - 工作流 - 本机应用程序**。
 
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>为什么在处理工作流时遇到了 SQL 死锁？ 
-**工作流参数**页中**每个批处理任务的工作流项目数**的默认字段值为 0。 值为 0 将导致默认值更改为每个批次 20 个项目。 调整此值时，请务必小心，因为每个批次的项目数太大 (> 40) 可能导致 SQL 死锁。
+**工作流参数** 页中 **每个批处理任务的工作流项目数** 的默认字段值为 0。 值为 0 将导致默认值更改为每个批次 20 个项目。 调整此值时，请务必小心，因为每个批次的项目数太大 (> 40) 可能导致 SQL 死锁。
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>什么是“工作流增强错误”功能？
 版本 10.0.13 中的“工作流增强错误”功能添加了错误代码来区分不同的工作流错误类。 报告的错误消息大致相似，只有微小差异，以使它们更清晰。

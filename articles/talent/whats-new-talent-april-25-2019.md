@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: cbafea9063844dd3f19e5828ab37632e04591f18
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 53faf972759c8f770017fcd3a87920410988e626
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897876"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527167"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-23-2019"></a>Dynamics 365 Talent（2019 年 4 月 23 日）中的新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
@@ -50,8 +52,8 @@ OData 内现在支持下列实体：工作人员工作经验和工作人员教�
 ### <a name="employee-rehire-flag-always-available-310047"></a>员工重新聘用标签始终可用 (310047)
 现在可在解除雇用流程外更新员工重新雇用选项。 
 
-### <a name="cannot-change-the-name-of-my-payment-method-308815"></a>不能更改**我的付款方式**的名称 (308815)
-已启用了个性化，允许在员工自助服务中更改**我的付款方式**标签。
+### <a name="cannot-change-the-name-of-my-payment-method-308815"></a>不能更改 **我的付款方式** 的名称 (308815)
+已启用了个性化，允许在员工自助服务中更改 **我的付款方式** 标签。
 
 ### <a name="financial-dimensions-against-a-position-cant-be-deleted-293908"></a>不能删除针对职位的财务维度 (293908)
 请求更改现有跨公司范围的职位和财务维度时，现在可删除财务维度。 
@@ -77,4 +79,4 @@ OData 内现在支持下列实体：工作人员工作经验和工作人员教�
 ## <a name="known-issues"></a>已知问题
 
 ### <a name="email-support-for-alerts"></a>警报的电子邮件支持
-安装 Finance and Operations 的平台更新 26 之后，用户可创建警报规则，用于在被事件触发后自动为联系人发送电子邮件通知。
+安装 Finance and Operations 的平台更新 26 之后，用户可创建警报规则，用于在被事件触发后自动向联系人发送电子邮件通知。

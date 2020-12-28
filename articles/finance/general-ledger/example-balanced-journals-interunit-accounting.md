@@ -19,11 +19,11 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e84d96b5467b38e07a9ed31f142c27b638289284
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176561"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440641"
 ---
 # <a name="balanced-journals-for-interunit-accounting"></a>平衡单位间核算的日记帐
 
@@ -31,7 +31,7 @@ ms.locfileid: "2176561"
 
 本文显示当在分类帐页中选择平衡财务维度时日记帐如何自动平衡。 
 
-如果在财务维度值的级别处的科目分录不平衡，则附加的科目分录将自动创建以平衡日记帐。 这些科目分录使用**自动交易记录帐户**页上的**单位间 - 借方**和**单位间 - 贷方**过帐类型来确定主科目。 例如，业务单位，是会计科目的二级细分，被选择作为平衡财务维度，以下会计分录即将创建。
+如果在财务维度值的级别处的科目分录不平衡，则附加的科目分录将自动创建以平衡日记帐。 这些科目分录使用 **自动交易记录帐户** 页上的 **单位间 - 借方** 和 **单位间 - 贷方** 过帐类型来确定主科目。 例如，业务单位，是会计科目的二级细分，被选择作为平衡财务维度，以下会计分录即将创建。
 
 |                      |           |
 |----------------------|-----------|

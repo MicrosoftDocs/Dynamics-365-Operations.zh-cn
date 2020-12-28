@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0eb3671051d9a3be9430050e2a0ad4227b17677e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979543"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440762"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>“源”字段中的销售税计算方法
 

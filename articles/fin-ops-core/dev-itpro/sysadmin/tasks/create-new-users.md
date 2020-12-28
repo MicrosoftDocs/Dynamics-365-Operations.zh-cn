@@ -1,7 +1,7 @@
 ---
 title: 创建新用户
 description: 用户是您的组织的内部员工或外部客户和供应商，该用户需要访问系统以履行职责。
-author: maertenm
+author: peakerbl
 manager: AnnBe
 ms.date: 06/08/2020
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysUserManagement, SysDataAreaSelectLookup, SysSecUserAddRoles, SysUserMSODSUserImport
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e84130ff2b1cf83b7d2b95eefc72175dc57743c
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 6f861b7493d039b332358be7df7d0198cbadcb7a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982494"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679832"
 ---
 # <a name="create-new-users"></a>创建新用户
 
@@ -38,21 +37,21 @@ ms.locfileid: "3982494"
 需要在托管租户目录中表示环境所部署到的租户外部的用户 (Azure Active Directory (Azure AD))，以便可以为其分配许可证。 应将这些外部用户作为来宾用户添加到 Azure AD 内的租户中，然后为其分配适当的许可证。 有关更多信息，请参见[在 Azure 门户中添加 Azure Active Directory B2B 协作用户](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator)。
 
 ## <a name="add-a-new-user"></a>添加新用户
-1. 转到**系统管理 \> 用户 \> 用户**。
-2. 在操作窗格上，选择**新建**。
-3. 在**用户 ID** 字段中，输入用户的唯一标识符。 用户 ID 是必填项。  
-4. 在**用户名称**字段中，输入用户的名称。  
-5. 在**域**字段中，输入用户的域。  
-6. 在**别名**字段，输入用户的别名。  
-7. 在**公司**字段中，选择所需公司。 
-8. 在**用户的角色**快速选项卡中，选择**分配角色**向用户分配安全角色。 有关更多信息，请参阅[向安全角色分配用户](assign-users-security-roles.md)。
-9. 选择**确定**。
-10. 选择**保存**。
+1. 转到 **系统管理 \> 用户 \> 用户**。
+2. 在操作窗格上，选择 **新建**。
+3. 在 **用户 ID** 字段中，输入用户的唯一标识符。 用户 ID 是必填项。  
+4. 在 **用户名称** 字段中，输入用户的名称。  
+5. 在 **域** 字段中，输入用户的域。  
+6. 在 **别名** 字段，输入用户的别名。  
+7. 在 **公司** 字段中，选择所需公司。 
+8. 在 **用户的角色** 快速选项卡中，选择 **分配角色** 向用户分配安全角色。 有关更多信息，请参阅[向安全角色分配用户](assign-users-security-roles.md)。
+9. 选择 **确定**。
+10. 选择 **保存**。
 
 ## <a name="import-users"></a>导入用户
-1. 转到**系统管理 \> 用户 \> 用户**。
-2. 在操作窗格上，选择**导入用户**。
+1. 转到 **系统管理 \> 用户 \> 用户**。
+2. 在操作窗格上，选择 **导入用户**。
 3. 在列表中，标记所选的行。
-4. 选择**导入用户**。
-5. 选择**关闭**。
+4. 选择 **导入用户**。
+5. 选择 **关闭**。
 

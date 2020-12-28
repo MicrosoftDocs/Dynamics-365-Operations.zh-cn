@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c5c36441e926cd5a82c802a350adf6b2ed6d6387
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176583"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440692"
 ---
 # <a name="factor-depreciation"></a>因素/系数折旧
 
@@ -31,7 +31,7 @@ ms.locfileid: "2176583"
 
 本文提供系数折旧法的概览。
 
-系数是用于对资产进行折旧的百分比。 在您设置固定资产折旧模板并在**折旧模板**页的**方法**字段中选择**系数**时，可以设置累进、非累进或直线折旧法：
+系数是用于对资产进行折旧的百分比。 在您设置固定资产折旧模板并在 **折旧模板** 页的 **方法** 字段中选择 **系数** 时，可以设置累进、非累进或直线折旧法：
 
 -   在累进折旧法中，折旧金额将增加每个折旧期间。
 -   在非累进折旧法中，每个期间的折旧金额将随着时间减少。
@@ -40,10 +40,10 @@ ms.locfileid: "2176583"
 下面的规则和示例指示您如何为每种折旧类型设置系数。 
 
 > [!NOTE] 
-> 当您在**方法**字段中选择**系数**时，**系数**字段和**间隔**字段将显示。
+> 当您在 **方法** 字段中选择 **系数** 时，**系数** 字段和 **间隔** 字段将显示。
 
 ## <a name="progressive-depreciation"></a>累进折旧
-**系数**字段中的值大于 **50**。
+**系数** 字段中的值大于 **50**。
 
 ### <a name="example"></a>示例
 
@@ -59,7 +59,7 @@ ms.locfileid: "2176583"
 | 6    | 12 月 31 日 | 10,184.06           | 72,283.38             |
 
 ## <a name="digressive-depreciation"></a>非累进折旧
-**系数**字段中的值小于 **50**。
+**系数** 字段中的值小于 **50**。
 
 ### <a name="example"></a>示例
 
@@ -75,7 +75,7 @@ ms.locfileid: "2176583"
 | 6    | 12 月 31 日 | 3,937.36            | 12,042.34             |
 
 ## <a name="straight-line-depreciation"></a>直线折旧法
-**系数**字段中的值等于 **50**。 在此情况下，折旧在每个期间中都相同，并且您应该考虑在其他字段中指定的值的意义，如[直线法折旧](straight-line-service-life-depreciation.md)中所述。
+**系数** 字段中的值等于 **50**。 在此情况下，折旧在每个期间中都相同，并且您应该考虑在其他字段中指定的值的意义，如[直线法折旧](straight-line-service-life-depreciation.md)中所述。
 
 
 

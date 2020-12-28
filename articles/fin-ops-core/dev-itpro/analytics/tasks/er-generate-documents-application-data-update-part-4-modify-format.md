@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6132d48f276b27797e86fbcde11746b7e4da7d3b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142447"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684539"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>修改格式以生成包含应用程序数据的单据
 
@@ -95,16 +94,17 @@ ms.locfileid: "3142447"
 52. 单击“保存”。
 
 ## <a name="modify-format-to-memorize-details-of-reporting"></a>修改格式以记住报告的详细信息
+
 1. 单击”将格式映射到模型“。
 2. 单击“新建”。
 3. 在“定义”字段中，输入或选择“用于应用程序数据更新”根项。
-    * 对于应用程序数据更新  
+    * 对于应用程序数据更新。
 4. 在“名称”字段中，键入“映射以更新数据”。
     * 映射以更新数据  
 5. 单击“保存”。
-    * 此映射定义如何在数据模型（其结构由所选根项“用于应用程序数据更新”指定）中收集内部统计报表的详细信息。 这些详细信息、具有相同根项“用于应用程序数据更新”的模型映射和方向“截止目标”将用于应用程序数据更新。 生成传出内部统计报表之后立即开始执行应用程序数据更新。 请注意，运行时可跳过应用程序数据更新，但是数据模型必须为空（包含空记录列表）。   
+    * 此映射定义如何在数据模型（其结构由所选根项“用于应用程序数据更新”指定）中收集内部统计报表的详细信息。 这些详细信息、具有相同根项“用于应用程序数据更新”的模型映射和方向“截止目标”将用于应用程序数据更新。 生成传出内部统计报表之后立即开始执行应用程序数据更新。 运行时可跳过应用程序数据更新，但是数据模型必须为空（包含空记录列表）。
 6. 单击“设计器”。
-    * 请注意，传出内部统计报表格式添加为此模型映射的数据源。  
+    * 传出内部统计报表格式添加为此模型映射的数据源。  
     * 将设计的报表（表示为数据源）的元素绑定到数据模型（基于所选模型的根项过滤）的元素。  
 7. 在树中，展开“存档标题”。
 8. 在树中，展开“存档标题\存档行”。
@@ -120,8 +120,8 @@ ms.locfileid: "3142447"
 18. 单击“添加”功能。
 19. 在树中，展开“格式”。
 20. 在树中，展开“格式\申报: XML 元素(申报)”。
-21. 在树中，展开“格式\申报: XML 元素(申报)\数据: XML 元素 1..* (数据)”。
-22. 在树中，选择“格式\申报: XML 元素(申报)\数据: XML 元素 1..* (数据)\物料: XML 元素 0..* (物料)”。
+21. 在树中，展开 `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)`。
+22. 在树中，选择 `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)`。
 23. 单击“添加数据源”。
 24. 在“公式”字段中，输入“COUNT(format.Declaration.Data.Item)”。
     * COUNT(format.Declaration.Data.Item)  
@@ -130,23 +130,22 @@ ms.locfileid: "3142447"
 27. 在树中，选择“存档标题\文件名”。
 28. 在树中，选择“格式\申报: XML 元素(申报)\数据: XML 元素 1..* (数据)\文件名: 物料字符串(文件名)”。
 29. 单击“绑定”。
-30. 在树中，选择“格式\申报: XML 元素(申报)\数据: XML 元素 1..* (数据)\物料: XML 元素 0..* (物料)\Dim4: XML 元素 1..1 (物料)\编号: 字符串(编号)”。
+30. 在树中，选择 `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)`。
 31. 在树中，选择“存档标题\存档行\物料编号”。
 32. 单击“绑定”。
-33. 在树中，选择“格式\申报: XML 元素(申报)\数据: XML 元素 1..* (数据)\物料: XML 元素 0..* (物料)\Dim3: XML 元素 1..1 (金额)\值: 实数(值)”。
+33. 在树中，选择 `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)`。
 34. 在树中，选择“存档标题\存档行\金额”。
 35. 单击“绑定”。
-36. 在树中，选择“格式\申报: XML 元素(申报)\数据: XML 元素 1..* (数据)\物料: XML 元素 0..* (物料)\商品记录标识: 物料 Int64(商品记录标识)”。
+36. 在树中，选择 `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec ID: Item Int64(Commodity rec ID)`。
 37. 在树中，选择“存档标题\存档行\商品记录标识”。
 38. 单击“绑定”。
 39. 在树中，选择“存档标题\存档行”。
-40. 在树中，选择“格式\申报: XML 元素(申报)\数据: XML 元素 1..* (数据)\物料: XML 元素 0..* (物料)”。
+40. 在树中，选择 `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)`。
 41. 单击“绑定”。
 42. 在树中，选择“存档标题”。
-43. 在树中，选择“格式\申报: XML 元素(申报)\数据: XML 元素 1..* (数据)”。
+43. 在树中，选择 `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)`。
 44. 单击“绑定”。
 45. 单击“保存”。
 46. 关闭该页面。
 47. 关闭该页面。
 48. 关闭该页面。
-

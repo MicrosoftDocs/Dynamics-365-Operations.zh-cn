@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cdfa9ed24d0456d9beaec03ebac89098131d0675
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7da0d1aa4bb10658c66fce996e00b5714125f100
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771134"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682687"
 ---
 # <a name="financial-reporting"></a>财务报告
 
@@ -34,12 +33,12 @@ ms.locfileid: "2771134"
 财务报告包括维度支持。 因此，帐户段或尺寸是立即可用。 不需要额外的工具或配置步骤。
 
 ## <a name="financial-reporting-setup"></a>财务报告设置
-**财务报告设置**页面具有系统中的所有财务维度列表。 **总帐** \> **分类帐设置** \> **财务报告设置**。
+**财务报告设置** 页面具有系统中的所有财务维度列表。 **总帐** \> **分类帐设置** \> **财务报告设置**。
 
-**财务报告设置**页面具有两个确定您在财务报告中报告的数据的部分：
+**财务报告设置** 页面具有两个确定您在财务报告中报告的数据的部分：
 
 - **维度选项卡** - 由于不同公司使用不同维度和科目结构，因而没有办法确定用户在报表中查看所有财务维度的顺序。 此页面允许您在财务报告中构建和查看报表时设置您希望财务维度出现的顺序。
-- **属性选项卡**让您可以选择是否希望能够使用**供应商**和**客户**作为筛选和报表设计的属性。 如果您在过帐交易时没有在单个凭证中输入多个供应商或客户，那么对供应商和客户的报告将很有价值。 选择供应商和/或客户将增加额外的集成时间。
+- **属性选项卡** 让您可以选择是否希望能够使用 **供应商** 和 **客户** 作为筛选和报表设计的属性。 如果您在过帐交易时没有在单个凭证中输入多个供应商或客户，那么对供应商和客户的报告将很有价值。 选择供应商和/或客户将增加额外的集成时间。
 
 ## <a name="financial-reporting-components"></a>财务报告组件
 财务报告的下列组件让创建、查看和计划报表更轻松。

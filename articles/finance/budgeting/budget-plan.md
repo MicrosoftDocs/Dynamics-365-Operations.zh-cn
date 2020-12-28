@@ -19,11 +19,11 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c9558013236a728e0fb9691f4edd719fe58d5457
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772137"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440883"
 ---
 # <a name="budget-planning"></a>预算计划
 
@@ -40,7 +40,7 @@ ms.locfileid: "2772137"
 <a name="prerequisites"></a>先决条件 
 ------------------
 
-对于本教程，您需要访问含 Contoso 演示数据的 Microsoft Dynamics 365 Finance 环境，并需要在该实例上被配置为管理员。 请勿为此实验室使用“专用”浏览器模式 - 如果需要，从浏览器中的任何其他帐户退出并使用管理员凭据登录。 在登录时，**必须**选中“我保持登录状态”复选框。 这将创建 Excel 应用程序当前需要的永久 Cookie。 如果您使用 IE 之外的浏览器登录到应用程序，那么系统将提示您在 Excel 应用程序内登录。 在您单击 Excel 应用程序中的“登录”时，IE 弹出窗口将打开，在您登录时您**必须**选中“我保持登录状态”复选框。 如果单击 Excel 应用程序中的“登录”似乎未发生什么，那么您应该清除 IE Cookie 缓存。
+对于本教程，您需要访问含 Contoso 演示数据的 Microsoft Dynamics 365 Finance 环境，并需要在该实例上被配置为管理员。 请勿为此实验室使用“专用”浏览器模式 - 如果需要，从浏览器中的任何其他帐户退出并使用管理员凭据登录。 在登录时，**必须** 选中“我保持登录状态”复选框。 这将创建 Excel 应用程序当前需要的永久 Cookie。 如果您使用 IE 之外的浏览器登录到应用程序，那么系统将提示您在 Excel 应用程序内登录。 在您单击 Excel 应用程序中的“登录”时，IE 弹出窗口将打开，在您登录时您 **必须** 选中“我保持登录状态”复选框。 如果单击 Excel 应用程序中的“登录”似乎未发生什么，那么您应该清除 IE Cookie 缓存。
 
 ## <a name="scenario-overview"></a>**方案概览**
 Julia 担任德国 Contoso Entertainment Systems (DEMF) 的财务经理。 由于 FY2016 即将来临，她需要为下一个年度设定公司的预算。 预算编制看似如下：

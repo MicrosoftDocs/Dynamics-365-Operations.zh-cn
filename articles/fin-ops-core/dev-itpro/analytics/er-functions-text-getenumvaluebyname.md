@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 722ea8ea233d617b0584e21e98073428f16c0801
-ms.sourcegitcommit: ad5b7676fc1213316e478afcffbfaee7d813f3bb
+ms.openlocfilehash: 29d7ec6498090ea47259303237c5a64a26e4926b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3885219"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685923"
 ---
 # <a name="getenumvaluebyname-er-function"></a>GETENUMVALUEBYNAME ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`GETENUMVALUEBYNAME` 函数通过使用指定为*字符串*值的枚举名称在指定的枚举数据源中搜索特定的*枚举*值。 如果找到*枚举*值，函数将返回此值。 否则，此函数将返回**空**枚举值。
+`GETENUMVALUEBYNAME` 函数通过使用指定为 *字符串* 值的枚举名称在指定的枚举数据源中搜索特定的 *枚举* 值。 如果找到 *枚举* 值，函数将返回此值。 否则，此函数将返回 **空** 枚举值。
 
 ## <a name="syntax"></a>语法
 
@@ -53,13 +52,13 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 
 ## <a name="return-values"></a>返回值
 
-可空*枚举*
+可空 *枚举*
 
 生成的枚举值。
 
 ## <a name="usage-notes"></a>使用说明
 
-如果使用指定为*字符串*值的枚举值的名称未找到*枚举*值，不会引发异常。
+如果使用指定为 *字符串* 值的枚举值的名称未找到 *枚举* 值，不会引发异常。
 
 ## <a name="example-1"></a>示例 1
 

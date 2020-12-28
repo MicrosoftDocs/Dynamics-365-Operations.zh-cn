@@ -11,41 +11,40 @@ ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 272953
 ms.assetid: 4e4d4323-78cf-4ffa-8d5a-05e856c33db6
 ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: b5fbe5ffa74953588a2357948319f5cf21f7ad36
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4594c6c09abdac72a03ac1338701d2291b234106
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769753"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687393"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>仓库绩效 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍**仓库性能** Microsoft Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+此主题介绍 **仓库性能** Microsoft Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 
 ## <a name="overview"></a>概览
 
 **仓库性能** Power BI 内容已创建，以便仓库和运营经理可以监控重要的入站、出站和库存指标。 它使用您系统的仓库管理、产品及其他交易记录数据，并且提供仓库性能和供应商细分、产品组和产品以及站点和仓库的聚合视图。
 
-仓库经理可使用**仓库绩效** Power BI 内容来度量以下三个区域：
+仓库经理可使用 **仓库绩效** Power BI 内容来度量以下三个区域：
 
 - **入站表现** - 度量供应商如何按客户要求执行（即，度量交货表现），并度量储存表现，以便您可以发现某个期间内涉及工作人员或物料的问题。 很重要的一点是您要了解供应商是否按时、提前或延迟交货，以便您可以确定供应商表现如何影响总体储存表现。 在协议日期外交货的供应商可能由于意外的工作对仓库造成额外压力，并且可能增加平均储存时间。
 - **装运绩效** - 度量您的仓库是否按时完全装运到客户（即，度量出站装运和交货表现），以便您可以发现涉及产品、站点或仓库或专门客户的所有问题。 如果您发现您延迟了发往特定区域或市镇的装运，您可能必须更多地关注运输或帐户管理。
 - **货位库存准确性** - 库存准确性是重要的内部仓库商业智能 (BI)。 您确定一般情况下如何准确盘点非常重要。 不过，您还务必确定正确货位存储物料的准确性，并突出显示差异数据，以便您可以查找更好的物料货位或对特定物料发起总盘点。 （目前，新的基于物料的盘点功能作为修补程序提供。）如果您使用此 Power BI 内容来确定每个货位现有库存量的正确性，您还可以发现商店内的被盗情况。 还可以确定是否有货位具有与企业资源规划 (ERP) 数据不同的现有数量。 这些货位可能过大，或者可能无法盘点。 或者，某些实际定位可能比较糟糕，因此，与让一个物料类型与现有数据保持同步很难。
 
 ## <a name="accessing-the-power-bi-content-pack"></a>访问 Power BI 内容包
-**仓库绩效绩** Power BI 内容显示在**仓库绩效绩**页面（**仓库管理** \> **查询和报表** \> **仓库效绩分析** \> **仓库效绩**）。
+**仓库绩效绩** Power BI 内容显示在 **仓库绩效绩** 页面（**仓库管理** \> **查询和报表** \> **仓库效绩分析** \> **仓库效绩**）。
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的度量
-**仓库绩效** Power BI 内容包括报表。 此报表包含一组可视化为图表、磁贴和表的指标。 下表概要介绍**仓库绩效** Power BI 内容中的可视化。
+**仓库绩效** Power BI 内容包括报表。 此报表包含一组可视化为图表、磁贴和表的指标。 下表概要介绍 **仓库绩效** Power BI 内容中的可视化。
 
 | 报表页                 | 图表                                   | 说明 |
 |-----------------------------|------------------------------------------|-------------|
@@ -78,13 +77,13 @@ ms.locfileid: "2769753"
 | 装运表现        | 站点/仓库装运              | 站点或仓库提前、按时或延迟装运的百分比。 |
 
 ## <a name="understanding-the-data-model-and-calculations"></a>了解数据模型和计算
-以下数据用于填充**仓库绩效** Power BI 内容中的报表页。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成](power-bi-integration-entity-store.md)。
+以下数据用于填充 **仓库绩效** Power BI 内容中的报表页。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成](power-bi-integration-entity-store.md)。
 
 以下关键聚合度量用作该内容的基础。
 
 | 报表页                 | 图表                                   | 表                                | 计算描述 |
 |-----------------------------|------------------------------------------|---------------------------------------|--------------------------|
-| 入站表现         | 总计储存                          | WHSWorkLine                           | 工作类型为**放置**的工作行的数量。 |
+| 入站表现         | 总计储存                          | WHSWorkLine                           | 工作类型为 **放置** 的工作行的数量。 |
 | 入站表现         | 储存平均时间                    | WHSWorkLine                           | 工作行最长时间总和除以工作行最长时间量，其中，工作行最长时间是工作创建日期和关闭日期之间的最大间隔。 |
 | 入站表现         | 提前收到货                           | WHSWorkLine                           | 工作行数，其中工作创建日期早于使用的交货日期。 如果交货确认日期未设置，应使用默认交货日期。 |
 | 入站表现         | 准时收到货                         | WHSWorkLine                           | 工作行数，其中工作创建日期等于使用的交货日期。 如果交货确认日期未设置，应使用默认交货日期。 |

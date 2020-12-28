@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce 中已删除或弃用的功能
 description: 本主题介绍 Dynamics 365 Commerce 中已经删除或计划删除的功能。
 author: josaw
 manager: AnnBe
-ms.date: 07/07/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aa18e7446a72a907fcad70f92ea529088b6cecbd
-ms.sourcegitcommit: 83c7e5ab54c1cad2e21e33769cc524cfa4213f58
+ms.openlocfilehash: 37b541ff5037a38b60dbfd6a6c071f55afcc1304
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "3539871"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689515"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中已删除或弃用的功能
 
@@ -28,13 +28,25 @@ ms.locfileid: "3539871"
 
 本主题介绍 Dynamics 365 Commerce 中已经删除或计划删除的功能。
 
-- *已移除*的功能在产品中不再可用。
-- *已弃用*的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
+- *已移除* 的功能在产品中不再可用。
+- *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
 > [!NOTE]
 > [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>Commerce 10.0.15 版本中已经删除或弃用的功能
+
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Dynamics 365 的 Internet Explorer 11 支持已弃用
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 从 2020 年 12 月开始，所有 Dynamics 365 产品的 Microsoft Internet Explorer 11 支持已弃用，2021 年 8 月之后，将不再支持 Internet Explorer 11。<br><br>这将影响所用 Dynamics 365 产品设计为通过 Internet Explorer 11 界面使用的客户。 2021 年 8 月之后，此类 Dynamics 365 产品将不支持 Internet Explorer 11。 |
+| **被另一个功能取代？**   | 我们建议客户转换到 Microsoft Edge。|
+| **影响的产品区域**         | 所有 Dynamics 365 产品 |
+| **部署选项**              | 所有|
+| **状态**                         | 已弃用。 2021 年 8 月之后将不再支持 Internet Explorer 11。|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Commerce 10.0.11 版本中已经删除或弃用的功能
 ### <a name="data-action-hooks"></a>数据操作挂接

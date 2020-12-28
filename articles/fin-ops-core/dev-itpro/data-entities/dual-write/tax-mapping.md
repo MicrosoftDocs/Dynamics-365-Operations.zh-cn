@@ -1,6 +1,6 @@
 ---
 title: 集成税务
-description: 本主题介绍 Finance and Operations 与 Common Data Service 之间的税务数据集成。
+description: 本主题介绍 Finance and Operations 与 Dataverse 之间的税务数据集成。
 author: robinarh
 manager: AnnBe
 ms.date: 09/06/2019
@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 26818ceace7d2b7e7c3ed4d0bb0bd9ab2e884aba
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 14c22dd6602b5fbf866c8dc6b057f6c8acb1f48f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997592"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679288"
 ---
 # <a name="integrated-tax"></a>集成税务
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -35,7 +37,7 @@ ms.locfileid: "3997592"
 
 ## <a name="templates"></a>模板
 
-税务数据包括实体映射的集合，这些映射在数据交互期间协同工作，如下表所示。
+税务数据包括表映射的集合，这些映射在数据交互期间协同工作，如下表所示。
 
 Finance and Operations 应用 | Dynamics 365 中的模型驱动应用 | 说明 |
 -------------------------|---------------------------------|----|

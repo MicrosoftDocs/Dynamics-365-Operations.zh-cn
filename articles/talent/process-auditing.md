@@ -16,11 +16,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
 ms.openlocfilehash: c009f82e69bff0e4ea540514de8f9e60eca1e466
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006341"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460490"
 ---
 # <a name="track-changes-in-recruiting-data"></a>跟踪招聘数据的变化
 
@@ -35,9 +35,9 @@ ms.locfileid: "3006341"
 
 1. 在 [Power Apps](https://web.powerapps.com) 中，选择相应环境。
 
-2. 选择**设置**（齿轮图标），选择**高级自定义**，然后选择**开发人员资源**下的**资源**。 
+2. 选择 **设置**（齿轮图标），选择 **高级自定义**，然后选择 **开发人员资源** 下的 **资源**。 
 
-3. 在**开发人员资源**页中，复制**实例 Web API 值**字段中的值。 例如，该值可能如下所示：https://yourorgname.api.crm.dynamics.com/api/data/v9.1/。
+3. 在 **开发人员资源** 页中，复制 **实例 Web API 值** 字段中的值。 例如，该值可能如下所示：https://yourorgname.api.crm.dynamics.com/api/data/v9.1/。
 
 4. 然后可以从下列实体之一查询数据：
   - 职位空缺历史记录 (msdyn_jobopeninghistories)

@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e82b79858060f31a6310cc5abdb2faf87db2d6c2
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4056089"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527877"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>与 LinkedIn Talent Hub 集成
 
 [!include [banner](includes/preview-feature.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) 是申请人跟踪系统 (ATS) 平台。 通过此一体式平台，您可以找到、管理和雇用员工。 通过将 Microsoft Dynamics 365 Human Resources 与 LinkedIn Talent Hub 集成，您可以轻松地在 Human Resources 中为已被聘请担任某职位的申请人创建员工记录。
 
@@ -39,13 +41,13 @@ ms.locfileid: "4056089"
 
 1. 打开 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub)。
 
-2. 在用户下拉菜单上，选择 **产品设置** 。
+2. 在用户下拉菜单上，选择 **产品设置**。
 
-3. 在左侧导航窗格的 **高级** 部分中，选择 **集成** 。
+3. 在左侧导航窗格的 **高级** 部分中，选择 **集成**。
 
-4. 针对 Microsoft Dynamics 365 Human Resources 集成选择 **授权** 。
+4. 针对 Microsoft Dynamics 365 Human Resources 集成选择 **授权**。
 
-5. 在 **Dynamics 365 Human Resources** 页面上，选择 LinkedIn Talent Hub 要链接到的环境，然后选择 **链接** 。
+5. 在 **Dynamics 365 Human Resources** 页面上，选择 LinkedIn Talent Hub 要链接到的环境，然后选择 **链接**。
 
     ![LinkedIn Talent Hub 入职](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
@@ -58,13 +60,13 @@ ms.locfileid: "4056089"
 
 2. 在 **环境** 列表中，选择与您要将 LinkedIn Talent Hub 实例链接到的 Human Resources 环境相关联的环境。
 
-3. 选择 **设置** 。
+3. 选择 **设置**。
 
-4. 展开 **用户 + 权限** 节点，然后选择 **安全角色** 。
+4. 展开 **用户 + 权限** 节点，然后选择 **安全角色**。
 
-5. 在 **安全角色** 页面的工具栏上，选择 **新建角色** 。
+5. 在 **安全角色** 页面的工具栏上，选择 **新建角色**。
 
-6. 在 **详细信息** 选项卡上，输入角色名称，例如 **LinkedIn Talent Hub HRIS 集成** 。
+6. 在 **详细信息** 选项卡上，输入角色名称，例如 **LinkedIn Talent Hub HRIS 集成**。
 
 7. 在 **自定义** 选项卡上，为以下实体选择组织级别的 **读取** 权限：
 
@@ -82,48 +84,48 @@ ms.locfileid: "4056089"
 
 2. 在 **环境** 列表中，选择与您要将 LinkedIn Talent Hub 实例链接到的 Human Resources 环境相关联的环境。
 
-3. 选择 **设置** 。
+3. 选择 **设置**。
 
-4. 展开 **用户 + 权限** 节点，然后选择 **用户** 。
+4. 展开 **用户 + 权限** 节点，然后选择 **用户**。
 
-5. 选择 **管理 Dynamics 365 中的用户** 。
+5. 选择 **管理 Dynamics 365 中的用户**。
 
-6. 使用列表上方的下拉菜单将视图从默认的 **已启用用户** 视图更改为 **申请用户** 。
+6. 使用列表上方的下拉菜单将视图从默认的 **已启用用户** 视图更改为 **申请用户**。
 
     ![申请用户视图](./media/hr-admin-integration-power-apps-application-users.jpg)
 
-7. 在工具栏上，选择 **新建** 。
+7. 在工具栏上，选择 **新建**。
 
 8. 在 **新建用户** 页面上，执行以下步骤：
 
-    1. 将 **用户类型** 字段的值更改为 **申请用户** 。
-    2. 将 **用户名** 字段设置为 **Dynamics365 HR LinkedIn HRIS 集成** 。
-    3. 将 **申请 ID** 字段设置为 **3a225c96-d62a-44ce-b3ec-bd4e8e9befef** 。
-    4. 在 **名字** 、 **姓氏** 和 **主要电子邮件** 字段中输入任何值。
-    5. 在工具栏上，选择 **保存 \& 关闭** 。
+    1. 将 **用户类型** 字段的值更改为 **申请用户**。
+    2. 将 **用户名** 字段设置为 **Dynamics365 HR LinkedIn HRIS 集成**。
+    3. 将 **申请 ID** 字段设置为 **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**。
+    4. 在 **名字**、**姓氏** 和 **主要电子邮件** 字段中输入任何值。
+    5. 在工具栏上，选择 **保存 \& 关闭**。
 
 ### <a name="assign-a-security-role-to-the-new-user"></a>为新用户分配安全角色
 
 保存并关闭上一部分中的新申请用户后，您将返回到 **用户列表** 页面。
 
-1. 在 **用户列表** 页面上，将视图更改为 **申请用户** 。
+1. 在 **用户列表** 页面上，将视图更改为 **申请用户**。
 
 2. 选择在上一部分中创建的申请用户。
 
-3. 在工具栏上，选择 **管理角色** 。
+3. 在工具栏上，选择 **管理角色**。
 
 4. 选择您之前为集成创建的安全角色。
 
-5. 选择 **确定** 。
+5. 选择 **确定**。
 
 ### <a name="add-an-azure-active-directory-app-in-human-resources"></a>在 Human Resources 中添加 Azure Active Directory 应用
 
 1. 在 Dynamics 365 Human Resources 中，打开 **Azure Active Directory 应用程序** 页面。
 2. 将新记录添加到列表，然后设置以下字段：
 
-    - **客户端 ID** ：输入 **3a225c96-d62a-44ce-b3ec-bd4e8e9befef** 。
-    - **名称** ：输入您之前创建的 Power Apps 安全角色的名称，例如 **LinkedIn Talent Hub HRIS 集成** 。
-    - **用户 ID** ：选择具有在“人员管理”中写入数据的权限的用户。
+    - **客户端 ID**：输入 **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**。
+    - **名称**：输入您之前创建的 Power Apps 安全角色的名称，例如 **LinkedIn Talent Hub HRIS 集成**。
+    - **用户 ID**：选择具有在“人员管理”中写入数据的权限的用户。
 
 ### <a name="create-the-entity-in-common-data-service"></a>在 Common Data Service 中创建实体
 
@@ -134,9 +136,9 @@ ms.locfileid: "4056089"
 
 2. 选择 **虚拟实体** 选项卡。
 
-3. 按实体标签筛选实体列表以查找 **LinkedIn 导出的应聘者** 。
+3. 按实体标签筛选实体列表以查找 **LinkedIn 导出的应聘者**。
 
-4. 选择实体，然后选择 **生成/刷新** 。
+4. 选择实体，然后选择 **生成/刷新**。
 
 ## <a name="exporting-candidate-records"></a>导出应聘者记录
 
@@ -150,13 +152,13 @@ ms.locfileid: "4056089"
 
 2. 选择应聘者记录。
 
-3. 选择 **更改阶段** ，然后选择 **雇用** 。
+3. 选择 **更改阶段**，然后选择 **雇用**。
 
-4. 在应聘者的省略号菜单 ( **...** ) 上，选择 **导出到 HRIS** 。
+4. 在应聘者的省略号菜单 (**...**) 上，选择 **导出到 HRIS**。
 
 5. 在 **导出到 HRIS** 窗格中，输入必须导出的信息：
 
-    - 在 **HRIS 提供商** 字段中，选择 **Microsoft Dynamics 365 Human Resources** 。
+    - 在 **HRIS 提供商** 字段中，选择 **Microsoft Dynamics 365 Human Resources**。
     - 在 **开始日期** 字段中，为新员工选择一个值。
     - 在 **职务** 字段中，输入新员工的工作的职务。
     - 在 **位置** 字段中，输入员工的所在地。
@@ -170,7 +172,7 @@ ms.locfileid: "4056089"
 
 1. 在 Human Resources 中，打开 **人员管理** 页面。
 
-2. 在 **可雇用的应聘者** 部分中，对于选定的应聘者选择 **雇用** 。
+2. 在 **可雇用的应聘者** 部分中，对于选定的应聘者选择 **雇用**。
 
 3. 在 **雇用新工作人员** 对话框中，查看记录，然后添加所有必需的信息。 您还可以选择已雇用的应聘者的职位编号。
 

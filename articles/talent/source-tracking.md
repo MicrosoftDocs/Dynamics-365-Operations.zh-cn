@@ -19,29 +19,29 @@ ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: 8860f508eebc377042c4e101eeb08a14a737ba0c
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832635"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460435"
 ---
 # <a name="track-candidate-sources-in-attract"></a>在 Attract 中追踪应聘者来源
 
 [!include [banner](includes/banner.md)]
 
 > [!NOTE] 
-> 本主题中介绍的功能作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 若要使用此功能，请让管理员使用 Attract 中的**管理员设置**启用。 将来的版本将提供资源跟踪报告。 有关详细信息，请参阅[访问 Talent 中的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature)。
+> 本主题中介绍的功能作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 若要使用此功能，请让管理员使用 Attract 中的 **管理员设置** 启用。 将来的版本将提供资源跟踪报告。 有关详细信息，请参阅[访问 Talent 中的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature)。
 
 应聘者申请工作时，Attract 将自动跟踪其申请来源，并为您提供宝贵的信息来帮助您的招聘工作不走弯路。 招聘人员或招聘经理也可以在手动向工作或人才池添加应聘者时选择申请来源。
 
-可以在**活动**选项卡下的申请活动详细信息中和人才池的**个人资料**下的申请历史记录中查看申请来源。 可以在申请和人才池中**个人资料**选项卡下的应聘者详细信息内找到应聘者的个人资料来源。
+可以在 **活动** 选项卡下的申请活动详细信息中和人才池的 **个人资料** 下的申请历史记录中查看申请来源。 可以在申请和人才池中 **个人资料** 选项卡下的应聘者详细信息内找到应聘者的个人资料来源。
 
 > [!NOTE] 
 > 可以在[综合招聘加载项](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring)中找到流程模板。
 
 ## <a name="pre-configured-sources"></a>预配置来源
 
-默认来源列表中包含常见申请来源。 某些来源类型（如**招聘公告**和**社交网络**）中包含更多来源详细信息。 例如，**社交网络**包括 Facebook 和 Twitter。 **引荐**来源类型允许您指定内部员工为引荐人。 默认来源列表中包含下面的预配置来源：
+默认来源列表中包含常见申请来源。 某些来源类型（如 **招聘公告** 和 **社交网络**）中包含更多来源详细信息。 例如，**社交网络** 包括 Facebook 和 Twitter。 **引荐** 来源类型允许您指定内部员工为引荐人。 默认来源列表中包含下面的预配置来源：
 
 -   Attract 求职站点
 
