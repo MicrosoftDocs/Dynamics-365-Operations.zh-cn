@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 989a08ca8ce83fd01742f6b5ec537ee1fc825fca
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008170"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417403"
 ---
 # <a name="run-the-compensation-process"></a>执行薪酬流程
 

@@ -19,11 +19,11 @@ ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011403"
+ms.locfileid: "4417533"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>准备 Human Resources 实行
 
@@ -57,7 +57,7 @@ ms.locfileid: "4011403"
 
 为了帮助确保生产环境用于实时操作，在完成 LCS 方法中的所需活动后，Microsoft 仅在实施接近 **运行** 阶段时才预配生产实例。 有关您订阅中的环境的详细信息，请参阅  [Dynamics 365 许可指南](https://go.microsoft.com/fwlink/?LinkId=866544)。 
 
-客户必须完成 LCS 方法中的 **分析** 、 **设计和开发** 和 **测试** 阶段，用于请求生产环境的 **配置** 按钮才可用。 若要完成 LCS 中的某个阶段，您必须首先完成该阶段中的每个必需步骤。 完成阶段中的所有步骤后，您可以完成整个阶段。 如果必须进行更改，您可以在以后始终重新打开阶段。 有关详细信息，请参阅 [适用于 Finance and Operations 应用客户的 Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs)。 
+客户必须完成 LCS 方法中的 **分析**、**设计和开发** 和 **测试** 阶段，用于请求生产环境的 **配置** 按钮才可用。 若要完成 LCS 中的某个阶段，您必须首先完成该阶段中的每个必需步骤。 完成阶段中的所有步骤后，您可以完成整个阶段。 如果必须进行更改，您可以在以后始终重新打开阶段。 有关详细信息，请参阅 [适用于 Finance and Operations 应用客户的 Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs)。 
 
 完成步骤的流程分为两个部分： 
 

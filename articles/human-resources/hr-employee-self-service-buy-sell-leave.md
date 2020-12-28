@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3711810"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417532"
 ---
 # <a name="buy-and-sell-leave"></a>购买和出售休假
 
@@ -31,21 +31,21 @@ ms.locfileid: "3711810"
 
 ## <a name="request-to-buy-leave"></a>购买休假的请求
 
-1. 在**员工自助服务**工作区中，在**休息时间余额**磁贴中选择**购买休假请求**。 
+1. 在 **员工自助服务** 工作区中，在 **休息时间余额** 磁贴中选择 **购买休假请求**。 
 
-2. 添加一个**休假类型**，然后输入您想要购买的休假金额的**金额**。 
+2. 添加一个 **休假类型**，然后输入您想要购买的休假金额的 **金额**。 
 
-3. 准备好提交请求时选择**提交**。 
+3. 准备好提交请求时选择 **提交**。 
 
 您的余额将自动更新，或者在更新之前经过审批流程。 这取决于如何配置购买策略。
 
 ## <a name="request-to-sell-leave"></a>出售休假请求
 
-1. 在**员工自助服务**工作区中，在**休息时间余额**磁贴中选择**出售休假请求**。 
+1. 在 **员工自助服务** 工作区中，在 **休息时间余额** 磁贴中选择 **出售休假请求**。 
 
-2. 添加一个**休假类型**，然后输入您想要出售的休假金额的**金额**。 
+2. 添加一个 **休假类型**，然后输入您想要出售的休假金额的 **金额**。 
 
-3. 准备好提交请求时选择**提交**。
+3. 准备好提交请求时选择 **提交**。
 
 您的余额将自动更新，或者在更新之前经过审批流程。 这取决于如何配置购买策略。
 

@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 973236acca0cb8c0d57171e4bb9d4daaa7faaf38
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141192"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410519"
 ---
 # <a name="configure-and-run-job-to-calculate-statements"></a>配置和运行作业以计算报表
 

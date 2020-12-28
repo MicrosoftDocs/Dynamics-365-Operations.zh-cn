@@ -3,7 +3,7 @@ title: 在 Teams 中管理请假
 description: 此主题显示如何在 Microsoft Teams 中的 Dynamics 365 Human Resources 应用内请假。
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/30/2020
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
+ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3929985"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4417544"
 ---
 # <a name="manage-leave-requests-in-teams"></a>在 Teams 中管理请假
 
 [!include [banner](includes/preview-feature.md)]
 
-可通过 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用直接在 Microsoft Teams 中快速请假和查看自己的请假余额信息。 您可以与机器人交互来请求信息和开始请假请求。 **休假**选项卡提供更详细信息。 此外，您可以在 Human Resources 应用之外在团队和聊天中发送有关您的近期休假的人员信息。
+可通过 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用直接在 Microsoft Teams 中快速请假和查看自己的请假余额信息。 您可以与机器人交互来请求信息和开始请假请求。 **休假** 选项卡提供更详细信息。 您还可以在 Human Resources 应用之外在团队和聊天中发送有关您的近期休假的人员信息。
 
 ## <a name="install-the-app"></a>安装应用
 
@@ -43,18 +43,18 @@ ms.locfileid: "3929985"
 
    ![Human Resources Teams 休假应用 HR 磁贴](./media/hr-teams-leave-app-human-resources-tile.png)
 
-3. 选择**添加**按钮安装应用。
+3. 选择 **添加** 按钮安装应用。
 
    ![Human Resources Teams 休假应用安装](./media/hr-teams-leave-app-in-store.png)
 
-如果应用不让您自动登录，请选择**设置**选项卡登录。
+如果应用不让您自动登录，请选择 **设置** 选项卡登录。
 
 ![Human Resources Teams 休假应用“设置”选项卡](./media/hr-teams-leave-app-settings-tab.png)
 
 > [!NOTE]
 > 如果未看到登录对话框，请检查浏览器设置允许弹出窗口。 
 
-如果可以访问多个 Human Resources 实例，可以在**设置**选项卡中选择要连接哪个环境。
+如果可以访问多个 Human Resources 实例，可以在 **设置** 选项卡中选择要连接哪个环境。
 
 > [!NOTE]
 > 此应用现在支持系统管理员安全角色。
@@ -86,13 +86,13 @@ ms.locfileid: "3929985"
 
 ![Human Resources Teams 休假应用编辑请求](./media/hr-teams-leave-app-bot-edit.png)
  
-输入完信息后，选择**提交**提交请求供批准。 也可以选择**另存为草稿**以后再回来。
+输入完信息后，选择 **提交** 提交请求供批准。 也可以选择 **另存为草稿** 以后再回来。
 
 ![Human Resources Teams 休假应用提交请求](./media/hr-teams-leave-app-bot-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>在 Teams 中管理休假
 
-**休假**选项卡可用于查看：
+**休假** 选项卡可用于查看：
 
 - 您等记的每个休假类型的余额信息
 
@@ -106,35 +106,35 @@ ms.locfileid: "3929985"
  
 ### <a name="create-a-new-request"></a>创建新请求
 
-1. 若要创建新休假请求，请选择**新请求**。
+1. 若要创建新休假请求，请选择 **新请求**。
 
    ![Human Resources Teams 休假应用新请求](./media/hr-teams-leave-app-timeoff-tab-new.png)
 
-2. 输入请假天数，然后选择**添加**。
+2. 输入请假天数，然后选择 **添加**。
 
    ![Human Resources Teams 休假应用添加休假](./media/hr-teams-leave-app-timeoff-tab-add.png)
 
 3. 如果适用，输入原因代码。 并且输入任何注释和添加任何附件。
 
-4. 输入完信息后，键入**提交**提交请求供批准。 也可以键入**另存为草稿**以后再回来。
+4. 输入完信息后，键入 **提交** 提交请求供批准。 也可以键入 **另存为草稿** 以后再回来。
 
 ### <a name="manage-draft-requests"></a>管理草稿请求
 
-1. 选择**草稿**选项卡。
+1. 选择 **草稿** 选项卡。
 
    ![Human Resources Teams 休假应用“草稿”选项卡](./media/hr-teams-leave-app-drafts-tab.png)
 
 2. 选择铅笔编辑请求，或选择废纸篓删除请求。
 
-3. 进行任何必要更改。 输入完信息后，键入**提交**提交请求供批准。 也可以选择**另存为草稿**以后再回来。
+3. 进行任何必要更改。 输入完信息后，键入 **提交** 提交请求供批准。 也可以选择 **另存为草稿** 以后再回来。
 
    ![Human Resources Teams 休假应用编辑草稿](./media/hr-teams-leave-app-drafts-edit.png)
    
 ### <a name="respond-to-teams-notifications"></a>响应 Teams 通知
 
-当您或作为审批者的您的下属工作人员提交请假时，您将在 Teams 中的 Human Resources 应用内收到通知。 您可以选择通知进行查看。 也会在**聊天**区域中显示通知。
+当您或作为审批者的您的下属工作人员提交请假时，您将在 Teams 中的 Human Resources 应用内收到通知。 您可以选择通知进行查看。 也会在 **聊天** 区域中显示通知。
 
-如果您是审批者，您可以在通知中选择**批准**或**拒绝**。 还可以提供可选消息。
+如果您是审批者，您可以在通知中选择 **批准** 或 **拒绝**。 还可以提供可选消息。
 
 ![Human Resources Teams 中的请假通知](./media/hr-teams-leave-app-notification.png)
 
@@ -146,7 +146,7 @@ ms.locfileid: "3929985"
 
    ![聊天窗口下的 Human Resources 按钮](./media/hr-teams-leave-app-chat-button.png)
 
-2. 选择您要共享的休假请求。 如果要共享休假请求草稿，请先选择**草稿**。
+2. 选择您要共享的休假请求。 如果要共享休假请求草稿，请先选择 **草稿**。
 
    ![选择要共享的近期休假请求](./media/hr-teams-leave-app-chat-search.png)
 
@@ -162,7 +162,7 @@ ms.locfileid: "3929985"
 
 如果您是具有直接下属的的经理，则可以查看团队的批准和待定请假。
 
-1. 在 Teams 中的 Human Resources 应用内，选择**请假**。
+1. 在 Teams 中的 Human Resources 应用内，选择 **请假**。
 
 2. 选择 **Team 日历**。
 
@@ -182,11 +182,25 @@ ms.locfileid: "3929985"
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>在 Teams 中的 Human Resources 应用中审批请假请求时出错
 
-如果您在尝试在 Teams 应用中审批请假请求时收到错误，请执行以下疑难解答步骤：
+如果您在尝试在 Teams 应用中审核休假请求时收到错误，请尝试以下疑难解答步骤：
 
 1. 验证您用于登录 Microsoft Teams 的帐户是否与用于访问 Dynamics 365 Human Resources 的帐户相同。
 
 2. 通过检查请假审批的工作流设置，验证您是否是该请求的有效审批者。 有关请假请求工作流的详细信息，请参阅[创建请假请求工作流](hr-leave-and-absence-workflow.md)。
+
+## <a name="known-accessibility-issues"></a>已知的可访问性问题
+
+Teams 中的 Human Resources 应用具有以下可访问性问题，我们正在努力在将来的版本中修复这些问题。
+
+| 签发 | 解决方法或说明 |
+| --- | --- |
+| 在桌面上放大到 400％ 时，将看不见某些操作按钮。 | 建议您改用放大镜，直到我们可以支持此缩放级别为止。 |
+| 在 **休假** 选项卡上，在读出休假网格的标题时，VoiceOver 将宣布一个按钮操作。 | 网格中的标题和元素按年份分组，并且可以折叠。 VoiceOver 将此解释为可操作的项目，但并非如此。 |
+| 如果在打开弹出窗口或菜单时轻扫，VoiceOver 将跳过阅读弹出窗口或菜单内容的操作。 | 使用手指扫描浏览内容。 |
+| 在 **休假** 选项卡上，当在新请求中导航到 **原因代码** 时，有一个额外的轻扫手势。 | 没有轻扫导航要尝试获取的隐藏控件。 |
+| 在 **休假** 选项卡上，如果您在打开日历时进行轻扫，您最终位于控件之外，而不是在新请求中或编辑请求时位于顶部。 | 当您到达 **立即前往** 时，将其视为控件的结束，然后以相反方向轻扫以返回到顶部。 |
+| VoiceOver 不会阅读日期的标签。 | 成对出现的日期始终是 **开始日期** 和 **结束日期**。 |
+| 在 **聊天** 选项卡上，在使用辅助工具或键盘导航的同时输入日期时，焦点会跳回到顶部。 | 按 Tab 键，直到再次到达输入区域。 |
 
 ## <a name="privacy-notice"></a>隐私声明
 

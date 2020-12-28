@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: ee86a6761b27f3c08a65a2e250659cdcfd71db44
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097014"
+ms.locfileid: "4410630"
 ---
 # <a name="run-and-monitor-an-experiment"></a>运行和监视试验
 
@@ -43,7 +43,7 @@ ms.locfileid: "4097014"
 > [!IMPORTANT]
 > 如果您对 Commerce 或第三方服务中的实时试验进行了更改，则结果可能会受到重大影响。 考虑继续完成试验，然后为重大更改创建新的试验。
 
-1. 在 Commerce 站点构建器中，选择左侧导航窗格中的 **试验** ，然后选择试验。 
+1. 在 Commerce 站点构建器中，选择左侧导航窗格中的 **试验**，然后选择试验。 
 1. 从下拉菜单中选择要更新的变体。
 1. 进行任何所需的更改，然后预览和发布变体。 有关详细信息，请参阅[预览和发布试验](experimentation-preview-publish.md)。
 1. 转到第三方服务以进行与试验设置相关的任何更改。

@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 5ecbfcf3fa78ad2909a7cc9988ab1edaf2b98376
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003364"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410608"
 ---
 # <a name="create-an-online-functionality-profile"></a>创建在线功能配置文件
 
@@ -39,12 +39,12 @@ ms.locfileid: "3003364"
 
 以下过程说明了如何从 Commerce Headquarters 应用创建在线功能配置文件。
 
-1. 在导航窗格中，转到**模块 \> 渠道设置 \> 在线商店设置 \> 功能配置文件**。
-1. 在操作窗格上，选择**新建**。
-1. 在**配置文件**字段中，为配置文件输入 ID。
-1. 在**描述**字段中，输入一个值（下面示例图像中的“冒险工作配置文件”）。
-1. 在**功能**部分，根据需要修改**购物车**、**零售客户**或**结帐**设置。
-1. 在操作窗格上，选择**保存**。
+1. 在导航窗格中，转到 **模块 \> 渠道设置 \> 在线商店设置 \> 功能配置文件**。
+1. 在操作窗格上，选择 **新建**。
+1. 在 **配置文件** 字段中，为配置文件输入 ID。
+1. 在 **描述** 字段中，输入一个值（下面示例图像中的“冒险工作配置文件”）。
+1. 在 **功能** 部分，根据需要修改 **购物车**、**零售客户** 或 **结帐** 设置。
+1. 在操作窗格上，选择 **保存**。
 
 下图显示了一个在线功能配置文件示例。
   

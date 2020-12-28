@@ -19,11 +19,11 @@ ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 082b9b95af6b2c49627fd60382c9d726c22f1de2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175263"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409759"
 ---
 # <a name="configure-tax-integration-for-china"></a>配置中国的税务集成
 
@@ -38,27 +38,27 @@ ms.locfileid: "2175263"
 | 必备项 | 说明 | 更多信息 |
 |------------|-------------|------------------------|
 | 设置产品分类的层次结构。 | 必须为货物和服务的分配设置类别层次结构，还必须将产品物料（货物或服务）与类别节点关联。 通过使用此功能，可以设置公司中需要的所有层次结构。 | [创建产品分类的层次结构](../../supply-chain/pim/tasks/create-hierarchy-product-classification.md) |
-| 为税务集成模板分配新层次结构。 | 转到**应收帐款 &gt; 税务集成 &gt; 税务集成模板**，然后在**商品代码层次结构**字段中选择新类别。 | |
-| 选择发票行的商品代码。 | 对于与产品物料无关的发票行（如普通发票行和项目发票行），或基于工时、支出和费用日记帐创建的发票行，可在**税务集成模板**页面中设置默认商品代码。 | |
-| 标识用于导入文件的模型映射。 | 转到**应收帐款 &gt; 定期任务 &gt; 增值税发票金税集成**，然后选择**导入**。 为来自其中一个提供商（Aisino 或 BaiWang）的导入文件选择模型映射，具体取决于公司将导出的发票与哪个提供商的软件集成。 此项选择应仅进行一次。 （系统将保存选择的值。）<ul><li>若要导入文本文件（\<file name\>\_invoicing result.TXT），请将**导入 BaiWang TXT 文件**选项设置为**是**。 然后，在**模型映射**字段中，选择 **BaiWang – txt 文件映射**。</li><li>要导入来自 Aisino 的文本文件或来自 BaiWang 的 XML 文件（从 BaiWang 软件导出的文件），请将**导入 BaiWang txt 文件**选项设置为**否**。 然后，在**模型映射**字段中，选择 **Aisino 或 BaiWang – xml 文件映射**。</li></ul> | |
-| 从 Microsoft Dynamics Lifecycle Services (LCS) 导入配置。 | 对于与 Aisino 软件的集成，必须从 LCS 导入以下配置：<ul><li>GoldenTax 模型</li><li>GST 导出模型映射 (CN)</li><li>GTS 导出格式 (Aisino) (CN)</li><li>GTS 导入模型映射 (CN)</li><li>GTS 导入格式 (Aisino) (CN)</li></ul>对于与 BaiWang 软件的集成，必须从 LCS 导入以下配置：<ul><li>GoldenTax 模型</li><li>GST 导出模型映射 (CN)</li><li>GTS 导入模型映射 (CN)</li><li>GTS 导出格式 (BaiWang) (CN)</li><li>GTS 导入格式 (BaiWang)-txt) (CN)</li><li>GTS 导入格式 (BaiWang)-xml) (CN)</li></ul> | [从 Lifecycle Services 下载电子申报配置](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md) |
+| 为税务集成模板分配新层次结构。 | 转到 **应收帐款 &gt; 税务集成 &gt; 税务集成模板**，然后在 **商品代码层次结构** 字段中选择新类别。 | |
+| 选择发票行的商品代码。 | 对于与产品物料无关的发票行（如普通发票行和项目发票行），或基于工时、支出和费用日记帐创建的发票行，可在 **税务集成模板** 页面中设置默认商品代码。 | |
+| 标识用于导入文件的模型映射。 | 转到 **应收帐款 &gt; 定期任务 &gt; 增值税发票金税集成**，然后选择 **导入**。 为来自其中一个提供商（Aisino 或 BaiWang）的导入文件选择模型映射，具体取决于公司将导出的发票与哪个提供商的软件集成。 此项选择应仅进行一次。 （系统将保存选择的值。）<ul><li>若要导入文本文件（\<file name\>\_invoicing result.TXT），请将 **导入 BaiWang TXT 文件** 选项设置为 **是**。 然后，在 **模型映射** 字段中，选择 **BaiWang – txt 文件映射**。</li><li>要导入来自 Aisino 的文本文件或来自 BaiWang 的 XML 文件（从 BaiWang 软件导出的文件），请将 **导入 BaiWang txt 文件** 选项设置为 **否**。 然后，在 **模型映射** 字段中，选择 **Aisino 或 BaiWang – xml 文件映射**。</li></ul> | |
+| 从 Microsoft Dynamics Lifecycle Services (LCS) 导入配置。 | 对于与 Aisino 软件的集成，必须从 LCS 导入以下配置：<ul><li>GoldenTax 模型</li><li>GST 导出模型映射 (CN)</li><li>GTS 导出格式 (Aisino) (CN)</li><li>GTS 导入模型映射 (CN)</li><li>GTS 导入格式 (Aisino) (CN)</li></ul>对于与 BaiWang 软件的集成，必须从 LCS 导入以下配置：<ul><li>GoldenTax 模型</li><li>GST 导出模型映射 (CN)</li><li>GTS 导入模型映射 (CN)</li><li>GTS 导出格式 (BaiWang) (CN)</li><li>GTS 导入格式 (BaiWang)-txt) (CN)</li><li>GTS 导入格式 (BaiWang-xml) (CN)</li></ul> | [从 Lifecycle Services 下载电子申报配置](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md) |
 
 > [!NOTE]
 > 可将作为导入后的响应收到的文本文件导入 BaiWang 软件。 也可以导入从 BaiWang 软件导出的 XML 文件。
 
 ## <a name="configure-tax-integration-for-china"></a>配置中国的税务集成
 
-必须先开启，才能配置税务集成。 转到**应收帐款 \> 设置 \> 应收帐款参数**，然后在**分类帐和销售税** 选项卡的**常规**快速选项卡上，将**与税收系统集成** 选项设置为**是**。
+必须先开启，才能配置税务集成。 转到 **应收帐款 \> 设置 \> 应收帐款参数**，然后在 **分类帐和销售税** 选项卡的 **常规** 快速选项卡上，将 **与税收系统集成** 选项设置为 **是**。
 
 若要配置中国的税收集成，请执行以下步骤。
 
-1. 在**增值税发票描述**页中，创建新的增值税（VAT）发票描述。 例如，可能必须设置以下值：
+1. 在 **增值税发票描述** 页中，创建新的增值税（VAT）发票描述。 例如，可能必须设置以下值：
 
     - **增值税发票描述 ID：** InvoiceDescID01
     - **描述：** 设备
     - **单位：** 箱
 
-2. 在**税务集成模板**页中，创建一个新税务集成模板。 可以设置导入或导出发票时使用的税务集成模板。 在税务集成模板中，可以指定以下信息：
+2. 在 **税务集成模板** 页中，创建一个新税务集成模板。 可以设置导入或导出发票时使用的税务集成模板。 在税务集成模板中，可以指定以下信息：
 
     - 增值税代码
     - 最大发票金额

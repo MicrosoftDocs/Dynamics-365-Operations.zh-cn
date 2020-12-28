@@ -19,16 +19,16 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: eea67ddc1718902198b74614ee1a910fc6e29c1d
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097062"
+ms.locfileid: "4410627"
 ---
 # <a name="review-the-status-of-an-experiment"></a>查看试验的状态
 在 Dynamics 365 Commerce 中设置和运行试验涉及许多步骤。 有关试验生命周期的信息，请参阅 [Dynamics 365 Commerce 中的试验](experimentation-overview.md)。
 
-若要了解试验在生命周期中的位置，请在 Commerce 站点构建器中，选择左侧导航窗格中的 **试验** 。 将显示试验列表，其中包含 Commerce 和用于创建试验、分配变体和分析数据的第三方服务中每个试验的状态。
+若要了解试验在生命周期中的位置，请在 Commerce 站点构建器中，选择左侧导航窗格中的 **试验**。 将显示试验列表，其中包含 Commerce 和用于创建试验、分配变体和分析数据的第三方服务中每个试验的状态。
 
 在 **Commerce 状态** 列中，可能会显示以下值。 
 - **草稿** - 试验已连接到 Commerce 中的一个页面或片段，将进行编辑。

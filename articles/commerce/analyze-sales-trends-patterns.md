@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 6b5ff889a2fbc33add20559be988c6fcdf36d596
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021691"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410456"
 ---
 # <a name="analyze-sales-trends-and-patterns"></a>分析销售趋势和模式
 
@@ -32,14 +32,14 @@ ms.locfileid: "3021691"
 
 您可以在 Dynamics 365 Commerce 中实时研究销售趋势和模式。
 
-作为 Commerce 的一部分，用户可以通过使用现成的**按年排列的渠道销售额**报表，实时研究年度期间跨组织层次结构不同级别的销售趋势和模式。 您可以从以下任何位置打开此报表：
+作为 Commerce 的一部分，用户可以通过使用现成的 **按年排列的渠道销售额** 报表，实时研究年度期间跨组织层次结构不同级别的销售趋势和模式。 您可以从以下任何位置打开此报表：
 
-- **商店管理**工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店管理** &gt; **报表** &gt; **按年排列的渠道销售额报表**
-- **商店财务**工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店财务** &gt; **报表** &gt; **按年排列的渠道销售额报表**
-- **查询和报表**部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表** &gt; **按年排列的渠道销售额报表**
+- **商店管理** 工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店管理** &gt; **报表** &gt; **按年排列的渠道销售额报表**
+- **商店财务** 工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店财务** &gt; **报表** &gt; **按年排列的渠道销售额报表**
+- **查询和报表** 部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表** &gt; **按年排列的渠道销售额报表**
 
-用户还可以通过使用现成的**分时渠道销售额**报表，研究所选期间跨组织层次结构不同级别的销售趋势和模式（分时）。 您可以从以下任何位置打开此报表：
+用户还可以通过使用现成的 **分时渠道销售额** 报表，研究所选期间跨组织层次结构不同级别的销售趋势和模式（分时）。 您可以从以下任何位置打开此报表：
 
-- **商店管理**工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店管理** &gt; **报表** &gt; **按小时排列的渠道销售额报表**
-- **商店财务**工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店财务** &gt; **报表** &gt; **按小时排列的渠道销售额报表**
-- **查询和报表**部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表** &gt; **按小时排列的渠道销售额报表**
+- **商店管理** 工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店管理** &gt; **报表** &gt; **按小时排列的渠道销售额报表**
+- **商店财务** 工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店财务** &gt; **报表** &gt; **按小时排列的渠道销售额报表**
+- **查询和报表** 部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表** &gt; **按小时排列的渠道销售额报表**

@@ -16,11 +16,11 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021690"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410412"
 ---
 # <a name="assortment-management"></a>分类管理
 
@@ -28,7 +28,7 @@ ms.locfileid: "3021690"
 
 ## <a name="overview"></a>概览
 
-Dynamics 365 Commerce 提供*分类*，供您管理渠道中的产品可用性。 分类决定哪些产品在特定商店和特定时间段内可用。
+Dynamics 365 Commerce 提供 *分类*，供您管理渠道中的产品可用性。 分类决定哪些产品在特定商店和特定时间段内可用。
 
 在 Commerce 中，分类是将一个或多个渠道（当使用了组织层次结构时则为渠道组）映射到一个或多个产品（当使用了类别层次结构时为产品组）。
 
@@ -81,7 +81,7 @@ Dynamics 365 Commerce 提供*分类*，供您管理渠道中的产品可用性�
 
 ### <a name="stopped-products"></a>已停止的产品
 
-可通过在**默认订单**设置中开启设置来为销售流程“停止”已发放的产品。 该设置在产品处于使用寿命末期，因此不应在任何渠道出售时最常用。 分类遵守此设置，因此无论分类配置如何，将不为已停止的产品分类。
+可通过在 **默认订单** 设置中开启设置来为销售流程“停止”已发放的产品。 该设置在产品处于使用寿命末期，因此不应在任何渠道出售时最常用。 分类遵守此设置，因此无论分类配置如何，将不为已停止的产品分类。
 
 ### <a name="blocked-products"></a>阻止的产品
 

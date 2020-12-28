@@ -18,11 +18,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7f7a615663676b02b02c5dd7bd3bfae495ca09ca
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985083"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409747"
 ---
 # <a name="fixed-assets-depreciation-methods-for-china"></a>中国的固定资产折旧法
 
@@ -36,9 +36,9 @@ ms.locfileid: "3985083"
 
 若要创建折旧模板：
 
-1. 在**固定资产参数**页上，选择  **SYDM 和 DRBM** 折旧法。
-2. 创建一个新折旧模板。 使用**年数总和法**或**双倍余额递减法**。
-3. 为该折旧法创建一个帐簿，请使用 **年数总和法**或**双倍余额递减法**。
+1. 在 **固定资产参数** 页上，选择  **SYDM 和 DRBM** 折旧法。
+2. 创建一个新折旧模板。 使用 **年数总和法** 或 **双倍余额递减法**。
+3. 为该折旧法创建一个帐簿，请使用  **年数总和法** 或 **双倍余额递减法**。
 
 有关详细信息，请参阅[设置固定资产折旧分摊](./tasks/fixed-asset-depreciation-allocation.md)。
 

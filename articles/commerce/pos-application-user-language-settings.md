@@ -20,11 +20,11 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 49bfcaa4c05ea8e6cc6bf0a8f855f2474cea35bc
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021796"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410598"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>销售点 (POS) 应用程序和用户语言设置
 
@@ -50,7 +50,7 @@ Modern POS (MPOS) 和 Cloud POS 支持商店和用户设置之间的语言设置
 
 ### <a name="configuring-the-stores-language-setting"></a>配置商店的语言设置
 
-商店的语言设置从**常规 &gt; 区域设置 &gt; 语言**下的**商店**页上的**所有商店**设置。 请使用下拉列表为每个商店选择语言。
+商店的语言设置从 **常规 &gt; 区域设置 &gt; 语言** 下的 **商店** 页上的 **所有商店** 设置。 请使用下拉列表为每个商店选择语言。
 
 ## <a name="user-interface-language"></a>使用界面语言
 
@@ -58,7 +58,7 @@ POS 用户的语言设置确定在应用程序用户界面使用的翻译。 这
 
 ### <a name="configuring-the-users-language-setting"></a>配置用户的语言设置
 
-POS 用户的语言设置从 **Retail 和 Commerce &gt; 语言**下的**工作人员**页上的**所有工作人员**设置。 不在主“配置文件”选项卡上设置。POS 不使用此设置。 如果未设置用户的语言或设置为不可使用翻译的语言，POS 将恢复为商店的语言。
+POS 用户的语言设置从 **Retail 和 Commerce &gt; 语言** 下的 **工作人员** 页上的 **所有工作人员** 设置。 不在主“配置文件”选项卡上设置。POS 不使用此设置。 如果未设置用户的语言或设置为不可使用翻译的语言，POS 将恢复为商店的语言。
 
 |             | UI 语言                  | 数据语言（产品、收据格式、行显示等） |
 |-------------|----------------------------|---------------------------------------------------------------|

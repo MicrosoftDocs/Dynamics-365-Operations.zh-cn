@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: a7b2b6ba8115b43ef2e52e934bf8364e6f4044e7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021804"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410419"
 ---
 # <a name="monitor-sales-and-margin-performance"></a>监控销售和利润率
 
@@ -45,7 +45,7 @@ ms.locfileid: "3021804"
 
 此外，利用层次结构网格结构的两个唯一报表允许用户通过在默认产品类别层次结构中从顶层类别节点深化到单个叶节点来监控销售和利润率。 用户还可以在被定义为用于报告的默认组织层次结构的组织层次结构中从顶层运营单位深化到单个渠道。 您可以从以下任何位置打开此报表：
 
-- **商店管理**工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店管理** &gt; **报表**
-- **类别和产品管理**工作区 &gt; **Retail 和 Commerce** &gt; **产品和类别** &gt; **商店管理** &gt; **报表**
-- **定价和折扣管理**工作区 &gt; **Retail 和 Commerce** &gt; **定价和折扣** &gt; **商店管理** &gt; **报表**
-- **查询和报表**部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表**
+- **商店管理** 工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店管理** &gt; **报表**
+- **类别和产品管理** 工作区 &gt; **Retail 和 Commerce** &gt; **产品和类别** &gt; **商店管理** &gt; **报表**
+- **定价和折扣管理** 工作区 &gt; **Retail 和 Commerce** &gt; **定价和折扣** &gt; **商店管理** &gt; **报表**
+- **查询和报表** 部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表**

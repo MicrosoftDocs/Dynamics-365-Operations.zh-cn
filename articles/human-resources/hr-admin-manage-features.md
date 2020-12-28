@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
-ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "3230192"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417497"
 ---
 # <a name="manage-features"></a>管理功能
 
@@ -31,35 +31,35 @@ ms.locfileid: "3230192"
 
 有关 Human Resources 中的新功能的详细信息，请参阅 [Human Resources 中的新增功能](hr-admin-whats-new.md)和 [Dynamics 365 和 Power Platform 版本计划](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)。
 
-**功能管理**工作区提供了每个版本提供的功能列表。 默认情况下，新功能处于关闭状态。 可使用该工作区开启这些功能并查看其文档。 有关功能管理的更多信息，请参阅[功能管理概述](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)。
+**功能管理** 工作区提供了每个版本提供的功能列表。 默认情况下，新功能处于关闭状态。 可使用该工作区开启这些功能并查看其文档。 有关功能管理的更多信息，请参阅[功能管理概述](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)。
 
-所有新功能都会在预览阶段提供至少 30 天，通常为 30-60 天。 主要功能通常在预览期之后的每年 10 月和 4 月公开发布。 在**功能管理**工作区中看到新功能后，即可将其打开。 有些功能可能默认已启用。
+所有新功能都会在预览阶段提供至少 30 天，通常为 30-60 天。 主要功能通常在预览期之后的每年 10 月和 4 月公开发布。 在 **功能管理** 工作区中看到新功能后，即可将其打开。 有些功能可能默认已启用。
 
-某项功能公开发布后，即可以在生产环境中将其打开或关闭。 **功能管理**工作区指示何时将强制使用某项预览功能。 此日期通常是 10 月 1 日或 4 月 1 日，以与半年发布计划保持一致。 您无法关闭强制功能。 在强制使用之前，您可以在所有环境中打开和关闭功能。
+某项功能公开发布后，即可以在生产环境中将其打开或关闭。 **功能管理** 工作区指示何时将强制使用某项预览功能。 此日期通常是 10 月 1 日或 4 月 1 日，以与半年发布计划保持一致。 您无法关闭强制功能。 在强制使用之前，您可以在所有环境中打开和关闭功能。
 
 ## <a name="enable-or-disable-preview-features"></a>启用或禁用预览功能
 
 若要访问预览功能，必须首先在您的环境中启用。 预览功能的启用或禁用特定于环境。
 
 > [!IMPORTANT]
-> 仅在**沙盒**环境中才能使用预览功能。 开启预览功能时，即对组织中该环境的所有用户启用了该预览功能。 关闭预览功能时，即禁用了该预览功能，并且您的用户不能访问该功能。 在 Human Resources 中，对预览功能的支持受限。 预览功能可以使用的隐私和安全措施更少，并且 Human Resources 服务级别协议 (SLA) 中不涵盖预览功能。 不应使用预览功能处理个人数据（即可能用于确认您的身份的所有信息），也不应处理其他与法律或法规遵从性要求有关的数据。
+> 仅在 **沙盒** 环境中才能使用预览功能。 开启预览功能时，即对组织中该环境的所有用户启用了该预览功能。 关闭预览功能时，即禁用了该预览功能，并且您的用户不能访问该功能。 在 Human Resources 中，对预览功能的支持受限。 预览功能可以使用的隐私和安全措施更少，并且 Human Resources 服务级别协议 (SLA) 中不涵盖预览功能。 不应使用预览功能处理个人数据（即可能用于确认您的身份的所有信息），也不应处理其他与法律或法规遵从性要求有关的数据。
 
-1. 在 Human Resources 中，选择**系统管理**。
+1. 在 Human Resources 中，选择 **系统管理**。
 
-2. 选择**功能管理**磁贴。
+2. 选择 **功能管理** 磁贴。
 
-3. 要启用预览功能，请从列表中选择它，然后选择**启用**。 要禁用预览功能，请从列表中选择它，然后选择**禁用**。
+3. 要启用预览功能，请从列表中选择它，然后选择 **启用**。 要禁用预览功能，请从列表中选择它，然后选择 **禁用**。
 
 ## <a name="enable-or-disable-benefits-management"></a>启用或禁用福利管理
 
 若要启用福利管理，请使用[启用或禁用预览功能](hr-admin-manage-features.md?enable-or-disable-preview-features)中的相同过程。
 
 > [!IMPORTANT]
-> 不能在**生产**环境中禁用已启用的福利管理。 但是可以在**沙盒**环境中禁用福利管理。
+> 不能在 **生产** 环境中禁用已启用的福利管理。 但是可以在 **沙盒** 环境中禁用福利管理。
 
 有关福利管理配置和使用的详细信息，请参阅[福利管理概述](hr-benefits-management-overview.md)。
 
-福利管理取代了**福利**工作区中的功能。 启用“福利管理”预览功能后，您将无法再访问**福利**工作区的以下窗体：
+福利管理取代了 **福利** 工作区中的功能。 启用“福利管理”预览功能后，您将无法再访问 **福利** 工作区的以下窗体：
 
 - **福利**
 - **福利元素**
@@ -70,14 +70,14 @@ ms.locfileid: "3230192"
 - **福利资格政策**
 - **资格事件**
 
-您可以以只读模式查看这些窗体中的信息。 如果要编辑信息，必须先禁用“福利管理”（仅适用于**沙盒**环境）。
+您可以以只读模式查看这些窗体中的信息。 如果要编辑信息，必须先禁用“福利管理”（仅适用于 **沙盒** 环境）。
 
 ## <a name="enable-or-disable-leave-and-absence"></a>启用或禁用休假和缺勤
 
 若要启用休假和缺勤，请使用[启用或禁用预览功能](hr-admin-manage-features.md?enable-or-disable-preview-features)中的相同过程。
 
 > [!IMPORTANT]
-> 不能在休假和缺勤中禁用已启用的**多个休假类型**功能。 这一条同时适用于**沙盒**和**生产**环境。
+> 不能在休假和缺勤中禁用已启用的 **多个休假类型** 功能。 这一条同时适用于 **沙盒** 和 **生产** 环境。
 
 有关休假和缺勤中的预览功能的详细信息，请参阅[休假和缺勤预览功能](hr-leave-and-absence-overview.md?leave-and-absence-preview-features)。
 

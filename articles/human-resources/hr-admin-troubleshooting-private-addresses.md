@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: fbe0e8acc1b879e4d7982b33413236432f25f630
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431030"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417434"
 ---
 # <a name="access-to-private-addresses-by-security-role"></a>通过安全角色访问专用地址
 
@@ -34,8 +34,8 @@ ms.locfileid: "3431030"
 
 为了解决此问题，客户必须对复制的安全角色执行以下步骤。
 
-1. 转到**组织管理 \> 全球通讯簿 \> 全球通讯簿参数**。
-2. 在**专用位置安全**选项卡上，将新安全角色从**可用角色**列表移到**选定角色**列表。
-3. 选择**保存**。
+1. 转到 **组织管理 \> 全球通讯簿 \> 全球通讯簿参数**。
+2. 在 **专用位置安全** 选项卡上，将新安全角色从 **可用角色** 列表移到 **选定角色** 列表。
+3. 选择 **保存**。
 
 ![全球通讯簿参数页面](media/GAD-parameters.png)

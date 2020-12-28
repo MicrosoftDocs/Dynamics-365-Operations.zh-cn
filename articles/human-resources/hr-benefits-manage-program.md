@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
 ms.openlocfilehash: a7fe99d4982b8f35871b15e8049c39eb806e315c
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430018"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417421"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>定义和管理福利计划
 
@@ -50,9 +50,9 @@ Human Resources 提供一组工具，可使用这组工具设置和维护组织�
 ## <a name="eligibility"></a>资格
 许多因素决定工作人员有资格享有雇主提供的各种类型福利。 当您在 Dynamics 365 Human Resources 中创建福利时，可以设置应用于该福利的资格类型。 
 
-您可以向所有工作人员提供福利。 例如，某些公司向所有员工提供停车证作为附加福利。 当您创建此福利时，将资格设置为**所有工作人员均符合资格**。 
+您可以向所有工作人员提供福利。 例如，某些公司向所有员工提供停车证作为附加福利。 当您创建此福利时，将资格设置为 **所有工作人员均符合资格**。 
 
-对于其他福利（例如扣押和征收税款），资格不适用。 当您创建这些类型的福利时，将资格设置为**跳过资格处理**。 
+对于其他福利（例如扣押和征收税款），资格不适用。 当您创建这些类型的福利时，将资格设置为 **跳过资格处理**。 
 
 最后，福利资格可基于规则。 例如，公司向员工提供两种类型的人寿保险福利。 行政职员有资格享有一项人寿保险计划，而所有其他的全职员工则有资格享有另一项人寿保险计划。 在 Human Resources 中，您可以创建一种福利资格规则以找到所有行政职员和另一种规则以找到所有其他全职员工，然后将这些规则应用于相应的福利。
 

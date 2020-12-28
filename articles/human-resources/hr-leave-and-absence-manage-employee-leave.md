@@ -1,9 +1,9 @@
 ---
 title: 管理员工休假
-description: 在 Dynamics 365 Human Resources 中定义休假和缺勤的人力资源参数。
+description: 在 Dynamics 365 Human Resources 中管理员工休假。
 author: andreabichsel
-manager: AnnBe
-ms.date: 04/30/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4c45d2c57d89929ac9c423ab58aee4cbfa213509
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712114"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4417546"
 ---
 # <a name="manage-employee-leave"></a>管理员工休假
 
@@ -31,19 +31,26 @@ ms.locfileid: "3712114"
 
 ## <a name="adjust-leave-balances"></a>调整休假余额
 
-1. 在员工的记录上，选择**休假**。
+1. 在员工的记录上，选择 **休假**。
 
-2. 选择**休假和缺勤设置**。
+2. 选择 **休假和缺勤设置**。
 
-3. 选择**调整余额**。
+3. 选择 **调整余额**。
 
-4. 选择**休假类型**。
+4. 选择 **休假类型**。
 
-5. 输入**调整金额**。 
+5. 输入 **调整金额**。 
 
-6. （可选）您可以选择**日期**。 
+6. （可选）您可以选择 **日期**。 
 
 调整员工的休假余额时，您可以包括原因代码和注释。 
+
+>[!IMPORTANT]
+>查看有关休假余额的其他信息处于预览状态。 您需要在 **沙盒** 环境中启用它。 有关启用预览功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。<br>
+>当鼠标悬停在任何休假余额上时，您现在将看到：<br>
+>- **可用**：今年总计 - 今年已用
+>- **今年总计**：该年度的所有应计、调整和结转
+>- **今年已用**：所有已批准的休假
 
 ## <a name="see-also"></a>请参阅
 

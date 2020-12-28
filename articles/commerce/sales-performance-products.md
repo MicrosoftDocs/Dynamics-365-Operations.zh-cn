@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: f429fa38a7d68631449acb0a0ea5872771400b85
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021765"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410602"
 ---
 # <a name="assess-sales-performance-by-product"></a>按产品评估销售业绩
 
@@ -39,8 +39,8 @@ ms.locfileid: "3021765"
 - 毛利润率
 - 毛利百分比
 
-对于此评估，您可以使用现成的**排名靠前的产品**报表，您可以从以下任何位置打开此报表：
+对于此评估，您可以使用现成的 **排名靠前的产品** 报表，您可以从以下任何位置打开此报表：
 
-- **商店管理**工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店管理** &gt; **报表** &gt; **排名靠前的产品报表**
-- **类别和产品管理**工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店管理** &gt; **报表** &gt; **排名靠前的产品报表**
-- **查询和报表**部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表** &gt; **排名靠前的产品报表**
+- **商店管理** 工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店管理** &gt; **报表** &gt; **排名靠前的产品报表**
+- **类别和产品管理** 工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店管理** &gt; **报表** &gt; **排名靠前的产品报表**
+- **查询和报表** 部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表** &gt; **排名靠前的产品报表**

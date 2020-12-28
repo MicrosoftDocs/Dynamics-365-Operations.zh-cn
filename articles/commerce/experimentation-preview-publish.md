@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: f1a565917ab7a048d4d455bc0a0fbd9316237aeb
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097108"
+ms.locfileid: "4410624"
 ---
 # <a name="preview-and-publish-an-experiment"></a>预览和发布试验
 
@@ -37,11 +37,11 @@ ms.locfileid: "4097108"
 若要在 Commerce 站点构建器中预览试验变体，请按照以下步骤操作。
 
 1. 从命令栏下方的变体下拉菜单中，选择要预览的内容。 
-1. 在命令栏中，选择 **预览** 。 显示内容发布时的预览情况。
-1. 若要预览其他变体，请从变体下拉菜单中选择它，然后再次选择 **预览** 。
+1. 在命令栏中，选择 **预览**。 显示内容发布时的预览情况。
+1. 若要预览其他变体，请从变体下拉菜单中选择它，然后再次选择 **预览**。
 
 ## <a name="publish-your-experiment"></a>发布试验
-如果您没有使用发布组来计划试验上线的时间，并且想立即发布，请在命令栏中选择 **发布** 。 将发布属于该试验的所有变体。
+如果您没有使用发布组来计划试验上线的时间，并且想立即发布，请在命令栏中选择 **发布**。 将发布属于该试验的所有变体。
     
 > [!IMPORTANT]
 > 如果页面上有取消发布的 URL，必须首先发布该 URL，否则它将对您的网站用户不可见。 有关详细信息，请参阅[保存、预览和发布页面](save-preview-publish-page.md)。

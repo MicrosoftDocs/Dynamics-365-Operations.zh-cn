@@ -19,11 +19,11 @@ ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
 ms.openlocfilehash: 137b699d5f60b9b62a5ce9501e3b2a262e60a88f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021688"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410393"
 ---
 # <a name="open-url-in-pos"></a>在 POS 中打开 URL
 
@@ -39,15 +39,15 @@ ms.locfileid: "3021688"
 
 ## <a name="open-in-new-window"></a>在新窗口中打开
 
-此配置定义是否在新窗口或在应用内打开 URL。 当配置为在应用内打开 Web URL 时，POS 的侧导航面板和顶部栏可见并可用于用户交互。 当配置为在新窗口中打开时，URL 将在 Windows 的现代 POS 上的新应用窗口，以及所有其他 POS 客户端的新浏览器标签页中打开。 为此，您必须使用所选的**在新窗口中打开**选项配置 URL。
+此配置定义是否在新窗口或在应用内打开 URL。 当配置为在应用内打开 Web URL 时，POS 的侧导航面板和顶部栏可见并可用于用户交互。 当配置为在新窗口中打开时，URL 将在 Windows 的现代 POS 上的新应用窗口，以及所有其他 POS 客户端的新浏览器标签页中打开。 为此，您必须使用所选的 **在新窗口中打开** 选项配置 URL。
 
 ## <a name="open-within-pos"></a>在 POS 内打开
 
-当前仅 Windows 上的现代 POS 支持在 POS 内打开 Web URL。 在其他客户端，此功能正在开发，计划在将来的更新中发布。 为此，您必须使用未选择的**在新窗口中打开**选项配置 URL。
+当前仅 Windows 上的现代 POS 支持在 POS 内打开 Web URL。 在其他客户端，此功能正在开发，计划在将来的更新中发布。 为此，您必须使用未选择的 **在新窗口中打开** 选项配置 URL。
 
 ## <a name="open-a-native-app"></a>打开本地应用
 
-此功能还允许您指定打开本地应用的非 Web URL。 例如，您可以指定 MailTo、SIP、IM 或 MSTEAMS 等 URL 协议，其然后由主机设备上各自的本地应用处理。 为此，您必须使用所选的**在新窗口中打开**选项配置 URL。
+此功能还允许您指定打开本地应用的非 Web URL。 例如，您可以指定 MailTo、SIP、IM 或 MSTEAMS 等 URL 协议，其然后由主机设备上各自的本地应用处理。 为此，您必须使用所选的 **在新窗口中打开** 选项配置 URL。
 
 - 如果您使用部署图像服务和管理 (DISM) 设置您的计算机，对于 Windows 计算机，请参阅[导出或导入默认应用程序关联](https://docs.microsoft.com/windows-hardware/manufacture/desktop/export-or-import-default-application-associations)来设置默认的协议关联。
 - 如果您使用 MDM（如 Intune）来管理您的 Windows 计算机，请参阅[策略 CSP - ApplicationDefaults](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationdefaults)。
@@ -77,9 +77,9 @@ Windows、iOS 和 Android 还允许根据应用协议关联更加无缝地打开
 若要将 URL 配置为在 POS 中打开，请执行以下步骤。
 
 1. 在总部，转至 **Retail 和 Commerce \> 渠道设置 \> POS 设置 \> POS \> 屏幕布局**。
-2. 选择**按钮网格 \> 设计器**。
+2. 选择 **按钮网格 \> 设计器**。
 3. 创建新按钮。
-4. 选择**按钮**属性。
-5. 选择**打开 URL** 作为操作。
+4. 选择 **按钮** 属性。
+5. 选择 **打开 URL** 作为操作。
 6. 输入要使用的 URL。
 7. 配置是否在新窗口中打开 URL。

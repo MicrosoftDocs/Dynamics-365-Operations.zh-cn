@@ -18,11 +18,11 @@ ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 4b0e48307527a8fea729d8dfdcdbc6337be0faf1
-ms.sourcegitcommit: 8058db089b8768076ff1250be77d42a6e2b3f570
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3378984"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410505"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>选择不收集 Web 活动事件
 [!include [banner](includes/banner.md)]
@@ -42,12 +42,12 @@ ms.locfileid: "3378984"
 
 在 Commerce Headquarters (HQ) 的“帐户管理”中，管理员可以代表用户选择退出。
 
-1. 在 HQ 客户端的**所有客户**页中，搜索和选择客户。
-1. 在客户详细信息页的**零售**快速选项卡上**隐私**部分中，将**不跟踪 Web 活动**选项设置为**是**。
+1. 在 HQ 客户端的 **所有客户** 页中，搜索和选择客户。
+1. 在客户详细信息页的 **零售** 快速选项卡上 **隐私** 部分中，将 **不跟踪 Web 活动** 选项设置为 **是**。
 
     ![隐私设置](media/Disablepersonalizationpart2.png)
 
-1. 选择**保存**，然后关闭页面。
+1. 选择 **保存**，然后关闭页面。
 
 ### <a name="module-based-opt-out-experience"></a>基于模块的退出体验
 

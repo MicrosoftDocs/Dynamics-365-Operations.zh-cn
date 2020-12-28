@@ -20,11 +20,11 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 0785f499a3e106e36b803ae61a9acbdbb072ce17
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835054"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410583"
 ---
 # <a name="set-up-bar-codes"></a>设置条码
 

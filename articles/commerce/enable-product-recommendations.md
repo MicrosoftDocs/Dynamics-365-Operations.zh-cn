@@ -20,11 +20,11 @@ ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
-ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3700834"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410369"
 ---
 # <a name="enable-product-recommendations"></a>启用产品建议
 
@@ -50,7 +50,7 @@ ms.locfileid: "3700834"
 
 ### <a name="setup"></a>设置
 
-1. 从后端搜索 **Azure Active Directory 应用程序**页面。
+1. 从后端搜索 **Azure Active Directory 应用程序** 页面。
 2. 验证是否有“RecommendationSystemApplication-1”的条目。
 
 如果该条目不存在，请添加具有以下信息的新条目：
@@ -65,11 +65,11 @@ ms.locfileid: "3700834"
 
 若要开启产品建议，请执行以下步骤。
 
-1. 在 Commerce headquarters 中，搜索**功能管理**。
-1. 选择**所有**查看可用功能列表。 
-1. 在搜索框中，输入**建议**。
-1. 选择**产品建议**功能。
-1. 在**产品建议**属性窗格中，选择**立即启用**。
+1. 在 Commerce headquarters 中，搜索 **功能管理**。
+1. 选择 **所有** 查看可用功能列表。 
+1. 在搜索框中，输入 **建议**。
+1. 选择 **产品建议** 功能。
+1. 在 **产品建议** 属性窗格中，选择 **立即启用**。
 
 ![开启建议](./media/FeatureManagement_Recommendations.PNG)
 

@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008180"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417498"
 ---
 # <a name="create-a-recurring-data-export-app"></a>创建重复性数据导出应用
 
@@ -68,7 +68,7 @@ ms.locfileid: "3008180"
 
 ### <a name="step-1-create-a-data-export-project-in-human-resources"></a>步骤 1：在 Human Resources 中创建数据导出项目
 
-在 Human Resources 中，创建一个导出工作人员的数据导出项目。 将项目命名为**导出工作人员**，并确保将**生成数据包**选项设置为**是**。 将单个实体（**工作人员**）添加到项目，然后选择导出要使用的格式。 （本教程使用 Microsoft Excel 格式。）
+在 Human Resources 中，创建一个导出工作人员的数据导出项目。 将项目命名为 **导出工作人员**，并确保将 **生成数据包** 选项设置为 **是**。 将单个实体（**工作人员**）添加到项目，然后选择导出要使用的格式。 （本教程使用 Microsoft Excel 格式。）
 
 ![“导出工作人员”数据项目](media/integration-logic-app-export-workers-project.png)
 
@@ -90,7 +90,7 @@ ms.locfileid: "3008180"
 
 4. 调用 [ExportToPackage](../dev-itpro/data-entities/data-management-api.md#exporttopackage) DMF REST API 计划数据包的导出。
 
-    1. 从带有 Azure AD 连接器的 HTTP 使用**调用 HTTP 请求**操作。
+    1. 从带有 Azure AD 连接器的 HTTP 使用 **调用 HTTP 请求** 操作。
 
         - **基本资源 URL：** Human Resources 环境的 URL（不包括路径/命名空间信息）。
         - **Azure AD 资源 URI：**`http://hr.talent.dynamics.com`
@@ -120,43 +120,43 @@ ms.locfileid: "3008180"
         ![调用 HTTP 请求操作](media/integration-logic-app-export-to-package-step.png)
 
     > [!TIP]
-    > 您可能需要重命名每个步骤，以使其比默认名称**调用 HTTP 请求**更有意义。 例如，您可以重命名此步骤 **ExportToPackage**。
+    > 您可能需要重命名每个步骤，以使其比默认名称 **调用 HTTP 请求** 更有意义。 例如，您可以重命名此步骤 **ExportToPackage**。
 
 5. [初始化变量](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable)以存储 **ExportToPackage** 请求的执行状态。
 
     ![初始化变量操作](media/integration-logic-app-initialize-variable-step.png)
 
-6. 等待直到数据导出的执行状态为**已成功**。
+6. 等待直到数据导出的执行状态为 **已成功**。
 
-    1. 添加一个一直重复到 **ExecutionStatus** 变量的值为**已成功**的 [Until 循环](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop)。
-    2. 添加等待五秒钟，然后才轮询导出的当前执行状态的**延迟**操作。
+    1. 添加一个一直重复到 **ExecutionStatus** 变量的值为 **已成功** 的 [Until 循环](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop)。
+    2. 添加等待五秒钟，然后才轮询导出的当前执行状态的 **延迟** 操作。
 
         ![Until 循环容器](media/integration-logic-app-until-loop-step.png)
 
         > [!NOTE]
         > 将限制计数设置为 **15**，以最多等待 75 秒（15 次迭代 × 5 秒）完成导出。 如果导出需要更多时间，请适当调整限制计数。        
 
-    3. 添加**调用 HTTP 请求**操作以调用 [GetExecutionSummaryStatus](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) DMF REST API，并将 **ExecutionStatus** 变量设置为 **GetExecutionSummaryStatus** 响应的结果。
+    3. 添加 **调用 HTTP 请求** 操作以调用 [GetExecutionSummaryStatus](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) DMF REST API，并将 **ExecutionStatus** 变量设置为 **GetExecutionSummaryStatus** 响应的结果。
 
-        > 此示例不进行错误检查。 **GetExecutionSummaryStatus** API 可以返回不成功的终端状态（即，**已成功**以外的状态）。 有关详细信息，请参阅 [API 文档](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus)。
+        > 此示例不进行错误检查。 **GetExecutionSummaryStatus** API 可以返回不成功的终端状态（即，**已成功** 以外的状态）。 有关详细信息，请参阅 [API 文档](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus)。
 
         - **方法：** POST
         - **请求的 URL：** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
         - **请求的正文：** body('Invoke\_an\_HTTP\_request')?['value']
 
             > [!NOTE]
-            > 您可能必须在代码视图或设计器的函数编辑器中输入**请求的正文**值。
+            > 您可能必须在代码视图或设计器的函数编辑器中输入 **请求的正文** 值。
 
         ![调用 HTTP 请求 2 操作](media/integration-logic-app-get-execution-status-step.png)
 
         ![设置变量操作](media/integration-logic-app-set-variable-step.png)
 
         > [!IMPORTANT]
-        > **设置变量**操作的值 (**body('Invoke\_an\_HTTP\_request\_2')?['value']**) 与**调用 HTTP 请求 2** 正文值的值不同，即使设计器将以相同方式显示这些值。
+        > **设置变量** 操作的值 (**body('Invoke\_an\_HTTP\_request\_2')?['value']**) 与 **调用 HTTP 请求 2** 正文值的值不同，即使设计器将以相同方式显示这些值。
 
 7. 获取导出包的下载 URL。
 
-    - 添加**调用 HTTP 请求**操作以调用 [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) DMF REST API。
+    - 添加 **调用 HTTP 请求** 操作以调用 [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) DMF REST API。
 
         - **方法：** POST
         - **请求的 URL：** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
@@ -192,9 +192,9 @@ ms.locfileid: "3008180"
 
 ### <a name="step-3-test-the-logic-app"></a>步骤 3：测试逻辑应用
 
-要测试您的逻辑应用，在设计器中选择**运行**按钮。 您将看到逻辑应用的步骤开始运行。 30 到 40 秒后，逻辑应用应会完成运行，您的 OneDrive for Business 文件夹应包括一个包含导出的工作人员的新包文件。
+要测试您的逻辑应用，在设计器中选择 **运行** 按钮。 您将看到逻辑应用的步骤开始运行。 30 到 40 秒后，逻辑应用应会完成运行，您的 OneDrive for Business 文件夹应包括一个包含导出的工作人员的新包文件。
 
-如果报告有任何步骤失败，在设计器中选择失败的步骤，然后检查步骤的**输入**和**输出**字段。 根据需要调试并调整步骤以更正错误。
+如果报告有任何步骤失败，在设计器中选择失败的步骤，然后检查步骤的 **输入** 和 **输出** 字段。 根据需要调试并调整步骤以更正错误。
 
 下图显示了逻辑应用的所有步骤成功运行时逻辑应用设计器呈现的状态。
 

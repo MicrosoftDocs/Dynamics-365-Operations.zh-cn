@@ -20,11 +20,11 @@ ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: bc6a793061a3e644599f0882ff163f5f57b2162d
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664946"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410571"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>调整基于 AI-ML 的产品建议结果
 
@@ -63,10 +63,10 @@ ms.locfileid: "3664946"
 ### <a name="for-new-trending-or-best-selling-lists"></a>对于“新品”、“热门”或“最畅销”列表
 
 1.  转到 **Retail 和 Commerce** > **产品建议** > **建议参数**。
-1.  在共享参数列表中，选择**建议列表**。
+1.  在共享参数列表中，选择 **建议列表**。
 1.  选择要在其中添加或删除产品的列表。
-1.  若要向表添加产品，请选择**添加行**。 
-1.  在“产品”列下，按**名称**或**产品编号**搜索产品。
+1.  若要向表添加产品，请选择 **添加行**。 
+1.  在“产品”列下，按 **名称** 或 **产品编号** 搜索产品。
 
     ![在“新品”产品列表中搜索产品的示例](./media/examplenewlistconfiguration1.png)
 
@@ -76,22 +76,22 @@ ms.locfileid: "3664946"
     
     ![在“新品”产品列表中包含或排除某个产品的示例](./media/examplenewlistconfiguration2.png)
 
-1.  更改**显示顺序**将更改标记为**包含**的产品在列表中的显示顺序。
-    - 如果两个产品的**显示顺序**值相同，则这两个结果的最终顺序可能与后端不同。
-1.  若要从表中删除产品：选择要删除的行，然后选择**删除**。
+1.  更改 **显示顺序** 将更改标记为 **包含** 的产品在列表中的显示顺序。
+    - 如果两个产品的 **显示顺序** 值相同，则这两个结果的最终顺序可能与后端不同。
+1.  若要从表中删除产品：选择要删除的行，然后选择 **删除**。
 
 
 ### <a name="for-people-also-like-or-frequently-bought-together-lists"></a>对于“用户也喜欢”或“人气组合”列表
 
 在“人气组合”或“用户也喜欢”列表的上下文中，使用机器学习分析消费者购买模式为唯一种子产品推荐通常一起购买的相关产品。 
  
-*种子产品*是要生成其结果的产品。 在手动调整建议列表的上下文中，添加或删除此产品的结果。 
+*种子产品* 是要生成其结果的产品。 在手动调整建议列表的上下文中，添加或删除此产品的结果。 
 
 执行以下步骤手动添加或删除种子产品的结果：
-1.  选择**种子产品**。 
-1.  在**产品**列下，按**名称**或**产品编号**搜索产品。
+1.  选择 **种子产品**。 
+1.  在 **产品** 列下，按 **名称** 或 **产品编号** 搜索产品。
 ![搜索“人气组合”列表中的产品的示例](./media/exampleFBTlistconfiguration1.png)
-1. 在**行类型**列下，选择两个选项之一：
+1. 在 **行类型** 列下，选择两个选项之一：
     - **包含** – 强制产品位于列表前部
     - **排除** – 在列表中隐藏某个产品。     
 ![在“人气组合”列表中包含或排除产品的示例](./media/exampleFBTlistconfiguration2.png)

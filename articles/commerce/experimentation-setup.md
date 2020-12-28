@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 29c21ceb4c259f463f4a039942e51141201a9809
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097039"
+ms.locfileid: "4410628"
 ---
 # <a name="set-up-an-experiment"></a>设置试验
 
@@ -42,9 +42,9 @@ ms.locfileid: "4097039"
 
 若要设置成功指标，请按照以下步骤操作。
 
-1. 在 Commerce 站点构建器中，选择左侧导航窗格中的 **页面** ，然后选择要为其收集指标的页面。 
+1. 在 Commerce 站点构建器中，选择左侧导航窗格中的 **页面**，然后选择要为其收集指标的页面。 
 1. 转到您要跟踪的页面或模块的右侧属性窗格中的 **要跟踪的事件 ID** 部分。
-1. 选择 **查看** 。 显示所有事件 ID 的列表。 复制您要跟踪的事件，然后将事件密钥粘贴到第三方服务中的指定位置。 如果您需要多个事件，则一次复制一个密钥。 
+1. 选择 **查看**。 显示所有事件 ID 的列表。 复制您要跟踪的事件，然后将事件密钥粘贴到第三方服务中的指定位置。 如果您需要多个事件，则一次复制一个密钥。 
     - 若要了解如何查看所有可用事件和属性，包括页面视图和收入跟踪，请参阅 [Commerce 组件的诊断和疑难解答事件](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)。
 1. 根据第三方服务的要求，采取任何其他步骤来跟踪指标。
 

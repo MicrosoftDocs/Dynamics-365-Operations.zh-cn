@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 47a81d5c872b49b2395ed687855798fe04772b7e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428654"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417477"
 ---
 # <a name="define-new-jobs"></a>定义新工作
 
@@ -57,7 +57,7 @@ ms.locfileid: "3428654"
 21. 在列表中，找到并选择所需记录。
 22. 在列表中，单击所选行中的链接。
 23. 切换“技能”部分的扩展。
-    * 请注意，技能、教育和证书的快速选项卡字段为空。 在从工作模板复制信息后，这些字段的信息将在单步操作中输入。   
+    * 请注意，技能、教育和证书的快速选项卡字段为空。 在从工作模板复制信息后，这些字段的信息将在单步操作中输入。   
 24. 单击“保存”。
 25. 单击“复制自”。
 26. 单击“从模板复制”。

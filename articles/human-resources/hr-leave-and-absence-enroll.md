@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 3407acc164aab1bd1afb2429fc5a221edd0a2493
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429028"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417512"
 ---
 # <a name="assign-workers-to-a-leave-plan"></a>将工作人员分配给休假计划
 
@@ -31,9 +31,9 @@ ms.locfileid: "3429028"
 
 ## <a name="assign-a-plan-to-a-group-of-employees"></a>将计划分配给一组员工
 
-1. 在**休假和缺勤**页上，选择要分配的计划。
+1. 在 **休假和缺勤** 页上，选择要分配的计划。
 
-2. 选择**分配给员工**。
+2. 选择 **分配给员工**。
 
 3. 适当调整以下设置：
 
@@ -42,17 +42,17 @@ ms.locfileid: "3429028"
    - **结束日期**
    - **层基础**
 
-4. 在**要登记的工作人员**下，选择所有要分配给计划的工作人员。
+4. 在 **要登记的工作人员** 下，选择所有要分配给计划的工作人员。
 
-5. 选择页面底部的**分配计划**。
+5. 选择页面底部的 **分配计划**。
 
 ## <a name="assign-a-plan-to-an-employee"></a>将计划分配给员工
 
-1. 在员工的记录上，选择**休假**。
+1. 在员工的记录上，选择 **休假**。
 
-2. 选择**休假和缺勤**。
+2. 选择 **休假和缺勤**。
 
-3. 选择**新建**。
+3. 选择 **新建**。
 
 4. 输入登记日期，然后选择一个假期计划。
 

@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 6ffc772addb330abe7205007662a3f3e08a3e47f
-ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961578"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410569"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>站点的搜索引擎优化 (SEO) 注意事项
 
@@ -43,7 +43,7 @@ ms.locfileid: "3961578"
 
 站点在生产中时，应确保正确标记所有站点页。 Microsoft Dynamics 365 Commerce 使用为页面输入的信息在该页中显示所有 SEO 信息。 以下模块提供此功能：类别页汇总、列表页汇总和产品页汇总。
 
-为了优化搜索引擎索引编制，呈现框架同时使用 Dynamics 365 Commerce 中配置的 SEO 属性的信息和模块特定的信息。 对于生产中的站点，应确保 robots.txt 文件允许为您的整个站点进行索引编制，并且其中包含您发布的站点地图文档的链接。 您应该在**站点设置 \> 启用站点地图**中开启站点地图生成功能。
+为了优化搜索引擎索引编制，呈现框架同时使用 Dynamics 365 Commerce 中配置的 SEO 属性的信息和模块特定的信息。 对于生产中的站点，应确保 robots.txt 文件允许为您的整个站点进行索引编制，并且其中包含您发布的站点地图文档的链接。 您应该在 **站点设置 \> 启用站点地图** 中开启站点地图生成功能。
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>适用于内部预览、首先受众和所有受众的页面 SEO 设置
 

@@ -19,19 +19,19 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 0ebd19cba8dd7cac8ccf6d17d4206731be87a225
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429143"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417409"
 ---
 # <a name="create-worker-benefit-plans"></a>创建工作人员福利计划
 
 您可以在 Microsoft Dynamics 365 Human Resources 中创建工作人员福利计划，来为员工选择福利计划并确认福利计划的选择。 通常，员工使用员工自助服务自行选择福利计划，然后福利管理员确认选择。 
 
-1. 在**福利管理**工作区中，在**计划**下，选择**工作人员福利计划**。
+1. 在 **福利管理** 工作区中，在 **计划** 下，选择 **工作人员福利计划**。
 
-2. 选择**新建**。
+2. 选择 **新建**。
 
 3. 为以下字段指定值：
 
@@ -48,4 +48,4 @@ ms.locfileid: "3429143"
    | 生效日期筛选器 | 根据计划是已到期、有效还是将来有效来筛选计划。 在“计划”快速选项卡中选择与您要查看的计划相对应的复选框。 |
    | 计划 | “计划”快速选项卡包含符合您指定的筛选条件的计划。 每行包含 HR 人员设置的相关配置选项和员工选择的登记选择。 “合格”字段指定计划选择是否存在验证冲突。 |
 
-4. 选择**保存**。
+4. 选择 **保存**。

@@ -16,11 +16,11 @@ ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
 ms.openlocfilehash: 6946cb5f8bc8aa451f72d1eebcd324f408ad5f7a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975063"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410408"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>对 POS 登录启用 Azure Active Directory 身份验证
 [!include [banner](includes/banner.md)]
@@ -36,9 +36,9 @@ ms.locfileid: "3975063"
 
 1. 转至 **Retail 和 Commerce** \> **渠道设置** \> **POS 设置** \> **POS 配置文件** \> **功能配置文件**。
 1. 选择要更改的功能配置文件。
-1. 在**功能**快速选项卡上的 **POS 职员登录**部分中，将**登录身份验证方法**字段的值从**个人 ID 和密码**更改为 **Azure Active Directory**。
+1. 在 **功能** 快速选项卡上的 **POS 职员登录** 部分中，将 **登录身份验证方法** 字段的值从 **个人 ID 和密码** 更改为 **Azure Active Directory**。
 
-默认情况下，所有功能配置文件都使用**个人 ID 和密码**作为 POS 身份验证方法。 因此，如果要使用 Azure AD，必须更改**登录身份验证方法**字段的值。 此更改将影响链接到所选功能配置文件的每家零售商店。
+默认情况下，所有功能配置文件都使用 **个人 ID 和密码** 作为 POS 身份验证方法。 因此，如果要使用 Azure AD，必须更改 **登录身份验证方法** 字段的值。 此更改将影响链接到所选功能配置文件的每家零售商店。
 
 若要将这些设置应用于 POS 客户端，请执行以下步骤。
 
@@ -48,7 +48,7 @@ ms.locfileid: "3975063"
 > [!NOTE]
 > Azure AD 身份验证需要 Internet 连接。 如果 POS 处于脱机模式，将不能工作。
 > 
-> 目前，**经理覆盖**功能不支持将 Azure AD 作为身份验证方法。 即使将 Azure AD 配置为 POS 登录的身份验证方法，也需要操作员 ID 和密码。
+> 目前，**经理覆盖** 功能不支持将 Azure AD 作为身份验证方法。 即使将 Azure AD 配置为 POS 登录的身份验证方法，也需要操作员 ID 和密码。
 
 ## <a name="associate-an-azure-ad-account-with-a-worker"></a>将 Azure AD 帐户与工作人员关联
 
@@ -58,11 +58,11 @@ ms.locfileid: "3975063"
 
 1. 转到 **Retail 和 Commerce** \> **员工** \> **工作人员**。
 1. 打开工作人员的详细信息页面。
-1. 在操作窗格中 **Commerce** 选项卡上的**外部标识**组中，选择**关联现有标识**。
-1. 在**使用现有外部标识**对话框中，选择**使用电子邮件搜索**，输入 Azure AD 电子邮件地址，然后选择**搜索**。
-1. 选择返回的 Azure AD 帐户，然后选择**确定**。
+1. 在操作窗格中 **Commerce** 选项卡上的 **外部标识** 组中，选择 **关联现有标识**。
+1. 在 **使用现有外部标识** 对话框中，选择 **使用电子邮件搜索**，输入 Azure AD 电子邮件地址，然后选择 **搜索**。
+1. 选择返回的 Azure AD 帐户，然后选择 **确定**。
 
-将填写该工作人员详细信息页的 **Commerce** 选项卡中的**别名**、**UPN** 和 **外部子标识**字段。
+将填写该工作人员详细信息页的 **Commerce** 选项卡中的 **别名**、**UPN** 和 **外部子标识** 字段。
 
 > [!NOTE]
 > 更新工作记录后，例如，如果关联了新的 Azure AD 帐户，更改了密码或更新了员工通讯簿，建议您运行 **1060**（**人员**）分配计划将最新的人员信息同步到渠道。 这样，POS 应用程序可以获取正确的数据以进行用户身份验证和授权检查。

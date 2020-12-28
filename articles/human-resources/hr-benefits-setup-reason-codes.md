@@ -19,19 +19,19 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 83923eecf7eb23a21b8dbbd39491014fa2bc20d6
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429880"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417487"
 ---
 # <a name="set-up-reason-codes"></a>设置原因代码
 
 Dynamics 365 Human Resources 使用原因代码来解释为什么员工的福利正在更改。 
 
-1. 在**福利管理**工作区中，在**设置**下，选择**原因代码**。
+1. 在 **福利管理** 工作区中，在 **设置** 下，选择 **原因代码**。
 
-2. 选择**新建**。
+2. 选择 **新建**。
 
 3. 为以下字段指定值：
 
@@ -40,4 +40,4 @@ Dynamics 365 Human Resources 使用原因代码来解释为什么员工的福利
    | **原因代码** | 用于标识员工更改福利计划登记的原因的唯一名称。 |
    | **说明** | 原因代码的描述。 |
 
-4. 选择**保存**。 
+4. 选择 **保存**。 

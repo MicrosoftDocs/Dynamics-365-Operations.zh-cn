@@ -19,11 +19,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: 60ce530575841c22355e4a14e8b0bbec6c0e35ab
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817274"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410385"
 ---
 # <a name="cookie-consent-module"></a>Cookie 同意模块
 

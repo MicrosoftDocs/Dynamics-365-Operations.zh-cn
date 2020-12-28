@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: a5d562b64a161891bf34b0dfa94fbf68325e21b5
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429949"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417483"
 ---
 # <a name="set-up-payment-frequencies"></a>设置付款频率
 
@@ -33,9 +33,9 @@ Microsoft Dynamics 365 Human Resources 使用付款频率来计算年度福利�
 
 换算系数字段标识从付款频率到标准付款期间的换算系数，允许系统在付款频率之间进行计算。 换算系数金额还确定员工按每个支付频率应该支付的福利金金额。
 
-1. 在**福利管理**工作区中，在**设置**下，选择**付款频率**。
+1. 在 **福利管理** 工作区中，在 **设置** 下，选择 **付款频率**。
 
-2. 选择**新建**。
+2. 选择 **新建**。
 
 3. 为以下字段指定值：
 
@@ -55,4 +55,4 @@ Microsoft Dynamics 365 Human Resources 使用付款频率来计算年度福利�
    | **每日换算系数** | 付款频率的年度换算系数。 例如，每月支付频率的年度换算系数为： </br></br>（12 次每月付款/365 天）= 0.032877 |
    | **每小时换算系数** | 付款频率的年度换算系数。 例如，每月支付频率的年度换算系数为： </br></br>（12 次每月付款/2080 小时）= 0.005769
 
-4. 选择**保存**。 
+4. 选择 **保存**。 

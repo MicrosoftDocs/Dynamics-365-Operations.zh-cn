@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 074c678d9d8294aabf4e78b2a6ee0fa53efbaf23
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712272"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417471"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-1-2020"></a>Dynamics 365 Human Resources 中的新增功能或更改（2020 年 5 月 1 日）
 
@@ -31,7 +31,7 @@ ms.locfileid: "3712272"
 
 ## <a name="new-performance-management-entities-available-in-data-management-framework-dmf"></a>数据管理框架 (DMF) 中提供了新的绩效管理实体
 
-以下实体现在可用。 如果发现实体列表中未列出这些实体，请使用**框架参数 > 实体设置 > 刷新实体列表**中的**刷新实体**选项。
+以下实体现在可用。 如果发现实体列表中未列出这些实体，请使用 **框架参数 > 实体设置 > 刷新实体列表** 中的 **刷新实体** 选项。
 
 - **讨论资格**
 - **讨论目标**
@@ -41,7 +41,7 @@ ms.locfileid: "3712272"
 - **量化指标**
 - **目标度量**
 
-此外，**总分**和**平均分数**已添加到**讨论**实体中。
+此外，**总分** 和 **平均分数** 已添加到 **讨论** 实体中。
 
 ## <a name="increase-length-of-leave-request-comments-275641"></a>增加休假请求长度注释 (275641)
 
@@ -53,7 +53,7 @@ ms.locfileid: "3712272"
 
 ## <a name="user-defined-links-arent-supported-on-new-worker-form-390374"></a>新的工作人员窗体不支持用户定义的链接 (390374)
 
-现在，简化的**工作人员**窗体支持用户定义的链接。
+现在，简化的 **工作人员** 窗体支持用户定义的链接。
 
 ## <a name="hcmratinglevelentity-causes-odata-api-crash-439476"></a>HcmRatingLevelEntity 导致 OData API 崩溃 (439476)
 
@@ -95,7 +95,7 @@ DMF 实体现在可用于暂停应计。
 
 如果 SharePoint 中存储的文档的文档预览不起作用，请尝试以下过程：
 
-1. 验证管理员用户帐户是否具有与用户记录关联的电子邮件。 可在**用户**页面查看这些信息。 如果未设置电子邮件，则需要使用 OData Excel 加载项添加电子邮件和提供程序。 默认情况下，Excel 设计中不显示电子邮件地址。 您需要编辑 Excel 设计，添加所有字段，然后应用并刷新。 完成这些步骤后，您可以更新管理员帐户。
+1. 验证管理员用户帐户是否具有与用户记录关联的电子邮件。 可在 **用户** 页面查看这些信息。 如果未设置电子邮件，则需要使用 OData Excel 加载项添加电子邮件和提供程序。 默认情况下，Excel 设计中不显示电子邮件地址。 您需要编辑 Excel 设计，添加所有字段，然后应用并刷新。 完成这些步骤后，您可以更新管理员帐户。
 
 2. 管理员帐户具有关联的电子邮件帐户后，使用管理员凭据登录到 Human Resources。
 

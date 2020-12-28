@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 4fe97e3e2f8265c1dc67a4052f45125b693c7218
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057525"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410365"
 ---
 # <a name="create-new-address-book"></a>创建新的通讯簿
 
@@ -39,10 +39,10 @@ ms.locfileid: "3057525"
 
 要创建新通讯簿，请执行以下步骤。
  
-1. 在导航窗格中，转到**模块 \> 渠道设置 \> 通讯簿**。
-1. 在操作栏上，选择**新建**。
+1. 在导航窗格中，转到 **模块 \> 渠道设置 \> 通讯簿**。
+1. 在操作栏上，选择 **新建**。
 1. 输入名称和描述信息。
-1. 在操作栏上，选择**保存**。
+1. 在操作栏上，选择 **保存**。
 
 下图显示了为零售店创建员工操作栏的过程。
 

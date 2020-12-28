@@ -4,7 +4,7 @@ description: 本文说明如果客户与其环境断开并且不知道原因该�
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
-ms.article: article
+ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 73f0c31d5153a82651ed77aa37bc10966ce7c9b1
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 2088706baf8735fa371960955a2ffc3240ccac76
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008194"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4417543"
 ---
 # <a name="client-disconnects"></a>客户端断开连接
 

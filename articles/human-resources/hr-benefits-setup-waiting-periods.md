@@ -19,19 +19,19 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: e1937ab54eb7898afe0fed6659c3ae676626e8ad
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429765"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417470"
 ---
 # <a name="configure-waiting-periods"></a>配置等待时段
 
 在 Microsoft Dynamics 365 Human Resources 中，等待天数建立用于福利计划的里程碑。 例如，从雇用日期起三个月，每个月的第一天，或六个月。   
 
-1. 在**福利管理**工作区中，在**设置**下，选择**等待期间**。
+1. 在 **福利管理** 工作区中，在 **设置** 下，选择 **等待期间**。
 
-2. 选择**新建**。
+2. 选择 **新建**。
 
 3. 为以下字段指定值：
 
@@ -44,4 +44,4 @@ ms.locfileid: "3429765"
    | **天数** | 输入要加到等待方法的天数以计算等待日期。 |
    | **等待天数** | 选择要用于计算等待日期的等待天数。 |
 
-4. 选择**保存**。
+4. 选择 **保存**。

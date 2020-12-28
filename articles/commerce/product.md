@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7afe9225b8fc966ca154a5eb7421e8d4cc7c3023
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664826"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410596"
 ---
 # <a name="add-product-recommendations-on-pos"></a>在 POS 中添加产品建议
 
@@ -38,18 +38,18 @@ ms.locfileid: "3664826"
 
 将为以下 POS 方案启用产品建议。 Cloud POS 或 Modern POS (MPOS) 中支持产品建议。
 
-1. 在**产品详细信息**页面中：
+1. 在 **产品详细信息** 页面中：
 
-    - 如果售货员在查看跨不同渠道的早期交易记录时访问**产品详细信息**页面，建议服务将推荐更多可能搭配购买的物料。
+    - 如果售货员在查看跨不同渠道的早期交易记录时访问 **产品详细信息** 页面，建议服务将推荐更多可能搭配购买的物料。
 
     [![有关“产品详细信息”页的建议](./media/proddetails.png)](./media/proddetails.png)
 
-2. 在**交易记录**页面中：
+2. 在 **交易记录** 页面中：
 
     - 建议引擎根据购物车中经常一起购买的物料的完整列表推荐物料。
 
     > [!NOTE]
-    > 若要在**交易记录**页面中显示建议，零售商需要更新 Dynamics 365 Commerce 中的屏幕布局。 必须将**建议**控件拖到**交易记录**页面中。
+    > 若要在 **交易记录** 页面中显示建议，零售商需要更新 Dynamics 365 Commerce 中的屏幕布局。 必须将 **建议** 控件拖到 **交易记录** 页面中。
 
     [![有关“交易记录”页的建议](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
@@ -59,14 +59,14 @@ ms.locfileid: "3664826"
 
 1. 确保设备已更新为 **10.0.6 build**。
 2. 按照有关如何为企业[启用产品建议](../commerce/enable-product-recommendations.md)的说明操作。
-3. 可选：若要在交易记录屏幕中显示建议，请转至**屏幕布局**，选择您的屏幕布局，启动**屏幕布局设计器**，然后将**建议**控件拖到所需位置。
-4. 转至**商业参数**，选择**机器学习**，然后在**启用 POS 建议**下选择**是**。
+3. 可选：若要在交易记录屏幕中显示建议，请转至 **屏幕布局**，选择您的屏幕布局，启动 **屏幕布局设计器**，然后将 **建议** 控件拖到所需位置。
+4. 转至 **商业参数**，选择 **机器学习**，然后在 **启用 POS 建议** 下选择 **是**。
 5. 若要在 POS 中查看建议，请运行全局配置作业 **1110**。 若要体现对 POS 屏幕布局设计器所做更改，请运行渠道配置作业 **1070**。
 
 ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>排除您已启用了产品建议时遇到的问题
 
-- 导航到**商业参数** \> **建议列表** \> **禁用产品建议**，然后运行**全局配置作业 \[9999\]**。 
-- 如果使用**屏幕布局设计器**为交易记录屏幕添加了**建议控件**，请将其一并移除。
+- 导航到 **商业参数** \> **建议列表** \> **禁用产品建议**，然后运行 **全局配置作业 \[9999\]**。 
+- 如果使用 **屏幕布局设计器** 为交易记录屏幕添加了 **建议控件**，请将其一并移除。
 - 如果还有其他问题，请参阅[产品建议常见问题](../commerce/faq-recommendations.md)获取详细信息。
 
 ## <a name="additional-resources"></a>其他资源

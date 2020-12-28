@@ -18,11 +18,11 @@ ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 5c772a19958ebf0687d09af4c3055c733d99d750
-ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3973901"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410581"
 ---
 # <a name="page-model-glossary"></a>页面模型词汇表
 
