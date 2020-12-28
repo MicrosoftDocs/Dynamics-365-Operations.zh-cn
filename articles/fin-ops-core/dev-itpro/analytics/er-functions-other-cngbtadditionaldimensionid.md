@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fdc4527bc6115bdb3fca9d6a92d3d77a7c264c2
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 38908c63c35465747505479bc983ada891f9e2bf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744423"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686802"
 ---
 # <a name="cn_gbt_additionaldimensionid-er-function"></a>CN_GBT_ADDITIONALDIMENSIONID ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`CN_GBT_ADDITIONALDIMENSIONID` 函数返回*字符串*值，该值表示从指定字符串获取的单个财务维度 ID。 指定的字符串将所有维度显示为逗号分隔的 ID 列表。
+`CN_GBT_ADDITIONALDIMENSIONID` 函数返回 *字符串* 值，该值表示从指定字符串获取的单个财务维度 ID。 指定的字符串将所有维度显示为逗号分隔的 ID 列表。
 
 ## <a name="syntax"></a>语法
 
@@ -41,11 +40,11 @@ CN_GBT_ADDITIONALDIMENSIONID (text, number)
 
 `text`：*字符串*
 
-将所有维度显示为逗号分隔的 ID 列表的*字符串*值。
+将所有维度显示为逗号分隔的 ID 列表的 *字符串* 值。
 
 `number`：整数
 
-定义指定字符串中所请求维度的序列代码的*整数*值。
+定义指定字符串中所请求维度的序列代码的 *整数* 值。
 
 ## <a name="return-values"></a>返回值
 

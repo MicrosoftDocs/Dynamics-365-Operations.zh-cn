@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: 263894
 ms.assetid: 7d375d8a-b2de-4bec-b575-93d1d4521b79
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1bc75da5deb6e0b40bb4f254f64b2f7f6d068a7a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bed461677cbdfa57b0a198b7179eccb9828dc944
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181649"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687118"
 ---
 # <a name="employee-competencies-and-development-power-bi-content"></a>员工能力和发展 Power BI 内容
 

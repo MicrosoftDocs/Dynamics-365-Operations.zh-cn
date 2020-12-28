@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 0a4d4de6cf28e24d1265395d6440df85edf71a0d
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897848"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460503"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-9-2019"></a>Dynamics 365 Talent（2019 年 4 月 9 日）中的新增功能或更改
 
@@ -38,10 +38,10 @@ ms.locfileid: "2897848"
 现在可以在人才池中搜索整个应聘者数据库以查找特定技能、姓名或教育背景。 不再需要指定要搜索应聘者个人资料的哪部分。 Attract 搜索整个个人资料并突出显示找到的所有匹配项。 Attract 还搜索应聘者的所有可用文档并为搜索结果智能分级。 错误，还可以按来源或是否为银奖获得者来筛选结果。 有关详细信息，请参阅[搜索和查看应聘者个人资料](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles)。
 
 ### <a name="prospect-recommendations"></a>潜在人选推荐
-Attract 可以通过搜索组织的应聘者数据库智能推荐应聘者，在您激活工作帐户立即开始为该工作寻找资源。 推荐信息中包括在搜索相关潜在人选时确定的技能和教育信息。 如果您在工作的招聘流程中启用**潜在人选**选项卡，将在工作的该选项卡下显示这些推荐信息。 有关详细信息，请参见[潜在人选推荐](https://docs.microsoft.com/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations)。
+Attract 可以通过搜索组织的应聘者数据库智能推荐应聘者，在您激活工作帐户立即开始为该工作寻找资源。 推荐信息中包括在搜索相关潜在人选时确定的技能和教育信息。 如果您在工作的招聘流程中启用 **潜在人选** 选项卡，将在工作的该选项卡下显示这些推荐信息。 有关详细信息，请参见[潜在人选推荐](https://docs.microsoft.com/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations)。
 
 ### <a name="interviewer-availability-statuses"></a>面试官可用性状态
-面试安排人员很快将可以查看面试官的**外出，其他地点办公**状态，从而有助于安排更适合面试官的时间。
+面试安排人员很快将可以查看面试官的 **外出，其他地点办公** 状态，从而有助于安排更适合面试官的时间。
 
 ### <a name="candidate-interview-experience-save-calendar-invites"></a>应聘者面试体验：保存日历邀请
 应聘者现在可以使用发给自己的面试摘要电子邮件中附加的 .ics 文件把自己的面试事件下载并保存到个人日历中。
@@ -58,7 +58,7 @@ Attract 可以通过搜索组织的应聘者数据库智能推荐应聘者，在
 本周的版本更正了使用基本计划百分比加载可变薪酬奖励时出错。
  
 ### <a name="date-picker-on-last-day-worked-doesnt-work-correctly"></a>“最后工作日期”上的日期选择器无法正常工作
-此项更改更正了下面的问题：用户使用日历控件编辑**雇佣结束日期**并选择日期时，向所选日期增加一天。
+此项更改更正了下面的问题：用户使用日历控件编辑 **雇佣结束日期** 并选择日期时，向所选日期增加一天。
 
 ###  <a name="limit-personnel-action-types-by-the-action-taken"></a>按执行的操作限制个人操作类型
 此项更改限制执行特定操作时显示的操作类型。 例如，请求新职位时，要选择的操作列表中仅显示新职位操作。 以前仅显示新建操作和编辑操作。 
@@ -89,4 +89,4 @@ Attract 可以通过搜索组织的应聘者数据库智能推荐应聘者，在
 借助此更改，输入名称字段时可检测重复项，而状态将显示找到的重复项数量。 您可以选择提供的链接以打开一个新的页面来评估是否要使用检测到的匹配项。 为了避免中断数据输入，重复项窗体不会自动打开。
 
 ###  <a name="email-support-for-alerts"></a>警报的电子邮件支持
-安装 Finance and Operations 的平台更新 25 之后，用户可创建警报规则，用于在被事件触发后自动为联系人发送电子邮件通知。 
+安装 Finance and Operations 的平台更新 25 之后，用户可创建警报规则，用于在被事件触发后自动向联系人发送电子邮件通知。 

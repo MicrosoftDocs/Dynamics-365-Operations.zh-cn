@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 64a85840be328702a06779390fe383fd1896fd04
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011404"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668937"
 ---
 # <a name="go-live-faq"></a>实施常见问题 
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 本主题列出了有关如何实行 Dynamics 365 Human Resources 实施项目的常见问题。 
 
@@ -76,7 +78,7 @@ ms.locfileid: "4011404"
 | 差异数据库备份 | 每 12-24 小时 |
 | 交易日志备份 | 每 5 至 10 分钟 |
 
-Microsoft 保留足够的备份，以允许过去七天内的时间点还原 (PITR)。 
+Microsoft 保留足够的备份，以允许过去 14 天内的时间点还原 (PITR)。 
 
 有关详细信息，请参阅 [了解自动 SQL 数据库备份](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database)。 
 

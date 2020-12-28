@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 207309e8be6c097cec187f3475a489330e1f6b6c
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142677"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682013"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>设计 ER 表达式以调用应用类方法
 

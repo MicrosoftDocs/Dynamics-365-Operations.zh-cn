@@ -15,11 +15,11 @@ ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 933f743b5b4fe9e97a80543478c1154ca290cbff
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793699"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440807"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>Dynamics 365 Finance 的 Microsoft 合作伙伴销售和市场营销角色学习目录
 

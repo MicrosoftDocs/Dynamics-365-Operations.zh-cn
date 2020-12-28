@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817198"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665412"
 ---
 # <a name="map-module"></a>地图模块
 
@@ -58,7 +58,7 @@ ms.locfileid: "3817198"
 
 ## <a name="add-allowed-mapping-urls-to-a-sites-content-security-policy-directives"></a>将允许的映射 URL 添加到站点的内容安全策略指令中
 
-要使地图模块与必应地图交互，您必须确保根据站点的内容安全策略 (CSP) 允许以下映射 URL（也称为“加入允许列表”）。 通过在各个站点 CSP 指令中添加允许的 URL（例如，**img-src**），在 Commerce 站点构建器中完成此设置。 有关详细信息，请参阅[内容安全策略](manage-csp.md)。 
+若要使地图模块与必应地图交互，您必须确保根据站点的内容安全策略 (CSP) 允许以下映射 URL。 通过在各个站点 CSP 指令中添加允许的 URL（例如，**img-src**），在 Commerce 站点构建器中完成此设置。 有关详细信息，请参阅[内容安全策略](manage-csp.md)。 
 
 - 对于 **connect-src** 指令，添加 **&#42;.bing.com**。
 - 对于 **img-src** 指令，添加 **&#42;.virtualearth.net**。

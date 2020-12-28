@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c6ba23af5f7eb517cc58994e54e918b2a305da17
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 23bc3a525be9f65b7e5100114d02f6b79a286fb5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142148"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682061"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>创建电子申报 (ER) 模型映射配置
 

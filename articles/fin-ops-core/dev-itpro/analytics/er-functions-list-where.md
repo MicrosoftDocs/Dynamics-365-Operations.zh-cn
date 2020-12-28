@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94326986791c95eac7b0f5771f779014d865d3bb
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 1cc47c5001cf456b1fc600b326f826ea3b8b43ee
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743421"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687042"
 ---
 # <a name="where-er-function"></a>WHERE ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-在根据指定的参数对指定列表进行筛选之后，`WHERE` 函数将指定的条件返回为*记录列表*值。
+在根据指定的参数对指定列表进行筛选之后，`WHERE` 函数将指定的条件返回为 *记录列表* 值。
 
 ## <a name="syntax"></a>语法
 
@@ -41,7 +40,7 @@ WHERE (list, condition)
 
 `list`：*记录列表*
 
-*记录列表*数据类型的数据源的有效路径。
+*记录列表* 数据类型的数据源的有效路径。
 
 `condition`：*布尔值*
 
@@ -55,17 +54,17 @@ WHERE (list, condition)
 
 ## <a name="usage-notes"></a>使用说明
 
-此函数与 [FILTER](er-functions-list-filter.md) 函数不同，因为指定条件适用于在内存中呈现的*记录列表*类型的任何电子申报 (ER) 数据源。
+此函数与 [FILTER](er-functions-list-filter.md) 函数不同，因为指定条件适用于在内存中呈现的 *记录列表* 类型的任何电子申报 (ER) 数据源。
 
 如果为此函数配置的参数（`list` 和 `condition`）允许将此请求转换为直接 SQL 调用，在设计时会引发警告消息。 此消息通知用户，如果使用 [FILTER](er-functions-list-filter.md) 函数而不是 `WHERE`，性能可能会提高。
 
 ## <a name="example-1"></a>示例 1
 
-如果**供应商**配置为引用 VendTable 表的 ER 数据源，表达式 `WHERE (Vendors, Vendors.VendGroup = "40")` 将返回仅包含属于供应商组 40 的供应商的列表。
+如果 **供应商** 配置为引用 VendTable 表的 ER 数据源，表达式 `WHERE (Vendors, Vendors.VendGroup = "40")` 将返回仅包含属于供应商组 40 的供应商的列表。
 
 ## <a name="example-2"></a>示例 2
 
-如果输入*计算字段*类型的数据源 **DS**，而该数据源中包含表达式 `SPLIT ("A|B|C", "|")`，则表达式 `WHERE( DS, DS.Value = "B")` 将返回仅在**值**字段中包含文本 **"B"** 的一条记录的列表。
+如果输入 *计算字段* 类型的数据源 **DS**，而该数据源中包含表达式 `SPLIT ("A|B|C", "|")`，则表达式 `WHERE( DS, DS.Value = "B")` 将返回仅在 **值** 字段中包含文本 **"B"** 的一条记录的列表。
 
 ## <a name="additional-resources"></a>其他资源
 

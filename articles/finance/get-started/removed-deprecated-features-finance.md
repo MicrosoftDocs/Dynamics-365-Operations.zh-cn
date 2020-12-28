@@ -3,7 +3,7 @@ title: Dynamics 365 Finance 中已删除或弃用的功能
 description: 本主题介绍 Dynamics 365 Finance 中已经删除或计划删除的功能。
 author: roschlom
 manager: AnnBe
-ms.date: 03/13/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aebce032d7d780b296ba74fea4467425a3cbe1a7
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175100"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689486"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance 中已删除或弃用的功能
 
@@ -28,13 +28,47 @@ ms.locfileid: "3175100"
 
 本主题介绍 Dynamics 365 Finance 中已经删除或计划删除的功能。
 
-- *已移除*的功能在产品中不再可用。
-- *已弃用*的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
+- *已移除* 的功能在产品中不再可用。
+- *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
 > [!NOTE]
 > [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+
+## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Finance 10.0.16 版本中已经删除或弃用的功能
+
+### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>比利时的“分类帐交易导出格式 (BE)”电子申报格式和相应的“分类帐交易导出 (BE)”模型
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 在“标准审核文件 (SAF-T)”模型下替换为了新的 ER 格式。  |
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域**         | 申请 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用：到 2021 年 12 月 1 日，我们计划不再支持“分类帐交易导出格式 (BE)”电子申报 (ER) 格式和相应的“分类帐交易导出 (BE)”模型。 而是在“标准审核文件 (SAF-T)”模型下引入新的“总帐数据导出 (BE)”格式以及“总帐数据模型映射”。 |
+
+### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>SSRS 格式的英国“VAT 100”报表
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | “税申报模型”下已替换为新的 ER 格式 -“增值税申报 Excel (UK)”格式。  |
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域**         | 申请 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用：到 2021 年 12 月 1 日，我们计划不再支持 SSRS 格式的“增值税 100 报表”。 在 [MTD 增值税功能](../localizations/emea-gbr-mtd-vat-integration.md)中“税申报模型”下引入了新的“增值税申报 Excel (UK)”格式。 |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10015-release"></a>Finance 10.0.15 版本中已经删除或弃用的功能
+
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Dynamics 365 不再支持 Internet Explorer 11
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 从 2020 年 12 月开始，所有 Dynamics 365 产品不再支持 Microsoft Internet Explorer 11，2021 年 8 月之后，不再支持 Internet Explorer 11。<br><br>这将影响所用 Dynamics 365 产品设计为通过 Internet Explorer 11 界面使用的客户。 2021 年 8 月之后，此类 Dynamics 365 产品将不支持 Internet Explorer 11。 |
+| **被另一个功能取代？**   | 我们建议客户过渡到 Microsoft Edge。|
+| **影响的产品区域**         | 所有 Dynamics 365 产品 |
+| **部署选项**              | 所有|
+| **状态**                         | 已弃用。 2021 年 8 月之后将不再支持 Internet Explorer 11。|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Finance 10.0.12 版本中已经删除或弃用的功能
 

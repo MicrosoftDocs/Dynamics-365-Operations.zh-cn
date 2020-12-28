@@ -1,6 +1,6 @@
 ---
 title: 集成的分类帐
-description: 本主题介绍使用 Common Data Service 在 Finance and Operations 与其他 Dynamics 365 应用程序之间的分类帐数据的集成。
+description: 本主题介绍使用 Dataverse 在 Finance and Operations 与其他 Dynamics 365 应用程序之间的分类帐数据的集成。
 author: robinarh
 manager: AnnBe
 ms.date: 09/06/2019
@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7f5435a97776b817a4b99887cbab8283de25b692
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: f794d8306a3a752d811d7d84c0ed5f739f423cad
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014850"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681634"
 ---
-# <a name="integrated-ledger"></a>集成的分类账
+# <a name="integrated-ledger"></a>集成的分类帐
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -35,7 +37,7 @@ ms.locfileid: "4014850"
 
 ## <a name="templates"></a>模板
 
-分类帐数据包括核心财务实体映射的集合，这些映射在数据交互期间协同工作，如下表所示。
+分类帐数据包括核心财务表映射的集合，这些映射在数据交互期间协同工作，如下表所示。
 
 Finance and Operations 应用      | Dynamics 365 中的模型驱动应用 | 说明
 ---------------------------------|----------------------------------|------------

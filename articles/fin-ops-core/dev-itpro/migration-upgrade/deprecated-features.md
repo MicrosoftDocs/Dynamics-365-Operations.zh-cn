@@ -10,23 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1d14003ff7595ceaa78b42f69cf1927fbd8157d
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040114"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679948"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>先前版本中已删除或弃用的功能
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!IMPORTANT]
 > 此主题不再更新。 若要查看已经从 Finance and Operations 应用删除或弃用的功能的当前列表，请搜索与您在使用的应用有关的 **已删除或弃用的功能** 内容。
@@ -93,7 +94,7 @@ ms.locfileid: "4040114"
 | **被另一个功能取代？**   | 否 |
 | **影响的产品区域**         | 意大利本地化 |
 | **部署选项**              | 所有 |
-| **状态**                         | 弃用：到 2020 年 10 月 1 日，我们计划不再支持 **方块列表报告 (IT) – 功能引用 IT-00001** 。 |
+| **状态**                         | 弃用：到 2020 年 10 月 1 日，我们计划不再支持 **方块列表报告 (IT) – 功能引用 IT-00001**。 |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>国内税报表 – 功能引用 IT-00003
 
@@ -103,7 +104,7 @@ ms.locfileid: "4040114"
 | **被另一个功能取代？**   | 否 |
 | **影响的产品区域**         | 意大利本地化 |
 | **部署选项**              | 所有 |
-| **状态**                         | 弃用：到 2020 年 10 月 1 日，我们计划不再支持 **国内税报表 (IT) – 功能引用 IT-00003** 。 |
+| **状态**                         | 弃用：到 2020 年 10 月 1 日，我们计划不再支持 **国内税报表 (IT) – 功能引用 IT-00003**。 |
 
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>带平台更新 29 的 Finance and Operations 10.0.5
@@ -173,7 +174,7 @@ ms.locfileid: "4040114"
 |&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 在平台更新 22 中，“之一”筛选体验已经过重新设计，并计划此体验最终成为唯一的“之一”筛选体验。 |
-| **被另一个功能取代？**   | 从平台更新 22 开始， **客户端性能选项** 页面中提供经过改进的“之一”筛选体验。 有关详细信息，请参阅[优化的“之一”筛选体验](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)。 |
+| **被另一个功能取代？**   | 从平台更新 22 开始，**客户端性能选项** 页面中提供经过改进的“之一”筛选体验。 有关详细信息，请参阅[优化的“之一”筛选体验](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)。 |
 | **影响的产品区域**         | Web 客户端 |
 | **部署选项**              | 所有 |
 | **状态**                         | 已弃用：从 2020 年 4 月开始，经过改进的“之一”体验将成为默认行为，但没有恢复为旧版行为的机制。 |
@@ -185,7 +186,7 @@ ms.locfileid: "4040114"
 |------------|--------------------|
 | **弃用/移除的原因** | 删除此参数之后，将始终启用此功能。 |
 | **被另一个功能取代？**   | 编号 将始终启用用于支持具有多个融资来源且基于项目的销售订单的功能。   |
-| **影响的产品区域**         |将删除 **允许项目的销售订单具有多个融资来源** 参数。 如果删除此选项，将修改以下方法： **ProjStatusType** 类中的 **ctrlSalesOrderTable** 方法、 **ProjId** 字段的 **validate** 方法，以及 **SalescreateOrder** 窗体中的 **run** 方法。 如果删除了此参数，将废弃以下方法： **ProjTable** 表文件中的 **IsSalesOrderAllowedForMultipleFundingSources** 、 **ProjTable** 表文件中的 **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** 方法、 **ProjParameters** 窗体和 **ProjParameterEntity** 文件中的 **AllowSalesOrdersForMultipleFundingSources** 数据字段，以及 **ProjTable** 表文件中的 **IsAssociatedToMultipleFundingSourcesContract** 专用方法。 |
+| **影响的产品区域**         |将删除 **允许项目的销售订单具有多个融资来源** 参数。 如果删除此选项，将修改以下方法：**ProjStatusType** 类中的 **ctrlSalesOrderTable** 方法、**ProjId** 字段的 **validate** 方法，以及 **SalescreateOrder** 窗体中的 **run** 方法。 如果删除了此参数，将废弃以下方法：**ProjTable** 表文件中的 **IsSalesOrderAllowedForMultipleFundingSources**、**ProjTable** 表文件中的 **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** 方法、**ProjParameters** 窗体和 **ProjParameterEntity** 文件中的 **AllowSalesOrdersForMultipleFundingSources** 数据字段，以及 **ProjTable** 表文件中的 **IsAssociatedToMultipleFundingSourcesContract** 专用方法。 |
 | **部署选项**              | 所有  |
 | **状态**                         | 计划 2020 年 4 月的发布波次将弃用。 |
 
@@ -266,7 +267,7 @@ ms.locfileid: "4040114"
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **弃用/移除的原因** | 表元数据定义中可以有包含无效字段引用的字段组。 如果部署，可能导致 Financial Reporting 和 SQL Server Reporting Services (SSRS) 中发生运行时失败。 此问题目前归类为 *编译器警告* ，而不是 *错误* ，这意味着可以在不解决此问题的情况下继续创建和部署可部署包。 要解决此问题，请执行以下操作：<br><br>1. 删除表字段组定义中的无效字段引用。<br><br>2. 重新编译。<br><br>3. 确保解决所有警告或错误。 |
+| **弃用/移除的原因** | 表元数据定义中可以有包含无效字段引用的字段组。 如果部署，可能导致 Financial Reporting 和 SQL Server Reporting Services (SSRS) 中发生运行时失败。 此问题目前归类为 *编译器警告*，而不是 *错误*，这意味着可以在不解决此问题的情况下继续创建和部署可部署包。 要解决此问题，请执行以下操作：<br><br>1. 删除表字段组定义中的无效字段引用。<br><br>2. 重新编译。<br><br>3. 确保解决所有警告或错误。 |
 | **被另一个功能取代？**   | 以后此警告将替换为编译器错误。 |
 | **影响的产品区域**         | Visual Studio 开发工具 |
 | **部署选项**              | 所有 |
@@ -374,12 +375,12 @@ ms.locfileid: "4040114"
 | **状态**                       | 已弃用：两个分析表的菜单项在版本 7.3 中已移除。 但这些分析表的代码仍然保留在产品中。 在将来的发行中计划移除该代码。 |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>AppSource 中的 Power BI 内容包
-[Microsoft AppSource](https://appsource.microsoft.com) 站点上提供的 **成本管理** 、 **财务绩效** 和 **零售渠道绩效** 内容包因为 Microsoft Power BI 中的产品更新而被弃用。 过去将这些内容包部署到 PowerBI.com 的系统管理窗体在 Finance and Operations 中也被弃用。
+[Microsoft AppSource](https://appsource.microsoft.com) 站点上提供的 **成本管理**、**财务绩效** 和 **零售渠道绩效** 内容包因为 Microsoft Power BI 中的产品更新而被弃用。 过去将这些内容包部署到 PowerBI.com 的系统管理窗体在 Finance and Operations 中也被弃用。
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | Microsoft Power BI 中进行产品更新。 |
-| **被另一个功能取代？**   | [AppSource](https://appsource.microsoft.com) 站点上提供的 **成本管理** 、 **财务绩效** 和 **零售渠道绩效** 内容包将被分析应用程序替代，以便在数据库级别集成解决方案。 有关分析应用程序的详细信息，请参阅[工作区中的嵌入式 Power BI](../../dev-itpro/analytics/embed-power-bi-workspaces.md)。    |
+| **被另一个功能取代？**   | [AppSource](https://appsource.microsoft.com) 站点上提供的 **成本管理**、**财务绩效** 和 **零售渠道绩效** 内容包将被分析应用程序替代，以便在数据库级别集成解决方案。 有关分析应用程序的详细信息，请参阅[工作区中的嵌入式 Power BI](../../dev-itpro/analytics/embed-power-bi-workspaces.md)。    |
 | **影响的产品区域**         | 成本管理、财务和零售                                                                                               |
 | **部署选项**              | 仅适用于云（在本地部署中不再支持与 PowerBI.com 集成）。                                                                                                            |
 | **状态**                         | 已弃用：移除功能的目标时间范围为 2018 年第二季度。    |
@@ -391,7 +392,7 @@ ms.locfileid: "4040114"
 | &nbsp;  | &nbsp; |
 |------------------|-------------------------|
 | **弃用/移除的原因** | 我们正努力在新的 UI 中为用户提供新的体验。             |
-| **被另一个功能取代？**   | 新 UI 称为 *增强型视图* ，它将取代旧 UI。            |
+| **被另一个功能取代？**   | 新 UI 称为 *增强型视图*，它将取代旧 UI。            |
 | **影响的产品区域**         | 数据管理工作区                                                     |
 | **部署选项**              | 全部                                                                           |
 | **状态**                         | 已弃用：移除功能的目标时间范围为 2018 年第二季度。 |
@@ -504,12 +505,12 @@ Consejo Superior Bancario 付款格式过去用于将汇款文件发送到客户
 |------------|--------------------|
 | **弃用/移除的原因** | 付款格式不再使用。                                  |
 | **被另一个功能取代？**   | 是，西班牙的 ISO20022 贷方转帐和直接借记付款格式 |
-| **影响的产品区域**         | 应付账款，应收账款                                    |
+| **影响的产品区域**         | 应付帐款，应收帐款                                    |
 | **状态**                         | 已弃用：尚未确定此功能的移除日期。           |
 
 ### <a name="bank-payments-transfer-for-lithuania"></a>立陶宛银行付款转帐
 
-过去使用立陶宛付款转账 (LT) 导出格式生成并打印银行付款转账。 立陶宛市场于 2005 年开始使用 LITAS，统一电子银行系统。
+过去使用立陶宛付款转帐 (LT) 导出格式生成并打印银行付款转帐。 立陶宛市场于 2005 年开始使用 LITAS，统一电子银行系统。
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -526,7 +527,7 @@ BBS Direkte Remittering 付款格式包括客户收款导出（直接借记）�
 |------------|--------------------|
 | **弃用/移除的原因** | 付款格式不再使用。  |
 | **被另一个功能取代？**   | 挪威的 AvtaleGiro 客户付款格式可用于生成直接借记消息。 未来版本中将实施返回消息导入。 |
-| **影响的产品区域**         | 应付账款，应收账款   |
+| **影响的产品区域**         | 应付帐款，应收帐款   |
 | **状态**                         | 已弃用：尚未确定此功能的移除日期。                                                                                                 |
 
 ### <a name="chart-of-accounts-tool-for-spain"></a>西班牙会计科目表工具
@@ -603,7 +604,7 @@ eGiro 基于国际 UN EDIFACT CREMUL（多重贷记通知消息）标准，用�
 |------------|--------------------|
 | **弃用/移除的原因** | 替换为另一个功能                                    |
 | **被另一个功能取代？**   | 是，为核心入站托运功能                |
-| **影响的产品区域**         | 应付账款，库存管理                         |
+| **影响的产品区域**         | 应付帐款，库存管理                         |
 | **状态**                         | 已弃用：尚未确定此功能的移除日期。 |
 
 ### <a name="financial-reports-generator-for-eastern-europe"></a>东欧的财务报表生成器
@@ -691,7 +692,7 @@ Telehansa 和 Teleservice 格式为银行付款导出使用。
 |------------|--------------------|
 | **弃用/移除的原因** | 替换为另一个功能                                        |
 | **被另一个功能取代？**   | 是，电子申报已存档作业                            |
-| **影响的产品区域**         | 应付账款，应收账款，组织管理 |
+| **影响的产品区域**         | 应付帐款，应收帐款，组织管理 |
 | **状态**                         | 已弃用：尚未确定此功能的移除日期。     |
 
 ### <a name="payment-import-formats-for-estonia"></a>爱沙尼亚付款导入格式
@@ -712,7 +713,7 @@ Telehansa 和 TeleTeenus 格式为银行付款导入使用。
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 此功能已由工资单和人力资源页取代。  |
-| **被另一个功能取代？**   | **福利** 、 **收入** 和已经位于美国工资单中的其他相关页已被重新配置，现在是核心人力资源配置的一部分，可帮助支持外部工资单处理。 此功能可通过使用 **人力资源 1** \> **工资单** 配置键访问到。 |
+| **被另一个功能取代？**   | **福利**、**收入** 和已经位于美国工资单中的其他相关页已被重新配置，现在是核心人力资源配置的一部分，可帮助支持外部工资单处理。 此功能可通过使用 **人力资源 1** \> **工资单** 配置键访问到。 |
 | **影响的产品区域**         | 人力资源、工资单   |
 | **状态**                         | 从 Dynamics 365 for Operations 版本 1611 开始移除。    |
 
@@ -768,7 +769,7 @@ Telehansa 和 TeleTeenus 格式为银行付款导入使用。
 |------------|--------------------|
 | **弃用/移除的原因** | 替换为另一个功能                                     |
 | **被另一个功能取代？**   | 是，专员设置可用于同一个目的。   |
-| **影响的产品区域**         | 应付账款、应收账款、现金和银行管理 |
+| **影响的产品区域**         | 应付帐款、应收帐款、现金和银行管理 |
 | **状态**                         | 已弃用：尚未确定此功能的移除日期。  |
 
 ### <a name="shipping-carrier-interface"></a>装运承运人界面
@@ -788,7 +789,7 @@ Telepay 付款格式包括供应商付款导出（贷方转帐）和客户付款
 |------------|--------------------|
 | **弃用/移除的原因** | 付款格式不再使用。                                                        |
 | **被另一个功能取代？**   | 可以，可以被挪威的 ISO20022 贷方转帐付款格式和 AvtaleGiro 客户付款格式，以及 pain.002 和 camt.054 银行通知返回文件导入取代。 |
-| **影响的产品区域**         | 应付账款，应收账款                                                          |
+| **影响的产品区域**         | 应付帐款，应收帐款                                                          |
 | **状态**                         | 已弃用：尚未确定此功能的移除日期。                                 |
 
 ### <a name="vendor-payment-export-formats-for-finland"></a>芬兰的供应商付款导出格式
@@ -847,7 +848,7 @@ Telepay 付款格式包括供应商付款导出（贷方转帐）和客户付款
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF、Axd 和 AxBC 集成
 
-在应用集成框架 (AIF) 中，数据可以通过显示为服务的业务逻辑与外部系统交换。 Dynamics AX 包括基于文档和 .NET Business Connector (AxBC) 的服务。 文档是通过使用 XML 创建的。 XML 包括标题信息，添加该信息的目的是创建可在 Dynamics AX 内外传送的 *消息* 。 文档的示例包括销售订单和采购订单。 但是，几乎所有实体（例如客户）都可以被文档代表。 基于文档的服务使用 **Axd \<Document\>** 类。
+在应用集成框架 (AIF) 中，数据可以通过显示为服务的业务逻辑与外部系统交换。 Dynamics AX 包括基于文档和 .NET Business Connector (AxBC) 的服务。 文档是通过使用 XML 创建的。 XML 包括标题信息，添加该信息的目的是创建可在 Dynamics AX 内外传送的 *消息*。 文档的示例包括销售订单和采购订单。 但是，几乎所有实体（例如客户）都可以被文档代表。 基于文档的服务使用 **Axd \<Document\>** 类。
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -858,7 +859,7 @@ Telepay 付款格式包括供应商付款导出（贷方转帐）和客户付款
 
 ### <a name="billing-code-rate-scripts"></a>计费代码费率脚本
 
-过去使用计费脚本计算计费代码的计费费率。 此脚本要求使用 C Sharp 或 Visual Basic 编程语言进行自定义开发。 在当前版本的 Dynamics AX 中，不支持 **计费代码费率脚本** 。
+过去使用计费脚本计算计费代码的计费费率。 此脚本要求使用 C Sharp 或 Visual Basic 编程语言进行自定义开发。 在当前版本的 Dynamics AX 中，不支持 **计费代码费率脚本**。
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
@@ -869,7 +870,7 @@ Telepay 付款格式包括供应商付款导出（贷方转帐）和客户付款
 
 ### <a name="boms-without-bom-versions"></a>没有物料清单版本的物料清单
 
-当禁用 **物料清单版本** 配置键时，物料清单版本在所有窗体中处于隐藏状态，系统将在已发布的产品和物料清单之间强制 1:1 关系。 在 Dynamics AX 的当前版本中， **物料清单版本** 配置键不能禁用。
+当禁用 **物料清单版本** 配置键时，物料清单版本在所有窗体中处于隐藏状态，系统将在已发布的产品和物料清单之间强制 1:1 关系。 在 Dynamics AX 的当前版本中，**物料清单版本** 配置键不能禁用。
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -930,7 +931,7 @@ ICMS 税联邦报税单
 |------------|--------------------|
 | **弃用/移除的原因** | 商业智能 (BI)、低客户使用率和有限功能集的传统方法 |
 | **被另一个功能取代？**   | Dynamics AX 的当前版本的新 BI 解决方案                                      |
-| **影响的产品区域**         | 采购、应付账款、销售和市场营销、应收账款         |
+| **影响的产品区域**         | 采购、应付帐款、销售和市场营销、应收帐款         |
 | **状态**                         | 从 Dynamics AX 7.0 开始移除。                                                               |
 
 ### <a name="change-document-date-function-in-invoice-approval-journal"></a>更改发票审核日记帐的单据日期功能
@@ -1096,7 +1097,7 @@ Dynamics AX 2012 允许在数据库和文件共享中存储附件。 这两个�
 |------------|--------------------|
 | **弃用/移除的原因** | 低客户使用率和有限功能集  |
 | **被另一个功能取代？**   | 无              |
-| **影响的产品区域**         | 遵从性和内部控制、应付账款  |
+| **影响的产品区域**         | 遵从性和内部控制、应付帐款  |
 | **状态**                         | 从 Dynamics AX 7.0 开始移除。 |
 
 ### <a name="form-activex-and-managed-host-controls"></a>窗体 ActiveX 和托管主机控件
@@ -1116,7 +1117,7 @@ Dynamics AX 2012 允许在数据库和文件共享中存储附件。 这两个�
 |------------|--------------------|
 | **弃用/移除的原因** | 在通过使用批处理生成预验证文件时，没有窗体持续存在并且显示生成的预验证文件。 |
 | **被另一个功能取代？**   | 预验证仍可以生成，并且用户能够控制该文件的保存位置。   |
-| **影响的产品区域**         | 应付账款、应收账款、现金和银行管理  |
+| **影响的产品区域**         | 应付帐款、应收帐款、现金和银行管理  |
 | **状态**                         | 从 AX 7.0 开始移除。    |
 
 ### <a name="german-dtaus-payment-export-and-account-statement-import-totals-and-transactions"></a>德国 DTAUS 付款导出和帐户对账单导入（合计和交易记录）
@@ -1157,12 +1158,12 @@ Dynamics AX 2012 允许在数据库和文件共享中存储附件。 这两个�
 
 ### <a name="gl-ssrs-reports"></a>GL SSRS 报表
 
-包括以下菜单项的报表已被删除： **试算平衡表(汇总)** 、 **试算平衡表(明细)** 、 **会计科目表** 、 **审计线索** 、 **余额** 和 **余额表** 。
+包括以下菜单项的报表已被删除：**试算平衡表(汇总)**、**试算平衡表(明细)**、**会计科目表**、**审计线索**、**余额** 和 **余额表**。
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 财务 Microsoft SQL Server Reporting Services (SSRS) 报表已经被 Management Reporter 功能和默认报表取代。 |
-| **被另一个功能取代？**   | Management Reporter（在 Dynamics AX 的当前版本中标记为 **财务报告** 。）    |
+| **被另一个功能取代？**   | Management Reporter（在 Dynamics AX 的当前版本中标记为 **财务报告**。）    |
 | **影响的产品区域**         | 总帐   |
 | **状态**                         | 从 Dynamics AX 7.0 开始移除。   |
 
@@ -1205,7 +1206,7 @@ Dynamics AX 2012 允许在数据库和文件共享中存储附件。 这两个�
 |------------|--------------------|
 | **弃用/移除的原因** | 此方法不再适用。 通过使用 CFD 方法生成电子发票已被税务主管机构废弃，并已被 Comprobante Fiscal Digital a través de Internet (CFDI) 方法取代，在该方法中签名委托给第三方提供商 (PAC)。 删除了每月报表，并且，查询选项能让用户查询历史交易记录。 |
 | **被另一个功能取代？**   | 无    |
-| **影响的产品区域**         | 应收账款、项目   |
+| **影响的产品区域**         | 应收帐款、项目   |
 | **状态**                         | 已弃用：尚未确定此功能的移除日期。 |
 
 ### <a name="mexico-realized-and-unrealized-vat"></a>墨西哥实现和未实现的增值税

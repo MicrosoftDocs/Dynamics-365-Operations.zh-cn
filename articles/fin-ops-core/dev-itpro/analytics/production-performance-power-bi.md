@@ -11,23 +11,22 @@ ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0dc71f819f132b91fe153f83089eab24fa33173a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 661617ea7e51ac5cacdd5a08ee52f6a6e43b44be
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772480"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686678"
 ---
 # <a name="production-performance-power-bi-content"></a>生产绩效 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍**生产绩效** Microsoft Power BI 内容中包含的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+此主题介绍 **生产绩效** Microsoft Power BI 内容中包含的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 
 ## <a name="overview"></a>概览
 
@@ -37,12 +36,12 @@ ms.locfileid: "2772480"
 
 Power BI 内容突出显示组织按时完成全部生产的能力。 基于生产计划预测未来绩效。 综合报表提供对因生产导致的产品缺陷以及资源和工序缺陷率的详细洞察。
 
-此 Power BI 内容也可以让您分析生产差异。 生产差异计算为估计成本与实际成本之差。 当生产订单或批次订单达到**已结束**状态时计算生产差异。
+此 Power BI 内容也可以让您分析生产差异。 生产差异计算为估计成本与实际成本之差。 当生产订单或批次订单达到 **已结束** 状态时计算生产差异。
 
 **生产绩效** Power BI 内容包括源自生产订单和批次订单的数据。 报表不包括与看板生产有关的数据。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-**生产绩效** Power BI 内容显示在**生产绩效**页面（**生产控制** \> **查询和报表** \> **生产绩效分析** \> **生产绩效**）。 
+**生产绩效** Power BI 内容显示在 **生产绩效** 页面（**生产控制** \> **查询和报表** \> **生产绩效分析** \> **生产绩效**）。 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的度量
 
@@ -62,11 +61,11 @@ Power BI 内容突出显示组织按时完成全部生产的能力。 基于生�
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
 
-以下数据用于**生产性能** Power BI 内容中的报表页。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 若要了解有关实体商店的详细信息，请参阅 [Power BI 与实体商店的集成](power-bi-integration-entity-store.md)。
+以下数据用于 **生产性能** Power BI 内容中的报表页。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 若要了解有关实体商店的详细信息，请参阅 [Power BI 与实体商店的集成](power-bi-integration-entity-store.md)。
 
 下表显示作为 Power BI 内容基础使用的关键聚合度量。
 
-| 实体                   | 关键聚合度量  | Finance and Operations 应用程序的数据源 | 字段              |
+| 实体                   | 关键聚合度量  | Finance and Operations 应用的数据源 | 字段              |
 |--------------------------|-----------------------------|----------------------------------------|--------------------|
 | CostCalculation          | CostAmount                  | ProdCalcTransExpanded                  | CostAmount         |
 | CostCalculation          | CostMarkup                  | ProdCalcTransExpanded                  | CostMarkup         |

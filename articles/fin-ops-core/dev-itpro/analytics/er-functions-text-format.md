@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f3e8e5f6676c26b8d604ed950470463f04c0473
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 8b347a7209ee543f6bd687c2864203eb632d6a4a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743871"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688405"
 ---
 # <a name="format-er-function"></a>FORMAT ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-通过使用第 *N* 个参数替换出现的所有 **%N** 设定指定字符串的格式后，`FORMAT` 函数作为*字符串*值返回该字符串。
+通过使用第 *N* 个参数替换出现的所有 **%N** 设定指定字符串的格式后，`FORMAT` 函数作为 *字符串* 值返回该字符串。
 
 ## <a name="syntax"></a>语法
 
@@ -41,7 +40,7 @@ FORMAT (string, argument 1[, argument 2, …, argument N])
 
 `string`：*字符串*
 
-对必须设定格式的*字符串*类型的数据源的引用。 此参数是必需的。
+对必须设定格式的 *字符串* 类型的数据源的引用。 此参数是必需的。
 
 `argument 1`：*字符串*
 
@@ -59,11 +58,11 @@ FORMAT (string, argument 1[, argument 2, …, argument N])
 
 ## <a name="usage-notes"></a>使用说明
 
-如果参数不是为参量提供，则参量在字符串中返回为 **"%N"**。 对于*实数*类型的值，默认字符串转换被限制为两位小数。
+如果参数不是为参量提供，则参量在字符串中返回为 **"%N"**。 对于 *实数* 类型的值，默认字符串转换被限制为两位小数。
 
 ## <a name="example"></a>示例
 
-在下图中，**PaymentModel** 数据源使用**客户**组件返回客户记录列表。 它使用 **ProcessingDate** 字段返回处理日期值。
+在下图中，**PaymentModel** 数据源使用 **客户** 组件返回客户记录列表。 它使用 **ProcessingDate** 字段返回处理日期值。
 
 <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a>
 
@@ -85,11 +84,11 @@ FORMAT (string, argument 1[, argument 2, …, argument N])
 FORMAT (CONCATENATE (@"SYS70894", ". ", @"SYS18389"), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, "d"))
 ```
 
-如果报表于 2015 年 12 月 17 日为 **Litware 零售**客户处理，在 **EN-US** 区域性和 **EN-US** 语言中，此公式返回以下文本，其可能向用户呈现为异常消息：
+如果报表于 2015 年 12 月 17 日为 **Litware 零售** 客户处理，在 **EN-US** 区域性和 **EN-US** 语言中，此公式返回以下文本，其可能向用户呈现为异常消息：
 
 *没有要打印的内容。客户 Litware 零售已于 2015 年 12 月 17 日停止。*
 
-如果 2015 年 12 月 17 日为 **Litware 零售**客户处理同一个报表，在 **DE** 区域性和 **DE** 语言中，此公式返回以下文本（使用不同的日期格式）：
+如果 2015 年 12 月 17 日为 **Litware 零售** 客户处理同一个报表，在 **DE** 区域性和 **DE** 语言中，此公式返回以下文本（使用不同的日期格式）：
 
 *Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.*
 

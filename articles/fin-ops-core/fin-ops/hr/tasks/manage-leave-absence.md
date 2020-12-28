@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HcmWorker, HcmEmploymentLeave
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 002700ae7f6474b48fbe09cb3aaa72e9516b8224
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 61729d384b1a403f14ce1bcf227074aa28ab369a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143530"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693008"
 ---
 # <a name="manage-leave-of-absence"></a>管理休假
 

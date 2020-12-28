@@ -1,6 +1,6 @@
 ---
 title: 部署新的电子商务租户
-description: 此主题介绍如何使用 Microsoft Dynamics Lifecycle Services (LCS) 部署新的电子商务租户。
+description: 本主题介绍如何使用 Microsoft Dynamics Lifecycle Services (LCS) 部署新的 Dynamics 365 Commerce 电子商务站点。
 author: psimolin
 manager: annbe
 ms.date: 07/02/2020
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 00f35b516dbf6ab4d4d9171c84a16b89f6afe832
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 157dc8225e5bbf9338a1b5a79a2880e8a8c4bf10
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533267"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517274"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>部署新的电子商务租户
 
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何使用 Microsoft Dynamics Lifecycle Services (LCS) 部署新的电子商务站点。
+本主题介绍如何使用 Microsoft Dynamics Lifecycle Services (LCS) 部署新的 Dynamics 365 Commerce 电子商务站点。
 
 ## <a name="overview"></a>概览
 
-Microsoft Dynamics Lifecycle Services (LCS) 是基于云的协作工作空间，合作伙伴和客户可将其用于管理自己的项目和环境，查看有关 Microsoft Dynamics 产品和功能的最新信息，以及创建，跟踪和浏览支持事件。 电子商务管理功能集成到 LCS 中。
+Microsoft Dynamics Lifecycle Services (LCS) 是基于云的协作工作空间，合作伙伴和客户可将其用于管理自己的项目和环境，查看有关 Microsoft Dynamics 产品和功能的最新信息，以及创建，跟踪和浏览支持事件。 电子商务管理功能将集成到 LCS 中。
 
 若要详细了解 LCS，请参阅 [Lifecycle Services 用户指南](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)。
     
-## <a name="get-started"></a>入门
+## <a name="get-started"></a>开始
 
 必须先初始化项目、环境和 Retail Cloud Scale Unit (RCSU)，才能初始化电子商务。 若要在 LCS 中执行初始化，必须具有项目负责人或环境管理员角色的权限。 支持生产环境和沙盒环境拓扑。
 
@@ -45,7 +45,7 @@ Microsoft Dynamics Lifecycle Services (LCS) 是基于云的协作工作空间，
 
 ## <a name="initialize-e-commerce"></a>初始化电子商务
 
-此过程用于初始化现有环境中的电子商务功能。
+使用此过程在现有环境中初始化电子商务功能。
 
 首先，确保具有以下必需信息：
 
@@ -73,18 +73,18 @@ Microsoft Dynamics Lifecycle Services (LCS) 是基于云的协作工作空间，
 
 1. 登录 [LCS](https://lcs.dynamics.com)。
 1. 打开包含要在其中初始化电子商务的环境的项目。
-1. 在**环境**部分中，选择环境。
-1. 在**环境功能**下，选择**零售管理**链接。
-1. 在**电子商务**选项卡中，选择**设置**。 将显示对话框，必须在其中输入预配所需信息。
+1. 在 **环境** 部分中，选择环境。
+1. 在 **环境功能** 下，选择 **零售管理** 链接。
+1. 在 **电子商务** 选项卡中，选择 **设置**。 将显示对话框，必须在其中输入预配所需信息。
 1. 填写必需信息，然后转到下一页。
-1. 在下一页，填写必需信息，然后提交表单。 将回到**电子商务**选项卡，在这里应该会看到已经开始初始化。
-1. 若要查看初始化状态，请**刷新**或以后回到**电子商务**选项卡。
+1. 在下一页，填写必需信息，然后提交表单。 将回到 **电子商务** 选项卡，在这里应该会看到已经开始初始化。
+1. 若要查看初始化状态，请 **刷新** 或以后回到 **电子商务** 选项卡。
     
-从 LCS 初始化电子商务之后，系统将预配电子商务所需若干组件，并将其与环境关联。 预配完成后，将更新**零售管理**页中的**电子商务**选项卡以体现预配。 页面将显示最新自定义部署和其他任何进行中部署的状态。 还包含指向电子商务站点以及在其中创作站点的电子商务站点构建器的链接。
+从 LCS 初始化电子商务时，系统将预配电子商务所需的若干组件，并将其与环境关联。 预配完成后，将更新 **零售管理** 页中的 **电子商务** 选项卡以体现预配。 页面将显示最新自定义部署和其他任何进行中部署的状态。 还包含指向电子商务站点以及在其中创作站点的 Commerce 站点构建器的链接。
 
-## <a name="access-site-builder"></a>访问站点构建器
+## <a name="access-commerce-site-builder"></a>访问 Commerce 站点构建器
 
-要访问站点构建器，请转到 LCS 中**零售管理**页上的**电子商务**标签，然后选择**电子商务站点管理工具**链接。 站点构建器登录页面显示租户级别的视图。 从此页中，您可以：
+若要访问 Commerce 站点构建器，请转到 LCS 中 **零售管理** 页面上的 **电子商务** 选项卡，然后选择 **电子商务站点管理工具** 链接。 站点构建器登录页面显示租户级别的视图。 从此页中，您可以：
 
 - 修改租户级别设置。
 - 导航到您创建并有权查看的任何站点。 
@@ -97,7 +97,7 @@ Microsoft Dynamics Lifecycle Services (LCS) 是基于云的协作工作空间，
 
 [创建电子商务站点](create-ecommerce-site.md)
 
-[将在线站点与渠道关联](associate-site-online-store.md)
+[将 Dynamics 365 Commerce 站点与在线渠道相关联](associate-site-online-store.md)
 
 [管理 robots.txt 文件](manage-robots-txt-files.md)
 

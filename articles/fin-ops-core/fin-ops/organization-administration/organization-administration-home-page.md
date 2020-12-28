@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 20421
 ms.assetid: 7aa24a03-d172-47e9-81f8-ebd39e80bc60
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b1b519d116a55c255cf90d9478ee1714de90264
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 53a2abad03ab9349834aaafbec572d17d96df9c1
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811301"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693994"
 ---
 # <a name="organization-administration-home-page"></a>组织管理主页
 
@@ -30,7 +29,7 @@ ms.locfileid: "2811301"
 
 此主题针对将帮助超级用户和管理员配置系统，使其顺畅有效地为您的组织和业务工作的内容。
 
-此处列出的许多内容适用于在**组织管理**模块中的功能。 但是，有一些任务，如创建和使用记录模板，可以在任何模块中执行以帮助您的组织更加有效地运行。
+此处列出的许多内容适用于在 **组织管理** 模块中的功能。 但是，有一些任务，如创建和使用记录模板，可以在任何模块中执行以帮助您的组织更加有效地运行。
 
 ## <a name="number-sequences"></a>编号规则
 

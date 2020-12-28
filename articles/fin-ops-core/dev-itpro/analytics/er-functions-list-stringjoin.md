@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f5d6b9a0f43902160d1ff7fa91b86a7e2c3422d
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 586dbcb98d237325188f4b0384580613ab7a9347
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743486"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683719"
 ---
 # <a name="stringjoin-er-function"></a>STRINGJOIN ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`STRINGJOIN` 函数返回由指定列表中的指定字段的连接值组成的*字符串*值。 这些值可以通过指定分隔符分隔。
+`STRINGJOIN` 函数返回由指定列表中的指定字段的连接值组成的 *字符串* 值。 这些值可以通过指定分隔符分隔。
 
 ## <a name="syntax"></a>语法
 
@@ -41,11 +40,11 @@ STRINGJOIN (list, field, delimiter)
 
 `list`：*记录列表*
 
-*记录列表*数据类型的数据源的有效路径。
+*记录列表* 数据类型的数据源的有效路径。
 
 `field`：*字段*
 
-指定列表中*字符串*数据类型的字段的有效路径。
+指定列表中 *字符串* 数据类型的字段的有效路径。
 
 `delimiter`：*字符串*
 

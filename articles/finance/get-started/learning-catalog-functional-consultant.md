@@ -15,11 +15,11 @@ ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: fe43038a962bffe6a21aa0a2c5a87edefdee83f7
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793505"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440899"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-functional-consultants"></a>Dynamics 365 Finance 功能顾问学习目录
 
@@ -77,7 +77,7 @@ ms.locfileid: "3793505"
 |-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
 | [在 Dynamics 365 Finance 中配置和使用总帐](https://docs.microsoft.com/learn/paths/configure-use-general-ledger-dyn365-finance/) | 业务用户可通过 Dynamics 365 Finance 随时使用精确信息控制财务和管理资金来进行财务规划和预测，并通过分析掌握最新情况。 由于财务是业务的核心，所以“总帐”模块是财务管理的核心，因此，此学习路径介绍如何设置“总帐”模块中的功能。 另外还将介绍如何为期间或年度完成结转过程。 | 自由、自定进度的在线学习路径 | 13.5 小时 |
 | [在 Dynamics 365 Finance 中配置和使用现金和银行管理与销售税](https://docs.microsoft.com/learn/paths/configure-use-cash-bank-management-tax-dyn365-finance/ ) | 您可使用 Dynamics 365 Finance 中的“现金和银行管理”模块来维护组织的银行帐户以及与这些银行帐户关联的财务票据。 所有企业必须收取并向各税务主管机构支付税款。 在此学习路径中，将介绍如何配置和使用 Dynamics 365 Finance 的这些领域。 | 自由、自定进度的在线学习路径 | 7.5 小时 |
-| [在 Dynamics 365 Finance 中使用应付帐款](https://docs.microsoft.com/learn/paths/work-accounts-payable-dyn365-finance/) | 应付帐款是您在订购货物或服务期间未提前支付现金时应该向贷方支付的债务，这意味着您是赊账购买货物的。 了解如何在 Dynamics 365 Finance 中配置应付帐款，记录供应商发票，以及在帐款之间摊销支出、税款和收费。 | 自由、自定进度的在线学习路径 | 5.5 小时 |
+| [在 Dynamics 365 Finance 中使用应付帐款](https://docs.microsoft.com/learn/paths/work-accounts-payable-dyn365-finance/) | 应付帐款是您在订购货物或服务期间未提前支付现金时应该向贷方支付的债务，这意味着您是赊帐购买货物的。 了解如何在 Dynamics 365 Finance 中配置应付帐款，记录供应商发票，以及在帐款之间摊销支出、税款和收费。 | 自由、自定进度的在线学习路径 | 5.5 小时 |
 | [在 Dynamics 365 Finance 中使用应收帐款](https://docs.microsoft.com/learn/paths/work-accounts-receivable-dyn365-finance/) | 在 Dynamics 365 Finance 中配置“应收帐款”模块以创建客户发票，过帐装箱单，以及使用与销售订单无关的普通发票。 在此学习路径中，还将介绍如何对应收帐款执行日常任务。 | 自由、自定进度的在线学习路径 | 7 小时 |
 | [在 Dynamics 365 Finance 中配置和使用预算编制](https://docs.microsoft.com/learn/paths/configure-use-budgeting-dyn365-finance/) | 每家组织（不管是私人的还是公共的）均通过创建预算设置财务和运营目标。 预算计划的协作和流程驱动性质让您可以提高预算流程的效率。 | 自由、自定进度的在线学习路径 | 2.5 小时 |
 | [在 Dynamics 365 Finance 中配置和管理固定资产](https://docs.microsoft.com/learn/paths/configure-manage-fixed-assets-dyn365-finance/) | 您可以设置和输入固定资产的购置信息，然后通过对固定资产进行折旧并设置资本化阈值，对固定资产进行管理。 处理固定资产的方式必须与国际会计标准和各国家或地区的会计法相符。 | 自由、自定进度的在线学习路径 | 4.5 小时 |

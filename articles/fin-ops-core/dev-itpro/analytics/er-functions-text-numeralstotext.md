@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a820c894ee4d28f87588c475c982bd6447676740
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: e4af3926998d128f8269ab9af46caeb8be896509
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744375"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680210"
 ---
 # <a name="numeralstotext-er-function"></a>NUMERALSTOTEXT ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-在使用指定语言拼出（即转换为文本字符串）指定数字后，`NUMERALSTOTEXT` 函数作为*字符串*返回指定数字。
+在使用指定语言拼出（即转换为文本字符串）指定数字后，`NUMERALSTOTEXT` 函数作为 *字符串* 返回指定数字。
 
 ## <a name="syntax"></a>语法
 
@@ -39,25 +38,25 @@ NUMERALSTOTEXT (number, language, currency, print currency name flag, decimal po
 
 ## <a name="arguments"></a>参数
 
-`number`：*整数*或*实数*
+`number`：*整数* 或 *实数*
 
 指定必须拼出的数字的数字值。
 
 `language`：*字符串*
 
-代表语言代码的*字符串*值。
+代表语言代码的 *字符串* 值。
 
 `currency`：*字符串*
 
-代表币种代码的*字符串*值。
+代表币种代码的 *字符串* 值。
 
 `print currency name flag`：*布尔值*
 
-指示是否必须将货币名称添加到拼出的文本的*布尔*值。
+指示是否必须将货币名称添加到拼出的文本的 *布尔* 值。
 
 `decimal points`：*整数*
 
-指示拼出的文本应具有的小数位数的*整数*值。
+指示拼出的文本应具有的小数位数的 *整数* 值。
 
 ## <a name="return-values"></a>返回值
 
@@ -67,7 +66,7 @@ NUMERALSTOTEXT (number, language, currency, print currency name flag, decimal po
 
 ## <a name="usage-notes"></a>使用说明
 
-语言代码可选。 如果定义为空字符串，将使用运行上下文的语言代码。 默认语言代码为 **EN-US**。 运行上下文的语言代码在正在运行的电子申报 (ER) 格式的**文件夹**或**文件**元素中定义。
+语言代码可选。 如果定义为空字符串，将使用运行上下文的语言代码。 默认语言代码为 **EN-US**。 运行上下文的语言代码在正在运行的电子申报 (ER) 格式的 **文件夹** 或 **文件** 元素中定义。
 
 币种代码可选。 如果定义为空字符串，将使用运行上下文的公司币种。
 

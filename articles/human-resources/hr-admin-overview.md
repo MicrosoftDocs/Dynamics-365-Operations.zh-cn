@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
-ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
+ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "3443410"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527853"
 ---
 # <a name="overview"></a>概览
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此管理员指南可帮助您设置、管理并解决 Dynamics 365 Human Resources 的问题。
 
@@ -57,7 +59,7 @@ ms.locfileid: "3443410"
   - [用户界面元素](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
   - [辅助功能](../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json)
   - [功能管理概览](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json)
-  - [客户端常见问题](../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json)
+  - [客户端常见问题解答](../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json)
   - [操作搜索](../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json)
   - [高级筛选和查询语法](../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json)
   - [配置和筛选工作区](../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json)

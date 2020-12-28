@@ -16,11 +16,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 03e2557e29194f17a9a586470ced5b352408b07c
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898634"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460476"
 ---
 # <a name="leave-and-absence-concepts"></a>休假和缺勤概念
 
@@ -34,7 +34,7 @@ ms.locfileid: "2898634"
 
 ## <a name="accruals"></a>应计项目
 
-应计项目确定奖励员工休假的时间和频率。 有关应在何时奖励应计项目的策略以及按比例分配策略在设置休假和缺勤计划时在**应计项目**部分定义。
+应计项目确定奖励员工休假的时间和频率。 有关应在何时奖励应计项目的策略以及按比例分配策略在设置休假和缺勤计划时在 **应计项目** 部分定义。
 
 ### <a name="accrual-frequency"></a>应计频率
 
@@ -96,11 +96,11 @@ ms.locfileid: "2898634"
 
 ### <a name="months-of-service"></a>服务月数
 
-**服务月数**值定义员工有资格累积所必须工作的最少月数。 如果员工不需要最小数量，将值设置为 **0**。
+**服务月数** 值定义员工有资格累积所必须工作的最少月数。 如果员工不需要最小数量，将值设置为 **0**。
 
 ### <a name="hours-worked"></a>工作时数
 
-**工作时数**值定义员工有资格累积每个应计期间所必须工作的最少时数。 如果员工不需要最小数量，将值设置为 **0**。
+**工作时数** 值定义员工有资格累积每个应计期间所必须工作的最少时数。 如果员工不需要最小数量，将值设置为 **0**。
 
 ### <a name="accrual-amount"></a>应计金额
 
@@ -186,7 +186,7 @@ ms.locfileid: "2898634"
 
 ### <a name="forecasted-balance"></a>预测余额
 
-*预测余额*是可在将来日期使用的休假金额。 应计和结转调整一直预测到该日期。
+*预测余额* 是可在将来日期使用的休假金额。 应计和结转调整一直预测到该日期。
 
 使用以下公式：
 

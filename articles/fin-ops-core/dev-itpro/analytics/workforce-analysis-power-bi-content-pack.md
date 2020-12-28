@@ -11,28 +11,27 @@ ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Human Resources
 ms.custom: 264084
 ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 263fa2fc97e39b0521407d3fdc5a6d6e3f2ca034
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 5e921b9ca7d46b3365068a5cdcb029396b62a0ce
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005748"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687343"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>劳动力指标 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述**劳动力指标** Microsoft Power BI 内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+此主题描述 **劳动力指标** Microsoft Power BI 内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-如果您使用以下其中一种产品，则**劳动力指标** Power BI 内容显示在**人事管理**工作区中：
+如果您使用以下其中一种产品，则 **劳动力指标** Power BI 内容显示在 **人事管理** 工作区中：
 
 - Microsoft Dynamics 365 Finance
 - Microsoft Dynamics 365 Human Resources
@@ -58,7 +57,7 @@ ms.locfileid: "3005748"
 
 可以筛选这些报表中的图表和磁贴，并将图表和磁贴固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards)。
 
-请确保下载适用于您使用的 Microsoft Dynamics 365 版本的**劳动力指标** Power BI 内容。
+请确保下载适用于您使用的 Microsoft Dynamics 365 版本的 **劳动力指标** Power BI 内容。
 
 > [!NOTE]
 > 在 Lifecycle Services 中可用的 .pbix 文件仅适用于 Finance and Operations 应用程序。

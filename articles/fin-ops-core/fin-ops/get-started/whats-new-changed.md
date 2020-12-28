@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 41ec4737ccb270d2ba84dd473770f18e1aa6b044
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.openlocfilehash: 41a478e436ef3c94046be1579e8840cc39fb2ed4
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117376"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694255"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Finance and Operations 应用中的新增功能或更改的功能主页
 

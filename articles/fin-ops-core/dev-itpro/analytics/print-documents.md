@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: kfend
-ms.search.scope: Operations, Core
 ms.custom: 69161
 ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25996cbccf3e9eec6fc29b80b8241e89b5b6b4a5
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: b1d64a2efeade5e9ba24f4dfe61c861f5a4cbad4
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893271"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680088"
 ---
 # <a name="document-printing-overview"></a>文档打印概览
 

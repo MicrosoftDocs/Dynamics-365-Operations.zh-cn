@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c08e81b6e2983a8f16104698944820e93ba3852d
-ms.sourcegitcommit: 139c8007e68d279d7ca9aa302598217522abb8cb
+ms.openlocfilehash: 5e2554dc33514185fa16868ee239c3e44ff675dd
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "3331316"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687449"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>在 ER 模型和格式的数据绑定中使用相对路径
 

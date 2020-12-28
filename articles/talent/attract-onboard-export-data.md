@@ -20,11 +20,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Talent October 2019 update
 ms.openlocfilehash: eb97a16c15476c2f34ec581a32a677fa6fee8739
-ms.sourcegitcommit: acdd93637385246f9c5c652cccdf2cbfb263cc33
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "2975926"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460393"
 ---
 # <a name="export-data-from-attract-and-onboard"></a>从 Attract 和 Onboard 中导出数据
 
@@ -38,16 +38,16 @@ ms.locfileid: "2975926"
 
 1. 转到 [https://aka.ms/AttractDataExport](https://aka.ms/AttractDataExport)。
 
-2. 在**数据导出**下面，选择**请求数据导出**。
+2. 在 **数据导出** 下面，选择 **请求数据导出**。
 
    ![[请求从 Attract 中导出数据](./media/attract-onboard-export-data-attract-request.png)](./media/attract-onboard-export-data-attract-request.png)
 
-3. 当出现**正在处理您的请求**消息框时，选择**确定**。 数据导出最多可能需要 20 分钟，具体取决于导出的大小。
+3. 当出现 **正在处理您的请求** 消息框时，选择 **确定**。 数据导出最多可能需要 20 分钟，具体取决于导出的大小。
 
-4. 导出完成后，选择旁边的**下载**按钮。 
+4. 导出完成后，选择旁边的 **下载** 按钮。 
 
    >[!NOTE]
-   >所有数据导出都可以使用 7 天，到时**下载**链接会过期。</br>
+   >所有数据导出都可以使用 7 天，到时 **下载** 链接会过期。</br>
    
 下载内容包含带有 Attract 数据的 .zip 文件，其中包括以下文件夹：
 
@@ -74,11 +74,11 @@ ms.locfileid: "2975926"
 
 1. 转到 [https://aka.ms/AttractDataExport](https://aka.ms/AttractDataExport)。
 
-2. 要限制非管理员访问您的 Attract 环境，请在**限制访问此应用**下面选择**立即限制访问**。 限制访问还会取消发布任何已发布的有效职位。
+2. 要限制非管理员访问您的 Attract 环境，请在 **限制访问此应用** 下面选择 **立即限制访问**。 限制访问还会取消发布任何已发布的有效职位。
 
    ![[限制非管理员访问 Attract](./media/attract-onboard-export-data-attract-restrict-access.png)](./media/attract-onboard-export-data-attract-restrict-access.png)
 
-3. 当您看到**这是永久性更改**警告时，选择**限制访问**以永久限制非管理员用户进入此环境。 如果您尚未准备好完成此步骤，请选择**取消**。
+3. 当您看到 **这是永久性更改** 警告时，选择 **限制访问** 以永久限制非管理员用户进入此环境。 如果您尚未准备好完成此步骤，请选择 **取消**。
 
    ![[警告限制访问是永久性更改](./media/attract-onboard-export-data-attract-warning.png)](./media/attract-onboard-export-data-attract-warning.png)
 
@@ -91,18 +91,18 @@ ms.locfileid: "2975926"
 
 1. 转到 [https://aka.ms/OnboardDataExport](https://aka.ms/OnboardDataExport)。
 
-2. 在**数据导出**下面，选择**请求数据导出**。 
+2. 在 **数据导出** 下面，选择 **请求数据导出**。 
 
    ![[请求从 Onboard 中导出数据](./media/attract-onboard-export-data-onboard-request.png)](./media/attract-onboard-export-data-onboard-request.png)
 
-3. 当出现**正在处理您的请求**消息框时，选择**确定**。 数据导出最多可能需要 20 分钟，具体取决于导出的大小。
+3. 当出现 **正在处理您的请求** 消息框时，选择 **确定**。 数据导出最多可能需要 20 分钟，具体取决于导出的大小。
 
-4. 导出完成后，选择旁边的**下载**按钮。 
+4. 导出完成后，选择旁边的 **下载** 按钮。 
 
    ![[从 Onboard 中下载导出数据](./media/attract-onboard-export-data-onboard-download.png)](./media/attract-onboard-export-data-onboard-download.png)
 
    >[!NOTE]
-   >您的数据导出可以使用 7 天。 七天后，**下载**链接过期，如果您需要再次下载数据，则必须请求新的导出。 当您开始新的数据导出时，新导出成功后，所有现有下载都将过期。
+   >您的数据导出可以使用 7 天。 七天后，**下载** 链接过期，如果您需要再次下载数据，则必须请求新的导出。 当您开始新的数据导出时，新导出成功后，所有现有下载都将过期。
 
 下载是一个 .zip 文件，其中包含：
 

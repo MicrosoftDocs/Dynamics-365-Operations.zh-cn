@@ -1,6 +1,6 @@
 ---
 title: 集成的供应商主数据
-description: 本主题介绍 Finance and Operations 应用与 Common Data Service 之间的供应商数据集成。
+description: 本主题介绍 Finance and Operations 应用与 Dataverse 之间的供应商数据集成。
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/15/2019
@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5c4cc92fd7809f4016d8421c98f41a85fcfedc7b
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997639"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685477"
 ---
 # <a name="integrated-vendor-master"></a>集成的供应商主数据
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -37,7 +39,7 @@ ms.locfileid: "3997639"
 
 ## <a name="vendor-data-flow"></a>供应商数据流
 
-如果您不希望将供应商数据存储在 Common Data Service 中的 **客户/联系人** 实体中，您可以使用新的供应商设计。
+如果您不希望将供应商数据存储在 Dataverse 中的 **客户/联系人** 实体中，您可以使用新的供应商设计。
 
 ![供应商数据流](media/dual-write-vendor-data-flow.png)
 
@@ -50,12 +52,12 @@ ms.locfileid: "3997639"
 
 ## <a name="templates"></a>模板
 
-供应商数据包括有关供应商的所有信息，如供应商组、地址、联系信息、付款配置文件、发票配置文件和会员状态。 供应商数据交互期间，实体映射集合协同工作，如下表中所示。
+供应商数据包括有关供应商的所有信息，如供应商组、地址、联系信息、付款配置文件、发票配置文件和会员状态。 供应商数据交互期间，表映射集合协同工作，如下表中所示。
 
 Finance and Operations 应用 | 其他 Dynamics 365 应用     | 说明
 ----------------------------|-----------------------------|------------
 供应商 V2                   | 科目                     | 使用供应商实体存储供应商信息的企业可以继续按照相同方法使用此实体。 还可以利用 Finance and Operations 应用集成带来的显式供应商功能。
-供应商 V2                   | Msdyn\_vendors              | 使用适用于供应商的自定义解决方案的企业可以利用因 Finance and Operations 应用集成而在 Common Data Service 中引入的现成供应商概念。 
+供应商 V2                   | Msdyn\_vendors              | 使用适用于供应商的自定义解决方案的企业可以利用因 Finance and Operations 应用集成而在 Dataverse 中引入的现成供应商概念。 
 供应商组               | msdyn\_vendorgroups         | 此模板同步供应商组信息。
 供应商付款方式       | msdyn\_vendorpaymentmethods | 此模板同步供应商付款方式信息。
 CDS 联系人 V2             | 联系人                    | [联系人](customer-mapping.md#cds-contacts-v2-to-contacts)模板同步客户和供应商的所有第一、第二和第三联系信息。

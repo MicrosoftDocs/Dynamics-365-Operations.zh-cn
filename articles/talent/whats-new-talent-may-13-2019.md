@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ab201e099a5075760c038d819759162682874a33
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 11c9f03f4b3915d81b624115a1d97a0c7bc31709
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896904"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529724"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-may-13-2019"></a>Dynamics 365 Talent（2019 年 5 月 13 日）中的新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
@@ -33,7 +35,7 @@ ms.locfileid: "2896904"
 
 ### <a name="job-approvals-on-home-page"></a>主页中的工作审核
 
-仪表板的**审核**部分中将显示审核。 审核人可以在**已分配给您**（其中显示工作 ID、头衔、其他审核人和分配的日期）下查看自己的审核。 提交工作共审核的用户可以在**您请求的**（其中显示仍然需要审核提交的工作的审核者）下查看自己的工作。
+仪表板的 **审核** 部分中将显示审核。 审核人可以在 **已分配给您**（其中显示工作 ID、头衔、其他审核人和分配的日期）下查看自己的审核。 提交工作共审核的用户可以在 **您请求的**（其中显示仍然需要审核提交的工作的审核者）下查看自己的工作。
 
 ## <a name="changes-in-onboard"></a>Onboard 中的更改
 
@@ -45,7 +47,7 @@ ms.locfileid: "2896904"
 
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>配置 Talent 时指示实例类型
 
-配置新的 Talent 时，可以指示实例类型为**生产**还是**沙盒**，这样就可以提前测试新功能。 将把所有现有 Talent 实例更新为**生产**实例类型。 如果需要将现有实例之一更新为**沙盒**实例类型，请联系[支持](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support)以发起更改请求。
+配置新的 Talent 时，可以指示实例类型为 **生产** 还是 **沙盒**，这样就可以提前测试新功能。 将把所有现有 Talent 实例更新为 **生产** 实例类型。 如果需要将现有实例之一更新为 **沙盒** 实例类型，请联系[支持](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support)以发起更改请求。
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Common Data Service 实体对自定义字段的支持
 
@@ -53,7 +55,7 @@ ms.locfileid: "2896904"
 
 ### <a name="common-data-service-integration-page"></a>Common Data Service 集成页
 
-此版本在**系统管理 > 链接 > 集成 > Common Data Service 配置**中提供一个新选项。 **Common Data Service 配置**选项为管理员或数据管理管理员提供了一些灵活性和对 Common Data Service 的见解。 在此版本中，您可以启用或禁用 Common Data Service 与 Talent 实例的集成，以及查看 Talent 实例与 Common Data Service 之间的同步细节。
+此版本在 **系统管理 > 链接 > 集成 > Common Data Service 配置** 中提供一个新选项。 **Common Data Service 配置** 选项为管理员或数据管理管理员提供了一些灵活性和对 Common Data Service 的见解。 在此版本中，您可以启用或禁用 Common Data Service 与 Talent 实例的集成，以及查看 Talent 实例与 Common Data Service 之间的同步细节。
 
 ### <a name="import-performance-data-with-final-employee-rating-316710"></a>导入绩效数据和最终员工评级 (316710)
 
@@ -67,7 +69,7 @@ ms.locfileid: "2896904"
 
 ### <a name="new-page-to-validate-position-hierarchy-data"></a>用于验证职位层次结构数据的新页面
 
-人力资源 (HR) 和管理员可以验证管理层次结构以查找任何可能已无意导入的循环引用。 可从**组织管理 > 链接 > 职位 > 职位层次结构验证**访问这个新页面。
+人力资源 (HR) 和管理员可以验证管理层次结构以查找任何可能已无意导入的循环引用。 可从 **组织管理 > 链接 > 职位 > 职位层次结构验证** 访问这个新页面。
 
 ### <a name="specify-reason-codes-on-leave-types"></a>指定休假类型的原因代码
 

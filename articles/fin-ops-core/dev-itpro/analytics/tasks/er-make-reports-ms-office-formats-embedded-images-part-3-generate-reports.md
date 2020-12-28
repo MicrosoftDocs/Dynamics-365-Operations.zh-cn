@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143091"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684371"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>以 Office 格式生成包含嵌入图像的报表
 
@@ -40,14 +39,14 @@ ms.locfileid: "3143091"
     * 出于测试目的运行格式。  
 6. 在“可转让支票格式”字段中，选择“是”。
 7. 单击“确定”。
-    * 检查创建的输出。 请注意，公司徽标在报表和授权人员的签名中显示。 签名图像取自与所选银行帐户关联的支票布局记录的“容器”数据类型的字段。  
+    * 检查创建的输出。 公司徽标在报表和授权人员的签名中显示。 签名图像取自与所选银行帐户关联的支票布局记录的“容器”数据类型的字段。  
 8. 展开“份数”部分。
 9. 单击“编辑”。
 10. 在“水印”字段中，输入“将水印打印为失效”。
     * 更改水印布局设置以通过 Excel 形状元素在生成单据时显示水印文本。  
 11. 单击“打印测试”。
 12. 单击“确定”。
-    * 检查创建的输出。 请注意，水印根据选择选项在创建的报表中显示。  
+    * 检查创建的输出。 水印根据选择选项在创建的报表中显示。  
 13. 关闭该页面。
 14. 在“操作窗格”上，单击“管理付款”。
 15. 单击“支票”。
@@ -56,7 +55,7 @@ ms.locfileid: "3143091"
 18. 在列表中，标记所有行。
 19. 单击“打印支票副本”。
     * 运行格式以重新打印所选支票。  
-    * 检查创建的输出。 请注意，已重新打印了所选支票。 不打印公司徽标和标签，因为它们位于预打印表上。  
+    * 检查创建的输出。 已重新打印了所选支票。 不打印公司徽标和标签，因为它们位于预打印表上。  
 
 ## <a name="modify-the-mapping-of-the-imported-data-model"></a>修改所导入数据模型的映射
 1. 关闭该页面。
@@ -91,7 +90,7 @@ ms.locfileid: "3143091"
 4. 单击“确认”。
 5. 单击“打印测试”。
 6. 单击“确定”。
-    * 检查创建的输出。 请注意，来自“单据管理附件”的图像表示为授权人员的签名。  
+    * 检查创建的输出。 来自“单据管理附件”的图像表示为授权人员的签名。  
 
 ## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>将 MS Word 文档用作所导入格式的模板
 1. 关闭该页面。
@@ -118,5 +117,5 @@ ms.locfileid: "3143091"
 21. 单击“确认”。
 22. 单击“打印测试”。
 23. 单击“确定”。
-    * 检查创建的输出。 请注意，已将输出生成为带有嵌入图像（用于显示公司徽标、授权人员的签名和所选水印文本）的 MS Word 文档。  
+    * 检查创建的输出。 已将输出生成为带有嵌入图像（用于显示公司徽标、授权人员的签名和所选水印文本）的 Word 文档。  
 

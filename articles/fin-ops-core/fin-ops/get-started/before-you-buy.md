@@ -3,25 +3,24 @@ title: 在购买之前
 description: 在考虑购买 Dynamics 365 Finance、Dynamics 365 Supply Chain Management 或 Dynamics 365 Commerce 时要使用的分步指导。
 author: ShellyBakke
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 4619a359a352d702526c576d97b666439d71ed96
-ms.sourcegitcommit: 6aceca43c53c4dde46954c0b6b855d488eb44ed2
+ms.openlocfilehash: adbc9d0bc4632c661b40001a54685192b9ae2d23
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027716"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694128"
 ---
 # <a name="before-you-buy"></a>购买之前
 
@@ -41,7 +40,7 @@ Dynamics 365 Finance、Dynamics 365 Supply Chain Management 或 Dynamics 365 Com
 
 - 云认证中不可用的法规和合规性需求。
 - 业务流程不连贯，并且访问 Microsoft Dynamics Lifecycle Services (LCS) 以执行应用程序生命周期管理所需的 Internet 连接时断时续。
-- [未在本地部署中实现的功能](features-not-implemented-on-prem.md)。
+- [云和本地功能的比较](cloud-prem-comparison.md)。
 - [本地部署的系统要求](system-requirements-on-prem.md)。
 
 > [!IMPORTANT]

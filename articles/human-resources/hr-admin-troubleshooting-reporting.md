@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5d47524033bf39a1db6b22b28ee3fcc65348829c
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 51d84df5c3c29510e2742148b8c260a2cf402639
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431007"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527709"
 ---
 # <a name="reporting-options"></a>报告选项
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **环境详细信息**
 

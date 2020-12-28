@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Developer, IT Pro, Application user
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: 27621
 ms.assetid: e3f7960d-2e01-46a7-9ac8-c355ac933cd6
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7381f198bef0e5f0401d4c39e085cf603aefb766
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fa15ae3111f7b91fd63afedb3ef21709d7d866d8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185305"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682209"
 ---
 # <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>通过重新应用 Excel 模板修改电子申报格式
 

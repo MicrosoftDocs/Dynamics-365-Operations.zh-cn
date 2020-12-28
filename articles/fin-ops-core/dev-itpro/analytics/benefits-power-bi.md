@@ -11,32 +11,31 @@ ms.technology: ''
 ms.search.form: HcmBenefitWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f94799b892f09ed978a63ab7e7bd8a6b332ac22b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: d0a5fe54bb4f5541f610f8ea76afa7813e3a599a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005840"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687246"
 ---
 # <a name="benefits-power-bi-content"></a>福利 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述**福利** Microsoft Power BI 内容。 它说明如何访问包含的报表，并提供有关用于构建内容的数据模型和实体的信息。
+此主题描述 **福利** Microsoft Power BI 内容。 它说明如何访问包含的报表，并提供有关用于构建内容的数据模型和实体的信息。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-如果您使用以下其中一种产品，则**福利** Power BI 内容显示在**福利管理**工作区中：
+如果您使用以下其中一种产品，则 **福利** Power BI 内容显示在 **福利管理** 工作区中：
 
 - Microsoft Dynamics 365 Finance
 - Microsoft Dynamics 365 Human Resources
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
-此**福利** Power BI 内容中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
+此 **福利** Power BI 内容中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
 
 | 报告                      | 内容                                                                                       |
 |-----------------------------|------------------------------------------------------------------------------------------------|
@@ -46,7 +45,7 @@ ms.locfileid: "3005840"
 可以筛选这些报表中的图表和磁贴，并将图表和磁贴固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards)。
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
-以下数据用于填充**福利** Power BI 内容中的报表。 此表显示内容所基于的实体。
+以下数据用于填充 **福利** Power BI 内容中的报表。 此表显示内容所基于的实体。
 
 | 实体                   | 内容                                                                                                   | 与其他实体之间的关系 |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|

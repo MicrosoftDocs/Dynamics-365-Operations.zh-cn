@@ -15,20 +15,22 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3ab79bc9203309c0cfa1ff18f75580297ae1001
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413940"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527355"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>自定义和使用客户门户
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 本主题介绍客户门户中现成可用的不同页面。 说明了页面的功能以及如何自定义页面。
 
 客户门户提供了一些现成的网页和操作。 以下站点地图提供了这些网页和操作以及可以执行这些操作的角色的概览。
 
-![![客户门户站点地图](media/customer-portal-site-map.png "客户门户站点地图")](media/customer-portal-site-map.png "Customer portal site map")
+![客户门户站点地图](media/customer-portal-site-map.png "客户门户站点地图")
 
 ## <a name="typical-customizations"></a>典型自定义
 
@@ -53,8 +55,8 @@ ms.locfileid: "3413940"
 
 以下是从客户门户提交订单的标准步骤。
 
-1. 在主页上，选择**创建订单**磁贴打开**创建订单**向导。
-1. 在**订单信息**页面上，设置以下字段：
+1. 在主页上，选择 **创建订单** 磁贴打开 **创建订单** 向导。
+1. 在 **订单信息** 页面上，设置以下字段：
 
     - **请求收货日期** – 指定交货日期。
     - **交货地址** – 输入应该交付订单的地址。
@@ -62,28 +64,28 @@ ms.locfileid: "3413940"
     - **申请编号** – 输入订单的申请编号。 此字段不是必填项。
     - **运达国家/地区** – 输入物料将送达的国家或地区。 此字段将为非管理员用户自动设置。
 
-    ![![订单信息页面](media/customer-portal-order-information.png "“订单信息”页面")](media/customer-portal-order-information.png "Order Information page")
+    ![订单信息页面](media/customer-portal-order-information.png "“订单信息”页面")
 
-1. 选择**下一步**。
-1. 在**物料**页上，选择**添加物料**。
+1. 选择 **下一步**。
+1. 在 **物料** 页上，选择 **添加物料**。
 
-    ![![“物料”页面](media/customer-portal-items.png "“物料”页面")](media/customer-portal-items.png "Items page")
+    ![“物料”页面](media/customer-portal-items.png "“物料”页面")
 
-1. 在**物料信息**对话框中，设置以下字段：
+1. 在 **物料信息** 对话框中，设置以下字段：
 
     - **产品名称** – 查找并选择要添加到订单中的产品。
     - **数量** – 输入所选产品的数量。
-    - **单位** – 指定度量单位（例如，**个**、**公斤**或**箱**）。
+    - **单位** – 指定度量单位（例如，**个**、**公斤** 或 **箱**）。
     - **估计净额** – 此值计算为“物料的估计价格 × 所选单位的数量”。
 
-    ![![“物料信息”对话框](media/customer-portal-item-information.png "“物料信息”对话框")](media/customer-portal-item-information.png "Item Information dialog box")
+    ![“物料信息”对话框](media/customer-portal-item-information.png "“物料信息”对话框")
 
-1. 选择**提交**将物料添加到订单。
+1. 选择 **提交** 将物料添加到订单。
 1. 重复步骤 4 到 6，直到您添加了要订购的所有物料。
-1. 添加完物料后，在**物料**页上选择**下一步**。
-1. **订单信息**页提供订单摘要。 查看订单内容和交货详细信息。 如果每一项看起来都正确，选择**提交**提交订单。
+1. 添加完物料后，在 **物料** 页上选择 **下一步**。
+1. **订单信息** 页提供订单摘要。 查看订单内容和交货详细信息。 如果每一项看起来都正确，选择 **提交** 提交订单。
 
-    ![![“订单信息”页面](media/customer-portal-order-submit.png "“订单信息”页面")](media/customer-portal-order-submit.png "Order Information page")
+    ![“订单信息”页面](media/customer-portal-order-submit.png "“订单信息”页面")
 
 ### <a name="standard-data-setup"></a>标准数据设置
 
@@ -105,10 +107,10 @@ ms.locfileid: "3413940"
 - **公司** – 订单所属的法人（默认情况下，此值取自联系人记录。）
 - **潜在客户** – 与订单关联的客户帐户（默认情况下，此值取自联系人记录。）
 - **发票客户** – 订单的计费帐户（默认值为联系人记录中的潜在客户。）
-- **销售订单名称** – 销售订单的名称（默认值为**销售订单**。）
+- **销售订单名称** – 销售订单的名称（默认值为 **销售订单**。）
 - **货币** – 价格使用的货币（默认情况下，此值取自联系人记录。）
 - **价目表** – 客户的自定义价目表（默认情况下，此值取自联系人记录。）
-- **交货地址描述** – 销售订单的交货地址（默认值为**交货地址描述**。）
+- **交货地址描述** – 销售订单的交货地址（默认值为 **交货地址描述**。）
 
 ### <a name="modify-the-order-creation-process"></a>修改订单创建流程
 
@@ -129,7 +131,7 @@ ms.locfileid: "3413940"
 
 - **产品** – 要订购的产品
 - **数量** – 所选产品的数量
-- **单位** – 度量单位（例如，**个**、**公斤**或**箱**）
+- **单位** – 度量单位（例如，**个**、**公斤** 或 **箱**）
 - **运达国家/地区** – 交货国家或地区
 - **交货地址描述** – 订单的交货地址
 
@@ -148,19 +150,19 @@ ms.locfileid: "3413940"
 
 客户门户模板中包含的唯一自定义控件用于在主页上创建磁贴。
 
-![![主页上的磁贴](media/customer-portal-home-page-tiles.png "主页上的磁贴")](media/customer-portal-home-page-tiles.png "Tiles on the home page")
+![主页上的磁贴](media/customer-portal-home-page-tiles.png "主页上的磁贴")
 
 要修改磁贴，请按照下列步骤操作。
 
 1. 打开[“门户管理”应用](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal)。
-1. 在左侧的导航窗格中，选择**页面模板**。
+1. 在左侧的导航窗格中，选择 **页面模板**。
 
-    ![![“门户管理”导航窗格](media/customer-portal-nav.png "“门户管理”导航窗格")](media/customer-portal-nav.png "Portal Management navigation pane")
+    ![“门户管理”导航窗格](media/customer-portal-nav.png "“门户管理”导航窗格")
 
-1. 选择名为**主页**的页面模板。
-1. 在 **Web 模板**字段中，选择**主页**链接打开该页面的源代码。
+1. 选择名为 **主页** 的页面模板。
+1. 在 **Web 模板** 字段中，选择 **主页** 链接打开该页面的源代码。
 
-    ![![“Web 模板”字段](media/customer-portal-web-template.png "“Web 模板”字段")](media/customer-portal-web-template.png "Web Template field")
+    ![“Web 模板”字段](media/customer-portal-web-template.png "“Web 模板”字段")
 
 1. 现在，您应该可以看到主页的所有源代码，并可以根据需要对其进行修改。
 

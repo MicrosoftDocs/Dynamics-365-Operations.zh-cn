@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4d3a423bf64900e547a23f2e5eeb90aa679ec5d1
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: f87d29a8cffb70e4dea211cea7538e5e4c85295c
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533382"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517298"
 ---
 # <a name="enable-location-based-store-detection"></a>启用基于位置的商店检测
 
@@ -44,19 +44,19 @@ ms.locfileid: "3533382"
 若要在 Commerce 中开启基于位置的商店检测，请执行以下步骤。
 
 1. 在创作工具中，转到您的站点。
-1. 在左侧的导航窗格中，选择**站点管理**。
-1. 选择**站点设置**。
-1. 将**启用基于位置的商店检测**选项设置为**开**。
+1. 在左侧的导航窗格中，选择 **站点管理**。
+1. 选择 **站点设置**。
+1. 将 **启用基于位置的商店检测** 选项设置为 **开**。
 
 ## <a name="additional-resources"></a>其他资源
 
 [配置域名](configure-your-domain-name.md)
 
-[部署新的电子商务站点](deploy-ecommerce-site.md)
+[部署新的电子商务租户](deploy-ecommerce-site.md)
 
 [创建电子商务站点](create-ecommerce-site.md)
 
-[将在线站点与渠道关联](associate-site-online-store.md)
+[将 Dynamics 365 Commerce 站点与在线渠道相关联](associate-site-online-store.md)
 
 [管理 robots.txt 文件](manage-robots-txt-files.md)
 

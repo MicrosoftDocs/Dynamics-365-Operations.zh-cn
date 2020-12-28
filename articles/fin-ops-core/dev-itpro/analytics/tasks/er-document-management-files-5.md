@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner, ERComponentTypeDropDialog, ERExpressionDesignerFormula, SysQueryForm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1a52a7dd3b31c0189577422a79d47b318aae4a05
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 8b949c2629df0e9db8c11322c9d0d090b200edc2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141986"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681749"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-5---modify-and-run-format"></a>ER 在格式输出中使用票据管理文件（第 5 部分 - 修改和运行格式）
 

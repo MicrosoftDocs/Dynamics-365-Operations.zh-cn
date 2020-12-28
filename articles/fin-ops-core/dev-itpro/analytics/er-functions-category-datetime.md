@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa8e725ac6bd7d280dc0269a70e3f7abf1ad4d43
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 2745298ae1f6787c3de5a4aaf6a2a6350f5f3e85
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916560"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686211"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>日期和时间类别的 ER 函数列表
 
@@ -35,20 +34,20 @@ ms.locfileid: "2916560"
 
 | 职能 | 说明 |
 |----------|-------------|
-| [AddDays](er-functions-datetime-adddays.md) | 此函数返回一个*日期时间*值，此值是指定开始日期之前或之后的指定的天数。 |
-| [DateFormat](er-functions-datetime-dateformat.md) | 此函数返回一个*字符串*值，此值以指定格式和指定的区域性（可选）将给定日期值显示为文本。 |
-| [DateTimeFormat](er-functions-datetime-datetimeformat.md) | 此函数返回一个*字符串*值，此值以指定格式和指定的区域性（可选）将给定日期/时间值显示为文本。 |
-| [DateTimeValue](er-functions-datetime-datetimevalue.md) | 此函数返回一个*日期时间*值，此值从指定格式和指定的区域性（可选）的给定文本值转换为日期/时间值。 |
-| [DateToDateTime](er-functions-datetime-datetodatetime.md) | 此函数返回一个*日期时间*值，此值从给定日期/时间值转换为协调世界时（格林威治标准时间 \[GMT\]）的日期/时间值。 |
-| [DateValue](er-functions-datetime-datevalue.md) | 此函数返回一个*日期*值，此值从指定格式和指定的区域性（可选）的给定文本值转换为日期值。 |
-| [DayOfYear](er-functions-datetime-dayofyear.md) | 此函数返回一个*整数*值，此值表示 1 月 1 日到指定日期之间的天数。 |
-| [天数](er-functions-datetime-days.md) | 此函数返回一个*整数*值，此值表示一个指定日期至第二个指定日期之间的天数。 |
-| [Now](er-functions-datetime-now.md) | 此函数返回一个*日期时间*值，此值表示当前应用程序服务器的日期和时间。 |
-| [NullDate](er-functions-datetime-nulldate.md) | 此函数返回一个表示**空**日期（1900 年 1 月 1 日）的*日期*值。 |
-| [NullDateTime](er-functions-datetime-nulldatetime.md) | 此函数返回一个*日期时间*值，此值表示协调世界时的**空**日期/时间值（1900 年 1 月 1 日）。 |
-| [SessionNow](er-functions-datetime-sessionnow.md) | 此函数返回一个*日期时间*值，此值表示当前应用程序会话的日期和时间。 |
-| [SessionToday](er-functions-datetime-sessiontoday.md) | 此函数返回一个*日期*值，此值表示当前应用程序会话的日期。 |
-| [今天](er-functions-datetime-today.md) | 此函数返回一个*日期*值，此值表示当前应用程序服务器的日期。 |
+| [AddDays](er-functions-datetime-adddays.md) | 此函数返回一个 *日期时间* 值，此值是指定开始日期之前或之后的指定的天数。 |
+| [DateFormat](er-functions-datetime-dateformat.md) | 此函数返回一个 *字符串* 值，此值以指定格式和指定的区域性（可选）将给定日期值显示为文本。 |
+| [DateTimeFormat](er-functions-datetime-datetimeformat.md) | 此函数返回一个 *字符串* 值，此值以指定格式和指定的区域性（可选）将给定日期/时间值显示为文本。 |
+| [DateTimeValue](er-functions-datetime-datetimevalue.md) | 此函数返回一个 *日期时间* 值，此值从指定格式和指定的区域性（可选）的给定文本值转换为日期/时间值。 |
+| [DateToDateTime](er-functions-datetime-datetodatetime.md) | 此函数返回一个 *日期时间* 值，此值从给定日期/时间值转换为协调世界时（格林威治标准时间 \[GMT\]）的日期/时间值。 |
+| [DateValue](er-functions-datetime-datevalue.md) | 此函数返回一个 *日期* 值，此值从指定格式和指定的区域性（可选）的给定文本值转换为日期值。 |
+| [DayOfYear](er-functions-datetime-dayofyear.md) | 此函数返回一个 *整数* 值，此值表示 1 月 1 日到指定日期之间的天数。 |
+| [天数](er-functions-datetime-days.md) | 此函数返回一个 *整数* 值，此值表示一个指定日期至第二个指定日期之间的天数。 |
+| [Now](er-functions-datetime-now.md) | 此函数返回一个 *日期时间* 值，此值表示当前应用程序服务器的日期和时间。 |
+| [NullDate](er-functions-datetime-nulldate.md) | 此函数返回一个表示 **空** 日期（1900 年 1 月 1 日）的 *日期* 值。 |
+| [NullDateTime](er-functions-datetime-nulldatetime.md) | 此函数返回一个 *日期时间* 值，此值表示协调世界时的 **空** 日期/时间值（1900 年 1 月 1 日）。 |
+| [SessionNow](er-functions-datetime-sessionnow.md) | 此函数返回一个 *日期时间* 值，此值表示当前应用程序会话的日期和时间。 |
+| [SessionToday](er-functions-datetime-sessiontoday.md) | 此函数返回一个 *日期* 值，此值表示当前应用程序会话的日期。 |
+| [今天](er-functions-datetime-today.md) | 此函数返回一个 *日期* 值，此值表示当前应用程序服务器的日期。 |
 
 ## <a name="additional-resources"></a>其他资源
 

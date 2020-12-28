@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4f88c0d71b6fa6980ee8e180ae5be482a463f1c
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 0a133067ab74c711084cc1d7f456cbe49acdf79d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744663"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686922"
 ---
 # <a name="valuein-er-function"></a>VALUEIN ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`VALUEIN` 函数确定指定的输入是否匹配指定列表中任何指定项目的值。 如果指定的输入与为指定列表的至少一条记录运行指定表达式的结果匹配，它将返回*布尔*值 **TRUE**。 否则，返回*布尔*值 **FALSE**。
+`VALUEIN` 函数确定指定的输入是否匹配指定列表中任何指定项目的值。 如果指定的输入与为指定列表的至少一条记录运行指定表达式的结果匹配，它将返回 *布尔* 值 **TRUE**。 否则，返回 *布尔* 值 **FALSE**。
 
 ## <a name="syntax"></a>语法
 
@@ -41,11 +40,11 @@ VALUEIN (input, list, list item expression)
 
 `input`：*字段*
 
-*记录列表*类型的数据源项目的有效路径。 将匹配此项目的值。
+*记录列表* 类型的数据源项目的有效路径。 将匹配此项目的值。
 
 `list`：*记录列表*
 
-*记录列表*数据类型的数据源的有效路径。
+*记录列表* 数据类型的数据源的有效路径。
 
 `list item expression`：*布尔值*
 
@@ -55,7 +54,7 @@ VALUEIN (input, list, list item expression)
 
 *布尔值*
 
-生成的*布尔*值。
+生成的 *布尔* 值。
 
 ## <a name="usage-notes"></a>使用说明
 
@@ -69,7 +68,7 @@ VALUEIN (input, list, list item expression)
 
 ## <a name="example-1"></a>示例 1
 
-在模型映射中，定义*计算字段*类型的**列表**数据源。 此数据源包含表达式 `SPLIT ("a,b,c", ",")`。
+在模型映射中，定义 *计算字段* 类型的 **列表** 数据源。 此数据源包含表达式 `SPLIT ("a,b,c", ",")`。
 
 调用数据源时，如果已将其配置为 `VALUEIN ("B", List, List.Value)` 表达式，它将返回 **TRUE**。 在这种情况下，`VALUEIN` 函数转换为以下一组条件：`(("B" = "a") or ("B" = "b") or ("B" = "c"))`，其中 `("B" = "b")` 等于 **TRUE**。
 
@@ -89,8 +88,8 @@ VALUEIN (input, list, list item expression)
 
 在模型映射中定义以下数据源：
 
-- *表记录*类型的 **In** 数据源。 此数据源引用 Intrastat 表。
-- *表记录*类型的**端口**数据源。 此数据源引用 IntrastatPort 表。
+- *表记录* 类型的 **In** 数据源。 此数据源引用 Intrastat 表。
+- *表记录* 类型的 **端口** 数据源。 此数据源引用 IntrastatPort 表。
 
 在调用已配置为 `FILTER (In, VALUEIN(In.Port, Port, Port.PortId)` 表达式的数据源时，以下 SQL 语句将生成以返回筛选的 Intrastat 表记录。
 
@@ -106,8 +105,8 @@ where IntrastatPort.PortId = Intrastat.Port
 
 在模型映射中定义以下数据源：
 
-- *计算字段*类型的 **Le** 数据源。 此数据源包含表达式 `SPLIT ("DEMF,GBSI,USMF", ",")`。
-- *表记录*类型的 **In** 数据源。 此数据源引用 Intrastat 表，且已打开**跨公司**选项。
+- *计算字段* 类型的 **Le** 数据源。 此数据源包含表达式 `SPLIT ("DEMF,GBSI,USMF", ",")`。
+- *表记录* 类型的 **In** 数据源。 此数据源引用 Intrastat 表，且已打开 **跨公司** 选项。
 
 在调用已配置为 `FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)` 表达式的数据源时，最后的 SQL 语句包含以下条件。
 

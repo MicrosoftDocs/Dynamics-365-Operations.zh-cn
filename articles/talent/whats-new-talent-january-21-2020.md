@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6e18e8108a7382bfa052986bab5a8552e38100c6
-ms.sourcegitcommit: a2f9dce06322dada6b5f1c82051ef2359f8c0f12
+ms.openlocfilehash: e9dee64e94c904cfe07c6a7766f6a60b1d60a2db
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "3081833"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528112"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-january-21-2020"></a>Dynamics 365 Talent（2020 年 1 月 21 日）中的新增功能或更改的功能
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 本文介绍 Dynamics 365 Talent 中的新增功能或更改的功能。
 
@@ -57,11 +59,11 @@ ms.locfileid: "3081833"
 
 ### <a name="most-recent-annual-compensation-field-in-verify-employment-form-isnt-consistent-392092"></a>“验证雇用”窗体中最近的年度薪酬字段不一致 (392092)
 
-此版本包含一项更改，该更改将根据**验证雇用**窗体上的公司选择器显示最新货币。
+此版本包含一项更改，该更改将根据 **验证雇用** 窗体上的公司选择器显示最新货币。
 
 ### <a name="known-as-field-added-to-the-feedback-recipient-lookup-407789"></a>“称作”字段添加到了“反馈收件人”查找中 (407789)
 
-在提供绩效反馈时，对工作人员的查找没有提供足够的信息来确定反馈是否将发送给正确的人员。 我们添加了一个**称作**列以帮助标识员工的唯一名称。
+在提供绩效反馈时，对工作人员的查找没有提供足够的信息来确定反馈是否将发送给正确的人员。 我们添加了一个 **称作** 列以帮助标识员工的唯一名称。
  
 ### <a name="hcmworkerpayrollinfo-record-is-created-without-an-association-to-a-worker-394526"></a>创建了 HcmWorkerPayrollInfo 记录但未与工作人员相关联 (394526)
 
@@ -69,7 +71,7 @@ ms.locfileid: "3081833"
 
 ### <a name="able-to-edit-department-when-navigating-from-position-hierarchy-341001"></a>从职位层次结构导航时可以编辑部门 (341001)
 
-如果已设置安全性以拒绝编辑部门，则在所有情况下导航到**部门**窗体时会禁用编辑。
+如果已设置安全性以拒绝编辑部门，则在所有情况下导航到 **部门** 窗体时会禁用编辑。
 
 ## <a name="coming-soon"></a>即将推出
 
@@ -77,9 +79,9 @@ ms.locfileid: "3081833"
 
 | 说明 | 找零 |
 | --- | --- |
-| **工作/职位**实体更改 | <ul><li>添加了**薪酬区域**</li><li>添加了**财务维度**</li></ul> |
-| **工作人员**实体更改 | <ul><li>添加了**姓名顺序**</li><li>添加了**在家工作**</li><li>添加了**语言**</li><li>添加了**受聘日期**</li><li>添加了**周年纪念日日期**</li><li>添加了**原始雇用日期**</li></ul> |
-| **雇用**实体更改 | <ul><li>添加了**财务维度**</li><li>添加了**离职原因**</li><li>**转变日期**重命名为**离职日期**</li><li>添加了**试用日期**</li></ul> |
-| **工作人员地址**实体更改 | <ul><li>添加了**街道地址**</li><li>**地址行 1**、**地址行 2** 和**地址行 3** 标为弃用</li></ul> |
+| **工作/职位** 实体更改 | <ul><li>添加了 **薪酬区域**</li><li>添加了 **财务维度**</li></ul> |
+| **工作人员** 实体更改 | <ul><li>添加了 **姓名顺序**</li><li>添加了 **在家工作**</li><li>添加了 **语言**</li><li>添加了 **受聘日期**</li><li>添加了 **周年纪念日日期**</li><li>添加了 **原始雇用日期**</li></ul> |
+| **雇用** 实体更改 | <ul><li>添加了 **财务维度**</li><li>添加了 **离职原因**</li><li>**转变日期** 重命名为 **离职日期**</li><li>添加了 **试用日期**</li></ul> |
+| **工作人员地址** 实体更改 | <ul><li>添加了 **街道地址**</li><li>**地址行 1**、**地址行 2** 和 **地址行 3** 标为弃用</li></ul> |
 | 新的可变薪酬设置实体 | <ul><li>**可变薪酬计划类型**</li><li>**薪酬可变计划**</li><li>**股份行权规则**</li><li>**可变薪酬计划级别**</li></ul> |
-| 新**工作人员日历雇用**实体 | <ul><li>添加了**工作日历实体**</li></ul> |
+| 新 **工作人员日历雇用** 实体 | <ul><li>添加了 **工作日历实体**</li></ul> |

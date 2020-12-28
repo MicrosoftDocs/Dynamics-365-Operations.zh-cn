@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c288050fa1f9f1be9c38696e844e782794795471
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 1d8d9f41d6ee5256f560c83486c95ecd47f5b081
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745073"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686504"
 ---
 # <a name="listoffields-er-function"></a>LISTOFFIELDS ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`LISTOFFIELDS` 函数返回一个*记录列表*值，此值基于指定的*枚举*或*容器（记录）* 类型的参数的结构创建。
+`LISTOFFIELDS` 函数返回一个 *记录列表* 值，此值基于指定的 *枚举* 或 *容器（记录）* 类型的参数的结构创建。
 
 ## <a name="syntax-1"></a>语法 1
 
@@ -68,24 +67,24 @@ LISTOFFIELDS (path, language)
 
 创建的列表由具有以下字段的记录组成：
 
-- **名称**（*字符串*数据类型）
-- **标签**（*字符串*数据类型）
-- **描述**（*字符串*数据类型）
-- **IsTranslated**（*布尔值*数据类型）
+- **名称**（*字符串* 数据类型）
+- **标签**（*字符串* 数据类型）
+- **描述**（*字符串* 数据类型）
+- **IsTranslated**（*布尔值* 数据类型）
 
-如果 `path` 参数引用*容器（记录）* 类型的数据源，对于引用的容器记录的每个字段，都会向创建的列表中添加一条新记录。 对于创建的每个记录，**名称**字段将返回为其创建当前记录的引用容器记录的字段的名称。
+如果 `path` 参数引用 *容器（记录）* 类型的数据源，对于引用的容器记录的每个字段，都会向创建的列表中添加一条新记录。 对于创建的每个记录，**名称** 字段将返回为其创建当前记录的引用容器记录的字段的名称。
 
-如果 `path` 参数引用*枚举*类型之一的数据源，对于引用的枚举的每个枚举值，都会向创建的列表中添加一条新记录。 对于创建的每个记录，**名称**字段将返回为其创建当前记录的引用枚举的值，**描述**字段将返回该枚举的描述，**标签**字段将返回该枚举的标签。
+如果 `path` 参数引用 *枚举* 类型之一的数据源，对于引用的枚举的每个枚举值，都会向创建的列表中添加一条新记录。 对于创建的每个记录，**名称** 字段将返回为其创建当前记录的引用枚举的值，**描述** 字段将返回该枚举的描述，**标签** 字段将返回该枚举的标签。
 
-在运行时，使用语法 1 时，**标签**和**描述**字段必须返回基于正在运行的电子申报 (ER) 格式的语言设置的值：
+在运行时，使用语法 1 时，**标签** 和 **描述** 字段必须返回基于正在运行的电子申报 (ER) 格式的语言设置的值：
 
-- 如果提供了所请求语言的标签和描述，**标签**和**描述**字段将返回基于该语言的值，**IsTranslated** 字段将返回 **True**。
-- 如果未提供所请求语言的标签和描述，**标签**和**描述**字段将返回基于默认 **EN-US** 语言的值，**IsTranslated** 字段将返回 **False**。
+- 如果提供了所请求语言的标签和描述，**标签** 和 **描述** 字段将返回基于该语言的值，**IsTranslated** 字段将返回 **True**。
+- 如果未提供所请求语言的标签和描述，**标签** 和 **描述** 字段将返回基于默认 **EN-US** 语言的值，**IsTranslated** 字段将返回 **False**。
 
-在运行时，使用语法 2 时，**标签**和**描述**字段必须返回基于定义为被调用函数的第二个参数的语言的值：
+在运行时，使用语法 2 时，**标签** 和 **描述** 字段必须返回基于定义为被调用函数的第二个参数的语言的值：
 
-- 如果提供了所请求语言的标签和描述，**标签**和**描述**字段将返回基于该语言的值，**IsTranslated** 字段将返回 **True**。
-- 如果未提供所请求语言的标签和描述，**标签**和**描述**字段将返回基于 **EN-US** 语言的值，**IsTranslated** 字段将返回 **False**。
+- 如果提供了所请求语言的标签和描述，**标签** 和 **描述** 字段将返回基于该语言的值，**IsTranslated** 字段将返回 **True**。
+- 如果未提供所请求语言的标签和描述，**标签** 和 **描述** 字段将返回基于 **EN-US** 语言的值，**IsTranslated** 字段将返回 **False**。
 
 ## <a name="example-1"></a>示例 1
 
@@ -97,11 +96,11 @@ LISTOFFIELDS (path, language)
 
 - 模型枚举作为数据源插入了报表中。
 - ER 表达式将模型枚举用作 `LISTOFFIELDS` 函数的参数。
-- 使用创建的 ER 表达式将*记录列表*类型的数据源插入了报表中。
+- 使用创建的 ER 表达式将 *记录列表* 类型的数据源插入了报表中。
 
 <a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="Format" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a>
 
-以下示例显示绑定到使用 `LISTOFFIELDS` 函数创建的*记录列表*类型数据源的 ER 格式元素。
+以下示例显示绑定到使用 `LISTOFFIELDS` 函数创建的 *记录列表* 类型数据源的 ER 格式元素。
 
 <a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>
 
@@ -114,7 +113,7 @@ LISTOFFIELDS (path, language)
 
 ## <a name="example-2"></a>示例 2
 
-使用*计算字段*数据源类型为 **enumType** 数据模型枚举配置 **enumType\_de** 和 **enumType\_deCH** 数据源：
+使用 *计算字段* 数据源类型为 **enumType** 数据模型枚举配置 **enumType\_de** 和 **enumType\_deCH** 数据源：
 
 - **enumType\_de** = `LISTOFFIELDS (enumType, "de")`
 - **enumType\_deCH** = `LISTOFFIELDS (enumType, "de-CH")`

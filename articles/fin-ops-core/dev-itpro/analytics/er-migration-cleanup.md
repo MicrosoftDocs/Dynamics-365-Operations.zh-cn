@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, ERParameters, ERMigrationCleanup
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 090badd48785dfacf5942426d0fe53629f3c0cda
-ms.sourcegitcommit: 5de75c61c33e57c813944f1ab6100aceb020d432
+ms.openlocfilehash: edb60f247b2bd6cc4ecd514e3e85bafbb681788d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "3321794"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686360"
 ---
 # <a name="er-migration-cleanup"></a>ER 迁移清理 
 
@@ -35,23 +34,23 @@ ms.locfileid: "3321794"
 
 [![运行 ER 格式](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
 
-如果您导航到**配置**页面（**组织管理** \> **电子申报** \> **配置**）并位于配置树中，那么您将收到类似的错误，请尝试删除使用模板的 ER 格式配置。
+如果您导航到 **配置** 页面（**组织管理** \> **电子申报** \> **配置**）并位于配置树中，那么您将收到类似的错误，请尝试删除使用模板的 ER 格式配置。
 
 [![删除 ER 格式](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
 
 完成以下步骤来解决您无法访问 ER 模板的问题。
 
-1.  转到**组织管理** \> **定期** \> **迁移清理**页面。
+1.  转到 **组织管理** \> **定期** \> **迁移清理** 页面。
 2.  选择无法执行或删除的 ER 格式配置。
-3.  选择**删除**。
+3.  选择 **删除**。
 4.  确认删除所选的 ER 格式配置。
 5.  将已删除的 ER 格式配置[导入](download-electronic-reporting-configuration-lcs.md)到当前的 Finance 实例中。
 
 ## <a name="applicability"></a>适用性
 
-> [重要提示] **迁移清理**选项仅适用于包含不可访问的 ER 模板的 ER 格式配置。 当您使用**迁移清理**选项删除 ER 格式配置时，ER 会删除与唯一应用程序数据库中的配置项目相关的模板。 未验证 Blob 存储中是否存在合适的物理文件。 相反，假定不存在这些文件。 因此，请勿使用**迁移清理**选项代替**配置**页面上的 ER 配置删除选项。 仅当**配置**页面上的 ER 配置删除选项失效时，才使用**迁移清理**选项。
+> [重要提示] **迁移清理** 选项仅适用于包含不可访问的 ER 模板的 ER 格式配置。 当您使用 **迁移清理** 选项删除 ER 格式配置时，ER 会删除与唯一应用程序数据库中的配置项目相关的模板。 未验证 Blob 存储中是否存在合适的物理文件。 相反，假定不存在这些文件。 因此，请勿使用 **迁移清理** 选项代替 **配置** 页面上的 ER 配置删除选项。 仅当 **配置** 页面上的 ER 配置删除选项失效时，才使用 **迁移清理** 选项。
 >
-> 在 Blob 存储中有可用的引用模板时，如果使用**迁移清理**选项删除 ER 格式配置，则将仅删除应用程序数据库中的相关配置项目。 Blob 存储中的模板物理文件仍然保留。 不再允许在 Blob 存储中覆盖文件。 有关详细信息，请参阅 [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217)。 此外，您将无法再重新导入在该环境中使用迁移清理删除的配置。 要解决此问题，您需要在 Blob 存储中找到相应的文件并手动将其删除。
+> 在 Blob 存储中有可用的引用模板时，如果使用 **迁移清理** 选项删除 ER 格式配置，则将仅删除应用程序数据库中的相关配置项目。 Blob 存储中的模板物理文件仍然保留。 不再允许在 Blob 存储中覆盖文件。 有关详细信息，请参阅 [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217)。 此外，您将无法再重新导入在该环境中使用迁移清理删除的配置。 要解决此问题，您需要在 Blob 存储中找到相应的文件并手动将其删除。
 
 [![导入 ER 格式](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
 

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb1f026b6a83aa8c1de0dc5088940d7377867a8b
-ms.sourcegitcommit: 139c8007e68d279d7ca9aa302598217522abb8cb
+ms.openlocfilehash: b3f11e91d06f20d1c384c3c2c5cf9326214331ee
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "3331339"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686261"
 ---
 # <a name="electronic-reporting-formula-language"></a>电子申报公式语言
 
@@ -97,7 +96,7 @@ ER 公式设计器支持转义序列。 因此，可以指定应以不同方式�
 
 不代表字母的引用数据源的名称中的所有字符必须前加单引号 (')。 如果引用数据源的名称包含至少一个不代表字母的符号，名称必须以单引号括起。 例如，这些非字母符号可以是标点符号或其他书面符号。 下面举了一些示例加以说明：
 
-- **今日日期和时间**数据源必须在 ER 表达式中引用，如下所示：`'Today''s date & time'`。
+- **今日日期和时间** 数据源必须在 ER 表达式中引用，如下所示：`'Today''s date & time'`。
 - **Customers** 数据源的 **name()** 方法必须在 ER 表达式中引用，如下所示：`Customers.'name()'`。
 
 如果应用程序数据源的方法有参数，则使用下面的语法调用这些方法：
@@ -105,20 +104,20 @@ ER 公式设计器支持转义序列。 因此，可以指定应以不同方式�
 - 如果 **System** 数据源的 **isLanguageRTL** 方法具有 *String* 数据类型的 **EN-US** 参数，则该方法必须在 ER 表达式中引用为 `System.isLanguageRTL("EN-US")`。
 - 当方法名称仅包含一个字母数字符号时，引号不是必需的。 但是，如果名称中包含括号，则它们是表方法所必需的。
 
-当 **System** 数据源被添加到引用**全局**应用程序类的 ER 映射时，表达式 `System.isLanguageRTL("EN-US ")` 返回*布尔*值 **FALSE**。 修改后的表达式 `System.isLanguageRTL("AR")` 返回*布尔*值 **TRUE**。
+当 **System** 数据源被添加到引用 **全局** 应用程序类的 ER 映射时，表达式 `System.isLanguageRTL("EN-US ")` 返回 *布尔* 值 **FALSE**。 修改后的表达式 `System.isLanguageRTL("AR")` 返回 *布尔* 值 **TRUE**。
 
 可限制值传递到此类型方法的参数的方式：
 
 - 只有常量可传递到此类型的方法。 常量的值定义为设计时间。
-- 此类型的参数仅支持原始（基本）数据类型。 原始数据类型包括*整数*、*实数*、*布尔值*、*字符串*。
+- 此类型的参数仅支持原始（基本）数据类型。 原始数据类型包括 *整数*、*实数*、*布尔值*、*字符串*。
 
 ## <a name=""></a><a name="Paths">路径</a>
 
-在表达式引用结构化的数据源时，可以使用路径定义选择该数据源的特定基本元素。 点字符 (.) 用于分离结构化数据源的各个元素。 例如，当前的 ER 模型映射包含 **InvoiceTransactions** 数据源，并且该数据源返回记录列表。 **InvoiceTransactions** 记录结构包含 **AmountDebit** 和 **AmountCredit** 字段，并且这两个字段都将返回数值。 因此，您可以设计以下表达式来计算开票金额：`InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`。 此表达式中的 `InvoiceTransactions.AmountDebit` 构造是用于访问*记录列表*类型的 **InvoiceTransactions** 数据源的 **AmountDebit** 字段的路径。
+在表达式引用结构化的数据源时，可以使用路径定义选择该数据源的特定基本元素。 点字符 (.) 用于分离结构化数据源的各个元素。 例如，当前的 ER 模型映射包含 **InvoiceTransactions** 数据源，并且该数据源返回记录列表。 **InvoiceTransactions** 记录结构包含 **AmountDebit** 和 **AmountCredit** 字段，并且这两个字段都将返回数值。 因此，您可以设计以下表达式来计算开票金额：`InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`。 此表达式中的 `InvoiceTransactions.AmountDebit` 构造是用于访问 *记录列表* 类型的 **InvoiceTransactions** 数据源的 **AmountDebit** 字段的路径。
 
 ### <a name="relative-path"></a>相对路径
 
-如果结构化数据源的路径以“at”符号 (@) 开头，它是相对路径。 显示的是“at”符号，而不是所使用的层次结构树结构的绝对路径的其余部分。 下图显示了一个示例。 在这里，绝对路径 `Ledger.'accountingCurrency()'` 表示来自**分类帐**数据源的记帐币种值已输入到数据模型的 **AccountingCurrency** 字段中。
+如果结构化数据源的路径以“at”符号 (@) 开头，它是相对路径。 显示的是“at”符号，而不是所使用的层次结构树结构的绝对路径的其余部分。 下图显示了一个示例。 在这里，绝对路径 `Ledger.'accountingCurrency()'` 表示来自 **分类帐** 数据源的记帐币种值已输入到数据模型的 **AccountingCurrency** 字段中。
 
 ![ER 模型映射设计器页面上的绝对路径的示例](./media/ER-FormulaLanguage-AbsolutePath.png)
 

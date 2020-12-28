@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b6b4384e1b5f712c08de55195a738295a36b75e7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c7d4cacbf56243830633f4d0fd3c57071b08ab56
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204462"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527330"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>将 Sales 的销售报价单标题和行直接同步到 Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 本主题讨论用于将销售报价单标题和行直接从 Dynamics 365 Sales 同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
 
@@ -71,19 +73,19 @@ ms.locfileid: "3204462"
 仅当满足以下条件时，来自 Sales 的销售报价单同步：
 
 - 销售报价单上的所有报价产品在外部维护。
-- 在您单击**激活报价**后，销售报价单是活动的。
+- 在您单击 **激活报价** 后，销售报价单是活动的。
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>用于 Sales 的“从目标客户到现金”解决方案
 
-**仅具有外部维护的产品**字段已添加到**报价**实体以一致地跟踪销售报价单是否全部由外部维护的产品构成。 如果销售报价单只具有外部维护的产品，则产品在 Supply Chain Management 中进行维护。 此行为有助于保障你不会尝试将具有未知产品的销售报价单行同步到 Supply Chain Management。
+**仅具有外部维护的产品** 字段已添加到 **报价** 实体以一致地跟踪销售报价单是否全部由外部维护的产品构成。 如果销售报价单只具有外部维护的产品，则产品在 Supply Chain Management 中进行维护。 此行为有助于保障你不会尝试将具有未知产品的销售报价单行同步到 Supply Chain Management。
 
-销售报价单上的所有报价产品均使用来自销售报价单标头的**仅具有外部维护的产品**信息进行更新。 此信息可在 **QuoteDetails** 实体上的**报价仅具有外部维护的产品**字段中找到。
+销售报价单上的所有报价产品均使用来自销售报价单标头的 **仅具有外部维护的产品** 信息进行更新。 此信息可在 **QuoteDetails** 实体上的 **报价仅具有外部维护的产品** 字段中找到。
 
-折扣可以添加到报价产品，并且同步到 Supply Chain Management。 标题上的**折扣**、**费用**和**税金**字段由 Supply Chain Management 中的设置控制。 此设置当前不支持集成映射。 在当前设计中，**价格**、**折扣**、**费用**和**税金**字段在 Supply Chain Management 中维护和处理。
+折扣可以添加到报价产品，并且同步到 Supply Chain Management。 标题上的 **折扣**、**费用** 和 **税金** 字段由 Supply Chain Management 中的设置控制。 此设置当前不支持集成映射。 在当前设计中，**价格**、**折扣**、**费用** 和 **税金** 字段在 Supply Chain Management 中维护和处理。
 
 在 Sales 中，由于值未同步到 Supply Chain Management，因此该解决方案使以下字段只读：
 
-- 销售报价单标题上的只读字段：**折扣 %**、**折扣**和**运费**
+- 销售报价单标题上的只读字段：**折扣 %**、**折扣** 和 **运费**
 - 报价产品的只读字段：**税**
 
 ## <a name="preconditions-and-mapping-setup"></a>先决条件和映射设置
@@ -94,12 +96,12 @@ ms.locfileid: "3204462"
 
 - 确保为用户（来自 Sales 中的连接集）分配到的团队设置了权限。 如果正在使用演示数据，用户通常具有管理员访问权限，但团队没有。 如果当您从数据集成运行项目时团队没有管理员访问权限，您将收到错误消息，指示缺少主体团队。
 
-    若要为团队设置权限，转到**设置** &gt; **安全** &gt; **团队**，然后选择相关团队。 选择**管理角色**，然后选择具有所需权限的角色，如**系统管理员**。
+    若要为团队设置权限，转到 **设置** &gt; **安全** &gt; **团队**，然后选择相关团队。 选择 **管理角色**，然后选择具有所需权限的角色，如 **系统管理员**。
 
-- 转到**设置** &gt; **管理** &gt; **系统设置** &gt; **Sales**，确保使用以下设置：
+- 转到 **设置** &gt; **管理** &gt; **系统设置** &gt; **Sales**，确保使用以下设置：
 
-    - **使用系统定价计算系统**选项设置为**是**。
-    - **折扣计算方法**字段设置为**行项**。
+    - **使用系统定价计算系统** 选项设置为 **是**。
+    - **折扣计算方法** 字段设置为 **行项**。
 
 ### <a name="setup-in-the-data-integration-project"></a>数据集成项目中的设置
 
@@ -124,8 +126,8 @@ ms.locfileid: "3204462"
 ## <a name="template-mapping-in-data-integrator"></a>数据集成器中的模板映射
 
 > [!NOTE]
-> - **折扣**、**费用**和**税金**字段由 Supply Chain Management 中的复杂设置控制。 此设置当前不支持集成映射。 在当前设计中，**价格**、**折扣**、**费用**和**税金**字段由 Supply Chain Management 处理。
-> - **付款期限**、**货运条款**、**交货条款**、**装运方法**和**交货方式**字段不是默认映射的一部分。 若要映射这些字段，必须设置特定于在其中同步实体的组织中的数据的值映射。
+> - **折扣**、**费用** 和 **税金** 字段由 Supply Chain Management 中的复杂设置控制。 此设置当前不支持集成映射。 在当前设计中，**价格**、**折扣**、**费用** 和 **税金** 字段由 Supply Chain Management 处理。
+> - **付款期限**、**货运条款**、**交货条款**、**装运方法** 和 **交货方式** 字段不是默认映射的一部分。 若要映射这些字段，必须设置特定于在其中同步实体的组织中的数据的值映射。
 
 下图显示了数据集成器中的模板映射的一个示例。
 

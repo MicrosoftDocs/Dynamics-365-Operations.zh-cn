@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2addace5c5606ebaae56ca658700347978a805b
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 1d8a7d2e9beb0fc8724d26de0acaf1d61e3834c6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744711"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680282"
 ---
 # <a name="mid-er-function"></a>MID ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`MID` 函数返回*字符串*值，该值在指定位置的开始处，在指定的字符串中显示指定的字符数量。
+`MID` 函数返回 *字符串* 值，该值在指定位置的开始处，在指定的字符串中显示指定的字符数量。
 
 ## <a name="syntax"></a>语法
 
@@ -41,15 +40,15 @@ MID (text, starting position, number of characters)
 
 `text`：*字符串*
 
-指定要从中返回字符的文本的*字符串*值。
+指定要从中返回字符的文本的 *字符串* 值。
 
 `starting position`：*整数*
 
-指定必须从指定文本返回的第一个字符的位置的*整数*值。
+指定必须从指定文本返回的第一个字符的位置的 *整数* 值。
 
 `number of characters`：*整数*
 
-指定必须从指定开始位置开始返回的字符数量的*整数*值。
+指定必须从指定开始位置开始返回的字符数量的 *整数* 值。
 
 ## <a name="return-values"></a>返回值
 

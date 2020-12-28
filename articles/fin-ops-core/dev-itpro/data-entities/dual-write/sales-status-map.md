@@ -19,11 +19,11 @@ ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
 ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997666"
+ms.locfileid: "4450133"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>设置销售订单状态字段的映射
 
@@ -33,7 +33,7 @@ ms.locfileid: "3997666"
 
 ## <a name="fields-in-supply-chain-management"></a>Supply Chain Management 中的字段
 
-在 Supply Chain Management 中，两个字段反映销售订单的状态。 您必须映射的字段是 **状态** 和 **文档状态** 。
+在 Supply Chain Management 中，两个字段反映销售订单的状态。 您必须映射的字段是 **状态** 和 **文档状态**。
 
 **状态** 枚举指定订单的整体状态。 此状态显示在订单标题上。
 
@@ -44,7 +44,7 @@ ms.locfileid: "3997666"
 - 已开单
 - 已取消
 
-**文档状态** 枚举指定为订单生成的最新文档。 例如，如果订单已确认，此文档为销售订单确认。 如果销售订单已部分开票，然后确认其余行，文档状态仍为 **发票** ，因为发票是在流程后期生成的。
+**文档状态** 枚举指定为订单生成的最新文档。 例如，如果订单已确认，此文档为销售订单确认。 如果销售订单已部分开票，然后确认其余行，文档状态仍为 **发票**，因为发票是在流程后期生成的。
 
 **文档状态** 枚举具有以下值：
 
@@ -55,7 +55,7 @@ ms.locfileid: "3997666"
 
 ## <a name="fields-in-sales"></a>Sales 中的字段
 
-在 Sales 中，两个字段指示订单的状态。 您必须映射的字段是 **状态** 和 **处理状态** 。
+在 Sales 中，两个字段指示订单的状态。 您必须映射的字段是 **状态** 和 **处理状态**。
 
 **状态** 枚举指定订单的整体状态。 它具有以下值：
 
@@ -100,7 +100,7 @@ ms.locfileid: "3997666"
 要启用 **IsSOPIntegrationEnabled** 属性，请按照下列步骤操作。
 
 1. 在浏览器中，转到 `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`。 将 **\<test-name\>** 替换为您公司的 Sales 链接。
-2. 在打开的页面上，找到 **organizationid** ，记下值。
+2. 在打开的页面上，找到 **organizationid**，记下值。
 
     ![查找 organizationid](media/sales-map-orgid.png)
 
@@ -123,21 +123,21 @@ ms.locfileid: "3997666"
 
     ![浏览器控制台中的 JavaScript 代码](media/sales-map-script.png)
 
-4. 确认 **IsSOPIntegrationEnabled** 已设置为 **true** 。 使用步骤 1 中的 URL 检查此值。
+4. 确认 **IsSOPIntegrationEnabled** 已设置为 **true**。 使用步骤 1 中的 URL 检查此值。
 
     ![IsSOPIntegrationEnabled 设置为 true](media/sales-map-integration-enabled.png)
 
 要启用 **isIntegrationUser** 属性，请按照下列步骤操作。
 
-1. 在 Sales 中，转到 **设置 \> 自定义 \> 自定义系统** ，选择 **用户实体** ，然后打开 **窗体 \> 用户** 。
+1. 在 Sales 中，转到 **设置 \> 自定义 \> 自定义系统**，选择 **用户实体**，然后打开 **窗体 \> 用户**。
 
     ![打开用户窗体](media/sales-map-user.png)
 
-2. 在字段资源管理器中，找到 **集成用户模式** ，然后双击它将它添加到窗体中。 保存所做的更改。
+2. 在字段资源管理器中，找到 **集成用户模式**，然后双击它将它添加到窗体中。 保存所做的更改。
 
     ![将“集成用户模式”字段添加到窗体](media/sales-map-field-explorer.png)
 
-3. 在 Sales 中，转到 **设置 \> 安全 \> 用户** ，将视图从 **已启用用户** 更改为 **应用程序用户** 。
+3. 在 Sales 中，转到 **设置 \> 安全 \> 用户**，将视图从 **已启用用户** 更改为 **应用程序用户**。
 
     ![将视图从“已启用用户”更改为“应用程序用户”](media/sales-map-enabled-users.png)
 
@@ -145,7 +145,7 @@ ms.locfileid: "3997666"
 
     ![应用程序用户列表](media/sales-map-user-mode.png)
 
-5. 将 **集成用户模式** 字段的值更改为 **是** 。
+5. 将 **集成用户模式** 字段的值更改为 **是**。
 
     ![更改“集成用户模式”字段的值](media/sales-map-user-mode-yes.png)
 

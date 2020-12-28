@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6815a8c9f4141649532f9cd56ac3bc442b48686
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: d9d9ef51f3c8cb090f940670c4c3afae104268ed
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743319"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687954"
 ---
 # <a name="sumifs-er-function"></a>SUMIFS ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`SUMIFS` 函数返回一个*实数*值，此值表示格式元素的绑定返回的以及在格式运行期间使用格式元素生成传出文档时收集的值的总和，并且满足指定条件。 每个条件包含一个键范围和一个键值。
+`SUMIFS` 函数返回一个 *实数* 值，此值表示格式元素的绑定返回的以及在格式运行期间使用格式元素生成传出文档时收集的值的总和，并且满足指定条件。 每个条件包含一个键范围和一个键值。
 
 ## <a name="syntax"></a>语法
 
@@ -41,33 +40,33 @@ SUMIFS (key name for summing, condition 1 range, condition 1 value[, condition 2
 
 `key name for summing`：*字符串*
 
-由在电子申报 (ER) 格式组件的**已收集的数据键名**属性中配置的表达式返回的值，组件的绑定值必须用于求和。
+由在电子申报 (ER) 格式组件的 **已收集的数据键名** 属性中配置的表达式返回的值，组件的绑定值必须用于求和。
 
-可以为 ER 格式组件（位于**收集输出详细信息**选项已打开的**常见\\文件**组件下）的**数字**组件或**字符串**组件配置**已收集的数据键名**属性。
+可以为 ER 格式组件（位于 **收集输出详细信息** 选项已打开的 **常见\\文件** 组件下）的 **数字** 组件或 **字符串** 组件配置 **已收集的数据键名** 属性。
 
 `condition 1 range`：*字符串*
 
-由在 ER 格式组件的**已收集的数据键名**属性中配置的表达式返回的值。 此参数是强制性的。
+由在 ER 格式组件的 **已收集的数据键名** 属性中配置的表达式返回的值。 此参数是强制性的。
 
-可以为 ER 格式组件（位于**收集输出详细信息**选项已打开的**常见\\文件**组件下）的**序列**组件或 **XML 元素**组件配置**已收集的数据键名**属性。
+可以为 ER 格式组件（位于 **收集输出详细信息** 选项已打开的 **常见\\文件** 组件下）的 **序列** 组件或 **XML 元素** 组件配置 **已收集的数据键名** 属性。
 
 `condition 1 value`：*字符串*
 
-由在 ER 格式组件的**已收集的数据键值**属性中配置的表达式返回的值。 此参数是强制性的。
+由在 ER 格式组件的 **已收集的数据键值** 属性中配置的表达式返回的值。 此参数是强制性的。
 
-可以为 ER 格式组件（位于**收集输出详细信息**选项已打开的**常见\\文件**组件下）的**序列**组件或 **XML 元素**组件配置**已收集的数据键值**属性。
+可以为 ER 格式组件（位于 **收集输出详细信息** 选项已打开的 **常见\\文件** 组件下）的 **序列** 组件或 **XML 元素** 组件配置 **已收集的数据键值** 属性。
 
 `condition N range`：*字符串*
 
-由在 ER 格式组件的**已收集的数据键名**属性中配置的表达式返回的值。 其他参数是可选的。
+由在 ER 格式组件的 **已收集的数据键名** 属性中配置的表达式返回的值。 其他参数是可选的。
 
-可以为 ER 格式组件（位于**收集输出详细信息**选项已打开的**常见\\文件**组件下）的**序列**组件或 **XML 元素**组件配置**已收集的数据键名**属性。
+可以为 ER 格式组件（位于 **收集输出详细信息** 选项已打开的 **常见\\文件** 组件下）的 **序列** 组件或 **XML 元素** 组件配置 **已收集的数据键名** 属性。
 
 `condition N value`：*字符串*
 
-由在 ER 格式组件的**已收集的数据键值**属性中配置的表达式返回的值。 其他参数是可选的。
+由在 ER 格式组件的 **已收集的数据键值** 属性中配置的表达式返回的值。 其他参数是可选的。
 
-可以为 ER 格式组件（位于**收集输出详细信息**选项已打开的**常见\\文件**组件下）的**序列**组件或 **XML 元素**组件配置**已收集的数据键值**属性。
+可以为 ER 格式组件（位于 **收集输出详细信息** 选项已打开的 **常见\\文件** 组件下）的 **序列** 组件或 **XML 元素** 组件配置 **已收集的数据键值** 属性。
 
 ## <a name="return-values"></a>返回值
 
@@ -77,7 +76,7 @@ SUMIFS (key name for summing, condition 1 range, condition 1 value[, condition 2
 
 ## <a name="usage-notes"></a>使用说明
 
-在当前的**常见\\文件**组件的**收集输出详细信息**选项关闭时，此函数返回 **0**（零）值。
+在当前的 **常见\\文件** 组件的 **收集输出详细信息** 选项关闭时，此函数返回 **0**（零）值。
 
 在 `condition range` 参数中，通配符 **"\*"** 可用于表示多个字符。
 
@@ -85,7 +84,7 @@ SUMIFS (key name for summing, condition 1 range, condition 1 value[, condition 2
 
 ## <a name="example"></a>示例
 
-有关如何使用此函数的详细信息，请参阅[盘点和合计格式输出的 ER 使用数据](tasks/er-format-counting-summing-1.md)任务指南，这是**购置/开发 IT 服务/解决方案组件**业务流程的一部分。
+有关如何使用此函数的详细信息，请参阅 [盘点和合计格式输出的 ER 使用数据](tasks/er-format-counting-summing-1.md)任务指南，这是 **购置/开发 IT 服务/解决方案组件** 业务流程的一部分。
 
 ## <a name="additional-resources"></a>其他资源
 

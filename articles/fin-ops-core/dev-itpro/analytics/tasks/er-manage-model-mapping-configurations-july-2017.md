@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8ff3b419caafec626497c65ea18ca24ca95cb5d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143045"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684419"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>管理单独 ER 配置中的 ER 模型映射
 
@@ -66,9 +65,9 @@ ms.locfileid: "3143045"
     * 示例映射  
 4. 单击“创建配置”。
 5. 展开“先决条件”部分。
-    * 请注意，已自动添加了“实施”先决条件组。 此组中包含引用父数据模型配置的先决条件组件，并且标记为“实施”。 这意味着此“示例映射”模型映射配置被视为“示例数据模型”数据模型的实施。 因此，如果下载了“示例数据模型”模型配置，此组件将强制 ER 从 ER 存储库下载“示例映射”模型映射配置。   
+    * 已自动添加了“实施”先决条件组。 此组中包含引用父数据模型配置的先决条件组件，并且标记为“实施”。 这意味着此“示例映射”模型映射配置被视为“示例数据模型”数据模型的实施。 因此，如果下载了“示例数据模型”模型配置，此组件将强制 ER 从 ER 存储库下载“示例映射”模型映射配置。   
 6. 单击“设计器”。
-    * 请注意，创建的模型映射配置中包含一个与创建的配置同名的新空白映射。 请注意，如果所选父模型配置中包含模型映射，将把这些映射复制到新模型映射配置。   
+    * 创建的模型映射配置中包含一个与创建的配置同名的新空白映射。 如果所选父模型配置中包含模型映射，将把这些映射复制到新模型映射配置。   
 7. 单击“设计器”。
 8. 在树中，选择“Dynamics 365 for Operations\表”'。
 9. 单击“添加根”。
@@ -112,7 +111,7 @@ ms.locfileid: "3143045"
 16. 单击“运行”。
     * 在“版本”快速选项卡上，单击“运行”。  
 17. 单击“确定”。
-    * 查看其中包含运行此格式配置的用户所登录公司的名称的输出。 请注意，所创键模型映射配置由此格式配置使用，因为只有一个可用配置中包含所需模型映射。   
+    * 查看其中包含运行此格式配置的用户所登录公司的名称的输出。 所创键模型映射配置由此格式配置使用，因为只有一个可用配置中包含所需模型映射。   
 
 ## <a name="add-alternative-er-model-mapping-configuration"></a>添加备用 ER 模型映射配置
 1. 在树中，选择“示例数据模型”。
@@ -153,12 +152,12 @@ ms.locfileid: "3143045"
 ## <a name="use-an-existing-er-model-mapping-configuration"></a>使用现有 ER 模型映射配置
 1. 在树中，选择“示例数据模型\示例格式“。
 2. 单击“运行”。
-    * 请注意，不能执行所选 ER 格式配置草稿版本，因为有多个模型映射配置可用于已选择为运行 ER 格式的数据源的未定义数据模型。   
+    * 不能执行所选 ER 格式配置草稿版本，因为有多个模型映射配置可用于已选择为运行 ER 格式的数据源的未定义数据模型。   
     * 接下来，您将把备用模型映射配置定义为来自将用作运行 ER 格式的数据源的模型映射的模型映射配置。   
 3. 在树中，选择“示例数据模型\示例映射(备用)“。
 4. 在“模型映射的默认值”字段中选择“是”。
 5. 在树中，选择“示例数据模型\示例格式“。
 6. 单击“运行”。
 7. 单击“确定”。
-    * 请注意，默认模型映射配置供此格式配置用于生成电子单据（创建的输出中包含公司代码）。  
+    * 默认模型映射配置供此格式配置用于生成电子单据（创建的输出中包含公司代码）。  
 

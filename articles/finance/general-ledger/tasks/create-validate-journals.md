@@ -1,6 +1,6 @@
 ---
 title: 创建和验证日记帐
-description: 此任务指南创建并验证日记帐和日记帐行。
+description: 此过程创建并验证日记帐和日记帐行。
 author: ryansandness
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,32 +16,30 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 212227afb21ac1a20d29c33b40f6c44561da14fe
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 8ac70a6fd52a47e5edbdd21145a47c925256fa71
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144345"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646303"
 ---
 # <a name="create-and-validate-journals"></a>创建和验证日记帐
 
 [!include [banner](../../includes/banner.md)]
 
-此任务指南创建并验证日记帐和日记帐行。 此任务使用演示公司 USMF。   
+此过程创建并验证日记帐和日记帐行。 您可以使用 USMF 演示公司尝试此过程。  
 
-
-
-1. 转到“总帐”>“日记帐条目”>“普通日记帐”。
-2. 单击“新建”。
-3. 在“名称”字段中，单击下拉按钮以打开查找。
+1. 转到 **总帐 > 日记帐条目 > 普通日记帐**。
+2. 单击 **新建**。
+3. 在 **名称** 字段中，单击下拉按钮以打开查找。
 4. 在列表中，找到并选择所需记录。
-5. 单击“行”。
-6. 在“科目”字段中输入基于科目类型的相应科目。
-7. 在“描述”字段中，键入一个值。
-8. 在借方或贷方科目中输入金额。 此任务指南假定贷方金额。
-9. 在“对方科目”字段中输入基于对方科目类型的相应科目。
-10. 单击“验证”。
-11. 单击“验证”。
-12. 单击“过帐”。
-13. 单击“凭证”。
+5. 单击 **行**。
+6. 在 **科目** 字段中输入基于科目类型的相应科目。
+7. 在 **描述** 字段中，键入一个值。
+8. 在 **借方** 或 **贷方** 中输入科目的金额。 
+9. 在 **对方科目** 字段中输入基于对方科目类型的相应科目。
+10. 单击 **验证**。
+11. 单击 **验证**。
+12. 单击 **过帐**。
+13. 单击 **凭证**。
 

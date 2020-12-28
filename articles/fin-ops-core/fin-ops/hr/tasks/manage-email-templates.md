@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HRMApplicationWordBookmark, HRMApplicationEmailTemplate
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a911fea9e7d1009160a021e53533c0ce49efbfe
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 41777436a624f9b98956553243056b92a00c1ed6
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143688"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693862"
 ---
 # <a name="manage-email-templates"></a>管理电子邮件模板
 
@@ -31,20 +30,20 @@ ms.locfileid: "3143688"
 
 
 ## <a name="select-which-bookmarks-to-use-in-your-email-templates"></a>选择在您的电子邮件模板中使用的书签。
-1. 在导航窗格中，转到**模块 > 人力资源 > 招聘 > 通信 > 申请书签**。
+1. 在导航窗格中，转到 **模块 > 人力资源 > 招聘 > 通信 > 申请书签**。
 2. 在列表中，找到并选择所需通信操作。
-3. 选择**编辑**。
+3. 选择 **编辑**。
 4. 选择您想在所选定通信操作的电子邮件中使用的字段，并将其移动到“书签”字段。  
 5. 关闭该页面。
 
 ## <a name="create-an-email-template"></a>创建电子邮件模板
-1. 在导航窗格中，转到**模块 > 人力资源 > 招聘 > 通信 > 申请电子邮件模板**。
-2. 选择**新建**。
-3. 在**通信行为**字段中，选择**面试**。 选择含有用于此类型电子邮件通信的书签的通信操作。  
-4. 在**电子邮件模板**字段中，键入一个值。
-5. 在**主题**字段中，键入一个值。
-6. 在**文本**字段中，键入一个值。
+1. 在导航窗格中，转到 **模块 > 人力资源 > 招聘 > 通信 > 申请电子邮件模板**。
+2. 选择 **新建**。
+3. 在 **通信行为** 字段中，选择 **面试**。 选择含有用于此类型电子邮件通信的书签的通信操作。  
+4. 在 **电子邮件模板** 字段中，键入一个值。
+5. 在 **主题** 字段中，键入一个值。
+6. 在 **文本** 字段中，键入一个值。
 7. 在列表中，找到并选择所需“书签”字段。
 8. 继续输入您的电子邮件消息，在所需位置插入“书签”字段。
-9. 选择**保存**。
+9. 选择 **保存**。
 

@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 035bf720a892e987ff9fc073ab8ed6f6cc6ea18e
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 28f03e5e6af0f252a994f2e54b57a5ef654f4e67
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745097"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682235"
 ---
 # <a name="listjoin-er-function"></a>LISTJOIN ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`LISTJOIN` 函数返回一个*记录列表*值，此值表示根据指定参数创建的记录的新连接列表。
+`LISTJOIN` 函数返回一个 *记录列表* 值，此值表示根据指定参数创建的记录的新连接列表。
 
 ## <a name="syntax"></a>语法
 
@@ -41,11 +40,11 @@ LIST (list 1 [, list 2, …, list N])
 
 `list 1`：*记录列表*
 
-对*记录列表*数据类型的数据源的引用。 此参数是强制性的。
+对 *记录列表* 数据类型的数据源的引用。 此参数是强制性的。
 
 `list N`：*记录列表*
 
-对*记录列表*数据类型的数据源的引用。 其他参数是可选的。
+对 *记录列表* 数据类型的数据源的引用。 其他参数是可选的。
 
 ## <a name="return-values"></a>返回值
 
@@ -59,12 +58,12 @@ LIST (list 1 [, list 2, …, list N])
 
 ## <a name="example"></a>示例
 
-您输入 `Container` 类型的数据源**记录 1**。 此数据源包含 `Calculated field` 类型的以下嵌套字段：
+您输入 `Container` 类型的数据源 **记录 1**。 此数据源包含 `Calculated field` 类型的以下嵌套字段：
 
 - **代码**：此字段包含返回 `String` 类型的值的表达式。
 - **金额**：此字段包含返回 `Real` 类型的值的表达式。
 
-然后输入 `Container` 类型的数据源**记录 2**。 此数据源包含 `Calculated field` 类型的以下嵌套字段：
+然后输入 `Container` 类型的数据源 **记录 2**。 此数据源包含 `Calculated field` 类型的以下嵌套字段：
 
 - **金额**：此字段包含返回 `Real` 类型的值的表达式。
 - **IsValid**：此字段包含返回 `Boolean` 类型的值的表达式。
@@ -75,7 +74,7 @@ LIST (list 1 [, list 2, …, list N])
 
 ![带有两个记录的 ER 模型映射设计器页面](./media/er-functions-list-listjoin-image2.gif)
 
-此列表的结构由一个 `Real` 类型的**金额**字段组成，因为此字段是被调用函数每个参数中显示的唯一字段。
+此列表的结构由一个 `Real` 类型的 **金额** 字段组成，因为此字段是被调用函数每个参数中显示的唯一字段。
 
 ![ER 模型映射设计器页面金额字段](./media/er-functions-list-listjoin-image3.gif)
 

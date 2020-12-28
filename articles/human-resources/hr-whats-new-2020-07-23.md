@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 30662ccf7e37f7f1e131e3b18b5a770c53fea0d1
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: d0672e3039f54a4591db49eee00d69bf5e4278fd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3711860"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528441"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>Dynamics 365 Human Resources 的新增功能或更改（2020 年 7 月 23 日）
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Human Resources 中的新增功能和更改的功能。 更改适用于内部版本号 8.1.3416。 某些标题中括号内的数字是 LCS 支持号码，供您参考。
 
@@ -35,7 +37,7 @@ ms.locfileid: "3711860"
 
 ## <a name="positions-not-in-hierarchy-show-inactive-positions-397257"></a>不在层次结构中的位置显示无效职位 (397257)
 
-无效的位置（持续时间已过）将不再在位置层次结构中显示为**不在层次结构中的位置**。 
+无效的位置（持续时间已过）将不再在位置层次结构中显示为 **不在层次结构中的位置**。 
 
 ## <a name="validation-occurring-between-leaveenrollmententity-and-hcmworkerentity-on-data-management-framework-dmf-import-causes-slow-data-loads-442324"></a>在数据管理框架 (DMF) 导入时在 LeaveEnrollmentEntity 和 HcmWorkerEntity 之间进行的验证导致数据加载缓慢 (442324)
 
@@ -43,13 +45,13 @@ ms.locfileid: "3711860"
 
 ## <a name="unable-to-personalize-in-organization-administration-447490"></a>无法在“组织管理”中个性化 (447490)
 
-进行此更改后，您现在可以在**组织管理**中个性化链接。
+进行此更改后，您现在可以在 **组织管理** 中个性化链接。
 
 ## <a name="in-preview"></a>预览模式
 
 ## <a name="mandatory-fields"></a>必填字段 
 
-现在可使用 Human Resources 个性化功能将字段设置为必填字段。 此功能需要**保存的视图**。
+现在可使用 Human Resources 个性化功能将字段设置为必填字段。 此功能需要 **保存的视图**。
 
 ## <a name="human-resources-application-in-teams"></a>Teams 中的 Human Resources 应用程序
 

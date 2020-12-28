@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-02-14
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 32f3bab38233833498ed566fa1558a023b3bc0dd
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899212"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460458"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-february-14-2019"></a>Dynamics 365 Talent（2019 年 2 月 14 日）中的新增功能或更改
 
@@ -39,13 +39,13 @@ ms.locfileid: "2899212"
 **内部版本 8.1.2146**
 
 ### <a name="employee-fixed-compensation-entity-doesnt-export-all-records"></a>员工固定薪酬实体无法导入所有记录
-通过此更改，**员工固定薪酬**实体现在可以导入所有记录。 此实体可用于为员工创建固定薪酬记录和更新现有固定薪酬记录。 
+通过此更改，**员工固定薪酬** 实体现在可以导入所有记录。 此实体可用于为员工创建固定薪酬记录和更新现有固定薪酬记录。 
 
 ### <a name="employment-end-date-doesnt-honor-employee-preferred-time-zone-settings"></a>雇佣结束日期不遵守员工的首选时区设置
 创建或终止与公司之间的雇佣时，雇佣结束日期现在遵守用户的首选时区。
  
 ### <a name="uk-addresses-display-in-analytics-as-eastern-switzerland-addresses"></a>英国地址在 Analytics 中显示为瑞士东部地区地址
-在此版本中，已进行了更改来更正**人员管理**的“按位置分类的人数”报告中的地址不一致。
+在此版本中，已进行了更改来更正 **人员管理** 的“按位置分类的人数”报告中的地址不一致。
  
 ### <a name="termination-code-is-not-populated-on-the-worker-position-assignment-record-when-ending-the-position"></a>终止职位时工作人员职位分配记录中不填充离职代码
 已进行了更改，现在终止员工职位分配时间默认采用“离职原因”代码。

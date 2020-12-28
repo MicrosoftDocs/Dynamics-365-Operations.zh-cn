@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cef61787e50561eaac4fd52741ab5f90d9c4171d
-ms.sourcegitcommit: d9125c20b21459076e4fd92fd9ebfe2e53a0431b
+ms.openlocfilehash: a12f88f1e8b5e451bc8a5c5486d820da61bf3ad0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "3406489"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684779"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER 将财务维度用作数据源（第 3 部分 - 设计报表）
 

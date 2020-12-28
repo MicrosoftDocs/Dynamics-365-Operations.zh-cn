@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: 270314
 ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4e12abceeef59d05fa21cb030b8aa738842cafb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: bd5558c89130b48595a9b889072a18a4416b5bd7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982789"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683887"
 ---
 # <a name="cost-management-power-bi-content"></a>成本管理 Power BI 内容
 
@@ -35,27 +34,27 @@ ms.locfileid: "3982789"
 **成本管理** Microsoft Power BI 内容面向库存核算师或负责库存或在制品 (WIP) 的状态或对此类状态感兴趣的个人，或负责分析标准成本差异或对此类差异感兴趣的人员。
 
 > [!NOTE]
-> 本主题中介绍的**成本管理** Power BI 内容适用于 Dynamics 365 Finance and Operations 8.0。
+> 本主题中介绍的 **成本管理** Power BI 内容适用于 Dynamics 365 Finance and Operations 8.0。
 > 
-> 已废弃了 AppSource 站点中的**成本管理** Power BI 内容包。 有关此项废弃的详细信息，请参阅 [Finance and Operations 的移除或弃用功能](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)。
+> 已废弃了 AppSource 站点中的 **成本管理** Power BI 内容包。 有关此项废弃的详细信息，请参阅 [Finance and Operations 的移除或弃用功能](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)。
 
 此 Power BI 内容提供分类格式，帮助您监控库存性能，并显示库存中的成本分布。 您可获取管理见解，如周转率、现货库存天数，以及首选聚合级别的“ABC 分类”（公司、物料、物料组或站点）。 也可以将可用信息用作财务报表的详细补充。
 
-此 Power BI 内容基于 **CostObjectStatementCacheMonthly** 聚合度量构建，后者采用 **CostObjectStatementCache** 表充当主要数据源。 此表由数据集高速缓存框架管理。 默认情况下，此表每隔 24 小时更新一次，但是您可以在数据集高速缓存配置中更改更新频率或启用手动更新。 可以在**成本管理**工作区或**成本分析**工作区中运行手动更新。
+此 Power BI 内容基于 **CostObjectStatementCacheMonthly** 聚合度量构建，后者采用 **CostObjectStatementCache** 表充当主要数据源。 此表由数据集高速缓存框架管理。 默认情况下，此表每隔 24 小时更新一次，但是您可以在数据集高速缓存配置中更改更新频率或启用手动更新。 可以在 **成本管理** 工作区或 **成本分析** 工作区中运行手动更新。
 
 每次更新 **CostObjectStatementCache** 表之后，必须先更新 **CostObjectStatementCacheMonthly** 聚合度量，再更新 Power BI 可视化中的数据。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 
-**成本管理** Power BI 内容在**成本管理**和**成本分析**工作区中显示。
+**成本管理** Power BI 内容在 **成本管理** 和 **成本分析** 工作区中显示。
 
-**成本管理**工作区中包含以下选项卡：
+**成本管理** 工作区中包含以下选项卡：
 
 - **概述** – 此选项卡显示应用程序数据。
 - **库存会计状态** – 此选项卡显示 Power BI 内容。
 - **制造会计状态** – 此选项卡显示 Power BI 内容。
 
-**成本分析**工作区中包含以下选项卡：
+**成本分析** 工作区中包含以下选项卡：
 
 - **概述** – 此选项卡显示应用程序数据。
 - **库存会计分析** – 此选项卡显示 Power BI 内容。
@@ -66,7 +65,7 @@ ms.locfileid: "3982789"
 
 **成本管理** Power BI 内容包括一组含有一组指标的报表页。 这些指标显示为图表、磁贴和表。 
 
-下面的表概要介绍**成本管理** Power BI 内容中的可视化。
+下面的表概要介绍 **成本管理** Power BI 内容中的可视化。
 
 ### <a name="inventory-accounting-status"></a>库存会计状态
 
@@ -172,7 +171,7 @@ ms.locfileid: "3982789"
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
 
-将使用来自应用程序的数据填充**成本管理** Power BI 内容中的报表页。 这些数据表示为实体商店（这是针对分析进行了优化的 Microsoft SQL Server 数据库）中暂存的聚合度量。 有关详细信息，请参阅 [Power BI 与实体商店集成](power-bi-integration-entity-store.md)。
+将使用来自应用程序的数据填充 **成本管理** Power BI 内容中的报表页。 这些数据表示为实体商店（这是针对分析进行了优化的 Microsoft SQL Server 数据库）中暂存的聚合度量。 有关详细信息，请参阅 [Power BI 与实体商店集成](power-bi-integration-entity-store.md)。
 
 以下对象的关键聚合度量用作 Power BI 内容的基础。
 

@@ -1,7 +1,7 @@
 ---
 title: 将固定资产交易记录过帐到过帐层
 description: 本文提供固定资产交易记录的过帐层功能的概览。
-author: ShylaThompson
+author: moaamer
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 3001
 ms.assetid: 7dabde57-0843-47c3-85ef-f36b6f472e30
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc8c4f4f41ed39447ae441dd8e01cfcf80c939b5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a80e4d1a081b5bd8c58238b0f154f8fbdc660ccb
+ms.sourcegitcommit: f80819c67c0a7475315fc68ce1cb568831e2c0e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770704"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4493664"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>将固定资产交易记录过帐到过帐层
 
@@ -39,8 +39,11 @@ ms.locfileid: "2770704"
 
 您可以在“固定资产过帐模板”页指定固定资产交易记录的会计科目。 对于每个过帐模板，都必须选择相关的交易记录类型和帐簿，然后指定会计科目。 设置要过帐到总帐的每个帐簿的过帐模板记录。
 
+只能在支持 **当前** 过帐层的文档（如 **采购订单**、**待定供应商发票**、**销售订单** 或 **普通发票**）中输入固定资产。 如果在这些文档中的任何一个中选择固定资产 ID，资产帐簿都会筛选到 **当前** 过帐层，并且在过帐期间当系统验证固定资产过帐层是否为 **当前** 过帐层时，将自动填充。 如果无法完成此项验证，将停止过帐过程。 
+
 > [!NOTE] 
-> 使用衍生帐簿，可以将交易记录同时过帐到不同的过帐层。 可以在过帐层对应于帐簿过帐层的日记帐中创建主帐簿的交易记录。 在过帐期间，衍生帐簿交易记录将过帐到相应的过帐层。
+> 使用衍生帐簿，可以将交易记录同时过帐到不同的过帐层。 将在过帐层对应于帐簿过帐层的日记帐或源文档中创建主帐簿的交易记录。 在过帐期间，衍生帐簿交易记录将过帐到相应的过帐层。 
+
 
 有关详细信息，请参阅[衍生帐簿](derived-books.md)和[使用衍生帐簿过帐](post-derived-value-models.md)。
 

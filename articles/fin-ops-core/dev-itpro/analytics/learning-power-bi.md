@@ -10,32 +10,31 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8f97d4f59765840e215710e666079df3d4ecb878
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 46b7a442470d1fe78ebc5c9d5a0c6e155c0d9918
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005771"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685241"
 ---
 # <a name="learning-power-bi-content"></a>学习 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述**学习** Microsoft Power BI 内容。
+此主题描述 **学习** Microsoft Power BI 内容。
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 
-此**学习** Power BI 内容中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
+此 **学习** Power BI 内容中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
 
 | 报告                | 内容 |
 |-----------------------|----------|
 | 学习概览     | 其他报表的汇总 |
-| 课程分析       | 按位置分类的登记、按状态分类的参与者、各公司按类型分类的课程，以及按作业分类的课程参与者 |
+| 课程分析       | 按位置分类的登记、按状态分类的参与者、各公司按类型分类的课程，以及按作业分类的课程参与者 |
 | 登记分析 | 登记列表 |
 | 课程类型          | 课程类型(按技能) |
 | 教师分析   | 课程与教师的比率、教师数量、按教师分类的课程、各教师的课程，以及按教师分类的课程安排 |
@@ -46,7 +45,7 @@ ms.locfileid: "3005771"
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
 
-以下数据用于填充**学习** Power BI 内容中的报表。 此表显示内容所基于的实体。
+以下数据用于填充 **学习** Power BI 内容中的报表。 此表显示内容所基于的实体。
 
 | 实体           | 内容                                                         | 与其他实体之间的关系 |
 |------------------|------------------------------------------------------------------|-----------------------------------|

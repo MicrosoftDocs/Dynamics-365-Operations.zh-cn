@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-11-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 48de07178acfaccf11e0a02b2848bf24e6ccc117
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: c4068cf81782d2f9559179b91da31e049c006059
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896765"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527112"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-5-2019"></a>Dynamics 365 Talent 中的新增功能和更改（2019 年 11 月 5 日）
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
@@ -59,7 +61,7 @@ ms.locfileid: "2896765"
 
 ### <a name="a-positions-available-for-assignment-date-can-be-earlier-than-the-activation-date-340103"></a>职位的“可用于分配日期”可以早于“启用日期”(340103)
 
-进行此更改后，如果您选择早于职位**启用日期**的**可用于分配日期**，会出现警告。
+进行此更改后，如果您选择早于职位 **启用日期** 的 **可用于分配日期**，会出现警告。
 
 ### <a name="cant-create-a-compensation-change-request-in-employee-self-service-for-step-based-plans-376872"></a>无法在基于步骤的计划的员工自助服务中创建薪酬更改请求 (376872)
 
@@ -69,11 +71,11 @@ ms.locfileid: "2896765"
 
 进行此更改后，将在 Common Data Service 中更新具有 30 个以上字符的原因代码。 Common Data Service 中所做的更改也将反映在 Talent 中。
 
-### <a name="address-integration-from-talent-to-finance-and-operations-351961"></a>从 Talent 到 Finance and Operations 的地址集成 (351961)
+### <a name="address-integration-from-talent-to-finance-and-operations-351961"></a>解决从 Talent 到 Finance and Operations 的集成 (351961)
 
-此发布修复了在 Talent 中更新的地址不在 Finance and Operations 中更新的问题。 对地址块的更改现在将更新。
+此版本修复了在 Talent 中更新的地址不在 Finance and Operations 中更新的问题。 对地址块的更改现在将更新。
 
-## <a name="coming-soon"></a>即将到期
+## <a name="coming-soon"></a>即将推出
 
 ### <a name="print-performance-reviews"></a>打印绩效复查
 

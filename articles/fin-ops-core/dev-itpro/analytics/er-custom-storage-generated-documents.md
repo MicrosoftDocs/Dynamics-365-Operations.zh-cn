@@ -10,17 +10,16 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 98c08ae2ab4c7cceadb6caaf98fa431e56be4b97
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 5e9afad936a353c8db3c316ad45c4ce28d33b129
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042726"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680798"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>为生成的单据指定自定义存储位置
 
@@ -58,8 +57,8 @@ ms.locfileid: "3042726"
 
 1. 为之前创建或导入的 ER 格式添加新的[单据类型](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management)。 在下图中，单据类型为 **FileX**。
 2. 若要区分此单据类型和其他单据类型，请在其名称中包含特定关键词。 例如，在下图中，名称为 **(LOCAL) 文件夹**。
-3. 在**类**字段中，指定**附加文件**。
-4. 在**组**字段中，指定**文件**。
+3. 在 **类** 字段中，指定 **附加文件**。
+4. 在 **组** 字段中，指定 **文件**。
 
 ![“单据类型”页面](media/er-extend-file-storages-document-type.png)
 
@@ -113,8 +112,8 @@ public DocuRef insertFile(
 
 如果处理以下 ER 目标，将引发 **AttachingFile()** 事件。
 
-- **存档** – 如果使用此目标，将在 ERFormatMappingRunJobTable 表中为运行的 ER 格式创建一个新记录。 此记录的**已存档**字段设置为 **False**。 如果 ER 格式运行成功，将把生成的单据附加到此记录，并引发 **AttachingFile()** 事件。 此 ER 目标中选择的单据类型决定附加的文件的存储位置（Microsoft Azure 存储或 Microsoft SharePoint 文件夹）。
-- **作业存档** – 如果使用此目标，将在 ERFormatMappingRunJobTable 表中为运行的 ER 窗体创建一个新记录。 此记录的**已存档**字段设置为 **True**。 如果 ER 格式运行成功，将把生成的单据附加到此记录，并引发 **AttachingFile()** 事件。 此 ER 参数中配置的单据类型决定附加的文件的存储位置（Azure 存储或 Microsoft SharePoint 文件夹）。
+- **存档** – 如果使用此目标，将在 ERFormatMappingRunJobTable 表中为运行的 ER 格式创建一个新记录。 此记录的 **已存档** 字段设置为 **False**。 如果 ER 格式运行成功，将把生成的单据附加到此记录，并引发 **AttachingFile()** 事件。 此 ER 目标中选择的单据类型决定附加的文件的存储位置（Microsoft Azure 存储或 Microsoft SharePoint 文件夹）。
+- **作业存档** – 如果使用此目标，将在 ERFormatMappingRunJobTable 表中为运行的 ER 窗体创建一个新记录。 此记录的 **已存档** 字段设置为 **True**。 如果 ER 格式运行成功，将把生成的单据附加到此记录，并引发 **AttachingFile()** 事件。 此 ER 参数中配置的单据类型决定附加的文件的存储位置（Azure 存储或 Microsoft SharePoint 文件夹）。
 
 ![“电子申报参数”页面](media/er-extend-file-storages-parameters.png)
 
@@ -169,7 +168,7 @@ public DocuRef insertFile(
 ## <a name="run-the-er-format-that-you-created-or-imported"></a>运行创建或导入的 ER 格式
 
 1. 执行创建或导入的 ER 格式。
-2. 转到**组织管理 \> 电子报表 \> 电子报表作业**。 找到为此执行作业创建且生成的文件附加到的记录。
+2. 转到 **组织管理 \> 电子报表 \> 电子报表作业**。 找到为此执行作业创建且生成的文件附加到的记录。
 3. 浏览本地 **C:\\0** 文件夹以查找同一个生成的文件。
 
 ## <a name="additional-resources"></a>其他资源

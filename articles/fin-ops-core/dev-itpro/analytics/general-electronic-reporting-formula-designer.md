@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14539ed6c00915b7d59a5a3c4870ab6d1a96ad95
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d96fe041fd0ffb292909c1e724068efebe0184b9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002512"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682641"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>电子申报中 (ER) 的配方设计器
 
@@ -39,7 +38,7 @@ ER 支持公式设计器。 因此，在设计时，您可以配置在运行时�
 - 设置必须发送到生成电子单据的数据的格式，以便满足特定 ER 格式的布局和条件。 （例如，可以根据请求的语言、文化或编码完成格式化）。
 - 控制电子单据的创建过程。 （例如，表达式可根据处理数据启用或禁用该格式的特定元素的输出。 还可以中断单据创建过程，或向用户显示消息。）
 
-执行以下任何操作时，可打开**公式设计器**页面：
+执行以下任何操作时，可打开 **公式设计器** 页面：
 
 - 数据源物料绑定到数据模型组件。
 - 数据源物料绑定到格式组件。
@@ -51,7 +50,7 @@ ER 支持公式设计器。 因此，在设计时，您可以配置在运行时�
 - 定义流程控制验证的条件。
 - 定义流程控制验证的消息文本。
 
-## <a name="Binding"></a>数据绑定
+## <a name="data-binding"></a><a name="Binding"></a>数据绑定
 
 ER 公式设计器可以用于定义转换接收自数据源的数据的表达式，以便数据在运行时可以按以下方式在数据用户中输入数据：
 
@@ -63,17 +62,17 @@ ER 公式设计器可以用于定义转换接收自数据源的数据的表达�
 
 [![数据绑定表达式](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
 
-下图显示了如何使用此类表达式。 在此示例中，设计的表达式的结果输入在**纳税申报模型**数据模型的 **Transaction.InvoicedAmount** 组件中。
+下图显示了如何使用此类表达式。 在此示例中，设计的表达式的结果输入在 **纳税申报模型** 数据模型的 **Transaction.InvoicedAmount** 组件中。
 
 [![使用的数据绑定表达式](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
 
-运行时，设计的公式 `ROUND (Intrastat.AmountMST, 2)` 将内部统计表中各记录的 **AmountMST** 字段的值舍入为两位小数。 然后在**纳税申报**数据模型的 **Transaction.InvoicedAmount** 组件中输入化整后的值。
+运行时，设计的公式 `ROUND (Intrastat.AmountMST, 2)` 将内部统计表中各记录的 **AmountMST** 字段的值舍入为两位小数。 然后在 **纳税申报** 数据模型的 **Transaction.InvoicedAmount** 组件中输入化整后的值。
 
-## <a name="Transformation"></a>数据格式设置
+## <a name="data-formatting"></a><a name="Transformation"></a>数据格式设置
 
 ER 配方设计器可以用于定义确定接收自数据源的数据的格式的表达式，以便数据可以作为生成电子文档的一部分发送。 可能必须将格式设置作为应对某种格式重复使用的典型规则来应用。 在这种情况下，可将该格式设置在格式配置中引入一次，作为具有格式设置表达式的指定转换。 此指定的转换然后可链接到许多格式组件，这些组件是必须根据创建的格式表达式设置其输出的格式。
 
-下图显示了此类转换的设计。 在此示例中，**TrimmedString** 转换通过去除前导空格和尾随空格截断*字符串*数据类型的传入数据。 然后返回截断后的字符串值。
+下图显示了此类转换的设计。 在此示例中，**TrimmedString** 转换通过去除前导空格和尾随空格截断 *字符串* 数据类型的传入数据。 然后返回截断后的字符串值。
 
 [![转换](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
 
@@ -87,7 +86,7 @@ ER 配方设计器可以用于定义确定接收自数据源的数据的格式�
 
 [![将格式应用于单个组件](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
-## <a name="Validation"></a>流程控制
+## <a name="process-flow-control"></a><a name="Validation"></a>流程控制
 
 ER 格式设计器可用于定义控制生成电子单据的流程的表达式。 您可以执行以下任务：
 
@@ -112,9 +111,9 @@ ER 配方设计器还可用于生成文件名来生成电子单据和控制文�
 
 [![流程控制](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
-## <a name="Enabled"></a>单据内容控制
+## <a name="document-content-control"></a><a name="Enabled"></a>单据内容控制
 
-可使用 ER 配方设计器配置表达式，用于控制运行时将哪些数据放到生成的电子单据中。 这些表达式可根据处理数据和配置的逻辑启用或禁用该格式的特定元素的输出。 可以在**工序设计器**页**映射**选项卡上的**启用**字段中为单个格式元素输入这些表达式。 您可以作为返回*布尔*值的逻辑条件输入表达式：
+可使用 ER 配方设计器配置表达式，用于控制运行时将哪些数据放到生成的电子单据中。 这些表达式可根据处理数据和配置的逻辑启用或禁用该格式的特定元素的输出。 可以在 **工序设计器** 页 **映射** 选项卡上的 **启用** 字段中为单个格式元素输入这些表达式。 您可以作为返回 *布尔* 值的逻辑条件输入表达式：
 
 - 如果条件返回 **True**，当前格式元素将运行。
 - 如果条件返回 **False**，当前格式元素将跳过。
@@ -139,25 +138,25 @@ ER 配方设计器还可用于生成文件名来生成电子单据和控制文�
 > 
 > 根据此设置，为每笔借方付款生成的消息（**Ustrd** XML 元素）中将包含付款附注的文本，或当该文本为空时，则包含用于结算此付款的以逗号分隔的发票编号列表。
 
-## <a name="TestFormula"></a>验证配置的公式
+## <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>验证配置的公式
 
-在**公式设计器**页面，选择**测试**验证配置的公式如何工作。
+在 **公式设计器** 页面，选择 **测试** 验证配置的公式如何工作。
 
 [![选择“测试”验证公式](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
 
-当需要公式参数的值时，可以从**公式设计器**页打开**测试表达式**对话框。 在大多数情况下，这些参数必须手动定义，因为配置的绑定不是在设计时运行。 **公式设计器**页面的**测试结果**选项卡将显示执行已配置公式的结果。
+当需要公式参数的值时，可以从 **公式设计器** 页打开 **测试表达式** 对话框。 在大多数情况下，这些参数必须手动定义，因为配置的绑定不是在设计时运行。 **公式设计器** 页面的 **测试结果** 选项卡将显示执行已配置公式的结果。
 
 下面的示例显示如何测试为外贸域配置的公式，以确保内部统计商品代码仅包含数字。
 
-测试此公式时，可以使用**测试表达式**对话框来指定用于测试的内部统计商品代码的值。
+测试此公式时，可以使用 **测试表达式** 对话框来指定用于测试的内部统计商品代码的值。
 
 [![指定用于测试的内部统计商品代码](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
 
-指定内部统计商品代码并选择**确定**后，**公式设计器**页面**测试结果**选项卡将显示执行已配置公式的结果。 然后，您可以评估结果是否可接受。 如果结果不可接受，您可以更新公式并再次进行测试。
+指定内部统计商品代码并选择 **确定** 后，**公式设计器** 页面 **测试结果** 选项卡将显示执行已配置公式的结果。 然后，您可以评估结果是否可接受。 如果结果不可接受，您可以更新公式并再次进行测试。
 
 [![测试结果](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
 
-有些公式无法在设计时测试。 例如，公式可能会返回无法显示在**测试结果**选项卡上的数据类型的结果。在这种情况下，您会收到一条错误消息，指示该公式无法测试。
+有些公式无法在设计时测试。 例如，公式可能会返回无法显示在 **测试结果** 选项卡上的数据类型的结果。在这种情况下，您会收到一条错误消息，指示该公式无法测试。
 
 [![错误消息](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
 

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DirParameters
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ebe68f926848c86843be04977f58d89e7a54509b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 24d89e061cc3dfc4ef0d350730525ac5ab7af775
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143872"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694657"
 ---
 # <a name="configure-the-global-address-book"></a>配置全球通讯簿
 
@@ -31,18 +30,18 @@ ms.locfileid: "3143872"
 
 创建此任务的演示数据公司是 USMF。 此任务专门面向“规划和配置团队”。
 
-1. 在导航窗格中，转到**模块 > 组织管理 > 全球通讯簿 > 全球通讯簿参数**。
-2. 在**姓名顺序**字段中，选择应如何显示姓名。
-3. 在**删除不含角色的当事方**中，选择是否删除没有为其分配角色的当事方。
-4. 在**使用重复项检查**中，选择是否要检查重复记录。
-5. 在**显示地址上的 DUNS 编号**中，选择是否要在地址上显示 DUNS 编号。
-6. 在**检查唯一 DUNS 编号**中，选择是否检查唯一 DUNS 编号。
-7. 在**当事方**字段中，选择一个选项。
-8. 在**客户**字段中，选择一个选项。
-9. 在**供应商**字段中，选择一个选项。
-10. 在**目标客户**字段中，选择一个选项。
-11. 在**竞争对手**字段中，选择一个选项。
-12. 单击**专用位置安全**选项卡。
-13. 在列表中，找到并选择所需记录。 按下 SHIFT 键选择多个角色，以添加到**选定角色**窗格中，然后单击箭头添加选定的角色。  
-14. 单击**保存**。
+1. 在导航窗格中，转到 **模块 > 组织管理 > 全球通讯簿 > 全球通讯簿参数**。
+2. 在 **姓名顺序** 字段中，选择应如何显示姓名。
+3. 在 **删除不含角色的当事方** 中，选择是否删除没有为其分配角色的当事方。
+4. 在 **使用重复项检查** 中，选择是否要检查重复记录。
+5. 在 **显示地址上的 DUNS 编号** 中，选择是否要在地址上显示 DUNS 编号。
+6. 在 **检查唯一 DUNS 编号** 中，选择是否检查唯一 DUNS 编号。
+7. 在 **当事方** 字段中，选择一个选项。
+8. 在 **客户** 字段中，选择一个选项。
+9. 在 **供应商** 字段中，选择一个选项。
+10. 在 **目标客户** 字段中，选择一个选项。
+11. 在 **竞争对手** 字段中，选择一个选项。
+12. 单击 **专用位置安全** 选项卡。
+13. 在列表中，找到并选择所需记录。 按下 SHIFT 键选择多个角色，以添加到 **选定角色** 窗格中，然后单击箭头添加选定的角色。  
+14. 单击 **保存**。
 

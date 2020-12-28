@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ad8513477c7f9243fa3ee5d99569c048ffada97d
-ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
+ms.openlocfilehash: a3bb6b809560688a7849b60c15a01fd89038e843
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "3823714"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527426"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Dynamics 365 Human Resources（2020 年 9 月 16 日）中的新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Human Resources 中的新增功能和更改的功能。 更改适用于内部版本号 8.1.3557。 部分功能旁边括号内的数字是 Lifecycle Services (LCS) 支持编号，以供参考。
 
@@ -33,9 +35,9 @@ ms.locfileid: "3823714"
 
 -  [已保存视图 - 正式发布](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)<br>- 有关详细信息，请参阅[已保存视图](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/saved-views)。 
 
-- **职位操作**窗体具有更新的维度网格和新对话框 (469495)。
+- **职位操作** 窗体具有更新的维度网格和新对话框 (469495)。
 
-- 如果您在 **Human Resources 共享参数**的**高级访问**中将**限制访问工作人员信息**设置为“是”，福利窗体现在仅显示适当的工作人员 (393384)。
+- 如果您在 **Human Resources 共享参数** 的 **高级访问** 中将 **限制访问工作人员信息** 设置为“是”，福利窗体现在仅显示适当的工作人员 (393384)。
 
 - **WorkCalendar** 实体中的新日历生成选项 (477055)：<br>- 默认结束时间<br>- 默认开始时间<br>- 星期五工作日<br>- 星期一工作日<br>- 星期六工作日<br>- 星期日工作日<br>- 星期四工作日<br>- 星期二工作日<br>- 星期三工作日<br>- 工作日历假日 ID
 
@@ -45,11 +47,11 @@ ms.locfileid: "3823714"
 
 - 数据现在已成功从 **HCMWorkerContactEntity** 发布 (427620)。
 
-- 现在，在**工作人员操作**窗体中为合同工工作人员类型显示**薪酬**快速选项卡 (482494)。
+- 现在，在 **工作人员操作** 窗体中为合同工工作人员类型显示 **薪酬** 快速选项卡 (482494)。
 
-- 现在，如果您设置了**固定薪酬**，**级别**和**计划**是必填字段。 如果将这些字段保留为空白，将显示错误消息 (482497)。
+- 现在，如果您设置了 **固定薪酬**，**级别** 和 **计划** 是必填字段。 如果将这些字段保留为空白，将显示错误消息 (482497)。
 
-- 现在，**福利**中的**计划类型**字段是一个下拉列表 (488768)。
+- 现在，**福利** 中的 **计划类型** 字段是一个下拉列表 (488768)。
 
 - 如果从 Human Resources 中删除了自定义字段，系统管理员现在会收到通知 (481408)。
 
@@ -59,13 +61,13 @@ ms.locfileid: "3823714"
 
 - 经理无法再从到期的标识号中删除数据范围筛选器 (485321)。
 
-- 当**报告**字段为空时，将鼠标悬停在职位上仍会显示职位详细信息 (433328)。
+- 当 **报告** 字段为空时，将鼠标悬停在职位上仍会显示职位详细信息 (433328)。
 
 - 员工现在可以在员工自助服务中查看福利计划信息 (481676)。
 
 - 员工现在可以查看所有已注册的课程 (429048)。
 
-- 现在，您可以限制**专业证书**页的查看选项。 您可以按工作人员状态和工作人员类型将查看选项限制为当前法人 (451501)。 
+- 现在，您可以限制 **专业证书** 页的查看选项。 您可以按工作人员状态和工作人员类型将查看选项限制为当前法人 (451501)。 
 
 
 ## <a name="in-preview"></a>预览模式
@@ -92,7 +94,7 @@ ms.locfileid: "3823714"
 
 ### <a name="configuration-option-to-position-work-items-assigned-to-me-list-477004"></a>用于定位“分配给我的工作项”列表的配置选项 (477004)
 
-现在在仪表板右侧列中提供了一个新的选项，用于定位**分配给我的工作项**列表。 通过此更改，所有工作项和待办事宜列表在同一个区域显示。 请通过在功能管理中打开**预览 - 工作流体验增强**启用此功能。 有关打开预览功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。
+现在在仪表板右侧列中提供了一个新的选项，用于定位 **分配给我的工作项** 列表。 通过此更改，所有工作项和待办事宜列表在同一个区域显示。 请通过在功能管理中打开 **预览 - 工作流体验增强** 启用此功能。 有关打开预览功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。
 
 此功能还可以用于升级个人操作窗体中显示的工作流选项。 工作流选项还在操作快速选项卡上方显示，以便加快访问速度。 有关详细信息，请参阅： 
 
@@ -114,7 +116,7 @@ Common Data Service 内很快将为入职、离职、转移和业务流程提供
 
 ### <a name="benefits-management-reason-codes"></a>福利管理原因代码
 
-福利管理原因代码很快将与 Human Resources 中的现有原因代码合并。 如果在福利管理中创建了超过 15 个字符的原因代码，则必须在福利管理**原因代码**窗体中将该原因代码的名称更改为 15 个字符或更少。 更新名称后，该原因代码将在个人管理中现有原因代码窗体下显示。 此更改将在以后推出，不会影响现有功能。
+福利管理原因代码很快将与 Human Resources 中的现有原因代码合并。 如果在福利管理中创建了超过 15 个字符的原因代码，则必须在福利管理 **原因代码** 窗体中将该原因代码的名称更改为 15 个字符或更少。 更新名称后，该原因代码将在个人管理中现有原因代码窗体下显示。 此更改将在以后推出，不会影响现有功能。
 
 ## <a name="see-also"></a>请参阅
 

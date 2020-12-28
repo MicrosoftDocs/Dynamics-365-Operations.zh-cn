@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: 10b612711e81b2b368ed23fdd95ab6a66451f0ca
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833200"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460508"
 ---
 # <a name="enable-broadbean-integration-in-attract"></a>在 Attract 中启用 Broadbean 集成
 
@@ -40,11 +40,11 @@ ms.locfileid: "2833200"
 
 1. 以管理员身份登录 Attract。
 
-2. 选择页面右上角的**设置**按钮（齿轮符号），然后选择**管理员中心**。
+2. 选择页面右上角的 **设置** 按钮（齿轮符号），然后选择 **管理员中心**。
 
-3. 联系 Broadbean，并在**用户名**、**客户 ID** 和**加密令牌**字段中输入您的信息。
+3. 联系 Broadbean，并在 **用户名**、**客户 ID** 和 **加密令牌** 字段中输入您的信息。
 
-4. 选择**保存**。
+4. 选择 **保存**。
 
 > [!WARNING]
 > 您的 Broadbean 凭证是敏感的机密信息。 因此，请妥善保存和共享。 Attract 中的所有拥有管理员角色的人员都可以查看这些凭证。

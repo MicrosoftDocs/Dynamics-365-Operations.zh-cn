@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HcmApplicant, LogisticsContactInfoGrid, HRMApplication,  DirPartyTable
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a897fc64ccd125263b30993c1e24a3c6c67bd63
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 2ea39e86ace40cd8e3ad2733b7f7f7a873a963e7
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144010"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693032"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>手动输入申请人和申请表数据
 

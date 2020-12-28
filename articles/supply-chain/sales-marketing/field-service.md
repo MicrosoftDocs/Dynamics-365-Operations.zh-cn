@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 041044cf6b5a5de2091a4b61d98b7d07445e43ef
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209114"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528891"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>与 Microsoft Dynamics 365 Field Service 的集成概述
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Supply Chain Management 实现 Dynamics 365 Supply Chain Management 与 Dynamics 365 Field Service 之间的业务流程同步。 集成方案的配置方法是使用可扩展的数据集成器模板和 Common Data Service 实现业务流程同步。
 可使用标准模板创建定制集成项目，还可以使用模板映射更多标准字段和定制字段以及实体以调整集成并满足具体业务需求。 
@@ -67,7 +69,7 @@ Field Service 与 Supply Chain Management 集成的第二阶段是实现以下�
 - 库存调整（Field Service 到 Supply Chain Management）- 库存调整从 Field Service 到 Supply Chain Management [高级查询] 
 - 库存转移（Field Service 到 Supply Chain Management）- 库存转移从 Field Service 到 Supply Chain Management [高级查询] 
 - 项目（Supply Chain Management 到 Field Service）- 项目列表从 Supply Chain Management 到 Field Service 
-- 项目的工作订单（Field Service 到 Supply Chain Management）- Field Service 中工作订单到 Supply Chain Management 中的销售订单，提供项目支持 [高级查询] 
+- 项目的工作订单（Field Service 到 Supply Chain Management）- Field Service 中工作订单到 Supply Chain Management 中的销售订单，提供项目支持[高级查询] 
 - 包含库存单位的 Field Service 产品（Supply Chain Management 到 Sales）- Supply Chain Management“适售的已发布产品”到 Field Service 的“销售产品”，包括库存单位 
 
 ## <a name="system-requirements"></a>系统要求

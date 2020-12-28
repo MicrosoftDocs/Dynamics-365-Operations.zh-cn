@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5bf13b7c1e7cab7c803b352370084421a8180dee
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 1e6a4638cd32cb253261cc7fbaacb45b47f52c62
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743416"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683691"
 ---
 # <a name="splitlistbylimit-er-function"></a>SPLITLISTBYLIMIT ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`SPLITLISTBYLIMIT` 函数将指定列表拆分为新的子列表（批次）列表。 每个批次中的记录数是动态计算的。 然后此函数作为包含批次的新*记录列表*值返回结果。
+`SPLITLISTBYLIMIT` 函数将指定列表拆分为新的子列表（批次）列表。 每个批次中的记录数是动态计算的。 然后此函数作为包含批次的新 *记录列表* 值返回结果。
 
 ## <a name="syntax"></a>语法
 
@@ -41,15 +40,15 @@ SPLITLISTBYLIMIT (list, limit value, limit source)
 
 `list`：*记录列表*
 
-*记录列表*数据类型的数据源的有效路径。
+*记录列表* 数据类型的数据源的有效路径。
 
-`limit value`：*整数*或*实数*
+`limit value`：*整数* 或 *实数*
 
 用于将原始列表拆分为多个批次的限制的最大值。
 
 `limit source`：*字段*
 
-指定列表中*整数*或*实数*类型的字段的有效路径。 此字段的值定义在总和中增加的步骤。
+指定列表中 *整数* 或 *实数* 类型的字段的有效路径。 此字段的值定义在总和中增加的步骤。
 
 ## <a name="return-values"></a>返回值
 

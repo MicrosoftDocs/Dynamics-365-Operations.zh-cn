@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: f97462f088fc1a3cb94f2a34204fc09f1cd66fb0
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899120"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460396"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-january-23-2019"></a>Dynamics 365 Talent - Core HR（2019 年 1 月 23 日）中的新增功能或更改
 
@@ -37,19 +37,19 @@ ms.locfileid: "2899120"
 对员工固定薪酬实体进行了更改以在导入后检索薪酬级别。 在此版本前，将显示一条消息，指示需要级别。
 
 ### <a name="remove-the-minimum-balance-field-from-the-time-off-request-dialog-box"></a>从请假对话框中删除最小余额字段
-已从**请假**对话框中删除了**最小余额**字段。 此更改会影响可以请假的所有区域。
+已从 **请假** 对话框中删除了 **最小余额** 字段。 此更改会影响可以请假的所有区域。
 
 ### <a name="data-upgrade-for-compensation-levels-not-updating-in-all-scenarios"></a>薪酬级别的数据升级未在所有方案中更新
 已进行了更改以更新固定薪酬计划中的薪酬级别。 此更改将填充分配给员工的工作的固定计划中的薪酬级别。
 
 ### <a name="payroll-information-in-the-manage-changes-page-is-only-available-when-logged-in-as-system-administrator"></a>管理更改页面的工资单信息仅在作为系统管理员登录后可用
-此更改允许具有工资管理员角色的员工在职位的**更改日程表 > 管理更改**页访问工资单信息。
+此更改允许具有工资管理员角色的员工在职位的 **更改日程表 > 管理更改** 页访问工资单信息。
 
 ### <a name="job-fields-default-to-positions"></a>工作字段默认为职位
 在更改职位中的工作时，工作字段将默认为职位。 预警消息将显示，提供接受默认值或保留这些字段的现有值的选项。
 
 ### <a name="probation-period-and-calendar-are-not-displayed-for-future-hired-employees"></a>试用期和日历没有为将来雇用的员工显示。
-通过此更改，**试用期**和**日历**字段已添加到**管理更改**页以允许将来以及过去员工的数据输入。
+通过此更改，**试用期** 和 **日历** 字段已添加到 **管理更改** 页以允许将来以及过去员工的数据输入。
 
-### <a name="platform-update-23-for-finance-and-operations"></a>Finance and Operations 的平台更新 23
-细微缺陷修复作为 Finance and Operations 的平台更新 23 的一部分包括在内。 有关详细信息，请参阅 [Dynamics 365 Finance and Operations 平台更新 23（2019 年 1 月）的新增功能和更改内容](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23)。 
+### <a name="platform-update-23-for-finance-and-operations"></a>Finance and Operations 平台更新 23
+细微缺陷修复作为 Finance and Operations 平台更新 23 的一部分包括在内。 有关详细信息，请参阅 [Dynamics 365 Finance and Operations 平台更新 23（2019 年 1 月）的新增功能和更改内容](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23)。 

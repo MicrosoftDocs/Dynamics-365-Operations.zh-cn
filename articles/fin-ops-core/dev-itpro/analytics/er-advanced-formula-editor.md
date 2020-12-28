@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d9911c858d6832aa70378d37e0fd5cf7d7831b1b
-ms.sourcegitcommit: dce8c5d3b2fc4a752d676cf9ba91e0dea2fa80d8
+ms.openlocfilehash: 14eb8a59b64a49649768f93befdf8e6e8dcf8105
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "3257053"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685374"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>电子报告高级公式编辑器
 
@@ -44,9 +43,9 @@ ms.locfileid: "3257053"
 
 完成以下步骤，开始在您的 Microsoft Dynamics 365 Finance 实例中使用高级公式编辑器。
 
-1.  转到 **组织管理** \> **电子报告** \> **配置**。
-2.  在 **配置** 页操作窗格上 **配置** 选项卡的 **高级设置** 组中，选择 **用户参数**。
-3.  在 **用户参数** 对话框内的 **执行跟踪** 部分中，将**启用高级公式编辑器**参数设置为**是**。
+1.  转到 **组织管理** \> **电子申报** \> **配置**。
+2.  在 **配置** 页操作窗格中 **配置** 选项卡的 **高级设置** 组中，选择 **用户参数**。
+3.  在 **用户参数** 对话框内的 **执行跟踪** 部分中，将 **启用高级公式编辑器** 参数设置为 **是**。
 
 [![ER 配置页](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 
@@ -63,7 +62,7 @@ ms.locfileid: "3257053"
 
 ## <a name=""></a><a name="IntelliSense">IntelliSense</a>
 
-该编辑器提供了单词补全功能，可帮助您更快地编写表达式并避免输入错误。 当您开始添加新文本时，编辑器会自动提供 ER 函数支持的函数列表，其中包含您输入的字符。 您还可以通过按 **Ctrl + 空格键**在已配置表达式的任何位置触发 IntelliSense。
+该编辑器提供了单词补全功能，可帮助您更快地编写表达式并避免输入错误。 当您开始添加新文本时，编辑器会自动提供 ER 函数支持的函数列表，其中包含您输入的字符。 您还可以通过按 **Ctrl + 空格键** 在已配置表达式的任何位置触发 IntelliSense。
 
 [![ER 公式编辑器](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
@@ -81,7 +80,7 @@ ms.locfileid: "3257053"
 
 ## <a name=""></a><a name="CodeNavigation">代码导航</a>
 
-通过使用命令面板或上下文菜单键入**转到**命令，您可以在表达式中找到所需的符号或行。
+通过使用命令面板或上下文菜单键入 **转到** 命令，您可以在表达式中找到所需的符号或行。
 
 例如，要跳到第 **8** 行，请执行下列操作：
 
@@ -89,7 +88,7 @@ ms.locfileid: "3257053"
 
   - 或者 -
 
-- 按 **F1**，键入 **G**，选择**转到行**，输入值 **8**，然后按 **Enter**。
+- 按 **F1**，键入 **G**，选择 **转到行**，输入值 **8**，然后按 **Enter**。
 
 [![ER 公式编辑器](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
@@ -103,7 +102,7 @@ ms.locfileid: "3257053"
 
   - 或者 -
 
-- 按 **F1**，按 **FO**，选择**全部折叠**，然后按 **Enter**
+- 按 **F1**，按 **FO**，选择 **全部折叠**，然后按 **Enter**
 
 要展开所有区域，请执行以下操作：
 
@@ -111,7 +110,7 @@ ms.locfileid: "3257053"
 
   - 或者 -
   
-- 按 **F1**，键入 **UN**，选择**全部展开**，然后按 **Enter**
+- 按 **F1**，键入 **UN**，选择 **全部展开**，然后按 **Enter**
 
 [![ER 公式编辑器](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
@@ -145,7 +144,7 @@ ms.locfileid: "3257053"
 
 ## <a name=""></a><a name="DataPasting">数据源和函数粘贴</a>
 
-您可以选择**添加数据源**，这会将当前在**数据源**左面板中选择的数据源粘贴到当前表达式中。 同样，您可以选择**添加函数**，这会将当前在**函数**右面板中选择的函数粘贴到当前表达式中。 如果使用 ER 公式编辑器，则所选函数或所选数据源将始终粘贴到已配置表达式的末尾。 如果使用高级 ER 公式编辑器，则可以将所选函数或所选数据源粘贴到已配置表达式的任何部分中。 您将需要使用光标来指定要粘贴数据的位置。
+您可以选择 **添加数据源**，这会将当前在 **数据源** 左面板中选择的数据源粘贴到当前表达式中。 同样，您可以选择 **添加函数**，这会将当前在 **函数** 右面板中选择的函数粘贴到当前表达式中。 如果使用 ER 公式编辑器，则所选函数或所选数据源将始终粘贴到已配置表达式的末尾。 如果使用高级 ER 公式编辑器，则可以将所选函数或所选数据源粘贴到已配置表达式的任何部分中。 您将需要使用光标来指定要粘贴数据的位置。
 
 [![ER 公式编辑器](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 

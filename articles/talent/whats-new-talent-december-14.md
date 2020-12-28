@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ad677d1c36ac5159111afdcb5c31aed215d7b0a1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 9887d22a513e820c35c51b6c702e2d9d34ab1214
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897733"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529748"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-14-2018"></a>Dynamics 365 Talent - Core HR（2018 年 12 月 14 日）中的新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **内部版本 8.1.2085**
 
@@ -39,11 +41,11 @@ ms.locfileid: "2897733"
 
 ### <a name="during-import-submittedbypersonid-field-on-hcmperfjournalentity-is-ignored"></a>在导入期间，将忽略 HcmPerfJournalEntity 上的 SubmittedByPersonId 字段
 
-在导入/导出绩效日记帐条目时，**提交者**字段会被忽略。 通过此更改，值**已导入/已导出**将在导出时在表中反映此值，在导入时，系统将更新为导入文件中提供的值。
+在导入/导出绩效日记帐条目时，**提交者** 字段会被忽略。 通过此更改，值 **已导入/已导出** 将在导出时在表中反映此值，在导入时，系统将更新为导入文件中提供的值。
 
 ### <a name="analytics-tab-on-leave-and-absence-workspace-displays-openconnectionerror-error-for-non-system-admin-roles"></a>“休假和缺勤”工作区的“分析”选项卡显示非系统管理员角色的“OpenConnectionError”错误
 
-通过此更新，在打开**休假和缺勤**工作区的**分析**选项卡时，不会发出错误。
+通过此更新，在打开 **休假和缺勤** 工作区的 **分析** 选项卡时，不会发出错误。
 
 ### <a name="employee-self-service-position-hierarchy-drill-down-from-tile-fails-to-get-parent-node"></a>从磁贴深化的员工自助服务“职位层次结构”无法获取父节点
 
@@ -63,7 +65,7 @@ ms.locfileid: "2897733"
 
 ### <a name="integration-between-core-hr-and-attract"></a>Core HR 与 Attract 之间的集成
 
-已进行了更改以更新与要雇用的应聘者相关的 Core HR 与 Attract 之间的集成。 要使将要雇用的应聘者可以显示在**人员管理**工作区中，使用以下 Common Data Service 实体：
+已进行了更改以更新与要雇用的应聘者相关的 Core HR 与 Attract 之间的集成。 要使将要雇用的应聘者可以显示在 **人员管理** 工作区中，使用以下 Common Data Service 实体：
 
 工作申请
 - 状态描述需要设置为“已接受聘约”
@@ -88,7 +90,7 @@ ms.locfileid: "2897733"
 
 当前显示的可用余额是包括截至今天的应计在内的可以请求的时间量，以及时间结束前的所有批准的休假请求。 
 
-在预测功能发布时，显示的余额将更改为包括截至今天的应计和请求在内的当前休假余额。 员工和经理将在**休假**卡和**休假余额**窗口中的员工和经理自助服务中看到这些更新的余额。 HR 经理将在**人员**工作区和员工的**指定休假计划**窗口中看到这些更新的余额。
+在预测功能发布时，显示的余额将更改为包括截至今天的应计和请求在内的当前休假余额。 员工和经理将在 **休假** 卡和 **休假余额** 窗口中的员工和经理自助服务中看到这些更新的余额。 HR 经理将在 **人员** 工作区和员工的 **指定休假计划** 窗口中看到这些更新的余额。
 
 ## <a name="known-issue"></a>已知问题
 
@@ -105,7 +107,7 @@ ms.locfileid: "2897733"
 | -------------------------------|------------------|
 | cdm_description（描述）  | cdm_name（名称）  |
 
-还需要添加其他映射。 选择上一个**无**字段添加以下映射。
+还需要添加其他映射。 选择上一个 **无** 字段添加以下映射。
 
 | 源字段                   | 目标字段    |
 | -------------------------------|----------------------|
@@ -141,7 +143,7 @@ ms.locfileid: "2897733"
 | ----------------------------|--------------------------------------------------|
 | 75440000                    | 男                                             |
 | 75440001                    | 女                                           |
-| 75440002                    | 无                                             | 
+| 75440002                    | None                                             | 
 | 75440003                    | 非特定                                      |
 
 更新的映射应如以下图像所示。

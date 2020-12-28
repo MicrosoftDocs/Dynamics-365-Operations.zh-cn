@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87e252a2751beeecb51e512cae38b271c1456fae
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: b8733022b44f3460e34a610140fd6d584ab990c2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744687"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686994"
 ---
 # <a name="if-er-function"></a>IF ER 函数
 
@@ -61,7 +60,7 @@ IF (condition, first value, second value) as any of the supported data types
 
 必须使用相同的数据类型指定 `first value` 和 `second value` 参数。 如果配置值的数据类型不匹配，则会在设计时引发异常。
 
-如果第一个值与第二个值是*容器（记录）* 或*记录列表*数据类型的值，结果只包含两个值中都存在的字段。
+如果第一个值与第二个值是 *容器（记录）* 或 *记录列表* 数据类型的值，结果只包含两个值中都存在的字段。
 
 ## <a name="example"></a>示例
 

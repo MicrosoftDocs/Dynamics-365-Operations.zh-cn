@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 63a822350ce2bd4d673d7f9841822c84fb883601
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144179"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440788"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>为供应商登记和过帐远期支票
 
@@ -35,7 +35,7 @@ ms.locfileid: "3144179"
 
 此任务指南的角色是出纳员。 本任务使用 USMF 公司进行演示。
 
-1. 转到“应付账款”>“付款”>“付款日记帐”
+1. 转到“应付帐款”>“付款”>“付款日记帐”
 2. 单击“新建”。
 3. 在“名称”字段中，键入“VendPay”。
 4. 单击“行”。

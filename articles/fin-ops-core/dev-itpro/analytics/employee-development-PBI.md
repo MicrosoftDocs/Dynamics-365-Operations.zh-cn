@@ -10,23 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ebebe9c5877f23e635ec0cd1993727014047f310
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 41e2f8b1dc5f86220a4a2edeab24f82883e5157f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005794"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687094"
 ---
 # <a name="employee-development-power-bi-content"></a>员工发展 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述**员工发展** Microsoft Power BI 内容。
+此主题描述 **员工发展** Microsoft Power BI 内容。
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 **员工发展** Power BI 内容中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 17291
 ms.assetid: 76b7ca45-93d4-45cc-b191-66ee63afa1fd
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc9064f0386fe7c0f4093fc30587be4baa259eb0
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a3d0e414b12043a72a447f62bf353e84654b0df1
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003671"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694327"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>组织和组织层次结构概览
 
@@ -35,7 +34,7 @@ ms.locfileid: "3003671"
 
 您可以定义以下类型的内部组织：法人、运营单位和团队。
 
-所有内部组织都为**聚会**实体的类型。 因此，这些组织使用通讯簿功能储存地址和联系信息。 当事人（可以是人员或组织）可以属于一个或多个通讯簿。
+所有内部组织都为 **聚会** 实体的类型。 因此，这些组织使用通讯簿功能储存地址和联系信息。 当事人（可以是人员或组织）可以属于一个或多个通讯簿。
 
 ### <a name="legal-entities"></a>法人
 
@@ -54,7 +53,7 @@ ms.locfileid: "3003671"
 | 成本中心         | 经理对预算的和实际支出负问责性的工序运营单位。 | 用于跨法人的业务流程的管理和运营控制。 |
 | 业务单位       | 创建来满足战略业务目标的一个半自主运营单位。 | 用于基于组织单独服务的法人的工厂或产品行的财务报表。 |
 | 价值流        | 控制一个或多个生产流的工序单位。 | 通常在控制产品或服务要求提供给客户的活动和流的精益制造中。 |
-| 部门          | 表示执行销售或记账等特定任务的组织的类别或功能部分的运营单位。 | 用于申报功能区域。 某部分可能具有损益责任，而且可能是由一组成本中心构成的。 |
+| 部门          | 表示执行销售或记帐等特定任务的组织的类别或功能部分的运营单位。 | 用于申报功能区域。 某部分可能具有损益责任，而且可能是由一组成本中心构成的。 |
 | 商业渠道      | 应用单位表示传统实体店、在线商店或联机市场。 | 用于法人内或跨法人的一个或多个商店的管理和运营控制。 |
 
 ### <a name="teams"></a>团队

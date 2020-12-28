@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 222564
 ms.assetid: 875dcebb-1bbb-4841-a8c6-9e134da07e96
 ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 36e0af4f1b4fa0013490a2acc2bfcac0de05f5dd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 192ed371eec24ed4e0532aaca341bb249a4933c7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185328"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680474"
 ---
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>从右到左的语言中的财务维度和主科目
 
@@ -30,15 +29,12 @@ ms.locfileid: "2185328"
 
 本主题介绍当您使用从右到左的语言时应考虑的一些实施决策以及您必须设置财务维度和主科目。
 
-财务维度和主科目是实施的计划阶段的关键组件。 在系统中创建财务维度和主科目后，它们在**配置科目结构**、**高级规则结构**和**用于集成应用程序的财务维度配置**页使用。 在这些页面上定义的顺序在系统中针对数据输入和消耗量使用。 在系统中的某些位置，财务维度和主科目在单独的字段中显示。 但是在其他位置，例如日记帐，财务维度和主科目作为一个字符串显示。
+财务维度和主科目是实施的计划阶段的关键组件。 在系统中创建财务维度和主科目后，它们在 **配置科目结构**、**高级规则结构** 和 **用于集成应用程序的财务维度配置** 页使用。 在这些页面上定义的顺序在系统中针对数据输入和消耗量使用。 在系统中的某些位置，财务维度和主科目在单独的字段中显示。 在其他位置，例如日记帐，财务维度和主科目作为一个字符串显示。
 
-### <a name="best-practices-for-setting-up-financial-dimensions-and-main-accounts-in-a-right-to-left-system"></a>在从右到左系统中设置财务维度和主科目设置财务维度和主科目的最佳实践
+## <a name="best-practices-for-setting-up-financial-dimensions-and-main-accounts-in-a-right-to-left-system"></a>在从右到左系统中设置财务维度和主科目设置财务维度和主科目的最佳实践
 
--   在您选择会计科目表的分隔符时，请选择其中一个双分隔符选项：双连字符 (--)、双竖线 (||) 或双句点 (..) 或双下划线 (\_\_)。
--   在您创建财务维度和主科目值时，仅使用数字和从右到左的语言字符。
--   避免在财务维度和主科目值中使用选定的会计科目分隔符。
+- 在您选择会计科目表的分隔符时，请选择其中一个双分隔符选项：双连字符 (`--`)、双竖线 (`||`) 或双句点 (`..`) 或双下划线 (`\\`)。
+- 在您创建财务维度和主科目值时，仅使用数字和从右到左的语言字符。
+- 避免在财务维度和主科目值中使用选定的会计科目分隔符。
 
 通过以下最佳实践，您将帮助保障在整个系统中一致地显示用户定义的顺序。
-
-
-

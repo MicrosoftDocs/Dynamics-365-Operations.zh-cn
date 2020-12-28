@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28118eddd2f85df5f9daa2c5a6c3cb00957909db
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367330"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695131"
 ---
 # <a name="help-system"></a>帮助系统
 
@@ -36,7 +35,7 @@ ms.locfileid: "3367330"
 - Dynamics 365 Human Resources
 - Dynamics 365 Supply Chain Management
 
-在所有这些应用中，可以从**帮助**窗格访问产品特定的帮助。
+在所有这些应用中，可以从 **帮助** 窗格访问产品特定的帮助。
 
 ![帮助窗格](./media/help-pane-ops-help.png)
 
@@ -49,7 +48,7 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/](https://docs.micros
 
 可以使用任何搜索引擎在 docs.microsoft.com 中查找内容。 若需获得最佳结果，建议使用站点搜索，如 **site:docs.microsoft.com dynamics 365 "search term"**。
 
-### <a name="get-notified-about-changes-through-an-rss-feed"></a>通过 RSS 源获取更改通知
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>通过 RSS 源获取更改通知
 
 若要订阅对 docs.microsoft.com 上内容所有更新的真正简单的整合 (RSS) 源，请使用以下链接：
 
@@ -59,18 +58,18 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/](https://docs.micros
 
 如果您有有关某个主题的反馈或问题，请在页面底部对我们作出评论。
 
-1. 选择**反馈**到达页面底部的评论。 然后选择**产品反馈**或**登录以提供文档反馈**。
+1. 选择 **反馈** 到达页面底部的评论。 然后选择 **产品反馈** 或 **登录以提供文档反馈**。
 
-2. 开始键入您的评论，然后选择**提交反馈**。
+2. 开始键入您的评论，然后选择 **提交反馈**。
 
     ![发布评论](./media/feedback.png)
 
 > [!NOTE]
 > 如果要提交文档反馈，必须使用 GitHub 帐户登录。 有关详细信息，请参阅[设置和管理 GitHub 配置文件](https://help.github.com/github/setting-up-and-managing-your-github-profile)。
 
-### <a name="contribute-to-the-documentation"></a>参与文档
+## <a name="contribute-to-the-documentation"></a>参与文档
 
-您可以参与和编辑文档。 若要开始，请选择主题上的**编辑**按钮（铅笔符号）。 以下视频显示如何参与我们的文档。
+您可以参与和编辑文档。 若要开始，请选择主题上的 **编辑** 按钮（铅笔符号）。 以下视频显示如何参与我们的文档。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
@@ -83,13 +82,13 @@ YouTube 上的 Microsoft Dynamics 365 频道中包含[如何参与 Microsoft Dyn
 
 ## <a name="task-guides"></a>任务指南
 
-任务指南是受控的、引导式、交互式的体验，带领您完成任务或业务流程中的步骤。 您可以从**帮助**窗格中打开（播放）任务指南。 当您首次选择任务指南时，**帮助**窗格将显示任务的分步说明。 已提供本地化的任务指南。
+任务指南是受控的、引导式、交互式的体验，带领您完成任务或业务流程中的步骤。 您可以从 **帮助** 窗格中打开（播放）任务指南。 当您首次选择任务指南时，**帮助** 窗格将显示任务的分步说明。 已提供本地化的任务指南。
 
 Microsoft 通过 Dynamics 365 for Finance and Operations 的 2017 年 12 月版发布了产品版本的任务指南库。 本主题中[从“帮助”窗格访问任务指南](#accessing-task-guides-from-the-help-pane)部分介绍如何查找适用于您的产品的正确任务指南。
 
 ![任务指南阅读视图](./media/task-guide-ops.png)
 
-若要开始引导式、交互式的体验，请在**帮助**窗格底部选择**启动任务指南**。 将通过黑色指针显示首先访问何处。 按照用户界面 (UI) 中显示的说明进行操作，并按照指示输入数据。
+若要开始引导式、交互式的体验，请在 **帮助** 窗格底部选择 **启动任务指南**。 将通过黑色指针显示首先访问何处。 按照用户界面 (UI) 中显示的说明进行操作，并按照指示输入数据。
 
 ![任务指南步骤说明](./media/task-guide-step-1-ops.png)
 
@@ -100,22 +99,22 @@ Microsoft 通过 Dynamics 365 for Finance and Operations 的 2017 年 12 月版�
 
 ## <a name="in-product-help"></a>产品内帮助
 
-某些字段有字段说明，用于在用户不确定字段中包含的数据之类情况时为用户解惑。 此外，产品内**帮助**窗格还提供对可帮助用户入门，为用户解惑和了解详细信息的内容的上下文敏感访问权限。
+某些字段有字段说明，用于在用户不确定字段中包含的数据之类情况时为用户解惑。 此外，产品内 **帮助** 窗格还提供对可帮助用户入门，为用户解惑和了解详细信息的内容的上下文敏感访问权限。
 
-若要访问帮助内容，请选择**帮助**按钮 (**?**)，然后选择**帮助**。 或者按 **Ctrl+Shift+?**。 在这两种情况下，都将显示**帮助**窗格。 可从**帮助**窗格访问与当前所在产品区域有关的概念性主题或任务指南。
+若要访问帮助内容，请选择 **帮助** 按钮 (**?**)，然后选择 **帮助**。 或者按 **Ctrl+Shift+?**。 在这两种情况下，都将显示 **帮助** 窗格。 可从 **帮助** 窗格访问与当前所在产品区域有关的概念性主题或任务指南。
 
 ![帮助窗格](./media/help-pane-ops-help.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>从“帮助”窗格中访问帮助主题
 
-可从**帮助**窗格访问适用于客户端的主题。 在您首次打开**帮助**窗格时，**帮助**选项卡将显示适用于您当前所处页面的主题。 如果未找到任何主题，您可以输入关键字来调整搜索。 如果在**帮助**窗格中选择一个主题，将在浏览器中的新标签页打开该主题。
+可从 **帮助** 窗格访问适用于客户端的主题。 在您首次打开 **帮助** 窗格时，**帮助** 选项卡将显示适用于您当前所处页面的主题。 如果未找到任何主题，您可以输入关键字来调整搜索。 如果在 **帮助** 窗格中选择一个主题，将在浏览器中的新标签页打开该主题。
 
 > [!IMPORTANT]
 > 本节不适用于 Dynamics 365 Human Resources。 Human Resources 的帮助系统自动连接至产品的任务指南。 此外，您无法为 Human Resources 创建自定义任务指南。
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>从“帮助”窗格中访问任务指南
 
-在您可以从**帮助**窗格中访问任务指南前，系统管理员必须配置 Finance、Supply Chain Management 或 Commerce 中的**系统参数**页上的某些设置。 有关详细信息，请参阅[添加任务指南](help-connect.md#adding-task-guides)。
+在您可以从 **帮助** 窗格中访问任务指南前，系统管理员必须配置 Finance、Supply Chain Management 或 Commerce 中的 **系统参数** 页上的某些设置。 有关详细信息，请参阅[添加任务指南](help-connect.md#adding-task-guides)。
 
 <!-- > [!NOTE]
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
@@ -133,20 +132,20 @@ On the **System parameters** page, follow these steps:
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
 4. Set the display order of the BPM libraries. This setting determines the order in which task recordings from the libraries will appear in the Help pane.-->
 
-系统管理员完成这些步骤后，您可以打开**帮助**窗格并选择**任务指南**选项卡。您现在将看到适用于您当前所处页面的任务指南。 如果未找到任何任务指南，您可以输入关键字来调整搜索。 您在**帮助**窗格中选择一个任务指南后，**帮助**窗格会显示分步说明，而且您可以播放该任务指南。
+系统管理员完成这些步骤后，您可以打开 **帮助** 窗格并选择 **任务指南** 选项卡。您现在将看到适用于您当前所处页面的任务指南。 如果未找到任何任务指南，您可以输入关键字来调整搜索。 您在 **帮助** 窗格中选择一个任务指南后，**帮助** 窗格会显示分步说明，而且您可以播放该任务指南。
 
 ![任务指南阅读视图](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>翻译后的 Microsoft 任务指南库在哪里？
 
-翻译后的任务指南在标题中带有“所有语言”的库中发布。 若要查看本地化的任务指南帮助，请确保您已连接到相应库。 每个用户可通过更改**选项** &gt; **首选项**下的语言设置，更改用于显示任务指南的语言。
+翻译后的任务指南在标题中带有“所有语言”的库中发布。 若要查看本地化的任务指南帮助，请确保您已连接到相应库。 每个用户可通过更改 **选项** &gt; **首选项** 下的语言设置，更改用于显示任务指南的语言。
 
 - 如果已翻译任务指南，在您打开任务指南时，所有任务指南文本都将显示为您选择的语言。
 - 如果尚未翻译任务指南，在您打开任务指南时，仅控件文本显示为您选择的语言。
 
 ## <a name="creating-custom-help"></a>创建自定义帮助
 
-您可以通过创建自定义任务指南为用户创建帮助，或者将您自己的网站连接到**帮助**窗格。 有关详细信息，请参阅以下主题：
+您可以通过创建自定义任务指南为用户创建帮助，或者将您自己的网站连接到 **帮助** 窗格。 有关详细信息，请参阅以下主题：
 
 - [任务录制器资源](../../dev-itpro/user-interface/task-recorder.md)
 - [自定义帮助概述](../../dev-itpro/help/custom-help-overview.md)

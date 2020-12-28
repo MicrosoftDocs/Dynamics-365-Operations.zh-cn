@@ -10,17 +10,16 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 0d3bd837c25b32dfe59ed74f448db230d7d53681
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0829296d01e474437e8080db8b03d047e3a613fc
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176728"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695005"
 ---
 # <a name="new-or-updated-task-guides-december-2017"></a>新的或更新任务指南（2017 年 12 月）
 
@@ -349,9 +348,9 @@ ms.locfileid: "2176728"
 - JP-00004 设置消费税报表（2016 年 2 月）
 - JP-00004 生成消费税报表（2016 年 2 月）
 - EUR-00011 设置欧盟销售清单报表（2016 年 2 月）
-- GB-00009 为现金付账折扣信用证设置参数（2016 年 2 月）
-- GB-00009 为结账折扣创建信用（2016 年 2 月）
-- MX-00020 为银行账号设定 RFC 注册号（2016 年 2 月）
+- GB-00009 为现金付帐折扣信用证设置参数（2016 年 2 月）
+- GB-00009 为结帐折扣创建信用（2016 年 2 月）
+- MX-00020 为银行帐号设定 RFC 注册号（2016 年 2 月）
 - 创建固定数量看板规则（2016 年 2 月）
 - 创建销售事件看板规则（2016 年 2 月）
 - 通过复制现有看板规则创建新看板规则（2016 年 2 月）

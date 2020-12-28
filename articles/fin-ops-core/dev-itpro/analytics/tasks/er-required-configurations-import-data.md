@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143307"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684269"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER 创建从外部文件导入数据所需配置
 
@@ -98,16 +97,16 @@ ER 让用户可以配置将外部数据文件以 .XML 或 .TXT 格式导入表�
 
     请注意，设计的格式在此处表示为数据源组件。  
 
-6. 在树结构中，展开”格式: 记录\*结算: XML 元素 1..1 (结算): 记录“。
-7. 在树结构中，展开”格式: 记录\*结算: XML 元素 1..1 (结算): 记录\交易: XML 元素 0..* (交易): 记录列表“。
-8. 在树结构中，展开“格式: 记录\*结算: XML 元素 1..1 (结算): 记录\交易: XML 元素 0..* (交易): 记录列表\*供应商: XML 元素 1..1 (供应商): 记录”。
-9. 在树结构中，展开“格式: 记录\*结算: XML 元素 1..1 (结算): 记录\交易: XML 元素 0..* (交易): 记录列表\*国家/地区: XML 元素 0..1 (国家/地区): 记录”。
-10. 在树结构中，选择“格式: 记录\*结算: XML 元素 1..1 (结算): 记录\交易: XML 元素 0..* (交易): 记录列表\*供应商: XML 元素 1..1 (供应商): 记录”。
+6. 在树中，展开 `format: Record\*settlement: XML Element 1..1 (settlement): Record`。
+7. 在树中，展开 `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list`。
+8. 在树中，展开 `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`。
+9. 在树中，展开 `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\country: XML Element 0..1 (country): Record`。
+10. 在树中，选择 `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`。
 
     请注意，在预定义的“格式”数据源组件中，必需格式元素和可选格式元素的表示形式不同。  
 11. 在树结构中，展开“交易: 记录列表= format.settlement.'$enumerated'”。
 
-    请注意，用于定义所导入文件的结构的格式的元素绑定到自定义数据模型的元素。 所导入 XML 文件的内容将在运行时在现有数据模型中根据这些绑定排序。 请注意国家/地区元素的绑定。 对于无此类元素的传入文件中的任何交易元素，将在数据模型中填充默认国家/杜集区代码“USA”。  
+    请注意，用于定义所导入文件的结构的格式的元素绑定到自定义数据模型的元素。 所导入 XML 文件的内容将在运行时在现有数据模型中根据这些绑定排序。 请注意国家/地区元素的绑定。 对于无此类元素的传入文件中的任何交易元素，将在数据模型中填充默认国家/地区代码“USA”。  
 
 12. 单击“验证”选项卡。
 
@@ -142,7 +141,7 @@ ER 让用户可以配置将外部数据文件以 .XML 或 .TXT 格式导入表�
 5. 在树结构中，展开“模型: 数据模型 1099 付款模型”。
 6. 在树结构中，展开“模型: 数据模型 1099 付款模型\交易: 记录列表”。
 
-    请注意，设计的模型在此处表示为数据源元素。 在运行时，其中将包含从外部文件导入的数据。 添加了若干表来充当数据源元素，以便确保导入的数据与当前应用程序的数据一致，包括导入交易供应商帐户是否在系统中可用，导入国家/和省/直辖市/自治州代码的组合是否存在等。  
+    请注意，设计的模型在此处表示为数据源元素。 在运行时，其中将包含从外部文件导入的数据。 添加了若干表来充当数据源元素，以便确保导入的数据与当前应用程序的数据一致，包括导入交易供应商帐户是否在系统中可用，导入国家/地区和省/直辖市/自治州代码的组合是否存在等。  
 
 7. 在树结构中，选择“模型: 数据模型 1099 付款模型\交易: 记录列表\$failed: 计算字段 = IF(OR(ISEMPTY(model.Transactions.'$refs'.vendor), ISEMPTY(model.Transactions.'$refs'.vendor1099), ISEMPTY(model.Transactions.'$refs'.box1099), ISEMPTY(model.Transactions.'$refs'.country), ISEMPTY(model.Transactions.'$refs'.state), ISEMPTY(model.Transactions.'$refs'.location)), true, false): Boolean”。
 8. 单击“编辑”。
@@ -197,7 +196,7 @@ ER 让用户可以配置将外部数据文件以 .XML 或 .TXT 格式导入表�
 27. 关闭该页面。
 28. 关闭该页面。
 29. 关闭该页面。
-30. 转至“应付账款 > 定期任务 > 1099 税 > 用于 1099 的供应商结算”。
+30. 转至“应付帐款 > 定期任务 > 1099 税 > 用于 1099 的供应商结算”。
 
     此窗体显示根据所导入交易创建的 Tax1099Summary 表中的累计交易。  
 
@@ -237,7 +236,7 @@ ER 让用户可以配置将外部数据文件以 .XML 或 .TXT 格式导入表�
 19. 关闭该页面。
 20. 单击“编辑”。
 
-    如果您安装了修补程序“KB 4012871 在单独的配置中支持 GER 模型映射，以便可以为在不同版本的 Dynamics 365 Finance 上部署指定不同类型的先决条件”(https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)，请为输入的格式配置执行下一步“开启标记‘模型映射的默认值’”。 否则跳过下一步。  
+    如果您安装了修补程序“KB 4012871 在单独的配置中支持 GER 模型映射，以便可以为在不同版本的 Dynamics 365 Finance 上部署指定不同类型的先决条件”([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871))，请为输入的格式配置执行下一步“开启标记‘模型映射的默认值’”。 否则跳过下一步。  
 
 21. 在“模型映射的默认值”字段中选择“是”。
 22. 在树结构中，选择“1099 付款模型”。
@@ -245,7 +244,7 @@ ER 让用户可以配置将外部数据文件以 .XML 或 .TXT 格式导入表�
 24. 单击“映射模型到数据源”。
 25. 单击“运行”。
 
-    如果您安装了修补程序“KB 4012871 在单独的配置中支持 GER 模型映射，以便可以为在不同版本上部署指定不同类型的先决条件”(https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)，请在查找字段中选择首选模型映射。 如果您尚未安装此修补程序，请跳至下一步，因为默认格式配置的定义已选择了映射。  
+    如果您安装了修补程序“KB 4012871 在单独的配置中支持 GER 模型映射，以便可以为在不同版本上部署指定不同类型的先决条件 ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871))，请在查找字段中选择首选模型映射。 如果您尚未安装此修补程序，请跳至下一步，因为默认格式配置的定义已选择了映射。  
     
     如果您尚未安装修补程序 KB 4012871，请注意对话框中还包含一个模型映射问题，用于解析您要导入的文件。 然后将数据从对话框移植到数据模型。 目前，您可以根据计划导入的文件类型选择必须使用哪种格式映射。  
     

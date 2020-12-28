@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8d89b1251429281521f32338f642cc7034420e0b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 360574d3c8e0b349119e0987f2453a5d5be21e90
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005978"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528139"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-23-2019"></a>Dynamics 365 Talent 的新增功能或更改（2019 年 7 月 23 日）
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
@@ -41,7 +43,7 @@ Attract 用户现在可以在文档查看器中查看应聘者的 PDF 附件，�
 
 ### <a name="job-approvals-appear-on-the-home-page"></a>主页中显示工作审核
 
-仪表板的**审核**部分中将显示审核。 审核人可以在**已分配给您**（其中显示工作 ID、工作头衔、其他审核人和作业的分配日期）下查看自己的审核。 提交待审核工作的用户可以在**您请求的**（其中显示仍然必须审核提交的工作的审核者）下查看自己的工作。
+仪表板的 **审核** 部分中将显示审核。 审核人可以在 **已分配给您**（其中显示工作 ID、工作头衔、其他审核人和作业的分配日期）下查看自己的审核。 提交待审核工作的用户可以在 **您请求的**（其中显示仍然必须审核提交的工作的审核者）下查看自己的工作。
 
 ## <a name="changes-in-onboard"></a>Onboard 中的更改
 本版本中包含 Dynamics 365 Talent: Onboard 的小缺陷修复。
@@ -51,7 +53,7 @@ Attract 用户现在可以在文档查看器中查看应聘者的 PDF 附件，�
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Common Data Service 中自定义字段的实体支持 
 
-在此版本中，**工作日历**和**工作日历**天现在在 Common Data Service 中支持自定义字段。
+在此版本中，**工作日历** 和 **工作日历** 天现在在 Common Data Service 中支持自定义字段。
 
 ### <a name="restrict-leave-types-in-time-off-requests"></a>限制请假中的休假类型
 
@@ -61,7 +63,7 @@ Attract 用户现在可以在文档查看器中查看应聘者的 PDF 附件，�
 
 ### <a name="preview-features-are-enabled-only-in-sandbox-instances"></a>只有沙盒实例中才会启用预览功能
 
-配置新的 Talent 实例时，可指定实例类型为**生产**还是**沙盒**。 **沙盒**类型的实例可用于提前测试新功能。 将把所有现有 Talent 实例更新为**生产**实例类型。 如果需要将现有实例之一更新为**沙盒**实例类型，请联系[支持](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support)以发起更改请求。
+配置新的 Talent 实例时，可指定实例类型为 **生产** 还是 **沙盒**。 **沙盒** 类型的实例可用于提前测试新功能。 将把所有现有 Talent 实例更新为 **生产** 实例类型。 如果需要将现有实例之一更新为 **沙盒** 实例类型，请联系[支持](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support)以发起更改请求。
 
 有关如何发布更改的详细信息，请参阅[配置 Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent)。
 

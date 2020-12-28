@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51b9a2e25a9f1dfc08e9e0f7fc3ad84b359a6d1b
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: c5d192b8679d6df2c44a0038fe4ffc181a6a54df
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744231"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685295"
 ---
 # <a name="translate-er-function"></a>TRANSLATE ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`TRANSLATE` 函数返回一个*字符串*值，该值中包含对提供的另一个字符集中的指定文本进行字符替换的结果。
+`TRANSLATE` 函数返回一个 *字符串* 值，该值中包含对提供的另一个字符集中的指定文本进行字符替换的结果。
 
 ## <a name="syntax"></a>语法
 
@@ -41,7 +40,7 @@ TRANSLATE (text , pattern, replacement)
 
 `text`：*字符串*
 
-*字符串*类型的数据源的有效路径。
+*字符串* 类型的数据源的有效路径。
 
 `pattern`：*字符串*
 

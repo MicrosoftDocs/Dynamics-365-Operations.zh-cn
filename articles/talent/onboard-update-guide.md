@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 071aa79ea75e9a94187dd74dabab940e2cce0f92
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551948"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460495"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-talent---onboard"></a>在 Dynamics 365 Talent - Onboard 中更新入职指南
+# <a name="update-onboarding-guides"></a>更新入职指南
 
 [!include [banner](includes/banner.md)]
 
@@ -34,21 +34,21 @@ ms.locfileid: "2551948"
 
 ## <a name="edit-an-onboarding-guide-directly"></a>直接编辑入职指南
 
-1. 在左侧菜单中，选择**指南**。
+1. 在左侧菜单中，选择 **指南**。
 2. 选择要编辑的指南。
-3. 进行所有需要的更改，然后选择**保存**按钮（磁盘符号）。
+3. 进行所有需要的更改，然后选择 **保存** 按钮（磁盘符号）。
 
     ![[保存对入职指南的更改](./media/onboard-save.png)](./media/onboard-save.png)
 
-Onboard 会自动向新雇员发送一封电子邮件，指明更改内容。 为便于识别，每项更改旁边都会显示一个红色的**新**标签。
+Onboard 会自动向新雇员发送一封电子邮件，指明更改内容。 为便于识别，每项更改旁边都会显示一个红色的 **新** 标签。
 
 ## <a name="update-multiple-guides-by-editing-the-onboarding-template"></a>通过编辑入职模板更新多个指南
 
-1. 在左侧菜单中，选择**模板**。
-2. 在**我的模板**下，选择要编辑的模板。
-3. 进行所有需要的更改，然后选择**保存**按钮（磁盘符号）。
-4. 要将更改推送到基于模板的所有指南，请选择**推送这些更改**。
+1. 在左侧菜单中，选择 **模板**。
+2. 在 **我的模板** 下，选择要编辑的模板。
+3. 进行所有需要的更改，然后选择 **保存** 按钮（磁盘符号）。
+4. 要将更改推送到基于模板的所有指南，请选择 **推送这些更改**。
 
     ![[将入职模板中的更改推送到从其创建的所有指南](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
-打开入职指南的新雇员将可以看到这些更改。 但是，Onboard 不会向新雇员发送电子邮件提醒来告知他们入职指南已经更改。 为便于识别，每项更改旁边都会显示一个红色的**新**标签。 
+打开入职指南的新雇员将可以看到这些更改。 但是，Onboard 不会向新雇员发送电子邮件提醒来告知他们入职指南已经更改。 为便于识别，每项更改旁边都会显示一个红色的 **新** 标签。 

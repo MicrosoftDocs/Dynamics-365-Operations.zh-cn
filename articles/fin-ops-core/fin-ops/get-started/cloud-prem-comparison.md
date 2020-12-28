@@ -3,26 +3,25 @@ title: 比较云和本地功能
 description: 此主题显示在云和本地支持的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 10/04/2020
+ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 89563
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 5b49dc6d5170af6fecc537a9a9130900e08bb26a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040091"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694559"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>云和本地功能的比较
 
@@ -166,10 +165,13 @@ ms.locfileid: "4040091"
 | 监控和遥测   |                                           | 是       | 是             |
 | 平台兼容性     |                                           | 是       | 是             |
 | 服务                  |                                           | 是       | 是             |
-|                            | 服务环境                    | 是       | 无              |
-| Trace Parser 和 PerfTimer |                                           | 是       | 无              |
+|                            | 服务环境                    | 是       | 不              |
+| 跟踪分析器               |                                           | 是       | 是             |
+| PerfTimer                  |                                           | 是       | 是\*           |
 | 升级                    |                                           | 是       | 是             |
-|                            | 升级                                   | 是       | 无              |
-|                            | 以前版本的升级和支持 | 是       | 否              |
+|                            | 升级                                   | 是       | 不              |
+|                            | 以前版本的升级和支持 | 是       | 不              |
 | Visual Studio 开发  |                                           | 是       | 是             |
+
+\*在本地环境中，PerfTimer 仅显示客户端的结果。
 

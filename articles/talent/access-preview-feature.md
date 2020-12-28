@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.1.0, Talent
 ms.openlocfilehash: d818e9e04ce88e5ab285ef8176334809447fb477
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124788"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460499"
 ---
 # <a name="manage-features"></a>管理功能
 
@@ -38,13 +38,13 @@ ms.locfileid: "3124788"
 若要访问预览功能，必须首先在您的环境中启用。 预览功能的启用或禁用特定于环境。
 
 > [!IMPORTANT]
-> 开启**预览功能**设置时，即对组织中该环境的所有用户启用了预览功能。 关闭此设置时，即禁用了预览功能，并且您的用户不能访问这些功能。 在 Talent 中，对预览功能的支持受限。 预览功能可以使用的隐私和安全措施更少，并且 Talent 服务级别协议 (SLA) 中不涵盖预览功能。 不应使用预览功能处理个人数据（即可能用于确认您的身份的所有信息），也不应处理其他与法律或法规遵从性要求有关的数据。
+> 开启 **预览功能** 设置时，即对组织中该环境的所有用户启用了预览功能。 关闭此设置时，即禁用了预览功能，并且您的用户不能访问这些功能。 在 Talent 中，对预览功能的支持受限。 预览功能可以使用的隐私和安全措施更少，并且 Talent 服务级别协议 (SLA) 中不涵盖预览功能。 不应使用预览功能处理个人数据（即可能用于确认您的身份的所有信息），也不应处理其他与法律或法规遵从性要求有关的数据。
 
 ### <a name="attract"></a>Attract
 
 1. 登录到 Microsoft Dynamics 365 Talent: Attract。
-2. 在右上角的**设置**菜单（齿轮符号）中，选择**管理中心**。
-3. 在**功能管理**选项卡上，选择**预览功能**旁边的选项，使其变为蓝色，然后说出**打开**。
+2. 在右上角的 **设置** 菜单（齿轮符号）中，选择 **管理中心**。
+3. 在 **功能管理** 选项卡上，选择 **预览功能** 旁边的选项，使其变为蓝色，然后说出 **打开**。
 
     ![启用 Attract 中的预览功能](./media/attract-enable-preview-features.png)
 

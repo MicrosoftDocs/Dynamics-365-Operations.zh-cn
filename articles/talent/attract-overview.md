@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4186dddc471de676cc6d26050f16711f581da7ca
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833061"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460392"
 ---
 # <a name="attract-features-and-capabilities"></a>Attract 特色和功能
 
@@ -36,7 +36,7 @@ Attract 提供用于管理新人才雇用流程的功能。 可以将应聘者�
 在仪表板上，招聘团队成员能够查看他们参与的工作的详细信息。 招聘经理或招聘人员也可以在仪表板上向 Attract 添加新的工作，方法是逐个创建或一次性从 Microsoft Excel 电子表格中导入多个工作。
 
 ## <a name="jobs"></a>工作
-在**工作**页上，可以查看和编辑工作描述和工作地点等详细信息。 **工作**页还可以将招聘团队集合在一起，您也可以在此添加或更改团队中的招聘人员和面试官。 还可以在**工作**页上添加新应聘者。
+在 **工作** 页上，可以查看和编辑工作描述和工作地点等详细信息。 **工作** 页还可以将招聘团队集合在一起，您也可以在此添加或更改团队中的招聘人员和面试官。 还可以在 **工作** 页上添加新应聘者。
 
 ## <a name="candidates"></a>应聘者
 可以将应聘者分别添加到工作中，或者可以从 Excel 电子表格大量上传。 在每一个工作中，所有应聘者自动添加到申请阶段，这是招聘流程的第一个阶段。 在此阶段，可以查看和管理应聘者的所有申请信息。 可以上传和查看其他文档，以及联系人信息，如电子邮件地址、电话号码和社交媒体帐户链接。 如果应聘者提供其 LinkedIn 个人资料的链接，并且 LinkedIn 集成已设置，那么应聘者的个人资料将显示。 （LinkedIn 集成需要 LinkedIn 招聘人员许可证。）

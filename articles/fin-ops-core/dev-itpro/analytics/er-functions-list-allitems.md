@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47113d52e15d3d61f00b3c54229e286eb0f1a8d7
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 15ab88512e49b51dbefa19056c3e1846715dcadb
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745385"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687760"
 ---
 # <a name="allitems-er-function"></a>ALLITEMS ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`ALLITEMS` 函数作为内存内选择运行，作为代表与指定路径匹配的所有项目的记录列表返回一个新的平展*记录列表*值。
+`ALLITEMS` 函数作为内存内选择运行，作为代表与指定路径匹配的所有项目的记录列表返回一个新的平展 *记录列表* 值。
 
 ## <a name="syntax"></a>语法
 
@@ -41,7 +40,7 @@ ALLITEMS (path)
 
 `path`：*记录列表*
 
-*记录列表*数据类型的数据源的有效路径。
+*记录列表* 数据类型的数据源的有效路径。
 
 ## <a name="return-values"></a>返回值
 
@@ -51,7 +50,7 @@ ALLITEMS (path)
 
 ## <a name="usage-notes"></a>使用说明
 
-路径必须定义为*记录列表*数据类型的数据源元素的有效数据源路径。 路径字符串和日期等数据元素应会在电子申报 (ER) 表达式生成器中设计时引发错误。
+路径必须定义为 *记录列表* 数据类型的数据源元素的有效数据源路径。 路径字符串和日期等数据元素应会在电子申报 (ER) 表达式生成器中设计时引发错误。
 
 我们不建议您对可能包含大量数据的交易记录数据源使用此函数。 而是考虑使用 [ALLTEMSQUERY](er-functions-list-allitemsquery.md) 函数。
 
@@ -61,7 +60,7 @@ ALLITEMS (path)
 
 ## <a name="example-2"></a>示例 2
 
-如果输入 **Vend** 作为引用 VendTable 应用程序表的*记录列表*数据类型的数据源，表达式 `ALLITEMS (Vend.'<Relations'.ContactPerson)` 将返回具有 **ContactPerson** 表结构并包含可以使用 **ContactPerson.ContactForParty == VendTable.Party** 关系访问的所有联系人，且可用于所引用供应商表中的所有供应商的记录的平展列表。
+如果输入 **Vend** 作为引用 VendTable 应用程序表的 *记录列表* 数据类型的数据源，表达式 `ALLITEMS (Vend.'<Relations'.ContactPerson)` 将返回具有 **ContactPerson** 表结构并包含可以使用 **ContactPerson.ContactForParty == VendTable.Party** 关系访问的所有联系人，且可用于所引用供应商表中的所有供应商的记录的平展列表。
 
 ## <a name="additional-resources"></a>其他资源
 

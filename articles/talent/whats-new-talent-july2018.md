@@ -19,11 +19,11 @@ ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
 ms.openlocfilehash: 546ec5a77d566b6f5739a604e26c0a60c5ff289a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899051"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460500"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-july-2018"></a>Dynamics 365 Talent - Core HR（2018 年 7 月）中的新增功能或更改
 

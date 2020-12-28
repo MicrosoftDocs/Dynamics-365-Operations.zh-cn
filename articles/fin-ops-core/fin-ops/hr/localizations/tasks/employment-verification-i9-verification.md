@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HcmWorker, HcmPersonIdentificationNumber, Hcmi9Document
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c1886413ba7eabc60f902c0183b443d63a579d7b
-ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
+ms.openlocfilehash: 7b5d0bfdee219b5003a3fdf62f81890bb81aecad
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3161676"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694204"
 ---
 # <a name="employment-verification-i9-verification"></a>雇用验证 i9 验证
 

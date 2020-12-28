@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, OMHierarchyPurposeAssociation, OMHierarchySelection, HierarchyDesigner
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dde06f758be57fb646696c861218565476abcadc
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 673403680525eff57c5886bb4f430a33efd76250
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140551"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694781"
 ---
 # <a name="create-an-organization-hierarchy"></a>创建组织层次结构。
 
@@ -34,18 +33,18 @@ ms.locfileid: "3140551"
 创建此程序的演示数据公司是 USMF。
 
 ## <a name="create-a-hierarchy"></a>创建层次结构
-1. 转到**导航窗格 > 模块 > 组织管理 > 组织 > 组织层次结构**。
-2. 在**操作窗格**中，单击**新建**。
-3. 在**名称**字段中，键入一个值。
-4. 在**用途**部分中，单击**分配用途**。
+1. 转到 **导航窗格 > 模块 > 组织管理 > 组织 > 组织层次结构**。
+2. 在 **操作窗格** 中，单击 **新建**。
+3. 在 **名称** 字段中，键入一个值。
+4. 在 **用途** 部分中，单击 **分配用途**。
 5. 在列表中，找到并选择所需记录。 选择分配给组织层次结构的用途。  
-6. 在**已分配层次结构**部分中，单击**添加**。
+6. 在 **已分配层次结构** 部分中，单击 **添加**。
 7. 在列表中，标记所选的行。 查找您刚才创建的层次结构。  
 8. 单击 **确定**。
 
 ## <a name="add-organizations-to-the-hierarchy"></a>将组织添加到层次结构
 1. 在列表中，找到并选择所需记录。 选择层次结构。  
-2. 在**已分配层次结构**部分中，单击**查看层次结构**。
+2. 在 **已分配层次结构** 部分中，单击 **查看层次结构**。
     - 根据需要添加组织。  
-    - 若要添加组织，单击**编辑**，然后单击**插入**来添加组织。 在进行更改后，您可以**保存**草稿和/或**发布**更改。  
+    - 若要添加组织，单击 **编辑**，然后单击 **插入** 来添加组织。 在进行更改后，您可以 **保存** 草稿和/或 **发布** 更改。  
 

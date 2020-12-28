@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14bc48a0dc118121b75c47f6082a3b4d58fcbadc
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
+ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977088"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "4512203"
 ---
 # <a name="europe-overview"></a>欧洲概览
 
@@ -99,4 +99,3 @@ ms.locfileid: "3977088"
 
 - [电子报告概览](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [从 Lifecycle Services 下载电子报告配置](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-

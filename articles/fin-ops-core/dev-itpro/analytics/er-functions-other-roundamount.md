@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 31a28279037ee6bfecd69b9d1e816afbd0de7894
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 15a84b086b324ec390d88e8b2617022ad4773977
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743967"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683055"
 ---
 # <a name="roundamount-er-function"></a>ROUNDAMOUNT ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`ROUNDAMOUNT` 函数根据指定的舍入规则，作为将指定数字舍入为另一个数字的最接近倍数的结果返回*实数*值。
+`ROUNDAMOUNT` 函数根据指定的舍入规则，作为将指定数字舍入为另一个数字的最接近倍数的结果返回 *实数* 值。
 
 ## <a name="syntax"></a>语法
 
@@ -39,11 +38,11 @@ ROUNDAMOUNT (number, decimals, round rule)
 
 ## <a name="arguments"></a>参数
 
-`number`：*Int* 或*实数*
+`number`：*Int* 或 *实数*
 
 必须舍入的数值。
 
-`decimals`：*Int* 或*实数*
+`decimals`：*Int* 或 *实数*
 
 `number` 参数的值必须舍入到其倍数的数字。
 

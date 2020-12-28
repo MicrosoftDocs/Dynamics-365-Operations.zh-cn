@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6dce39bc529bf6dd6079ed900af12510c0773f9a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: cd7f288e5c1015f4266db527adfcd62a5dbbc95f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899074"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528091"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-16-2019"></a>Dynamics 365 Talent 的新增功能或更改（2019 年 7 月 16 日）
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 
@@ -35,7 +37,7 @@ ms.locfileid: "2899074"
 ### <a name="coming-soon-in-attract"></a>Attract 中即将推出
 #### <a name="job-approvals-appear-on-the-home-page"></a>主页中显示工作审核
 
-仪表板的**审核**部分中将显示审核。 审核人可以在**已分配给您**（其中显示工作 ID、工作头衔、其他审核人和作业的分配日期）下查看自己的审核。 提交待审核工作的用户可以在**您请求的**（其中显示仍然必须审核提交的工作的审核者）下查看自己的工作。
+仪表板的 **审核** 部分中将显示审核。 审核人可以在 **已分配给您**（其中显示工作 ID、工作头衔、其他审核人和作业的分配日期）下查看自己的审核。 提交待审核工作的用户可以在 **您请求的**（其中显示仍然必须审核提交的工作的审核者）下查看自己的工作。
 
 ## <a name="changes-in-onboard"></a>Onboard 中的更改
 本版本中包含 Dynamics 365 Talent: Onboard 的小缺陷修复。
@@ -90,7 +92,7 @@ ms.locfileid: "2899074"
 
 ### <a name="goal-form-cannot-be-closed-after-a-user-edits-any-goal-field"></a>用户编辑目标字段后，无法关闭目标窗体
 
-此版本更正了选择**关闭**时目标窗体未关闭的问题。
+此版本更正了选择 **关闭** 时目标窗体未关闭的问题。
 
 ### <a name="creating-new-goals-and-saving-displays-error"></a>创建新目标和保存显示错误
 
@@ -112,24 +114,24 @@ ms.locfileid: "2899074"
 
 此版本更正了数据库批处理作业失败的问题。 要手动更新：
 
-1. 转到**数据管理**。
-2. 选择**配置实体导出到数据库功能**。
-3. 在目标数据库中重新输入连接字符串，然后选择**保存**。
+1. 转到 **数据管理**。
+2. 选择 **配置实体导出到数据库功能**。
+3. 在目标数据库中重新输入连接字符串，然后选择 **保存**。
 
 ### <a name="smtp-email-configuration-suddenly-fails-with-error-message-the-smtp-server-requires-a-secure-connection-or-the-client-was-not-authenticated"></a>SMTP 电子邮件配置突然失败，并显示错误消息：“SMTP 服务器需要安全连接或客户端未经过身份验证。”
 
 此版本更正了突然失败的 SMTP 电子邮件配置。 要手动更新：
 
-1. 转到**系统管理**。
-2. 选择**电子邮件参数**。
+1. 转到 **系统管理**。
+2. 选择 **电子邮件参数**。
 3. 选择 **SMTP 设置**。 
-4. 重新输入用于 SMTP 服务器的用户名和密码，然后选择**保存**。
+4. 重新输入用于 SMTP 服务器的用户名和密码，然后选择 **保存**。
 
 ## <a name="in-preview"></a>预览模式
 
 ### <a name="preview-features-are-enabled-only-in-sandbox-instances"></a>只有沙盒实例中才会启用预览功能
 
-配置新的 Talent 实例时，可指定实例类型为**生产**还是**沙盒**。 **沙盒**类型的实例可用于提前测试新功能。 将把所有现有 Talent 实例更新为**生产**实例类型。 如果需要将现有实例之一更新为**沙盒**实例类型，请联系[支持](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support)以发起更改请求。
+配置新的 Talent 实例时，可指定实例类型为 **生产** 还是 **沙盒**。 **沙盒** 类型的实例可用于提前测试新功能。 将把所有现有 Talent 实例更新为 **生产** 实例类型。 如果需要将现有实例之一更新为 **沙盒** 实例类型，请联系[支持](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support)以发起更改请求。
 
 有关如何发布更改的详细信息，请参阅[配置 Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent)。
 

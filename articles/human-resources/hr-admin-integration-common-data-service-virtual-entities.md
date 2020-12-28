@@ -3,7 +3,7 @@ title: 配置 Common Data Service 虚拟实体
 description: 本主题介绍了如何为 Dynamics 365 Human Resources 配置虚拟实体。 生成和更新现有虚拟实体，并分析生成的实体和可用实体。
 author: andreabichsel
 manager: tfehr
-ms.date: 10/05/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0d6f79ea569a7a9b0d25e73e8666bf9ba19095d0
-ms.sourcegitcommit: a8665c47696028d371cdc4671db1fd8fcf9e1088
+ms.openlocfilehash: 2b590faeab600d04c9d5303693ec1e9ac682250d
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4058146"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645593"
 ---
 # <a name="configure-common-data-service-virtual-entities"></a>配置 Common Data Service 虚拟实体
 
-[!include [banner](includes/preview-feature.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Human Resources 是 Common Data Service 中的虚拟数据源。 它提供 Common Data Service 和 Microsoft Power Platform 中的完全创建、读取、更新和删除 (CRUD) 操作。 虚拟实体的数据未存储在 Common Data Service 中，但存储在应用程序数据库中。 
 
@@ -50,31 +50,43 @@ Human Resources 的虚拟实体与为 Human Resources 创建的 Common Data Serv
 
 ## <a name="setup"></a>设置
 
-请按照以下设置步骤在您的环境中启用虚拟实体。 
+请按照以下设置步骤在您的环境中启用虚拟实体。
+
+### <a name="enable-virtual-entities-in-human-resources"></a>在 Human Resources 中启用虚拟实体
+
+首先，您必须在 **功能管理** 工作区中启用虚拟实体。
+
+1. 在 Human Resources 中，选择 **系统管理**。
+
+2. 选择 **功能管理** 磁贴。
+
+3. 选择 **HR/CDS 中的虚拟实体支持**，然后选择 **启用**。
+
+有关启用和禁用功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。
 
 ### <a name="register-the-app-in-microsoft-azure"></a>在 Microsoft Azure 中注册应用
 
-首先，您需要在 Azure 门户中注册应用，以便 Microsoft 标识平台可以为应用和用户提供身份验证和授权服务。 有关在 Azure 中注册应用的详细信息，请参阅[快速入门：向 Microsoft 标识平台注册应用程序](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)。
+您必须在 Azure 门户中注册 Human Resources 实例，以便 Microsoft 标识平台可以为应用和用户提供身份验证和授权服务。 有关在 Azure 中注册应用的详细信息，请参阅[快速入门：向 Microsoft 标识平台注册应用程序](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)。
 
 1. 打开 [Microsoft Azure 门户](https://portal.azure.com)。
 
-2. 在 Azure 服务中，选择 **应用注册** 。
+2. 在 Azure 服务中，选择 **应用注册**。
 
-3. 选择 **新注册** 。
+3. 选择 **新注册**。
 
-4. 在 **名称** 字段中，输入应用的描述性名称。 例如， **Dynamics 365 Human Resources 虚拟实体** 。
+4. 在 **名称** 字段中，输入应用的描述性名称。 例如，**Dynamics 365 Human Resources 虚拟实体**。
 
 5. 在 **重定向 URI** 字段中，输入 Human Resources 实例的命名空间 URL。
 
-6. 选择 **注册** 。
+6. 选择 **注册**。
 
-7. 注册完成后，Azure 门户显示应用注册的 **概述** 窗格，其中包括其 **应用程序（客户端）ID** 。 此时，请记下 **应用程序（客户端）ID** 。 您将在[配置虚拟实体数据源](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source)时输入此信息。
+7. 注册完成后，Azure 门户显示应用注册的 **概述** 窗格，其中包括其 **应用程序（客户端）ID**。 此时，请记下 **应用程序（客户端）ID**。 您将在[配置虚拟实体数据源](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source)时输入此信息。
 
-8. 在左侧导航窗格中，选择 **证书和密码** 。
+8. 在左侧导航窗格中，选择 **证书和密码**。
 
-9. 在页面的 **客户端密码** 部分中，选择 **新客户端密码** 。
+9. 在页面的 **客户端密码** 部分中，选择 **新客户端密码**。
 
-10. 提供描述，选择持续时间，然后选择 **添加** 。
+10. 提供描述，选择持续时间，然后选择 **添加**。
 
 11. 记录密码的值。 您将在[配置虚拟实体数据源](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source)时输入此信息。
 
@@ -89,15 +101,15 @@ Human Resources 的虚拟实体与为 Human Resources 创建的 Common Data Serv
 
 2. 在 **环境** 列表中，选择与您的 Human Resources 实例关联的 Power Apps 环境。
 
-3. 在页面的 **资源** 部分中，选择 **Dynamics 365 应用** 。
+3. 在页面的 **资源** 部分中，选择 **Dynamics 365 应用**。
 
 4. 选择 **安装应用** 操作。
 
-5. 选择 **Dynamics 365 HR Virtual Entity** ，然后选择 **下一步** 。
+5. 选择 **Dynamics 365 HR Virtual Entity**，然后选择 **下一步**。
 
 6. 审查并标记以同意服务条款。
 
-7. 选择 **安装** 。
+7. 选择 **安装**。
 
 安装需要几分钟时间。 完成后，请继续执行后续步骤。
 
@@ -111,26 +123,38 @@ Human Resources 的虚拟实体与为 Human Resources 创建的 Common Data Serv
 
 2. 在 **环境** 列表中，选择与您的 Human Resources 实例关联的 Power Apps 环境。
 
-3. 在页面的 **详细信息** 部分中选择 **环境 URL** 。
+3. 在页面的 **详细信息** 部分中选择 **环境 URL**。
 
 4. 在 **解决方案运行状况中心** 中，选择应用程序页面右上角的 **高级查找** 图标。
 
-5. 在 **高级查找** 页面上的 **查找** 下拉列表中，选择 **Finance and Operations 虚拟数据源配置** 。
+5. 在 **高级查找** 页面上的 **查找** 下拉列表中，选择 **Finance and Operations 虚拟数据源配置**。
 
-6. 选择 **结果** 。
+6. 选择 **结果**。
 
 7. 选择 **Microsoft HR 数据源** 记录。
 
-8. 输入数据源配置所需的信息。
+8. 输入数据源配置所需的信息：
 
-   - **目标 URL** ：Human Resources 命名空间的 URL。
-   - **租户 ID** ：Azure Active Directory (Azure AD) 租户 ID。
-   - **AAD 应用程序 ID** ：为在 Microsoft Azure 门户中注册的应用程序创建的应用程序（客户端）ID。 您在步骤[在 Microsoft Azure 中注册应用](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure)的早期阶段就收到了此信息。
-   - **AAD 应用程序密码** ：为在 Microsoft Azure 门户中注册的应用程序创建的客户端密码。 您在步骤[在 Microsoft Azure 中注册应用](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure)的早期阶段就收到了此信息。
+   - **目标 URL**：Human Resources 命名空间的 URL。 目标 URL 的格式为：
+     
+     https://\<hostname\>.hr.talent.dynamics.com/namespaces/\<namespaceID\>/
 
-9. 选择 **保存并关闭** 。
+     例如:
+     
+     `https://aos.rts-sf-5ea54e35c68-westus2.hr.talent.dynamics.com/namespaces/49d24c565-8f4d-4891-b174-bf83d948ed0c/`
+
+     >[!NOTE]
+     >确保在 URL 的结尾包括“**/**”字符，以避免收到错误。
+
+   - **租户 ID**：Azure Active Directory (Azure AD) 租户 ID。
+
+   - **AAD 应用程序 ID**：为在 Microsoft Azure 门户中注册的应用程序创建的应用程序（客户端）ID。 您在步骤[在 Microsoft Azure 中注册应用](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure)的早期阶段就收到了此信息。
+
+   - **AAD 应用程序密码**：为在 Microsoft Azure 门户中注册的应用程序创建的客户端密码。 您在步骤[在 Microsoft Azure 中注册应用](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure)的早期阶段就收到了此信息。
 
    ![Microsoft HR 数据源](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
+
+9. 选择 **保存并关闭**。
 
 ### <a name="grant-app-permissions-in-human-resources"></a>在 Human Resources 中授予应用权限
 
@@ -149,8 +173,8 @@ Human Resources 的虚拟实体与为 Human Resources 创建的 Common Data Serv
 
 3. 选择 **新建** 以创建第二个应用程序记录：
 
-    - **客户端 ID** ：f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **名称** ：Dynamics 365 HR Virtual Entity
+    - **客户端 ID**：f9be0c49-aa22-4ec6-911a-c5da515226ff
+    - **名称**：Dynamics 365 HR Virtual Entity
     - 在 **用户 ID** 字段中，在 Human Resources 和 Power Apps 环境中选择具有管理员权限的用户的用户 ID。
 
 ## <a name="generate-virtual-entities"></a>生成虚拟实体
@@ -162,11 +186,11 @@ Human Resources 的虚拟实体与为 Human Resources 创建的 Common Data Serv
 2. 选择 **虚拟实体** 选项卡。
 
 > [!NOTE]
-> 在完成所有所需的设置后， **启用虚拟实体** 切换将自动设置为 **是** 。 如果切换设置为 **否** ，请查看本文档前面部分中的步骤，以确保完成所有先决条件设置。
+> 在完成所有所需的设置后，**启用虚拟实体** 切换将自动设置为 **是**。 如果切换设置为 **否**，请查看本文档前面部分中的步骤，以确保完成所有先决条件设置。
 
 3. 选择要在 Common Data Service 中生成的一个或多个实体。
 
-4. 选择 **生成/刷新** 。
+4. 选择 **生成/刷新**。
 
 ![Common Data Service 集成](./media/hr-admin-integration-common-data-service-integration.jpg)
 
@@ -178,9 +202,9 @@ Human Resources 的虚拟实体与为 Human Resources 创建的 Common Data Serv
 
 2. 选择 **后台进程** 选项卡。
 
-3. 选择 **虚拟实体轮询异步操作后台进程** 。
+3. 选择 **虚拟实体轮询异步操作后台进程**。
 
-4. 选择 **查看最新结果** 。
+4. 选择 **查看最新结果**。
 
 滑出窗格将显示该进程的最新执行结果。 您可以查看进程的日志，包括从 Common Data Service 返回的任何错误。
 

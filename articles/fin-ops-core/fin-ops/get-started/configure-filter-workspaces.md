@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BankTreasurerWorkspace, HcmBenefitWorkspace, BudgetPlanningWorkspace, BusinessProcessGenericWorkspace, RetailCatalogManagementWorkspace, RetailCategoryAndProductWorkspace, RetailChannelManagementWorkspace, HcmCompensationWorkspace, CAMCostAccountingLedgerAdminWorkspace, CostAdminWorkspace, CostAnalysisWorkspace, CAMCostControlWorkspace, CustomerCollectionManagerWorkspace, CustomerInvoiceWorkspace, CustPaymentWorkspace, DataManagementWorkspace, DataValidationWorkspace, ERWorkspace, LedgerPeriodCloseProjectWorkspace, AssetWorkspace, GeneralJournalEntryWorkspace, VendVendorPortalInvoiceWorkspace, BudgetTrackingWorkspace, ReqCreatePlanWorkspace, BusinessProcessGenericOwnerWorkspace, SelfHealingWorkspace, WHSOutboundWorkMonitoringWorkspace, WHSWavePlanningWorkspace, PayrollWorkspace, HcmWorkforceWorkspace, RetailDiscountPricingWorkspace, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, EcoResProductVariantMaintainWorkspace, JmgShopSupervisorWorkspace, ProjProjectManagementWorkspace, VendVendorPortalWorkspace, PurchOrderMaintainWorkspace, PurchOrderProcessReceiptsWorkspace, HcmRecruitmentWorkspace, EcoResProductMaintainWorkspace, FMClerkWorkspace, OpResLifecycleManagementWorkspace, RetailITWorkspace, RetailChannelOperationsWorkspace, RetailStoreManagementWorkspace, SalesOrderProcessingWorkspace, SalesReturnWorkspace, SystemAdministrationWorkspaceForm, VendVendorRequestForQuotationsWorkspace, VendVendorProfileManagementWorkspace, VendInvoiceWorkspace, VendPaymentWorkspace
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 17491
 ms.assetid: 541e6012-4680-4684-8494-e9b5ca4684ee
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 974980e1633e3f909b7c73964e811c351a042a7b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7070748a7712d257318aff559e7b115da15b67f0
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191193"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694511"
 ---
 # <a name="configure-and-filter-workspaces"></a>配置和筛选工作区
 
@@ -33,7 +32,7 @@ ms.locfileid: "2191193"
 
 ## <a name="configuring-a-workspace"></a>配置工作区
 
-您可以通过更新应用于整个工作区的设置来更改一些工作区的外观和行为。 在可以配置工作区时，“操作”窗格包括指示您单击它进行配置更改的按钮。 例如，在下图中，按钮称为**配置我的工作区域**。
+您可以通过更新应用于整个工作区的设置来更改一些工作区的外观和行为。 在可以配置工作区时，“操作”窗格包括指示您单击它进行配置更改的按钮。 例如，在下图中，按钮称为 **配置我的工作区域**。
 
 [![配置和筛选工作区](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
 

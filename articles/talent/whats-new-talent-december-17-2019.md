@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-12-17
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 9af1c61f446f04f1f22cddf3f12dece517446701
-ms.sourcegitcommit: 724b72412861d342c138a7935319da700b63c234
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2921188"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460400"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-december-17-2019"></a>Dynamics 365 Talent（2019 年 12 月 17 日）中的新增功能或更改
 
@@ -43,7 +43,7 @@ ms.locfileid: "2921188"
 
 ### <a name="print-performance-reviews"></a>打印绩效复查
 
-现在，在所有环境中都提供打印绩效审核。 要启用此功能，请使用**功能管理**工作区。 有关功能管理的更多信息，请参阅[功能管理概述](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)。 有关打印绩效审核的详细信息，请参阅[绩效审核](https://docs.microsoft.com/dynamics365/talent/performance-management-overview#performance-reviews)。
+现在，在所有环境中都提供打印绩效审核。 要启用此功能，请使用 **功能管理** 工作区。 有关功能管理的更多信息，请参阅[功能管理概述](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)。 有关打印绩效审核的详细信息，请参阅[绩效审核](https://docs.microsoft.com/dynamics365/talent/performance-management-overview#performance-reviews)。
 
 ### <a name="retired-position-with-direct-reports-floats-in-org-diagram-as-an-open-position-385436"></a>组织结构图中直接下属为“浮动”的废弃职位成为空缺职位 (385436)
 

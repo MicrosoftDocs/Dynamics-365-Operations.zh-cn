@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 5c322a0dd9a3c61a2d333fdc716acde88a2165f0
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898217"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460459"
 ---
 # <a name="create-an-onboarding-template"></a>创建入职模板
 
@@ -31,23 +31,23 @@ Microsoft Dynamics 365 Talent: Onboard 提供了各种模板，可以帮助您�
 
 ## <a name="create-an-onboarding-template-from-an-existing-template"></a>从现有模板创建入职模板
 
-1. 在左侧菜单中，选择**模板**。
-2. 在**库中的热门模板**或**我的模板**下，选择一个模板。 要查看更多模板，请选择**模板库中的更多模板**。
+1. 在左侧菜单中，选择 **模板**。
+2. 在 **库中的热门模板** 或 **我的模板** 下，选择一个模板。 要查看更多模板，请选择 **模板库中的更多模板**。
 3. 按以下步骤之一：
 
-    - 如果模板来自库，请选择**另存为我的模板**，输入模板的新名称，然后选择**保存**。
-    - 如果模板来自**我的模板**，请选择**另存为模板**，输入模板的新名称，然后选择**保存**。
+    - 如果模板来自库，请选择 **另存为我的模板**，输入模板的新名称，然后选择 **保存**。
+    - 如果模板来自 **我的模板**，请选择 **另存为模板**，输入模板的新名称，然后选择 **保存**。
 
     [![从现有模板创建模板](./media/onboard-save-template.png)](./media/onboard-save-template.png)
 
 ## <a name="create-a-new-onboarding-template"></a>创建新入职模板
 
-1. 在左侧菜单中，选择**模板**。
-2. 在**我的模板**下，选择**添加**（加号 \[**+**\]）磁贴。
+1. 在左侧菜单中，选择 **模板**。
+2. 在 **我的模板** 下，选择 **添加**（加号 \[**+**\]）磁贴。
 
     [![创建新模板](./media/onboard-create-new-template.png)](./media/onboard-create-new-template.png)
 
-3. 在**创建指南模板**对话框中，输入模板的名称，然后选择**保存**。
+3. 在 **创建指南模板** 对话框中，输入模板的名称，然后选择 **保存**。
 
 ## <a name="next-steps"></a>后续步骤
 

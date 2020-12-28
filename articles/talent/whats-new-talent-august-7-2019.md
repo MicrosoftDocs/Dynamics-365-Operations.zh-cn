@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-08-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: a01201ae4934f6650f85634a230469c6272b36b9
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006486"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460506"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-6-2019"></a>Dynamics 365 Talent 的新增功能或更改（2019 年 8 月 6 日）
 
@@ -47,7 +47,7 @@ ms.locfileid: "3006486"
 
 ### <a name="preview-features-are-enabled-only-in-sandbox-instances"></a>只有沙盒实例中才会启用预览功能
 
-配置新的 Talent 实例时，可指定实例类型为**生产**还是**沙盒**。 **沙盒**类型的实例可用于提前测试新功能。 将把所有现有 Talent 实例更新为**生产**实例类型。 如果需要将现有实例之一更新为**沙盒**实例类型，请联系[支持](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support)以发起更改请求。
+配置新的 Talent 实例时，可指定实例类型为 **生产** 还是 **沙盒**。 **沙盒** 类型的实例可用于提前测试新功能。 将把所有现有 Talent 实例更新为 **生产** 实例类型。 如果需要将现有实例之一更新为 **沙盒** 实例类型，请联系[支持](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support)以发起更改请求。
 
 有关如何发布更改的详细信息，请参阅[配置 Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent)。
 

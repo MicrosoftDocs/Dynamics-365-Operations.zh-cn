@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 751598b2d32ac84e8a9bd201dd5098ccc575fc18
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 8288c2cbf16ae0d73a065e323b5e8214252889a1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917779"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686139"
 ---
 # <a name="list-of-er-functions-in-the-mathematical-category"></a>数学类别的 ER 函数列表
 
@@ -35,11 +34,11 @@ ms.locfileid: "2917779"
 
 | 职能 | 说明 |
 |----------|-------------|
-| [绝对值](er-functions-mathematical-abs.md)             | 此函数作为*实数*值返回指定数字的绝对值（模数）。 即，返回不带符号的数字。 |
-| [功率](er-functions-mathematical-power.md)         | 此函数返回一个*实数*值，其代表将指定正数提高到指定幂的结果的值。 |
-| [Round](er-functions-mathematical-round.md)         | 此函数作为*实数*值返回已舍入到指定小数位数的指定数字。 |
-| [RoundDown](er-functions-mathematical-rounddown.md) | 此函数作为*实数*值返回已向下舍入到指定小数位数的指定数字。 |
-| [RoundUp](er-functions-mathematical-roundup.md)     | 此函数作为*实数*值返回已向上舍入到指定小数位数的指定数字。 |
+| [绝对值](er-functions-mathematical-abs.md)             | 此函数作为 *实数* 值返回指定数字的绝对值（模数）。 即，返回不带符号的数字。 |
+| [功率](er-functions-mathematical-power.md)         | 此函数返回一个 *实数* 值，其代表将指定正数提高到指定幂的结果的值。 |
+| [Round](er-functions-mathematical-round.md)         | 此函数作为 *实数* 值返回已舍入到指定小数位数的指定数字。 |
+| [RoundDown](er-functions-mathematical-rounddown.md) | 此函数作为 *实数* 值返回已向下舍入到指定小数位数的指定数字。 |
+| [RoundUp](er-functions-mathematical-roundup.md)     | 此函数作为 *实数* 值返回已向上舍入到指定小数位数的指定数字。 |
 
 ## <a name="additional-resources"></a>其他资源
 

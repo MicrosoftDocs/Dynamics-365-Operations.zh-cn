@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bd54695f54b501631f916328c05bfd47e538d50d
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: b4e5f715efcac7f883df99508d282db904be0d80
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055822"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665215"
 ---
 # <a name="site-selector-module"></a>站点选择器模块
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 本主题介绍了站点选择器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-04-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 729490e7516d8c7aef7232c9f5c227d3207dcd68
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: a7ea8348cfe1c66d6d0cfa39b46c8e69111fe185
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712416"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528513"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-13-2020"></a>Dynamics 365 Human Resources（2020 年 4 月 13 日）新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 本文介绍 Dynamics 365 Human Resources 中的新增功能或更改的功能。 更改适用于内部版本号 8.1.3136。 某些标题中括号内的数字是 LCS 支持号码，供您参考。
 
@@ -35,7 +37,7 @@ ms.locfileid: "3712416"
 
 ## <a name="rounding-precision-field-isnt-editable-after-specifying-a-rounding-type-435616"></a>指定化整类型后“化整精度”字段不可编辑 (435616)
 
-通过此更改，更新**化整类型**字段后，现在可使用**化整精度**字段。
+通过此更改，更新 **化整类型** 字段后，现在可使用 **化整精度** 字段。
 
 ## <a name="cant-edit-leave-enrollment-end-date-when-the-leave-plan-doesnt-have-accrual-periods-413628"></a>不能在休假计划中无应计期间时编辑休假登记结束日期 (413628)
 
@@ -47,11 +49,11 @@ ms.locfileid: "3712416"
 
 ## <a name="remove-multi-parenting-for-work-calendar-time-interval-entity-431775"></a>删除工作日历日历时间间隔实体的多父项 (431775)
 
-此更改解决了**工作日历时间间隔**实体的多父项问题。
+此更改解决了 **工作日历时间间隔** 实体的多父项问题。
 
 ## <a name="filter-with-cast-function-doesnt-work-on-odata-call-position-worker-assignment-entity-431699"></a>采用 CAST 函数的筛选器对 OData 调用位置工作人员分配实体无效 (431699)
 
-此更新中包含一项更改，用于允许 OData 内采用 CAST 函数的筛选器用于**位置工作人员分配**实体。
+此更新中包含一项更改，用于允许 OData 内采用 CAST 函数的筛选器用于 **位置工作人员分配** 实体。
 
 ## <a name="in-preview"></a>预览模式
 
@@ -67,7 +69,7 @@ ms.locfileid: "3712416"
 
 ## <a name="employment-details-entity"></a>雇用详细信息实体
 
-已使用以下字段更新了**雇用详细信息**实体：
+已使用以下字段更新了 **雇用详细信息** 实体：
 
 - **付款频率**
 - **雇用类别 ID**
@@ -75,13 +77,13 @@ ms.locfileid: "3712416"
 - **雇用类型 ID**
 - **福利雇用状态**
 
-这些字段的设置数据依赖于**功能管理**工作区中启用的福利管理。 请勿填写或更新**雇用详细信息**实体中的这些字段，因为将导致导入期间出错。
+这些字段的设置数据依赖于 **功能管理** 工作区中启用的福利管理。 请勿填写或更新 **雇用详细信息** 实体中的这些字段，因为将导致导入期间出错。
 
 ## <a name="sharepoint-preview-doesnt-work-in-some-environments"></a>SharePoint 预览在某些环境下不起作用
 
 如果 SharePoint 中存储的文档的文档预览不起作用，请尝试以下过程：
 
-1. 验证管理员用户帐户是否具有与用户记录关联的电子邮件。 可在**用户**页面查看这些信息。 如果未设置电子邮件，则需要使用 OData Excel 加载项添加电子邮件和提供程序。 默认情况下，Excel 设计中不显示电子邮件地址。 您需要编辑 Excel 设计，添加所有字段，然后应用并刷新。 完成这些步骤后，您可以更新管理员帐户。
+1. 验证管理员用户帐户是否具有与用户记录关联的电子邮件。 可在 **用户** 页面查看这些信息。 如果未设置电子邮件，则需要使用 OData Excel 加载项添加电子邮件和提供程序。 默认情况下，Excel 设计中不显示电子邮件地址。 您需要编辑 Excel 设计，添加所有字段，然后应用并刷新。 完成这些步骤后，您可以更新管理员帐户。
 
 2. 管理员帐户具有关联的电子邮件帐户后，使用管理员凭据登录到 Human Resources。
 

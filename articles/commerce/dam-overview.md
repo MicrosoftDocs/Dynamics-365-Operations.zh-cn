@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fd2ec16ec441174485a9cc70f41a83337264f53b
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 69cbaafb9cc28d4e363d0ef028460235cded54dc
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096978"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594348"
 ---
 # <a name="digital-asset-management-overview"></a>数字资产管理概览
 
@@ -45,7 +45,7 @@ Dynamics 365 Commerce 站点构建器的媒体库中拥有丰富的数字资产�
 
 数字资产特定于渠道，但全渠道资产除外，这种资产默认为环境范围。 
 
-数字资产和管理功能位于站点构建器中站点内左侧导航窗格上的**媒体库**下。
+数字资产和管理功能位于站点构建器中站点内左侧导航窗格上的 **媒体库** 下。
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -58,3 +58,5 @@ Dynamics 365 Commerce 站点构建器的媒体库中拥有丰富的数字资产�
 [裁剪图像](dam-crop-images.md)
 
 [自定义图像焦点](dam-custom-focal-point.md)
+
+[上传和提供静态文件](upload-serve-static-files.md)

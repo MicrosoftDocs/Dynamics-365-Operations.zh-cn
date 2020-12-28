@@ -10,28 +10,27 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 445a2872dcd0e4d3aca9a50c7539fdabb0ed7818
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005578"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683423"
 ---
 # <a name="company-directory-mobile-workspace"></a>公司目录移动电话工作区
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供有关**公司目录**移动工作区的信息。 此工作区让用户能够查看和联系其组织中的其他员工。
+此主题提供有关 **公司目录** 移动工作区的信息。 此工作区让用户能够查看和联系其组织中的其他员工。
 
 此移动工作区可与 Finance and Operations 移动应用结合使用。
 
 ## <a name="overview"></a>概览
-**公司目录**移动工作区让用户能够执行以下任务：
+**公司目录** 移动工作区让用户能够执行以下任务：
 
 - 查看组织中的员工列表。
 - 搜索组织中的员工。
@@ -83,10 +82,10 @@ ms.locfileid: "3005578"
 [![下拉以刷新](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>使用移动工作区查看公司目录
-1.  在移动应用中，选择**公司目录**工作区。 此时将显示员工列表。
-3.  选择某一员工。 此时将显示**员工模板**页。 此页上的信息包括员工的名字、姓氏、职务和部门。
+1.  在移动应用中，选择 **公司目录** 工作区。 此时将显示员工列表。
+3.  选择某一员工。 此时将显示 **员工模板** 页。 此页上的信息包括员工的名字、姓氏、职务和部门。
 
 ## <a name="search-the-company-directory-by-using-the-mobile-workspace"></a>使用移动工作区搜索公司目录
-1.  在移动应用中，选择**公司目录**工作区。
-2.  在**搜索**字段中，输入员工的名字、姓氏、职务或部门开始搜索。
-3.  选择某一员工。 此时将显示**员工模板**页。 此页上的信息包括员工的名字、姓氏、职务和部门。
+1.  在移动应用中，选择 **公司目录** 工作区。
+2.  在 **搜索** 字段中，输入员工的名字、姓氏、职务或部门开始搜索。
+3.  选择某一员工。 此时将显示 **员工模板** 页。 此页上的信息包括员工的名字、姓氏、职务和部门。

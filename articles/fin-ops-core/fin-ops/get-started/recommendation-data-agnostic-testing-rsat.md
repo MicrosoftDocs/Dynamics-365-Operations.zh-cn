@@ -10,18 +10,17 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d62f5520ebffd939f03f30064991cfb174fbcc9d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7fd1fc4756e74a5d07ffae533b6b9837b960f17a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176726"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693741"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>使用 Regression Suite Automation Tool 的数据不可知测试
 
@@ -43,7 +42,7 @@ ms.locfileid: "2176726"
     - o 在单元测试和组件测试为低级别且可能完全不可知（不依赖于现有数据集）的情况下，业务周期或回归验证测试依赖于某些现有数据。 此数据中包括设置、配置设置（参数）和主数据（客户、供应商、物料等），但是不能包含交易记录数据。 确保在最终测试中还原测试期间更改了的其中任何数据。
     - 根据特定条件选择主数据，而不是选择特定记录。 例如，如果要根据物料的维度值和存货可用性选择物料，请使用这些值筛选产品列表，选择第一个物料，然后复制要用于将来测试的编号。 如果是客户、供应商或物料之类简单主数据行，则可在自动化期间创建，并通过链接在将来的测试中使用。 
     - o 通过编号规则或通过使用 Microsoft Excel 函数（如 =TEXT(NOW(),"yyyymmddhhmm")）输入唯一标识符，如发票编号。 此函数每分钟提供一个唯一编号，这样您就可以跟踪执行的操作。 可将其用于变量，如产品收据编号和供应商发票编号。 这些测试将重复使用同一个数据库，无需进行任何还原。
-    - 请始终将环境的**编辑模式**设置为**读取**或**编辑**来充当第一个测试案例，因为默认选项为**自动**。**自动**选项始终使用前一个设置，可能导致不可靠的测试。 
+    - 请始终将环境的 **编辑模式** 设置为 **读取** 或 **编辑** 来充当第一个测试案例，因为默认选项为 **自动**。**自动** 选项始终使用前一个设置，可能导致不可靠的测试。 
  
     [![“选项”页“性能”选项卡](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  

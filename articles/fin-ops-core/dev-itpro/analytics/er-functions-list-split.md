@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c171509353fed92b14ca0d7473742e4a9a54bad1
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: e1f11d68b697fdd363f429e60a79f1e1f97bab5b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745265"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686384"
 ---
 # <a name="split-er-function"></a>SPLIT ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`SPLIT` 函数将指定的输入字符串拆分为子字符串，并将结果作为新的*记录列表*值返回。
+`SPLIT` 函数将指定的输入字符串拆分为子字符串，并将结果作为新的 *记录列表* 值返回。
 
 ## <a name="syntax-1"></a>语法 1
 
@@ -69,19 +68,19 @@ SPLIT (input, delimiter)
 
 ## <a name="usage-notes"></a>使用说明
 
-返回的列表的记录结构包括*字符串*类型的**值**字段。 返回的列表的每个记录在此字段中都包含生成的子字符串。
+返回的列表的记录结构包括 *字符串* 类型的 **值** 字段。 返回的列表的每个记录在此字段中都包含生成的子字符串。
 
-如果 `delimiter` 参数是空的，返回的新列表将包括一个具有*字符串*类型的**值**字段的记录。 此字段包含输入文本。
+如果 `delimiter` 参数是空的，返回的新列表将包括一个具有 *字符串* 类型的 **值** 字段的记录。 此字段包含输入文本。
 
 如果 `input` 参数为空，新的空列表将返回。 如果 `input` 或 `delimiter` 参数未指定（空），将引发应用程序异常。
 
 ## <a name="example-1"></a>示例 1
 
-`SPLIT ("abcd", 3)` 返回包含具有*字符串*类型的**值**字段的两个记录的新列表。 第一个记录中的**值**字段包含文本 **"abc"**，第二个记录中的**值**字段包含文本 **"d"**。
+`SPLIT ("abcd", 3)` 返回包含具有 *字符串* 类型的 **值** 字段的两个记录的新列表。 第一个记录中的 **值** 字段包含文本 **"abc"**，第二个记录中的 **值** 字段包含文本 **"d"**。
 
 ## <a name="example-2"></a>示例 2
 
-`SPLIT ("XAb aBy", "aB")` 返回包含具有*字符串*类型的**值**字段的三个记录的新列表。 第一个记录中的**值**字段包含文本 **"X"**，第二个记录中的**值**字段包含文本 **"&nbsp;"**，第三个记录中的**值**字段包含文本 **"y"**。 
+`SPLIT ("XAb aBy", "aB")` 返回包含具有 *字符串* 类型的 **值** 字段的三个记录的新列表。 第一个记录中的 **值** 字段包含文本 **"X"**，第二个记录中的 **值** 字段包含文本 **"&nbsp;"**，第三个记录中的 **值** 字段包含文本 **"y"**。 
 
 ## <a name="additional-resources"></a>其他资源
 

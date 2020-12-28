@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1146fce7cf620a002231a5bc9246c706b97d478d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 8aa03f94e0fb89a6d34ce014dbb6004a1a666327
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210126"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529202"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>将 Sales 的客户直接同步到 Supply Chain Management 中的客户
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
 > 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
@@ -43,7 +45,7 @@ ms.locfileid: "3210126"
 
 ## <a name="templates-and-tasks"></a>模板和任务
 
-若要访问可用模板，打开 [Power Apps 管理员中心](https://preview.admin.powerapps.com/dataintegration)。 选择**项目**，然后在右上角，选择**新项目**以选择公共模板。
+若要访问可用模板，打开 [Power Apps 管理员中心](https://preview.admin.powerapps.com/dataintegration)。 选择 **项目**，然后在右上角，选择 **新项目** 以选择公共模板。
 
 以下模板和基础任务用于将客户从 Sales 同步到 Supply Chain Management：
 
@@ -60,15 +62,15 @@ ms.locfileid: "3210126"
 
 ## <a name="entity-flow"></a>实体流
 
-客户在 Sales 中托管，并作为客户同步到 Supply Chain Management。 这些客户的**外部维护**属性设置为**是**以跟踪源自 Sales 的客户。 在开票期间，此信息用于筛选将同步到 Sales 的发票。
+客户在 Sales 中托管，并作为客户同步到 Supply Chain Management。 这些客户的 **外部维护** 属性设置为 **是** 以跟踪源自 Sales 的客户。 在开票期间，此信息用于筛选将同步到 Sales 的发票。
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>用于 Sales 的“从目标客户到现金”解决方案
 
-**帐号**字段在**帐户**页提供。 它由一个自然和唯一参数组成以支持集成。 客户关系管理 (CRM) 解决方案的自然键特征可能影响已经使用**帐号**字段，但各帐户不使用唯一**帐号**的客户。 目前，集成解决方案不支持此案例。
+**帐号** 字段在 **帐户** 页提供。 它由一个自然和唯一参数组成以支持集成。 客户关系管理 (CRM) 解决方案的自然键特征可能影响已经使用 **帐号** 字段，但各帐户不使用唯一 **帐号** 的客户。 目前，集成解决方案不支持此案例。
 
-当创建新帐户时，如果**帐号**值不存在，则使用编号规则自动生成。 该值由 **ACC** 以及依次紧跟在后面的一个增加的编号规则和一个由六个字符组成的后缀构成。 示例：**ACC-01000-BVRCPS**
+当创建新帐户时，如果 **帐号** 值不存在，则使用编号规则自动生成。 该值由 **ACC** 以及依次紧跟在后面的一个增加的编号规则和一个由六个字符组成的后缀构成。 示例：**ACC-01000-BVRCPS**
 
-当对 Sales 应用集成解决方案时，升级脚本为 Sales 中的现有帐户设置**帐号**字段。 如果没有**帐号**值，可以使用之前提到的编号规则。
+当对 Sales 应用集成解决方案时，升级脚本为 Sales 中的现有帐户设置 **帐号** 字段。 如果没有 **帐号** 值，可以使用之前提到的编号规则。
 
 ## <a name="preconditions-and-mapping-setup"></a>先决条件和映射设置
 
@@ -76,7 +78,7 @@ ms.locfileid: "3210126"
 
     默认模板值为 **10**。
 
-- 添加以下映射有助于减少在 Supply Chain Management 中所需的手动更新的次数。 你可以使用默认值或来自**国家/地区**或**城市**等的值映射。
+- 添加以下映射有助于减少在 Supply Chain Management 中所需的手动更新的次数。 你可以使用默认值或来自 **国家/地区** 或 **城市** 等的值映射。
 
     - **SiteId** – 在 Supply Chain Management 中生成报价单和销售订单行所需的站点。 默认站点可以从产品或从订单头的客户提取。
 
@@ -93,7 +95,7 @@ ms.locfileid: "3210126"
 ## <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射
 
 > [!NOTE]
-> **付款期限**、**货运条款**、**交货条款**、**装运方法**和**交货方式**字段不包括在默认映射中。 若要映射这些字段，必须设置特定于在其中同步实体的组织中的数据的值映射。
+> **付款期限**、**货运条款**、**交货条款**、**装运方法** 和 **交货方式** 字段不包括在默认映射中。 若要映射这些字段，必须设置特定于在其中同步实体的组织中的数据的值映射。
 
 下图显示了数据集成中的模板映射的一个示例。 
 

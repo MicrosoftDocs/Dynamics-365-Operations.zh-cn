@@ -10,17 +10,16 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4e466e6b1bbec0915b6fdb9b86d3b5cbb45364ad
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 136c3cdd391f6ff92d6760a17d89ddfeec8d45a1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771602"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683130"
 ---
 # <a name="analytical-workspaces"></a>分析工作区
 [!include[banner](../includes/banner.md)]

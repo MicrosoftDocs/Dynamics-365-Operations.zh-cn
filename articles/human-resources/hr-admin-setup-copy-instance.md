@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6b52b696d323df6bafead2418ae322d1a9cdf64a
-ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
+ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3706220"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527829"
 ---
 # <a name="copy-an-instance"></a>复制实例
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 您可以使用 Microsoft Dynamics Lifecycle Services (LCS) 将 Microsoft Dynamics 365 Human Resources 数据库复制到沙盒环境。 如果您有另一个沙盒环境，还可以将数据库从该环境复制到目标沙盒环境。
 
@@ -64,11 +66,11 @@ ms.locfileid: "3706220"
 
 1. 登录到 LCS，然后选择包含要复制的实例的 LCS 项目。
 
-2. 在您的 LCS 项目中，选择 **Human Resources 应用管理**磁贴。
+2. 在您的 LCS 项目中，选择 **Human Resources 应用管理** 磁贴。
 
-3. 选择要复制的实例，然后选择**复制**。
+3. 选择要复制的实例，然后选择 **复制**。
 
-4. 在**复制实例**任务窗格中，选择要覆盖的实例，然后选择**复制**。 等待**复制状态**字段的值更新为**已完成**。
+4. 在 **复制实例** 任务窗格中，选择要覆盖的实例，然后选择 **复制**。 等待 **复制状态** 字段的值更新为 **已完成**。
 
    ![[选择要覆盖的实例](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
@@ -76,7 +78,7 @@ ms.locfileid: "3706220"
 
    ![[选择 Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
-6. 选择要复制的 Power Apps 环境，然后选择**复制**。
+6. 选择要复制的 Power Apps 环境，然后选择 **复制**。
 
 7. 复制过程完成后，登录到目标实例，然后启用 Common Data Service 集成。 有关详细信息和说明，请参阅[配置 Common Data Service 集成](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration)。
 
@@ -110,9 +112,9 @@ ms.locfileid: "3706220"
 
 此外，复制实例时，以下状态也会更改：
 
-- 除管理员以外的所有用户均设置为**已禁用**。
+- 除管理员以外的所有用户均设置为 **已禁用**。
 
-- 除某些系统作业外，所有批处理作业均设置为**预扣**。
+- 除某些系统作业外，所有批处理作业均设置为 **预扣**。
 
 ## <a name="environment-admin"></a>环境管理员
 
@@ -126,17 +128,17 @@ ms.locfileid: "3706220"
 
 对于在 Common Data Service 实体上公开的每个自定义字段，请执行以下步骤：
 
-1. 转到自定义字段，然后选择**编辑**。
+1. 转到自定义字段，然后选择 **编辑**。
 
-2. 为启用了自定义字段的每个 cdm_* 实体取消选择**已启用**字段。
+2. 为启用了自定义字段的每个 cdm_* 实体取消选择 **已启用** 字段。
 
-3. 选择**应用更改**。
+3. 选择 **应用更改**。
 
-4. 再次选择**编辑**。
+4. 再次选择 **编辑**。
 
-5. 为启用了自定义字段的每个 cdm_* 实体选择**已启用**字段。
+5. 为启用了自定义字段的每个 cdm_* 实体选择 **已启用** 字段。
 
-6. 再次选择**应用更改**。
+6. 再次选择 **应用更改**。
 
 取消选择、应用更改、重新选择和应用更改的流程会提示架构在 Common Data Service 中进行更新以包含自定义字段。
 

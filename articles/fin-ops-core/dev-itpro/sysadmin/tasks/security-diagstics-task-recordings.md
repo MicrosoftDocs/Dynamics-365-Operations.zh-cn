@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 4aecda7e0d604b70dec58a4f5bb2992fe7e0a5e2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 88eb90b35f1a9754cc4daa01d8f40cdf712db4f8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982422"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679782"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>任务录制的安全诊断
 
@@ -33,20 +32,20 @@ ms.locfileid: "3982422"
 
 ## <a name="manage-security-for-a-task-recording"></a>管理任务录制的安全性
 
-1. 转到**系统管理** > **安全** > **任务录制的安全诊断**。
-2. 从其位置打开任务录制。 选择**从此 PC 中打开**或**从 Lifecycle Services 中打开**，然后选择**关闭**。
-3. 这将打开**安全菜单项详细信息**页面，其中列出了该流程所需的安全对象。
+1. 转到 **系统管理** > **安全** > **任务录制的安全诊断**。
+2. 从其位置打开任务录制。 选择 **从此 PC 中打开** 或 **从 Lifecycle Services 中打开**，然后选择 **关闭**。
+3. 这将打开 **安全菜单项详细信息** 页面，其中列出了该流程所需的安全对象。
 
  > [!NOTE]
- > 列表中不包括**操作**和**输出**菜单项。
+ > 列表中不包括 **操作** 和 **输出** 菜单项。
 
-4. 在**用户 ID** 字段中，选择一个用户。 如果用户没有某些菜单项的权限，则**缺少权限**字段将更新为**是**。
+4. 在 **用户 ID** 字段中，选择一个用户。 如果用户没有某些菜单项的权限，则 **缺少权限** 字段将更新为 **是**。
   
   ![安全菜单项详细信息页面](../media/Security-Menu-Item-Details.png)
 
-5. 选择**添加引用**以查看安全对象的列表，包括授予缺少的权限的角色、职责和特权。
+5. 选择 **添加引用** 以查看安全对象的列表，包括授予缺少的权限的角色、职责和特权。
 6. 从列表中选择安全对象：
 
-    - 如果选择了**角色**，请选择**为用户添加角色**。 这会打开**将用户分派给角色**页。 有关详细信息，请参阅[将用户分派给安全角色](assign-users-security-roles.md)。
-    - 如果选择了**职责**，请选择**将职责添加到角色**，选择应将职责添加到的角色，然后选择**确定**。
-    - 如果选择了**特权**，请选择**将特权添加到职责**，选择应将职责添加到的角色，然后选择**确定**。
+    - 如果选择了 **角色**，请选择 **为用户添加角色**。 这会打开 **将用户分派给角色** 页。 有关详细信息，请参阅[将用户分派给安全角色](assign-users-security-roles.md)。
+    - 如果选择了 **职责**，请选择 **将职责添加到角色**，选择应将职责添加到的角色，然后选择 **确定**。
+    - 如果选择了 **特权**，请选择 **将特权添加到职责**，选择应将职责添加到的角色，然后选择 **确定**。

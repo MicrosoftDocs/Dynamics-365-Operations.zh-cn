@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: cf58a7d851577854d08bad70cff69794c3841a2d
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.openlocfilehash: ff68761ce1cf2174be8ebb9732b9348439a53a32
+ms.sourcegitcommit: d24ebce50421f8656d23bb1e47cd636ad2e2ca0a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012456"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "4664288"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 
@@ -36,33 +36,38 @@ ms.locfileid: "4012456"
 
 本主题介绍配置作业卡设备的各个选项。
 
-## <a name="turn-on-new-features-in-feature-management"></a>在功能管理中打开新功能
+## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>开启生产车间执行界面及其相关的可选功能
 
-本主题中介绍的一些设置必须先在系统中打开，然后才能使用。 使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面，根据需要打开以下任何或所有功能。
+必须先在系统中打开生产车间执行界面本身以及本主题中所述的几个可选设置，然后才能使用它们。 使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页根据需要打开以下小节中所述的任一或所有功能。
 
-### <a name="generate-license-plate"></a>生成牌照
+### <a name="the-production-floor-execution-interface"></a>生产车间执行界面
 
-要使此功能可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能（按此顺序）：
+这是此主题中所述的主要功能。 它将生产车间执行界面添加到您的系统。 要启用它，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：  
+- 生产车间执行
+
+### <a name="generate-license-plates"></a>生成牌照
+
+这些功能让牌照功能在生产车间执行界面可用。 如果您想要使用它们，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能（按此顺序）：
 
 1. 用于报告为完工入库的牌照已添加作业卡设备
 1. 在作业卡设备中报告为完工入库时，启用牌照编号的自动生成
 
-### <a name="print-label"></a>打印标签
+### <a name="print-labels"></a>打印标签
 
-要使此功能可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能（按此顺序）：
+这些功能让标签打印功能在生产车间执行界面可用。 如果您想要使用它们，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能（按此顺序）：
 
 1. 用于报告为完工入库的牌照已添加作业卡设备
 1. 通过作业卡设备打印标签
 
 ### <a name="allow-locking-the-touch-screen"></a>允许锁定触摸屏
 
-若要使此功能可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
+此功能在生产车间执行界面中添加了一个按钮，让工作人员可以对触摸屏进行净化。 如果您想要使用它，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
 
-- （预览）用于锁定作业卡设备和作业卡终端以便对其进行净化的功能
+- 用于锁定作业卡设备和作业卡终端以便对其进行净化的功能
 
 ## <a name="work-with-production-floor-execution-configurations"></a>使用生产车间执行配置
 
-若要创建和维护设备配置，请转到 **生产控制 \> 设置 \> 制造执行 \> 配置生产车间执行** 。 **配置生产车间执行** 页面显示现有配置的列表。 在此页面上，您可以执行以下操作：
+若要创建和维护设备配置，请转到 **生产控制 \> 设置 \> 制造执行 \> 配置生产车间执行**。 **配置生产车间执行** 页面显示现有配置的列表。 在此页面上，您可以执行以下操作：
 
 - 选择左列中列出的任何生产车间配置来查看和编辑它。
 - 在操作窗格中选择 **新** 将新设备配置添加到列表中。 然后，在 **配置** 字段中，输入名称来标识新配置。 您输入的名称在所有设备配置中必须是唯一的，以后无法再对其进行编辑。
@@ -71,12 +76,13 @@ ms.locfileid: "4012456"
 
 - **在下班打卡时报告数量** – 将此选项设置为 *是* 以提示工作人员在下班打卡时报告有关正在进行的作业的反馈。当此选项设置为 *否* 时，不会提示工作人员。
 - **锁定员工** – 当此选项设置为 *否* 时，在工作人员进行登记（例如新作业）后，他们将立即注销。 然后，设备将返回到登录页面。 当此选项设置为 *是* 时，工作人员将在作业卡设备中保持登录状态。 但是，工作人员可以手动注销，以便其他工作人员可以在作业卡设备继续在同一系统用户帐户下运行的同时登录。 有关这些帐户的类型的详细信息，请参阅[指定的用户](config-job-card-device.md#assigned-users)。
-- **使用实际登记时间** – 将此选项设置为 *是* 以将每个新登记的时间设置为工作人员提交登记时的确切时间。 当此选项设置为 *否* 时，改为使用登录时间。 如果您在工作人员通常在更长时间内保持登录状态的情况下已将 **锁定员工** 和/或 **单个工作人员** 选项设置为 *是* ，通常需要将此选项设置为 *是* 。
-- **单个工作人员** – 如果只有一个工作人员使用此配置已激活的每个作业卡设备，请将此选项设置为 *是* 。 当此选项设置为 *是* 时， **锁定员工** 选项将自动设置为 *是* 。 另外，此设置消除了工作人员使用锁屏提醒 ID（或其他类似 ID）登录的要求（和能力）。 工作人员改为使用链接到 *已登记时间的工作人员* （在 *工作人员* 表中）的系统用户帐户登录到 Microsoft Dynamics 365 Supply Chain Management，并同时以该工作人员的身份登录到作业卡设备。
+- **使用实际登记时间** – 将此选项设置为 *是* 以将每个新登记的时间设置为工作人员提交登记时的确切时间。 当此选项设置为 *否* 时，改为使用登录时间。 如果您在工作人员通常在更长时间内保持登录状态的情况下已将 **锁定员工** 和/或 **单个工作人员** 选项设置为 *是*，通常需要将此选项设置为 *是*。
+- **单个工作人员** – 如果只有一个工作人员使用此配置已激活的每个作业卡设备，请将此选项设置为 *是*。 当此选项设置为 *是* 时，**锁定员工** 选项将自动设置为 *是*。 另外，此设置消除了工作人员使用锁屏提醒 ID（或其他类似 ID）登录的要求（和能力）。 工作人员改为使用链接到 *已登记时间的工作人员*（在 *工作人员* 表中）的系统用户帐户登录到 Microsoft Dynamics 365 Supply Chain Management，并同时以该工作人员的身份登录到作业卡设备。
 - **允许锁定触摸屏** – 将此选项设置为 *是* 以允许工作人员锁定作业卡设备的触摸屏，以便他们可以净化设备。 当此选项设置为 *是* 时，将向设备登录页面添加 **锁定屏幕以净化** 按钮。 当工作人员选择此按钮时，触摸屏会暂时锁定以防止意外输入。 还显示了倒计时计时器。 然后，工作人员可以安全地净化设备和屏幕。 倒计时完成后，触摸屏将自动解锁。
 - **屏幕锁定持续时间** – 当 **允许锁定触摸屏** 选项设置为 *是* 时，请使用此选项指定触摸屏应该锁定进行净化的秒数。 持续时间必须在 5 到 120 秒之间。
-- **生成牌照** – 将此选项设置为 *是* ，每次工作人员使用作业卡设备报告为已完工入库时，都会生成新牌照。 牌照编号根据在 **仓库管理参数** 页面上设置的编号规则生成。 当此选项设置为 *否* 时，工作人员必须在报告为已完工入库时指定一个现有牌照。
-- **打印标签** – 将此选项设置为 *是* ，以在工作人员使用作业卡设备报告为已完工入库时打印牌照标签。 标签的配置在文档路线中设置，如[牌照标签的文档路线选择布局](../warehousing/document-routing-layout-for-license-plates.md)中所述。
+- **生成牌照** – 将此选项设置为 *是*，每次工作人员使用作业卡设备报告为已完工入库时，都会生成新牌照。 牌照编号根据在 **仓库管理参数** 页面上设置的编号规则生成。 当此选项设置为 *否* 时，工作人员必须在报告为已完工入库时指定一个现有牌照。
+- **打印标签** – 将此选项设置为 *是*，以在工作人员使用作业卡设备报告为已完工入库时打印牌照标签。 标签的配置在文档路线中设置，如[牌照标签的文档路线选择布局](../warehousing/document-routing-layout-for-license-plates.md)中所述。
+- **选项卡选择** – 使用此节中的设置选择当前配置处于活动状态时，生产车间执行界面应显示哪些选项卡。 您可以根据需要设计任意数量的选项卡，然后根据需要在此处添加和排列。 有关如何在此处设计选项卡和处理设置的详细信息，请参阅[设计生产车间执行界面](production-floor-execution-tabs.md)。
 
 ## <a name="clean-up-job-configurations"></a>清理作业配置
 
@@ -84,7 +90,7 @@ ms.locfileid: "4012456"
 
 对于最近 60 天内未记录任何活动的设备，批处理作业会定期清理引用表中的条目。 您也可以随时按照以下步骤手动清理条目。
 
-1. 转到 **生产控制 \> 设置 \> 制造执行 \> 配置生产车间执行** 。
-1. 在“操作”窗格上，选择 **清理客户端配置** 。
+1. 转到 **生产控制 \> 设置 \> 制造执行 \> 配置生产车间执行**。
+1. 在“操作”窗格上，选择 **清理客户端配置**。
 1. 在 **清理客户端配置** 对话框中，将 **天数** 字段设置为要考虑的不活动天数（今天之前）。 您将删除在此期间未处于活动状态的设备的所有配置和登录记录。
 1. 选择 **确定** 以根据 **天数** 设置清理相关的配置。

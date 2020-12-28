@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker, HcmPosition, HcmPositionDateManager,  DefaultDashboard
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0c4367838bc334f18608e17f966397302c20aa06
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: c2e10c56a2bd53b1bda9704e13324aa5a0d96848
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143619"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692860"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>通过招聘雇用候选人
 

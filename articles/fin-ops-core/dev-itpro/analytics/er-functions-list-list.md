@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a31288885abda69873ae23b28a36e2a54852f593
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: c7f8e701ec2836206d2299abba5e5b8542b4cf92
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745145"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683079"
 ---
 # <a name="list-er-function"></a>LIST ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`LIST` 函数返回一个*记录列表*值，此值由根据指定参数创建的新记录列表组成。
+`LIST` 函数返回一个 *记录列表* 值，此值由根据指定参数创建的新记录列表组成。
 
 ## <a name="syntax"></a>语法
 
@@ -41,11 +40,11 @@ LIST (record 1 [, record 2, …, record N])
 
 `record 1`：*容器（记录）*
 
-对*记录*数据类型的数据源的引用。 此参数是必需的。
+对 *记录* 数据类型的数据源的引用。 此参数是必需的。
 
 `record N`：*容器（记录）*
 
-对*记录*数据类型的数据源的引用。 其他参数是可选的。
+对 *记录* 数据类型的数据源的引用。 其他参数是可选的。
 
 ## <a name="return-values"></a>返回值
 
@@ -59,17 +58,17 @@ LIST (record 1 [, record 2, …, record N])
 
 ## <a name="example"></a>示例
 
-您输入*容器*类型的数据源**记录 1**。 此数据源包含*计算字段*类型的以下嵌套字段：
+您输入 *容器* 类型的数据源 **记录 1**。 此数据源包含 *计算字段* 类型的以下嵌套字段：
 
-- **代码：** 此字段包含返回*字符串*类型的的值的表达式。
-- **金额：** 此字段包含返回*实数*类型的的值的表达式。
+- **代码：** 此字段包含返回 *字符串* 类型的的值的表达式。
+- **金额：** 此字段包含返回 *实数* 类型的的值的表达式。
 
-然后，您输入*容器*类型的数据源**记录 2**。 此数据源包含*计算字段*类型的以下嵌套字段：
+然后，您输入 *容器* 类型的数据源 **记录 2**。 此数据源包含 *计算字段* 类型的以下嵌套字段：
 
-- **金额：** 此字段包含返回*实数*类型的的值的表达式。
-- **IsValid：** 此字段包含返回*布尔值*类型的的值的表达式。
+- **金额：** 此字段包含返回 *实数* 类型的的值的表达式。
+- **IsValid：** 此字段包含返回 *布尔值* 类型的的值的表达式。
 
-在此例中，表达式 `LIST('Record 1', 'Record 2')` 返回包含两个记录的新列表。 此列表的结构由一个*实数*类型的**金额**字段组成，因为此字段是被调用函数每个参数中显示的唯一字段。
+在此例中，表达式 `LIST('Record 1', 'Record 2')` 返回包含两个记录的新列表。 此列表的结构由一个 *实数* 类型的 **金额** 字段组成，因为此字段是被调用函数每个参数中显示的唯一字段。
 
 ## <a name="additional-resources"></a>其他资源
 

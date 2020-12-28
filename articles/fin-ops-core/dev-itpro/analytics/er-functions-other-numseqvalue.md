@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70e07fe429472b703f739baa09f700fb8970d34e
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: b513d04bfeb3a37aa0b1703d0fdde040885a5159
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744015"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680582"
 ---
 # <a name="numseqvalue-er-function"></a>NUMSEQVALUE ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`NUMSEQVALUE` 函数根据指定的编号规则、作用域和作用域 ID 返回一个*字符串*值，该值表示新生成的编号规则值。 作用域 ID 等于运行电子申报 (ER) 格式的上下文提供的公司代码。
+`NUMSEQVALUE` 函数根据指定的编号规则、作用域和作用域 ID 返回一个 *字符串* 值，该值表示新生成的编号规则值。 作用域 ID 等于运行电子申报 (ER) 格式的上下文提供的公司代码。
 
 ## <a name="syntax-1"></a>语法 1
 
@@ -61,11 +60,11 @@ NUMSEQVALUE (number sequence code, scope type, scope ID)
 
 `scope type`：*枚举值*
 
-**ERExpressionNumberSequenceScopeType** 枚举的枚举值，此枚举定义需要新值的编号规则的作用域。 可用作用域类型有**共享**、**法人**和**公司**。
+**ERExpressionNumberSequenceScopeType** 枚举的枚举值，此枚举定义需要新值的编号规则的作用域。 可用作用域类型有 **共享**、**法人** 和 **公司**。
 
 `scope ID`：*字符串*
 
-基于指定作用域类型确定作用域的*字符串*值。
+基于指定作用域类型确定作用域的 *字符串* 值。
 
 ## <a name="return-values"></a>返回值
 
@@ -75,22 +74,22 @@ NUMSEQVALUE (number sequence code, scope type, scope ID)
 
 ## <a name="usage-notes"></a>使用说明
 
-对于**共享**作用域类型，指定一个空字符串作为作用域 ID。
+对于 **共享** 作用域类型，指定一个空字符串作为作用域 ID。
 
-对于**公司**和**法人**作用域类型，指定公司代码作为作用域 ID。 如果您为这些作用域类型指定空字符串作为作用域 ID，则将使用当前的公司代码。
+对于 **公司** 和 **法人** 作用域类型，指定公司代码作为作用域 ID。 如果您为这些作用域类型指定空字符串作为作用域 ID，则将使用当前的公司代码。
 
-当使用语法 1 时，将为**公司**作用域类型请求编号规则，公司代码由运行 ER 格式的上下文提供。
+当使用语法 1 时，将为 **公司** 作用域类型请求编号规则，公司代码由运行 ER 格式的上下文提供。
 
 ## <a name="example-1"></a>示例 1
 
-在您的 ER 格式中，您定义*用户输入参数*类型的 **AskNumSeq** 数据源。 此数据源引用**描述**扩展数据类型 (EDT)。 接下来，定义*计算字段*类型的 **NumSeq** 数据源。 此数据源包含表达式 `NUMSEQVALUE (AskNumSeq)`。 当调用 **NumSeq** 数据源时，它将返回通过在对话框中输入其代码在运行时指定的编号规则的新生成的值。 为**公司**作用域类型请求编号规则。 公司代码由运行 ER 格式的上下文提供。
+在您的 ER 格式中，您定义 *用户输入参数* 类型的 **AskNumSeq** 数据源。 此数据源引用 **描述** 扩展数据类型 (EDT)。 接下来，定义 *计算字段* 类型的 **NumSeq** 数据源。 此数据源包含表达式 `NUMSEQVALUE (AskNumSeq)`。 当调用 **NumSeq** 数据源时，它将返回通过在对话框中输入其代码在运行时指定的编号规则的新生成的值。 为 **公司** 作用域类型请求编号规则。 公司代码由运行 ER 格式的上下文提供。
 
 ## <a name="example-2"></a>示例 2
 
 以下数据源在模型映射中定义：
 
-- *表*类型的 **LedgerParms** 数据源。 此数据源引用 LedgerParameters 表。
-- *计算字段*类型的 **NumSeq** 数据源。 此数据源包含表达式 `NUMSEQVALUE ( LedgerParameters.'numRefJournalNum()'.NumberSequenceId)`。
+- *表* 类型的 **LedgerParms** 数据源。 此数据源引用 LedgerParameters 表。
+- *计算字段* 类型的 **NumSeq** 数据源。 此数据源包含表达式 `NUMSEQVALUE ( LedgerParameters.'numRefJournalNum()'.NumberSequenceId)`。
 
 在调用 **NumSeq** 数据源时，将返回在提供 ER 格式在其中运行的上下文的公司的总帐参数中配置的编号规则的新生成值。 此编号规则唯一标识日记帐，并充当将交易记录链接在一起的批号。
 
@@ -98,8 +97,8 @@ NUMSEQVALUE (number sequence code, scope type, scope ID)
 
 以下数据源在模型映射中定义：
 
-- Microsoft Dynamics 365 Finance *枚举*类型的 **enumScope** 数据源。 此数据源引用 **ERExpressionNumberSequenceScopeType** 枚举。
-- *计算字段*类型的 **NumSeq** 数据源。 此数据源包含表达式 `NUMSEQVALUE ("Gene_1", enumScope.Company, "")`。
+- Microsoft Dynamics 365 Finance *枚举* 类型的 **enumScope** 数据源。 此数据源引用 **ERExpressionNumberSequenceScopeType** 枚举。
+- *计算字段* 类型的 **NumSeq** 数据源。 此数据源包含表达式 `NUMSEQVALUE ("Gene_1", enumScope.Company, "")`。
 
 在调用 **NumSeq** 数据源时，将返回为提供 ER 格式在其中运行的上下文的公司配置的 **Gene\_1** 编号规则的新生成值。
 

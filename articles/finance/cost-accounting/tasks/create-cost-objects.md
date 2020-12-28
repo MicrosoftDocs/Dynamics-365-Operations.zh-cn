@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 55f5f6e5048f70e744cb3dc82a2a279aae69b4af
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976107"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440889"
 ---
 # <a name="create-cost-objects"></a>创建成本对象 
 

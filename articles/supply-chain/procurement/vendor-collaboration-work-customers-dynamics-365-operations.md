@@ -1,33 +1,34 @@
 ---
 title: 供应商与客户的协作
 description: 本主题介绍您如何使用供应商协作处理采购订单和监控托运库存。
-author: mkirknel
+author: TaylorVH
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
-ms.reviewer: kamaybac
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
-ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 540f4f4e4a047b5bc33c9be387c8940175f5f919
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.author: v-savanh
+ms.search.validFrom: 2020-11-01
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: dc97b230f23056db90e654b4aea3272bb8f1ba13
+ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018139"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654332"
 ---
 # <a name="vendor-collaboration-with-customers"></a>供应商与客户的协作
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 本主题介绍您在 Microsoft Dynamics 365 Supply Chain Management 中如何使用供应商协作处理客户。 供应商可以从以下工作区完成一系列业务流程：
 
@@ -40,12 +41,12 @@ ms.locfileid: "4018139"
 
 ## <a name="working-with-pos-in-the-purchase-order-confirmation-workspace"></a>在“采购订单确认”工作区处理 PO
 
-**采购订单确认** 工作区允许您响应发送给您审核的采购订单。 您还可以查看正在等待客户操作的采购订单的信息，以及已确认但仍然未结的采购订单的信息。
+**采购订单确认** 工作区允许您响应发送给您审核的采购订单 (PO)。 您还可以查看正在等待客户操作的采购订单的信息，以及已确认但仍然未结的采购订单的信息。
 
 **采购订单确认** 工作区有三个列表：
 
 - **要审核的采购订单** - 此列表显示已经发送给您并且正在等待您响应的采购订单。 您做出响应后，采购订单将从列表中消失。 如果在您响应之前的采购订单版本之前，客户向您发送了采购订单的新版本，则仅显示最新版本。
-- **正在等待客户操作** - 此列表显示您已经响应，但客户尚未确认的所有采购订单。 如果您接受了 PO，您可以在此列表中进行监控，直到状态更改为 **已确认** 。 如果您拒绝 PO 或更改后接受，您可以在此处监控它，直到客户发送新版本。
+- **正在等待客户操作** - 此列表显示您已经响应，但客户尚未确认的所有采购订单。 如果您接受了 PO，您可以在此列表中进行监控，直到状态更改为 **已确认**。 如果您拒绝 PO 或更改后接受，您可以在此处监控它，直到客户发送新版本。
 - **打开已确认的采购订单** - 此列表显示您的帐户中状态为 **已确认** 的所有 PO。 PO 上的产品或服务全部收到后，PO 从此列表中消失。
 
 您可以使用以下页面处理 PO：
@@ -53,13 +54,13 @@ ms.locfileid: "4018139"
 - **要审核的采购订单** - 此页包含的信息与工作区中的 **要审核的采购订单** 包含的信息相同。 请参阅本主题前文描述。
 - **采购订单供应商确认历史记录** - 此页包含已发送给供应商的所有 PO 和 PO 的所有版本。 它还包含来自供应商返回的所有响应。
 - **打开已确认的采购订单** 此页包含的信息与工作区中的 **打开已确认的采购订单** 包含的信息相同。 请参阅本主题前文描述。
-- **所有已确认的采购订单** - 此页包含所有已确认的 PO。 此页上的 PO 包括已经收到产品或服务的 PO。 您可以使用此列表监控您可以发送发票的 PO。
+- **所有已确认的采购订单** - 此页包含所有已确认的 PO。 此页上显示的采购订单包括已经收到产品或服务的采购订单。 您可以使用此列表监控您可以发送发票的 PO。
 
 ### <a name="responding-to-pos"></a>响应 PO
 
 客户发送给您审核的采购订单显示在 **采购订单确认** 工作区和 **要审核的采购订单** 页上。 打开 PO 后，您可以接受、拒绝或更改后接受。 可以在 PO 标头或单独的行中添加附件。 您也可以对您在 PO 标头或单独行上的响应添加信息。 例如，您可以为某一行建议一种替代物料。
 
-您可以使用 **预览/打印** 选项预览 PO 和打印成 PDF 文件。 您可以使用 **显示维度** 操作隐藏或显示以下维度列： **站点** 、 **仓库** 、 **颜色** 、 **尺寸** 、 **样式** 和 **配置** 。 
+您可以使用 **预览/打印** 选项预览 PO 和打印成 PDF 文件。 您可以使用 **显示维度** 操作隐藏或显示以下维度列：**站点**、**仓库**、**颜色**、**尺寸**、**样式** 和 **配置**。 
 
 如果您使用 **更改后接受** 选项，您可以接受或拒绝单独的行。 您也可以对行进行以下更改：
 
@@ -81,7 +82,7 @@ ms.locfileid: "4018139"
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>在“供应商出价”工作区处理询价
 
-在 **供应商出价** 工作区可以查看公司受邀响应的询价。 还可以响应询价。 
+在 **供应商出价** 工作区可以查看公司受邀响应的询价 (RFQ)。 还可以响应询价。 
 
 该工作区还显示您已经失去或赢得的所有询价。 此外，如果针对公共部门配置了该系统，该工作区将显示公开可用的询价。
 
@@ -105,15 +106,18 @@ ms.locfileid: "4018139"
 
     如果您收到了出价邀请，在 **新出价邀请** 页上可以找到相同的询价。 在某些情况下，您可能要对您未收到出价邀请的开放询价出价。 在这种情况下，您可能可以邀请您自己，前提是客户已经对该询价案例启用了自行邀请。
 
+    通过打开 **将“打开发布的询价”链接显示为磁贴** 功能，增强 **打开发布的询价** 链接的可访问性。 此功能可将链接转换为磁贴并将其移动到突出位置，使其可以轻松找到。
+
 - 选择 **关闭的已发布询价** 链接可以查看公开提供的已关闭询价的列表。 关闭的询价是已经到期的询价。 在询价标头上可以找到到期日期和时间。
 
     关闭的询价显示下至行级别的所有供应商出价。 出价被分配或拒绝后，此信息反映在关闭的询价中。 出价中包括的任何附件也可用。
 
-**注意：** 此功能仅在启用了公共部门配置时可用。
+> [!NOTE]
+> 此功能仅在启用了公共部门配置时可用。
 
 ### <a name="bidding"></a>出价
 
-- 单击 **出价** 可以开始对询价出价。
+- 选择 **出价** 开始对询价出价。
 
     对询价的标头和行上的出价字段启用编辑后，可以直接在行网格中输入出价。 您还必须考虑应该添加在行明细中的任何额外的出价信息。
 
@@ -130,7 +134,7 @@ ms.locfileid: "4018139"
 
     在允许您提交出价前，您可能必须回答调查表。
 
-- 如果您不想出价，请选择 **拒绝** 。 选择 **拒绝** 后，将无法撤回该操作和输入出价。
+- 如果您不想出价，请选择 **拒绝**。 选择 **拒绝** 后，将无法撤回该操作和输入出价。
 
 如果改正询价，必须输入新的出价。 在询价页的 **改正** 选项卡上可以找到有关改正的信息。 改正后的询价显示在 **新出价邀请** 页上。
 

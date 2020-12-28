@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, SysQueryForm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66c2a97a068ed83f93699f14e827bdc2fb580d93
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 4596f7d7789ea44d49d7e7f273e4a52ee38dd90f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141825"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684515"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-2---run-format"></a>ER 使用可水平扩展的范围在 Excel 报表中动态添加列（第 2 部分 - 运行格式）
 

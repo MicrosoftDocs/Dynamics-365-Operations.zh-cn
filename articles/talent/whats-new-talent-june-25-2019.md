@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-25
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b01033ad52ba8881134d21883e50bc5ccbcdeb33
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 98ac7df9fa33635814b390427fd3292bdc1175ed
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896857"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528637"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-june-25-2019"></a>Dynamics 365 Talent（2019 年 6 月 25 日）新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Microsoft Dynamics 365 Talent 中的新增功能和更改的功能。
 
@@ -37,7 +39,7 @@ ms.locfileid: "2896857"
 
 ### <a name="job-approvals-appear-on-the-home-page"></a>主页中显示工作审核
 
-仪表板的**审核**部分中将显示审核。 审核人可以在**已分配给您**（其中显示工作 ID、工作头衔、其他审核人和作业的分配日期）下查看自己的审核。 提交待审核工作的用户可以在**您请求的**（其中显示仍然必须审核提交的工作的审核者）下查看自己的工作。
+仪表板的 **审核** 部分中将显示审核。 审核人可以在 **已分配给您**（其中显示工作 ID、工作头衔、其他审核人和作业的分配日期）下查看自己的审核。 提交待审核工作的用户可以在 **您请求的**（其中显示仍然必须审核提交的工作的审核者）下查看自己的工作。
 
 ## <a name="changes-in-onboard"></a>Onboard 中的更改
 本版本中包含 Dynamics 365 Talent: Onboard 的小缺陷修复。
@@ -48,7 +50,7 @@ ms.locfileid: "2896857"
 
 ### <a name="incorrect-value-displayed-for-primary-position-314266"></a>为主要职位显示的值不正确 (314266)
 
-这些更改将在所有页上一致显示**主要职位**设置。
+这些更改将在所有页上一致显示 **主要职位** 设置。
 
 ### <a name="cant-edit-after-recalling-the-workflow-in-review-318180"></a>撤消工作流后不能在“复查”中编辑 (318180)
 
@@ -56,11 +58,11 @@ ms.locfileid: "2896857"
 
 ### <a name="final-comments-field-in-reviews-isnt-translated-325921"></a>“复查”中的“最终注释”字段不翻译 (325921)
 
-Talent 中现在将翻译**最终注释**标签。
+Talent 中现在将翻译 **最终注释** 标签。
 
 ### <a name="preview-features-will-be-enabled-only-in-sandbox-environments"></a>仅在沙盒环境中才会启用预览功能。
 
-配置新的 Talent 实例时，可指示实例类型为**生产**还是**沙盒**。 **沙盒**实例类型可用于提前测试新功能。 将把所有现有 Talent 实例更新为**生产**实例类型。 如果需要将现有实例之一更新为**沙盒**实例类型，请联系[支持](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support)以发起更改请求。
+配置新的 Talent 实例时，可指示实例类型为 **生产** 还是 **沙盒**。 **沙盒** 实例类型可用于提前测试新功能。 将把所有现有 Talent 实例更新为 **生产** 实例类型。 如果需要将现有实例之一更新为 **沙盒** 实例类型，请联系[支持](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support)以发起更改请求。
 
 有关如何发布更改的详细信息，请参阅[配置 Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent)。
 
@@ -74,15 +76,15 @@ Talent 中现在将翻译**最终注释**标签。
 
 ### <a name="feature-management-area-in-talent"></a>Talent 中的功能管理区域
 
-将从**系统管理**移除**功能管理**，因为此功能有问题。 以后的版本中将重新引入**功能管理**。 
+将从 **系统管理** 移除 **功能管理**，因为此功能有问题。 以后的版本中将重新引入 **功能管理**。 
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Common Data Service 实体对自定义字段的支持
 
-以下实体将支持自定义字段：**工资单收入代码**、**固定薪酬事件**、**薪酬网格**、**付薪期间**和**薪酬参考点**。 
+以下实体将支持自定义字段：**工资单收入代码**、**固定薪酬事件**、**薪酬网格**、**付薪期间** 和 **薪酬参考点**。 
 
 ### <a name="new-common-data-service-entities"></a>新增 Common Data Service 实体
 
-将向 Common Data Service 添加**原因代码**实体。
+将向 Common Data Service 添加 **原因代码** 实体。
 
 ### <a name="view-performance-information-for-direct-and-extended-reports-in-manager-self-service"></a>在经理自助服务中查看直接报表和扩展报表的性能信息
 

@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fccd318a8ab67528f0ce048fc770a2037f625d7a
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 1c46f945a9caae2836886d051da820658e8be9af
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744122"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687688"
 ---
 # <a name="fa_sum-er-function"></a>FA_SUM ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`FA_SUM` 函数返回*容器（记录）* 值，该值由指定固定资产项目的固定资产金额、价值模型代码和日期期限组成。
+`FA_SUM` 函数返回 *容器（记录）* 值，该值由指定固定资产项目的固定资产金额、价值模型代码和日期期限组成。
 
 ## <a name="syntax"></a>语法
 
@@ -41,19 +40,19 @@ FA_SUM (fixed asset code, value model code, start date, end date)
 
 `fixed asset code`：*字符串*
 
-一个*字符串*值，表示要为其计算余额的固定资产项目的代码。
+一个 *字符串* 值，表示要为其计算余额的固定资产项目的代码。
 
 `value model code`：*字符串*
 
-一个*字符串*值，表示要为其计算余额的价值模型的代码。
+一个 *字符串* 值，表示要为其计算余额的价值模型的代码。
 
 `start date`：*日期*
 
-表示固定资产金额计算期间的开始日期的*日期*值。
+表示固定资产金额计算期间的开始日期的 *日期* 值。
 
 `end date`：*日期*
 
-表示固定资产金额计算期间的结束日期的*日期*值。
+表示固定资产金额计算期间的结束日期的 *日期* 值。
 
 ## <a name="return-values"></a>返回值
 

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,22 +18,22 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8c4f5eff01ab20ce9de2a30b27b163df8cf83e02
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 7052aeb4154cefe30a1935dfdca53085a035deb6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985211"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687603"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>为优化顾问创建规则
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何为**优化顾问**创建新规则。 例如，可创建一个新规则来识别哪些询价单 (RFQ) 案例的标题为空。 可通过案例的标题轻松识别和搜索案例。 此示例非常简单，介绍了通过优化规则可达到哪些目的。 
+本主题介绍如何为 **优化顾问** 创建新规则。 例如，可创建一个新规则来识别哪些询价单 (RFQ) 案例的标题为空。 可通过案例的标题轻松识别和搜索案例。 此示例非常简单，介绍了通过优化规则可达到哪些目的。 
 
-*规则*是对应用程序数据的检查。 如果满足规则评估的条件，将产生优化流程或改进数据的机会。 可抓住这些机会，也可以选择衡量措施的影响。 
+*规则* 是对应用程序数据的检查。 如果满足规则评估的条件，将产生优化流程或改进数据的机会。 可抓住这些机会，也可以选择衡量措施的影响。 
 
-若要为**优化顾问**创建新规则，请添加一个新类，该类用于扩展 **SelfHealingRule** 抽象类和实施 **IDiagnosticsRule** 接口，并由 **DiagnosticRule** 属性装饰。 该类还必须有一个使用 **DiagnosticsRuleSubscription** 属性装饰的方法。 按照惯例，这通过 **opportunityTitle** 方法执行，后者将在下文探讨。 这个新类将添加到依赖于 **SelfHealingRules** 方法的一个自定义模型。 在以下示例中，实施的规则称为 **RFQTitleSelfHealingRule**。
+若要为 **优化顾问** 创建新规则，请添加一个新类，该类用于扩展 **SelfHealingRule** 抽象类和实施 **IDiagnosticsRule** 接口，并由 **DiagnosticRule** 属性装饰。 该类还必须有一个使用 **DiagnosticsRuleSubscription** 属性装饰的方法。 按照惯例，这通过 **opportunityTitle** 方法执行，后者将在下文探讨。 这个新类将添加到依赖于 **SelfHealingRules** 方法的一个自定义模型。 在以下示例中，实施的规则称为 **RFQTitleSelfHealingRule**。
 
 ```xpp
 [DiagnosticsRule] 
@@ -76,7 +75,7 @@ protected List evaluate()
 } 
 ```
 
-上面显示的方法在公司间循环，并选择 **findRFQCasesWithEmptyTitle** 方法中带空标题的 RFQ 案例。 如果找到了至少一个这样的类，将使用 **getOpportunityForCompany** 方法创建公司特定的商机。 请注意，**SelfHealingOpportunity** 表中字段**数据**的类型为**容器**，因此可以包含与特定于该规则的逻辑有关的任何数据。 使用当前时间戳设置 **OpportunityDate** 将注册商机的最近评估时间。  
+上面显示的方法在公司间循环，并选择 **findRFQCasesWithEmptyTitle** 方法中带空标题的 RFQ 案例。 如果找到了至少一个这样的类，将使用 **getOpportunityForCompany** 方法创建公司特定的商机。 请注意，**SelfHealingOpportunity** 表中字段 **数据** 的类型为 **容器**，因此可以包含与特定于该规则的逻辑有关的任何数据。 使用当前时间戳设置 **OpportunityDate** 将注册商机的最近评估时间。  
 
 商机也可以跨公司。 在此情况下，不必执行公司间循环，并且必须使用 **getOpportunityAcrossCompanies** 方法创建商机。 
 
@@ -100,15 +99,15 @@ private container findRFQCasesWithEmptyTitle()
 
 还必须实施的两个方法是 **opportunityTitle** 和 **opportunityDetails**。 前者返回商机的短标题，后者返回商机的详细说明（其中也可以包含数据）。
 
-**opportunityTitle** 返回的标题在**优化顾问**工作区中的**优化商机**列下显示。 还显示为侧窗格的标题，用于显示有关商机的详细信息。 按照惯例，此方法使用 **DiagnosticRuleSubscription** 属性装饰，后者采用以下自变量： 
+**opportunityTitle** 返回的标题在 **优化顾问** 工作区中的 **优化商机** 列下显示。 还显示为侧窗格的标题，用于显示有关商机的详细信息。 按照惯例，此方法使用 **DiagnosticRuleSubscription** 属性装饰，后者采用以下自变量： 
 
 * **诊断区域** – 类型为 **DiagnosticArea** 的枚举，用于描述规则所属的应用程序范围，如 **DiagnosticArea::SCM**。 
 
-* **规则名称** – 包含规则名称的字符串。 这将在**诊断验证规则**窗体中的**规则名称**列下显示 (**DiagnosticsValidationRuleMaintain**)。 
+* **规则名称** – 包含规则名称的字符串。 这将在 **诊断验证规则** 窗体中的 **规则名称** 列下显示 (**DiagnosticsValidationRuleMaintain**)。 
 
 * **运行频率** – 类型为 **DiagnosticRunFrequency** 的枚举，用于描述应运行规则的频率，如 **DiagnosticRunFrequency::Daily**。 
 
-* **规则说明** – 包含规则更详细的说明的字符串。 这将在**诊断验证规则**窗体中的**规则说明**列下显示 (**DiagnosticsValidationRuleMaintain**)。 
+* **规则说明** – 包含规则更详细的说明的字符串。 这将在 **诊断验证规则** 窗体中的 **规则说明** 列下显示 (**DiagnosticsValidationRuleMaintain**)。 
 
 > [!NOTE]
 > 规则需要 **DiagnosticRuleSubscription** 属性才能工作。 该属性通常在 **opportunityTitle** 中使用，但是可以装饰类的任何方法。
@@ -126,7 +125,7 @@ public str opportunityTitle()
 } 
 ```
 
-**opportunityDetails** 返回的说明在侧窗格中显示，用于显示有关商机的详细信息。 它采用 **SelfHealingOpportunity** 自变量，后者是可用于提供有关商机的更多详细信息的**数据**字段。 在该示例中，方法返回具有空标题的 RFQ 案例的 ID。 
+**opportunityDetails** 返回的说明在侧窗格中显示，用于显示有关商机的详细信息。 它采用 **SelfHealingOpportunity** 自变量，后者是可用于提供有关商机的更多详细信息的 **数据** 字段。 在该示例中，方法返回具有空标题的 RFQ 案例的 ID。 
 
 ```xpp
 public str opportunityDetails(SelfHealingOpportunity _opportunity) 
@@ -170,7 +169,7 @@ protected void performAction(SelfHealingOpportunity _opportunity)
 **securityMenuItem** 返回操作的名称，以便只有可访问操作菜单项的用户可查看规则。 安全设置可能要求只有授权用户可访问特定规则和商机。 在该示例中，只有可访问 **PurchRFQCaseTitleAction** 的用户可查看商机。 请注意，此操作菜单项是为本示例创建，并作为 **PurchRFQCaseTableMaintain** 安全权限的进入点添加的。 
 
 > [!NOTE]
-> 此菜单项必须是操作菜单项，才能确保安全。 **显示菜单项**之类其他菜单项类型无法正确工作。
+> 此菜单项必须是操作菜单项，才能确保安全。 **显示菜单项** 之类其他菜单项类型无法正确工作。
 
 ```xpp
 public MenuName securityMenuItem() 
@@ -193,9 +192,9 @@ class ScanNewRulesJob
 } 
 ```
 
-此规则将在**诊断验证规则**窗体（可从**系统管理** > **定期任务** > **维护诊断验证规则**访问）中显示。 若要评估该规则，请转到**系统管理** > **定期任务** > **计划诊断验证规则**，然后选择规则的频率，如**每日**。 单击**确定**。 转到**系统管理** > **优化顾问**以查看新商机。 
+此规则将在 **诊断验证规则** 窗体（可从 **系统管理** > **定期任务** > **维护诊断验证规则** 访问）中显示。 若要评估该规则，请转到 **系统管理** > **定期任务** > **计划诊断验证规则**，然后选择规则的频率，如 **每日**。 单击 **确定**。 转到 **系统管理** > **优化顾问** 以查看新商机。 
 
-以下示例是带规则摘要的代码段，其中包括所有必需的方法和属性。 可帮助您熟悉如何撰写新规则。此示例中使用的标签和操作菜单项仅用于演示目的。
+以下示例是带规则摘要的代码段，其中包括所有必需的方法和属性。 可帮助您熟悉如何撰写新规则。 此示例中使用的标签和操作菜单项仅用于演示目的。
 
 ```xpp
 [DiagnosticsRuleAttribute]

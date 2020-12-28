@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90ff703a22c77967bc37e8ec2ccd0e0e4d147b58
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 5df30e403c4b1c7d3abc88ae98c73d797bceef02
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143964"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693104"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>通过招聘雇用现有员工
 

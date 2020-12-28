@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 265364
 ms.assetid: c61391e4-c4bf-4f09-bd18-8107a1bf055e
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 5861bcaa42f7bc5ec20916fe1a44418bdd9c2ffe
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 2ce91557334a4342fa85848fc1b746b6b12c8992
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550900"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688519"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>使会计科目表分隔符的成为唯一的
 
@@ -37,8 +36,8 @@ ms.locfileid: "2550900"
 
 ## <a name="update-delimiter"></a>更新分隔符
 如果科目表存在冲突，则可更改科目表分隔符和项目/子项目 ID。 不能更改其他维度分隔符。 
-- 升级之后，可在**总帐参数** > **会计科目表和维度** > **更改分隔符**中更改会计科目表分隔符。 
-- 如果只有项目/子项目 ID 格式冲突，则可在**项目管理与核算参数** > **常规** > **修改子项目格式**中更改该值。 
+- 升级之后，可在 **总帐参数** > **会计科目表和维度** > **更改分隔符** 中更改会计科目表分隔符。 
+- 如果只有项目/子项目 ID 格式冲突，则可在 **项目管理与核算参数** > **常规** > **修改子项目格式** 中更改该值。 
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>如何确定环境是否需要更新后的分隔符 
 如果升级后的环境中的分隔符冲突，在细分条目控件或维度条目控件中输入值时，可能遇到不稳定。 这意味着输入科目和维度组合时，始终需要使用查找或弹出菜单。

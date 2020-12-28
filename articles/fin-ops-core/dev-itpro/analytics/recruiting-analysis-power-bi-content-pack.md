@@ -11,31 +11,30 @@ ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 263934
 ms.assetid: 38e6827b-0819-473c-bc47-821a1ec482b8
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b92078ca2bc89d752895bf3b4f2f3cdb2c2fd2f6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 524b1c29d204c1b013546008b1be7868cbf8db06
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185213"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680554"
 ---
 # <a name="recruiting-power-bi-content"></a>招聘 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述**招聘** Microsoft Power BI 内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+此主题描述 **招聘** Microsoft Power BI 内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-**招聘** Power BI 内容显示在**招聘管理**工作区。
+**招聘** Power BI 内容显示在 **招聘管理** 工作区。
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>招聘管理工作区的报表和视觉对象
-**招聘管理**工作区包含一个**分析**选项卡。此选项卡包含用于招聘的嵌入的 Power BI 内容。 此内容包括一个概览选项卡和包含详细信息的附加选项卡。 下表对每个选项卡上的报表进行介绍。
+**招聘管理** 工作区包含一个 **分析** 选项卡。此选项卡包含用于招聘的嵌入的 Power BI 内容。 此内容包括一个概览选项卡和包含详细信息的附加选项卡。 下表对每个选项卡上的报表进行介绍。
 
 | 报告               | 内容 |
 |----------------------|----------|
@@ -47,7 +46,7 @@ ms.locfileid: "2185213"
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
 可以筛选这些报表中的图表和磁贴，并将图表和磁贴固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards)。
 
-下表显示充当**招聘** Power BI 内容基础的实体。
+下表显示充当 **招聘** Power BI 内容基础的实体。
 
 | 实体               | 内容                                                         | 与其他实体之间的关系 |
 |----------------------|------------------------------------------------------------------|-----------------------------------|

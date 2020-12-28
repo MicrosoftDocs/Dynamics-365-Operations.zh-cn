@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 94d8291190b6c08c6e0e5241513989354df7939d
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 94ec9b44e21715363116427839badacd14a3d6f8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3711834"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528417"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Dynamics 365 Human Resources 的新增功能或更改（2020 年 8 月 6 日）
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Human Resources 中的新增功能和更改的功能。 更改适用于内部版本号 8.1.3444。 某些标题中括号内的数字是 LCS 支持号码，供您参考。
 
@@ -122,7 +124,7 @@ ms.locfileid: "3711834"
 
 ### <a name="mandatory-fields"></a>必填字段
 
-您可以使用 Human Resources 个性化功能将字段设置为必填字段。 此功能需要**保存的视图**。 有关已保存视图的详细信息，请参阅：
+您可以使用 Human Resources 个性化功能将字段设置为必填字段。 此功能需要 **保存的视图**。 有关已保存视图的详细信息，请参阅：
 
 - Dynamics 365 2020 年发行版本第 2 波计划中的[已保存视图 - 正式发布](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)
 - [生成可充分利用已保存视图的窗体](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
@@ -146,7 +148,7 @@ Common Data Service 内很快将为入职、离职、转移和业务流程提供
 
 ## <a name="known-issues"></a>已知问题
 
-**功能管理**工作区可能会显示正式发布时被作为预览功能禁用的功能。 以下是显示错误状态的正式发布功能的列表。 
+**功能管理** 工作区可能会显示正式发布时被作为预览功能禁用的功能。 以下是显示错误状态的正式发布功能的列表。 
 
 1.  福利管理
 2.  案例管理

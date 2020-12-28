@@ -1,6 +1,6 @@
 ---
 title: 集成的站点和仓库
-description: 本主题介绍 Finance and Operations 与 Common Data Service 之间的站点和仓库数据集成。
+description: 本主题介绍 Finance and Operations 与 Dataverse 之间的站点和仓库数据集成。
 author: t-benebo
 manager: AnnBe
 ms.date: 10/09/2019
@@ -18,24 +18,26 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: d5c2030160f6025c9de63b2c29215364f5f87e6f
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: d192343d78f9248e4d1232d6aee1a1f800383805
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997616"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679312"
 ---
 # <a name="integrated-sites-and-warehouses"></a>集成的站点和仓库
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-本主题介绍 Finance and Operations 与 Common Data Service 之间的站点和仓库数据集成。 运营站点和仓库是 Supply Chain Management 应用程序中的常见概念。 用于为公司的供应链建模。
+
+本主题介绍 Finance and Operations 与 Dataverse 之间的站点和仓库数据集成。 运营站点和仓库是 Supply Chain Management 应用程序中的常见概念。 用于为公司的供应链建模。
 
 ## <a name="templates"></a>模板
 
-通过与 Common Data Service 集成，Common Data Service 中使用下表中的站点和仓库数据提供这些概念及其所有相关信息。
+通过与 Dataverse 集成，Dataverse 中使用下表中的站点和仓库数据表提供这些概念及其所有相关信息。
 
 Finance and Operations 应用 | 其他 Dynamics 365 应用 | 说明
 --------------------------|---------------------------|---

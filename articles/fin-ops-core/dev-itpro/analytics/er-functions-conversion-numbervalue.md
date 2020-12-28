@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 13346c4810d6c93d4ef47ce525831332562c7f51
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: d3eec6dc5a472f366c9029456fe05cf1e431e1c5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743391"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685971"
 ---
 # <a name="numbervalue-er-function"></a>NUMBERVALUE ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`NUMBERVALUE` 函数返回一个*实数*值，该值从指定的*字符串*值转换而来。 在转换过程中，将考虑指定的十进制和数字分组分隔符。
+`NUMBERVALUE` 函数返回一个 *实数* 值，该值从指定的 *字符串* 值转换而来。 在转换过程中，将考虑指定的十进制和数字分组分隔符。
 
 ## <a name="syntax"></a>语法
 
@@ -41,7 +40,7 @@ NUMBERVALUE (text, decimal separator, digit grouping separator)
 
 `text`：*字符串*
 
-必须转换为*实数*数字的文本值。
+必须转换为 *实数* 数字的文本值。
 
 `decimal separator`：字符串
 

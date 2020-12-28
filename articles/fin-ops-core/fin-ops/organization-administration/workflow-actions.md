@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 56411
 ms.assetid: 65fb711c-6474-42d1-81ed-ca657c29bf1f
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0796574c19fa417a8f63187b5d952b853d90e93f
-ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
+ms.openlocfilehash: 2973454e585f8ee45c0b6ee95c8b41e93bc2d962
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697985"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694279"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>工作流审核流程中的操作
 
@@ -38,7 +37,7 @@ ms.locfileid: "3697985"
 
 ## <a name="actions-that-an-originator-can-perform"></a>发起方可以执行的操作
 
-发起方通过提交文档进行审查来启动工作流实例。 例如，Sam 必须在**支出报表**页上单击**提交**按钮，才能提交其支出报表。
+发起方通过提交文档进行审查来启动工作流实例。 例如，Sam 必须在 **支出报表** 页上单击 **提交** 按钮，才能提交其支出报表。
 
 ## <a name="actions-that-a-task-assignee-can-perform"></a>任务受托人可执行的操作
 
@@ -93,11 +92,11 @@ Sam 可以重新提交该支出报表。 他可以首先进行所请求的更改
 
 ## <a name="actions-that-a-decision-maker-can-perform"></a>决策者可以执行的操作
 
-通常，文档分配给决策者，因为有必须由决策者回答的问题。 该问题的答案通常是**是**或**否**或者是**True**或**False**。 如果决策者不选择这些选项之一，他或她可以委托决策。
+通常，文档分配给决策者，因为有必须由决策者回答的问题。 该问题的答案通常是 **是** 或 **否** 或者是 **True** 或 **False**。 如果决策者不选择这些选项之一，他或她可以委托决策。
 
 ### <a name="choice-1-or-choice-2"></a>\[选择 1\] 或\[选择 2\]
 
-决策者必须回答与文档相关的问题。 该问题的答案通常是**是**或**否**或者是**True**或**False**。 决策者选择的回答确定使用哪个分支处理文档。
+决策者必须回答与文档相关的问题。 该问题的答案通常是 **是** 或 **否** 或者是 **True** 或 **False**。 决策者选择的回答确定使用哪个分支处理文档。
 
 例如，Sam 的支出报表分配给 John。 John 必须确定文档中的信息是否要求致电 Sam 的经理。 如果 John 确定需要呼叫，则支出报表分配给 Aretha，然后 Aretha 必须致电 Sam 的经理。 如果 John 决定不需要通话，则支出报表分配给 Frank 进行审核。
 

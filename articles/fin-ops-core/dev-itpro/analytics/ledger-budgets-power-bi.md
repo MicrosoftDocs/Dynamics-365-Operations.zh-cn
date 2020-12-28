@@ -11,33 +11,32 @@ ms.technology: ''
 ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a577ab24aaf86c1f7a22953e03f397a2e8213c78
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6a185da5055741ac30c7e237ef72d07084644651
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184385"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685264"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>实际与预算 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述**实际与预算** Microsoft Power BI 内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+此主题描述 **实际与预算** Microsoft Power BI 内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 
 ## <a name="overview"></a>概览
 
 **实际与预算** Power BI 内容为负责监督组织中的实际与预算绩效的人员而创建。 **实际与预算** Power BI 内容可用于查看您的预算差异。 您可以按科目类别、预算代码、主科目、主科目描述或会计期间分析当前年度的预算，以更好地了解任何差异的原因。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-来自**实际与预算** Power BI 内容的报表显示在**分类帐预算和预测**和 **CFO** 工作区中。
+来自 **实际与预算** Power BI 内容的报表显示在 **分类帐预算和预测** 和 **CFO** 工作区中。
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
-下表提供有关在**实际与预算** Power BI 内容中的每个报表页找到的指标的详细信息。
+下表提供有关在 **实际与预算** Power BI 内容中的每个报表页找到的指标的详细信息。
 
 | 报表                      | 指标                                                                             |
 |-----------------------------|-------------------------------------------------------------------------------------|

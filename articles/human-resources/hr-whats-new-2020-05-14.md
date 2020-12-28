@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d68647508c70a20b7ecba3358c7e3ebccd8d71ef
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 76ca497cc7fabf737c8a0ee71363f22fd4201ea8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712030"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528489"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Dynamics 365 Human Resources（2020 年 5 月 14 日）中的新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Human Resources 中的新增功能和更改的功能。 更改适用于内部版本号 8.1.3244。 某些标题中括号内的数字是 Lifecycle Services (LCS) 支持编号，以供参考。
 
@@ -51,7 +53,7 @@ Common Data Service 选择列表现在与休假枚举一致。
  
 ## <a name="show-the-positions-full-time-equivalent-fte-in-the-enrolled-workers-form-414658"></a>通过“招聘的工作人员”窗体显示职位的全职等效 (FTE) (414658)
 
-为休假类型启用 FTE 选项之后，工作人员职位的 FTE 值决定工作人员的假期额度费率。 此字段现在包含在**招聘的工作人员**窗体和**成批登记**对话框中。
+为休假类型启用 FTE 选项之后，工作人员职位的 FTE 值决定工作人员的假期额度费率。 此字段现在包含在 **招聘的工作人员** 窗体和 **成批登记** 对话框中。
 
 ## <a name="add-leave-balance-expiration-batch-job-431266"></a>添加休假余额到期批处理作业 (431266)
 
@@ -59,7 +61,7 @@ Common Data Service 选择列表现在与休假枚举一致。
 
 ## <a name="exporting-personal-contacts-for-an-employee-using-the-worker-personal-contact-person-entity-doesnt-export-personal-contacts-with-the-parent-relationship-type-345893"></a>使用工作人员个人联系人实体导出员工的个人联系人不导出类型为父关系的个人联系人 (345893)
 
-**工作人员个人联系人**数据实体（DMF 中为 **HcmPersonalContactPersonEntity**，OData 中则为 **PersonalContactPerson**）无法导出关系类型为**父**的个人联系人。 为此更改后创建的个人联系人解决了此问题。 后续发布中将解决类型为**父**的现有个人联系人。
+**工作人员个人联系人** 数据实体（DMF 中为 **HcmPersonalContactPersonEntity**，OData 中则为 **PersonalContactPerson**）无法导出关系类型为 **父** 的个人联系人。 为此更改后创建的个人联系人解决了此问题。 后续发布中将解决类型为 **父** 的现有个人联系人。
 
 ## <a name="reason-codes-display-across-different-scenarios-when-theyre-marked-as-leave-and-absence-and-the-streamlined-employee-form-is-enabled-434163"></a>当其标记为休假和缺勤并启用了简化员工窗体时，不同方案中将显示原因代码 (434163)
 

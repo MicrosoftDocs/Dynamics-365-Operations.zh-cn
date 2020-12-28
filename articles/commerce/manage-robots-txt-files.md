@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1f7a779d69bf49d3416de3e92d4414cfabf358eb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ad87594b9c20d0c2b53e8d4e7c1170a78babe74b
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983615"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517444"
 ---
 # <a name="manage-robotstxt-files"></a>管理 robots.txt 文件
 
@@ -48,11 +48,11 @@ Dynamics 365 Commerce 可让您为您的域上载 robots.txt 文件。 对于您
 要在 Commerce 中上载 robots.txt 文件，请按照下列步骤操作。
 
 1. 以系统管理员身份登录到 Commerce。
-2. 在左侧导航窗格中，选择**租户设置**（在齿轮符号旁边）将其展开。
-3. 在**租户设置**下，选择 **Robots.txt**。 与您的环境关联的所有域的列表将显示在窗口的主要部分。
-4. 选择**管理**为您环境中的域上载 robots.txt 文件。
-5. 在右侧菜单上，选择与 robots.txt 文件关联的域旁边的**上载**按钮（向上箭头）。 将出现一个文件浏览器对话框。
-6. 在对话框中，浏览并选择要为关联的域上载的 robots.txt 文件，然后选择**打开**完成上载。
+2. 在左侧导航窗格中，选择 **租户设置**（在齿轮符号旁边）将其展开。
+3. 在 **租户设置** 下，选择 **Robots.txt**。 与您的环境关联的所有域的列表将显示在窗口的主要部分。
+4. 选择 **管理** 为您环境中的域上载 robots.txt 文件。
+5. 在右侧菜单上，选择与 robots.txt 文件关联的域旁边的 **上载** 按钮（向上箭头）。 将出现一个文件浏览器对话框。
+6. 在对话框中，浏览并选择要为关联的域上载的 robots.txt 文件，然后选择 **打开** 完成上载。
 
 > [!NOTE] 
 > 在上载期间，Commerce 会验证该文件是否是文本文件，但不会验证文件的内容。
@@ -62,11 +62,11 @@ Dynamics 365 Commerce 可让您为您的域上载 robots.txt 文件。 对于您
 要在 Commerce 中下载 robots.txt 文件，请按照下列步骤操作。
 
 1. 以系统管理员身份登录到 Commerce。
-2. 在左侧导航窗格中，选择**租户设置**（在齿轮符号旁边）将其展开。
-3. 在**租户设置**下，选择 **Robots.txt**。 与您的环境关联的所有域的列表将显示在窗口的主要部分。
-4. 选择**管理**为您环境中的域下载 robots.txt 文件。
-5. 在右侧菜单上，选择与 robots.txt 文件关联的域旁边的**下载**按钮（向下箭头）。 将出现一个文件浏览器对话框。
-6. 在对话框中，转到本地驱动器上的所需位置，确认或输入文件名，然后选择**保存**完成下载。
+2. 在左侧导航窗格中，选择 **租户设置**（在齿轮符号旁边）将其展开。
+3. 在 **租户设置** 下，选择 **Robots.txt**。 与您的环境关联的所有域的列表将显示在窗口的主要部分。
+4. 选择 **管理** 为您环境中的域下载 robots.txt 文件。
+5. 在右侧菜单上，选择与 robots.txt 文件关联的域旁边的 **下载** 按钮（向下箭头）。 将出现一个文件浏览器对话框。
+6. 在对话框中，转到本地驱动器上的所需位置，确认或输入文件名，然后选择 **保存** 完成下载。
 
 > [!NOTE]
 > 此过程只能用于下载以前通过 Commerce 创作工具上载的 robots.txt 文件。
@@ -76,12 +76,12 @@ Dynamics 365 Commerce 可让您为您的域上载 robots.txt 文件。 对于您
 要在 Commerce 中删除 robots.txt 文件，请按照下列步骤操作。
 
 1. 以系统管理员身份登录到 Commerce。
-2. 在左侧导航窗格中，选择**租户设置**（在齿轮符号旁边）将其展开。
-3. 在**租户设置**下，选择 **Robots.txt**。 与您的环境关联的所有域的列表将显示在窗口的主要部分。
-4. 选择**管理**为您环境中的域删除 robots.txt 文件。
-5. 在右侧菜单上，选择与 robots.txt 文件关联的域旁边的**删除**按钮（垃圾桶符号）。 将出现一个文件浏览器窗口。
-6. 在文件浏览器窗口中，浏览并选择要为域删除的 robots.txt 文件，然后选择**打开**。 将出现警告消息框。
-7. 在消息框中，选择**删除**确认删除 robots.txt 文件。
+2. 在左侧导航窗格中，选择 **租户设置**（在齿轮符号旁边）将其展开。
+3. 在 **租户设置** 下，选择 **Robots.txt**。 与您的环境关联的所有域的列表将显示在窗口的主要部分。
+4. 选择 **管理** 为您环境中的域删除 robots.txt 文件。
+5. 在右侧菜单上，选择与 robots.txt 文件关联的域旁边的 **删除** 按钮（垃圾桶符号）。 将出现一个文件浏览器窗口。
+6. 在文件浏览器窗口中，浏览并选择要为域删除的 robots.txt 文件，然后选择 **打开**。 将出现警告消息框。
+7. 在消息框中，选择 **删除** 确认删除 robots.txt 文件。
 
 > [!NOTE] 
 > 此过程只能用于删除以前通过 Commerce 创作工具上载的 robots.txt 文件。
@@ -90,11 +90,11 @@ Dynamics 365 Commerce 可让您为您的域上载 robots.txt 文件。 对于您
 
 [配置域名](configure-your-domain-name.md)
 
-[部署新的电子商务站点](deploy-ecommerce-site.md)
+[部署新的电子商务租户](deploy-ecommerce-site.md)
 
 [创建电子商务站点](create-ecommerce-site.md)
 
-[将在线站点与渠道关联](associate-site-online-store.md)
+[将 Dynamics 365 Commerce 站点与在线渠道相关联](associate-site-online-store.md)
 
 [批量上传 URL 重定向](upload-bulk-redirects.md)
 

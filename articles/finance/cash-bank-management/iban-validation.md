@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.openlocfilehash: 28abef376e8462c9a69dbd8e5033ea799b6a4b3a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977807"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440770"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>管理国际银行帐号 (IBAN) 帐户验证
 
@@ -32,16 +32,16 @@ ms.locfileid: "3977807"
 
 ## <a name="set-up-iban-structures"></a>设置 IBAN 结构
 
-1. 转到**现金和银行管理 \> 设置 \> IBAN 结构**。
+1. 转到 **现金和银行管理 \> 设置 \> IBAN 结构**。
 2. 请注意，已自动设置了每个国家或地区的 IBAN 结构。
 3. 如果想要自定义特定国家或地区的结构，可以进行编辑。
-4. 每个新发行版中都有结构定义。 每次更新之后，可使用**重置结构**菜单加载最新定义。
+4. 每个新发行版中都有结构定义。 每次更新之后，可使用 **重置结构** 菜单加载最新定义。
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>验证银行帐户中的 IBAN 结构
 
-1. 转至**现金和银行管理 \> 银行帐户 \> 银行帐户**。
+1. 转至 **现金和银行管理 \> 银行帐户 \> 银行帐户**。
 2. 创建银行帐户。
-3. 在**附加信息**快速选项卡上，输入一个 IBAN。
+3. 在 **附加信息** 快速选项卡上，输入一个 IBAN。
 
     如果 IBAN 的长度与为每个国家/地区定义的长度不匹配，您将收到一条警告消息。 如果 IBAN 的长度与 IBAN 结构中指定的长度不匹配，则不能继续操作。
 

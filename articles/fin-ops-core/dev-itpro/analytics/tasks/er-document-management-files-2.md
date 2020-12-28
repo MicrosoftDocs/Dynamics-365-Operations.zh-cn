@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd56ad01b00dfd0fe67f2d8eb36fb2bd39e04f1c
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 5923a14f4ba544154bf40391896d29826d3ce1b1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142585"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681797"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-2---extend-data-model"></a>ER 在格式输出中使用票据管理文件（第 2 部分 - 扩展数据模型）
 

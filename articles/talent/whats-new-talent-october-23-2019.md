@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68e3f428215bdc4f9a4ce0dd69cfd4482c72fbf3
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 27cb4a7c125cb2b330dff083c8ed0c1ee89c0e7e
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006256"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527995"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Dynamics 365 Talent（2019 年 10 月 23 日）中的新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
@@ -49,15 +51,15 @@ ms.locfileid: "3006256"
 
 ### <a name="error-while-selecting-the-countryregion-on-the-worker-form-a-second-time-350294"></a>再次选择“工作人员”窗体上的国家/地区时出错 (350294)
 
-在本周的发布中，在**工作人员**窗体上选择国家/地区时出现的问题已更正。
+在本周的发布中，在 **工作人员** 窗体上选择国家/地区时出现的问题已更正。
 
 ### <a name="financial-dimension-values-default-to-the-combination-display-field-when-do-not-allow-manual-entry-is-set-to-true-340097"></a>当“不允许手动输入”设置为 true 时，财务维度值默认为“组合显示”字段 (340097)
 
-进行此更改后，当设置财务维度并使用不允许手动输入选项时，系统会将维度值默认为正确的**组合显示**字段。
+进行此更改后，当设置财务维度并使用不允许手动输入选项时，系统会将维度值默认为正确的 **组合显示** 字段。
 
 ### <a name="new-relationship-types-should-be-added-to-relationship-lookup-in-the-personal-contacts-form-347691"></a>新的关系类型应该添加到个人联系人窗体中的“关系”查找中 (347691)
 
-此版本包含一些新功能，可以在**关系类型**表中添加新的关系类型，并在个人联系人的关系查找中反映这些更改。
+此版本包含一些新功能，可以在 **关系类型** 表中添加新的关系类型，并在个人联系人的关系查找中反映这些更改。
 
 ### <a name="additional-list-values-in-custom-fields-arent-reflected-in-common-data-service-379599"></a>自定义字段中的其他列表值未反映在 Common Data Service 中 (379599)
 
@@ -77,7 +79,7 @@ ms.locfileid: "3006256"
 
 ### <a name="system-allows-creation-of-new-positions-where-the-available-for-assignment-date-is-earlier-than-the-activation-date-340103"></a>系统允许创建“可用于分配”日期早于“启用”日期的新位置 (340103)
 
-当**可用于分配**日期在该位置的**启用**日期之前时，此更改将显示警告。
+当 **可用于分配** 日期在该位置的 **启用** 日期之前时，此更改将显示警告。
 
 ## <a name="coming-soon"></a>即将到期
 

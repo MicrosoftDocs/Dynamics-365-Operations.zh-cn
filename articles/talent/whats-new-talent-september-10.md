@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2018-09-06
 ms.dyn365.ops.version: Talent September 10, 2018 update
 ms.openlocfilehash: ff5d21a8a71b068a276bedaf6e4b9964adcb4027
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896742"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460487"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-september-10-2018"></a>Dynamics 365 Talent - Core HR（2018 年 9 月 10 日）中的新增功能或更改
 
@@ -35,7 +35,7 @@ ms.locfileid: "2896742"
 
 如果将休假和缺勤设置为以天为单位提交请假，也可以启用半天定义。 然后，当用户提交请假时，可以指定请上半天还是下半天假。
 
-默认情况下，此选项已关闭。 必须在人力资源参数的**休假和缺勤**区域中文为要请半天假的员工开启此选项。
+默认情况下，此选项已关闭。 必须在人力资源参数的 **休假和缺勤** 区域中文为要请半天假的员工开启此选项。
 
 此功能的安全权限为“维护人力资源参数”。
 
@@ -89,12 +89,12 @@ ms.locfileid: "2896742"
 
 ## <a name="navigation-to-attract-from-personnel-management"></a>从人员管理导航到 Attract
 
-在人员管理中，如果尚未设置 Attract，**可雇用的应聘者**部分将指示用户从 Attract 开始，而不是显示消息“我们未找到要在此处显示的任何内容。”
+在人员管理中，如果尚未设置 Attract，**可雇用的应聘者** 部分将指示用户从 Attract 开始，而不是显示消息“我们未找到要在此处显示的任何内容。”
 
 ## <a name="other-changes"></a>其他更改
 
 此版本中还包含若干缺陷修复：
 
-- 雇用合同工时，请求/操作页面中的**补偿**选项卡应不可用。
+- 雇用合同工时，请求/操作页面中的 **补偿** 选项卡应不可用。
 - 请求终止过程中，所有必填字段均包含数据之前，不能继续操作。
 - 已解决了人员管理分析中的排序和日期显示问题。

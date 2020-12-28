@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37546fccf804a4522638147d39206997e8c0c24c
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: ed21252fbbe3d4adad106625062e10e3de712bb0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745361"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687736"
 ---
 # <a name="allitemsquery-er-function"></a>ALLITEMSQUERY ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`ALLITEMSQUERY` 函数返回一个联接的 SQL 查询。 它返回一个新的平展*记录列表*值，此值由代表与指定路径匹配的所有项目的记录的列表组成。
+`ALLITEMSQUERY` 函数返回一个联接的 SQL 查询。 它返回一个新的平展 *记录列表* 值，此值由代表与指定路径匹配的所有项目的记录的列表组成。
 
 ## <a name="syntax"></a>语法
 
@@ -41,7 +40,7 @@ ALLITEMSQUERY (path)
 
 `path`：*记录列表*
 
-*记录列表*数据类型的数据源的有效路径。 必须包含至少一个关系。
+*记录列表* 数据类型的数据源的有效路径。 必须包含至少一个关系。
 
 ## <a name="return-values"></a>返回值
 
@@ -51,17 +50,17 @@ ALLITEMSQUERY (path)
 
 ## <a name="usage-notes"></a>使用说明
 
-指定的路径必须定义为*记录列表*数据类型的数据源元素的有效数据源路径。 同样必须包含至少一个关系。 路径*字符串*和*日期*等数据元素应会在电子申报 (ER) 表达式生成器中设计时引发错误。
+指定的路径必须定义为 *记录列表* 数据类型的数据源元素的有效数据源路径。 同样必须包含至少一个关系。 路径 *字符串* 和 *日期* 等数据元素应会在电子申报 (ER) 表达式生成器中设计时引发错误。
 
-当此函数应用于*记录列表*数据类型的数据源，且该数据源引用可以使用 SQL 直接调用的应用程序对象（例如，表、实体或查询）时，它将作为连接的 SQL 查询运行。 否则，它将作为 [ALLITEMS](er-functions-list-allitems.md) 函数在内存内运行。
+当此函数应用于 *记录列表* 数据类型的数据源，且该数据源引用可以使用 SQL 直接调用的应用程序对象（例如，表、实体或查询）时，它将作为连接的 SQL 查询运行。 否则，它将作为 [ALLITEMS](er-functions-list-allitems.md) 函数在内存内运行。
 
 ## <a name="example"></a>示例
 
 在模型映射中定义以下数据源：
 
-- 引用 CustInvoiceTable 表的*表记录*类型的 **CustInv** 数据源
-- 包含表达式 `FILTER (CustInv, CustInv.InvoiceAccount = "US-001")` 的*计算字段*类型的 **FilteredInv** 数据源
-- 包含表达式 `ALLITEMSQUERY ( FilteredInv.'<Relations'.CustInvoiceJour.'<Relations'.CustInvoiceTrans)` 的*计算字段*类型的 **JourLines**
+- 引用 CustInvoiceTable 表的 *表记录* 类型的 **CustInv** 数据源
+- 包含表达式 `FILTER (CustInv, CustInv.InvoiceAccount = "US-001")` 的 *计算字段* 类型的 **FilteredInv** 数据源
+- 包含表达式 `ALLITEMSQUERY ( FilteredInv.'<Relations'.CustInvoiceJour.'<Relations'.CustInvoiceTrans)` 的 *计算字段* 类型的 **JourLines**
 
 运行模型映射以调用 **JourLines** 数据源时，将运行以下 SQL 语句：
 

@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 709ba18be9e2edd5d0a7f143aaed5ef94f365b91
-ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
+ms.openlocfilehash: 86d9a40d991e915d3529e0c330f7559d8e7ce9ea
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456918"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529570"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Dynamics 365 Supply Chain Management 客户门户概述
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="what-is-the-customer-portal"></a>什么是客户门户？
 
@@ -36,7 +38,7 @@ ms.locfileid: "3456918"
 > 单是模板本身，不能提供完整功能。 对于希望创建面向外部的网站，以便企业客户可以与 Supply Chain Management 中的数据进行交互的客户，它只是充当一个使能者。
 
 > [!NOTE]
-> 客户门户文档面向将为 Supply Chain Management 安装设置客户门户的管理员、定制员和系统集成商。 它使用术语_客户_和_用户_描述属于运行 Supply Chain Management 的组织的客户，以及将使用最终门户的人员。
+> 客户门户文档面向将为 Supply Chain Management 安装设置客户门户的管理员、定制员和系统集成商。 它使用术语 _客户_ 和 _用户_ 描述属于运行 Supply Chain Management 的组织的客户，以及将使用最终门户的人员。
 
 ## <a name="video"></a>视频
 
@@ -51,7 +53,7 @@ ms.locfileid: "3456918"
 - 他们希望构建一个面向外部的网站，该网站将订单处理信息（如订单状态或帐户信息）直接从其 Supply Chain Management 系统传达到其企业客户。
 - 他们正在从 Dynamics AX 2012 转移到 Supply Chain Management，以前使用 [AX 2012 客户自助服务门户](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-the-customer-self-service-portal)。
 
-以下类型的组织**不**是实施客户门户的理想候选人：
+以下类型的组织 **不** 是实施客户门户的理想候选人：
 
 - 希望为非企业客户构建网站的公司。 这些公司应该考虑创建 [Dynamics 365 Commerce 电子商务网站](https://docs.microsoft.com/dynamics365/commerce/create-ecommerce-site)。
 - 已经将现有 Power Apps 门户网站用于类似目的的公司。 这些公司不会从客户门户获得任何其他好处。 客户门户作为模板提供，它充当希望在双写入、Supply Chain Management 和 Power Apps 门户之间“连接点”的客户的指南和起点。 如果您已经设置了一个用于此目的的网站，使用客户门户模板重新预配该网站可能不会获得太多价值。

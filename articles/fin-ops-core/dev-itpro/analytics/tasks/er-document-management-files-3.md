@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4324ed62c56abea6d90d83d950429b6ddf7a84b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: bfcc03fa7470d4f2fa45ef012e30acef0712bf99
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142002"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681845"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-3---create-format"></a>ER 在格式输出中使用票据管理文件（第 3 部分 - 创建格式）
 

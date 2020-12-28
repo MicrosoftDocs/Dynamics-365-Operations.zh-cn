@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 56441
 ms.assetid: de740262-6ffd-42b9-a325-540eae5cec94
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce4b0c3ee996dfbf0904f8e7fd3b3bfb53a149c2
-ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
+ms.openlocfilehash: b681d4da750df502987bd00ab52c1cb6eecdf30e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3698039"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694231"
 ---
 # <a name="workflow-elements"></a>工作流元素
 
@@ -34,18 +33,18 @@ ms.locfileid: "3698039"
 
 ## <a name="tasks"></a>任务
 
-*任务*是必须执行的工作单元。 有两种类型的任务可添加到工作流：手动任务或自动化任务。
+*任务* 是必须执行的工作单元。 有两种类型的任务可添加到工作流：手动任务或自动化任务。
 
 ### <a name="manual-task"></a>手动任务
 
-*手动任务*是必须由用户执行的工作单元。 例如，支出报表工作流中的手动任务可能要求所分配用户完成以下操作：
+*手动任务* 是必须由用户执行的工作单元。 例如，支出报表工作流中的手动任务可能要求所分配用户完成以下操作：
 
 - 查看随支出报表一起提交的收据。
 - 致电员工的经理。
 
 ### <a name="automated-task"></a>自动化任务
 
-*自动化任务*是必须由系统执行的工作单元。 不要求人工交互。 例如，销售订单工作流中的自动化任务可能要求系统完成以下操作：
+*自动化任务* 是必须由系统执行的工作单元。 不要求人工交互。 例如，销售订单工作流中的自动化任务可能要求系统完成以下操作：
 
 - 执行信用检查。
 - 如果记录不存在，为客户创建客户记录。
@@ -61,7 +60,7 @@ ms.locfileid: "3698039"
 
 ## <a name="line-item-workflow-elements"></a>行项工作流元素
 
-可以创建工作流来处理文档或文档上的行项。 例如，您为工时单创建了审核工作流。 （我们将把此工作流称为*单据工作流*。）您可以向该单据工作流添加*行项工作流*元素。 在运行行项元素时，提交文档上的每个行项进行处理。 您可能想要由同一行项工作流来处理所有行项，或者您可能想要由不同的行项工作流来处理各行项。 假定员工提交了类似于下图的时间表。
+可以创建工作流来处理文档或文档上的行项。 例如，您为工时单创建了审核工作流。 （我们将把此工作流称为 *单据工作流*。）您可以向该单据工作流添加 *行项工作流* 元素。 在运行行项元素时，提交文档上的每个行项进行处理。 您可能想要由同一行项工作流来处理所有行项，或者您可能想要由不同的行项工作流来处理各行项。 假定员工提交了类似于下图的时间表。
 
 ![具有行项的工作流](./media/workflow_lineitemworkflow.gif)
 
@@ -77,16 +76,16 @@ ms.locfileid: "3698039"
 
 ### <a name="manual-decision"></a>手动决策
 
-*手动决策*是工作流划分为两个分支处的点。 用户必须制定决策，并且此决策确定哪个分支用于处理提交的单据。
+*手动决策* 是工作流划分为两个分支处的点。 用户必须制定决策，并且此决策确定哪个分支用于处理提交的单据。
 
 ### <a name="conditional-decision"></a>有条件决策
 
-*有条件决策*还是工作流划分为两个分支处的点。 但是，系统将决定哪一个分支用于处理提交的单据。 要进行此决定，系统对该单据进行评估以确定是否符合指定的条件。
+*有条件决策* 还是工作流划分为两个分支处的点。 但是，系统将决定哪一个分支用于处理提交的单据。 要进行此决定，系统对该单据进行评估以确定是否符合指定的条件。
 
 ### <a name="parallel-activity"></a>并行活动
 
-*并行活动*是指包含两个或更多同时运行的工作流分支的工作流元素。
+*并行活动* 是指包含两个或更多同时运行的工作流分支的工作流元素。
 
 ### <a name="subworkflow"></a>子工作流
 
-*子工作流*是在其他工作流的上下文中运行的工作流。
+*子工作流* 是在其他工作流的上下文中运行的工作流。

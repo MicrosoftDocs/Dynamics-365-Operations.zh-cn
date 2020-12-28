@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae6e0069c6e9227d4cf1045eeebbb825a2f943c3
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: a27fd30236a61576ab9063010ea6bc38d9cf7a1e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744303"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686778"
 ---
 # <a name="convertcurrency-er-function"></a>CONVERTCURRENCY ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`CONVERTCURRENCY` 函数返回一个*实数*值，该值表示通过使用指定日期的指定公司的设置，将指定的货币金额从指定源币种转换为指定目标币种的结果。
+`CONVERTCURRENCY` 函数返回一个 *实数* 值，该值表示通过使用指定日期的指定公司的设置，将指定的货币金额从指定源币种转换为指定目标币种的结果。
 
 ## <a name="syntax"></a>语法
 
@@ -39,7 +38,7 @@ CONVERTCURRENCY (amount, source currency, target currency, date, company)
 
 ## <a name="arguments"></a>参数
 
-`amount`：*整数*或*实数*
+`amount`：*整数* 或 *实数*
 
 表示必须转换的货币金额的数字值。
 
@@ -53,11 +52,11 @@ CONVERTCURRENCY (amount, source currency, target currency, date, company)
 
 `date`：*日期*
 
-代表用于确定转换汇率的日期的*日期*值。
+代表用于确定转换汇率的日期的 *日期* 值。
 
 `company`：*字符串*
 
-表示提供转换所用设置的公司的代码的*字符串*值。
+表示提供转换所用设置的公司的代码的 *字符串* 值。
 
 ## <a name="return-values"></a>返回值
 

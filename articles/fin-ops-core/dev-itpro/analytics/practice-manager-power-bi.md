@@ -11,24 +11,23 @@ ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 065981276f124da7b2d6196b5a0e8143e81cc10a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979080"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685697"
 ---
 # <a name="practice-manager-power-bi-content"></a>实践经理 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍**实践经理** Microsoft Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+此主题介绍 **实践经理** Microsoft Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 
 ## <a name="overview"></a>概览
 
@@ -36,15 +35,15 @@ ms.locfileid: "3979080"
 
 **实践经理** Power BI 内容包含五个报表页：一个概览页，四个提供项目成本、收入、挣值管理，以及跨各个维度细分的工时指标的详细信息。
 
-内容中的所有金额都以系统币种显示。 您可以在**系统参数**页设置系统币种。
+内容中的所有金额都以系统币种显示。 您可以在 **系统参数** 页设置系统币种。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 
-**实践经理** Power BI 内容显示在**项目管理**工作区。
+**实践经理** Power BI 内容显示在 **项目管理** 工作区。
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 
-下表提供有关在**实践经理** Power BI 内容中的每个报表页找到的度量的详细信息。
+下表提供有关在 **实践经理** Power BI 内容中的每个报表页找到的度量的详细信息。
 
 | 报表页       | 指标 |
 |-------------------|---------|
@@ -58,7 +57,7 @@ ms.locfileid: "3979080"
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
 
-以下数据用于填充**实践经理** Power BI 内容中的报表页。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成](power-bi-integration-entity-store.md)。
+以下数据用于填充 **实践经理** Power BI 内容中的报表页。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成](power-bi-integration-entity-store.md)。
 
 以下部分说明用于每个实体的聚合度量。
 

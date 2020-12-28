@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6bb754ca80af0a0793b5ee162a378ebbe92524c5
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: 9e6eeac66cff24d193e30aa942039707fc0aed52
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3197282"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528333"
 ---
 # <a name="choose-a-data-integration-technology"></a>选择数据集成技术
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 本文介绍如何与 Dynamics 365 Human Resources 管理的数据集成。 其介绍可帮助您决定哪些技术最适合您的需要的不同集成技术。
 
@@ -107,7 +109,7 @@ BYOD 主要是只读解决方案。 尽管您可以在 Azure SQL 数据库中处
 
 大多数 DMF 实体也可以通过 Human Resources 数据服务 (OData) 进行访问。 为 [Finance and Operations OData 服务](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/odata)提供的文档适用于 Human Resources，但创建您自己的公开 OData 实体时除外。
 
-虽然 Common Data Service 和 Common Data Service 提供的 OData 实现（通过 [Dynamics 365 Web API](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8)))优先于 Human Resources 数据服务，但 Human Resources 数据服务当前对于 Human Resources 数据的实体覆盖更完整。
+虽然 Common Data Service 和 Common Data Service 提供的 OData 实现（通过 [Dynamics 365 Web API](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))）优先于 Human Resources 数据服务，但 Human Resources 数据服务当前对于 Human Resources 数据的实体覆盖更完整。
 
 ### <a name="excel-add-in"></a>Excel 加载项
 

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59dbbf820f7a3de1e5fb31f781943320b8b1a60a
-ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
+ms.openlocfilehash: 5c43cdce8d073f04a3158c8beb13a5376e669a4c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3810635"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684443"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>从 Lifecycle Services 导入配置
 
@@ -36,8 +35,8 @@ ms.locfileid: "3810635"
     - 电子申报开发人员
     - 系统管理员
 
-2. 转到**组织管理** \> **工作区** \> **电子申报**。
-3. 选择**配置**。
+2. 转到 **组织管理** \> **工作区** \> **电子申报**。
+3. 选择 **配置**。
 
 <a name="accessconditions"></a>
 > [!NOTE]
@@ -47,26 +46,26 @@ ms.locfileid: "3810635"
 
 ## <a name="delete-a-shared-version-of-a-data-model-configuration"></a>删除数据模型配置的共享版本
 
-1. 在**配置**页上的配置树中，选择**示例模型配置**。
+1. 在 **配置** 页上的配置树中，选择 **示例模型配置**。
 
     在完成[将配置上载到 Lifecycle Services](er-upload-configuration-into-lifecycle-services.md) 中的步骤时，创建了示例数据模型配置的第一个版本并发布到了 LCS。 在此过程中，您将删除 ER 配置的这一版本。 然后将在本主题后文从 LCS 导入该版本。
 
 2. 在列表中，找到并选择所需记录。
 
-    对于此示例，请选择状态为**已共享**的配置版本。 此状态指示配置已发布到为 LCS。
+    对于此示例，请选择状态为 **已共享** 的配置版本。 此状态指示配置已发布到为 LCS。
 
-3. 选择**更改状态**。
-4. 选择**中断**。
+3. 选择 **更改状态**。
+4. 选择 **中断**。
 
-    通过将所选版本的状态从**已共享**更改为**已中断**，使此版本可删除。
+    通过将所选版本的状态从 **已共享** 更改为 **已中断**，使此版本可删除。
 
-5. 选择**确定**。
+5. 选择 **确定**。
 6. 在列表中，找到并选择所需记录。
 
-    对于此示例，请选择状态为**中断**的配置版本。
+    对于此示例，请选择状态为 **中断** 的配置版本。
 
-7. 选择**删除**。
-8. 选择**是**。
+7. 选择 **删除**。
+8. 选择 **是**。
 
     请注意，仅所选数据模型配置的草稿版本 2 现在可用。
 
@@ -74,33 +73,33 @@ ms.locfileid: "3810635"
 
 ## <a name="import-a-shared-version-of-a-data-model-configuration-from-lcs"></a>从 LCS 导入数据模型配置的共享版本
 
-1. 转到**组织管理 \> 工作区 \> 电子申报**。
+1. 转到 **组织管理 \> 工作区 \> 电子申报**。
 
-2. 在**配置提供程序**部分中，选择 **Litware, Inc.** 磁贴。
+2. 在 **配置提供程序** 部分中，选择 **Litware, Inc.** 磁贴。
 
-3. 在 **Litware, Inc.** 磁贴上，选择**存储库**。
+3. 在 **Litware, Inc.** 磁贴上，选择 **存储库**。
 
     现在可以打开 Litware, Inc 配置提供程序的存储库列表。
 
-4. 选择**打开**。
+4. 选择 **打开**。
 
     对于此示例，请选择 **LCS** 存储库，然后打开。 必须具有该 LCS 项目和所选 ER 存储库访问的资产库的[访问权限](#accessconditions)。
 
 5. 在列表中，标记所选的行。
 
-    对于此示例，请在版本列表中选择**示例模型配置**的第一个版本。
+    对于此示例，请在版本列表中选择 **示例模型配置** 的第一个版本。
 
-6. 选择**导入**。
-7. 选择**是**确认从 LCS 导入所选版本。
+6. 选择 **导入**。
+7. 选择 **是** 确认从 LCS 导入所选版本。
 
     将通过参考消息确认已成功导入了所选版本。
 
 8. 关闭该页面。
 9. 关闭该页面。
-10. 选择**配置**。
-11. 在树结构中，选择**示例模型配置**。
+10. 选择 **配置**。
+11. 在树结构中，选择 **示例模型配置**。
 12. 在列表中，找到并选择所需记录。
 
-    对于此示例，请选择状态为**已共享**的配置版本。
+    对于此示例，请选择状态为 **已共享** 的配置版本。
 
     请注意，所选数据模型配置的共享版本 1 现在也可用。

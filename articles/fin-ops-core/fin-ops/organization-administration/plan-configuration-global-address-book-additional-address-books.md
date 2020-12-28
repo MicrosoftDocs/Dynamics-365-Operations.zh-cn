@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: DirAddressBook, DirAddressBookTeam, DirParameters, DirPartyTable
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 23341
 ms.assetid: a41cd8de-9ee0-4275-aea5-131db5326e5b
 ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aeed503500abf4f4b7ccf166f589d09bba306689
-ms.sourcegitcommit: 7a855deed9f95ca2589f38db214890464b2b9061
+ms.openlocfilehash: 7d83d6536d85100ef6a91e909be5a8e57e423371
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2020
-ms.locfileid: "2951201"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693922"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>全球通讯簿和其他通讯簿的计划
 
@@ -37,7 +36,7 @@ ms.locfileid: "2951201"
 
 **决策**
 
-- 对于**人员**类型的当事方记录，名称应以何种顺序显示？ 例如一个顺序是姓氏、中间名、名字。
+- 对于 **人员** 类型的当事方记录，名称应以何种顺序显示？ 例如一个顺序是姓氏、中间名、名字。
 - 在删除角色记录时，是否应从通讯簿中删除当事方记录？ 例如，如果删除了客户记录，是否还应删除相应的当事方记录？
 - 创建新记录时，如果在全球通讯簿中找到重复的记录，是否应通知用户？
 - 是否应在当事方记录信息中包括数据统一编码系统 (DUNS) 编号？

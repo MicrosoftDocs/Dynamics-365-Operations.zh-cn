@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4bf5b5ce9efbd2014164db213ff20d28d20ecf3e
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: d6f6f4a32e4bf85908f51eb1eed858b704c814dc
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712296"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4526833"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-3-2020"></a>Dynamics 365 Human Resources（2020 年 3 月 3 日）中的新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 本文介绍 Dynamics 365 Human Resources 中的新增功能或更改的功能。 更改适用于内部版本号 8.1.2955。 某些标题中括号内的数字是 LCS 支持号码，供您参考。
 
@@ -35,30 +37,30 @@ ms.locfileid: "3712296"
 
 | 说明 | 找零 |
 | ----------------------------------------- | --- |
-| **工作/职位**实体更改 | 添加了**薪酬区域**</br>添加了**财务维度** |
-| **工作人员**实体更改 | 添加了**姓名顺序**</br>添加了**在家工作**</br>添加了**语言**</br>添加了**受聘日期**</br>添加了**周年纪念日日期**</br>添加了**原始雇用日期** |
-| **雇用**实体更改 | 添加了**财务维度**</br>添加了**离职原因**</br>**转变日期**重命名为**离职日期**</br>添加了**试用日期** |
-| **工作人员地址**实体更改 | 添加了**街道地址**</br>**地址行 1**、**地址行 2** 和**地址行 3** 标为弃用 |
+| **工作/职位** 实体更改 | 添加了 **薪酬区域**</br>添加了 **财务维度** |
+| **工作人员** 实体更改 | 添加了 **姓名顺序**</br>添加了 **在家工作**</br>添加了 **语言**</br>添加了 **受聘日期**</br>添加了 **周年纪念日日期**</br>添加了 **原始雇用日期** |
+| **雇用** 实体更改 | 添加了 **财务维度**</br>添加了 **离职原因**</br>**转变日期** 重命名为 **离职日期**</br>添加了 **试用日期** |
+| **工作人员地址** 实体更改 | 添加了 **街道地址**</br>**地址行 1**、**地址行 2** 和 **地址行 3** 标为弃用 |
 | 新的可变薪酬设置实体 | **可变薪酬计划类型**</br>**薪酬可变计划**</br>**股份行权规则**</br>**可变薪酬计划级别** |
-| 新**工作人员日历雇用**实体 | 添加了**工作日历实体** |
-| 新**工资单职位详细信息**实体 | 添加了**工资单职位详细信息** |
-| 新**职务**实体 | 添加了**职务**。 Human Resources 与 Common Data Service 之间的同步流程中将包含新的**职务**实体。 其最初不是从**工作职位**或**工作**实体引用的。 |
+| 新 **工作人员日历雇用** 实体 | 添加了 **工作日历实体** |
+| 新 **工资单职位详细信息** 实体 | 添加了 **工资单职位详细信息** |
+| 新 **职务** 实体 | 添加了 **职务**。 Human Resources 与 Common Data Service 之间的同步流程中将包含新的 **职务** 实体。 其最初不是从 **工作职位** 或 **工作** 实体引用的。 |
 
 在接下来的数周内，所有环境中将支持这些实体更改。 若要手动插入适用于 Human Resources 的最新 Common Data Service 解决方案：
 
 1.  转到 [Power Platform 管理中心](https://admin.powerplatform.microsoft.com)。
 
-2.  选择**环境**。
+2.  选择 **环境**。
 
-3.  找到要升级的环境。 此环境应该对应于 Human Resources 中**关于**窗体内 **Common Data Service 信息**部分中的**环境名称**。
+3.  找到要升级的环境。 此环境应该对应于 Human Resources 中 **关于** 窗体内 **Common Data Service 信息** 部分中的 **环境名称**。
 
 4.  选择环境以查看环境详细信息。
 
-5.  在顶部的操作栏中选择**管理解决方案**。 将打开一个新的浏览器窗口，并在您的环境的上下文中导航到 **Dynamics 365 管理中心**。
+5.  在顶部的操作栏中选择 **管理解决方案**。 将打开一个新的浏览器窗口，并在您的环境的上下文中导航到 **Dynamics 365 管理中心**。
 
-6.  在**解决方案**列表中，选择 **Dynamics 365 Human Resources 定位点**。
+6.  在 **解决方案** 列表中，选择 **Dynamics 365 Human Resources 定位点**。
 
-7.  选择**升级**应用最新解决方案。
+7.  选择 **升级** 应用最新解决方案。
 
 ## <a name="import-issues-with-the-leave-enrollment-data-entity-406082"></a>休假等记数据实体的导入问题 (406082)
 
@@ -70,11 +72,11 @@ ms.locfileid: "3712296"
 
 ## <a name="searching-in-the-streamlined-worker-form-causes-message-saying-person-field-must-be-filled-in-402525"></a>在简化的工作人员窗体中进行搜索将导致“必须填写人员字段”消息 (402525)
 
-搜索员工时，不再会收到有关必须填写**人员**字段的消息。
+搜索员工时，不再会收到有关必须填写 **人员** 字段的消息。
 
 ## <a name="note-field-value-doesnt-render-on-the-add-more-skills-form-380134"></a>“添加更多技能”窗体中不显示“注释”字段值 (380134)
 
-此更改解决了个性化员工自助服务中的**添加更多技能**窗体时的问题。
+此更改解决了个性化员工自助服务中的 **添加更多技能** 窗体时的问题。
 
 ## <a name="multiple-fixed-compensation-plans-dont-expire-when-transferring-employees-389466"></a>转移员工时多个固定薪酬计划不到期 (389466)
 

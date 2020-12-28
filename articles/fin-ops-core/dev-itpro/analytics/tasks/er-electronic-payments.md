@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fa39a9d459022e391f99e284d41d82215cc10e2b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 6e88df5c2f92ee2b9b448ba100c8bc4105eddae4
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142562"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681725"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>ER 使用格式配置生成付款的电子单据
 
@@ -33,7 +32,7 @@ ms.locfileid: "3142562"
 
 
 ## <a name="change-the-configuration-of-the-electronic-payment-method"></a>更改电子付款方式的配置
-1. 转至“应付账款”>“付款设置”>“付款方式”。
+1. 转至“应付帐款”>“付款设置”>“付款方式”。
 2. 如果需要，切换“文件格式”部分以展开它。
 3. 使用“快速筛选器”以查找记录。 例如，在含有“电子”值的“付款方式”字段中筛选。
 4. 单击“编辑”。
@@ -45,7 +44,7 @@ ms.locfileid: "3142562"
 9. 关闭该页面。
 
 ## <a name="test-the-format-of-generated-payment-files"></a>测试生成的付款文件的格式
-1. 转至“应付账款”>“付款”>“付款日记帐”。
+1. 转至“应付帐款”>“付款”>“付款日记帐”。
 2. 单击“新建”。
 3. 在列表中，标记所选的行。
 4. 在“名称”字段中，单击下拉按钮以打开查找。
@@ -55,7 +54,7 @@ ms.locfileid: "3142562"
 7. 单击“行”。
 8. 在“公司”字段中，键入 'DEMF'。
     * DEMF  
-9. 在账号字段，设定值为“DE-01001"。
+9. 在帐号字段，设定值为“DE-01001"。
     * DE-01001  
 10. 在“描述”字段中，键入“付款”。
     * 付款  

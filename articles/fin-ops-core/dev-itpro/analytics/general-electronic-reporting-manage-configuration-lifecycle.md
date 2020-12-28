@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58801
 ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ecaeb80f3cda2ee24533ed263df63cc10c5ffc65
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 1a4741784103817c270c4c7f730753ba59a327d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771088"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682615"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>管理电子申报 (ER) 配置生命周期
 
@@ -59,7 +58,7 @@ ms.locfileid: "2771088"
 
 - 将模板与特定业务流程集成，以使它在应用程序中可用：
 
-    - 通过在流程相关参数中引用该配置来配置设置以便应用程序开始使用 ER 配置。 例如，引用特定应付账款付款方式中的 ER 配置以生成用于处理发票的电子付款消息。
+    - 通过在流程相关参数中引用该配置来配置设置以便应用程序开始使用 ER 配置。 例如，引用特定应付帐款付款方式中的 ER 配置以生成用于处理发票的电子付款消息。
 
 - 使用特定的业务流程中的模板：
 
@@ -72,14 +71,14 @@ ms.locfileid: "2771088"
 |--------------------------------------------|-----------------------------------------------------------------|-------------|
 | 电子申报功能顾问 | 创建和管理 ER 组件（模型和格式）。           | 设计 ER 域特定数据模型、设计电子文档的所需模板并将它们进行相应绑定的业务人员。 |
 | 电子申报开发人员             | 创建和管理数据模型映射。                          | 选择所需的 Finance 数据源并将它们绑定到 ER 域特定数据模型的专业人员。 |
-| 会计主管                      | 配置引用 ER 项目的流程相关设置。 | 例如，允许 ER 配置设置用于特定应付账款付款方式来生成用于处理发票的电子付款消息的**会计主管**角色。 |
-| 应付账款付款员            | 使用特定业务流程中的 ER 项目。                | 例如，允许基于为特定付款方式配置的 ER 格式为处理发票生成电子付款消息的**应付账款付款员**。 |
+| 会计主管                      | 配置引用 ER 项目的流程相关设置。 | 例如，允许 ER 配置设置用于特定应付帐款付款方式来生成用于处理发票的电子付款消息的 **会计主管** 角色。 |
+| 应付帐款付款员            | 使用特定业务流程中的 ER 项目。                | 例如，允许基于为特定付款方式配置的 ER 格式为处理发票生成电子付款消息的 **应付帐款付款员**。 |
 
 ## <a name="er-configuration-development-lifecycle"></a>ER 配置开发生命周期
 出于以下与 ER 相关的原因，我们建议您在开发环境中将 ER 配置设计为单独的 Finance and Operations 实例：
 
-- 担当**电子申报开发人员**角色或**电子申报功能顾问**角色的用户可编辑配置，并运行配置以进行测试。 此情况可能会导致调用类和表的方法，可能对业务数据和实例的性能产生负面影响。
-- 在调用作为 ER 配置的 ER 数据源的类和表的方法时，不受入口点和记录的公司内容的限制。 因此，担当**电子申报开发人员**角色或**电子申报功能顾问**角色的用户可访问业务敏感数据。
+- 担当 **电子申报开发人员** 角色或 **电子申报功能顾问** 角色的用户可编辑配置，并运行配置以进行测试。 此情况可能会导致调用类和表的方法，可能对业务数据和实例的性能产生负面影响。
+- 在调用作为 ER 配置的 ER 数据源的类和表的方法时，不受入口点和记录的公司内容的限制。 因此，担当 **电子申报开发人员** 角色或 **电子申报功能顾问** 角色的用户可访问业务敏感数据。
 
 在开发环境中设计的 ER 配置可上传到测试环境以进行配置评估（适当的流程集成、结果的正确性、性能）和质量保证（如角色驱动的访问权限的正确性和职责划分）。 启用 ER 配置交换的功能可以用于此目的。 最后，已审核的 ER 配置可上传到 LCS，在其中这些配置可与服务订阅者共享，也可上传到生产环境以供内部使用，如下图所示。
 

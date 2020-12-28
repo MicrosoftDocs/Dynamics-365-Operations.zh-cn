@@ -11,23 +11,22 @@ ms.technology: ''
 ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e0fabf5c9475b5acd7cbd77a51c2912c96681894
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 0073033454c7d3054496fe4c38cdb3cff71d8755
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142631"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681869"
 ---
 # <a name="er-configure-destinations"></a>ER 配置目标
 
 [!include [banner](../../includes/banner.md)]
 
-此过程演示如何设置和使用不同的电子申报 (ER) 输出组件的目标，例如文件夹或文件。 用于创建此过程的演示数据公司是 DEMF。 德国为法人主要地址的国家\地区，但您可以为此过程使用任何法人。 
+此过程演示如何设置和使用不同的电子申报 (ER) 输出组件的目标，例如文件夹或文件。 用于创建此过程的演示数据公司是 DEMF。 德国为法人主要地址的国家/地区，但您可以为此过程使用任何法人。 
 
 此示例使用的格式是 ISO20022 贷方转帐，不过，您可以使用您已经导入的任何格式。 请注意，此过程是单个文件和单个目标设置的示例。 有关电子申报目标管理的详细信息可以在 Dynamics 365 Finance 帮助中找到。
 

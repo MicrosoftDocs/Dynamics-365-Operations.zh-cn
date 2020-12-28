@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 25341
 ms.assetid: 8e214c95-616b-4ee1-b5a4-fa5ce5147f2c
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: b951c1da298689ea82f8c0abb868bea7c8c22487
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e6145a2f6925932361851735df55374dda8ca03d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182063"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679372"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Configuration Key 和数据实体
 

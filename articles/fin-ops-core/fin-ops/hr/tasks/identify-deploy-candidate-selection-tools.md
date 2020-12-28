@@ -3,7 +3,7 @@ title: 确定和部署候选人选择工具
 description: 找到符合条件的候选人填补空缺不是一件容易的事，尤其是在该职位需要一系列独特技能时。
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 11/20/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d8a05ad7f100e6c54ccf1ecf7b76509cf44dbb8
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: f4e7ed6feaa1b5b27fcfc0ec99a2d75415fe7d6a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143941"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693056"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>确定和部署候选人选择工具
 
@@ -39,17 +38,17 @@ ms.locfileid: "3143941"
 7. 单击“工作”。
 8. 在“工作”字段中，输入或选择一个值。
 9. 单击“确定”。
-10. 展开“范围快速”选项卡，添加其他附加信息，如部门。
-11. 展开“证书快速”选项卡以查看或编辑证书。
-12. 展开“技能快速”选项卡以查看或编辑技能。
-13. 展开“教育快速”选项卡以查看或编辑教育条件。
+10. 展开“范围”快速选项卡，添加其他附加信息，如部门。
+11. 展开“证书”快速选项卡以查看或编辑证书。
+12. 展开“技能”快速选项卡以查看或编辑技能。
+13. 展开“教育”快速选项卡以查看或编辑教育条件。
 14. 单击“执行”。
 15. 单击“确定”。
 16. 单击“结果”。
 17. 单击“结果”。
 18. 单击“恢复”。
 19. 单击“证书”。
-    * 您可以深入分析所列出的每个人并查看有关其教育程度、技能、专业经验等详细信息。  
+    * 您可以深入分析所列出的每个人并查看有关其教育程度、技能、专业经验的详细信息。  
 20. 关闭该页面。
 21. 关闭该页面。
 22. 再次选择结果。

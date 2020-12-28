@@ -10,28 +10,27 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Human Resources
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c2ad5f30ed0e69df1769eb0379b5da2865d4ce4f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005601"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680962"
 ---
 # <a name="my-team-mobile-workspace"></a>我的团队移动工作区
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供有关**我的团队**移动工作区的信息。 此工作区允许经理查看其直接下属和扩展职员。 他们还可以向其报告链中的人员发送表扬。
+此主题提供有关 **我的团队** 移动工作区的信息。 此工作区允许经理查看其直接下属和扩展职员。 他们还可以向其报告链中的人员发送表扬。
 
 此工作区应该与 Finance and Operations 移动应用结合使用。
 
 ## <a name="overview"></a>概览 
-**我的团队**移动工作区让经理能够执行以下任务：
+**我的团队** 移动工作区让经理能够执行以下任务：
 
 - 显示经理的直接下属的列表。
 - 显示经理的扩展报告团队的列表。
@@ -84,17 +83,17 @@ ms.locfileid: "3005601"
 [![下拉以刷新](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>使用我的团队移动工作区查看团队成员
-1.  在移动应用中，选择**我的团队**工作区。 此时将显示团队成员的列表。 此列表还显示每个团队成员的职务及其拥有的任何直接下属。
-2.  选择一个团队成员。 此时将显示**团队成员汇总**页。 此页上的信息包括团队成员的出生日期、受聘日期、工作年限、当前职务工作年限以及薪酬信息。
+1.  在移动应用中，选择 **我的团队** 工作区。 此时将显示团队成员的列表。 此列表还显示每个团队成员的职务及其拥有的任何直接下属。
+2.  选择一个团队成员。 此时将显示 **团队成员汇总** 页。 此页上的信息包括团队成员的出生日期、受聘日期、工作年限、当前职务工作年限以及薪酬信息。
 
 ## <a name="view-extended-team-members-by-using-the-my-team-mobile-workspace"></a>使用我的团队移动工作区查看扩展团队成员
-1.  在移动应用中，选择**我的团队**工作区。 此时将显示团队成员的列表。 此列表还显示每个团队成员的职务及其拥有的任何直接下属。
-1.  选择**直接下属**链接。 此时将显示您的扩展团队的列表。
-1.  选择一个团队成员。 此时将显示**团队成员汇总**页。 此页上的信息包括团队成员的出生日期、受聘日期、工作年限、当前职务工作年限以及薪酬信息。
+1.  在移动应用中，选择 **我的团队** 工作区。 此时将显示团队成员的列表。 此列表还显示每个团队成员的职务及其拥有的任何直接下属。
+1.  选择 **直接下属** 链接。 此时将显示您的扩展团队的列表。
+1.  选择一个团队成员。 此时将显示 **团队成员汇总** 页。 此页上的信息包括团队成员的出生日期、受聘日期、工作年限、当前职务工作年限以及薪酬信息。
 
 ## <a name="send-praise-about-team-members-by-using-the-my-team-mobile-workspace"></a>使用我的团队移动工作区发送团队成员表扬
-1.  在移动应用中，选择**我的团队**工作区。 此时将显示团队成员的列表。 此列表还显示每个团队成员的职务及其拥有的任何直接下属。
-1.  选择一个团队成员。 此时将显示**团队成员汇总**页。
-1.  选择**发送表扬**。 
+1.  在移动应用中，选择 **我的团队** 工作区。 此时将显示团队成员的列表。 此列表还显示每个团队成员的职务及其拥有的任何直接下属。
+1.  选择一个团队成员。 此时将显示 **团队成员汇总** 页。
+1.  选择 **发送表扬**。 
 1. 输入您要发送的表扬的文本。 
-1. 选择**完成**。
+1. 选择 **完成**。

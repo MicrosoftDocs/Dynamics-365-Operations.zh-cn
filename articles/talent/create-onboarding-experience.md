@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
 ms.openlocfilehash: 8c11186ff3f95a7f1e00f9e42d7b78f5a68957b0
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813929"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460411"
 ---
 # <a name="get-started-with-onboard"></a>Onboard 入门
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 1f2e1bcd220f0cd94fb1515e42fd3f8250c1c621
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: f895b13b2e11d4cb341f80b3cfeb40ed998ccfc4
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016347"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654212"
 ---
 # <a name="shipment-consolidation-policies"></a>装运合并政策
 
@@ -37,9 +37,9 @@ ms.locfileid: "4016347"
 
 引入装运合并策略之前，以仓库级设置存在的合并功能。 单个仓库的所有客户的所有订单被视为具有相同的合并要求。 装运合并策略增加了对不同组织具有不同装运合并的方案的支持。
 
-查询用于识别应用的装运合并策略，而一组可编辑字段则决定如何在装运级别为装载行分组。 （此模式类似波次模板采用的模式。）此外，还已经向每个策略添加了一个 **与现有装运合并** 选项。 开启此选项后， *发放到仓库* 过程将通过在根据相同的合并策略创建的现有装运中进行搜索来查找要合并的装运。 在这种情况下，系统将选择现有装运或装载，而不是新建一个。 但是，系统将仅与状态为 *未结* 的现有装运合并；将不把属于状态为 *已发放* 或更高状态的波次发放的装运视为合并目标。
+查询用于识别应用的装运合并策略，而一组可编辑字段则决定如何在装运级别为装载行分组。 （此模式类似波次模板采用的模式。）此外，还已经向每个策略添加了一个 **与现有装运合并** 选项。 开启此选项后，*发放到仓库* 过程将通过在根据相同的合并策略创建的现有装运中进行搜索来查找要合并的装运。 在这种情况下，系统将选择现有装运或装载，而不是新建一个。 但是，系统将仅与状态为 *未结* 的现有装运合并；将不把属于状态为 *已发放* 或更高状态的波次发放的装运视为合并目标。
 
-当装运合并策略可用时，将隐藏 **仓库** 设置页上以前提供的 **发放到仓库时合并装运** 设置。 为了帮助您过渡到新装运合并功能， **装运合并策略** 页上的一项功能将创建一个默认策略，其中自动包含现有仓库的旧设置。 创建这个默认策略之后，将不再考虑 **仓库** 设置页中的 **发放到仓库时合并装运** 设置。
+当装运合并策略可用时，将隐藏 **仓库** 设置页上以前提供的 **发放到仓库时合并装运** 设置。 为了帮助您过渡到新装运合并功能，**装运合并策略** 页上的一项功能将创建一个默认策略，其中自动包含现有仓库的旧设置。 创建这个默认策略之后，将不再考虑 **仓库** 设置页中的 **发放到仓库时合并装运** 设置。
 
 可使用 **发放到仓库** 页按照覆盖履行策略的相同方法手动覆盖适用的合并策略。
 
@@ -122,15 +122,15 @@ ms.locfileid: "4016347"
 | 不使用装运合并策略时 | 使用装运合并策略时 |
 |---|----|
 | 不适用 | 为合并选择的销售装运或转移装运必须与正在创建的装运的合并策略相同，或者必须将其分配给未结装运（当开启了 **与现有装运合并** 选项时）。 |
-| *发放到仓库* 过程不在现有装运中搜索以查找要合并的装运。 将仅把 *发放到仓库* 过程的当前实例创建的装运用于查找要合并的装运。 | 如果为当前正在使用的合并策略开启了 **与现有装运合并** 选项， *发放到仓库* 过程将在基于同一个合并策略创建的现有装运中搜索以查找要合并的装运。 因此，如果您有两个策略，切勿将正在基于策略 2 创建的装运与基于策略 1 创建的装运合并。 |
+| *发放到仓库* 过程不在现有装运中搜索以查找要合并的装运。 将仅把 *发放到仓库* 过程的当前实例创建的装运用于查找要合并的装运。 | 如果为当前正在使用的合并策略开启了 **与现有装运合并** 选项，*发放到仓库* 过程将在基于同一个合并策略创建的现有装运中搜索以查找要合并的装运。 因此，如果您有两个策略，切勿将正在基于策略 2 创建的装运与基于策略 1 创建的装运合并。 |
 | 不适用 | 如果合并策略字段列表为空，或者找不到策略，将为每个销售订单或转移单行创建新装运。 |
 | 以下合并字段定义用于合并 *转移行* 的装运的值的唯一组合。 （将忽略所有其他字段。）<ul><li>订单号 (OrderNum)</li></ul> | 以下合并字段定义用于合并 *转移行* 的装运的值的唯一组合。 （将忽略所有其他字段。）<ul><li>订单号 (OrderNum)</li><li>收货人 (DeliveryName)</li><li>邮寄地址 (DeliveryPostalAddress)</li><li>ISO 国家/地区代码 (CountryRegionISOCode)</li><li>地址 (Address)</li><li>站点 (InventSiteId)</li><li>仓库 (InventLocationId)</li><li>装运承运人 (CarrierCode)</li><li>承运人服务 (CarrierServiceCode)</li><li>交货方式 (ModeCode)</li><li>承运人组 (CarrierGroupCode)</li><li>交货期 (DlvTermId)</li></ul>创建新装运时，只有这些字段可用和初始化这些字段。 |
 | 以下合并字段定义用于合并 *销售行* 的装运的值的唯一组合。 （将忽略所有其他字段。）<ul><li>订单号 (OrderNum)</li><li>客户参考 (CustomerRef)</li><li>客户申请 (CustomerReq)</li><li>交货期 (DlvTermId)</li></ul> | 以下合并字段定义用于合并 *销售行* 的装运的值的唯一组合。 （将忽略所有其他字段。）<ul><li>订单号 (OrderNum)</li><li>帐号 (AccountNum)</li><li>收货人 (DeliveryName)</li><li>邮寄地址 (DeliveryPostalAddress)</li><li>ISO 国家/地区代码 (CountryRegionISOCode)</li><li>地址 (Address)</li><li>站点 (InventSiteId)</li><li>仓库 (InventLocationId)</li><li>装运承运人 (CarrierCode)</li><li>承运人服务 (CarrierServiceCode)</li><li>交货方式 (ModeCode)</li><li>承运人组 (CarrierGroupCode)</li><li>代理人 ID (BrokerCode)</li><li>方向 (LoadDirection)</li><li>交货期 (DlvTermId)</li><li>客户参考 (CustomerRef)</li><li>客户申请 (CustomerReq)</li></ul>创建新装运时，只有这些字段可用和初始化这些字段。 |
 | 不适用 | 以下合并字段是 *销售行* 的必需字段，不能删除：<ul><li>帐号 (AccountNum)</li><li>收货人 (DeliveryName)</li><li>邮寄地址 (DeliveryPostalAddress)</li><li>仓库 (InventLocationId)</li></ul>默认情况下，在创建新策略时分配这些字段。 不能删除它们。 |
 | **装载计划工作台** 页面中的 *将装载发放到仓库* 过程使用自己的单独代码创建装运和波次。 | 将应用装运合并策略以确定应该为合并评估哪些字段。 仅在一个装载中合并装运。 |
-| 请在 **所有装运** 页中手动选择 **合并装运** ，然后选择目标“基础”装运。 筛选器将推荐具有多个关键字段的匹配值的任何现有装运。 | 请在 **所有装运** 页中手动选择 **合并装运** ，然后选择目标“基础”装运。 系统将通过匹配为相关装运合并策略配置的多个关键字段的值，建议其他现有装运。 |
+| 请在 **所有装运** 页中手动选择 **合并装运**，然后选择目标“基础”装运。 筛选器将推荐具有多个关键字段的匹配值的任何现有装运。 | 请在 **所有装运** 页中手动选择 **合并装运**，然后选择目标“基础”装运。 系统将通过匹配为相关装运合并策略配置的多个关键字段的值，建议其他现有装运。 |
 | **所有装运** 页中的 **合并装运** 命令只能用于一个装运。 | **装运合并工作台** 页可帮助您查找还不是已装运状态的一组装运。 将根据在装运合并策略中配置的多个关键字段分析这些装运。 将建议合并这些字段的值匹配的任何装运。<p>可以通过从建议合并删除装运和/或通过向其添加装运，手动维护合并。 可能发生多种错误，但是可以覆盖其中的一部分。</p> |
-| **设计说明** ： *将销售订单自动发放到仓库* 过程将销售行拆分为组。 每个组有自己的唯一 **ReleaseToWarehouseId** 值，并通过 *发放到仓库* 过程单独处理。 无论如何设置工作分解，此过程都会产生新工作。 | **设计说明** ： *将销售订单自动发放到仓库* 过程为正在处理的所有销售行分配同一个 **ReleaseToWarehouseId** 值。 所有销售行由 *发放到仓库* 过程同时处理。 为了确保前面的行为，必须按装运 ID 配置工作分解。 |
+| **设计说明**：*将销售订单自动发放到仓库* 过程将销售行拆分为组。 每个组有自己的唯一 **ReleaseToWarehouseId** 值，并通过 *发放到仓库* 过程单独处理。 无论如何设置工作分解，此过程都会产生新工作。 | **设计说明**：*将销售订单自动发放到仓库* 过程为正在处理的所有销售行分配同一个 **ReleaseToWarehouseId** 值。 所有销售行由 *发放到仓库* 过程同时处理。 为了确保前面的行为，必须按装运 ID 配置工作分解。 |
 
 ## <a name="additional-resources"></a>其他资源
 

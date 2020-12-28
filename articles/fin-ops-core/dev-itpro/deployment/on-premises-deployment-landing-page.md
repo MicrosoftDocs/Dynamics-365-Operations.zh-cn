@@ -3,26 +3,25 @@ title: 本地部署主页
 description: 本主题提供有关本地部署的信息和内容链接。
 author: sericks007
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 90285c8f2e0e86e04c8f2ac401c324c888740e99
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 54d236b7bca3e4529d5fff3ef71a2679b785a1a5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367050"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679336"
 ---
 # <a name="on-premises-deployment-home-page"></a>本地部署主页
 
@@ -67,10 +66,9 @@ ms.locfileid: "3367050"
 
 ## <a name="other-resources"></a>其他资源
 - [对本地部署进行故障排除](troubleshoot-on-prem.md)
-- [解决本地环境中问题的脚本](onprem-tsg-implementations.md)
+- [在本地环境中解决问题的脚本](onprem-tsg-implementations.md)
 - [证书轮换](certificate-rotation-on-prem.md)
 - [本地诊断](on-premises-diagnostics.md)
-- [未在本地部署中实现的功能](../../fin-ops/get-started/features-not-implemented-on-prem.md)
 - [Finance and Operations 的已删除或弃用的功能](../migration-upgrade/deprecated-features.md)
 - [软件生命周期策略和本地版本](../migration-upgrade/on-prem-version-update-policy.md)
  

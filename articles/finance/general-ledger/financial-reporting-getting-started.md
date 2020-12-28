@@ -3,7 +3,7 @@ title: 财务报告概览
 description: 本主题介绍从哪里访问 Microsoft Dynamics 365 Finance 中的财务申报，以及如何使用财务申报功能。
 author: aprilolson
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd87983ce062bd1fa57e97628986cadced9971ab
-ms.sourcegitcommit: 374298f0816b57c95c0c3e3fd7e852399e1d8696
+ms.openlocfilehash: 88436b4a5d6be4172e15fa4a9dadc34696417fb9
+ms.sourcegitcommit: eec96c64f44d1b4877d49ee15665a774019d42d7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3999541"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672436"
 ---
 # <a name="get-started-with-financial-reporting"></a>开始使用 Financial reporting 
 
@@ -45,7 +45,7 @@ ms.locfileid: "3999541"
 若要为法人创建和生成财务报表，您必须为该法人设置以下信息：
 
 -   会计日历
--   分类账
+-   分类帐
 -   会计科目表
 -   货币
 
@@ -114,17 +114,17 @@ ms.locfileid: "3999541"
 | 资产负债表和收入报表并排 - 默认 | 并排查看组织的年度财务状况和收益率。                                                                                                                                                                                                                              |
 | 现金流量 – 默认                                       | 了解进入和流出组织的现金。                                                                                                                                                                                                                                   |
 | 详细 JE 和 TB 审查 – 默认                      | 查看所有帐户的期初余额和活动信息。                                                                                                                                                                                                                                                      |
-| 试算平衡表(明细) - 默认                         | 查看具有借方和贷方余额的所有帐户的余额信息，以及这些余额的净值，还有交易记录日期、凭证和日记帐描述。                                                                                                                                  |
+| [试算平衡表(明细) - 默认](trial-balance-financial-reports.md)| 查看具有借方和贷方余额的所有帐户的余额信息，以及这些余额的净值，还有交易记录日期、凭证和日记帐描述。                                                                                                                                  |
 | 三年每季度趋势费用 – 默认             | 了解前三年过去 12 个季度的费用。                                                                                                                                                                                                                                   |
 | 财务描述 JE 和 TB 审查 – 默认            | 查看资产、负债、所有者权益、收入、支出、收益或损失财务描述的余额和活动概览。                                                                                                                                                                           |
-| 收入报表 – 默认                                | 查看组织的当前期间和本年迄今收益率。                                                                                                                                                                                                                                   |
+| [收入报表 – 默认](income-statement-financial-report.md)| 查看组织的当前期间和本年迄今收益率。                                                                                                                                                                                                                                   |
 | 科目交易记录列表 – 默认                        | 查看所有帐户的详细余额信息。 此报表显示借方和贷方余额，以及，附加的交易记录信息，例如交易记录日期、日记帐编号、凭证、过帐类型和跟踪编号。                                                                            |
 | 比率 – 默认                                          | 查看组织的当年偿付、收益率和效率比率。                                                                                                                                                                                                                           |
 | 累计 12 个月费用 – 默认                       | 了解每个过去 12 个月的费用。 这 12 个月可以跨多个会计年度。                                                                                                                                                                                                       |
 | 累计季度收入报表 – 默认               | 按过去年度每个季度以及本年迄今查看组织的收益率。                                                                                                                                                                                                                   |
 | 并排资产负债表 – 默认                      | 查看组织的年度财务状况。 此报告并排显示资产和负债，以及股东权益。                                                                                                                                                                                |
-| 试算平衡表汇总 – 默认                          | 查看具有期初和期末余额的所有帐户的余额信息，以及借方和贷方余额还有其净差额。                                                                                                                                                                  |
-| 各年汇总试算余额表 – 默认           | 查看具有期初和期末余额的所有帐户的余额信息，以及借方和贷方余额还有当年和过去一年的净差额。                                                                                                                           |
+| [试算平衡表汇总 – 默认](trial-balance-financial-reports.md)| 查看具有期初和期末余额的所有帐户的余额信息，以及借方和贷方余额还有其净差额。                                                                                                                                                                  |
+| [各年汇总试算余额表 – 默认](trial-balance-financial-reports.md)| 查看具有期初和期末余额的所有帐户的余额信息，以及借方和贷方余额还有当年和过去一年的净差额。                                                                                                                           |
 | 每周销售和折扣 - 默认                     | 了解一个月内每周的销售金额和折扣。 此报告包含一个四周合计。                                                                                                                                                                                                              |
 | 可用预算资金 - 默认                         | 查看所有科目的修订预算、实际支出、预算预留和预算资金的详细比较                                                                                                                                                                                  |
 
@@ -145,23 +145,24 @@ ms.locfileid: "3999541"
 
 问题 1：选择 **新建** 或 **编辑** 时，报表设计器不启动。
 
-* 在 Internet Explorer 中，选择 **设置** ，然后选择 **Internet 选项** 。 选择 **安全** 选项卡。选择“受信任站点”，然后选择 **站点** 。 在 **将此网站添加到区域** 中，输入“\*\.dynamics.com”（不带引号），然后选择 **添加** 。 
-* 在 Internet Explorer 中，选择 **设置** ，然后选择 **Internet 选项** 。 选择 **安全** 选项卡。选择“受信任站点”。 在标有此区域的安全级别区域中，将此选项更改为 **中-低** 。
+* 在 Internet Explorer 中，选择 **设置**，然后选择 **Internet 选项**。 选择 **安全** 选项卡。选择“受信任站点”，然后选择 **站点**。 在 **将此网站添加到区域** 中，输入“\*\.dynamics.com”（不带引号），然后选择 **添加**。 
+* 在 Internet Explorer 中，选择 **设置**，然后选择 **Internet 选项**。 选择 **安全** 选项卡。选择“受信任站点”。 在标有此区域的安全级别区域中，将此选项更改为 **中-低**。
 * 在浏览器中禁用弹出窗口阻止程序。
 * 工作站需要安装 Microsoft .NET Framework 4.6.2 或更高版本。 可从 [Microsoft 下载中心](https://www.microsoft.com/download/details.aspx?id=53345)下载和安装此版本的 Microsoft .NET Framework。
-* 如果您结合使用 Microsoft Edge 和 Chrome 浏览器，则必须安装 ClickOnce 扩展才能下载报表设计器客户端。 如果以匿名模式运行，请确保为匿名模式启用了 ClickOnce 扩展。 
+* 如果使用的是 Chrome 浏览器，则必须安装 ClickOnce 扩展才能下载报表设计器客户端。 如果以匿名模式运行 Chrome，请确保为匿名模式启用了 ClickOnce 扩展。 有关 Chrome ClickOnce 扩展的详细信息，请参阅[云部署的系统要求](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements)。
+* 如果您正在通过 Chrome 浏览器使用 Microsoft Edge，则无需为 Edge Chromium 安装 ClickOnce 扩展。 但是，必须启用 ClickOnce 选项以下载报表设计器客户端。 如果以匿名模式运行，请确保为匿名模式启用了 ClickOnce 扩展。
      1. 在 Microsoft Edge 中打开新浏览器。
-     2. 输入 **edge://flags** ，然后选择 **输入** 。
-     3. 搜索 **ClickOnce 支持** 选项或使用此直接链接： **edge://flags/#edge-click-once** 。
-     4. 将下拉菜单选项设置为 **已启用** 。
-     5. 选择 **重启浏览器** 。
+     2. 输入 **edge://flags**，然后选择 **输入**。
+     3. 搜索 **ClickOnce 支持** 选项或使用此直接链接：**edge://flags/#edge-click-once**。
+     4. 将下拉菜单选项设置为 **已启用**。
+     5. 选择 **重启浏览器**。
 
 问题 2：未为用户分配使用 Financial Reporting 所需的权限。 
 
-* 要验证用户是否没有权限，请在此错误上选择 **是** ：“无法连接到 Financial Reporting 服务器。 如果要继续并指定其他服务器地址，请选择‘是’。” 然后选择 **测试连接** 。 如果您没有权限，您将看到一条消息，显示“连接尝试失败。 用户没有适当的权限连接到服务器。 请与系统管理员联系。”
+* 要验证用户是否没有权限，请在此错误上选择 **是**：“无法连接到 Financial Reporting 服务器。 如果要继续并指定其他服务器地址，请选择‘是’。” 然后选择 **测试连接**。 如果您没有权限，您将看到一条消息，显示“连接尝试失败。 用户没有适当的权限连接到服务器。 请与系统管理员联系。”
 * 所需权限在上面的[授予对 Financial Reporting 的安全访问权限](#granting-security-access-to-financial-reporting)中列出。 Financial Reporting 中的安全性基于这些权限。 除非将这些权限（或包含这些权限的另一个安全角色）分配给您，否则您将无权访问。 
 * **公司用户提供程序到公司** 集成任务（也负责并称为用户集成）每隔 5 分钟运行一次。 任何权限更改最多可能需要 10 分钟在 Financial Reporting 中生效。 
-  如果另一个用户可以打开报表设计器，请选择 **工具** ，然后选择 **集成状态** 。 验证集成映射“公司用户提供程序到公司”是否已成功运行，因为已为您分配了使用 Financial Reporting 的权限。 
+  如果另一个用户可以打开报表设计器，请选择 **工具**，然后选择 **集成状态**。 验证集成映射“公司用户提供程序到公司”是否已成功运行，因为已为您分配了使用 Financial Reporting 的权限。 
 * 可能是另一个错误阻止了 **Dynamics 用户到 Financial Reporting 用户的集成** 完成。 或者可能是由于已启动但尚未完成数据市场重置，或者发生了另一个系统错误。 请稍后再次尝试运行此流程。 如果问题仍然存在，请与系统管理员联系。
 
 问题 3：您可以从 ClickOnce 报表设计器登录页面继续访问，但无法在报表设计器中完成登录。 

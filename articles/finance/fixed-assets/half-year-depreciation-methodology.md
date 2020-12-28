@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
 ms.openlocfilehash: 55fb03cf08d8ec042aa8fb37fd1fb858d98279b1
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977231"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440615"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>半年折旧惯例方法
 

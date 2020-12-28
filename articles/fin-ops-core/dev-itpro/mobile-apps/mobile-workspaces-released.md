@@ -10,17 +10,16 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9af92ea64b98581b02c2ed1797332281dccc74b3
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 812511a4736a1fb484545f189f204d6ee5894503
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553013"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688011"
 ---
 # <a name="available-mobile-workspaces"></a>可用移动工作区
 

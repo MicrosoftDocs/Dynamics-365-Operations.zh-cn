@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 11e006e41f467a594521dfc601f46b4d1b492ce5
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982950"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440838"
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>在单据中创建销售税交易记录
 

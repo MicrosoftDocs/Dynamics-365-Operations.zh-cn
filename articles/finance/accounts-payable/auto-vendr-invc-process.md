@@ -3,7 +3,7 @@ title: 自动化供应商开票流程概述
 description: 本主题描述了自动化供应商发票处理的功能以及使用自动化流程的好处。
 author: abruer
 manager: AnnBe
-ms.date: 10/16/2020
+ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ec3598ebd158cc23ac7c02d7e33557141d5901bc
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.openlocfilehash: 677760ec15630a11bf691be4cd8af9cf5549ddf9
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022488"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665314"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>自动化供应商开票流程概述
 
@@ -39,8 +39,9 @@ ms.locfileid: "4022488"
 - 自动将导入的发票提交到工作流系统。
 - 将物料收货与待定供应商发票行进行匹配。
 - 在过帐供应商发票之前模拟过帐。
-- 快速有效地查看工作流历史记录。
+- 快速有效地查看工作流和自动化历史记录。
 - 查看和分析自动化供应商发票处理的结果。
+- 恢复多张发票的自动处理。
 
 ## <a name="vendor-invoice-automation--submit-imported-vendor-invoices-to-the-workflow-system"></a>供应商发票自动化 – 将导入的供应商发票提交到工作流系统
 
@@ -58,10 +59,13 @@ ms.locfileid: "4022488"
 
 过帐模拟完成了供应商发票过帐流程中完成的验证步骤，但是没有更新任何帐户。 若要运行该流程，您可以在 **待定供应商发票** 页面上选择一个或多个发票。
 
-## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-historical-information-for-vendor-invoices"></a>供应商发票自动化 – 用于查看供应商发票的工作流历史信息的增强体验
+## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-and-automation-historical-information-for-vendor-invoices"></a>供应商发票自动化 – 用于查看供应商发票的工作流和自动化历史信息的增强体验
 
-提供了易于阅读的供应商发票工作流历史记录视图。 可以直接从供应商发票访问供应商发票工作流历史记录。 因此，只需较少的点击即可找到该信息。
+提供了易于阅读的供应商发票工作流历史记录视图。 可以直接从供应商发票访问供应商发票工作流历史记录。 因此，只需较少的点击即可找到该信息。 如果您的组织启用了自动将导入的供应商发票提交到工作流这一功能，则将为导入的发票提供自动化历史记录。 自动化历史记录可帮助您确定当前流程步骤，以及已经完成的步骤。 如果某个步骤失败，则系统会提供详细信息，以帮助您了解失败的原因。
 
 ## <a name="vendor-invoice-automation--analytics-and-metrics"></a>供应商发票自动化 – 分析和指标
 
 通过 **供应商发票条目** 工作区，您可以专注于未通过自动化流程完成的供应商发票。 工作区上的磁贴列出了有关未成功提交到工作流系统，未导入或未与产品收据进行匹配的供应商发票的信息。 还提供了 Microsoft Power BI 指标，以使应付帐款经理可以洞悉供应商发票自动化的效率。
+
+## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>供应商发票自动化 - 恢复多张发票的自动化处理
+如果未能通过自动化流程将导入的发票提交给工作流，则系统会取消进一步的自动化处理。 应付帐款业务员可以在自动流程将发票重新提交到工作流之前查看和编辑发票。 如果可以通过同一修复程序解决多张发票的失败原因，则可以在 **恢复自动化发票处理** 页重新开始自动化流程。 

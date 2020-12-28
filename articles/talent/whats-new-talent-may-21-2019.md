@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-05-20
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 2eb7fbabdbc945436c238dc59802f487ccada35c
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897526"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460444"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-may-20-2019"></a>Dynamics 365 Talent（2019 年 5 月 20 日）中的新增功能或更改
 
@@ -36,7 +36,7 @@ ms.locfileid: "2897526"
 
 ### <a name="job-approvals-on-home-page"></a>主页中的工作审核
 
-仪表板的**审核**部分中将显示审核。 审核人可以在**已分配给您**（其中显示工作 ID、头衔、其他审核人和分配的日期）下查看自己的审核。 提交工作共审核的用户可以在**您请求的**（其中显示仍然需要审核提交的工作的审核者）下查看自己的工作。
+仪表板的 **审核** 部分中将显示审核。 审核人可以在 **已分配给您**（其中显示工作 ID、头衔、其他审核人和分配的日期）下查看自己的审核。 提交工作共审核的用户可以在 **您请求的**（其中显示仍然需要审核提交的工作的审核者）下查看自己的工作。
 
 ## <a name="changes-in-onboard"></a>Onboard 中的更改
 
@@ -50,7 +50,7 @@ ms.locfileid: "2897526"
 
 ### <a name="new-page-to-validate-position-hierarchy-data"></a>用于验证职位层次结构数据的新页面
 
-人力资源 (HR) 和管理员可以验证管理层次结构以查找任何可能已无意导入的循环引用。 可从**组织管理 > 链接 > 职位 > 职位层次结构验证**访问这个新页面。
+人力资源 (HR) 和管理员可以验证管理层次结构以查找任何可能已无意导入的循环引用。 可从 **组织管理 > 链接 > 职位 > 职位层次结构验证** 访问这个新页面。
 
 ### <a name="specify-reason-codes-on-leave-types"></a>指定休假类型的原因代码
 

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: 263914
 ms.assetid: 18634bb5-3341-42f2-9cc9-7b04708b506b
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 96932c4ab32c004afb08fc9db2bf87bd5d5542d5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 69149f55371f64b4907f6040e9de03843fc11717
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174274"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687198"
 ---
 # <a name="compensation-and-benefits-power-bi-content"></a>薪酬和福利 Power BI 内容
 

@@ -20,11 +20,11 @@ ms.author: hasrivas
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: 35428da709f480e1d3842b7e92deacba200326ee
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833084"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460417"
 ---
 # <a name="linkedin-integration-faq"></a>LinkedIn 集成常见问题
 
@@ -50,7 +50,7 @@ Attract 与 LinkedIn 的集成使您可以执行以下任务：
 
 ### <a name="how-do-i-post-jobs-to-linkedin-from-attract"></a>如何从 Attract 向 LinkedIn 发布工作？
 
-在 Attract 中创建工作后，您只需选择与 LinkedIn 对应的**立即发布**按钮即可。 有关详细信息，请参阅[将工作从 Microsoft Dynamics 365 Talent - Attract 发布到 LinkedIn](./attract-post-jobs-to-linkedin.md#post-jobs-to-linkedin)。
+在 Attract 中创建工作后，您只需选择与 LinkedIn 对应的 **立即发布** 按钮即可。 有关详细信息，请参阅[将工作从 Microsoft Dynamics 365 Talent - Attract 发布到 LinkedIn](./attract-post-jobs-to-linkedin.md#post-jobs-to-linkedin)。
 
 ### <a name="can-i-get-candidate-information-from-linkedin-into-attract"></a>我可以将 LinkedIn 中的应聘者信息放到 Attract 中吗？
 
@@ -68,7 +68,7 @@ Attract 与 LinkedIn 的集成使您可以执行以下任务：
 
 ### <a name="how-do-i-configure-attract-so-that-recruiters-and-hiring-managers-can-post-jobs-to-linkedin"></a>如何配置 Attract，以便招聘人员和招聘经理可以将工作发布到 LinkedIn？
 
-您可以在“管理中心”的 **LinkedIn 集成**选项卡上配置可用选项。 有关详细信息，请参阅[为 Microsoft Dynamics 365 Talent - Attract 设置与 LinkedIn 的集成](./attract-admin-linkedin.md)。
+您可以在“管理中心”的 **LinkedIn 集成** 选项卡上配置可用选项。 有关详细信息，请参阅[为 Microsoft Dynamics 365 Talent - Attract 设置与 LinkedIn 的集成](./attract-admin-linkedin.md)。
 
 ### <a name="can-i-export-candidate-information-from-linkedin"></a>我可以从 LinkedIn 导出应聘者信息吗？
 
@@ -83,7 +83,7 @@ Attract 与 LinkedIn 的集成使您可以执行以下任务：
 LinkedIn 提供以下类型的工作发布：
 
 - **Limited Listing** – 当应聘者在 LinkedIn 和公司的 LinkedIn 页面上搜索工作时，搜索结果中显示的免费工作发布。 Limited Listings（有限列表）针对主动的求职者。 此类列表是 Attract 为 LinkedIn 提供的类型。 您不能在 LinkedIn 上宣传 Limited Listing（有限列表）工作。 如果您想宣传 Limited Listings（有限列表），您必须与 LinkedIn 合作来启用 Job Wrapping（工作包装）。 有关 Job Wrapping（工作包装）的详细信息，请参阅 [Limited Listings（有限列表）与 Job Wrapping（工作包装）的 Premium Job Slots（高级职位空缺）](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)和 [Job Wrapping Plus（工作包装增强版）- 常见问题](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)。
-- **Premium Job Slot（高级职位空缺）**– 购买的工作发布出现在 LinkedIn 的各个位置，如 LinkedIn Feed、电子邮件和**您可能感兴趣的工作**区域。 Premium Job Slots（高级职位空缺）主要针对被动应聘者，但它们也出现在工作搜索中。
+- **Premium Job Slot（高级职位空缺）**– 购买的工作发布出现在 LinkedIn 的各个位置，如 LinkedIn Feed、电子邮件和 **您可能感兴趣的工作** 区域。 Premium Job Slots（高级职位空缺）主要针对被动应聘者，但它们也出现在工作搜索中。
 
 Attract 作为 Limited Listings（有限列表）将工作发布到 LinkedIn。 如果要使用 Premium Job Slots（高级职位空缺），则必须通过 LinkedIn Recruiter 使用 Job Wrapping（工作包装）。 Job Wrapping（工作包装）需要 LinkedIn 签订工作包装合同。 有关详细信息，请参阅[通过 LinkedIn Recruiter 使用 Job Wrapping（工作包装）- 概述](https://www.linkedin.com/help/recruiter/answer/79037)。
 

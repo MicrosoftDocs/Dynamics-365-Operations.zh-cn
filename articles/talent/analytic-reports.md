@@ -20,11 +20,11 @@ ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
 ms.openlocfilehash: 081988e8b8cfe1e2ddb533247b678ba38a07f5f1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092215"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460478"
 ---
 # <a name="use-analytic-reports-in-attract"></a>使用 Attract 中的分析报表
 
@@ -32,13 +32,13 @@ ms.locfileid: "3092215"
 
 Microsoft Dynamics 365 Talent: Attract 中的分析报表提供现成的 (OOTB) 解决方案以获取招聘流程见解。 可用功能包括：
 
-- **工作分析：** 单击工作类的**分析**选项卡可查看该工作的申请人的指标。
-- **分析中心：** 单击左侧导航中的**分析**可查看工作的聚合指标。
+- **工作分析：** 单击工作类的 **分析** 选项卡可查看该工作的申请人的指标。
+- **分析中心：** 单击左侧导航中的 **分析** 可查看工作的聚合指标。
 - **用户特定安全性：** 对报表的访问由 Attract [角色](security-attract.md) 和工作参与者角色控制。
 - **交叉筛选：** 单击报表内的视觉对象可查看按所选数据筛选的其他指标。
 
 >[!NOTE] 
->- 此功能现在处于[预览](access-preview-feature.md)阶段。 若要尝试，必须安装[**综合招聘加载项**](attract-comprehensive-hiring.md)。
+>- 此功能现在处于[预览](access-preview-feature.md)阶段。 若要尝试，必须安装 [**综合招聘加载项**](attract-comprehensive-hiring.md)。
 >- 所有公共预览报表均以英语显示。
 >- 报表每隔 3 小时刷新。 上次刷新时间（本地时区内）位于报表顶部。 刷新次数为近似值，由数据量和您所在地区的资源负荷决定。
 
@@ -73,7 +73,7 @@ Microsoft Dynamics 365 Talent: Attract 中的分析报表提供现成的 (OOTB) 
 注意：若需最精确的聘用时间报告，建议使用[聘约管理](offer-setup.md)，这是一项综合招聘加载项的一项功能。
 
 >[!TIP] 
->可尝试将光标悬停在视觉对象上方以查看更多信息。 例如，将光标悬停在**有效的申请人**视觉对象上方将显示平均阶段天数。 分析此信息可提供对减少招聘时间至关重要的见解，并让招聘人员重点关注减少各阶段所用时间的方法。
+>可尝试将光标悬停在视觉对象上方以查看更多信息。 例如，将光标悬停在 **有效的申请人** 视觉对象上方将显示平均阶段天数。 分析此信息可提供对减少招聘时间至关重要的见解，并让招聘人员重点关注减少各阶段所用时间的方法。
 
 ## <a name="user-specific-security"></a>用户特定安全性
 
@@ -87,4 +87,4 @@ Power BI 其中一项重要功能是报表页面中的所有视觉对象的互�
 
 ## <a name="export-to-excel"></a>导出至 Excel
 
-若要使用 Excel 查看报表数据，可单击视觉对象上的选项菜单（三个点），然后选择**导出基础数据**。 导出的数据将按照 Attract 中的用户权限进行筛选。 有关详细信息，请参阅[从可视化项导出数据](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data)。
+若要使用 Excel 查看报表数据，可单击视觉对象上的选项菜单（三个点），然后选择 **导出基础数据**。 导出的数据将按照 Attract 中的用户权限进行筛选。 有关详细信息，请参阅[从可视化项导出数据](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data)。

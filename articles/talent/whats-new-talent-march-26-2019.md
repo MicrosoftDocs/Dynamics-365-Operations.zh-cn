@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a9cd6fda0e6e0405163184327f954b66eb8c7612
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 17eae6c2aa2a1305b1d6f403c595c022f71da48f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897549"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529082"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Dynamics 365 Talent（2019 年 3 月 26 日）中的新增功能或更改
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Talent 中的新增功能和更改的功能。
 
@@ -70,7 +72,7 @@ ms.locfileid: "2897549"
 在此版本中，在安全中按公司限制用户时现在显示固定薪酬计划。 将遵守所有安全设置，并且将显示用户有权访问的公司的固定薪酬计划。 
 
 ### <a name="cant-delete-job-records-using-open-in-excel-option-in-talent"></a>在 Talent 中不能使用“在 Excel 中打开”选项删除工作记录
-在此版本中，现在可在 Talent 中通过使用**在 Excel 中打开**选项删除工作记录。
+在此版本中，现在可在 Talent 中通过使用 **在 Excel 中打开** 选项删除工作记录。
 
 ### <a name="upgrade-to-common-data-service"></a>升级到 Common Data Service
 很快将到达 Common Data Service 的升级截止时间。 请登录 Power Apps 管理员中心以确定是否需要升级您的数据库。 有关截止时间和必要升级步骤的详细信息，请参阅[升级到 Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds)。
@@ -91,7 +93,7 @@ ms.locfileid: "2897549"
 在许多组织中，薪酬和福利经理可能只能访问特定薪酬记录。 这些记录可能是有关管理层或地区员工的记录。 通过此更改，HR 可以管理和维护组织中不同员工组的薪酬计划。 您可以为固定计划和可变计划分配安全角色，用于决定这些计划和与其有关的员工数据（例如，工资和奖金记录）的访问权限。 只有授予了访问权限的角色才能处理这些员工的薪酬。
 
 ###  <a name="email-support-for-alerts"></a>警报的电子邮件支持
-安装 Finance and Operations 的平台更新 25 之后，用户可创建警报规则，用于在被事件触发后自动为联系人派遣电子邮件通知。 
+安装 Finance and Operations 平台更新 25 之后，用户可创建警报规则，用于在被事件触发后自动向联系人派遣电子邮件通知。 
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>重复员工检查：用户界面更改
 借助此更改，输入名称字段时可检测重复项，而状态将显示找到的重复项数量。 您可以选择提供的链接以打开一个新的页面来评估是否要使用检测到的匹配项。 为了避免中断数据输入，不会自动打开重复项窗体。

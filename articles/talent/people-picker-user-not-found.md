@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: a6d916f87ca30aa7405a51841e56ab31bbe31ac8
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832596"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460493"
 ---
 # <a name="user-not-found-in-people-picker-in-attract-or-onboard"></a>没有在 Attract 或 Onboard 的人员选择器中找到用户
 
@@ -38,7 +38,7 @@ ms.locfileid: "2832596"
 
 有关 Azure B2B 的详细信息，请参阅 [Azure Active Directory B2B 中的来宾用户访问是什么](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b)。
 
-对于非 B2B 用户，存在某些可能在**用户**对象中具有不完整“用户类型”属性的用户。 这可以使用 Azure AD Powershell 模块验证和修复。 有关详细信息，请参阅[Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0)。
+对于非 B2B 用户，存在某些可能在 **用户** 对象中具有不完整“用户类型”属性的用户。 这可以使用 Azure AD Powershell 模块验证和修复。 有关详细信息，请参阅[Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0)。
 
 ## <a name="resolution"></a>解决方法
 

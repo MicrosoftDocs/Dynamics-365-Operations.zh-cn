@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ed9aafe9c5d78af52f6397b384c574fe98fce620
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979616"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409748"
 ---
 # <a name="set-up-chinese-vouchers"></a>设置中国式凭证
 
@@ -86,7 +86,7 @@ ms.locfileid: "3979616"
 46. 单击“保存”。
 
 ## <a name="setup-additional-parameters"></a>设置更多参数
-1. 转到总分类记账>分类记账设置 >总分类记账参数。
+1. 转到总分类记帐>分类记帐设置 >总分类记帐参数。
     * 在"总帐参数"页面中，必须首先启用中国式凭证，然后选择允许会计年度中包含重复凭证。 需要为每个会计期间从 1 开始为中国式凭证编号。  
 2. 然后在“有效凭证检验”字段中选择选项。
 

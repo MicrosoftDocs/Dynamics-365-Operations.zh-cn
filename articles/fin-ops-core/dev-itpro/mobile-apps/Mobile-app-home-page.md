@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 272853
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 65254ac09a01e1ed2486d8f1324f564b3cd800c6
-ms.sourcegitcommit: 9a053d020e672a87b660f27009a492544e6c81a9
+ms.openlocfilehash: e4a9d6424e2d214624c148c0565c88ea4cf4ccf9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "3641464"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683450"
 ---
 # <a name="mobile-app-home-page"></a>移动应用主页
 
@@ -45,14 +44,14 @@ ms.locfileid: "3641464"
 
 [![移动应用的导航概念](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
-1. 当您启动应用后，转到**仪表板**。
-2. 在仪表板上，可以看到已发布的**工作区**。
-3. 在各个工作区，您可看到该工作区可用的**页面**的列表。
+1. 当您启动应用后，转到 **仪表板**。
+2. 在仪表板上，可以看到已发布的 **工作区**。
+3. 在各个工作区，您可看到该工作区可用的 **页面** 的列表。
 4. 进入页面后，可以执行若干操作。 下面举了一些示例加以说明：
 
     - 查看详细数据。
     - 导航到相关数据的其他页面，如实体详细信息或行。
-    - 参阅对该页面可用的**操作**列表。 操作允许您创建或编辑现有数据。
+    - 参阅对该页面可用的 **操作** 列表。 操作允许您创建或编辑现有数据。
 
 ## <a name="implementation-process"></a>实施流程
 下图显示实现由 Microsoft 和自定义移动工作区提供的两个移动工作区的流程。 

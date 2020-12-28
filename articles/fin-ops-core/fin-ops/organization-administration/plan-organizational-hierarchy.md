@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 17404
 ms.assetid: babde0c6-bb5d-45ae-95ca-2af75a0ea292
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5df0c7a84a2c24bdbcd39837119bc184c1f3fcf
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176689"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694681"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>规划组织层次结构
 
@@ -65,7 +64,7 @@ ms.locfileid: "2176689"
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>如果以法人建模组织
 
-必须按照法人设置模块的参数，如应收账款参数、应付账款参数和现金和银行管理参数。 由于法人的模块设置为单独的，每个子公司可以符合当地法律要求和商业惯例。 例如，专业服务法人和制造法人可以具有不同的模块参数，即使它们向同一个母公司报告。
+必须按照法人设置模块的参数，如应收帐款参数、应付帐款参数和现金和银行管理参数。 由于法人的模块设置为单独的，每个子公司可以符合当地法律要求和商业惯例。 例如，专业服务法人和制造法人可以具有不同的模块参数，即使它们向同一个母公司报告。
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>如果以运营单位建模组织
 
@@ -125,7 +124,7 @@ ms.locfileid: "2176689"
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>如果以法人建模组织
 
-内部公司销售订单、采购订单、付款或收货可以应用于彼此。 您无需使用日记帐凭证。 您可以在子级别分类帐（应收账款、应付账款）中查看内部公司交易记录。 以下示例说明了如何处理内部公司交易记录。
+内部公司销售订单、采购订单、付款或收货可以应用于彼此。 您无需使用日记帐凭证。 您可以在子级别分类帐（应收帐款、应付帐款）中查看内部公司交易记录。 以下示例说明了如何处理内部公司交易记录。
 
 ##### <a name="example-1-headquarters-provides-services-to-regional-offices-and-must-charge-the-costs-of-those-services-to-the-regional-offices"></a>示例 1：总部对区域办公室提供服务且必须将那些服务的成本记于区域办公室的帐目上
 
@@ -143,7 +142,7 @@ ms.locfileid: "2176689"
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>如果以运营单位建模组织
 
-在运营单位中的内部公司交易记录仅通过日记帐凭证支持。 运营单位不能从同一法人中的另一个运营单位签发或接收采购订单、销售订单或发票。 您不能在子级别分类帐（应收账款、应付账款）中查看内部公司交易记录。 以下示例说明了如何处理内部公司交易记录。
+在运营单位中的内部公司交易记录仅通过日记帐凭证支持。 运营单位不能从同一法人中的另一个运营单位签发或接收采购订单、销售订单或发票。 您不能在子级别分类帐（应收帐款、应付帐款）中查看内部公司交易记录。 以下示例说明了如何处理内部公司交易记录。
 
 ##### <a name="example-1-headquarters-provides-services-to-regional-offices-and-must-charge-the-costs-of-those-services-to-the-regional-offices"></a>示例 1：总部对区域办公室提供服务且必须将那些服务的成本记于区域办公室的帐目上
 
@@ -174,7 +173,7 @@ ms.locfileid: "2176689"
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>如果以运营单位建模组织
 
-必须通过使用另一个申请创建法定报表。 您必须确保在 Finance and Operations 应用程序中获得数据，以支持每个运营单位的需求，此处它们与总部的需求不同。
+必须通过使用另一个申请创建法定报表。 您必须确保在 Finance and Operations 应用中获得数据，以支持每个运营单位的需求，此处它们与总部的需求不同。
 
 ### <a name="currency"></a>货币
 

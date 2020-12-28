@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 804878150f035adc051e89ec6be44457ad58e87e
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: d60266aba42f502e7707bdace921cfee4526b6ae
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771183"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682863"
 ---
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>基于文件大小和内容数量拆分生成的 XML 文件
 
@@ -39,7 +38,7 @@ ms.locfileid: "2771183"
 
 如果为已配置为只要超过了特定限制就拆分生成的输出的 FILE 格式元素配置了文件目标，则将生成的输出的每一段作为单个文件发送到配置的文件目标。 若要为通过拆分输出创建的文件唯一命名，必须为 FILE 格式元素配置 ER 表达式。 如果添加 NUMBER SEQUENCE 类型的 ER 数据源，拆分的输出的每一段的编号规则将采用递增方式。
 
-若要了解此功能的详细信息，请播放 **ER 基于文件大小或内容项数量拆分 XML 文件**任务指南，该任务指南属于 **7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程，可从 [Microsoft 下载中心](https://go.microsoft.com/fwlink/?linkid=874684)下载。 此任务指南可以引导您完成配置 ER 格式以根据文件大小和内容项数量拆分生成的文件这一过程。 若要完成此任务指南，必须下载以下文件：
+若要了解此功能的详细信息，请播放 **ER 基于文件大小或内容项数量拆分 XML 文件** 任务指南，该任务指南属于 **7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程，可从 [Microsoft 下载中心](https://go.microsoft.com/fwlink/?linkid=874684)下载。 此任务指南可以引导您完成配置 ER 格式以根据文件大小和内容项数量拆分生成的文件这一过程。 若要完成此任务指南，必须下载以下文件：
 
 - [ER 模型配置 - XmlFilesSplittingModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 - [ER 格式配置 - XmlFilesSplittingFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
