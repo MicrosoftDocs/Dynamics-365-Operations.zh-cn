@@ -20,11 +20,11 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 9caea2d41e6d3ba74e4d156d8aeae6c4693ce7e2
-ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3813850"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423140"
 ---
 # <a name="cost-management-home-page"></a>成本管理主页
 
@@ -42,7 +42,7 @@ ms.locfileid: "3813850"
 
 例如，可定义要在库存核算中应用于[物料类型组](../inventory/reserve-inventory-quantities.md)中的产品的库存计价方法，如[先进先出](fifo-physical-value-marking.md)、[加权平均](weighted-average-physical-value-marking.md)、[标准成本](prerequisites-standard-costs.md)或[移动平均](moving-average.md)。
 
-可从**成本管理**和**成本分析**工作区访问库存核算和制造核算。 这些工作区提供丰富的当前状态、关键绩效指标 (KPI) 和偏差检测的概览。 
+可从 **成本管理** 和 **成本分析** 工作区访问库存核算和制造核算。 这些工作区提供丰富的当前状态、关键绩效指标 (KPI) 和偏差检测的概览。 
 
 可通过制造核算处理生产订单和批次订单中的[作业单成本计算](production-order-cost-analysis.md)，以及 Lean manufacturing 中的[倒冲成本计算法](backflush-costing.md)。
 

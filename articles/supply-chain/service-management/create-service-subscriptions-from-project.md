@@ -19,24 +19,24 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3903f1fe5b5f7d2755ec895eded73de6d165e68e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978693"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422828"
 ---
 # <a name="create-service-subscriptions-from-a-project"></a>从项目创建服务预订    
 
 [!include [banner](../includes/banner.md)]
 
 
-您可以从**项目管理与核算**中的项目创建服务预定。
+您可以从 **项目管理与核算** 中的项目创建服务预定。
 
-1.  单击**项目管理与核算** \> **通用** \> **项目** \> **所有项目**。 打开您要为其创建预订的项目。
+1.  单击 **项目管理与核算** \> **通用** \> **项目** \> **所有项目**。 打开您要为其创建预订的项目。
 
-2.  在**项目**窗体中的**操作窗格**上，在**管理**选项卡中，单击**服务** \> **服务预订**。
+2.  在 **项目** 窗体中的 **操作窗格** 上，在 **管理** 选项卡中，单击 **服务** \> **服务预订**。
 
-3.  在**预订**窗体上的**服务预订**字段中，输入一个唯一的标识号。 项目编号将自动输入到所选项目的预订。
+3.  在 **预订** 窗体上的 **服务预订** 字段中，输入一个唯一的标识号。 项目编号将自动输入到所选项目的预订。
 
 4.  在该窗体中输入其余信息。
 

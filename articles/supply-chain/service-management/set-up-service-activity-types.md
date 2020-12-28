@@ -19,28 +19,28 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b0b24d6932715956be19bb74bbc161160ed5f532
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984911"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422674"
 ---
 # <a name="set-up-service-activity-types"></a>设置服务活动类型 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  单击**销售和市场营销** \> **设置** \> **活动** \> **活动类型**。
+1.  单击 **销售和市场营销** \> **设置** \> **活动** \> **活动类型**。
     
     –或–
     
-    单击**组织管理** \> **设置** \> **活动** \> **活动类型**。
+    单击 **组织管理** \> **设置** \> **活动** \> **活动类型**。
 
-2.  在**活动类型**窗体中，按 CTRL+N 添加新的活动类型行。
+2.  在 **活动类型** 窗体中，按 CTRL+N 添加新的活动类型行。
 
-3.  在**类型**字段中，输入活动类型的名称。
+3.  在 **类型** 字段中，输入活动类型的名称。
 
-4.  在**说明**字段中，输入描述此活动类型的文本。
+4.  在 **说明** 字段中，输入描述此活动类型的文本。
 
 5.  关闭窗体以保存您所做更改。
 

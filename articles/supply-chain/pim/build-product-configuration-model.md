@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 8b7d1186b4141a18e1283505713e67018927672d
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982918"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422659"
 ---
 # <a name="product-configuration-overview"></a>产品配置概览
 
@@ -112,7 +112,7 @@ ms.locfileid: "3982918"
 
 ### <a name="the-configuration-page"></a>管理页面
 
-要在组件之间导航，请单击**下一个**或单击产品配置模型树中的组件以将焦点设置在其上。
+要在组件之间导航，请单击 **下一个** 或单击产品配置模型树中的组件以将焦点设置在其上。
 
 ## <a name="finalizing-a-model-for-configuration"></a>为配置完成模型
 当产品配置模型已准备好在配置到订购方案中使用时，必须创建一个版本。 但是，有几个可改善建模经验的选项。

@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 272c3a13b68e2b862faf20cc269ca790322b61de
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367284"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423037"
 ---
 # <a name="product-confirmation-for-cluster-picking"></a>用于群集领料的产品确认
 
@@ -37,7 +37,7 @@ ms.locfileid: "3367284"
 ## <a name="set-up-item-verification-with-cluster-picking"></a>设置群集领料的物料验证
 
 1. 在移动设备菜单项上，打开工作确认的设置窗体：**仓库管理** > **仓库管理** > **设置** > **移动设备** > **移动设备菜单项**。
-1. 从移动设备菜单项打开**工作确认设置**。
+1. 从移动设备菜单项打开 **工作确认设置**。
 
 |        选项        |                                    说明                                    |
 |----------------------|-----------------------------------------------------------------------------------|

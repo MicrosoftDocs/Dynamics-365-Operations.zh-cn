@@ -19,24 +19,24 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b2012f48ec6450ca4fc9e42cd7cfba0ced13ed15
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984098"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422914"
 ---
 # <a name="delete-service-orders"></a>删除服务订单 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  单击**服务管理** \> **定期** \> **服务订单** \> **删除服务订单**。
+1.  单击 **服务管理** \> **定期** \> **服务订单** \> **删除服务订单**。
 
-2.  在**删除服务订单**窗体中，单击**选择**指定用来选择要删除的服务订单的条件，然后单击**确定**。
+2.  在 **删除服务订单** 窗体中，单击 **选择** 指定用来选择要删除的服务订单的条件，然后单击 **确定**。
 
-3.  选中**显示信息日志**复选框，以便生成显示已删除服务订单的信息日志。
+3.  选中 **显示信息日志** 复选框，以便生成显示已删除服务订单的信息日志。
 
-4.  单击**确定**。
+4.  单击 **确定**。
 
 
 > [!NOTE]

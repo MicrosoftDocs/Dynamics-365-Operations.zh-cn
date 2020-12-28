@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2d184b34ec33184d730d5b6eed3db144f1433f1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212771"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422757"
 ---
 # <a name="inventory-journals"></a>库存日记帐
 
@@ -66,7 +66,7 @@ Supply Chain Management 中的库存日记帐用于过帐多种类型的实际�
 
 ### <a name="item-arrival"></a>物料到达
 
-您可以使用物料到达日记帐登记物料收货（例如，从采购订单）。 可以从**到达概览**页上创建到达日记帐，作为到达管理的一部分，也可以手动从**物料到达**页创建日记帐条目。 如果您启用物料到达日志名称检查领料库位，Supply Chain Management 会查找接收物料的库位，如果存在空间，则会为新进物料生成库位目标。
+您可以使用物料到达日记帐登记物料收货（例如，从采购订单）。 可以从 **到达概览** 页上创建到达日记帐，作为到达管理的一部分，也可以手动从 **物料到达** 页创建日记帐条目。 如果您启用物料到达日志名称检查领料库位，Supply Chain Management 会查找接收物料的库位，如果存在空间，则会为新进物料生成库位目标。
 
 ### <a name="production-input"></a>生产输入
 
@@ -107,7 +107,7 @@ Supply Chain Management 中的库存日记帐用于过帐多种类型的实际�
 -   库存调整日记帐
 -   库存变动日记帐
 
-这两种库存日记帐仅支持数据管理导入项目中的*初始化仓库*方案：
+这两种库存日记帐仅支持数据管理导入项目中的 *初始化仓库* 方案：
 -  如果不指定日记帐标头号，但为日记帐类型指定了编号规则，导入作业将每 1000 行创建自动一个日记帐标头。 例如，导入 2020 行将生成下面的三个日记帐标头：
     -  标头 1：包含 1000 行
     -  标头 2：包含 1000 行

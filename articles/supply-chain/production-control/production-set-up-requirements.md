@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
-ms.sourcegitcommit: f3456df4d91cf0c51cd395ae64e3c192bd46835e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428392"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422750"
 ---
 # <a name="production-setup-requirements"></a>生产设置需求
 
@@ -62,7 +62,7 @@ ms.locfileid: "3428392"
 工序表示为生产成品而完成的特定活动。 **注意：** 您必须知道为生产物料而需要的活动的类型，以及这些活动的顺序和优先级。 您还必须知道涉及哪些资源，以及涉及多少资源。
 
 1.  **工序** – 设置工序以表示生产成品而必须完成的任务。
-2.  **关系** – 设置用于确立详细属性的工序关系。 若要定义工序关系，请单击**操作**页上的**关系**。
+2.  **关系** – 设置用于确立详细属性的工序关系。 若要定义工序关系，请单击 **操作** 页上的 **关系**。
 
 ## <a name="setup-if-you-use-routes"></a>使用工艺路线情况下的设置
 如果您在使用工艺路线，则必须为您设置的每个生产工艺路线定义工序。 工艺路线表示物料在各工序间流动的路线，从生产流程开始直到结束。

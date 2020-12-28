@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 88e777d69c9da8a19c186bca3ca591e59af232f0
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978049"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422772"
 ---
 # <a name="use-tracing-for-explosion"></a>使用跟踪进行分解
 
@@ -39,7 +39,7 @@ ms.locfileid: "3978049"
 -   模拟计划结果以确定计划参数是否最佳。
 -   标识如何确定信息（如订单的生产日期、数量和优先级）。
 
-您可以查看有关所选订单的预期和操作的详细信息。 在**分解**页中，跟踪信息在上部窗格的**说明**选项卡中提供。 跟踪在分解订单时进行。 若要开始跟踪计划订单，请单击**更新**，然后选中**启用跟踪功能**复选框。 您可以使用**查找文本**字段搜索记录的特定信息。 搜索结果在树中突出显示。
+您可以查看有关所选订单的预期和操作的详细信息。 在 **分解** 页中，跟踪信息在上部窗格的 **说明** 选项卡中提供。 跟踪在分解订单时进行。 若要开始跟踪计划订单，请单击 **更新**，然后选中 **启用跟踪功能** 复选框。 您可以使用 **查找文本** 字段搜索记录的特定信息。 搜索结果在树中突出显示。
 
 <a name="additional-resources"></a>其他资源
 --------

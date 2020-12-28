@@ -19,18 +19,18 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 451aeebd46d60251eed940016486509c4aa3f458
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987454"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422688"
 ---
 # <a name="service-management-overview"></a>服务管理概览
 
 [!include [banner](../includes/banner.md)]
 
 
-使用**服务管理**建立服务协议和服务预订、处理服务订单和客户查询以及管理和分析对客户的服务传递。 您可以使用服务协议定义在典型服务访问中使用的资源。 您还可以使用服务协议查看针对那些资源向客户开发票的方式。 服务协议还可以包括指定标准响应时间并提供记录实际时间的工具的服务级别协议。
+使用 **服务管理** 建立服务协议和服务预订、处理服务订单和客户查询以及管理和分析对客户的服务传递。 您可以使用服务协议定义在典型服务访问中使用的资源。 您还可以使用服务协议查看针对那些资源向客户开发票的方式。 服务协议还可以包括指定标准响应时间并提供记录实际时间的工具的服务级别协议。
 
 您可以创建服务订单以管理有关由服务技术人员计划的到客户站点的访问和未被服务技术人员计划的到客户站点的访问的信息。 服务订单包括以下信息：
 
@@ -48,7 +48,7 @@ ms.locfileid: "3987454"
 
 ## <a name="business-processes"></a>业务流程
 
-下图说明了**服务管理**的最高级别的业务流程，并显示了服务流程与其他模块集成的地点。
+下图说明了 **服务管理** 的最高级别的业务流程，并显示了服务流程与其他模块集成的地点。
 
 [![服务管理业务流程图](./media/sm_home_page.gif)](./media/sm_home_page.gif)
 

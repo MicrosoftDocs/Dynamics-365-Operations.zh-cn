@@ -18,11 +18,11 @@ ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 15021281b9ec33cd0552bca16e3054d0d3cdd589
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803057"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423249"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>监视和管理 IoT 智能
 
@@ -36,8 +36,8 @@ ms.locfileid: "3803057"
 
 + **模块 \> 生产控制 \> 查询和报表 \> IoT 智能 \> 通知** – 查看未解决通知列表。
 + **模块 \> 生产控制 \> 查询和报表 \> IoT 智能 \> 已关闭通知** – 查看已解决或隐藏通知列表。
-+ **模块 \> 生产控制 \> 查询和报表 \> IoT 智能 \> 指标键** – 查看**资源状态**时间系列图表的指标键。
-+ **模块 \> 生产控制 \> 制造执行 \> 资源状态** – 使用**配置**对话框跟踪特定度量。 如果方案检测到异常，通知将显示该异常的详细信息。
++ **模块 \> 生产控制 \> 查询和报表 \> IoT 智能 \> 指标键** – 查看 **资源状态** 时间系列图表的指标键。
++ **模块 \> 生产控制 \> 制造执行 \> 资源状态** – 使用 **配置** 对话框跟踪特定度量。 如果方案检测到异常，通知将显示该异常的详细信息。
 + **工作区 \> 生产车间管理 \> 通知** – 查看未解决通知列表。
 
 ## <a name="modify-a-running-iot-intelligence-scenario"></a>修改正在运行的 IoT 智能方案

@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 01cdfe519e55ca2a9aa17f4ac181ee675b2793cf
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982347"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423085"
 ---
 # <a name="service-level-agreements-overview"></a>服务级别协议概览       
 
@@ -38,9 +38,9 @@ SLA 设置了为客户提供的服务的标准级别，并使服务公司明确�
 
 ## <a name="create-a-service-level-agreement"></a>创建服务级别协议
 
-1.  单击**服务管理** \> **设置** \> **服务协议** \> **服务级别协议**。
+1.  单击 **服务管理** \> **设置** \> **服务协议** \> **服务级别协议**。
 
-2.  在**服务级别协议**字段中，键入服务级别协议的名称。
+2.  在 **服务级别协议** 字段中，键入服务级别协议的名称。
 
 3.  键入允许附加到服务服务级别协议的服务请求完成时间。 然后，如果您想要基于特定日历的服务级别协议，则选择一个日历。
 
@@ -54,15 +54,15 @@ SLA 设置了为客户提供的服务的标准级别，并使服务公司明确�
 
 ## <a name="apply-the-service-level-agreement-to-the-service-agreement"></a>将服务级别协议应用到服务协议
 
-1.  单击**服务管理** \> **常用** \> **服务协议** \> **服务协议**。 选择您要应用 SLA 的服务协议，然后单击**操作窗格**上的**编辑**。
+1.  单击 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。 选择您要应用 SLA 的服务协议，然后单击 **操作窗格** 上的 **编辑**。
 
-2.  在**服务级别协议**字段中，选择要分配的 SLA。
+2.  在 **服务级别协议** 字段中，选择要分配的 SLA。
 
 ## <a name="apply-the-service-level-agreement-to-the-service-agreement-group"></a>将服务级别协议应用到服务协议组
 
-1.  单击**服务管理** \> **设置** \> **服务协议** \> **服务协议组**。
+1.  单击 **服务管理** \> **设置** \> **服务协议** \> **服务协议组**。
 
-2.  在**服务级别协议**字段中，选择要分配的 SLA。
+2.  在 **服务级别协议** 字段中，选择要分配的 SLA。
 
 ## <a name="track-time-on-a-service-order-against-an-sla"></a>根据 SLA 跟踪服务订单的时间
 

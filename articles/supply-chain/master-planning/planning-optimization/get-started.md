@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 49025d0aa0f6a627b816a43dd4260449942b400c
-ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
+ms.openlocfilehash: 54ad180b7f4691ead3563b077eadadc3b9b20588
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3973468"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4423444"
 ---
 # <a name="get-started-with-planning-optimization"></a>开始使用计划优化
 
@@ -58,18 +58,20 @@ Planning Optimization 当前在以下 Azure 地域中可用：美国、加拿大
 > Planning Optimization 的要求是：支持 LCS 的第 2 层或更高层高可用性环境（不是 OneBox 环境），并且具有 Dynamics 365 Supply Chain Management 版本 10.0.7 或更高版本。 如果您尝试在 OneBox 环境中安装加载项，则安装将无法完成，因此您需要取消安装。
 
 1. 登录到 LCS，然后打开所需的环境。
-1. 转到**完整详细信息**。
-1. 向下滚动到**环境加载项**快速选项卡。
-1. 选择**安装新加载项**。
-1. 选择**计划优化**。
+1. 转到 **完整详细信息**。
+1. 向下滚动到 **环境加载项** 快速选项卡。
+1. 选择 **安装新加载项**。
+1. 选择 **计划优化**。
 1. 按照安装指南操作，并同意条款和条件。
-1. 选择**安装**。
-1. 在**环境加载项**快速选项卡上，您应该看到正在安装计划优化。
-1. 几分钟后**正在安装**应会改为**已安装**（您可能需要刷新页面）。 安装后，您就可以在 Dynamics 365 Supply Chain Management 中激活计划优化了。
+1. 选择 **安装**。
+1. 在 **环境加载项** 快速选项卡上，您应该看到正在安装计划优化。
+1. 几分钟后 **正在安装** 应会改为 **已安装**（您可能需要刷新页面）。 安装后，您就可以在 Dynamics 365 Supply Chain Management 中激活计划优化了。
+
+安装计划优化加载项的主要目的是连接服务和环境。 因此，无论在环境之间移动任何代码，都必须在将使用计划优化的每个环境上分别安装该加载项。
 
 ### <a name="planning-optimization-integration"></a>计划优化集成
 
-要配置是否应将计划优化加载项用于主计划，请转到**主计划** \> **设置** \> **计划优化参数**。
+要配置是否应将计划优化加载项用于主计划，请转到 **主计划** \> **设置** \> **计划优化参数**。
 
 #### <a name="connection-status"></a>连接状态
 
@@ -85,17 +87,17 @@ Planning Optimization 当前在以下 Azure 地域中可用：美国、加拿大
 
 #### <a name="the-use-planning-optimization-option"></a>“使用计划优化”选项
 
-**使用计划优化**选项的设置确定哪个计划引擎用于主计划：
+**使用计划优化** 选项的设置确定哪个计划引擎用于主计划：
 
 - **是** – 计划优化用于主计划。
 - **否** – 内置 Supply Chain Management 计划引擎用于主计划。
 
 > [!NOTE]
-> 如果在**使用计划优化**选项设置为**是**的情况下触发了为内置 Supply Chain Management 计划引擎创建的现有计划批处理作业，这些作业将失败。
+> 如果在 **使用计划优化** 选项设置为 **是** 的情况下触发了为内置 Supply Chain Management 计划引擎创建的现有计划批处理作业，这些作业将失败。
 
 ### <a name="integration-with-the-setup"></a>与设置集成
 
-如果打开了计划优化预览，则使用计划优化加载项来完成主计划。 在这种情况下，主计划结果和功能会受到影响。
+如果打开了计划优化，则使用计划优化加载项来完成主计划。 在这种情况下，主计划结果和功能会受到影响。
 
 ## <a name="additional-resources"></a>其他资源
 

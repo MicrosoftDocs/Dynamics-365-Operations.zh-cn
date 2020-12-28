@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: dd8657098519391ee488025e175e1499c58a55ce
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204646"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423104"
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>创建询价的计分方法
 

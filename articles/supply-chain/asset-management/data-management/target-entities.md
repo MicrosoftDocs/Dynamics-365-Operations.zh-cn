@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 58027fcb29efbac847f3018ae1eb6677241ed87b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205429"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422893"
 ---
 # <a name="target-entities"></a>目标实体
 
@@ -31,23 +31,23 @@ ms.locfileid: "3205429"
 
  
 
-在**数据管理**工作区中，可以获取目标实体、关联实体类型和与**资产管理**模块关联的暂存表的概览。 
+在 **数据管理** 工作区中，可以获取目标实体、关联实体类型和与 **资产管理** 模块关联的暂存表的概览。 
 
-1. 单击屏幕左上角的 **Finance and Operations** 按钮，然后单击**数据管理**。
+1. 单击屏幕左上角的 **Finance and Operations** 按钮，然后单击 **数据管理**。
 
-2. 在**导入/导出**部分中，单击**数据实体**。 
+2. 在 **导入/导出** 部分中，单击 **数据实体**。 
 
     ![图 1](media/01-data-management.png)
 
-3. 在**目标实体**页面上，在筛选器中搜索“资产管理”，然后按 Enter 以查看与资产管理关联的实体的列表。
+3. 在 **目标实体** 页面上，在筛选器中搜索“资产管理”，然后按 Enter 以查看与资产管理关联的实体的列表。
 
     下图显示部分资产管理实体。
 
    ![图 2](media/02-data-management.png)
 
-4. 选择一个实体，然后单击**修改目标映射**。
+4. 选择一个实体，然后单击 **修改目标映射**。
 
-5. 在**将暂存映射到目标**页上，可以查看与所选实体关联的暂存字段的列表。 单击**映射可视化**可查看有关暂存数据和每本书如何关联的图形概览。 
+5. 在 **将暂存映射到目标** 页上，可以查看与所选实体关联的暂存字段的列表。 单击 **映射可视化** 可查看有关暂存数据和每本书如何关联的图形概览。 
 
     在下图中，将显示与资产类型实体关联的字段的可视化。
 

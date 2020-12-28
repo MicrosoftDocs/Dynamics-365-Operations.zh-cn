@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6c380b7749a55cd151655def372cf91585c263b2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214128"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423073"
 ---
 # <a name="track-running-average-cost-per-inventory-dimension"></a>按库存维度跟踪移动平均成本
 
@@ -44,7 +44,7 @@ ms.locfileid: "3214128"
 
 仓库 GW 的移动平均成本价为 USD 11.20，并且，仓库 MW 的移动平均成本价为 USD 15.00。 为仓库 GW 过帐销售订单发票。 库存和所售货物成本的价值（在执行库存结转前并且未标记）将是 USD 11.20。 为仓库 MW 过帐另一个销售订单。 库存和所售货物成本的价值（在执行库存结转前并且未标记）将是 USD 15.00。 
 
-**示例 2**如果附加到物料的存储维度组按仓库从财务上跟踪，并按批号从财务上跟踪跟踪维度组，则为每个批次计算移动平均成本价。 
+**示例 2** 如果附加到物料的存储维度组按仓库从财务上跟踪，并按批号从财务上跟踪跟踪维度组，则为每个批次计算移动平均成本价。 
 
 **注意：** 我们建议您始终查看正在跟踪的所有财务维度的成本价。 以下采购订单已开票：
 

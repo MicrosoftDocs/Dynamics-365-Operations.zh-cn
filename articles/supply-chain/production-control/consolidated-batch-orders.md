@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: faeb90aa3366a58b746c0b397dd950bfb8c9024f
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979467"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423166"
 ---
 # <a name="consolidated-batch-orders"></a>合并的批次订单
 

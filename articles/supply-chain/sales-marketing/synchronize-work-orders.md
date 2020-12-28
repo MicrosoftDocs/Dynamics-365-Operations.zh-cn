@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
 ms.openlocfilehash: 5ebf23c5c831e9dad5d13c72f82eb3eeb30da853
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215853"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422807"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>将项目内的工作订单从 Field Service 同步到 Supply Chain Management
 
@@ -34,7 +34,7 @@ ms.locfileid: "3215853"
 
 [![Supply Chain Management 与 Field Service 之间的业务流程同步](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
-使用的**包含项目的工作订单（Field Service 到 Supply Chain Management）** 模板基于**工作订单（Field Service 到 Supply Chain Management）** 模板。 有关详细信息，请参阅[将 Field Service 的工作订单同步到 Supply Chain Management 的销售订单](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order)。
+使用的 **包含项目的工作订单（Field Service 到 Supply Chain Management）** 模板基于 **工作订单（Field Service 到 Supply Chain Management）** 模板。 有关详细信息，请参阅[将 Field Service 的工作订单同步到 Supply Chain Management 的销售订单](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order)。
 
 本主题仅介绍这两个模板之间的区别：
 - **项目内的工作订单（Field Service 到 Supply Chain Management）**
@@ -56,7 +56,7 @@ ms.locfileid: "3215853"
 - WorkOrderService
 
 ## <a name="field-service-crm-solution"></a>Field Service CRM 解决方案
-**外部项目**字段已添加到“工作订单”实体。 此字段是标记项目的工作订单的查找和购买，销售订单随后将被连接到 Supply Chain Management 内的一个项目。 当**系统状态**从“打开 - 正在进行(690,970,000)”更改为更高状态时，**外部项目**字段将被锁定，您将无法添加、删除或更改值。
+**外部项目** 字段已添加到“工作订单”实体。 此字段是标记项目的工作订单的查找和购买，销售订单随后将被连接到 Supply Chain Management 内的一个项目。 当 **系统状态** 从“打开 - 正在进行(690,970,000)”更改为更高状态时，**外部项目** 字段将被锁定，您将无法添加、删除或更改值。
 
 ## <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射
 

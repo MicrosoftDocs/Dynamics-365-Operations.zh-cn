@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
 ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016554"
+ms.locfileid: "4423381"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-app"></a>通过仓库应用进行的牌照收货
 
@@ -42,7 +42,7 @@ ASN 数据将通过 *装箱结构* 链接到负荷和装运，其中的托盘（
 
 ## <a name="work-policies"></a>工作策略
 
-与（举例） *完工入库* 移动设备菜单项流程一样，牌照接收流程基于定义的设置支持多个工作流。
+与（举例）*完工入库* 移动设备菜单项流程一样，牌照接收流程基于定义的设置支持多个工作流。
 
 ### <a name="work-policies-with-work-creation"></a>有工作创建的工作策略
 
@@ -50,7 +50,7 @@ ASN 数据将通过 *装箱结构* 链接到负荷和装运，其中的托盘（
 
 ### <a name="work-policies-without-work-creation"></a>无工作创建的工作策略
 
-您可以在不创建工作的情况下使用牌照接收流程。 如果您定义工作订单类型为 *转移收货* 和/或 *采购订单* 的工作策略，然后您将流程用于 *牌照接收（和储存）* ，以下两个 Warehousing mobile app 流程将不会创建工作。 取而代之的是，他们只会在入站收货台的牌照上登记入站实际库存。
+您可以在不创建工作的情况下使用牌照接收流程。 如果您定义工作订单类型为 *转移收货* 和/或 *采购订单* 的工作策略，然后您将流程用于 *牌照接收（和储存）*，以下两个 Warehousing mobile app 流程将不会创建工作。 取而代之的是，他们只会在入站收货台的牌照上登记入站实际库存。
 
 - *牌照接收*
 - *牌照接收和储存*
@@ -63,7 +63,7 @@ ASN 数据将通过 *装箱结构* 链接到负荷和装运，其中的托盘（
 
 ### <a name="receive-inventory-on-a-location-that-doesnt-track-license-plates"></a>在不跟踪牌照的位置接收库存
 
-即使未打开 **使用牌照跟踪** ，也可以使用分配给货位模板的仓库货位。 因此，当您接收库存时，可以直接在某个位置登记现有库存量，而无需创建工作。
+即使未打开 **使用牌照跟踪**，也可以使用分配给货位模板的仓库货位。 因此，当您接收库存时，可以直接在某个位置登记现有库存量，而无需创建工作。
 
 ## <a name="add-mobile-device-menu-items-for-each-receiving-location-in-a-warehouse"></a>为仓库中的每个接收位置添加移动设备菜单项
 
@@ -88,11 +88,11 @@ ASN 数据将通过 *装箱结构* 链接到负荷和装运，其中的托盘（
 
 对于中转仓库不跟踪牌照（因此也不跟踪每个牌照的实际现有库存）的转移单方案，可使用 *阻止转移单已装运牌照用于目标仓库以外的其他仓库* 功能阻止中转中的牌照的实际现有更新。
 
-要使此功能在您的系统上可用，您必须在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开 *阻止转移单已装运牌照用于目标仓库以外的其他仓库* 。
+要使此功能在您的系统上可用，您必须在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开 *阻止转移单已装运牌照用于目标仓库以外的其他仓库*。
 
 若要在此功能可用时管理功能，请执行以下步骤。
 
-1. 转到 **仓库管理 \> 设置 \> 仓库管理参数** 。
+1. 转到 **仓库管理 \> 设置 \> 仓库管理参数**。
 1. 在 **常规** 选项卡的 **牌照** 快速选项卡上，将 **中转仓库牌照政策** 字段设置为以下值之一：
 
     - **允许重复使用非跟踪牌照** – 系统的工作方式与 *阻止转移单已装运牌照用于目标仓库以外的其他仓库* 功能不可用时的工作方式相同。 此值是首先激活此功能时的默认设置。

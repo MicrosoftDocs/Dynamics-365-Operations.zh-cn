@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b2b1468328433a67253bafc21ac9c9b3a2398872
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981658"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422667"
 ---
 # <a name="specify-how-to-dispose-of-returned-items"></a>指定如何处置退回物料 
 
@@ -168,9 +168,9 @@ ms.locfileid: "3981658"
 
 ## <a name="select-a-disposition-code-for-a-quarantine-order"></a>为检验单选择处置代码
 
-1.  单击**库存管理** \> **定期** \> **质量管理** \> **检验单**。
+1.  单击 **库存管理** \> **定期** \> **质量管理** \> **检验单**。
 
-2.  对于现有检验单，请从**概述**选项卡上的**处置代码**字段中选择某一操作。
+2.  对于现有检验单，请从 **概述** 选项卡上的 **处置代码** 字段中选择某一操作。
 
 
 

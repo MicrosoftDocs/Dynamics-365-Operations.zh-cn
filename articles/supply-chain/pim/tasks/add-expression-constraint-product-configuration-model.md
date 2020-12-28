@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: c43d7f768069c5ef201a2823a9aa626b38220073
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986471"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423012"
 ---
 # <a name="add-an-expression-constraint-to-a-product-configuration-model"></a>将表达式约束添加到产品配置模型
 
@@ -44,7 +44,7 @@ ms.locfileid: "3986471"
 ## <a name="enter-expression"></a>输入表达式
 1. 单击“编辑表达式”。
     * 如果您解锁此阶段任务记录的用户界面，您可以使用 IntelliSense 和符号列表，以构建约束表达式。  
-2. 在“约束体”字段中，输入“提示[前格栅==“金属”，护角]”。
+2. 在“ConstraintBody”字段中，输入“Implies[FrontGrill=="Metal", CornerProtection]”。
     * 此表达逻辑表明：如果“前格栅”为金属，则必须选择护角选项。  
 3. 单击“验证”。
     * 核实功能通过约束表达式运行并检查语法错误。  

@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 8b2b41b9ed763971feba489769ebad6f4076925e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984959"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422678"
 ---
 # <a name="set-up-dispatch-teams"></a>设置派遣团队 
 
@@ -32,13 +32,13 @@ ms.locfileid: "3984959"
 
 此主题描述如何创建派遣团队。 在创建派遣团队后，可以将工作人员分配到该团队。 在您创建服务订单后，可以将派遣团队的编号分配给该服务订单的活动。
 
-1.  单击**服务管理** \> **设置** \> **派遣团队**。
+1.  单击 **服务管理** \> **设置** \> **派遣团队**。
 
-2.  在**派遣团队**窗体中，单击**新建**创建新团队。
+2.  在 **派遣团队** 窗体中，单击 **新建** 创建新团队。
 
-3.  在**派遣团队**字段中，为派遣团队输入唯一名称。
+3.  在 **派遣团队** 字段中，为派遣团队输入唯一名称。
 
-4.  在**负责人**字段中，选择团队的负责员工。
+4.  在 **负责人** 字段中，选择团队的负责员工。
     
 
     > [!NOTE]
@@ -46,7 +46,7 @@ ms.locfileid: "3984959"
 
 
 
-5.  可选：在**说明**字段中，输入此派遣团队的简要描述。
+5.  可选：在 **说明** 字段中，输入此派遣团队的简要描述。
 
 
 > [!NOTE]

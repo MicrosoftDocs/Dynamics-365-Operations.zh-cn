@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 58af71c56d1db3f5856a0104da9ac1435dd8e7ae
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978669"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423120"
 ---
 # <a name="create-a-service-template-group"></a>创建服务模板组  
 
@@ -31,11 +31,11 @@ ms.locfileid: "3978669"
 
 您可以使用服务模板组对服务模板进行排序和筛选。
 
-1. 单击**服务管理** \> **设置** \> **服务协议** \> **服务模板组**。
+1. 单击 **服务管理** \> **设置** \> **服务协议** \> **服务模板组**。
 2. 创建新的服务模板组。
 3. 输入组 ID、描述和父服务模板组（如果有）。
 4. 保存该服务模板组。
-5. 将**树型控制**滑块设置为**是**，以便打开树视图并作为树视图中的层次结构或作为概览查看服务模板组。
+5. 将 **树型控制** 滑块设置为 **是**，以便打开树视图并作为树视图中的层次结构或作为概览查看服务模板组。
 
 
 

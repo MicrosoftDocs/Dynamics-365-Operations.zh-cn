@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3b049b166edf2b5a318a4b1af85e7f74cfe433f2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975456"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422683"
 ---
 # <a name="service-orders"></a>服务订单   
 
@@ -48,7 +48,7 @@ ms.locfileid: "3975456"
 
 以下方案描述创建服务订单不与服务协议的其他情况很有用。
 
-公司调度人员接到了一个电话，要求对电梯进行紧急服务。 不时间设置服务协议和服务的一个项目。 因此，调度人员直接在**服务订单**窗体中创建服务订单，将服务订单附加到现有项目，然后创建服务订单行。 您可为现有服务订单创建一个任务或对象关系，以便记录与该服务协议无关的工作 (B)。 有关详细信息，请参阅[手动创建服务订单](create-service-orders-manually.md)和[创建服务任务关系](create-service-task-relations.md)。
+公司调度人员接到了一个电话，要求对电梯进行紧急服务。 不时间设置服务协议和服务的一个项目。 因此，调度人员直接在 **服务订单** 窗体中创建服务订单，将服务订单附加到现有项目，然后创建服务订单行。 您可为现有服务订单创建一个任务或对象关系，以便记录与该服务协议无关的工作 (B)。 有关详细信息，请参阅[手动创建服务订单](create-service-orders-manually.md)和[创建服务任务关系](create-service-task-relations.md)。
 
 ## <a name="monitor-the-progress-of-service-orders"></a>监控服务订单的进度
 
@@ -76,7 +76,7 @@ ms.locfileid: "3975456"
 
 ## <a name="post-from-projects"></a>从项目过帐
 
-在每周结束时，调度人员想要过帐附加到特定项目的所有服务订单。 因此，该调度在**项目**窗体中查找相关项目，然后过帐已完成的服务订单。 有关详细信息，请参阅[过帐服务订单（类窗体）](https://technet.microsoft.com/library/aa574685\(v=ax.60\))。
+在每周结束时，调度人员想要过帐附加到特定项目的所有服务订单。 因此，该调度在 **项目** 窗体中查找相关项目，然后过帐已完成的服务订单。 有关详细信息，请参阅[过帐服务订单（类窗体）](https://technet.microsoft.com/library/aa574685\(v=ax.60\))。
 
 ## <a name="delete-service-orders"></a>删除服务订单
 

@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
 ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017475"
+ms.locfileid: "4423380"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>设置转移单的仓库 
 
@@ -29,7 +29,7 @@ ms.locfileid: "4017475"
 
 您可以使用仓库级别创建支持在仓库之间转移订单的层次结构。 基于此设置，主计划编制计算单个仓库级别的物料需求，并从分配的源仓库生成计划转移单以完成订单。
 
-1.  单击 **库存管理** >“设置”>“库存细分”>“仓库”.
+1.  单击 **库存管理**>“设置”>“库存细分”>“仓库”.
 
 2.  选择您要重填物料的仓库。
 
@@ -49,7 +49,7 @@ ms.locfileid: "4017475"
 ## <a name="set-up-transport-lead-time"></a>设置运输提前期
 
 您还必须设置 **运输天数** 页面的仓库之间的运输提前期。 
-1. 转到 **库存管理 > 设置 > 配送 > 运输天数** 。
-2. 在 **接收点** 字段中，选择 **仓库** 。
-3. 选择 **装运仓库** 、 **接收仓库** 和 **运输天数** 。 
+1. 转到 **库存管理 > 设置 > 配送 > 运输天数**。
+2. 在 **接收点** 字段中，选择 **仓库**。
+3. 选择 **装运仓库**、**接收仓库** 和 **运输天数**。 
 4. （可选）还可以根据交货方式设置运输时间，在 **每个交货模式的运输天数** 选项卡下。

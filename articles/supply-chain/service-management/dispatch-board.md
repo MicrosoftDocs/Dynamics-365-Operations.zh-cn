@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7c1aafa15b0e4ba9205f19a00ae19d2c84ce6fa0
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984050"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422915"
 ---
 #  <a name="dispatch-board"></a>发货牌 
 
@@ -41,7 +41,7 @@ ms.locfileid: "3984050"
 
   - 查看未派遣的服务活动列表。
 
-有关如何在发货牌中执行特定任务的信息，请参阅**另请参阅**部分中的主题。
+有关如何在发货牌中执行特定任务的信息，请参阅 **另请参阅** 部分中的主题。
 
 ## <a name="see-also"></a>请参阅
 

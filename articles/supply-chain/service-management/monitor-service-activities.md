@@ -19,18 +19,18 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b364c1f19888b711626312b77335b06ef3959886
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980602"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422912"
 ---
 # <a name="monitor-service-activities"></a>监控服务活动 
 
 [!include [banner](../includes/banner.md)]
 
 
-**派遣板**窗体提供掌握不同的计划服务活动的状态更新，并且可以使用此窗体的工具跟踪您的公司中的一般服务订单流。
+**派遣板** 窗体提供掌握不同的计划服务活动的状态更新，并且可以使用此窗体的工具跟踪您的公司中的一般服务订单流。
 
 
 > [!TIP]
@@ -47,7 +47,7 @@ ms.locfileid: "3980602"
 
 ## <a name="open-the-dispatch-board-form"></a>打开“发货牌”窗体
 
-单击**服务管理** \> **定期** \> **派遣板**。
+单击 **服务管理** \> **定期** \> **派遣板**。
 
 ## <a name="see-also"></a>请参阅
 

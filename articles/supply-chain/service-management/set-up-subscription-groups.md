@@ -19,26 +19,26 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7a98d096c0eec6b1d585856b63113fd6dd60c0a4
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984887"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422671"
 ---
 # <a name="set-up-subscription-groups"></a>设置预订组 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  单击**服务管理** \> **设置** \> **服务预订** \> **预订组**。
+1.  单击 **服务管理** \> **设置** \> **服务预订** \> **预订组**。
 
-2.  按 Ctrl+N 或单击**新建**创建一个新预订组。
+2.  按 Ctrl+N 或单击 **新建** 创建一个新预订组。
 
-3.  在**预订组**字段中，输入新预订组的名称。
+3.  在 **预订组** 字段中，输入新预订组的名称。
 
-4.  在**开票**字段中，为预订选择开票频率。 开票频率由在**期间类型**窗体中设置的期间代码指示。
+4.  在 **开票** 字段中，为预订选择开票频率。 开票频率由在 **期间类型** 窗体中设置的期间代码指示。
 
-5.  若要对预订交易记录应计收入，请选中**应计收入**复选框，然后在**应计**字段中选择一个频率。 应计频率基于在**期间**窗体中设置的期间代码。
+5.  若要对预订交易记录应计收入，请选中 **应计收入** 复选框，然后在 **应计** 字段中选择一个频率。 应计频率基于在 **期间** 窗体中设置的期间代码。
 
 ## <a name="see-also"></a>请参阅
 

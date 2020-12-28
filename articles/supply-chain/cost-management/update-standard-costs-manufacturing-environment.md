@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ea810daab0ecdee59aba703f38d0001e2965f936
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214142"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422739"
 ---
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>更新制造环境中的标准成本
 
@@ -34,7 +34,7 @@ ms.locfileid: "3214142"
 
 更新可以反映新物料、成本类别或间接成本计算公式。 它们还可以反映更正和成本变化。 此类型的更新影响更新标准成本必须完成的步骤，如以下情况中所示：
 
--   为采购的物料输入预期的标准成本变化，然后更改相应日期上的物料成本记录的状态为**活动**状态。 但是，不重新计算使用采购物料的制造物料的成本。
+-   为采购的物料输入预期的标准成本变化，然后更改相应日期上的物料成本记录的状态为 **活动** 状态。 但是，不重新计算使用采购物料的制造物料的成本。
 -   为新采购的物料输入标准成本，但不重新计算具有将这一新采购物料作为组件包含的物料清单 (BOM) 版本的制造物料的成本。
 -   更正或更改采购物料的成本，或者更改分配给采购物料的成本组，并且为具有将采购物料作为组件包含的物料清单版本的所有制造物料计算成本。
 -   为某一成本类别更改成本，并且为具有包含使用该成本类别的工艺路线工序的工艺路线版本的所有制造物料计算成本。

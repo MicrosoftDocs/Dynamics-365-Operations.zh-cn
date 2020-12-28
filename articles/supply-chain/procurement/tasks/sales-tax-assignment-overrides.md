@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 74a7eed04648c63c0b19d5de26d2bdbef59aec7d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207578"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423048"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a> 销售税分配和覆盖
 

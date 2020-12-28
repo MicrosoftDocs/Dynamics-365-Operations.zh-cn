@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7ec7203506d7fa3e71211bd1547dc8474f5d17dc
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984218"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422875"
 ---
 # <a name="master-planning-home-page"></a>主计划主页
 
@@ -39,7 +39,7 @@ ms.locfileid: "3984218"
 
 三个主计划流程是：
 
--  **主计划** - 主计划计算净需求。 它基于当前的实际订单，使公司在短期内每日控制库存补货。 描述它的另一个术语是*净需求计划*。 有关主计划的详细信息，请参阅[主计划概览](master-plans.md)。 
+-  **主计划** - 主计划计算净需求。 它基于当前的实际订单，使公司在短期内每日控制库存补货。 描述它的另一个术语是 *净需求计划*。 有关主计划的详细信息，请参阅[主计划概览](master-plans.md)。 
 
 -  **预测计划** - 预测计划计算总需求。 它基于将来的推测（或预测），让公司可以执行长期的物料和产能规划。 有关详细信息，请参阅[需求预测概览](introduction-demand-forecasting.md)。 
 
@@ -74,7 +74,7 @@ ms.locfileid: "3984218"
 您可以在 [Dynamics AX 制造研发团队博客](https://blogs.msdn.microsoft.com/axmfg)和 [Dynamics AX 研发团队中的供应链管理博客](https://blogs.msdn.microsoft.com/dynamicsaxscm)中找到有关主计划及其他解决方案的建议、新闻和其他信息。
 
 ### <a name="task-guides"></a>任务指南
-其他帮助作为任务指南提供。 若要访问任务指南，请单击任何页面上的**帮助**按钮。
+其他帮助作为任务指南提供。 若要访问任务指南，请单击任何页面上的 **帮助** 按钮。
 
 ### <a name="webinars"></a>网络研讨会
 [使用 Azure 机器学习进行需求预测](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)

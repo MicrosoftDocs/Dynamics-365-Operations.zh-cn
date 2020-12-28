@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 84c42e550d51e40b7f777c3da67ed765519ddfd0
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979272"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423020"
 ---
 # <a name="collaborate-with-internal-supply-chain-customers"></a>与内部供应链客户协作
 

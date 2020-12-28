@@ -19,24 +19,24 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 744f78f2dd088e50c91e1f7ef0e6f68b176f9618
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984122"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422916"
 ---
 # <a name="delete-a-service-bom"></a>删除服务物料清单 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  单击**服务管理** \> **常用** \> **服务协议** \> **服务协议**。 选择您要从中删除服务物料清单的服务协议。
+1.  单击 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。 选择您要从中删除服务物料清单的服务协议。
 
-2.  在**操作窗格**上，单击**服务对象**。
+2.  在 **操作窗格** 上，单击 **服务对象**。
 
-3.  在**服务对象**窗体中，选择您要将服务物料清单从中删除的服务对象关系。 单击**功能**，然后选择**删除服务物料清单**。
+3.  在 **服务对象** 窗体中，选择您要将服务物料清单从中删除的服务对象关系。 单击 **功能**，然后选择 **删除服务物料清单**。
 
-4.  单击**是**。
+4.  单击 **是**。
 
 
 > [!NOTE]

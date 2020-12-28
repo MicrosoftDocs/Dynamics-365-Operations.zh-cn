@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f8ec7cbfea709c74b73a189c24da8978a501794d
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984721"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423156"
 ---
 # <a name="view-the-start-time-and-duration-of-a-service-order"></a>查看服务订单的开始时间和持续时间 
 
@@ -36,21 +36,21 @@ ms.locfileid: "3984721"
 
 ## <a name="view-the-start-time-for-a-service-order"></a>查看服务订单的开始时间
 
-1.  单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。 选择并双击某一订单打开详细信息窗体。
+1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。 选择并双击某一订单打开详细信息窗体。
 
-2.  在**常规**选项卡中，查看为**开始时间**字段中的某一服务订单开始工作的时间。
+2.  在 **常规** 选项卡中，查看为 **开始时间** 字段中的某一服务订单开始工作的时间。
 
 ## <a name="view-the-time-remaining-to-complete-a-service-order"></a>查看完成某一服务订单的剩余时间
 
-1.  单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。 选择并双击某一订单打开详细信息窗体。
+1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。 选择并双击某一订单打开详细信息窗体。
 
-2.  在**常规**选项卡，查看完成在**最近完成时间**字段中的某一服务订单的剩余时间。
+2.  在 **常规** 选项卡，查看完成在 **最近完成时间** 字段中的某一服务订单的剩余时间。
 
 ## <a name="view-the-start-time-and-stop-time-recording-entries-for-a-service-order"></a>查看某一服务订单的开始时间和结束时间记录条目
 
-1.  单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。 选择并双击某一订单打开详细信息窗体。
+1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。 选择并双击某一订单打开详细信息窗体。
 
-2.  在**操作窗格**中，单击**派遣**选项卡 \> **时间记录**打开 **SLA 时间记录**窗体查看服务订单的时间记录条目。
+2.  在 **操作窗格** 中，单击 **派遣** 选项卡 \> **时间记录** 打开 **SLA 时间记录** 窗体查看服务订单的时间记录条目。
 
 ## <a name="see-also"></a>请参阅
 

@@ -19,18 +19,18 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5d81b33a9f30143891da6c7f21dc728e6e4fe7b8
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983763"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423155"
 ---
 # <a name="view-the-status-of-service-orders"></a>产科服务订单的状态 
 
 [!include [banner](../includes/banner.md)]
 
 
-您可以使用**派遣板**窗体查看服务订单中服务活动的状态。
+您可以使用 **派遣板** 窗体查看服务订单中服务活动的状态。
 
 ## <a name="more-information-about-service-orders"></a>有关服务订单的详细信息。
 

@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6e8205db277715f4f4f9c1ee589f264c0ded6617
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983811"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423023"
 ---
 # <a name="pass-returned-items-on-to-inspection"></a>将退回物料送检 
 
@@ -32,13 +32,13 @@ ms.locfileid: "3983811"
 
 登记退回物料时，您可以确定在将物料退回库存或以其他方式处置之前是否应将该物料送检。
 
-1.  单击**库存管理** \> **日记帐** \> **物料到达** \> **物料到达**。
+1.  单击 **库存管理** \> **日记帐** \> **物料到达** \> **物料到达**。
     
     \-或-
     
-    单击**库存管理** \> **日记帐** \> **物料到达** \> **生产输入**。
+    单击 **库存管理** \> **日记帐** \> **物料到达** \> **生产输入**。
 
-2.  在**库位日记帐**窗体上，正常登记物料的接收。
+2.  在 **库位日记帐** 窗体上，正常登记物料的接收。
     
 
     > [!NOTE]
@@ -46,9 +46,9 @@ ms.locfileid: "3983811"
 
 
 
-3.  在**默认值**选项卡上**处理模式**区域中，选择**检验管理**框。
+3.  在 **默认值** 选项卡上 **处理模式** 区域中，选择 **检验管理** 框。
 
-这将提示系统创建检验单，执行检查的个人或部门将使用**检验单**窗体响应此检验单。
+这将提示系统创建检验单，执行检查的个人或部门将使用 **检验单** 窗体响应此检验单。
 
 ## <a name="see-also"></a>请参阅
 

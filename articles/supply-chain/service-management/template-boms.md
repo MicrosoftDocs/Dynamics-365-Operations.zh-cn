@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 88e732f64b389acafee23427594225dfacda71cc
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985760"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422951"
 ---
 # <a name="template-boms"></a>物料清单模板    
 
@@ -109,11 +109,11 @@ ms.locfileid: "3985760"
 
 ## <a name="set-up-number-sequences"></a>设置编号规则
 
-1.  在**编号规则**列表页，创建物料清单模板和物料清单历史记录行编号的编号规则。 
+1.  在 **编号规则** 列表页，创建物料清单模板和物料清单历史记录行编号的编号规则。 
 
-2.  单击**服务管理** \> **设置**\> **服务管理参数**。
+2.  单击 **服务管理** \> **设置**\> **服务管理参数**。
 
-3.  单击**编号规则** ，然后为您在**编号规则**窗体中创建的编号规则引用的编号规则代码。
+3.  单击 **编号规则** ，然后为您在 **编号规则** 窗体中创建的编号规则引用的编号规则代码。
 
 4.  关闭窗体以保存您所做更改。
 

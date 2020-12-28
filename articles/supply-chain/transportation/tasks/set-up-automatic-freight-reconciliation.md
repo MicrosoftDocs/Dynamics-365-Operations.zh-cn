@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 6f11edc15821faad84485d5b81e4a9ded0b7e974
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985285"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422784"
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>设置自动装运对帐
 

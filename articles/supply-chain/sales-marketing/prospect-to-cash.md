@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: 55c39fac40498488519fcb539b3c3f7560a46b30
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216074"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422926"
 ---
 # <a name="prospect-to-cash"></a>现金的目标客户
 

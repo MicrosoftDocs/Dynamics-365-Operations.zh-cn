@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a1d8fd665ec40efede0a3db8b0c59ac89751a64
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 47e26a48cdde3a6996f4c0a4ca85222c402f44e2
+ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987182"
+ms.lasthandoff: 10/26/2020
+ms.locfileid: "4423438"
 ---
 # <a name="create-a-baseline-forecast"></a>创建基准预测
 
@@ -43,7 +43,7 @@ ms.locfileid: "3987182"
 7. 关闭该页面。
 8. 关闭该页面。
 
-## <a name="set-up-the-demand-forecasting-paramters"></a>设置需求预测参数
+## <a name="set-up-the-demand-forecasting-parameters"></a>设置需求预测参数
 1. 转到“主计划”>“设置”>“需求预测”>“需求预测参数”。
 2. 展开“预测算法参数”部分。
 3. 在“预测生成策略”字段中，选择“复制历史需求”。

@@ -19,18 +19,18 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a94f2df6a4ddb71a29ff951dfe38618ac7762783
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975480"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422689"
 ---
 # <a name="service-status-and-progress-field-interaction"></a>服务状态和进度字段交互 
 
 [!include [banner](../includes/banner.md)]
 
 
-在**服务订单**窗体中，服务订单标题上的**进度**字段反映整个服务订单的状态，而**状态**报告各个服务订单行的状态。
+在 **服务订单** 窗体中，服务订单标题上的 **进度** 字段反映整个服务订单的状态，而 **状态** 报告各个服务订单行的状态。
 
 <table>
 <colgroup>
@@ -88,9 +88,9 @@ ms.locfileid: "3975480"
 </table>
 
 
-如果所有行都具有**已创建**状态，则服务订单的进度为进行中。如果有些行具有**已取消**状态或**已过帐**状态，则其进度仍为进行中。
+如果所有行都具有 **已创建** 状态，则服务订单的进度为进行中。如果有些行具有 **已取消** 状态或 **已过帐** 状态，则其进度仍为进行中。
 
-如果服务订单中的所有行都标记为**已过帐**，则状态订单的进度为**已过帐**。 如果有些行的状态为**已过帐**，而有些行的状态为**已取消**，则进度仍为**已过帐**。
+如果服务订单中的所有行都标记为 **已过帐**，则状态订单的进度为 **已过帐**。 如果有些行的状态为 **已过帐**，而有些行的状态为 **已取消**，则进度仍为 **已过帐**。
 
   
 

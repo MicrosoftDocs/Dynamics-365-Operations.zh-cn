@@ -19,24 +19,24 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1bd5485727761ac5ab13d44ab0598c5768324e6e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985034"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423157"
 ---
 # <a name="view-stage-reason-codes"></a>查看阶段原因代码 
 
 [!include [banner](../includes/banner.md)]
 
 
-查看和修改服务订单的阶段原因列表。 使用阶段原因指示服务订单状态的原因。 例如，可以创建分配**由客户取消**原因代码的**取消**阶段。
+查看和修改服务订单的阶段原因列表。 使用阶段原因指示服务订单状态的原因。 例如，可以创建分配 **由客户取消** 原因代码的 **取消** 阶段。
 
-  - 单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。 打开服务订单。
+  - 单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。 打开服务订单。
 
-  - 在**服务订单**窗体中的**操作窗格**上，在**派遣**选项卡上，单击**阶段原因**。
+  - 在 **服务订单** 窗体中的 **操作窗格** 上，在 **派遣** 选项卡上，单击 **阶段原因**。
 
-  - 在**阶段原因**窗体中，单击**新建**以新建阶段原因代码。
+  - 在 **阶段原因** 窗体中，单击 **新建** 以新建阶段原因代码。
 
 ## <a name="see-also"></a>请参阅
 

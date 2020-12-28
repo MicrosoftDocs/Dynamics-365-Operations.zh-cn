@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f023ddd8d6f9350702f687763b53b057baa9aed8
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985807"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422950"
 ---
 # <a name="subscription-workflow-overview"></a>预订工作流概览 
 
@@ -40,11 +40,11 @@ ms.locfileid: "3985807"
 
 ## <a name="create-and-modify-subscription-transactions"></a>创建和修改预订交易记录
 
-在设置预定后，您为第一个开票期间（即一年）创建预订费用交易记录。 交易记录的类型为**常规**。 因此，只能创建开始日期和结束日期对应于以前在**期间类型**窗体中创建的期间的预订交易记录。 有关费用交易记录的详细信息，请参阅[创建预订费用交易记录](create-subscription-fee-transactions.md)。
+在设置预定后，您为第一个开票期间（即一年）创建预订费用交易记录。 交易记录的类型为 **常规**。 因此，只能创建开始日期和结束日期对应于以前在 **期间类型** 窗体中创建的期间的预订交易记录。 有关费用交易记录的详细信息，请参阅[创建预订费用交易记录](create-subscription-fee-transactions.md)。
 
 在您为客户设置预订后，记住对于您提供的服务的所有标价，双方已协商了 10% 的折扣。 因此，您必须降低已创建的交易记录费用的价格。
 
-在当天的晚些时候，您客户的联系人给您打电话，指出尽管他们仍需要针对照明设备的服务协议，但它们计划在当年的下半年引入新的照明设备。 因此，他们只需截止到 2013 年 10 月的维护覆盖范围。 为了减少针对客户的预订的月份数，您创建类型为**缩减天数**的新的预订费用交易记录。 有关如何缩减天数的详细信息，请参阅[缩减预订费用天数](reduce-the-days-on-subscription-fees.md)。
+在当天的晚些时候，您客户的联系人给您打电话，指出尽管他们仍需要针对照明设备的服务协议，但它们计划在当年的下半年引入新的照明设备。 因此，他们只需截止到 2013 年 10 月的维护覆盖范围。 为了减少针对客户的预订的月份数，您创建类型为 **缩减天数** 的新的预订费用交易记录。 有关如何缩减天数的详细信息，请参阅[缩减预订费用天数](reduce-the-days-on-subscription-fees.md)。
 
 ## <a name="invoice-and-accrue-subscription-transactions"></a>开票和计入预订交易记录
 

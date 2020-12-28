@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 482c036294f525be5db1dc6efefe76a9ba5b3ce5
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983687"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423235"
 ---
 # <a name="explosion-of-a-bom-version"></a>物料清单版本的分解
 
