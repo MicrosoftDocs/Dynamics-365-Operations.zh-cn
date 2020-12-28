@@ -1,0 +1,78 @@
+---
+title: Dynamics 365 Supply Chain Management 10.0.11（2020 年 6 月）新增功能或更改
+description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.11 中的新增功能或更改的功能。
+author: kamaybac
+manager: tfehr
+ms.date: 04/17/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: kamaybac
+ms.search.validFrom: 2020-04-17
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 52090645b0bb00399a88926c0b48a3cee8fcd114
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4423305"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a><span data-ttu-id="f5a1b-103">Dynamics 365 Supply Chain Management 10.0.11 的新增功能或更改（2020 年 7 月）</span><span class="sxs-lookup"><span data-stu-id="f5a1b-103">What's new or changed in Dynamics 365 Supply Chain Management 10.0.11 (July 2020)</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="f5a1b-104">此主题列出了 Microsoft Dynamics 365 Supply Chain Management 10.0.11 中的新增功能或更改的功能。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-104">This topic lists features that are either new or changed in Microsoft Dynamics 365 Supply Chain Management 10.0.11.</span></span> <span data-ttu-id="f5a1b-105">此版本的构建版本号为 10.0.464，并以下面的形式提供：</span><span class="sxs-lookup"><span data-stu-id="f5a1b-105">This version has a build number of 10.0.464 and is available as follows:</span></span>
+
+- <span data-ttu-id="f5a1b-106">**预览版本：** 2020 年 4 月</span><span class="sxs-lookup"><span data-stu-id="f5a1b-106">**Preview release:** April 2020</span></span>
+- <span data-ttu-id="f5a1b-107">**公开发布（自行更新）：** 2020 年 5 月</span><span class="sxs-lookup"><span data-stu-id="f5a1b-107">**General availability (self-update):** May 2020</span></span>
+- <span data-ttu-id="f5a1b-108">**自动更新：** 2020 年 7 月</span><span class="sxs-lookup"><span data-stu-id="f5a1b-108">**Auto-update:** July 2020</span></span>
+
+## <a name="features-included-in-this-release"></a><span data-ttu-id="f5a1b-109">此版本中包含的功能</span><span class="sxs-lookup"><span data-stu-id="f5a1b-109">Features included in this release</span></span>
+
+<span data-ttu-id="f5a1b-110">此版本中包含以下功能。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-110">The following features are included in this release.</span></span> <span data-ttu-id="f5a1b-111">功能标题链接至[发布计划](https://docs.microsoft.com/dynamics365/release-plans/)站点中的更多信息。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-111">The feature titles link to additional information on the [Release plans](https://docs.microsoft.com/dynamics365/release-plans/) site.</span></span> <span data-ttu-id="f5a1b-112">更多链接指向该功能的更多当前可用文档或视频。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-112">Additional links point to additional documentation or videos that are currently available for that feature.</span></span> <span data-ttu-id="f5a1b-113">这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-113">Most of these features must be enabled using [Feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) before you can use them.</span></span>
+
+- [<span data-ttu-id="f5a1b-114">现有库存报表存储</span><span class="sxs-lookup"><span data-stu-id="f5a1b-114">Inventory on-hand report storage</span></span>](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
+
+- [<span data-ttu-id="f5a1b-115">仓库应用的牌照接收增强</span><span class="sxs-lookup"><span data-stu-id="f5a1b-115">License plate receiving enhancements for the warehouse app</span></span>](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> <span data-ttu-id="f5a1b-116">- 有关详细信息，请参阅[通过仓库应用进行的牌照接收](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-116">- For more information, see [License plate receiving via the warehouse app](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).</span></span>
+
+- [<span data-ttu-id="f5a1b-117">批号预留窗体的行预留增强</span><span class="sxs-lookup"><span data-stu-id="f5a1b-117">Line reservation enhancements for the batch number reservation form</span></span>](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> <span data-ttu-id="f5a1b-118">- 有关详细信息，请参阅[为销售订单预留相同批次](../sales-marketing/reserve-same-batch-sales-order.md)。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-118">- For more information, see [Reserve the same batch for a sales order](../sales-marketing/reserve-same-batch-sales-order.md).</span></span>
+
+- [<span data-ttu-id="f5a1b-119">制造区域的新数据实体</span><span class="sxs-lookup"><span data-stu-id="f5a1b-119">New data entities for the manufacturing area</span></span>](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+
+- [<span data-ttu-id="f5a1b-120">负荷数量超收</span><span class="sxs-lookup"><span data-stu-id="f5a1b-120">Over receipt of load quantities</span></span>](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> <span data-ttu-id="f5a1b-121">- 有关详细信息，请参阅[仓库对采购订单入站负荷的处理](../warehousing/inbound-load-handling.md)。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-121">- For more information, see [Warehouse handling of inbound loads for purchase orders](../warehousing/inbound-load-handling.md).</span></span>
+
+- [<span data-ttu-id="f5a1b-122">从作业卡设备对批号进行完工入库</span><span class="sxs-lookup"><span data-stu-id="f5a1b-122">Report as finished on batch numbers from the job card device</span></span>](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> <span data-ttu-id="f5a1b-123">- 有关详细信息，请参阅[从作业卡设备报告为已完工入库](../production-control/report-finished-job-device.md)。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-123">- For more information, see [Report as finished from the job card device](../production-control/report-finished-job-device.md).</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="f5a1b-124">其他资源</span><span class="sxs-lookup"><span data-stu-id="f5a1b-124">Additional resources</span></span>
+
+### <a name="platform-updates-for-finance-and-operations-apps"></a><span data-ttu-id="f5a1b-125">Finance and Operations 应用的平台更新</span><span class="sxs-lookup"><span data-stu-id="f5a1b-125">Platform updates for Finance and Operations apps</span></span>
+
+<span data-ttu-id="f5a1b-126">Microsoft Dynamics 365 Supply Chain Management 10.0.11 中包含平台更新。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-126">Microsoft Dynamics 365 Supply Chain Management 10.0.11 includes platform updates.</span></span> <span data-ttu-id="f5a1b-127">若要了解详细信息，请参阅 [Finance and Operations 应用版本 10.0.11（2020 年 7 月）的平台更新](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-35.md)。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-127">To learn more, see [Platform updates for version 10.0.11 of Finance and Operations apps (July 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-35.md).</span></span>
+
+### <a name="bug-fixes"></a><span data-ttu-id="f5a1b-128">缺陷修复</span><span class="sxs-lookup"><span data-stu-id="f5a1b-128">Bug fixes</span></span>
+
+<span data-ttu-id="f5a1b-129">有关 10.0.11 中各更新内的缺陷修复的信息，请登录 Lifecycle Services (LCS)，然后查看[知识库文章](https://fix.lcs.dynamics.com/Issue/Details?bugId=438264&dbType=3&qc=d7dbe350d53c7743949f6afa556ea8d19b4fc1d3e16824e1a2eef32e0c3b300a)。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-129">For information about the bug fixes included in each of the updates that are part of 10.0.11, sign in to Lifecycle Services (LCS) and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?bugId=438264&dbType=3&qc=d7dbe350d53c7743949f6afa556ea8d19b4fc1d3e16824e1a2eef32e0c3b300a).</span></span>
+
+### <a name="dynamics-365-2020-release-wave-1-plan"></a><span data-ttu-id="f5a1b-130">Dynamics 365：2020 发布波次 1 计划</span><span class="sxs-lookup"><span data-stu-id="f5a1b-130">Dynamics 365: 2020 release wave 1 plan</span></span>
+
+<span data-ttu-id="f5a1b-131">是否对我们的任何商业应用或平台即将推出和最近发布的功能感兴趣？</span><span class="sxs-lookup"><span data-stu-id="f5a1b-131">Wondering about upcoming and recently released capabilities in any of our business apps or platform?</span></span>
+
+<span data-ttu-id="f5a1b-132">查看 [Dynamics 365：2020 发布波次 1 计划](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index)。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-132">Check out the [Dynamics 365: 2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).</span></span> <span data-ttu-id="f5a1b-133">一个文档汇总了所有端到端、上至下的详细信息，可用其进行规划。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-133">We've captured all the details, end to end, top to bottom, in a single document that you can use for planning.</span></span>
+
+### <a name="removed-and-deprecated-supply-chain-management-features"></a><span data-ttu-id="f5a1b-134">已删除和已弃用的 Supply Chain Management 功能</span><span class="sxs-lookup"><span data-stu-id="f5a1b-134">Removed and deprecated Supply Chain Management features</span></span>
+
+<span data-ttu-id="f5a1b-135">[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题介绍 Supply Chain Management 中已经或计划删除或弃用的功能。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-135">The [Removed or deprecated features in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) topic describes features that have been or are scheduled to be removed or deprecated for Supply Chain Management.</span></span>
+
+- <span data-ttu-id="f5a1b-136">*已移除* 的功能在产品中不再可用。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-136">A *removed* feature is no longer available in the product.</span></span>
+- <span data-ttu-id="f5a1b-137">*已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-137">A *deprecated* feature is not in active development and may be removed in a future update.</span></span>
+
+<span data-ttu-id="f5a1b-138">从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-138">Before any feature is removed from the product, the deprecation notice will be announced in the [Removed or deprecated features in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) topic 12 months prior to the removal.</span></span>
+
+<span data-ttu-id="f5a1b-139">对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-139">For breaking changes that only affect compilation time, but are binary compatible with sandbox and production environments, the deprecation time will be less than 12 months.</span></span> <span data-ttu-id="f5a1b-140">通常是需要对编译器进行的功能更新。</span><span class="sxs-lookup"><span data-stu-id="f5a1b-140">Typically, these are functional updates that need to be made to the compiler.</span></span>

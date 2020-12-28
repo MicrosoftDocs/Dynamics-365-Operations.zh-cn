@@ -1,0 +1,59 @@
+---
+title: 工程更改管理参数
+description: 本主题介绍如何为 Microsoft Dynamics 365 Supply Chain Management 配置工程更改管理功能。
+author: t-benebo
+manager: tfehr
+ms.date: 09/28/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: benebotg
+ms.search.validFrom: 2020-09-28
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 0cf0e56a8aece98379aa0f181d7b7ff665767544
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4423451"
+---
+# <a name="engineering-change-management-parameters"></a><span data-ttu-id="5a688-103">工程更改管理参数</span><span class="sxs-lookup"><span data-stu-id="5a688-103">Engineering change management parameters</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="5a688-104">**工程更改管理参数** 页面包含设置参数，用于更改与发布产品结构和工程更改管理流程相关的默认行为。</span><span class="sxs-lookup"><span data-stu-id="5a688-104">The **Engineering change management parameters** page contains setup parameters that change the default behavior that is related to the release product structure and engineering change management processes.</span></span>
+
+## <a name="open-the-engineering-change-management-parameters-page"></a><span data-ttu-id="5a688-105">打开工程更改管理参数页面</span><span class="sxs-lookup"><span data-stu-id="5a688-105">Open the Engineering change management parameters page</span></span>
+
+<span data-ttu-id="5a688-106">若要打开 **工程更改管理参数** 页面，请转到 **工程更改管理 \> 设置 \> 工程更改管理参数**。</span><span class="sxs-lookup"><span data-stu-id="5a688-106">To open the **Engineering change management parameters** page, go to **Engineering change management \> Setup \> Engineering change management parameters**.</span></span> <span data-ttu-id="5a688-107">然后，您可以按照本主题其余部分中的说明设置字段。</span><span class="sxs-lookup"><span data-stu-id="5a688-107">You can then set the fields as described in the remaining sections of this topic.</span></span>
+
+## <a name="release-control-tab"></a><span data-ttu-id="5a688-108">发布控制选项卡</span><span class="sxs-lookup"><span data-stu-id="5a688-108">Release control tab</span></span>
+
+<span data-ttu-id="5a688-109">下表介绍 **工程更改管理参数** 页面的 **发布控制** 选项卡上可用的字段。</span><span class="sxs-lookup"><span data-stu-id="5a688-109">The following table describes the fields that are available on the **Release control** tab of the **Engineering change management parameters** page.</span></span> <span data-ttu-id="5a688-110">这些字段影响发布产品结构流程。</span><span class="sxs-lookup"><span data-stu-id="5a688-110">These fields affect the release product structure process.</span></span>
+
+| <span data-ttu-id="5a688-111">字段</span><span class="sxs-lookup"><span data-stu-id="5a688-111">Field</span></span> | <span data-ttu-id="5a688-112">说明</span><span class="sxs-lookup"><span data-stu-id="5a688-112">Description</span></span> |
+|---|---|
+| <span data-ttu-id="5a688-113">物料编号规则</span><span class="sxs-lookup"><span data-stu-id="5a688-113">Item number rule</span></span> | <span data-ttu-id="5a688-114">选择在将产品发布给法人时应如何定义物料编号。</span><span class="sxs-lookup"><span data-stu-id="5a688-114">Select how the item number should be defined when the product is released to a legal entity.</span></span> <span data-ttu-id="5a688-115">如果接收法人中的产品编号应与工程公司中的产品编号匹配，选择 *工程产品编号*。</span><span class="sxs-lookup"><span data-stu-id="5a688-115">Select *Engineering product number* if the product number in the receiving legal entity should match the product number in the engineering company.</span></span> <span data-ttu-id="5a688-116">如果产品应该采用接收法人中产品编号的编号规则中的下一个编号，选择 *本地物料编号规则*。</span><span class="sxs-lookup"><span data-stu-id="5a688-116">Select *Local item number sequence* if the product should take the next number in the number sequence for product numbers in the receiving legal entity.</span></span> |
+| <span data-ttu-id="5a688-117">物料清单名称规则</span><span class="sxs-lookup"><span data-stu-id="5a688-117">BOM name rule</span></span> | <span data-ttu-id="5a688-118">选择在法人中接收（发布）产品时如何定义物料清单 (BOM) 的名称。</span><span class="sxs-lookup"><span data-stu-id="5a688-118">Select how the name of the bill of materials (BOM) is defined when the product is received (released) in a legal entity.</span></span> <span data-ttu-id="5a688-119">选择 *工程名称* 或 *接收物料编号*。</span><span class="sxs-lookup"><span data-stu-id="5a688-119">Select either *Engineering name* or *Receiving item number*.</span></span> |
+| <span data-ttu-id="5a688-120">工艺路线名称规则</span><span class="sxs-lookup"><span data-stu-id="5a688-120">Route name rule</span></span> | <span data-ttu-id="5a688-121">选择在法人中接收（发布）产品的工艺路线时应如何定义工艺路线名称。</span><span class="sxs-lookup"><span data-stu-id="5a688-121">Select how the route name should be defined when the route of a product is received (released) in a legal entity.</span></span> <span data-ttu-id="5a688-122">选择 *工程名称* 或 *接收物料编号*。</span><span class="sxs-lookup"><span data-stu-id="5a688-122">Select either *Engineering name* or *Receiving item number*.</span></span> |
+| <span data-ttu-id="5a688-123">运行物料清单检查</span><span class="sxs-lookup"><span data-stu-id="5a688-123">Run BOM check</span></span> | <span data-ttu-id="5a688-124">选择在法人中接收（发布）产品时是否将运行 BOM 检查。</span><span class="sxs-lookup"><span data-stu-id="5a688-124">Select whether a BOM check will be run when the product is received (released) in a legal entity.</span></span> |
+| <span data-ttu-id="5a688-125">无效物料清单的发布行为</span><span class="sxs-lookup"><span data-stu-id="5a688-125">Release behavior of inactive BOM</span></span> | <span data-ttu-id="5a688-126">选择在具有无效 BOM 时是否可以发布产品。</span><span class="sxs-lookup"><span data-stu-id="5a688-126">Select whether a product can be released if it has an inactive BOM.</span></span> <span data-ttu-id="5a688-127">选择 *接受*、*仅警告* 或 *不允许*。</span><span class="sxs-lookup"><span data-stu-id="5a688-127">Select *Accept*, *Warning only*, or *Not allowed*.</span></span> |
+| <span data-ttu-id="5a688-128">无效工艺路线的发布行为</span><span class="sxs-lookup"><span data-stu-id="5a688-128">Release behavior of inactive route</span></span> | <span data-ttu-id="5a688-129">选择在具有无效工艺路线时是否可以发布产品。</span><span class="sxs-lookup"><span data-stu-id="5a688-129">Select whether a product can be released if it has an inactive route.</span></span> <span data-ttu-id="5a688-130">选择 *接受*、*仅警告* 或 *不允许*。</span><span class="sxs-lookup"><span data-stu-id="5a688-130">Select *Accept*, *Warning only*, or *Not allowed*.</span></span>|
+| <span data-ttu-id="5a688-131">产品接受</span><span class="sxs-lookup"><span data-stu-id="5a688-131">Product acceptance</span></span> | <span data-ttu-id="5a688-132">选择在可以在法人中发布产品之前是否需要额外的接受步骤。</span><span class="sxs-lookup"><span data-stu-id="5a688-132">Select whether an additional step for acceptance is required before the product can be released in the legal entity.</span></span> <span data-ttu-id="5a688-133">选择 *手动* 以添加接受步骤。</span><span class="sxs-lookup"><span data-stu-id="5a688-133">Select *Manual* to add the acceptance step.</span></span> <span data-ttu-id="5a688-134">在这种情况下，**打开产品发布** 页面将显示产品。</span><span class="sxs-lookup"><span data-stu-id="5a688-134">In this case, the **Open product releases** page will show the products.</span></span> <span data-ttu-id="5a688-135">选择 *自动* 以在发布产品及其发布产品结构之后，立即在目标法人中的 **已发布产品** 页面上直接显示产品。</span><span class="sxs-lookup"><span data-stu-id="5a688-135">Select *Automatic* to show the product directly on the **Released products** page in the target legal entity immediately after the product is released together with its release product structure.</span></span> |
+
+## <a name="engineering-change-management-tab"></a><span data-ttu-id="5a688-136">工程更改管理选项卡</span><span class="sxs-lookup"><span data-stu-id="5a688-136">Engineering change management tab</span></span>
+
+<span data-ttu-id="5a688-137">下表介绍 **工程更改管理参数** 页面的 **工程更改管理** 选项卡上可用的字段。</span><span class="sxs-lookup"><span data-stu-id="5a688-137">The following table describes the fields that are available on the **Engineering change management** tab of the **Engineering change management parameters** page.</span></span> <span data-ttu-id="5a688-138">这些设置将影响工程更改管理流程。</span><span class="sxs-lookup"><span data-stu-id="5a688-138">These settings affect the engineering change management process.</span></span>
+
+| <span data-ttu-id="5a688-139">字段</span><span class="sxs-lookup"><span data-stu-id="5a688-139">Field</span></span> | <span data-ttu-id="5a688-140">说明</span><span class="sxs-lookup"><span data-stu-id="5a688-140">Description</span></span> |
+|---|---|
+| <span data-ttu-id="5a688-141">类别</span><span class="sxs-lookup"><span data-stu-id="5a688-141">Category</span></span> | <span data-ttu-id="5a688-142">创建工程更改请求时将使用的默认类别。</span><span class="sxs-lookup"><span data-stu-id="5a688-142">The default category that will be used when an engineering change request is created.</span></span> |
+| <span data-ttu-id="5a688-143">优先级</span><span class="sxs-lookup"><span data-stu-id="5a688-143">Priority</span></span> | <span data-ttu-id="5a688-144">创建工程更改请求时将使用的默认优先级。</span><span class="sxs-lookup"><span data-stu-id="5a688-144">The default priority that will be used when an engineering change request is created.</span></span> |
+| <span data-ttu-id="5a688-145">严重性规则</span><span class="sxs-lookup"><span data-stu-id="5a688-145">Severity rule</span></span> | <span data-ttu-id="5a688-146">选择应如何建立工程更改订单的严重性。</span><span class="sxs-lookup"><span data-stu-id="5a688-146">Select how the severity of an engineering change order should be established.</span></span> <span data-ttu-id="5a688-147">如果用户期望在 **严重性** 字段中输入值，选择 *手动*。</span><span class="sxs-lookup"><span data-stu-id="5a688-147">Select *Manual* if the user is expected to enter a value in the **Severity** field.</span></span> <span data-ttu-id="5a688-148">选择 *计算*，以在操作窗格上选择工程更改订单的 **计算严重性** 时让系统计算 **严重性** 字段的值。</span><span class="sxs-lookup"><span data-stu-id="5a688-148">Select *Calculate* to have the system calculate the value of the **Severity** field when you select **Calculate severity** on the Action Pane of the engineering change order.</span></span> <span data-ttu-id="5a688-149">在这种情况下，系统将使用在 **严重性规则集** 页面上定义的严重性规则。</span><span class="sxs-lookup"><span data-stu-id="5a688-149">In this case, the system will use the severity rules that are defined on the **Severity rule set** page.</span></span> <span data-ttu-id="5a688-150">选择 *自动计算* 以根据严重性规则集自动计算和填充 **严重性** 字段的值。</span><span class="sxs-lookup"><span data-stu-id="5a688-150">Select *Calculate automatically* to have the value of the **Severity** field automatically calculated and filled in according to the severity rule sets.</span></span> |
+| <span data-ttu-id="5a688-151">重新发布受影响的产品</span><span class="sxs-lookup"><span data-stu-id="5a688-151">Re-release impacted products</span></span> | <span data-ttu-id="5a688-152">通过工程更改订单重新发布产品时，此字段适用。</span><span class="sxs-lookup"><span data-stu-id="5a688-152">This field is applicable when you re-release products via an engineering change order.</span></span> <span data-ttu-id="5a688-153">您可以选择应该在 **发布** 对话框中提出所有产品还是仅受影响的产品。</span><span class="sxs-lookup"><span data-stu-id="5a688-153">You can select whether all products or only the affected products should be proposed in the **Releases** dialog box.</span></span> |
+| <span data-ttu-id="5a688-154">要发布的物料清单级别</span><span class="sxs-lookup"><span data-stu-id="5a688-154">BOM levels to release</span></span> | <span data-ttu-id="5a688-155">要发布的 BOM 级别的深度。</span><span class="sxs-lookup"><span data-stu-id="5a688-155">The depth of the BOM level to release.</span></span> <span data-ttu-id="5a688-156">如果 BOM 具有比在此处指定的值更高的级别（即，如果更深），仅发布高于指定值的级别。</span><span class="sxs-lookup"><span data-stu-id="5a688-156">If the BOM has more levels (that is, if it's deeper) than the value that is specified here, only the levels up through the specified value will be released.</span></span> |

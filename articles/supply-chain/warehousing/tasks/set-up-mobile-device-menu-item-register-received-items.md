@@ -1,0 +1,62 @@
+---
+title: 设置登记已接收物料的移动设备菜单项
+description: 此主题重点介绍设置移动设备菜单项。
+author: ShylaThompson
+manager: tfehr
+ms.date: 08/16/2019
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: WHSRFMenuItem, WHSRFMenu, WHSRFDefaultData
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.search.industry: Distribution
+ms.author: kamaybac
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f636a1f3d598a069c3922160eedbe05b68bc91eb
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423354"
+---
+# <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a><span data-ttu-id="dba0a-103">设置登记已接收物料的移动设备菜单项</span><span class="sxs-lookup"><span data-stu-id="dba0a-103">Set up a mobile device menu item to register received items</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+<span data-ttu-id="dba0a-104">此主题重点介绍设置移动设备菜单项。</span><span class="sxs-lookup"><span data-stu-id="dba0a-104">This topic focuses on the setup of a mobile device menu item.</span></span> <span data-ttu-id="dba0a-105">此菜单项用于通过采购订单采购的物料的登记和接收。</span><span class="sxs-lookup"><span data-stu-id="dba0a-105">This menu item is used for registration of the receipt of items ordered via purchase orders.</span></span> 
+
+<span data-ttu-id="dba0a-106">您可以使用演示数据公司 USMF 运行此指南。</span><span class="sxs-lookup"><span data-stu-id="dba0a-106">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="dba0a-107">该过程专门面向仓库经理。</span><span class="sxs-lookup"><span data-stu-id="dba0a-107">This procedure is intended for the warehouse manager.</span></span>
+
+
+## <a name="create-a-mobile-device-menu-item"></a><span data-ttu-id="dba0a-108">创建移动设备菜单项</span><span class="sxs-lookup"><span data-stu-id="dba0a-108">Create a mobile device menu item</span></span>
+1. <span data-ttu-id="dba0a-109">在导航窗格中，转到 **模块 > 仓库管理 > 设置 > 移动设备 > 移动设备菜单项**。</span><span class="sxs-lookup"><span data-stu-id="dba0a-109">In the navigation pane, go to **Modules > Warehouse management > Setup > Mobile device > Mobile device menu items**.</span></span>
+2. <span data-ttu-id="dba0a-110">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="dba0a-110">Select **New**.</span></span>
+3. <span data-ttu-id="dba0a-111">在 **菜单项名称** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="dba0a-111">In the **Menu item name** field, type a value.</span></span> <span data-ttu-id="dba0a-112">这是移动设备菜单项的唯一标识符。</span><span class="sxs-lookup"><span data-stu-id="dba0a-112">This is the unique identifier for this mobile device menu item.</span></span> <span data-ttu-id="dba0a-113">例如，您可以键入 `My PO registration`。</span><span class="sxs-lookup"><span data-stu-id="dba0a-113">For example, you could type `My PO registration`.</span></span>  
+4. <span data-ttu-id="dba0a-114">在 **标题** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="dba0a-114">In the **Title** field, type a value.</span></span> <span data-ttu-id="dba0a-115">这是标题，将向移动设备用户显示。</span><span class="sxs-lookup"><span data-stu-id="dba0a-115">This is the title, which will be displayed to the user on the mobile device.</span></span> <span data-ttu-id="dba0a-116">例如，您可以键入 `PO registration`。</span><span class="sxs-lookup"><span data-stu-id="dba0a-116">For example, you could type `PO registration`.</span></span>  
+5. <span data-ttu-id="dba0a-117">在 **模式** 字段中，选择 **工作**。</span><span class="sxs-lookup"><span data-stu-id="dba0a-117">In the **Mode** field, select **Work**.</span></span> <span data-ttu-id="dba0a-118">登记采购订单的现有接收量会创建将物料从接收区移到库存的工作。</span><span class="sxs-lookup"><span data-stu-id="dba0a-118">Registration of on-hand quantities received for a purchase order line will create work to move the items from the receiving area into the inventory.</span></span> <span data-ttu-id="dba0a-119">在登记物料前不会创建工作。</span><span class="sxs-lookup"><span data-stu-id="dba0a-119">Work isn't created until the items are registered.</span></span> <span data-ttu-id="dba0a-120">因此，将 **使用现有工作** 选项的设置留为 **否**。</span><span class="sxs-lookup"><span data-stu-id="dba0a-120">Therefore, leave the **Use existing work** option set to **No**.</span></span>
+6. <span data-ttu-id="dba0a-121">在 **常规** 部分的 **工作创建流程** 字段中，选择 **接收的采购订单物料**。</span><span class="sxs-lookup"><span data-stu-id="dba0a-121">In the **Work creation process** field of the **General** section, select **Purchase order item receiving**.</span></span>
+    - <span data-ttu-id="dba0a-122">现有采购订单行必须具有唯一标识符才能在仓库中登记。</span><span class="sxs-lookup"><span data-stu-id="dba0a-122">A purchase order line must be uniquely identified before on-hand can be registered in the warehouse.</span></span> <span data-ttu-id="dba0a-123">在此场景中，移动设备将登记采购订单号和物料编号，并且这将允许系统识别采购订单行。</span><span class="sxs-lookup"><span data-stu-id="dba0a-123">In this scenario, the mobile device will register the purchase order number and item number, and this will allow the system to identify the PO line.</span></span> <span data-ttu-id="dba0a-124">将会创建入库工作，并且另一工作人员可承担该工作。</span><span class="sxs-lookup"><span data-stu-id="dba0a-124">Put away work will be created and can be picked up by another worker.</span></span> <span data-ttu-id="dba0a-125"> 您选择的工作创建方法确定哪些字段会出现在 **常规** 快速选项卡上。</span><span class="sxs-lookup"><span data-stu-id="dba0a-125">The work creation method that you select determines which fields become available on the **General** FastTab.</span></span>  
+    - <span data-ttu-id="dba0a-126">如果您选择 **使用默认数据** 选项，**默认数据** 按钮将会启用。</span><span class="sxs-lookup"><span data-stu-id="dba0a-126">If you select the **Use default data** option, the **Default data** button is enabled.</span></span> <span data-ttu-id="dba0a-127">您可以在这里选择字段从而显示工作人员在日常工作中通常需要的数据，以在移动设备上显示这些值。</span><span class="sxs-lookup"><span data-stu-id="dba0a-127">Here you can select fields to display data that a worker typically needs in their daily work, so that these values are shown on the mobile device.</span></span>  
+    - <span data-ttu-id="dba0a-128">**牌照分组** 参数与分配给接收物料的单位序列组同样有效。</span><span class="sxs-lookup"><span data-stu-id="dba0a-128">The **License plate grouping** parameter works in combination with the unit sequence group that's assigned to the item that's being received.</span></span> <span data-ttu-id="dba0a-129">您可以指定是否应将少于或多于一个托盘的收据分组到一个牌照中，或划分为适用于每个单位的单独牌照。</span><span class="sxs-lookup"><span data-stu-id="dba0a-129">You can specify whether receipts of less than or more than one pallet should be grouped into one license plate, or divided into a separate license plate for each unit.</span></span>  
+    - <span data-ttu-id="dba0a-130">如果您选择 **生成牌照** 选项卡，将根据编号规则选项生成唯一牌照号。</span><span class="sxs-lookup"><span data-stu-id="dba0a-130">If you select the **Generate license plate** option, this generates a unique license plate number based on the number sequence selection.</span></span>  
+    - <span data-ttu-id="dba0a-131">您可以选择创建工作时使用的模板。</span><span class="sxs-lookup"><span data-stu-id="dba0a-131">You can select the template that will be used when work is created.</span></span> <span data-ttu-id="dba0a-132">例如，如果您登记了采购订单中的某个物料，那么会基于工作模板生成入库工作。</span><span class="sxs-lookup"><span data-stu-id="dba0a-132">For example, if you register an item for a purchase order, the put away work will be generated based on the work template.</span></span> <span data-ttu-id="dba0a-133">如果您没有选择工作模板，则系统将基于与模板相关的查询条件分配模板。</span><span class="sxs-lookup"><span data-stu-id="dba0a-133">If you don't select a work template here, the system will assign a template based on the query criteria that are associated with the templates.</span></span>  
+    - <span data-ttu-id="dba0a-134">如果处置代码在移动设备上显示，工作人员可评估物料的状态和质量，并选择相应代码。</span><span class="sxs-lookup"><span data-stu-id="dba0a-134">If disposition codes are displayed on the mobile device, workers can evaluate the status or quality of the items, and select the appropriate code.</span></span> <span data-ttu-id="dba0a-135">处置代码规则决定了物料是否可用于其他仓库流程。</span><span class="sxs-lookup"><span data-stu-id="dba0a-135">The rules for the disposition code determine whether the items will be available to other warehouse processes.</span></span> <span data-ttu-id="dba0a-136">规则还决定哪个库位指令用于已创建的工作。</span><span class="sxs-lookup"><span data-stu-id="dba0a-136">The rules also determine which location directive is used for the work that's created.</span></span>   
+    - <span data-ttu-id="dba0a-137">如果您选择 **批处置代码** 选项，工作人员可评估批次的状态和质量，并选择相应处置代码。</span><span class="sxs-lookup"><span data-stu-id="dba0a-137">If you select the **Batch disposition codes** option, workers can evaluate the status or quality of a batch, and select the appropriate disposition code.</span></span> <span data-ttu-id="dba0a-138">批处置代码设置的规则决定了该批次是否可用于其他仓库流程。</span><span class="sxs-lookup"><span data-stu-id="dba0a-138">The rules that are set on the batch disposition code determine whether the batch will be available to other warehouse processes.</span></span>  
+    - <span data-ttu-id="dba0a-139">如果您选择 **打印标签** 选项，在接收物料时会自动打印牌照标签。</span><span class="sxs-lookup"><span data-stu-id="dba0a-139">If you select the **Print labels** option, a license plate label will be printed automatically when items are received.</span></span>  
+7. <span data-ttu-id="dba0a-140">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="dba0a-140">Select **Save**.</span></span>
+8. <span data-ttu-id="dba0a-141">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="dba0a-141">Close the page.</span></span>
+
+## <a name="add-the-menu-item-to-a-mobile-device-menu"></a><span data-ttu-id="dba0a-142">添加菜单项到一个移动设备菜单</span><span class="sxs-lookup"><span data-stu-id="dba0a-142">Add the menu item to a mobile device menu</span></span>
+1. <span data-ttu-id="dba0a-143">在导航窗格中，转到 **模块 > 仓库管理 > 设置 > 移动设备 > 移动设备菜单**。</span><span class="sxs-lookup"><span data-stu-id="dba0a-143">In the navigation pane, go to **Modules > Warehouse management > Setup > Mobile device > Mobile device menu**.</span></span>
+2. <span data-ttu-id="dba0a-144">使用 **快速筛选** 来筛选值为 `inbound` 的 **名称** 字段。</span><span class="sxs-lookup"><span data-stu-id="dba0a-144">Use the **Quick Filter** to filter on the **Name** field with a value of `inbound`.</span></span>
+3. <span data-ttu-id="dba0a-145">选择 **编辑**。</span><span class="sxs-lookup"><span data-stu-id="dba0a-145">Select **Edit**.</span></span>
+4. <span data-ttu-id="dba0a-146">在可用菜单和物料树形图中，选择您先前创建的菜单项。</span><span class="sxs-lookup"><span data-stu-id="dba0a-146">In the Available menus and items tree, select the menu item that you created before.</span></span>
+5. <span data-ttu-id="dba0a-147">选择向右箭头。</span><span class="sxs-lookup"><span data-stu-id="dba0a-147">Select the arrow that points to the right.</span></span>
+6. <span data-ttu-id="dba0a-148">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="dba0a-148">Select **Save**.</span></span>
+7. <span data-ttu-id="dba0a-149">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="dba0a-149">Close the page.</span></span>
+
