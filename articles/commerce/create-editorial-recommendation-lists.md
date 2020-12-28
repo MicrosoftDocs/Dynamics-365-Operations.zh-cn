@@ -20,11 +20,11 @@ ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 9826785700dcc1a35e6199b7aeff4e06b6d9da39
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665049"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410488"
 ---
 # <a name="manually-create-curated-recommendations"></a>手动创建策划的建议
 
@@ -39,14 +39,14 @@ ms.locfileid: "3665049"
 若要创建精选产品建议列表，请执行以下步骤。
 
 1. 转到 **Retail 和 Commerce &gt; 产品建议 &gt; 建议列表**。
-1. 选择**新建**。
-1. 在**列表 ID** 字段中，输入一个值。
-1. 在**列表名称**字段中，输入一个值。
-    - **列表名称**是将在**产品集合**模块的精选列表部分中显示的列表标题。
-1. 若要向列表添加产品，请选择**添加产品**。
-1. 若要更改列表中的产品顺序，请在**显示顺序**列中输入一个值。
+1. 选择 **新建**。
+1. 在 **列表 ID** 字段中，输入一个值。
+1. 在 **列表名称** 字段中，输入一个值。
+    - **列表名称** 是将在 **产品集合** 模块的精选列表部分中显示的列表标题。
+1. 若要向列表添加产品，请选择 **添加产品**。
+1. 若要更改列表中的产品顺序，请在 **显示顺序** 列中输入一个值。
     - 如果两个产品的显示顺序值相同，则这两个结果的最终顺序可能与后端不同。
-1. 选择**保存**以保存该列表。
+1. 选择 **保存** 以保存该列表。
 
 ## <a name="example-list"></a>示例列表
 

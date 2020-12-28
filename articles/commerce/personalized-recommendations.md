@@ -20,11 +20,11 @@ ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
-ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3700858"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410457"
 ---
 # <a name="enable-personalized-recommendations"></a>启用个性化建议
 
@@ -49,11 +49,11 @@ ms.locfileid: "3700858"
 
 若要打开个性化，请执行以下步骤。
 
-1. 在 Commerce headquarters 中，搜索**功能管理**。
-1. 选择**所有**查看可用功能列表。 
-1. 在搜索框中，输入**建议**。
-1. 选择**个性化产品建议**功能。
-1. 在**个性化产品建议**属性窗格中，选择**立即启用**。
+1. 在 Commerce headquarters 中，搜索 **功能管理**。
+1. 选择 **所有** 查看可用功能列表。 
+1. 在搜索框中，输入 **建议**。
+1. 选择 **个性化产品建议** 功能。
+1. 在 **个性化产品建议** 属性窗格中，选择 **立即启用**。
 
 ![打开个性化](./media/FeatureManagement_Personalized.PNG)
 
@@ -100,9 +100,9 @@ ms.locfileid: "3700858"
 
 1. 打开一个包含产品集合模块的现有站点构建器页面。
 1. 在左侧导航窗格中，选择该产品集合模块。
-1. 在左侧导航窗格中，在**产品**下，选择列表。
-1. 在**选择产品列表配置**对话框，在**类型**下，选择列表类型。
-1. 选择**应用个性化**复选框，然后选择**确定**。
+1. 在左侧导航窗格中，在 **产品** 下，选择列表。
+1. 在 **选择产品列表配置** 对话框，在 **类型** 下，选择列表类型。
+1. 选择 **应用个性化** 复选框，然后选择 **确定**。
 
     ![将个性化应用于热门列表](./media/ApplyPersonalizationToTrending.PNG)
 

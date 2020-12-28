@@ -19,15 +19,15 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712392"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417514"
 ---
 # <a name="leave-and-absence-overview"></a>休假和缺勤概览
 
-Dynamics 365 Human Resources 帮助您向工作人员提供出色的休假福利。 **休假和缺勤**工作区为创建新的休假计划提供灵活的框架。 另外还提供用于管理请求的工作流，并为员工提供用于请求休假的直观的自助服务页面。 分析可以帮助您的组织衡量和监控休假计划的休假余额和使用情况。
+Dynamics 365 Human Resources 帮助您向工作人员提供出色的休假福利。 **休假和缺勤** 工作区为创建新的休假计划提供灵活的框架。 另外还提供用于管理请求的工作流，并为员工提供用于请求休假的直观的自助服务页面。 分析可以帮助您的组织衡量和监控休假计划的休假余额和使用情况。
 
 ## <a name="set-up-leave-and-absence"></a>设置休假和缺勤
 
@@ -49,7 +49,7 @@ Dynamics 365 Human Resources 帮助您向工作人员提供出色的休假福利
 
 ## <a name="request-time-off-and-manage-requests"></a>请求休息时间和管理请求
 
-您的员工可以提交休息时间请求，您可以在**员工自助服务**工作区进行管理。
+您的员工可以提交休息时间请求，您可以在 **员工自助服务** 工作区进行管理。
 
 [请求休假](hr-employee-self-service-request-time-off.md)
 [管理休假和缺勤申请](hr-employee-self-service-manage-requests.md)

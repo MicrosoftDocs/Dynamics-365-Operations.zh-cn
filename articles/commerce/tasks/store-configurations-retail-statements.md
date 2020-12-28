@@ -18,11 +18,11 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e255c58997ed1c0ad5614b15867f14714a8bcfc8
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107390"
+ms.locfileid: "4410639"
 ---
 # <a name="store-configurations-for-retail-statements"></a>零售报表的商店配置
 
@@ -30,10 +30,10 @@ ms.locfileid: "4107390"
 
 此程序会逐步演示商店的配置（这会影响到如何创建和过帐商业报表）。 商店的财务维度将在另一个程序中论述。 此程序使用 USRT 演示公司。
 
-1. 在 **导航窗格** 中，转到 **模块 > Retail 和 Commerce > 渠道 > 商店 > 所有商店** 。
+1. 在 **导航窗格** 中，转到 **模块 > Retail 和 Commerce > 渠道 > 商店 > 所有商店**。
 2. 在列表中，找到并选择所需记录。
 3. 在列表中，单击所选行中的链接。
-4. 单击 **编辑** 。
+4. 单击 **编辑**。
 5. **报表/结算** 快速选项卡中的设置会影响商店的报表创建、验证和过帐。 展开 **报表/结算** 快速选项卡。  
 6. 在 **报表方法** 字段中，选择您想要用于报表行分组依据的方法。  
 7. 如果在从报表创建批处理作业创建报表时，每天仅可创建一份报表，请在 **每天一个报表** 中选择“是”。  

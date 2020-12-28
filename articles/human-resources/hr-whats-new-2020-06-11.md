@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 0720b2024a865fcd42cd80fd905586d626388f8f
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3711786"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417502"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>Dynamics 365 Human Resources（2020 年 6 月 11 日）新增功能或更改
 
@@ -31,11 +31,11 @@ ms.locfileid: "3711786"
 
 ## <a name="streamlined-employee-form-sometimes-causes-child-form-close-x-buttons-to-stop-working-442369"></a>简化的员工窗体有时导致子窗体关闭 (X) 按钮停止工作 (442369)
 
-当新的**工作人员**窗体启用后，关闭 (**X**) 按钮有时对子窗体不起作用。 此问题是间歇性的。 您可以在离开然后返回窗体后关闭窗体。 例如，您可以选择左侧的菜单项，然后导航回**工作人员**窗体将其关闭。 本周的发布将解决此问题。 
+当新的 **工作人员** 窗体启用后，关闭 (**X**) 按钮有时对子窗体不起作用。 此问题是间歇性的。 您可以在离开然后返回窗体后关闭窗体。 例如，您可以选择左侧的菜单项，然后导航回 **工作人员** 窗体将其关闭。 本周的发布将解决此问题。 
 
 ## <a name="the-worker-personal-contact-person-entity-doesnt-export-personal-contacts-with-a-parent-relationship-type"></a>工作人员个人联系人实体不能导出具有父关系类型的个人联系人
 
-通过此发布，**工作人员个人联系人**实体可以导出所有关系类型。
+通过此发布，**工作人员个人联系人** 实体可以导出所有关系类型。
 
 ## <a name="the-hcmpositionworkerassignmentv2entity-should-be-part-of-the-ceridian-payroll-integration-package-by-default-448506"></a>默认情况下，HcmPositionWorkerAssignmentV2Entity 应该是 Ceridian 工资单集成包的一部分 (448506)
 
@@ -90,7 +90,7 @@ DMF 实体现在可用于暂停应计。
 
 ## <a name="new-platform-capabilities"></a>新平台功能 
 
-您将可以通过使用个性化将字段设为必填字段。 此功能需要您启用**已保存视图**。
+您将可以通过使用个性化将字段设为必填字段。 此功能需要您启用 **已保存视图**。
 
 ## <a name="configure-the-name-of-employee-self-service"></a>配置员工自助服务的名称
 

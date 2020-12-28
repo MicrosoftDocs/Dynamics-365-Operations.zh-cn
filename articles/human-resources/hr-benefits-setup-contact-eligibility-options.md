@@ -19,19 +19,19 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 68364b0cc1c579a3ee9813474c9d3f6e4df1c05d
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430754"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417479"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>配置个人联系人资格选项
 
 本文向您展示如何在 Microsoft Dynamics 365 Human Resources 中配置要在福利中使用的个人联系人的类型。 个人联系人可以是受益人或依赖方。 
 
-1. 在**福利管理**工作区中，在**设置**下，选择**个人联系人资格选项**。
+1. 在 **福利管理** 工作区中，在 **设置** 下，选择 **个人联系人资格选项**。
 
-2. 选择**新建**。
+2. 选择 **新建**。
 
 3. 为以下字段指定值：
 
@@ -44,4 +44,4 @@ ms.locfileid: "3430754"
    | **关系** | 指定个人联系人和员工之间的关系。 仅当联系人资格代码设置为“关系”时，此字段才有效。 |
    | **帐龄** | 福利计划的合格个人联系人的最大年龄。 仅在选择关系时此字段才有效。 此年龄将与计算出的个人联系人的年龄进行比较。 计算的年龄为：（覆盖范围日期 – 个人联系人的出生日期/365）。 此数字始终是整数。 |
 
-4. 选择**保存**。 
+4. 选择 **保存**。 

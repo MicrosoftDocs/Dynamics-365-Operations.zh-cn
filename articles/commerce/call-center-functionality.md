@@ -20,11 +20,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 7091e8ba7940e358d77c69c63e26c8f3d9337713
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107248"
+ms.locfileid: "4410632"
 ---
 # <a name="call-center-sales-functionality"></a>呼叫中心销售功能
 

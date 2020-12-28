@@ -20,11 +20,11 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: a34ae8084c0ad55221f4ab93eb8c6481fa8c4771
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021706"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410454"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>配置销售点 (POS) 的现金面额
 
@@ -34,13 +34,13 @@ ms.locfileid: "3021706"
 
 ## <a name="define-denominations"></a>定义面额
 
-面额在商店属性页中的**设置** \> **现金清点**选项根据商店设置。
+面额在商店属性页中的 **设置** \> **现金清点** 选项根据商店设置。
 
 ![现金清点选项](./media/image1-denomination.png)
 
 若要定义面额：
 
-1. 单击**新建**。
+1. 单击 **新建**。
 1. 指定类型（硬币还是纸币）。
 1. 指定金额（值）。
 

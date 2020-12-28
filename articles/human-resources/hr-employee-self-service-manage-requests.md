@@ -19,19 +19,19 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 365d933a2d33b7e1929f9f68e02050b624e30839
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429604"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417530"
 ---
 # <a name="manage-leave-and-absence-requests"></a>管理休假和缺勤请求
 
-经理可以从 Dynamics 365 Human Resources 中的**员工自助服务**工作区管理休息时间请求。 请求可以是简单的一天请求，也可以是包含多个休假和缺勤类型的多天请求。 如果不启用工作流，将自动批准请求。 如果启用工作流，可以自动执行审批，也可以要求签核，具体取决于工作流配置。
+经理可以从 Dynamics 365 Human Resources 中的 **员工自助服务** 工作区管理休息时间请求。 请求可以是简单的一天请求，也可以是包含多个休假和缺勤类型的多天请求。 如果不启用工作流，将自动批准请求。 如果启用工作流，可以自动执行审批，也可以要求签核，具体取决于工作流配置。
 
-1. 在**员工自助服务**工作区中，选择**我的团队**。
+1. 在 **员工自助服务** 工作区中，选择 **我的团队**。
 
-2. 在**我的团队信息**下，选择**休假和缺勤**选项卡。 
+2. 在 **我的团队信息** 下，选择 **休假和缺勤** 选项卡。 
 
 3. 根据需要查看和审批团队成员的休息时间请求。
 

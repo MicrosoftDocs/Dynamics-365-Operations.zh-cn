@@ -19,19 +19,19 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: d332f7f355c138cc058185f1b9578a67737fb1d0
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430616"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417417"
 ---
 # <a name="set-up-employment-types"></a>设置雇用类型
 
 在 Dynamics 365 Human Resources 中设置雇用类型以匹配您的工作人员。
 
-1. 在**人事管理**工作区中，在**设置**下，选择**雇用类型**。
+1. 在 **人事管理** 工作区中，在 **设置** 下，选择 **雇用类型**。
 
-2. 选择**新建**。
+2. 选择 **新建**。
 
 3. 为以下字段指定值：
 
@@ -40,4 +40,4 @@ ms.locfileid: "3430616"
    | **雇用类型** | 雇用类型的唯一标识。 |
    | **说明** | 类型类型的描述。 |
 
-4. 选择**保存**。 
+4. 选择 **保存**。 

@@ -19,11 +19,11 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: a3e6450c358d12dc62c2ffa20e7ff529be86bbe5
-ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3379251"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410500"
 ---
 # <a name="store-inventory-management"></a>商店库存管理
 
@@ -44,9 +44,9 @@ POS 应用程序当前在 POS 中不支持以下跟踪维度：
 
 POS 为以下维度提供有限支持。 换句话说，POS 可能根据仓库或商店设置配置在库存交易记录中自动输入这些维度中的一部分。 如果在 Commerce Headquarters 中手动输入销售交易记录，POS 将不以维度支持方式完全支持这些维度。 
 
-- **仓库位置** – 使用新的[入站操作](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)和[出站操作](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) POS 操作时，用户可以选择物料的接收仓库库存位置或出站转移单物料的发出仓库库存位置。 如果使用过时的**领料和接收**操作，为出站转移的接收和领料提供的位置管理支持有限。 仅当为物料和商店仓库开启了**使用仓库管理流程**选项，才提供此支持。 现在不能为**存货盘点**操作或**库存查找**操作使用库存位置。
-- **牌照** - 仅当对物料和商店仓库启用了**使用仓库管理流程**选项时，牌照才适用。 在 POS，如果使用**入站操作**操作或**领料和接收**操作（已开启了仓库管理流程）在商店库存中接收了库存，并且已经将选择了用于接收物料的位置链接到了需要牌照控制的位置配置文件，POS 应用程序将向接收行系统化应用牌照。 POS 用户不能更改或管理此牌照数据。 如果需要全面管理牌照，建议商店使用[仓库应用](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/install-configure-warehousing-app)或后勤办公室客户端管理这些物料的收货。
-- **序列号** - POS 应用程序有限支持要在 POS 中使用序列号物料创建且包含序列化物料的订单的交易记录销售行上登记的单个序列号。 不会针对库存中已登记的序列号验证此序列号。 如果某个销售订单是在呼叫中心渠道注册或通过企业资源规划 (ERP)履行的，并且在 ERP 中履行过程中将多个序列号登记到了一个销售行中，那么如果在 POS 中为这些订单处理退货，则不能应用或验证这些序列号。 使用**入站操作**操作接收库存时，用户可以[注册或确认接收的序列号](https://docs.microsoft.com/dynamics365/commerce/pos-serialized-items)。
+- **仓库位置** – 使用新的[入站操作](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)和[出站操作](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) POS 操作时，用户可以选择物料的接收仓库库存位置或出站转移单物料的发出仓库库存位置。 如果使用过时的 **领料和接收** 操作，为出站转移的接收和领料提供的位置管理支持有限。 仅当为物料和商店仓库开启了 **使用仓库管理流程** 选项，才提供此支持。 现在不能为 **存货盘点** 操作或 **库存查找** 操作使用库存位置。
+- **牌照** - 仅当对物料和商店仓库启用了 **使用仓库管理流程** 选项时，牌照才适用。 在 POS，如果使用 **入站操作** 操作或 **领料和接收** 操作（已开启了仓库管理流程）在商店库存中接收了库存，并且已经将选择了用于接收物料的位置链接到了需要牌照控制的位置配置文件，POS 应用程序将向接收行系统化应用牌照。 POS 用户不能更改或管理此牌照数据。 如果需要全面管理牌照，建议商店使用[仓库应用](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/install-configure-warehousing-app)或后勤办公室客户端管理这些物料的收货。
+- **序列号** - POS 应用程序有限支持要在 POS 中使用序列号物料创建且包含序列化物料的订单的交易记录销售行上登记的单个序列号。 不会针对库存中已登记的序列号验证此序列号。 如果某个销售订单是在呼叫中心渠道注册或通过企业资源规划 (ERP)履行的，并且在 ERP 中履行过程中将多个序列号登记到了一个销售行中，那么如果在 POS 中为这些订单处理退货，则不能应用或验证这些序列号。 使用 **入站操作** 操作接收库存时，用户可以[注册或确认接收的序列号](https://docs.microsoft.com/dynamics365/commerce/pos-serialized-items)。
 - **库存状态** - 对于使用仓库管理流程且需要库存状态的物料，则不能通过 POS 应用程序设置或修改此状态字段。 库存中接收物料时，使用商店仓库配置中定义的默认库存状态。
 
 > [!NOTE]
@@ -60,12 +60,12 @@ POS 为以下维度提供有限支持。 换句话说，POS 可能根据仓库�
 
 ## <a name="transfer-orders"></a>转移单
 
-转移单可以在 Commerce Headquarters 中或通过 POS 中的[入站操作](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)或[出站操作](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)操作创建。 **入站操作** POS 操作用于创建转移单请求以将库存从其他仓库或商店位置发送到商店。 **出站操作** POS 操作用于创建转移单请求以将库存从商店装运到其他仓库或商店位置。 创建了商店的转移单之后，该商店可通过 POS 中的**入站操作**操作管理该转移单的库存接收。 如果商店将库存装运到其他位置，将使用 POS 中的**出站操作**操作管理该商店的出站装运流程。
+转移单可以在 Commerce Headquarters 中或通过 POS 中的[入站操作](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)或[出站操作](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)操作创建。 **入站操作** POS 操作用于创建转移单请求以将库存从其他仓库或商店位置发送到商店。 **出站操作** POS 操作用于创建转移单请求以将库存从商店装运到其他仓库或商店位置。 创建了商店的转移单之后，该商店可通过 POS 中的 **入站操作** 操作管理该转移单的库存接收。 如果商店将库存装运到其他位置，将使用 POS 中的 **出站操作** 操作管理该商店的出站装运流程。
 
 ## <a name="stock-counts"></a>存货盘点
 
-存货盘点可以是计划或不定期的。 将通过 Commerce Headquarters 创建与商店仓库链接的盘点日记帐单据创建计划的存货盘点。 此日记帐指定必须盘点的物料。 然后，商店可访问这些预定义盘点日记帐，并使用 POS 中的**存货盘点**操作处理。 当商店用户使用 POS 中的**存货盘点**操作时，需要时可以发起计划的存货盘点。 与周期盘点不同，计划外存货盘点没有物料的预定义列表。 当 POS 中存货盘点类型为已完工入库时，它承诺和发送给总部。 然后必须在总部验证盘点并在 Commerce Headquarters 中作为单独的步骤过帐。
+存货盘点可以是计划或不定期的。 将通过 Commerce Headquarters 创建与商店仓库链接的盘点日记帐单据创建计划的存货盘点。 此日记帐指定必须盘点的物料。 然后，商店可访问这些预定义盘点日记帐，并使用 POS 中的 **存货盘点** 操作处理。 当商店用户使用 POS 中的 **存货盘点** 操作时，需要时可以发起计划的存货盘点。 与周期盘点不同，计划外存货盘点没有物料的预定义列表。 当 POS 中存货盘点类型为已完工入库时，它承诺和发送给总部。 然后必须在总部验证盘点并在 Commerce Headquarters 中作为单独的步骤过帐。
 
 ## <a name="inventory-lookup"></a>库存查找
 
-在**库存查找**页可以查看多个商店和仓库的当前现有产品数量。 除了当前现有数量以外，还可以查看各个商店的未来可承诺 (ATP) 数量。 选择要查看的 ATP 数量所属商店，然后选择**显示商店可用性**。 有关可用配置选项的信息，请参阅[计算零售渠道的库存现有量](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels)。
+在 **库存查找** 页可以查看多个商店和仓库的当前现有产品数量。 除了当前现有数量以外，还可以查看各个商店的未来可承诺 (ATP) 数量。 选择要查看的 ATP 数量所属商店，然后选择 **显示商店可用性**。 有关可用配置选项的信息，请参阅[计算零售渠道的库存现有量](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels)。

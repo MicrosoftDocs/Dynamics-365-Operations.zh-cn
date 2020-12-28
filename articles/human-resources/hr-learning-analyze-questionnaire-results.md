@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 0b8e4fd5d9fabd35de067ab61c1e64156ce4f0ec
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429087"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417526"
 ---
 # <a name="analyzing-questionnaire-results"></a>分析调查表结果
 

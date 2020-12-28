@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
-ms.sourcegitcommit: f759d361fa505323b8b171a98024dca9cc9fa0f0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3668317"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417493"
 ---
 # <a name="remove-an-instance"></a>删除实例
 
@@ -34,9 +34,9 @@ ms.locfileid: "3668317"
 Human Resources 测试驱动器设置了 60 天的到期策略。 不过，测试驱动器环境的所有者可以选择通过完成以下步骤来提前结束试用。 
 
 1. 导航到 [Power Apps 管理中心](https://admin.businessplatform.microsoft.com/)。
-2. 选择**环境**。
+2. 选择 **环境**。
 3. 选择测试驱动器环境，其命名模式类似于这样：TestDrive - alias@domain
-4. 选择**删除**并确认决定。 
+4. 选择 **删除** 并确认决定。 
 
 现有的测试驱动器环境将被删除。 在删除后，您可以注册新的测试驱动器环境。 
 
@@ -52,15 +52,15 @@ Human Resources 测试驱动器设置了 60 天的到期策略。 不过，测�
 若要删除整个 Power Apps 环境，包括 Human Resources 以及关联的应用和流：
 
 1. 导航到 [Power Apps 管理中心](https://admin.businessplatform.microsoft.com/)。
-2. 选择**环境**。
+2. 选择 **环境**。
 3. 选择要删除的环境。
-4. 选择**删除**并确认决定。 
+4. 选择 **删除** 并确认决定。 
 5. 等待直到删除完成。
 6. 使用您用于订阅 Human Resources 的帐户登录到 [Lifecycle Services](https://lcs.dynamics.com/Logon/Index) (LCS)。 
 7. 选择包含环境的 Human Resources 项目。 
-8. 在您的 LCS 项目中，选择 **Human Resources 应用管理**磁贴。 
+8. 在您的 LCS 项目中，选择 **Human Resources 应用管理** 磁贴。 
 9. 选择要删除的实例。 
-10. 选择**删除实例**并确认您的决定。  
+10. 选择 **删除实例** 并确认您的决定。  
 
 若要从现有的 Power Apps 环境中删除 Human Resources 环境，请完成以下步骤。 请注意，在直接在 LCS 中支持此功能前，暂时需要 Human Resources DevOps 团队的支持及联系。
 
@@ -69,13 +69,13 @@ Human Resources 测试驱动器设置了 60 天的到期策略。 不过，测�
 3. 在收到环境已删除的消息后继续操作。
 4. 使用您用于订阅 Human Resources 的帐户登录到 LCS。 
 5. 选择包含环境的 Human Resources 项目。 
-6. 在您的 LCS 项目中，选择 **Human Resources 应用管理**磁贴。 
-7. 选择要删除的实例，其应标记有部署状态**已删除**。
-8. 选择**删除实例**并确认您的决定。 
+6. 在您的 LCS 项目中，选择 **Human Resources 应用管理** 磁贴。 
+7. 选择要删除的实例，其应标记有部署状态 **已删除**。
+8. 选择 **删除实例** 并确认您的决定。 
 
 ## <a name="recover-a-soft-deleted-environment"></a>恢复软删除的环境
 
-如果删除与 Human Resources 环境连接的 Power Apps 环境，Lifecycle Services 中 Human Resources 环境的状态将为**已软删除**。 在这种情况下，用户无法连接到 Human Resources。
+如果删除与 Human Resources 环境连接的 Power Apps 环境，Lifecycle Services 中 Human Resources 环境的状态将为 **已软删除**。 在这种情况下，用户无法连接到 Human Resources。
 
 要恢复环境：
 

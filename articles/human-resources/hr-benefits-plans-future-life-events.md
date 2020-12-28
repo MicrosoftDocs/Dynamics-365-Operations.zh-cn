@@ -19,19 +19,19 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 78c65faa4ae0f428184700a912998e9dded026c5
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429397"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417413"
 ---
 # <a name="configure-future-life-events"></a>配置未来的生命事件
 
 您可以在 Dynamics 365 Human Resources 中计划未来的生命事件。
 
-1. 在**福利管理**工作区中，在**设置**下，选择**未来生命事件**。
+1. 在 **福利管理** 工作区中，在 **设置** 下，选择 **未来生命事件**。
 
-2. 选择**新建**。
+2. 选择 **新建**。
 
 3. 为以下字段指定值：
 
@@ -45,4 +45,4 @@ ms.locfileid: "3429397"
    | 状态 | 生命事件是否已处理。 |
    | 扁平 | 未来生命事件的行号。 |
 
-4. 选择**保存**。 
+4. 选择 **保存**。 

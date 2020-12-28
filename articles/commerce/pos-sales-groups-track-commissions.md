@@ -19,11 +19,11 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: afbf69c072ae205e973203d97a5fbca7504ae04f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021791"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410371"
 ---
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>使用销售组跟踪销售点 (POS) 中的佣金
 
@@ -72,7 +72,7 @@ ms.locfileid: "3021791"
 
 ## <a name="displaying-the-sales-representative-information-on-the-pos-transactions-screen"></a>在 POS 交易记录屏幕中显示销售代表信息
 
-可使用屏幕布局设计器和为商店、收银机或工作人员指定的屏幕布局配置 POS 交易记录屏幕布局和内容。可将**销售代表**字段添加到“收据”窗格的“行”选项卡。这将为交易记录屏幕中的各行显示指定销售组的 ID。
+可使用屏幕布局设计器和为商店、收银机或工作人员指定的屏幕布局配置 POS 交易记录屏幕布局和内容。可将 **销售代表** 字段添加到“收据”窗格的“行”选项卡。这将为交易记录屏幕中的各行显示指定销售组的 ID。
 
 ## <a name="adding-sales-representative-operations-to-pos-button-grids"></a>向 POS 按钮网格添加销售代表操作
 

@@ -20,11 +20,11 @@ ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: f15680deb0eab763ba68f2897139c915d1f8a6a3
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817322"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410434"
 ---
 # <a name="add-a-logo"></a>添加徽标
 
@@ -50,8 +50,8 @@ ms.locfileid: "3817322"
 
 要将徽标添加到您的站点的页眉片段，请按照下列步骤操作。
 
-1. 在左侧的导航窗格中，选择**片段**。
-1. 选择前面创建的页眉片段，然后选择**编辑**。
+1. 在左侧的导航窗格中，选择 **片段**。
+1. 选择前面创建的页眉片段，然后选择 **编辑**。
 1. 展开页眉模块。
 1. 在页眉模块的属性窗格中，提供徽标的图像和链接。 
 1. 保存页眉片段，完成编辑，然后发布。

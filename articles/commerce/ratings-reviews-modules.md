@@ -18,11 +18,11 @@ ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
 ms.openlocfilehash: 85fb1272103eed7d6e44635b7c20438471d96b34
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817722"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410587"
 ---
 # <a name="ratings-and-reviews-modules"></a>评分和评价模块
 
@@ -36,7 +36,7 @@ ms.locfileid: "3817722"
 
 评分在产品列表页、类别列表页、搜索结果页和其他站点页中显示。 
 
-评分直方图和产品评价在 PDP 中显示。 客户可使用**撰写评价**按钮提交产品的评分和评价。 这些 PDP 功能受评分和评价模块控制。
+评分直方图和产品评价在 PDP 中显示。 客户可使用 **撰写评价** 按钮提交产品的评分和评价。 这些 PDP 功能受评分和评价模块控制。
 
 ## <a name="ratings-and-reviews-modules-on-pdps"></a>PDP 中的评分和评价模块 
 
@@ -52,13 +52,13 @@ PDP 中的三个模块显示评分和评价摘要：
 > [!TIP] 
 > 有关如何优化 PDP 模板和布局，以便在电子商务站点中的多个 PDP 之间共享评分和评价模块的配置的信息，请参阅[模板和布局概述](templates-layouts-overview.md)。
 
-下图显示 Dynamics 365 Commerce 中**添加模块**对话框如何显示评分和评价模块。
+下图显示 Dynamics 365 Commerce 中 **添加模块** 对话框如何显示评分和评价模块。
 ![“添加模块”对话框](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
 
 ### <a name="write-review-module"></a>撰写评价模块
 
-撰写评价模块中有一个**撰写评价**按钮，供用户登录，分配评分和撰写产品评价。 用户可使用此模块编辑之前提交的评分或评价。 此模块通常在 PDP 上的评分直方图和产品评价列表模块上方显示。
-下图显示当客户选择**撰写评价**时显示的**撰写评价**对话框。 客户可使用此对话框提交评分和评价。
+撰写评价模块中有一个 **撰写评价** 按钮，供用户登录，分配评分和撰写产品评价。 用户可使用此模块编辑之前提交的评分或评价。 此模块通常在 PDP 上的评分直方图和产品评价列表模块上方显示。
+下图显示当客户选择 **撰写评价** 时显示的 **撰写评价** 对话框。 客户可使用此对话框提交评分和评价。
 ![“撰写评价”对话框](media/rnr-eCommerce-write-review-module.png) 下表显示需要在制作工具中配置的撰写评价模块属性。
 | 属性名称 | 值        | 属性描述                 |
 |---------------|--------------|--------------------------------------|
@@ -77,7 +77,7 @@ PDP 中的三个模块显示评分和评价摘要：
 
 | 属性名称              | 值 | 属性描述 |
 |----------------------------|-------| ---------------------|
-| 每页显示的评论 | 10    | PDP 中应该同时显示的评论数量。 包括**下一页**和**上一页**按钮，以便用户在多页评论之间切换。 |
+| 每页显示的评论 | 10    | PDP 中应该同时显示的评论数量。 包括 **下一页** 和 **上一页** 按钮，以便用户在多页评论之间切换。 |
 
 #### <a name="ratings-histogram--summary-view"></a>评分直方图 – 摘要视图
 

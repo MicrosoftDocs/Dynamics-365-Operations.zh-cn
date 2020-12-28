@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 0a65eed44de41ae35bf241166ee22dd280ce5d7a
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712440"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417510"
 ---
 # <a name="suspend-leave"></a>暂停休假
 
@@ -31,15 +31,15 @@ ms.locfileid: "3712440"
 
 ## <a name="suspend-leave-and-absence-for-an-employee"></a>暂停员工的休假和缺勤
 
-1. 在员工的记录上，选择**休假**。
+1. 在员工的记录上，选择 **休假**。
 
-2. 选择**暂停休假**。
+2. 选择 **暂停休假**。
 
-3. 选择**新建**。
+3. 选择 **新建**。
 
-4. 在**暂停休假假期额度记录**对话框中，选择暂停的**休假类型**和**开始日期**与**结束日期**。
+4. 在 **暂停休假假期额度记录** 对话框中，选择暂停的 **休假类型** 和 **开始日期** 与 **结束日期**。
 
-5. （可选）也可以为暂停添加**注释**。 
+5. （可选）也可以为暂停添加 **注释**。 
 
 如果在已暂停员工的休假时处理应计项目，则不会为暂停该团队休假类型执行累积。
 

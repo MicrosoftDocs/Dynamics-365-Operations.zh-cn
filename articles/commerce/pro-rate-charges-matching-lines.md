@@ -20,11 +20,11 @@ ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175123"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410360"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>将抬头费用按比例分配给匹配的销售行
 
@@ -33,7 +33,7 @@ ms.locfileid: "3175123"
 
 本主题介绍组合抬头级别自动费用并将其按比例分配给商业销售行的功能。 此功能适用于在 Retail 版本 10.0.1 中销售终端 (POS) 内创建的交易记录和在 Retail 版本 10.0.2 中在呼叫中心创建的销售。
 
-仅当使用**商业参数**页面中的选项开启了[高级自动费用](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges)功能时，此功能才可用。 此外，自动费用增强计算方法仅适用于通过商业渠道（POS、呼叫中心和 Dynamics 电子商务平台）创建的销售订单。
+仅当使用 **商业参数** 页面中的选项开启了[高级自动费用](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges)功能时，此功能才可用。 此外，自动费用增强计算方法仅适用于通过商业渠道（POS、呼叫中心和 Dynamics 电子商务平台）创建的销售订单。
 
 这项新功能可以提高组织在计算抬头级别费用并应用于销售交易记录时的灵活性。
 
@@ -55,7 +55,7 @@ ms.locfileid: "3175123"
 
 ### <a name="scenario-1"></a>方案 1
 
-此方案概述如果在设置自动费用时将**按比例分配给匹配的销售行**选项设置为**否**后的行为。 （此行为等于版本 10.0.1 之前应用版本中的抬头级别费用的行为。）
+此方案概述如果在设置自动费用时将 **按比例分配给匹配的销售行** 选项设置为 **否** 后的行为。 （此行为等于版本 10.0.1 之前应用版本中的抬头级别费用的行为。）
 
 在此方案中，组织为交货方式关系 **99** 和 **11** 定义了抬头级别费用。 没有为交货方式 **21** 配置自动费用。
 
@@ -79,7 +79,7 @@ ms.locfileid: "3175123"
 
 ### <a name="scenario-2"></a>方案 2
 
-在此方案中，为交货方式关系 **99** 和 **11** 定义了抬头级别费用。 但是，为这些自动费用表把**按比例分配给匹配的销售行**选项设置为**是**。
+在此方案中，为交货方式关系 **99** 和 **11** 定义了抬头级别费用。 但是，为这些自动费用表把 **按比例分配给匹配的销售行** 选项设置为 **是**。
 
 ![开启了匹配行按比例分配时交货方式 99 的自动费用](media/99_enabled.png)
 
@@ -164,7 +164,7 @@ ms.locfileid: "3175123"
     - 行 5 值 = $15（= 组值的 100%）
     - **行 5 的行费用 = $0**
 
-因此，对于此示例，将为项 81334 分配 $5.62 的运费。 可在销售行的**维护费用**页面中查看这些费用。 下图显示项 81334 的此页面的显示效果。
+因此，对于此示例，将为项 81334 分配 $5.62 的运费。 可在销售行的 **维护费用** 页面中查看这些费用。 下图显示项 81334 的此页面的显示效果。
 
 ![项 81334 的销售行的按比例分配费用](media/proratedlinecharge.png)
 

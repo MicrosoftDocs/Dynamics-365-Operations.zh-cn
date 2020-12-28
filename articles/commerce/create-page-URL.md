@@ -18,11 +18,11 @@ ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 588cbedb077fab0663d3d62fc4a8b8ed915635b3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001913"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410443"
 ---
 # <a name="create-a-page-url"></a>创建页面 URL
 
@@ -37,7 +37,7 @@ ms.locfileid: "3001913"
 
 - `https://www.contoso.com` – HTTP 协议和站点的域。
 - `/en-us` – 站点的语言路径。
-- `/contactus` – **联系我们**页面的相对 URL。 相对 URL 也称为 URL *数据域*。
+- `/contactus` – **联系我们** 页面的相对 URL。 相对 URL 也称为 URL *数据域*。
 
 设置站点时，将建立站点的域和可选语言路径。 可通过站点的设置中的在线商店页面向站点添加更多域和语言路径。
 
@@ -63,9 +63,9 @@ ms.locfileid: "3001913"
 
 若要为页面手动创建页面 URL，请执行以下步骤。
 
-1. 在 **URL** 页面上，选择**新建**。
+1. 在 **URL** 页面上，选择 **新建**。
 1. 选择要与 URL 关联的站点页面。
-1. 输入 URL 数据域，然后选择**确定**。
+1. 输入 URL 数据域，然后选择 **确定**。
 
 此时，URL 处于草稿状态。 必须先发布它，站点用户才能访问关联的页面。
 
@@ -75,7 +75,7 @@ ms.locfileid: "3001913"
 
 1. 在 **URL** 页中，选择要更新的 URL。
 1. 在右侧的属性窗格中，选择目标页字段旁边的省略号按钮 (**...**)。
-1. 在对话框中，选择其他页，然后选择**确定**。
+1. 在对话框中，选择其他页，然后选择 **确定**。
 1. 保存并发布 URL。
 
 ## <a name="redirect-a-page-url"></a>重定向页面 URL
@@ -85,11 +85,11 @@ ms.locfileid: "3001913"
 若要将 URL 重定向到其他 URL，请执行以下步骤。
 
 1. 在 **URL** 页中，选择要更新的 URL。
-1. 在右侧属性窗格中，选择**重定向**。
+1. 在右侧属性窗格中，选择 **重定向**。
 1. 选择重定向的目标：
 
-    - 若要执行站点中的其他页面，请选择**内部 URL**，选择省略号按钮 (**...**)，然后选择要重定向到的 URL。
-    - 若要指向外部站点中的页面，请选择**外部 URL**，然后输入该页面的完整 URL。 务必包含协议。 例如，输入 `https://domain.com/new/page`。 如果 URL 已经重定向到内部 URL，必须在输入外部 URL 前选择**清除选择**。
+    - 若要执行站点中的其他页面，请选择 **内部 URL**，选择省略号按钮 (**...**)，然后选择要重定向到的 URL。
+    - 若要指向外部站点中的页面，请选择 **外部 URL**，然后输入该页面的完整 URL。 务必包含协议。 例如，输入 `https://domain.com/new/page`。 如果 URL 已经重定向到内部 URL，必须在输入外部 URL 前选择 **清除选择**。
 
 1. 选择重定向类型：
 

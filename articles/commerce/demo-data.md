@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014878"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4410642"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Modern POS (MPOS) 和 Cloud POS 中的演示数据屏幕布局
 
@@ -40,7 +40,7 @@ ms.locfileid: "4014878"
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>屏幕布局 ID 的分类
 
-若要查找屏幕布局，请转到 **Retail 和 Commerce** \> **渠道设置** \> **POS 设置** \> **POS** \> **屏幕布局** 。
+若要查找屏幕布局，请转到 **Retail 和 Commerce** \> **渠道设置** \> **POS 设置** \> **POS** \> **屏幕布局**。
 
 ![屏幕布局页面](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
@@ -64,6 +64,7 @@ ms.locfileid: "4014878"
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | 支持各种设备和纵横比的多个屏幕尺寸的基本版本 |
 | 3.1            | 具有其他 **建议的产品** 面板支持的基础版本        |
+| 4              | 扩展 Fabrikam 更新布局的扩展版本                                  |
 
 ### <a name="persona"></a>人员
 
@@ -75,9 +76,9 @@ ms.locfileid: "4014878"
 
 ### <a name="example-layout"></a>示例布局
 
-这是 Fabrikam 公司、布局版本 3 和人员为商店经理的屏幕布局 ID 的示例：
+这是 Fabrikam 公司、布局版本 4 和人员为商店经理的屏幕布局 ID 的示例：
 
-F3MGR
+F4MGR
 
 下图显示 Fabrikam 商店经理的欢迎屏幕的示例。
 
@@ -102,12 +103,13 @@ F3MGR
 | 完全        | 1024 × 768 | 4:3          | 平板电脑                 |
 | 完全\*      | 1280 × 720 | 16:9         | 平板电脑                 |
 | 完全        | 1366 × 768 | 16:9         | 平板电脑，较大屏幕 |
-| 完全        | 1440 × 960 | 3:2          | 平板电脑，较大屏幕 |
+| 全尺寸        | 1440 × 960 | 3:2          | 平板电脑，较大屏幕 |
+| 全尺寸\*      | 1536 × 864 | 16:9         | 平板电脑，较大屏幕 |
 
 \*这些额外的布局大小仅在 Adventure Works 和 Fabrikam 布局中提供。
 
 > [!TIP]
-> POS 基于与可用于当前应用窗口的屏幕分辨率最接近的大小自动选择布局大小。 若要查找当前使用的屏幕布局 ID 和布局分辨率，在 Modern POS (MPOS) 或 Retail Cloud POS (CPOS) 中，打开 **设置** 页，然后在 **会话信息** 部分查找。 您还可以看到当前应用程序或浏览器框架的实际窗口分辨率。 在具有此信息后，可以查找布局内容的源，方法是转到 **渠道设置** \> **POS 设置** \> **POS** \> **屏幕布局** 。
+> POS 基于与可用于当前应用窗口的屏幕分辨率最接近的大小自动选择布局大小。 若要查找当前使用的屏幕布局 ID 和布局分辨率，在 Modern POS (MPOS) 或 Retail Cloud POS (CPOS) 中，打开 **设置** 页，然后在 **会话信息** 部分查找。 您还可以看到当前应用程序或浏览器框架的实际窗口分辨率。 在具有此信息后，可以查找布局内容的源，方法是转到 **渠道设置** \> **POS 设置** \> **POS** \> **屏幕布局**。
 
 ![Commerce 和 POS 中的屏幕布局和布局分辨率/大小](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
@@ -120,7 +122,7 @@ F3MGR
 | 公司         | 库位 | 分段        | 个性 | 主题 |
 |-----------------|----------|----------------|--------|-------|
 | Adventure Works | 西雅图  | 体育用品 | 蓝色   | 深色  |
-| Fabrikam        | 休斯敦  | 风格        | 绿色  | 浅 |
+| Fabrikam        | 旧金山  | 风格        | 绿色  | 浅色 |
 | Contoso         | 波士顿   | 电子    | 红色    | 深色  |
 
 > [!NOTE]
@@ -153,7 +155,7 @@ F3MGR
 | Adventure Works | A3MGR            | 商店经理 | 000154、000137、000073 |
 | Adventure Works | A3CSH            | 出纳       | 000150、000175、000165 |
 | Adventure Works | A3STK            | 保管员   | 000155、000181、000152 |
-| Fabrikam        | F3MGR            | 商店经理 | 000160、000168、000163 |
+| Fabrikam        | F4MGR            | 商店经理 | 000160、000713         |
 | Fabrikam        | F3CSH            | 出纳       | 000161、000113、000114 |
 | Fabrikam        | F3STK            | 保管员   | 000164、000112、000123 |
 | Contoso         | C3MGR            | 商店经理 | 000100、000111         |

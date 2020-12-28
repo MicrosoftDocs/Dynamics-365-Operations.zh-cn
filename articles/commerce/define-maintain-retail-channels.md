@@ -20,11 +20,11 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 0fbca2c9178cd372653287afdf72deaf75442604
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057906"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410403"
 ---
 # <a name="define-and-maintain-retail-channels"></a>定义和维护零售渠道
 
@@ -69,7 +69,7 @@ Commerce 支持多个渠道，例如在线商店、呼叫中心和实体商店�
 2. 将销售税组分配给商店。
 3. 分配商店接受的付款方式。
 4. 对您商店中提供的产品，添加有关产品描述的详细信息。 例如，您可以添加富文本和图像。 这些产品详细信息将在各种情况下显示，例如 POS 收银机或已打印的标签上。
-5. 将商店添加到已分配到**零售分类**、**零售补货**或**零售报告**的默认组织层次结构。
+5. 将商店添加到已分配到 **零售分类**、**零售补货** 或 **零售报告** 的默认组织层次结构。
 
 ### <a name="after-you-set-up-a-store"></a>在您设置了商店后
 
@@ -87,5 +87,5 @@ Commerce 支持多个渠道，例如在线商店、呼叫中心和实体商店�
 Commerce 使用组织层次机构来构造渠道。 组织层次结构表示构成贵企业组织之间的关系。 在您设置商店时，您可以添加到组织层次结构。 存储然后共享用于分类、补货和报告的数据。
 
 > [!NOTE]
-> 要使用 Commerce 销售功能，**多次收货**的配置键必须启用。 可以在**系统管理** \> **设置** \> **许可证配置**下的**贸易配置**键中找到此配置键。 由于会根据在销售订单行级别配置的交货地址执行各种验证，因此这是必需的。
+> 要使用 Commerce 销售功能，**多次收货** 的配置键必须启用。 可以在 **系统管理** \> **设置** \> **许可证配置** 下的 **贸易配置** 键中找到此配置键。 由于会根据在销售订单行级别配置的交货地址执行各种验证，因此这是必需的。
 

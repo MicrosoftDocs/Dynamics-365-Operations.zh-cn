@@ -19,11 +19,11 @@ ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.openlocfilehash: 86f0964b6d929d0434a8bf04aaefc173bee21c6f
-ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
+ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4013196"
+ms.locfileid: "4410610"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>POS 外围设备和服务的运行状况检查
 
@@ -54,25 +54,25 @@ Microsoft Dynamics 365 Commerce 版本 10.0.10 及更高版本中有一项运行
 
 | 类型 | 连接 | 明细 |
 |---|---|---|
-| 打印机 | OPOS | 此项检查测试 POS (OPOS) 功能的链接和嵌入。 下面举了一些示例加以说明：<ul><li>打开： **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭： **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
-| 行显示内容 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开： **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭： **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
+| 打印机 | OPOS | 此项检查测试 POS (OPOS) 功能的链接和嵌入。 下面举了一些示例加以说明：<ul><li>打开：**Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭：**DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
+| 行显示内容 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开：**Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭：**DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
 | 双显示器 | 窗口 | 此项检查确保操作系统检测第二个 Windows 显示器。 | 
-| MSR | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开： **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭： **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
-| 银箱 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开： **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭： **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> | 
-| 扫描仪 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开： **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭： **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> | 
-| 比例 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开： **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭： **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
-| PIN 小键盘 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开： **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭： **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
+| MSR | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开：**Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭：**DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
+| 银箱 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开：**Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭：**DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> | 
+| 扫描仪 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开：**Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭：**DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> | 
+| 比例 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开：**Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭：**DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
+| PIN 小键盘 | OPOS | 此项检查测试基本 OPOS 功能。 下面举了一些示例加以说明：<ul><li>打开：**Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>关闭：**DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Close**</li></ul> |
 | 付款终端 | 付款 SDK | 此项检查测试付款 SDK 提供的基本付款终端功能。 <ul><li>锁定</li><li>BeginTransaction</li><li>EndTransaction</li><li>ReleaseDevice</li><li>期结</li></ul> |
 
 ### <a name="using-the-health-check-operation-in-the-pos"></a>在 POS 中使用运行状况检查操作
 
-在 POS 中启动运行状况检查操作之后，右侧的窗格将列出配置的设备，并显示各设备的状态。 若要对一个设备执行运行状况检查，请选择该设备，然后选择 **测试选定设备** 。 若要对所有设备执行运行状况检查，请选择 **全部测试** 。 **全部测试** 功能一次一个测试所有设备，并更新 **状态** 列中各设备的状态。
+在 POS 中启动运行状况检查操作之后，右侧的窗格将列出配置的设备，并显示各设备的状态。 若要对一个设备执行运行状况检查，请选择该设备，然后选择 **测试选定设备**。 若要对所有设备执行运行状况检查，请选择 **全部测试**。 **全部测试** 功能一次一个测试所有设备，并更新 **状态** 列中各设备的状态。
 
 **上次检查** 列 显示上次对每个设备执行运行状况检查的时间。
 
-如果通过了某个设备的运行状况检查（即未遇到任何错误），该设备的状态将为 **正常** 。 如果运行状况检查失败，则状态将指示存在错误。 在此情况下，右侧的窗格提供与错误有关的详细信息，或指示用户联系系统管理员。
+如果通过了某个设备的运行状况检查（即未遇到任何错误），该设备的状态将为 **正常**。 如果运行状况检查失败，则状态将指示存在错误。 在此情况下，右侧的窗格提供与错误有关的详细信息，或指示用户联系系统管理员。
 
-某些设备（如 OPOS 键锁）没有自带运行状况检查测试。 如果没有为使用的任何设备检测到运行状况检查测试，状态将为 **不支持** 。
+某些设备（如 OPOS 键锁）没有自带运行状况检查测试。 如果没有为使用的任何设备检测到运行状况检查测试，状态将为 **不支持**。
 
 ### <a name="extending-health-checks"></a>扩展运行状况检查
 

@@ -19,11 +19,11 @@ ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: cbdb69202ebec19f4442041cfb1f99857da36d2e
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057502"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410494"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>选择使用评分和评价
 
@@ -43,8 +43,8 @@ ms.locfileid: "3057502"
 
 1. 执行[部署新电子商务站点](deploy-ecommerce-site.md)中的步骤。
 1. 还在 LCS 中时，转到 **Retail 部署设置 \> 其他设置**。
-1. 将**启用评分和评价服务**选项设置为**是**。
-1. 在**评分和评价审查者的 AAD 安全组(安全组对象 ID)** 字段中，输入其中包含评分和评价审查者的 Microsoft Azure Active Directory (Azure AD) 安全组的 ID。
+1. 将 **启用评分和评价服务** 选项设置为 **是**。
+1. 在 **评分和评价审查者的 AAD 安全组(安全组对象 ID)** 字段中，输入其中包含评分和评价审查者的 Microsoft Azure Active Directory (Azure AD) 安全组的 ID。
 
     ![选择使用评分和评价](media/LCS_RnR_Preference.png)
 

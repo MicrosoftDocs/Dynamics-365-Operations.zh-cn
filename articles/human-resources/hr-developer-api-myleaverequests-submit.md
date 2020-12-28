@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 7552a4c921dc4a88034b5d2c87d5a9b47d699ae3
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092006"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417388"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>将请假申请提交至工作流
 
@@ -66,9 +66,9 @@ POST https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/M
 
 ### <a name="response"></a>响应
 
-成功的响应永远是 **204 无内容**响应。
+成功的响应永远是 **204 无内容** 响应。
 
-未经授权的调用方将收到 **401 未授权**或 **403 已禁止**响应。
+未经授权的调用方将收到 **401 未授权** 或 **403 已禁止** 响应。
 
 如果提交未成功（例如，由于验证），响应将为 **500 服务器错误**，响应正文将包括包含更多详细信息的 JSON 对象。
 

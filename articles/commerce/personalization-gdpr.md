@@ -20,11 +20,11 @@ ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817515"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410458"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>选择退出个性化产品建议
 
@@ -46,16 +46,16 @@ ms.locfileid: "3817515"
 
 在 Commerce 后端的“帐户管理”中，零售商可以代表用户选择退出。
 
-1. 在后端主页上搜索**所有客户**。
-1. 搜索并选择一个客户，然后选择**零售**快速选项卡。
+1. 在后端主页上搜索 **所有客户**。
+1. 搜索并选择一个客户，然后选择 **零售** 快速选项卡。
 
     ![“零售”快速选项卡](./media/Disablepersonalizationpart1.png)
 
-1. 在**隐私**下，将**禁用个性化设置**选项设置为**是**。
+1. 在 **隐私** 下，将 **禁用个性化设置** 选项设置为 **是**。
 
     ![隐私设置](./media/Disablepersonalizationpart2.png)
 
-1. 选择**保存**，然后关闭页面。
+1. 选择 **保存**，然后关闭页面。
 
 ### <a name="module-based-opt-out-experience"></a>基于模块的退出体验
 
@@ -67,12 +67,12 @@ ms.locfileid: "3817515"
 
 ## <a name="obtain-a-digital-copy-of-personalized-recommendations-data-on-behalf-of-an-authenticated-user"></a>代表经过身份验证的用户获取个性化建议数据的数字副本
 
-客户可能希望获取其个人数据的数字副本，并且还希望查看其建议结果的导出视图。 如果客户请求此信息，零售商必须创建一个自定义的扩展，来调用 Retail Server 应用程序编程接口 (API)，以基于客户的客户 ID 从**为您推荐**列表中查询完整结果。 然后可以将结果以逗号分隔值 (CSV) 格式导出并与客户共享。
+客户可能希望获取其个人数据的数字副本，并且还希望查看其建议结果的导出视图。 如果客户请求此信息，零售商必须创建一个自定义的扩展，来调用 Retail Server 应用程序编程接口 (API)，以基于客户的客户 ID 从 **为您推荐** 列表中查询完整结果。 然后可以将结果以逗号分隔值 (CSV) 格式导出并与客户共享。
 
 以下示例显示零售商如何完成此任务。
 
 1. 零售商创建自定义扩展来代表用户提取个人建议数据。 有关如何创建模块、克隆现有模块，调用 Retail Server API 和调用数据操作的信息，请参阅[在线渠道可扩展性](e-commerce-extensibility/overview.md)。
-2. 自定义扩展对 **get-recommendations** 核心数据操作进行调用，然后根据列表的要求将所需信息传递给它。 如果是**为您推荐**列表，扩展必须将正确的列表名称和客户 ID 传递给此数据操作。
+2. 自定义扩展对 **get-recommendations** 核心数据操作进行调用，然后根据列表的要求将所需信息传递给它。 如果是 **为您推荐** 列表，扩展必须将正确的列表名称和客户 ID 传递给此数据操作。
 
     创建自定义扩展的一种方法是克隆现有的用于返回建议结果的产品集合模块。 通过克隆此现有模块，零售商可以修改现有代码并添加新按钮，以将建议结果导出到 CSV 文件。 有关详细信息，请参阅[克隆模块库模块](e-commerce-extensibility/clone-starter-module.md)和[产品集合模块](product-collection-module-overview.md)。
 

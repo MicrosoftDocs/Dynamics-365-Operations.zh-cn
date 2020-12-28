@@ -18,11 +18,11 @@ ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001407"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410425"
 ---
 # <a name="add-languages-to-your-site"></a>向站点添加语言
 
@@ -40,10 +40,10 @@ ms.locfileid: "3001407"
 若要向在线商店添加语言，请执行以下步骤。
 
 1. 打开站点的 Dynamics 365 Commerce 环境。
-1. 转到 **Retail 和 Commerce \> 渠道 \> 在线商店**以访问为您的环境配置的在线商店的列表。 也可以输入**在线商店**作为搜索词。
+1. 转到 **Retail 和 Commerce \> 渠道 \> 在线商店** 以访问为您的环境配置的在线商店的列表。 也可以输入 **在线商店** 作为搜索词。
 1. 选择要为其添加语言的在线商店。
-1. 在**语言**快速选项卡上，选择**添加**。
-1. 在**语言**字段中，选择要添加的语言。
+1. 在 **语言** 快速选项卡上，选择 **添加**。
+1. 在 **语言** 字段中，选择要添加的语言。
 
 您添加的语言现在可用，所以您可以配置自己的站点以在站点制作环境中使用该语言。
 

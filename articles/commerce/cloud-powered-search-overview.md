@@ -18,11 +18,11 @@ ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527435"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410363"
 ---
 # <a name="cloud-powered-search-overview"></a>云助力的搜索概览
 
@@ -74,7 +74,7 @@ Dynamics 365 Commerce 也支持各种类别中使用关键字匹配功能。 客
 客户可使用 Dynamics 365 Commerce 中的增强排序功能按条件（如价格、产品名和产品号）对搜索结果进行排序、搜索和浏览。 客户还可以基于产品是新产品、最畅销产品还是最近添加的产品对结果排序。
 
 >[!NOTE]
->从版本 10.0.8 开始可使用这些云助力的搜索功能。 确保 **Commerce 参数 > 配置参数**下有一个条目是“ProductSearch.UseAzureSearch 设置为 true”。 
+>从版本 10.0.8 开始可使用这些云助力的搜索功能。 确保 **Commerce 参数 > 配置参数** 下有一个条目是“ProductSearch.UseAzureSearch 设置为 true”。 
 ![云助力搜索的配置参数](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>其他资源

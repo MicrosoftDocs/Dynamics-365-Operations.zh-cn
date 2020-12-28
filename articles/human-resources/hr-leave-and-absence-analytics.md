@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: a6cca83cf6eb17d9d700058365ac54c54efca7eb
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429074"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417515"
 ---
 # <a name="view-analytics-for-leave-and-absence"></a>查看休假和缺勤分析
 
@@ -31,7 +31,7 @@ Dynamics 365 Human Resources 提供分析来帮助您了解组织的休假和缺
 
 ## <a name="view-leave-and-absence-analytics"></a>查看休假和缺勤分析
 
-1. 在**休假和缺勤**工作区中，选择**分析**选项卡。
+1. 在 **休假和缺勤** 工作区中，选择 **分析** 选项卡。
 
 2. 从底部的选项卡选择以下视图之一：
 

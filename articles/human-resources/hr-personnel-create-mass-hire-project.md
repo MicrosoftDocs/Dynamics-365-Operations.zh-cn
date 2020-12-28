@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 8ddcfd531e7b5c76ac4b15cee54880f6868a73f1
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428843"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417395"
 ---
 # <a name="create-a-mass-hire-project"></a>创建大批雇用项目
 

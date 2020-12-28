@@ -19,11 +19,11 @@ ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 6425e76b3e4c9d9b0106894f33804ec6048c021c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183967"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409744"
 ---
 # <a name="display-debit-and-credit-amounts-in-ledger-accounts-for-china"></a>显示中国会计科目的借方和贷方金额
 
@@ -31,8 +31,8 @@ ms.locfileid: "2183967"
 
 本主题说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。 
 
-您可以查看**凭证交易记录**查询页面中的两个单独列中的会计科目的贷方和借方金额。 还可以查看与冲销条目的负金额。 所有负金额在**凭证交易记录**查询页面中以红色字母显示。
+您可以查看 **凭证交易记录** 查询页面中的两个单独列中的会计科目的贷方和借方金额。 还可以查看与冲销条目的负金额。 所有负金额在 **凭证交易记录** 查询页面中以红色字母显示。
 
-1.  单击**总帐** &gt; **分类帐设置** &gt; **总帐参数**。
-2.  将**在借方/贷方列中显示金额**滑块设置为**是**。
-3.  打开**总帐** &gt; **查询和报表** &gt; **凭证交易记录**进行确认。
+1.  单击 **总帐** &gt; **分类帐设置** &gt; **总帐参数**。
+2.  将 **在借方/贷方列中显示金额** 滑块设置为 **是**。
+3.  打开 **总帐** &gt; **查询和报表** &gt; **凭证交易记录** 进行确认。

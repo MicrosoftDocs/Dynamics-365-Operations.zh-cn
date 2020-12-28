@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 3dc4658a0a13af95978c66f5aab882902f754a2d
-ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "3443563"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417456"
 ---
 # <a name="configure-and-manage-database-logging"></a>配置和管理数据库日志记录
 
@@ -63,9 +63,9 @@ ms.locfileid: "3443563"
 
 ## <a name="set-up-database-logging"></a>设置数据库日志记录
 
-您可以使用**记录数据库更改**向导来设置数据库日志记录。 此向导提供了一种灵活的方式来设置表或字段的日志记录。
+您可以使用 **记录数据库更改** 向导来设置数据库日志记录。 此向导提供了一种灵活的方式来设置表或字段的日志记录。
 
-1. 转到**系统管理 > 链接 > 数据库 > 数据库日志设置**。 选择**新**启动**记录数据库更改**向导。
+1. 转到 **系统管理 > 链接 > 数据库 > 数据库日志设置**。 选择 **新** 启动 **记录数据库更改** 向导。
 2. 完成该向导。
 
 ## <a name="clean-up-database-logs"></a>清理数据库日志
@@ -78,7 +78,7 @@ ms.locfileid: "3443563"
 
 要设置数据库日志清理，请执行以下步骤： 
 
-1. 转到**系统管理 > 链接 > 数据库 > 数据库日志**。 选择**清理日志**。
+1. 转到 **系统管理 > 链接 > 数据库 > 数据库日志**。 选择 **清理日志**。
 
 2. 通过输入以下选项之一，选择用于选择要删除的日志的方法：
 
@@ -86,4 +86,4 @@ ms.locfileid: "3443563"
    - 日志的类型
    - 创建日期和时间
 
-3. 使用**数据库日志清理**选项卡确定何时运行日志清理任务。 默认情况下，数据库日志保留 30 天。
+3. 使用 **数据库日志清理** 选项卡确定何时运行日志清理任务。 默认情况下，数据库日志保留 30 天。

@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 3218a29995791ce0d9a42d5b6d898d6e548f0f1d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021692"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410463"
 ---
 # <a name="assess-customer-and-product-profitability"></a>评估客户和产品收益率
 
@@ -39,10 +39,10 @@ ms.locfileid: "3021692"
 - 毛利润率
 - 毛利百分比
 
-对于此评估，您可以使用现成的**排名靠前的客户**报表，您可以从以下任何位置打开此报表：
+对于此评估，您可以使用现成的 **排名靠前的客户** 报表，您可以从以下任何位置打开此报表：
 
-- **商店管理**工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店管理** &gt; **报表** &gt; **排名靠前的客户报表**
-- **查询和报表**部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表** &gt; **排名靠前的客户报表**
+- **商店管理** 工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店管理** &gt; **报表** &gt; **排名靠前的客户报表**
+- **查询和报表** 部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表** &gt; **排名靠前的客户报表**
 
 同样，用户可以基于以下条件之一，研究跨组织层次结构不同级别的排名靠前的产品（10 到 100）的收益率：
 
@@ -51,8 +51,8 @@ ms.locfileid: "3021692"
 - 毛利润率
 - 毛利百分比
 
-对于此评估，您可以使用现成的**排名靠前的产品**报表，您可以从以下任何位置打开此报表：
+对于此评估，您可以使用现成的 **排名靠前的产品** 报表，您可以从以下任何位置打开此报表：
 
-- **商店管理**工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店管理** &gt; **报表** &gt; **排名靠前的产品报表**
-- **类别和产品管理**工作区 &gt; **Retail 和 Commerce** &gt; **产品和类别** &gt; **商店管理** &gt; **报表** &gt; **排名靠前的产品报表**
-- **查询和报表**部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表** &gt; **排名靠前的产品报表**
+- **商店管理** 工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店管理** &gt; **报表** &gt; **排名靠前的产品报表**
+- **类别和产品管理** 工作区 &gt; **Retail 和 Commerce** &gt; **产品和类别** &gt; **商店管理** &gt; **报表** &gt; **排名靠前的产品报表**
+- **查询和报表** 部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表** &gt; **排名靠前的产品报表**

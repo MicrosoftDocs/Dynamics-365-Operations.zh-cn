@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
 ms.openlocfilehash: 253f0d07679b6327a0ed1e3cc20ede66249750b8
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429328"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417524"
 ---
 # <a name="set-up-training-courses"></a>设置培训课程
 
@@ -43,7 +43,7 @@ ms.locfileid: "3429328"
 -   **教师**
 
 ## <a name="course-types"></a>课程类型
-您可以使用课程类型根据课程结构或内容对课程进行分类。 您可以在**课程类型**页上创建课程类型。 创建课程记录时，必须选择课程类型。
+您可以使用课程类型根据课程结构或内容对课程进行分类。 您可以在 **课程类型** 页上创建课程类型。 创建课程记录时，必须选择课程类型。
 
 ## <a name="course-setup-type"></a>课程设置类型
 下表列出了课程的三种设置类型。 设置类型确定课程结构。
@@ -126,12 +126,12 @@ ms.locfileid: "3429328"
 </table>
 
 ## <a name="course-participants"></a>课程参与者
-课程参与者是参加培训课程或活动的工作人员。 仅可为开放式课程登记参与者。 可以为课程登记的参与者最大和最小人数在**课程**页上的**常规**快速选项卡中进行了定义。
+课程参与者是参加培训课程或活动的工作人员。 仅可为开放式课程登记参与者。 可以为课程登记的参与者最大和最小人数在 **课程** 页上的 **常规** 快速选项卡中进行了定义。
 
 <a name="workflow"></a>工作流
 --------
 
-通过**工自助服务**页登记课程的员工可以让其注册工作流传送以供审核。 可以在**课程**页上的**常规**快速选项卡中为课程分配工作流。
+通过 **工自助服务** 页登记课程的员工可以让其注册工作流传送以供审核。 可以在 **课程** 页上的 **常规** 快速选项卡中为课程分配工作流。
 
 
 

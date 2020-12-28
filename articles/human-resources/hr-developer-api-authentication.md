@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092098"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417390"
 ---
 # <a name="authentication"></a>身份验证
 
@@ -64,33 +64,33 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
 
 2. 如果您的帐户允许您访问多个租户，请在右上角选择您的帐户，然后将门户会话设置为您需要的 Azure Active Directory (Azure AD) 租户。
 
-3. 在左窗格中，选择 **Azure Active Directory** 服务，然后选择**应用注册 \> 新注册**。
+3. 在左窗格中，选择 **Azure Active Directory** 服务，然后选择 **应用注册 \> 新注册**。
 
-4. 当**注册应用程序**页面出现时，输入您的应用程序的注册信息：
+4. 当 **注册应用程序** 页面出现时，输入您的应用程序的注册信息：
 
     - **名称**：输入一个有意义的应用程序名称，它将显示给应用用户。
     - **支持的帐户类型**：选择您的应用应该支持的帐户类型。
 
         | 支持的科目类型 | 说明 |
         |-------------------------|-------------|
-        | 仅此组织目录中的帐户 | 如果要构建行业应用，请选择此选项。 除非您在目录中注册应用，否则此选项不可用。<p>此选项将映射到**仅 Azure AD 单租户**。</p><p>除非您在目录外部注册应用，否则此选项是默认选项。 在这种情况下，默认选项是 **Azure AD 多租户和个人 Microsoft 帐户**。</p> |
-        | 任何组织目录中的帐户 | 选择此选项以定位所有商业和教育客户。<p>此选项将映射到**仅 Azure AD 多租户**。</p><p>如果您将应用注册为**仅 Azure AD 单租户**，您可以使用**身份验证**边栏选项卡将应用更新为**仅 Azure AD 多租户**，然后返回**仅 Azure AD 单租户**。</p> |
+        | 仅此组织目录中的帐户 | 如果要构建行业应用，请选择此选项。 除非您在目录中注册应用，否则此选项不可用。<p>此选项将映射到 **仅 Azure AD 单租户**。</p><p>除非您在目录外部注册应用，否则此选项是默认选项。 在这种情况下，默认选项是 **Azure AD 多租户和个人 Microsoft 帐户**。</p> |
+        | 任何组织目录中的帐户 | 选择此选项以定位所有商业和教育客户。<p>此选项将映射到 **仅 Azure AD 多租户**。</p><p>如果您将应用注册为 **仅 Azure AD 单租户**，您可以使用 **身份验证** 边栏选项卡将应用更新为 **仅 Azure AD 多租户**，然后返回 **仅 Azure AD 单租户**。</p> |
         | 任何组织目录中的帐户和个人 Microsoft 帐户 | 选择此选项可定位最广泛一组的客户。<p>此选项将映射到 **Azure AD 多租户和个人 Microsoft 帐户**。</p><p>如果您将应用注册为 **Azure AD 多租户和个人 Microsoft 帐户**，将无法在用户界面 (UI) 中更改此设置。 而是必须使用应用程序清单编辑器来更改支持的帐户类型。</p> |
 
-    - **重定向 URI（可选）**– 选择要构建的应用的类型：**Web** 或**公共客户端(移动和桌面)**。 然后输入应用的重定向 URI（或回复 URL）。
+    - **重定向 URI（可选）**– 选择要构建的应用的类型：**Web** 或 **公共客户端(移动和桌面)**。 然后输入应用的重定向 URI（或回复 URL）。
 
         - 对于 Web 应用，提供应用的基本 URL。 例如，`http://localhost:31544` 可能是在本地计算机上运行的 Web 应用的 URL。 然后，用户使用此 URL 登录到 Web 客户端应用。
         - 对于公共客户端应用，提供 Azure AD 用于返回令牌响应的 URI。 输入特定于您的应用的值，例如 `myapp://auth`。
 
         要查看 Web 应用或本地应用的特定示例，请参阅 [Microsoft 身份平台（以前的面向开发人员的 Azure Active Directory）](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts)中的快速入门。
 
-5. 在 **API 权限**下，选择**添加权限**。 然后，在**我的组织使用的 API** 选项卡上，搜索 **Dynamics 365 Human Resources**，并将 **user\_impersonation** 权限添加到您的应用。 Human Resources 的应用程序 ID 是 f9be0c49-aa22-4ec6-911a-c5da515226ff。 使用此 ID 来确保您选择了正确的应用程序。
+5. 在 **API 权限** 下，选择 **添加权限**。 然后，在 **我的组织使用的 API** 选项卡上，搜索 **Dynamics 365 Human Resources**，并将 **user\_impersonation** 权限添加到您的应用。 Human Resources 的应用程序 ID 是 f9be0c49-aa22-4ec6-911a-c5da515226ff。 使用此 ID 来确保您选择了正确的应用程序。
 
-6. 选择**注册**。
+6. 选择 **注册**。
 
    [![在 Azure 门户中注册新应用](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
 
-Azure AD 为您的应用分配唯一的应用程序 ID（客户端 ID），并将您转到您的应用的**概览**页面。 要为您的应用添加更多功能，您可以选择其他配置选项，例如品牌选项以及证书和密钥选项。
+Azure AD 为您的应用分配唯一的应用程序 ID（客户端 ID），并将您转到您的应用的 **概览** 页面。 要为您的应用添加更多功能，您可以选择其他配置选项，例如品牌选项以及证书和密钥选项。
 
 ## <a name="retrieving-an-access-token"></a>检索访问令牌
 

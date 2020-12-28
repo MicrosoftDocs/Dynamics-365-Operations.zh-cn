@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: d1534e37e83e22dd9860de54165c062935db3798
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430639"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417508"
 ---
 # <a name="configure-employee-self-service"></a>配置员工自助服务
 
@@ -31,9 +31,9 @@ ms.locfileid: "3430639"
 
 ## <a name="set-up-a-benefit-plans-tile"></a>设置福利计划磁贴
 
-1. 在**福利管理**工作区中，在**设置**下，选择**员工自助服务参数**。
+1. 在 **福利管理** 工作区中，在 **设置** 下，选择 **员工自助服务参数**。
 
-2. 选择**福利计划磁贴设置**选项卡，然后选择**新建**。
+2. 选择 **福利计划磁贴设置** 选项卡，然后选择 **新建**。
 
 3. 为以下字段指定值：
 
@@ -49,13 +49,13 @@ ms.locfileid: "3430639"
    | **开始日期** | 磁贴应该可用的开始日期和时间。 |
    | **结束日期** | 磁贴应该可用的结束日期和时间。 |
 
-4. 选择**保存**。
+4. 选择 **保存**。
 
 ## <a name="set-up-a-flex-credit-plan-tile"></a>设置弹性信贷计划磁贴
 
-1. 在**福利管理**工作区中，在**设置**下，选择**员工自助服务参数**。
+1. 在 **福利管理** 工作区中，在 **设置** 下，选择 **员工自助服务参数**。
 
-2. 选择**弹性信贷计划磁贴设置**选项卡，然后选择**新建**。
+2. 选择 **弹性信贷计划磁贴设置** 选项卡，然后选择 **新建**。
 
 3. 为以下字段指定值：
 
@@ -71,4 +71,4 @@ ms.locfileid: "3430639"
    | **开始日期** | 磁贴应该可用的开始日期和时间。 |
    | **结束日期** | 磁贴应该可用的结束日期和时间。 |
 
-4. 选择**保存**。
+4. 选择 **保存**。

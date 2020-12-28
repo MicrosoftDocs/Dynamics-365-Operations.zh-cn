@@ -20,11 +20,11 @@ ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 27e4f1c751ee865b0df536f3c1912cb1d8946032
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664994"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410397"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>在 Dynamics 365 Commerce 环境中启用 Azure Data Lake Storage
 
@@ -54,9 +54,9 @@ ms.locfileid: "3664994"
 ### <a name="enable-azure-data-lake-storage-in-the-environment"></a>在环境中启用 Azure Data Lake Storage
 
 1. 登录到环境的后台办公室门户。
-1. 搜索**系统参数**并导航到**数据连接**选项卡。 
-1. 将**启用 Data Lake 集成**设置为**是**。
-1. 将**缓慢更新 Data Lake** 设置为**是**。
+1. 搜索 **系统参数** 并导航到 **数据连接** 选项卡。 
+1. 将 **启用 Data Lake 集成** 设置为 **是**。
+1. 将 **缓慢更新 Data Lake** 设置为 **是**。
 1. 然后，输入以下必需信息：
     1. **应用程序 ID** // **应用程序密钥** // **DNS 名称** - 需要连接到存储 ADLS 密钥的 Azure Data Lake Storage。
     1. **密钥名称** - 密钥名称存储在 KeyVault 中，用于通过 Azure Data Lake Storage 进行身份验证。
@@ -68,8 +68,8 @@ ms.locfileid: "3664994"
 
 ### <a name="test-the-azure-data-lake-storage-connection"></a>测试 Azure Data Lake Storage 连接
 
-1. 使用**测试 Azure 密钥保管库**链接测试与 KeyVault 的连接。
-1. 使用**测试 Azure 存储**链接测试与 Azure Data Lake Storage 的连接。
+1. 使用 **测试 Azure 密钥保管库** 链接测试与 KeyVault 的连接。
+1. 使用 **测试 Azure 存储** 链接测试与 Azure Data Lake Storage 的连接。
 
 > [!NOTE]
 > 如果测试失败，请仔细检查上面添加的所有 KeyVault 信息是否正确，然后重试。
@@ -78,9 +78,9 @@ ms.locfileid: "3664994"
 
 要为实体商店启用自动刷新，请按照下列步骤操作。
 
-1. 搜索**实体商店**。
-1. 在左侧列表中，导航到 **RetailSales** 条目，然后选择**编辑**。
-1. 确保**启用自动刷新**设定为**是**，选择**刷新**，然后选择**保存**。
+1. 搜索 **实体商店**。
+1. 在左侧列表中，导航到 **RetailSales** 条目，然后选择 **编辑**。
+1. 确保 **启用自动刷新** 设定为 **是**，选择 **刷新**，然后选择 **保存**。
 
 下图显示了启用了自动刷新的实体商店的示例。
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ab1609d332b96c0588b06aa086dd4fee944e5d9
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: ebc5cfa490a4c8538fd081aced0844ed01d63a26
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055752"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4410645"
 ---
 # <a name="cart-icon-module"></a>购物车图标模块
 
@@ -57,9 +57,11 @@ ms.locfileid: "4055752"
 
 [付款模块](payment-module.md)
 
-[装运地址模块](ship-address-module.md)
+[收货地址模块](ship-address-module.md)
 
-[交货选项模块](delivery-options-module.md)
+[交付选项模块](delivery-options-module.md)
+
+[提货信息模块](pickup-info-module.md)
 
 [订单详细信息模块](order-confirmation-module.md)
 

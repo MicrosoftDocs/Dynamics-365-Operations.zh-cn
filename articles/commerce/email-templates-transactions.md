@@ -18,11 +18,11 @@ ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: ea484bfc1e9b293c53d7293c50630c4955000131
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983149"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410398"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>为交易事件创建电子邮件模板
 
@@ -40,9 +40,9 @@ Dynamics 365 Commerce 提供用于发送电子邮件的现成解决方案以向�
 
 若要创建电子邮件模板，请执行以下步骤。
 
-1. 在 Commerce Headquarters 中，转到**组织电子邮件模板**，它在 **Retail 和 Commerce \> 总部设置 \> 组织电子邮件模板**或**组织管理 \> 设置 \> 组织电子邮件模板**下。
-1. 选择**新建**。
-1. 在**常规**下，设置以下字段：
+1. 在 Commerce Headquarters 中，转到 **组织电子邮件模板**，它在 **Retail 和 Commerce \> 总部设置 \> 组织电子邮件模板** 或 **组织管理 \> 设置 \> 组织电子邮件模板** 下。
+1. 选择 **新建**。
+1. 在 **常规** 下，设置以下字段：
 
     - **电子邮件 ID** – 电子邮件 ID 是模板的唯一标识，这是选择要映射到事件的模板时显示的值。
     - **电子邮件说明** – 可以使用这个可选字段提供模板的说明。 您输入的值仅在 Commerce Headquarters 中显示。
@@ -50,10 +50,10 @@ Dynamics 365 Commerce 提供用于发送电子邮件的现成解决方案以向�
     - **发件人电子邮件** – 输入应该用于使用此模板发送的电子邮件的电子邮件地址。
     - **默认语言代码** – 如果调用此模板的渠道未提供语言，此字段指定默认发送的电子邮件的本地化版本。
 
-1. 在**电子邮件内容**下，选择**新建**。
-1. 在**语言**字段中，输入电子邮件模板的语言。 以后可以添加更多语言和本地化的模板。
-1. 在**主题**字段中，输入应该在电子邮件的主题字段中显示的电子邮件主题。
-1. 选择**编辑**上传您的电子邮件模板。
+1. 在 **电子邮件内容** 下，选择 **新建**。
+1. 在 **语言** 字段中，输入电子邮件模板的语言。 以后可以添加更多语言和本地化的模板。
+1. 在 **主题** 字段中，输入应该在电子邮件的主题字段中显示的电子邮件主题。
+1. 选择 **编辑** 上传您的电子邮件模板。
 
 ## <a name="create-an-email-message-body-by-using-html"></a>使用 HTML 创建电子邮件正文
 
@@ -111,13 +111,13 @@ Dynamics 365 Commerce 提供用于发送电子邮件的现成解决方案以向�
 | productid                      | 行的产品 ID。 |
 | lineproductname                | 产品的名称。 |
 | lineproductdescription         | 产品的描述。 |
-| linequantity                   | 为行订购的单位数量加度量单位（例如，**ea** 或**对**）。 |
+| linequantity                   | 为行订购的单位数量加度量单位（例如，**ea** 或 **对**）。 |
 | lineunit                       | 行的度量单位。 |
 | linequantity_withoutunit       | 为行订购的单位数量，但不含度量单位。 |
 | linequantitypicked             | 使用 **PickOrder** 事件时，为提货单位数量。 否则为 **0**（零）。 |
 | linequantitypicked_withoutunit | 使用 **PickOrder** 事件时，为提货单位数量，但不含度量单位。 否则为 **0**（零）。 |
-| linequantitypacked             | 使用 **PackOrder** 和**订单可提货**事件时，为包装单位数量。 否则为 **0**（零）。 |
-| linequantitypacked_withoutuom  | 使用 **PackOrder** 和**订单可提货**事件时，为包装单位数量，但不含度量单位。 否则为 **0**（零）。 |
+| linequantitypacked             | 使用 **PackOrder** 和 **订单可提货** 事件时，为包装单位数量。 否则为 **0**（零）。 |
+| linequantitypacked_withoutuom  | 使用 **PackOrder** 和 **订单可提货** 事件时，为包装单位数量，但不含度量单位。 否则为 **0**（零）。 |
 | linequantityshipped            | 始终为 **0**，除了使用特定事件时，如下一行中所述。 |
 | linequantityshipped_withoutuom | 使用 **ShipOrder** 事件时，为提货单位数量，但不含度量单位。 否则为 **0**（零）。 |
 | lineprice                      | 一个单位的价格。 |
@@ -182,13 +182,13 @@ Dynamics 365 Commerce 提供用于发送电子邮件的现成解决方案以向�
 
 若要上传新的或编辑后的电子邮件模板 HTML，请执行以下步骤。
 
-1. 在 Commerce Headquarters 中，转到**Retail 和 Commerce \> Headquarters 设置 \> 组织电子邮件模板**。
-1. 选择要为其添加或替换 HTML 的语言的行。 也可以选择**新建**为新语言创建行。
-1. 选择**编辑**。
-1. 在显示的对话框中，选择**浏览**。 浏览到要上传的 HTML 文档，选中，然后选择**打开**。
-1. 选择**上载**。
-1. 预览窗口中显示您的电子邮件 HTML 之后，请选择**确定**。
-1. 确保为行选中**有正文**复选框。
+1. 在 Commerce Headquarters 中，转到 **Retail 和 Commerce \> Headquarters 设置 \> 组织电子邮件模板**。
+1. 选择要为其添加或替换 HTML 的语言的行。 也可以选择 **新建** 为新语言创建行。
+1. 选择 **编辑**。
+1. 在显示的对话框中，选择 **浏览**。 浏览到要上传的 HTML 文档，选中，然后选择 **打开**。
+1. 选择 **上载**。
+1. 预览窗口中显示您的电子邮件 HTML 之后，请选择 **确定**。
+1. 确保为行选中 **有正文** 复选框。
 
 如果已经配置了 Commerce Headquarters 以发送电子邮件，将把您的新的或更新后的电子邮件发送给执行的交易将调用映射到模板的事件的所有客户。
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7233b23020e6c82f39981d530095642902461807
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: aeaa410fde29b285fdbbdd6acac19b0c4e917aa5
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818390"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4410647"
 ---
 # <a name="shipping-address-module"></a>装运地址模块
 
@@ -49,7 +49,7 @@ ms.locfileid: "3818390"
 | 属性名称 | 值 | 说明 |
 |---------------|--------|-------------|
 | 标题 | 标题文本和标题标记（**H1**、**H2**、**H3**、**H4**、**H5** 或 **H6**） | 装运地址模块的可选标题。 |
-| 显示地址类型 | **True** 或 **False** | 如果将此可选属性设置为 **True**，地址类型（如**住宅**或**企业**）将显示。 如果未指定地址类型，地址将自动保存为**类型**=**其他**。 |
+| 显示地址类型 | **True** 或 **False** | 如果将此可选属性设置为 **True**，地址类型（如 **住宅** 或 **企业**）将显示。 如果未指定地址类型，地址将自动保存为 **类型**=**其他**。 |
 
 ## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a>向结帐页添加装运地址模块和设置必需的属性
 
@@ -65,7 +65,9 @@ ms.locfileid: "3818390"
 
 [付款模块](payment-module.md)
 
-[交货选项模块](delivery-options-module.md)
+[交付选项模块](delivery-options-module.md)
+
+[提货信息模块](pickup-info-module.md)
 
 [订单详细信息模块](order-confirmation-module.md)
 

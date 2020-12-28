@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 00a5881ea88749c8553e4c810fb57070f217b01c
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712004"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417503"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-28-2020"></a>Dynamics 365 Human Resources（2020 年 5 月 28 日）中的新增功能或更改
 
@@ -55,7 +55,7 @@ ms.locfileid: "3712004"
 
 ## <a name="attachments-capabilities-in-employee-self-service-benefits-enrollment"></a>员工自助服务福利登记中的附件功能
  
-现在，您可以在福利登记流程中为员工登记的每个计划添加附件。 然后，您可以在**工作人员登记福利**窗体中查看附件。
+现在，您可以在福利登记流程中为员工登记的每个计划添加附件。 然后，您可以在 **工作人员登记福利** 窗体中查看附件。
 
 ## <a name="in-preview"></a>预览模式
 

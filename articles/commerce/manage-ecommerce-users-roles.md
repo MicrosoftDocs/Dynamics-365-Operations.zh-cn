@@ -20,11 +20,11 @@ ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 9a1f9abae20d0f2e71790a3b27337338dc042b52
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003525"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410374"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>管理电子商务用户和角色
 
@@ -49,18 +49,18 @@ Dynamics 365 for Commerce 创作环境支持以下角色。
 
 ## <a name="system-administrator-role"></a>系统管理员角色
 
-在 Microsoft Dynamics Lifecycle Services (LCS) 环境中预配 Dynamics 365 Commerce 时，系统会请您为**系统管理员**角色提供安全组。 然后将此角色自动应用于您在正在配置的环境中创建的所有站点。 只能在 LCS 中更新此角色的安全组。 在所有站点的**站点管理**页中，其显示为只读，仅供参考。
+在 Microsoft Dynamics Lifecycle Services (LCS) 环境中预配 Dynamics 365 Commerce 时，系统会请您为 **系统管理员** 角色提供安全组。 然后将此角色自动应用于您在正在配置的环境中创建的所有站点。 只能在 LCS 中更新此角色的安全组。 在所有站点的 **站点管理** 页中，其显示为只读，仅供参考。
 
 ## <a name="administrator-role"></a>管理员角色
 
-在 Commerce 中创建新站点时，系统将请您为**管理员**角色提供安全组。 有关此角色授予的权限的概述，请参见本主题前文的表。
+在 Commerce 中创建新站点时，系统将请您为 **管理员** 角色提供安全组。 有关此角色授予的权限的概述，请参见本主题前文的表。
 
 ## <a name="add-or-update-security-groups"></a>添加或更新安全组
 
-创建站点之后，只有与**系统管理员**和**管理员**角色关联的安全组中的用户才能访问该站点的创作环境。 若要为 **Web 制作者**、**RnR 审查者**和**读者**角色分配用户，必须为这些角色分配安全组。 若要向角色添加安全组或更新当前分配给角色的安全组，请执行以下步骤。
+创建站点之后，只有与 **系统管理员** 和 **管理员** 角色关联的安全组中的用户才能访问该站点的创作环境。 若要为 **Web 制作者**、**RnR 审查者** 和 **读者** 角色分配用户，必须为这些角色分配安全组。 若要向角色添加安全组或更新当前分配给角色的安全组，请执行以下步骤。
 
 1. 转到要更新的站点。
-1. 在**站点管理**中，打开**安全**页。
+1. 在 **站点管理** 中，打开 **安全** 页。
 1. 选择要修改的角色。
 1. 向角色添加安全组，或从角色中删除安全组。
 

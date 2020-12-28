@@ -20,11 +20,11 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 539a6f2df46450c5e0fd18ba69501432d6f3fbdd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021698"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410496"
 ---
 # <a name="define-channel-specific-discounts"></a>定义特定于渠道的折扣
 
@@ -53,10 +53,10 @@ Commerce 使用价格组来定义渠道特定的折扣。 价格组可分配给�
 
 以下示例说明在设置渠道折扣中涉及的任务。
 
-1. 对于本示例，您有一个名为**Houston**的渠道，您打算创建名为**返回学校**的新折扣。
+1. 对于本示例，您有一个名为 **Houston** 的渠道，您打算创建名为 **返回学校** 的新折扣。
 2. 由于价格和折扣策略包括渠道折扣的可能性，因此在您创建渠道时，您始终创建渠道特定的价格组。
-3. 您可以有价格组**Houston-PG**，它分配给**Houston**渠道。
-4. 在您创建新的**返回学校**折扣后，需要单击**折扣**页顶部的**价格组**。 **折扣价格组**页将打开。 接下来，单击**新建**，选择**Houston-PG**价格组。
+3. 您可以有价格组 **Houston-PG**，它分配给 **Houston** 渠道。
+4. 在您创建新的 **返回学校** 折扣后，需要单击 **折扣** 页顶部的 **价格组**。 **折扣价格组** 页将打开。 接下来，单击 **新建**，选择 **Houston-PG** 价格组。
 5. 现在您可以启用折扣并将其推送到渠道。
 
 ## <a name="additional-resources"></a>其他资源
