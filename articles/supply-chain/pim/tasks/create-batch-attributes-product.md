@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 8924eedfbb635ca04aa167d7f6c44872fef496fd
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986303"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423005"
 ---
 # <a name="create-batch-attributes-for-a-product"></a>创建产品的批属性
 

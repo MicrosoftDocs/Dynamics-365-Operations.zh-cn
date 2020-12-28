@@ -20,11 +20,11 @@ ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
 ms.openlocfilehash: a4f701a85979cce3fa4840b48279c45ec565612b
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887032"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423230"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>查看计划历史记录和计划日志
 
@@ -32,9 +32,9 @@ ms.locfileid: "3887032"
 
 本主题说明如何在 Microsoft Dynamics 365 Supply Chain Management 中查看由计划优化功能触发的计划作业的历史记录。
 
-要查看计划的历史记录，请依次转到**主计划** \> **设置** \> **计划** \> **主计划**并选择**历史记录**打开计划。 历史记录列出了所选计划的所有作业。 该列表包括已完成和活动的作业。
+要查看计划的历史记录，请依次转到 **主计划** \> **设置** \> **计划** \> **主计划** 并选择 **历史记录** 打开计划。 历史记录列出了所选计划的所有作业。 该列表包括已完成和活动的作业。
 
-除了查看作业的开始时间和状态之外，您还可以查看特定作业的日志。 日志包含其他信息和警告。 并非所有作业都有日志。 要查看作业的日志，请选择**日志**。
+除了查看作业的开始时间和状态之外，您还可以查看特定作业的日志。 日志包含其他信息和警告。 并非所有作业都有日志。 要查看作业的日志，请选择 **日志**。
 
 ## <a name="related-resources"></a>相关资源
 

@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979820"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423196"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>产品配置模型中的表达式约束和表约束
 
@@ -42,14 +42,14 @@ ms.locfileid: "3979820"
 
 ### <a name="example-of-a-table-constraint"></a>表约束示例
 
-此示例显示如何如何将扬声器的配置限制到特定的机柜表面处理和格栅。 第一个表显示通常可用于配置的机柜表面处理和格栅。 这些值是针对**机柜表面处理**和**格栅**属性类型定义的。
+此示例显示如何如何将扬声器的配置限制到特定的机柜表面处理和格栅。 第一个表显示通常可用于配置的机柜表面处理和格栅。 这些值是针对 **机柜表面处理** 和 **格栅** 属性类型定义的。
 
 | 属性类型 | 值                      |
 |----------------|-----------------------------|
 | 机柜表面处理 | 黑色、橡木、红木、白色 |
 | 前格栅    | 黑色、金属、白色         |
 
-下一个表显示由**颜色和表面处理**表约束定义的组合。 通过使用此表约束，您可以配置具有橡木表面处理和黑色格栅的扬声器、具有红木表面处理和白色格栅的扬声器，等等。
+下一个表显示由 **颜色和表面处理** 表约束定义的组合。 通过使用此表约束，您可以配置具有橡木表面处理和黑色格栅的扬声器、具有红木表面处理和白色格栅的扬声器，等等。
 
 | 完成         | 格栅                       |
 |----------------|-----------------------------|
@@ -86,7 +86,7 @@ ms.locfileid: "3979820"
 (颜色 == “黑色” & (尺寸 == “30” | 尺寸 == “50”)) | (颜色 ==“红色” & 大小 = “20”)
 
 ## <a name="should-i-use-operators-or-infix-notation-when-i-write-expression-constraints"></a>当我编写表达式约束时，我应该使用运算符还是中缀表示法？
-您既可以使用运算符又可以使用中缀表示法来编写表达式约束。 对于**Min**、**Max**和**Abs**运算符，您不能使用中缀表示法。 这些运算符作为标准运算符包括在大多数编程语言中。
+您既可以使用运算符又可以使用中缀表示法来编写表达式约束。 对于 **Min**、**Max** 和 **Abs** 运算符，您不能使用中缀表示法。 这些运算符作为标准运算符包括在大多数编程语言中。
 
 ## <a name="what-operators-and-infix-notation-can-i-use-when-i-write-expression-constraints"></a>在编写表达式约束时，我可以使用哪些运算符和中缀表示法？
 下表列出的是您在产品配置模型中为组件编写表达式约束时，可以使用的运算符和中缀表示法。 第一个表中的示例显示如何使用中缀表示法或运算符编写表达式。
@@ -110,7 +110,7 @@ ms.locfileid: "3979820"
 <tr class="odd">
 <td>提示</td>
 <td>如果第一个条件为 false，则为 true；第二个条件为 true 或两者都为 true。</td>
-<td>提示[a, b]，中缀：a -: b</td>
+<td>Implies[a, b]，中缀：a -: b</td>
 <td><ul>
 <li><strong>运算符：</strong>Implies[x != 0, y &gt;= 0]</li>
 <li><strong>中缀表示法：</strong>x != 0 -: y &gt;= 0</li>
@@ -119,7 +119,7 @@ ms.locfileid: "3979820"
 <tr class="even">
 <td>并</td>
 <td>只有所有条件为 true，则为 true。 如果条件数为 0 （零），则产生 <strong>True</strong>。</td>
-<td>And[args], infix: a &amp; b &amp; ... &amp; z</td>
+<td>And[args]，中缀：a &amp; b &amp; ... &amp; z</td>
 <td><ul>
 <li><strong>运算符：</strong>And[x == 2, y &lt;= 2]</li>
 <li><strong>中缀表示法：</strong>x == 2 &amp; y &lt;= 2</li>
@@ -128,7 +128,7 @@ ms.locfileid: "3979820"
 <tr class="odd">
 <td>或</td>
 <td>如有条件为 true，则为 true。 如果条件数为 0 (零)，则产生 <strong>False</strong>。</td>
-<td>Or[args], infix: a | b | ... | z</td>
+<td>Or[args]，中缀：a | b | ... | z</td>
 <td><ul>
 <li><strong>运算符：</strong>Or[x == 2, y &lt;= 2]</li>
 <li><strong>中缀表示法：</strong>x == 2 | y &lt;= 2</li>
@@ -137,7 +137,7 @@ ms.locfileid: "3979820"
 <tr class="even">
 <td>加</td>
 <td>这将合计其条件。 如果条件数为 0 （零），则产生 <strong>0</strong>。</td>
-<td>Plus[args], infix: a + b + ... + z</td>
+<td>Plus[args]，中缀：a + b + ... + z</td>
 <td><ul>
 <li><strong>运算符：</strong>Plus[x, y, 2] == z</li>
 <li><strong>中缀表示法：</strong>x + y + 2 == z</li>
@@ -146,31 +146,31 @@ ms.locfileid: "3979820"
 <tr class="odd">
 <td>减</td>
 <td>这就否定了此参数。 它必须只有一个条件。</td>
-<td>减[expr]，中缀：-expr</td>
+<td>Minus[expr]，中缀：-expr</td>
 <td><ul>
 <li><strong>运算符：</strong>Minus[x] == y</li>
 <li><strong>中缀表示法：</strong> -x == y</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>绝对值</td>
+<td>Abs</td>
 <td>取其条件的绝对值。 它必须只有一个条件。</td>
-<td>绝对值[expr]</td>
+<td>Abs[expr]</td>
 <td><strong>运算符：</strong>Abs[x]</td>
 </tr>
 <tr class="odd">
 <td>时间</td>
 <td>取其条件的产物。 如果条件数为 0 （零），则产生 <strong>1</strong>。</td>
-<td>Times[args], infix: a * b * ... * z</td>
+<td>Times[args]，中缀：a * b * ... * z</td>
 <td><ul>
 <li><strong>运算符：</strong>Times[x, y, 2] == z</li>
 <li><strong>中缀表示法：</strong>x * y * 2 == z</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>能力</td>
-<td>取指数。 它从右到左求幂。 （换言之，它是权限相关。）因此，<strong>Power[a, b, c]</strong> 等于 <strong>Power[a, Power[b, c]]</strong>。 只有指数为正常数时才可以使用 <strong>Power</strong>。</td>
-<td>Power[args], infix: a ^ b ^ ... ^ z</td>
+<td>幂</td>
+<td>取指数。 它从右到左求幂。 （换言之，它是权限相关的。）因此，<strong>Power[a, b, c]</strong> 等于 <strong>Power[a, Power[b, c]]</strong>。 只有指数为正常数时才可以使用 <strong>Power</strong>。</td>
+<td>Power[args]，中缀：a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>运算符：</strong>Power[x, 2] == y</li>
 <li><strong>中缀表示法：</strong>x ^ 2 == y</li>
@@ -179,19 +179,19 @@ ms.locfileid: "3979820"
 <tr class="odd">
 <td>最大值</td>
 <td>生成最大条件。 如果条件数为 0 (零)，则生成结果为<strong>无穷大</strong>。</td>
-<td>最大值[args]</td>
+<td>Max[args]</td>
 <td><strong>运算符：</strong>Max[x, y, 2] == z</td>
 </tr>
 <tr class="even">
-<td>最小值</td>
+<td>分钟</td>
 <td>生成最小条件。 如果条件数为 0 (零)，则生成结果为<strong>无穷大</strong>。</td>
-<td>最小值[args]</td>
+<td>Min[args]</td>
 <td><strong>运算符：</strong>Min[x, y, 2] == z</td>
 </tr>
 <tr class="odd">
 <td>不</td>
 <td>生成其条件的相反逻辑。 它必须只有一个条件。</td>
-<td>非[expr]，中缀：!expr</td>
+<td>Not[expr]，中缀：!expr</td>
 <td><ul>
 <li><strong>运算符：</strong>Not[x] &amp; Not[y == 3]</li>
 <li><strong>中缀表示法：</strong>!x!(y == 3)</li>

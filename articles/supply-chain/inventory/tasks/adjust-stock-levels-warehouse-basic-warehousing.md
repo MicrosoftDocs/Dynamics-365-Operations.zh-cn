@@ -18,11 +18,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9678dffd84e9e4032510811731a67da953b40431
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204255"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423269"
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>调整仓库中的库存级别（基本仓库）
 

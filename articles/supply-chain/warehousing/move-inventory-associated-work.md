@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2aee3af8da6610c16fc2d98091bfa3f01f1bd0f5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215715"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422962"
 ---
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>仓库管理中关联工作的库存变动
 
@@ -52,7 +52,7 @@ ms.locfileid: "3215715"
 
 ### <a name="set-up-permission-to-move-reserved-inventory-for-individual-workers"></a>为单个工作人员设置移动预留库存的权限
 
-对于应允许其移动预留库存的工作人员，选择**仓库管理** > **设置** > **工作人员**下的**允许包含关联工作的库存移动**复选框。  
+对于应允许其移动预留库存的工作人员，选择 **仓库管理** > **设置** > **工作人员** 下的 **允许包含关联工作的库存移动** 复选框。  
 
 ### <a name="backported"></a>往回移植
 

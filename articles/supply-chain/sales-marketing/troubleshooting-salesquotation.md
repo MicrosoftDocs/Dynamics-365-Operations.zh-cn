@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: 67610a833be132399b2d47ae8c6b27119be9ce95
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834319"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422953"
 ---
 # <a name="troubleshoot-sales-quotations"></a>销售报价单故障排除
 
@@ -34,7 +34,7 @@ ms.locfileid: "3834319"
 
 ### <a name="issue-description"></a>问题描述
 
-如果您尝试在销售报价单行上为*服务*类型的物料设置销售数量（**SalesQty** 字段），您将收到以下消息：“不允许更新“数量”字段”。
+如果您尝试在销售报价单行上为 *服务* 类型的物料设置销售数量（**SalesQty** 字段），您将收到以下消息：“不允许更新“数量”字段”。
 
 ### <a name="issue-resolution"></a>解决问题
 

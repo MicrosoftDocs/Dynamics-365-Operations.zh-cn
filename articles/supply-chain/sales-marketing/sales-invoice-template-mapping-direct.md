@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: 6cbc4d86ac41d90480428ec5439d1360c4d67137
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215968"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422873"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>将销售账单标题和行从 Finance and Operations 直接同步到 Sales
 
@@ -40,7 +40,7 @@ ms.locfileid: "3215968"
 
 ## <a name="templates-and-tasks"></a>模板和任务
 
-若要访问可用模板，打开 [Power Apps 管理员中心](https://preview.admin.powerapps.com/dataintegration)。 选择**项目**，然后在右上角，选择**新项目**以选择公共模板。
+若要访问可用模板，打开 [Power Apps 管理员中心](https://preview.admin.powerapps.com/dataintegration)。 选择 **项目**，然后在右上角，选择 **新项目** 以选择公共模板。
 
 以下模板和基础任务用于将来自 Supply Chain Management 的销售发票标头和行同步到 Sales：
 
@@ -73,9 +73,9 @@ ms.locfileid: "3215968"
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>用于 Sales 的“从目标客户到现金”解决方案
 
-- **发票编号**字段已添加到**发票**实体中并显示在页面上。
-- **销售订单**页上的**创建发票**按钮被隐藏，因为将在 Supply Chain Management 中创建发票并同步到 Sales。 **发票**页不可编辑，因为发票将从 Supply Chain Management 同步。
-- 当关联的发票从 Supply Chain Management 同步到 Sales 后，**销售订单状态**值自动更改为**已开票**。 而且，创建发票的销售订单的所有者被指定为发票的所有者。 因此，销售订单的所有者可以查看发票。
+- **发票编号** 字段已添加到 **发票** 实体中并显示在页面上。
+- **销售订单** 页上的 **创建发票** 按钮被隐藏，因为将在 Supply Chain Management 中创建发票并同步到 Sales。 **发票** 页不可编辑，因为发票将从 Supply Chain Management 同步。
+- 当关联的发票从 Supply Chain Management 同步到 Sales 后，**销售订单状态** 值自动更改为 **已开票**。 而且，创建发票的销售订单的所有者被指定为发票的所有者。 因此，销售订单的所有者可以查看发票。
 
 ## <a name="preconditions-and-mapping-setup"></a>先决条件和映射设置
 
@@ -83,10 +83,10 @@ ms.locfileid: "3215968"
 
 ### <a name="setup-in-sales"></a>Sales 中的设置
 
-转到**设置** > **管理** > **系统设置** > **Sales**，确保使用以下设置：
+转到 **设置** > **管理** > **系统设置** > **Sales**，确保使用以下设置：
 
-- **使用系统定价计算系统**选项设置为**是**。
-- **折扣计算方法**字段设置为**行项**。
+- **使用系统定价计算系统** 选项设置为 **是**。
+- **折扣计算方法** 字段设置为 **行项**。
 
 ### <a name="setup-in-the-data-integration-project"></a>数据集成项目中的设置
 
@@ -102,7 +102,7 @@ ms.locfileid: "3215968"
     
 #### <a name="salesinvoiceline-task"></a>SalesInvoiceLine 任务
 
-- 确保存在所需的**度量单位**的映射。
+- 确保存在所需的 **度量单位** 的映射。
 - 确保在 Supply Chain Management 中存在所需的 **SalesUnitSymbol** 值映射。
 
     为 **SalesUnitSymbol** 到 **Quantity\_UOM** 定义了具有值映射的模板值。
@@ -110,7 +110,7 @@ ms.locfileid: "3215968"
 ## <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射
 
 > [!NOTE]
-> **付款期限**、**货运条款**、**交货条款**、**装运方法**和**交货方式**字段不包括在默认映射中。 若要映射这些字段，必须设置特定于在其中同步实体的组织中的数据的值映射。
+> **付款期限**、**货运条款**、**交货条款**、**装运方法** 和 **交货方式** 字段不包括在默认映射中。 若要映射这些字段，必须设置特定于在其中同步实体的组织中的数据的值映射。
 
 下图显示了数据集成中的模板映射的一个示例。 
 

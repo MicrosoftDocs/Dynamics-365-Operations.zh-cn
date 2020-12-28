@@ -18,11 +18,11 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e8e55ccfe158146a48fd372d6f0f687d169b7632
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214197"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423129"
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a>查看生产订单当前的 WIP 状态
 

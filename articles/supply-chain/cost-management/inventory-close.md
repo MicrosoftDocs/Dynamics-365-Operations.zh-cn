@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a4cad461c6ff4ef6badeeba868eef45165cf5d33
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980650"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422974"
 ---
 # <a name="inventory-close"></a>库存结转
 
@@ -51,11 +51,11 @@ ms.locfileid: "3980650"
 
 在更新完成后，您可以查看由于其中某个任务而过帐的分类帐凭证。
 
-1.  在**结转与调整**页上，在**概览**选项卡上，选中更新以进行审核。
-2.  单击**详细信息**，然后选择**凭证**。
+1.  在 **结转与调整** 页上，在 **概览** 选项卡上，选中更新以进行审核。
+2.  单击 **详细信息**，然后选择 **凭证**。
 
 ## <a name="effects-of-the-inventory-close-process-on-the-general-ledger"></a>总帐中库存结转流程的效果
-您可以在**结转与调整**页中执行的若干任务将导致对总帐进行更新。 例如，当您进行现有库存量调整，进行库存交易记录调整，执行库存重新计算，以及执行库存结转时，将更新总帐。 
+您可以在 **结转与调整** 页中执行的若干任务将导致对总帐进行更新。 例如，当您进行现有库存量调整，进行库存交易记录调整，执行库存重新计算，以及执行库存结转时，将更新总帐。 
 
 因为这些任务更新的会计科目链接到原始库存交易记录的会计科目。 例如，如果某一销售订单结算到某一采购订单，则调整已用于原始销售订单的总帐科目。 即便分配给此物料的物料组的会计科目自过账销售订单后已更改也将发生此行为。 在库存结转创建了一个结算金额后，该结算金额仍然会过帐到原始会计科目，而不是过帐到分配给物料的新会计科目。 如果您冲销库存结转，总帐也将更新。 
 

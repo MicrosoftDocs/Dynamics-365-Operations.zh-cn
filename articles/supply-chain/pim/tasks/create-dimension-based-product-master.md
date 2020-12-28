@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 886405431e1362c7919cc7f7a49034d154260123
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986207"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423001"
 ---
 # <a name="create-a-dimension-based-product-master"></a>创建基于维度的基础产品
 

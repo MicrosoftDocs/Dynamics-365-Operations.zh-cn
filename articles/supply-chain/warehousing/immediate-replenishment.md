@@ -19,11 +19,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: c69a9c9fd595280ba4f05a11409a3e672e4b1691
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017498"
+ms.locfileid: "4423390"
 ---
 # <a name="immediate-replenishment"></a>即时补货
 
@@ -47,7 +47,7 @@ ms.locfileid: "4017498"
 
 ## <a name="set-up-immediate-replenishment"></a>设置即时补货
 
-- 转至 **仓库管理** \> **设置** \> **位置指令** ，然后在 **行** 选项卡的 **即时补货模板** 列表中为波形需求选择补货模板。
+- 转至 **仓库管理** \> **设置** \> **位置指令**，然后在 **行** 选项卡的 **即时补货模板** 列表中为波形需求选择补货模板。
 
 如果位置指令行未能分配专用度量单位，则应用补货模板。
 

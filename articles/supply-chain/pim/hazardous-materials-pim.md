@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: feee6b348ac1870295a894ad988278b23a3f30a3
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979032"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423144"
 ---
 # <a name="hazardous-materials"></a>危险物料
 

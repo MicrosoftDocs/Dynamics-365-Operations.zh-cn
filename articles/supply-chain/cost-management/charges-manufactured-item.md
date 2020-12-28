@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.openlocfilehash: c5e0175e5743c800d8f04723d03ae503cff3a67a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975889"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423201"
 ---
 # <a name="display-charges-for-a-manufactured-item"></a>显示制造物料的费用
 

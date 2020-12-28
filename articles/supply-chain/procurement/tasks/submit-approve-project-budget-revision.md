@@ -18,11 +18,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 3061084222c0b23c657973205c9c3e7002cdeeb2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207436"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422934"
 ---
 # <a name="submit-and-approve-project-budget-revision"></a>提交和审查项目预算修订
 

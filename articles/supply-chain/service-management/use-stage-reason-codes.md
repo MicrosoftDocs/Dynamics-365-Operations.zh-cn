@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 74594871e9eeed86ae2914d1e5a08c0af28ab643
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985086"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423152"
 ---
 # <a name="use-stage-reason-codes"></a>使用阶段原因代码 
 
@@ -44,27 +44,27 @@ ms.locfileid: "3985086"
 
 ## <a name="set-up-reason-codes"></a>设置原因代码
 
-1.  单击**服务管理** \> **设置** \> **服务订单** \> **阶段原因代码**。
+1.  单击 **服务管理** \> **设置** \> **服务订单** \> **阶段原因代码**。
 
-2.  在**阶段原因代码**窗体中，单击**新建**以新建原因代码。
+2.  在 **阶段原因代码** 窗体中，单击 **新建** 以新建原因代码。
 
-3.  在**阶段原因代码**字段中，输入唯一的阶段原因代码。
+3.  在 **阶段原因代码** 字段中，输入唯一的阶段原因代码。
 
-4.  在**说明**字段中，输入阶段原因代码的描述。
+4.  在 **说明** 字段中，输入阶段原因代码的描述。
 
 5.  关闭窗体以保存您所做更改。
 
 ## <a name="require-reason-codes-when-a-service-level-agreement-is-canceled"></a>在取消服务级别协议时要求提供原因代码
 
-1.  单击**服务管理** \> **设置**\> **服务管理参数**。
+1.  单击 **服务管理** \> **设置**\> **服务管理参数**。
 
-2.  在**服务管理参数**窗体中，单击**常规**链接，然后选中**取消的原因代码**复选框。
+2.  在 **服务管理参数** 窗体中，单击 **常规** 链接，然后选中 **取消的原因代码** 复选框。
 
 ## <a name="require-reason-codes-when-the-a-service-order-exceeds-the-time-limit-that-is-set-by-the-service-level-agreement"></a>在服务订单超出服务级别协议设置的时限时需要原因代码。
 
-1.  单击**服务管理** \> **设置**\> **服务管理参数**。
+1.  单击 **服务管理** \> **设置**\> **服务管理参数**。
 
-2.  在**服务管理参数**窗体中，单击**常规**链接，然后选中**超过时间的原因代码**复选框。
+2.  在 **服务管理参数** 窗体中，单击 **常规** 链接，然后选中 **超过时间的原因代码** 复选框。
 
 ## <a name="see-also"></a>请参阅
 

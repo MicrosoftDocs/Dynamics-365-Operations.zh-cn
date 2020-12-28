@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ce750745d6f094a296b43827568ee1745179de2d
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017268"
+ms.locfileid: "4423411"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>为销售订单预留相同批次
 
@@ -40,7 +40,7 @@ ms.locfileid: "4017268"
 
 如果在为相同批次选择设置的销售订单行上的产品预留库存，则系统会尝试预留单个库存批次中订购的数量。 还应考虑任何特定的批属性要求。 如果无法从单个批次中填满数量，则将显示 **相同批次预留冲突** 页面。 此页面描述了这些问题以及为继续预留而采取的措施。 以下条件可能会阻止预留批次：
 
-- 批处置代码将销售的 **阻止预留** 标记为 **已阻止** 。
+- 批处置代码将销售的 **阻止预留** 标记为 **已阻止**。
 - 根据到期日期以及任何适用的客户适售期，该批次已经到期。 如果物料的物料模型组受先过期先出 (FEFO) 日期控制并且已选择最佳使用日期作为选择标准，则仍可考虑预留该物料。
 - 根据到期日期和最佳使用日期以及任何客户适售期，该批次的保质期剩余天数不足。
 

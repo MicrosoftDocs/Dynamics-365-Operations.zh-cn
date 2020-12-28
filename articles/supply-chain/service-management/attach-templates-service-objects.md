@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e79526dd43f516f2f4abf31276f314cb2498458e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978789"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423180"
 ---
 # <a name="attach-templates-to-service-objects"></a>将模板附加到服务对象    
 
@@ -32,13 +32,13 @@ ms.locfileid: "3978789"
 
 物料清单 (BOM) 模板可以附加到某一服务对象关系。 然后，可以将该服务对象关系与服务订单或服务协议相关联。
 
-1.  单击**服务管理** \> **设置** \> **服务对象** \> **服务对象**。
+1.  单击 **服务管理** \> **设置** \> **服务对象** \> **服务对象**。
 
 2.  选择某一服务对象。
 
-3.  单击**服务协议**或**服务订单**，以便显示该服务对象相关联的服务协议或服务订单。
+3.  单击 **服务协议** 或 **服务订单**，以便显示该服务对象相关联的服务协议或服务订单。
 
-4.  选择服务协议或服务订单，单击**功能**，然后单击**附加物料清单模板**。
+4.  选择服务协议或服务订单，单击 **功能**，然后单击 **附加物料清单模板**。
 
 5.  选择要附加到该对象的物料清单模板。
 

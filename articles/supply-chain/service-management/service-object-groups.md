@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4438487fa234cf093b557bca9455717b2cd3ca0b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979224"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422686"
 ---
 # <a name="service-object-groups"></a>服务对象组 
 
@@ -53,13 +53,13 @@ ms.locfileid: "3979224"
 
 若要创建服务对象组，请执行以下步骤：
 
-1. 单击**服务管理 > 设置 > 服务对象 > 服务对象组**。
+1. 单击 **服务管理 > 设置 > 服务对象 > 服务对象组**。
 
-2. 单击**新建**创建一个新的服务对象组。
+2. 单击 **新建** 创建一个新的服务对象组。
 
 3. 为该服务对象组输入唯一名称和描述（可选）。
 
-通过使用**服务对象**窗体，您可以将服务对象分配给组。 
+通过使用 **服务对象** 窗体，您可以将服务对象分配给组。 
 
 ## <a name="see-also"></a>请参阅
 

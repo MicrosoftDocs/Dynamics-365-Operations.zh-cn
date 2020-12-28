@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016232"
+ms.locfileid: "4423360"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>取消仓库工作以进行异常处理
 
@@ -29,7 +29,7 @@ ms.locfileid: "4016232"
 
 Microsoft Dynamics 365 Supply Chain Management 中的“取消工作”功能使管理员用户可以取消当前正在进行的特定仓库工作，但是由于特殊情况，该工作已被系统阻止或无法完成。 此功能是修复不一致数据的 SQL 纠正脚本的一种有吸引力且安全的替代方法。 不过，尽管这些脚本通常是从 IT 专业人员那里索要的，但具有管理员权限的公司中的用户可以使用“取消工作”功能。
 
-您可以在 **仓库管理** \> **定期任务** \> **清除 \> 取消工作** 中访问“取消工作”功能。 在 **取消工作** 对话框中，指定要取消的工作的工作 ID，然后选择 **确定** 。
+您可以在 **仓库管理** \> **定期任务** \> **清除 \> 取消工作** 中访问“取消工作”功能。 在 **取消工作** 对话框中，指定要取消的工作的工作 ID，然后选择 **确定**。
 
 ## <a name="warehouse-work-that-can-be-canceled"></a>可以取消的仓库工作
 
@@ -40,7 +40,7 @@ Microsoft Dynamics 365 Supply Chain Management 中的“取消工作”功能使
 > [!NOTE]
 > 对于由于操作原因必须取消的工作，仓库用户必须继续使用工作页面上的常规“取消”功能。
 
-使用“取消工作”功能只能取消 **销售** 、 **转移发货** 、 **原材料领料** 或 **补货** 类型的工作。 对于锁定的原材料领料工作或可以使用常规“取消”功能取消的工作，不会运行取消逻辑（请参见前面的说明）。
+使用“取消工作”功能只能取消 **销售**、**转移发货**、**原材料领料** 或 **补货** 类型的工作。 对于锁定的原材料领料工作或可以使用常规“取消”功能取消的工作，不会运行取消逻辑（请参见前面的说明）。
 
 要取消阻止工作，系统会取消所有其余工作行并修复与用户指定的工作 ID 关联的仓库数据。 然后可以恢复涉及受影响物料数量的任何常规仓库处理操作。
 

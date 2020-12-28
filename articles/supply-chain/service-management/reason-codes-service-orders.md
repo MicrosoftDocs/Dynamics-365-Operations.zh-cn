@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ec8a318561663f4a1b2cfd7735b5c1a5d18e8c0f
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975768"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422748"
 ---
 # <a name="reason-codes-for-service-orders"></a>服务订单的原因代码   
 
@@ -38,9 +38,9 @@ ms.locfileid: "3975768"
 
 原因代码是可选的。 当您更新特定服务阶段的服务订单，您可以决定是否需要原因代码。
 
-1.  单击**服务管理** \> **设置** \> **服务订单** \> **服务阶段**。
+1.  单击 **服务管理** \> **设置** \> **服务订单** \> **服务阶段**。
 
-2.  在**服务阶段**窗体中，选择服务阶段，然后为服务阶段选择**原因**复选框。
+2.  在 **服务阶段** 窗体中，选择服务阶段，然后为服务阶段选择 **原因** 复选框。
 
 3.  关闭窗体以保存您所做更改。
 

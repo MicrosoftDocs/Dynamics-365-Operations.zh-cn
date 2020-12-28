@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 93193e6365bcf82fbbf93af81e2581a358899fa1
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826255"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422691"
 ---
 # <a name="report-a-production-order-as-finished"></a>将生产订单报告为已完工入库
 

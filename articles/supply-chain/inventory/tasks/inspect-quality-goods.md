@@ -18,11 +18,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ee5f83b2dad60567341f33a73ce63d01e9da8289
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213967"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423259"
 ---
 # <a name="inspect-the-quality-of-goods"></a>检查货物质量
 
@@ -32,22 +32,22 @@ ms.locfileid: "3213967"
 
 
 ## <a name="select-a-quality-order"></a>选择质检订单。
-1. 在导航窗格中，转到**模块 > 库存管理 > 定期任务 > 质量管理 > 质检订单**。
+1. 在导航窗格中，转到 **模块 > 库存管理 > 定期任务 > 质量管理 > 质检订单**。
 2. 在开始此过程前，选择已创建的质检订单。  
 
 ## <a name="record-test-results"></a>记录测试结果
-1. 选择**结果**。
-2. 选择**编辑**。
-3. 在**结果数量**字段中，输入一个数字。
-4. 在**结果**字段中，在下拉菜单中选择所需记录。  
+1. 选择 **结果**。
+2. 选择 **编辑**。
+3. 在 **结果数量** 字段中，输入一个数字。
+4. 在 **结果** 字段中，在下拉菜单中选择所需记录。  
 - 在此示例中，结果将基于预定义的结果。 通常您可以记录更具体的测试结果，例如大小或其他维度。  
-5. 选择**保存**。
+5. 选择 **保存**。
 6. 关闭该页面。
 
 ## <a name="validate-the-quality-order"></a>验证质检订单
-1. 选择**验证**。
-2. 在**验证者**字段中，从下拉菜单选择执行检查的用户。  
-3. 单击**选择**。
-4. 选择**确定**。
+1. 选择 **验证**。
+2. 在 **验证者** 字段中，从下拉菜单选择执行检查的用户。  
+3. 单击 **选择**。
+4. 选择 **确定**。
 5. 关闭该页面。
 

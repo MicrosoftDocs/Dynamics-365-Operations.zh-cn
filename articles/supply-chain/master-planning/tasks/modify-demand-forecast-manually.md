@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 105cf50698889e81804155cdac3a8b484cbf87d7
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987158"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422830"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>手动修改需求预测
 
@@ -31,15 +31,15 @@ ms.locfileid: "3987158"
 
 
 ## <a name="modify-the-forecast-for-an-item"></a>修改物料预测
-1. 在**导航窗格**中，转到**模块 > 产品信息管理 > 产品 > 已发放产品**。
+1. 在 **导航窗格** 中，转到 **模块 > 产品信息管理 > 产品 > 已发放产品**。
 2. 在列表中，找到并选择所需记录。 选择要更改预测的物料。 例如，可以选择物料 D0001。  
-3. 在**操作窗格**中，单击**计划**。
-4. 单击**需求预测**。
+3. 在 **操作窗格** 中，单击 **计划**。
+4. 单击 **需求预测**。
 5. 在列表中，标记所选的行。 如果没有预测行，则单击在应用程序栏上的“新建”来创建一个新行。  
-6. 在**销售数量**字段中，输入一个数字。 此数字代表该物料的预测数量。  
+6. 在 **销售数量** 字段中，输入一个数字。 此数字代表该物料的预测数量。  
 7. 单击“保存”。
 
 ## <a name="modify-the-forecast-in-excel"></a>在 Excel 中修改预测
-1. 在 Microsoft Office 中单击**打开**。
-2. 单击 Excel 中的**编辑需求预测**。 在 Excel 中，您可以添加、删除和编辑需求预测行。 如果您将无法看到在 Excel 中的数据，需要使用已启用的“登录”选项登录，并且需要信任数据连接应用程序。  
+1. 在 Microsoft Office 中单击 **打开**。
+2. 单击 Excel 中的 **编辑需求预测**。 在 Excel 中，您可以添加、删除和编辑需求预测行。 如果您将无法看到在 Excel 中的数据，需要使用已启用的“登录”选项登录，并且需要信任数据连接应用程序。  
 

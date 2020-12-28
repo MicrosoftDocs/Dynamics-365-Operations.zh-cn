@@ -18,11 +18,11 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: b5bd1b384fe66dd7d59b776bdf1154cc5b8262ce
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826491"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422705"
 ---
 # <a name="create-working-time-templates"></a>创建工作时间模板
 

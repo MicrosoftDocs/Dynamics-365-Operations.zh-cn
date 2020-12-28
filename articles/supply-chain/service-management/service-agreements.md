@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: dd17cc0304d58d27afe2cededa5bc0b96557b5e9
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981978"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423087"
 ---
 # <a name="develop-and-establish-service-agreements-overview"></a>制定和建立服务协议概览
 
@@ -50,11 +50,11 @@ ms.locfileid: "3981978"
 
 您可以暂停服务协议并停止执行各个服务协议行。
 
-如果选中服务协议行的**暂停**复选框，则不能：
+如果选中服务协议行的 **暂停** 复选框，则不能：
 
 -    从服务协议自动或手动创建服务订单。
 
-如果选中服务协议行的**已停止**复选框，则不能：
+如果选中服务协议行的 **已停止** 复选框，则不能：
 
 -    从服务协议行自动或手动创建服务订单。
 -    将服务协议行复制到其他服务协议或服务订单。

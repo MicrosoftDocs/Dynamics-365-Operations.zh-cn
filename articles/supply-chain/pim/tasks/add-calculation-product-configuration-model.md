@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e703c6d505f1e2e77f454732301de7a6c130c58a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986495"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423013"
 ---
 # <a name="add-a-calculation-to-a-product-configuration-model"></a>将计算添加到产品配置模型
 
@@ -34,7 +34,7 @@ ms.locfileid: "3986495"
 
 ## <a name="create-calculation-expression"></a>创建计算表达式
 1. 单击“编辑表达式”。
-2. 在“约束体”字段中，输入“如果[完工机柜==“白色”，10, 15]”。
+2. 在“ConstraintBody”字段中，输入“If[CabinetFinish=="White", 10, 15]”。
 3. 单击“验证”。
 4. 单击“关闭”。
 5. 单击“确定”。

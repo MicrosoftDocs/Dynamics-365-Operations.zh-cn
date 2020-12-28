@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
 ms.openlocfilehash: d80fce409ee92973a6134d96ce839b9722980918
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215922"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422666"
 ---
 # <a name="synchronize-project-list-from-supply-chain-management-to-field-service"></a>将项目列表从Supply Chain Management 同步到 Field Service
 
@@ -52,10 +52,10 @@ ms.locfileid: "3215922"
 |msdynce_externalprojects | 项目                |
 
 ## <a name="entity-flow"></a>实体流
-项目在 Supply Chain Management 中创建。 将**项目类型**设置为**时间和材料**并将**项目阶段**设置为**进行中**的项目将同步到 Field Service 中的**外部项目**实体，包括项目编号、项目名称、项目阶段和客户帐户信息。 **外部项目**列表用于将 Field service 工作订单与 Supply Chain Management 项目匹配。
+项目在 Supply Chain Management 中创建。 将 **项目类型** 设置为 **时间和材料** 并将 **项目阶段** 设置为 **进行中** 的项目将同步到 Field Service 中的 **外部项目** 实体，包括项目编号、项目名称、项目阶段和客户帐户信息。 **外部项目** 列表用于将 Field service 工作订单与 Supply Chain Management 项目匹配。
 
 ## <a name="field-service-crm-solution"></a>Field Service CRM 解决方案
-**外部项目**实体从 Supply Chain Management 获取所有项目。 **外部项目**字段已添加到**工作订单**实体。 此备份字段是标记项目的工作订单的查找和购买，销售订单随后将被连接到 Supply Chain Management 内的一个项目。 **系统状态**将**打开 - 正在进行(690,970,000)** 更改为更高状态后，**外部项目**字段将被锁定，您将无法再添加、删除或更改值。
+**外部项目** 实体从 Supply Chain Management 获取所有项目。 **外部项目** 字段已添加到 **工作订单** 实体。 此备份字段是标记项目的工作订单的查找和购买，销售订单随后将被连接到 Supply Chain Management 内的一个项目。 **系统状态** 将 **打开 - 正在进行(690,970,000)** 更改为更高状态后，**外部项目** 字段将被锁定，您将无法再添加、删除或更改值。
 
 ## <a name="prerequisites-and-mapping-setup"></a>先决条件和映射设置
 ### <a name="supply-chain-management"></a>供应链管理

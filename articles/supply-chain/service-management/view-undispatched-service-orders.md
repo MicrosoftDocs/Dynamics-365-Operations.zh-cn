@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 540c0079a9fca8158ed507ce2bc50839bd585fc1
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986663"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422948"
 ---
 # <a name="view-undispatched-service-orders"></a>查看未分派的服务订单 
 
@@ -32,13 +32,13 @@ ms.locfileid: "3986663"
 
 此主题描述如何查看服务订单中未从派遣团队分配工作人员的活动。
 
-1.  单击**服务管理** \> **定期** \> **派遣板**。
+1.  单击 **服务管理** \> **定期** \> **派遣板**。
 
-2.  在**派遣板**窗口中，输入为其查看派遣活动期间的开始日期和结束日期。
+2.  在 **派遣板** 窗口中，输入为其查看派遣活动期间的开始日期和结束日期。
 
 3.  可选：在结果中选择是否包括已关闭的活动和相关团队。
 
-4.  单击**确定**查看结果。
+4.  单击 **确定** 查看结果。
     
 
     > [!NOTE]
@@ -46,7 +46,7 @@ ms.locfileid: "3986663"
 
 
 
-5.  若要查看没有分配的分派团队的服务订单列表，请单击**未派遣**选项卡。
+5.  若要查看没有分配的分派团队的服务订单列表，请单击 **未派遣** 选项卡。
 
 ## <a name="see-also"></a>请参阅
 

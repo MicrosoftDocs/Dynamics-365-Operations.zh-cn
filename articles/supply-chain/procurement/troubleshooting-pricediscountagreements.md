@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: b4349eeba285492202b5df8481b277a06708a4c8
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018205"
+ms.locfileid: "4423422"
 ---
 # <a name="troubleshoot-prices-discounts-agreements-and-rebates"></a>价格、折扣、协议和返点故障排除
 
@@ -48,7 +48,7 @@ ms.locfileid: "4018205"
 
 以下过程显示了一种重现此问题的方法。
 
-1. 在 **采购参数** 页上的 **交货** 选项卡上，确保将 **在产品收货时生成费用** 选项设置为 *是* 。
+1. 在 **采购参数** 页上的 **交货** 选项卡上，确保将 **在产品收货时生成费用** 选项设置为 *是*。
 1. 创建包含费用的采购订单。
 1. 确认采购订单。
 1. 接收采购订单。

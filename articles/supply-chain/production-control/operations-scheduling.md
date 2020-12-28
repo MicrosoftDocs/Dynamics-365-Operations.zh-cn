@@ -20,11 +20,11 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e95374e0aebca825f589f13eda389d6612737181
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211345"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423064"
 ---
 # <a name="operations-scheduling"></a>工序级排产
 
@@ -50,7 +50,7 @@ ms.locfileid: "3211345"
 -   将开始和结束生产的日期
 -   执行生产活动的资源的产能预留
 
-为生产中的工序设置设置时间、处理时间和运行时间。 在运行工序级排产后，生产订单的状态为**已排产**，并且所有工序都按生产工艺路线中指定的顺序排产。 但是，只考虑工序的持续时间。 未计划开始时间和结束时间。
+为生产中的工序设置设置时间、处理时间和运行时间。 在运行工序级排产后，生产订单的状态为 **已排产**，并且所有工序都按生产工艺路线中指定的顺序排产。 但是，只考虑工序的持续时间。 未计划开始时间和结束时间。
 
 ## <a name="scheduling-direction-and-date"></a>计划编制说明和日期
 计划编制说明对计划编制进程至关重要。 生产将根据时间和计划编制的要求，从任意日期正推或倒推。

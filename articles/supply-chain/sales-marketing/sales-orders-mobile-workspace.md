@@ -19,22 +19,22 @@ ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 7e586496212c0cf5c964b434e442725fcdb25fca
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212932"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423191"
 ---
 # <a name="sales-orders-mobile-workspace"></a>销售订单移动工作区
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供有关**销售订单**移动工作区的信息。 此工作区帮助您随时随地掌握最新的销售订单。 
+此主题提供有关 **销售订单** 移动工作区的信息。 此工作区帮助您随时随地掌握最新的销售订单。 
 
 此工作区应该与 Finance and Operations 移动应用结合使用。
 
 ## <a name="overview"></a>概览
-**销售订单**移动工作区可以让您查看有关各销售订单的详细信息。 此信息包括订单状态、客户的联系信息和订单员的联系信息。 **销售订单**移动工作区提供销售订单的即时视图。 您可以查看所有销售订单，按客户查看销售订单，或查看有关特定销售订单的信息。 
+**销售订单** 移动工作区可以让您查看有关各销售订单的详细信息。 此信息包括订单状态、客户的联系信息和订单员的联系信息。 **销售订单** 移动工作区提供销售订单的即时视图。 您可以查看所有销售订单，按客户查看销售订单，或查看有关特定销售订单的信息。 
 
 此移动工作区提供两种视图来帮助您深入分析销售订单。
 
@@ -84,7 +84,7 @@ ms.locfileid: "3212932"
 先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>使用 Supply Chain Management 时的先决条件 
-如果已经为您的组织部署 Supply Chain Management，系统管理员必须发布**销售订单**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
+如果已经为您的组织部署 Supply Chain Management，系统管理员必须发布 **销售订单** 移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的 Dynamics 365 for Operations 版本 1611 时的先决条件
 如果已经为您的组织部署带平台更新 3 或更高版本的 Dynamics 365 for Operations 版本 1611，系统管理员必须完成以下先决条件。 
@@ -136,9 +136,9 @@ ms.locfileid: "3212932"
 
 ## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a>通过使用此销售订单移动工作区查看有关客户销售订单的信息
 
-1.  在移动设备上，选择**销售订单**工作区。
-2.  选择**查看客户的订单**。
+1.  在移动设备上，选择 **销售订单** 工作区。
+2.  选择 **查看客户的订单**。
 3.  使用帐户或客户名称信息查找客户。
 4.  选择客户。
-5.  选择**联系信息**或**销售订单**。 如果您选择**销售订单**，将显示该客户的销售订单列表。
-6.  选择**销售订单**。 现在可以查看有关销售订单行的信息、有关装运的信息、客户联系信息和订单员联系信息。
+5.  选择 **联系信息** 或 **销售订单**。 如果您选择 **销售订单**，将显示该客户的销售订单列表。
+6.  选择 **销售订单**。 现在可以查看有关销售订单行的信息、有关装运的信息、客户联系信息和订单员联系信息。

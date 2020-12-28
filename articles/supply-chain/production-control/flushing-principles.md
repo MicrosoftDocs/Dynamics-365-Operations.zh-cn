@@ -19,17 +19,17 @@ ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 9f7546b70ddef30d88a79b00fe31d4e82d9bfb9b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211529"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422933"
 ---
 # <a name="flushing-principles"></a>耗用原则
 
 [!include [banner](../includes/banner.md)]
 
-耗用原则反映用于生产流程中使用的原材料的不同的消耗策略。 消耗是从现有库存量中扣减物料并为生产订单和批次订单将已消耗物料的值设置为**在制品** (WIP) 的流程。 原材料通常从为使用物料的流程配置的位置使用。 此位置称作生产输入位置。
+耗用原则反映用于生产流程中使用的原材料的不同的消耗策略。 消耗是从现有库存量中扣减物料并为生产订单和批次订单将已消耗物料的值设置为 **在制品** (WIP) 的流程。 原材料通常从为使用物料的流程配置的位置使用。 此位置称作生产输入位置。
 
 在物料消耗前，物料移至输入位置。 下图显示了此流程。
 
@@ -48,7 +48,7 @@ ms.locfileid: "3211529"
 - 完成
 - 在库位可用
 
-耗用原则在默认值层次结构中进行配置。 层次结构从已发放的产品开始，此时耗用原则的值为**开始**。 在物料清单 (BOM) 或配方行上，可以覆盖来自产品的耗用原则。 在生产 BOM 行或批次订单配方行上的默认耗用原则从产品或 BOM 或配方上被覆盖的值提取。
+耗用原则在默认值层次结构中进行配置。 层次结构从已发放的产品开始，此时耗用原则的值为 **开始**。 在物料清单 (BOM) 或配方行上，可以覆盖来自产品的耗用原则。 在生产 BOM 行或批次订单配方行上的默认耗用原则从产品或 BOM 或配方上被覆盖的值提取。
 
 ## <a name="description-of-the-flushing-principles"></a>耗用原则的描述
 

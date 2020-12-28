@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2d6593d0eb1949140b23bc1ea6bcb87b12193aa7
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975552"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423218"
 ---
 # <a name="reverse-changes-in-a-dispatch-board"></a>冲销发货牌中的更改 
 
@@ -34,13 +34,13 @@ ms.locfileid: "3975552"
 
 使用以下步骤来撤销发货牌中的未保存更改：
 
-1.  单击**服务管理** \> **定期** \> **派遣板**。
+1.  单击 **服务管理** \> **定期** \> **派遣板**。
 
-2.  在**派遣板**窗体的字段中输入相关信息，然后单击**确定**。 
+2.  在 **派遣板** 窗体的字段中输入相关信息，然后单击 **确定**。 
 
-3.  若要撤消未保存的最近更改，请单击**撤消**。
+3.  若要撤消未保存的最近更改，请单击 **撤消**。
 
-4.  若要撤消一系列尚未保存的更改，请连续单击**撤消**，直到已撤消您要放弃的每个更改。
+4.  若要撤消一系列尚未保存的更改，请连续单击 **撤消**，直到已撤消您要放弃的每个更改。
 
 ## <a name="see-also"></a>请参阅
 

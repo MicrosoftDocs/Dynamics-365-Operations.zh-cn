@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 9590a4924442ceccf6f30c35e1dce907f54d368e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983173"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422668"
 ---
 # <a name="start-and-stop-time-recording-on-a-service-order"></a>开始和停止针对服务订单的时间录制 
 
@@ -34,21 +34,21 @@ ms.locfileid: "3983173"
 
 ## <a name="start-time-recording"></a>开始时间记录
 
-1.  单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。
+1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
 
-2.  单击**服务订单** 选项卡。在 **操作窗格**上，在**服务级别协议**组中，单击**开始**。
+2.  单击 **服务订单** 选项卡。在 **操作窗格** 上，在 **服务级别协议** 组中，单击 **开始**。
 
 3.  输入应开始时间记录的日期和时间。
 
 ## <a name="stop-time-recording"></a>停止时间记录
 
-1.  单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。
+1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
 
-2.  单击**服务订单** 选项卡。在 **操作窗格**上，在**服务级别协议**组中，单击**停止**。
+2.  单击 **服务订单** 选项卡。在 **操作窗格** 上，在 **服务级别协议** 组中，单击 **停止**。
 
 3.  输入应停止时间记录的日期和时间。
 
-4.  选择**添加撤回原因**，然后在**阶段原因代码**列表中选择一个原因代码提供停止时间记录的原因。
+4.  选择 **添加撤回原因**，然后在 **阶段原因代码** 列表中选择一个原因代码提供停止时间记录的原因。
 
 
 > [!NOTE]

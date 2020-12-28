@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3fb1395859b5abd06539e07ada3d968b2e9c9147
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986519"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423014"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>系统定义和用户定义的表约束
 
@@ -40,7 +40,7 @@ ms.locfileid: "3986519"
 本文描述用户定义和系统定义的用于产品配置模型中的组件的表约束。
 
 ## <a name="user-defined-table-constraints"></a>用户定义的表约束
-用户定义的表约束是一种可于描述属性类型定义的属性值组合的矩阵。 例如，如果生产扬声器，您可以在用户定义的表约束中包括用于机柜表面处理和前格栅的列。 机柜表面处理的属性类型有四个值，前格栅的属性类型有三个值。 因此，如果不使用约束，有 4 × 3 = 12 个可能组合。 但是，在本示例中，只允许六个组合，如下表中所示。 此信息显示在**编辑表约束**页上的**允许的组合**选项卡上。
+用户定义的表约束是一种可于描述属性类型定义的属性值组合的矩阵。 例如，如果生产扬声器，您可以在用户定义的表约束中包括用于机柜表面处理和前格栅的列。 机柜表面处理的属性类型有四个值，前格栅的属性类型有三个值。 因此，如果不使用约束，有 4 × 3 = 12 个可能组合。 但是，在本示例中，只允许六个组合，如下表中所示。 此信息显示在 **编辑表约束** 页上的 **允许的组合** 选项卡上。
 
 | 机柜表面处理 | 前格栅 |
 |----------------|-------------|

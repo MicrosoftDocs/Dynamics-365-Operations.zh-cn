@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 87c46cd7ee7410e1c7cb88868cd19f5075482f8c
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975648"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422742"
 ---
 # <a name="reduction-days-example"></a>缩减天数示例 
 
@@ -72,7 +72,7 @@ ms.locfileid: "3975648"
 
 客户报告不需要两天（3 月 10 日和 3 月 11 日）的服务覆盖范围。 您同意缩减这两天的预订。
 
-您如下表中所述，创建类型为**缩减天数**的新交易记录。
+您如下表中所述，创建类型为 **缩减天数** 的新交易记录。
 
 <table>
 <colgroup>

@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017062"
+ms.locfileid: "4423314"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>通过提领看板补货
 
@@ -54,7 +54,7 @@ ms.locfileid: "4017062"
 
 ## <a name="configure-warehouse-work-for-kanban-picking-for-the-withdrawal-kanban"></a>为提领看板配置仓库看板领料工作
 
-要启用提领看板的原材料领取，则为 **看板领料** 工作订单类型配置波次模板、工作模板和库位指令。 此工作订单类型不仅支持提领看板的领料流程。 它还支持制造看板的领料流程。 但是，您可以通过界定波次模板、工作模板和库位指令的方式为每种看板类型配置单独的领料流程。 要界定波次模板、工作模板和库位指令，请在这些实体的查询中对该活动类型（ **流程** 或 **转移** ）设置条件
+要启用提领看板的原材料领取，则为 **看板领料** 工作订单类型配置波次模板、工作模板和库位指令。 此工作订单类型不仅支持提领看板的领料流程。 它还支持制造看板的领料流程。 但是，您可以通过界定波次模板、工作模板和库位指令的方式为每种看板类型配置单独的领料流程。 要界定波次模板、工作模板和库位指令，请在这些实体的查询中对该活动类型（**流程** 或 **转移**）设置条件
 
 ## <a name="configure-the-withdrawal-kanban"></a>配置提领看板
 

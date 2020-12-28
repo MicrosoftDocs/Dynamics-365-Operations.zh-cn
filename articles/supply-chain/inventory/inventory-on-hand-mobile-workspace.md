@@ -19,22 +19,22 @@ ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 4a41f877816e331351a0950dcdc07ee07f643beb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212725"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422755"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>现有库存量移动工作区
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供有关**现有库存量**移动工作区的信息。 此工作区可帮助您随时随地洞察预留库存和可用库存。
+此主题提供有关 **现有库存量** 移动工作区的信息。 此工作区可帮助您随时随地洞察预留库存和可用库存。
 
 此工作区应该与 Finance and Operations 移动应用结合使用。
 
 ## <a name="overview"></a>概览
-公司的库存通常每天有多次装运和多次收货。 这些活动不断改变现有库存状态。 可通过**现有库存量**移动工作区查看跨公司现有库存状态，以便您在所选移动设备上洞察最新的库存数据。 无论在处理仓库、采购销售、制造或管理，还是充当其他角色，都可以随时随地访问现有库存数据。 
+公司的库存通常每天有多次装运和多次收货。 这些活动不断改变现有库存状态。 可通过 **现有库存量** 移动工作区查看跨公司现有库存状态，以便您在所选移动设备上洞察最新的库存数据。 无论在处理仓库、采购销售、制造或管理，还是充当其他角色，都可以随时随地访问现有库存数据。 
 
 此移动工作区提供跨多个设施的现有量状态的即时视图。 它让您查看跨多个设施的现有量视图、当前物料预留情况，以及未预留的现有库存量。 也可以输入物料编号以查询现有库存量，并可对现有产品或变型执行筛选搜索。 
 
@@ -59,7 +59,7 @@ ms.locfileid: "3212725"
 先决条件根据为您的组织部署的 Supply Chain Management 版本不同。
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>使用 Supply Chain Management 时的先决条件
-如果已经为您的组织部署 Supply Chain Management，系统管理员必须发布**现有库存**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
+如果已经为您的组织部署 Supply Chain Management，系统管理员必须发布 **现有库存** 移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>使用平台更新 3 或更高版本时的先决条件 
 如果已经为您的组织部署平台更新 3 或更高版本，系统管理员必须完成以下先决条件。 
@@ -112,10 +112,10 @@ ms.locfileid: "3212725"
 
 ## <a name="view-the-on-hand-inventory-for-a-product-by-using-the-inventory-on-hand-mobile-workspace"></a>使用现有库存量移动工作区查看产品的现有库存量
 
-1.  在移动设备上，选择**现有库存量**工作区。
+1.  在移动设备上，选择 **现有库存量** 工作区。
 
-2.  选择**检查物料的现有库存量**。 将看到加载到您的应用程序中供脱机使用的产品的列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)。
-3.  如果您的物料不在该列表中，请选择**搜索更多**。 按产品编号搜索，或切换到按产品名搜索。
+2.  选择 **检查物料的现有库存量**。 将看到加载到您的应用程序中供脱机使用的产品的列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)。
+3.  如果您的物料不在该列表中，请选择 **搜索更多**。 按产品编号搜索，或切换到按产品名搜索。
 
 4.  选择项目。 如果物料有图像，将显示该图像。
 5.  选择以下选项之一查看现有库存量状态：

@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 70a5b8f0c7e4857aa2904003b458bf6d02b72064
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982225"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423231"
 ---
 # <a name="master-plans-overview"></a>主计划概览
 
@@ -32,7 +32,7 @@ ms.locfileid: "3982225"
 
 使用各种主计划来支持公司的日常运营、模拟要监控的不同计划策略、实现公司策略，例如有关内部绩效或客户满意度的政策。 
 
-您可以配置**主计划**页上的主计划。
+您可以配置 **主计划** 页上的主计划。
 
 有以下两种计划类型：
 -   **静态计划** – 主计划计算使用当前数据来生成净需求计划。 在下次运行主计划或手动更改计划之前，此计划一直保持不变。 它是一个运营计划，公司的各类人员（例如采购人员或生产规划人员）可将其用作决策基础，也可使用它来执行日常活动。
@@ -42,7 +42,7 @@ ms.locfileid: "3982225"
 -   设置较高的库存水平，以防止缺货。
 -   设置较长的安全宽限期，以防范不可靠的供应商。
 
-还可以设置起始动态计划，以便每次运行主计划时都以新需求计划进行更新。 您可以在**主计划参数**页上指定这些设置。
+还可以设置起始动态计划，以便每次运行主计划时都以新需求计划进行更新。 您可以在 **主计划参数** 页上指定这些设置。
 
 
 

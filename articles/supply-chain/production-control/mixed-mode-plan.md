@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6c16cf5bf1346cad7d5310a74b84c199ae2c71a4
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986880"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422843"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>混合模式计划 - 合并不同的流程和精益采购
 
@@ -41,9 +41,9 @@ ms.locfileid: "3986880"
 ## <a name="supply-policies"></a>供应策略
 混合模式计划可控制产品的供应方式（基于供应）以及针对派生的需求（物料清单 \[BOM\] 中的物料消耗量）的发货方式。 系统将基于订单类型自动采购物料以满足需求。  
 
-可在产品级别或以任何支持需求的粒度定义供应策略。 您在**默认订单设置**页面上定义供应策略的粒度。  
+可在产品级别或以任何支持需求的粒度定义供应策略。 您在 **默认订单设置** 页面上定义供应策略的粒度。  
 
-供应策略可按产品、物料维度（配置、颜色和大小）、站点和仓库控制。 在**物料覆盖范围**页面上进行此设置。  
+供应策略可按产品、物料维度（配置、颜色和大小）、站点和仓库控制。 在 **物料覆盖范围** 页面上进行此设置。  
 
 默认订单类型控制主计划生成的订单。  
 
@@ -65,7 +65,7 @@ Supply Chain Management 确保物料流遵循该模型。
 对于与供应策略无关的工作，如果供应发生更改，您无需更改物料清单上的信息。 对于临时更改，Supply Chain Management 可确保从正确的仓库领取物料。
 
 ## <a name="process-manufacturing--the-production-type"></a>流程制造 – 生产类型
-对于混合模式中的完整灵活性，建议您对所有产品使用生产类型 BOM。 随后，您可以使用生产订单、看板、转移单或采购订单来供应产品。 对于流程制造，您必须使用以下生产类型：**配方**、**联产品**、**副产品**或**计划物料**。 看板和生产订单不能用于这些生产类型。
+对于混合模式中的完整灵活性，建议您对所有产品使用生产类型 BOM。 随后，您可以使用生产订单、看板、转移单或采购订单来供应产品。 对于流程制造，您必须使用以下生产类型：**配方**、**联产品**、**副产品** 或 **计划物料**。 看板和生产订单不能用于这些生产类型。
 
 
 

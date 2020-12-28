@@ -20,11 +20,11 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1fc97db0f0b637e27ece904fe24e91a92044bc17
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208792"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423206"
 ---
 # <a name="adjust-on-hand-inventory-cost-values"></a>调整现有库存量成本价值
 
@@ -32,7 +32,7 @@ ms.locfileid: "3208792"
 
 使用”现有库存量调整“页调整库存结转流程运行后的现有库存量数量的成本价值。
 
-您可以使用**现有库存量调整**页调整库存结转流程运行后的现有库存量数量的成本价值。 **注意：** 若要打开**现有库存量调整**页，在**结转与调整**页上，选择已完成的库存结转流程的记录，然后单击**调整** &gt; **现有**。 **示例：** 您在 2 月份具有以下交易记录：
+您可以使用 **现有库存量调整** 页调整库存结转流程运行后的现有库存量数量的成本价值。 **注意：** 若要打开 **现有库存量调整** 页，在 **结转与调整** 页上，选择已完成的库存结转流程的记录，然后单击 **调整** &gt; **现有**。 **示例：** 您在 2 月份具有以下交易记录：
 
 -   2 月 1 日：以 10.00 美元的成本有数量为 2 的库存财务收货
 -   2 月 5 日：以 13.00 美元的成本有数量为 1 的库存财务收货

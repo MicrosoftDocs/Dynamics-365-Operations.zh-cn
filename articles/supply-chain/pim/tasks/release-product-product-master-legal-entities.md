@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 93b0cb1068d77911983117830618de1f2827fef3
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981054"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422848"
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>向法人发布产品/基础产品
 

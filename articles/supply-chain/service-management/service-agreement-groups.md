@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 51b51640a09f78ed613994e2ade755c8ad831ea9
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975504"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423088"
 ---
 # <a name="service-agreements-overview"></a>服务协议概览
 
@@ -31,7 +31,7 @@ ms.locfileid: "3975504"
 
 服务协议组用于对服务协议进行排序和筛选。 例如，使用服务协议组可以按公司规模、地理位置或行业类型对服务协议进行分组。 或者，可以使用协议组按提供给客户的服务级别对服务协议进行分组。
 
-在**服务管理参数**页面的**服务协议组**字段中，您可以定义默认服务协议组。 当您创建新的服务协议时，建议此组。
+在 **服务管理参数** 页面的 **服务协议组** 字段中，您可以定义默认服务协议组。 当您创建新的服务协议时，建议此组。
 
 ## <a name="example"></a>示例
 

@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 47915a93151b1adc99ddb4e3facb29bf8db49dd6
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826014"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422918"
 ---
 # <a name="start-a-production-order"></a>开始生产订单
 

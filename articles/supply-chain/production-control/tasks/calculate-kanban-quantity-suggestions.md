@@ -17,11 +17,11 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: aa6a01d8f918c45aaa454e5234f80c312d7a5061
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212380"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422727"
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>计算看板数量建议
 

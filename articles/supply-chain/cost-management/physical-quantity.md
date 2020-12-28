@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: daa36dad4009cc25b89363dcff6b4496205522e3
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981479"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422884"
 ---
 # <a name="inventory-object-values"></a>库存对象值
 
@@ -32,11 +32,11 @@ ms.locfileid: "3981479"
 
 本文提供有关库存对象的值如何计算的信息。 
 
-利用名为**实际数量**的新功能，可以查看特定库存对象的值。 
+利用名为 **实际数量** 的新功能，可以查看特定库存对象的值。 
 
 成本对象表示执行库存盘点的实体级别。 有关成本对象的更多信息，请参阅[成本对象](cost-object.md)。 
 
-要查看特定库存对象的值，请在**成本对象**页面上单击**实际数量**。 以下是如何计算库存对象的值： 
+要查看特定库存对象的值，请在 **成本对象** 页面上单击 **实际数量**。 以下是如何计算库存对象的值： 
 
 Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity 
 
@@ -45,7 +45,7 @@ Inventory object.Value = Cost object.Average unit cost × Inventory object.Quant
 -   产品收据 1：数量 = 100 pcs.，金额 = $1,000.00，站点 = 1，仓库 =11，批号 = = B1
 -   产品收据 2：数量 = 50 pcs.，金额 = $800.00，站点 = 1，仓库 =11，批号 = B2
 
-下表显示成本对象的计算结果。 您可以在**成本对象**页面上查看结果。
+下表显示成本对象的计算结果。 您可以在 **成本对象** 页面上查看结果。
 
 <table style="width:100%;">
 <colgroup>
@@ -81,7 +81,7 @@ Inventory object.Value = Cost object.Average unit cost × Inventory object.Quant
 </tbody>
 </table>
 
-下表显示库存对象的计算结果。 您可以通过在**成本对象**页面上单击**实际数量**来查看结果。
+下表显示库存对象的计算结果。 您可以通过在 **成本对象** 页面上单击 **实际数量** 来查看结果。
 
 <table style="width:100%;">
 <colgroup>

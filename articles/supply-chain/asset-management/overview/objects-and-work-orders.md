@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5c2500a695fcffe0d60ac13b1b74cda4322b0e14
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206874"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423040"
 ---
 # <a name="assets-and-work-orders"></a>资产和工作订单
 
@@ -31,7 +31,7 @@ ms.locfileid: "3206874"
 
  
 
-本主题介绍资产管理中的资产和工作订单。 资产和工作订单是资产管理的最重要部分。 *资产*是需要持续维护和服务的机器或机器部件。 可以按分层结构创建资产，还可以将其与功能位置关联。 可以在资产结构的所有级别计划维护作业。
+本主题介绍资产管理中的资产和工作订单。 资产和工作订单是资产管理的最重要部分。 *资产* 是需要持续维护和服务的机器或机器部件。 可以按分层结构创建资产，还可以将其与功能位置关联。 可以在资产结构的所有级别计划维护作业。
 
 可以为每个资产设置各种数据，如产品信息和资产规格，以及必需的维护计划。 下图显示资产数据和资产与作业类型之间的隶属关系的概览。 红色文本用于的示例显示继承关系和依赖关系。
 
@@ -54,4 +54,4 @@ ms.locfileid: "3206874"
 ![显示处理工作订单的概览的图](media/08-overview-image.png)
 
 > [!NOTE]
-> 在 Dynamics 365 Supply Chain Management 和**资产管理**模块中工作时，通常选择**新建**来创建新记录，选择**编辑**来更新现有记录，以及选择**保存**来保存新数据或编辑后的数据。
+> 在 Dynamics 365 Supply Chain Management 和 **资产管理** 模块中工作时，通常选择 **新建** 来创建新记录，选择 **编辑** 来更新现有记录，以及选择 **保存** 来保存新数据或编辑后的数据。

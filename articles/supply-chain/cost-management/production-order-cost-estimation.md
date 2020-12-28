@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4a101f82e60113941d389421b19cddc1ad123ce9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214500"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423083"
 ---
 # <a name="production-order-cost-estimation"></a>生产订单成本估计
 
@@ -46,7 +46,7 @@ ms.locfileid: "3214500"
 如果生产物料清单中存在虚拟行物料，这些计算反映虚拟的组件和工艺路线工序。 您可以使用估计任务重新计算估计成本，以便它们反映更新的信息。 例如，更新后的信息可以更改为生产订单数量、生产物料清单中的组件、生产工艺路线中的工艺路线工序、适用于这些组件和工序的间接成本或者截至重新计算日期的有效成本数据中的变化。 计算估计成本还基于成本加上加价方法为生产物流建议销售价格。 估计成本计算可选择是否应用于参考订单，参考订单反映链接到该生产订单的其他生产订单。
 
 ## <a name="view-the-estimated-costs"></a>查看估计成本
-在运行估计后，您可以查看**价格计算**页上的结果。 估计将计算以下值：
+在运行估计后，您可以查看 **价格计算** 页上的结果。 估计将计算以下值：
 
 -   **生产成本** – 生产成本是估计的顶行。 它显示执行生产订单的整个成本以及生产的总销售价。 它是预估上的所有成本行之和。
 -   **工艺路线或资源成本** – 工艺路线或资源成本是生产工序的成本。 它们包括诸如设置时间、运行时间和开销等元素成本。

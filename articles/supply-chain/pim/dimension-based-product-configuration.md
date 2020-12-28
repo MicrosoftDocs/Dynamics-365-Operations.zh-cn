@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 45688f1882d2711cd43b9b7c199f1fca7ff089ea
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985525"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423199"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>基于维度的产品配置概览
 

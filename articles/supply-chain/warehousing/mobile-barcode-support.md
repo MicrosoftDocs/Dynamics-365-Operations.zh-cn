@@ -18,11 +18,11 @@ ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0612833391cf7690343b7180f11d49ba1ad92d24
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530435"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422963"
 ---
 # <a name="mobile-barcode-support"></a>移动条码支持
 

@@ -18,11 +18,11 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: eaccb566c04d6d4b91ea8cb046931e750a4c6eed
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210678"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422702"
 ---
 # <a name="define-discrete-manufacturing-resource-group"></a>定义离散制造资源组
 

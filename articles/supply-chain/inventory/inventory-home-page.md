@@ -20,11 +20,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ce9d22fa9a3a08b08f65943ba027ace8204d4443
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212794"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422758"
 ---
 # <a name="inventory-management-overview"></a>库存管理概览
 
@@ -57,4 +57,4 @@ ms.locfileid: "3212794"
 您可以在 [Dynamics AX 制造研发团队博客](https://blogs.msdn.microsoft.com/axmfg)和 [Dynamics AX 研发团队中的供应链管理博客](https://blogs.msdn.microsoft.com/dynamicsaxscm)中找到有关库存管理及其他解决方案的建议、新闻和其他信息。
 
 ### <a name="task-guides"></a>任务指南
-其他帮助作为任务指南提供。 若要访问任务指南，请单击任何页面上的**帮助**按钮
+其他帮助作为任务指南提供。 若要访问任务指南，请单击任何页面上的 **帮助** 按钮

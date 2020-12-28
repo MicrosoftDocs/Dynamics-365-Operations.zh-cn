@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ce6b76d92526b9a353bda2524bdfd0f7f4a5f68e
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018828"
+ms.locfileid: "4423316"
 ---
 # <a name="purchase-agreements"></a>采购协议
 
@@ -35,9 +35,9 @@ ms.locfileid: "4018828"
 
 在 **采购协议** 页上，您可以创建、应用和跟进您的组织及供应商之间存在的采购协议。 例如，在创建采购协议后，您可以直接从中进行订购。 每个采购协议都具有由创建采购协议的人员定义的有效期间。 采购的交货日期必须处于此有效期间的生效日期。  
 
-在您创建某一采购协议后，必须激活它，然后它才会生效。 若要激活采购协议，请将 **将协议标记为有效** 选项设置为 **是** 。 
+在您创建某一采购协议后，必须激活它，然后它才会生效。 若要激活采购协议，请将 **将协议标记为有效** 选项设置为 **是**。 
 
-为防止使用和确认您的购买协议，请将协议状态标记为 **关闭** 。 进行此更改后，您仍然可以随时将状态更新为 **有效** 。
+为防止使用和确认您的购买协议，请将协议状态标记为 **关闭**。 进行此更改后，您仍然可以随时将状态更新为 **有效**。
 
 ## <a name="responsible-workers-on-purchase-agreements"></a>采购协议中的负责工作人员
 
@@ -46,8 +46,8 @@ ms.locfileid: "4018828"
 > [!IMPORTANT]
 > 负责方功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
 > 
-> - **模块** ： *采购任务*
-> - **功能名称** ： *采购协议负责方*
+> - **模块**：*采购任务*
+> - **功能名称**：*采购协议负责方*
 
 ## <a name="commitment-types"></a>承诺类型
 采购协议的每一行都是采购的承诺。 您可以使用来自多个采购订单行 (PO) 履行承诺。 有以下四种承诺类型：

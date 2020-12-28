@@ -19,17 +19,17 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ccf4c722bd2342888326ae65e9f059bcd307c98f
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975432"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422681"
 ---
 # <a name="service-subscriptions"></a>服务预订
 
 [!include [banner](../includes/banner.md)]
 
-预订是基于时间和材料项目的。 您可以从**服务订阅**页面中，或通过使用服务预订组，创建项目的预定。
+预订是基于时间和材料项目的。 您可以从 **服务订阅** 页面中，或通过使用服务预订组，创建项目的预定。
 
 对于每个预订，您可以创建可选数目的预订费用。 预订费用是您向客户开票的交易记录。
 

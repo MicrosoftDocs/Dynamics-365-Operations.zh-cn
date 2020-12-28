@@ -16,15 +16,15 @@ ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
 ms.openlocfilehash: f9ee7f1af8e88f56589c84bfaa063ea005aa353a
-ms.sourcegitcommit: 88b4a9d19d16b0ef6543adf7c378a08bf0e07b3a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "3311773"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422827"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>将 Dynamics 365 Supply Chain Management（资产管理）与 Dynamics 365 Guides 集成
 
-您可以将 Microsoft Dynamics 365 Supply Chain Management 中的**资产管理模块**与 Dynamics 365 Guides 集成，以便在日常服务和维护工作流中利用混合现实指南。 如果指南与资产管理工作订单相关联，则在 Supply Chain Management (Dynamics 365) 移动应用中打开工作订单的维护清单的工作人员会发现指南可用。 然后，工作人员可以在 Dynamics 365 Guides HoloLens 应用中查找并打开该指南。
+您可以将 Microsoft Dynamics 365 Supply Chain Management 中的 **资产管理模块** 与 Dynamics 365 Guides 集成，以便在日常服务和维护工作流中利用混合现实指南。 如果指南与资产管理工作订单相关联，则在 Supply Chain Management (Dynamics 365) 移动应用中打开工作订单的维护清单的工作人员会发现指南可用。 然后，工作人员可以在 Dynamics 365 Guides HoloLens 应用中查找并打开该指南。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -33,7 +33,7 @@ ms.locfileid: "3311773"
 - [设置 Dynamics 365 Supply Chain Management](../../fin-ops-core/fin-ops/index.md) 10.0.9 或更高版本。
 - [为 Supply Chain Management 应用打开双重写入](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write.md)。
 - 针对 **MRGuidesFeature** 功能[打开发布外部测试版](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#features-flighted-in-data-management-and-enabling-flighted-features)。 （对于生产环境，您必须首先提交支持票证，才能将您的租户添加到外部测试组。）
-- 在**许可证配置**页面上，[打开以下配置密钥](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference)：
+- 在 **许可证配置** 页面上，[打开以下配置密钥](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference)：
 
     - 资产管理 \> 资产管理混合现实
     - 混合现实 \> 混合现实指南
@@ -56,35 +56,35 @@ ms.locfileid: "3311773"
 1. 在 Supply Chain Management 中，[创建维护清单模板](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-checklist-template)。
 1. 将您创建的指南与新维护清单模板中的维护清单行相关联：
 
-    1. 在**维护清单行**快速选项卡上，选择要与指南关联的行。
-    1. 在**关联的指南**快速选项卡上，选择**添加指南**。
+    1. 在 **维护清单行** 快速选项卡上，选择要与指南关联的行。
+    1. 在 **关联的指南** 快速选项卡上，选择 **添加指南**。
 
         ![将指南与维护清单行关联](media/am-guides-integration-add-guide.png "将指南与维护清单行关联")
 
-    1. 在**名称**字段中，选择指南，然后选择**保存**。
+    1. 在 **名称** 字段中，选择指南，然后选择 **保存**。
 
         ![在“名称”字段中选择指南](media/am-guides-integration-select-guide.png "在“名称”字段中选择指南")
 
 1. 将维护清单模板与作业类型关联：
 
     1. [创建维护作业类型](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type)，或选择现有的维护作业类型。
-    1. 在操作窗格上，选择**维护作业类型默认值**。
+    1. 在操作窗格上，选择 **维护作业类型默认值**。
 
         ![维护作业类型默认值按钮](media/am-guides-integration-job-defaults.png "维护作业类型默认值按钮")
 
-    1. 创建一个行，然后选择**保存**。
+    1. 创建一个行，然后选择 **保存**。
 
         ![创建行](media/am-guides-integration-add-line.png "创建行")
 
-    1. 在操作窗格上，选择**维护清单**。
+    1. 在操作窗格上，选择 **维护清单**。
 
         ![维护清单按钮](media/am-guides-integration-maintenance-checklist.png "维护清单按钮")
 
-    1. 在**维护清单行**快速选项卡上，添加一个行，然后将**类型**字段的值更改为**模板**。
+    1. 在 **维护清单行** 快速选项卡上，添加一个行，然后将 **类型** 字段的值更改为 **模板**。
 
         ![更改类型值](media/am-guides-integration-checklist-lines.png "更改类型值")
 
-    1. 在**行详细信息**快速选项卡上的**模板**字段中，选择与指南关联的模板，然后选择**保存**。
+    1. 在 **行详细信息** 快速选项卡上的 **模板** 字段中，选择与指南关联的模板，然后选择 **保存**。
 
         ![选择模板](media/am-guides-integration-checklist-line-details.png "选择模板")
 
@@ -108,7 +108,7 @@ ms.locfileid: "3311773"
 > 您也可以直接在工作订单或工作类型的维护清单中关联指南。
 
 > [!IMPORTANT]
-> 存在一个已知问题，即，当您将维护清单模板与默认的维护作业类型相关联时，链接到该模板的指南不会出现在**维护作业类型默认值**页面的**关联的指南**快速选项卡上。 但是，在将该作业类型应用于**关联的指南**快速选项卡上的工作订单后，将会显示该指南。
+> 存在一个已知问题，即，当您将维护清单模板与默认的维护作业类型相关联时，链接到该模板的指南不会出现在 **维护作业类型默认值** 页面的 **关联的指南** 快速选项卡上。 但是，在将该作业类型应用于 **关联的指南** 快速选项卡上的工作订单后，将会显示该指南。
 
 ## <a name="see-also"></a>请参阅
 

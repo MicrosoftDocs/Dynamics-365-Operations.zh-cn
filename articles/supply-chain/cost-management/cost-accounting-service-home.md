@@ -16,11 +16,11 @@ ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
 ms.openlocfilehash: e049af5e83343459546e1c3715415e9d7ffa9cab
-ms.sourcegitcommit: 7fec9dc5297ed6e687d4a0dff099922d59d6a830
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372751"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422910"
 ---
 # <a name="cost-accounting-service-home-page-private-preview"></a>成本核算服务主页（私人预览版）
 
