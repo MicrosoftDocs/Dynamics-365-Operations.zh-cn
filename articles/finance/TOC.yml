@@ -72,12 +72,12 @@
                   items:
                     - name: “Finance 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.17（2021 年 3 月）
+                      href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16（2021 年 2 月）
                       href: get-started/whats-new-changed-10-0-16.md
                     - name: Finance 10.0.15（2021 年 1 月）
                       href: get-started/whats-new-changed-10-0-15.md
-                    - name: Finance 10.0.14（2020 年 11 月）
-                      href: get-started/whats-new-changed-10-0-14.md
             - name: 已删除或弃用的功能
               items:
                 - name: Dynamics 365 Finance 中已删除或弃用的功能
@@ -175,7 +175,7 @@
                 - name: Finance and Operations 应用的体系结构
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Microsoft FastTrack
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/fasttrack/index
                 - name: 加入实施项目
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/finance/toc.json
                 - name: 环境计划
@@ -340,14 +340,6 @@
               href: accounts-receivable/copy-customer.md
             - name: 客户工作流
               href: accounts-receivable/customer-workflow.md
-            - name: 收入确认概览
-              href: accounts-receivable/revenue-recognition-overview.md
-            - name: 收入确认设置
-              href: accounts-receivable/revenue-recognition-setup.md
-            - name: 确认延期收入
-              href: accounts-receivable/revenue-recognition-recognize-deferred-revenue.md
-            - name: 销售订单上的收入确认
-              href: accounts-receivable/revenue-recognition-so-basics.md
             - name: 设置和处理重复账单
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: 会计分配和普通账单的子分类日记帐条目
@@ -384,10 +376,30 @@
               href: accounts-receivable/set-up-bills-exchange.md
             - name: 应收帐款关帐
               href: accounts-receivable/close-accounts-receivable.md
-            - name: 付款和结算
+            - name: 收入确认
               items:
                 - name: 收入确认概览
                   href: accounts-receivable/revenue-recognition-overview.md
+                - name: 收入确认设置
+                  href: accounts-receivable/revenue-recognition-setup.md
+                - name: 确认延期收入
+                  href: accounts-receivable/revenue-recognition-recognize-deferred-revenue.md
+                - name: 销售订单上的收入确认
+                  href: accounts-receivable/revenue-recognition-so-basics.md
+                - name: 收入确认捆绑
+                  href: accounts-receivable/rev-rec-bundles.md
+                - name: 收入确认重新分配
+                  href: accounts-receivable/rev-rec-reallocation.md
+                - name: 收入确认重新分配 - 方案 1
+                  href: accounts-receivable/rev-rec-reallocation-scenario-1.md
+                - name: 收入确认重新分配方案 2
+                  href: accounts-receivable/rev-rec-reallocation-scenario-2.md
+                - name: 收入确认重新分配方案 3
+                  href: accounts-receivable/rev-rec-reallocation-scenario-3.md
+                - name: 收入确认重新分配方案 4
+                  href: accounts-receivable/rev-rec-reallocation-scenario-4.md
+            - name: 付款和结算
+              items:
                 - name: 客户付款概览
                   href: cash-bank-management/tasks/customer-payment-overview.md
                 - name: 应收帐款的集中付款
@@ -470,6 +482,10 @@
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: 高级注释管理
               href: localizations/emea-ita-exil-structured-notes.md
+            - name: 对贷方通知单中的原始账单的引用
+              href: accounts-receivable/original-invoice-numbers-credit-notes.md
+            - name: 按时间顺序编号的文档和凭证
+              href: accounts-receivable/chrono-numbers.md
         - name: 预算编制
           items:
             - name: 预算编制主页
@@ -504,6 +520,8 @@
               href: cash-bank-management/cash-bank-management.md
             - name: 现金流量预测
               href: cash-bank-management/cash-flow-forecasting.md
+            - name: 现金流量预测设置故障排除
+              href: cash-bank-management/cash-flow-forecasting-tsg.md
             - name: 银行管理工作区
               href: cash-bank-management/Bank-management-workspace.md
             - name: 银行外币重估
@@ -848,10 +866,14 @@
                   href: asset-leasing/record-rou-asset-depreciation.md
                 - name: 冲销已过帐的租赁交易记录
                   href: asset-leasing/reverse-posted-lease-trans.md
+                - name: 资产租赁惯例
+                  href: asset-leasing/asset-leasing-convention.md
                 - name: 调整租赁
                   href: asset-leasing/adjust-lease.md
                 - name: 减损使用权资产
                   href: asset-leasing/impair-rou-asset.md
+                - name: 建议租赁终止
+                  href: asset-leasing/lease-termination.md
                 - name: 将租赁与固定资产相关联
                   href: asset-leasing/associate-lease-with-fixed-asset.md
                 - name: 以外币记录租赁
@@ -920,6 +942,16 @@
                       href: general-ledger/consolidate-online.md
                     - name: 生成合并的财务报表
                       href: general-ledger/generating-consolidated-financial-statements.md
+                    - name: 从文件导入子公司数据
+                      href: general-ledger/import-subsidiary-data-from-files.md
+                    - name: 将子公司数据导出到文件
+                      href: general-ledger/export-subsidiary-data-to-file.md
+                    - name: 与导入合并 - 格式
+                      href: general-ledger/consolidate-with-import-format.md
+                    - name: 准备一个法人以供在合并流程中使用
+                      href: general-ledger/prepare-company-for-consolidation.md
+                    - name: 设置要合并的子公司法人
+                      href: general-ledger/set-up-subsidiary-company-for-consolidation.md
                 - name: 创建合并组和其他合并帐户
                   href: general-ledger/tasks/create-consolidation-groups.md
                 - name: 主科目类型
@@ -1004,6 +1036,8 @@
                   href: general-ledger/import-currency-exchange-rates.md
                 - name: 一个凭证
                   href: general-ledger/one-voucher.md
+                - name: 一个凭证常见问题解答
+                  href: general-ledger/one-voucher-faq.md
                 - name: 分类帐结算
                   href: general-ledger/ledger-settlements.md
             - name: 期间结束关闭
@@ -1018,6 +1052,8 @@
                   href: general-ledger/tasks/close-fiscal-year.md
                 - name: 批量财务期间结帐
                   href: general-ledger/tasks/mass-financial-period-close.md
+                - name: 年终活动常见问题解答
+                  href: general-ledger/faq-year-end-activities.md
             - name: 销售税
               items:
                 - name: 销售税概览
@@ -1056,20 +1092,80 @@
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: 设置销售税结算期间
                   href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: 设置预缴税金
-                  href: general-ledger/tasks/set-up-withholding-tax.md
                 - name: 查看已过帐的销售税交易记录
                   href: general-ledger/tasks/view-posted-sales-tax-transactions.md
-                - name: 按代码报告打印增值税支付
+                - name: 按代码报告打印销售税付款
                   href: general-ledger/print-sales-tax-payment-by-code-report.md
+            - name: 预缴税金
+              items:
+                - name: 设置预缴税金
+                  href: general-ledger/tasks/set-up-withholding-tax.md
+                - name: 全球预缴税金
+                  items:
+                    - name: 全球预缴税金概览
+                      href: general-ledger/global-withholding-tax-overview.md
+                    - name: 设置全球预缴税金
+                      href: general-ledger/set-up-global-withholding-tax.md
+                    - name: 购买交易记录中的预缴税金
+                      href: general-ledger/withholding-tax-in-purchase-transactions.md
+                    - name: 销售交易记录中的预缴税金
+                      href: general-ledger/withholding-tax-in-sales-transactions.md
+                    - name: 创建预缴税金付款
+                      href: general-ledger/create-a-withholding-tax-payment.md
             - name: 审计工作台
               items:
-                - name: 审计政策规则
+                - name: 审计策略规则
                   href: general-ledger/audit-policy-rules.md
                 - name: 审计策略违规记录和案例
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: 定义原始凭证的审计策略
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+        - name: 财务报告
+          items:
+            - name: 开始使用财务报告
+              href: general-ledger/financial-reporting-getting-started.md
+            - name: 财务报告概览
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
+            - name: 财务报表组件
+              href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: 财务报告中的货币功能
+              href: general-ledger/financial-reporting-currency-capability.md
+            - name: 资产负债表财务报表
+              href: general-ledger/balance-sheet-financial-reports.md
+            - name: 生成财务报表
+              href: ../fin-ops-core/dev-itpro/analytics/generate-financial-report.md?toc=/dynamics365/finance/toc.json
+            - name: 收入报表财务报告
+              href: general-ledger/income-statement-financial-report.md
+            - name: 试算平衡表财务报表
+              href: general-ledger/trial-balance-financial-reports.md
+            - name: 查看财务报表
+              href: general-ledger/view-financial-reports.md
+            - name: 报表设计器界面
+              href: ../fin-ops-core/dev-itpro/analytics/report-designer-interface.md?toc=/dynamics365/finance/toc.json
+            - name: 财务报告程序的键盘快捷键
+              href: general-ledger/financial-reporting-keyboard-shortcuts.md
+            - name: 财务报表设计器中的用户首选项
+              href: ../fin-ops-core/dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/dynamics365/finance/toc.json
+            - name: 高级格式选项
+              href: ../fin-ops-core/dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: 整理报表设计器中的报表组件
+              href: ../fin-ops-core/dev-itpro/analytics/organize-components-report-designer.md?toc=/dynamics365/finance/toc.json
+            - name: 报表定义
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-report-definitions.md?toc=/dynamics365/finance/toc.json
+            - name: 行定义
+              href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: 列定义
+              href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
+            - name: 财务报表中的报告结构树定义
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
+            - name: 修改行定义单元格
+              href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: 重置财务报告数据市场
+              href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
+            - name: 何时重置数据市场
+              href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
+            - name: 财务报告常见问题解答
+              href: general-ledger/financial-reporting-faq.md
         - name: Finance 见解
           items:
             - name: Finance 见解主页
@@ -1306,70 +1402,40 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: 计算加拿大协调销售税
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: 财务报告
-          items:
-            - name: 开始使用财务报告
-              href: general-ledger/financial-reporting-getting-started.md
-            - name: 财务报告概览
-              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
-            - name: 财务报表组件
-              href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
-            - name: 财务报告中的货币功能
-              href: general-ledger/financial-reporting-currency-capability.md
-            - name: 资产负债表财务报表
-              href: general-ledger/balance-sheet-financial-reports.md
-            - name: 生成财务报表
-              href: ../fin-ops-core/dev-itpro/analytics/generate-financial-report.md?toc=/dynamics365/finance/toc.json
-            - name: 收入报表财务报告
-              href: general-ledger/income-statement-financial-report.md
-            - name: 试算平衡表财务报表
-              href: general-ledger/trial-balance-financial-reports.md
-            - name: 查看财务报表
-              href: general-ledger/view-financial-reports.md
-            - name: 报表设计器界面
-              href: ../fin-ops-core/dev-itpro/analytics/report-designer-interface.md?toc=/dynamics365/finance/toc.json
-            - name: 财务报告程序的键盘快捷键
-              href: general-ledger/financial-reporting-keyboard-shortcuts.md
-            - name: 财务报表设计器中的用户首选项
-              href: ../fin-ops-core/dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/dynamics365/finance/toc.json
-            - name: 高级格式选项
-              href: ../fin-ops-core/dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: 整理报表设计器中的报表组件
-              href: ../fin-ops-core/dev-itpro/analytics/organize-components-report-designer.md?toc=/dynamics365/finance/toc.json
-            - name: 报表定义
-              href: ../fin-ops-core/dev-itpro/analytics/design-financial-report-definitions.md?toc=/dynamics365/finance/toc.json
-            - name: 行定义
-              href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: 列定义
-              href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
-            - name: 财务报表中的报告结构树定义
-              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
-            - name: 修改行定义单元格
-              href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: 重置财务报告数据市场
-              href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
         - name: 全球化
           items:
             - name: 全球化资源
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: 监管更新
               href: localizations/regulatory-updates.md
-            - name: 电子开单加载项
+            - name: 电子开票加载项
               items:
-                - name: 电子开单加载项概览
+                - name: 电子开票加载项概览
                   href: localizations/e-invoicing-service-overview.md
-                - name: 创建 Azure 存储帐户和 Key Vault
+                - name: 电子开票加载项管理组件
+                  href: localizations/e-invoicing-service-administration.md
+                - name: 在 Regulatory Configuration Services (RCS) 中配置电子开票加载项
+                  href: localizations/e-invoicing-configuration-rcs.md
+                - name: 在 Finance 和 Supply Chain Management 中签发电子账单
+                  href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
+                - name: 创建 Azure 存储帐户和密钥保管库
                   href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
-                - name: 开始使用电子开单加载项
-                  href: localizations/e-invoicing-get-started.md
-                - name: 开始使用适用于巴西的电子开单加载项
-                  href: localizations/e-invoicing-bra-get-started.md
-                - name: 开始使用适用于意大利的电子开单加载项
-                  href: localizations/e-invoicing-ita-get-started.md
-                - name: 开始使用适用于墨西哥的电子开单加载项
-                  href: localizations/e-invoicing-mex-get-started.md
-                - name: 设置电子开单加载项
-                  href: localizations/e-invoicing-setup.md
+                - name: 入门
+                  items:
+                    - name: 开始使用电子开票加载项服务管理
+                      href: localizations/e-invoicing-get-started-service-administration.md
+                    - name: 开始使用电子开票加载项
+                      href: localizations/e-invoicing-get-started.md
+                    - name: 开始使用适用于巴西的电子开票加载项
+                      href: localizations/e-invoicing-bra-get-started.md
+                    - name: 埃及的客户电子账单
+                      href: localizations/emea-egy-e-invoices.md
+                    - name: 开始使用适用于意大利的电子开票加载项
+                      href: localizations/e-invoicing-ita-get-started.md
+                    - name: 开始使用适用于墨西哥的电子开票加载项
+                      href: localizations/e-invoicing-mex-get-started.md
+                    - name: 设置电子开单加载项
+                      href: localizations/e-invoicing-setup.md
             - name: 澳大利亚
               items:
                 - name: 澳大利亚概览
@@ -1706,10 +1772,18 @@
                   href: localizations/tasks/post-sales-invoice-payment-slip.md
                 - name: 为 OIOUBL 电子开单设置客户帐户
                   href: localizations/tasks/set-up-customer-accounts-oioubl-electronic-invoicing.md
-                - name: 设置 OIOUBL 电子开单
+                - name: 设置 OIOUBL 电子开票
                   href: localizations/tasks/set-up-oioubl-electronic-invoicing.md
                 - name: 设置付款单格式
                   href: localizations/tasks/set-up-payment-slip-format.md
+            - name: 埃及
+              items:
+                - name: 埃及概览
+                  href: localizations/egypt.md
+                - name: 配置埃及的登记编号
+                  href: localizations/emea-egy-reg-numbers.md
+                - name: 配置埃及的账单版式
+                  href: localizations/emea-egy-invoice-layout.md
             - name: 爱沙尼亚
               items:
                 - name: 爱沙尼亚概览
@@ -1798,8 +1872,10 @@
                   href: localizations/emea-invoice-processing.md
                 - name: 签发欧盟入境证
                   href: localizations/tasks/eur-00012-issue-eu-entry-certificate.md
-                - name: 支持的电子开单标准
+                - name: 支持的电子开票标准
                   href: localizations/emea-oioubl-standards-electronic-invoicing.md
+                - name: 强制生成电子账单
+                  href: localizations/emea-eur-forced-einvoices.md
                 - name: 原始账单参考（东欧）
                   href: localizations/tasks/ee-00004-original-invoice-reference.md
                 - name: 使用增值税 ID 搜索当事方
@@ -1968,6 +2044,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: 在线开票系统
                   href: localizations/emea-hun-online-invoicing.md
+                - name: 匈牙利的销售税报表
+                  href: localizations/emea-hun-sales-tax-reports.md
                 - name: 延期销售税计算
                   href: localizations/emea-hun-deferred-vat.md
             - name: 冰岛
@@ -2216,15 +2294,17 @@
                       href: general-ledger/extend-tax-engine-configurations.md
                     - name: 解决 GTE 问题
                       href: localizations/tax-engine-trouble-shooting.md
-                - name: 税金阈值常见问题
+                - name: 税金阈值常见问题解答
                   href: localizations/apac-ind-tax-thresholds.md
             - name: 意大利
               items:
                 - name: 意大利概览
                   href: localizations/italy.md
-                - name: VAT 报表明细
+                - name: 增值税报表明细
                   href: localizations/emea-ita-vat-statements-details.md
-                - name: 阻止列表报告
+                - name: 每季度增值税申报报表
+                  href: localizations/emea-ita-quarterly-vat-communication.md
+                - name: 黑名单报告
                   href: localizations/emea-ita-black-list-report.md
                 - name: 生效日期
                   href: localizations/emea-ita-competence-date.md
@@ -2278,6 +2358,10 @@
                   href: localizations/emea-ita-e-invoices.md
                 - name: 年度税务申报
                   href: localizations/emea-ita-yearly-tax-communication.md
+                - name: 付款可追溯性
+                  href: localizations/emea-ita-payment-traceability.md
+                - name: 统一过帐日期控制
+                  href: localizations/emea-ita-post-date-control.md
             - name: 日本
               items:
                 - name: 日本概览
@@ -2824,8 +2908,12 @@
                   items:
                     - name: 费用和收入代码
                       href: localizations/rus-expense-and-income-codes.md
-                    - name: 资产税务登记册
+                    - name: 资产税务登记
                       href: localizations/rus-assets-tax-registers.md
+                    - name: 延期税务登记
+                      href: localizations/rus-deferred-expenses-register.md
+                    - name: 现金流量税务登记
+                      href: localizations/rus-cash-flow-tax-registers.md
             - name: 沙特阿拉伯
               items:
                 - name: 沙特阿拉伯概览
@@ -2906,6 +2994,10 @@
                   href: localizations/apac-tha-substitution-and-adjustment-invoices.md
                 - name: 未实现的增值税
                   href: localizations/apac-tha-unrealized-vat.md
+                - name: 分支机构维度
+                  href: localizations/apac-tha-tax-branch-dimensions.md
+                - name: 销售增值税报告
+                  href: localizations/apac-tha-sales-vat-report.md
                 - name: 预缴税金
                   href: localizations/apac-tha-withholding-tax.md
             - name: 阿拉伯联合酋长国 (UAE)
@@ -2991,7 +3083,7 @@
                 - name: 制订继任计划
                   href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
                 - name: 输入项目工时单
-                  href: ../human-resources/hr-personnel-enter-project-timesheets.md?toc=/dynamics365/finance/toc.json
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
                 - name: 大批雇用项目
                   href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
                 - name: 创建大批雇用项目
@@ -3301,12 +3393,18 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
                 - name: 高级配方设计器
                   href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
-            - name: 配方语言和函数
+            - name: 公式语言和函数
               items:
-                - name: 配方语言
+                - name: 公式语言
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
                 - name: 函数
                   items:
+                    - name: 容器
+                      items:
+                        - name: 容器函数
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/finance/toc.json
+                        - name: Base64StringToContainer
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/finance/toc.json
                     - name: 日期和时间
                       items:
                         - name: 日期和时间函数
@@ -3529,6 +3627,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/finance/toc.json
                         - name: 类型：Value
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/finance/toc.json
+                        - name: 容器：Base64StringToContainer
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/finance/toc.json
                         - name: 日期和时间：DateTimeValue
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
                         - name: 日期和时间：DateToDateTime
@@ -3569,8 +3669,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                         - name: 运行格式以将列动态添加到 Excel 报表
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
-                - name: 设计配置以生成 Word 格式的报告
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
+                - name: 设计配置以生成 Word 格式的报表
+                  items:
+                    - name: 设计新的电子报告配置以生成 Word 格式的报表
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
+                    - name: 重复使用带有 Excel 模板的电子报告配置以 Word 格式生成报表
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: 设计配置以填写 PDF 模板
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: 嵌入图像和形状
@@ -3587,6 +3691,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
                 - name: 基于文件大小和内容数量拆分生成的 XML 文件
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
+                - name: 禁止在生成的文件中使用物料清单字符
+                  href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/finance/toc.json
             - name: 使用电子报告更新应用程序数据
               items:
                 - name: 生成电子文档并更新应用程序数据
@@ -3646,7 +3752,7 @@
                         - name: 从 GR 导入配置
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: 导入电子报告配置的更新版本
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: 增强的筛选，用于在 GR 中查找配置
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: 将配置上传到 GR
@@ -3710,38 +3816,40 @@
                         - name: 修改并运行格式以使用文档管理文件
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
                     - name: 调试数据源
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: 使用 BARCODE 生成条码图像
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: 配置模型映射
                   items:
                     - name: 配置与国家/地区上下文相关的电子报告模型映射
-                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/finance/toc.json
                     - name: 管理单独电子报告配置中的电子报告模型映射
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
+                    - name: 管理单个模型根的多个派生映射
+                      href: ../fin-ops-core/dev-itpro/analytics/er-multiple-model-mappings.md?toc=/dynamics365/finance/toc.json
                 - name: 配置格式
                   items:
                     - name: 创建格式时选择模型定义
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: 配置电子报告格式以使用每个法人指定的参数
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/finance/toc.json
                     - name: 为每个法人设置电子报告格式的参数
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/finance/toc.json
                     - name: 推迟执行电子报告格式元素
                       items:
                         - name: 推迟执行序列元素
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/finance/toc.json
                         - name: 推迟执行 XML 元素
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/finance/toc.json
                     - name: 设计多语言报告
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                     - name: 压缩大量传出文档
                       href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: 检查已配置的电子报告组件
-                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=dynamics365/finance/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: 数据绑定中的相对路径
-                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
-            - name: 在 Finance and Operations 中使用电子报告解决方案
+                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
+            - name: 在 Finance 中使用电子报告解决方案
               items:
                 - name: 配置框架
                   items:
@@ -3775,6 +3883,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
                     - name: 配置目标
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: 配置与操作有关的目标
+                      href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
                 - name: 设置对电子报告格式的引用
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: 自动验证生成的报表
@@ -3815,6 +3925,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json
                     - name: 应用程序更新 10.0.11
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
+                    - name: 应用程序更新 10.0.17
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
                 - name: 为生成文档指定自定义存储位置
                   items:
                     - name: 订阅事件以请求订阅处理程序的响应

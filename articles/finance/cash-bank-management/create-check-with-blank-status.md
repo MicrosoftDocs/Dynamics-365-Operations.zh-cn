@@ -11,31 +11,30 @@ ms.technology: ''
 ms.search.form: BankChequeTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 47d54524f87cf718b9b41462b5133df267d5dd9e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aa1c4c33b977c0173da98aee409389b9242980fb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458554"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976435"
 ---
-# <a name="create-checks-that-have-blank-status"></a><span data-ttu-id="c0694-103">创建具有空白状态的支票</span><span class="sxs-lookup"><span data-stu-id="c0694-103">Create checks that have Blank status</span></span>
+# <a name="create-checks-that-have-blank-status"></a><span data-ttu-id="4df75-103">创建具有空白状态的支票</span><span class="sxs-lookup"><span data-stu-id="4df75-103">Create checks that have Blank status</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c0694-104">本主题介绍了如何创建空白支票。</span><span class="sxs-lookup"><span data-stu-id="c0694-104">This topic explains how to create blank checks.</span></span> <span data-ttu-id="c0694-105">例如，您可以创建一个空白支票以记录已损坏并且不能用于付款的支票。</span><span class="sxs-lookup"><span data-stu-id="c0694-105">For example, you might create a blank check to record a check that has been damaged and can't be used for payment.</span></span>
+<span data-ttu-id="4df75-104">本主题介绍了如何创建空白支票。</span><span class="sxs-lookup"><span data-stu-id="4df75-104">This topic explains how to create blank checks.</span></span> <span data-ttu-id="4df75-105">例如，您可以创建一个空白支票以记录已损坏并且不能用于付款的支票。</span><span class="sxs-lookup"><span data-stu-id="4df75-105">For example, you might create a blank check to record a check that has been damaged and can't be used for payment.</span></span>
 
-<span data-ttu-id="c0694-106">在 **支票** 页面上，可对支票执行维护任务。</span><span class="sxs-lookup"><span data-stu-id="c0694-106">On the **Checks** page, you perform maintenance tasks for checks.</span></span> <span data-ttu-id="c0694-107">例如，您可以创建新支票编号以及删除支票。</span><span class="sxs-lookup"><span data-stu-id="c0694-107">For example, you can create new check numbers and delete checks.</span></span> <span data-ttu-id="c0694-108">您也可以创建具有 **空白** 状态的支票。</span><span class="sxs-lookup"><span data-stu-id="c0694-108">You can also create checks that have a status of **Blank**.</span></span> <span data-ttu-id="c0694-109">在创建空白支票之后，将无法在系统中删除或重用这些支票。</span><span class="sxs-lookup"><span data-stu-id="c0694-109">After blank checks are created, they can't be deleted or reused in the system.</span></span>
+<span data-ttu-id="4df75-106">在 **支票** 页面上，可对支票执行维护任务。</span><span class="sxs-lookup"><span data-stu-id="4df75-106">On the **Checks** page, you perform maintenance tasks for checks.</span></span> <span data-ttu-id="4df75-107">例如，您可以创建新支票编号以及删除支票。</span><span class="sxs-lookup"><span data-stu-id="4df75-107">For example, you can create new check numbers and delete checks.</span></span> <span data-ttu-id="4df75-108">您也可以创建具有 **空白** 状态的支票。</span><span class="sxs-lookup"><span data-stu-id="4df75-108">You can also create checks that have a status of **Blank**.</span></span> <span data-ttu-id="4df75-109">在创建空白支票之后，将无法在系统中删除或重用这些支票。</span><span class="sxs-lookup"><span data-stu-id="4df75-109">After blank checks are created, they can't be deleted or reused in the system.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c0694-110">仅当在 **功能管理** 页面中启用 **在“支票”页面中创建具有空白状态的支票** 功能时，此功能才在 **支票** 页面中可用。</span><span class="sxs-lookup"><span data-stu-id="c0694-110">This feature is available on the **Checks** page only if you turn on the **Create checks with a blank status on the Checks page** feature on the **Feature management** page.</span></span> <span data-ttu-id="c0694-111">如果未启用该功能，则只能在应付帐款的付款生成流程期间从 **支票付款** 对话框创建具有 **空白** 状态的支票。</span><span class="sxs-lookup"><span data-stu-id="c0694-111">If the feature isn't turned on, checks that have **Blank** status can be created only from the **Payment by check** dialog box during the payment generation process in Accounts payable.</span></span>
+> <span data-ttu-id="4df75-110">仅当在 **功能管理** 页面中启用 **在“支票”页面中创建具有空白状态的支票** 功能时，此功能才在 **支票** 页面中可用。</span><span class="sxs-lookup"><span data-stu-id="4df75-110">This feature is available on the **Checks** page only if you turn on the **Create checks with a blank status on the Checks page** feature on the **Feature management** page.</span></span> <span data-ttu-id="4df75-111">如果未启用该功能，则只能在应付帐款的付款生成流程期间从 **支票付款** 对话框创建具有 **空白** 状态的支票。</span><span class="sxs-lookup"><span data-stu-id="4df75-111">If the feature isn't turned on, checks that have **Blank** status can be created only from the **Payment by check** dialog box during the payment generation process in Accounts payable.</span></span>
 
-<span data-ttu-id="c0694-112">若要打开 **支票** 页面，请转到 **现金和银行管理 \> 银行账户 \> 银行账户**，然后在操作窗格的 **管理付款** 选项卡的 **相关信息** 组中，选择 **支票**。</span><span class="sxs-lookup"><span data-stu-id="c0694-112">To open the **Checks** page, go to **Cash and bank management \> Bank accounts \> Bank accounts**, and then, on the Action Pane, on the **Manage payments** tab, in the **Related information** group, select **Checks**.</span></span> <span data-ttu-id="c0694-113">或者，请转到 **现金和银行管理 \> 查询和报表 \> 支票**。</span><span class="sxs-lookup"><span data-stu-id="c0694-113">Alternatively, go to **Cash and bank management \> Inquiries and reports \> Checks**.</span></span>
+<span data-ttu-id="4df75-112">若要打开 **支票** 页面，请转到 **现金和银行管理 \> 银行账户 \> 银行账户**，然后在操作窗格的 **管理付款** 选项卡的 **相关信息** 组中，选择 **支票**。</span><span class="sxs-lookup"><span data-stu-id="4df75-112">To open the **Checks** page, go to **Cash and bank management \> Bank accounts \> Bank accounts**, and then, on the Action Pane, on the **Manage payments** tab, in the **Related information** group, select **Checks**.</span></span> <span data-ttu-id="4df75-113">或者，请转到 **现金和银行管理 \> 查询和报表 \> 支票**。</span><span class="sxs-lookup"><span data-stu-id="4df75-113">Alternatively, go to **Cash and bank management \> Inquiries and reports \> Checks**.</span></span>
 
-<span data-ttu-id="c0694-114">然后，若要创建具有 **空白** 状态的支票，请在操作窗格中选择 **创建空白支票**。</span><span class="sxs-lookup"><span data-stu-id="c0694-114">Then, to create checks that have **Blank** status, on the Action Pane, select **Create blank checks**.</span></span> <span data-ttu-id="c0694-115">当系统创建空白支票时，关联的银行帐户将会暂时禁用。</span><span class="sxs-lookup"><span data-stu-id="c0694-115">While the system is creating blank checks, the associated bank account is temporarily inactivated.</span></span> <span data-ttu-id="c0694-116">此行为将会降低在创建空白支票时生成付款的风险。</span><span class="sxs-lookup"><span data-stu-id="c0694-116">This behavior reduces the risk that payments will be generated at the same time that blank checks are created.</span></span> <span data-ttu-id="c0694-117">处理完成后，关联的银行帐户将重新激活。</span><span class="sxs-lookup"><span data-stu-id="c0694-117">When the processing is completed, the associated bank account is reactivated.</span></span>
+<span data-ttu-id="4df75-114">然后，若要创建具有 **空白** 状态的支票，请在操作窗格中选择 **创建空白支票**。</span><span class="sxs-lookup"><span data-stu-id="4df75-114">Then, to create checks that have **Blank** status, on the Action Pane, select **Create blank checks**.</span></span> <span data-ttu-id="4df75-115">当系统创建空白支票时，关联的银行帐户将会暂时禁用。</span><span class="sxs-lookup"><span data-stu-id="4df75-115">While the system is creating blank checks, the associated bank account is temporarily inactivated.</span></span> <span data-ttu-id="4df75-116">此行为将会降低在创建空白支票时生成付款的风险。</span><span class="sxs-lookup"><span data-stu-id="4df75-116">This behavior reduces the risk that payments will be generated at the same time that blank checks are created.</span></span> <span data-ttu-id="4df75-117">处理完成后，关联的银行帐户将重新激活。</span><span class="sxs-lookup"><span data-stu-id="4df75-117">When the processing is completed, the associated bank account is reactivated.</span></span>
