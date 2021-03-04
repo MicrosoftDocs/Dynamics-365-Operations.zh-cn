@@ -119,3 +119,6 @@ ms.locfileid: "4684371"
 23. 单击“确定”。
     * 检查创建的输出。 已将输出生成为带有嵌入图像（用于显示公司徽标、授权人员的签名和所选水印文本）的 Word 文档。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

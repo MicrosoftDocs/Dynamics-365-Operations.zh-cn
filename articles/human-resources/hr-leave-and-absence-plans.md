@@ -383,3 +383,6 @@ Human Resources 使用以下公式：
 - [休假和缺勤概览](hr-leave-and-absence-overview.md)
 - [配置休假和缺勤类型](hr-leave-and-absence-types.md)
 - [累积休假和缺勤计划](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

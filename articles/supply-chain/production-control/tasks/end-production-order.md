@@ -46,3 +46,6 @@ ms.locfileid: "4422697"
 1. 在“操作窗格”中，单击“管理成本”。
 2. 单击“查看成本比较”。
     * 在结束生产订单后，可以将已实现的成本价与估计成本对比获得生产差异概览。  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

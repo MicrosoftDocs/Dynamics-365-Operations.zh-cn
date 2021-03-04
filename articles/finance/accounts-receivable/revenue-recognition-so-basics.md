@@ -97,3 +97,6 @@ ms.locfileid: "4995534"
 预期收入确认计划将被移除并替换为最终收入确认计划。 每个销售订单行的收入计划详细信息均会得到保持，并会用于在履行合同义务的同时将延迟收入发布到实际收入中。
 
 [![最终收入确认计划](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

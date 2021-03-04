@@ -238,3 +238,6 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 ## <a name="additional-resources"></a>其他资源
 
 [电子申报 (ER) 概览](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

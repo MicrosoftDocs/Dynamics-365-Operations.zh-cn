@@ -504,3 +504,6 @@ ms.locfileid: "4423070"
 [不符合项管理](enable-nonconformance-management.md)
 
 [仓库流程质量管理](quality-management-for-warehouses-processes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

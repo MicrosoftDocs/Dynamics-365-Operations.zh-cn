@@ -67,3 +67,6 @@ ms.locfileid: "4410442"
 ## <a name="using-extended-logon"></a>使用扩展登录
 
 在配置扩展登录时，并且工作人员已被分配了条码或磁条，在 POS 登录页显示时，工作人员必须刷或扫描他或她的卡。 如果还需要密码才能继续登录，系统将提示工作人员输入他或她的密码。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

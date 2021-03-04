@@ -61,3 +61,6 @@ ms.locfileid: "4440832"
 29. 在 **操作窗格** 上，单击 **激活**。
 30. 单击 **启用**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

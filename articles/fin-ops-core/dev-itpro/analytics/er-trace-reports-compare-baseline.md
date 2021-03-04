@@ -243,3 +243,6 @@ ms.locfileid: "4682815"
 ## <a name="additional-resources"></a>其他资源
 
 - [配置电子报告 (ER) 框架](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

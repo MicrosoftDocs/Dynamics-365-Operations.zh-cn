@@ -117,3 +117,6 @@ LinkedIn 每天通过 Attract 批处理一次工作发布。 因此，在通过 
 [在 Microsoft Dynamics 365 Talent - Attract 中使用 LinkedIn Recruiter 寻求应聘者](./attract-linkedin-recruiter.md)
 
 [与 LinkedIn 和 Microsoft Dynamics 365 Talent - Attract 集成疑难解答](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

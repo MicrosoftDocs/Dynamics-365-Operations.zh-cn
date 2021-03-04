@@ -66,3 +66,6 @@ ms.locfileid: "4423405"
 --------
 
 [创建新仓库布局](tasks/create-new-warehouse-layout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

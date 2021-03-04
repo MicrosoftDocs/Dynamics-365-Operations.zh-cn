@@ -221,3 +221,6 @@ ms.locfileid: "4423195"
 1. 在操作窗格上，在 **负荷** 选项卡上的 **操作** 组中，选择 **兼容性检查**。
 
 您会收到一条通知您检查结果的消息。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

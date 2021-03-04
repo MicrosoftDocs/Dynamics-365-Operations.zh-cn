@@ -135,3 +135,6 @@ ms.locfileid: "4654212"
 ## <a name="additional-resources"></a>其他资源
 
 - [配置装运合并策略](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

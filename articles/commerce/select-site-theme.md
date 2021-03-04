@@ -68,3 +68,6 @@ ms.locfileid: "4556421"
 
 [创建新主题](e-commerce-extensibility/create-theme.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

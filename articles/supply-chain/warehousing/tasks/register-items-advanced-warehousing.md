@@ -76,3 +76,6 @@ ms.locfileid: "4423146"
     * 单击“确定”后，请检查消息栏。 应该有条消息告知操作成功。  
 5. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

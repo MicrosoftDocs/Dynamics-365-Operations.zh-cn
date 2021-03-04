@@ -58,3 +58,6 @@ ms.locfileid: "4969644"
 > 要提供有关为什么显示这些附加项目的上下文，您可以向网格中添加其他列，例如 **重新分配 ID** 和 **销售订单**。
 > 
 > [![“收入价格分配”页面上的其他列](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -380,3 +380,6 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
 - [跟踪生成的报表结果并将其与基准值进行比较](er-trace-reports-compare-baseline.md)
 - [ER 通过采用该格式的新的基本版本升级格式](tasks/er-upgrade-format.md)
 - [ER 从 Lifecycle Services 导入配置](tasks/er-import-configuration-lifecycle-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

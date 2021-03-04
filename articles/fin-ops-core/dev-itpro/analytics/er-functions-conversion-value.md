@@ -63,3 +63,6 @@ VALUE (text)
 ## <a name="additional-resources"></a>其他资源
 
 [类型转换函数](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

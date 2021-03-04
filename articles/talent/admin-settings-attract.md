@@ -69,3 +69,6 @@ Microsoft Dynamics 365 Talent: Attract 中的管理员中心包含配置设置�
 您还可以设置并强制执行聘约的到期日期。 如果您将 **所有聘约均必须设置到期日期** 选项设置为 **是**，聘约将在您指定的小时数或天数后过期。
 
 有关聘约管理的详细信息，请参阅[设置聘约管理](./offer-setup.md)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

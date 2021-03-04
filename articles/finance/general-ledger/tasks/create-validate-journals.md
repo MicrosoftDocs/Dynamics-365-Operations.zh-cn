@@ -43,3 +43,6 @@ ms.locfileid: "4646303"
 12. 单击 **过帐**。
 13. 单击 **凭证**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

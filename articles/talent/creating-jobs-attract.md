@@ -157,3 +157,6 @@ Attract 工作可以提交以供审核。 并非所有工作都需要审核。 �
 
 13. 若要激活工作，请选择 **激活**。
 14. 要发布工作，请转到 **发布**，然后选择 Talent Careers 站点或 LinkedIn 下的 **立即发布**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

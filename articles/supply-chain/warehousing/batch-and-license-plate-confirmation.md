@@ -48,3 +48,6 @@ ms.locfileid: "4514294"
 
 1. 从移动设备菜单项输入工作确认设置。  
 1. 为批次或牌照确认选择选项。 两个选项对未启用自动确认的工作类型领料均可用。  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

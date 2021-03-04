@@ -107,3 +107,6 @@ ms.locfileid: "4410382"
 [设置分类](set-up-assortments.md)
 
 [管理属性和属性组](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ ms.locfileid: "4423371"
 1. 单击“驾驶员签出”。
 2. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

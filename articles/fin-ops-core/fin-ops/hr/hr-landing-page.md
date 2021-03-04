@@ -93,3 +93,6 @@ Microsoft Dynamics AX 可帮助您维护符合适用法律的安全工作环境�
 - [设计调查表](../../../talent/design-questionnaires.md)
 - [分发和计划调查表](../../../talent/distribute-questionnaires.md)
 - [查看和评估调查表的结果](../../../talent/evaluate-questionnaire-results.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

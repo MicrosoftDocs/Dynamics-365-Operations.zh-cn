@@ -122,3 +122,6 @@ Dynamics 365 Commerce 支持创建和管理多个网站，每个网站可以有�
 [站点的搜索引擎优化 (SEO) 注意事项](search-engine-optimization-considerations.md)
 
 [管理内容安全策略 (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

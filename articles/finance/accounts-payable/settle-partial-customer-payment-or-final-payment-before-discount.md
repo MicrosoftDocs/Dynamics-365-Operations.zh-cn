@@ -149,3 +149,6 @@ Arnie 过帐此日记帐并审核 **客户交易记录** 页中的客户交易�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

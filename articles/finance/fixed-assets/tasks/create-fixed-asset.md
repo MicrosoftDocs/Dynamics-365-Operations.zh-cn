@@ -55,3 +55,6 @@ ms.locfileid: "4440982"
 
 > [!WARNING]
 > 如果将交易记录过帐到关联的帐簿，或者在日记帐行中输入了新创建的固定资产但未过帐，则不会删除固定资产记录。 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

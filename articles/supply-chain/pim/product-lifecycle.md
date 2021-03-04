@@ -109,3 +109,6 @@ ms.locfileid: "4423457"
 - [为已发布的产品分配产品生命周期状态](tasks/product-lifecycle-state-released-product.md)
 - [查找过时的产品变型并分配产品生命周期状态](tasks/obsolete-product-variants.md)
 - [创建产品生命周期状态以从主计划中排除产品](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Dynamics 365 Human Resources 将层代码用于员工和雇主支付的福利比
    | **说明** | 福利层代码的描述。 |
 
 4. 选择 **保存**。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

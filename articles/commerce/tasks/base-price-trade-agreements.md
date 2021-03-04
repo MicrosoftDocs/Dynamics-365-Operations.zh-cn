@@ -70,3 +70,6 @@ ms.locfileid: "4410546"
 38. 在 **操作窗格** 上，单击“销售”。
 39. 单击 **销售价**。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ ms.locfileid: "4423397"
     - **参考批次** 可确保在附加的销售订单中对当前采购的成本计费。  
     - 您可以通过打开 **参考编号** 字段中的链接导航到源销售订单。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

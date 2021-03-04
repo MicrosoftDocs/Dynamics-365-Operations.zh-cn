@@ -81,3 +81,6 @@ ATP = 前一期间的 ATP + 当前期间的收货 - 当前期间的发货 - 截�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

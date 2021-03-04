@@ -69,3 +69,6 @@ ms.locfileid: "4410396"
 - 商业渠道
 - 登记簿和设备
 - 分类
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

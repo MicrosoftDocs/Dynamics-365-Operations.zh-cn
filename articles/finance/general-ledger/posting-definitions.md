@@ -62,3 +62,6 @@ ms.locfileid: "4440777"
 有关详细信息，请参阅[过帐定义示例](example-posting-definitions.md)。 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

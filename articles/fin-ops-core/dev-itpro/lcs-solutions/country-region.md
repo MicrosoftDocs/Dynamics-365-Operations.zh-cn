@@ -133,3 +133,6 @@ Finance and Operations 应用包含适用于[产品本地化和翻译可用性�
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

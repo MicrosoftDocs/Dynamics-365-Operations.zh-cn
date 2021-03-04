@@ -48,3 +48,6 @@ ms.locfileid: "4410540"
 12. 在主页选择 **商店财务**。
 13. 选择 **已过帐的报表** 选项卡。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

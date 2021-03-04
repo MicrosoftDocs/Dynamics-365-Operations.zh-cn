@@ -125,3 +125,6 @@ ms.locfileid: "4422794"
 #### <a name="blogs"></a>博客
 
 文章[如何使用 Dynamics 365 for Finance and Operations 开展销售工作](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations)中包含销售流程概览。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

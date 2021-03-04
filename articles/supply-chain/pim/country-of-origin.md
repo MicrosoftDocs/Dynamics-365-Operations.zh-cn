@@ -91,3 +91,6 @@ ms.locfileid: "4422662"
 显示有关每个部件原产国家/地区的信息的报告将生成并显示。 以下是一个报告示例。
 
 ![原产国家/地区报告](media/country-of-origin-report.png "原产国家/地区报告")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

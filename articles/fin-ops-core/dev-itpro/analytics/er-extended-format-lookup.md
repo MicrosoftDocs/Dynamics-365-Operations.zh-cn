@@ -91,3 +91,6 @@ ms.locfileid: "4679478"
 - [电子报告 (ER) 概览](general-electronic-reporting.md)
 - [电子报告 (ER) 框架 API](er-apis-app73.md)
 - [管理电子报告 (ER) 配置生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

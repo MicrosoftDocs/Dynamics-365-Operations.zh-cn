@@ -55,3 +55,6 @@ ms.locfileid: "4980398"
 [编辑零售交易记录的财务维度](edit-financial-dim.md)
 
 [创建 Excel 工作簿以编辑零售交易记录](create-excel-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

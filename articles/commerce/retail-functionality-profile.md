@@ -64,3 +64,6 @@ Commerce 功能配置文件提供了用于在线渠道的各种设置。 每个�
 [屏幕布局概览](pos-screen-layouts.md)       
 
 [配置并安装 Retail Hardware Station](retail-hardware-station-configuration-installation.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

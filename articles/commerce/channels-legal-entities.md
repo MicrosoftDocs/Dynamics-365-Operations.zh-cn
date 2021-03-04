@@ -86,3 +86,6 @@ ms.locfileid: "4410450"
 [渠道概览](channels-overview.md)
 
 [渠道设置先决条件](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

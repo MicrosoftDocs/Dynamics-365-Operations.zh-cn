@@ -111,3 +111,6 @@ ms.locfileid: "4687393"
 | 装运表现        | 产品装运                       | CustPackingSlipOnTimeStatus           | 提前、按时和延迟（参阅此表之前的描述）。 |
 | 装运表现        | 客户装运                      | CustPackingSlipOnTimeStatus           | 提前、按时和延迟（参阅此表之前的描述）。 |
 | 装运表现        | 站点/仓库装运              | CustPackingSlipOnTimeStatus           | 提前、按时和延迟（参阅此表之前的描述）。 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -167,3 +167,6 @@ ms.locfileid: "4423213"
 - 生成准确的返利索赔
 - 在总帐中应计预期应收账款和临时收益
 - 使用到期的折让更新供应商余额和利润表
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

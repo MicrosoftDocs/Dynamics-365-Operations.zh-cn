@@ -111,3 +111,6 @@ ms.locfileid: "4410551"
 [将任务列表分配给商店或员工](task-mgmt-assign-lists.md)
 
 [POS 中的任务管理](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ ms.locfileid: "4410566"
 [丰富类别登陆页面](enrich-category-page.md)
 
 [验证页面内容可访问性](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -137,3 +137,6 @@ Dynamics 365 Finance 未打印“美国信息返回的 1096 年度摘要和传�
 增添了一个新的公共部门功能，即 **通过主帐户更新 1099 信息**，您可以在 **功能管理** 工作区中启用该功能。 利用此功能可以通过会计分配中的主帐户（而不是供应商记录中的默认帐户）关联供应商的 1099 值。
 
 有关详细信息，请参阅[设置供应商进行 1099 申报](../localizations/noam-usa-set-up-vndrs-1099-rprtg.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

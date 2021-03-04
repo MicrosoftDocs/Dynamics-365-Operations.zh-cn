@@ -40,3 +40,6 @@ ms.locfileid: "4422953"
 
 您不能为属于服务物料的产品设置销售数量。 例如，如果您提供安装物料的服务，那么记录数量是没有意义的，因为没有实际物料。 只有服务。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

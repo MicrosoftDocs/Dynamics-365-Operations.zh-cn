@@ -44,3 +44,6 @@ Microsoft Dynamics 365 Finance 包括一个示例格式，其中支票位于顶�
 - 为在付款日记帐中配置的银行帐户生成付款时，将使用指定的格式打印支票。
 
 有关详细信息，请参阅 [修改电子申报格式](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ ms.locfileid: "4683548"
 *在 MetadataCache 中找不到名称为“msdyn\_dualwriteentitymap' with namemapping='Logical”的实体。*
 
 要解决此问题，请确保已在 Dataverse 中安装了双写入核心解决方案。 双写入核心解决方案是处理解决方案意识问题的前提。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

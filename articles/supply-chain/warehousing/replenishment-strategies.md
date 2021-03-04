@@ -115,3 +115,6 @@ ms.locfileid: "4646125"
 [![示例 2](media/ReplenTemp_example_2.png "示例 2")](media/ReplenTemp_example_2_large.png)
 
 因此，要为补货位置获得最大数量，应在补货领料的位置指令上将 **允许拆分** 选项设置为 *是*。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ ms.locfileid: "4688011"
 | [销售订单](../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | 掌握销售订单的最新情况。                                                                                                                          |  2017 年 1 月                  |
 | [供应商协作](../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | 供应商能够实时了解已经发送给他们进行审核的采购订单的最新信息。 它们还可以查看有关新的和更新的采购订单和联系人的信息。 |2017 年 1 月    |
 | [资产管理](../../../supply-chain/asset-management/asset-management-mobile-workspace.md) | 用户可使用此工作区查看和创建维护请求和工作订单。 用户也可以使用日历视图或列表视图查看分配的工作订单作业。 还可以查看和搜索资产和功能位置。 |2019 年 10 月    |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

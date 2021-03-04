@@ -95,3 +95,6 @@ ms.locfileid: "4517152"
 [购买框模块](add-buy-box.md)
 
 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

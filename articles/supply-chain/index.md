@@ -106,3 +106,6 @@ ms.locfileid: "5154271"
 ## <a name="elearning-courses"></a>网络培训课程
 
 要了解在线课程和培训，请查看 [Microsoft Learn 上的 Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

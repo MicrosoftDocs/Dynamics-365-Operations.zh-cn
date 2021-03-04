@@ -57,3 +57,6 @@ ms.locfileid: "4685264"
 | 分类帐                   | 可用于筛选报表到当前分类帐的分类帐              |
 | 预算代码              | 充当报表筛选依据的预算代码                                                |
 | 法人            | 可用于筛选报表到当前法人的法人 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

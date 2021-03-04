@@ -69,3 +69,6 @@ ms.locfileid: "4410632"
 ## <a name="configure-continuity-programs"></a>配置连续性计划
 
 [设置呼叫中心的连续性计划](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

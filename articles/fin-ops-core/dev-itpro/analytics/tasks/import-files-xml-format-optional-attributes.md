@@ -123,3 +123,6 @@ ms.locfileid: "4684130"
 
 > [!NOTE]
 > 已导入同一个文件，因为格式设计现在将“document”元素的“id”属性视为可选。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

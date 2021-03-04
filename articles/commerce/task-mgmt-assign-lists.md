@@ -92,3 +92,6 @@ ms.locfileid: "4410552"
 [创建任务列表和添加任务](task-mgmt-create-lists.md)
 
 [POS 中的任务管理](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

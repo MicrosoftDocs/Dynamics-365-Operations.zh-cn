@@ -55,3 +55,6 @@ ms.locfileid: "4417436"
     ![同步按钮](media/get-more.png)
 
     在完成同步后，Human Resources 将显示在主页上。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

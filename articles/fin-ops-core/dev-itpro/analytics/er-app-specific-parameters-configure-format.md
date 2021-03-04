@@ -309,3 +309,6 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 [电子报告中的配方设计器](general-electronic-reporting-formula-designer.md)
 
 [为每个法人设置 ER 格式的参数](er-app-specific-parameters-set-up.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

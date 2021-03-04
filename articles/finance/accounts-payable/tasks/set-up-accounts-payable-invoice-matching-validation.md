@@ -98,3 +98,6 @@ ms.locfileid: "4440695"
 
 1. 若要为单个供应商指定用于覆盖默认容差的容差，请选择 **供应商帐户**。
 2. 输入您为此供应商接收的差异百分比。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

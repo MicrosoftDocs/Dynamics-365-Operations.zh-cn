@@ -84,3 +84,6 @@ SEPA 数据格式基于 ISO 20022 消息标准。 当您配置应收帐款的付
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

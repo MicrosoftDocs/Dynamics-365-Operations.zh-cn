@@ -119,3 +119,6 @@ ms.locfileid: "4422819"
 >[!NOTE]
 >要包括在运行主计划编制时在工作订单上创建的预测，请使用在 **资产管理参数** 页面上选择的预测模型。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

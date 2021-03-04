@@ -92,3 +92,6 @@ Finance and Operations 应用通过21Vianet提供大量自助服务支持选项�
 - [OSPT of Dynamics 365 (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/ostpt/)
 - [Azure 文档（中文）](https://docs.azure.cn/zh-cn/)
 - [中国区 Azure 21Vianet](https://docs.microsoft.com/azure/china/china-welcome)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

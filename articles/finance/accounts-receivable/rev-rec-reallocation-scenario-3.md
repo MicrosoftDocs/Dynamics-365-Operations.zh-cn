@@ -81,3 +81,6 @@ ms.locfileid: "5003346"
 [![凭证交易页面，其中包含已过帐的会计条目](./media/36_rev-rec-scenarios.png)](./media/36_rev-rec-scenarios.png)
 
 由于收入和销售额的总和超过 $319.50，因此过帐的差额为 $14.48。 此金额将清除部分账单收入结算帐户中的余额。 重新分配后，将在已过帐的新会计条目中更新该余额。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

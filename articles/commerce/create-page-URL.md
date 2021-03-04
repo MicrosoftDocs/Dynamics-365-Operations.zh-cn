@@ -107,3 +107,6 @@ ms.locfileid: "4410443"
 [配置域名](configure-your-domain-name.md)
 
 [向站点添加语言](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

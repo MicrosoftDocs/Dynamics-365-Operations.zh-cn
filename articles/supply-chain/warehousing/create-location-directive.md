@@ -258,3 +258,6 @@ ms.locfileid: "4517468"
 
 - 视频：[仓库管理配置深入探索](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - 帮助主题：[使用工作模板和库位指令控制仓库的工作](control-warehouse-location-directives.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

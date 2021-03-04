@@ -63,3 +63,6 @@ ms.locfileid: "4514318"
     - 为新资产创建相同金额的购置交易记录。
 
 4. 选择 **过帐**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

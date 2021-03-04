@@ -97,3 +97,6 @@ ms.locfileid: "4440899"
 | [考试 MB-300：Microsoft Dynamics 365 Unified Operations 核心](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：使用常用功能和实施工具，配置安全、流程和选项，执行数据迁移，以及验证和支持解决方案。 | 考试，成本取决于地区 |
 | [Microsoft 认证：Dynamics 365 for Finance and Operations 财务功能顾问助理](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft 认证：Dynamics 365 for Finance and Operations 财务功能顾问整合全球财务和运营，并自动执行任务和工作流，简化客户下单、销售、开票和申报。 | 认证，成本取决于地区 |
 | [考试 MB-310：Microsoft Dynamics 365 for Finance and Operations、Financials](https://docs.microsoft.com/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：设置和配置财务管理，管理和实施常见流程，实施和管理应付帐款和应收帐款，以及管理预算编制和固定资产。 | 考试，成本取决于地区 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Dynamics 365 Commerce 定价引擎支持大多数企业对消费者 (B2C) 定价
 ## <a name="additional-resources"></a>其他资源
 
 [双写入中的目标客户到现金](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

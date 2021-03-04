@@ -38,3 +38,6 @@ ms.locfileid: "4679622"
 
 - [电子报告 (ER) 概览](general-electronic-reporting.md)
 - [电子报告 (ER) 目标](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

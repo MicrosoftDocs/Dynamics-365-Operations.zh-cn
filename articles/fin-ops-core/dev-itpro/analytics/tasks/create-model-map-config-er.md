@@ -65,3 +65,6 @@ ms.locfileid: "4682061"
     * 内部统计示例映射  
 5. 单击“创建配置”。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

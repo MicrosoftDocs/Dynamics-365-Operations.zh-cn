@@ -50,3 +50,6 @@ ms.locfileid: "4440649"
     + 每年 - 选择此选项并在“每”字段中输入年数。 例如，如果您输入 2，将为此客户每两年生成一次发票。  
 14. 在 **每** 字段中，输入一个数字。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

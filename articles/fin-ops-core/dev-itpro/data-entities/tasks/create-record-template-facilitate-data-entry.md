@@ -43,3 +43,6 @@ ms.locfileid: "4685208"
 13. 选择 **确定**。
 14. 选择 **关闭**。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

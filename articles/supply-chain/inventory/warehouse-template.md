@@ -98,3 +98,6 @@ ms.locfileid: "4423250"
 ## <a name="related-topic"></a>相关主题
 
 [配置数据模板](../../dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

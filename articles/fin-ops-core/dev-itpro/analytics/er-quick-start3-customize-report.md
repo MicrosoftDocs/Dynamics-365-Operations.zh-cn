@@ -671,3 +671,6 @@ ms.locfileid: "4683007"
 - [从 Configuration Service 的全局存储库下载 ER 配置](er-download-configurations-global-repo.md)
 - [创建普通账单](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
 - [创建并使用自定义字段](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

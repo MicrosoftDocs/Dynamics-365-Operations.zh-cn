@@ -67,3 +67,6 @@ ms.locfileid: "4423262"
 2. 选择 **关闭不符合项**。
 3. 选择 **是**。
 4. 关闭页面。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

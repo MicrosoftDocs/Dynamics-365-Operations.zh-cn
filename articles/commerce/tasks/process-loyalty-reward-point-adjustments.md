@@ -50,3 +50,6 @@ ms.locfileid: "4410522"
 15. 单击“积分卡交易”。
 16. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -192,3 +192,6 @@ ms.locfileid: "4689558"
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>之前有关已删除或已弃用功能的声明
 若要了解有关早期版本中已删除或已弃用功能的详细信息，请参阅[早期版本中已删除或已弃用的功能](../migration-upgrade/deprecated-features.md)。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

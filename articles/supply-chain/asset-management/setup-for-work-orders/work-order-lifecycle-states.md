@@ -139,3 +139,6 @@ ms.locfileid: "4423053"
 9. 保存工作订单生命周期模型。
 
 ![工作订单生命周期模型页面](media/15-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

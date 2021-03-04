@@ -118,3 +118,6 @@ ms.locfileid: "4410409"
 
 为了帮助避免意外的性能问题，此配置隐藏在名称为 **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING** 的战旗后面。 因此，若要在设置用户界面 (UI) 时显示 **默认客户搜索模式**，零售商应该为其用户接受测试 (UAT) 环境和生产环境创建支持工单。 收到工单后，工程团队将与零售商合作，以确保零售商在非生产环境中进行测试来评估性能和实施需要的所有优化。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

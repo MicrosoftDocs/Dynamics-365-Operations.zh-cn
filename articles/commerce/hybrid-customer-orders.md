@@ -41,3 +41,6 @@ ms.locfileid: "4410572"
 ## <a name="additional-resources"></a>其他资源
 
 [现代 POS (MPOS) 中的客户订单](customer-orders-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

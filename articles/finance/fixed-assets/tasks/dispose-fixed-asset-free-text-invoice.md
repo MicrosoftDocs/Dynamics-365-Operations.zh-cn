@@ -41,3 +41,6 @@ ms.locfileid: "4440750"
 10. 在 **固定资产** 字段中，输入或选择一个值。
 11. 选择 **过帐**。 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

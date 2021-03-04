@@ -55,3 +55,6 @@ ms.locfileid: "4460504"
 ## <a name="changes-in-core-hr"></a>Core HR 中的更改
 
 本版本中包含 Dynamics 365 Talent: Core HR 的小缺陷修复。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

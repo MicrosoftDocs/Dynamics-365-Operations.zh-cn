@@ -216,3 +216,6 @@ Human Resources 的虚拟实体与为 Human Resources 创建的 Common Data Serv
 [创建和编辑包含来自外部数据源的数据的虚拟实体](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [什么是 Power Apps 门户？](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [在 Power Apps 中创建应用概述](https://docs.microsoft.com/powerapps/maker/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ ms.locfileid: "4529626"
 
 [该 Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
 [在租户与环境之间迁移应用](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

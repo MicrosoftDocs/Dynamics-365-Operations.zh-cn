@@ -94,3 +94,6 @@ ms.locfileid: "4682529"
 [创建优化顾问规则](./create-rules-optimization-advisor.md)
 
 [Dynamics 365 for Finance and Operations 中的优化顾问（视频）](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

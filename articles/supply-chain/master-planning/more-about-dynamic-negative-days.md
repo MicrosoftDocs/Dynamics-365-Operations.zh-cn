@@ -251,3 +251,6 @@ MRP 创建一个附加到第一个销售订单的计划订单。 然后，基于
 ## <a name="see-also"></a>请参阅
 
 有关详细讨论，请参阅原始博客文章[有关（动态）负天数的详细信息](https://blogs.msdn.microsoft.com/axmfg/2015/02/19/more-about-dynamic-negative-days/)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

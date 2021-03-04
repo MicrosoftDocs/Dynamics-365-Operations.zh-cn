@@ -61,3 +61,6 @@ Fabrikam 允许客户在部分付款以及贷方通知单上获得现金折扣�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

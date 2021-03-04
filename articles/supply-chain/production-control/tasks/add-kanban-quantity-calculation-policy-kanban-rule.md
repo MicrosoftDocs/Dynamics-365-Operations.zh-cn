@@ -63,3 +63,6 @@ ms.locfileid: "4422731"
 8. 在列表中，单击所选行中的链接。
     * 选择您刚刚在先前的子任务中创建的策略“Speaker2016”。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

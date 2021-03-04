@@ -86,3 +86,6 @@ ms.locfileid: "4594944"
 ## <a name="considerations-for-distributed-order-management"></a>分配的订单管理 (DOM) 的注意事项
 
 Commerce 中的[分配的订单管理 (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) 功能会忽略标记为商店提货的所有销售行。 这些功能已更新，以确保链接到已配置的提货交货方式的销售行会绕过 DOM 逻辑，并且不会重新分配到新的履行仓库。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

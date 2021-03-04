@@ -72,3 +72,6 @@ ms.locfileid: "4679336"
 - [Finance and Operations 的已删除或弃用的功能](../migration-upgrade/deprecated-features.md)
 - [软件生命周期策略和本地版本](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ ms.locfileid: "4693032"
 6. 单击“保存”。
     * 在保存申请表后，您可以添加文档附件，包括申请人的经验、所获奖项和求职信。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

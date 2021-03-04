@@ -173,3 +173,6 @@ Commerce 提供的 Azure Front Door 实例不支持 apex 域（其中不包含�
   [添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
 
   [启用基于位置的商店检测](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ ms.locfileid: "4417464"
 **其他选项**
 
 在 Human Resources 中，您可能还可以使用 **人员** 工作区来查看某些层次结构相关信息。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

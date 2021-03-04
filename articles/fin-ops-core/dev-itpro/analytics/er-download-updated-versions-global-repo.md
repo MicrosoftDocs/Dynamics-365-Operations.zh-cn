@@ -98,3 +98,6 @@ ms.locfileid: "4679502"
 
 - [电子报告 (ER) 概览](general-electronic-reporting.md)
 - [从 Configuration service 的全局知识库下载 ER 配置](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

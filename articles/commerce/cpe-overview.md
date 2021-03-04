@@ -64,3 +64,6 @@ Commerce 评估环境是 Dynamics 365 Commerce 的一个可选的端到端环境
 [为 Dynamics 365 Commerce 评估环境配置可选功能](cpe-optional-features.md)
 
 [Dynamics 365 Commerce 评估环境常见问题](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

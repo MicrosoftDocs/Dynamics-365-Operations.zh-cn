@@ -96,3 +96,6 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 - [Azure 文档（中文）](https://docs.azure.cn/zh-cn/)
 - [中国区 Azure 21Vianet](https://docs.microsoft.com/azure/china/china-welcome)
 - [业务应用程序在中国的可用性 – 由世纪互联在中国运营](https://docs.microsoft.com/power-platform/admin/business-applications-availability-china)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

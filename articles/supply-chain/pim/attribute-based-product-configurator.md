@@ -141,3 +141,6 @@ ms.locfileid: "4422663"
 1. 在“操作”窗格上，打开 **模型** 选项卡，然后从 **产品模型详细信息** 组中，选择 **版本**。
 1. **版本** 页面将打开。 确保将 **定价方法** 设置为 **基于属性**。
     ![将定价方法设置为基于属性](media/prod-config-versions.png "将定价方法设置为基于属性")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

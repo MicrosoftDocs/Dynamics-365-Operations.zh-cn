@@ -106,3 +106,6 @@ ms.locfileid: "4422972"
 1. 在出现的 **执行摘要** 页上，您可以查看导出作业的状态和导出的实体的列表。 在 **实体处理状态** 部分，选择列表中的 **库存值** 实体，然后选择 **下载文件** 下载从该实体导出的数据。
 
 有关如何使用数据管理导出数据的详细信息，请参阅[数据导入和导出作业概述](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

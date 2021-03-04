@@ -62,3 +62,6 @@ ms.locfileid: "4685241"
 | 位置         | 职位、职务和全职等效 (FTE)                  | 课程安排、课程参与者 |
 | 员工姓名    | 名字、姓氏和全名                             | 课程参与者 |
 | 员工职务   | 职务和资历日期                                         | 课程参与者 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

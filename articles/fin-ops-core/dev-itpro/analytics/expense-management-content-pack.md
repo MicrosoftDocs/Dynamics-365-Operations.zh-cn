@@ -93,3 +93,6 @@ ms.locfileid: "4682789"
 | 员工统计信息 | 按成本类型的费用报表            |
 |                     | 个人支出                       |
 |                     | 按统计信息组的费用报表     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

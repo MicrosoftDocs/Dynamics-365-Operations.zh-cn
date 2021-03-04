@@ -54,3 +54,6 @@ ms.locfileid: "4422989"
 4. 在“条件”字段中，选择“客户组 10”。 
 5. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 [管理产品类别和产品](category-management-product-creation.md)
 
 [更改促销实体的排序顺序](custom-order-categories-nav-retail-prod-hierarchy.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ ms.locfileid: "4410420"
 
 [将脚本代码添加到站点页面以支持遥测](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

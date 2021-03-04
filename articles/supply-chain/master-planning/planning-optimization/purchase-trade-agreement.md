@@ -90,3 +90,6 @@ ms.locfileid: "4422776"
 ## <a name="additional-resources"></a>其他资源
 
 [采购协议](../../procurement/purchase-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

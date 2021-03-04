@@ -87,3 +87,6 @@ ms.locfileid: "4417456"
    - 创建日期和时间
 
 3. 使用 **数据库日志清理** 选项卡确定何时运行日志清理任务。 默认情况下，数据库日志保留 30 天。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

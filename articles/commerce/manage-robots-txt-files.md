@@ -107,3 +107,6 @@ Dynamics 365 Commerce 可让您为您的域上载 robots.txt 文件。 对于您
 [添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
 
 [启用基于位置的商店检测](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

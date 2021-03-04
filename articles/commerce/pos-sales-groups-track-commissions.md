@@ -88,3 +88,6 @@ POS 允许用户配置按钮网格，按钮网格包含在屏幕布局中，用�
 ## <a name="calculating-commissions"></a>计算佣金
 
 对账单过帐或销售订单过帐时，将为指定销售组中的工作人员计算佣金。将根据交易记录中客户和/或产品的销售组和关联佣金计算设置中定义的工作人员佣金份额，确定佣金金额。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

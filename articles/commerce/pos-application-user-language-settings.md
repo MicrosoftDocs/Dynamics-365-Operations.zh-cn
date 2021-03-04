@@ -65,3 +65,6 @@ POS 用户的语言设置从 **Retail 和 Commerce &gt; 语言** 下的 **工作
 | **公司** | 默认值                    | 默认值                                                       |
 | **商店**   | 覆盖公司          | 覆盖公司                                             |
 | **用户**    | 覆盖商店或公司 | 从不                                                         |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

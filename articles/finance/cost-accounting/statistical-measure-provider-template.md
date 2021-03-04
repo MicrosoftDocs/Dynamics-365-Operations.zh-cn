@@ -346,3 +346,6 @@ ProdRouteTrans 表包含按法人 DataAreadID 分类的所有生产人工交易�
 ## <a name="additional-resources"></a>其他资源
 
 [分配基数](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

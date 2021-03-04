@@ -73,3 +73,6 @@ service       :  690970002
 ### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>Field Service 产品（Supply Chain Management 到 Field Service）：产品 - 产品
 
 [![数据集成中的模板映射](./media/FSProduct.png)](./media/FSProduct.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

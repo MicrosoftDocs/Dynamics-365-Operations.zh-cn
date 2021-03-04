@@ -49,3 +49,6 @@ NULLDATETIME ()
 ## <a name="additional-resources"></a>其他资源
 
 [日期和时间函数](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

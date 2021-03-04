@@ -51,3 +51,6 @@ ms.locfileid: "4440846"
     * 要进行可选选择，请单击此页上方的“解锁”图标。  
 18. 单击“更新”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

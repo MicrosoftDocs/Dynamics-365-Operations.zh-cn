@@ -70,3 +70,6 @@ ms.locfileid: "4422820"
 
 - 您可以设置与另一个计数器相关的计数器。 这样，当更新计数器时，相关的计数器会同时自动更新。 有关如何设置相关计数器的详细信息，请参阅[计数器](../setup-for-objects/counters.md)。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

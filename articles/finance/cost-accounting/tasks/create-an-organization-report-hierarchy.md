@@ -95,3 +95,6 @@ ms.locfileid: "4440901"
     * 选中与节点对应的维度成员。  
 59. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

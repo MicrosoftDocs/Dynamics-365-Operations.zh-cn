@@ -38,3 +38,6 @@ ms.locfileid: "4417523"
     * 文本或注释的输入类型用于开放式问题。  
 6. 在“文本”字段中，输入您的问题。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

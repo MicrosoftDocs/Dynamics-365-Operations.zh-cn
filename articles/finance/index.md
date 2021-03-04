@@ -73,3 +73,6 @@ ms.locfileid: "4975418"
 
 供应链管理功能涵盖了采购到付款流程的多个部分，包括针对您组织所购买的商品或服务的申请、订购、接收、开票和付款。 请参阅 [Supply Chain Management 主页](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md)，了解有关管理采购、库存和制造的功能的信息。 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

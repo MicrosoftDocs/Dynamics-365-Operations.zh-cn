@@ -54,3 +54,6 @@ ms.locfileid: "4976655"
 
 如果订单已全部退货，那么退还给客户的税额等于最初收取的税额。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -205,3 +205,6 @@ ms.locfileid: "4410618"
 ## <a name="additional-resources"></a>其他资源
 
 [安装 Retail 销售点 (POS) 布局设计器](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

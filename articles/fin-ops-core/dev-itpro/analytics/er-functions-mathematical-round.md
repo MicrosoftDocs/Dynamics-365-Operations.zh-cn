@@ -75,3 +75,6 @@ ROUND (number, decimals)
 ## <a name="additional-resources"></a>其他资源
 
 [数学函数](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

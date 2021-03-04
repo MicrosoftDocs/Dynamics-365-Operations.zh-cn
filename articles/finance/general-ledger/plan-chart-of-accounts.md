@@ -60,3 +60,6 @@ ms.locfileid: "4440834"
 
 - [财务维度](financial-dimensions.md)
 - [创建和分配高级规则结构](tasks/create-assign-advanced-rule-structures.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ ms.locfileid: "4681893"
 17. 在 **银行帐户** 字段中，键入 `GBSI OPER`。
 18. 选择 **确定**，然后再次选择 **确定**。 审查已创建的工作表，包括付款行详细信息以及用于此付款消息的每个币种代码的总计。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

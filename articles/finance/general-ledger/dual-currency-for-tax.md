@@ -145,3 +145,6 @@ ms.locfileid: "4440711"
 - [双货币](dual-currency.md)
 - [销售税概览](indirect-taxes-overview.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

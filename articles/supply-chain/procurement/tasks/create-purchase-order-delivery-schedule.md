@@ -74,3 +74,6 @@ ms.locfileid: "4423395"
 6. 折叠 **行** 部分。
 7. 选择 **确定** 以过帐收据。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

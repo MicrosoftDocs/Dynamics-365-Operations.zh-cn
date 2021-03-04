@@ -61,3 +61,6 @@ ms.locfileid: "4423144"
 ## <a name="warehouse-management"></a>仓库管理
 
 准备好装运后，可以打印几个新报告。 这些报告使用您在“产品信息管理”中设置的信息。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

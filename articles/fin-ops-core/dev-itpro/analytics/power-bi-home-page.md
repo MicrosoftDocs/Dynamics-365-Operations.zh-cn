@@ -65,3 +65,6 @@ LCS 的共享资产库中提供了以下 PowerBI.com 解决方案。 请参阅�
 - 成本管理
 - [财务绩效](financial-performance-power-bi-content-pack.md)
 - [零售渠道绩效 ](retail-channel-performance-dashboard-power-bi-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

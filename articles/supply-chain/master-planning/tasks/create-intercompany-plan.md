@@ -54,3 +54,6 @@ ms.locfileid: "4422858"
 2. 在列表中，单击所选行中的链接。 单击 StaticPlan 的链接。 您需要是 USMF 公司的。  
 3. 单击 **计划订单**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

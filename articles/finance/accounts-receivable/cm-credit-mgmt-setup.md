@@ -79,3 +79,6 @@ ms.locfileid: "4440719"
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>编号序列和共享的编号序列参数
 
 需要日记帐 ID 以处理信用额度调整。 您必须添加应用于生成日记帐 ID 的信用额度调整编号。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

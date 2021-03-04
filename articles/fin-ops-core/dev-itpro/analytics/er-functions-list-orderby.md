@@ -67,3 +67,6 @@ ORDERBY (list , expression 1[, expression 2, …, expression N])
 ## <a name="additional-resources"></a>其他资源
 
 [列表函数](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Field Service 集成支持以下版本：
 - Dynamics 365 9.1.x 上的 Field Service（版本 8.2.0.286）或更高版本 - 2018 年 11 月发布
 - Dynamics 365 版本 1.15.0.1 或更高版本的从目标客户到现金 (P2C) 解决方案。 可从 [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3) 下载此解决方案。
 - 适用于 Dynamics 365 版本 2.0.0.0 或更高版本的“Field Service 集成、项目和库存”解决方案。 可从 [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2) 下载此解决方案。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

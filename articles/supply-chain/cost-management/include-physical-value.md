@@ -60,3 +60,6 @@ ms.locfileid: "4422977"
 
 > [!NOTE]
 > 对于比较，如果为此物料选中 **包括实际成本** 复选框，在过帐某一销售订单时，过帐的成本金额将是 USD 12.00。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -151,3 +151,6 @@ ms.locfileid: "4423052"
 - 库存结转用红色的垂直虚线以及 *“库存结转”* 标签表示。
 - 由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

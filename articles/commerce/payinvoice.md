@@ -45,3 +45,6 @@ Dynamics 365 Commerce 中的“付款发票”功能已扩展为支持：
 
 > [!NOTE]
 > 尚不支持对部分金额进行支付或结算。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

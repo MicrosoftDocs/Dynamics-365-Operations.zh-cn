@@ -123,3 +123,6 @@ ms.locfileid: "4687784"
 [任务录制器](task-recorder.md)
 
 [使用任务录制器创建丰富的帮助主题（外部链接）](https://mbspartner.microsoft.com/AX/Videos/970)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

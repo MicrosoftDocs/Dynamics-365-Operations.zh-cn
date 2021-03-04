@@ -83,3 +83,6 @@ Lean manufacturing 提供由看板规则管理的可见性到制造和物流活�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

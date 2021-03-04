@@ -45,3 +45,6 @@ ms.locfileid: "4989585"
 
 > [!NOTE]
 > Retail 版本 10.0.5 中推出了在对非高级仓库管理方案进行对帐单过帐期间，对批量跟踪物料处理的改进的支持。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ ms.locfileid: "4517298"
 [在 Commerce 环境中配置多个 B2C 租户](configure-multi-B2C-tenants.md)
 
 [添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

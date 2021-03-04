@@ -362,3 +362,6 @@ Azure AD B2C 租户设置完毕之后，必须在 Commerce 站点构建器中配
 [添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
 
 [启用基于位置的商店检测](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

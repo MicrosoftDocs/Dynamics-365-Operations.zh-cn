@@ -38,3 +38,6 @@ ms.locfileid: "4680474"
 - 避免在财务维度和主科目值中使用选定的会计科目分隔符。
 
 通过以下最佳实践，您将帮助保障在整个系统中一致地显示用户定义的顺序。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ ms.locfileid: "4440606"
 8. 在 **折旧惯例** 字段中，选择一个选项。
 9. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

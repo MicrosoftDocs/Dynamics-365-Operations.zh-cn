@@ -42,3 +42,6 @@ ms.locfileid: "4423109"
 下图显示 **所有维护请求** 列表页的示例。
 
 ![所有维护请求列表页](media/01-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

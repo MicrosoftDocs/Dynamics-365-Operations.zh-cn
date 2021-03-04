@@ -74,3 +74,6 @@ ms.locfileid: "4440866"
 
 - [Dynamics 365 for Finance and Operations 中应该了解的分类帐信息](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

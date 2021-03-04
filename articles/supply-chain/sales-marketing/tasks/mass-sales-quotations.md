@@ -101,3 +101,6 @@ ms.locfileid: "4422798"
 11. 转到“销售和市场营销”>“销售报价单”>“所有报价单”。
     * 核实已根据所选的模板，为成批更新程序中指定的所有客户创建报价单。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ ms.locfileid: "4681811"
 3. 在“名称”字段中，键入“客户发票模型（自定义）”。
 4. 单击“创建配置”。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

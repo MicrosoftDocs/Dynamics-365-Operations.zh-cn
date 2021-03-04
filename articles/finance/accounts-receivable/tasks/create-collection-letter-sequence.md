@@ -59,3 +59,6 @@ ms.locfileid: "4440648"
 26. 展开 **注释** 快速选项卡。
 27. 输入显示在所选收款单代码的收款单文本。 您可以应用注释框上方的“翻译菜单”将此文本翻译为多种语言。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

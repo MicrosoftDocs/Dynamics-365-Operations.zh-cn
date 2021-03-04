@@ -44,3 +44,6 @@ ms.locfileid: "4423076"
     * 可能需要单击省略号 (...) 才能在顶部菜单中看到此选项。    下面是成本的构成：  *    10 源于 ITEM_A，10 源于 ITEM_B，10 源于 BOM_2。 在此示例中，BOM_2 无详细信息，因为它是作为标准成本 10 输入的，未经计算。  *    7 源自设置时间，这是固定成本，7 源自运行时操作（流程）。  *    还有其他一些与间接成本对应的金额。  
 9. @SysTaskRecorder:_RequestClose
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

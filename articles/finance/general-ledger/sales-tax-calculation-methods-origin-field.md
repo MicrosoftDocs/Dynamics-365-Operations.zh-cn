@@ -131,3 +131,6 @@ SALESTAX：原始金额 = 净额百分比 为 DUTY 计算选择“在征收销�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

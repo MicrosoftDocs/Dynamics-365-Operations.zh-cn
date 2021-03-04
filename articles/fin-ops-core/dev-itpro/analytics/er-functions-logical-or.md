@@ -59,3 +59,6 @@ OR (condition 1[, condition 2, …, condition N])
 ## <a name="additional-resources"></a>其他资源
 
 [逻辑函数](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

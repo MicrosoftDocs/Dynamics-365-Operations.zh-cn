@@ -82,3 +82,6 @@ POS 可以配置为在暂停交易时生成打印单。 该单以后可以用于
 ### <a name="void-a-suspended-transaction"></a>取消暂停交易
 
 您可以通过撤销交易然后执行 **取消交易** 操作来取消暂停交易，或者通过选择 **撤销交易** 列表中的交易并选择应用栏上的 **取消** 来取消。 或者，可以将商店配置为提示用户在结束班次时取消暂停交易。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

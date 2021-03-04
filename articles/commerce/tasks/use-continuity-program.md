@@ -62,3 +62,6 @@ ms.locfileid: "4410515"
     * 输入您在此过程中前面记下的销售订单编号。 这将让此过程的处理时间降到最低。 “销售订单”字段为可选字段，您可以处理任一计划的所有订单。  
 21. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

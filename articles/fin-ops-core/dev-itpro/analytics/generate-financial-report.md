@@ -156,3 +156,6 @@ ms.locfileid: "4688309"
 [财务申报](financial-reporting-intro.md)
 
 [报表设计器界面](report-designer-interface.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Power Apps 门户中的用户角色由 [Web 角色](https://docs.microsoft.com/p
 
 > [!NOTE]
 > 即使 Sam 和 Jane 都是为客户 X 工作的联系人，他们也只能查看他们自己下的订单，而看不到其他信息。 尽管 May 在系统中有一个订单，但由于她是未授权用户，因此她无法在客户门户中查看该订单。 （而且，她一定是通过客户门户以外的某个渠道下的订单。）
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

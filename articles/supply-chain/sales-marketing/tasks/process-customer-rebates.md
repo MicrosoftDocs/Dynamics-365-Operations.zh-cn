@@ -82,3 +82,6 @@ ms.locfileid: "4423125"
     - 已贷记返利应计帐款，以表示客户的将来负债。
     - 已借记返利支出帐款，以识别销售产生的成本。   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

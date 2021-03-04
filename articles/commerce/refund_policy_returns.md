@@ -104,3 +104,6 @@ ms.locfileid: "4410586"
 
 
 ![付款方式列表](media/Return-policy-page5.PNG "允许的退款类型")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

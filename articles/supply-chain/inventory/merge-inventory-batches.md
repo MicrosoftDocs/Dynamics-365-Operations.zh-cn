@@ -140,3 +140,6 @@ ms.locfileid: "4423168"
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>合并非定重物料后，我为什么看不到库存日记帐上的定重信息？
 您可以像所有其他物料那样合并定重物料批次。 但是，库存日记帐上未显示定重信息。 我们建议您先验证定重信息，然后再将批次合并转移到库存日记帐。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

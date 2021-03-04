@@ -79,3 +79,6 @@ ms.locfileid: "4440792"
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | 使用公司记帐币种的汇总的现金流入量、流出量和余额 |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | 使用系统币种的用于所有公司的汇总的现金流入量、流出量和余额 |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | 使用交易币种的汇总的净交易记录金额和币种余额 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

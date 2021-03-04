@@ -86,3 +86,6 @@ ms.locfileid: "4527136"
 ### <a name="print-performance-reviews"></a>打印绩效复查
 
 请参阅“Dynamics 365: 2019 发布波次 2 计划”中的[打印绩效审核](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/print-performance-reviews)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Dynamics 365 Commerce 中的评分和评价解决方案使用 Azure Cognitive Se
 [配置评分和评价](configure-ratings-reviews.md)
 
 [在 Dynamics 365 Commerce 中同步产品评分](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

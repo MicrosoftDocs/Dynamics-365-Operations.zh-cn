@@ -65,3 +65,6 @@ ms.locfileid: "4701025"
 7. 扩展 **报价单** 实体之后，以 `CUSTGROUP !=  "<company>"` 为查询字符串应用筛选器。
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="销售报价单标题，编辑查询":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

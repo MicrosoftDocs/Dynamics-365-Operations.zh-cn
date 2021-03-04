@@ -83,3 +83,6 @@ Windows、iOS 和 Android 还允许根据应用协议关联更加无缝地打开
 5. 选择 **打开 URL** 作为操作。
 6. 输入要使用的 URL。
 7. 配置是否在新窗口中打开 URL。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

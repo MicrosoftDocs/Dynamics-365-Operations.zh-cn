@@ -51,3 +51,6 @@ ms.locfileid: "4440759"
 16. 选择 **新建期间间隔**。 一旦输入第一个期间间隔，可自动创建新期间。 您可以返回和根据需要添加新期间间隔。  
 17. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

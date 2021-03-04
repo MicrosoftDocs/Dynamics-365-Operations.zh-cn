@@ -102,3 +102,6 @@ ms.locfileid: "4423015"
 11. 在 **采购时间** 字段中，输入“5”。
 12. 单击 **保存**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

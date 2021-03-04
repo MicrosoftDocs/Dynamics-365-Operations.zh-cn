@@ -103,3 +103,6 @@ ms.locfileid: "4410502"
 ## <a name="reporting-options"></a>报告选项
 
 转至 **Retail 和 Commerce** \> **查询和报告** \> **呼叫中心报告** \> **订单保留报告**,以按日期范围、保留代码或其他相关条件运行有关订单保留的报告。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

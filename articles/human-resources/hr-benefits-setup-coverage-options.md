@@ -59,3 +59,6 @@ Microsoft Dynamics 365 Human Resources 中的覆盖范围选项是参与者在�
    | **允许员工覆盖范围金额** | 指定是否允许员工在选择福利时在福利自助服务上修改覆盖范围金额。 如果选中此复选框，系统将根据员工在福利自助服务中输入的覆盖范围金额来计算福利计划参数。 |
 
 6. 选择 **保存**。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

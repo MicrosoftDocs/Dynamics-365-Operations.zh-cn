@@ -89,3 +89,6 @@ ms.locfileid: "4687261"
 - [许可证代码和 Configuration Key 报表](../sysadmin/license-codes-configuration-keys-report.md)
 - [可用的 SQL Server Reporting Services (SSRS) 报表](SSRS-report.md)
 - [工作流类型报告](../../fin-ops/organization-administration/workflow-types-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

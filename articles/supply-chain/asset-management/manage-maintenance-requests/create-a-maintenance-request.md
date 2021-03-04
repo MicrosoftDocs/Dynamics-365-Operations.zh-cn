@@ -74,3 +74,6 @@ Active maintenance requests section of the Related information pane on the right
 
 > [!NOTE]
 > 如果在创建维护请求时选择资产，则可向该资产添加一个故障。 创建维护请求之后，可以根据需要添加更多故障。 若要添加故障，请选择 **所有维护请求** 页中的 **资产故障**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

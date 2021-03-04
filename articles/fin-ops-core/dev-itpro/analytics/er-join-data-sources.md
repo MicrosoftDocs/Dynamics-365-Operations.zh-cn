@@ -289,3 +289,6 @@ ms.locfileid: "4686408"
 [电子报告中的配方设计器](general-electronic-reporting-formula-designer.md)
 
 [跟踪 ER 格式的执行情况以解决性能问题](trace-execution-er-troubleshoot-perf.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

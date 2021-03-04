@@ -72,3 +72,6 @@ ms.locfileid: "4417545"
 
 有关日历设置的信息，请参阅[配置日历参数](hr-leave-and-absence-parameters.md?configure-calendar-parameters)。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

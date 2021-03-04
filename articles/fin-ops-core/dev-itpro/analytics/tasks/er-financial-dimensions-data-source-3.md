@@ -145,3 +145,6 @@ ms.locfileid: "4684779"
 46. 关闭该页面。
 ![ER Operations 设计器页](../media/er-financial-dimensions-guides-format2.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

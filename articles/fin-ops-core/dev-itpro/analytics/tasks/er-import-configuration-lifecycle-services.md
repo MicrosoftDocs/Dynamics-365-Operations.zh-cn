@@ -103,3 +103,6 @@ ms.locfileid: "4684443"
     对于此示例，请选择状态为 **已共享** 的配置版本。
 
     请注意，所选数据模型配置的共享版本 1 现在也可用。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

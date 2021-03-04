@@ -50,3 +50,6 @@ ms.locfileid: "4440790"
 15. 单击“过帐”。
 16. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ ms.locfileid: "4529570"
 ![客户门户依赖关系](media/customer-portal-elements.png "客户门户依赖关系")
 
 对于想要使用 Power Apps 门户构建面向外部的使用其 Supply Chain Management 安装中数据的网站的组织，客户门户充当一个起点。 它帮助组织连接双写入、Supply Chain Management 和 Power Apps 门户。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

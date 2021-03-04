@@ -69,3 +69,6 @@ ms.locfileid: "4422720"
     * 请注意，为 27 创建了看板以基于创建的看板规则处理活动。  
     * 这是最后一个步骤。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

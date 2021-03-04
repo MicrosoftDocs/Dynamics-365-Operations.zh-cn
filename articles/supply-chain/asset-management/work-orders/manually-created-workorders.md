@@ -166,3 +166,6 @@ ms.locfileid: "4422815"
 >[!NOTE]
 >如果您希望自动创建工作订单，可以计划维护计划作业或为资产设置“自动创建”[维护计划](../preventive-and-reactive-maintenance/maintenance-plans.md)或[维护阶段](../preventive-and-reactive-maintenance/maintenance-rounds.md)。 从 **所有维护安排** 列表页的维护请求创建的工作订单具有在维护请求中选择的维护作业类型。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

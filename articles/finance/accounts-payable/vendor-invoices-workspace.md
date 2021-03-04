@@ -117,3 +117,6 @@ ms.locfileid: "4440913"
 | 导入失败的发票 | <ul><li>导入失败的发票</li><li>导入失败的发票（按公司）</li></ul> |
 | 自动化失败的原因 | <ul><li>失败的发票</li><li>失败的发票（按公司）</li><li>失败的发票（按供应商组）</li></ul> |
 | 工作流状态                | <ul><li>工作流中的发票</li><li>供应商发票工作流实例</li><li>分配（按审批者）</li><li>供应商发票工作流（按公司）</li><li>工作流中的平均天数(按审批人)</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

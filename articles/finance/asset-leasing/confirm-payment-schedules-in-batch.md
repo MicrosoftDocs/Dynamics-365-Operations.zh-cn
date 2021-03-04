@@ -42,3 +42,6 @@ ms.locfileid: "4440956"
     - 要确认所有帐簿，请打开 **所有帐簿** 参数。
 
 **已确认帐簿** 页面中将显示新确认的帐簿的信息。 确认付款计划后，可以针对租赁过帐初始确认日记帐。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ ms.locfileid: "4440714"
 
 
 有关详细信息，请参阅[创建应计架构](tasks/create-accrual-schemes.md)和[创建分类帐应计交易记录](tasks/create-ledger-accrual-transactions.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

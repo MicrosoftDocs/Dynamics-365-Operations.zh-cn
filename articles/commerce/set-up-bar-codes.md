@@ -47,3 +47,6 @@ ms.locfileid: "4410583"
 ## <a name="additional-resources"></a>其他资源
 
 [设置条码掩码](set-up-bar-code-masks.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

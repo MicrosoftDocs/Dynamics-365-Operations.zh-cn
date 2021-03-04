@@ -209,3 +209,6 @@ ms.locfileid: "4594105"
 § 在 POS 脱机时，仅当前脱机数据库中的交易记录可以因为退货撤回。
 
 \*\* 在 POS 脱机时，仅当前脱机渠道数据库中的交易记录在日记帐中显示。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

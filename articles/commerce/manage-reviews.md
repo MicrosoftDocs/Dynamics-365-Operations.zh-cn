@@ -132,3 +132,6 @@ Dynamics 365 Commerce 使用 Microsoft Azure Cognitive Service 通过修正猥�
 [配置评分和评价](configure-ratings-reviews.md)
 
 [在 Dynamics 365 Retail 中同步产品评分](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

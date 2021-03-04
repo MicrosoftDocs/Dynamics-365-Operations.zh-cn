@@ -83,3 +83,6 @@ Fabrikam 主题支持混合交货方式，有些商品被选出进行装运，�
 [按比例分配标题费用以匹配销售行](pro-rate-charges-matching-lines.md)
 
 [设置交货方式](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

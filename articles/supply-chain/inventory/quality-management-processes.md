@@ -101,3 +101,6 @@ ms.locfileid: "4423273"
 [设置质检订单](tasks/set-up-quality-orders.md)
 
 [检查货物的质量](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ ms.locfileid: "4646327"
 5. 在 **交易记录日期** 字段中，输入日期。
 6. 单击 **确定**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

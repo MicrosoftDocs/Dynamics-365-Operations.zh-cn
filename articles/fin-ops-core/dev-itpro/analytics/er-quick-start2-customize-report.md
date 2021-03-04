@@ -514,3 +514,6 @@ ms.locfileid: "4680162"
 - [电子申报概览](general-electronic-reporting.md)
 - [从 Lifecycle Services 下载 ER 配置](download-electronic-reporting-configuration-lcs.md)
 - [从 Configuration Service 的全局存储库下载 ER 配置](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

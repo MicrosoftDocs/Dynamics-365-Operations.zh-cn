@@ -57,3 +57,6 @@ ms.locfileid: "4440909"
 在版本 10.0.13 中，添加了一项功能，可以验证会计分配表以确保正确设置新字段。 此功能称为 **使用原始凭证会计框架对凭证数据进行附加验证**。 要使用此功能，必须使用 **功能管理** 工作区启用它。 要启用此功能，请在 **功能管理** 页的 **搜索** 字段中搜索功能名称，然后选择 **立即启用**。
 
 有关详细信息，请参阅[会计分配和供应商的子分类日记帐条目](accounting-distributions-subledger-journal-entries-vendor-invoices.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

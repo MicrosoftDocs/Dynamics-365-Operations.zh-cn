@@ -108,3 +108,6 @@ ms.locfileid: "4409745"
 36. 单击“凭证”。
     * 例如，可以看到为“中国式凭证类型”分配了“交易”。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

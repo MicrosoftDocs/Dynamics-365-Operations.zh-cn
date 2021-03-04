@@ -69,3 +69,6 @@ Supply Chain Management 确保物料流遵循该模型。
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

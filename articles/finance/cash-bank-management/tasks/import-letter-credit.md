@@ -185,3 +185,6 @@ ms.locfileid: "4440822"
     * 核实该报告列出的交易记录，包括“银行单据编号”、“融资限制”、已使用金额和融资余额。  
 8. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

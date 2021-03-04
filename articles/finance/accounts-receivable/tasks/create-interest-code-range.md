@@ -51,3 +51,6 @@ ms.locfileid: "4440646"
 21. 输入将用于计算月份 7 后的月利息百分比。 在本示例中，为 2.5。
 22. 单击“关闭”以完成设置。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

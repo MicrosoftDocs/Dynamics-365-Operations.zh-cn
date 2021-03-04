@@ -74,3 +74,6 @@ ms.locfileid: "4422711"
 2. 单击“查看限定标准树”。
     * 请注意，创建的看板的数量与销售行数量相同。 您还可以查看生产 L0050 所需的物料领料单。 这是该过程的最后一步。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

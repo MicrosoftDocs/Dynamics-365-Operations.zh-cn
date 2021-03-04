@@ -49,3 +49,6 @@ ms.locfileid: "4440855"
 2. 在操作窗格上，选择 **销售税代码**。
 3. 选择 **已过帐的销售税**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

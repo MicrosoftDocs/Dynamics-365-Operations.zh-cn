@@ -72,3 +72,6 @@ ms.locfileid: "4422998"
     * 您可以基于产品维度值的组合生成所有变型的描述。 描述是可选的。  
 5. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

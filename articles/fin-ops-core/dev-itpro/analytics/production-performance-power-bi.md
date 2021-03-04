@@ -128,3 +128,6 @@ Power BI 内容突出显示组织按时完成全部生产的能力。 基于生�
 | 实体                  | ID 和名称                                                   |
 | 资源                 | 资源 ID、资源名称、资源类型和资源组 |
 | 产品                  | 产品编号、产品名称、物料 ID 和物料组         |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

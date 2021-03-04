@@ -54,3 +54,6 @@ ms.locfileid: "4423212"
 4.  打开 **国家/地区** 选项卡以选择使用配置的国家/地区。
 5.  按照以下默认配置指南完成配置。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

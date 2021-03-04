@@ -56,3 +56,6 @@ ms.locfileid: "4687529"
 
 - [脱机销售点 (POS) 功能](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
 - [销售点 (POS) 联机和脱机操作](https://docs.microsoft.com/dynamics365/retail/pos-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

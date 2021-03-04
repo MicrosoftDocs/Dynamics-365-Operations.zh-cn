@@ -160,3 +160,6 @@ ms.locfileid: "4423453"
 例如，产品 X 被分配到 *设计柜* 产品所有者组。 产品 X 也是产品 Y 的物料清单的一部分，后者被分配到 *设计扬声器* 产品所有者组。 如果来自 *设计扬声器* 产品所有者组的用户发布产品 Y 及其物料清单，产品 X 将与产品 Y 一起发布。
 
 有关详细信息，请参阅[产品所有者](product-owner.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

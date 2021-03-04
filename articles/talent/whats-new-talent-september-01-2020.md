@@ -44,3 +44,5 @@ ms.locfileid: "4460420"
 - 浏览器支持更新（自 2020 年 7 月 1 日起 LinkedIn 不再支持 Internet Explorer 11）
 
 有关详细信息，请参阅[在 Attract 中使用 LinkedIn Recruiter 寻求应聘者](attract-linkedin-recruiter.md)。
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

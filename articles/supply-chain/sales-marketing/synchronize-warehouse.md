@@ -81,3 +81,6 @@ ms.locfileid: "4529498"
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>仓库（Supply Chain Management 到 Field Service）：仓库
 
 [![数据集成中的模板映射](./media/Warehouse1.png)](./media/Warehouse1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

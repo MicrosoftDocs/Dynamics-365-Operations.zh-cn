@@ -74,3 +74,6 @@ ms.locfileid: "4410408"
 [创建零售功能配置文件](retail-functionality-profile.md)
 
 [配置工作人员](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -124,3 +124,6 @@ ms.locfileid: "4440721"
 
 > [!NOTE]
 > 当您创建 **信用额度调整** 工作流时，您可以对其进行设置，以便在批准行之后自动过帐调整。 只需在工作流中包括 **自动过帐日记帐** 任务即可。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

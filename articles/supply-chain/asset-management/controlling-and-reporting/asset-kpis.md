@@ -90,3 +90,6 @@ ms.locfileid: "4422898"
 - 可以在 **所有资产** 中选择多个资产，然后单击 **常规** 选项卡上的 **资产 KPI** 按钮。再单击 **计算资产 KPI** 对话框中的 **确定** 以计算所选资产的 KPI。  
 - KPI 计算结果未必包含[维护停机时间登记](../work-orders/maintenance-downtime.md)，具体取决于对维护停机时间原因代码的设置和使用。 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

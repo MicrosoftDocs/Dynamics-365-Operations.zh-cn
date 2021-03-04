@@ -141,3 +141,6 @@ Core HR 的模板已更新为“高级查询模板”。 因此，默认情况�
     9. 在 **映射任务** 页上，源选择新列，以便为 HIERARCHYTYPENAME 再创建一个映射。
 
         [![地理信息](./media/CDS-Mapping5.png)](./media/CDS-Mapping5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

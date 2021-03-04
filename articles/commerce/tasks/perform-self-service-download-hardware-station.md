@@ -37,3 +37,6 @@ ms.locfileid: "4410523"
 5. 在列表中，找到并选择所需记录。
 6. 单击“下载”。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

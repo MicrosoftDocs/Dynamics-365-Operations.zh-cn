@@ -56,3 +56,6 @@ ms.locfileid: "4422732"
 3. 在“活动”字段中，输入或选择一个值。
 4. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

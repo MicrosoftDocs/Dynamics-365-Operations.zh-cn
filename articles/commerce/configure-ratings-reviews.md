@@ -95,3 +95,6 @@ ms.locfileid: "4410388"
 [配置产品详细信息页中的评分和评论模块](ratings-reviews-modules.md)
 
 [在 Dynamics 365 Retail 中同步产品评分](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

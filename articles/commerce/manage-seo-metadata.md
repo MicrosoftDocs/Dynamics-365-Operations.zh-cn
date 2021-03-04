@@ -95,3 +95,6 @@ Dynamics 365 Commerce 允许您管理单个页面的 SEO 元数据。 可在页�
 [丰富类别登陆页面](enrich-category-page.md)
 
 [验证页面内容可访问性](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ ms.locfileid: "4690118"
 - [电子报告 (ER) 概览](general-electronic-reporting.md)
 - [电子报告 (ER) 目标](electronic-reporting-destinations.md)
 - [电子申报中 (ER) 的公式设计器](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

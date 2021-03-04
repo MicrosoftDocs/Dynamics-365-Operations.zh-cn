@@ -56,3 +56,6 @@ Dynamics 365 Commerce - 基于经实践检验的 Dynamics 365 Retail 功能构�
 - [管理电子商务站点](online-store-overview.md)
 - [欺诈保护](dev-itpro/DFP.md)
 - [商务开发和可扩展性](dev-itpro/dev-retail-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

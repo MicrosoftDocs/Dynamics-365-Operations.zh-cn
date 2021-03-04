@@ -56,3 +56,6 @@ ms.locfileid: "4440732"
 16. 构建项目，然后打开应用程序查看结果。
 
     [![已完成的工作区](./media/workspace.png)](./media/workspace.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

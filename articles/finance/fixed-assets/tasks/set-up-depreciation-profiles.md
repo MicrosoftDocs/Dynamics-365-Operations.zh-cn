@@ -40,3 +40,6 @@ ms.locfileid: "4440825"
 7. 在 **期间频率** 字段中，选择一个选项。
 8. 关闭窗体。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

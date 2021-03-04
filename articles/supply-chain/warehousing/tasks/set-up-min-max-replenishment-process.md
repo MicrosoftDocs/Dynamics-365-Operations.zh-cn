@@ -120,3 +120,6 @@ ms.locfileid: "4423328"
 11. 单击 **确定**。
 12. 单击 **确定**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

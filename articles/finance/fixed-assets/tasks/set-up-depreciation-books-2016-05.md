@@ -55,3 +55,6 @@ ms.locfileid: "4440826"
 6. 在“使用年限”字段中，输入一个数字。
     * 请注意，“折旧期间”字段值将在设置使用年限后计算。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

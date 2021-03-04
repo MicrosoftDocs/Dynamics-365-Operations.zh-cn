@@ -163,3 +163,6 @@ API 是使用一组 **PCAdaptor** 类实施的，这些类可公开产品配置�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

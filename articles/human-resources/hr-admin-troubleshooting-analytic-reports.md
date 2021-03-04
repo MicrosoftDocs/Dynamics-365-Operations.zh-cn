@@ -43,3 +43,6 @@ ms.locfileid: "4417489"
 1. 选择该页顶部的 **编辑**，将计划的开始日期/时间设置为将刷新更接近当前时间的分析的值。
 
 ![批处理作业](media/batch-jobs.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

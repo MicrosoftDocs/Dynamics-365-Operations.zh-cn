@@ -1033,3 +1033,6 @@ Lifecycle Services (LCS) 提供一系列服务，可供客户和合作伙伴用�
 [Finance and Operations 主页中的新增功能或更改](whats-new-changed.md)
 
 [新任务指南（2016 年 2 月）](new-task-guides-available-february-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -478,3 +478,6 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
     - **数量** – 输入 _7_，这是总计 12（其中 10 为原始订单数量，2 为允许的 20% 超交数量）的采购订单数量中授权供应商交付的剩余数量。 请注意，已经对第一个负荷登记了 5 件。
 
 现在已经使用数量 7 更新了第二个负荷，并且可以根据此数量对其进行物料收货更新。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -142,3 +142,6 @@ ms.locfileid: "4528091"
 ### <a name="view-performance-information-for-direct-and-extended-reports-in-manager-self-service"></a>在经理自助服务中查看直接报表和扩展报表的性能信息
 
 经理可通过一个新选项查看直接报表和扩展报表的绩效。 现在，职能经理可以分配和更新绩效目标和颁发新审核。 此外，直属经理及其员工可维护和更新绩效日记帐，以帮助确保绩效复查流程顺利进行。 实施此更改后，除了直接报表，经理还可以查看和维护与其扩展报表的绩效有关的信息。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

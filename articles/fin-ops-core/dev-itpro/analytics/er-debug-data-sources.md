@@ -281,3 +281,6 @@ ms.locfileid: "4680774"
 6. 在 **银行帐户** 字段中，选择 **DEMF OPER**。
 7. 在 **生成付款** 对话框中，选择 **确定**。
 8. 在 **电子申报参数** 对话框中，选择 **确定**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

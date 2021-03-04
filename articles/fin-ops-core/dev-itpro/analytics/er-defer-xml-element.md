@@ -243,3 +243,6 @@ ms.locfileid: "4680702"
 - [配置格式以执行计数和合计](./tasks/er-format-counting-summing-1.md)
 - [跟踪 ER 格式的执行情况以解决性能问题](trace-execution-er-troubleshoot-perf.md)
 - [推迟执行 ER 格式的序列元素](er-defer-sequence-element.md#Example)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

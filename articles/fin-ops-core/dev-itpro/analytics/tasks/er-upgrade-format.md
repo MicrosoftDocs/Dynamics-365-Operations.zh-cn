@@ -243,3 +243,6 @@ Proseware 公司获知 BACS（英国虚构）配置的新版本 1.2 可用于根
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>测试付款文件生成的自定义格式
 在一个并行 Finance and Operations 会话中完成“使用创建的格式生成付款电子单据”过程中的步骤。 在电子付款方式参数中选择已创建的“BACS（英国虚构自定义）”格式。 确保创建的付款文件包含 Proseware 公司最近引入的根据区域要求呈现 IBAN 帐户代码的 XML 代码。 该文件还应包含 Litware 公司近期根据国家/地区要求引入的 呈现 SWIFT 银行代码到的 XML 节点。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -342,3 +342,6 @@ ms.locfileid: "4681248"
 - [电子申报中 (ER) 的配方设计器](general-electronic-reporting-formula-designer.md)
 - [通过添加参数化的计算字段数据源提高 ER 解决方案的性能](er-calculated-field-ds-performance.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ ms.locfileid: "4683130"
 - [供应商付款工作区](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [仓库绩效 Power BI 内容](warehouse-power-bi-content.md)
 - [劳动力指标 Power BI 内容](workforce-analysis-power-bi-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

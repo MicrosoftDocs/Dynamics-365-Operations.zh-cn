@@ -128,3 +128,6 @@ Dynamics 365 Human Resources 用户指南为您提供有关设置 Human Resource
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

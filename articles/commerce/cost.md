@@ -171,3 +171,6 @@ Dynamics 365 Commerce 中分布的订单管理 (DOM) 的第一次迭代在优化
 
 > [!IMPORTANT]
 > 要在运行时使 DOM 考虑这些成本，您必须将成本系数添加到相关履行配置文件。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

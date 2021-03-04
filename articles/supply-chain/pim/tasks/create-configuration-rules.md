@@ -55,3 +55,6 @@ ms.locfileid: "4423002"
     * 选择将被选择或取消选择的物料编号，选择与否取决于所选的方法。  
 18. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

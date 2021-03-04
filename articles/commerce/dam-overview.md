@@ -60,3 +60,6 @@ Dynamics 365 Commerce 站点构建器的媒体库中拥有丰富的数字资产�
 [自定义图像焦点](dam-custom-focal-point.md)
 
 [上传和提供静态文件](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

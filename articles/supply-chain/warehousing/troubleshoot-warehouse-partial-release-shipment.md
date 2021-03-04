@@ -42,3 +42,6 @@ ms.locfileid: "4645940"
 ### <a name="issue-resolution"></a>解决问题
 
 下达状态仅适用于物料已启用仓库管理的订单行。 因此，在这种情况下，下达状态仍为 *部分下达*。 Microsoft 已评估此问题，确定了这是一项功能限制。 可以作为装箱单和开发票流程的一部分添加扩展，来更新下达状态。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

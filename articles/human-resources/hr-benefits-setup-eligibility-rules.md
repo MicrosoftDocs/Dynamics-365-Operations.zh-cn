@@ -176,3 +176,6 @@ ms.locfileid: "4417410"
    | **资格规则** | 选择要应用于福利项目的资格规则。 您将在此页面上的 **资格规则** 选项卡上定义资格规则。 |
    
 4. 选择 **保存**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

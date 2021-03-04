@@ -128,3 +128,6 @@ HR 人员可以在 **人事管理** 工作区中查看和监视地址更改。 �
 > 如果您想要到有关这些地址更改的警报或电子邮件，可以在“操作窗格”中的 **选项** 选项卡上创建新预警规则。 有关预警规则的详细信息，请参阅[创建预警规则](/fin-ops-core/fin-ops/get-started/create-alert-rules.md)。<br><br>
 
 > 如果要为地址更改配置工作流，可以在预警规则上选择 **外部发送** 选项，然后使用 Power Automate 触发业务事件和配置工作流。 有关详细信息，请参阅[业务事件预警](/fin-ops-core/dev-itpro/business-events/alerts-business-events.md)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

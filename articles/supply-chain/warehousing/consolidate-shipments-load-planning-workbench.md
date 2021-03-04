@@ -261,3 +261,6 @@ ms.locfileid: "4422762"
 
 - [装运合并政策](about-shipment-consolidation-policies.md)
 - [配置装运合并策略](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

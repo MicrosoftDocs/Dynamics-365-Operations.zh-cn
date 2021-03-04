@@ -54,3 +54,6 @@ ms.locfileid: "4422763"
 1. 在 **确认装运** 对话框中选择 **确定**，将批处理作业添加到批处理队列中。
 
 有关详细信息，请参阅[批处理概览](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

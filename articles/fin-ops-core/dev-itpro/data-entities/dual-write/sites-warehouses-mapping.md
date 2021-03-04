@@ -50,3 +50,6 @@ Finance and Operations 应用 | 其他 Dynamics 365 应用 | 说明
 
 [!include [warehouses](includes/InventWarehouseEntity-msdyn-warehouse.md)]
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

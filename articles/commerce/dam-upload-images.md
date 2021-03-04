@@ -97,3 +97,6 @@ Commerce 站点构建器的媒体库允许您上传单个图像或使用文件�
 [自定义图像焦点](dam-custom-focal-point.md)
 
 [上传和提供静态文件](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

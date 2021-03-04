@@ -44,3 +44,6 @@ ms.locfileid: "4417518"
 | [设计调查表](hr-learning-design-questionnaires.md) | 本文提供了有关如何设计调查表的信息。 设计流程包括设置先决条件、回答和问题，然后将这些内容并入调查表中。 |
 | [分发和计划调查表](hr-learning-distribute-questionnaires.md) | 本文提供了有关如何向回应者分发调查表以及如何完成调查表的信息。 |
 | [查看和评估调查表的结果](hr-learning-evaluate-questionnaire-results.md) | 本文提供了有关如何查看和评估已完成调查表的结果的信息。 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ ms.locfileid: "4423330"
 2. 单击“产品收据”。
 3. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -92,3 +92,6 @@ ms.locfileid: "4423279"
 -   物料可以过度消耗。 例如，如果物料的估计消耗数量为 100 磅，则可以过度消耗，例如数量 105 磅。
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ ms.locfileid: "4417511"
 [应计休假和缺勤计划](hr-leave-and-absence-accrue.md)</br>
 [购买和出售休假](hr-employee-self-service-buy-sell-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

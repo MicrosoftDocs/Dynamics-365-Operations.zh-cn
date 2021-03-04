@@ -124,3 +124,6 @@ ms.locfileid: "4410481"
     4. 您可以在 Customer Insights 中拥有多个环境，例如测试和生产环境。 在 **环境实例 ID** 字段中，输入适当的环境。
     5. 在 **备用客户 ID** 字段中，在 Customer Insights 中输入映射到客户帐号的属性。 （在 Commerce 中，客户帐号是客户 ID。）
     6. 其余三个属性是将在客户手册中的客户卡上显示的度量。 您最多可以选择三个度量在客户卡上显示。 （不过，您不必选择任何度量。）如前所述，系统首先显示这些值，然后显示客户手册属性组的值。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

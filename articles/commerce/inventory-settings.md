@@ -93,3 +93,6 @@ Dynamics 365 Commerce 提供对产品现有量的估计。 有关如何计算估
 [商店选择器模块](store-selector.md)
 
 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

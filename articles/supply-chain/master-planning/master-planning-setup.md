@@ -227,3 +227,6 @@ ms.locfileid: "4422812"
 系统仅使用此时段内的计划供应订单，并且创建超出其范围的新计划订单。 动态负天数的优点是其中包含单个产品提前期，以便重复使用现有订单和避免创建将在之后某天因为提前期导致的延迟而结束的新计划订单。 
 
 有关详细信息，请参阅[负天数和动态负天数](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

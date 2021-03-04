@@ -92,3 +92,6 @@ ms.locfileid: "4417449"
 - **雇用工作人员** 操作的生效日期是您在 **雇用开始日期** 字段中输入的日期。
 - **转移工作人员** 操作的生效日期是您在 **分配开始日期** 字段中输入的日期。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

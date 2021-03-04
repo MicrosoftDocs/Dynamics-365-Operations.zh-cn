@@ -140,3 +140,6 @@ ms.locfileid: "4440616"
 
 有关详细信息，请参阅[客户付款概览](../cash-bank-management/tasks/customer-payment-overview.md)。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

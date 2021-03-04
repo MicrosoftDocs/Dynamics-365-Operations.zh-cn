@@ -116,3 +116,6 @@ Dynamics 365 Commerce 中的“购买相似外观产品”推荐功能利用人�
 [使用演示数据创建建议](product-recommendations-demo-data.md)
 
 [产品建议常见问题](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

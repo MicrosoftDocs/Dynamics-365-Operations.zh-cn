@@ -74,3 +74,6 @@ ms.locfileid: "4422721"
     * 这将创建 5 个看板。  
     * 请注意，将此制造看板规则创建为 5 个看板，每个处理数量为 10。 这是该过程的最后一步。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

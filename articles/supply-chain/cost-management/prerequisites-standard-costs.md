@@ -80,3 +80,6 @@ ms.locfileid: "4423171"
 
 - [如何在 Dynamics 365 for Finance and Operations 中为直接材料设置标准成本](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
 - [Dynamics 365 for Finance and Operations 中的标准直接人工成本](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

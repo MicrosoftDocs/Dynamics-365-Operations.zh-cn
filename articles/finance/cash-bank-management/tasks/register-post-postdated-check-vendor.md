@@ -56,3 +56,6 @@ ms.locfileid: "4440788"
 16. 关闭该页面。
 17. 单击“远期支票”选项卡。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

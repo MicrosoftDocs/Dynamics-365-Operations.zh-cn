@@ -117,3 +117,6 @@ ms.locfileid: "4410643"
 [计算零售渠道的库存现有量](calculated-inventory-retail-channels.md)
 
 [创建在线功能配置文件](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

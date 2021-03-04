@@ -72,3 +72,6 @@ ms.locfileid: "4417384"
     - 要上载图像，请选择 **上载新图像**。
     - 要删除图像，请选择该图像，然后选择 **删除**。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

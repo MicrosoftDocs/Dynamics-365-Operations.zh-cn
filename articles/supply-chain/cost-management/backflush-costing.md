@@ -126,3 +126,6 @@ Lean manufacturing WIP 模型让您可以使用看板处理单元状态来管理
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

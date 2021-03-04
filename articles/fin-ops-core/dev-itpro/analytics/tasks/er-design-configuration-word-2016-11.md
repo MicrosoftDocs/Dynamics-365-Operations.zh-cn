@@ -99,3 +99,6 @@ ms.locfileid: "4681917"
 16. 单击 **确定**。
 17. 单击 **确定**。 分析生成的输出。 请注意，创建的输出以 Word 格式表示，并且其中包含处理的付款的详细信息。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

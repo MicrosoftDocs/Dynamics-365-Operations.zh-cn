@@ -128,3 +128,6 @@ ms.locfileid: "4701668"
 - [使用审核日记帐将发票数据键入应付帐款](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [使用发票池将发票数据键入 AP 系统](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [在发票日记帐中记录供应商发票](tasks/record-vendor-invoice-invoice-journal.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

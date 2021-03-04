@@ -90,3 +90,6 @@ ms.locfileid: "5010143"
 [创建 Excel 工作簿以编辑零售交易记录](create-excel-edit.md)
 
 [将字段添加到 Excel 工作簿以编辑零售交易记录](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

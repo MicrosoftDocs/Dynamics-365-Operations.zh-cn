@@ -93,3 +93,6 @@ ms.locfileid: "4683913"
 13. 单击 **退出** 以关闭 **Reporting Services 配置管理器**。
 
     [![关闭 Reporting Services 配置管理器](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

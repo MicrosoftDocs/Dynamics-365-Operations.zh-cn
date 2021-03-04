@@ -64,3 +64,6 @@ ms.locfileid: "4422707"
     * 这将创建两个看板。  
     * 请注意，将为此提领看板规则创建 2 个看板，每个处理数量为 5。  这是该过程的最后一步。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

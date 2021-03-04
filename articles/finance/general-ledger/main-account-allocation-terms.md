@@ -70,3 +70,6 @@ ms.locfileid: "4440667"
 > 您可以选择使用 **复制** 按钮复制所选分摊。
 
 在为主科目创建分摊条件后，当过帐与分摊条件上的源财务维度匹配的凭证时，系统将自动过帐新凭证。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

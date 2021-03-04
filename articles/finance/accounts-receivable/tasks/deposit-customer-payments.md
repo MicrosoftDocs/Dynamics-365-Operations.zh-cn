@@ -48,3 +48,6 @@ ms.locfileid: "4440747"
 17. 选择 **确定**。 第一页用于创建存款单。  
 18. 选择 **确定**。 第二步为打印存款单，此步骤非必填项。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

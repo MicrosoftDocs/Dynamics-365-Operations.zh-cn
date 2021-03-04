@@ -114,3 +114,6 @@ ms.locfileid: "4995630"
 - [收入确认重新分配 - 方案 2](rev-rec-reallocation-scenario-2.md) - 输入了两个销售订单，然后在对第一个销售订单开票后，客户将一个项目添加到合同中。
 - [收入确认重新分配 - 方案 3](rev-rec-reallocation-scenario-3.md) - 将一个新行添加到现有的、已开票的销售订单中。
 - [收入确认重新分配 - 方案 4](rev-rec-reallocation-scenario-4.md) - 从现有的、已部分开票的销售订单中删除一行。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

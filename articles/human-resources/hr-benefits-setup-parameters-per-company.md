@@ -42,3 +42,5 @@ ms.locfileid: "4692737"
    | **默认电子邮件发件人地址** | 发送确认电子邮件时要使用的电子邮件地址。 |
 
 3. 选择 **保存**。
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

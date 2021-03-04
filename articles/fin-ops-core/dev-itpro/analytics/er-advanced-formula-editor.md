@@ -171,3 +171,6 @@ ms.locfileid: "4685374"
 - [电子报告 (ER) 概览](general-electronic-reporting.md)
 - [电子报告中的配方设计器](general-electronic-reporting-formula-designer.md)
 - [Monaco 编辑](https://microsoft.github.io/monaco-editor)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Microsoft Dynamics 365 Human Resources 通过 Microsoft Dynamics Lifecycle Servi
 2. 选择 **从 LCS 打开**。
 3. 选择包含保存的任务指南的库和 BPM 节点。
 4. 打开任务指南。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

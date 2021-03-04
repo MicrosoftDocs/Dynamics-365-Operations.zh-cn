@@ -57,3 +57,6 @@ ms.locfileid: "4410453"
 可使用这个新改进的产品属性结构选择必须将哪些更新的产品属性推送到关联的产品。 在 **商业产品层次结构** 页上的操作窗格中，选择 **类别**，然后选择 **更新产品** 以打开 **更新产品** 对话框。
 
 ![“更新产品”对话框](media/NewUpdateProductsEnhancedView.PNG)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

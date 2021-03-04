@@ -169,3 +169,6 @@ Microsoft Dynamics 365 Supply Chain Management 中有若干货位字段，让您
 
 > [!NOTE]
 > 只有仓库事务才会更新货位字段。 如果使用日记帐或其他非 WHS 流程移动库存，将不更新这些字段。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

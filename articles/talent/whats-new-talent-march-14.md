@@ -71,3 +71,6 @@ ms.locfileid: "4528613"
 
 ### <a name="duplicate-employee-check-interface-changes"></a>重复员工检查：界面更改
 借助此更改，输入名称字段时可检测重复项，而状态将显示找到的数量。 您可以选择提供的链接以打开一个新的页面来评估是否要使用检测到的匹配项。 重复项窗体不会自动打开，以免中断数据输入。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

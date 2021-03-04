@@ -50,3 +50,6 @@ ms.locfileid: "4417401"
 
 > [!NOTE]
 > 工作的小时数不能超过 1,250，雇用时长不能超过 12 个月。 这些最大值符合美国的联邦法律。 最后，**员工自助服务** 选项卡确定经理可代表其员工输入的信息。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ ms.locfileid: "4422717"
     * 请注意，此看板有两个来自生产流的处理作业。 第一个是 SpeakerAssemblyAndPolish，第二个是 SpeakerTestAndPackaging。  
     * 这是最后一个步骤！  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

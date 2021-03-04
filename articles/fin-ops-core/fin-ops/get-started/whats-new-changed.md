@@ -50,3 +50,6 @@ ms.locfileid: "4694255"
 - [Lifecycle Services (LCS) 中的新增功能或更改](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

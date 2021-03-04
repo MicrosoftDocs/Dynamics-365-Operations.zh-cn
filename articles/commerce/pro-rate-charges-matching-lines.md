@@ -175,3 +175,6 @@ ms.locfileid: "4410360"
 [全渠道高级自动费用](omni-auto-charges.md)
 
 [按渠道启用和配置自动费用](auto-charges-by-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

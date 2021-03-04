@@ -78,3 +78,6 @@ ms.locfileid: "4965369"
 [编辑零售交易记录的财务维度](edit-financial-dim.md)
 
 [将字段添加到 Excel 工作簿以编辑零售交易记录](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

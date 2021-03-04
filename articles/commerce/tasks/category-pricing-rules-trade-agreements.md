@@ -59,3 +59,6 @@ ms.locfileid: "4410544"
 24. 单击“分类价格规则”选项卡。
     * 此列表列明了销售渠道的具体“分类价格规则”。  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

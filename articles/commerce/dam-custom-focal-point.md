@@ -60,3 +60,6 @@ ms.locfileid: "4594324"
 [裁剪图像](dam-crop-images.md)
 
 [上传和提供静态文件](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Talent 中现在将翻译 **最终注释** 标签。
 ### <a name="print-performance-reviews"></a>打印绩效复查
 
 员工、经理和 HR 可以打印员工的绩效复查。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

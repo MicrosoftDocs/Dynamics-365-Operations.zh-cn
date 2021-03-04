@@ -51,3 +51,6 @@ ms.locfileid: "4440611"
 5. 单击“创建日记帐”。
 6. 转到固定资产>流水输入项>固定资产流水。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

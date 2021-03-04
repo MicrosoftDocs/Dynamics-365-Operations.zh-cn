@@ -46,3 +46,6 @@ ms.locfileid: "4440743"
 6. 单击“过帐”。
     * 过帐所选发票。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

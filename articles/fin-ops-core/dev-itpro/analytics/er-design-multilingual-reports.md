@@ -210,3 +210,6 @@ ER 版本控制将控制向 ER 组件中的任何属性的标签分配。 对标
 
 - [电子申报概览](general-electronic-reporting.md)
 - [电子报告功能](er-formula-language.md#functions)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

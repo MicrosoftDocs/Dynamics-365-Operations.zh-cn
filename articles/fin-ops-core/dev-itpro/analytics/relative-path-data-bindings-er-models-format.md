@@ -57,3 +57,6 @@ ms.locfileid: "4687449"
 ## <a name="additional-resources"></a>其他资源
 
 [ER 公式语言](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

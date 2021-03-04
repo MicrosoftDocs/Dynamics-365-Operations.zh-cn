@@ -90,3 +90,6 @@ ms.locfileid: "4679550"
 ## <a name="additional-resources"></a>其他资源
 
 [电子报告 (ER) 概览](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

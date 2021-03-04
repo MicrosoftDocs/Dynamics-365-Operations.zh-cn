@@ -108,3 +108,6 @@ ms.locfileid: "4527781"
 ## <a name="grant-access-to-the-environment"></a>授予对环境的访问
 
 默认情况下，创建环境的全局管理员可以访问环境。 您必须为更多应用程序用户明确授予访问权限。 您必须在 Human Resources 环境中添加用户并为其分配相应角色。 部署了 Human Resources 的全局管理员还必须启动 Attract 和 Onboard 以完成初始化和允许其他租户用户访问。 在此之前，其他用户不能访问 Attract 和 Onboard，并且将发生访问冲突错误。 有关详细信息，请参阅[创建新用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)和[向安全角色分配用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -180,3 +180,6 @@ Common Data Service 中提供以下 Human Resources 实体。
 
 [选择数据集成技术](hr-admin-integration-choose-technology.md)</br>
 [配置 Common Data Service 集成](hr-admin-integration-common-data-service.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

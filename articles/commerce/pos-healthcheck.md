@@ -83,3 +83,6 @@ Microsoft Dynamics 365 Commerce 版本 10.0.10 及更高版本中有一项运行
 ## <a name="related-articles"></a>相关文章
 
 [Modern POS (MPOS) 触发器和打印](dev-itpro/pos-trigger-printing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

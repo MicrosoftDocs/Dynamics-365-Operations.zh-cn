@@ -50,3 +50,6 @@ ms.locfileid: "4423271"
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>托运流程中的供应商协作
 如果您的供应商使用供应商协作界面，他们可以使用该界面监控您的站点的库存的消耗量。 有关设置供应商使用供应商协作的详细信息，请参阅[供应商门户用户安全性](../procurement/configure-security-vendor-portal-users.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

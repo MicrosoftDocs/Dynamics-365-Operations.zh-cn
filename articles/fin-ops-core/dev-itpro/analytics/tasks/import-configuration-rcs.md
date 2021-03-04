@@ -55,3 +55,6 @@ ms.locfileid: "4684179"
 5. 选择 **关闭**。 
 6. 选择所需 ER 配置版本，然后选择 **导入** 将其导入到当前实例中。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ ms.locfileid: "4422897"
     ![图 1](media/05-controlling-and-reporting.png)
 
 有关如何设置故障的信息，请参阅[故障管理](../setup-for-work-orders/fault-management.md)主题。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

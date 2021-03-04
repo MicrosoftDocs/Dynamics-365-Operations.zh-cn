@@ -281,3 +281,6 @@ ms.locfileid: "4423320"
     ![位置 1 货位](media/LocationLicensePlatePositioning.png "位置 1 货位")
 
 1. 输入您为该货位创建的牌照 ID，然后按照提示为销售订单领料。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

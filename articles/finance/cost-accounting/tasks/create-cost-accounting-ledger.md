@@ -38,3 +38,6 @@ ms.locfileid: "4440684"
 8. 在“统计维度”字段中，输入或选择一个值。
 9. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

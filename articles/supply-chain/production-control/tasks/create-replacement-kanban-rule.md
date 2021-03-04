@@ -56,3 +56,6 @@ ms.locfileid: "4422712"
 1. 设置最大数量为 '100'。
     * 展开“数量”快速选项卡查看“最大数量”字段。 更改最大数量为 100 可以最多处理 100 个看板。    这是该任务的最后一步。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

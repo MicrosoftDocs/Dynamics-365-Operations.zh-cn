@@ -97,3 +97,6 @@ ms.locfileid: "4680962"
 1.  选择 **发送表扬**。 
 1. 输入您要发送的表扬的文本。 
 1. 选择 **完成**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

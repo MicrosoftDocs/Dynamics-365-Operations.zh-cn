@@ -87,3 +87,6 @@ ms.locfileid: "4682615"
 ## <a name="additional-resources"></a>其他资源
 
 [电子申报 (ER) 概览](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Contoso 中的纸质发票包含以下信息。
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

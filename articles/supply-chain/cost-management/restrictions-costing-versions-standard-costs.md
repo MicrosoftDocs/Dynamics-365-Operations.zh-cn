@@ -51,3 +51,6 @@ ms.locfileid: "4423081"
 
 [准备为制造物料维护标准成本](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ Dynamics 365 Finance 支持应收帐款和应付帐款中远期支票的完整�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

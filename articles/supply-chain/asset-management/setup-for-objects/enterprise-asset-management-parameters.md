@@ -107,3 +107,6 @@ ms.locfileid: "4423105"
 **编号规则** 链接
 
 在此部分中选择所需编号规则。 资产有两种编号规则：一种用于手动创建的资产，一种用于通过暂挂资产创建的资产。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ ms.locfileid: "4645809"
 - [将 Microsoft Dynamics AX WMS 迁移到新的 R3 仓库和运输功能](https://cloudblogs.microsoft.com/dynamics365/no-audience/2015/08/17/migration-of-microsoft-dynamics-ax-wms-to-new-r3-warehouse-and-transportation-functionality/)
 - [WMSI/WMS2 物料迁移](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/05/03/wmsiwms2-item-migration/)
 - [将仓库管理从 Microsoft Dynamics AX 2012 升级到 Supply Chain Management](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/upgrade-migration-warehouse-management-processes)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

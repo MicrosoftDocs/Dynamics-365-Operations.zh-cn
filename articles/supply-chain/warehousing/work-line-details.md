@@ -128,3 +128,6 @@ ms.locfileid: "4423376"
 
 > [!IMPORTANT]
 > 如果仅取消工作行的部分数量，还必须从负荷行中删除过时数量。 不然，除非正确设置欠交，否则不会确认负荷行的装运。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

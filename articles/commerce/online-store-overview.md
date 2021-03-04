@@ -121,3 +121,6 @@ Dynamics 365 Commerce 使用 Azure Active Directory (Azure AD) 企业对消费�
 [启用基于位置的商店检测](enable-store-detection.md)
 
 [设置用户登录自定义页面](custom-pages-user-logins.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

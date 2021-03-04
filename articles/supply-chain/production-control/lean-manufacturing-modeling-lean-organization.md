@@ -67,3 +67,6 @@ Lean Manufacturing 的体系结构的灵感来源于 Womack 和 Jones 提出的 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

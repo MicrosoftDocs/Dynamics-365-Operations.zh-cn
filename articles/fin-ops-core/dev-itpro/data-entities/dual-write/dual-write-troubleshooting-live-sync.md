@@ -127,3 +127,6 @@ ms.locfileid: "4685555"
 
 3. 确保 **externalenvironmentURL** 列具有正确的 Dataverse 或应用 URL。 删除任何指向错误的 Dataverse URL 的重复行。 删除 DUALWRITEPROJECTFIELDCONFIGURATION 和 DUALWRITEPROJECTCONFIGURATION 表中的相应行。
 4. 停止表映射，然后重新开始映射
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ ms.locfileid: "4423447"
 ## <a name="product-owners-and-approvals"></a>产品所有者和审核
 
 因为产品所有者知道特定的工程更改是否会对他们的产品有所帮助，所以在工程更改管理中将它们作为审核流程的一部分包括在内通常是有意义的。 您可以通过在用于工程更改管理的工作流中将产品所有者设置为参与者提供方来实现此方法。 然后，系统将基于工程更改请求和工程更改订单中的产品在工作流中分配审核任务。 有关详细信息，请参阅[管理工程产品的更改](engineering-change-management.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

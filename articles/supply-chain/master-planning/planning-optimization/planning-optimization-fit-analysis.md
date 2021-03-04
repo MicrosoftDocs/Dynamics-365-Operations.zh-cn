@@ -114,3 +114,6 @@ ms.locfileid: "4423022"
 [将筛选器应用于计划](plan-filters.md)
 
 [取消计划作业](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

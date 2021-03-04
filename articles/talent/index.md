@@ -35,3 +35,6 @@ Talent 包括 Attract，可帮助您挖掘、面试和雇用拥有组织所需�
 > [!IMPORTANT]
 > Dynamics 365 Talent: Core HR 中的功能现在是 Dynamics 365 Human Resources 的一部分。 您可以查看[欢迎使用 Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome) 上的 Human Resources 文档。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

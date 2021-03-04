@@ -138,3 +138,6 @@ ms.locfileid: "4410511"
 ## <a name="additional-resources"></a>其他资源
 
 - [Commerce 主页](../retail/index.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

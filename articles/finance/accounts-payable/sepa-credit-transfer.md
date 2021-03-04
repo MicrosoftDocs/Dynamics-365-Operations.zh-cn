@@ -126,3 +126,6 @@ SEPA 贷方转帐是从一个公司或个人付款到另一个公司或个人。
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

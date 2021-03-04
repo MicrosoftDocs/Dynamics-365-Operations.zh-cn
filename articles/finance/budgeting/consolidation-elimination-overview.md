@@ -90,3 +90,6 @@ ms.locfileid: "4440874"
 有关详细信息，请参阅[合并公司中的币种重估](../general-ledger/currency-revaluation-consolidation-company.md)。
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

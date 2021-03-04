@@ -43,3 +43,6 @@ ms.locfileid: "4409747"
 有关详细信息，请参阅[设置固定资产折旧分摊](./tasks/fixed-asset-depreciation-allocation.md)。
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -121,3 +121,6 @@ ms.locfileid: "4423198"
 1. 将打开 **执行摘要** 页，可在其中查看导出作业的状态和导出的实体的列表。 选择 **实体处理状态** 区域中列出的 **比较物料价格** 实体，然后选择 **下载文件** 下载从该实体导出的数据。
 
 有关如何使用数据管理导出数据的详细信息，请参阅[数据导入和导出作业概述](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

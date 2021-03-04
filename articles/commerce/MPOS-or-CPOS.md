@@ -105,3 +105,6 @@ Commerce Scale Unit 是承载 CRT 的组件。 CRT 包含 POS 使用的所有业
 - **硬件设备/外设** – Retail POS 系统的一个重要方面是它能够使用 POS 外设，如打印机、银箱和付款终端。 虽然所有可用 POS 选项均可以使用外设，但只有适用于 Windows 的 MPOS 直接支持它们。 对于所有其他应用程序，均需要一个或多个硬件工作站。 虽然此方法增加了灵活性，但必须部署、配置和服务其他组件。
 - **系统要求** – POS 应用程序的系统要求会发生变化。 在您进行选择前，请确保检查最新信息。 例如，因为 CPOS 在浏览器中运行，它支持各种操作系统。 有关系统要求的详细信息，请参阅[云部署的系统要求](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements)。
 - **部署和服务** – 部署和服务要求的复杂程度可能因应用程序和部署选择的更改而改变。 例如，对于云托管的 CPOS 部署，您不必在每台设备上安装和更新。 因此，此方法将极大地减少复杂性和成本。 但是，如果您在每个收银机上部署 MPOS 并启用脱机模式，而且您还部署了共享的硬件工作站，这会大大增加必须管理的终结点数量。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ ms.locfileid: "4682181"
 
 ## <a name="additional-resources"></a>其他资源
 若要了解有关 Power BI 行级别安全性的详细信息，请参阅[在 Power BI 中管理模型的安全性](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model)。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

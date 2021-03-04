@@ -91,3 +91,6 @@ ROUNDAMOUNT (number, decimals, round rule)
 [其他（业务域特定的）函数](er-functions-category-other.md)
 
 [数学函数](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

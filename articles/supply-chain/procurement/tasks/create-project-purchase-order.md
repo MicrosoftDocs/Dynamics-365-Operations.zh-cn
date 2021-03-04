@@ -48,3 +48,6 @@ ms.locfileid: "4423406"
     * 验证销售和成本价可用。 如果不可用但需要，请输入信息。  
 14. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

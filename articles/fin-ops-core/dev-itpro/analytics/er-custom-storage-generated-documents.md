@@ -175,3 +175,6 @@ public DocuRef insertFile(
 
 - [电子申报 (ER) 目标](electronic-reporting-destinations.md)
 - [可扩展性主页](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

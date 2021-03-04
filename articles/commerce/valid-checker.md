@@ -78,3 +78,6 @@ ms.locfileid: "4976531"
 
 > [!NOTE]
 > 未来的版本中将增加支持多种方案的其他验证规则。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

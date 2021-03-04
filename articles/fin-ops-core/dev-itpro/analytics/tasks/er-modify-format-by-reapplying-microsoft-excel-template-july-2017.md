@@ -83,3 +83,6 @@ ms.locfileid: "4684227"
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>将修改后的 ER 格式草稿版本用于付款日记帐处理。
 
 查看创建的工作表，包括付款日期这一付款行的新详细信息。  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

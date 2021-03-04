@@ -58,3 +58,6 @@ ms.locfileid: "4423062"
 3. 在 **已退回** 字段中，输入日期和时间。
 4. 选择 **确定**。
 5. 刷新 **有效资产出借** 列表页，然后注意列表中不再显示该资产出借。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

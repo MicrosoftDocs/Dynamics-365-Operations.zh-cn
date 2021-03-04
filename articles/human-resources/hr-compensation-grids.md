@@ -92,3 +92,6 @@ ms.locfileid: "4417442"
 29. 在列表中，标记或取消标记所有行。
 30. 单击“应用于网格”。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

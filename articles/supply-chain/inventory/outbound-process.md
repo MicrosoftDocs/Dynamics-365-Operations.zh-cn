@@ -85,3 +85,6 @@ ms.locfileid: "4423026"
 一旦领取完 **领料单登记** 页上的所有领料行，关联的装运即已完成。 之后可以基于领取的库存启动销售订单装箱单流程。
 
 [![更新出站装运](./media/outbound-shipments.png)](./media/outbound-shipments.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

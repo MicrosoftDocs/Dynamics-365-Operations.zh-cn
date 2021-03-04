@@ -57,3 +57,6 @@ ms.locfileid: "4450171"
 - 收货数量
 - 发货数量
 - 现有数量
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

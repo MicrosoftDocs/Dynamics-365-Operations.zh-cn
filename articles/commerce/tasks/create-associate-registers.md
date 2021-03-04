@@ -44,3 +44,6 @@ ms.locfileid: "4410545"
     * EFT POS 收银机编号用于通知付款处理器哪个终端在发送授权请求。 该值通常称为“终端 ID”或“TID”。 TID 通常位于付款设备上的贴纸中。  
 9. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ ms.locfileid: "4694981"
 [新的或更新任务指南（2016 年 5 月）](new-updated-task-guides-available-may-2016.md)
 
 [新的或更新任务指南（2016 年 11 月）](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

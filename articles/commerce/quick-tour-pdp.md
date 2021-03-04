@@ -88,3 +88,6 @@ PDP 上最重要的模块是购买框模块，它在页面主要部分中显示�
 [帐户管理页面概览](quick-tour-account-management.md)
 
 [丰富产品详细信息页面](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

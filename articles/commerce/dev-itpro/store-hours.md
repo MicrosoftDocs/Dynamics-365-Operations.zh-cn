@@ -78,3 +78,6 @@ Microsoft Dynamics 365 Retail 版本 8.1.2 及更高版本中提供此功能。
 POS 收银条中现在包含商店营业时间。 如果模板中包含任何节假日，将在收银条中显示这些节假日。
 
 ![收据示例](../dev-itpro/media/Storehours3.png "收据示例")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

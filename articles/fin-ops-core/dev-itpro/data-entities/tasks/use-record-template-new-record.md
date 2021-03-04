@@ -35,3 +35,6 @@ ms.locfileid: "4685161"
 3. 在列表中，找到并选择所需记录。
 4. 单击 **确定**。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4686360"
 如果将应用程序实例迁移到已多次用作迁移目标的另一个位置，并且 Blob 存储已经包含其 ER 模板文件，则可能会发生类似的问题。
 
 因为您可以具有几种 ER 格式配置，所以此过程可能很耗时。 因此，最好使用 [ER 模板的备份存储](er-backup-storage-templates.md)功能自动恢复具有被破坏的引用的模板。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

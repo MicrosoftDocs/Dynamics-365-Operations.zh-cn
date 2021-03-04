@@ -245,3 +245,6 @@ ms.locfileid: "4516734"
 
 - 处理波次表记录
 - 处理波次执行控制传输事件
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

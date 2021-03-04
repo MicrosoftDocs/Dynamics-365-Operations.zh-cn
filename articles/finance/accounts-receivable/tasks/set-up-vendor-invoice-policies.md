@@ -73,3 +73,6 @@ ms.locfileid: "4440772"
 16. 选择 **确定**。
 17. 关闭页面将返回到主页。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

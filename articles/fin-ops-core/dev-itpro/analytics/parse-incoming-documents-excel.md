@@ -46,3 +46,6 @@ ms.locfileid: "4685779"
 | 内容描述    | 文件                                                            |
 |------------------------|-----------------------------------------------------------------|
 | ER 模型配置 | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=862266) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

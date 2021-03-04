@@ -105,3 +105,6 @@ ms.locfileid: "4440867"
 
 ## <a name="delete-journal-lines"></a>删除日记帐行
 可通过 **功能** > **删除日记帐行** 中的日记帐启用用于快速删除所有日记帐行的功能。 若要启用此功能，请在 **功能管理** 中选择 **删除日记帐性能优化**。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

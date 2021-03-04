@@ -60,3 +60,5 @@ ms.locfileid: "4527018"
 ## <a name="additional-resources"></a>其他资源
 
 [该 Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

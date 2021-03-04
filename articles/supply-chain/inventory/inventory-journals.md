@@ -117,3 +117,6 @@ Supply Chain Management 中的库存日记帐用于过帐多种类型的实际�
 ## <a name="additional-resources"></a>其他资源
 
 [数据实体](../../dev-itpro/data-entities/data-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

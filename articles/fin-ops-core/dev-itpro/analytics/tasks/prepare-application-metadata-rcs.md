@@ -80,3 +80,6 @@ ms.locfileid: "4684083"
 3.    单击 **确定**。 
     
 已将创建的 ER 元数据配置保存为 XML 文件，可将此文件导入到 RCS，并用作有关外贸业务域的元数据的信息的来源。 可根据此信息指定应用程序元数据与 ER 数据模型之间的映射。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

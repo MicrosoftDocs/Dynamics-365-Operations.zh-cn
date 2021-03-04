@@ -99,3 +99,6 @@ ms.locfileid: "4512203"
 
 - [电子报告概览](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [从 Lifecycle Services 下载电子报告配置](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

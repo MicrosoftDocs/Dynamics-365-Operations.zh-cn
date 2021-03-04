@@ -161,3 +161,6 @@ ms.locfileid: "4684419"
 7. 单击“确定”。
     * 默认模型映射配置供此格式配置用于生成电子单据（创建的输出中包含公司代码）。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

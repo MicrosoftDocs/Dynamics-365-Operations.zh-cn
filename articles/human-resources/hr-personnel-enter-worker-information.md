@@ -45,3 +45,6 @@ ms.locfileid: "4417419"
 8. 在列表中，取消标记所选的行。
     * 选择下一个项目职位，并继续输入您雇用的每个工作人员的信息。  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

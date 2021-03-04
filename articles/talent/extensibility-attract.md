@@ -91,3 +91,6 @@ Web 内容 (iframe) 活动允许您嵌入在招聘流程或应聘者门户构建
 
 > [!NOTE]
 > Web 内容活动仅通过综合招聘附件提供。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

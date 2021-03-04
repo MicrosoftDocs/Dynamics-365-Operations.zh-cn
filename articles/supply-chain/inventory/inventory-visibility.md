@@ -500,3 +500,6 @@ ms.locfileid: "4625057"
 ```
 
 请注意，数量字段将构造为度量及其相关值的字典。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

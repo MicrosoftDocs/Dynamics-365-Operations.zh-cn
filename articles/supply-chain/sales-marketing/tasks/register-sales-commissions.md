@@ -71,3 +71,6 @@ ms.locfileid: "4422825"
 3. 关闭该页面。
 4. 选择 **凭证**。 您可以在凭证交易记录中查看已过帐到预定义的佣金费用的佣金金额和应付佣金金额。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

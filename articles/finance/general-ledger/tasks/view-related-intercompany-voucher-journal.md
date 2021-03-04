@@ -54,3 +54,6 @@ ms.locfileid: "4440854"
 3. 在列表中，标记所选的行。
 4. 单击“凭证”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

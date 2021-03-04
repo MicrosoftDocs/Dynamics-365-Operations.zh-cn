@@ -95,3 +95,6 @@ ms.locfileid: "4422753"
 
 [用于精益生产的看板作业级排产](lean-manufacturing-kanban-job-scheduling.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

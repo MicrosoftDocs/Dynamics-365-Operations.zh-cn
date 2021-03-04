@@ -112,3 +112,6 @@ ms.locfileid: "4422882"
 
 1. 转至 **应收帐款 \> 设置 \> 应收帐款参数**。
 1. 在 **更新** 选项卡的 **发票** 快速选项卡上，将 **打印包装材料重量** 选项设置为 **是**。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

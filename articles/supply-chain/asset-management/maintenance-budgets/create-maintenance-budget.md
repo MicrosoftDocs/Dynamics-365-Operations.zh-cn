@@ -59,3 +59,6 @@ ms.locfileid: "4423063"
 
 > [!NOTE]
 > 维护预算基于维护安排行仅计算预算成本。 若要计算同一期间的实际成本，可以在 **实际成本控制** 页中执行该项计算。 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

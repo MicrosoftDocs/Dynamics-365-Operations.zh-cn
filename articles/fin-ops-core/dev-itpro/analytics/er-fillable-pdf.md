@@ -301,3 +301,6 @@ ms.locfileid: "4688117"
 
 - [ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）](tasks/er-design-reports-openxml-2016-11.md)
 - [设计 ER 配置以生成 Word 格式的报表](tasks/er-design-configuration-word-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

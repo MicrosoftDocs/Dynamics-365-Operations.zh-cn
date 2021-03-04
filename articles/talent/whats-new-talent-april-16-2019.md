@@ -94,3 +94,6 @@ ms.locfileid: "4527163"
 安装 Finance and Operations 的平台更新 25 之后，用户可创建警报规则，用于在被事件触发后自动向联系人发送电子邮件通知。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

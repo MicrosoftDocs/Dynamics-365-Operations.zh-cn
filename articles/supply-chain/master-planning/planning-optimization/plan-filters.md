@@ -59,3 +59,6 @@ ms.locfileid: "4422968"
 [查看计划历史记录和计划日志](plan-history-logs.md)
 
 [取消计划作业](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

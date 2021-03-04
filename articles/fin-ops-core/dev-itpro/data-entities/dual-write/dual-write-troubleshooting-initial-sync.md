@@ -211,3 +211,6 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     行的初始同步现已完成。
 
 8. 在 Finance and Operations 应用中，为 **客户 V3** 实体重新打开更改跟踪。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

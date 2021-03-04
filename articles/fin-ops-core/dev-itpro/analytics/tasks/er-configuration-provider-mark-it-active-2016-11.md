@@ -44,3 +44,6 @@ ms.locfileid: "4681989"
 2. 选择 **设置有效**。
 
 ![电子申报工作区概览](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

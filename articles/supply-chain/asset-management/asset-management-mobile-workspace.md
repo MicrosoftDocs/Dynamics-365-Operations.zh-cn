@@ -253,3 +253,6 @@ ms.locfileid: "4422826"
 
 ![图 10](media/am-mobile-10.png)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

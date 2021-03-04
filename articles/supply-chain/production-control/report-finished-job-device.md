@@ -239,3 +239,6 @@ ms.locfileid: "4422930"
 
 > [!NOTE]
 > 要配置标签，转到 **仓库管理 \> 设置 \> 文档路径 \> 文档路径**。 有关详细信息，请参阅[启用牌照标签打印](../warehousing/tasks/license-plate-label-printing.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

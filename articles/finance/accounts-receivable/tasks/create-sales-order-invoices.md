@@ -68,3 +68,6 @@ ms.locfileid: "4440882"
 10. 单击 **取消**。
 11. 单击 **是**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

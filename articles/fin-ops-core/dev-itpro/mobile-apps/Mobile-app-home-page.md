@@ -151,3 +151,6 @@ ms.locfileid: "4683450"
 
 ## <a name="troubleshooting"></a>疑难解答
 [移动平台资源](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

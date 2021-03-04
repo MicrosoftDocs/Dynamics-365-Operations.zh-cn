@@ -62,3 +62,6 @@ Microsoft 引入了以下验证，以防止由于围绕成本计算的不正确�
 ## <a name="inventory-aging-report-discrepancies"></a>库龄报表差异
 
 **库龄报表** 在不同的存储维度（如站点或仓库）查看时，显示不同的值。 有关报告逻辑的详细信息，请参阅[库龄报表示例和逻辑](inventory-aging-report.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

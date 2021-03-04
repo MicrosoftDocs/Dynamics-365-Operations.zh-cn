@@ -133,3 +133,6 @@ ms.locfileid: "4422901"
 
 > [!NOTE]
 > 可根据需要更改故障特征、区域、类型、成因和补救措施的名称。 将在关联的故障登记中自动体现名称的变化。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

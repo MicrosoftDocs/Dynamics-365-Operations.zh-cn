@@ -121,3 +121,6 @@ Sammy 可以查看以下信息：
 
 ## <a name="summary"></a>汇总
 **到达概览** 页可以帮助仓库经理和仓库工作人员获得必须在入站流程期间完成的预期工作的概览。 此页还可能用于开始物料到达流程，帮助保证物料首次进入仓库即受到跟踪。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

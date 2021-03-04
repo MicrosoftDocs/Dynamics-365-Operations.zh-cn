@@ -93,3 +93,6 @@ ms.locfileid: "4423325"
 ## <a name="vendor-performance"></a>供应商表现
 
 *采购和应付帐款报告* 包括支出分析和供应商绩效分析，通过这些报告可以了解绩效和审核采购。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

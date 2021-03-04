@@ -65,3 +65,6 @@ ms.locfileid: "4440856"
 4. 在 **设置** 选项卡上，将 **延迟税金计算** 选项设置为 **是**。
 
 ![普通日记帐页面图像](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

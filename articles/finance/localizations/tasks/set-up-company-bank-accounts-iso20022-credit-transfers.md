@@ -52,3 +52,6 @@ ms.locfileid: "4440676"
 4. 在“银行帐户”字段中，输入或选择一个值。
 5. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

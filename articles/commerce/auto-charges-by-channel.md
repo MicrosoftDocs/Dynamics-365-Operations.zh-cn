@@ -128,3 +128,6 @@ ms.locfileid: "4410464"
 [全渠道高级自动费用](omni-auto-charges.md)
 
 [将标头费用按比例分配给匹配的销售行](pro-rate-charges-matching-lines.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

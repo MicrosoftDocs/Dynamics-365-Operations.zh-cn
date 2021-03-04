@@ -54,3 +54,6 @@ ms.locfileid: "4423137"
 
 > [!NOTE]
 > 为供应商保修涵盖的资产创建工作订单时，如果该工作订单的预期开始日期在保修期内，您将收到有关保修协议的通知。 然后可根据需要取消该工作订单。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

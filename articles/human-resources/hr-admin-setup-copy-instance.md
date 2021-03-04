@@ -150,3 +150,6 @@ ms.locfileid: "4527829"
 [删除实例](hr-admin-setup-remove-instance.md)</br>
 [更新流程](hr-admin-setup-update-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

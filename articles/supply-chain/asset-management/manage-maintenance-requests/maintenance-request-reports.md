@@ -58,3 +58,6 @@ ms.locfileid: "4423056"
 下图显示所有有效维护请求的 **维护请求列表** 报告的示例。
 
 ![维护请求列表报告](media/10-manage-maintenance-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

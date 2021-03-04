@@ -46,3 +46,6 @@ ms.locfileid: "4417382"
 15. 单击“福利”。
 16. 在列表中，找到福利并选择记录。 请注意新的覆盖范围结束日期。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

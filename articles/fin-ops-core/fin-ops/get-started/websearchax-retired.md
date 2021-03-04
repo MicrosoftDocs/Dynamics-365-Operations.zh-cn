@@ -34,3 +34,6 @@ site:technet.microsoft.com dynamics ax 2012 "搜索词"
 –或–
 
 site:msdn.microsoft.com dynamics ax 2012“搜索词”
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

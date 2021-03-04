@@ -66,3 +66,6 @@ ms.locfileid: "4440896"
 > [!NOTE]
 > 如果“计算部分付款的现金折扣”选项在“应收帐款参数”或“应付帐款参数”页中被选定时，会使用在每个部分付款的日期有效的汇率。 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ ms.locfileid: "4422961"
 
 ![图 1](media/01-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -206,3 +206,6 @@ ER 框架不提供启动新批处理作业的功能，该作业将以无人参�
 
 [针对 Application update 7.3 的 ER API 更改](er-apis-app73.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

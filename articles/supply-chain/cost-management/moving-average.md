@@ -155,3 +155,6 @@ ms.locfileid: "4422839"
 
 > [!NOTE]
 > 您不能通过使用 **交易记录时间排序** 选项对帐具有库存的总帐。 必须通过使用 **过帐日期** 选项打印报表。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

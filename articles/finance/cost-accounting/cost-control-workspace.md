@@ -158,3 +158,6 @@ ms.locfileid: "4440977"
 [定义成本对象控制员的访问权限](access-rights-cost-object-controller.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

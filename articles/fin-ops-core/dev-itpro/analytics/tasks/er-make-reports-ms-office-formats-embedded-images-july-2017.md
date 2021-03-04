@@ -90,3 +90,6 @@ ms.locfileid: "4684394"
  30. 在“允许在无效银行帐户上进行预验证创建:”字段中选择“是”。  
  31. 单击“保存”。  
  32. 关闭该页面。  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

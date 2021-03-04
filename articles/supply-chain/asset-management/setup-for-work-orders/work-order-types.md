@@ -52,3 +52,6 @@ ms.locfileid: "4423102"
 8. 选择 **保存**。
 
 ![工作订单类型](media/16-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

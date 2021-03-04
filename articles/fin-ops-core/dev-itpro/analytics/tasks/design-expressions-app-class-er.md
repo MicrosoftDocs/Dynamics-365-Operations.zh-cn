@@ -157,3 +157,6 @@ ms.locfileid: "4682013"
 2. 单击“确定”。
     * 检查 XML 格式的输出，该输出表示已从所选文件导入并移植到数据模型的数据。 请注意，导入的 TXT 文件只有 3 行被处理。 无效的第 4 行中的 IBAN 代码已跳过，并在信息日志中提供错误消息。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

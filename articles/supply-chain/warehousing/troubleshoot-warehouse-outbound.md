@@ -62,3 +62,6 @@ ms.locfileid: "4645424"
 ### <a name="issue-resolution"></a>解决问题
 
 Microsoft 已评估此问题，确定了这是一项功能限制。 当前，WMS 不支持直接交货。 因此，要使用直接交货，必须选择非 WMS 物料和仓库。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

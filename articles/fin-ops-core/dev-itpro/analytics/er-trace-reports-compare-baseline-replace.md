@@ -207,3 +207,6 @@ ms.locfileid: "4682839"
 
 - [跟踪生成的报表结果并将其与基准值进行比较](er-trace-reports-compare-baseline.md)
 - [任务录制器资源](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ ms.locfileid: "4440828"
 29. 在 **金额** 字段中，输入要应用于凭证的金额。 仅当凭证模板是百分比类型时才会显示 **金额** 字段。  
 30. 单击 **确定**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

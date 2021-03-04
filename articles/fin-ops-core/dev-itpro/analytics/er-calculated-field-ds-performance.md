@@ -300,3 +300,6 @@ ms.locfileid: "4681272"
 - [电子申报概览](general-electronic-reporting.md)
 - [跟踪电子申报格式的执行以解决性能问题](trace-execution-er-troubleshoot-perf.md)
 - [支持对计算字段类型的 ER 数据源执行参数化调用](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

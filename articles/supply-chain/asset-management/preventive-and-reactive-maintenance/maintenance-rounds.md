@@ -117,3 +117,6 @@ ms.locfileid: "4423032"
 - 可以在 **在后台运行** 快速选项卡上设置批处理作业，以便安排定期执行的阶段。  
 - 如果一个阶段包含在多个工作订单池中(请参阅 [工作订单池](../work-orders/work-order-pools.md))，将为 **打开维护安排池** 中的每个池显示一条记录。 这是为了优化工作订单池的筛选选项。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

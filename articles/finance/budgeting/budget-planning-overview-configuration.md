@@ -205,3 +205,6 @@ ms.locfileid: "4440879"
 **操作** 菜单的另一个有用命令是 **查看预算流程状态**。 此命令以图形形式显示流程中的预算计划以及相关数据，例如计划的工作流状态，按金额和按单位汇总，以及指向预算计划本身的单击导航。
 
 [![预算计划流程状态](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

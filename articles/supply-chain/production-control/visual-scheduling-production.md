@@ -160,3 +160,6 @@ ms.locfileid: "4423098"
 
 [可视生产排产（演示脚本）](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

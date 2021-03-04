@@ -106,3 +106,6 @@ ms.locfileid: "4410441"
 [文本块模块](add-content-rich-block.md)
 
 [内容块模块](add-hero-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

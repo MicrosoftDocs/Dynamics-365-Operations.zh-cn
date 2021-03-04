@@ -54,3 +54,6 @@ ms.locfileid: "4991322"
 > 此新功能中删除了菜单项 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过账 > 批量计算对账单** 和 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过账 > 批量过账对账单**。
 
 或者，可以手动创建交易记录对账单和财务报表类型。 转至 **Retail 和 Commerce > 渠道 > 商店**，然后单击 **对账单**。 单击 **新建**，然后选择您要创建的对账单类型。 **对账单** 页面上的字段和该页面的 **对账单组** 下的操作将基于选定的对账单类型显示相关的数据和操作。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

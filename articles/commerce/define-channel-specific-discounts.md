@@ -62,3 +62,6 @@ Commerce 使用价格组来定义渠道特定的折扣。 价格组可分配给�
 ## <a name="additional-resources"></a>其他资源
 
 [价格调整和折扣](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

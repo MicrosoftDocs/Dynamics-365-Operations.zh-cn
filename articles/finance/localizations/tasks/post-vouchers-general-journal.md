@@ -59,3 +59,6 @@ ms.locfileid: "4409746"
 23. 选中“打印科目维度”复选框。
 24. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

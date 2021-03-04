@@ -96,3 +96,6 @@ ms.locfileid: "4527378"
 ### <a name="manually-creating-a-new-released-product"></a>手动创建新发布的产品
 
 您可以根据组织的业务流程和关于是否应使用此功能的任何规则在单次运行中手动创建已发布的产品。 此功能创建新产品并自动将其发布到当前法人。 要创建新产品，单击 **已发布的产品维护** 工作区中或 **已发布的产品** 列表页上的 **已发布的产品**。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

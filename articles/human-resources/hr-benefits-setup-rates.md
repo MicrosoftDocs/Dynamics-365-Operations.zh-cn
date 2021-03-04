@@ -93,3 +93,6 @@ Microsoft Dynamics 365 Human Resources 中的比率定义雇主和员工向福�
    | **弹性信贷吸烟者比率** | 根据为吸烟者的层级定义的计算，福利使用的弹性信贷的数量。 |
 
 5. 选择 **保存**。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

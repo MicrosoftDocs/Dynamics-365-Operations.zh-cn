@@ -196,3 +196,6 @@ Microsoft Power BI 是一组软件服务、应用程序和连接器的集合，�
 [电子申报 (ER) 目标](electronic-reporting-destinations.md)
 
 [电子申报 (ER) 概览](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

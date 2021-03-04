@@ -55,3 +55,6 @@ ms.locfileid: "4423138"
     4. 在 **百分比** 字段中，输入保修行的覆盖百分比。 此百分比指示公司涵盖的量。
 
 ![保修页面](media/01-warranty.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ ms.locfileid: "4423265"
 1. 选择 **库存**。
 2. 选择 **交易记录**。 在这里，您可以查看过帐库存盘点日记帐时创建的所有相关交易记录。   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

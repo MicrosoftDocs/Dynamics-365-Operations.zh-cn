@@ -142,3 +142,6 @@ ms.locfileid: "4516732"
 ## <a name="can-i-trace-the-serial-numbers-of-finished-goods-against-the-serial-numbers-of-consumed-goods"></a>我可以根据消耗品的序列号跟踪成品的序列号吗？
 
 您不能根据生产订单生产这些成品所消耗的物料的序列号来跟踪成品的序列号。 当前不支持此场景。 解决方法是创建数量为 1 的生产订单。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

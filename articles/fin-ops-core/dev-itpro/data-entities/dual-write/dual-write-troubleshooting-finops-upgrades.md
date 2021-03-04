@@ -91,3 +91,6 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 4. 从 Finance and Operations 应用中的 **双写入** 页面打开 **表映射** 页面。
 5. 如果该属性未在映射中自动填充，请单击 **添加属性** 按钮，然后单击 **保存** 手动添加该属性。 
 6. 选择映射并单击 **运行**。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -164,3 +164,6 @@ On the **System parameters** page, follow these steps:
 | [Dynamics 社区](https://community.dynamics.com/) | 此站点承载博客、论坛和视频。 |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | 此站点提供评估和销售信息。 |
 | [CustomerSource](https://mbs.microsoft.com/customersource/)\* | 此站点承载培训资源、可下载报告和白皮书，是服务计划持有人的主要支持站点。 访问此站点上的某些资源可能需要服务计划。 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

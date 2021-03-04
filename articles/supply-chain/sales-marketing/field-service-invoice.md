@@ -108,3 +108,6 @@ ms.locfileid: "4528237"
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>协议发票（Field Service 到 Supply Chain Management）：发票行
 
 [![数据集成中的模板映射](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

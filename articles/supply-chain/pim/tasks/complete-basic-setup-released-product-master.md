@@ -53,3 +53,6 @@ ms.locfileid: "4423009"
 20. 关闭该页面。
 21. 关闭 **已发布产品详情** 窗体。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Dataverse 中的内部组织信息来自两个表：**运营单位** 和 **法�
 [!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
 
 [!include [Legal entities](includes/LegalEntities-Companies.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

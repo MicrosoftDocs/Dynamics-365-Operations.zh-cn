@@ -57,3 +57,6 @@ ms.locfileid: "4410365"
 [屏幕布局概览](pos-screen-layouts.md)       
 
 [配置并安装 Retail Hardware Station](retail-hardware-station-configuration-installation.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

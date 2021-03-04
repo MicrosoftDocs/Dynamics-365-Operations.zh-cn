@@ -75,3 +75,6 @@ ms.locfileid: "4422778"
 [开始使用计划优化](get-started.md)
 
 [计划优化适应分析](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

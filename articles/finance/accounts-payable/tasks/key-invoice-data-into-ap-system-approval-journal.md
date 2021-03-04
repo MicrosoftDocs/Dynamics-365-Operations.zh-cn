@@ -54,3 +54,6 @@ ms.locfileid: "4440590"
 10. 选择 **过帐**。
 11. 选择 **凭证** 查看已过帐条目。 发票待定审核帐户被冲销，并替换成实际费用帐户。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

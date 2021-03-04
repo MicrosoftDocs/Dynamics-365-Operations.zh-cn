@@ -169,3 +169,6 @@ ms.locfileid: "4681367"
 [业务文档管理概览](er-business-document-management.md)
 
 [设计以 OPENXML 格式生成报表的配置](tasks/er-design-reports-openxml-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

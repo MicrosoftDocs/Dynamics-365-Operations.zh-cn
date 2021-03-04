@@ -40,3 +40,5 @@ ms.locfileid: "4529546"
 [Common Data Service 实体](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
 [创建并使用自定义字段](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
 [在数据实体上显示自定义字段](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

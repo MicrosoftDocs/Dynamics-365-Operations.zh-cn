@@ -93,3 +93,6 @@ ms.locfileid: "4529700"
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>配置 Talent 时指示实例类型
 
 配置新的 Talent 时，可以指示实例类型为 **生产** 还是 **沙盒**，这样就可以提前测试新功能。 将把所有现有 Talent 实例更新为生产实例类型。 如果需要将现有实例之一更新为沙盒实例类型，请联系支持以发起更改请求。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

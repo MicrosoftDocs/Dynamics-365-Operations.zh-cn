@@ -96,3 +96,6 @@ ms.locfileid: "4410401"
 [内容块模块](add-hero-module.md)
 
 [视频播放器模块](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

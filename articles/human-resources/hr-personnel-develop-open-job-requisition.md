@@ -66,3 +66,6 @@ ms.locfileid: "4417394"
     * “已开始”状态表示项目即将收到申请。  
 33. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

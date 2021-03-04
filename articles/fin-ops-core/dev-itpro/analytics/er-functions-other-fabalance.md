@@ -67,3 +67,6 @@ FA_BALANCE (fixed asset code, value model code, reporting year, reporting date)
 ## <a name="additional-resources"></a>其他资源
 
 [其他（业务域特定的）函数](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

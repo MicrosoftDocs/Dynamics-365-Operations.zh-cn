@@ -107,3 +107,6 @@ ms.locfileid: "4423427"
 ## <a name="view-the-purchase-order-that-is-generated"></a>查看生成的采购订单
 
 在操作窗格上的 **常规** 选项卡中，选择 **采购订单**。 显示的页面将显示您接受出价时生成的采购订单。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

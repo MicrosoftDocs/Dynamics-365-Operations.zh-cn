@@ -190,3 +190,6 @@ Supply Chain Management 为产品也为物料（已发布产品）提供辅助�
 ## <a name="related-topic"></a>相关主题
 
 [在输入订单时搜索产品和产品变型](search-products-product-variants.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ ms.locfileid: "4422994"
 5. 在 **产品变型编号命名法** 字段中，输入或选择一个值。
 6. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

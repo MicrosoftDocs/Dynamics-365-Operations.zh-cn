@@ -50,3 +50,6 @@ ms.locfileid: "4645785"
 ### <a name="issue-resolution"></a>解决问题
 
 Microsoft 已评估此问题，确定了这是一项功能限制。 当前，仓库管理流程仅支持法人所有的库存。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

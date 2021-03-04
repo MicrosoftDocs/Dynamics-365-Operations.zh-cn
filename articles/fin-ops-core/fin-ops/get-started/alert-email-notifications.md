@@ -50,3 +50,6 @@ ms.locfileid: "4693814"
 以下图像显示通过电子邮件收到预警通知时预警通知的结构。
 
 [![用户记录创建、字段更改和模板删除的基于模板的预警通知](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

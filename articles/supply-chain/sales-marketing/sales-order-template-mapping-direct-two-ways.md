@@ -207,3 +207,6 @@ Sales 中的折扣计算模型不同于 Supply Chain Management。 在 Supply Ch
 ## <a name="related-topics"></a>相关主题
 
 [从目标客户到现金](prospect-to-cash.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

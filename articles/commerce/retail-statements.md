@@ -88,3 +88,6 @@ ms.locfileid: "4410605"
 - 在 POS 中将客户添加到交易记录所针对的销售会生成单独的销售订单和发票，每个针对一个独有客户。
 
 付款日志在报表中自动为付款创建，并且库存，为 POS 商店更新。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

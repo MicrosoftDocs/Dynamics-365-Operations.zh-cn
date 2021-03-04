@@ -78,3 +78,6 @@ ms.locfileid: "4440926"
 |    供应商到客户余额     |                                                                                                                   <ul><li>供应商到客户余额</li><li>供应商到客户余额(按公司)</li><li>供应商到客户余额明细</li></ul>                                                                                                                    |
 |    具有付款暂停的发票     |                                                                                         <ul><li>具有付款暂停的发票</li><li>具有付款暂停的发票明细</li><li>具有付款暂停的发票(按公司)</li><li>具有付款暂停的发票(按供应商组)</li></ul>                                                                                          |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

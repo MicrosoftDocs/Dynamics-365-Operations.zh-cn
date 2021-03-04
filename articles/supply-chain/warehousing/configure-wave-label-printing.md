@@ -932,3 +932,6 @@ ms.locfileid: "4423439"
 - 波次标签历史记录
 
 对于这些页面中的大多数页面，可以通过在“操作窗格”的 **装运** 选项卡上的 **相关信息** 组中选择 **波次标签** 来查找相关功能。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -423,3 +423,6 @@ ms.locfileid: "4681296"
 
 [配置电子申报 (ER) 以便将数据导入 Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

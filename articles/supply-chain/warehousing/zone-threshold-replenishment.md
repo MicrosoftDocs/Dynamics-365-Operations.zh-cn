@@ -344,3 +344,6 @@ ms.locfileid: "4654164"
 
 - 如果使用动态货位，并且将货位指令操作设置为使用 **合并** 策略，将为第一个可用货位或为已经包含库存的货位创建补货工作。
 - 如果使用固定货位而不是区域，则应使用[标准最小/最大补货](tasks/set-up-min-max-replenishment-process.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

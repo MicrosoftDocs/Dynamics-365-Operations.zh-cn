@@ -82,3 +82,6 @@ ms.locfileid: "4410590"
 
 > [!NOTE]
 > 如果使用两台打印机，一台打印机可用于打印标准的 40 列热敏收据。 第二台打印机通常用于打印需要更多信息的全页收据类型。 这些收据类型包括客户订单收据和客户发票。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

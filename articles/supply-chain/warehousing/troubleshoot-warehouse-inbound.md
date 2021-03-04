@@ -65,3 +65,6 @@ Microsoft 已评估此问题，确定了这是一项功能限制。 当前，混
 1. 负荷数量超收
 
 有关详细信息，请参阅[针对采购订单过帐登记的产品数量](inbound-load-handling.md#post-registered-quantities)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

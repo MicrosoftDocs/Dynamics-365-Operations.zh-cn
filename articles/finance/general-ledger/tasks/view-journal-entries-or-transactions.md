@@ -43,3 +43,6 @@ ms.locfileid: "4440635"
 12. 在操作窗格上，单击 **原始凭证**。
 13. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

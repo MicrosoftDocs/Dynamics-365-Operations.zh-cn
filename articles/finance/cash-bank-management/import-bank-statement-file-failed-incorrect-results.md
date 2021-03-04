@@ -108,3 +108,6 @@ BAI2 和 MT940 文件是基于文本的文件，并需要调整以支持可扩�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

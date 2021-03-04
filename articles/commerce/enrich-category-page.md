@@ -65,3 +65,6 @@ Commerce 提供显示类别数据时使用的默认类别登陆页。 默认类�
 [丰富产品页面](enrich-product-page.md)
 
 [验证页面内容可访问性](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

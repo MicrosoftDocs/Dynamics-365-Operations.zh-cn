@@ -102,3 +102,6 @@ ms.locfileid: "4460474"
 | 000337                | 8/8/2018             | 常规               | 8                    |
 | 000337                | 8/7/2018             | 常规               | 8                    |
 | 000337                | 8/9/2018             | 常规               | 8                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

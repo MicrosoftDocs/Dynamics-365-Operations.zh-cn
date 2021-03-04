@@ -90,3 +90,6 @@ ms.locfileid: "4440647"
 3. 选择您已添加了授权的客户。
 4. 在 **直接借记授权 ID** 字段中，输入或选择一个值。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

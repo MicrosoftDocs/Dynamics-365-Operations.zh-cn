@@ -134,3 +134,6 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 [设置呼叫中心渠道](channel-setup-callcenter.md)
 
 [适用于 Adyen 的 Dynamics 365 付款连接器](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

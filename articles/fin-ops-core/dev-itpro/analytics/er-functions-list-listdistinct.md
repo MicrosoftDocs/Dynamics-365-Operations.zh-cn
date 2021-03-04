@@ -97,3 +97,6 @@ LISTDISTINCT (list, selector)
 ## <a name="additional-resources"></a>其他资源
 
 [列表函数](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

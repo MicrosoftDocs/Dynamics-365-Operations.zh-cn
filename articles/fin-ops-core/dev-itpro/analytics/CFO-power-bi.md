@@ -43,3 +43,6 @@ ms.locfileid: "4688141"
 | [销售和收益率](sales-profitability-performance-content-pack.md) | <ul><li>按区域分类的收入</li><li>按收入排名前 10 位的客户</li><li>按收入排名前 10 位的产品</li></ul> |
 | [信用和收款管理](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>客户过期</li><li>客户超出信用额度</li><li>帐龄余额</li></ul> |
 | [采购花费分析](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>按月/天显示的采购</li><li>按采购额排名 10 的供应商</li><li>按采购额排名前 10 的产品</li></ul> |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

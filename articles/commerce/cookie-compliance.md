@@ -73,3 +73,6 @@ ms.locfileid: "4410386"
 [Cookie 同意模块](cookie-consent-module.md) 
  
 [标题模块](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

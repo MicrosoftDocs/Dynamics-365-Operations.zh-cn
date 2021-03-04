@@ -94,3 +94,6 @@ ms.locfileid: "4410650"
 [对外部礼品卡的支持](./dev-itpro/gift-card.md)
 
 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

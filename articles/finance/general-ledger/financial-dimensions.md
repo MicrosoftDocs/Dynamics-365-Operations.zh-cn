@@ -140,3 +140,6 @@ ms.locfileid: "4440869"
 
 - [定义财务维度](tasks/define-financial-dimensions.md)
 - [维护财务维度默认模板](tasks/maintain-financial-dimension-default-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

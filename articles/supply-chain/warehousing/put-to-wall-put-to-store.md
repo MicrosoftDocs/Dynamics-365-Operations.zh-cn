@@ -541,3 +541,6 @@ ms.locfileid: "4423333"
 
 > [!IMPORTANT]
 > 从分类位置创建移动工作后，不能取消工作。 否则，该位置及其中的集装箱将从系统中删除，无法进一步处理。 库存也将被删除。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ ms.locfileid: "4410494"
 [在 Dynamics 365 Commerce 中同步产品评分](sync-product-ratings.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

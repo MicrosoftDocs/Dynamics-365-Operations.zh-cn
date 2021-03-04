@@ -77,3 +77,6 @@ POS 按钮现在可以显示计数以帮助工作人员轻松确定哪些任务�
 下图显示在 **内容对齐** 字段中选择 **靠上右对齐** 与 **居中** 对各种尺寸的按钮的影响。
 
 ![POS 按钮上的实时内容](./media/ButtonsWithLiveContent.png "POS 按钮上的实时内容")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

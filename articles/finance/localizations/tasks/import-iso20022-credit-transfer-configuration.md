@@ -45,3 +45,6 @@ ms.locfileid: "4440799"
     * 如果导入按钮没出现，表示该配置文件已经被导入了。  
 9. 单击“是”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

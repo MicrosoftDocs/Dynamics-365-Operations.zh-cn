@@ -127,3 +127,6 @@ ms.locfileid: "4410644"
 [订单详细信息模块](order-confirmation-module.md)
 
 [礼品卡模块](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4422909"
     - **产品 C：** 2
 
 此行为可确保对生产订单物料单的更改不会影响后续的成本计算。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

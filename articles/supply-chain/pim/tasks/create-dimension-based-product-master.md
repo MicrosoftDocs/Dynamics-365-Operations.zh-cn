@@ -42,3 +42,6 @@ ms.locfileid: "4423001"
     * 选择“基于维度的配置技术”。  
 9. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

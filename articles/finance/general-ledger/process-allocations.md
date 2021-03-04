@@ -44,3 +44,6 @@ ms.locfileid: "4440761"
 > [!NOTE]
 > 您不能为预算计划使用内部公司的分类帐分配规则。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

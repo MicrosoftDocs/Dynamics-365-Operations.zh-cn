@@ -87,3 +87,6 @@ ms.locfileid: "4417447"
 
 ## <a name="steps-for-creating-a-job"></a>作业创建步骤
 请参阅[定义新作业](../fin-and-ops/hr/tasks/define-new-jobs.md)一文了解创建新作业的分步过程。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

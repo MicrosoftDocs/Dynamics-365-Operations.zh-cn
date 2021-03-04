@@ -151,3 +151,6 @@ ms.locfileid: "4529748"
 ![“工作人员到工作人员”任务](./media/WorkerMapping.png)
 
 ![“性别”字段转换](./media/WorkerTransform.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -239,3 +239,6 @@ Dynamics 365 Commerce 提供的功能可让您创建保修物料并为其设置�
 [设置分类](set-up-assortments.md)
 
 [编号规则概览](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

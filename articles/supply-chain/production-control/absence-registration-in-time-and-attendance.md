@@ -109,3 +109,6 @@ ms.locfileid: "4422737"
 ### <a name="calculate-and-approve-absence"></a>计算和审核缺勤
 
 - 选择 **出勤时间** &gt; **查看和审核** &gt; **审核或计算**。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

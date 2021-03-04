@@ -136,3 +136,5 @@ ms.locfileid: "4423253"
 
 > [!NOTE]
 > *仓库流程质量管理* 功能提供设置质量关联的其他选项。 它增加了一个新条件（**适用仓库类型**）和一个新设置（**质量处理策略**）。 如果已启用此功能，请参阅[仓库流程质量管理](../quality-management-for-warehouses-processes.md)了解详细信息。
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

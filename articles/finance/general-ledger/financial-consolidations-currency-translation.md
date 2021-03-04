@@ -182,3 +182,6 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 
 ## <a name="generating-consolidated-financial-statements"></a>生成合并的财务报表
 有关可以生成财务报表的方案的信息，请参阅[生成合并的财务报表](./generating-consolidated-financial-statements.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

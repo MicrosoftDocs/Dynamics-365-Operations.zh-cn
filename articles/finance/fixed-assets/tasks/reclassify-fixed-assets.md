@@ -46,3 +46,6 @@ ms.locfileid: "4440686"
 5. 在 **重新分类日期** 字段中，输入一个日期。
 6. 在 **凭证系列** 字段中，输入或选择一个值。
 7. 单击 **确定**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

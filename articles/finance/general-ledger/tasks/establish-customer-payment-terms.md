@@ -57,3 +57,6 @@ ms.locfileid: "4440659"
 26. 在 **供应商折扣的主科目** 字段中，输入供应商发票的现金折旧将过帐到的主科目。
 27. 单击 **保存**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

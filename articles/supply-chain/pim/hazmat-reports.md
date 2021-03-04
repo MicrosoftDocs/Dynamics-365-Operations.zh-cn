@@ -110,3 +110,6 @@ Microsoft Dynamics 365 Supply Chain Management 提供与危险物料有关的各
 ## <a name="packing-list-report"></a>装箱单报表
 
 在系统中打开危险物料功能后，装箱单中将包含与物料的装运打印文本有关的其他信息。 与以往一样，可从 **所有负荷** 页面获得此报表。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

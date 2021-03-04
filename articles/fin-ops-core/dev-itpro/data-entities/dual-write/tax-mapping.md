@@ -66,3 +66,6 @@ Finance and Operations 应用 | Dynamics 365 中的模型驱动应用 | 说明 |
 
 [!include [Withholding tax groups](includes/WithholdingGroups-msdyn-withholdingtaxgroups.md)]
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

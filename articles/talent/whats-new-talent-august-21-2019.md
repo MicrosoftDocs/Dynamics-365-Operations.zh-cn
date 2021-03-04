@@ -70,3 +70,6 @@ ms.locfileid: "4460488"
 #### <a name="platform-update-29-for-finance-and-operations"></a>Finance and Operations 平台更新 29
 
 有关 Finance and Operations 平台更新 29 的其他详细信息，请参阅 [Dynamics 365 Finance and Operations 平台更新 29（2019 年 10 月）中的预览功能](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -203,3 +203,6 @@ IFeatureLifecycle 是 Microsoft 内部的一种机制，用于指示功能生命
 - PublicPreview - 默认显示，但具有该功能处于预览状态的警告。
 - Released - 已完全发布。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

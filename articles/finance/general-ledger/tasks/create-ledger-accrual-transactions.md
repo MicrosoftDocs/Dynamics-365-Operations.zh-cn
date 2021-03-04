@@ -49,3 +49,6 @@ ms.locfileid: "4440658"
 17. 单击“确定”。
 18. 单击“过帐”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ ms.locfileid: "4423369"
 4. 在 **条件** 字段中，输入一个值。
 5. 选择 **确定**。 您可以继续添加指令行和指令操作，直到您已覆盖您的仓库的所有可能场景。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

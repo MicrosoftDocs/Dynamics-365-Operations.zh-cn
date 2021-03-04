@@ -1373,3 +1373,6 @@ Windows 8 平板电脑应用提供用于费用录入和审核的功能。
 |     <strong>影响的产品区域</strong>     |                                              总帐                                              |
 |             <strong>状态</strong>             |                                      从 Dynamics AX 2012 开始移除                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

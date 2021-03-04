@@ -70,3 +70,6 @@ ms.locfileid: "4440763"
 
 仅当交易记录符合进行冲销的业务规则时，才可以冲销交易记录。 使用本主题中介绍的功能无法撤销供应商付款。 必须按照[冲销供应商付款](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment)中列出的步骤来冲销供应商付款。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

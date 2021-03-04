@@ -66,3 +66,6 @@ ms.locfileid: "4423099"
 2. 单击“完成”。
     * 这将完成两个作业的转移。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

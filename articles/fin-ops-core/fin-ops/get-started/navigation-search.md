@@ -62,3 +62,6 @@ ms.locfileid: "4695053"
 ## <a name="development"></a>开发
 
 从开发角度来看，此导航搜索功能易于使用，因为在菜单项的部署和其在搜索结果中显示的能力之间几乎没有任何延迟。 只要菜单项链接到导航窗格或仪表板，它们就会自动变为可搜索。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

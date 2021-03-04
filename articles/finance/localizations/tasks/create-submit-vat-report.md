@@ -35,3 +35,6 @@ ms.locfileid: "4440851"
 5. 在“创建电子税单”字段中选择“是”。
 6. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ ms.locfileid: "4440610"
 15. 单击“确定”。
     *  流程结果将在成批更新报表中显示。     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Power BI 其中一项重要功能是报表页面中的所有视觉对象的互�
 ## <a name="export-to-excel"></a>导出至 Excel
 
 若要使用 Excel 查看报表数据，可单击视觉对象上的选项菜单（三个点），然后选择 **导出基础数据**。 导出的数据将按照 Attract 中的用户权限进行筛选。 有关详细信息，请参阅[从可视化项导出数据](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

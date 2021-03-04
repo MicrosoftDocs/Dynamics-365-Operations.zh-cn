@@ -136,3 +136,6 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>有关如何打印标签的详细信息
 
 有关如何设置和打印标签的详细信息，请参阅[启用牌照标签打印](tasks/license-plate-label-printing.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

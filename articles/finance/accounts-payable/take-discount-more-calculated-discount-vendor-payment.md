@@ -51,3 +51,6 @@ April 过帐付款日志。 使用付款 940.00 和 60.00 折扣完全结算发�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

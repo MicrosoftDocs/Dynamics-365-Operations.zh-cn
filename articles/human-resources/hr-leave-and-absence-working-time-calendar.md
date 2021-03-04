@@ -75,3 +75,6 @@ Dynamics 365 Human Resources 中的工作时间日历显示员工在您的组织
 
 - [休假和缺勤概览](hr-leave-and-absence-overview.md)
 - [配置休假和缺勤类型](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

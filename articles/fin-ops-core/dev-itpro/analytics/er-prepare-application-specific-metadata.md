@@ -280,3 +280,6 @@ ms.locfileid: "4680186"
 ## <a name="additional-resources"></a>其他资源
 
 也可以播放应用程序中的 **准备可在 RCS 中使用的应用程序元数据** 任务指南，以及 RCS 中的 **通过使用 ER 配置访问应用程序元数据** 和 **通过使用相连应用程序访问应用程序元数据** 任务指南。 可以从 [Dynamics 365 for Finance and Operations 8.1 电子申报任务指南](https://go.microsoft.com/fwlink/?linkid=2082739)页下载这些任务指南。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

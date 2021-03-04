@@ -82,3 +82,6 @@ ms.locfileid: "4440693"
 下图显示了已过帐的凭证。
 
 [![帐面净值](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

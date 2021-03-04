@@ -52,3 +52,6 @@ ms.locfileid: "4422695"
 6. 单击“准备”。
     * 请注意，作业状态的图标指示作业现在可供处理。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

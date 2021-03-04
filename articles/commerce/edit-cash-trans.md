@@ -120,3 +120,6 @@ Commerce 版本 10.0.10 及更高版本支持对验证失败但未链接到对�
 [创建 Excel 工作簿以编辑零售交易记录](create-excel-edit.md)
 
 [将字段添加到 Excel 工作簿以编辑零售交易记录](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

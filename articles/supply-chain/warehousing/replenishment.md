@@ -79,3 +79,6 @@ ms.locfileid: "4654116"
 |   位置指令   |                                                       将工作指导到需要补货的库位以及库存来源库位需要库位指令。                                                        |
 |     工作模板      |                                                   创建补货工作以将库存移至所需库位需要<strong>补货</strong>类型的工作模板。                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

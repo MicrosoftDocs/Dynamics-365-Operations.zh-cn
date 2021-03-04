@@ -56,3 +56,6 @@ ms.locfileid: "4422957"
 6. 在操作窗格中，选择 **生产订单**。
 7. 选择 **所有作业**。 请注意，根据有效的工艺路线，通过作业级排产创建 5 个作业。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

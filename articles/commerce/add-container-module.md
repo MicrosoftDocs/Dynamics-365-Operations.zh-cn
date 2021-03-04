@@ -142,3 +142,6 @@ ms.locfileid: "4410422"
 [标题模块](author-header-module.md)
 
 [页脚模块](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

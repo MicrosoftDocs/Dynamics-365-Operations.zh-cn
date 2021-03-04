@@ -46,3 +46,6 @@ ms.locfileid: "4422693"
 4. 单击“确定”。
     * 这可以将当前作业状态从“计划”转变为“无计划”，并将其从进程栏上移除。   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

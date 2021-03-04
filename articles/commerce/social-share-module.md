@@ -82,3 +82,6 @@ ms.locfileid: "4410616"
 [购买框模块](add-buy-box.md)
 
 [Cookie 合规性](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

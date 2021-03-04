@@ -111,3 +111,6 @@ ms.locfileid: "4422899"
 ## <a name="related-resources"></a>相关资源
 
 [成本核算服务主页](cost-accounting-service-home.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

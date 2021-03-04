@@ -68,3 +68,6 @@ ms.locfileid: "4440775"
 5. 单击 **确定**。
 6. 在 **状态** 字段中，选择“已过帐”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

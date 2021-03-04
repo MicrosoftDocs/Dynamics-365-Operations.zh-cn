@@ -64,3 +64,6 @@ ms.locfileid: "4440938"
 -   原币余额
 
 您可以从 **现金概览–所有公司** 工作区查看跨所有公司的银行分析。 有关详细信息，请参阅[现金概览 Power BI 内容](Cash-Overview-Power-BI-content.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

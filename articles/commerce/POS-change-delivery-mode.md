@@ -47,3 +47,6 @@ ms.locfileid: "4594129"
 [创建呼叫中心订单](tasks/create-call-center-orders.md)
 
 [按交货模式自定义事务电子邮件](customize-email-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

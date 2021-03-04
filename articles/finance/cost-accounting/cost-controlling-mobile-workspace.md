@@ -145,3 +145,6 @@ ms.locfileid: "4440976"
 11. 查看单个成本元素的绩效。
 12. 也可以搜索特定成本元素。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

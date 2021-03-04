@@ -43,3 +43,6 @@ ms.locfileid: "4423028"
 6. 选择 **保存**。
 
 ![已计划执行](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

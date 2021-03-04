@@ -129,3 +129,6 @@ LinkedIn 是世界上最大的在线职业网络，让您可以访问世界顶�
 [将工作从 Microsoft Dynamics 365 Talent - Attract 发布到 LinkedIn](./attract-post-jobs-to-linkedin.md)
 
 [与 LinkedIn 和 Microsoft Dynamics 365 Talent - Attract 集成疑难解答](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

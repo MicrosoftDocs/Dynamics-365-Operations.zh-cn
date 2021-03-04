@@ -36,3 +36,6 @@ ms.locfileid: "4440688"
 此更新允许用于证书验证的替代解决方案，这意味着可以建立安全通信。
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

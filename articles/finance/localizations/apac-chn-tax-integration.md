@@ -75,3 +75,6 @@ ms.locfileid: "4409759"
 - [导入中国金税数据实体](apac-chn-import-golden-tax-data-entity.md)（不适用于 Microsoft Dynamics 365 for Finance and Operations 版本 10.0 \[2019 年四月\]及更高版本）
 - [增值税客户发票的中国税务集成修改常见问题](apac-chn-tax-integration-vat-customer-invoices.md)
 - [设置中国的基本税务集成模板](./tasks/set-up-basic-tax-integration-profile-china.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

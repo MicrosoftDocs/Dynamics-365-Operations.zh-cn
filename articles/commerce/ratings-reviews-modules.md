@@ -100,3 +100,6 @@ PDP 中的三个模块显示评分和评价摘要：
 [页眉模块](author-header-module.md)
 
 [页脚模块](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

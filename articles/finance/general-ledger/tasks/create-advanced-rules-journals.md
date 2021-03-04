@@ -58,3 +58,6 @@ ms.locfileid: "4440830"
 4. 在树形图中，单击“您允许该日记帐过帐的组”。
 5. 单击 **确定**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

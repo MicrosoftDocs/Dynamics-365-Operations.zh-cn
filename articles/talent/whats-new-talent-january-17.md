@@ -45,3 +45,6 @@ ms.locfileid: "4460450"
 ### <a name="ideas-portal-updated"></a>想法门户已更新
 用于提交 Talent 想法的应用内链接已更新为新的想法门户。 在旧门户中输入的所有想法已迁移，因此，您所有的好想法仍在那里，并可由其他人投票。  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

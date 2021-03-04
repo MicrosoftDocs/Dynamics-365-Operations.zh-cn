@@ -63,3 +63,6 @@ ms.locfileid: "4665190"
 
 - **尝试自动匹配的次数** – 选择系统在得出流程失败的结论之前应尝试将物料收货与发票行进行匹配的次数。 达到指定的尝试次数后，发票将从自动化处理中删除。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ ms.locfileid: "2180775"
 有关如何创建自己的 ERD 的说明位于：[https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm](https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm)
 
 解决方案位于 AxErd 文件夹 [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd) 的根目录中。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

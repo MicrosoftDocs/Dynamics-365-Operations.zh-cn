@@ -102,3 +102,6 @@ ER 模板的备份存储功能可帮助您创建模板，这样始终可以使�
 [电子申报 (ER) 概览](general-electronic-reporting.md)
 
 [配置电子报告 (ER) 框架](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

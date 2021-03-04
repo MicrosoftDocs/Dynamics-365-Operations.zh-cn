@@ -135,3 +135,6 @@ Dynamics 365 Commerce 中的评分和评价解决方案是全渠道解决方案�
 [管理评分和评价](manage-reviews.md)
 
 [配置评分和评价](configure-ratings-reviews.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

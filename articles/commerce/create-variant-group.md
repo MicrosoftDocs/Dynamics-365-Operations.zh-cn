@@ -73,3 +73,6 @@ Dynamics 365 Commerce 支持产品的多种变型。 最好是为不同的产品
 [设置零售产品](set-up-retail-products.md)
 
 [产品维度](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

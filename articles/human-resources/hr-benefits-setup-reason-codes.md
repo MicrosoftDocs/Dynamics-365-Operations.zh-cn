@@ -41,3 +41,6 @@ Dynamics 365 Human Resources 使用原因代码来解释为什么员工的福利
    | **说明** | 原因代码的描述。 |
 
 4. 选择 **保存**。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

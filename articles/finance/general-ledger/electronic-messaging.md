@@ -536,3 +536,6 @@ Finance 中的电子消息功能支持在 Finance 与政府和立法机构为报
 ![更新消息状态](media/update-status.png)
 
 消息状态更新为 **已准备**，现在，您可以通过选择 **生成报表** 生成报表。 将生成报表，消息状态和操作日志将更新。 若要查看生成的报表，请选择页面右上角的 **附件** 按钮（回形针符号）。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -259,3 +259,6 @@ PO 在 Supply Chain Management 中准备。 采购订单的状态为 **已批准
 - %createddate%
 
 如果需要改正，并且在发送询价后发送，将重新向所有受邀请的供应商发送询价。 **打开发布的询价** 页面上的已发布文档也会更新。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

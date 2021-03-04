@@ -260,3 +260,6 @@ ER 格式与其特定于应用程序的参数之间的关系由 ER 格式不依�
 [电子报告中的配方设计器](general-electronic-reporting-formula-designer.md)
 
 [配置 ER 格式以使用每个法人指定的参数](er-app-specific-parameters-configure-format.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ ms.locfileid: "4417546"
 
 - [休假和缺勤概览](hr-leave-and-absence-overview.md)
 - [管理休假和缺勤申请](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

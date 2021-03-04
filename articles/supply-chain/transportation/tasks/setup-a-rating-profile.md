@@ -61,3 +61,6 @@ ms.locfileid: "4646363"
 
 > [!NOTE]
 > 在 **装运承运人** 页上创建的资料也会显示在 **评级资料** 页上。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

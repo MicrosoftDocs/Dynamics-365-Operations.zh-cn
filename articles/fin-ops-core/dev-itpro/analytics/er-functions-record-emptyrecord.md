@@ -60,3 +60,6 @@ EMPTYRECORD (list)
 ## <a name="additional-resources"></a>其他资源
 
 [记录函数](er-functions-category-record.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

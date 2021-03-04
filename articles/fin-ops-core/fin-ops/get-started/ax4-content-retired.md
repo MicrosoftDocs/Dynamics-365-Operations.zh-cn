@@ -31,3 +31,6 @@ ms.locfileid: "4692934"
 
 - [Microsoft 生命周期策略](https://support.microsoft.com/lifecycle/search?alpha=Microsoft%20Dynamics%20AX%204.0)
 - [支持的 Dynamics AX 2012 升级路径](https://technet.microsoft.com/library/dd362093.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

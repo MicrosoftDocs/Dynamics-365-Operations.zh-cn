@@ -164,3 +164,6 @@ ms.locfileid: "4410383"
 [使用 Adyen 连接器保存在线付款工具](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
 [全渠道付款概览](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

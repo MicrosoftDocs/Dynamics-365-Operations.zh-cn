@@ -109,3 +109,6 @@ ms.locfileid: "4410357"
 [购买框模块](add-buy-box.md)
 
 [产品建议概览](product-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

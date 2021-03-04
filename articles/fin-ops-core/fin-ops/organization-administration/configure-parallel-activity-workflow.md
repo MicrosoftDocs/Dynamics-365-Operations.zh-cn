@@ -53,3 +53,6 @@ ms.locfileid: "4693346"
     > 分支的顺序并不重要，因为并行活动的所有分支同时运行。
 
 3. 若要配置每个分支，请参阅[配置工作流中的并行分支](configure-parallel-branch-workflow.md)。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ A.  在“树定义”中单击“设置”并在“报告单位选择”下选�
 2.  将报表导出到 Excel
 
 您现在应该能够将 FR Excel 报表中的数据复制到 D365 试算平衡表报表，并比较“期末余额”列。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

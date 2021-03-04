@@ -59,3 +59,6 @@ ms.locfileid: "4514342"
 1. 转到 **系统管理 \> 设置 \> 许可证配置**。
 1. 展开 **贸易** 节点，选择 **工程更改管理** 复选框。
 1. 关闭维护模式，如[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)中所述。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

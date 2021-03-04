@@ -69,3 +69,6 @@ ms.locfileid: "4423210"
 5. 选择向右箭头。
 6. 选择 **保存**。
 7. 关闭该页面。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

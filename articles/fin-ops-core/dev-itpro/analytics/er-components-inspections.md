@@ -813,3 +813,6 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 [跟踪电子申报格式的执行以解决性能问题](trace-execution-er-troubleshoot-perf.md)
 
 [业务文档管理概览](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

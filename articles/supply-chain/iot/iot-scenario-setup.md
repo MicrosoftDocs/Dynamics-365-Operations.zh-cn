@@ -143,3 +143,6 @@ ms.locfileid: "4423248"
 2. 在方案的磁贴中，选择 **配置**。
 3. 选择 **下一步** 转到向导的最后一页。
 4. 设置用于禁用方案的选项。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

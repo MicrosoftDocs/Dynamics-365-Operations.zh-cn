@@ -75,3 +75,6 @@ ms.locfileid: "4440814"
 ![与外部组织共享的配置](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
 
 6. 若要取消更新之前已经与外部组织共享的配置，请选择该配置，然后单击 **取消更新**，再选择 **确定**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

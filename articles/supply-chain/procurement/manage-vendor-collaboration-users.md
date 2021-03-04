@@ -94,3 +94,6 @@ Dynamics 365 Supply Chain Management 中的供应商协作界面向外部供应�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

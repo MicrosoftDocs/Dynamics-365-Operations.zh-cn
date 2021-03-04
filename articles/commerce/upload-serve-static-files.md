@@ -107,3 +107,6 @@ URL 发布后，您可以对它进行更新，让它指向另一个文件。 或
 [裁剪图像](dam-crop-images.md)
 
 [自定义图像焦点](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

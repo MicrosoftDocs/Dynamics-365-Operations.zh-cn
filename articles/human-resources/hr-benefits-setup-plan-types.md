@@ -63,3 +63,6 @@ Microsoft Dynamics 365 Human Resources 中的计划类型是特定福利类型�
    | **报告时间范围** | 指定生命事件的报告时间范围(以天为单位)。 **注意**：如果您不输入金额，系统将假定报告时间范围为零，不会处理生命事件。 |
 
 5. 选择 **保存**。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

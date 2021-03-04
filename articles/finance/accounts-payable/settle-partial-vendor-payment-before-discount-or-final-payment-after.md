@@ -122,3 +122,6 @@ April 在 7 月 15 日（现金折扣期间后）支付此发票的剩余金额�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

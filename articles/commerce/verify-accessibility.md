@@ -85,3 +85,6 @@ ms.locfileid: "4410612"
 [丰富产品页面](enrich-product-page.md)
 
 [丰富类别登陆页面](enrich-category-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ ms.locfileid: "4680088"
 [![网络打印的服务组件\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 请注意，可将一台打印机与多个文档路线选择代理关联。 为了解析打印机首选项，托管服务使用用于唯一标识每台网络打印机的网络路径。 因此，即使一台打印机被多个客户端注册，也会在应用程序中的打印机列表内显示为单项选择。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

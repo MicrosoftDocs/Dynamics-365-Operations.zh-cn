@@ -113,3 +113,6 @@ ms.locfileid: "4682085"
     * 选择“浏览”并选择 Response4.xml 文件。
 16. 选择确定。
     * 检查生成的输出。 响应类型现在已被正确识别为 Response1.xml 文件的同等项。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

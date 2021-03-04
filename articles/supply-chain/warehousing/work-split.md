@@ -155,3 +155,6 @@ ms.locfileid: "4423472"
 ## <a name="other-blocked-operations"></a>其他锁定操作
 
 任何修改工作行、工作库存交易或与正在拆分的工作相关的补货链接的操作都会失败，并显示以下错误消息：“ID 为 \#\#\#\# 的工作目前正在拆分。”
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

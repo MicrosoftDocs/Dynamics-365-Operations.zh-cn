@@ -62,3 +62,6 @@ POS 中的 **结束班次** 操作还会验证脱机数据库中的所有交易�
 将使用 P 作业把班次的财务对帐详细信息同步到 Commerce Headquarters。
 
 Commerce Headquarters 中的财务零售对帐单不会计算总计以在对帐单行中显示详细信息。 而是使用 POS 客户端中的最终金额创建和过帐财务零售对帐单。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

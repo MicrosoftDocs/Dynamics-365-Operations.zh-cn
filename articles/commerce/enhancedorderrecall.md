@@ -64,3 +64,6 @@ Commerce 销售点 (POS) 中的 **撤回订单** 操作提供更新的订单搜�
 - **编辑** – 允许用户更改所选的客户订单。
 
 - **提货** – 启动提货流程，使用户可以选择要提货的产品并创建提货销售交易。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

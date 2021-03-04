@@ -53,3 +53,6 @@ ms.locfileid: "4422906"
 
 > [!NOTE]
 > 如果在 **资产服务级别** 页中更改已用于工作订单的资产服务级别记录，则不会相应更改维护请求和工作订单的服务级别。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Supply Chain Management 提供称作“基于容量的装载计划策略”的�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

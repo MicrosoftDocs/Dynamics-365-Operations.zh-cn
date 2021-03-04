@@ -334,3 +334,6 @@ ms.locfileid: "4422781"
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>我是否可以使用实际的现有库存为负的牌照？
 
 该功能仅支持数量为正的实际现有库存。 在将牌照分配给转移单之前，请确保仓库和库存状态级别上的实际现有库存数量为正。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

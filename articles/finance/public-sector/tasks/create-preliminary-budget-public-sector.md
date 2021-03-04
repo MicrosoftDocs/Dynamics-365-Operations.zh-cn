@@ -53,3 +53,6 @@ ms.locfileid: "4440845"
 19. 单击“更新”。
     * 要查看更新的结果，请单击蓝色栏上的“详细消息”。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

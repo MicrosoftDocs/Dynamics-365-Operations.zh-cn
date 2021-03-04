@@ -58,3 +58,6 @@ ms.locfileid: "4422864"
 25. 在 **银行帐户** 字段中，选择您刚才创建的帐户。
 26. 单击 **保存**。 地址可以从银行组继承（如果已指定），也可以在此处添加。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

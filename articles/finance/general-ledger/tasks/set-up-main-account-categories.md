@@ -42,3 +42,6 @@ ms.locfileid: "4440679"
 3. 选择或取消选择 **已链接** 选项，以选择主科目。
 4. 选择 **确定**。
 5. 选择 **是**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

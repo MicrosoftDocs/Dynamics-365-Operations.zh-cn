@@ -128,3 +128,6 @@ ms.locfileid: "4410554"
 [向站点添加语言](add-languages-to-site.md)
 
 [将脚本代码添加到站点页面以支持遥测](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ ms.locfileid: "4460400"
 ### <a name="current-balance-report-in-leave-pbi-doubles-employee-balance-385581"></a>休假 PBI 中的当前余额报表将员工余额翻倍 (385581)
 
 此更改更正了属于这种情况的当前余额报表。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

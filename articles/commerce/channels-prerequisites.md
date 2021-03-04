@@ -86,3 +86,6 @@ ms.locfileid: "4410445"
 [设置零售渠道](channel-setup-retail.md)
     
 [设置在线渠道](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

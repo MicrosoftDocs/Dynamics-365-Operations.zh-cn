@@ -205,3 +205,6 @@ ms.locfileid: "4417498"
 在本教程中，您学习了如何使用逻辑应用从 Human Resources 导出数据并将导出的数据保存到 OneDrive for Business 文件夹。 您可以根据需要修改本教程的步骤以适合您的业务需求。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

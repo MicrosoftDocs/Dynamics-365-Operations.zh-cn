@@ -98,3 +98,6 @@ ms.locfileid: "4440813"
 > [!NOTE]
 > 配置只能由创建配置的配置提供程序删除。 如果配置已与另一个组织共享，在删除配置之前，需要取消共享配置。
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

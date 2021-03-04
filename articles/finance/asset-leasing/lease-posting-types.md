@@ -154,3 +154,6 @@ ms.locfileid: "4440963"
 
 > [!NOTE]
 > 将在执行成本付款计划的行中租赁级别选择对方科目。 此对方科目可以与供应商或分类帐科目关联。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

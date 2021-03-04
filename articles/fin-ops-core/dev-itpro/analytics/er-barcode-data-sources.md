@@ -303,3 +303,6 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 - [电子报告目标](electronic-reporting-destinations.md)
 - [电子申报公式语言](er-formula-language.md)
 - [NUMBERFORMAT 函数](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

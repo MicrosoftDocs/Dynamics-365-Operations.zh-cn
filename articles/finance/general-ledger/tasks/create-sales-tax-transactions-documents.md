@@ -60,3 +60,6 @@ ms.locfileid: "4440838"
 29. 单击“销售税”。
 30. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

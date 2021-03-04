@@ -40,3 +40,6 @@ ms.locfileid: "4423130"
 8. 清除“位置”复选框。
 9. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

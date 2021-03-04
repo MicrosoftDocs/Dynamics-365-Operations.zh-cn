@@ -123,3 +123,6 @@ ms.locfileid: "4681534"
 ## <a name="additional-resources"></a>其他资源
 
 [提货信息模块](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

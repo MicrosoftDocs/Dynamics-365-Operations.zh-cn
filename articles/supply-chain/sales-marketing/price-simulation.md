@@ -145,3 +145,6 @@ Supply Chain Management 中的贸易协议可能有四种类型的价格折扣�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

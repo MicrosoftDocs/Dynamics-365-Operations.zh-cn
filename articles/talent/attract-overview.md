@@ -49,3 +49,6 @@ Attract 提供预定义的招聘流程，包含四个基本阶段：申请、筛
 
 ## <a name="analytic-reports"></a>分析报告
 招聘团队可以借助 [Attract 中的分析报表](analytic-reports.md)对一个工作使用查看关键招聘流程指标，也可以对所有工作使用集成的此类指标。 此功能现在通过[哪个 Microsoft Dynamics 365 Talent - Attract 版本](attract-comprehensive-hiring.md)为客户提供[预览](access-preview-feature.md)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

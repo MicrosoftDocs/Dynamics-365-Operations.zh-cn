@@ -397,3 +397,6 @@ ms.locfileid: "4423396"
 1. 选择页面顶部的菜单按钮 (**≡**)，然后在菜单上选择 **取消** 返回菜单。
 
 您现在可以关闭移动应用了。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -125,3 +125,6 @@ ms.locfileid: "4682157"
 > [!NOTE]
 > 本地部署的应用程序（此时使用本地业务数据 (LBD) 或本地部署的部署模型）只能使用这种方法获取有关应用程序元数据的信息。
         
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

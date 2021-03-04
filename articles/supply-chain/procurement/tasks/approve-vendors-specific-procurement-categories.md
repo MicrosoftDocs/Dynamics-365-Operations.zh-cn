@@ -44,3 +44,6 @@ ms.locfileid: "4422943"
 13. 在 **从父类别继承供应商:** 字段中选择 **否**。
 14. 在 **从父类别继承供应商:** 字段中选择 **是**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

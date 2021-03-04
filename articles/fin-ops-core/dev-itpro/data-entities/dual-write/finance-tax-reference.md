@@ -37,3 +37,6 @@ ms.locfileid: "4684023"
 
 + [集成的分类帐](ledger-mapping.md)
 + [集成的税收主数据](tax-mapping.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

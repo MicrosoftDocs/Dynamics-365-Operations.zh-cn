@@ -47,3 +47,6 @@ ms.locfileid: "4682501"
 ## <a name="developer-documentation"></a>开发人员文档
 
 流程自动化框架允许开发人员扩展流程自动化框架。 [流程自动化框架](../process-automation/process-automation-framework.md)文档介绍如何创建通过流程自动化向导计划的批处理服务器需要运行的自定义流程，以及如何在日历视图中自动显示。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

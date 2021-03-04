@@ -50,3 +50,6 @@ ms.locfileid: "4686171"
 [电子报告中的配方设计器](general-electronic-reporting-formula-designer.md)
 
 [电子申报公式语言](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

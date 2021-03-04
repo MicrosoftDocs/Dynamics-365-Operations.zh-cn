@@ -146,3 +146,6 @@ Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案�
 
 > [!NOTE]
 > Retail Modern POS 和 Cloud POS 中的帮助不会根据您所处的窗体或正在执行的操作提供任务指南。 您必须输入在搜索框中键入流程名称，然后单击 **搜索**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ ms.locfileid: "4440778"
 10. 单击“装箱单”。
 11. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

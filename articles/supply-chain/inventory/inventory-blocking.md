@@ -70,3 +70,6 @@ ms.locfileid: "4423068"
 [质量管理流程](quality-management-processes.md)
 
 [检查货物的质量](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -376,3 +376,6 @@ ms.locfileid: "4687419"
 
 - [电子申报概览](general-electronic-reporting.md)
 - [通过添加参数化的计算字段数据源提高 ER 解决方案的性能](er-calculated-field-ds-performance.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

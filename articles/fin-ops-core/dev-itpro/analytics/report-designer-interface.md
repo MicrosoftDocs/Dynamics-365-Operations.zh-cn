@@ -227,3 +227,6 @@ ms.locfileid: "4687446"
 [财务报告](financial-reporting-intro.md)
 
 [生成财务报表](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

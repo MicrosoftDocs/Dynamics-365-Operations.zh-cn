@@ -63,3 +63,6 @@ INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryuni
 ### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a>具有库存单位的 Field Service 产品（Supply Chain Management 到 Field Service）：产品
 
 [![数据集成中的模板映射](./media/FSProduct1.png)](./media/FSProduct1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

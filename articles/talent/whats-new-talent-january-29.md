@@ -41,3 +41,6 @@ ms.locfileid: "4690044"
 
 ### <a name="worker-hire-actions-are-stuck-in-workflow-complete-state"></a>工作人员雇用操作卡在“工作流已完成”状态
 已进行更改来更正少数工作流的完成状态为“工作流已完成”的问题。 新工作流现在在工作流完成时应移到“已完成”状态。 工作流已完成状态的所有工作流都将转入错误状态以允许在需要时更新或删除。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

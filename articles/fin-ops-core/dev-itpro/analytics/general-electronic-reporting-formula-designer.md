@@ -164,3 +164,6 @@ ER 配方设计器还可用于生成文件名来生成电子单据和控制文�
 
 - [电子申报概览](general-electronic-reporting.md)
 - [电子申报公式语言](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

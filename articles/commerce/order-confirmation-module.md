@@ -87,3 +87,6 @@ ms.locfileid: "4410649"
 [提货信息模块](pickup-info-module.md)
 
 [礼品卡模块](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ ms.locfileid: "4440596"
 - 发票行的 **自动化收货匹配状态** 值为 **失败**。
 - 发票正在使用中。
 - 发票在工作流系统中。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

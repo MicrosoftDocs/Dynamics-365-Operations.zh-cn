@@ -173,3 +173,6 @@ ms.locfileid: "4672436"
 ## <a name="additional-resources"></a>其他资源
 - [查看财务报表](view-financial-reports.md)
 - [财务报表中的报告结构树定义](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

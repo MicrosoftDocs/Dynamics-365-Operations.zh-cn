@@ -48,3 +48,6 @@ ms.locfileid: "4440766"
     * 在转移固定资产帐簿之前查看结果。  
 10. 单击 **转移**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

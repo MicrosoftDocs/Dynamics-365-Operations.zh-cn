@@ -183,3 +183,6 @@ ms.locfileid: "4692884"
 1. 在工作流编辑器中，双击审核流程。 工作流编辑器显示审核流程的步骤。
 2. 要添加审核步骤，请将步骤从 **工作流元素** 区域拖到画布。
 3. 要配置审核步骤，请参阅[配置工作流中的审核步骤](configure-approval-step-workflow.md)。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

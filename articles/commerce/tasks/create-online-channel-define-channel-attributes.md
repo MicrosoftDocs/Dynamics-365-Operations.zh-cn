@@ -67,3 +67,6 @@ ms.locfileid: "4410539"
 3. 运行 1070 配送计划将更改同步到渠道数据库。 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

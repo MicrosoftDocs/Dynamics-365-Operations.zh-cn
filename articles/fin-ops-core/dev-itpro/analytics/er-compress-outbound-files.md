@@ -94,3 +94,6 @@ ms.locfileid: "4680846"
 [电子报告 (ER) 目标](electronic-reporting-destinations.md)
 
 [推迟执行电子报告格式的 XML 元素](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

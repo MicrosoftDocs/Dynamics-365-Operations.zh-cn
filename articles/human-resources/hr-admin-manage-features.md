@@ -94,3 +94,5 @@ ms.locfileid: "4417497"
 
 - [Human Resources 中的新增功能](hr-admin-whats-new.md)
 - [Dynamics 365 和 Power Platform 版本计划](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

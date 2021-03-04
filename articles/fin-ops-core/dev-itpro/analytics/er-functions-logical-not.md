@@ -55,3 +55,6 @@ NOT (condition)
 ## <a name="additional-resources"></a>其他资源
 
 [逻辑函数](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ ms.locfileid: "4684707"
 8. 在树中，展开“内部统计模型”。
 9. 在树中，选择“内部统计模型\内部统计 (DE)”。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

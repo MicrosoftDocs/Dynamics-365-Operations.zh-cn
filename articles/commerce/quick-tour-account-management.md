@@ -96,3 +96,6 @@ ms.locfileid: "4410594"
 
 [购物车和结账页面概览](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

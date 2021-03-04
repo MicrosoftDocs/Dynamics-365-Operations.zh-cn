@@ -49,3 +49,6 @@ ms.locfileid: "4422728"
 7. 单击“完成”。
     * 现在该看板作业正在使用另一种看板规则。 此适用于水平负荷工作单元。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

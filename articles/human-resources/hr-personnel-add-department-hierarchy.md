@@ -54,3 +54,6 @@ ms.locfileid: "4417391"
 
 ## <a name="steps-for-creating-a-department"></a>部门创建步骤
 请参阅[定义新部门](../fin-and-ops/hr/tasks/define-new-departments.md)一文了解创建新部门的分步过程。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Dynamics 365 Commerce 和 Commerce Scale Unit 完全是服务型软件 (SaaS)，
 [在 Dynamics 365 Commerce 评估环境中配置 BOPIS](cpe-bopis.md)
 
 [为 Dynamics 365 Commerce 评估环境配置可选功能](cpe-optional-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ ms.locfileid: "5003272"
 接下来，打开 **所有客户** 页面（**应收账款 \> 客户 \> 所有客户**），选择客户 **US\_SI\_0003**，然后选择 **交易**。 **客户交易** 页面仅显示了原始账单 (000008) 以及原始会计条目。 由于 **总帐参数** 页面上的 **将账单更正过帐到应收帐款** 选项设置为 **否**，因此仅更新了总帐。 所以，未显示冲销和更新的会计条目。 请注意，显示了在[方案 3](rev-rec-reallocation-scenario-3.md)中创建的收入调整交易记录。
 
 [![客户交易页面上的原始会计条目](./media/47_rev-rec-scenarios.png)](./media/47_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

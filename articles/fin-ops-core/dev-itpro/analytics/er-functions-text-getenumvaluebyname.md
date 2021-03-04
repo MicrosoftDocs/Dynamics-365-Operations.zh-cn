@@ -117,3 +117,6 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 [FIRSTORNULL ER 函数](er-functions-list-firstornull.md)
 
 [WHERE ER 函数](er-functions-list-where.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

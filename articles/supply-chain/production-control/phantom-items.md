@@ -73,3 +73,6 @@ ms.locfileid: "4423182"
 在下图中，(a) 是产品 G 和部件 F 的物料清单，而 (b) 则是产品 G 和部件 F 的工艺路线单。
 
 ![带工艺路线单的产品 G 和部件 F](media/product-G-part-F-with-route-sheet.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

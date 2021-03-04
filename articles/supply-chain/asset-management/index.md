@@ -38,3 +38,6 @@ ms.locfileid: "4422888"
 ![有关资产管理如何集成的概述](media/overview-integrate2.jpg)
 
 可通过资产管理高效管理和执行与管理和处理公司中的多种设备（如机器、生产设备和汽车）有关的任务。 资产管理支持多个行业的解决方案。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

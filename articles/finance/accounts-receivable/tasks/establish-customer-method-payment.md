@@ -46,3 +46,6 @@ ms.locfileid: "4440746"
 15. 使用 **付款属性** 选项卡以定义您想针对此付款方式使用哪种付款属性。
 16. 选择 **保存**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -190,3 +190,6 @@ ms.locfileid: "4527877"
 
 [配置 Common Data Service 虚拟实体](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [什么是 Common Data Service？](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

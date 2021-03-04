@@ -101,3 +101,6 @@ ms.locfileid: "4409748"
 8. 在“打印布局代码”字段中，选择一个选项。
 9. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

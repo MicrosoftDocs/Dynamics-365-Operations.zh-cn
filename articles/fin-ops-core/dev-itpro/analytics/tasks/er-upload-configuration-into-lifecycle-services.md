@@ -145,3 +145,6 @@ ms.locfileid: "4684155"
     应该会列出您上载的 ER 配置。
 
     请注意，如果提供程序有权访问此 LCS 项目，上载的 LCS 配置可以导入到其他实例中。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

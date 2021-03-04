@@ -79,3 +79,6 @@ ms.locfileid: "4422705"
 3. 展开“星期日”部分。
 4. 在“停止装货”字段中选择“是”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

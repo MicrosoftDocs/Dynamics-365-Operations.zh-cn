@@ -163,3 +163,5 @@ ms.locfileid: "4417468"
 ### <a name="review-types"></a>审核类型
 
 绩效审核类型可帮助您控制审核的行为。 您可以启用或禁用审核的工作流。 如果审核不使用工作流，您可以定义将在创建审核时使用的默认状态。 您还可以确定是否需要员工和/或经理才能签核审核。
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

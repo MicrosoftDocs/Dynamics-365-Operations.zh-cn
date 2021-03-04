@@ -77,3 +77,6 @@ ms.locfileid: "4440937"
 | 催款单         | <ul><li>收款代码金额</li><li>收款代码金额明细</li><li>催款单金额（按公司）</li><li>催款单金额（按客户组）</li><li>催款单金额（按地区）</li></ul> |
 
 所有这些报表中的图表和磁贴均可以筛选和并固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/)。 您还可以使用导出基础数据功能导出在可视化中汇总的基础数据。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

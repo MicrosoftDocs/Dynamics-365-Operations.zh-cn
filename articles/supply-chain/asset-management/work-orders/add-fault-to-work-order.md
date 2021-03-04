@@ -80,3 +80,6 @@ ms.locfileid: "4423027"
 >[!NOTE]
 >要打印多个资产或资产类型的故障报告，请选择 **资产管理** > **报告** > **资产** > **资产故障**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

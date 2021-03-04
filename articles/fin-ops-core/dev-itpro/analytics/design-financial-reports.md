@@ -197,3 +197,6 @@ ms.locfileid: "4686237"
 [查看财务报表](../../../finance/general-ledger/view-financial-reports.md)
 
 [Dynamics 365 Finance 博客](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

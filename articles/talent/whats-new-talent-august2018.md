@@ -85,3 +85,6 @@ ms.locfileid: "4690092"
 ## <a name="other-fixes"></a>其他修复
 
 此发行版中还包含一些缺陷修复，增加了新实体，修复了现有实体，并本地化了标签更改。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

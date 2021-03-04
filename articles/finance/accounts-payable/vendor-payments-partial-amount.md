@@ -54,3 +54,6 @@ ms.locfileid: "4440588"
 
 
 有关详细信息，请参阅[供应商付款概览](../cash-bank-management/tasks/vendor-payment-overview.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

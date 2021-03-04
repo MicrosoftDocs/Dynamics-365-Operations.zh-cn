@@ -58,3 +58,6 @@ ms.locfileid: "4423285"
 下图显示基于客户的功能位置的示例。
 
 ![显示基于客户的功能位置的图](media/04-overview-image.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

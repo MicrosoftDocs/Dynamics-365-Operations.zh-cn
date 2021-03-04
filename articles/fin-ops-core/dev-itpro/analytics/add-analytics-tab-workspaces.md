@@ -175,3 +175,6 @@ public static void initializeReportControl(
 | showFilterPane   | 指示是否应显示 (**true**) 或隐藏 (**false**) 筛选器窗格的布尔值。     |
 | showNavPane      | 指示是否应显示 (**true**) 或隐藏 (**false**) 导航窗格的布尔值。 |
 | defaultFilters   | Power BI 报表的默认筛选器。                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

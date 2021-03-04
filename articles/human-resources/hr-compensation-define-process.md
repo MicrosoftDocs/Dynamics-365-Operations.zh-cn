@@ -100,3 +100,6 @@ ms.locfileid: "4417485"
 10. 单击“核准”。
     * 核准完该记录后，将其加载到员工的正式薪酬记录中。 新的薪酬将在薪酬流程设置的交易记录日期内均有效。  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

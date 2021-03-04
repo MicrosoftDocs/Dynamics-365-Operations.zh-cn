@@ -410,3 +410,6 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 - 如果定义多个包括 *所有* 关系的工艺路线工艺关系并向其分配指南，则仅为该作业显示最具体关系中的指南。  
 
 ![解析相关指南的图表](media/instruction-guides-Resolve.png "解析相关指南的图表")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

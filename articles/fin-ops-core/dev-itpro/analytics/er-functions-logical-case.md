@@ -83,3 +83,6 @@ CASE (expression, option 1, result 1[, option 2, result 2, …, option N, result
 ## <a name="additional-resources"></a>其他资源
 
 [逻辑函数](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

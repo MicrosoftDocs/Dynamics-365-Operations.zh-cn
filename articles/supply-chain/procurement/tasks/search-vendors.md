@@ -39,3 +39,6 @@ ms.locfileid: "4423425"
 6. 在“国家/地区”字段中，键入一个值。
 7. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

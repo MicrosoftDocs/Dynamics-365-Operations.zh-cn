@@ -85,3 +85,6 @@ ms.locfileid: "4460498"
 
 - 同事使用的是试用版或带综合招聘加载项的 Attract 许可证，而您使用的是 Attract 基本版。
 - 您的 Attract 带有综合招聘加载项，但是没有为您分配可使用所有功能的正确角色。 有关详细信息，请参阅 [Attract 中的安全和角色管理](security-attract.md)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

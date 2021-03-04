@@ -37,3 +37,6 @@ ms.locfileid: "4410631"
 4. 在“销售代表的提示”字段中，选择一个选项。
 5. 在“需要销售代表”字段中选择“是”。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

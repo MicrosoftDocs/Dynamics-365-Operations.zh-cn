@@ -77,3 +77,6 @@ ms.locfileid: "4440722"
 [销售订单的信用保留](./cm-sales-order-credit-holds.md)
 
 [客户信用管理定期任务](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

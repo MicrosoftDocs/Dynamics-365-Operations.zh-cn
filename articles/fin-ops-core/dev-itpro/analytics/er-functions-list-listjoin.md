@@ -83,3 +83,6 @@ LIST (list 1 [, list 2, …, list N])
 [列表函数](er-functions-category-list.md)
 
 [调试已执行 ER 格式的数据源以分析数据流和转换](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

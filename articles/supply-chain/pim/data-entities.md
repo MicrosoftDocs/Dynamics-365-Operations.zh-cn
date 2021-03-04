@@ -50,3 +50,6 @@ ms.locfileid: "4423469"
 
 > [!NOTE]
 > 仅当已创建共享产品时，您才能使用 **已发布产品 V2** 数据实体将产品导入系统。 否则，要将产品导入系统，必须使用 **产品创建** 数据实体。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

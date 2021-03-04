@@ -77,3 +77,6 @@ iframe 模块需要目标 URL。 然后，它将目标页面的内容托管在 H
 [模块库概述](starter-kit-overview.md)
 
 [管理内容安全策略 (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

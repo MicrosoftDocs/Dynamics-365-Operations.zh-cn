@@ -72,3 +72,6 @@ ms.locfileid: "4410600"
 
 > [!NOTE]
 > 将 **禁止所有折扣** 配置设置为 **是** 时，不会对产品应用任何折扣。 甚至是基于支付方式的折扣。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
