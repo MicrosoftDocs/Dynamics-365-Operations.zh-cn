@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e70f2e6b3694002a11a831ac14039ccbee273a51
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458537"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115912"
 ---
 # <a name="recognize-deferred-revenue"></a>确认延期收入
 
@@ -37,9 +36,9 @@ ms.locfileid: "4458537"
 有两种方法可以访问收入确认计划的详细信息。
 
 - 您可以直接从已开票的销售订单打开收入确认计划。 在此情况下，将会对收入计划中的信息进行筛选以仅显示选定销售订单的详细信息。 在验证销售订单的计划详细信息时，此方法很有用。
-- 您可以从 **收入确认 \> 定期任务** 页面打开收入确认计划。 在期末确认收入时，通常使用此方法。 首次打开页面时，不会显示任何信息。 请使用网格上面的筛选器，为应显示的计划详细信息定义条件。 您可以通过在发票日期中输入日期范围、销售订单、客户、项目 ID 或状态来进行筛选。
+- 您可以从 **收入确认 \> 定期任务** 页面打开收入确认计划。 在期末确认收入时，通常使用此方法。 首次打开页面时，不会显示任何信息。 请使用网格上面的筛选器，为应显示的计划详细信息定义条件。 您可以通过在账单日期中输入日期范围、销售订单、客户、项目 ID 或状态来进行筛选。
 
-[![收入计划页面](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+[![收入计划页面插图](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
 
 网格下面的 **财务维度** 快速选项卡显示销售订单行的财务维度。 过帐到延期收入期间会考虑这些维度。 确认收入时也会考虑这些维度。 使用的维度值取决于分配给收入和延期收入主科目的科目结构。
 

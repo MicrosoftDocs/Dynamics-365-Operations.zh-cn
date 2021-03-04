@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: rhaertle
 ms.custom: 62303
 ms.search.region: Global
-ms.author: margoc
+ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 413bdd2e7a817185829eb551380caf71d87af9b7
+ms.sourcegitcommit: 36d256bf5a832d2d70014d64044026f732b77831
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694377"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "5073099"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Finance and Operations 应用程序文档
 

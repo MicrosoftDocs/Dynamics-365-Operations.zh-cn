@@ -3,14 +3,13 @@ title: 分配的订单管理 (DOM)
 description: 本主题将介绍 Dynamics 365 Commerce 中的“分配的订单管理 (DOM)”功能。
 author: josaw1
 manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 01/08/2021
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a83bd6e997110d107bac836abf237f99db78d99
-ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
+ms.openlocfilehash: 367eaebfdd59d15040bfd4824b0b6f4621cb7147
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4458560"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982583"
 ---
 # <a name="distributed-order-management-dom"></a>分配的订单管理 (DOM)
 
@@ -49,8 +48,12 @@ DOM 可跨复杂的系统网络和流程优化订单履行。 它依赖整个组
     - **启用分配的订单管理** - 将此选项设置为 **是**。
     - **确认 DOM 的必应地图使用情况** - 将此选项设置为 **是**。
 
+
         > [!NOTE]
-        > 仅当 **Commerce 共享参数** 页面（**Retail 和 Commerce \> Headquarters 设置 \> 参数 \> Commerce 共享参数**）的 **必应地图** 选项卡上的 **启用必应地图** 选项也设置为 **是**，并且在 **必应地图键** 字段中输入了有效的键时，才可以将此选项设置为 **是**。
+        > 仅当 **Commerce 共享参数** 页面（**Retail 和 Commerce \> Headquarters 设置 \> 参数 \> Commerce 共享参数**）的 **必应地图** 选项卡上的 **启用必应地图** 选项也设置为 **是**，并且在 **必应地图密钥** 字段中输入了有效的密钥时，才可以将此选项设置为 **是**。
+        >
+        > 通过[必应地图开发中心](https://www.bingmapsportal.com/)门户，可以将对必应地图 API 密钥的访问限制为您指定的一组域。 利用此功能，客户可以定义一组严格的引荐者值或 IP 地址范围，以便据其对密钥进行验证。 源自允许清单的请求将正常处理，而源自该清单外部的请求将返回“访问被拒绝”响应。 可选择为您的 API 密钥添加域安全设置，保留原样的密钥将继续起作用。 密钥的允许清单独立于所有其他密钥，允许您为每个密钥制定不同的规则。 分配的订单管理不支持设置域引用的属性。
+
 
     - **保留期(天)** - 指定 DOM 运行生成的履行计划要在系统中保留多长时间。 **DOM 履行数据删除作业设置** 批处理作业将删除在此处指定的天数之前生成的任何履行计划。
     - **拒绝期(天)** - 指定必须在多长时间之后才可以将被拒绝的订单行分配到相同位置。
@@ -62,14 +65,15 @@ DOM 可跨复杂的系统网络和流程优化订单履行。 它依赖整个组
     - **求解器类型** - 选择一个值。 随 Commerce 发布了两种求解器类型：**生产求解器** 和 **简化求解器**。 对于要运行 DOM 的所有机器（即，属于 DOMBatch 组的所有服务器），必须选择 **生产求解器**。 生产求解器要求默认情况下在生产环境中许可和部署的特殊许可证密钥。 对于非生产环境，必须手动部署此许可证密钥。 要手动部署许可证密钥，请按照以下步骤操作：
 
         1. 在 Microsoft Dynamics Lifecycle Services 中，打开共用资产库，选择 **模型** 作为资产类型，并下载 **DOM 许可证** 文件。
-        2. 启动 Microsoft Internet 信息服务 (IIS) 管理器，右键单击 **AOSService 网站**，然后选择 **浏览**。 随后，**\<AOS service root\>\\webroot** 下将打开一个 Windows 资源管理器窗口。 记下 \<AOS Service root\> 路径，因为在下一步中会用到。
-        3. 复制 **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin** 目录中的配置文件。
-        4. 转到 Headquarters 客户端，然后打开 **DOM 参数** 页面。 在 **求解器** 选项卡上的 **求解器类型** 字段中，选择 **生产求解器**，并确认未显示错误消息。
+        1. 启动 Microsoft Internet 信息服务 (IIS) 管理器，右键单击 **AOSService 网站**，然后选择 **浏览**。 随后，**\<AOS service root\>\\webroot** 下将打开一个 Windows 资源管理器窗口。 记下 \<AOS Service root\> 路径，因为在下一步中会用到。
+        1. 复制 **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin** 目录中的配置文件。
+        1. 转到 Headquarters 客户端，然后打开 **DOM 参数** 页面。 在 **求解器** 选项卡上的 **求解器类型** 字段中，选择 **生产求解器**，并确认未显示错误消息。
+
 
         > [!NOTE]
         > 提供了简化求解器，这样零售商无需部署特殊许可证即可试用 DOM 功能。 组织不应在生产环境中使用简化求解器。
         >
-        > 尽管简化求解器与生产求解器提供相同的功能集，但在性能（一次运行中可以处理的订单和订单行数）和结果汇聚（在某些情况下，一批订单可能不会产生最佳结果）方面存在限制。
+        > 生产求解器可提高性能（例如一次运行中可以处理的订单和订单行数）和结果汇聚（因为在某些情况下，一批订单可能不会产生最佳结果）。 某些规则（例如 **部分订单** 规则和 **最大位置数** 规则）需要生产求解器。
      
 6. 返回 **Retail 和 Commerce \> 分配的订单管理 \> 设置 \> DOM 参数**。
 7. 在 **编号规则** 选项卡上，为各个 DOM 实体分配所需的编号规则。
@@ -121,7 +125,7 @@ DOM 可跨复杂的系统网络和流程优化订单履行。 它依赖整个组
         \* 如果 **履行部分订单** 设置为 **否**，**履行部分行** 将始终视为设置为 **否**，而不管实际是如何设置的。
 
         > [!NOTE]
-        > 在 Retail 版本 10.0.5 中，参数 **仅从一个位置履行订单** 已更改为 **最大履行位置数**。 此前，用户可选择配置为仅从一个位置履行订单或者从尽可能多的位置履行订单；现在，用户可以指定是从确定的一组位置（最多 5 个）还是从尽可能多的位置履行订单。 这为可以从多少个位置履行订单提供了更大的灵活性。
+        > 在 Retail 版本 10.0.5 中，参数 **仅从一个位置履行订单** 已更改为 **最大履行位置数**。 此前，用户可选择配置为仅从一个位置履行订单或者从尽可能多的位置履行订单；现在，用户可以指定是从确定的一组位置（最多 5 个）还是从尽可能多的位置履行订单。 这为可以从多少个位置履行订单提供了更大的灵活性。 此规则仅适用于生产求解器。 
 
    - **脱机履行库位规则** - 此规则允许组织将一个位置或一组位置指定为对 DOM 脱机或不可用，这样就无法将订单分配到这些位置进行履行。
     - **最大拒绝次数规则** - 此规则允许组织定义拒绝次数阈值。 当达到阈值时，DOM 处理器会将订单或订单行标记为异常，并将其从进一步处理中排除。

@@ -1,6 +1,6 @@
 ---
 title: 公共部门主页
-description: Microsoft Dynamics 365 Finance 启用在公共部门和民营企业中通用的业务流程，例如预算编制、采购、应付帐款和应收帐款任务。
+description: Dynamics 365 Finance 支持常见的公共部门业务流程。 这些流程包括预算、采购、应付帐款和应收帐款任务。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 20691
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4a3722cf286909c83b5154137c86508929a2691
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 23dbc61d72775c8ea642b0ec4026637e1f8958e1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458508"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984676"
 ---
 # <a name="public-sector-home-page"></a>公共部门主页
 
@@ -60,9 +59,8 @@ ms.locfileid: "4458508"
 ## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a>公共部门 Configuration Key 与其他 Configuration Key 有何关联？
 下表提供了此 Configuration Key 与其他 Configuration Key 有何关联的信息。
 
-|            |                                                                                                                                                                                                                     |
+|   **详细信息**         |              **说明**                                                                                                                                                                                        |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **详细信息** | **说明**                                                                                                                                                                                                     |
 | 父参数 | 无                                                                                                                                                                                                                |
 | 子参数 | **高级分类帐条目** Configuration Key (AdvancedLedgerEntry) **公共部门 1099G** Configuration Key (Tax1099G) **公共部门 1099S** Configuration Key (Tax1099S) **法国监管** Configuration Key |
 

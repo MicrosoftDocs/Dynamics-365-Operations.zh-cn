@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BankChequeTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 47d54524f87cf718b9b41462b5133df267d5dd9e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aa1c4c33b977c0173da98aee409389b9242980fb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458554"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976435"
 ---
 # <a name="create-checks-that-have-blank-status"></a>创建具有空白状态的支票
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ed89c0c9cb915af0d5a70d14d1f0e251f20554d7
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685045"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154111"
 ---
 # <a name="globalization-resources"></a>全球化资源
 
@@ -55,7 +55,7 @@ Finance and Operations 应用包含适用于[产品本地化和翻译可用性�
 
 #### <a name="regulatory-updates"></a>监管更新
 -   [监管更新](../../../finance/localizations/regulatory-updates.md)
--   [本地化门户](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC)（每周更新）
+-   [本地化门户](https://docs.microsoft.com/dynamics/s-e/)（每周更新）
 -   [Lifecycle Services (LCS) 中的问题搜索](../lifecycle-services/issue-search-lcs.md)（每日更新）
 
 #### <a name="communication-and-alerts"></a>通信和预警

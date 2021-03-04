@@ -72,12 +72,12 @@
                   items:
                     - name: “Supply Chain Management 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.17（2021 年 4 月）
+                      href: get-started/whats-new-scm-10-0-17.md
                     - name: Supply Chain Management 10.0.16（2021 年 2 月）
                       href: get-started/whats-new-scm-10-0-16.md
                     - name: Supply Chain Management 10.0.15（2021 年 1 月）
                       href: get-started/whats-new-scm-10-0-15.md
-                    - name: Supply Chain Management 10.0.14（2020 年 11 月）
-                      href: get-started/whats-new-scm-10-0-14.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
@@ -154,6 +154,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 已保存的视图
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Supply Chain Management 的标准保存视图
+                  href: get-started/saved-views-scm.md
                 - name: 网格功能
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 创建并使用自定义字段
@@ -174,8 +176,8 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Finance and Operations 应用的体系结构
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
                 - name: 加入实施项目
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 环境计划
@@ -224,6 +226,8 @@
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: 云和边缘缩放单元的仓库管理工作负载
               href: cloud-edge/cloud-edge-workload-warehousing.md
+            - name: 云和边缘缩放单元的仓库订单
+              href: cloud-edge/cloud-edge-warehouse-order.md
         - name: 资产管理
           items:
             - name: 资产管理概览
@@ -363,6 +367,8 @@
               items:
                 - name: 预测、工作订单和项目
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+                - name: 客户拥有资产的维护清单
+                  href: asset-management/integration-to-project-management-and-accounting/customer-billing.md
             - name: 将资产管理与固定资产进行集成
               href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: 预防性和反应性维护
@@ -439,10 +445,14 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: 维护状态
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: 通过移动应用进行资产管理
+              items:
+                - name: 设置资产管理移动工作区
+                  href: asset-management/set-up-asset-management-mobile.md
+                - name: 使用资产管理移动工作区
+                  href: asset-management/asset-management-mobile-workspace.md
             - name: 将资产管理与 Dynamics 365 Guides 进行集成
               href: asset-management/asset-management-guides-integration.md
-            - name: 资产管理移动工作区
-              href: asset-management/asset-management-mobile-workspace.md
         - name: 数据管理
           items:
             - name: 目标实体
@@ -785,9 +795,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 高级配方设计器
                   href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 配方语言和函数
+            - name: 公式语言和函数
               items:
-                - name: 配方语言
+                - name: 公式语言
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 函数
                   items:
@@ -1319,6 +1329,8 @@
                   href: sales-marketing/register-serial-numbers-sales-process.md
                 - name: 现有库存量移动工作区
                   href: inventory/inventory-on-hand-mobile-workspace.md
+                - name: 库存操作故障排除
+                  href: inventory/troubleshoot-inventory-operations.md
             - name: 出库流程
               items:
                 - name: 出库流程概览
@@ -1377,12 +1389,18 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: 安全宽限期
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: 采购申请
+                  href: master-planning/planning-optimization/purchase-requisitions.md
+                - name: 生产规划
+                  href: master-planning/planning-optimization/production-planning.md
                 - name: 通过计划优化进行库存标记
                   href: master-planning/planning-optimization/marking.md
                 - name: 内部公司计划
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: 排除具有某些产品生命周期状态的产品
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: 覆盖时限
+                  href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: 审核计划订单
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: 通过计划优化自动确认
@@ -1909,6 +1927,8 @@
                   href: production-control/bom-designer-functionality.md
                 - name: 使用配方设计器
                   href: production-control/formula-designer.md
+                - name: 覆盖生产中物料的默认预留原则
+                  href: production-control/override-default-reservation-principle.md
                 - name: 使用可变权重将变型产品添加到采购订单
                   href: pim/tasks/add-variant-products-purchase-order-variant-weights.md
                 - name: 创建可配置产品的销售订单
@@ -2027,6 +2047,8 @@
                       href: production-control/bill-of-material-bom.md
                     - name: 物料清单设计器功能
                       href: production-control/bom-designer-functionality.md
+                    - name: 覆盖生产中物料的默认预留原则
+                      href: production-control/override-default-reservation-principle.md
                     - name: 虚拟物料
                       href: production-control/phantom-items.md
                     - name: 物料清单计算
@@ -2757,6 +2779,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: 系统导向的群集领料
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: 设置不同的包装和存储尺寸
+                      href: warehousing/packing-vs-storage-dimensions.md
                     - name: 设置集装化
                       href: warehousing/tasks/set-up-containerization.md
                     - name: 批次和牌照确认
@@ -2823,6 +2847,8 @@
                       href: warehousing/wave-template-grouping.md
                     - name: 重新打印波次标签并使之无效
                       href: warehousing/reprint-and-void-wave-labels.md
+                    - name: 小型包裹装运
+                      href: warehousing/small-parcel-shipping.md
                     - name: 装载计划和装运疑难解答
                       href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: 装运合并政策
@@ -2915,12 +2941,16 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: 使用库位指令
                       href: warehousing/create-location-directive.md
+                    - name: 为仓库交易记录配置产品筛选器
+                      href: warehousing/filters-and-filter-codes.md
                     - name: 库位库存限制
                       href: warehousing/location-stocking-limits.md
                     - name: 波次步骤代码
                       href: warehousing/wave-step-codes.md
                     - name: 配置波次处理
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: 波次期间安排工作创建
+                      href: warehousing/configure-wave-schedule-work-creation.md
                     - name: 设置和使用波次标签打印
                       href: warehousing/configure-wave-label-printing.md
                     - name: 自动更新装运
@@ -2955,6 +2985,8 @@
                       href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: 安装和配置仓库应用
                   items:
+                    - name: 安装和连接仓库管理移动应用
+                      href: warehousing/install-configure-warehouse-management-app.md
                     - name: 安装和连接仓库应用
                       href: warehousing/install-configure-warehousing-app.md
                     - name: 在仓库应用中使用摄像头扫描条码

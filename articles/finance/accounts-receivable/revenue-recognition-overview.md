@@ -11,26 +11,27 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 92af567499c1a8a23cd4d51e5bab48eaab2d8422
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: a7e37a0800ec7909f79e5a2354f59c7450995641
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4458562"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995606"
 ---
 # <a name="revenue-recognition-overview"></a>收入确认概览
 
 [!include [banner](../includes/banner.md)]
 
+如果公司销售多种元素，例如产品、服务、订阅等，则必须能够分解多元素订单，以便根据一组特定于公司和行业的准则来确认收入。
+
 > [!NOTE]
 > 收入确认功能不能通过功能管理来启用。 目前，您必须使用 Configuration Key 启用该功能。
 
-如果公司销售多种元素，例如产品、服务、订阅等，则必须能够分解多元素订单，以便根据一组特定于公司和行业的准则来确认收入。
+> 不支持在 Commerce 渠道（电子商务、POS、呼叫中心）中使用收入确认，包括捆绑功能。 配置了收入确认的项目不应添加到在 Commerce 渠道中创建的订单或交易记录中。
 
 一般来说，收入确认流程可用于执行以下任务：
 

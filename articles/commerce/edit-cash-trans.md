@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 15d23bfd591558e7330a273065429256c2e17d64
-ms.sourcegitcommit: ce51ff2b6099c75dceb99de6dea9d53baf99772d
+ms.openlocfilehash: c809f379dbd6824542d0b1768cfbf44f37461f4c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "4458569"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010191"
 ---
 # <a name="edit-and-audit-cash-and-carry-and-cash-management-transactions"></a>编辑并审计现金和结转及现金管理交易记录
 

@@ -14,12 +14,12 @@
               items:
                 - name: “平台更新的新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: 针对 10.0.17 的平台更新（2021 年 4 月）
+                  href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: 针对 10.0.16 的平台更新（2021 年 2 月）
                   href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: 针对 10.0.15 的平台更新（2021 年 1 月）
                   href: get-started/whats-new-platform-updates-10-0-15.md
-                - name: 针对 10.0.14 的平台更新（2020 年 11 月）
-                  href: get-started/whats-new-platform-updates-10-0-14.md
             - name: 已删除或弃用的功能
               items:
                 - name: 已删除或弃用的平台功能
@@ -122,9 +122,9 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: 使用记录模板创建记录
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: 使用 Common Data Service 的数据集成
+                - name: 使用 Dataverse 的数据集成
                   items:
-                    - name: 使用 Common Data Service 的数据集成概览
+                    - name: 使用 Dataverse 的数据集成概览
                       href: data-entities/data-integration-cds.md
                     - name: 双写入集成
                       items:
@@ -192,11 +192,11 @@
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
                             - name: 公司集成
                               items:
-                                - name: Common Data Services 中的公司概念
+                                - name: Dataverse 中的公司概念
                                   href: data-entities/dual-write/company-data.md
-                                - name: 使用公司数据启动
+                                - name: 初始化公司数据
                                   href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Common Data Service 中的组织层次结构
+                            - name: Dataverse 中的组织层次结构
                               href: data-entities/dual-write/organization-mapping.md
                             - name: 财税数据
                               items:
@@ -206,10 +206,12 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: 集成的税收主数据
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: 现金的目标客户（采用双写入）
-                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: 按需与 Dynamics 365 Supply Chain Management 定价引擎同步
+                            - name: 集成 Supply Chain Management 与 Field Service 中的采购
+                              href: data-entities/dual-write/scm-field-service-procurement.md
+                            - name: 按需与 Supply Chain Management 定价引擎同步
                               href: data-entities/dual-write/pricing-engine.md
+                            - name: 目标客户到现金（采用双重写入）
+                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
                             - name: 将 Dynamics 365 Commerce 定价引擎与 Dynamics 365 Sales 结合使用
                               href: data-entities/dual-write/commerce-pricing.md
                             - name: 用于服务的内部资产
@@ -218,29 +220,31 @@
                               href: data-entities/dual-write/integrated-hr.md
                             - name: 库存可用性
                               href: data-entities/dual-write/inventory-availability.md
-                        - name: 支持双写入
+                        - name: 支持双重写入
                           items:
-                            - name: 支持 Field Service 解决方案和 Project Service Automation 解决方案
+                            - name: 支持 Field Service 和 Project Service Automation 解决方案
                               href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: 将目标客户到现金数据从数据集成器迁移到双重写入
+                              href: data-entities/dual-write/migrate-prospect-to-cash.md
                             - name: 故障排除
                               items:
-                                - name: 验证 Finance and Operations 应用和 Common Data Service 中是否配置了双写入
+                                - name: 验证 Finance and Operations 应用和 Dataverse 中的双重写入配置
                                   href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                                 - name: 解决初始设置过程中的问题
                                   href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                                 - name: 解决初始同步过程中的问题
                                   href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: 解决 Finance and Operations 应用有关双写入模块的问题
+                                - name: 解决 Finance and Operations 应用中的双重写入问题
                                   href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                                 - name: 解决实时同步问题
                                   href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
                                 - name: 解决与解决方案意识相关的问题
                                   href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: 解决与 Finance and Operations 应用升级相关的问题
+                                - name: 解决 Finance and Operations 应用升级问题
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: 常规故障排除
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: 双写入常见问题
+                        - name: 双重写入常见问题
                           href: data-entities/dual-write/dual-write-faq.md
                     - name: 与 Power Platform 集成
                       items:
@@ -338,8 +342,12 @@
               items:
                 - name: 数据导入和导出作业概览
                   href: data-entities/data-import-export-job.md
-                - name: 使用普通日记帐实体导入凭证的最佳实践
+                - name: 同步导入作业中的日期和时间
+                  href: data-entities/data-synchronize-date-and-time.md
+                - name: 使用普通日记帐实体导入凭证
                   href: data-entities/tips-tricks-import-general-journal-entity.md
+                - name: 优化 Finance and Operations 应用的数据集成
+                  href: sysadmin/optimize-data-migration.md
             - name: 数据实体开发
               items:
                 - name: 数据实体的设计原则和最佳实践
@@ -442,6 +450,8 @@
                       href: database/api/v1/reference-create-export.md
                     - name: 获取操作活动状态
                       href: database/api/v1/reference-get-status.md
+                    - name: 开始和停止环境
+                      href: database/api/v1/reference-start-stop-environments.md
         - name: 演示数据
           items:
             - name: 演示数据概览
@@ -808,60 +818,6 @@
                       href: dev-ref/xpp-string-run-time-functions.md
                 - name: 系统表
                   href: dev-ref/system-tables.md
-                - name: 系统类
-                  items:
-                    - name: 系统类列表
-                      href: dev-ref/system-classes/toc.yml
-                    - name: 按字母顺序分组的系统类
-                      items:
-                        - name: A 类
-                          href: dev-ref/a-classes.md
-                        - name: B 类
-                          href: dev-ref/b-classes.md
-                        - name: C 类
-                          href: dev-ref/c-classes.md
-                        - name: D 类
-                          href: dev-ref/d-classes.md
-                        - name: E 类
-                          href: dev-ref/e-classes.md
-                        - name: F 类
-                          href: dev-ref/f-classes.md
-                        - name: G 类
-                          href: dev-ref/g-classes.md
-                        - name: H 类
-                          href: dev-ref/h-classes.md
-                        - name: I 类
-                          href: dev-ref/i-classes.md
-                        - name: J 类
-                          href: dev-ref/j-classes.md
-                        - name: K 类
-                          href: dev-ref/k-classes.md
-                        - name: L 类
-                          href: dev-ref/l-classes.md
-                        - name: M 类
-                          href: dev-ref/m-classes.md
-                        - name: N 类
-                          href: dev-ref/n-classes.md
-                        - name: O 类
-                          href: dev-ref/o-classes.md
-                        - name: P 类
-                          href: dev-ref/p-classes.md
-                        - name: Q 类
-                          href: dev-ref/q-classes.md
-                        - name: R 类
-                          href: dev-ref/r-classes.md
-                        - name: S 类
-                          href: dev-ref/s-classes.md
-                        - name: T 类
-                          href: dev-ref/t-classes.md
-                        - name: U 类
-                          href: dev-ref/u-classes.md
-                        - name: V 类
-                          href: dev-ref/v-classes.md
-                        - name: W 类
-                          href: dev-ref/w-classes.md
-                        - name: X 类
-                          href: dev-ref/x-classes.md
             - name: 可扩展性
               items:
                 - name: 可扩展性主页
@@ -1004,13 +960,13 @@
                   href: perf-test/trace-trace-tutorial.md
                 - name: 通过任务录制器和 Performance SDK 进行单用户测试
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: 通过 Performance SDK 和本地测试控制器进行多用户测试
+                - name: 通过本地测试控制器进行多用户 Performance SDK 测试
                   href: perf-test/multi-user-testing-local-test-controller.md
                 - name: 通过 Performance SDK 和 Azure DevOps 进行多用户测试
                   href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: 通过 Performance SDK 进行单用户或多用户测试的故障排除指南
+                - name: 使用 Performance SDK 进行测试故障排除指南
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
-                - name: 本地环境中的 Performance SDK 和多用户测试
+                - name: 在本地环境中进行 Performance SDK 和多用户测试
                   href: perf-test/perfsdk-tutorial-lbd.md
                 - name: 使用 Trace parser 诊断问题和分析性能
                   href: perf-test/trace-parser.md
@@ -1022,7 +978,7 @@
                   href: perf-test/testing-validation.md
                 - name: Visual Studio 中的测试项目
                   href: perf-test/testing-support.md
-                - name: 部署支持连续生成和测试自动化的环境
+                - name: 部署和使用连续生成及测试自动化环境
                   href: perf-test/continuous-build-test-automation.md
                 - name: 使用类和方法属性的 SysTest 筛选
                   href: perf-test/systest-filtering.md
@@ -1172,11 +1128,13 @@
           items:
             - name: Microsoft Power Platform 与 Finance and Operations 的集成
               href: power-platform/overview.md
+            - name: 加载项概览
+              href: power-platform/add-ins-overview.md
             - name: 实体建模
               href: power-platform/entity-modeling.md
             - name: 应用程序生命周期管理
               href: power-platform/application-lifecycle-management.md
-            - name: Finance and Operations 和 Common Data Service 管理员参考
+            - name: Finance and Operations 和 Dataverse 管理员参考
               href: power-platform/admin-reference.md
             - name: Finance and Operations 的 Power Apps 门户
               href: power-platform/power-portal-reference.md
@@ -1420,11 +1378,11 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: 派生测试用例
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Regression Suite Automation Tool 教程和其他功能
-              href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
+            - name: Regression suite automation tool 教程
+              href: perf-test/rsat/rsat-tutorial.md
             - name: 最佳实践
               href: perf-test/rsat/rsat-best-practices.md
-            - name: 使用 Regression Suite Automation Tool 的分区不可知测试
+            - name: 使用 Regression Suite Automation Tool 的数据不可知测试
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: 故障排除
               href: perf-test/rsat/rsat-troubleshooting.md
@@ -1467,7 +1425,7 @@
             - name: 获取对 Finance and Operations 和 Lifecycle Services 的支持
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 支持概览
-              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
+              href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
             - name: 获取对在中国由 21Vianet 运营的 Finance and Operations 的支持
               href: lifecycle-services/21vianet-support.md
             - name: 设置对 Finance and Operations 应用的技术支持
@@ -1506,6 +1464,8 @@
                   href: sysadmin/tasks/create-new-users.md
                 - name: 用户会话管理
                   href: sysadmin/user-session-management.md
+                - name: 通过 Azure AD 条件访问按位置阻止访问
+                  href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
                 - name: 批量导入用户
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: 设置职责划分
@@ -1524,6 +1484,8 @@
                   href: sysadmin/create-simple-security-policy.md
             - name: 保持符合用户许可要求
               href: sysadmin/stay-compliant-user-license-requirement.md
+            - name: 查看独立软件供应商许可证状态
+              href: sysadmin/view-isv-license-status.md
             - name: 流程自动化
               href: sysadmin/process-automation.md
             - name: 批处理
@@ -1542,15 +1504,13 @@
                   href: sysadmin/batch-active-period-dst.md
                 - name: 批处理管理器安全角色
                   href: sysadmin/runby.md
-                - name: 用于处理 SQL 索引碎片整理的批处理作业
-                  href: sysadmin/batch-job-SQL-defragmentation.md
                 - name: 配置批处理预警
                   href: sysadmin/alerts.md
                 - name: 增强型批处理窗体
                   href: sysadmin/enhanced-forms.md
                 - name: 清除批处理历史记录
                   href: sysadmin/batch-history-cleanup.md
-                - name: 中止正在执行的批处理作业
+                - name: 取消正在执行的批处理作业
                   href: sysadmin/batch-abort.md
             - name: 优化顾问
               items:
