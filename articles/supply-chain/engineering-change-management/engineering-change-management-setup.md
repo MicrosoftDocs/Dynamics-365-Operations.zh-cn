@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductParameters, EngChgEcmSeverityTable, EngChgEcmSeverityRuleSet, EngChgEcmSeverityLookup,EngChgEcmSeverityChart,EngChgEcmRequestSeverityChart,EngChgEcmPriorityTable, EngChgEcmPriorityLookup, EngChgEcmPriorityChart, EngChgEcmMaterialDisposition, EngChgEcmEH
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 86de050ef4110e3485a77099440f3402e46cc498
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: b46bc10f8b75a58b8baefd88aa6a0b79c59d6544
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4423452"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005394"
 ---
 # <a name="establish-common-values-for-engineering-change-management"></a>为工程更改管理建立通用值
 
@@ -91,6 +90,3 @@ ms.locfileid: "4423452"
 - **严重性** – 选择严重性级别以为其建立规则。 使用 **工程更改严重性** 页面创建和命名级别。 （有关详细信息，请参阅上一部分。）
 
 使用 **规则** 快速选项卡上的按钮添加或删除当前严重性设置的规则。 每个规则都有 **规则** 字段和 **名称** 字段。 规则由系统建立，并指示产品可以具有的更改类型。 名称指示更改的类型。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

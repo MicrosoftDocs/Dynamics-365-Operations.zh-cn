@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSReservationHierarchy, WHSWorkTrans, WHSWorkInventTrans, WHSInventTableReservationHierarchy, WHSReservationHierarchyCreate, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: bf50b0b8da2859caab4db2394f2d56f7b76793ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423326"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004794"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>灵活的仓库级维度预留策略
 
@@ -854,6 +853,3 @@ ms.locfileid: "4423326"
     - 转移单和原材料领料
 
 - 按指令单位包装的集装箱合并规则有局限性。 对于订单承诺预留，我们建议您不要在 **按指令单位包装** 字段已启用的情况下使用集装箱生成模板。 在当前的设计中，创建仓库工作时不使用货位指令。 因此，在集装化波次步骤期间，仅应用单位序列组中的最低单位（库存单位）。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

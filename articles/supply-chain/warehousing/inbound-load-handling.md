@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 991da4a1056bec933698d043fe45fe4e280f555a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423324"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004819"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>仓库对采购订单入站负荷的处理
 
@@ -478,6 +477,3 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
     - **数量** – 输入 _7_，这是总计 12（其中 10 为原始订单数量，2 为允许的 20% 超交数量）的采购订单数量中授权供应商交付的剩余数量。 请注意，已经对第一个负荷登记了 5 件。
 
 现在已经使用数量 7 更新了第二个负荷，并且可以根据此数量对其进行物料收货更新。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

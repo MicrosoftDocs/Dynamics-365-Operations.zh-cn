@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage, WHSResetUserPassword
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72891
 ms.assetid: feaa6f15-49d2-41f5-9b87-453463c52e4e
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2156b5de6abc3751cae1822b3825acbbd0b9a712
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: d8c3289ec049eeaa5a03b6cec02be85213c3bfa7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423315"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004510"
 ---
 # <a name="manage-warehouse-workers"></a>管理仓库工作人员
 
@@ -57,6 +56,3 @@ ms.locfileid: "4423315"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

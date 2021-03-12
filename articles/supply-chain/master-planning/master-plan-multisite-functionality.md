@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventLocation, InventSite
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2434
 ms.assetid: 7f05c031-a446-4168-8cce-03a6305f5c4d
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2adbac35d556314b3ec9916e2b7b2706ce3528c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c42fbd42288a072803e4f5de46560d13129515db
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423234"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005144"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>主计划和多站点功能概览
 
@@ -52,6 +51,3 @@ ms.locfileid: "4423234"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bbbd60ddfd46904374a2cf3ad4a09f96805bd2bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423021"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001791"
 ---
 # <a name="calendars-and-master-planning"></a>日历和主计划
 
@@ -143,6 +142,3 @@ ms.locfileid: "4423021"
 
 ### <a name="updating-scm-related-calendars"></a>更新 SCM 相关日历
 虽然所有相关日历在其各自的位置（供应商、客户、仓库、交货方式或覆盖范围组）分配很重要，更新它们以反映更改同样非常重要。 系统将根据已分配日历的组合定义生产、转移、采购和销售订单日期。 最佳实践是澄清谁负责在相应区域分配和更新日历。 如果工作日有分解或任何其他异常更改，根据情况更新日历非常重要。 依赖日历的所有任务（如主计划和生产计划编制）均必须在日历更新时重新运行。 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

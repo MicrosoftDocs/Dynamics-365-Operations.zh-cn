@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f8d5e4d82c66d178ceafcdbfb3eb9a941172aa01
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423319"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004619"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>库位指令库存领料帐龄
 
@@ -120,7 +119,7 @@ FIFO 策略查找包含最早帐龄日期的位置，然后根据该帐龄日期
 1. 在 **销售订单** 页面上的“操作窗格”上，在 **仓库** 选项卡上的 **操作** 组中，选择 **发放到仓库**。 您将收到信息性消息。 系统将创建一个装运，将其添加到新负荷，然后创建所需工作。
 1. 在 **销售订单行** 快速选项卡上，在 **仓库** 菜单上，选择 **工作详细信息** 打开为此销售订单创建的工作。 请注意，**工作类型** 值为 *领料* 的行将显示 **位置** 值 *FL-002*。 此位置包含具有最早帐龄日期 (FIFO) 的牌照。
 1. 选择 **仓库 \> 装运详细信息**。
-1. 在***常规** 快速选项卡上，记下波次 ID，以便在方案 2 中使用。
+1. 在**_常规_* 快速选项卡上，记下波次 ID，以便在方案 2 中使用。
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>方案 2：设置和使用 LIFO 位置帐龄
 
@@ -140,6 +139,3 @@ LIFO 策略查找包含最新帐龄日期的位置，然后根据该帐龄日期
 1. 请注意，**工作类型** 值为 *领料* 的行将显示 **位置** 值 *FL-001*。 此位置包含具有最新帐龄日期 (LIFO) 的牌照。
 
 在这些方案中，您已经看到了位置帐龄策略如何根据所选策略，将工作定向到具有最早库存或最新库存的库存位置。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

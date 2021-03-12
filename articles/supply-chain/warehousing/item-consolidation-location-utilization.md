@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6edabc51981d8935672b44e53b453cfbaca9031b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423323"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004644"
 ---
 # <a name="item-consolidation---location-utilization"></a>物料合并 - 位置利用率
 
@@ -208,6 +207,3 @@ ms.locfileid: "4423323"
 
     > [!NOTE]
    > 系统会为必须完成的每个移动创建一个工作 ID。 如果您指定的位置已经包含库存，将仅创建一个工作 ID。 如果指定新位置，将创建两个工作 ID。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c4a1480cf96a4ba753b436c04eb8f7b01379da48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8a292bd7a7ccbb09af1955e1e253b45e230c1009
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422975"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005419"
 ---
 # <a name="inventory-aging-report-storage"></a>库龄报表存储
 
@@ -57,6 +56,3 @@ ms.locfileid: "4422975"
     > 表单将不包括报表布局中定义的小计。
 
 **库龄报表** 数据实体使您可以通过将 **流程标识符 – 名称** 字段的筛选器应用到数据管理支持的任何格式来导出 **库龄报表存储** 报表的输出。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus, WHSWarehouseStatusChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 21331
 ms.assetid: b35f495f-de4f-48a0-9d09-4d06781d7650
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eca9d3e4e15d11d2a9a1b531028de230ffc43913
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 0c4cad56389c7a8fd6d37591c1ff335fff715707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594594"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001816"
 ---
 # <a name="inventory-statuses"></a>库存状态
 
@@ -65,6 +64,3 @@ ms.locfileid: "4594594"
 > - 在 **按库位显示的现有量** 页面上，您可以使用 **显示维度** 按钮基于显示的维度对行进行分组并更改所选行的状态。
 > - 在 **按库位显示的现有量** 页面上，您可以选择多个记录，然后使用 **库存状态更改** 按钮一次更改所有状态。
 > - 在 **库存状态更改** 定期任务上，您将能够按跟踪维度进行筛选。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 2b4e6b42326ecbd07efe006afb23931849f5cf58
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 63f2d3dc55799efefaedb10134edb219fa8588e0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4440975"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003570"
 ---
 # <a name="automate-vendor-payment-proposals"></a>自动运行供应商付款方案
 
@@ -144,6 +143,3 @@ ms.locfileid: "4440975"
 | 计划执行查询 | 应付帐款付款职员、应付帐款集中付款职员 | 此职责通过以下特权授予查看付款方案自动化执行的权限：<ul><li>查看计划执行</li><li>查看执行周视图</li></ul> |
 | 计划系列查询      | None                                                                       | 此职责通过以下特权授予查看系列和执行的设置的权限：<ul><li>查看计划执行</li><li>查看执行列表页</li><li>查看执行周视图</li></ul>|
 | 维护计划执行     | None                                                                       | 此职责通过以下特权授予创建和维护执行的权限：<ul><li>维护计划执行</li><li>查看执行周视图</li></ul> |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

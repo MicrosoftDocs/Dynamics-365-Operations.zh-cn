@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1d7828e6bb9a3684c1d76e2cfac96174a8dfbf4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 711ce21d0e522a737e6307e7de1889c8badd5ce0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423070"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005219"
 ---
 # <a name="quality-management-overview"></a>质量管理概述
 
@@ -504,6 +503,3 @@ ms.locfileid: "4423070"
 [不符合项管理](enable-nonconformance-management.md)
 
 [仓库流程质量管理](quality-management-for-warehouses-processes.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

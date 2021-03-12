@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7a017cdbcbfa01d4dba383f2b6b7c742e54014e4
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 9822a11dbb277726b60ff82843bd26314e968345
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440964"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003248"
 ---
 # <a name="impair-right-of-use-assets"></a>减损使用权资产
 
@@ -102,6 +101,3 @@ ms.locfileid: "4440964"
 7. 要查看减损的实际影响，请转到负债和资产交易表。 请注意，减损费用导致了使用权资产减少，但租赁负债的帐面价值未发生变化。
 
 减损还有一项您应考虑的影响。 由于使用权资产金额现在远小于租赁负债，因此折旧金额必须与以前不同。 具体来说，现在从交易日期开始，在整个剩余的 84 个月的租赁中以直线法折旧资产。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

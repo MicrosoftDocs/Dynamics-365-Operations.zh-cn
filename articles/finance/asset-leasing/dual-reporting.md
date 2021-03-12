@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 96e1d4d460aef2f74422d5e4bd4fc68255466455
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: a7d9b3ea3d4f1d48b8a7326bd5a01d3119310c62
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440940"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003173"
 ---
 # <a name="dual-reporting"></a>双重申报
 
@@ -523,6 +522,3 @@ IFRS 16 帐簿设置为遵守 IFRS 16 会计标准。 此帐簿中过帐的所�
 | 11         | 累计折旧 |                                                   |                                                   |                                                   | 0\.00                   |   |                                                 |                                                |                                                |                                                | \-949\.75                                      | \-949\.75                               |
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

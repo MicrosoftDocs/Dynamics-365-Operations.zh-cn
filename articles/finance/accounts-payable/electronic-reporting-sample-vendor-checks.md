@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a5c14f9529d11898e43f128c26859fc17fac9b73
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 50dbc8c3c2d95ca4ec0dab02e9f790c06e4dbc63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440865"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003475"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>电子申报示例供应商支票
 
@@ -44,6 +43,3 @@ Microsoft Dynamics 365 Finance 包括一个示例格式，其中支票位于顶�
 - 为在付款日记帐中配置的银行帐户生成付款时，将使用指定的格式打印支票。
 
 有关详细信息，请参阅 [修改电子申报格式](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

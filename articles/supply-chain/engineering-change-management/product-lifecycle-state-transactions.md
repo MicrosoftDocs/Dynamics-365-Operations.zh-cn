@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 989cfd3846e4921d24f5dcf809f1735d2cf62dbb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4423450"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005319"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>产品生命周期状态和交易
 
@@ -76,6 +75,3 @@ ms.locfileid: "4423450"
 | 策略 | 选择以下值之一来控制是否以及如何允许处于此生命周期状态的产品使用当前流程：<ul><li>**已启用** – 允许业务流程。</li><li>**已阻止** – 不允许流程。 如果用户尝试对处于此生命周期状态的产品使用该流程，系统将阻止尝试并显示错误。 例如，您可以阻止购买生命周期结束的产品。</li><li>**已启用，但有警告** – 允许流程，但会显示警告。 例如，您可能希望将原型产品放入研发部门创建的生产订单中。 但是，其他部门应该意识到他们还不应该生产该产品。</li></ul> |
 
 如果您要作为自定义添加更多生命周期状态规则，可以通过在上部窗格中选择 **刷新流程** 来在用户界面 (UI) 中查看这些规则。 **刷新流程** 按钮仅对管理员可用。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

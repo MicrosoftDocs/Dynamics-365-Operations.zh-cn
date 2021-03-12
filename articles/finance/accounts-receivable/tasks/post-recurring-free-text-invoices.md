@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysLookupMultiSelectGrid, CustRecurrenceInvoiceGroup, CustFreeInvoice, CustRecurrenceInvoiceTotals
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3b31dbf296a06ea6253a8ae71bfea6193a1e03e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c89247c870ef3edcaaa30831efaef9b03a9bc166
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440743"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003198"
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>生成和过帐重复执行普通发票
 
@@ -46,6 +45,3 @@ ms.locfileid: "4440743"
 6. 单击“过帐”。
     * 过帐所选发票。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

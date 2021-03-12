@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d1deaa2130b63272da39a42315c6a1bc4b7ccb8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 91deb080121d50794e6ff6fe79f9ca876b76deb4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423248"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005244"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>IoT 智能的方案设置
 
@@ -143,6 +142,3 @@ ms.locfileid: "4423248"
 2. 在方案的磁贴中，选择 **配置**。
 3. 选择 **下一步** 转到向导的最后一页。
 4. 设置用于禁用方案的选项。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e255c58997ed1c0ad5614b15867f14714a8bcfc8
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: af4321cd9d6e15c82c4eef1f1ca218b8301ebf35
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4410639"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003645"
 ---
 # <a name="store-configurations-for-retail-statements"></a>零售报表的商店配置
 
@@ -49,6 +48,3 @@ ms.locfileid: "4410639"
 17. 在 **按报表拆分方法** 中选择“是”，以为定义的每种报表方法创建报表。 如果需要为交易数量高的商店提高过帐性能，此操作可能很有用，因为它将创建许多可并行处理的较小的报表。  
 18. 在 **常规** 快速选项卡的 **默认客户** 字段中，您可以选择客户帐户，以用于上门客户的销售。  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
