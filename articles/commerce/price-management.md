@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8b381ec0535676b77a62bc748fd2ca1c521839ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410362"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972447"
 ---
 # <a name="retail-sales-price-management"></a>零售销售价格管理
 
@@ -240,6 +239,3 @@ Microsoft SQL Server Express 因为成本原因（免费），通常用于渠道
 价格是控制许多客户做出购买决定的最重要因素之一，许多客户会在购买前比较不同地点的价格。 为了帮助确保提供具有竞争力的价格，零售商会仔细关注竞争对手，并且经常会开展促销活动。 若要帮助这些零售商打动客户，产品搜索、浏览功能、列表和产品详细信息页面显示最精确价格这一点非常重要。
 
 在即将推出的 Commerce 版本中，**GetActivePrices** 应用程序编程接口 (API) 返回的价格中包括简单折扣（例如，不受购物车中其他商品影响的单行折扣）。 这样，显示的价格接近客户为商品支付的实际金额。 此 API 中将包含所有类型的简单折扣：基于隶属关系、基于会员制、基于目录和基于渠道的折扣。 此外，此 API 还将返回实施的折扣的名称和有效期信息，这样零售商就可以提供更详细的价格说明，并在折扣的有效期即将过去时产生紧迫感。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

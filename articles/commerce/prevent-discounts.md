@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailPeriodicDiscount
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 85183
 ms.assetid: e8c5a24f-7edd-4fd6-af80-5e0ac9f03127
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6a683ffce487dc4388711ad160c2e8dc55a690dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7c408068ece94d47c0f41e286a2ce0ae7efd23dd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410416"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972483"
 ---
 # <a name="options-for-preventing-discounts-for-retail-products"></a>用于防止为零售产品打折的选项
 
@@ -41,6 +40,3 @@ ms.locfileid: "4410416"
 > 这些设置不限制价格覆盖操作，因为此操作设置基础价格，不被视为折扣。
 
 [![“阻止折扣”字段](./media/prevent-discounts.png)](./media/prevent-discounts.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

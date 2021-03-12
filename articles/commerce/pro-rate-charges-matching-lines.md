@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a05150d8f4c4fa2d50c07c69c5574cdb602a618f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410360"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972397"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>将抬头费用按比例分配给匹配的销售行
 
@@ -175,6 +174,3 @@ ms.locfileid: "4410360"
 [全渠道高级自动费用](omni-auto-charges.md)
 
 [按渠道启用和配置自动费用](auto-charges-by-channel.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cbc638b684ad6eb59b852e599cf36cbd0b66faf
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 01fd382a97f86e93e4ab91759d35c65fae7447c5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4440917"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971995"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>具有多个客户或供应商记录的一个凭证
 
@@ -233,6 +232,3 @@ ms.locfileid: "4440917"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

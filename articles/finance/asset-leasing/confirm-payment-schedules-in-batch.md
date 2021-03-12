@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b5a90b96ac598d145e2b0697627de04731b55f59
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 9c680ea16e9f64107fde081c7e7763697356dcc1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440956"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971370"
 ---
 # <a name="confirm-asset-leasing-payment-schedules-in-a-batch"></a>批量确认资产租赁付款计划
 
@@ -42,6 +41,3 @@ ms.locfileid: "4440956"
     - 要确认所有帐簿，请打开 **所有帐簿** 参数。
 
 **已确认帐簿** 页面中将显示新确认的帐簿的信息。 确认付款计划后，可以针对租赁过帐初始确认日记帐。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

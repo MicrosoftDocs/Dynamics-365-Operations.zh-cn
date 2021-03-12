@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a2293f6bd3ce66832996652c3bfca0fc4bc73782
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 7f46f289c58c32c535dd20fb510cf2812625c49c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440951"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971320"
 ---
 # <a name="create-monthly-journal-entries-in-a-batch"></a>批量创建月日记帐条目
 
@@ -37,6 +36,3 @@ ms.locfileid: "4440951"
 > 后续交易（如负债摊销计划、付款、折旧和费用）将仅在相应租赁的初始确认过帐后才过帐。
 >
 > 将创建日记帐条目，但是在您选择 **运行** 命令之前，不会过帐这些条目。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

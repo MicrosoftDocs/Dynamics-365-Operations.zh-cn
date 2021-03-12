@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 89643
 ms.assetid: 09843c9a-3e19-4e4a-a8ce-80650f2095f9
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 565722da65cbb711acedb5acf7de4edfbd615314
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 747c67812b0a357c35778c82531e9db7e99e510b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410498"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972699"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>确定叠加折扣的最佳组合
 
@@ -84,6 +83,3 @@ ms.locfileid: "4410498"
 ![用于计算临界值的公式](./media/overlapping-discount-combo-06.jpg)
 
 计算了一组共享产品的每种折扣的临界值之后，将按照从最高临界值到最低临界值的顺序，依次将折扣详尽地应用于共享产品。 对于此方法，应用了一种折扣的单个实例之后，不会每次都比较其余可行折扣。 而是比较一次叠加折扣，然后依次应用这些折扣。 无需再执行任何比较。 可以在 **Commerce 参数** 页面的 **折扣** 选项卡上配置阈值以切换到临界值方法。 零售行业中计算折扣总额所用可接受时间多种多样。 但是，此时间的范围通常为几十毫秒到一秒。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5c772a19958ebf0687d09af4c3055c733d99d750
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f676503691049938fb8b6b7bfcac159e2f61bc6f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410581"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972674"
 ---
 # <a name="page-model-glossary"></a>页面模型词汇表
 
@@ -64,6 +63,3 @@ ms.locfileid: "4410581"
 [模板和布局概览](templates-layouts-overview.md)
 
 [自定义站点导航](customize-site-navigation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

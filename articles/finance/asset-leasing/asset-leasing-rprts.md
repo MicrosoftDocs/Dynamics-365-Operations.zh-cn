@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bab2b0b2b021266e50d6f4a1fad1cc4a1c1ae56e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 4bc4bac1a422a7505ef4c66b9c3b79a3d754cc4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440957"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971470"
 ---
 # <a name="asset-leasing-reports"></a>资产租赁报表
 
@@ -165,6 +164,3 @@ GAAP 披露报表满足 842-20-50-4(g)(1) 中规定的 US GAAP 披露要求。 �
 |     货币                          |     所用交易货币的缩写。 所有报表将交易货币转换为申报币种。  |
 |     剩余租赁付款          |     从 **截止** 日期开始付款计划中剩余未付款租赁付款的总额。            |
 |     剩余加权付款       |     剩余租赁付款乘以所用折扣率。   |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

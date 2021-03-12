@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2514
 ms.assetid: 92d47bdd-df68-4f60-ac9a-96aa08236c26
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e47531c75e54b23054464a5e1b1841eb2d82e093
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cdd3614e52da72e32e6781bc8da7c9e2b3162832
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422738"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970398"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>站点和仓库覆盖范围主计划，仓库不是必需的
 
@@ -63,6 +62,3 @@ ms.locfileid: "4422738"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

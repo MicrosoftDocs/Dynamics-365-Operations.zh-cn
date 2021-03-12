@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1714054
 ms.assetid: 79a1a3b9-3a36-4162-8839-ec39b5e26602
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 123be2430f910dfbea438cb6a51be7203eb39fc8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 45d9809d4bbf1b5a68c3f799ce5d51f9709d276b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422660"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970273"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>将仓库管理从 Microsoft Dynamics AX 2012 升级到 Supply Chain Management 
 
@@ -83,6 +82,3 @@ Supply Chain Management 不再支持来自 Microsoft Dynamics AX 2012 的旧 **W
 6.  在 **更改物料的存储维度组** 页，添加物料编号、存储维度组和单位序列组。 您可以直接在页面上、使用 Microsoft Office 集成或使用[数据管理](../../dev-itpro/data-entities/data-entities.md)中的数据实体流程完成此步骤。
 7.  验证更改。 作为验证过程的一部分，发生不同的数据完整性验证。 作为更大的升级流程的一部分，可能必须在源实现上调整发生的发货。 在这种情况下，需要附加数据升级。
 8.  处理更改。 更新所有库存维度可能需要一段时间。 您可以使用批处理作业任务监控进度。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

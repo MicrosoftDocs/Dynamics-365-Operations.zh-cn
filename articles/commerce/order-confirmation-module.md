@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: bf33ebf9c0c5136f40fcd7e1012988d186c4169b
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: 9d916d2687777403f2b0df7c35171948ad2fb7db
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4410649"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972727"
 ---
 # <a name="order-confirmation-module"></a>订单确认模块
 
@@ -87,6 +86,3 @@ ms.locfileid: "4410649"
 [提货信息模块](pickup-info-module.md)
 
 [礼品卡模块](add-giftcard.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

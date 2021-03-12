@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AccountingDistribution
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17231
 ms.assetid: 9030355d-8e6e-408b-9e7d-7b346eaa652c
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a627ba33065086d21c758a1b8d8f2fa2f6ef02
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3901fb61c1c8f9a9fd13b8ea558877daf884f3ee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440909"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972222"
 ---
 # <a name="accounting-distributions"></a>会计分配
 
@@ -57,6 +56,3 @@ ms.locfileid: "4440909"
 在版本 10.0.13 中，添加了一项功能，可以验证会计分配表以确保正确设置新字段。 此功能称为 **使用原始凭证会计框架对凭证数据进行附加验证**。 要使用此功能，必须使用 **功能管理** 工作区启用它。 要启用此功能，请在 **功能管理** 页的 **搜索** 字段中搜索功能名称，然后选择 **立即启用**。
 
 有关详细信息，请参阅[会计分配和供应商的子分类日记帐条目](accounting-distributions-subledger-journal-entries-vendor-invoices.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

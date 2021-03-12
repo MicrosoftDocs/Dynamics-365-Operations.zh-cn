@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLicensePlateLabel, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 66ba73ab5c790aa4a67419842f63f6f741bf0d3a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423335"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973752"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>牌照标签的文档路线选择布局
 
@@ -136,6 +135,3 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>有关如何打印标签的详细信息
 
 有关如何设置和打印标签的详细信息，请参阅[启用牌照标签打印](tasks/license-plate-label-printing.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

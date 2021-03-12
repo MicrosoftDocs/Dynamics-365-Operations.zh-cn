@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustCollectionsActivitiesListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14031
 ms.assetid: dcc6da2f-9af5-4f1d-abaa-b72967b66979
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f8e066b1df3eb3a26d488e1c014f4ae3f31395a
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 732b9ba95e6a3fdbb8bdd3e6aa745c26cd3904b1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4440974"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971670"
 ---
 # <a name="set-up-collections"></a>设置收款
 
@@ -115,6 +114,3 @@ ms.locfileid: "4440974"
 
  - [审核收款信息](tasks/review-collections-information.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

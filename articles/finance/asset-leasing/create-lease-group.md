@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f8512a59d0e9935090f97a0f0237bfefc8473955
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 2c06f6f943c8a47fbe650a67017b95d799914a0e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440953"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971345"
 ---
 # <a name="create-a-lease-group"></a>创建租赁组
 
@@ -50,6 +49,3 @@ ms.locfileid: "4440953"
 1. 转到 **资产租赁 \> 设置 \> 租赁组**。
 2. 选择一个租赁组，然后选择 **帐簿**。
 3. 选择 **新建**，然后在 **帐簿类型** 字段中，选择要分配给租赁组的帐簿。 如果必须以不同的方式核算租赁，则可以为一个租赁组分配多个帐簿。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

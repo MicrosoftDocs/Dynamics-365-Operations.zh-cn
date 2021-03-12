@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransInvoiceRegister, HcmWorkerLookUp, LedgerJournalTransApprove, LedgerJournalTransApproveFetchVouchers, LedgerTransVoucher
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 788397b5c9a3f42e373f7cdad256c1ee3d058e57
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f19c31a3ca20ad4b11e2529bdcb9db351c37f6c2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440590"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971870"
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>使用审核日记帐将发票数据键入应付帐款
 
@@ -54,6 +53,3 @@ ms.locfileid: "4440590"
 10. 选择 **过帐**。
 11. 选择 **凭证** 查看已过帐条目。 发票待定审核帐户被冲销，并替换成实际费用帐户。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
