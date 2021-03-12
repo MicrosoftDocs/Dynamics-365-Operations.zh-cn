@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d7118e85ff56f8c935c24a91dc84c6cc09641e0
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 325478ed89b9c650899001dd08d1c98550fce520
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694303"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798972"
 ---
 # <a name="view-workflow-history"></a>查看工作流历史记录
 
@@ -46,6 +46,3 @@ ms.locfileid: "4694303"
     - **重新分配** 按钮将打开一个对话框，从中可向其他用户重新分配工作项。  
     - 确保已展开 **跟踪详细信息** 部分。 在此部分中，可以查看所选单据的工作流历史记录。  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410391"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963102"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>配置呼叫中心交货方式和费用
 
@@ -95,6 +94,3 @@ Commerce 有一些功能可供用户限制渠道可使用的交货方式、可�
 例如，对于次日空运的订单，必须在每天下午 1 点前完成拣货。 在这种情况下，可以创建加速代码，并且可以将该代码链接到系统中配置的任何次日交货方式。 仓库创建其拣货波次时，可将 **加速** 字段中的相应加速代码用作筛选器，以便仅对交货方式链接至该代码的订单运行拣货。
 
 此外，输入呼叫中心订单时，可以将加速代码手动应用于销售订单头或单独的销售订单行。 再有，可将该代码用于排序或报告目的。 有时因为客户服务问题，必须仔细处理某个订单。 在此情况下，可以为订单头或行应用特定加速代码，以便在实施过程中帮助识别订单和优先处理该订单。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

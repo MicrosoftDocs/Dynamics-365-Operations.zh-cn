@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductAttributeSearch, EngChgMaintainAttributeInheritance, EngChgAttribute
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 5a4f31af3f76c1af6a0f5546955e810bd1cca375
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 32cd2c6d0915df1e48973a22a7d391eb8d62a072
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4423456"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963680"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>工程属性和工程属性搜索
 
@@ -94,6 +93,3 @@ ms.locfileid: "4423456"
 您可以使用工程属性搜索通过搜索工程属性值来查找产品。 因此，您可以根据其特征轻松找到工程产品。 您可以搜索属于工程产品类别的产品，也可以搜索所有工程产品。
 
 可在产品主数据页面上以及系统中的交易物料（例如销售订单）上进行搜索。 对于交易物料，您可以使用 **工程属性搜索** 页面搜索产品。 然后，您可以使用 **添加为新行** 按钮将产品添加到销售订单行。 搜索结果中的产品也可以直接添加到订单中。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

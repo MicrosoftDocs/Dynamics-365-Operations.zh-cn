@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: InventCountGroup, InventJournalName, InventParameters, EcoResProductDetailsExtended, InventItemLocation, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9df5db0e71f550e82820e15b1597d9e287071f83
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3c8550e539a1b3299d89ec2b13550a13e284d807
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423261"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961363"
 ---
 # <a name="define-inventory-counting-processes"></a>定义库存盘点流程
 
@@ -85,6 +84,3 @@ ms.locfileid: "4423261"
 5. 在 **盘点组** 字段的下拉菜单中，选择盘点组。 您可以选择一个应用于您所选择的特定仓库的物料的特定盘点组。 在该仓库执行盘点时，此盘点策略将覆盖物料的常规盘点策略。  
 6. 选择 **保存**。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

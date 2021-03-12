@@ -3,7 +3,7 @@ title: 双写入中的目标客户到现金
 description: 此主题提供有关双写入中的目标客户到现金的信息。
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 01/27/2020
+ms.date: 01/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 3b482a2754bb4bcaca5410da72c21897fd066a41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
+ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683639"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959593"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>双写入中的目标客户到现金
 
@@ -37,6 +37,11 @@ ms.locfileid: "4683639"
 
 ![目标客户到现金中的双写入数据流](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
+有关客户和联系人集成的信息，请参阅[集成客户主数据](customer-mapping.md)。 有关产品集成的信息，请参阅[统一的产品体验](product-mapping.md)。
+
+> [!NOTE]
+> 在 Dynamics 365 Sales 中，目标客户和客户都引用 **客户** 表中的记录，表中的 **RelationshipType** 列为 **目标客户** 或 **客户**。 如果您的业务逻辑包括 **客户** 资格流程，流程中创建了 **客户** 记录，并首先作为目标客户授予其资格，然后作为客户，那么该记录仅在为客户 (`RelationshipType=Customer`) 时同步到 Finance and Operations 应用。 如果您希望 **客户** 行作为目标客户同步，那么您需要一个自定义映射来集成目标客户数据。
+
 ## <a name="prerequisites-and-mapping-setup"></a>先决条件和映射设置
 
 必须先更新以下设置，然后才能同步销售报价单。
@@ -46,11 +51,11 @@ ms.locfileid: "4683639"
 在 Sales 中，转到 **设置 \> 管理 \> 系统设置 \> Sales**，确保使用以下设置：
 
 - **使用系统定价计算** 系统选项设置为 **是**。
-- **折扣计算方法** 字段设置为 **行项**。
+- **折扣计算方法** 列设置为 **行项**。
 
 ### <a name="sites-and-warehouses"></a>站点和仓库
 
-在 Supply Chain Management 中，**站点** 和 **仓库** 字段是报价单行和订单行的必填字段。 如果设置默认订单设置中的站点和仓库，向报价单行或订单行添加产品时，将自动设置这些字段。 
+在 Supply Chain Management 中，**站点** 和 **仓库** 列是报价单行和订单行的必需列。 如果设置默认订单设置中的站点和仓库，向报价单行或订单行添加产品时，将自动设置这些列。 
 
 ### <a name="number-sequences-for-quotations-and-orders"></a>报价单和订单的编号规则
 
@@ -62,9 +67,9 @@ ms.locfileid: "4683639"
 
 销售报价单既可以在 Sales 中创建，也可以在 Supply Chain Management 中创建。 如果在 Sales 中创建报价单，其将实时同步到 Supply Chain Management。 同样，如果在 Supply Chain Management 中创建报价单，其将实时同步到 Sales。 请注意以下点：
 
-+ 可以向报价单中的产品添加折扣。 在此情况下，折扣将同步到 Supply Chain Management。 标题上的 **折扣**、**费用** 和 **税金** 字段由 Supply Chain Management 中的设置控制。 此设置不支持集成映射。 **价格**、**折扣**、**费用** 和 **税金** 字段在 Supply Chain Management 中维护和处理。
-+ 销售报价单标题上的 **折扣 %**、**折扣** 和 **运费** 字段为只读字段。
-+ **货运条款**、**交货条款**、**装运方法** 和 **交货方式** 字段不是默认映射的一部分。 若要映射这些字段，必须设置特定于在其中同步实体的组织中的数据的值映射。
++ 可以向报价单中的产品添加折扣。 在此情况下，折扣将同步到 Supply Chain Management。 标题上的 **折扣**、**费用** 和 **税金** 列由 Supply Chain Management 中的设置控制。 此设置不支持集成映射。 **价格**、**折扣**、**费用** 和 **税金** 列在 Supply Chain Management 中维护和处理。
++ 销售报价单标题上的 **折扣 %**、**折扣** 和 **运费** 列为只读列。
++ **货运条款**、**交货条款**、**装运方法** 和 **交货方式** 列不是默认映射的一部分。 若要映射这些列，必须设置特定于在其中同步表的组织中的数据的值映射。
 
 如果您还使用 Field Service 解决方案，请确保重新启用 **询价行快速创建** 参数。 重新启用此参数可使您继续使用快速创建功能创建询价行。
 1. 导航到您的 Dynamics 365 Sales 应用程序。
@@ -82,7 +87,7 @@ ms.locfileid: "4683639"
 + 折扣计算和化整：
 
     - Sales 中的折扣计算模型不同于 Supply Chain Management。 在 Supply Chain Management 中，销售行的最终折扣金额可以是折扣金额和折扣百分比组合的结果。 如果此最终折扣金额除以行中的数量，可能发生化整。 不过，如果化整的每单位折扣金额同步到 Sales，则不考虑此化整。 为了帮助确保 Supply Chain Management 中销售行的完整折扣金额正确同步到 Sales，全部金额都必须同步，而无需再除以行中的数量。 因此，您必须在 Sales 中将折扣计算方法定义为 **行项**。
-    - 在销售订单行从 Sales 同步到 Supply Chain Management 时，将使用完整行折扣金额。 因为 Supply Chain Management 没有能够存储完整折扣金额的字段，此金额除以数量，并存储在 **行折扣** 字段中。 在此除法计算期间发生的任何舍入都将存储在销售行的 **销售费用** 字段中。
+    - 在销售订单行从 Sales 同步到 Supply Chain Management 时，将使用完整行折扣金额。 因为 Supply Chain Management 没有能够存储完整折扣金额的列，此金额除以数量，并存储在 **行折扣** 列中。 在此除法计算期间发生的任何舍入都将存储在销售行的 **销售费用** 列中。
 
 ### <a name="example-synchronization-from-sales-to-supply-chain-management"></a>示例：从 Sales 同步到 Supply Chain Management
 
@@ -98,7 +103,7 @@ ms.locfileid: "4683639"
 
 ## <a name="dual-write-solution-for-sales"></a>适用于 Sales 的双写入解决方案
 
-新字段已添加到 **订单** 实体并显示在以下页面。 这些字段中的大多数都在 Sales 中的 **集成** 选项卡内显示。 要了解有关如何映射状态字段的详细信息，请参阅[设置销售订单状态字段的映射](sales-status-map.md)。
+新列已添加到 **订单** 表并显示在页面上。 这些列中的大多数都在 Sales 中的 **集成** 选项卡内显示。 要了解有关如何映射状态列的详细信息，请参阅[设置销售订单状态列的映射](sales-status-map.md)。
 
 + **销售订单** 页中的 **创建发票** 和 **取消订单** 按钮在 Sales 中已隐藏。
 + **销售订单状态** 值将保持 **活动** 状态，以帮助确保来自 Supply Chain Management 的更改可以流向 Sales 中的销售订单。 若要控制此行为，请将默认的 **状态代码 \[Status\]** 值设置为 **活动**。
@@ -107,19 +112,19 @@ ms.locfileid: "4683639"
 
 销售发票在 Supply Chain Management 中创建并同步到 Sales。 请注意以下点：
 
-+ **发票编号** 字段已添加到 **发票** 实体中并显示在页面上。
++ **发票编号** 列已添加到 **发票** 表中并显示在页面上。
 + **销售订单** 页上的 **创建发票** 按钮被隐藏，因为将在 Supply Chain Management 中创建发票并同步到 Sales。 **发票** 页不可编辑，因为发票将从 Supply Chain Management 同步。
 + 当关联的发票从 Supply Chain Management 同步到 Sales 后，**销售订单状态** 值自动更改为 **已开票**。 而且，创建发票的销售订单的所有者被指定为发票的所有者。 因此，销售订单的所有者可以查看发票。
-+ **货运条款**、**交货条款** 和 **交货方式** 字段不包括在默认映射中。 若要映射这些字段，必须设置特定于在其中同步实体的组织中的数据的值映射。
++ **货运条款**、**交货条款** 和 **交货方式** 列不包括在默认映射中。 若要映射这些列，必须设置特定于在其中同步表的组织中的数据的值映射。
 
 ## <a name="templates"></a>模板
 
 目标客户到现金中包括核心表映射的集合，这些映射在数据交互期间协同工作，如下表所示。
 
-| Finance and Operations 应用 | Dynamics 365 中的模型驱动应用 | 说明 |
+| Finance and Operations 应用 | 客户互动应用 | 说明 |
 |-----------------------------|-----------------------------------|-------------|
-| 销售发票抬头 V2    | 发票                          |             |
-| 销售发票行 V2      | invoicedetails                    |             |
+| 销售账单抬头 V2    | 发票                          | Finance and Operations 应用中的“销售发票抬头 V2”表包含销售订单的发票和普通发票。 Dataverse 中为双写入应用了筛选器，将筛选出所有普通发票单据。 |
+| 销售账单行 V2      | invoicedetails                    |             |
 | CDS 销售订单标题     | salesorders                       |             |
 | CDS 销售订单行       | salesorderdetails                 |             |
 | 销售订单来源代码    | msdyn\_salesorderorigins          |             |
@@ -134,6 +139,11 @@ ms.locfileid: "4683639"
 + [发放的产品 V2 到 msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
 + [所有产品到 msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
 + [价目表](product-mapping.md)
+
+## <a name="limitations"></a>限制
+- 不支持退货单。
+- 不支持贷方通知单。
+- 必须为主数据（例如，客户和供应商）设置财务维度。 将客户被添加到报价单或销售订单后，与客户记录关联的财务维度会自动流向订单。 当前，双写入不包括主数据的财务维度数据。 
 
 [!include [symbols](../../includes/dual-write-symbols.md)]
 
@@ -150,6 +160,3 @@ ms.locfileid: "4683639"
 [!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
 
 [!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

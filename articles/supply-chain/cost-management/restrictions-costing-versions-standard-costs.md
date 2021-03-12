@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2348d7721cd281bb2a1b5af007c98ce69377a412
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5339c3c4a62b94a06cbffc200ed1e9b227d6b6af
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423081"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963780"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>对标准成本的成本计算版本的限制
 
@@ -51,6 +50,3 @@ ms.locfileid: "4423081"
 
 [准备为制造物料维护标准成本](update-standard-costs-manufacturing-environment.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

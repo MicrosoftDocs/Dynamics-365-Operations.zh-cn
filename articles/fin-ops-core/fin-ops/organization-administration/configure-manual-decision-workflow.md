@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c9cecabb7923e86e8aa09eed7bd3b1ba5ee0bd8
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d351facbce02355ddb4bdf91d43d9df561e4f3b5
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694853"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798844"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>配置工作流中的手动决策
 
@@ -350,6 +350,3 @@ ms.locfileid: "4694853"
     - **年** – 选择决策必须在哪一天、哪一周和哪一月前制定。 例如，您可能希望决策在十二月第三周的周五之前制定。
 
 4. 如果超出时间限制，系统将制定决策。 在 **操作** 列表中选择系统应选择的选项。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailInternalOrganization, EcoResAttributeGroup, EcoResAttributeGroupAttribute, RetailAddChannelItems, RetailCatalogProductAttributeValue, RetailMedia
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f6e55b98dde8f55172191ba43044d22fe3f2a61d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f50e925689f11f67285c956aec1a7ece235cdb74
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410535"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964687"
 ---
 # <a name="define-channel-attributes"></a>定义渠道属性
 
@@ -72,6 +71,3 @@ ms.locfileid: "4410535"
 33. 单击“确定”。
 34. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

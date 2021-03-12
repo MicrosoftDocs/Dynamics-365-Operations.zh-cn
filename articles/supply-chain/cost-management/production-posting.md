@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventItemGroup, ProjCategory, WrkCtrResourceGroup, WrkCtrTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 54591
 ms.assetid: 0917fe64-f643-46ae-98ff-5013b266a067
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7214575e1eb3289224446ae5dd9d40221f054f8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d97656081c0ade6918afb9e082254a4d877324e4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423082"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963805"
 ---
 # <a name="production-posting"></a>生产过帐
 
@@ -57,6 +56,3 @@ ms.locfileid: "4423082"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,18 +10,17 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b0084c6b4acbf14e3afec552575d5be26114237
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 296b3fb03b20dee5b6024c182df7feb3ce280913
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410534"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964662"
 ---
 # <a name="create-product-packages-for-purchase-orders"></a>创建采购订单的产品包装
 
@@ -73,6 +72,3 @@ ms.locfileid: "4410534"
 17. 单击“创建”。
 18. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

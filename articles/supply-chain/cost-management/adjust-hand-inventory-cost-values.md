@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventAdjInventOnHand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53231
 ms.assetid: bc1fde9f-5ad9-4339-8ae8-e2839b792eb2
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fc97db0f0b637e27ece904fe24e91a92044bc17
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6a702a083d60bdb289712027fbaee5c0a72e60cb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423206"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963830"
 ---
 # <a name="adjust-on-hand-inventory-cost-values"></a>调整现有库存量成本价值
 
@@ -44,6 +43,3 @@ ms.locfileid: "4423206"
 -   2 月 5 日：成本为 13.00 美元的数量 1
 
 若要将这两个物料的成本设置为 USD 15.00，请使用现有量调整选项来调整截至最后库存结转期间的未结现有数量。 **注意：** 现有量调整交易记录的过帐日期将是上一次库存结转的日期。 不能修改此日期。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

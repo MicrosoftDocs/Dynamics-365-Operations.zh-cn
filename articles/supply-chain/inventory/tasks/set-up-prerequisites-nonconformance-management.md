@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: InventParameters, InventTestReportSetup, SysUserManagement, SysUserSetup, InventTestDiagnosticType, InventTestMiscCharges, InventTestOperation, InventProblemType, InventProblemTypeSetup, InventQuarantineZone
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8c4de822dcda604241416165a961e4b0bacaeb5b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 80a7ae2249179c561d03f7b729ebb942ba856046
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423255"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961495"
 ---
 # <a name="set-up-prerequisites-for-nonconformance-management"></a>设置不符合项管理的先决条件
 
@@ -80,6 +79,3 @@ ms.locfileid: "4423255"
 4. 在 **描述** 字段中，键入一个值。
 5. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

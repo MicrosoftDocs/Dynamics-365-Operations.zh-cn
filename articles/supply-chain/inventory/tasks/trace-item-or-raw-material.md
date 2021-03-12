@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria, InventTrackingItemIdLookup, InventBatchIdLookup, CustTable, SalesLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0c39d34773a2b36cbf9477e4bdda8e45491d9c03
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 044b098b24d8cdf8008824b7ed1359f2b0566a8f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423254"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961469"
 ---
 # <a name="trace-an-item-or-raw-material"></a>跟踪物料或原材料
 
@@ -60,6 +59,3 @@ ms.locfileid: "4423254"
 9. 单击 **装运的销售订单**。
 10. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

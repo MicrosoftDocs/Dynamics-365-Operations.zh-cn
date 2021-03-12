@@ -3,7 +3,7 @@ title: DATEFORMAT ER 函数
 description: 本主题提供有关 DATEFORMAT 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
 manager: kfend
-ms.date: 12/03/2019
+ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fa6bdef2168112aeb17e0edb9f9a6d1b3bd45c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cdc1671f818bc2c4d8a78d0a35337298e83c5060
+ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684923"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "4826003"
 ---
 # <a name="dateformat-er-function"></a>DATEFORMAT ER 函数
 
@@ -52,6 +52,9 @@ DATEFORMAT (date, format, culture)
 
 输出字符串的格式。
 
+> [!NOTE]
+> 当您使用标准格式或自定义格式时，格式字符串区分大小写。 例如，[标准](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx)“d”格式说明符使用短日期模式返回日期，而标准“D”格式说明符使用长日期模式返回日期。 而且，[自定义](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx)“M”格式说明符返回月份 1 到 12，而自定义“m”格式说明符返回分钟 0 到 59。
+
 `culture`：*字符串*
 
 用于设定格式的区域性。
@@ -64,7 +67,7 @@ DATEFORMAT (date, format, culture)
 
 ## <a name="usage-notes"></a>使用说明
 
-当区域性未被定义为被调用函数的参数时，`culture` 由调用上下文定义。 例如，如果对于配置为使用德国区域性的 **FILE** 元素，以电子申报 (ER) 格式使用语法 1 调用 `DATEFORMAT` 函数，则将使用德国区域性完成转换。 默认 `culture` 值为 **EN-US**。
+如果区域性未被定义为被调用函数的参数，`culture` 由调用上下文定义。 例如，如果对于配置为使用德国区域性的 **FILE** 元素，以电子申报 (ER) 格式使用语法 1 调用 `DATEFORMAT` 函数，则将使用德国区域性完成转换。 默认 `culture` 值为 **EN-US**。
 
 ## <a name="example-1"></a>示例 1
 
@@ -77,6 +80,3 @@ DATEFORMAT (date, format, culture)
 ## <a name="additional-resources"></a>其他资源
 
 [日期和时间函数](er-functions-category-datetime.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

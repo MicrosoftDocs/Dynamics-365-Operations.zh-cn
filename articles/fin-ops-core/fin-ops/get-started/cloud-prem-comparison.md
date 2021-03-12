@@ -3,7 +3,7 @@ title: 比较云和本地功能
 description: 此主题显示在云和本地支持的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 12/02/2020
+ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 5b49dc6d5170af6fecc537a9a9130900e08bb26a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 309131f0d7390288a46f84b1375bd87922407159
+ms.sourcegitcommit: a017fc0583a894382b959e22511231dd07d4254a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694559"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959886"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>云和本地功能的比较
 
@@ -120,6 +120,7 @@ ms.locfileid: "4694559"
 | 本地化                        |                                                                                           | 是       | 是             |
 | 制造                        |                                                                                           | 是       | 是             |
 | 主计划和预测      |                                                                                           | 是       | 是             |
+| 计划优化                |                                                                                           | 是       | 不              |
 | 移动应用、工作区和平台 |                                                                                           | 是       | 是             |
 | Office 集成                   |                                                                                           | 是       | 是             |
 | 组织管理          |                                                                                           | 是       | 是             |
@@ -175,6 +176,3 @@ ms.locfileid: "4694559"
 
 \*在本地环境中，PerfTimer 仅显示客户端的结果。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

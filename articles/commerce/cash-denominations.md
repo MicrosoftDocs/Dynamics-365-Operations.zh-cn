@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreCashDeclarationTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a34ae8084c0ad55221f4ab93eb8c6481fa8c4771
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e3a5f9a73bdee50e3e7c68125144c3b43305efa8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410454"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961551"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>配置销售点 (POS) 的现金面额
 
@@ -52,6 +51,3 @@ ms.locfileid: "4410454"
 
 - **大于或等于应付款金额** – 默认情况下，POS 仅显示大于应付款金额的纸币面额，这样就可以进行一键式付款。 例如，如果应付款金额为 7.50 美元，POS 将显示以下金额：10 美元、20 美元、50 美元和 100 美元。 触摸这些金额中的任何一个都将自动为销售收取这笔金额。 不显示 1 美元和 5 美元纸币，因为这些金额低于应付款金额。
 - **全部面额** – 选择此选项将在 POS 中始终显示所有纸币面额，不受应付款金额的影响。 这意味着用户可以使用纸币组合以凑够应付款金额。 例如，如果应付款金额为 25 美元，则用户可选择 20 美元和 5 美元来完成销售。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

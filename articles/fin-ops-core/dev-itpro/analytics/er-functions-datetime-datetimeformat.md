@@ -3,7 +3,7 @@ title: DATETIMEFORMAT ER 函数
 description: 本主题提供有关 DATETIMEFORMAT 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
 manager: kfend
-ms.date: 12/03/2019
+ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d42767b814f36eb75b4a43d07c663b2dd1b2c879
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 90bd2900434b1be509f72ec82375e52ea32bc424
+ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684940"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "4825365"
 ---
 # <a name="datetimeformat-er-function"></a>DATETIMEFORMAT ER 函数
 
@@ -52,6 +52,9 @@ DATETIMEFORMAT (datetime, format, culture)
 
 输出字符串的格式。
 
+> [!NOTE]
+> 当您使用标准格式或自定义格式时，格式字符串区分大小写。 例如，[标准](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx)“d”格式说明符使用短日期模式返回日期，而标准“D”格式说明符使用长日期模式返回日期。 而且，[自定义](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx)“M”格式说明符返回月份 1 到 12，而自定义“m”格式说明符返回分钟 0 到 59。
+
 `culture`：*字符串*
 
 用于设定格式的区域性。
@@ -64,7 +67,7 @@ DATETIMEFORMAT (datetime, format, culture)
 
 ## <a name="usage-notes"></a>使用说明
 
-当区域性未被定义为被调用函数的参数时，`culture` 由调用上下文定义。 例如，如果对于配置为使用德国区域性的 **FILE** 元素，以电子申报 (ER) 格式使用语法 1 调用 `DATETIMEFORMAT` 函数，则将使用德国区域性完成转换。 默认 `culture` 值为 **EN-US**。
+如果区域性未被定义为被调用函数的参数，`culture` 由调用上下文定义。 例如，如果对于配置为使用德国区域性的 **FILE** 元素，以电子申报 (ER) 格式使用语法 1 调用 `DATETIMEFORMAT` 函数，则将使用德国区域性完成转换。 默认 `culture` 值为 **EN-US**。
 
 当 `DATETIMEFORMAT` 函数转换给定的日期/时间值时，它将考虑正在运行 ER 格式（调用该函数的上下文的 ER 格式）的应用程序用户的时区设置。
 
@@ -78,11 +81,8 @@ DATETIMEFORMAT (datetime, format, culture)
 
 ## <a name="example-3"></a>示例 3
 
-当由在 **语言和国家/地区首选项** 部分具有时区值 **(GMT-08:00)太平洋时间(美国和加拿大)** 的应用程序用户启动的流程中调用时，`DATETIMEFORMAT (DATETIMEVALUE( "2019-11-12T09:00:00.0000000-07:00", "O"), "O")` 返回字符串值 **2019-11-12T08:00:00.0000000-08:00**。
+当此函数在 **语言和国家/地区首选项** 部分具有时区值 **(GMT-08:00)太平洋时间(美国和加拿大)** 的应用程序用户启动的流程中调用时，`DATETIMEFORMAT (DATETIMEVALUE( "2019-11-12T09:00:00.0000000-07:00", "O"), "O")` 返回字符串值 **2019-11-12T08:00:00.0000000-08:00**。
 
 ## <a name="additional-resources"></a>其他资源
 
 [日期和时间函数](er-functions-category-datetime.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

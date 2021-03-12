@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 601977cc5b8aa992b8576d30eb1412fb4e119154
-ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
+ms.openlocfilehash: 3bd028e7d61fd57ed434a8a598bf24329a54ac1c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666786"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963627"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Dynamics 365 Supply Chain Management 功能顾问学习目录
 
@@ -114,6 +113,3 @@ ms.locfileid: "4666786"
 | [考试 MB-300：Microsoft Dynamics 365 Unified Operations 核心](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：使用常用功能和实施工具，配置安全、流程和选项，执行数据迁移，以及验证和支持解决方案。 | 考试，成本取决于地区 |
 | [考试 MB-330：Microsoft Dynamics 365 for Finance and Operations、Supply Chain Management](https://docs.microsoft.com/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：实施产品信息管理，实施库存管理，实施和管理供应链流程，以及实施仓库管理和运输管理与执行业务流程。 | 考试，成本取决于地区 |
 | [考试 MB-320：Microsoft Dynamics 365 for Finance and Operations、制造](https://www.microsoft.com/learning/exam-MB-320.aspx) | 此考试衡量您完成以下技术任务的能力：设置和配置制造，创建和管理生产和精益订单，以及创建、处理和管理生产批量订单。 | 考试，成本取决于地区 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

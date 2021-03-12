@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a72719c9fd03f73b69b558fc0f08eed91ea94ee1
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: c19693151399fc02ea9562757af7fc24124c9b6c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694351"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798821"
 ---
 # <a name="configure-line-item-workflows"></a>配置行项工作流
 
@@ -54,6 +54,3 @@ ms.locfileid: "4694351"
     6. 要验证输入的该组条件是否配置正确，请单击 **测试**。 在 **测试工作流条件** 页面，在 **验证条件** 区域，选择一条记录，然后单击 **测试**。 系统对该记录进行评估，判断其是否符合您定义的条件。 单击 **确定** 或 **取消** 返回到 **属性** 页面。
 
     在 **工作流** 选项卡，选择处理满足您定义的一组条件的行项时要使用的工作流。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

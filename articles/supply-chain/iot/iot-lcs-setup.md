@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ad8b33633646f27bc368dc4bbedc1eb64c150a9f
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: d55ca1975589699cbce03dcc7bf81e0762738d24
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423310"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963477"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>在 LCS 中安装 IoT 智能加载项
 
@@ -56,6 +55,3 @@ ms.locfileid: "4423310"
 2. 在 LCS 中，转到您的 Supply Chain Management 环境详细信息。
 3. 滚动到 **环境加载项** 部分。
 4. 为 IoT 智能加载项选择 **卸载**。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

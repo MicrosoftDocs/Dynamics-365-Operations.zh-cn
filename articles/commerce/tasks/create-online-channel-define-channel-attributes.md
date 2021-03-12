@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailSPOnlineStoreDetailPage, SysLookupMultiSelectGrid, DimensionLookup, OMHierarchyManager, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f15b035c01801041d637a2d315d8a3ddcc9d6540
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8e92e28c721692ed92fa931ed899c48678622349
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410539"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964783"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>创建在线渠道和定义渠道属性
 
@@ -67,6 +66,3 @@ ms.locfileid: "4410539"
 3. 运行 1070 配送计划将更改同步到渠道数据库。 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422813"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963730"
 ---
 # <a name="weighted-average-date"></a>加权平均日期
 
@@ -51,7 +50,7 @@ ms.locfileid: "4422813"
 
 结算是在结转日期时将发货调整为正确的加权平均的库存结转过帐。 
 
-**注意：** 有关结算的详细信息，请参阅库存结转相关文章。 以下示例通过五个配置阐释对使用加权平均的影响：
+**注意：** 有关结算的详细信息，请参阅库存结转相关文章。 以下示例通过五个配置阐释对使用加权平均的影响：
 
 -   不使用 **包括实际成本** 选项时的加权平均日期直接结算
 -   不使用 **包括实际成本** 选项时的加权平均日期汇总结算
@@ -196,6 +195,3 @@ ms.locfileid: "4422813"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

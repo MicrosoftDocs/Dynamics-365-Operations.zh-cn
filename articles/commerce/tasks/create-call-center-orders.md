@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: MCRCustomerService, SalesTable, MCRSourceIdTargetLookup, MCRSalesQuickQuote, MCRSalesOrderRecap, MCRCustPaymDialog, MCRCustPaymLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c875eaa85d9da997b75b296ad9ace99ae1e91798
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 08a806514a92a99a9f0b18b36817f49a09516ab8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594228"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964836"
 ---
 # <a name="create-call-center-orders"></a>创建呼叫中心订单
 
@@ -62,6 +61,3 @@ ms.locfileid: "4594228"
 
 [在 POS 上更改交货方式](../pos-change-delivery-mode.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

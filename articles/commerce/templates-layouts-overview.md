@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d805c39b77d653eaa9935751ae89012c98b930d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 835b283ea93f761791745a41c74b6a12c11eea02
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410601"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962952"
 ---
 # <a name="templates-and-layouts-overview"></a>模板和布局概览
 
@@ -112,6 +111,3 @@ ms.locfileid: "4410601"
 [使用预设布局](work-with-layouts.md)
 
 [使用发布组](publish-groups.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

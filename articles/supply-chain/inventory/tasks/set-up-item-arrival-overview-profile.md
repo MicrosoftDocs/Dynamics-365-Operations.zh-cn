@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 69389dd3a53ffec11116e16512bd038b45eda4d4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5ecfe132d9b0e096c5fdf015f80a6efb34c9b178
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423256"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961416"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>设置物料到达概览配置文件
 
@@ -54,6 +53,3 @@ ms.locfileid: "4423256"
 17. 选择 **保存**。
 18. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

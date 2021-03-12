@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b68182ff7da07f350e2eacaf569089e0fdf44a8d
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 43fa263bcbb6f5a6465af59ffb744aa865d66239
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695053"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4799085"
 ---
 # <a name="navigation-search"></a>导航搜索
 
@@ -62,6 +62,3 @@ ms.locfileid: "4695053"
 ## <a name="development"></a>开发
 
 从开发角度来看，此导航搜索功能易于使用，因为在菜单项的部署和其在搜索结果中显示的能力之间几乎没有任何延迟。 只要菜单项链接到导航窗格或仪表板，它们就会自动变为可搜索。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

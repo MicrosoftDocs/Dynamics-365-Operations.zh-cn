@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerCheckList_CN,  SysQueryForm, SysDateLookUp, LedgerTransVoucher, SrsReportViewerForm, LedgerVoucherRenumberLog_CN
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a3a1eb200395a36661b832d255715108edaad41d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9f30049b23bfee225d756b63af8e44aa903bb84b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409756"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964584"
 ---
 # <a name="chinese-voucher-continuity-check"></a>中国式凭证连续性检查
 
@@ -57,6 +56,3 @@ ms.locfileid: "4409756"
 4. 单击“确定”。
 5. 转到“总帐”>“查询和报表”>“凭证连续性检查日志”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
