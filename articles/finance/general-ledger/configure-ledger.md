@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 929ab7ae66a217de836ce49373faed76325c4d3a
-ms.sourcegitcommit: ac0a676c91e3053ad7f9432d576c9af3ff98a99a
+ms.openlocfilehash: 5a7fcda435fd957edbbe09d796685c0c742dc6a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4440971"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975808"
 ---
 # <a name="configure-ledgers"></a>配置分类帐
 
@@ -82,6 +81,3 @@ ms.locfileid: "4440971"
 已实现的损益是已完成交易产生的损益。 它们记录在损益表中。 未实现的损益是已实现但未完成交易的损益。 换句话说，例如，您已过帐发票，但尚未结清并付款。 未实现的损益记录在资产负债表上。
 
 有关如何使用双币种的详细信息，请参阅[双币种](dual-currency.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

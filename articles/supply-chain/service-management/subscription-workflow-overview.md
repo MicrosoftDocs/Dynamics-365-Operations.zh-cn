@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMASubscriptionGroup, SMASubscriptionCreateDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f023ddd8d6f9350702f687763b53b057baa9aed8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc2b2dc724adf53bfc6cb8de79c14c7414cbc40a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422950"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974152"
 ---
 # <a name="subscription-workflow-overview"></a>预订工作流概览 
 
@@ -57,6 +56,3 @@ ms.locfileid: "4422950"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3281
 ms.assetid: 1b86763d-d47c-4a6a-a9a6-d97a736750da
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dd4a8726ca194de2e5d95128659f3b212eaace5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f188e440922436511db15e1842f1891c2da5b191
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440811"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976058"
 ---
 # <a name="reduce-balance-depreciation"></a>余额递减法折旧
 
@@ -85,6 +84,3 @@ ms.locfileid: "4440811"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

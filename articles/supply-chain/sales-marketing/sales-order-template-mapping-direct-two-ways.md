@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ddc6159480d1ff9fb823dbd95465c991ae51f9c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423192"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974977"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>直接在 Sales 和 Supply Chain Management 之间同步销售订单
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 本主题讨论用于在 Dynamics 365 Sales 与 Dynamics 365 Supply Chain Management 之间直接运行销售订单同步的模板和基础任务。
 
@@ -64,8 +65,8 @@ ms.locfileid: "4423192"
 
 | 供应链管理  | 销售额             |
 |-------------------------|-------------------|
-| CDS 销售订单标题 | SalesOrders       |
-| CDS 销售订单行   | SalesOrderDetails |
+| Dataverse 销售订单标头 | SalesOrders       |
+| Dataverse 销售订单行   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>实体流
 
@@ -75,7 +76,7 @@ ms.locfileid: "4423192"
 
 在 Supply Chain Management 中，模板中的筛选器帮助确保同步中只包括相关销售订单：
 
-- 在销售订单上，订购客户和开票客户都必须来自 Sales 以被包括在同步中。 在 Supply Chain Management 中，**OrderingCustomerIsExternallyMaintained** 和 **InvoiceCustomerIsExternallyMaintained** 字段用于筛选来自数据实体的销售订单。
+- 在销售订单上，订购客户和开票客户都必须来自 Sales 以被包括在同步中。 在 Supply Chain Management 中，**OrderingCustomerIsExternallyMaintained** 和 **InvoiceCustomerIsExternallyMaintained** 列用于筛选来自数据表的销售订单。
 - 必须确认 Supply Chain Management 中的销售订单。 仅已确认的销售订单或具有更高处理状态（如 **已装运** 或 **已开票**）的销售订单同步到 Sales。
 - 在创建或修改销售订单后，必须运行 Supply Chain Management 中的 **计算销售额总计** 批处理作业。 仅计算了销售总额的销售订单将被同步到 Sales。
 
@@ -103,10 +104,10 @@ Sales 中的折扣计算模型不同于 Supply Chain Management。 在 Supply Ch
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>用于 Sales 的“从目标客户到现金”解决方案
 
-新字段已添加到 **订单** 实体并显示在以下页面：
+新列已添加到 **订单** 表并显示在页面上：
 
 - **外部维护** – 当订单来自 Supply Chain Management 时将此选项设置为 **是**。
-- **处理状态** – 此字段显示订单在 Supply Chain Management 中的处理状态。 提供以下值：
+- **处理状态** – 此列显示订单在 Supply Chain Management 中的处理状态。 提供以下值：
 
     - **草稿** – 在 Sales 中创建订单时的初始状态。 在 Sales 中，仅具有此处理状态的订单可编辑。
     - **活动** – 通过使用 **激活** 按钮在 Sales 中激活订单后的状态。
@@ -141,7 +142,7 @@ Sales 中的折扣计算模型不同于 Supply Chain Management。 在 Supply Ch
 - 转到 **设置** &gt; **管理** &gt; **系统设置** &gt; **Sales**，确保使用以下设置：
 
     - **使用系统定价计算系统** 选项设置为 **是**。
-    - **折扣计算方法** 字段设置为 **行项**。
+    - **折扣计算方法** 列设置为 **行项**。
 
 ### <a name="setup-in-supply-chain-management"></a>Supply Chain Management 中的设置
 
@@ -151,10 +152,10 @@ Sales 中的折扣计算模型不同于 Supply Chain Management。 在 Supply Ch
 
 1. 转到 **销售和市场营销** \> **设置** \> **销售订单** \> **销售订单来源**。
 2. 选择 **新建** 创建新的销售订单来源。
-3. 在 **销售订单来源** 字段中，输入销售订单来源的名称，如 **SalesOrder**。
-4. 在 **描述** 字段中，输入描述，如 **来自 Sales 的销售订单**。
+3. 在 **销售订单来源** 列中，输入销售订单来源的名称，如 **SalesOrder**。
+4. 在 **描述** 列中，输入描述，如 **来自 Sales 的销售订单**。
 5. 选中 **来源类型分配** 复选框。
-6. 将 **销售订单来源类型** 字段设置为 **销售订单集成**。
+6. 将 **销售订单来源类型** 列设置为 **销售订单集成**。
 7. 选择 **保存**。
 
 ### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>销售订单中的设置（Sales 到 Supply Chain Management）- 直接数据集成项目
@@ -181,12 +182,12 @@ Sales 中的折扣计算模型不同于 Supply Chain Management。 在 Supply Ch
 ## <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射
 
 > [!NOTE]
-> **付款期限**、**货运条款**、**交货条款**、**装运方法** 和 **交货方式** 字段不是默认映射的一部分。 若要映射这些字段，必须设置特定于在其中同步实体的组织中的数据的值映射。
+> **付款期限**、**货运条款**、**交货条款**、**装运方法** 和 **交货方式** 列不是默认映射的一部分。 若要映射这些列，必须设置特定于在其中同步表的组织中的数据的值映射。
 
 下图显示了数据集成中的模板映射的一个示例。
 
 > [!NOTE]
-> 此映射显示将从 Sales 同步到 Supply Chain Management 或从 Supply Chain Management 同步到 Sales 的字段信息。
+> 此映射显示将从 Sales 同步到 Supply Chain Management 或从 Supply Chain Management 同步到 Sales 的列信息。
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>销售订单（Supply Chain Management 到 Sales）- 直接：OrderHeader
 
@@ -207,6 +208,3 @@ Sales 中的折扣计算模型不同于 Supply Chain Management。 在 Supply Ch
 ## <a name="related-topics"></a>相关主题
 
 [从目标客户到现金](prospect-to-cash.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

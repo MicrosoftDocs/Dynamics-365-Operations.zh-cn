@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 7addb1f26a33db84d947e6fede876be648d2c654
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: de9328f69938151c5558d41263d36b873d117e4b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645162"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975474"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>子分类帐转移到总帐
 
@@ -42,6 +41,3 @@ ms.locfileid: "4645162"
 在 10.0.8 版本中，进行了改进以增强“异步”选项的性能。 在功能名称 **子分类帐转移到总帐性能优化** 下启用了此功能。 
  
 此功能改善了从子分类帐到总分类帐的数据转移。 它使流程更加高效，并将更小的交易集组合在一起进行转移。 这样可以更有效地使用批处理服务器。 此功能要求批处理服务器已设置、联机并正常运行，以使“异步转移”选项起作用。 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendPostDatedChecks, LedgerJournalTable, LedgerJournalTransDaily, LedgerTransVoucher
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee66bdb93d1252486efc7be25adeb6ee7cc6ce05
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 08cf4ec805e632470ef778f31beb87597e0ca096
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440816"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976183"
 ---
 # <a name="settle-a-postdated-check-for-a-vendor"></a>结算供应商的远期支票
 
@@ -52,6 +51,3 @@ ms.locfileid: "4440816"
 10. 单击“凭证”。
 11. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

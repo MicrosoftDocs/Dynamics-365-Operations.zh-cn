@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine, TMSFreightBillTypeAssignment, TMSZoneMaster, TMSEngineParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab6667ac02ca55eeb093fa5854a962ac4357aaac
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f4c33191e9a3b8f7c211093ff733f6cd025cb9bb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423367"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973877"
 ---
 # <a name="transportation-management-engines"></a>运输管理引擎
 
@@ -89,7 +88,7 @@ ms.locfileid: "4423367"
 | **区域引擎**                                | 需要在主区域上直接设置元数据。                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **运输时间引擎** 和 **里程引擎** | 直接从里程引擎的配置设置窗体检索元数据。                                                                                                                                                                                                                                                                                                                                                                                  |
 
-  **费率引擎的元数据示例** 运输管理引擎需要源地址标识、目标州/国家/地区和装运的起点和终点。 通过使用这些需求，元数据将如下表数据所示。 该表还包括所需输入的数据类型的信息。
+  **费率引擎的元数据示例** 运输管理引擎需要源地址标识、目标州/国家/地区和装运的起点和终点。 通过使用这些需求，元数据将如下表数据所示。 该表还包括所需输入的数据类型的信息。
 -   在 **基本费率类型** 页的 **运输管理** &gt; **设置** 中定义此信息。
 
 | 序列 | 姓名                          | 字段类型 | 数据类型 | 查找类型    | 必需 |
@@ -99,6 +98,3 @@ ms.locfileid: "4423367"
 | 3        | 目的地起始邮政编码 | 分配 | 字符串    | 邮政编码    | 已选择  |
 | 4        | 目的地终点邮政编码   | 分配 | 字符串    | 邮政编码    | 已选择  |
 | 5        | 目标国家/地区           | 分配 | 字符串    | 国家/地区 |           |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

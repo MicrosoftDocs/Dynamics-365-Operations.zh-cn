@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e50b4322c65097ab4f8aba9c36e4d5e6cc4c01b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9e5fd978c1e9db7e7ce3c06bbeb45b59854f1582
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423121"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974652"
 ---
 # <a name="create-service-task-relations"></a>创建服务任务关系    
 
@@ -75,6 +74,3 @@ ms.locfileid: "4423121"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

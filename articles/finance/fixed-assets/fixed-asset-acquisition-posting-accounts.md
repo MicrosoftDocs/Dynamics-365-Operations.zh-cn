@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fea6b1cd79b5536341a7cb50e5592ea38a7392d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fa0d73790a20f3fe5bb76b87e635b1f16e034479
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440690"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976108"
 ---
 # <a name="fixed-asset-acquisition-posting-accounts"></a>固定资产购置过帐帐户
 
@@ -45,6 +44,3 @@ ms.locfileid: "4440690"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

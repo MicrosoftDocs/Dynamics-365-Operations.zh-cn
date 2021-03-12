@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b3571640ff9854b70d1c9bd41971aca88e0b1a02
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 881ecc3b9c1ef5fb4b3f61f6240c662635575bc8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423148"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974377"
 ---
 # <a name="manage-template-boms-on-object-relations"></a>管理针对对象关系的物料清单模板 
 
@@ -87,6 +86,3 @@ ms.locfileid: "4423148"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

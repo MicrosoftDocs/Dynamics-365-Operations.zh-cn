@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c368259af9454af94da217585b2a1d01ea75d834
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 066f37c399754f795639ab04ddca09abc01a43eb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440755"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975449"
 ---
 # <a name="view-financial-reports"></a>查看财务报表
 
@@ -87,6 +86,3 @@ ms.locfileid: "4440755"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce3cb9ebc3536ba1b333a7bef6b5c679e09d7516
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b60feec05e923c25e0f0bacb28b510906d5f73cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423175"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974677"
 ---
 # <a name="cancel-service-orders"></a>取消服务订单   
 
@@ -78,6 +77,3 @@ ms.locfileid: "4423175"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

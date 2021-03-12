@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SalesDeleteOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08384bd5241c934b2f56ab2b482f5d06f24f0926
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d03054563cf41f7dbe5a64d8f72f283bba7bcab6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422917"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974527"
 ---
 # <a name="delete-a-return-order"></a>删除退货单 
 
@@ -44,6 +43,3 @@ ms.locfileid: "4422917"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

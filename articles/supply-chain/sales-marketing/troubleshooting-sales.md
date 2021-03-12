@@ -8,10 +8,9 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTable, SalesTableListPage
+ms.search.form: SalesTable, SalesTableListPage, SalesTableListPage_SalesCancelOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 6e51723915892f465ce09d09ee9ed622bab9451e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9a5b7a5e8cac7f8816233dd2d7ff1a7f84ea480
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422955"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974777"
 ---
 # <a name="troubleshoot-sales-orders"></a>销售订单故障排除
 
@@ -59,6 +58,8 @@ ms.locfileid: "4422955"
 您只能取消处于 *已创建* 状态的销售订单和退货单。 有关详细信息，请参阅[取消退货单](../service-management/cancel-return-order.md)。
 
 ## <a name="when-i-try-to-cancel-a-sales-order-i-receive-a-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations-error"></a>当我尝试取消销售订单时，我收到“已创建了依赖预留的工作，因此无法删除这些预留”错误。
+
+错误代码：WAX4661
 
 如果工作与销售订单相关联，在取消和冲销工作之前，您不能取消销售订单。 即使与销售订单关联的工作已关闭，此要求也适用。
 
@@ -110,7 +111,4 @@ Supply Chain Management 当前不支持已过帐发票的佣金计算。
 
 捆绑物料不能用于采购订单，因为如果检查捆绑物料的销售订单行，您会注意到数量为 *0*（零），状态为 *已取消*。 此为有意行为。 销售订单仅购买捆绑物料的组件。 不购买捆绑物料本身。
 
-如果必须购买捆绑，请考虑是否必须将其标记为捆绑物料，因为此功能实际上是为收入确认场景设计的。 有关捆绑物料的详细信息，请参阅[捆绑销售](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+如果必须购买捆绑，请考虑是否必须将其标记为捆绑物料，因为此功能是为收入确认场景设计的。 有关捆绑物料的详细信息，请参阅[捆绑销售](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles)。

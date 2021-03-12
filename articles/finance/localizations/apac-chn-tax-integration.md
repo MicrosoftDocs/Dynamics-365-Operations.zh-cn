@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustParameters, VATInvoiceDescTable_CN, TaxProfileTable_CN
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 265264
 ms.assetid: e5dbbbe1-935f-4fb4-a014-447916051628
 ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 082b9b95af6b2c49627fd60382c9d726c22f1de2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 55ab455f0ce68c67c2302825d268313596ab620a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409759"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975411"
 ---
 # <a name="configure-tax-integration-for-china"></a>配置中国的税务集成
 
@@ -75,6 +74,3 @@ ms.locfileid: "4409759"
 - [导入中国金税数据实体](apac-chn-import-golden-tax-data-entity.md)（不适用于 Microsoft Dynamics 365 for Finance and Operations 版本 10.0 \[2019 年四月\]及更高版本）
 - [增值税客户发票的中国税务集成修改常见问题](apac-chn-tax-integration-vat-customer-invoices.md)
 - [设置中国的基本税务集成模板](./tasks/set-up-basic-tax-integration-profile-china.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

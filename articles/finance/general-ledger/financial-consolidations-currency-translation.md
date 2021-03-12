@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c4561a1193971b131ab2b6c8d64f848d8155c1fc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440871"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975756"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>财务合并和货币折算概览
 
@@ -125,7 +124,7 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 
 定义基本属性之后，选择 **行** 定义实际处理规则。 清除选项有两种：清除净改变金额，或定义金额。
 
-选择源科目。 可以使用星号 (\*) 作为通配符。 例如，**1\*** 将选择以 **1** 开头的所有科目作为分配的数据源。
+选择源科目。 可以使用星号 (\*) 作为通配符。 例如，**1\**_ 将选择以 _* 1** 开头的所有科目作为分配的数据源。
 
 选择源科目之后，使用 **科目说明** 字段指定所用目标公司的科目。 选择 **源** 以使用在源科目中定义的同一个主科目。 如果选择 **用户定义的**，则必须指定目标科目。
 
@@ -182,6 +181,3 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 
 ## <a name="generating-consolidated-financial-statements"></a>生成合并的财务报表
 有关可以生成财务报表的方案的信息，请参阅[生成合并的财务报表](./generating-consolidated-financial-statements.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

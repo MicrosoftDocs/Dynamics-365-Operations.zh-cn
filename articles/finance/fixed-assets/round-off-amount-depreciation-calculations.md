@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetBookTable, AssetDepBookTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13931
 ms.assetid: faf7db87-046f-41d1-9baf-0df66e373e97
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 40fd019b1b5900fbd15866d9d3c32ed6d88147b4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 01c8662f0731abd089c9039c16bb77e39c1d3e51
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440810"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976007"
 ---
 # <a name="round-off-amount-for-depreciation-calculations"></a>计算化整折旧金额
 
@@ -50,6 +49,3 @@ ms.locfileid: "4440810"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

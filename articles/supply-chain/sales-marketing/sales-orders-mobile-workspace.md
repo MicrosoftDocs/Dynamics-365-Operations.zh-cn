@@ -10,7 +10,6 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 267134
 ms.assetid: 0ce96511-002b-4de7-b31e-4303f94edc84
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7e586496212c0cf5c964b434e442725fcdb25fca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dbd364978f2d204dafc25e14c55073fe2591b82f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423191"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974952"
 ---
 # <a name="sales-orders-mobile-workspace"></a>销售订单移动工作区
 
@@ -142,6 +141,3 @@ ms.locfileid: "4423191"
 4.  选择客户。
 5.  选择 **联系信息** 或 **销售订单**。 如果您选择 **销售订单**，将显示该客户的销售订单列表。
 6.  选择 **销售订单**。 现在可以查看有关销售订单行的信息、有关装运的信息、客户联系信息和订单员联系信息。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

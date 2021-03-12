@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29d2cf6a496fed8d9932d5c6d49f4560d7eabbbb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d1e0a40d351150ce432164438cd9680cf80792e1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422685"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974302"
 ---
 # <a name="service-objects-overview"></a>服务对象概览
 
@@ -47,6 +46,3 @@ ms.locfileid: "4422685"
 
 [创建服务对象](create-service-objects.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
