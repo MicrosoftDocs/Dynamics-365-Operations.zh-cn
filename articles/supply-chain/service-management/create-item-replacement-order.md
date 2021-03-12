@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnReplaceItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63c175d12cac91648cb57a3f41d1769e81d57af
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c0006ea9ec64cd95a709ec91509cb3a9828df160
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423190"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996643"
 ---
 # <a name="create-an-item-replacement-order"></a>创建物料更换单 
 
@@ -68,6 +67,3 @@ ms.locfileid: "4423190"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

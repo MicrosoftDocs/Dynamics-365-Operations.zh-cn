@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TMSZoneMaster
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-01-09
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2112e7131281cd485b580fd71536981c1ba4aefd
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: 6527c4887ccd3085d63dd64c104a94e6354f536b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4423465"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996444"
 ---
 # <a name="transportation-management-zone-master"></a>运输管理主区域
 
@@ -36,6 +35,3 @@ ms.locfileid: "4423465"
 - **优化路线计划** – 通过将特定路线计划分配到特定区域。
 
 您可以根据限定每个区域的元数据字段值（如国家/地区、邮政编码范围或承运人服务）来定义区域。 如果您的运输定价未采用区域概念，则不需要区域定义。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

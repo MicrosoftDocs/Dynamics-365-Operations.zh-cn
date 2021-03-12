@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSLocationBuild, WHSZone
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 6cf81939989b8faffcda51bbbd5bc6b27aec7eea
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 662725edf5bf8d95be038f7c989b73d8d05fa0df
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423364"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996418"
 ---
 # <a name="additional-location-zones"></a>其他货位区域
 
@@ -58,6 +57,3 @@ Microsoft Dynamics 365 Supply Chain Management 中新增了三个区域字段。
 7. 选择 **创建**。
 8. 将收到消息，说明已添加了新货位。 选择 **显示消息** 按钮查看消息。
 9. 转到 **仓库管理 \> 设置 \> 仓库 \> 货位**。 将在列表中显示新货位，并且可使用所有区域字段（即，现有区域字段和新的其他区域字段）。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

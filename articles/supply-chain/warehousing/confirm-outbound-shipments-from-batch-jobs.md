@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 41dbfb90b7b19c964e725ee0a4c769402414fb17
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 48257967ce360b1d4969124411d5976b807bf9e4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422763"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996293"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>确认来自批处理作业的出站装运
 
@@ -54,6 +53,3 @@ ms.locfileid: "4422763"
 1. 在 **确认装运** 对话框中选择 **确定**，将批处理作业添加到批处理队列中。
 
 有关详细信息，请参阅[批处理概览](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

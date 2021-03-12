@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f9395d39a68cd11f57262c791dd7646975c5e516
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528915"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998495"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>将 Field Service 中的工作订单同步到 Supply Chain Management 中的销售订单
 
@@ -62,13 +61,13 @@ ms.locfileid: "4528915"
 
 | **Field Service** | **供应链管理** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | CDS 销售订单标题 |
-| msdyn_workorderservices | CDS 销售订单行   |
-| msdyn_workorderproducts | CDS 销售订单行   |
+| msdyn_workorders        | Dataverse 销售订单标头 |
+| msdyn_workorderservices | Dataverse 销售订单行   |
+| msdyn_workorderproducts | Dataverse 销售订单行   |
 
 ## <a name="entity-flow"></a>实体流
 
-工作订单在 Field Service 中创建。 如果工作订单中仅包含外部维护的产品，并且 **工作订单状态** 值与 **打开 - 未计划** 和 **已关闭 – 已取消** 不同，则可通过 Common Data Service 数据集成项目将工作订单同步到 Supply Chain Management。 对工作订单的更新将在 Supply Chain Management 中作为销售订单同步。 这些更新中包含有关原始类型和状态的信息。
+工作订单在 Field Service 中创建。 如果工作订单中仅包含外部维护的产品，并且 **工作订单状态** 值与 **打开 - 未计划** 和 **已关闭 – 已取消** 不同，则可通过 Microsoft Dataverse 数据集成项目将工作订单同步到 Supply Chain Management。 对工作订单的更新将在 Supply Chain Management 中作为销售订单同步。 这些更新中包含有关原始类型和状态的信息。
 
 ## <a name="estimated-versus-used"></a>估计与已使用
 
@@ -273,6 +272,3 @@ ms.locfileid: "4528915"
 筛选器：(msdynce_headersystemstatus ne 690970005) 和 (msdynce_headersystemstatus ne 690970000) 及 (msdynce_orderhasexternalmaintainedproductsonly eq true) 和((msdyn_linestatus eq 690970001) 或 (msdynce_headersystemstatus eq 690970004) 或 (msdyn_allocated ne true))
 
 [![数据集成中的模板映射](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

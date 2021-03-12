@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 0bbebcc7b2ab89bf2f5db7294acfca1d8a5ad96e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d8c2288a18398f71a75dad6e51d51ba4b09561e6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410477"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997667"
 ---
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>使用“费用发送”功能从其他商店装运订单
 
@@ -42,6 +41,3 @@ ms.locfileid: "4410477"
 选择“收货”地址的功能保持不变。
 
 可用于履行订单行的装运方法基于有效的产品交货方式和地址的配置。 由于有关有效交货方式的规则仅在总部 (HQ) 维护，POS 客户端将进行实际的调用来提取装运行的有效交货方式。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

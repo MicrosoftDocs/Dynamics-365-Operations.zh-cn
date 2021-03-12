@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: PJacobse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6314fd25d8d8a0013984d484f57a832c26f82b5a
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: 862987b8ccdc4272bdd404e78391ad447bc290b3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4423439"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996343"
 ---
 # <a name="set-up-and-use-wave-label-printing"></a>设置和使用波次标签打印
 
@@ -932,6 +931,3 @@ ms.locfileid: "4423439"
 - 波次标签历史记录
 
 对于这些页面中的大多数页面，可以通过在“操作窗格”的 **装运** 选项卡上的 **相关信息** 组中选择 **波次标签** 来查找相关功能。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

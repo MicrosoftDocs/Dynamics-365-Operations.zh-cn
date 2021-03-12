@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ccfbe30e9d4a0fc4580c7036d222bfca9203a21
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422765"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996318"
 ---
 # <a name="confirm-and-transfer"></a>确认并转移
 
@@ -230,6 +229,3 @@ ms.locfileid: "4422765"
 - 当部分剩余工作标题的状态为 *进行中* 时，也可以使用 **将数量拆分到新负荷** 选项。 因此，即使工作人员仍在使用领料单，也可以使用此功能。
 - 如果在有剩余工作的状态为 *未结* 或 *进行中* 的情况下选择 **取消未履行数量**，将收到以下错误消息：“无法取消负荷的剩余数量。 负荷有工作。”
 - 如果在不存在剩余工作，但是负荷中有未下达负荷行的情况下选择 **取消未履行数量**，将收到以下错误消息：“无法确认负荷的装运，因为物料的数量超过了定义的待交付百分比。” 若要避免此错误，可以将未下达负荷行中的 **待交付** 百分比设置为 100%。 不会将未下达行移到新负荷，但是将使用待交付确认当前负荷。 在这种情况下，不能重新下达原始订单。 因此，必须以其他方式处理。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

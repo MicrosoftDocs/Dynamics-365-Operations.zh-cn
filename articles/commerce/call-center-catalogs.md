@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9abe493746719d2e229ef09c2eb5f436b91b2171
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: 259b68aa28aa0c84699fc6d2e691bae0af135ab7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4410633"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997792"
 ---
 # <a name="call-center-catalogs"></a>呼叫中心目录
 
@@ -101,6 +100,3 @@ Commerce 中的目录功能具有多种用途。 最初创建目录功能是为�
 ## <a name="additional-notes"></a>其他注释
 
 现在源代码 ID 在呼叫中心中应用于销售订单时，将用于推动目录特定的价格、促销、基本和向上销售/交叉销售。 系统将不禁止或阻止在销售订单中订购不在目录中的产品。 如果订购的商品不属于目录，系统将首先使用在呼叫中心渠道中定义的 **价格组**（**Retail 和 Commerce** \> **渠道** \> **呼叫中心** \> **所有呼叫中心**）以获取商品价格或促销信息。 如果未找到特定渠道价格，将使用基础出售价格。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

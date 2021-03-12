@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: BOMTable, BOMRouteCopyDialog, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3a553add531da9a8117af0830efb2d1b68e9b2e3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0d6d0f54e764940cd5f9a19ac165f0030bec00bc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422724"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998720"
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>通过从现有配方复制来创建配方
 
@@ -57,6 +56,3 @@ ms.locfileid: "4422724"
 3. 单击“确定”。
 4. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

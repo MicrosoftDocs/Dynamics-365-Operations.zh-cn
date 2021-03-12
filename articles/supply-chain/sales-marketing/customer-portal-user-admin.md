@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0fd390e5e0054ff301c18c2507c600f954e6ce89
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528285"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996768"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>创建和管理客户门户用户
 
@@ -39,11 +38,11 @@ ms.locfileid: "4528285"
 
 ## <a name="prerequisite-setup"></a>先决条件设置
 
-Power Apps 门户中的联系人作为记录存储在 Common Data Service 中的 **联系人** 实体中。 然后双写入根据需要将这些记录同步到 Microsoft Dynamics 365 Supply Chain Management。
+Power Apps 门户中的联系人作为记录存储在 Microsoft Dataverse 中的 **联系人** 表中。 然后双写入根据需要将这些记录同步到 Microsoft Dynamics 365 Supply Chain Management。
 
 ![客户门户联系人的系统图](media/customer-portal-contacts.png "客户门户联系人的系统图")
 
-在开始邀请新客户之前，请确保以双写入形式启用了 **联系人** 实体映射。
+在开始邀请新客户之前，请确保以双写入形式启用了 **联系人** 表映射。
 
 ## <a name="the-invitation-process"></a>邀请流程
 
@@ -58,15 +57,15 @@ Power Apps 门户中的联系人作为记录存储在 Common Data Service 中的
 
 有关详细信息，请参阅 Power Apps 门户文档中的[配置要在门户上使用的联系人](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts)。
 
-## <a name="out-of-box-web-roles-and-entity-permissions"></a>现成的 Web 角色和实体权限
+## <a name="out-of-box-web-roles-and-table-permissions"></a>现成的 Web 角色和表权限
 
-Power Apps 门户中的用户角色由 [Web 角色](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles)和[实体权限](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions)定义。 为客户门户定义了一些现成角色。 您可以创建新角色，并可以修改或删除现有角色。
+Power Apps 门户中的用户角色由 [Web 角色](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles)和[表权限](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions)定义。 为客户门户定义了一些现成角色。 您可以创建新角色，并可以修改或删除现有角色。
 
 ### <a name="out-of-box-web-roles"></a>现成的 Web 角色
 
 本节介绍随客户门户提供的 Web 角色。
 
-有关如何修改现成的用户角色的详细信息，请参阅 Power Apps 门户文档中的[为门户创建 Web 角色](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles)和[使用门户的实体权限添加基于记录的安全性](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions)。
+有关如何修改现成的用户角色的详细信息，请参阅 Power Apps 门户文档中的[为门户创建 Web 角色](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles)和[使用门户的表权限添加基于记录的安全性](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions)。
 
 #### <a name="administrator"></a>管理员
 
@@ -96,6 +95,3 @@ Power Apps 门户中的用户角色由 [Web 角色](https://docs.microsoft.com/p
 
 > [!NOTE]
 > 即使 Sam 和 Jane 都是为客户 X 工作的联系人，他们也只能查看他们自己下的订单，而看不到其他信息。 尽管 May 在系统中有一个订单，但由于她是未授权用户，因此她无法在客户门户中查看该订单。 （而且，她一定是通过客户门户以外的某个渠道下的订单。）
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

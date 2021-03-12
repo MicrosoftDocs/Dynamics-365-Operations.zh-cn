@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, TMSMode, WHSShipmentConsolidation, WHSFilterGenerallyAvail
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: adb88bbd29a89a1d18d7fd4781c2541ffb4e721f
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0d6ab6c034a5c341432f661cf1e729dfd3e5c239
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423342"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996374"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>配置装运合并策略
 
@@ -354,6 +353,3 @@ ms.locfileid: "4423342"
 ## <a name="additional-resources"></a>其他资源
 
 - [装运合并政策](about-shipment-consolidation-policies.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

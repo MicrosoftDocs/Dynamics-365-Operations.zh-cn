@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 530abffb4c80a2d2f0e58e0c5a34294f7cba0b1a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423409"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998445"
 ---
 # <a name="work-policies"></a>工作策略
 
@@ -301,6 +300,3 @@ ms.locfileid: "4423409"
 有关牌照接收和工作策略的详细信息，请参阅[通过仓库应用进行的牌照接收](warehousing-mobile-device-app-license-plate-receiving.md)。
 
 有关入站负荷管理的详细信息，请参阅[仓库对采购订单入站负荷的处理](inbound-load-handling.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

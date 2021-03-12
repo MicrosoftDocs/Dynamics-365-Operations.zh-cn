@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchCreateFromSalesOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 9704
 ms.assetid: 64c51384-8a4e-45d0-83c1-12cea22902f9
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 540f7514a152cfba48d00a3cf863b24d23b4c30e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4550270e87121db4012c273b63576db113a2fbf1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423162"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998520"
 ---
 # <a name="direct-deliveries"></a>直接交货
 
@@ -53,6 +52,3 @@ ms.locfileid: "4423162"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
