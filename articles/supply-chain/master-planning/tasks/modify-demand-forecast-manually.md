@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, ForecastSales
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 105cf50698889e81804155cdac3a8b484cbf87d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd931a378b057026eff57b34c9f5740df8adacef
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422830"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999823"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>手动修改需求预测
 
@@ -43,6 +42,3 @@ ms.locfileid: "4422830"
 1. 在 Microsoft Office 中单击 **打开**。
 2. 单击 Excel 中的 **编辑需求预测**。 在 Excel 中，您可以添加、删除和编辑需求预测行。 如果您将无法看到在 Excel 中的数据，需要使用已启用的“登录”选项登录，并且需要信任数据连接应用程序。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

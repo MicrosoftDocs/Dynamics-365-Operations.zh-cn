@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: cdedc45b8f057310801f134104156a732fb58d86
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: e8274890c581fffc7330538430c9b2ba060041bc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423424"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999095"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>采购工作流故障排除
 
@@ -80,6 +79,3 @@ SysWorkflowQueue-resume
 
 仅需要接受更改管理的采购订单会发生此问题。 发生这种情况是因为取消被认为是必须进行审批的更改。 审批可以由系统自动完成。 因此，流程是将取消的采购订单提交到审批工作流，让它可以进入 *已批准* 状态。 此时，采购订单将不再出现在 **采购订单准备** 工作区中的草稿采购订单列表中。
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

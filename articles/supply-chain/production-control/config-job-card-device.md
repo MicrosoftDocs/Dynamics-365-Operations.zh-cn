@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch, JmgRegistrationTouchUserConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: e072f99b0b0df75f1b9706362b429bbc4568473a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c523b309ab6478ab17c682683147e668bfcff919
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423067"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998970"
 ---
 # <a name="configure-job-card-for-devices"></a>配置设备的作业卡
 
@@ -95,6 +94,3 @@ ms.locfileid: "4423067"
 ## <a name="additional-resources"></a>其他资源
 
 [从作业卡设备报告完工入库](report-finished-job-device.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

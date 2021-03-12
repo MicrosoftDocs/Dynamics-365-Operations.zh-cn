@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSWaveTemplateTable,SalesTableListPage,SalesTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1f75e9421ab9cac0b62e1cdee17ecf74796783cc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422796"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001216"
 ---
 # <a name="shipment-auto-updates"></a>装运自动更新
 
@@ -140,6 +139,3 @@ ms.locfileid: "4422796"
 如果装运的状态为 **已分波次** 或更高，则不会在与该装运关联的负荷行上反映或根据其验证销售订单行上的数量更新。 必须直接在负荷行上更改负荷行上的数量。
 
 验证将在为负荷行创建工作并进行预留之后进行。 然后，根据工作行预留验证销售订单行上数量的减少。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

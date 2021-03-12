@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 7b5041d35d310125c314ab2cb77d3cc40cdb7113
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3dcba743e6557b1bd366ac79ecb49ead831dceb4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410390"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001017"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>配置渠道以使用渠道导航层次结构
 
@@ -84,6 +83,3 @@ ms.locfileid: "4410390"
 [创建渠道导航层次结构](create-channel-hierarchy.md)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

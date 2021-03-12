@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 301eb6206fb9e02c3aa7d3c07cf368ba800a1ab9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 89d95814e892e3afcb6514ab0d0219f7b08b9c63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410503"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000451"
 ---
 # <a name="work-with-modules"></a>使用模块
 
@@ -173,6 +172,3 @@ ms.locfileid: "4410503"
 
 [使用发布组](publish-groups.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

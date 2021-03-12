@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1706093
 ms.assetid: 75ee68e0-4b9f-4f4d-b286-f498e0eb73fa
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67fbb8eebb637a96638c574373441213c66e9ddc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 40779d1f8bc14072928767ae1c83fdda47476871
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423279"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998870"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>使用移动设备登记物料消耗量
 
@@ -40,7 +39,7 @@ ms.locfileid: "4423279"
 
 一个连续生产流程 (5) 使用受批次控制的原材料 RM-100。 物料是牌照 PL-1 上的库位 Bulk-001 (1) 上的现有物料，具有两个批次，B1 和 B2，数量均为 100 磅。 仓库工作 (2) 为 RM-100 进行发布和处理，且物料从 Bulk-001 领取到被定义为非牌照控制的生产输入库位 PIL-01 (3)。 机器操作员从生产输入库位 (3) 称出物料并将重量和批处理号登记为已使用 (4)。 从生产输入库位，部分物料在定义的时间间隔内被手动添加到生产流程。 在机器操作员添加物料时，物料在秤上称重，并登记批号。
 
-## <a name="set-up-theworkflow-to-register-consumption-using-a-handheld-device"></a>设置工作流以使用手持设备登记消耗量
+## <a name="set-up-the-workflow-to-register-consumption-using-a-handheld-device"></a>设置工作流以使用手持设备登记消耗量
 使用具有受批次控制的原材料 RM-100 的物料清单创建成品产品 FG-100。 将数量为 100 的 RM-100 的两个批次，B1 和 B2，添加到库位：Bulk-001，牌照：PL-1。 RM-100 在物料清单行上的耗用原则设置为 **手动**。 将生产输入库位设置为 PIL-01。 为此，您可以选择此库位作为仓库 51 上的默认生产输入库位。
 
 1.  创建新的移动设备菜单项： 
@@ -68,7 +67,7 @@ ms.locfileid: "4423279"
 
 在开始执行生产订单后，您可以使用用于手持设备的工作流登记物料消耗量。 我们先将批次 B1 的消耗量登记为 25 磅。
 
-6.  在手持设备的菜单中选择  **登记物** 料 **消耗量** 菜单项，输入以下详细信息： 
+6.  在手持设备的菜单中选择 **登记物** 料 **消耗量** 菜单项，输入以下详细信息： 
 
 -    生产订单编号。 
 -    要消耗物料的库位，在此例中为 PIL-01。 
@@ -92,6 +91,3 @@ ms.locfileid: "4423279"
 -   物料可以过度消耗。 例如，如果物料的估计消耗数量为 100 磅，则可以过度消耗，例如数量 105 磅。
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

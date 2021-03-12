@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f535cf0bc3c733426af22cf453ffe97f721f8d9e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410457"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000573"
 ---
 # <a name="enable-personalized-recommendations"></a>启用个性化建议
 
@@ -131,6 +130,3 @@ ms.locfileid: "4410457"
 [使用演示数据创建建议](product-recommendations-demo-data.md)
 
 [产品建议常见问题](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

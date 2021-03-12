@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3903f1fe5b5f7d2755ec895eded73de6d165e68e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2f52c868cda97e7da5ebb6107fc2c6fe4605d05f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422828"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001366"
 ---
 # <a name="create-service-subscriptions-from-a-project"></a>从项目创建服务预订    
 
@@ -55,6 +54,3 @@ ms.locfileid: "4422828"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 15021281b9ec33cd0552bca16e3054d0d3cdd589
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7082f9e7640e8ef1b2873a954327b61a440e8ad0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423249"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999998"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>监视和管理 IoT 智能
 
@@ -62,6 +61,3 @@ ms.locfileid: "4423249"
 + [将 IoT DevKit AZ3166 连接到 Azure IoT 中心](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [将 Raspberry Pi 联机模拟器连接到 Azure IoT 中心 (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
 + [设备模拟解决方案加速器概述](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

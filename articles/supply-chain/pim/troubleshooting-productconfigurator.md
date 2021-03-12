@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dacc7205eaf2084f6fbd3be9d8ac0572f9e1bcde
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: e6cfeb6a2b4166dfa9a5a5cc1b7d3d913b865ce2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516735"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999598"
 ---
 # <a name="troubleshoot-the-product-configurator"></a>产品配置器疑难解答
 
@@ -75,6 +74,3 @@ ms.locfileid: "4516735"
 
 - *ResultDecimal* = *Input* × *Percent* ÷ 100
 - *ResultInteger* = *ResultDecimal*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

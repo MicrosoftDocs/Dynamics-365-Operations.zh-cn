@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 28911
 ms.assetid: 5823d75e-f839-46dd-beb3-e09b79fc8aa4
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce750745d6f094a296b43827568ee1745179de2d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0fb1f9e017de71d01fbf7a05b579d68b702aa7c9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423411"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001491"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>为销售订单预留相同批次
 
@@ -45,6 +44,3 @@ ms.locfileid: "4423411"
 - 根据到期日期和最佳使用日期以及任何客户适售期，该批次的保质期剩余天数不足。
 
 对于与启用了 **使用仓库管理流程** 的存储维度组关联的物料，您可以使用批处理号库存维度在库位维度之上定义的预留层次结构，来预留特定的批处理号。 销售和转移单行的 **批次预留** 页面还允许您根据可用的批处理号选择和预留多个行。 有关使用批处理号维度在库位之下的预留层次结构的操作方法的详细信息，请参阅[灵活的仓库级维度预留策略](../warehousing/flexible-warehouse-level-dimension-reservation.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

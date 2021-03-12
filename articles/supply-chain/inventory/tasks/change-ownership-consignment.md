@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: InventJournalOwnershipChange, InventJournalCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c50affa05b8df53d31660854f4d1ead6aeff820
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1a4130670d2291fef16c9ff5482995a709b03cd3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423268"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000176"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>根据生产需求更改托运库存的所有权
 
@@ -55,6 +54,3 @@ ms.locfileid: "4423268"
 2. 单击“确定”。
 3. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

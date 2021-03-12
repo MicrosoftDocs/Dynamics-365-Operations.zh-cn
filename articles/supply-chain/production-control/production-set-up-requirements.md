@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 55561
 ms.assetid: 1953059f-478d-4706-b461-25b89ace5fc3
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 74dce437421290b3dd039f62a2105d02e085062b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422750"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998895"
 ---
 # <a name="production-setup-requirements"></a>生产设置需求
 
@@ -81,6 +80,3 @@ ms.locfileid: "4422750"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

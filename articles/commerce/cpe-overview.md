@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8e08c2f327771d7731b836840006d63b6ecb7dfc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410380"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000942"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Dynamics 365 Commerce 评估环境概览
 
@@ -64,6 +63,3 @@ Commerce 评估环境是 Dynamics 365 Commerce 的一个可选的端到端环境
 [为 Dynamics 365 Commerce 评估环境配置可选功能](cpe-optional-features.md)
 
 [Dynamics 365 Commerce 评估环境常见问题](cpe-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

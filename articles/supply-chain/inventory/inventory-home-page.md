@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce9d22fa9a3a08b08f65943ba027ace8204d4443
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f73c295c2fd0b48ea77c88e037b21a472744e55f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422758"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000251"
 ---
 # <a name="inventory-management-overview"></a>库存管理概览
 
@@ -58,6 +57,3 @@ ms.locfileid: "4422758"
 
 ### <a name="task-guides"></a>任务指南
 其他帮助作为任务指南提供。 若要访问任务指南，请单击任何页面上的 **帮助** 按钮
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

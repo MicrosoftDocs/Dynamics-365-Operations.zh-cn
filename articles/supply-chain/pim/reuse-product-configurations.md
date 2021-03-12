@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 201813
 ms.assetid: 4985e308-7824-41fc-83fd-fd0bdae888e3
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd6d730528522f4074b6e2a3ce6059cc12ff5a0f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: be153fd6376d59bee93f432d26963a2937436666
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422767"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999748"
 ---
 # <a name="reuse-product-configurations"></a>重复使用产品配置
 
@@ -45,6 +44,3 @@ ms.locfileid: "4422767"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

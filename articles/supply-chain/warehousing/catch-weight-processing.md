@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6ecadb06adce5a0cbf1614c7da8fc65cb801e249
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423359"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001166"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>使用仓库管理进行实际称重产品处理
 
@@ -210,6 +209,3 @@ ms.locfileid: "4423359"
 
 > [!NOTE]
 > 仅在实际称重产品采用完全跟踪的实际称重标签维度跟踪方法时（也就是说，仅当实际称重物料处理策略中的 **实际称重标签维度跟踪方法** 参数设置为 **跟踪产品维度、跟踪维度和所有存储维度** 时），上述有关实际称重标签的信息才有效。 如果对实际称重物料仅进行部分标签跟踪（也就是说，如果实际称重物料处理策略中的 **实际称重标签维度跟踪方法** 参数设置为 **产品维度、跟踪维度和库存状态**），则适用其他限制。 由于这种情况下标签和库存之间会丢失可见性，因此不支持某些其他方案。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

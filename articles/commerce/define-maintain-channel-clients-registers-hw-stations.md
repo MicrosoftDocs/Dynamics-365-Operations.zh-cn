@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ec64cb8a7c490c6798a897fd20a56e5af5c8be3a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc043208362137d337f91745d2de357388510005
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410405"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000892"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>将外设连接到销售点 (POS)
 
@@ -205,6 +204,3 @@ POS 收银机主要通过收银机本身管理，同时还通过分配到收银�
 ### <a name="client-data-synchronization"></a>客户端数据同步
 
 对 POS 客户端的所有更改（除设备启用状态的更改），均必须与渠道数据库同步以使其生效。 要同步对渠道数据库的更改，请导航到 **Retail 和 Commerce** &gt; **Retail 和 Commerce IT** &gt; **配送计划**，并运行所需的配送计划。 对于客户端更改，应运行 **收银机** 和 **渠道配置** 配送计划。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

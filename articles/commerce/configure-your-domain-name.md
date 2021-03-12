@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ac1b0c8baaddd6ca62cc49657fff364df21c14f2
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: d3df563b62b40970509340802a09bb36dda14777
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517106"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000992"
 ---
 # <a name="configure-your-domain-name"></a>配置域名
 
@@ -62,6 +61,3 @@ ms.locfileid: "4517106"
 [添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
 
 [启用基于位置的商店检测](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

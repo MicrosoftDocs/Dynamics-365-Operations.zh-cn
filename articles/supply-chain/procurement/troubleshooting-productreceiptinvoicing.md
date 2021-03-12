@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: a89effb686d60dde9d11f99be51d4101897ad4ea
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 22b1abec0c6dd5f571e604c5c07379b397b8bdaa
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423423"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999045"
 ---
 # <a name="troubleshoot-product-receipts-and-invoicing"></a>产品收货和开票故障排除
 
@@ -110,6 +109,3 @@ ms.locfileid: "4423423"
 ### <a name="issue-resolution"></a>解决问题
 
 这取决于发票和发票组的参数设置。 有关详细信息，请参阅以下博客文章：[采购费用和库存变化的会计](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/12/15/accounting-for-purchase-charge-and-stock-variation/)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

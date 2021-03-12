@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: ''
 ms.custom: 260624
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 211bcf3f4938b438e417f92cd385aaa04278a404
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: e73ad69b66b8d6874bb32e508d5a1c9fdbaf8118
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4410634"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000682"
 ---
 # <a name="commerce-home-page"></a>Commerce 主页
 
@@ -56,6 +55,3 @@ Dynamics 365 Commerce - 基于经实践检验的 Dynamics 365 Retail 功能构�
 - [管理电子商务站点](online-store-overview.md)
 - [欺诈保护](dev-itpro/DFP.md)
 - [商务开发和可扩展性](dev-itpro/dev-retail-home-page.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

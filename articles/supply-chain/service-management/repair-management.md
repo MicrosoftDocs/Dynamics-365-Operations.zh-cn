@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAConditionTable, SMASymptomArea, SMADiagnosisArea, SMAResolutionTable, SMARepairStage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d45732ff35069a64b37b6c53d9e22adf9a9a46d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8ebb9833be5e51fe59e9895e67cd8e55058078aa
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422740"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001333"
 ---
 # <a name="repair-management"></a>维修管理       
 
@@ -113,6 +112,3 @@ ms.locfileid: "4422740"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

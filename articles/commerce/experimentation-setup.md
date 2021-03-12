@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 29c21ceb4c259f463f4a039942e51141201a9809
-ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.openlocfilehash: 1a60eb459d6d6f710e43ac5418b9375420ca8387
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4410628"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000768"
 ---
 # <a name="set-up-an-experiment"></a>设置试验
 
@@ -54,6 +53,3 @@ ms.locfileid: "4410628"
 
 ## <a name="next-step"></a>后续步骤
 [连接和编辑试验](experimentation-connect-edit.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

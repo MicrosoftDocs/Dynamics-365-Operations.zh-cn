@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: JmgRegistration
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 70103
 ms.assetid: 52ba1cdd-767f-4edd-896f-61adce8479d3
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df34d1c0a57f8890dab83ad2284deb0514b128fb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 06f46d758c80d0b0c9c30618f8faaf5ec12a8708
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423278"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998845"
 ---
 # <a name="registration-for-manufacturing-execution"></a>制造执行的登记
 
@@ -62,6 +61,3 @@ ms.locfileid: "4423278"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

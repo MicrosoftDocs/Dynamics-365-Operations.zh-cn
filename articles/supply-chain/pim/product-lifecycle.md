@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 51a6b19e84f368bf72b664e120f262ddcf7c7611
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: cff4ee39d4c27e9a0dfc891e0f95278040ede877
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4423457"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999773"
 ---
 # <a name="product-lifecycle-state-overview"></a>产品生命周期状态概览
 
@@ -109,6 +108,3 @@ ms.locfileid: "4423457"
 - [为已发布的产品分配产品生命周期状态](tasks/product-lifecycle-state-released-product.md)
 - [查找过时的产品变型并分配产品生命周期状态](tasks/obsolete-product-variants.md)
 - [创建产品生命周期状态以从主计划中排除产品](tasks/exclude-products-master-planning.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

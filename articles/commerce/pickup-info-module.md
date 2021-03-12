@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 61b97d72b6a397737c10476cd6c02764e60f10b1
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: d04e2650f9c601d008ebf19080059b70416d7917
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665340"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000601"
 ---
 # <a name="pickup-information-module"></a>提货信息模块
 
@@ -70,6 +69,3 @@ ms.locfileid: "4665340"
 [订单确认模块](order-confirmation-module.md)
 
 [订单详细信息模块](account-management.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

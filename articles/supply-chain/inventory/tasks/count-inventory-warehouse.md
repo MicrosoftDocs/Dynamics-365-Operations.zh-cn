@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: InventJournalCount, InventJournalCreate, HcmWorkerLookUp, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 34013783bab79d80f1dac9a7806042608635e617
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0a7f85cb91f36004a6bd6da714e7baa460a83a66
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423265"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000079"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>盘点仓库中的库存
 
@@ -56,6 +55,3 @@ ms.locfileid: "4423265"
 1. 选择 **库存**。
 2. 选择 **交易记录**。 在这里，您可以查看过帐库存盘点日记帐时创建的所有相关交易记录。   
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

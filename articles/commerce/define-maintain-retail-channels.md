@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16481
 ms.assetid: 14496d96-1c72-43ce-a2e7-8467bab4ae46
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0fbca2c9178cd372653287afdf72deaf75442604
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 51524ad6918d962d70a8a700f135f96e236f7d34
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410403"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000867"
 ---
 # <a name="define-and-maintain-retail-channels"></a>定义和维护零售渠道
 
@@ -89,6 +88,3 @@ Commerce 使用组织层次机构来构造渠道。 组织层次结构表示构�
 > [!NOTE]
 > 要使用 Commerce 销售功能，**多次收货** 的配置键必须启用。 可以在 **系统管理** \> **设置** \> **许可证配置** 下的 **贸易配置** 键中找到此配置键。 由于会根据在销售订单行级别配置的交货地址执行各种验证，因此这是必需的。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
