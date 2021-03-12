@@ -14,12 +14,12 @@ ms.search.region: China (PRC)
 ms.author: kfend
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1e3ab14db4b1b0d922127f76da080932f7cb9f94
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6f97a326189e9d6f79b8a04b6716a4411180aa41
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686343"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744408"
 ---
 # <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management---operated-by-21vianet-in-china"></a>由世纪互联在中国运营的 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management
 
@@ -71,7 +71,7 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 
     -   [嵌入式 Power Apps](../../fin-ops/get-started/embed-power-apps.md) 和与 Microsoft Power Apps 和 Microsoft Power Automate 的连接将不可用。
 
-    -   [使用 Common Data Service 的数据集成概述](../data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json)将不可用。
+    -   [使用 Dataverse 的数据集成概述](../data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json)将不可用。
     
   > [!NOTE]
   > 由世纪互联在中国运营的实施的 Lifecycle Services URL 为 lcs.dynamics.cn。
@@ -96,6 +96,3 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 - [Azure 文档（中文）](https://docs.azure.cn/zh-cn/)
 - [中国区 Azure 21Vianet](https://docs.microsoft.com/azure/china/china-welcome)
 - [业务应用程序在中国的可用性 – 由世纪互联在中国运营](https://docs.microsoft.com/power-platform/admin/business-applications-availability-china)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

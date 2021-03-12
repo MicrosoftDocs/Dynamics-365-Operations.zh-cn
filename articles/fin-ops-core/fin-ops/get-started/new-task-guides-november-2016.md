@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 56545e56201180bf73420bf73f9a9f6e7a426b33
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 9c422b0d24c3f7bd4cd9b4b4d00fb26597bfdebb
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695029"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796674"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>新的或更新任务指南（2016 年 11 月）
 
@@ -547,6 +547,3 @@ ms.locfileid: "4695029"
 [新的或更新任务指南（2016 年 5 月）](new-updated-task-guides-available-may-2016.md)
 
 [新的或更新任务指南（2016 年 8 月）](new-updated-task-guides-available-august-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

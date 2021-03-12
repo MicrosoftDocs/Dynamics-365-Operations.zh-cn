@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c5b25ea3bc91ac427d0d57db45fbc4169895d3e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d2dee0b1eb911764ea68f9b6df5516bf2cb81d07
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693717"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798217"
 ---
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
@@ -255,6 +255,3 @@ ms.locfileid: "4693717"
 
 [缺少科目分析的键盘快捷方式](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2460d8c641a7e7b98b4fa5511636a1f0a47d372
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 41a3beca0fb373ba985a2d01dd15cdc5a60e2919
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693970"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797062"
 ---
 # <a name="number-sequences-overview"></a>编号规则概览
 
@@ -115,6 +115,3 @@ ms.locfileid: "4693970"
 如果电源故障、应用程序错误，或者其他意外故障的情况下，系统不能为连续编号规则自动回收编号。 您可以运行清除流程手动或自动恢复丢失的编号。
 
 当您计划清除过程时，应仔细考虑服务器使用。 我们建议您将清除作为批处理作业在非高峰期间执行。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

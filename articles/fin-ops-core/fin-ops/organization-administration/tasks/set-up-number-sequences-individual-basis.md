@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf06046c772cd128f5600ed319cc3d0d4457b07f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 260fae39d9a98feb7bfa82188c5b05de9a533136
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694707"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796622"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>逐个设置编号规则
 
@@ -40,6 +40,3 @@ ms.locfileid: "4694707"
 8. 展开 **常规** 部分。 在“常规”快速选项卡上，指定该编号规则是手动的、连续的还是间断的。 此外，输入可以用于该编号规则的最小编号和最大编号。 我们建议不要将间断的编号规则更改为连续的编号规则。 该编号规则将不是真正意义上的连续。 此更改还可能导致数据库中重复键违规。 此外，连续编号规则在执行时会有更大的效果。   
 9. 单击 **保存**。
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

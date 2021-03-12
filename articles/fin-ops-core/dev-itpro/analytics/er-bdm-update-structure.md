@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd279b28c43e22bec6bf814845fe97828bc96d81
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
+ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681320"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "4728081"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>更新业务文档模板的结构 
 
@@ -56,7 +56,7 @@ ms.locfileid: "4681320"
 5. 选择 **确定** 创建新模板。
 
     > [!NOTE]
-    > 如果您尚未登录 Office Online，将把您[定向到 Office 365 登录页面](er-business-document-management.md#i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page)。 要返回 Finance 环境，请在浏览器中选择 **后退** 按钮。
+    > 如果您尚未登录 Office Online，将把您[定向到 Office 365 登录页面](er-business-document-management.md#frequently-asked-questions)。 要返回 Finance 环境，请在浏览器中选择 **后退** 按钮。
 
     将打开新模板，以便在模板编辑器页面上的 Excel Online 嵌入式控件中进行编辑。
 
@@ -106,6 +106,3 @@ ms.locfileid: "4681320"
 [电子报告 (ER) 概览](general-electronic-reporting.md)
 
 [业务文档管理概览](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

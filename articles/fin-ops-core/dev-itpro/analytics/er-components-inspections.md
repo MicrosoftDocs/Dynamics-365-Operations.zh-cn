@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72db7660c07b2f57f8609ab6c14964193e842d75
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ba696fb7a8d9083d11cc29953cf1340a581afcf
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688559"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797333"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>检查配置的 ER 组件以防止运行时问题
 
 [!include[banner](../includes/banner.md)]
 
-配置的每个[电子申报 (ER)](general-electronic-reporting.md) [格式](general-electronic-reporting.md#FormatComponentOutbound)和[模型映射](general-electronic-reporting.md#data-model-and-model-mapping-components)组件都可以在设计时[验证](er-fillable-excel.md#validate-an-er-format)。 在此验证期间，将执行一致性检查以帮助防止可能发生的运行时问题，例如执行错误和性能降级。 将为发现的每个问题提供问题元素路径。 对于某些问题，可以使用自动修复。
+配置的每个[电子申报 (ER)](general-electronic-reporting.md) [格式](general-electronic-reporting.md#FormatComponentOutbound)和[模型映射](general-electronic-reporting.md#data-model-and-model-mapping-components)组件都可以在设计时[验证](er-fillable-excel.md#validate-an-er-format)。 在此验证期间，将运行一致性检查以帮助防止可能发生的运行时问题，例如执行错误和性能降级。 对于发现的每个问题，检查都会提供问题元素的路径。 对于某些问题，可以使用自动修复。
 
 默认情况下，在以下情况下，将自动对包含先前提到的 ER 组件的 ER 配置应用验证：
 
@@ -69,7 +68,7 @@ ms.locfileid: "4688559"
 2. 在 **配置** 页操作窗格中 **配置** 选项卡的 **高级设置** 组中，选择 **用户参数**。
 3. 将 **导入后验证配置** 选项设置为 **否**。
 
-要在版本状态更改或重定时跳过验证，请按照下列步骤操作。
+要在更改或重定版本状态时跳过验证，请按照下列步骤操作。
 
 1. 转到 **组织管理 \> 电子申报 \> 配置**。
 2. 在 **配置** 页操作窗格中 **配置** 选项卡的 **高级设置** 组中，选择 **用户参数**。
@@ -454,7 +453,7 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 
 #### <a name="option-2"></a>选项 2
 
-将 **JoinedList** 数据源的 **执行位置** 字段值从 **查询** 更改为 **在内存中**。 建议不要更改包含大量数据的表（事务表）的值，因为将提取所有记录，并且将在内存中执行联接。 因此，这种方法可能会导致性能低下。 将显示验证警告，以便告知您此风险。
+将 **JoinedList** 数据源的 **执行位置** 字段值从 **查询** 更改为 **在内存中**。 建议不要更改包含大量数据的表（事务表）的值，因为将提取所有记录，并且将在内存中发生联接。 因此，这种方法可能会导致性能低下。 将显示验证警告，以便告知您此风险。
 
 ## <a name="preferability-of-filter-vs-where-function"></a><a id="i7"></a>FILTER 与 WHERE 函数的偏好对比
 
@@ -489,11 +488,11 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 
 ### <a name="manual-resolution"></a>手动解决
 
-可以通过将 **WHERE** 函数替换为 **FILTER** 函数，手动调整验证网格中提及的所有数据源的表达式。
+可以通过将 **WHERE** 函数替换为 **FILTER** 函数，手动调整验证网格中所有数据源的表达式。
 
 ## <a name="preferability-of-allitemsquery-vs-allitems-function"></a><a id="i8"></a>ALLITEMSQUERY 相比 ALLITEMS 函数的偏好对比
 
-内置的 [ALLITEMS](er-functions-list-allitems.md) 和 [ALLITEMSQUERY](er-functions-list-allitemsquery.md) ER 函数用于获取一个平展 **记录列表** 值，该值由表示与指定路径匹配的所有项的记录的列表构成。 ER 检查是否可以为 **ALLITEMS** 函数中引用的数据源建立直接 SQL 调用。 如果无法建立直接调用，ER 模型映射设计器中会发生验证警告。 您收到的消息建议您使用 **ALLITEMSQUERY** 函数而不是 **ALLITEMS** 函数来帮助提高效率。
+内置的 [ALLITEMS](er-functions-list-allitems.md) 和 [ALLITEMSQUERY](er-functions-list-allitemsquery.md) ER 函数返回一个平展 **记录列表** 值，该值由表示与指定路径匹配的所有项的记录的列表构成。 ER 检查是否可以为 **ALLITEMS** 函数中引用的数据源建立直接 SQL 调用。 如果无法建立直接调用，ER 模型映射设计器中会发生验证警告。 您收到的消息建议您使用 **ALLITEMSQUERY** 函数而不是 **ALLITEMS** 函数来帮助提高效率。
 
 以下步骤显示可能会如何发生此问题。
 
@@ -573,11 +572,11 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 
     ![在“格式设计器”页面上验证绑定到数据源的格式元素](./media/er-components-inspections-09c.png)
 
-16. 请注意，发生了验证错误。 此消息表示，如果 **model.Vendor** 列表为空，在运行时可能为配置的 **Statement\\Party\\Name** 和 **Statement\\Party\\AccountNum** 格式组件引发错误。
+16. 请注意，发生了验证错误。 此消息表示，如果 `model.Vendor` 列表为空，在运行时可能为配置的 **Statement\\Party\\Name** 和 **Statement\\Party\\AccountNum** 格式组件引发错误。
 
     ![通知有关配置的格式组件的潜在错误的验证错误](./media/er-components-inspections-09d.png)
 
-下图显示了如果忽略此警告，选择 **运行** 以运行格式，然后选择不存在的供应商的帐号，将出现的运行时错误。 因为请求的供应商不存在，**model.Vendor** 列表将为空（即，其中将不包含任何记录）。
+下图显示了如果忽略此警告，选择 **运行** 以运行格式，然后选择不存在的供应商的帐号，将出现的运行时错误。 因为请求的供应商不存在，`model.Vendor` 列表将为空（即，其中将不包含任何记录）。
 
 ![格式映射运行期间因此发生的运行时错误](./media/er-components-inspections-09e.png)
 
@@ -589,15 +588,15 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 
 #### <a name="option-1"></a>选项 1
 
-您可以将 **Statement\\Party\\Name** 格式元素绑定到 **model.Vendor** 数据源项。 在运行时，此绑定首先调用 **model.Vendor** 数据源。 当 **model.Vendor** 返回空记录列表时，将不运行嵌套的格式元素。 因此，此格式配置不发生验证警告。
+您可以将 **Statement\\Party\\Name** 格式元素绑定到 `model.Vendor` 数据源项。 在运行时，此绑定首先调用 `model.Vendor` 数据源。 当 `model.Vendor` 返回空记录列表时，将不运行嵌套的格式元素。 因此，此格式配置不发生验证警告。
 
 ![在“格式设计器”页面上将格式元素绑定到数据源项](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>选项 2
 
-将 **Statement\\Party\\Name** 格式元素的绑定从 `model.Vendor.Name` 更改为 `FIRSTORNULL(model.Vendor).Name`。 更新后的绑定将有条件地把类型为 **记录列表** 的 **model.Vendor** 数据源的第一个记录转换为类型为 **记录** 的新数据源。 这个新数据源中包含同一组字段。
+将 **Statement\\Party\\Name** 格式元素的绑定从 `model.Vendor.Name` 更改为 `FIRSTORNULL(model.Vendor).Name`。 更新后的绑定将有条件地把类型为 **记录列表** 的 `model.Vendor` 数据源的第一个记录转换为类型为 **记录** 的新数据源。 这个新数据源中包含同一组字段。
 
-- 如果 **model.Vendor** 数据源中至少有一个记录，则将使用 **model.Vendor** 数据源的第一个记录的字段的值填充该记录的字段。 在这种情况下，更新后的绑定将返回供应商名称。
+- 如果 `model.Vendor` 数据源中至少有一个记录，则将使用 `model.Vendor` 数据源的第一个记录的字段的值填充该记录的字段。 在这种情况下，更新后的绑定将返回供应商名称。
 - 否则，将使用创建的记录的每个字段的数据类型默认值填充这些字段。 在此情况下，返回的 **字符串** 数据类型默认值为空白字符串。
 
 因此，绑定到 `FIRSTORNULL(model.Vendor).Name` 表达式时，**Statement\\Party\\Name** 格式元素不会发生验证警告。
@@ -606,13 +605,13 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 
 #### <a name="option-3"></a>选项 3
 
-如果要显式指定当类型为 **记录列表** 的 **model.Vendor** 数据源中不包含任何记录时在生成的文档中输入的数据（此示例中为文本 **不可用**），请将 **Statement\\Party\\Name** 格式元素的绑定从 `model.Vendor.Name` 更改为 `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`。 也可以使用表达式 `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`。
+如果要显式指定当类型为 **记录列表** 的 `model.Vendor` 数据源中不包含任何记录时在生成的文档中输入的数据（此示例中为文本 **不可用**），请将 **Statement\\Party\\Name** 格式元素的绑定从 `model.Vendor.Name` 更改为 `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`。 也可以使用表达式 `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`。
 
 ### <a name="additional-consideration"></a><a id="i9a"></a>其他注意事项
 
-此检查还会向您警示另一个潜在问题。 默认情况下，在将 **Statement\\Party\\Name** 和 **Statement\\Party\\AccountNum** 格式元素绑定到类型为 **记录列表** 的 **model.Vendor** 数据源的相应字段时，这些绑定将运行，并采用 **model.Vendor** 数据源第一个记录的相应字段（如果该列表非空）。
+此检查还会向您警示另一个潜在问题。 默认情况下，在将 **Statement\\Party\\Name** 和 **Statement\\Party\\AccountNum** 格式元素绑定到类型为 **记录列表** 的 `model.Vendor` 数据源的相应字段时，这些绑定将运行，并采用 `model.Vendor` 数据源第一个记录的相应字段（如果该列表非空）。
 
-因为尚未将 **Statement\\Party** 格式元素与 **model.Vendor** 数据源绑定，因此在格式执行期间将不针对 **model.Vendor** 数据源的每个记录迭代 **Statement\\Party** 元素。 相反，如果记录列表中包含多个记录，则仅使用该列表的第一个记录中的信息填充生成的文档。 因此，如果该格式用于使用有关 **model.Vendor** 数据源中的所有供应商的信息填充生成的文档，可能会出错。 若要解决此问题，请将 **Statement\\Party** 元素与 **model.Vendor** 数据源绑定。
+因为尚未将 **Statement\\Party** 格式元素与 `model.Vendor` 数据源绑定，因此在格式执行期间将不针对 `model.Vendor` 数据源的每个记录迭代 **Statement\\Party** 元素。 相反，如果记录列表中包含多个记录，则仅使用该列表的第一个记录中的信息填充生成的文档。 因此，如果该格式用于使用有关 `model.Vendor` 数据源中的所有供应商的信息填充生成的文档，可能会出错。 若要解决此问题，请将 **Statement\\Party** 元素与 `model.Vendor` 数据源绑定。
 
 ## <a name="executability-of-an-expression-with-filter-function-caching"></a><a id="i10"></a>带 FILTER 函数的表达式的可执行性（高速缓存）
 
@@ -699,7 +698,7 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 
 14. 按照以下方法将格式元素绑定到提供的数据源：
 
-    - 将 **Statement\\Party** 格式元素绑定到 **model.Vendor** 数据源项。
+    - 将 **Statement\\Party** 格式元素绑定到 `model.Vendor` 数据源项。
     - 将 **Statement\\Party\\Name** 格式元素绑定到 **model.Vendor.Name** 数据源字段。
     - 将 **Statement\\Party\\AccountNum** 格式元素绑定到 **model.Vendor.AccountNumber** 数据源字段。
 
@@ -813,6 +812,3 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 [跟踪电子申报格式的执行以解决性能问题](trace-execution-er-troubleshoot-perf.md)
 
 [业务文档管理概览](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

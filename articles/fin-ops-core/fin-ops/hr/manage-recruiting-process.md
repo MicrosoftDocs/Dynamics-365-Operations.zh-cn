@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6f440a42ea475a42c803475d82e3027625bf4db
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 71e30a30aee5edcea2e24b326b0f263612b6b897
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694901"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798035"
 ---
 # <a name="manage-recruiting-processes"></a>管理招聘流程
 
@@ -103,6 +103,3 @@ web 的申请人所提交的雇用申请表已输入响应工作广告的非主�
 ## <a name="hiring-applicants"></a>雇用申请人
 
 使用 **申请** 页雇用申请人。 在您雇用申请人时，申请记录将具有 **已雇用** 的状态，并且申请人的全球通讯簿人员记录与新工作人员记录关联。 修改全球通讯簿信息，新的工作人员记录在申请人记录中显示。 如果新工作人员在您的企业中申请不同的工作，这可能有助于减少数据输入。 若要雇用现有工作人员到新职位，请单击 **申请状态** 下拉列表中的 **变更职位** 以开始转移流程。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: e2b652f11db62eb58ffc2ec2fc4322149e7d45d1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5132fd85fdf2c08ccded9db590328c394a2f984e
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680064"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744685"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Dataverse 中的组织层次结构
 
@@ -49,9 +49,9 @@ ms.locfileid: "4680064"
 
 Finance and Operations 应用 | 其他 Dynamics 365 应用 | 说明
 -----------------------|--------------------------------|---
-组织层次结构目的 | msdyn_internalorganizationhierarchypurposes | 此模板提供组织层次结构目的实体的单向同步。
-组织层次结构类型 | msdyn_internalorganizationhierarchytypes | 此模板提供组织层次结构类型实体的单向同步。
-组织层次结构 - 已发布 | msdyn_internalorganizationhierarchies | 此模板提供组织层次结构已发布实体的单向同步。
+组织层次结构目的 | msdyn_internalorganizationhierarchypurposes | 此模板提供组织层次结构目的表的单向同步。
+组织层次结构类型 | msdyn_internalorganizationhierarchytypes | 此模板提供组织层次结构类型表的单向同步。
+组织层次结构 - 已发布 | msdyn_internalorganizationhierarchies | 此模板提供组织层次结构已发布表的单向同步。
 运营单位 | msdyn_internalorganizations |
 法人 | msdyn_internalorganizations |
 法人 | cdm_companies | 提供法人实体（公司）信息的双向同步。
@@ -73,6 +73,3 @@ Dataverse 中的内部组织信息来自两个表：**运营单位** 和 **法�
 [!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
 
 [!include [Legal entities](includes/LegalEntities-Companies.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

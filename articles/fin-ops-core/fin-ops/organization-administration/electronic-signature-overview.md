@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df7f842477ddfb88662f37ae311215f08c6b0173
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 051bb023d3456dae0be30de3897b282c2d50c5af
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693176"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797620"
 ---
 # <a name="electronic-signatures-overview"></a>电子签名概览
 
@@ -109,6 +109,3 @@ ms.locfileid: "4693176"
 1. 在 **选项** 页，在 **帐户** 选项卡上，单击 **指定审核人**。
 2. 在 **审核人用户 ID** 字段中，选择必须为其他用户的更改签名的用户的 ID。
 3. 在 **为其签名的用户 ID** 字段中，选择必须为其更改签名的用户的 ID。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

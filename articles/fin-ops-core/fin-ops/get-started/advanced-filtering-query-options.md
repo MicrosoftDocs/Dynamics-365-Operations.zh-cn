@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b867099b131594a64cad102e50ead7c355594f2b
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 650f1c209b1797973634c788645a4659bff28f13
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694535"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798662"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>高级筛选和查询语法
 
@@ -242,6 +242,3 @@ ms.locfileid: "4694535"
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

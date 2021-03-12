@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: adbc9d0bc4632c661b40001a54685192b9ae2d23
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694128"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798541"
 ---
 # <a name="before-you-buy"></a>购买之前
 
@@ -30,7 +30,7 @@ Dynamics 365 Finance、Dynamics 365 Supply Chain Management 或 Dynamics 365 Com
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>步骤一：免费试用 Finance and Operations 30 天
 
-你只需简单注册一个电子邮箱即可试用 Dynamics 365 for Finance、Dynamics 365 Supply Chain Management 或 Dynamics 365 Commerce 30 天。 Finance and Operations 应用程序试用版本包括入门任务指导，该指导提供允许你在操作中查看特定方案的分步说明。 该产品可用于探索和体验方案，但无法自定义。 包括演示数据以帮助你轻松使用产品并使体验更有意义。 在试用期到期前 3 天将发送一封提醒电子邮件。 在 [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations) 获取详细信息。
+你只需简单注册一个电子邮箱即可试用 Dynamics 365 for Finance、Dynamics 365 Supply Chain Management 或 Dynamics 365 Commerce 30 天。 Finance and Operations 应用程序试用版本包括入门任务指导，该指导提供允许你在操作中查看特定方案的分步说明。 该产品可用于探索和体验方案，但无法自定义。 包括演示数据以帮助你轻松使用产品并使体验更有意义。 在试用期到期前 3 天将发送一封提醒电子邮件。 在[注册预览订阅](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe)获取详细信息。
 
 ## <a name="step-two-choose-a-deployment-option"></a>步骤二：选择部署选项
 
@@ -93,6 +93,3 @@ Microsoft FastTrack for Dynamics 365 是我们的客户成功服务，旨在帮�
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>如果您要从 Dynamics AX 2012 升级或从 AX 2009 迁移
 
 如果您是准备从 Microsoft Dynamics AX 2012 升级或从 Microsoft Dynamics AX 2009 迁移的客户，您可能有资格获得更长的试用期。 联系 <daxcf@microsoft.com> 以获取详细信息。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

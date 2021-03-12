@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4411a6b72dbb7e6f5b1a72df8dbcbd54e265164c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693394"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797776"
 ---
 # <a name="enter-payroll-beginning-balances"></a>输入工资期初余额
 
@@ -166,6 +166,3 @@ ms.locfileid: "4693394"
 2. 显示以下消息时单击 **是**：“在您冲销此工资单时，将创建冲销中工资单用于抵消此工资单。 任何一个工资单均无法编辑。 是否希望冲销此工资单？” 。 
 
 在你冲销工资单后，可以从你以前创建的收益表为工作人员生成新的工资单。 在生成新的工资单前，确保更正收益表上的任何不正确的行，然后使用正确的金额生成新的工资单。 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

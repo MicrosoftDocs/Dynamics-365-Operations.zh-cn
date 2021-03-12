@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 82c8172958f819735ea3f29fc331272f80b3a25a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a0f7391273e2374bdd136c5db47bcb65487e2a9c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692958"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798344"
 ---
 # <a name="feature-management-overview"></a>功能管理概览
 
@@ -101,8 +101,8 @@ ms.locfileid: "4692958"
 
 默认情况下，将关闭向您的环境添加的所有功能，除非是必需功能。 但是，如果要自动开启所有新功能，可使用工作区磁贴下方的下拉列表更改添加新功能时显示的内容。
 
-- 选择 **自动启用新功能**，以便在向您的环境添加新功能时，自动开启所有新功能。
-- 选择 **不自动启用新功能**，以便在向您的环境添加新功能时，默认关闭所有新功能。
+- 选择 `Enable new features automatically`，以在向您的环境添加新功能时，自动开启所有新功能。
+- 选择 `Do not enable new features automatically`，以在向您的环境添加新功能时，默认关闭所有新功能。
 
 
 自动启用所有功能时，将启用在您单击 **全部启用** 按钮时要启用的所有功能。 不会启用需要确认的功能或执行操作后才能启用的功能。
@@ -199,10 +199,7 @@ internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMet
 
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>一些功能类实现的 IFeatureLifecycle 是什么？
 IFeatureLifecycle 是 Microsoft 内部的一种机制，用于指示功能生命周期阶段。 功能可以是：
-- PrivatePreview - 需要外部测试版可见。
-- PublicPreview - 默认显示，但具有该功能处于预览状态的警告。
-- Released - 已完全发布。
+- `PrivatePreview` - 需要外部测试版可见。
+- `PublicPreview` - 默认显示，但具有该功能处于预览状态的警告。
+- `Released` - 已完全发布。
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

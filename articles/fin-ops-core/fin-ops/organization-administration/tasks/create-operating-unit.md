@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0157e7e080f6b65dc6b3bb8f01ace5b521bb3dca
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 70a57741340df2aec5c20dc576672b6acc8343dd
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694805"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796722"
 ---
 # <a name="create-an-operating-unit"></a>创建运营单位
 
@@ -41,6 +41,3 @@ ms.locfileid: "4694805"
     + 输入关于通信方法的信息，例如电子邮件地址、URL 和电话号码。 要输入新的通信记录，请单击“新建”。 要修改现有通信记录，请单击 **更多选项 > 高级**。   
 6. （可选）根据需要更改 **运营单位编号**。 请注意，此编号是相应 **当事方** 记录的唯一标识符，不能与其他任何运营单位相同。
 7. 选择 **保存**。
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

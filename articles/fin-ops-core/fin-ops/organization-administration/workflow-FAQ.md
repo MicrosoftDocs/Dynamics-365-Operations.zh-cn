@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 785b14d20a647ea2187f311f1cd056b8181d4849
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694048"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797383"
 ---
 # <a name="workflow-faq"></a>工作流常见问题
 
@@ -59,6 +59,3 @@ ms.locfileid: "4694048"
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>什么是“工作流增强错误”功能？
 版本 10.0.13 中的“工作流增强错误”功能添加了错误代码来区分不同的工作流错误类。 报告的错误消息大致相似，只有微小差异，以使它们更清晰。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

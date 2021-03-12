@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4e7ed6feaa1b5b27fcfc0ec99a2d75415fe7d6a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8015d4e32da2ba80230aa0ad48576948f2fd1678
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693056"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797742"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>确定和部署候选人选择工具
 
@@ -57,6 +57,3 @@ ms.locfileid: "4693056"
 24. 关闭该页面。
 25. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

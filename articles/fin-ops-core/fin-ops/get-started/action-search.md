@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b5d2e678b01f052db29d5a1c47eae27d27cd04f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694180"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798639"
 ---
 # <a name="action-search"></a>操作搜索
 
@@ -35,7 +35,7 @@ ms.locfileid: "4694180"
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 
-“键提示”不再可用，已经替换为操作搜索功能。 这一新的功能允许您迅速搜索和运行所有可见操作窗格中的按钮。
+操作搜索功能取代了“键提示”，后者不能再使用。 这一新的功能允许您迅速搜索和运行所有可见操作窗格中的按钮。
 
 ## <a name="using-action-search"></a>使用操作搜索
 
@@ -53,7 +53,7 @@ ms.locfileid: "4694180"
 
 ## <a name="understanding-the-results-list"></a>了解结果列表
 
-通常，必须知道按钮的位置和环境以充分了解该按钮的用途。 因此，每个物料的附加信息将显示在结果列表，可帮助您确切了解哪些按钮出现在列表中。 特别是按钮“路径”将显示。 该路径可能包括以下相关 UI 元素的标签：
+通常，必须知道按钮的位置和环境以充分了解该按钮的用途。 因此，结果列表显示附加信息来帮助您确切了解哪些按钮出现在列表中。 特别是按钮“路径”将显示。 该路径可能包括以下相关 UI 元素的标签：
 
 - “操作窗格”选项卡
 - 按钮组
@@ -75,6 +75,3 @@ ms.locfileid: "4694180"
 ## <a name="action-search-vs-navigation-search"></a>操作搜索与导航搜索
 
 操作搜索用于在页面上查找和运行操作，而查找和导航到页面存在单独的搜索机制。 有关该功能的详细信息，请参阅[导航搜索](navigation-search.md)一文。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

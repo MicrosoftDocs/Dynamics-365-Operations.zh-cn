@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7b5d0bfdee219b5003a3fdf62f81890bb81aecad
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ab03e28b3e42d02395da01024bc3bcf4dbcd5abf
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694204"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798086"
 ---
 # <a name="employment-verification-i9-verification"></a>雇用验证 i9 验证
 
@@ -54,6 +54,3 @@ ms.locfileid: "4694204"
 22. 在“单据编号”字段中，输入或选择一个值。
 23. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

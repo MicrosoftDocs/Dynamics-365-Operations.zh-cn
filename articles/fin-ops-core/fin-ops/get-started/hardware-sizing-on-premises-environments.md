@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b89135cd9e951e690e53c1b4bf98dfcb03f2d652
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 9d4f2e59d4dd78d15d561ff0da47e4b9b1a2fce3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694461"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798296"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>针对本地环境的硬件规模调整要求
 
@@ -141,6 +141,3 @@ Orchestrator 服务是用于管理你的部署和与 LCS 的相关通信的服�
 ## <a name="virtualization-and-oversubscription"></a>虚拟化和过度订阅
 
 关键任务服务（如 AOS）应在具有专用资源（核心、内存和磁盘）的虚拟机上托管。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 47c07dd0e2f311b61297340a48a5a31cb1de3903
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 78a7cdc18476a1c523c83c92ca6f354c3ba806dc
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685657"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744845"
 ---
 # <a name="guidance-for-dual-write-setup"></a>双写入设置指南
 
@@ -36,7 +36,7 @@ ms.locfileid: "4685657"
 可以在 Finance and Operations 环境与 Dataverse 环境之间建立双写入连接。
 
 + **Finance and Operations 环境** 为 **Finance and Operations 应用**（如 Microsoft Dynamics 365 Finance、Dynamics 365 Supply Chain Management、Dynamics 365 Commerce 和 Dynamics 365 Human Resources）提供基础平台。
-+ **Dataverse 环境** 为 **Customer Engagement 应用**（Dynamics 365 Sales、Dynamics 365 Customer Service、Dynamics 365 Field Service、Dynamics 365 Marketing 和 Dynamics 365 Project Service Automation）提供基础平台。
++ **Dataverse 环境** 为 **客户互动应用**（Dynamics 365 Sales、Dynamics 365 Customer Service、Dynamics 365 column Service、Dynamics 365 Marketing 和 Dynamics 365 Project Service Automation）提供基础平台。
 
 > [!IMPORTANT]
 > Dynamics 365 Finance 中的 Human Resources 模块支持双写入连接，但 Dynamics 365 Human Resources 应用不支持。
@@ -138,6 +138,3 @@ ms.locfileid: "4685657"
 有关示例，请参见[启用客户 V3 到联系人的表映射](enable-entity-map.md#enable-table-map)
 
 有关基于每个实体中必须运行初始同步的数据量的替代方法，请参阅[初始同步的注意事项](initial-sync-guidance.md)。
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

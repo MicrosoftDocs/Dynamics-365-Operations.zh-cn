@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60e6fb7d38bd3ca78538ca10a15f6fb09bba52a3
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693896"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796890"
 ---
 # <a name="address-books-faq"></a>通讯簿常见问题
 
@@ -67,6 +67,3 @@ ms.locfileid: "4693896"
 ## <a name="can-i-translate-address-information-for-party-records"></a>是否可以转换当事方记录的地址信息？
 
 您可以设置地址信息的转换以便该信息在程序中用您的用户语言（系统语言）显示，不过在文档上用其他语言，如用销售订单。 您可以输入国家/地区名称的转换、地址目的和姓名顺序。 例如，您的系统语言为丹麦语，并且您用法语为客户创建销售订单。 在这种情况下，您可以在程序中用丹麦语查看客户记录，但在打印的销售订单上用法语显示地址信息。 在您设置转换时，在列表中应输入每个物料的一个转换。 未输入转换的所有物料将出现在系统语言。 例如，您的系统语言为丹麦语，并且您用西班牙语发送文档到一个客户。 如果您未输入地址信息的西班牙语 (ESP) 转换，该信息在程序中和文档上用丹麦语显示。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

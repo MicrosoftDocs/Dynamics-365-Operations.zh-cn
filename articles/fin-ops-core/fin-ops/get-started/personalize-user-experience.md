@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e46c392c43b63ef443f66d8ea8f9e91a9df3d126
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693224"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797482"
 ---
 # <a name="personalize-the-user-experience"></a>打造个性化的用户体验
 
@@ -195,6 +195,3 @@ ms.locfileid: "4693224"
 个性化页面中的库存维度设置时，请注意已通过使用 **显示维度** 选项创建的设置。 例如，您使用个性化设置隐藏批次编号库存维度的一个列，但下次打开该页时显示这列。 发生此行为是因为 **维度显示** 设置控制显示的库存维度列。 **维度显示** 设置应用于所有页，并覆盖单个页中的库存维度字段的所有个性化设置。
 
 因此，在前面的示例中，如果不希望在页中显示批次编号库存维度的列，必须在该页的 **显示维度** 选项中清除该维度。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

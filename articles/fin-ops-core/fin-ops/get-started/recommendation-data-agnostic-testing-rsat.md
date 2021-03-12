@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7fd1fc4756e74a5d07ffae533b6b9837b960f17a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693741"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798193"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>使用 Regression Suite Automation Tool 的数据不可知测试
 
@@ -49,6 +49,3 @@ ms.locfileid: "4693741"
     - 仅在筛选了特定交易记录后才验证，而不是进行常规验证。 例如，对于记录数量，筛选交易记录编号或交易记录日期，以便验证中排除其他所有交易记录。 
     - 如果检查客户余额或预算检查，请首先保存值，然后添加交易记录值以验证预期结果，而不是验证固定预期值。 
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

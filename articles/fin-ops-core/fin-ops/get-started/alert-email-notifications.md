@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: bf485b407d56b21621617682bab3492925f7f9a4
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a1d520584e331631bb5a6a88ba6c9a8b50b3d29e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693814"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798615"
 ---
 # <a name="client-alert-notifications-by-email"></a>通过电子邮件发送的客户端预警通知
 
@@ -50,6 +50,3 @@ ms.locfileid: "4693814"
 以下图像显示通过电子邮件收到预警通知时预警通知的结构。
 
 [![用户记录创建、字段更改和模板删除的基于模板的预警通知](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

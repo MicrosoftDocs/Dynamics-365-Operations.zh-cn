@@ -1,6 +1,6 @@
 ---
-title: 设置销售订单状态字段的映射
-description: 本主题说明如何为双写入设置销售订单状态字段。
+title: 设置销售订单状态列的映射
+description: 本主题说明如何为双写入设置销售订单状态列。
 author: dasani-madipalli
 manager: tonyafehr
 ms.date: 06/25/2020
@@ -18,22 +18,22 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4450133"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744291"
 ---
-# <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>设置销售订单状态字段的映射
+# <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>设置销售订单状态列的映射
 
 [!include [banner](../../includes/banner.md)]
 
-指示销售订单状态的字段在 Microsoft Dynamics 365 Supply Chain Management 和 Dynamics 365 Sales 中具有不同的枚举值。 采用双写入映射这些字段需要进行其他设置。
+指示销售订单状态的列在 Microsoft Dynamics 365 Supply Chain Management 和 Dynamics 365 Sales 中具有不同的枚举值。 采用双写入映射这些列需要进行其他设置。
 
-## <a name="fields-in-supply-chain-management"></a>Supply Chain Management 中的字段
+## <a name="columns-in-supply-chain-management"></a>Supply Chain Management 中的列
 
-在 Supply Chain Management 中，两个字段反映销售订单的状态。 您必须映射的字段是 **状态** 和 **文档状态**。
+在 Supply Chain Management 中，两个列反映销售订单的状态。 您必须映射的列是 **状态** 和 **文档状态**。
 
 **状态** 枚举指定订单的整体状态。 此状态显示在订单标题上。
 
@@ -53,9 +53,9 @@ ms.locfileid: "4450133"
 - 装箱单
 - 账单
 
-## <a name="fields-in-sales"></a>Sales 中的字段
+## <a name="columns-in-sales"></a>Sales 中的列
 
-在 Sales 中，两个字段指示订单的状态。 您必须映射的字段是 **状态** 和 **处理状态**。
+在 Sales 中，两个列指示订单的状态。 您必须映射的列是 **状态** 和 **处理状态**。
 
 **状态** 枚举指定订单的整体状态。 它具有以下值：
 
@@ -95,7 +95,7 @@ ms.locfileid: "4450133"
 
 ## <a name="setup"></a>设置
 
-要为销售订单状态字段设置映射，必须启用 **IsSOPIntegrationEnabled** 和 **isIntegrationUser** 属性。
+要为销售订单状态列设置映射，必须启用 **IsSOPIntegrationEnabled** 和 **isIntegrationUser** 属性。
 
 要启用 **IsSOPIntegrationEnabled** 属性，请按照下列步骤操作。
 
@@ -110,14 +110,14 @@ ms.locfileid: "4450133"
     Xrm.WebApi.updateRecord("organization",
     "d9a7c5f7-acbf-4aa9-86e8-a891c43f748c", {"issopintegrationenabled" :
     true}).then(
-        function success(result) {
-            console.log("Account updated");
-            // perform operations on record update
-        },
-        function (error) {
-            console.log(error.message);
-            // handle error conditions
-        }
+        function success(result) {
+            console.log("Account updated");
+            // perform operations on row update
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
     );
     ```
 
@@ -129,13 +129,13 @@ ms.locfileid: "4450133"
 
 要启用 **isIntegrationUser** 属性，请按照下列步骤操作。
 
-1. 在 Sales 中，转到 **设置 \> 自定义 \> 自定义系统**，选择 **用户实体**，然后打开 **窗体 \> 用户**。
+1. 在 Sales 中，转到 **设置 \> 自定义 \> 自定义系统**，选择 **用户表**，然后打开 **窗体 \> 用户**。
 
     ![打开用户窗体](media/sales-map-user.png)
 
 2. 在字段资源管理器中，找到 **集成用户模式**，然后双击它将它添加到窗体中。 保存所做的更改。
 
-    ![将“集成用户模式”字段添加到窗体](media/sales-map-field-explorer.png)
+    ![将“集成用户模式”列添加到窗体](media/sales-map-field-explorer.png)
 
 3. 在 Sales 中，转到 **设置 \> 安全 \> 用户**，将视图从 **已启用用户** 更改为 **应用程序用户**。
 
@@ -145,11 +145,8 @@ ms.locfileid: "4450133"
 
     ![应用程序用户列表](media/sales-map-user-mode.png)
 
-5. 将 **集成用户模式** 字段的值更改为 **是**。
+5. 将 **集成用户模式** 列的值更改为 **是**。
 
-    ![更改“集成用户模式”字段的值](media/sales-map-user-mode-yes.png)
+    ![更改“集成用户模式”列的值](media/sales-map-user-mode-yes.png)
 
 现在，您的销售订单已映射。
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

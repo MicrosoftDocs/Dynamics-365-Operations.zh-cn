@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ca12759096bd1bafda0a5eee18287a694083db69
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685555"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744605"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>解决实时同步问题
 
@@ -46,11 +46,11 @@ ms.locfileid: "4685555"
 
 要解决此问题，请按照[系统要求和先决条件](requirements-and-prerequisites.md)中的步骤操作。 要完成这些步骤，在 Dataverse 中创建的双写入应用程序用户必须具有系统管理员角色。 默认的负责团队也必须具有系统管理员角色。
 
-## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>在 Finance and Operations 应用中创建行时，任何实体的实时同步都会引发类似的错误
+## <a name="live-synchronization-for-any-table-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>在 Finance and Operations 应用中创建行时，任何表的实时同步都会引发类似的错误
 
 **解决此问题所需的角色：** 系统管理员
 
-每次尝试在 Finance and Operations 应用中保存实体数据时，您可能会收到以下这样的错误消息：
+每次尝试在 Finance and Operations 应用中保存表数据时，您可能会收到以下这样的错误消息：
 
 *无法将更改保存到数据库。工作单元无法提交事务。无法将数据写入实体 uoms。写入 UnitOfMeasureEntity 失败，并显示错误消息“无法与实体 uoms 同步”。*
 
@@ -58,8 +58,8 @@ ms.locfileid: "4685555"
 
 如果两处都存在数据，并且您已确认问题与数据无关，请按照以下步骤操作。
 
-1. 停止相关实体。
-2. 登录到 Finance and Operations 应用，并确保失败行的记录存在于 DualWriteProjectConfiguration 和 DualWriteProjectFieldConfiguration 表中。 例如，以下是 **客户** 实体失败时查询将呈现的类似状态。
+1. 停止相关表。
+2. 登录到 Finance and Operations 应用，并确保失败表的行存在于 DualWriteProjectConfiguration 和 DualWriteProjectFieldConfiguration 表中。 例如，以下是 **客户** 表失败时查询将呈现的类似状态。
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -68,7 +68,7 @@ ms.locfileid: "4685555"
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. 即使停止表映射后，如果仍有失败实体的行，请删除与失败实体相关的行。 记下 DualWriteProjectConfiguration 表中的 **projectname** 列，并通过使用项目名称删除行来获取 DualWriteProjectFieldConfiguration 表中的记录。
+3. 即使停止表映射后，如果仍有失败表的行，请删除与失败表相关的行。 记下 DualWriteProjectConfiguration 表中的 **projectname** 列，并通过使用项目名称删除行来获取 DualWriteProjectFieldConfiguration 表中的行。
 4. 开始表映射。 验证数据是否同步，没有任何问题。
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>在 Finance and Operations 应用中创建数据时处理读或写权限错误
@@ -127,6 +127,3 @@ ms.locfileid: "4685555"
 
 3. 确保 **externalenvironmentURL** 列具有正确的 Dataverse 或应用 URL。 删除任何指向错误的 Dataverse URL 的重复行。 删除 DUALWRITEPROJECTFIELDCONFIGURATION 和 DUALWRITEPROJECTCONFIGURATION 表中的相应行。
 4. 停止表映射，然后重新开始映射
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

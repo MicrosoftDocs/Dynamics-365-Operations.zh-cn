@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: a7ba4fa4771324b4bcb8464649bd8ce8f32024c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a2f0e0cbf0f8710dc020a48506775fa28df9c2d2
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683544"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744629"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>解决初始同步过程中的问题
 
@@ -98,7 +98,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 ## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-table-mapping"></a><a id="error-vendor-map"></a>解决供应商 V2–to–msdyn_vendors 表映射中的错误
 
-如果表具有在 **PrimaryContactPersonId** 和 **InvoiceVendorAccountNumber** 字段中存在值的现有行，在将 **供应商 V2** 映射到 **msdyn\_vendors** 时，您可能会遇到初始同步错误。 发生这些错误是因为 **InvoiceVendorAccountNumber** 在供应商映射中是一个自引用字段，**PrimaryContactPersonId** 是一个循环引用。
+如果表具有在 **PrimaryContactPersonId** 和 **InvoiceVendorAccountNumber** 列中存在值的现有行，在将 **供应商 V2** 映射到 **msdyn\_vendors** 时，您可能会遇到初始同步错误。 发生这些错误是因为 **InvoiceVendorAccountNumber** 在供应商映射中是一个自引用列，**PrimaryContactPersonId** 是一个循环引用。
 
 您收到的错误消息将为以下形式。
 
@@ -109,26 +109,26 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 - *无法解析字段的 GUID：msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid。未找到查找值：000056。请尝试使用此 URL 检查引用数据是否存在：`https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *无法解析字段的 GUID：msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber。未找到查找值：V24-1。请尝试使用此 URL 检查引用数据是否存在：`https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-如果供应商实体中的任何行在 **PrimaryContactPersonId** 和 **InvoiceVendorAccountNumber** 字段中都具有值，请按照以下步骤完成初始同步。
+如果供应商表中的任何行在 **PrimaryContactPersonId** 和 **InvoiceVendorAccountNumber** 列中都具有值，请按照以下步骤完成初始同步。
 
-1. 在 Finance and Operations 应用中，从映射中删除 **PrimaryContactPersonId** 和 **InvoiceVendorAccountNumber** 字段，然后保存映射。
+1. 在 Finance and Operations 应用中，从映射中删除 **PrimaryContactPersonId** 和 **InvoiceVendorAccountNumber** 列，然后保存映射。
 
     1. 在 **供应商 V2 (msdyn\_vendors)** 的双写入映射页面上，在 **表映射** 选项卡上，在左侧的筛选器中，选择 **Finance and Operations apps.Vendors V2**。 在右侧的筛选器中，选择 **Sales.Vendor**。
-    2. 搜索 **primarycontactperson** 查找 **PrimaryContactPersonId** 源字段。
+    2. 搜索 **primarycontactperson** 查找 **PrimaryContactPersonId** 源列。
     3. 选择 **操作**，然后选择 **删除**。
 
-        ![删除 PrimaryContactPersonId 字段](media/vend_selfref3.png)
+        ![删除 PrimaryContactPersonId 列](media/vend_selfref3.png)
 
-    4. 重复这些步骤删除 **InvoiceVendorAccountNumber** 字段。
+    4. 重复这些步骤删除 **InvoiceVendorAccountNumber** 列。
 
-        ![删除 InvoiceVendorAccountNumber 字段](media/vend-selfref4.png)
+        ![删除 InvoiceVendorAccountNumber 列](media/vend-selfref4.png)
 
     5. 将更改保存到映射。
 
-2. 关闭 **供应商 V2** 实体的更改跟踪。
+2. 关闭 **供应商 V2** 表的更改跟踪。
 
     1. 在 **数据管理** 工作区中，选择 **数据表** 磁贴。
-    2. 选择 **供应商 V2** 实体。
+    2. 选择 **供应商 V2** 表。
     3. 在操作窗格上，选择 **选项**，然后选择 **更改跟踪**。
 
         ![选择更改跟踪选项](media/selfref_options.png)
@@ -138,14 +138,14 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
         ![选择“禁用更改跟踪”](media/selfref_tracking.png)
 
 3. 运行 **供应商 V2 (msdyn\_vendors)** 映射的初始同步。 初始同步应会成功运行，没有任何错误。
-4. 运行 **CDS 联系人 V2 (contacts)** 映射的初始同步。 如果要同步供应商实体上的主要联系人字段，则必须同步此映射，因为还必须对联系人行进行初始同步。
-5. 将 **PrimaryContactPersonId** 和 **InvoiceVendorAccountNumber** 字段重新添加到 **供应商 V2 (msdyn\_vendors)** 映射，然后保存映射。
+4. 运行 **CDS 联系人 V2 (contacts)** 映射的初始同步。 如果要同步供应商表上的主要联系人列，则必须同步此映射，因为还必须对联系人行进行初始同步。
+5. 将 **PrimaryContactPersonId** 和 **InvoiceVendorAccountNumber** 列重新添加到 **供应商 V2 (msdyn\_vendors)** 映射，然后保存映射。
 6. 再次运行 **供应商 V2 (msdyn\_vendors)** 映射的初始同步。 由于更改跟踪已关闭，所有行都将同步。
-7. 重新打开 **供应商 V2** 实体的更改跟踪。
+7. 重新打开 **供应商 V2** 表的更改跟踪。
 
 ## <a name="resolve-errors-in-the-customers-v3toaccounts-table-mapping"></a><a id="error-customer-map"></a>解决客户 V3–to–Accounts 表映射中的错误
 
-如果表具有在 **ContactPersonID** 和 **InvoiceAccount** 字段中存在值的现有行，在将 **客户 V3** 映射到 **客户** 时，您可能会遇到初始同步错误。 发生这些错误是因为 **InvoiceAccount** 在供应商映射中是一个自引用字段，**ContactPersonID** 是一个循环引用。
+如果表具有在 **ContactPersonID** 和 **InvoiceAccount** 列中存在值的现有行，在将 **客户 V3** 映射到 **客户** 时，您可能会遇到初始同步错误。 发生这些错误是因为 **InvoiceAccount** 在供应商映射中是一个自引用列，**ContactPersonID** 是一个循环引用。
 
 您收到的错误消息将为以下形式。
 
@@ -156,26 +156,26 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 - *无法解析字段的 GUID：primarycontactid.msdyn\_contactpersonid。未找到查找值：000056。请尝试使用此 URL 检查引用数据是否存在：`https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *无法解析字段的 GUID：msdyn\_billingaccount.accountnumber。未找到查找值：1206-1。请尝试使用此 URL 检查引用数据是否存在：`https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
-如果客户实体中的任何行在 **ContactPersonID** 和 **InvoiceAccount** 字段中都具有值，请按照以下步骤完成初始同步。 您可以对任何现成的表（如 **客户** 和 **联系人**）使用此方法。
+如果客户表中的任何行在 **ContactPersonID** 和 **InvoiceAccount** 列中都具有值，请按照以下步骤完成初始同步。 您可以对任何现成的表（如 **客户** 和 **联系人**）使用此方法。
 
-1. 在 Finance and Operations 应用中，从 **客户 V3 (accounts)** 映射中删除 **ContactPersonID** 和 **InvoiceAccount** 字段 ，然后保存映射。
+1. 在 Finance and Operations 应用中，从 **客户 V3 (accounts)** 映射中删除 **ContactPersonID** 和 **InvoiceAccount** 列，然后保存映射。
 
     1. 在 **客户 V3 (accounts)** 的双写入映射页面，在 **表映射** 选项卡上，在左侧的筛选器中，选择 **Finance and Operations app.Customers V3**。 在右侧的筛选器中，选择 **Dataverse.Account**。
-    2. 搜索 **contactperson** 查找 **ContactPersonID** 源字段。
+    2. 搜索 **contactperson** 查找 **ContactPersonID** 源列。
     3. 选择 **操作**，然后选择 **删除**。
 
-        ![删除 ContactPersonID 字段](media/cust_selfref3.png)
+        ![删除 ContactPersonID 列](media/cust_selfref3.png)
 
-    4. 重复这些步骤删除 **InvoiceAccount** 字段。
+    4. 重复这些步骤删除 **InvoiceAccount** 列。
 
-        ![删除 InvoiceAccount 字段](media/cust_selfref4.png)
+        ![删除 InvoiceAccount 列](media/cust_selfref4.png)
 
     5. 将更改保存到映射。
 
-2. 关闭 **客户 V3** 实体的更改跟踪。
+2. 关闭 **客户 V3** 表的更改跟踪。
 
     1. 在 **数据管理** 工作区中，选择 **数据表** 磁贴。
-    2. 选择 **客户 V3** 实体。
+    2. 选择 **客户 V3** 表。
     3. 在操作窗格上，选择 **选项**，然后选择 **更改跟踪**。
 
         ![选择更改跟踪选项](media/selfref_options.png)
@@ -190,7 +190,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     > [!NOTE]
     > 有两个名称相同的映射。 请确保在 **详细信息** 选项卡上选择具有以下描述的映射：**FO.CDS 供应商联系人 V2 与 CDS.Contacts 之间同步的双写入模板。需要新包 \[Dynamics365SupplyChainExtended\]。**
 
-5. 将 **InvoiceAccount** 和 **ContactPersonId** 字段重新添加到 **客户 V3 (Accounts)** 映射，然后保存映射。 **InvoiceAccount** 字段和 **ContactPersonId** 字段现在又成为了实时同步模式的一部分。 在下一步中，您将执行这些字段的初始同步。
+5. 将 **InvoiceAccount** 和 **ContactPersonId** 列重新添加到 **客户 V3 (Accounts)** 映射，然后保存映射。 **InvoiceAccount** 列和 **ContactPersonId** 列现在又成为了实时同步模式的一部分。 在下一步中，您将执行这些列的初始同步。
 6. 再次运行 **客户 V3 (Accounts)** 映射的初始同步。 由于更改跟踪已关闭，Finance and Operations 应用中 **InvoiceAccount** 和 **ContactPersonId** 的数据将同步到 Dataverse。
 7. 要将 **InvoiceAccount** 和 **ContactPersonId** 的数据从 Dataverse 同步到 Finance and Operations 应用，必须使用数据集成项目。
 
@@ -210,7 +210,4 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
     行的初始同步现已完成。
 
-8. 在 Finance and Operations 应用中，为 **客户 V3** 实体重新打开更改跟踪。
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+8. 在 Finance and Operations 应用中，为 **客户 V3** 表重新打开更改跟踪。

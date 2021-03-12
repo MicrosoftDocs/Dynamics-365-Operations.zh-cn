@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 61c286391d83d70036dbed7eae6755cdefce5f2e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 73c66d189035f7bdc302480038c44645eccb50f9
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693659"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798062"
 ---
 # <a name="change-the-banner-or-logo"></a>更改横幅或徽标
 
@@ -39,6 +39,3 @@ ms.locfileid: "4693659"
 6. 转到 **导航窗格 > 模块 > 常用 > 常用 > 默认仪表板**。 您可以在仪表板上查看新的横幅或形象标识。  
     
     您可能需要使用公司选择器把您公司的横幅改为您所上传的图像。  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

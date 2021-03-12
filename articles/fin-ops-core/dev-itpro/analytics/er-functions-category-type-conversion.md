@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d160c02403bf067ed523fbd634e65c622b522b97
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: eb2d4ab3434a563e907f6540809888cd3f671c1a
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686066"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740800"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>类型转换类别的 ER 函数列表
 
@@ -38,6 +38,14 @@ ms.locfileid: "4686066"
 | [IntValue](er-functions-conversion-intvalue.md)       | 此函数返回一个 *Int* 值，该值表示指定的字符串。 |
 | [NumberValue](er-functions-conversion-numbervalue.md) | 此函数返回一个 *实数* 值，该值从指定的 *字符串* 值转换而来。 在转换过程中，将考虑指定的十进制和数字分组分隔符。 |
 | [值](er-functions-conversion-value.md)             | 此函数返回一个 *实数* 值，该值从指定的 *字符串* 值转换而来。 |
+
+## <a name="type-conversion-functions-in-the-container-category"></a>容器类别的类型转换函数
+
+下表描述了[容器](er-functions-category-container.md)类别的类型转换函数。
+
+| 函数 | 说明 |
+|----------|-------------|
+| [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | 此函数将 *字符串* 类型的指定输入转换为 *容器* 类型的数据项。 |
 
 ## <a name="type-conversion-functions-in-the-date-and-time-category"></a>日期和时间类别的类型转换函数
 
@@ -79,6 +87,3 @@ ms.locfileid: "4686066"
 [电子报告中的配方设计器](general-electronic-reporting-formula-designer.md)
 
 [电子申报公式语言](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

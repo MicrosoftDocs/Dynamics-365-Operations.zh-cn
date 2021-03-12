@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688251"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744533"
 ---
 # <a name="general-troubleshooting"></a>常规故障排除
 
@@ -65,23 +65,23 @@ ms.locfileid: "4688251"
 
 1. 在 Dynamics 365 中登录到模型驱动应用，打开 **设置** 页面，然后在 **系统** 下面选择 **管理**。
 2. 在 **管理** 页面中，选择 **系统设置**。
-3. 在 **自定义** 选项卡上，在 **插件和自定义工作流活动跟踪** 字段中，选择 **所有** 启用插件跟踪日志。 如果只想在发生异常时记录跟踪日志，则可以改为选择 **异常**。
+3. 在 **自定义** 选项卡上，在 **插件和自定义工作流活动跟踪** 列中，选择 **所有** 启用插件跟踪日志。 如果只想在发生异常时记录跟踪日志，则可以改为选择 **异常**。
 
 
 若要查看跟踪日志，请执行以下步骤。
 
 1. 在 Dynamics 365 中登录到模型驱动应用，打开 **设置** 页面，然后在 **自定义** 下面选择 **插件跟踪日志**。
-2. 找到 **类型名称** 字段设置为 **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin** 的跟踪日志。
+2. 找到 **类型名称** 列设置为 **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin** 的跟踪日志。
 3. 双击一个项目查看完整日志，然后在 **执行** 快速选项卡上，查看 **消息块** 文本。
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>启用调试模式来解决 Finance and Operations 应用中的实时同步问题
 
 **查看错误所需的角色：** 系统管理员，源自 Dataverse 的双写入错误可能会出现在 Finance and Operations 应用中。 在某些情况下，错误消息的完整文本不可用，因为消息太长或包含个人身份信息 (PII)。 您可以按照以下步骤打开详细错误日志记录。
 
-1. Finance and Operations 应用中的所有项目配置在 **DualWriteProjectConfiguration** 实体中均具有 **IsDebugMode** 属性。 使用 Excel 加载项打开 **DualWriteProjectConfiguration** 实体。
+1. Finance and Operations 应用中的所有项目配置在 **DualWriteProjectConfiguration** 表中均具有 **IsDebugMode** 属性。 使用 Excel 加载项打开 **DualWriteProjectConfiguration** 表。
 
     > [!TIP]
-    > 打开实体的一种简单方法是在 Excel 加载项中打开 **设计** 模式，然后将 **DualWriteProjectConfigurationEntity** 添加到工作表。 有关详细信息，请参阅[在 Excel 中打开实体数据并使用 Excel 加载项更新](../../office-integration/use-excel-add-in.md)。
+    > 打开表的一种简单方法是在 Excel 加载项中打开 **设计** 模式，然后将 **DualWriteProjectConfigurationEntity** 添加到工作表。 有关详细信息，请参阅[在 Excel 中打开表数据并使用 Excel 加载项更新](../../office-integration/use-excel-add-in.md)。
 
 2. 将项目的 **IsDebugMode** 属性设置为 **是**。
 3. 运行产生错误的方案。
@@ -118,10 +118,7 @@ ms.locfileid: "4688251"
 在 Dynamics 365 Sales 中创建销售订单时，单击 **+ 添加产品** 可能会将您重定向到 Dynamics 365 Project Operations 订单行窗体。 从该窗体无法查看销售订单行 **信息** 窗体。 **信息** 选项未出现在 **新订单行** 下方的下拉菜单中。 发生这种情况是因为您的环境中已经安装了 Project Operations。
 
 要重新启用 **信息** 窗体选项，请按照下列步骤操作：
-1. 导航到 **订单行** 实体。
+1. 导航到 **订单行** 表。
 2. 在窗体节点下找到 **信息** 窗体。 
 3. 选择 **信息** 窗体并单击 **启用安全角色**。 
 4. 将安全设置更改为 **向所有人显示**。
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

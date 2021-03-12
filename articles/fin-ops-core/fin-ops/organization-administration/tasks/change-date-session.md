@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b83d6044545467f7c7488a4b2a97be75d3e27f9
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: b66f84360e7161e899177850bf45f16607600842
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694609"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796858"
 ---
 # <a name="change-the-date-for-a-session"></a>更改会话的日期
 
@@ -32,6 +32,3 @@ ms.locfileid: "4694609"
 2. 在 **日期** 字段中，输入一个日期。
 3. 选择 **确定**。
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
