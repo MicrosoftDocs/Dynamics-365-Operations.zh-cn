@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 57f09bf907407e19ae0e693de64510f7f4efbf0b
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4423307"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966263"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>设置设备以运行生产车间执行界面
 
@@ -80,6 +79,3 @@ ms.locfileid: "4423307"
 默认情况下，如果 12 个小时内没有人使用，生产车间执行界面会自动注销。 然后，Supply Chain Management 用户必须再次登录。 但是，您可以将超时限制最多延长 90 天。
 
 若要延长超时限制，请登录 Supply Chain Management，然后转到 **系统管理 \> 用户 \> 会话扩展**。 指定用于登录设备的 Supply Chain Management 用户帐户，以及会话应保持活动状态的小时数。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

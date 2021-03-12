@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 137b699d5f60b9b62a5ce9501e3b2a262e60a88f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e4ccb8e03d63a7bd1ab2d118d86633a8c6324d43
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410393"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965444"
 ---
 # <a name="open-url-in-pos"></a>在 POS 中打开 URL
 
@@ -83,6 +82,3 @@ Windows、iOS 和 Android 还允许根据应用协议关联更加无缝地打开
 5. 选择 **打开 URL** 作为操作。
 6. 输入要使用的 URL。
 7. 配置是否在新窗口中打开 URL。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

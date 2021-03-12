@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailSizeGroupTable, ConfigGroupIdLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5d9279e1076796bb455429e5ff004c89ec5829e7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e19d9a2549fa9957126592f3db7e468147997261
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410484"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965143"
 ---
 # <a name="create-a-variant-group"></a>创建变型组
 
@@ -73,6 +72,3 @@ Dynamics 365 Commerce 支持产品的多种变型。 最好是为不同的产品
 [设置零售产品](set-up-retail-products.md)
 
 [产品维度](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

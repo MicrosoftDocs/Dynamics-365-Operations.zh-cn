@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 118517fe0d7208113bd361a0295ff00cacd14f3d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8d6cfa0d1eba4ccb0b24839b7cc632835b17107e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410392"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965300"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>设置商店订单履行
 
@@ -131,6 +130,3 @@ ms.locfileid: "4410392"
 - 创建日期
 - 交货日期
 - 接收日期
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27ff3784074a36d073930ba68c8dec8b1121356e
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: d0cb0a99b926e1e129c5f7a174cac18e3b93aafa
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423402"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966997"
 ---
 # <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a>使用可变权重将变型产品添加到采购订单
 
@@ -48,6 +47,3 @@ ms.locfileid: "4423402"
 17. 将“数量”设置为“1000”。
 18. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

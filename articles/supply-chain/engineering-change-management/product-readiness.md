@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 58b5a35800ab464f25868c6756b16f25d14d8d78
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 8321a0d8516a6c2c085ce9c1236f70af1cca98da
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4423454"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967250"
 ---
 # <a name="product-readiness"></a>产品准备情况
 
@@ -148,6 +147,3 @@ ms.locfileid: "4423454"
 | 调查表 | 选择应用于核对清单的调查表。 核对清单是完成准备情况检查的公司的本地核对清单。 系统必须能够评估对核对清单的回答是否正确。 因此，必须设置核对清单，以根据正确答案进行评估。 有关如何创建调查表的详细信息，请参阅[使用调查表](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires)及其相关主题。 |
 | 自动审核 | 准备情况检查记录包括指示审核状态的 **已审核** 复选框。 为在分配的用户完成检查后应立即设置为已审核的检查选中 **自动审核** 复选框。 清除此复选框将需要作为额外步骤进行明确审核。 |
 | 强制 | 为必须由分配的用户完成的检查选中此复选框。 强制检查不能跳过。 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

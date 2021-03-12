@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 981068d26d232b10efd8d7288daaf7358aee3728
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b1d32d94daef570e37a1a36d948fe18cd4041e46
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423123"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966147"
 ---
 # <a name="process-rebates-for-payment"></a>处理付款返利
 
@@ -51,6 +50,3 @@ ms.locfileid: "4423123"
     * 请注意，负数金额的交易记录（表示总返利金额，而无发票参考编号）已被添加到客户余额。   
 15. 单击“取消”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

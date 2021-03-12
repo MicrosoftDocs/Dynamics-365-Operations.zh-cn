@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5d0520f35391f76b52fd8a333033b0d7ba4f7fe1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8ddefcdc2b2bbb5fe25e9a87396802cbbbfef72c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410375"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965069"
 ---
 # <a name="financial-reconciliation-in-retail-stores"></a>零售商店中的财务对帐
 
@@ -62,6 +61,3 @@ POS 中的 **结束班次** 操作还会验证脱机数据库中的所有交易�
 将使用 P 作业把班次的财务对帐详细信息同步到 Commerce Headquarters。
 
 Commerce Headquarters 中的财务零售对帐单不会计算总计以在对帐单行中显示详细信息。 而是使用 POS 客户端中的最终金额创建和过帐财务零售对帐单。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410377"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965106"
 ---
 # <a name="create-and-configure-extended-warranties"></a>创建和配置延长保修
 
@@ -142,7 +141,7 @@ Dynamics 365 Commerce 提供的功能可让您创建保修物料并为其设置�
 
 要在 Commerce 中设置保修组，请按照下列步骤操作。
 
-1. 转到 **Retail 和 Commerce \> 产品和类别 \> 保修 \> 保修组**。
+1. 转到 **Retail 和 Commerce \> 产品和类别 \> 保修 \> 保修组**。
 1. 选择 **新建** 创建保修组。
 1. 在 **名称** 字段中，为新组输入名称。
 1. 在 **常规** 快速选项卡上，在 **描述** 字段中，输入组的描述。
@@ -239,6 +238,3 @@ Dynamics 365 Commerce 提供的功能可让您创建保修物料并为其设置�
 [设置分类](set-up-assortments.md)
 
 [编号规则概览](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

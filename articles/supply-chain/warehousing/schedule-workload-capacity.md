@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WMSWorkloadCapacity
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd4225d9e7ad65939c57cb770ba521377c87dea3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8db243949b2aeee0a8263276234d439652905449
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422788"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965569"
 ---
 # <a name="schedule-workload-capacity"></a>计划工作量产能
 
@@ -80,6 +79,3 @@ ms.locfileid: "4422788"
 3. 在 **订单类型** 字段中，选择 **已计划并确认**、**已计划** 或 **已确认**，以便指示要对报表预测的订单类型。
 4. 在 **负载类型** 字段中，选择一种负载类型以指定应预测体积还是重量的工作量产能。
 5. 在 **工作量产能** 字段中，选择一种工作量产能设置。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

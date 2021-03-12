@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule, PlanActivityServiceDetails, PlanActivityServiceWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 267034
 ms.assetid: 15c76a51-fa6d-42d2-994a-c67df6bae6a9
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48a1943833408767fe77456f66bbe109170a29e2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 010b934821eaf04dc93d803d03a8fbd198de91a6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423288"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966522"
 ---
 # <a name="activity-based-subcontracting"></a>基于活动的转包
 
@@ -106,6 +105,3 @@ Supply Chain Management 现在支持包含运输服务的物料清单计算、�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

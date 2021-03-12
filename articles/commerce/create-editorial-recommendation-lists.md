@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9826785700dcc1a35e6199b7aeff4e06b6d9da39
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e9ce8887f3cd7da0e250d3b0ffe96b222953de44
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410488"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965345"
 ---
 # <a name="manually-create-curated-recommendations"></a>手动创建策划的建议
 
@@ -75,6 +74,3 @@ ms.locfileid: "4410488"
 [使用演示数据创建建议](product-recommendations-demo-data.md)
 
 [产品建议常见问题](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

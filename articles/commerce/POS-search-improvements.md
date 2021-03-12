@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 10c843670a280c86790185c8a39cb2943e2838f9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1de8373471ff8187bd476305c9ed0b26beaa52d5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410409"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965270"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>销售点 (POS) 中的产品搜索和客户搜索
 
@@ -118,6 +117,3 @@ ms.locfileid: "4410409"
 
 为了帮助避免意外的性能问题，此配置隐藏在名称为 **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING** 的战旗后面。 因此，若要在设置用户界面 (UI) 时显示 **默认客户搜索模式**，零售商应该为其用户接受测试 (UAT) 环境和生产环境创建支持工单。 收到工单后，工程团队将与零售商合作，以确保零售商在非生产环境中进行测试来评估性能和实施需要的所有优化。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

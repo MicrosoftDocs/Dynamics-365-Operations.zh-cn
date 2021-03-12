@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 63993fca2164301d31dbfa1474a4cf5eb16273e6
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: d999c91aa1cc14f29ebfa6be8e456e45ef0d3fa4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516731"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966172"
 ---
 # <a name="troubleshoot-process-manufacturing"></a>流程制造疑难解答
 
@@ -41,6 +40,3 @@ ms.locfileid: "4516731"
 > 您将要执行日期为 %1 的库存结转。 其日期 %1 与期间结束匹配的倒冲成本计算法计算未执行已登记。 请记住执行其日期 %1 与期间结束匹配的倒冲成本计算法计算。 执行之前，子分类帐或总帐中的库存、所售货物成本和差异评估可能不正确。
 
 此问题在版本 10.0.13 和更高版本中已修复。 有关详细信息，请参阅 [KB 4582468](https://fix.lcs.dynamics.com/Issue/Details?kb=4582468&bugId=468844&dbType=3&qc=fcd64080446a27382cfde3e4c3bdcfb714279185932259cd11ceb0d500617296)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

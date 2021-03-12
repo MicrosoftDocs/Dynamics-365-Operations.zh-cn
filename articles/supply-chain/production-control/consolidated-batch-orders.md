@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PmfAddToConsOrder, PmfBulkItemConv, PmfBulkPackOnHand, PmfConsOrderListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19291
 ms.assetid: e97f1d3d-1306-4c42-b2bc-d1755fe574d5
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: faeb90aa3366a58b746c0b397dd950bfb8c9024f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2098cb458821146f6d1bf029591493ac745626f1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423166"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966447"
 ---
 # <a name="consolidated-batch-orders"></a>合并的批次订单
 
@@ -46,6 +45,3 @@ ms.locfileid: "4423166"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: JmgRegistration, ProdJournalTransJob, ProdJournalTransRoute, ProdParmReportFinished
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19351
 ms.assetid: bcc9e242-b4b8-4144-b14d-c3c106fb40ec
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0cc44592bd60e89f1dc67114098d701d8965e4fe
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2c8f979fcb9446a0caeddaa37ea3ee1bbc3e849f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422874"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966347"
 ---
 # <a name="production-feedback"></a>生产反馈
 
@@ -36,6 +35,3 @@ ms.locfileid: "4422874"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

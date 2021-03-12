@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 31cb26479ccb74dfb58fd5590cd60d7b7c64c292
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0a8f214a56c6a5013cab8233d5b2e0126deb9220
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423413"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966097"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>以直接交运方式装运订单
 
@@ -82,6 +81,3 @@ ms.locfileid: "4423413"
     - “直接交货”页作为提供采购代理和所有将直接交货的销售订单行的概览的工作台，其允许创建单独的采购订单。 此外，可以在“确认”与“交货”选项卡查看未结的直接交货订单和已确认的订单。  
     - 在您创建直接交货订单后，其会自动移到“确认”选项卡。您可以选择直接从此页确认订单。 在确认采购时，将会从可登记其收货的位置自动移到“交货”选项卡。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup, WHSBatchAttribReserve
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19271
 ms.assetid: 41de0250-4a96-412e-a412-aa06615b6b1d
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 370893e415a79091404f1c4eb0404ba8fd5b9ff2
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: b5e2a27fe73ddd9fcd7cafc0ded05fd8a15841fd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423348"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966497"
 ---
 # <a name="batch-attributes"></a>批次属性
 
@@ -53,6 +52,3 @@ ms.locfileid: "4423348"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

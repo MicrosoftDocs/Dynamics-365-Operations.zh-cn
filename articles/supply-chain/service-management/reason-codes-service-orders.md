@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAStageTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec8a318561663f4a1b2cfd7735b5c1a5d18e8c0f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9093cd36ecf667d3ebf6970f7e4b2deb580e3723
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422748"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965847"
 ---
 # <a name="reason-codes-for-service-orders"></a>服务订单的原因代码   
 
@@ -50,6 +49,3 @@ ms.locfileid: "4422748"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

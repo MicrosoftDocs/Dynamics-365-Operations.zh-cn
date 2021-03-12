@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView, JmgProdStatusListPagePayrollCostDetails, JmgPayCountTable, JmgPayStatConfig, JmgOvertimeSlize, JmgPayAgreementOverride, JmgPayCountSum, JmgPayAdjustSetup, JmgPayAdjustCostType, JmgPayEmployee, JmgMESBreak, JmgPayAddTable, JmgPayAddTransSelectTransId, JmgPayrollCostDetailsPart, jmgProdStatusListPagePayrollCosts, JmgPayrollCostPart, JmgPayEvents, JmgTermRegPayStatSetup, JmgPayStatGroup, JmgPayAddTrans, JmgPayStatTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8e92759bd567a973a0d3bce7b8b99be1edbc0e1e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 98ca6f7713b2f605a49a97d391fb8485bea78c4b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422984"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966372"
 ---
 # <a name="pay-based-on-registrations"></a>基于登记付薪
 
@@ -599,6 +598,3 @@ ms.locfileid: "4422984"
 - 自动插入缺勤
 
 在为启用了弹性工时的工作人员计算日常登记时，在 **自动插入弹性-** 字段中指定的考勤代码将用作默认考勤代码。 如果工作人员未启用弹性工时，将使用在 **自动插入缺勤** 字段指定的考勤代码。 如果某个公司既有启用弹性工时的工作人员，也有未启用的工作人员，必须设置两个参数。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

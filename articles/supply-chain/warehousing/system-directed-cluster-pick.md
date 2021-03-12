@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSWorkCluster, WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0838405bcb5ee0d8e582093fbbd69553228cb2b6
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: fa737f61bfd5bd71ba6d76e75e57c8e2d682cda3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423389"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965669"
 ---
 # <a name="system-directed-cluster-picking"></a>系统导向的群集领料
 
@@ -207,6 +206,3 @@ ms.locfileid: "4423389"
 1. 移动设备上的最后一步是将群集 **放置** 到最终位置。 选择 **确定**
     - 确认此放置操作后，将根据您在群集配置文件中为 **群集分解位置** 字段设置的值关闭和分解群集。 工作 ID 也将关闭。
 1. 移动设备上显示“群集完成”消息。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ProdTableListPage, ProdParmRelease, SrsReportViewerForm, ProdSetupRelease
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: beef850e7e58fb58db545c0be5990b52619070d3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 82a8316014d28f1c31343a2e54038fc93623cd70
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422694"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966247"
 ---
 # <a name="release-a-production-order"></a>下达生产订单
 
@@ -41,6 +40,3 @@ ms.locfileid: "4422694"
 6. 单击“确定”。
 7. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSLicensePlate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc87da5fefde33832fc0be1cfef3aa44b155c0d0
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6c4dcafa5d997bce21d37d02f87fbf604568c24e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423313"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965622"
 ---
 # <a name="mixed-license-plate-receiving"></a>正在接收混合牌照
 
@@ -49,6 +48,3 @@ ms.locfileid: "4423313"
 - 混合牌照接收和储存
 
 用于标识原始凭证行的选项为采购订单物料、采购订单行、退货订单、转移单物料和转移单行。 这些选项可以更改对单个牌照的接收单。 最后一个选项是按加载物料。 您可以将多个物料添加到牌照，但不能在多个负荷之间切换。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

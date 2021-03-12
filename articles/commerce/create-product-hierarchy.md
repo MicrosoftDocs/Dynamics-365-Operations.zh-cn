@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 724ec2e5af7837d574298d662911cd9c6ee9e9f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c7d0c792a8590be474b05dea262ae11d15e0ada3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410411"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965194"
 ---
 # <a name="create-a-new-product-hierarchy"></a>创建新产品层次结构
 
@@ -80,6 +79,3 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 [管理产品类别和产品](category-management-product-creation.md)
 
 [更改促销实体的排序顺序](custom-order-categories-nav-retail-prod-hierarchy.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

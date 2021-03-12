@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 198073
 ms.assetid: 12c28b11-80aa-4668-b15b-724cb24890bd
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e95374e0aebca825f589f13eda389d6612737181
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb4e1a38c675a3c8d102741a027d54294e335ac1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423064"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966397"
 ---
 # <a name="operations-scheduling"></a>工序级排产
 
@@ -84,6 +83,3 @@ ms.locfileid: "4423064"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
