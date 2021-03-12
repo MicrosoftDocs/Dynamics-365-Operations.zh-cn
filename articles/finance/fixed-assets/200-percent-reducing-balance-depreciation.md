@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13951
 ms.assetid: 69b4e010-7683-4dc2-8a06-6d572f37e903
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0474a8cecccaf1e23874458c27e0bea991140b6c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f012f934015e334aea468b5b62741749103d7790
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440800"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978731"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>200% 余额递减法
 
@@ -81,15 +80,12 @@ ms.locfileid: "4440800"
 
 | 期间 | 年折旧金额的计算 | 帐面值             | 年末帐面净值 |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
-| 第 1 年 | (11,000 – 1,000) × 40% = 4,000                | 11,000 – 4,000 = 7,000 | 11,000 – 1,000 – 4,000 = 6,000        |
-| 第 2 年 | 6,000 × 40% = 2,400                           | 7,000 – 2,400 = 4,600  | 6,000 – 2,400 = 3,600                 |
-| 第 3 年 | 3,600 × 40% = 1,440                           | 4,600 – 1,440 = 3,160  | 3,600 – 1,440 = 2,160                 |
+| 第 1 年 | (11,000 – 1,000) × 40% = 4,000                | 11,000 – 4,000 = 7,000 | 11,000 – 1,000 – 4,000 = 6,000        |
+| 第 2 年 | 6,000 × 40% = 2,400                           | 7,000 – 2,400 = 4,600  | 6,000 – 2,400 = 3,600                 |
+| 第 3 年 | 3,600 × 40% = 1,440                           | 4,600 – 1,440 = 3,160  | 3,600 – 1,440 = 2,160                 |
 
 > [!NOTE] 
 > 通常，当使用 200% 余额递减折旧法计算的金额小于使用直线法计算的金额时，对剩余年限转换到直线法。
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, KanbanFlowSelection, InventItemIdLookupSimple, KanbanCreateScheduled, Kanban
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68cac0f581e786cdb3801e03fb60db7bc05ffb2f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3c25d47a78d1cc91ee2625ef628d7b9ba345b097
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422717"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977905"
 ---
 # <a name="create-a-kanban-rule-for-multiple-activities"></a>创建多个活动的看板规则
 
@@ -59,6 +58,3 @@ ms.locfileid: "4422717"
     * 请注意，此看板有两个来自生产流的处理作业。 第一个是 SpeakerAssemblyAndPolish，第二个是 SpeakerTestAndPackaging。  
     * 这是最后一个步骤！  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

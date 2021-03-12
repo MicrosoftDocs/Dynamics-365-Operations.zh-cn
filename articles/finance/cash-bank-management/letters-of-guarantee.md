@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BankLGGuarantee
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 18291
 ms.assetid: 5c0b5e37-d51d-4a01-bb37-1882173abb9f
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3dbf08679c165258a4a4027bf1cf73484d9efd3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b86ccc46475babb302cdbf82f5c99c26e2091501
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440801"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978781"
 ---
 # <a name="letters-of-guarantee"></a>保函
 
@@ -65,6 +64,3 @@ ms.locfileid: "4440801"
 [设置保函的银行设施和过帐模板](tasks/set-up-bank-facilities-posting-profiles.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

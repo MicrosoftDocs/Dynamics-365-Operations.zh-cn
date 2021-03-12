@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm, WHSWorkCluster
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 009345e608c26887fedbe4a9c268367080593da2
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: da11a474e1bb031fac26e04c91cbdbab5f62eb0b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423416"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977345"
 ---
 # <a name="set-up-cluster-picking"></a>设置群集领料
 
@@ -80,6 +79,3 @@ ms.locfileid: "4423416"
 1. 在移动设备菜单项上，打开工作确认的设置窗体：**仓库管理** \> **仓库管理** \> **设置** \> **移动设备** \> **移动设备菜单项**。
 
 1. 从移动设备菜单项打开 **工作确认设置**。 **产品确认** 选项允许您在扫描时从移动设备验证每件库存。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 511c466d6019cb182c9ada0b02172b8eeb3725e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22aabf2d0cecf272ac25ba3adde8cc650b069af9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422699"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977855"
 ---
 # <a name="define-production-flow-models"></a>定义生产流模型
 
@@ -46,6 +45,3 @@ ms.locfileid: "4422699"
 8. 在“产能短缺反应”字段中，选择一个选项。
     * 选项包括：延期 - 将该计划事件的饱和需求量延期至下一个吞吐量的可用生产日。 取消 - 终止该计划事件的自动计划作业，并取消其关联的作业计划。   添加到所要求的日期 - 将其要求的作业安排到所要求的期间内。 这超过当天该工作单元的负荷并需要计划员进行检查和手动交互。   分配到可用期间 - 从第一个可用生产日开始为该计划事件的所有不同作业分配可用生产日。 此最小分配数量就是该看板作业的数量。 每天分配给最小计划数量（看板作业数量）充足可用的吞吐量。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

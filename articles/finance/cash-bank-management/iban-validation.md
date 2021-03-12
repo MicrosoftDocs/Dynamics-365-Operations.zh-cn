@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 28abef376e8462c9a69dbd8e5033ea799b6a4b3a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b206dbda56acd4fcd4aa98be4b5e0d6c839f0354
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440770"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976408"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>管理国际银行帐号 (IBAN) 帐户验证
 
@@ -48,6 +47,3 @@ ms.locfileid: "4440770"
     此项验证还会验证银行帐号是否与表示银行帐号的 IBAN 部分匹配。 如果银行帐号不匹配，将收到警告消息。 此消息只是警告。 即使银行帐号不匹配，也可以继续操作。
 
     此项验证还会验证银行代号是否与表示银行代号的 IBAN 部分匹配。 银行代号包含一个银行编号，通常是其他分行。 如果银行代号不匹配，将收到警告消息。 此消息只是警告。 即使银行代号不匹配，也可以继续操作。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

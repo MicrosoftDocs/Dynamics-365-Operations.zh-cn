@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 18321
 ms.assetid: 5c97ab81-632b-4043-a940-674bcb496c80
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c31b8af25ea231f23ac5f4968760257b3f5894f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ad39951902395ebd2f78169f77e8d1a2e03a5762
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440769"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978831"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>信用证和进口托收
 
@@ -54,6 +53,3 @@ ms.locfileid: "4440769"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

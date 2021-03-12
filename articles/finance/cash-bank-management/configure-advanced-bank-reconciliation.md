@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 98303
 ms.assetid: ae071f04-f038-4b17-812d-0a241ed15521
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7103cb93ad0d9ea0f1b92e317bee7454eb08d1f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7b3c68c8e985e5ef770421cb5e7120db4d97d1de
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440894"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976482"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>高级银行对帐设置流程
 
@@ -61,6 +60,3 @@ ms.locfileid: "4440894"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

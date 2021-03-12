@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fade659c320e0ea1059644324859c9a3cb273c96
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7f3e121fdc0f69ace15e0fa08bde0af739ef7d28
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422697"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977805"
 ---
 # <a name="end-a-production-order"></a>结束生产订单
 
@@ -46,6 +45,3 @@ ms.locfileid: "4422697"
 1. 在“操作窗格”中，单击“管理成本”。
 2. 单击“查看成本比较”。
     * 在结束生产订单后，可以将已实现的成本价与估计成本对比获得生产差异概览。  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

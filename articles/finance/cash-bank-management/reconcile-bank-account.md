@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1abc86aa5c3863eba34f726b543792408a542383
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440827"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976358"
 ---
 # <a name="reconcile-a-bank-account"></a>银行帐户对帐
 
@@ -71,6 +70,3 @@ ms.locfileid: "4440827"
 银行对帐单对帐只能按照其输入时间顺序取消。 取消银行对帐单对帐时，将冲销新交易记录和冲销，并将其他所有交易记录标记为未对帐。
  
 若要取消银行对帐单对帐，请选择银行对帐单，然后选择 **银行对帐单 > 取消银行对帐**。 在 **取消银行对帐** 页上，提供 **原因代码**、**原因注释** 和 **取消日期**。 选择 **确定** 开始取消。 请注意，银行对帐单取消日期必须在银行对帐单日期当天或之后。 取消了银行对帐单对帐之后，将使用提供的 **取消日期** 更新银行对帐单的 **取消日期** 字段。 选择 **交易记录** 按钮查看取消了其对帐的交易记录。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

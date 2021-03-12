@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b8f0daf96e782e5ba6c985847bad81312e48d30b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410372"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976606"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>POS 中的出站库存操作
 
@@ -193,6 +192,3 @@ POS 用户可通过出站操作执行以下任务：
 ## <a name="related-topics"></a>相关主题
 
 [POS 中的入站库存操作](pos-inbound-inventory-operation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c07d3fe1969f3baea484991e74f668eade813d78
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 93b30cbe660d224f0a92f4e412d2b1ba33af3f9b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422698"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977830"
 ---
 # <a name="define-resource-capabilities"></a>定义资源功能
 
@@ -49,6 +48,3 @@ ms.locfileid: "4422698"
 5. 在“水平”字段，输入一个数值。
     * 当您指定某项工作或操作需要某种特定功能，您还可以指定所需功能的最低水平。 使用功能级别区分资源可以根据不同的速度、力量、大小等执行同类工作。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

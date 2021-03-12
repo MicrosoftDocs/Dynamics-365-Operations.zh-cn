@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: b86fe2f3ea4321dbe598233018934187ba0d713a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcae977ede91dcaf4e455353f023e9eee4fcb2b1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422797"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977480"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>越库配送的自动下达装运
 
@@ -179,6 +178,3 @@ ms.locfileid: "4422797"
 - 为链接的销售订单触发下达到仓库。
 - 根据下达，装运和越库配送工作将创建。 此工作指示仓库操作员领取履行销售订单行所需的数量，并将它们放入越库配送位置指令中指定的出库货位。
 - 如果生产订单数量大于销售订单所需的数量，则会创建常规储存工作。 此工作指示仓库操作员根据位置指令，领取越库配送后剩余的成品数量，并将其移至常规存储。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12314
 ms.assetid: 3b77d6f3-fd07-41a7-9ddb-1b22d1ae33fc
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b48510febf5a5f9f4a01728b242d9750b3c62c2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 25a90a137ea3f6dfa43f401354780d99b2fda8fd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440603"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978478"
 ---
 # <a name="trial-balance-financial-reports"></a>试算平衡表财务报表
 
@@ -110,6 +109,3 @@ ms.locfileid: "4440603"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

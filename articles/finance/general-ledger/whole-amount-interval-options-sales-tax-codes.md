@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxData, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 5624
 ms.assetid: 96166db4-b7ca-470b-aeb7-0a66fe0554c4
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b3e18eac934eb109e8f3f509b2bd78f76dd5f74d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ec724030e12e504625b2b102cba25b7eddbf7e96
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440757"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978428"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>全部金额和销售税代码的间隔计算选项
 
@@ -90,6 +89,3 @@ ms.locfileid: "4440757"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

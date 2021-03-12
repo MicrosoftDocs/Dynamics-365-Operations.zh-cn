@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: WMSLocation, WMSBlockingCause, WHSLocation
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2134
 ms.assetid: 69bf6922-4151-447f-b678-4ba95637f54c
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 490f510ca0a5522d7bc892733ff066ebc65bcd24
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 3ba83113b03ef122090da0c356c85b3f1b6f62c7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423405"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978005"
 ---
 # <a name="inventory-locations"></a>库存库位
 
@@ -66,6 +65,3 @@ ms.locfileid: "4423405"
 --------
 
 [创建新仓库布局](tasks/create-new-warehouse-layout.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

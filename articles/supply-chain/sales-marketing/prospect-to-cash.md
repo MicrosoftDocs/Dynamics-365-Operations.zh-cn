@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CustTable, SalesTable, EcoResProductListPage
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 55c39fac40498488519fcb539b3c3f7560a46b30
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b2f2f7d95d3f0e6bd774c43024836aac1f729abd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422926"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977630"
 ---
 # <a name="prospect-to-cash"></a>现金的目标客户
 
@@ -82,6 +81,3 @@ ms.locfileid: "4422926"
 
 - Dynamics 365 Sales 版本 1612 (8.2.1.207) (DB 8.2.1.207) online 或更高版本
 - Dynamics 365 Sales 版本 1.15.0.0 或更高版本的从目标客户到现金解决方案。 可从 AppSource 下载此解决方案。 [下载 Dynamics 365 从目标客户到现金](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

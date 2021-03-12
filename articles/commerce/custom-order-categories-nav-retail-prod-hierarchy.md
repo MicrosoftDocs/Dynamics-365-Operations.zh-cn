@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: Category, Retail product hierarchy, Navigation hierarchy
 audience: Application User, Merchandising manager, Catalog manager
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b983cb5c63db171c76d34375a93a2b9086185d3a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 694f95e274dc068cba02a2a519c1ce3ed186eaf0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410493"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976755"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>更改促销实体的排序顺序
 
@@ -88,6 +87,3 @@ ms.locfileid: "4410493"
 
 > [!NOTE]
 > 默认情况下，已关闭自定义排序顺序。 若要了解如何开启此功能和其他功能，请参阅[功能管理](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

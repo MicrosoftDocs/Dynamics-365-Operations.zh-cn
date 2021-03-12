@@ -3,7 +3,7 @@ title: 纳税的双币种支持
 description: 此主题介绍如何扩展税域的双币种记帐功能和对税额计算与过帐的影响
 author: EricWang
 manager: Ann Beebe
-ms.date: 12/16/2019
+ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 9e5db8e4bbd14aa30196e3be617cdfcb72c091fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e3e7ff93ca3c6a2266ba0f33c8eac7ceade0d4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440711"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978584"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>销售税的双币种支持
 [!include [banner](../includes/banner.md)]
@@ -44,8 +43,7 @@ ms.locfileid: "4440711"
 
 由于支持双币种，所以功能管理中增加了两项新功能： 
 
-- 销售税转换（版本 10.0.9 中发布）
-- 税务结算自动平衡采用申报币种（版本 10.0.11 中发布）
+- 销售税转换（版本 10.0.13 中的新增功能）
 
 销售税的双币种支持确保使用税金币种准确计算税额，以及同时使用记帐币种和申报币种准确计算销售税结算余额。 
 
@@ -145,6 +143,3 @@ ms.locfileid: "4440711"
 - [双货币](dual-currency.md)
 - [销售税概览](indirect-taxes-overview.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

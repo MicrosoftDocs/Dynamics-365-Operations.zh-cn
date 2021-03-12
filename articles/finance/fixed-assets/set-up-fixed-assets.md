@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13771
 ms.assetid: 8be64197-fea1-4a34-8af2-d939919c28b1
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8196ddc879df1f398aabef0c1c4064bf0d4fff2c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7c42522f69ecf2eb25d8d9384737115826ff4cda
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440906"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978503"
 ---
 # <a name="set-up-fixed-assets"></a>设置固定资产
 
@@ -84,6 +83,3 @@ ms.locfileid: "4440906"
 最后，在 **编号规则** 选项卡上定义固定资产的编号规则。 如果指定了 **固定资产组** 编号规则，固定资产组编号规则将覆盖 **固定资产** 编号规则。
 
 有关详细信息，请参阅[创建固定资产](tasks/create-fixed-asset.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

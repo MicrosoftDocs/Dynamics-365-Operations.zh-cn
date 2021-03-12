@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnTable, ReturnTableListPagePreviewPane, ReturnTableReferences, SalesReturnExpiredOrdersPart, SalesReturnFindOrderFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd194042303797fe41507065d0d7e4df28309cfb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e8778a96030494cbb5d819bf214fca104864eff4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422790"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977405"
 ---
 # <a name="sales-returns"></a>销售退货
 
@@ -87,7 +86,7 @@ ms.locfileid: "4422790"
 -   为每个退货行手动输入物料详细信息、数量和其他信息。
 -   使用 **查找销售订单** 功能创建退货行。 建议在创建退货单时使用此功能。 **查找销售订单** 功能建议从退货行到开票销售订单行的引用，并从销售行检索行详细信息，如物料编号、数量、价格、折扣和成本值。 产品退回公司时，此引用帮助确保其价值为销售时的相同单位成本。 此引用还验证退货单不是为超过了发票中销售的数量创建的。
 
->[注释！] 引用了销售订单的退货行作为销售的更正或撤销处理。 有关详细信息，请参阅本主题后面部分的“过帐到分类帐”。
+>[注释!] 引用了销售订单的退货行作为销售的更正或撤销处理。 有关详细信息，请参阅本主题后面部分的“过帐到分类帐”。
 
 ### <a name="charges"></a>费用
 
@@ -193,7 +192,7 @@ ms.locfileid: "4422790"
 ### <a name="identify-products-in-the-arrival-overview-list"></a>在到达概览列表中标识产品
 
 **到达概览** 页列出计划的所有传入到达。 
->[注释！] 从退货单的到达必须与其他类型的到达事物分开处理。 在 **到达概览** 页中标识传入的包（如通过使用随附的 RMA 文档）之后，请在操作窗格中，单击 **开始到达** 创建并启动与到达匹配的到达日记帐。
+>[注释!] 从退货单的到达必须与其他类型的到达事物分开处理。 在 **到达概览** 页中标识传入的包（如通过使用随附的 RMA 文档）之后，请在操作窗格中，单击 **开始到达** 创建并启动与到达匹配的到达日记帐。
 
 ### <a name="edit-the-arrival-journal"></a>编辑到达日记帐
 
@@ -235,7 +234,7 @@ ms.locfileid: "4422790"
 
 更换物料将通过使用独立销售订单（即更换销售订单）交付。 为退货单生成装箱单时创建此销售订单。 订单标题使用退货单标题中引用的客户提供的信息。 行信息收集自 **更换物料** 页中输入的信息。 必须为具有以单词“更换”开头的处置操作的行填写 **更换物料** 页。 但是，更换物料的数量和标识都未经过验证或受到限制。 此行为允许以下情况：客户需要配置或尺寸不同的相同物料，以及客户需要完全不同的物料。 默认情况下，在 **更换物料** 页中输入相同物料。 但是，如果已设置了此功能，则可选择其他物料。 
 
->[注释！] 更换销售订单在创建后可以编辑和删除。
+>[注释!] 更换销售订单在创建后可以编辑和删除。
 
 ## <a name="generate-a-packing-slip"></a>生成装箱单
 在退回物料可以入库前，必须更新其所属订单的装箱单。 就像发票更新流程是对财务交易记录进行的更新一样，装箱单更新流程是对库存记录的物理更新。 也就是说，此流程对库存进行更改。 在退货时，分配给处置操作的步骤在装箱单更新期间执行。 在生成装箱单时，将发生以下事件：
@@ -257,7 +256,7 @@ ms.locfileid: "4422790"
 ### <a name="credit-correction"></a>信用更正
 
 开票流程中，请验证是否所有杂费均正确无误。 若要让分类帐过帐成为更正 (Storno)，请在过帐发票/贷方通知单时，考虑使用 **过帐发票** 页中 **其他** 选项卡上的 **信用更正**。 
->[注释！] 默认情况下，如果已启用了 **应收账款参数** 页中的 **用于更正的贷方通知单** 选项，则已激活 **信用更正** 选项。 但是，建议您不使用 Storno 过帐退货。
+>[注释!] 默认情况下，如果已启用了 **应收账款参数** 页中的 **用于更正的贷方通知单** 选项，则已激活 **信用更正** 选项。 但是，建议您不使用 Storno 过帐退货。
 
 ## <a name="create-intercompany-return-orders"></a>创建内部公司退货单
 可以在组织内的两家公司之间完成退货单。 支持以下方案：
@@ -311,7 +310,7 @@ ms.locfileid: "4422790"
 
 ![退货单不引用客户发票](./media/SalesReturn09.png)  
 
->[注释！] 物料主价格用作 **退货成本价** 参数的默认值。 默认价格与出库时的成本价不同。 因此，影响是相差 3。 此外，退货单中不包含在销售订单中向客户提供的折扣。 因此，将出现透支。
+>[注释!] 物料主价格用作 **退货成本价** 参数的默认值。 默认价格与出库时的成本价不同。 因此，影响是相差 3。 此外，退货单中不包含在销售订单中向客户提供的折扣。 因此，将出现透支。
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>示例 2：为退货单选择了信用更正
 
@@ -319,7 +318,7 @@ ms.locfileid: "4422790"
 
 ![选择了信用更正的退货单 ](./media/SalesReturn10.png)  
 
->[注释！] 分类帐过帐作为负更正输入。
+>[注释!] 分类帐过帐作为负更正输入。
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>示例 3：退货单行通过使用“查找销售订单”功能创建
 
@@ -327,10 +326,7 @@ ms.locfileid: "4422790"
 
 ![通过使用“查找销售订单”创建的退货单行 ](./media/SalesReturn11.png)  
 
->[注释！] 正确设置了 **折扣** 和 **退货成本价**。 因此，正是客户发票的逆转。
+>[注释!] 正确设置了 **折扣** 和 **退货成本价**。 因此，正是客户发票的逆转。
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4fe97e3e2f8265c1dc67a4052f45125b693c7218
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2887bdb09b9c5754a2bb17b2cd8053b5d4fb273
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410365"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976631"
 ---
 # <a name="create-new-address-book"></a>创建新的通讯簿
 
@@ -57,6 +56,3 @@ ms.locfileid: "4410365"
 [屏幕布局概览](pos-screen-layouts.md)       
 
 [配置并安装 Retail Hardware Station](retail-hardware-station-configuration-installation.md)  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

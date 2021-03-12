@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMADispatchTeamTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b2b41b9ed763971feba489769ebad6f4076925e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: edbf7382ae479cca03c08f3e125d306347ca4d3c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422678"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977555"
 ---
 # <a name="set-up-dispatch-teams"></a>设置派遣团队 
 
@@ -54,6 +53,3 @@ ms.locfileid: "4422678"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

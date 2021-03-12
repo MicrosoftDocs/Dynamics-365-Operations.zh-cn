@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailOperations, RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e663a5dca76d570217b7e02444689a2e2d312c41
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c3b8e2774a189f2afefa757e7c4f3885b674918c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410395"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976780"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>在销售点 (POS) 中显示订单通知
 
@@ -77,6 +76,3 @@ POS 按钮现在可以显示计数以帮助工作人员轻松确定哪些任务�
 下图显示在 **内容对齐** 字段中选择 **靠上右对齐** 与 **居中** 对各种尺寸的按钮的影响。
 
 ![POS 按钮上的实时内容](./media/ButtonsWithLiveContent.png "POS 按钮上的实时内容")
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

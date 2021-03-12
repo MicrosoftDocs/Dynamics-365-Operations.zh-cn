@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, DefaultDashboard, SalesTableListPage, SalesCreateOrder, SalesTable, BankLCExport, SalesEditLines,  LedgerJournalTable, LedgerJournalTransCustPaym, CustOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3cd18320ca8505b1357ce505dfb4c94e81aaae91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5b46ba174d658d27f5349762f3314ea8110490d2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440715"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976383"
 ---
 # <a name="export-letter-of-credit"></a>导出信用证
 
@@ -140,6 +139,3 @@ ms.locfileid: "4440715"
 3. 在列表中，单击所选行中的链接。
     * 核实装运状态 = 已收到付款和余额 = 0.00。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

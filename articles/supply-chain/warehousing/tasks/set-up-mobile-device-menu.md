@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFAutoConfirm, WHSRFMenu
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86ccc39cb243354db337a5747701e9731c5ad775
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 10843f9ae9c657df5deae6a1ec11423cc426ba34
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423210"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976905"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>设置用于完成采购订单类型工作的移动设备菜单项
 
@@ -69,6 +68,3 @@ ms.locfileid: "4423210"
 5. 选择向右箭头。
 6. 选择 **保存**。
 7. 关闭该页面。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters, whswavetablecreatenew, WHSWaveTable, WHSWaveAttributes, WHSKanbanWaveTable, WHSWaveTableListPage, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aa193f6d62613893f9d5da4351d43a810dbf1596
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: e22816b33739141fbcd188d631a07313db415959
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423386"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977280"
 ---
 # <a name="configure-wave-processing"></a>配置波次处理
 
@@ -61,6 +60,3 @@ ms.locfileid: "4423386"
 对于销售订单和看板订单，在订单发放到仓库前，必须预留库存。 否则，无法以波次处理物料或分配行。 对于生产订单，您还可以选择“允许部分预留”。 例如，如果您有开始生产所需的材料，然后可以等待附加材料变为可用以完成此流程，这很有用。 如果选择此选项，则当附加材料变为可用时必须手动重复对仓库流程的发放。  
 25. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

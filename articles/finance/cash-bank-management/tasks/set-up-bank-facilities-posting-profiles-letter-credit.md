@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankParameters, DefaultDashboard, BankDocumentSetup, BankDocumentPosting
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6afa52fa2c784fd7afbdc8db0e079af0689b4bec
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7e72847b9046968c87d9602e141bae6c603c1c63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440821"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976311"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letter-of-credit"></a>设置信用证的银行设施和过帐模板
 
@@ -74,6 +73,3 @@ ms.locfileid: "4440821"
     * 当过帐打开的毛利时借记此科目，当过帐贷款时贷记此科目。  
 9. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerExchAdjHist
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 62183
 ms.assetid: 2762baaf-0c10-4ff7-8713-c506d6c29b98
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33db12388c969b8dadb38bfacf4d9df333b78bd4
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: 1907e62e30dbd3a51f5b7d2e5a57229143c87e99
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4440922"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978656"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>合并公司中的币种重估
 
@@ -89,6 +88,3 @@ ms.locfileid: "4440922"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

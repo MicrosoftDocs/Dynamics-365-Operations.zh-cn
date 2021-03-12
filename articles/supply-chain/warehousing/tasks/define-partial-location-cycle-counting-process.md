@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39a256a5a88a6d70373d6e23f1f380da6791f418
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0778cc7c1703dcfd5ea77979aafc99f4f040830d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423331"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977130"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>定义部分库位周期盘点流程 
 
@@ -73,6 +72,3 @@ ms.locfileid: "4423331"
 14. 单击“确定”。
 15. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

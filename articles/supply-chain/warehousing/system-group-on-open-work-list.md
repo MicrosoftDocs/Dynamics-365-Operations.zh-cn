@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b697cce8ecb9ece282fc659ab4d97c4b747c5e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 826920980bdd2d30337c92553bd0367b119f676c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422862"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977330"
 ---
 # <a name="system-grouping-on-an-open-work-list"></a>对未结工作列表的系统分组
 
@@ -42,6 +41,3 @@ ms.locfileid: "4422862"
 | 系统分组字段 | 仅当<strong>允许系统工作</strong>设置为<strong>是</strong>时可用。 选择决定如何为工作人员对领料工作进行分组的字段。 例如，如果您选择<strong>ShipmentId</strong>字段，工作人员将扫描装运 ID 来对领料工作进行分组。 然后将装运的所有工作分配给工作人员。 此字段要求您创建一个菜单项从而使用系统分组现有工作。 使用<strong>系统分组标签</strong>字段通知工作人员要扫描的内容。 |
 | 系统分组标签 |                       仅当<strong>允许系统工作</strong>设置为<strong>是</strong>时可用。 输入信息通知工作人员对领料工作分组时要扫描的内容。 例如，如果您使用 <strong>ShipmentId</strong> 字段按照装运分组领料工作，您可以在字段中输入装运 ID。 此字段要求您创建一个菜单项从而使用系统分组现有工作。 您还必须在<strong>系统分组</strong>字段中选择要按其分组的字段。                       |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
