@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PCTableConstraintAttachAttributeTree, PCTableConstraintColumnSystem, PCTableConstraintContentUserDef, PCTableConstraintDefinition, PCTableConstraintWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19781
 ms.assetid: 0a4ea930-b344-43a8-871e-d5cd077892c4
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3fb1395859b5abd06539e07ada3d968b2e9c9147
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 120ffe8e64629d0f99ac036d6ae6a933575903e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423014"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987146"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>系统定义和用户定义的表约束
 
@@ -67,6 +66,3 @@ ms.locfileid: "4423014"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

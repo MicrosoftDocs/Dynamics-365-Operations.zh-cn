@@ -3,7 +3,7 @@ title: 购物车模块
 description: 此主题介绍购物车模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
-ms.date: 10/20/2020
+ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: abb9909c03577763ff7e6242c9395a58159df6ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4410643"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985971"
 ---
 # <a name="cart-module"></a>购物车模块
 
@@ -53,6 +52,7 @@ ms.locfileid: "4410643"
 | 标题 | 标题文本和标题标记（**H1**、**H2**、**H3**、**H4**、**H5** 或 **H6**） | 购物车的标题，如“购物袋”或“购物车内的商品”。 |
 | 显示库存不足错误 | **True** 或 **False** | 如果此属性设置为 **True**，购物车页面将显示与库存相关的错误。 如果在站点上应用了库存检查，我们建议您将此属性设置为 **True**。 |
 | 显示行项的装运费用 | **True** 或 **False** | 如果将此属性设置为 **True**，购物车行项将显示装运费用（如果有此信息）。 Fabrikam 主题不支持此功能，因为用户仅在结帐流中选择装运。 不过，如果适用，可以在其他工作流中打开此功能。 |
+| 显示可用促销| **True** 或 **False** | 如果将此属性设置为 **True**，购物车会根据购物车中的商品显示可用促销。 Dynamics 365 Commerce 10.0.16 版本中提供此功能。 |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>购物车模块中可使用的模块
 
@@ -117,6 +117,3 @@ ms.locfileid: "4410643"
 [计算零售渠道的库存现有量](calculated-inventory-retail-channels.md)
 
 [创建在线功能配置文件](online-functionality-profile.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

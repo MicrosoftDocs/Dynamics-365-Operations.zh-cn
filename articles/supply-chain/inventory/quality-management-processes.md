@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 11574
 ms.assetid: 5ac8a059-5cb4-4cb5-ba14-b944bd08dae9
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ab3b886b9d5237e96e193d7369c6060f19516e5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b87fe141c6d53f68e90f5f2346da0633a09b1af1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423273"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987371"
 ---
 # <a name="quality-management-processes"></a>质量管理流程
 
@@ -101,6 +100,3 @@ ms.locfileid: "4423273"
 [设置质检订单](tasks/set-up-quality-orders.md)
 
 [检查货物的质量](tasks/inspect-quality-goods.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

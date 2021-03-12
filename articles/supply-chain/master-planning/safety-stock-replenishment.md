@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended, ReqSafetyKeyDefaultDataWizard
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: ee5775826c4f7f499d015145a5e8f0f6c7a42903
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dbc0ca146327fada1325f4b11965c23948d3565d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422775"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987246"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>物料的安全存货履行
 
@@ -116,6 +115,3 @@ ms.locfileid: "4422775"
 在主计划的覆盖范围阶段，不再降低安全存货补货的优先级。 现有库存量可以在任何其他需求类型前使用。 在延迟计算过程中，将添加新的逻辑来检查延迟的销售行、物料清单行需求以及所有其他需求类型，以确定在使用安全存货的前提下是否可以按时交付。 如果系统确定使用安全存货可以最大程度地减少延迟，则销售行或物料清单行将使用安全存货替代其初始覆盖范围，并且系统将改为针对安全存货触发补货。
 
 如果没有为延迟计算设置计划或物料，则安全存货约束将具有与任何其他需求类型相同的优先级。 这意味着在其他需求类型前存在现有和其他可用库存的预留。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

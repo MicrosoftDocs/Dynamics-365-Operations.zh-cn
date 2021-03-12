@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventParameters, InventProblemType, InventProblemTypeSetup, InventQuarantineZone, InventTestDiagnosticType, InventTestReportSetup, SysUserManagement, InventTestRelatedOperations
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 28951
 ms.assetid: a62d4ba8-eebc-4b14-b587-630be7298522
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e66353dc3a4b4b7d9ff3c5f63bf3d4b0c70bda0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b6dc201ef70e07e3247110a373d897a1cd5daf73
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423071"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987421"
 ---
 # <a name="nonconformance-management"></a>不符合项管理
 
@@ -54,6 +53,3 @@ ms.locfileid: "4423071"
 [质量管理流程](quality-management-processes.md)
 
 [设置不符合项管理的先决条件](tasks/set-up-prerequisites-nonconformance-management.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

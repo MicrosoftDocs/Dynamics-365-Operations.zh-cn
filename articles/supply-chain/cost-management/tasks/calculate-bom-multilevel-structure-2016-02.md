@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog, BOMCalcTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f0ec28a20d32fc38cd6e77a76a02fc9544db3ca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f07bab0bab5553764982b44d9b135b4baa8310f9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423077"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987596"
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a>通过使用多级结构计算 BOM（2016 年 2 月）
 
@@ -49,6 +48,3 @@ ms.locfileid: "4423077"
 11. 关闭该页面。
 12. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

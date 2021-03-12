@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgLookupDynastring, EngChgProductVersionNumberRule, EngChgEcmProductRoute, EngChgEcmRequestProducts, EngChgEcmProductRoute, EngChgEcmProductPreview,EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmProductCreate, EngChgEcmProductLookup, EngChgProductVersionPrCompany, ngChgProductTypeLookup, EngChgProductType, EngChgProductItemPart, EngChgProductItem, EngChgEcmCategory, EngChgEcmBomDesignerEditBom, EngChgEcmBomDesigner, EngChgEcmBOMCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3eb5b5c4304b393008ecc5f5ff5a663295ed0d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: c15dcd0adfcf9b9022a919bd516dcf5117ea5041
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4423445"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987471"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>工程版本和工程产品类别
 
@@ -162,6 +161,3 @@ ms.locfileid: "4423445"
 对于您正在使用 *版本* 产品维度的产品（具有对交易的物流影响），该版本也会添加到 BOM 和工艺路线中。 此行为有助于区分连续版本的 BOM 和工艺路线，无论 **强制实施有效性** 设置如何。
 
 对于您不使用 *版本* 产品维度的产品（没有对交易的物流影响），该版本不会添加到 BOM 或工艺路线中。 因此，连续版本的 BOM 和工艺路线之间不存在差异。 在这种情况下，我们强烈建议您将 **强制实施有效性** 选项设置为 *是*。 这样，可以帮助防止工程版本重叠，并且还可以激活新版本的 BOM 和工艺路线，而无需先停用以前版本的 BOM 和工艺路线。 如果您将 **强制实施有效性** 选项设置为 *是*，必须先手动停用旧版本的 BOM 和工艺路线，然后才能激活最新版本。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

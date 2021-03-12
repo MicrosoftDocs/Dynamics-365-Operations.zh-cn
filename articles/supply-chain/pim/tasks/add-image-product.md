@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductPerCompanyImagePart, EcoResProductImage, DocumentUpload
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4bcea2107c1510423145f6246c7b71d05598e79
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dd18d93c53a213b1b110da27c601590cabd17d4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423011"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987070"
 ---
 # <a name="add-an-image-to-a-product"></a>向产品添加图像
 
@@ -37,6 +36,3 @@ ms.locfileid: "4423011"
 5. 单击“新建”。
     * 单击浏览。 找到要使用的图像，选择，然后关闭对话框。    
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

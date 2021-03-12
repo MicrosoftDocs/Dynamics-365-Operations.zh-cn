@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 54532
 ms.assetid: cd239da5-f434-4d1b-8196-5414c888d76d
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cefee7d678789f462eedbf9f9a3fbc9b591e25a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 287aabaa6a0b3de709dae8b16dbccc21dc349cf5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423287"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987621"
 ---
 # <a name="costing-versions-overview"></a>成本计算版本概览
 
@@ -68,6 +67,3 @@ ms.locfileid: "4423287"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

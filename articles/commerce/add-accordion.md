@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 28cb9d2e450ff1c05d4faa5cac343e03ef051437
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410404"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4986096"
 ---
 # <a name="accordion-module"></a>手风琴模块
 
@@ -87,6 +86,3 @@ ms.locfileid: "4410404"
 [标签模块](add-tab.md)
 
 [文本块模块](add-content-rich-block.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

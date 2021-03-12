@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventTransferOrders, InventLocationIdLookup, TransportationDocument, HcmWorkerLookUp, SrsReportViewerForm, InventTransferParmShip
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e85bd359ce1053629ad4217cf623e57b2976463a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f4c71d1b0e756cc20fa68bf79102479447cf8f86
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440796"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988037"
 ---
 # <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a>为公司内货物转移设置转移文档
 
@@ -74,6 +73,3 @@ ms.locfileid: "4440796"
 10. 单击“装箱单”。
 11. 单击“确定”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

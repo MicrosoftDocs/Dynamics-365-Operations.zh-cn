@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: WrkCtrCapability, WrkCtrTable, WrkCtrCapRes, WrkCtrApplicableResources
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 29961
 ms.assetid: 30e38233-2a64-4070-911f-8ffd78dd8281
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc01e2d28758008d2e147a92c498da7ccb14b173
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 445ef49440fa789bee60e508698abed755c54795
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422928"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4986521"
 ---
 # <a name="resource-capabilities"></a>资源功能
 
@@ -58,6 +57,3 @@ ms.locfileid: "4422928"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

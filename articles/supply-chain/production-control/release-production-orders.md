@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ProdParmRelease
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2414
 ms.assetid: 50c2257b-2924-44f5-b7c1-11f498092053
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc6d53fc87bac2e23c0d1e67954be02749042004
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 242c3526e82e7d475f516bdbff8854fa0bf12079
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423276"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4986596"
 ---
 # <a name="release-production-orders"></a>下达生产订单
 
@@ -64,6 +63,3 @@ ms.locfileid: "4423276"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

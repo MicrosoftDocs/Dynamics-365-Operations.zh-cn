@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CostSheetDesigner, CostSheetCalculationFactor
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53201
 ms.assetid: e7d72b43-3892-49ae-8821-9eede3f4d24a
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f83c18bb8700e274bcf8cb369a7436a17450bf7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df761015ed9382f59fa8ba7df9e5856db06287c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423284"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987646"
 ---
 # <a name="costing-sheets"></a>成本计算单
 
@@ -50,6 +49,3 @@ ms.locfileid: "4423284"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

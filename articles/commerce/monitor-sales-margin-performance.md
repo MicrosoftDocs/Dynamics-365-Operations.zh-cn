@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailSales
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 85123
 ms.assetid: ddd15820-c3e6-4607-819e-8cef744ce9c9
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a7b2b6ba8115b43ef2e52e934bf8364e6f4044e7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 51dc7c4b62a497e3dc9279b3c5a616057316c106
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410419"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985878"
 ---
 # <a name="monitor-sales-and-margin-performance"></a>监控销售和利润率
 
@@ -49,6 +48,3 @@ ms.locfileid: "4410419"
 - **类别和产品管理** 工作区 &gt; **Retail 和 Commerce** &gt; **产品和类别** &gt; **商店管理** &gt; **报表**
 - **定价和折扣管理** 工作区 &gt; **Retail 和 Commerce** &gt; **定价和折扣** &gt; **商店管理** &gt; **报表**
 - **查询和报表** 部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

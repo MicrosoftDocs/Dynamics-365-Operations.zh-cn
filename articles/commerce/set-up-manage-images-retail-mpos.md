@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aff3bee942f3443eb604311d1d804b66421e332d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 31f325d2614d0a01192a0157ee0e89514bc51caa
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410564"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985753"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>设置和管理 Modern POS (MPOS) 的图像
 
@@ -209,6 +208,3 @@ MPOS 可以在联机模式下运行（当 MPOS 连接到 Commerce Scale Unit 时
 5. 对于其他实体（例如类别、员工和客户），请按照类似流程操作。
 
     [![脱机图像](./media/offline2.png)](./media/offline2.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

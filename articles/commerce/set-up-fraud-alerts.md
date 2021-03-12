@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79103
 ms.assetid: e342af8d-7498-4d20-8483-ab368429c578
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 15950edd142b222a90bee7876718f4fc5c607468
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410565"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985778"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>设置和处理呼叫中心欺诈预警
 
@@ -69,6 +68,3 @@ ms.locfileid: "4410565"
 若要查看和管理已保留待执行欺诈检查的订单，请转至 **Retail 和 Commerce** \> **客户** \> **订单保留**。 在 **订单保留** 页，选择列表中的一个条目，然后单击 **订单保留** 以查看包含有关保留原因的更详细的视图。 在 **欺诈详细信息** 快速选项卡上，可查看被发现与订单匹配的系统的欺诈条件和应用的分数。 如果订单已手动保留，则可通过查看 **注释** 快速选项卡上的 **欺诈注释** 部分，查看保留该订单的用户输入的任何注释。
 
 有关如何处理保留订单的详细信息，请参阅[订单保留](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds)。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
