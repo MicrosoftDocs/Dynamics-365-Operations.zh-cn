@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 371cc2efa64916698da8e4230825c3c949920698
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4dee4468079a9ad500f513900cec090acf6026ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440693"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969120"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>将固定资产作为废料处置
 
@@ -82,6 +81,3 @@ ms.locfileid: "4440693"
 下图显示了已过帐的凭证。
 
 [![帐面净值](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

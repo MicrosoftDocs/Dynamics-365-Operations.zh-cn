@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 221564
 ms.assetid: 7c68eb7c-8b1a-4dd9-afb8-04b4040e305e
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3225b214e729ff13d4ffe8ad1d8cf0f2d6baae49
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0528c378ffbb24ac8cb19af25290a1002ece2327
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440643"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969046"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>固定资产价值模型和折旧帐簿合并
 
@@ -71,6 +70,3 @@ ms.locfileid: "4440643"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

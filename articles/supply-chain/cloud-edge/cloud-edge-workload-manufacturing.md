@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 799c479c750fcaf296f3e2787fa38416af51963c
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 08c46655d3966ad1433935318c5e60667dd10bb6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516738"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967751"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Cloud Scale Unit 和 Edge Scale Unit 的制造执行工作负荷
 
@@ -110,6 +109,3 @@ Supply Chain Management 中的批处理作业会自动运行，以处理从工�
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>制造中心到缩放单元消息处理器作业
 
 _制造中心到缩放单元消息处理器_ 作业处理从中心到缩放单元的数据。 在部署制造执行工作负荷时将自动启动此作业。 但是，您可以通过转到 **生产控制 \> 定期任务 \> 后台工作负荷管理 \> 制造中心到缩放单元消息处理器** 随时手动运行它。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

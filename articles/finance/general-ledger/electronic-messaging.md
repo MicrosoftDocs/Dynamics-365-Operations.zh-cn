@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b5887efc32c71759e4cb3c31e1b18c4c8b64f173
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d4ecc29e47d68129df424c4212505413cf6c8889
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440858"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968971"
 ---
 # <a name="electronic-messaging"></a>电子消息
 
@@ -536,6 +535,3 @@ Finance 中的电子消息功能支持在 Finance 与政府和立法机构为报
 ![更新消息状态](media/update-status.png)
 
 消息状态更新为 **已准备**，现在，您可以通过选择 **生成报表** 生成报表。 将生成报表，消息状态和操作日志将更新。 若要查看生成的报表，请选择页面右上角的 **附件** 按钮（回形针符号）。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

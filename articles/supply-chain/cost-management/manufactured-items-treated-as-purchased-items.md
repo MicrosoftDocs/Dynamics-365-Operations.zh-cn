@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqGroup, ReqItemTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 21841
 ms.assetid: acc608b7-2cad-4fba-afee-9b7cc93761ec
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9b5ba58703e636308d83a94ecc2e27e44812c49
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7acf4952c1dbb33f4ec615d1ecb9d508a9e7b980
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423050"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967500"
 ---
 # <a name="set-up-products-that-can-be-produced-or-procured"></a>设置可以生产或采购的产品
 
@@ -42,6 +41,3 @@ ms.locfileid: "4423050"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

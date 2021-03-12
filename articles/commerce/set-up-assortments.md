@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15811
 ms.assetid: d2580048-e798-4b33-85f9-d1bad7d262fc
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 26614d319453041177e8072793f09f52ebfd51fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 32edf6534716236706847556a14b951f18ef40ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410585"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969818"
 ---
 # <a name="set-up-assortments"></a>设置分类
 
@@ -55,6 +54,3 @@ ms.locfileid: "4410585"
 2. 选择渠道或此分类应用于的渠道的更高级别组。
 3. 添加产品类别、单独的产品或产品变型到此分类。 您在特定类别可以包括所有产品，或可以从包括在分类的类别中排除所选的产品。
 4. 发布分类。 在发布分类时，将自动运行分类计划程序。 此过程生成产品列表。 在此过程完成后，产品分类分配到的渠道可以使用这些产品。 如果对已发布的分类或该分类所分配到的渠道进行了更改，则必须更新该分类。 若要在完成更改后更新此分类，您可以批处理作业形式运行分类计划程序。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

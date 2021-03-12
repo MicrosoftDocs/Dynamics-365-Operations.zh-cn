@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90fe7f3ab08e9417af3f857f04934a9b5df3d82d
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 6cc96cbdb11f24d727bddfa5fd4aaa579537802a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644889"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968446"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>设置销售税分类帐过帐组
 
@@ -42,6 +41,3 @@ ms.locfileid: "4644889"
 11. 在 **客户折扣** 字段中，选择主科目，以过帐与此 **分类帐过帐组** 相关的 **销售税代码** 的现金折扣。 此为可选项，如果未输入科目，将使用 **现金折扣代码** 的主科目。 如果使用 **销售税组** 中的“冲销现金折扣的销售税”选项，每个 **分类帐过帐组** 使用不同的帐户会很有帮助。  
 12. 单击 **保存**。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

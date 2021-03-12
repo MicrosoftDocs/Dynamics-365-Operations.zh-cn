@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: 1d6133d80d7674a1d896bc19a743a6bd4d0fb40f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f08906c14f80b07368d88d820acae83cf1157e6c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410597"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969943"
 ---
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>销售点 (POS) 中的库存查找
 
@@ -115,6 +114,3 @@ ms.locfileid: "4410597"
 | 可用性         | 显示所选位置所选变型组合的 ATP 信息。 |
 | 显示所有位置   | 切换到标准库存查找视图，并突出显示商店定位符组中所有商店内和 **标准/默认** 类型的配送中心内的物料变型的库存可用性信息。 |
 | 查看产品详细信息 | 将用户重定向到关联的基础产品的 **产品详细信息** 页。 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19111
 ms.assetid: 56a7c8ba-bf4a-4b1d-918d-56bb96926c4f
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daa36dad4009cc25b89363dcff6b4496205522e3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 914c7e8c757664ec791b46924600b74c9c979e8f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422884"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967425"
 ---
 # <a name="inventory-object-values"></a>库存对象值
 
@@ -147,6 +146,3 @@ Inventory object.Value = Cost object.Average unit cost × Inventory object.Quant
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

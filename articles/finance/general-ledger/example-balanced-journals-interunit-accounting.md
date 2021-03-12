@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15791
 ms.assetid: 301bd80e-f8b1-4f12-8194-e6d7de736084
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e84d96b5467b38e07a9ed31f142c27b638289284
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f189d1ed5b0917c9975587accc2275556ceb8143
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440641"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968746"
 ---
 # <a name="balanced-journals-for-interunit-accounting"></a>平衡单位间核算的日记帐
 
@@ -55,6 +54,3 @@ ms.locfileid: "4440641"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

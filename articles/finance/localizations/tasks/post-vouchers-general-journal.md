@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransDimension, DimensionLookup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44e65c1e21a91c8e87e4725753855cc6e1873dd1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ee24307e65b16b41f03dc2431e06788fd52058c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409746"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968280"
 ---
 # <a name="post-vouchers-from-the-general-journal"></a>过帐普通日记帐的凭证
 
@@ -59,6 +58,3 @@ ms.locfileid: "4409746"
 23. 选中“打印科目维度”复选框。
 24. 单击“确定”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

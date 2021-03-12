@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ProjCategory, RouteCostCategoryPrice
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 78153
 ms.assetid: a3fdc76c-0a27-4723-b1c7-4322f707d89e
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20697fd557fd81a0eec5a033c2c397f3918e6477
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3f6204cfbdb56978f0b7611a38db8c23953ed83a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423145"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967700"
 ---
 # <a name="cost-categories-used-in-production-routing"></a>在生产工艺路线中使用的成本类别
 
@@ -56,6 +55,3 @@ ms.locfileid: "4423145"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

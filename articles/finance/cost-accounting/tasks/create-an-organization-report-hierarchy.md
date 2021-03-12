@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57203a7ddbacd631cbf800fb3a98e35a485cb74f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 51cd97ac2b78035224db543e3bcc5d606a16ffde
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440901"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969395"
 ---
 # <a name="create-an-organization-report-hierarchy"></a>创建组织报告层次结构
 
@@ -95,6 +94,3 @@ ms.locfileid: "4440901"
     * 选中与节点对应的维度成员。  
 59. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

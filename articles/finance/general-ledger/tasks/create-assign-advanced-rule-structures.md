@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DimensionConfigureAccountRuleStructure, DimensionCreateAccountRuleStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate, DimensionConfigureAccountStructure, DimensionConfigureAccountRule, DimensionCreateAccountRule, DimensionSelectAccountRuleStructure
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb18b96d6d7db84262f8fcfadb15afa80e2fa3d8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e6a3f7d174c91e357dce8a19ab50a5cd42a85561
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440636"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968585"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>创建和分配高级规则结构
 
@@ -59,6 +58,3 @@ ms.locfileid: "4440636"
 17. 关闭该页面。
 18. 选择 **激活**。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

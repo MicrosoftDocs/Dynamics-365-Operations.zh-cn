@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: FinancialDimensionDefaultTemplates, DimensionLookup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a53eed5127267614ce8fb46622be59f77e68217e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ecc9adac17a6313e88ac568d016daf8d05b8d818
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440682"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968602"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>维护财务维度默认模板
 
@@ -42,6 +41,3 @@ ms.locfileid: "4440682"
 11. 输入与所输入百分比对应的财务维度值。
 12. 选择 **保存**。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

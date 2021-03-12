@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db59bad2ed3caf38f22bd4d6059e57747d1d983f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440624"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969693"
 ---
 # <a name="collections-process-automation"></a>收款流程自动化
 
@@ -118,6 +117,3 @@ ms.locfileid: "4440624"
 |     应收帐款参数 > 收款流程自动化     |     自动过帐催款单           |     自动化期间催款单操作类型将过帐催款单。                                      |
 |     应收帐款参数 > 收款流程自动化     |     为自动化创建活动                |     为非活动操作类型创建和关闭活动以查看对帐户执行的所有自动化步骤。        |
 |     应收帐款参数 > 收款流程自动化     |     保持收款流程自动化的天数     |     定义收款历史记录的存储天数。                                                       |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

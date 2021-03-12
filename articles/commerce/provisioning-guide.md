@@ -3,14 +3,13 @@ title: 预配 Dynamics 365 Commerce 评估环境
 description: 本主题说明如何预配 Microsoft Dynamics 365 Commerce 评估环境。
 author: psimolin
 manager: annbe
-ms.date: 11/05/2020
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
-ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
+ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4410641"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969893"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>预配 Dynamics 365 Commerce 评估环境
 
@@ -117,7 +116,7 @@ ms.locfileid: "4410641"
 
 ### <a name="initialize-the-commerce-scale-unit-cloud"></a>初始化 Commerce Scale Unit（云）
 
-要初始化您的 CSU，请遵循以下步骤。
+要初始化 CSU，请遵循以下步骤。
 
 1. 在 **云托管的环境** 视图中，在列表中选择您的环境。
 1. 在右侧的环境视图中，选择 **完整详细信息**。 将显示环境详细信息视图。
@@ -130,6 +129,22 @@ ms.locfileid: "4410641"
 1. 继续操作之前，确保 CSU 的状态为 **成功**。 初始化大约需要两到五个小时。
 
 如果在环境详细信息视图中找不到 **管理** 链接，请联系您的 Microsoft 联系人寻求帮助。
+
+在部署流程期间，您可能会收到以下错误消息：
+
+> 评估（演示/测试）环境需要在总部注册缩放单元连接器应用程序 \<application ID\>。
+
+如果 CSU 初始化失败，您收到此错误消息，请记下应用程序 ID，是一个全局唯一标识符 (GUID)，然后按照下一节中的步骤在 Commerce headquarters 中注册 CSU 部署应用程序。
+
+### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>在 Commerce headquarters 中注册 CSU 部署应用程序（如果需要）
+
+要在 Commerce headquarters 中注册 CSU 部署应用程序，请按照以下步骤操作。
+
+1. 在 Commerce headquarters 中，转到 **系统管理 \> 设置 \> Azure Active Directory 应用程序**。
+1. 在 **客户端 ID** 列中，输入您收到的 CSU 初始化错误消息中的应用程序 ID。
+1. 在 **名称** 列中，输入任何描述性文本（例如，**CSU 评估**）。
+1. 在 **用户 ID** 列中，输入 **RetailServiceAccount**。
+1. 从 LCS 重试 CSU 初始化和部署。
 
 ### <a name="initialize-e-commerce"></a>初始化电子商务
 
@@ -176,6 +191,3 @@ ms.locfileid: "4410641"
 [Microsoft Azure 门户](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce 网站](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

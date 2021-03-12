@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ec49a621e24b6373532497b499e8b9d45c9bed14
-ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
+ms.openlocfilehash: baa2f1f55dfb9bb93b4f27c45db563e39850dd37
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "4440925"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969718"
 ---
 # <a name="view-vendor-invoice-automation-results"></a>查看供应商发票自动化结果
 
@@ -38,6 +37,3 @@ ms.locfileid: "4440925"
 - **已暂停** – 在 **应付帐款参数** 页面上定义的自动化流程已运行，但流程中至少有一个步骤失败。 如果 **包括在自动化流程中** 字段设置为 **否**，还应用 **已暂停** 状态。 您可以通过选择 **查看最新结果** 来查看失败。
 - **在工作流中** – 导入的发票已通过自动提交到工作流程或手动提交到工作流系统。
 - **工作流完成** – 已完成导入的发票的工作流程。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

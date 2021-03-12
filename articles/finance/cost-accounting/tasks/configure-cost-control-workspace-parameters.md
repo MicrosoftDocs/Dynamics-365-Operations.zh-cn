@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca05f6174541a6e97ec94db209a99424a87550eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9861d6bc83d3f1d62091154a36436627eeccad4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440902"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969345"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>配置成本控制工作区参数
 
@@ -59,6 +58,3 @@ ms.locfileid: "4440902"
 27. 在“成本对象维度层次结构节点”字段中，输入或选择一个值。
     * 选择“成本对象维度层次结构”之后，展开“成本元素维度层次结构”以查看所需成本值。 例如，可以将层次结构展开到“制造开销”以查看值。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

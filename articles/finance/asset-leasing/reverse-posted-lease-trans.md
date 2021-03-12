@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 259fd8f41eade1e873225f0d95c499c8cb8c1a6a
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 3e4908ddab2650e5ff7e4a28bf916604d165d08c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440954"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969520"
 ---
 # <a name="reverse-posted-lease-transactions"></a>冲销已过帐租赁交易
 
@@ -56,6 +55,3 @@ ms.locfileid: "4440954"
 当您选择 **冲销追踪** 时，会出现一个对话框，其中显示原始交易和冲销的交易，以及一个链接号。
 
 您还可以使用相应 **计划** 页来跟踪冲销。 将清除 **冲销** 字段，但选中 **已过帐的日记帐** 字段。 此外，将使用撤回交易的日记帐编号更新 **最近的日记帐编号** 字段，并使用冲销日记帐编号更新 **日记帐编号** 字段。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

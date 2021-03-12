@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: BOMCostGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 50871
 ms.assetid: 1855f744-f73f-4fa8-8290-a7ee126d368b
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9dee8e40de43480cd010b5acc41a3d87611c2ab6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ef656e24aadfbf6edb7c15851ea4142edd9520e6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423141"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967757"
 ---
 # <a name="cost-groups"></a>成本组
 
@@ -54,6 +53,3 @@ ms.locfileid: "4423141"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

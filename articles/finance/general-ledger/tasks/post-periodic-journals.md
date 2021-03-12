@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransPeriodic, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f721a05c8b74f1cfcf43177b73129751483650e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 99d157e82f8451e2c8f0bc7946ba30ca48e99add
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440780"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968496"
 ---
 # <a name="post-periodic-journals"></a>过帐期间日记帐
 
@@ -58,6 +57,3 @@ ms.locfileid: "4440780"
 27. 在 **定期日记帐编号** 字段中，输入或选择一个值。
 28. 在列表中，单击所选行中的链接。
 29. 单击 **确定**。 定期日记帐可以根据需求和设置进行检查、审核或过帐。   
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

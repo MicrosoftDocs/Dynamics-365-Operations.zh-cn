@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19451
 ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85e590322c75cfb2ad21236af56656061037a4b7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 65a0f72f8d97bda36bacd691d545807c413f8825
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423139"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967650"
 ---
 # <a name="cost-objects"></a>成本对象
 
@@ -82,6 +81,3 @@ ms.locfileid: "4423139"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

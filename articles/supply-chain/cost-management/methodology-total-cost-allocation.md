@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 83852
 ms.assetid: 7c14c3e5-9476-4a79-a210-e77fc91cc7fc
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 758015c566e39df7306e1b34b8d3b42f1f1eba79
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a588819926ddd6cb118dd2c12e4cad29f96672df
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422752"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967525"
 ---
 # <a name="total-cost-allocation-method"></a>总成本分摊方法
 
@@ -62,6 +61,3 @@ ms.locfileid: "4422752"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
