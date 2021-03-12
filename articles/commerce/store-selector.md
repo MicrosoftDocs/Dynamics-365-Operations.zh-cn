@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5400a2e743a78124dca4bf9be3ccaf7870ea8b7d
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 74dbad4cb348f19b51ba8b84a1cd41fc5049708e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665264"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006327"
 ---
 # <a name="store-selector-module"></a>商店选择器模块
 
@@ -146,6 +145,3 @@ ms.locfileid: "4665264"
 [必应地图 REST API](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [地图模块](map-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

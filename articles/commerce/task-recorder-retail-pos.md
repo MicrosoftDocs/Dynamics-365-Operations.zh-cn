@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0ab8456d81fbe2dca495b65b932395572242a25c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b0a5ca1e116e931ba992eab51a06dae9fdf92756
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410547"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006127"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) 和 Cloud POS 的任务录制器和帮助
 
@@ -34,7 +33,7 @@ ms.locfileid: "4410547"
 
 ## <a name="overview"></a>概览
 
-Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，注重高响应性。 它提供灵活的应用程序编程接口 (API) 以实现可扩展性，并提供与业务流程录制的使用者的无缝集成。 此外，还提供了任务录制器与 Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) 上的业务流程建模器 (BPM) 工具的集成。 因此，用户能够继续从录制生成丰富的业务流程图来分析和设计自己的应用程序。
+Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，注重高响应性。 它提供灵活的应用程序编程接口 (API) 以实现可扩展性，并提供与业务流程录制的使用者的无缝集成。 此外，还提供了任务录制器与 Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) 上的业务流程建模器 (BPM) 工具的集成。 因此，用户能够继续从录制生成丰富的业务流程图来分析和设计自己的应用程序。
 
 ## <a name="architecture"></a>体系结构
 
@@ -146,6 +145,3 @@ Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案�
 
 > [!NOTE]
 > Retail Modern POS 和 Cloud POS 中的帮助不会根据您所处的窗体或正在执行的操作提供任务指南。 您必须输入在搜索框中键入流程名称，然后单击 **搜索**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

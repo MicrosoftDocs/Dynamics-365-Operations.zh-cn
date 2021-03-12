@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WrkCtrProperty
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 79ca3d0405cc62b181f8c80df6de3a3cc9e12f99
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4fe3538f692361470b12e724cda342cc0ef37667
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422706"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006858"
 ---
 # <a name="create-working-time-scheduling-properties"></a>创建工作时间计划属性
 
@@ -44,6 +43,3 @@ ms.locfileid: "4422706"
 3. 在“值”字段中，键入一个值。
 4. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

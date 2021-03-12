@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 250f2386cefee8bef45df66c4eef31b4e7fc2686
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1bd8f6e31afa300c5e7687a657ae2807995af8d3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410554"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006302"
 ---
 # <a name="work-with-style-presets"></a>使用样式预设
 
@@ -128,6 +127,3 @@ ms.locfileid: "4410554"
 [向站点添加语言](add-languages-to-site.md)
 
 [将脚本代码添加到站点页面以支持遥测](add-telemetry.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

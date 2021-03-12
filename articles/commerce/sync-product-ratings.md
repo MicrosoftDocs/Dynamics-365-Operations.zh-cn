@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dec87b548f3a218e1f833b752305f373e893b14c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a7318d53535a93352425f811ec90572e65aeb696
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410553"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006277"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>在 Dynamics 365 Commerce 中同步产品评分
 
@@ -135,6 +134,3 @@ Dynamics 365 Commerce 中的评分和评价解决方案是全渠道解决方案�
 [管理评分和评价](manage-reviews.md)
 
 [配置评分和评价](configure-ratings-reviews.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

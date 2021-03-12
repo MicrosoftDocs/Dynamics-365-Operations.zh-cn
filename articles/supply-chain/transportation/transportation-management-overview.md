@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30251
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4affc5846ee329a4571d6fb3e0c42873387241ad
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: fca83ef2c80ed6df9cfbdedd2805e453df3f737a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423366"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006483"
 ---
 # <a name="transportation-management-overview"></a>运输管理概览
 
@@ -87,6 +86,3 @@ Supply Chain Management 提供称作“基于容量的装载计划策略”的�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

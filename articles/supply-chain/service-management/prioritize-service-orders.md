@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55f0f625f48df57ab5b86c524841815c717d2bdd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7b450dde5e9028d4a1eab671bbec240fd33dfb7e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423173"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006533"
 ---
 # <a name="prioritize-service-orders"></a>确定服务订单的优先级 
 
@@ -51,6 +50,3 @@ ms.locfileid: "4423173"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

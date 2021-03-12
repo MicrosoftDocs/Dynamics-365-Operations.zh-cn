@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7f51b3d65c8dd1e11296956c37ef9dfe568e5ec2
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: e4abe1a03997853053f60c750199874a61fc68c0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654190"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006383"
 ---
 # <a name="advanced-load-building-during-wave"></a>波次期间的高级负荷计划
 
@@ -250,6 +249,3 @@ ms.locfileid: "4654190"
 1. 在刚才创建的销售订单中的 **销售订单行** 快速选项卡上，选择 **添加行** 再添加一行。
 1. 在新行中，将 **物料编号** 字段设置为 *M9200*，将 **数量** 字段设置为 *1*。
 1. 重复行 6 到 9 预留行并将其发放到仓库。 就像前面一样，系统将为添加的行创建一个 **新** 装运。 但是，因为该物料来自 **CarAudio** 物料组，所以 **无法通过为负荷混合组设置的约束**。 因此，将把其 **添加到新负荷**。 如果尚未在负荷计划模板中指定负荷混合组，应该已将该装运添加到第一个负荷。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
