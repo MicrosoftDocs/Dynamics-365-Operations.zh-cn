@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 46bcd396c93bc1d2944241165d438f8ccc013e20
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 08ca824bb4c4a02a80f2187fb5f8fe4e8b7327c9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440947"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992906"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>重新分类租赁负债的短期部分
 
@@ -41,6 +40,3 @@ ms.locfileid: "4440947"
 4. 打开 **过帐** 参数。 或者，如果应创建但不过帐条目，请关闭此参数。
 5. 打开 **过帐前预览** 参数以在条目过帐之前进行查看。
 6. 选择 **确定**。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 92177d4f808bfec88dabe9277c3d584ed02e401e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 7f70442450cc1c814ae23e41a1feb3a63f2aade8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440948"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992881"
 ---
 # <a name="record-leases-in-foreign-currencies"></a>使用外币记录租赁
 
@@ -53,6 +52,3 @@ ms.locfileid: "4440948"
 最终折旧费用金额可以通过使用稍微不同的汇率来计算，因此使用权资产可以以记帐货币和申报币种完全折旧。
 
 如果租赁已重新分类为 **延期租金**，系统会自动清除记帐币种和申报币种的汇率（如果已定义）。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

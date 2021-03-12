@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8ca1c6eea854577e5aa34b1a9b9d1731b209527b
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 26e046b627d71721f4a4d7b6a60171a482e3e357
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440943"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992781"
 ---
 # <a name="set-up-lease-posting-accounts"></a>设置租赁过帐科目
 
@@ -84,6 +83,3 @@ ms.locfileid: "4440943"
     > [!NOTE]
     > 过帐计划的费用的发票时，将借记所选金融科目或经营性科目。
     > **租赁费用抵销** 将用作执行成本交易的过帐类型，但过帐到租赁详细信息或或租赁帐簿表中 **执行成本付款计划行** 中定义的 **对方科目**。   
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

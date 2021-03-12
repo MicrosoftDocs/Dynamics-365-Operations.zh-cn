@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2aa1980ebc1fa8412fc388e7837bc40b6902bc0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440625"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991225"
 ---
 # <a name="credit-management-setup"></a>信用管理设置 
 
@@ -153,6 +152,3 @@ ms.locfileid: "4440625"
 2. 选择比较运算符以定义应如何评估计分组信息。
 3. 输入应该与为计分组指定的值进行比较的值。
 4. 如果客户信息与为计分组指定的值匹配，请输入应分配的信用额度。 例如，您为 **低** 计分组创建自动信用额度。 如果营业年数是计分组之一，则可以定义一个行，以在客户已营业五年的情况下分配一个值为 100,000 的信用额度；可以定义另一个行，以在客户已营业 10 年的情况下分配一个值为 200,000 的信用额度。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

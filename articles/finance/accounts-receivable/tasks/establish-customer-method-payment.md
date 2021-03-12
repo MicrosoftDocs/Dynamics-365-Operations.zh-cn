@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustPaymMode, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4b9960c3fdf0d65be19e28dbb41913a310ae7530
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a948bf772e55f20c7010101fd11da83940a0b268
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440746"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990949"
 ---
 # <a name="establish-customer-method-of-payment"></a>设定客户付款方式
 
@@ -46,6 +45,3 @@ ms.locfileid: "4440746"
 15. 使用 **付款属性** 选项卡以定义您想针对此付款方式使用哪种付款属性。
 16. 选择 **保存**。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

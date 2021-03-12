@@ -1,5 +1,5 @@
 ---
-title: 会计分配和普通发票的子分类日记帐条目
+title: 会计分配和普通发票的日记帐条目
 description: 会计分配用于定义将如何对帐金额，例如将如何对帐普通发票中的收入、税金或费用。 普通发票已记入日记帐时，必须对帐的每笔金额都将具有一个或多个会计分配。
 author: ShivamPandey-msft
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 515d0a9c35507fad04b776e1f0b6225ac5a162d3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f3ee26825ec48a8e8e32401ceaa8c80ecd679d2e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440602"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993182"
 ---
-# <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>会计分配和普通发票的子分类日记帐条目
+# <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>会计分配和普通发票的子分类帐条目
 
 [!include [banner](../includes/banner.md)]
 
@@ -136,6 +135,3 @@ ms.locfileid: "4440602"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

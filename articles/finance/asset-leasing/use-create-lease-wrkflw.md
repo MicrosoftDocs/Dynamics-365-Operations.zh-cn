@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1805e1f87ee70a1f35d9105b8f7ad6c95861efcc
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 1086231c65a726df5162d3593419a129d6ae5655
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440968"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992750"
 ---
 # <a name="use-lease-approval-workflows"></a>使用租赁审批工作流
 
@@ -45,6 +44,3 @@ ms.locfileid: "4440968"
 
 8. 要停止工作流，请在 **工作流历史记录** 页面上，选择 **撤回**。 在显示的对话框中，选择一个注释，然后选择 **确定**。
 9. 要停用工作流或激活先前创建的工作流，请转到 **资产租赁 \> 设置 \> 租赁工作流**。 然后，在 **租赁工作流** 页面上，选择 **工作流 \> 版本**。 要使当前工作流处于非活动状态，请在“租赁版本”对话框中选择活动的租赁，然后选择 **停用**。 要激活现有工作流，请选择工作流，然后选择 **激活**。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

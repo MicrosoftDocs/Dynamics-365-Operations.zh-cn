@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 948f83d56e560cc21205294c15de4b2097d2ad2e
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: c1bb422b12489598d099b59b3447f620c80c9438
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4440973"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991059"
 ---
 # <a name="customer-transactions-list-page"></a>客户交易记录列表页
 
@@ -97,6 +96,3 @@ ms.locfileid: "4440973"
 - **编辑现金折扣期限** - 根据基准日期和现金折扣期限更改现金折扣。
 
 付款设置编辑完毕后，请选择 **关闭** 以保存更改。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0bf6e7a070d7c151c6ff5d868f4f916359b82683
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3896a8574f7910ee09b360deb3ede10f061290bc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440622"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991191"
 ---
 # <a name="correct-a-free-text-invoice"></a>更正普通发票
 
@@ -51,6 +50,3 @@ ms.locfileid: "4440622"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

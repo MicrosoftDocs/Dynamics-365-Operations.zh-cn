@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventJournalCount, InventJournalCountTag
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 11594
 ms.assetid: 03772d0e-5c37-454c-ab85-82bc8b60a76d
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efb555cdfbcf3fd0c10ec0e2abcdbe7f4a90d82d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 11081324f6970813322fb2463a63a441d30185ee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422754"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992437"
 ---
 # <a name="inventory-tag-counting"></a>库存标签盘点
 
@@ -36,6 +35,3 @@ ms.locfileid: "4422754"
 ## <a name="additional-resources"></a>其他资源
 
 [周期盘点](../warehousing/cycle-counting.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

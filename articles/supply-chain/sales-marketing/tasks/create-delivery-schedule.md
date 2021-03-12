@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesDeliverySchedule, SalesEditLines,  SrsReportViewerForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7341ec21a89bf952e2fd21e9bebf7de65a1b2648
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aa9539ce92297a3b4f22ac18af79fdea98759e49
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422805"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991832"
 ---
 # <a name="create-delivery-schedule"></a>创建交货计划
 
@@ -65,6 +64,3 @@ ms.locfileid: "4422805"
 22. 单击“确定”。
 23. 单击“是”。
 24. 关闭该页面。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

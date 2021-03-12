@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670e6be595fb891408b1b0804c68a41650b0da0b
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 4b371e6c87c65e707bf1468eb8df4be892f7750d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4440972"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990934"
 ---
 # <a name="budget-control-overview"></a>预算控制概览
 
@@ -127,6 +126,3 @@ ms.locfileid: "4440972"
 从此页，用户可以深入到 **预算控制统计（按期间）** 页来查看所选预算控制维度组合的预算可用性详细信息和预留。 用户也可以深入到 **预算控制统计** 页查看用于预算控制的所有财务维度组合的预算可用性。 
 
 如果为采购订单启用预算控制，则预算经理可使用 **分类帐预算和预测** 工作区检查具有预算检查警告和错误的所有未确认采购订单的队列。 如果预算经理具有配置的超出预算权限，则可以直接在该工作区中确认采购订单。    
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

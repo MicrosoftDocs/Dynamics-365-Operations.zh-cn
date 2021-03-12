@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8281de3cb336d9392a6a97f98e51a2a139a384c5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee4fff7b148396faecef899c7a75365d3e1f47f3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440620"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991147"
 ---
 # <a name="create-a-free-text-invoice-template"></a>创建普通发票模板
 
@@ -68,6 +67,3 @@ ms.locfileid: "4440620"
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>将普通发票保存为模板
 也可以将现有普通发票保存为模板。 从“发票”选项卡选择“保存到模板”时，请为模板提供名称和说明。 如果有同名模板，将看到通知，说明已存在该名称的模板。 仍然可以单击“确定”替换该模板。 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

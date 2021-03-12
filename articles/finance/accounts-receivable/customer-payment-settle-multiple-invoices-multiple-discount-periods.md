@@ -1,5 +1,5 @@
 ---
-title: 使用一次客户付款来结算跨多个折扣期间的多张发票
+title: 使用一次付款结算跨多个折扣期间的发票
 description: 本主题显示当每个发票有资格使用现金折扣时如何支付多个发票。 本文所述情况重点介绍现金折扣执行方式如何因付款时间不同而有所不同。
 author: ShivamPandey-msft
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14511
 ms.assetid: 3e42ccb5-b9d7-4a70-8db9-4206d10fd433
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7ae0bdc8245db1391103ca0f214fb3120f93f5b
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 5e45004c9f93963fb886039165f16ccc6a3f98f5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4440978"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991283"
 ---
-# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>使用一次客户付款来结算跨多个折扣期间的多张发票
+# <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>使用一次付款结算跨多个折扣期间的发票
 
 [!include [banner](../includes/banner.md)]
 
@@ -101,6 +100,3 @@ Arnie 在 **客户交易记录** 页上查看信息。
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

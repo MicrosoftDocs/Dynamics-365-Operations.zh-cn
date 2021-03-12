@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: BOMDesigner, BOMDesignerSetup, BOMDesignerFilterDialog, BOMDesignerBOMVersion, BOMChangeLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 20981
 ms.assetid: 2b92eec1-d28c-4965-9086-939c77b3c62b
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e845b05d77701191a267de45354c3da25bd7699
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 07d74d9e02049447c69edf56eb6860a2cb6dc5c9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423044"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991882"
 ---
 # <a name="bom-designer-functionality"></a>物料清单设计器功能
 
@@ -121,6 +120,3 @@ ms.locfileid: "4423044"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

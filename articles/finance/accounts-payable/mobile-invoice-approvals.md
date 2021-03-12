@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e18d26a4ccee195d09560c62b1fb1dd05750cfd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440707"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991316"
 ---
 # <a name="mobile-invoice-approvals"></a>移动发票审核
 
@@ -535,6 +534,3 @@ ms.locfileid: "4440707"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

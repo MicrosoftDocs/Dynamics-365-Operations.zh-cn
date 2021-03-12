@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMDimensionMember, CAMCostObject
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 223174
 ms.assetid: 2a1cdd35-30cb-41e7-9506-67fd04a537c5
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a090ecae2aadf1d0e08dd6127f831abdbf4a6b0a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9a17eaf0a65f5228ec60391e22c98c2f383d7cce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440784"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990809"
 ---
 # <a name="cost-object-dimensions"></a>成本对象维度
 
@@ -44,6 +43,3 @@ ms.locfileid: "4440784"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

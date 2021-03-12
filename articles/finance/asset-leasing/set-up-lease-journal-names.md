@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e8b1b908dfd6d1d6072b6efa83f13ae5784c85c1
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 89c5fc768aafe9e5de9adcde32e7b4d0a084941b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440944"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990909"
 ---
 # <a name="set-up-lease-journal-names"></a>设置租赁日记帐名称
 
@@ -37,6 +36,3 @@ ms.locfileid: "4440944"
 2. 在 **常规** 选项卡的 **初始确认日记帐名称** 字段中，选择日记帐。 将把所有初始确认日记帐条目过帐到该日记帐名称。
 3. 在 **发票日记帐名称** 字段中，选择日记帐。 如果为租赁帐簿将 **向供应商付款** 选项设置为 **是**，将把租赁和费用付款发票过帐到该日记帐名称。
 4. 在 **租赁日记帐名称** 字段中，选择日记帐。 所有折旧、利息和短期重新分类条目都将过帐到该日记帐名称。 如果为租赁帐簿将 **向供应商付款** 选项设置为 **否**，将把租赁付款和费用付款条目也过帐到该日记帐名称。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

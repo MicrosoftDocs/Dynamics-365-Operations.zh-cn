@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14321
 ms.assetid: 9a17075e-5325-4d55-a1e5-1791b8c460a0
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89e025977a0dcd40e35f17448a7b0ebde08cb6c8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 00a3cc8480b4d171c1f2b3cda4e8707893c6a05b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440588"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991184"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>部分金额的供应商付款
 
@@ -54,6 +53,3 @@ ms.locfileid: "4440588"
 
 
 有关详细信息，请参阅[供应商付款概览](../cash-bank-management/tasks/vendor-payment-overview.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

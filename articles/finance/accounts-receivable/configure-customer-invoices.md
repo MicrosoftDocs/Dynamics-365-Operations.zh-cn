@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f5b9866fc7afba205b84b372c6a204ec4c8f64d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d278bda917d829caaedc7682ef9bebeb151d2bb9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440623"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991217"
 ---
 # <a name="create-a-customer-invoice"></a>创建客户发票
 
@@ -167,6 +166,3 @@ ms.locfileid: "4440623"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

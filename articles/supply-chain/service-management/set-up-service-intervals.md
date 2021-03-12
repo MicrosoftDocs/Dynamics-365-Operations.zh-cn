@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAAgreementinterval
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54eba378548e1bef8ae9c3f4e7b202cf06aeff2d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 815da6b24de401ad11febb0b0564738ce6967a9c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422673"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991657"
 ---
 # <a name="set-up-service-intervals"></a>设置服务间隔  
 
@@ -54,6 +53,3 @@ ms.locfileid: "4422673"
 ## <a name="related-topics"></a>相关主题
 
 [服务间隔](service-intervals.md)  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ebab41d8b7697f20095d6d4654718b88c8b08a82
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 40de7c378bff602fa3629bb190a7a89fe584d2a6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665190"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993184"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>供应商发票自动化的设置选项
 
@@ -63,6 +62,3 @@ ms.locfileid: "4665190"
 
 - **尝试自动匹配的次数** – 选择系统在得出流程失败的结论之前应尝试将物料收货与发票行进行匹配的次数。 达到指定的尝试次数后，发票将从自动化处理中删除。
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
