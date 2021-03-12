@@ -11,62 +11,61 @@ ms.technology: ''
 ms.search.form: PriceDiscGroup, RetailStoreTable, RetailChannelPriceGroup, EcoResProductDetailsExtended, PriceDiscAdmTable, PriceDiscAdm
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: db3a91807c0cfb51426c03eeaf7785168e6ad0de
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410546"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006044"
 ---
-# <a name="base-price-and-trade-agreements"></a><span data-ttu-id="16b9f-103">基价和贸易协议</span><span class="sxs-lookup"><span data-stu-id="16b9f-103">Base price and trade agreements</span></span>
+# <a name="base-price-and-trade-agreements"></a><span data-ttu-id="aeae0-103">基价和贸易协议</span><span class="sxs-lookup"><span data-stu-id="aeae0-103">Base price and trade agreements</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="16b9f-104">此程序会逐步演示如何创建渠道特定销售价格贸易协议。</span><span class="sxs-lookup"><span data-stu-id="16b9f-104">This procedure walks through creating channel-specific sales price trade agreements.</span></span> <span data-ttu-id="16b9f-105">此程序使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="16b9f-105">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="aeae0-104">此程序会逐步演示如何创建渠道特定销售价格贸易协议。</span><span class="sxs-lookup"><span data-stu-id="aeae0-104">This procedure walks through creating channel-specific sales price trade agreements.</span></span> <span data-ttu-id="aeae0-105">此程序使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="aeae0-105">This procedure uses the USRT demo data company.</span></span>
 
-1. <span data-ttu-id="16b9f-106">在 **导航窗格** 中，转到 **模块 > Retail 和 Commerce > 定价和折扣管理 > 价格组 > 所有价格组**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-106">In the **Navigation pane**, go to **Modules > Retail and Commerce > Pricing and discounts management > Price groups > All price groups**.</span></span> <span data-ttu-id="16b9f-107">价格组是一种将贸易协议分配给特定渠道的方式。</span><span class="sxs-lookup"><span data-stu-id="16b9f-107">Price groups are how trade agreements are assigned to specific channels.</span></span> <span data-ttu-id="16b9f-108">使用价格组将贸易协议分配给某一渠道会启用渠道特定价格。</span><span class="sxs-lookup"><span data-stu-id="16b9f-108">Using price groups to assign trade agreements to a channel enables channel-specific pricing.</span></span>  
-2. <span data-ttu-id="16b9f-109">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-109">Click **New**.</span></span>
-3. <span data-ttu-id="16b9f-110">在 **价格组** 字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="16b9f-110">In the **Price groups** field, type a value.</span></span>
-4. <span data-ttu-id="16b9f-111">在 **名称** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="16b9f-111">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="16b9f-112">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-112">Click **Save**.</span></span>
-6. <span data-ttu-id="16b9f-113">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="16b9f-113">Close the page.</span></span>
-7. <span data-ttu-id="16b9f-114">在 **导航窗格** 中，转到 **模块 > Retail 和 Commerce > 渠道 > 商店 > 所有商店**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-114">In the **Navigation pane**, go to **Modules > Retail and Commerce > Channels > Stores > All stores**.</span></span>
-8. <span data-ttu-id="16b9f-115">在列表中，选择“纽约”。</span><span class="sxs-lookup"><span data-stu-id="16b9f-115">In the list, select 'New York'</span></span>
-9. <span data-ttu-id="16b9f-116">单击“操作窗格”上的 **商店**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-116">On the Action Pane, click **Store**.</span></span>
-10. <span data-ttu-id="16b9f-117">单击 **价格组**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-117">Click **Price groups**.</span></span>
-11. <span data-ttu-id="16b9f-118">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-118">Click **New**.</span></span>
-12. <span data-ttu-id="16b9f-119">在 **价格组** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="16b9f-119">In the **Price groups** field, click the drop-down button to open the lookup.</span></span>
-13. <span data-ttu-id="16b9f-120">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="16b9f-120">In the list, find and select the desired record.</span></span>
-14. <span data-ttu-id="16b9f-121">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-121">Click **Save**.</span></span>
-15. <span data-ttu-id="16b9f-122">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="16b9f-122">Close the page.</span></span>
-16. <span data-ttu-id="16b9f-123">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="16b9f-123">Close the page.</span></span>
-17. <span data-ttu-id="16b9f-124">在 **导航窗格** 中，转到 **模块 > Retail 和 Commerce > 产品和类别 > 已发布的产品(按类别)**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-124">In the **Navigation pane**, go to **Modules > Retail and Commerce > Products and categories > Released products by category**.</span></span>
-18. <span data-ttu-id="16b9f-125">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="16b9f-125">In the list, click the link in the selected row.</span></span>
-19. <span data-ttu-id="16b9f-126">单击 **编辑**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-126">Click **Edit**.</span></span>
-20. <span data-ttu-id="16b9f-127">展开 **销售** 快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="16b9f-127">Expand the **Sell** fastTab.</span></span>
-21. <span data-ttu-id="16b9f-128">在 **价格** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="16b9f-128">In the **Price** field, enter a number.</span></span> <span data-ttu-id="16b9f-129">如果未找到任何适用的贸易协议，则会使用此价格。</span><span class="sxs-lookup"><span data-stu-id="16b9f-129">This price is used if no applicable trade agreements are found.</span></span>  
-22. <span data-ttu-id="16b9f-130">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-130">Click **Save**.</span></span>
-23. <span data-ttu-id="16b9f-131">在 **操作窗格** 上，单击 **销售**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-131">On the **Action Pane**, click **Sell**.</span></span>
-24. <span data-ttu-id="16b9f-132">单击 **创建贸易协议**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-132">Click **Create trade agreements**.</span></span>
-25. <span data-ttu-id="16b9f-133">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-133">Click **New**.</span></span>
-26. <span data-ttu-id="16b9f-134">在 **名称** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="16b9f-134">In the **Name** field, click the drop-down button to open the lookup.</span></span>
-27. <span data-ttu-id="16b9f-135">在列表中，选择 **Commerce**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-135">In the list, select **Commerce**.</span></span> <span data-ttu-id="16b9f-136">在演示数据中，**Commerce** 日记帐名称拥有默认关系 **价格(销售)**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-136">In the demo data, the **Commerce** journal name has the default relation of **Price (sales)**.</span></span> <span data-ttu-id="16b9f-137">这意味着所有新建的行将默认设置为销售价格贸易协议。</span><span class="sxs-lookup"><span data-stu-id="16b9f-137">That means all new lines created will default to sales price trade agreements.</span></span>  
-28. <span data-ttu-id="16b9f-138">在 **操作窗格** 上，单击 **行**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-138">On the **Action pane**, click **Lines**.</span></span>
-29. <span data-ttu-id="16b9f-139">在 **当事方代码类型** 字段中，选择“组”。</span><span class="sxs-lookup"><span data-stu-id="16b9f-139">In the **Party code type** field, select 'Group'.</span></span>
-30. <span data-ttu-id="16b9f-140">在 **帐户选择** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="16b9f-140">In the **Account selection** field, click the drop-down button to open the lookup.</span></span>
-31. <span data-ttu-id="16b9f-141">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="16b9f-141">In the list, find and select the desired record.</span></span> <span data-ttu-id="16b9f-142">这将完成从渠道到价格组再到贸易协议的链接。</span><span class="sxs-lookup"><span data-stu-id="16b9f-142">This will complete the link from Channel to Price group to Trade agreement.</span></span>  
-32. <span data-ttu-id="16b9f-143">在 **物料关系** 字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="16b9f-143">In the **Item relation** field, type a value.</span></span>
-33. <span data-ttu-id="16b9f-144">在 **货币金额** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="16b9f-144">In the **Amount in currency** field, enter a number.</span></span>
-34. <span data-ttu-id="16b9f-145">在 **详细信息** 快速选项卡中，选中或取消选中 **查找下一个** 复选框。</span><span class="sxs-lookup"><span data-stu-id="16b9f-145">In the **Details** fastTab, check or uncheck the **Find next** checkbox.</span></span> <span data-ttu-id="16b9f-146">在 **查找下一个** 被设置为“是”时，定价引擎将继续检索销售价格更低的适用贸易协议。</span><span class="sxs-lookup"><span data-stu-id="16b9f-146">When **Find next** is set to 'Yes', the pricing engine will continue to search for applicable trade agreements with a lower sale price.</span></span> <span data-ttu-id="16b9f-147">在 **查找下一个** 被设置为“否”时，价格引擎会停止检索并使用该贸易协议。</span><span class="sxs-lookup"><span data-stu-id="16b9f-147">When **Find next** is set to 'No', the price engine stops searching and uses the trade agreement.</span></span>  
-35. <span data-ttu-id="16b9f-148">单击 **过帐**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-148">Click **Post**.</span></span>
-36. <span data-ttu-id="16b9f-149">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-149">Click **OK**.</span></span>
-37. <span data-ttu-id="16b9f-150">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="16b9f-150">Close the page.</span></span>
-38. <span data-ttu-id="16b9f-151">在 **操作窗格** 上，单击“销售”。</span><span class="sxs-lookup"><span data-stu-id="16b9f-151">On the **Action Pane**, click Sell.</span></span>
-39. <span data-ttu-id="16b9f-152">单击 **销售价**。</span><span class="sxs-lookup"><span data-stu-id="16b9f-152">Click **Sales price**.</span></span>
+1. <span data-ttu-id="aeae0-106">在 **导航窗格** 中，转到 **模块 > Retail 和 Commerce > 定价和折扣管理 > 价格组 > 所有价格组**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-106">In the **Navigation pane**, go to **Modules > Retail and Commerce > Pricing and discounts management > Price groups > All price groups**.</span></span> <span data-ttu-id="aeae0-107">价格组是一种将贸易协议分配给特定渠道的方式。</span><span class="sxs-lookup"><span data-stu-id="aeae0-107">Price groups are how trade agreements are assigned to specific channels.</span></span> <span data-ttu-id="aeae0-108">使用价格组将贸易协议分配给某一渠道会启用渠道特定价格。</span><span class="sxs-lookup"><span data-stu-id="aeae0-108">Using price groups to assign trade agreements to a channel enables channel-specific pricing.</span></span>  
+2. <span data-ttu-id="aeae0-109">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-109">Click **New**.</span></span>
+3. <span data-ttu-id="aeae0-110">在 **价格组** 字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="aeae0-110">In the **Price groups** field, type a value.</span></span>
+4. <span data-ttu-id="aeae0-111">在 **名称** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="aeae0-111">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="aeae0-112">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-112">Click **Save**.</span></span>
+6. <span data-ttu-id="aeae0-113">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="aeae0-113">Close the page.</span></span>
+7. <span data-ttu-id="aeae0-114">在 **导航窗格** 中，转到 **模块 > Retail 和 Commerce > 渠道 > 商店 > 所有商店**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-114">In the **Navigation pane**, go to **Modules > Retail and Commerce > Channels > Stores > All stores**.</span></span>
+8. <span data-ttu-id="aeae0-115">在列表中，选择“纽约”。</span><span class="sxs-lookup"><span data-stu-id="aeae0-115">In the list, select 'New York'</span></span>
+9. <span data-ttu-id="aeae0-116">单击“操作窗格”上的 **商店**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-116">On the Action Pane, click **Store**.</span></span>
+10. <span data-ttu-id="aeae0-117">单击 **价格组**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-117">Click **Price groups**.</span></span>
+11. <span data-ttu-id="aeae0-118">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-118">Click **New**.</span></span>
+12. <span data-ttu-id="aeae0-119">在 **价格组** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="aeae0-119">In the **Price groups** field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="aeae0-120">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="aeae0-120">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="aeae0-121">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-121">Click **Save**.</span></span>
+15. <span data-ttu-id="aeae0-122">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="aeae0-122">Close the page.</span></span>
+16. <span data-ttu-id="aeae0-123">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="aeae0-123">Close the page.</span></span>
+17. <span data-ttu-id="aeae0-124">在 **导航窗格** 中，转到 **模块 > Retail 和 Commerce > 产品和类别 > 已发布的产品(按类别)**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-124">In the **Navigation pane**, go to **Modules > Retail and Commerce > Products and categories > Released products by category**.</span></span>
+18. <span data-ttu-id="aeae0-125">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="aeae0-125">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="aeae0-126">单击 **编辑**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-126">Click **Edit**.</span></span>
+20. <span data-ttu-id="aeae0-127">展开 **销售** 快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="aeae0-127">Expand the **Sell** fastTab.</span></span>
+21. <span data-ttu-id="aeae0-128">在 **价格** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="aeae0-128">In the **Price** field, enter a number.</span></span> <span data-ttu-id="aeae0-129">如果未找到任何适用的贸易协议，则会使用此价格。</span><span class="sxs-lookup"><span data-stu-id="aeae0-129">This price is used if no applicable trade agreements are found.</span></span>  
+22. <span data-ttu-id="aeae0-130">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-130">Click **Save**.</span></span>
+23. <span data-ttu-id="aeae0-131">在 **操作窗格** 上，单击 **销售**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-131">On the **Action Pane**, click **Sell**.</span></span>
+24. <span data-ttu-id="aeae0-132">单击 **创建贸易协议**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-132">Click **Create trade agreements**.</span></span>
+25. <span data-ttu-id="aeae0-133">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-133">Click **New**.</span></span>
+26. <span data-ttu-id="aeae0-134">在 **名称** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="aeae0-134">In the **Name** field, click the drop-down button to open the lookup.</span></span>
+27. <span data-ttu-id="aeae0-135">在列表中，选择 **Commerce**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-135">In the list, select **Commerce**.</span></span> <span data-ttu-id="aeae0-136">在演示数据中，**Commerce** 日记帐名称拥有默认关系 **价格(销售)**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-136">In the demo data, the **Commerce** journal name has the default relation of **Price (sales)**.</span></span> <span data-ttu-id="aeae0-137">这意味着所有新建的行将默认设置为销售价格贸易协议。</span><span class="sxs-lookup"><span data-stu-id="aeae0-137">That means all new lines created will default to sales price trade agreements.</span></span>  
+28. <span data-ttu-id="aeae0-138">在 **操作窗格** 上，单击 **行**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-138">On the **Action pane**, click **Lines**.</span></span>
+29. <span data-ttu-id="aeae0-139">在 **当事方代码类型** 字段中，选择“组”。</span><span class="sxs-lookup"><span data-stu-id="aeae0-139">In the **Party code type** field, select 'Group'.</span></span>
+30. <span data-ttu-id="aeae0-140">在 **帐户选择** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="aeae0-140">In the **Account selection** field, click the drop-down button to open the lookup.</span></span>
+31. <span data-ttu-id="aeae0-141">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="aeae0-141">In the list, find and select the desired record.</span></span> <span data-ttu-id="aeae0-142">这将完成从渠道到价格组再到贸易协议的链接。</span><span class="sxs-lookup"><span data-stu-id="aeae0-142">This will complete the link from Channel to Price group to Trade agreement.</span></span>  
+32. <span data-ttu-id="aeae0-143">在 **物料关系** 字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="aeae0-143">In the **Item relation** field, type a value.</span></span>
+33. <span data-ttu-id="aeae0-144">在 **货币金额** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="aeae0-144">In the **Amount in currency** field, enter a number.</span></span>
+34. <span data-ttu-id="aeae0-145">在 **详细信息** 快速选项卡中，选中或取消选中 **查找下一个** 复选框。</span><span class="sxs-lookup"><span data-stu-id="aeae0-145">In the **Details** fastTab, check or uncheck the **Find next** checkbox.</span></span> <span data-ttu-id="aeae0-146">在 **查找下一个** 被设置为“是”时，定价引擎将继续检索销售价格更低的适用贸易协议。</span><span class="sxs-lookup"><span data-stu-id="aeae0-146">When **Find next** is set to 'Yes', the pricing engine will continue to search for applicable trade agreements with a lower sale price.</span></span> <span data-ttu-id="aeae0-147">在 **查找下一个** 被设置为“否”时，价格引擎会停止检索并使用该贸易协议。</span><span class="sxs-lookup"><span data-stu-id="aeae0-147">When **Find next** is set to 'No', the price engine stops searching and uses the trade agreement.</span></span>  
+35. <span data-ttu-id="aeae0-148">单击 **过帐**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-148">Click **Post**.</span></span>
+36. <span data-ttu-id="aeae0-149">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-149">Click **OK**.</span></span>
+37. <span data-ttu-id="aeae0-150">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="aeae0-150">Close the page.</span></span>
+38. <span data-ttu-id="aeae0-151">在 **操作窗格** 上，单击“销售”。</span><span class="sxs-lookup"><span data-stu-id="aeae0-151">On the **Action Pane**, click Sell.</span></span>
+39. <span data-ttu-id="aeae0-152">单击 **销售价**。</span><span class="sxs-lookup"><span data-stu-id="aeae0-152">Click **Sales price**.</span></span>
 

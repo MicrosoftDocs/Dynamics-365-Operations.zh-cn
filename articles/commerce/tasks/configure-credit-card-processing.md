@@ -10,55 +10,54 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfec44bc1c767dff1109c4ecd4e2862443fb1d0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 611cc49d2373247da141d2fafc149d05f3bd13b0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410543"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006102"
 ---
-# <a name="configure-credit-card-processing"></a><span data-ttu-id="0eff0-103">配置信用卡处理</span><span class="sxs-lookup"><span data-stu-id="0eff0-103">Configure credit card processing</span></span>
+# <a name="configure-credit-card-processing"></a><span data-ttu-id="0b1fb-103">配置信用卡处理</span><span class="sxs-lookup"><span data-stu-id="0b1fb-103">Configure credit card processing</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0eff0-104">此程序会逐步演示如何查看付款提供商列表，以及如何配置应收账款的付款帐户。</span><span class="sxs-lookup"><span data-stu-id="0eff0-104">This procedure walks through how to view the list of payment providers and how to configure a payment account for accounts receivable.</span></span> <span data-ttu-id="0eff0-105">此程序使用 USRT 演示数据公司，且旨在面向管理员和 IT 专业人员。</span><span class="sxs-lookup"><span data-stu-id="0eff0-105">This procedure uses the USRT company in demo data and is intended for Administrators and IT Professionals.</span></span>
+<span data-ttu-id="0b1fb-104">此程序会逐步演示如何查看付款提供商列表，以及如何配置应收账款的付款帐户。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-104">This procedure walks through how to view the list of payment providers and how to configure a payment account for accounts receivable.</span></span> <span data-ttu-id="0b1fb-105">此程序使用 USRT 演示数据公司，且旨在面向管理员和 IT 专业人员。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-105">This procedure uses the USRT company in demo data and is intended for Administrators and IT Professionals.</span></span>
 
 
-## <a name="view-a-list-of-payment-providers"></a><span data-ttu-id="0eff0-106">查看付款提供商列表</span><span class="sxs-lookup"><span data-stu-id="0eff0-106">View a list of payment providers</span></span>
-1. <span data-ttu-id="0eff0-107">转至“应付账款”>“付款设置”>“付款服务”。</span><span class="sxs-lookup"><span data-stu-id="0eff0-107">Go to Accounts receivable > Payments setup > Payment services.</span></span>
-2. <span data-ttu-id="0eff0-108">单击“查看可用提供商”。</span><span class="sxs-lookup"><span data-stu-id="0eff0-108">Click View available providers.</span></span>
+## <a name="view-a-list-of-payment-providers"></a><span data-ttu-id="0b1fb-106">查看付款提供商列表</span><span class="sxs-lookup"><span data-stu-id="0b1fb-106">View a list of payment providers</span></span>
+1. <span data-ttu-id="0b1fb-107">转至“应付账款”>“付款设置”>“付款服务”。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-107">Go to Accounts receivable > Payments setup > Payment services.</span></span>
+2. <span data-ttu-id="0b1fb-108">单击“查看可用提供商”。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-108">Click View available providers.</span></span>
 
-## <a name="configure-payment-account"></a><span data-ttu-id="0eff0-109">配置付款帐户</span><span class="sxs-lookup"><span data-stu-id="0eff0-109">Configure payment account</span></span>
-1. <span data-ttu-id="0eff0-110">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="0eff0-110">Click New.</span></span>
-2. <span data-ttu-id="0eff0-111">在“付款服务”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="0eff0-111">In the Payment service field, type a value.</span></span>
-3. <span data-ttu-id="0eff0-112">在“付款连接器”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="0eff0-112">In the Payment connector field, select an option.</span></span>
-4. <span data-ttu-id="0eff0-113">切换“付款服务帐户”部分的扩展项。</span><span class="sxs-lookup"><span data-stu-id="0eff0-113">Toggle the expansion of the Payment service account section.</span></span>
-5. <span data-ttu-id="0eff0-114">在“环境”字段中，键入“PROD”。</span><span class="sxs-lookup"><span data-stu-id="0eff0-114">In the Environment: field, type 'PROD'.</span></span>
-6. <span data-ttu-id="0eff0-115">单击“信用卡类型”。</span><span class="sxs-lookup"><span data-stu-id="0eff0-115">Click Credit card types.</span></span>
-7. <span data-ttu-id="0eff0-116">在“付款日记帐”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="0eff0-116">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="0eff0-117">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="0eff0-117">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="0eff0-118">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="0eff0-118">Click Add.</span></span>
-10. <span data-ttu-id="0eff0-119">在“货币”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="0eff0-119">In the Currency field, type a value.</span></span>
-11. <span data-ttu-id="0eff0-120">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="0eff0-120">In the list, find and select the desired record.</span></span>
-12. <span data-ttu-id="0eff0-121">在“付款日记帐”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="0eff0-121">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
-13. <span data-ttu-id="0eff0-122">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="0eff0-122">In the list, click the link in the selected row.</span></span>
-14. <span data-ttu-id="0eff0-123">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="0eff0-123">Click Add.</span></span>
-15. <span data-ttu-id="0eff0-124">在“货币”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="0eff0-124">In the Currency field, type a value.</span></span>
-16. <span data-ttu-id="0eff0-125">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="0eff0-125">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="0eff0-126">您可以根据自己需要的卡类型数量重复执行这些步骤。</span><span class="sxs-lookup"><span data-stu-id="0eff0-126">You can repeat these steps for as many card types as you need.</span></span>  
-17. <span data-ttu-id="0eff0-127">在“付款日记帐”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="0eff0-127">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
-18. <span data-ttu-id="0eff0-128">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="0eff0-128">In the list, click the link in the selected row.</span></span>
-19. <span data-ttu-id="0eff0-129">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="0eff0-129">Click Add.</span></span>
-20. <span data-ttu-id="0eff0-130">在“货币”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="0eff0-130">In the Currency field, type a value.</span></span>
-21. <span data-ttu-id="0eff0-131">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="0eff0-131">Click Save.</span></span>
-22. <span data-ttu-id="0eff0-132">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="0eff0-132">Close the page.</span></span>
-23. <span data-ttu-id="0eff0-133">单击“验证”。</span><span class="sxs-lookup"><span data-stu-id="0eff0-133">Click Validate.</span></span>
-24. <span data-ttu-id="0eff0-134">单击“新信用卡的默认处理程序”复选框。</span><span class="sxs-lookup"><span data-stu-id="0eff0-134">Click the Default processor for new credit cards checkbox.</span></span>
-25. <span data-ttu-id="0eff0-135">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="0eff0-135">Click Save.</span></span>
+## <a name="configure-payment-account"></a><span data-ttu-id="0b1fb-109">配置付款帐户</span><span class="sxs-lookup"><span data-stu-id="0b1fb-109">Configure payment account</span></span>
+1. <span data-ttu-id="0b1fb-110">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-110">Click New.</span></span>
+2. <span data-ttu-id="0b1fb-111">在“付款服务”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-111">In the Payment service field, type a value.</span></span>
+3. <span data-ttu-id="0b1fb-112">在“付款连接器”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-112">In the Payment connector field, select an option.</span></span>
+4. <span data-ttu-id="0b1fb-113">切换“付款服务帐户”部分的扩展项。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-113">Toggle the expansion of the Payment service account section.</span></span>
+5. <span data-ttu-id="0b1fb-114">在“环境”字段中，键入“PROD”。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-114">In the Environment: field, type 'PROD'.</span></span>
+6. <span data-ttu-id="0b1fb-115">单击“信用卡类型”。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-115">Click Credit card types.</span></span>
+7. <span data-ttu-id="0b1fb-116">在“付款日记帐”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-116">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="0b1fb-117">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="0b1fb-118">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-118">Click Add.</span></span>
+10. <span data-ttu-id="0b1fb-119">在“货币”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-119">In the Currency field, type a value.</span></span>
+11. <span data-ttu-id="0b1fb-120">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-120">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="0b1fb-121">在“付款日记帐”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-121">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="0b1fb-122">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-122">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="0b1fb-123">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-123">Click Add.</span></span>
+15. <span data-ttu-id="0b1fb-124">在“货币”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-124">In the Currency field, type a value.</span></span>
+16. <span data-ttu-id="0b1fb-125">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-125">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="0b1fb-126">您可以根据自己需要的卡类型数量重复执行这些步骤。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-126">You can repeat these steps for as many card types as you need.</span></span>  
+17. <span data-ttu-id="0b1fb-127">在“付款日记帐”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-127">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+18. <span data-ttu-id="0b1fb-128">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-128">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="0b1fb-129">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-129">Click Add.</span></span>
+20. <span data-ttu-id="0b1fb-130">在“货币”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-130">In the Currency field, type a value.</span></span>
+21. <span data-ttu-id="0b1fb-131">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-131">Click Save.</span></span>
+22. <span data-ttu-id="0b1fb-132">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-132">Close the page.</span></span>
+23. <span data-ttu-id="0b1fb-133">单击“验证”。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-133">Click Validate.</span></span>
+24. <span data-ttu-id="0b1fb-134">单击“新信用卡的默认处理程序”复选框。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-134">Click the Default processor for new credit cards checkbox.</span></span>
+25. <span data-ttu-id="0b1fb-135">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="0b1fb-135">Click Save.</span></span>
 
