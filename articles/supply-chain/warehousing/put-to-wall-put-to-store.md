@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 12501b90e4b31ec11e3c59784ace9fd9a8b7d934
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 3f2ae63758fcb6247c5e56433645d9252576c755
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423333"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996265"
 ---
 # <a name="put-to-wall---put-to-store"></a>放置 - 存放
 
@@ -541,6 +540,3 @@ ms.locfileid: "4423333"
 
 > [!IMPORTANT]
 > 从分类位置创建移动工作后，不能取消工作。 否则，该位置及其中的集装箱将从系统中删除，无法进一步处理。 库存也将被删除。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

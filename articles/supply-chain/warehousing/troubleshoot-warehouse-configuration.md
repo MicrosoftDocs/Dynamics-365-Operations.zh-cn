@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9bbe92627f53b3b4b04597be144d602b3cae7ed7
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 09b5770190fea9591f422b61ce6deedb2b9fa790
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646099"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993995"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>仓库配置疑难解答
 
@@ -109,6 +108,3 @@ ms.locfileid: "4646099"
 - **显示库存状态**：*是*
 
 您可以根据需要在页面上设置其他字段。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

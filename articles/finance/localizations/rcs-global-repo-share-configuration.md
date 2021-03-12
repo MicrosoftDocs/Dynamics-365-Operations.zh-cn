@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, RCS
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 04c46824123906eccbfff18a03974c8043729e0a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0973d36a8fddd16d02776ac6567d424ac6ebc3ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440814"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994291"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>直接与外部组织共享 Regulatory Configuration Services (RCS) 全局知识库中的电子申报 (ER) 配置
 
@@ -50,7 +49,7 @@ ms.locfileid: "4440814"
 
 1. 在 **电子申报** 工作区中，选择配置提供程序的 **知识库**。
 
-    ![配置提供程序](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_config_provider.JPG)
+    ![配置提供程序](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. 选择 **全局知识库**\>**打开**。
 3. 搜索要共享的配置。 可以使用筛选器字段缩小搜索范围。 如果在全局知识库中找不到此配置，请执行[新建和上传电子申报 (ER) 配置版本](rcs-global-repo-upload.md)中的步骤。
@@ -64,17 +63,12 @@ ms.locfileid: "4440814"
 3. 选择要共享的配置。
 4. 在 **共享对象** 快速选项卡上，选择 **组织**。
 
-    ![“共享对象”快速选项卡](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![“共享对象”快速选项卡](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. 在此对话框中，输入外部组织的域名，然后选择 **确定**。
 
-    ![“与外部组织共享配置版本”对话框](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![“与外部组织共享配置版本”对话框](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 将与外部组织共享配置，并在全局知识库中提供给该组织。 可以在这里将其导入到组织的 RCS 实例中或其 Finance and Operations 应用实例中。
 
-![与外部组织共享的配置](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
-
 6. 若要取消更新之前已经与外部组织共享的配置，请选择该配置，然后单击 **取消更新**，再选择 **确定**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

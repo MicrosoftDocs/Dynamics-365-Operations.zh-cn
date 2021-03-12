@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5bbb541a09809c1f1bfada42094d840a2f6e7764
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6fb001d51fcaff2307845d918eddee8256c2ab8a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422696"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994196"
 ---
 # <a name="estimate-a-production-order"></a>估计生产订单
 
@@ -42,6 +41,3 @@ ms.locfileid: "4422696"
 1. 在“操作窗格”中，单击“管理成本”。
 2. 单击“查看计算明细”。
     * 此页显示了成本分解情况。 例如，您可以查看第一成品行的单位总成本价。 根据物料清单、生产工艺路线和间接成本，后续行还包括很多成本。  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

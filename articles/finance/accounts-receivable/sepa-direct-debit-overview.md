@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 11144
 ms.assetid: 3277c9b6-e46e-40c9-aa76-9b0449467842
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcb7585d344988e00093231f785c1a746226e4e0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cca929a42c99966af0fac92f1565509e10207d91
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440655"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995510"
 ---
 # <a name="sepa-direct-debit-overview"></a>SEPA 直接借记概览
 
@@ -84,6 +83,3 @@ SEPA 数据格式基于 ISO 20022 消息标准。 当您配置应收帐款的付
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

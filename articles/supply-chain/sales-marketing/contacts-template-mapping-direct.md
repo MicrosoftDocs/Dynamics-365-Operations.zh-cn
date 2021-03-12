@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: a252c3ecb12cb6a4dc429f35c8aeab6bd3914d03
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 8cbc2909c3f4533b4ea68e522f0874873989f3ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528941"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994036"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>将 Sales 的联系人直接同步到 Supply Chain Management 中的联系人或客户
 
@@ -33,9 +32,9 @@ ms.locfileid: "4528941"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
+> 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉[将数据集成到 Microsoft Dataverse for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
 
-本主题讨论用于直接将来自 Dynamics 365 Sales 的联系人（联系人）和联系人（客户）实体同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
+本主题讨论用于直接将来自 Dynamics 365 Sales 的联系人（联系人）和联系人（客户）表同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
 
 ## <a name="data-flow-in-prospect-to-cash"></a>“从目标客户到现金”中的数据流
 
@@ -47,7 +46,7 @@ ms.locfileid: "4528941"
 
 若要访问可用模板，打开 [PowerApps 管理中心](https://preview.admin.powerapps.com/dataintegration)。 选择 **项目**，然后在右上角，选择 **新项目** 以选择公共模板。
 
-以下模板和基础任务用于将 Sales 中的联系人（联系人）实体同步到 Supply Chain Management 中的联系人（客户）实体：
+以下模板和基础任务用于将 Sales 中的联系人（联系人）表同步到 Supply Chain Management 中的联系人（客户）表。
 
 - **数据集成中的模板名称**
 
@@ -65,7 +64,7 @@ ms.locfileid: "4528941"
 
 | 销售额    | 供应链管理 |
 |----------|------------------------|
-| 联系人 | CDS 联系人           |
+| 联系人 | Dataverse 联系人           |
 | 联系人 | 客户 V2           |
 
 ## <a name="entity-flow"></a>实体流
@@ -79,13 +78,13 @@ Sales 中的联系人可以成为 Supply Chain Management 中的联系人或客�
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>用于 Sales 的“从目标客户到现金”解决方案
 
-新的 **是可用客户** 字段已添加到联系人。 此字段用于区分具有销售活动的联系人和没有销售活动的联系人。 **是可用客户** 仅对具有相关报价单、订单或发票的联系人设置为 **是**。 仅这些联系人作为客户同步到 Supply Chain Management。
+新的 **是可用客户** 列已添加到联系人。 此列用于区分具有销售活动的联系人和没有销售活动的联系人。 **是可用客户** 仅对具有相关报价单、订单或发票的联系人设置为 **是**。 仅这些联系人作为客户同步到 Supply Chain Management。
 
-新的 **IsCompanyAnAccount** 字段已添加到联系人。 此字段指示联系人是否已链接到 **帐户** 类型的公司（上级单位/联系人）。 此信息用于确定应该作为联系人同步到 Supply Chain Management 的联系人。
+新的 **IsCompanyAnAccount** 列已添加到联系人。 此列指示联系人是否已链接到 **客户** 类型的公司（上级单位/联系人）。 此信息用于确定应该作为联系人同步到 Supply Chain Management 的联系人。
 
-新的 **联系人号码** 字段已添加到联系人以帮助保证一个用于集成的自然和唯一参数。 在创建新的联系人时，将使用编号规则自动创建 **联系人号码** 值。 该值由 **CON** 以及依次紧跟在后面的一个增加的编号规则和一个由六个字符组成的后缀构成。 示例：**CON-01000-BVRCPS**
+新的 **联系人号码** 列已添加到联系人以帮助保证一个用于集成的自然和唯一参数。 在创建新的联系人时，将使用编号规则自动创建 **联系人号码** 值。 该值由 **CON** 以及依次紧跟在后面的一个增加的编号规则和一个由六个字符组成的后缀构成。 示例：**CON-01000-BVRCPS**
 
-应用用于 Sales 的集成解决方案后，一个升级脚本使用前面提到的编号规则设置现有联系人的 **联系人号码** 字段。 升级脚本还可以对任何具有销售活动的联系人将 **是可用客户** 字段设置为 **是**。
+应用用于 Sales 的集成解决方案后，一个升级脚本使用前面提到的编号规则设置现有联系人的 **联系人号码** 列。 升级脚本还可以对任何具有销售活动的联系人将 **是可用客户** 列设置为 **是**。
 
 ## <a name="in-supply-chain-management"></a>在 Supply Chain Management 中
 
@@ -95,7 +94,7 @@ Sales 中的联系人可以成为 Supply Chain Management 中的联系人或客�
 
 ### <a name="contact-to-customer"></a>从联系人到客户
 
-- **CustomerGroup** 在 Supply Chain Management 中是必需的。 若要帮助避免同步错误，你可以在映射中指定默认值。 如果该字段在 Sales 中为空，则使用该默认值。
+- **CustomerGroup** 在 Supply Chain Management 中是必需的。 若要帮助避免同步错误，你可以在映射中指定默认值。 如果该列在 Sales 中为空，则使用该默认值。
 
     默认模板值为 **10**。
 
@@ -118,7 +117,7 @@ Sales 中的联系人可以成为 Supply Chain Management 中的联系人或客�
 下图显示了数据集成中的模板映射的一个示例。 
 
 > [!NOTE]
-> 此映射显示将从 Sales 同步到 Supply Chain Management 的字段信息。
+> 此映射显示将从 Sales 同步到 Supply Chain Management 的列信息。
 
 ### <a name="contact-to-contact"></a>从联系人到联系人
 
@@ -142,6 +141,3 @@ Sales 中的联系人可以成为 Supply Chain Management 中的联系人或客�
 [将 Sales 的销售发票头和行直接从 Supply Chain Management 同步到 Sales](sales-invoice-template-mapping-direct.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

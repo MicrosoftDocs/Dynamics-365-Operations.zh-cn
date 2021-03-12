@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductDetailsExtended, EcoResStorageDimensionGroup, InventItemOrderSetup, UnitOfMeasureConversion, WHSRFMenuItem, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 29611
 ms.assetid: 4b5ca875-9a06-416d-9ac0-cc3ab8f7338e
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6bd6a3ea9d7b339df99ffa65f058fc4b98b58b9c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aee5885da05b3ae46b8c4c2e0eb143708b921817
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423289"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993813"
 ---
 # <a name="unit-of-measure-and-stocking-policies"></a>度量单位和库存政策
 
@@ -50,6 +49,3 @@ ms.locfileid: "4423289"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

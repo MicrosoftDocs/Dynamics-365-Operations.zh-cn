@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: de4ee98198f441b8f42a8a55aa5ff1015f485234
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68fa26daac055cd0fd72035683f05ed36052b3a3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410473"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995812"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>计算零售渠道的库存现有量
 
@@ -114,6 +113,3 @@ Commerce 使用多个服务器和数据库确保可扩展性和性能。 因此�
 > 出于性能原因，使用渠道端库存现有量计算和电子商务 API 的渠道端库存逻辑或新的 POS 渠道端库存逻辑创建库存现有量请求时，此计算使用缓存确定是否经过了足够的时间来判定是否再次运行计算逻辑。 默认缓存设置为 60 秒。 例如，您为商店开启了渠道端计算，并在 **库存查找** 页中查看了某个产品的现有库存。 如果之后销售了一个单位的该产品，清除缓存之前，**库存查找** 页不会显示减少的库存。 用户在 POS 中过帐交易记录之后，应该等待 60 秒，之后再验证现有库存是否已减少。
 
 如果业务方案需要更小的缓存时间，请联系产品支持代表获取帮助。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

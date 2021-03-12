@@ -10,17 +10,16 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d37b2b785dd29850dcd02d0905e5872445384990
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410464"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993720"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>启用和配置按渠道自动收费
 
@@ -77,7 +76,7 @@ ms.locfileid: "4410464"
 
 若要在 Commerce 中定义按渠道自动收费，请执行以下步骤。
 
-1. 转到 **应收帐款 \> 费用设置 \> 自动费用**。
+1. 转到 **应收帐款 \> 费用设置 \> 自动费用**。
 1. 在左窗格的 **级别** 字段中，选择 **头** 或 **行**，具体取决于您的业务要求。
 1. 在 **零售渠道代码** 字段中，选择相应渠道代码（例如，**表** 或 **组**）。 如果使用默认设置 **所有**，则将把费用规则应用于所有渠道。
 
@@ -128,6 +127,3 @@ ms.locfileid: "4410464"
 [全渠道高级自动费用](omni-auto-charges.md)
 
 [将标头费用按比例分配给匹配的销售行](pro-rate-charges-matching-lines.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

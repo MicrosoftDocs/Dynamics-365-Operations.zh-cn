@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 62243
 ms.assetid: ffd17b5f-9aea-40e0-be49-d8702f615256
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70b47f819730ae221568e625a1b218e046927e41
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a1ab2423a9615bfaf7858a5d1a90de3822ad7174
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440751"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995232"
 ---
 # <a name="set-up-centralized-payments"></a>设置集中的付款
 
@@ -58,6 +57,3 @@ ms.locfileid: "4440751"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

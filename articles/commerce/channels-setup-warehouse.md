@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 67c0bb169bee8a7ea90edb4db7233111a8ee6e34
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410478"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993645"
 ---
 # <a name="warehouse-set-up"></a>仓库设置
 
@@ -147,6 +146,3 @@ ms.locfileid: "4410478"
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustBillOfExchangeJour
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 269964
 ms.assetid: f2077165-da90-4359-ab12-e05717728dc7
 ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7f5f62d33f6ffedb3fcefcdd9a83b922c1588df0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8cc9a732e2f220d289906aea7aba3d96a182b25b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440656"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995440"
 ---
 # <a name="set-up-bills-of-exchange"></a>设置汇票
 
@@ -86,6 +85,3 @@ ms.locfileid: "4440656"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

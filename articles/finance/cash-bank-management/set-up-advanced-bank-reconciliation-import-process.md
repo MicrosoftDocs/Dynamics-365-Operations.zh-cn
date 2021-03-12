@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45f997a91701e3fc63278cdba3479dec9dc7a467
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 70a12148ca324e1e7e1f90d29d46f68cb4144438
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440752"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995307"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>设置高级银行对帐导入流程
 
@@ -199,6 +198,3 @@ ms.locfileid: "4440752"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

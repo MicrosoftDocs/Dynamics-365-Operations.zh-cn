@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e429fef6101f611d7a2c1b5323d6fe1e39d1cdd3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 457e7128bed2232a3e092b31136f768940482741
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422965"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994171"
 ---
 # <a name="lean-pegging-from-sales-orders"></a>销售订单的精益限定标准
 
@@ -57,6 +56,3 @@ ms.locfileid: "4422965"
 5. 在该树形图中，选择“销售管线 000832\看板 000558\装运 L0001\看板 000559”。
     * 第二个看板作业也为计划作业，因为整个限定标准树形图为计划作业。 请注意，该看板作业状态由“未计划”更改为“已计划”。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

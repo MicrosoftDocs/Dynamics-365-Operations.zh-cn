@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 27361
 ms.assetid: 9f3dace7-05d8-4974-8f85-aca2e224876c
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8e283038a0cc1c9834a827c453f2951e9e87bcf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2cfdd8f90fec23341cd9c5606cf0cc2ee005a5c6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440841"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995733"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>应付帐款发票匹配概览
 
@@ -194,6 +193,3 @@ ms.locfileid: "4440841"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

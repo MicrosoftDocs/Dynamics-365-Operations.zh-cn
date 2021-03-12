@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2933bcfd2cc526e39a4e1343cd472334a5b95607
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: f49a91afe9281f912d6d3579ac8e52cb1d8e5b5d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645324"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994021"
 ---
 # <a name="troubleshoot-load-building-and-shipments"></a>负荷构建和装运疑难解答
 
@@ -94,6 +93,3 @@ ms.locfileid: "4645324"
 ### <a name="issue-resolution"></a>解决问题
 
 [KB 问题 470069](https://fix.lcs.dynamics.com/Issue/Details?kb=4574490&bugId=470069&dbType=3&qc=84ce1e09d7032d8b8ef86f5a0c68b86badf3dfaf29686c5ebbe97c53c0957b5f)（“部分装运的负荷可以重新加入波次和重新处理”）在[版本 10.0.15](../get-started/whats-new-scm-10-0-15.md) 中已修复。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

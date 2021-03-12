@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetBookTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3401
 ms.assetid: 862d6450-187b-497f-9822-cce45f2c65a9
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c31116ba234bd1fce445ac382fe8f8aea263a66
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 911bb476a696facfad9dec177261821724d2bfe0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440860"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994907"
 ---
 # <a name="derived-books"></a>派生帐簿
 
@@ -48,6 +47,3 @@ ms.locfileid: "4440860"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

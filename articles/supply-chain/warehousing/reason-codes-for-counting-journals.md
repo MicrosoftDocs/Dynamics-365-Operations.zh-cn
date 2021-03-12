@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventCountingReasonCodePolicy, InventCountingReasonCode
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 1025dd00db2e8b87e3c76e3047a7cf470a2d6641
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 66e1fb9f32aa31221f85180339b8b6ee55836be1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422793"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996140"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>库存盘点的原因代码
 
@@ -144,6 +143,3 @@ ms.locfileid: "4422793"
 - 默认盘点原因代码
 - 显示盘点原因代码
 - 编辑盘点原因代码
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

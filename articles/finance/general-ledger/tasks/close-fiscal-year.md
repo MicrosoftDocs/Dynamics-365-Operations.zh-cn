@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerParameters, LedgerFiscalCloseGroup, LedgerFiscalCloseAddLedger, SysLookupMultiSelectGrid, LedgerFiscalCloseRunGroup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 593ab5b45cc0c2e1a8b876aa89de014fd9df1a13
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b82cc7e4077a1bd50eab30f234c2f63c79e81d84
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440833"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994682"
 ---
 # <a name="close-the-fiscal-year"></a>结算会计年度
 
@@ -83,6 +82,3 @@ ms.locfileid: "4440833"
 23. 年终结算默认批量运行。 最好以批处理模式运行长时间运行的流程。 这通常是这些流程中的一个，也是默认使用批处理模式的原因。  
 24. 单击 **确定**。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

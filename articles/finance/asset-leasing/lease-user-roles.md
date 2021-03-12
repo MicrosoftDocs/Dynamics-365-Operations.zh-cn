@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b31d0880d4f2cd2b8ad2dffcfe279421f935ed35
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: df23e219f5bd859b0072785dfd5f7a0ec63f540e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440962"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995385"
 ---
 # <a name="assign-lease-user-roles"></a>分配租赁用户角色
 
@@ -44,6 +43,3 @@ ms.locfileid: "4440962"
 1. 转到 **系统管理 \> 安全 \> 将用户分配到角色**。
 2. 选择 **维护租赁**、**租赁业务员** 或 **查看租赁** 角色，然后选择 **手动分配/排除用户**。
 3. 选择要分配给该角色的用户，然后选择 **分配给角色**。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
