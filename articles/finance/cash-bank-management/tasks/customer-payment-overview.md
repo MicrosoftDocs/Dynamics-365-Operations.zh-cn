@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9196bedcea26a0024b3eabbbcb9c58a0155a7490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 71e1657d738f691644b6d9cc4d34f812b853934e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440738"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978855"
 ---
 # <a name="customer-payment-overview"></a>客户付款概览
 
@@ -52,6 +51,3 @@ ms.locfileid: "4440738"
 21. 在 **付款参考** 字段中，输入付款参考。 仅当您标记为在存款单上包括付款时才需要付款参考。  
 22. 在 **操作窗格** 上，单击 **过帐** 以过帐客户付款。 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

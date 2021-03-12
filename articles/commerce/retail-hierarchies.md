@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, EcoResCategoryHierarchyFactbox
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15851
 ms.assetid: dfa11d41-2a0c-4cde-99b6-058c49176c94
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8f7e4d01970f459f66934fe434ec7307104b39b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 94b391ab5028f76debb75d25ac9469e25361cb12
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410579"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979608"
 ---
 # <a name="commerce-hierarchies"></a>Commerce 层次结构
 
@@ -45,6 +44,3 @@ ms.locfileid: "4410579"
 | 导航层次结构   | 使用此层次结构类型可将产品分组并组织到类别，以便在线或在 POS 中浏览产品。 |
 
 通过使用类别层次结构组织产品，可以在类别级别设置和维护产品属性和特性。 这些特性和属性包括产品维度和 POS 设置。 自动分配给类别的所有产品继承您定义的属性和属性。 您可以在所选类别的多个产品中同时复制所有产品的属性设置。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

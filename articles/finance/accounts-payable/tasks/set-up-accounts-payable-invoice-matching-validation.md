@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 662b080a0e87ae6ce7d89ffa848579517dd9b6a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440695"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979230"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>设置应付帐款发票匹配验证
 
@@ -98,6 +97,3 @@ ms.locfileid: "4440695"
 
 1. 若要为单个供应商指定用于覆盖默认容差的容差，请选择 **供应商帐户**。
 2. 输入您为此供应商接收的差异百分比。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

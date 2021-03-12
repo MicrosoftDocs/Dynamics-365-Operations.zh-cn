@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14301
 ms.assetid: bad10b7f-e550-4742-9261-8a094c9c624d
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4a166e9a0d43da80986dd63d6739b104745b115
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7698a244c57d027d07fa7df324d3010eea6e2fe8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440595"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979355"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>在现金折扣期间之外执行现金折扣
 
@@ -91,6 +90,3 @@ April 将 **要结算的金额** 字段中的值更新为 **500.00**。 **要提
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

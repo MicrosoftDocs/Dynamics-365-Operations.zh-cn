@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ReqTransPo, PMFSeqReqRouteChangesListPage, PMFSeqReqRoute, PMFSeqReqRouteChanges, PMFSeqReqSchedDetailsFactBox, PMFSequenceGroup, PMFSequenceItemTable, PMFSequenceTable, PmfSeqWrkCtrCapRes
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db2c881f60b6e5251e2bcdf198da9e1c9f39a0e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e22c767a3de8fd937d9032a5bf285dfb4ced3d55
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422956"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981048"
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>对流程制造的生产作业排序
 
@@ -71,6 +70,3 @@ ms.locfileid: "4422956"
 8. 使用“快速筛选”来筛选带有值“P300”的“物料编号”字段。
     * 请注意，订单现在根据颜色和尺寸的优先级排序，计划订单从最早订单日期和交货日期开始。 验证“计划详细信息”速见表中的订单日期列或开始日期。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

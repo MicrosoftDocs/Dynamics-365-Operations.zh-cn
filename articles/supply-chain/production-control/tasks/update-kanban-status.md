@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: Kanban, KanbanResetEmpty
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bb8559c0843d7e6e538b5b29dc394a50d05462ee
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1161e642f8b3b1cd0a2568e0745caa6db5fe5afb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423165"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980980"
 ---
 # <a name="update-kanban-status"></a>更新看板状态
 
@@ -48,6 +47,3 @@ ms.locfileid: "4423165"
 2. 在列表中，标记所选的行。
     * 请注意，处理单元状态为“已清空”。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

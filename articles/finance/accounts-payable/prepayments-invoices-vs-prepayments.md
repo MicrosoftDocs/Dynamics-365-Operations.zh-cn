@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15871
 ms.assetid: a0bb5220-73d4-48ae-84d0-46a171c224fa
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4247193732a49cf0d26f0437f57f3ed66061a118
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9c29529aa57eb7685e36f5407f4279544fdb701
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440708"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979530"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>预付款发票与预付款
 
@@ -51,7 +50,7 @@ ms.locfileid: "4440708"
 3.  创建一个付款日记帐，然后创建新的付款。
 4.  您可以将付款标记为预付款。 如果付款标记为预付款，付款会过帐到在过帐模板上定义的会计科目（在步骤 1 和 2 中设置）。 此外，如果付款标记为预付款，则会计算税金。 某些政府需要在记录预付款时支付税金，即使没有发票也是。
 5.  过帐预付款。
-6.  可选：在创建发票前，您可以比对采购订单或销售订单来结算预付款。在销售订单或采购订单页上，在操作窗格上，使用 **结算交易记录**。
+6.  可选：在创建发票前，您可以比对采购订单或销售订单来结算预付款。 在销售订单或采购订单页上，在操作窗格上，使用 **结算交易记录**。
 7.  在供应商提供货物或服务之后，应记录发票。 如果您在第 6 步中已比对采购订单或销售订单结算预付款，则会自动比对您创建的发票来结算预付款。 如果您未比对采购订单或销售订单结算预付款，则可以通过使用客户或供应商页上的 **结算交易记录** 来手动结算它。 然后，预付款金额将暂时冲销到 AP/AR 会计科目之外。 此外，如果计算税金，它们将被冲销，因为发票具有实际税金。
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>预付款开票流程的概览
@@ -66,6 +65,3 @@ ms.locfileid: "4440708"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

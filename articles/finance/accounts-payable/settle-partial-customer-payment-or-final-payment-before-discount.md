@@ -1,5 +1,5 @@
 ---
-title: 在折扣日期之前完全结算部分客户付款和最后付款
+title: 在折扣日期之前完全结算部分和最后付款
 description: 本文提供显示如何记录客户的部分付款以及在现金折扣期间内执行现金折扣的情况。
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14491
 ms.assetid: 0f07d3ce-a439-43ed-a22e-957ccd36a37b
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9ae9218a85c50582c8c4999da463833fc91d260
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 7c0c2c5db4f8169876be2bd98e36c4a8dbc35c35
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4440919"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979455"
 ---
-# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>在折扣日期之前完全结算部分客户付款和最后付款
+# <a name="settle-partial-and-final-payments-in-full-before-the-discount-date"></a>在折扣日期之前完全结算部分和最后付款
 
 [!include [banner](../includes/banner.md)]
 
@@ -149,6 +148,3 @@ Arnie 过帐此日记帐并审核 **客户交易记录** 页中的客户交易�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
-ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
+ms.openlocfilehash: 54d9ccbb56131333159cdf8858dfca23b75b61fd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4410613"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980448"
 ---
 # <a name="add-a-copyright-notice"></a>添加版权声明
 
@@ -75,6 +74,3 @@ ms.locfileid: "4410613"
 
 [将脚本代码添加到站点页面以支持遥测](add-telemetry.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

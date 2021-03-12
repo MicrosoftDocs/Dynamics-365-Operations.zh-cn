@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3cf7ead9a5340d5db37a87bdf131ba87681d5a82
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 712e9359e31be96c426d6f16c878f18f05cc1bd2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410441"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980099"
 ---
 # <a name="video-player-module"></a>视频播放器模块
 
@@ -106,6 +105,3 @@ ms.locfileid: "4410441"
 [文本块模块](add-content-rich-block.md)
 
 [内容块模块](add-hero-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

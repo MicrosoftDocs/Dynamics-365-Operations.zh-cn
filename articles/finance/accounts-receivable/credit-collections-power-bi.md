@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
-ms.sourcegitcommit: 219aa992b1f4c913f26243eeb7e40a383fa1ca67
+ms.openlocfilehash: dc68926b8123c7e513f9df46e2b9f9b8ae1311e8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4440937"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979131"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>信用和收款管理 Power BI 内容
 
@@ -77,6 +76,3 @@ ms.locfileid: "4440937"
 | 催款单         | <ul><li>收款代码金额</li><li>收款代码金额明细</li><li>催款单金额（按公司）</li><li>催款单金额（按客户组）</li><li>催款单金额（按地区）</li></ul> |
 
 所有这些报表中的图表和磁贴均可以筛选和并固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/)。 您还可以使用导出基础数据功能导出在可视化中汇总的基础数据。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

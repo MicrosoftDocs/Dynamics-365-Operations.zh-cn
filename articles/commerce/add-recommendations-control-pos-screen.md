@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af2450b27106325a86f6db68f9791637694cda63
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e1ef6506833b35e61351600553a3bc29c20d5b2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410370"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980224"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>向交易记录屏幕添加建议
 
@@ -119,6 +118,3 @@ ms.locfileid: "4410370"
 [使用演示数据创建建议](product-recommendations-demo-data.md)
 
 [产品建议常见问题](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

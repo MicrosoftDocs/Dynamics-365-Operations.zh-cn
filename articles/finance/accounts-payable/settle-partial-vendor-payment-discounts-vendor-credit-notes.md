@@ -1,5 +1,5 @@
 ---
-title: 结算在供应商贷方通知单上已折扣的部分供应商付款
+title: 结算在贷方通知单上已折扣的部分供应商付款
 description: 本文向您介绍根据发票结算贷项通知单的情况。
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14222
 ms.assetid: 2b19f7fd-9ff9-4ee4-bddf-f582946d008e
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 923ab0305ac75c1156984c7a6d051f036479a16d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 701376cd080a5dda4c985aced1b08c7cb2147c27
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440598"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979430"
 ---
-# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>结算在供应商贷方通知单上已折扣的部分供应商付款
+# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-credit-notes"></a>结算在贷方通知单上已折扣的部分供应商付款
 
 [!include [banner](../includes/banner.md)]
 
@@ -71,6 +70,3 @@ April 可以通过选择 **所有供应商** 页上的供应商来查看 **供�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

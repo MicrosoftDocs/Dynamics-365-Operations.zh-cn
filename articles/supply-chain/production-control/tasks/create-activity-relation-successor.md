@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityRelationNew, PlanActivityLookup, DefaultDashboard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 91e1535ab6b53ad60394967d0377606a0cd27d01
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f23dc0cb4b2ea7a4a298368a56869db90dd044d3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422723"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981273"
 ---
 # <a name="create-activity-relation---successor"></a>创建活动关系 - 后续活动
 
@@ -66,6 +65,3 @@ ms.locfileid: "4422723"
 12. 关闭该页面。
 13. 刷新该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 981d1c604a7ed461f207e78c8c7f073aff03be9e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410412"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979990"
 ---
 # <a name="assortment-management"></a>分类管理
 
@@ -107,6 +106,3 @@ Commerce 中定义的分类必须先经过处理，才能生效。 执行此项�
 - **分类外销售和退货** – 此功能帮助零售商有效管理分类，方法是将可用产品的数量限制为属于商店核心产品组合的产品。 此功能还可以帮助零售商处理下面的情况：分类中错误地遗漏了某个产品，或者产品因超出分类的有效期而退货。
 
 如果产品数据在渠道数据库中不存在，POS 将实时调用总部数据以检索所需信息，以便出售、退回产品或将产品放入客户订单中。 通过这种方式检索的产品信息只能在交易记录范围内可用。 将不会把产品添加到分类定义。 因此，必须执行后续实时调用。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResCategoryAttribute, EcoResProductEntityAttributeTableFieldAssociation, EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResAttributeType, EcoResAttributeValue, EcoResCategoryAttributeGroup, EcoResCategoryFriendlyName
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b5d0e92196f98fb707b1c424a6ae237f4dc9545c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 70e2b52dd140660fe98c6ff07248a033ba4bd635
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410467"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979965"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>管理属性和属性组
 
@@ -257,6 +256,3 @@ ms.locfileid: "4410467"
 
     > [!NOTE]
     > 如果创建共享产品介质和共享产品属性，它们将应用于所有产品。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

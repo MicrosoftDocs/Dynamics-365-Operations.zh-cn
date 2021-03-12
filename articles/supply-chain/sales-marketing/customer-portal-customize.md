@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1e491100bc24718b8e5bc0f62de241835787f7ea
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527355"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980848"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>自定义和使用客户门户
 
@@ -40,9 +39,9 @@ ms.locfileid: "4527355"
 - [管理门户内容](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – 本主题说明如何管理和自定义您在门户中显示的内容。
 - [编辑 CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – 本主题帮助您对门户的用户界面 (UI) 进行更复杂的自定义。
 - [为您的门户创建主题](https://docs.microsoft.com/dynamics365/portals/create-theme) – 本主题帮助您为门户创建 UI 主题。
-- [轻松创建和公开门户内容](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – 本主题帮助您管理用于门户的基础数据和实体。
+- [轻松创建和公开门户内容](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – 本主题帮助您管理用于门户的基础数据和表。
 - [配置要在门户上使用的联系人](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – 本主题说明如何创建和自定义用户角色，以及 Power Apps 门户中的安全性和身份验证如何运行。
-- [在门户上配置实体窗体和 Web 窗体的注释](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – 本主题说明如何向门户添加文档和其他存储。
+- [在门户上配置表窗体和 Web 窗体的注释](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – 本主题说明如何向门户添加文档和其他存储。
 - [门户网站的错误处理](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – 本主题说明如何查看门户错误日志并将其存储在您的 Microsoft Azure Blob 存储帐户中。
 
 ## <a name="customize-the-order-creation-process"></a>自定义订单创建流程
@@ -91,7 +90,7 @@ ms.locfileid: "4527355"
 
 为了帮助确保流畅的用户体验，客户门户会自动填充几个必填字段的值。 这些值基于提交订单的客户的联系记录中的信息。
 
-对于属于将使用客户门户提交订单的客户的每个[联系人记录](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts)，必须为以下必填字段指定值。 否则会发生错误。
+对于属于将使用客户门户提交订单的客户的每个[联系人行](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts)，必须为以下必填字段指定值。 否则会发生错误。
 
 - **公司** – 订单所属的法人
 - **潜在客户** – 与订单关联的客户帐户
@@ -99,7 +98,7 @@ ms.locfileid: "4527355"
 - **货币** – 价格使用的货币
 - **运达国家/地区** – 物料将送达的国家或地区
 
-将自动为销售订单实体设置以下字段：
+将自动为销售订单表设置以下字段：
 
 - **语言** – 订单的语言（默认情况下，此值取自联系人记录。）
 - **运达国家/地区** – 物料将被运送到的国家或地区（默认情况下，此值取自联系人记录。）
@@ -116,7 +115,7 @@ ms.locfileid: "4527355"
 
 如果不更改基本订单创建流程，可以自由修改客户门户的外观和 UI。 如果要更改订单创建流程，必须牢记几点。
 
-不要从 Common Data Service 中的销售订单实体中删除以下字段，因为它们是以双写入方式创建销售订单所必需的：
+不要从 Microsoft Dataverse 中的销售订单表中删除以下列，因为它们是以双写入方式创建销售订单所必需的：
 
 - **公司** – 订单所属的法人
 - **名称** – 销售订单的名称
@@ -127,7 +126,7 @@ ms.locfileid: "4527355"
 - **语言** – 订单的语言（通常，此语言是潜在客户的语言。）
 - **交货地址描述** – 销售订单的交货地址
 
-对于物料，必须有以下字段：
+对于物料，必须有以下列：
 
 - **产品** – 要订购的产品
 - **数量** – 所选产品的数量
@@ -135,11 +134,11 @@ ms.locfileid: "4527355"
 - **运达国家/地区** – 交货国家或地区
 - **交货地址描述** – 订单的交货地址
 
-您必须确保客户门户以某种方式提交所有这些字段的值。
+您必须确保客户门户以某种方式提交所有这些列的值。
 
-如果要向页面添加字段或删除字段，请参阅[创建或编辑快速创建窗体以简化数据输入体验](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms)。
+如果要向页面添加列或删除列，请参阅[创建或编辑快速创建窗体以简化数据输入体验](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms)。
 
-如果要更改保存页面时字段的预设方式和值的设置方式，请参阅 Power Apps 门户文档中的以下信息：
+如果要更改保存页面时列的预设方式和值的设置方式，请参阅 Power Apps 门户文档中的以下信息：
 
 - [预填充字段](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
 - [保存时设置值](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
@@ -176,6 +175,3 @@ ms.locfileid: "4527355"
 - [升级门户](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [迁移门户配置](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [解决方案生命周期管理：Dynamics 365 for Customer Engagement 应用](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

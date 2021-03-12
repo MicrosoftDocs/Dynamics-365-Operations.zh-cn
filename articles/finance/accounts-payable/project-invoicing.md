@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ba2f9d69295f9f5cfb4a2a791be781de32b50f46
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5a6a29b180564dc4e4dd768b9e4b97c8877ce00c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440706"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979579"
 ---
 # <a name="project-invoicing"></a>项目开单
 
@@ -75,7 +74,7 @@ ms.locfileid: "4440706"
 
 ### <a name="view-grant-information-on-project-invoice-list-pages"></a>在项目发票列表页面上查看授权信息
 
-公共部门用户可以将 **授权 ID** 和 **授权名称** 添加到 **项目发票方案** 和 **项目发票** 列表页。 这些列使用 **将授权信息添加到项目发票列表页** 功能启用。 此功能默认关闭，但可以 **工作区 > 功能管理** 中启用。 请与系统管理员联系，获取启用此功能的帮助。
+公共部门用户可以将 **授权 ID** 和 **授权名称** 添加到 **项目发票方案** 和 **项目发票** 列表页。 这些列使用 **将授权信息添加到项目发票列表页** 功能启用。 此功能默认关闭，但可以 **工作区 > 功能管理** 中启用。 请与系统管理员联系，获取启用此功能的帮助。
 
 ## <a name="on-account-invoicing"></a>分期付款开票
 您在项目的分期付款发票中输入的金额基于时间、完成百分比和相关项目合同中指定的其他帐单条件。 金额不基于工时、物料、费用或过帐到项目的费用进行计算。 
@@ -132,6 +131,3 @@ ms.locfileid: "4440706"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

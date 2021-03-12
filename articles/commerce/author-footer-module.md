@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 42a71ea9498461febca80952acc3158517918332
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 038fee32cbf1ed6b4967f440faaf3c0d4fa583f6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410466"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979939"
 ---
 # <a name="footer-module"></a>页脚模块  
 
@@ -87,6 +86,3 @@ ms.locfileid: "4410466"
 [页眉模块](author-header-module.md)
 
 [页脚模块](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

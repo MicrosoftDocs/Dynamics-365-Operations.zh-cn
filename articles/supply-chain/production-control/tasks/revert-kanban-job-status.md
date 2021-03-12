@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9cca5ea3a4c33c7f36acd18a8af7034466b3b580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bc147ec517b8141b4764f67d21b4c4a2e4d6e6e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422960"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981148"
 ---
 # <a name="revert-kanban-job-status"></a>恢复看板作业状态
 
@@ -55,6 +54,3 @@ ms.locfileid: "4422960"
     * 选择相同作业。  
     * 请注意，该看板作业的作业状态已恢复为“已计划”（以空看板图标表示）。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

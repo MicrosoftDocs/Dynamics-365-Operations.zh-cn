@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1ddf41d88d085b102a7d69eeeff0ec463d8b4137
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fb17a94cd4a472ad609a0c2f688c4a700f072072
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440718"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979106"
 ---
 # <a name="customer-credit-groups"></a>客户信用组
 
@@ -39,6 +38,3 @@ ms.locfileid: "4440718"
 设置完客户信用组后，您可以通过指定其法人和客户帐户 ID 将客户添加到该组中。 当您将新客户添加到客户信用组时，系统会在所有法人中搜索相同的客户帐户，并提示您将其添加到客户信用组中。
 
 使用 **帐龄余额** 菜单查看客户信用组中所有发票客户的帐龄余额详细信息。 **帐龄余额** 页显示了发票客户帐户的帐龄余额摘要。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

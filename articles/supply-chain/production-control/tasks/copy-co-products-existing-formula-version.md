@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, BOMConsistOf, PmfFormulaCoBy, BOMRouteCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 79b70ccbdac2061baf3896ecbd9449da3c38842a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0a16a6c8651b401dddfa47c0eb29efb0c3a49038
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422726"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981323"
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>从现有配方版本中复制联产品
 
@@ -54,6 +53,3 @@ ms.locfileid: "4422726"
 6. 单击“确定”。
 7. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

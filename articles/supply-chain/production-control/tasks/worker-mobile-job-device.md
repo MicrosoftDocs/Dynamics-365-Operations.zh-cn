@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ada42a98a8a87e377f939d063b17f9904f6b3408
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 89b75936ea9c0f25f82175a1871088da8fd74ad6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423164"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980923"
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a>使用移动作业设备配置工作人员
 
@@ -68,6 +67,3 @@ ms.locfileid: "4423164"
 6. 在 **生产单位** 字段，您可以设置工人的默认筛选器。 这将确保在工作人员登录到设备时，只显示所选生产单位的生产作业。 输入所需值。
 7. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

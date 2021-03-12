@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f7242ed830d09a29a4b01e20ce5070c3aaeca62b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410418"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979706"
 ---
 # <a name="reset-receipt-numbers"></a>重置收据编号 
 
@@ -68,6 +67,3 @@ ms.locfileid: "4410418"
 
 > [!NOTE]
 > 根据您选择的重置日期和收据格式，您可能会有重复的收据编号。 尽管销售点 (POS) 系统可以处理这些情况，但它们会增加处理退货所需的时间，因为销售助理必须在重复的收据中进行选择。 如果重复的收据不是计划的结果，则可能会发生与数据清理相关的其他复杂情况。 因此，我们建议您使用动态日期字符（例如 **ddd**、**MM**、**DD** 和 **YY**），以帮助防止重置后出现重复的收据编号。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

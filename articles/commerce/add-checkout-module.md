@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 28d58caba71ea98ccf163e756e879587aa254bb3
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: cb32b014ac35e33db28d3dee03b01dfa43f5d6a5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4410644"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980498"
 ---
 # <a name="checkout-module"></a>结帐模块
 
@@ -127,6 +126,3 @@ ms.locfileid: "4410644"
 [订单详细信息模块](order-confirmation-module.md)
 
 [礼品卡模块](add-giftcard.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

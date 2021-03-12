@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f249348fac526fc7814045b1b1b71c898430c0f2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410420"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980423"
 ---
 # <a name="add-a-favicon"></a>添加收藏夹图标
 
@@ -66,7 +65,7 @@ ms.locfileid: "4410420"
 1. 在 **新建片段** 对话框中，选择 **元标记** 作为片段所基于的模块。
 1. 输入片段名称，然后选择 **确定**。
 1. 在片段层次结构树中，选择 **默认元标记** 子项。
-1. 在右窗格中的 **元标记** 下，选择 **添加**，然后输入您先前为该收藏夹图标创建的 HTML 字符串。 
+1. 在右窗格中的 **元标记** 下，选择 **添加**，然后输入您先前为该收藏夹图标创建的 HTML 字符串。 
 1. 选择 **完成编辑**，然后选择 **发布** 以发布片段。
 
 ## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>将元标记片段添加到页面的 HTML 标头部分
@@ -99,6 +98,3 @@ ms.locfileid: "4410420"
 
 [将脚本代码添加到站点页面以支持遥测](add-telemetry.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa6a01d8f918c45aaa454e5234f80c312d7a5061
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3e7343d0a9ea3082a3fad90bdcbb8962e56c70a4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422727"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981373"
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>计算看板数量建议
 
@@ -85,6 +84,3 @@ ms.locfileid: "4422727"
     * 请注意，这是来自看板数量计算的固定看板数量 4.  
 5. 单击“列表面板”选项卡。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

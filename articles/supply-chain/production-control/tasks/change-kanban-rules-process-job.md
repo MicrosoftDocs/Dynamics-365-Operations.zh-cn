@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, KanbanReassignRuleLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4d4c8fd8251aca2cc53e59afe4c104f2e5198426
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e0e1989bcc4ca02d097f9ebff40f21158f26546
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422728"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981347"
 ---
 # <a name="change-kanban-rules-for-a-process-job"></a>更改处理作业的看板规则
 
@@ -49,6 +48,3 @@ ms.locfileid: "4422728"
 7. 单击“完成”。
     * 现在该看板作业正在使用另一种看板规则。 此适用于水平负荷工作单元。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

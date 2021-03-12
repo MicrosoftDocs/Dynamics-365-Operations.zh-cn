@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ab6b01d6833850af8c04167d94b0a60c7312075c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a66590f18df04d2be0500b7fb1ab183cf64718e8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410590"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979745"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>设置和设计收据格式
 
@@ -46,6 +45,10 @@ ms.locfileid: "4410590"
     - **不打印** – 收据不打印。
     - **提示用户** – 提示用户打印收据。
     - **根据需要** – 此选项只用于礼品收据。 选中此选项后，用户可以从 **更改** 页打印礼品收据，如果需要礼品收据。
+
+## <a name="print-images"></a>打印图像
+
+收据设计器包含一个 **徽标** 变量，可用于指定要在收据上打印的图像。 使用 **徽标** 变量包含在收据中的图像应为单色位图 (.bmp) 文件类型。 如果在收据设计器中指定了 .bmp 图像，但是发送到打印机时未打印，说明文件大小可能太大或图像的像素维度与打印机不兼容。 如果发生这种情况，请尝试降低图像文件的分辨率。   
 
 ## <a name="design-a-receipt-format"></a>设计收据格式
 
@@ -82,6 +85,3 @@ ms.locfileid: "4410590"
 
 > [!NOTE]
 > 如果使用两台打印机，一台打印机可用于打印标准的 40 列热敏收据。 第二台打印机通常用于打印需要更多信息的全页收据类型。 这些收据类型包括客户订单收据和客户发票。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
