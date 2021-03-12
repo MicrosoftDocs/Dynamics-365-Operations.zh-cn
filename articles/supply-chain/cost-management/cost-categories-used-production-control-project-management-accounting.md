@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ProjCategory
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 78253
 ms.assetid: cfdd58a0-8afa-4a6f-a208-a76e2c162429
 ms.search.region: Global
@@ -19,28 +18,28 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26f4ce073528bf102a951d6fa002aeb0da9e380c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 59bf9c165af83aeb66586adc2d2bfc1bb5068601
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422885"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967850"
 ---
-# <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a><span data-ttu-id="f965b-104">用于项目控制和项目管理核算的成本类别</span><span class="sxs-lookup"><span data-stu-id="f965b-104">Cost categories used in Production control and Project management accounting</span></span>
+# <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a><span data-ttu-id="17b2b-104">用于项目控制和项目管理核算的成本类别</span><span class="sxs-lookup"><span data-stu-id="17b2b-104">Cost categories used in Production control and Project management accounting</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f965b-105">某些生产工作类型可以应用于项目时间评估和报告。</span><span class="sxs-lookup"><span data-stu-id="f965b-105">Some types of production work can apply to project time estimates and reporting.</span></span> <span data-ttu-id="f965b-106">本文提供有关您必须为这些用于生产和项目目的生产工作类型定义的成本类别的信息。</span><span class="sxs-lookup"><span data-stu-id="f965b-106">This article provides information about the cost categories that you must define for these types of production work for production and project purposes.</span></span>
+<span data-ttu-id="17b2b-105">某些生产工作类型可以应用于项目时间评估和报告。</span><span class="sxs-lookup"><span data-stu-id="17b2b-105">Some types of production work can apply to project time estimates and reporting.</span></span> <span data-ttu-id="17b2b-106">本文提供有关您必须为这些用于生产和项目目的生产工作类型定义的成本类别的信息。</span><span class="sxs-lookup"><span data-stu-id="17b2b-106">This article provides information about the cost categories that you must define for these types of production work for production and project purposes.</span></span>
 
-<span data-ttu-id="f965b-107">某些生产工作类型可以应用于项目时间评估和报告。</span><span class="sxs-lookup"><span data-stu-id="f965b-107">Some types of production work can apply to project time estimates and reporting.</span></span> <span data-ttu-id="f965b-108">在这种情况下，成本类别需要用于生产和项目目的。</span><span class="sxs-lookup"><span data-stu-id="f965b-108">In this case, a cost category is required for production and project purposes.</span></span> <span data-ttu-id="f965b-109">在将某一成本类别用于生产和项目时，必须定义附加的与项目相关的信息。</span><span class="sxs-lookup"><span data-stu-id="f965b-109">When a cost category is used in production and projects, additional project-related information must be defined.</span></span> <span data-ttu-id="f965b-110">例如，与项目相关联的每小时成本可以不同于与生产相关联的每小时成本。</span><span class="sxs-lookup"><span data-stu-id="f965b-110">For example, the hourly costs that are associated with projects can differ from the hourly costs that are associated with production.</span></span> <span data-ttu-id="f965b-111">您可以使用 **成本类别** 页来定义用于生产控制和项目管理核算的成本类别。</span><span class="sxs-lookup"><span data-stu-id="f965b-111">You can use the **Cost categories** page to define a cost category that is used in Production control and Project management accounting.</span></span> 
+<span data-ttu-id="17b2b-107">某些生产工作类型可以应用于项目时间评估和报告。</span><span class="sxs-lookup"><span data-stu-id="17b2b-107">Some types of production work can apply to project time estimates and reporting.</span></span> <span data-ttu-id="17b2b-108">在这种情况下，成本类别需要用于生产和项目目的。</span><span class="sxs-lookup"><span data-stu-id="17b2b-108">In this case, a cost category is required for production and project purposes.</span></span> <span data-ttu-id="17b2b-109">在将某一成本类别用于生产和项目时，必须定义附加的与项目相关的信息。</span><span class="sxs-lookup"><span data-stu-id="17b2b-109">When a cost category is used in production and projects, additional project-related information must be defined.</span></span> <span data-ttu-id="17b2b-110">例如，与项目相关联的每小时成本可以不同于与生产相关联的每小时成本。</span><span class="sxs-lookup"><span data-stu-id="17b2b-110">For example, the hourly costs that are associated with projects can differ from the hourly costs that are associated with production.</span></span> <span data-ttu-id="17b2b-111">您可以使用 **成本类别** 页来定义用于生产控制和项目管理核算的成本类别。</span><span class="sxs-lookup"><span data-stu-id="17b2b-111">You can use the **Cost categories** page to define a cost category that is used in Production control and Project management accounting.</span></span> 
 
-<span data-ttu-id="f965b-112">**注意：** 成本核算具有 **项目类别** 页，但此页没有与在此主题中描述的功能的关系。</span><span class="sxs-lookup"><span data-stu-id="f965b-112">**Note:** Cost accounting has a **Project categories** page, but this page has no relationship to the functionality that is described in this topic.</span></span> <span data-ttu-id="f965b-113">在项目中使用成本类别时，**成本类别** 页具有显示附加的项目相关信息的其他选项卡。</span><span class="sxs-lookup"><span data-stu-id="f965b-113">When you use a cost category in projects, the **Cost categories** page has additional tabs that show additional project-related information.</span></span> <span data-ttu-id="f965b-114">此信息包括类别组、行属性和已分配给成本类别的会计科目。</span><span class="sxs-lookup"><span data-stu-id="f965b-114">This information includes the category group, a line property, and ledger accounts that are assigned to the cost category.</span></span>
+<span data-ttu-id="17b2b-112">**注意：** 成本核算具有 **项目类别** 页，但此页没有与在此主题中描述的功能的关系。</span><span class="sxs-lookup"><span data-stu-id="17b2b-112">**Note:** Cost accounting has a **Project categories** page, but this page has no relationship to the functionality that is described in this topic.</span></span> <span data-ttu-id="17b2b-113">在项目中使用成本类别时，**成本类别** 页具有显示附加的项目相关信息的其他选项卡。</span><span class="sxs-lookup"><span data-stu-id="17b2b-113">When you use a cost category in projects, the **Cost categories** page has additional tabs that show additional project-related information.</span></span> <span data-ttu-id="17b2b-114">此信息包括类别组、行属性和已分配给成本类别的会计科目。</span><span class="sxs-lookup"><span data-stu-id="17b2b-114">This information includes the category group, a line property, and ledger accounts that are assigned to the cost category.</span></span>
 
--   <span data-ttu-id="f965b-115">该成本类别必须分配给支持 **工时** 交易记录类型的某一类别组。</span><span class="sxs-lookup"><span data-stu-id="f965b-115">The cost category must be assigned to a category group that supports a transaction type of **Hours**.</span></span>
--   <span data-ttu-id="f965b-116">行属性将指示如何对项目向报告的时间收费的默认信息。</span><span class="sxs-lookup"><span data-stu-id="f965b-116">The line property indicates default information about how reported time can be charged to a project.</span></span>
--   <span data-ttu-id="f965b-117">通常，与成本和销售的会计科目定义分配给成本类别的类别组的。</span><span class="sxs-lookup"><span data-stu-id="f965b-117">Typically, the ledger accounts that are related to costs and sales are defined for the category group that is assigned to the cost category.</span></span> <span data-ttu-id="f965b-118">但是，特定帐户可以定义单独的成本类别。</span><span class="sxs-lookup"><span data-stu-id="f965b-118">However, specific accounts can be defined for an individual cost category.</span></span>
+-   <span data-ttu-id="17b2b-115">该成本类别必须分配给支持 **工时** 交易记录类型的某一类别组。</span><span class="sxs-lookup"><span data-stu-id="17b2b-115">The cost category must be assigned to a category group that supports a transaction type of **Hours**.</span></span>
+-   <span data-ttu-id="17b2b-116">行属性将指示如何对项目向报告的时间收费的默认信息。</span><span class="sxs-lookup"><span data-stu-id="17b2b-116">The line property indicates default information about how reported time can be charged to a project.</span></span>
+-   <span data-ttu-id="17b2b-117">通常，与成本和销售的会计科目定义分配给成本类别的类别组的。</span><span class="sxs-lookup"><span data-stu-id="17b2b-117">Typically, the ledger accounts that are related to costs and sales are defined for the category group that is assigned to the cost category.</span></span> <span data-ttu-id="17b2b-118">但是，特定帐户可以定义单独的成本类别。</span><span class="sxs-lookup"><span data-stu-id="17b2b-118">However, specific accounts can be defined for an individual cost category.</span></span>
 
-<span data-ttu-id="f965b-119">**成本类别** 页上的其他一些按钮可用于访问关于成本类别的与项目相关的信息。</span><span class="sxs-lookup"><span data-stu-id="f965b-119">Additional buttons on the **Cost categories** page let you access project-related information about a selected cost category.</span></span> <span data-ttu-id="f965b-120">例如，您可以查看与项目相关的交易记录，定义员工或项目，定义每小时成本和销售价以及查看报表。</span><span class="sxs-lookup"><span data-stu-id="f965b-120">For example, you can view project-related transactions, define employees or projects, define hourly costs and sales prices, and view reports.</span></span>
+<span data-ttu-id="17b2b-119">**成本类别** 页上的其他一些按钮可用于访问关于成本类别的与项目相关的信息。</span><span class="sxs-lookup"><span data-stu-id="17b2b-119">Additional buttons on the **Cost categories** page let you access project-related information about a selected cost category.</span></span> <span data-ttu-id="17b2b-120">例如，您可以查看与项目相关的交易记录，定义员工或项目，定义每小时成本和销售价以及查看报表。</span><span class="sxs-lookup"><span data-stu-id="17b2b-120">For example, you can view project-related transactions, define employees or projects, define hourly costs and sales prices, and view reports.</span></span>
 
 
 
