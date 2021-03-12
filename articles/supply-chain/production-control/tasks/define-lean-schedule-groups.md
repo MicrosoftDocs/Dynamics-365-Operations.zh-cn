@@ -11,48 +11,47 @@ ms.technology: ''
 ms.search.form: LeanScheduleGroup, GanttColorTableLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9ad470d81d94a0af1c4c4dc6c5072354cfd96d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: acdaa3c9ee927b5c333b41927b2a6d245c02b4d8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422700"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977880"
 ---
-# <a name="define-lean-schedule-groups"></a><span data-ttu-id="8d177-103">定义精益计划组</span><span class="sxs-lookup"><span data-stu-id="8d177-103">Define lean schedule groups</span></span>
+# <a name="define-lean-schedule-groups"></a><span data-ttu-id="65364-103">定义精益计划组</span><span class="sxs-lookup"><span data-stu-id="65364-103">Define lean schedule groups</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8d177-104">精益计划组被定义为组，可区分看板计划中的产品。</span><span class="sxs-lookup"><span data-stu-id="8d177-104">Lean schedule groups are defined to group and distinguish products in kanban scheduling.</span></span> <span data-ttu-id="8d177-105">每个公司或特定工作单元均可以通过通用关联实现分组。</span><span class="sxs-lookup"><span data-stu-id="8d177-105">The grouping can be done as generic association per company or specific to a work cell.</span></span> <span data-ttu-id="8d177-106">为了在看板计划列表页具有目视识别特征，每个组都被分配了一个颜色代码。</span><span class="sxs-lookup"><span data-stu-id="8d177-106">Each group has a color code assigned for visual indication in the kanban scheduling listpage.</span></span> <span data-ttu-id="8d177-107">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="8d177-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="65364-104">精益计划组被定义为组，可区分看板计划中的产品。</span><span class="sxs-lookup"><span data-stu-id="65364-104">Lean schedule groups are defined to group and distinguish products in kanban scheduling.</span></span> <span data-ttu-id="65364-105">每个公司或特定工作单元均可以通过通用关联实现分组。</span><span class="sxs-lookup"><span data-stu-id="65364-105">The grouping can be done as generic association per company or specific to a work cell.</span></span> <span data-ttu-id="65364-106">为了在看板计划列表页具有目视识别特征，每个组都被分配了一个颜色代码。</span><span class="sxs-lookup"><span data-stu-id="65364-106">Each group has a color code assigned for visual indication in the kanban scheduling listpage.</span></span> <span data-ttu-id="65364-107">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="65364-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="define-lean-scheduling-group"></a><span data-ttu-id="8d177-108">定义精益计划组</span><span class="sxs-lookup"><span data-stu-id="8d177-108">Define lean scheduling group</span></span>
-1. <span data-ttu-id="8d177-109">转到“产品信息管理”>“精益制造”>“精益计划组”。</span><span class="sxs-lookup"><span data-stu-id="8d177-109">Go to Product information management > Lean manufacturing > Lean schedule groups.</span></span>
-2. <span data-ttu-id="8d177-110">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="8d177-110">Click New.</span></span>
-3. <span data-ttu-id="8d177-111">在“计划组”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="8d177-111">In the Schedule group field, type a value.</span></span>
-    * <span data-ttu-id="8d177-112">计划组可以定义为全局组或工作单元的特定组。</span><span class="sxs-lookup"><span data-stu-id="8d177-112">A schedule group can be defined as global group or specific to a work cell.</span></span> <span data-ttu-id="8d177-113">在这个简单的例子中，我们定义了一个全局组且工作单元为空。</span><span class="sxs-lookup"><span data-stu-id="8d177-113">In this simple example, we define a global group, and the work cell is kept empty.</span></span> <span data-ttu-id="8d177-114">该组的设置适用于所有无特定计划组的工作单元。</span><span class="sxs-lookup"><span data-stu-id="8d177-114">The settings of this group apply to all work cells that do not have specific schedule groups.</span></span>  
-4. <span data-ttu-id="8d177-115">在颜色选项中选择一种颜色。</span><span class="sxs-lookup"><span data-stu-id="8d177-115">Select a color from the color selection.</span></span>
-    * <span data-ttu-id="8d177-116">颜色用于凸显看板计划清单页或看板流程板上的作业。</span><span class="sxs-lookup"><span data-stu-id="8d177-116">The colors are used to highlight the jobs on the kanban schedule list page or the kanban process board.</span></span>  
-5. <span data-ttu-id="8d177-117">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="8d177-117">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="8d177-118">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="8d177-118">In the list, click the link in the selected row.</span></span>
+## <a name="define-lean-scheduling-group"></a><span data-ttu-id="65364-108">定义精益计划组</span><span class="sxs-lookup"><span data-stu-id="65364-108">Define lean scheduling group</span></span>
+1. <span data-ttu-id="65364-109">转到“产品信息管理”>“精益制造”>“精益计划组”。</span><span class="sxs-lookup"><span data-stu-id="65364-109">Go to Product information management > Lean manufacturing > Lean schedule groups.</span></span>
+2. <span data-ttu-id="65364-110">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="65364-110">Click New.</span></span>
+3. <span data-ttu-id="65364-111">在“计划组”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="65364-111">In the Schedule group field, type a value.</span></span>
+    * <span data-ttu-id="65364-112">计划组可以定义为全局组或工作单元的特定组。</span><span class="sxs-lookup"><span data-stu-id="65364-112">A schedule group can be defined as global group or specific to a work cell.</span></span> <span data-ttu-id="65364-113">在这个简单的例子中，我们定义了一个全局组且工作单元为空。</span><span class="sxs-lookup"><span data-stu-id="65364-113">In this simple example, we define a global group, and the work cell is kept empty.</span></span> <span data-ttu-id="65364-114">该组的设置适用于所有无特定计划组的工作单元。</span><span class="sxs-lookup"><span data-stu-id="65364-114">The settings of this group apply to all work cells that do not have specific schedule groups.</span></span>  
+4. <span data-ttu-id="65364-115">在颜色选项中选择一种颜色。</span><span class="sxs-lookup"><span data-stu-id="65364-115">Select a color from the color selection.</span></span>
+    * <span data-ttu-id="65364-116">颜色用于凸显看板计划清单页或看板流程板上的作业。</span><span class="sxs-lookup"><span data-stu-id="65364-116">The colors are used to highlight the jobs on the kanban schedule list page or the kanban process board.</span></span>  
+5. <span data-ttu-id="65364-117">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="65364-117">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="65364-118">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="65364-118">In the list, click the link in the selected row.</span></span>
 
-## <a name="associate-product"></a><span data-ttu-id="8d177-119">关联产品</span><span class="sxs-lookup"><span data-stu-id="8d177-119">Associate product</span></span>
-1. <span data-ttu-id="8d177-120">关联特定产品</span><span class="sxs-lookup"><span data-stu-id="8d177-120">Associate a specific product</span></span>
-    * <span data-ttu-id="8d177-121">可以采用两种方法将产品与精益计划组相关联：特定产品（物料关系类型 = 物料）或者物料分配参数（物料关系类型 = 组）。</span><span class="sxs-lookup"><span data-stu-id="8d177-121">There are two ways to associate products to lean schedule groups, either as a specific product (Item relation type = Item) or as part of an item allocation key (item relation type = group).</span></span>    
-2. <span data-ttu-id="8d177-122">在“物料关系类型”字段中，选择“物料”。</span><span class="sxs-lookup"><span data-stu-id="8d177-122">In the Item relation type field, select Item</span></span>
-3. <span data-ttu-id="8d177-123">在“项目编号”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="8d177-123">In the Item number field, type a value.</span></span>
-4. <span data-ttu-id="8d177-124">在“吞吐率”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="8d177-124">In the Throughput ratio field, enter a number.</span></span>
-    * <span data-ttu-id="8d177-125">默认吞吐率为 1，这意味着相关产品的资源消耗等于生产流的流程活动中指定的产能。</span><span class="sxs-lookup"><span data-stu-id="8d177-125">The default Throughput ratio is 1, which means that the related products consume exactly the capacity specified in the process activites of the production flows.</span></span> <span data-ttu-id="8d177-126">吞吐率 > 1 的定义是资源消耗高于产能，吞吐率 < 1 的定义是资源消耗低于产能。</span><span class="sxs-lookup"><span data-stu-id="8d177-126">Throughput ratio > 1 defines a higher resource consumption, Throughput ratio < 1 defines a lower resource consumption.</span></span> <span data-ttu-id="8d177-127">该比率用于成本计算以及看板作业消耗量的计算。</span><span class="sxs-lookup"><span data-stu-id="8d177-127">The ratio is used in the cost calculation and in the calculation of the kanban job consumption.</span></span>  
+## <a name="associate-product"></a><span data-ttu-id="65364-119">关联产品</span><span class="sxs-lookup"><span data-stu-id="65364-119">Associate product</span></span>
+1. <span data-ttu-id="65364-120">关联特定产品</span><span class="sxs-lookup"><span data-stu-id="65364-120">Associate a specific product</span></span>
+    * <span data-ttu-id="65364-121">可以采用两种方法将产品与精益计划组相关联：特定产品（物料关系类型 = 物料）或者物料分配参数（物料关系类型 = 组）。</span><span class="sxs-lookup"><span data-stu-id="65364-121">There are two ways to associate products to lean schedule groups, either as a specific product (Item relation type = Item) or as part of an item allocation key (item relation type = group).</span></span>    
+2. <span data-ttu-id="65364-122">在“物料关系类型”字段中，选择“物料”。</span><span class="sxs-lookup"><span data-stu-id="65364-122">In the Item relation type field, select Item</span></span>
+3. <span data-ttu-id="65364-123">在“项目编号”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="65364-123">In the Item number field, type a value.</span></span>
+4. <span data-ttu-id="65364-124">在“吞吐率”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="65364-124">In the Throughput ratio field, enter a number.</span></span>
+    * <span data-ttu-id="65364-125">默认吞吐率为 1，这意味着相关产品的资源消耗等于生产流的流程活动中指定的产能。</span><span class="sxs-lookup"><span data-stu-id="65364-125">The default Throughput ratio is 1, which means that the related products consume exactly the capacity specified in the process activites of the production flows.</span></span> <span data-ttu-id="65364-126">吞吐率 > 1 的定义是资源消耗高于产能，吞吐率 < 1 的定义是资源消耗低于产能。</span><span class="sxs-lookup"><span data-stu-id="65364-126">Throughput ratio > 1 defines a higher resource consumption, Throughput ratio < 1 defines a lower resource consumption.</span></span> <span data-ttu-id="65364-127">该比率用于成本计算以及看板作业消耗量的计算。</span><span class="sxs-lookup"><span data-stu-id="65364-127">The ratio is used in the cost calculation and in the calculation of the kanban job consumption.</span></span>  
 
-## <a name="associate-item-allocation-key"></a><span data-ttu-id="8d177-128">关联物料分配参数</span><span class="sxs-lookup"><span data-stu-id="8d177-128">Associate item allocation key</span></span>
-1. <span data-ttu-id="8d177-129">关联物料分配参数</span><span class="sxs-lookup"><span data-stu-id="8d177-129">Associate an item allocation key</span></span>
-    * <span data-ttu-id="8d177-130">使用“物料关系类型组”为物料分配参数添加关联。</span><span class="sxs-lookup"><span data-stu-id="8d177-130">Add an association to an item allocation key by using the Item relation type Group.</span></span>   <span data-ttu-id="8d177-131"> 请注意，该流程需要在您的数据中定义的预测物料分配参数。</span><span class="sxs-lookup"><span data-stu-id="8d177-131">Note that for this process, you need a forecast item alllocation key defined in your data.</span></span>  
-2. <span data-ttu-id="8d177-132">在“物料关系类型”字段中，选择“组”。</span><span class="sxs-lookup"><span data-stu-id="8d177-132">In the Item relation type field, select Group</span></span>
-3. <span data-ttu-id="8d177-133">在“物料分配参数”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="8d177-133">In the Item allocation key field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="8d177-134">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="8d177-134">In the list, click the link in the selected row.</span></span>
+## <a name="associate-item-allocation-key"></a><span data-ttu-id="65364-128">关联物料分配参数</span><span class="sxs-lookup"><span data-stu-id="65364-128">Associate item allocation key</span></span>
+1. <span data-ttu-id="65364-129">关联物料分配参数</span><span class="sxs-lookup"><span data-stu-id="65364-129">Associate an item allocation key</span></span>
+    * <span data-ttu-id="65364-130">使用“物料关系类型组”为物料分配参数添加关联。</span><span class="sxs-lookup"><span data-stu-id="65364-130">Add an association to an item allocation key by using the Item relation type Group.</span></span>   <span data-ttu-id="65364-131"> 请注意，该流程需要在您的数据中定义的预测物料分配参数。</span><span class="sxs-lookup"><span data-stu-id="65364-131">Note that for this process, you need a forecast item alllocation key defined in your data.</span></span>  
+2. <span data-ttu-id="65364-132">在“物料关系类型”字段中，选择“组”。</span><span class="sxs-lookup"><span data-stu-id="65364-132">In the Item relation type field, select Group</span></span>
+3. <span data-ttu-id="65364-133">在“物料分配参数”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="65364-133">In the Item allocation key field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="65364-134">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="65364-134">In the list, click the link in the selected row.</span></span>
 
