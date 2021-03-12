@@ -10,41 +10,40 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7be50eba098b7b28594c8e18c721579f4bb2e879
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c51c77f4b9f411ae45fb955032aa40cb34738e9a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410538"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964762"
 ---
-# <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a><span data-ttu-id="e7001-103">创建 POS 收银机的财务维度并配置收银机上的维度值</span><span class="sxs-lookup"><span data-stu-id="e7001-103">Create financial dimensions for POS registers and configure dimension values on registers</span></span>
+# <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a><span data-ttu-id="92a50-103">创建 POS 收银机的财务维度并配置收银机上的维度值</span><span class="sxs-lookup"><span data-stu-id="92a50-103">Create financial dimensions for POS registers and configure dimension values on registers</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e7001-104">此程序会逐步演示如何创建销售点 (POS) 收银机的财务维度，以及演示如何配置收银机的财务维度值。</span><span class="sxs-lookup"><span data-stu-id="e7001-104">This procedure walks through creating financial dimensions for point of sale (POS) registers, and demonstrates how to configure financial dimension values on registers.</span></span> <span data-ttu-id="e7001-105">此程序不包括其他相关步骤，例如创建维度集和科目结构。</span><span class="sxs-lookup"><span data-stu-id="e7001-105">This procedure doesn't include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="e7001-106">这些任务可在其他主题中找到。</span><span class="sxs-lookup"><span data-stu-id="e7001-106">Those tasks can be found in other topics.</span></span> <span data-ttu-id="e7001-107">此记录使用 USRT 演示公司。</span><span class="sxs-lookup"><span data-stu-id="e7001-107">This recording uses USRT demo company.</span></span>
+<span data-ttu-id="92a50-104">此程序会逐步演示如何创建销售点 (POS) 收银机的财务维度，以及演示如何配置收银机的财务维度值。</span><span class="sxs-lookup"><span data-stu-id="92a50-104">This procedure walks through creating financial dimensions for point of sale (POS) registers, and demonstrates how to configure financial dimension values on registers.</span></span> <span data-ttu-id="92a50-105">此程序不包括其他相关步骤，例如创建维度集和科目结构。</span><span class="sxs-lookup"><span data-stu-id="92a50-105">This procedure doesn't include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="92a50-106">这些任务可在其他主题中找到。</span><span class="sxs-lookup"><span data-stu-id="92a50-106">Those tasks can be found in other topics.</span></span> <span data-ttu-id="92a50-107">此记录使用 USRT 演示公司。</span><span class="sxs-lookup"><span data-stu-id="92a50-107">This recording uses USRT demo company.</span></span>
 
-1. <span data-ttu-id="e7001-108">转到“总帐”>“会计科目表”>“维度”>“财务维度”。</span><span class="sxs-lookup"><span data-stu-id="e7001-108">Go to General ledger > Chart of accounts > Dimensions > Financial dimensions.</span></span>
-2. <span data-ttu-id="e7001-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="e7001-109">Click New.</span></span>
-3. <span data-ttu-id="e7001-110">在“使用以下来源中的值”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="e7001-110">In the Use values from field, select an option.</span></span>
-4. <span data-ttu-id="e7001-111">在“维度名称”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="e7001-111">In the Dimension name field, type a value.</span></span>
-5. <span data-ttu-id="e7001-112">单击“启用”。</span><span class="sxs-lookup"><span data-stu-id="e7001-112">Click Activate.</span></span>
-6. <span data-ttu-id="e7001-113">单击“关闭”。</span><span class="sxs-lookup"><span data-stu-id="e7001-113">Click Close.</span></span>
-7. <span data-ttu-id="e7001-114">单击“启用”。</span><span class="sxs-lookup"><span data-stu-id="e7001-114">Click Activate.</span></span>
-8. <span data-ttu-id="e7001-115">单击“维度值”。</span><span class="sxs-lookup"><span data-stu-id="e7001-115">Click Dimension values.</span></span>
-9. <span data-ttu-id="e7001-116">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="e7001-116">Close the page.</span></span>
-10. <span data-ttu-id="e7001-117">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="e7001-117">Click Save.</span></span>
-11. <span data-ttu-id="e7001-118">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="e7001-118">Close the page.</span></span>
-12. <span data-ttu-id="e7001-119">转至“Retail 和 Commerce”>“渠道设置”>“POS 设置”>“收银机”。</span><span class="sxs-lookup"><span data-stu-id="e7001-119">Go to Retail and Commerce > Channel setup > POS setup > Registers.</span></span>
-13. <span data-ttu-id="e7001-120">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="e7001-120">In the list, find and select the desired record.</span></span>
-14. <span data-ttu-id="e7001-121">切换“财务维度”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="e7001-121">Toggle the expansion of the Financial dimensions section.</span></span>
-15. <span data-ttu-id="e7001-122">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="e7001-122">Click Edit.</span></span>
-16. <span data-ttu-id="e7001-123">在“终端”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="e7001-123">In the Terminal field, click the drop-down button to open the lookup.</span></span>
-17. <span data-ttu-id="e7001-124">在列表中，查找并选择正在更新的收银机的维度值。</span><span class="sxs-lookup"><span data-stu-id="e7001-124">In the list, find and select the dimension value for the register being updated.</span></span>
-18. <span data-ttu-id="e7001-125">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="e7001-125">Click Save.</span></span>
+1. <span data-ttu-id="92a50-108">转到“总帐”>“会计科目表”>“维度”>“财务维度”。</span><span class="sxs-lookup"><span data-stu-id="92a50-108">Go to General ledger > Chart of accounts > Dimensions > Financial dimensions.</span></span>
+2. <span data-ttu-id="92a50-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="92a50-109">Click New.</span></span>
+3. <span data-ttu-id="92a50-110">在“使用以下来源中的值”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="92a50-110">In the Use values from field, select an option.</span></span>
+4. <span data-ttu-id="92a50-111">在“维度名称”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="92a50-111">In the Dimension name field, type a value.</span></span>
+5. <span data-ttu-id="92a50-112">单击“启用”。</span><span class="sxs-lookup"><span data-stu-id="92a50-112">Click Activate.</span></span>
+6. <span data-ttu-id="92a50-113">单击“关闭”。</span><span class="sxs-lookup"><span data-stu-id="92a50-113">Click Close.</span></span>
+7. <span data-ttu-id="92a50-114">单击“启用”。</span><span class="sxs-lookup"><span data-stu-id="92a50-114">Click Activate.</span></span>
+8. <span data-ttu-id="92a50-115">单击“维度值”。</span><span class="sxs-lookup"><span data-stu-id="92a50-115">Click Dimension values.</span></span>
+9. <span data-ttu-id="92a50-116">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="92a50-116">Close the page.</span></span>
+10. <span data-ttu-id="92a50-117">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="92a50-117">Click Save.</span></span>
+11. <span data-ttu-id="92a50-118">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="92a50-118">Close the page.</span></span>
+12. <span data-ttu-id="92a50-119">转至“Retail 和 Commerce”>“渠道设置”>“POS 设置”>“收银机”。</span><span class="sxs-lookup"><span data-stu-id="92a50-119">Go to Retail and Commerce > Channel setup > POS setup > Registers.</span></span>
+13. <span data-ttu-id="92a50-120">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="92a50-120">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="92a50-121">切换“财务维度”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="92a50-121">Toggle the expansion of the Financial dimensions section.</span></span>
+15. <span data-ttu-id="92a50-122">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="92a50-122">Click Edit.</span></span>
+16. <span data-ttu-id="92a50-123">在“终端”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="92a50-123">In the Terminal field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="92a50-124">在列表中，查找并选择正在更新的收银机的维度值。</span><span class="sxs-lookup"><span data-stu-id="92a50-124">In the list, find and select the dimension value for the register being updated.</span></span>
+18. <span data-ttu-id="92a50-125">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="92a50-125">Click Save.</span></span>
 

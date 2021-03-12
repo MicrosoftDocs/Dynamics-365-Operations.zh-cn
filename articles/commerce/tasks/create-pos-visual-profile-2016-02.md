@@ -10,41 +10,40 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b265a94c6d8f9e2534e1509e4f33c6f8a05eded0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3e1604c12a52e85a73060c6c25e71026fe9ccc18
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410533"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964712"
 ---
-# <a name="create-point-of-sale-pos-visual-profiles"></a><span data-ttu-id="d8e14-103">创建销售点 (POS) 可视化配置文件</span><span class="sxs-lookup"><span data-stu-id="d8e14-103">Create point of sale (POS) visual profiles</span></span>
+# <a name="create-point-of-sale-pos-visual-profiles"></a><span data-ttu-id="911ba-103">创建销售点 (POS) 可视化配置文件</span><span class="sxs-lookup"><span data-stu-id="911ba-103">Create point of sale (POS) visual profiles</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d8e14-104">此程序会逐步演示如何创建新的销售点 (POS) 可视化配置文件。</span><span class="sxs-lookup"><span data-stu-id="d8e14-104">This procedure walks through creating a new point of sale (POS) visual profile.</span></span> <span data-ttu-id="d8e14-105">可视化配置文件包含可以确定 POS 收银机外观的基本信息。</span><span class="sxs-lookup"><span data-stu-id="d8e14-105">A visual profile contains basic information that determines the appearance of POS registers.</span></span> <span data-ttu-id="d8e14-106">您可以创建多个可视化配置文件，并分配特定配置文件以在注册机上运行。</span><span class="sxs-lookup"><span data-stu-id="d8e14-106">You can create several visual profiles and assign specific profiles to run on specific registers.</span></span> <span data-ttu-id="d8e14-107">此程序使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="d8e14-107">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="911ba-104">此程序会逐步演示如何创建新的销售点 (POS) 可视化配置文件。</span><span class="sxs-lookup"><span data-stu-id="911ba-104">This procedure walks through creating a new point of sale (POS) visual profile.</span></span> <span data-ttu-id="911ba-105">可视化配置文件包含可以确定 POS 收银机外观的基本信息。</span><span class="sxs-lookup"><span data-stu-id="911ba-105">A visual profile contains basic information that determines the appearance of POS registers.</span></span> <span data-ttu-id="911ba-106">您可以创建多个可视化配置文件，并分配特定配置文件以在注册机上运行。</span><span class="sxs-lookup"><span data-stu-id="911ba-106">You can create several visual profiles and assign specific profiles to run on specific registers.</span></span> <span data-ttu-id="911ba-107">此程序使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="911ba-107">This procedure uses the USRT demo data company.</span></span>
 
-1. <span data-ttu-id="d8e14-108">转至“Retail 和 Commerce”>“渠道设置”>“POS 设置”>“POS 配置文件”>“可视化配置文件”。</span><span class="sxs-lookup"><span data-stu-id="d8e14-108">Go to Retail and Commerce > Channel setup > POS setup > POS profiles > Visual profiles.</span></span>
-2. <span data-ttu-id="d8e14-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="d8e14-109">Click New.</span></span>
-3. <span data-ttu-id="d8e14-110">在“配置文件编号”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="d8e14-110">In the Profile number field, type a value.</span></span>
-4. <span data-ttu-id="d8e14-111">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="d8e14-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="d8e14-112">在“应用程序类型”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="d8e14-112">In the Application type field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="d8e14-113">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="d8e14-113">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="d8e14-114">在“主题”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="d8e14-114">In the Theme field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="d8e14-115">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="d8e14-115">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="d8e14-116">在“个性色”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="d8e14-116">In the Accent color field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="d8e14-117">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="d8e14-117">In the list, find and select the desired record.</span></span>
-11. <span data-ttu-id="d8e14-118">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="d8e14-118">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="d8e14-119">切换“登录背景”部分的扩展项。</span><span class="sxs-lookup"><span data-stu-id="d8e14-119">Toggle the expansion of the Login background section.</span></span>
-13. <span data-ttu-id="d8e14-120">在“横向图像 ID”字段中，选择或输入图像 ID。</span><span class="sxs-lookup"><span data-stu-id="d8e14-120">In the Landscape image ID field, select or enter an image ID.</span></span>
-14. <span data-ttu-id="d8e14-121">在“纵向图像 ID”字段中，选择或输入图像 ID。</span><span class="sxs-lookup"><span data-stu-id="d8e14-121">In the Portrait image ID field, select or enter an image ID.</span></span>
-15. <span data-ttu-id="d8e14-122">切换“背景”部分的扩展项。</span><span class="sxs-lookup"><span data-stu-id="d8e14-122">Toggle the expansion of the Background section.</span></span>
-16. <span data-ttu-id="d8e14-123">要求弹出图像 ID。</span><span class="sxs-lookup"><span data-stu-id="d8e14-123">RequestPopup the Image ID.</span></span>
-17. <span data-ttu-id="d8e14-124">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="d8e14-124">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="d8e14-125">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="d8e14-125">Click Save.</span></span>
+1. <span data-ttu-id="911ba-108">转至“Retail 和 Commerce”>“渠道设置”>“POS 设置”>“POS 配置文件”>“可视化配置文件”。</span><span class="sxs-lookup"><span data-stu-id="911ba-108">Go to Retail and Commerce > Channel setup > POS setup > POS profiles > Visual profiles.</span></span>
+2. <span data-ttu-id="911ba-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="911ba-109">Click New.</span></span>
+3. <span data-ttu-id="911ba-110">在“配置文件编号”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="911ba-110">In the Profile number field, type a value.</span></span>
+4. <span data-ttu-id="911ba-111">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="911ba-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="911ba-112">在“应用程序类型”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="911ba-112">In the Application type field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="911ba-113">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="911ba-113">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="911ba-114">在“主题”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="911ba-114">In the Theme field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="911ba-115">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="911ba-115">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="911ba-116">在“个性色”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="911ba-116">In the Accent color field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="911ba-117">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="911ba-117">In the list, find and select the desired record.</span></span>
+11. <span data-ttu-id="911ba-118">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="911ba-118">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="911ba-119">切换“登录背景”部分的扩展项。</span><span class="sxs-lookup"><span data-stu-id="911ba-119">Toggle the expansion of the Login background section.</span></span>
+13. <span data-ttu-id="911ba-120">在“横向图像 ID”字段中，选择或输入图像 ID。</span><span class="sxs-lookup"><span data-stu-id="911ba-120">In the Landscape image ID field, select or enter an image ID.</span></span>
+14. <span data-ttu-id="911ba-121">在“纵向图像 ID”字段中，选择或输入图像 ID。</span><span class="sxs-lookup"><span data-stu-id="911ba-121">In the Portrait image ID field, select or enter an image ID.</span></span>
+15. <span data-ttu-id="911ba-122">切换“背景”部分的扩展项。</span><span class="sxs-lookup"><span data-stu-id="911ba-122">Toggle the expansion of the Background section.</span></span>
+16. <span data-ttu-id="911ba-123">要求弹出图像 ID。</span><span class="sxs-lookup"><span data-stu-id="911ba-123">RequestPopup the Image ID.</span></span>
+17. <span data-ttu-id="911ba-124">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="911ba-124">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="911ba-125">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="911ba-125">Click Save.</span></span>
 

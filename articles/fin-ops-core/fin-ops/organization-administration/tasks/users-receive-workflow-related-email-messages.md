@@ -15,29 +15,29 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5b7a953ea54286a7e48b392728d2cc9bb2902072
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 221e38cbe31e2ad24a56cb2e71206a1ebcdd619e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692810"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798996"
 ---
-# <a name="enable-users-to-receive-workflow-related-email-messages"></a><span data-ttu-id="50acb-103">使得用户能够接收工作流相关的电子邮件消息</span><span class="sxs-lookup"><span data-stu-id="50acb-103">Enable users to receive workflow-related email messages</span></span>
+# <a name="enable-users-to-receive-workflow-related-email-messages"></a><span data-ttu-id="32442-103">使得用户能够接收工作流相关的电子邮件消息</span><span class="sxs-lookup"><span data-stu-id="32442-103">Enable users to receive workflow-related email messages</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="50acb-104">在工作流相关事件发生时，您可以配置系统将电子邮件消息发送给用户。</span><span class="sxs-lookup"><span data-stu-id="50acb-104">You can configure the system to send email messages to users when workflow-related events occur.</span></span> <span data-ttu-id="50acb-105">例如，当分配文档供审核时，可以将电子邮件消息发送给用户。</span><span class="sxs-lookup"><span data-stu-id="50acb-105">For example, email messages can be sent to users when documents are assigned to them for approval.</span></span> <span data-ttu-id="50acb-106">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="50acb-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="32442-104">在工作流相关事件发生时，您可以配置系统将电子邮件消息发送给用户。</span><span class="sxs-lookup"><span data-stu-id="32442-104">You can configure the system to send email messages to users when workflow-related events occur.</span></span> <span data-ttu-id="32442-105">例如，当分配文档供审核时，可以将电子邮件消息发送给用户。</span><span class="sxs-lookup"><span data-stu-id="32442-105">For example, email messages can be sent to users when documents are assigned to them for approval.</span></span> <span data-ttu-id="32442-106">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="32442-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="50acb-107">转到 **导航窗格 > 模块 > 系统管理 > 用户 > 用户**。</span><span class="sxs-lookup"><span data-stu-id="50acb-107">Go to **Navigation pane > Modules > System administration > Users > Users**.</span></span>
-2. <span data-ttu-id="50acb-108">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="50acb-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="50acb-109">在 **操作窗格** 上，单击 **用户选项**。</span><span class="sxs-lookup"><span data-stu-id="50acb-109">On the **Action pane**, click **User options**.</span></span>
-4. <span data-ttu-id="50acb-110">单击 **工作流** 选项卡。确保展开 **通知** 部分。</span><span class="sxs-lookup"><span data-stu-id="50acb-110">Click the **Workflow** tab. Make sure that the **Notifications** section is expanded.</span></span> <span data-ttu-id="50acb-111">在 **通知** 部分中，可以指定您希望程序如何通知用户有关工作流相关事件。</span><span class="sxs-lookup"><span data-stu-id="50acb-111">In the **Notifications** section, you can specify how you want the user to be notified about workflow-related events.</span></span>  
-5. <span data-ttu-id="50acb-112">在 **行项工作流通知类型** 字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="50acb-112">In the **Line-item workflow notification type** field, select an option.</span></span>
-    - <span data-ttu-id="50acb-113">分组 – 行项的通知分组到单个电子邮件消息中。</span><span class="sxs-lookup"><span data-stu-id="50acb-113">Grouped – Notifications for line items are grouped into a single email message.</span></span>
-    - <span data-ttu-id="50acb-114">单独 – 针对每个行项发送电子邮件消息。</span><span class="sxs-lookup"><span data-stu-id="50acb-114">Individual – An email message is sent for each line item.</span></span>  
-    - <span data-ttu-id="50acb-115">如果您希望用户在客户端中接收通知，则选中 **以电子邮件形式发送通知** 复选框。</span><span class="sxs-lookup"><span data-stu-id="50acb-115">If you want the user to receive notifications in the client, select the **Send notifications in email** check box.</span></span>  
-6. <span data-ttu-id="50acb-116">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="50acb-116">Click **Save**.</span></span>
-7. <span data-ttu-id="50acb-117">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="50acb-117">Close the page.</span></span>
+1. <span data-ttu-id="32442-107">转到 **导航窗格 > 模块 > 系统管理 > 用户 > 用户**。</span><span class="sxs-lookup"><span data-stu-id="32442-107">Go to **Navigation pane > Modules > System administration > Users > Users**.</span></span>
+2. <span data-ttu-id="32442-108">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="32442-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="32442-109">在 **操作窗格** 上，单击 **用户选项**。</span><span class="sxs-lookup"><span data-stu-id="32442-109">On the **Action pane**, click **User options**.</span></span>
+4. <span data-ttu-id="32442-110">单击 **工作流** 选项卡。确保展开 **通知** 部分。</span><span class="sxs-lookup"><span data-stu-id="32442-110">Click the **Workflow** tab. Make sure that the **Notifications** section is expanded.</span></span> <span data-ttu-id="32442-111">在 **通知** 部分中，可以指定您希望程序如何通知用户有关工作流相关事件。</span><span class="sxs-lookup"><span data-stu-id="32442-111">In the **Notifications** section, you can specify how you want the user to be notified about workflow-related events.</span></span>  
+5. <span data-ttu-id="32442-112">在 **行项工作流通知类型** 字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="32442-112">In the **Line-item workflow notification type** field, select an option.</span></span>
+    - <span data-ttu-id="32442-113">分组 – 行项的通知分组到单个电子邮件消息中。</span><span class="sxs-lookup"><span data-stu-id="32442-113">Grouped – Notifications for line items are grouped into a single email message.</span></span>
+    - <span data-ttu-id="32442-114">单独 – 针对每个行项发送电子邮件消息。</span><span class="sxs-lookup"><span data-stu-id="32442-114">Individual – An email message is sent for each line item.</span></span>  
+    - <span data-ttu-id="32442-115">如果您希望用户在客户端中接收通知，则选中 **以电子邮件形式发送通知** 复选框。</span><span class="sxs-lookup"><span data-stu-id="32442-115">If you want the user to receive notifications in the client, select the **Send notifications in email** check box.</span></span>  
+6. <span data-ttu-id="32442-116">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="32442-116">Click **Save**.</span></span>
+7. <span data-ttu-id="32442-117">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="32442-117">Close the page.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="50acb-118">工作流电子邮件模板源自系统电子邮件模板或组织电子邮件模板，具体取决于工作流是系统级（不是公司特定）还是组织级（公司特定）工作流。</span><span class="sxs-lookup"><span data-stu-id="50acb-118">The workflow email templates will be sourced from either system email templates or organization email templates depending on whether the workflow is a system-level (not company specific) or organization-level (company specific) workflow.</span></span>
+> <span data-ttu-id="32442-118">工作流电子邮件模板源自系统电子邮件模板或组织电子邮件模板，具体取决于工作流是系统级（不是公司特定）还是组织级（公司特定）工作流。</span><span class="sxs-lookup"><span data-stu-id="32442-118">The workflow email templates will be sourced from either system email templates or organization email templates depending on whether the workflow is a system-level (not company specific) or organization-level (company specific) workflow.</span></span>
