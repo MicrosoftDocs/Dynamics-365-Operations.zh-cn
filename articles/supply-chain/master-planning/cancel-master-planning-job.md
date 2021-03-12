@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace, ReqProcessList
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,37 +18,37 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6f5ce460cc2915d1d4d9b5699723a62ed7f94599
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 40d657a02df0cba66918a6853ec62621501cfdfe
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423247"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989785"
 ---
-# <a name="cancel-a-master-planning-job"></a><span data-ttu-id="3206c-103">取消主计划作业</span><span class="sxs-lookup"><span data-stu-id="3206c-103">Cancel a master planning job</span></span>
+# <a name="cancel-a-master-planning-job"></a><span data-ttu-id="e9498-103">取消主计划作业</span><span class="sxs-lookup"><span data-stu-id="e9498-103">Cancel a master planning job</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="3206c-104">在 Microsoft Dynamics 365 Supply Chain Management 中，有多个选项可用于取消主计划作业。</span><span class="sxs-lookup"><span data-stu-id="3206c-104">In Microsoft Dynamics 365 Supply Chain Management, there are multiple options for canceling a master planning job.</span></span> <span data-ttu-id="3206c-105">例如，如果主计划作业是被错误开始的或运行时间比预期长，您想要结束它，您可能希望取消主计划作业。</span><span class="sxs-lookup"><span data-stu-id="3206c-105">For example, you may want to cancel a master planning job if it was started by mistake or is running longer than expected and you want to end it.</span></span> <span data-ttu-id="3206c-106">取消计划作业的最佳方法是从 **未完成的计划流程** 页进行。</span><span class="sxs-lookup"><span data-stu-id="3206c-106">The best way to cancel a planning job is from  the **Unfinished planning processes** page.</span></span> <span data-ttu-id="3206c-107">只有未在几分钟内完成从 **未完成的计划流程** 页取消主计划作业时，才应使用 **批处理作业** 和 **增强的批处理作业** 页面的替代选项。</span><span class="sxs-lookup"><span data-stu-id="3206c-107">Alternative options from the **Batch jobs** and **Batch jobs enhanced** pages should only be used if canceling the master planning job from the **Unfinished planning processes** page did not complete within a few minutes.</span></span>
+<span data-ttu-id="e9498-104">在 Microsoft Dynamics 365 Supply Chain Management 中，有多个选项可用于取消主计划作业。</span><span class="sxs-lookup"><span data-stu-id="e9498-104">In Microsoft Dynamics 365 Supply Chain Management, there are multiple options for canceling a master planning job.</span></span> <span data-ttu-id="e9498-105">例如，如果主计划作业是被错误开始的或运行时间比预期长，您想要结束它，您可能希望取消主计划作业。</span><span class="sxs-lookup"><span data-stu-id="e9498-105">For example, you may want to cancel a master planning job if it was started by mistake or is running longer than expected and you want to end it.</span></span> <span data-ttu-id="e9498-106">取消计划作业的最佳方法是从 **未完成的计划流程** 页进行。</span><span class="sxs-lookup"><span data-stu-id="e9498-106">The best way to cancel a planning job is from  the **Unfinished planning processes** page.</span></span> <span data-ttu-id="e9498-107">只有未在几分钟内完成从 **未完成的计划流程** 页取消主计划作业时，才应使用 **批处理作业** 和 **增强的批处理作业** 页面的替代选项。</span><span class="sxs-lookup"><span data-stu-id="e9498-107">Alternative options from the **Batch jobs** and **Batch jobs enhanced** pages should only be used if canceling the master planning job from the **Unfinished planning processes** page did not complete within a few minutes.</span></span>
 
-## <a name="preferred-cancel-option"></a><span data-ttu-id="3206c-108">首选取消选项</span><span class="sxs-lookup"><span data-stu-id="3206c-108">Preferred cancel option</span></span>
-### <a name="cancel-master-planning-job-from-unfinished-planning-processes-page"></a><span data-ttu-id="3206c-109">从 **未完成的计划流程** 页取消主计划作业</span><span class="sxs-lookup"><span data-stu-id="3206c-109">Cancel master planning job from **Unfinished planning processes** page</span></span>
-1. <span data-ttu-id="3206c-110">转到 **主计划 > 查询和报表 > 主计划 > 未完成的计划流程**。</span><span class="sxs-lookup"><span data-stu-id="3206c-110">Go to **Master planning > Inquiries and reports > Master planning > Unfinished planning processes**.</span></span>
-2. <span data-ttu-id="3206c-111">选择具有您要取消的计划流程的行。</span><span class="sxs-lookup"><span data-stu-id="3206c-111">Select the line with the planning process that you want to cancel.</span></span>
-3. <span data-ttu-id="3206c-112">单击 **取消**。</span><span class="sxs-lookup"><span data-stu-id="3206c-112">Click **Cancel**.</span></span>
+## <a name="preferred-cancel-option"></a><span data-ttu-id="e9498-108">首选取消选项</span><span class="sxs-lookup"><span data-stu-id="e9498-108">Preferred cancel option</span></span>
+### <a name="cancel-master-planning-job-from-unfinished-planning-processes-page"></a><span data-ttu-id="e9498-109">从 **未完成的计划流程** 页取消主计划作业</span><span class="sxs-lookup"><span data-stu-id="e9498-109">Cancel master planning job from **Unfinished planning processes** page</span></span>
+1. <span data-ttu-id="e9498-110">转到 **主计划 > 查询和报表 > 主计划 > 未完成的计划流程**。</span><span class="sxs-lookup"><span data-stu-id="e9498-110">Go to **Master planning > Inquiries and reports > Master planning > Unfinished planning processes**.</span></span>
+2. <span data-ttu-id="e9498-111">选择具有您要取消的计划流程的行。</span><span class="sxs-lookup"><span data-stu-id="e9498-111">Select the line with the planning process that you want to cancel.</span></span>
+3. <span data-ttu-id="e9498-112">单击 **取消**。</span><span class="sxs-lookup"><span data-stu-id="e9498-112">Click **Cancel**.</span></span>
 
-## <a name="additional-cancel-options"></a><span data-ttu-id="3206c-113">其他取消选项</span><span class="sxs-lookup"><span data-stu-id="3206c-113">Additional cancel options</span></span>
-<span data-ttu-id="3206c-114">仅当未在几分钟内从 **未完成的计划流程** 页取消主计划作业时，才应使用这些选项。</span><span class="sxs-lookup"><span data-stu-id="3206c-114">These should only be used if canceling the master planning job from the **Unfinished planning processes** page did not complete within a few minutes.</span></span>
+## <a name="additional-cancel-options"></a><span data-ttu-id="e9498-113">其他取消选项</span><span class="sxs-lookup"><span data-stu-id="e9498-113">Additional cancel options</span></span>
+<span data-ttu-id="e9498-114">仅当未在几分钟内从 **未完成的计划流程** 页取消主计划作业时，才应使用这些选项。</span><span class="sxs-lookup"><span data-stu-id="e9498-114">These should only be used if canceling the master planning job from the **Unfinished planning processes** page did not complete within a few minutes.</span></span>
 
-### <a name="delete-master-planning-job-from-the-batch-jobs-page"></a><span data-ttu-id="3206c-115">从 **批处理作业** 页删除主计划作业</span><span class="sxs-lookup"><span data-stu-id="3206c-115">Delete master planning job from the **Batch jobs** page</span></span>
-1. <span data-ttu-id="3206c-116">转到 **系统管理 > 查询 > 批处理作业**。</span><span class="sxs-lookup"><span data-stu-id="3206c-116">Go to **System administration > Inquiries > Batch jobs**.</span></span>
-2. <span data-ttu-id="3206c-117">选择具有您要删除的计划作业的行。</span><span class="sxs-lookup"><span data-stu-id="3206c-117">Select the line with the planning job that you want to delete.</span></span>
-3. <span data-ttu-id="3206c-118">单击 **删除**。</span><span class="sxs-lookup"><span data-stu-id="3206c-118">Click **Delete**.</span></span>
+### <a name="delete-master-planning-job-from-the-batch-jobs-page"></a><span data-ttu-id="e9498-115">从 **批处理作业** 页删除主计划作业</span><span class="sxs-lookup"><span data-stu-id="e9498-115">Delete master planning job from the **Batch jobs** page</span></span>
+1. <span data-ttu-id="e9498-116">转到 **系统管理 > 查询 > 批处理作业**。</span><span class="sxs-lookup"><span data-stu-id="e9498-116">Go to **System administration > Inquiries > Batch jobs**.</span></span>
+2. <span data-ttu-id="e9498-117">选择具有您要删除的计划作业的行。</span><span class="sxs-lookup"><span data-stu-id="e9498-117">Select the line with the planning job that you want to delete.</span></span>
+3. <span data-ttu-id="e9498-118">单击 **删除**。</span><span class="sxs-lookup"><span data-stu-id="e9498-118">Click **Delete**.</span></span>
 
-### <a name="abort-master-planning-job-task-from-the-batch-jobs-enhanced-page"></a><span data-ttu-id="3206c-119">从 **增强的批处理作业** 页中止主计划作业任务</span><span class="sxs-lookup"><span data-stu-id="3206c-119">Abort master planning job task from the **Batch jobs enhanced** page</span></span>
-1. <span data-ttu-id="3206c-120">转到 **系统管理 > 查询 > 批处理作业**。</span><span class="sxs-lookup"><span data-stu-id="3206c-120">Go to **System administration > Inquiries > Batch jobs**.</span></span>
-2. <span data-ttu-id="3206c-121">如果作业 ID 未显示在列表中，请单击 **切换到增强窗体**，或继续下一步。</span><span class="sxs-lookup"><span data-stu-id="3206c-121">If the job ID is not shown in the list, click **Switch to enhanced form**, otherwise proceed with the next step.</span></span>
-3. <span data-ttu-id="3206c-122">打开批处理作业。</span><span class="sxs-lookup"><span data-stu-id="3206c-122">Open the batch job.</span></span> <span data-ttu-id="3206c-123">单击具有您要结束的任务的批处理作业的 **作业 ID**。</span><span class="sxs-lookup"><span data-stu-id="3206c-123">Click the **Job ID** for the batch job with tasks that you want to end.</span></span>
-4. <span data-ttu-id="3206c-124">在 **批处理任务** 中，选择要结束的任务。</span><span class="sxs-lookup"><span data-stu-id="3206c-124">In **Batch tasks**, select the tasks to end.</span></span>
-5. <span data-ttu-id="3206c-125">单击 **更改状态**，选择 **取消**，然后单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="3206c-125">Click **Change status**, choose **Canceling** and click **OK**.</span></span>
-6. <span data-ttu-id="3206c-126">在 **批处理任务** 快速选项卡中，单击 **中止**。</span><span class="sxs-lookup"><span data-stu-id="3206c-126">On the **Batch tasks** FastTab, click **Abort**.</span></span>
+### <a name="abort-master-planning-job-task-from-the-batch-jobs-enhanced-page"></a><span data-ttu-id="e9498-119">从 **增强的批处理作业** 页中止主计划作业任务</span><span class="sxs-lookup"><span data-stu-id="e9498-119">Abort master planning job task from the **Batch jobs enhanced** page</span></span>
+1. <span data-ttu-id="e9498-120">转到 **系统管理 > 查询 > 批处理作业**。</span><span class="sxs-lookup"><span data-stu-id="e9498-120">Go to **System administration > Inquiries > Batch jobs**.</span></span>
+2. <span data-ttu-id="e9498-121">如果作业 ID 未显示在列表中，请单击 **切换到增强窗体**，或继续下一步。</span><span class="sxs-lookup"><span data-stu-id="e9498-121">If the job ID is not shown in the list, click **Switch to enhanced form**, otherwise proceed with the next step.</span></span>
+3. <span data-ttu-id="e9498-122">打开批处理作业。</span><span class="sxs-lookup"><span data-stu-id="e9498-122">Open the batch job.</span></span> <span data-ttu-id="e9498-123">单击具有您要结束的任务的批处理作业的 **作业 ID**。</span><span class="sxs-lookup"><span data-stu-id="e9498-123">Click the **Job ID** for the batch job with tasks that you want to end.</span></span>
+4. <span data-ttu-id="e9498-124">在 **批处理任务** 中，选择要结束的任务。</span><span class="sxs-lookup"><span data-stu-id="e9498-124">In **Batch tasks**, select the tasks to end.</span></span>
+5. <span data-ttu-id="e9498-125">单击 **更改状态**，选择 **取消**，然后单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="e9498-125">Click **Change status**, choose **Canceling** and click **OK**.</span></span>
+6. <span data-ttu-id="e9498-126">在 **批处理任务** 快速选项卡中，单击 **中止**。</span><span class="sxs-lookup"><span data-stu-id="e9498-126">On the **Batch tasks** FastTab, click **Abort**.</span></span>
