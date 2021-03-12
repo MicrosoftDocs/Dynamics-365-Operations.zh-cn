@@ -11,55 +11,54 @@ ms.technology: ''
 ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 09666e95cc90913f1bf8555b9ff2c48aa55369ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f07fee1787cc2719bafbe2bb6d54849edda14018
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423263"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000026"
 ---
-# <a name="create-a-new-warehouse-layout"></a><span data-ttu-id="05aa7-103">创建新仓库布局</span><span class="sxs-lookup"><span data-stu-id="05aa7-103">Create a new warehouse layout</span></span>
+# <a name="create-a-new-warehouse-layout"></a><span data-ttu-id="f1c1e-103">创建新仓库布局</span><span class="sxs-lookup"><span data-stu-id="f1c1e-103">Create a new warehouse layout</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="05aa7-104">此主题描述如何在仓库中设置有关库位的信息。</span><span class="sxs-lookup"><span data-stu-id="05aa7-104">This topic describes how to set up information about the locations in a warehouse.</span></span> <span data-ttu-id="05aa7-105">此程序仅适用于仓库中“库存管理模块”的“基本仓储”，不适用于“仓库管理模块”。</span><span class="sxs-lookup"><span data-stu-id="05aa7-105">This applies only to warehouses created using "basic warehousing" in the Inventory management module, not to warehouses created in the Warehouse management module.</span></span> <span data-ttu-id="05aa7-106">您可以使用演示数据公司 USMF 或您自己的数据使用该程序。</span><span class="sxs-lookup"><span data-stu-id="05aa7-106">You can use this procedure in demo data company USMF, or on your own data.</span></span>
+<span data-ttu-id="f1c1e-104">此主题描述如何在仓库中设置有关库位的信息。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-104">This topic describes how to set up information about the locations in a warehouse.</span></span> <span data-ttu-id="f1c1e-105">此程序仅适用于仓库中“库存管理模块”的“基本仓储”，不适用于“仓库管理模块”。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-105">This applies only to warehouses created using "basic warehousing" in the Inventory management module, not to warehouses created in the Warehouse management module.</span></span> <span data-ttu-id="f1c1e-106">您可以使用演示数据公司 USMF 或您自己的数据使用该程序。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-106">You can use this procedure in demo data company USMF, or on your own data.</span></span>
 
 
-## <a name="set-the-default-location-capacity"></a><span data-ttu-id="05aa7-107">设置默认库位容量</span><span class="sxs-lookup"><span data-stu-id="05aa7-107">Set the default location capacity</span></span>
-1. <span data-ttu-id="05aa7-108">在导航窗格中，转到 **模块 > 库存管理 > 设置 > 库存和仓库管理参数**。</span><span class="sxs-lookup"><span data-stu-id="05aa7-108">In the navigation pane, go to **Modules > Inventory management > Setup > Inventory and warehouse management parameters**.</span></span>
-2. <span data-ttu-id="05aa7-109">选择 **库位** 选项卡。</span><span class="sxs-lookup"><span data-stu-id="05aa7-109">Select the **Locations** tab.</span></span>
-3. <span data-ttu-id="05aa7-110">在 **标准宽度** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="05aa7-110">In the **Standard width** field, enter a number.</span></span>
-4. <span data-ttu-id="05aa7-111">在 **标准深度** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="05aa7-111">In the **Standard depth** field, enter a number.</span></span>
-5. <span data-ttu-id="05aa7-112">在 **标准高度** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="05aa7-112">In the **Standard height** field, enter a number.</span></span>
-6. <span data-ttu-id="05aa7-113">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="05aa7-113">Select **Save**.</span></span>
-7. <span data-ttu-id="05aa7-114">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="05aa7-114">Close the page.</span></span>
+## <a name="set-the-default-location-capacity"></a><span data-ttu-id="f1c1e-107">设置默认库位容量</span><span class="sxs-lookup"><span data-stu-id="f1c1e-107">Set the default location capacity</span></span>
+1. <span data-ttu-id="f1c1e-108">在导航窗格中，转到 **模块 > 库存管理 > 设置 > 库存和仓库管理参数**。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-108">In the navigation pane, go to **Modules > Inventory management > Setup > Inventory and warehouse management parameters**.</span></span>
+2. <span data-ttu-id="f1c1e-109">选择 **库位** 选项卡。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-109">Select the **Locations** tab.</span></span>
+3. <span data-ttu-id="f1c1e-110">在 **标准宽度** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-110">In the **Standard width** field, enter a number.</span></span>
+4. <span data-ttu-id="f1c1e-111">在 **标准深度** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-111">In the **Standard depth** field, enter a number.</span></span>
+5. <span data-ttu-id="f1c1e-112">在 **标准高度** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-112">In the **Standard height** field, enter a number.</span></span>
+6. <span data-ttu-id="f1c1e-113">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-113">Select **Save**.</span></span>
+7. <span data-ttu-id="f1c1e-114">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-114">Close the page.</span></span>
 
-## <a name="define-the-location-name-format"></a><span data-ttu-id="05aa7-115">定义库位名称格式</span><span class="sxs-lookup"><span data-stu-id="05aa7-115">Define the location name format</span></span>
-1. <span data-ttu-id="05aa7-116">在导航窗格中，转到 **模块 > 库存管理 > 设置 > 库存细分 > 仓库**。</span><span class="sxs-lookup"><span data-stu-id="05aa7-116">In the navigation pane, go to **Modules > Inventory management > Setup > Inventory breakdown > Warehouses**.</span></span>
-2. <span data-ttu-id="05aa7-117">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="05aa7-117">Select **New**.</span></span>
-3. <span data-ttu-id="05aa7-118">在 **仓库** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="05aa7-118">In the **Warehouse** field, type a value.</span></span>
-4. <span data-ttu-id="05aa7-119">在 **名称** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="05aa7-119">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="05aa7-120">在 **站点** 字段中，在查找中选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="05aa7-120">In the **Site** field, select the desired record in the lookup.</span></span>
-6. <span data-ttu-id="05aa7-121">切换到 **库位名称** 部分的扩展项。</span><span class="sxs-lookup"><span data-stu-id="05aa7-121">Toggle the expansion of the **Location names** section.</span></span> <span data-ttu-id="05aa7-122">此部分中的选项定义库位名称的默认格式。</span><span class="sxs-lookup"><span data-stu-id="05aa7-122">The options in this section define the default format for location names.</span></span> <span data-ttu-id="05aa7-123">在我们的示例中，我们增加了通道编号、货架编号和货位编号。</span><span class="sxs-lookup"><span data-stu-id="05aa7-123">In our example, we'll include the aisle number, rack number and shelf number.</span></span>  
-7. <span data-ttu-id="05aa7-124">将 **包括通道** 选项设置为 **是**。</span><span class="sxs-lookup"><span data-stu-id="05aa7-124">Set the **Include aisle** option to **Yes**.</span></span>
-8. <span data-ttu-id="05aa7-125">将 **包括货架** 选项设置为 **是**。</span><span class="sxs-lookup"><span data-stu-id="05aa7-125">Set the **Include rack** option to **Yes**.</span></span> 
-9. <span data-ttu-id="05aa7-126">在货架的 **格式** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="05aa7-126">In the **Format** field, for the rack, type a value.</span></span>
-10. <span data-ttu-id="05aa7-127">将 **包括货位** 选项设置为 **是**。</span><span class="sxs-lookup"><span data-stu-id="05aa7-127">Set the **Include shelf** option to **Yes**.</span></span>
-11. <span data-ttu-id="05aa7-128">在货架的 **格式** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="05aa7-128">In the **Format** field, for the shelf, type a value.</span></span>
+## <a name="define-the-location-name-format"></a><span data-ttu-id="f1c1e-115">定义库位名称格式</span><span class="sxs-lookup"><span data-stu-id="f1c1e-115">Define the location name format</span></span>
+1. <span data-ttu-id="f1c1e-116">在导航窗格中，转到 **模块 > 库存管理 > 设置 > 库存细分 > 仓库**。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-116">In the navigation pane, go to **Modules > Inventory management > Setup > Inventory breakdown > Warehouses**.</span></span>
+2. <span data-ttu-id="f1c1e-117">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-117">Select **New**.</span></span>
+3. <span data-ttu-id="f1c1e-118">在 **仓库** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-118">In the **Warehouse** field, type a value.</span></span>
+4. <span data-ttu-id="f1c1e-119">在 **名称** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-119">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="f1c1e-120">在 **站点** 字段中，在查找中选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-120">In the **Site** field, select the desired record in the lookup.</span></span>
+6. <span data-ttu-id="f1c1e-121">切换到 **库位名称** 部分的扩展项。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-121">Toggle the expansion of the **Location names** section.</span></span> <span data-ttu-id="f1c1e-122">此部分中的选项定义库位名称的默认格式。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-122">The options in this section define the default format for location names.</span></span> <span data-ttu-id="f1c1e-123">在我们的示例中，我们增加了通道编号、货架编号和货位编号。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-123">In our example, we'll include the aisle number, rack number and shelf number.</span></span>  
+7. <span data-ttu-id="f1c1e-124">将 **包括通道** 选项设置为 **是**。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-124">Set the **Include aisle** option to **Yes**.</span></span>
+8. <span data-ttu-id="f1c1e-125">将 **包括货架** 选项设置为 **是**。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-125">Set the **Include rack** option to **Yes**.</span></span> 
+9. <span data-ttu-id="f1c1e-126">在货架的 **格式** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-126">In the **Format** field, for the rack, type a value.</span></span>
+10. <span data-ttu-id="f1c1e-127">将 **包括货位** 选项设置为 **是**。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-127">Set the **Include shelf** option to **Yes**.</span></span>
+11. <span data-ttu-id="f1c1e-128">在货架的 **格式** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-128">In the **Format** field, for the shelf, type a value.</span></span>
 
-## <a name="define-warehouse-locations"></a><span data-ttu-id="05aa7-129">定义仓库库位</span><span class="sxs-lookup"><span data-stu-id="05aa7-129">Define warehouse locations</span></span>
-1. <span data-ttu-id="05aa7-130">在操作窗格上，选择 **仓库**。</span><span class="sxs-lookup"><span data-stu-id="05aa7-130">On the Action Pane, select **Warehouse**.</span></span>
-2. <span data-ttu-id="05aa7-131">选择 **库位向导**。</span><span class="sxs-lookup"><span data-stu-id="05aa7-131">Select **Location Wizard**.</span></span>
-3. <span data-ttu-id="05aa7-132">选择 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="05aa7-132">Select **Next**.</span></span>
-4. <span data-ttu-id="05aa7-133">取消选择 **出货台** 选项</span><span class="sxs-lookup"><span data-stu-id="05aa7-133">De-select the **Outbound docks** option</span></span>
-5. <span data-ttu-id="05aa7-134">取消选择 **堆放库位** 选项</span><span class="sxs-lookup"><span data-stu-id="05aa7-134">De-select the **Bulk locations** option</span></span>
-6. <span data-ttu-id="05aa7-135">选择 **下一步**，直到用于选择 **完成** 的选项。</span><span class="sxs-lookup"><span data-stu-id="05aa7-135">Select **Next** until you come to the option to select **Finish**.</span></span>
-7. <span data-ttu-id="05aa7-136">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="05aa7-136">Close the page.</span></span>
-8. <span data-ttu-id="05aa7-137">刷新该页面。</span><span class="sxs-lookup"><span data-stu-id="05aa7-137">Refresh the page.</span></span>
+## <a name="define-warehouse-locations"></a><span data-ttu-id="f1c1e-129">定义仓库库位</span><span class="sxs-lookup"><span data-stu-id="f1c1e-129">Define warehouse locations</span></span>
+1. <span data-ttu-id="f1c1e-130">在操作窗格上，选择 **仓库**。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-130">On the Action Pane, select **Warehouse**.</span></span>
+2. <span data-ttu-id="f1c1e-131">选择 **库位向导**。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-131">Select **Location Wizard**.</span></span>
+3. <span data-ttu-id="f1c1e-132">选择 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-132">Select **Next**.</span></span>
+4. <span data-ttu-id="f1c1e-133">取消选择 **出货台** 选项</span><span class="sxs-lookup"><span data-stu-id="f1c1e-133">De-select the **Outbound docks** option</span></span>
+5. <span data-ttu-id="f1c1e-134">取消选择 **堆放库位** 选项</span><span class="sxs-lookup"><span data-stu-id="f1c1e-134">De-select the **Bulk locations** option</span></span>
+6. <span data-ttu-id="f1c1e-135">选择 **下一步**，直到用于选择 **完成** 的选项。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-135">Select **Next** until you come to the option to select **Finish**.</span></span>
+7. <span data-ttu-id="f1c1e-136">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-136">Close the page.</span></span>
+8. <span data-ttu-id="f1c1e-137">刷新该页面。</span><span class="sxs-lookup"><span data-stu-id="f1c1e-137">Refresh the page.</span></span>
 

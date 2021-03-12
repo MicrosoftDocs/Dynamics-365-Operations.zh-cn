@@ -11,268 +11,267 @@ ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 9c90380cb5d109e331a2552ba779525b66d10fa6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423358"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001091"
 ---
-# <a name="cluster-position-full"></a><span data-ttu-id="a0fb4-104">群集位置已满</span><span class="sxs-lookup"><span data-stu-id="a0fb4-104">Cluster position full</span></span>
+# <a name="cluster-position-full"></a><span data-ttu-id="48217-104">群集位置已满</span><span class="sxs-lookup"><span data-stu-id="48217-104">Cluster position full</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="a0fb4-105">在使用群集领料时，也可以使用 *群集位置已满* 功能更严格地实施工作分解规则，因为其允许容器或负荷的体积约束中的容错程度更高。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-105">The *Cluster position full* feature offers an alternative to more rigid enforcement of work break rules when cluster picking is used, because it enables a larger margin of error in the volumetric constraints of containers or totes.</span></span> <span data-ttu-id="a0fb4-106">在常见情况下，一个工作订单中的所有物料都可以装入所选容器。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-106">In a common scenario, not all items on a work order fit into a selected container.</span></span> <span data-ttu-id="a0fb4-107">在此情况下，进行群集领料的仓库工作人员的选择极少：他们必须改为使用更大的容器，或与主管一起提出其他解决方案。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-107">Warehouse workers who are cluster picking have few options in this scenario: they must either change to a larger container size or work with their supervisor to come up with a different solution.</span></span>
+<span data-ttu-id="48217-105">在使用群集领料时，也可以使用 *群集位置已满* 功能更严格地实施工作分解规则，因为其允许容器或负荷的体积约束中的容错程度更高。</span><span class="sxs-lookup"><span data-stu-id="48217-105">The *Cluster position full* feature offers an alternative to more rigid enforcement of work break rules when cluster picking is used, because it enables a larger margin of error in the volumetric constraints of containers or totes.</span></span> <span data-ttu-id="48217-106">在常见情况下，一个工作订单中的所有物料都可以装入所选容器。</span><span class="sxs-lookup"><span data-stu-id="48217-106">In a common scenario, not all items on a work order fit into a selected container.</span></span> <span data-ttu-id="48217-107">在此情况下，进行群集领料的仓库工作人员的选择极少：他们必须改为使用更大的容器，或与主管一起提出其他解决方案。</span><span class="sxs-lookup"><span data-stu-id="48217-107">Warehouse workers who are cluster picking have few options in this scenario: they must either change to a larger container size or work with their supervisor to come up with a different solution.</span></span>
 
-<span data-ttu-id="a0fb4-108">此功能可用于对集群中的一个工作单位运行 **已满** 按钮。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-108">This feature introduces the ability to run the **Full** button on one of the work units in a cluster.</span></span> <span data-ttu-id="a0fb4-109">在较早的版本中，此选项仅适用于常规订单领料，不适用于群集领料。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-109">In older versions, this option was available only for regular order picking, not for cluster picking.</span></span> <span data-ttu-id="a0fb4-110">但是，此功能与标准的 **已满** 按钮不同，后者会取消剩余工作。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-110">However, this feature differs from the standard **Full** button in that it cancels the remaining work.</span></span> <span data-ttu-id="a0fb4-111">其建议用户不要向同一个群集再添加箱，并且不会自动创建新工作。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-111">It doesn't suggest that the user add another bin to the same cluster, and it doesn't automatically create new work.</span></span>
+<span data-ttu-id="48217-108">此功能可用于对集群中的一个工作单位运行 **已满** 按钮。</span><span class="sxs-lookup"><span data-stu-id="48217-108">This feature introduces the ability to run the **Full** button on one of the work units in a cluster.</span></span> <span data-ttu-id="48217-109">在较早的版本中，此选项仅适用于常规订单领料，不适用于群集领料。</span><span class="sxs-lookup"><span data-stu-id="48217-109">In older versions, this option was available only for regular order picking, not for cluster picking.</span></span> <span data-ttu-id="48217-110">但是，此功能与标准的 **已满** 按钮不同，后者会取消剩余工作。</span><span class="sxs-lookup"><span data-stu-id="48217-110">However, this feature differs from the standard **Full** button in that it cancels the remaining work.</span></span> <span data-ttu-id="48217-111">其建议用户不要向同一个群集再添加箱，并且不会自动创建新工作。</span><span class="sxs-lookup"><span data-stu-id="48217-111">It doesn't suggest that the user add another bin to the same cluster, and it doesn't automatically create new work.</span></span>
 
-## <a name="turn-on-the-cluster-position-full-feature"></a><span data-ttu-id="a0fb4-112">开启群集位置已满功能</span><span class="sxs-lookup"><span data-stu-id="a0fb4-112">Turn on the Cluster position full feature</span></span>
+## <a name="turn-on-the-cluster-position-full-feature"></a><span data-ttu-id="48217-112">开启群集位置已满功能</span><span class="sxs-lookup"><span data-stu-id="48217-112">Turn on the Cluster position full feature</span></span>
 
-<span data-ttu-id="a0fb4-113">此功能只有在系统中开启之后才能使用。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-113">Before you can use this feature, it must be turned on in your system.</span></span> <span data-ttu-id="a0fb4-114">管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-114">Admins can use the [feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) settings to check the status of the feature and turn it on.</span></span> <span data-ttu-id="a0fb4-115">在 **功能管理** 工作区中，此功能按照下面的方式列出：</span><span class="sxs-lookup"><span data-stu-id="a0fb4-115">In the **Feature management** workspace, the feature is listed in the following way:</span></span>
+<span data-ttu-id="48217-113">此功能只有在系统中开启之后才能使用。</span><span class="sxs-lookup"><span data-stu-id="48217-113">Before you can use this feature, it must be turned on in your system.</span></span> <span data-ttu-id="48217-114">管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。</span><span class="sxs-lookup"><span data-stu-id="48217-114">Admins can use the [feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) settings to check the status of the feature and turn it on.</span></span> <span data-ttu-id="48217-115">在 **功能管理** 工作区中，此功能按照下面的方式列出：</span><span class="sxs-lookup"><span data-stu-id="48217-115">In the **Feature management** workspace, the feature is listed in the following way:</span></span>
 
-- <span data-ttu-id="a0fb4-116">**模块**：*仓库管理*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-116">**Module:** *Warehouse management*</span></span>
-- <span data-ttu-id="a0fb4-117">**功能名称**：*群集位置已满*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-117">**Feature name:** *Cluster position full*</span></span>
+- <span data-ttu-id="48217-116">**模块**：*仓库管理*</span><span class="sxs-lookup"><span data-stu-id="48217-116">**Module:** *Warehouse management*</span></span>
+- <span data-ttu-id="48217-117">**功能名称**：*群集位置已满*</span><span class="sxs-lookup"><span data-stu-id="48217-117">**Feature name:** *Cluster position full*</span></span>
 
-## <a name="setup"></a><span data-ttu-id="a0fb4-118">设置</span><span class="sxs-lookup"><span data-stu-id="a0fb4-118">Setup</span></span>
+## <a name="setup"></a><span data-ttu-id="48217-118">设置</span><span class="sxs-lookup"><span data-stu-id="48217-118">Setup</span></span>
 
-<span data-ttu-id="a0fb4-119">此部分提供指南，以及演示如何设置和使用 *群集位置已满* 功能的示例。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-119">This section provides guidelines, and an example that shows how to set up and use the *Cluster position full* feature.</span></span>
+<span data-ttu-id="48217-119">此部分提供指南，以及演示如何设置和使用 *群集位置已满* 功能的示例。</span><span class="sxs-lookup"><span data-stu-id="48217-119">This section provides guidelines, and an example that shows how to set up and use the *Cluster position full* feature.</span></span>
 
-### <a name="make-sample-data-available"></a><span data-ttu-id="a0fb4-120">提供示例数据</span><span class="sxs-lookup"><span data-stu-id="a0fb4-120">Make sample data available</span></span>
+### <a name="make-sample-data-available"></a><span data-ttu-id="48217-120">提供示例数据</span><span class="sxs-lookup"><span data-stu-id="48217-120">Make sample data available</span></span>
 
-<span data-ttu-id="a0fb4-121">若要使用此处指定的示例记录和值演练[示例方案](#example-scenario)，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md)。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-121">To work through the [example scenario](#example-scenario) by using the sample records and values that are specified here, you must be on a system where the standard [demo data](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) is installed.</span></span> <span data-ttu-id="a0fb4-122">此外，开始前，还必须选择 **USMF** 法人。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-122">Additionally, you must select the **USMF** legal entity before you begin.</span></span>
+<span data-ttu-id="48217-121">若要使用此处指定的示例记录和值演练[示例方案](#example-scenario)，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md)。</span><span class="sxs-lookup"><span data-stu-id="48217-121">To work through the [example scenario](#example-scenario) by using the sample records and values that are specified here, you must be on a system where the standard [demo data](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) is installed.</span></span> <span data-ttu-id="48217-122">此外，开始前，还必须选择 **USMF** 法人。</span><span class="sxs-lookup"><span data-stu-id="48217-122">Additionally, you must select the **USMF** legal entity before you begin.</span></span>
 
-<span data-ttu-id="a0fb4-123">也可以将此示例场景用作在生产系统中使用此功能的指导。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-123">You can also use the example scenario as guidance for working with this feature on a production system.</span></span> <span data-ttu-id="a0fb4-124">但是，如果是这样，您必须替换这里介绍的设置中的自己的值。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-124">However, in that case, you must substitute your own values for the settings that are described here.</span></span>
+<span data-ttu-id="48217-123">也可以将此示例场景用作在生产系统中使用此功能的指导。</span><span class="sxs-lookup"><span data-stu-id="48217-123">You can also use the example scenario as guidance for working with this feature on a production system.</span></span> <span data-ttu-id="48217-124">但是，如果是这样，您必须替换这里介绍的设置中的自己的值。</span><span class="sxs-lookup"><span data-stu-id="48217-124">However, in that case, you must substitute your own values for the settings that are described here.</span></span>
 
-### <a name="cluster-profiles"></a><span data-ttu-id="a0fb4-125">群集配置文件</span><span class="sxs-lookup"><span data-stu-id="a0fb4-125">Cluster profiles</span></span>
+### <a name="cluster-profiles"></a><span data-ttu-id="48217-125">群集配置文件</span><span class="sxs-lookup"><span data-stu-id="48217-125">Cluster profiles</span></span>
 
-<span data-ttu-id="a0fb4-126">必须指定是否自动生成群集 ID，使用多少位置，何时分解群集，以及如何对领料工作排序和验证。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-126">You must specify whether cluster IDs are automatically generated, how many positions are used, when clusters are broken, and how the picking work is sequenced and verified.</span></span>
+<span data-ttu-id="48217-126">必须指定是否自动生成群集 ID，使用多少位置，何时分解群集，以及如何对领料工作排序和验证。</span><span class="sxs-lookup"><span data-stu-id="48217-126">You must specify whether cluster IDs are automatically generated, how many positions are used, when clusters are broken, and how the picking work is sequenced and verified.</span></span>
 
-1. <span data-ttu-id="a0fb4-127">转到 **仓库管理 \> 设置 \> 移动设备 \> 群集配置文件**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-127">Go to **Warehouse management \> Setup \> Mobile device \> Cluster profiles**.</span></span>
-1. <span data-ttu-id="a0fb4-128">在列表窗格中，选择 **创建群集** 记录。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-128">In the list pane, select the **Create Cluster** record.</span></span>
-1. <span data-ttu-id="a0fb4-129">在 **常规** 快速选项卡上，验证以下值：</span><span class="sxs-lookup"><span data-stu-id="a0fb4-129">On the **General** FastTab, verify the following values:</span></span>
+1. <span data-ttu-id="48217-127">转到 **仓库管理 \> 设置 \> 移动设备 \> 群集配置文件**。</span><span class="sxs-lookup"><span data-stu-id="48217-127">Go to **Warehouse management \> Setup \> Mobile device \> Cluster profiles**.</span></span>
+1. <span data-ttu-id="48217-128">在列表窗格中，选择 **创建群集** 记录。</span><span class="sxs-lookup"><span data-stu-id="48217-128">In the list pane, select the **Create Cluster** record.</span></span>
+1. <span data-ttu-id="48217-129">在 **常规** 快速选项卡上，验证以下值：</span><span class="sxs-lookup"><span data-stu-id="48217-129">On the **General** FastTab, verify the following values:</span></span>
 
-    - <span data-ttu-id="a0fb4-130">**生成群集 ID**：*是*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-130">**Generate cluster ID:** *Yes*</span></span>
-    - <span data-ttu-id="a0fb4-131">**启用位置**：*是*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-131">**Activate positions:** *Yes*</span></span>
-    - <span data-ttu-id="a0fb4-132">**位置数量**：*2*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-132">**Number of positions:** *2*</span></span>
-    - <span data-ttu-id="a0fb4-133">**位置名称**：*数值*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-133">**Position name:** *Numeric*</span></span>
-    - <span data-ttu-id="a0fb4-134">**群集分解位置**：*放置*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-134">**Break cluster at:** *Put*</span></span>
-    - <span data-ttu-id="a0fb4-135">**对验证类型进行排序**：*位置扫描*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-135">**Sort verification type:** *Position scan*</span></span>
+    - <span data-ttu-id="48217-130">**生成群集 ID**：*是*</span><span class="sxs-lookup"><span data-stu-id="48217-130">**Generate cluster ID:** *Yes*</span></span>
+    - <span data-ttu-id="48217-131">**启用位置**：*是*</span><span class="sxs-lookup"><span data-stu-id="48217-131">**Activate positions:** *Yes*</span></span>
+    - <span data-ttu-id="48217-132">**位置数量**：*2*</span><span class="sxs-lookup"><span data-stu-id="48217-132">**Number of positions:** *2*</span></span>
+    - <span data-ttu-id="48217-133">**位置名称**：*数值*</span><span class="sxs-lookup"><span data-stu-id="48217-133">**Position name:** *Numeric*</span></span>
+    - <span data-ttu-id="48217-134">**群集分解位置**：*放置*</span><span class="sxs-lookup"><span data-stu-id="48217-134">**Break cluster at:** *Put*</span></span>
+    - <span data-ttu-id="48217-135">**对验证类型进行排序**：*位置扫描*</span><span class="sxs-lookup"><span data-stu-id="48217-135">**Sort verification type:** *Position scan*</span></span>
 
-1. <span data-ttu-id="a0fb4-136">在 **群集排序** 快速选项卡中。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-136">In the **Cluster sorting** FastTab.</span></span> <span data-ttu-id="a0fb4-137">网格应为空白（即，不应包含任何行）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-137">The grid should be blank (that is, it should contain no lines).</span></span>
+1. <span data-ttu-id="48217-136">在 **群集排序** 快速选项卡中。</span><span class="sxs-lookup"><span data-stu-id="48217-136">In the **Cluster sorting** FastTab.</span></span> <span data-ttu-id="48217-137">网格应为空白（即，不应包含任何行）。</span><span class="sxs-lookup"><span data-stu-id="48217-137">The grid should be blank (that is, it should contain no lines).</span></span>
 
-### <a name="work-templates"></a><span data-ttu-id="a0fb4-138">工作模板</span><span class="sxs-lookup"><span data-stu-id="a0fb4-138">Work templates</span></span>
+### <a name="work-templates"></a><span data-ttu-id="48217-138">工作模板</span><span class="sxs-lookup"><span data-stu-id="48217-138">Work templates</span></span>
 
-<span data-ttu-id="a0fb4-139">必须定义如何为群集领料创建领料工作。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-139">You must define how the picking work for cluster picking is created.</span></span>
+<span data-ttu-id="48217-139">必须定义如何为群集领料创建领料工作。</span><span class="sxs-lookup"><span data-stu-id="48217-139">You must define how the picking work for cluster picking is created.</span></span>
 
-1. <span data-ttu-id="a0fb4-140">转到 **仓库管理 \> 设置 \> 工作 \> 工作模板**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-140">Go to **Warehouse management \> Setup \> Work \> Work templates**.</span></span>
-1. <span data-ttu-id="a0fb4-141">在页面顶部，将 **工作订单类型** 字段设置为 *销售订单*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-141">At the top of the page, set the **Work order type** field to *Sales orders*.</span></span>
-1. <span data-ttu-id="a0fb4-142">确保列出演示数据中的以下工作模板。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-142">Make sure that the following work templates from the demo data are listed.</span></span> <span data-ttu-id="a0fb4-143">如果其不可用，则不能完成此方案。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-143">If they aren't available, you won't be able to complete the scenario.</span></span>
+1. <span data-ttu-id="48217-140">转到 **仓库管理 \> 设置 \> 工作 \> 工作模板**。</span><span class="sxs-lookup"><span data-stu-id="48217-140">Go to **Warehouse management \> Setup \> Work \> Work templates**.</span></span>
+1. <span data-ttu-id="48217-141">在页面顶部，将 **工作订单类型** 字段设置为 *销售订单*。</span><span class="sxs-lookup"><span data-stu-id="48217-141">At the top of the page, set the **Work order type** field to *Sales orders*.</span></span>
+1. <span data-ttu-id="48217-142">确保列出演示数据中的以下工作模板。</span><span class="sxs-lookup"><span data-stu-id="48217-142">Make sure that the following work templates from the demo data are listed.</span></span> <span data-ttu-id="48217-143">如果其不可用，则不能完成此方案。</span><span class="sxs-lookup"><span data-stu-id="48217-143">If they aren't available, you won't be able to complete the scenario.</span></span>
 
-    - <span data-ttu-id="a0fb4-144">61 SO 阶段</span><span class="sxs-lookup"><span data-stu-id="a0fb4-144">61 SO Stage</span></span>
-    - <span data-ttu-id="a0fb4-145">61 SO 群集领料</span><span class="sxs-lookup"><span data-stu-id="a0fb4-145">61 SO Cluster pick</span></span>
+    - <span data-ttu-id="48217-144">61 SO 阶段</span><span class="sxs-lookup"><span data-stu-id="48217-144">61 SO Stage</span></span>
+    - <span data-ttu-id="48217-145">61 SO 群集领料</span><span class="sxs-lookup"><span data-stu-id="48217-145">61 SO Cluster pick</span></span>
 
-### <a name="location-directives"></a><span data-ttu-id="a0fb4-146">位置指令</span><span class="sxs-lookup"><span data-stu-id="a0fb4-146">Location directives</span></span>
+### <a name="location-directives"></a><span data-ttu-id="48217-146">位置指令</span><span class="sxs-lookup"><span data-stu-id="48217-146">Location directives</span></span>
 
-<span data-ttu-id="a0fb4-147">必须指定物料的领料位置和放置位置。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-147">You must specify where items are picked from and where they are put.</span></span>
+<span data-ttu-id="48217-147">必须指定物料的领料位置和放置位置。</span><span class="sxs-lookup"><span data-stu-id="48217-147">You must specify where items are picked from and where they are put.</span></span>
 
-1. <span data-ttu-id="a0fb4-148">转到 **库存管理 \> 设置 \> 位置指令**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-148">Go to **Warehouse management \> Setup \> Location directives**.</span></span>
-1. <span data-ttu-id="a0fb4-149">在列表标题中，将 **工作订单类型** 字段设置为 *销售订单*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-149">In the list header, set the **Work order type** field to *Sales orders*.</span></span>
-1. <span data-ttu-id="a0fb4-150">确保列出演示数据中的以下销售订单指令。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-150">Make sure that the following sales order directives from the demo data are listed.</span></span> <span data-ttu-id="a0fb4-151">如果其不可用，则不能完成此方案。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-151">If they aren't available, you won't be able to complete the scenario.</span></span>
+1. <span data-ttu-id="48217-148">转到 **库存管理 \> 设置 \> 位置指令**。</span><span class="sxs-lookup"><span data-stu-id="48217-148">Go to **Warehouse management \> Setup \> Location directives**.</span></span>
+1. <span data-ttu-id="48217-149">在列表标题中，将 **工作订单类型** 字段设置为 *销售订单*。</span><span class="sxs-lookup"><span data-stu-id="48217-149">In the list header, set the **Work order type** field to *Sales orders*.</span></span>
+1. <span data-ttu-id="48217-150">确保列出演示数据中的以下销售订单指令。</span><span class="sxs-lookup"><span data-stu-id="48217-150">Make sure that the following sales order directives from the demo data are listed.</span></span> <span data-ttu-id="48217-151">如果其不可用，则不能完成此方案。</span><span class="sxs-lookup"><span data-stu-id="48217-151">If they aren't available, you won't be able to complete the scenario.</span></span>
 
-    - <span data-ttu-id="a0fb4-152">61 群集领料</span><span class="sxs-lookup"><span data-stu-id="a0fb4-152">61 Cluster pick</span></span>
-    - <span data-ttu-id="a0fb4-153">61 SO 领料单</span><span class="sxs-lookup"><span data-stu-id="a0fb4-153">61 SO Pick order</span></span>
+    - <span data-ttu-id="48217-152">61 群集领料</span><span class="sxs-lookup"><span data-stu-id="48217-152">61 Cluster pick</span></span>
+    - <span data-ttu-id="48217-153">61 SO 领料单</span><span class="sxs-lookup"><span data-stu-id="48217-153">61 SO Pick order</span></span>
 
-### <a name="mobile-device-menu-items"></a><span data-ttu-id="a0fb4-154">移动设备菜单项</span><span class="sxs-lookup"><span data-stu-id="a0fb4-154">Mobile device menu items</span></span>
+### <a name="mobile-device-menu-items"></a><span data-ttu-id="48217-154">移动设备菜单项</span><span class="sxs-lookup"><span data-stu-id="48217-154">Mobile device menu items</span></span>
 
-<span data-ttu-id="a0fb4-155">必须配置移动设备菜单使用群集领料主导的现有工作。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-155">You must configure a mobile device menu item to use existing work that is directed by cluster picking.</span></span> <span data-ttu-id="a0fb4-156">必须在群集领料的移动设备菜单项中开启 **允许拆分工作** 参数和添加 *SO 领料* 工作类。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-156">In the mobile device menu item for cluster picking, the **Allow splitting of work** parameter must be turned on, and the *SO Pick* work class must be added.</span></span>
+<span data-ttu-id="48217-155">必须配置移动设备菜单使用群集领料主导的现有工作。</span><span class="sxs-lookup"><span data-stu-id="48217-155">You must configure a mobile device menu item to use existing work that is directed by cluster picking.</span></span> <span data-ttu-id="48217-156">必须在群集领料的移动设备菜单项中开启 **允许拆分工作** 参数和添加 *SO 领料* 工作类。</span><span class="sxs-lookup"><span data-stu-id="48217-156">In the mobile device menu item for cluster picking, the **Allow splitting of work** parameter must be turned on, and the *SO Pick* work class must be added.</span></span>
 
-1. <span data-ttu-id="a0fb4-157">转到 **仓库管理 \> 设置 \> 移动设备 \> 移动设备菜单项**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-157">Go to **Warehouse management \> Setup \> Mobile device \> Mobile device menu items**.</span></span>
-1. <span data-ttu-id="a0fb4-158">在列表窗格中，选择 **群集领料创建** 记录。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-158">In the list pane, select the **Cluster Pick Create** record.</span></span>
-1. <span data-ttu-id="a0fb4-159">在操作窗格中选择 **编辑**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-159">Select **Edit** in the Action pane.</span></span>
-1. <span data-ttu-id="a0fb4-160">在 **常规** 快速选项卡上，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="a0fb4-160">On the **General** FastTab, set the following values:</span></span>
+1. <span data-ttu-id="48217-157">转到 **仓库管理 \> 设置 \> 移动设备 \> 移动设备菜单项**。</span><span class="sxs-lookup"><span data-stu-id="48217-157">Go to **Warehouse management \> Setup \> Mobile device \> Mobile device menu items**.</span></span>
+1. <span data-ttu-id="48217-158">在列表窗格中，选择 **群集领料创建** 记录。</span><span class="sxs-lookup"><span data-stu-id="48217-158">In the list pane, select the **Cluster Pick Create** record.</span></span>
+1. <span data-ttu-id="48217-159">在操作窗格中选择 **编辑**。</span><span class="sxs-lookup"><span data-stu-id="48217-159">Select **Edit** in the Action pane.</span></span>
+1. <span data-ttu-id="48217-160">在 **常规** 快速选项卡上，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="48217-160">On the **General** FastTab, set the following values:</span></span>
 
-    - <span data-ttu-id="a0fb4-161">**导向方式**：*群集领料*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-161">**Directed by:** *Cluster picking*</span></span>
-    - <span data-ttu-id="a0fb4-162">\**生成牌照：\*\*\*是*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-162">**Generate license plate:** *Yes*</span></span>
-    - <span data-ttu-id="a0fb4-163">**允许拆分工作**：*是*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-163">**Allow splitting of work:** *Yes*</span></span>
-    - <span data-ttu-id="a0fb4-164">**群集配置文件 ID**：*创建群集*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-164">**Cluster profile ID:** *Create Cluster*</span></span>
+    - <span data-ttu-id="48217-161">**导向方式**：*群集领料*</span><span class="sxs-lookup"><span data-stu-id="48217-161">**Directed by:** *Cluster picking*</span></span>
+    - <span data-ttu-id="48217-162">\**生成牌照：\*\*\*是*</span><span class="sxs-lookup"><span data-stu-id="48217-162">**Generate license plate:** *Yes*</span></span>
+    - <span data-ttu-id="48217-163">**允许拆分工作**：*是*</span><span class="sxs-lookup"><span data-stu-id="48217-163">**Allow splitting of work:** *Yes*</span></span>
+    - <span data-ttu-id="48217-164">**群集配置文件 ID**：*创建群集*</span><span class="sxs-lookup"><span data-stu-id="48217-164">**Cluster profile ID:** *Create Cluster*</span></span>
 
-    <span data-ttu-id="a0fb4-165">接受其他所有字段的默认值。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-165">Accept the default values for all other fields.</span></span>
+    <span data-ttu-id="48217-165">接受其他所有字段的默认值。</span><span class="sxs-lookup"><span data-stu-id="48217-165">Accept the default values for all other fields.</span></span>
 
-1. <span data-ttu-id="a0fb4-166">在 **工作类** 快速选项卡中，根据需要添加下面两行：</span><span class="sxs-lookup"><span data-stu-id="a0fb4-166">On the **Work classes** FastTab, add the following two lines, as required:</span></span>
+1. <span data-ttu-id="48217-166">在 **工作类** 快速选项卡中，根据需要添加下面两行：</span><span class="sxs-lookup"><span data-stu-id="48217-166">On the **Work classes** FastTab, add the following two lines, as required:</span></span>
 
-    - <span data-ttu-id="a0fb4-167">行 1（演示数据中通常有）：</span><span class="sxs-lookup"><span data-stu-id="a0fb4-167">Line 1 (usually present in demo data):</span></span>
+    - <span data-ttu-id="48217-167">行 1（演示数据中通常有）：</span><span class="sxs-lookup"><span data-stu-id="48217-167">Line 1 (usually present in demo data):</span></span>
 
-        - <span data-ttu-id="a0fb4-168">**工作类 ID**：*销售*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-168">**Work class ID:** *Sales*</span></span> 
-        - <span data-ttu-id="a0fb4-169">**工作订单类型**：*销售订单*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-169">**Work order type:** *Sales orders*</span></span>
+        - <span data-ttu-id="48217-168">**工作类 ID**：*销售*</span><span class="sxs-lookup"><span data-stu-id="48217-168">**Work class ID:** *Sales*</span></span> 
+        - <span data-ttu-id="48217-169">**工作订单类型**：*销售订单*</span><span class="sxs-lookup"><span data-stu-id="48217-169">**Work order type:** *Sales orders*</span></span>
 
-    - <span data-ttu-id="a0fb4-170">行 2（演示数据中可能无）：</span><span class="sxs-lookup"><span data-stu-id="a0fb4-170">Line 2 (probably not present in demo data):</span></span>
+    - <span data-ttu-id="48217-170">行 2（演示数据中可能无）：</span><span class="sxs-lookup"><span data-stu-id="48217-170">Line 2 (probably not present in demo data):</span></span>
 
-        - <span data-ttu-id="a0fb4-171">**工作类 ID**：*SO 领料*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-171">**Work class ID:** *SO Pick*</span></span>
-        - <span data-ttu-id="a0fb4-172">**工作订单类型**：*销售订单*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-172">**Work order type:** *Sales orders*</span></span>
+        - <span data-ttu-id="48217-171">**工作类 ID**：*SO 领料*</span><span class="sxs-lookup"><span data-stu-id="48217-171">**Work class ID:** *SO Pick*</span></span>
+        - <span data-ttu-id="48217-172">**工作订单类型**：*销售订单*</span><span class="sxs-lookup"><span data-stu-id="48217-172">**Work order type:** *Sales orders*</span></span>
 
-1. <span data-ttu-id="a0fb4-173">在操作窗格中转到 **工作确认设置**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-173">Go to **Work confirmation setup** in the Action pane.</span></span>
-1. <span data-ttu-id="a0fb4-174">选择 **编辑**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-174">Select **Edit**.</span></span>
-1. <span data-ttu-id="a0fb4-175">在网格中该行内输入以下值。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-175">Enter the following values on the line in grid.</span></span>
-    - <span data-ttu-id="a0fb4-176">**工作类型** - *领料*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-176">**Work type** - *Pick*</span></span>
-    - <span data-ttu-id="a0fb4-177">**产品确认** - *选中此复选框*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-177">**Product confirmation** - *Select the check box*</span></span>
+1. <span data-ttu-id="48217-173">在操作窗格中转到 **工作确认设置**。</span><span class="sxs-lookup"><span data-stu-id="48217-173">Go to **Work confirmation setup** in the Action pane.</span></span>
+1. <span data-ttu-id="48217-174">选择 **编辑**。</span><span class="sxs-lookup"><span data-stu-id="48217-174">Select **Edit**.</span></span>
+1. <span data-ttu-id="48217-175">在网格中该行内输入以下值。</span><span class="sxs-lookup"><span data-stu-id="48217-175">Enter the following values on the line in grid.</span></span>
+    - <span data-ttu-id="48217-176">**工作类型** - *领料*</span><span class="sxs-lookup"><span data-stu-id="48217-176">**Work type** - *Pick*</span></span>
+    - <span data-ttu-id="48217-177">**产品确认** - *选中此复选框*</span><span class="sxs-lookup"><span data-stu-id="48217-177">**Product confirmation** - *Select the check box*</span></span>
 
-1. <span data-ttu-id="a0fb4-178">在操作窗格中选择 **保存**，然后关闭页面。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-178">Select **Save** in the Action pane and close the page.</span></span>
+1. <span data-ttu-id="48217-178">在操作窗格中选择 **保存**，然后关闭页面。</span><span class="sxs-lookup"><span data-stu-id="48217-178">Select **Save** in the Action pane and close the page.</span></span>
 
-## <a name="create-picking-work"></a><span data-ttu-id="a0fb4-179">创建领料工作</span><span class="sxs-lookup"><span data-stu-id="a0fb4-179">Create picking work</span></span>
+## <a name="create-picking-work"></a><span data-ttu-id="48217-179">创建领料工作</span><span class="sxs-lookup"><span data-stu-id="48217-179">Create picking work</span></span>
 
-<span data-ttu-id="a0fb4-180">必须先创建一些出站工作，然后才能启动群集领料。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-180">Before you can start cluster picking, you must create some outbound work.</span></span> <span data-ttu-id="a0fb4-181">您先前创建的群集配置文件将指定两个群集位置。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-181">The cluster profile that you created earlier specifies two cluster positions.</span></span> <span data-ttu-id="a0fb4-182">因此，必须为销售订单领料至少创建两个工作 ID。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-182">Therefore, at least two work IDs must be created for sales order picking.</span></span> <span data-ttu-id="a0fb4-183">对于此方案，交易将在仓库 *61* 中进行，并使用物料 *L0101* 和 *T0100*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-183">For this scenario, transactions will occur in warehouse *61*, and they will use items *L0101* and *T0100*.</span></span> <span data-ttu-id="a0fb4-184">演示数据中应该包含这些物料足够的现有库存。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-184">The demo data should have enough on-hand inventory of these items.</span></span> <span data-ttu-id="a0fb4-185">确保您有足够的库存来完成交易。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-185">Make sure that you have enough inventory to complete the transactions.</span></span>
+<span data-ttu-id="48217-180">必须先创建一些出站工作，然后才能启动群集领料。</span><span class="sxs-lookup"><span data-stu-id="48217-180">Before you can start cluster picking, you must create some outbound work.</span></span> <span data-ttu-id="48217-181">您先前创建的群集配置文件将指定两个群集位置。</span><span class="sxs-lookup"><span data-stu-id="48217-181">The cluster profile that you created earlier specifies two cluster positions.</span></span> <span data-ttu-id="48217-182">因此，必须为销售订单领料至少创建两个工作 ID。</span><span class="sxs-lookup"><span data-stu-id="48217-182">Therefore, at least two work IDs must be created for sales order picking.</span></span> <span data-ttu-id="48217-183">对于此方案，交易将在仓库 *61* 中进行，并使用物料 *L0101* 和 *T0100*。</span><span class="sxs-lookup"><span data-stu-id="48217-183">For this scenario, transactions will occur in warehouse *61*, and they will use items *L0101* and *T0100*.</span></span> <span data-ttu-id="48217-184">演示数据中应该包含这些物料足够的现有库存。</span><span class="sxs-lookup"><span data-stu-id="48217-184">The demo data should have enough on-hand inventory of these items.</span></span> <span data-ttu-id="48217-185">确保您有足够的库存来完成交易。</span><span class="sxs-lookup"><span data-stu-id="48217-185">Make sure that you have enough inventory to complete the transactions.</span></span>
 
-### <a name="create-sales-order-1"></a><span data-ttu-id="a0fb4-186">创建销售订单 1</span><span class="sxs-lookup"><span data-stu-id="a0fb4-186">Create sales order 1</span></span>
+### <a name="create-sales-order-1"></a><span data-ttu-id="48217-186">创建销售订单 1</span><span class="sxs-lookup"><span data-stu-id="48217-186">Create sales order 1</span></span>
 
-1. <span data-ttu-id="a0fb4-187">转到 **销售和营销 \> 销售订单 \> 所有销售订单**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-187">Go to **Sales and Marketing \> Sales orders \> All sales orders**.</span></span>
-1. <span data-ttu-id="a0fb4-188">选择 **新建** 以创建销售订单 1。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-188">Select **New** to create sales order 1.</span></span>
-1. <span data-ttu-id="a0fb4-189">在 **创建销售订单** 对话框中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="a0fb4-189">In the **Create sales order** dialog box, set the following values:</span></span>
+1. <span data-ttu-id="48217-187">转到 **销售和营销 \> 销售订单 \> 所有销售订单**。</span><span class="sxs-lookup"><span data-stu-id="48217-187">Go to **Sales and Marketing \> Sales orders \> All sales orders**.</span></span>
+1. <span data-ttu-id="48217-188">选择 **新建** 以创建销售订单 1。</span><span class="sxs-lookup"><span data-stu-id="48217-188">Select **New** to create sales order 1.</span></span>
+1. <span data-ttu-id="48217-189">在 **创建销售订单** 对话框中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="48217-189">In the **Create sales order** dialog box, set the following values:</span></span>
 
-    - <span data-ttu-id="a0fb4-190">**客户帐户**：*US-010*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-190">**Customer account:** *US-010*</span></span>
-    - <span data-ttu-id="a0fb4-191">**仓库**：*61*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-191">**Warehouse:** *61*</span></span>
+    - <span data-ttu-id="48217-190">**客户帐户**：*US-010*</span><span class="sxs-lookup"><span data-stu-id="48217-190">**Customer account:** *US-010*</span></span>
+    - <span data-ttu-id="48217-191">**仓库**：*61*</span><span class="sxs-lookup"><span data-stu-id="48217-191">**Warehouse:** *61*</span></span>
 
-1. <span data-ttu-id="a0fb4-192">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-192">Select **OK**.</span></span>
-1. <span data-ttu-id="a0fb4-193">将打开新销售订单。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-193">The new sales order is opened.</span></span> <span data-ttu-id="a0fb4-194">在 **销售订单行** 快速选项卡上，添加具有以下设置的行：</span><span class="sxs-lookup"><span data-stu-id="a0fb4-194">On the **Sales order lines** FastTab, add a line that has the following settings:</span></span>
+1. <span data-ttu-id="48217-192">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="48217-192">Select **OK**.</span></span>
+1. <span data-ttu-id="48217-193">将打开新销售订单。</span><span class="sxs-lookup"><span data-stu-id="48217-193">The new sales order is opened.</span></span> <span data-ttu-id="48217-194">在 **销售订单行** 快速选项卡上，添加具有以下设置的行：</span><span class="sxs-lookup"><span data-stu-id="48217-194">On the **Sales order lines** FastTab, add a line that has the following settings:</span></span>
 
-    - <span data-ttu-id="a0fb4-195">\**物料编号：\*\*\*T0100*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-195">**Item number:** *T0100*</span></span>
-    - <span data-ttu-id="a0fb4-196">**数量：** *5*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-196">**Quantity:** *5*</span></span>
+    - <span data-ttu-id="48217-195">\**物料编号：\*\*\*T0100*</span><span class="sxs-lookup"><span data-stu-id="48217-195">**Item number:** *T0100*</span></span>
+    - <span data-ttu-id="48217-196">**数量：** *5*</span><span class="sxs-lookup"><span data-stu-id="48217-196">**Quantity:** *5*</span></span>
 
-1. <span data-ttu-id="a0fb4-197">在 **行明细** 快速选项卡上的 **交货** 选项卡中，将 **确认装运日期** 字段设置为当天日期。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-197">On the **Line details** FastTab, on the **Delivery** tab, set the **Confirmed ship date** field to today's date.</span></span>
-1. <span data-ttu-id="a0fb4-198">在 **销售订单行** 快速选项卡上，再添加一个添加具有以下设置的行：</span><span class="sxs-lookup"><span data-stu-id="a0fb4-198">On the **Sales order lines** FastTab, add a second line that has the following settings:</span></span>
+1. <span data-ttu-id="48217-197">在 **行明细** 快速选项卡上的 **交货** 选项卡中，将 **确认装运日期** 字段设置为当天日期。</span><span class="sxs-lookup"><span data-stu-id="48217-197">On the **Line details** FastTab, on the **Delivery** tab, set the **Confirmed ship date** field to today's date.</span></span>
+1. <span data-ttu-id="48217-198">在 **销售订单行** 快速选项卡上，再添加一个添加具有以下设置的行：</span><span class="sxs-lookup"><span data-stu-id="48217-198">On the **Sales order lines** FastTab, add a second line that has the following settings:</span></span>
 
-    - <span data-ttu-id="a0fb4-199">\**物料编号：\*\*\*L0101*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-199">**Item number:** *L0101*</span></span>
-    - <span data-ttu-id="a0fb4-200">**数量：** *20*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-200">**Quantity:** *20*</span></span>
+    - <span data-ttu-id="48217-199">\**物料编号：\*\*\*L0101*</span><span class="sxs-lookup"><span data-stu-id="48217-199">**Item number:** *L0101*</span></span>
+    - <span data-ttu-id="48217-200">**数量：** *20*</span><span class="sxs-lookup"><span data-stu-id="48217-200">**Quantity:** *20*</span></span>
 
-1. <span data-ttu-id="a0fb4-201">在 **行明细** 快速选项卡上的 **交货** 选项卡中，将 **确认装运日期** 字段设置为当天日期。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-201">On the **Line details** FastTab, on the **Delivery** tab, set the **Confirmed ship date** field to today's date.</span></span>
-1. <span data-ttu-id="a0fb4-202">为刚才添加的每行执行以下步骤以预留库存：</span><span class="sxs-lookup"><span data-stu-id="a0fb4-202">For each line that you just added, follow these steps to reserve inventory:</span></span>
+1. <span data-ttu-id="48217-201">在 **行明细** 快速选项卡上的 **交货** 选项卡中，将 **确认装运日期** 字段设置为当天日期。</span><span class="sxs-lookup"><span data-stu-id="48217-201">On the **Line details** FastTab, on the **Delivery** tab, set the **Confirmed ship date** field to today's date.</span></span>
+1. <span data-ttu-id="48217-202">为刚才添加的每行执行以下步骤以预留库存：</span><span class="sxs-lookup"><span data-stu-id="48217-202">For each line that you just added, follow these steps to reserve inventory:</span></span>
 
-    1. <span data-ttu-id="a0fb4-203">选择要预留的行。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-203">Select the line to reserve.</span></span>
-    2. <span data-ttu-id="a0fb4-204">在 **销售订单行** 快速选项卡上，选择 **库存 \> 预留**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-204">On the **Sales order lines** FastTab, select **Inventory \> Reservation**.</span></span>
-    3. <span data-ttu-id="a0fb4-205">在 **预留** 页面的“操作窗格”中，选择 **预留批次** 预留库存。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-205">On the **Reservation** page, on the Action Pane, select **Reserve lot** to reserve the inventory.</span></span>
-    4. <span data-ttu-id="a0fb4-206">关闭 **预留** 页面。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-206">Close the **Reservation** page.</span></span>
+    1. <span data-ttu-id="48217-203">选择要预留的行。</span><span class="sxs-lookup"><span data-stu-id="48217-203">Select the line to reserve.</span></span>
+    2. <span data-ttu-id="48217-204">在 **销售订单行** 快速选项卡上，选择 **库存 \> 预留**。</span><span class="sxs-lookup"><span data-stu-id="48217-204">On the **Sales order lines** FastTab, select **Inventory \> Reservation**.</span></span>
+    3. <span data-ttu-id="48217-205">在 **预留** 页面的“操作窗格”中，选择 **预留批次** 预留库存。</span><span class="sxs-lookup"><span data-stu-id="48217-205">On the **Reservation** page, on the Action Pane, select **Reserve lot** to reserve the inventory.</span></span>
+    4. <span data-ttu-id="48217-206">关闭 **预留** 页面。</span><span class="sxs-lookup"><span data-stu-id="48217-206">Close the **Reservation** page.</span></span>
 
-1. <span data-ttu-id="a0fb4-207">在“操作窗格”上的 **仓库** 选项卡上，选择 **发放到仓库**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-207">On the Action Pane, on the **Warehouse** tab, select **Release to warehouse**.</span></span>
+1. <span data-ttu-id="48217-207">在“操作窗格”上的 **仓库** 选项卡上，选择 **发放到仓库**。</span><span class="sxs-lookup"><span data-stu-id="48217-207">On the Action Pane, on the **Warehouse** tab, select **Release to warehouse**.</span></span>
 
-    <span data-ttu-id="a0fb4-208">完成发放后，您将收到参考消息，其中显示创建的波次和装运 ID。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-208">When the release is completed, you receive informational messages that show the wave and load IDs that were created.</span></span>
+    <span data-ttu-id="48217-208">完成发放后，您将收到参考消息，其中显示创建的波次和装运 ID。</span><span class="sxs-lookup"><span data-stu-id="48217-208">When the release is completed, you receive informational messages that show the wave and load IDs that were created.</span></span>
 
-### <a name="create-sales-order-2"></a><span data-ttu-id="a0fb4-209">创建销售订单 2</span><span class="sxs-lookup"><span data-stu-id="a0fb4-209">Create sales order 2</span></span>
+### <a name="create-sales-order-2"></a><span data-ttu-id="48217-209">创建销售订单 2</span><span class="sxs-lookup"><span data-stu-id="48217-209">Create sales order 2</span></span>
 
-1. <span data-ttu-id="a0fb4-210">转到 **销售和营销 \> 销售订单 \> 所有销售订单**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-210">Go to **Sales and Marketing \> Sales orders \> All sales orders**.</span></span>
-1. <span data-ttu-id="a0fb4-211">选择 **新建** 以创建销售订单 2。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-211">Select **New** to create sales order 2.</span></span>
-1. <span data-ttu-id="a0fb4-212">在 **创建销售订单** 对话框中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="a0fb4-212">In the **Create sales order** dialog box, set the following values:</span></span>
+1. <span data-ttu-id="48217-210">转到 **销售和营销 \> 销售订单 \> 所有销售订单**。</span><span class="sxs-lookup"><span data-stu-id="48217-210">Go to **Sales and Marketing \> Sales orders \> All sales orders**.</span></span>
+1. <span data-ttu-id="48217-211">选择 **新建** 以创建销售订单 2。</span><span class="sxs-lookup"><span data-stu-id="48217-211">Select **New** to create sales order 2.</span></span>
+1. <span data-ttu-id="48217-212">在 **创建销售订单** 对话框中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="48217-212">In the **Create sales order** dialog box, set the following values:</span></span>
 
-    - <span data-ttu-id="a0fb4-213">**客户帐户**：*US-011*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-213">**Customer account:** *US-011*</span></span>
-    - <span data-ttu-id="a0fb4-214">**仓库**：*61*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-214">**Warehouse:** *61*</span></span>
+    - <span data-ttu-id="48217-213">**客户帐户**：*US-011*</span><span class="sxs-lookup"><span data-stu-id="48217-213">**Customer account:** *US-011*</span></span>
+    - <span data-ttu-id="48217-214">**仓库**：*61*</span><span class="sxs-lookup"><span data-stu-id="48217-214">**Warehouse:** *61*</span></span>
 
-1. <span data-ttu-id="a0fb4-215">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-215">Select **OK**.</span></span>
-1. <span data-ttu-id="a0fb4-216">将打开新销售订单。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-216">The new sales order is opened.</span></span> <span data-ttu-id="a0fb4-217">在 **销售订单行** 快速选项卡上，添加具有以下设置的行：</span><span class="sxs-lookup"><span data-stu-id="a0fb4-217">On the **Sales order lines** FastTab, add a line that has the following settings:</span></span>
+1. <span data-ttu-id="48217-215">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="48217-215">Select **OK**.</span></span>
+1. <span data-ttu-id="48217-216">将打开新销售订单。</span><span class="sxs-lookup"><span data-stu-id="48217-216">The new sales order is opened.</span></span> <span data-ttu-id="48217-217">在 **销售订单行** 快速选项卡上，添加具有以下设置的行：</span><span class="sxs-lookup"><span data-stu-id="48217-217">On the **Sales order lines** FastTab, add a line that has the following settings:</span></span>
 
-    - <span data-ttu-id="a0fb4-218">\**物料编号：\*\*\*L0101*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-218">**Item number:** *L0101*</span></span>
-    - <span data-ttu-id="a0fb4-219">**数量：** *20*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-219">**Quantity:** *20*</span></span>
+    - <span data-ttu-id="48217-218">\**物料编号：\*\*\*L0101*</span><span class="sxs-lookup"><span data-stu-id="48217-218">**Item number:** *L0101*</span></span>
+    - <span data-ttu-id="48217-219">**数量：** *20*</span><span class="sxs-lookup"><span data-stu-id="48217-219">**Quantity:** *20*</span></span>
 
-1. <span data-ttu-id="a0fb4-220">在 **行明细** 快速选项卡上的 **交货** 选项卡中，将 **确认装运日期** 字段设置为当天日期。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-220">On the **Line details** FastTab, on the **Delivery** tab, set the **Confirmed ship date** field to today's date.</span></span>
-1. <span data-ttu-id="a0fb4-221">在 **销售订单行** 快速选项卡上，再添加一个添加具有以下设置的行：</span><span class="sxs-lookup"><span data-stu-id="a0fb4-221">On the **Sales order lines** FastTab, add a second line that has the following settings:</span></span>
+1. <span data-ttu-id="48217-220">在 **行明细** 快速选项卡上的 **交货** 选项卡中，将 **确认装运日期** 字段设置为当天日期。</span><span class="sxs-lookup"><span data-stu-id="48217-220">On the **Line details** FastTab, on the **Delivery** tab, set the **Confirmed ship date** field to today's date.</span></span>
+1. <span data-ttu-id="48217-221">在 **销售订单行** 快速选项卡上，再添加一个添加具有以下设置的行：</span><span class="sxs-lookup"><span data-stu-id="48217-221">On the **Sales order lines** FastTab, add a second line that has the following settings:</span></span>
 
-    - <span data-ttu-id="a0fb4-222">\**物料编号：\*\*\*T0100*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-222">**Item number:** *T0100*</span></span>
-    - <span data-ttu-id="a0fb4-223">**数量：** *2*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-223">**Quantity:** *2*</span></span>
+    - <span data-ttu-id="48217-222">\**物料编号：\*\*\*T0100*</span><span class="sxs-lookup"><span data-stu-id="48217-222">**Item number:** *T0100*</span></span>
+    - <span data-ttu-id="48217-223">**数量：** *2*</span><span class="sxs-lookup"><span data-stu-id="48217-223">**Quantity:** *2*</span></span>
 
-1. <span data-ttu-id="a0fb4-224">在 **行明细** 快速选项卡上的 **交货** 选项卡中，将 **确认装运日期** 字段设置为当天日期。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-224">On the **Line details** FastTab, on the **Delivery** tab, set the **Confirmed ship date** field to today's date.</span></span>
-1. <span data-ttu-id="a0fb4-225">为刚才添加的每行执行以下步骤以预留库存：</span><span class="sxs-lookup"><span data-stu-id="a0fb4-225">For each line that you just added, follow these steps to reserve inventory:</span></span>
+1. <span data-ttu-id="48217-224">在 **行明细** 快速选项卡上的 **交货** 选项卡中，将 **确认装运日期** 字段设置为当天日期。</span><span class="sxs-lookup"><span data-stu-id="48217-224">On the **Line details** FastTab, on the **Delivery** tab, set the **Confirmed ship date** field to today's date.</span></span>
+1. <span data-ttu-id="48217-225">为刚才添加的每行执行以下步骤以预留库存：</span><span class="sxs-lookup"><span data-stu-id="48217-225">For each line that you just added, follow these steps to reserve inventory:</span></span>
 
-    1. <span data-ttu-id="a0fb4-226">选择要预留的行。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-226">Select the line to reserve.</span></span>
-    2. <span data-ttu-id="a0fb4-227">在 **销售订单行** 快速选项卡上，选择 **库存 \> 预留**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-227">On the **Sales order lines** FastTab, select **Inventory \> Reservation**.</span></span>
-    3. <span data-ttu-id="a0fb4-228">在 **预留** 页面的“操作窗格”中，选择 **预留批次** 预留库存。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-228">On the **Reservation** page, on the Action Pane, select **Reserve lot** to reserve the inventory.</span></span>
-    4. <span data-ttu-id="a0fb4-229">关闭 **预留** 页面。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-229">Close the **Reservation** page.</span></span>
+    1. <span data-ttu-id="48217-226">选择要预留的行。</span><span class="sxs-lookup"><span data-stu-id="48217-226">Select the line to reserve.</span></span>
+    2. <span data-ttu-id="48217-227">在 **销售订单行** 快速选项卡上，选择 **库存 \> 预留**。</span><span class="sxs-lookup"><span data-stu-id="48217-227">On the **Sales order lines** FastTab, select **Inventory \> Reservation**.</span></span>
+    3. <span data-ttu-id="48217-228">在 **预留** 页面的“操作窗格”中，选择 **预留批次** 预留库存。</span><span class="sxs-lookup"><span data-stu-id="48217-228">On the **Reservation** page, on the Action Pane, select **Reserve lot** to reserve the inventory.</span></span>
+    4. <span data-ttu-id="48217-229">关闭 **预留** 页面。</span><span class="sxs-lookup"><span data-stu-id="48217-229">Close the **Reservation** page.</span></span>
 
-1. <span data-ttu-id="a0fb4-230">在“操作窗格”上的 **仓库** 选项卡上，选择 **发放到仓库**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-230">On the Action Pane, on the **Warehouse** tab, select **Release to warehouse**.</span></span>
+1. <span data-ttu-id="48217-230">在“操作窗格”上的 **仓库** 选项卡上，选择 **发放到仓库**。</span><span class="sxs-lookup"><span data-stu-id="48217-230">On the Action Pane, on the **Warehouse** tab, select **Release to warehouse**.</span></span>
 
-    <span data-ttu-id="a0fb4-231">完成发放后，您将收到参考消息，其中显示创建的波次和装运 ID。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-231">When the release is completed, you receive informational messages that show the wave and load IDs that were created.</span></span>
+    <span data-ttu-id="48217-231">完成发放后，您将收到参考消息，其中显示创建的波次和装运 ID。</span><span class="sxs-lookup"><span data-stu-id="48217-231">When the release is completed, you receive informational messages that show the wave and load IDs that were created.</span></span>
 
-### <a name="get-work-ids-and-license-plate-numbers"></a><span data-ttu-id="a0fb4-232">获取工作 ID 和牌照编号</span><span class="sxs-lookup"><span data-stu-id="a0fb4-232">Get work IDs and license plate numbers</span></span>
+### <a name="get-work-ids-and-license-plate-numbers"></a><span data-ttu-id="48217-232">获取工作 ID 和牌照编号</span><span class="sxs-lookup"><span data-stu-id="48217-232">Get work IDs and license plate numbers</span></span>
 
-<span data-ttu-id="a0fb4-233">应该已经创建了两个工作 ID，其中每个都有两个领料行。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-233">Two work IDs should have been created, each of which has two pick lines.</span></span> <span data-ttu-id="a0fb4-234">请执行以下步骤查找工作 ID 和牌照分配情况。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-234">Follow these steps to find the work IDs and license plate assignments.</span></span>
+<span data-ttu-id="48217-233">应该已经创建了两个工作 ID，其中每个都有两个领料行。</span><span class="sxs-lookup"><span data-stu-id="48217-233">Two work IDs should have been created, each of which has two pick lines.</span></span> <span data-ttu-id="48217-234">请执行以下步骤查找工作 ID 和牌照分配情况。</span><span class="sxs-lookup"><span data-stu-id="48217-234">Follow these steps to find the work IDs and license plate assignments.</span></span>
 
-1. <span data-ttu-id="a0fb4-235">转到 **仓库管理 \> 工作 \> 工作详细信息**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-235">Go to **Warehouse management \> Work \> Work details**.</span></span>
-1. <span data-ttu-id="a0fb4-236">在 **概览** 网格中，搜索 **订单编号** 列以查找刚才创建的两个销售订单。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-236">In the **Overview** grid, search the **Order number** column for the two sales orders that you just created.</span></span> <span data-ttu-id="a0fb4-237">记下每个销售订单的相应工作 ID。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-237">For each sales order, make a note of the corresponding work ID.</span></span>
-1. <span data-ttu-id="a0fb4-238">选择各销售订单的行以在 **行** 网格中显示相关信息。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-238">Select the row for each sales order to show related information in the **Lines** grid.</span></span> <span data-ttu-id="a0fb4-239">记下将领取每个物料的位置。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-239">Make a note of the location that each item will be picked from.</span></span>
-1. <span data-ttu-id="a0fb4-240">转到 **库存管理 \> 查询和报表 \> 现有量列表**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-240">Go to **Inventory management \> Inquiries and reports \> On-hand list**.</span></span>
-1. <span data-ttu-id="a0fb4-241">在操作窗格上，选择 **维度** 以打开 **维度显示** 对话框。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-241">On the Action Pane, select **Dimensions** to open the **Dimension display** dialog box.</span></span>
-1. <span data-ttu-id="a0fb4-242">确保选中 **牌照**、**仓库** 和 **物料编号** 复选框，然后选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-242">Make sure that the **License plate**, **Warehouse**, and **Item number** check boxes are selected, and then select **OK**.</span></span>
-1. <span data-ttu-id="a0fb4-243">在 **筛选器** 窗格中，设置以下筛选器：</span><span class="sxs-lookup"><span data-stu-id="a0fb4-243">In the **Filter** pane, set the following filters:</span></span>
+1. <span data-ttu-id="48217-235">转到 **仓库管理 \> 工作 \> 工作详细信息**。</span><span class="sxs-lookup"><span data-stu-id="48217-235">Go to **Warehouse management \> Work \> Work details**.</span></span>
+1. <span data-ttu-id="48217-236">在 **概览** 网格中，搜索 **订单编号** 列以查找刚才创建的两个销售订单。</span><span class="sxs-lookup"><span data-stu-id="48217-236">In the **Overview** grid, search the **Order number** column for the two sales orders that you just created.</span></span> <span data-ttu-id="48217-237">记下每个销售订单的相应工作 ID。</span><span class="sxs-lookup"><span data-stu-id="48217-237">For each sales order, make a note of the corresponding work ID.</span></span>
+1. <span data-ttu-id="48217-238">选择各销售订单的行以在 **行** 网格中显示相关信息。</span><span class="sxs-lookup"><span data-stu-id="48217-238">Select the row for each sales order to show related information in the **Lines** grid.</span></span> <span data-ttu-id="48217-239">记下将领取每个物料的位置。</span><span class="sxs-lookup"><span data-stu-id="48217-239">Make a note of the location that each item will be picked from.</span></span>
+1. <span data-ttu-id="48217-240">转到 **库存管理 \> 查询和报表 \> 现有量列表**。</span><span class="sxs-lookup"><span data-stu-id="48217-240">Go to **Inventory management \> Inquiries and reports \> On-hand list**.</span></span>
+1. <span data-ttu-id="48217-241">在操作窗格上，选择 **维度** 以打开 **维度显示** 对话框。</span><span class="sxs-lookup"><span data-stu-id="48217-241">On the Action Pane, select **Dimensions** to open the **Dimension display** dialog box.</span></span>
+1. <span data-ttu-id="48217-242">确保选中 **牌照**、**仓库** 和 **物料编号** 复选框，然后选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="48217-242">Make sure that the **License plate**, **Warehouse**, and **Item number** check boxes are selected, and then select **OK**.</span></span>
+1. <span data-ttu-id="48217-243">在 **筛选器** 窗格中，设置以下筛选器：</span><span class="sxs-lookup"><span data-stu-id="48217-243">In the **Filter** pane, set the following filters:</span></span>
 
-    - <span data-ttu-id="a0fb4-244">**物料编号** – **为** – *L0101* 和 *T100* 之一</span><span class="sxs-lookup"><span data-stu-id="a0fb4-244">**Item number** – **is one of** – *L0101* and *T100*</span></span>
-    - <span data-ttu-id="a0fb4-245">**仓库** – **开头为** – *61*</span><span class="sxs-lookup"><span data-stu-id="a0fb4-245">**Warehouse** – **begins with** – *61*</span></span>
+    - <span data-ttu-id="48217-244">**物料编号** – **为** – *L0101* 和 *T100* 之一</span><span class="sxs-lookup"><span data-stu-id="48217-244">**Item number** – **is one of** – *L0101* and *T100*</span></span>
+    - <span data-ttu-id="48217-245">**仓库** – **开头为** – *61*</span><span class="sxs-lookup"><span data-stu-id="48217-245">**Warehouse** – **begins with** – *61*</span></span>
 
-1. <span data-ttu-id="a0fb4-246">记下显示的 **牌照** 值。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-246">Make a note of the **License plate** values that are shown.</span></span>
+1. <span data-ttu-id="48217-246">记下显示的 **牌照** 值。</span><span class="sxs-lookup"><span data-stu-id="48217-246">Make a note of the **License plate** values that are shown.</span></span>
 
-## <a name="example-scenario"></a><a name="example-scenario"></a><span data-ttu-id="a0fb4-247">示例场景</span><span class="sxs-lookup"><span data-stu-id="a0fb4-247">Example scenario</span></span>
+## <a name="example-scenario"></a><a name="example-scenario"></a><span data-ttu-id="48217-247">示例场景</span><span class="sxs-lookup"><span data-stu-id="48217-247">Example scenario</span></span>
 
-### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a><span data-ttu-id="a0fb4-248">移动设备流执行 – 产品的工作确认设置</span><span class="sxs-lookup"><span data-stu-id="a0fb4-248">Mobile device flow execution – Work confirmation setup for the product</span></span>
+### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a><span data-ttu-id="48217-248">移动设备流执行 – 产品的工作确认设置</span><span class="sxs-lookup"><span data-stu-id="48217-248">Mobile device flow execution – Work confirmation setup for the product</span></span>
 
-1. <span data-ttu-id="a0fb4-249">以仓库 *61* 用户身份登录仓库应用。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-249">Sign in to the warehouse app as a user in warehouse *61*.</span></span>
-1. <span data-ttu-id="a0fb4-250">转到 **出站 \> 群集领料创建**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-250">Go to **Outbound \> Cluster pick create**.</span></span>
+1. <span data-ttu-id="48217-249">以仓库 *61* 用户身份登录仓库应用。</span><span class="sxs-lookup"><span data-stu-id="48217-249">Sign in to the warehouse app as a user in warehouse *61*.</span></span>
+1. <span data-ttu-id="48217-250">转到 **出站 \> 群集领料创建**。</span><span class="sxs-lookup"><span data-stu-id="48217-250">Go to **Outbound \> Cluster pick create**.</span></span>
 
-    <span data-ttu-id="a0fb4-251">将显示 **任务: 为群集分配工作** 页面。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-251">The **TASK: Assign work to Cluster** page appears.</span></span>
+    <span data-ttu-id="48217-251">将显示 **任务: 为群集分配工作** 页面。</span><span class="sxs-lookup"><span data-stu-id="48217-251">The **TASK: Assign work to Cluster** page appears.</span></span>
 
-1. <span data-ttu-id="a0fb4-252">输入销售订单 1 的工作 ID 将其分配给群集位置 1。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-252">Enter the work ID for sales order 1 to assign it to cluster position 1.</span></span>
-1. <span data-ttu-id="a0fb4-253">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-253">Select **OK** (check mark symbol).</span></span>
-1. <span data-ttu-id="a0fb4-254">输入销售订单 2 的工作 ID 将其分配给群集位置 2。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-254">Enter the work ID for sales order 2 to assign it to cluster position 2.</span></span>
-1. <span data-ttu-id="a0fb4-255">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-255">Select **OK** (check mark symbol).</span></span>
+1. <span data-ttu-id="48217-252">输入销售订单 1 的工作 ID 将其分配给群集位置 1。</span><span class="sxs-lookup"><span data-stu-id="48217-252">Enter the work ID for sales order 1 to assign it to cluster position 1.</span></span>
+1. <span data-ttu-id="48217-253">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="48217-253">Select **OK** (check mark symbol).</span></span>
+1. <span data-ttu-id="48217-254">输入销售订单 2 的工作 ID 将其分配给群集位置 2。</span><span class="sxs-lookup"><span data-stu-id="48217-254">Enter the work ID for sales order 2 to assign it to cluster position 2.</span></span>
+1. <span data-ttu-id="48217-255">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="48217-255">Select **OK** (check mark symbol).</span></span>
 
-    <span data-ttu-id="a0fb4-256">将显示 **任务: 群集领料创建: 领料** 页面，其中显示 *物料 L0101 2 PL*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-256">The **TASK: Cluster Pick Create: Pick** page appears and shows *Item L0101 2 PL*.</span></span>
+    <span data-ttu-id="48217-256">将显示 **任务: 群集领料创建: 领料** 页面，其中显示 *物料 L0101 2 PL*。</span><span class="sxs-lookup"><span data-stu-id="48217-256">The **TASK: Cluster Pick Create: Pick** page appears and shows *Item L0101 2 PL*.</span></span>
 
-<span data-ttu-id="a0fb4-257">因为群集配置文件将位置数量设置为 2，所以系统将自动把您带到第一个合并领料：两托盘 (PL) 物料 *L0101*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-257">Because the cluster profile set the number of positions to 2, the system automatically directs you to the first consolidate pick: two pallets (PL) of item *L0101*.</span></span>
+<span data-ttu-id="48217-257">因为群集配置文件将位置数量设置为 2，所以系统将自动把您带到第一个合并领料：两托盘 (PL) 物料 *L0101*。</span><span class="sxs-lookup"><span data-stu-id="48217-257">Because the cluster profile set the number of positions to 2, the system automatically directs you to the first consolidate pick: two pallets (PL) of item *L0101*.</span></span>
 
-<span data-ttu-id="a0fb4-258">在以下步骤的任何时间都可以选择 **详细信息** 选项卡以查看有关任务的更多信息，如领料位置。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-258">At any time during the following steps, you can select the **Details** tab to view additional information about the task, such as the picking location.</span></span>
+<span data-ttu-id="48217-258">在以下步骤的任何时间都可以选择 **详细信息** 选项卡以查看有关任务的更多信息，如领料位置。</span><span class="sxs-lookup"><span data-stu-id="48217-258">At any time during the following steps, you can select the **Details** tab to view additional information about the task, such as the picking location.</span></span>
 
-1. <span data-ttu-id="a0fb4-259">将 **物料** 字段设置为 *L0101*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-259">Set the **ITEM** field to *L0101*.</span></span> <span data-ttu-id="a0fb4-260">这将确认物料编号，而此菜单项需要物料编号（您之前在创建此菜单项时已通过从 **移动设备菜单项** 页面选择 **工作确认设置** 确认了这一点）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-260">This confirms the item number, which is required for this menu item (you configured this earlier by selecting **Work confirmation setup**  from the **Mobile device menu item** page when you created this menu item).</span></span>
-1. <span data-ttu-id="a0fb4-261">输入与正在领料的位置中的物料关联的牌照编号。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-261">Enter the license plate number that is associated with the item in the location that is being picked.</span></span> <span data-ttu-id="a0fb4-262">您将领取两托盘。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-262">You will pick two pallets.</span></span>
-1. <span data-ttu-id="a0fb4-263">将 **LP** 字段设置为 *LP\_PICK\_01*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-263">Set the **LP** field to *LP\_PICK\_01*.</span></span>
-1. <span data-ttu-id="a0fb4-264">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-264">Select **OK** (check mark symbol).</span></span>
+1. <span data-ttu-id="48217-259">将 **物料** 字段设置为 *L0101*。</span><span class="sxs-lookup"><span data-stu-id="48217-259">Set the **ITEM** field to *L0101*.</span></span> <span data-ttu-id="48217-260">这将确认物料编号，而此菜单项需要物料编号（您之前在创建此菜单项时已通过从 **移动设备菜单项** 页面选择 **工作确认设置** 确认了这一点）。</span><span class="sxs-lookup"><span data-stu-id="48217-260">This confirms the item number, which is required for this menu item (you configured this earlier by selecting **Work confirmation setup**  from the **Mobile device menu item** page when you created this menu item).</span></span>
+1. <span data-ttu-id="48217-261">输入与正在领料的位置中的物料关联的牌照编号。</span><span class="sxs-lookup"><span data-stu-id="48217-261">Enter the license plate number that is associated with the item in the location that is being picked.</span></span> <span data-ttu-id="48217-262">您将领取两托盘。</span><span class="sxs-lookup"><span data-stu-id="48217-262">You will pick two pallets.</span></span>
+1. <span data-ttu-id="48217-263">将 **LP** 字段设置为 *LP\_PICK\_01*。</span><span class="sxs-lookup"><span data-stu-id="48217-263">Set the **LP** field to *LP\_PICK\_01*.</span></span>
+1. <span data-ttu-id="48217-264">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="48217-264">Select **OK** (check mark symbol).</span></span>
 
-    <span data-ttu-id="a0fb4-265">将显示 **任务: 排序: 群集领料创建** 页面。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-265">The **TASK: Sort: Cluster Pick Create** page appears.</span></span> <span data-ttu-id="a0fb4-266">您将在此处把领取的两托盘安排到一个领料位置。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-266">Here, you will sort the two picked pallets into a pick position.</span></span> <span data-ttu-id="a0fb4-267">此位置可能是用于按订单分隔已领料库存的搬运或容器。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-267">This position might be a tote or container that is used to separate the picked inventory by sales order.</span></span>
+    <span data-ttu-id="48217-265">将显示 **任务: 排序: 群集领料创建** 页面。</span><span class="sxs-lookup"><span data-stu-id="48217-265">The **TASK: Sort: Cluster Pick Create** page appears.</span></span> <span data-ttu-id="48217-266">您将在此处把领取的两托盘安排到一个领料位置。</span><span class="sxs-lookup"><span data-stu-id="48217-266">Here, you will sort the two picked pallets into a pick position.</span></span> <span data-ttu-id="48217-267">此位置可能是用于按订单分隔已领料库存的搬运或容器。</span><span class="sxs-lookup"><span data-stu-id="48217-267">This position might be a tote or container that is used to separate the picked inventory by sales order.</span></span>
 
-1. <span data-ttu-id="a0fb4-268">查看为将安排到位置 1 的物料 (*L0101*) 和数量（*20* 个）显示的详细信息（对于销售订单 1）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-268">View the details that are shown for the item (*L0101*) and quantity (*20* ea) that will be sorted into position 1 (for sales order 1).</span></span>
-1. <span data-ttu-id="a0fb4-269">将 **位置名称** 字段设置为 *1*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-269">Set the **POSITION NA** field to *1*.</span></span>
-1. <span data-ttu-id="a0fb4-270">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-270">Select **OK** (check mark symbol).</span></span>
-1. <span data-ttu-id="a0fb4-271">查看为将安排到位置 2 的物料 (*L0101*) 和数量（*20* 个）显示的详细信息（对于销售订单 2）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-271">View the details that are shown for the item (*L0101*) and quantity (*20* ea) that will be sorted into position 2 (for sales order 2).</span></span>
-1. <span data-ttu-id="a0fb4-272">将 **位置名称** 字段设置为 *2*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-272">Set the **POSITION NA** field to *2*.</span></span>
-1. <span data-ttu-id="a0fb4-273">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-273">Select **OK** (check mark symbol).</span></span>
+1. <span data-ttu-id="48217-268">查看为将安排到位置 1 的物料 (*L0101*) 和数量（*20* 个）显示的详细信息（对于销售订单 1）。</span><span class="sxs-lookup"><span data-stu-id="48217-268">View the details that are shown for the item (*L0101*) and quantity (*20* ea) that will be sorted into position 1 (for sales order 1).</span></span>
+1. <span data-ttu-id="48217-269">将 **位置名称** 字段设置为 *1*。</span><span class="sxs-lookup"><span data-stu-id="48217-269">Set the **POSITION NA** field to *1*.</span></span>
+1. <span data-ttu-id="48217-270">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="48217-270">Select **OK** (check mark symbol).</span></span>
+1. <span data-ttu-id="48217-271">查看为将安排到位置 2 的物料 (*L0101*) 和数量（*20* 个）显示的详细信息（对于销售订单 2）。</span><span class="sxs-lookup"><span data-stu-id="48217-271">View the details that are shown for the item (*L0101*) and quantity (*20* ea) that will be sorted into position 2 (for sales order 2).</span></span>
+1. <span data-ttu-id="48217-272">将 **位置名称** 字段设置为 *2*。</span><span class="sxs-lookup"><span data-stu-id="48217-272">Set the **POSITION NA** field to *2*.</span></span>
+1. <span data-ttu-id="48217-273">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="48217-273">Select **OK** (check mark symbol).</span></span>
 
-    <span data-ttu-id="a0fb4-274">将显示 **任务: 群集领料创建: 领料** 页面，其中显示 *物料 T0100 7 个*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-274">The **TASK: Cluster Pick Create: Pick** page appears and shows *Item T0100 7 ea*.</span></span>
+    <span data-ttu-id="48217-274">将显示 **任务: 群集领料创建: 领料** 页面，其中显示 *物料 T0100 7 个*。</span><span class="sxs-lookup"><span data-stu-id="48217-274">The **TASK: Cluster Pick Create: Pick** page appears and shows *Item T0100 7 ea*.</span></span>
 
-<span data-ttu-id="a0fb4-275">在此方案中，位置 1 不能接受为了履行销售订单 1 必须领取的所有物料数量。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-275">In this scenario, position 1 can't accept the full quantity of items that must be picked to fulfill sales order 1.</span></span> <span data-ttu-id="a0fb4-276">必须将一个位置标记为已满。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-276">A position must be marked as full.</span></span> <span data-ttu-id="a0fb4-277">在此方案中，将对第二个物料进行部分领料。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-277">In this scenario, you will do a partial pick of the second item.</span></span> <span data-ttu-id="a0fb4-278">将为位置 1 对第二个物料进行部分领料，并将创建新工作以领取剩余数量以履行订单。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-278">The second item will be partially picked for position 1, and new work will be created to pick the remaining quantity to fulfill the order.</span></span>
+<span data-ttu-id="48217-275">在此方案中，位置 1 不能接受为了履行销售订单 1 必须领取的所有物料数量。</span><span class="sxs-lookup"><span data-stu-id="48217-275">In this scenario, position 1 can't accept the full quantity of items that must be picked to fulfill sales order 1.</span></span> <span data-ttu-id="48217-276">必须将一个位置标记为已满。</span><span class="sxs-lookup"><span data-stu-id="48217-276">A position must be marked as full.</span></span> <span data-ttu-id="48217-277">在此方案中，将对第二个物料进行部分领料。</span><span class="sxs-lookup"><span data-stu-id="48217-277">In this scenario, you will do a partial pick of the second item.</span></span> <span data-ttu-id="48217-278">将为位置 1 对第二个物料进行部分领料，并将创建新工作以领取剩余数量以履行订单。</span><span class="sxs-lookup"><span data-stu-id="48217-278">The second item will be partially picked for position 1, and new work will be created to pick the remaining quantity to fulfill the order.</span></span>
 
-1. <span data-ttu-id="a0fb4-279">选择“菜单”按钮（有时称为汉堡包或汉堡包按钮），然后选择 **位置已满**。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-279">Select the Menu button (sometimes referred to as the hamburger or the hamburger button), and then select **Position full**.</span></span>
-1. <span data-ttu-id="a0fb4-280">标识已满位置，然后选择 *1*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-280">Identify the position that is full, and select *1*.</span></span>
-1. <span data-ttu-id="a0fb4-281">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-281">Select **OK** (check mark symbol).</span></span>
-1. <span data-ttu-id="a0fb4-282">输入仍可领料到位置 1 的数量。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-282">Enter the pick quantity that can still be picked into position 1.</span></span> <span data-ttu-id="a0fb4-283">系统可以确定正在领取的物料编号。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-283">The system can determine which item number is being picked.</span></span>
-1. <span data-ttu-id="a0fb4-284">输入 *2*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-284">Enter *2*.</span></span>
-1. <span data-ttu-id="a0fb4-285">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-285">Select **OK** (check mark symbol).</span></span>
-1. <span data-ttu-id="a0fb4-286">确认物料编号以完成将剩余物料领取到位置 2 中。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-286">Confirm the item number to complete the pick of the remaining item into position 2.</span></span>
-1. <span data-ttu-id="a0fb4-287">将 **物料** 字段设置为 *T0100*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-287">Set the **ITEM** field to *T0100*.</span></span>
-1. <span data-ttu-id="a0fb4-288">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-288">Select **OK** (check mark symbol).</span></span>
-1. <span data-ttu-id="a0fb4-289">通过将 **LP** 字段设置为 *LPREPL04*，输入从中领取物料的牌照。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-289">Enter the license plate that the item is being picked from by setting the **LP** field to *LPREPL04*.</span></span>
-1. <span data-ttu-id="a0fb4-290">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-290">Select **OK** (check mark symbol).</span></span>
-1. <span data-ttu-id="a0fb4-291">查看为将安排到位置 2 的物料 (*T0100*) 和数量（*2* 个）显示的详细信息（对于销售订单 2）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-291">View the details that are shown for the item (*T0100*) and quantity (*2* ea) that will be sorted into position 2 (for sales order 2).</span></span>
-1. <span data-ttu-id="a0fb4-292">将 **位置名称** 字段设置为 *2*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-292">Set the **POSITION NA** field to *2*.</span></span>
-1. <span data-ttu-id="a0fb4-293">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-293">Select **OK** (check mark symbol).</span></span>
-1. <span data-ttu-id="a0fb4-294">查看为将安排到位置 1 的物料 (*T0100*) 和数量（*2* 个）显示的详细信息（对于销售订单 1）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-294">View the details that are shown for the item (*T0100*) and quantity (*2* ea) that will be sorted into position 1 (for sales order 1).</span></span>
-1. <span data-ttu-id="a0fb4-295">将 **位置名称** 字段设置为 *1*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-295">Set the **POSITION NA** field to *1*.</span></span>
-1. <span data-ttu-id="a0fb4-296">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-296">Select **OK** (check mark symbol).</span></span>
+1. <span data-ttu-id="48217-279">选择“菜单”按钮（有时称为汉堡包或汉堡包按钮），然后选择 **位置已满**。</span><span class="sxs-lookup"><span data-stu-id="48217-279">Select the Menu button (sometimes referred to as the hamburger or the hamburger button), and then select **Position full**.</span></span>
+1. <span data-ttu-id="48217-280">标识已满位置，然后选择 *1*。</span><span class="sxs-lookup"><span data-stu-id="48217-280">Identify the position that is full, and select *1*.</span></span>
+1. <span data-ttu-id="48217-281">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="48217-281">Select **OK** (check mark symbol).</span></span>
+1. <span data-ttu-id="48217-282">输入仍可领料到位置 1 的数量。</span><span class="sxs-lookup"><span data-stu-id="48217-282">Enter the pick quantity that can still be picked into position 1.</span></span> <span data-ttu-id="48217-283">系统可以确定正在领取的物料编号。</span><span class="sxs-lookup"><span data-stu-id="48217-283">The system can determine which item number is being picked.</span></span>
+1. <span data-ttu-id="48217-284">输入 *2*。</span><span class="sxs-lookup"><span data-stu-id="48217-284">Enter *2*.</span></span>
+1. <span data-ttu-id="48217-285">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="48217-285">Select **OK** (check mark symbol).</span></span>
+1. <span data-ttu-id="48217-286">确认物料编号以完成将剩余物料领取到位置 2 中。</span><span class="sxs-lookup"><span data-stu-id="48217-286">Confirm the item number to complete the pick of the remaining item into position 2.</span></span>
+1. <span data-ttu-id="48217-287">将 **物料** 字段设置为 *T0100*。</span><span class="sxs-lookup"><span data-stu-id="48217-287">Set the **ITEM** field to *T0100*.</span></span>
+1. <span data-ttu-id="48217-288">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="48217-288">Select **OK** (check mark symbol).</span></span>
+1. <span data-ttu-id="48217-289">通过将 **LP** 字段设置为 *LPREPL04*，输入从中领取物料的牌照。</span><span class="sxs-lookup"><span data-stu-id="48217-289">Enter the license plate that the item is being picked from by setting the **LP** field to *LPREPL04*.</span></span>
+1. <span data-ttu-id="48217-290">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="48217-290">Select **OK** (check mark symbol).</span></span>
+1. <span data-ttu-id="48217-291">查看为将安排到位置 2 的物料 (*T0100*) 和数量（*2* 个）显示的详细信息（对于销售订单 2）。</span><span class="sxs-lookup"><span data-stu-id="48217-291">View the details that are shown for the item (*T0100*) and quantity (*2* ea) that will be sorted into position 2 (for sales order 2).</span></span>
+1. <span data-ttu-id="48217-292">将 **位置名称** 字段设置为 *2*。</span><span class="sxs-lookup"><span data-stu-id="48217-292">Set the **POSITION NA** field to *2*.</span></span>
+1. <span data-ttu-id="48217-293">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="48217-293">Select **OK** (check mark symbol).</span></span>
+1. <span data-ttu-id="48217-294">查看为将安排到位置 1 的物料 (*T0100*) 和数量（*2* 个）显示的详细信息（对于销售订单 1）。</span><span class="sxs-lookup"><span data-stu-id="48217-294">View the details that are shown for the item (*T0100*) and quantity (*2* ea) that will be sorted into position 1 (for sales order 1).</span></span>
+1. <span data-ttu-id="48217-295">将 **位置名称** 字段设置为 *1*。</span><span class="sxs-lookup"><span data-stu-id="48217-295">Set the **POSITION NA** field to *1*.</span></span>
+1. <span data-ttu-id="48217-296">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="48217-296">Select **OK** (check mark symbol).</span></span>
 
-    <span data-ttu-id="a0fb4-297">将显示 **任务: 群集领料创建: 放置** 页面。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-297">The **TASK: Cluster Pick Create: Put** page appears.</span></span>
+    <span data-ttu-id="48217-297">将显示 **任务: 群集领料创建: 放置** 页面。</span><span class="sxs-lookup"><span data-stu-id="48217-297">The **TASK: Cluster Pick Create: Put** page appears.</span></span>
 
-<span data-ttu-id="a0fb4-298">在此方案中，已完成了群集领料，并且已指示用户将从位置 1 和 2 领取的物料放到暂存位置 *STAGE01*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-298">In this scenario, the cluster pick has been completed, and the user is directed to put away the picked items from position 1 and position 2 into staging location *STAGE01*.</span></span>
+<span data-ttu-id="48217-298">在此方案中，已完成了群集领料，并且已指示用户将从位置 1 和 2 领取的物料放到暂存位置 *STAGE01*。</span><span class="sxs-lookup"><span data-stu-id="48217-298">In this scenario, the cluster pick has been completed, and the user is directed to put away the picked items from position 1 and position 2 into staging location *STAGE01*.</span></span>
 
-1. <span data-ttu-id="a0fb4-299">在页面中查看信息。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-299">Review the information on the page.</span></span> <span data-ttu-id="a0fb4-300">其显示将放到暂存位置的总数为 *44*。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-300">It shows that a total quantity of *44* will be put to the staging location.</span></span>
-1. <span data-ttu-id="a0fb4-301">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-301">Select **OK** (check mark symbol).</span></span>
+1. <span data-ttu-id="48217-299">在页面中查看信息。</span><span class="sxs-lookup"><span data-stu-id="48217-299">Review the information on the page.</span></span> <span data-ttu-id="48217-300">其显示将放到暂存位置的总数为 *44*。</span><span class="sxs-lookup"><span data-stu-id="48217-300">It shows that a total quantity of *44* will be put to the staging location.</span></span>
+1. <span data-ttu-id="48217-301">选择 **确定**（选中标记符号）。</span><span class="sxs-lookup"><span data-stu-id="48217-301">Select **OK** (check mark symbol).</span></span>
 
-    <span data-ttu-id="a0fb4-302">您将收到“群集已完成”消息。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-302">You receive a "Cluster Completed" message.</span></span>
+    <span data-ttu-id="48217-302">您将收到“群集已完成”消息。</span><span class="sxs-lookup"><span data-stu-id="48217-302">You receive a "Cluster Completed" message.</span></span>
 
-<span data-ttu-id="a0fb4-303">现在可以使用 **销售领料** 菜单项领取剩余数量。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-303">You can now use the **Sales Picking** menu item to pick the remaining quantity.</span></span> <span data-ttu-id="a0fb4-304">然后可以使用 **销售装载** 菜单项将物料从暂存位置移到装货场。</span><span class="sxs-lookup"><span data-stu-id="a0fb4-304">You can then use the **Sales loading** menu item to move the items from the staging location to the loading dock.</span></span>
+<span data-ttu-id="48217-303">现在可以使用 **销售领料** 菜单项领取剩余数量。</span><span class="sxs-lookup"><span data-stu-id="48217-303">You can now use the **Sales Picking** menu item to pick the remaining quantity.</span></span> <span data-ttu-id="48217-304">然后可以使用 **销售装载** 菜单项将物料从暂存位置移到装货场。</span><span class="sxs-lookup"><span data-stu-id="48217-304">You can then use the **Sales loading** menu item to move the items from the staging location to the loading dock.</span></span>
