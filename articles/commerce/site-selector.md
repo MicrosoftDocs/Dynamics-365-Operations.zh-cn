@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b4e5f715efcac7f883df99508d282db904be0d80
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: ed00836c435bd391e5edef1f6a99889c80f45211
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665215"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985578"
 ---
 # <a name="site-selector-module"></a>站点选择器模块
 
@@ -64,6 +63,3 @@ ms.locfileid: "4665215"
 [痕迹导航模块](add-breadcrumb.md)
 
 [导航菜单模块](nav-menu-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

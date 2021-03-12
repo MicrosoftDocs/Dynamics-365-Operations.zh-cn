@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4b3440c046ff055c8afa012c80c56aba741fef27
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410558"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985553"
 ---
 # <a name="module-library-overview"></a>模块库概述
 
@@ -66,6 +65,3 @@ Dynamics 365 Commerce 模块库是可用于生成电子商务网站的模块的�
 [页眉模块](author-header-module.md)
 
 [页脚模块](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

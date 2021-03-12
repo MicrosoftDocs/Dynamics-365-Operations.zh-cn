@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 86c6ecf9ef67ca3ac4ed3c44d930acaa965112b6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4f0801828086a7c5cc316895b5426a184a345ce1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410567"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982385"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>销售和退回不属于商店分类的产品
 
@@ -46,6 +45,3 @@ ms.locfileid: "4410567"
 + 在当前商店或其他商店提取产品。
 + 在当前商店或其他商店取消订单。
 + 在当前商店或其他商店持收据或不持收据退回订单。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

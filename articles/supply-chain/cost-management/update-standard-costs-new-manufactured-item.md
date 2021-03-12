@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 79693
 ms.assetid: ba64b70f-3f4c-4373-9a7d-8fd07c45a8cf
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ebd53d66eb81bbee9d3e67d05102c8df413d2a3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6af1c88aee878e0ab1e28fc0247d4c184f8b9d21
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422959"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983868"
 ---
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>为新的制造物料更新标准成本
 
@@ -53,6 +52,3 @@ ms.locfileid: "4422959"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

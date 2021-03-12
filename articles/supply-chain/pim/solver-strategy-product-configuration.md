@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PCCreateProductConfigurationModel, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb0fc054e0feec4c54c0bd916e01ce3a2a4cd903
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f79211f9a557813f0030a11002dc0ed2015ce258
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423229"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983235"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>产品配置的求解器策略
 
@@ -73,6 +72,3 @@ ms.locfileid: "4423229"
 [启发](https://techterms.com/definition/heuristic)
 
 [约束满足问题](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

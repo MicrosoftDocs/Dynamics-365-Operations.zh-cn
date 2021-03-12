@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: db0d78c7a6fa69aa4e0c4c82f92c33daabda073f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423183"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983333"
 ---
 # <a name="set-up-hazardous-materials"></a>设置危险物料
 
@@ -284,6 +283,3 @@ Microsoft Dynamics 365 Supply Chain Management 提供了几种类型的危险物
 *危险物料隧道* 规范通过标识必须使用的隧道类型来限制可以运输危险物料的隧道类型。 隧道类别由适用的危险物料运输法规建立。 此规范通常仅适用于陆运。
 
 要为此规范设置值，请转到 **产品信息管理 \> 设置 \> 危险物料装运文档 \> 危险物料隧道**。 在 **危险物料隧道** 页面上，您可以创建任意数量的隧道标识符，并为每个标识符配置标识代码和简短描述。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

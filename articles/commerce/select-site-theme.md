@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
-ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
+ms.openlocfilehash: 66fcff9fa18d3c98e022ef91d15903fbba8b6b61
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4556421"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982386"
 ---
 # <a name="select-a-site-theme"></a>选择站点主题
 
@@ -68,6 +67,3 @@ ms.locfileid: "4556421"
 
 [创建新主题](e-commerce-extensibility/create-theme.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

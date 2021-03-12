@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 647387bafe8866cb1bee8c57675629af796f33e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 045568797722a621ea4e6c82d10dbb266b9e8162
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410582"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982458"
 ---
 # <a name="media-gallery-module"></a>媒体库模块
 
@@ -104,6 +103,3 @@ ms.locfileid: "4410582"
 [容器模块](add-container-module.md)
 
 [上传图像](dam-upload-images.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

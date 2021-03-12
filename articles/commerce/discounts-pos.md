@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 118e7689e5d37aae18d3823b957301ddfa89369a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410490"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982633"
 ---
 # <a name="show-discounts-in-pos"></a>在 POS 中显示折扣
 
@@ -69,6 +68,3 @@ Commerce 中有一项操作，名称为“查看所有折扣”。 此操作显�
 下图显示当折扣并发控件设置为 **最优价格仅位于优先级中，请始终跨多个优先级进行复合** 时使用的逻辑。
 
 ![“最优价格仅位于优先级中，请始终跨多个优先级进行复合”的逻辑](./media/Model_2.png "“最优价格仅位于优先级中，请始终跨多个优先级进行复合”的逻辑")。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

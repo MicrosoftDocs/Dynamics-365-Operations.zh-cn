@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8b47aee41494394a32ffc0ea0c42a512e5051532
-ms.sourcegitcommit: b86576e1114e4125eba8c144d40c068025f670fc
+ms.openlocfilehash: cb696c365e02ab3e3b28da19b8b33f1975c142f8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666714"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983536"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>具有需求预测的主计划
 
@@ -274,6 +273,3 @@ ms.locfileid: "4666714"
 ### <a name="reduce-a-forecast-by-transactions"></a>按交易记录缩减预测
 
 如果用于缩减预测需求的方法选择 **交易记录 - 缩减参数** 或 **交易记录 - 动态期间**，则可指定哪些交易记录缩减预测。 如果所有交易记录均应缩减预测，请在 **覆盖范围组** 页面 **其他** 快速选项卡上的 **预测减少依据** 字段中选择 **所有交易记录**，如果只有销售订单才应缩减预测，请选择 **订单**。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

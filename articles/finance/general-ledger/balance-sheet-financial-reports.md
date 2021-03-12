@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e96552447182f3692a19d4cfd962afbcb28e5508
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d249172c2bc4241a47502b57f2ac20b29111eeba
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440823"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985004"
 ---
 # <a name="balance-sheet-financial-reports"></a>资产负债表财务报表
 
@@ -82,6 +81,3 @@ ms.locfileid: "4440823"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

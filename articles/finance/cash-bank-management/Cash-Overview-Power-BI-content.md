@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0f10022ae4906972d08e08e3e5476630213468d6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440792"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985453"
 ---
 # <a name="cash-overview-power-bi-content"></a>现金概览 Power BI 内容
 
@@ -79,6 +78,3 @@ ms.locfileid: "4440792"
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | 使用公司记帐币种的汇总的现金流入量、流出量和余额 |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | 使用系统币种的用于所有公司的汇总的现金流入量、流出量和余额 |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | 使用交易币种的汇总的净交易记录金额和币种余额 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: 2c39a72d22c01faec3856e7f47cb6b3811447cab
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423311"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983433"
 ---
 # <a name="improve-scheduling-engine-performance"></a>提高计划编制引擎性能
 
@@ -329,6 +328,3 @@ ms.locfileid: "4423311"
 
 > [!NOTE]
 > 作为 MRP 的一部分，设置的超时值将同时应用于下达的生产订单和计划的订单的计划编制。 因此，在为具有许多计划的生产订单的计划运行时，设置非常高的值可能会大大增加 MRP 的运行时间。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

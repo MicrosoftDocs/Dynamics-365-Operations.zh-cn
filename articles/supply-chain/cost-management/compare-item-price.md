@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, InventItemPriceCompareStorage, InventItemPriceCompareStorageDetailsChart, InventItemPriceCompareStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 73e43a685f390fd718028de6add0370dfcd6cf3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6554aec1991080f4a14aedb3440ff3dfd32e9b61
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423198"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983949"
 ---
 # <a name="compare-item-prices-storage-report"></a>比较物料价格存储报表
 
@@ -121,6 +120,3 @@ ms.locfileid: "4423198"
 1. 将打开 **执行摘要** 页，可在其中查看导出作业的状态和导出的实体的列表。 选择 **实体处理状态** 区域中列出的 **比较物料价格** 实体，然后选择 **下载文件** 下载从该实体导出的数据。
 
 有关如何使用数据管理导出数据的详细信息，请参阅[数据导入和导出作业概述](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

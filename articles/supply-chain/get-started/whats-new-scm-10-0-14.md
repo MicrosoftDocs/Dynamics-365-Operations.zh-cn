@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 584ea00c64df5e31d47e40aa32d7b266ff842de6
-ms.sourcegitcommit: 4e55bd178e315dfa132ec77fe705d68c68460b44
+ms.openlocfilehash: 7ff72721b9ed13e3457d72fa1896f663020eacff
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4423435"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983742"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Dynamics 365 Supply Chain Management 10.0.14（2020 年 11 月）中的新增功能或更改
 
@@ -64,6 +63,3 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.14 中包含平台更新。 
 从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。
 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常是需要对编译器进行的功能更新。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 99a52c03e519384955d68d7101a7b73b7e9a7af6
-ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
+ms.openlocfilehash: 236e1955dd80564e748aab1c595b017cb78e9418
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672173"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983483"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>通过计划优化进行库存标记
 
@@ -49,6 +48,3 @@ ms.locfileid: "4672173"
 - **无** – 不应用库存标记。
 - **标准** – 根据限定标准更新库存标记。 针对履行订单（供应）标记需求订单（需求）。 如果履行订单上还有一些数量，不会对其进行标记，并且参考信息将保留为空白。 例如，如果针对 150 ea 的采购订单限定 100 ea 的销售订单，参考信息将仅分配给销售订单。
 - **扩展** – 同时标记需求订单（需求）和履行订单（供应），不管履行订单上仍然存在的任何数量。 例如，如果针对 150 ea 的采购订单限定 100 ea 的销售订单，参考信息将分配给销售订单和采购订单。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

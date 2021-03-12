@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c118d99371f199a6c8e6e5c42375424b674245c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6f026d61a3e385c4ed621a3369b771f1ddf84369
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409750"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984887"
 ---
 # <a name="china-overview"></a>中国概览
 
@@ -52,6 +51,3 @@ ms.locfileid: "4409750"
 - [Microsoft Dynamics 本地化门户：中国报表](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/China.html)
 - [电子申报概览](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [从 Lifecycle Services 下载电子申报配置](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

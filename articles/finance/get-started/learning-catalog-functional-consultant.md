@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fe43038a962bffe6a21aa0a2c5a87edefdee83f7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3f74cc290617ce2b8401dbf8dc20fb8c2b2dacf8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440899"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984951"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-functional-consultants"></a>Dynamics 365 Finance 功能顾问学习目录
 
@@ -32,7 +31,7 @@ ms.locfileid: "4440899"
 ## <a name="get-started"></a>入门<a name="get-started"></a>
 
 | 内容| 说明  | 格式  | 长度  |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|
+|--------|--------------|---------|---------|
 | [了解 Microsoft Dynamics 365 和 Power Platform 的业务价值](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | 您是否有兴趣了解业务应用程序？ 也许您不知道从哪里开始使用 Microsoft Dynamics 365 和 Power Platform 应用程序？ 了解业务应用程序的力量如何帮助您转变业务。 | 自由、自定进度的在线学习路径 | 7 小时 |
 | [Dynamics 365 和 Power Platform 基本原理](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 自由、自定进度的在线学习路径 | 5.5 小时 |
 | [Finance and Operations 应用入门](https://docs.microsoft.com/learn/paths/get-started-finance-operations/) | 了解 Finance and Operations 应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用 Finance and Operations 应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
@@ -42,7 +41,7 @@ ms.locfileid: "4440899"
 ## <a name="core-platform-knowledge"></a>核心平台知识<a name="core-platform-knowledge"></a>
 
 | 内容  | 说明 | 格式  | 长度    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+|----------|-------------|---------|-----------|
 | [使用 Lifecycle Services 设计和规划 Finance and Operations 应用的实施](https://docs.microsoft.com/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS) 是一款协作工作区，供客户及其合作伙伴用于从售前到实施阶段，最后到生产环境管理 Finance and Operations 应用项目。 它提供了核对清单和工具来帮助您管理项目，包括用于帮助进行实施和定期更新服务的预构建方法。 | 自由、自定进度的在线学习路径 | 2 小时 |
 | [在 Finance and Operations 应用中配置组织](https://docs.microsoft.com/learn/paths/configure-your-organization-finance-ops/) | 作为使用 Finance and Operations 应用的功能顾问，您必须了解如何为客户设置组织。 除了其他任务，此学习路径也演示如何设置法人，实施安全设置，针对用户个性化用户界面，设计和构建移动应用程序，以及实施常用集成。 | 自由、自定进度的在线学习路径 | 12 小时 |
 | [迁移数据和实行 Finance and Operations 应用](https://docs.microsoft.com/learn/paths/migrate-data-go-live-finance-operations/) | 作为功能顾问，您必须了解如何准备要迁移的客户数据，使用数据管理，以及执行用户接受度测试以实行 Finance and Operations 应用。 | 自由、自定进度的在线学习路径 | 4 小时 |
@@ -74,7 +73,7 @@ ms.locfileid: "4440899"
 ## <a name="financial-management"></a>财务管理<a name="financial-management"></a>
 
 | 内容  | 说明  | 格式  | 长度    |
-|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
+|----------|--------------|---------|-----------|
 | [在 Dynamics 365 Finance 中配置和使用总帐](https://docs.microsoft.com/learn/paths/configure-use-general-ledger-dyn365-finance/) | 业务用户可通过 Dynamics 365 Finance 随时使用精确信息控制财务和管理资金来进行财务规划和预测，并通过分析掌握最新情况。 由于财务是业务的核心，所以“总帐”模块是财务管理的核心，因此，此学习路径介绍如何设置“总帐”模块中的功能。 另外还将介绍如何为期间或年度完成结转过程。 | 自由、自定进度的在线学习路径 | 13.5 小时 |
 | [在 Dynamics 365 Finance 中配置和使用现金和银行管理与销售税](https://docs.microsoft.com/learn/paths/configure-use-cash-bank-management-tax-dyn365-finance/ ) | 您可使用 Dynamics 365 Finance 中的“现金和银行管理”模块来维护组织的银行帐户以及与这些银行帐户关联的财务票据。 所有企业必须收取并向各税务主管机构支付税款。 在此学习路径中，将介绍如何配置和使用 Dynamics 365 Finance 的这些领域。 | 自由、自定进度的在线学习路径 | 7.5 小时 |
 | [在 Dynamics 365 Finance 中使用应付帐款](https://docs.microsoft.com/learn/paths/work-accounts-payable-dyn365-finance/) | 应付帐款是您在订购货物或服务期间未提前支付现金时应该向贷方支付的债务，这意味着您是赊帐购买货物的。 了解如何在 Dynamics 365 Finance 中配置应付帐款，记录供应商发票，以及在帐款之间摊销支出、税款和收费。 | 自由、自定进度的在线学习路径 | 5.5 小时 |
@@ -82,6 +81,7 @@ ms.locfileid: "4440899"
 | [在 Dynamics 365 Finance 中配置和使用预算编制](https://docs.microsoft.com/learn/paths/configure-use-budgeting-dyn365-finance/) | 每家组织（不管是私人的还是公共的）均通过创建预算设置财务和运营目标。 预算计划的协作和流程驱动性质让您可以提高预算流程的效率。 | 自由、自定进度的在线学习路径 | 2.5 小时 |
 | [在 Dynamics 365 Finance 中配置和管理固定资产](https://docs.microsoft.com/learn/paths/configure-manage-fixed-assets-dyn365-finance/) | 您可以设置和输入固定资产的购置信息，然后通过对固定资产进行折旧并设置资本化阈值，对固定资产进行管理。 处理固定资产的方式必须与国际会计标准和各国家或地区的会计法相符。 | 自由、自定进度的在线学习路径 | 4.5 小时 |
 | [开始使用 Dynamics 365 Finance 中的供应链成本核算](https://docs.microsoft.com/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) | 成本核算允许您从不同的数据源收集数据，如总帐、子分类帐、预算和统计信息。 然后可以分析、汇总和评估成本数据，因而管理层在价格更新、预算、成本控制等方面可以做出最有利的决策。 | 自由、自定进度的在线学习路径 | 1 小时 |
+| [使用 Dynamics 365 Project Operations 中的“费用管理”](https://docs.microsoft.com/learn/paths/work-expense-management/) | 借助 Dynamics 365 Project Operations 中的准确的费用管理功能，最大化盈利能力、最小化成本。 了解如何配置系统，以及如何创建和审批费用报表。 | 自由、自定进度的在线学习路径 | 5.5 小时 |
 | [为公共部门配置 Dynamics 365 Finance](https://docs.microsoft.com/learn/modules/configure-public-sector-dyn365-finance/) | Dynamics 365 Finance 启用对公共部门和私人部门通用的业务流程，例如预算编制、采购、应付帐款和应收帐款任务。 使用公共部门职能可满足为公共部门提供服务的组织的规则、法规和报告要求。 | 自由、自定进度的在线模块 | 1.5 小时 |
 | [在 Dynamics 365 Finance 中配置电子报告](https://docs.microsoft.com/learn/modules/configure-electronic-reporting-finance-operations/) | 无需扩展 Dynamics 365 Finance 的代码来满足不同国家或地区的管理功能与合规要求，商业用户可以配置和使用电子报告工具，无需编写一行代码。 例如，您可以采用新的法规要求，并可以使用所需格式生成业务文档以与政府机构、银行和其他当事方通过电子方式交换信息。 | 自由、自定进度的在线模块 | 3 小时 |
 | [财务申报(DYN305PAL)](https://community.dynamics.com/365/b/techtalks/posts/financial-reporting-april-25-2017) | 此技术交流将讨论 Dynamics 365 for Operations 中的财务申报设置和报表列表。 此会话还将介绍 UAT 环境中的数据市场重置和如何使用 LCS 诊断和搜索修补程序。 | 自由录制 Web 会议 | 57 分钟 |
@@ -93,10 +93,7 @@ ms.locfileid: "4440899"
 ## <a name="exam"></a>考试<a name="exam"></a>
 
 | 内容 | 说明  | 格式  |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| [考试 MB-300：Microsoft Dynamics 365 Unified Operations 核心](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：使用常用功能和实施工具，配置安全、流程和选项，执行数据迁移，以及验证和支持解决方案。 | 考试，成本取决于地区 |
+|---------|--------------|---------|
 | [Microsoft 认证：Dynamics 365 for Finance and Operations 财务功能顾问助理](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft 认证：Dynamics 365 for Finance and Operations 财务功能顾问整合全球财务和运营，并自动执行任务和工作流，简化客户下单、销售、开票和申报。 | 认证，成本取决于地区 |
+| [考试 MB-300：Microsoft Dynamics 365 Unified Operations 核心](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：使用常用功能和实施工具，配置安全、流程和选项，执行数据迁移，以及验证和支持解决方案。 | 考试，成本取决于地区 |
 | [考试 MB-310：Microsoft Dynamics 365 for Finance and Operations、Financials](https://docs.microsoft.com/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：设置和配置财务管理，管理和实施常见流程，实施和管理应付帐款和应收帐款，以及管理预算编制和固定资产。 | 考试，成本取决于地区 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

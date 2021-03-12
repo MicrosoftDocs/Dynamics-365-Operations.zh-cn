@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
+ms.openlocfilehash: 8067285237127bd43e8ff24166a15506cc0426f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423298"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983158"
 ---
 # <a name="automatic-allocation-of-charges"></a>自动分配费用
 
@@ -177,6 +176,3 @@ ms.locfileid: "4423298"
         > 当使用 **选择要从分配中排除的行** 网格时，请确保在选择 **分配** 之前将网格保持打开状态。 如果在选择 **分配** 之前关闭网格，您在网格中的设置将丢失。 因此，将根据您先前定义的条件分配费用。
 
 1. 选择 **分配** 以应用设置并关闭对话框。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

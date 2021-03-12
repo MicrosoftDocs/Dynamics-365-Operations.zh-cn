@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 973236acca0cb8c0d57171e4bb9d4daaa7faaf38
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 402ddf9a2646b2db0346e01504e8188120f16ae5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410519"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982205"
 ---
 # <a name="configure-and-run-job-to-calculate-statements"></a>配置和运行作业以计算报表
 
@@ -45,6 +44,3 @@ ms.locfileid: "4410519"
 11. 单击“确定”。
 12. 单击“确定”。
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

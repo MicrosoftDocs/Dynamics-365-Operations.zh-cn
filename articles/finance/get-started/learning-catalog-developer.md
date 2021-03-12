@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e57c51011f1d93a6f62eb88c9cc45a38f2d0a5f3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 59cfc629e7c6e978715f08bc4a3383ba6f9bb089
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528736"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984976"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Dynamics 365 Finance 开发人员学习目录
 
@@ -49,8 +48,8 @@ ms.locfileid: "4528736"
 | [Finance and Operations：使用 PowerApps 扩展 Dynamics 365 for Finance and Operations (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | 了解 Microsoft PowerApps 的简单性以及如何与 Dynamics 365 for Finance and Operations 集成以数字化转变业务并提高用户生产效率。 | 自由录制 Web 会议 | 43 分钟 |
 | [Finance and Operations：可扩展性 (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | 我们将提供有关 Microsoft 可扩展性计划的概述和更新。 我们将详细讨论各种用于扩展解决方案、深入了解元数据扩展性功能和增强与扩展代码的方法，包括通过强大的命令链功能。 | 自由录制 Web 会议 | 50 分钟 |
 | [Visual Studio Team Services (VSTS) 设置 (VIR782PAL) ](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | 此技术交流演练配置 VSTS 实例和项目以连接到开发/测试环境配置的 LCS 实施项目所需步骤。 | 自由录制 Web 会议 | 41 分钟 |
-| [CDS 数据集成器 (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | 请加入我们，参加有关 Common Data Service (CDS) 数据集成器功能的技术交流。 我们将讨论 Dynamics 365 Customer Engagement 与 Dynamics 365 Finance and Operations 之间的集成选项，以及与其他第三方解决方案的集成。 | 自由录制 Web 会议 | 61 分钟 |
-| [Dynamics 365 for Sales 与 Dynamics 365 for Finance & Operations 之间通过 CDS 集成 (DYN340PAL)](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | 在此技术交流中，将通过 Dynamics 365 for Sales 中的销售和市场营销活动和 Dynamics 365 for Finance and Operations 中的实施介绍称为“目标客户到现金”的集成方案。 我们还将查看数据集成器和如何修改集成。 | 自由录制 Web 会议 | 54 分钟 |
+| [Dataverse 数据集成器 (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | 请加入我们，参加有关 Dataverse 数据集成器功能的技术交流。 我们将讨论 Dynamics 365 Customer Engagement 与 Dynamics 365 Finance and Operations 之间的集成选项，以及与其他第三方解决方案的集成。 | 自由录制 Web 会议 | 61 分钟 |
+| [Dynamics 365 for Sales 与 Dynamics 365 for Finance & Operations 之间通过 Dataverse 集成 (DYN340PAL)](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | 在此技术交流中，将通过 Dynamics 365 for Sales 中的销售和市场营销活动和 Dynamics 365 for Finance and Operations 中的实施介绍称为“目标客户到现金”的集成方案。 我们还将查看数据集成器和如何修改集成。 | 自由录制 Web 会议 | 54 分钟 |
 | [数据管理 (DYN757PAL2)](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | 请与我们一起加入这场数据管理技术交流。 了解可用选项和建议使用这些选项的方案。 我们将介绍数据管理框架、模板、数据库复制、跨公司数据共享和性能注意事项。 | 自由录制 Web 会议 | 58 分钟 |
 | [Dynamics 365 for Finance and Operations 的 Azure 集成工具 (DYN386PAL)](https://community.dynamics.com/365/b/techtalks/posts/azure-integration-tools-for-dynamics-365-for-finance-and-operations-november-2-2017) | 此技术交流介绍与 Dynamics 365 for Finance & Operations 集成时可能需要考虑的工具类型和何时选择哪个集成工具。 此会话还将演练使用 Azure 集成服务编排的一些集成方案。 | 自由录制 Web 会议 | 63 分钟 |
 | [Dynamics 365 for Finance & Operations 内的集成框架 (DYN385PAL)](https://community.dynamics.com/365/b/techtalks/posts/integration-frameworks-within-dynamics-365-for-finance-amp-operations-october-31-2017) | 此会话将讨论 Dynamics 365 for Finance & Operations 内的集成框架的概述，并讨论使用这些框架时的注意事项。 | 自由录制 Web 会议 | 64 分钟 |
@@ -94,6 +93,3 @@ ms.locfileid: "4528736"
 | 内容 | 说明  | 格式  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 |[考试 MB-500：Microsoft Dynamics 365：Finance and Operations 应用开发人员](https://docs.microsoft.com/learn/certifications/exams/mb-500) | 此考试衡量您完成以下技术任务的能力：计划体系结构和解决方案设计；应用开发人员工具；设计和开发 AOT 元素；开发和测试代码；实施报告；集成和管理数据解决方案；以及实现安全性和优化性能。 | 考试，成本取决于地区 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
-ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
+ms.openlocfilehash: 8436fd3621e94fb761c076454423fe9842306c78
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4410614"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982230"
 ---
 # <a name="work-with-fragments"></a>使用片段 
 
@@ -136,6 +135,3 @@ ms.locfileid: "4410614"
 [使用预设布局](work-with-layouts.md)
 
 [使用发布组](publish-groups.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

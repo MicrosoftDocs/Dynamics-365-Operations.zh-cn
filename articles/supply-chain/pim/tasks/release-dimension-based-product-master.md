@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductRelease
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cd207d202c24ced9e29bdfc7386fb6464a838a0e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e45ed2090fe0e8ee1d128d1ed448844bd6741791
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422849"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983178"
 ---
 # <a name="release-a-dimension-based-product-master"></a>发布基于维度的基础产品
 
@@ -41,6 +40,3 @@ ms.locfileid: "4422849"
 7. 单击“下一步”。
 8. 单击“完成”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

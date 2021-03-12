@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: riluan
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a6e708e4dc818f20fc8d835053da75c2fe9c98f6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b3822cf4c26d7ef9cd0d062d57fa909140d7e258
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422979"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983917"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>库龄报表示例和逻辑
 
@@ -365,6 +364,3 @@ ms.locfileid: "4422979"
 </tr>
 </tfoot>
 </table>
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

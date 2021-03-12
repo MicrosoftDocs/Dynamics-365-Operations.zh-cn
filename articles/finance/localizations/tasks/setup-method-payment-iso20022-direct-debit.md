@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustPaymMode
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 38afbc3a49d9020540a56e58ce51196b53d6a9e1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c2cd5c174b0f3e3e15678513cecade020705beda
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440638"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982121"
 ---
 # <a name="setup-method-of-payment-for-iso20022-direct-debit"></a>为 ISO20022 银行转帐设置付款方式
 
@@ -53,6 +52,3 @@ ms.locfileid: "4440638"
     * 为客户付款格式选择“需要授权单参数”，这些格式要求付款消息中包含授权单信息，如 SEPA 直接借记。  
 9. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

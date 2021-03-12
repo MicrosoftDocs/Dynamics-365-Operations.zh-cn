@@ -1,5 +1,5 @@
 ---
-title: 应付帐款和应收帐款的外币重估
+title: 应付帐款和应收帐款的货币重估
 description: 汇率波动导致采用外币的未结交易记录的理论价值（帐面价值）在不同时间发生变化。 本文提供有关您运行的以更新应收帐款和应付帐款的未结交易记录的值的外币重估流程的信息。
 author: kweekley
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14211
 ms.assetid: defb1ea5-1f3e-4859-87d8-3f9954d3f388
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb7a101fa9ef84ec3873bcd8054b8198db8d58c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ec17572612da7152ca0737cbd9f327d29dc54f8c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440892"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985229"
 ---
-# <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>应付帐款和应收帐款的外币重估
+# <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>应付帐款和应收帐款的货币重估
 
 [!include [banner](../includes/banner.md)]
 
@@ -66,6 +65,3 @@ ms.locfileid: "4440892"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

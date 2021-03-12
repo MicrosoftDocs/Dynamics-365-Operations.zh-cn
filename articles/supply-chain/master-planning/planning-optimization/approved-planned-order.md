@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b7975088be898ccecceb1f7be009cecff107f6e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c29ede7ad8916a97b4a04b68f41961f79810e0c8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422971"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983561"
 ---
 # <a name="approve-planned-orders"></a>审核计划订单
 
@@ -43,6 +42,3 @@ ms.locfileid: "4422971"
 - **已批准：** 如果要保留编辑或计划确定计划订单，请将状态更改为 *已批准*。 主计划将状态为 *已批准* 的计划订单视为已确定和预期供应，所以不会在随后的主计划运行期间修改或删除这些订单。 为此，计划逻辑会在主计划期间将 *已审核* 的计划订单从旧计划版本复制到新计划版本。 请注意，*已批准* 的计划订单在特定主计划内仅视为供应。
 
 您可以从 **主计划** 工作区、**计划订单** 列表或 **计划生产订单**、**计划采购订单** 和 **计划转移** 列表中管理计划订单。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
-ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
+ms.openlocfilehash: e55db57089c8ea5bd3def25d79d9c65a3165526c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "4410642"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982706"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Modern POS (MPOS) 和 Cloud POS 中的演示数据屏幕布局
 
@@ -176,6 +175,3 @@ F4MGR
 <!-- Use the [POS Icon and Image Mapping](../commerce/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

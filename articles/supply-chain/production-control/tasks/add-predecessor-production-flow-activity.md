@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityRelationNew, PlanActivityLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c39cef1174439b42a072bd7fc1ac29ef31ecf864
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a9b761e61bf6a810da9258870e9a994da4ced125
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422730"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981423"
 ---
 # <a name="add-a-predecessor-to-a-production-flow-activity"></a>将前导活动添加到生产流活动
 
@@ -52,6 +51,3 @@ ms.locfileid: "4422730"
     * 活动关系的默认周期时间比率为 1。 这假设两个活动按照相同的速度或单位产品生产时间运行。 如果前导活动按照较高的速度（较低的单位产品生产时间）运行，则比率应低于 1，如果前导活动以较慢的速度（较高的单位产品生产时间）运行，则周期时间比率大于 1。  
 5. 单击“确定”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

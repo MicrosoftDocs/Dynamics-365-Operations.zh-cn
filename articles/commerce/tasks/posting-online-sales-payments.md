@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e3bac0cab764436a618fa570901c84ab720dbc86
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fbc85b957e716d07d9073d889c47f157ea0ead01
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410528"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982283"
 ---
 # <a name="posting-of-online-sales-and-payments"></a>过帐联机销售和付款
 
@@ -109,6 +108,3 @@ ms.locfileid: "4410528"
 - RetailTransactionMarkupTrans
 - RetailTransactionPaymentTrans
 - RetailTransactionAttributeTrans
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

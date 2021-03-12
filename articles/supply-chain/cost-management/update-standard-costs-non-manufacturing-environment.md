@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 79723
 ms.assetid: 7ba0c408-2450-4042-9542-6fdf83c12e6c
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09dca3012952b739a75a6930908752fba73a4550
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8bb4437078b2fd17a4edc6a66567da8c1741813f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422946"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983767"
 ---
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>更新非制造环境中的标准成本
 
@@ -52,6 +51,3 @@ ms.locfileid: "4422946"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

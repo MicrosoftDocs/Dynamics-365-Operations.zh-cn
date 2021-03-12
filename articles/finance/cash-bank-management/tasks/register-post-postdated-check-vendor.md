@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 63a822350ce2bd4d673d7f9841822c84fb883601
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3d26879ab54b5d87252287ab64fa3c7ae4ae4a90
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440788"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985204"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>为供应商登记和过帐远期支票
 
@@ -56,6 +55,3 @@ ms.locfileid: "4440788"
 16. 关闭该页面。
 17. 单击“远期支票”选项卡。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
