@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CAMCostControlUnit
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 698989d55994660fa7566cf473cf3fa1ae1d9a83
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ac39cc87e69f65117a7463b12d90ce1bb122847f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440888"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990684"
 ---
 # <a name="define-cost-control-units"></a>定义成本控制单元
 
@@ -41,6 +40,3 @@ ms.locfileid: "4440888"
 10. 在“维度”字段中，输入或选择一个值。
 11. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e7636f5c664634c680edf2ff9d8bae5ebb9035af
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8fede81aa8c61eddba72b9ba2e780d61731f8253
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410501"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989244"
 ---
 # <a name="payment-methods-in-call-centers"></a>呼叫中心内的付款方式
 
@@ -53,6 +52,3 @@ ms.locfileid: "4410501"
 对于退款处理场景，呼叫中心也使用应收帐款中定义的一些付款方式。 若要配置这些付款方式，请转至 **Retail 和 Commerce** \> **渠道设置** \> **呼叫中心设置** \> **呼叫中心退款方式**。 必须完成此项配置，才能处理客户的退款票据。 例如，如果客户最初付款时使用的是现金或支票，则该用户可能希望通过应收帐款向客户发送退款票据。 在此情况下，必须将呼叫中心中的现金和支票付款类型映射到应收帐款中的正确付款方式，以帮助确保正确处理退款。
 
 此处，如果用户正在 Commerce 中以呼叫中心用户的身份处理退货单，但是不能将退货与原始销售订单关联，则必须在“呼叫中心参数”中定义 **退货** 付款方式。 转至 **Retail 和 Commerce** \> **渠道设置** \> **呼叫中心设置** \> **呼叫中心参数**，然后确保在 **RMA/退货** 选项卡的 **付款方式** 字段中定义了付款方式。 此付款方式将充当退款所用付款方式。 通常将其定义为支票方式或客户帐户方式。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

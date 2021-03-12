@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
 ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38ee6c5b3d258c313a2066b388a83330bf696d39
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f30b8d1061eb2fe709df38628acd798448c8929e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440907"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989219"
 ---
 # <a name="postdated-checks"></a>远期支票
 
@@ -99,6 +98,3 @@ Dynamics 365 Finance 支持应收帐款和应付帐款中远期支票的完整�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

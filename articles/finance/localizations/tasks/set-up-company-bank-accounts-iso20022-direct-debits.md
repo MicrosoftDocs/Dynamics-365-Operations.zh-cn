@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankAccountTable, OMLegalEntity, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 652d8aa8f78d9a12ee390d23904f2c94d9bcf684
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b0faa23193111ed771ccc3a5c7f99ca908a036e9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440675"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988128"
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a>设置 ISO20022 直接借记的公司银行帐户
 
@@ -60,6 +59,3 @@ ms.locfileid: "4440675"
     * 例如：选择“DEMF OPER”银行帐户。  
 6. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

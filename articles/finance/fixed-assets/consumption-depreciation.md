@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13751
 ms.assetid: d25a681f-49a5-4bfc-aa76-1c6373e35dd8
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c9d95a7a45ed99c63516749285126c786685c87
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e78e2481724aede93ecb997d95a0ef8032618bbd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440632"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989019"
 ---
 # <a name="consumption-depreciation"></a>工作量法折旧
 
@@ -68,6 +67,3 @@ ms.locfileid: "4440632"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

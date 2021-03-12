@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 3a2c8a69a2c64214a38a654042ea2f62575e7f52
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 433ed2152c47dbe698a640b099cb34727fe63452
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422879"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989685"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>设置移动设备菜单项以提供领料行概览
 
@@ -69,6 +68,3 @@ ms.locfileid: "4422879"
     - 使用其余的 **显示字段** 字段来根据需要添加其他显示字段，最多可添加七个。 每个 **显示字段** 字段中，选择工作行字段的名称。 然后每行将为该字段显示一个值。 这些值将按照您在此处选择的顺序显示。 如果七个值您不是全部需要，可以将某些 **显示字段** 字段保留为空白。
 
 1. 在操作窗格上选择 **保存**，然后关闭 **字段列表** 页。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

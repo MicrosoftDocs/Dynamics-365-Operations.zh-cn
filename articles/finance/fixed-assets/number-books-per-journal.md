@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d4ba98cefdc0b555eedfaa56b6a3ca4870b5de93
-ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
+ms.openlocfilehash: cfb9a9e1456a7d9067e3c4369a7eb7150326655d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4650648"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988944"
 ---
 # <a name="number-of-books-per-journal"></a>每个日记帐的帐簿数
 
@@ -46,7 +45,7 @@ ms.locfileid: "4650648"
 
 如果同一日记帐中不存在重复的资产 ID，则将限制帐簿的数量。 但是，如果资产 ID 与帐簿 ID 相同，则可以超出每个日记帐的帐簿数，以将资产 ID 保留在同一日记帐中。
 
-例如，有 5,001 个固定资产 ID，每个固定资产 ID 与三本帐簿关联，而每本资产帐簿过帐到同一个过帐层。 您连续三个月运行折旧，但不汇总。 折旧日记帐将通过批处理作业创建，并且系统将创建七个日记帐，这些日记帐具有 667 个固定资产 ID，每个固定资产 ID 包含三本帐簿。 结果将为 2,001 本帐簿。 因此，在三个月内，将有 6003 个日记帐行在同一日记帐中维护相同的资产 ID。 系统还将创建一个日记帐，其中有 332 个固定资产 ID，每个固定资产 ID 三本帐簿。 在三个月内，将有 2988 行。
+例如，有 5,001 个固定资产 ID，每个固定资产 ID 与三本帐簿关联，而每本资产帐簿过帐到同一个过帐层。 您连续三个月运行折旧，但不汇总。  折旧日记帐将通过批处理作业创建，并且系统将创建七个日记帐，这些日记帐具有 667 个固定资产 ID，每个固定资产 ID 包含三本帐簿。 结果将为 2,001 本帐簿。 因此，在三个月内，将有 6003 个日记帐行在同一日记帐中维护相同的资产 ID。 系统还将创建一个日记帐，其中有 332 个固定资产 ID，每个固定资产 ID 三本帐簿。 在三个月内，将有 2988 行。
 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+> [!Note] 
+> 如果在创建折旧方案时启用了 **汇总折旧** 参数，**每个日记帐的帐簿数 - 折旧方案** 字段中的值将无效。 在这种情况下，每个日记帐的帐簿数为 6000，这是内部定义的限制。

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3001
 ms.assetid: 7dabde57-0843-47c3-85ef-f36b6f472e30
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a80e4d1a081b5bd8c58238b0f154f8fbdc660ccb
-ms.sourcegitcommit: f80819c67c0a7475315fc68ce1cb568831e2c0e7
+ms.openlocfilehash: cf35194badfa3c09758ad4dd9927af172a4ffdab
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "4493664"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990530"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>将固定资产交易记录过帐到过帐层
 
@@ -49,6 +48,3 @@ ms.locfileid: "4493664"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

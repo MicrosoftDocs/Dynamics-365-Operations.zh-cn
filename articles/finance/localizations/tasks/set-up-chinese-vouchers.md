@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerVoucherType_CN, HcmWorkerLookUp, LedgerParameters, LedgerPrintLayoutGroup_CN
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed9aafe9c5d78af52f6397b384c574fe98fce620
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 42817cb1c9a069568404eb84ce48ba9a159c7642
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409748"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988185"
 ---
 # <a name="set-up-chinese-vouchers"></a>设置中国式凭证
 
@@ -101,6 +100,3 @@ ms.locfileid: "4409748"
 8. 在“打印布局代码”字段中，选择一个选项。
 9. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

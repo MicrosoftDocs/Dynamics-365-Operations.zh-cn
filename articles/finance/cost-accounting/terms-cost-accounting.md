@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 948beb7baa19c69530dca52b5d4c119b69f8f011
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2bd821fdfe62475849e6d3b80d3a2c377bbabf4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440884"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990609"
 ---
 # <a name="cost-accounting-terminology"></a>成本核算术语
 
@@ -205,6 +204,3 @@ ms.locfileid: "4440884"
 版本用于模拟、查看和比较不同结果。 默认情况下，所有实际成本在一个名为“*实际*”的基础版本中查看。 对于预算和计算，您可以视需要处理任意数量的版本。 例如，您可以将预算数据导入到原始版本中，然后在修订版本中修订预算。 对于计算，您可以创建多个版本。 然后，您可以在这些不同的版本中使用适用于成本分摊的不同计算规则创建计算。
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

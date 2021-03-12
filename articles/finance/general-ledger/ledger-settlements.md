@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerTransSettlement
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: d41a69bed3d1340736cc7df35aa3ded032d4d79d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 185a95cfebef0e9d6e7914f3102aa5ecb40a877a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440666"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988691"
 ---
 # <a name="ledger-settlements"></a>分类帐结算
 
@@ -75,6 +74,3 @@ ms.locfileid: "4440666"
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>更新交易记录列表中包括的科目列表
 
 选择 **分类帐结算科目** 打开您可以编辑交易记录列表中包括的科目的对话框。 选择 **新** 向列表添加新科目。 此列表用于筛选在 **分类帐结算** 页显示的交易记录的列表。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

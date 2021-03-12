@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxProfileTable_CN, HcmWorkerLookUp, UnitOfMeasureLookup, CustTable, LogisticsPostalAddress, TaxGroupLookup, VATInvoiceDescTable_CN
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 732eefdce7b9f6fc3d132eeb0f132f8d9a2d160e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 183f44bf82dc59c80a77318391ac26ea1ee523a2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409749"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988188"
 ---
 # <a name="set-up-basic-tax-integration-profile-for-china"></a>设置中国的基本税务集成模板
 
@@ -70,6 +69,3 @@ ms.locfileid: "4409749"
 35. 在“单位”字段中，输入或选择一个值。
 36. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

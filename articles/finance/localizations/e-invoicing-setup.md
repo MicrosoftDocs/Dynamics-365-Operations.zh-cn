@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 7e631f1bf64b47b5f3e85d4f98c6edafe67d627a
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: 0561a3307f8b990c06dd25c9fc3fd7097254061f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4440933"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988457"
 ---
 # <a name="set-up-the-electronic-invoicing-add-on"></a>设置电子开票附加产品
 
@@ -361,6 +360,3 @@ ms.locfileid: "4440933"
 
     > [!NOTE]
     > 当您选择 **是** 时，配置版本的状态会自动从 **已完成** 更改为 **已共享**。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

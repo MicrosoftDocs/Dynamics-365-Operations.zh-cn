@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04126c0cddd1242e9607274e35f4b7626ad573d2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440601"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990456"
 ---
 # <a name="dual-currency"></a>双货币
 
@@ -209,6 +208,3 @@ Dynamics 365 Finance 版本 10.0.5（2019 年 10 月）中将引入的功能可�
 -  现在可选择是否将源公司的记帐币种或申报币种用作合并公司中的交易币种。
 
 - 如果源公司中的记帐或申报币种与合并公司中的相同，将把源公司的币种金额直接复制到合并公司中的币种金额。 如果币种不同，将在合并公司中使用汇率计算记帐和申报币种金额。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

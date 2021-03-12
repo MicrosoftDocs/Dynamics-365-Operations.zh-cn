@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransVoucherTemplate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 360df29e6349fd4d42d6d14af646e929b73943bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 234cfb98cc07f6c8c81821584e4e1d509d033477
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440828"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988566"
 ---
 # <a name="create-a-journal-entry-using-template"></a>使用模板创建日记帐分录
 
@@ -63,6 +62,3 @@ ms.locfileid: "4440828"
 29. 在 **金额** 字段中，输入要应用于凭证的金额。 仅当凭证模板是百分比类型时才会显示 **金额** 字段。  
 30. 单击 **确定**。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

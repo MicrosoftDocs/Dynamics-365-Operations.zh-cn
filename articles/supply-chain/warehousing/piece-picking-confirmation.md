@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed63245066799d7d8f14362ab6c9193c0cda7c4a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 66903d142ecb7228e4fdec56dbd45472acbdeb69
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422877"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989635"
 ---
 # <a name="piece-picking-confirmation"></a>单件领料确认
 
@@ -51,6 +50,3 @@ ms.locfileid: "4422877"
 | 单件领料确认 | 可用于领料和盘点工作类型。 自动选择产品确认。 允许您从移动设备确认每件库存。 |
 |  最大件数  |                   如果启用单件领料确认，可用于领料工作。 设置您必须确认的件数限制。                   |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

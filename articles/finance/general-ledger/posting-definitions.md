@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans, LedgerParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15741
 ms.assetid: 1495e7e0-2e39-464c-8da9-f55b1ca1c6bb
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22a7b0acae02738e4f14905edb13fac1da0d0213
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1da98461d1faf59ad8496dbc5623e97ac88c8a28
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440777"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990331"
 ---
 # <a name="posting-definitions"></a>过帐定义
 
@@ -62,6 +61,3 @@ ms.locfileid: "4440777"
 有关详细信息，请参阅[过帐定义示例](example-posting-definitions.md)。 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

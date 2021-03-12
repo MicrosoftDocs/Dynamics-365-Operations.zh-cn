@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankAccountTable, OMLegalEntity, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e121ce7d87ee50a4e6b367a170eea4375d64fb3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ca0f0af3cccd4110c3da1703112a5b0f29bd64ad
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440676"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988162"
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-credit-transfers"></a>设置 ISO20022 贷方转帐的公司银行帐户
 
@@ -52,6 +51,3 @@ ms.locfileid: "4440676"
 4. 在“银行帐户”字段中，输入或选择一个值。
 5. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

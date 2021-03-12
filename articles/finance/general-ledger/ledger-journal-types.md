@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b9ab4eeacc54d2d0ea8e7dc9eb3dd846ffc9e29
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f215b31df120d152a84e994fbe9de739385ce836
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440668"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988719"
 ---
 # <a name="ledger-journal-types"></a>分类帐日记帐类型
 
@@ -68,6 +67,3 @@ ms.locfileid: "4440668"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

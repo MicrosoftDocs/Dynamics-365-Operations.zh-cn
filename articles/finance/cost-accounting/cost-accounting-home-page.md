@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace, CAMAXCostAccountingSetupWizard
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 20dd6ce5b12d39f0207244c404ae20cd61e3fa60
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 32003409ca070f98d3b3db75c790489c42be6081
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440645"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989044"
 ---
 # <a name="cost-accounting-home-page"></a>成本核算主页
 
@@ -53,6 +52,3 @@ ms.locfileid: "4440645"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d99233831ee4f838c0230e92db0750d94b2b55b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ec0e21ccecd5bf90e9b31b5aade33e585108c62
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440794"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990231"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Dynamics 365 Finance 用户学习目录
 
@@ -54,12 +53,10 @@ ms.locfileid: "4440794"
 | [在 Dynamics 365 Finance 中配置和使用预算编制](https://docs.microsoft.com/learn/paths/configure-use-budgeting-dyn365-finance/)   | 每家组织（不管是私人的还是公共的）均通过创建预算设置财务和运营目标。 预算计划的协作和流程驱动性质让您可以提高预算流程的效率。 | 自由、自定进度的在线学习路径 | 3.5 小时 |
 | [在 Dynamics 365 Finance 中配置和管理固定资产](https://docs.microsoft.com/learn/paths/configure-manage-fixed-assets-dyn365-finance/) | 您可以设置和输入固定资产的购置信息，然后通过对固定资产进行折旧并设置资本化阈值，对固定资产进行管理。 处理固定资产的方式必须与国际会计标准和各国家或地区的会计法相符。 | 自由、自定进度的在线学习路径 | 4.5 小时 |
 | [开始使用 Dynamics 365 Finance 中的供应链成本核算](https://docs.microsoft.com/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) | 成本核算允许您从不同的数据源收集数据，如总帐、子分类帐、预算和统计信息。 然后可以分析、汇总和评估成本数据，因而管理层在价格更新、预算、成本控制等方面可以做出最有利的决策。  | 自由、自定进度的在线学习路径 | 1 小时  |
+| [使用 Dynamics 365 Project Operations 中的“费用管理”](https://docs.microsoft.com/learn/paths/work-expense-management/) | 借助 Dynamics 365 Project Operations 中的准确的费用管理功能，最大化盈利能力、最小化成本。 了解如何配置系统，以及如何创建和审批费用报表。 | 自由、自定进度的在线学习路径 | 5.5 小时  |
 
 ## <a name="exam"></a>考试<a name="exam"></a>
 
 | 内容 | 说明  | 格式  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Dynamics 365 基本原理](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl)    | 证实您了解 Microsoft Dynamics 365、Power Platform、云概念、许可选项和部署与发布选项 | 考试，成本取决于地区 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

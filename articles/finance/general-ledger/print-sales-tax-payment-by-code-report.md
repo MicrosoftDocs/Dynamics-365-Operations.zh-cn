@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 7033999f7258e9ddd1d01620f9ad416e94ef3111
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dd490663e66d1eda0eb0ea052e5b54fb867f81df
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440764"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990282"
 ---
 # <a name="print-the-sales-tax-payment-by-code-report"></a>打印销售税支付（按代码）报表 
 
@@ -48,6 +47,3 @@ ms.locfileid: "4440764"
 下图显示生成的报表的示例。 如果报告代码分配给的销售税代码的 **销售税币种** 字段设置为 **EUR**，则此报表显示报告代码 **101** 的币种为 **EUR**。
 
 ![销售税支付（按代码）报表的示例](media/Sales-tax-payment-by-code-2.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

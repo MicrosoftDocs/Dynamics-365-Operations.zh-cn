@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12294
 ms.assetid: 30820be0-d943-4f8b-8c25-6414ec393b3d
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 429283865c66ca5f03608e4a02c3aba5bb5ea7e3
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 146d4b9946c1b29105cff637fa9d8803db3d0c0f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645569"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988769"
 ---
 # <a name="income-statement-financial-report"></a>收入报表财务报表
 
@@ -71,6 +70,3 @@ ms.locfileid: "4645569"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

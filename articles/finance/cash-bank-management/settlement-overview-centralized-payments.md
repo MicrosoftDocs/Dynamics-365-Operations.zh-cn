@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 222414
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea661441c6c810d144d423b054c1bef058cdd9d6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e66d5aac0c2ed966727ef569ac5345fcd91b841e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440742"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989192"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>集中付款的结算概览
 
@@ -108,6 +107,3 @@ ms.locfileid: "4440742"
 
 ## <a name="withholding-tax"></a>预缴税金
 与发票关联的供应商帐户用于确定是否应计算预缴税金。 如果预缴税金如果适用，则在与发票关联的法人中计算。 如果使用不同币种法人，则使用来自与发票关联的法人的汇率。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

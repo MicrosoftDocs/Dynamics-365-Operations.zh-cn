@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0997af638c141661afb677e2407a90a883168aed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f9259c9bbf52c1c09a7092db6976fc3fabca6601
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440609"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990431"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>建议固定资产购置
 
@@ -43,6 +42,3 @@ ms.locfileid: "4440609"
 - 只有在帐簿中设置了购置日期和购置价格的固定资产才会包含在购置方案中。  
 11. 在页面上，选择 **帐簿** 选项卡。
 12. 选择 **过帐**。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

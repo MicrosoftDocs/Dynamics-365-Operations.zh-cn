@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b58b2da949211f7eef804af98c866bf5074d47f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4704dde64305bd285d9796cc161205709bd6e7ed
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440613"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988919"
 ---
 # <a name="post-with-derived-books"></a>使用衍生帐簿过帐
 
@@ -59,6 +58,3 @@ ms.locfileid: "4440613"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

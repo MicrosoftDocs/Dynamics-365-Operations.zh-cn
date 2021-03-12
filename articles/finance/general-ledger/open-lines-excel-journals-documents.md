@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 62213
 ms.assetid: 211874a7-4bf0-4a0c-96c2-fa05042777d3
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5619460a36d23a25c793c660a54e98593820c46
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0aaf5339c689af9e8748ccb25ae63dfafda8a7b8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440808"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990381"
 ---
 # <a name="publish-journal-lines-and-documents-from-excel"></a>从 Excel 发布日记帐行和单据
 
@@ -55,6 +54,3 @@ ms.locfileid: "4440808"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
