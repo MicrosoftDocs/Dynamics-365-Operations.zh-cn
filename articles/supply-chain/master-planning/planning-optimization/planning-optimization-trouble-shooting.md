@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,59 +18,59 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: c3dd0bf262f65aac2359c05ff954bdfbd294353f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8e67a6faf52b51264555b06f56b289d19ca580d6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422778"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992487"
 ---
-# <a name="troubleshoot-planning-optimization"></a><span data-ttu-id="77cf2-103">计划优化故障排除</span><span class="sxs-lookup"><span data-stu-id="77cf2-103">Troubleshoot Planning Optimization</span></span> 
+# <a name="troubleshoot-planning-optimization"></a><span data-ttu-id="95f00-103">计划优化故障排除</span><span class="sxs-lookup"><span data-stu-id="95f00-103">Troubleshoot Planning Optimization</span></span> 
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="77cf2-104">本主题介绍如何解决在使用计划优化时可能遇到的常见问题。</span><span class="sxs-lookup"><span data-stu-id="77cf2-104">This topic describes how to fix common issues that you might encounter while working with Planning Optimization.</span></span>
+<span data-ttu-id="95f00-104">本主题介绍如何解决在使用计划优化时可能遇到的常见问题。</span><span class="sxs-lookup"><span data-stu-id="95f00-104">This topic describes how to fix common issues that you might encounter while working with Planning Optimization.</span></span>
 
-## <a name="installation-of-the-planning-optimization-add-in-doesnt-complete"></a><span data-ttu-id="77cf2-105">无法完成计划优化加载项的安装</span><span class="sxs-lookup"><span data-stu-id="77cf2-105">Installation of the Planning Optimization add-in doesn't complete</span></span>
+## <a name="installation-of-the-planning-optimization-add-in-doesnt-complete"></a><span data-ttu-id="95f00-105">无法完成计划优化加载项的安装</span><span class="sxs-lookup"><span data-stu-id="95f00-105">Installation of the Planning Optimization add-in doesn't complete</span></span>
 
-<span data-ttu-id="77cf2-106">计划优化需要已启用 Lifecycle Services (LCS) 的第 2 层或更高层高可用性环境（非 OneBox 环境），并且具有 Dynamics 365 Supply Chain Management 版本 10.0.7 或更高版本。</span><span class="sxs-lookup"><span data-stu-id="77cf2-106">Planning Optimization requires a Lifecycle Services (LCS) enabled, high-availability environment, tier 2 or higher (not a OneBox environment), with Dynamics 365 Supply Chain Management version 10.0.7 or later.</span></span> <span data-ttu-id="77cf2-107">如果尝试在 OneBox 环境中安装此加载项，将无法完成安装。</span><span class="sxs-lookup"><span data-stu-id="77cf2-107">If you try to install the add-in on a OneBox environment, the installation won't complete.</span></span>
+<span data-ttu-id="95f00-106">计划优化需要已启用 Lifecycle Services (LCS) 的第 2 层或更高层高可用性环境（非 OneBox 环境），并且具有 Dynamics 365 Supply Chain Management 版本 10.0.7 或更高版本。</span><span class="sxs-lookup"><span data-stu-id="95f00-106">Planning Optimization requires a Lifecycle Services (LCS) enabled, high-availability environment, tier 2 or higher (not a OneBox environment), with Dynamics 365 Supply Chain Management version 10.0.7 or later.</span></span> <span data-ttu-id="95f00-107">如果尝试在 OneBox 环境中安装此加载项，将无法完成安装。</span><span class="sxs-lookup"><span data-stu-id="95f00-107">If you try to install the add-in on a OneBox environment, the installation won't complete.</span></span>
 
-<span data-ttu-id="77cf2-108">**解决方法**：取消安装，然后使用第 2 层或更高层高可用性环境（非 OneBox 环境）。</span><span class="sxs-lookup"><span data-stu-id="77cf2-108">**Fix**: Cancel the installation and use a high-availability environment, tier 2 or higher (not a OneBox environment).</span></span>
+<span data-ttu-id="95f00-108">**解决方法**：取消安装，然后使用第 2 层或更高层高可用性环境（非 OneBox 环境）。</span><span class="sxs-lookup"><span data-stu-id="95f00-108">**Fix**: Cancel the installation and use a high-availability environment, tier 2 or higher (not a OneBox environment).</span></span>
 
-## <a name="planning-of-batch-jobs-fails-when-planning-optimization-is-enabled"></a><span data-ttu-id="77cf2-109">启用计划优化后计划批处理作业失败</span><span class="sxs-lookup"><span data-stu-id="77cf2-109">Planning of batch jobs fails when Planning Optimization is enabled</span></span>
+## <a name="planning-of-batch-jobs-fails-when-planning-optimization-is-enabled"></a><span data-ttu-id="95f00-109">启用计划优化后计划批处理作业失败</span><span class="sxs-lookup"><span data-stu-id="95f00-109">Planning of batch jobs fails when Planning Optimization is enabled</span></span>
 
-<span data-ttu-id="77cf2-110">启用计划优化时，将自动禁用内置主计划引擎。</span><span class="sxs-lookup"><span data-stu-id="77cf2-110">When you enable Planning Optimization, the built-in master planning engine is automatically disabled.</span></span> <span data-ttu-id="77cf2-111">如果在启用了计划优化的情况下触发了为内置 Supply Chain Management 计划引擎创建的主计划批处理作业，这些作业将失败。</span><span class="sxs-lookup"><span data-stu-id="77cf2-111">Master planning batch jobs that were created for the built-in Supply Chain Management planning engine will fail if they are triggered while Planning Optimization is enabled.</span></span> <span data-ttu-id="77cf2-112">可能会收到如下错误消息：*启用了计划优化时此操作触发了不支持的主计划*。</span><span class="sxs-lookup"><span data-stu-id="77cf2-112">You may receive an error message such as *This operation triggered master planning that isn't supported when Planning Optimization is enabled*.</span></span>
+<span data-ttu-id="95f00-110">启用计划优化时，将自动禁用内置主计划引擎。</span><span class="sxs-lookup"><span data-stu-id="95f00-110">When you enable Planning Optimization, the built-in master planning engine is automatically disabled.</span></span> <span data-ttu-id="95f00-111">如果在启用了计划优化的情况下触发了为内置 Supply Chain Management 计划引擎创建的主计划批处理作业，这些作业将失败。</span><span class="sxs-lookup"><span data-stu-id="95f00-111">Master planning batch jobs that were created for the built-in Supply Chain Management planning engine will fail if they are triggered while Planning Optimization is enabled.</span></span> <span data-ttu-id="95f00-112">可能会收到如下错误消息：*启用了计划优化时此操作触发了不支持的主计划*。</span><span class="sxs-lookup"><span data-stu-id="95f00-112">You may receive an error message such as *This operation triggered master planning that isn't supported when Planning Optimization is enabled*.</span></span>
 
-<span data-ttu-id="77cf2-113">**解决方法**：取消为内置 Supply Chain Management 计划引擎创建的所有主计划批处理作业。</span><span class="sxs-lookup"><span data-stu-id="77cf2-113">**Fix**: Cancel all master planning batch jobs that were created for the built-in Supply Chain Management planning engine.</span></span>
+<span data-ttu-id="95f00-113">**解决方法**：取消为内置 Supply Chain Management 计划引擎创建的所有主计划批处理作业。</span><span class="sxs-lookup"><span data-stu-id="95f00-113">**Fix**: Cancel all master planning batch jobs that were created for the built-in Supply Chain Management planning engine.</span></span>
 
-## <a name="planning-optimization-results-are-different-from-earlier-results"></a><span data-ttu-id="77cf2-114">计划优化结果与之前结果不同</span><span class="sxs-lookup"><span data-stu-id="77cf2-114">Planning Optimization results are different from earlier results</span></span>
+## <a name="planning-optimization-results-are-different-from-earlier-results"></a><span data-ttu-id="95f00-114">计划优化结果与之前结果不同</span><span class="sxs-lookup"><span data-stu-id="95f00-114">Planning Optimization results are different from earlier results</span></span>
 
-<span data-ttu-id="77cf2-115">计划优化在某些方面与内置主计划设计不同。</span><span class="sxs-lookup"><span data-stu-id="77cf2-115">Planning Optimization differs from the built-in master planning design in some areas.</span></span> <span data-ttu-id="77cf2-116">这也可能是待定功能导致的。</span><span class="sxs-lookup"><span data-stu-id="77cf2-116">This can also be caused by pending features.</span></span>
+<span data-ttu-id="95f00-115">计划优化在某些方面与内置主计划设计不同。</span><span class="sxs-lookup"><span data-stu-id="95f00-115">Planning Optimization differs from the built-in master planning design in some areas.</span></span> <span data-ttu-id="95f00-116">这也可能是待定功能导致的。</span><span class="sxs-lookup"><span data-stu-id="95f00-116">This can also be caused by pending features.</span></span>
 
-<span data-ttu-id="77cf2-117">**解决方法**：运行计划优化适应分析，然后在引用相关文档了解影响时分析结果。</span><span class="sxs-lookup"><span data-stu-id="77cf2-117">**Fix**: Run Planning Optimization fit analysis and then analyze the results while referring to the related documentation to understand the impact.</span></span> <span data-ttu-id="77cf2-118">有关详细信息，请参阅[计划优化拟合分析](planning-optimization-fit-analysis.md)。</span><span class="sxs-lookup"><span data-stu-id="77cf2-118">For more information, see [Planning Optimization fit analysis](planning-optimization-fit-analysis.md).</span></span>
+<span data-ttu-id="95f00-117">**解决方法**：运行计划优化适应分析，然后在引用相关文档了解影响时分析结果。</span><span class="sxs-lookup"><span data-stu-id="95f00-117">**Fix**: Run Planning Optimization fit analysis and then analyze the results while referring to the related documentation to understand the impact.</span></span> <span data-ttu-id="95f00-118">有关详细信息，请参阅[计划优化拟合分析](planning-optimization-fit-analysis.md)。</span><span class="sxs-lookup"><span data-stu-id="95f00-118">For more information, see [Planning Optimization fit analysis](planning-optimization-fit-analysis.md).</span></span>
 
-## <a name="master-planning-doesnt-respect-the-coverage-time-fence"></a><span data-ttu-id="77cf2-119">主计划不遵守覆盖时限</span><span class="sxs-lookup"><span data-stu-id="77cf2-119">Master planning doesn't respect the coverage time fence</span></span>
+## <a name="master-planning-doesnt-respect-the-coverage-time-fence"></a><span data-ttu-id="95f00-119">主计划不遵守覆盖时限</span><span class="sxs-lookup"><span data-stu-id="95f00-119">Master planning doesn't respect the coverage time fence</span></span>
 
-<span data-ttu-id="77cf2-120">这是计划优化的待定功能导致的。</span><span class="sxs-lookup"><span data-stu-id="77cf2-120">This is caused by a pending feature for Planning Optimization.</span></span>
+<span data-ttu-id="95f00-120">这是计划优化的待定功能导致的。</span><span class="sxs-lookup"><span data-stu-id="95f00-120">This is caused by a pending feature for Planning Optimization.</span></span>
 
-<span data-ttu-id="77cf2-121">**解决方法**：待定功能可用之前，筛选或删除计划的订单以将供应建议移出覆盖时限。</span><span class="sxs-lookup"><span data-stu-id="77cf2-121">**Fix**: Until the pending feature is available, filter or delete planned orders to remove supply suggestions outside of the coverage time fence.</span></span>
+<span data-ttu-id="95f00-121">**解决方法**：待定功能可用之前，筛选或删除计划的订单以将供应建议移出覆盖时限。</span><span class="sxs-lookup"><span data-stu-id="95f00-121">**Fix**: Until the pending feature is available, filter or delete planned orders to remove supply suggestions outside of the coverage time fence.</span></span>
 
-## <a name="cant-enable-planning-optimization"></a><span data-ttu-id="77cf2-122">不能启用计划优化</span><span class="sxs-lookup"><span data-stu-id="77cf2-122">Can't enable Planning Optimization</span></span>
+## <a name="cant-enable-planning-optimization"></a><span data-ttu-id="95f00-122">不能启用计划优化</span><span class="sxs-lookup"><span data-stu-id="95f00-122">Can't enable Planning Optimization</span></span>
 
-<span data-ttu-id="77cf2-123">**连接状态** 必须先为 **已连接**，然后才能将 **使用计划优化** 设置为 **是**。</span><span class="sxs-lookup"><span data-stu-id="77cf2-123">The **Connection status** must be **Connected** before you can set **Use Planning Optimization** to **Yes**.</span></span> <span data-ttu-id="77cf2-124">有关详细信息，请参阅[开始使用计划优化](get-started.md)。</span><span class="sxs-lookup"><span data-stu-id="77cf2-124">For more information, see [Get started with Planning Optimization](get-started.md).</span></span>
+<span data-ttu-id="95f00-123">**连接状态** 必须先为 **已连接**，然后才能将 **使用计划优化** 设置为 **是**。</span><span class="sxs-lookup"><span data-stu-id="95f00-123">The **Connection status** must be **Connected** before you can set **Use Planning Optimization** to **Yes**.</span></span> <span data-ttu-id="95f00-124">有关详细信息，请参阅[开始使用计划优化](get-started.md)。</span><span class="sxs-lookup"><span data-stu-id="95f00-124">For more information, see [Get started with Planning Optimization](get-started.md).</span></span>
 
-<span data-ttu-id="77cf2-125">**解决方法**：确保已成功安装了计划优化加载项。</span><span class="sxs-lookup"><span data-stu-id="77cf2-125">**Fix**: Make sure that the Planning Optimization add-in was installed successfully.</span></span>
+<span data-ttu-id="95f00-125">**解决方法**：确保已成功安装了计划优化加载项。</span><span class="sxs-lookup"><span data-stu-id="95f00-125">**Fix**: Make sure that the Planning Optimization add-in was installed successfully.</span></span>
 
-## <a name="error-message-is-shown-during-ctp"></a><span data-ttu-id="77cf2-126">CTP 期间显示错误消息</span><span class="sxs-lookup"><span data-stu-id="77cf2-126">Error message is shown during CTP</span></span>
+## <a name="error-message-is-shown-during-ctp"></a><span data-ttu-id="95f00-126">CTP 期间显示错误消息</span><span class="sxs-lookup"><span data-stu-id="95f00-126">Error message is shown during CTP</span></span>
 
-<span data-ttu-id="77cf2-127">如果在已启用了计划优化的情况下从销售订单运行可承诺量 (CTP)，将收到以下错误消息：*启用了计划优化时此操作触发了不支持的主计划*。</span><span class="sxs-lookup"><span data-stu-id="77cf2-127">If you try to run capable to promise (CTP) from a sales order when Planning Optimization is enabled, you will receive the following error message: *This operation triggered master planning that isn't supported when the Planning Optimization is enabled*.</span></span>
+<span data-ttu-id="95f00-127">如果在已启用了计划优化的情况下从销售订单运行可承诺量 (CTP)，将收到以下错误消息：*启用了计划优化时此操作触发了不支持的主计划*。</span><span class="sxs-lookup"><span data-stu-id="95f00-127">If you try to run capable to promise (CTP) from a sales order when Planning Optimization is enabled, you will receive the following error message: *This operation triggered master planning that isn't supported when the Planning Optimization is enabled*.</span></span>
 
-<span data-ttu-id="77cf2-128">这与为了支持生产订单时计划的待定功能有关。</span><span class="sxs-lookup"><span data-stu-id="77cf2-128">This is related to a pending feature that is planned as part of the support for production orders.</span></span>
+<span data-ttu-id="95f00-128">这与为了支持生产订单时计划的待定功能有关。</span><span class="sxs-lookup"><span data-stu-id="95f00-128">This is related to a pending feature that is planned as part of the support for production orders.</span></span>
 
-<span data-ttu-id="77cf2-129">**解决方法：** 启用计划优化后避免计算 CTP，直到 CTP 支持可用。</span><span class="sxs-lookup"><span data-stu-id="77cf2-129">**Fix:** Avoid CTP calculations when Planning Optimization is enabled until CTP support is available.</span></span>
+<span data-ttu-id="95f00-129">**解决方法：** 启用计划优化后避免计算 CTP，直到 CTP 支持可用。</span><span class="sxs-lookup"><span data-stu-id="95f00-129">**Fix:** Avoid CTP calculations when Planning Optimization is enabled until CTP support is available.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="77cf2-130">其他资源</span><span class="sxs-lookup"><span data-stu-id="77cf2-130">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="95f00-130">其他资源</span><span class="sxs-lookup"><span data-stu-id="95f00-130">Additional resources</span></span>
 
-[<span data-ttu-id="77cf2-131">开始使用计划优化</span><span class="sxs-lookup"><span data-stu-id="77cf2-131">Get started with Planning Optimization</span></span>](get-started.md)
+[<span data-ttu-id="95f00-131">开始使用计划优化</span><span class="sxs-lookup"><span data-stu-id="95f00-131">Get started with Planning Optimization</span></span>](get-started.md)
 
-[<span data-ttu-id="77cf2-132">计划优化适应分析</span><span class="sxs-lookup"><span data-stu-id="77cf2-132">Planning Optimization fit analysis</span></span>](planning-optimization-fit-analysis.md)
+[<span data-ttu-id="95f00-132">计划优化适应分析</span><span class="sxs-lookup"><span data-stu-id="95f00-132">Planning Optimization fit analysis</span></span>](planning-optimization-fit-analysis.md)
