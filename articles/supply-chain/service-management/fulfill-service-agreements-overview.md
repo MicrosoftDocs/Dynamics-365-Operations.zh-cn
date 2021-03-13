@@ -11,34 +11,33 @@ ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65c26c5bcea386e7cdb3a2be95da26dcb53ce44c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 19d31cc3a651f4978a0f5f432c39579ccb871418
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423220"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010639"
 ---
-# <a name="fulfill-service-agreements-overview"></a><span data-ttu-id="f1c9b-103">履行服务协议概览</span><span class="sxs-lookup"><span data-stu-id="f1c9b-103">Fulfill service agreements overview</span></span> 
+# <a name="fulfill-service-agreements-overview"></a><span data-ttu-id="d0bce-103">履行服务协议概览</span><span class="sxs-lookup"><span data-stu-id="d0bce-103">Fulfill service agreements overview</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="f1c9b-104">本主题提供履行服务协议的任务的概览。</span><span class="sxs-lookup"><span data-stu-id="f1c9b-104">This topic provides an overview of the tasks to fulfill service agreements.</span></span> <span data-ttu-id="f1c9b-105">本主题还列出与每个业务流程组件相关联的窗体，并且讨论与每个业务流程组件相关联的任务。</span><span class="sxs-lookup"><span data-stu-id="f1c9b-105">The topic also lists the forms that are associated with each business process component and discusses the tasks that are associated with each business process component.</span></span>
+<span data-ttu-id="d0bce-104">本主题提供履行服务协议的任务的概览。</span><span class="sxs-lookup"><span data-stu-id="d0bce-104">This topic provides an overview of the tasks to fulfill service agreements.</span></span> <span data-ttu-id="d0bce-105">本主题还列出与每个业务流程组件相关联的窗体，并且讨论与每个业务流程组件相关联的任务。</span><span class="sxs-lookup"><span data-stu-id="d0bce-105">The topic also lists the forms that are associated with each business process component and discusses the tasks that are associated with each business process component.</span></span>
 
-## <a name="forms-for-the-fulfill-service-contracts-business-process-components"></a><span data-ttu-id="f1c9b-106">履行服务合同业务流程组件窗体</span><span class="sxs-lookup"><span data-stu-id="f1c9b-106">Forms for the Fulfill service contracts business process components</span></span>
+## <a name="forms-for-the-fulfill-service-contracts-business-process-components"></a><span data-ttu-id="d0bce-106">履行服务合同业务流程组件窗体</span><span class="sxs-lookup"><span data-stu-id="d0bce-106">Forms for the Fulfill service contracts business process components</span></span>
 
-<span data-ttu-id="f1c9b-107">下表列出了支持履行服务合同业务流程组件的窗体。</span><span class="sxs-lookup"><span data-stu-id="f1c9b-107">The following table lists the forms that support the Fulfill service contracts business process components.</span></span> <span data-ttu-id="f1c9b-108">该表条目首先按任务组织，然后按窗体的名称以字母顺序组织。</span><span class="sxs-lookup"><span data-stu-id="f1c9b-108">The table entries are organized first by task, and then alphabetically by the name of the form.</span></span>
+<span data-ttu-id="d0bce-107">下表列出了支持履行服务合同业务流程组件的窗体。</span><span class="sxs-lookup"><span data-stu-id="d0bce-107">The following table lists the forms that support the Fulfill service contracts business process components.</span></span> <span data-ttu-id="d0bce-108">该表条目首先按任务组织，然后按窗体的名称以字母顺序组织。</span><span class="sxs-lookup"><span data-stu-id="d0bce-108">The table entries are organized first by task, and then alphabetically by the name of the form.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="f1c9b-109">要打开下表中的一些窗体，您必须输入信息或参数设置。</span><span class="sxs-lookup"><span data-stu-id="f1c9b-109">To open some of the forms in the following table, you must enter information or parameter settings.</span></span></P>
+> <P><span data-ttu-id="d0bce-109">要打开下表中的一些窗体，您必须输入信息或参数设置。</span><span class="sxs-lookup"><span data-stu-id="d0bce-109">To open some of the forms in the following table, you must enter information or parameter settings.</span></span></P>
 
 
 
@@ -50,56 +49,56 @@ ms.locfileid: "4423220"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="f1c9b-110">业务流程组件任务</span><span class="sxs-lookup"><span data-stu-id="f1c9b-110">Business process component task</span></span></p></th>
-<th><p><span data-ttu-id="f1c9b-111">窗体名称</span><span class="sxs-lookup"><span data-stu-id="f1c9b-111">Form name</span></span></p></th>
-<th><p><span data-ttu-id="f1c9b-112">用法</span><span class="sxs-lookup"><span data-stu-id="f1c9b-112">Usage</span></span></p></th>
+<th><p><span data-ttu-id="d0bce-110">业务流程组件任务</span><span class="sxs-lookup"><span data-stu-id="d0bce-110">Business process component task</span></span></p></th>
+<th><p><span data-ttu-id="d0bce-111">窗体名称</span><span class="sxs-lookup"><span data-stu-id="d0bce-111">Form name</span></span></p></th>
+<th><p><span data-ttu-id="d0bce-112">用法</span><span class="sxs-lookup"><span data-stu-id="d0bce-112">Usage</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f1c9b-113">形成和确定协议</span><span class="sxs-lookup"><span data-stu-id="f1c9b-113">Develop and establish agreement</span></span></p></td>
-<td><p><span data-ttu-id="f1c9b-114"><strong>服务协议</strong></span><span class="sxs-lookup"><span data-stu-id="f1c9b-114"><strong>Service agreements</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1c9b-115">创建和维护服务协议。</span><span class="sxs-lookup"><span data-stu-id="f1c9b-115">Create and maintain service agreements.</span></span></p></td>
+<td><p><span data-ttu-id="d0bce-113">形成和确定协议</span><span class="sxs-lookup"><span data-stu-id="d0bce-113">Develop and establish agreement</span></span></p></td>
+<td><p><span data-ttu-id="d0bce-114"><strong>服务协议</strong></span><span class="sxs-lookup"><span data-stu-id="d0bce-114"><strong>Service agreements</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0bce-115">创建和维护服务协议。</span><span class="sxs-lookup"><span data-stu-id="d0bce-115">Create and maintain service agreements.</span></span></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><span data-ttu-id="f1c9b-116"><strong>预订</strong></span><span class="sxs-lookup"><span data-stu-id="f1c9b-116"><strong>Subscription</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1c9b-117">创建和维护服务预订。</span><span class="sxs-lookup"><span data-stu-id="f1c9b-117">Create and maintain service subscriptions.</span></span></p></td>
+<td><p><span data-ttu-id="d0bce-116"><strong>预订</strong></span><span class="sxs-lookup"><span data-stu-id="d0bce-116"><strong>Subscription</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0bce-117">创建和维护服务预订。</span><span class="sxs-lookup"><span data-stu-id="d0bce-117">Create and maintain service subscriptions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f1c9b-118">监控和实施协议</span><span class="sxs-lookup"><span data-stu-id="f1c9b-118">Monitor and implement agreement</span></span></p></td>
-<td><p><span data-ttu-id="f1c9b-119"><strong>更改服务阶段</strong></span><span class="sxs-lookup"><span data-stu-id="f1c9b-119"><strong>Change service stage</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1c9b-120">选择服务订单工作流中的下一阶段。</span><span class="sxs-lookup"><span data-stu-id="f1c9b-120">Select the next stage in the workflow for a service order.</span></span></p></td>
+<td><p><span data-ttu-id="d0bce-118">监控和实施协议</span><span class="sxs-lookup"><span data-stu-id="d0bce-118">Monitor and implement agreement</span></span></p></td>
+<td><p><span data-ttu-id="d0bce-119"><strong>更改服务阶段</strong></span><span class="sxs-lookup"><span data-stu-id="d0bce-119"><strong>Change service stage</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0bce-120">选择服务订单工作流中的下一阶段。</span><span class="sxs-lookup"><span data-stu-id="d0bce-120">Select the next stage in the workflow for a service order.</span></span></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><span data-ttu-id="f1c9b-121"><strong>服务订单</strong></span><span class="sxs-lookup"><span data-stu-id="f1c9b-121"><strong>Service orders</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1c9b-122">创建和维护服务订单。</span><span class="sxs-lookup"><span data-stu-id="f1c9b-122">Create and maintain service orders.</span></span></p></td>
+<td><p><span data-ttu-id="d0bce-121"><strong>服务订单</strong></span><span class="sxs-lookup"><span data-stu-id="d0bce-121"><strong>Service orders</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0bce-122">创建和维护服务订单。</span><span class="sxs-lookup"><span data-stu-id="d0bce-122">Create and maintain service orders.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f1c9b-123">更新和评估合同</span><span class="sxs-lookup"><span data-stu-id="f1c9b-123">Update and evaluate contract</span></span></p></td>
-<td><p><span data-ttu-id="f1c9b-124"><strong>取消服务级别协议</strong></span><span class="sxs-lookup"><span data-stu-id="f1c9b-124"><strong>Cancel service level agreement</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1c9b-125">取消某一服务订单上的服务级别协议。</span><span class="sxs-lookup"><span data-stu-id="f1c9b-125">Cancel the service level agreement on a service order.</span></span></p></td>
+<td><p><span data-ttu-id="d0bce-123">更新和评估合同</span><span class="sxs-lookup"><span data-stu-id="d0bce-123">Update and evaluate contract</span></span></p></td>
+<td><p><span data-ttu-id="d0bce-124"><strong>取消服务级别协议</strong></span><span class="sxs-lookup"><span data-stu-id="d0bce-124"><strong>Cancel service level agreement</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0bce-125">取消某一服务订单上的服务级别协议。</span><span class="sxs-lookup"><span data-stu-id="d0bce-125">Cancel the service level agreement on a service order.</span></span></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><span data-ttu-id="f1c9b-126"><strong>取消服务订单</strong></span><span class="sxs-lookup"><span data-stu-id="f1c9b-126"><strong>Cancel service orders</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1c9b-127">取消服务订单或撤消服务订单的“已取消”状态。</span><span class="sxs-lookup"><span data-stu-id="f1c9b-127">Cancel service orders, or reverse the Canceled status of service orders.</span></span></p></td>
+<td><p><span data-ttu-id="d0bce-126"><strong>取消服务订单</strong></span><span class="sxs-lookup"><span data-stu-id="d0bce-126"><strong>Cancel service orders</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0bce-127">取消服务订单或撤消服务订单的“已取消”状态。</span><span class="sxs-lookup"><span data-stu-id="d0bce-127">Cancel service orders, or reverse the Canceled status of service orders.</span></span></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><span data-ttu-id="f1c9b-128"><strong>指数预订</strong></span><span class="sxs-lookup"><span data-stu-id="f1c9b-128"><strong>Index subscription</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1c9b-129">更新预订的基价和指数。</span><span class="sxs-lookup"><span data-stu-id="f1c9b-129">Update the base prices and indexes for subscriptions.</span></span></p></td>
+<td><p><span data-ttu-id="d0bce-128"><strong>指数预订</strong></span><span class="sxs-lookup"><span data-stu-id="d0bce-128"><strong>Index subscription</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0bce-129">更新预订的基价和指数。</span><span class="sxs-lookup"><span data-stu-id="d0bce-129">Update the base prices and indexes for subscriptions.</span></span></p></td>
 </tr>
 </tbody>
 </table>
