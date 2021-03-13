@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources 中的新增功能或更改（2020 年 2 月 3 日）
 description: 本文介绍 2020 年 2 月 3 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b9efcea4fa52f73ac09a3e0ae74582fc563aeb64
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 50112be7321c56da297d6d26f8aaf29264fc3c6c
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526993"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128129"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-3-2020"></a>Dynamics 365 Human Resources 中的新增功能或更改（2020 年 2 月 3 日）
 
@@ -45,7 +45,7 @@ ms.locfileid: "4526993"
 
 ## <a name="coming-soon"></a>即将推出
 
-一个新的 Common Data Service 解决方案很快将推出，其中包含以下更改：
+一个新的 Dataverse 解决方案很快将推出，其中包含以下更改：
 
 | 说明 | 找零 |
 | ----------------------------------------- | --- |
@@ -56,7 +56,7 @@ ms.locfileid: "4526993"
 | 新的可变薪酬设置实体 | **可变薪酬计划类型**</br>**薪酬可变计划**</br>**股份行权规则**</br>**可变薪酬计划级别** |
 | 新 **工作人员日历雇用** 实体 | 添加了 **工作日历实体** |
 | 新 **工资单职位详细信息** 实体 | 添加了 **工资单职位详细信息** |
-| 新 **职务** 实体 | 添加了 **职务**。 Human Resources 与 Common Data Service 之间的同步流程中将包含新的 **职务** 实体。 其最初不是从 **工作职位** 或 **工作** 实体引用的。 |
+| 新 **职务** 实体 | 添加了 **职务**。 Human Resources 与 Dataverse 之间的同步流程中将包含新的 **职务** 实体。 其最初不是从 **工作职位** 或 **工作** 实体引用的。 |
 
 ## <a name="see-also"></a>请参阅
 
@@ -65,6 +65,3 @@ ms.locfileid: "4526993"
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

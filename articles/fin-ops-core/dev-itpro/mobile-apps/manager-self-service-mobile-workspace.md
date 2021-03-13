@@ -1,6 +1,6 @@
 ---
 title: 我的团队移动工作区
-description: 此主题提供关于我的团队移动工作区的信息，此工作区允许经理查看其直接下属和扩展职员。 用户还可以向其报告链中的人员发送表扬。
+description: 此主题提供关于我的团队移动工作区的信息，此工作区允许经理查看其直接下属和扩展职员。
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 79678c42545a07054af00cd408e04e9d1a42caed
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680962"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127537"
 ---
 # <a name="my-team-mobile-workspace"></a>我的团队移动工作区
 
@@ -97,6 +97,3 @@ ms.locfileid: "4680962"
 1.  选择 **发送表扬**。 
 1. 输入您要发送的表扬的文本。 
 1. 选择 **完成**。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

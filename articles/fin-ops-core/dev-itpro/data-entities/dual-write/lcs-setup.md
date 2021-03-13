@@ -1,6 +1,6 @@
 ---
-title: 从 Lifecycle Services 设置双写入
-description: 此主题介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 设置新 Finance and Operations 环境与新 Dataverse 环境之间的双写入连接。
+title: Lifecycle Services 的双写入设置
+description: 本主题说明如何从 Microsoft Dynamics Lifecycle Services (LCS) 设置双写入连接。
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 01/06/2020
@@ -18,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: df67e498b963af3ded7464f46f37bb4b2ca7d852
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683516"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127585"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a>从 Lifecycle Services 设置双写入
+# <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services 的双写入设置
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [preview-banner](../../includes/preview-banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -56,7 +54,7 @@ ms.locfileid: "4683516"
     - 如果已经为您的租户预配了一个 Dataverse 环境，可以选择该环境。
 
         1. 将 **配置 Dataverse** 选项设置为 **是**。
-        2. 在 **可用环境** 字段中，选择要与您的 Finance and Operations 数据集成的环境。 此列表中包含您拥有其管理员权限的所有环境。
+        2. 在 **可用环境** 列中，选择要与您的 Finance and Operations 数据集成的环境。 此列表中包含您拥有其管理员权限的所有环境。
         3. 选中 **同意** 复选框表示您同意条款和条件。
 
         ![Dataverse 选项卡，如果已经为您的租户预配了一个 Dataverse 环境](../dual-write/media/lcs_setup_1.png)
@@ -76,9 +74,9 @@ ms.locfileid: "4683516"
         ![Dataverse 选项卡，当租户还没有 Dataverse 环境时](../dual-write/media/lcs_setup_2.png)
 
 7. 完成 **部署设置** 向导中的其余步骤。
-8. 环境的状态为 **已部署** 之后，打开环境详细信息页。 **Dataverse 环境信息** 部分中显示链接的 Finance and Operations 环境和 Dataverse 环境的名称。
+8. 环境的状态为 **已部署** 之后，打开环境详细信息页。 **Power Platform 集成** 部分显示链接的 Finance and Operations 环境和 Dataverse 环境的名称。
 
-    ![Dataverse 环境信息部分](../dual-write/media/lcs_setup_3.png)
+    ![Power Platform 集成部分](../dual-write/media/lcs_setup_3.png)
 
 9. Finance and Operations 环境管理员必须登录 LCS 并选择 **链接到面向应用程序的 CDS** 以完成链接。 环境详细信息页中显示管理员的联系信息。
 
@@ -86,10 +84,8 @@ ms.locfileid: "4683516"
 
 10. 若要在 Finance and Operations 环境中打开 **数据集成** 工作区和控制可用模板，请选择 **链接到面向应用程序的 CDS**。
 
-    ![Dataverse 环境信息部分中的“链接到面向应用程序的 CDS”按钮](../dual-write/media/lcs_setup_4.png)
+    ![Power Platform 集成部分的“链接到面向应用程序的 CDS”按钮](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
 > 不能使用 LCS 取消链接环境。 若要取消链接环境，请在 Finance and Operations 环境中打开 **数据集成** 工作区，然后选择 **取消链接**。
 
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources（2020 年 5 月 14 日）中的新增功能或更改
 description: 此主题介绍了 2020 年 5 月 14 日 Microsoft Dynamics 365 Human Resources - Core HR 中的新增功能和更改的功能。
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 76ca497cc7fabf737c8a0ee71363f22fd4201ea8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b8d65236d316035722451a871afabedc6ab73f7a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528489"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127841"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Dynamics 365 Human Resources（2020 年 5 月 14 日）中的新增功能或更改
 
@@ -35,9 +35,9 @@ ms.locfileid: "4528489"
 
 本周的发布中包含平台变更。 有关详细信息，请参阅 [Finance and Operations 应用版本 10.0.10（2020 年 5 月）的平台更新](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34)。 此发布中包含所保存视图的缺陷修复和更改。
  
-## <a name="ensure-common-data-service-picklists-are-consistent-with-leave-enums-436343"></a>确保 Common Data Service 选择列表与休假枚举一致 (436343)
+## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>确保 Dataverse 选择列表与休假枚举一致 (436343)
 
-Common Data Service 选择列表现在与休假枚举一致。
+Dataverse 选择列表现在与休假枚举一致。
 
 ## <a name="allow-users-to-configure-leave-request-workflow-based-on-the-request-amount-300044"></a>允许用户根据请求量配置请假工作流 (300044)
 
@@ -75,7 +75,7 @@ Common Data Service 选择列表现在与休假枚举一致。
 
 进行此更改后，将对非系统管理员或数据管理管理员用户隐藏开始横幅。 
 
-## <a name="the-common-data-service-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>Human Resources 中Common Data Service 工作人员地址实体在日期时间有效日期方面的工作方式不同 (425071)
+## <a name="the-dataverse-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>Human Resources 中Dataverse 工作人员地址实体在日期时间有效日期方面的工作方式不同 (425071)
 
 特定方案中，此更改让地址信息根据地址日期保持一致。
 
@@ -119,5 +119,3 @@ DMF 实体现在可用于暂停应计。
 [Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

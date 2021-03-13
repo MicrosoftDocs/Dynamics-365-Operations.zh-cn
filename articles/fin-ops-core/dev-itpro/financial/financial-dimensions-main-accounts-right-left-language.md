@@ -1,6 +1,6 @@
 ---
 title: 从右到左的语言中的财务维度和主科目
-description: 本主题介绍当您使用从右到左的语言时应考虑的一些实施决策以及您必须设置财务维度和主科目。
+description: 本主题介绍使用从右到左语言并且必须设置财务维度和主科目时需要作出的决定。
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 192ed371eec24ed4e0532aaca341bb249a4933c7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2bdf1b99ae7be6c9d9c43c91c9273e18ce9b1093
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680474"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127639"
 ---
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>从右到左的语言中的财务维度和主科目
 
@@ -38,6 +38,3 @@ ms.locfileid: "4680474"
 - 避免在财务维度和主科目值中使用选定的会计科目分隔符。
 
 通过以下最佳实践，您将帮助保障在整个系统中一致地显示用户定义的顺序。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

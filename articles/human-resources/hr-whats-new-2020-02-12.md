@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources（2020 年 2 月 12 日）中的新增功能或更改
 description: 本文介绍 2020 年 2 月 12 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b89e022441f69825d9c9c56ecdbca2e09e461b9e
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: d9d5d88d1d2bc1d6f3ff737b79e6a323e6a5c947
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526879"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128081"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-12-2020"></a>Dynamics 365 Human Resources（2020 年 2 月 12 日）中的新增功能或更改
 
@@ -35,9 +35,9 @@ ms.locfileid: "4526879"
 
 本周发布后，**CompFixedEmpls** 和 **HcmPersonImage** 实体现在已公开，可通过 ODAta 获取。
 
-## <a name="delete-employment-from-common-data-service-doesnt-work-when-employment-details-arent-active-403193"></a>雇用详细信息无效后无法从 Common Data Service 删除雇用 (403193)
+## <a name="delete-employment-from-dataverse-doesnt-work-when-employment-details-arent-active-403193"></a>雇用详细信息无效后无法从 Dataverse 删除雇用 (403193)
 
-此更改现在允许当存在无效雇用详细信息时通过 Common Data Service 删除雇用。
+此更改现在允许当存在无效雇用详细信息时通过 Dataverse 删除雇用。
 
 ## <a name="course-registration-workflow-changes-status-to-complete-and-errors-after-second-approval-409749"></a>课程等记工作流将状态更改为已完成，并在二次批准后出错 (409749)
 
@@ -57,9 +57,9 @@ ms.locfileid: "4526879"
 
 平台更新 32 即将推出。 [在此处发现有关平台更新 32 的详细信息](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32)。
 
-### <a name="updated-common-data-service-solution"></a>更新的 Common Data Service 解决方案
+### <a name="updated-dataverse-solution"></a>更新的 Dataverse 解决方案
 
-一个新的 Common Data Service 解决方案很快将推出，其中包含以下更改：
+一个新的 Dataverse 解决方案很快将推出，其中包含以下更改：
 
 | 说明 | 找零 |
 | ----------------------------------------- | --- |
@@ -70,7 +70,7 @@ ms.locfileid: "4526879"
 | 新的可变薪酬设置实体 | **可变薪酬计划类型**</br>**薪酬可变计划**</br>**股份行权规则**</br>**可变薪酬计划级别** |
 | 新 **工作人员日历雇用** 实体 | 添加了 **工作日历实体** |
 | 新 **工资单职位详细信息** 实体 | 添加了 **工资单职位详细信息** |
-| 新 **职务** 实体 | 添加了 **职务**。 Human Resources 与 Common Data Service 之间的同步流程中将包含新的 **职务** 实体。 其最初不是从 **工作职位** 或 **工作** 实体引用的。 |
+| 新 **职务** 实体 | 添加了 **职务**。 Human Resources 与 Dataverse 之间的同步流程中将包含新的 **职务** 实体。 其最初不是从 **工作职位** 或 **工作** 实体引用的。 |
 
 ## <a name="see-also"></a>请参阅
 
@@ -78,5 +78,3 @@ ms.locfileid: "4526879"
 [Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

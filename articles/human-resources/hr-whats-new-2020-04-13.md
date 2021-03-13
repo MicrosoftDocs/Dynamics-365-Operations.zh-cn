@@ -1,9 +1,9 @@
 ---
 title: Dynamics 365 Human Resources（2020 年 4 月 13 日）新增功能或更改
 description: 本文介绍 2020 年 4 月 13 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
-author: Darinkramer
-manager: AnnBe
-ms.date: 4/13/2020
+author: andreabichsel
+manager: tfehr
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-04-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a7ea8348cfe1c66d6d0cfa39b46c8e69111fe185
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 3afc112f8a30bb187fbe37c9062afe7943e986ec
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528513"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127889"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-13-2020"></a>Dynamics 365 Human Resources（2020 年 4 月 13 日）新增功能或更改
 
@@ -43,9 +43,9 @@ ms.locfileid: "4528513"
 
 现在可以编辑登记结束日期，不会出现“必须填写应计日期基础字段”错误。
 
-## <a name="employment-entity-doesnt-sync-to-common-data-service-430834"></a>雇用实体不同步到 Common Data Service (430834)
+## <a name="employment-entity-doesnt-sync-to-dataverse-430834"></a>雇用实体不同步到 Dataverse (430834)
 
-此更改解决了添加财务维度后雇用数据不同步到 Common Data Service 这一问题。 
+此更改解决了添加财务维度后雇用数据不同步到 Dataverse 这一问题。 
 
 ## <a name="remove-multi-parenting-for-work-calendar-time-interval-entity-431775"></a>删除工作日历日历时间间隔实体的多父项 (431775)
 
@@ -97,5 +97,3 @@ ms.locfileid: "4528513"
 [Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

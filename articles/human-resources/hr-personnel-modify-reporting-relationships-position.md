@@ -2,7 +2,7 @@
 title: 修改职位的报告关系
 description: 该过程展示如何更改员工的报告关系。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HcmPosition, HcmPositionReportsToDialog, HcmPositionLookup, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ae8ca5b20f331709e9fc1d9ae3b5f350e5c19ab
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 652893dfef22b6ba694ef20a81d88c85d26f05a2
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417473"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127047"
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>修改职位的报告关系
 
@@ -44,6 +44,3 @@ ms.locfileid: "4417473"
 12. 在“直接上级职位”字段中，输入或选择一个值。  示例：000437
 13. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

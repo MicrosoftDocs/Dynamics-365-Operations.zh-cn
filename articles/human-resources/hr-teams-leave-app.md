@@ -2,7 +2,7 @@
 title: 在 Teams 中管理请假
 description: 此主题显示如何在 Microsoft Teams 中的 Dynamics 365 Human Resources 应用内请假。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
-ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
+ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4417544"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128153"
 ---
 # <a name="manage-leave-requests-in-teams"></a>在 Teams 中管理请假
 
@@ -196,7 +196,6 @@ Teams 中的 Human Resources 应用具有以下可访问性问题，我们正在
 | --- | --- |
 | 在桌面上放大到 400％ 时，将看不见某些操作按钮。 | 建议您改用放大镜，直到我们可以支持此缩放级别为止。 |
 | 在 **休假** 选项卡上，在读出休假网格的标题时，VoiceOver 将宣布一个按钮操作。 | 网格中的标题和元素按年份分组，并且可以折叠。 VoiceOver 将此解释为可操作的项目，但并非如此。 |
-| 如果在打开弹出窗口或菜单时轻扫，VoiceOver 将跳过阅读弹出窗口或菜单内容的操作。 | 使用手指扫描浏览内容。 |
 | 在 **休假** 选项卡上，当在新请求中导航到 **原因代码** 时，有一个额外的轻扫手势。 | 没有轻扫导航要尝试获取的隐藏控件。 |
 | 在 **休假** 选项卡上，如果您在打开日历时进行轻扫，您最终位于控件之外，而不是在新请求中或编辑请求时位于顶部。 | 当您到达 **立即前往** 时，将其视为控件的结束，然后以相反方向轻扫以返回到顶部。 |
 | VoiceOver 不会阅读日期的标签。 | 成对出现的日期始终是 **开始日期** 和 **结束日期**。 |
@@ -229,6 +228,3 @@ Dynamics 365 Human Resources 将员工的请假和工作流程任务详细信息
 [下载和安装 Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Microsoft Teams 帮助中心](https://support.office.com/teams)</br>
 [Teams 中的 Human Resources 应用](hr-admin-teams-leave-app.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

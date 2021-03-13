@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources（2020 年 6 月 11 日）新增功能或更改
 description: 此主题介绍了 2020 年 6 月 11 日 Microsoft Dynamics 365 Human Resources - Core HR 中的新增功能和更改的功能。
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0720b2024a865fcd42cd80fd905586d626388f8f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ff359f65afc03a1b5691fddc078f73682e99e44
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417502"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127793"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>Dynamics 365 Human Resources（2020 年 6 月 11 日）新增功能或更改
 
@@ -102,5 +102,3 @@ DMF 实体现在可用于暂停应计。
 [Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

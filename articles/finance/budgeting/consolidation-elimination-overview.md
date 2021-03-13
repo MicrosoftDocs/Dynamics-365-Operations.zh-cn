@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13151
 ms.assetid: 9d8f55cb-b2cf-4e01-89cf-0e21f5c8ae1f
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 566b1ecef3f9e540c651fe214accadcf32f4fbed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee029e6cf1f271c5839e8d0dc1b1e4b7f91fb9a2
+ms.sourcegitcommit: f51ef395f0c0cb2203ce26b4091bbf0296e7916e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440874"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5120471"
 ---
 # <a name="consolidation-and-elimination-overview"></a>合并和清除概览
 
@@ -60,6 +59,7 @@ ms.locfileid: "4440874"
 **财务报表** 选项是解决方法，因为可以查看报表结构树定义中包括的任意数量公司的交易记录级的详细信息。
 
 4.  我们使用预算计划或预算控制，并且必须合并它。
+
 **财务报表** 选项是合并所有预算计划或预算控制数据的解决方法。
 
 5.  我们的子公司遍布世界各地，我们有多个会计科目表。 什么是我们合并数据的最佳方法？
@@ -86,10 +86,10 @@ ms.locfileid: "4440874"
 
 通过使用 **导出公司余额** 选项从一个实例导出，然后使用其他实例的 **与导入合并** 选项，可以合并数据。
 
+11. 我能否对状态为 **草稿** 的预算执行合并？ 
+            
+您无法在合并公司中处理或完成预算。 我们建议使用 Financial Reporting 来合并草案预算。
 
 有关详细信息，请参阅[合并公司中的币种重估](../general-ledger/currency-revaluation-consolidation-company.md)。
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: 查看和评估调查表的结果
 description: 本文介绍如何查看和评估回应者完成的调查表的结果。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ceb21af75dca2756d8e07f315ddee0246554c854
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff2136e1f0a87b7d77968ca1163e64f8838b234b
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417517"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5116108"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>查看和评估调查表的结果
 
@@ -72,5 +72,3 @@ ms.locfileid: "4417517"
 -   选择或验证标准以按回应者或调查表特征分析结果。 例如，通过选择 **邮政编码**，您可以分析回应者的位置和正确回答之间的相关性。
 
 您定义的设置将被保存下来并且可用于定期重新计算结果。
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
