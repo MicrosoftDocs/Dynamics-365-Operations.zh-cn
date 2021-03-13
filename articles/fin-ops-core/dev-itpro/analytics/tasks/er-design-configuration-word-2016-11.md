@@ -1,101 +1,166 @@
 ---
-title: 设计 ER 配置以生成 Word 格式的报表
-description: 以下步骤说明属于系统管理员或电子申报开发人员的用户如何配置电子申报格式，以便生成 Microsoft Word 文件格式的报表。
+title: 重用带有 Excel 模板的 ER 配置以 Word 格式生成报表
+description: 本主题介绍如何配置设计为以 Excel 工作簿形式生成报表的报表格式，来以 Word 文档形式生成报表。
 author: NickSelin
 manager: AnnBe
-ms.date: 08/12/2019
+ms.date: 01/11/2021
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9d4959b511022e1aa98544d23da6afcda1f6adf2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 769913fd0344eb276b3b1bd055255272ca5dfffd
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681917"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092708"
 ---
-# <a name="design-er-configurations-to-generate-reports-in-word-format"></a><span data-ttu-id="600c2-103">设计 ER 配置以生成 Word 格式的报表</span><span class="sxs-lookup"><span data-stu-id="600c2-103">Design ER configurations to generate reports in Word format</span></span>
+# <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a><span data-ttu-id="457ca-103">重用带有 Excel 模板的 ER 配置以 Word 格式生成报表</span><span class="sxs-lookup"><span data-stu-id="457ca-103">Reuse ER configurations with Excel templates to generate reports in Word format</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="600c2-104">以下步骤说明属于系统管理员或电子申报开发人员的用户如何配置电子申报 (ER) 格式，以便生成 Microsoft Word 文件格式的报表。</span><span class="sxs-lookup"><span data-stu-id="600c2-104">The following steps explain how a user in either the System administrator or Electronic reporting developer role can configure an Electronic reporting (ER) formats to generate reports as Microsoft Word files.</span></span> <span data-ttu-id="600c2-105">这些步骤可以在 GBSI 公司执行。</span><span class="sxs-lookup"><span data-stu-id="600c2-105">These steps can be performed in the GBSI company.</span></span>
+<span data-ttu-id="457ca-104">要以 Microsoft Word 文档形式生成报表，您可以[配置](../er-design-configuration-word.md)一个新的[电子报告 (ER)](../general-electronic-reporting.md) [格式](../general-electronic-reporting.md#FormatComponentOutbound)。</span><span class="sxs-lookup"><span data-stu-id="457ca-104">To generate reports as Microsoft Word documents, you can [configure](../er-design-configuration-word.md) a new [Electronic reporting (ER)](../general-electronic-reporting.md) [format](../general-electronic-reporting.md#FormatComponentOutbound).</span></span> <span data-ttu-id="457ca-105">或者，您可以重用最初设计为以 Excel 工作簿形式生成报表的 ER 格式。</span><span class="sxs-lookup"><span data-stu-id="457ca-105">Alternatively, you can reuse an ER format that was originally designed to generate reports as Excel workbooks.</span></span> <span data-ttu-id="457ca-106">在这种情况下，您必须用 Word 模板替换 Excel 模板。</span><span class="sxs-lookup"><span data-stu-id="457ca-106">In this case, you must replace the Excel template with a Word template.</span></span>
 
-<span data-ttu-id="600c2-106">为了完成这些步骤，您首先必须完成任务指南“创建用于以 OPENXML 格式生成报表的 ER 配置”中的步骤。</span><span class="sxs-lookup"><span data-stu-id="600c2-106">To complete these steps, you must first complete the steps in the "Create an ER configuration for generating reports in OPENXML format" task guide.</span></span> <span data-ttu-id="600c2-107">您还必须提前为同一个报表下载以下模板并保存到本地：</span><span class="sxs-lookup"><span data-stu-id="600c2-107">In advance, you must also download and save the following templates locally for the sample report:</span></span>
+<span data-ttu-id="457ca-107">以下过程说明具有系统管理员角色或电子报告开发人员角色的用户，如何通过重用设计为以 Excel 文件形式生成报表的 ER 格式，来将 ER 格式配置为以 Word 文件形式生成报表。</span><span class="sxs-lookup"><span data-stu-id="457ca-107">The following procedures show how a user in either the System administrator role or the Electronic reporting developer role can configure an ER format to generate reports as Word files by reusing an ER format that was designed to generate reports as Excel files.</span></span>
 
-- [<span data-ttu-id="600c2-108">付款报表模板</span><span class="sxs-lookup"><span data-stu-id="600c2-108">Template of Payment Report</span></span>](https://go.microsoft.com/fwlink/?linkid=862266)
-- [<span data-ttu-id="600c2-109">绑定付款报表模板</span><span class="sxs-lookup"><span data-stu-id="600c2-109">Bounded Template of Payment Report</span></span>](https://go.microsoft.com/fwlink/?linkid=862266)
+<span data-ttu-id="457ca-108">这些过程可以在 GBSI 公司中完成。</span><span class="sxs-lookup"><span data-stu-id="457ca-108">These procedures can be completed in the GBSI company.</span></span>
 
+## <a name="prerequisites"></a><span data-ttu-id="457ca-109">先决条件</span><span class="sxs-lookup"><span data-stu-id="457ca-109">Prerequisites</span></span>
 
-<span data-ttu-id="600c2-110">此过程针对 Microsoft Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="600c2-110">This procedure is for a feature that was added in Microsoft Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="457ca-110">要完成这些过程，您必须首先按照[设计用于以 OPENXML 格式生成报表的配置](er-design-reports-openxml-2016-11.md)任务指南中的步骤操作。</span><span class="sxs-lookup"><span data-stu-id="457ca-110">To complete these procedures, you must first follow the steps in the [Design a configuration for generating reports in OPENXML format](er-design-reports-openxml-2016-11.md) task guide.</span></span>
 
+<span data-ttu-id="457ca-111">您还必须为同一个报表下载以下模板并保存到本地：</span><span class="sxs-lookup"><span data-stu-id="457ca-111">You must also download and locally save the following templates for the sample report:</span></span>
 
-## <a name="select-the-existing-er-report-configuration"></a><span data-ttu-id="600c2-111">选择现有 ER 报表配置</span><span class="sxs-lookup"><span data-stu-id="600c2-111">Select the existing ER report configuration</span></span>
-1. <span data-ttu-id="600c2-112">在导航窗格中，转到 **模块 > 组织管理 > 工作区 > 电子申报**。</span><span class="sxs-lookup"><span data-stu-id="600c2-112">In the **Navigation pane, go to Modules > Organization administration > Workspaces > Electronic reporting**.</span></span> <span data-ttu-id="600c2-113">确保配置提供商“Litware 公司”。</span><span class="sxs-lookup"><span data-stu-id="600c2-113">Make sure that the configuration provider 'Litware, Inc.'</span></span> <span data-ttu-id="600c2-114">已选中为有效。</span><span class="sxs-lookup"><span data-stu-id="600c2-114">is selected as active.</span></span>  
-2. <span data-ttu-id="600c2-115">单击 **申报配置**。</span><span class="sxs-lookup"><span data-stu-id="600c2-115">Click **Reporting configurations**.</span></span> <span data-ttu-id="600c2-116">我们将重复使用最初为生成 OPENXML 格式的报表输出而设计的现有 ER 配置。</span><span class="sxs-lookup"><span data-stu-id="600c2-116">We will re-use the existing ER configuration that has been originally designed to generate the report output in OPENXML format.</span></span>  
-3. <span data-ttu-id="600c2-117">在树结构中，展开“付款模型”。</span><span class="sxs-lookup"><span data-stu-id="600c2-117">In the tree, expand 'Payment model'.</span></span>
-4. <span data-ttu-id="600c2-118">在树结构中，选择“付款模型\示例工作表报表”。</span><span class="sxs-lookup"><span data-stu-id="600c2-118">In the tree, select 'Payment model\Sample worksheet report'.</span></span>
-5. <span data-ttu-id="600c2-119">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="600c2-119">Click Designer.</span></span>
+- [<span data-ttu-id="457ca-112">付款报表模板 (SampleVendPaymDocReport.docx)</span><span class="sxs-lookup"><span data-stu-id="457ca-112">Template of Payment Report (SampleVendPaymDocReport.docx)</span></span>](https://go.microsoft.com/fwlink/?linkid=862266)
+- [<span data-ttu-id="457ca-113">付款报表绑定模板 (SampleVendPaymDocReportBounded.docx)</span><span class="sxs-lookup"><span data-stu-id="457ca-113">Bounded Template of Payment Report (SampleVendPaymDocReportBounded.docx)</span></span>](https://go.microsoft.com/fwlink/?linkid=862266)
 
-## <a name="replace-the-excel-template-with-the-word-template"></a><span data-ttu-id="600c2-120">将 Excel 模板替换为 Word 模板</span><span class="sxs-lookup"><span data-stu-id="600c2-120">Replace the Excel template with the Word template</span></span>
+<span data-ttu-id="457ca-114">这些过程针对的是 Dynamics 365 for Operations 版本 1611（2016 年 11 月）中添加的功能。</span><span class="sxs-lookup"><span data-stu-id="457ca-114">These procedures are for a feature that was added in Dynamics 365 for Operations version 1611 (November 2016).</span></span>
 
-<span data-ttu-id="600c2-121">目前使用 Excel 文档作为模板生成 OPENXML 格式的输出。</span><span class="sxs-lookup"><span data-stu-id="600c2-121">Currently, the Excel document is used as a template to generate the output in OPENXML format.</span></span> <span data-ttu-id="600c2-122">我们将导入 Word 格式的报表模板。</span><span class="sxs-lookup"><span data-stu-id="600c2-122">We will import the report's template in Word format.</span></span>
+## <a name="select-the-existing-er-report-configuration"></a><span data-ttu-id="457ca-115">选择现有 ER 报表配置</span><span class="sxs-lookup"><span data-stu-id="457ca-115">Select the existing ER report configuration</span></span>
 
-1. <span data-ttu-id="600c2-123">单击 **附加**。</span><span class="sxs-lookup"><span data-stu-id="600c2-123">Click **Attachments**.</span></span> <span data-ttu-id="600c2-124">将现有 Excel 模板替换为前面下载的 Word 模板 SampleVendPaymDocReport.docx。</span><span class="sxs-lookup"><span data-stu-id="600c2-124">Replace the existing Excel template with the Word template that you downloaded earlier, SampleVendPaymDocReport.docx.</span></span> <span data-ttu-id="600c2-125">请注意，此模板中仅包含要作为 ER 输出生成的文档的布局。</span><span class="sxs-lookup"><span data-stu-id="600c2-125">Note, this template only contains the layout of the document we want to generate as ER output.</span></span>  
-2. <span data-ttu-id="600c2-126">单击 **删除**。</span><span class="sxs-lookup"><span data-stu-id="600c2-126">Click **Delete**.</span></span>
-3. <span data-ttu-id="600c2-127">单击 **是**。</span><span class="sxs-lookup"><span data-stu-id="600c2-127">Click **Yes**.</span></span>
-4. <span data-ttu-id="600c2-128">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="600c2-128">Click **New**.</span></span>
-5. <span data-ttu-id="600c2-129">单击 **文件**。</span><span class="sxs-lookup"><span data-stu-id="600c2-129">Click **File**.</span></span>
-6. <span data-ttu-id="600c2-130">单击 **浏览**。</span><span class="sxs-lookup"><span data-stu-id="600c2-130">Click **Browse**.</span></span> <span data-ttu-id="600c2-131">导航到前面下载的 SampleVendPaymDocReport.docx 并选中。</span><span class="sxs-lookup"><span data-stu-id="600c2-131">Navigate to and select SampleVendPaymDocReport.docx that you previously downloaded.</span></span> <span data-ttu-id="600c2-132">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="600c2-132">Click **OK**.</span></span> <span data-ttu-id="600c2-133">选择上一步中下载的模板。</span><span class="sxs-lookup"><span data-stu-id="600c2-133">Select the template that you downloaded in the previous step.</span></span>  
-7. <span data-ttu-id="600c2-134">在 **模板** 字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="600c2-134">In the **Template** field, enter or select a value.</span></span>
+1. <span data-ttu-id="457ca-116">在 Dynamics 365 Finance 中，转到 **组织管理** \> **工作区** \> **电子报告**。</span><span class="sxs-lookup"><span data-stu-id="457ca-116">In Dynamics 365 Finance, go to **Organization administration** \> **Workspaces** \> **Electronic reporting**.</span></span>
+2. <span data-ttu-id="457ca-117">确保 **Litware, Inc.** 配置提供程序已选择 **有效**。</span><span class="sxs-lookup"><span data-stu-id="457ca-117">Make sure that the **Litware, Inc.** configuration provider is selected as **Active**.</span></span> <span data-ttu-id="457ca-118">否则，请按照[创建配置提供程序并将其标记为有效](er-configuration-provider-mark-it-active-2016-11.md)任务指南中的步骤操作。</span><span class="sxs-lookup"><span data-stu-id="457ca-118">If it isn't, follow the steps in the [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md) task guide.</span></span>
+3. <span data-ttu-id="457ca-119">选择 **申报配置**。</span><span class="sxs-lookup"><span data-stu-id="457ca-119">Select **Reporting configurations**.</span></span> <span data-ttu-id="457ca-120">您将重用设计为以 OPENXML 格式生成报表输出的现有 ER 配置。</span><span class="sxs-lookup"><span data-stu-id="457ca-120">You will reuse the existing ER configuration that was designed to generate the report output in OPENXML format.</span></span>
+4. <span data-ttu-id="457ca-121">在 **配置** 页的左侧窗格的配置树中，展开 **付款模型**，选择 **示例工作表报表**。</span><span class="sxs-lookup"><span data-stu-id="457ca-121">On the **Configurations** page, in the configuration tree in the left pane, expand **Payment model**, and select **Sample worksheet report**.</span></span>
 
-## <a name="extend-the-word-template-by-adding-a-custom-xml-part"></a><span data-ttu-id="600c2-135">通过添加自定义 XML 部件扩展 Work 模板</span><span class="sxs-lookup"><span data-stu-id="600c2-135">Extend the Word template by adding a custom XML part</span></span>
-1. <span data-ttu-id="600c2-136">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="600c2-136">Click **Save**.</span></span> <span data-ttu-id="600c2-137">除了存储配置更改之外，“保存”操作还会更新附加的 Word 模板。</span><span class="sxs-lookup"><span data-stu-id="600c2-137">In addition to storing configuration changes, the Save action also updates the attached Word template.</span></span> <span data-ttu-id="600c2-138">所设计格式的结构采用名称“报表”并作为新的自定义 XML 的一部分移植到附加的 Word 文档。</span><span class="sxs-lookup"><span data-stu-id="600c2-138">The structure of the designed format is ported to the attached Word document as a new custom XML part with the name 'Report'.</span></span> <span data-ttu-id="600c2-139">请注意，附加的 Word 模板中不仅包含要作为 ER 输出生成的文档的布局，还包含 ER 将在运行时填充到此模板中的数据的结构。</span><span class="sxs-lookup"><span data-stu-id="600c2-139">Note that the attached Word template contains not only the layout of the document we want to generate as ER output, it also contains the structure of data that ER will populate into this template at runtime.</span></span>  
-2. <span data-ttu-id="600c2-140">单击 **附加**。</span><span class="sxs-lookup"><span data-stu-id="600c2-140">Click **Attachments**.</span></span>
-    + <span data-ttu-id="600c2-141">现在需要将自定义 XML 部件“报表”的元素绑定到 Word 文档部件。</span><span class="sxs-lookup"><span data-stu-id="600c2-141">Now you need to bind the elements of the custom XML part 'Report' to the Word document parts.</span></span>  
-    + <span data-ttu-id="600c2-142">如果您熟悉可设计为包含与自定义 XML 部件的元素绑定的内容控件的窗体的 Word 文档，请执行下一个子任务的所有步骤以创建此类文档。</span><span class="sxs-lookup"><span data-stu-id="600c2-142">If you're familiar with Word documents that can be designed as forms containing content controls that are bounded with elements of custom XML parts – play all steps of the next sub-task to create such a document.</span></span> <span data-ttu-id="600c2-143">有关更多详细信息，请参阅[在 Words 中创建用户填写或打印的表单](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US)。</span><span class="sxs-lookup"><span data-stu-id="600c2-143">For more details, see [Create forms that users complete or print in Words](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US).</span></span> <span data-ttu-id="600c2-144">否则，请跳过下一子任务的所有步骤。</span><span class="sxs-lookup"><span data-stu-id="600c2-144">Otherwise, skip all the steps in the next sub-task.</span></span>  
+    > [!NOTE]
+    > <span data-ttu-id="457ca-122">所选 ER 格式的草稿版本可以在 **版本** 快速选项卡上编辑。</span><span class="sxs-lookup"><span data-stu-id="457ca-122">The draft version of the selected ER format can be edited on the **Versions** FastTab.</span></span>
 
-## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a><span data-ttu-id="600c2-145">让包含自定义 XML 部件的 Word 执行数据绑定</span><span class="sxs-lookup"><span data-stu-id="600c2-145">Get Word with custom XML part to do data bindings</span></span>
+5. <span data-ttu-id="457ca-123">选择 **设计器**。</span><span class="sxs-lookup"><span data-stu-id="457ca-123">Select **Designer**.</span></span>
+6. <span data-ttu-id="457ca-124">在 **格式设计器** 页上，注意根格式元素的标题指示当前正在使用 Excel 模板。</span><span class="sxs-lookup"><span data-stu-id="457ca-124">On the **Format designer** page, notice that the title of the root format element indicates that an Excel template is currently used.</span></span>
 
-<span data-ttu-id="600c2-146">在 Word 中打开此文档并执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="600c2-146">Open this document in Word and do the following:</span></span>  
-1. <span data-ttu-id="600c2-147">打开“Word 开发人员”选项卡（如果尚未启用此选项卡，请自定义功能区）。</span><span class="sxs-lookup"><span data-stu-id="600c2-147">Open the Word Developer tab (customize the ribbon if it is not enabled yet).</span></span>
-2. <span data-ttu-id="600c2-148">选择“XML 映射”窗格。</span><span class="sxs-lookup"><span data-stu-id="600c2-148">Select XML mapping pane.</span></span>
-3. <span data-ttu-id="600c2-149">在查找中选择自定义 XML 部件“报表”。</span><span class="sxs-lookup"><span data-stu-id="600c2-149">Select the 'Report' custom XML part in the lookup.</span></span>
-4. <span data-ttu-id="600c2-150">执行所选自定义 XML 部件的元素与 Word 文档的内容控件之间的映射。</span><span class="sxs-lookup"><span data-stu-id="600c2-150">Do mapping of the elements of the selected custom XML part and content controls of the Word document.</span></span>  <span data-ttu-id="600c2-151">5</span><span class="sxs-lookup"><span data-stu-id="600c2-151">5.</span></span> <span data-ttu-id="600c2-152">将更新后的 Word 文档保存到本地驱动器。</span><span class="sxs-lookup"><span data-stu-id="600c2-152">Save the updated Word document on a local drive.</span></span>  
+![选择现有配置](../media/er-design-configuration-word-2016-11-image01.gif)
 
-## <a name="upload-the-word-template-with-custom-xml-part-bounded-to-content-controls"></a><span data-ttu-id="600c2-153">上传包含绑定到内容控件的自定义 XML 部件的 Word 模板</span><span class="sxs-lookup"><span data-stu-id="600c2-153">Upload the Word template with custom XML part bounded to content controls</span></span>
-1. <span data-ttu-id="600c2-154">单击 **删除**。</span><span class="sxs-lookup"><span data-stu-id="600c2-154">Click **Delete**.</span></span>
-2. <span data-ttu-id="600c2-155">单击 **是**。</span><span class="sxs-lookup"><span data-stu-id="600c2-155">Click **Yes**.</span></span> <span data-ttu-id="600c2-156">添加新模板。</span><span class="sxs-lookup"><span data-stu-id="600c2-156">Add a new template.</span></span> <span data-ttu-id="600c2-157">如果完成了前面的子任务中的步骤，请选择已准备并保存到本地的 Word 文档。</span><span class="sxs-lookup"><span data-stu-id="600c2-157">If you competed the steps in the previous subtask, select the Word document that you prepared and saved locally.</span></span> <span data-ttu-id="600c2-158">否则，选择之前下载的 SampleVendPaymDocReportBounded.docx MS Word 模板。</span><span class="sxs-lookup"><span data-stu-id="600c2-158">Otherwise, select the SampleVendPaymDocReportBounded.docx MS Word template that you downloaded earlier.</span></span>  
-3. <span data-ttu-id="600c2-159">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="600c2-159">Click **New**.</span></span>
-4. <span data-ttu-id="600c2-160">单击 **文件**。</span><span class="sxs-lookup"><span data-stu-id="600c2-160">Click **File**.</span></span>
-5. <span data-ttu-id="600c2-161">单击 **浏览**。</span><span class="sxs-lookup"><span data-stu-id="600c2-161">Click **Browse**.</span></span> <span data-ttu-id="600c2-162">导航到前面下载的 SampleVendPaymDocReportBounded.docx 并选中。</span><span class="sxs-lookup"><span data-stu-id="600c2-162">Navigate to and select SampleVendPaymDocReportBounded.docx that you previously downloaded.</span></span> <span data-ttu-id="600c2-163">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="600c2-163">Click **OK**.</span></span>
-6. <span data-ttu-id="600c2-164">在 **模板** 字段中，选择上一步中下载的文档。</span><span class="sxs-lookup"><span data-stu-id="600c2-164">In the **Template** field, select the document that you downloaded in the previous step.</span></span>
-7. <span data-ttu-id="600c2-165">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="600c2-165">Click **Save**.</span></span>
-8. <span data-ttu-id="600c2-166">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="600c2-166">Close the page.</span></span>
+## <a name="review-the-downloaded-word-template"></a><span data-ttu-id="457ca-126">查看下载的 Word 模板</span><span class="sxs-lookup"><span data-stu-id="457ca-126">Review the downloaded Word template</span></span>
 
-## <a name="execute-the-format-to-create-word-output"></a><span data-ttu-id="600c2-167">执行格式以创建 Word 输出</span><span class="sxs-lookup"><span data-stu-id="600c2-167">Execute the format to create Word output</span></span>
-1. <span data-ttu-id="600c2-168">在 **操作窗格** 上，单击 **配置**。</span><span class="sxs-lookup"><span data-stu-id="600c2-168">On the **Action Pane**, click **Configurations**.</span></span>
-2. <span data-ttu-id="600c2-169">单击 **用户参数**。</span><span class="sxs-lookup"><span data-stu-id="600c2-169">Click **User parameters**.</span></span>
-3. <span data-ttu-id="600c2-170">在 **运行设置** 字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="600c2-170">Select Yes in the **Run settings** field.</span></span>
-4. <span data-ttu-id="600c2-171">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="600c2-171">Click **OK**.</span></span>
-5. <span data-ttu-id="600c2-172">单击 **编辑**。</span><span class="sxs-lookup"><span data-stu-id="600c2-172">Click **Edit**.</span></span>
-6. <span data-ttu-id="600c2-173">在 **运行草稿** 字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="600c2-173">Select Yes in the **Run Draft** field.</span></span>
-7. <span data-ttu-id="600c2-174">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="600c2-174">Click **Save**.</span></span>
-8. <span data-ttu-id="600c2-175">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="600c2-175">Close the page.</span></span>
-9. <span data-ttu-id="600c2-176">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="600c2-176">Close the page.</span></span>
-10. <span data-ttu-id="600c2-177">在 **导航窗格** 中，转到 **模块 > 应付帐款 > 付款 > 付款日记帐**。</span><span class="sxs-lookup"><span data-stu-id="600c2-177">In the **Navigation pane**, go to **Modules > Accounts payable > Payments > Payment journal**.</span></span>
-11. <span data-ttu-id="600c2-178">单击 **行**。</span><span class="sxs-lookup"><span data-stu-id="600c2-178">Click **Lines**.</span></span>
-12. <span data-ttu-id="600c2-179">在列表中，标记或取消标记所有行。</span><span class="sxs-lookup"><span data-stu-id="600c2-179">In the list, mark or unmark all rows.</span></span>
-13. <span data-ttu-id="600c2-180">单击 **付款状态**。</span><span class="sxs-lookup"><span data-stu-id="600c2-180">Click **Payment status**.</span></span>
-14. <span data-ttu-id="600c2-181">单击 **无**。</span><span class="sxs-lookup"><span data-stu-id="600c2-181">Click **None**.</span></span>
-15. <span data-ttu-id="600c2-182">单击 **生成付款**。</span><span class="sxs-lookup"><span data-stu-id="600c2-182">Click **Generate payments**.</span></span>
-16. <span data-ttu-id="600c2-183">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="600c2-183">Click **OK**.</span></span>
-17. <span data-ttu-id="600c2-184">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="600c2-184">Click **OK**.</span></span> <span data-ttu-id="600c2-185">分析生成的输出。</span><span class="sxs-lookup"><span data-stu-id="600c2-185">Analyze the generated output.</span></span> <span data-ttu-id="600c2-186">请注意，创建的输出以 Word 格式表示，并且其中包含处理的付款的详细信息。</span><span class="sxs-lookup"><span data-stu-id="600c2-186">Note that the created output is presented in Word format and contains the details of the processed payments.</span></span>  
+1. <span data-ttu-id="457ca-127">在 Word 桌面应用程序中，打开您先前下载的 **SampleVendPaymDocReport.docx** 模板文件。</span><span class="sxs-lookup"><span data-stu-id="457ca-127">In the Word desktop application, open the **SampleVendPaymDocReport.docx** template file that you downloaded earlier.</span></span>
+2. <span data-ttu-id="457ca-128">确认此模板仅包含要作为 ER 输出生成的文档的布局。</span><span class="sxs-lookup"><span data-stu-id="457ca-128">Verify that the template contains only the layout of the document that you want to generate as ER output.</span></span>
 
+![桌面应用程序中的 Word 模板布局](../media/er-design-configuration-word-2016-11-image02.png)
+
+## <a name="replace-the-excel-template-with-the-word-template-and-add-a-custom-xml-part"></a><span data-ttu-id="457ca-130">将 Excel 模板替换为 Word 模板并添加自定义 XML 部件</span><span class="sxs-lookup"><span data-stu-id="457ca-130">Replace the Excel template with the Word template and add a custom XML part</span></span>
+
+<span data-ttu-id="457ca-131">目前使用 Excel 文档作为模板生成 OPENXML 格式的输出。</span><span class="sxs-lookup"><span data-stu-id="457ca-131">Currently, the Excel document is used as a template to generate the output in OPENXML format.</span></span> <span data-ttu-id="457ca-132">您将此模板替换为前面下载的 Word 模板文件 SampleVendPaymDocReport.docx。</span><span class="sxs-lookup"><span data-stu-id="457ca-132">You will replace this template with the SampleVendPaymDocReport.docx Word template file that you downloaded earlier.</span></span> <span data-ttu-id="457ca-133">您还将通过添加自定义 XML 部件扩展 Work 模板。</span><span class="sxs-lookup"><span data-stu-id="457ca-133">You will also extend the Word template by adding a custom XML part.</span></span>
+
+1. <span data-ttu-id="457ca-134">在 Finance 中，在 **格式设计器** 页的 **格式** 选项卡上，选择 **附件**。</span><span class="sxs-lookup"><span data-stu-id="457ca-134">In Finance, on the **Format designer** page, on the **Format** tab, select **Attachments**.</span></span>
+2. <span data-ttu-id="457ca-135">在 **附件** 页上，选择 **删除** 删除现有的 Excel 模板。</span><span class="sxs-lookup"><span data-stu-id="457ca-135">On the **Attachments** page, select **Delete** to remove the existing Excel template.</span></span> <span data-ttu-id="457ca-136">选择 **是** 确认更改。</span><span class="sxs-lookup"><span data-stu-id="457ca-136">Select **Yes** to confirm the change.</span></span>
+3. <span data-ttu-id="457ca-137">选择 **新建** \> **文件**。</span><span class="sxs-lookup"><span data-stu-id="457ca-137">Select **New** \> **File**.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="457ca-138">您必须选择已在 ER 参数中[配置](../electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents)的文档类型来存储 ER 格式的模板。</span><span class="sxs-lookup"><span data-stu-id="457ca-138">You must select a document type that has been [configured](../electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) in the ER parameters to store templates of ER formats.</span></span>
+
+4. <span data-ttu-id="457ca-139">选择 **浏览**，然后浏览到并选择您先前下载的 **SampleVendPaymDocReport.docx** 文件。</span><span class="sxs-lookup"><span data-stu-id="457ca-139">Select **Browse**, and then browse to and select the **SampleVendPaymDocReport.docx** file that you downloaded earlier.</span></span>
+5. <span data-ttu-id="457ca-140">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="457ca-140">Select **OK**.</span></span>
+6. <span data-ttu-id="457ca-141">关闭 **附件** 页。</span><span class="sxs-lookup"><span data-stu-id="457ca-141">Close the **Attachments** page.</span></span>
+7. <span data-ttu-id="457ca-142">在 **格式设计器** 页上，在 **模板** 字段中，输入或选择 **SampleVendPaymDocReport.docx** 文件以使用该 Word 模板而不是以前使用的 Excel 模板。</span><span class="sxs-lookup"><span data-stu-id="457ca-142">On the **Format designer** page, in the **Template** field, enter or select the **SampleVendPaymDocReport.docx** file to use that Word template instead of the Excel template that was previously used.</span></span>
+8. <span data-ttu-id="457ca-143">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="457ca-143">Select **Save**.</span></span>
+
+    <span data-ttu-id="457ca-144">除了存储配置更改之外，**保存** 操作还会更新附加的 Word 模板。</span><span class="sxs-lookup"><span data-stu-id="457ca-144">In addition to storing configuration changes, the **Save** action updates the attached Word template.</span></span> <span data-ttu-id="457ca-145">所设计格式的层次结构采用名称 **报表**、作为新的自定义 XML 部件添加到附加的 Word 文档。</span><span class="sxs-lookup"><span data-stu-id="457ca-145">The hierarchical structure of the designed format is added to the attached Word document as a new custom XML part that is named **Report**.</span></span> <span data-ttu-id="457ca-146">附加的 Word 模板包含要作为 ER 输出生成的文档的布局，以及 ER 将在运行时输入到该模板中的数据的结构。</span><span class="sxs-lookup"><span data-stu-id="457ca-146">The attached Word template contains the layout of the document that will be generated as ER output and the structure of data that ER will enter in that template at runtime.</span></span>
+
+9. <span data-ttu-id="457ca-147">注意根格式元素的标题指示当前正在使用 Word 模板。</span><span class="sxs-lookup"><span data-stu-id="457ca-147">Notice that the title of the root format element indicates that a Word template is currently used.</span></span>
+
+    ![将 Excel 模板替换为 Word 模板并添加自定义 XML 部件](../media/er-design-configuration-word-2016-11-image03.gif)
+
+10. <span data-ttu-id="457ca-149">在 **格式** 选项卡中，选择 **附件**。</span><span class="sxs-lookup"><span data-stu-id="457ca-149">On the **Format** tab, select **Attachments**.</span></span>
+
+<span data-ttu-id="457ca-150">您现在可以将 **报表** 自定义 XML 部件的元素映射到 Word 文档的内容控件。</span><span class="sxs-lookup"><span data-stu-id="457ca-150">You can now map the elements of the **Report** custom XML part to the content controls of the Word document.</span></span>
+
+<span data-ttu-id="457ca-151">如果您熟悉此流程：将 Word 文档设计为包含映射到[自定义 XML 部件](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019)的元素的[内容控件](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word)的表单，请完成下一个过程中的所有步骤来创建文档。</span><span class="sxs-lookup"><span data-stu-id="457ca-151">If you're familiar with the process of designing Word documents as forms that contain [content controls](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) that are mapped to elements of [custom XML parts](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019), complete all steps in the next procedure to create the document.</span></span> <span data-ttu-id="457ca-152">有关详细信息，请参阅[在 Word 中创建用户填写或打印的表单](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b)。</span><span class="sxs-lookup"><span data-stu-id="457ca-152">For more information, see [Create forms that users complete or print in Words](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b).</span></span> <span data-ttu-id="457ca-153">否则，请跳过下一个过程。</span><span class="sxs-lookup"><span data-stu-id="457ca-153">Otherwise, skip the next procedure.</span></span>
+
+## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a><span data-ttu-id="457ca-154">获取具有自定义 XML 部件的 Word 文档并进行数据映射</span><span class="sxs-lookup"><span data-stu-id="457ca-154">Get a Word document that has a custom XML part and do data mapping</span></span>
+
+1. <span data-ttu-id="457ca-155">在 Finance 中，在 **附件** 页上，选择 **打开** 从 Finance 下载所选模板并将其本地存储为 Word 文档。</span><span class="sxs-lookup"><span data-stu-id="457ca-155">In Finance, on the **Attachments** page, select **Open** to download the selected template from Finance and store it locally as a Word document.</span></span>
+3. <span data-ttu-id="457ca-156">在 Word 桌面应用程序中，打开刚才下载的文档。</span><span class="sxs-lookup"><span data-stu-id="457ca-156">In the Word desktop application, open the document that you just downloaded.</span></span>
+4. <span data-ttu-id="457ca-157">在 **开发人员** 选项卡上，选择 **XML 映射窗格**。</span><span class="sxs-lookup"><span data-stu-id="457ca-157">On the **Developer** tab, select **XML Mapping Pane**.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="457ca-158">如果 **开发人员** 选项卡没有出现在功能区上，请自定义功能区来进行添加。</span><span class="sxs-lookup"><span data-stu-id="457ca-158">If the **Developer** tab doesn't appear on the ribbon, customize the ribbon to add it.</span></span>
+
+5. <span data-ttu-id="457ca-159">在 **XML 映射** 窗格中的 **自定义 XML 部件** 字段中，选择 **报表** 自定义 XML 部件。</span><span class="sxs-lookup"><span data-stu-id="457ca-159">In the **XML Mapping** pane, in the **Custom XML Part** field, select the **Report** custom XML part.</span></span>
+6. <span data-ttu-id="457ca-160">将所选的 **报表** 自定义 XML 部件的元素与 Word 文档的内容控件进行映射。</span><span class="sxs-lookup"><span data-stu-id="457ca-160">Map the elements of the selected **Report** custom XML part and the content controls of the Word document.</span></span>
+7. <span data-ttu-id="457ca-161">将更新的 Word 文档本地保存为 **SampleVendPaymDocReportBounded.docx**。</span><span class="sxs-lookup"><span data-stu-id="457ca-161">Save the updated Word document locally as **SampleVendPaymDocReportBounded.docx**.</span></span>
+
+## <a name="review-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a><span data-ttu-id="457ca-162">查看将自定义 XML 部件映射到内容控件的 Word 模板</span><span class="sxs-lookup"><span data-stu-id="457ca-162">Review the Word template where the custom XML part is mapped to content controls</span></span>
+
+1. <span data-ttu-id="457ca-163">在 Word 桌面应用程序中，打开 **SampleVendPaymDocReportBounded.docx** 模板文件。</span><span class="sxs-lookup"><span data-stu-id="457ca-163">In the Word desktop application, open the **SampleVendPaymDocReportBounded.docx** template file.</span></span>
+2. <span data-ttu-id="457ca-164">确认此模板包含要作为 ER 输出生成的文档的布局。</span><span class="sxs-lookup"><span data-stu-id="457ca-164">Verify that the template contains the layout of the document that you want to generate as ER output.</span></span> <span data-ttu-id="457ca-165">用作 ER 将在运行时在此模板中输入的数据的占位符的内容控件，基于在 **报表** 自定义 XML 部件的元素与 Word 文档的内容控件之间配置的映射。</span><span class="sxs-lookup"><span data-stu-id="457ca-165">The content controls that are used as placeholders for data that ER will enter in this template at runtime are based on the mappings that are configured between elements of the **Report** custom XML part and the content controls of the Word document.</span></span>
+
+![桌面应用程序中的 Word 模板预览](../media/er-design-configuration-word-2016-11-image04.png)
+
+## <a name="upload-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a><span data-ttu-id="457ca-167">上载将自定义 XML 部件映射到内容控件的 Word 模板</span><span class="sxs-lookup"><span data-stu-id="457ca-167">Upload the Word template where the custom XML part is mapped to content controls</span></span>
+
+1. <span data-ttu-id="457ca-168">在 Finance 中，在 **附件** 页上，选择 **删除** 删除在 **报表** 自定义 XML 部件的元素与内容控件之间没有映射的 Word 模板。</span><span class="sxs-lookup"><span data-stu-id="457ca-168">In Finance, on the **Attachments** page, select **Delete** to remove the Word template that has no mappings between elements of the **Report** custom XML part and content controls.</span></span> <span data-ttu-id="457ca-169">选择 **是** 确认更改。</span><span class="sxs-lookup"><span data-stu-id="457ca-169">Select **Yes** to confirm the change.</span></span>
+2. <span data-ttu-id="457ca-170">选择 **新建**\>**文件**，添加一个包含 **报表** 自定义 XML 部件的元素与内容控件之间的映射的新模板文件。</span><span class="sxs-lookup"><span data-stu-id="457ca-170">Select **New** \> **File** to add a new template file that contains mappings between elements of the **Report** custom XML part and content controls.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="457ca-171">您必须选择已在 ER 参数中[配置](../electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents)的文档类型来存储 ER 格式的模板。</span><span class="sxs-lookup"><span data-stu-id="457ca-171">You must select a document type that has been [configured](../electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) in the ER parameters to store templates of ER formats.</span></span>
+
+3. <span data-ttu-id="457ca-172">选择 **浏览**，然后浏览到并选择您通过完成 [获取具有自定义 XML 部件的 Word 以进行数据映射](#get-word-doc)一节中的过程下载或准备的 **SampleVendPaymDocReportBounded.docx** 文件。</span><span class="sxs-lookup"><span data-stu-id="457ca-172">Select **Browse**, and then browse to and select the **SampleVendPaymDocReportBounded.docx** file that you downloaded or prepared by completing the procedure in the [Get a Word that has a custom XML part to do data mapping](#get-word-doc) section.</span></span>
+4. <span data-ttu-id="457ca-173">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="457ca-173">Select **OK**.</span></span>
+5. <span data-ttu-id="457ca-174">关闭 **附件** 页。</span><span class="sxs-lookup"><span data-stu-id="457ca-174">Close the **Attachments** page.</span></span>
+6. <span data-ttu-id="457ca-175">在 **格式设计器** 页上，在 **模板** 字段中，选择您刚才下载的文档。</span><span class="sxs-lookup"><span data-stu-id="457ca-175">On the **Format designer** page, in the **Template** field, select the document that you just downloaded.</span></span>
+7. <span data-ttu-id="457ca-176">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="457ca-176">Select **Save**.</span></span>
+8. <span data-ttu-id="457ca-177">关闭 **格式设计器** 页。</span><span class="sxs-lookup"><span data-stu-id="457ca-177">Close the **Format designer** page.</span></span>
+
+## <a name="mark-the-configured-format-as-runnable"></a><span data-ttu-id="457ca-178">将配置的格式标记为可运行</span><span class="sxs-lookup"><span data-stu-id="457ca-178">Mark the configured format as runnable</span></span>
+
+<span data-ttu-id="457ca-179">要运行可编辑格式的草稿版本，您必须先使其[可运行](../er-quick-start2-customize-report.md#MarkFormatRunnable)。</span><span class="sxs-lookup"><span data-stu-id="457ca-179">To run the draft version of the editable format, you must make it [runnable](../er-quick-start2-customize-report.md#MarkFormatRunnable).</span></span>
+
+1. <span data-ttu-id="457ca-180">在 Finance 中，在 **配置** 页操作窗格中 **配置** 选项卡的 **高级设置** 组中，选择 **用户参数**。</span><span class="sxs-lookup"><span data-stu-id="457ca-180">In Finance, on the **Configurations** page, on the Action Pane, on the **Configurations** tab, in the **Advanced settings** group, select **User parameters**.</span></span>
+2. <span data-ttu-id="457ca-181">在 **使用参数** 对话框中，将 **运行设置** 选项设置为 **是**，然后选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="457ca-181">In the **User parameters** dialog box, set the **Run settings** option to **Yes**, and then select **OK**.</span></span>
+3. <span data-ttu-id="457ca-182">根据需要，选择 **编辑** 以使当前页面可供编辑。</span><span class="sxs-lookup"><span data-stu-id="457ca-182">Select **Edit** to make the current page editable, as required.</span></span>
+4. <span data-ttu-id="457ca-183">对于当前选择的 **示例工作表报表** 配置，将 **运行草稿** 选项设置为 **是**。</span><span class="sxs-lookup"><span data-stu-id="457ca-183">For the currently selected **Sample worksheet report** configuration, set the **Run Draft** option to **Yes**.</span></span>
+5. <span data-ttu-id="457ca-184">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="457ca-184">Select **Save**.</span></span>
+
+## <a name="run-the-format-to-create-output-in-word-format"></a><span data-ttu-id="457ca-185">运行格式以 Word 格式创建输出</span><span class="sxs-lookup"><span data-stu-id="457ca-185">Run the format to create output in Word format</span></span>
+
+1. <span data-ttu-id="457ca-186">在 Finance 中，转到 **应付帐款** \> **付款** \> **付款日记帐**。</span><span class="sxs-lookup"><span data-stu-id="457ca-186">In Finance, go to **Accounts payable** \> **Payments** \> **Payment journal**.</span></span>
+2. <span data-ttu-id="457ca-187">在您之前输入的付款日记帐中，选择 **行**。</span><span class="sxs-lookup"><span data-stu-id="457ca-187">In a payment journal that you entered earlier, select **Lines**.</span></span>
+3. <span data-ttu-id="457ca-188">在 **供应商付款** 页上，选择网格中的所有行。</span><span class="sxs-lookup"><span data-stu-id="457ca-188">On the **Vendor payments** page, select all rows in the grid.</span></span>
+4. <span data-ttu-id="457ca-189">选择 **付款状态**\>**无**。</span><span class="sxs-lookup"><span data-stu-id="457ca-189">Select **Payment status** \> **None**.</span></span>
+
+    ![供应商付款页上要进行处理的付款](../media/er-design-configuration-word-2016-11-image05.png)
+
+5. <span data-ttu-id="457ca-191">在操作窗格上，选择 **生成付款**。</span><span class="sxs-lookup"><span data-stu-id="457ca-191">On the Action Pane, select **Generate payments**.</span></span>
+6. <span data-ttu-id="457ca-192">在出现的对话框中，执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="457ca-192">In the dialog box that appears, follow these steps:</span></span>
+
+    1. <span data-ttu-id="457ca-193">在 **付款方式** 字段中，选择 **电子**。</span><span class="sxs-lookup"><span data-stu-id="457ca-193">In the **Method of payment** field, select **Electronic**.</span></span>
+    2. <span data-ttu-id="457ca-194">在 **银行帐户** 字段中，选择 **GBSI OPER**。</span><span class="sxs-lookup"><span data-stu-id="457ca-194">In the **Bank account** field, select **GBSI OPER**.</span></span>
+    3. <span data-ttu-id="457ca-195">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="457ca-195">Select **OK**.</span></span>
+
+7. <span data-ttu-id="457ca-196">在 **电子申报参数** 对话框中，选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="457ca-196">In the **Electronic report parameters** dialog box, select **OK**.</span></span>
+8. <span data-ttu-id="457ca-197">生成的输出以 Word 格式表示，其中包含处理的付款的详细信息。</span><span class="sxs-lookup"><span data-stu-id="457ca-197">The generated output is presented in Word format and contains the details of the processed payments.</span></span> <span data-ttu-id="457ca-198">分析生成的输出。</span><span class="sxs-lookup"><span data-stu-id="457ca-198">Analyze the generated output.</span></span>
+
+    ![以 Word 格式生成的输出](../media/er-design-configuration-word-2016-11-image06.png)
+
+## <a name="additional-resources"></a><span data-ttu-id="457ca-200">其他资源</span><span class="sxs-lookup"><span data-stu-id="457ca-200">Additional resources</span></span>
+
+- [<span data-ttu-id="457ca-201">设计新 ER 配置以生成 Word 格式的报表</span><span class="sxs-lookup"><span data-stu-id="457ca-201">Design a new ER configuration to generate reports in Word format</span></span>](../er-design-configuration-word.md)
+- [<span data-ttu-id="457ca-202">使用 ER 在您生成的文档中嵌入图像和形状</span><span class="sxs-lookup"><span data-stu-id="457ca-202">Embed images and shapes in documents that you generate by using ER</span></span>](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
