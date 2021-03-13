@@ -1,8 +1,8 @@
 ---
 title: 了解日期和时间字段
-description: 了解在 Microsoft Dynamics 365 Human Resources 中使用日期和时间字段时会发生什么。 清楚地了解在与 Human Resources、外部源或 Common Data Service 的窗体中的日期和时间数据进行交互时可能会发生什么。
-author: Darinkramer
-manager: AnnBe
+description: 了解在 Microsoft Dynamics 365 Human Resources 中使用日期和时间字段时会发生什么。
+author: andreabichsel
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,21 +15,21 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 027e46d53fd9704f5483e90409be53c1510e8cd4
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: d843eb8cefcd0f2f45c8956cd451f88ca6336efb
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529844"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130439"
 ---
 # <a name="understand-date-and-time-fields"></a>了解日期和时间字段
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-**日期和时间** 字段是 Dynamics 365 Human Resources 中的基本概念。 了解如何在 Dynamics 365 Human Resources 窗体、Common Data Service 和外部源中使用 **日期和时间** 数据非常重要。
+**日期和时间** 字段是 Dynamics 365 Human Resources 中的基本概念。 了解如何在窗体、Dataverse 和外部源中使用 **日期和时间** 数据非常重要。
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>了解日期与日期和时间字段数据类型之间的差异
 
@@ -41,39 +41,39 @@ ms.locfileid: "4529844"
 
 ## <a name="understanding-date-and-time-fields-in-forms"></a>了解窗体中的日期和时间字段 
 
-在 **日期和时间** 字段中输入数据时，如果用户的时区未设置为协调世界时 (UTC)，屏幕上显示的数据将与存储在数据库中的数据不同。 **日期和时间** 字段中的数据始终存储为 UTC。
+如果用户的时区未设置为协调世界时 (UTC)，屏幕上显示的 **日期和时间** 数据将与存储在数据库中的数据不同。 **日期和时间** 字段中的数据始终存储为 UTC。
 
-[![工作人员窗体](./media/worker-form.png)](./media/worker-form.png)
+[![工作人员窗体 UTC](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>了解数据库中的日期和时间字段 
 
 当 Human Resources 将 **日期和时间** 值写入数据库时，它以 UTC 存储数据。 这允许用户查看相对于其用户选项中定义的时区的任何 **日期和时间** 数据。
  
-在上面的示例中，开始时间是一个时间点，而不是特定日期。 通过将登录用户的时区从 GMT +12:00 更改为 GMT UTC，刚刚创建的同一记录显示 04/30/2019 12:00:00 而不是 05/01/2019 12:00:00。
+在上面的示例中，开始时间是一个时间点，而不是特定日期。 通过将登录用户的时区从 GMT +12:00 更改为 GMT UTC，同一记录将显示 04/30/2019 12:00:00 而不是 05/01/2019 12:00:00。
   
 在下面的示例中，无论时区如何，员工 000724 的雇用都会同时变为活动状态。 该员工将于 GMT 时区的 04/30/2019 进入活动状态，与 GMT+12:00 时区的 05/01/2019 相同。 两者都指的是相同时间点而不是特定日期。 
 
-[![工作人员窗体](./media/worker-form2.png)](./media/worker-form2.png)
+[![工作人员窗体 GMT](./media/worker-form2.png)](./media/worker-form2.png)
 
-## <a name="date-and-time-data-in-data-management-framework-excel-common-data-service-and-power-bi"></a>Data Management Framework、Excel、Common Data Service 和 Power BI 中的日期和时间数据 
+## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Data Management Framework、Excel、Dataverse 和 Power BI 中的日期和时间数据 
 
-Data Management Framework、Excel 加载项、Common Data Service 和 Power BI 报告的目的都是直接在数据库级别与数据交互。 由于没有客户端将 **日期和时间** 数据调整到用户的时区，因此所有 **日期和时间** 值均为 UTC，这可能导致在输入或查看数据时出现一些错误的假设。  
+Data Management Framework、Excel 加载项、Dataverse 和 Power BI 报告的目的都是直接在数据库级别与数据交互。 由于没有客户端将 **日期和时间** 数据调整到用户的时区，因此所有 **日期和时间** 值均为 UTC，这可能导致在输入或查看数据时出现一些错误的假设。  
  
-通过 DMF、Excel 或 Common Data Service 提交的 **日期和时间** 数据被数据库假定为 UTC。 当提交的 **日期和时间** 值未按预期显示时，这可能会导致一些混淆，因为查看数据的用户没有将其用户时区设置为 UTC。 
+通过 DMF、Excel 或 Dataverse 提交的 **日期和时间** 数据被数据库假定为 UTC。 当提交的 **日期和时间** 值未按预期显示时，这可能会导致一些混淆，因为查看数据的用户没有将其用户时区设置为 UTC。 
  
 导出数据时，可能会发生相反的情况。 导出的 DMF 实体中的 **日期和时间** 数据可能与 Dynamics 客户端中显示的数据不同。 
  
-使用 DMF 等外部源查看或创作数据时，请务必记住，**日期和时间** 值默认为 UTC，无论用户计算机的时区或其当前的用户时区设置如何。 
+使用 DMF 等外部源查看或创作数据时，请记住，**日期和时间** 值默认为 UTC，无论用户计算机的时区或其当前的用户时区设置如何。 
 
 ## <a name="examples-of-the-same-record-being-displayed-in-different-product-areas"></a>在不同产品区域显示的同一个记录的示例 
 
 **用户时区设置为 UTC 的 Human Resources**
 
-[![工作人员窗体](./media/worker-form3.png)](./media/worker-form3.png)
+[![工作人员窗体设置为 UTC](./media/worker-form3.png)](./media/worker-form3.png)
 
 **用户时区设置为 GMT +12:00 的 Human Resources** 
 
-[![工作人员窗体](./media/worker-form4.png)](./media/worker-form4.png)
+[![工作人员窗体设置为 GMT](./media/worker-form4.png)](./media/worker-form4.png)
 
 **通过 OData 使用 Excel**
 
@@ -85,16 +85,13 @@ Data Management Framework、Excel 加载项、Common Data Service 和 Power BI �
 
 **DMF Export**
 
-[![DMF 暂存](./media/DMFexport.png)](./media/DMFexport.png)
+[![DMF 导出](./media/DMFexport.png)](./media/DMFexport.png)
 
-**通过 Common Data Service 使用 Excel**
+**通过 Dataverse 使用 Excel**
 
-[![通过 Common Data Service 使用 Excel](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![通过 Dataverse 使用 Excel](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>请参阅
 
 [日期和时间数据](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
 [用户首选时区](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

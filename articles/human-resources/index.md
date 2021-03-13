@@ -2,7 +2,7 @@
 title: 欢迎使用 Dynamics 365 Human Resources
 description: Dynamics 365 Human Resources 提供您跨多个区域构建数据驱动的员工体验所需的劳动力见解。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65100ba5798ac5731d510c8f6f112bb7a33b4e65
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1136d4c811f819665202f5f93e54b63b98188970
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529772"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129535"
 ---
 # <a name="welcome-to-dynamics-365-human-resources"></a>欢迎使用 Dynamics 365 Human Resources
 
@@ -61,7 +61,7 @@ Human Resources 将人员和操作数据连接起来，以帮助您优化劳动�
 
 [概览](hr-developer-overview.md)</br>
 [通过 Power Apps 和 Power Automate 扩展](hr-developer-power-apps.md)</br>
-[Common Data Service 中的 Human Resources 实体](hr-developer-entities.md)</br>
+[Dataverse 中的 Human Resources 实体](hr-developer-entities.md)</br>
 [自定义字段](hr-developer-custom-fields.md)</br>
 [设置数据集成](hr-admin-integration-choose-technology.md)</br>
 [实体 API 引用](hr-developer-api-authentication.md)
@@ -78,6 +78,3 @@ Human Resources 将人员和操作数据连接起来，以帮助您优化劳动�
 [管理休假和缺勤](hr-leave-and-absence-overview.md)</br>
 [培养员工](hr-develop-performance-management-overview.md)</br>
 [创建课程](hr-learning-courses.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

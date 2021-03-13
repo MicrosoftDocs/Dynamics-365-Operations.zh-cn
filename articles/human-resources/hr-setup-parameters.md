@@ -2,7 +2,7 @@
 title: 配置 Human Resources 参数
 description: 某些人力资源参数的设置在公司间共享，而其他参数设置是特定于公司的。 本文说明如何设置特定于公司的人力资源参数。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HRMParameters, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bac50c5f302797e28df2bc792893c8a682899a93
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 131606ebaff49a2c63d22bcfdb5e523f4df87ec6
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417401"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129117"
 ---
 # <a name="configure-human-resources-parameters"></a>配置 Human Resources 参数
 
@@ -50,6 +50,3 @@ ms.locfileid: "4417401"
 
 > [!NOTE]
 > 工作的小时数不能超过 1,250，雇用时长不能超过 12 个月。 这些最大值符合美国的联邦法律。 最后，**员工自助服务** 选项卡确定经理可代表其员工输入的信息。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

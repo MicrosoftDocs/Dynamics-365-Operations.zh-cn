@@ -1,8 +1,8 @@
 ---
 title: 配置和管理数据库日志记录
 description: 您可以使用数据库日志记录跟踪 Dynamics 365 Human Resources 中对表和字段的更改。
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dc4658a0a13af95978c66f5aab882902f754a2d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 50346cc495fe08f49137dba59dbcbb3f7f838c7b
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417456"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129271"
 ---
 # <a name="configure-and-manage-database-logging"></a>配置和管理数据库日志记录
 
@@ -87,6 +87,3 @@ ms.locfileid: "4417456"
    - 创建日期和时间
 
 3. 使用 **数据库日志清理** 选项卡确定何时运行日志清理任务。 默认情况下，数据库日志保留 30 天。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

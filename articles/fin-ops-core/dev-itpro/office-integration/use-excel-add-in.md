@@ -1,9 +1,9 @@
 ---
-title: 在 Excel 中打开实体数据并使用 Excel 加载项更新
-description: 此主题介绍如何通过使用适用于 Excel 的 Microsoft Dynamics Office 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。
-author: ChrisGarty
+title: 使用 Excel 查看和更新实体数据
+description: 此主题介绍如何通过使用 Microsoft Dynamics Excel 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。
+author: jasongre
 manager: AnnBe
-ms.date: 04/11/2018
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -13,38 +13,39 @@ ms.reviewer: sericks
 ms.custom: 267914
 ms.assetid: 4e6c7194-a059-4057-bd62-ec0c802c36fd
 ms.search.region: Global
-ms.author: cgarty
+ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26d5f165648c1553745e3061cc89bcba42f9636a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0a9486b3d700cdbe19fbcdba431f673d0a03014f
+ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688459"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "5141868"
 ---
-# <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>在 Excel 中打开实体数据并使用 Excel 加载项更新
+# <a name="view-and-update-entity-data-with-excel"></a>使用 Excel 查看和更新实体数据 
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-此主题介绍如何通过使用适用于 Excel 的 Microsoft Dynamics Office 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。 若要打开实体数据，可从 Excel 或 Finance and Operations 开始。
+此主题介绍如何通过使用 Microsoft Dynamics Excel 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。 若要打开实体数据，可从 Excel 或 Finance and Operations 应用开始。
 
-通过在 Excel 中打开实体数据，可以使用 Excel 加载项快速、轻松地查看和编辑这些数据。 此加载项需要 Microsoft Excel 2016。
+通过在 Excel 中打开实体数据，可以使用 Excel 加载项快速、轻松地查看和编辑这些数据。 此加载项需要 Microsoft Excel 2016 或更高版本。
 
 > [!NOTE]
 > 如果将您的 Microsoft Azure Active Directory (Azure AD) 租户配置为使用 Active Directory Federation Services (AD FS)，则必须确保已应用了 2016 年 5 月的 Office 更新，以便 Excel 加载项可以让您正确登录。
 
-若要了解有关如何使用 Excel 加载项的详细信息，请观看短片[在 Dynamics 365 for Finance and Operations 中为标头和行模式创建 Excel 模板](https://youtu.be/RTicLb-6dbI)。
+若要了解有关如何使用 Excel 加载项的详细信息，请观看短片[为标头和行模式创建 Excel 模板](https://youtu.be/RTicLb-6dbI)。
 
-## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>从 Excel 开始时在 Finance and Operations 中打开实体数据
-1. 在 Finance and Operations 中的页面上，选择 **在 Microsoft Office 中打开**。
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>从 Finance and Operations 应用开始时在 Excel 中打开实体数据
+1. 在 Finance and Operations 应用中的页面上，选择 **在 Microsoft Office 中打开**。
 
     如果该页面的根数据源（表）与任何实体的根数据源相同，将为该页面生成默认 **在 Excel 中打开** 选项。 可以在常用页面（如 **所有供应商** 和 **所有客户**）中找到 **在 Excel 中打开** 选项。
  
 2. 选择 **在 Excel 中打开** 选项，然后打开生成的工作簿。 此工作簿中包含实体的绑定信息、指向您的环境的指针，以及指向 Excel 加载项的指针。
 3. 在 Excel 中，选择 **启用编辑** 以启用并运行此 Excel 加载项。 将在 Excel 窗口右侧的窗格中运行此 Excel 加载项。
 4. 如果首次运行此 Excel 加载项，则选择 **信任此加载项**。
-5. 如果系统提示您登录，选择 **登录**，然后使用用于登录 Finance and Operations 的相同凭据登录。 此 Excel 加载项将使用 Internet Explorer 中之前的登录上下文，并自动让您登录（如果可以）。 因此，请验证此 Excel 加载项右上角中的用户名。
+5. 如果系统提示您登录，选择 **登录**，然后使用用于登录 Finance and Operations 应用的相同凭据登录。 此 Excel 加载项将使用浏览器中之前的登录上下文，并自动让您登录（如果可以）。 （有关基于操作系统使用的浏览器的信息，请参阅 [Office 加载项使用的浏览器](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.)为确保登录成功，请在 Excel 加载项的右上角验证用户名。 
 
 此 Excel 加载项自动读取您所选实体的数据。 请注意，Excel 加载项读入数据之前，工作簿中无任何数据。
 
@@ -53,7 +54,7 @@ ms.locfileid: "4688459"
 2. 在 Office 应用商店中，搜索关键字 **Dynamics**，然后选择 **Microsoft Dynamics Office 加载项**（即此 Excel 加载项）旁边的 **添加**。
 3. 如果首次运行此 Excel 加载项，请选择 **信任此加载项** 以启用并运行此 Excel 加载项。 将在 Excel 窗口右侧的窗格中运行此 Excel 加载项。
 4. 选择 **添加服务器信息** 打开 **选项** 页面。
-5. 在浏览器中，复制目标 Finance and Operations 实例的 URL，将其粘贴到 **服务器 URL** 字段中，然后删除主机名后的所有内容。 产生的 URL 应只有一个主机名。
+5. 在浏览器中，复制目标 Finance and Operations 应用实例的 URL，将其粘贴到 **服务器 URL** 字段中，然后删除主机名后的所有内容。 产生的 URL 应只有一个主机名。
 
     例如，如果 URL 为 `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage`，则删除除 `https://xxx.dynamics.com` 以外的所有内容。
 
@@ -72,7 +73,7 @@ ms.locfileid: "4688459"
 此 Excel 加载项将实体数据读入工作簿之后，随时可通过选择 Excel 加载项中的 **刷新** 更新这些数据。
 
 ## <a name="edit-entity-data-in-excel"></a>在 Excel 中编辑实体数据
-可根据需要更改实体数据，然后通过选择 Excel 加载项中的 **发布** 将其发布回来。 若要编辑记录，请在工作表中选择单元格，然后更改单元格值。 若要创建新记录，请执行以下步骤之一：
+可根据需要更改实体数据，然后通过选择 Excel 加载项中的 **发布** 将其发布回 Finance and Operations 应用。 若要编辑记录，请在工作表中选择单元格，然后更改单元格值。 若要创建新记录，请执行以下步骤之一：
 
 - 单击数据源表中的任意位置，然后选择此 Excel 加载项中的 **新建**。
 - 在数据源表最后一行中单击任何位置，然后按 Tab 键，直到光标移出该行的最后一列，并创建一个新行。
@@ -105,6 +106,21 @@ ms.locfileid: "4688459"
 4. 若要应用对数据源的更改，选择 **更新**。 然后选择 **完成** 退出设计器。
 5. 如果添加了字段（列），选择 **刷新** 提取更新后的数据集。
 
+## <a name="change-the-publish-batch-size"></a>更改发布批处理大小
+当用户使用 Excel 加载项将更改发布到数据记录时，更新将成批提交。 默认的发布批处理大小为 100 行。 在版本 10.0.17 及更高版本中，**允许在 Excel 加载项中配置发布批处理大小** 功能让您可以灵活地控制发布批处理大小。
+
+系统管理员可以通过设置 **Office 应用参数** 页 **应用参数** 部分的 **发布批处理限制** 字段，来为“在 Excel 中打开”工作簿的发布批处理大小指定系统范围的限制。
+
+还可以使用 Excel 加载项为单个工作簿更改发布批处理大小。
+
+1. 在 Excel 中打开工作簿。
+2. 选择 Excel 加载项右上方的 **选项**（齿轮）按钮。
+3. 根据需要设置 **发布批处理大小** 字段。 您设置的值必须小于系统范围的发布批处理限制。
+4. 选择 **确定**。
+5. 保存工作簿。 如果您在更改加载项设置后未保存工作簿，重新打开工作簿时，这些更改不会保留。
+
+Excel 工作簿模板作者可以使用相同的过程来设置模板的发布批处理大小，然后再将其上载到系统。
+
 ## <a name="copy-environment-data"></a>复制环境数据
 
 读入一个环境的工作簿中的数据可以复制到另一个环境。 但是，您无法仅更改连接 URL，因为工作簿中的数据缓存会继续将该数据视为现有数据。 您必须使用“复制环境数据”功能将数据作为新数据发布到新的环境。
@@ -123,6 +139,4 @@ ms.locfileid: "4688459"
 - **将显示“加载小程序”按钮** – 如果登录后此 Excel 加载项有 **加载小程序** 按钮，您可能无法作为正确用户登录。 若要解决此问题，请验证此 Excel 加载项右上角中是否显示正确的用户名。 如果显示错误的用户名，请选择该用户名，注销，然后再次登录。
 - **您收到“已禁止”消息** – 如果此 Excel 加载项加载元数据时收到“已禁止”消息，则登录了该 Excel 加载项的帐户无权使用目标服务、实例或数据库。 若要解决此问题，请验证此 Excel 加载项右上角中是否显示正确的用户名。 如果显示错误的用户名，请选择该用户名，注销，然后再次登录。
 - **Excel 上方显示空白网页** – 如果登录过程中打开空白网页，则帐户需要 AD FS，但是正在运行此 Excel 加载项的 Excel 版本不够高，无法加载登录对话框。 若要解决此问题，请更新正在使用的 Excel 版本。 若要当您在处于推迟渠道中的企业内时更新 Excel 版本，请使用 [Office 部署工具](https://technet.microsoft.com/library/jj219422.aspx)[从推迟渠道转到当前渠道](https://technet.microsoft.com/library/mt455210.aspx)。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+- **发布数据更改时收到超时** – 如果在尝试将数据更改发布到实体时收到超时消息，请考虑减少受影响工作簿的发布批处理大小。 在记录更改时触发大量逻辑的实体可能需要以较小的批处理发送更新，以帮助防止超时。

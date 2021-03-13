@@ -1,6 +1,6 @@
 ---
-title: 双写入概述
-description: 本主题概述双写入。 双写入是一种基础结构，其提供 Microsoft Dynamics 365 模型驱动应用与 Finance and Operations 应用之间的近实时交互。
+title: 双写入概览
+description: 本主题概括介绍双写入，其提供客户互动应用与 Finance and Operations 应用之间的近实时交互。
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 02/06/2020
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 85530cf644c7b7ffe922a6fb3288f4e05c5df91c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3937850a9df716113591e49b25373beb48e3acdd
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685605"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129997"
 ---
-# <a name="dual-write-overview"></a>双写入概述
+# <a name="dual-write-overview"></a>双写入概览
 
 [!include [banner](../../includes/banner.md)]
 
@@ -53,7 +53,7 @@ ms.locfileid: "4685605"
 + 适用于数据管理员的，合并的活动与错误日志视图
 + 配置自定义警报和阈值与订阅通知
 + 可进行筛选和转换的直观用户界面 (UI)
-+ 设置和查看实体依赖项和关系
++ 设置和查看表依赖项和关系
 + 标准和自定义表和映射均可扩展
 + 可靠的应用程序生命周期管理
 + 适用于新客户的现成设置体验
@@ -93,7 +93,7 @@ ms.locfileid: "4685605"
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>双写入对 Customer Engagement 应用的开发人员和架构师有何意义？
 
-双写入实现了 Finance and Operations 应用与 Customer Engagement 应用之间数据流自动化。 双写入由 Dataverse 中安装的两个 AppSource 解决方案构成。 这些解决方案扩展 Dataverse 中的实体架构、插件和工作流，以使其可适应 ERP 规模。 若要成功实施，Customer Engagement 应用的开发人员和架构师必须了解这些更改和与其对应方协作使用 Finance and Operations 应用。
+双写入实现了 Finance and Operations 应用与 Customer Engagement 应用之间数据流自动化。 双写入由 Dataverse 中安装的两个 AppSource 解决方案构成。 这些解决方案扩展 Dataverse 中的表架构、插件和工作流，以使其可适应 ERP 规模。 若要成功实施，Customer Engagement 应用的开发人员和架构师必须了解这些更改和与其对应方协作使用 Finance and Operations 应用。
 
 为了创建与 Finance and Operations 应用程序之间的对等性，双写入在 Dataverse 架构中进行一些关键更改。 如果了解此计划，可以在将来避免一些重复性的设计和开发工作。
 
@@ -103,12 +103,9 @@ ms.locfileid: "4685605"
 
 + 若要在 Finance and Operations 应用与 Dataverse 之间传输币种时避免数据丢失，可以增加 Customer Engagement 应用中币种数据类型内的小数位数。 此功能将现有行自动转换为元数据层的新扩展状态。 在此过程中，币种值转换为十进制数据，而不是货币数据，而货币值则支持 10 个小数位数。 此功能是选择加入的，小数位数不需要超过 4 位的组织不需要选择加入。 有关详细信息，请参阅[双写入货币数据类型迁移](currrency-decimal-places.md)。
 
-+ [日期有效性](../../dev-tools/date-effectivity.md)将添加到 Dataverse。 其将支持同一个实体的过去、现在和将来的数据。
++ [日期有效性](../../dev-tools/date-effectivity.md)将添加到 Dataverse。 其将支持同一个表的过去、现在和将来的数据。
 
 + 产品、报价单、订单和发票支持产品[单位转换](../../../../supply-chain/pim/tasks/manage-unit-measure.md)。
 
 有关即将推出的更改的详细信息，请参阅[双写入中新增或更改的功能](whats-new-dual-write.md)。
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

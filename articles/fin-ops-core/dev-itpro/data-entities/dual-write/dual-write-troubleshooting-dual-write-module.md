@@ -1,5 +1,5 @@
 ---
-title: 解决 Finance and Operations 应用有关双写入模块的问题
+title: 解决 Finance and Operations 应用中的双写入问题
 description: 本主题提供故障排除信息，可以帮助您解决 Finance and Operations 应用中的双写入模块问题。
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2241e7e6219f95115f55bc45a4d94550276e1e21
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3ffeb2de0acc1761bccf62a1a124852c504e2a3a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683615"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131237"
 ---
-# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>解决 Finance and Operations 应用有关双写入模块的问题
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>解决 Finance and Operations 应用中的双写入问题
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,7 +44,7 @@ ms.locfileid: "4683615"
 
 **解决此问题所需的凭据：** 设置双写入的同一用户。
 
-当您尝试为双写入配置新实体时，您可能会收到以下错误消息。 可以创建映射的唯一用户是设置双写入连接的用户。
+当您尝试为双写入配置新表时，您可能会收到以下错误消息。 可以创建映射的唯一用户是设置双写入连接的用户。
 
 *响应状态代码未指示成功：401（未授权）*
 
@@ -77,7 +77,7 @@ ms.locfileid: "4683615"
 
 要解决此问题，请为数据集成团队创建票证。 附加网络跟踪，以便数据集成团队可以在后端将映射标记为 **未运行**。
 
-## <a name="error-while-trying-to-start-an-table-mapping"></a>尝试开始表映射时出错
+## <a name="error-while-trying-to-start-a-table-mapping"></a>尝试开始表映射时出错
 
 当您尝试将映射的状态设置为 **正在运行** 时，可能会收到如下错误：
 
@@ -86,7 +86,4 @@ ms.locfileid: "4683615"
 此错误的解决方法取决于错误原因：
 
 + 如果映射具有相关映射，请确保启用此表映射的相关映射。
-+ 映射可能缺少源或目标字段。 如果缺少 Finance and Operations 应用中的字段，请按照[映射中的缺少实体字段问题](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps)一节中的步骤进行操作。 如果缺少 Dataverse 中的字段，请单击映射上的 **刷新表** 按钮，让这些字段自动填充回映射中。
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
++ 映射可能缺少源或目标列。 如果缺少 Finance and Operations 应用中的列，请按照[映射中缺少表列问题](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps)一节中的步骤进行操作。 如果缺少 Dataverse 中的列，请单击映射上的 **刷新表** 按钮，让这些列自动填充回映射中。

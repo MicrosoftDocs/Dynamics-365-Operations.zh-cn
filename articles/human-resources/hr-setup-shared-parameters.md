@@ -2,7 +2,7 @@
 title: 配置共享参数
 description: 您必须为在公司间共享的记录设置共享参数，例如职位记录。 本文说明如何设置跨法人的人力资源参数。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HcmSharedParameters, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 51891
 ms.assetid: c7d8f58c-d78a-4035-abbf-2b0ce16109fe
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 72742c38c3ff25d665bd1a3d0ea54f167dc0693c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a7b399e0e8972a15837648d7ae6ec0eaacb5196b
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417400"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130415"
 ---
 # <a name="configure-shared-parameters"></a>配置共享参数
 
@@ -45,6 +45,3 @@ ms.locfileid: "4417400"
 
 -   **始终** – 创建新的职位时，可将工作人员分配到这些职位。 在创建职位时，**职位** 页的 **常规** 选项卡上的 **可进行分配的日期和时间** 将自动设置为创建日期和时间。
 -   **从不** – 创建新的职位时，您无法将工作人员分配到这些职位。 如果选择此选项，则您必须在每个新职位可用时打开其 **职位** 页，然后在 **常规** 选项卡上，输入 **可用于分配** 日期以启用工作人员分配。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

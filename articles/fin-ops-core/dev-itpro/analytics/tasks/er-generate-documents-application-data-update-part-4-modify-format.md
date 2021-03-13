@@ -1,6 +1,6 @@
 ---
 title: 修改格式以生成包含应用程序数据的单据
-description: 若要完成此过程中的步骤，首先必须完成“ER 使用应用程序数据更新生成单据（第 3 部分 - 修改模型和映射）”这一过程。
+description: 本主题介绍如何设计报告配置以生成电子文档与更新应用程序数据。
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e820e909bcd80b4747c06ccaaeb05c03f52b6963
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684539"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129389"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>修改格式以生成包含应用程序数据的单据
 
@@ -149,6 +149,3 @@ ms.locfileid: "4684539"
 46. 关闭该页面。
 47. 关闭该页面。
 48. 关闭该页面。
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

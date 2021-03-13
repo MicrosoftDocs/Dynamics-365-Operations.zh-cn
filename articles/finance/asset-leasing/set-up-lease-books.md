@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 28518341544327f1983e563b719b0f455b6e1c43
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 948860bb064dde1085fef4a74da2d9a600892294
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440952"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130997"
 ---
 # <a name="set-up-lease-books"></a>设置租赁帐簿
 
@@ -53,6 +52,4 @@ ms.locfileid: "4440952"
     | 短期阈值                     | 输入用作短期租赁阈值的月数。 如果租赁期小于或等于您在此处输入的月数，则系统会将租赁归类为短期租赁，并采用延期租金处理。 |
     | 低价值阈值                      | 输入用作低价值租赁的阈值的金额。 如果资产的公平价值小于或等于您在此处输入的值，则系统会将租赁归类为低价值租赁，并采用延期租金处理。 |
     | 向供应商付款                            | 将此选项设置为 **是**，以便允许将租赁付款作为发票过帐到每个租赁中指定的供应商科目。 过帐租赁付款后，将贷记供应商科目。 如果此选项设置为 **否**，将改为贷记 **租赁过帐参数** 页上的 **租赁付款** 过帐类型指定的科目。 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+    | 租赁惯例                       | 选择租赁开始日期的惯例：<ul><li><b>无</b> – 使用租赁的起始日期作为开始日期。</li><li><b>整月</b> – 使用租赁起始日期所在月份的第一天作为开始日期。</li></ul><p>如果选择<b>无</b>，有可能导致负债摊销和资产折旧计划在月中而非月底计入和过帐费用。 选择<b>整月</b>，您将确保系统将在该月的第一天开始对租赁记帐，并且整个月的费用都将在该月的最后一天计入和过帐。</p><p><strong>注意：</strong>租赁惯例功能必须通过“功能管理”打开。 在<b>功能管理</b>工作区中，找到并选择名为<b>资产租赁的租赁惯例</b>功能，然后选择<b>立即启用</b>。</p> |

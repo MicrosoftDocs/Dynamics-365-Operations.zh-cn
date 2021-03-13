@@ -1,5 +1,5 @@
 ---
-title: 从包含多个工作表的 Excel 数据实体模板中导入数据
+title: 带有多个工作表的数据模板
 description: 此主题介绍如何使用 Excel 数据实体模板将数据导入 Finance and Operations。
 author: Sunil-Garg
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 618b62364353f409f6971ddd9adc7d55297d09cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb505f33e497cf16cd6cdeddee1f88d01797f3ef
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688071"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130573"
 ---
-# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>从包含多个工作表的 Excel 数据实体模板中导入数据
+# <a name="data-templates-with-multiple-worksheets"></a>带有多个工作表的数据模板
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,6 +49,3 @@ ms.locfileid: "4688071"
 ## <a name="upload-a-file-using-run-project"></a>使用“运行项目”上传文件
 
 您可以在使用 **运行项目** 选项执行导入项目时上传 Excel 文件。 您必须注意，上传的文件仅包含与数据项目中的数据实体的现有映射相同的工作表。 如果在新上传的文件中找不到某个工作表，系统将显示错误，并停止导入。 如果必须对某个实体更改到工作表的映射，必须先从数据项目内部更新数据项目中的映射，然后在 **运行项目** 体验中使用文件。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

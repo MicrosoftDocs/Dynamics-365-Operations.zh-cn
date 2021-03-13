@@ -1,9 +1,9 @@
 ---
 title: Dynamics 365 Human Resources 的新增功能或更改（2020 年 8 月 6 日）
 description: 此主题介绍了 2020 年 8 月 6 日 Microsoft Dynamics 365 Human Resources - Core HR 中的新增功能和更改的功能。
-author: darinkramer
-manager: AnnBe
-ms.date: 8/06/2020
+author: andreabichsel
+manager: tfehr
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 94ec9b44e21715363116427839badacd14a3d6f8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 5f4a4de6cbed0a3ecb3e85782fac65d399731cf2
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528417"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129819"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Dynamics 365 Human Resources 的新增功能或更改（2020 年 8 月 6 日）
 
@@ -142,9 +142,9 @@ DMF 实体现在可用于暂停应计。
 
 ## <a name="coming-soon"></a>即将到期
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service 中包含的核对清单实体
+## <a name="checklist-entities-included-in-dataverse"></a>Dataverse 中包含的核对清单实体
 
-Common Data Service 内很快将为入职、离职、转移和业务流程提供核对清单实体。
+Dataverse 内很快将为入职、离职、转移和业务流程提供核对清单实体。
 
 ## <a name="known-issues"></a>已知问题
 
@@ -175,6 +175,3 @@ Common Data Service 内很快将为入职、离职、转移和业务流程提供
 [Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

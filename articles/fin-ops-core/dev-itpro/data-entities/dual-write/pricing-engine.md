@@ -1,5 +1,5 @@
 ---
-title: 按需与 Dynamics 365 Supply Chain Management 定价引擎同步
+title: 按需与 Supply Chain Management 定价引擎同步
 description: 本主题介绍如何在 Dynamics 365 Sales 的 Microsoft Dynamics 365 Supply Chain Management 中使用定价引擎。
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 740ae20704abd9c59f64c2c7622fa96d65dccb1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 45a9de18a3ff9c50eba8b316171b492605d683d4
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4450199"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130645"
 ---
-# <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>按需与 Dynamics 365 Supply Chain Management 定价引擎同步
+# <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>按需与 Supply Chain Management 定价引擎同步
 
 [!include [banner](../../includes/banner.md)]
 
@@ -40,7 +40,7 @@ Microsoft Dynamics 365 Supply Chain Management 包括处理贸易协议、价目
 3. 添加新订单行。
 4. 如果您要创建新订单，请选择在操作窗格上 **价格订单**。 如果您要更新现有订单，请选择在操作窗格上 **重新计算**。
 
-    下列字段将自动填写：
+    以下列将自动填充：
 
     + 详细信息金额
     + 折扣百分比
@@ -58,17 +58,14 @@ Microsoft Dynamics 365 Supply Chain Management 包括处理贸易协议、价目
 
 ## <a name="how-it-works"></a>工作原理
 
-当您在 Sales 中选择 **价格订单** 时，将为关联销售订单调用 Supply Chain Management 中 **销售订单 \> 视图** 选项卡上的 **总计** 函数。 Sales 中订单总计中的值用于填写 Supply Chain Management 中的对应字段。
+当您在 Sales 中选择 **价格订单** 时，将为关联销售订单调用 Supply Chain Management 中 **销售订单 \> 视图** 选项卡上的 **总计** 函数。 Sales 中订单总计中的值用于填写 Supply Chain Management 中的对应列。
 
 在 Supply Chain Management 中计算销售订单总计时，计算将评估客户的现有贸易协议和销售协议以及销售订单中列出的产品。 此信息用于计算总计。 选择 **价格订单** 时，Sales 会自动反映 Supply Chain Management 中已经完成的所有设置。
 
 ## <a name="limitations"></a>限制
 
-填写 Sales 中的字段后，将应用以下限制：
+填写 Sales 中的列后，将应用以下限制：
 
 + Supply Chain Management 中的费用设置和费用分配不会在 Sales 中复制。
-+ 定价不考虑在 Supply Chain Management 中销售订单行页面上的 **零售渠道** 字段中指定的特殊零售定价。
++ 定价不考虑在 Supply Chain Management 中销售订单行页面上的 **零售渠道** 列中指定的特殊零售定价。
 + 不考虑 Supply Chain Management 的 **贸易折让管理** 部分定义的折扣。
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

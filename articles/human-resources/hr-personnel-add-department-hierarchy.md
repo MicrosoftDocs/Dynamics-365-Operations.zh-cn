@@ -2,7 +2,7 @@
 title: 创建部门并将其添加到部门层次结构中
 description: 部门是一个运营单位，表示组织的类别或功能区域。 部门负责组织的特定区域，例如，销售、会计或人力资源。 您可以在功能区中使用要上报的部门。 部门可能具有损益职责。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 8dbaddf0165f36db07378e817639fd8b17a4a96f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab9d16c8b8596f0890e0256f33608fda99a5312f
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417391"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130365"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>创建部门并将其添加到部门层次结构中
 
@@ -54,6 +54,3 @@ ms.locfileid: "4417391"
 
 ## <a name="steps-for-creating-a-department"></a>部门创建步骤
 请参阅[定义新部门](../fin-and-ops/hr/tasks/define-new-departments.md)一文了解创建新部门的分步过程。 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
