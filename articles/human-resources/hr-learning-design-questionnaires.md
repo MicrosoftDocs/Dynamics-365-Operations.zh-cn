@@ -1,8 +1,8 @@
 ---
-title: 设计调查表
+title: 创建调查表
 description: 本文描述创建调查表的过程。 第一步是设计调查表。 在您设计调查表时，您不仅编写问题和回答，还要创建结构，以便对回答进行记录和制表。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,21 +11,21 @@ ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3f7f7d68caf12c33059d2f871fe3f4a036c89f35
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417521"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115118"
 ---
-# <a name="design-questionnaires"></a>设计调查表
+# <a name="create-questionnaires"></a>创建调查表
 
 本文描述创建调查表的过程。 第一步是设计调查表。 在您设计调查表时，您不仅编写问题和回答，还要创建结构，以便对回答进行记录和制表。 
 
@@ -236,5 +236,3 @@ ms.locfileid: "4417521"
 法人向其客户提供物料和服务。 和通常在这种情况下发生的事情一样，某些客户通常只购买物料或只购买服务，而其他一些客户则同时购买这两者。 因此，在该法人想要分发客户满意度调查时，它将某一条件结构应用于该调查表，因此仅购买服务的客户不必回答与物料有关的问题。 
 
 另外，您可以设置一个调查表，以便如果调查对象为问题 1 选择了答案 A，则接下来显示问题 2。 但是，如果调查对象为问题 1 选择了答案 B，则接下来显示问题 5。
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

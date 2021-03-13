@@ -2,7 +2,7 @@
 title: 查看休假和缺勤分析
 description: 在 Dynamics 365 Human Resources 中查看休假分析、累积和余额以及余额趋势。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a6cca83cf6eb17d9d700058365ac54c54efca7eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 488745388312f0a2ef936dac2f8252431123fe33
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417515"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5116060"
 ---
 # <a name="view-analytics-for-leave-and-absence"></a>查看休假和缺勤分析
 
@@ -45,5 +45,3 @@ Dynamics 365 Human Resources 提供分析来帮助您了解组织的休假和缺
 
 - [休假和缺勤概览](hr-leave-and-absence-overview.md)
 - [创建休假和缺勤计划](hr-leave-and-absence-plans.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: 绩效管理
 description: 绩效管理流程供员工记录自己的绩效并与经理讨论。 相应地，经理然后可以向员工提供反馈和指导。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: Human Resources
 ms.custom: 221024
 ms.assetid: d88e30ab-c6e9-4daf-b89d-f4386a299e22
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 722ae95de3b1822f3c7246394c3d16b8b827723b
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417468"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115600"
 ---
 # <a name="performance-management"></a>绩效管理
 
@@ -163,5 +163,3 @@ ms.locfileid: "4417468"
 ### <a name="review-types"></a>审核类型
 
 绩效审核类型可帮助您控制审核的行为。 您可以启用或禁用审核的工作流。 如果审核不使用工作流，您可以定义将在创建审核时使用的默认状态。 您还可以确定是否需要员工和/或经理才能签核审核。
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

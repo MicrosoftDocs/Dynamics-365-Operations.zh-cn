@@ -2,7 +2,7 @@
 title: 创建工作时间日历
 description: 在 Dynamics 365 Human Resources 中定义工作时间日历、假日和非工作时间。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bedbe65f146c4159c2a809de8f683815fd4a01f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ccf7901ebbea655b7f795a48944c6f03f9cf210a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417438"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115094"
 ---
 # <a name="create-a-working-time-calendar"></a>创建工作时间日历
 
@@ -75,6 +75,3 @@ Dynamics 365 Human Resources 中的工作时间日历显示员工在您的组织
 
 - [休假和缺勤概览](hr-leave-and-absence-overview.md)
 - [配置休假和缺勤类型](hr-leave-and-absence-types.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

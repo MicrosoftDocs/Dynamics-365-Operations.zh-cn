@@ -2,7 +2,7 @@
 title: 概览
 description: Dynamics 365 Human Resources 用户指南为您提供有关设置 Human Resources、为员工设置薪酬和福利以及管理劳动力的说明。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 78fddd033c777f5be6408d5e2db691ae966edb3a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417525"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115238"
 ---
 # <a name="overview"></a>概览
 
@@ -60,7 +60,6 @@ Dynamics 365 Human Resources 用户指南为您提供有关设置 Human Resource
 [修改职位的报告关系](hr-personnel-modify-reporting-relationships-position.md)</br>
 [输入工作人员信息](hr-personnel-enter-worker-information.md)</br>
 [向工作人员借出物品](hr-personnel-loan-item-worker.md)</br>
-[输入项目工时单](hr-personnel-enter-project-timesheets.md)</br>
 [大批雇用项目](hr-personnel-mass-hire-projects.md)</br>
 [设置职位](hr-personnel-set-up-positions.md)</br>
 [设置伤害和疾病信息](hr-personnel-set-up-injury-illness-information.md)</br>
@@ -128,6 +127,3 @@ Dynamics 365 Human Resources 用户指南为您提供有关设置 Human Resource
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

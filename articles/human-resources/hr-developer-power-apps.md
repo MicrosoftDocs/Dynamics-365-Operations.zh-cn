@@ -2,7 +2,7 @@
 title: 通过 Power Apps 和 Power Automate 扩展 Talent
 description: 本文介绍 Microsoft Dynamics 365 Human Resources 的一些使用 Microsoft Power Apps 和 Microsoft Power Automate 的可扩展性方案示例。
 author: negudava
-manager: Annbe
+manager: tfehr
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core;Experience Apps;Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e89347829ccd6569d568db42c79b5fea2316ba3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e6885c67f42ead34b5e10cc1b1a80a88fd2d59b9
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527018"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115358"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>通过 Power Apps 和 Power Automate 扩展
 
@@ -51,7 +51,7 @@ ms.locfileid: "4527018"
 
 **Power Automate – SQL 连接和执行** 模板连接到 Microsoft SQL Server 并让 SQL 查询运行。
 
-虽然此模板读取和更新 SQL 表，但是您可以对其进行扩展，然后将其用于其他场景。 例如，可将其用于使用来自 SQL Server 的记录填充 Common Data Service 中的暂存表，以及通过使用来自 SQL Server 的增量推送定期同步暂存表。
+虽然此模板读取和更新 SQL 表，但是您可以对其进行扩展，然后将其用于其他场景。 例如，可将其用于使用来自 SQL Server 的记录填充 Dataverse 中的暂存表，以及通过使用来自 SQL Server 的增量推送定期同步暂存表。
 
 “高级查询”已与 Flow 集成，以实现数据转换和增量推送。
 
@@ -60,5 +60,3 @@ ms.locfileid: "4527018"
 ## <a name="additional-resources"></a>其他资源
 
 [该 Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: 制订薪酬结构
 description: 本文介绍如何创建固定薪酬计划，以及如何通过资格规则在该计划中等记员工。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5a5e7ef2021e41c13b82523f2dc6a1b09bd1ba9f
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417486"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115888"
 ---
 # <a name="develop-a-compensation-structure"></a>制订薪酬结构
 
@@ -113,6 +113,3 @@ ms.locfileid: "4417486"
 
 8. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: 创建封闭式问题
 description: 封闭式问题允许您为回答者提供供选择的选项。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: KMAnswerCollection, KMAnswer, KMQuestion, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2eb53290d39fef0bf439a199dfd774138823ec2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 65d77806498c3a710c00865ad27716f50796cdf5
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417522"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5114948"
 ---
 # <a name="create-a-closed-ended-question"></a>创建封闭式问题
 
@@ -68,6 +68,3 @@ ms.locfileid: "4417522"
 5. 在“回答组”字段中，输入或选择一个值。
 6. 在“文本”字段中，键入一个值。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

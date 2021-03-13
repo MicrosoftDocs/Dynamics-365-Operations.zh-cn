@@ -2,7 +2,7 @@
 title: 创建绩效审核
 description: 此主题介绍如何创建绩效审核和介绍审核各部分的目的。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99825dd580d617bb47b4f0ece784afbf6573ae8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e83bcf60e494e6f04387727bedf41175faa07557
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417451"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115792"
 ---
 # <a name="create-performance-reviews"></a>创建绩效审核
 
@@ -78,6 +78,3 @@ ms.locfileid: "4417451"
 34. 选择 **审核** 选项卡。随着审核经历这些状态，员工和经理可以为每个目标或能力添加注释。  
 35. 选择 **签核** 选项卡。工作人员和经理可以签核审核。 当所有必需签核均已完成时，状态将更改为 **已完成**，并且再也不能执行更改。  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: 将发票提交到工作流系统并匹配物料收货行（预览）
+title: 将账单提交至工作流系统并匹配物料收货行
 description: 本主题介绍了将供应商发票提交到工作流系统，并自动将过帐的物料收货行与供应商发票进行匹配的流程。
 author: abruer
 manager: AnnBe
@@ -11,23 +11,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cde164ee89b542d769d81d8d483049fb7ca001c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 03c9f6752a0bb9641f67d65580aca18276e43e9a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440596"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115648"
 ---
-# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines-preview"></a>将发票提交到工作流系统并匹配物料收货行（预览）
+# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>将账单提交至工作流系统并匹配物料收货行
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题介绍了将供应商发票提交到工作流系统，并自动将过帐的物料收货行与供应商发票进行匹配的流程。
 
@@ -47,13 +45,10 @@ ms.locfileid: "4440596"
 
 具有三向匹配政策的发票行（匹配的收货数量小于发票数量）将包括在自动匹配到物料收货流程中。
 
-若要查看不属于自动提交到工作流程的发票的 **最近一次匹配** 状态，请从 **供应商发票** 页面中打开发票。 当查看发票时，将更新匹配的验证信息。
+若要查看不属于自动提交到工作流程的发票的 **最近一次匹配** 状态，请从 **供应商发票** 页面中打开发票。 当查看发票时，将更新匹配的验证信息。 **最近一次匹配** 状态可以使用 **验证发票匹配** 后台任务自动更新。 您可以在 **流程自动化** 页的 **后台流程** 选项卡上配置自动更新 **最近一次匹配** 状态的流程（**系统管理 \> 设置 \> 流程自动化**）。
 
 如果满足以下任一条件，将从自动化流程中排除发票行：
 
 - 发票行的 **自动化收货匹配状态** 值为 **失败**。
 - 发票正在使用中。
 - 发票在工作流系统中。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9aaf24147900c890a14c60ab969da7124c538911
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682763"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115720"
 ---
 # <a name="financial-insights"></a>财务见解
 
@@ -66,9 +66,10 @@ ms.locfileid: "4682763"
 
 必须更新以下实体，才能查看 **财务见解** 和 **CFO 概览** 工作区中的数据：
 
-- 财务申报交易记录数据版本 2（**注意：** 这是版本 10.0.1 中的新增功能，取代了上一个实体。）
-- 财务报告交易数据
+- BudgetActivityMeasure
+- 财务报告交易记录数据版本 3 
 - CustCollectionsBIMeasurements
+- LedgerActivityMeasure
 - LedgerCovLiquidityMeasurement
 - 采购多维数据集
 - 销售多维数据集
@@ -247,6 +248,3 @@ Power BI 不提供用于隐藏和显示空行的选项。 如果行中没有任�
 - [在 1 盒环境中访问分析工作区和报表](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [使用 Power BI Embedded 将分析添加到工作区](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

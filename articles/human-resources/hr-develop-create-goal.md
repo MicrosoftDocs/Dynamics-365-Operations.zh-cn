@@ -2,7 +2,7 @@
 title: 创建目标
 description: 可以创建目标，向目标添加活动，跟踪量化指标，以及将目标链接到审核。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2157e3b31786c8f0412ea447831e45a2290b8e35
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 875d0ae7ae6b93f3fc29aeb4617671de289e6c63
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417397"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115816"
 ---
 # <a name="create-a-goal"></a>创建目标
 
@@ -58,6 +58,3 @@ ms.locfileid: "4417397"
     * 团队成员或所有员工通常有若干相同或相似的目标。     您的人力资源管理员或经理可创建包含一个或多个目标模板的目标组。 可以从目标组添加目标，然后修改以匹配您的日程表。  
     * 创建审核时，可以向其添加目标。 请参阅审核的任务指南以了解如何向审核添加目标。  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

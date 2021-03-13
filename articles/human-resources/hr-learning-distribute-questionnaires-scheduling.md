@@ -2,7 +2,7 @@
 title: 使用计划分发调查表
 description: 调查表编制计划允许您将调查表分发给多个回应者。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: KMKnowledgeCollectorPlanningTable, KMKnowledgeCollectorPlanningMulti, SysQueryForm, HcmPersonLookup, KMKnowledgeCollectorPlanning, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d233938fe553dbd7da7fcc5477097fd885665102
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0cd101bfe88ae1acb051ba11a676da66ef6a3db6
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417520"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115454"
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>使用计划分发调查表
 
@@ -129,6 +129,3 @@ ms.locfileid: "4417520"
 2. 单击“结束”。
 3. 单击“确定”。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

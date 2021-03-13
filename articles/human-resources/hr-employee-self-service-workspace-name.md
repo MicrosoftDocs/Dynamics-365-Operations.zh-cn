@@ -2,7 +2,7 @@
 title: 更改员工自助服务工作区名称
 description: 本主题介绍如何在 Dynamics 365 Human Resources 中更改员工自助服务工作区的显示名称。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/09/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ce008c44ba84c919f4538be4d8e4ff95be018e7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 383af930e7ea5b14584069dff09e45b92808df23
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417529"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115190"
 ---
 # <a name="change-employee-self-service-workspace-name"></a>更改员工自助服务工作区名称
 
@@ -45,6 +45,3 @@ ms.locfileid: "4417529"
 ## <a name="additional-resources"></a>其他资源
 
 - [员工和经理自助服务概述](hr-employee-manager-self-service-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

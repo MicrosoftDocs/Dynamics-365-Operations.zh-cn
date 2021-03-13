@@ -1,7 +1,7 @@
 ---
 title: 库存可见性加载项
 description: 本主题介绍如何为 Dynamics 365 Supply Chain Management 安装和配置库存可见性加载项。
-author: chuzheng
+author: sherry-zheng
 manager: tfehr
 ms.date: 10/26/2020
 ms.topic: article
@@ -10,28 +10,28 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 2976153a6a7e4b4130e8f7673ed128945aeabf65
-ms.sourcegitcommit: 03c2e1717b31e4c17ee7bb9004d2ba8cf379a036
+ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4625057"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114662"
 ---
 # <a name="inventory-visibility-add-in"></a>库存可见性加载项
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 库存可见性加载项是一项独立且高度可扩展的微服务，可实现实时现有库存跟踪，并提供库存可见性的全局视图。
 
 通过低级别 SQL 集成，准实时地将与现有库存相关的所有信息导出到服务中。 外部系统通过 RESTful API 访问服务，以查询有关给定维度集的现有信息，从而检索可用现有位置的列表。
 
-库存可见性是基于 Common Data Service 生成的微服务，这意味着您可以通过生成 Power Apps 和应用 Power BI 来扩展它，从而提供自定义功能以满足您的业务需求。 也可以升级索引以进行库存查询。
+库存可见性是基于 Microsoft Dataverse 生成的微服务，这意味着您可以通过生成 Power Apps 和应用 Power BI 来扩展它，从而提供自定义功能以满足您的业务需求。 也可以升级索引以进行库存查询。
 
 库存可见性提供配置选项，使其可以与多个第三方系统集成。 它支持标准化的库存维度、自定义的可扩展性以及标准化的可配置的计算数量。
 
@@ -78,30 +78,57 @@ ms.locfileid: "4625057"
 
 ### <a name="get-a-security-service-token"></a>获取安全服务令牌
 
-若要获取安全服务令牌，请执行以下操作：
+通过执行以下操作获取安全服务令牌：
 
-1. 获取 `aadToken` 并调用终结点：https://securityservice.operations365.dynamics.com/token。
-1. 使用 `aadToken` 替换正文中的 `client_assertion`。
-1. 使用要在其中部署加载项的环境替换正文中的上下文。
-1. 使用以下项替换正文中的范围：
+1. 登录到 Azure 门户，使用它为您的 Supply Chain Management 应用程序查找 `clientId` 和 `clientSecret`。
+1. 通过提交包含以下属性的 HTTP 请求来获取 Azure Active Directory 令牌 (`aadToken`)：
+    - **URL** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+    - **方法** - `GET`
+    - **正文内容（窗体数据）**：
 
-    - MCK 的范围 -“https://inventoryservice.operations365.dynamics.cn/.default”  
-    （您可以在 `appsettings.mck.json` 中找到 MCK 的 Azure Active Directory 应用程序 ID 和租户 ID。）
-    - PROD 的范围 -“https://inventoryservice.operations365.dynamics.com/.default”  
-    （您可以在 `appsettings.prod.json` 中找到 PROD 的 Azure Active Directory 应用程序 ID 和租户 ID。）
+        | 键 | 值 |
+        | --- | --- |
+        | client_id | ${aadAppId} |
+        | client_secret | ${aadAppSecret} |
+        | grant_type | client_credentials |
+        | resource | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+1. 您应该会在响应中收到一个 `aadToken`，类似于以下示例。
 
-    结果应类似于以下示例。
+    ```json
+    {
+    "token_type": "Bearer",
+    "expires_in": "3599",
+    "ext_expires_in": "3599",
+    "expires_on": "1610466645",
+    "not_before": "1610462745",
+    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+    "access_token": "eyJ0eX...8WQ"
+    }
+    ```
+
+1. 创建一个类似于以下请求的 JSON 请求：
 
     ```json
     {
         "grant_type": "client_credentials",
         "client_assertion_type":"aad_app",
-        "client_assertion": "{**Your_AADToken**}",
-        "scope":"**https://inventoryservice.operations365.dynamics.com/.default**",
-        "context": "**5dbf6cc8-255e-4de2-8a25-2101cd5649b4**",
+        "client_assertion": "{Your_AADToken}",
+        "scope":"https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
         "context_type": "finops-env"
     }
     ```
+
+    其中：
+    - `client_assertion` 值必须是您在上一步中收到的 `aadToken`。
+    - `context` 值必须是要在其中部署加载项的环境 ID。
+    - 如示例中所示设置所有其他值。
+
+1. 提交包含以下属性的 HTTP 请求：
+    - **URL** - `https://securityservice.operations365.dynamics.com/token`
+    - **方法** - `POST`
+    - **HTTP 标题** - 包含 API 版本（键为 `Api-Version`，值为 `1.0`）
+    - **正文内容** - 包括您在上一步中创建的 JSON 请求。
 
 1. 您将获得 `access_token` 作为回应。 您需要使用它作为持有者令牌来调用库存可见性 API。 下面是一个示例。
 
@@ -500,6 +527,3 @@ ms.locfileid: "4625057"
 ```
 
 请注意，数量字段将构造为度量及其相关值的字典。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

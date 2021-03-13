@@ -2,7 +2,7 @@
 title: 根据前一个问题的回答设定问题依赖项
 description: 有条件问题允许您根据前一问题的回答，指定向回答者显示哪些后续问题。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4295b49336ec7ac3cff4deba675bc63511be48de
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 67dac872d6dc3a5046f5d554b1f185aa6607d193
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417527"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5114996"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>根据前一个问题的回答设定问题依赖项
 
@@ -56,6 +56,3 @@ ms.locfileid: "4417527"
 10. 在树结构中，选择“问题\我获得公平的工作报酬”。
     * 请注意，问题树已更新以显示差异。  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
