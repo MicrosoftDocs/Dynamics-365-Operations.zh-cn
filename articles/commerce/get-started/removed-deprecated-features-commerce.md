@@ -3,24 +3,23 @@ title: Dynamics 365 Commerce 中已删除或弃用的功能
 description: 本主题介绍 Dynamics 365 Commerce 中已经删除或计划删除的功能。
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 01/11/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 37b541ff5037a38b60dbfd6a6c071f55afcc1304
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: dd982ae60da1c2958d6d759bb5dd256a71fabf6c
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689515"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154193"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中已删除或弃用的功能
 
@@ -34,7 +33,22 @@ ms.locfileid: "4689515"
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
 > [!NOTE]
-> [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+> [技术参考报告](https://docs.microsoft.com/dynamics/s-e/)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Commerce 10.0.17 版本中已经删除或弃用的功能
+
+> [!Important]
+> 版本 10.0.17 作为预览版本的一部分提供。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅 [One Version 服务更新常见问题](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version)。
+
+### <a name="full-dataset-generation-interval-is-deprecated"></a>完整数据集生成间隔已弃用
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 从此版本开始，在 Dynamics 365 总部的 **商业调度参数** 窗体中，**完整数据集生成间隔(天)** 字段将弃用。 同样从此版本开始，该字段将从视觉上删除，以使值无法编辑。 值将保留为 **0**。 |
+| **被另一个功能取代？**   | 不 |
+| **影响的产品区域**         | Dynamics 365 Commerce |
+| **部署选项**              | 所有|
+| **状态**                         | 已弃用。 不要使用此字段或更改其中的值。|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>Commerce 10.0.15 版本中已经删除或弃用的功能
 
@@ -108,6 +122,3 @@ ms.locfileid: "4689515"
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>之前有关已删除或已弃用功能的声明
 若要了解有关早期版本中已删除或已弃用功能的详细信息，请参阅[早期版本中已删除或已弃用的功能](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

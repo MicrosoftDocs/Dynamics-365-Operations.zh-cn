@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: bcf58a7005a8e61c5fba9c5065d75ebae8b909cc
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695131"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154145"
 ---
 # <a name="help-system"></a>帮助系统
 
@@ -163,7 +163,4 @@ On the **System parameters** page, follow these steps:
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | 此站点承载以前版本的内容。 |
 | [Dynamics 社区](https://community.dynamics.com/) | 此站点承载博客、论坛和视频。 |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | 此站点提供评估和销售信息。 |
-| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | 此站点承载培训资源、可下载报告和白皮书，是服务计划持有人的主要支持站点。 访问此站点上的某些资源可能需要服务计划。 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | 此站点承载培训资源、可下载报告和白皮书，是服务计划持有人的主要支持站点。 访问此站点上的某些资源可能需要服务计划。 |

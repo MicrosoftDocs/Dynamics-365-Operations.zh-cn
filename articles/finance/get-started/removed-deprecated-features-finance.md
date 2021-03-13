@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: 7090a7461c7b77d74f081afd8f22db100cdf0792
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689486"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154169"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance 中已删除或弃用的功能
 
@@ -34,9 +33,19 @@ ms.locfileid: "4689486"
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
 > [!NOTE]
-> [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+> [技术参考报告](https://docs.microsoft.com/dynamics/s-e/)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Finance 10.0.16 版本中已经删除或弃用的功能
+
+### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>捷克共和国的“增值税申报 (CZ)”和“控制对帐单导出 (CZ)”电子报告格式
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 替换为新格式 |
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域**         | 申请 |
+| **部署选项**              | 所有 |
+| **状态**                         | 弃用：到 2022 年 1 月 22 日，我们计划不再支持“增值税申报 (CZ)”、“控制对帐单导出 (CZ)”电子报告 (ER) 格式。 而是在“税申报”模型下引入新的增值税申报 XML (CZ)、增值税申报 Excel (CZ)、增值税控制对帐单 XML (CZ) 格式。 |
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>比利时的“分类帐交易导出格式 (BE)”电子申报格式和相应的“分类帐交易导出 (BE)”模型
 
@@ -64,8 +73,8 @@ ms.locfileid: "4689486"
 
 |   |  |
 |------------|--------------------|
-| **弃用/移除的原因** | 从 2020 年 12 月开始，所有 Dynamics 365 产品不再支持 Microsoft Internet Explorer 11，2021 年 8 月之后，不再支持 Internet Explorer 11。<br><br>这将影响所用 Dynamics 365 产品设计为通过 Internet Explorer 11 界面使用的客户。 2021 年 8 月之后，此类 Dynamics 365 产品将不支持 Internet Explorer 11。 |
-| **被另一个功能取代？**   | 我们建议客户过渡到 Microsoft Edge。|
+| **弃用/移除的原因** | 从 2020 年 12 月开始，所有 Dynamics 365 产品的 Microsoft Internet Explorer 11 支持已弃用，2021 年 8 月之后，将不再支持 Internet Explorer 11。<br><br>这将影响所用 Dynamics 365 产品设计为通过 Internet Explorer 11 界面使用的客户。 2021 年 8 月之后，此类 Dynamics 365 产品将不支持 Internet Explorer 11。 |
+| **被另一个功能取代？**   | 我们建议客户转换到 Microsoft Edge。|
 | **影响的产品区域**         | 所有 Dynamics 365 产品 |
 | **部署选项**              | 所有|
 | **状态**                         | 已弃用。 2021 年 8 月之后将不再支持 Internet Explorer 11。|
@@ -107,6 +116,3 @@ ms.locfileid: "4689486"
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>之前有关已删除或已弃用功能的声明
 若要了解有关早期版本中已删除或已弃用功能的详细信息，请参阅[早期版本中已删除或已弃用的功能](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: d57182aa34c4897ef3703d0f8ed08d032c261170
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689558"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154079"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
 
@@ -32,16 +32,64 @@ ms.locfileid: "4689558"
 
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
-[技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+[技术参考报告](https://docs.microsoft.com/dynamics/s-e/)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
 
-## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.15 的平台更新
+## <a name="feature-removed-effective-january-28-2021"></a>功能已删除，自 2021 年 1 月 28 日起生效
 
-### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Dynamics 365 不再支持 Internet Explorer 11
+### <a name="batch-job-to-handle-sql-index-defragmentation"></a>用于处理 SQL 索引碎片整理的批处理作业
 
 |   |  |
 |------------|--------------------|
-| **弃用/移除的原因** | 从 2020 年 12 月开始，所有 Dynamics 365 产品不再支持 Microsoft Internet Explorer 11，2021 年 8 月之后，不再支持 Internet Explorer 11。<br><br>这将影响所用 Dynamics 365 产品设计为通过 Internet Explorer 11 界面使用的客户。 2021 年 8 月之后，此类 Dynamics 365 产品将不支持 Internet Explorer 11。 |
-| **被另一个功能取代？**   | 我们建议客户过渡到 Microsoft Edge。|
+| **弃用/移除的原因** | 为了减少客户操作、监视和维护索引管理的开销，此功能已被删除。 |
+| **被另一个功能取代？**   | 在以后，索引维护将由 Microsoft 服务执行。 这会连续进行，不会影响用户的工作负荷。 |
+| **影响的产品区域**         | Finance and Operations 应用|
+| **部署选项**              | 云部署 - 影响 Microsoft 管理的生产环境以及第 2 层到第 5 层沙盒环境。 |
+| **状态**                         | 此功能已删除。 |
+
+
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.17 的平台更新
+
+> [!IMPORTANT]
+> 版本 10.0.17 作为预览版本的一部分提供。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅 [One Version 服务更新常见问题](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version)。
+
+### <a name="visual-studio-2015"></a>Visual Studio2015
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 为了支持 Visual Studio 的最新版本，必须对 Visual Studio 的 X++ 扩展进行一些更改。 这些更改与 Visual Studio 2015 不兼容。 |
+| **被另一个功能取代？**   | Visual Studio 2017 将取代 Visual Studio 2015 成为已部署的必需版本。 |
+| **影响的产品区域**         | Visual Studio 开发工具 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用。 更新后，以前的 X++ 工具将从 Visual Studio 2015 中删除，更新后的工具不会安装在 Visual Studio 2015 中。 对托管版本没有影响。 对于构建虚拟机，需要手动更新构建管道（构建定义），以将依赖性从 MSBuild 14.0 (Visual Studio 2015) 更改为 MSBuild 15.0 (Visual Studio 2017)，如[更新 Azure Pipelines 中的旧管道](../dev-tools/pipeline-msbuild-update.md)中所述。 |
+
+### <a name="user-avatar"></a>用户头像 
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 显示在导航栏右侧的用户头像使用 Dynamics 365 标头控件中的 API 检索，这已被弃用。 |
+| **被另一个功能取代？**   | 用户会在导航栏中看到他们的首字母在一个圆圈内。 这与开发计算机上当前使用的视觉对象相同。 |
+| **影响的产品区域**         | Web 客户端 |
+| **部署选项**              | 所有 |
+| **状态**                         | 从版本 10.0.17 开始已删除 |
+
+### <a name="enterprise-portal-ep-deprecation"></a>Enterprise Portal (EP) 弃用  
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 与 Dynamics AX 2012 Enterprise Portal (EP) 关联的元数据项目已弃用，因为 Finance and Operations 应用从未支持过 EP。 |
+| **被另一个功能取代？**   | 不 |
+| **影响的产品区域**         | Web 客户端 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用。 计划在 2021 年 10 月的发行版本中删除所有 EP 代码。 |
+
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.15 的平台更新
+
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Dynamics 365 的 Internet Explorer 11 支持已弃用
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 从 2020 年 12 月开始，所有 Dynamics 365 产品的 Microsoft Internet Explorer 11 支持已弃用，2021 年 8 月之后，将不再支持 Internet Explorer 11。<br><br>这将影响所用 Dynamics 365 产品设计为通过 Internet Explorer 11 界面使用的客户。 2021 年 8 月之后，此类 Dynamics 365 产品将不支持 Internet Explorer 11。 |
+| **被另一个功能取代？**   | 我们建议客户转换到 Microsoft Edge。|
 | **影响的产品区域**         | 所有 Dynamics 365 产品 |
 | **部署选项**              | 所有|
 | **状态**                         | 已弃用。 2021 年 8 月之后将不再支持 Internet Explorer 11。|
@@ -192,6 +240,3 @@ ms.locfileid: "4689558"
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>之前有关已删除或已弃用功能的声明
 若要了解有关早期版本中已删除或已弃用功能的详细信息，请参阅[早期版本中已删除或已弃用的功能](../migration-upgrade/deprecated-features.md)。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

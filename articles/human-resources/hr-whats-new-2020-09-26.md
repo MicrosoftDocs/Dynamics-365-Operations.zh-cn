@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4103c0630b72b9b92a116f7fe702a777dd295e25
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ac72489c3b2dacfde280606a83221e8514793701
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527402"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152189"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Dynamics 365 Human Resources 2020 年 9 月 26 日中的新增功能或更改
 
@@ -31,7 +30,7 @@ ms.locfileid: "4527402"
 
 本主题介绍了 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
-有关新功能及其预计的正式发布日期的详细信息，请参阅 [Dynamics 365 Human Resources 2020 年发布波次 2 概述](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/)。
+有关新功能及其预计的正式发布日期的详细信息，请参阅 [Dynamics 365 Human Resources 2020 年发布波次 2 概述](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)。
 
 ## <a name="in-this-release"></a>在此发布中
 
@@ -58,7 +57,7 @@ ms.locfileid: "4527402"
 | 481401 | 当应计日期基数在应计开始日期之后和月底时，应计处理将挂起 | 当应计日期基数在应计开始日期之后和月底时，应计处理将更新为没有延迟。 |
 | 447167 | 即将过期的记录列表包括空闲工作人员 | **人员管理** 中的 **即将过期的记录** 选项卡中包括了空闲工作人员。 现在，它只包括有效工作人员。 |
 | 486840 | 从 **分配给我的工作项** 中打开错误的休假请求 | 从 **分配给我的工作项** 中选择休假请求不再打开分配给当前用户的最新休假请求。 |
-| 506868 | 没有为 **工作职位** 实体设置 Common Data Service **职务** 字段 | **工作** 和 **工作职位** 实体中的 **职务** 字段显示为未指定。 现在显示 **职务** 字段。 |
+| 506868 | 没有为 **工作职位** 实体设置 Dataverse **职务** 字段 | **工作** 和 **工作职位** 实体中的 **职务** 字段显示为未指定。 现在显示 **职务** 字段。 |
 | 430359 | 无法访问已分配经理和员工角色的离职清单任务 | 如果具有将来终止日期的工作人员只有员工或经理角色，则无法访问其清单任务。 现在，只有员工或经理角色的用户可以在未来的终止日期访问离职任务。 |
 | 458102 | 创建后，新员工未出现在 **工作人员工资单信息** 实体上 | 新员工包括在工作人员工资单信息实体中，而无需在导出实体之前打开该员工的工资单信息。 |
 
@@ -85,6 +84,3 @@ ms.locfileid: "4527402"
 [Dynamics 365 Human Resources 2020 年发布波次 2 概述](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [更新流程](hr-admin-setup-update-process.md)
 [管理功能](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

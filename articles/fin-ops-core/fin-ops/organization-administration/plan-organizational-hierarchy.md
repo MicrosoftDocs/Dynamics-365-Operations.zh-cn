@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694681"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154401"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>规划组织层次结构
 
@@ -166,7 +166,7 @@ ms.locfileid: "4694681"
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>如果以法人建模组织
 
-对于支持的国家/地区，可以创建大多数法定报表。 对于 ，有关每个国家/地区可用报表的信息，请参阅 [Microsoft Dynamics 本地化门户](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC)。 （必须登录 CustomerSource。）
+对于支持的国家/地区，可以创建大多数法定报表。 对于 ，有关每个国家/地区可用报表的信息，请参阅 [Microsoft Dynamics 本地化门户](https://docs.microsoft.com/dynamics/s-e/)。 （必须登录 CustomerSource。）
 
 > [!NOTE]
 > 总帐中的过帐层允许您对母公司进行条目调整，这里与子公司相比使用了不同的会计标准。 例如，对于使用英国通用会计制度 (UK GAAP) 的公司，您可以在过帐层中进行条目调整。 这些条目可以合并入使用美国通用会计制度 (GAAP) 的母公司。 调整条目不影响英国 GAAP 报表。
@@ -241,6 +241,3 @@ ms.locfileid: "4694681"
 - 在建模主要更改结构方案之前，请使用层次结构的生效日期执行后果分析和验证测试。
 - 使用更改层次结构的草图样式，然后才可以在生产环境发布新版本。
 - 限制有权限从在生产环境中的层次结构添加或删除组织的员工的编号。 较小的编号减少可能出现最高错误的机会，并且必须进行更正。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

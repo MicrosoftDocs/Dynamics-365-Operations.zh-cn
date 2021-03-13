@@ -1,6 +1,6 @@
 ---
 title: 先前版本中已删除或弃用的功能
-description: 此主题介绍从 Dynamics 365 for Finance and Operations 和该产品的早期版本已经删除或曾经计划删除的功能。
+description: 此主题介绍从 Dynamics 365 for Finance and Operations 和早期版本中已经删除或曾经计划删除的功能。
 author: sericks007
 manager: AnnBe
 ms.date: 09/21/2020
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3b862938ec8226cc963fb8c85fcfc2241684eab7
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679948"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154377"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>先前版本中已删除或弃用的功能
 
@@ -39,7 +39,7 @@ ms.locfileid: "4679948"
 
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
-[技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+[技术参考报告](https://docs.microsoft.com/dynamics/s-e/)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
 
 ## <a name="finance-1007-with-platform-update-31"></a>带平台更新 31 的 Finance 10.0.7
 
@@ -970,7 +970,7 @@ ICMS 税联邦报税单
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 此功能已被另一个功能取代。 |
-| **被另一个功能取代？**   | Common Data Service                                      |
+| **被另一个功能取代？**   | Dataverse                                      |
 | **影响的产品区域**         | Dynamics 的连接器                         |
 | **状态**                         | 从 Dynamics AX 7.0 开始移除。                           |
 
@@ -1373,6 +1373,3 @@ Windows 8 平板电脑应用提供用于费用录入和审核的功能。
 |     <strong>影响的产品区域</strong>     |                                              总帐                                              |
 |             <strong>状态</strong>             |                                      从 Dynamics AX 2012 开始移除                                      |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
