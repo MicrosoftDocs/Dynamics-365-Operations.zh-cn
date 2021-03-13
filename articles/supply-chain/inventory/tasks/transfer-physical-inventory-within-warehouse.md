@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 540ba2266ea74c36babce57670f84159c89018f1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c00b6d18b036482cd96e2287119ddb7fd80bfa2d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423251"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011439"
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>转移仓库内的实际库存
 
@@ -59,6 +58,3 @@ ms.locfileid: "4423251"
 1. 单击 **库存**。
 2. 单击 **交易记录**。 在这里，您可以查看过帐日记帐时创建的交易记录。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

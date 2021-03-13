@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 4051
 ms.assetid: 00df5537-b148-4e32-a248-3e35876ad4e1
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7af9aaa01d89da909f2b30089c17d67d377d9e78
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e6562353a96c2a69c255d20c3f2084c9c3f99bd3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423100"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011289"
 ---
 # <a name="set-up-a-product-configuration-model"></a>设置产品配置模型
 
@@ -53,6 +52,3 @@ ms.locfileid: "4423100"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

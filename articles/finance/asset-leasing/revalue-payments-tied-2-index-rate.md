@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 83684afbd5e11b890a59bc1469ddefffd1777c4e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 2cbe54ad92aff2f8a85e47301635fe4b6819e9a7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440945"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012053"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>重估与指数利率链接的租赁付款
 
@@ -68,6 +67,3 @@ ms.locfileid: "4440945"
 您可以查看从重估日期开始新生成的付款计划，并显示更新后的付款总额。 还创建了新的租赁负债摊销计划和资产折旧计划，以反映调整后的付款计划。
 
 日记帐条目已将调整日记帐条目自动过帐到与指数重估相关的租赁付款变更的科目。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

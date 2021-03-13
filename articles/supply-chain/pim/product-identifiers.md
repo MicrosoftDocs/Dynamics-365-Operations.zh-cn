@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c16818f1dc52c9e21130539213e7e8d1053fef1d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f28193f9671bcae1345d5c1085ea3f2446e6e088
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529178"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011357"
 ---
 # <a name="product-identifiers"></a>产品标识符
 
@@ -44,7 +43,7 @@ ms.locfileid: "4529178"
 
 在实施 Supply Chain Management 时，应特别注意您的产品编号策略。 一个好的编号系统可以改进物流流动，并且帮助预防错误。 一个好的产品标识符最多包含 15 个字符。 理想情况下，它有少于 10 个字符，包括不超过五个分类字符。 您还可以使用搜索名称来进行快速搜索。 搜索名称是表示产品分类的附加名称。
 
-如果使用 Common Data Service，Supply Chain Management 中的产品编号也是 Common Data Service 中的产品编号。 产品变型作为独特产品同步到 Common Data Service。
+如果使用 Microsoft Dataverse，Supply Chain Management 中的产品编号也是 Microsoft Dataverse 中的产品编号。 产品变型作为独特产品同步到 Dataverse。
 
 ## <a name="item-number-and-product-dimensions"></a>物料编号和产品维度
 
@@ -167,7 +166,7 @@ Supply Chain Management 为产品也为物料（已发布产品）提供辅助�
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>产品实体标识符（导出所有产品标识符）
 
-创建产品实体标识符模型是为了支持将 CDS 的版本 1.0 配置为使用用于引用产品的所有标识符。 为简化这一任务，所有标识符被合并到一个全球标识符表，以使它们可导出为一个模型。 请注意，此版本的 CDS 不使用产品标识符模型。 因此，**产品实体常用数据服务标识符实体** 实体和此流程限制了实际的使用，并且可能在将来进行更改。
+创建产品实体标识符模型是为了支持将 Dataverse 的版本 1.0 配置为使用用于引用产品的所有标识符。 为简化这一任务，所有标识符被合并到一个全球标识符表，以使它们可导出为一个模型。 请注意，此版本的 Dataverse 不使用产品标识符模型。 因此，**产品实体常用数据服务标识符实体** 实体和此流程限制了实际的使用，并且可能在将来进行更改。
 
 产品标识符表是一个全球表，其使用主要法人的所有参考表通过重复执行的批处理作业填充。 必须选择法人和产品类别层次结构作为全球基础产品作用域的定义。 全局产品标识符表的生成限于已发布到所选法人的产品，以及属于在产品类别层次结构中为 **Common data service** 角色选择的产品层次结构的产品。
 
@@ -175,7 +174,7 @@ Supply Chain Management 为产品也为物料（已发布产品）提供辅助�
 
 按照以下步骤配置环境。
 
-1. 选择 CDS 的类别层次结构。 在 **类别层次结构角色关联** 页，如果没有层次结构与 **Common data service** 角色关联，您必须创建新的关联。 选择 **Common data service** 角色，然后关联代表应该同步到 CDS 的产品组合的类别层次结构。
+1. 选择 Dataverse 的类别层次结构。 在 **类别层次结构角色关联** 页，如果没有层次结构与 **Common data service** 角色关联，您必须创建新的关联。 选择 **Common data service** 角色，然后关联代表应该同步到 Dataverse 的产品组合的类别层次结构。
 2. 选择全球产品主数据的法人。 在 **产品信息管理参数** 页上，在 **产品属性** 选项卡，选择主要维护产品和物料标识符的主公司。
 3. 定义应导出的标识符代码类型和代码。 转到 **产品信息管理** &gt; **设置** &gt; **产品标识符代码**。 若要生成标识符代码类型，请选择 **生成代码**。 代码类型条目为在所选法人中找到的标识符的每个类型生成。
 
@@ -190,6 +189,3 @@ Supply Chain Management 为产品也为物料（已发布产品）提供辅助�
 ## <a name="related-topic"></a>相关主题
 
 [在输入订单时搜索产品和产品变型](search-products-product-variants.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

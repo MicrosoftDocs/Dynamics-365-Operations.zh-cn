@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailBuyersPush, InventLocationIdLookup, InventItemIdLookupSimple, RetailReplenishmentTreeLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dad74855ab9a9c225a5cd64a8c27663aedcd21e4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3720945823cf127f776a9ea6a6ad75a72ceec00c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410520"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012333"
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a>使用集中采购配送将产品从配送中心配送到商店
 
@@ -53,6 +52,3 @@ ms.locfileid: "4410520"
 19. 单击“创建订单”。
 20. 单击“是”。
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

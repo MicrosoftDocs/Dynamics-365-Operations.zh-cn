@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf35169d8afd6e88b8ebe921514ed6d55607a4dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 31db10ad820bf049192ba0446b59da16cab3c553
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422745"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010589"
 ---
 # <a name="receive-partial-deliveries-of-returned-items"></a>接收退回物料的部分交货    
 
@@ -51,6 +50,3 @@ ms.locfileid: "4422745"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

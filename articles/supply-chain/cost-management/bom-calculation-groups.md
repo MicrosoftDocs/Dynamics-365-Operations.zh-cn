@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 94063
 ms.assetid: 63e1b7dc-c2c5-41b0-81ed-e3e02d1b39e0
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e4f53401d604ce3c8308ed475a0b6147805cb78
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1978873601608b5d2b67fa4229f61afa46d7e5cb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423204"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011889"
 ---
 # <a name="bom-calculations-groups"></a>物料清单计算组
 
@@ -98,6 +97,3 @@ ms.locfileid: "4423204"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

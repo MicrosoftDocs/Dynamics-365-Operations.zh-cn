@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: BOMReportFinish, BOMReportFinishMax, BOMSetupReportFinish
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53251
 ms.assetid: 510d05a3-0073-438d-b0c4-b6a6df1882ea
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c68ff6fdb77cb8de23b6b803b0300c6daa0fd106
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0010740de764f7b9e7797cc95e2b9187cea2695b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423290"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011014"
 ---
 # <a name="report-boms-as-finished"></a>将物料清单报告为已完工入库
 
@@ -89,6 +88,3 @@ ms.locfileid: "4423290"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

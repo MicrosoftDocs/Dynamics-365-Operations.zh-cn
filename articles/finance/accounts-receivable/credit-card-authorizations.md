@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CreditCardProcessors, CustTable, SalesTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 3041
 ms.assetid: 678f6899-bfa5-439b-aaca-b4affcc338ba
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0de35934e8bdb160f68f68dab118997d0141bf29
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e615d13abf432705e40e5e33deb46ccab26192ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440619"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012213"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>信用卡设置、授权和捕获
 
@@ -80,6 +79,3 @@ ms.locfileid: "4440619"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

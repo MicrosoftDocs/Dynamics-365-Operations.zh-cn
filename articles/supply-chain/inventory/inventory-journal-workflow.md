@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9f57d35adac0820d0635ab97a4cb4cefc1d504c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422756"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011664"
 ---
 # <a name="inventory-journal-approval-workflows"></a>库存日记帐审核工作流
 
@@ -31,6 +30,13 @@ ms.locfileid: "4422756"
 
 > [!NOTE]
 > 库存日记帐审核工作流仅适用于使用库存管理模块记录的交易。 不适用于仓库管理模块触发的库存日记帐。
+
+## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>打开库存日记帐审核工作流功能
+
+此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+
+- **模块**：*库存和仓库管理*
+- **功能名称**：*库存日记帐审核工作流*
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>创建库存日记帐审核工作流
 
@@ -112,6 +118,3 @@ ms.locfileid: "4422756"
 1. 在导航窗格上，展开 **库存管理 \> 日记帐条目 \> 商品**，然后选择库存日记帐类型。
 1. 打开相关日记帐。
 1. 选择操作窗格上的 **工作流** 按钮打开一个下拉对话框。 选择 **工作流历史记录**。 有关详细信息，请参阅[查看工作流历史记录](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

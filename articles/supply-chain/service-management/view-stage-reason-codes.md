@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bd5485727761ac5ab13d44ab0598c5768324e6e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fef9a76d36c01b4e90d76fc6482e652b29ef4768
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423157"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010395"
 ---
 # <a name="view-stage-reason-codes"></a>查看阶段原因代码 
 
@@ -45,6 +44,3 @@ ms.locfileid: "4423157"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

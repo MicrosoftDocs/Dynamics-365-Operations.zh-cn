@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ProdTableListPage, ProdParmReportFinished, ProdJournalTransProd, ProdSetupReportFinished
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 93193e6365bcf82fbbf93af81e2581a358899fa1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5d9dcdbcb89df6430fb286c253ebecfc6d885af8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422691"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011139"
 ---
 # <a name="report-a-production-order-as-finished"></a>将生产订单报告为已完工入库
 
@@ -52,6 +51,3 @@ ms.locfileid: "4422691"
 4. 在列表中，单击所选行中的链接。
     * 过帐“完工入库日记帐”。 如果您想要对日记帐作调整，您可以在可进行更改的位置手动创建新日记帐。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

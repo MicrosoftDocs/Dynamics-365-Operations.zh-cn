@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse, WHSReleaseToWarehouseProdBOM
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: ba042e708d63766941cc3ebfc375872e384f0f0b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423343"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011026"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>将物料清单和配方行发放到仓库
 
@@ -98,6 +97,3 @@ ms.locfileid: "4423343"
     可用单位在成品的“单位序列组 ID”中定义。
 
     例如，成品在单位磅 (lbs.) 和托盘 (PL) 中进行以下转换：1 PL = 100 lbs。 要为 10,000 lbs 成品创建一个生产订单， 可以为计划要生产的托盘数量发放原材料。 选择 **PL** 为单位，然后在 **数量** 字段选择一个相应的数字。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

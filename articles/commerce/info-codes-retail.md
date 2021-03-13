@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailInfocodeTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 046204d36e2fc7a69129aaf7fe027b2abc7e8dd9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e9f84e3ffc79920fc6ef49a6391f76acdd89252a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410476"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012461"
 ---
 # <a name="info-codes-and-info-code-groups"></a>信息代码和信息代码组
 
@@ -56,6 +55,3 @@ ms.locfileid: "4410476"
 **示例 2：将信息代码链接到信息代码组**
 
 在您销售特定产品时，例如移动设备，总想收集一组特定信息，比如电话号码、移动设备标识 (MEID) 和序列号。 但是您还想收集平板电脑与移动电话的区别。 您可以设置包括提示电话号码、MEID 和序列号的信息代码组，然后将信息代码组链接到单个信息代码。 在产品特殊化信息代码被触发后，接下来会触发信息代码组以使您能够收集常用数据，而不必为每台设备定义多个链接信息代码集。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

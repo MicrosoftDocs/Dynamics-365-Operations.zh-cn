@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4b0e48307527a8fea729d8dfdcdbc6337be0faf1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2c396060017db6d7ce830b350f242d3097876e50
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410505"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012305"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>选择不收集 Web 活动事件
 [!include [banner](includes/banner.md)]
@@ -56,6 +55,3 @@ ms.locfileid: "4410505"
 ### <a name="custom-extensions"></a>自定义扩展
 
 管理员可以创建自己的扩展来管理用户的退出体验。 有关详细信息，请参阅[调用 Retail Server API](e-commerce-extensibility/call-retail-server-apis.md) 和[在线渠道可扩展性](e-commerce-extensibility/overview.md)。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

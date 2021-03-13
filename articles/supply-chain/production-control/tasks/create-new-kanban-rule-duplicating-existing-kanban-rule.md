@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 84a0093d95c2f7084c7a0ed17f8b2f86d654b5d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7a1fda7e00c64f18e8078805a98cba8cdb1c4309
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422718"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010989"
 ---
 # <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a>通过复制现有看板规则创建新看板规则
 
@@ -44,6 +43,3 @@ ms.locfileid: "4422718"
 3. 单击“确定”。
     * 请注意，已创建看板规则 000017 的副本。    
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

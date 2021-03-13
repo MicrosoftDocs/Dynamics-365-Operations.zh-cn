@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8807756f16a08f9818f998ce19a8088c7dd37405
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 646ddc231b1ee25b13fdeb779b2bbeae6dd8c2a9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423068"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011589"
 ---
 # <a name="inventory-blocking"></a>库存锁定
 
@@ -70,6 +69,3 @@ ms.locfileid: "4423068"
 [质量管理流程](quality-management-processes.md)
 
 [检查货物的质量](tasks/inspect-quality-goods.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

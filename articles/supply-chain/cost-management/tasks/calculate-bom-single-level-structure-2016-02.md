@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83a62966e343a9b1c073c2d6ec1c1b69b1daddbb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 36f908e02c996c0d0a636fd9295b84fcc16b6b63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423076"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011764"
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a>通过使用单级结构计算 BOM（2016 年 2 月）
 
@@ -44,6 +43,3 @@ ms.locfileid: "4423076"
     * 可能需要单击省略号 (...) 才能在顶部菜单中看到此选项。    下面是成本的构成：  *    10 源于 ITEM_A，10 源于 ITEM_B，10 源于 BOM_2。 在此示例中，BOM_2 无详细信息，因为它是作为标准成本 10 输入的，未经计算。  *    7 源自设置时间，这是固定成本，7 源自运行时操作（流程）。  *    还有其他一些与间接成本对应的金额。  
 9. @SysTaskRecorder:_RequestClose
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

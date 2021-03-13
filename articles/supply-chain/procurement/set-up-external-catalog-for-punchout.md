@@ -1,7 +1,7 @@
 ---
 title: 为电子采购发包设置外部目录
 description: 此主题描述使用外部目录或发包目录从供应商收集报价信息并将其添加到申请。
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dc6a38b1a9eebdee64762671bb501e5e1294399
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 1f6e551f9d3d181674595e945bf1fb4c62a70ed5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423375"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016369"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>为电子采购发包设置外部目录
 
@@ -54,19 +53,18 @@ ms.locfileid: "4423375"
 本节提供关于上一节中的任务 4 的更多详细信息。
 
 1. 输入供应商外部目录的名称和描述。 您输入的名称将出现在代表外部目录的购物车中，显示给创建申请的员工。 员工可以单击购物车以打开供应商外部目录站点上的目录。
-2. 通过使用 **外部目录图像** 操作添加图像。 此图像将出现在代表外部目录的购物车中，显示给创建申请的员工。 请注意，图像的宽度和高度必须相等。 否则图像不会正确显示。
+2. 通过使用 **外部目录图像** 操作添加图像。 此图像将出现在代表外部目录的购物车中，显示给创建申请的员工。 请注意，图像的宽度和高度必须相等。 否则图像不会正确显示。
 3. 选择供应商的外部目录网站是否应显示在员工创建申请时的相同浏览器窗口中，或者是否应在新窗口中打开。
 4. 选择目录的供应商。 在 **法人** 列表中，每个法人都有一行用于设置供应商。 要允许用户直接从某人法人（而不从其他法人）的供应商目录中申请产品，您可以对您希望提供或不提供目录的各个法人使用 **禁止访问** 或 **允许访问** 按钮。
 5. 在 **默认到期（天数）** 字段中，输入从外部目录收到的报价单有效，且可以用来从外部供应商进行采购的天数。 从供应商外部目录站点创建和检索报价单时，报价单截至当前系统日期有效，且在您在此字段输入的天数内一直有效。
-6. 单击 **添加** 按钮以开始将采购目录映射到外部目录。然后，在目录名称列表中，选择一个类别。 类别列表是为供应商设置的所有法人中的供应商已经映射到的采购类别的超集。
+6. 单击 **添加** 按钮以开始将采购目录映射到外部目录。 然后，在目录名称列表中，选择一个类别。 类别列表是为供应商设置的所有法人中的供应商已经映射到的采购类别的超集。
 
     > [!NOTE]
-    > 采购策略用于允许或限制对采购法人或接收运营单位的类别的访问权限。发包到外部目录要求允许访问至少一个映射到目录的采购类别。
+    > 采购策略用于允许或限制对采购法人或接收运营单位的类别的访问权限。 发包到外部目录要求允许访问至少一个映射到目录的采购类别。
 
 7. 设置将发送到供应商的 cXML 设置请求消息。 自动生成的消息格式是为了启动会话所需的最小模板。 填写标记的值。
 
-在任何时候，您都可以通过单击 **还原消息格式** 重载系统生成的消息模板。 
-请注意，如果还原消息格式，当前消息将自动替换成自动生成的具有空标记的消息格式。
+在任何时候，您都可以通过单击 **还原消息格式** 重载系统生成的消息模板。 请注意，如果还原消息格式，当前消息将自动替换成自动生成的具有空标记的消息格式。
 
 ### <a name="cxml-setup-message"></a>cXML 设置消息
 您可以在下方找到模板中包含的标记的描述：
@@ -91,7 +89,7 @@ ms.locfileid: "4423375"
 有关 cXML 协议的详细信息，请访问 [cXML.org 网站](http://cxml.org/)。
 
 ## <a name="post-back-message"></a>回发消息
-回发消息是当用户从外部站点签出并返回到 Supply Chain Management 时从供应商收到的消息。 回发消息不能进行配置。 此消息基于 cXML 协议定义。以下信息可以是在申请行中收到的回发信息的一部分。
+回发消息是当用户从外部站点签出并返回到 Supply Chain Management 时从供应商收到的消息。 回发消息不能进行配置。 此消息基于 cXML 协议定义。 以下信息可以是在申请行中收到的回发信息的一部分。
 
 | 从供应商接收的消息 | 已复制到申请行|
 |------------------------------|----------------------------------------------------------|
@@ -114,5 +112,3 @@ ms.locfileid: "4423375"
 
 - [采购 cXML 增强功能](purchasing-cxml-enhancements.md)
 - [针对电子采购发包使用外部目录](use-external-catalogs-for-punchout.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustPaymFee, CustPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b6475671002379d84519df05a0198a17ac000677
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 99201039c30cd9d8e900662cd9e33b0a5db8e55a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440745"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012106"
 ---
 # <a name="establish-customer-payment-fees"></a>设定客户付款费用
 
@@ -51,6 +50,3 @@ ms.locfileid: "4440745"
 18. 在 **费用币种** 字段中，选择费用的币种。 此为费用支付币种。  
 19. 单击 **保存**。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

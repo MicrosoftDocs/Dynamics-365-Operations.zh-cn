@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdbda55c2f83ee2b470cab8a5e4f9ce728b852
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bd85d9cd2d7273ad6e05d794a96e4d6a8d7c526
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422799"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010764"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>查找适用的价格和折扣
 
@@ -60,6 +59,3 @@ ms.locfileid: "4422799"
     * 产品 T0012 有 2 个单行折扣协议，规定订单行数量为 1-10 的折扣百分比是 5，订单行数量为 10 以上的折扣百分比是 7。 请注意，该折扣适用于产品组，在本示例中，组代码为 01，产品 T0012 包括在其中。  
 4. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

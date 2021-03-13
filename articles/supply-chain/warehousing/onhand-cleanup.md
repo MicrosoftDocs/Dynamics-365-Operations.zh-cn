@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423383"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014475"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>仓库管理现有条目清除作业
 
@@ -50,7 +49,12 @@ ms.locfileid: "4423383"
 
 ## <a name="possible-user-impact"></a>可能的用户影响
 
-如果现有条目清除作业删除给定级别（如牌照级别）的所有记录，用户可能会受到影响。 在这种情况下，用于查看库存先前在牌照上是否是可用现有量的功能可能无法按预期工作，因为相关的现有条目不再可用。 （当用户查看现有信息时，该功能将检查 **维度显示** 设置中的条件 **数量 \<\> 0**。）但是，清除作业提供的性能改进应该会弥补这一功能上的小损失。
+如果现有条目清除作业删除给定级别（如牌照级别）的所有记录，用户可能会受到影响。 在这种情况下，用于查看库存先前在牌照上是否是可用现有量的功能可能无法按预期工作，因为相关的现有条目不再可用。 例如，在以下情况下可能会遇到这种情况：
+
+- 在 **现有量列表** 上，当用户在 **维度显示** 设置中取消选择条件 **数量 \<\> 0** 或选择条件 **关闭的交易** 时。
+- 在过去期间的 **按照库存维度统计的物理库存** 报表中，当用户设置 **截止日期** 参数时。
+
+但是，清除作业提供的性能改进应会弥补功能上的这些小损失。
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>让“最长执行时间”可用
 
@@ -58,6 +62,3 @@ ms.locfileid: "4423383"
 
 - **模块**：*仓库管理*
 - **功能名称**：*仓库管理现有条目清除作业的最长执行时间*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

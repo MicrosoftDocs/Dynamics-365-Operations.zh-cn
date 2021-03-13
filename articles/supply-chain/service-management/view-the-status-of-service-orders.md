@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d81b33a9f30143891da6c7f21dc728e6e4fe7b8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 899c81842a48133ec72a55002c7fd0fefc90001c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423155"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010339"
 ---
 # <a name="view-the-status-of-service-orders"></a>产科服务订单的状态 
 
@@ -55,6 +54,3 @@ ms.locfileid: "4423155"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

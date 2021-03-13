@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d1492854b7d2da480942800e378be9d2bb60bb1f
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 44291f5bcd9ffedf717150f8efe32e9eeda02f2e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645057"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011339"
 ---
 # <a name="troubleshoot-master-planning"></a>主计划疑难解答
 
@@ -89,6 +88,3 @@ ms.locfileid: "4645057"
 
 > [!NOTE]
 > 这会将为这个主计划执行的分解的期间限制为一天。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

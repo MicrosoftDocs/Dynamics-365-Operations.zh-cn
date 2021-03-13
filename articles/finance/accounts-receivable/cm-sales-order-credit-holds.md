@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 102ea4285407a4f4985cc8dd46ebc1ad21fc6f67
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 754b34d9d522451082ba6010297431788e4151f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440626"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012255"
 ---
 # <a name="credit-holds-for-sales-orders"></a>销售订单的信用保留
 [!include [banner](../includes/banner.md)]
@@ -265,6 +264,3 @@ ms.locfileid: "4440626"
 信用管理目前只能用于销售订单。 自由文本发票、销售点订单和呼叫中心订单将使用您添加的临时信用额度和保险/担保来调整信用额度。 如果信用额度存在问题，那么这些单据将不会使用锁定规则，也不会被放置在暂停列表中。
 
 信用管理不支持项目发票。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

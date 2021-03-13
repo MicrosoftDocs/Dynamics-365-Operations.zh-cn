@@ -10,17 +10,16 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: ef58dbb756c7bed3924010cb33eff27af66cd0bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c519095d174414d6d4a8c86bc171ea62e1c72582
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410514"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012414"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>配置库存缓冲区和库存级别
 
@@ -149,6 +148,3 @@ Commerce 站点构建器使用 Commerce 总部中的库存缓冲区和库存级�
 [应用库存设置](inventory-settings.md)
 
 [计算零售渠道的库存现有量](calculated-inventory-retail-channels.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
