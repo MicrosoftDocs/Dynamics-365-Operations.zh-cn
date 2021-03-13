@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetObjectLoanSend, EntAssetObjectLoanListPage, EntAssetObjectLoanReturn, EntAssetObjectLoanInfoPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cba680d0ad626e0275539d7478a83639a9d22635
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 355e3d3e0e952db14a03810145528f9701804ca2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423062"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022324"
 ---
 # <a name="asset-loans"></a>资产出借
 
@@ -58,6 +57,3 @@ ms.locfileid: "4423062"
 3. 在 **已退回** 字段中，输入日期和时间。
 4. 选择 **确定**。
 5. 刷新 **有效资产出借** 列表页，然后注意列表中不再显示该资产出借。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

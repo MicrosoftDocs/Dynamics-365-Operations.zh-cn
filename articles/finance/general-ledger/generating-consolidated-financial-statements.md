@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dda102b993ecc92a5089eb54d2708c2adebc572f
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440805"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044013"
 ---
 # <a name="generate-consolidated-financial-statements"></a>生成合并的财务报表
 
@@ -67,14 +66,14 @@ ms.locfileid: "4440805"
 ![并排格式的列定义](./media/column-definition-side-by-side-format.png "并排格式的列定义")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>合并使用从法人创建的组织结构
-包含维度或法人的组织结构在财务报告中动态创建报告树定义。 简化合并最简单的方法是在财务报告中向报表添加组织层次结构。 财务报告将根据报告日期在生效日期或之前选择组织层次结构，如下图中所示。
+包含维度或法人的组织结构在财务报告中动态创建报告树定义。 简化合并最简单的方法是在财务报告中向报表添加组织层次结构。 Financial Reporting 将根据报告日期在生效日期或之前选择组织层次结构，如下图中所示。
 
 ![动态创建报告树定义](./media/dynamically-create-reporting-tree-definitions.png "动态创建报告树定义")
 
 ## <a name="consolidations-that-involve-eliminations"></a>合并涉及清除
 清除交易记录是合并流程中的常规组成部分 在此示例中，合并期间清除了五个科目：142600、211400、401420、401180 和 510820。 公司可以以不同方式设置内部公司科目。 例如，如果科目在内部公司交易记录中使用，有的公司会将最后一位设置为 9。 无论使用哪种方法，如果知道内部公司科目，则可在合并的财务报表中显示清除。
 
-下图显示一个合并的利润表的列定义。 通过使用维度筛选器为每个公司定义三个内部公司损益科目。 列 D 中仅包含 USMF 公司的清除科目，列 E 中仅包含 DEMF 公司的清除。 同时设置列 D 和列 E 是为了在财务报表中 **不** 打印这些项。
+下图显示一个合并的利润表的列定义。 通过使用维度筛选器为每个公司定义三个内部公司损益科目。 F、G 和 H 列仅包括 USMF、USRT 和 DEMF 公司的抵销科目。 设置这些列是为了在财务报表中 **不** 打印这些列。
 
 ![列定义合并的利润表](./media/column-definition-consolidated-income-statement.png "列定义合并的利润表")
 
@@ -224,6 +223,3 @@ ms.locfileid: "4440805"
 有关合并和货币折算的详细信息，请参阅此主题的父主题，即[财务合并和货币折算概述](./financial-consolidations-currency-translation.md)。
 
 有关如何输入在线合并的详细信息的更多信息，请参阅[在线财务合并](./consolidate-online.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

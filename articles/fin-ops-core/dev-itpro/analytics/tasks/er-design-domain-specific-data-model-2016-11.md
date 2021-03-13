@@ -1,6 +1,6 @@
 ---
 title: ER 设计域特定数据模型
-description: 以下步骤说明属于系统管理员或电子报表开发人员的用户如何创建新电子报表 (ER) 配置，使其包含电子付款文件中的数据模型。
+description: 本主题介绍如何创建一个新的电子报告 (ER) 配置，其中包含电子付款文件的数据模型。
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 268f661079b80551b36ad2e1877615d878350051
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1eb2c6e5b5f186fb6db7c32a9982807274e5ea1b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681941"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092683"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER 设计域特定数据模型
 
@@ -187,6 +187,3 @@ ms.locfileid: "4681941"
 65. 单击“保存”。
 66. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

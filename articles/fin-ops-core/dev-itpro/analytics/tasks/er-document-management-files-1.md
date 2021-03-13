@@ -1,6 +1,6 @@
 ---
 title: ER 在格式输出中使用票据管理文件（第 1 部分 - 准备数据模型）
-description: 以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便在 ER 输出中使用票据管理文件（附件）。
+description: 本主题介绍如何配置电子报告 (ER) 格式以在 ER 输出中使用文档管理文件（附件）。 （第 1 部分）
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b82c63c572cc946737ba54deb10a03dc437c01b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: bff518c60f0f36bdc88245d79bd82f0c4d0599ed
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681811"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092633"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER 在格式输出中使用票据管理文件（第 1 部分 - 准备数据模型）
 
@@ -74,6 +74,3 @@ ms.locfileid: "4681811"
 3. 在“名称”字段中，键入“客户发票模型（自定义）”。
 4. 单击“创建配置”。
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

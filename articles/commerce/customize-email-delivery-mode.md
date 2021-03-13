@@ -10,24 +10,22 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Commerce, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: faf5fba70bf9297727464e6046806696ab725001
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: f4ecb990cfe792e92142f922c43c71ef8494e117
+ms.sourcegitcommit: da17648c296b22d517eadb2f71c7803672e5648d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594945"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5031839"
 ---
 # <a name="customize-transactional-emails-by-mode-of-delivery"></a>按交货方式自定义事务电子邮件
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中为特定的通知类型和交货方式设置自定义电子邮件模板。
 
@@ -73,6 +71,3 @@ ms.locfileid: "4594945"
 [创建呼叫中心订单](tasks/create-call-center-orders.md)
 
 [在 POS 上更改交货方式](pos-change-delivery-mode.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

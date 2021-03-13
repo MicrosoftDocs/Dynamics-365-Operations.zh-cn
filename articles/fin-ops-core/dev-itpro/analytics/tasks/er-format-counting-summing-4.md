@@ -1,6 +1,6 @@
 ---
 title: ER 配置格式以执行盘点和合计（第 4 部分 - 运行格式）
-description: 以下步骤介绍指定为系统管理或电子申报开发人员角色的用户如何配置电子申报 (ER) 格式，以便基于已生成的文本输出的数据执行盘点和合计。
+description: 本主题介绍如何配置电子报告格式以基于已经生成的文本输出的数据执行盘点和合计。 （第 4 部分）
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8f37fc3c611e9c5328f4d99be8c7c63ab59b2f08
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c5576229e8b81824dff6d0b38b8ab5483e04ade8
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684635"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092939"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-4---run-format"></a>ER 配置格式以执行盘点和合计（第 4 部分 - 运行格式）
 
@@ -103,6 +103,3 @@ ms.locfileid: "4684635"
 21. 单击“打开”。
     * 查看创建的 XML 文件，其中包含执行所选配置期间收集的盘点和合计详细信息。  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

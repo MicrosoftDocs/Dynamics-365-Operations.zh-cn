@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d28acbccc35b3f59f9cca7236dd721a1d9bdead8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e32924c71fd221caee4a7f413908120014ec8c5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423114"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022525"
 ---
 # <a name="create-consumption-reports"></a>创建消耗报表
 
@@ -78,6 +77,3 @@ ms.locfileid: "4423114"
 >[!NOTE]
 >也可以生成[工作订单报表](../work-orders/work-order-report.md)，其中包含更多工作订单详细信息。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

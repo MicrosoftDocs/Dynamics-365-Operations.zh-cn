@@ -1,6 +1,6 @@
 ---
 title: 数据验证核对清单工作区
-description: 数据验证核对清单工作区可以跟踪跨公司、区域和人员的数据验证流程。 核对清单可以在新实现期间、升级后或迁移后使用。
+description: 数据验证核对清单工作区可以跟踪跨公司、区域和人员的数据验证流程。
 author: bking
 manager: AnnBe
 ms.date: 01/12/2018
@@ -14,12 +14,12 @@ ms.reviewer: rhaertle
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: a3ac338670fdc9fc7cb526cdcdc1e7199904da8f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e50d4c94c0b8468a80ad214a21c8f5e0dedae71
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687567"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092323"
 ---
 # <a name="data-validation-checklist-workspace"></a>数据验证核对清单工作区
 
@@ -39,8 +39,7 @@ ms.locfileid: "4687567"
 
 在 **任务和状态** 部分，总体数据验证项目的状态以不同的方式显示：按法人、区域和任务列表显示的状态。 您可以选择筛选器以查看特定公司的状态。 每个状态选项卡同时按已完成百分比和剩余任务数量提供细分。
 
-最后一个卡针对详细任务列表。 此列表显示完整的任务列表。
-可以通过多种方式筛选任务列表。 单击 **编辑任务** 更改任务的状态或分配任务。 单击 **附件** 查看任务的附件。
+最后一个卡针对详细任务列表。 此列表显示完整的任务列表。 可以通过多种方式筛选任务列表。 单击 **编辑任务** 更改任务的状态或分配任务。 单击 **附件** 查看任务的附件。
 
 任务名称是链接至页面的超链接，用户必须进入该页面完成工作。 您可以在从 **配置数据验证项目** 窗体编辑或创建任务时使用 **菜单项名称** 字段设置此超链接。
 
@@ -57,6 +56,3 @@ ms.locfileid: "4687567"
 您使用任务区域将数据验证任务分组到您的组织中的逻辑所有权区域。 例如，应付帐款、应收帐款或总帐可以使用为任务区域。
 
 **菜单项名称** 与任务工作关联，可用于从工作区中的任务链接直接访问关联页面。 例如，要为应付帐款运行 **应付帐款帐龄** 报表的数据验证任务可以链接到 **应付帐款帐龄报表** 页。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

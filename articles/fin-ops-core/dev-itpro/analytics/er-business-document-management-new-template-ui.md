@@ -1,6 +1,6 @@
 ---
 title: 业务文档管理中的新文档用户界面
-description: 本主题提供有关如何在电子报告 (ER) 框架的业务文档管理功能中使用新文档用户界面 (UI) 的信息。
+description: 本主题提供有关如何在电子报告的业务文档管理功能中使用新文档用户界面的信息。
 author: v-anamir
 manager: AnnBe
 ms.date: 05/12/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2cb6e0da4af07b9b8486bf1e5bda29523cbd08e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 64ac52385ae6145f7428ebbc3cb77e395557bce2
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681344"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092217"
 ---
 # <a name="new-document-user-interface-in-business-document-management"></a>业务文档管理中的新文档用户界面
 
@@ -64,6 +64,3 @@ ms.locfileid: "4681344"
 **新建文件** 按钮用于以其他提供商提供的 ER 格式配置创建和编辑模板。 在本示例中，提供商是 Microsoft。 当您选择 **新建文档** 时，您可以查看当前提供商和其他提供商拥有的所有模板。 选择模板后，将打开它进行编辑。 然后将把编辑后的模板存储在自动生成的新 ER 格式配置中。
 
 有关更多信息，请参见[业务文档管理概述](er-business-document-management.md)。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

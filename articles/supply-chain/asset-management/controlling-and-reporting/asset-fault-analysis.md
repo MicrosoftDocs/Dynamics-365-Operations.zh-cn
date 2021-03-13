@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetObjectFaultCalculate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e911f7ca3b67acd9d5a1b170d8c99135da730847
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 674e10b94711b00e526af4af0e0c0afddd05e62c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423113"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022364"
 ---
 # <a name="asset-fault-analysis"></a>资产故障分析
 
@@ -109,6 +108,3 @@ ms.locfileid: "4423113"
 >[!NOTE]
 >有关为工人和维护请求创建的所有故障登记的概览，请单击 **资产管理** > **查询** > **资产故障** > **资产故障**。 在 **资产故障** 页中，选择一个资产故障登记，然后展开 **相关信息** 窗格以查看与关联的工作订单或维护请求有关的信息。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

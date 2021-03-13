@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 203d12956825286b77a107bb9fd91c451ecfd1e6
+ms.sourcegitcommit: dc3deca942864c4a8354096183c9e1b9b88992f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4410618"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "5032925"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>POS 用户界面视觉效果配置
 
@@ -117,6 +116,9 @@ ms.locfileid: "4410618"
 
 ![精简型布局按钮网格](../commerce/media/Compact-View-Button-Grids.png)
 
+> [!NOTE]
+> 设计器中的按钮大小将缩放以适应窗口的大小，因此它们可能无法准确反映 POS 中呈现的实际按钮。 为了最好地模拟按钮网格布局，请将设计器窗口调整为与 POS 相同的大小。
+
 ### <a name="images"></a>图像
 
 对于屏幕布局中的每种布局尺寸，您可以指定 POS UI 中要包含的图像。 对于完整型 POS 布局，只能为欢迎屏幕指定一个图像。 此图像显示为左侧的第一个 UI 元素。 在 **交易记录** 屏幕上，可以将图像用作标签图像或徽标。 精简型 POS 布局不使用这些图像。
@@ -205,6 +207,3 @@ ms.locfileid: "4410618"
 ## <a name="additional-resources"></a>其他资源
 
 [安装 Retail 销售点 (POS) 布局设计器](install-pos-layout-designer.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

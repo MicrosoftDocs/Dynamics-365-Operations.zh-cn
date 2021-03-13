@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 81c5c83128bb81523dee6ede549eece7b0d80e30
-ms.sourcegitcommit: d9d1ddce6a334ade8b32b5ea3ac4c1e1a8f72715
+ms.openlocfilehash: 786ea9a3da98e9f1812b007d4301cb47680e6894
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664264"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077570"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>设计生产车间执行界面
 
@@ -57,7 +56,7 @@ ms.locfileid: "4664264"
 1. 在页面标题中进行以下设置：
 
     - **选项卡名称** - 为选项卡指定名称。
-    - **主视图** - 在两个预定义的作业列表（*活动作业* 或 *所有作业*）之间进行选择。
+    - **主视图** - 在两个预定义的作业列表（*活动作业*、*所有作业* 或 *我的机器*）之间进行选择。
     - **详细信息视图** - 在空白值或 **作业详细信息** 之间选择。 如果选择空白值，选项卡中将没有详细视图。如果选择 **作业详细信息**，详细视图将包含在主视图中的作业列表中选择的作业的详细描述。
 
 1. 在 **主工具栏** 部分，选择哪些按钮应该在主工具栏中可用。 **可用操作** 列显示可以添加的所有按钮的列表。 **所选操作** 列显示当前配置中包含的所有按钮的列表。 根据需要在列之间使用按钮在列之间移动所选项。 使用 **所选操作** 列旁边的向上和向下按钮控制按钮在用户界面的显示顺序。
@@ -79,6 +78,3 @@ ms.locfileid: "4664264"
 1. 根据需要继续添加其他选项卡。
 
 1. 根据需要使用工具栏上的 **上移** 和 **下移** 按钮排列选项卡。 选项卡将按照以上屏幕截图中显示的顺序从左到右显示（顶部的选项卡显示在左侧）。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: ER 在格式输出中使用票据管理文件（第 4 部分 - 运行格式）
-description: 以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报模型，以便在 ER 输出中使用票据管理文件。
+description: 本主题介绍如何配置电子报告格式以在 ER 输出中使用文档管理文件。 （第 4 部分）
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 89e09d79389dc2c883c429cfee3164632e0cdc0f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d437b31b8a55f345ebc3567bc8c6a2c5ecfd2eec
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681773"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092508"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>ER 在格式输出中使用票据管理文件（第 4 部分 - 运行格式）
 
@@ -69,6 +69,3 @@ ms.locfileid: "4681773"
 11. 单击“确定”。
     * 检查生成的输出。 请注意，已经为每个附件创建了一个 XML 节点。 附件的内容填充到 MIME (base64) 文本格式的 XML 输出中。  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

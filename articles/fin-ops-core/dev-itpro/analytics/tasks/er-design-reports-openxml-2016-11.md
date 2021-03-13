@@ -1,6 +1,6 @@
 ---
 title: ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）
-description: 此主题介绍系统管理员或电子报表开发人员角色的用户如何创建新电子报表 (ER) 配置，使其包含用于生成 OPENXML 格式的电子文档的模板。
+description: 本主题介绍如何创建一个新的电子报告配置，其中包含用于生成 OPENXML 格式的电子文档的模板。
 author: NickSelin
 manager: AnnBe
 ms.date: 08/12/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3b832961061d05e3f1ae046f820bc7a37baaf90c
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681893"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092658"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）
 
@@ -150,6 +150,3 @@ ms.locfileid: "4681893"
 17. 在 **银行帐户** 字段中，键入 `GBSI OPER`。
 18. 选择 **确定**，然后再次选择 **确定**。 审查已创建的工作表，包括付款行详细信息以及用于此付款消息的每个币种代码的总计。  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

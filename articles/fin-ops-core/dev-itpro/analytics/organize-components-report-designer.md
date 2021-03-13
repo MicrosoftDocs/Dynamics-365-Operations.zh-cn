@@ -1,6 +1,6 @@
 ---
 title: 整理报表设计器中的报表组件
-description: 在您设计构建基块并生成报表后，组织这些对象以便用户更容易地找到它们，这种方法非常有用。 本文介绍了如何组织现有报表、构建基块和报表设计器中的对象。
+description: 本主题说明如何组织现有报表、构建基块和报表设计器中的对象。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0b55dcee00f571228ec1e933306d77d9edc12866
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685803"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092415"
 ---
 # <a name="organize-report-components-in-report-designer"></a>整理报表设计器中的报表组件
 
@@ -148,6 +148,3 @@ ms.locfileid: "4685803"
 ## <a name="additional-resources"></a>其他资源
 
 [财务报告](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: 仓库绩效 Power BI 内容
-description: 此主题介绍仓库性能 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+description: 此主题介绍仓库性能 Power BI 内容中的内容。
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 4594c6c09abdac72a03ac1338701d2291b234106
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: be4acbb8eae3fd7d8dd0db4f99c3a2db06808f21
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687393"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092808"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>仓库绩效 Power BI 内容
 
@@ -111,6 +111,3 @@ ms.locfileid: "4687393"
 | 装运表现        | 产品装运                       | CustPackingSlipOnTimeStatus           | 提前、按时和延迟（参阅此表之前的描述）。 |
 | 装运表现        | 客户装运                      | CustPackingSlipOnTimeStatus           | 提前、按时和延迟（参阅此表之前的描述）。 |
 | 装运表现        | 站点/仓库装运              | CustPackingSlipOnTimeStatus           | 提前、按时和延迟（参阅此表之前的描述）。 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

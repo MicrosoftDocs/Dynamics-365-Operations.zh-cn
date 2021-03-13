@@ -1,6 +1,6 @@
 ---
 title: ER 将财务维度用作数据源（第 3 部分 - 设计报表）
-description: 以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便将财务维度用作 ER 报表的数据源。
+description: 本主题介绍如何配置电子报告 (ER) 模型以将财务维度用作 ER 报表的数据源。 （第 3 部分）
 author: NickSelin
 manager: AnnBe
 ms.date: 05/27/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a12f88f1e8b5e451bc8a5c5486d820da61bf3ad0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b0d6da96850e04d5e975b3febbfae2737c8a86af
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684779"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092292"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER 将财务维度用作数据源（第 3 部分 - 设计报表）
 
@@ -145,6 +145,3 @@ ms.locfileid: "4684779"
 46. 关闭该页面。
 ![ER Operations 设计器页](../media/er-financial-dimensions-guides-format2.png)
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: ff68761ce1cf2174be8ebb9732b9348439a53a32
-ms.sourcegitcommit: d24ebce50421f8656d23bb1e47cd636ad2e2ca0a
+ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664288"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077469"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 
@@ -65,6 +64,12 @@ ms.locfileid: "4664288"
 
 - 用于锁定作业卡设备和作业卡终端以便对其进行净化的功能
 
+### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>生产车间执行界面的资产管理功能
+
+此功能将资产管理选项卡添加到生产车间执行界面。 工作人员可以使用此选项卡来选择连接到作业列表中所选筛选器内机器资源的资产。 对于选择的机器资产，工作人员可以通过最多四个所选计数器的计数器值查看资产的状态和运行状况。 如果您想要使用此功能，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
+
+- 生产车间执行界面的资产管理功能
+
 ## <a name="work-with-production-floor-execution-configurations"></a>使用生产车间执行配置
 
 若要创建和维护设备配置，请转到 **生产控制 \> 设置 \> 制造执行 \> 配置生产车间执行**。 **配置生产车间执行** 页面显示现有配置的列表。 在此页面上，您可以执行以下操作：
@@ -94,6 +99,3 @@ ms.locfileid: "4664288"
 1. 在“操作”窗格上，选择 **清理客户端配置**。
 1. 在 **清理客户端配置** 对话框中，将 **天数** 字段设置为要考虑的不活动天数（今天之前）。 您将删除在此期间未处于活动状态的设备的所有配置和登录记录。
 1. 选择 **确定** 以根据 **天数** 设置清理相关的配置。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

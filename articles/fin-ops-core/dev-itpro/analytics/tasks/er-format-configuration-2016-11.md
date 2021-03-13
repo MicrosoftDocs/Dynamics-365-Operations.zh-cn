@@ -1,6 +1,6 @@
 ---
 title: ER 创建格式配置（2016 年 11 月）
-description: 此主题说明属于系统管理员或电子报表开发人员的用户如何创建电子报表 (ER) 的格式配置。
+description: 本主题说明如何为电子报告 (ER) 创建格式配置。
 author: NickSelin
 manager: AnnBe
 ms.date: 08/02/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e4cd3960594ab37ca867792c655cfd28dc332fa9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9404d1e242c83d2103d1f24c42589c33b9f57f02
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684755"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092242"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER 创建格式配置（2016 年 11 月）
 
@@ -158,6 +158,3 @@ ms.locfileid: "4684755"
 42. 单击 **保存**。
 43. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

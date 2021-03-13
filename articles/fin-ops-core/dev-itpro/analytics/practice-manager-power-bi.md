@@ -1,6 +1,6 @@
 ---
 title: 实践经理 Power BI 内容
-description: 此主题介绍实践经理 Power BI 内容中的内容。 它说明如何访问内容中包括的报表，并提供有关用于构建内容的数据模型和实体的信息。
+description: 此主题介绍实践经理 Power BI 内容中的内容。
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f01109b360b23adf84673e84e6240f8f4431340d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685697"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092449"
 ---
 # <a name="practice-manager-power-bi-content"></a>实践经理 Power BI 内容
 
@@ -117,6 +117,3 @@ ms.locfileid: "4685697"
 | 关键聚合度量       | 字段               | 说明 |
 |---------------------------------|---------------------|-------------|
 | 已完成活动的计划成本 | Sum(TotalCostPrice) | 含已完成任务在内估计的所有项目交易记录类型的总成本价。 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

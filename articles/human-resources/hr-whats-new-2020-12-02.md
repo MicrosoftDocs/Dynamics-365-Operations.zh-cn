@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aba35563266d1149131124f489f89da61432bfb2
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: 36d82efa182bff12442d51908d634cbddbd13fa9
+ms.sourcegitcommit: fc852ae4939089a294d00fdf9cad8d6372ffb012
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669154"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5080030"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Dynamics 365 Human Resources（2020 年 12 月 2 日）中的新增功能或更改
 
@@ -61,7 +60,7 @@ ms.locfileid: "4669154"
 | 514087 | BenefitEligibilityProcessResult 应包括在处理中使用的日期/时间。 | BenefitEligibity 处理结果现在包括上次处理的 datetimestamp，它在之前已丢失。 |
 | 526903 | 当在 **Human Resources 共享参数** 中打开 **自动选择指定人员** 时，具有依赖方的计划的福利登记将失败。 | 修复了在为默认指定人员打开 **自动选择指定人员** 选项时依赖方的福利登记失败的问题。 |
 | 521922 | **显示缺勤但不包含详细信息** 参数在团队缺勤日历中显示休假请求的详细信息。 | 当在 **休假和缺勤参数** 中 **显示缺勤但不包含详细信息** 设置为 **是** 时，在团队缺勤日历中显示休假类型、休假类型颜色和日期详细信息。 此问题已解决，现在不显示休假类型，并且团队缺勤日历上的所有休假类型均使用默认休假类型颜色（深蓝色）。 |
-| 527316 | 工作、职位和工作人员通知的标题更改不同步。 | 之前已向工作、职位和工作人员实体添加了标题关联。 此关联的同步适用于从 Human Resources 到 Common Data Service 的同步，但不适用于来自 Common Data Service 的通知。 此问题已解决。 |
+| 527316 | 工作、职位和工作人员通知的标题更改不同步。 | 之前已向工作、职位和工作人员实体添加了标题关联。 此关联的同步适用于从 Human Resources 到 Dataverse 的同步，但不适用于来自 Dataverse 的通知。 此问题已解决。 |
 | 512275 | 从 **休假和缺勤参数** 中删除颜色选项。 | 现在，在休假类型上定义了颜色，**休假和缺勤参数** 中不再需要颜色选项，因此将其删除。 |
 | 437112 | 员工职位分配期间的误导性错误消息文本。 | 在雇用工作人员并尝试将工作人员分配到不活动的职位时，更新了错误消息。 更新了消息 **从雇用开始日期开始，指定的职位不活动。请检查此职位的持续时间。** |
 | 527816 | **休假** 页面的性能问题。 | 已在 **休假** 页面上改进性能。 |
@@ -92,6 +91,3 @@ ms.locfileid: "4669154"
 [Dynamics 365 Human Resources 2020 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,22 +10,21 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 768b20ecc8d15353258c9b3af69b897957d3de60
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: c0879343f100fa1fe6e0a4b4fbf085574225e898
+ms.sourcegitcommit: bea695707d1e7b4e2713b62405ad0e7a7a893420
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594944"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5053405"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>为客户订单启用多种提货交货方式
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 在 Microsoft Dynamics 365 Commerce 版本 10.0.16 及更高版本中，组织可以定义多种交货方式，以供购物者或销售助理创建将在商店提货的订单时进行选择。 这样，组织可以向购物者提供多种提货选项。 例如，许多零售商现在针对其订单向购物者提供店内提货或懒人提货的选项。 Commerce 支持配置这些不同的提货交货方式。 然后，用户可以在任何受支持的 Commerce 渠道（电子商务、呼叫中心或商店）中创建客户订单时利用它们。
 
@@ -86,6 +85,3 @@ ms.locfileid: "4594944"
 ## <a name="considerations-for-distributed-order-management"></a>分配的订单管理 (DOM) 的注意事项
 
 Commerce 中的[分配的订单管理 (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) 功能会忽略标记为商店提货的所有销售行。 这些功能已更新，以确保链接到已配置的提货交货方式的销售行会绕过 DOM 逻辑，并且不会重新分配到新的履行仓库。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

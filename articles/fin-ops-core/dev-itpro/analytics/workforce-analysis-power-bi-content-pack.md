@@ -1,6 +1,6 @@
 ---
 title: 劳动力指标 Power BI 内容
-description: 此主题描述劳动力指标 Power BI 内容。 它说明如何访问报表，并提供有关用于构建内容的数据模型和实体的信息。
+description: 此主题描述劳动力指标 Power BI 内容。
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5e921b9ca7d46b3365068a5cdcb029396b62a0ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d0622cebcfca15acf50cf62e8a77af360d4f1bda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687343"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092783"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>劳动力指标 Power BI 内容
 
@@ -86,6 +86,3 @@ ms.locfileid: "4687343"
 | 员工趋势           | 一段时间的工作人员，人数，公司和职位                                 | 公司、地理位置、员工姓名、报告至、日历偏差、日期、员工职务、人口统计学、雇用、作业 |
 | 大批雇用项目        | 大批雇用项目数量，项目所有者和项目状态                     | 公司，大批雇用行 |
 | 大批雇用行           | 部门，雇用类型和职位                                           | 日期，作业，大批雇用项目 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
