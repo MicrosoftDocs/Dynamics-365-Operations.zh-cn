@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 265884
 ms.assetid: 0f23b25b-45e5-4156-9e38-621a97046552
 ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6425e76b3e4c9d9b0106894f33804ec6048c021c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f0a5bc4d5300b2715d76191e3e7fb2b83283ac9d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409744"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009135"
 ---
 # <a name="display-debit-and-credit-amounts-in-ledger-accounts-for-china"></a>显示中国会计科目的借方和贷方金额
 
@@ -35,7 +34,4 @@ ms.locfileid: "4409744"
 
 1.  单击 **总帐** &gt; **分类帐设置** &gt; **总帐参数**。
 2.  将 **在借方/贷方列中显示金额** 滑块设置为 **是**。
-3.  打开 **总帐** &gt; **查询和报表** &gt; **凭证交易记录** 进行确认。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+3.  打开 **总帐** &gt; **查询和报表** &gt; **凭证交易记录** 进行确认。

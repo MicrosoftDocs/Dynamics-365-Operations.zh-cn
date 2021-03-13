@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, ConfigPartOf
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 75083
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b7d1186b4141a18e1283505713e67018927672d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 37d0e5709d0bd7dd9df53b9db165109aff9f639e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422659"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007833"
 ---
 # <a name="product-configuration-overview"></a>产品配置概览
 
@@ -163,6 +162,3 @@ API 是使用一组 **PCAdaptor** 类实施的，这些类可公开产品配置�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

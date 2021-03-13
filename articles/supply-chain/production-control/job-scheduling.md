@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19431
 ms.assetid: aef37341-91d8-4263-80eb-35d9584be156
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bff966a68001d479b8631e13caa18c9ec8d2bf4c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a3612c0c24814f7637234894cc176c2a2be001ba
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423226"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007033"
 ---
 # <a name="job-scheduling"></a>作业级排产
 
@@ -77,6 +76,3 @@ ms.locfileid: "4423226"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

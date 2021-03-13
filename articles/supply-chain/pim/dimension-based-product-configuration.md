@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: BOMConfigRule, BOMTable, ConfigChooseFromRoute, ConfigGroup, ConfigHierarchy, EcoResDimensionBasedConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19821
 ms.assetid: 4db9890b-306b-4be7-ba98-3be2094d561f
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45688f1882d2711cd43b9b7c199f1fca7ff089ea
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a1e1dbf7364b13e6a7abcfc563364bbea329e9ac
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423199"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007733"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>基于维度的产品配置概览
 
@@ -88,6 +87,3 @@ ms.locfileid: "4423199"
 7.  [创建配置规则](tasks/create-configuration-rules.md)
 8.  [创建基于维度的配置](tasks/create-dimension-based-configurations.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7b65c23fc7ac04fc30c0001bee9541a475026018
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423421"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007483"
 ---
 # <a name="troubleshoot-purchase-orders"></a>采购订单故障排除
 
@@ -132,7 +131,7 @@ ms.locfileid: "4423421"
 
 对于问题描述中描述的示例场景：记录的生效日期为 *01/11/2018*，到期日期为 *从不*，可以导入生效日期为 *01/10/2018*、到期日期为 *从不* 的新记录。 但是，您无法通过数据管理缩短期限，让生效日期更新为 *01/12/2018*。 您必须通过 UI 进行此更改。
 
-## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>我更改采购订单标题上的交货地址后，交货名称没有同步。
+## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-name-isnt-synced"></a>我更改采购订单标题上的交货地址后，交货名称没有同步。
 
 ### <a name="issue-description"></a>问题描述
 
@@ -145,6 +144,3 @@ ms.locfileid: "4423421"
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>我可以找到取消采购订单的用户吗？
 
 仅当采购订单接受更改管理时，才会跟踪此信息。 如果使用更改管理，您可以查看谁提交了更改（取消）以及谁批准了更改。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

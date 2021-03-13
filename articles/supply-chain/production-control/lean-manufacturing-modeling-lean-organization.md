@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, KanbanFlowSelection, KanbanFlow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53141
 ms.assetid: 4f272f2f-ec2c-4b0d-a652-00a63b719b9e
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 960ba8851810ff528581144ad863772f18f9fa79
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 27325658f0d73e24f0362bb0aae47a146eadba6b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423223"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007111"
 ---
 # <a name="modeling-a-lean-organization"></a>建模精益组织
 
@@ -67,6 +66,3 @@ Lean Manufacturing 的体系结构的灵感来源于 Womack 和 Jones 提出的 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

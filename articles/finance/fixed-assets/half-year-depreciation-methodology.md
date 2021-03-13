@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 55fb03cf08d8ec042aa8fb37fd1fb858d98279b1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ec4c3a0bd86e15ee015fc2e2c49c92b035243b6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440615"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009285"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>半年折旧惯例方法
 
@@ -42,6 +41,3 @@ ms.locfileid: "4440615"
    [![半年折旧惯例的折旧计划](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 半年惯例增加的延长后折旧期的折旧分配更精确。 六个月惯例提供的折旧费用更平均，这对损益表中的报告非常有用。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

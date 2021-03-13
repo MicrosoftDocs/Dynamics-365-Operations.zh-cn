@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BOMConfigRule
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19761
 ms.assetid: e4c6622d-1e2d-4a4d-8047-c553a25d4f87
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e70713fb25584e26f97bcb7c769da6954aa36b81
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1b8b3de89235c6dac52f059af9665ea70f80d83a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422661"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007783"
 ---
 # <a name="configuration-rules"></a>配置规则
 
@@ -46,6 +45,3 @@ ms.locfileid: "4422661"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardScheduleJobForward, KanbanBoardShowJobs, KanbanJobSchedulingListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 52961
 ms.assetid: fe3b4822-6140-4b02-bebb-1fc17be2bce8
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77ba67de5585022ab7d506c8cd2acb380a4e3a54
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: be515fa206c62a50457c65f3fe16079bbea76a3a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423224"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007112"
 ---
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Lean manufacturing 的 看板作业计划
 
@@ -73,6 +72,3 @@ ms.locfileid: "4423224"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 68abef8f28c04a4f6f88e638c8abf944d06a32c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e76a5ad741dca5831b609a5b991aa70e3753c621
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410557"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009635"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>对帐单过帐功能改进
 
@@ -174,6 +173,3 @@ Commerce 中包含与以下配置键有关的验证：
 
     - 转到 **Retail 和 Commerce** \> **Headquarters 设置** \> **参数** \> **Commerce 参数**。 然后，在 **过帐** 选项卡上 **库存更新** 快速选项卡的 **详细程度** 字段中，选择 **摘要**。
     - 转到 **Retail 和 Commerce** \> **Headquarters 设置** \> **参数** \> **Commerce 参数**。 然后，在 **过帐** 选项卡上的 **聚合** 快速选项卡中，将 **凭证交易记录** 选项设置为 **是**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

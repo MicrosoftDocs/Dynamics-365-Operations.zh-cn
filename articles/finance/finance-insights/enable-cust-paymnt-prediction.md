@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e10aa9342ec9f089ef8ecec5e1221a31c580fc87
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 584c1af5f9252a4b8c88a8866a64184bd0595b2e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644985"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009410"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>启用客户付款预测(预览)
 
@@ -91,6 +90,3 @@ Finance insights 公开预览版可用于美国、欧洲和英国的试用部署
 ## <a name="privacy-notice"></a>隐私声明
 
 预览版 (1) 采用的隐私和安全措施可能比 Dynamics 365 Finance and Operations 服务少，(2) 不包含在该服务的服务级别协议 (SLA) 中，(3) 不应用于处理应遵守法律或法规合规性要求的个人数据或其他数据，以及 (4) 享受有限支持。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

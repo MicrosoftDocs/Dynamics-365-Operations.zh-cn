@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 52b0b456a6d9879c480ac3f076a32e382426a89c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 14244ccfef69a8bff3390539ff7b851a8f5b5ec1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440744"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009560"
 ---
 # <a name="settle-remainder"></a>结算余额
 
@@ -70,6 +69,3 @@ ms.locfileid: "4440744"
 7)  您也可以选择创建包含结算余额的付款日记帐，或只是过帐结算余额，而不通过日记帐。 为 **在日记帐中编辑** 选择 **是** 来创建付款日记帐。 您可以编辑您创建的付款日记帐。
 8)  单击 **结算余额**。 如果您选择创建日记帐，按钮将更改为 **创建日记帐**。 单击 **创建日记帐**。
 9)  如果您创建了付款日记帐，日记帐页面将在单击 **结算余额** 后打开。 日记帐行将被添加到将结算余额作为此金额、将结算余额帐户作为抵销帐户的日记帐。 如果您添加了某一客户或供应商，以便您可以将结算金额移动到另一客户或供应商，则其他行将被添加到日记帐以将结算金额移至该客户或供应商。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

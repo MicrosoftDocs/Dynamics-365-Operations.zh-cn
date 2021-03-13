@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c0f9c1bb94b4dcc3c3c1e7656868ef6e6bd903db
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cba4b1eac33ae53e214297728c1cdf2710ebd9d9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422663"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007908"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>基于约束的产品配置的基于属性的销售价
 
@@ -141,6 +140,3 @@ ms.locfileid: "4422663"
 1. 在“操作”窗格上，打开 **模型** 选项卡，然后从 **产品模型详细信息** 组中，选择 **版本**。
 1. **版本** 页面将打开。 确保将 **定价方法** 设置为 **基于属性**。
     ![将定价方法设置为基于属性](media/prod-config-versions.png "将定价方法设置为基于属性")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

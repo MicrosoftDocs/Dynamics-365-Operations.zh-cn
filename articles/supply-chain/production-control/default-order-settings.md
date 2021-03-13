@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2202b6b50d4b4b675759275379023a182b01af17
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423291"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007258"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>维度和产品变型的默认订单设置
 
@@ -204,6 +203,3 @@ Dynamics 365 Supply Chain Management 中的默认订单设置定义作为物料�
 1. 在 **常规** 选项卡上，将 **验证默认订单数量** 设置为以下值之一：
     - **严格** - 选择此选项可以确保所有 **标准订单数量** 值是每个快速选项卡（**采购订单**、**库存** 和 **销售订单**）的 **倍数** 值的倍数。
     - **标准** - 选择此选项可以使用标准验证（与未启用此功能时相同）。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

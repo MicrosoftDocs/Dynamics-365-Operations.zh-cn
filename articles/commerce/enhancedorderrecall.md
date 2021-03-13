@@ -10,17 +10,16 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42b11ff16757d633b868dfdf248341193a44378f
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 21e8045d754006345f5ad68e1e67579386c6df4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665290"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010066"
 ---
 # <a name="recall-order-operation-in-pos"></a>POS 中的撤回订单操作
 
@@ -64,6 +63,3 @@ Commerce 销售点 (POS) 中的 **撤回订单** 操作提供更新的订单搜�
 - **编辑** – 允许用户更改所选的客户订单。
 
 - **提货** – 启动提货流程，使用户可以选择要提货的产品并创建提货销售交易。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

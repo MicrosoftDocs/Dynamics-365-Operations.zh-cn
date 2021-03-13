@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d9059080fcd77a5317ce4226de6aad38b0066500
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 442826d6611ea4aaedee2e9bae5649ada1cc846d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423017"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007883"
 ---
 # <a name="create-a-schedule-for-a-site"></a>创建站点计划
 
@@ -56,6 +55,3 @@ ms.locfileid: "4423017"
 4. 单击“物料”。
     * 在此页，您可以查看生产订单中操作的估计物料消耗量和当前可用库存。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

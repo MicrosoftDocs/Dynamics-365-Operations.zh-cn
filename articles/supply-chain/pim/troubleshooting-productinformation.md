@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 87b04998889b86a79fd8dabde422147c5494b003
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 4c505ccfd1998acd40dbae715c7fa572e315af2e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516737"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007508"
 ---
 # <a name="troubleshoot-product-information"></a>产品信息疑难解答
 
@@ -152,6 +151,3 @@ ms.locfileid: "4516737"
 **已发布产品变型** 页上的 **新建** 按钮在公司上下文中创建变型并发布。 如果变型已创建，则无法使用 **新建** 按钮将其发布到另一个公司。
 
 要解决此问题，请打开 **基础产品** 页，选择 **发布产品** 在所需公司中发布现有变型。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

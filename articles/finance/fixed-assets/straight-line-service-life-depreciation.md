@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3341
 ms.assetid: ae5ceaeb-aeb7-45cd-b835-23cf9c5cf95a
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b7b9b240156263b4dc1bc308a7f4457380a27f3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a6848aaa679ae42d21b40fdc5f46596aa1f2e899
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440786"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009260"
 ---
 # <a name="straight-line-service-life-depreciation"></a>直线法折旧
 
@@ -108,6 +107,3 @@ ms.locfileid: "4440786"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

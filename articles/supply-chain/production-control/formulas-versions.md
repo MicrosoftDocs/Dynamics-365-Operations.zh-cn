@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7fb37483412fdd09fe3734ddb148b050ec02951
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e5ff5916366f968cbf8dc9a5614466ef89faa92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422932"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007137"
 ---
 # <a name="formulas-and-formula-versions"></a>配方和配方版本
 
@@ -71,6 +70,3 @@ ms.locfileid: "4422932"
 
 ## <a name="use-step-consumption"></a>使用步骤消耗量
 步骤消耗量清除必须在 **配方行** 选项卡上输入成分数量的要求。 相反，将步骤消耗量配置为具有 **开始系列** 值和 **数量** 值。 从每系列记录的步骤消耗量选择满足批次订单上的数量的信息。 当消耗率与批次订单的大小不呈线性关系且仅增加满足特定数量阈值的要求时，步骤消耗量非常有用。 若要对新配方启用此功能，在 **消耗计算** 组下，将适用成分的配方设置从 **标准** 更改为 **步骤**。 在 **配方行** 页的 **设置** 选项卡上指定此工作量法。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

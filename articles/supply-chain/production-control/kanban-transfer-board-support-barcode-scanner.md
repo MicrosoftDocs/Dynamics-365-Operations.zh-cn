@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19391
 ms.assetid: a426f645-d59b-4c98-8d78-eba8d64a562e
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bd6f1bdd847f74cee7d3594d19b72454063c0cb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aedfe7ef96d62401b1d0de0f2cd035036c68e51a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423225"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007058"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>条码扫描仪的看板转移面板支持
 
@@ -44,11 +43,11 @@ ms.locfileid: "4423225"
 | 空                 | 将由看板卡引用的物料处理单元登记为空。              |
 | 选择                | 登记看板卡号并在看板列表中自动选择引用的作业。 |
 
- 
-登记模式选择
+ 
+<a name="registration-mode-select"></a>登记模式选择
 ------------------------
 
-当您使用条码阅读器选择作业时，看板面板的显示方式更改。在此模式中，以下条件适用：
+当您使用条码阅读器选择作业时，看板面板的显示方式更改。 在此模式中，以下条件适用：
 
 -   仅显示扫描的看板作业。
 -   所选作业的详细信息显示在 **详细信息** 快速选项卡中。
@@ -192,6 +191,3 @@ ms.locfileid: "4423225"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

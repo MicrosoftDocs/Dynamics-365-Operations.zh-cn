@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 274483
 ms.assetid: 6f5b851b-c5a7-43ef-b380-0d316667c1ef
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: c5e0175e5743c800d8f04723d03ae503cff3a67a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e181e6c933a4c360320e4539f8434c20d409358
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423201"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5008258"
 ---
 # <a name="display-charges-for-a-manufactured-item"></a>显示制造物料的费用
 
@@ -40,6 +39,3 @@ ms.locfileid: "4423201"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

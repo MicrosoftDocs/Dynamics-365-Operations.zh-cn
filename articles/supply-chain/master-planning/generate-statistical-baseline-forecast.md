@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db0ac2d56db46f283716df6615e404a5354f8d3e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b60fbcc4fe1b3da701245390ab4397ebb700f892
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423241"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007962"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>生成统计基准预测
 
@@ -78,6 +77,3 @@ ms.locfileid: "4423241"
 - [对基准预测进行手动调整](manual-adjustments-baseline-forecast.md)
 
 - [授权调整后的预测](authorize-adjusted-forecast.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

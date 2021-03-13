@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailChannelReport, RetailChannelManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 57811
 ms.assetid: 495a66f0-491a-4688-842d-51c33c37676f
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8d95bb0927de5a1906efe180cb9e725c380a724f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4688d3268986a9ae6fb2c9601396b56aacf87a93
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410556"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009610"
 ---
 # <a name="analyze-store-performance"></a>分析商店业绩
 
@@ -45,6 +44,3 @@ ms.locfileid: "4410556"
 - 销售税汇总
 - 价格覆盖汇总
 - 折扣汇总
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f7546b70ddef30d88a79b00fe31d4e82d9bfb9b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 84be2a4646cfc18cd1f25a4ec969acdb62cb2856
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422933"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007233"
 ---
 # <a name="flushing-principles"></a>耗用原则
 
@@ -63,6 +62,3 @@ ms.locfileid: "4422933"
 
 ### <a name="available-at-location"></a>在库位可用
 “在库位可用”耗用原则指示当物料登记为生产领料时自动使用物料。 当原材料领料工作完成时，或当物料在生产输入库位可用且物料行被发放到仓库时，该物料登记为从库位领料。 在批处理作业中对流程进行过帐期间生成领料单。 例如，如果一个生产订单有多个领料活动，则与此原则有关。 在这种情况下，你不必手动更新领料单，而且可以获得 WIP 余额的当前视图。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

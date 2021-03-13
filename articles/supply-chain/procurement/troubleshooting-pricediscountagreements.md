@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchRFQTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b4349eeba285492202b5df8481b277a06708a4c8
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 14fdddabde7739cbf9ba0fcee0fa0b8b816e74dd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423422"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007358"
 ---
 # <a name="troubleshoot-prices-discounts-agreements-and-rebates"></a>价格、折扣、协议和返点故障排除
 
@@ -125,6 +124,3 @@ ms.locfileid: "4423422"
 
 您可以为询价 (RFQ) 的任何回复创建贸易协议，无论它们是被接受还是被拒绝。 有关详细信息，请参阅[询价 (RFQ) 概述](request-quotations.md)。
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

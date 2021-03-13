@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 801327dc54f6d4cfef7a9f062395e29846783e8f
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: ae0eba6d397725cf425d9781a597d904e1958d44
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644937"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009379"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>在现金流预测中使用外部数据（预览）
 
@@ -63,6 +62,3 @@ ms.locfileid: "4644937"
 
 #### <a name="privacy-notice"></a>隐私声明
 预览版 (1) 采用的隐私和安全措施可能比 Dynamics 365 Finance and Operations 服务少，(2) 不包含在该服务的服务级别协议 (SLA) 中，(3) 不应用于处理应遵守法律或法规合规性要求的个人数据或其他数据，以及 (4) 享受有限支持。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

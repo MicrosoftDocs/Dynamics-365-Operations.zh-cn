@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSCrossDockOpportunityPolicy, WHSReservationHierarchy, WHSInventTableReservationHierarchy, WHSItemGroupLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 948db1f7308896209e195613d50b1d66b807b1bf
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: c408c0b0c32292c074bcabf3822a50a24bbdd301
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423346"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007283"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>从生产订单到出货台的越库配送
 
@@ -127,6 +126,3 @@ ms.locfileid: "4423346"
 -   受批次和序列控制的物料支持越库配送方案，这两种物料的批次和序列号维度均定义为高于和低于预留层次结构中的位置。 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

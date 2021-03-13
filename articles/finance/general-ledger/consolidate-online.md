@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 91df786ed2298e21e7a3018b915c9bd5458efc32
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440748"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009235"
 ---
 # <a name="online-financial-consolidations"></a>在线财务合并
 
@@ -96,6 +95,3 @@ ms.locfileid: "4440748"
 有关合并和货币折算的详细信息，请参阅此主题的父主题，即[财务合并和货币折算概述](./financial-consolidations-currency-translation.md)。
 
 有关可以生成财务报表的方案的信息，请参阅[生成合并的财务报表](./generating-consolidated-financial-statements.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
