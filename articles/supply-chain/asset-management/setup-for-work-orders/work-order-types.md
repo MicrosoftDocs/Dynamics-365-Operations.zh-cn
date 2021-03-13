@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderType
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b8e43908e3f13c9e4fd6fab6f1e17a171866b803
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9111ffa552059883696cf8248a02dfe70bc12ee7
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423102"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021521"
 ---
 # <a name="work-order-types"></a>工作订单类型
 
@@ -52,6 +51,3 @@ ms.locfileid: "4423102"
 8. 选择 **保存**。
 
 ![工作订单类型](media/16-setup-for-work-orders.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

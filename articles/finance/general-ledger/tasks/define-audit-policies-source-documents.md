@@ -1,7 +1,7 @@
 ---
 title: 定义原始凭证的审计策略
 description: 此主题介绍如何设置和运行审计政策规则。
-author: ryansandness
+author: panolte
 manager: AnnBe
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba720fd1bbbbf8b4f3b936d65d9d7840432f291a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e020a9e82ff18055e40e3e0ddc7bbed1068c886c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440835"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021421"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>定义原始凭证的审计策略
 
@@ -88,6 +87,3 @@ ms.locfileid: "4440835"
 57. 展开 **关联** 部分。
 58. 在列表中，找到并选择所需记录。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

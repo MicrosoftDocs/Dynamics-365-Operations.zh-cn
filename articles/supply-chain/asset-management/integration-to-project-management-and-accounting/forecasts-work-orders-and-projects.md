@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjCostInfoPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9e6d20d1538ea68570d6dcc49da001ad76b8042b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f062b5463b54e9bcf32ed6f17263811c4bb24138
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422886"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021008"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>预测、工作订单和项目
 
@@ -101,6 +100,3 @@ ms.locfileid: "4422886"
 
 ![图 6](media/06-integration-to-pma.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

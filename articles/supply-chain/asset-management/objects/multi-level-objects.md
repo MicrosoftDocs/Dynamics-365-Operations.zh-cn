@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b7609a85f0315ee5cb5fae62d151b271ef5febe
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fd4da57c3849095909226db53c23b3c25301acdc
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423134"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021314"
 ---
 # <a name="multi-level-assets"></a>多级资产
 
@@ -62,6 +61,3 @@ ms.locfileid: "4423134"
 
 > [!NOTE]
 > 如果不能通过此过程删除资产，另一种处理删除的方法是为此目的设置资产生命周期状态。 例如，可在 **资产生命周期状态** 页设置 **已报废** 或 **已删除** 生命周期状态。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

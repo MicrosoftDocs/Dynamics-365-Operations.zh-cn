@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetCounter
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 23a94415a662059ddbd41cc6a0ba9dab24aae44e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5318bac961682f88e192ac70c4993c62b69b399c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422816"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020867"
 ---
 # <a name="manual-update-of-asset-counters"></a>手动更新资产计数器
 
@@ -64,6 +63,3 @@ ms.locfileid: "4422816"
 >[!NOTE]
 >您可以设置范围来定义手动计数器登记的偏差。 如果登记超出定义的范围，您还可以指定显示的消息类型。 有关如何设置计数器的详细信息，请参阅[计数器](../setup-for-objects/counters.md)。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

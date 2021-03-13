@@ -1,7 +1,7 @@
 ---
 title: 审计策略规则
 description: 您可以使用审核策略对支出报告、供应商发票和采购订单做出评估，从而确保它们都符合您所创建的策略规则。 根据您指定的作业安排，所有与审计策略相关的规则都是以批模式运行的。  每个策略过帐都是某个策略规则类型的实例。 对于每个策略规则类型，一次仅有一个策略规则可以有效。
-author: ryansandness
+author: panolte
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12991
 ms.assetid: 8d787017-71dc-418f-b8c2-4ea9763d9978
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de6406029aa88424863dd9a47505f5b3ad27f237
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 998d4dbabec74528b4acb9e797faef0c449e7c28
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440713"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021233"
 ---
 # <a name="audit-policy-rules"></a>审计策略规则
 
@@ -101,6 +100,3 @@ ms.locfileid: "4440713"
 [定义原始单据的审计策略](tasks/define-audit-policies-source-documents.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
