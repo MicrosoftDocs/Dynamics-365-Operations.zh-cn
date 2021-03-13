@@ -1,7 +1,7 @@
 ---
 title: 输入和比较询价出价并授予合同
 description: 本主题介绍如何输入给询价 (RFQ) 的回复，以及如何对出价评分和比较出价，然后将合同授予某一供应商。
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae7c43516fc90224439f6f7cfd5fd0a6058e8b39
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 3f14b95a71397bf5879c97654620e1d4c22a1149
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423427"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016670"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>输入和比较询价出价并授予合同
 
@@ -107,6 +106,3 @@ ms.locfileid: "4423427"
 ## <a name="view-the-purchase-order-that-is-generated"></a>查看生成的采购订单
 
 在操作窗格上的 **常规** 选项卡中，选择 **采购订单**。 显示的页面将显示您接受出价时生成的采购订单。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

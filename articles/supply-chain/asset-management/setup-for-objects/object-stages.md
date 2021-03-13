@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetLifecycleModelStateNext, EntAssetObjectLifecycleState, EntAssetLifecycleStateUpdate, EntAssetObjectLifecycleModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 566036c6361194d910a0fc34bd5d72147585ec4f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dffedfafd9d75320accf0e27f072bab6fd51f135
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422904"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016544"
 ---
 # <a name="asset-lifecycle-states"></a>资产生命周期状态
 
@@ -70,6 +69,3 @@ ms.locfileid: "4422904"
 
 6. 要定义可采用所选生命周期状态的资产生命周期状态，选择 **生命周期状态更新**。
 7. 如果要处理收到待维修的资产，请使用 **资产状态** 快速选项卡。 在 **入站/出站** 部分中，可选择资产生命周期状态以指示收到待维修的资产的工作流。 如果为客户或部门提供出借资产，可在 **借出** 部分中为出借资产选择生命周期状态。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
