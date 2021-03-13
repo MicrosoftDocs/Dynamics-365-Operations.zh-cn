@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a35abcb8a2f6aa8031c8d84a44c2a8ad93883ac
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: f615584785ba48a140e4e97991a4594047fea8ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669155"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111557"
 ---
 # <a name="recruit-job-candidates"></a>招聘工作应聘者
 
@@ -38,7 +38,7 @@ Dynamics 365 Human Resources 帮助您管理招聘请求。 它还帮助您无�
 如果您不使用单独的招聘应用程序，还可以在 Human Resources 中手动管理应聘者。
 
 >[!NOTE]
->如果您是管理员或开发人员，并且想要将 Human Resources 与第三方招聘应用程序集成，请参阅[配置 Common Data Service 集成](hr-admin-integration-common-data-service.md)和[配置 Common Data Service 虚拟实体](hr-admin-integration-common-data-service-virtual-entities.md)
+>如果您是管理员或开发人员，并且想要将 Human Resources 与第三方招聘应用程序集成，请参阅[配置 Dataverse 集成](hr-admin-integration-common-data-service.md)和[配置 Dataverse 虚拟表](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > 您还可以在 [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics) 上找到招聘集成应用。
 >
@@ -46,15 +46,13 @@ Dynamics 365 Human Resources 帮助您管理招聘请求。 它还帮助您无�
 
 ## <a name="enable-recruiting-requests"></a>启用招聘请求
 
-如果要在 Human Resources 中提交招聘请求，您必须先在 **Human Resources 参数** 中启用该功能。
+如果要在 Human Resources 中提交招聘请求，您必须先在 **人力资源共享参数** 中启用该功能。
 
 1. 在 **人事管理** 工作区中，选择 **链接**。
 
-2. 在 **设置** 下，选择 **人力资源参数**。
+2. 在 **设置** 下，选择 **Human Resources 共享参数**。
 
-3. 在 **常规** 选项卡上，在 **招聘** 下，将 **启用招聘请求** 设置为 **是**。
-
-   ![启用招聘请求](./media/hr-recruit-0-enable-requests.png)
+3. 在 **招聘** 选项卡上，在 **招聘** 下，将 **启用招聘请求** 设置为 **是**。
 
 ## <a name="add-a-recruiting-request-location"></a>添加招聘请求位置
 
@@ -224,8 +222,6 @@ Dynamics 365 Human Resources 帮助您管理招聘请求。 它还帮助您无�
 
 ## <a name="see-also"></a>请参阅
 
-[配置 Common Data Service 虚拟实体](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[配置 Dataverse 虚拟表](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [组织您的劳动力](hr-personnel-departments-jobs-positions.md)<br>
 [设置工作组件](hr-personnel-jobs.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

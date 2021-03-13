@@ -1,6 +1,6 @@
 ---
 title: 从 Lifecycle Services 导入配置
-description: 此主题介绍系统管理员或电子报表开发人员角色的用户如何从 Microsoft Dynamics Lifecycle Services (LCS) 导入新电子申报 (ER) 配置版本。
+description: 本主题介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 导入电子报告 (ER) 配置的新版本。
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c43cdce8d073f04a3158c8beb13a5376e669a4c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 602886b0dd729b8ec52940f42bd1c393dac8acda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684443"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093687"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>从 Lifecycle Services 导入配置
 
@@ -103,6 +103,3 @@ ms.locfileid: "4684443"
     对于此示例，请选择状态为 **已共享** 的配置版本。
 
     请注意，所选数据模型配置的共享版本 1 现在也可用。
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

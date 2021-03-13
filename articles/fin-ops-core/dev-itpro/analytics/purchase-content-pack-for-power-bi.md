@@ -1,6 +1,6 @@
 ---
 title: 采购花费分析 Power BI 内容
-description: 此主题介绍采购支出分析 Power BI 内容中的内容。 它说明如何访问内容中包括的报表，并提供有关用于构建内容的数据模型和实体的信息。
+description: 此主题介绍采购支出分析 Power BI 内容中的内容。
 author: FrankDahl
 manager: AnnBe
 ms.date: 04/24/2019
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f556cf2e506c57e465c2a86485d2cdd4cf8b65e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5914abaafab509e278d7a85441928feddb0b5164
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680606"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093434"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>采购花费分析 Power BI 内容
 
@@ -154,6 +154,3 @@ ms.locfileid: "4680606"
 | 日期                  | 日期、年偏移                                    |
 
 默认情况下，此内容显示当前日历年的数据。 但是，您可以更改报表筛选器部分中的数据筛选器。 还可以更改公司筛选器。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

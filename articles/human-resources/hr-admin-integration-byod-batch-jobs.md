@@ -2,7 +2,7 @@
 title: 优化 BYOD 计划批处理作业
 description: 本主题说明在 Microsoft Dynamics 365 Human Resources 中使用“提供您自己的数据库 (BYOD)”功能时如何优化性能。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: d08762ff40b4da8264bd5bc4a1c16fd2afc4d610
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4b9cf4b4181b64ef4daf397edd852fb2f881424e
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417439"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111558"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>优化 BYOD 计划批处理作业
 
@@ -96,6 +96,3 @@ BYOD 功能具有下列限制：
 [提供您自己的数据库 (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)<br>
 [数据导入和导出作业概览](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)<br>
 [启用对实体的更改跟踪](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

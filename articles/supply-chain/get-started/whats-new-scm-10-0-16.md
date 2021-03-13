@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.16 预览（2021 年 2 月）
+title: Dynamics 365 Supply Chain Management 10.0.16 中的新增功能或更改（2021 年 2 月）
 description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.16 中的新增功能或更改的功能。
 author: kamaybac
 manager: annbe
@@ -10,26 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 963979c9d24c275f77347ec5d682f318db18f915
-ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
+ms.openlocfilehash: 1ffd98a94b9ed3201be3c4530b8fba7e2820c268
+ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4626794"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104981"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10016-february-2021"></a>Dynamics 365 Supply Chain Management 10.0.16 预览（2021 年 2 月）
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Dynamics 365 Supply Chain Management 10.0.16 中的新增功能或更改（2021 年 2 月）
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-本主题列出了 Microsoft Dynamics 365 Supply Chain Management 预览版 10.0.16 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.689，并以下面的形式提供：
+此主题列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.16 中的新增或更改的功能。 此版本的构建版本号为 10.0.689，并以下面的形式提供：
 
 - **预览版：** 2020 年 11 月
 - **版本的正式发布时间（自行更新）：** 2021 年 1 月
@@ -40,8 +38,11 @@ ms.locfileid: "4626794"
 此版本中包含以下功能。 某些列出的功能仍处于预览状态，而其他功能可能已正式发布。 单击[发布计划](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features)链接以查看每个功能的正式发布日期。
 
 - [可自定义的车间执行界面](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - 有关详细信息，请参阅[设置设备以运行生产车间执行界面](../production-control/production-floor-execution-setup.md)。
+
 - [Dynamics 365 Supply Chain Management 的库存可见性加载项](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - 有关详细信息，请参阅[库存可见性加载项](../inventory/inventory-visibility.md)
+
 - [验证原始凭证行上的牌照](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - 有关详细信息，请参阅[仓库配置概述](../warehousing/warehouse-configuration.md)。
+
 - [仓库管理出站工作负荷可视化](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - 有关详细信息，请参阅[出站工作负荷可视化](../warehousing/outbound-workload-visualization.md)
 
 这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
@@ -88,7 +89,7 @@ ms.locfileid: "4626794"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.16 中包含平台更新。 若要了解详细信息，请参阅 [Finance and Operations 应用版本 10.0.16 的平台更新（2020 年 10 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md)。
+Microsoft Dynamics 365 Supply Chain Management 10.0.16 中包含平台更新。 若要了解详细信息，请参阅 [Finance and Operations 应用版本 10.0.16 的平台更新（2021 年 2 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md)。
 
 ### <a name="bug-fixes"></a>缺陷修复
 
@@ -110,6 +111,3 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.16 中包含平台更新。 
 从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。
 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常是需要对编译器进行的功能更新。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

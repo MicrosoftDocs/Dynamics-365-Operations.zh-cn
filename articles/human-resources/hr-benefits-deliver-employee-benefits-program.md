@@ -2,7 +2,7 @@
 title: 交付员工福利计划
 description: 本文将向您展示如何创建在创建新福利时需要使用的福利元素。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: cc02346ebccd04f2b4f6fc7029717a8793d75e0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8fe53b28d1e2ff539cf431a2a6a00b10d1adb06f
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417484"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111600"
 ---
 # <a name="deliver-employee-benefits-program"></a>交付员工福利计划
 
@@ -68,6 +68,3 @@ ms.locfileid: "4417484"
 16. 在“基础”字段中，选择一个选项。
 17. 在“金额或费率”字段中，输入一个数值。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: 设计用于生成 Excel 格式文档的配置
-description: 此主题介绍如何设计电子申报 (ER) 格式以填写 Excel 模板，然后生成 Excel 格式的传出文档。
+title: 设计配置以生成 Excel 格式的文档
+description: 本主题介绍如何设计电子报告 (ER) 格式以填写 Excel 模板，然后生成 Excel 格式的传出文档。
 author: NickSelin
 manager: AnnBe
 ms.date: 11/02/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d5733e40c67f9c97b04f126f7c3cfea9d4f8f5b5
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c8d6a18741d57829d1929fb8362dc4ba8e03a1bd
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686530"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094021"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>设计用于生成 Excel 格式文档的配置
 
@@ -189,6 +189,3 @@ ms.locfileid: "4686530"
 [使用 ER 在您生成的文档中嵌入图像和形状](electronic-reporting-embed-images-shapes.md)
 
 [配置电子申报 (ER) 以便将数据导入 Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

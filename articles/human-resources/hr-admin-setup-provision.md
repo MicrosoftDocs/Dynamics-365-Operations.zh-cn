@@ -2,7 +2,7 @@
 title: 设置 Human Resources
 description: 本文将指导您如何为 Microsoft Dynamics 365 Human Resources 预配新生产环境。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 106976edfa2bd7efba41887d5e8f4243b56e7b2f
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1a57180c60be4b4686c274aecbf86f0bc6c8b2fb
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527781"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111571"
 ---
 # <a name="provision-human-resources"></a>设置 Human Resources
 
@@ -32,6 +32,23 @@ ms.locfileid: "4527781"
 本文将指导您如何为 Microsoft Dynamics 365 Human Resources 预配新生产环境。 本文假设您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Human Resources。 如果您有已包括 Human Resources 服务计划的现有 Microsoft Dynamics 365 许可证，但无法完成本文中的步骤，请联系支持人员。
 
 若要开始，全局管理员应登录到 [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) 并创建新的 Human Resources 项目。 除非许可问题妨碍了您预配 Human Resources，否则不需要从支持人员或 Dynamics Service 工程 (DSE) 代表处获得帮助。
+
+## <a name="plan-human-resources-environments"></a>计划 Human Resources 环境
+
+在创建第一个 Human Resources 环境之前，您应该仔细计划项目的环境需求。 Human Resources 的基本订阅包括两个环境：生产环境和沙盒环境。 根据项目的复杂性，您可能需要购买其他沙盒环境来支持项目活动。 
+
+其他环境的注意事项包括但不限于以下各项：
+
+- **数据迁移**：您可能需要考虑额外增加一个环境来用于数据迁移活动，以允许将沙盒环境用于整个项目的测试。 多增加一个环境，当测试和配置活动在不同环境中同时进行时，可以让数据迁移活动继续进行。
+- **集成**：您可能需要考虑额外增加一个环境来用于配置和测试集成。 这可能包括本地集成，如 Ceridian Dayforce LinkedIn Talent Hub 集成，或自定义集成，如工资单、申请人跟踪系统或福利系统和提供商。
+- **培训**：您可能需要一个单独的环境，并在环境中配置一组培训数据来对员工进行新系统使用方面的培训。 
+- **多阶段项目**：您可能需要一个额外的环境来支持项目初始投入使用后计划的项目阶段内的配置、数据迁移、测试或其他活动。
+
+ > [!IMPORTANT]
+ > 我们建议您在整个项目中使用生产环境作为 GOLD 配置环境。 这很重要，因为您不能将沙盒环境复制到生产环境。 因此，投入使用时，您的 GOLD 环境就是您的生产环境，您将在此环境中完成直接转换活动。</br></br>
+ > 我们建议您在投入使用之前使用沙盒或其他环境执行模拟转换。 您可以通过将具有 GOLD 配置的生产环境刷新到沙盒环境来实现此目的。</br></br>
+ > 我们建议您保留一份详细的直接转换清单，其中包括在执行转换期间将最终数据迁移到生产环境所需的每个数据包。</br></br>
+ > 我们还建议您在整个项目中使用沙盒环境作为测试环境。 如果您需要其他环境，您的组织可以购买，但需要支付额外的费用。</br></br>
 
 ## <a name="create-an-lcs-project"></a>创建 LCS 项目
 
@@ -88,7 +105,7 @@ ms.locfileid: "4527781"
 
 2. 单个 Human Resources 环境映射到单个 Power Apps 环境。
 
-3. Power Apps 环境包含 Human Resources，以及相应的 Power Apps、Power Automate 和 Common Data Service 应用程序。 如果 Power Apps 环境被删除，其中的应用也会被删除。 在预配 Human Resources 环境时，可以预配 **试用** 或 **生产** 环境。 根据环境使用方式选择环境类型。 
+3. Power Apps 环境包含 Human Resources，以及相应的 Power Apps、Power Automate 和 Dataverse 应用程序。 如果 Power Apps 环境被删除，其中的应用也会被删除。 在预配 Human Resources 环境时，可以预配 **试用** 或 **生产** 环境。 根据环境使用方式选择环境类型。 
 
 4. 应该考虑数据集成和测试策略，如沙盒、UAT 或生产。 请认真考虑对您的部署的影响，因为更改将哪个 Human Resources 环境映射到 Power Apps 环境并非易事。
 
@@ -108,6 +125,3 @@ ms.locfileid: "4527781"
 ## <a name="grant-access-to-the-environment"></a>授予对环境的访问
 
 默认情况下，创建环境的全局管理员可以访问环境。 您必须为更多应用程序用户明确授予访问权限。 您必须在 Human Resources 环境中添加用户并为其分配相应角色。 部署了 Human Resources 的全局管理员还必须启动 Attract 和 Onboard 以完成初始化和允许其他租户用户访问。 在此之前，其他用户不能访问 Attract 和 Onboard，并且将发生访问冲突错误。 有关详细信息，请参阅[创建新用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)和[向安全角色分配用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)。 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

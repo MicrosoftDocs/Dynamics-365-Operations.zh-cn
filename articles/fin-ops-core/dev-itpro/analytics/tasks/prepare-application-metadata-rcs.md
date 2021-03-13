@@ -1,6 +1,6 @@
 ---
 title: 准备要在 RCS 中使用的应用程序元数据
-description: 本主题中的步骤演示用户如何创建其中包含应用程序元数据的新电子申报 (ER) 配置文件，以便在 Regulatory Configuration Service (RCS) 中设计 ER 模型映射配置。
+description: 本主题介绍如何创建包含应用程序元数据的新报告配置。
 author: NickSelin
 manager: AnnBe
 ms.date: 06/28/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbc1ca45a39f2a5c3309276f9e2f5d2b7d2ba5f7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d5f55d089a88642cb2bda70274472ad0f0e45cd7
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684083"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094232"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>准备要在 RCS 中使用的应用程序元数据
 [!include [banner](../../includes/banner.md)]
@@ -80,6 +80,3 @@ ms.locfileid: "4684083"
 3.    单击 **确定**。 
     
 已将创建的 ER 元数据配置保存为 XML 文件，可将此文件导入到 RCS，并用作有关外贸业务域的元数据的信息的来源。 可根据此信息指定应用程序元数据与 ER 数据模型之间的映射。
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: 创建覆盖范围选项
 description: Microsoft Dynamics 365 Human Resources 中的覆盖范围选项是参与者在福利计划或项目中的选择覆盖级别。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8690dbe00c2316ccf745f5222c3cbaa9c3379f85
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: be263dbbec61f3fa9d169c1b9faa6be741adca33
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417504"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111620"
 ---
 # <a name="create-coverage-options"></a>创建覆盖范围选项
 
@@ -59,6 +59,3 @@ Microsoft Dynamics 365 Human Resources 中的覆盖范围选项是参与者在�
    | **允许员工覆盖范围金额** | 指定是否允许员工在选择福利时在福利自助服务上修改覆盖范围金额。 如果选中此复选框，系统将根据员工在福利自助服务中输入的覆盖范围金额来计算福利计划参数。 |
 
 6. 选择 **保存**。 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

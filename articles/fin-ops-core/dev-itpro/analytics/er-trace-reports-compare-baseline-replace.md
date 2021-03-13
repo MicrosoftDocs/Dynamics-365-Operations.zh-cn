@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 55e821b27f80383d8a8dc7a2d46f87e17c554078
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1c00a5d9e2804f6ec0f6cb4c544029a1235ee58d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682839"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093996"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>对跟踪所生成 ER 报表结果并与基准值比较的改进
 
@@ -59,7 +59,7 @@ ms.locfileid: "4682839"
 
 已为所选 **用于了解 ER 基准的格式** 格式添加了基准，但是尚未为此基准添加基准规则。
 
-![“电子申报格式基准”页](media/GER-BaselineSample-AddBaseline2.PNG "“电子申报格式基准”页的屏幕截图")
+![“电子报告格式基准”页，还没有规则](media/GER-BaselineSample-AddBaseline2.PNG "“电子申报格式基准”页的屏幕截图")
 
 ### <a name="make-a-new-baseline-rule"></a>新建基准规则
 
@@ -72,7 +72,7 @@ ms.locfileid: "4682839"
 7. 选择 **确定**。
 8. 选择 **基准**。
 
-    ![“电子申报格式基准”页](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "“电子申报格式基准”页的屏幕截图")
+    ![“电子报告格式基准”页，选择了基准](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "“电子申报格式基准”页的屏幕截图")
 
     已将生成的出站文件自动附加到执行的 ER 格式的基准。 基准规则已自动添加到此基准，其中还包含对附加的文件的引用。
 
@@ -130,7 +130,7 @@ ms.locfileid: "4682839"
 3. 在基准列表中，选择为 **用于了解 ER 基准的格式** 格式配置的基准。
 4. 在 **基准** 快速选项卡上，选择 **删除** 以删除前面配置的基准规则。
 
-![“电子申报格式基准”页](media/GER-BaselineSample-AddBaseline3.PNG "“电子申报格式基准”页的屏幕截图")
+![“电子报告格式基准”页，已删除](media/GER-BaselineSample-AddBaseline3.PNG "“电子申报格式基准”页的屏幕截图")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>为设计的 ER 格式的绑定定义替换项
 
@@ -138,7 +138,7 @@ ms.locfileid: "4682839"
 2. 在格式组件树中，展开 **输出**，展开 **输出\\文档**，然后选中 **输出\\文档\\ProcessingDateTime** 的复选框。
 3. 选择 **确定**。
 
-![“电子申报格式基准”页](media/GER-BaselineSample-AddBaseline4.PNG "“电子申报格式基准”页的屏幕截图")
+![“电子报告格式基准”页，组件](media/GER-BaselineSample-AddBaseline4.PNG "“电子申报格式基准”页的屏幕截图")
 
 已将选择的 ER 格式组件添加到了 **替换** 快速选项卡上的组件列表中。 以调试模式运行基本 ER 格式时，将把该格式每个组件的绑定替换为 **绑定** 列中的绑定。 若要更改 **替换** 快速选项卡上列出的组件的默认绑定，请选择 **编辑**。
 
@@ -207,6 +207,3 @@ ms.locfileid: "4682839"
 
 - [跟踪生成的报表结果并将其与基准值进行比较](er-trace-reports-compare-baseline.md)
 - [任务录制器资源](../user-interface/task-recorder.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

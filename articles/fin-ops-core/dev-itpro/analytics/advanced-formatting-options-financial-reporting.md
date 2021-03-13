@@ -1,7 +1,7 @@
 ---
 title: 财务申报中的高级格式设置选项
-description: 当您在财务申报中创建报表时，其他格式设置功能可用，包括维度筛选器、列和报告单位限制、非打印行和计算中的 IF/THEN/ELSE 语句。
-author: ryansandness
+description: 本主题介绍高级格式设置功能，包括筛选器、限制、非打印行和计算中的条件语句。
+author: panolte
 manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683155"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093154"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>财务申报中的高级格式设置选项
 
@@ -310,6 +310,3 @@ ms.locfileid: "4683155"
 可使用包含与号 (&) 的维度值设计报表。
 
 在任何 **链接到财务维度** 字段中，均可输入 **'P&L'** 这样的值。 如果维度值两端都有单引号 (' ')，说明使用的是文字值，如包括与号字符 (&)。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

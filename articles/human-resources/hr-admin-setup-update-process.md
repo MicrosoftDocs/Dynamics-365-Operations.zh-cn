@@ -2,7 +2,7 @@
 title: 更新流程
 description: Microsoft Dynamics 365 Human Resources 是一款真正的服务型软件 (SaaS)，可为应用程序和平台更改提供连续的非接触式服务更新。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d841a026f589d774ec5ada3ac9adcc84dde9aee1
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4bb5f7dc17c8f4f3a54bd285cb55088f2176db4a
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527791"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111607"
 ---
 # <a name="update-process"></a>更新流程
 
@@ -43,7 +43,7 @@ Human Resources 更新将自动应用于所有环境。 Human Resources 提供�
 
     除非另有说明，否则所有受支持的数据中心都会每两周更新一次。 每两周更新中包括美国、澳大利亚、欧洲、英国、亚洲和加拿大地区。 
 
-- **Common Data Service 解决方案更新**：根据需要，这些更新大约每六周进行一次。 这些更新包括 Common Data Service 中的新实体和对现有实体的更改。 这些更新与每两周更新发布在相同的区域，需要大约六周时间在所有数据中心完成复制。 解决方案更新可能与每两周服务更新一致，也可能不一致。
+- **Dataverse 解决方案更新**：根据需要，这些更新大约每六周进行一次。 这些更新包括 Dataverse 中的新实体和对现有实体的更改。 这些更新与每两周更新发布在相同的区域，需要大约六周时间在所有数据中心完成复制。 解决方案更新可能与每两周服务更新一致，也可能不一致。
 
 > [!NOTE]
 > 解决方案更新发布后，将在所有数据中心可用。 如果不想等待更新自动复制，可以在任何数据中心的任何环境中手动应用这些更新。
@@ -105,6 +105,3 @@ Human Resources 更新将自动应用于所有环境。 Human Resources 提供�
 [Dynamics 365 Human Resource 的新增功能或更改](hr-admin-whats-new.md)</br>
 [软件生命周期策略](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

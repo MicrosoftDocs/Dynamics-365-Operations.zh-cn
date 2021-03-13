@@ -1,6 +1,6 @@
 ---
 title: 财务报表中的列定义
-description: 本文提供了有关列定义的信息。 列定义是报表组件或构建基块，在报表上定义列的内容。 和行定义一样，基本列定义可以在多个报表中使用。
+description: 本文提供了有关列定义的信息。 列定义是一个报表组件，在报表上定义列的内容。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 611e5cdfd2289bb2c690a72659e9ba47d6309cfe
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 820604fac96f5c86be3f7206ca88b3eb1fc6c32a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687222"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093101"
 ---
 # <a name="column-definitions-in-financial-reports"></a>财务报表中的列定义
 
@@ -226,17 +226,16 @@ ms.locfileid: "4687222"
 | 列宽        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | 打印控制       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
-该用户双击列标题单元格以打开 **列标题** 对话框，然后输入以下信息。
+用户双击列 B 中的列标题单元格以打开 **列标题** 对话框，然后输入以下信息。
 
 | 字段              | 值                 |
 |--------------------|-----------------------|
 | 列标题文本 | 实际                |
 | 插入自动图文集    | 未进行任何选择。 |
 | 格式选项     | 方框                   |
-| 对齐方式      | 未进行任何选择。 |
+| 理由      | 未进行任何选择。 |
 | 分配起始列        | B                     |
 | 分配结束列          | BASE                  |
-| 预算标题      | BASE+1 到结束列  |
 
 输入信息后，用户单击 **确定**。 之后该用户双击列 C 中的列标题单元格以打开 **列标题** 对话框，然后输入以下信息。
 
@@ -245,9 +244,9 @@ ms.locfileid: "4687222"
 | 列标题文本 | 预算                |
 | 插入自动图文集    | 未进行任何选择。 |
 | 格式选项     | 方框                   |
-| 对齐方式      | 未进行任何选择。 |
-| 分配起始列        | C                     |
-| 分配结束列          | BASE+2                |
+| 理由      | 未进行任何选择。 |
+| 分配起始列        | BASE+1                |
+| 分配结束列          | 一                     |
 
 现在，每次生成报表时，包含实际数据的列上将打印“实际”一词，包含预算预测的列上将打印“预算”一词。 此外，将每个月对列数调整一次。
 
@@ -599,6 +598,3 @@ ms.locfileid: "4687222"
 [财务报表设计器中的行定义](row-definitions-financial-reporting.md)
 
 [财务申报中的高级格式设置选项](advanced-formatting-options-financial-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

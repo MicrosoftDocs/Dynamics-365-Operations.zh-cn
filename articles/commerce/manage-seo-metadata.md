@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 74229628e48ffb8ac974acd868e325eeca77d91e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c7cf9e76ffb30ee5c8bba318b2644e67c757bff0
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410468"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097407"
 ---
 # <a name="manage-seo-metadata"></a>管理 SEO 元数据
 
@@ -94,7 +93,6 @@ Dynamics 365 Commerce 允许您管理单个页面的 SEO 元数据。 可在页�
 
 [丰富类别登陆页面](enrich-category-page.md)
 
-[验证页面内容可访问性](verify-accessibility.md)
+[验证页面内容的可访问性](verify-accessibility.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[基于 URL 参数创建动态电子商务页面](create-dynamic-pages.md)

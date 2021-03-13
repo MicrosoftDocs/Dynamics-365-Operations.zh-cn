@@ -2,7 +2,7 @@
 title: 创建重复性数据导出应用
 description: 本文介绍如何创建按重复执行的计划从 Microsoft Dynamics 365 Human Resources 导出数据的 Microsoft Azure 逻辑应用。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 97972d2179c42e9d2d672cbebb75643ef0a02a62
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417498"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111608"
 ---
 # <a name="create-a-recurring-data-export-app"></a>创建重复性数据导出应用
 
@@ -160,7 +160,7 @@ ms.locfileid: "4417498"
 
         - **方法：** POST
         - **请求的 URL：** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
-        - **请求的正文：** {"executionId": body('GetExportedPackageURL')?['value']}
+        - **请求的正文：**{"executionId": body('GetExportedPackageURL')?['value']}
 
         ![GetExportedPackageURL 操作](media/integration-logic-app-get-exported-package-step.png)
 
@@ -205,6 +205,3 @@ ms.locfileid: "4417498"
 在本教程中，您学习了如何使用逻辑应用从 Human Resources 导出数据并将导出的数据保存到 OneDrive for Business 文件夹。 您可以根据需要修改本教程的步骤以适合您的业务需求。
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

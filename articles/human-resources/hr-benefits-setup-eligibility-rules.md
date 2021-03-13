@@ -2,7 +2,7 @@
 title: 配置资格规则和选项
 description: 在 Microsoft Dynamics 365 Human Resources 的“福利管理”中设置资格规则和选项。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 70054acafc3aec35fd985c0ca81e928519ddd0a3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2920a03eaec226b306d03ebf8b899113128c410e
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417410"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111619"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>配置资格规则和选项
 
@@ -176,6 +176,3 @@ ms.locfileid: "4417410"
    | **资格规则** | 选择要应用于福利项目的资格规则。 您将在此页面上的 **资格规则** 选项卡上定义资格规则。 |
    
 4. 选择 **保存**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: 福利 Power BI 内容
-description: 此主题描述福利 Power BI 内容。 它说明如何访问包含的报表，并提供有关用于构建内容的数据模型和实体的信息。
+description: 此主题描述福利 Power BI 内容。
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d0a5fe54bb4f5541f610f8ea76afa7813e3a599a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5a894ebfb79eab4888178c930b9e7d55cf735c91
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687246"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093073"
 ---
 # <a name="benefits-power-bi-content"></a>福利 Power BI 内容
 
@@ -69,6 +69,3 @@ ms.locfileid: "4687246"
 | 员工姓名            | 名字、姓氏和全名                                                                       | 当前员工、已离职的员工、员工趋势 |
 | 员工职务           | 职务和资历日期                                                                                   | 当前员工、已离职的员工、员工趋势 |
 | 员工趋势           | 一段时间的工作人员，人数，公司和职位                                                        | 公司、薪酬、地理位置、员工姓名、报告至、日历偏差、日期、员工职务、人口统计学、雇用、作业、福利 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

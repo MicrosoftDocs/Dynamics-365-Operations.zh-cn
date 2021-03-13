@@ -2,7 +2,7 @@
 title: 配置费率
 description: Microsoft Dynamics 365 Human Resources 中的比率定义雇主和员工向福利缴费的数量。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e397e20b6b6307349020c8dfd238b4b59eeca527
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0f5c2ce14f6a0ff830ce2645496a35fb98d6a6ab
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417482"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111614"
 ---
 # <a name="configure-rates"></a>配置费率
 
@@ -93,6 +93,3 @@ Microsoft Dynamics 365 Human Resources 中的比率定义雇主和员工向福�
    | **弹性信贷吸烟者比率** | 根据为吸烟者的层级定义的计算，福利使用的弹性信贷的数量。 |
 
 5. 选择 **保存**。 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

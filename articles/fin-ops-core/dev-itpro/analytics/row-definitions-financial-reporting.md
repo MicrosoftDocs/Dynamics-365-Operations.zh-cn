@@ -1,6 +1,6 @@
 ---
 title: 财务报表设计器中的行定义
-description: 行定义是报表组件或构建基块，在财务报表上指定每一行的内容。 可将行定义与列定义、报告结构树定义和报表定义组合以创建可由多个公司使用的构建基块组。
+description: 行定义是报表组件或构建基块，在财务报表上指定每一行的内容。
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 214a36a1284756e47aa1d28af99234657f1861c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 274fa4bd137407c504f74335291e4c8e7999625b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688275"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093257"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>财务报表设计器中的行定义
 
@@ -187,6 +187,3 @@ ms.locfileid: "4688275"
 ## <a name="additional-resources"></a>其他资源
 
 [财务报告](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

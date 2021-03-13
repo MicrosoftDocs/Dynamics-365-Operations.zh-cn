@@ -2,7 +2,7 @@
 title: 创建新福利
 description: 该任务将向您显示，如何创建在创建新福利时需要使用的福利元素。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: f9618e62e33655bfc1a0653cb767abe0094d1e79
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2c64bd4eddab0de9db457c6d8d4464303917c438
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417415"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111602"
 ---
 # <a name="create-a-new-benefit"></a>创建新福利
 
@@ -53,6 +53,3 @@ ms.locfileid: "4417415"
 6. 在"有效日期"字段中，输入日期和时间。
 7. 单击“创建福利”。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

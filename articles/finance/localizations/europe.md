@@ -3,24 +3,23 @@ title: 欧洲概览
 description: 此主题提供适用于欧洲的 Microsoft Dynamics 365 Finance 文档资源的链接。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: aca45011b39240da6634ce604cff49697f95a299
+ms.sourcegitcommit: 7cdec5469ff0da145ac4e01caf3287d0627ae2dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512203"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5099891"
 ---
 # <a name="europe-overview"></a>欧洲概览
 
@@ -64,8 +63,9 @@ ms.locfileid: "4512203"
 - [发票签发截止时间](emea-invoice-issue-deadline.md)
 - [发票处理](emea-invoice-processing.md)
 - [签发欧盟入境证](tasks/eur-00012-issue-eu-entry-certificate.md)
-- [支持的电子开票标准](emea-oioubl-standards-electronic-invoicing.md)
-- [原始发票参考（东欧）](tasks/ee-00004-original-invoice-reference.md)
+- [支持的电子开单标准](emea-oioubl-standards-electronic-invoicing.md)
+- [强制生成电子账单](emea-eur-forced-einvoices.md)
+- [原始账单参考（东欧）](tasks/ee-00004-original-invoice-reference.md)
 - [使用增值税 ID 搜索当事方](tasks/eur-00015-party-search-vat-id.md)
 - [付款参考生成工具](tasks/ee-00015-payment-reference-generation-tool.md)
 - [付款单报表](emea-eur-payment-slip-report-giro.md)
@@ -99,6 +99,3 @@ ms.locfileid: "4512203"
 
 - [电子报告概览](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [从 Lifecycle Services 下载电子报告配置](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

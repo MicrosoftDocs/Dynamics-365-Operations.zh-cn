@@ -1,9 +1,9 @@
 ---
 title: 电子报告 (ER) 目标
-description: 本主题提供有关电子报告 (ER) 目标管理、受支持的目标类型以及安全注意事项的信息。
+description: 本主题提供有关电子报告目标管理、受支持的目标类型以及安全注意事项的信息。
 author: nselin
 manager: AnnBe
-ms.date: 04/27/2020
+ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e4da9e09fe9e2c76426a117b6c4d83f5bc33851f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687150"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097273"
 ---
-# <a name="electronic-reporting-er-destinations"></a>电子申报 (ER) 目标
+# <a name="electronic-reporting-er-destinations"></a>电子报告 (ER) 目标
 
 [!include [banner](../includes/banner.md)]
 
@@ -62,7 +62,7 @@ ER 格式配置的默认行为取决于您在 ER 格式启动时指定的执行�
 如果将 **批处理** 选项设置为 **是**，则 ER 格式会在[批](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview)模式下运行。 系统会根据您在 **ER 参数** 对话框的 **在后台运行** 选项卡上指定的参数创建适当的批处理作业。
 
 > [!NOTE]
-> 作业描述已启动以通知您 ER 格式映射运行相关信息。 它还包含已执行的 ER 组件的名称。
+> 作业描述通知您 ER 格式映射运行相关信息。 它还包含已运行的 ER 组件的名称。
 
 [![运行 ER 格式](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
@@ -95,6 +95,8 @@ ER 格式配置的默认行为取决于您在 ER 格式启动时指定的执行�
 例如，您可以使用此功能为用于生成 Excel 格式出站文档的文件组件配置文件目标。 可以配置一个目标 ([存档](er-destination-type-archive.md))，以将原始 Excel 文件存储在 ER 作业归档文件中；可以配置另一个目标([电子邮件](er-destination-type-email.md))，以同时将 Excel 文件[转换](#OutputConversionToPDF)为 PDF 格式，并通过电子邮件发送 PDF 文件。
 
 [![为单个格式元素配置多个目标](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+
+运行 ER 格式时，始终会运行为该格式的组件配置的所有目标。 此外，在 Finance **版本 10.0.17 和更高版本** 中，ER 目标功能已得到改进，现在您可以为单个 ER 格式配置不同的目标集。 此配置将每个集标记为为特定用户操作配置。 ER API [已扩展](er-apis-app10-0-17.md)，因此可以提供用户通过运行 ER 格式执行的操作。 提供的操作代码将传递到 ER 目标。 您可以运行 ER 格式的不同目标，具体取决于提供的操作代码。 有关详细信息，请参阅[配置依赖操作的 ER 目标](er-action-dependent-destinations.md)。
 
 ## <a name="destination-types"></a>目标类型
 
@@ -154,7 +156,7 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 
 ## <a name="output-conversion-to-pdf"></a><a name="OutputConversionToPDF"></a>输出转换为 PDF
 
-您可以使用 PDF 转换选项将 Microsoft Office 格式 (Excel/Word) 的输出转换为 PDF 格式。
+您可以使用 PDF 转换选项将 Microsoft Office（Excel 或 Word）格式的输出转换为 PDF 格式。
 
 ### <a name="make-pdf-conversion-available"></a>使 PDF 转换可用
 
@@ -164,21 +166,20 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 
 ### <a name="applicability"></a>适用性
 
-只能对用于以 Microsoft Office Excel 或 Word 格式（**Excel 文件**）生成输出的文件组件打开 PDF 转换选项。 启用此选项后，以 Office 格式生成的输出会自动转换为 PDF 格式。
+只能对用于以 Office（Excel 或 Word）格式（**Excel 文件**）生成输出的文件组件打开 PDF 转换选项。 启用此选项后，以 Office 格式生成的输出会自动转换为 PDF 格式。
 
 ### <a name="limitations"></a>限制
 
 > [!NOTE]
 > 此功能是预览功能，并受 [Microsoft Dynamics 365 Previews 补充使用条款](https://go.microsoft.com/fwlink/?linkid=2105274)中所描述的使用条款约束。
 
-> [!NOTE]
-> PDF 转换选项仅适用于云部署。
->
-> 生成的 PDF 的最大页数为 300 页。
->
-> 在 Microsoft Dynamics 365 Finance 版本 10.0.9（2020 年 4 月）中，利用 Excel 输出生成的 PDF 文档仅支持横向页面方向。 随着 Dynamics 365 Finance 版本 10.0.10（2020 年 5 月）的发布，配置 ER 目标期间，您可以在利用 Excel 输出生成的 PDF 文档中[指定页面方向](#SelectPdfPageOrientation)。
->
-> 仅 Windows 操作系统的常用系统字体用于不包含嵌入式字体的输出转换。
+PDF 转换选项仅可用于云部署。
+
+生成的 PDF 文档的最大长度为 300 页。
+
+在 Finance **版本 10.0.9** 中，从 Excel 输出生成的 PDF 文档中仅支持横向页面方向。 在 Finance **版本 10.0.10（2020 年 5 月）及更高版本** 中，配置 ER 目标期间，您可以指定从 Excel 输出生成的 PDF 文档的[页面方向](#SelectPdfPageOrientation)。
+
+仅 Windows 操作系统的常用系统字体用于转换不包含嵌入式字体的输出。
 
 ### <a name="use-the-pdf-conversion-option"></a>使用 PDF 转换选项
 
@@ -188,16 +189,16 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">选择 PDF 转换的页面方向</a>
 
-如果您以 Excel 格式生成 ER 配置并将其转换为 PDF 格式，您可以指定 PDF 的页面方向。 当您选择 **转换为 PDF** 复选框以打开文件目标（生成 Excel 格式的输出文件）的 PDF 转换时，**页面方向** 字段在 **PDF 转换设置** 快速选项卡上显示。 在 **页面方向** 字段中，选择首选方向。
+如果您以 Excel 格式生成 ER 配置并将其转换为 PDF 格式，您可以指定 PDF 文档的页面方向。 当您选择 **转换为 PDF** 复选框以打开文件目标（生成 Excel 格式的输出文件）的 PDF 转换时，**页面方向** 字段在 **PDF 转换设置** 快速选项卡上显示。 在 **页面方向** 字段中，选择首选方向。
 
 [![选择 PDF 转换的页面方向](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
-> 若要有选择 PDF 页面方向的选项，您必须安装 Microsoft Dynamics 365 Finance 版本 10.0.10（2020 年 5 月）或更高版本。
+> 若要有选择 PDF 页面方向的选项，您必须安装 Finance 版本 10.0.10 或更高版本。
 >
 > 所选页面方向将应用于以 Excel 格式生成然后转换为 PDF 格式的所有 ER 配置。
 >
-> 如果从 ER 配置以 Word 格式创建了转换后的 PDF，则 PDF 的页面方向将从 Word 文档中获取。
+> 如果将 Word 格式的 ER 配置转换为 PDF 格式，PDF 文档的页面方向将从 Word 文档中获取。
 
 ## <a name="security-considerations"></a>安全考虑
 
@@ -225,7 +226,7 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 
 ### <a name="what-is-the-purpose-of-the-file-destination-in-the-destination-settings-what-does-that-setting-do"></a>目标设置中的文件目标的目的是什么？ 该设置有何作用？
 
-**文件** 目标用于控制对话框。 如果您启用此目标，或如果未为配置定义目标，在创建输出文件后将显示打开或保存对话框。
+当您在交互模式下运行 ER 格式时，**文件** 目标用于控制 Web 浏览器的对话框。 如果您启用此目标，或如果未为配置定义目标，在创建输出文件后将在您的 Web 浏览器中显示打开或保存对话框。
 
 ### <a name="can-you-give-an-example-of-the-formula-that-refers-to-a-vendor-account-that-i-can-send-email-to"></a>能否提供一个引用我可以向其发送电子邮件的供应商帐户的公式的示例？
 
@@ -237,7 +238,6 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 
 ## <a name="additional-resources"></a>其他资源
 
-[电子申报 (ER) 概览](general-electronic-reporting.md)
+[电子报告 (ER) 概览](general-electronic-reporting.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[配置依赖操作的 ER 目标](er-action-dependent-destinations.md)

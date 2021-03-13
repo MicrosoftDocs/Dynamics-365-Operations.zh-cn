@@ -1,7 +1,7 @@
 ---
 title: 实际与预算 Power BI 内容
-description: 此主题描述实际与预算 Power BI 内容。 它说明如何访问内容中包括的报表，并提供有关用于构建内容的数据模型和实体的信息。
-author: ryansandness
+description: 此主题描述实际与预算 Power BI 内容。 说明如何访问报表，并提供有关数据模型的信息。
+author: panolte
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
@@ -12,15 +12,15 @@ ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a185da5055741ac30c7e237ef72d07084644651
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 908b96af5b3d67f265953648edd6aa7ec31556a4
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685264"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093840"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>实际与预算 Power BI 内容
 
@@ -57,6 +57,3 @@ ms.locfileid: "4685264"
 | 分类帐                   | 可用于筛选报表到当前分类帐的分类帐              |
 | 预算代码              | 充当报表筛选依据的预算代码                                                |
 | 法人            | 可用于筛选报表到当前法人的法人 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

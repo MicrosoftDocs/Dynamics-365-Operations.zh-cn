@@ -3,7 +3,7 @@ title: 电子开票附加产品概述
 description: 本主题提供有关 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中的电子开票附加产品的信息。
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: 2c35b810151349384f105d9ac1d93e1885031450
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4440930"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104200"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>电子开票附加产品概述
 
@@ -45,9 +44,9 @@ Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 的电�
 
 要使用电子开票附加产品，您必须从 Microsoft Dynamics Lifecycle Services (LCS) 中的项目安装它。 接下来，按照设置过程打开与 Finance 或 Supply Chain Management 的集成。 有关详细信息，请参阅[开始使用电子开票附加产品](e-invoicing-get-started.md)。
 
-## <a name="availability"></a>可用性
+## <a name="service-availability"></a><a name="availability"></a>服务可用性
 
-最初，电子开票附加产品可通过预览计划供指定客户使用。 之后，预览将向更多客户开放。 最终，此服务将公开发布。 由于满足国家/地区特定要求的功能可能会在发行的不同阶段受到限制，因此您应该始终查看最新文档，这些文档重点介绍了受支持的国家/地区特定解决方案的覆盖范围。
+当前，电子开票附加产品通过预览计划向客户提供，在下一阶段，此服务将正式发布。 由于满足国家/地区特定要求的功能可能会在发行的不同阶段受到限制，因此您应该始终查看最新文档，这些文档重点介绍了受支持的国家/地区特定解决方案的覆盖范围。
 
 电子开票附加产品在以下 Azure 地理区域部署：
 
@@ -76,7 +75,7 @@ Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 的电�
     - 内置、易于扩展且可配置的集成包含适用于多个国家/地区的其他内容
 
     > [!NOTE]
-    > 当前仅支持有限数量的直接提交。 有关详细信息，请参阅本主题前面的[可用性](#availability)一节。 支持会在将来扩大。
+    > 当前仅支持有限数量的直接提交。 有关详细信息，请参阅本主题前面的[服务可用性](#availability)一节。 支持会在将来扩大。
 
 - 处理 Web 服务的响应，包括可配置的异常消息处理
 - 支持电子签名（例如，使用 XMLDSig 签名算法）
@@ -104,15 +103,9 @@ Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 的电�
 ![电子开票附加产品的数据流](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>隐私声明
-启用和使用电子开票可能需要发送有限的数据，其中包括组织税务登记 ID。 这将被传输到税务机构授权的第三方机构，以便以与这些政府的 Web 服务集成所需的预定义格式发送电子发票。 从这些外部系统导入到此 Dynamics 365 在线服务的数据受我们的[隐私声明](https://go.microsoft.com/fwlink/?LinkId=512132)的约束。 有关详细信息，请查阅国家/地区特定功能文档中的“隐私声明”部分。
+启用和使用电子开票附加产品可能需要发送有限的数据，其中包括组织税务登记 ID。 这将被传输到税务机构授权的第三方机构，以便以与这些政府的 Web 服务集成所需的预定义格式发送电子发票。 从这些外部系统导入到此 Dynamics 365 在线服务的数据受我们的[隐私声明](https://go.microsoft.com/fwlink/?LinkId=512132)的约束。 有关详细信息，请查阅国家/地区特定功能文档中的“隐私声明”部分。
 
 ## <a name="additional-resources"></a>其他资源
-
-- [开始使用电子开票附加产品](e-invoicing-get-started.md)
-- [开始使用适用于巴西的电子开票附加产品](e-invoicing-bra-get-started.md)
-- [开始使用适用于墨西哥的电子开票附加产品](e-invoicing-mex-get-started.md)
-- [开始使用适用于意大利的电子开票附加产品](e-invoicing-ita-get-started.md)
-- [设置电子开票附加产品](e-invoicing-setup.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [服务管理](e-invoicing-service-administration.md)
+- [在 RCS 中配置电子发票](e-invoicing-configuration-rcs.md)
+- [在 Finance 和 Supply Chain Management 中开具电子发票](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)

@@ -2,7 +2,7 @@
 title: 报告选项
 description: 本文说明如何解决客户想要自定义 Microsoft Dynamics 365 Human Resources 报表或创建新报表的问题。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51d84df5c3c29510e2742148b8c260a2cf402639
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 830c8c32128a8dfc1b009557afb272e48ae3a1ff
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527709"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111604"
 ---
 # <a name="reporting-options"></a>报告选项
 
@@ -42,13 +42,10 @@ ms.locfileid: "4527709"
 
 **解决方案**
 
-- 流向 Common Data Service 的 Human Resources 数据可以通过 Power Apps Common Data Service 连接器报告给 Power BI Desktop。 请注意，Common Data Service 包含 Human Resources 数据的子集。 有关 Power BI 和仪表板的详细信息，请参阅[使用 Power Apps Common Data Service 创建 Power BI 报表和仪表板](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi)。
+- 流向 Dataverse 的 Human Resources 数据可以通过 Power Apps Dataverse 连接器报告给 Power BI Desktop。 请注意，Dataverse 包含 Human Resources 数据的子集。 有关 Power BI 和仪表板的详细信息，请参阅[使用 Power Apps Common Data Service 创建 Power BI 报表和仪表板](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi)。
 - 电子申报 (ER) 对 Human Resources 中的某些报表可用。 客户驱动的自定义可以通过 ER 配置选项完成。
 - 数据可以使用 Human Resources 通过Microsoft Office 集成提供的不同数据实体导出到 Microsoft Excel 或 Microsoft Word。
 
 **长期解决方案**
 
-将推出更多 Power BI 选项，更多数据和实体将成为 Common Data Service 的一部分。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+将推出更多 Power BI 选项，更多数据和实体将成为 Dataverse 的一部分。

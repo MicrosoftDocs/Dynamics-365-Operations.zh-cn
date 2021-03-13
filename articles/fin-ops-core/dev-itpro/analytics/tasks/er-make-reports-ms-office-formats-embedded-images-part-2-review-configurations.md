@@ -1,6 +1,6 @@
 ---
 title: 检查配置以生成 Office 格式的包含嵌入图像的报表
-description: 若要完成这些步骤，必须首先完成“ER 创建包含嵌入图像的 MS Office 格式报表（第 1 部分 - 设置参数）”任务指南中的步骤。
+description: 本主题介绍如何设计报告配置以生成包含嵌入图像的电子文档。 （第 1 部分 - 设置参数）。
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c41ff1ba99411b97ea2b5d9f31bdee7c7701315
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3eee6300350dd96c34f2eab44704d1895e6171ff
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684347"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093637"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>检查配置以生成 Office 格式的包含嵌入图像的报表
 
@@ -91,6 +91,3 @@ ms.locfileid: "4684347"
     * 出于测试目的创建报表时，其中将包含预打印支票表中的一些标签。 但是实际打印时将不打印这些标签，因为预打印的表已包含这些标签。  
 15. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

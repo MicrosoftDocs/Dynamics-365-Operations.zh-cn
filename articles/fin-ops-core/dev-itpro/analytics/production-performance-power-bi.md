@@ -1,6 +1,6 @@
 ---
 title: 生产绩效 Power BI 内容
-description: 此主题介绍生产绩效 Power BI 内容中包含的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+description: 此主题介绍生产绩效 Power BI 内容中包含的内容。
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 661617ea7e51ac5cacdd5a08ee52f6a6e43b44be
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c815a2e37f9882d695bf170a806301a3145d0f06
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686678"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094204"
 ---
 # <a name="production-performance-power-bi-content"></a>生产绩效 Power BI 内容
 
@@ -128,6 +128,3 @@ Power BI 内容突出显示组织按时完成全部生产的能力。 基于生�
 | 实体                  | ID 和名称                                                   |
 | 资源                 | 资源 ID、资源名称、资源类型和资源组 |
 | 产品                  | 产品编号、产品名称、物料 ID 和物料组         |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

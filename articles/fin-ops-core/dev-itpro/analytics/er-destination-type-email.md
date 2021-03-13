@@ -1,6 +1,6 @@
 ---
 title: 电子邮件 ER 目标类型
-description: 本主题介绍如何为配置为生成出站文档的电子报告 (ER) 格式的每个文件夹或文件组件配置电子邮件目标。
+description: 本主题说明如何为电子报告 (ER) 格式的每个文件夹或文件组件配置电子邮件目标。
 author: NickSelin
 manager: AnnBe
 ms.date: 12/03/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
-ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
+ms.openlocfilehash: e2e0da1c724269e0956be2f402b34ff376ed1990
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4690118"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094096"
 ---
 # <a name="email-er-destination-type"></a>电子邮件 ER 目标类型
 
@@ -65,8 +65,6 @@ ms.locfileid: "4690118"
 - 在 **电子邮件源** 字段中，选择 **无**。
 - 在 **更多电子邮件，以“;”分隔** 字段中，输入固定电子邮件地址。
 
-![配置固定电子邮件地址](./media/er_destinations-emailfixedaddress.png)
-
 或者，您也可以从为其生成传出文档的一方的联系方式详细信息中获取电子邮件地址。 若要使用非固定电子邮件地址，请在 **电子邮件源** 字段中为文件目标选择相关方的[角色](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles)。 支持以下角色：
 
 - 客户
@@ -92,8 +90,6 @@ ms.locfileid: "4690118"
 
 如果所配置角色的帐号对整个 Microsoft Dynamics 365 Finance 实例是唯一的，则 **电子邮件收件人** 对话框中的 **电子邮件源公司** 字段可以保留为空。
 
-![空“电子邮件源公司”字段](./media/er_destinations-emaildefineaddresssourceformula.png)
-
 或者，您可能会遇到以下情况：[全球通讯录](../../fin-ops/organization-administration/overview-global-address-book.md)中的不同相关方已在不同公司（[法人](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)）按照全部使用同一个帐号以填充所配置角色的方式注册。 在这种情况下，所配置角色的帐号在整个 Finance 实例中不是唯一的。 因此，要明确选择一个相关方，不能仅指定一个帐号。 您还必须指定已注册相关方的范围所属公司以填充所配置角色。 选择 **电子邮件收件人** 对话框中 **电子邮件源公司** 旁边的 **绑定** 按钮（链符号）打开[公式设计器](general-electronic-reporting-formula-designer.md)页面。 然后，您可以使用此页面来配置公式，该公式在运行时返回必须在其范围内找到所需来源的公司的代码。
 
 > [!TIP]
@@ -109,8 +105,6 @@ ms.locfileid: "4690118"
 
 > [!NOTE]
 > 如果在 **目的** 字段中选择了目标，同时将 **主要联系人** 选项设置为了 **是**，则在运行时将使用至少满足一个所配置条件的每封电子邮件。
-
-![配置电子邮件源属性帐户](./media/er_destinations-emaildefineaddresssourceattributes.png)
 
 ### <a name="configuration-email"></a>配置电子邮件
 
@@ -145,6 +139,3 @@ ms.locfileid: "4690118"
 - [电子报告 (ER) 概览](general-electronic-reporting.md)
 - [电子报告 (ER) 目标](electronic-reporting-destinations.md)
 - [电子申报中 (ER) 的公式设计器](general-electronic-reporting-formula-designer.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

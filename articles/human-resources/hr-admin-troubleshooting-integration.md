@@ -2,7 +2,7 @@
 title: 与 Finance 集成的常见问题
 description: 本文说明在 Human Resources 和 Finance 集成中要同步哪些数据。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a94c1269cd81ecdcbdff018ec4a8f90be36f0f3
-ms.sourcegitcommit: 6aa8d6aa8276611967fb6fab44715950de49f6af
+ms.openlocfilehash: 0a6432fb5b04097d81680aed4e940e47f5ff2902
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4589055"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111634"
 ---
 # <a name="integration-with-finance-faq"></a>与 Finance 集成的常见问题
 
@@ -32,7 +32,7 @@ ms.locfileid: "4589055"
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>是否可以在 Power Apps 中编辑 Dynamics 365 Talent 申请用户？
 
-编号 如果您编辑 Talent 申请用户，Human Resources 和 Common Data Service 之间的集成可能会失败。 下表显示 Talent 申请用户的默认设置。
+编号 如果您编辑 Human Resources 应用程序用户，Human Resources 和 Dataverse 之间的集成可能会失败。 下表显示 Talent 申请用户的默认设置。
 
 | 全名 | 申请 ID | Azure AD 对象 ID | 申请 ID URI |
 | --- | --- | --- | --- |
@@ -44,17 +44,17 @@ ms.locfileid: "4589055"
 
 将同步一部分数据。 有关所有实体的列表，请参阅[与 Dynamics 365 Finance 的集成](hr-admin-integration-finance.md)。
 
-## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>为什么我看不到任何数据同步到 Common Data Service？
+## <a name="why-dont-i-see-any-data-synced-to-dataverse"></a>为什么我看不到任何数据同步到 Dataverse？
 
-默认情况下，Common Data Service 集成在不包含提供的演示数据的新环境中处于关闭状态。 默认情况下，在包含演示数据的新环境中将其打开，并且在设置环境后即开始数据同步。 环境准备好可以同步数据后，可以打开集成。 有关详细信息，请参阅[配置 Common Data Service 集成](hr-admin-integration-common-data-service.md)。
+默认情况下，Dataverse 集成在不包含提供的演示数据的新环境中处于关闭状态。 默认情况下，在包含演示数据的新环境中将其打开，并且在设置环境后即开始数据同步。 环境准备好可以同步数据后，可以打开集成。 有关详细信息，请参阅[配置 Dataverse 集成](hr-admin-integration-common-data-service.md)。
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>我可以不使用模板创建新映射吗？
 
-模板是起点。 您可以创建自己的模板，但在创建集成项目时始终需要模板。 有关数据集成器 (DI)、模板和项目的详细信息，请参阅[将数据集成到 Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
+模板是起点。 您可以创建自己的模板，但在创建集成项目时始终需要模板。 有关数据集成器 (DI)、模板和项目的详细信息，请参阅[将数据集成到 Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>我可以映射在 Human Resources 和 Finance 之间转移的财务维度吗？
 
-Financial dimensions 当前不在 Common Data Service 中，因此不是默认模板的一部分。 此实体已计划，但当前未确定发布时间。
+Financial dimensions 当前不在 Dataverse 中，因此不是默认模板的一部分。 此实体已计划，但当前未确定发布时间。
 
 对于位于 Finance 但不存在于 Human Resources 中的数据，请使用 Human Resources 中的 **配置链接** 将两个系统链接在一起。
 
@@ -76,7 +76,7 @@ Financial dimensions 当前不在 Common Data Service 中，因此不是默认�
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>我可以指定将特定实体的哪些字段发送到 Finance 吗？
 
-字段可以在集成任务中添加或删除。 并非 Common Data Service 实体上存在的所有数据字段都从 Human Resources 填充。
+字段可以在集成任务中添加或删除。 并非 Dataverse 表上存在的所有数据字段都从 Human Resources 填充。
 附加数据可以通过 Power Apps 填充。
 
 ![在集成任务中添加或删除字段](media/SpecifyFieldsIncludedInIntegration.png)
@@ -95,7 +95,7 @@ Financial dimensions 当前不在 Common Data Service 中，因此不是默认�
 
 ## <a name="can-i-rerun-the-errored-execution-if-so-will-it-send-a-full-file-or-only-the-changes"></a>我可以重新运行出错的执行吗？ 如果可以，是发送完整文件还是仅更改部分？
 
-数据集成器的首次运行始终是完整运行。 后续运行基于更改跟踪。 在错误运行执行时，它会提取运行作用域内的记录并发出 Common Data Service 中的最近更改。
+数据集成器的首次运行始终是完整运行。 后续运行基于更改跟踪。 在错误运行执行时，它会提取运行作用域内的记录并发出 Dataverse 中的最近更改。
 
 ## <a name="when-i-save-the-project-i-get-the-error-project-has-mapping-errors-what-do-i-do"></a>当我保存项目时，发生错误：“项目存在映射错误”。 我该做什么？
 
@@ -109,15 +109,15 @@ Financial dimensions 当前不在 Common Data Service 中，因此不是默认�
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>我需要转移不是 Microsoft 提供的默认模板一部分的数据。 我可以这样做吗？
 
-可以，字段可以在现有模板中添加或删除。 模板可以修改成包括其他 Common Data Service 实体中的其他数据。 实体必须在 Common Data Service 中才能够包含在模板中。 
+可以，字段可以在现有模板中添加或删除。 模板可以修改成包括其他 Dataverse 表中的其他数据。 实体必须在 Dataverse 中才能够包含在模板中。 
 
 ## <a name="i-just-created-new-finance-and-human-resources-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>我只是创建了新的 Finance 和 Human Resources 环境，但发生错误“数据值违反了完整性约束”。 为什么？
 
 此错误的原因可能包括：
 
-- 数据转移导致源 (Common Data Service) 发生了重复的记录提取。
+- 数据转移导致源 (Dataverse) 发生了重复的记录提取。
 
-- 数据转移在 Finance and Operations 中必填的字段中包含空值。 验证 Common Data Service 中的数据以及是否满足 Finance and Operations 的要求。
+- 数据转移在 Finance and Operations 中必填的字段中包含空值。 验证 Dataverse 中的数据以及是否满足 Finance and Operations 的要求。
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>如果存在执行错误，并且员工 ID 未同步，我如何找到具有失败员工记录的历史作业？
 
@@ -139,27 +139,27 @@ Financial dimensions 当前不在 Common Data Service 中，因此不是默认�
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>集成 Human Resources 和 Finance 之后，我在 Finance 中看不到我的 Human Resources 数据。 我该做什么？
 
-与 Finance 的集成是一个两步流程。 首先，验证 Human Resources 数据在 Common Data Service 中已更新并可用。 这是一个接近实时的同步，可以在 Power Apps 中通过查看数据实体中的数据验证。
+与 Finance 的集成是一个两步流程。 首先，验证 Human Resources 数据在 Dataverse 中已更新并可用。 这是一个接近实时的同步，可以在 Power Apps 中通过查看数据表中的数据验证。
 
-![Common Data Service 中的数据](media/DataInCDS.png)
+![Dataverse 中的数据](media/DataInCDS.png)
 
-如果数据未按预期出现在 Common Data Service 中，请验证集成中是否支持该实体。 若要在 Common Data Service 中包括附加数据，需要 Microsoft 一端进行更改。
+如果数据未按预期出现在 Dataverse 中，请验证集成中是否支持该实体。 若要在 Dataverse 中包括附加数据，需要 Microsoft 一端进行更改。
 
-如果实体受支持，且数据在 Common Data Service 中可用，请验证映射在数据集成器中是正确的。 如果集成器映射看起来正常，则验证数据管理作业是否成功运行。 错误可能在执行批处理作业时发生。 有关数据管理的详细信息，请参阅[数据管理](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)。
+如果实体受支持，且数据在 Dataverse 中可用，请验证映射在数据集成器中是正确的。 如果集成器映射看起来正常，则验证数据管理作业是否成功运行。 错误可能在执行批处理作业时发生。 有关数据管理的详细信息，请参阅[数据管理](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)。
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>我在将员工地址导入 Finance 之后，这些地址不正确。 我应该怎么做？
 
-**位置 ID** 的编号规则在 Human Resources 和 Finance 中使用相同模式。 编号规则在两端都需要是唯一的，以便在将数据从 Common Data Service 集成到 Finance and Operations 时没有地址冲突。
+**位置 ID** 的编号规则在 Human Resources 和 Finance 中使用相同模式。 编号规则在两端都需要是唯一的，以便在将数据从 Dataverse 集成到 Finance and Operations 时没有地址冲突。
 
 在实施 Human Resources 时，请验证编号规则在 Human Resources 和 Finance 中不同。 验证数据可以在两个系统中维护的情况的所有编号规则是不同的。
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>当创建连接集时，我无法在“连接”下拉列表中看到连接。 我该做什么？
 
-请确保在创建连接时，您选择的是 Dynamics 365 Finance 和 Common Data Service。
+请确保在创建连接时，您选择的是 Dynamics 365 Finance 和 Dataverse。
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>当同步雇佣时，发生错误“CompanyInfo_FK 不存在”或“未在相关表‘雇佣’中找到字段‘雇佣结束日期’中的值‘12/31/2154 11:59:59 pm’”。我应该怎么做？
 
-确保您在映射到正确的法人。 法人同步不是默认模板的一部分，因此，Human Resources 和 Common Data Service 中存在的每个法人也会出现在 Finance 中。
+确保您在映射到正确的法人。 法人同步不是默认模板的一部分，因此，Human Resources 和 Dataverse 中存在的每个法人也会出现在 Finance 中。
 此外，还请确保您为关联的连接集选择了正确的法人。
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>在设置我的项目后，Finance 的字段映射似乎是空的。 我应该怎么做？
@@ -172,15 +172,12 @@ Financial dimensions 当前不在 Common Data Service 中，因此不是默认�
 
 - 数据集成器 (DI)： 
 
-  - [将数据集成到 Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [将数据集成到 Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
   - [数据集成器错误管理和故障排除](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [响应 Power Apps、Microsoft Power Automate 和 Common Data Service 中系统生成日志的 DSR 请求](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [响应 Power Apps、Microsoft Power Automate 和 Dataverse 中系统生成日志的 DSR 请求](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - 数据管理：
 
   - [数据管理](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

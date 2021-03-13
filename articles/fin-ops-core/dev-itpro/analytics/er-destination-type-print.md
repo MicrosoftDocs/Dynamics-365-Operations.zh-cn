@@ -1,6 +1,6 @@
 ---
 title: 打印机 ER 目标类型
-description: 本主题说明如何为配置为以 PDF 或 Microsoft Office 格式 (Excel\Word) 生成出站文档的电子报告 (ER) 格式的每个文件夹或文件组件配置打印机目标。
+description: 本主题说明如何为电子报告 (ER) 格式的每个文件夹或文件组件配置打印机目标。
 author: NickSelin
 manager: AnnBe
 ms.date: 03/17/2020
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b7a279dcb30e7681ae654ab17d898a5364391d57
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c6e298f62ec69f349eb713d66313e535c7e01881
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679598"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094071"
 ---
-# <a name="printer-destination"></a><a name="PrinterDestinationType"></a> 打印机目标
+# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>打印机目标
 
 [!include [banner](../includes/banner.md)]
 
@@ -70,6 +70,3 @@ ms.locfileid: "4679598"
 
 - [电子报告 (ER) 概览](general-electronic-reporting.md)
 - [电子报告 (ER) 目标](electronic-reporting-destinations.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

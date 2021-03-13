@@ -2,7 +2,7 @@
 title: 复制实例
 description: 您可以使用 Microsoft Dynamics Lifecycle Services (LCS) 将 Microsoft Dynamics 365 Human Resources 数据库复制到沙盒环境。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: a62cee979fc8d986102c3b774cd937a24bdd7439
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527829"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111623"
 ---
 # <a name="copy-an-instance"></a>复制实例
 
@@ -41,7 +41,7 @@ ms.locfileid: "4527829"
 
 - 复制 Human Resources 数据库时，不复制 Microsoft Power Apps 环境中包含的元素（应用或数据）。 有关如何在 Power Apps 环境中复制元素的信息，请参阅[复制环境](https://docs.microsoft.com/power-platform/admin/copy-environment)。 您要覆盖的 Power Apps 环境必须是沙盒环境。 您必须是全局租户管理员才能将 Power Apps 生产环境更改为沙盒环境。 有关更改 Power Apps 环境的详细信息，请参阅[切换实例](https://docs.microsoft.com/dynamics365/admin/switch-instance)。
 
-- 如果将实例复制到沙盒环境中，并想要将沙盒环境与 Common Data Service 集成，必须将自定义字段重新应用于 Common Data Service 实体。 请参阅[将自定义字段应用于 Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service)。
+- 如果将实例复制到沙盒环境中，并想要将沙盒环境与 Dataverse 集成，必须将自定义字段重新应用于 Dataverse 表。 请参阅[将自定义字段应用于 Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service)。
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>复制 Human Resources 数据库的影响
 
@@ -80,7 +80,7 @@ ms.locfileid: "4527829"
 
 6. 选择要复制的 Power Apps 环境，然后选择 **复制**。
 
-7. 复制过程完成后，登录到目标实例，然后启用 Common Data Service 集成。 有关详细信息和说明，请参阅[配置 Common Data Service 集成](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration)。
+7. 复制过程完成后，登录到目标实例，然后启用 Dataverse 集成。 有关详细信息和说明，请参阅[配置 Dataverse 集成](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration)。
 
 ## <a name="data-elements-and-statuses"></a>数据元素和状态
 
@@ -122,11 +122,11 @@ ms.locfileid: "4527829"
 
 目标沙盒环境中的所有非管理员用户均会被禁用，以防止在沙盒环境中进行不必要的登录。 管理员可以根据需要重新启用用户。
 
-## <a name="apply-custom-fields-to-common-data-service"></a>将自定义字段应用于 Common Data Service
+## <a name="apply-custom-fields-to-dataverse"></a>将自定义字段应用于 Dataverse
 
-如果将实例复制到沙盒环境中，并想要将沙盒环境与 Common Data Service 集成，必须将自定义字段重新应用于 Common Data Service 实体。
+如果将实例复制到沙盒环境中，并想要将沙盒环境与 Dataverse 集成，必须将自定义字段重新应用于 Dataverse 表。
 
-对于在 Common Data Service 实体上公开的每个自定义字段，请执行以下步骤：
+对于在 Dataverse 表上公开的每个自定义字段，请执行以下步骤：
 
 1. 转到自定义字段，然后选择 **编辑**。
 
@@ -140,7 +140,7 @@ ms.locfileid: "4527829"
 
 6. 再次选择 **应用更改**。
 
-取消选择、应用更改、重新选择和应用更改的流程会提示架构在 Common Data Service 中进行更新以包含自定义字段。
+取消选择、应用更改、重新选择和应用更改的流程会提示架构在 Dataverse 中进行更新以包含自定义字段。
 
 有关自定义字段的详细信息，请参阅[创建并使用自定义字段](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)。
 
@@ -150,6 +150,3 @@ ms.locfileid: "4527829"
 [删除实例](hr-admin-setup-remove-instance.md)</br>
 [更新流程](hr-admin-setup-update-process.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

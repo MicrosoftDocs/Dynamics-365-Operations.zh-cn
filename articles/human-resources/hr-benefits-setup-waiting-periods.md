@@ -2,7 +2,7 @@
 title: 配置等待时段
 description: 在 Microsoft Dynamics 365 Human Resources 中，等待天数建立用于福利计划的里程碑。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e1937ab54eb7898afe0fed6659c3ae676626e8ad
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 07ceed65a0346912d4be012a5cec502b0f0a6149
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417470"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111556"
 ---
 # <a name="configure-waiting-periods"></a>配置等待时段
 
@@ -45,6 +45,3 @@ ms.locfileid: "4417470"
    | **等待天数** | 选择要用于计算等待日期的等待天数。 |
 
 4. 选择 **保存**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

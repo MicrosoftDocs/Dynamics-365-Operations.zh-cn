@@ -1,6 +1,6 @@
 ---
 title: ER 将创建的格式的组件映射到数据模型元素（2016 年 11 月）
-description: 以下过程显示属于系统管理员或电子报表开发人员的用户如何将数据模型元素映射到创建的电子申报 (ER) 配置的组件，该配置用于定义付款业务域的电子单据格式。
+description: 本主题介绍如何将数据模型元素映射到所创建的电子报告 (ER) 配置的组件。
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 109a6736196b6ed3d1445a9f1a70c5f2b9d5af58
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 043c66cf3345678aa7750ef50323700384579299
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684323"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093765"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER 将创建的格式的组件映射到数据模型元素（2016 年 11 月）
 
@@ -113,6 +113,3 @@ ms.locfileid: "4684323"
 1. 展开“ISO 国家/地区代码”部分。
     * 每种格式访问可通过识别格式适用的特定国家/地区来设定限制。 如果特定格式的国家/地区列表为空，此格式可供所有公司使用。 在该国家/地区列表中插入某些 ISO 国家/地区代码时，此格式仅可以在其主要地址位于该国家/地区中的公司中使用。  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

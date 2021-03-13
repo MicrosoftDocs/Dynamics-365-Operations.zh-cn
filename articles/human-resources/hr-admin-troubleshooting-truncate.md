@@ -2,7 +2,7 @@
 title: 避免职位层次结构的文本截断并导出到 Visio
 description: 本文说明如何解决当客户在 Microsoft Dynamics 365 Human Resources 中查看职位层次结构时出现个人和职位名称截断的问题。 文本截断可能使拍摄屏幕快照或打印层次结构很困难。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02fb0098cc6f5a0b353e827653b1c8c96af2470c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0dc91d3165f14c165f75756dc63a3dc8f63149aa
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417464"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111622"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>避免职位层次结构和导出到 Visio 时的文本截断
 
@@ -104,6 +104,3 @@ ms.locfileid: "4417464"
 **其他选项**
 
 在 Human Resources 中，您可能还可以使用 **人员** 工作区来查看某些层次结构相关信息。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

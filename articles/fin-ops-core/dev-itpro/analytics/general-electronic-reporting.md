@@ -1,9 +1,9 @@
 ---
 title: 电子申报 (ER) 概览
-description: 此主题概要介绍了电子申报 (ER) 工具。 内容包含有关重要概念、ER 支持的方案以及作为解决方案的一部分进行设计和发布的格式列表的信息。
+description: 此主题概要介绍了电子报告工具。 介绍作为解决方案一部分的关键概念、支持的场景和格式。
 author: NickSelin
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,14 +17,14 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e40aa168c296af86721862d1751212d16d47bd49
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 33d399c6a9051097d3ea0c7990a37302395d9c77
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682591"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093918"
 ---
-# <a name="electronic-reporting-er-overview"></a>电子申报 (ER) 概览
+# <a name="electronic-reporting-er-overview"></a>电子报告 (ER) 概览
 
 [!include [banner](../includes/banner.md)]
 
@@ -37,6 +37,7 @@ ER 引擎主要面向企业用户，而不是开发人员。 因为配置格式�
 ER 目前支持 TEXT、XML、Microsoft Word 文档和 OPENXML 工作表格式。 但是，扩展接口提供更多支持的格式。
 
 ## <a name="capabilities"></a>功能
+
 ER 引擎具有以下功能：
 
 - 它表示不同域中的电子申报的单一共享工具，并替换超过 20 个用于执行某种 Finance and Operations 电子申报的不同引擎。
@@ -46,6 +47,7 @@ ER 引擎具有以下功能：
 - 它支持通过 Microsoft Dynamics Lifecycle Services (LCS) 为合作伙伴和客户分配格式的功能。
 
 ## <a name="key-concepts"></a>重要概念
+
 ### <a name="components"></a>组件
 
 ER 支持两种组件类型：**数据模型** 和 **格式**。
@@ -71,7 +73,6 @@ ER 支持两种组件类型：**数据模型** 和 **格式**。
 - 它可以使用不同的数据类型作为数据模型的数据源。 例如，它可以使用表、数据实体、方法或枚举。
 - 当某些数据必须在运行时指定时，它支持用户输入可定义为数据模型数据源的参数。
 - 它支持将数据转换到所需的组。 它还能让您对数据进行筛选、排序和汇总，并且还追加通过与 Microsoft Excel 公式类似的公式设计的逻辑计算字段。 有关详细信息，请参阅[电子申报 (ER) 中的公式设计器](general-electronic-reporting-formula-designer.md)。
-
 
 支持传入电子文档的模型映射具有以下功能：
 
@@ -107,6 +108,7 @@ ER 支持两种组件类型：**数据模型** 和 **格式**。
 要运行单个 ER 格式配置和生成传出电子文档，您必须确定格式配置的映射。
 
 #### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>传入电子文档的格式组件
+
 格式组件是在运行时导入的传入文档的方案。 方案由下列元素组成︰
 
 - 定义包含在运行时导入的数据的传入电子文档的结构和内容的格式。 格式组件用于分析不同格式（例如文本和 XML）的传入文档。
@@ -174,7 +176,7 @@ ER 存储库中会存储 ER 配置。 目前支持以下 ER 存储库类型：
 
 **LCS 项目** 存储库允许您访问在存储库登记时选择的特定 LCS 项目（LCS 项目资产库）的配置列表。 ER 让你可以从当前实例将共享配置上载到特定 **LCS 项目** 存储库。 您还可以从 **LCS 项目** 存储库将配置导入到您的 Finance and Operations 应用的当前实例。
 
-**文件系统** 存储库提供对作为 xml 文件位于承载 AOS 服务的计算机的本地文件系统的特定文件夹的配置列表的访问。 所需文件夹在存储库登记阶段选择。 你可以从 **文件系统** 存储库将配置导入到当前实例。 
+**文件系统** 存储库提供对作为 xml 文件位于承载 AOS 服务的计算机的本地文件系统的特定文件夹的配置列表的访问。 所需文件夹在存储库登记阶段选择。 您可以从 **文件系统** 存储库将配置导入到当前实例。 
 
 请注意，存储库类型在以下环境中可访问：
 
@@ -196,6 +198,7 @@ ER 存储库中会存储 ER 配置。 目前支持以下 ER 存储库类型：
 可分别为当前实例的每个配置提供商登记所需的 **LCS 项目**、**文件系统** 和 **监管配置服务 (RCS)** 存储库。 每个存储库可专门针对一个特定配置提供商。
 
 ## <a name="supported-scenarios"></a>支持的方案
+
 ### <a name="building-a-data-model"></a>构建数据模型
 
 ER 提供了一个模型设计器，可以用于为特定业务域构建数据模型。 所有特定于域的业务实体以及这些实体之间的关系可在数据模型以层次结构的形式呈现。 
@@ -216,6 +219,7 @@ ER 提供模型映射设计器，可让用户将他们所设计的数据模型�
 若要详细了解此方案，播放 **ER 定义模型映射并选择数据源** 和 **ER 将数据模型映射到所选数据源** 任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）。
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>配置传入文档的数据模型映射
+
 ER 提供模型映射设计器，可让用户将他们所设计的数据模型映射到特定的目的地。 例如，数据模型可以映射到可更新数据组件（表、数据实体和视图）。 基于映射，使用数据模型的数据在运行时更新。 作为 ER 格式的抽象存储，使用从传入电子文档导入的数据填充数据模型。 
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>将设计的模型组件存储为模型配置
@@ -237,6 +241,7 @@ ER 格式设计器可以用于构建使用 OPENXML 工作表格式的电子单�
 若要详细了解此方案，播放 **ER 创建 OPENXML 格式的报表配置** 任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）以。 作为导入模板的任务指南的一部分，使用 [付款报表模板 (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) Excel 文件作为模板。
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>构建配置以生成使用 Word 文档格式的电子单据
+
 ER 格式设计器可以用于构建使用 Word 文档格式的电子单据。 下图显示这种格式类型的示例。 请注意，此格式重复使用最初为生成 OPENXML 格式的报表输出而设计的现有 ER 配置。
 
 若要详细了解此方案，播放 ER 设计用于生成 Microsoft WORD 格式的报表的配置任务指南（7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677) 业务流程的一部分）。 作为导入模板的任务指南步骤的一部分，使用以下 Word 文件作为 ER 格式的模板：
@@ -245,6 +250,7 @@ ER 格式设计器可以用于构建使用 Word 文档格式的电子单据。 �
 - [付款报表绑定模板 (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>生成配置以从传入的电子文档导入数据
+
 ER 格式设计器可用于描述为 XML 或文本格式的数据导入计划的电子文档。 设计的格式用于分析传入的文档。 ER 格式映射设计器可用于定义设计格式的元素到数据模型的绑定。 
 
 若要详细了解此方案，播放创建从外部文件导入数据所需配置任务指南（7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677) 业务流程的一部分）。 使用以下文件播放本指南：
@@ -265,6 +271,7 @@ ER 能够将设计的格式（与已配置的数据映射一起）存储为当�
 若要详细了解此方案，播放 **ER 使用格式为付款生成电子单据** 任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）。
 
 ## <a name="handling-er-components"></a>处理 ER 组件
+
 ### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>在 LCS 中发布 ER 组件以在外部提供该组件（本地化）
 
 创建的组件（模型或格式）的所有者能够使用 ER 将已完成版本的组件发布到 LCS。 需要当前 ER 配置提供商的 **LCS 项目** 类型的存储库。 当已完成版本的组件的状态从 **已完成** 更改为 **共享** 时，此版本将在 LCS 中发布。 当某个组件已发布到 LCS 时，此组件的所有者将成为支持此组件的服务的提供商。 例如，如果此格式组件可生成法律要求的电子单据（例如，根据本地化方案），将假设此格式与法律更改保持一致，且提供商将发布新的组件版本，无论是否必须满足新出现的法律要求。 若要详细了解此方案，播放 **ER 上载配置到 Lifecycle Services** 任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）以。
@@ -281,92 +288,13 @@ ER 可让您通过从 LCS 导入的当前组件版本（基本）创建（派生
 
 ER 支持在当前草稿版的派生组件中自动采用最新版本的基础组件的更改的功能。 此流程称为 *重定基本值*。 例如，新的法规性更改（将在从 LCS 导入的最新版的格式组件中引入）可自动合并到电子单据此格式的自定义版本中。 任何不能自动合并的更改视为冲突。 这些冲突将在相应组件的设计器工具中呈现以进行手动解决。 若要详细了解此方案，播放 **ER 通过采用该格式的新基础版本来升级格式** 任务指南（**7.5.5.3 获取/开发更改的 IT 服务/解决方案组件 (10683)** 业务流程的一部分）。
 
-## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-application"></a>在 Finance 应用程序中交付的 ER 配置列表
+## <a name="list-of-er-configurations-that-have-been-released-in-finance"></a><a name="list-of-configurations"></a>Finance 中已发布的 ER 配置列表
 
-| 特定于域的数据模型配置︰标题 | 域                | 数据模型依赖格式配置︰标题 | 说明                                                        |
-|--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
-| 审计文件模型                                 | 财务审计       |                                                   |                                                                    |
-|                                                  |                       | 审计文件 (NL)                                   | 荷兰审计文件格式                                  |
-| BAS 模型                                        | 纳税申报         |                                                   |                                                                    |
-|                                                  |                       | BAS（澳大利亚）                                          | 澳大利亚的 BAS 格式                                           |
-| Construction industry scheme 模型               | 纳税申报         |                                                   |                                                                    |
-|                                                  |                       | CIS 每月报表（英国）                           | 英国的 CIS 每月报表格式                   |
-| 催款单模型                          | 电子开票  |                                                   |                                                                    |
-|                                                  |                       | OIOUBL 催款单（丹麦）                     | 丹麦的 OIOUBL 催款单格式                        |
-| 电子分类科目模型（墨西哥）          | 纳税申报         |                                                   |                                                                    |
-|                                                  |                       | 辅助分类帐 XML（墨西哥）                         | 墨西哥帐户报表格式的辅助分类帐交易记录 |
-|                                                  |                       | 会计科目表 XML（墨西哥）                         | 墨西哥会计科目表格式                          |
-|                                                  |                       | 日记帐 XML（墨西哥）                                 | 墨西哥的日记帐交易记录报表格式                      |
-|                                                  |                       | 试算平衡表 XML（墨西哥）                            | 墨西哥试算平衡表报表格式                             |
-| Elster 模型                                     | 纳税申报         |                                                   |                                                                    |
-|                                                  |                       | Elster（德国）                                       | 德国 Elster 格式                                          |
-| 欧盟销售清单模型                              | 贸易报告       |                                                   |                                                                    |
-|                                                  |                       | 欧盟销售清单（德国）                                | 德国欧盟销售清单 TXT 格式                               |
-|                                                  |                       | 欧盟销售清单（丹麦）                                | 丹麦欧盟销售清单 TXT 格式                               |
-|                                                  |                       | 欧盟销售清单（法国）                                | 法国欧盟销售清单 XML 格式                                |
-|                                                  |                       | 欧盟销售清单（荷兰）                                | 荷兰欧盟销售清单 XML 格式                           |
-|                                                  |                       | 欧盟销售清单 TXT（英国）                            | 英国欧盟销售清单 TXT 格式                    |
-|                                                  |                       | 欧盟销售清单 XML（英国）                            | 英国欧盟销售清单 XML 格式                    |
-|                                                  |                       | 按列的欧盟销售清单报表                   | 按列的欧盟销售清单报表                                    |
-|                                                  |                       | 按行的欧盟销售清单报表                      | 按行的欧盟销售清单报表                                       |
-| FEC 核算模型（法国）                        | 纳税申报         |                                                   |                                                                    |
-|                                                  |                       | FEC 会计数据 XML（法国）                      | 法国 FEC 会计数据导出 XML 格式                   |
-| 德国审计文件                                | 财务审计       |                                                   |                                                                    |
-|                                                  |                       | 德国审计文件输出                          | 德国和奥地利审计文件输出                          |
-| 内部统计模型                                  | 贸易报告       |                                                   |                                                                    |
-|                                                  |                       | 内部统计（德国）                                    | 德国内部统计格式                                       |
-|                                                  |                       | 内部统计（丹麦）                                    | 丹麦内部统计格式                                       |
-|                                                  |                       | 内部统计 INTRACOM（法国）                           | 法国内部统计 INTRACOM 格式                               |
-|                                                  |                       | 内部统计 SAISUNIC（法国）                           | 法国内部统计 SAISUNIC 格式                               |
-|                                                  |                       | 内部统计（荷兰）                                    | 荷兰内部统计格式                               |
-|                                                  |                       | 内部统计（英国）                                    | 英国内部统计格式                            |
-|                                                  |                       | 内部统计报表                                  | 内部统计 Excel 控制报表                                     |
-| 客户发票模型                           | 电子开票  |                                                   |                                                                    |
-|                                                  |                       | OIOUBL 项目贷方通知单（丹麦）                   | 丹麦的 OIOUBL 项目贷方通知单格式                      |
-|                                                  |                       | OIOUBL 项目发票（丹麦）                       | 丹麦 OIOUBL 项目发票格式                          |
-|                                                  |                       | OIOUBL 销售贷方通知单（丹麦）                     | 丹麦的 OIOUBL 销售贷方通知单格式                        |
-|                                                  |                       | OIOUBL 销售发票（丹麦）                         | 丹麦的 OIOUBL 销售发票格式                            |
-| OB 申报模型                             | 纳税申报         |                                                   |                                                                    |
-|                                                  |                       | OB 申报（荷兰）                               | 荷兰的 OB 申报格式                          |
-| 付款模型                                    | 付款              |                                                   |                                                                    |
-|                                                  |                       | Betalingsservice（丹麦）                             | 丹麦的 Betalingsservice 付款格式                        |
-|                                                  |                       | 汇票汇款（法国）                  | 法国的汇票汇款格式                      |
-|                                                  |                       | BTL91（荷兰）                                        | 荷兰 BTL91 供应商付款格式                    |
-|                                                  |                       | CFONB Prelevements（法国）                           | 法国的 CFONB 直接借记付款格式                       |
-|                                                  |                       | CFONB Virements（法国）                              | 法国的 CFONB 国内供应商付款格式                    |
-|                                                  |                       | Nordea 供应商（丹麦）                                | 丹麦 Nordea corporate netbank 供应商付款格式         |
-|                                                  |                       | ANZ 直接贷记服务（澳大利亚）                    | 澳大利亚的 ANZ 直接贷记服务格式                 |
-|                                                  |                       | CBA 直接贷记服务（澳大利亚）                    | 澳大利亚的 CBA 直接贷记服务格式                 |
-|                                                  |                       | NAB 直接贷记服务（澳大利亚）                    | 澳大利亚的 NAB 直接贷记服务格式                 |
-|                                                  |                       | STG 直接贷记服务（澳大利亚）                    | 澳大利亚的 STG 直接贷记服务格式                 |
-|                                                  |                       | WBC 直接输入系统（澳大利亚）                      | 澳大利亚的 WBC 直接输入系统格式                   |
-|                                                  |                       | DirectLink（新西兰）                                   | 新西兰的 DirectLink 格式                              |
-|                                                  |                       | JBA 付款文件（日期）                             | 日本 JBA 付款格式                                       |
-|                                                  |                       | ISO20022 贷方转帐                          | 欧洲 SEPA 贷方转帐格式                             |
-|                                                  |                       | ISO20022 贷方转帐（法国）                     | 法国 SEPA 贷方转帐格式                             |
-|                                                  |                       | ISO20022 贷方转帐（德国）                     | 德国 SEPA 贷方转帐格式                            |
-|                                                  |                       | ISO20022 贷方转帐（荷兰）                     | 荷兰 SEPA 贷方转帐格式                    |
-|                                                  |                       | ISO20022 直接借记                             | 欧洲 SEPA 直接借记格式                                |
-|                                                  |                       | ISO20022 直接借记（法国）                        | 法国 SEPA 直接借记格式                                |
-|                                                  |                       | ISO20022 直接借记（德国）                        | 德国 SEPA 直接借记格式                               |
-|                                                  |                       | ISO20022 直接借记（荷兰）                        | 荷兰 SEPA 直接借记格式                       |
-|                                                  |                       | BACS（英国）                                         | 英国的 BACS 供应商付款格式                  |
-| 冲销费用                                   | 纳税申报         |                                                   |                                                                    |
-|                                                  |                       | 冲销费用销售清单                         | 冲销费用销售清单格式                                   |
-| 荷兰 XBRL 集成模式                     | XBRL 报表        |                                                   |                                                                    |
-|                                                  |                       | Semansys XBRL（荷兰）                                | 荷兰 Semansys XBRL 导出格式                    |
-| GAF 模型（马来西亚）                                   | 财务审计       |                                                   |                                                                    |
-|                                                  |                       | GAF 文件（马来西亚）                                     | 马来西亚的 GAF 格式                                         |
-| 供应商帐龄分析表（中国）                         | 供应商数据分析 |                                                   |                                                                    |
-|                                                  |                       | 供应商帐龄分析表格式（中国）                   | 中国供应商帐龄分析表格式                               |
-| 供应商发票申报模型                 | 供应商数据分析 |                                                   |                                                                    |
-|                                                  |                       | 供应商发票申报（冰岛）                   | 冰岛的供应商发票申报格式                      |
-|                                                  |                       | 供应商发票申报报表（冰岛）            | 冰岛的供应商发票申报报表                      |
+Finance 的 ER 配置列表会不断更新。 打开[全局存储库](er-download-configurations-global-repo.md)查看当前支持的 ER 配置列表。 在 **停用详细信息** 快速选项卡上，您可以查看有关已停用或不再维护的配置的信息。 
+
+![配置存储库页上的全局存储库的内容](./media/er-overview-03.gif)
 
 ## <a name="additional-resources"></a>其他资源
 
 - [创建电子报告 (ER) 配置](electronic-reporting-configuration.md)
 - [管理电子申报 (ER) 配置生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

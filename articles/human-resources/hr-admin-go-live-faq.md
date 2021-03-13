@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
-ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.openlocfilehash: c5041d515b261bb3e4b14885e0ec0ce788edf729
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668937"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111615"
 ---
 # <a name="go-live-faq"></a>实施常见问题 
 
@@ -66,7 +66,7 @@ ms.locfileid: "4668937"
 
 - 您可以在自己的 Azure 租户中部署 Azure SQL 数据库，并使用提供您自己的数据库 (BYOD) 功能来同步数据。 有关详细信息，请参阅[提供您自己的数据库 (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database)。
 
-- 您可以使用 Common Data Service 集成以将选定的实体同步到 Common Data Service 数据库。 有关详细信息，请参阅 [Common Data Service 实体](hr-developer-entities.md)。 
+- 您可以使用 Dataverse 集成以将选定的实体同步到 Dataverse 数据库。 有关详细信息，请参阅 [Dataverse 表](hr-developer-entities.md)。 
 
 ## <a name="how-often-is-my-production-database-backed-up"></a>生产数据库多久备份一次？ 
 
@@ -99,6 +99,3 @@ Microsoft 保留足够的备份，以允许过去 14 天内的时间点还原 (P
  ## <a name="see-also"></a>请参阅
 
  [准备实施](hr-admin-go-live-prepare.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

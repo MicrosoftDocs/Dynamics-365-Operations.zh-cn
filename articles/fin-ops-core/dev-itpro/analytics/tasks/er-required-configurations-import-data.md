@@ -1,6 +1,6 @@
 ---
 title: ER 创建从外部文件导入数据所需配置
-description: 以下步骤说明属于系统管理员或电子报表开发人员的用户如何设计电子报表 (ER) 配置，以便将数据从外部文件导入 Microsoft Dynamics 365 Finance 应用程序中。
+description: 本主题介绍如何设计电子报告配置，以将数据从外部文件导入到 Microsoft Dynamics 365 Finance 应用。
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0492fae6cfad505fc9fee5cd20f483c9c6d2a061
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684269"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093715"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER 创建从外部文件导入数据所需配置
 
@@ -254,6 +254,3 @@ ER 让用户可以配置将外部数据文件以 .XML 或 .TXT 格式导入表�
 27. 关闭该页面。
 28. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

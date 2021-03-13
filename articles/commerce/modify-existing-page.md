@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 47a7d17b97631ba469a9b68f5f6cf492ebccde6f
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410566"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097298"
 ---
 # <a name="modify-an-existing-site-page"></a>修改现有的站点页面
 
@@ -86,7 +85,6 @@ ms.locfileid: "4410566"
 
 [丰富类别登陆页面](enrich-category-page.md)
 
-[验证页面内容可访问性](verify-accessibility.md)
+[验证页面内容的可访问性](verify-accessibility.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[基于 URL 参数创建动态电子商务页面](create-dynamic-pages.md)
