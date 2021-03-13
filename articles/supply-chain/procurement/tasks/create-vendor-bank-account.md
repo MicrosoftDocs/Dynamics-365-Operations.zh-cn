@@ -1,7 +1,7 @@
 ---
 title: 创建供应商银行帐户
 description: 此过程演示如何为供应商创建银行帐户。
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts, LogisticsPostalAddressSingle
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f8092ab7f960fd36515afb8448dfe1e262197595
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f3523dec15363bd42219d40ed8048681c56829ac
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422864"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019245"
 ---
 # <a name="create-a-vendor-bank-account"></a>创建供应商银行帐户
 
@@ -58,6 +57,3 @@ ms.locfileid: "4422864"
 25. 在 **银行帐户** 字段中，选择您刚才创建的帐户。
 26. 单击 **保存**。 地址可以从银行组继承（如果已指定），也可以在此处添加。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: 预算计划概览
 description: 此主题介绍了预算计划。 其中包含可帮助您配置预算计划和设置预算计划流程的信息。
-author: ryansandness
+author: panolte
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3744fd823576b597b4550008338e3cc96cb585d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 847ae83102345a8005a8b2a630805d22ccfd736d
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440879"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019220"
 ---
 # <a name="budget-planning-overview"></a>预算计划概览
 
@@ -205,6 +204,3 @@ ms.locfileid: "4440879"
 **操作** 菜单的另一个有用命令是 **查看预算流程状态**。 此命令以图形形式显示流程中的预算计划以及相关数据，例如计划的工作流状态，按金额和按单位汇总，以及指向预算计划本身的单击导航。
 
 [![预算计划流程状态](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

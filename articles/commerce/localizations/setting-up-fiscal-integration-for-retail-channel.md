@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: v-kikozl
+ms.author: epopov
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: b221bfede5d1db8d7970e1efede85e8dba7fe017
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 889340c13d150ce8e3ad49a08b3d7f0c25a4b77a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410366"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017885"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>设置商业渠道的会计整合
 
@@ -226,6 +225,3 @@ ms.locfileid: "4410366"
     1. 选择要更新的布局。
     2. 添加新按钮，并设置 **完成会计登记流程** 按钮属性。
     3. 在 **配送计划** 页，运行 **1090** 作业将更改传输到渠道数据库。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

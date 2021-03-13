@@ -1,7 +1,7 @@
 ---
 title: 针对电子采购发包使用外部目录
 description: 本主题说明如何使用外部目录创建和提交申请。
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchVendorPortalRequests, CatExternalCatalogBasketWizard, CatExternalCatalogPunchoutDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cccd3517f31a82e502052f100e44322ac4cb344f
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 74b49e32684571f622b25dcdd179eeeed9b35365
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423420"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018744"
 ---
 # <a name="use-external-catalogs-for-punchout-e-procurement"></a>针对电子采购发包使用外部目录
 
@@ -55,5 +54,3 @@ ms.locfileid: "4423420"
 
 - [为电子采购发包设置外部目录](set-up-external-catalog-for-punchout.md)
 - [采购 cXML 增强功能](purchasing-cxml-enhancements.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

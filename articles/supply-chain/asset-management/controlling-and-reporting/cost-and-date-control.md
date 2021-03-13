@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetBICostControlWorkspace, EntAssetWorkOrderDateControl, EntAssetWorkOrderForecastCostInfoPart, EntAssetMaintenanceCostTrans, EntAssetWorkOrderDateControlCalcDialog, EntAssetCostControl, EntAssetCostObjectCalendar, EntAssetWorkOrderCostInfoPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 18373ff16b63ea61a3a4bc38ee7fa0b5e33154b5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1de12233ff296f77ba9984fa8d957d4c2bc90b3f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422896"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019067"
 ---
 # <a name="cost-and-date-control"></a>成本和日期控制
 
@@ -108,6 +107,3 @@ ms.locfileid: "4422896"
 ![“工作订单日期控制”中的计算结果示例](media/03-controlling-and-reporting.png)
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

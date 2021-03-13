@@ -1,7 +1,7 @@
 ---
 title: 审核和确认采购订单
 description: 本主题介绍了创建后采购订单所经历的状态，以及对采购订单启用更改管理的效果。
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 04/02/2020
 ms.topic: article
@@ -11,20 +11,19 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchOrderInReview, PurchOrderApproved, PurchOrderInDraft, PurchOrderAssignedToMe, VendPurchOrderJournalListPage, PurchTableWorkflowDropDialog, VendPurchOrderJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3879079e233a881ea0adc1f5e2ba39ab70b372d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: eafce0be07ae21e5bc2db2cf5bb694a9d71a6269
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423318"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018434"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>审核和确认采购订单
 
@@ -99,6 +98,3 @@ ms.locfileid: "4423318"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

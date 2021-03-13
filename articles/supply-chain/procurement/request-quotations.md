@@ -1,7 +1,7 @@
 ---
 title: 询价 (RFQ) 概览
 description: 此主题对询价 (RFQ) 进行简要介绍。 当组织要从几个供应商手中获得他们必须购买的商品或服务的竞争性报价时，他们发出询价。
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd0ee376da52dc3b36ec32859283a410e5b71854
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423412"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016923"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>询价 (RFQ) 概览
 
@@ -247,6 +246,3 @@ ms.locfileid: "4423412"
 | 接受其中一个投标。 （或至少一行） |                          已收到                           |                           已接受                           |                    已收到                    |                    已接受                     |                   已收到                   |                   已接受                    |
 |           拒绝所有其他出价。           |                          已拒绝                           |                           已接受                           |                    已拒绝                    |                    已接受                     |                   已拒绝                   |                   已接受                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

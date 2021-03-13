@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetScheduledExecution
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d46beb04923d06aa8ccec05355731aa1b3f27c5b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6b4b05dfe351bb61dc47c9c2bfe30831ab7b0a16
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422822"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016848"
 ---
 # <a name="dispatch-work-order"></a>分派工作订单
 
@@ -60,6 +59,3 @@ ms.locfileid: "4422822"
 [!NOTE]
 如果要删除对工作订单的计划，在 **所有工作订单** 中选择工作订单，然后单击 **常规** 选项卡上的 **删除计划**。如果删除计划，请记住要手动更新工作订单生命周期状态。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

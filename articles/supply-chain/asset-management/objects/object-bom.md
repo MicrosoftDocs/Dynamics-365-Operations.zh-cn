@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetStandardSparePartsItemGroup, EntAssetObjectBOM
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f42646ae865cd530203c997fd10c8ccd59e7fa2b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: baaf516eb386c3cf63d72bf31800b8731121fe26
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423135"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019505"
 ---
 # <a name="asset-boms"></a>资产 BOM
 
@@ -84,6 +83,3 @@ ms.locfileid: "4423135"
 5. 如果物料将到期，请在 **到期** 字段中输入结束日期。
 6. 在 **物料编号** 字段中，选择物料。 将在 **产品名** 字段中自动输入名称。
 7. 在 **数量** 字段中，输入所用数量。 将自动更新 **单位** 字段。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

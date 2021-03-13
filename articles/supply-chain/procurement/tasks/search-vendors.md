@@ -1,7 +1,7 @@
 ---
 title: 搜索供应商
 description: 了解如何基于特定条件检索供应商。
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendSearchCriterion, VendSearchAddCategory, VendSearchAddReviewCriterionGroup, VendSearchResults, VendSearchAddReviewCriterion
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc28deb979fe8dc4e31befe6d4d5f6f91388f13e
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7caa146532d2bce06b009c45da635327766a88d1
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423425"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020696"
 ---
 # <a name="search-for-vendors"></a>搜索供应商
 
@@ -39,6 +38,3 @@ ms.locfileid: "4423425"
 6. 在“国家/地区”字段中，键入一个值。
 7. 单击“确定”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

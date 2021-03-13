@@ -1,7 +1,7 @@
 ---
 title: 代表他人设置产品订购权限
 description: 此主题介绍如何为工作人员授予代表其他工作人员起草采购申请的权限。
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchReqAuthorization, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 145d8a0e341857bf238fc934cd668ff12b8505b8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 585f5c6cf83ad93b649e3f36e0d486a037915cd4
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423046"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017284"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>代表他人设置产品订购权限
 
@@ -45,6 +44,3 @@ ms.locfileid: "4423046"
 2. 使用快速筛选器查找您刚才添加为申请人的工作人员。
 3. 选择该申请人。 “准备人”列表显示有权代表左窗格中选择的申请人订购物料的人员。  您可以在此处添加更多准备人。 此视图还可用于为申请人授予在非该人的主法人或运营单位的法人和营运单位中创建申请的权限。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

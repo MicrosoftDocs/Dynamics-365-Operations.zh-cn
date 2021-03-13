@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e82026f1d73e7368d93109bc0b895b7368ac84d4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 083ceca9605ad044c172ba7aa23739d170f8c301
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423027"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019296"
 ---
 # <a name="add-fault-to-work-order"></a>将故障添加到工作订单
 
@@ -80,6 +79,3 @@ ms.locfileid: "4423027"
 >[!NOTE]
 >要打印多个资产或资产类型的故障报告，请选择 **资产管理** > **报告** > **资产** > **资产故障**。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: 创建采购协议
 description: 此主题从头至尾指导您创建一份采购协议。
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchAgreement, PurchAgreementCreate, InventItemIdLookupSimple, AgreementConfirmRunForm, PurchAgreementHistory
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1edfd4e56910376d0596eec5eff2af888f7dc98d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 92c9b429a05a2c25672cc14a0c9ee7adfef42631
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422941"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016823"
 ---
 # <a name="create-a-purchase-agreement"></a>创建采购协议
 
@@ -72,6 +71,3 @@ ms.locfileid: "4422941"
 5. 选择 **采购协议确认**。 **预览/打印** 选项允许您生成一份采购协议文件，然后您可以打印或发送给供应商。 如果您随后更新并再次确认该协议，则会在此显示两个版本的协议。  
 6. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetHourControl
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0d2f4e86b5dec84d4a24db6a4f9f9f16f6a765bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc4382d72e032fdfad05f2077ffe8e41e64c6a55
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422892"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018463"
 ---
 # <a name="work-hour-control"></a>工时控制
 
@@ -74,6 +73,3 @@ ms.locfileid: "4422892"
 另外一种创建工时计算的方法是在 **所有资产** 或 **有效资产** 中选择多个资产。 然后单击 **常规** 快速选项卡上的 **工时控制** 按钮。 将在 **要包括的记录** 快速选项卡上的 **资产** 字段中自动插入所选资产。 单击 **资产工时控制** 对话框中的 **确定**，然后将显示所选资产的计算。 可以在 **所有功能位置** 或 **有效功能位置** 中对功能位置执行同样的过程，也可以在 **所有工作订单** 或 **有效工作订单** 中对工作订单执行同样的过程。
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

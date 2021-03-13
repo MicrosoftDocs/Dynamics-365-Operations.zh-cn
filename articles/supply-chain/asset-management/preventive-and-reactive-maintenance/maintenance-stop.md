@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetMaintenanceStopCopy, EntAssetMaintenanceStopObject, EntAssetObjectProductionStop, EntAssetProductionStopType, EntAssetMaintenanceStop
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 617fca55226e216197c385c88a9d7a8e3de03b03
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 986b2ae4cf7f7819caaf35e009fd4735f35e6928
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423030"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017936"
 ---
 # <a name="maintenance-downtime-activities"></a>维护停机时间活动
 
@@ -97,6 +96,3 @@ ms.locfileid: "4423030"
 - 可将资产从一个维护停机时间活动复制到另一个维护停机时间活动。 在 **所有维护停机时间活动** 中，选择 **复制维护停机时间活动** 按钮，在 **源维护停机时间活动** 和 **目标维护停机时间活动** 字段中进行选择，然后单击 **确定**。
 - 在 **所有维护停机时间活动** 中，单击 **维护安排行** 按钮或 **有效工作订单** 按钮打开相关列表和查看与所选维护停机时间活动关联的行。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

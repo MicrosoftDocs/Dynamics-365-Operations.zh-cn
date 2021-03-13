@@ -1,7 +1,7 @@
 ---
 title: 预算计划理由文档
 description: 理由文档让请求预算的人员可以说明为何必须获得特定预算。
-author: ryansandness
+author: panolte
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 259594
 ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 321da6643b421070ddd9f32bddd3e8d72f0adb86
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ca0c291b5d446325f6be6b6bed612bd26e7c640
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440877"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019195"
 ---
 # <a name="budget-planning-justification-documents"></a>预算计划理由文档
 
@@ -72,6 +71,3 @@ ms.locfileid: "4440877"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
