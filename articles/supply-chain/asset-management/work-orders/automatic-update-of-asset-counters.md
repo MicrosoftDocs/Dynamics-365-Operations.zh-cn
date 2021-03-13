@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fcc46fad8d57b7d4d57edfa4f2ae06de923d1c14
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d3e8619439545cf3ea42f84a6dd7ee6ffdf1026e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422820"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021922"
 ---
 # <a name="automatic-update-of-asset-counters"></a>自动更新资产计数器
 
@@ -70,6 +69,3 @@ ms.locfileid: "4422820"
 
 - 您可以设置与另一个计数器相关的计数器。 这样，当更新计数器时，相关的计数器会同时自动更新。 有关如何设置相关计数器的详细信息，请参阅[计数器](../setup-for-objects/counters.md)。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

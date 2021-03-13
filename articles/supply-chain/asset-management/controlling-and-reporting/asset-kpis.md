@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetObjectKPI
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3ebbb1016bafed8ad9fb998fc76152e215c08c3e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f75db96926e72bab80d0a65ce6f0ab3a92590699
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422898"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021772"
 ---
 # <a name="asset-kpis"></a>资产 KPI
 
@@ -90,6 +89,3 @@ ms.locfileid: "4422898"
 - 可以在 **所有资产** 中选择多个资产，然后单击 **常规** 选项卡上的 **资产 KPI** 按钮。再单击 **计算资产 KPI** 对话框中的 **确定** 以计算所选资产的 KPI。  
 - KPI 计算结果未必包含[维护停机时间登记](../work-orders/maintenance-downtime.md)，具体取决于对维护停机时间原因代码的设置和使用。 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

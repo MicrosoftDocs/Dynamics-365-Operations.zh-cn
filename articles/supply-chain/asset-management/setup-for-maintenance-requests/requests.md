@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 350c4f6ed285ea11b2488b37c67f3f8eec122e11
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e8a7efcc2d4033a6cb1306c665af5eb1b0ba522
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423109"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021997"
 ---
 # <a name="maintenance-requests"></a>维护请求
 
@@ -42,6 +41,3 @@ ms.locfileid: "4423109"
 下图显示 **所有维护请求** 列表页的示例。
 
 ![所有维护请求列表页](media/01-setup-for-requests.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
