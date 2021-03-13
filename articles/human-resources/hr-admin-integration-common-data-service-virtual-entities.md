@@ -1,9 +1,9 @@
 ---
-title: 配置 Common Data Service 虚拟实体
-description: 本主题介绍了如何为 Dynamics 365 Human Resources 配置虚拟实体。 生成和更新现有虚拟实体，并分析生成的实体和可用实体。
+title: 配置 Dataverse 虚拟表
+description: 本主题介绍如何为 Dynamics 365 Human Resources 配置虚拟表。 生成和更新现有虚拟表，并分析生成的实体和可用表。
 author: andreabichsel
 manager: tfehr
-ms.date: 11/02/2020
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,49 +18,54 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2b590faeab600d04c9d5303693ec1e9ac682250d
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: cd299b51e38cc30c3e18f3ef9de1f43fa817b840
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645593"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111679"
 ---
-# <a name="configure-common-data-service-virtual-entities"></a>配置 Common Data Service 虚拟实体
+# <a name="configure-dataverse-virtual-tables"></a>配置 Dataverse 虚拟表
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Human Resources 是 Common Data Service 中的虚拟数据源。 它提供 Common Data Service 和 Microsoft Power Platform 中的完全创建、读取、更新和删除 (CRUD) 操作。 虚拟实体的数据未存储在 Common Data Service 中，但存储在应用程序数据库中。 
+Dynamics 365 Human Resources 是 Microsoft Dataverse 中的虚拟数据源。 它提供 Dataverse 和 Microsoft Power Platform 中的完全创建、读取、更新和删除 (CRUD) 操作。 虚拟表的数据未存储在 Dataverse 中，但存储在应用程序数据库中。
 
-若要从 Common Data Service 中对 Human Resources 实体启用 CRUD 操作，您必须将这些实体用作 Common Data Service 中的虚拟实体。 这使您可以从 Common Data Service 和 Microsoft Power Platform 中对 Human Resources 中的数据执行 CRUD 操作。 这些操作还支持对 Human Resources 进行完整业务逻辑验证，以确保将数据写入实体时的数据完整性。
-
-## <a name="available-virtual-entities-for-human-resources"></a>Human Resources 的可用虚拟实体
-
-Human Resources 中的所有 Open Data Protocol (OData) 实体都可用作 Common Data Service 中的虚拟实体。 它们在 Power Platform 中也可用。 您现在可以直接使用具有完全 CRUD 功能的 Human Resources 中的数据构建应用和体验，而无需将数据复制或同步到 Common Data Service。 您可以使用 Power Apps 门户来构建面向外部的网站，以为 Human Resources 中的业务流程启用协作方案。
-
-您可以查看在环境中启用的虚拟实体列表，然后开始使用 **Dynamics 365 HR 虚拟实体** 解决方案的 [Power Apps](https://make.powerapps.com) 中的实体。
-
-![Power Apps 中的 Dynamics 365 HR 虚拟实体](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
-
-## <a name="virtual-entities-versus-natural-entities"></a>虚拟实体与自然实体
-
-Human Resources 的虚拟实体与为 Human Resources 创建的 Common Data Service 自然实体不同。 Human Resources 的自然实体单独生成，并在 Common Data Service 的 HCM 通用解决方案中维护。 对于自然实体，数据存储在 Common Data Service 中并且需要与 Human Resources 应用程序数据库同步。
+若要从 Dataverse 中对 Human Resources 实体启用 CRUD 操作，您必须将这些实体用作 Dataverse 中的虚拟表。 这使您可以从 Dataverse 和 Microsoft Power Platform 中对 Human Resources 中的数据执行 CRUD 操作。 这些操作还支持对 Human Resources 进行完整业务逻辑验证，以确保将数据写入实体时的数据完整性。
 
 > [!NOTE]
-> 有关 Human Resources 的 Common Data Service 自然实体列表，请参阅 [Common Data Service 实体](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)。
+> Human Resources 实体与 Dataverse 表对应。 有关 Dataverse（以前的 Common Data Service）和术语更新的详细信息，请参阅[什么是 Microsoft Dataverse？](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+
+## <a name="available-virtual-tables-for-human-resources"></a>Human Resources 的可用虚拟表
+
+Human Resources 中的所有 Open Data Protocol (OData) 实体都可用作 Dataverse 中的虚拟表。 它们在 Power Platform 中也可用。 您现在可以直接使用具有完全 CRUD 功能的 Human Resources 中的数据构建应用和体验，而无需将数据复制或同步到 Dataverse。 您可以使用 Power Apps 门户来构建面向外部的网站，以为 Human Resources 中的业务流程启用协作方案。
+
+您可以查看在环境中启用的虚拟表列表，然后开始使用 **Dynamics 365 HR 虚拟表** 解决方案的 [Power Apps](https://make.powerapps.com) 中的表。
+
+![Power Apps 中的 Dynamics 365 HR 虚拟表](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
+
+## <a name="virtual-tables-versus-native-tables"></a>虚拟表与本地表
+
+Human Resources 的虚拟表与为 Human Resources 创建的 Dataverse 本地表不同。 
+
+Human Resources 的本地表单独生成，并在 Dataverse 的 HCM 通用解决方案中维护。 对于本地表，数据存储在 Dataverse 中并且需要与 Human Resources 应用程序数据库同步。
+
+> [!NOTE]
+> 要获取 Human Resources 的 Dataverse 本地表列表，请参阅 [Dataverse 表](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)。
 
 ## <a name="setup"></a>设置
 
-请按照以下设置步骤在您的环境中启用虚拟实体。
+请按照以下设置步骤在您的环境中启用虚拟表。
 
-### <a name="enable-virtual-entities-in-human-resources"></a>在 Human Resources 中启用虚拟实体
+### <a name="enable-virtual-tables-in-human-resources"></a>在 Human Resources 中启用虚拟表
 
-首先，您必须在 **功能管理** 工作区中启用虚拟实体。
+首先，您必须在 **功能管理** 工作区中启用虚拟表。
 
 1. 在 Human Resources 中，选择 **系统管理**。
 
 2. 选择 **功能管理** 磁贴。
 
-3. 选择 **HR/CDS 中的虚拟实体支持**，然后选择 **启用**。
+3. 选择 **Dataverse 中的 HR 虚拟表支持**，然后选择 **启用**。
 
 有关启用和禁用功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。
 
@@ -74,13 +79,13 @@ Human Resources 的虚拟实体与为 Human Resources 创建的 Common Data Serv
 
 3. 选择 **新注册**。
 
-4. 在 **名称** 字段中，输入应用的描述性名称。 例如，**Dynamics 365 Human Resources 虚拟实体**。
+4. 在 **名称** 字段中，输入应用的描述性名称。 例如，**Dynamics 365 Human Resources 虚拟表**。
 
 5. 在 **重定向 URI** 字段中，输入 Human Resources 实例的命名空间 URL。
 
 6. 选择 **注册**。
 
-7. 注册完成后，Azure 门户显示应用注册的 **概述** 窗格，其中包括其 **应用程序（客户端）ID**。 此时，请记下 **应用程序（客户端）ID**。 您将在[配置虚拟实体数据源](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source)时输入此信息。
+7. 注册完成后，Azure 门户显示应用注册的 **概述** 窗格，其中包括其 **应用程序（客户端）ID**。 此时，请记下 **应用程序（客户端）ID**。 您将在[配置虚拟表数据源](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source)时输入此信息。
 
 8. 在左侧导航窗格中，选择 **证书和密码**。
 
@@ -88,14 +93,14 @@ Human Resources 的虚拟实体与为 Human Resources 创建的 Common Data Serv
 
 10. 提供描述，选择持续时间，然后选择 **添加**。
 
-11. 记录密码的值。 您将在[配置虚拟实体数据源](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source)时输入此信息。
+11. 记录密码的值。 您将在[配置虚拟表数据源](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source)时输入此信息。
 
     > [!IMPORTANT]
     > 请确保此时记下密码的值。 离开此页面后，密码将不再显示。
 
-### <a name="install-the-dynamics-365-hr-virtual-entity-app"></a>安装 Dynamics 365 HR Virtual Entity 应用
+### <a name="install-the-dynamics-365-hr-virtual-table-app"></a>安装 Dynamics 365 HR 虚拟表应用
 
-在您的 Power Apps 环境中安装 Dynamics 365 HR Virtual Entity 应用以将虚拟实体解决方案包部署到 Common Data Service。
+在您的 Power Apps 环境中安装 Dynamics 365 HR 虚拟表应用以将虚拟表解决方案包部署到 Dataverse。
 
 1. 打开 [Power Platform 管理中心](https://admin.powerplatform.microsoft.com)。
 
@@ -105,7 +110,7 @@ Human Resources 的虚拟实体与为 Human Resources 创建的 Common Data Serv
 
 4. 选择 **安装应用** 操作。
 
-5. 选择 **Dynamics 365 HR Virtual Entity**，然后选择 **下一步**。
+5. 选择 **Dynamics 365 HR 虚拟表**，然后选择 **下一步**。
 
 6. 审查并标记以同意服务条款。
 
@@ -113,11 +118,11 @@ Human Resources 的虚拟实体与为 Human Resources 创建的 Common Data Serv
 
 安装需要几分钟时间。 完成后，请继续执行后续步骤。
 
-![从 Power Platform 管理中心安装 Dynamics 365 HR Virtual Entity 应用](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
+![从 Power Platform 管理中心安装 Dynamics 365 HR 虚拟表应用](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
 
-### <a name="configure-the-virtual-entity-data-source"></a>配置虚拟实体数据源 
+### <a name="configure-the-virtual-table-data-source"></a>配置虚拟表数据源 
 
-下一步是在 Power Apps 环境中配置虚拟实体数据源。 
+下一步是在 Power Apps 环境中配置虚拟表数据源。 
 
 1. 打开 [Power Platform 管理中心](https://admin.powerplatform.microsoft.com)。
 
@@ -161,7 +166,7 @@ Human Resources 的虚拟实体与为 Human Resources 创建的 Common Data Serv
 在 Human Resources 中为两个 Azure AD 应用程序授予权限：
 
 - 在 Microsoft Azure 门户中为您的租户创建的应用
-- 在 Power Apps 环境中安装的 Dynamics 365 HR Virtual Entity 应用 
+- 在 Power Apps 环境中安装的 Dynamics 365 HR 虚拟表应用 
 
 1. 在 Human Resources 中，打开 **Azure Active Directory 应用程序** 页面。
 
@@ -174,48 +179,45 @@ Human Resources 的虚拟实体与为 Human Resources 创建的 Common Data Serv
 3. 选择 **新建** 以创建第二个应用程序记录：
 
     - **客户端 ID**：f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **名称**：Dynamics 365 HR Virtual Entity
+    - **名称**：Dynamics 365 HR 虚拟表
     - 在 **用户 ID** 字段中，在 Human Resources 和 Power Apps 环境中选择具有管理员权限的用户的用户 ID。
 
-## <a name="generate-virtual-entities"></a>生成虚拟实体
+## <a name="generate-virtual-tables"></a>生成虚拟表
 
-设置完成后，您可以选择要在 Common Data Service 实例中生成和启用的虚拟实体。
+设置完成后，您可以选择要在 Dataverse 实例中生成和启用的虚拟表。
 
-1. 在 Human Resources 中，打开 **Common Data Service (CDS) 集成** 页面。
+1. 在 Human Resources 中，打开 **Dataverse 集成** 页面。
 
-2. 选择 **虚拟实体** 选项卡。
+2. 选择 **虚拟表** 选项卡。
 
 > [!NOTE]
-> 在完成所有所需的设置后，**启用虚拟实体** 切换将自动设置为 **是**。 如果切换设置为 **否**，请查看本文档前面部分中的步骤，以确保完成所有先决条件设置。
+> 在完成所有所需的设置后，**启用虚拟表** 切换将自动设置为 **是**。 如果切换设置为 **否**，请查看本文档前面部分中的步骤，以确保完成所有先决条件设置。
 
-3. 选择要在 Common Data Service 中生成的一个或多个实体。
+3. 选择要在 Dataverse 中生成的一个或多个表。
 
 4. 选择 **生成/刷新**。
 
-![Common Data Service 集成](./media/hr-admin-integration-common-data-service-integration.jpg)
+![Dataverse 集成](./media/hr-admin-integration-common-data-service-integration.jpg)
 
-## <a name="check-entity-generation-status"></a>检查实体生成状态
+## <a name="check-table-generation-status"></a>检查表生成状态
 
-虚拟实体通过异步后台进程在 Common Data Service 中生成。 有关进程的更新显示在操作中心中。 有关进程的详细信息（包括错误日志）显示在 **进程自动化** 页面中。
+虚拟表通过异步后台进程在 Dataverse 中生成。 有关进程的更新显示在操作中心中。 有关进程的详细信息（包括错误日志）显示在 **进程自动化** 页面中。
 
 1. 在 Human Resources 中，打开 **进程自动化** 页面。
 
 2. 选择 **后台进程** 选项卡。
 
-3. 选择 **虚拟实体轮询异步操作后台进程**。
+3. 选择 **虚拟表轮询异步操作后台进程**。
 
 4. 选择 **查看最新结果**。
 
-滑出窗格将显示该进程的最新执行结果。 您可以查看进程的日志，包括从 Common Data Service 返回的任何错误。
+滑出窗格将显示该进程的最新执行结果。 您可以查看进程的日志，包括从 Dataverse 返回的任何错误。
 
 ## <a name="see-also"></a>请参阅
 
-[什么是 Common Data Service？](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[实体概述](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[实体关系概述](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[创建和编辑包含来自外部数据源的数据的虚拟实体](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[什么是 Dataverse？](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
+[Dataverse 中的表](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
+[表关系概述](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
+[创建和编辑包含来自外部数据源的数据的虚拟表](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [什么是 Power Apps 门户？](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [在 Power Apps 中创建应用概述](https://docs.microsoft.com/powerapps/maker/)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

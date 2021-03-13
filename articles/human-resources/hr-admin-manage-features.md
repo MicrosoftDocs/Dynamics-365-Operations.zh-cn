@@ -1,8 +1,8 @@
 ---
-title: 管理功能
+title: 管理 Human Resources 中的功能
 description: 了解如何在 Dynamics 365 Human Resources 中打开或关闭新功能。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d400604bf1b044de52457b3f7a6eb858220a1972
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417497"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111682"
 ---
-# <a name="manage-features"></a>管理功能
+# <a name="manage-features-in-human-resources"></a>管理 Human Resources 中的功能
 
 在持续推出适用于 Microsoft Dynamics 365 Human Resources 的新功能时，我们希望让客户尽快体验新功能。 我们提供预览功能，这些功能几乎已针对普通使用准备就绪，并经过了大量测试。 我们正在征求最后一轮的客户反馈和验证，之后就会公开发布。
 
@@ -94,5 +94,3 @@ ms.locfileid: "4417497"
 
 - [Human Resources 中的新增功能](hr-admin-whats-new.md)
 - [Dynamics 365 和 Power Platform 版本计划](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

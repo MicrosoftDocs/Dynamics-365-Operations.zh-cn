@@ -2,7 +2,7 @@
 title: Human Resources 未出现在 Microsoft Dynamics 365 应用中
 description: 本文说明如果客户在 Microsoft Dynamics 365 应用之间看不到 Microsoft Dynamics 365 Human Resources 应用该做什么。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cbf47b4673e1c97965bba7728e5669b7639c4d56
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d78199cf0e76ffd0676a26961a8e646938dc7333
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417436"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111677"
 ---
 # <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Human Resources 未出现在 Microsoft Dynamics 365 应用中
 
@@ -55,6 +55,3 @@ ms.locfileid: "4417436"
     ![同步按钮](media/get-more.png)
 
     在完成同步后，Human Resources 将显示在主页上。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

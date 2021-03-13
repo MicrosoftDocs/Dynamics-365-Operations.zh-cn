@@ -2,7 +2,7 @@
 title: 配置生活事件类型
 description: Microsoft Dynamics 365 Human Resources 使用生命事件类型来定义对更新员工福利登记有效的事件。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417444"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111658"
 ---
 # <a name="configure-life-event-types"></a>配置生活事件类型
 
@@ -88,6 +88,3 @@ Microsoft Dynamics 365 Human Resources 使用生命事件类型来定义对更�
 | **资格规则覆盖到期（不特定于美国）** | 人力资源(高级) > 福利 > 计划 > 福利 >资格规则覆盖 | 使用生命事件更改处理。 例如，如果您将计划的资格规则覆盖的到期日期编辑为今天下午 5:00、下午 5:00 以后的任何时间或之后的几天，然后运行生命事件更改处理，则会出现一条消息，显示资格规则覆盖已过期。 |
 | **新福利计划（不特定于美国）** | 人力资源(高级) > 福利 > 计划 > 新 | <ul><li>资格选项已添加到当前计划</li><li>附加了资格选项的新计划已添加</li></ul></br></br>HR 人员应在这种情况下运行生命事件资格处理。 |
 | **资格规则更改（不特定于美国）** | 人力资源(高级) > 福利 > 规则/选项 > 资格规则 | 使用生命事件资格处理。 记录了 **EhrBenefitEligibilityRule** 记录何时更改了以下值：**UseEmplCategory**、**UseEmplStatus** 或 **UseEmplType**。 仅更新已更改的规则或资格条件已存在的生效事件交易。 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

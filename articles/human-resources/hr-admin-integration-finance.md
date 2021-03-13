@@ -2,7 +2,7 @@
 title: 配置与 Finance 的集成
 description: 本文介绍可用于从 Dynamics 365 Human Resources 和 Dynamics 365 Finance 集成的功能。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 6587b2ced1fdd7a16c6b3f28a34d4a303af9cee5
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527902"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111646"
 ---
 # <a name="configure-integration-with-finance"></a>配置与 Finance 的集成
 
@@ -44,7 +44,7 @@ ms.locfileid: "4527902"
 
 此集成解决方案需要以下版本的 Human Resources 和 Finance： 
 
-- Common Data Service 上的 Dynamics 365 Human Resources
+- Dataverse 上的 Dynamics 365 Human Resources
 - Dynamics 365 Finance 版本 7.2 及更高版本
 
 ## <a name="template-and-tasks"></a>模板和任务
@@ -55,7 +55,7 @@ ms.locfileid: "4527902"
 
 2. 选择 **项目**，然后选择右上角的 **新建项目**。 为要集成到 Finance 中的每个法人创建一个新项目。
 
-3. 选择 **Human Resources（Human Resources Common Data Service 到 Finance）** 将记录从 Human Resources 同步到 Finance。
+3. 选择 **Human Resources（Human Resources Dataverse 到 Finance）** 将记录从 Human Resources 同步到 Finance。
 
 此模板以下基础任务用于将 Human Resources 中的记录与 Finance 同步：
 
@@ -81,14 +81,14 @@ ms.locfileid: "4527902"
 
 ### <a name="job-functions-to-compensation-job-function"></a>工作职能到补偿工作职能
 
-| Common Data Service 实体（源） | Finance 实体（目标） |
+| Dataverse 表（源） | Finance 实体（目标） |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (cdm_Job   Function Name)  | JOBFUNCTIONID   (JOBFUNCTIONID)            |
 | cdm_description   (cdm_description) | DESCRIPTION   (DESCRIPTION)                 |
 
 ### <a name="departments-to-operating-unit"></a>部门到运营单位
 
-| Common Data Service 实体（源）           | Finance 实体（目标） |
+| Dataverse 表（源）           | Finance 实体（目标） |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | NAME (NAME)                                 |
 | cdm_departmentnumber   (cdm_departmentnumber) | OPERATINGUNITNUMBER   (OPERATINGUNITNUMBER) |
@@ -97,7 +97,7 @@ ms.locfileid: "4527902"
 
 ### <a name="job-types-to-compensation-job-type"></a>工作类型到补偿工作类型
 
-| Common Data Service 实体（源）   | Finance 实体（目标） |
+| Dataverse 表（源）   | Finance 实体（目标） |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | JOBTYPEID   (JOBTYPEID)                     |
 | cdm_description   (cdm_description)   | DESCRIPTION   (DESCRIPTION)                 |
@@ -105,7 +105,7 @@ ms.locfileid: "4527902"
 
 ### <a name="jobs-to-jobs"></a>工作到工作
 
-| Common Data Service 实体（源）                           | Finance 实体（目标）           |
+| Dataverse 表（源）                           | Finance 实体（目标）           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | JOBID (JOBID)                                         |
 | cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | MAXIMUMNUMBEROFPOSITIONS   (MAXIMUMNUMBEROFPOSITIONS) |
@@ -115,7 +115,7 @@ ms.locfileid: "4527902"
 
 ### <a name="jobs-to-job-detail"></a>工作到工作详细信息
 
-| Common Data Service 实体（源）                             | Finance 实体（目标） |
+| Dataverse 表（源）                             | Finance 实体（目标） |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | JOBID (JOBID)                               |
 | cdm_jobtypeid.cdm_name   (Job Type (Job Type Name))             | JOBTYPEID   (JOBTYPEID)                     |
@@ -126,7 +126,7 @@ ms.locfileid: "4527902"
 
 ### <a name="position-types-to-position-type"></a>职位类型到职位类型
 
-| Common Data Service 实体（源）       | Finance 实体（目标） |
+| Dataverse 表（源）       | Finance 实体（目标） |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | POSITIONTYPEID   (POSITIONTYPEID)           |
 | cdm_description   (cdm_description)       | DESCRIPTION   (DESCRIPTION)                 |
@@ -134,13 +134,13 @@ ms.locfileid: "4527902"
 
 ### <a name="job-positions-to-base-position"></a>工作职位到基本职位
 
-| Common Data Service 实体（源）           | Finance 实体（目标） |
+| Dataverse 表（源）           | Finance 实体（目标） |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Job Position Number) | POSITIONID (POSITIONID)                      |
 
 ### <a name="job-positions-to-position-details"></a>工作职位到职位详细信息
 
-| Common Data Service 实体（源）              | Finance 实体（目标）       |
+| Dataverse 表（源）              | Finance 实体（目标）       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber  (Job Position Number)                            | POSITIONID (POSITIONID)                             |
 | cdm_jobid.cdm_name   (Job (Name))                                        | JOBID (JOBID)                                    |
@@ -154,7 +154,7 @@ ms.locfileid: "4527902"
 
 ### <a name="job-positions-to-position-durations"></a>工作职位到职位持续时间
 
-| Common Data Service 实体（源）             | Finance 实体（目标） |
+| Dataverse 表（源）             | Finance 实体（目标） |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Job Position Number)   | POSITIONID (POSITIONID)                      |
 | Calculated   Activation (Calculated Activation) | VALIDFROM (VALIDFROM)                        |
@@ -162,7 +162,7 @@ ms.locfileid: "4527902"
 
 ### <a name="job-positions-to-position-hierarchies"></a>工作职位到职位层次结构
 
-| Common Data Service 实体（源）        | Finance 实体（目标） |
+| Dataverse 表（源）        | Finance 实体（目标） |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Job Position Number)                                                 | POSITIONID(POSITIONID)                      |
 | cdm_parentjobpositionid.cdmjobpositionnumber   (cdm_parentjobpositionid.cdmjobpositionnumber) | PARENTPOSITIONID (PARENTPOSITIONID)         |
@@ -172,7 +172,7 @@ ms.locfileid: "4527902"
 
 
 ### <a name="workers-to-worker"></a>工作人员到工作人员
-| Common Data Service 实体（源）           | Finance 实体（目标）       |
+| Dataverse 表（源）           | Finance 实体（目标）       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate   (cdm_birthdate)               | BIRTHDATE   (BIRTHDATE)                           |
 | cdm_gender   (cdm_gender)                     | GENDER (GENDER)                                   |
@@ -191,7 +191,7 @@ ms.locfileid: "4527902"
 
 ### <a name="employments-to-employment"></a>雇用到雇用
 
-| Common Data Service 实体（源）                             | Finance 实体（目标） |
+| Dataverse 表（源）                             | Finance 实体（目标） |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE) |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)     |
@@ -201,7 +201,7 @@ ms.locfileid: "4527902"
 
 ### <a name="employments-to-employment-detail"></a>雇用到雇用详细信息
 
-| Common Data Service 实体（源）                             | Finance 实体（目标）   |
+| Dataverse 表（源）                             | Finance 实体（目标）   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE)   |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)       |
@@ -219,7 +219,7 @@ ms.locfileid: "4527902"
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>职位工作人员分配到职位工作人员分配
 
-| Common Data Service 实体（源）                             | Finance 实体（目标）   |
+| Dataverse 表（源）                             | Finance 实体（目标）   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_jobpositionnumber   (Job Position Number)                   | POSITIONID(POSITIONID)                        |
@@ -228,7 +228,7 @@ ms.locfileid: "4527902"
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>工作人员地址到工作人员邮寄地址 V2
 
-| Common Data Service 实体（源）                             | Finance 实体（目标）   |
+| Dataverse 表（源）                             | Finance 实体（目标）   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSLOCATIONROLES   (ADDRESSLOCATIONROLES) |
@@ -255,5 +255,3 @@ ms.locfileid: "4527902"
 下图显示了数据集成器中的模板映射的一个示例。 
 
 ![模板映射](./media/IntegrationMapping.png)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

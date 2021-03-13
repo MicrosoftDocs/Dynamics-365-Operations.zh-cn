@@ -1,8 +1,8 @@
 ---
-title: 概览
+title: 管理概述
 description: 此管理员指南可帮助您设置、管理并解决 Dynamics 365 Human Resources 的问题。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 38a8845ec4ae4c61ea969efdee60a12cfb644a3b
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527853"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111692"
 ---
-# <a name="overview"></a>概览
+# <a name="administration-overview"></a>管理概述
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,7 +41,7 @@ ms.locfileid: "4527853"
 
 - 设置数据集成
   - [选择数据集成技术](hr-admin-integration-choose-technology.md)
-  - [配置 Common Data Service 集成](hr-admin-integration-common-data-service.md)
+  - [配置 Dataverse 集成](hr-admin-integration-common-data-service.md)
   - [配置与 Finance 的集成](hr-admin-integration-finance.md)
   - [配置与 Dayforce 的集成](hr-admin-integration-dayforce.md)
   - [创建定期数据导出应用](hr-admin-integration-recurring-data-export.md)
@@ -59,7 +59,7 @@ ms.locfileid: "4527853"
   - [用户界面元素](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
   - [辅助功能](../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json)
   - [功能管理概览](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json)
-  - [客户端常见问题解答](../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json)
+  - [客户端常见问题](../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json)
   - [操作搜索](../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json)
   - [高级筛选和查询语法](../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json)
   - [配置和筛选工作区](../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json)
@@ -102,5 +102,3 @@ ms.locfileid: "4527853"
 - [Human Resources 的新增功能或更改](hr-admin-whats-new.md)
 - [开发人员指南](hr-developer-overview.md)
 - [用户指南](hr-hrpro-overview.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

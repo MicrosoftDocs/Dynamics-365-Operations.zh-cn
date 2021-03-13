@@ -2,26 +2,26 @@
 title: 输入工作人员信息
 description: 在招聘人员创建了批量雇用项目并生成职位后，下一步是输入受雇人员的信息。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: HRMMassHireProject, HRMMassHireLine, HcmPersonnelManagementWorkspace
+ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8d139b079c011b60af6d2b896e9edb5b9d27501a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: be38076be7f57ca9072221d1c8b8a524e81ab62b
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417419"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111653"
 ---
 # <a name="enter-worker-information"></a>输入工作人员信息
 
@@ -45,6 +45,3 @@ ms.locfileid: "4417419"
 8. 在列表中，取消标记所选的行。
     * 选择下一个项目职位，并继续输入您雇用的每个工作人员的信息。  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

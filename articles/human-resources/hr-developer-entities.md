@@ -1,9 +1,9 @@
 ---
-title: Common Data Service 实体
-description: Microsoft Dynamics 365 Human Resources 使用 Common Data Service 实现可扩展性和集成方案。
+title: Dataverse 表
+description: Microsoft Dynamics 365 Human Resources 使用 Dataverse 实现可扩展性和集成方案。
 author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+manager: tfehr
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,26 +18,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 988fa0b6d39a49b973626a8a0abe83c546f42297
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 2f075a8e96af55b1363d2d51db377c5b25c38775
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529998"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111670"
 ---
-# <a name="common-data-service-entities"></a>Common Data Service 实体
+# <a name="dataverse-tables"></a>Dataverse 表
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+Microsoft Dynamics 365 Human Resources 使用 Dataverse 实现可扩展性和集成方案。
 
-Microsoft Dynamics 365 Human Resources 使用 Common Data Service 实现可扩展性和集成方案。
+> [!NOTE]
+> Human Resources 实体与 Dataverse 表对应。 有关 Dataverse（以前的 Common Data Service）和术语更新的详细信息，请参阅[什么是 Microsoft Dataverse？](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
 
-有关 Common Data Service 的详细信息，请参阅[什么是 Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)。
+下列 Dataverse 表基于 Human Resources 实体提供。
 
-Common Data Service 中提供以下 Human Resources 实体。
+## <a name="benefit-tables"></a>福利表
 
-## <a name="benefit-entities"></a>福利实体
-
-| 姓名 | 实体 |
+| 姓名 | 表 |
 | --- | --- |
 | 福利计算频率 | cdm_benefitcalculationfrequency |
 | 福利计算频率付薪期间 | cdm_benefitcalculationfrequencypayperiod |
@@ -47,9 +46,9 @@ Common Data Service 中提供以下 Human Resources 实体。
 | 福利计划 | cdm_benefitplan（未启用自定义字段支持） |
 | 福利类型 | cdm_benefittype |
 
-## <a name="business-process-tasks-entities"></a>业务流程任务实体
+## <a name="business-process-tasks-tables"></a>业务流程任务表
 
-| 姓名 | 实体 |
+| 姓名 | 表 |
 | --- | --- |
 | 业务流程日历 | cdm_businessprocesscalendar |
 | 业务流程组分配 | cdm_businessprocessgroupassignment |
@@ -58,11 +57,11 @@ Common Data Service 中提供以下 Human Resources 实体。
 | 核对清单模板标题 | cdm_businessprocesstemplateheader |
 | 核对清单模板任务 | cdm_businessprocesstemplatetask |
 
-## <a name="compensation-entities"></a>薪酬实体
+## <a name="compensation-tables"></a>薪酬表
 
-| 姓名 | 实体 |
+| 姓名 | 表 |
 | --- | --- |
-| 薪酬固定计划 | cdm_compensationfixedplan |
+| 固定薪酬计划 | cdm_compensationfixedplan |
 | 薪酬网格 | cdm_compensationgrid |
 | 薪酬级别 | cdm_compensationlevel |
 | 薪酬付薪频率 | cdm_compensationpayfrequency |
@@ -77,9 +76,9 @@ Common Data Service 中提供以下 Human Resources 实体。
 | 股份行权规则 | cdm_vestingrule |
 | 工作人员固定薪酬 | cdm_workerfixedcompensation |
 
-## <a name="organization-entities"></a>组织实体
+## <a name="organization-tables"></a>组织表
 
-| 姓名 | 实体 |
+| 姓名 | 表 |
 | --- | --- |
 | 部门 | cdm_department |
 | 雇用 | cdm_employment |
@@ -95,11 +94,11 @@ Common Data Service 中提供以下 Human Resources 实体。
 | 职位 | cdm_title |
 
 > [!NOTE]
-> **职位类型**、**职位工作人员分配** 和 **雇用** 的财务维度提供到 Common Data Service 的单向集成。 财务维度更新现在不能从 Common Data Service 同步到 Human Resources。 
+> **职位类型**、**职位工作人员分配** 和 **雇用** 的财务维度提供到 Dataverse 的单向集成。 财务维度更新现在不能从 Dataverse 同步到 Human Resources。 
 
-## <a name="leave-and-absence-entities"></a>休假和缺勤实体
+## <a name="leave-and-absence-tables"></a>休假和缺勤表
 
-| 姓名 | 实体 |
+| 姓名 | 表 |
 | --- | --- |
 | 休假银行交易记录 | cdm_leavebanktransaction |
 | 休假登记 | cdm_leaveenrollment |
@@ -109,9 +108,9 @@ Common Data Service 中提供以下 Human Resources 实体。
 | 休假类型 | cdm_leavetype |
 | 休假类型原因代码 | cdm_leavetypereasoncode |
 
-## <a name="payroll-entities"></a>工资单实体
+## <a name="payroll-tables"></a>工资表
 
-| 姓名 | 实体 |
+| 姓名 | 表 |
 | --- | --- |
 | 付薪周期 | cdm_paycycle |
 | 付薪期间 | cdm_payperiod |
@@ -119,9 +118,9 @@ Common Data Service 中提供以下 Human Resources 实体。
 | 银行帐户付款 | cdm_bankaccountdisbursement |
 | 税区 | cdm_taxregion |
 
-## <a name="worker-entities"></a>工作人员实体
+## <a name="worker-tables"></a>工作人员表
 
-| 姓名 | 实体 |
+| 姓名 | 表 |
 | --- | --- |
 | 工作线程 | cdm_worker |
 | 工作人员地址 | cdm_workeraddress |
@@ -135,22 +134,22 @@ Common Data Service 中提供以下 Human Resources 实体。
 | 工作日历时间间隔 | cdm_workcalendartimeinterval（未启用自定义字段支持） |
 | 工作人员银行帐户 | cdm_workerbankaccount |
 
-## <a name="worker-setup-entities"></a>工作人员设置实体
+## <a name="worker-setup-tables"></a>工作人员设置表
 
-| 姓名 | 实体 |
+| 姓名 | 表 |
 | --- | --- |
-| 退伍军人身份 | cdm_veteranstatus |
+| 退伍军人状态 | cdm_veteranstatus |
 | 所属种族 | cdm_ethnicorigin |
 | 原因代码 | cdm_reasoncode |
-| 人员标识颁发机构 | cdm_personidentificationissuingagency |
+| 人员身份证明签发机构 | cdm_personidentificationissuingagency |
 
-## <a name="competency-entities"></a>能力实体
+## <a name="competency-tables"></a>能力表
 
-| 姓名 | 实体 |
+| 姓名 | 表 |
 | --- | --- |
 | 技能类型 | cdm_skilltype |
 
-## <a name="entity-relationship-models"></a>实体关系模型
+## <a name="table-relationship-models"></a>表关系模型
 
 ### <a name="worker"></a>工作线程
 
@@ -178,8 +177,9 @@ Common Data Service 中提供以下 Human Resources 实体。
 
 ## <a name="see-also"></a>请参阅
 
-[选择数据集成技术](hr-admin-integration-choose-technology.md)</br>
-[配置 Common Data Service 集成](hr-admin-integration-common-data-service.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[选择数据集成技术](hr-admin-integration-choose-technology.md)<br>
+[配置 Dataverse 集成](hr-admin-integration-common-data-service.md)<br>
+[配置 Dataverse 虚拟表](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Human Resources 虚拟表常见问题解答](hr-admin-virtual-entity-faq.md)<br>
+[什么是 Microsoft Dataverse？](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
+[术语更新](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)

@@ -2,7 +2,7 @@
 title: 将任务指南保存到 LCS 并重新播放它们
 description: 本文说明如何将任务指南保存到 Microsoft Dynamics Lifecycle Services (LCS) 然后重新播放它们。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b55937c0867117809471f50f1987f7bf12a4b25d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c81c345932e0e3dce4b13104222ed9f668a3c460
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417465"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111698"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>将任务指南保存到 LCS 并重新播放它们
 
@@ -63,6 +63,3 @@ Microsoft Dynamics 365 Human Resources 通过 Microsoft Dynamics Lifecycle Servi
 2. 选择 **从 LCS 打开**。
 3. 选择包含保存的任务指南的库和 BPM 节点。
 4. 打开任务指南。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

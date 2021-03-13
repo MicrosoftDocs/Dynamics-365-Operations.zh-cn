@@ -2,7 +2,7 @@
 title: Human Resources 中新增或更改的功能
 description: 每周，我们都会为 Microsoft Dynamics 365 Human Resources 提供新版本。 此处列举的主题详细介绍了每周进行的更改。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 675a3f0faed0ce8be4ce2633585ce8e0cf1c9be7
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: ec952f8c121f97396c135d10258a6431e8f2257e
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669076"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111697"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Human Resources 中新增或更改的功能
 
@@ -49,6 +49,8 @@ ms.locfileid: "4669076"
 
 若要了解 Human Resources 的双周版本的中的新增功能或更改的功能，请参阅以下文章：
 
+[2021 年 1 月 28 日](hr-whats-new-2021-01-28.md)</br>
+[2021 年 1 月 21 日](hr-whats-new-2021-01-21.md)</br>
 [2020 年 12 月 2 日](hr-whats-new-2020-12-02.md)</br>
 [2020 年 10 月 22 日](hr-whats-new-2020-10-22.md)</br>
 [2020 年 9 月 16 日](hr-whats-new-2020-09-16.md)</br>
@@ -79,6 +81,3 @@ ms.locfileid: "4669076"
 [Dynamics 365 Human Resources 2020 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

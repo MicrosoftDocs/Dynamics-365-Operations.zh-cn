@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4fda9d85b459d233e6239f3fcffbb48e596d4085
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527877"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111699"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>与 LinkedIn Talent Hub 集成
 
@@ -127,14 +127,14 @@ ms.locfileid: "4527877"
     - **名称**：输入您之前创建的 Power Apps 安全角色的名称，例如 **LinkedIn Talent Hub HRIS 集成**。
     - **用户 ID**：选择具有在“人员管理”中写入数据的权限的用户。
 
-### <a name="create-the-entity-in-common-data-service"></a>在 Common Data Service 中创建实体
+### <a name="create-the-table-in-dataverse"></a>在 Dataverse 中创建表
 
 > [!IMPORTANT]
-> 与 LinkedIn Talent Hub 的集成取决于适用于 Human Resources 的 Common Data Service 中的虚拟实体。 作为设置中此步骤的先决条件，必须配置虚拟实体。 有关如何配置虚拟实体的信息，请参阅[配置 Common Data Service 虚拟实体](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities)。
+> 与 LinkedIn Talent Hub 的集成取决于适用于 Human Resources 的 Dataverse 中的虚拟表。 作为设置中此步骤的先决条件，必须配置虚拟表。 有关如何配置虚拟表的信息，请参阅[配置 Dataverse 虚拟表](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities)。
 
-1. 在 Human Resources 中，打开 **Common Data Service (CDS) 集成** 页面。
+1. 在 Human Resources 中，打开 **Dataverse 集成** 页面。
 
-2. 选择 **虚拟实体** 选项卡。
+2. 选择 **虚拟表** 选项卡。
 
 3. 按实体标签筛选实体列表以查找 **LinkedIn 导出的应聘者**。
 
@@ -142,7 +142,7 @@ ms.locfileid: "4527877"
 
 ## <a name="exporting-candidate-records"></a>导出应聘者记录
 
-完成设置后，招聘人员和 Human resources (HR) 专业人员可以使用 LinkedIn Talent Hub 中的 **导出到 HRIS** 功能，将雇用的应聘者记录从 LinkedIn Talent Hub 导出到 Human Resources。
+完成设置后，招聘人员和人力资源 (HR) 专业人员可以使用 LinkedIn Talent Hub 中的 **导出到 HRIS** 功能，将雇用的应聘者记录从 LinkedIn Talent Hub 导出到 Human Resources。
 
 ### <a name="export-records-from-linkedin-talent-hub"></a>从 LinkedIn Talent Hub 导出记录
 
@@ -188,8 +188,5 @@ ms.locfileid: "4527877"
 
 ## <a name="see-also"></a>请参阅
 
-[配置 Common Data Service 虚拟实体](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[什么是 Common Data Service？](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[配置 Dataverse 虚拟表](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[什么是 Microsoft Dataverse？](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a3bb6b809560688a7849b60c15a01fd89038e843
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 74a87ddb4ed14042dd4e716ad64bc844a800a0a0
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527426"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111693"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Dynamics 365 Human Resources（2020 年 9 月 16 日）中的新增功能或更改
 
@@ -110,9 +110,9 @@ ms.locfileid: "4527426"
 
 ## <a name="coming-soon"></a>即将推出
 
-### <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service 中包含的核对清单实体
+### <a name="checklist-entities-included-in-dataverse"></a>Dataverse 中包含的核对清单实体
 
-Common Data Service 内很快将为入职、离职、转移和业务流程提供核对清单实体。
+Dataverse 内很快将为入职、离职、转移和业务流程提供核对清单实体。
 
 ### <a name="benefits-management-reason-codes"></a>福利管理原因代码
 
@@ -124,6 +124,3 @@ Common Data Service 内很快将为入职、离职、转移和业务流程提供
 [Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

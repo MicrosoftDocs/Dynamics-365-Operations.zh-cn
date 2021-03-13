@@ -2,7 +2,7 @@
 title: 处理生命事件更改
 description: 在 Microsoft Dynamics 365 Human Resources 中处理生命事件更改以进行生命事件更改。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 39d1e94347809a1756fc4f66e5edc345c70eaf39
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d32d6ba893a99149e27f644ac80e430db3c08fa0
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417408"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111660"
 ---
 # <a name="process-life-event-changes"></a>处理生命事件更改
 
@@ -52,6 +52,3 @@ ms.locfileid: "4417408"
    4. 选择 **确定**。 流程将使用您设置的参数运行。
 
 4. 选择 **确定**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
