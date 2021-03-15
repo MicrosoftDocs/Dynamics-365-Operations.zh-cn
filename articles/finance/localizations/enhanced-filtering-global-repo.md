@@ -45,3 +45,6 @@ ms.locfileid: "5005834"
 [![为业务文档类型应用的筛选器和导入](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
 可以将筛选结果单独或作为一组导入到用户 RCS 存储库或 Dynamics 365 Finance 环境中。 为此，请选择配置组，然后单击 **导入**。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

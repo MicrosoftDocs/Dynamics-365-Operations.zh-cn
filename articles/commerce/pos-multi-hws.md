@@ -153,3 +153,6 @@ Microsoft Dynamics 365 Commerce 通过实现以下方案来支持这些趋势：
 - [在 Android 和 iOS 中安装 POS Hybrid 应用](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 - [适用于 Adyen 的 Dynamics 365 付款连接器](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 - [网络外围设备支持概述](https://go.microsoft.com/fwlink/?linkid=2129965)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

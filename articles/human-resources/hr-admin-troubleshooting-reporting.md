@@ -49,3 +49,6 @@ ms.locfileid: "5111604"
 **长期解决方案**
 
 将推出更多 Power BI 选项，更多数据和实体将成为 Dataverse 的一部分。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

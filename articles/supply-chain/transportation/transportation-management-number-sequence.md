@@ -48,3 +48,6 @@ ms.locfileid: "5004722"
 1. 选择 **编辑**。
 1. 在 **概览** 快速选项卡上，在 **专业编号规则** 字段中选择一个选项。
 1. 关闭该页面。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ ms.locfileid: "4991147"
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>将普通发票保存为模板
 也可以将现有普通发票保存为模板。 从“发票”选项卡选择“保存到模板”时，请为模板提供名称和说明。 如果有同名模板，将看到通知，说明已存在该名称的模板。 仍然可以单击“确定”替换该模板。 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

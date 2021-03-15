@@ -66,3 +66,6 @@ ms.locfileid: "4966947"
 8. 在列表中，单击所选行中的链接。
 9. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ ms.locfileid: "5017334"
 4. 选择所需采购订单的行。 请注意，还选择了此采购订单中的唯一订单行。  
 5. 选择 **确定**。 已向采购订单添加了更多订单行。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

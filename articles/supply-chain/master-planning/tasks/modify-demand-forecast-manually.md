@@ -42,3 +42,6 @@ ms.locfileid: "4999823"
 1. 在 Microsoft Office 中单击 **打开**。
 2. 单击 Excel 中的 **编辑需求预测**。 在 Excel 中，您可以添加、删除和编辑需求预测行。 如果您将无法看到在 Excel 中的数据，需要使用已启用的“登录”选项登录，并且需要信任数据连接应用程序。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

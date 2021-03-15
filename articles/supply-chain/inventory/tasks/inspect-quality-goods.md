@@ -50,3 +50,6 @@ ms.locfileid: "5011514"
 4. 选择 **确定**。
 5. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

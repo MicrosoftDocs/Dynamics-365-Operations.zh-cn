@@ -86,3 +86,6 @@ ms.locfileid: "4797922"
 *列表* 是为可滚动浏览的记录集合提供的名称。 可以通过选择将这些记录提取到页面中。 此操作通常将打开一个网格。
 
 ![下图显示工具栏、网格和列表的示例。](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

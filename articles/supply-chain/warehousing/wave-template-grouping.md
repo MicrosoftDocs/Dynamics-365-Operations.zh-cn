@@ -200,3 +200,6 @@ ms.locfileid: "4998370"
 1. 选择从第三个销售订单创建的波次 ID。
 1. 选择波次 ID 链接打开波次详细信息页。
 1. 请注意，已经将装运添加到了 **波次行** 快速选项卡，以及第一个销售订单的装运。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

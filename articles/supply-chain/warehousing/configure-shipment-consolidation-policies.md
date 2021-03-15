@@ -353,3 +353,6 @@ ms.locfileid: "4996374"
 ## <a name="additional-resources"></a>其他资源
 
 - [装运合并政策](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

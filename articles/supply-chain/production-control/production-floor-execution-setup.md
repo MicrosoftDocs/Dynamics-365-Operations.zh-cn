@@ -79,3 +79,6 @@ ms.locfileid: "4966263"
 默认情况下，如果 12 个小时内没有人使用，生产车间执行界面会自动注销。 然后，Supply Chain Management 用户必须再次登录。 但是，您可以将超时限制最多延长 90 天。
 
 若要延长超时限制，请登录 Supply Chain Management，然后转到 **系统管理 \> 用户 \> 会话扩展**。 指定用于登录设备的 Supply Chain Management 用户帐户，以及会话应保持活动状态的小时数。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

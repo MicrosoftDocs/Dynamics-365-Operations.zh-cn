@@ -40,3 +40,6 @@ ms.locfileid: "4972483"
 > 这些设置不限制价格覆盖操作，因为此操作设置基础价格，不被视为折扣。
 
 [![“阻止折扣”字段](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ ms.locfileid: "4964836"
 
 [在 POS 上更改交货方式](../pos-change-delivery-mode.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

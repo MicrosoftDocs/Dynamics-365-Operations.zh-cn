@@ -105,3 +105,6 @@ ms.locfileid: "4978881"
 - [成本控制工作区](cost-control-workspace.md)
 - [维度层次结构](dimension-hierarchy.md)
 - [设置成本核算内容包的安全性](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

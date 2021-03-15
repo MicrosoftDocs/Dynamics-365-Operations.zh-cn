@@ -66,3 +66,6 @@ ms.locfileid: "5018513"
 
 ![图 1](media/071-setup-for-objects.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

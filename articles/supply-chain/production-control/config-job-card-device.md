@@ -94,3 +94,6 @@ ms.locfileid: "4998970"
 ## <a name="additional-resources"></a>其他资源
 
 [从作业卡设备报告完工入库](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

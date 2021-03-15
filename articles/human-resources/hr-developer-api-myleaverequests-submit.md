@@ -108,3 +108,5 @@ POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespac
 
 - [MyLeaveRequests 概览](hr-developer-api-myleaverequests-overview.md)
 - [身份验证](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

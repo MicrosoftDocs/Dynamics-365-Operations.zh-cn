@@ -88,3 +88,6 @@ ms.locfileid: "5154353"
 - ChartofAccounts
 
 这些实体用于在数据模型中创建计算度量值。 计算的度量值用于计算在内容中使用的关键绩效指标 (KPI) 和报表。 默认情况下，内容提供过去三年和未来一年的数据。 若要在报表和仪表板中包括其他计算，您可以修改 [Microsoft Excel 工作簿](https://docs.microsoft.com/dynamics/s-e/)。 此工作簿是用于创建内容的默认数据模型。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

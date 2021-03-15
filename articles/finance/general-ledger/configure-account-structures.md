@@ -106,3 +106,6 @@ ms.locfileid: "4975883"
 如果对科目结构的新设置或更改感到满意，必须将其激活。 如果为日记帐分配了科目结构，此项激活可能需要运行很长一段时间，因为必须将系统中的所有未过帐交易记录同步到新结构中。 科目结构的变化不影响已过帐交易记录。
 
 有关详细信息，请参阅[计划您的会计科目表](plan-chart-of-accounts.md)、[财务维度](financial-dimensions.md)和[输入科目和维度组合（分段式录入控件）](enter-account-dimension-combinations-segmented-entry-control.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

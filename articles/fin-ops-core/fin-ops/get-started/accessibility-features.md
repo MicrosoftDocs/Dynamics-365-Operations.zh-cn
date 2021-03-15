@@ -97,3 +97,6 @@ ms.locfileid: "4798687"
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>帮助开发人员和客户将可理解的想法与其自定义内容相结合的指导
 
 若要更多了解有关启用辅助功能的 Microsoft 最佳实践，请参阅[窗体、产品和控件中的辅助功能](../../dev-itpro/user-interface/enable-accessibility.md)。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

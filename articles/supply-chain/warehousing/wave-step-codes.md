@@ -92,3 +92,6 @@ ms.locfileid: "4998395"
 6. 在 **波次步骤代码** 字段中，选择在补货模板中选择的波次步骤代码。
 
 请对每个法人执行这些步骤。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

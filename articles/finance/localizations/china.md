@@ -51,3 +51,6 @@ ms.locfileid: "4984887"
 - [Microsoft Dynamics 本地化门户：中国报表](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/China.html)
 - [电子申报概览](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [从 Lifecycle Services 下载电子申报配置](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

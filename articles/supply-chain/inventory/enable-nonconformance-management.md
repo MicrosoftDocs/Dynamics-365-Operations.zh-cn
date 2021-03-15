@@ -53,3 +53,6 @@ ms.locfileid: "4987421"
 [质量管理流程](quality-management-processes.md)
 
 [设置不符合项管理的先决条件](tasks/set-up-prerequisites-nonconformance-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

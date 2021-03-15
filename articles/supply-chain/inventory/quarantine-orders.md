@@ -66,3 +66,6 @@ ms.locfileid: "5011689"
 --------
 
 [库存锁定](inventory-blocking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

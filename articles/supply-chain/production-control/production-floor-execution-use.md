@@ -169,3 +169,6 @@ ms.locfileid: "5077623"
 1. 工作人员通过指南工作以了解任务。
 
 有关如何创建、分配和使用 HoloLens 指南的详细信息，请参阅[为生产中的工作人员提供混合现实指南](instruction-guides-in-production-overview.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

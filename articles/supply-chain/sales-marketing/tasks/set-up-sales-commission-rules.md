@@ -95,3 +95,6 @@ ms.locfileid: "5010710"
 17. 在列表中，选择您先前设置的佣金组。
 18. 选择 **保存**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

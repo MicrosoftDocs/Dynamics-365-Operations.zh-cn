@@ -292,3 +292,6 @@ ms.locfileid: "5104932"
 - 处理波次表记录
 - 仓库中心到缩放单元消息处理器
 - 处理仓库订单行的数量更新请求
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

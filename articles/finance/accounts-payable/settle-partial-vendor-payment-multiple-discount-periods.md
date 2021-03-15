@@ -139,3 +139,6 @@ April 决定支付 495.00，并提取 5.00 现金折扣。 因此，已结算的
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

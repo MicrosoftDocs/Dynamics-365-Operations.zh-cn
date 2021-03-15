@@ -96,3 +96,6 @@ ms.locfileid: "4974252"
     * 指定哪些邮政编码对于此基本费率分配是有效的。
 10. 在 **提货国家/地区** 字段中，键入“美国”。
 11. 选择 **保存**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

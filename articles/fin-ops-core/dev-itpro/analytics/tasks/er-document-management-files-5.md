@@ -96,3 +96,6 @@ ms.locfileid: "5092480"
 7. 单击“确定”。
     * 检查生成的输出。 请注意，除了 XML 格式的发票，还为每个附件创建了一个文件。 附件文件使用二进制格式的压缩输出填充。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ ms.locfileid: "5111633"
 
 1. 转到 [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments)。
 2. 按照[配置 Human Resources](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent) 中的说明创建环境。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

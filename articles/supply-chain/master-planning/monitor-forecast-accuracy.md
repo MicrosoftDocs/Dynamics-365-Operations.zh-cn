@@ -49,3 +49,6 @@ Supply Chain Management 计算以下类型的预测准确性：
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Microsoft FastTrack for Dynamics 365 是我们的客户成功服务，旨在帮�
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>如果您要从 Dynamics AX 2012 升级或从 AX 2009 迁移
 
 如果您是准备从 Microsoft Dynamics AX 2012 升级或从 Microsoft Dynamics AX 2009 迁移的客户，您可能有资格获得更长的试用期。 联系 <daxcf@microsoft.com> 以获取详细信息。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

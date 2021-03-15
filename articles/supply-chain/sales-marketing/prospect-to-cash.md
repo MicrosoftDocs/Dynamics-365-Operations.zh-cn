@@ -81,3 +81,6 @@ ms.locfileid: "4977630"
 
 - Dynamics 365 Sales 版本 1612 (8.2.1.207) (DB 8.2.1.207) online 或更高版本
 - Dynamics 365 Sales 版本 1.15.0.0 或更高版本的从目标客户到现金解决方案。 可从 AppSource 下载此解决方案。 [下载 Dynamics 365 从目标客户到现金](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

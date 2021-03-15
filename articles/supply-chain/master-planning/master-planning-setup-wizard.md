@@ -208,3 +208,6 @@ Contoso Retailer 是时尚行业的一家分销公司。 该公司使用主计�
     - **回答**：“是，按照此主计划中的定义”。 输入了 **1 天**。
 
     Contoso 使用其商店的已审核申请创建计划采购订单来为这些商店补货。 因为每天运行主计划，所以计划中将包含前一天的申请。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

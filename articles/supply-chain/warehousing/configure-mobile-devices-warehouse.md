@@ -438,3 +438,6 @@ ms.locfileid: "4996369"
 [库存状态](../inventory/inventory-statuses.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

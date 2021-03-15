@@ -57,3 +57,6 @@ ms.locfileid: "4964912"
 23. 在“EFT 终端 ID”字段中，输入一个值。
 24. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ ms.locfileid: "4796988"
 + [配置工作流中的并行分支](configure-parallel-branch-workflow.md)
 + [配置行项工作流](configure-line-item-workflow.md)
 + [工作流常见问题](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

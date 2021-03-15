@@ -208,3 +208,6 @@ MPOS 可以在联机模式下运行（当 MPOS 连接到 Commerce Scale Unit 时
 5. 对于其他实体（例如类别、员工和客户），请按照类似流程操作。
 
     [![脱机图像](./media/offline2.png)](./media/offline2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ ms.locfileid: "4796598"
 8. 扩展 **报价单** 后，应用将 `CUSTGROUP != "<company>"` 作为查询字符串的筛选器。
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="CDS 销售报价单标题的编辑查询对话框":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

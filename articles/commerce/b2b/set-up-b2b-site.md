@@ -302,3 +302,6 @@ ms.locfileid: "5035879"
 [内容块模块](../add-hero-module.md)
 
 [产品集合](../product-collection-module-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

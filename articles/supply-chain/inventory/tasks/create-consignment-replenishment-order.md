@@ -61,3 +61,6 @@ ms.locfileid: "5020146"
 3. 选择 **概览**。 已作为供应商拥有的托运库存接收的物料现有可用。 托运补货订单的剩余数量在 **订购总数** 字段中显示。  
 4. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

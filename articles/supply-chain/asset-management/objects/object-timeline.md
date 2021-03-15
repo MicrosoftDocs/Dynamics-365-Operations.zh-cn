@@ -48,3 +48,6 @@ ms.locfileid: "5019497"
 - 工作订单，包括已过帐物料和注释
 - 故障
 - 条件评估
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

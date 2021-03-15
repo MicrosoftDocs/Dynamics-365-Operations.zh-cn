@@ -41,3 +41,6 @@ ms.locfileid: "4992412"
 有关产品生命周期状态的详细信息，请参阅[产品生命周期状态概述](../../pim/product-lifecycle.md)。
 
 有关包括使用产品生命周期状态将产品从主计划和物料清单级别计算中排除的步骤的详细信息，请参阅[创建产品生命周期状态以从主计划中排除产品](../../pim/tasks/exclude-products-master-planning.md)。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

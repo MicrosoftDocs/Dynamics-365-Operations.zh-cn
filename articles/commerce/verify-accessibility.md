@@ -86,3 +86,6 @@ ms.locfileid: "5097357"
 [丰富类别登陆页面](enrich-category-page.md)
 
 [基于 URL 参数创建动态电子商务页面](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

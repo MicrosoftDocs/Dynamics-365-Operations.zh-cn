@@ -135,3 +135,6 @@ ms.locfileid: "4986046"
 [计算零售渠道的库存现有量](calculated-inventory-retail-channels.md)
 
 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

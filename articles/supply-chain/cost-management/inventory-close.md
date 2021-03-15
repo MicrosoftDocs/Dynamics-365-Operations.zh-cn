@@ -86,3 +86,6 @@ ms.locfileid: "4987545"
 > [!NOTE] 
 > 只有最后关闭的库存期间可以重新打开。 若要冲销更早的库存结转，必须一次冲销一个后续库存，从最近的结转开始。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

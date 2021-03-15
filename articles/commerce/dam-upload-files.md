@@ -97,3 +97,6 @@ Commerce 站点构建器的媒体库支持上传非图像或视频的二进制�
 [自定义图像焦点](dam-custom-focal-point.md)
 
 [上传和提供静态文件](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ ms.locfileid: "4965094"
 下图显示了两种状态以及它们之间的关系。
 
 [![试验状态](./media/experimentation_statuses.svg)](./media/experimentation_statuses.svg#lightbox)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

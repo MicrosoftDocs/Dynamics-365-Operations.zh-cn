@@ -159,3 +159,6 @@ ms.locfileid: "4971445"
 
 > [!NOTE]
 > 如果年金类型更改为 **期初年金**，付款将在 1 月而不是 12 月进行。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

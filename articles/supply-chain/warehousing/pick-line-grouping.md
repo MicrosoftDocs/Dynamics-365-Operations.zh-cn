@@ -170,3 +170,6 @@ ms.locfileid: "4989710"
 >   - 有未完成的补货工作的工作行
 >   - 过量领料
 >   - 物料重新分配的领料短缺
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

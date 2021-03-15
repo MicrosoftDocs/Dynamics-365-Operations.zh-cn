@@ -51,3 +51,6 @@ ms.locfileid: "5011139"
 4. 在列表中，单击所选行中的链接。
     * 过帐“完工入库日记帐”。 如果您想要对日记帐作调整，您可以在可进行更改的位置手动创建新日记帐。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

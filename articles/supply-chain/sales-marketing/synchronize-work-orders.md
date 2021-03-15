@@ -76,3 +76,6 @@ ms.locfileid: "5010792"
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>项目内的工作订单（Field Service 到 Supply Chain Management）：WorkOrderService
 
 [![数据集成中的模板映射](./media/FSWOP4.png)](./media/FSWOP4.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "5021646"
 
 有关如何对维护安排行，而不是计划的工作订单计算产能负荷的信息，请参阅[计算产能负荷](../capacity-planning/calculate-capacity-load.md)。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

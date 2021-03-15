@@ -43,3 +43,6 @@ ms.locfileid: "4990659"
     * 对于此示例，选择维度成员“6001004 电话”。  
 11. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

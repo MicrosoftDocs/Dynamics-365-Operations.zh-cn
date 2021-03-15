@@ -186,3 +186,6 @@ Microsoft Dynamics 365 for Operations 版本 1611（2016 年 11 月）中添加�
 ### <a name="the-system-allows-it"></a>系统允许使用
 
 组织使用“一个凭证”功能经常只是因为系统允许他们使用，而不了解影响。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

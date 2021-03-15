@@ -100,3 +100,6 @@ ms.locfileid: "5021008"
 
 ![图 6](media/06-integration-to-pma.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

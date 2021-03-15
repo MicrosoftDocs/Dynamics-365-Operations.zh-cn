@@ -45,3 +45,6 @@ ms.locfileid: "4997617"
 [添加隐私政策页面](add-privacy-page.md)
 
 [替换与所跟踪内容更改相关联的用户 ID](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

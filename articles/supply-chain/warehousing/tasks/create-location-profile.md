@@ -42,3 +42,6 @@ ms.locfileid: "4977255"
 10. 在 **允许周期盘点** 字段中选择 **是**。
 11. 选择 **保存**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

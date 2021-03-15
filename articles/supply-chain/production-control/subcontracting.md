@@ -302,3 +302,6 @@ HQUS 法人制造高端扬声器。 在制造过程中，扬声器要经过三�
     ![“成本比较”图](./media/subcontract35_cost-comparison-charts.png)
 
 数据缺少设置。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ ms.locfileid: "5081283"
 [Dynamics 365 Human Resources 2021 发布第 1 波概述](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

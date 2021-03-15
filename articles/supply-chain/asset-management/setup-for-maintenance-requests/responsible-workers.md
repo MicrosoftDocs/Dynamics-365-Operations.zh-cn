@@ -53,3 +53,6 @@ ms.locfileid: "5021947"
 下图显示 **负责的维护工人** 页的示例。
 
 ![负责维护工人页面](media/08-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

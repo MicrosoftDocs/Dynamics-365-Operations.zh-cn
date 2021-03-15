@@ -115,3 +115,6 @@ ms.locfileid: "5019421"
 ## <a name="financial-dimensions"></a>财务维度
 
 可为资产选择财务维度。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

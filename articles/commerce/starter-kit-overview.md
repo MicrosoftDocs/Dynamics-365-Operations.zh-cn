@@ -65,3 +65,6 @@ Dynamics 365 Commerce 模块库是可用于生成电子商务网站的模块的�
 [页眉模块](author-header-module.md)
 
 [页脚模块](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

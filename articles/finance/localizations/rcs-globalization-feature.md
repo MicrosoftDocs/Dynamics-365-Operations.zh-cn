@@ -251,3 +251,6 @@ ms.locfileid: "5002774"
 10. 选择 **发布** 发布环境。
 
     ![已发布的环境](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ ms.locfileid: "5019321"
 下图显示 **维护请求类型** 页的示例。
 
 ![维护请求类型页面](media/07-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

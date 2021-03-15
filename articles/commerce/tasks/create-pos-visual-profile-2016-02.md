@@ -47,3 +47,6 @@ ms.locfileid: "4964712"
 17. 在列表中，单击所选行中的链接。
 18. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

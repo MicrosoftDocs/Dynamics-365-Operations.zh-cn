@@ -87,3 +87,6 @@ ms.locfileid: "5007733"
 7.  [创建配置规则](tasks/create-configuration-rules.md)
 8.  [创建基于维度的配置](tasks/create-dimension-based-configurations.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

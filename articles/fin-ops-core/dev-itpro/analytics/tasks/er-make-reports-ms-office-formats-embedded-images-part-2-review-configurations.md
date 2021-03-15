@@ -91,3 +91,6 @@ ms.locfileid: "5093637"
     * 出于测试目的创建报表时，其中将包含预打印支票表中的一些标签。 但是实际打印时将不打印这些标签，因为预打印的表已包含这些标签。  
 15. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

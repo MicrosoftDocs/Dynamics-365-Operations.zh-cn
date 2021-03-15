@@ -39,3 +39,6 @@ ms.locfileid: "4977605"
 ## <a name="related-topics"></a>相关主题
 
 [时间范围](time-windows.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

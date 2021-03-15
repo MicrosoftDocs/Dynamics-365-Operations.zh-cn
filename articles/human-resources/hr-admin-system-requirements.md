@@ -64,3 +64,6 @@ Human Resources 可在指定操作系统上运行的以下任一 Web 浏览器�
 > 由于用户界面已本地化为其他语言，所以所有用户数据使用输入语言存储。 可以使用其他语言创建电子邮件和模板，但是目前日程安排信息之类数据仅提供英文版。
 
 如果您是开发人员，并且有效期创建国家或地区特定的自定义项，或者有兴趣为 Microsoft 目前尚未支持的国家或地区创建解决方案，请参阅[全球化](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

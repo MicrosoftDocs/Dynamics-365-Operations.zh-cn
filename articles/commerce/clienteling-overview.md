@@ -132,3 +132,6 @@ ms.locfileid: "5097247"
 8. 在 Commerce 中，在 **Commerce 参数** 页上的 **客户服务解决方案** 选项卡上，在 **Dynamics 365 Customer Insights** 快速选项卡上，将 **应用程序 ID** 设置为“CI_Access_AppID”（来自上面的步骤 1）。 对于 **密码名称**，选择在上面的步骤 7 中输入的密码的名称（“CISecret”）。 将 **启用 Customer Insights** 选项设置为 **是**。 如果由于任何原因设置失败，将显示一条错误消息，此选项将设置为 **否**。 
 
 您可以在 Customer Insights 中拥有多个环境，例如测试和生产环境。 在 **环境实例 ID** 字段中，输入适当的环境。 在 **备用客户 ID** 字段中，在 Customer Insights 中输入映射到客户帐号的属性。 （在 Commerce 中，客户帐号是客户 ID。）其余三个属性是将显示在客户手册中客户卡上的度量。 您最多可以选择三个度量在客户卡上显示。 不过，您无需选择任何度量。 如前所述，系统将首先显示这些值，然后显示客户手册属性组的值。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

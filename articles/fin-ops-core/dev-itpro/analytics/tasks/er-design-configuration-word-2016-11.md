@@ -164,3 +164,6 @@ ms.locfileid: "5092708"
 
 - [设计新 ER 配置以生成 Word 格式的报表](../er-design-configuration-word.md)
 - [使用 ER 在您生成的文档中嵌入图像和形状](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ ms.locfileid: "4976183"
 10. 单击“凭证”。
 11. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

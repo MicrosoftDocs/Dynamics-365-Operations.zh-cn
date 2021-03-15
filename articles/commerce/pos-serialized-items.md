@@ -135,3 +135,6 @@ POS 应用程序会在销售序列化产品时立即提示用户捕获序列号�
 [POS 中的传入库存操作](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [POS 中的传出库存操作](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

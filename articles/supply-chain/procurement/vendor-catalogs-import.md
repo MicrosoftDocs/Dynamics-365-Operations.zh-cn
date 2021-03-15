@@ -69,3 +69,6 @@ ms.locfileid: "5020746"
 3. 在 **另存为** 对话框中，选择要存储目录文件模板和保存该文件的位置。
 
 有关更多信息和示例，请参阅以下博客文章：[Dynamics AX 中的供应商目录](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

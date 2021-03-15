@@ -136,3 +136,6 @@ ms.locfileid: "4973114"
 [文档状态和生命周期](document-states-overview.md)
 
 [使用发布组](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

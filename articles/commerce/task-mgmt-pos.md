@@ -63,3 +63,6 @@ ms.locfileid: "5006177"
 [创建任务列表和添加任务](task-mgmt-create-lists.md)
 
 [将任务列表分配给商店或员工](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

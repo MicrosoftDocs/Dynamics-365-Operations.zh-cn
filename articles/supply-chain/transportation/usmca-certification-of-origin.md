@@ -139,3 +139,6 @@ USMCA 原产地认证文档包含以下数据元素：
 ### <a name="page-numbers"></a>页码
 
 打印在文档底部的当前页和页数。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

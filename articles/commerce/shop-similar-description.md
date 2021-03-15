@@ -98,3 +98,6 @@ Dynamics 365 Commerce 中的“购买相似说明产品”推荐功能利用人�
 [手动创建策划的建议](create-editorial-recommendation-lists.md)
 
 [产品建议常见问题](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

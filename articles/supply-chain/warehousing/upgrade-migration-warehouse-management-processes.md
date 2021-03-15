@@ -82,3 +82,6 @@ Supply Chain Management 不再支持来自 Microsoft Dynamics AX 2012 的旧 **W
 6.  在 **更改物料的存储维度组** 页，添加物料编号、存储维度组和单位序列组。 您可以直接在页面上、使用 Microsoft Office 集成或使用[数据管理](../../dev-itpro/data-entities/data-entities.md)中的数据实体流程完成此步骤。
 7.  验证更改。 作为验证过程的一部分，发生不同的数据完整性验证。 作为更大的升级流程的一部分，可能必须在源实现上调整发生的发货。 在这种情况下，需要附加数据升级。
 8.  处理更改。 更新所有库存维度可能需要一段时间。 您可以使用批处理作业任务监控进度。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ ms.locfileid: "5104348"
 
 3. 在 **环境** 字段中，输入电子开票附加产品环境的名称。
 4. 选择 **保存**，然后关闭页面。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

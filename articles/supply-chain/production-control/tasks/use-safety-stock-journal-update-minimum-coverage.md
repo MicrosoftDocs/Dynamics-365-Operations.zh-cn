@@ -65,3 +65,6 @@ ms.locfileid: "4980974"
 5. 在 **操作窗格** 中，单击“计划”。
 6. 单击 **物料覆盖范围**。 请注意，已使用安全存货日记帐中的新最低数量更新了 **最小数量**。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

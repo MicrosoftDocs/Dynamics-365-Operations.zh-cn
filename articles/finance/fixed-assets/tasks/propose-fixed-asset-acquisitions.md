@@ -42,3 +42,6 @@ ms.locfileid: "4990431"
 - 只有在帐簿中设置了购置日期和购置价格的固定资产才会包含在购置方案中。  
 11. 在页面上，选择 **帐簿** 选项卡。
 12. 选择 **过帐**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

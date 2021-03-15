@@ -66,3 +66,6 @@ ms.locfileid: "5010864"
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>项目（Supply Chain Management 到 Field Service）：项目
 
 [![数据集成中的模板映射](./media/FSProject1.png)](./media/FSProject1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ ms.locfileid: "4988969"
 | 估价地图        | 固定资产明细 |
 
 若要查看带数据的分析，必须先刷新 **实体商店** 页的 AssetTransactionMeasure 聚合度量。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

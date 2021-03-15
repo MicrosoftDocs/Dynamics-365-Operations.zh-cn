@@ -77,3 +77,6 @@ ms.locfileid: "4993795"
 1. 继续工作，直到所有相关消息都已重置。
 
 您也可以通过使用 **仓库应用事件消息** 工具栏上的 **删除** 选项删除 **失败** 事件消息。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ ms.locfileid: "5035258"
 ## <a name="additional-resources"></a>其他资源
 
 [订单承诺](delivery-dates-available-promise-calculations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

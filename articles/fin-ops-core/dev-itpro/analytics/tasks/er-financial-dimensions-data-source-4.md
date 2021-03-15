@@ -49,3 +49,6 @@ ms.locfileid: "5092267"
 ![ER 配置页](../media/er-financial-dimensions-guides-run3.png)
     * 检查生成的输出。 设置的相应维度中的财务维度表示所选批次的每个交易。 运行此报表并选择不同维度，以便了解该报表不依赖所选维度数量或为此实例配置的维度数量。  
 ![ER 配置页](../media/er-financial-dimensions-guides-run4.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

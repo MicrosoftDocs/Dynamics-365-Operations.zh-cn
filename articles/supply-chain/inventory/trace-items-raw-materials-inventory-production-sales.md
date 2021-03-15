@@ -139,3 +139,6 @@ ms.locfileid: "4967172"
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>可否跟踪联产品和副产品？
 您可以跟踪联产品，不过，您不能跟踪副产品，因为通常不为副产品分配跟踪维度。 当您跟踪物料时，跟踪详细信息包含所有相关的联产品。 一个包含联产品的节点会包括“联产品”的详细信息。 您还可以通过在跟踪详细信息中选择节点然后单击 **生产** 快速选项卡来查看有关联产品的详细信息。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

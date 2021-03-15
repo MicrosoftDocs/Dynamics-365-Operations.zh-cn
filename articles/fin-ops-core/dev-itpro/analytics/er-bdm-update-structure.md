@@ -106,3 +106,6 @@ ms.locfileid: "4728081"
 [电子报告 (ER) 概览](general-electronic-reporting.md)
 
 [业务文档管理概览](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ ms.locfileid: "4989468"
 ## <a name="inventory-lookup"></a>库存查找
 
 在 **库存查找** 页可以查看多个商店和仓库的当前现有产品数量。 除了当前现有数量以外，还可以查看各个商店的未来可承诺 (ATP) 数量。 选择要查看的 ATP 数量所属商店，然后选择 **显示商店可用性**。 有关可用配置选项的信息，请参阅[计算零售渠道的库存现有量](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

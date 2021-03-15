@@ -239,3 +239,6 @@ ms.locfileid: "5033144"
 1. 选择 **完成**。
 
     ![将附件添加到维护请求](media/am-mobile-10.png "将附件添加到维护请求")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

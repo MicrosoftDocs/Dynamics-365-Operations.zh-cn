@@ -48,3 +48,6 @@ ms.locfileid: "5130317"
     * 或者，为新职位选择一个“部门”。  
 13. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

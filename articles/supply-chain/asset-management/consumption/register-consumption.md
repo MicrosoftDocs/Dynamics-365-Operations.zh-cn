@@ -94,3 +94,6 @@ ms.locfileid: "5020772"
 >[!NOTE]
 >对于所有三种登记类型，都将验证财务维度组合，并且无效组合将为空。 这是其他 Finance and Operations 应用的标准设置。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ ms.locfileid: "4959838"
 ## <a name="quote-and-quote-product-tables"></a>报价单和报价单产品表
 
 对于 **报价单** 表，请按照本主题前面的[订单表](#order-table)一节的说明操作。 对于 **报价单产品** 表，请按照[订单产品表](#order-products-table)一节的说明操作。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

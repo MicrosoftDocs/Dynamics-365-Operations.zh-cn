@@ -55,3 +55,6 @@ ms.locfileid: "5007883"
 4. 单击“物料”。
     * 在此页，您可以查看生产订单中操作的估计物料消耗量和当前可用库存。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

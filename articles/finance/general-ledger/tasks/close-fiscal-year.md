@@ -82,3 +82,6 @@ ms.locfileid: "4994682"
 23. 年终结算默认批量运行。 最好以批处理模式运行长时间运行的流程。 这通常是这些流程中的一个，也是默认使用批处理模式的原因。  
 24. 单击 **确定**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ ms.locfileid: "4986996"
 11. 在 **类别** 字段中，输入或选择一个值。
 12. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

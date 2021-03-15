@@ -89,3 +89,6 @@ ms.locfileid: "4972349"
 [手动创建策划的建议](create-editorial-recommendation-lists.md)
 
 [产品建议常见问题](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

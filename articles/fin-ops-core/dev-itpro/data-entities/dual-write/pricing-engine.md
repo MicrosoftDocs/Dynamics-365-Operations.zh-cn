@@ -69,3 +69,6 @@ Microsoft Dynamics 365 Supply Chain Management 包括处理贸易协议、价目
 + Supply Chain Management 中的费用设置和费用分配不会在 Sales 中复制。
 + 定价不考虑在 Supply Chain Management 中销售订单行页面上的 **零售渠道** 列中指定的特殊零售定价。
 + 不考虑 Supply Chain Management 的 **贸易折让管理** 部分定义的折扣。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

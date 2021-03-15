@@ -105,3 +105,6 @@ ms.locfileid: "5104352"
 
 > [!NOTE]
 > 对于有些国家/地区，已经为单据编号实现了特定逻辑。 在这种情况下，国家/地区特定的逻辑将替代 **按时间顺序编号** 功能。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

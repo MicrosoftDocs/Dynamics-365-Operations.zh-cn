@@ -141,3 +141,6 @@ Orchestrator 服务是用于管理你的部署和与 LCS 的相关通信的服�
 ## <a name="virtualization-and-oversubscription"></a>虚拟化和过度订阅
 
 关键任务服务（如 AOS）应在具有专用资源（核心、内存和磁盘）的虚拟机上托管。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

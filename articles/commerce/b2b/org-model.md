@@ -62,3 +62,6 @@ Commerce headquarters 用户可以并排查看层次结构中所有客户记录�
 [配置 B2B 电子商务站点的客户帐户付款方式](payment-method.md)
 
 [设置 B2B 电子商务站点的产品数量限制](quantity-limits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

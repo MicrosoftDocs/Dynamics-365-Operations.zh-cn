@@ -82,3 +82,6 @@ Dynamics 365 Human Resources 中的休假类型定义员工可报告的各种缺
 - [创建工作时间日历](hr-leave-and-absence-working-time-calendar.md)
 - [暂停休假](hr-leave-and-absence-suspend-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

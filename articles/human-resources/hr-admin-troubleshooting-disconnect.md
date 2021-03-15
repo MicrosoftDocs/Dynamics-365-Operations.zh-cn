@@ -52,3 +52,6 @@ ms.locfileid: "5111663"
 请确保一个指定浏览器类型一次只有一个环境打开。 用户可以打开同一个环境的多个会话（即，同一浏览器中的多个选项卡）。
 
 要同时在两个环境之间跳转的用户应该在不同的浏览器类型中打开每个环境。 （例如，用户 A 可以在 Chrome 中查看环境 1，在 Microsoft Edge 中查看环境 2。）
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

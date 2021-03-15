@@ -59,3 +59,6 @@ ms.locfileid: "5012206"
 
 
 有关详细信息，请参阅[存入客户付款](tasks/deposit-customer-payments.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

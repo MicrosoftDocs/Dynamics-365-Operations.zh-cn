@@ -159,3 +159,6 @@ ms.locfileid: "5111662"
 1. 在 **福利管理** 工作区中，在 **计划** 下，选择 **福利计划**。
 
 2. 选择 **弹性信贷项目**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

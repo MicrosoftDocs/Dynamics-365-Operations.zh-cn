@@ -39,3 +39,6 @@ ms.locfileid: "4988290"
 6. 单击“导入”。
 7. 单击“是”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

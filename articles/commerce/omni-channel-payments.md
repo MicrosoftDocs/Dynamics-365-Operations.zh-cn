@@ -237,3 +237,6 @@ ms.locfileid: "4985853"
 - [适用于 Adyen 的 Dynamics 365 付款连接器](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
 - [在 Dynamics 365 Commerce 评估环境中配置 BOPIS](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ ms.locfileid: "5001766"
 8. 展开"上游需求详细信息"部分。
     * 在此部分中，可以看到有关如何满足需求的详细信息。 可能需要先等待供应公司中运行主计划，才能在此处看到更多信息。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

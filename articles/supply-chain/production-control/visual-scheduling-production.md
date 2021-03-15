@@ -159,3 +159,6 @@ ms.locfileid: "5154243"
 
 [可视生产排产（演示脚本）](https://docs.microsoft.com/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

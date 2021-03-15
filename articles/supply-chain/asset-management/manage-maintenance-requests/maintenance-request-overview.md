@@ -72,3 +72,6 @@ ms.locfileid: "5019621"
 | 发送出借资产                  | 选择应该用于临时替换所选维护请求中选择的资产的出借资产。 |
 | 退还出借资产                | 将出借资产登记为已退回。 |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

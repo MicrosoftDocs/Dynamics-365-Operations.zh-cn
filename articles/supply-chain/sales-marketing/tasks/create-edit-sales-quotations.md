@@ -69,3 +69,6 @@ ms.locfileid: "4974927"
 13. 单击 **销售订单**。
 14. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

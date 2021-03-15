@@ -47,3 +47,6 @@ ms.locfileid: "4980980"
 2. 在列表中，标记所选的行。
     * 请注意，处理单元状态为“已清空”。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

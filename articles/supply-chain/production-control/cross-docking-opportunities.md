@@ -126,3 +126,6 @@ ms.locfileid: "5007283"
 -   受批次和序列控制的物料支持越库配送方案，这两种物料的批次和序列号维度均定义为高于和低于预留层次结构中的位置。 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

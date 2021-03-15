@@ -147,3 +147,6 @@ ms.locfileid: "4976310"
     * 核实已过帐的日记帐条目。  
 16. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

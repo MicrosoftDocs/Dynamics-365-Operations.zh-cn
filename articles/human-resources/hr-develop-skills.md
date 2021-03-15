@@ -62,3 +62,6 @@ ms.locfileid: "5115576"
 您可以创建技能模板分析查看截至特定日期工作人员、申请人或联系人的能力列表。 可以创建一个技能差距分析将人员的技能与某一特定工作所要求的技能加以比较  
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

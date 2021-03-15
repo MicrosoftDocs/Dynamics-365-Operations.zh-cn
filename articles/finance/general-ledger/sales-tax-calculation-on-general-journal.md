@@ -156,3 +156,6 @@ ms.locfileid: "4975550"
 | 应收销售税 | 负              | 应收税金科目 | 负数（贷记）  |
 | 应付销售税    | 正              | 应付税金科目    | 负数（贷记）  |
 | 应付销售税    | 负              | 应付税金科目    | 正数（借记）  |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

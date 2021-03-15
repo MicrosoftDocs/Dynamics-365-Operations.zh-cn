@@ -598,3 +598,6 @@ ms.locfileid: "5093101"
 [财务报表设计器中的行定义](row-definitions-financial-reporting.md)
 
 [财务申报中的高级格式设置选项](advanced-formatting-options-financial-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

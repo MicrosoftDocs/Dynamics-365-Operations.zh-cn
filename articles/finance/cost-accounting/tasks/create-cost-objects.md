@@ -50,3 +50,6 @@ ms.locfileid: "4990759"
 ## <a name="view-the-imported-cost-centers"></a>查看导入的成本中心
 1. 单击“查看维度成员”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

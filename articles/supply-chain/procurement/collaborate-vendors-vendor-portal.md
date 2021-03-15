@@ -103,3 +103,6 @@ PO 在 Dynamics AX 中准备。 在您具有状态为 **已审核** 的 PO 时�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ ms.locfileid: "5115382"
 - [Human Resources 的新增功能或更改](hr-admin-whats-new.md)
 - [管理员指南](hr-admin-overview.md)
 - [用户指南](hr-hrpro-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

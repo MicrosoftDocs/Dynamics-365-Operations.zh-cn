@@ -109,3 +109,6 @@ ms.locfileid: "4973777"
 ## <a name="deleting-completed-tasks"></a>删除已完成任务
 
 可删除已完成的推迟放置处理任务，方法是在页面中选择这些任务，然后删除。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

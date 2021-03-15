@@ -56,3 +56,6 @@ ms.locfileid: "4994146"
 6. 在“完好数量”字段中，输入一个数字。
 7. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

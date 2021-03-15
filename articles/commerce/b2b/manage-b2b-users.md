@@ -139,3 +139,6 @@ Commerce headquarters 中的 B2B 电子商务功能让组织可以加入业务�
 [设置 B2B 电子商务站点的产品数量限制](quantity-limits.md)
 
 [编号规则概览](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ ms.locfileid: "5020867"
 >[!NOTE]
 >您可以设置范围来定义手动计数器登记的偏差。 如果登记超出定义的范围，您还可以指定显示的消息类型。 有关如何设置计数器的详细信息，请参阅[计数器](../setup-for-objects/counters.md)。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

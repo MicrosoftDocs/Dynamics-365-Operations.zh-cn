@@ -42,3 +42,6 @@ ms.locfileid: "5111626"
    | **天** | 系统应设置为等待期间日期的那个月的那一天。 |
    
 4. 选择 **保存**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

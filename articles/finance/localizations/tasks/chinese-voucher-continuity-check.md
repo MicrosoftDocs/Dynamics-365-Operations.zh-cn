@@ -56,3 +56,6 @@ ms.locfileid: "4964584"
 4. 单击“确定”。
 5. 转到“总帐”>“查询和报表”>“凭证连续性检查日志”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

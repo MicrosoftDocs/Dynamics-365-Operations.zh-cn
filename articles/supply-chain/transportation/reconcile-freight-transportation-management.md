@@ -105,3 +105,6 @@ ms.locfileid: "5014500"
 1. 依次将 Inv1 和 Inv 2 与 FB 匹配。 FB 完全匹配。
 
 如此示例所示，仅带有负金额的运费发票应手动匹配。 这样可以确保始终可以将带有负金额的运费发票与未完全匹配的运费帐单进行匹配，因为这让您可以控制匹配顺序。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ ms.locfileid: "4991754"
 23. 单击“附加销售协议”。
 24. 单击“履行”选项卡。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

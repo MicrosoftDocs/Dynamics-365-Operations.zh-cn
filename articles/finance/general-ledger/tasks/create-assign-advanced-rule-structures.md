@@ -58,3 +58,6 @@ ms.locfileid: "4968585"
 17. 关闭该页面。
 18. 选择 **激活**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

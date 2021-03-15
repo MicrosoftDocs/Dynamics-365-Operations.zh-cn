@@ -146,3 +146,6 @@ Inventory object.Value = Cost object.Average unit cost × Inventory object.Quant
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

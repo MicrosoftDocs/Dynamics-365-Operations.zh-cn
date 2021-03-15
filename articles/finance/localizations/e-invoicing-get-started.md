@@ -235,3 +235,6 @@ ms.locfileid: "5111212"
 - [开始使用适用于墨西哥的电子开票附加产品](e-invoicing-mex-get-started.md)
 - [开始使用适用于意大利的电子开票附加产品](e-invoicing-ita-get-started.md)
 - [埃及的客户电子发票](emea-egy-e-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

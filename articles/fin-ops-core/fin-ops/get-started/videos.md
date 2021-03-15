@@ -167,3 +167,6 @@ ms.locfileid: "4797867"
 [FastTrack 技术交流](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations)重点提供技术深度透析和最佳实践，为客户和合作伙伴提供专题范围特定的详细知识。 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

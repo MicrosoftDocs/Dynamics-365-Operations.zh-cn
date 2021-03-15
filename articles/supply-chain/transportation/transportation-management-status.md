@@ -48,3 +48,6 @@ ms.locfileid: "5006458"
 1. 选择要映射到所选装运承运人代码的运输状态代码。
 1. 输入装运承运人使用的外部代码。
 1. 关闭该页面。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ ms.locfileid: "4977780"
 7. 单击“编辑”。
 8. 在“支付协议”字段中，输入或选择一个值。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ ms.locfileid: "4990684"
 10. 在“维度”字段中，输入或选择一个值。
 11. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

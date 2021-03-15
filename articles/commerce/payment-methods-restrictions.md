@@ -60,3 +60,6 @@ ms.locfileid: "5012383"
 
 如果某一交易既有有收据的退货，也有没有收据的退货，由于这类交易将是有收据的退货工作流，因此不强制使用限制条件。 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

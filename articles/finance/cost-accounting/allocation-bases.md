@@ -429,3 +429,6 @@ ms.locfileid: "4976208"
 |    CC002    |     FI      | 3,075.00  | (3,075.00 ÷ 18,162.50) × 金额  |
 |    CC003    |     IT      | 13,250.00 | (13,250.00 ÷ 18,162.50) × 金额 |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

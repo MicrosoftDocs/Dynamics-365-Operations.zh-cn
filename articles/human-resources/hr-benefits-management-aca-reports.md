@@ -207,3 +207,6 @@ ms.locfileid: "5111676"
 
 > [!NOTE]
 > 此页面仅显示标记为 **ACA 可报告** 的福利计划。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

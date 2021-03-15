@@ -56,3 +56,6 @@ ms.locfileid: "5130197"
 27. 选择 **结果**。
 28. 选择 **报表**。 报表将在报表顶部列出最佳匹配。 您可以看到列出了一个差距元素。 差距是技能表级别与人员的技能级别之间的差异。  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

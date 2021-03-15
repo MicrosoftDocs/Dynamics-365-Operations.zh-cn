@@ -69,3 +69,6 @@ ms.locfileid: "5092508"
 11. 单击“确定”。
     * 检查生成的输出。 请注意，已经为每个附件创建了一个 XML 节点。 附件的内容填充到 MIME (base64) 文本格式的 XML 输出中。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

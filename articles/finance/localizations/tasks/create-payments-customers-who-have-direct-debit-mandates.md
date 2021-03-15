@@ -67,3 +67,6 @@ ms.locfileid: "4964558"
 11. 单击“确定”。
 12. 单击“确定”。
 13. 单击”创建付款“。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

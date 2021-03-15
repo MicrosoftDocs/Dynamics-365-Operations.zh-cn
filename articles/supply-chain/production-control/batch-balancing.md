@@ -186,3 +186,6 @@ ms.locfileid: "4966547"
 1. 如果配方度量单位与有效成分的库存度量单位不同，批次订单则不适用于批次平衡。
 
 不适用批次平衡的批次订单将完成批次订单的常规流程周期。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

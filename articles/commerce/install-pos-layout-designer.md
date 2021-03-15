@@ -62,3 +62,6 @@ MPOS 或 Cloud POS 的图形设计界面由钱柜布局控制。 格式控制各
 ## <a name="additional-resources"></a>其他资源
 
 [配置、安装和激活 Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4975500"
 若要在报表中仅显示非纳税科目，请设置筛选条件，如星号 (\*)，如下图中所示。
 
 ![报表显示非纳税科目](media/taxspecperledgertrans.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

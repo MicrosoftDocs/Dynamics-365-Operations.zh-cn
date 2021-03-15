@@ -51,3 +51,6 @@ Microsoft 无法提供具体的解决方案，因为每个功能空白都是不�
 ## <a name="when-the-deprecation-date-is-identified-where-will-it-be-communicated"></a>弃用日期确定后，将在哪里传达此信息？
 
 弃用“一个凭证”是一项重大更改，会广泛传达。 在弃用生效之前，会通过产品文档、博客文章以及在合适的 Microsoft 会议上宣布来进行传达。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

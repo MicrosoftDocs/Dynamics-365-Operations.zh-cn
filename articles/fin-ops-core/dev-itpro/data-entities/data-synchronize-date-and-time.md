@@ -40,3 +40,6 @@ ms.locfileid: "4798711"
 4. 将 **时区** 更改为 **协调世界时区**，将 **语言** 更改为 **En-US**。
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

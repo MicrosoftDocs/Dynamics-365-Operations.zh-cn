@@ -47,3 +47,6 @@ ms.locfileid: "5060705"
 7. 在 **物料预缴税金组** 页上为物料或服务设置预缴税金组。
 
 8. 在 **总帐参数 > 预缴税金** 页上设置 **最小发票金额**。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

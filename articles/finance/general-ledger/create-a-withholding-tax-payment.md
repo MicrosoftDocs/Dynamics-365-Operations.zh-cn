@@ -40,3 +40,6 @@ ms.locfileid: "5060707"
 7. 单击 **确定**。
 
 ![预缴税金支付的参数](media/withholding-tax-payment.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

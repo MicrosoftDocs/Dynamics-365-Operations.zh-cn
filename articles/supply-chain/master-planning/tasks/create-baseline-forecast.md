@@ -81,3 +81,6 @@ ms.locfileid: "4983408"
 5. 单击“预测行详细信息”。
     * 在此页面中，您可以查看准确值、历史需求和预测。 您还可以对预测进行更改。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

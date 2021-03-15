@@ -81,3 +81,6 @@ ms.locfileid: "4979667"
 - **HQ 被部分更新，但 Commerce Scale Unit 和 POS 不更新。** 在 HQ 更新中，优惠券和折扣页更新，商业价格引擎也更新。 如果两个组件中仅有一个更新，则 Commerce 中的部分页面与价格计算数据不匹配。 因此，在折扣计算期间可能发生意外折扣计算或错误。
 - **HQ 被更新，但 Commerce Scale Unit 和 POS 不更新 (N-1)。** 由于并非所有的商店都可以同时更新，因此我们建议您在更新商店前更新 HQ。 在 N-1 方案中，与优惠券相关的新功能在尚未更新的商店中不可用。 例如，优惠券功能引入“排除”行。 如果您对折扣使用排除行，则其不会在运行较早版本的商店中应用这些行。
 - **HQ 未被更新，但 Commerce Scale Unit 和 POS 被更新 (N+1)。** 由于在 Commerce Scale Unit 中更新的价格引擎在价格计算期间可以处理旧折扣代码，因此更新应该对此方案没有功能影响。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

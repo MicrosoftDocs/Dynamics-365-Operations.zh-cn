@@ -71,3 +71,6 @@ ms.locfileid: "5130246"
 33. 切换“教育”部分的扩展。
 34. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

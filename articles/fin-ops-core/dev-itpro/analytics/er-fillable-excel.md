@@ -189,3 +189,6 @@ ms.locfileid: "5094021"
 [使用 ER 在您生成的文档中嵌入图像和形状](electronic-reporting-embed-images-shapes.md)
 
 [配置电子申报 (ER) 以便将数据导入 Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

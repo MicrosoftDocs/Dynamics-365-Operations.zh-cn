@@ -110,3 +110,6 @@ FactBox 显示所选客户的帐龄余额和信用额度信息。 此信息存�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

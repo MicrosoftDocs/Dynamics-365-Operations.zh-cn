@@ -85,3 +85,6 @@ ms.locfileid: "4977730"
 - [升级门户](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [迁移门户配置](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [解决方案生命周期管理：Dynamics 365 for Customer Engagement 应用](https://www.microsoft.com/download/details.aspx?id=57777)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

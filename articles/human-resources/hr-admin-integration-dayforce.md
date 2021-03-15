@@ -676,3 +676,6 @@ Dayforce 中使用以下信息：
 
 员工可以声明 **护照** 身份证明类型的多个身份证明编号。 但是，仅将当前有效的护照条目集成到 Dayforce 中。 如果所有护照条目均已过期，将把最近签发的护照集成到 Dayforce 中。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

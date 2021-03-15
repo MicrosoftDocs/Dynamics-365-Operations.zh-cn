@@ -83,3 +83,6 @@ KFM: Link to video for production functionality, coming soon... -->
 虽然使用内置的主计划引擎时会自动检测到依赖子项并将其包括在主计划运行中，但是计划优化不会执行此操作。
 
 例如，如果产品 A 的 BOM 结构中的单个螺栓还用于生产产品 B，产品 A 和 B 的 BOM 结构中的所有产品都必须包含在筛选器中。 因为要确保所有产品都是筛选器的一部分可能非常复杂，所以我们建议在涉及生产订单时避免发生筛选后的主计划运行。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

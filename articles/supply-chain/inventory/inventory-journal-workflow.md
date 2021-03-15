@@ -118,3 +118,6 @@ ms.locfileid: "5011664"
 1. 在导航窗格上，展开 **库存管理 \> 日记帐条目 \> 商品**，然后选择库存日记帐类型。
 1. 打开相关日记帐。
 1. 选择操作窗格上的 **工作流** 按钮打开一个下拉对话框。 选择 **工作流历史记录**。 有关详细信息，请参阅[查看工作流历史记录](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

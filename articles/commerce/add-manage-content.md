@@ -56,3 +56,6 @@ ms.locfileid: "4980249"
 [文档状态和生命周期](document-states-overview.md)
 
 [启用和使用跨渠道共享](cross-channel-sharing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

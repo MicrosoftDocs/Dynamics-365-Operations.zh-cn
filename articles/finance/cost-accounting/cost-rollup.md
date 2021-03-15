@@ -300,3 +300,6 @@ HR 服务由以下度量值分配使用。
 -  [成本元素维度](cost-elements.md)
 -  [维度层次结构](dimension-hierarchy.md)
 -  [开销计算](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

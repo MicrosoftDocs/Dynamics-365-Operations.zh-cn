@@ -328,3 +328,6 @@ ms.locfileid: "4983433"
 
 > [!NOTE]
 > 作为 MRP 的一部分，设置的超时值将同时应用于下达的生产订单和计划的订单的计划编制。 因此，在为具有许多计划的生产订单的计划运行时，设置非常高的值可能会大大增加 MRP 的运行时间。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -165,3 +165,6 @@ ms.locfileid: "4973727"
 ## <a name="see-also"></a>请参阅
 
 [有关详细信息，请参阅博客文章“WMS 仓库筛选器代码”](http://blog.dynamics-for-operations.com/2017/09/26/wms-warehouse-filter-codes/)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ ms.locfileid: "4969145"
 |           处置：损耗值            |                                                                                               具有处置 - 损耗交易记录的固定资产帐簿的损耗值。                                                                                               |
 |           处置：损益            |                                                                                 作为固定资产帐簿的处置交易记录一部分计算的损益值。                                                                                 |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

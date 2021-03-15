@@ -55,3 +55,6 @@ ms.locfileid: "4976033"
 17. 在列表中，单击所选行中的链接。
 18. 单击 **过帐**。 在过帐发票时，将会创建和购置固定资产。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

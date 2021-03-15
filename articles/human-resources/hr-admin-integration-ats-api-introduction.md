@@ -137,3 +137,5 @@ ATS 集成 API 的终结点使用 Microsoft Dataverse 的虚拟表平台功能�
 [什么是 Microsoft Dataverse？](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [使用 Microsoft Dataverse Web API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
 [使用 Web API 创建和更新选项集](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

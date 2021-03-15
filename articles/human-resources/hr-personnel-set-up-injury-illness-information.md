@@ -65,3 +65,6 @@ ms.locfileid: "5128201"
     * 报告机构是指需要向其报告事故的机构。 在复选框中选择该机构为默认项，该机构为报告受伤与疾病的默认机构。  
 23. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

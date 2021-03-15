@@ -80,3 +80,6 @@ ms.locfileid: "4975524"
 
 > [!NOTE]
 > 您可以使用从子公司法人的会计科目表之一的方法，在合并法人中创建会计科目表。 （有关详细信息，请参阅[合并科目组和其他合并科目](../budgeting/consolidation-account-groups-consolidation-accounts.md)。）然后将相应的合并转换原则分配给各合并主科目，并且为所有子公司法人运行合并。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Dynamics 365 Human Resources 帮助您向工作人员提供出色的休假福利
 [请求休假](hr-employee-self-service-request-time-off.md)
 [管理休假和缺勤申请](hr-employee-self-service-manage-requests.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

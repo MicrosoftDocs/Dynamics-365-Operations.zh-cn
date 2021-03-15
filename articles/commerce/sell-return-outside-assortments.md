@@ -45,3 +45,6 @@ ms.locfileid: "4982385"
 + 在当前商店或其他商店提取产品。
 + 在当前商店或其他商店取消订单。
 + 在当前商店或其他商店持收据或不持收据退回订单。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ ms.locfileid: "4978528"
 | 6            | BusinessUnit, 1 部门, 2 | 段顺序中定义的财务维度属性。<p>您可以使用 **导出** 页来验证属性是如何定义的。</p> |
 | 7            | 002,1,658 | <ul><li>财务维度值</li><li>财务维度，作为 RecordDimensions 中提供的索引</li><li>与 RecordTrans 或 RecordTrans2 中唯一记录 ID 关联的模糊的唯一记录 ID</li></ul> |
 | 8            | 002,1,1 | <ul><li>与 RecordBudget 中的交易关联的维度值</li><li>财务维度，作为 RecordDimensions 中提供的索引</li><li>与文件中交易行的顺序一致的模糊行记录 ID</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

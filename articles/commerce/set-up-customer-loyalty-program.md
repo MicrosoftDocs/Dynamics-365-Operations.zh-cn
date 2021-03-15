@@ -150,3 +150,6 @@ ms.locfileid: "4985803"
 
     > [!NOTE]
     > 与数量、简单、组合和阈值折扣等其他定期折扣不同，装运折扣不创建折扣行，而是直接编辑装运费用并将折扣名称追加到费用说明。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

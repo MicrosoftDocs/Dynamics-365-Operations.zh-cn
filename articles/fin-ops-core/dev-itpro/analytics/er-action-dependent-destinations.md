@@ -129,3 +129,6 @@ ER 格式运行时，如果用户操作已由具有适当[权限](electronic-rep
 [电子报告 (ER) 目标](electronic-reporting-destinations.md)
 
 [针对 Application update 10.0.17 的电子报告框架 API 更改](er-apis-app10-0-17.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -803,3 +803,6 @@ RSAT 的一项关键功能是链接测试用例（即一个测试将值传递给
 2. 验证这两个测试用例是否均已通过。
 
     ![两个测试用例的“结果”字段均设置为已通过](./media/setup_rsa_tool_105.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ ms.locfileid: "5111629"
 3. 为 **工作人员类型**、**雇用类别** 和 **描述** 指定值。
 
 4. 选择 **保存**。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ ms.locfileid: "4998695"
 5. 展开“看板”部分。
     * 请注意，创建了一个看板来将所需物料转移到仓库 12。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

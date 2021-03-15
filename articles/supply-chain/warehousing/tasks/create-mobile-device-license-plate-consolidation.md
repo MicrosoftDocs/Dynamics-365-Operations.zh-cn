@@ -36,3 +36,6 @@ ms.locfileid: "4977230"
 5. 在“模式”字段中，选择“间接”。
 6. 在“活动代码”字段中，选择“合并牌照”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

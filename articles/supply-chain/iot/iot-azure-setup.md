@@ -161,3 +161,6 @@ ms.locfileid: "4989813"
 > 只要更新其中一个连接字符串，必须也更新密码值。
 
 现在已预配完了所需 Azure 资源。 下一步是[在 Microsoft Dynamics Lifecycle Services (LCS) 中安装 IoT 智能加载项](iot-lcs-setup.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

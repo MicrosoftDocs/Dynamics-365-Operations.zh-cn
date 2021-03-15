@@ -80,3 +80,6 @@ Field Service 中进行的库存调整和转移将在 **过帐状态** 从 **已
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>库存转移（Field Service 到 Supply Chain Management）：库存转移
 
 [![数据集成中的模板映射](./media/FSTrans1.png)](./media/FSTrans1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

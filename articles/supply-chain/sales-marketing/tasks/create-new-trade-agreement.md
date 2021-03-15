@@ -77,3 +77,6 @@ ms.locfileid: "4974877"
 
 ### <a name="community-blogs"></a>社区博客
 - [Dynamics 365 for Finance and Operations 中的销售价](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

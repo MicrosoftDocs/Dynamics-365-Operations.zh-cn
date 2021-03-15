@@ -88,3 +88,6 @@ ms.locfileid: "4969595"
 
 > [!NOTE]
 > 不能手动创建资产租赁日记帐。 它是在创建租赁计划时自动创建的。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

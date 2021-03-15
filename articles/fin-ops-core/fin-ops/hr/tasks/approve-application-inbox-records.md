@@ -48,3 +48,6 @@ ms.locfileid: "4798011"
 2. 在列表中，单击所选行中的链接。
 3. 展开“附件”部分。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ ms.locfileid: "4978781"
 [设置保函的银行设施和过帐模板](tasks/set-up-bank-facilities-posting-profiles.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

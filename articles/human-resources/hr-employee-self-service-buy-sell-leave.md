@@ -53,3 +53,6 @@ ms.locfileid: "5115310"
 
 [休假和缺勤概览](hr-leave-and-absence-overview.md)</br>
 [管理购买和出售休假策略](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

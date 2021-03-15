@@ -123,3 +123,6 @@ ms.locfileid: "5093378"
 | 会计日历                   | 日历、日历描述                                                                                       |
 | 会计年度                       | 日历年度                                                                                                        |
 | 会计期间                     | 日历年度期间                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ April 可以通过选择 **所有供应商** 页上的供应商来查看 **供�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

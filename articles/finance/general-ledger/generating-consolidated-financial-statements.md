@@ -223,3 +223,6 @@ ms.locfileid: "5044013"
 有关合并和货币折算的详细信息，请参阅此主题的父主题，即[财务合并和货币折算概述](./financial-consolidations-currency-translation.md)。
 
 有关如何输入在线合并的详细信息的更多信息，请参阅[在线财务合并](./consolidate-online.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

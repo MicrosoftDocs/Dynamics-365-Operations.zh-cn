@@ -295,3 +295,6 @@ Fabrikam 从客户 4000 (Northwind Traders) 接收 75.00 的付款。 该付款�
 | 应收帐款 (Fabrikam West)    |              | 75.00         |
 | 从 Fabrikam East (Fabrikam West) 的应收金额 | 25.00        |               |
 | 应收帐款 (Fabrikam West)    |              | 25.00         |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

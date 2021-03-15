@@ -57,3 +57,6 @@ ms.locfileid: "5000251"
 
 ### <a name="task-guides"></a>任务指南
 其他帮助作为任务指南提供。 若要访问任务指南，请单击任何页面上的 **帮助** 按钮
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

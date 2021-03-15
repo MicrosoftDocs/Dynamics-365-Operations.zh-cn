@@ -50,3 +50,6 @@ ms.locfileid: "4797692"
 ## <a name="additional-resources"></a>其他资源
 
 [创建工作流概览](create-workflow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

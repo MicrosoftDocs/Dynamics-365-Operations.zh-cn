@@ -83,3 +83,6 @@ ms.locfileid: "4978503"
 最后，在 **编号规则** 选项卡上定义固定资产的编号规则。 如果指定了 **固定资产组** 编号规则，固定资产组编号规则将覆盖 **固定资产** 编号规则。
 
 有关详细信息，请参阅[创建固定资产](tasks/create-fixed-asset.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

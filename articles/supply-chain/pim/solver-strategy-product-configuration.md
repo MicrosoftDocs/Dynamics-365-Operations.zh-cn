@@ -72,3 +72,6 @@ ms.locfileid: "4983235"
 [启发](https://techterms.com/definition/heuristic)
 
 [约束满足问题](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

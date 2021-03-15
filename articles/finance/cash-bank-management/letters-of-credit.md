@@ -52,3 +52,6 @@ ms.locfileid: "4978806"
 [创建信用证的银行信贷协议](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

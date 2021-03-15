@@ -132,3 +132,6 @@ Planning Optimization 当前在以下 Azure 地域中可用：美国、加拿大
 [将筛选器应用于计划](plan-filters.md)
 
 [取消计划作业](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ ms.locfileid: "4993920"
 ### <a name="issue-resolution"></a>解决问题
 
 要解决此问题，请编辑群集配置文件，将 **激活位置** 选项设置为 *否*。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

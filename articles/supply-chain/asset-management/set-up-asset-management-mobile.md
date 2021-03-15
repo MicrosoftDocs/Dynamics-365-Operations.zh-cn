@@ -84,3 +84,6 @@ ms.locfileid: "5033195"
 有关如何使用 **资产管理** 移动工作区的详细信息，请参阅[使用资产管理移动工作区](asset-management-mobile-workspace.md)。
 
 有关 Finance and Operations (Dynamics 365) 移动应用的详细信息，请参阅[移动应用主页](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

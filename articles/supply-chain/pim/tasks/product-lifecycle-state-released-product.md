@@ -36,3 +36,6 @@ ms.locfileid: "4986796"
 5. 在“产品生命周期状态”字段中，输入或选择一个值。
 6. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

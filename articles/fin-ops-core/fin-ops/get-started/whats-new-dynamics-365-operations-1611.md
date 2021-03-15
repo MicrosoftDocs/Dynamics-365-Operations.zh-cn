@@ -945,3 +945,6 @@ ms.locfileid: "4797187"
 ## <a name="additional-resources"></a>其他资源
 
 [Finance and Operations 主页中的新增功能或更改](whats-new-changed.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

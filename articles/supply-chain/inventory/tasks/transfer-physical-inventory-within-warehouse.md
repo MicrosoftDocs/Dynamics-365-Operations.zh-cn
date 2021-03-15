@@ -58,3 +58,6 @@ ms.locfileid: "5011439"
 1. 单击 **库存**。
 2. 单击 **交易记录**。 在这里，您可以查看过帐日记帐时创建的交易记录。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

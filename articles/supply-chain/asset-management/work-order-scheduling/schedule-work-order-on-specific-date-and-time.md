@@ -55,3 +55,6 @@ ms.locfileid: "5017359"
 >[!NOTE]
 >若要将某位维护工人安排给此工作订单，该维护工人必须在预计开始日期和时间有空。 工人可用性在[工人日历](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md)中设置。 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

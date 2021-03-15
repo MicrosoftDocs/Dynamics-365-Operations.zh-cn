@@ -138,3 +138,6 @@ ms.locfileid: "4744845"
 有关示例，请参见[启用客户 V3 到联系人的表映射](enable-entity-map.md#enable-table-map)
 
 有关基于每个实体中必须运行初始同步的数据量的替代方法，请参阅[初始同步的注意事项](initial-sync-guidance.md)。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

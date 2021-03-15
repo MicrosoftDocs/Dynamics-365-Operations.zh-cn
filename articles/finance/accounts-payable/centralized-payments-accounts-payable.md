@@ -300,3 +300,6 @@ Fabrikam 为供应商 3004 (Fourth Coffee) 生成 75.00 的付款。 该付款�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

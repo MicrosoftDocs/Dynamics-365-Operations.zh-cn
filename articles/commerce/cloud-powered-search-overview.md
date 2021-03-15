@@ -81,3 +81,6 @@ Dynamics 365 Commerce 也支持各种类别中使用关键字匹配功能。 客
 [默认类别登陆页面和搜索结果页面概览](category-search-page-overview.md)
 
 [管理 SEO 元数据](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

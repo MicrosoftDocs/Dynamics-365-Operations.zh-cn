@@ -81,3 +81,6 @@ ms.locfileid: "5115044"
 ## <a name="see-also"></a>请参阅
 
 - [休假和缺勤概览](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

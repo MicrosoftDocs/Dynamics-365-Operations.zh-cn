@@ -130,3 +130,6 @@ Dynamics 365 Commerce 使用 Azure AD B2C 云标识服务为用户凭据和身�
 [添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
 
 [启用基于位置的商店检测](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ ms.locfileid: "4797455"
 8. 继续输入您的电子邮件消息，在所需位置插入“书签”字段。
 9. 选择 **保存**。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

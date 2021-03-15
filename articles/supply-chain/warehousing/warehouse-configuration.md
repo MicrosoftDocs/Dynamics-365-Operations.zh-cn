@@ -118,3 +118,6 @@ Supply Chain Management 中的仓库管理系统允许您以灵活方式定义�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

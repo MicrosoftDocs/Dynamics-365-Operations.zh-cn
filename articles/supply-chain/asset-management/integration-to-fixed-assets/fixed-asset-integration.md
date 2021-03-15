@@ -114,3 +114,6 @@ ms.locfileid: "4994221"
 1. 查找并打开固定资产。
 1. 在 **固定资产** 快速选项卡上，清除 **功能位置** 字段中的值。
 1. 在操作窗格上，选择 **保存**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

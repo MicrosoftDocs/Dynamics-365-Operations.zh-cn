@@ -118,3 +118,6 @@ ms.locfileid: "4991507"
 [站点选择器模块](site-selector.md)
 
 [商店选择器模块](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

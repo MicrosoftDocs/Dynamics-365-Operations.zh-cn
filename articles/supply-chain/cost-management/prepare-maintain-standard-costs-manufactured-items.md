@@ -72,3 +72,6 @@ ms.locfileid: "4967400"
 
 [设置可以生产或采购的产品](manufactured-items-treated-as-purchased-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ ms.locfileid: "5012106"
 18. 在 **费用币种** 字段中，选择费用的币种。 此为费用支付币种。  
 19. 单击 **保存**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

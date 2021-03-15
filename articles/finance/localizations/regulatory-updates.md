@@ -77,3 +77,6 @@ Microsoft 致力于尽早实施新的监管要求。 实际交付日期取决于
 - 在 [Lifecycle Service - 问题搜索](https://lcs.dynamics.com/Logon/Index)上查找所有计划的和已发布监管更新（需要登录）。
 - 有关支持的本地化列表，请参阅[全球可用性指南](https://aka.ms/dynamics_365_international_availability_deck)。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

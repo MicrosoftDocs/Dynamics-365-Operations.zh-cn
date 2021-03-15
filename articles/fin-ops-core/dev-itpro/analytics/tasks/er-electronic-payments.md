@@ -81,3 +81,6 @@ ms.locfileid: "5092192"
 25. 单击“确定”。
     * 分析以 XML 格式创建的付款文件。 将其与设计的文档格式和定义的付款交易记录属性比较。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

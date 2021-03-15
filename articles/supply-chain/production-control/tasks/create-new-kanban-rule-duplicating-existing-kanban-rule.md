@@ -43,3 +43,6 @@ ms.locfileid: "5010989"
 3. 单击“确定”。
     * 请注意，已创建看板规则 000017 的副本。    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

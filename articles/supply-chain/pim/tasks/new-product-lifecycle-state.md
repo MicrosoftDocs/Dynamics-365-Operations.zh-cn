@@ -34,3 +34,6 @@ ms.locfileid: "4986821"
 3. 在“状态”字段中，键入一个值。
 4. 在“描述”字段中，键入一个值。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

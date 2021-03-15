@@ -82,3 +82,6 @@ ms.locfileid: "5000201"
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>“生产参数”页上的库存预留策略
 
 **生产参数** 页上的 **常规** 选项卡上的 **预留** 字段的值确定在生产流程中应预留库存的默认点。 例如，可以在编制工作计划时或者在工作开始时预留库存。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

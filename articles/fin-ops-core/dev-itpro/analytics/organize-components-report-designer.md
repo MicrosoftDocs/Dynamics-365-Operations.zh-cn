@@ -148,3 +148,6 @@ ms.locfileid: "5092415"
 ## <a name="additional-resources"></a>其他资源
 
 [财务报告](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -126,3 +126,6 @@ ms.locfileid: "4999798"
 1. 在网格中，选择将 **现场** 字段设置为 **物料编号** 的行。
 1. 在 **条件** 字段中，输入一个值。
 1. 选择 **确定**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

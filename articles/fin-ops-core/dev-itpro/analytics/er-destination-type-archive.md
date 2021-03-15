@@ -57,3 +57,6 @@ ms.locfileid: "5094121"
 - [电子报告 (ER) 概览](general-electronic-reporting.md)
 - [电子报告 (ER) 目标](electronic-reporting-destinations.md)
 - [配置文档管理](../../fin-ops/organization-administration/configure-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

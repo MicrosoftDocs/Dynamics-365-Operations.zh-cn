@@ -141,3 +141,6 @@ April 过帐付款日记帐并在 **供应商交易记录** 页上查看供应�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

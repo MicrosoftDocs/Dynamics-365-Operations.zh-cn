@@ -96,3 +96,6 @@ ms.locfileid: "4991059"
 - **编辑现金折扣期限** - 根据基准日期和现金折扣期限更改现金折扣。
 
 付款设置编辑完毕后，请选择 **关闭** 以保存更改。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

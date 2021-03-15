@@ -332,3 +332,6 @@ ms.locfileid: "4995182"
 > [!NOTE] 
 > - 在访问列表层次结构可能会影响 Power BI 中的数据前，Power BI 中的访问列表层次结构和行级别安全性必须配对。 有关详细信息，请参阅 [设置成本核算内容包的安全性](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)。
 > - 访问列表层次结构对将数据安全导出到 Excel 没有帮助。 因此，该报告工具应仅由必须具有查看数据的完全访问权限的成本会计师和经理使用。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

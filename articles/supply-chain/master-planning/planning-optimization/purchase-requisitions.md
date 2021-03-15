@@ -101,3 +101,6 @@ ms.locfileid: "4992336"
 > 限定到采购申请的计划订单确认后，计划引擎保留采购申请限定。 如果后来发现确认订单缺少一些满足采购申请所需的数量，系统将为相差数量创建一个新的计划订单。
 
 有关采购申请的详细信息，请参阅[采购申请概述](../../procurement/purchase-requisitions-overview.md)。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

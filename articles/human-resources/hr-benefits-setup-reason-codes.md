@@ -79,3 +79,5 @@ Dynamics 365 Human Resources 使用原因代码来解释为什么员工的福利
 原因代码迁移到“人事管理”后，在“福利管理”中使用它们的选项将自动设置为 **是**。
 
 [![在“福利管理”中使用原因代码](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

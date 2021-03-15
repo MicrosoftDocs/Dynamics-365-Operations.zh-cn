@@ -72,3 +72,6 @@ ms.locfileid: "4979845"
 [购物车和结账页面概览](quick-tour-cart-checkout.md)
 
 [帐户管理页面概览](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

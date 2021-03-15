@@ -59,3 +59,6 @@ ms.locfileid: "4797383"
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>什么是“工作流增强错误”功能？
 版本 10.0.13 中的“工作流增强错误”功能添加了错误代码来区分不同的工作流错误类。 报告的错误消息大致相似，只有微小差异，以使它们更清晰。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

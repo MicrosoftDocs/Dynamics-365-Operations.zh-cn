@@ -147,3 +147,6 @@ ms.locfileid: "5093229"
 4. 单击“完成”。
 5. 单击“确定”。
 ![ER 模型映射设计器页面](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

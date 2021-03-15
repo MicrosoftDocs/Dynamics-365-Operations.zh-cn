@@ -112,3 +112,6 @@ ms.locfileid: "5097095"
 [产品建议概览](product-recommendations.md)
 
 [快速查看模块](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

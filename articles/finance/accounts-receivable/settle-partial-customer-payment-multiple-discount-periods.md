@@ -97,3 +97,6 @@ Arnie 可以在 **客户交易记录** 页上查看该交易记录。
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

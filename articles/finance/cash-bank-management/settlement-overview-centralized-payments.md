@@ -107,3 +107,6 @@ ms.locfileid: "4989192"
 
 ## <a name="withholding-tax"></a>预缴税金
 与发票关联的供应商帐户用于确定是否应计算预缴税金。 如果预缴税金如果适用，则在与发票关联的法人中计算。 如果使用不同币种法人，则使用来自与发票关联的法人的汇率。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -181,3 +181,6 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 [设置呼叫中心渠道](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

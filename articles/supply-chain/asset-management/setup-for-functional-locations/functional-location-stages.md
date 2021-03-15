@@ -62,3 +62,6 @@ ms.locfileid: "5021259"
 5. 如果要为模型选择所有可用状态，请单击![选择所有可用阶段](media/03-setup-for-functional-locations.png)按钮。 将把所有状态移到 **所选生命周期状态** 部分。
 6. 如果要从模型删除所选状态，请在 **所选生命周期状态** 部分中选择状态，然后单击 ![后退箭头](media/04-setup-for-functional-locations.png) 按钮。
 7. 要定义哪些生命周期状态可采用所选状态，选择 **生命周期状态更新**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

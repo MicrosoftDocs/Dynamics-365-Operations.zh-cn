@@ -60,3 +60,6 @@ ms.locfileid: "5022575"
 >[!NOTE]
 >如果要仅侧重有关计划的工作订单的产能计划，请参阅[对计划的工作订单计算产能负荷](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md)。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Human Resources 提供一组工具，可使用这组工具设置和维护组织�
 同样，如果您决定提供的福利期限比原始计划期限更长，则大批福利到期也让您可以同时扩展福利和已登记该福利的工作人员的到期日期。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

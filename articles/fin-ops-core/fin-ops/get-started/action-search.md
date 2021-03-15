@@ -75,3 +75,6 @@ ms.locfileid: "4798639"
 ## <a name="action-search-vs-navigation-search"></a>操作搜索与导航搜索
 
 操作搜索用于在页面上查找和运行操作，而查找和导航到页面存在单独的搜索机制。 有关该功能的详细信息，请参阅[导航搜索](navigation-search.md)一文。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

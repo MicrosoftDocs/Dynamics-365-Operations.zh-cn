@@ -53,3 +53,6 @@ ms.locfileid: "4994782"
     * 请注意，在设置使用年限后，计算“折旧期间”。  
     * 您可以为税务目的将折扣惯例设置为必需。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

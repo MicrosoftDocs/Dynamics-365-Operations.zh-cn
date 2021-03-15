@@ -154,3 +154,6 @@ ms.locfileid: "5093434"
 | 日期                  | 日期、年偏移                                    |
 
 默认情况下，此内容显示当前日历年的数据。 但是，您可以更改报表筛选器部分中的数据筛选器。 还可以更改公司筛选器。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

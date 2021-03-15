@@ -41,3 +41,6 @@ ms.locfileid: "5020096"
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>如何确定环境是否需要更新后的分隔符 
 如果升级后的环境中的分隔符冲突，在细分条目控件或维度条目控件中输入值时，可能遇到不稳定。 这意味着输入科目和维度组合时，始终需要使用查找或弹出菜单。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

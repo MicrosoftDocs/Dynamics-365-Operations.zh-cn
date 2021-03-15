@@ -162,3 +162,6 @@ CDN 的设置过程通常包含下面的步骤：
 [在 Commerce 环境中配置多个 B2C 租户](configure-multi-B2C-tenants.md)
 
 [启用基于位置的商店检测](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

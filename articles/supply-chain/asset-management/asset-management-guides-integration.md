@@ -113,3 +113,6 @@ ms.locfileid: "5000276"
 
 - [双写入概览](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [资产管理概览](index.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

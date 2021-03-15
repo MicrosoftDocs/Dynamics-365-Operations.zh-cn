@@ -65,3 +65,6 @@ ms.locfileid: "5021107"
 
 >[!NOTE]
 >也可以为工作订单登记条件评估（**资产管理** > **常用** > **工作订单** > **所有工作订单** > **条件评估** 按钮）。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

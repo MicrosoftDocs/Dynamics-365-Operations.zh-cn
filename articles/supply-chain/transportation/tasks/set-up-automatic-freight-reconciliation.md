@@ -71,3 +71,6 @@ ms.locfileid: "4974002"
 11. 在“未足额支付原因代码”字段中，输入或选择一个值。
 12. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ ms.locfileid: "5098613"
 [验证页面内容的可访问性](verify-accessibility.md)
 
 [在线渠道可扩展性](e-commerce-extensibility/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

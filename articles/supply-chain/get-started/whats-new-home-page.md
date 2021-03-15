@@ -67,3 +67,6 @@ ms.locfileid: "5014550"
 | Microsoft Dynamics 365 for Operations                                 | 1611        | 7.1.1541.3036    | 2016 年 11 月    | [Dynamics 365 for Operations 版本 1611（2016 年 11 月）的新增功能和更改内容](../../fin-ops-core/fin-ops/get-started/whats-new-dynamics-365-operations-1611.md)                |
 | Microsoft Dynamics AX                                                 | 7.0.1       | 7.0.1265.23014   | 2016 年 5 月         | [Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）的新增功能和更改内容](../../fin-ops-core/fin-ops/get-started/whats-new-changed-application-version-7-0-1-may-2016.md)          |
 | Microsoft Dynamics AX                                                 | 7.0         | 7.0.1265.3015    | 2016 年 2 月    | [Dynamics AX 7.0（2016 年 2 月）中的新增功能和更改内容](../../fin-ops-core/fin-ops/get-started/whats-new-changed-7-0-february-2016.md)                                            |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

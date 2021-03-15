@@ -124,3 +124,6 @@ ms.locfileid: "5007358"
 
 您可以为询价 (RFQ) 的任何回复创建贸易协议，无论它们是被接受还是被拒绝。 有关详细信息，请参阅[询价 (RFQ) 概述](request-quotations.md)。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

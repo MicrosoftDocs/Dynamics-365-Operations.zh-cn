@@ -106,3 +106,6 @@ ms.locfileid: "5000501"
 [产品详细信息页面概览](quick-tour-pdp.md)
 
 [帐户管理页面概览](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ ms.locfileid: "5078236"
 要查看处理波次的批处理作业，在 **所有波次** 页上的操作窗格中选择 **批处理作业**。
 
 从这里，您可以查看每个批处理作业 ID 的所有批处理任务详细信息。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

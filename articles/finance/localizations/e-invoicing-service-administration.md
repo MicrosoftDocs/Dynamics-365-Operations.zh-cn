@@ -138,3 +138,6 @@ LCS 环境 ID 是您组织的 LCS 订阅的 ID。
 
 - [在 RCS 中配置电子发票](e-invoicing-configuration-rcs.md)
 - [在 Finance 和 Supply Chain Management 中开具电子发票](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

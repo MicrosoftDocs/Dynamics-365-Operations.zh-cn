@@ -68,3 +68,6 @@ ms.locfileid: "4972123"
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>供应商发票自动化 - 恢复多张发票的自动化处理
 如果未能通过自动化流程将导入的发票提交给工作流，则系统会取消进一步的自动化处理。 应付帐款业务员可以在自动流程将发票重新提交到工作流之前查看和编辑发票。 如果可以通过同一修复程序解决多张发票的失败原因，则可以在 **恢复自动化发票处理** 页重新开始自动化流程。 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

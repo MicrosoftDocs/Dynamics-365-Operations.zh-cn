@@ -66,3 +66,6 @@ Commerce 提供显示类别数据时使用的默认类别登陆页。 默认类�
 [验证页面内容的可访问性](verify-accessibility.md)
 
 [基于 URL 参数创建动态电子商务页面](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ ms.locfileid: "5092167"
 
 ![ER 数据模型设计器页面](../media/er-financial-dimensions-guides-data-model.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

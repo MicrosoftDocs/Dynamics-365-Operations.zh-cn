@@ -71,3 +71,6 @@ ms.locfileid: "5031839"
 [创建呼叫中心订单](tasks/create-call-center-orders.md)
 
 [在 POS 上更改交货方式](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

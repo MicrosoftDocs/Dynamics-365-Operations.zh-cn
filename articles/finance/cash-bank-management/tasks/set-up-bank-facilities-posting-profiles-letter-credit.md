@@ -73,3 +73,6 @@ ms.locfileid: "4976311"
     * 当过帐打开的毛利时借记此科目，当过帐贷款时贷记此科目。  
 9. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

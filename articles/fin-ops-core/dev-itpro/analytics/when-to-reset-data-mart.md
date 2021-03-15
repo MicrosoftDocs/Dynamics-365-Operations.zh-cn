@@ -54,3 +54,6 @@ ms.locfileid: "5093204"
 > 以下几点指定重置数据市场 *不* 会做的两件事。 <br>
 > - 重置不会清除报表设计。 <br>
 > - 除非选择，否则重置不会清除公司数据或用户数据。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

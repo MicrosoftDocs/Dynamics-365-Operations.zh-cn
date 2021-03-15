@@ -67,3 +67,6 @@ ms.locfileid: "4990734"
     * 继续操作，直到所有成本中心均已映射到其相应辅助成本元素。  
 16. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

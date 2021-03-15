@@ -39,3 +39,6 @@ ms.locfileid: "4968521"
 9. 单击 **确定** 以关闭“筛选”页面。
 10. 单击 **确定** 开始日记帐分录过程。 此流程完成之后将生成一个报告。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

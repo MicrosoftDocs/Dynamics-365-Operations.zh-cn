@@ -46,3 +46,6 @@ ms.locfileid: "4978629"
 8. 在“合并帐户”字段中，键入一个值。
 9. 在“合并帐户名称”字段中，键入一个值。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

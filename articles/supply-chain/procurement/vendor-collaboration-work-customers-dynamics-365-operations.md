@@ -146,3 +146,6 @@ ms.locfileid: "4991907"
 ## <a name="additional-resources"></a>其他资源
 
 [管理供应商协作用户](manage-vendor-collaboration-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

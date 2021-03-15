@@ -298,3 +298,6 @@ Finance 的 ER 配置列表会不断更新。 打开[全局存储库](er-downloa
 
 - [创建电子报告 (ER) 配置](electronic-reporting-configuration.md)
 - [管理电子申报 (ER) 配置生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

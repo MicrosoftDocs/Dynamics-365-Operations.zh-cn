@@ -221,3 +221,6 @@ Human Resources 的本地表单独生成，并在 Dataverse 的 HCM 通用解决
 [创建和编辑包含来自外部数据源的数据的虚拟表](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [什么是 Power Apps 门户？](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [在 Power Apps 中创建应用概述](https://docs.microsoft.com/powerapps/maker/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

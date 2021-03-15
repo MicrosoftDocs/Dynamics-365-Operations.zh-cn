@@ -95,3 +95,6 @@ ms.locfileid: "5009235"
 有关合并和货币折算的详细信息，请参阅此主题的父主题，即[财务合并和货币折算概述](./financial-consolidations-currency-translation.md)。
 
 有关可以生成财务报表的方案的信息，请参阅[生成合并的财务报表](./generating-consolidated-financial-statements.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

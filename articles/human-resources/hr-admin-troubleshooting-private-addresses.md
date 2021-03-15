@@ -39,3 +39,6 @@ ms.locfileid: "5111605"
 3. 选择 **保存**。
 
 ![全球通讯簿参数页面](media/GAD-parameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

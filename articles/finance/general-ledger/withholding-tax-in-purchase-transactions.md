@@ -75,3 +75,6 @@ ms.locfileid: "5060704"
 所得的预缴税金金额将从供应商付款中扣除，并过帐到相关凭证中的 **预缴税金科目**。
 
 ![显示相关凭证的预缴税金科目](media/withholding-tax-adjusted.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

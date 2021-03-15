@@ -48,3 +48,6 @@ ms.locfileid: "4985878"
 - **类别和产品管理** 工作区 &gt; **Retail 和 Commerce** &gt; **产品和类别** &gt; **商店管理** &gt; **报表**
 - **定价和折扣管理** 工作区 &gt; **Retail 和 Commerce** &gt; **定价和折扣** &gt; **商店管理** &gt; **报表**
 - **查询和报表** 部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

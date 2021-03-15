@@ -50,3 +50,6 @@ ms.locfileid: "5131271"
 3. 选择 **保存**。
 
 租赁创建后，将根据为租赁输入的开始日期和为帐簿指定的租赁惯例自动输入每个帐簿的开始日期。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Contoso Consulting 已启动了一个新的云部署项目。 创建了采购订
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

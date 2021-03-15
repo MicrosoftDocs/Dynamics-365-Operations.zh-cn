@@ -44,3 +44,6 @@ ms.locfileid: "5009610"
 - 销售税汇总
 - 价格覆盖汇总
 - 折扣汇总
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

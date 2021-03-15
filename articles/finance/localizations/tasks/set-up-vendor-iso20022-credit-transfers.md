@@ -51,3 +51,6 @@ ms.locfileid: "4988012"
 4. 在列表中，单击 SEPA CT 行中的链接。
 5. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

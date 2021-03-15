@@ -55,3 +55,6 @@ ms.locfileid: "5012305"
 ### <a name="custom-extensions"></a>自定义扩展
 
 管理员可以创建自己的扩展来管理用户的退出体验。 有关详细信息，请参阅[调用 Retail Server API](e-commerce-extensibility/call-retail-server-apis.md) 和[在线渠道可扩展性](e-commerce-extensibility/overview.md)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

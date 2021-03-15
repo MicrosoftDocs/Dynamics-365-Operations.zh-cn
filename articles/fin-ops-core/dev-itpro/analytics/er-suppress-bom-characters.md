@@ -66,3 +66,6 @@ ms.locfileid: "5060811"
 ## <a name="see-also"></a>请参阅
 
 - [推迟执行电子报告格式的 XML 元素](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

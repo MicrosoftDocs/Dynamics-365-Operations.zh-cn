@@ -76,3 +76,6 @@ ms.locfileid: "5035876"
 [设置 B2B 电子商务站点的产品数量限制](quantity-limits.md)
 
 [SDK 和模块库更新](../e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

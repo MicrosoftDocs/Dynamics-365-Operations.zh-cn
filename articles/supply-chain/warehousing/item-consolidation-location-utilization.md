@@ -207,3 +207,6 @@ ms.locfileid: "5004644"
 
     > [!NOTE]
    > 系统会为必须完成的每个移动创建一个工作 ID。 如果您指定的位置已经包含库存，将仅创建一个工作 ID。 如果指定新位置，将创建两个工作 ID。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

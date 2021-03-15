@@ -59,3 +59,6 @@ ms.locfileid: "5022550"
 8. 如果要查看与物料关联的产品、存储或跟踪维度，请单击 **显示维度** 按钮。 选中相关复选框，然后单击 **确定**。
 
 ![图 1](media/02-capacity-planning.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

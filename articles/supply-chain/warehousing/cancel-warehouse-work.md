@@ -44,3 +44,6 @@ Microsoft Dynamics 365 Supply Chain Management 中的“取消工作”功能使
 要取消阻止工作，系统会取消所有其余工作行并修复与用户指定的工作 ID 关联的仓库数据。 然后可以恢复涉及受影响物料数量的任何常规仓库处理操作。
 
 要在取消工作后将受影响的物料放置在特定位置，用户必须在移动设备上使用库存变动或数量调整操作。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

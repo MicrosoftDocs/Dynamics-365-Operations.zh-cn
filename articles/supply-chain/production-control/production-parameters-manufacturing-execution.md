@@ -153,3 +153,6 @@ ms.locfileid: "5001566"
 | 完工入库 |   自动物料清单消耗量    | <strong>从不</strong>  |
 | 完工入库 | 联机更新已完成的报告 | <strong>状态</strong> |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

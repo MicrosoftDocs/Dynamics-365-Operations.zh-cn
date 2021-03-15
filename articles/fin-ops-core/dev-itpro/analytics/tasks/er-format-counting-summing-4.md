@@ -103,3 +103,6 @@ ms.locfileid: "5092939"
 21. 单击“打开”。
     * 查看创建的 XML 文件，其中包含执行所选配置期间收集的盘点和合计详细信息。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

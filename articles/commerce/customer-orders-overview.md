@@ -170,3 +170,6 @@ ms.locfileid: "4995787"
 ## <a name="additional-resources"></a>其他资源
 
 [混合客户订单](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

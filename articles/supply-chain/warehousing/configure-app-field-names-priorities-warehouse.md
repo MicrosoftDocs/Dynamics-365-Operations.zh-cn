@@ -143,3 +143,6 @@ ms.locfileid: "4963427"
 --------
 
 [安装和配置仓库应用概览](install-configure-warehousing-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

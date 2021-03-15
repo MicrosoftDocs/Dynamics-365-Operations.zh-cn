@@ -169,3 +169,6 @@ ms.locfileid: "5020828"
 
 ### <a name="open-confirmed-orders"></a>打开已确认的订单
 客户确认了采购订单之后（即采购订单的状态已更改为 **已确认**），将显示在未结已确认订单中。 它将一直留在列表中，直到客户将其登记为已收货。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

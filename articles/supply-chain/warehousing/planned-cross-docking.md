@@ -315,3 +315,6 @@ ms.locfileid: "4970298"
 下图显示 Microsoft Dynamics 365 Supply Chain Management 中可能如何显示已完成的越库配送工作。
 
 ![越库配送工作已完成](media/PlannedCrossDockingWork.png "越库配送工作已完成")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ ms.locfileid: "4981223"
 4. 在“输入位置”字段中，输入或选择一个值。
     * 指定运营资源调用物料的仓库位置。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

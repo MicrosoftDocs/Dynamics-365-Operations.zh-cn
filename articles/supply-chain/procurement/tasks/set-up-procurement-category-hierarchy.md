@@ -44,3 +44,6 @@ ms.locfileid: "5017308"
 4. 选择您想要添加到采购类别的产品。
 5. 选择箭头以将产品添加到 **所选** 表中。
 6. 选择 **确定**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

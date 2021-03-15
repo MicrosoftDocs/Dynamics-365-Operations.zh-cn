@@ -114,3 +114,6 @@ ms.locfileid: "4965296"
 [创建法人](channels-legal-entities.md)
 
 [创建变型组](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

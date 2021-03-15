@@ -131,3 +131,6 @@ ms.locfileid: "5115744"
 调查表可用于网络中的所有人士，或者可用于特定的用户组或所有用户。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

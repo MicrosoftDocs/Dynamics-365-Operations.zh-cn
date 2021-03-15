@@ -54,3 +54,6 @@ ms.locfileid: "4994582"
 9. 在 **维度值** 字段中，输入描述财务维度值的名称。
 10. 在 **描述** 字段中，输入描述您的财务维度值的描述。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

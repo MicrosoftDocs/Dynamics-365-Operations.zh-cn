@@ -89,3 +89,6 @@ ms.locfileid: "5127585"
 > [!NOTE]
 > 不能使用 LCS 取消链接环境。 若要取消链接环境，请在 Finance and Operations 环境中打开 **数据集成** 工作区，然后选择 **取消链接**。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

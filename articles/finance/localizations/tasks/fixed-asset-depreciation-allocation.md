@@ -66,3 +66,6 @@ ms.locfileid: "4984721"
 6. 在“资产折旧费用分配”字段中，键入一个值。
 7. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

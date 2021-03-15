@@ -94,3 +94,6 @@ ms.locfileid: "4976980"
 8. 在“重量单位”字段中，输入或选择一个值。
 9. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

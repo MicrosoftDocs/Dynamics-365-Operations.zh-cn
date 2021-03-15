@@ -78,3 +78,6 @@ Finance Insights 公开预览版可用于美国、欧洲和英国的试用部署
 ## <a name="privacy-notice"></a>隐私声明
 
 预览版 (1) 采用的隐私和安全措施可能比 Dynamics 365 Finance and Operations 服务少，(2) 不包含在该服务的服务级别协议 (SLA) 中，(3) 不应用于处理应遵守法律或法规合规性要求的个人数据或其他数据，以及 (4) 享受有限支持。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

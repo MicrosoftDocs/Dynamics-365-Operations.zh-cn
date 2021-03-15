@@ -42,3 +42,6 @@ ms.locfileid: "4826386"
 
 > [!IMPORTANT] 
 > 创建规则时，不会验证是否符合职责划分规则。 您可以创建一个为现有角色创建冲突的规则。 现有用户角色分配也可能与新规则冲突。 创建或修改规则后，您必须验证合规性。 有关详细信息，请参阅[确定和解决职责划分冲突](identify-resolve-conflicts-segregation-duties.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

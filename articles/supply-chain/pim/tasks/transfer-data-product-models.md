@@ -36,3 +36,6 @@ ms.locfileid: "4966797"
 5. 单击“导出产品模型”。
     * 根据安全设置，不同浏览器之间的下载行为各不相同。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

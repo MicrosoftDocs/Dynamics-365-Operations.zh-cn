@@ -72,3 +72,6 @@ Commerce 站点构建器的媒体库允许上传视频。 应始终上传比特�
 [自定义图像焦点](dam-custom-focal-point.md)
 
 [上传和提供静态文件](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

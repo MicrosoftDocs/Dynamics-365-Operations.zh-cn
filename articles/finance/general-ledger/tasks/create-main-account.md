@@ -51,3 +51,6 @@ ms.locfileid: "4978583"
 21. 在 **币种转换类型** 字段中，选择科目汇率的计算方法。
 22. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

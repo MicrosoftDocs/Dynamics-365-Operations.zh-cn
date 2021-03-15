@@ -114,3 +114,6 @@ ms.locfileid: "4971670"
 
  - [审核收款信息](tasks/review-collections-information.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

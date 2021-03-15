@@ -112,3 +112,6 @@ Supply Chain Management 当前不支持已过帐发票的佣金计算。
 捆绑物料不能用于采购订单，因为如果检查捆绑物料的销售订单行，您会注意到数量为 *0*（零），状态为 *已取消*。 此为有意行为。 销售订单仅购买捆绑物料的组件。 不购买捆绑物料本身。
 
 如果必须购买捆绑，请考虑是否必须将其标记为捆绑物料，因为此功能是为收入确认场景设计的。 有关捆绑物料的详细信息，请参阅[捆绑销售](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

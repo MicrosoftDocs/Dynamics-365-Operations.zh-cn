@@ -56,3 +56,6 @@ ms.locfileid: "5010791"
 11. 选择 **确定**。
 12. 关闭该页面。 此协议现在已生效。 您可以将客户订单链接到协议，来抵消承诺目标。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

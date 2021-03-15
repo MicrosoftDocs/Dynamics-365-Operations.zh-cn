@@ -118,3 +118,6 @@ Finance and Operations 字段 | 映射类型 | Customer engagement 字段 | 默�
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

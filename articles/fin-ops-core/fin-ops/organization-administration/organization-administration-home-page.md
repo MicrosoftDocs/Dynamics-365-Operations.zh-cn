@@ -101,3 +101,6 @@ ms.locfileid: "4797014"
 - [配置文档管理](configure-document-management.md)
 - [配置和发送电子邮件](configure-email.md)
 - [日期/时间数据和时区](date-time-zones.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

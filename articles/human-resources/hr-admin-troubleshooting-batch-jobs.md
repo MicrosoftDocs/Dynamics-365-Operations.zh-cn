@@ -65,3 +65,6 @@ ms.locfileid: "5111664"
 ## <a name="additional-resources"></a>其他资源
 
 [使用自动清理任务优化性能](hr-admin-troubleshooting-batch-history.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

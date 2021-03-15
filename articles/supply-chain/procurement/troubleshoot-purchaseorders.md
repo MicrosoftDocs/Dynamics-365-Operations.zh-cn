@@ -144,3 +144,6 @@ ms.locfileid: "5007483"
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>我可以找到取消采购订单的用户吗？
 
 仅当采购订单接受更改管理时，才会跟踪此信息。 如果使用更改管理，您可以查看谁提交了更改（取消）以及谁批准了更改。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

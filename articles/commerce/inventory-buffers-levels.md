@@ -148,3 +148,6 @@ Commerce 站点构建器使用 Commerce 总部中的库存缓冲区和库存级�
 [应用库存设置](inventory-settings.md)
 
 [计算零售渠道的库存现有量](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

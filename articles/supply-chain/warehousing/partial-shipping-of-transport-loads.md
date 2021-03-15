@@ -65,3 +65,6 @@ ms.locfileid: "4963277"
 
 1. 选择 **仓库管理** \> **负荷** \> **运输负荷**。
 2. 在操作窗格上 **装运和接收** 选项卡上 **确认** 组中，选择 **运输**。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

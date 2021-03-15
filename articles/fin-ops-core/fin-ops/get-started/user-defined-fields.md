@@ -162,3 +162,6 @@ ms.locfileid: "4798109"
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>是否可以从开发者工具引用自定义字段？  
 
 自定义字段只能通过用户界面管理，不能通过代码引用。 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

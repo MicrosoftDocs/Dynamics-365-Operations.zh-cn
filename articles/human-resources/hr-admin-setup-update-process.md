@@ -105,3 +105,6 @@ Human Resources 更新将自动应用于所有环境。 Human Resources 提供�
 [Dynamics 365 Human Resource 的新增功能或更改](hr-admin-whats-new.md)</br>
 [软件生命周期策略](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

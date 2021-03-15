@@ -50,3 +50,6 @@ ms.locfileid: "4966147"
     * 请注意，负数金额的交易记录（表示总返利金额，而无发票参考编号）已被添加到客户余额。   
 15. 单击“取消”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

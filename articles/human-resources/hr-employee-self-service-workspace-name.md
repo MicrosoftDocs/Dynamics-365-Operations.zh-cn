@@ -45,3 +45,6 @@ ms.locfileid: "5115190"
 ## <a name="additional-resources"></a>其他资源
 
 - [员工和经理自助服务概述](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ ms.locfileid: "5019745"
 - [定义采购申请的业务流程工作流](https://www.microsoft.com/download/details.aspx?id=101821)
 - [采购申请工作流](purchase-requisitions-workflow.md)
 - [载入供应商](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

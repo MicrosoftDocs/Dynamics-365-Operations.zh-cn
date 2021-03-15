@@ -106,3 +106,6 @@ ms.locfileid: "4963602"
 | [考试 MB-300：Microsoft Dynamics 365 Unified Operations 核心](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：使用常用功能和实施工具，配置安全、流程和选项，执行数据迁移，以及验证和支持解决方案。 | 考试，成本取决于地区 |
 | [考试 MB-320：Microsoft Dynamics 365 for Finance and Operations、制造](https://docs.microsoft.com/learn/certifications/exams/mb-320?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：设置和配置制造，创建和管理生产和精益订单，以及创建、处理和管理生产批量订单。 | 考试，成本取决于地区 |
 | [考试 MB-330：Microsoft Dynamics 365 for Finance and Operations、Supply Chain Management](https://docs.microsoft.com/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：实施产品信息管理，实施库存管理，实施和管理供应链流程，以及实施仓库管理和运输管理与执行业务流程。 | 考试，成本取决于地区 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

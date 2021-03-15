@@ -360,3 +360,6 @@ ms.locfileid: "4988457"
 
     > [!NOTE]
     > 当您选择 **是** 时，配置版本的状态会自动从 **已完成** 更改为 **已共享**。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

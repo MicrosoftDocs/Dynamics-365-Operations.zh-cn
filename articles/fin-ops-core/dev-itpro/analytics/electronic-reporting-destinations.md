@@ -241,3 +241,6 @@ PDF 转换选项仅可用于云部署。
 [电子报告 (ER) 概览](general-electronic-reporting.md)
 
 [配置依赖操作的 ER 目标](er-action-dependent-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

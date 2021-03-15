@@ -61,3 +61,6 @@ ms.locfileid: "5154219"
 
 [生成统计基准预测](generate-statistical-baseline-forecast.md)  
 [数据导入和导出作业概览](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

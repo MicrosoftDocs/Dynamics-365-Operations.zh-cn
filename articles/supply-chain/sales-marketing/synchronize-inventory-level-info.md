@@ -92,3 +92,6 @@ Supply Chain Management 将充当库存水平的主水平。 因此，如果在 
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>产品库存（Supply Chain Management 到 Field Service）：产品库存
 
 [![数据集成中的模板映射](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

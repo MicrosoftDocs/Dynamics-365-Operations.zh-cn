@@ -298,3 +298,6 @@ ms.locfileid: "4988465"
 - [电子开票附加产品概述](e-invoicing-service-overview.md)
 - [开始使用电子开票附加产品](e-invoicing-get-started.md)
 - [设置电子开票附加产品](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

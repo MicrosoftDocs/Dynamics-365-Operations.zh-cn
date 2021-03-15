@@ -67,3 +67,6 @@ ms.locfileid: "5018488"
 
 ![包含功能位置的月工作负载示例](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

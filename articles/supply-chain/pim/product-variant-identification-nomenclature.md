@@ -197,3 +197,6 @@ T 恤衫 (TS1234) 生产为三个尺寸（S、M、L）、四种颜色（红色�
 
 [为配置的产品变型创建产品编号命名法](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

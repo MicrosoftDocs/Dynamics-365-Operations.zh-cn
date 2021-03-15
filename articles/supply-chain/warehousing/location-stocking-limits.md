@@ -103,3 +103,6 @@ ms.locfileid: "5004562"
 
 > [!NOTE]
 > 例如，您不能使用库位库存限制来控制在同一库位上具有不同数量的物料的补货。 在这种情况下，使用 *补货模板*。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

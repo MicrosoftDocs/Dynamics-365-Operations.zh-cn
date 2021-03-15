@@ -59,3 +59,6 @@ ms.locfileid: "4961469"
 9. 单击 **装运的销售订单**。
 10. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

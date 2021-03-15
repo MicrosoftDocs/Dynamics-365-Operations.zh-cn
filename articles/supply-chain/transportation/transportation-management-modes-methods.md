@@ -46,3 +46,6 @@ ms.locfileid: "4973902"
 1. 选择 **新建** 创建新的运输方法。
 1. 为运输方法输入唯一的 ID 和描述名称。
 1. 关闭该页面。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

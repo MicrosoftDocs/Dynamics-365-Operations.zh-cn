@@ -62,3 +62,6 @@ ms.locfileid: "4985179"
 33. 单击 **确定** 以生成付款。
 34. 如果所有付款已获得审批和生成，单击 **过帐**。 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

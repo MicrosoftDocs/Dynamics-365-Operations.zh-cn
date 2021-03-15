@@ -146,3 +146,6 @@ ms.locfileid: "5093740"
 5. 选择当前配置的已完成版本。
     * 请注意已创建配置保存为已完成版本 1。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

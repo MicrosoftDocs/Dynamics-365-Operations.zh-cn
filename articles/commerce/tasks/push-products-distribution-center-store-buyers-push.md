@@ -52,3 +52,6 @@ ms.locfileid: "5012333"
 19. 单击“创建订单”。
 20. 单击“是”。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

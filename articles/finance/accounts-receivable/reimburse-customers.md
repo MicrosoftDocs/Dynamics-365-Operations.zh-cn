@@ -48,3 +48,6 @@ ms.locfileid: "5012131"
 
 5. 要查看创建的偿还交易记录，请使用 **偿还** 报表（**应收帐款 \> 查询和报表 \> 偿还报表**）。
 6. 在应付帐款中，为偿还流程创建的供应商发票创建付款。 有关如何向供应商付款的信息，请参阅[供应商付款概述](../accounts-payable/Vendor-payments-workspace.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

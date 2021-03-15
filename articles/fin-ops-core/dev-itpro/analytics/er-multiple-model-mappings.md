@@ -182,3 +182,6 @@ ER 模型映射组件可以放在 ER 数据模型[配置](general-electronic-rep
 - [管理单独电子报告配置中的电子报告模型映射](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [配置与国家/地区上下文相关的电子报告模型映射](er-country-dependent-model-mapping.md)
 - [电子报告框架 API 更改](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

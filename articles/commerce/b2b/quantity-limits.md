@@ -84,3 +84,6 @@ ms.locfileid: "5035877"
 [在 B2B 电子商务站点上管理业务合作伙伴用户](manage-b2b-users.md)
 
 [配置 B2B 电子商务站点的客户帐户付款方式](payment-method.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ ms.locfileid: "5115020"
 - [配置休假和缺勤类型](hr-leave-and-absence-types.md)
 - [累积休假和缺勤计划](hr-leave-and-absence-accrue.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ ms.locfileid: "4966997"
 17. 将“数量”设置为“1000”。
 18. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

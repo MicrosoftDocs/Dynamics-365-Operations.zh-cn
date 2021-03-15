@@ -63,3 +63,6 @@ ms.locfileid: "4976880"
 6. 在列表中选择一个 **用户 ID**。 例如，24。
 7. 展开 **工作** 快速选项卡。
 8. 在 **允许手动重新分配物料** 字段中选择 **是**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

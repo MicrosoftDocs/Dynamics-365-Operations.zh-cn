@@ -143,3 +143,6 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.17 中包含平台更新。 
 从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。
 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常是需要对编译器进行的功能更新。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

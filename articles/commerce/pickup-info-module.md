@@ -69,3 +69,6 @@ ms.locfileid: "5000601"
 [订单确认模块](order-confirmation-module.md)
 
 [订单详细信息模块](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

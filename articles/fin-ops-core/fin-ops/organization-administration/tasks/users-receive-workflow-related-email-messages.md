@@ -41,3 +41,6 @@ ms.locfileid: "4798996"
 
 > [!NOTE]
 > 工作流电子邮件模板源自系统电子邮件模板或组织电子邮件模板，具体取决于工作流是系统级（不是公司特定）还是组织级（公司特定）工作流。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

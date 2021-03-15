@@ -46,3 +46,6 @@ ms.locfileid: "4969545"
 
 5. 要查看日记帐条目，请选择 **资产租赁日记帐**。
 6. 选择新日记帐，然后选择 **过帐**。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

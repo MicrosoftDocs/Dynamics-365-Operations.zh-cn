@@ -39,3 +39,6 @@ ms.locfileid: "5011739"
 6. 单击“查看成本比较”。
 7. 单击“关闭”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ ms.locfileid: "5093865"
 - [ER 数据模型配置：内部统计（模型）](https://go.microsoft.com/fwlink/?linkid=849038)
 - [ER 模型映射配置：内部统计（映射）](https://go.microsoft.com/fwlink/?linkid=849038)
 - [ER 格式配置：内部统计（格式）](https://go.microsoft.com/fwlink/?linkid=849038)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

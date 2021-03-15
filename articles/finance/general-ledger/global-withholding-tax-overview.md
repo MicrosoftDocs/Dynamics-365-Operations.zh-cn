@@ -44,3 +44,6 @@ ms.locfileid: "5075730"
 
 > [!NOTE]
 > 对于已经存在本地化的预缴税金解决方案的国家/地区，无法启用全球预缴税金功能。 这些区域包括但不限于印度、巴西、泰国、沙特阿拉伯、爱尔兰、英国和美国。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

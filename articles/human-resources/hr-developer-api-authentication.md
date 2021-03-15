@@ -185,3 +185,6 @@ namespace TalentODataPoC
 ```
 
 检索访问令牌后，您将在发送到数据 API 的每个请求中将令牌作为不记名令牌传递到授权标头中，如上所述。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

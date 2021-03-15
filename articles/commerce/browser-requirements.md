@@ -47,3 +47,6 @@ ms.locfileid: "4991482"
 [管理 robots.txt 文件](manage-robots-txt-files.md)
 
 [启用基于位置的商店检测](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

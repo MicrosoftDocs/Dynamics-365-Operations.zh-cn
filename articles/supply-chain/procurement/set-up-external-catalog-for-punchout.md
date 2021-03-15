@@ -112,3 +112,5 @@ ms.locfileid: "5016369"
 
 - [采购 cXML 增强功能](purchasing-cxml-enhancements.md)
 - [针对电子采购发包使用外部目录](use-external-catalogs-for-punchout.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

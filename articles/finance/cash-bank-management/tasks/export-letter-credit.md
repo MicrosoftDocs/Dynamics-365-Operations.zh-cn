@@ -139,3 +139,6 @@ ms.locfileid: "4976383"
 3. 在列表中，单击所选行中的链接。
     * 核实装运状态 = 已收到付款和余额 = 0.00。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

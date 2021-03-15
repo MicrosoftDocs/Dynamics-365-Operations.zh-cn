@@ -52,3 +52,6 @@ ms.locfileid: "4965198"
 
 ## <a name="next-step"></a>后续步骤
 [促进变体和完成试验](experimentation-review-complete.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ ms.locfileid: "5016394"
 5. 单击“确定”。
     * 采购订单现在可以和其他任何订单一样完成和处理。 方法没有任何特别特征。 发票将记录供应商帐户中随订单创建的到期交易，然后处理付款。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

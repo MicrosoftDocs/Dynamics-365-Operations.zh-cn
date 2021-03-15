@@ -47,3 +47,6 @@ ms.locfileid: "4990282"
 下图显示生成的报表的示例。 如果报告代码分配给的销售税代码的 **销售税币种** 字段设置为 **EUR**，则此报表显示报告代码 **101** 的币种为 **EUR**。
 
 ![销售税支付（按代码）报表的示例](media/Sales-tax-payment-by-code-2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

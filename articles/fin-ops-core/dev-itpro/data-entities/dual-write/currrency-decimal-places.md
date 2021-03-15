@@ -95,3 +95,6 @@ Microsoft 代表将在两到三个工作日内与您联系以完成后续步骤�
 ### <a name="tables-currency-column"></a>表：货币列
 
 可以为特定货币列配置的小数位数限制为四个。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

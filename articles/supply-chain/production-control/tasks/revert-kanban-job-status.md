@@ -54,3 +54,6 @@ ms.locfileid: "4981148"
     * 选择相同作业。  
     * 请注意，该看板作业的作业状态已恢复为“已计划”（以空看板图标表示）。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

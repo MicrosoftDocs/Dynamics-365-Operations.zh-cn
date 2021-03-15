@@ -55,3 +55,6 @@ ms.locfileid: "4963477"
 2. 在 LCS 中，转到您的 Supply Chain Management 环境详细信息。
 3. 滚动到 **环境加载项** 部分。
 4. 为 IoT 智能加载项选择 **卸载**。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ ms.locfileid: "4994657"
 10. 在 **发生次数(按期间)** 字段中，输入一个数字。
 11. 在 **过帐交易记录** 字段中，选择交易记录过帐的时间，如 **每月**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ ms.locfileid: "4977180"
 15. 在列表中，查找和选择一个已收到产品的仓库。
 16. 单击“订单”以查看为选定仓库创建的订单
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

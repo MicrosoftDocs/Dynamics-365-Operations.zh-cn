@@ -88,3 +88,6 @@ ms.locfileid: "5020903"
 >[!NOTE]
 >**资产管理** 模块中使用的所有日历均在 **组织管理** > **设置** > **日历** > **日历** 中设置。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

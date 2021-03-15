@@ -225,3 +225,6 @@ Dataverse 发布的独特产品 | 产品 | **产品** 表包含定义产品的�
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>将产品数据从其他 Dynamics 365 应用迁移到 Finance and Operations
 
 如果其他 Dynamics 365 应用具有 Finance and Operations 中不存在的产品，管理员可以首先使用 **EcoResReleasedProductCreationV2Entity** 将这些产品导入 Finance and Operations。 然后，如上所述，匹配 Finance and Operations 和其他 Dynamics 365 应用中的产品数据。 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

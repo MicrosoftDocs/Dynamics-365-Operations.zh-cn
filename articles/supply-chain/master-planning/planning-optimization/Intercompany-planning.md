@@ -87,3 +87,6 @@ ms.locfileid: "4983586"
 下图显示此示例如何显示在计划生产订单的 **多级限定标准** 页面上。
 
 ![涉及三家公司的内部公司示例](media/IntercompanyPlanning2.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

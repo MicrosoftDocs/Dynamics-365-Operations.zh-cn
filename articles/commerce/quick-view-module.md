@@ -77,3 +77,6 @@ ms.locfileid: "5097044"
 [产品集合模块](product-collection-module-overview.md)
 
 [搜索结果模块](search-result-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

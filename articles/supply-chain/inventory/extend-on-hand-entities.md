@@ -68,3 +68,6 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 完成这些步骤后，您可以通过添加新字段来扩展按站点分类的现有库存量和按仓库数据实体分类的现有库存量。 这样，您可以确保在使用这些数据实体的数据迁移期间扩展字段会被识别出并包含。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

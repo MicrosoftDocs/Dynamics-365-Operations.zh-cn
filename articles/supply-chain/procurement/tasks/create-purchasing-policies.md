@@ -56,3 +56,6 @@ ms.locfileid: "5017026"
 4. 选择 **关闭**。
 - 现在可为采购政策设置其他政策规则。 请注意，政策规则类型不能有在一个采购政策内同时有效的重叠规则。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

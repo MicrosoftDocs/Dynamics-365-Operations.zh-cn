@@ -87,3 +87,6 @@ ms.locfileid: "5126018"
 [申请人跟踪系统集成 API 简介](hr-admin-integration-ats-api-introduction.md)<br>
 [招聘请求的查询示例](hr-admin-integration-ats-api-recruiting-request-example-query.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

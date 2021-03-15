@@ -248,3 +248,6 @@ Power BI 不提供用于隐藏和显示空行的选项。 如果行中没有任�
 - [在 1 盒环境中访问分析工作区和报表](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [使用 Power BI Embedded 将分析添加到工作区](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

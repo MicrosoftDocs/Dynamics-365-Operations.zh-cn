@@ -99,3 +99,6 @@ ms.locfileid: "5111589"
 ## <a name="see-also"></a>请参阅
 
 [实施常见问题](hr-admin-go-live-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

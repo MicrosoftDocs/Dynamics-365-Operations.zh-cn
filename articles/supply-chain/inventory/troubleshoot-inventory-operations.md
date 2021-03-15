@@ -157,3 +157,6 @@ public final class InventJournalMovement_extension
 
 > [!IMPORTANT]
 > 强烈建议您根据环境的需要仔细编辑脚本，在测试环境中进行测试，然后在生产环境中运行脚本之前检查结果数据。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

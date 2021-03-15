@@ -99,3 +99,6 @@ Microsoft 保留足够的备份，以允许过去 14 天内的时间点还原 (P
  ## <a name="see-also"></a>请参阅
 
  [准备实施](hr-admin-go-live-prepare.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

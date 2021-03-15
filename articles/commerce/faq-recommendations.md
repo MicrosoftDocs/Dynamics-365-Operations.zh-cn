@@ -99,3 +99,6 @@ ms.locfileid: "5009891"
 [手动创建策划的建议](create-editorial-recommendation-lists.md)
 
 [使用演示数据创建建议](product-recommendations-demo-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

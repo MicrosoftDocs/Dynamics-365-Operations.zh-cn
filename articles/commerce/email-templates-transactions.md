@@ -202,3 +202,6 @@ Dynamics 365 Commerce 提供用于发送电子邮件的现成解决方案以向�
 [设置电子邮件收据](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [从 Modern POS 发送电子邮件收据](email-receipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ ms.locfileid: "4970423"
 
 - 视频：[仓库管理配置深入探索](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - 帮助主题：[创建库位指令](create-location-directive.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ ms.locfileid: "4966897"
 > [!NOTE]
 > 假设您设置了活动状态，您现在可以选择此活动状态来允许产品用于主计划和物料清单级别计算。 显然，这只在为一致计划指定了所需的所有产品详细信息时才有意义。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

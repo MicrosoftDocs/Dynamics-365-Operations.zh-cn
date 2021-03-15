@@ -77,3 +77,6 @@ ms.locfileid: "5022525"
 >[!NOTE]
 >也可以生成[工作订单报表](../work-orders/work-order-report.md)，其中包含更多工作订单详细信息。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

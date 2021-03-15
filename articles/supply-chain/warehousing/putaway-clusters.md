@@ -295,3 +295,6 @@ ms.locfileid: "4996190"
 ## <a name="notes-and-tips"></a>说明和提示
 
 对于群集 ID 成为嵌套托盘的父牌照的情况，扫描群集 ID 时会自动给出放置位置。 即使将牌照生成设置为手动，也无需再扫描牌照。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

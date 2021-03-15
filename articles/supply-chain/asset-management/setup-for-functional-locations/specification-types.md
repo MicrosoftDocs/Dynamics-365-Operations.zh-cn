@@ -63,3 +63,6 @@ ms.locfileid: "5019796"
 9. 保存该记录。
 
     **功能位置类型** 字段显示使用属性类型的功能位置的数量。 **资产类型** 字段显示正在使用功能位置的资产类型的数量。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

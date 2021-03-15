@@ -50,3 +50,6 @@ ms.locfileid: "4987121"
 4. 单击“关闭”。
 5. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

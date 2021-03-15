@@ -70,3 +70,6 @@ ms.locfileid: "5021130"
 
 ![使用位置计算的物料的示例](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

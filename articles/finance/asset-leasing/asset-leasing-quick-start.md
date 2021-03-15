@@ -252,3 +252,6 @@ ms.locfileid: "4971495"
 
    **租赁负债交易** 页面显示了初始确认、租赁利息付款、租赁付款和租赁负债余额。 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

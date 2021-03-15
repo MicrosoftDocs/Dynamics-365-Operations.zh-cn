@@ -84,3 +84,6 @@ ms.locfileid: "5152189"
 [Dynamics 365 Human Resources 2020 年发布波次 2 概述](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [更新流程](hr-admin-setup-update-process.md)
 [管理功能](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

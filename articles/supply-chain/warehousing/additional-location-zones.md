@@ -57,3 +57,6 @@ Microsoft Dynamics 365 Supply Chain Management 中新增了三个区域字段。
 7. 选择 **创建**。
 8. 将收到消息，说明已添加了新货位。 选择 **显示消息** 按钮查看消息。
 9. 转到 **仓库管理 \> 设置 \> 仓库 \> 货位**。 将在列表中显示新货位，并且可使用所有区域字段（即，现有区域字段和新的其他区域字段）。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

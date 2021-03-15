@@ -97,3 +97,6 @@ ms.locfileid: "5099994"
 
 > [!NOTE]
 > 假设将打印对原始发票的引用，请确保正确配置文档的可打印格式。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

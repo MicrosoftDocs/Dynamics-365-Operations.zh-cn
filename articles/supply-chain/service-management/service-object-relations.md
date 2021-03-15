@@ -77,3 +77,6 @@ ms.locfileid: "4974327"
 
 如果为某一服务协议自动创建服务订单，则该协议中的服务对象关系也处于已创建的服务订单中。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

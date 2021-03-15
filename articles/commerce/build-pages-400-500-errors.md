@@ -82,3 +82,6 @@ ms.locfileid: "4991457"
 [添加新的站点页面](add-new-page.md)
 
 [创建页面 URL](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

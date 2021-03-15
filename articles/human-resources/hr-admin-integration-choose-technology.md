@@ -150,3 +150,6 @@ Excel 加载项适用于业务领域专家的专门数据导入/导出。 对于
 <sup>2</sup>Microsoft 正大力投资以增加 Dataverse 表的数据覆盖。 建议实现覆盖后使用 Dataverse。 目前，Dataverse 相对于 DMF 和启用 OData 的实体，数据覆盖较低。
 
 <sup>3</sup>可以通过编程方式访问 SQL 数据库。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

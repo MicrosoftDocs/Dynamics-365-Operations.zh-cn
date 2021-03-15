@@ -56,3 +56,6 @@ Microsoft Dynamics 365 Human Resources 使用付款频率来计算年度福利�
    | **每小时换算系数** | 付款频率的年度换算系数。 例如，每月支付频率的年度换算系数为： </br></br>（12 次每月付款/2080 小时）= 0.005769
 
 4. 选择 **保存**。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

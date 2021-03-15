@@ -84,3 +84,6 @@ ms.locfileid: "4981373"
     * 请注意，这是来自看板数量计算的固定看板数量 4.  
 5. 单击“列表面板”选项卡。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

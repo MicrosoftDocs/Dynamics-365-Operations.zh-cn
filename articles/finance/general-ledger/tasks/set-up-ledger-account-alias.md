@@ -40,3 +40,6 @@ ms.locfileid: "4968395"
 9. 在“初始焦点”字段中，选择使用别名时将会出现焦点的维度。
     * 在输入快捷方式，以及填充科目和维度后，“初始焦点”字段是光标或焦点的移动目标。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

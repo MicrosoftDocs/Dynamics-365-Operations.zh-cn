@@ -82,3 +82,6 @@ ms.locfileid: "4798573"
 
 1. 转到 **系统管理** &gt; **定期任务** &gt; **预警** &gt; **到期日期预警**。
 2. 在 **到期日期预警** 对话框中，输入相应的信息。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

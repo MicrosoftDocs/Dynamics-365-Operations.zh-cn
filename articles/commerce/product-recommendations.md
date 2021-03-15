@@ -87,3 +87,6 @@ Microsoft Dynamics 365 Commerce 可用于在电子商务网站和销售点 (POS)
 [使用演示数据创建建议](product-recommendations-demo-data.md)
 
 [产品建议常见问题](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

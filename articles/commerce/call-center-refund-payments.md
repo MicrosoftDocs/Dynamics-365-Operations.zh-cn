@@ -108,3 +108,6 @@ ms.locfileid: "4991407"
 ## <a name="additional-resources"></a>其他资源
 
 [呼叫中心付款方式](work-with-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ ms.locfileid: "5111612"
 3. 为 **舍入到最接近的值**、**场景** 和 **舍入形式** 指定值。
 
 4. 选择 **保存**。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

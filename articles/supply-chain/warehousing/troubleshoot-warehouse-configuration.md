@@ -108,3 +108,6 @@ ms.locfileid: "4993995"
 - **显示库存状态**：*是*
 
 您可以根据需要在页面上设置其他字段。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

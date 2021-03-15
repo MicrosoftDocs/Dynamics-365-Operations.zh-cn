@@ -109,3 +109,6 @@ ms.locfileid: "4999045"
 ### <a name="issue-resolution"></a>解决问题
 
 这取决于发票和发票组的参数设置。 有关详细信息，请参阅以下博客文章：[采购费用和库存变化的会计](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/12/15/accounting-for-purchase-charge-and-stock-variation/)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

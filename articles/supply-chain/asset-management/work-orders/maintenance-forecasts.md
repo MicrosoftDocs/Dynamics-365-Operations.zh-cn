@@ -123,3 +123,6 @@ ms.locfileid: "5020853"
 下图显示 **更新工作订单预测** 对话框的示例。
 
 ![图 2](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

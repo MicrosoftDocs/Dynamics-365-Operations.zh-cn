@@ -104,3 +104,6 @@ ASN 数据将通过 *装箱结构* 链接到负荷和装运，其中的托盘（
 有关 *完工入库* 生产方案的详细信息，请参阅[仓库工作策略概述](warehouse-work-policies.md)。
 
 有关入站负荷管理的详细信息，请参阅[仓库对采购订单入站负荷的处理](inbound-load-handling.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

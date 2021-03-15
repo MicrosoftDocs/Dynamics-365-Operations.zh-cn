@@ -78,3 +78,6 @@ Human Resources 将人员和操作数据连接起来，以帮助您优化劳动�
 [管理休假和缺勤](hr-leave-and-absence-overview.md)</br>
 [培养员工](hr-develop-performance-management-overview.md)</br>
 [创建课程](hr-learning-courses.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

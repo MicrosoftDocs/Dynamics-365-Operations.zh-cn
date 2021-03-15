@@ -383,3 +383,6 @@ ms.locfileid: "4993745"
 1. 如果需要，设置要自动运行的发生次数。
 
 对于此场景中的练习，请 **勿** 设置自动时隙。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

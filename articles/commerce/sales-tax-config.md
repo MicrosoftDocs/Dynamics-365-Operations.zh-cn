@@ -81,3 +81,6 @@ Headquarters 中的客户配置文件记录可能已经配置了销售税组，�
 
 [免税的计算](tax-exempt-price-inclusive.md) 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

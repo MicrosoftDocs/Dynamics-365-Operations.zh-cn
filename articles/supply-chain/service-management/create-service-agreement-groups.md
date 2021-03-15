@@ -42,3 +42,6 @@ ms.locfileid: "4965922"
 ## <a name="related-topics"></a>相关主题
 
 [服务协议概览](service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

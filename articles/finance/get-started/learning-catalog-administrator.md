@@ -84,3 +84,6 @@ ms.locfileid: "4978347"
 | [Finance and Operations: Regression Suite Automation Tool -- 背景和设置 (DYN646PAL) ](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-background-amp-setup-may-28-2019) | 这是回归套件自动化测试 (RSAT) 双部分系列中的第一部分。 在此会话中，我们将介绍如何通过 RSAT 使用自动化测试与持续更新保持一致。 将介绍有关如何使用 RSAT 创建任务录制和执行测试的学习和建议，以及安装和设置的分步演练。 | 自由录制 Web 会议 | 70 分钟 |
 | [Finance and Operations: Regression Suite Automation Tool -- 测试 Lifecycle 演示 (DYN647PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-testing-lifecycle-demo-may-29-2019) | 这是回归套件自动化测试 (RSAT) 双部分系列中的第二部分。 此会话将介绍以下整个周期的演示：从 Finance and Operations 创建任务录制并保存到 LCS 中的 BPM 库，同步该 BPM 库以在 Azure DevOps 中创建测试用例，将测试案例分组为测试套件，然后在 RSAT中加载并执行测试套件。 | 自由录制 Web 会议 | 70 分钟 |
 | [Finance and Operations：Dynamics 365 的性能诊断工具 (DYN541PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-performance-troubleshooting-tools-for-dynamics-365-12-14-18) | 在此技术交流中，将提供可用于诊断 Microsoft Dynamics 365 for Finance and Operations 性能问题的不同工具。 此会话中包含一些基于方案的演示和有关如何解决典型性能问题的重要指导。 | 自由录制 Web 会议 | 64 分钟 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

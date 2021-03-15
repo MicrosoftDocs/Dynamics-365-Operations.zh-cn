@@ -228,3 +228,6 @@ Dynamics 365 Human Resources 将员工的请假和工作流程任务详细信息
 [下载和安装 Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Microsoft Teams 帮助中心](https://support.office.com/teams)</br>
 [Teams 中的 Human Resources 应用](hr-admin-teams-leave-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

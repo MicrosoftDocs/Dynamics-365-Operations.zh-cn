@@ -72,3 +72,6 @@ ms.locfileid: "4979305"
 19. 单击 **过帐**。
 20. 关闭窗体。 请注意，采购订单不再列为“已接收但未开票”。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 的电�
 - [服务管理](e-invoicing-service-administration.md)
 - [在 RCS 中配置电子发票](e-invoicing-configuration-rcs.md)
 - [在 Finance 和 Supply Chain Management 中开具电子发票](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

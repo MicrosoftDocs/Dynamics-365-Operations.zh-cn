@@ -70,3 +70,6 @@ Dynamics 365 for Commerce 创作环境支持以下角色。
 [站点的搜索引擎优化 (SEO) 注意事项](search-engine-optimization-considerations.md)
 
 [管理内容安全策略 (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

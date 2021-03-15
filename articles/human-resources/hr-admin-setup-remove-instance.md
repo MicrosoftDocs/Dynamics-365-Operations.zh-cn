@@ -85,3 +85,6 @@ Human Resources 测试驱动器设置了 60 天的到期策略。 不过，测�
 
 > [!Warning]
 > Power Apps 环境在删除后仅保存 7 天。 您必须在 7 天之内恢复环境。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

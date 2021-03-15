@@ -64,3 +64,6 @@ ms.locfileid: "4991832"
 22. 单击“确定”。
 23. 单击“是”。
 24. 关闭该页面。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

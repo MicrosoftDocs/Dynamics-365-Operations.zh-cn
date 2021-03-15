@@ -36,3 +36,6 @@ Microsoft Dynamics 365 Supply Chain Management 的成本核算服务加载项让
 ## <a name="related-resources"></a>相关资源
 
 [开始使用成本核算服务](cost-accounting-service-get-started.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

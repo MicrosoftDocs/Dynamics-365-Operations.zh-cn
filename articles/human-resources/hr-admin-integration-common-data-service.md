@@ -126,3 +126,6 @@ ms.locfileid: "5111678"
 [Human Resources 虚拟表常见问题解答](hr-admin-virtual-entity-faq.md)<br>
 [什么是 Microsoft Dataverse？](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [术语更新](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

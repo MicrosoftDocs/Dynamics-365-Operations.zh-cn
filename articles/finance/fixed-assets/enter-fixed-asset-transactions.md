@@ -67,3 +67,6 @@ ms.locfileid: "4978681"
 固定资产的折旧期间剩余值在通过数据实体手动创建或导入折旧交易记录类型日记帐行时不更新。 在折旧方案流程用于创建日记帐行时，此值将更新。
 
 有关详细信息，请参阅[固定资产集成](fixed-asset-integration.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

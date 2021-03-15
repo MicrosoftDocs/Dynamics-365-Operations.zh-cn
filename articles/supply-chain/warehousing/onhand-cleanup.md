@@ -62,3 +62,6 @@ ms.locfileid: "5014475"
 
 - **模块**：*仓库管理*
 - **功能名称**：*仓库管理现有条目清除作业的最长执行时间*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ ms.locfileid: "5111556"
    | **等待天数** | 选择要用于计算等待日期的等待天数。 |
 
 4. 选择 **保存**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

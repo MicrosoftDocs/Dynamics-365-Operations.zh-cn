@@ -67,3 +67,6 @@ ms.locfileid: "4979280"
 13. 选择 **交易记录**。
 14. 选择您创建的发票。 发票登记簿应计项目被冲销并被过帐到相应的费用帐户。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

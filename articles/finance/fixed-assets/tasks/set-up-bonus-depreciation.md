@@ -48,3 +48,6 @@ ms.locfileid: "4968921"
     * 百分比或金额默认值来自特殊折旧补偿设置。  
 8. 在“优先”字段，输入一个数字。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

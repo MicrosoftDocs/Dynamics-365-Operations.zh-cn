@@ -41,3 +41,6 @@ ms.locfileid: "4977755"
 6. 单击“准备”。
     * 准备流程现在已完成。 物料单中选中所有行的复选框指示供应状态为已领料。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

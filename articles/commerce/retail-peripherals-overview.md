@@ -835,3 +835,6 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 [Commerce 的外设模拟器](dev-itpro/retail-peripheral-simulator.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

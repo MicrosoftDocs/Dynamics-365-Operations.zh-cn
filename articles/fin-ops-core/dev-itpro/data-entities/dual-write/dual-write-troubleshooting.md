@@ -122,3 +122,6 @@ ms.locfileid: "4744533"
 2. 在窗体节点下找到 **信息** 窗体。 
 3. 选择 **信息** 窗体并单击 **启用安全角色**。 
 4. 将安全设置更改为 **向所有人显示**。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

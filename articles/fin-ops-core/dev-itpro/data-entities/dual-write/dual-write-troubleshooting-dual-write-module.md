@@ -87,3 +87,6 @@ ms.locfileid: "5131237"
 
 + 如果映射具有相关映射，请确保启用此表映射的相关映射。
 + 映射可能缺少源或目标列。 如果缺少 Finance and Operations 应用中的列，请按照[映射中缺少表列问题](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps)一节中的步骤进行操作。 如果缺少 Dataverse 中的列，请单击映射上的 **刷新表** 按钮，让这些列自动填充回映射中。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

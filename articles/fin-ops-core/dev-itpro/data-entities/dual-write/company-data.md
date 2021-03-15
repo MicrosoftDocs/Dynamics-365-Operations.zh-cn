@@ -102,3 +102,6 @@ Dataverse 集成通过使用公司标识符剥离数据来为公司提供奇偶�
 
 :::image type="content" source="media/apply-company-context.png" alt-text="应用公司上下文":::
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

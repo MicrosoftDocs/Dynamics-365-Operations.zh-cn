@@ -149,3 +149,6 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 Retail SDK 中提供的以下旧版会计整合功能不使用会计整合框架，将在以后的更新中弃用：
 
 - [瑞典的控制单元集成示例（旧）](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

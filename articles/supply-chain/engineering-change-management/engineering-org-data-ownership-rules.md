@@ -66,3 +66,6 @@ ms.locfileid: "4963655"
 
     - 当向其他法人发布这些文档时，将保护文档以免被运营公司删除。
     - 其他法人可以添加全新的本地文档。 运营公司拥有和维护这些本地文档。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

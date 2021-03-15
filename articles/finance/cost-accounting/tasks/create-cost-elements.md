@@ -57,3 +57,6 @@ ms.locfileid: "4990784"
 1. 单击“查看维度成员”。
     * 将导入的会计科目作为成本可流向的业务中的成本要素查看。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

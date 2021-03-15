@@ -64,3 +64,5 @@ Microsoft Dynamics 365 Human Resources 中的 MyLeaveRequests 实体提供系统
 
 - [将请假申请提交至工作流](hr-developer-api-myleaverequests-submit.md)
 - [身份验证](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

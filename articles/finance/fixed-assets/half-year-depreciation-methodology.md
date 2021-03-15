@@ -41,3 +41,6 @@ ms.locfileid: "5009285"
    [![半年折旧惯例的折旧计划](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 半年惯例增加的延长后折旧期的折旧分配更精确。 六个月惯例提供的折旧费用更平均，这对损益表中的报告非常有用。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

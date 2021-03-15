@@ -74,3 +74,6 @@ ms.locfileid: "4988691"
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>更新交易记录列表中包括的科目列表
 
 选择 **分类帐结算科目** 打开您可以编辑交易记录列表中包括的科目的对话框。 选择 **新** 向列表添加新科目。 此列表用于筛选在 **分类帐结算** 页显示的交易记录的列表。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

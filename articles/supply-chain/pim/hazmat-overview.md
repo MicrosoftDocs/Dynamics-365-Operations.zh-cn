@@ -61,3 +61,6 @@ ms.locfileid: "5007583"
 ## <a name="warehouse-management"></a>仓库管理
 
 在“仓库管理”中准备装运时，您能够打印使用您在“产品信息管理”中设置的信息的多个新报表。 有关可用报表以及如何使用它们的详细信息，请参阅[危险物料查询和报表](hazmat-reports.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

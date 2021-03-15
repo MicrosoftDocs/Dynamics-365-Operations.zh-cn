@@ -69,3 +69,6 @@ ms.locfileid: "4972272"
 27. 单击“保存”。
     * 但凡要更改会员方案的渠道，您必须运行“处理会员方案”。 如此，渠道将会获得更新的会员方案。  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

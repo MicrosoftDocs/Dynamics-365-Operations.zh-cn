@@ -38,3 +38,6 @@ ms.locfileid: "4992261"
 8. 在“产品编号”字段中，键入一个值。
 9. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

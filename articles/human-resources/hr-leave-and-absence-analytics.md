@@ -45,3 +45,5 @@ Dynamics 365 Human Resources 提供分析来帮助您了解组织的休假和缺
 
 - [休假和缺勤概览](hr-leave-and-absence-overview.md)
 - [创建休假和缺勤计划](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

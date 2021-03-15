@@ -81,3 +81,6 @@ ms.locfileid: "4878649"
 有关实现 B2B 用户的更多选项，请参阅[将 B2B 用户导出到 Azure AD](../implement-b2b.md)。
 
 有关预配置系统帐户的信息，请参阅[预配置系统帐户](../pre-configured-system-accounts.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -105,3 +105,6 @@ Supply Chain Management 现在支持包含运输服务的物料清单计算、�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

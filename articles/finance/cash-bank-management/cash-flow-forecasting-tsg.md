@@ -52,3 +52,6 @@ ms.locfileid: "4985279"
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>实体商店实体是否已刷新？
 
 您必须定期刷新您的实体，以确保数据是最新的，而且准确。 要手动刷新特定实体，请转到 **系统管理 \> 设置 \> 实体商店**，选择实体，然后选择 **刷新**。 数据也可以自动更新。 在 **实体商店** 页上，将 **启用自动刷新** 选项设置为 **是**。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

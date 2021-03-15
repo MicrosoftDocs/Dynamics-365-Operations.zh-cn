@@ -35,3 +35,6 @@ ms.locfileid: "4798947"
 5. 在 **时区** 字段中，从下拉列表中选择一个选项。
 6. 选择 **保存**。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

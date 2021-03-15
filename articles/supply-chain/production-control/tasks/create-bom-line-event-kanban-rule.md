@@ -82,3 +82,6 @@ ms.locfileid: "4998745"
     * 请注意创建的用来供应估计生产订单的 M0001 的看板。  
     * 这是最后一个步骤！  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

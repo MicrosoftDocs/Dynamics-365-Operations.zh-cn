@@ -61,3 +61,6 @@ ms.locfileid: "4999998"
 + [将 IoT DevKit AZ3166 连接到 Azure IoT 中心](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [将 Raspberry Pi 联机模拟器连接到 Azure IoT 中心 (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
 + [设备模拟解决方案加速器概述](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

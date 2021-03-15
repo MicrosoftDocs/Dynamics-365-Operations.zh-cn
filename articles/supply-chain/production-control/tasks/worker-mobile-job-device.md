@@ -67,3 +67,6 @@ ms.locfileid: "4980923"
 6. 在 **生产单位** 字段，您可以设置工人的默认筛选器。 这将确保在工作人员登录到设备时，只显示所选生产单位的生产作业。 输入所需值。
 7. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

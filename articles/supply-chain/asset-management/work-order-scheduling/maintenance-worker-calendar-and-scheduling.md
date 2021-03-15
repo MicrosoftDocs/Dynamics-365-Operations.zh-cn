@@ -38,3 +38,6 @@ ms.locfileid: "5021471"
 
 与工作订单排产关联时，不需要为工具和资产设置日历。 假设工具和资产全天候可用，以便进行维护。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

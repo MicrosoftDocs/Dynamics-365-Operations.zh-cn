@@ -300,3 +300,6 @@ ms.locfileid: "4998445"
 有关牌照接收和工作策略的详细信息，请参阅[通过仓库应用进行的牌照接收](warehousing-mobile-device-app-license-plate-receiving.md)。
 
 有关入站负荷管理的详细信息，请参阅[仓库对采购订单入站负荷的处理](inbound-load-handling.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ ms.locfileid: "5009966"
 
 ## <a name="next-step"></a>后续步骤
 [标识假设并确定试验的成功指标](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

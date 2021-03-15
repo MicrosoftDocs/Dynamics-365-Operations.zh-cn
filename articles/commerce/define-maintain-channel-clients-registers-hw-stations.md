@@ -204,3 +204,6 @@ POS 收银机主要通过收银机本身管理，同时还通过分配到收银�
 ### <a name="client-data-synchronization"></a>客户端数据同步
 
 对 POS 客户端的所有更改（除设备启用状态的更改），均必须与渠道数据库同步以使其生效。 要同步对渠道数据库的更改，请导航到 **Retail 和 Commerce** &gt; **Retail 和 Commerce IT** &gt; **配送计划**，并运行所需的配送计划。 对于客户端更改，应运行 **收银机** 和 **渠道配置** 配送计划。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

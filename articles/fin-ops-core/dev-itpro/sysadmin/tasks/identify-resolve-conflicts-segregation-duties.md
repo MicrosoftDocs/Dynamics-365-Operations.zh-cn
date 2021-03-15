@@ -59,3 +59,6 @@ ms.locfileid: "4826360"
 
 > [!NOTE]
 > 如果为同一用户列出了多个冲突，在 **用户** 页上选择用户记录并评估分配的角色。 为避免这一冲突，请在添加或修改每个规则后对其进行验证。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ ms.locfileid: "4970173"
 ### <a name="issue-resolution"></a>解决问题
 
 移动设备应用模拟器设置为只能在管理员帐户中使用。 对于所有测试和实时流程，我们建议您使用实际的仓库应用。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

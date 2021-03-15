@@ -256,3 +256,6 @@ ms.locfileid: "4979965"
 
     > [!NOTE]
     > 如果创建共享产品介质和共享产品属性，它们将应用于所有产品。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

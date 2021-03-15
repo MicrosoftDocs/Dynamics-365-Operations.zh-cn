@@ -55,3 +55,6 @@ ms.locfileid: "4977880"
 3. 在“物料分配参数”字段中，单击下拉按钮以打开查找。
 4. 在列表中，单击所选行中的链接。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

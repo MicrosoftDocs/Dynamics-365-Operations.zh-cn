@@ -48,3 +48,6 @@ ms.locfileid: "4987096"
     * 启用产品模型版本。 一次只可能启用一个产品的一个产品模型。  
 13. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

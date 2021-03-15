@@ -41,3 +41,6 @@ GTIN 代码由 GS1 组织分配。 在此示例中，您将为演示数据公司
 11. 在“GTIN”字段中，键入一个值。
 12. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

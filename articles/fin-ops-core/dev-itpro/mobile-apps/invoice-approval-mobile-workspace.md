@@ -86,3 +86,6 @@ ms.locfileid: "5127561"
 7.  选择 **附件** 以查看附加到发票的所有附注或文件。
 8.  在 **发票详细信息** 页，选择相应的工作流操作完成您的审核流程。
 9.  选择 **完成**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

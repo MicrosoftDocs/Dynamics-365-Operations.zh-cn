@@ -47,3 +47,6 @@ ms.locfileid: "4964762"
 17. 在列表中，查找并选择正在更新的收银机的维度值。
 18. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

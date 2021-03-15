@@ -143,3 +143,6 @@ ms.locfileid: "4996140"
 - 默认盘点原因代码
 - 显示盘点原因代码
 - 编辑盘点原因代码
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Dynamics 365 Commerce 允许您管理单个页面的 SEO 元数据。 可在页�
 [验证页面内容的可访问性](verify-accessibility.md)
 
 [基于 URL 参数创建动态电子商务页面](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -275,3 +275,6 @@ ms.locfileid: "5001091"
     您将收到“群集已完成”消息。
 
 现在可以使用 **销售领料** 菜单项领取剩余数量。 然后可以使用 **销售装载** 菜单项将物料从暂存位置移到装货场。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

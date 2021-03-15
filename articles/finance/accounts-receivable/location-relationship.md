@@ -73,3 +73,6 @@ ms.locfileid: "4979081"
     3.  若要测试填充新关系类型，可创建一个可运行的类，然后在 Main() 中调用 DirDataPopulation::insertDirRelationshipTypes()。 应该会在 **DirRelationshipTypeTable** 中看到这个新关系类型，而整个新关系类型也会出现在 **关系类型** 页中。
 
         ![可运行的类](media/Runnable.PNG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ ms.locfileid: "4991782"
 2. 在 **设置** 选项卡中，选择 **合并服务订单** 字段中的 **按服务任务**。
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

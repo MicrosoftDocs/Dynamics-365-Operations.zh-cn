@@ -100,3 +100,6 @@ Dynamics 365 Commerce 10.0.16 版本及更高版本中支持购买数字礼品�
 [创建在线功能配置文件](online-functionality-profile.md)
 
 [对外部礼品卡的支持](./dev-itpro/gift-card.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ ms.locfileid: "4744291"
     ![更改“集成用户模式”列的值](media/sales-map-user-mode-yes.png)
 
 现在，您的销售订单已映射。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

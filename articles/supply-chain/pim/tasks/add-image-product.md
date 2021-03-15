@@ -36,3 +36,6 @@ ms.locfileid: "4987070"
 5. 单击“新建”。
     * 单击浏览。 找到要使用的图像，选择，然后关闭对话框。    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

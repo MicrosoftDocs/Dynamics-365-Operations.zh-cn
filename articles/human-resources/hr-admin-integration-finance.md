@@ -255,3 +255,5 @@ ms.locfileid: "5111646"
 下图显示了数据集成器中的模板映射的一个示例。 
 
 ![模板映射](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

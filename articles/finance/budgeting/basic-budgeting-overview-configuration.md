@@ -87,3 +87,6 @@ Microsoft Dynamics 365 Finance 版本 10.0.7（2020 年 1 月）中引入的功�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

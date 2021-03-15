@@ -41,3 +41,6 @@ ms.locfileid: "4968602"
 11. 输入与所输入百分比对应的财务维度值。
 12. 选择 **保存**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ BASE64STRINGTOCONTAINER (input)
 ## <a name="additional-resources"></a>其他资源
 
 [容器函数](er-functions-category-container.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

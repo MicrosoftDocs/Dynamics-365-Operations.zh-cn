@@ -57,3 +57,6 @@ ms.locfileid: "4966847"
     * 核实产品维度是否有效，因此必须有分配的值或属性。  
 9. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

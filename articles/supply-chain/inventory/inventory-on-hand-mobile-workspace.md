@@ -129,3 +129,6 @@ ms.locfileid: "5008036"
     -   按物理库存（此视图显示总金额。）
     -   按物理预留（此视图显示预留金额。）
     -   按物理可用量（此视图显示无预留的可用金额。）
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

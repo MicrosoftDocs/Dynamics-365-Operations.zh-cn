@@ -88,3 +88,6 @@ YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/pla
 YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中包含[预警规则选项](https://youtu.be/cpzimwOjicM)视频（上面所示）。
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

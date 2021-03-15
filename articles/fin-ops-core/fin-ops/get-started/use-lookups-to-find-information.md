@@ -83,3 +83,6 @@ ms.locfileid: "4798134"
 应用筛选器之后（见下图），用户可以照常找到并选择行。
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

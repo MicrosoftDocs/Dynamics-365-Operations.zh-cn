@@ -61,3 +61,6 @@ ms.locfileid: "5006102"
 24. 单击“新信用卡的默认处理程序”复选框。
 25. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

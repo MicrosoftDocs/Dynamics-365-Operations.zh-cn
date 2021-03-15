@@ -68,3 +68,6 @@ ms.locfileid: "5111600"
 16. 在“基础”字段中，选择一个选项。
 17. 在“金额或费率”字段中，输入一个数值。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

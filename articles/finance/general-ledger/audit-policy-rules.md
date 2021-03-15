@@ -100,3 +100,6 @@ ms.locfileid: "5021233"
 [定义原始单据的审计策略](tasks/define-audit-policies-source-documents.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

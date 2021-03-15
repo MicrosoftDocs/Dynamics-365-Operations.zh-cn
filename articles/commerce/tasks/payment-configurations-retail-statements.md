@@ -52,3 +52,6 @@ ms.locfileid: "4982307"
     * 选择将金库投箱金额过帐到其中的科目。  
 8. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

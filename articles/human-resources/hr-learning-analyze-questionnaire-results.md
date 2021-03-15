@@ -69,3 +69,6 @@ ms.locfileid: "5115166"
 2. 单击“结果”。
 3. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ ms.locfileid: "5115262"
 ## <a name="see-also"></a>请参阅
 
 [暂停休假](hr-leave-and-absence-suspend-leave.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

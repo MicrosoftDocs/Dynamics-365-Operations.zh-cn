@@ -145,3 +145,6 @@ ms.locfileid: "5006327"
 [必应地图 REST API](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [地图模块](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

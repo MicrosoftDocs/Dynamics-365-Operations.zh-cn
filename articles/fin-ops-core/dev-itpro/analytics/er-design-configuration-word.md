@@ -72,3 +72,6 @@ ms.locfileid: "5094146"
 
 - [重用带有 Excel 模板的 ER 配置以 Word 格式生成报表](./tasks/er-design-configuration-word-2016-11.md)
 - [使用 ER 在您生成的文档中嵌入图像和形状](electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

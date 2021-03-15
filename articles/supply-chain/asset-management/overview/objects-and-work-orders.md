@@ -54,3 +54,6 @@ ms.locfileid: "5020931"
 
 > [!NOTE]
 > 在 Dynamics 365 Supply Chain Management 和 **资产管理** 模块中工作时，通常选择 **新建** 来创建新记录，选择 **编辑** 来更新现有记录，以及选择 **保存** 来保存新数据或编辑后的数据。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

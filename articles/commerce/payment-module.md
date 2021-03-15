@@ -117,3 +117,6 @@ PayPal Payment Connector 不需要账单地址模块，因为所有与账单相�
 [适用于 PayPal 的 Dynamics 365 Payment Connector](paypal.md)
 
 [使用 Adyen 的强大客户身份验证](adyen_redirect.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

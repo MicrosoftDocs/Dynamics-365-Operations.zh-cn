@@ -41,3 +41,6 @@ ms.locfileid: "4796818"
 7. 单击箭头以添加选定的可用团队到通讯簿。
 8. 单击 **保存**。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

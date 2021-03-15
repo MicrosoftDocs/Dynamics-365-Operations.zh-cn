@@ -173,3 +173,6 @@ Commerce 中包含与以下配置键有关的验证：
 
     - 转到 **Retail 和 Commerce** \> **Headquarters 设置** \> **参数** \> **Commerce 参数**。 然后，在 **过帐** 选项卡上 **库存更新** 快速选项卡的 **详细程度** 字段中，选择 **摘要**。
     - 转到 **Retail 和 Commerce** \> **Headquarters 设置** \> **参数** \> **Commerce 参数**。 然后，在 **过帐** 选项卡上的 **聚合** 快速选项卡中，将 **凭证交易记录** 选项设置为 **是**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

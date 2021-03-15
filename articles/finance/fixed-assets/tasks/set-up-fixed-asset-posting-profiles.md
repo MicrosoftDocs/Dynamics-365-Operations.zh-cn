@@ -122,3 +122,6 @@ ms.locfileid: "4994807"
 88. 在 **主科目** 字段中，指定所需值。
 89. 在 **抵销帐户** 字段中，指定所需值。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

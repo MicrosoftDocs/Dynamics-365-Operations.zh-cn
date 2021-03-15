@@ -68,3 +68,6 @@ ms.locfileid: "4985778"
 若要查看和管理已保留待执行欺诈检查的订单，请转至 **Retail 和 Commerce** \> **客户** \> **订单保留**。 在 **订单保留** 页，选择列表中的一个条目，然后单击 **订单保留** 以查看包含有关保留原因的更详细的视图。 在 **欺诈详细信息** 快速选项卡上，可查看被发现与订单匹配的系统的欺诈条件和应用的分数。 如果订单已手动保留，则可通过查看 **注释** 快速选项卡上的 **欺诈注释** 部分，查看保留该订单的用户输入的任何注释。
 
 有关如何处理保留订单的详细信息，请参阅[订单保留](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

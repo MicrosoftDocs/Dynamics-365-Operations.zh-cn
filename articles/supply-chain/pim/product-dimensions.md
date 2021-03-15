@@ -145,3 +145,6 @@ ms.locfileid: "5118673"
 
 > [!IMPORTANT]
 > 如果您打开并使用版本维度，某些引用库存维度的解决方案可能会如预期的停止工作。 要确认并解决这些问题，请与独立软件供应商 (ISV) 联系，告知受影响的解决方案。 有关详细信息，请参阅[启用版本维度](#enable-version-dim)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

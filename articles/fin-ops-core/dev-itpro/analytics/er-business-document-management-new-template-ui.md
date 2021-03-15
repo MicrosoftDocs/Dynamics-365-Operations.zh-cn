@@ -64,3 +64,6 @@ ms.locfileid: "5092217"
 **新建文件** 按钮用于以其他提供商提供的 ER 格式配置创建和编辑模板。 在本示例中，提供商是 Microsoft。 当您选择 **新建文档** 时，您可以查看当前提供商和其他提供商拥有的所有模板。 选择模板后，将打开它进行编辑。 然后将把编辑后的模板存储在自动生成的新 ER 格式配置中。
 
 有关更多信息，请参见[业务文档管理概述](er-business-document-management.md)。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

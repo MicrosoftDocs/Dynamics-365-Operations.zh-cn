@@ -40,3 +40,6 @@ ms.locfileid: "4992906"
 4. 打开 **过帐** 参数。 或者，如果应创建但不过帐条目，请关闭此参数。
 5. 打开 **过帐前预览** 参数以在条目过帐之前进行查看。
 6. 选择 **确定**。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

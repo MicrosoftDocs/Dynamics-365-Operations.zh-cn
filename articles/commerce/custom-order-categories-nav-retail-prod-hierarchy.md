@@ -87,3 +87,6 @@ ms.locfileid: "4976755"
 
 > [!NOTE]
 > 默认情况下，已关闭自定义排序顺序。 若要了解如何开启此功能和其他功能，请参阅[功能管理](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ ms.locfileid: "4798442"
 [![工作区部分筛选器](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 正如工作区范围的筛选器一样，在用于入筛选部分内容的字段中选择或输入值。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

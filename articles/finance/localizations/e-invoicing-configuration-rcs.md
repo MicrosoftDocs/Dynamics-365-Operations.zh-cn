@@ -290,3 +290,6 @@ ms.locfileid: "5104351"
 ## <a name="additional-resources"></a>其他资源
 
 - [在 Finance 和 Supply Chain Management 中开具电子发票](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

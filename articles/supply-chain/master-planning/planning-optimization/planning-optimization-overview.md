@@ -77,3 +77,6 @@ Microsoft Dynamics 365 Supply Chain Management 的计划优化加载项使主计
 [将筛选器应用于计划](plan-filters.md)
 
 [取消计划作业](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

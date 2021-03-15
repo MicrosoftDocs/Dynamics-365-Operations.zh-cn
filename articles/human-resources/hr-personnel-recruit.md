@@ -225,3 +225,6 @@ Dynamics 365 Human Resources 帮助您管理招聘请求。 它还帮助您无�
 [配置 Dataverse 虚拟表](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [组织您的劳动力](hr-personnel-departments-jobs-positions.md)<br>
 [设置工作组件](hr-personnel-jobs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

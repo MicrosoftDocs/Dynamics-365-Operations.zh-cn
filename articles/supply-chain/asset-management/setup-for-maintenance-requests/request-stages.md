@@ -80,3 +80,6 @@ ms.locfileid: "5022072"
 下图显示 **维护请求生命周期模型** 页的示例。
 
 ![维护请求生命周期模型页面](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

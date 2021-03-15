@@ -41,3 +41,6 @@ ms.locfileid: "5111642"
 8. 切换“组织覆盖”部分的扩展。
     * 如果需要考虑该雇员的绩效，不同部门的绩效或者同一个部门但是非其指派职位的绩效，可以用部门绩效覆盖。 “百分比”栏总分为 100 。  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

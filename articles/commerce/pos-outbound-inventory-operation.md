@@ -192,3 +192,6 @@ POS 用户可通过出站操作执行以下任务：
 ## <a name="related-topics"></a>相关主题
 
 [POS 中的入站库存操作](pos-inbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

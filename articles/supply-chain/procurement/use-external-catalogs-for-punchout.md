@@ -54,3 +54,5 @@ ms.locfileid: "5018744"
 
 - [为电子采购发包设置外部目录](set-up-external-catalog-for-punchout.md)
 - [采购 cXML 增强功能](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

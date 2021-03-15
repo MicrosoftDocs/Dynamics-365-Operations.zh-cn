@@ -63,3 +63,6 @@ ms.locfileid: "4972322"
     * 此物料在呼叫中心售出时，将从所选连续性计划应用更多业务逻辑。  
 7. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

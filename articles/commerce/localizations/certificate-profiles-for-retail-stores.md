@@ -121,3 +121,6 @@ ms.locfileid: "5018860"
 
 > [!NOTE]
 > 在 Commerce Runtime 中，将首先调用证书的新版本。 如果尚未在特定商店或特定终端中更新证书，则将调用以前的版本。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ ms.locfileid: "5111598"
 14. 在列表中，单击所选行中的链接。
 15. 您可以在此页查看哪些员工已登记此福利，哪些员工未登记。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

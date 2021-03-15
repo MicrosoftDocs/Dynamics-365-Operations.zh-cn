@@ -42,3 +42,6 @@ ms.locfileid: "4980073"
 - **商店管理** 工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店管理** &gt; **报表** &gt; **按小时排列的渠道销售额报表**
 - **商店财务** 工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店财务** &gt; **报表** &gt; **按小时排列的渠道销售额报表**
 - **查询和报表** 部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表** &gt; **按小时排列的渠道销售额报表**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ ms.locfileid: "5111630"
    | **结束日期** | 磁贴应该可用的结束日期和时间。 |
 
 4. 选择 **保存**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

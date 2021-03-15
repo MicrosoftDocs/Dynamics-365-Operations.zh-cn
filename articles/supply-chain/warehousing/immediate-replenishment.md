@@ -56,3 +56,6 @@ ms.locfileid: "5004769"
 
 - 确保应用的需求补货模板设置为使用 **补货** 类型的正确位置模板和工作模板。
 - 确保需求补货模板在其中为补货搜索现货库存的位置中现货库存充足。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

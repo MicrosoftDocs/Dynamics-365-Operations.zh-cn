@@ -276,3 +276,6 @@ _采购 cXML 增强功能_ 为外部目录添加了新的 **订单属性** 快�
 
 - [为电子采购发包设置外部目录](set-up-external-catalog-for-punchout.md)
 - [针对电子采购发包使用外部目录](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

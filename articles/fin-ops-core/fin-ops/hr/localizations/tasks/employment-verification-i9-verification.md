@@ -54,3 +54,6 @@ ms.locfileid: "4798086"
 22. 在“单据编号”字段中，输入或选择一个值。
 23. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ ms.locfileid: "4994291"
 将与外部组织共享配置，并在全局知识库中提供给该组织。 可以在这里将其导入到组织的 RCS 实例中或其 Finance and Operations 应用实例中。
 
 6. 若要取消更新之前已经与外部组织共享的配置，请选择该配置，然后单击 **取消更新**，再选择 **确定**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

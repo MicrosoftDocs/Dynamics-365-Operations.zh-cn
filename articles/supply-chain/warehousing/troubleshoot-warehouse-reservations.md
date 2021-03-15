@@ -77,3 +77,6 @@ ms.locfileid: "4993837"
 此为有意行为。 如果您在预留层次结构中将维度放在 **位置** 维度以上，则必须在发放到仓库之前指定该维度。 Microsoft 已评估此问题，确定这是从负荷计划工作台发放到仓库期间存在的功能限制。 如果未指定一个或多个 **位置** 以上维度，部分数量无法发放。
 
 有关详细信息，请参阅[灵活的仓库级维度预留策略](flexible-warehouse-level-dimension-reservation.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

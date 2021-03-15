@@ -45,3 +45,6 @@ ms.locfileid: "4967575"
     - **有效成本 – 物料价格** – 组织使用的业务流程中库存定期变负，并且同时交易量极高，组织可能会遇到性能问题。 此设置有助于缓解这些性能问题。
 
 ![库存会计参数](media/inventory-accounting-parameters.png "库存会计参数")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

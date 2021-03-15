@@ -109,3 +109,6 @@ ms.locfileid: "5129997"
 
 有关即将推出的更改的详细信息，请参阅[双写入中新增或更改的功能](whats-new-dual-write.md)。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ ms.locfileid: "4990288"
 
 > [!NOTE]
 > 在您可以处理合并前，必须准备用于合并的子公司法人。 有关详细信息，请参阅[设置要合并的子公司法人](set-up-subsidiary-company-for-consolidation.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

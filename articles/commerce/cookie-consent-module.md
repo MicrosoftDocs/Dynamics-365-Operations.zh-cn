@@ -61,3 +61,6 @@ cookie 同意模块提示站点用户明确提供同意，以便允许跟踪浏�
 [标题模块](author-header-module.md) 
 
 [Cookie 合规性](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

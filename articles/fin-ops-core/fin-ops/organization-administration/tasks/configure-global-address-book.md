@@ -45,3 +45,6 @@ ms.locfileid: "4796794"
 13. 在列表中，找到并选择所需记录。 按下 SHIFT 键选择多个角色，以添加到 **选定角色** 窗格中，然后单击箭头添加选定的角色。  
 14. 单击 **保存**。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

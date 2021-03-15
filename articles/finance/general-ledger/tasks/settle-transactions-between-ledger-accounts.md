@@ -48,3 +48,6 @@ ms.locfileid: "4994407"
 7. 单击“分类帐结算”。
 8. 在列表中，标记所选的行。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ ms.locfileid: "4798419"
     ```
 2. 从 SysTableBrowser 窗体创建预警。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

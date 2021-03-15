@@ -70,3 +70,6 @@ ms.locfileid: "4968671"
 5. 选择 **确定** 运行导出。
 
 在导出完成后，您将收到一则消息，其中显示已在各文件中保存的记录的数目。 然后您可以将文件导入到合并的法人。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

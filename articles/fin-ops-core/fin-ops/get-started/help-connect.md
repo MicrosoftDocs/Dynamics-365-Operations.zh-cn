@@ -99,3 +99,6 @@ Microsoft 提供了工具提示，以帮助您开发自定义帮助和将其连�
 [任务录制器资源](../../dev-itpro/user-interface/task-recorder.md)  
 [通过任务录制器创建文档或培训](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [自定义帮助 GitHub 知识库](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

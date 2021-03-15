@@ -40,3 +40,6 @@ ms.locfileid: "4966172"
 > 您将要执行日期为 %1 的库存结转。 其日期 %1 与期间结束匹配的倒冲成本计算法计算未执行已登记。 请记住执行其日期 %1 与期间结束匹配的倒冲成本计算法计算。 执行之前，子分类帐或总帐中的库存、所售货物成本和差异评估可能不正确。
 
 此问题在版本 10.0.13 和更高版本中已修复。 有关详细信息，请参阅 [KB 4582468](https://fix.lcs.dynamics.com/Issue/Details?kb=4582468&bugId=468844&dbType=3&qc=fcd64080446a27382cfde3e4c3bdcfb714279185932259cd11ceb0d500617296)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

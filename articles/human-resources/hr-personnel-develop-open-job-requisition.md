@@ -66,3 +66,5 @@ ms.locfileid: "5129559"
 32. 选择 **招聘项目状态**。
 33. 选择 **开始**。 **已开始** 状态表示项目即将收到申请。  
 34. 选择 **确定**。
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

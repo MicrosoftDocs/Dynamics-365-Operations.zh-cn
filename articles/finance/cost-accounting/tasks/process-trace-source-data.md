@@ -44,3 +44,6 @@ ms.locfileid: "4990634"
     * 在此示例中，选择“2017 年会计期间 9”。  
 14. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

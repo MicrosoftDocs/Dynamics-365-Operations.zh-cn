@@ -95,3 +95,6 @@ ms.locfileid: "5000816"
 [渠道设置先决条件](channels-prerequisites.md)
 
 [组织和组织层次结构概览](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

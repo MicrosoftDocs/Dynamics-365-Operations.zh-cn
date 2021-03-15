@@ -95,3 +95,6 @@ ms.locfileid: "5131785"
 1. 如果您希望仅在运行某些维护计划时应用这些选项，在 **要包括的记录** 快速选项卡上，根据需要添加筛选器，就像您可能对 Microsoft Dynamics 365 Supply Chain Management 中的其他批处理作业所做的那样。
 1. 在 **在后台运行** 快速选项卡上，根据需要设置批处理和计划选项，就像您可能在 Supply Chain Management 中对其他批处理作业所做的那样。
 1. 选择 **确定** 运行和/或计划选定的维护计划。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

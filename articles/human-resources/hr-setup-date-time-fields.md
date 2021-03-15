@@ -95,3 +95,6 @@ Data Management Framework、Excel 加载项、Dataverse 和 Power BI 报告的�
 
 [日期和时间数据](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
 [用户首选时区](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

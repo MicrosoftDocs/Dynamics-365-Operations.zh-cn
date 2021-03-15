@@ -77,3 +77,6 @@ ms.locfileid: "5007962"
 - [对基准预测进行手动调整](manual-adjustments-baseline-forecast.md)
 
 - [授权调整后的预测](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

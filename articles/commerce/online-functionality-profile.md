@@ -66,3 +66,6 @@ ms.locfileid: "4969968"
 [设置零售渠道](channel-setup-retail.md)
 
 [设置呼叫中心渠道](channel-setup-callcenter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

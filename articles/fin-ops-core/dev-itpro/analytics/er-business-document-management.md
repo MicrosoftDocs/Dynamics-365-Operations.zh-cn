@@ -579,3 +579,6 @@ Finance 的 ER 配置[列表](general-electronic-reporting.md#list-of-configurat
 |                             | 销售订单装箱单 (LT) (Excel)           |
 |                             | 销售订单装箱单 (PL) (Excel)           |
 |                             | 销售订单装箱单 (Word)                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

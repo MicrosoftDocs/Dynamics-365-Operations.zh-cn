@@ -53,3 +53,6 @@ ms.locfileid: "4995485"
 
 [为客户创建直接借记授权单](tasks/create-direct-debit-mandate-customer.md) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

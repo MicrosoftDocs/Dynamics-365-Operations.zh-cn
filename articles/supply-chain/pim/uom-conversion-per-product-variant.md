@@ -106,3 +106,6 @@ ms.locfileid: "5001691"
 ## <a name="additional-resources"></a>其他资源
 
 [管理度量单位](tasks/manage-unit-measure.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

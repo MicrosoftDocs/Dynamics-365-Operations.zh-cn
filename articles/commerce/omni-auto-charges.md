@@ -221,3 +221,6 @@ ms.locfileid: "4997564"
 
 [将标头费用按比例分配给匹配的销售行](pro-rate-charges-matching-lines.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

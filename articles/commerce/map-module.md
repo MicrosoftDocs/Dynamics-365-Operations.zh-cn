@@ -81,3 +81,6 @@ ms.locfileid: "4982482"
 [为您的组织管理必应地图](./dev-itpro/manage-bing-maps.md)
 
 [必应地图 V8 Web 控件](https://docs.microsoft.com/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

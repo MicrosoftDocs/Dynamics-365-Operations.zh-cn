@@ -70,3 +70,6 @@ ms.locfileid: "4981061"
 7. 单击“过帐”。
 8. 单击“确定”。
     * 在“工艺卡日记帐”，记录各工序所用的时间。 还可以报告完好和残次数量。  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
