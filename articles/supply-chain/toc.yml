@@ -72,14 +72,16 @@
                   items:
                     - name: “Supply Chain Management 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.18（2021 年 5 月）
+                      href: get-started/whats-new-scm-10-0-18.md
                     - name: Supply Chain Management 10.0.17（2021 年 4 月）
                       href: get-started/whats-new-scm-10-0-17.md
                     - name: Supply Chain Management 10.0.16（2021 年 2 月）
                       href: get-started/whats-new-scm-10-0-16.md
-                    - name: Supply Chain Management 10.0.15（2021 年 1 月）
-                      href: get-started/whats-new-scm-10-0-15.md
                 - name: 已删除或弃用的功能
                   items:
+                    - name: 主页中已删除或弃用的功能
+                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
                       href: get-started/removed-deprecated-features-scm-updates.md
                     - name: 先前版本中已删除或弃用的功能
@@ -525,9 +527,9 @@
               href: ../finance/cost-accounting/cost-control-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: 配置成本控制工作区参数
               href: ../finance/cost-accounting/tasks/configure-cost-control-workspace-parameters.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 了解 Microsoft Power BI 中的访问权限列表安全和 RLS
+            - name: 了解 Microsoft Power BI 中的访问权限列表安全性和 RLS
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 使用针对 Microsoft Power BI 报告的内容包
+            - name: 使用 Microsoft Power BI 报告的内容包
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: 使用针对 Finance and Operations 移动应用程序的成本控制工作区
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
@@ -1329,7 +1331,7 @@
                   href: sales-marketing/register-serial-numbers-sales-process.md
                 - name: 现有库存量移动工作区
                   href: inventory/inventory-on-hand-mobile-workspace.md
-                - name: 库存操作故障排除
+                - name: 库存操作疑难解答
                   href: inventory/troubleshoot-inventory-operations.md
             - name: 出库流程
               items:
@@ -1349,6 +1351,8 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: 按库存维度跟踪移动平均成本
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+            - name: 存档库存交易记录
+              href: inventory/archive-inventory-transactions.md
             - name: 库存可见性加载项
               href: inventory/inventory-visibility.md
         - name: IoT 智能
@@ -2021,6 +2025,8 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: 工程版本和工程产品类别
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: 对现有产品启用更改管理
+              href: engineering-change-management/change-management-existing-products.md
             - name: 产品生命周期状态和交易记录
               href: engineering-change-management/product-lifecycle-state-transactions.md
             - name: 管理工程产品更改
@@ -2129,6 +2135,8 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: 工作人员如何使用生产车间执行界面
                           href: production-control/production-floor-execution-use.md
+                        - name: 用于生产车间执行的用户界面控件样式
+                          href: production-control/production-floor-execution-styles.md
                     - name: 配置设备的作业卡
                       href: production-control/config-job-card-device.md
                     - name: 从作业卡设备报告为已完工入库
@@ -2729,6 +2737,54 @@
               href: transportation/tasks/set-up-shipping-carriers.md
             - name: 设置物料的运输约束
               href: transportation/tasks/set-up-transportation-constraints-item.md
+        - name: 到岸成本
+          items:
+            - name: 到岸成本模块概述
+              href: landed-cost/landed-cost-overview.md
+            - name: 到岸成本与运输管理的比较
+              href: landed-cost/landed-cost-vs-tms.md
+            - name: 设置和配置到岸成本模块
+              items:
+                - name: 到岸成本参数
+                  href: landed-cost/landed-cost-parameters.md
+                - name: 到岸成本采购参数
+                  href: landed-cost/landed-cost-procurement-parameters.md
+                - name: 航程状态设置
+                  href: landed-cost/voyage-status-setup.md
+                - name: 货运集装箱设置
+                  href: landed-cost/shipping-container-setup.md
+                - name: 交货信息设置
+                  href: landed-cost/delivery-information-setup.md
+                - name: 多段旅程设置
+                  href: landed-cost/multi-leg-journey-setup.md
+                - name: 装运信息设置
+                  href: landed-cost/shipping-information-setup.md
+                - name: 成本计算参数值设置
+                  href: landed-cost/costing-parameters-setup.md
+                - name: 总帐的默认描述
+                  href: landed-cost/defult-descriptions.md
+            - name: 针对到岸成本添加的供应商设置
+              href: landed-cost/vendors-landed-cost-settings.md
+            - name: 处理航程、集装箱和单据
+              items:
+                - name: 管理航程
+                  href: landed-cost/manage-voyages.md
+                - name: 管理货运集装箱
+                  href: landed-cost/manage-shipping-containers.md
+                - name: 管理单据
+                  href: landed-cost/manage-folios.md
+            - name: 跟踪入港航程和货运集装箱旅程
+              href: landed-cost/inbound-tracking.md
+            - name: 估算和管理到岸成本
+              href: landed-cost/estimate-manage-landed-costs.md
+            - name: 中转处理
+              href: landed-cost/in-transit-processing.md
+            - name: 处理上/下级交易
+              href: landed-cost/over-under-transactions.md
+            - name: 到岸成本查询
+              href: landed-cost/landed-cost-inquiries.md
+            - name: 到岸成本报告
+              href: landed-cost/landed-cost-reports.md
         - name: 仓库管理
           items:
             - name: 仓库管理概览
@@ -2925,10 +2981,12 @@
                       href: warehousing/change-work-pool-on-work.md
                     - name: 物料合并 - 库位利用率
                       href: warehousing/item-consolidation-location-utilization.md
-                    - name: 仓库工作疑难解答
-                      href: warehousing/troubleshoot-warehouse-work.md
                     - name: 工作拆分
                       href: warehousing/work-split.md
+                    - name: 物料处理设备接口 (MHAX)
+                      href: warehousing/mhax.md
+                    - name: 仓库工作疑难解答
+                      href: warehousing/troubleshoot-warehouse-work.md
             - name: 仓库设置
               items:
                 - name: 仓库配置
@@ -2987,6 +3045,8 @@
                   items:
                     - name: 安装和连接仓库管理移动应用
                       href: warehousing/install-configure-warehouse-management-app.md
+                    - name: 移动设备用户设置
+                      href: warehousing/mobile-device-user-settings.md
                     - name: 安装和连接仓库应用
                       href: warehousing/install-configure-warehousing-app.md
                     - name: 在仓库应用中使用摄像头扫描条码

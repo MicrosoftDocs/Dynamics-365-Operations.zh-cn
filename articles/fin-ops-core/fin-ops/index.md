@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 413bdd2e7a817185829eb551380caf71d87af9b7
-ms.sourcegitcommit: 36d256bf5a832d2d70014d64044026f732b77831
+ms.openlocfilehash: d9421cbe9eeb44fcd0d0f0c688e84ae2043610ac
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "5073099"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562351"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Finance and Operations 应用程序文档
 
@@ -67,11 +66,11 @@ ms.locfileid: "5073099"
 <h3><a href="../dev-itpro/data-entities/integration-overview.md">集成</a></h3>
 <p><a href="../dev-itpro/business-events/home-page.md">业务事件</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">数据实体</a></p>
-<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">使用 Microsoft Power Automate 的集成</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">使用 Microsoft Power Automate 集成</a></p>
 
 <h3><a href="../../finance/index.md">财务管理</a></h3>
 <p><a href="../../finance/accounts-payable/accounts-payable.md">应付帐款</a></p>
-<p><a href="../../finance/accounts-receivable/accounts-receivable.md">应收账款</a></p>
+<p><a href="../../finance/accounts-receivable/accounts-receivable.md">应收帐款</a></p>
 <p><a href="../../finance/budgeting/budgeting-overview.md">预算编制</a></p>
 <p><a href="../../finance/cash-bank-management/cash-bank-management.md">现金和银行管理</a></p>
 <p><a href="../../finance/general-ledger/audit-policy-rules.md">合规性</a></p>

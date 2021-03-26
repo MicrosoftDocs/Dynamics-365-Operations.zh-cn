@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f889a95884027eaa1c02794fd7258cd802942555
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cf933d3356fbca5c89652b5372fc35632d127df3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985378"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243579"
 ---
 # <a name="cash-and-bank-management-home-page"></a>现金和银行管理主页
 

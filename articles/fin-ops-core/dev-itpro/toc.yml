@@ -14,14 +14,18 @@
               items:
                 - name: “平台更新的新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
-                - name: 针对 10.0.17 的平台更新（2021 年 4 月）
+                - name: 10.0.18 的平台更新（2021 年 5 月）
+                  href: get-started/whats-new-platform-updates-10-0-18.md
+                - name: 10.0.17 的平台更新（2021 年 4 月）
                   href: get-started/whats-new-platform-updates-10-0-17.md
-                - name: 针对 10.0.16 的平台更新（2021 年 2 月）
+                - name: 10.0.16 的平台更新（2021 年 2 月）
                   href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: 针对 10.0.15 的平台更新（2021 年 1 月）
+                - name: 10.0.15 的平台更新（2021 年 1 月）
                   href: get-started/whats-new-platform-updates-10-0-15.md
             - name: 已删除或弃用的功能
               items:
+                - name: 主页中已删除或弃用的功能
+                  href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: 已删除或弃用的平台功能
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: 先前版本中已删除或弃用的功能
@@ -38,13 +42,15 @@
               href: business-events/app-business-events.md
             - name: 工作流业务事件
               href: business-events/business-events-workflow.md
+            - name: 批处理业务事件
+              href: business-events/system-business-events.md
             - name: 业务事件预警
               href: business-events/alerts-business-events.md
             - name: Microsoft Flow 中的业务事件
               href: business-events/business-events-flow.md
             - name: 业务事件开发人员文档
               href: business-events/business-events-dev-doc.md
-            - name: 业务事件故障排除
+            - name: 业务事件疑难解答
               href: business-events/troubleshooting.md
             - name: 业务事件用例
               href: business-events/potential-use-cases.md
@@ -94,7 +100,7 @@
                   items:
                     - name: 服务终结点概览
                       href: data-entities/services-home-page.md
-                    - name: 服务身份验证故障排除
+                    - name: 服务身份验证疑难解答
                       href: data-entities/troubleshoot-service-authentication.md
                 - name: OData
                   href: data-entities/odata.md
@@ -216,17 +222,21 @@
                               href: data-entities/dual-write/commerce-pricing.md
                             - name: 用于服务的内部资产
                               href: data-entities/dual-write/in-house-assets.md
-                            - name: 集成工作人员、作业和岗位
-                              href: data-entities/dual-write/integrated-hr.md
                             - name: 库存可用性
                               href: data-entities/dual-write/inventory-availability.md
+                            - name: 集成工作人员、作业和岗位
+                              href: data-entities/dual-write/integrated-hr.md
+                            - name: 注释集成
+                              href: data-entities/dual-write/notes-integration.md
+                            - name: 映射引用
+                              href: data-entities/dual-write/mapping-reference.md
                         - name: 支持双重写入
                           items:
                             - name: 支持 Field Service 和 Project Service Automation 解决方案
                               href: data-entities/dual-write/field-service-project-service-automation.md
                             - name: 将目标客户到现金数据从数据集成器迁移到双重写入
                               href: data-entities/dual-write/migrate-prospect-to-cash.md
-                            - name: 故障排除
+                            - name: 疑难解答
                               items:
                                 - name: 验证 Finance and Operations 应用和 Dataverse 中的双重写入配置
                                   href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
@@ -242,7 +252,7 @@
                                   href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                                 - name: 解决 Finance and Operations 应用升级问题
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                                - name: 常规故障排除
+                                - name: 常规疑难解答
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
                         - name: 双重写入常见问题
                           href: data-entities/dual-write/dual-write-faq.md
@@ -480,7 +490,7 @@
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: 更新环境
                       href: deployment/updateenvironment-newinfrastructure.md
-                    - name: 对通过自助服务部署所部署的环境进行故障排除
+                    - name: 对通过自助服务部署所部署的环境进行疑难解答
                       href: deployment/troubleshoot-newinfrastructure.md
                 - name: 完成 Azure 资源管理器使用培训
                   href: deployment/arm-onboarding.md
@@ -556,9 +566,9 @@
                       href: lifecycle-services/pre-post-scripts.md
                     - name: 更新本地代理
                       href: lifecycle-services/update-local-agent.md
-                - name: 故障排除
+                - name: 疑难解答
                   items:
-                    - name: 对本地部署进行故障排除
+                    - name: 对本地部署进行疑难解答
                       href: deployment/troubleshoot-on-prem.md
                     - name: 在本地环境中解决问题的脚本
                       href: deployment/onprem-tsg-implementations.md
@@ -642,6 +652,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: 在 Azure Pipelines 中创建 Lifecycle Services (LCS) 连接
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: 更新托管 Azure Pipeline，获取新的 NuGet 包
+                  href: dev-tools/pipeline-nuget-split.md
                 - name: 更新 Azure Pipelines 中的旧管道
                   href: dev-tools/pipeline-msbuild-update.md
             - name: 车队管理示例应用程序
@@ -964,7 +976,7 @@
                   href: perf-test/multi-user-testing-local-test-controller.md
                 - name: 通过 Performance SDK 和 Azure DevOps 进行多用户测试
                   href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: 使用 Performance SDK 进行测试故障排除指南
+                - name: 使用 Performance SDK 进行测试疑难解答指南
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: 在本地环境中进行 Performance SDK 和多用户测试
                   href: perf-test/perfsdk-tutorial-lbd.md
@@ -1100,8 +1112,6 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: 监控和诊断
               href: lifecycle-services/monitoring-diagnostics.md
-            - name: 影响分析报表
-              href: lifecycle-services/impact-analysis-report.md
             - name: 重新启动服务环境
               href: lifecycle-services/restart-environment-services.md
             - name: 报告生产中断
@@ -1110,7 +1120,7 @@
               href: lifecycle-services/user-logins.md
             - name: 资产库
               href: lifecycle-services/asset-library.md
-            - name: 使用 LCS 中的工具进行性能故障排除
+            - name: 使用 LCS 中的工具进行性能疑难解答
               href: lifecycle-services/performancetroubleshooting.md
             - name: 查询指南
               href: lifecycle-services/querycookbook.md
@@ -1384,7 +1394,7 @@
               href: perf-test/rsat/rsat-best-practices.md
             - name: 使用 Regression Suite Automation Tool 的数据不可知测试
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: 故障排除
+            - name: 疑难解答
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: 使用 Lifecycle Services 发布解决方案
           items:
@@ -1448,6 +1458,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: 将 B2B 用户导出到 Azure AD
               href: sysadmin/implement-b2b.md
+            - name: 数据维护
+              href: sysadmin/DataMaintenancePortal.md
             - name: 安全性
               items:
                 - name: 基于角色的安全性

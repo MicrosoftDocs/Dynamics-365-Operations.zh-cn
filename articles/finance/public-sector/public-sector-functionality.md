@@ -18,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23dbc61d72775c8ea642b0ec4026637e1f8958e1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7d4b499337d26e2209ee73f2f8ea93f55a124652
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4984676"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218724"
 ---
 # <a name="public-sector-home-page"></a>公共部门主页
 

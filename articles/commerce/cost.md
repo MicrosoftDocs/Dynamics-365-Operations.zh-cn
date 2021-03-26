@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-12-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b96780745e8dd8a6e2b46a3286bf4a6a307d886c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bfdfee76840380b7dc7ea5043d7e188e3deebf05
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001041"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213906"
 ---
 # <a name="cost-configuration-for-distributed-order-management-dom"></a>分配的订单管理 (DOM) 的成本配置
 

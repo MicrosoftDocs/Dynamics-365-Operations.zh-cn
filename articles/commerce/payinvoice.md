@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8b65fe3968698da1c5b76cf2d0ef706f3f1ec4bb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6f818fa552fe5651dc7d56de265fe989c57fa822
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972649"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257065"
 ---
 # <a name="set-up-pay-invoice-scenarios"></a>设置付款发票方案
 

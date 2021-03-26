@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 869230c0003735c1e9f48170a16ca9409a9edc19
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cce0d408ac6d372fb726eff8fa4b0358ec200243
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976531"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210987"
 ---
 # <a name="retail-transaction-consistency-checker"></a>零售交易记录一致性检查器
 
 [!include [banner](includes/banner.md)]
 
-本主题将介绍 Microsoft Dynamics 365 Commerce 中的交易记录一致性检查器功能。 一致性检查器在对账单过账流程选择交易记录之前标识和隔离不一致的交易记录。
+本主题将介绍 Microsoft Dynamics 365 Commerce 中的交易记录一致性检查器功能。 一致性检查器可在对账单过账流程选中不一致的交易记录之前发现并隔离这些交易记录。
 
 在过账对账单时，过账会由于商业交易记录表中存在不一致的数据而失败。 导致数据问题可能是由于销售点 (POS) 应用程序中不可预料的问题，或者如果从第三方 POS 系统未正确导入交易记录。 这些不一致可能的显示方式包括： 
 

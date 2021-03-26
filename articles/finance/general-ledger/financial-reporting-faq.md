@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3f9381f5b656d0cc0b46c8828b2ef9d024e296b0
-ms.sourcegitcommit: 14785208d84b2c1efd30f140c52df35a2ccd1577
+ms.openlocfilehash: 2d49213ea18e09f04b026559bdca49fee1de0ef7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "5070209"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249293"
 ---
 # <a name="financial-reporting-faq"></a>财务报告常见问题解答 
 

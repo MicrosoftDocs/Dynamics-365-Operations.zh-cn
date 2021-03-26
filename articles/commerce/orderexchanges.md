@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 60d58e4194481c875c5ff3f08fc3f8e12a87caa0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5419c18a510b0d35dabe5329a9557780cb7637b3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972725"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257115"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>配置和处理有关退货单的交换
 

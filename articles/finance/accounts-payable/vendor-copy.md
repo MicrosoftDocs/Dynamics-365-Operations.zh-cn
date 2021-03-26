@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 320487c451dd63ca861a13fc490e60d561486e0b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c528ea166ad634bf4fe8b1e047dbd6696dff029b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979205"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214492"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>使用共享的编号规则复制供应商
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6d10f54913ca8dff56a59ea597a9bd7c3e69d4bc
-ms.sourcegitcommit: bd4763cc6088e114818e80bb1c27c6521b039743
+ms.openlocfilehash: a9feafcab5969e9ec8fcbb8a6903d7b59505f6ae
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5107687"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249403"
 ---
 # <a name="year-end-activities-faq"></a>年终活动常见问题解答 
 

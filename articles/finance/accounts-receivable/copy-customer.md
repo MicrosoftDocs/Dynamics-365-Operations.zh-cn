@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ab2beb9ca1b7cd8a4bdbb84c46ed223f58ce377d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 57ee142d3611aeae8da3f9335ea5837910ffa636
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991133"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5217546"
 ---
 # <a name="copy-customers-by-using-shared-number-sequences"></a>使用共享的编号规则复制客户
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: ccddb00ecb797c8f084778270d7cf70426ffaeb0
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: c1ba1541a05e5cf2874813efa8b6500bdf8adb49
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5129219"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242005"
 ---
 # <a name="welcome-to-dynamics-365-talent"></a>欢迎使用 Dynamics 365 Talent
 

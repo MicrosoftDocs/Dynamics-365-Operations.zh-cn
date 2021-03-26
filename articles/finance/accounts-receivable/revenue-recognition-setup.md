@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: b90c98628fef2006addb64a6b880ab4020edb8cd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ba9f58bc21bed25a5e86cb0c9133507a83371d83
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995558"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245656"
 ---
 # <a name="revenue-recognition-setup"></a>收入确认设置
 [!include [banner](../includes/banner.md)]

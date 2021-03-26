@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e70f2e6b3694002a11a831ac14039ccbee273a51
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 5adcb666f35426f2fed545813d81ddb9b1034f1d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115912"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238224"
 ---
 # <a name="recognize-deferred-revenue"></a>确认延期收入
 

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ee4c863e617b9351e55e1fc652ea8905f17c8346
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d1be6606793d498d01be91de6205e3a45c6dfdf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976655"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251251"
 ---
 # <a name="return-items-across-multiple-customer-orders-and-invoices"></a>跨多个客户订单和账单的退回物料
 

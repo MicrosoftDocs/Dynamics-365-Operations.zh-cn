@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 17c8b95dd9cf05813d765d4552f493a1a1b00f31
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 1e3c95520ca83f151e91e10073f82a1a9541f02f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154271"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252838"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Management 主页
 

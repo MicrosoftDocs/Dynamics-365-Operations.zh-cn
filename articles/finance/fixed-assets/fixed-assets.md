@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf6f0bc27121e6c1a0b4bba2ad1ca31909423c92
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d35d1a734ebff3abdf49083c282b5dfb64b445bd
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969061"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212413"
 ---
 # <a name="fixed-assets-home-page"></a>固定资产主页
 

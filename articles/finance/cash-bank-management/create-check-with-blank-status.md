@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: aa1c4c33b977c0173da98aee409389b9242980fb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 94d3a4ac8a3906e48f5a6053c031001c111549ad
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976435"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254027"
 ---
 # <a name="create-checks-that-have-blank-status"></a>创建具有空白状态的支票
 
