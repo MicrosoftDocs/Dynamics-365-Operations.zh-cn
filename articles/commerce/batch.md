@@ -17,31 +17,34 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ef946df30c68373b83660fce98b472dc94b42719
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 00e1fcb36d685798f3ad7d667805c97bddcceb36
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989585"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211145"
 ---
-# <a name="improved-handling-of-batch-tracked-items"></a><span data-ttu-id="8c311-103">改进了批量跟踪物料的处理</span><span class="sxs-lookup"><span data-stu-id="8c311-103">Improved handling of batch-tracked items</span></span>
+# <a name="improved-handling-of-batch-tracked-items"></a><span data-ttu-id="6c1c5-103">改进了批量跟踪物料的处理</span><span class="sxs-lookup"><span data-stu-id="6c1c5-103">Improved handling of batch-tracked items</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
 
-<span data-ttu-id="8c311-104">在销售点 (POS) 中，无法在销售时捕获批量跟踪物料的批处理号。</span><span class="sxs-lookup"><span data-stu-id="8c311-104">In Point of Sale (POS), batch numbers can't be captured for batch-tracked items at the time of sale.</span></span> <span data-ttu-id="8c311-105">但是，对于特定配置，在总部通过客户订单或对帐单过帐来过帐销售额时，Microsoft Dynamics 系统要求批量跟踪物料具备有效的批处理号，这些编号在开票流程中使用。</span><span class="sxs-lookup"><span data-stu-id="8c311-105">However, for specific configurations, when sales are posted in the headquarters through customer orders or statement posting, the Microsoft Dynamics system expects that valid batch numbers for batch-tracked items exist, and that they will be used during the invoicing process.</span></span>
+<span data-ttu-id="6c1c5-104">在销售点 (POS) 中，无法在销售时捕获批量跟踪物料的批处理号。</span><span class="sxs-lookup"><span data-stu-id="6c1c5-104">In Point of Sale (POS), batch numbers can't be captured for batch-tracked items at the time of sale.</span></span> <span data-ttu-id="6c1c5-105">但是，对于特定配置，在总部通过客户订单或对帐单过帐来过帐销售额时，Microsoft Dynamics 系统要求批量跟踪物料具备有效的批处理号，这些编号在开票流程中使用。</span><span class="sxs-lookup"><span data-stu-id="6c1c5-105">However, for specific configurations, when sales are posted in the headquarters through customer orders or statement posting, the Microsoft Dynamics system expects that valid batch numbers for batch-tracked items exist, and that they will be used during the invoicing process.</span></span>
 
-<span data-ttu-id="8c311-106">如果有效的批处理号对产品可用，则来自对帐单过帐的客户订单开票流程和销售订单开票流程使用这些编号。</span><span class="sxs-lookup"><span data-stu-id="8c311-106">If valid batch numbers are available for products, the customer order invoicing process and the sales order invoicing process from statement posting use them.</span></span> <span data-ttu-id="8c311-107">否则，客户订单开票流程无法过帐，POS 用户将收到错误消息。</span><span class="sxs-lookup"><span data-stu-id="8c311-107">Otherwise, the customer order invoicing process can't post, and the POS user receives an error message.</span></span> <span data-ttu-id="8c311-108">对帐单过帐随后会进入错误状态。</span><span class="sxs-lookup"><span data-stu-id="8c311-108">Statement posting then goes into an error state.</span></span> <span data-ttu-id="8c311-109">即使为产品启用了负库存，也会出现此错误状态。</span><span class="sxs-lookup"><span data-stu-id="8c311-109">This error state occurs even when negative inventory has been turned on for the products.</span></span>
+<span data-ttu-id="6c1c5-106">如果有效的批处理号对产品可用，则来自对帐单过帐的客户订单开票流程和销售订单开票流程使用这些编号。</span><span class="sxs-lookup"><span data-stu-id="6c1c5-106">If valid batch numbers are available for products, the customer order invoicing process and the sales order invoicing process from statement posting use them.</span></span> <span data-ttu-id="6c1c5-107">否则，客户订单开票流程无法过帐，POS 用户将收到错误消息。</span><span class="sxs-lookup"><span data-stu-id="6c1c5-107">Otherwise, the customer order invoicing process can't post, and the POS user receives an error message.</span></span> <span data-ttu-id="6c1c5-108">对帐单过帐随后会进入错误状态。</span><span class="sxs-lookup"><span data-stu-id="6c1c5-108">Statement posting then goes into an error state.</span></span> <span data-ttu-id="6c1c5-109">即使为产品启用了负库存，也会出现此错误状态。</span><span class="sxs-lookup"><span data-stu-id="6c1c5-109">This error state occurs even when negative inventory has been turned on for the products.</span></span>
 
-<span data-ttu-id="8c311-110">在 Retail 版本 10.0.4 和更高版本中进行的改进可帮助确保在为批量跟踪物料启用了负库存时，如果库存为 0（零）或者批处理号不可用，不会阻止这些物料通过对帐单过帐进行客户订单开票和销售订单开票。</span><span class="sxs-lookup"><span data-stu-id="8c311-110">Improvements that have been made in Retail version 10.0.4 and later help guarantee that, when negative inventory is turned on for batch-tracked items, customer order invoicing and sales order invoicing through statement posting aren't blocked for those items if the inventory is 0 (zero) or a batch number isn't available.</span></span> <span data-ttu-id="8c311-111">批处理号不可用时，新功能会使用销售行的默认批处理 ID。</span><span class="sxs-lookup"><span data-stu-id="8c311-111">The new functionality uses a default batch ID for the sales lines when batch numbers aren't available.</span></span>
+<span data-ttu-id="6c1c5-110">在 Retail 版本 10.0.4 和更高版本中进行的改进可帮助确保在为批量跟踪物料启用了负库存时，如果库存为 0（零）或者批处理号不可用，不会阻止这些物料通过对帐单过帐进行客户订单开票和销售订单开票。</span><span class="sxs-lookup"><span data-stu-id="6c1c5-110">Improvements that have been made in Retail version 10.0.4 and later help guarantee that, when negative inventory is turned on for batch-tracked items, customer order invoicing and sales order invoicing through statement posting aren't blocked for those items if the inventory is 0 (zero) or a batch number isn't available.</span></span> <span data-ttu-id="6c1c5-111">批处理号不可用时，新功能会使用销售行的默认批处理 ID。</span><span class="sxs-lookup"><span data-stu-id="6c1c5-111">The new functionality uses a default batch ID for the sales lines when batch numbers aren't available.</span></span>
 
-<span data-ttu-id="8c311-112">要定义为客户订单使用的默认批处理 ID，请在 **Commerce 参数** 页面的 **客户订单** 选项卡上，在 **订单** 快速选项卡中设置 **默认批处理 ID** 字段。</span><span class="sxs-lookup"><span data-stu-id="8c311-112">To define the default batch ID that is used for customer orders, on the **Commerce parameters** page, on the **Customer orders** tab, on the **Order** FastTab, set the **Default batch id** field.</span></span>
+<span data-ttu-id="6c1c5-112">要定义为客户订单使用的默认批处理 ID，请在 **Commerce 参数** 页面的 **客户订单** 选项卡上，在 **订单** 快速选项卡中设置 **默认批处理 ID** 字段。</span><span class="sxs-lookup"><span data-stu-id="6c1c5-112">To define the default batch ID that is used for customer orders, on the **Commerce parameters** page, on the **Customer orders** tab, on the **Order** FastTab, set the **Default batch id** field.</span></span>
 
-<span data-ttu-id="8c311-113">要定义为通过对账单过账进行的销售订单开单使用的默认批处理 ID，请在 **Commerce 参数** 页面的 **过账** 选项卡上，在 **库存更新** 快速选项卡中设置 **默认批处理 ID** 字段。</span><span class="sxs-lookup"><span data-stu-id="8c311-113">To define the default batch ID that is used for sales order invoicing through statement posting, on the **Commerce parameters** page, on the **Posting** tab, on the **Inventory update** FastTab, set the **Default batch id** field.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="8c311-114">只有为特定商店仓库和物料启用了高级仓储时，此功能才可用。</span><span class="sxs-lookup"><span data-stu-id="8c311-114">This functionality is available only when advanced warehousing is turned on for the specific store warehouse and items.</span></span> <span data-ttu-id="8c311-115">在以后的版本中，未使用高级仓库管理的方案也将支持此功能。</span><span class="sxs-lookup"><span data-stu-id="8c311-115">In a later release, the functionality will also be supported for scenarios where advanced warehouse management isn't used.</span></span>
+<span data-ttu-id="6c1c5-113">要定义为通过对账单过账进行的销售订单开单使用的默认批处理 ID，请在 **Commerce 参数** 页面的 **过账** 选项卡上，在 **库存更新** 快速选项卡中设置 **默认批处理 ID** 字段。</span><span class="sxs-lookup"><span data-stu-id="6c1c5-113">To define the default batch ID that is used for sales order invoicing through statement posting, on the **Commerce parameters** page, on the **Posting** tab, on the **Inventory update** FastTab, set the **Default batch id** field.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="8c311-116">Retail 版本 10.0.5 中推出了在对非高级仓库管理方案进行对帐单过帐期间，对批量跟踪物料处理的改进的支持。</span><span class="sxs-lookup"><span data-stu-id="8c311-116">Support for improved handling of batch-tracked items during statement posting for non-advanced warehouse management scenarios was introduced in Retail version 10.0.5.</span></span>
+> <span data-ttu-id="6c1c5-114">只有为特定商店仓库和物料启用了高级仓储时，此功能才可用。</span><span class="sxs-lookup"><span data-stu-id="6c1c5-114">This functionality is available only when advanced warehousing is turned on for the specific store warehouse and items.</span></span> <span data-ttu-id="6c1c5-115">在以后的版本中，未使用高级仓库管理的方案也将支持此功能。</span><span class="sxs-lookup"><span data-stu-id="6c1c5-115">In a later release, the functionality will also be supported for scenarios where advanced warehouse management isn't used.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="6c1c5-116">Retail 版本 10.0.5 中推出了在对非高级仓库管理方案进行对帐单过帐期间，对批量跟踪物料处理的改进的支持。</span><span class="sxs-lookup"><span data-stu-id="6c1c5-116">Support for improved handling of batch-tracked items during statement posting for non-advanced warehouse management scenarios was introduced in Retail version 10.0.5.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

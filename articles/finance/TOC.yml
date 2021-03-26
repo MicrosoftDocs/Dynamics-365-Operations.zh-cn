@@ -72,7 +72,9 @@
                   items:
                     - name: “Finance 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.17（2021 年 3 月）
+                    - name: Finance 10.0.18（2021 年 5 月）
+                      href: get-started/whats-new-changed-10-0-18.md
+                    - name: Finance 10.0.17（2021 年 4 月）
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16（2021 年 2 月）
                       href: get-started/whats-new-changed-10-0-16.md
@@ -80,6 +82,8 @@
                       href: get-started/whats-new-changed-10-0-15.md
             - name: 已删除或弃用的功能
               items:
+                - name: 主页中已删除或弃用的功能
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: Dynamics 365 Finance 中已删除或弃用的功能
                   href: get-started/removed-deprecated-features-finance.md
                 - name: 先前版本中已删除或弃用的功能
@@ -474,6 +478,8 @@
               href: accounts-receivable/tasks/create-collection-letter-sequence.md
             - name: 处理催款单
               href: accounts-receivable/tasks/process-collection-letters.md
+            - name: 处理催款单示例
+              href: accounts-receivable/process-collection-letters-example.md
             - name: 设置并生成应收帐款的帐龄信息
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: 客户帐龄分析表
@@ -482,10 +488,12 @@
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: 高级注释管理
               href: localizations/emea-ita-exil-structured-notes.md
-            - name: 对贷方通知单中的原始账单的引用
+            - name: 对贷方通知单中的原始发票的引用
               href: accounts-receivable/original-invoice-numbers-credit-notes.md
             - name: 按时间顺序编号的文档和凭证
               href: accounts-receivable/chrono-numbers.md
+            - name: 使用哈希编号存档打印的客户发票
+              href: accounts-receivable/archive-printed-invoices.md
         - name: 预算编制
           items:
             - name: 预算编制主页
@@ -506,7 +514,7 @@
               href: budgeting/budget-planning-excel-templates.md
             - name: 扩展预算计划布局
               href: budgeting/extending-budget-planning-layout.md
-            - name: 职位预算编制故障排除
+            - name: 职位预算编制疑难解答
               href: budgeting/position-budgeting-set-up-issues.md
             - name: 预算计划
               href: budgeting/budget-plan.md
@@ -520,7 +528,7 @@
               href: cash-bank-management/cash-bank-management.md
             - name: 现金流量预测
               href: cash-bank-management/cash-flow-forecasting.md
-            - name: 现金流量预测设置故障排除
+            - name: 现金流量预测设置疑难解答
               href: cash-bank-management/cash-flow-forecasting-tsg.md
             - name: 银行管理工作区
               href: cash-bank-management/Bank-management-workspace.md
@@ -594,7 +602,7 @@
                   href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
                 - name: 高级银行对帐概览
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: 银行对账单文件导入故障排除
+                - name: 银行对账单文件导入疑难解答
                   href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: 更新银行日记帐组合实体
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
@@ -666,11 +674,11 @@
               href: cost-accounting/cost-control-workspace.md
             - name: 配置成本控制工作区参数
               href: cost-accounting/tasks/configure-cost-control-workspace-parameters.md
-            - name: 了解 Microsoft Power BI 中的访问权限列表安全和 RLS
+            - name: 了解 Microsoft Power BI 中的访问权限列表安全性和 RLS
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/finance/toc.json
-            - name: 使用针对 Microsoft Power BI 报告的内容包
+            - name: 使用 Microsoft Power BI 报告的内容包
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/finance/toc.json
-            - name: 使用针对移动应用程序的成本控制工作区
+            - name: 使用移动应用程序的成本控制工作区
               href: cost-accounting/cost-controlling-mobile-workspace.md
         - name: 电子消息
           href: general-ledger/electronic-messaging.md
@@ -1316,8 +1324,10 @@
                   href: public-sector/tasks/create-one-time-vendor-invoice-public-sector.md
                 - name: 在公共部门中创建供应商认证类型
                   href: public-sector/tasks/create-vendor-certification-type-public-sector.md
-                - name: 在公共部门中导入和创建多个零星供应商和账单
+                - name: 在公共部门中导入和创建多个零星供应商和发票
                   href: public-sector/tasks/import-multiple-one-time-vendors.md
+                - name: 限制编辑发票的会计分配
+                  href: public-sector/restrict-edit-accounting-distributions.md
                 - name: 计划公共部门中的零星供应商
                   href: public-sector/plan-one-time-vendors-public-sector.md
                 - name: 控制对公共部门中的采购协议的访问
@@ -1428,8 +1438,8 @@
                       href: localizations/e-invoicing-get-started.md
                     - name: 开始使用适用于巴西的电子开票加载项
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: 埃及的客户电子账单
-                      href: localizations/emea-egy-e-invoices.md
+                    - name: 开始使用适用于埃及的电子开票加载项
+                      href: localizations/e-invoicing-eg-get-started.md
                     - name: 开始使用适用于意大利的电子开票加载项
                       href: localizations/e-invoicing-ita-get-started.md
                     - name: 开始使用适用于墨西哥的电子开票加载项
@@ -1580,6 +1590,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: 设置财务设施的 NF-e 参数
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NT2020.006 - NF-e 的中介销售数字平台
+                      href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: NT2019.001 - NF-e/NFC-e 的税收福利和免税规则
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
@@ -1782,8 +1794,10 @@
                   href: localizations/egypt.md
                 - name: 配置埃及的登记编号
                   href: localizations/emea-egy-reg-numbers.md
-                - name: 配置埃及的账单版式
+                - name: 配置埃及的发票版式
                   href: localizations/emea-egy-invoice-layout.md
+                - name: 埃及的客户电子发票
+                  href: localizations/emea-egy-e-invoices.md
             - name: 爱沙尼亚
               items:
                 - name: 爱沙尼亚概览
@@ -2008,12 +2022,14 @@
                   items:
                     - name: 德国审计文件概览
                       href: localizations/emea-deu-gdpdu-audit-data-export.md
-                    - name: 自定义审计文件配置
-                      href: localizations/tasks/customize-german-audit-file-configuration.md
-                    - name: 生成审计文件
-                      href: localizations/tasks/german-audit-file.md
                     - name: 导入审计文件配置
                       href: localizations/tasks/import-german-audit-file-configuration.md
+                    - name: 生成审计文件
+                      href: localizations/tasks/german-audit-file.md
+                    - name: 自定义审计文件配置
+                      href: localizations/tasks/customize-german-audit-file-configuration.md
+                    - name: 为审计文件配置添加筛选器
+                      href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: 第二年中其他购置的折旧调整
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: 增值税申报的电子传输 (ELSTER)
@@ -2304,15 +2320,15 @@
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: 每季度增值税申报报表
                   href: localizations/emea-ita-quarterly-vat-communication.md
-                - name: 黑名单报告
+                - name: 阻止列表报告
                   href: localizations/emea-ita-black-list-report.md
-                - name: 生效日期
+                - name: 生效日期和会计日记帐
                   href: localizations/emea-ita-competence-date.md
                 - name: 固定资产的折旧
                   href: localizations/emea-ita-depreciation-of-fixed-assets.md
                 - name: Modello 770
                   href: localizations/emea-ita-modello770.md
-                - name: 账单上的装箱单日期验证
+                - name: 发票上的装箱单日期验证
                   href: localizations/emea-ita-packing-slip-date-verification-on-invoice.md
                 - name: 过帐和打印包含运输交货详细信息的装箱单
                   href: localizations/emea-ita-packing-slip.md
@@ -3253,7 +3269,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/expense-management-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: 财务绩效
                   href: ../fin-ops-core/dev-itpro/analytics/financial-performance-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
-                - name: 财务见解
+                - name: 财务分析
                   href: ../fin-ops-core/dev-itpro/analytics/financial-insights.md?toc=/dynamics365/finance/toc.json
                 - name: 固定资产管理
                   href: fixed-assets/Fixed-asset-management-workspace.md
@@ -3493,12 +3509,18 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/finance/toc.json
                         - name: Case
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/finance/toc.json
+                        - name: 包含
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-contains.md?toc=/dynamics365/finance/toc.json
+                        - name: EndsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-endswith.md?toc=/dynamics365/finance/toc.json
                         - name: If
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/finance/toc.json
                         - name: Not
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/finance/toc.json
                         - name: Or
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/finance/toc.json
+                        - name: StartsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-startswith.md?toc=/dynamics365/finance/toc.json
                         - name: ValueIn
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/finance/toc.json
                         - name: ValueInLarge
@@ -3675,6 +3697,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
                     - name: 重复使用带有 Excel 模板的电子报告配置以 Word 格式生成报表
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: 禁止在生成的报告中使用 Word 内容控件
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/finance/toc.json
                 - name: 设计配置以填写 PDF 模板
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: 嵌入图像和形状
@@ -3759,6 +3783,8 @@
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: 共享 GR 中的配置
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: 终止富通信全局存储库中的配置
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: 快速入门指南
               items:
                 - name: 调整电子报告格式以生成自定义电子单据
