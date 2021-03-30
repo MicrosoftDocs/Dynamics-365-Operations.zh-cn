@@ -17,25 +17,28 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6f26144b03fb4d2130c1ed7fe3db2411384b9ff6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f2e111930431e908e5aaa2f08d04adbb2d952f0f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970173"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208103"
 ---
-# <a name="troubleshoot-warehouse-setup"></a><span data-ttu-id="aa898-103">仓库设置疑难解答</span><span class="sxs-lookup"><span data-stu-id="aa898-103">Troubleshoot warehouse setup</span></span>
+# <a name="troubleshoot-warehouse-setup"></a><span data-ttu-id="d0791-103">仓库设置疑难解答</span><span class="sxs-lookup"><span data-stu-id="d0791-103">Troubleshoot warehouse setup</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="aa898-104">此主题介绍如何解决在 Microsoft Dynamics 365 Supply Chain Management 中设置仓库时可能遇到的常见问题。</span><span class="sxs-lookup"><span data-stu-id="aa898-104">This topic describes how to fix common issues that you might encounter while you set up warehouses in Microsoft Dynamics 365 Supply Chain Management.</span></span>
+<span data-ttu-id="d0791-104">此主题介绍如何解决在 Microsoft Dynamics 365 Supply Chain Management 中设置仓库时可能遇到的常见问题。</span><span class="sxs-lookup"><span data-stu-id="d0791-104">This topic describes how to fix common issues that you might encounter while you set up warehouses in Microsoft Dynamics 365 Supply Chain Management.</span></span>
 
-## <a name="i-cant-use-any-role-except-administrator-to-access-the-mobile-device-app-emulator"></a><span data-ttu-id="aa898-105">除了管理员，我不能使用任何角色来访问移动设备应用模拟器。</span><span class="sxs-lookup"><span data-stu-id="aa898-105">I can't use any role except administrator to access the mobile device app emulator.</span></span>
+## <a name="i-cant-use-any-role-except-administrator-to-access-the-mobile-device-app-emulator"></a><span data-ttu-id="d0791-105">除了管理员，我不能使用任何角色来访问移动设备应用模拟器。</span><span class="sxs-lookup"><span data-stu-id="d0791-105">I can't use any role except administrator to access the mobile device app emulator.</span></span>
 
-### <a name="issue-description"></a><span data-ttu-id="aa898-106">问题描述</span><span class="sxs-lookup"><span data-stu-id="aa898-106">Issue description</span></span>
+### <a name="issue-description"></a><span data-ttu-id="d0791-106">问题描述</span><span class="sxs-lookup"><span data-stu-id="d0791-106">Issue description</span></span>
 
-<span data-ttu-id="aa898-107">您不能使用管理员角色以外的任何角色来访问移动设备应用模拟器。</span><span class="sxs-lookup"><span data-stu-id="aa898-107">You can't any use role except the administrator tole to access the mobile device app emulator.</span></span>
+<span data-ttu-id="d0791-107">您不能使用管理员角色以外的任何角色来访问移动设备应用模拟器。</span><span class="sxs-lookup"><span data-stu-id="d0791-107">You can't any use role except the administrator tole to access the mobile device app emulator.</span></span>
 
-### <a name="issue-resolution"></a><span data-ttu-id="aa898-108">解决问题</span><span class="sxs-lookup"><span data-stu-id="aa898-108">Issue resolution</span></span>
+### <a name="issue-resolution"></a><span data-ttu-id="d0791-108">解决问题</span><span class="sxs-lookup"><span data-stu-id="d0791-108">Issue resolution</span></span>
 
-<span data-ttu-id="aa898-109">移动设备应用模拟器设置为只能在管理员帐户中使用。</span><span class="sxs-lookup"><span data-stu-id="aa898-109">The mobile device app emulator is set to work only with the administrator account.</span></span> <span data-ttu-id="aa898-110">对于所有测试和实时流程，我们建议您使用实际的仓库应用。</span><span class="sxs-lookup"><span data-stu-id="aa898-110">For all testing and live process purposes, we recommend that you use the warehouse app itself.</span></span>
+<span data-ttu-id="d0791-109">移动设备应用模拟器设置为只能在管理员帐户中使用。</span><span class="sxs-lookup"><span data-stu-id="d0791-109">The mobile device app emulator is set to work only with the administrator account.</span></span> <span data-ttu-id="d0791-110">对于所有测试和实时流程，我们建议您使用实际的仓库应用。</span><span class="sxs-lookup"><span data-stu-id="d0791-110">For all testing and live process purposes, we recommend that you use the warehouse app itself.</span></span>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
