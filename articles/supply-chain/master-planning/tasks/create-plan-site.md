@@ -15,42 +15,45 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b6d433257056c604500953060bf11ce3a3f5866
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d5ef805ba42500175d29208f1dcd5d383c63adb8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007933"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214338"
 ---
-# <a name="create-a-plan-for-a-site"></a><span data-ttu-id="56eeb-103">创建站点计划</span><span class="sxs-lookup"><span data-stu-id="56eeb-103">Create a plan for a site</span></span>
+# <a name="create-a-plan-for-a-site"></a><span data-ttu-id="00351-103">创建站点计划</span><span class="sxs-lookup"><span data-stu-id="00351-103">Create a plan for a site</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="56eeb-104">生产规划人员计算特定物料生产的物料和产能需求。</span><span class="sxs-lookup"><span data-stu-id="56eeb-104">The production planner calculates the material and capacity requirements for the production of a specific item.</span></span> <span data-ttu-id="56eeb-105">在采购建议创建后，他在计划的站点查找订单并确认订单，从最紧急的订单开始。</span><span class="sxs-lookup"><span data-stu-id="56eeb-105">After the sourcing suggestions are created, he finds the orders at the site for which he is planning and firms the orders, starting from the urgent ones.</span></span> <span data-ttu-id="56eeb-106">最紧急的订单是需要在当前日期确定的订单。</span><span class="sxs-lookup"><span data-stu-id="56eeb-106">The most urgent orders are the ones that need to be firmed on the current date.</span></span> <span data-ttu-id="56eeb-107">使用演示数据公司 USMF 执行这些任务。</span><span class="sxs-lookup"><span data-stu-id="56eeb-107">Use the demo data company USMF to perform these tasks.</span></span>
+<span data-ttu-id="00351-104">生产规划人员计算特定物料生产的物料和产能需求。</span><span class="sxs-lookup"><span data-stu-id="00351-104">The production planner calculates the material and capacity requirements for the production of a specific item.</span></span> <span data-ttu-id="00351-105">在采购建议创建后，他在计划的站点查找订单并确认订单，从最紧急的订单开始。</span><span class="sxs-lookup"><span data-stu-id="00351-105">After the sourcing suggestions are created, he finds the orders at the site for which he is planning and firms the orders, starting from the urgent ones.</span></span> <span data-ttu-id="00351-106">最紧急的订单是需要在当前日期确定的订单。</span><span class="sxs-lookup"><span data-stu-id="00351-106">The most urgent orders are the ones that need to be firmed on the current date.</span></span> <span data-ttu-id="00351-107">使用演示数据公司 USMF 执行这些任务。</span><span class="sxs-lookup"><span data-stu-id="00351-107">Use the demo data company USMF to perform these tasks.</span></span>
 
 
-## <a name="create-a-materials-and-capacity-plan-for-an-item"></a><span data-ttu-id="56eeb-108">创建物料的物料和产能计划</span><span class="sxs-lookup"><span data-stu-id="56eeb-108">Create a materials and capacity plan for an item</span></span>
-1. <span data-ttu-id="56eeb-109">单击“主计划”。</span><span class="sxs-lookup"><span data-stu-id="56eeb-109">Click Master planning.</span></span>
-    * <span data-ttu-id="56eeb-110">您需要导航到默认仪表板。</span><span class="sxs-lookup"><span data-stu-id="56eeb-110">You need to navigate to the default Dashboard.</span></span>  
-2. <span data-ttu-id="56eeb-111">单击“运行”。</span><span class="sxs-lookup"><span data-stu-id="56eeb-111">Click Run.</span></span>
-3. <span data-ttu-id="56eeb-112">扩展“要包括的记录”部分。</span><span class="sxs-lookup"><span data-stu-id="56eeb-112">Expand the Records to include section.</span></span>
-4. <span data-ttu-id="56eeb-113">单击“筛选器”。</span><span class="sxs-lookup"><span data-stu-id="56eeb-113">Click Filter.</span></span>
-5. <span data-ttu-id="56eeb-114">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="56eeb-114">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="56eeb-115">在“标准”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="56eeb-115">In the Criteria field, type a value.</span></span>
-    * <span data-ttu-id="56eeb-116">例子： D0001</span><span class="sxs-lookup"><span data-stu-id="56eeb-116">Example: D0001</span></span>  
-7. <span data-ttu-id="56eeb-117">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="56eeb-117">Click OK.</span></span>
-8. <span data-ttu-id="56eeb-118">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="56eeb-118">Click OK.</span></span>
-    * <span data-ttu-id="56eeb-119">这可能需要几分钟的时间。</span><span class="sxs-lookup"><span data-stu-id="56eeb-119">This may take a few minutes.</span></span>  
-9. <span data-ttu-id="56eeb-120">刷新该页面。</span><span class="sxs-lookup"><span data-stu-id="56eeb-120">Refresh the page.</span></span>
+## <a name="create-a-materials-and-capacity-plan-for-an-item"></a><span data-ttu-id="00351-108">创建物料的物料和产能计划</span><span class="sxs-lookup"><span data-stu-id="00351-108">Create a materials and capacity plan for an item</span></span>
+1. <span data-ttu-id="00351-109">单击“主计划”。</span><span class="sxs-lookup"><span data-stu-id="00351-109">Click Master planning.</span></span>
+    * <span data-ttu-id="00351-110">您需要导航到默认仪表板。</span><span class="sxs-lookup"><span data-stu-id="00351-110">You need to navigate to the default Dashboard.</span></span>  
+2. <span data-ttu-id="00351-111">单击“运行”。</span><span class="sxs-lookup"><span data-stu-id="00351-111">Click Run.</span></span>
+3. <span data-ttu-id="00351-112">扩展“要包括的记录”部分。</span><span class="sxs-lookup"><span data-stu-id="00351-112">Expand the Records to include section.</span></span>
+4. <span data-ttu-id="00351-113">单击“筛选器”。</span><span class="sxs-lookup"><span data-stu-id="00351-113">Click Filter.</span></span>
+5. <span data-ttu-id="00351-114">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="00351-114">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="00351-115">在“标准”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="00351-115">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="00351-116">例子： D0001</span><span class="sxs-lookup"><span data-stu-id="00351-116">Example: D0001</span></span>  
+7. <span data-ttu-id="00351-117">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="00351-117">Click OK.</span></span>
+8. <span data-ttu-id="00351-118">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="00351-118">Click OK.</span></span>
+    * <span data-ttu-id="00351-119">这可能需要几分钟的时间。</span><span class="sxs-lookup"><span data-stu-id="00351-119">This may take a few minutes.</span></span>  
+9. <span data-ttu-id="00351-120">刷新该页面。</span><span class="sxs-lookup"><span data-stu-id="00351-120">Refresh the page.</span></span>
 
-## <a name="identify-the-urgent-planned-orders-for-the-item"></a><span data-ttu-id="56eeb-121">确定物料的紧急计划订单</span><span class="sxs-lookup"><span data-stu-id="56eeb-121">Identify the urgent planned orders for the item</span></span>
-1. <span data-ttu-id="56eeb-122">打开“物料编号列”筛选器。</span><span class="sxs-lookup"><span data-stu-id="56eeb-122">Open Item number column filter.</span></span>
-2. <span data-ttu-id="56eeb-123">在“物料编号”字段中安装一个筛选器，输入值“D0001”，点击筛选器操作键“开始”。</span><span class="sxs-lookup"><span data-stu-id="56eeb-123">Apply a filter on the "Item number" field, with a value of "D0001", using the "begins with" filter operator.</span></span>
-3. <span data-ttu-id="56eeb-124">打开订单日期列筛选器。</span><span class="sxs-lookup"><span data-stu-id="56eeb-124">Open Order date column filter.</span></span>
-4. <span data-ttu-id="56eeb-125">在“订单日期”字段中应用筛选器（具有当前日期值），使用“正好是”筛选器运算符。</span><span class="sxs-lookup"><span data-stu-id="56eeb-125">Apply a filter on the "Order date" field, with a value of current date, using the "is exactly" filter operator.</span></span>
+## <a name="identify-the-urgent-planned-orders-for-the-item"></a><span data-ttu-id="00351-121">确定物料的紧急计划订单</span><span class="sxs-lookup"><span data-stu-id="00351-121">Identify the urgent planned orders for the item</span></span>
+1. <span data-ttu-id="00351-122">打开“物料编号列”筛选器。</span><span class="sxs-lookup"><span data-stu-id="00351-122">Open Item number column filter.</span></span>
+2. <span data-ttu-id="00351-123">在“物料编号”字段中安装一个筛选器，输入值“D0001”，点击筛选器操作键“开始”。</span><span class="sxs-lookup"><span data-stu-id="00351-123">Apply a filter on the "Item number" field, with a value of "D0001", using the "begins with" filter operator.</span></span>
+3. <span data-ttu-id="00351-124">打开订单日期列筛选器。</span><span class="sxs-lookup"><span data-stu-id="00351-124">Open Order date column filter.</span></span>
+4. <span data-ttu-id="00351-125">在“订单日期”字段中应用筛选器（具有当前日期值），使用“正好是”筛选器运算符。</span><span class="sxs-lookup"><span data-stu-id="00351-125">Apply a filter on the "Order date" field, with a value of current date, using the "is exactly" filter operator.</span></span>
 
-## <a name="firm-all-the-urgent-orders-for-the-item"></a><span data-ttu-id="56eeb-126">确定物料的所有紧急订单</span><span class="sxs-lookup"><span data-stu-id="56eeb-126">Firm all the urgent orders for the item</span></span>
-1. <span data-ttu-id="56eeb-127">在列表中，标记或取消标记所有行。</span><span class="sxs-lookup"><span data-stu-id="56eeb-127">In the list, mark or unmark all rows.</span></span>
-2. <span data-ttu-id="56eeb-128">单击“确认”。</span><span class="sxs-lookup"><span data-stu-id="56eeb-128">Click Firm.</span></span>
-3. <span data-ttu-id="56eeb-129">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="56eeb-129">Click OK.</span></span>
+## <a name="firm-all-the-urgent-orders-for-the-item"></a><span data-ttu-id="00351-126">确定物料的所有紧急订单</span><span class="sxs-lookup"><span data-stu-id="00351-126">Firm all the urgent orders for the item</span></span>
+1. <span data-ttu-id="00351-127">在列表中，标记或取消标记所有行。</span><span class="sxs-lookup"><span data-stu-id="00351-127">In the list, mark or unmark all rows.</span></span>
+2. <span data-ttu-id="00351-128">单击“确认”。</span><span class="sxs-lookup"><span data-stu-id="00351-128">Click Firm.</span></span>
+3. <span data-ttu-id="00351-129">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="00351-129">Click OK.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

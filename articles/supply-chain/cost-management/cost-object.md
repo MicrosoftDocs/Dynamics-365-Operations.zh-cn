@@ -18,66 +18,69 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65a0f72f8d97bda36bacd691d545807c413f8825
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8ee7c170d5a330c0080931a67c1548eb0d3522bb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967650"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232390"
 ---
-# <a name="cost-objects"></a><span data-ttu-id="b4dd2-105">成本对象</span><span class="sxs-lookup"><span data-stu-id="b4dd2-105">Cost objects</span></span>
+# <a name="cost-objects"></a><span data-ttu-id="68ce4-105">成本对象</span><span class="sxs-lookup"><span data-stu-id="68ce4-105">Cost objects</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b4dd2-106">本文提供有关成本对象的信息，并说明如何累计成本和数量。</span><span class="sxs-lookup"><span data-stu-id="b4dd2-106">This article provides information about costs objects, and explains how costs and quantities are accumulated.</span></span> <span data-ttu-id="b4dd2-107">成本对象是为其累计成本和数量的实体。</span><span class="sxs-lookup"><span data-stu-id="b4dd2-107">A cost object is an entity that costs and quantities are accumulated for.</span></span> <span data-ttu-id="b4dd2-108">成本对象实体可以是产品或产品变型，例如样式和颜色的变型。</span><span class="sxs-lookup"><span data-stu-id="b4dd2-108">A cost object entity can be either a product or product variants, such as variants for style and color.</span></span>  
+<span data-ttu-id="68ce4-106">本文提供有关成本对象的信息，并说明如何累计成本和数量。</span><span class="sxs-lookup"><span data-stu-id="68ce4-106">This article provides information about costs objects, and explains how costs and quantities are accumulated.</span></span> <span data-ttu-id="68ce4-107">成本对象是为其累计成本和数量的实体。</span><span class="sxs-lookup"><span data-stu-id="68ce4-107">A cost object is an entity that costs and quantities are accumulated for.</span></span> <span data-ttu-id="68ce4-108">成本对象实体可以是产品或产品变型，例如样式和颜色的变型。</span><span class="sxs-lookup"><span data-stu-id="68ce4-108">A cost object entity can be either a product or product variants, such as variants for style and color.</span></span>  
 
-## <a name="cost-objects"></a><span data-ttu-id="b4dd2-109">成本对象</span><span class="sxs-lookup"><span data-stu-id="b4dd2-109">Cost objects</span></span>
+## <a name="cost-objects"></a><span data-ttu-id="68ce4-109">成本对象</span><span class="sxs-lookup"><span data-stu-id="68ce4-109">Cost objects</span></span>
 
-<span data-ttu-id="b4dd2-110">**成本对象** 页面列出在某个产品上登记的所有成本对象。</span><span class="sxs-lookup"><span data-stu-id="b4dd2-110">The **Cost objects** page lists all cost objects that are registered on a product.</span></span> <span data-ttu-id="b4dd2-111">成本对象由来自以下源的数据定义：</span><span class="sxs-lookup"><span data-stu-id="b4dd2-111">The cost objects are defined by data from the following sources:</span></span>
+<span data-ttu-id="68ce4-110">**成本对象** 页面列出在某个产品上登记的所有成本对象。</span><span class="sxs-lookup"><span data-stu-id="68ce4-110">The **Cost objects** page lists all cost objects that are registered on a product.</span></span> <span data-ttu-id="68ce4-111">成本对象由来自以下源的数据定义：</span><span class="sxs-lookup"><span data-stu-id="68ce4-111">The cost objects are defined by data from the following sources:</span></span>
 
--   <span data-ttu-id="b4dd2-112">产品</span><span class="sxs-lookup"><span data-stu-id="b4dd2-112">Product</span></span>
--   <span data-ttu-id="b4dd2-113">产品维度组</span><span class="sxs-lookup"><span data-stu-id="b4dd2-113">Product dimension group</span></span>
--   <span data-ttu-id="b4dd2-114">存储维度组</span><span class="sxs-lookup"><span data-stu-id="b4dd2-114">Storage dimension group</span></span>
--   <span data-ttu-id="b4dd2-115">跟踪维度组</span><span class="sxs-lookup"><span data-stu-id="b4dd2-115">Tracking dimension group</span></span>
+-   <span data-ttu-id="68ce4-112">产品</span><span class="sxs-lookup"><span data-stu-id="68ce4-112">Product</span></span>
+-   <span data-ttu-id="68ce4-113">产品维度组</span><span class="sxs-lookup"><span data-stu-id="68ce4-113">Product dimension group</span></span>
+-   <span data-ttu-id="68ce4-114">存储维度组</span><span class="sxs-lookup"><span data-stu-id="68ce4-114">Storage dimension group</span></span>
+-   <span data-ttu-id="68ce4-115">跟踪维度组</span><span class="sxs-lookup"><span data-stu-id="68ce4-115">Tracking dimension group</span></span>
 
-<span data-ttu-id="b4dd2-116">**注意：** 成本对象仅表示 **直接材料** 类型的成本元素。</span><span class="sxs-lookup"><span data-stu-id="b4dd2-116">**Note:** A cost object represents a cost element of the **Direct material** type only.</span></span> <span data-ttu-id="b4dd2-117">成本对象和库存对象在为财务库存所选的库存维度定义成本对象的方式上存在差异。</span><span class="sxs-lookup"><span data-stu-id="b4dd2-117">A cost object and an inventory object differ in the way that a cost object is defined by the inventory dimensions that are selected for financial inventory.</span></span> <span data-ttu-id="b4dd2-118">例如，某个物料具有以下配置：</span><span class="sxs-lookup"><span data-stu-id="b4dd2-118">For example, an item has the following configuration:</span></span>
+<span data-ttu-id="68ce4-116">**注意：** 成本对象仅表示 **直接材料** 类型的成本元素。</span><span class="sxs-lookup"><span data-stu-id="68ce4-116">**Note:** A cost object represents a cost element of the **Direct material** type only.</span></span> <span data-ttu-id="68ce4-117">成本对象和库存对象在为财务库存所选的库存维度定义成本对象的方式上存在差异。</span><span class="sxs-lookup"><span data-stu-id="68ce4-117">A cost object and an inventory object differ in the way that a cost object is defined by the inventory dimensions that are selected for financial inventory.</span></span> <span data-ttu-id="68ce4-118">例如，某个物料具有以下配置：</span><span class="sxs-lookup"><span data-stu-id="68ce4-118">For example, an item has the following configuration:</span></span>
 
--   <span data-ttu-id="b4dd2-119">**站点：** Physical inventory = Yes, Financial inventory = Yes</span><span class="sxs-lookup"><span data-stu-id="b4dd2-119">**Site:** Physical inventory = Yes, Financial inventory = Yes</span></span>
--   <span data-ttu-id="b4dd2-120">**仓库：** Physical inventory = Yes, Financial inventory = No</span><span class="sxs-lookup"><span data-stu-id="b4dd2-120">**Warehouse:** Physical inventory = Yes, Financial inventory = No</span></span>
--   <span data-ttu-id="b4dd2-121">**批号：** Physical inventory = Yes, Financial inventory = No</span><span class="sxs-lookup"><span data-stu-id="b4dd2-121">**Batch No.:** Physical inventory = Yes, Financial inventory = No</span></span>
+-   <span data-ttu-id="68ce4-119">**站点：** Physical inventory = Yes, Financial inventory = Yes</span><span class="sxs-lookup"><span data-stu-id="68ce4-119">**Site:** Physical inventory = Yes, Financial inventory = Yes</span></span>
+-   <span data-ttu-id="68ce4-120">**仓库：** Physical inventory = Yes, Financial inventory = No</span><span class="sxs-lookup"><span data-stu-id="68ce4-120">**Warehouse:** Physical inventory = Yes, Financial inventory = No</span></span>
+-   <span data-ttu-id="68ce4-121">**批号：** Physical inventory = Yes, Financial inventory = No</span><span class="sxs-lookup"><span data-stu-id="68ce4-121">**Batch No.:** Physical inventory = Yes, Financial inventory = No</span></span>
 
-<span data-ttu-id="b4dd2-122">下表显示了成本对象和库存对象的定义。</span><span class="sxs-lookup"><span data-stu-id="b4dd2-122">The following table shows what is a cost object and what is an inventory object.</span></span>
+<span data-ttu-id="68ce4-122">下表显示了成本对象和库存对象的定义。</span><span class="sxs-lookup"><span data-stu-id="68ce4-122">The following table shows what is a cost object and what is an inventory object.</span></span>
 
-| <span data-ttu-id="b4dd2-123">对象类型</span><span class="sxs-lookup"><span data-stu-id="b4dd2-123">Object type</span></span>      | <span data-ttu-id="b4dd2-124">物料编号</span><span class="sxs-lookup"><span data-stu-id="b4dd2-124">Item number</span></span> | <span data-ttu-id="b4dd2-125">站点</span><span class="sxs-lookup"><span data-stu-id="b4dd2-125">Site</span></span> | <span data-ttu-id="b4dd2-126">仓库</span><span class="sxs-lookup"><span data-stu-id="b4dd2-126">Warehouse</span></span> | <span data-ttu-id="b4dd2-127">批号</span><span class="sxs-lookup"><span data-stu-id="b4dd2-127">Batch No.</span></span> |
+| <span data-ttu-id="68ce4-123">对象类型</span><span class="sxs-lookup"><span data-stu-id="68ce4-123">Object type</span></span>      | <span data-ttu-id="68ce4-124">物料编号</span><span class="sxs-lookup"><span data-stu-id="68ce4-124">Item number</span></span> | <span data-ttu-id="68ce4-125">站点</span><span class="sxs-lookup"><span data-stu-id="68ce4-125">Site</span></span> | <span data-ttu-id="68ce4-126">仓库</span><span class="sxs-lookup"><span data-stu-id="68ce4-126">Warehouse</span></span> | <span data-ttu-id="68ce4-127">批号</span><span class="sxs-lookup"><span data-stu-id="68ce4-127">Batch No.</span></span> |
 |------------------|-------------|------|-----------|-----------|
-| <span data-ttu-id="b4dd2-128">成本对象</span><span class="sxs-lookup"><span data-stu-id="b4dd2-128">Cost object</span></span>      | <span data-ttu-id="b4dd2-129"> x</span><span class="sxs-lookup"><span data-stu-id="b4dd2-129">x</span></span>           | <span data-ttu-id="b4dd2-130"> x</span><span class="sxs-lookup"><span data-stu-id="b4dd2-130">x</span></span>    |           |           |
-| <span data-ttu-id="b4dd2-131">库存对象</span><span class="sxs-lookup"><span data-stu-id="b4dd2-131">Inventory object</span></span> | <span data-ttu-id="b4dd2-132"> x</span><span class="sxs-lookup"><span data-stu-id="b4dd2-132">x</span></span>           | <span data-ttu-id="b4dd2-133"> x</span><span class="sxs-lookup"><span data-stu-id="b4dd2-133">x</span></span>    |  <span data-ttu-id="b4dd2-134"> x</span><span class="sxs-lookup"><span data-stu-id="b4dd2-134">x</span></span>        | <span data-ttu-id="b4dd2-135"> x</span><span class="sxs-lookup"><span data-stu-id="b4dd2-135">x</span></span>         |
+| <span data-ttu-id="68ce4-128">成本对象</span><span class="sxs-lookup"><span data-stu-id="68ce4-128">Cost object</span></span>      | <span data-ttu-id="68ce4-129"> x</span><span class="sxs-lookup"><span data-stu-id="68ce4-129">x</span></span>           | <span data-ttu-id="68ce4-130"> x</span><span class="sxs-lookup"><span data-stu-id="68ce4-130">x</span></span>    |           |           |
+| <span data-ttu-id="68ce4-131">库存对象</span><span class="sxs-lookup"><span data-stu-id="68ce4-131">Inventory object</span></span> | <span data-ttu-id="68ce4-132"> x</span><span class="sxs-lookup"><span data-stu-id="68ce4-132">x</span></span>           | <span data-ttu-id="68ce4-133"> x</span><span class="sxs-lookup"><span data-stu-id="68ce4-133">x</span></span>    |  <span data-ttu-id="68ce4-134"> x</span><span class="sxs-lookup"><span data-stu-id="68ce4-134">x</span></span>        | <span data-ttu-id="68ce4-135"> x</span><span class="sxs-lookup"><span data-stu-id="68ce4-135">x</span></span>         |
 
-## <a name="accumulation-of-costs-and-quantities"></a><span data-ttu-id="b4dd2-136">成本和数量的累计</span><span class="sxs-lookup"><span data-stu-id="b4dd2-136">Accumulation of costs and quantities</span></span>
--   <span data-ttu-id="b4dd2-137">**值** 字段中的值为以下值的和：</span><span class="sxs-lookup"><span data-stu-id="b4dd2-137">The value in the **Value** fieldis a sum of the following values:</span></span>
-    -   <span data-ttu-id="b4dd2-138">实际成本额</span><span class="sxs-lookup"><span data-stu-id="b4dd2-138">Physical cost amount</span></span>
-    -   <span data-ttu-id="b4dd2-139">财务成本额</span><span class="sxs-lookup"><span data-stu-id="b4dd2-139">Financial cost amount</span></span>
-    -   <span data-ttu-id="b4dd2-140">调整</span><span class="sxs-lookup"><span data-stu-id="b4dd2-140">Adjustments</span></span>
--   <span data-ttu-id="b4dd2-141">**数量** 字段中的值为以下值的和：</span><span class="sxs-lookup"><span data-stu-id="b4dd2-141">The value in the **Quantity** field is a sum of the following values:</span></span>
-    -   <span data-ttu-id="b4dd2-142">已接收</span><span class="sxs-lookup"><span data-stu-id="b4dd2-142">Received</span></span>
-    -   <span data-ttu-id="b4dd2-143">已扣除</span><span class="sxs-lookup"><span data-stu-id="b4dd2-143">Deducted</span></span>
-    -   <span data-ttu-id="b4dd2-144">已过帐的数量</span><span class="sxs-lookup"><span data-stu-id="b4dd2-144">Posted quantity</span></span>
--   <span data-ttu-id="b4dd2-145">**平均单位成本** 字段为计算字段。</span><span class="sxs-lookup"><span data-stu-id="b4dd2-145">The **Average unit cost** field is a calculated field.</span></span> <span data-ttu-id="b4dd2-146">该值通过用 **值** 值除以 **数量** 值得出。</span><span class="sxs-lookup"><span data-stu-id="b4dd2-146">The value is calculated by dividing the **Value** value by the **Quantity** value.</span></span>
+## <a name="accumulation-of-costs-and-quantities"></a><span data-ttu-id="68ce4-136">成本和数量的累计</span><span class="sxs-lookup"><span data-stu-id="68ce4-136">Accumulation of costs and quantities</span></span>
+-   <span data-ttu-id="68ce4-137">**值** 字段中的值为以下值的和：</span><span class="sxs-lookup"><span data-stu-id="68ce4-137">The value in the **Value** fieldis a sum of the following values:</span></span>
+    -   <span data-ttu-id="68ce4-138">实际成本额</span><span class="sxs-lookup"><span data-stu-id="68ce4-138">Physical cost amount</span></span>
+    -   <span data-ttu-id="68ce4-139">财务成本额</span><span class="sxs-lookup"><span data-stu-id="68ce4-139">Financial cost amount</span></span>
+    -   <span data-ttu-id="68ce4-140">调整</span><span class="sxs-lookup"><span data-stu-id="68ce4-140">Adjustments</span></span>
+-   <span data-ttu-id="68ce4-141">**数量** 字段中的值为以下值的和：</span><span class="sxs-lookup"><span data-stu-id="68ce4-141">The value in the **Quantity** field is a sum of the following values:</span></span>
+    -   <span data-ttu-id="68ce4-142">已接收</span><span class="sxs-lookup"><span data-stu-id="68ce4-142">Received</span></span>
+    -   <span data-ttu-id="68ce4-143">已扣除</span><span class="sxs-lookup"><span data-stu-id="68ce4-143">Deducted</span></span>
+    -   <span data-ttu-id="68ce4-144">已过帐的数量</span><span class="sxs-lookup"><span data-stu-id="68ce4-144">Posted quantity</span></span>
+-   <span data-ttu-id="68ce4-145">**平均单位成本** 字段为计算字段。</span><span class="sxs-lookup"><span data-stu-id="68ce4-145">The **Average unit cost** field is a calculated field.</span></span> <span data-ttu-id="68ce4-146">该值通过用 **值** 值除以 **数量** 值得出。</span><span class="sxs-lookup"><span data-stu-id="68ce4-146">The value is calculated by dividing the **Value** value by the **Quantity** value.</span></span>
 
-<span data-ttu-id="b4dd2-147">**注意：** **包括实际成本** 参数不影响之前的计算。</span><span class="sxs-lookup"><span data-stu-id="b4dd2-147">**Note:** The \*\*Include physical value \*\*parameter has no effect on the preceding calculations.</span></span>
+<span data-ttu-id="68ce4-147">**注意：** **包括实际成本** 参数不影响之前的计算。</span><span class="sxs-lookup"><span data-stu-id="68ce4-147">**Note:** The \*\*Include physical value \*\*parameter has no effect on the preceding calculations.</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="b4dd2-148">其他资源</span><span class="sxs-lookup"><span data-stu-id="b4dd2-148">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="68ce4-148">其他资源</span><span class="sxs-lookup"><span data-stu-id="68ce4-148">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="b4dd2-149">产品维度组</span><span class="sxs-lookup"><span data-stu-id="b4dd2-149">Product dimension group</span></span>](https://technet.microsoft.com/library/aa499382.aspx)
+[<span data-ttu-id="68ce4-149">产品维度组</span><span class="sxs-lookup"><span data-stu-id="68ce4-149">Product dimension group</span></span>](https://technet.microsoft.com/library/aa499382.aspx)
 
-[<span data-ttu-id="b4dd2-150">存储维度组</span><span class="sxs-lookup"><span data-stu-id="b4dd2-150">Storage dimension group</span></span>](https://technet.microsoft.com/library/hh209317.aspx)
+[<span data-ttu-id="68ce4-150">存储维度组</span><span class="sxs-lookup"><span data-stu-id="68ce4-150">Storage dimension group</span></span>](https://technet.microsoft.com/library/hh209317.aspx)
 
-[<span data-ttu-id="b4dd2-151">跟踪维度组</span><span class="sxs-lookup"><span data-stu-id="b4dd2-151">Tracking dimension group</span></span>](https://technet.microsoft.com/library/hh209465.aspx)
+[<span data-ttu-id="68ce4-151">跟踪维度组</span><span class="sxs-lookup"><span data-stu-id="68ce4-151">Tracking dimension group</span></span>](https://technet.microsoft.com/library/hh209465.aspx)
 
-[<span data-ttu-id="b4dd2-152">新增功能或更改的功能</span><span class="sxs-lookup"><span data-stu-id="b4dd2-152">What's new or changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
+[<span data-ttu-id="68ce4-152">新增功能或更改的功能</span><span class="sxs-lookup"><span data-stu-id="68ce4-152">What's new or changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
 
-[<span data-ttu-id="b4dd2-153">成本条目</span><span class="sxs-lookup"><span data-stu-id="b4dd2-153">Cost entries</span></span>](cost-entries.md)
+[<span data-ttu-id="68ce4-153">成本条目</span><span class="sxs-lookup"><span data-stu-id="68ce4-153">Cost entries</span></span>](cost-entries.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

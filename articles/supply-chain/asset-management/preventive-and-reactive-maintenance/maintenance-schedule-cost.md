@@ -17,39 +17,42 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9befa52d27a1a12e7a2d9f2615c2ce8e5f1ebe53
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9686efb228e123671ba93a37480d2daac8d038a4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017988"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252958"
 ---
-# <a name="maintenance-schedule-cost"></a><span data-ttu-id="93ea4-103">维护安排成本</span><span class="sxs-lookup"><span data-stu-id="93ea4-103">Maintenance schedule cost</span></span>
+# <a name="maintenance-schedule-cost"></a><span data-ttu-id="d3876-103">维护安排成本</span><span class="sxs-lookup"><span data-stu-id="d3876-103">Maintenance schedule cost</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="93ea4-104">在资产管理中，可计算维护安排行的预算成本。</span><span class="sxs-lookup"><span data-stu-id="93ea4-104">In Asset Management, you can calculate budget costs on maintenance schedule lines.</span></span> <span data-ttu-id="93ea4-105">如果要获取预计成本（如与为下一年计划的预防性维护作业有关的成本）的概览，这非常有用。</span><span class="sxs-lookup"><span data-stu-id="93ea4-105">This is useful if you want to get an overview of expected costs, for example, costs relating to planned preventive maintenance jobs for the next year.</span></span> <span data-ttu-id="93ea4-106">此类计算基于类型为“维护计划”和“维护阶段”与“维护请求”的现有维护安排行。</span><span class="sxs-lookup"><span data-stu-id="93ea4-106">The calculations are based on existing maintenance schedule lines of type "Maintenance plans" and "Maintenance rounds" and "Maintenance requests".</span></span>
+<span data-ttu-id="d3876-104">在资产管理中，可计算维护安排行的预算成本。</span><span class="sxs-lookup"><span data-stu-id="d3876-104">In Asset Management, you can calculate budget costs on maintenance schedule lines.</span></span> <span data-ttu-id="d3876-105">如果要获取预计成本（如与为下一年计划的预防性维护作业有关的成本）的概览，这非常有用。</span><span class="sxs-lookup"><span data-stu-id="d3876-105">This is useful if you want to get an overview of expected costs, for example, costs relating to planned preventive maintenance jobs for the next year.</span></span> <span data-ttu-id="d3876-106">此类计算基于类型为“维护计划”和“维护阶段”与“维护请求”的现有维护安排行。</span><span class="sxs-lookup"><span data-stu-id="d3876-106">The calculations are based on existing maintenance schedule lines of type "Maintenance plans" and "Maintenance rounds" and "Maintenance requests".</span></span>
 
-1. <span data-ttu-id="93ea4-107">单击 **资产管理** > **查询** > **资产** > **维护安排成本**。</span><span class="sxs-lookup"><span data-stu-id="93ea4-107">Click **Asset management** > **Inquiries** > **Assets** > **Maintenance schedule cost**.</span></span>
+1. <span data-ttu-id="d3876-107">单击 **资产管理** > **查询** > **资产** > **维护安排成本**。</span><span class="sxs-lookup"><span data-stu-id="d3876-107">Click **Asset management** > **Inquiries** > **Assets** > **Maintenance schedule cost**.</span></span>
 
-2. <span data-ttu-id="93ea4-108">如果要查看按财务维度分组的成本，可在 **维护安排成本** 对话框中选择 **财务维度集**。</span><span class="sxs-lookup"><span data-stu-id="93ea4-108">In the **Maintenance schedule cost** dialog, you can select a **Financial dimension set** if you want to see costs grouped in financial dimensions.</span></span>
+2. <span data-ttu-id="d3876-108">如果要查看按财务维度分组的成本，可在 **维护安排成本** 对话框中选择 **财务维度集**。</span><span class="sxs-lookup"><span data-stu-id="d3876-108">In the **Maintenance schedule cost** dialog, you can select a **Financial dimension set** if you want to see costs grouped in financial dimensions.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="93ea4-109">财务维度集在 **总帐** > **会计科目表** > **维度** > **财务维度集** 中设置。</span><span class="sxs-lookup"><span data-stu-id="93ea4-109">Financial dimension sets are set up in **General ledger** > **Chart of accounts** > **Dimensions** > **Financial dimension sets**.</span></span>
+><span data-ttu-id="d3876-109">财务维度集在 **总帐** > **会计科目表** > **维度** > **财务维度集** 中设置。</span><span class="sxs-lookup"><span data-stu-id="d3876-109">Financial dimension sets are set up in **General ledger** > **Chart of accounts** > **Dimensions** > **Financial dimension sets**.</span></span>
 
-3. <span data-ttu-id="93ea4-110">可使用 **级别** 字段指示要与功能位置有关的维护安排行的详细程度。</span><span class="sxs-lookup"><span data-stu-id="93ea4-110">You can use the **Level** field to indicate how detailed you want the maintenance schedule lines to be regarding functional locations.</span></span> <span data-ttu-id="93ea4-111">例如，如果在字段中插入数字“1”，并且采用了多级别功能位置结构，则将在最上级别显示某个功能位置的所有维护安排行，因此，可以从较低级别的功能位置叠加行中的工时。</span><span class="sxs-lookup"><span data-stu-id="93ea4-111">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all maintenance schedule lines for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> <span data-ttu-id="93ea4-112">如果在 **级别** 字段中插入数字“0”，将看到详细结果，其中显示其关联的所有功能位置级别的所有维护安排行。</span><span class="sxs-lookup"><span data-stu-id="93ea4-112">If you insert the number "0" in the **Level** field, you will see a detailed result showing all maintenance schedule lines on all the functional location levels to which they are related.</span></span>
+3. <span data-ttu-id="d3876-110">可使用 **级别** 字段指示要与功能位置有关的维护安排行的详细程度。</span><span class="sxs-lookup"><span data-stu-id="d3876-110">You can use the **Level** field to indicate how detailed you want the maintenance schedule lines to be regarding functional locations.</span></span> <span data-ttu-id="d3876-111">例如，如果在字段中插入数字“1”，并且采用了多级别功能位置结构，则将在最上级别显示某个功能位置的所有维护安排行，因此，可以从较低级别的功能位置叠加行中的工时。</span><span class="sxs-lookup"><span data-stu-id="d3876-111">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all maintenance schedule lines for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> <span data-ttu-id="d3876-112">如果在 **级别** 字段中插入数字“0”，将看到详细结果，其中显示其关联的所有功能位置级别的所有维护安排行。</span><span class="sxs-lookup"><span data-stu-id="d3876-112">If you insert the number "0" in the **Level** field, you will see a detailed result showing all maintenance schedule lines on all the functional location levels to which they are related.</span></span>
 
-4. <span data-ttu-id="93ea4-113">如果要对特定资产进行计算，请单击 **要包括的记录** 快速选项卡上的 **筛选**，然后选择相关资产。</span><span class="sxs-lookup"><span data-stu-id="93ea4-113">If you want to make a calculation for specific assets, click **Filter** on the **Records to include** FastTab, and select the relevant assets.</span></span> <span data-ttu-id="93ea4-114">如果需要，也可以为成本计算指定 **预计的开始日期**，或为成本计算选择其他 **状态**</span><span class="sxs-lookup"><span data-stu-id="93ea4-114">If required, you can also specify an **Expected start** date for the cost calculation or select a different **Status** for the cost calculation</span></span>
+4. <span data-ttu-id="d3876-113">如果要对特定资产进行计算，请单击 **要包括的记录** 快速选项卡上的 **筛选**，然后选择相关资产。</span><span class="sxs-lookup"><span data-stu-id="d3876-113">If you want to make a calculation for specific assets, click **Filter** on the **Records to include** FastTab, and select the relevant assets.</span></span> <span data-ttu-id="d3876-114">如果需要，也可以为成本计算指定 **预计的开始日期**，或为成本计算选择其他 **状态**</span><span class="sxs-lookup"><span data-stu-id="d3876-114">If required, you can also specify an **Expected start** date for the cost calculation or select a different **Status** for the cost calculation</span></span>
 
-5. <span data-ttu-id="93ea4-115">单击 **确定** 开始计算成本。</span><span class="sxs-lookup"><span data-stu-id="93ea4-115">Click **OK** to start the cost calculation.</span></span>
+5. <span data-ttu-id="d3876-115">单击 **确定** 开始计算成本。</span><span class="sxs-lookup"><span data-stu-id="d3876-115">Click **OK** to start the cost calculation.</span></span>
 
-6. <span data-ttu-id="93ea4-116">在 **维护安排成本** 选项卡上 > **分组依据** 操作窗格组中，单击相关按钮显示所需成本计算详细程度。</span><span class="sxs-lookup"><span data-stu-id="93ea4-116">On the **Maintenance schedule cost** tab > in the **Group by...** Action Pane groups, click the relevant buttons to show the required detail level of the cost calculation.</span></span> <span data-ttu-id="93ea4-117">将突出显示所选操作窗格组按钮。</span><span class="sxs-lookup"><span data-stu-id="93ea4-117">The selected Action Pane group buttons are highlighted.</span></span> <span data-ttu-id="93ea4-118">单击按钮将其激活或停用。</span><span class="sxs-lookup"><span data-stu-id="93ea4-118">Click on a button to activate or deactivate it.</span></span>
+6. <span data-ttu-id="d3876-116">在 **维护安排成本** 选项卡上 > **分组依据** 操作窗格组中，单击相关按钮显示所需成本计算详细程度。</span><span class="sxs-lookup"><span data-stu-id="d3876-116">On the **Maintenance schedule cost** tab > in the **Group by...** Action Pane groups, click the relevant buttons to show the required detail level of the cost calculation.</span></span> <span data-ttu-id="d3876-117">将突出显示所选操作窗格组按钮。</span><span class="sxs-lookup"><span data-stu-id="d3876-117">The selected Action Pane group buttons are highlighted.</span></span> <span data-ttu-id="d3876-118">单击按钮将其激活或停用。</span><span class="sxs-lookup"><span data-stu-id="d3876-118">Click on a button to activate or deactivate it.</span></span>
 
-7. <span data-ttu-id="93ea4-119">如果要进行新的成本计算，请单击 **计算成本** 按钮。</span><span class="sxs-lookup"><span data-stu-id="93ea4-119">Click the **Calculate cost** button if you want to make a new cost calculation.</span></span>
+7. <span data-ttu-id="d3876-119">如果要进行新的成本计算，请单击 **计算成本** 按钮。</span><span class="sxs-lookup"><span data-stu-id="d3876-119">Click the **Calculate cost** button if you want to make a new cost calculation.</span></span>
 
-<span data-ttu-id="93ea4-120">下图显示维护安排成本计算的结果。</span><span class="sxs-lookup"><span data-stu-id="93ea4-120">The illustration below shows the results of a maintenance schedule cost calculation.</span></span>
+<span data-ttu-id="d3876-120">下图显示维护安排成本计算的结果。</span><span class="sxs-lookup"><span data-stu-id="d3876-120">The illustration below shows the results of a maintenance schedule cost calculation.</span></span>
 
 ![图 1](media/17-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

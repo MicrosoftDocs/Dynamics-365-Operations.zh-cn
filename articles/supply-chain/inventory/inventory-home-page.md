@@ -18,42 +18,45 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f73c295c2fd0b48ea77c88e037b21a472744e55f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a76177a083aded953aab13fbb81681d7f117828d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000251"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225018"
 ---
-# <a name="inventory-management-overview"></a><span data-ttu-id="d34d3-103">库存管理概览</span><span class="sxs-lookup"><span data-stu-id="d34d3-103">Inventory management overview</span></span>
+# <a name="inventory-management-overview"></a><span data-ttu-id="6df7b-103">库存管理概览</span><span class="sxs-lookup"><span data-stu-id="6df7b-103">Inventory management overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d34d3-104">您可以使用库存管理来执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="d34d3-104">You can use Inventory management to perform the following tasks:</span></span>
+<span data-ttu-id="6df7b-104">您可以使用库存管理来执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="6df7b-104">You can use Inventory management to perform the following tasks:</span></span>
 
--  [<span data-ttu-id="d34d3-105">传入工序</span><span class="sxs-lookup"><span data-stu-id="d34d3-105">Inbound operations</span></span>](arrival-overview.md)
--  [<span data-ttu-id="d34d3-106">质量保证</span><span class="sxs-lookup"><span data-stu-id="d34d3-106">Quality assurance</span></span>](quality-management-processes.md)
--  [<span data-ttu-id="d34d3-107">库存活动</span><span class="sxs-lookup"><span data-stu-id="d34d3-107">Inventory activities</span></span>](inventory-journals.md)
--  [<span data-ttu-id="d34d3-108">传出工序</span><span class="sxs-lookup"><span data-stu-id="d34d3-108">Outbound operations</span></span>](outbound-process.md)
--  [<span data-ttu-id="d34d3-109">库存控制</span><span class="sxs-lookup"><span data-stu-id="d34d3-109">Inventory control</span></span>](../cost-management/inventory-close.md) 
+-  [<span data-ttu-id="6df7b-105">传入工序</span><span class="sxs-lookup"><span data-stu-id="6df7b-105">Inbound operations</span></span>](arrival-overview.md)
+-  [<span data-ttu-id="6df7b-106">质量保证</span><span class="sxs-lookup"><span data-stu-id="6df7b-106">Quality assurance</span></span>](quality-management-processes.md)
+-  [<span data-ttu-id="6df7b-107">库存活动</span><span class="sxs-lookup"><span data-stu-id="6df7b-107">Inventory activities</span></span>](inventory-journals.md)
+-  [<span data-ttu-id="6df7b-108">传出工序</span><span class="sxs-lookup"><span data-stu-id="6df7b-108">Outbound operations</span></span>](outbound-process.md)
+-  [<span data-ttu-id="6df7b-109">库存控制</span><span class="sxs-lookup"><span data-stu-id="6df7b-109">Inventory control</span></span>](../cost-management/inventory-close.md) 
 
-## <a name="learning-map"></a><span data-ttu-id="d34d3-110">学习图</span><span class="sxs-lookup"><span data-stu-id="d34d3-110">Learning map</span></span>
+## <a name="learning-map"></a><span data-ttu-id="6df7b-110">学习图</span><span class="sxs-lookup"><span data-stu-id="6df7b-110">Learning map</span></span>
 
-<span data-ttu-id="d34d3-111">下面的学习图显示构成库存管理模块框架的主要概念和任务。</span><span class="sxs-lookup"><span data-stu-id="d34d3-111">The following learning map shows the major concepts and tasks that make up the framework of the Inventory management module.</span></span> <span data-ttu-id="d34d3-112">单击下面的学习图将其展开。</span><span class="sxs-lookup"><span data-stu-id="d34d3-112">Click the learning map below to expand it.</span></span> <span data-ttu-id="d34d3-113">此学习图将帮助您开始使用。</span><span class="sxs-lookup"><span data-stu-id="d34d3-113">This learning map will help you get started.</span></span>
+<span data-ttu-id="6df7b-111">下面的学习图显示构成库存管理模块框架的主要概念和任务。</span><span class="sxs-lookup"><span data-stu-id="6df7b-111">The following learning map shows the major concepts and tasks that make up the framework of the Inventory management module.</span></span> <span data-ttu-id="6df7b-112">单击下面的学习图将其展开。</span><span class="sxs-lookup"><span data-stu-id="6df7b-112">Click the learning map below to expand it.</span></span> <span data-ttu-id="6df7b-113">此学习图将帮助您开始使用。</span><span class="sxs-lookup"><span data-stu-id="6df7b-113">This learning map will help you get started.</span></span>
 
 
-<span data-ttu-id="d34d3-114">[![库存学习图](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span><span class="sxs-lookup"><span data-stu-id="d34d3-114">[![Inventory learning map](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span></span>
+<span data-ttu-id="6df7b-114">[![库存学习图](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span><span class="sxs-lookup"><span data-stu-id="6df7b-114">[![Inventory learning map](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="d34d3-115">其他资源</span><span class="sxs-lookup"><span data-stu-id="d34d3-115">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="6df7b-115">其他资源</span><span class="sxs-lookup"><span data-stu-id="6df7b-115">Additional resources</span></span>
 
-### <a name="whats-new-and-in-development"></a><span data-ttu-id="d34d3-116">新增功能和开发中的功能</span><span class="sxs-lookup"><span data-stu-id="d34d3-116">What's new and in development</span></span>
-<span data-ttu-id="d34d3-117">转到 [Microsoft Dynamics 365 路线图](https://roadmap.dynamics.com/)以了解已发布和正在开发的新功能。</span><span class="sxs-lookup"><span data-stu-id="d34d3-117">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
+### <a name="whats-new-and-in-development"></a><span data-ttu-id="6df7b-116">新增功能和开发中的功能</span><span class="sxs-lookup"><span data-stu-id="6df7b-116">What's new and in development</span></span>
+<span data-ttu-id="6df7b-117">转到 [Microsoft Dynamics 365 路线图](https://roadmap.dynamics.com/)以了解已发布和正在开发的新功能。</span><span class="sxs-lookup"><span data-stu-id="6df7b-117">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
 
-### <a name="inventory-accounting"></a><span data-ttu-id="d34d3-118">库存会计</span><span class="sxs-lookup"><span data-stu-id="d34d3-118">Inventory accounting</span></span> 
-<span data-ttu-id="d34d3-119">若要了解更多信息，请参阅[库存结转](../cost-management/inventory-close.md)。</span><span class="sxs-lookup"><span data-stu-id="d34d3-119">To learn more, see [Inventory close](../cost-management/inventory-close.md).</span></span>
+### <a name="inventory-accounting"></a><span data-ttu-id="6df7b-118">库存会计</span><span class="sxs-lookup"><span data-stu-id="6df7b-118">Inventory accounting</span></span> 
+<span data-ttu-id="6df7b-119">若要了解更多信息，请参阅[库存结转](../cost-management/inventory-close.md)。</span><span class="sxs-lookup"><span data-stu-id="6df7b-119">To learn more, see [Inventory close](../cost-management/inventory-close.md).</span></span>
 
-### <a name="manufacturing-and-supply-chain-management-blogs"></a><span data-ttu-id="d34d3-120">制造和 Supply Chain Management 博客</span><span class="sxs-lookup"><span data-stu-id="d34d3-120">Manufacturing and Supply Chain Management blogs</span></span>
-<span data-ttu-id="d34d3-121">您可以在 [Dynamics AX 制造研发团队博客](https://blogs.msdn.microsoft.com/axmfg)和 [Dynamics AX 研发团队中的供应链管理博客](https://blogs.msdn.microsoft.com/dynamicsaxscm)中找到有关库存管理及其他解决方案的建议、新闻和其他信息。</span><span class="sxs-lookup"><span data-stu-id="d34d3-121">You can find opinions, news, and other information about Inventory management and other solutions on the [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg) and [Supply Chain Management in Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span></span>
+### <a name="manufacturing-and-supply-chain-management-blogs"></a><span data-ttu-id="6df7b-120">制造和 Supply Chain Management 博客</span><span class="sxs-lookup"><span data-stu-id="6df7b-120">Manufacturing and Supply Chain Management blogs</span></span>
+<span data-ttu-id="6df7b-121">您可以在 [Dynamics AX 制造研发团队博客](https://blogs.msdn.microsoft.com/axmfg)和 [Dynamics AX 研发团队中的供应链管理博客](https://blogs.msdn.microsoft.com/dynamicsaxscm)中找到有关库存管理及其他解决方案的建议、新闻和其他信息。</span><span class="sxs-lookup"><span data-stu-id="6df7b-121">You can find opinions, news, and other information about Inventory management and other solutions on the [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg) and [Supply Chain Management in Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span></span>
 
-### <a name="task-guides"></a><span data-ttu-id="d34d3-122">任务指南</span><span class="sxs-lookup"><span data-stu-id="d34d3-122">Task guides</span></span>
-<span data-ttu-id="d34d3-123">其他帮助作为任务指南提供。</span><span class="sxs-lookup"><span data-stu-id="d34d3-123">Additional help is available as task guides.</span></span> <span data-ttu-id="d34d3-124">若要访问任务指南，请单击任何页面上的 **帮助** 按钮</span><span class="sxs-lookup"><span data-stu-id="d34d3-124">To access task guides, click the **Help** button on any page</span></span>
+### <a name="task-guides"></a><span data-ttu-id="6df7b-122">任务指南</span><span class="sxs-lookup"><span data-stu-id="6df7b-122">Task guides</span></span>
+<span data-ttu-id="6df7b-123">其他帮助作为任务指南提供。</span><span class="sxs-lookup"><span data-stu-id="6df7b-123">Additional help is available as task guides.</span></span> <span data-ttu-id="6df7b-124">若要访问任务指南，请单击任何页面上的 **帮助** 按钮</span><span class="sxs-lookup"><span data-stu-id="6df7b-124">To access task guides, click the **Help** button on any page</span></span>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -17,40 +17,43 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 899c81842a48133ec72a55002c7fd0fefc90001c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 429e1cf525854a87f55e4d4f900931f61223e0d1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010339"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231313"
 ---
-# <a name="view-the-status-of-service-orders"></a><span data-ttu-id="13cb2-103">产科服务订单的状态</span><span class="sxs-lookup"><span data-stu-id="13cb2-103">View the status of service orders</span></span> 
+# <a name="view-the-status-of-service-orders"></a><span data-ttu-id="2a4dc-103">产科服务订单的状态</span><span class="sxs-lookup"><span data-stu-id="2a4dc-103">View the status of service orders</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="13cb2-104">您可以使用 **派遣板** 窗体查看服务订单中服务活动的状态。</span><span class="sxs-lookup"><span data-stu-id="13cb2-104">You can use the **Dispatch board** form to view the status of service activities in service orders.</span></span>
+<span data-ttu-id="2a4dc-104">您可以使用 **派遣板** 窗体查看服务订单中服务活动的状态。</span><span class="sxs-lookup"><span data-stu-id="2a4dc-104">You can use the **Dispatch board** form to view the status of service activities in service orders.</span></span>
 
-## <a name="more-information-about-service-orders"></a><span data-ttu-id="13cb2-105">有关服务订单的详细信息。</span><span class="sxs-lookup"><span data-stu-id="13cb2-105">More information about service orders</span></span>
+## <a name="more-information-about-service-orders"></a><span data-ttu-id="2a4dc-105">有关服务订单的详细信息。</span><span class="sxs-lookup"><span data-stu-id="2a4dc-105">More information about service orders</span></span>
 
-<span data-ttu-id="13cb2-106">该窗体还提供跟踪服务订单流的工具，并且包括可以帮助您评估服务订单的紧急程度的附加详细信息，例如服务协议和与服务协议关联的服务级别协议。</span><span class="sxs-lookup"><span data-stu-id="13cb2-106">The form also provides tools to track the flow of service orders and includes additional details to help you evaluate the urgency of a service order, such the service agreement and service level agreement that it is associated with.</span></span>
+<span data-ttu-id="2a4dc-106">该窗体还提供跟踪服务订单流的工具，并且包括可以帮助您评估服务订单的紧急程度的附加详细信息，例如服务协议和与服务协议关联的服务级别协议。</span><span class="sxs-lookup"><span data-stu-id="2a4dc-106">The form also provides tools to track the flow of service orders and includes additional details to help you evaluate the urgency of a service order, such the service agreement and service level agreement that it is associated with.</span></span>
 
-<span data-ttu-id="13cb2-107">为了帮助您迅速确定服务订单的紧急程度，甘特图支持颜色的使用。</span><span class="sxs-lookup"><span data-stu-id="13cb2-107">In order to help you quickly gauge the urgency of a service order, the Gantt chart supports the use of colors.</span></span> <span data-ttu-id="13cb2-108">颜色用于区分服务电话的优先级。</span><span class="sxs-lookup"><span data-stu-id="13cb2-108">Colors are used to distinguish the priority of a service call.</span></span> <span data-ttu-id="13cb2-109">默认情况下，在这些颜色中，红色表示高优先级，黄色表示一般优先级，绿色表示低优先级。</span><span class="sxs-lookup"><span data-stu-id="13cb2-109">By default, these colors are red for high priority, yellow for typical priority, and green for low priority.</span></span>
+<span data-ttu-id="2a4dc-107">为了帮助您迅速确定服务订单的紧急程度，甘特图支持颜色的使用。</span><span class="sxs-lookup"><span data-stu-id="2a4dc-107">In order to help you quickly gauge the urgency of a service order, the Gantt chart supports the use of colors.</span></span> <span data-ttu-id="2a4dc-108">颜色用于区分服务电话的优先级。</span><span class="sxs-lookup"><span data-stu-id="2a4dc-108">Colors are used to distinguish the priority of a service call.</span></span> <span data-ttu-id="2a4dc-109">默认情况下，在这些颜色中，红色表示高优先级，黄色表示一般优先级，绿色表示低优先级。</span><span class="sxs-lookup"><span data-stu-id="2a4dc-109">By default, these colors are red for high priority, yellow for typical priority, and green for low priority.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="13cb2-110">在<STRONG>服务管理参数</STRONG>窗体的<STRONG>发货</STRONG>选项卡中可以更改这些颜色。</span><span class="sxs-lookup"><span data-stu-id="13cb2-110">You can change the colors on the <STRONG>Dispatching</STRONG> tab in the <STRONG>Service management parameters</STRONG> form.</span></span></P>
+> <P><span data-ttu-id="2a4dc-110">在<STRONG>服务管理参数</STRONG>窗体的<STRONG>发货</STRONG>选项卡中可以更改这些颜色。</span><span class="sxs-lookup"><span data-stu-id="2a4dc-110">You can change the colors on the <STRONG>Dispatching</STRONG> tab in the <STRONG>Service management parameters</STRONG> form.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="13cb2-111">请参阅</span><span class="sxs-lookup"><span data-stu-id="13cb2-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2a4dc-111">请参阅</span><span class="sxs-lookup"><span data-stu-id="2a4dc-111">See also</span></span>
 
-[<span data-ttu-id="13cb2-112">确定服务订单的优先级</span><span class="sxs-lookup"><span data-stu-id="13cb2-112">Prioritize service orders</span></span>](prioritize-service-orders.md)
+[<span data-ttu-id="2a4dc-112">确定服务订单的优先级</span><span class="sxs-lookup"><span data-stu-id="2a4dc-112">Prioritize service orders</span></span>](prioritize-service-orders.md)
 
-[<span data-ttu-id="13cb2-113">监控服务活动</span><span class="sxs-lookup"><span data-stu-id="13cb2-113">Monitor service activities</span></span>](monitor-service-activities.md)
+[<span data-ttu-id="2a4dc-113">监控服务活动</span><span class="sxs-lookup"><span data-stu-id="2a4dc-113">Monitor service activities</span></span>](monitor-service-activities.md)
 
-<span data-ttu-id="13cb2-114">[发货牌（窗体）](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="13cb2-114">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
+<span data-ttu-id="2a4dc-114">[发货牌（窗体）](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="2a4dc-114">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

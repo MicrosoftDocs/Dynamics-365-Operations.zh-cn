@@ -17,47 +17,50 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6ba2e1a3a884d29bff491f914aa2d5f9ece2b84
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: d415895bd05b9ab1a2311ab69cc3757047df91db
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154219"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204608"
 ---
-# <a name="import-historical-data-for-demand-forecasts"></a><span data-ttu-id="fbab9-104">导入需求预测的历史数据</span><span class="sxs-lookup"><span data-stu-id="fbab9-104">Import historical data for demand forecasts</span></span>
+# <a name="import-historical-data-for-demand-forecasts"></a><span data-ttu-id="a3a84-104">导入需求预测的历史数据</span><span class="sxs-lookup"><span data-stu-id="a3a84-104">Import historical data for demand forecasts</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="fbab9-105">为了帮助确保需求预测的准确性，您必须尽可能多地获得每个物料或物料分配参数的历史需求数据。</span><span class="sxs-lookup"><span data-stu-id="fbab9-105">To help guarantee the accuracy of demand forecasts, you must have as much historical demand data as you can get per item or item allocation key.</span></span> <span data-ttu-id="fbab9-106">如果尚未导入历史需求数据，请使用 Dynamics 365 Supply Chain Management 中 **历史外部需求** (ReqDemPlanHistoricalExternalDemandEntity) 导入它。</span><span class="sxs-lookup"><span data-stu-id="fbab9-106">If the historical demand data isn't already imported, use the **Historical external demand** (ReqDemPlanHistoricalExternalDemandEntity) data entity in Dynamics 365 Supply Chain Management to import it.</span></span>
+<span data-ttu-id="a3a84-105">为了帮助确保需求预测的准确性，您必须尽可能多地获得每个物料或物料分配参数的历史需求数据。</span><span class="sxs-lookup"><span data-stu-id="a3a84-105">To help guarantee the accuracy of demand forecasts, you must have as much historical demand data as you can get per item or item allocation key.</span></span> <span data-ttu-id="a3a84-106">如果尚未导入历史需求数据，请使用 Dynamics 365 Supply Chain Management 中 **历史外部需求** (ReqDemPlanHistoricalExternalDemandEntity) 导入它。</span><span class="sxs-lookup"><span data-stu-id="a3a84-106">If the historical demand data isn't already imported, use the **Historical external demand** (ReqDemPlanHistoricalExternalDemandEntity) data entity in Dynamics 365 Supply Chain Management to import it.</span></span>
 
-<span data-ttu-id="fbab9-107">在 **数据管理** 工作区，您可以看到实体中所有字段的概览。</span><span class="sxs-lookup"><span data-stu-id="fbab9-107">In the **Data management** workspace, you can see an overview of all the fields in the entity.</span></span>
+<span data-ttu-id="a3a84-107">在 **数据管理** 工作区，您可以看到实体中所有字段的概览。</span><span class="sxs-lookup"><span data-stu-id="a3a84-107">In the **Data management** workspace, you can see an overview of all the fields in the entity.</span></span>
 
-1. <span data-ttu-id="fbab9-108">打开 **数据管理** 工作区。</span><span class="sxs-lookup"><span data-stu-id="fbab9-108">Open the **Data management** workspace.</span></span>
-2. <span data-ttu-id="fbab9-109">选择 **数据实体** 磁贴。</span><span class="sxs-lookup"><span data-stu-id="fbab9-109">Select the **Data entities** tile.</span></span>
-3. <span data-ttu-id="fbab9-110">搜索实体列表查找 **历史外部需求**。</span><span class="sxs-lookup"><span data-stu-id="fbab9-110">Search the entity list for **Historical external demand**.</span></span>
-4. <span data-ttu-id="fbab9-111">选择 **目标字段**。</span><span class="sxs-lookup"><span data-stu-id="fbab9-111">Select **Target fields**.</span></span> <span data-ttu-id="fbab9-112">实体以下字段是必需的：站点 (**DeliveringSiteId**)、日期 (**DemandDate**)、数量 (**DemandQuantity**) 和物料编号 (**ItemNumber**) 或物料分配参数 (**ProductAllocationKeyId**)。</span><span class="sxs-lookup"><span data-stu-id="fbab9-112">The following entity fields are mandatory: site (**DeliveringSiteId**), date (**DemandDate**), quantity (**DemandQuantity**), and either item number (**ItemNumber**) or item allocation key (**ProductAllocationKeyId**).</span></span>
+1. <span data-ttu-id="a3a84-108">打开 **数据管理** 工作区。</span><span class="sxs-lookup"><span data-stu-id="a3a84-108">Open the **Data management** workspace.</span></span>
+2. <span data-ttu-id="a3a84-109">选择 **数据实体** 磁贴。</span><span class="sxs-lookup"><span data-stu-id="a3a84-109">Select the **Data entities** tile.</span></span>
+3. <span data-ttu-id="a3a84-110">搜索实体列表查找 **历史外部需求**。</span><span class="sxs-lookup"><span data-stu-id="a3a84-110">Search the entity list for **Historical external demand**.</span></span>
+4. <span data-ttu-id="a3a84-111">选择 **目标字段**。</span><span class="sxs-lookup"><span data-stu-id="a3a84-111">Select **Target fields**.</span></span> <span data-ttu-id="a3a84-112">实体以下字段是必需的：站点 (**DeliveringSiteId**)、日期 (**DemandDate**)、数量 (**DemandQuantity**) 和物料编号 (**ItemNumber**) 或物料分配参数 (**ProductAllocationKeyId**)。</span><span class="sxs-lookup"><span data-stu-id="a3a84-112">The following entity fields are mandatory: site (**DeliveringSiteId**), date (**DemandDate**), quantity (**DemandQuantity**), and either item number (**ItemNumber**) or item allocation key (**ProductAllocationKeyId**).</span></span>
 
-<span data-ttu-id="fbab9-113">若要使用数据实体，您必须有包含历史需求数据的 Microsoft Excel 文件或逗号分隔值 (CSV) 文件。</span><span class="sxs-lookup"><span data-stu-id="fbab9-113">To use the data entity, you must have a Microsoft Excel file or comma-separated values (CSV) file that contains the historical demand data.</span></span> <span data-ttu-id="fbab9-114">以下示例显示如何从 CSV 文件导入数据。</span><span class="sxs-lookup"><span data-stu-id="fbab9-114">The following example shows how to import the data from a CSV file.</span></span>
+<span data-ttu-id="a3a84-113">若要使用数据实体，您必须有包含历史需求数据的 Microsoft Excel 文件或逗号分隔值 (CSV) 文件。</span><span class="sxs-lookup"><span data-stu-id="a3a84-113">To use the data entity, you must have a Microsoft Excel file or comma-separated values (CSV) file that contains the historical demand data.</span></span> <span data-ttu-id="a3a84-114">以下示例显示如何从 CSV 文件导入数据。</span><span class="sxs-lookup"><span data-stu-id="a3a84-114">The following example shows how to import the data from a CSV file.</span></span>
 
-<span data-ttu-id="fbab9-115">有关如何导入数据（包括如何在导入后清理数据）的详细信息，请参阅[数据导入和导出作业概述](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)及其相关主题。</span><span class="sxs-lookup"><span data-stu-id="fbab9-115">For more information about how to import data, including how to clean up data after an import, see [Data import and export jobs overview](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) and its related topics.</span></span>
+<span data-ttu-id="a3a84-115">有关如何导入数据（包括如何在导入后清理数据）的详细信息，请参阅[数据导入和导出作业概述](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)及其相关主题。</span><span class="sxs-lookup"><span data-stu-id="a3a84-115">For more information about how to import data, including how to clean up data after an import, see [Data import and export jobs overview](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) and its related topics.</span></span>
 
-## <a name="example"></a><span data-ttu-id="fbab9-116">示例</span><span class="sxs-lookup"><span data-stu-id="fbab9-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a3a84-116">示例</span><span class="sxs-lookup"><span data-stu-id="a3a84-116">Example</span></span>
 
-<span data-ttu-id="fbab9-117">您可以使用以下文件作为示例。</span><span class="sxs-lookup"><span data-stu-id="fbab9-117">You can use the following file as an example.</span></span> <span data-ttu-id="fbab9-118">下载 [HistoricalDemandData](https://docs.microsoft.com/dynamics/s-e/)。</span><span class="sxs-lookup"><span data-stu-id="fbab9-118">Download the [HistoricalDemandData](https://docs.microsoft.com/dynamics/s-e/).</span></span> <span data-ttu-id="fbab9-119">此文件包含物料 D0001 的历史需求数据。</span><span class="sxs-lookup"><span data-stu-id="fbab9-119">This file contains the historical demand data for item D0001.</span></span> <span data-ttu-id="fbab9-120">它仅包含以下必填字段：站点、数量和需求日期。</span><span class="sxs-lookup"><span data-stu-id="fbab9-120">It contains only the following mandatory fields: site, quantity, and the demand date.</span></span>
+<span data-ttu-id="a3a84-117">您可以使用以下文件作为示例。</span><span class="sxs-lookup"><span data-stu-id="a3a84-117">You can use the following file as an example.</span></span> <span data-ttu-id="a3a84-118">下载 [HistoricalDemandData](https://docs.microsoft.com/dynamics/s-e/)。</span><span class="sxs-lookup"><span data-stu-id="a3a84-118">Download the [HistoricalDemandData](https://docs.microsoft.com/dynamics/s-e/).</span></span> <span data-ttu-id="a3a84-119">此文件包含物料 D0001 的历史需求数据。</span><span class="sxs-lookup"><span data-stu-id="a3a84-119">This file contains the historical demand data for item D0001.</span></span> <span data-ttu-id="a3a84-120">它仅包含以下必填字段：站点、数量和需求日期。</span><span class="sxs-lookup"><span data-stu-id="a3a84-120">It contains only the following mandatory fields: site, quantity, and the demand date.</span></span>
 
-1. <span data-ttu-id="fbab9-121">选择历史需求数据要导入到的公司。</span><span class="sxs-lookup"><span data-stu-id="fbab9-121">Select the company to import the historical demand data into.</span></span>
-2. <span data-ttu-id="fbab9-122">打开 **数据管理** 工作区。</span><span class="sxs-lookup"><span data-stu-id="fbab9-122">Open the **Data management** workspace.</span></span>
-3. <span data-ttu-id="fbab9-123">选择 **导入** 磁贴。</span><span class="sxs-lookup"><span data-stu-id="fbab9-123">Select the **Import** tile.</span></span>
-4. <span data-ttu-id="fbab9-124">为导入项目输入一个名称，如 **导入物料 D0001 的历史需求**。</span><span class="sxs-lookup"><span data-stu-id="fbab9-124">Enter a name for the import project, such as **Import historical demand for item D0001**.</span></span>
-5. <span data-ttu-id="fbab9-125">在 **源数据格式** 字段中，选择您导入的文件的文件格式。</span><span class="sxs-lookup"><span data-stu-id="fbab9-125">In the **Source data format** field, select the file format of the file that you're importing.</span></span> <span data-ttu-id="fbab9-126">若要导入此示例的 HistoricalDemandData 文件，选择 **CSV**。</span><span class="sxs-lookup"><span data-stu-id="fbab9-126">To import the HistoricalDemandData file for this example, select **CSV**.</span></span>
-6. <span data-ttu-id="fbab9-127">在 **实体名称** 字段，选择 **历史外部需求**。</span><span class="sxs-lookup"><span data-stu-id="fbab9-127">In the **Entity name** field, select **Historical external demand**.</span></span>
-7. <span data-ttu-id="fbab9-128">将文件保存到您的计算机，然后上载。</span><span class="sxs-lookup"><span data-stu-id="fbab9-128">Save the file to your computer, and then upload it.</span></span>
-8. <span data-ttu-id="fbab9-129">选择 **导入**。</span><span class="sxs-lookup"><span data-stu-id="fbab9-129">Select **Import**.</span></span>
-9. <span data-ttu-id="fbab9-130">**执行汇总** 页自动打开。</span><span class="sxs-lookup"><span data-stu-id="fbab9-130">The **Execution summary** page is opened automatically.</span></span> <span data-ttu-id="fbab9-131">验证页面上导入的数据。</span><span class="sxs-lookup"><span data-stu-id="fbab9-131">Verify the imported data on the page.</span></span>
+1. <span data-ttu-id="a3a84-121">选择历史需求数据要导入到的公司。</span><span class="sxs-lookup"><span data-stu-id="a3a84-121">Select the company to import the historical demand data into.</span></span>
+2. <span data-ttu-id="a3a84-122">打开 **数据管理** 工作区。</span><span class="sxs-lookup"><span data-stu-id="a3a84-122">Open the **Data management** workspace.</span></span>
+3. <span data-ttu-id="a3a84-123">选择 **导入** 磁贴。</span><span class="sxs-lookup"><span data-stu-id="a3a84-123">Select the **Import** tile.</span></span>
+4. <span data-ttu-id="a3a84-124">为导入项目输入一个名称，如 **导入物料 D0001 的历史需求**。</span><span class="sxs-lookup"><span data-stu-id="a3a84-124">Enter a name for the import project, such as **Import historical demand for item D0001**.</span></span>
+5. <span data-ttu-id="a3a84-125">在 **源数据格式** 字段中，选择您导入的文件的文件格式。</span><span class="sxs-lookup"><span data-stu-id="a3a84-125">In the **Source data format** field, select the file format of the file that you're importing.</span></span> <span data-ttu-id="a3a84-126">若要导入此示例的 HistoricalDemandData 文件，选择 **CSV**。</span><span class="sxs-lookup"><span data-stu-id="a3a84-126">To import the HistoricalDemandData file for this example, select **CSV**.</span></span>
+6. <span data-ttu-id="a3a84-127">在 **实体名称** 字段，选择 **历史外部需求**。</span><span class="sxs-lookup"><span data-stu-id="a3a84-127">In the **Entity name** field, select **Historical external demand**.</span></span>
+7. <span data-ttu-id="a3a84-128">将文件保存到您的计算机，然后上载。</span><span class="sxs-lookup"><span data-stu-id="a3a84-128">Save the file to your computer, and then upload it.</span></span>
+8. <span data-ttu-id="a3a84-129">选择 **导入**。</span><span class="sxs-lookup"><span data-stu-id="a3a84-129">Select **Import**.</span></span>
+9. <span data-ttu-id="a3a84-130">**执行汇总** 页自动打开。</span><span class="sxs-lookup"><span data-stu-id="a3a84-130">The **Execution summary** page is opened automatically.</span></span> <span data-ttu-id="a3a84-131">验证页面上导入的数据。</span><span class="sxs-lookup"><span data-stu-id="a3a84-131">Verify the imported data on the page.</span></span>
 
-<span data-ttu-id="fbab9-132">在您导入历史需求数据后，可以生成需求预测。</span><span class="sxs-lookup"><span data-stu-id="fbab9-132">After you've imported the historical demand data, you can generate a demand forecast.</span></span>
+<span data-ttu-id="a3a84-132">在您导入历史需求数据后，可以生成需求预测。</span><span class="sxs-lookup"><span data-stu-id="a3a84-132">After you've imported the historical demand data, you can generate a demand forecast.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="fbab9-133">其他资源</span><span class="sxs-lookup"><span data-stu-id="fbab9-133">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="a3a84-133">其他资源</span><span class="sxs-lookup"><span data-stu-id="a3a84-133">Additional resources</span></span>
 
-[<span data-ttu-id="fbab9-134">生成统计基准预测</span><span class="sxs-lookup"><span data-stu-id="fbab9-134">Generate a statistical baseline forecast</span></span>](generate-statistical-baseline-forecast.md)  
-[<span data-ttu-id="fbab9-135">数据导入和导出作业概览</span><span class="sxs-lookup"><span data-stu-id="fbab9-135">Data import and export jobs overview</span></span>](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
+[<span data-ttu-id="a3a84-134">生成统计基准预测</span><span class="sxs-lookup"><span data-stu-id="a3a84-134">Generate a statistical baseline forecast</span></span>](generate-statistical-baseline-forecast.md)  
+[<span data-ttu-id="a3a84-135">数据导入和导出作业概览</span><span class="sxs-lookup"><span data-stu-id="a3a84-135">Data import and export jobs overview</span></span>](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
