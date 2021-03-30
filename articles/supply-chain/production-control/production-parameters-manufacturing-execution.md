@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 94c6d8f4086466b396524faeed5753da1a76d17a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bd0befdd16b72d7c5d789f635f516cd1bfe9930d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001566"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209459"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>制造执行中的生产参数
 

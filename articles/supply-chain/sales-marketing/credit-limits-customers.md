@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc991e03ba88846a8077fbebb7a7412c8abe1f18
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e93716742c3777d7e2164784aa0e5f91e2b80f16
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994071"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205314"
 ---
 # <a name="credit-limits-for-customers"></a>客户的信用额度
 

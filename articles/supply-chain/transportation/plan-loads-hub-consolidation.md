@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbf84d551d7122516c8b5dd0be0246539e1e7e3f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 87b599c953244109b56958c0fe02deedfa252973
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004994"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205194"
 ---
 # <a name="plan-loads-using-hub-consolidation-overview"></a>使用中心合并计划装载量概览
 

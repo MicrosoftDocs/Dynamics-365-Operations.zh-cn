@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca5ae06a2a6cbe410fadf464bc49071122d0342b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6052c79a09a8d2d80a5ecaa734345ad6da969ca9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973802"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214074"
 ---
 # <a name="cycle-counting"></a>周期盘点
 

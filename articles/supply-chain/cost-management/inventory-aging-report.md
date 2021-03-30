@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: riluan
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b3822cf4c26d7ef9cd0d062d57fa909140d7e258
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1d9c70a7931c009cd53fbd28a3f4c768d04964a4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983917"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214410"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>库龄报表示例和逻辑
 

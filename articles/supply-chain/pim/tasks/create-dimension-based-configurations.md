@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 74ac3b2202a6a8c99d0a4ddce60b305f7d2a48f6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 82be087e43e518c48b63475e3e80dda32f82725a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011264"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213346"
 ---
 # <a name="create-dimension-based-configurations"></a>创建基于维度的配置
 

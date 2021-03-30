@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c095eaf1a93d6f1a803c6c9618c930fb2eda2d2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: f4e9a0551c0755fd006fc030d2e1bf4f28efe951
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021056"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211948"
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>基于采购协议创建采购下达订单
 

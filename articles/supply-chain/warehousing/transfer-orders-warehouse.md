@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 7dfb215683b4ee5d186626492bd90116d1a06a1d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e01629982bb383078e90ff3dad0592371f44bd1b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976830"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206839"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>设置转移单的仓库 
 
