@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e5157b782c64f3cc75f9842b36e3ded710126eb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 49f221736c1efd8314e6a137de5f0778386499da
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983176"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220768"
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>向法人发布产品/基础产品
 

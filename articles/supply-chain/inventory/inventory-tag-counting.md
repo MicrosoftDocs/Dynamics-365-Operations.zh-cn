@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11081324f6970813322fb2463a63a441d30185ee
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 78402840ad86a0f43d30b3c80307b4646fffbaeb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992437"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216121"
 ---
 # <a name="inventory-tag-counting"></a>库存标签盘点
 

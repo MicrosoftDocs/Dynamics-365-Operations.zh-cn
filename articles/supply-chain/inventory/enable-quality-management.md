@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 711ce21d0e522a737e6307e7de1889c8badd5ce0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 65858838b0fbb245a9330fab4e3b65b36a9eb944
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005219"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219357"
 ---
 # <a name="quality-management-overview"></a>质量管理概述
 

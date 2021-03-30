@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06f46d758c80d0b0c9c30618f8faaf5ec12a8708
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 19b1bf7055132c824bc4043c0bd1dbad3afce2a9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998845"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209339"
 ---
 # <a name="registration-for-manufacturing-execution"></a>制造执行的登记
 

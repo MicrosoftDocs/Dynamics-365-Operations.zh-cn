@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: f5b51047dbfc95406ebcdda2255b58e41044a6a6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cf64c3dea6fe08c36388f5f7147795221cf85b8a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992612"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224467"
 ---
 # <a name="planning-optimization-overview"></a>计划优化概述
 

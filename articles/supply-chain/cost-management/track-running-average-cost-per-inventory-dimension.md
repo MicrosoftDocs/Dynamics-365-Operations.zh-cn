@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5773e169067d5904994741f550c0d0c620f588cf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b2bf04a42edf09c35e81742b1c60db8944eba2ac
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005444"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252862"
 ---
 # <a name="track-running-average-cost-per-inventory-dimension"></a>按库存维度跟踪移动平均成本
 

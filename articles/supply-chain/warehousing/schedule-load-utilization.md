@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac4dcba153b8da3d62261326c3c4e169325c2210
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f88dc44b036f6d5535f7e83693a387149f94f37d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977380"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239246"
 ---
 # <a name="schedule-load-utilization"></a>计划负载利用率
 

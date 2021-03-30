@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae2486d08e89c06d76ab9945ccce25c5e97f1500
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 65cd852ca3ce0446550f9ac148a14bbc6bcae500
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010549"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234769"
 ---
 # <a name="reduce-the-days-on-subscription-fees"></a>缩减预订费用天数 
 

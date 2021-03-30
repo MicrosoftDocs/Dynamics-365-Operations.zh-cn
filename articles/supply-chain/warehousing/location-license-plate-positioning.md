@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6d94d37368b8fc3ff7dbe4c1845acd52bf2a64ee
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cfab8c36adb08f799305a153589926bfc1ae31fe
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004669"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5217093"
 ---
 # <a name="location-license-plate-positioning"></a>货位牌照定位
 

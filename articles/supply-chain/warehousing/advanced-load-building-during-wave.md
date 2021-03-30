@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e4abe1a03997853053f60c750199874a61fc68c0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1b75d5cec991b2863e7e0213257ac63d5ab566a6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006383"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233191"
 ---
 # <a name="advanced-load-building-during-wave"></a>波次期间的高级负荷计划
 

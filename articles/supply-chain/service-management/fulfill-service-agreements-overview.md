@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19d31cc3a651f4978a0f5f432c39579ccb871418
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ca869f2de60ba7a73f61e16143876557ae1017dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010639"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247336"
 ---
 # <a name="fulfill-service-agreements-overview"></a>履行服务协议概览 
 

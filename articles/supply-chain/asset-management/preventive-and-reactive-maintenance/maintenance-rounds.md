@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a3a64593a2155d35e78b0d854c7367fa65d1c5c8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: af0461588971342b62104fce9b5bfa25e329d7c9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018538"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252982"
 ---
 # <a name="maintenance-rounds"></a>维护阶段
 

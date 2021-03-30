@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 2e805b9379c73f7b7eb2820662fad70e28181ebf
-ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
+ms.openlocfilehash: 0f48e424a9ab3349d3c114ecbd01424005b9a9c6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5043385"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219333"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>扩展现有库存量数据实体
 

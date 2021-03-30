@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5685fd384e240c1bc6236dbddf678c8d6d9c8c66
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a769f9cb5b34581b9bd20b19bcd8bcd0b1c7bff8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005494"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205419"
 ---
 # <a name="include-physical-value"></a>包括实际成本
 

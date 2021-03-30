@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0e06cd5fc6dc27f79eb39bbd78932a166e9d442
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 49b110b93e6f0f886d180f9f2725245faad7afab
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977205"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239030"
 ---
 # <a name="create-a-work-class"></a>创建工作类
 

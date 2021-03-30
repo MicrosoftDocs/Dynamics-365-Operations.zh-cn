@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1e0bea8743d6ca63538b2c84f74b6e4b1e6c2c0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e89c2c1659b8e995350762cb9e9b77a1e10c831f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999698"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218505"
 ---
 # <a name="create-a-product-configuration-model"></a>创建产品配置模型
 

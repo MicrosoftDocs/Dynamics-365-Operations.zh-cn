@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 862987b8ccdc4272bdd404e78391ad447bc290b3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a08f10c1f5c3ff5b9023f37614c4e113b3a6b30d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996343"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211758"
 ---
 # <a name="set-up-and-use-wave-label-printing"></a>设置和使用波次标签打印
 

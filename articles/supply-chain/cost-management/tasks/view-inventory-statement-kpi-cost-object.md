@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5801b23906ef89b1681b5dc3742c075ee2e5a964
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e2169cc13842328973cabf01c49c60a0f369c16c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001965"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239390"
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a>按成本对象查看库存报表和 KPI
 

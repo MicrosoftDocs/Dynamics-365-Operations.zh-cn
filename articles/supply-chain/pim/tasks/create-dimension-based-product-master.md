@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9643d57cd51043b4052913c05fc400125367dd9b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c3913bdf574036ed30f99701bf2b64ed0f713b1d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007608"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226067"
 ---
 # <a name="create-a-dimension-based-product-master"></a>创建基于维度的基础产品
 

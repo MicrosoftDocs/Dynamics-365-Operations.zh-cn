@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8a292bd7a7ccbb09af1955e1e253b45e230c1009
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 40b15448677f319c650c667cd7c4981c343f7a02
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005419"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205338"
 ---
 # <a name="inventory-aging-report-storage"></a>库龄报表存储
 

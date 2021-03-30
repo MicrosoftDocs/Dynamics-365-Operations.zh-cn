@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: db0932c5a52030c1a7f0411163aee120e2173ca0
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: ef020c6a917f0a2c358f775991182e1e494d45d6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021130"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253750"
 ---
 # <a name="item-where-used"></a>物料的使用位置
 

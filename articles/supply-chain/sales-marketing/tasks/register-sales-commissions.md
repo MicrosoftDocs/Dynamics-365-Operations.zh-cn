@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4334fcd996f32b00bb399d3df5c43eb6bf50ab28
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 82c8dc2f284923b5583bf983413a015b9ece8252
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010689"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205921"
 ---
 # <a name="register-sales-commissions"></a>登记销售佣金
 

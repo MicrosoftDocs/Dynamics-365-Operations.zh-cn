@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0906b7c92f8288adf834ccd33f0ca0df40cd4f44
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: de74ed71f0c34935d05df996bdcd2d1901a50364
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017259"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226705"
 ---
 # <a name="set-up-project-resource-information"></a>设置项目资源信息
 

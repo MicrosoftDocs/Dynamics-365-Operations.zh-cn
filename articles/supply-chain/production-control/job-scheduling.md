@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3612c0c24814f7637234894cc176c2a2be001ba
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c71f85cac11c4f11d63ba8f55932ec8f0520d924
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007033"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246109"
 ---
 # <a name="job-scheduling"></a>作业级排产
 

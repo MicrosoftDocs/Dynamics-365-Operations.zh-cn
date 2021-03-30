@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4be9f8bab55f28fa88cb87aef32ab599056c1831
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 855b057706bc2f8315084a3cebec6f855a4d01e7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973852"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214122"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>通过仓库应用创建转移单
 

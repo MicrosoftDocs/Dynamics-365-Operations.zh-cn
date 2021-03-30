@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0cddb0a25286c8ce9d72aef0b835809705ad577a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 6fd5aa8914437fb77ea25ec229c94cfb0bb12def
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020931"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253054"
 ---
 # <a name="assets-and-work-orders"></a>资产和工作订单
 

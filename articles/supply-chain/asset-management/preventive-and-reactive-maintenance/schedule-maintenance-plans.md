@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c215417eacb8a0e1ec0a8324fe35fc053089afb
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3c84711412d799f9d3cce02e0740ec065ef42d8a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016898"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223546"
 ---
 # <a name="schedule-maintenance-plans"></a>安排维护计划
 

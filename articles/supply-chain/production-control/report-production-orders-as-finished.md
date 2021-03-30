@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f044b7640bda168485798316171fdd0b66c4c84
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 40b2856e2495d2139664b75f747f023334a80d8c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986471"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235452"
 ---
 # <a name="report-production-orders-as-finished"></a>将生产订单报告为已完工入库
 

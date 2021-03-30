@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 156cd4ec3a1d1a08ba43832a93fde0d4f22ac2ed
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d27ec5b65cc607c22d97c1dc44bb573bc2772611
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007633"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243169"
 ---
 # <a name="hazardous-materials"></a>危险物料
 

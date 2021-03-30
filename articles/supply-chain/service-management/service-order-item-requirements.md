@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b0ed409dc4ab39e55c198b8738c9722213b0cba
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6a0ce40c26e3d3028064b73a80a247180d6a9009
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001266"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226657"
 ---
 # <a name="service-order-item-requirements"></a>服务订单物料需求   
 

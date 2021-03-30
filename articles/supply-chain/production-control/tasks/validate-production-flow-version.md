@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3cc8465fb56239f91982db15601cf87e3c00d3fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2bceb5b61fea55c78cb2bb65b8d7cde66679ef01
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980948"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254255"
 ---
 # <a name="validate-a-production-flow-and-version"></a>验证生产流和版本
 

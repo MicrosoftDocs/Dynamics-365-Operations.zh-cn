@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9acf6db9138a009527c6662f1cbb7e5fedc8778
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fe0b6f9b966a5ce31af9da74a2038877debd2e7c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976855"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215737"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>设置采购订单的工作模板
 

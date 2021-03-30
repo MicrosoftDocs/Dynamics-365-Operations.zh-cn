@@ -18,12 +18,12 @@ ms.search.industry: Product information
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a79f7dccd518ce1d0e7c937a1a7934b474c4b37
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 55cf7ef19fddf79c1dc81e6fbec1d1672026ebc1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999623"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223378"
 ---
 # <a name="product-related-translations-faq"></a>与产品相关的翻译常见问题
 

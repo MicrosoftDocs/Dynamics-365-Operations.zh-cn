@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5985a19f4415121bd96185dc6901dba99d2460ed
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4a2e8e4e5226c98da20530b9a8a3a89eb9ed1647
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974427"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247277"
 ---
 # <a name="invoice-subscription-transactions"></a>发票预订交易记录 
 

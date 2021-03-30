@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b87fe141c6d53f68e90f5f2346da0633a09b1af1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b0061030cabda55cf467c0c80b250c45c875b386
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987371"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209621"
 ---
 # <a name="quality-management-processes"></a>质量管理流程
 

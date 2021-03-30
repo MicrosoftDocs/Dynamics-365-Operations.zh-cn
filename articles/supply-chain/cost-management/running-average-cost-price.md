@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 776f886fc0dfccf1b2675c9d54d44c16c6df4f09
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d91422dfece5af70abbcf9f051ec5706517d0155
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963755"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231928"
 ---
 # <a name="running-average-cost-price"></a>移动平均成本价
 

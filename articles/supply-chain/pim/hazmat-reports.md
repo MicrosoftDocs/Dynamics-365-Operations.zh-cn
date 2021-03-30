@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 1bb96d117eb3bb2b54be1a376c8789ad73d5fec8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cee824e9e8f7577d1d4a6c0a21c7341608e1f588
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983358"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243121"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>危险物料查询和报表
 

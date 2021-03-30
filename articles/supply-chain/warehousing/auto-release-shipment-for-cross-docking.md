@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: bcae977ede91dcaf4e455353f023e9eee4fcb2b1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 619133cb1ef5f85222a42a08fd5fb77250c3d911
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977480"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233167"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>越库配送的自动下达装运
 

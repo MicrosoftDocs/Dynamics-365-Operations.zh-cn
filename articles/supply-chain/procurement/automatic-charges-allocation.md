@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8067285237127bd43e8ff24166a15506cc0426f4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eddcf275c14565dfe77fbe7efa676be4a34da686
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983158"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244151"
 ---
 # <a name="automatic-allocation-of-charges"></a>自动分配费用
 

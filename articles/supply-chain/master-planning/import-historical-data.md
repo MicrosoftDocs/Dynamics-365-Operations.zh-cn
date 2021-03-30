@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6ba2e1a3a884d29bff491f914aa2d5f9ece2b84
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: d415895bd05b9ab1a2311ab69cc3757047df91db
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154219"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204608"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>导入需求预测的历史数据
 

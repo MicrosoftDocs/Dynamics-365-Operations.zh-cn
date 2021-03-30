@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b6b5e7b654b5732290489c0dbcb13d1cc441e9c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8e01300a4932cb6797905072b913b70db3700184
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5002040"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205410"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>具有实际成本和标记的先进先出
 

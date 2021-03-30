@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 829775e36a2d49ebbab5c719436cff4c92984635
-ms.sourcegitcommit: ca7fc46607ae9d07725e1486b43c66d39ec5cdb5
+ms.openlocfilehash: 783307ea5cc764f4a04d069dfd7d614a4f63dd2d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035258"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5229247"
 ---
 # <a name="delivery-alternatives"></a>交货备选方案
 

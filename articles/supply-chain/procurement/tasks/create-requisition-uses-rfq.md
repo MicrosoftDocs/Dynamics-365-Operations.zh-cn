@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05ff98b5fd95fa345d344e54d9116c73434e5de5
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 1e67dafd02a3b2a38832d8a4f0e9809adffcbb80
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018888"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211830"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>创建使用询价的申请
 

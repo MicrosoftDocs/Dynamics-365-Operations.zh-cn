@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 433ed2152c47dbe698a640b099cb34727fe63452
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 22e724b60ec5cc8bf39a520022f43784d3a328eb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989685"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232903"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>设置移动设备菜单项以提供领料行概览
 

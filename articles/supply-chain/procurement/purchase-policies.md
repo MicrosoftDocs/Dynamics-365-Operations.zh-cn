@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: def842116e0c6c57d407cb4fb30a26a9e17d9a2c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a8c8fa3e4b59cdb013c1c524e06085b06905715e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022198"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215881"
 ---
 # <a name="purchasing-policies-overview"></a>采购策略概览
 

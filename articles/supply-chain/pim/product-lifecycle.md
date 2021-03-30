@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: cff4ee39d4c27e9a0dfc891e0f95278040ede877
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: aaa3747dd13d56726251b150a8e0a3ec2dced614
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999773"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247830"
 ---
 # <a name="product-lifecycle-state-overview"></a>产品生命周期状态概览
 

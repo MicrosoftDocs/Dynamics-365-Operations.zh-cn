@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7080af2059c9c9bcdd11ca0ee9c5e339cef69302
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 35b5c89751d17687bd7e306094a1e4e5e144a8dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021496"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245339"
 ---
 # <a name="warranty-agreements"></a>保修协议
 

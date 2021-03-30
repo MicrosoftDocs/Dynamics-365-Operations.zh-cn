@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 044b098b24d8cdf8008824b7ed1359f2b0566a8f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8971774a0a4a41d9a0a5f05e0c3071a543a4801a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961469"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244271"
 ---
 # <a name="trace-an-item-or-raw-material"></a>跟踪物料或原材料
 

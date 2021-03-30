@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f062b5463b54e9bcf32ed6f17263811c4bb24138
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: ce456655495fd72f82451f319940d8e9c1c02f1a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021008"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253510"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>预测、工作订单和项目
 

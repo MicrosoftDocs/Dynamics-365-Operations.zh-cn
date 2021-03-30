@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e6dfadf6824c6a3df7be9b3b6f3d9f5dd2749e34
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9c77aa0dc10844fbe07afa0b8d2a6f3578a246ab
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018063"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253332"
 ---
 # <a name="inbound-and-outbound-assets"></a>入站资产和出站资产
 

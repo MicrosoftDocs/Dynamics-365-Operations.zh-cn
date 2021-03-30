@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 14a2f4c7d8d053ffd7b4b5d090113e1d9c3294c4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 95517153dda06cecf8e57b1f9b080aa07966c111
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974102"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247254"
 ---
 # <a name="carrier-groups"></a>承运人组
 

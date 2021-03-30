@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d75e9ecaa814085e8fce1836125553511cf4f48b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9ef9f4d464fb2a61dd03914efcf7a584fe955ae9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999723"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213370"
 ---
 # <a name="create-configuration-rules"></a>创建配置规则
 

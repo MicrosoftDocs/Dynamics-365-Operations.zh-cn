@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 37f47b3d9ba0344b96db5626359e2a99a1a40f9c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 41bedaaace09f632ca7506f504c3086a1dabf193
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018513"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5217141"
 ---
 # <a name="counters"></a>计数器
 

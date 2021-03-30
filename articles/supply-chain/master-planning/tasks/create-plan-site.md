@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b6d433257056c604500953060bf11ce3a3f5866
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d5ef805ba42500175d29208f1dcd5d383c63adb8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007933"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214338"
 ---
 # <a name="create-a-plan-for-a-site"></a>创建站点计划
 

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c42fbd42288a072803e4f5de46560d13129515db
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: da8db87f44c974b3fee8e249e318669ca8e9f2b8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005144"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220816"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>主计划和多站点功能概览
 

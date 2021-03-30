@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d1ed91adba5c7accf9a18d7a754d33b2b35b848f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 480006a6d091acdf5c88fdbf0d9e625088d660d4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974214"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247230"
 ---
 # <a name="load-building-workbench"></a>装载计划工作台
 

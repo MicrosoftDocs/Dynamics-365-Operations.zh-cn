@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdf6335bd333569e278ccd9cf3972c0ec57d4e6c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a8e0deadaeb403e1f645309a141c5678fbe3f716
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989660"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232879"
 ---
 # <a name="pick-oldest-batch-on-a-mobile-device"></a>在移动设备上领取最早的批次
 

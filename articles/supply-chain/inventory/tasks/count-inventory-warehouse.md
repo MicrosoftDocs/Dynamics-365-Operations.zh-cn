@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a7f85cb91f36004a6bd6da714e7baa460a83a66
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 452822eaf26c26e4c9e00f909dbd18127f6fc781
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000079"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230096"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>盘点仓库中的库存
 
