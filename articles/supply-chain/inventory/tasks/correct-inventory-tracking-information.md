@@ -16,50 +16,53 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c70dba7d21eab372cec235efa5a4be19587a409
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 76e73f10df5bb520b6d0d787eda08053a5e33c81
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000126"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223402"
 ---
-# <a name="correct-inventory-tracking-information"></a><span data-ttu-id="d05e8-103">更正库存跟踪信息</span><span class="sxs-lookup"><span data-stu-id="d05e8-103">Correct inventory tracking information</span></span>
+# <a name="correct-inventory-tracking-information"></a><span data-ttu-id="9bb26-103">更正库存跟踪信息</span><span class="sxs-lookup"><span data-stu-id="9bb26-103">Correct inventory tracking information</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d05e8-104">该过程让您了解创建和过帐库存转移日志的流程，以纠正库存跟踪信息。</span><span class="sxs-lookup"><span data-stu-id="d05e8-104">This procedure walks you through the process of creating and posting an inventory transfer journal in order to correct inventory tracking information.</span></span> <span data-ttu-id="d05e8-105">在此示例中，我们通过将不正确登记的批更新为其他批，来更新批控制物料的信息。</span><span class="sxs-lookup"><span data-stu-id="d05e8-105">In this example, we'll update the information of a batch controlled item by changing an incorrectly registered batch to another batch.</span></span> <span data-ttu-id="d05e8-106">您可以使用演示数据公司 USPI 或您自己的数据了解该过程。</span><span class="sxs-lookup"><span data-stu-id="d05e8-106">You can walk through this procedure in demo data company USPI, or using your own data.</span></span> <span data-ttu-id="d05e8-107">如果您使用您自己的数据，需启用可以批处理的物料；并且它不能是位置控制。</span><span class="sxs-lookup"><span data-stu-id="d05e8-107">If you use your own data, you need to have an item that's batch-enabled, and it must not be location-controlled.</span></span> <span data-ttu-id="d05e8-108">您还需要有一个为库存转移而设置的库存日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="d05e8-108">You also need to have an inventory journal name set up for inventory transfers.</span></span> <span data-ttu-id="d05e8-109">这些任务通常由仓库员工完成。</span><span class="sxs-lookup"><span data-stu-id="d05e8-109">These tasks would normally be carried out by a warehouse employee.</span></span>
+<span data-ttu-id="9bb26-104">该过程让您了解创建和过帐库存转移日志的流程，以纠正库存跟踪信息。</span><span class="sxs-lookup"><span data-stu-id="9bb26-104">This procedure walks you through the process of creating and posting an inventory transfer journal in order to correct inventory tracking information.</span></span> <span data-ttu-id="9bb26-105">在此示例中，我们通过将不正确登记的批更新为其他批，来更新批控制物料的信息。</span><span class="sxs-lookup"><span data-stu-id="9bb26-105">In this example, we'll update the information of a batch controlled item by changing an incorrectly registered batch to another batch.</span></span> <span data-ttu-id="9bb26-106">您可以使用演示数据公司 USPI 或您自己的数据了解该过程。</span><span class="sxs-lookup"><span data-stu-id="9bb26-106">You can walk through this procedure in demo data company USPI, or using your own data.</span></span> <span data-ttu-id="9bb26-107">如果您使用您自己的数据，需启用可以批处理的物料；并且它不能是位置控制。</span><span class="sxs-lookup"><span data-stu-id="9bb26-107">If you use your own data, you need to have an item that's batch-enabled, and it must not be location-controlled.</span></span> <span data-ttu-id="9bb26-108">您还需要有一个为库存转移而设置的库存日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="9bb26-108">You also need to have an inventory journal name set up for inventory transfers.</span></span> <span data-ttu-id="9bb26-109">这些任务通常由仓库员工完成。</span><span class="sxs-lookup"><span data-stu-id="9bb26-109">These tasks would normally be carried out by a warehouse employee.</span></span>
 
 
-## <a name="create-an-inventory-transfer-journal"></a><span data-ttu-id="d05e8-110">创建库存转移日记帐</span><span class="sxs-lookup"><span data-stu-id="d05e8-110">Create an inventory transfer journal</span></span>
-1. <span data-ttu-id="d05e8-111">转到“转移”。</span><span class="sxs-lookup"><span data-stu-id="d05e8-111">Go to Transfer.</span></span>
-2. <span data-ttu-id="d05e8-112">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="d05e8-112">Click New.</span></span>
-3. <span data-ttu-id="d05e8-113">在“名称”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="d05e8-113">In the Name field, enter or select a value.</span></span>
-4. <span data-ttu-id="d05e8-114">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="d05e8-114">Click OK.</span></span>
+## <a name="create-an-inventory-transfer-journal"></a><span data-ttu-id="9bb26-110">创建库存转移日记帐</span><span class="sxs-lookup"><span data-stu-id="9bb26-110">Create an inventory transfer journal</span></span>
+1. <span data-ttu-id="9bb26-111">转到“转移”。</span><span class="sxs-lookup"><span data-stu-id="9bb26-111">Go to Transfer.</span></span>
+2. <span data-ttu-id="9bb26-112">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9bb26-112">Click New.</span></span>
+3. <span data-ttu-id="9bb26-113">在“名称”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9bb26-113">In the Name field, enter or select a value.</span></span>
+4. <span data-ttu-id="9bb26-114">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="9bb26-114">Click OK.</span></span>
 
-## <a name="create-journal-lines"></a><span data-ttu-id="d05e8-115">创建日记帐行</span><span class="sxs-lookup"><span data-stu-id="d05e8-115">Create journal lines</span></span>
-1. <span data-ttu-id="d05e8-116">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="d05e8-116">Click New.</span></span>
-2. <span data-ttu-id="d05e8-117">在“物料编号”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="d05e8-117">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="d05e8-118">如果您正在使用 USPI，请选择物料 M5003。</span><span class="sxs-lookup"><span data-stu-id="d05e8-118">If you are using USPI, select item M5003.</span></span>  
-3. <span data-ttu-id="d05e8-119">在“数量”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="d05e8-119">In the Quantity field, enter a number.</span></span>
-4. <span data-ttu-id="d05e8-120">单击“库存维度”选项卡。</span><span class="sxs-lookup"><span data-stu-id="d05e8-120">Click the Inventory dimensions tab.</span></span>
-5. <span data-ttu-id="d05e8-121">在“批号”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="d05e8-121">In the Batch number field, enter or select a value.</span></span>
-6. <span data-ttu-id="d05e8-122">在“站点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="d05e8-122">In the Site field, enter or select a value.</span></span>
-7. <span data-ttu-id="d05e8-123">在“仓库”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="d05e8-123">In the Warehouse field, enter or select a value.</span></span>
-8. <span data-ttu-id="d05e8-124">在“批号”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="d05e8-124">In the Batch number field, enter or select a value.</span></span>
+## <a name="create-journal-lines"></a><span data-ttu-id="9bb26-115">创建日记帐行</span><span class="sxs-lookup"><span data-stu-id="9bb26-115">Create journal lines</span></span>
+1. <span data-ttu-id="9bb26-116">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9bb26-116">Click New.</span></span>
+2. <span data-ttu-id="9bb26-117">在“物料编号”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9bb26-117">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="9bb26-118">如果您正在使用 USPI，请选择物料 M5003。</span><span class="sxs-lookup"><span data-stu-id="9bb26-118">If you are using USPI, select item M5003.</span></span>  
+3. <span data-ttu-id="9bb26-119">在“数量”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="9bb26-119">In the Quantity field, enter a number.</span></span>
+4. <span data-ttu-id="9bb26-120">单击“库存维度”选项卡。</span><span class="sxs-lookup"><span data-stu-id="9bb26-120">Click the Inventory dimensions tab.</span></span>
+5. <span data-ttu-id="9bb26-121">在“批号”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9bb26-121">In the Batch number field, enter or select a value.</span></span>
+6. <span data-ttu-id="9bb26-122">在“站点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9bb26-122">In the Site field, enter or select a value.</span></span>
+7. <span data-ttu-id="9bb26-123">在“仓库”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9bb26-123">In the Warehouse field, enter or select a value.</span></span>
+8. <span data-ttu-id="9bb26-124">在“批号”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9bb26-124">In the Batch number field, enter or select a value.</span></span>
 
-## <a name="post-the-journal"></a><span data-ttu-id="d05e8-125">过帐日记帐</span><span class="sxs-lookup"><span data-stu-id="d05e8-125">Post the journal</span></span>
-1. <span data-ttu-id="d05e8-126">单击“过帐”。</span><span class="sxs-lookup"><span data-stu-id="d05e8-126">Click Post.</span></span>
-2. <span data-ttu-id="d05e8-127">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="d05e8-127">Click OK.</span></span>
+## <a name="post-the-journal"></a><span data-ttu-id="9bb26-125">过帐日记帐</span><span class="sxs-lookup"><span data-stu-id="9bb26-125">Post the journal</span></span>
+1. <span data-ttu-id="9bb26-126">单击“过帐”。</span><span class="sxs-lookup"><span data-stu-id="9bb26-126">Click Post.</span></span>
+2. <span data-ttu-id="9bb26-127">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="9bb26-127">Click OK.</span></span>
 
-## <a name="check-tracing-information"></a><span data-ttu-id="d05e8-128">检查跟踪信息</span><span class="sxs-lookup"><span data-stu-id="d05e8-128">Check tracing information</span></span>
-1. <span data-ttu-id="d05e8-129">单击“库存”。</span><span class="sxs-lookup"><span data-stu-id="d05e8-129">Click Inventory.</span></span>
-2. <span data-ttu-id="d05e8-130">单击“跟踪“。</span><span class="sxs-lookup"><span data-stu-id="d05e8-130">Click Trace.</span></span>
-3. <span data-ttu-id="d05e8-131">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="d05e8-131">Click OK.</span></span>
-    * <span data-ttu-id="d05e8-132">使用此跟踪信息，您可以返回跟踪您从哪个批中更正库存。</span><span class="sxs-lookup"><span data-stu-id="d05e8-132">Using this tracing information you can back trace which batch you corrected inventory from.</span></span>  <span data-ttu-id="d05e8-133">您还可以使用“物料跟踪页”以查看此信息。</span><span class="sxs-lookup"><span data-stu-id="d05e8-133">You can also use the Item tracing page to see this information.</span></span>  
-4. <span data-ttu-id="d05e8-134">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="d05e8-134">Close the page.</span></span>
+## <a name="check-tracing-information"></a><span data-ttu-id="9bb26-128">检查跟踪信息</span><span class="sxs-lookup"><span data-stu-id="9bb26-128">Check tracing information</span></span>
+1. <span data-ttu-id="9bb26-129">单击“库存”。</span><span class="sxs-lookup"><span data-stu-id="9bb26-129">Click Inventory.</span></span>
+2. <span data-ttu-id="9bb26-130">单击“跟踪“。</span><span class="sxs-lookup"><span data-stu-id="9bb26-130">Click Trace.</span></span>
+3. <span data-ttu-id="9bb26-131">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="9bb26-131">Click OK.</span></span>
+    * <span data-ttu-id="9bb26-132">使用此跟踪信息，您可以返回跟踪您从哪个批中更正库存。</span><span class="sxs-lookup"><span data-stu-id="9bb26-132">Using this tracing information you can back trace which batch you corrected inventory from.</span></span>  <span data-ttu-id="9bb26-133">您还可以使用“物料跟踪页”以查看此信息。</span><span class="sxs-lookup"><span data-stu-id="9bb26-133">You can also use the Item tracing page to see this information.</span></span>  
+4. <span data-ttu-id="9bb26-134">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="9bb26-134">Close the page.</span></span>
 
-## <a name="check-inventory-transactions"></a><span data-ttu-id="d05e8-135">检查库存交易记录</span><span class="sxs-lookup"><span data-stu-id="d05e8-135">Check inventory transactions</span></span>
-1. <span data-ttu-id="d05e8-136">单击“库存”。</span><span class="sxs-lookup"><span data-stu-id="d05e8-136">Click Inventory.</span></span>
-2. <span data-ttu-id="d05e8-137">单击“交易记录”。</span><span class="sxs-lookup"><span data-stu-id="d05e8-137">Click Transactions.</span></span>
-    * <span data-ttu-id="d05e8-138">在这里，您可以查看过帐日记帐时创建的交易记录。</span><span class="sxs-lookup"><span data-stu-id="d05e8-138">Here you can see the transactions that were created when you posted your journal.</span></span>   
+## <a name="check-inventory-transactions"></a><span data-ttu-id="9bb26-135">检查库存交易记录</span><span class="sxs-lookup"><span data-stu-id="9bb26-135">Check inventory transactions</span></span>
+1. <span data-ttu-id="9bb26-136">单击“库存”。</span><span class="sxs-lookup"><span data-stu-id="9bb26-136">Click Inventory.</span></span>
+2. <span data-ttu-id="9bb26-137">单击“交易记录”。</span><span class="sxs-lookup"><span data-stu-id="9bb26-137">Click Transactions.</span></span>
+    * <span data-ttu-id="9bb26-138">在这里，您可以查看过帐日记帐时创建的交易记录。</span><span class="sxs-lookup"><span data-stu-id="9bb26-138">Here you can see the transactions that were created when you posted your journal.</span></span>   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
