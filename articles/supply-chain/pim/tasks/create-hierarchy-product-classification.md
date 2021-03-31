@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 74be72ac5787273e13692abdb9db18be4c5ccc08
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 59631148dbd2ad27ce2bb5c268d78e625daef6bb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966947"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224443"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>创建产品分类的层次结构
 

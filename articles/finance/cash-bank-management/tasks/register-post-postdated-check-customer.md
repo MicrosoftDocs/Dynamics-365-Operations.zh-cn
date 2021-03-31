@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d14b0622f4fbad87ddf019307910d4d4e316888a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a7b7899e11849175976b4c7ee44be4355e733d1d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995282"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225337"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>为客户登记和过帐远期支票
 

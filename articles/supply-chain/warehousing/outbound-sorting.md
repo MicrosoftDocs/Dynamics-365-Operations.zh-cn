@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2b0049269b69c0777420b3ecd9b1f649c4a1ab11
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 44807e8d9915652c1c9d365de47d594a0c4f90e5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963402"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225947"
 ---
 # <a name="outbound-sorting"></a>出站排序
 

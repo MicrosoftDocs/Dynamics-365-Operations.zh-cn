@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed15659d156427d0f591a63df7ed0a1ecd4f23c1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f31258b610e56249355fb84291b864e318a6e174
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978403"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223966"
 ---
 # <a name="year-end-close"></a>年终结算
 

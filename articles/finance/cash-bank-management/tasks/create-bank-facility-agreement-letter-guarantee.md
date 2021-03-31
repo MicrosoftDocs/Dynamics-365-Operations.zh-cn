@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edeadc1b8502171b9ce892efdaeb9347e399b771
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b9c93a76bc7e29cb98834b9028748330710a4cef
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989094"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225456"
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>创建保函的银行信贷协议
 

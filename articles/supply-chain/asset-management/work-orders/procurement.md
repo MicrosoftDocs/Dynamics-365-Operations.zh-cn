@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fce60f6ac2ac0dabe1c0ecd804a1dec1e7e373a2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 6ed3bc581c4260ca5b4f673f9f66853f4f6f490b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020196"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223498"
 ---
 # <a name="procurement"></a>采购
 

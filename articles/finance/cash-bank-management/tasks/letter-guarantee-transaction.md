@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5f13ea1f9acd48cc1e7dce794369e89901bdb582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 566849cfcedd29f4bb92d08a17b67e16b1cbc372
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976310"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225361"
 ---
 # <a name="letter-of-guarantee-transaction"></a>保函交易记录
 

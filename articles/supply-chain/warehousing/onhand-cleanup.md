@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.openlocfilehash: 93c77434a912554dab486b42c0c9fffd68cf9435
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014475"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225995"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>仓库管理现有条目清除作业
 

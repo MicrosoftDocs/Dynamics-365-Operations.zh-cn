@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6b7512ea6ad2e97db388bac6750482f7ed967140
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965544"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225901"
 ---
 # <a name="outbound-workload-visualization"></a>出站工作负荷可视化
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bffb5c802e8fa261e52197d1293ffb15c35981f6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 40d13e996b08efecb19be961c592230567656a4d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989145"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225481"
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>创建信用证的银行信贷协议
 

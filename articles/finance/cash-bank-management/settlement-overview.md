@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a4ad8a124b2de2d364e11b6a32f8845ef438e1d1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d8b7bec73b0461f286165cd36e61c6e8b5a6270b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989152"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225524"
 ---
 # <a name="settlement-overview"></a>结算概览
 

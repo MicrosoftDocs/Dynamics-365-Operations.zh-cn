@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d26879ab54b5d87252287ab64fa3c7ae4ae4a90
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ffd482facc629e65a79f328cb237fd72f6f6b5c5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985204"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225313"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>为供应商登记和过帐远期支票
 

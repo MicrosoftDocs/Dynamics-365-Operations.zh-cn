@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ba6fb94033e227790e01676819308bb4f0cd6868
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 956a9168ed7bf9282d9eeec39587d8e1f2d1856c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965198"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224874"
 ---
 # <a name="run-and-monitor-an-experiment"></a>运行和监视试验
 

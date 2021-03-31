@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5b46ba174d658d27f5349762f3314ea8110490d2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 127f38e7db0a8c0703fd95274f45ff4ca49c131e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976383"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225433"
 ---
 # <a name="export-letter-of-credit"></a>导出信用证
 

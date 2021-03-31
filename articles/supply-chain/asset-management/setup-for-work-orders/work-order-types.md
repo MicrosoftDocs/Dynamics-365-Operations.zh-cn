@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9111ffa552059883696cf8248a02dfe70bc12ee7
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 561ca87740d90590262716f0042fca6b59dafc69
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021521"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223522"
 ---
 # <a name="work-order-types"></a>工作订单类型
 
