@@ -15,127 +15,130 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5b46ba174d658d27f5349762f3314ea8110490d2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 127f38e7db0a8c0703fd95274f45ff4ca49c131e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976383"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225433"
 ---
-# <a name="export-letter-of-credit"></a><span data-ttu-id="7089a-103">导出信用证</span><span class="sxs-lookup"><span data-stu-id="7089a-103">Export letter of credit</span></span>
+# <a name="export-letter-of-credit"></a><span data-ttu-id="1f75a-103">导出信用证</span><span class="sxs-lookup"><span data-stu-id="1f75a-103">Export letter of credit</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7089a-104">这个流程帮助了解导出信用证的整个过程。</span><span class="sxs-lookup"><span data-stu-id="7089a-104">This procedure walks through the process of the Export letter of credit.</span></span>
+<span data-ttu-id="1f75a-104">这个流程帮助了解导出信用证的整个过程。</span><span class="sxs-lookup"><span data-stu-id="1f75a-104">This procedure walks through the process of the Export letter of credit.</span></span>
 
-<span data-ttu-id="7089a-105">信用证是银行签发的协议，在信用证中银行同意代表买家确认付款（如果满足了买家和卖家间的协议条款）。</span><span class="sxs-lookup"><span data-stu-id="7089a-105">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to ensure payment on behalf of the buyer, if the terms of the agreement between the buyer and seller are met.</span></span>
-
-
-
-<span data-ttu-id="7089a-106">在运行该过程之前，先运行“设置银行融资和过帐模板”和”信用证创建银行融资协议”过程。</span><span class="sxs-lookup"><span data-stu-id="7089a-106">Run the 'Set up bank facilities and posting profiles' procedure and the 'Letter of Credit_Create a bank facility agreement' procedure prior to this procedure.</span></span> <span data-ttu-id="7089a-107">请选择 USMF 演示公司以成功运行该过程。</span><span class="sxs-lookup"><span data-stu-id="7089a-107">The USMF demo company must be selected in order to run this procedure successfully.</span></span>
+<span data-ttu-id="1f75a-105">信用证是银行签发的协议，在信用证中银行同意代表买家确认付款（如果满足了买家和卖家间的协议条款）。</span><span class="sxs-lookup"><span data-stu-id="1f75a-105">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to ensure payment on behalf of the buyer, if the terms of the agreement between the buyer and seller are met.</span></span>
 
 
 
+<span data-ttu-id="1f75a-106">在运行该过程之前，先运行“设置银行融资和过帐模板”和”信用证创建银行融资协议”过程。</span><span class="sxs-lookup"><span data-stu-id="1f75a-106">Run the 'Set up bank facilities and posting profiles' procedure and the 'Letter of Credit_Create a bank facility agreement' procedure prior to this procedure.</span></span> <span data-ttu-id="1f75a-107">请选择 USMF 演示公司以成功运行该过程。</span><span class="sxs-lookup"><span data-stu-id="1f75a-107">The USMF demo company must be selected in order to run this procedure successfully.</span></span>
 
-## <a name="create-sales-order-for-export-letter-of-credit"></a><span data-ttu-id="7089a-108">创建“导出信用证销售订单”</span><span class="sxs-lookup"><span data-stu-id="7089a-108">Create Sales Order for Export letter of credit</span></span>
-1. <span data-ttu-id="7089a-109">转到应收帐项目>订单>所有销售订单。</span><span class="sxs-lookup"><span data-stu-id="7089a-109">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="7089a-110">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="7089a-110">Click New.</span></span>
-3. <span data-ttu-id="7089a-111">在“客户帐户”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="7089a-111">In the Customer account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="7089a-112">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="7089a-112">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="7089a-113">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="7089a-113">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="7089a-114">展开或收起“常规”部分。</span><span class="sxs-lookup"><span data-stu-id="7089a-114">Expand or collapse the General section.</span></span>
-7. <span data-ttu-id="7089a-115">在“位置”字段中，单击下拉按钮打开查询。</span><span class="sxs-lookup"><span data-stu-id="7089a-115">In the Site field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="7089a-116">选择进货物料的装运“站点”。</span><span class="sxs-lookup"><span data-stu-id="7089a-116">Select the Site where the item to be issued is stocked.</span></span>  
-8. <span data-ttu-id="7089a-117">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="7089a-117">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="7089a-118">在“仓库”字段，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="7089a-118">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="7089a-119">选择进货物料的装运“仓库”。</span><span class="sxs-lookup"><span data-stu-id="7089a-119">Select the Warehouse where item to be issued is stocked.</span></span>  
-10. <span data-ttu-id="7089a-120">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="7089a-120">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="7089a-121">说明：此“银行单据编号”字段应选择相关值“信用证”。</span><span class="sxs-lookup"><span data-stu-id="7089a-121">Note: The Bank document type field should be selected with the value 'Letter of credit'.</span></span>  
-11. <span data-ttu-id="7089a-122">在“银行单据类型”字段中，选择“信用证”。</span><span class="sxs-lookup"><span data-stu-id="7089a-122">In the Bank document type field, select 'Letter of credit'.</span></span>
-12. <span data-ttu-id="7089a-123">展开或折叠“交货”部分。</span><span class="sxs-lookup"><span data-stu-id="7089a-123">Expand or collapse the Delivery section.</span></span>
-    * <span data-ttu-id="7089a-124">选择“交货日期管理 = 无”。</span><span class="sxs-lookup"><span data-stu-id="7089a-124">Select Delivery date control = None.</span></span>  
-13. <span data-ttu-id="7089a-125">在“请求收货日期”字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="7089a-125">In the Requested receipt date field, enter a date.</span></span>
-14. <span data-ttu-id="7089a-126">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="7089a-126">Click OK.</span></span>
-15. <span data-ttu-id="7089a-127">在“物料编号”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="7089a-127">In the Item number field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="7089a-128">选择所需的“装运/售出”物料。</span><span class="sxs-lookup"><span data-stu-id="7089a-128">Select the required item to be Issued/Sold.</span></span>  
-16. <span data-ttu-id="7089a-129">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="7089a-129">In the list, find and select the desired record.</span></span>
-17. <span data-ttu-id="7089a-130">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="7089a-130">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="7089a-131">在“单价”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="7089a-131">In the Unit price field, enter a number.</span></span>
-19. <span data-ttu-id="7089a-132">展开或折叠“行详细信息”部分。</span><span class="sxs-lookup"><span data-stu-id="7089a-132">Expand or collapse the Line details section.</span></span>
-20. <span data-ttu-id="7089a-133">单击“交货”选项卡。</span><span class="sxs-lookup"><span data-stu-id="7089a-133">Click the Delivery tab.</span></span>
-21. <span data-ttu-id="7089a-134">在“请求装运日期”字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="7089a-134">In the Requested ship date field, enter a date.</span></span>
-22. <span data-ttu-id="7089a-135">在“确认装运日期”字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="7089a-135">In the Confirmed ship date field, enter a date.</span></span>
-23. <span data-ttu-id="7089a-136">在“操作窗格”上单击“管理”。</span><span class="sxs-lookup"><span data-stu-id="7089a-136">On the Action Pane, click Manage.</span></span>
-24. <span data-ttu-id="7089a-137">单击“信用证”。</span><span class="sxs-lookup"><span data-stu-id="7089a-137">Click Letter of credit.</span></span>
-25. <span data-ttu-id="7089a-138">在“银行单据编号”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="7089a-138">In the Bank document number field, type a value.</span></span>
-26. <span data-ttu-id="7089a-139">在“到期日期”字段中，输入日期和时间。</span><span class="sxs-lookup"><span data-stu-id="7089a-139">In the Expiration date field, enter a date and time.</span></span>
-27. <span data-ttu-id="7089a-140">展开或折叠“银行详细信息”部分。</span><span class="sxs-lookup"><span data-stu-id="7089a-140">Expand or collapse the Bank details section.</span></span>
-28. <span data-ttu-id="7089a-141">在“开证银行”字段中，单击下拉按钮打开查找。</span><span class="sxs-lookup"><span data-stu-id="7089a-141">In the Issuing bank field, click the drop-down button to open the lookup.</span></span>
-29. <span data-ttu-id="7089a-142">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="7089a-142">In the list, click the link in the selected row.</span></span>
-30. <span data-ttu-id="7089a-143">在“通知银行”字段中，单击下拉按钮打开查找。</span><span class="sxs-lookup"><span data-stu-id="7089a-143">In the Advising bank field, click the drop-down button to open the lookup.</span></span>
-31. <span data-ttu-id="7089a-144">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="7089a-144">In the list, find and select the desired record.</span></span>
-32. <span data-ttu-id="7089a-145">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="7089a-145">In the list, click the link in the selected row.</span></span>
-33. <span data-ttu-id="7089a-146">单击“提取订单装运”。</span><span class="sxs-lookup"><span data-stu-id="7089a-146">Click Fetch sales order shipments.</span></span>
-34. <span data-ttu-id="7089a-147">单击“开证银行单据”。</span><span class="sxs-lookup"><span data-stu-id="7089a-147">Click Issue bank document.</span></span>
-35. <span data-ttu-id="7089a-148">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="7089a-148">Close the page.</span></span>
 
-## <a name="post-packing-slip"></a><span data-ttu-id="7089a-149">过帐“装箱单”</span><span class="sxs-lookup"><span data-stu-id="7089a-149">Post Packing slip</span></span>
-1. <span data-ttu-id="7089a-150">在操作窗格中，单击“领料和装箱”。</span><span class="sxs-lookup"><span data-stu-id="7089a-150">On the Action Pane, click Pick and pack.</span></span>
-2. <span data-ttu-id="7089a-151">单击“将装箱单过帐”。</span><span class="sxs-lookup"><span data-stu-id="7089a-151">Click Post packing slip.</span></span>
-3. <span data-ttu-id="7089a-152">展开或收起“参数”部分。</span><span class="sxs-lookup"><span data-stu-id="7089a-152">Expand or collapse the Parameters section.</span></span>
-4. <span data-ttu-id="7089a-153">在“数量”字段中，选择“所有”。</span><span class="sxs-lookup"><span data-stu-id="7089a-153">In the Quantity field, select 'All'.</span></span>
-5. <span data-ttu-id="7089a-154">展开或折叠“设置”部分。</span><span class="sxs-lookup"><span data-stu-id="7089a-154">Expand or collapse the Setup section.</span></span>
-6. <span data-ttu-id="7089a-155">在“装箱单日期”字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="7089a-155">In the Packing slip date field, enter a date.</span></span>
-7. <span data-ttu-id="7089a-156">选择“装运数”。</span><span class="sxs-lookup"><span data-stu-id="7089a-156">Select the Shipment number.</span></span>
-8. <span data-ttu-id="7089a-157">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="7089a-157">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="7089a-158">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="7089a-158">Click OK.</span></span>
-10. <span data-ttu-id="7089a-159">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="7089a-159">Click OK.</span></span>
 
-## <a name="post-sales-invoice"></a><span data-ttu-id="7089a-160">过帐销售发票</span><span class="sxs-lookup"><span data-stu-id="7089a-160">Post sales invoice</span></span>
-1. <span data-ttu-id="7089a-161">在操作窗格上，单击“发票”。</span><span class="sxs-lookup"><span data-stu-id="7089a-161">On the Action Pane, click Invoice.</span></span>
-2. <span data-ttu-id="7089a-162">单击“发票”。</span><span class="sxs-lookup"><span data-stu-id="7089a-162">Click Invoice.</span></span>
-3. <span data-ttu-id="7089a-163">展开或折叠“概述”部分。</span><span class="sxs-lookup"><span data-stu-id="7089a-163">Expand or collapse the Overview section.</span></span>
-4. <span data-ttu-id="7089a-164">选择“装运数”。</span><span class="sxs-lookup"><span data-stu-id="7089a-164">Select the Shipment number.</span></span>
-5. <span data-ttu-id="7089a-165">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="7089a-165">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="7089a-166">展开或折叠“设置”部分。</span><span class="sxs-lookup"><span data-stu-id="7089a-166">Expand or collapse the Setup section.</span></span>
-7. <span data-ttu-id="7089a-167">在“发票日期”字段中，输入日期。</span><span class="sxs-lookup"><span data-stu-id="7089a-167">In the Invoice date field, enter a date.</span></span>
-8. <span data-ttu-id="7089a-168">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="7089a-168">Click OK.</span></span>
-9. <span data-ttu-id="7089a-169">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="7089a-169">Click OK.</span></span>
 
-## <a name="shipment-document-submitted-status"></a><span data-ttu-id="7089a-170">装运单据的提交状态</span><span class="sxs-lookup"><span data-stu-id="7089a-170">Shipment document submitted status</span></span>
-1. <span data-ttu-id="7089a-171">在“操作窗格”上单击“管理”。</span><span class="sxs-lookup"><span data-stu-id="7089a-171">On the Action Pane, click Manage.</span></span>
-2. <span data-ttu-id="7089a-172">单击“信用证”。</span><span class="sxs-lookup"><span data-stu-id="7089a-172">Click Letter of credit.</span></span>
-3. <span data-ttu-id="7089a-173">展开或折叠“行”部分。</span><span class="sxs-lookup"><span data-stu-id="7089a-173">Expand or collapse the Lines section.</span></span>
-    * <span data-ttu-id="7089a-174">说明：“文件提交”字段应设置为“是”。</span><span class="sxs-lookup"><span data-stu-id="7089a-174">Note: The 'Document submitted' field should be set to 'Yes'.</span></span>  
+## <a name="create-sales-order-for-export-letter-of-credit"></a><span data-ttu-id="1f75a-108">创建“导出信用证销售订单”</span><span class="sxs-lookup"><span data-stu-id="1f75a-108">Create Sales Order for Export letter of credit</span></span>
+1. <span data-ttu-id="1f75a-109">转到应收帐项目>订单>所有销售订单。</span><span class="sxs-lookup"><span data-stu-id="1f75a-109">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="1f75a-110">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-110">Click New.</span></span>
+3. <span data-ttu-id="1f75a-111">在“客户帐户”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="1f75a-111">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="1f75a-112">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="1f75a-112">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="1f75a-113">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="1f75a-113">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="1f75a-114">展开或收起“常规”部分。</span><span class="sxs-lookup"><span data-stu-id="1f75a-114">Expand or collapse the General section.</span></span>
+7. <span data-ttu-id="1f75a-115">在“位置”字段中，单击下拉按钮打开查询。</span><span class="sxs-lookup"><span data-stu-id="1f75a-115">In the Site field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="1f75a-116">选择进货物料的装运“站点”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-116">Select the Site where the item to be issued is stocked.</span></span>  
+8. <span data-ttu-id="1f75a-117">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="1f75a-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="1f75a-118">在“仓库”字段，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="1f75a-118">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="1f75a-119">选择进货物料的装运“仓库”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-119">Select the Warehouse where item to be issued is stocked.</span></span>  
+10. <span data-ttu-id="1f75a-120">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="1f75a-120">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="1f75a-121">说明：此“银行单据编号”字段应选择相关值“信用证”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-121">Note: The Bank document type field should be selected with the value 'Letter of credit'.</span></span>  
+11. <span data-ttu-id="1f75a-122">在“银行单据类型”字段中，选择“信用证”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-122">In the Bank document type field, select 'Letter of credit'.</span></span>
+12. <span data-ttu-id="1f75a-123">展开或折叠“交货”部分。</span><span class="sxs-lookup"><span data-stu-id="1f75a-123">Expand or collapse the Delivery section.</span></span>
+    * <span data-ttu-id="1f75a-124">选择“交货日期管理 = 无”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-124">Select Delivery date control = None.</span></span>  
+13. <span data-ttu-id="1f75a-125">在“请求收货日期”字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="1f75a-125">In the Requested receipt date field, enter a date.</span></span>
+14. <span data-ttu-id="1f75a-126">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-126">Click OK.</span></span>
+15. <span data-ttu-id="1f75a-127">在“物料编号”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="1f75a-127">In the Item number field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="1f75a-128">选择所需的“装运/售出”物料。</span><span class="sxs-lookup"><span data-stu-id="1f75a-128">Select the required item to be Issued/Sold.</span></span>  
+16. <span data-ttu-id="1f75a-129">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="1f75a-129">In the list, find and select the desired record.</span></span>
+17. <span data-ttu-id="1f75a-130">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="1f75a-130">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="1f75a-131">在“单价”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="1f75a-131">In the Unit price field, enter a number.</span></span>
+19. <span data-ttu-id="1f75a-132">展开或折叠“行详细信息”部分。</span><span class="sxs-lookup"><span data-stu-id="1f75a-132">Expand or collapse the Line details section.</span></span>
+20. <span data-ttu-id="1f75a-133">单击“交货”选项卡。</span><span class="sxs-lookup"><span data-stu-id="1f75a-133">Click the Delivery tab.</span></span>
+21. <span data-ttu-id="1f75a-134">在“请求装运日期”字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="1f75a-134">In the Requested ship date field, enter a date.</span></span>
+22. <span data-ttu-id="1f75a-135">在“确认装运日期”字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="1f75a-135">In the Confirmed ship date field, enter a date.</span></span>
+23. <span data-ttu-id="1f75a-136">在“操作窗格”上单击“管理”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-136">On the Action Pane, click Manage.</span></span>
+24. <span data-ttu-id="1f75a-137">单击“信用证”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-137">Click Letter of credit.</span></span>
+25. <span data-ttu-id="1f75a-138">在“银行单据编号”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="1f75a-138">In the Bank document number field, type a value.</span></span>
+26. <span data-ttu-id="1f75a-139">在“到期日期”字段中，输入日期和时间。</span><span class="sxs-lookup"><span data-stu-id="1f75a-139">In the Expiration date field, enter a date and time.</span></span>
+27. <span data-ttu-id="1f75a-140">展开或折叠“银行详细信息”部分。</span><span class="sxs-lookup"><span data-stu-id="1f75a-140">Expand or collapse the Bank details section.</span></span>
+28. <span data-ttu-id="1f75a-141">在“开证银行”字段中，单击下拉按钮打开查找。</span><span class="sxs-lookup"><span data-stu-id="1f75a-141">In the Issuing bank field, click the drop-down button to open the lookup.</span></span>
+29. <span data-ttu-id="1f75a-142">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="1f75a-142">In the list, click the link in the selected row.</span></span>
+30. <span data-ttu-id="1f75a-143">在“通知银行”字段中，单击下拉按钮打开查找。</span><span class="sxs-lookup"><span data-stu-id="1f75a-143">In the Advising bank field, click the drop-down button to open the lookup.</span></span>
+31. <span data-ttu-id="1f75a-144">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="1f75a-144">In the list, find and select the desired record.</span></span>
+32. <span data-ttu-id="1f75a-145">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="1f75a-145">In the list, click the link in the selected row.</span></span>
+33. <span data-ttu-id="1f75a-146">单击“提取订单装运”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-146">Click Fetch sales order shipments.</span></span>
+34. <span data-ttu-id="1f75a-147">单击“开证银行单据”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-147">Click Issue bank document.</span></span>
+35. <span data-ttu-id="1f75a-148">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="1f75a-148">Close the page.</span></span>
 
-## <a name="verify-export-letter-of-credit"></a><span data-ttu-id="7089a-175">核实“导出信用证”</span><span class="sxs-lookup"><span data-stu-id="7089a-175">Verify Export letter of credit</span></span>
-1. <span data-ttu-id="7089a-176">转到现金和银行管理>信用证>导出信用证和导入催款</span><span class="sxs-lookup"><span data-stu-id="7089a-176">Go to Cash and bank management > Letters of credit > Export letter of credit and import collection.</span></span>
-2. <span data-ttu-id="7089a-177">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="7089a-177">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="7089a-178">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="7089a-178">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="7089a-179">核实“导出信用证”的装运状态为“已开发票”。</span><span class="sxs-lookup"><span data-stu-id="7089a-179">Verify that the Export letter of credit has a Shipment status of 'Invoiced'.</span></span>  
+## <a name="post-packing-slip"></a><span data-ttu-id="1f75a-149">过帐“装箱单”</span><span class="sxs-lookup"><span data-stu-id="1f75a-149">Post Packing slip</span></span>
+1. <span data-ttu-id="1f75a-150">在操作窗格中，单击“领料和装箱”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-150">On the Action Pane, click Pick and pack.</span></span>
+2. <span data-ttu-id="1f75a-151">单击“将装箱单过帐”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-151">Click Post packing slip.</span></span>
+3. <span data-ttu-id="1f75a-152">展开或收起“参数”部分。</span><span class="sxs-lookup"><span data-stu-id="1f75a-152">Expand or collapse the Parameters section.</span></span>
+4. <span data-ttu-id="1f75a-153">在“数量”字段中，选择“所有”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-153">In the Quantity field, select 'All'.</span></span>
+5. <span data-ttu-id="1f75a-154">展开或折叠“设置”部分。</span><span class="sxs-lookup"><span data-stu-id="1f75a-154">Expand or collapse the Setup section.</span></span>
+6. <span data-ttu-id="1f75a-155">在“装箱单日期”字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="1f75a-155">In the Packing slip date field, enter a date.</span></span>
+7. <span data-ttu-id="1f75a-156">选择“装运数”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-156">Select the Shipment number.</span></span>
+8. <span data-ttu-id="1f75a-157">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="1f75a-157">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="1f75a-158">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-158">Click OK.</span></span>
+10. <span data-ttu-id="1f75a-159">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-159">Click OK.</span></span>
 
-## <a name="customer-payment"></a><span data-ttu-id="7089a-180">客户 - 付款</span><span class="sxs-lookup"><span data-stu-id="7089a-180">Customer payment</span></span>
-1. <span data-ttu-id="7089a-181">转到“应收帐款”>“付款”>“付款日记帐”。</span><span class="sxs-lookup"><span data-stu-id="7089a-181">Go to Accounts receivable > Payments > Payment journal.</span></span>
-2. <span data-ttu-id="7089a-182">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="7089a-182">Click New.</span></span>
-3. <span data-ttu-id="7089a-183">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="7089a-183">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="7089a-184">在“名称”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="7089a-184">In the Name field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="7089a-185">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="7089a-185">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="7089a-186">单击“行”。</span><span class="sxs-lookup"><span data-stu-id="7089a-186">Click Lines.</span></span>
-7. <span data-ttu-id="7089a-187">在“日期”字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="7089a-187">In the Date field, enter a date.</span></span>
-8. <span data-ttu-id="7089a-188">在“帐户”字段中，指定所需值。</span><span class="sxs-lookup"><span data-stu-id="7089a-188">In the Account field, specify the desired values.</span></span>
-9. <span data-ttu-id="7089a-189">单击“结算”。</span><span class="sxs-lookup"><span data-stu-id="7089a-189">Click Settlement.</span></span>
-10. <span data-ttu-id="7089a-190">选择“总计”标题上的复选框。</span><span class="sxs-lookup"><span data-stu-id="7089a-190">Select the check box on the header of Totals.</span></span>
-    * <span data-ttu-id="7089a-191">说明：设置“显示”字段为“信用证”。</span><span class="sxs-lookup"><span data-stu-id="7089a-191">Note: Set the Show field to 'Letter of credit'.</span></span>  
-11. <span data-ttu-id="7089a-192">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="7089a-192">In the list, find and select the desired record.</span></span>
-12. <span data-ttu-id="7089a-193">选中或取消选择“标记”复选框。</span><span class="sxs-lookup"><span data-stu-id="7089a-193">Select or clear the Mark check box.</span></span>
-13. <span data-ttu-id="7089a-194">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="7089a-194">Click OK.</span></span>
-14. <span data-ttu-id="7089a-195">单击“付款”选项卡。</span><span class="sxs-lookup"><span data-stu-id="7089a-195">Click the Payment tab.</span></span>
-    * <span data-ttu-id="7089a-196">核实“银行单据编号”和“装运数量”的详细信息</span><span class="sxs-lookup"><span data-stu-id="7089a-196">Verify Bank document number and Shipment number details</span></span>  
-15. <span data-ttu-id="7089a-197">单击“过帐”。</span><span class="sxs-lookup"><span data-stu-id="7089a-197">Click Post.</span></span>
+## <a name="post-sales-invoice"></a><span data-ttu-id="1f75a-160">过帐销售发票</span><span class="sxs-lookup"><span data-stu-id="1f75a-160">Post sales invoice</span></span>
+1. <span data-ttu-id="1f75a-161">在操作窗格上，单击“发票”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-161">On the Action Pane, click Invoice.</span></span>
+2. <span data-ttu-id="1f75a-162">单击“发票”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-162">Click Invoice.</span></span>
+3. <span data-ttu-id="1f75a-163">展开或折叠“概述”部分。</span><span class="sxs-lookup"><span data-stu-id="1f75a-163">Expand or collapse the Overview section.</span></span>
+4. <span data-ttu-id="1f75a-164">选择“装运数”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-164">Select the Shipment number.</span></span>
+5. <span data-ttu-id="1f75a-165">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="1f75a-165">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="1f75a-166">展开或折叠“设置”部分。</span><span class="sxs-lookup"><span data-stu-id="1f75a-166">Expand or collapse the Setup section.</span></span>
+7. <span data-ttu-id="1f75a-167">在“发票日期”字段中，输入日期。</span><span class="sxs-lookup"><span data-stu-id="1f75a-167">In the Invoice date field, enter a date.</span></span>
+8. <span data-ttu-id="1f75a-168">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-168">Click OK.</span></span>
+9. <span data-ttu-id="1f75a-169">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-169">Click OK.</span></span>
 
-## <a name="verify-export-letter-of-credit-after-payment"></a><span data-ttu-id="7089a-198">在付款后核实“导出信用证”</span><span class="sxs-lookup"><span data-stu-id="7089a-198">Verify Export letter of credit after payment</span></span>
-1. <span data-ttu-id="7089a-199">转到现金和银行管理>信用证>导出信用证和导入催款</span><span class="sxs-lookup"><span data-stu-id="7089a-199">Go to Cash and bank management > Letters of credit > Export letter of credit and import collection.</span></span>
-2. <span data-ttu-id="7089a-200">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="7089a-200">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="7089a-201">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="7089a-201">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="7089a-202">核实装运状态 = 已收到付款和余额 = 0.00。</span><span class="sxs-lookup"><span data-stu-id="7089a-202">Verify Shipment status = Payment received and balance amount = 0.00.</span></span>  
+## <a name="shipment-document-submitted-status"></a><span data-ttu-id="1f75a-170">装运单据的提交状态</span><span class="sxs-lookup"><span data-stu-id="1f75a-170">Shipment document submitted status</span></span>
+1. <span data-ttu-id="1f75a-171">在“操作窗格”上单击“管理”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-171">On the Action Pane, click Manage.</span></span>
+2. <span data-ttu-id="1f75a-172">单击“信用证”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-172">Click Letter of credit.</span></span>
+3. <span data-ttu-id="1f75a-173">展开或折叠“行”部分。</span><span class="sxs-lookup"><span data-stu-id="1f75a-173">Expand or collapse the Lines section.</span></span>
+    * <span data-ttu-id="1f75a-174">说明：“文件提交”字段应设置为“是”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-174">Note: The 'Document submitted' field should be set to 'Yes'.</span></span>  
 
+## <a name="verify-export-letter-of-credit"></a><span data-ttu-id="1f75a-175">核实“导出信用证”</span><span class="sxs-lookup"><span data-stu-id="1f75a-175">Verify Export letter of credit</span></span>
+1. <span data-ttu-id="1f75a-176">转到现金和银行管理>信用证>导出信用证和导入催款</span><span class="sxs-lookup"><span data-stu-id="1f75a-176">Go to Cash and bank management > Letters of credit > Export letter of credit and import collection.</span></span>
+2. <span data-ttu-id="1f75a-177">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="1f75a-177">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="1f75a-178">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="1f75a-178">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="1f75a-179">核实“导出信用证”的装运状态为“已开发票”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-179">Verify that the Export letter of credit has a Shipment status of 'Invoiced'.</span></span>  
+
+## <a name="customer-payment"></a><span data-ttu-id="1f75a-180">客户 - 付款</span><span class="sxs-lookup"><span data-stu-id="1f75a-180">Customer payment</span></span>
+1. <span data-ttu-id="1f75a-181">转到“应收帐款”>“付款”>“付款日记帐”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-181">Go to Accounts receivable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="1f75a-182">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-182">Click New.</span></span>
+3. <span data-ttu-id="1f75a-183">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="1f75a-183">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="1f75a-184">在“名称”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="1f75a-184">In the Name field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="1f75a-185">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="1f75a-185">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="1f75a-186">单击“行”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-186">Click Lines.</span></span>
+7. <span data-ttu-id="1f75a-187">在“日期”字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="1f75a-187">In the Date field, enter a date.</span></span>
+8. <span data-ttu-id="1f75a-188">在“帐户”字段中，指定所需值。</span><span class="sxs-lookup"><span data-stu-id="1f75a-188">In the Account field, specify the desired values.</span></span>
+9. <span data-ttu-id="1f75a-189">单击“结算”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-189">Click Settlement.</span></span>
+10. <span data-ttu-id="1f75a-190">选择“总计”标题上的复选框。</span><span class="sxs-lookup"><span data-stu-id="1f75a-190">Select the check box on the header of Totals.</span></span>
+    * <span data-ttu-id="1f75a-191">说明：设置“显示”字段为“信用证”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-191">Note: Set the Show field to 'Letter of credit'.</span></span>  
+11. <span data-ttu-id="1f75a-192">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="1f75a-192">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="1f75a-193">选中或取消选择“标记”复选框。</span><span class="sxs-lookup"><span data-stu-id="1f75a-193">Select or clear the Mark check box.</span></span>
+13. <span data-ttu-id="1f75a-194">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-194">Click OK.</span></span>
+14. <span data-ttu-id="1f75a-195">单击“付款”选项卡。</span><span class="sxs-lookup"><span data-stu-id="1f75a-195">Click the Payment tab.</span></span>
+    * <span data-ttu-id="1f75a-196">核实“银行单据编号”和“装运数量”的详细信息</span><span class="sxs-lookup"><span data-stu-id="1f75a-196">Verify Bank document number and Shipment number details</span></span>  
+15. <span data-ttu-id="1f75a-197">单击“过帐”。</span><span class="sxs-lookup"><span data-stu-id="1f75a-197">Click Post.</span></span>
+
+## <a name="verify-export-letter-of-credit-after-payment"></a><span data-ttu-id="1f75a-198">在付款后核实“导出信用证”</span><span class="sxs-lookup"><span data-stu-id="1f75a-198">Verify Export letter of credit after payment</span></span>
+1. <span data-ttu-id="1f75a-199">转到现金和银行管理>信用证>导出信用证和导入催款</span><span class="sxs-lookup"><span data-stu-id="1f75a-199">Go to Cash and bank management > Letters of credit > Export letter of credit and import collection.</span></span>
+2. <span data-ttu-id="1f75a-200">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="1f75a-200">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="1f75a-201">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="1f75a-201">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="1f75a-202">核实装运状态 = 已收到付款和余额 = 0.00。</span><span class="sxs-lookup"><span data-stu-id="1f75a-202">Verify Shipment status = Payment received and balance amount = 0.00.</span></span>  
+
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

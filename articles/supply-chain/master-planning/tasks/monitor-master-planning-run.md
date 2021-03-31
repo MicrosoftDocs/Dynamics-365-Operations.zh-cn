@@ -15,114 +15,117 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cbe2c55ef9e3ed35db30ca927f3472c750c1db5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2dea87ac106e79339b8cb6bb2c28e36e35de4a1a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999798"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226091"
 ---
-# <a name="monitor-a-master-planning-run"></a><span data-ttu-id="97511-103">监控主计划运行</span><span class="sxs-lookup"><span data-stu-id="97511-103">Monitor a master planning run</span></span>
+# <a name="monitor-a-master-planning-run"></a><span data-ttu-id="7111a-103">监控主计划运行</span><span class="sxs-lookup"><span data-stu-id="7111a-103">Monitor a master planning run</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-## <a name="use-a-gantt-chart-to-visualize-master-planning-progress"></a><span data-ttu-id="97511-104">使用甘特图可视化主计划进度</span><span class="sxs-lookup"><span data-stu-id="97511-104">Use a Gantt chart to visualize master planning progress</span></span>
+## <a name="use-a-gantt-chart-to-visualize-master-planning-progress"></a><span data-ttu-id="7111a-104">使用甘特图可视化主计划进度</span><span class="sxs-lookup"><span data-stu-id="7111a-104">Use a Gantt chart to visualize master planning progress</span></span>
 
-<span data-ttu-id="97511-105">在 **查看主计划进度** 页面上，您可以甘特图形式查看历史主计划运行的详细信息。</span><span class="sxs-lookup"><span data-stu-id="97511-105">From the **View master planning progress** page, you can view details of historical master planning runs as a Gantt chart.</span></span> <span data-ttu-id="97511-106">此功能可以帮助您了解在主计划的各个阶段花费的时间。</span><span class="sxs-lookup"><span data-stu-id="97511-106">This functionality can help you understand the time that is spent on the various phases of master planning.</span></span> <span data-ttu-id="97511-107">对于当前的活动计划作业，可以使用 **查看主计划进度** 页面来跟踪进度并查看估计的剩余时间。</span><span class="sxs-lookup"><span data-stu-id="97511-107">For a current active planning job, the **View master planning progress** page can be used to track progress and view the estimated remaining time.</span></span>
+<span data-ttu-id="7111a-105">在 **查看主计划进度** 页面上，您可以甘特图形式查看历史主计划运行的详细信息。</span><span class="sxs-lookup"><span data-stu-id="7111a-105">From the **View master planning progress** page, you can view details of historical master planning runs as a Gantt chart.</span></span> <span data-ttu-id="7111a-106">此功能可以帮助您了解在主计划的各个阶段花费的时间。</span><span class="sxs-lookup"><span data-stu-id="7111a-106">This functionality can help you understand the time that is spent on the various phases of master planning.</span></span> <span data-ttu-id="7111a-107">对于当前的活动计划作业，可以使用 **查看主计划进度** 页面来跟踪进度并查看估计的剩余时间。</span><span class="sxs-lookup"><span data-stu-id="7111a-107">For a current active planning job, the **View master planning progress** page can be used to track progress and view the estimated remaining time.</span></span>
 
-### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a><span data-ttu-id="97511-108">打开和使用主计划进度可视化功能</span><span class="sxs-lookup"><span data-stu-id="97511-108">Turn on and use the Master plan progress visualization feature</span></span>
+### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a><span data-ttu-id="7111a-108">打开和使用主计划进度可视化功能</span><span class="sxs-lookup"><span data-stu-id="7111a-108">Turn on and use the Master plan progress visualization feature</span></span>
 
-<span data-ttu-id="97511-109">要使用此功能，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="97511-109">To use this functionality, follow these steps.</span></span>
+<span data-ttu-id="7111a-109">要使用此功能，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="7111a-109">To use this functionality, follow these steps.</span></span>
 
-1. <span data-ttu-id="97511-110">在 **功能管理** 工作区中的 **新** 选项卡上，在列表中选择 **主计划进度可视化**。</span><span class="sxs-lookup"><span data-stu-id="97511-110">In the **Feature management** workspace, on the **New** tab, select **Master planning progress visualization** in the list.</span></span> <span data-ttu-id="97511-111">如果该功能未出现在 **新** 选项卡上，请查看 **未启用** 和 **所有** 选项卡。</span><span class="sxs-lookup"><span data-stu-id="97511-111">If the feature doesn't appear on the **New** tab, look on the **Not enabled** and **All** tabs.</span></span>
-1. <span data-ttu-id="97511-112">选择 **立即启用**。</span><span class="sxs-lookup"><span data-stu-id="97511-112">Select **Enable now**.</span></span> <span data-ttu-id="97511-113">或者，选择 **时间表**，然后选择要启用该功能的时间。</span><span class="sxs-lookup"><span data-stu-id="97511-113">Alternatively, select **Schedule**, and then select the time when you want the feature to be turned on.</span></span>
+1. <span data-ttu-id="7111a-110">在 **功能管理** 工作区中的 **新** 选项卡上，在列表中选择 **主计划进度可视化**。</span><span class="sxs-lookup"><span data-stu-id="7111a-110">In the **Feature management** workspace, on the **New** tab, select **Master planning progress visualization** in the list.</span></span> <span data-ttu-id="7111a-111">如果该功能未出现在 **新** 选项卡上，请查看 **未启用** 和 **所有** 选项卡。</span><span class="sxs-lookup"><span data-stu-id="7111a-111">If the feature doesn't appear on the **New** tab, look on the **Not enabled** and **All** tabs.</span></span>
+1. <span data-ttu-id="7111a-112">选择 **立即启用**。</span><span class="sxs-lookup"><span data-stu-id="7111a-112">Select **Enable now**.</span></span> <span data-ttu-id="7111a-113">或者，选择 **时间表**，然后选择要启用该功能的时间。</span><span class="sxs-lookup"><span data-stu-id="7111a-113">Alternatively, select **Schedule**, and then select the time when you want the feature to be turned on.</span></span>
 
-<span data-ttu-id="97511-114">**查看主计划进度** 页面可以显示历史计划作业和活动计划作业。</span><span class="sxs-lookup"><span data-stu-id="97511-114">The **View master planning progress** page can display both historical planning jobs and active planning jobs.</span></span> 
+<span data-ttu-id="7111a-114">**查看主计划进度** 页面可以显示历史计划作业和活动计划作业。</span><span class="sxs-lookup"><span data-stu-id="7111a-114">The **View master planning progress** page can display both historical planning jobs and active planning jobs.</span></span> 
 
-<span data-ttu-id="97511-115">要查看历史计划作业，有两个选项。</span><span class="sxs-lookup"><span data-stu-id="97511-115">To view historical planning jobs, there are two options.</span></span> 
+<span data-ttu-id="7111a-115">要查看历史计划作业，有两个选项。</span><span class="sxs-lookup"><span data-stu-id="7111a-115">To view historical planning jobs, there are two options.</span></span> 
 
-1. <span data-ttu-id="97511-116">转到 **主计划 \> 设置 \> 计划 \> 主计划**，然后在操作窗格上选择 **历史记录**。</span><span class="sxs-lookup"><span data-stu-id="97511-116">Go to **Master planning \> Setup \> Plans \> Master plans**, and then, on the Action Pane, select **History**.</span></span> <span data-ttu-id="97511-117">选择所需作业后，选择 **查询**，然后选择 **查看进度**</span><span class="sxs-lookup"><span data-stu-id="97511-117">With the desired job selected, select **Inquiries**,  and then select **View progress**</span></span>
-1. <span data-ttu-id="97511-118">转到 **主计划 \> 工作区 \> 主计划**，在主计划磁贴上，单击 **历史记录**。</span><span class="sxs-lookup"><span data-stu-id="97511-118">Go to **Master planning \> Workspaces \> Master planning**, on the Master planning tile click **History**.</span></span> <span data-ttu-id="97511-119">选择所需作业后，选择 **查询**，然后选择 **查看进度**</span><span class="sxs-lookup"><span data-stu-id="97511-119">With the desired job selected, select **Inquiries**,  and then select **View progress**</span></span>
+1. <span data-ttu-id="7111a-116">转到 **主计划 \> 设置 \> 计划 \> 主计划**，然后在操作窗格上选择 **历史记录**。</span><span class="sxs-lookup"><span data-stu-id="7111a-116">Go to **Master planning \> Setup \> Plans \> Master plans**, and then, on the Action Pane, select **History**.</span></span> <span data-ttu-id="7111a-117">选择所需作业后，选择 **查询**，然后选择 **查看进度**</span><span class="sxs-lookup"><span data-stu-id="7111a-117">With the desired job selected, select **Inquiries**,  and then select **View progress**</span></span>
+1. <span data-ttu-id="7111a-118">转到 **主计划 \> 工作区 \> 主计划**，在主计划磁贴上，单击 **历史记录**。</span><span class="sxs-lookup"><span data-stu-id="7111a-118">Go to **Master planning \> Workspaces \> Master planning**, on the Master planning tile click **History**.</span></span> <span data-ttu-id="7111a-119">选择所需作业后，选择 **查询**，然后选择 **查看进度**</span><span class="sxs-lookup"><span data-stu-id="7111a-119">With the desired job selected, select **Inquiries**,  and then select **View progress**</span></span>
 
-<span data-ttu-id="97511-120">要查看活动计划作业，有两个选项。</span><span class="sxs-lookup"><span data-stu-id="97511-120">To view active planning jobs, there are two options.</span></span> 
-1. <span data-ttu-id="97511-121">转到 **主计划 \> 工作区 \> 主计划**，在操作窗格上，选择 **未完成的计划流程**。</span><span class="sxs-lookup"><span data-stu-id="97511-121">Go to **Master planning \> Workspaces \> Master planning**, on the Action Pane, select **Unfinished planning process**.</span></span> <span data-ttu-id="97511-122">选择所需的作业后，选择 **查询**，然后选择 **查看进度**。</span><span class="sxs-lookup"><span data-stu-id="97511-122">With the desired job selected, select **Inquiries**,  and then select **View progress**.</span></span>
-1. <span data-ttu-id="97511-123">转到 **主计划 \> 工作区 \> 主计划**，在主计划磁贴上，单击 **查看进度**。</span><span class="sxs-lookup"><span data-stu-id="97511-123">Go to **Master planning \> Workspaces \> Master planning**, on the Master planning tile click **View progress**.</span></span> <span data-ttu-id="97511-124">选择所需作业后，选择 **查询**，然后选择 **查看进度**</span><span class="sxs-lookup"><span data-stu-id="97511-124">With the desired job selected, select **Inquiries**,  and then select **View progress**</span></span>
+<span data-ttu-id="7111a-120">要查看活动计划作业，有两个选项。</span><span class="sxs-lookup"><span data-stu-id="7111a-120">To view active planning jobs, there are two options.</span></span> 
+1. <span data-ttu-id="7111a-121">转到 **主计划 \> 工作区 \> 主计划**，在操作窗格上，选择 **未完成的计划流程**。</span><span class="sxs-lookup"><span data-stu-id="7111a-121">Go to **Master planning \> Workspaces \> Master planning**, on the Action Pane, select **Unfinished planning process**.</span></span> <span data-ttu-id="7111a-122">选择所需的作业后，选择 **查询**，然后选择 **查看进度**。</span><span class="sxs-lookup"><span data-stu-id="7111a-122">With the desired job selected, select **Inquiries**,  and then select **View progress**.</span></span>
+1. <span data-ttu-id="7111a-123">转到 **主计划 \> 工作区 \> 主计划**，在主计划磁贴上，单击 **查看进度**。</span><span class="sxs-lookup"><span data-stu-id="7111a-123">Go to **Master planning \> Workspaces \> Master planning**, on the Master planning tile click **View progress**.</span></span> <span data-ttu-id="7111a-124">选择所需作业后，选择 **查询**，然后选择 **查看进度**</span><span class="sxs-lookup"><span data-stu-id="7111a-124">With the desired job selected, select **Inquiries**,  and then select **View progress**</span></span>
 
-<span data-ttu-id="97511-125">请注意，仅当正在处理计划作业时，才能查看活动作业。</span><span class="sxs-lookup"><span data-stu-id="97511-125">Note you can view active jobs only when a planning job is processing.</span></span>
+<span data-ttu-id="7111a-125">请注意，仅当正在处理计划作业时，才能查看活动作业。</span><span class="sxs-lookup"><span data-stu-id="7111a-125">Note you can view active jobs only when a planning job is processing.</span></span>
 
-### <a name="analyze-a-master-planning-job"></a><span data-ttu-id="97511-126">分析主计划作业</span><span class="sxs-lookup"><span data-stu-id="97511-126">Analyze a master planning job</span></span>
+### <a name="analyze-a-master-planning-job"></a><span data-ttu-id="7111a-126">分析主计划作业</span><span class="sxs-lookup"><span data-stu-id="7111a-126">Analyze a master planning job</span></span>
 
-<span data-ttu-id="97511-127">在甘特图中，您可以展开以下每个计划流程以查看所花费时间的其他详细信息：</span><span class="sxs-lookup"><span data-stu-id="97511-127">In the Gantt chart, you can expand each of the following planning processes to view additional details about the time that is spent:</span></span>
+<span data-ttu-id="7111a-127">在甘特图中，您可以展开以下每个计划流程以查看所花费时间的其他详细信息：</span><span class="sxs-lookup"><span data-stu-id="7111a-127">In the Gantt chart, you can expand each of the following planning processes to view additional details about the time that is spent:</span></span>
 
-- <span data-ttu-id="97511-128">正在初始化</span><span class="sxs-lookup"><span data-stu-id="97511-128">Initializing</span></span>
-- <span data-ttu-id="97511-129">正在删除和删除数据</span><span class="sxs-lookup"><span data-stu-id="97511-129">Deleting and inserting data</span></span>
-- <span data-ttu-id="97511-130">覆盖范围计划</span><span class="sxs-lookup"><span data-stu-id="97511-130">Coverage planning</span></span>
-- <span data-ttu-id="97511-131">延迟</span><span class="sxs-lookup"><span data-stu-id="97511-131">Delays</span></span>
-- <span data-ttu-id="97511-132">行动消息</span><span class="sxs-lookup"><span data-stu-id="97511-132">Action messages</span></span>
-- <span data-ttu-id="97511-133">最终完成</span><span class="sxs-lookup"><span data-stu-id="97511-133">Finalization</span></span>
-- <span data-ttu-id="97511-134">自动固定</span><span class="sxs-lookup"><span data-stu-id="97511-134">Auto-firming</span></span>
+- <span data-ttu-id="7111a-128">正在初始化</span><span class="sxs-lookup"><span data-stu-id="7111a-128">Initializing</span></span>
+- <span data-ttu-id="7111a-129">正在删除和删除数据</span><span class="sxs-lookup"><span data-stu-id="7111a-129">Deleting and inserting data</span></span>
+- <span data-ttu-id="7111a-130">覆盖范围计划</span><span class="sxs-lookup"><span data-stu-id="7111a-130">Coverage planning</span></span>
+- <span data-ttu-id="7111a-131">延迟</span><span class="sxs-lookup"><span data-stu-id="7111a-131">Delays</span></span>
+- <span data-ttu-id="7111a-132">行动消息</span><span class="sxs-lookup"><span data-stu-id="7111a-132">Action messages</span></span>
+- <span data-ttu-id="7111a-133">最终完成</span><span class="sxs-lookup"><span data-stu-id="7111a-133">Finalization</span></span>
+- <span data-ttu-id="7111a-134">自动固定</span><span class="sxs-lookup"><span data-stu-id="7111a-134">Auto-firming</span></span>
 
-<span data-ttu-id="97511-135">如果要查看使用操作消息的影响，甘特图是一个有用的工具。</span><span class="sxs-lookup"><span data-stu-id="97511-135">The Gantt chart is a useful tool if you want to view the impact of using action messages.</span></span>
+<span data-ttu-id="7111a-135">如果要查看使用操作消息的影响，甘特图是一个有用的工具。</span><span class="sxs-lookup"><span data-stu-id="7111a-135">The Gantt chart is a useful tool if you want to view the impact of using action messages.</span></span>
 
-#### <a name="navigation-in-the-gantt-chart"></a><span data-ttu-id="97511-136">甘特图中的导航</span><span class="sxs-lookup"><span data-stu-id="97511-136">Navigation in the Gantt chart</span></span>
+#### <a name="navigation-in-the-gantt-chart"></a><span data-ttu-id="7111a-136">甘特图中的导航</span><span class="sxs-lookup"><span data-stu-id="7111a-136">Navigation in the Gantt chart</span></span>
 
-- <span data-ttu-id="97511-137">要展开所选组并显示详细信息，请在树视图中选择加号 (**+**)。</span><span class="sxs-lookup"><span data-stu-id="97511-137">To expand the selected group and show the details, select the plus sign (**+**) in the tree view.</span></span>
-- <span data-ttu-id="97511-138">要折叠选定的组，请在树视图中选择减号 (**–**)。</span><span class="sxs-lookup"><span data-stu-id="97511-138">To collapse the selected group, select the minus sign (**–**) in the tree view.</span></span>
-- <span data-ttu-id="97511-139">您可以使用键盘进行导航。</span><span class="sxs-lookup"><span data-stu-id="97511-139">You can use your keyboard for navigation.</span></span> <span data-ttu-id="97511-140">使用 **向上箭头** 和 **向下箭头** 键在行之间移动。</span><span class="sxs-lookup"><span data-stu-id="97511-140">Use the **Up arrow** and **Down arrow** keys to move between rows.</span></span> <span data-ttu-id="97511-141">使用 **向右箭头** 和 **向左箭头** 键展开和折叠组。</span><span class="sxs-lookup"><span data-stu-id="97511-141">Use the **Right arrow** and **Left arrow** keys to expand and collapse groups.</span></span>
-- <span data-ttu-id="97511-142">要打开或关闭甘特图中的所有级别，请选择 **全部展开** 或 **全部折叠**。</span><span class="sxs-lookup"><span data-stu-id="97511-142">To open or close all levels in the Gantt chart, select **Expand all** or **Collapse all**.</span></span>
-- <span data-ttu-id="97511-143">要查看相关的处理时间，将鼠标悬停在任务上。</span><span class="sxs-lookup"><span data-stu-id="97511-143">To view the related processing time, hover over a task.</span></span> <span data-ttu-id="97511-144">（任务是甘特图中的最低级别。）</span><span class="sxs-lookup"><span data-stu-id="97511-144">(Tasks are the lowest level in the Gantt chart.)</span></span>
+- <span data-ttu-id="7111a-137">要展开所选组并显示详细信息，请在树视图中选择加号 (**+**)。</span><span class="sxs-lookup"><span data-stu-id="7111a-137">To expand the selected group and show the details, select the plus sign (**+**) in the tree view.</span></span>
+- <span data-ttu-id="7111a-138">要折叠选定的组，请在树视图中选择减号 (**–**)。</span><span class="sxs-lookup"><span data-stu-id="7111a-138">To collapse the selected group, select the minus sign (**–**) in the tree view.</span></span>
+- <span data-ttu-id="7111a-139">您可以使用键盘进行导航。</span><span class="sxs-lookup"><span data-stu-id="7111a-139">You can use your keyboard for navigation.</span></span> <span data-ttu-id="7111a-140">使用 **向上箭头** 和 **向下箭头** 键在行之间移动。</span><span class="sxs-lookup"><span data-stu-id="7111a-140">Use the **Up arrow** and **Down arrow** keys to move between rows.</span></span> <span data-ttu-id="7111a-141">使用 **向右箭头** 和 **向左箭头** 键展开和折叠组。</span><span class="sxs-lookup"><span data-stu-id="7111a-141">Use the **Right arrow** and **Left arrow** keys to expand and collapse groups.</span></span>
+- <span data-ttu-id="7111a-142">要打开或关闭甘特图中的所有级别，请选择 **全部展开** 或 **全部折叠**。</span><span class="sxs-lookup"><span data-stu-id="7111a-142">To open or close all levels in the Gantt chart, select **Expand all** or **Collapse all**.</span></span>
+- <span data-ttu-id="7111a-143">要查看相关的处理时间，将鼠标悬停在任务上。</span><span class="sxs-lookup"><span data-stu-id="7111a-143">To view the related processing time, hover over a task.</span></span> <span data-ttu-id="7111a-144">（任务是甘特图中的最低级别。）</span><span class="sxs-lookup"><span data-stu-id="7111a-144">(Tasks are the lowest level in the Gantt chart.)</span></span>
 
-#### <a name="view-an-additional-master-planning-run-to-compare-jobs"></a><span data-ttu-id="97511-145">查看其他主计划运行以比较作业</span><span class="sxs-lookup"><span data-stu-id="97511-145">View an additional master planning run to compare jobs</span></span>
+#### <a name="view-an-additional-master-planning-run-to-compare-jobs"></a><span data-ttu-id="7111a-145">查看其他主计划运行以比较作业</span><span class="sxs-lookup"><span data-stu-id="7111a-145">View an additional master planning run to compare jobs</span></span>
 
-<span data-ttu-id="97511-146">通过在 **显示其他主计划运行** 字段上选择一个主计划作业，您可以在甘特图中查看其他主计划运行并比较两个作业。</span><span class="sxs-lookup"><span data-stu-id="97511-146">By selecting a master planning job on field **Show additional master planning run**, you can view an additional master planning run in the Gantt chart and compare the two jobs.</span></span>
+<span data-ttu-id="7111a-146">通过在 **显示其他主计划运行** 字段上选择一个主计划作业，您可以在甘特图中查看其他主计划运行并比较两个作业。</span><span class="sxs-lookup"><span data-stu-id="7111a-146">By selecting a master planning job on field **Show additional master planning run**, you can view an additional master planning run in the Gantt chart and compare the two jobs.</span></span>
 
-#### <a name="bom-level-display"></a><span data-ttu-id="97511-147">BOM 级别显示</span><span class="sxs-lookup"><span data-stu-id="97511-147">BOM-level display</span></span>
+#### <a name="bom-level-display"></a><span data-ttu-id="7111a-147">BOM 级别显示</span><span class="sxs-lookup"><span data-stu-id="7111a-147">BOM-level display</span></span>
 
-<span data-ttu-id="97511-148">物料清单 (BOM) 级别对于覆盖范围计划、延迟、操作和确认的显示不同。</span><span class="sxs-lookup"><span data-stu-id="97511-148">Bill of materials (BOM) levels are shown differently for coverage planning, delays, actions, and firming.</span></span>
+<span data-ttu-id="7111a-148">物料清单 (BOM) 级别对于覆盖范围计划、延迟、操作和确认的显示不同。</span><span class="sxs-lookup"><span data-stu-id="7111a-148">Bill of materials (BOM) levels are shown differently for coverage planning, delays, actions, and firming.</span></span>
 
-- <span data-ttu-id="97511-149">**覆盖范围计划** – BOM 级别按预期显示。</span><span class="sxs-lookup"><span data-stu-id="97511-149">**Coverage planning** – BOM levels are shown as expected.</span></span> <span data-ttu-id="97511-150">它们从上到下计算。</span><span class="sxs-lookup"><span data-stu-id="97511-150">They are calculated from the top down.</span></span>
+- <span data-ttu-id="7111a-149">**覆盖范围计划** – BOM 级别按预期显示。</span><span class="sxs-lookup"><span data-stu-id="7111a-149">**Coverage planning** – BOM levels are shown as expected.</span></span> <span data-ttu-id="7111a-150">它们从上到下计算。</span><span class="sxs-lookup"><span data-stu-id="7111a-150">They are calculated from the top down.</span></span>
 
-    <span data-ttu-id="97511-151">**示例：** BOM 级别 0、1、2</span><span class="sxs-lookup"><span data-stu-id="97511-151">**Example:** BOM level 0, 1, 2</span></span>
+    <span data-ttu-id="7111a-151">**示例：** BOM 级别 0、1、2</span><span class="sxs-lookup"><span data-stu-id="7111a-151">**Example:** BOM level 0, 1, 2</span></span>
 
-- <span data-ttu-id="97511-152">**延迟** – BOM 级别显示为覆盖范围计划 BOM 级别乘以 –1。</span><span class="sxs-lookup"><span data-stu-id="97511-152">**Delays** – BOM levels are shown as the coverage planning BOM levels multiplied by –1.</span></span> <span data-ttu-id="97511-153">（换句话说，它们有一个负号。）</span><span class="sxs-lookup"><span data-stu-id="97511-153">(In other words, they have a negative sign.)</span></span>
+- <span data-ttu-id="7111a-152">**延迟** – BOM 级别显示为覆盖范围计划 BOM 级别乘以 –1。</span><span class="sxs-lookup"><span data-stu-id="7111a-152">**Delays** – BOM levels are shown as the coverage planning BOM levels multiplied by –1.</span></span> <span data-ttu-id="7111a-153">（换句话说，它们有一个负号。）</span><span class="sxs-lookup"><span data-stu-id="7111a-153">(In other words, they have a negative sign.)</span></span>
 
-    <span data-ttu-id="97511-154">**示例：** BOM 级别 –2、–1、0</span><span class="sxs-lookup"><span data-stu-id="97511-154">**Example:** BOM level –2, –1, 0</span></span>
+    <span data-ttu-id="7111a-154">**示例：** BOM 级别 –2、–1、0</span><span class="sxs-lookup"><span data-stu-id="7111a-154">**Example:** BOM level –2, –1, 0</span></span>
 
-- <span data-ttu-id="97511-155">**操作消息** – BOM 级别按预期显示。</span><span class="sxs-lookup"><span data-stu-id="97511-155">**Action message** – BOM levels are shown as expected.</span></span> <span data-ttu-id="97511-156">它们从上到下计算。</span><span class="sxs-lookup"><span data-stu-id="97511-156">They are calculated from the top down.</span></span>
+- <span data-ttu-id="7111a-155">**操作消息** – BOM 级别按预期显示。</span><span class="sxs-lookup"><span data-stu-id="7111a-155">**Action message** – BOM levels are shown as expected.</span></span> <span data-ttu-id="7111a-156">它们从上到下计算。</span><span class="sxs-lookup"><span data-stu-id="7111a-156">They are calculated from the top down.</span></span>
 
-    <span data-ttu-id="97511-157">**示例：** BOM 级别 0、1、2</span><span class="sxs-lookup"><span data-stu-id="97511-157">**Example:** BOM level 0, 1, 2</span></span>
+    <span data-ttu-id="7111a-157">**示例：** BOM 级别 0、1、2</span><span class="sxs-lookup"><span data-stu-id="7111a-157">**Example:** BOM level 0, 1, 2</span></span>
 
-- <span data-ttu-id="97511-158">**自动确认** – BOM 级别显示为 999 减去覆盖范围计划 BOM 级别。</span><span class="sxs-lookup"><span data-stu-id="97511-158">**Auto-firming** – BOM levels are shown as 999 minus the coverage planning BOM level.</span></span>
+- <span data-ttu-id="7111a-158">**自动确认** – BOM 级别显示为 999 减去覆盖范围计划 BOM 级别。</span><span class="sxs-lookup"><span data-stu-id="7111a-158">**Auto-firming** – BOM levels are shown as 999 minus the coverage planning BOM level.</span></span>
 
-    <span data-ttu-id="97511-159">**示例：** BOM 级别 999、998、997</span><span class="sxs-lookup"><span data-stu-id="97511-159">**Example:** BOM level 999, 998, 997</span></span>
+    <span data-ttu-id="7111a-159">**示例：** BOM 级别 999、998、997</span><span class="sxs-lookup"><span data-stu-id="7111a-159">**Example:** BOM level 999, 998, 997</span></span>
 
-<span data-ttu-id="97511-160">下表汇总了此行为。</span><span class="sxs-lookup"><span data-stu-id="97511-160">The following table summarizes the behavior.</span></span>
+<span data-ttu-id="7111a-160">下表汇总了此行为。</span><span class="sxs-lookup"><span data-stu-id="7111a-160">The following table summarizes the behavior.</span></span>
 
-| <span data-ttu-id="97511-161">显示的 BOM 级别</span><span class="sxs-lookup"><span data-stu-id="97511-161">BOM level that is shown</span></span> | <span data-ttu-id="97511-162">成品</span><span class="sxs-lookup"><span data-stu-id="97511-162">End item</span></span> | <span data-ttu-id="97511-163">子组件</span><span class="sxs-lookup"><span data-stu-id="97511-163">Subcomponent</span></span> | <span data-ttu-id="97511-164">原材料</span><span class="sxs-lookup"><span data-stu-id="97511-164">Raw material</span></span> |
+| <span data-ttu-id="7111a-161">显示的 BOM 级别</span><span class="sxs-lookup"><span data-stu-id="7111a-161">BOM level that is shown</span></span> | <span data-ttu-id="7111a-162">成品</span><span class="sxs-lookup"><span data-stu-id="7111a-162">End item</span></span> | <span data-ttu-id="7111a-163">子组件</span><span class="sxs-lookup"><span data-stu-id="7111a-163">Subcomponent</span></span> | <span data-ttu-id="7111a-164">原材料</span><span class="sxs-lookup"><span data-stu-id="7111a-164">Raw material</span></span> |
 |---|---|---|---|
-| <span data-ttu-id="97511-165">覆盖范围计划</span><span class="sxs-lookup"><span data-stu-id="97511-165">Coverage planning</span></span> | <span data-ttu-id="97511-166">0</span><span class="sxs-lookup"><span data-stu-id="97511-166">0</span></span> | <span data-ttu-id="97511-167">1</span><span class="sxs-lookup"><span data-stu-id="97511-167">1</span></span> | <span data-ttu-id="97511-168">2</span><span class="sxs-lookup"><span data-stu-id="97511-168">2</span></span> |
-| <span data-ttu-id="97511-169">延迟</span><span class="sxs-lookup"><span data-stu-id="97511-169">Delays</span></span> | <span data-ttu-id="97511-170">0</span><span class="sxs-lookup"><span data-stu-id="97511-170">0</span></span> | <span data-ttu-id="97511-171">–1</span><span class="sxs-lookup"><span data-stu-id="97511-171">–1</span></span> | <span data-ttu-id="97511-172">–2</span><span class="sxs-lookup"><span data-stu-id="97511-172">–2</span></span> |
-| <span data-ttu-id="97511-173">行动消息</span><span class="sxs-lookup"><span data-stu-id="97511-173">Action message</span></span> | <span data-ttu-id="97511-174">0</span><span class="sxs-lookup"><span data-stu-id="97511-174">0</span></span> | <span data-ttu-id="97511-175">1</span><span class="sxs-lookup"><span data-stu-id="97511-175">1</span></span> | <span data-ttu-id="97511-176">2</span><span class="sxs-lookup"><span data-stu-id="97511-176">2</span></span> |
-| <span data-ttu-id="97511-177">自动固定</span><span class="sxs-lookup"><span data-stu-id="97511-177">Auto-firming</span></span> | <span data-ttu-id="97511-178">999</span><span class="sxs-lookup"><span data-stu-id="97511-178">999</span></span> | <span data-ttu-id="97511-179">998</span><span class="sxs-lookup"><span data-stu-id="97511-179">998</span></span> | <span data-ttu-id="97511-180">997</span><span class="sxs-lookup"><span data-stu-id="97511-180">997</span></span> |
+| <span data-ttu-id="7111a-165">覆盖范围计划</span><span class="sxs-lookup"><span data-stu-id="7111a-165">Coverage planning</span></span> | <span data-ttu-id="7111a-166">0</span><span class="sxs-lookup"><span data-stu-id="7111a-166">0</span></span> | <span data-ttu-id="7111a-167">1</span><span class="sxs-lookup"><span data-stu-id="7111a-167">1</span></span> | <span data-ttu-id="7111a-168">2</span><span class="sxs-lookup"><span data-stu-id="7111a-168">2</span></span> |
+| <span data-ttu-id="7111a-169">延迟</span><span class="sxs-lookup"><span data-stu-id="7111a-169">Delays</span></span> | <span data-ttu-id="7111a-170">0</span><span class="sxs-lookup"><span data-stu-id="7111a-170">0</span></span> | <span data-ttu-id="7111a-171">–1</span><span class="sxs-lookup"><span data-stu-id="7111a-171">–1</span></span> | <span data-ttu-id="7111a-172">–2</span><span class="sxs-lookup"><span data-stu-id="7111a-172">–2</span></span> |
+| <span data-ttu-id="7111a-173">行动消息</span><span class="sxs-lookup"><span data-stu-id="7111a-173">Action message</span></span> | <span data-ttu-id="7111a-174">0</span><span class="sxs-lookup"><span data-stu-id="7111a-174">0</span></span> | <span data-ttu-id="7111a-175">1</span><span class="sxs-lookup"><span data-stu-id="7111a-175">1</span></span> | <span data-ttu-id="7111a-176">2</span><span class="sxs-lookup"><span data-stu-id="7111a-176">2</span></span> |
+| <span data-ttu-id="7111a-177">自动固定</span><span class="sxs-lookup"><span data-stu-id="7111a-177">Auto-firming</span></span> | <span data-ttu-id="7111a-178">999</span><span class="sxs-lookup"><span data-stu-id="7111a-178">999</span></span> | <span data-ttu-id="7111a-179">998</span><span class="sxs-lookup"><span data-stu-id="7111a-179">998</span></span> | <span data-ttu-id="7111a-180">997</span><span class="sxs-lookup"><span data-stu-id="7111a-180">997</span></span> |
 
-#### <a name="visualize-progress"></a><span data-ttu-id="97511-181">可视化进度</span><span class="sxs-lookup"><span data-stu-id="97511-181">Visualize progress</span></span>
+#### <a name="visualize-progress"></a><span data-ttu-id="7111a-181">可视化进度</span><span class="sxs-lookup"><span data-stu-id="7111a-181">Visualize progress</span></span>
 
-<span data-ttu-id="97511-182">如果查看当前正在运行的主计划作业，进度将通过甘特图中的颜色显示。</span><span class="sxs-lookup"><span data-stu-id="97511-182">If you view a master planning job that is currently running, progress is shown through colors in the Gantt chart.</span></span> <span data-ttu-id="97511-183">以下颜色适用于蓝色主题。</span><span class="sxs-lookup"><span data-stu-id="97511-183">The following colors apply to the blue theme.</span></span> <span data-ttu-id="97511-184">对于其他颜色主题，颜色将不同。</span><span class="sxs-lookup"><span data-stu-id="97511-184">For other color themes, the colors will differ.</span></span>
+<span data-ttu-id="7111a-182">如果查看当前正在运行的主计划作业，进度将通过甘特图中的颜色显示。</span><span class="sxs-lookup"><span data-stu-id="7111a-182">If you view a master planning job that is currently running, progress is shown through colors in the Gantt chart.</span></span> <span data-ttu-id="7111a-183">以下颜色适用于蓝色主题。</span><span class="sxs-lookup"><span data-stu-id="7111a-183">The following colors apply to the blue theme.</span></span> <span data-ttu-id="7111a-184">对于其他颜色主题，颜色将不同。</span><span class="sxs-lookup"><span data-stu-id="7111a-184">For other color themes, the colors will differ.</span></span>
 
-- <span data-ttu-id="97511-185">**深蓝色** – 完成的计划任务。</span><span class="sxs-lookup"><span data-stu-id="97511-185">**Dark blue** – Completed planning tasks.</span></span>
-- <span data-ttu-id="97511-186">**橙色** – 当前正在进行的任务。</span><span class="sxs-lookup"><span data-stu-id="97511-186">**Orange** – The task that is currently in progress.</span></span>
-- <span data-ttu-id="97511-187">**浅蓝色** – 剩余任务的估计值。</span><span class="sxs-lookup"><span data-stu-id="97511-187">**Light blue** – The estimate for remaining tasks.</span></span>
+- <span data-ttu-id="7111a-185">**深蓝色** – 完成的计划任务。</span><span class="sxs-lookup"><span data-stu-id="7111a-185">**Dark blue** – Completed planning tasks.</span></span>
+- <span data-ttu-id="7111a-186">**橙色** – 当前正在进行的任务。</span><span class="sxs-lookup"><span data-stu-id="7111a-186">**Orange** – The task that is currently in progress.</span></span>
+- <span data-ttu-id="7111a-187">**浅蓝色** – 剩余任务的估计值。</span><span class="sxs-lookup"><span data-stu-id="7111a-187">**Light blue** – The estimate for remaining tasks.</span></span>
 
-<span data-ttu-id="97511-188">颜色仅在甘特图的最低级别上显示。</span><span class="sxs-lookup"><span data-stu-id="97511-188">The color is shown only on the lowest level in the Gantt chart.</span></span> <span data-ttu-id="97511-189">选择 **全部展开** 可以查看主计划作业中的所有任务。</span><span class="sxs-lookup"><span data-stu-id="97511-189">Select **Expand all** to view all tasks in the master planning job.</span></span> <span data-ttu-id="97511-190">剩余任务的估计基于历史主计划作业。</span><span class="sxs-lookup"><span data-stu-id="97511-190">The estimate of remaining tasks is based on historical master planning jobs.</span></span>
+<span data-ttu-id="7111a-188">颜色仅在甘特图的最低级别上显示。</span><span class="sxs-lookup"><span data-stu-id="7111a-188">The color is shown only on the lowest level in the Gantt chart.</span></span> <span data-ttu-id="7111a-189">选择 **全部展开** 可以查看主计划作业中的所有任务。</span><span class="sxs-lookup"><span data-stu-id="7111a-189">Select **Expand all** to view all tasks in the master planning job.</span></span> <span data-ttu-id="7111a-190">剩余任务的估计基于历史主计划作业。</span><span class="sxs-lookup"><span data-stu-id="7111a-190">The estimate of remaining tasks is based on historical master planning jobs.</span></span>
 
-## <a name="run-master-planning-and-track-processing-time"></a><span data-ttu-id="97511-191">运行主计划和跟踪处理时间</span><span class="sxs-lookup"><span data-stu-id="97511-191">Run master planning and track processing time</span></span>
+## <a name="run-master-planning-and-track-processing-time"></a><span data-ttu-id="7111a-191">运行主计划和跟踪处理时间</span><span class="sxs-lookup"><span data-stu-id="7111a-191">Run master planning and track processing time</span></span>
 
-1. <span data-ttu-id="97511-192">在默认仪表板上，选择 **主计划**。</span><span class="sxs-lookup"><span data-stu-id="97511-192">On the default dashboard, select **Master planning**.</span></span>
-1. <span data-ttu-id="97511-193">在 **计划** 字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="97511-193">In the **Plan** field, enter or select a value.</span></span>
-1. <span data-ttu-id="97511-194">选择 **运行**。</span><span class="sxs-lookup"><span data-stu-id="97511-194">Select **Run**.</span></span>
-1. <span data-ttu-id="97511-195">将 **跟踪处理时间** 选项设置为 **是**。</span><span class="sxs-lookup"><span data-stu-id="97511-195">Set the **Track processing time** option to **Yes**.</span></span>
-1. <span data-ttu-id="97511-196">在 **线程数** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="97511-196">In the **Number of threads** field, enter a number.</span></span>
-1. <span data-ttu-id="97511-197">在 **要包括的记录** 快速选项卡中，选择 **筛选**。</span><span class="sxs-lookup"><span data-stu-id="97511-197">On the **Records to include** FastTab, select **Filter**.</span></span>
-1. <span data-ttu-id="97511-198">在网格中，选择将 **现场** 字段设置为 **物料编号** 的行。</span><span class="sxs-lookup"><span data-stu-id="97511-198">In the grid, select the row where the **Field** field is set to **Item number**.</span></span>
-1. <span data-ttu-id="97511-199">在 **条件** 字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="97511-199">In the **Criteria** field, enter a value.</span></span>
-1. <span data-ttu-id="97511-200">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="97511-200">Select **OK**.</span></span>
+1. <span data-ttu-id="7111a-192">在默认仪表板上，选择 **主计划**。</span><span class="sxs-lookup"><span data-stu-id="7111a-192">On the default dashboard, select **Master planning**.</span></span>
+1. <span data-ttu-id="7111a-193">在 **计划** 字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="7111a-193">In the **Plan** field, enter or select a value.</span></span>
+1. <span data-ttu-id="7111a-194">选择 **运行**。</span><span class="sxs-lookup"><span data-stu-id="7111a-194">Select **Run**.</span></span>
+1. <span data-ttu-id="7111a-195">将 **跟踪处理时间** 选项设置为 **是**。</span><span class="sxs-lookup"><span data-stu-id="7111a-195">Set the **Track processing time** option to **Yes**.</span></span>
+1. <span data-ttu-id="7111a-196">在 **线程数** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="7111a-196">In the **Number of threads** field, enter a number.</span></span>
+1. <span data-ttu-id="7111a-197">在 **要包括的记录** 快速选项卡中，选择 **筛选**。</span><span class="sxs-lookup"><span data-stu-id="7111a-197">On the **Records to include** FastTab, select **Filter**.</span></span>
+1. <span data-ttu-id="7111a-198">在网格中，选择将 **现场** 字段设置为 **物料编号** 的行。</span><span class="sxs-lookup"><span data-stu-id="7111a-198">In the grid, select the row where the **Field** field is set to **Item number**.</span></span>
+1. <span data-ttu-id="7111a-199">在 **条件** 字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="7111a-199">In the **Criteria** field, enter a value.</span></span>
+1. <span data-ttu-id="7111a-200">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="7111a-200">Select **OK**.</span></span>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
