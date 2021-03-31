@@ -15,30 +15,33 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9259c9bbf52c1c09a7092db6976fc3fabca6601
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 426a5e42c1fc26958ab37eddd915334f8b0e19cc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990431"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205020"
 ---
-# <a name="propose-fixed-asset-acquisitions"></a><span data-ttu-id="26b5f-103">建议固定资产购置</span><span class="sxs-lookup"><span data-stu-id="26b5f-103">Propose fixed asset acquisitions</span></span>
+# <a name="propose-fixed-asset-acquisitions"></a><span data-ttu-id="e49fe-103">建议固定资产购置</span><span class="sxs-lookup"><span data-stu-id="e49fe-103">Propose fixed asset acquisitions</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="26b5f-104">本主题介绍如何使用固定资产日记帐中的购置方案购置固定资产。</span><span class="sxs-lookup"><span data-stu-id="26b5f-104">This topic describes how to acquire a fixed asset using the acquisition proposal in the Fixed assets journal.</span></span> <span data-ttu-id="26b5f-105">它为 USMF 法人实体使用会计角色和演示数据。</span><span class="sxs-lookup"><span data-stu-id="26b5f-105">It uses the accountant role and demo data for the USMF legal entity.</span></span> <span data-ttu-id="26b5f-106">要通过固定资产建议日记帐获取固定资产，必须首先创建固定资产记录，然后在资产帐簿中定义购置价格。</span><span class="sxs-lookup"><span data-stu-id="26b5f-106">To acquire a fixed asset through a fixed asset proposal journal, you must first create the fixed asset record, and then define the acquisition price in the asset book.</span></span>
+<span data-ttu-id="e49fe-104">本主题介绍如何使用固定资产日记帐中的购置方案购置固定资产。</span><span class="sxs-lookup"><span data-stu-id="e49fe-104">This topic describes how to acquire a fixed asset using the acquisition proposal in the Fixed assets journal.</span></span> <span data-ttu-id="e49fe-105">它为 USMF 法人实体使用会计角色和演示数据。</span><span class="sxs-lookup"><span data-stu-id="e49fe-105">It uses the accountant role and demo data for the USMF legal entity.</span></span> <span data-ttu-id="e49fe-106">要通过固定资产建议日记帐获取固定资产，必须首先创建固定资产记录，然后在资产帐簿中定义购置价格。</span><span class="sxs-lookup"><span data-stu-id="e49fe-106">To acquire a fixed asset through a fixed asset proposal journal, you must first create the fixed asset record, and then define the acquisition price in the asset book.</span></span>
 
-1. <span data-ttu-id="26b5f-107">在导航窗格中，转到 **模块 > 固定资产 > 日记帐条目 > 固定资产日记帐**。</span><span class="sxs-lookup"><span data-stu-id="26b5f-107">In the navigation pane, go to **Modules > Fixed assets > Journal entries > Fixed assets journal**.</span></span>
-2. <span data-ttu-id="26b5f-108">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="26b5f-108">Select **New**.</span></span>
-3. <span data-ttu-id="26b5f-109">在 **名称** 字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="26b5f-109">In the **Name** field, enter or select a value.</span></span>
-4. <span data-ttu-id="26b5f-110">在操作窗格中，选择 **行**。</span><span class="sxs-lookup"><span data-stu-id="26b5f-110">In the action pane, select **Lines**.</span></span>
-5. <span data-ttu-id="26b5f-111">选择 **方案**。</span><span class="sxs-lookup"><span data-stu-id="26b5f-111">Select **Proposals**.</span></span>
-6. <span data-ttu-id="26b5f-112">选择 **购置方案**。</span><span class="sxs-lookup"><span data-stu-id="26b5f-112">Select **Acquisition proposal**.</span></span>
-7. <span data-ttu-id="26b5f-113">选择 **筛选器**。</span><span class="sxs-lookup"><span data-stu-id="26b5f-113">Select **Filter**.</span></span> <span data-ttu-id="26b5f-114">选择 **重置** 以清除先前值。</span><span class="sxs-lookup"><span data-stu-id="26b5f-114">Select **Reset** to clear out previous values.</span></span>
-8. <span data-ttu-id="26b5f-115">选择 **固定资产编号** 行。</span><span class="sxs-lookup"><span data-stu-id="26b5f-115">Select the **Fixed asset number** row.</span></span>
-9. <span data-ttu-id="26b5f-116">在 **标准** 字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="26b5f-116">In the **Criteria** field, enter or select a value.</span></span> <span data-ttu-id="26b5f-117">为您想要以此方案购置的固定资产设置其他条件。</span><span class="sxs-lookup"><span data-stu-id="26b5f-117">Set the remaining criteria for the fixed assets that you want to acquire with this proposal.</span></span>  
-10. <span data-ttu-id="26b5f-118">选择 **确定** 两次退出窗格。</span><span class="sxs-lookup"><span data-stu-id="26b5f-118">Select **OK** twice to exit out of the pane.</span></span>
-- <span data-ttu-id="26b5f-119">验证已创建的交易记录行。</span><span class="sxs-lookup"><span data-stu-id="26b5f-119">Verify the transaction lines created.</span></span>  
-- <span data-ttu-id="26b5f-120">只有在帐簿中设置了购置日期和购置价格的固定资产才会包含在购置方案中。</span><span class="sxs-lookup"><span data-stu-id="26b5f-120">Only fixed assets with the acquisition date and acquisition price set on the book will be included in the acquisition proposal.</span></span>  
-11. <span data-ttu-id="26b5f-121">在页面上，选择 **帐簿** 选项卡。</span><span class="sxs-lookup"><span data-stu-id="26b5f-121">On the page, select the **Books** tab.</span></span>
-12. <span data-ttu-id="26b5f-122">选择 **过帐**。</span><span class="sxs-lookup"><span data-stu-id="26b5f-122">Select **Post**.</span></span>
+1. <span data-ttu-id="e49fe-107">在导航窗格中，转到 **模块 > 固定资产 > 日记帐条目 > 固定资产日记帐**。</span><span class="sxs-lookup"><span data-stu-id="e49fe-107">In the navigation pane, go to **Modules > Fixed assets > Journal entries > Fixed assets journal**.</span></span>
+2. <span data-ttu-id="e49fe-108">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="e49fe-108">Select **New**.</span></span>
+3. <span data-ttu-id="e49fe-109">在 **名称** 字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="e49fe-109">In the **Name** field, enter or select a value.</span></span>
+4. <span data-ttu-id="e49fe-110">在操作窗格中，选择 **行**。</span><span class="sxs-lookup"><span data-stu-id="e49fe-110">In the action pane, select **Lines**.</span></span>
+5. <span data-ttu-id="e49fe-111">选择 **方案**。</span><span class="sxs-lookup"><span data-stu-id="e49fe-111">Select **Proposals**.</span></span>
+6. <span data-ttu-id="e49fe-112">选择 **购置方案**。</span><span class="sxs-lookup"><span data-stu-id="e49fe-112">Select **Acquisition proposal**.</span></span>
+7. <span data-ttu-id="e49fe-113">选择 **筛选器**。</span><span class="sxs-lookup"><span data-stu-id="e49fe-113">Select **Filter**.</span></span> <span data-ttu-id="e49fe-114">选择 **重置** 以清除先前值。</span><span class="sxs-lookup"><span data-stu-id="e49fe-114">Select **Reset** to clear out previous values.</span></span>
+8. <span data-ttu-id="e49fe-115">选择 **固定资产编号** 行。</span><span class="sxs-lookup"><span data-stu-id="e49fe-115">Select the **Fixed asset number** row.</span></span>
+9. <span data-ttu-id="e49fe-116">在 **标准** 字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="e49fe-116">In the **Criteria** field, enter or select a value.</span></span> <span data-ttu-id="e49fe-117">为您想要以此方案购置的固定资产设置其他条件。</span><span class="sxs-lookup"><span data-stu-id="e49fe-117">Set the remaining criteria for the fixed assets that you want to acquire with this proposal.</span></span>  
+10. <span data-ttu-id="e49fe-118">选择 **确定** 两次退出窗格。</span><span class="sxs-lookup"><span data-stu-id="e49fe-118">Select **OK** twice to exit out of the pane.</span></span>
+- <span data-ttu-id="e49fe-119">验证已创建的交易记录行。</span><span class="sxs-lookup"><span data-stu-id="e49fe-119">Verify the transaction lines created.</span></span>  
+- <span data-ttu-id="e49fe-120">只有在帐簿中设置了购置日期和购置价格的固定资产才会包含在购置方案中。</span><span class="sxs-lookup"><span data-stu-id="e49fe-120">Only fixed assets with the acquisition date and acquisition price set on the book will be included in the acquisition proposal.</span></span>  
+11. <span data-ttu-id="e49fe-121">在页面上，选择 **帐簿** 选项卡。</span><span class="sxs-lookup"><span data-stu-id="e49fe-121">On the page, select the **Books** tab.</span></span>
+12. <span data-ttu-id="e49fe-122">选择 **过帐**。</span><span class="sxs-lookup"><span data-stu-id="e49fe-122">Select **Post**.</span></span>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

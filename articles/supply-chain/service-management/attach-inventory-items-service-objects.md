@@ -17,36 +17,39 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41df8e540f36ee6e2fbc5727fb86fff14fc51067
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cbd583605553ec80362d163db4b35431ab98f4ad
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974727"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205825"
 ---
-# <a name="attach-inventory-items-to-service-objects"></a><span data-ttu-id="a7321-103">将库存物料附加到服务对象</span><span class="sxs-lookup"><span data-stu-id="a7321-103">Attach inventory items to service objects</span></span>    
+# <a name="attach-inventory-items-to-service-objects"></a><span data-ttu-id="11b4f-103">将库存物料附加到服务对象</span><span class="sxs-lookup"><span data-stu-id="11b4f-103">Attach inventory items to service objects</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="a7321-104">本主题说明如何将库存物料附加到服务对象。</span><span class="sxs-lookup"><span data-stu-id="a7321-104">This topic explains how to attach an inventory item to a service object.</span></span> <span data-ttu-id="a7321-105">当您将物料附加到服务对象时，可以控制并报告为物料执行的服务活动。</span><span class="sxs-lookup"><span data-stu-id="a7321-105">When you attach an item to a service object, you can control and report the service activities that are performed for the item.</span></span>
+<span data-ttu-id="11b4f-104">本主题说明如何将库存物料附加到服务对象。</span><span class="sxs-lookup"><span data-stu-id="11b4f-104">This topic explains how to attach an inventory item to a service object.</span></span> <span data-ttu-id="11b4f-105">当您将物料附加到服务对象时，可以控制并报告为物料执行的服务活动。</span><span class="sxs-lookup"><span data-stu-id="11b4f-105">When you attach an item to a service object, you can control and report the service activities that are performed for the item.</span></span>
 
-<span data-ttu-id="a7321-106">在您可以将物料附加到服务对象前，必须在 **已发布产品详细信息** 窗体中创建这些物料。</span><span class="sxs-lookup"><span data-stu-id="a7321-106">Before you can attach items to service objects, you must create the items in the **Released product details** form.</span></span> 
+<span data-ttu-id="11b4f-106">在您可以将物料附加到服务对象前，必须在 **已发布产品详细信息** 窗体中创建这些物料。</span><span class="sxs-lookup"><span data-stu-id="11b4f-106">Before you can attach items to service objects, you must create the items in the **Released product details** form.</span></span> 
 
-<span data-ttu-id="a7321-107">使用以下步骤将库存物料附加到服务对象：</span><span class="sxs-lookup"><span data-stu-id="a7321-107">Use the following steps to attach an inventory item to a service object:</span></span>
+<span data-ttu-id="11b4f-107">使用以下步骤将库存物料附加到服务对象：</span><span class="sxs-lookup"><span data-stu-id="11b4f-107">Use the following steps to attach an inventory item to a service object:</span></span>
 
-1.  <span data-ttu-id="a7321-108">单击 **服务管理** \> **设置** \> **服务对象** \> **服务对象**。</span><span class="sxs-lookup"><span data-stu-id="a7321-108">Click **Service management** \> **Setup** \> **Service objects** \> **Service objects**.</span></span>
+1.  <span data-ttu-id="11b4f-108">单击 **服务管理** \> **设置** \> **服务对象** \> **服务对象**。</span><span class="sxs-lookup"><span data-stu-id="11b4f-108">Click **Service management** \> **Setup** \> **Service objects** \> **Service objects**.</span></span>
 
-2.  <span data-ttu-id="a7321-109">在 **物料编号** 字段中，选择要附加到服务对象的物料。</span><span class="sxs-lookup"><span data-stu-id="a7321-109">In the **Item number** field, select the item to attach to the service object.</span></span>
+2.  <span data-ttu-id="11b4f-109">在 **物料编号** 字段中，选择要附加到服务对象的物料。</span><span class="sxs-lookup"><span data-stu-id="11b4f-109">In the **Item number** field, select the item to attach to the service object.</span></span>
 
-3.  <span data-ttu-id="a7321-110">保存服务对象。</span><span class="sxs-lookup"><span data-stu-id="a7321-110">Save the service object.</span></span>
+3.  <span data-ttu-id="11b4f-110">保存服务对象。</span><span class="sxs-lookup"><span data-stu-id="11b4f-110">Save the service object.</span></span>
 
-<span data-ttu-id="a7321-111">物料现在将附加到服务对象，并且为该物料指定的所有库存维度也将复制到该服务对象。</span><span class="sxs-lookup"><span data-stu-id="a7321-111">The item is now attached to the service object, and any inventory dimensions specified for the item are also copied to the service object.</span></span>
+<span data-ttu-id="11b4f-111">物料现在将附加到服务对象，并且为该物料指定的所有库存维度也将复制到该服务对象。</span><span class="sxs-lookup"><span data-stu-id="11b4f-111">The item is now attached to the service object, and any inventory dimensions specified for the item are also copied to the service object.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a7321-112">请参阅</span><span class="sxs-lookup"><span data-stu-id="a7321-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="11b4f-112">请参阅</span><span class="sxs-lookup"><span data-stu-id="11b4f-112">See also</span></span>
 
-[<span data-ttu-id="a7321-113">服务对象概览</span><span class="sxs-lookup"><span data-stu-id="a7321-113">Service objects overview</span></span>](service-objects.md)
+[<span data-ttu-id="11b4f-113">服务对象概览</span><span class="sxs-lookup"><span data-stu-id="11b4f-113">Service objects overview</span></span>](service-objects.md)
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

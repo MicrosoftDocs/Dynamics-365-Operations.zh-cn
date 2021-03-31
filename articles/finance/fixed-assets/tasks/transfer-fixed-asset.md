@@ -15,35 +15,38 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a0770011a76b1e4cc8b4d13e54fab2d0fba43f8a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 365fa7a54dcf6817f933c0d305561c5fd0f8ba27
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975907"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213476"
 ---
-# <a name="transfer-a-fixed-asset"></a><span data-ttu-id="a66c6-103">转移固定资产</span><span class="sxs-lookup"><span data-stu-id="a66c6-103">Transfer a fixed asset</span></span>
+# <a name="transfer-a-fixed-asset"></a><span data-ttu-id="2e217-103">转移固定资产</span><span class="sxs-lookup"><span data-stu-id="2e217-103">Transfer a fixed asset</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a66c6-104">此任务指南将一个固定资产帐簿的财务信息从一个财务维度转移到一个新的财务维度集。</span><span class="sxs-lookup"><span data-stu-id="a66c6-104">This task guide will transfer the financial information for a fixed asset book from one financial dimension set to a new financial dimension set.</span></span>  <span data-ttu-id="a66c6-105">它为 USMF 法人实体使用会计角色和演示数据。</span><span class="sxs-lookup"><span data-stu-id="a66c6-105">It uses the Accountant role and demo data for the USMF legal entity.</span></span>
+<span data-ttu-id="2e217-104">此任务指南将一个固定资产帐簿的财务信息从一个财务维度转移到一个新的财务维度集。</span><span class="sxs-lookup"><span data-stu-id="2e217-104">This task guide will transfer the financial information for a fixed asset book from one financial dimension set to a new financial dimension set.</span></span>  <span data-ttu-id="2e217-105">它为 USMF 法人实体使用会计角色和演示数据。</span><span class="sxs-lookup"><span data-stu-id="2e217-105">It uses the Accountant role and demo data for the USMF legal entity.</span></span>
 
-1. <span data-ttu-id="a66c6-106">在导航窗格中，转到 **模块 > 固定资产 > 固定资产 > 固定资产**。</span><span class="sxs-lookup"><span data-stu-id="a66c6-106">In the Navigation pane, go to **Modules > Fixed assets > Fixed assets > Fixed assets**.</span></span>
-2. <span data-ttu-id="a66c6-107">在列表中，查找并选择要转移的固定资产。</span><span class="sxs-lookup"><span data-stu-id="a66c6-107">In the list, find and select the fixed asset to transfer.</span></span>
-3. <span data-ttu-id="a66c6-108">在操作窗格上，单击 **固定资产**。</span><span class="sxs-lookup"><span data-stu-id="a66c6-108">On the Action Pane, click **Fixed asset**.</span></span>
-4. <span data-ttu-id="a66c6-109">单击 **转移固定资产**。</span><span class="sxs-lookup"><span data-stu-id="a66c6-109">Click **Transfer fixed assets**.</span></span>
-5. <span data-ttu-id="a66c6-110">在 **转移日期** 字段中，输入日期。</span><span class="sxs-lookup"><span data-stu-id="a66c6-110">In the **Transfer date** field, enter a date.</span></span>
-6. <span data-ttu-id="a66c6-111">输入注释以对转移进行描述。</span><span class="sxs-lookup"><span data-stu-id="a66c6-111">Enter comments to describe the transfer.</span></span>
+1. <span data-ttu-id="2e217-106">在导航窗格中，转到 **模块 > 固定资产 > 固定资产 > 固定资产**。</span><span class="sxs-lookup"><span data-stu-id="2e217-106">In the Navigation pane, go to **Modules > Fixed assets > Fixed assets > Fixed assets**.</span></span>
+2. <span data-ttu-id="2e217-107">在列表中，查找并选择要转移的固定资产。</span><span class="sxs-lookup"><span data-stu-id="2e217-107">In the list, find and select the fixed asset to transfer.</span></span>
+3. <span data-ttu-id="2e217-108">在操作窗格上，单击 **固定资产**。</span><span class="sxs-lookup"><span data-stu-id="2e217-108">On the Action Pane, click **Fixed asset**.</span></span>
+4. <span data-ttu-id="2e217-109">单击 **转移固定资产**。</span><span class="sxs-lookup"><span data-stu-id="2e217-109">Click **Transfer fixed assets**.</span></span>
+5. <span data-ttu-id="2e217-110">在 **转移日期** 字段中，输入日期。</span><span class="sxs-lookup"><span data-stu-id="2e217-110">In the **Transfer date** field, enter a date.</span></span>
+6. <span data-ttu-id="2e217-111">输入注释以对转移进行描述。</span><span class="sxs-lookup"><span data-stu-id="2e217-111">Enter comments to describe the transfer.</span></span>
     
-    <span data-ttu-id="a66c6-112">此列表显示固定资产所有帐簿。</span><span class="sxs-lookup"><span data-stu-id="a66c6-112">This list shows all books for the fixed asset.</span></span>  
-7. <span data-ttu-id="a66c6-113">标记要转移到新财务维度集的帐簿。</span><span class="sxs-lookup"><span data-stu-id="a66c6-113">Mark the books you want to transfer to a new financial dimension set.</span></span>
-    * <span data-ttu-id="a66c6-114">此列表显示所选帐簿的现有财务维度值。</span><span class="sxs-lookup"><span data-stu-id="a66c6-114">This list shows the existing financial dimension values for the selected book.</span></span>  
-    * <span data-ttu-id="a66c6-115">选择要为所选固定资产帐簿更新的财务维度。</span><span class="sxs-lookup"><span data-stu-id="a66c6-115">Select the financial dimension you want to update for the selected fixed asset book.</span></span>  
-8. <span data-ttu-id="a66c6-116">在 **财务维度** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="a66c6-116">In the **Financial dimension** field, click the drop down button to open the lookup.</span></span>
-    * <span data-ttu-id="a66c6-117">根据需要设置其他财务维度值。</span><span class="sxs-lookup"><span data-stu-id="a66c6-117">Set other financial dimension values as appropriate.</span></span>  
-    * <span data-ttu-id="a66c6-118">当交易发生时，无论是否输入值，所有财务维度值都会更改。</span><span class="sxs-lookup"><span data-stu-id="a66c6-118">All financial dimension values change when a transfer occurs, whether a value has been entered or left blank.</span></span> <span data-ttu-id="a66c6-119">例如，如果您为 BusinessUnit 输入了值，而将 CostCenter 和财务维度留为空白。</span><span class="sxs-lookup"><span data-stu-id="a66c6-119">For example, if you entered a value for the BusinessUnit and left the CostCenter and Department financial dimensions blank.</span></span> <span data-ttu-id="a66c6-120">如果您的科目结构允许将 CostCenter 和部门值留为空白，交易发生后，每个价值模型中的 BusinessUnit 都会有新值，而 CostCenter 和部门则仍为空值。</span><span class="sxs-lookup"><span data-stu-id="a66c6-120">If your account structure allows blank values for CostCenter and Department, the transfer would result in each value model having the new value for BusinessUnit and a blank value for CostCenter and Department.</span></span>  
-9. <span data-ttu-id="a66c6-121">单击 **更新**。</span><span class="sxs-lookup"><span data-stu-id="a66c6-121">Click **Update**.</span></span>
-    * <span data-ttu-id="a66c6-122">您可以在完成交易前预览所做更改。</span><span class="sxs-lookup"><span data-stu-id="a66c6-122">You have the opportunity to preview the changes before finalizing the transfer.</span></span>  
-    * <span data-ttu-id="a66c6-123">在转移固定资产帐簿之前查看结果。</span><span class="sxs-lookup"><span data-stu-id="a66c6-123">Review results before transferring the fixed asset books.</span></span>  
-10. <span data-ttu-id="a66c6-124">单击 **转移**。</span><span class="sxs-lookup"><span data-stu-id="a66c6-124">Click **Transfer**.</span></span>
+    <span data-ttu-id="2e217-112">此列表显示固定资产所有帐簿。</span><span class="sxs-lookup"><span data-stu-id="2e217-112">This list shows all books for the fixed asset.</span></span>  
+7. <span data-ttu-id="2e217-113">标记要转移到新财务维度集的帐簿。</span><span class="sxs-lookup"><span data-stu-id="2e217-113">Mark the books you want to transfer to a new financial dimension set.</span></span>
+    * <span data-ttu-id="2e217-114">此列表显示所选帐簿的现有财务维度值。</span><span class="sxs-lookup"><span data-stu-id="2e217-114">This list shows the existing financial dimension values for the selected book.</span></span>  
+    * <span data-ttu-id="2e217-115">选择要为所选固定资产帐簿更新的财务维度。</span><span class="sxs-lookup"><span data-stu-id="2e217-115">Select the financial dimension you want to update for the selected fixed asset book.</span></span>  
+8. <span data-ttu-id="2e217-116">在 **财务维度** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="2e217-116">In the **Financial dimension** field, click the drop down button to open the lookup.</span></span>
+    * <span data-ttu-id="2e217-117">根据需要设置其他财务维度值。</span><span class="sxs-lookup"><span data-stu-id="2e217-117">Set other financial dimension values as appropriate.</span></span>  
+    * <span data-ttu-id="2e217-118">当交易发生时，无论是否输入值，所有财务维度值都会更改。</span><span class="sxs-lookup"><span data-stu-id="2e217-118">All financial dimension values change when a transfer occurs, whether a value has been entered or left blank.</span></span> <span data-ttu-id="2e217-119">例如，如果您为 BusinessUnit 输入了值，而将 CostCenter 和财务维度留为空白。</span><span class="sxs-lookup"><span data-stu-id="2e217-119">For example, if you entered a value for the BusinessUnit and left the CostCenter and Department financial dimensions blank.</span></span> <span data-ttu-id="2e217-120">如果您的科目结构允许将 CostCenter 和部门值留为空白，交易发生后，每个价值模型中的 BusinessUnit 都会有新值，而 CostCenter 和部门则仍为空值。</span><span class="sxs-lookup"><span data-stu-id="2e217-120">If your account structure allows blank values for CostCenter and Department, the transfer would result in each value model having the new value for BusinessUnit and a blank value for CostCenter and Department.</span></span>  
+9. <span data-ttu-id="2e217-121">单击 **更新**。</span><span class="sxs-lookup"><span data-stu-id="2e217-121">Click **Update**.</span></span>
+    * <span data-ttu-id="2e217-122">您可以在完成交易前预览所做更改。</span><span class="sxs-lookup"><span data-stu-id="2e217-122">You have the opportunity to preview the changes before finalizing the transfer.</span></span>  
+    * <span data-ttu-id="2e217-123">在转移固定资产帐簿之前查看结果。</span><span class="sxs-lookup"><span data-stu-id="2e217-123">Review results before transferring the fixed asset books.</span></span>  
+10. <span data-ttu-id="2e217-124">单击 **转移**。</span><span class="sxs-lookup"><span data-stu-id="2e217-124">Click **Transfer**.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

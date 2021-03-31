@@ -15,65 +15,68 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e49793fc7f6b3f37bafae05770d4b23d24171329
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8c4ac436b57b6010a5d5b3759d2ccf1c4af95446
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974877"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208127"
 ---
-# <a name="create-a-new-trade-agreement"></a><span data-ttu-id="08a42-103">创建新的贸易协议</span><span class="sxs-lookup"><span data-stu-id="08a42-103">Create a new trade agreement</span></span>
+# <a name="create-a-new-trade-agreement"></a><span data-ttu-id="f2620-103">创建新的贸易协议</span><span class="sxs-lookup"><span data-stu-id="f2620-103">Create a new trade agreement</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="08a42-104">该过程会显示如何创建贸易协议，您可在其中登记您与特定客户达成的新产品销售价格。</span><span class="sxs-lookup"><span data-stu-id="08a42-104">This procedure shows you how to create a trade agreement where you register a new product sales price that you've agreed with a specific customer.</span></span> <span data-ttu-id="08a42-105">您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="08a42-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="08a42-106">如果您正在使用您自己的数据，在您开始本指南之前，您需要确保贸易协议日记帐名称存在，且其中的默认关系被设置为“价格（售价）”。</span><span class="sxs-lookup"><span data-stu-id="08a42-106">If you're using your own data, before you start this guide you need to make sure that a Trade agreement journal name exists where the Default relation is set to "Price (sales)".</span></span>
+<span data-ttu-id="f2620-104">该过程会显示如何创建贸易协议，您可在其中登记您与特定客户达成的新产品销售价格。</span><span class="sxs-lookup"><span data-stu-id="f2620-104">This procedure shows you how to create a trade agreement where you register a new product sales price that you've agreed with a specific customer.</span></span> <span data-ttu-id="f2620-105">您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="f2620-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="f2620-106">如果您正在使用您自己的数据，在您开始本指南之前，您需要确保贸易协议日记帐名称存在，且其中的默认关系被设置为“价格（售价）”。</span><span class="sxs-lookup"><span data-stu-id="f2620-106">If you're using your own data, before you start this guide you need to make sure that a Trade agreement journal name exists where the Default relation is set to "Price (sales)".</span></span>
 
 
-## <a name="create-and-post-a-new-trade-agreement-journal"></a><span data-ttu-id="08a42-107">创建和发表新的贸易协议日记帐</span><span class="sxs-lookup"><span data-stu-id="08a42-107">Create and post a new trade agreement journal</span></span>
-1. <span data-ttu-id="08a42-108">转到 **导航窗格 > 模块 > 销售和营销 > 价格和折扣 > 贸易协议日记帐**。</span><span class="sxs-lookup"><span data-stu-id="08a42-108">Go to **Navigation pane > Modules > Sales and marketing > Prices and discounts > Trade agreement journals**.</span></span>
-2. <span data-ttu-id="08a42-109">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="08a42-109">Click **New**.</span></span>
-3. <span data-ttu-id="08a42-110">在 **名称** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="08a42-110">In the **Name** field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="08a42-111">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="08a42-111">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="08a42-112">在 **操作窗格** 上，单击 **行**。</span><span class="sxs-lookup"><span data-stu-id="08a42-112">On **Action Pane**, click **Lines**.</span></span>
-6. <span data-ttu-id="08a42-113">在 **帐户代码** 字段中，选择“表格”。</span><span class="sxs-lookup"><span data-stu-id="08a42-113">In the **Account code** field, select 'Table'.</span></span>
+## <a name="create-and-post-a-new-trade-agreement-journal"></a><span data-ttu-id="f2620-107">创建和发表新的贸易协议日记帐</span><span class="sxs-lookup"><span data-stu-id="f2620-107">Create and post a new trade agreement journal</span></span>
+1. <span data-ttu-id="f2620-108">转到 **导航窗格 > 模块 > 销售和营销 > 价格和折扣 > 贸易协议日记帐**。</span><span class="sxs-lookup"><span data-stu-id="f2620-108">Go to **Navigation pane > Modules > Sales and marketing > Prices and discounts > Trade agreement journals**.</span></span>
+2. <span data-ttu-id="f2620-109">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="f2620-109">Click **New**.</span></span>
+3. <span data-ttu-id="f2620-110">在 **名称** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="f2620-110">In the **Name** field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="f2620-111">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="f2620-111">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="f2620-112">在 **操作窗格** 上，单击 **行**。</span><span class="sxs-lookup"><span data-stu-id="f2620-112">On **Action Pane**, click **Lines**.</span></span>
+6. <span data-ttu-id="f2620-113">在 **帐户代码** 字段中，选择“表格”。</span><span class="sxs-lookup"><span data-stu-id="f2620-113">In the **Account code** field, select 'Table'.</span></span>
     
-    <span data-ttu-id="08a42-114">在此示例中，您正在更新特定客户的价格，这意味着您需要选择表格。</span><span class="sxs-lookup"><span data-stu-id="08a42-114">In this example, you're updating the price for a specific customer, which means you need to choose Table.</span></span> <span data-ttu-id="08a42-115">如果您正在更新产品的目录价格，您可以选择“全部”，如此新价格将对所有客户有效。</span><span class="sxs-lookup"><span data-stu-id="08a42-115">If you were updating the product's list price, you would select 'All', so that the new price is valid for all customers.</span></span> <span data-ttu-id="08a42-116">如果您正在区分不同客户细分的价格，则您可以选择组。</span><span class="sxs-lookup"><span data-stu-id="08a42-116">If you were differentiating prices among different customer segments, then you would select Group.</span></span> <span data-ttu-id="08a42-117">若要选择“组”，您必须设置“客户价格组”。</span><span class="sxs-lookup"><span data-stu-id="08a42-117">To select Group, you must have set up Customer price groups.</span></span>  
+    <span data-ttu-id="f2620-114">在此示例中，您正在更新特定客户的价格，这意味着您需要选择表格。</span><span class="sxs-lookup"><span data-stu-id="f2620-114">In this example, you're updating the price for a specific customer, which means you need to choose Table.</span></span> <span data-ttu-id="f2620-115">如果您正在更新产品的目录价格，您可以选择“全部”，如此新价格将对所有客户有效。</span><span class="sxs-lookup"><span data-stu-id="f2620-115">If you were updating the product's list price, you would select 'All', so that the new price is valid for all customers.</span></span> <span data-ttu-id="f2620-116">如果您正在区分不同客户细分的价格，则您可以选择组。</span><span class="sxs-lookup"><span data-stu-id="f2620-116">If you were differentiating prices among different customer segments, then you would select Group.</span></span> <span data-ttu-id="f2620-117">若要选择“组”，您必须设置“客户价格组”。</span><span class="sxs-lookup"><span data-stu-id="f2620-117">To select Group, you must have set up Customer price groups.</span></span>  
 
-7. <span data-ttu-id="08a42-118">在 **帐户选择** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="08a42-118">In the **Account selection** field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="08a42-119">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="08a42-119">In the list, find and select the desired record.</span></span>
-9. <span data-ttu-id="08a42-120">在 **物料代码** 字段中，选择“表格”。</span><span class="sxs-lookup"><span data-stu-id="08a42-120">In the **Item code** field, select 'Table'.</span></span>
+7. <span data-ttu-id="f2620-118">在 **帐户选择** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="f2620-118">In the **Account selection** field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="f2620-119">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="f2620-119">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="f2620-120">在 **物料代码** 字段中，选择“表格”。</span><span class="sxs-lookup"><span data-stu-id="f2620-120">In the **Item code** field, select 'Table'.</span></span>
     
-    <span data-ttu-id="08a42-121">在输入贸易协议类型“价格（销售额）”时，您仅可选择 **物料代码** 字段中的“表格”。</span><span class="sxs-lookup"><span data-stu-id="08a42-121">When you are entering a trade agreement of type 'Price (sales)', you must only select 'Table' in the **Item code** field.</span></span> <span data-ttu-id="08a42-122">原因在于价格是绝对值，所有产品或一组产品的价格不能完成相同。</span><span class="sxs-lookup"><span data-stu-id="08a42-122">This is because a price is an absolute value and cannot be same for all products or a group of products.</span></span>
+    <span data-ttu-id="f2620-121">在输入贸易协议类型“价格（销售额）”时，您仅可选择 **物料代码** 字段中的“表格”。</span><span class="sxs-lookup"><span data-stu-id="f2620-121">When you are entering a trade agreement of type 'Price (sales)', you must only select 'Table' in the **Item code** field.</span></span> <span data-ttu-id="f2620-122">原因在于价格是绝对值，所有产品或一组产品的价格不能完成相同。</span><span class="sxs-lookup"><span data-stu-id="f2620-122">This is because a price is an absolute value and cannot be same for all products or a group of products.</span></span>
     
-10. <span data-ttu-id="08a42-123">在 **物料关系** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="08a42-123">In the **Item relation** field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="08a42-124">在列表中，选择您想要包括在协议中的产品。</span><span class="sxs-lookup"><span data-stu-id="08a42-124">In the list, select the product you want to include in the agreement.</span></span> <span data-ttu-id="08a42-125">记下您已选中的产品。</span><span class="sxs-lookup"><span data-stu-id="08a42-125">Make a note of which product you've selected.</span></span>  
-12. <span data-ttu-id="08a42-126">在 **从** 字段中，输入最小数量。</span><span class="sxs-lookup"><span data-stu-id="08a42-126">In the **From** field, enter a minimum quantity.</span></span>
-    - <span data-ttu-id="08a42-127">如果客户必须订购最小数量的产品，然后才能有资格获得新价格，则您需要在此指定最小数量。</span><span class="sxs-lookup"><span data-stu-id="08a42-127">If the customer has to order a minimum quantity before they can qualify for the new price, then you need to specify that quantity here.</span></span>  
-    - <span data-ttu-id="08a42-128">在 **至** 字段中输入一个值以指定最大数量，高于该数量的协议价格将无效。</span><span class="sxs-lookup"><span data-stu-id="08a42-128">Enter a value in the **To** field to specify the maximum quantity above which the agreement's price will not be valid.</span></span> <span data-ttu-id="08a42-129">如果您基于多个数量分段提供价格和折扣，则指定每个数量等级段为一对最小和最大数量，分别在 **从** 和 **至** 字段中输入最小数量和最大数量。</span><span class="sxs-lookup"><span data-stu-id="08a42-129">If you offer prices and discounts based on multiple quantity breaks, then specify each quantity bracket as a pair of minimum and maximum quantity in the **From** and **To** fields respectively.</span></span>
-13. <span data-ttu-id="08a42-130">在 **货币金额** 字段中，输入价格。</span><span class="sxs-lookup"><span data-stu-id="08a42-130">In the **Amount in currency field**, enter a price.</span></span>
-14. <span data-ttu-id="08a42-131">在 **详细信息** 部分下 **开始日期** 字段中，输入本协议开始生效的日期。</span><span class="sxs-lookup"><span data-stu-id="08a42-131">Under the **Details** section, in the **From date** field, enter a date from which this agreement will be valid.</span></span>
-15. <span data-ttu-id="08a42-132">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="08a42-132">Click **Save**.</span></span>
-16. <span data-ttu-id="08a42-133">单击 **验证**。</span><span class="sxs-lookup"><span data-stu-id="08a42-133">Click **Validate**.</span></span>
-17. <span data-ttu-id="08a42-134">单击 **验证所选行**。</span><span class="sxs-lookup"><span data-stu-id="08a42-134">Click **Validate selected lines**.</span></span>
-18. <span data-ttu-id="08a42-135">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="08a42-135">Click **OK**.</span></span>
-19. <span data-ttu-id="08a42-136">单击 **过帐**。</span><span class="sxs-lookup"><span data-stu-id="08a42-136">Click **Post**.</span></span>
-20. <span data-ttu-id="08a42-137">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="08a42-137">Click **OK**.</span></span>
+10. <span data-ttu-id="f2620-123">在 **物料关系** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="f2620-123">In the **Item relation** field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="f2620-124">在列表中，选择您想要包括在协议中的产品。</span><span class="sxs-lookup"><span data-stu-id="f2620-124">In the list, select the product you want to include in the agreement.</span></span> <span data-ttu-id="f2620-125">记下您已选中的产品。</span><span class="sxs-lookup"><span data-stu-id="f2620-125">Make a note of which product you've selected.</span></span>  
+12. <span data-ttu-id="f2620-126">在 **从** 字段中，输入最小数量。</span><span class="sxs-lookup"><span data-stu-id="f2620-126">In the **From** field, enter a minimum quantity.</span></span>
+    - <span data-ttu-id="f2620-127">如果客户必须订购最小数量的产品，然后才能有资格获得新价格，则您需要在此指定最小数量。</span><span class="sxs-lookup"><span data-stu-id="f2620-127">If the customer has to order a minimum quantity before they can qualify for the new price, then you need to specify that quantity here.</span></span>  
+    - <span data-ttu-id="f2620-128">在 **至** 字段中输入一个值以指定最大数量，高于该数量的协议价格将无效。</span><span class="sxs-lookup"><span data-stu-id="f2620-128">Enter a value in the **To** field to specify the maximum quantity above which the agreement's price will not be valid.</span></span> <span data-ttu-id="f2620-129">如果您基于多个数量分段提供价格和折扣，则指定每个数量等级段为一对最小和最大数量，分别在 **从** 和 **至** 字段中输入最小数量和最大数量。</span><span class="sxs-lookup"><span data-stu-id="f2620-129">If you offer prices and discounts based on multiple quantity breaks, then specify each quantity bracket as a pair of minimum and maximum quantity in the **From** and **To** fields respectively.</span></span>
+13. <span data-ttu-id="f2620-130">在 **货币金额** 字段中，输入价格。</span><span class="sxs-lookup"><span data-stu-id="f2620-130">In the **Amount in currency field**, enter a price.</span></span>
+14. <span data-ttu-id="f2620-131">在 **详细信息** 部分下 **开始日期** 字段中，输入本协议开始生效的日期。</span><span class="sxs-lookup"><span data-stu-id="f2620-131">Under the **Details** section, in the **From date** field, enter a date from which this agreement will be valid.</span></span>
+15. <span data-ttu-id="f2620-132">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="f2620-132">Click **Save**.</span></span>
+16. <span data-ttu-id="f2620-133">单击 **验证**。</span><span class="sxs-lookup"><span data-stu-id="f2620-133">Click **Validate**.</span></span>
+17. <span data-ttu-id="f2620-134">单击 **验证所选行**。</span><span class="sxs-lookup"><span data-stu-id="f2620-134">Click **Validate selected lines**.</span></span>
+18. <span data-ttu-id="f2620-135">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="f2620-135">Click **OK**.</span></span>
+19. <span data-ttu-id="f2620-136">单击 **过帐**。</span><span class="sxs-lookup"><span data-stu-id="f2620-136">Click **Post**.</span></span>
+20. <span data-ttu-id="f2620-137">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="f2620-137">Click **OK**.</span></span>
 
-## <a name="view-trade-agreements-for-a-product"></a><span data-ttu-id="08a42-138">查看某一产品的贸易协议</span><span class="sxs-lookup"><span data-stu-id="08a42-138">View trade agreements for a product</span></span>
-1. <span data-ttu-id="08a42-139">转到 **导航窗格 > 模块 > 产品信息管理 > 产品 > 已发放产品**。</span><span class="sxs-lookup"><span data-stu-id="08a42-139">Go to **Navigation pane > Modules > Product information management > Products > Released products**.</span></span>
-2. <span data-ttu-id="08a42-140">在列表中，查找并选择您刚更新价格的产品。</span><span class="sxs-lookup"><span data-stu-id="08a42-140">In the list, find and select the product whose price you have just updated.</span></span>
-3. <span data-ttu-id="08a42-141">在 **操作窗格** 上，单击 **销售**。</span><span class="sxs-lookup"><span data-stu-id="08a42-141">On the **Action Pane**, click **Sell**.</span></span>
-4. <span data-ttu-id="08a42-142">单击 **查看贸易协议**。</span><span class="sxs-lookup"><span data-stu-id="08a42-142">Click **View trade agreements**.</span></span>
+## <a name="view-trade-agreements-for-a-product"></a><span data-ttu-id="f2620-138">查看某一产品的贸易协议</span><span class="sxs-lookup"><span data-stu-id="f2620-138">View trade agreements for a product</span></span>
+1. <span data-ttu-id="f2620-139">转到 **导航窗格 > 模块 > 产品信息管理 > 产品 > 已发放产品**。</span><span class="sxs-lookup"><span data-stu-id="f2620-139">Go to **Navigation pane > Modules > Product information management > Products > Released products**.</span></span>
+2. <span data-ttu-id="f2620-140">在列表中，查找并选择您刚更新价格的产品。</span><span class="sxs-lookup"><span data-stu-id="f2620-140">In the list, find and select the product whose price you have just updated.</span></span>
+3. <span data-ttu-id="f2620-141">在 **操作窗格** 上，单击 **销售**。</span><span class="sxs-lookup"><span data-stu-id="f2620-141">On the **Action Pane**, click **Sell**.</span></span>
+4. <span data-ttu-id="f2620-142">单击 **查看贸易协议**。</span><span class="sxs-lookup"><span data-stu-id="f2620-142">Click **View trade agreements**.</span></span>
     
-    <span data-ttu-id="08a42-143">审查您刚创建的价格贸易协议的详情。</span><span class="sxs-lookup"><span data-stu-id="08a42-143">Review the details of the price trade agreement you have just created.</span></span>    
+    <span data-ttu-id="f2620-143">审查您刚创建的价格贸易协议的详情。</span><span class="sxs-lookup"><span data-stu-id="f2620-143">Review the details of the price trade agreement you have just created.</span></span>    
 
-5. <span data-ttu-id="08a42-144">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="08a42-144">Close the page.</span></span>
+5. <span data-ttu-id="f2620-144">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="f2620-144">Close the page.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="08a42-145">其他资源</span><span class="sxs-lookup"><span data-stu-id="08a42-145">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="f2620-145">其他资源</span><span class="sxs-lookup"><span data-stu-id="f2620-145">Additional resources</span></span>
 
-### <a name="whitepaper"></a><span data-ttu-id="08a42-146">白皮书</span><span class="sxs-lookup"><span data-stu-id="08a42-146">Whitepaper</span></span>
-<span data-ttu-id="08a42-147">有关详细信息，请下载以下白皮书（为支持 AX2012 编写，同样适用于 Dynamics 365 Supply Chain Management）</span><span class="sxs-lookup"><span data-stu-id="08a42-147">For more information, download the following white paper (written to support AX2012, but still applies for Dynamics 365 Supply Chain Management)</span></span>
-- [<span data-ttu-id="08a42-148">贸易协议</span><span class="sxs-lookup"><span data-stu-id="08a42-148">Trade agreements</span></span>](https://mbs.microsoft.com/files/public/CS/AX2012R3/TradeagreementsinAX.pdf)
+### <a name="whitepaper"></a><span data-ttu-id="f2620-146">白皮书</span><span class="sxs-lookup"><span data-stu-id="f2620-146">Whitepaper</span></span>
+<span data-ttu-id="f2620-147">有关详细信息，请下载以下白皮书（为支持 AX2012 编写，同样适用于 Dynamics 365 Supply Chain Management）</span><span class="sxs-lookup"><span data-stu-id="f2620-147">For more information, download the following white paper (written to support AX2012, but still applies for Dynamics 365 Supply Chain Management)</span></span>
+- [<span data-ttu-id="f2620-148">贸易协议</span><span class="sxs-lookup"><span data-stu-id="f2620-148">Trade agreements</span></span>](https://mbs.microsoft.com/files/public/CS/AX2012R3/TradeagreementsinAX.pdf)
 
-### <a name="community-blogs"></a><span data-ttu-id="08a42-149">社区博客</span><span class="sxs-lookup"><span data-stu-id="08a42-149">Community blogs</span></span>
-- [<span data-ttu-id="08a42-150">Dynamics 365 for Finance and Operations 中的销售价</span><span class="sxs-lookup"><span data-stu-id="08a42-150">Sales prices in Dynamics 365 for Finance and Operations</span></span>](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
+### <a name="community-blogs"></a><span data-ttu-id="f2620-149">社区博客</span><span class="sxs-lookup"><span data-stu-id="f2620-149">Community blogs</span></span>
+- [<span data-ttu-id="f2620-150">Dynamics 365 for Finance and Operations 中的销售价</span><span class="sxs-lookup"><span data-stu-id="f2620-150">Sales prices in Dynamics 365 for Finance and Operations</span></span>](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

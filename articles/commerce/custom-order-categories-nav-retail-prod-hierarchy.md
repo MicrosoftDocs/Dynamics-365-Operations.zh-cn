@@ -17,67 +17,67 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 694f95e274dc068cba02a2a519c1ce3ed186eaf0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 67807c53a6ffc6dd09cc6f0e48218e2ee2de559f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976755"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207767"
 ---
-# <a name="change-the-sort-order-for-merchandising-entities"></a><span data-ttu-id="d7f55-103">更改促销实体的排序顺序</span><span class="sxs-lookup"><span data-stu-id="d7f55-103">Change the sort order for merchandising entities</span></span>
+# <a name="change-the-sort-order-for-merchandising-entities"></a><span data-ttu-id="edb3d-103">更改促销实体的排序顺序</span><span class="sxs-lookup"><span data-stu-id="edb3d-103">Change the sort order for merchandising entities</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="d7f55-104">零售商将产品发现视为所有渠道中的主要客户互动工具。</span><span class="sxs-lookup"><span data-stu-id="d7f55-104">Retailers consider product discovery a primary tool for customer interaction across all channels.</span></span> <span data-ttu-id="d7f55-105">可通过大量功能帮助客户轻松发现产品。</span><span class="sxs-lookup"><span data-stu-id="d7f55-105">Various functionality can help customers easily discover products.</span></span> <span data-ttu-id="d7f55-106">例如，可以浏览类别，进行搜索或使用筛选。</span><span class="sxs-lookup"><span data-stu-id="d7f55-106">For example, they can browse categories, search, and filter.</span></span>
+<span data-ttu-id="edb3d-104">零售商将产品发现视为所有渠道中的主要客户互动工具。</span><span class="sxs-lookup"><span data-stu-id="edb3d-104">Retailers consider product discovery a primary tool for customer interaction across all channels.</span></span> <span data-ttu-id="edb3d-105">可通过大量功能帮助客户轻松发现产品。</span><span class="sxs-lookup"><span data-stu-id="edb3d-105">Various functionality can help customers easily discover products.</span></span> <span data-ttu-id="edb3d-106">例如，可以浏览类别，进行搜索或使用筛选。</span><span class="sxs-lookup"><span data-stu-id="edb3d-106">For example, they can browse categories, search, and filter.</span></span>
 
-<span data-ttu-id="d7f55-107">此主题介绍与控制各种促销相关实体的显示顺序有关的概念。</span><span class="sxs-lookup"><span data-stu-id="d7f55-107">This topic explains the concepts that are related to controlling the display order for various merchandising-related entities.</span></span> <span data-ttu-id="d7f55-108">还介绍了如何更改排序顺序。</span><span class="sxs-lookup"><span data-stu-id="d7f55-108">It also explains how to change the sort order.</span></span>
+<span data-ttu-id="edb3d-107">此主题介绍与控制各种促销相关实体的显示顺序有关的概念。</span><span class="sxs-lookup"><span data-stu-id="edb3d-107">This topic explains the concepts that are related to controlling the display order for various merchandising-related entities.</span></span> <span data-ttu-id="edb3d-108">还介绍了如何更改排序顺序。</span><span class="sxs-lookup"><span data-stu-id="edb3d-108">It also explains how to change the sort order.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="d7f55-109">概览</span><span class="sxs-lookup"><span data-stu-id="d7f55-109">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="edb3d-109">概览</span><span class="sxs-lookup"><span data-stu-id="edb3d-109">Overview</span></span>
 
-<span data-ttu-id="d7f55-110">已对为促销关联的各种实体进行排序的支持进行了增强。</span><span class="sxs-lookup"><span data-stu-id="d7f55-110">The support for sorting various merchandising-related entities has been enhanced.</span></span> <span data-ttu-id="d7f55-111">此项支持现在可以更好地适应以前要求实施合作伙伴进行扩展的现有客户方案。</span><span class="sxs-lookup"><span data-stu-id="d7f55-111">This support is now better aligned with existing customer scenarios that previously required extensions from implementation partners.</span></span>
+<span data-ttu-id="edb3d-110">已对为促销关联的各种实体进行排序的支持进行了增强。</span><span class="sxs-lookup"><span data-stu-id="edb3d-110">The support for sorting various merchandising-related entities has been enhanced.</span></span> <span data-ttu-id="edb3d-111">此项支持现在可以更好地适应以前要求实施合作伙伴进行扩展的现有客户方案。</span><span class="sxs-lookup"><span data-stu-id="edb3d-111">This support is now better aligned with existing customer scenarios that previously required extensions from implementation partners.</span></span>
 
-<span data-ttu-id="d7f55-112">在低于 10.0.5 的 Retail 版本中，导航层次结构中的类别按字母排序。</span><span class="sxs-lookup"><span data-stu-id="d7f55-112">In versions of Retail that are earlier than version 10.0.5, the sort order for categories in the navigation hierarchy was alphabetical.</span></span> <span data-ttu-id="d7f55-113">促销经理可使用新的自定义排序功能为所有最终用户客户的各种促销相关实体配置排序。</span><span class="sxs-lookup"><span data-stu-id="d7f55-113">The new custom sort order functionality lets merchandising managers configure the sort order for various merchandising-related entities across all end-user clients.</span></span> <span data-ttu-id="d7f55-114">这些客户包括总部 (HQ) 和呼叫中心。</span><span class="sxs-lookup"><span data-stu-id="d7f55-114">These clients include headquarters (HQ) and call centers.</span></span>
+<span data-ttu-id="edb3d-112">在低于 10.0.5 的 Retail 版本中，导航层次结构中的类别按字母排序。</span><span class="sxs-lookup"><span data-stu-id="edb3d-112">In versions of Retail that are earlier than version 10.0.5, the sort order for categories in the navigation hierarchy was alphabetical.</span></span> <span data-ttu-id="edb3d-113">促销经理可使用新的自定义排序功能为所有最终用户客户的各种促销相关实体配置排序。</span><span class="sxs-lookup"><span data-stu-id="edb3d-113">The new custom sort order functionality lets merchandising managers configure the sort order for various merchandising-related entities across all end-user clients.</span></span> <span data-ttu-id="edb3d-114">这些客户包括总部 (HQ) 和呼叫中心。</span><span class="sxs-lookup"><span data-stu-id="edb3d-114">These clients include headquarters (HQ) and call centers.</span></span>
 
-## <a name="configure-the-display-order-for-categories-in-the-product-hierarchy"></a><span data-ttu-id="d7f55-115">配置产品层次结构中的类别的显示顺序</span><span class="sxs-lookup"><span data-stu-id="d7f55-115">Configure the display order for categories in the product hierarchy</span></span>
+## <a name="configure-the-display-order-for-categories-in-the-product-hierarchy"></a><span data-ttu-id="edb3d-115">配置产品层次结构中的类别的显示顺序</span><span class="sxs-lookup"><span data-stu-id="edb3d-115">Configure the display order for categories in the product hierarchy</span></span>
 
-<span data-ttu-id="d7f55-116">必须先在环境中安装演示数据，才能完成此过程。</span><span class="sxs-lookup"><span data-stu-id="d7f55-116">Before you can complete this procedure, demo data must be installed in your environment.</span></span>
+<span data-ttu-id="edb3d-116">必须先在环境中安装演示数据，才能完成此过程。</span><span class="sxs-lookup"><span data-stu-id="edb3d-116">Before you can complete this procedure, demo data must be installed in your environment.</span></span>
 
-1. <span data-ttu-id="d7f55-117">转至 **Retail 和 Commerce \> 产品和类别 \> 商业产品层次结构**。</span><span class="sxs-lookup"><span data-stu-id="d7f55-117">Go to **Retail and Commerce \> Products and categories \> Commerce product hierarchy**.</span></span>
-2. <span data-ttu-id="d7f55-118">单击 **编辑类别层次结构**。</span><span class="sxs-lookup"><span data-stu-id="d7f55-118">Click **Edit category hierarchy**.</span></span>
-3. <span data-ttu-id="d7f55-119">单击 **编辑**。</span><span class="sxs-lookup"><span data-stu-id="d7f55-119">Click **Edit**.</span></span>
-4. <span data-ttu-id="d7f55-120">在树中，展开 **所有 \> 操作排序**。</span><span class="sxs-lookup"><span data-stu-id="d7f55-120">In the tree, expand **ALL \> Action Sports**.</span></span>
-5. <span data-ttu-id="d7f55-121">在树中，展开 **所有 \> 团队排序**。</span><span class="sxs-lookup"><span data-stu-id="d7f55-121">In the tree, expand **ALL \> Team Sports**.</span></span>
-6. <span data-ttu-id="d7f55-122">在 **显示顺序** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="d7f55-122">In the **Display order** field, enter a number.</span></span> <span data-ttu-id="d7f55-123">（该数字可以是负数。）</span><span class="sxs-lookup"><span data-stu-id="d7f55-123">(The number can be negative.)</span></span>
-7. <span data-ttu-id="d7f55-124">对要更改其顺序的其他任何类别重复步骤 4 到 6。</span><span class="sxs-lookup"><span data-stu-id="d7f55-124">Repeat steps 4 through 6 for any additional categories that you want to change the order of.</span></span>
+1. <span data-ttu-id="edb3d-117">转至 **Retail 和 Commerce \> 产品和类别 \> 商业产品层次结构**。</span><span class="sxs-lookup"><span data-stu-id="edb3d-117">Go to **Retail and Commerce \> Products and categories \> Commerce product hierarchy**.</span></span>
+2. <span data-ttu-id="edb3d-118">单击 **编辑类别层次结构**。</span><span class="sxs-lookup"><span data-stu-id="edb3d-118">Click **Edit category hierarchy**.</span></span>
+3. <span data-ttu-id="edb3d-119">单击 **编辑**。</span><span class="sxs-lookup"><span data-stu-id="edb3d-119">Click **Edit**.</span></span>
+4. <span data-ttu-id="edb3d-120">在树中，展开 **所有 \> 操作排序**。</span><span class="sxs-lookup"><span data-stu-id="edb3d-120">In the tree, expand **ALL \> Action Sports**.</span></span>
+5. <span data-ttu-id="edb3d-121">在树中，展开 **所有 \> 团队排序**。</span><span class="sxs-lookup"><span data-stu-id="edb3d-121">In the tree, expand **ALL \> Team Sports**.</span></span>
+6. <span data-ttu-id="edb3d-122">在 **显示顺序** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="edb3d-122">In the **Display order** field, enter a number.</span></span> <span data-ttu-id="edb3d-123">（该数字可以是负数。）</span><span class="sxs-lookup"><span data-stu-id="edb3d-123">(The number can be negative.)</span></span>
+7. <span data-ttu-id="edb3d-124">对要更改其顺序的其他任何类别重复步骤 4 到 6。</span><span class="sxs-lookup"><span data-stu-id="edb3d-124">Repeat steps 4 through 6 for any additional categories that you want to change the order of.</span></span>
 
-<span data-ttu-id="d7f55-125">将在商业产品层次结构和按类别的已发布产品的 HQ 中体现渠道导航层次结构的显示顺序。</span><span class="sxs-lookup"><span data-stu-id="d7f55-125">The display order for the channel navigation hierarchy will be reflected in HQ for the commerce product hierarchy and released products by category.</span></span>
+<span data-ttu-id="edb3d-125">将在商业产品层次结构和按类别的已发布产品的 HQ 中体现渠道导航层次结构的显示顺序。</span><span class="sxs-lookup"><span data-stu-id="edb3d-125">The display order for the channel navigation hierarchy will be reflected in HQ for the commerce product hierarchy and released products by category.</span></span>
 
 ![使用负值排序的产品层次结构自定义](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
 ![基于产品层次结构按类别自定义排序的已发布产品](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
-## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a><span data-ttu-id="d7f55-128">配置渠道导航层次结构中的类别的显示顺序</span><span class="sxs-lookup"><span data-stu-id="d7f55-128">Configure the display order for categories in the channel navigation hierarchy</span></span>
+## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a><span data-ttu-id="edb3d-128">配置渠道导航层次结构中的类别的显示顺序</span><span class="sxs-lookup"><span data-stu-id="edb3d-128">Configure the display order for categories in the channel navigation hierarchy</span></span>
 
-<span data-ttu-id="d7f55-129">必须先在环境中安装演示数据，才能完成此过程。</span><span class="sxs-lookup"><span data-stu-id="d7f55-129">Before you can complete this procedure, demo data must be installed in your environment.</span></span>
+<span data-ttu-id="edb3d-129">必须先在环境中安装演示数据，才能完成此过程。</span><span class="sxs-lookup"><span data-stu-id="edb3d-129">Before you can complete this procedure, demo data must be installed in your environment.</span></span>
 
-1. <span data-ttu-id="d7f55-130">转到 **Retail 和 Commerce \> 产品和类别 \> 渠道导航类别**。</span><span class="sxs-lookup"><span data-stu-id="d7f55-130">Go to **Retail and Commerce \> Products and categories \> Channel navigation categories**.</span></span>
-2. <span data-ttu-id="d7f55-131">在列表中，选择 **时尚导航** 层次结构。</span><span class="sxs-lookup"><span data-stu-id="d7f55-131">In the list, select the **Fashion navigation** hierarchy.</span></span>
-3. <span data-ttu-id="d7f55-132">单击 **编辑类别层次结构**。</span><span class="sxs-lookup"><span data-stu-id="d7f55-132">Click **Edit category hierarchy**.</span></span>
-4. <span data-ttu-id="d7f55-133">单击 **编辑**。</span><span class="sxs-lookup"><span data-stu-id="d7f55-133">Click **Edit**.</span></span>
-5. <span data-ttu-id="d7f55-134">在树中，选择 **时尚 \> 女装 \> 女鞋**。</span><span class="sxs-lookup"><span data-stu-id="d7f55-134">In the tree, select **Fashion \> Womenswear \> Womens Shoes**.</span></span>
-6. <span data-ttu-id="d7f55-135">在 **显示顺序** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="d7f55-135">In the **Display order** field, enter a number.</span></span>
-7. <span data-ttu-id="d7f55-136">在树中，选择 **时尚 \> 女装 \> 上装**。</span><span class="sxs-lookup"><span data-stu-id="d7f55-136">In the tree, select **Fashion \> Womenswear \> Tops**.</span></span>
+1. <span data-ttu-id="edb3d-130">转到 **Retail 和 Commerce \> 产品和类别 \> 渠道导航类别**。</span><span class="sxs-lookup"><span data-stu-id="edb3d-130">Go to **Retail and Commerce \> Products and categories \> Channel navigation categories**.</span></span>
+2. <span data-ttu-id="edb3d-131">在列表中，选择 **时尚导航** 层次结构。</span><span class="sxs-lookup"><span data-stu-id="edb3d-131">In the list, select the **Fashion navigation** hierarchy.</span></span>
+3. <span data-ttu-id="edb3d-132">单击 **编辑类别层次结构**。</span><span class="sxs-lookup"><span data-stu-id="edb3d-132">Click **Edit category hierarchy**.</span></span>
+4. <span data-ttu-id="edb3d-133">单击 **编辑**。</span><span class="sxs-lookup"><span data-stu-id="edb3d-133">Click **Edit**.</span></span>
+5. <span data-ttu-id="edb3d-134">在树中，选择 **时尚 \> 女装 \> 女鞋**。</span><span class="sxs-lookup"><span data-stu-id="edb3d-134">In the tree, select **Fashion \> Womenswear \> Womens Shoes**.</span></span>
+6. <span data-ttu-id="edb3d-135">在 **显示顺序** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="edb3d-135">In the **Display order** field, enter a number.</span></span>
+7. <span data-ttu-id="edb3d-136">在树中，选择 **时尚 \> 女装 \> 上装**。</span><span class="sxs-lookup"><span data-stu-id="edb3d-136">In the tree, select **Fashion \> Womenswear \> Tops**.</span></span>
 
-    <span data-ttu-id="d7f55-137">同样，可以为子类别定义排序顺序。</span><span class="sxs-lookup"><span data-stu-id="d7f55-137">Likewise, you can define the sort order for the sub-categories.</span></span>
+    <span data-ttu-id="edb3d-137">同样，可以为子类别定义排序顺序。</span><span class="sxs-lookup"><span data-stu-id="edb3d-137">Likewise, you can define the sort order for the sub-categories.</span></span>
 
-8. <span data-ttu-id="d7f55-138">在树中，选择 **时尚 \> 男装 \> 休闲衬衫**。</span><span class="sxs-lookup"><span data-stu-id="d7f55-138">In the tree, select **Fashion \> Menswear \> Casual Shirts**.</span></span>
-9. <span data-ttu-id="d7f55-139">在 **显示顺序** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="d7f55-139">In the **Display order** field, enter a number.</span></span>
-10. <span data-ttu-id="d7f55-140">在树中，选择 **时尚 \> 男装 \> 外套和夹克**。</span><span class="sxs-lookup"><span data-stu-id="d7f55-140">In the tree, select **Fashion \> Menswear \> Coats & Jackets**.</span></span>
-11. <span data-ttu-id="d7f55-141">在 **显示顺序** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="d7f55-141">In the **Display order** field, enter a number.</span></span>
-12. <span data-ttu-id="d7f55-142">对要更改其顺序的其他任何类别重复此步骤。</span><span class="sxs-lookup"><span data-stu-id="d7f55-142">Repeat for any additional categories that you want to change the order of.</span></span>
+8. <span data-ttu-id="edb3d-138">在树中，选择 **时尚 \> 男装 \> 休闲衬衫**。</span><span class="sxs-lookup"><span data-stu-id="edb3d-138">In the tree, select **Fashion \> Menswear \> Casual Shirts**.</span></span>
+9. <span data-ttu-id="edb3d-139">在 **显示顺序** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="edb3d-139">In the **Display order** field, enter a number.</span></span>
+10. <span data-ttu-id="edb3d-140">在树中，选择 **时尚 \> 男装 \> 外套和夹克**。</span><span class="sxs-lookup"><span data-stu-id="edb3d-140">In the tree, select **Fashion \> Menswear \> Coats & Jackets**.</span></span>
+11. <span data-ttu-id="edb3d-141">在 **显示顺序** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="edb3d-141">In the **Display order** field, enter a number.</span></span>
+12. <span data-ttu-id="edb3d-142">对要更改其顺序的其他任何类别重复此步骤。</span><span class="sxs-lookup"><span data-stu-id="edb3d-142">Repeat for any additional categories that you want to change the order of.</span></span>
 
-<span data-ttu-id="d7f55-143">将在 HQ、目录和渠道中体现渠道导航层次结构的显示顺序。</span><span class="sxs-lookup"><span data-stu-id="d7f55-143">The display order for the channel navigation hierarchy is reflected in HQ, catalog, and channels.</span></span>
+<span data-ttu-id="edb3d-143">将在 HQ、目录和渠道中体现渠道导航层次结构的显示顺序。</span><span class="sxs-lookup"><span data-stu-id="edb3d-143">The display order for the channel navigation hierarchy is reflected in HQ, catalog, and channels.</span></span>
 
 ![已为渠道导航层次结构自定义排序](./media/ChannelNavCustomSorted.png)
 
@@ -86,4 +86,7 @@ ms.locfileid: "4976755"
 ![具有自定义排序的类别的 POS](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> <span data-ttu-id="d7f55-147">默认情况下，已关闭自定义排序顺序。</span><span class="sxs-lookup"><span data-stu-id="d7f55-147">By default the custom sort order feature is turned off.</span></span> <span data-ttu-id="d7f55-148">若要了解如何开启此功能和其他功能，请参阅[功能管理](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)。</span><span class="sxs-lookup"><span data-stu-id="d7f55-148">To learn how to turn on this feature and other features, see [Feature management](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).</span></span>
+> <span data-ttu-id="edb3d-147">默认情况下，已关闭自定义排序顺序。</span><span class="sxs-lookup"><span data-stu-id="edb3d-147">By default the custom sort order feature is turned off.</span></span> <span data-ttu-id="edb3d-148">若要了解如何开启此功能和其他功能，请参阅[功能管理](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)。</span><span class="sxs-lookup"><span data-stu-id="edb3d-148">To learn how to turn on this feature and other features, see [Feature management](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
