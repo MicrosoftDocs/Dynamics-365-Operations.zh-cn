@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 14244ccfef69a8bff3390539ff7b851a8f5b5ec1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: db7f296a99da0eb106e8a10158340eef5642ef39
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009560"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208863"
 ---
 # <a name="settle-remainder"></a>结算余额
 

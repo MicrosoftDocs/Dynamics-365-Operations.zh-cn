@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4911b1729c811aafc5ca76fb4351ab672e3610f6
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: ecb785a53bc9e0f761ba904ee674bd091bf8c444
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019696"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206935"
 ---
 # <a name="procurement-and-sourcing-overview"></a>采购概览
 

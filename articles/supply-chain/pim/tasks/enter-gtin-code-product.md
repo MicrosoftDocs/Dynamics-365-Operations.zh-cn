@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4ccb90e99d624174758389280108cfe3e65659e0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0fc95d34125f3e1d9b07339d4134a4a974b3fcbf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011239"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216025"
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>输入产品的 GTIN 代码
 

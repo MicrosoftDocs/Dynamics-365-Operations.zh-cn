@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee029e6cf1f271c5839e8d0dc1b1e4b7f91fb9a2
-ms.sourcegitcommit: f51ef395f0c0cb2203ce26b4091bbf0296e7916e
+ms.openlocfilehash: 894e7b1e77489d6ab8ce7e1d980586624cdc6df3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5120471"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210209"
 ---
 # <a name="consolidation-and-elimination-overview"></a>合并和清除概览
 

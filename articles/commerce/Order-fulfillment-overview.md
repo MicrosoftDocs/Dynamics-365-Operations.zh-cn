@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fa568926ccdde4620294915679cd094adbd1e833
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5c5bd72bb039a457d4fcbacb47062c7cdf1bf7b2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965394"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206743"
 ---
 # <a name="store-order-fulfillment"></a>商店订单履行
 

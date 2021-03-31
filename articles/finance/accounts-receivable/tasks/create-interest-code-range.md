@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 56f063e24e2c332889191638b4f6ffcb2c08500d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 44b98436d6e0c40f0458dc4744b8b1d96baa8b54
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990984"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216561"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>创建带范围的利息代码
 

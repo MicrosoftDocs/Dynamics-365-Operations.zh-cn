@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 276f918e5f86ba8bef3144a476ae72192829cf7a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f1d1bfe358bbff1720e7d013c3bfeaba1a598ed0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978583"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216465"
 ---
 # <a name="create-a-main-account"></a>创建主科目
 

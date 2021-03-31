@@ -1,5 +1,5 @@
 ---
-title: 将 Dynamics 365 Commerce 站点与在线渠道相关联
+title: 将 Dynamics 365 Commerce 站点与在线渠道关联
 description: 此主题介绍如何将 Microsoft Dynamics 365 Commerce 站点绑定到一个或多个在线商店。
 author: bicyclingfool
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc93441bd09deccdb8c7ecf955c0ec5177c0b31e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bb39b54e45e387067720dcbc5d9ccffbf8bf08b4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980015"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211514"
 ---
-# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>将 Dynamics 365 Commerce 站点与在线渠道相关联
+# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>将 Dynamics 365 Commerce 站点与在线渠道关联
 
 [!include [banner](includes/banner.md)]
 

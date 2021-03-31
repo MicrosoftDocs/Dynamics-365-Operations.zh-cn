@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2414ea97fefbec1e975498e171496e33057541c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 823b2569670adfbf04038abca656e34f0199fce1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968996"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210087"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>剩余年限法折旧
 

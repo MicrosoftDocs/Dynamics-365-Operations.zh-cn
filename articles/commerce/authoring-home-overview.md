@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39d91857a9d1f0b1280a842b0a26578fbb561851
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 030fa93e938df0ab22dd3e85c2d48d149ac239df
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989610"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211289"
 ---
 # <a name="authoring-page-overview"></a>创作页面概览
 

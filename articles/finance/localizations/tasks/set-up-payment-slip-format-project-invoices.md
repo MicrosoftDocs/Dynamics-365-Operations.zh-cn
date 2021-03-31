@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cca7ceb3c862d8a7b2d5a88111b9b3ea46a6c9ea
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b2bcbf19ef78c521a426573ea4317c5a0e9e2cb3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988066"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214436"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>设置项目发票的付款单格式
 

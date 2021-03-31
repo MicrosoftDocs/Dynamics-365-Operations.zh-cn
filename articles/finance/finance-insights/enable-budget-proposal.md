@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 59cf40e8bf69734c5f3645997ff0b07c29d4f40e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3a2060d082ed55e3b6fac506898916942ccc9db7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995132"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208477"
 ---
 # <a name="enable-budget-proposals-preview"></a>启用预算提案（预览）
 

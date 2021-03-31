@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7df2f55f596cab54315c2da2ec0492422514f49c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 90727e8624c8edb7cd9458089dd9d6dfaad67a7f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971295"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207223"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>通过租赁导入框架管理租赁
 

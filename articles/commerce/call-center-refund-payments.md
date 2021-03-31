@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3f98fbc14fc2946499a9c003eb0bd0edb7f2017e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fd49835a24dc6ec429ac4b01f363f1be937628ac
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991407"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214714"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>呼叫中心退款处理
 
 本主题说明创建退货时或取消订单或订单行时如何通过呼叫中心生成付款退款。
 
-在 Microsoft Dynamics 365 Commerce 总部作为呼叫中心用户为客户创建退货单的用户使用 **退货单** 页创建初始材料退回授权 (RMA)。 RMA 定义客户要退回或更换的产品，创建订单类型为 **退回订单** 的链接的退货销售订单。 此链接的退回订单用于跟踪退货库存的过帐以及过帐的所有贷方通知单或付款退款。
+在 Microsoft Dynamics 365 Commerce 总部作为呼叫中心用户为客户创建退货单的用户使用 **退货单** 页创建初始物料退回授权 (RMA)。 RMA 定义客户要退回或更换的产品，创建订单类型为 **退回订单** 的链接的退货销售订单。 此链接的退回订单用于跟踪退货库存的过帐以及过帐的所有贷方通知单或付款退款。
 
 如果呼叫中心渠道的 **启用订单完成** 选项设置为 **是**，创建 RMA 的呼叫中心用户必须通过选择 **退货单** 页上的 **完成** 来运行订单完成处理流。 **完成** 功能提供计算得出的退货摘要，其中大概描述了到期的退款金额。 此外，正确配置后，此功能会针对退回订单系统地创建退款付款行。
 

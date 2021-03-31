@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c42522f69ecf2eb25d8d9384737115826ff4cda
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cc50eac6a6210bd0af55b0dfd3c8ae22ac583619
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978503"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210111"
 ---
 # <a name="set-up-fixed-assets"></a>设置固定资产
 

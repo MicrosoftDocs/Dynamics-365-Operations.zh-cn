@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2c06f6f943c8a47fbe650a67017b95d799914a0e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e8ad226e87776615d9c19a239e0fb90b648d9c49
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971345"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210449"
 ---
 # <a name="create-a-lease-group"></a>创建租赁组
 

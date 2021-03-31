@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5223bdfbc0f5828b5dccac30362783075ce8157f
-ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
+ms.openlocfilehash: dcdc6d501f09b639eb0d7504e0f760a66bb3dbc7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5044364"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208525"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>机器学习模型的结果（预览）
 

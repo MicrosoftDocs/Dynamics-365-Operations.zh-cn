@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 08b40c076e288592f6a4cd628b9acd8a2eaedb7e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c28134b9be92802196b4861cbd20801419ef8d23
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998395"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212667"
 ---
 # <a name="wave-step-codes"></a>波次步骤代码
 

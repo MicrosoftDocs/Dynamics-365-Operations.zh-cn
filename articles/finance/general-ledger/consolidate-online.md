@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 91df786ed2298e21e7a3018b915c9bd5458efc32
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b25d52524d1b115a7513a73eafa1aef44e25562d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009235"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212293"
 ---
 # <a name="online-financial-consolidations"></a>在线财务合并
 

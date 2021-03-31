@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3367a8b3572b8055c420866e1aa1fc9e44ceaa1d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 116b473f40f7b0365474abe618c8689b8b1e8a58
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980073"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211367"
 ---
 # <a name="analyze-sales-trends-and-patterns"></a>分析销售趋势和模式
 

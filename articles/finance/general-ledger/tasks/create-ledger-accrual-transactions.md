@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cbda1c535aad63df55d40bcbadccffc3f35b455
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c1722c72ebc5ea7c0f8704ba3761f971f5075744
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994632"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216441"
 ---
 # <a name="create-ledger-accrual-transactions"></a>创建分类帐应计交易记录
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 0029e093f524c61ff17a480ee3b881b3994ba95a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 050c4f0fe1aea07c3866e2e9d7a6db6c758205ca
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009435"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208501"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>创建数据集成器项目（预览）
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59202cb6678660ae035f9f76ebe4267bac01d78f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: cc3646fb9b66fa926a9532696414943fc1345b75
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019896"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211878"
 ---
 # <a name="create-a-request-for-quotation"></a>创建询价
 

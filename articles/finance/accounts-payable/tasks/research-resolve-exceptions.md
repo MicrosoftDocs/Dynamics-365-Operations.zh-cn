@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 727676d060b77633d4ff4f31dabbd7825ca19aca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 63870aec130bc8b40f0f96c5c0d293993dbe0d49
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971770"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214540"
 ---
 # <a name="research-or-resolve-exceptions"></a>研究或解析异常
 

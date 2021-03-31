@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a8ba65ecc27bb152b1b368e870b15544d9599968
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0690bb1933c0d641ca54e4c519d127b37dd33f6d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978528"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212245"
 ---
 # <a name="import-format-for-consolidation"></a>用于合并的导入格式
 

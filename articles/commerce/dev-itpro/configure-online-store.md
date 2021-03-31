@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 551a0a1e524f4aa30b2420e6ec384c92f48e95ae
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cf7adf76cb547ffbf516ce475380ddafaca1dfc6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683376"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215454"
 ---
 # <a name="configure-online-stores"></a>配置在线商店
 

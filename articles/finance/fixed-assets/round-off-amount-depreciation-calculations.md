@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01c8662f0731abd089c9039c16bb77e39c1d3e51
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 378fa9498018f9ca0e99e04d04cbf6a28620e308
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976007"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210135"
 ---
 # <a name="round-off-amount-for-depreciation-calculations"></a>计算化整折旧金额
 

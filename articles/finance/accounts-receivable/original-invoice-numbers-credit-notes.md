@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 673288f04b33aa2a578f9e2e7913dbe7ac309644
-ms.sourcegitcommit: 7cdec5469ff0da145ac4e01caf3287d0627ae2dc
+ms.openlocfilehash: 04a4fc96cb7de60052b17e36c33ad5d5be322be4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5099994"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207343"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>对贷方通知单中的原始账单的引用
 

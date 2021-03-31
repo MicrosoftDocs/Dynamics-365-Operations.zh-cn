@@ -1,6 +1,6 @@
 ---
 title: 商店选择器模块
-description: 此主题介绍商店选择器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+description: 本主题介绍了商店选择器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74dbad4cb348f19b51ba8b84a1cd41fc5049708e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 785ff004adcd94e7c4c6c5918d632ce662aa7989
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006327"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205114"
 ---
 # <a name="store-selector-module"></a>商店选择器模块
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍商店选择器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
-
-## <a name="overview"></a>概览
+本主题介绍了商店选择器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 
 客户可以在在线购买后使用商店选择器模块在选定商店提货。 在 Commerce 版本 10.0.13 中，商店选择器模块还包括其他功能，可以展示显示附近商店的 **查找商店** 页面。
 

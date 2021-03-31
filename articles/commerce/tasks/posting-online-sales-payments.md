@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fbc85b957e716d07d9073d889c47f157ea0ead01
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e24c2be8a1b0da3c34919fdb44aa744f8e7fc87c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982283"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215404"
 ---
 # <a name="posting-of-online-sales-and-payments"></a>过帐联机销售和付款
 

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 79e8bf0714871ffd342bb6053153e6e4d0f5c668
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1ceb274c05874438206c1b3f8fc279a6f39e2b69
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969445"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208815"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>供统计维度成员和度量提供方使用的提供方模板
 

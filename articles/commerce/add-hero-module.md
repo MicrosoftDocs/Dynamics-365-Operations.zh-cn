@@ -17,21 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a6359c915d053bb00c969b166325f675c0003ead
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ad95dc943f075e088f5e13b507fa08f11548282f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980349"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206263"
 ---
 # <a name="content-block-module"></a>内容块模块
-
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍内容块模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
-
-## <a name="overview"></a>概览
 
 内容块模块用于通过图像和文本的组合营销产品或促销。 例如，零售商可向电子商务站点的主页添加一个内容块模块来促销新产品和吸引客户的注意。
 

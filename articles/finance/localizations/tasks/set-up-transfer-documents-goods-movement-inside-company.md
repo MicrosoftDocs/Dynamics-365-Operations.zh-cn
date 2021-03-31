@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4c71d1b0e756cc20fa68bf79102479447cf8f86
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 756b3568d1d43805a5786f0c90a0a198f89e7c2f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988037"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205979"
 ---
 # <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a>为公司内货物转移设置转移文档
 

@@ -1,6 +1,6 @@
 ---
 title: 传送模块
-description: 此主题介绍传送模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+description: 本主题介绍传送模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0b4ce8fdb7b598e55db59ddf5a99a0ba46eb6f91
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5333ecd7a1fe4f60684fa5f5bb3ac9f98efde6d7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985996"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206503"
 ---
 # <a name="carousel-module"></a>传送模块
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍传送模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
-
-## <a name="overview"></a>概览
+本主题介绍传送模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
 传送模块用于将多个促销项（包括大量图像）放到客户可浏览的旋转式传送横幅中。 例如，零售商可在主页中使用传送模块展示多个新产品或促销。
 

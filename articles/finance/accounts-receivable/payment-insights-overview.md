@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: d01f15223b4665caec16d6a4e51a5121a0ed94ea
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 21516cb7ef6e95dcef27638ddb72520f492958a5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012156"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207319"
 ---
 # <a name="customer-payment-insights-preview"></a>客户付款见解(预览)
 

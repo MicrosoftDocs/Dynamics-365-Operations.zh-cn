@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 51524ad6918d962d70a8a700f135f96e236f7d34
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a2ac4a4a42447e4ee57d24548a79f43b88b03927
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000867"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213690"
 ---
 # <a name="define-and-maintain-retail-channels"></a>定义和维护零售渠道
 

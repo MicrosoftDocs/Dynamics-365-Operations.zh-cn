@@ -16,14 +16,14 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2c396060017db6d7ce830b350f242d3097876e50
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 244d612fa01529df4fff250df50a06526632fcf1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012305"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210915"
 ---
-# <a name="opt-out-of-web-activity-event-collection"></a>选择不收集 Web 活动事件
+# <a name="opt-out-of-web-activity-event-collection"></a>选择退出 Web 活动事件收集
 [!include [banner](includes/banner.md)]
 
 本主题说明如何在 Microsoft Dynamics 365 Commerce 中让客户选择不收集 Web 活动事件。

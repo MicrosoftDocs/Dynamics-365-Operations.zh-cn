@@ -1,6 +1,6 @@
 ---
 title: 页眉模块
-description: 此主题介绍标题模块和如何在 Microsoft Dynamics 365 Commerce 中创建页面标题。
+description: 此主题介绍页眉模块和如何在 Microsoft Dynamics 365 Commerce 中创建页面页眉。
 author: anupamar-ms
 manager: annbe
 ms.date: 10/20/2020
@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1373397c4499ed65835bcc71c6fc628ff356e4e7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 569fb5ac3d30be30044ef9b928ecf1f6dde20aab
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991507"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211416"
 ---
 # <a name="header-module"></a>标题模块
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍标题模块和如何在 Microsoft Dynamics 365 Commerce 中创建页面标题。
-
-## <a name="overview"></a>概览
+此主题介绍页眉模块和如何在 Microsoft Dynamics 365 Commerce 中创建页面页眉。
 
 在 Dynamics 365 Commerce 中，页面标题配置为页面片段，其中包含页眉、促销横幅和 cookie 同意模块。 
 

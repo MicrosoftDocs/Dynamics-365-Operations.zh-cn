@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 11c98768d08ef28d436bfc63812321e7c7787a72
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: f7564ea4372e3d5a532daa33ff59802ba7dede6c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019271"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210353"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Excel 的预算计划模板
 

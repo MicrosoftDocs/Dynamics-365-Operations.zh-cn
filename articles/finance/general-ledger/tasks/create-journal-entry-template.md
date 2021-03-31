@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 234cfb98cc07f6c8c81821584e4e1d509d033477
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3843c165b3fc3030a937ec47a1439b1c1b36206d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988566"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216489"
 ---
 # <a name="create-a-journal-entry-using-template"></a>使用模板创建日记帐分录
 

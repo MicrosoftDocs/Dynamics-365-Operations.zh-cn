@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 944f88e65c5dbbd2acf21ebfd96c28ce477798ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fe90e29e5ae71492519d9ab0d4cab2d12765cf4b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975983"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212365"
 ---
 # <a name="close-the-general-ledger-at-period-end"></a>在期间结束时关闭总帐
 

@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 712e9359e31be96c426d6f16c878f18f05cc1bd2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 13072c8d6839fef1ab0dd55d626c23a2a1084d4d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980099"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209171"
 ---
 # <a name="video-player-module"></a>视频播放器模块
-
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍视频播放器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
-
-## <a name="overview"></a>概览
 
 视频播放器模块用于支持视频播放。 只要视频内容已上传到内容管理系统 (CMS) 并在其中可用，就可以将它添加到任何页面。 视频播放器模块支持 .mp4 媒体类型。
 

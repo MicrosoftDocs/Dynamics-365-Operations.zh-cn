@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3bd2460cc955c8dd901f0c3cb09f1d8a0ea9820e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bce35e38e02dbd437ed33e994697c42a4f6042ac
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991482"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211121"
 ---
 # <a name="browser-requirements-for-dynamics-365-commerce-sites"></a>Dynamics 365 Commerce 站点的浏览器要求
 

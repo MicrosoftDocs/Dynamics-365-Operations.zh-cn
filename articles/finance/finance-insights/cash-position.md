@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 5cf1ac4de07cb6357493a0b2c84f6a6ee591d4bc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ffe91d7ca273de36c2fae58a39d3a3d306496990
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990555"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208573"
 ---
 # <a name="cash-position-preview"></a>现金头寸（预览）
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b04155bf9c5e282e97eba4fc0a6290c771d7ba3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 81546f4e260d8632fd85dbc3765091628588988d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977655"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205242"
 ---
 # <a name="order-entry-deadlines"></a>订单输入截止时间
 

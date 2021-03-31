@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 6bfe27a7b4a768da00c67e307a0bd7e57b333d11
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4a56262d37f7d1a37f63d0b8e7c7e3f1642d33c4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965419"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206719"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>在 POS 中更改交货方式
 

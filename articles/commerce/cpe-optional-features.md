@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6639de250557ce9a25fc2cde3807abf64b0ddc18
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: def99a34404357e28501de5ccf11c6130d53f34f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993442"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213810"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>为 Dynamics 365 Commerce 评估环境配置可选功能
 
@@ -102,7 +102,7 @@ ms.locfileid: "4993442"
 
 您可能希望自定义电子邮件模板，让它们使用不同的图像。 或者，您可能想要更新模板中的链接，使其转到您的评估环境。 此过程说明如何下载默认模板，自定义默认模板和更新系统中的模板。
 
-1. 在 Web 浏览器中，将 [Microsoft Dynamics 365 Commerce 评估默认电子邮件模板 .zip 文件](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip)下载到本地计算机。 此文件包含以下 HTML 文档：
+1. 在 Web 浏览器中，将 [Microsoft Dynamics 365 Commerce 评估默认电子邮件模板 zip 文件](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip)下载到本地计算机。 此文件包含以下 HTML 文档：
 
     - 订单确认模板
     - 颁发礼品卡模板
@@ -139,10 +139,10 @@ ms.locfileid: "4993442"
 | 客户名称   | %customername% |
 | 交货地址  | %deliveryaddress% |
 | 帐单地址   | %customeraddress% |
-| 订货日期        | %shipdate% |
-| 传递模式     | %modeofdelivery% |
+| 订单日期        | %shipdate% |
+| 交货模式     | %modeofdelivery% |
 | 折扣          | %discount% |
-| 销售税         | %tax% |
+| 增值税         | %tax% |
 | 订单合计       | %total% |
 
 #### <a name="sales-line"></a>销售行

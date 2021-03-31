@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 259b68aa28aa0c84699fc6d2e691bae0af135ab7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5a5f38cf0cd88c5a6ba04725c3bdf5b6a14cf15b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997792"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213954"
 ---
 # <a name="call-center-catalogs"></a>呼叫中心目录
 

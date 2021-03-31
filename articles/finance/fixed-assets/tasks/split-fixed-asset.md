@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 75938e6fdf5fd8f10ac9719fc449a586c08d06b8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: db601be192b57fbec220193d3c9fde1a4f50c085
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975933"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213500"
 ---
 # <a name="split-a-fixed-asset"></a>拆分固定资产
 

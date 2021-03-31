@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5a4e3b4d7bb1d5feefd843cdc347b4a08f94a85a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0f89ffda27ff29e03bb517dfb6e7bfebee716027
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982180"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210233"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>合并科目组和其他合并科目
 

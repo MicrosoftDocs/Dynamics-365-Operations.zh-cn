@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 738768a6756db83a6855756ef48fffb4a5874b4a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: ba3f0b2be16c02129616025c0ee6258996189c6a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021371"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211806"
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>创建询价的计分方法
 

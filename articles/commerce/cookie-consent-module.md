@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 504232285267fb3663093a84a371e0040233ce23
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 57c8876f1faf08ce965ccd796551996a8651e2eb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993517"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213930"
 ---
 # <a name="cookie-consent-module"></a>Cookie 同意模块
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍 cookie 同意模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
-
-## <a name="overview"></a>概览
 
 cookie 同意模块提示站点用户明确提供同意，以便允许跟踪浏览器 cookie 的任何功能或模块的 cookie。 站点用户在新浏览器会话中浏览站点时，需要此同意。 收到同意后，将进行跟踪，并且不会再次提示站点用户提供同意。 有关详细信息，请参阅 [Cookie 合规性](cookie-compliance.md)。
 

@@ -1,6 +1,6 @@
 ---
 title: 使用片段
-description: 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用片段的原因、条件和方法。
+description: 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用片段的原因、时间和方法。
 author: phinneyridge
 manager: annbe
 ms.date: 10/16/2020
@@ -16,18 +16,18 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8436fd3621e94fb761c076454423fe9842306c78
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3df2d99ef10f909cedef16167fb8d5a0024683b3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982230"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210939"
 ---
 # <a name="work-with-fragments"></a>使用片段 
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍在 Microsoft Dynamics 365 Commerce 中使用片段的原因、条件和方法。
+此主题介绍在 Microsoft Dynamics 365 Commerce 中使用片段的原因、时间和方法。
 
 ## <a name="overview"></a>概览
 

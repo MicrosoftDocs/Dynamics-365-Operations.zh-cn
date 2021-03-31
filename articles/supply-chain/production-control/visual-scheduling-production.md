@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ecc3a95fb422ca0ce95258b7ffe349eaba07233c
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 99a7955178ae97e5b696fce04c665d9a251c4a0e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154243"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215857"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>用于作业级排产的甘特图
 

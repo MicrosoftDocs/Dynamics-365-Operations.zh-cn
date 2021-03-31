@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec62af4ec62de0d63b590c79db6a8164d59e72c4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 05de2748b0cf7a2b09618aee5c41c8c797f2b3d3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971270"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210401"
 ---
 # <a name="budget-planning"></a>预算计划
 
@@ -105,7 +105,7 @@ Julia 使用以下 Excel 模板编制预算：
 
 2.5。 选择“授予访问特定组织的权限”。 在第一步中选择创建的组织层次结构。 选择财务节点然后单击“授予组织及其子组织的访问权限”按钮。 
 
-**_重要信息！_* _ _确保在执行此任务时您位于 DEMF 法人环境中，因为组织安全按法人应用* 
+***重要信息！** _ _确保在执行此任务时您位于 DEMF 法人环境中，因为组织安全按法人应用* 
 
 ### <a name="task-3-create-scenarios"></a>任务 3：创建方案
 3.1. 导航到“预算编制”&gt;“设置”&gt;“预算计划”&gt;>“预算计划配置”。 在“方案”页，请注意我们在此实验室将进一步使用的方案：上一年实际和预算。 

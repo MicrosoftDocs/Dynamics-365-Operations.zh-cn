@@ -18,12 +18,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e73ad69b66b8d6874bb32e508d5a1c9fdbaf8118
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bd9ba8ad0d8b651fc86b54561bb0005720776894
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000682"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211064"
 ---
 # <a name="commerce-home-page"></a>Commerce 主页
 

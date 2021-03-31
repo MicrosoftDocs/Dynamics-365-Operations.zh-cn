@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a0770011a76b1e4cc8b4d13e54fab2d0fba43f8a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 365fa7a54dcf6817f933c0d305561c5fd0f8ba27
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975907"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213476"
 ---
 # <a name="transfer-a-fixed-asset"></a>转移固定资产
 

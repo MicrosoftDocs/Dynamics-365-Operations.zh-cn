@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ae3da8ee77636a2d2257e01f5876f5542469f7da
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4ddaf34ed2dec882310e5363db643bb522be1238
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986046"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206527"
 ---
 # <a name="buy-box-module"></a>购买框模块
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍购买框模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
-
-## <a name="overview"></a>概览
 
 术语 *购买框* 通常指的是产品详细信息页中的“第一屏”区域，用于承载进行产品购买所需全部最重要信息。 （“第一屏”区域在首次加载页面时显示，所以用户不必向下滚动即可看到。）
 

@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 038fee32cbf1ed6b4967f440faaf3c0d4fa583f6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 16c9ca145aff97f0af242da4cf662367f1f4ca3d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979939"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211440"
 ---
 # <a name="footer-module"></a>页脚模块  
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍页脚模块和如何在 Microsoft Dynamics 365 Commerce 中创建该模块。
-
-## <a name="overview"></a>概览
 
 页脚模块是用于承载页脚中显示的模块的特殊容器。 例如，其中可包含站点中各页面（如 **联系我们** 和 **商店政策** 页面）的链接。
 

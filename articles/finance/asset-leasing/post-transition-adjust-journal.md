@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 51ae41e22507d77f32b8b0f4685cce797fd19cff
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7ed62f52753a6697a7547ada0317041669cf3506
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969545"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207197"
 ---
 # <a name="post-transition-adjustment-journal-entries-in-asset-leasing"></a>在资产租赁中过帐转换调整日记帐条目
 

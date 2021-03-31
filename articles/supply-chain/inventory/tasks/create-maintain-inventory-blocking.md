@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eab6730daa2eb7df0f91d99d1026d4736285fef9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b5fb3c7fc5dbeb6263357113d2a9348afc5b1ac9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000051"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212739"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>创建和维护库存锁定
 

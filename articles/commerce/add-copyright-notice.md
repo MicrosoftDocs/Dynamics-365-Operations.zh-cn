@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 54d9ccbb56131333159cdf8858dfca23b75b61fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2ea04854636fdd0c2b3223bb19d5f06a19836151
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980448"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206359"
 ---
 # <a name="add-a-copyright-notice"></a>添加版权声明
 

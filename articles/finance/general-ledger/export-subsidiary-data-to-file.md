@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 179a401178935b8a76d6718a7fb1f63e08344f50
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 33c17cc2c1dcaa57244bf0bfaa661b11b221e2f6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968671"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205491"
 ---
 # <a name="export-subsidiary-data-to-files"></a>将子公司数据导出到文件
 

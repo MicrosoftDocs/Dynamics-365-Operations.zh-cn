@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 95c5801e69396b21a36c4ae12ce17801e6f7fd88
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 10a58cf7197d2a8596107a42174b35350e72ae11
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993492"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215689"
 ---
-# <a name="cookie-compliance"></a>Cookie 合规
+# <a name="cookie-compliance"></a>Cookie 合规性
 
 [!include [banner](includes/banner.md)]
 

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d60248f2bd6774b2e9afdb3632b6eb31d67349ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 882804141a6b520e2420343958c7a6b02a7e09ae
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009510"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208839"
 ---
 # <a name="overhead-calculation"></a>开销计算
 

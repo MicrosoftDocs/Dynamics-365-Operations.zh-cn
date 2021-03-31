@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 662b080a0e87ae6ce7d89ffa848579517dd9b6a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b8913e0b6919c26c0d81b1513bad9624690ed3ad
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979230"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214564"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>设置应付帐款发票匹配验证
 

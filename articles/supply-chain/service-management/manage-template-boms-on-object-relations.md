@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 881ecc3b9c1ef5fb4b3f61f6240c662635575bc8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3b4b615ab1df5031afe52d3392d76c8da386dd8e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974377"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204416"
 ---
 # <a name="manage-template-boms-on-object-relations"></a>管理针对对象关系的物料清单模板 
 

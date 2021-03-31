@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0d6ab6c034a5c341432f661cf1e729dfd3e5c239
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1b8bc7d0fe4486b108b277d5cd4200768cd92b96
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996374"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214218"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>配置装运合并策略
 

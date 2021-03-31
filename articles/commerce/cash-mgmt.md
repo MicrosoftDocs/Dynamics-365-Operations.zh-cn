@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 86cdd70919926243bbf2cb5cc2f26690accdac80
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ce75a191726fc430347f057ac511188acfbbf76e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993670"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213154"
 ---
 # <a name="cash-management-improvements"></a>现金管理改进
 

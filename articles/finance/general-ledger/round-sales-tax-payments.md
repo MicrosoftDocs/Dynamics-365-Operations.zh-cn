@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8d7e402614b35a77a0283d31377a073b0a6b357
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7be9be728a6515bb1fc1c9bc90938a3d33ea8da8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990181"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204946"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>销售税付款和化整规则
 

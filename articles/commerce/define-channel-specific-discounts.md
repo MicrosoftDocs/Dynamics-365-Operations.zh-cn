@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 990c0d0b4b89420094dc86552b3e07717e5c7056
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 36b2d8f96f8545f9fa792e42c639b03e1e14e8ee
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991382"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213738"
 ---
 # <a name="define-channel-specific-discounts"></a>定义特定于渠道的折扣
 

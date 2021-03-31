@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 4ffe0ac0b11a3f58ca4a893d8786f04b4067b270
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 44bd184514b24a816cc83f6b0070a5e08163921b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975524"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204801"
 ---
 # <a name="set-up-a-subsidiary-legal-entity-for-consolidation"></a>设置要合并的子公司法人
 

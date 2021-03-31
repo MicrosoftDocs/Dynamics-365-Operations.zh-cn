@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10b3e695ffcd44909be4781eac5d4eaeef199b03
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 5e0ec60068d8e03cb0302af94587f76809dc996d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017051"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211926"
 ---
 # <a name="create-a-purchase-return-order"></a>创建采购退货单
 
