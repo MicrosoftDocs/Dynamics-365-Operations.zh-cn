@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8683f3b6e10efe6e975ae6bc3d7863f884bb9a0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e2e5340150623057e233ed0acf487c42c61deba2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994457"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222111"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>设置销售税结算期间
 

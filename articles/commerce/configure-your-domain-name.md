@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d3df563b62b40970509340802a09bb36dda14777
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8b7bc322b1a42190d5eec99f89a34025c34ba09f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000992"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220478"
 ---
 # <a name="configure-your-domain-name"></a>配置域名
 

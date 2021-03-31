@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b2f9a78902ff1a0333c46c8ad9142338678b6e7d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e540e0f25afa65e84cdb11fb0c56437b72891f9f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986771"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220744"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>为可配置产品设置基于属性的定价
 

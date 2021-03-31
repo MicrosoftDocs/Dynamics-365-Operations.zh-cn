@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e615d13abf432705e40e5e33deb46ccab26192ae
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: baeaf6c47e9d799b729bb3f0b09a5e9e4511eac6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012213"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5217450"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>信用卡设置、授权和捕获
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d68087afd1a0c9b675e4ac1ef2118e6aab5213d9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: de048577ac372474b72728d7774e3159a159afc9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998645"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5221814"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>创建替换看板规则
 

@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4c06d4e02affc48cf8b9b533d2cd4c1cd0d85e4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bd47f9ad8ef7bca37986819bcc11f4c4c4d5ab0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997617"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220622"
 ---
-# <a name="compliance-overview"></a>合规概述
+# <a name="compliance-overview"></a>合规性概览
 
 
 [!include [banner](includes/banner.md)]

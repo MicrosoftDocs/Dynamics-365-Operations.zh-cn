@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6edabc51981d8935672b44e53b453cfbaca9031b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3b20b41d27e5faeac7ea88940c086ae33390dc29
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004644"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216997"
 ---
 # <a name="item-consolidation---location-utilization"></a>物料合并 - 位置利用率
 

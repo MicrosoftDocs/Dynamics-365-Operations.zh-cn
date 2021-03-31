@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d53181d63f7b362662d993e21671e9b685b5dfe
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 957fdc184410dc85f54cd3163799a9003f0727bb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968416"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222207"
 ---
 # <a name="set-up-main-account-categories"></a>设置主科目类别
 

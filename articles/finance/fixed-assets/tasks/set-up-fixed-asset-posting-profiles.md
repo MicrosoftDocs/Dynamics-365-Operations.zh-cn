@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8671d38098542afbd8d00e30e72de8dbd1fc4abb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2041a8cb36d106bfe3b5a858725c83d278f666a3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994807"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219907"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>设置固定资产过帐模板
 

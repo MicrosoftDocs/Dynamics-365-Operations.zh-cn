@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76a72e09f72c396f457283bfd18c41cac2607d1f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6e34259f0860659a49e13371f8619ac1f93dbd3d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998595"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223330"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>用于精益生产的可视排产
 

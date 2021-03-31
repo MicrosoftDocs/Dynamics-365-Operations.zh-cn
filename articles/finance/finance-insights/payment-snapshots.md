@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a07749533e84cb26ce59b80e4bde12c96eaf0a3f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b9d201125e9d9178ccfc1a7e52a20f1f12529345
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009335"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222937"
 ---
 # <a name="snapshots-overview-preview"></a>快照概述（预览）
 

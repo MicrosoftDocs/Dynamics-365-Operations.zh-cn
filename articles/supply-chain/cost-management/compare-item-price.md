@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 6554aec1991080f4a14aedb3440ff3dfd32e9b61
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f40faa7919e6fb5ce0de2594b3d2f264fe42fa1a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983949"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222913"
 ---
 # <a name="compare-item-prices-storage-report"></a>比较物料价格存储报表
 

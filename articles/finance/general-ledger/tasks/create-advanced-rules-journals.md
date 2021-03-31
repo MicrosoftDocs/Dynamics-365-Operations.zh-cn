@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c06855c7a7648c5829b90bc548a7d2e400967698
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e61ed731c4040e7351e20421f6cf217ae9a4641d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988594"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222351"
 ---
 # <a name="create-advanced-rules-for-journals"></a>创建日记帐高级规则
 

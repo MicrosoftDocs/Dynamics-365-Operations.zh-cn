@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 85b5d8306eb4e9f2a4b9df13d95ab88020c3591e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d9c0956e30d413f5ae695cf75b06fb58711b2944
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000657"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222481"
 ---
 # <a name="payment-module"></a>付款模块
 

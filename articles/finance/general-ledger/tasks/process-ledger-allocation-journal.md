@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a7e8c3ef6fa85daec2a191b433b1ec4ece441ee
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a52a5ce2d789757a11c9e443c7f25058bd9d8a91
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968471"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222327"
 ---
 # <a name="process-ledger-allocation-journal"></a>处理分类帐分配日记帐
 

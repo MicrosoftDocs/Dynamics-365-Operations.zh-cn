@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5318bac961682f88e192ac70c4993c62b69b399c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 6dfea7ca166948f507a1cdea20f3e4cce16080ce
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020867"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219477"
 ---
 # <a name="manual-update-of-asset-counters"></a>手动更新资产计数器
 

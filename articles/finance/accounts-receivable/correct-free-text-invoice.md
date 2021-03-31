@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3896a8574f7910ee09b360deb3ede10f061290bc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 71b94e6fa4faafdc5fbe68e89635ec79616164bb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991191"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5217522"
 ---
 # <a name="correct-a-free-text-invoice"></a>更正普通发票
 

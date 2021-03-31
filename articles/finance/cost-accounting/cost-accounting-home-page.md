@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 32003409ca070f98d3b3db75c790489c42be6081
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: db93078c862cd468ec692d490876d825725f4253
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989044"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219955"
 ---
 # <a name="cost-accounting-home-page"></a>成本核算主页
 

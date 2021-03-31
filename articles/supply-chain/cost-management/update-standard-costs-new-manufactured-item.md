@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6af1c88aee878e0ab1e28fc0247d4c184f8b9d21
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 03b5fb1311f5a483914c83563d989e1732d431ad
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983868"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219453"
 ---
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>为新的制造物料更新标准成本
 

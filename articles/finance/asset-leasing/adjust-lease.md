@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32d99d9e90b65f7cac74176d21fa4b053ae8f62c
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: f11dbd6dc67ffccb087f67f5ce6267fe94e0ee65
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130747"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219979"
 ---
 # <a name="adjust-leases"></a>调整租赁
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 此主题说明如何调整租赁。 如果修改了租赁条款，延长了租赁期限或其他情况发生了变化，可能需要进行调整。 资产租赁应该遵守会计准则编纂专题 842 (ASC 842) 和国际财务报告准则 16 (IFRS 16) 提供的有关租赁修改的指导。 ASC 842-20-15-1 将租赁修改定义为对合同的条款和条件进行的任何会导致租赁的范围或注意事项改变的更改。 IFRS 16 第 39 段规定，承租人必须对租赁负债进行重估，以反映租赁付款的变化。
 

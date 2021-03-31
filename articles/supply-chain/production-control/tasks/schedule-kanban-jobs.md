@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f97b88a2637e661146e8150cd6535ff32745227a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 30f7c431b3d27a534e53540c41768ea55c8dd39f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996793"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222793"
 ---
 # <a name="schedule-kanban-jobs"></a>计划看板作业
 

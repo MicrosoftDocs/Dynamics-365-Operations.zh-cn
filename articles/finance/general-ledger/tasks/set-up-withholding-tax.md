@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 45ae7d6bb04dbf06b9b05d9f5610895fced650b0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7ae7b13f743336e01f17248c8d6492b31e8044ef
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994432"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222303"
 ---
 # <a name="set-up-withholding-tax"></a>设置预缴税金
 

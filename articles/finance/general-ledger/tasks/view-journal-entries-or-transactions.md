@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5863fcc677e6dcfedf32031a14354674255ea137
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: da5979067639834929d10c0a8c1e372b2235a7af
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994382"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222063"
 ---
 # <a name="view-journal-entries-or-transactions"></a>查看日记帐条目或交易记录
 

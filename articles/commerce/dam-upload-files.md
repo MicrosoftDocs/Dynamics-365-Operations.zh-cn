@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3392f5f36d04e8cb0a9d6e6b7db31ff62c987649
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c065aa961cf5c2d6770ae47c63a75953e6d38e00
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995762"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222529"
 ---
-# <a name="upload-files-other-than-images-and-videos"></a>上传非图像和视频文件
+# <a name="upload-files-other-than-images-and-videos"></a>上传图像和视频以外的文件
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中上传非图像和视频文件。
+此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中上传非图像和视频的文件。
 
 ## <a name="overview"></a>概览
 

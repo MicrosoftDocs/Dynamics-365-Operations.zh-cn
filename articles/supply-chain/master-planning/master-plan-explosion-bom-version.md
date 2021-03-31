@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f50d9f2f7249ecb4090983e245d4700020e0886
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 617d9c3f05f2db30ec075a07b54c4827e668c20e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005169"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220840"
 ---
 # <a name="explosion-of-a-bom-version"></a>物料清单版本的分解
 

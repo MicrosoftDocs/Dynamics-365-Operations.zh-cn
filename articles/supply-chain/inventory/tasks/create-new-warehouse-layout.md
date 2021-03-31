@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f07fee1787cc2719bafbe2bb6d54849edda14018
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2f6f97bc13bc27ec88570992872a256926522c52
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000026"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218697"
 ---
 # <a name="create-a-new-warehouse-layout"></a>创建新仓库布局
 

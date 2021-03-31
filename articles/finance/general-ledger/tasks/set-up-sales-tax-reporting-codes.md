@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 821d4abcffbca624382aa7709c02b857fcb6e349
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: be24e18da63d1a613c3c6e72f7c767c7af9b6656
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994507"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222135"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>设置销售税申报代码
 

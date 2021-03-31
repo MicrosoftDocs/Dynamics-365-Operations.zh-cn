@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d618ff09cf8d693741e8278dd44248f4ffe8bb7b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 26e425973653240870a53c469385543549feb347
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982258"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223125"
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a>执行自助服务以下载硬件工作站
 

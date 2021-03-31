@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f7f11cfb66951dea15bd1650adb7b75f35a106e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7ef7312243cf7e9b890456fbeeeefb85728b4b5b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006558"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219237"
 ---
 # <a name="reverse-changes-in-a-dispatch-board"></a>冲销发货牌中的更改 
 
