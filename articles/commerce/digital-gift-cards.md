@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 5a88bef72e13b7b0d948bfd7617cb1dbbcd9ce49
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cbfa84770e4671fdf289e168345d8b815caee4f7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982658"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230550"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>电子商务数字礼品卡
 

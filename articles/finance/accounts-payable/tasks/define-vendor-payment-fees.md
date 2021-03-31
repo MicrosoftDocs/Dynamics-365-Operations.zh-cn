@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52321851a1aa588a0bbe238e366a28d503665988
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0705cdae069b687a141b0a85280eaed0fa207a89
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979330"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227248"
 ---
 # <a name="define-vendor-payment-fees"></a>定义供应商付款费用
 

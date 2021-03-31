@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b381ec0535676b77a62bc748fd2ca1c521839ae
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3411be3be44b5ca72bcd6b52b335662b1fc16aa4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972447"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231168"
 ---
 # <a name="retail-sales-price-management"></a>零售销售价格管理
 

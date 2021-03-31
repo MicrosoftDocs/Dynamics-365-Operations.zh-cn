@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f012f934015e334aea468b5b62741749103d7790
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b761a14f44be292e9dd21eb580473bd0981d9044
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978731"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230314"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>200% 余额递减法
 

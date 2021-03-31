@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 2156542ed0932fab6fb4fa4035e009ad89eeb18f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2e7df580557486c67fc82af19f742bc8002cb881
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003745"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231072"
 ---
 # <a name="process-customer-order-pickups-in-pos"></a>在 POS 中处理客户订单提货
 
@@ -36,7 +36,7 @@ ms.locfileid: "5003745"
 
 ![提货操作](media/pickupoperation.png)
 
-在 Microsoft Dynamics 365 Commerce 版本 10.0.17 及更高版本中，可以通过 Commerce headquarters 中的“功能管理”打开 **销售点中改进的提货订单处理用户体验** 功能。 如果此功能关闭，用户则无法选择提货数量。 默认情况下，为行订购的全部数量是要提货的数量。 此体验可能会存在问题，因为用户在通过订单履行执行提货时可能会忘记选择其中一些要提货的产品。
+在 Microsoft Dynamics 365 Commerce 版本 10.0.17 及更高版本中，可以通过 Commerce Headquarters 中的“功能管理”打开 **销售点中改进的提货订单处理用户体验** 功能。 如果此功能关闭，用户则无法选择提货数量。 默认情况下，为行订购的全部数量是要提货的数量。 此体验可能会存在问题，因为用户在通过订单履行执行提货时可能会忘记选择其中一些要提货的产品。
 
 **销售点中改进的提货订单处理用户体验** 功能让用户可以更进一步地控制对要提货的产品的选择以及要提货的产品的数量。 在选择 **提货** 之前，用户无需先在订单履行页面上选择销售订单的每一行。 可以提货的所有产品都会显示。 用户可以为提货指定多个行，即使只选择了一个产品行。
 

@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d4812021e45155c811707d54204f4549131da76a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: be2f984c1ce5c76e3f995108d25f57c29e8c8457
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989069"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226348"
 ---
 # <a name="cost-element-dimensions"></a>成本元素维度
 

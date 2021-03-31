@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: e14b029a1420eda6af6e83392f295a071a29842a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f317b22f2794dc71093068a51c8e9d4e6d7d55ac
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972422"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231144"
 ---
 # <a name="retail-price-reports"></a>零售价报表
 

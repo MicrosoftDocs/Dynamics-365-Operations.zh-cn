@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7c408068ece94d47c0f41e286a2ce0ae7efd23dd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f5037067917290f21f681d2446a0e1ab0e31228c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972483"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231192"
 ---
 # <a name="options-for-preventing-discounts-for-retail-products"></a>用于防止为零售产品打折的选项
 

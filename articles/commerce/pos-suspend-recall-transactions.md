@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 823d538bea481aef4f3657fe0ae1ebb3b0cf759c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fb92de200690b03a55a3a173fd433478c8e3175d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972522"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231264"
 ---
 # <a name="suspend-and-resume-a-transaction-in-the-point-of-sale-pos"></a>暂停和恢复销售点 (POS) 的交易
 

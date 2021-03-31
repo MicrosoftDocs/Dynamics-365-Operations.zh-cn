@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b27ccc3b4c4f5470d3a5b8ed7347e269c6793b87
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cb7c92fcab622109b01590d4acadce0d707d3d2d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976033"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227080"
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>从应付帐款创建和购置资产
 

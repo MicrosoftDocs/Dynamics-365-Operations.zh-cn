@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9a17eaf0a65f5228ec60391e22c98c2f383d7cce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 77b538ef1b427fba28bbd130cff301c4c3fcc9a9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990809"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226333"
 ---
 # <a name="cost-object-dimensions"></a>成本对象维度
 

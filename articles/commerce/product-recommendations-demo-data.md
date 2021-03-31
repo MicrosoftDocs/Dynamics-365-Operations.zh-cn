@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7ccb0b6c5aace0fc76c6886299fba7369abed860
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 378acccc9b3afb190d0b8f79bec3d64cd6a41fdb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972349"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231048"
 ---
 # <a name="create-recommendations-with-demo-data"></a>使用演示数据创建建议
 

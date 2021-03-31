@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7112a2f68ff0feccc8db84add53a92f0397c2f90
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 65aefa75de772fa39b45fc376349b75a3662cd73
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979505"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227418"
 ---
 # <a name="reverse-a-vendor-payment"></a>冲销供应商付款
 

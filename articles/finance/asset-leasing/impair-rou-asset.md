@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9822a11dbb277726b60ff82843bd26314e968345
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3b648075a681fb01720149aac4f479dccf963489
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003248"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5229518"
 ---
 # <a name="impair-right-of-use-assets"></a>减损使用权资产
 

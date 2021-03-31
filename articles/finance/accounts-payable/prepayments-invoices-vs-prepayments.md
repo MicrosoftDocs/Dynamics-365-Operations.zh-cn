@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9c29529aa57eb7685e36f5407f4279544fdb701
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c8e882cb2063133324005a8e4585daa1c6a0752b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979530"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227466"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>预付款发票与预付款
 

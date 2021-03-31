@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3f2ae63758fcb6247c5e56433645d9252576c755
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e2dcfa18af457ea21618704bafa2ed81c615d952
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996265"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228505"
 ---
 # <a name="put-to-wall---put-to-store"></a>放置 - 存放
 

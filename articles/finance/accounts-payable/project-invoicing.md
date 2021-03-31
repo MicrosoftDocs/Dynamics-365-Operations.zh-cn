@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5a6a29b180564dc4e4dd768b9e4b97c8877ce00c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 41c5e53969b5ee88e869196e8749dddd58047de2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979579"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227490"
 ---
 # <a name="project-invoicing"></a>项目开单
 

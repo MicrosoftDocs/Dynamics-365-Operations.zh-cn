@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: cc76a3915d6a1e58a71eb997b5af58941905e879
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3d67052d47cf23acbb51354773fbd306545bbfa7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996040"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228361"
 ---
 # <a name="reprint-and-void-wave-labels"></a>重新打印和取消波次标签
 

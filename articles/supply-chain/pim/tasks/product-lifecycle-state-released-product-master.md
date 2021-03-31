@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a9f8f519c54ffe4f1a2a44da51ac5d97c56182a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9a5d7f6532e3c0b61fcc5758f383257d4a9a09b5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992212"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226729"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a>对已发布的基础产品分配产品生命周期状态
 

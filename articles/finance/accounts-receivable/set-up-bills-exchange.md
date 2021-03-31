@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8cc9a732e2f220d289906aea7aba3d96a182b25b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6910a019a2314655c60a0bfdaad7d4df384225b4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995440"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228141"
 ---
 # <a name="set-up-bills-of-exchange"></a>设置汇票
 

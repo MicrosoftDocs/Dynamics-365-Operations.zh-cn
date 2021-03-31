@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e9f84e3ffc79920fc6ef49a6391f76acdd89252a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d37abc6c88fccf7ba71a725ad06922f41dc9cfc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012461"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226607"
 ---
 # <a name="info-codes-and-info-code-groups"></a>信息代码和信息代码组
 

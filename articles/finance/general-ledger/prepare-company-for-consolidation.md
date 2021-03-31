@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6fce69724945448f961769dd383d1047a5d13c4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 07988e71276c6439e392bce2087f3a8923f5f40b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990288"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230194"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>为合并流程准备法人
 

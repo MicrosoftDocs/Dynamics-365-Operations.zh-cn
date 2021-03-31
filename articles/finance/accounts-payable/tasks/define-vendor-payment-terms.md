@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b69b505996b5536088578885c11a7e8c27f4975
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d6a37272694609be14b566dae3c6cf561d4c6d2f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971845"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227224"
 ---
 # <a name="define-vendor-payment-terms"></a>定义供应商付款期限
 

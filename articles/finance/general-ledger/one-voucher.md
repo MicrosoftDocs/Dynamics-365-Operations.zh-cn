@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: cada62078b71dd304e90951ab0f4c1643beaa48c
-ms.sourcegitcommit: bd4763cc6088e114818e80bb1c27c6521b039743
+ms.openlocfilehash: 6b1fbf75904a869fa51d6a5938d3e808b3d6624c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5107712"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230266"
 ---
 # <a name="one-voucher"></a>一个凭证
 

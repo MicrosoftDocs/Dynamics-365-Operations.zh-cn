@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2c35b810151349384f105d9ac1d93e1885031450
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 381f5ecdb3d6fc909a8350ba28af9fd21152da7a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104200"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228781"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>电子开票附加产品概述
 

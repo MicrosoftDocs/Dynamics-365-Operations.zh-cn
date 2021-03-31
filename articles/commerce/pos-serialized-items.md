@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0431ffa45eceac5c12d8ed991b00730c50ca62f8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ee79fef3300ebea476ea37adc4cc61a9bbadb5d6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972547"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231240"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>在 POS 中处理序列化产品
 

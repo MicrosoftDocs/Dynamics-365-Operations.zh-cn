@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a7d9b3ea3d4f1d48b8a7326bd5a01d3119310c62
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d6daa43178625316a40427728e7e4186691cc13c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003173"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5229542"
 ---
 # <a name="dual-reporting"></a>双重申报
 
