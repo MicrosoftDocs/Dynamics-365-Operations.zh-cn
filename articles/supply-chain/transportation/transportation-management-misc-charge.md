@@ -14,19 +14,22 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: cb503072fb76e04aa01ff2d231c756eeb244c65a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4f58db216176832d61bdafbe43831ededd3dd6dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004693"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233407"
 ---
-# <a name="transportation-management-miscellaneous-charges"></a><span data-ttu-id="eabb1-103">运输管理杂项费用</span><span class="sxs-lookup"><span data-stu-id="eabb1-103">Transportation management miscellaneous charges</span></span>
+# <a name="transportation-management-miscellaneous-charges"></a><span data-ttu-id="002ad-103">运输管理杂项费用</span><span class="sxs-lookup"><span data-stu-id="002ad-103">Transportation management miscellaneous charges</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="eabb1-104">与所有杂项费用一样，运输产生的费用必须与费用代码关联。</span><span class="sxs-lookup"><span data-stu-id="eabb1-104">As with all miscellaneous charges, transportation-generated charges must be associated with a charge code.</span></span> <span data-ttu-id="eabb1-105">否则，它们将不会作为杂项费用添加回订单中。</span><span class="sxs-lookup"><span data-stu-id="eabb1-105">Otherwise, they won't be added back to the order as a miscellaneous charge.</span></span> <span data-ttu-id="eabb1-106">**费用代码** 确定对于添加费用的订单和订单行费用如何计算。</span><span class="sxs-lookup"><span data-stu-id="eabb1-106">The **Charges code** determines how the charge is accounted for in relation to the order and order line where it is added.</span></span>
+<span data-ttu-id="002ad-104">与所有杂项费用一样，运输产生的费用必须与费用代码关联。</span><span class="sxs-lookup"><span data-stu-id="002ad-104">As with all miscellaneous charges, transportation-generated charges must be associated with a charge code.</span></span> <span data-ttu-id="002ad-105">否则，它们将不会作为杂项费用添加回订单中。</span><span class="sxs-lookup"><span data-stu-id="002ad-105">Otherwise, they won't be added back to the order as a miscellaneous charge.</span></span> <span data-ttu-id="002ad-106">**费用代码** 确定对于添加费用的订单和订单行费用如何计算。</span><span class="sxs-lookup"><span data-stu-id="002ad-106">The **Charges code** determines how the charge is accounted for in relation to the order and order line where it is added.</span></span>
 
-<span data-ttu-id="eabb1-107">转到 **运输管理 > 设置 > 评级 > 杂项费用** 定义确定特定 **费用代码** 何时应用于费用的合格条件。</span><span class="sxs-lookup"><span data-stu-id="eabb1-107">Go to **Transportation management > Setup > Rating > Miscellaneous charges** to define the qualifying criteria that determine when a specific **Charges code** is applied to a charge.</span></span>
+<span data-ttu-id="002ad-107">转到 **运输管理 > 设置 > 评级 > 杂项费用** 定义确定特定 **费用代码** 何时应用于费用的合格条件。</span><span class="sxs-lookup"><span data-stu-id="002ad-107">Go to **Transportation management > Setup > Rating > Miscellaneous charges** to define the qualifying criteria that determine when a specific **Charges code** is applied to a charge.</span></span>
 
-<span data-ttu-id="eabb1-108">每个 **费用模块** 设置（*客户* 和 *供应商*）至少应有一个将 **杂项费用类型** 设置为 *无* 的设置。</span><span class="sxs-lookup"><span data-stu-id="eabb1-108">You should have at least one setup for each relevant **Charges module** setting (*Customer* and *Vendor*) where the **Miscellaneous charge type** is set to *None*.</span></span> <span data-ttu-id="eabb1-109">如果缺少此设置，杂项费用 *不* 会被添加到订单中。</span><span class="sxs-lookup"><span data-stu-id="eabb1-109">If this is missing, the miscellaneous charge will *not* be added to the order.</span></span>
+<span data-ttu-id="002ad-108">每个 **费用模块** 设置（*客户* 和 *供应商*）至少应有一个将 **杂项费用类型** 设置为 *无* 的设置。</span><span class="sxs-lookup"><span data-stu-id="002ad-108">You should have at least one setup for each relevant **Charges module** setting (*Customer* and *Vendor*) where the **Miscellaneous charge type** is set to *None*.</span></span> <span data-ttu-id="002ad-109">如果缺少此设置，杂项费用 *不* 会被添加到订单中。</span><span class="sxs-lookup"><span data-stu-id="002ad-109">If this is missing, the miscellaneous charge will *not* be added to the order.</span></span>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,25 +15,28 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20ba3033dd5917406eb3b8bcb933f26fc120f721
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 273f335bc7b75f46911295c950c7f9f323cc9699
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983133"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237934"
 ---
-# <a name="create-product-model-components"></a><span data-ttu-id="77d7e-103">创建产品模型组件</span><span class="sxs-lookup"><span data-stu-id="77d7e-103">Create product model components</span></span>
+# <a name="create-product-model-components"></a><span data-ttu-id="c3d39-103">创建产品模型组件</span><span class="sxs-lookup"><span data-stu-id="c3d39-103">Create product model components</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="77d7e-104">基于约束的产品配置模型使用组件作为基本结构块以建立产品模型结构。</span><span class="sxs-lookup"><span data-stu-id="77d7e-104">Constraint-based product configuration models use components as building blocks to establish the product model structure.</span></span> <span data-ttu-id="77d7e-105">这些组件必须在可构建产品模型前创建。</span><span class="sxs-lookup"><span data-stu-id="77d7e-105">The components must be created before a product model can be built.</span></span> <span data-ttu-id="77d7e-106">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="77d7e-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="c3d39-104">基于约束的产品配置模型使用组件作为基本结构块以建立产品模型结构。</span><span class="sxs-lookup"><span data-stu-id="c3d39-104">Constraint-based product configuration models use components as building blocks to establish the product model structure.</span></span> <span data-ttu-id="c3d39-105">这些组件必须在可构建产品模型前创建。</span><span class="sxs-lookup"><span data-stu-id="c3d39-105">The components must be created before a product model can be built.</span></span> <span data-ttu-id="c3d39-106">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="c3d39-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="77d7e-107">单击“产品变型模型定义”。</span><span class="sxs-lookup"><span data-stu-id="77d7e-107">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="77d7e-108">单击“产品配置模型”。</span><span class="sxs-lookup"><span data-stu-id="77d7e-108">Click Product configuration models.</span></span>
-3. <span data-ttu-id="77d7e-109">在“操作窗格”上单击“模型”。</span><span class="sxs-lookup"><span data-stu-id="77d7e-109">On the Action Pane, click Model.</span></span>
-4. <span data-ttu-id="77d7e-110">单击“组件”。</span><span class="sxs-lookup"><span data-stu-id="77d7e-110">Click Components.</span></span>
-5. <span data-ttu-id="77d7e-111">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="77d7e-111">Click New.</span></span>
-6. <span data-ttu-id="77d7e-112">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="77d7e-112">In the Name field, type a value.</span></span>
-7. <span data-ttu-id="77d7e-113">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="77d7e-113">In the Description field, type a value.</span></span>
-8. <span data-ttu-id="77d7e-114">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="77d7e-114">Close the page.</span></span>
+1. <span data-ttu-id="c3d39-107">单击“产品变型模型定义”。</span><span class="sxs-lookup"><span data-stu-id="c3d39-107">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="c3d39-108">单击“产品配置模型”。</span><span class="sxs-lookup"><span data-stu-id="c3d39-108">Click Product configuration models.</span></span>
+3. <span data-ttu-id="c3d39-109">在“操作窗格”上单击“模型”。</span><span class="sxs-lookup"><span data-stu-id="c3d39-109">On the Action Pane, click Model.</span></span>
+4. <span data-ttu-id="c3d39-110">单击“组件”。</span><span class="sxs-lookup"><span data-stu-id="c3d39-110">Click Components.</span></span>
+5. <span data-ttu-id="c3d39-111">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="c3d39-111">Click New.</span></span>
+6. <span data-ttu-id="c3d39-112">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c3d39-112">In the Name field, type a value.</span></span>
+7. <span data-ttu-id="c3d39-113">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c3d39-113">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="c3d39-114">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="c3d39-114">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
