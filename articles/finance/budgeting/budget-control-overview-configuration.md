@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b371e6c87c65e707bf1468eb8df4be892f7750d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 08b2ee99f32628935552c5be166bdcd77291a6dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990934"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249501"
 ---
 # <a name="budget-control-overview"></a>预算控制概览
 

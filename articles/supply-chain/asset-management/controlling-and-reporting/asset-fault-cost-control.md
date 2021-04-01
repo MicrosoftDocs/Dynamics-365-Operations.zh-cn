@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 597e30db346e882a7002709be52ad1c2d0576099
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: c25b3efbd0f2f0ec22a08aeac54ffb7fd9398c83
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019933"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253822"
 ---
 # <a name="asset-fault-cost-control"></a>资产故障成本控制
 

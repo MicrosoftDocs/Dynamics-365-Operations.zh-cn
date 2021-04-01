@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e7343d0a9ea3082a3fad90bdcbb8962e56c70a4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 409903740413994fead3f65b12afb414ca5c43ed
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4981373"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255389"
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>计算看板数量建议
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a1ea23059d56ebf387a95a1378e2a3cd47556d5f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a9a5d20732a802fc58c392853af8334bbc07de73
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993837"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248707"
 ---
 # <a name="troubleshoot-reservations-in-warehouse-management"></a>仓库管理中的预留疑难解答
 

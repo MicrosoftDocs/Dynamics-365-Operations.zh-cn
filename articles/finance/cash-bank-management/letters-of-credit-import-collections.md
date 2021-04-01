@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad39951902395ebd2f78169f77e8d1a2e03a5762
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 45eed711ace1534df462a21d0f37bdfaa09e6392
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978831"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253931"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>信用证和进口托收
 

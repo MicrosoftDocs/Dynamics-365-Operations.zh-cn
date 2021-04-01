@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 5e71cfd451a51a5dabd12419541202ecc39df631
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5fd24ad91b669b054b88cd187309038f1716e582
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999948"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256199"
 ---
 # <a name="set-up-master-planning"></a>设置主计划
 

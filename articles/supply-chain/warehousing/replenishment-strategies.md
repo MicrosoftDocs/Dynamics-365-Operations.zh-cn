@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 9c23126c6ab15a1924b34f98d33a0661011ba8bb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a66d48c6636f9f2012c92945868728d8430c1cbe
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996090"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256031"
 ---
 # <a name="replenishment-strategies"></a>补货策略
 

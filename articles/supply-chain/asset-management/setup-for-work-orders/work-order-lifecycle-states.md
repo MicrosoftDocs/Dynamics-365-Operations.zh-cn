@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2a8052942ff97c9e8033d5915723e82c42f964c8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: e72c56765ad51a4f43fb01d842f5940a4d1a025e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021571"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248831"
 ---
 # <a name="work-order-lifecycle-states"></a>工作订单生命周期状态
 

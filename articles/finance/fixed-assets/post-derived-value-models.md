@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4704dde64305bd285d9796cc161205709bd6e7ed
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 628110e62d30a717b243530367196aeaf930e3e3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988919"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256730"
 ---
 # <a name="post-with-derived-books"></a>使用衍生帐簿过帐
 

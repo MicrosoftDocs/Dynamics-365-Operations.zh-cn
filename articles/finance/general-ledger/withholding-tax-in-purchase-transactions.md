@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 06997e2d6b47d867e014a7d493d91015c78a5e04
-ms.sourcegitcommit: 630a0b3f800f36ced49b79156dd52132904fef75
+ms.openlocfilehash: 06c18e6b0779539a6da7ae7afbe000c4cfc78d9e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "5060704"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256659"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>购买交易记录中的预缴税金
 

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 56621bb9658b71551c7312aa47812903914bc888
-ms.sourcegitcommit: da17648c296b22d517eadb2f71c7803672e5648d
+ms.openlocfilehash: 36dd3e8a3d47f02eed5b9c8bb79d773d98069376
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031781"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254833"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>为在线订单配置销售税
 

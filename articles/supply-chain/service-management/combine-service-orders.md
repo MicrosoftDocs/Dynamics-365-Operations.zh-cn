@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55de251f7f9cdbae99eaec13d4ddd7d3bf26b2bb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bd3ac8cf3c025b082b33247fcd020aebc010bc8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996668"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247710"
 ---
 # <a name="combine-service-orders"></a>合并服务订单   
 

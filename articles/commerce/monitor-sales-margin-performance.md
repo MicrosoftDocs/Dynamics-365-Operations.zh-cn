@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 51dc7c4b62a497e3dc9279b3c5a616057316c106
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d8d6a99e0ed3f331051d504e3a1ce2bd403cc17
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985878"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251299"
 ---
 # <a name="monitor-sales-and-margin-performance"></a>监控销售和利润率
 

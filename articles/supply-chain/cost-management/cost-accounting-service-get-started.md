@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 1f602116edabc424b6cbee541e268df017912d3c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bbf2df112657342245aca2bd02e06cee7e51ea82
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011839"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251042"
 ---
 # <a name="get-started-with-the-cost-accounting-service-private-preview"></a>开始使用成本核算服务（私人预览版）
 

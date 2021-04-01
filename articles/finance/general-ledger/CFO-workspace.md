@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 457c547947ce6182d03e7a8276b380bc08535bca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 30506b17331d15e1164f513b34ff71f612828f8b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985104"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256683"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>向 CFO 工作区添加财务维度
 
@@ -33,7 +33,7 @@ ms.locfileid: "4985104"
 1. 在 Finance 中的 **实体商店** 页中，更新 **LedgerActivityMeasure** 和 **BudgetActivityMeasure** 度量。
 2. 在 Microsoft Visual Studio 中，打开“应用程序资源管理器”，然后搜索 **LedgerCFO**。
 3. 在 **资源** 下，打开 **LedgerCFOWorkspacePBIX**。
-4. 资源在 Microsoft Power BI 桌面中打开时，依次选择 **获取数据**、**SQL Server 数据库** 和 **连接**。
+4. 资源在 Microsoft Power BI Desktop 中打开时，依次选择 **获取数据**、**SQL Server 数据库** 和 **连接**。
 5. 输入服务器名称，然后输入 **AxDW** 作为数据库。 选择 **DirectQuery**，然后选择 **确定**。
 6. 搜索并选择 **LedgerActivityMeasure\_DimensionCombination**，然后选择 **加载**。
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5879f7f89d010c4d61536004c1077ca3270a98f8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 31d83e2083806a518928dc2079c31fab6f95872c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003420"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254505"
 ---
 # <a name="credit-limit-adjustments"></a>信用额度调整 
 

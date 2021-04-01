@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f362bf4a6b5de3ce16330aea08880b07b4145792
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b6d201329996f23d94c0fc76a9635d3bb99c931e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992856"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249669"
 ---
 # <a name="set-up-index-rates"></a>设置指数利率
 

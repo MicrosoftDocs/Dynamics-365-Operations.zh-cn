@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-06-15
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f529852f63c3dd12064c74403a12f6f3041691e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 60b995216eed2eda740cb4cd9be79d15d46789e4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988659"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248919"
 ---
 # <a name="allocation-terms"></a>分摊条件
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a06ec39bd0552faf7961ae75ff393f0b8edac2eb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 87b2554197c1963cdd7ba0871edb532661d10945
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991732"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256055"
 ---
 # <a name="set-up-a-preferred-technician"></a>设置首选技术人员 
 

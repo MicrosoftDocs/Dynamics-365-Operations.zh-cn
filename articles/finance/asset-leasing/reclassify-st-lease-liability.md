@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 08ca824bb4c4a02a80f2187fb5f8fe4e8b7327c9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9189033987a3072c7122e1a198768d9de6aa2a52
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992906"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254075"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>重新分类租赁负债的短期部分
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 17ed1dcae97f6cd28175c483be5ca3ce96d59e05
-ms.sourcegitcommit: 053f4cda6862fbcd9e3aa6e9cb009e7de833beac
+ms.openlocfilehash: 25fc503d6145872b8e9f28b8d9a4d7b9c1ba53a4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5075730"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249159"
 ---
 # <a name="global-withholding-tax"></a>全球预缴税金
 
