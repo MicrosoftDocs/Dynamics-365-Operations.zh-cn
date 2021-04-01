@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7c98526423b28fcb6c4e00a9f2cfd84d5a9119e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d8eeba07aafbcbc327aa5e28a10d10c16b0e0f43
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977005"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236533"
 ---
 # <a name="set-up-dispositions-codes"></a>设置处置代码
 

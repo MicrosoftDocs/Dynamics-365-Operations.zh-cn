@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 711f4f5549a478768f7f86a7001ac8a6cf9f4db6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c1038b0ec80ec3441e508bcf51bca0dac01cbd0d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985659"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234453"
 ---
 # <a name="shift-and-cash-drawer-management"></a>班次和银箱管理
 

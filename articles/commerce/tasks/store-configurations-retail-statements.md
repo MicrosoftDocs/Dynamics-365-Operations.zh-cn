@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af4321cd9d6e15c82c4eef1f1ca218b8301ebf35
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e1670a1a102f9288cdbd0e4cc981e3aa927d1ad9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003645"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232657"
 ---
 # <a name="store-configurations-for-retail-statements"></a>零售报表的商店配置
 

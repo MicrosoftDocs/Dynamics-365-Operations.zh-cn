@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 31db10ad820bf049192ba0446b59da16cab3c553
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: da4020afc8832ed9bef88f5387533ee6cd09645b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010589"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234793"
 ---
 # <a name="receive-partial-deliveries-of-returned-items"></a>接收退回物料的部分交货    
 

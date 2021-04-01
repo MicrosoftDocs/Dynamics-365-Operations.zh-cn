@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 2f2ec94b8d3bce9ca9fb565fe06b268f5c7458fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f2f4d115c29cc87b5202ffd372871ae76780236b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005019"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232318"
 ---
 # <a name="master-planning-setup-wizard"></a>主计划设置向导
 

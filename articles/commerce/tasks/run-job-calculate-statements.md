@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 402ddf9a2646b2db0346e01504e8188120f16ae5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8366bfff16bac8ef8f7b15cb97417d474b52f59c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982205"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232753"
 ---
 # <a name="configure-and-run-job-to-calculate-statements"></a>配置和运行作业以计算报表
 

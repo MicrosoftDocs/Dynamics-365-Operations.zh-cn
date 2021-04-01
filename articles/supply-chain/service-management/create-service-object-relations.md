@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 380514b6e95292597d3eb52ce191d1e282e154ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 44ca8920619ff4b0ae45293c997a8c385cfbd091
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965897"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234889"
 ---
 # <a name="create-service-object-relations"></a>创建服务对象关系 
 

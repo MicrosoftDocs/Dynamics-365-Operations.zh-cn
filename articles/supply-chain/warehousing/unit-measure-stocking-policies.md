@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aee5885da05b3ae46b8c4c2e0eb143708b921817
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8ad62f57bb6cf952733c1efff15a03f5afee962d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993813"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237075"
 ---
 # <a name="unit-of-measure-and-stocking-policies"></a>度量单位和库存政策
 

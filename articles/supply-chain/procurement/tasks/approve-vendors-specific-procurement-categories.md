@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 159d918a4dd3b6502bc8ab411d0353545eb4fcba
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: c337fd6c2c7cea088b2151bebb54cec326c5240d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016341"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237317"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>审核特定采购类别的供应商
 

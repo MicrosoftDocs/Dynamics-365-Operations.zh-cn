@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ae4062401cd5be2371c45642b78bf3708b04f664
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 21cfa03ed52ffce32267ec0497ae3443937c1018
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001185"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233095"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>取消仓库工作以进行异常处理
 

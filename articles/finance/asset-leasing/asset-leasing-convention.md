@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea89d54f1ce3a1e971d41623bf44f909f7dfdf09
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 7072c34ccbffc6bf135f55fd594cac4d9ea5a463
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5131271"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237508"
 ---
 # <a name="asset-leasing-conventions"></a>资产租赁惯例
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 文主题介绍租赁资产的惯例。 租赁惯例用于确定租赁帐簿的开始日期。 如果租赁惯例设置为 **否**，开始日期与租赁的开始日期相同（即 **租赁开始日期** 字段的值）。 如果租赁惯例设置为 **整月**，开始日期则是租赁开始日期所在月份的第一天。
 

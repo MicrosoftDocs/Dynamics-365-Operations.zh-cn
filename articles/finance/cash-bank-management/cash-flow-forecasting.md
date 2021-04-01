@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 85e8c8bf0c626e049fd78f326fd0929212f962c5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 98bf906569f99c74fef747381e8f27b1d9f91a5f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985254"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232457"
 ---
 # <a name="cash-flow-forecasting"></a>现金流量预测
 

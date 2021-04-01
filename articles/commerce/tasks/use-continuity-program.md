@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5b641fb6ba5edf359a2f1f2de7b5095d73b497cf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1de6d2cd88ba31f526621497d6fab36db631933e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003620"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232633"
 ---
 # <a name="using-continuity-program"></a>使用连续性计划
 

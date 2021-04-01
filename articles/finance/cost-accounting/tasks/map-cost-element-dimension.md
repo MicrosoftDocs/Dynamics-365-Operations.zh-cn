@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5570d7cf2a8139d7959cb708d306e8b91065ed1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e48110182f79195483a0f54b7859ee0cd54e8cf0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990659"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235829"
 ---
 # <a name="map-a-cost-element-dimension"></a>映射成本元素维度
 

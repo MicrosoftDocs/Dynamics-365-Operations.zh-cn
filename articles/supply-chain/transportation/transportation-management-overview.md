@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fca83ef2c80ed6df9cfbdedd2805e453df3f737a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 511cc3459ce5d99f0a3e6dae0a70af0109326118
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006483"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233383"
 ---
 # <a name="transportation-management-overview"></a>运输管理概览
 

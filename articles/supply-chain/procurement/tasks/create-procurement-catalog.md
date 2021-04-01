@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eaf8b8d8b369aa704344d6984a0f111af6e4285b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 91c377b2d155fb7b53ef9a15fa9d6e80cd69ed44
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016469"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237243"
 ---
 # <a name="create-a-procurement-catalog"></a>创建采购目录
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: cb503072fb76e04aa01ff2d231c756eeb244c65a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4f58db216176832d61bdafbe43831ededd3dd6dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004693"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233407"
 ---
 # <a name="transportation-management-miscellaneous-charges"></a>运输管理杂项费用
 

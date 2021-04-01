@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a8df7d7d9c4555bf46ac1cc3f71695837b1369b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ed8ce37ab642277ff843e6320a880fac40d41acb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968571"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235781"
 ---
 # <a name="create-account-structures"></a>创建科目结构
 

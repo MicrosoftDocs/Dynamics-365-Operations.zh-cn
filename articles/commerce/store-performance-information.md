@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4688d3268986a9ae6fb2c9601396b56aacf87a93
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: aced862e279135e25ca7380b746ae19b97227d10
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009610"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234237"
 ---
 # <a name="analyze-store-performance"></a>分析商店业绩
 

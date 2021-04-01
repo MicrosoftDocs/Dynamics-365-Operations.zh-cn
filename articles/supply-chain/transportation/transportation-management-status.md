@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9d3ed4b73f909b50e97c971a37c548c8c4a9e620
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fb0d98729046330037f96ab7e13a1bf897e35a1e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006458"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233335"
 ---
 # <a name="transportation-management-statuses"></a>运输管理状态
 

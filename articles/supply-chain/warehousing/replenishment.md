@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d554a6d415ca3e720c71387e218e50215c288991
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 56df730dc4d66e07591ed11240d2bbd5efe9ee2c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996065"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236588"
 ---
 # <a name="replenishment-overview"></a>补货概览
 

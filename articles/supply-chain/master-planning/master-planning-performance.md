@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 380329cbeaa1fc2a2691c8165bc57483d1420aa1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 54f39793b6e8b24a13a4b80b59ba35f10e8f3da5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005069"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237465"
 ---
 # <a name="improve-master-planning-performance"></a>改善主计划性能
 

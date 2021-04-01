@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20ba3033dd5917406eb3b8bcb933f26fc120f721
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 273f335bc7b75f46911295c950c7f9f323cc9699
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983133"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237934"
 ---
 # <a name="create-product-model-components"></a>创建产品模型组件
 
