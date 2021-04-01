@@ -18,12 +18,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 59c83409ede5e006ddf030d396934eeb6cd8df76
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fcb3b542d290e01a3cddc73ae163ed2ef420771b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010116"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238776"
 ---
 # <a name="enable-product-recommendations"></a>启用产品建议
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b7bb6c9338808828a41801a85a1b93b420e9c75b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cc19110f481c11ab28532d69a4689c1db048f6c3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004722"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233359"
 ---
 # <a name="transportation-management-number-sequence"></a>运输管理编号规则
 

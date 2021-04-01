@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28c4685c3b6f543324953cd03646d5b15fdb8c59
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a01c1fd72b96bd6ff5e6c76e659394e17060c681
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019421"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253389"
 ---
 # <a name="create-an-asset"></a>创建资产
 

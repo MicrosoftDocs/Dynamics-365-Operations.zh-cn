@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e93358a9c76e8eb7bfb4ade4f772dece2aa5f7d3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 74991a2979540dab344f39976005250637fab29c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982482"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252574"
 ---
 # <a name="map-module"></a>地图模块
 
@@ -30,8 +30,6 @@ ms.locfileid: "4982482"
 
 
 此主题介绍地图模块以及如何在 Microsoft Dynamics 365 Commerce 中配置该模块。
-
-## <a name="overview"></a>概览
 
 地图模块在使用[必应地图 V8 Web 控件](https://docs.microsoft.com/bingmaps/v8-web-control/)呈现的交互式地图上显示商店位置。 必须提供必应地图 API 密钥，并且必须将其添加到 Commerce headquarters 内的共享参数页面中。 地图模块提供不同的视图，如道路、空中和街边，用户可以选择这些视图来查看地图位置。 它们还允许进行交互，如缩放和使用用户的位置。
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9920d24ea92196331ea318cab2f67501801937bd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3026517a20e7e59e6223894dcc8078e32e4a9c5e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995082"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245536"
 ---
 # <a name="finance-insights-home-page-preview"></a>Finance insights 主页（预览）
 

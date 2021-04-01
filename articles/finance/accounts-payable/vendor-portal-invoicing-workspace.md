@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 30e9012845838a4d1df5f1308740b356a64433e9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ddb9d561e9785ee744c49d7fe03128102e77e9d3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993155"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248199"
 ---
 # <a name="vendor-collaboration-invoicing-workspace"></a>供应商协作开票工作区
 

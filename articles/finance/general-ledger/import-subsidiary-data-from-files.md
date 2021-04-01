@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7ced1b970aefa20a27ab16e005dff8fabace78d1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f8e220599d8df9f560da1862f0909cbbaa3c7330
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988810"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249087"
 ---
 # <a name="import-subsidiary-data-from-files"></a>从文件导入子公司数据
 

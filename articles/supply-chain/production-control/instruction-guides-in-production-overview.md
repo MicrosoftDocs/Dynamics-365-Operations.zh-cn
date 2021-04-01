@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 3e69f9007b6605a07c6bec189b596d36a26f6222
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 48e0dfeba1a9744c90608d4d9009484df91c4b85
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007129"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246133"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>为生产中的工作人员提供混合现实指南
 

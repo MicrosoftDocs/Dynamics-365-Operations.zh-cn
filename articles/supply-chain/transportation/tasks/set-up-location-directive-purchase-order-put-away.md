@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fd6814163afba0c5b4c99e45a703b00948b73d6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e9e7b8c1f5c5dfb29f1bdf28529ef76e31d8e83f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004894"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233623"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>设置采购订单储存的位置指令
 

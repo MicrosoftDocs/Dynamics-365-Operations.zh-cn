@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: b17e986c2e30134c334cd547a85a1dd682172a0e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 26658ebdbc70613baf30c344664133b9cf5911ca
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979795"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243761"
 ---
 # <a name="ratings-and-reviews-modules"></a>评分和评价模块
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍 Microsoft Dynamics 365 Commerce 中产品详细信息页 (PDP) 上使用的评分和评论模块。
-
-## <a name="overview"></a>概览
 
 电子商务网站中的评分和评价可帮助客户在做出采购决定之前了解产品，也是收集客户对产品的反馈的机制。 
 

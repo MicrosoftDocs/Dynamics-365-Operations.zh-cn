@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 457be741dfd3b44cb963db37857d6a7bceecc14e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5c021f71735e63c270e8f1998d77d4e4abcc5506
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994657"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236689"
 ---
 # <a name="create-accrual-schemes"></a>创建应计方案
 

@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22538d58cc3499bd030848699d6c5831dfd8888a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 40371809f3855e57db4bc12f5466f7cef5cec600
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975152"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235548"
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>为公共部门生成基本预算
 

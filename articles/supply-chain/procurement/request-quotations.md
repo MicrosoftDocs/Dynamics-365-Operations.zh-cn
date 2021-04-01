@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d0338447cba847f3677f5e3de7144fc75da01ddf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016923"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237368"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>询价 (RFQ) 概览
 
@@ -80,23 +80,23 @@ ms.locfileid: "5016923"
 - %出价返回的原因%
 - %改正的原因%
 - %改正准备人%
-- %公司%
+- %Company%
 - %询价案例名称%
 - %到期日期时间%
-- %日期%
+- %Date%
 
-%出价返回的原因%和%改正的原因%标志由采购专业人员在他或她完成向导 **改正** 中的改正时可以输入的文本替换。 %改正准备人%和%公司%从询价自动获得。 %日期% 标志由当前日期取代。
+%出价返回的原因%和%改正的原因%标志由采购专业人员在他或她完成向导 **改正** 中的改正时可以输入的文本替换。 %Amendment prepared by% 和 %Company% 标志的值从询价自动获取。 %Date% 标志由当前日期替换。
 
 如果要在询价已发送之后将其取消，可通过询价案例执行。 若要取消，需要使用电子邮件模板向供应商的联系人发送取消通知。 必须在 **采购参数** 页上选择该模板。 在创建模板时，可以包含以下替换标志：
 
 - %取消的原因%
 - %询价案例%
 - %取消询价者%
-- %公司%
+- %Company%
 - %询价案例名称%
-- %日期%
+- %Date%
 
-%取消的原因% 标志由采购专业人员可以在 **取消** 向导中输入的文本替代。 %日期% 标志由当前日期取代。
+%取消的原因% 标志由采购专业人员可以在 **取消** 向导中输入的文本替代。 %Date% 标志由当前日期替换。
 
 如果您希望在出价中使用原因代码指示出价被拒绝或接受的原因，则必须在 **供应商原因** 页设置原因代码。
 

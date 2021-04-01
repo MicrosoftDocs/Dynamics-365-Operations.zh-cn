@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af1c1a222981a0bcf9d7341cde5b83dd720da802
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1aacc57051f21b992d9f7feb44c99511fc2a65bb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994957"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5241282"
 ---
 # <a name="depreciation-methods-and-conventions"></a>折旧方法和惯例
 

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07d74d9e02049447c69edf56eb6860a2cb6dc5c9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ffb9b9ea75775d7e3d87c91e10af7a5ccb42fec0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991882"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246397"
 ---
 # <a name="bom-designer-functionality"></a>物料清单设计器功能
 

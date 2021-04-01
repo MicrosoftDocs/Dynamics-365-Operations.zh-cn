@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 89c5fc768aafe9e5de9adcde32e7b4d0a084941b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 98595848593e3abd63701b52c7a67ec61288a96e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990909"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249621"
 ---
 # <a name="set-up-lease-journal-names"></a>设置租赁日记帐名称
 

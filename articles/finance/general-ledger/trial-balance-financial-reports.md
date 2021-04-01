@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25a90a137ea3f6dfa43f401354780d99b2fda8fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1d753b99b126bf8097e8270f4774db854fa2d279
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978478"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240632"
 ---
 # <a name="trial-balance-financial-reports"></a>试算平衡表财务报表
 

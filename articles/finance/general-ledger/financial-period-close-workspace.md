@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c28f9e9eb3a4b93d17413e33c7b389e2d5829c7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c83c8f6ecc72d4d04eae9707ad4066754ab5af48
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975706"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249331"
 ---
 # <a name="financial-period-close-workspace"></a>财务期间结帐工作区
 

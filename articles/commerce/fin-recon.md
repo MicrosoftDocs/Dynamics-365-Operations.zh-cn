@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8ddefcdc2b2bbb5fe25e9a87396802cbbbfef72c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 99c238ecfbb6cb29f4fefefdca32525b99a01dc8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965069"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251323"
 ---
 # <a name="financial-reconciliation-in-retail-stores"></a>零售商店中的财务对帐
 
 [!include [banner](includes/banner.md)]
 
-在 Microsoft Dynamics 365 Commerce 版本 10.0.10 及更低版本中，商店职员可使用销售点 (POS) 客户端为零售商店中的日结流程提供的功能执行日结操作。 例如，可以进行点钞、直接结束班次，协调班次事务和结束班次。 但是，在 POS 中不能完成班次的财务信息，因此可将其用于在 Commerce Headquarters 中过帐财务数据。 通常由商店经理负责完成此任务。 他们必须先检查信息，进行必需的更正，然后完成班次的总计，才能注销班次。 然后应该在 Commerce Headquarters 中的财务模块内过帐完成的总计。
+在 Microsoft Dynamics 365 Commerce 版本 10.0.10 及更低版本中，商店职员和商店经理可使用销售点 (POS) 客户端为零售商店中的日结流程提供的功能执行日结操作。 例如，可以进行点钞、直接结束班次，协调班次事务和结束班次。 但是，在 POS 中不能完成班次的财务信息，因此可将其用于在 Commerce Headquarters 中过帐财务数据。 通常由商店经理负责完成此任务。 他们必须先检查信息，进行必需的更正，然后完成班次的总计，才能注销班次。 然后应该在 Commerce Headquarters 中的财务模块内过帐完成的总计。
 
 此外，在 Commerce version 10.0.10 及更低版本中，商店经理还可以在 Commerce Headquarters 中检查对帐单行并进行一些调整。 但是，此功能受到限制，商店经理几乎不能访问 Commerce Headquarters 客户端。 此外，仅当对帐单是在 Commerce Headquarters 中创建的，才能进行财务零售对帐单检查和调整。 不过，该流程通常在夜间进行。 因此，在 Commerce Headquarters 中创建财务零售对帐单时，商店经理必须等待班次注销。
 

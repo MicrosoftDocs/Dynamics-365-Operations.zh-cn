@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f746da0bcf2b1e0cb09af6b5e2ea61938213c924
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ef9beae6769c361680832d81ddda00e1237d3297
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991034"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5241626"
 ---
 # <a name="create-a-direct-debit-mandate-for-a-customer"></a>为客户创建直接借记授权单
 

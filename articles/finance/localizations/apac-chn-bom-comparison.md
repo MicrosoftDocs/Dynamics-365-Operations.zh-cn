@@ -17,12 +17,12 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e782129293a9734bfd7195ec26c194b4b52bbb7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 16b36b7a5e8d0292bf44bba36888a911ea30ee69
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009138"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243601"
 ---
 # <a name="bill-of-materials-comparison-for-china"></a>中国的物料清单比较
 

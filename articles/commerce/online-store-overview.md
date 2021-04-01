@@ -18,14 +18,14 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ae220e98acbda99255beefea598d973dbaa22368
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 53bce671d6aca35335a3b3ef557a94fa60da1edc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997539"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251179"
 ---
-# <a name="e-commerce-site-overview"></a>电子商务站点概述
+# <a name="e-commerce-site-overview"></a>电子商务站点概览
 
 [!include [banner](includes/banner.md)]
 

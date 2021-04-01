@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b422eb432e579d4ae914fbc0efa79aaa15f1de27
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 520338683443105ffd1df7fc2569cd95a5f50879
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998370"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245122"
 ---
 # <a name="wave-template-grouping"></a>波次模板分组
 

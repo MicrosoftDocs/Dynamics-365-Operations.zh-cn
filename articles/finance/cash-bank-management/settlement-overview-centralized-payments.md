@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e66d5aac0c2ed966727ef569ac5345fcd91b841e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 682df83e2685e82b68ae5aa4fcaa7997ee942dca
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989192"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5241386"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>集中付款的结算概览
 

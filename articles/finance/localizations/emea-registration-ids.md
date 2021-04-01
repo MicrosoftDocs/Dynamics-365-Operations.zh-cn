@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: def0b35043f0a660e2a167b78cf0c65cd1e8b2fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e92dd1ac7e849f5ce7db4b4769b062701bb8f158
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006026"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236257"
 ---
 # <a name="registration-ids"></a>登记 ID
 

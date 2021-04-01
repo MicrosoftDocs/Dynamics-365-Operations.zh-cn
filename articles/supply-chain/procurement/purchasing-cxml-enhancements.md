@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 3113202b1f38bc528733c980321d60bb9ad23dde
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d167666e20ef7e1e0fbdb9c11b6e0b1d0b15ebbf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992187"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237392"
 ---
 # <a name="purchasing-cxml-enhancements"></a>采购 cXML 增强功能
 
