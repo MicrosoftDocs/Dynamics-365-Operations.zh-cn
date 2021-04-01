@@ -18,29 +18,32 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28ef1da29b38354d7ccaad56fb036f21d8c9ff15
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 68758f4ddf39b4b8f7f0758f9e59e17c3411723a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011164"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246301"
 ---
-# <a name="production-order-lifecycle-overview"></a><span data-ttu-id="a0caf-105">生产订单生命周期概览</span><span class="sxs-lookup"><span data-stu-id="a0caf-105">Production order lifecycle overview</span></span>
+# <a name="production-order-lifecycle-overview"></a><span data-ttu-id="57112-105">生产订单生命周期概览</span><span class="sxs-lookup"><span data-stu-id="57112-105">Production order lifecycle overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="a0caf-106">在创建生产订单时，将发起开始生产物料的请求。</span><span class="sxs-lookup"><span data-stu-id="a0caf-106">When a production order is created, a request is initiated to start producing an item.</span></span> <span data-ttu-id="a0caf-107">生产订单包含与将生产的产品、生产数量和计划完工日期有关的信息。</span><span class="sxs-lookup"><span data-stu-id="a0caf-107">The production order contains information about what will be produced, the quantity to produce, and the planned finish date.</span></span> <span data-ttu-id="a0caf-108">它还包含要消耗的物料以及要用于生产物料的流程的信息。</span><span class="sxs-lookup"><span data-stu-id="a0caf-108">It also contains information about which materials to consume and which process to follow to produce the item.</span></span>
+<span data-ttu-id="57112-106">在创建生产订单时，将发起开始生产物料的请求。</span><span class="sxs-lookup"><span data-stu-id="57112-106">When a production order is created, a request is initiated to start producing an item.</span></span> <span data-ttu-id="57112-107">生产订单包含与将生产的产品、生产数量和计划完工日期有关的信息。</span><span class="sxs-lookup"><span data-stu-id="57112-107">The production order contains information about what will be produced, the quantity to produce, and the planned finish date.</span></span> <span data-ttu-id="57112-108">它还包含要消耗的物料以及要用于生产物料的流程的信息。</span><span class="sxs-lookup"><span data-stu-id="57112-108">It also contains information about which materials to consume and which process to follow to produce the item.</span></span>
 
-<span data-ttu-id="a0caf-109">生产订单在生产生命周期的各个阶段中传递。</span><span class="sxs-lookup"><span data-stu-id="a0caf-109">A production order passes through stages of the production life cycle.</span></span> <span data-ttu-id="a0caf-110">在创建一个订单后，会将状态 **已创建** 分配给该订单。</span><span class="sxs-lookup"><span data-stu-id="a0caf-110">When an order is created, it is assigned the status **Created**.</span></span> <span data-ttu-id="a0caf-111">在完成一个订单后，会将状态 **已结束** 分配给该订单。</span><span class="sxs-lookup"><span data-stu-id="a0caf-111">When an order is finished, it is assigned the status **Ended**.</span></span> <span data-ttu-id="a0caf-112">每个阶段中的参数设置允许用户配置每个步骤。</span><span class="sxs-lookup"><span data-stu-id="a0caf-112">A parameter setting in each stage allows a user to configure each step.</span></span> <span data-ttu-id="a0caf-113">可以为单个用户或为所有用户指定该设置。</span><span class="sxs-lookup"><span data-stu-id="a0caf-113">The setting can be set up for a single user or for all users.</span></span>
+<span data-ttu-id="57112-109">生产订单在生产生命周期的各个阶段中传递。</span><span class="sxs-lookup"><span data-stu-id="57112-109">A production order passes through stages of the production life cycle.</span></span> <span data-ttu-id="57112-110">在创建一个订单后，会将状态 **已创建** 分配给该订单。</span><span class="sxs-lookup"><span data-stu-id="57112-110">When an order is created, it is assigned the status **Created**.</span></span> <span data-ttu-id="57112-111">在完成一个订单后，会将状态 **已结束** 分配给该订单。</span><span class="sxs-lookup"><span data-stu-id="57112-111">When an order is finished, it is assigned the status **Ended**.</span></span> <span data-ttu-id="57112-112">每个阶段中的参数设置允许用户配置每个步骤。</span><span class="sxs-lookup"><span data-stu-id="57112-112">A parameter setting in each stage allows a user to configure each step.</span></span> <span data-ttu-id="57112-113">可以为单个用户或为所有用户指定该设置。</span><span class="sxs-lookup"><span data-stu-id="57112-113">The setting can be set up for a single user or for all users.</span></span>
 
-<span data-ttu-id="a0caf-114">生产物料清单和生产工艺路线是生产订单的主要实体。</span><span class="sxs-lookup"><span data-stu-id="a0caf-114">The production bill of material and the production route are the main entities of the production order.</span></span> <span data-ttu-id="a0caf-115">它们基于要生产的选定物料和数量复制到生产订单。</span><span class="sxs-lookup"><span data-stu-id="a0caf-115">They are copied to the production order based on the selected item and quantity that are going to be produced.</span></span> <span data-ttu-id="a0caf-116">在启动生产订单之前，生产物料清单和工艺路线是可以编辑的。</span><span class="sxs-lookup"><span data-stu-id="a0caf-116">Before the production order is started, the production bill of material and route can be edited.</span></span>
+<span data-ttu-id="57112-114">生产物料清单和生产工艺路线是生产订单的主要实体。</span><span class="sxs-lookup"><span data-stu-id="57112-114">The production bill of material and the production route are the main entities of the production order.</span></span> <span data-ttu-id="57112-115">它们基于要生产的选定物料和数量复制到生产订单。</span><span class="sxs-lookup"><span data-stu-id="57112-115">They are copied to the production order based on the selected item and quantity that are going to be produced.</span></span> <span data-ttu-id="57112-116">在启动生产订单之前，生产物料清单和工艺路线是可以编辑的。</span><span class="sxs-lookup"><span data-stu-id="57112-116">Before the production order is started, the production bill of material and route can be edited.</span></span>
 
-<span data-ttu-id="a0caf-117">在以下情况下可以创建生产订单：</span><span class="sxs-lookup"><span data-stu-id="a0caf-117">A production order can be created in the following scenarios:</span></span>
+<span data-ttu-id="57112-117">在以下情况下可以创建生产订单：</span><span class="sxs-lookup"><span data-stu-id="57112-117">A production order can be created in the following scenarios:</span></span>
 
--   <span data-ttu-id="a0caf-118">由主规划执行基于物料需求创建。</span><span class="sxs-lookup"><span data-stu-id="a0caf-118">Created by master planning execution based on material demand.</span></span>
--   <span data-ttu-id="a0caf-119">从销售订单行直接创建，或在创建和估计更高级别的生产订单（限定供应）时创建。</span><span class="sxs-lookup"><span data-stu-id="a0caf-119">Created directly from a sales order line or when a higher-level production order is created and estimated (pegged supply).</span></span>
--   <span data-ttu-id="a0caf-120">手动创建。</span><span class="sxs-lookup"><span data-stu-id="a0caf-120">Created manually.</span></span>
-
-
+-   <span data-ttu-id="57112-118">由主规划执行基于物料需求创建。</span><span class="sxs-lookup"><span data-stu-id="57112-118">Created by master planning execution based on material demand.</span></span>
+-   <span data-ttu-id="57112-119">从销售订单行直接创建，或在创建和估计更高级别的生产订单（限定供应）时创建。</span><span class="sxs-lookup"><span data-stu-id="57112-119">Created directly from a sales order line or when a higher-level production order is created and estimated (pegged supply).</span></span>
+-   <span data-ttu-id="57112-120">手动创建。</span><span class="sxs-lookup"><span data-stu-id="57112-120">Created manually.</span></span>
 
 
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,36 +15,39 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7fed9f09b4e37da00a5d78fa088e8814db48456b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6627e7fa9a1eb1a9131ec7e2c3cc823b49b286cc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968921"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257553"
 ---
-# <a name="set-up-bonus-depreciation"></a><span data-ttu-id="1836f-103">设置额外折旧</span><span class="sxs-lookup"><span data-stu-id="1836f-103">Set up bonus depreciation</span></span>
+# <a name="set-up-bonus-depreciation"></a><span data-ttu-id="5669f-103">设置额外折旧</span><span class="sxs-lookup"><span data-stu-id="5669f-103">Set up bonus depreciation</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="1836f-104">此过程显示如何创建特殊折旧补偿并将其与固定资产帐簿关联。</span><span class="sxs-lookup"><span data-stu-id="1836f-104">This procedure shows how to create a special depreciation allowance and associate it with a fixed asset book.</span></span> <span data-ttu-id="1836f-105">它为 USMF 法人实体使用会计角色和演示数据。</span><span class="sxs-lookup"><span data-stu-id="1836f-105">It uses the accountant role and demo data for the USMF legal entity.</span></span>
+<span data-ttu-id="5669f-104">此过程显示如何创建特殊折旧补偿并将其与固定资产帐簿关联。</span><span class="sxs-lookup"><span data-stu-id="5669f-104">This procedure shows how to create a special depreciation allowance and associate it with a fixed asset book.</span></span> <span data-ttu-id="5669f-105">它为 USMF 法人实体使用会计角色和演示数据。</span><span class="sxs-lookup"><span data-stu-id="5669f-105">It uses the accountant role and demo data for the USMF legal entity.</span></span>
 
 
-## <a name="create-a-special-depreciation-allowance"></a><span data-ttu-id="1836f-106">创建特殊折旧补偿</span><span class="sxs-lookup"><span data-stu-id="1836f-106">Create a special depreciation allowance</span></span>
-1. <span data-ttu-id="1836f-107">转到“固定资产”>“设置”>“特殊折旧补偿”。</span><span class="sxs-lookup"><span data-stu-id="1836f-107">Go to Fixed assets > Setup > Special depreciation allowance.</span></span>
-2. <span data-ttu-id="1836f-108">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="1836f-108">Click New.</span></span>
-3. <span data-ttu-id="1836f-109">在“特殊折旧补偿”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="1836f-109">In the Special depreciation allowance field, type a value.</span></span>
-4. <span data-ttu-id="1836f-110">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="1836f-110">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="1836f-111">在“百分比”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="1836f-111">In the Percentage field, enter a number.</span></span>
-    * <span data-ttu-id="1836f-112">如果尚未指示百分比，则设置金额。</span><span class="sxs-lookup"><span data-stu-id="1836f-112">If a percentage was not indicated, set an amount.</span></span>  
+## <a name="create-a-special-depreciation-allowance"></a><span data-ttu-id="5669f-106">创建特殊折旧补偿</span><span class="sxs-lookup"><span data-stu-id="5669f-106">Create a special depreciation allowance</span></span>
+1. <span data-ttu-id="5669f-107">转到“固定资产”>“设置”>“特殊折旧补偿”。</span><span class="sxs-lookup"><span data-stu-id="5669f-107">Go to Fixed assets > Setup > Special depreciation allowance.</span></span>
+2. <span data-ttu-id="5669f-108">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="5669f-108">Click New.</span></span>
+3. <span data-ttu-id="5669f-109">在“特殊折旧补偿”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="5669f-109">In the Special depreciation allowance field, type a value.</span></span>
+4. <span data-ttu-id="5669f-110">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="5669f-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="5669f-111">在“百分比”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="5669f-111">In the Percentage field, enter a number.</span></span>
+    * <span data-ttu-id="5669f-112">如果尚未指示百分比，则设置金额。</span><span class="sxs-lookup"><span data-stu-id="5669f-112">If a percentage was not indicated, set an amount.</span></span>  
 
-## <a name="associate-a-special-depreciation-allowance-with-a-fixed-asset-group-book"></a><span data-ttu-id="1836f-113">将特殊折旧补偿与固定资产组帐簿关联</span><span class="sxs-lookup"><span data-stu-id="1836f-113">Associate a special depreciation allowance with a fixed asset group book</span></span>
-1. <span data-ttu-id="1836f-114">转到“固定资产”>“设置”>“固定资产组”。</span><span class="sxs-lookup"><span data-stu-id="1836f-114">Go to Fixed assets > Setup > Fixed asset groups.</span></span>
-2. <span data-ttu-id="1836f-115">在列表中，选择与特殊折旧补偿关联的固定资产组。</span><span class="sxs-lookup"><span data-stu-id="1836f-115">In the list, select the fixed asset group associated with the special depreciation allowance.</span></span>
-3. <span data-ttu-id="1836f-116">单击“帐簿”。</span><span class="sxs-lookup"><span data-stu-id="1836f-116">Click Books.</span></span>
-4. <span data-ttu-id="1836f-117">在列表中，选择与特殊折旧补偿关联的帐簿。</span><span class="sxs-lookup"><span data-stu-id="1836f-117">In the list, select the book that is associated with the special depreciation allowance.</span></span>
-5. <span data-ttu-id="1836f-118">单击特殊折旧补偿。</span><span class="sxs-lookup"><span data-stu-id="1836f-118">Click Special depreciation allowance.</span></span>
-6. <span data-ttu-id="1836f-119">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="1836f-119">Click New.</span></span>
-7. <span data-ttu-id="1836f-120">在“特殊折旧补偿”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="1836f-120">In the Special depreciation allowance field, enter or select a value.</span></span>
-    * <span data-ttu-id="1836f-121">百分比或金额默认值来自特殊折旧补偿设置。</span><span class="sxs-lookup"><span data-stu-id="1836f-121">The default for Percentage or Amount comes from the special depreciation allowance setup.</span></span>  
-8. <span data-ttu-id="1836f-122">在“优先”字段，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="1836f-122">In the Priority field, enter a number.</span></span>
+## <a name="associate-a-special-depreciation-allowance-with-a-fixed-asset-group-book"></a><span data-ttu-id="5669f-113">将特殊折旧补偿与固定资产组帐簿关联</span><span class="sxs-lookup"><span data-stu-id="5669f-113">Associate a special depreciation allowance with a fixed asset group book</span></span>
+1. <span data-ttu-id="5669f-114">转到“固定资产”>“设置”>“固定资产组”。</span><span class="sxs-lookup"><span data-stu-id="5669f-114">Go to Fixed assets > Setup > Fixed asset groups.</span></span>
+2. <span data-ttu-id="5669f-115">在列表中，选择与特殊折旧补偿关联的固定资产组。</span><span class="sxs-lookup"><span data-stu-id="5669f-115">In the list, select the fixed asset group associated with the special depreciation allowance.</span></span>
+3. <span data-ttu-id="5669f-116">单击“帐簿”。</span><span class="sxs-lookup"><span data-stu-id="5669f-116">Click Books.</span></span>
+4. <span data-ttu-id="5669f-117">在列表中，选择与特殊折旧补偿关联的帐簿。</span><span class="sxs-lookup"><span data-stu-id="5669f-117">In the list, select the book that is associated with the special depreciation allowance.</span></span>
+5. <span data-ttu-id="5669f-118">单击特殊折旧补偿。</span><span class="sxs-lookup"><span data-stu-id="5669f-118">Click Special depreciation allowance.</span></span>
+6. <span data-ttu-id="5669f-119">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="5669f-119">Click New.</span></span>
+7. <span data-ttu-id="5669f-120">在“特殊折旧补偿”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="5669f-120">In the Special depreciation allowance field, enter or select a value.</span></span>
+    * <span data-ttu-id="5669f-121">百分比或金额默认值来自特殊折旧补偿设置。</span><span class="sxs-lookup"><span data-stu-id="5669f-121">The default for Percentage or Amount comes from the special depreciation allowance setup.</span></span>  
+8. <span data-ttu-id="5669f-122">在“优先”字段，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="5669f-122">In the Priority field, enter a number.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
