@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b020618036951e7033baadbf58b806df7877bdb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7e4820fa02ce66198e1f363ae46f944e3f24146c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976581"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243857"
 ---
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>使用销售组跟踪销售点 (POS) 中的佣金
 

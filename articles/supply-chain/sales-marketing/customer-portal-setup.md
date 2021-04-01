@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 2153bbca2be7c72e48b9dc51b1f7fdbe2ab89903
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fa95995320a0f81c040eeebe6fd796200fbff13f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977730"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255029"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>安装、设置和更新客户门户
 

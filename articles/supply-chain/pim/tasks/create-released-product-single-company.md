@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 79d5252d950cd83dfd1307ffb661948405102593
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: dfe93a3084bb8c7f2b181b35d393b8afdabb9f4b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999673"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258819"
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>创建单个公司的已发布产品
 

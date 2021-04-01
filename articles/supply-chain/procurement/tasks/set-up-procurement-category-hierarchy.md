@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb37b2761708770b82f23cfbed86248d30a59410
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 44fd02d37ec4e6431ca25dc980ed1d1785e45fac
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017308"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239342"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>设置采购类别层次结构
 

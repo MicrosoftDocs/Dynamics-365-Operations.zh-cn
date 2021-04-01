@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 639d6fa74954b5f74560c7e51523ab2b4d2b7f62
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c4d1a4a1b14f7af1db1c53bd9ee1993cc9187609
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989344"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254785"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>站点的搜索引擎优化 (SEO) 注意事项
 

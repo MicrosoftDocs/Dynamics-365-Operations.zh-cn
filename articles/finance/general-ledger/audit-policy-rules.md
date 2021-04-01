@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 998d4dbabec74528b4acb9e797faef0c449e7c28
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: b3a0ffe81f4b56bdd388dc1ce2c00a99e0278cdf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021233"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262830"
 ---
 # <a name="audit-policy-rules"></a>审计策略规则
 

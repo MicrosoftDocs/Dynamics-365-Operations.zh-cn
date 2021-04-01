@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f64718e6a96cacc005644cbf4286e743111c02f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 40ab085c84b54e15030e73fe43909e616dccbdcd
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996493"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259642"
 ---
 # <a name="time-windows"></a>时间范围  
 

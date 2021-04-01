@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fb5dd96cb71dcee6db97ad1074e7e75565ac4101
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d1f87c731a603dbb3def0ebc2d2ebe54f9706053
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969620"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254099"
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a>向客户分配普通账单模板
 

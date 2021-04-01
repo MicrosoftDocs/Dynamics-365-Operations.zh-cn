@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 04aca717c3f255799699d63fb74ee0b543f8c8ba
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0a32fc46fe6ac33abe5fcebb2ee5e2c92f468f84
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993255"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254106"
 ---
-# <a name="vendor-invoice-entry-workspace"></a>供应商发票条目工作区
+# <a name="vendor-invoice-entry-workspace"></a>供应商发票输入工作区
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]

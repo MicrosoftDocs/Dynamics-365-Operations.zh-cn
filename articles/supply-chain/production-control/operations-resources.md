@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06f5c4ca565511c9392c2f33d081706e571f65e0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 890645e28830d9d53296c4a2530ed1072f9d47e3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966422"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260423"
 ---
 # <a name="operations-resources"></a>Operations 资源
 

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 54bff6b7962ade09ea5c1f5f8d7721757dea1fc3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 681672e19feb5b3bada126c67cd600ee6328da04
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012358"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257017"
 ---
 # <a name="payment-methods"></a>付款方式
 

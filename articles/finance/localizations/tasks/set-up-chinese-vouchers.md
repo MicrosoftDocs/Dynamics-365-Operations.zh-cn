@@ -15,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 42817cb1c9a069568404eb84ce48ba9a159c7642
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d8c3fbffc001f20a249a937bd2df3b396604e074
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988185"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247948"
 ---
 # <a name="set-up-chinese-vouchers"></a>设置中国式凭证
 

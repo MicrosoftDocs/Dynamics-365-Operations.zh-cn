@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b04549700b51f73a3629fe9cd67a3e1f6c1bafbb
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 21aba6224bba98eb9bbb423847e123616003b5d9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021009"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253462"
 ---
 # <a name="update-maintenance-budgets"></a>更新维护预算
 

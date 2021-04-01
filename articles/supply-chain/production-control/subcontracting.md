@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3e282e0676e53200b0993dd9cb2b52e08fe97dca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f771c15d98abe3689054d43cc8b33632121522a3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4981448"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255533"
 ---
 # <a name="subcontracting"></a>转包
 

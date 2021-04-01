@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 6ecfd518298021e08cf73934b450d175cf699a46
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3fe64dad3c60560363428d76566d910868b87111
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985853"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244903"
 ---
 # <a name="omni-channel-payments-overview"></a>全渠道付款概述
 

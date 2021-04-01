@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28ef1da29b38354d7ccaad56fb036f21d8c9ff15
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 68758f4ddf39b4b8f7f0758f9e59e17c3411723a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011164"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246301"
 ---
 # <a name="production-order-lifecycle-overview"></a>生产订单生命周期概览
 

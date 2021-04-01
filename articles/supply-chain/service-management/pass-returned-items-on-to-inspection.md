@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7207c54a88b8a7fc6c38db50c4916d1fc16b5ec4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 04b27a5560b6126fde3028f653a89059bb765844
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006661"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254957"
 ---
 # <a name="pass-returned-items-on-to-inspection"></a>将退回物料送检 
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c408c0b0c32292c074bcabf3822a50a24bbdd301
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2d2f264564f627889d89444a7423179de0c6d4d0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007283"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246277"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>从生产订单到出货台的越库配送
 

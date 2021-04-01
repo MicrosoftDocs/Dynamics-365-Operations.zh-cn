@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10e8e43900fd25f0051124d761dc7b06d4f9313a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9829e91500abf8cba3f7cbfe2f89863cb2b1f4c4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006808"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257355"
 ---
 # <a name="create-working-time-templates"></a>创建工作时间模板
 

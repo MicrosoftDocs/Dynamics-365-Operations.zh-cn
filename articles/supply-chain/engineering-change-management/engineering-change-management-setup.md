@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b46bc10f8b75a58b8baefd88aa6a0b79c59d6544
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ee2be7d59f327876b92386c66433aeaf06df489c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005394"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262349"
 ---
 # <a name="establish-common-values-for-engineering-change-management"></a>为工程更改管理建立通用值
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3761be29955458099d01f2271057884fc1fd6f28
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 5d852fe1a81b1e42484bc49ae136ef8613a2d3a5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097170"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254761"
 ---
 # <a name="search-results-module"></a>搜索结果模块
 

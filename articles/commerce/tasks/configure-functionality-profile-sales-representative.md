@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c45a905ac29d5948e0ec7377418ff61248be2d2e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 920e092593bffff77123670089ebe992796b5fc4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964937"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256989"
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a>配置销售代表的功能模板
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 146d4b9946c1b29105cff637fa9d8803db3d0c0f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fab0e9d5e550b1848c3483b3172836e258353ebb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988769"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249063"
 ---
 # <a name="income-statement-financial-report"></a>收入报表财务报表
 

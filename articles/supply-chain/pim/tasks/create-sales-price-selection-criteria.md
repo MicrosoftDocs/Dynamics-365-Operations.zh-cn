@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 60a7c7230d4eb57d840121f6ee490bf829e0dc8f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 84cef2cbf6f9783f0629fe068a4779a99dca9711
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999648"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258582"
 ---
 # <a name="create-sales-price-selection-criteria"></a>创建销售价选择条件
 

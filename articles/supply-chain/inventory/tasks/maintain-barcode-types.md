@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 71bbc090d928cb80d19db33655ec9c9cc8e654bd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 112438417e425b8b77dd56f25e0b6e6db21c5148
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011489"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244391"
 ---
 # <a name="maintain-barcode-types"></a>维护条码类型
 

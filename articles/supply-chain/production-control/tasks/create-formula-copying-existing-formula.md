@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d6d0f54e764940cd5f9a19ac165f0030bec00bc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d10d57fc924f73e1f03a1d59cd4a7c884f768631
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998720"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255221"
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>通过从现有配方复制来创建配方
 
