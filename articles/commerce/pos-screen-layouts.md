@@ -18,19 +18,19 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 203d12956825286b77a107bb9fd91c451ecfd1e6
-ms.sourcegitcommit: dc3deca942864c4a8354096183c9e1b9b88992f6
+ms.openlocfilehash: 521fbd2c73adca1db38ba7258abf183f7350b109
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "5032925"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231288"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>POS 用户界面视觉效果配置
 
 [!include [banner](includes/banner.md)]
 
 
-可使用为商店、收银机和用户分配的视觉配置文件和屏幕布局，配置 Microsoft Dynamics 365 Commerce 销售点 (POS) 的用户界面 (UI)。 此主题介绍这些配置选项。
+可组合使用为商店、收银机和用户分配的视觉配置文件和屏幕布局，配置 Microsoft Dynamics 365 Commerce 销售点 (POS) 的用户界面 (UI)。 此主题介绍这些配置选项。
 
 下图显示构成 POS UI 可配置项的各实体之间的关系。
 

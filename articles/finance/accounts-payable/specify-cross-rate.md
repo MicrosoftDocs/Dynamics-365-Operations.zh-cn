@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 317cad877cec4d9f02f53762af65f0b226d0aad6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2a1463b9676e6b26543fd88607ca13b0ceb12be5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979380"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231558"
 ---
 # <a name="specify-the-cross-rate"></a>指定交叉汇率
 

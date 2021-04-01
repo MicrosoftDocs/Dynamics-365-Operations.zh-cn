@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d27fba816ca289e6a84e8684f7f90686864fb0b6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c2b92f1f5caf34bf798b86380b73c2dcc7de17b3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972073"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231632"
 ---
 # <a name="project-cost-accrual-on-purchase-receipts"></a>采购收据中的应计项目成本
 

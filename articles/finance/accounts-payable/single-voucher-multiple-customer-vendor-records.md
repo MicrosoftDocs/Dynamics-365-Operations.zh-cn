@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01fd382a97f86e93e4ab91759d35c65fae7447c5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bca422d7c79bef2155b84e3da964c5e47af8ac8f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971995"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231582"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>具有多个客户或供应商记录的一个凭证
 

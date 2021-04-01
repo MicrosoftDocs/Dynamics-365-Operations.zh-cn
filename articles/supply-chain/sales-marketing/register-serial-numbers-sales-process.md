@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e4f5a04e85d3cc34111b7421fbff6cbde413b7c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ba21fd5c3dc425236b7b0ae91b355c522b937a6d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001516"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231832"
 ---
 # <a name="working-with-serialized-items"></a>使用序列化物料
 
