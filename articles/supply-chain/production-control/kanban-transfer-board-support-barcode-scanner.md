@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aedfe7ef96d62401b1d0de0f2cd035036c68e51a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8b6d65430d09c293fd5bca032b8b0e88c971d5a9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007058"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246085"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>条码扫描仪的看板转移面板支持
 

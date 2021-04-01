@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8a55958a4b9573a7c3527d3d97cbcb818457b995
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5fdbe472f24e1140f0af63da8a1fc4eafe4767a2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007959"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238030"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>主计划的迁移到计划优化
 

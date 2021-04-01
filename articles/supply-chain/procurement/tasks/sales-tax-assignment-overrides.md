@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c6e1de5046a3ce5d896ba3686a28d6d474d4268
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 469850d8ed9251a827e834a483653ea7926bd414
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020720"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244055"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a> 销售税分配和覆盖
 

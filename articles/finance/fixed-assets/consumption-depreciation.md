@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e78e2481724aede93ecb997d95a0ef8032618bbd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6309f8225bc82639d3e0e9effa7b0dcc4b5ccc50
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989019"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5241258"
 ---
 # <a name="consumption-depreciation"></a>工作量法折旧
 

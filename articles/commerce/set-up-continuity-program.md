@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 941685c9bad3b8f288e2acdf31bb25c7bcaa7cba
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2428cafc45f074f7e2b4c3e59877079b8c1d4a92
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969743"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242953"
 ---
 # <a name="set-up-continuity-programs-for-call-centers"></a>设置呼叫中心的连续性计划
 

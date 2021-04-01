@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: ef0daec6153405fc064b1185ba7067796ff5bb45
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9cbe0308902071c066d18ce71e6e33422207e8ba
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995107"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245584"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>评估初始客户付款预测模型（预览）
 

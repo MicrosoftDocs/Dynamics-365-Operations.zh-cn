@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b212a6b4268776893d4e018cab605e6441080fa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 33f16cf8c731dc1a954ed94229b2a833510dac4f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986846"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245171"
 ---
 # <a name="find-obsolete-product-variants"></a>查找过时产品变型 
 

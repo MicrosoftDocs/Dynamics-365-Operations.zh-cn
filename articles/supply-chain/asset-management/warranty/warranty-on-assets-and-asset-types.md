@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8c0359bfe31b3d01f28028bb17d5d30af39a1db9
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 78ac93b1e681fca7d7eefd921f282a8496aa9d0a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021595"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245315"
 ---
 # <a name="warranties-on-assets-and-asset-types"></a>资产和资产类型的保修
 

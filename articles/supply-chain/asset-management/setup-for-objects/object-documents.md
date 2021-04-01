@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f8bcae99a96ccd83dc4543b1c56007a4263a19b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 8e93ae3a1170b2f8441d29090af7a5a91db94e8e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021671"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245387"
 ---
 # <a name="asset-documents"></a>资产文档
 

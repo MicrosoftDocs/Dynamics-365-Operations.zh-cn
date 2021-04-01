@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12a61f23ac5a16000275e53d3901c8aea202bab0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 961b87fb066018f9f6ecc3dcc3cc88e64574bb64
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966622"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246541"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>“时间和出勤”中的缺勤登记
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1136d4c811f819665202f5f93e54b63b98188970
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: c70b1b76974bd72d882c312969de4301f9189172
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5129535"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238102"
 ---
 # <a name="welcome-to-dynamics-365-human-resources"></a>欢迎使用 Dynamics 365 Human Resources
 

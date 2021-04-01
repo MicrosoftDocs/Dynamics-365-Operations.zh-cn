@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9045d1db0a43e2aca9c79964dec026b22807e391
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3b4e2d3e4b4fc27107e34cdf8f87e32d0f56f556
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991907"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246661"
 ---
 # <a name="vendor-collaboration-with-customers"></a>供应商与客户的协作
 

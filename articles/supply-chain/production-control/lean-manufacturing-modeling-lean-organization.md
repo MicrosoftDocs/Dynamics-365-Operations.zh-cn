@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27325658f0d73e24f0362bb0aae47a146eadba6b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4c5eb4fb0ea69217b45967c5af8b5b6b0117c0fa
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007111"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246037"
 ---
 # <a name="modeling-a-lean-organization"></a>建模精益组织
 

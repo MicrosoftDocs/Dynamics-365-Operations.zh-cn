@@ -13,12 +13,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5bb6b52082e45d99bf91b0eed73dedeae16390a5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 35b1efa3cbcaac99c637562ae00f8c43d3d9f5e3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009741"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240261"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-commerce"></a>使用 Dynamics 365 Commerce 的实施项目经理学习目录
 

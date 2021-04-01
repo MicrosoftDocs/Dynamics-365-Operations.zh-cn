@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 96fbd7c2ddfcd43e38e9572a60873d5f5930c94c
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: fbcf6ec60723b726e022b4e17bbde4c903e5cb57
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097221"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238766"
 ---
 # <a name="enrich-a-category-landing-page"></a>丰富类别登陆页面
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1c42eba0c4bc18e643202020a5bbb7335a73af86
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5cbbb42b25f5611fab65d7dbc114bd2505492b65
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978981"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5241410"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>记录使用权资产折旧（预览）
 

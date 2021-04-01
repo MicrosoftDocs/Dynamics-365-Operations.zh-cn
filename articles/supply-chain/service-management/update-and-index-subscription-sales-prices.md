@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d01acbfd57fdfcbc951fab738bfb062ab7b344be
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b365717cf49e8ae9503955883240c706731ddc7d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965747"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242221"
 ---
 # <a name="update-and-index-subscription-sales-prices"></a>对预订销售价进行更新并编制索引 
 

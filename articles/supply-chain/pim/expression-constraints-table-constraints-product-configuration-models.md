@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc07d5b915e0b878cc7b2ef1d5f3253de8776608
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 989981e6ca8c1075367776ceafe5b88429e004d2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007688"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243217"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>产品配置模型中的表达式约束和表约束
 

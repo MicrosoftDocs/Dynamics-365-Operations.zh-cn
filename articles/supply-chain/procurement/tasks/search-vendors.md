@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7caa146532d2bce06b009c45da635327766a88d1
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: cf93307600aac6fa6e45524092ec4811742010e4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020696"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244031"
 ---
 # <a name="search-for-vendors"></a>搜索供应商
 

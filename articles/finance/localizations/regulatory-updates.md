@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a09ac2c3c198bf7d7d34a1ae1739af6b62d8dce7
-ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
+ms.openlocfilehash: 16ae9ac066f30744dc99c6fa1c671a0a96fd803d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5118647"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242848"
 ---
 # <a name="regulatory-updates"></a>监管更新
 

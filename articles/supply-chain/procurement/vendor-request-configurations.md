@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 987b9cefef395b3bf3e915f41232fe0daba213b9
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 61ef9ba4eb683fea030f06b3bacf687d7f146de4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021156"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246565"
 ---
 # <a name="vendor-request-configurations"></a>供应商请求配置
 [!include [banner](../includes/banner.md)]

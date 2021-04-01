@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ae0eba6d397725cf425d9781a597d904e1958d44
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 03318eaae0b3329dc758c48202f8f47ca2c4ab08
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009379"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245560"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>在现金流预测中使用外部数据（预览）
 

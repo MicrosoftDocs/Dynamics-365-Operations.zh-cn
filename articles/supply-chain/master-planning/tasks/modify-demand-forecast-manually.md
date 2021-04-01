@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cd931a378b057026eff57b34c9f5740df8adacef
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 31c057d686edc97a11027f156b9c14ff453294ec
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999823"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240381"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>手动修改需求预测
 

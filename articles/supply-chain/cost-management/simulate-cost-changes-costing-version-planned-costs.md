@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 053709cb7a4ffb30e1e4968096ea4df5e67242e5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 74bea14699628bf5ec1d8bc8a3d6d1f341f5b982
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011814"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239582"
 ---
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>通过将成本计算版本用于计划成本，模拟成本变化
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: fa737f61bfd5bd71ba6d76e75e57c8e2d682cda3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: dca006ca00e7ff5aa3681daac713f1e93187cd9c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965669"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239177"
 ---
 # <a name="system-directed-cluster-picking"></a>系统导向的群集领料
 

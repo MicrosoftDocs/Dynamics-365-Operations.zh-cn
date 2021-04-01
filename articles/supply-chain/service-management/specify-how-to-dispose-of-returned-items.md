@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0049e47d5e0e5f8a2a6d7cc5feb29593c764d323
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 61bff50d55ed4c251918a327f2a033369e731bf0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991532"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242365"
 ---
 # <a name="specify-how-to-dispose-of-returned-items"></a>指定如何处置退回物料 
 

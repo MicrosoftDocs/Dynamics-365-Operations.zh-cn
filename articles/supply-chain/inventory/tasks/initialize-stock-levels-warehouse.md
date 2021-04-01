@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6934fc8142a589532cbd9d360ca0f8276456b20e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2c1e5ca96919acde7e850292a73ebd00185f1f7a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011539"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244466"
 ---
 # <a name="initialize-stock-levels-in-the-warehouse"></a>初始化仓库中的库存级别
 

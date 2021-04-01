@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c85dd895e18805da2d1daf5f90f64db82bdc0116
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2f670a3b4b75434853ddcd3d790ad2c55971d72a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973777"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243911"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>推迟处理仓库工作
 

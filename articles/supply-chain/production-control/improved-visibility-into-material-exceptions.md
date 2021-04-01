@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: bd4392417c7fd389c1c5fadf3e61be33a2f336db
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 87f82733388501f2f902e7ebba8b547d9ae5ed16
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011114"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246157"
 ---
 # <a name="visibility-into-material-exceptions"></a>物料异常的可见性
 

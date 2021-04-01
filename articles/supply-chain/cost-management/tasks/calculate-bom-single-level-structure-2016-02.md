@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36f908e02c996c0d0a636fd9295b84fcc16b6b63
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7c370c623c29f2b2f3b65ffbd65aabbc941be3cb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011764"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239462"
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a>通过使用单级结构计算 BOM（2016 年 2 月）
 

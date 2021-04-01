@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59835d28afc6f855f109cf9b875624f8fd11191a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8df9f17d9d8c0c84c7c6a829308d44d70bae612f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977306"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239102"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>配置启用了 WMS 的仓库中的位置
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e020a9e82ff18055e40e3e0ddc7bbed1068c886c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 545ed1ee9faea8aac9a39e5812e815c85e2dd9a8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021421"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240777"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>定义原始凭证的审计策略
 

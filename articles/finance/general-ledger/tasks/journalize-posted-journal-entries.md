@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ad18063e0a66a4aac0ebef7f0ce45c73137abcc7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ca1aed3a77da66ef336942b2c178abdd425d3c25
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968521"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240658"
 ---
 # <a name="journalize-posted-journal-entries"></a>将过帐日记帐条目记入日记帐
 

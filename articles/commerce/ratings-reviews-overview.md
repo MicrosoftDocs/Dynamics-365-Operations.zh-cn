@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ed31982dad8af4509d8dd0615ae53e3d3806640f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 16c9411687acc4d9cb46b09ab2f258855c53df96
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979770"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243810"
 ---
 # <a name="ratings-and-reviews-overview"></a>评分和评价概览
 

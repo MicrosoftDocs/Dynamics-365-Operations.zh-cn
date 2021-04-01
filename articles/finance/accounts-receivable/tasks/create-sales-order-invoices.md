@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e0076e838ad4eac687dc7db1bc0a94891f0ee6d9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d2e1dd552f529d09756c1ddeec39fc54a1f073a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991009"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5241578"
 ---
 # <a name="create-sales-order-invoices"></a>创建销售订单发票
 
