@@ -17,22 +17,25 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 89c5fc768aafe9e5de9adcde32e7b4d0a084941b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 98595848593e3abd63701b52c7a67ec61288a96e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990909"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249621"
 ---
-# <a name="set-up-lease-journal-names"></a><span data-ttu-id="4afc1-104">设置租赁日记帐名称</span><span class="sxs-lookup"><span data-stu-id="4afc1-104">Set up lease journal names</span></span>
+# <a name="set-up-lease-journal-names"></a><span data-ttu-id="d8449-104">设置租赁日记帐名称</span><span class="sxs-lookup"><span data-stu-id="d8449-104">Set up lease journal names</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="4afc1-105">租赁日记帐名称指定资产租赁交易过帐到的日记帐。</span><span class="sxs-lookup"><span data-stu-id="4afc1-105">Lease journal names specify the journals that Asset leasing transactions are posted to.</span></span> <span data-ttu-id="4afc1-106">**资产租赁参数** 页面中的 **初始确认** 和 **月日记帐名称** 字段中显示分配给 **资产租赁** 日记帐类型的日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="4afc1-106">Only journal names that are assigned to the **Asset leasing** journal type appear in the **Initial Recognition** and **Monthly Journal Name** fields on the **Asset leasing parameters** page.</span></span> <span data-ttu-id="4afc1-107">只能将 **供应商发票记录** 日记帐类型分配给 **发票日记帐名称** 字段。</span><span class="sxs-lookup"><span data-stu-id="4afc1-107">Only **vendor invoice recording** journal type can be assigned to the **Invoice journal name** field.</span></span>
+<span data-ttu-id="d8449-105">租赁日记帐名称指定资产租赁交易过帐到的日记帐。</span><span class="sxs-lookup"><span data-stu-id="d8449-105">Lease journal names specify the journals that Asset leasing transactions are posted to.</span></span> <span data-ttu-id="d8449-106">**资产租赁参数** 页面中的 **初始确认** 和 **月日记帐名称** 字段中显示分配给 **资产租赁** 日记帐类型的日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="d8449-106">Only journal names that are assigned to the **Asset leasing** journal type appear in the **Initial Recognition** and **Monthly Journal Name** fields on the **Asset leasing parameters** page.</span></span> <span data-ttu-id="d8449-107">只能将 **供应商发票记录** 日记帐类型分配给 **发票日记帐名称** 字段。</span><span class="sxs-lookup"><span data-stu-id="d8449-107">Only **vendor invoice recording** journal type can be assigned to the **Invoice journal name** field.</span></span>
 
-<span data-ttu-id="4afc1-108">要配置租赁日记帐名称，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="4afc1-108">To configure lease journal names, follow these steps.</span></span>
+<span data-ttu-id="d8449-108">要配置租赁日记帐名称，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="d8449-108">To configure lease journal names, follow these steps.</span></span>
 
-1. <span data-ttu-id="4afc1-109">转到 **资产租赁 \> 设置 \> 资产租赁参数**。</span><span class="sxs-lookup"><span data-stu-id="4afc1-109">Go to **Asset leasing \> Setup \> Asset leasing parameters**.</span></span>
-2. <span data-ttu-id="4afc1-110">在 **常规** 选项卡的 **初始确认日记帐名称** 字段中，选择日记帐。</span><span class="sxs-lookup"><span data-stu-id="4afc1-110">On the **General** tab, in the **Initial recognition journal name** field, and select a journal.</span></span> <span data-ttu-id="4afc1-111">将把所有初始确认日记帐条目过帐到该日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="4afc1-111">All initial recognition journal entries will be posted to this journal name.</span></span>
-3. <span data-ttu-id="4afc1-112">在 **发票日记帐名称** 字段中，选择日记帐。</span><span class="sxs-lookup"><span data-stu-id="4afc1-112">In the **Invoice journal name** field, select a journal.</span></span> <span data-ttu-id="4afc1-113">如果为租赁帐簿将 **向供应商付款** 选项设置为 **是**，将把租赁和费用付款发票过帐到该日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="4afc1-113">If the **Pay to vendor** option is set to **Yes** for the lease book, lease and expense payment invoices will be posted to this journal name.</span></span>
-4. <span data-ttu-id="4afc1-114">在 **租赁日记帐名称** 字段中，选择日记帐。</span><span class="sxs-lookup"><span data-stu-id="4afc1-114">In the **Lease journal name** field, select a journal.</span></span> <span data-ttu-id="4afc1-115">所有折旧、利息和短期重新分类条目都将过帐到该日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="4afc1-115">All depreciation, interest, and short-term reclassification entries will be posted to this journal name.</span></span> <span data-ttu-id="4afc1-116">如果为租赁帐簿将 **向供应商付款** 选项设置为 **否**，将把租赁付款和费用付款条目也过帐到该日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="4afc1-116">If the **Pay to vendor** option is set to **No** for the lease book, lease payments and expense payment entries will also be posted to this journal name.</span></span>
+1. <span data-ttu-id="d8449-109">转到 **资产租赁 \> 设置 \> 资产租赁参数**。</span><span class="sxs-lookup"><span data-stu-id="d8449-109">Go to **Asset leasing \> Setup \> Asset leasing parameters**.</span></span>
+2. <span data-ttu-id="d8449-110">在 **常规** 选项卡的 **初始确认日记帐名称** 字段中，选择日记帐。</span><span class="sxs-lookup"><span data-stu-id="d8449-110">On the **General** tab, in the **Initial recognition journal name** field, and select a journal.</span></span> <span data-ttu-id="d8449-111">将把所有初始确认日记帐条目过帐到该日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="d8449-111">All initial recognition journal entries will be posted to this journal name.</span></span>
+3. <span data-ttu-id="d8449-112">在 **发票日记帐名称** 字段中，选择日记帐。</span><span class="sxs-lookup"><span data-stu-id="d8449-112">In the **Invoice journal name** field, select a journal.</span></span> <span data-ttu-id="d8449-113">如果为租赁帐簿将 **向供应商付款** 选项设置为 **是**，将把租赁和费用付款发票过帐到该日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="d8449-113">If the **Pay to vendor** option is set to **Yes** for the lease book, lease and expense payment invoices will be posted to this journal name.</span></span>
+4. <span data-ttu-id="d8449-114">在 **租赁日记帐名称** 字段中，选择日记帐。</span><span class="sxs-lookup"><span data-stu-id="d8449-114">In the **Lease journal name** field, select a journal.</span></span> <span data-ttu-id="d8449-115">所有折旧、利息和短期重新分类条目都将过帐到该日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="d8449-115">All depreciation, interest, and short-term reclassification entries will be posted to this journal name.</span></span> <span data-ttu-id="d8449-116">如果为租赁帐簿将 **向供应商付款** 选项设置为 **否**，将把租赁付款和费用付款条目也过帐到该日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="d8449-116">If the **Pay to vendor** option is set to **No** for the lease book, lease payments and expense payment entries will also be posted to this journal name.</span></span>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
