@@ -17,26 +17,29 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 08ca824bb4c4a02a80f2187fb5f8fe4e8b7327c9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9189033987a3072c7122e1a198768d9de6aa2a52
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992906"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254075"
 ---
-# <a name="reclassify-the-short-term-portion-of-lease-liability"></a><span data-ttu-id="a54f1-103">重新分类租赁负债的短期部分</span><span class="sxs-lookup"><span data-stu-id="a54f1-103">Reclassify the short-term portion of lease liability</span></span>
+# <a name="reclassify-the-short-term-portion-of-lease-liability"></a><span data-ttu-id="1b709-103">重新分类租赁负债的短期部分</span><span class="sxs-lookup"><span data-stu-id="1b709-103">Reclassify the short-term portion of lease liability</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="a54f1-104">本主题说明如何创建月度日记帐条目以将部分租赁负债重新分类为短期租赁。</span><span class="sxs-lookup"><span data-stu-id="a54f1-104">This topic explains how to create a monthly journal entry to reclassify a portion of the lease liability as short-term.</span></span> <span data-ttu-id="a54f1-105">当在批处理过程中选择的计划是 **短期租赁负债重新分类** 时，将创建日记帐条目。</span><span class="sxs-lookup"><span data-stu-id="a54f1-105">When the schedule that is selected in the batch process is **Short-term lease liability reclass**, a journal entry is created.</span></span> <span data-ttu-id="a54f1-106">该条目用于在当月的最后一天过帐租赁负债的当前部分。</span><span class="sxs-lookup"><span data-stu-id="a54f1-106">This entry is used to post the current portion of the lease liability on the last day of the month.</span></span> <span data-ttu-id="a54f1-107">同时，从下个月的第一天开始过帐冲销条目。</span><span class="sxs-lookup"><span data-stu-id="a54f1-107">At the same time, a reversal entry is posted as of the first day of the next month.</span></span>
+<span data-ttu-id="1b709-104">本主题说明如何创建月度日记帐条目以将部分租赁负债重新分类为短期租赁。</span><span class="sxs-lookup"><span data-stu-id="1b709-104">This topic explains how to create a monthly journal entry to reclassify a portion of the lease liability as short-term.</span></span> <span data-ttu-id="1b709-105">当在批处理过程中选择的计划是 **短期租赁负债重新分类** 时，将创建日记帐条目。</span><span class="sxs-lookup"><span data-stu-id="1b709-105">When the schedule that is selected in the batch process is **Short-term lease liability reclass**, a journal entry is created.</span></span> <span data-ttu-id="1b709-106">该条目用于在当月的最后一天过帐租赁负债的当前部分。</span><span class="sxs-lookup"><span data-stu-id="1b709-106">This entry is used to post the current portion of the lease liability on the last day of the month.</span></span> <span data-ttu-id="1b709-107">同时，从下个月的第一天开始过帐冲销条目。</span><span class="sxs-lookup"><span data-stu-id="1b709-107">At the same time, a reversal entry is posted as of the first day of the next month.</span></span>
 
-<span data-ttu-id="a54f1-108">负债摊销计划中将显示租赁负债的短期部分。</span><span class="sxs-lookup"><span data-stu-id="a54f1-108">The short-term portion of the lease liability is shown on the liability amortization schedule.</span></span> <span data-ttu-id="a54f1-109">过帐日记帐条目过帐后，**已创建的负债重分类日记帐** 列变为可用，并且也在计划中填写了日记帐 ID。</span><span class="sxs-lookup"><span data-stu-id="a54f1-109">When the journal entry is posted, the **Liability reclass journal created** column becomes available, and the journal ID is also filled in on the schedule.</span></span>
+<span data-ttu-id="1b709-108">负债摊销计划中将显示租赁负债的短期部分。</span><span class="sxs-lookup"><span data-stu-id="1b709-108">The short-term portion of the lease liability is shown on the liability amortization schedule.</span></span> <span data-ttu-id="1b709-109">过帐日记帐条目过帐后，**已创建的负债重分类日记帐** 列变为可用，并且也在计划中填写了日记帐 ID。</span><span class="sxs-lookup"><span data-stu-id="1b709-109">When the journal entry is posted, the **Liability reclass journal created** column becomes available, and the journal ID is also filled in on the schedule.</span></span>
 
-<span data-ttu-id="a54f1-110">要创建并过帐短期负债重新分类日记帐条目，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="a54f1-110">To create and post the short-term liability reclassification journal entry, follow these steps.</span></span>
+<span data-ttu-id="1b709-110">要创建并过帐短期负债重新分类日记帐条目，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="1b709-110">To create and post the short-term liability reclassification journal entry, follow these steps.</span></span>
 
-1. <span data-ttu-id="a54f1-111">转到 **资产租赁 \> 定期 \> 批量日记帐创建**。</span><span class="sxs-lookup"><span data-stu-id="a54f1-111">Go to **Asset leasing \> Periodic \> Batch journal creation**.</span></span>
-2. <span data-ttu-id="a54f1-112">在 **批量日记帐创建** 对话框的 **选择计划** 字段中，选择 **短期租赁负债重新分类**。</span><span class="sxs-lookup"><span data-stu-id="a54f1-112">In the **Batch journal creation** dialog box, in the **Select schedule** field, select **Short-term lease liability reclass**.</span></span>
-3. <span data-ttu-id="a54f1-113">在 **租赁组** 字段中，选择租赁组。</span><span class="sxs-lookup"><span data-stu-id="a54f1-113">In the **Lease group** field, select a lease group.</span></span> <span data-ttu-id="a54f1-114">或者，在 **帐簿** 字段中，选择帐簿 ID。</span><span class="sxs-lookup"><span data-stu-id="a54f1-114">Alternatively, in the **Book ID** field, select the book ID.</span></span>
-4. <span data-ttu-id="a54f1-115">打开 **过帐** 参数。</span><span class="sxs-lookup"><span data-stu-id="a54f1-115">Turn on the **Post** parameter.</span></span> <span data-ttu-id="a54f1-116">或者，如果应创建但不过帐条目，请关闭此参数。</span><span class="sxs-lookup"><span data-stu-id="a54f1-116">Alternatively, if the entry should be created but not posted, leave this parameter turned off.</span></span>
-5. <span data-ttu-id="a54f1-117">打开 **过帐前预览** 参数以在条目过帐之前进行查看。</span><span class="sxs-lookup"><span data-stu-id="a54f1-117">Turn on the **Preview before posting** parameter to view the entry before it's posted.</span></span>
-6. <span data-ttu-id="a54f1-118">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="a54f1-118">Select **OK**.</span></span>
+1. <span data-ttu-id="1b709-111">转到 **资产租赁 \> 定期 \> 批量日记帐创建**。</span><span class="sxs-lookup"><span data-stu-id="1b709-111">Go to **Asset leasing \> Periodic \> Batch journal creation**.</span></span>
+2. <span data-ttu-id="1b709-112">在 **批量日记帐创建** 对话框的 **选择计划** 字段中，选择 **短期租赁负债重新分类**。</span><span class="sxs-lookup"><span data-stu-id="1b709-112">In the **Batch journal creation** dialog box, in the **Select schedule** field, select **Short-term lease liability reclass**.</span></span>
+3. <span data-ttu-id="1b709-113">在 **租赁组** 字段中，选择租赁组。</span><span class="sxs-lookup"><span data-stu-id="1b709-113">In the **Lease group** field, select a lease group.</span></span> <span data-ttu-id="1b709-114">或者，在 **帐簿** 字段中，选择帐簿 ID。</span><span class="sxs-lookup"><span data-stu-id="1b709-114">Alternatively, in the **Book ID** field, select the book ID.</span></span>
+4. <span data-ttu-id="1b709-115">打开 **过帐** 参数。</span><span class="sxs-lookup"><span data-stu-id="1b709-115">Turn on the **Post** parameter.</span></span> <span data-ttu-id="1b709-116">或者，如果应创建但不过帐条目，请关闭此参数。</span><span class="sxs-lookup"><span data-stu-id="1b709-116">Alternatively, if the entry should be created but not posted, leave this parameter turned off.</span></span>
+5. <span data-ttu-id="1b709-117">打开 **过帐前预览** 参数以在条目过帐之前进行查看。</span><span class="sxs-lookup"><span data-stu-id="1b709-117">Turn on the **Preview before posting** parameter to view the entry before it's posted.</span></span>
+6. <span data-ttu-id="1b709-118">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="1b709-118">Select **OK**.</span></span>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

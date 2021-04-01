@@ -17,38 +17,41 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d2135458873963dc7c930b4bcef0c508c7d9635f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1eaa2f5cc191ec93c30f4f10a662a87e501a341d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992831"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249573"
 ---
-# <a name="set-up-lease-approval-workflows"></a><span data-ttu-id="9aca5-103">设置租赁审批工作流</span><span class="sxs-lookup"><span data-stu-id="9aca5-103">Set up lease approval workflows</span></span>
+# <a name="set-up-lease-approval-workflows"></a><span data-ttu-id="15652-103">设置租赁审批工作流</span><span class="sxs-lookup"><span data-stu-id="15652-103">Set up lease approval workflows</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="9aca5-104">该主题说明如何设置在创建新租赁时将运行的审批工作流。</span><span class="sxs-lookup"><span data-stu-id="9aca5-104">The topic explains how to set up an approval workflow that will run when a new lease is created.</span></span> <span data-ttu-id="9aca5-105">有关如何使用此工作流的详细信息，请参阅[使用审批工作流](use-create-lease-wrkflw.md)。</span><span class="sxs-lookup"><span data-stu-id="9aca5-105">For information about how to use the workflow, see [Use lease approval workflows](use-create-lease-wrkflw.md).</span></span> 
+<span data-ttu-id="15652-104">该主题说明如何设置在创建新租赁时将运行的审批工作流。</span><span class="sxs-lookup"><span data-stu-id="15652-104">The topic explains how to set up an approval workflow that will run when a new lease is created.</span></span> <span data-ttu-id="15652-105">有关如何使用此工作流的详细信息，请参阅[使用审批工作流](use-create-lease-wrkflw.md)。</span><span class="sxs-lookup"><span data-stu-id="15652-105">For information about how to use the workflow, see [Use lease approval workflows](use-create-lease-wrkflw.md).</span></span> 
 
-1. <span data-ttu-id="9aca5-106">转到 **资产租赁 \> 设置 \> 租赁工作流**。</span><span class="sxs-lookup"><span data-stu-id="9aca5-106">Go to **Asset leasing \> Setup \> Lease workflow**.</span></span>
-2. <span data-ttu-id="9aca5-107">在 **租赁工作流** 页面上，选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="9aca5-107">On the **Lease workflow** page, select **New**.</span></span>
-3. <span data-ttu-id="9aca5-108">在出现的对话框中 **工作流类型** 下，选择 **租赁工作流** 链接。</span><span class="sxs-lookup"><span data-stu-id="9aca5-108">In the dialog box that appears, under **Workflow type**, select the **Lease workflow** link.</span></span>
+1. <span data-ttu-id="15652-106">转到 **资产租赁 \> 设置 \> 租赁工作流**。</span><span class="sxs-lookup"><span data-stu-id="15652-106">Go to **Asset leasing \> Setup \> Lease workflow**.</span></span>
+2. <span data-ttu-id="15652-107">在 **租赁工作流** 页面上，选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="15652-107">On the **Lease workflow** page, select **New**.</span></span>
+3. <span data-ttu-id="15652-108">在出现的对话框中 **工作流类型** 下，选择 **租赁工作流** 链接。</span><span class="sxs-lookup"><span data-stu-id="15652-108">In the dialog box that appears, under **Workflow type**, select the **Lease workflow** link.</span></span>
 
-    <span data-ttu-id="9aca5-109">将打开该应用程序。</span><span class="sxs-lookup"><span data-stu-id="9aca5-109">The application is opened.</span></span> <span data-ttu-id="9aca5-110">运行后，登录到要重定向到工作流应用程序的 Azure Active Directory (Azure AD)。</span><span class="sxs-lookup"><span data-stu-id="9aca5-110">After it runs, sign in to Azure Active Directory (Azure AD) to be redirected to the workflow application.</span></span>
+    <span data-ttu-id="15652-109">将打开该应用程序。</span><span class="sxs-lookup"><span data-stu-id="15652-109">The application is opened.</span></span> <span data-ttu-id="15652-110">运行后，登录到要重定向到工作流应用程序的 Azure Active Directory (Azure AD)。</span><span class="sxs-lookup"><span data-stu-id="15652-110">After it runs, sign in to Azure Active Directory (Azure AD) to be redirected to the workflow application.</span></span>
 
-4. <span data-ttu-id="9aca5-111">将 **租赁工作流审批** 元素添加到工作流中。</span><span class="sxs-lookup"><span data-stu-id="9aca5-111">Drag the **Lease workflow approval** element onto the workflow.</span></span>
-5. <span data-ttu-id="9aca5-112">将一个节点从 **开始** 连接到 **租赁工作流审批**。</span><span class="sxs-lookup"><span data-stu-id="9aca5-112">Connect one node from **Start** to **Lease workflow approval**.</span></span> <span data-ttu-id="9aca5-113">然后将 **租赁工作流审批** 连接到 **结束**。</span><span class="sxs-lookup"><span data-stu-id="9aca5-113">Then connect **Lease workflow approval** to **End**.</span></span>
-6. <span data-ttu-id="9aca5-114">双击 **租赁工作流审批**。</span><span class="sxs-lookup"><span data-stu-id="9aca5-114">Double-click **Lease workflow approval**.</span></span>
-7. <span data-ttu-id="9aca5-115">选择 **属性**，然后在 **基本设置** 下输入工作流的名称。</span><span class="sxs-lookup"><span data-stu-id="9aca5-115">Select **Properties**, and then, under **Basic settings**, enter a name for the workflow.</span></span>
+4. <span data-ttu-id="15652-111">将 **租赁工作流审批** 元素添加到工作流中。</span><span class="sxs-lookup"><span data-stu-id="15652-111">Drag the **Lease workflow approval** element onto the workflow.</span></span>
+5. <span data-ttu-id="15652-112">将一个节点从 **开始** 连接到 **租赁工作流审批**。</span><span class="sxs-lookup"><span data-stu-id="15652-112">Connect one node from **Start** to **Lease workflow approval**.</span></span> <span data-ttu-id="15652-113">然后将 **租赁工作流审批** 连接到 **结束**。</span><span class="sxs-lookup"><span data-stu-id="15652-113">Then connect **Lease workflow approval** to **End**.</span></span>
+6. <span data-ttu-id="15652-114">双击 **租赁工作流审批**。</span><span class="sxs-lookup"><span data-stu-id="15652-114">Double-click **Lease workflow approval**.</span></span>
+7. <span data-ttu-id="15652-115">选择 **属性**，然后在 **基本设置** 下输入工作流的名称。</span><span class="sxs-lookup"><span data-stu-id="15652-115">Select **Properties**, and then, under **Basic settings**, enter a name for the workflow.</span></span>
 
-    <span data-ttu-id="9aca5-116">在此页面上，您还可以为工作流设置更多参数。</span><span class="sxs-lookup"><span data-stu-id="9aca5-116">On this page, you can also set more parameters for the workflow.</span></span> <span data-ttu-id="9aca5-117">如果您已开启 **自动操作**，系统将自动执行特定操作。</span><span class="sxs-lookup"><span data-stu-id="9aca5-117">If you've turned on **Automatic actions**, the system will automatically take a specific action.</span></span> <span data-ttu-id="9aca5-118">如果在 **通知** 选项卡上指定了通知，则可以发送通知。在 **高级设置** 选项卡中，您可以指定最终审批者，设置时间限制，以及指定必须完成的特定操作。</span><span class="sxs-lookup"><span data-stu-id="9aca5-118">Notifications can be sent if they are specified on the **Notifications** tab. On the **Advanced settings** tab, you can specify a final approver, set a time limit, and designate specific actions that must be completed.</span></span>
+    <span data-ttu-id="15652-116">在此页面上，您还可以为工作流设置更多参数。</span><span class="sxs-lookup"><span data-stu-id="15652-116">On this page, you can also set more parameters for the workflow.</span></span> <span data-ttu-id="15652-117">如果您已开启 **自动操作**，系统将自动执行特定操作。</span><span class="sxs-lookup"><span data-stu-id="15652-117">If you've turned on **Automatic actions**, the system will automatically take a specific action.</span></span> <span data-ttu-id="15652-118">如果在 **通知** 选项卡上指定了通知，则可以发送通知。在 **高级设置** 选项卡中，您可以指定最终审批者，设置时间限制，以及指定必须完成的特定操作。</span><span class="sxs-lookup"><span data-stu-id="15652-118">Notifications can be sent if they are specified on the **Notifications** tab. On the **Advanced settings** tab, you can specify a final approver, set a time limit, and designate specific actions that must be completed.</span></span>
 
-8. <span data-ttu-id="9aca5-119">完成工作流参数的设置后，请选择 **关闭**。</span><span class="sxs-lookup"><span data-stu-id="9aca5-119">When you've finished setting the workflow parameters, select **Close**.</span></span>
-9. <span data-ttu-id="9aca5-120">选择 **步骤 1**，然后选择 **属性**。</span><span class="sxs-lookup"><span data-stu-id="9aca5-120">Select **Step 1**, and then select **Properties**.</span></span>
-10. <span data-ttu-id="9aca5-121">在 **基本设置** 下，输入步骤的名称，为审批创建主题行，然后指定审批说明。</span><span class="sxs-lookup"><span data-stu-id="9aca5-121">Under **Basic settings**, enter a name for the step, create a subject line for the approval, and specify instructions for the approval.</span></span>
-11. <span data-ttu-id="9aca5-122">在 **分配** 页面上，选择分配类型。</span><span class="sxs-lookup"><span data-stu-id="9aca5-122">On the **Assignment** page, select the assignment type.</span></span>
-12. <span data-ttu-id="9aca5-123">要为审批分配特定用户，请选择 **用户**，选择审批租赁的用户，然后选择 **关闭**。</span><span class="sxs-lookup"><span data-stu-id="9aca5-123">To assign specific users to the approval, select **User**, select the users who approve leases, and then select **Close**.</span></span>
-13. <span data-ttu-id="9aca5-124">选择 **保存并关闭** 以创建工作流。</span><span class="sxs-lookup"><span data-stu-id="9aca5-124">Select **Save and close** to create the workflow.</span></span> <span data-ttu-id="9aca5-125">然后，在系统提示时，选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="9aca5-125">Then, when you're prompted, select **OK**.</span></span>
-14. <span data-ttu-id="9aca5-126">在 **创建工作流** 页面上，选择 **关闭**。</span><span class="sxs-lookup"><span data-stu-id="9aca5-126">On the **Create workflow** page, select **Close**.</span></span>
-14. <span data-ttu-id="9aca5-127">选择新工作流，然后选择 **版本号**。</span><span class="sxs-lookup"><span data-stu-id="9aca5-127">Select the new workflow, and then select **Versions**.</span></span> <span data-ttu-id="9aca5-128">然后选择 **激活** 以确保工作流处于活动状态。</span><span class="sxs-lookup"><span data-stu-id="9aca5-128">Then select **Make active** to ensure that the workflow is active.</span></span>
-15. <span data-ttu-id="9aca5-129">选择 **关闭**。</span><span class="sxs-lookup"><span data-stu-id="9aca5-129">Select **Close**.</span></span> <span data-ttu-id="9aca5-130">将显示新的活动版本。</span><span class="sxs-lookup"><span data-stu-id="9aca5-130">The new active version appears.</span></span>
+8. <span data-ttu-id="15652-119">完成工作流参数的设置后，请选择 **关闭**。</span><span class="sxs-lookup"><span data-stu-id="15652-119">When you've finished setting the workflow parameters, select **Close**.</span></span>
+9. <span data-ttu-id="15652-120">选择 **步骤 1**，然后选择 **属性**。</span><span class="sxs-lookup"><span data-stu-id="15652-120">Select **Step 1**, and then select **Properties**.</span></span>
+10. <span data-ttu-id="15652-121">在 **基本设置** 下，输入步骤的名称，为审批创建主题行，然后指定审批说明。</span><span class="sxs-lookup"><span data-stu-id="15652-121">Under **Basic settings**, enter a name for the step, create a subject line for the approval, and specify instructions for the approval.</span></span>
+11. <span data-ttu-id="15652-122">在 **分配** 页面上，选择分配类型。</span><span class="sxs-lookup"><span data-stu-id="15652-122">On the **Assignment** page, select the assignment type.</span></span>
+12. <span data-ttu-id="15652-123">要为审批分配特定用户，请选择 **用户**，选择审批租赁的用户，然后选择 **关闭**。</span><span class="sxs-lookup"><span data-stu-id="15652-123">To assign specific users to the approval, select **User**, select the users who approve leases, and then select **Close**.</span></span>
+13. <span data-ttu-id="15652-124">选择 **保存并关闭** 以创建工作流。</span><span class="sxs-lookup"><span data-stu-id="15652-124">Select **Save and close** to create the workflow.</span></span> <span data-ttu-id="15652-125">然后，在系统提示时，选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="15652-125">Then, when you're prompted, select **OK**.</span></span>
+14. <span data-ttu-id="15652-126">在 **创建工作流** 页面上，选择 **关闭**。</span><span class="sxs-lookup"><span data-stu-id="15652-126">On the **Create workflow** page, select **Close**.</span></span>
+14. <span data-ttu-id="15652-127">选择新工作流，然后选择 **版本号**。</span><span class="sxs-lookup"><span data-stu-id="15652-127">Select the new workflow, and then select **Versions**.</span></span> <span data-ttu-id="15652-128">然后选择 **激活** 以确保工作流处于活动状态。</span><span class="sxs-lookup"><span data-stu-id="15652-128">Then select **Make active** to ensure that the workflow is active.</span></span>
+15. <span data-ttu-id="15652-129">选择 **关闭**。</span><span class="sxs-lookup"><span data-stu-id="15652-129">Select **Close**.</span></span> <span data-ttu-id="15652-130">将显示新的活动版本。</span><span class="sxs-lookup"><span data-stu-id="15652-130">The new active version appears.</span></span>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
