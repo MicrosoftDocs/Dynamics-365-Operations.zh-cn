@@ -18,26 +18,31 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 366c9bd571ac85677105a136f83eeb949c8104f9
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 833494fffda917d389252a35abdcd23a69b46511
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111628"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466054"
 ---
-# <a name="set-up-employment-types"></a><span data-ttu-id="1e969-103">设置雇用类型</span><span class="sxs-lookup"><span data-stu-id="1e969-103">Set up employment types</span></span>
+# <a name="set-up-employment-types"></a><span data-ttu-id="2e11b-103">设置雇用类型</span><span class="sxs-lookup"><span data-stu-id="2e11b-103">Set up employment types</span></span>
 
-<span data-ttu-id="1e969-104">在 Dynamics 365 Human Resources 中设置雇用类型以匹配您的工作人员。</span><span class="sxs-lookup"><span data-stu-id="1e969-104">Set up employment types in Dynamics 365 Human Resources to match your workers.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-1. <span data-ttu-id="1e969-105">在 **人事管理** 工作区中，在 **设置** 下，选择 **雇用类型**。</span><span class="sxs-lookup"><span data-stu-id="1e969-105">In the **Personnel management** workspace, under **Setup**, select **Employment types**.</span></span>
+<span data-ttu-id="2e11b-104">在 Dynamics 365 Human Resources 中设置雇用类型以匹配您的工作人员。</span><span class="sxs-lookup"><span data-stu-id="2e11b-104">Set up employment types in Dynamics 365 Human Resources to match your workers.</span></span>
 
-2. <span data-ttu-id="1e969-106">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="1e969-106">Select **New**.</span></span>
+1. <span data-ttu-id="2e11b-105">在 **人事管理** 工作区中，在 **设置** 下，选择 **雇用类型**。</span><span class="sxs-lookup"><span data-stu-id="2e11b-105">In the **Personnel management** workspace, under **Setup**, select **Employment types**.</span></span>
 
-3. <span data-ttu-id="1e969-107">为以下字段指定值：</span><span class="sxs-lookup"><span data-stu-id="1e969-107">Specify values for the following fields:</span></span>
+2. <span data-ttu-id="2e11b-106">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="2e11b-106">Select **New**.</span></span>
 
-   | <span data-ttu-id="1e969-108">字段</span><span class="sxs-lookup"><span data-stu-id="1e969-108">Field</span></span> | <span data-ttu-id="1e969-109">说明</span><span class="sxs-lookup"><span data-stu-id="1e969-109">Description</span></span> |
+3. <span data-ttu-id="2e11b-107">为以下字段指定值：</span><span class="sxs-lookup"><span data-stu-id="2e11b-107">Specify values for the following fields:</span></span>
+
+   | <span data-ttu-id="2e11b-108">字段</span><span class="sxs-lookup"><span data-stu-id="2e11b-108">Field</span></span> | <span data-ttu-id="2e11b-109">说明</span><span class="sxs-lookup"><span data-stu-id="2e11b-109">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="1e969-110">**雇用类型**</span><span class="sxs-lookup"><span data-stu-id="1e969-110">**Employment type**</span></span> | <span data-ttu-id="1e969-111">雇用类型的唯一标识。</span><span class="sxs-lookup"><span data-stu-id="1e969-111">Unique identification for the employment type.</span></span> |
-   | <span data-ttu-id="1e969-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="1e969-112">**Description**</span></span> | <span data-ttu-id="1e969-113">类型类型的描述。</span><span class="sxs-lookup"><span data-stu-id="1e969-113">A description of the employment type.</span></span> |
+   | <span data-ttu-id="2e11b-110">**雇用类型**</span><span class="sxs-lookup"><span data-stu-id="2e11b-110">**Employment type**</span></span> | <span data-ttu-id="2e11b-111">雇用类型的唯一标识。</span><span class="sxs-lookup"><span data-stu-id="2e11b-111">Unique identification for the employment type.</span></span> |
+   | <span data-ttu-id="2e11b-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="2e11b-112">**Description**</span></span> | <span data-ttu-id="2e11b-113">类型类型的描述。</span><span class="sxs-lookup"><span data-stu-id="2e11b-113">A description of the employment type.</span></span> |
 
-4. <span data-ttu-id="1e969-114">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="1e969-114">Select **Save**.</span></span> 
+4. <span data-ttu-id="2e11b-114">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="2e11b-114">Select **Save**.</span></span> 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
