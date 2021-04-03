@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 820604fac96f5c86be3f7206ca88b3eb1fc6c32a
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 3fb41234d255ff9b5ad3756156eeadca2c94546b
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093101"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559837"
 ---
 # <a name="column-definitions-in-financial-reports"></a>财务报表中的列定义
 

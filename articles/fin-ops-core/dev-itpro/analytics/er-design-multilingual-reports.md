@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7934f36877247460ec843201a08d4670456889f9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e765b450f626abb3dee4a70419176568eeb62d7e
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679694"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562062"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>在电子报告中设计多语言报告
 

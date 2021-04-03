@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ea5b4e6a4a82845bb973ffd6b16b3f83e8c7b0d8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0a3a16fa3fb92b446eecf6459b5a7c65f7560c20
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685725"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564455"
 ---
 # <a name="power-bi-content-home-page"></a>Power BI 内容主页
 

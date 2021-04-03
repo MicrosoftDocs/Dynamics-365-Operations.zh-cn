@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: b4ed81bb5527ea8e02caaa1262a57960dd7cdf29
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d39a697876641b4c9647dc1a55243ac2ca7cb9e7
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685755"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564487"
 ---
 # <a name="parse-incoming-documents-in-json-format"></a>分析 JSON 格式的传入文档
 

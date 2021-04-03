@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/03/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -15,12 +14,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14b14dd609805a7cf9331427012b991791698cfd
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 399f19197a729c11eaff94d708c837caef0d366d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686653"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562944"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>导入包含可选属性的 XML 格式文件
 

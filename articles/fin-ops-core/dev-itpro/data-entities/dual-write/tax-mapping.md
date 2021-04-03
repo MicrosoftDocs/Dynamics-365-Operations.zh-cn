@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 09/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 14c22dd6602b5fbf866c8dc6b057f6c8acb1f48f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7501ef21492a96c81b971e1d9077beaba9be897b
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679288"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560329"
 ---
 # <a name="integrated-tax"></a>集成税务
 

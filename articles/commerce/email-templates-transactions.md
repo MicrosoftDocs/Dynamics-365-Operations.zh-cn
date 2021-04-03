@@ -1,9 +1,9 @@
 ---
 title: 为交易事件创建电子邮件模板
-description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中为交易事件创建，上传和配置电子邮件模板。
+description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中为交易事件创建、上传和配置电子邮件模板。
 author: bicyclingfool
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 245ca998ef3e6d172df3525f06d7901f3f41b650
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 756e2a64ef4c33c347106968eb6bc79a413c3ff7
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000769"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555237"
 ---
-# <a name="create-email-templates-for-transactional-events"></a>为交易事件创建电子邮件模板
+# <a name="create-email-templates-for-transactional-events"></a>创建交易事件的电子邮件模板
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何在 Microsoft Dynamics 365 Commerce 中为交易事件创建，上传和配置电子邮件模板。
+此主题介绍如何在 Microsoft Dynamics 365 Commerce 中为交易事件创建、上传和配置电子邮件模板。
 
 ## <a name="overview"></a>概览
 
@@ -39,7 +39,7 @@ Dynamics 365 Commerce 提供用于发送电子邮件的现成解决方案以向�
 
 若要创建电子邮件模板，请执行以下步骤。
 
-1. 在 Commerce Headquarters 中，转到 **组织电子邮件模板**，它在 **Retail 和 Commerce \> 总部设置 \> 组织电子邮件模板** 或 **组织管理 \> 设置 \> 组织电子邮件模板** 下。
+1. 在 Commerce Headquarters 中，转到 **Retail 和 Commerce \> Headquarters 设置 \> 组织电子邮件模板** 或 **组织管理 \> 设置 \> 组织电子邮件模板**。
 1. 选择 **新建**。
 1. 在 **常规** 下，设置以下字段：
 
@@ -78,28 +78,29 @@ Dynamics 365 Commerce 提供用于发送电子邮件的现成解决方案以向�
 
 以下占位符检索和显示销售订单级（相对销售行级）定义的数据。
 
-| 占位符名称    | 占位符值                                                |
-|---------------------|------------------------------------------------------------------|
-| customername        | 下订单的客户的姓名。                   |
-| salesid             | 订单的销售 ID。                                       |
-| deliveryaddress     | 所装运订单的交货地址。                         |
-| customeraddress     | 客户的地址。                                     |
-| deliverydate        | 交货日期。                                               |
-| shipdate            | 装运日期。                                                   |
-| modeofdelivery      | 订单的交货方式。                                  |
-| 费用             | 订单的总费用。                                 |
-| 税                 | 订单的总税金。                                     |
-| 合计               | 订单的总金额。                                  |
-| ordernetamount      | 订单的总金额减去总税金。             |
-| discount / 折扣            | 订单的总折扣。                                |
-| storename           | 下订单所在商店的名称。                |
-| storeaddress        | 下订单的商店的地址。                  |
-| storeopenfrom       | 下订单的商店的上班时间。             |
-| storeopento         | 下订单的商店的下班时间。             |
-| pickupstorename     | 订单提货所在商店的名称。         |
-| pickupstoreaddress  | 订单提货所在商店的地址。      |
-| pickupopenstorefrom | 订单提货所在商店的上班时间。 |
-| pickupopenstoreto   | 订单提货所在商店的下班时间。 |
+| 占位符名称     | 占位符值                                            |
+| -------------------- | ------------------------------------------------------------ |
+| customername         | 下订单的客户的姓名。               |
+| salesid              | 订单的销售 ID。                                   |
+| deliveryaddress      | 所装运订单的交货地址。                     |
+| customeraddress      | 客户的地址。                                 |
+| customeremailaddress | 客户在结帐时输入的电子邮件地址。     |
+| deliverydate         | 交货日期。                                           |
+| shipdate             | 装运日期。                                               |
+| modeofdelivery       | 订单的交货方式。                              |
+| 费用              | 订单的总费用。                             |
+| 税                  | 订单的总税金。                                 |
+| 合计                | 订单的总金额。                              |
+| ordernetamount       | 订单的总金额减去总税金。         |
+| discount / 折扣             | 订单的总折扣。                            |
+| storename            | 下订单所在商店的名称。            |
+| storeaddress         | 下订单的商店的地址。              |
+| storeopenfrom        | 下订单的商店的上班时间。         |
+| storeopento          | 下订单的商店的下班时间。         |
+| pickupstorename      | 订单提货所在商店的名称。     |
+| pickupstoreaddress   | 订单提货所在商店的地址。  |
+| pickupopenstorefrom  | 订单提货所在商店的上班时间。 |
+| pickupopenstoreto    | 订单提货所在商店的下班时间。 |
 
 ### <a name="order-line-placeholders-sales-line-level"></a>订单行占位符（销售行级）
 
@@ -169,11 +170,8 @@ Dynamics 365 Commerce 提供用于发送电子邮件的现成解决方案以向�
 
 可以通过电子邮件将收据发给在销售点 (POS) 进行购买的客户。 通过电子邮件发送的收据模板的创建步骤与其他交易事件的模板的创建步骤相同。 但是需要进行以下更改：
 
-- 电子邮件模板的电子邮件 ID 必须为 **emailRecpt**。
-- 使用 **%message%** 占位符将收据的文本插入到电子邮件中。 若要确保正确显示收据正文，请在 **%message%** 占位符两侧添加 HTML **&lt;pre&gt;** 和 **&lt;/pre&gt;** 标记。
-- 将电子邮件页眉和页脚 HTML 中的换行符转换为 HTML **&lt;br /&gt;** 标记，以便正确显示收据正文。 若要杜绝收据电子邮件中不需要的垂直空格，请删除 HTML 中不需要垂直空格的任何位置的换行符。
-
-有关如何配置电子邮件收据的详细信息，请参阅[设置电子邮件收据](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)。
+- 使用 **%message%**  占位符将收据的文本插入到电子邮件中。 若要确保正确显示收据正文，请在 **%message%** 占位符两侧添加 HTML **&lt;pre&gt;** 和 **&lt;/pre&gt;** 标记。
+- **%receiptid%** 占位符可用于显示代表收据 ID 的 QR 码或条形码。 （QR 码和条形码是由第三方服务动态生成和提供的。）有关如何在电子邮件收据中显示 QR 码或条形码的更多信息，请参见[在交易和收据电子邮件中添加 QR 码或条形码](add-qr-code-barcode-email.md)。
 
 ## <a name="upload-the-email-html"></a>上传电子邮件 HTML
 

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: fb505f33e497cf16cd6cdeddee1f88d01797f3ef
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 64515ff74c0ca2b01bb9dac06331ba0424811411
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130573"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565563"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>带有多个工作表的数据模板
 

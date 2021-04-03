@@ -6,7 +6,6 @@ manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -15,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4a600137fc583aef8c85c920ca3cd2949a1a19d
-ms.sourcegitcommit: 0cca2f82ae5c91c409e2abbf5867ff4e59ba71d6
+ms.openlocfilehash: cd0389584cb723b403dcd5f6bec67d2eb969048f
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "5055931"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564996"
 ---
 # <a name="enter-project-timesheets"></a>输入项目工时单
 

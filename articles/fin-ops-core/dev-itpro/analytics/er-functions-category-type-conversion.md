@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb2d4ab3434a563e907f6540809888cd3f671c1a
-ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
+ms.openlocfilehash: 5613496d3131ccd39b198cac214eb791a6d07355
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "4740800"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561510"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>类型转换类别的 ER 函数列表
 

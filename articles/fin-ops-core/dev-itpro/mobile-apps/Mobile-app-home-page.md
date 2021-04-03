@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: e4a9d6424e2d214624c148c0565c88ea4cf4ccf9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 925d1fff51317b592a7af61ebd797fa70ab5b6f4
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683450"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567180"
 ---
 # <a name="mobile-app-home-page"></a>移动应用主页
 

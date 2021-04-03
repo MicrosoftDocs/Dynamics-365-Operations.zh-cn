@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 09/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2018-04-10
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: a9ee0ced32aca8c350455d544b798b7b5cf21c72
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: f14c28a5ec46676f4c5f134d604c3928b74548f7
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798515"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567056"
 ---
 # <a name="ax-40-content-that-has-been-retired"></a>AX 4.0 内容已停用。
 

@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c5ad1d304f0914a9ddbca951cdb7419dbcc1f46
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d30fdc9c7b6f277b8712b733cabdb0552db2a748
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682431"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5563574"
 ---
 # <a name="datetodatetime-er-function"></a>DATETODATETIME ER 函数
 

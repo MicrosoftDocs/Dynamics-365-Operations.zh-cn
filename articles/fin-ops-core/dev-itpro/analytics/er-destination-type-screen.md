@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c687a435f50b54fd7bdf5b4802f4c07abd0f0e3e
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 5f3fc5a619704c21ebd082a85234e2fc4f3bd909
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094046"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561918"
 ---
 # <a name="screen-destination"></a>屏幕目标
 

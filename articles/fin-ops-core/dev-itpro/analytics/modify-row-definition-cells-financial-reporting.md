@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6e1164166ece4df1257ef7300c1c68f4b20ec76c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685851"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564583"
 ---
 # <a name="modify-row-definition-cells"></a>修改行定义单元格
 

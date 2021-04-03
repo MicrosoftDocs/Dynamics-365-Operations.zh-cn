@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 09/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f794d8306a3a752d811d7d84c0ed5f739f423cad
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f8095b0a755e40e5665d951d33ea4ce60e749165
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681634"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567688"
 ---
 # <a name="integrated-ledger"></a>集成的分类帐
 

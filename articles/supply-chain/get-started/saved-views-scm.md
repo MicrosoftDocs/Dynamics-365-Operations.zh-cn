@@ -16,14 +16,17 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 78cb1c5a90061af224fcd5933af81b6c5cd7e57d
-ms.sourcegitcommit: 5d62c53d84f2ec27136427acfd4314d055298a7b
+ms.openlocfilehash: 08002a1ff40c8baca475bc19a1220fe4c4b23bcd
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5123460"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500686"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Supply Chain Management 的标准已保存视图
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management 包括几个已保存视图，您可以根据需要启用和使用这些视图。 其中一些标准已保存视图针对特定角色或任务进行了优化和命名（例如，“质量控制”或“接收”）。 其他视图也进行了优化，让它们仅包含 Microsoft 使用情况统计信息表明客户最常使用的字段和设置。 这些已保存视图通常称为 *简化* 视图。 本主题介绍可用的标准已保存视图，并说明如何启用和自定义它们。
 

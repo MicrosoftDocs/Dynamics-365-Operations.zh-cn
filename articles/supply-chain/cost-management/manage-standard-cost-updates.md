@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostingVersion, InventItemPrice
+ms.search.form: CostingVersion, InventItemPrice, InventParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 69992
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 166d12d707deabc59f7613a5016851b30fcc42d8
-ms.sourcegitcommit: 41baf654a2553cfe5c715feb9cc03e48cfc12598
+ms.openlocfilehash: fc4ae40e9740ce76e79b76c2bff2c690568abff2
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024662"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500590"
 ---
 # <a name="manage-standard-cost-updates"></a>管理标准成本更新
 
@@ -45,6 +45,8 @@ ms.locfileid: "5024662"
 此示例使用了一个附加成本计算版本来管理整个 2020 年的更新。 可以使用更多的成本计算版本，例如使用单独的版本来用于各个更新批处理。 当使用了多个附加成本计算时，必须用有效成本表示回调，因为有效成本分散在多个成本计算版本中。
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>标准成本重估的财务维度
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 激活新的标准价格通常会通过标准成本重估交易来重估现有库存量值。 通常，之后会在交易中发布物料的财务维度。 但是，如果您想要控制是否以及如何发布财务维度，请使用 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)打开名为 *用于库存标准成本重估的默认财务维度的选项* 功能。 启用此功能后，转到 **成本管理 > 库存会计政策设置 > 参数**，将新的 **财务维度的来源** 下拉列表设置为以下值之一：
 

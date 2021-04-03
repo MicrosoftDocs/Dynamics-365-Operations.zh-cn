@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReqCreatePlanWorkspace
+ms.search.form: ReqGroup, ReqItemTable, ReqPlanSched
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f970d7aa9f758d3bc35b7a1b9d1e43be928fd250
-ms.sourcegitcommit: 995c678b4715be267f1f97148902a6b3dde3bcab
+ms.openlocfilehash: 2b52a49109274c9be9ed8aa069517b175ea6281c
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "5033196"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501310"
 ---
 # <a name="coverage-time-fences"></a>覆盖时限
 

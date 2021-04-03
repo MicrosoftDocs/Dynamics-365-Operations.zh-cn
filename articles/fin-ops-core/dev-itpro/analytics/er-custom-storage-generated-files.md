@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 362ac7f10cc61e26be89dfbae0e84745d42588a3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 146e7fb5fefbecabc99c2978b52eb0e782da0322
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680750"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562206"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>为生成文档指定自定义存储位置
 

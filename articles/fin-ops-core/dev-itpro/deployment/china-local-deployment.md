@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 09/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: China (PRC)
 ms.author: kfend
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6f97a326189e9d6f79b8a04b6716a4411180aa41
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 7a5e504b33cefe67762ee0c5fa15362ff5bc4f55
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744408"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564074"
 ---
 # <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management---operated-by-21vianet-in-china"></a>由世纪互联在中国运营的 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management
 

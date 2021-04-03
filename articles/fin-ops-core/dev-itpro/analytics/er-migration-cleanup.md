@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, ERParameters, ERMigrationCleanup
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: edb60f247b2bd6cc4ecd514e3e85bafbb681788d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b09afc30c401e2dccfc4114261dc5e713c8c470c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686360"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565507"
 ---
 # <a name="er-migration-cleanup"></a>ER 迁移清理 
 

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58697148ecf83f4962bd64a221945b6d911e11a6
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 91c50047781fdc21c9157ceb634822c6cfb5a075
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093297"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559643"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>通过使用 ER 配置访问应用程序元数据
 

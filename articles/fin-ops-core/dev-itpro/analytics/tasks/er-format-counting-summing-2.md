@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6215fe1f32bcb4833bd009b7c33e09edbba17817
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: d6eb3d686e8f60de51001deffb4c2460c181a4ab
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092989"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565157"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>ER 配置格式以执行盘点和合计（第 2 部分 - 配置计算）
 
