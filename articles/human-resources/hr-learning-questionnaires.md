@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 17183c3af289fd65f2cbd8e2d635d74d2b73ad29
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: a45d504d7cf6566327e7a2d7b414b8ed1b2c2fb9
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115430"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464926"
 ---
 # <a name="questionnaires"></a>调查表
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本文提供了有关调查表的一般信息以及指向更多详细信息的链接。 调查表是一组问题，用于收集信息以达到各种目的。 您可以设计、创建、分发和完成调查表，然后对结果进行分析。 
 

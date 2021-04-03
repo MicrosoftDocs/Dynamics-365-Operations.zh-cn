@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 43c727fa8e0508adf66109efd84a66cb31df7ea3
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 5eee8855a5a6eda4f6c0ad926f9366121de3ee7d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115406"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467097"
 ---
 # <a name="personnel-actions-faq"></a>人事行动常见问题
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 如果您的组织使用人事行动，本文包括对可能有的问题的解答。 人事行动是执行特定与人事相关任务时必须完成的附加步骤。 关于可能需要人事行动的示例包括您创建新职位、修改现有职位值、雇用新工作人员、转移工作人员、更改工作员工薪酬、更改职位分配或中止工作人员。
 

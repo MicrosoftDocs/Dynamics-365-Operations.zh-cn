@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 664c644c9b34e3489b4134040e165d26202dbd38
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: ec63148364022fe5b8c40d855856eec232af3e48
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111633"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463952"
 ---
 # <a name="cant-create-an-environment-in-the-power-apps-admin-center"></a>无法在 Power Apps 管理中心内创建环境
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **发货**
 

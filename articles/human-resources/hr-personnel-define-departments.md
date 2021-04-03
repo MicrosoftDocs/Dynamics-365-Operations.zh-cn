@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13511b1cdf56716de635602720a343e9593adf61
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 06b93e9b7bd4d68aa5d6f6c377991963e37579ae
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130250"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464396"
 ---
 # <a name="define-new-departments"></a>定义新部门
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 

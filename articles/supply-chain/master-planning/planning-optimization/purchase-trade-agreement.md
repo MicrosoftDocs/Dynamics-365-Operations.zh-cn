@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e060f20b65153a7bbe70996e6ff4c3930468348a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d8d5b8c7ac5da9c68926d7fbb4f37b81b56665cb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992237"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264714"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>使用采购贸易协议进行主计划
 
@@ -73,12 +73,12 @@ ms.locfileid: "4992237"
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>“计划优化”如何查找供应商和提前期的示例
 
-下表提供了一些示例，这些示例显示已发布产品的各种设置，及其关联的采购贸易协议如何影响为生成的计划采购订单找到的值。 最右边两列中的 **粗体** 值是“计划优化”选择的值。 其他列中的**_粗体和斜体_* _值是为每一行生成这些结果值的设置。
+下表提供了一些示例，这些示例显示已发布产品的各种设置，及其关联的采购贸易协议如何影响为生成的计划采购订单找到的值。 最右边两列中的 **粗体** 值是“计划优化”选择的值。 其他列中的 **_粗体和斜体_** 值是为每一行生成这些结果值的设置。
 
 | 已发布产品：供应商 | 默认订单设置：提前期 | 物料覆盖范围：覆盖供应商 | 物料覆盖范围：覆盖提前期 | 贸易协议：供应商 | 贸易协议：提前期 | 贸易协议：忽略提前期 | 生成的供应商 | 生成的提前期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| _*_US001_*_ | _*_1_*_ | 不 | 不 | US003 | 3 | 不 | _ *US001** | **1** |
-| US001 | 1 | **_是：US002_* _ | _*_是：2_*_ | US003 | 3 | 不 | _ *US002** | **2** |
+| ***US001** _ | _*_1_*_ | 不 | 不 | US003 | 3 | 不 | _ *US001** | **1** |
+| US001 | 1 | ***是：US002** _ | _*_是：2_*_ | US003 | 3 | 不 | _ *US002** | **2** |
 | *（空白）* | 1 | 不 | 不 | ***US003** _ | _*_3_*_ | 不 | _ *US003** | **3** |
 | *（空白）* | ***1** _ | 不 | 不 | _*_US003_*_ | 3 | 是 | _ *US003** | **1** |
 | *（空白）* | ***1** _ | _*_是：US002_*_ | 不 | US003 | 3 | 不 | _ *US002** | **1** |

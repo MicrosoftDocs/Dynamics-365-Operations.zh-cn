@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f701d9e38e04769f1255e6f8cb3ee757bf22f96c
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: e3a4966aeb0adb50c82e4edd626ea9c0289703e3
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111674"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464294"
 ---
 # <a name="set-up-flex-credit-programs"></a>设置弹性信贷项目
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 您可以在 Microsoft Dynamics 365 Human Resources 中使用弹性信贷项目来根据预先确定的弹性信贷数量为员工登记福利。 员工可以选择如何分配其弹性信贷。 例如，如果员工在配偶的健康保险计划中受保，他们可能希望将原本用于健康保险的信贷额用于其他福利。 
 

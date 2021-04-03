@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: be38076be7f57ca9072221d1c8b8a524e81ab62b
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 439a1747be66e299593ebda7c1775232af8f9d31
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111653"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464878"
 ---
 # <a name="enter-worker-information"></a>输入工作人员信息
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 

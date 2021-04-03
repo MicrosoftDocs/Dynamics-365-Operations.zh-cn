@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0cd6ffc01793c8ff12e36175c7c9feaf8a4b3cdf
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 1f211002468384227acb2343ed6cbc6ae2a215d1
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125561"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464444"
 ---
 # <a name="job-exempt-status"></a>工作免除情况
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本主题介绍 Dynamics 365 Human Resources 的工作免除情况选项集。
 

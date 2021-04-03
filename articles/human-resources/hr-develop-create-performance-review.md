@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e83bcf60e494e6f04387727bedf41175faa07557
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 031f1ecf6b9ee0673021e838c4a4e23755199543
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115792"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465598"
 ---
 # <a name="create-performance-reviews"></a>创建绩效审核
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 此主题介绍如何创建绩效审核和介绍审核各部分的目的。 创建该过程的演示数据公司是 USMF。

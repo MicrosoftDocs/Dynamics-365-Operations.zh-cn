@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c5bb0a363a3094626d81af3d5ffea38d9a1b12a8
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 923ec7d3940124da4ada50d23f88e3ab3646a5a0
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5129795"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463494"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>使用工作流管理员工信息
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本文说明如何使用人力资源的工作流功能管理员工信息。 例如，可以将工作流与职位关联，以及配置员工更改其记录时启动的批准工作流。
 

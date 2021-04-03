@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fda9d85b459d233e6239f3fcffbb48e596d4085
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 2a017d67177bcbee86abf920cf8d83f37312c5eb
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111699"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465190"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>与 LinkedIn Talent Hub 集成
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [banner](includes/preview-feature.md)]
 

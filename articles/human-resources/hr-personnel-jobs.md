@@ -18,14 +18,16 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22f147f85db1ef3423608578e64df7f522564e0d
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 0148518ca80832ecb7a26e28ec76c4b14bb1a194
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130173"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464854"
 ---
 # <a name="set-up-the-components-of-a-job"></a>设置作业组件
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本文介绍工作中可包含的概念性元素，并提供有关如何在组织中使用这些元素的示例。 
 

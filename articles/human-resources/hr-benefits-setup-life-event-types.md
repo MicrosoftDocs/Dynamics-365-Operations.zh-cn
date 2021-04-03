@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 7b1f2fd953c1678a5099f4f3b5cf08fa6674f4db
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111658"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466030"
 ---
 # <a name="configure-life-event-types"></a>配置生活事件类型
 
-Microsoft Dynamics 365 Human Resources 使用生命事件类型来定义对更新员工福利登记有效的事件。 例如，结婚或生子。 每个生命事件类型 ID 只能与一个生命事件类型相关联。 例如，如果您创建与生命事件类型“员工地址更改”相关联的名为“地址更改”的生命事件 ID，您将无法创建另一个标注为“员工地址更改”的 ID 并将其与生命事件类型“员工地址更改”相关联。 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Dynamics 365 Human Resources 使用生活事件类型来定义对更新员工福利登记有效的事件。 例如，结婚或生子。 每个生命事件类型 ID 只能与一个生命事件类型相关联。 例如，如果您创建与生命事件类型“员工地址更改”相关联的名为“地址更改”的生命事件 ID，您将无法创建另一个标注为“员工地址更改”的 ID 并将其与生命事件类型“员工地址更改”相关联。 
 
 创建生命事件类型后，需要将它们与计划类型相关联。 有关详细信息，请参阅[创建计划类型](hr-benefits-setup-plan-types.md)。
 

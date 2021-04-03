@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 22c2db7e97ab77b453c2d132ef614f0bd2b0b2c7
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: d5f5880391115f683b4148886aa09e1095b521f9
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115262"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463470"
 ---
 # <a name="request-a-leave-of-absence"></a>申请休假
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 您可以提交休假请求，并在 Dynamics 365 Human Resources 中查看休假请求的状态。
 

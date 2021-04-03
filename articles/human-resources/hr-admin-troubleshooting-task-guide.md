@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c81c345932e0e3dce4b13104222ed9f668a3c460
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 7d6102bafc9b55f9eff05bfc4a63c177c6548694
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111698"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463254"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>将任务指南保存到 LCS 并重新播放它们
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **环境详细信息** 
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd9efebbe5cfea1bb2c9beedfea4fa0492040ddc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8e87c5188ff3b598ee1b53ce26e1ce4acf96a93d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989760"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264762"
 ---
 # <a name="action-messages"></a>行动消息
 

@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 48e368fe69443a5105ddba78a887bf9159bfe52a
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 61d8502a8f420d387b5b7f48fca2f8a680f6f3f8
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125585"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464024"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>申请人跟踪系统集成 API 简介
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本主题介绍 Dynamics 365 Human Resources 申请人跟踪系统 (ATS) 集成 API。 此 API 的目的是在 Dynamics 365 Human Resources 和合作的 ATS 之间实现简化的集成。
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2943d0095e4c9421725b90e579b7cbb841038ab7
-ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
+ms.openlocfilehash: 31f30c3d268132327074e931b714b5b2ee3ec5ac
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "4984592"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466632"
 ---
 # <a name="configure-benefits-management-parameters-per-company"></a>针对每个公司配置福利管理参数
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 对于每个提供福利的组织，您必须配置福利确认电子邮件的设置。
 

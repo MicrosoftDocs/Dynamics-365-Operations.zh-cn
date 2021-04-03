@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fa153b1cfcbb70294ed6da3618c83396df04f8db
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 9a3b47c76094adb6c601daf2f9583116255b0a99
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125225"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465934"
 ---
 # <a name="recruiting-request-location"></a>招聘请求位置
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本主题介绍 Dynamics 365 Human Resources 的“招聘请求位置”实体。
 

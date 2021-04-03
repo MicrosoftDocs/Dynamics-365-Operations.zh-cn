@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8746f449f2b30b2e2119446c1912842c420acbfc
-ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
+ms.openlocfilehash: 27324b7705fe37ab00e169e8ea05c7768f32b120
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5152045"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467329"
 ---
 # <a name="view-and-manage-address-changes"></a>查看和管理地址更改
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本主题说明如何在 Dynamics 365 Human Resources 的员工自助服务 **编辑个人详细信息** 页面或 **工作人员** 详细信息页面中查看和管理地址更改。
 

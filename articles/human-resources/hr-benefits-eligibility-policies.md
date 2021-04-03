@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: cc5dfedc0022cbf9bdbc636bbe96971422c29838
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: e0c0aa7eebf32fc404e0519c6068b4427e6b87b2
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111599"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465142"
 ---
 # <a name="benefit-eligibility-policies"></a>福利资格政策
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本文提供有关福利资格策略的信息，可帮助您定义哪些人有资格享受特定福利。
 
