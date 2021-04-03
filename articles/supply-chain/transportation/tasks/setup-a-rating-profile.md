@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ceb2b7a5edcee6e248798a6bee114c7da7ecb18a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5f754a8b86b0d369af03812a831d77a8a6fa8154
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973952"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233503"
 ---
 # <a name="rating-profiles"></a>评级模板
 

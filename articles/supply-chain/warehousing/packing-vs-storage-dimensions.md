@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSPhysDimUOM
+ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,16 +16,17 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 004d9b4522335b481b640ef0fe35f4db66e3c9f5
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: aa5cbf807e809238489c539d3ad8c0bc34421774
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078238"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501286"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>设置不同的包装和存储维度
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 有些物料的包装或存储方式会让您有可能需要针对多个不同流程中的每个流程进行不同的物理维度跟踪。 *包装产品维度* 功能可让您为每个产品设置一种或几种维度。 每个维度类型提供一组物理度量（重量、宽度、深度和高度），并建立应用这些物理度量值的流程。 启用此功能后，您的系统将支持以下维度类型：
 

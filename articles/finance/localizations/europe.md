@@ -3,7 +3,7 @@ title: 欧洲概览
 description: 此主题提供适用于欧洲的 Microsoft Dynamics 365 Finance 文档资源的链接。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aca45011b39240da6634ce604cff49697f95a299
-ms.sourcegitcommit: 7cdec5469ff0da145ac4e01caf3287d0627ae2dc
+ms.openlocfilehash: b5aed9d3b5a82b88bb7d1e237aea0aa24dae102f
+ms.sourcegitcommit: 08ac570bece3e4ee4a0f632f51623e328536dfcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5099891"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5557416"
 ---
 # <a name="europe-overview"></a>欧洲概览
 
@@ -40,6 +40,7 @@ ms.locfileid: "5099891"
 - [欧盟销售清单报表](emea-eu-sales-list.md)
 - [汇率调整](emea-exchange-rate-adjustments.md)
 - [付款方式的文件格式](emea-select-file-formats-for-the-method-of-payments.md)
+- [关于英国脱欧影响的金融（全球化）指南](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [会计服务 (ESR) 集成](emea-fiscal-service-integration.md)
 - [爱沙尼亚和立陶宛的固定资产处置](emea-credit-note-reverse-fixed-asset-sale.md)
 - [为内部库存转移生成转移文档](tasks/transfer-document-internal-inventory-transfer.md)

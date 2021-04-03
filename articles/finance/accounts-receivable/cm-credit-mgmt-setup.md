@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 98ea865812a0ef187697fadbfc6f576df6595db4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 126cae03228b1fb49ded877af69643ec8676c1ec
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971745"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242875"
 ---
 # <a name="credit-management-parameters-setup"></a>信用管理参数设置
 

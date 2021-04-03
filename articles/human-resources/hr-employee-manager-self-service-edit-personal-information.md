@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fe009de3a94bf3ea7885f8f794879e16c36a3266
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: ed215c4577484269ddf5de20ad93417f8eef38d6
+ms.sourcegitcommit: 45d10d0c25b3ec585323709bb97ba1895b500429
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115334"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "5502980"
 ---
 # <a name="edit-personal-information"></a>编辑个人信息
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 您可以在 **员工自助服务工作区** 的 Dynamics 365 Human Resources 中编辑您的个人信息。
 
@@ -38,13 +40,16 @@ ms.locfileid: "5115334"
 - 付款方式
 - Human Resources 中使用的图像
 
+>[!NOTE]
+>您可能无法编辑某些类型的个人信息，如业务联系人详细信息。 有关详细信息，请参阅[限制对个人信息的编辑](hr-employee-self-service-restrict-editing.md)。
+
 在全局通讯簿中设置的参数确定可以查看您的个人信息的角色。
 
 1. 在 Human Resources 中，选择 **员工自助服务**。
 
 2. 选择 **编辑个人详细信息**。
 
-3. 要更改您的地址，请选择 **地址** 选项卡。您所做的更改将显示在 **人事管理** 工作区中，以提醒人力资源。 
+3. 要更改您的地址，请选择 **地址** 选项卡。您所做的更改将显示在 **人事管理** 工作区中，以提醒人力资源。
 
     - 要添加新地址，请选择 **添加**。
     - 要编辑现有地址，请选择该地址，然后选择 **编辑**。
@@ -52,11 +57,13 @@ ms.locfileid: "5115334"
     - 要添加或删除联系人，请选择 **更多选择**，然后选择 **高级**。 在 **联系信息** 下，选择 **添加** 或 **删除**，然后根据需要编辑字段。
     - 要设置时区和位置，请选择 **更多选择**，然后选择 **高级**。 在 **常规** 下，根据需要编辑字段。
 
-4. 要更改您的联系人详细信息，请选择 **联系人详细信息** 选项卡。您可以提供不同类型的联系信息，包括电话、电子邮件和社交媒体链接。 您可以将联系人详细信息设置为主要，但只能将每种类型的一种联系人详细信息设置为主要。 
+4. 要更改您的联系人详细信息，请选择 **联系人详细信息** 选项卡。您可以提供不同类型的联系信息，包括电话、电子邮件和社交媒体链接。 您可以将联系人详细信息设置为主要，但只能将每种类型的一种联系人详细信息设置为主要。
 
     - 若要添加新的联系信息，请选择 **添加**。 根据需要编辑字段。
     - 要编辑现有联系信息，请选择该项目，然后选择 **编辑**。 根据需要编辑字段。
     - 要将联系人详细信息设置为非公开，请选择该项目，选择 **高级**，然后将 **非公开** 切换设置为 **是**。 选择 **确定**。
+      >[!NOTE]
+      >如果您的管理员在您的环境中启用了 **(预览)限制员工出于选择目的添加或编辑地址和联系信息** 功能，**高级** 按钮将不可用。 有关详细信息，请参阅[限制对个人信息的编辑](hr-employee-self-service-restrict-editing.md)。
   
 5. 要更改您的个人联系人，请选择 **个人联系人** 选项卡。您可以指定紧急联系人、受益人和依赖方。 联系人可以是个人或组织。 **福利管理** 功能使用个人联系信息。 有关详细信息，请参阅[配置个人联系人资格选项](hr-benefits-setup-contact-eligibility-options.md)。
 

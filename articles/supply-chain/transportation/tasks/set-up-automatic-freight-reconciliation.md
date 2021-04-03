@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4bfd96fcae78fd0fe383781112c17c7a3b5ea1d3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4ac1b73adffd155ca51130e834212c9472d92f94
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974002"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233695"
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>设置自动装运对帐
 

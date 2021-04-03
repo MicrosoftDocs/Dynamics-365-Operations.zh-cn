@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ecc9adac17a6313e88ac568d016daf8d05b8d818
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7a03a277ef3ccc6796bc0a4f081dcec0d9a51fb7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968602"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240681"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>维护财务维度默认模板
 

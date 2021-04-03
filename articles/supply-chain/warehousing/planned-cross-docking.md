@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 722b004e607cb2e6b7de292d92b67b18c2024696
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970298"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556258"
 ---
 # <a name="planned-cross-docking"></a>计划越库配送
 
@@ -37,12 +37,12 @@ ms.locfileid: "4970298"
 > [!NOTE]
 > 取消越库配送工作时，**不** 取消等记库存交易记录，即使在仓库管理参数中开启了此功能的设置也不例外。
 
-## <a name="turn-on-the-planned-cross-docking-feature"></a>开启计划越库配送功能
+## <a name="turn-on-the-planned-cross-docking-features"></a>开启计划越库配送功能
 
-越库配送功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
+如果您的系统尚未包含本主题中所述的功能，请转到[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，按以下顺序打开以下功能：
 
-- **模块**：*仓库管理*
-- **功能名称**：*计划越库配送*
+1. *计划越库配送*
+2. *带有库位指令的越库配送模板*
 
 ## <a name="setup"></a>设置
 
@@ -89,6 +89,10 @@ ms.locfileid: "4970298"
     - **供应收货时重新验证**：*否*
 
         此选项定义收货期间是否应重新验证供应。 如果此选项设置为 *是*，将检查最大时间范围和到期日期范围。
+
+    - **指令代码** 将此字段保留为空
+
+        此选项让系统能够使用位置指令来帮助确定越库配送库存要转移到的最佳位置。 您可以通过为每个相关的越库配送模板分配指令代码来设置此选项。 每个指令代码标识一个唯一的位置指令。
 
     - **验证时间范围**：*是*
 

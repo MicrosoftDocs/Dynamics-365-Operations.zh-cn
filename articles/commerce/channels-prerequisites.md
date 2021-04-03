@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0705efac4659f96ebca1c67f6f0ab8d23c99d81e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 270f751e860e56a03e20df720c088f275d0298e7
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997692"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477916"
 ---
 # <a name="channel-setup-prerequisites"></a>渠道设置先决条件
-
 
 [!include [banner](includes/banner.md)]
 
 此主题概述 Microsoft Dynamics 365 Commerce 中的渠道设置先决条件。
-
-## <a name="overview"></a>概览
 
 在可以创建 Dynamics 365 Commerce 通道之前，必须完成几个先决条件任务。 以下先决条件任务列表按渠道类型进行组织。
 

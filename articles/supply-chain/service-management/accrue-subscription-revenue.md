@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8a28c102f4cbfb52b7cbcf8918ea375e67b8d8d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4b397dd6fef20b4f7709423c462c6b721f7fc252
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966122"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232174"
 ---
 # <a name="accrue-subscription-revenue"></a>应计预订收入 
 

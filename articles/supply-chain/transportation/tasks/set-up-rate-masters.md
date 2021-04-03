@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47fa7edeba81d826a00668a2da74113f552437f4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 77629cbaec4c4d4608b8941e55ab23a106d38727
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974252"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233599"
 ---
 # <a name="set-up-rate-masters"></a>设置费率主数据
 

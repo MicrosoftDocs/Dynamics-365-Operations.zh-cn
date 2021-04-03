@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fef9a76d36c01b4e90d76fc6482e652b29ef4768
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cbb498b972949b24c70a13ab9e0a7da83079085b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010395"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259546"
 ---
 # <a name="view-stage-reason-codes"></a>查看阶段原因代码 
 

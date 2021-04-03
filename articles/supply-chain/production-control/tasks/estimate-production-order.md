@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6fb001d51fcaff2307845d918eddee8256c2ab8a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 58a0f8e9247e5885b1f148b3b28b7e67b1fa292d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994196"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240309"
 ---
 # <a name="estimate-a-production-order"></a>估计生产订单
 

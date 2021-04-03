@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
-ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
+ms.openlocfilehash: ca7ccb7959eab6f8a9bdc0292e28c3126cb0364c
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "4962257"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466440"
 ---
 # <a name="view-team-and-company-calendars"></a>查看团队和公司日历
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 您可以在 Dynamics 365 Human Resources 中查看团队和公司日历。 团队日历仅显示在行层次结构中定义的直接下属。
 

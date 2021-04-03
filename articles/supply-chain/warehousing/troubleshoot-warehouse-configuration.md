@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 09b5770190fea9591f422b61ce6deedb2b9fa790
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993995"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487089"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>仓库配置疑难解答
 
@@ -109,5 +109,32 @@ ms.locfileid: "4993995"
 
 您可以根据需要在页面上设置其他字段。
 
+## <a name="the-dock-management-profile-of-a-location-profile-is-not-preventing-inventory-types-from-being-mixed"></a>位置模板的码头管理配置文件未阻止库存类型的混合。
+
+### <a name="issue-description"></a>问题描述
+
+您正在使用 *装运合并政策*。 您已经为 *位置模板* 设置了 *码头管理配置文件*，但是在创建工作时，库存类型在最终位置混合。
+
+### <a name="issue-resolution"></a>解决问题
+
+码头管理配置文件需要工作提前拆分。 换言之，码头管理配置文件预期工作标题不会有多个放置位置。
+
+要让码头管理配置文件有效地管理库存的混合，必须设置工作标题分解。
+
+在此示例中，我们配置了码头管理配置文件，以将 **不应混合的库存类型** 设置为 *装运 ID*，然后我们将为其设置工作标题分解：
+
+1. 转到 **仓库管理 \> 设置 \> 工作 \> 工作模板**。
+1. 选择要编辑的 **工作订单类型**（例如，*采购订单*）。
+1. 选择要编辑的工作模板。
+1. 在操作窗格上，选择 **编辑查询**。
+1. 打开 **排序** 选项卡，添加具有以下设置的行：
+    - **表** - *临时工作交易*
+    - **派生表** - *临时工作交易*
+    - **字段** - *装运 ID*
+1. 选择 **确定**。
+1. 您将返回 **工作模板** 页。 在“操作窗格”中选择 **工作标题中断**。
+1. 在操作窗格上，选择 **编辑**。
+1. 选中与 **字段名称** 装 *运 ID* 关联的复选框。
+1. 在操作窗格上，选择 **保存**。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

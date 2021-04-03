@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EntAssetMaintenancePlan
+ms.search.form: EntAssetMaintenancePlan, EntAssetObjectType, EntAssetCounterType, EntAssetWorkOrderLifecycleModel
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9ec4929e9ea608318b83a2ae6033c4b25855f4dd
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 09ae8b0ce56b08db0ba400b19676bd698c90a561
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5077542"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500806"
 ---
 # <a name="maintenance-plans"></a>维护计划
 
@@ -195,8 +195,7 @@ ms.locfileid: "5077542"
 
 ## <a name="counter-based-maintenance-enhancements"></a>基于计数器的维护增强
 
-> [!IMPORTANT]
-> 本节中介绍的功能作为预览版的一部分提供。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅 [One Version 服务更新常见问题](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version)。
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 *基于计数器的维护增强* 功能引入了以下功能：
 
