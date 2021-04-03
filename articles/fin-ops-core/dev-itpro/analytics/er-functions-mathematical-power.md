@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,49 +16,52 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 858f59cf0bc6387b09cbb6f0c59f58ba8107582c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9c45e7f9b47a3f0ff4445b1dd160def0ada3a56e
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683321"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570414"
 ---
-# <a name="power-er-function"></a><span data-ttu-id="b74e0-103">POWER ER 函数</span><span class="sxs-lookup"><span data-stu-id="b74e0-103">POWER ER function</span></span>
+# <a name="power-er-function"></a><span data-ttu-id="80fc0-103">POWER ER 函数</span><span class="sxs-lookup"><span data-stu-id="80fc0-103">POWER ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b74e0-104">`POWER` 函数返回一个 *实数* 值，其代表将指定正数提高到指定幂的结果的值。</span><span class="sxs-lookup"><span data-stu-id="b74e0-104">The `POWER` function returns a *Real* value that represents the result of raising the specified positive number to the specified power.</span></span>
+<span data-ttu-id="80fc0-104">`POWER` 函数返回一个 *实数* 值，其代表将指定正数提高到指定幂的结果的值。</span><span class="sxs-lookup"><span data-stu-id="80fc0-104">The `POWER` function returns a *Real* value that represents the result of raising the specified positive number to the specified power.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b74e0-105">语法</span><span class="sxs-lookup"><span data-stu-id="b74e0-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="80fc0-105">语法</span><span class="sxs-lookup"><span data-stu-id="80fc0-105">Syntax</span></span>
 
 ```vb
 POWER (number, power)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="b74e0-106">参数</span><span class="sxs-lookup"><span data-stu-id="b74e0-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="80fc0-106">参数</span><span class="sxs-lookup"><span data-stu-id="80fc0-106">Arguments</span></span>
 
-<span data-ttu-id="b74e0-107">`number`：*实数* 或 *整数*</span><span class="sxs-lookup"><span data-stu-id="b74e0-107">`number`: *Real* or *Integer*</span></span>
+<span data-ttu-id="80fc0-107">`number`：*实数* 或 *整数*</span><span class="sxs-lookup"><span data-stu-id="80fc0-107">`number`: *Real* or *Integer*</span></span>
 
-<span data-ttu-id="b74e0-108">必须提高到指定幂的数值。</span><span class="sxs-lookup"><span data-stu-id="b74e0-108">A numeric value that must be raised to the specified power.</span></span>
+<span data-ttu-id="80fc0-108">必须提高到指定幂的数值。</span><span class="sxs-lookup"><span data-stu-id="80fc0-108">A numeric value that must be raised to the specified power.</span></span>
 
-<span data-ttu-id="b74e0-109">`power`：*实数* 或 *整数*</span><span class="sxs-lookup"><span data-stu-id="b74e0-109">`power`: *Real* or *Integer*</span></span>
+<span data-ttu-id="80fc0-109">`power`：*实数* 或 *整数*</span><span class="sxs-lookup"><span data-stu-id="80fc0-109">`power`: *Real* or *Integer*</span></span>
 
-<span data-ttu-id="b74e0-110">代表特定幂的数值。</span><span class="sxs-lookup"><span data-stu-id="b74e0-110">A numeric value that represents the specific power.</span></span>
+<span data-ttu-id="80fc0-110">代表特定幂的数值。</span><span class="sxs-lookup"><span data-stu-id="80fc0-110">A numeric value that represents the specific power.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="b74e0-111">返回值</span><span class="sxs-lookup"><span data-stu-id="b74e0-111">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="80fc0-111">返回值</span><span class="sxs-lookup"><span data-stu-id="80fc0-111">Return values</span></span>
 
-<span data-ttu-id="b74e0-112">*实数*</span><span class="sxs-lookup"><span data-stu-id="b74e0-112">*Real*</span></span>
+<span data-ttu-id="80fc0-112">*实数*</span><span class="sxs-lookup"><span data-stu-id="80fc0-112">*Real*</span></span>
 
-<span data-ttu-id="b74e0-113">生成的数字值。</span><span class="sxs-lookup"><span data-stu-id="b74e0-113">The resulting numeric value.</span></span>
+<span data-ttu-id="80fc0-113">生成的数字值。</span><span class="sxs-lookup"><span data-stu-id="80fc0-113">The resulting numeric value.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="b74e0-114">示例 1</span><span class="sxs-lookup"><span data-stu-id="b74e0-114">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="80fc0-114">示例 1</span><span class="sxs-lookup"><span data-stu-id="80fc0-114">Example 1</span></span>
 
-<span data-ttu-id="b74e0-115">`POWER (10, 2)` 将返回 **100**。</span><span class="sxs-lookup"><span data-stu-id="b74e0-115">`POWER (10, 2)` returns **100**.</span></span>
+<span data-ttu-id="80fc0-115">`POWER (10, 2)` 将返回 **100**。</span><span class="sxs-lookup"><span data-stu-id="80fc0-115">`POWER (10, 2)` returns **100**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="b74e0-116">示例 2</span><span class="sxs-lookup"><span data-stu-id="b74e0-116">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="80fc0-116">示例 2</span><span class="sxs-lookup"><span data-stu-id="80fc0-116">Example 2</span></span>
 
-<span data-ttu-id="b74e0-117">`POWER (4, 0.5)` 将返回 **2**。</span><span class="sxs-lookup"><span data-stu-id="b74e0-117">`POWER (4, 0.5)` returns **2**.</span></span>
+<span data-ttu-id="80fc0-117">`POWER (4, 0.5)` 将返回 **2**。</span><span class="sxs-lookup"><span data-stu-id="80fc0-117">`POWER (4, 0.5)` returns **2**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="b74e0-118">其他资源</span><span class="sxs-lookup"><span data-stu-id="b74e0-118">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="80fc0-118">其他资源</span><span class="sxs-lookup"><span data-stu-id="80fc0-118">Additional resources</span></span>
 
-[<span data-ttu-id="b74e0-119">数学函数</span><span class="sxs-lookup"><span data-stu-id="b74e0-119">Mathematical functions</span></span>](er-functions-category-mathematical.md)
+[<span data-ttu-id="80fc0-119">数学函数</span><span class="sxs-lookup"><span data-stu-id="80fc0-119">Mathematical functions</span></span>](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
