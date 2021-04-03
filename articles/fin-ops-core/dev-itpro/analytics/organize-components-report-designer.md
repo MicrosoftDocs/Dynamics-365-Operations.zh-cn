@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,134 +16,137 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b55dcee00f571228ec1e933306d77d9edc12866
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: d348993422b24776098657dcef25a088ba2f826b
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092415"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564535"
 ---
-# <a name="organize-report-components-in-report-designer"></a><span data-ttu-id="0183e-103">整理报表设计器中的报表组件</span><span class="sxs-lookup"><span data-stu-id="0183e-103">Organize report components in report designer</span></span>
+# <a name="organize-report-components-in-report-designer"></a><span data-ttu-id="21a22-103">整理报表设计器中的报表组件</span><span class="sxs-lookup"><span data-stu-id="21a22-103">Organize report components in report designer</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0183e-104">在您设计构建基块并生成报表后，组织这些对象以便用户更容易地找到它们，这种方法非常有用。</span><span class="sxs-lookup"><span data-stu-id="0183e-104">After you've designed building blocks and generated reports, it's helpful to organize these objects so that they are easier for users to locate.</span></span> <span data-ttu-id="0183e-105">本文介绍了如何组织现有报表、构建基块和报表设计器中的对象。</span><span class="sxs-lookup"><span data-stu-id="0183e-105">This article explains how to organize existing reports, building blocks, and objects in report designer.</span></span>
+<span data-ttu-id="21a22-104">在您设计构建基块并生成报表后，组织这些对象以便用户更容易地找到它们，这种方法非常有用。</span><span class="sxs-lookup"><span data-stu-id="21a22-104">After you've designed building blocks and generated reports, it's helpful to organize these objects so that they are easier for users to locate.</span></span> <span data-ttu-id="21a22-105">本文介绍了如何组织现有报表、构建基块和报表设计器中的对象。</span><span class="sxs-lookup"><span data-stu-id="21a22-105">This article explains how to organize existing reports, building blocks, and objects in report designer.</span></span>
 
-<span data-ttu-id="0183e-106">您可以在报表设计器中重命名文件夹、报表、构建基块和其他对象以帮助整理您的文件。</span><span class="sxs-lookup"><span data-stu-id="0183e-106">You can rename folders, reports, building blocks, and other objects in report designer to help organize your files.</span></span> <span data-ttu-id="0183e-107">根据重命名的对象的类型，您可能必须更新与该对象的关联。</span><span class="sxs-lookup"><span data-stu-id="0183e-107">Depending on the type of object that you rename, you might have to update associations with that object.</span></span>
+<span data-ttu-id="21a22-106">您可以在报表设计器中重命名文件夹、报表、构建基块和其他对象以帮助整理您的文件。</span><span class="sxs-lookup"><span data-stu-id="21a22-106">You can rename folders, reports, building blocks, and other objects in report designer to help organize your files.</span></span> <span data-ttu-id="21a22-107">根据重命名的对象的类型，您可能必须更新与该对象的关联。</span><span class="sxs-lookup"><span data-stu-id="21a22-107">Depending on the type of object that you rename, you might have to update associations with that object.</span></span>
 
-## <a name="rename-a-folder-or-building-block-in-report-designer"></a><span data-ttu-id="0183e-108">在报表设计器中重命名文件夹或构建基块</span><span class="sxs-lookup"><span data-stu-id="0183e-108">Rename a folder or building block in Report Designer</span></span>
-<span data-ttu-id="0183e-109">在报表设计器中，你可以重命名文件夹、报表定义、行定义、列定义和报告树定义。</span><span class="sxs-lookup"><span data-stu-id="0183e-109">In Report Designer, you can rename folders, report definitions, row definitions, column definitions, and reporting tree definitions.</span></span>
+## <a name="rename-a-folder-or-building-block-in-report-designer"></a><span data-ttu-id="21a22-108">在报表设计器中重命名文件夹或构建基块</span><span class="sxs-lookup"><span data-stu-id="21a22-108">Rename a folder or building block in Report Designer</span></span>
+<span data-ttu-id="21a22-109">在报表设计器中，你可以重命名文件夹、报表定义、行定义、列定义和报告树定义。</span><span class="sxs-lookup"><span data-stu-id="21a22-109">In Report Designer, you can rename folders, report definitions, row definitions, column definitions, and reporting tree definitions.</span></span>
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a><span data-ttu-id="0183e-110">在报表设计器中重命名文件夹或构建基块</span><span class="sxs-lookup"><span data-stu-id="0183e-110">Rename a folder or building block in Report Designer</span></span>
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a><span data-ttu-id="21a22-110">在报表设计器中重命名文件夹或构建基块</span><span class="sxs-lookup"><span data-stu-id="21a22-110">Rename a folder or building block in Report Designer</span></span>
 
-1. <span data-ttu-id="0183e-111">在报表设计器中，使用导航窗格找到要重命名的文件夹或对象。</span><span class="sxs-lookup"><span data-stu-id="0183e-111">In Report Designer, use the navigation pane to locate the folder or object to rename.</span></span>
-2. <span data-ttu-id="0183e-112">右键单击该文件夹或对象，然后单击 **重命名**。</span><span class="sxs-lookup"><span data-stu-id="0183e-112">Right-click the folder or object, and then click **Rename**.</span></span> <span data-ttu-id="0183e-113">导航窗格中的 **名称** 字段将变为可用。</span><span class="sxs-lookup"><span data-stu-id="0183e-113">The **Name** field in the navigation pane becomes available.</span></span>
-3. <span data-ttu-id="0183e-114">键入新名称，然后按 Enter。</span><span class="sxs-lookup"><span data-stu-id="0183e-114">Type a new name, and then press Enter.</span></span>
-4. <span data-ttu-id="0183e-115">如果构建基块是行定义、列定义或报告结构树定义，则必须更新与其关联的其他构建基块。</span><span class="sxs-lookup"><span data-stu-id="0183e-115">If the building block is a row definition, column definition, or reporting tree definition, you must update other building blocks that are associated with it.</span></span> <span data-ttu-id="0183e-116">右键单击在步骤 3 中重命名的构建基块，选择 **关联**，然后选择列表中的某个项目以更新它。</span><span class="sxs-lookup"><span data-stu-id="0183e-116">Right-click the building block that you renamed in step 3, select **Associations**, and then select an item in the list to update it.</span></span>
-5. <span data-ttu-id="0183e-117">重复步骤 4，直到所有关联项目都已更新。</span><span class="sxs-lookup"><span data-stu-id="0183e-117">Repeat step 4 until all associated items are updated.</span></span>
+1. <span data-ttu-id="21a22-111">在报表设计器中，使用导航窗格找到要重命名的文件夹或对象。</span><span class="sxs-lookup"><span data-stu-id="21a22-111">In Report Designer, use the navigation pane to locate the folder or object to rename.</span></span>
+2. <span data-ttu-id="21a22-112">右键单击该文件夹或对象，然后单击 **重命名**。</span><span class="sxs-lookup"><span data-stu-id="21a22-112">Right-click the folder or object, and then click **Rename**.</span></span> <span data-ttu-id="21a22-113">导航窗格中的 **名称** 字段将变为可用。</span><span class="sxs-lookup"><span data-stu-id="21a22-113">The **Name** field in the navigation pane becomes available.</span></span>
+3. <span data-ttu-id="21a22-114">键入新名称，然后按 Enter。</span><span class="sxs-lookup"><span data-stu-id="21a22-114">Type a new name, and then press Enter.</span></span>
+4. <span data-ttu-id="21a22-115">如果构建基块是行定义、列定义或报告结构树定义，则必须更新与其关联的其他构建基块。</span><span class="sxs-lookup"><span data-stu-id="21a22-115">If the building block is a row definition, column definition, or reporting tree definition, you must update other building blocks that are associated with it.</span></span> <span data-ttu-id="21a22-116">右键单击在步骤 3 中重命名的构建基块，选择 **关联**，然后选择列表中的某个项目以更新它。</span><span class="sxs-lookup"><span data-stu-id="21a22-116">Right-click the building block that you renamed in step 3, select **Associations**, and then select an item in the list to update it.</span></span>
+5. <span data-ttu-id="21a22-117">重复步骤 4，直到所有关联项目都已更新。</span><span class="sxs-lookup"><span data-stu-id="21a22-117">Repeat step 4 until all associated items are updated.</span></span>
 
-## <a name="create-and-manage-report-groups"></a><span data-ttu-id="0183e-118">创建和管理报表组</span><span class="sxs-lookup"><span data-stu-id="0183e-118">Create and manage report groups</span></span>
-<span data-ttu-id="0183e-119">您可以对报表定义进行分组以同时生成多个报表。</span><span class="sxs-lookup"><span data-stu-id="0183e-119">You can group report definitions to generate multiple reports at the same time.</span></span> <span data-ttu-id="0183e-120">要创建、修改、删除和生成报表组，您必须具有设计人员或管理员角色。</span><span class="sxs-lookup"><span data-stu-id="0183e-120">To create, modify, delete, and generate report groups, you must have the designer or administrator role.</span></span> <span data-ttu-id="0183e-121">具有生成人员角色的用户可生成报表组，还可修改为报告组设置的用户报表定义。</span><span class="sxs-lookup"><span data-stu-id="0183e-121">Users who have the generator role can generate report groups and can also modify the user report definitions setting for report groups.</span></span>
+## <a name="create-and-manage-report-groups"></a><span data-ttu-id="21a22-118">创建和管理报表组</span><span class="sxs-lookup"><span data-stu-id="21a22-118">Create and manage report groups</span></span>
+<span data-ttu-id="21a22-119">您可以对报表定义进行分组以同时生成多个报表。</span><span class="sxs-lookup"><span data-stu-id="21a22-119">You can group report definitions to generate multiple reports at the same time.</span></span> <span data-ttu-id="21a22-120">要创建、修改、删除和生成报表组，您必须具有设计人员或管理员角色。</span><span class="sxs-lookup"><span data-stu-id="21a22-120">To create, modify, delete, and generate report groups, you must have the designer or administrator role.</span></span> <span data-ttu-id="21a22-121">具有生成人员角色的用户可生成报表组，还可修改为报告组设置的用户报表定义。</span><span class="sxs-lookup"><span data-stu-id="21a22-121">Users who have the generator role can generate report groups and can also modify the user report definitions setting for report groups.</span></span>
 
-### <a name="create-a-report-group"></a><span data-ttu-id="0183e-122">创建报表组</span><span class="sxs-lookup"><span data-stu-id="0183e-122">Create a report group</span></span>
+### <a name="create-a-report-group"></a><span data-ttu-id="21a22-122">创建报表组</span><span class="sxs-lookup"><span data-stu-id="21a22-122">Create a report group</span></span>
 
-1. <span data-ttu-id="0183e-123">在报表设计器中，单击导航窗格中的 **报表组**。</span><span class="sxs-lookup"><span data-stu-id="0183e-123">In Report Designer, in the navigation pane, click **Report Groups**.</span></span>
-2. <span data-ttu-id="0183e-124">在 **文件** 菜单上，单击 **新建** &gt; **报表组定义** 在查看器窗口中打开一个新报告组。</span><span class="sxs-lookup"><span data-stu-id="0183e-124">On the **File** menu, click **New** &gt; **Report Group Definition** to open a new report group in the viewer window.</span></span> <span data-ttu-id="0183e-125">或者，单击工具栏上的 **报表组** 按钮 ![报表组](media/report-group.gif "报表组")。</span><span class="sxs-lookup"><span data-stu-id="0183e-125">Alternatively, click the **Report Group** button ![Report Group](media/report-group.gif "Report Group") on the toolbar.</span></span>
-3. <span data-ttu-id="0183e-126">单击 **报表组** 选项卡。要覆盖用于生成此报表的各个报表定义的相关信息，请选中 **覆盖各个报表定义中的公司、详细信息和日期设置** 复选框。</span><span class="sxs-lookup"><span data-stu-id="0183e-126">Click the **Report Group** tab. To override the information on the individual report definitions for the generation of this report, select the **Override company, detail, and date settings from individual report definitions** check box.</span></span> <span data-ttu-id="0183e-127">公司名称、详细级别、临时设置和日期信息将自动输入，但您仍可以进行更新。</span><span class="sxs-lookup"><span data-stu-id="0183e-127">The company name, detail level, provisional setting, and date information are entered automatically, but you can make updates.</span></span>
-4. <span data-ttu-id="0183e-128">如果要生成显示申报币种的多个报表，请选中 **包含所有申报币种** 复选框。</span><span class="sxs-lookup"><span data-stu-id="0183e-128">To generate multiple reports that show the reporting currencies, select the **Include all reporting currencies** check box.</span></span> <span data-ttu-id="0183e-129">然后您可以通过在查看报表时单击 Web 查看器上的 **币种** 按钮来访问多个视图。</span><span class="sxs-lookup"><span data-stu-id="0183e-129">You can then access multiple views by clicking the **Currency** button in the Web Viewer when you view the report.</span></span>
-5. <span data-ttu-id="0183e-130">在 **组中的报表** 字段中，单击 **添加** 以选择要包含在报表组中的报表。</span><span class="sxs-lookup"><span data-stu-id="0183e-130">In the **Reports in group** field, click **Add** to select the reports to include in the report group.</span></span> <span data-ttu-id="0183e-131">要在 **添加** 对话框中选择多个报表，请在按住 Ctrl 键的同时选择报表。</span><span class="sxs-lookup"><span data-stu-id="0183e-131">To select multiple reports in the **Add** dialog box, hold down the Ctrl key while you select reports.</span></span> <span data-ttu-id="0183e-132">完成选择报告后，单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="0183e-132">When you've finished selecting reports, click **OK**.</span></span>
-6. <span data-ttu-id="0183e-133">单击 **文件** &gt; **保存** 以保存新报表组。</span><span class="sxs-lookup"><span data-stu-id="0183e-133">Click **File** &gt; **Save** to save the new report group.</span></span>
+1. <span data-ttu-id="21a22-123">在报表设计器中，单击导航窗格中的 **报表组**。</span><span class="sxs-lookup"><span data-stu-id="21a22-123">In Report Designer, in the navigation pane, click **Report Groups**.</span></span>
+2. <span data-ttu-id="21a22-124">在 **文件** 菜单上，单击 **新建** &gt; **报表组定义** 在查看器窗口中打开一个新报告组。</span><span class="sxs-lookup"><span data-stu-id="21a22-124">On the **File** menu, click **New** &gt; **Report Group Definition** to open a new report group in the viewer window.</span></span> <span data-ttu-id="21a22-125">或者，单击工具栏上的 **报表组** 按钮 ![报表组](media/report-group.gif "报表组")。</span><span class="sxs-lookup"><span data-stu-id="21a22-125">Alternatively, click the **Report Group** button ![Report Group](media/report-group.gif "Report Group") on the toolbar.</span></span>
+3. <span data-ttu-id="21a22-126">单击 **报表组** 选项卡。要覆盖用于生成此报表的各个报表定义的相关信息，请选中 **覆盖各个报表定义中的公司、详细信息和日期设置** 复选框。</span><span class="sxs-lookup"><span data-stu-id="21a22-126">Click the **Report Group** tab. To override the information on the individual report definitions for the generation of this report, select the **Override company, detail, and date settings from individual report definitions** check box.</span></span> <span data-ttu-id="21a22-127">公司名称、详细级别、临时设置和日期信息将自动输入，但您仍可以进行更新。</span><span class="sxs-lookup"><span data-stu-id="21a22-127">The company name, detail level, provisional setting, and date information are entered automatically, but you can make updates.</span></span>
+4. <span data-ttu-id="21a22-128">如果要生成显示申报币种的多个报表，请选中 **包含所有申报币种** 复选框。</span><span class="sxs-lookup"><span data-stu-id="21a22-128">To generate multiple reports that show the reporting currencies, select the **Include all reporting currencies** check box.</span></span> <span data-ttu-id="21a22-129">然后您可以通过在查看报表时单击 Web 查看器上的 **币种** 按钮来访问多个视图。</span><span class="sxs-lookup"><span data-stu-id="21a22-129">You can then access multiple views by clicking the **Currency** button in the Web Viewer when you view the report.</span></span>
+5. <span data-ttu-id="21a22-130">在 **组中的报表** 字段中，单击 **添加** 以选择要包含在报表组中的报表。</span><span class="sxs-lookup"><span data-stu-id="21a22-130">In the **Reports in group** field, click **Add** to select the reports to include in the report group.</span></span> <span data-ttu-id="21a22-131">要在 **添加** 对话框中选择多个报表，请在按住 Ctrl 键的同时选择报表。</span><span class="sxs-lookup"><span data-stu-id="21a22-131">To select multiple reports in the **Add** dialog box, hold down the Ctrl key while you select reports.</span></span> <span data-ttu-id="21a22-132">完成选择报告后，单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="21a22-132">When you've finished selecting reports, click **OK**.</span></span>
+6. <span data-ttu-id="21a22-133">单击 **文件** &gt; **保存** 以保存新报表组。</span><span class="sxs-lookup"><span data-stu-id="21a22-133">Click **File** &gt; **Save** to save the new report group.</span></span>
 
-### <a name="modify-a-report-group"></a><span data-ttu-id="0183e-134">修改报表组</span><span class="sxs-lookup"><span data-stu-id="0183e-134">Modify a report group</span></span>
+### <a name="modify-a-report-group"></a><span data-ttu-id="21a22-134">修改报表组</span><span class="sxs-lookup"><span data-stu-id="21a22-134">Modify a report group</span></span>
 
-1. <span data-ttu-id="0183e-135">在报表设计器中，单击导航窗格中的 **报表组**。</span><span class="sxs-lookup"><span data-stu-id="0183e-135">In Report Designer, in the navigation pane, click **Report Groups**.</span></span>
-2. <span data-ttu-id="0183e-136">双击要修改的报表组。</span><span class="sxs-lookup"><span data-stu-id="0183e-136">Double-click the report group to modify.</span></span>
-3. <span data-ttu-id="0183e-137">在 **报表组** 选项卡上，进行所需的更改。</span><span class="sxs-lookup"><span data-stu-id="0183e-137">On the **Report Group** tab, make the changes that you want.</span></span>
-4. <span data-ttu-id="0183e-138">在 **文件** 菜单中，单击 **保存** 保存修改过的报表组，或者单击工具栏中的 **保存** 按钮 ![保存](media/save.gif "保存")。</span><span class="sxs-lookup"><span data-stu-id="0183e-138">On the **File** menu, click **Save** to save the modified report group, Alternatively, click the **Save** button ![Save](media/save.gif "Save") on the toolbar.</span></span>
+1. <span data-ttu-id="21a22-135">在报表设计器中，单击导航窗格中的 **报表组**。</span><span class="sxs-lookup"><span data-stu-id="21a22-135">In Report Designer, in the navigation pane, click **Report Groups**.</span></span>
+2. <span data-ttu-id="21a22-136">双击要修改的报表组。</span><span class="sxs-lookup"><span data-stu-id="21a22-136">Double-click the report group to modify.</span></span>
+3. <span data-ttu-id="21a22-137">在 **报表组** 选项卡上，进行所需的更改。</span><span class="sxs-lookup"><span data-stu-id="21a22-137">On the **Report Group** tab, make the changes that you want.</span></span>
+4. <span data-ttu-id="21a22-138">在 **文件** 菜单中，单击 **保存** 保存修改过的报表组，或者单击工具栏中的 **保存** 按钮 ![保存](media/save.gif "保存")。</span><span class="sxs-lookup"><span data-stu-id="21a22-138">On the **File** menu, click **Save** to save the modified report group, Alternatively, click the **Save** button ![Save](media/save.gif "Save") on the toolbar.</span></span>
 
-> <span data-ttu-id="0183e-139">[注意] 如果您已计划了报表以便它们以设置的间隔生成，则可以覆盖这些设置并立即生成报表。</span><span class="sxs-lookup"><span data-stu-id="0183e-139">[NOTE] If you've scheduled reports so that they are generated at set intervals, you can override those settings and generate a report immediately.</span></span>
+> <span data-ttu-id="21a22-139">[注意] 如果您已计划了报表以便它们以设置的间隔生成，则可以覆盖这些设置并立即生成报表。</span><span class="sxs-lookup"><span data-stu-id="21a22-139">[NOTE] If you've scheduled reports so that they are generated at set intervals, you can override those settings and generate a report immediately.</span></span>
 
-### <a name="generate-a-report-group-report"></a><span data-ttu-id="0183e-140">生成报表组报表</span><span class="sxs-lookup"><span data-stu-id="0183e-140">Generate a report group report</span></span>
+### <a name="generate-a-report-group-report"></a><span data-ttu-id="21a22-140">生成报表组报表</span><span class="sxs-lookup"><span data-stu-id="21a22-140">Generate a report group report</span></span>
 
-1. <span data-ttu-id="0183e-141">在报表设计器中，单击导航窗格中的 **报表组**。</span><span class="sxs-lookup"><span data-stu-id="0183e-141">In Report Designer, in the navigation pane, click **Report Groups**.</span></span>
-2. <span data-ttu-id="0183e-142">打开要生成的报表组。</span><span class="sxs-lookup"><span data-stu-id="0183e-142">Open the report group to generate.</span></span>
-3. <span data-ttu-id="0183e-143">单击 **生成报表** 按钮 ![生成报表](media/generate-report.gif "生成报表")以生成报表。</span><span class="sxs-lookup"><span data-stu-id="0183e-143">Click the **Generate Report** button ![Generate Report](media/generate-report.gif "Generate Report") to generate reports.</span></span>
+1. <span data-ttu-id="21a22-141">在报表设计器中，单击导航窗格中的 **报表组**。</span><span class="sxs-lookup"><span data-stu-id="21a22-141">In Report Designer, in the navigation pane, click **Report Groups**.</span></span>
+2. <span data-ttu-id="21a22-142">打开要生成的报表组。</span><span class="sxs-lookup"><span data-stu-id="21a22-142">Open the report group to generate.</span></span>
+3. <span data-ttu-id="21a22-143">单击 **生成报表** 按钮 ![生成报表](media/generate-report.gif "生成报表")以生成报表。</span><span class="sxs-lookup"><span data-stu-id="21a22-143">Click the **Generate Report** button ![Generate Report](media/generate-report.gif "Generate Report") to generate reports.</span></span>
 
-### <a name="delete-a-report-group"></a><span data-ttu-id="0183e-144">删除报表组</span><span class="sxs-lookup"><span data-stu-id="0183e-144">Delete a report group</span></span>
+### <a name="delete-a-report-group"></a><span data-ttu-id="21a22-144">删除报表组</span><span class="sxs-lookup"><span data-stu-id="21a22-144">Delete a report group</span></span>
 
-1. <span data-ttu-id="0183e-145">在报表设计器中，单击导航窗格中的 **报表组**。</span><span class="sxs-lookup"><span data-stu-id="0183e-145">In Report Designer, in the navigation pane, click **Report Groups**.</span></span>
-2. <span data-ttu-id="0183e-146">右键单击要删除的报表组，然后选择 **删除**。</span><span class="sxs-lookup"><span data-stu-id="0183e-146">Right-click the report group to delete, and then select **Delete**.</span></span>
-3. <span data-ttu-id="0183e-147">当出现一条确认消息时，请单击 **是**。</span><span class="sxs-lookup"><span data-stu-id="0183e-147">When a confirmation message appears, click **Yes**.</span></span>
+1. <span data-ttu-id="21a22-145">在报表设计器中，单击导航窗格中的 **报表组**。</span><span class="sxs-lookup"><span data-stu-id="21a22-145">In Report Designer, in the navigation pane, click **Report Groups**.</span></span>
+2. <span data-ttu-id="21a22-146">右键单击要删除的报表组，然后选择 **删除**。</span><span class="sxs-lookup"><span data-stu-id="21a22-146">Right-click the report group to delete, and then select **Delete**.</span></span>
+3. <span data-ttu-id="21a22-147">当出现一条确认消息时，请单击 **是**。</span><span class="sxs-lookup"><span data-stu-id="21a22-147">When a confirmation message appears, click **Yes**.</span></span>
 
-## <a name="report-group-tab-controls"></a><span data-ttu-id="0183e-148">“报表组”选项卡控件</span><span class="sxs-lookup"><span data-stu-id="0183e-148">Report Group tab controls</span></span>
-<span data-ttu-id="0183e-149">下表描述 **报表组** 选项卡的控件。</span><span class="sxs-lookup"><span data-stu-id="0183e-149">The following table describes the controls on the **Report Group** tab.</span></span>
+## <a name="report-group-tab-controls"></a><span data-ttu-id="21a22-148">“报表组”选项卡控件</span><span class="sxs-lookup"><span data-stu-id="21a22-148">Report Group tab controls</span></span>
+<span data-ttu-id="21a22-149">下表描述 **报表组** 选项卡的控件。</span><span class="sxs-lookup"><span data-stu-id="21a22-149">The following table describes the controls on the **Report Group** tab.</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="0183e-150">控件</span><span class="sxs-lookup"><span data-stu-id="0183e-150">Control</span></span></th>
-<th><span data-ttu-id="0183e-151">说明</span><span class="sxs-lookup"><span data-stu-id="0183e-151">Description</span></span></th>
+<th><span data-ttu-id="21a22-150">控件</span><span class="sxs-lookup"><span data-stu-id="21a22-150">Control</span></span></th>
+<th><span data-ttu-id="21a22-151">说明</span><span class="sxs-lookup"><span data-stu-id="21a22-151">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="0183e-152">覆盖各个报表定义中的公司、详细信息和日期设置</span><span class="sxs-lookup"><span data-stu-id="0183e-152">Override company, detail, and date settings from individual report definitions</span></span></td>
-<td><span data-ttu-id="0183e-153">选中此复选框可覆盖此报表组中的报表的各个报表定义（仅用于生成这些报表）。</span><span class="sxs-lookup"><span data-stu-id="0183e-153">Select this check box to override individual report definitions of the reports in this report group for the generation of these reports only.</span></span></td>
+<td><span data-ttu-id="21a22-152">覆盖各个报表定义中的公司、详细信息和日期设置</span><span class="sxs-lookup"><span data-stu-id="21a22-152">Override company, detail, and date settings from individual report definitions</span></span></td>
+<td><span data-ttu-id="21a22-153">选中此复选框可覆盖此报表组中的报表的各个报表定义（仅用于生成这些报表）。</span><span class="sxs-lookup"><span data-stu-id="21a22-153">Select this check box to override individual report definitions of the reports in this report group for the generation of these reports only.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="0183e-154">公司名称</span><span class="sxs-lookup"><span data-stu-id="0183e-154">Company name</span></span></td>
-<td><span data-ttu-id="0183e-155">选择要用于报表的公司。</span><span class="sxs-lookup"><span data-stu-id="0183e-155">Select the company to use for the reports.</span></span></td>
+<td><span data-ttu-id="21a22-154">公司名称</span><span class="sxs-lookup"><span data-stu-id="21a22-154">Company name</span></span></td>
+<td><span data-ttu-id="21a22-155">选择要用于报表的公司。</span><span class="sxs-lookup"><span data-stu-id="21a22-155">Select the company to use for the reports.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="0183e-156">详细程度</span><span class="sxs-lookup"><span data-stu-id="0183e-156">Detail level</span></span></td>
-<td><span data-ttu-id="0183e-157">指定报表中包含的详细信息级别。</span><span class="sxs-lookup"><span data-stu-id="0183e-157">Specify the level of detail that the reports include.</span></span>
+<td><span data-ttu-id="21a22-156">详细程度</span><span class="sxs-lookup"><span data-stu-id="21a22-156">Detail level</span></span></td>
+<td><span data-ttu-id="21a22-157">指定报表中包含的详细信息级别。</span><span class="sxs-lookup"><span data-stu-id="21a22-157">Specify the level of detail that the reports include.</span></span>
 <ul>
-<li><span data-ttu-id="0183e-158"><strong>财务</strong>− 高级别的摘要报表。</span><span class="sxs-lookup"><span data-stu-id="0183e-158"><strong>Financial</strong> − A high-level summary report.</span></span> <span data-ttu-id="0183e-159">您无法深化到科目和维度（通过报告结构树添加的帐户和维度除外）。</span><span class="sxs-lookup"><span data-stu-id="0183e-159">You can&#39;t drill down to accounts and dimensions, except for those accounts and dimensions that have been added through a reporting tree.</span></span></li>
-<li><span data-ttu-id="0183e-160"><strong>财务 &amp; 科目</strong> - 包含高度概括性汇总和科目详细信息的报表。</span><span class="sxs-lookup"><span data-stu-id="0183e-160"><strong>Financial &amp; Account</strong> − A report that contains a high-level summary and account details.</span></span></li>
-<li><span data-ttu-id="0183e-161"><strong>财务、科目 &amp; 交易记录</strong> - 包含高度概括性汇总和交易记录详细信息的报表。</span><span class="sxs-lookup"><span data-stu-id="0183e-161"><strong>Financial, Account, &amp; Transaction</strong> − A report that contains a high-level summary and transaction details.</span></span></li>
+<li><span data-ttu-id="21a22-158"><strong>财务</strong>− 高级别的摘要报表。</span><span class="sxs-lookup"><span data-stu-id="21a22-158"><strong>Financial</strong> − A high-level summary report.</span></span> <span data-ttu-id="21a22-159">您无法深化到科目和维度（通过报告结构树添加的帐户和维度除外）。</span><span class="sxs-lookup"><span data-stu-id="21a22-159">You can&#39;t drill down to accounts and dimensions, except for those accounts and dimensions that have been added through a reporting tree.</span></span></li>
+<li><span data-ttu-id="21a22-160"><strong>财务 &amp; 科目</strong> - 包含高度概括性汇总和科目详细信息的报表。</span><span class="sxs-lookup"><span data-stu-id="21a22-160"><strong>Financial &amp; Account</strong> − A report that contains a high-level summary and account details.</span></span></li>
+<li><span data-ttu-id="21a22-161"><strong>财务、科目 &amp; 交易记录</strong> - 包含高度概括性汇总和交易记录详细信息的报表。</span><span class="sxs-lookup"><span data-stu-id="21a22-161"><strong>Financial, Account, &amp; Transaction</strong> − A report that contains a high-level summary and transaction details.</span></span></li>
 </ul></td>
 </tr>
 <tr>
-<td><span data-ttu-id="0183e-162">临时信息</span><span class="sxs-lookup"><span data-stu-id="0183e-162">Provisional</span></span></td>
-<td><span data-ttu-id="0183e-163">指定报表中包含的活动的类型。</span><span class="sxs-lookup"><span data-stu-id="0183e-163">Specify the types of activity that the reports include.</span></span>
+<td><span data-ttu-id="21a22-162">临时信息</span><span class="sxs-lookup"><span data-stu-id="21a22-162">Provisional</span></span></td>
+<td><span data-ttu-id="21a22-163">指定报表中包含的活动的类型。</span><span class="sxs-lookup"><span data-stu-id="21a22-163">Specify the types of activity that the reports include.</span></span>
 <ul>
-<li><span data-ttu-id="0183e-164"><strong>仅限过帐活动</strong> − 仅包括财务数据中已过帐的交易记录和余额。</span><span class="sxs-lookup"><span data-stu-id="0183e-164"><strong>Posted activity only</strong> − Include only the transactions and balances that are posted in your financial data.</span></span></li>
-<li><span data-ttu-id="0183e-165"><strong>已过帐和未过帐的活动</strong> − 包括财务数据中输入的和已过帐的所有交易记录和余额。</span><span class="sxs-lookup"><span data-stu-id="0183e-165"><strong>Posted and unposted activity</strong> − Include all the transactions and balances that are entered and posted in your financial data.</span></span></li>
-<li><span data-ttu-id="0183e-166"><strong>仅限未过帐活动</strong> − 仅包括财务数据中已输入但尚未过帐的交易记录。</span><span class="sxs-lookup"><span data-stu-id="0183e-166"><strong>Unposted activity only</strong> − Include only the transactions that are entered, but not yet posted, in your financial data.</span></span></li>
+<li><span data-ttu-id="21a22-164"><strong>仅限过帐活动</strong> − 仅包括财务数据中已过帐的交易记录和余额。</span><span class="sxs-lookup"><span data-stu-id="21a22-164"><strong>Posted activity only</strong> − Include only the transactions and balances that are posted in your financial data.</span></span></li>
+<li><span data-ttu-id="21a22-165"><strong>已过帐和未过帐的活动</strong> − 包括财务数据中输入的和已过帐的所有交易记录和余额。</span><span class="sxs-lookup"><span data-stu-id="21a22-165"><strong>Posted and unposted activity</strong> − Include all the transactions and balances that are entered and posted in your financial data.</span></span></li>
+<li><span data-ttu-id="21a22-166"><strong>仅限未过帐活动</strong> − 仅包括财务数据中已输入但尚未过帐的交易记录。</span><span class="sxs-lookup"><span data-stu-id="21a22-166"><strong>Unposted activity only</strong> − Include only the transactions that are entered, but not yet posted, in your financial data.</span></span></li>
 </ul></td>
 </tr>
 <tr>
-<td><span data-ttu-id="0183e-167">包括所有申报币种</span><span class="sxs-lookup"><span data-stu-id="0183e-167">Include all reporting currencies</span></span></td>
-<td><span data-ttu-id="0183e-168">在 Microsoft Dynamics ERP 系统中配置的所有其他申报币种均在此处列出。</span><span class="sxs-lookup"><span data-stu-id="0183e-168">Any additional reporting currencies that are configured in your Microsoft Dynamics ERP system are listed here.</span></span> <span data-ttu-id="0183e-169">选择此复选框以生成使用指定的币种的其他报表。</span><span class="sxs-lookup"><span data-stu-id="0183e-169">Select this check box to generate additional reports in the currencies that are indicated.</span></span> <span data-ttu-id="0183e-170">若要在 Web 查看器中查看这些报表，请单击<strong>币种</strong>，然后选择一种货币。</span><span class="sxs-lookup"><span data-stu-id="0183e-170">To view these reports in the Web Viewer, click the <strong>Currency</strong> button, and then select a currency.</span></span></td>
+<td><span data-ttu-id="21a22-167">包括所有申报币种</span><span class="sxs-lookup"><span data-stu-id="21a22-167">Include all reporting currencies</span></span></td>
+<td><span data-ttu-id="21a22-168">在 Microsoft Dynamics ERP 系统中配置的所有其他申报币种均在此处列出。</span><span class="sxs-lookup"><span data-stu-id="21a22-168">Any additional reporting currencies that are configured in your Microsoft Dynamics ERP system are listed here.</span></span> <span data-ttu-id="21a22-169">选择此复选框以生成使用指定的币种的其他报表。</span><span class="sxs-lookup"><span data-stu-id="21a22-169">Select this check box to generate additional reports in the currencies that are indicated.</span></span> <span data-ttu-id="21a22-170">若要在 Web 查看器中查看这些报表，请单击<strong>币种</strong>，然后选择一种货币。</span><span class="sxs-lookup"><span data-stu-id="21a22-170">To view these reports in the Web Viewer, click the <strong>Currency</strong> button, and then select a currency.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="0183e-171">不与报表定义一起保存的日期信息</span><span class="sxs-lookup"><span data-stu-id="0183e-171">Date information not saved with report definition</span></span></td>
+<td><span data-ttu-id="21a22-171">不与报表定义一起保存的日期信息</span><span class="sxs-lookup"><span data-stu-id="21a22-171">Date information not saved with report definition</span></span></td>
 <td><ul>
-<li><span data-ttu-id="0183e-172">基准期间</span><span class="sxs-lookup"><span data-stu-id="0183e-172">Base period</span></span></li>
-<li><span data-ttu-id="0183e-173">基准年</span><span class="sxs-lookup"><span data-stu-id="0183e-173">Base year</span></span></li>
-<li><span data-ttu-id="0183e-174">覆盖的期间</span><span class="sxs-lookup"><span data-stu-id="0183e-174">Period covered</span></span></li>
+<li><span data-ttu-id="21a22-172">基准期间</span><span class="sxs-lookup"><span data-stu-id="21a22-172">Base period</span></span></li>
+<li><span data-ttu-id="21a22-173">基准年</span><span class="sxs-lookup"><span data-stu-id="21a22-173">Base year</span></span></li>
+<li><span data-ttu-id="21a22-174">覆盖的期间</span><span class="sxs-lookup"><span data-stu-id="21a22-174">Period covered</span></span></li>
 </ul>
-<span data-ttu-id="0183e-175">只有默认基准期间设置与报表定义一起保存。</span><span class="sxs-lookup"><span data-stu-id="0183e-175">Only default base period settings are saved with the report definition.</span></span></td>
+<span data-ttu-id="21a22-175">只有默认基准期间设置与报表定义一起保存。</span><span class="sxs-lookup"><span data-stu-id="21a22-175">Only default base period settings are saved with the report definition.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="0183e-176">与报表定义一起保存的日期信息</span><span class="sxs-lookup"><span data-stu-id="0183e-176">Date information saved with report definition</span></span></td>
+<td><span data-ttu-id="21a22-176">与报表定义一起保存的日期信息</span><span class="sxs-lookup"><span data-stu-id="21a22-176">Date information saved with report definition</span></span></td>
 <td><ul>
-<li><span data-ttu-id="0183e-177">报表日期</span><span class="sxs-lookup"><span data-stu-id="0183e-177">Report date</span></span></li>
-<li><span data-ttu-id="0183e-178">默认基准期间</span><span class="sxs-lookup"><span data-stu-id="0183e-178">Default base period</span></span></li>
+<li><span data-ttu-id="21a22-177">报表日期</span><span class="sxs-lookup"><span data-stu-id="21a22-177">Report date</span></span></li>
+<li><span data-ttu-id="21a22-178">默认基准期间</span><span class="sxs-lookup"><span data-stu-id="21a22-178">Default base period</span></span></li>
 </ul></td>
 </tr>
 <tr>
-<td><span data-ttu-id="0183e-179">组中的报表</span><span class="sxs-lookup"><span data-stu-id="0183e-179">Reports in group</span></span></td>
-<td><span data-ttu-id="0183e-180">添加、删除和重新排序报表组中的报表。</span><span class="sxs-lookup"><span data-stu-id="0183e-180">Add, remove, and re-order reports in the report group.</span></span>
+<td><span data-ttu-id="21a22-179">组中的报表</span><span class="sxs-lookup"><span data-stu-id="21a22-179">Reports in group</span></span></td>
+<td><span data-ttu-id="21a22-180">添加、删除和重新排序报表组中的报表。</span><span class="sxs-lookup"><span data-stu-id="21a22-180">Add, remove, and re-order reports in the report group.</span></span>
 <ul>
-<li><span data-ttu-id="0183e-181">若要将报表定义添加到报表组，请双击该报表组以将其打开，然后单击<strong>添加</strong>。</span><span class="sxs-lookup"><span data-stu-id="0183e-181">To add report definitions to the report group, double-click the report group to open it, and then click <strong>Add</strong>.</span></span> <span data-ttu-id="0183e-182">选择要包含在报表组中的报表，然后单击<strong>确定</strong>。</span><span class="sxs-lookup"><span data-stu-id="0183e-182">Select the reports to include in the report group, and then click <strong>OK</strong>.</span></span></li>
-<li><span data-ttu-id="0183e-183">若要从报表组删除报表，选中该报表，然后单击<strong>删除</strong>。</span><span class="sxs-lookup"><span data-stu-id="0183e-183">To remove a report from the report group, select it, and then click <strong>Remove</strong>.</span></span></li>
-<li><span data-ttu-id="0183e-184">要修改生成报表的顺序，请在列表中选择一个报表，然后单击<strong>上移</strong>或<strong>下移</strong>。</span><span class="sxs-lookup"><span data-stu-id="0183e-184">To modify the order that the reports are generated in, select a report in the list, and then click <strong>Move up</strong> or <strong>Move down</strong>.</span></span></li>
+<li><span data-ttu-id="21a22-181">若要将报表定义添加到报表组，请双击该报表组以将其打开，然后单击<strong>添加</strong>。</span><span class="sxs-lookup"><span data-stu-id="21a22-181">To add report definitions to the report group, double-click the report group to open it, and then click <strong>Add</strong>.</span></span> <span data-ttu-id="21a22-182">选择要包含在报表组中的报表，然后单击<strong>确定</strong>。</span><span class="sxs-lookup"><span data-stu-id="21a22-182">Select the reports to include in the report group, and then click <strong>OK</strong>.</span></span></li>
+<li><span data-ttu-id="21a22-183">若要从报表组删除报表，选中该报表，然后单击<strong>删除</strong>。</span><span class="sxs-lookup"><span data-stu-id="21a22-183">To remove a report from the report group, select it, and then click <strong>Remove</strong>.</span></span></li>
+<li><span data-ttu-id="21a22-184">要修改生成报表的顺序，请在列表中选择一个报表，然后单击<strong>上移</strong>或<strong>下移</strong>。</span><span class="sxs-lookup"><span data-stu-id="21a22-184">To modify the order that the reports are generated in, select a report in the list, and then click <strong>Move up</strong> or <strong>Move down</strong>.</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="additional-resources"></a><span data-ttu-id="0183e-185">其他资源</span><span class="sxs-lookup"><span data-stu-id="0183e-185">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="21a22-185">其他资源</span><span class="sxs-lookup"><span data-stu-id="21a22-185">Additional resources</span></span>
 
-[<span data-ttu-id="0183e-186">财务报告</span><span class="sxs-lookup"><span data-stu-id="0183e-186">Financial reporting</span></span>](financial-reporting-intro.md)
+[<span data-ttu-id="21a22-186">财务报告</span><span class="sxs-lookup"><span data-stu-id="21a22-186">Financial reporting</span></span>](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

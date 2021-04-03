@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,86 +15,89 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 504cd1c920e75eb6bcbcdcda668336ba74fb09f3
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: cc31a15f020a7a0bb3d5f1ea92e95d86d9794931
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796548"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5566472"
 ---
-# <a name="new-or-updated-task-guides-august-2016"></a><span data-ttu-id="e1a36-104">新的或更新任务指南（2016 年 8 月）</span><span class="sxs-lookup"><span data-stu-id="e1a36-104">New or updated task guides (August 2016)</span></span>
+# <a name="new-or-updated-task-guides-august-2016"></a><span data-ttu-id="4ebea-104">新的或更新任务指南（2016 年 8 月）</span><span class="sxs-lookup"><span data-stu-id="4ebea-104">New or updated task guides (August 2016)</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e1a36-105">本主题列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 8 月 - 所有语言）APQC 标准库的新增或更新任务指南。</span><span class="sxs-lookup"><span data-stu-id="e1a36-105">This topic lists the new or updated Task guides that were released to the Microsoft (August 2016 - all languages) APQC Unified Library for Microsoft Dynamics AX.</span></span> <span data-ttu-id="e1a36-106">没有发布新入门库。</span><span class="sxs-lookup"><span data-stu-id="e1a36-106">No new Getting Started Library was released.</span></span>
+<span data-ttu-id="4ebea-105">本主题列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 8 月 - 所有语言）APQC 标准库的新增或更新任务指南。</span><span class="sxs-lookup"><span data-stu-id="4ebea-105">This topic lists the new or updated Task guides that were released to the Microsoft (August 2016 - all languages) APQC Unified Library for Microsoft Dynamics AX.</span></span> <span data-ttu-id="4ebea-106">没有发布新入门库。</span><span class="sxs-lookup"><span data-stu-id="4ebea-106">No new Getting Started Library was released.</span></span>
 
-## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a><span data-ttu-id="e1a36-107">Microsoft Dynamics AX 的 APQC 标准库中的任务指南（2016 年 8 月 - 所有语言）</span><span class="sxs-lookup"><span data-stu-id="e1a36-107">Task guides in the (August 2016 - all languages) APQC Unified Library for Microsoft Dynamics AX</span></span>
+## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a><span data-ttu-id="4ebea-107">Microsoft Dynamics AX 的 APQC 标准库中的任务指南（2016 年 8 月 - 所有语言）</span><span class="sxs-lookup"><span data-stu-id="4ebea-107">Task guides in the (August 2016 - all languages) APQC Unified Library for Microsoft Dynamics AX</span></span>
 
-<span data-ttu-id="e1a36-108">（2016 年 8 月 - 所有语言）APQC 标准库中包含用于帮助 Microsoft Dynamics AX 平台更新 2（2016 年 8 月）、Dynamics AX 2016 年 5 月应用程序更新和 Microsoft Dynamics AX 2016 年 2 月版本的任务指南。</span><span class="sxs-lookup"><span data-stu-id="e1a36-108">The (August 2016 - all languages) APQC Unified Library contains the Task guides that are intended to be used for Help with Microsoft Dynamics AX platform update 2 (August 2016), the Dynamics AX May 2016 application update, and the Microsoft Dynamics AX February 2016 release.</span></span> <span data-ttu-id="e1a36-109">有关这些版本的详细信息，请参阅 [Finance and Operations 主页中的新增和更改内容](whats-new-changed.md)。</span><span class="sxs-lookup"><span data-stu-id="e1a36-109">For more information about these releases, see [What's new or changed in Finance and Operations home page](whats-new-changed.md).</span></span> <span data-ttu-id="e1a36-110">此库中提供了任务指南的本地化版本。</span><span class="sxs-lookup"><span data-stu-id="e1a36-110">Localized versions of the Task guides are available in this library.</span></span> <span data-ttu-id="e1a36-111">有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助系统](help-overview.md)。</span><span class="sxs-lookup"><span data-stu-id="e1a36-111">For more information about how to connect the Help system to a Task guide library, see [Help system](help-overview.md).</span></span>
+<span data-ttu-id="4ebea-108">（2016 年 8 月 - 所有语言）APQC 标准库中包含用于帮助 Microsoft Dynamics AX 平台更新 2（2016 年 8 月）、Dynamics AX 2016 年 5 月应用程序更新和 Microsoft Dynamics AX 2016 年 2 月版本的任务指南。</span><span class="sxs-lookup"><span data-stu-id="4ebea-108">The (August 2016 - all languages) APQC Unified Library contains the Task guides that are intended to be used for Help with Microsoft Dynamics AX platform update 2 (August 2016), the Dynamics AX May 2016 application update, and the Microsoft Dynamics AX February 2016 release.</span></span> <span data-ttu-id="4ebea-109">有关这些版本的详细信息，请参阅 [Finance and Operations 主页中的新增和更改内容](whats-new-changed.md)。</span><span class="sxs-lookup"><span data-stu-id="4ebea-109">For more information about these releases, see [What's new or changed in Finance and Operations home page](whats-new-changed.md).</span></span> <span data-ttu-id="4ebea-110">此库中提供了任务指南的本地化版本。</span><span class="sxs-lookup"><span data-stu-id="4ebea-110">Localized versions of the Task guides are available in this library.</span></span> <span data-ttu-id="4ebea-111">有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助系统](help-overview.md)。</span><span class="sxs-lookup"><span data-stu-id="4ebea-111">For more information about how to connect the Help system to a Task guide library, see [Help system](help-overview.md).</span></span>
 
-### <a name="data-access"></a><span data-ttu-id="e1a36-112">数据访问</span><span class="sxs-lookup"><span data-stu-id="e1a36-112">Data access</span></span>
+### <a name="data-access"></a><span data-ttu-id="4ebea-112">数据访问</span><span class="sxs-lookup"><span data-stu-id="4ebea-112">Data access</span></span>
 
-| <span data-ttu-id="e1a36-113">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="e1a36-113">BPM line</span></span>           | <span data-ttu-id="e1a36-114">国家/地区</span><span class="sxs-lookup"><span data-stu-id="e1a36-114">Country/region</span></span> |
+| <span data-ttu-id="4ebea-113">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="4ebea-113">BPM line</span></span>           | <span data-ttu-id="4ebea-114">国家/地区</span><span class="sxs-lookup"><span data-stu-id="4ebea-114">Country/region</span></span> |
 |--------------------|----------------|
-| <span data-ttu-id="e1a36-115">创建批处理作业</span><span class="sxs-lookup"><span data-stu-id="e1a36-115">Create a batch job</span></span> | <span data-ttu-id="e1a36-116">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-116">Global</span></span>         |
+| <span data-ttu-id="4ebea-115">创建批处理作业</span><span class="sxs-lookup"><span data-stu-id="4ebea-115">Create a batch job</span></span> | <span data-ttu-id="4ebea-116">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-116">Global</span></span>         |
 
-### <a name="inventory"></a><span data-ttu-id="e1a36-117">库存</span><span class="sxs-lookup"><span data-stu-id="e1a36-117">Inventory</span></span>
+### <a name="inventory"></a><span data-ttu-id="4ebea-117">库存</span><span class="sxs-lookup"><span data-stu-id="4ebea-117">Inventory</span></span>
 
-| <span data-ttu-id="e1a36-118">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="e1a36-118">BPM line</span></span>                                | <span data-ttu-id="e1a36-119">国家/地区</span><span class="sxs-lookup"><span data-stu-id="e1a36-119">Country/region</span></span> |
+| <span data-ttu-id="4ebea-118">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="4ebea-118">BPM line</span></span>                                | <span data-ttu-id="4ebea-119">国家/地区</span><span class="sxs-lookup"><span data-stu-id="4ebea-119">Country/region</span></span> |
 |-----------------------------------------|----------------|
-| <span data-ttu-id="e1a36-120">检查存货可用性</span><span class="sxs-lookup"><span data-stu-id="e1a36-120">Check the availability of stock</span></span>         | <span data-ttu-id="e1a36-121">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-121">Global</span></span>         |
-| <span data-ttu-id="e1a36-122">设置物料到货情况概述配置文件</span><span class="sxs-lookup"><span data-stu-id="e1a36-122">Set up an item arrival overview profile</span></span> | <span data-ttu-id="e1a36-123">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-123">Global</span></span>         |
+| <span data-ttu-id="4ebea-120">检查存货可用性</span><span class="sxs-lookup"><span data-stu-id="4ebea-120">Check the availability of stock</span></span>         | <span data-ttu-id="4ebea-121">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-121">Global</span></span>         |
+| <span data-ttu-id="4ebea-122">设置物料到货情况概述配置文件</span><span class="sxs-lookup"><span data-stu-id="4ebea-122">Set up an item arrival overview profile</span></span> | <span data-ttu-id="4ebea-123">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-123">Global</span></span>         |
 
-### <a name="inventory-management"></a><span data-ttu-id="e1a36-124">库存管理</span><span class="sxs-lookup"><span data-stu-id="e1a36-124">Inventory management</span></span>
+### <a name="inventory-management"></a><span data-ttu-id="4ebea-124">库存管理</span><span class="sxs-lookup"><span data-stu-id="4ebea-124">Inventory management</span></span>
 
-| <span data-ttu-id="e1a36-125">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="e1a36-125">BPM line</span></span>              | <span data-ttu-id="e1a36-126">国家/地区</span><span class="sxs-lookup"><span data-stu-id="e1a36-126">Country/region</span></span> |
+| <span data-ttu-id="4ebea-125">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="4ebea-125">BPM line</span></span>              | <span data-ttu-id="4ebea-126">国家/地区</span><span class="sxs-lookup"><span data-stu-id="4ebea-126">Country/region</span></span> |
 |-----------------------|----------------|
-| <span data-ttu-id="e1a36-127">设置质检订单</span><span class="sxs-lookup"><span data-stu-id="e1a36-127">Set up quality orders</span></span> | <span data-ttu-id="e1a36-128">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-128">Global</span></span>         |
+| <span data-ttu-id="4ebea-127">设置质检订单</span><span class="sxs-lookup"><span data-stu-id="4ebea-127">Set up quality orders</span></span> | <span data-ttu-id="4ebea-128">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-128">Global</span></span>         |
 
-### <a name="procurement"></a><span data-ttu-id="e1a36-129">采购</span><span class="sxs-lookup"><span data-stu-id="e1a36-129">Procurement</span></span>
+### <a name="procurement"></a><span data-ttu-id="4ebea-129">采购</span><span class="sxs-lookup"><span data-stu-id="4ebea-129">Procurement</span></span>
 
-| <span data-ttu-id="e1a36-130">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="e1a36-130">BPM line</span></span>                                          | <span data-ttu-id="e1a36-131">国家/地区</span><span class="sxs-lookup"><span data-stu-id="e1a36-131">Country/region</span></span> |
+| <span data-ttu-id="4ebea-130">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="4ebea-130">BPM line</span></span>                                          | <span data-ttu-id="4ebea-131">国家/地区</span><span class="sxs-lookup"><span data-stu-id="4ebea-131">Country/region</span></span> |
 |---------------------------------------------------|----------------|
-| <span data-ttu-id="e1a36-132">为零星供应商创建采购订单</span><span class="sxs-lookup"><span data-stu-id="e1a36-132">Create a purchase order for a one-time supplier</span></span>   | <span data-ttu-id="e1a36-133">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-133">Global</span></span>         |
-| <span data-ttu-id="e1a36-134">创建含交货计划的采购订单</span><span class="sxs-lookup"><span data-stu-id="e1a36-134">Create a purchase order with a delivery schedule</span></span>  | <span data-ttu-id="e1a36-135">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-135">Global</span></span>         |
-| <span data-ttu-id="e1a36-136">创建采购退货单</span><span class="sxs-lookup"><span data-stu-id="e1a36-136">Create a purchase return order</span></span>                    | <span data-ttu-id="e1a36-137">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-137">Global</span></span>         |
-| <span data-ttu-id="e1a36-138">创建重复采购订单</span><span class="sxs-lookup"><span data-stu-id="e1a36-138">Create a repeat purchase order</span></span>                    | <span data-ttu-id="e1a36-139">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-139">Global</span></span>         |
-| <span data-ttu-id="e1a36-140">记录采购订单中的货物的收货</span><span class="sxs-lookup"><span data-stu-id="e1a36-140">Record the receipt of goods on the purchase order</span></span> | <span data-ttu-id="e1a36-141">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-141">Global</span></span>         |
+| <span data-ttu-id="4ebea-132">为零星供应商创建采购订单</span><span class="sxs-lookup"><span data-stu-id="4ebea-132">Create a purchase order for a one-time supplier</span></span>   | <span data-ttu-id="4ebea-133">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-133">Global</span></span>         |
+| <span data-ttu-id="4ebea-134">创建含交货计划的采购订单</span><span class="sxs-lookup"><span data-stu-id="4ebea-134">Create a purchase order with a delivery schedule</span></span>  | <span data-ttu-id="4ebea-135">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-135">Global</span></span>         |
+| <span data-ttu-id="4ebea-136">创建采购退货单</span><span class="sxs-lookup"><span data-stu-id="4ebea-136">Create a purchase return order</span></span>                    | <span data-ttu-id="4ebea-137">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-137">Global</span></span>         |
+| <span data-ttu-id="4ebea-138">创建重复采购订单</span><span class="sxs-lookup"><span data-stu-id="4ebea-138">Create a repeat purchase order</span></span>                    | <span data-ttu-id="4ebea-139">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-139">Global</span></span>         |
+| <span data-ttu-id="4ebea-140">记录采购订单中的货物的收货</span><span class="sxs-lookup"><span data-stu-id="4ebea-140">Record the receipt of goods on the purchase order</span></span> | <span data-ttu-id="4ebea-141">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-141">Global</span></span>         |
 
-### <a name="resource-and-activities"></a><span data-ttu-id="e1a36-142">资源和活动</span><span class="sxs-lookup"><span data-stu-id="e1a36-142">Resource and activities</span></span>
+### <a name="resource-and-activities"></a><span data-ttu-id="4ebea-142">资源和活动</span><span class="sxs-lookup"><span data-stu-id="4ebea-142">Resource and activities</span></span>
 
-| <span data-ttu-id="e1a36-143">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="e1a36-143">BPM line</span></span>                                                | <span data-ttu-id="e1a36-144">国家/地区</span><span class="sxs-lookup"><span data-stu-id="e1a36-144">Country/region</span></span> |
+| <span data-ttu-id="4ebea-143">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="4ebea-143">BPM line</span></span>                                                | <span data-ttu-id="4ebea-144">国家/地区</span><span class="sxs-lookup"><span data-stu-id="4ebea-144">Country/region</span></span> |
 |---------------------------------------------------------|----------------|
-| <span data-ttu-id="e1a36-145">启用生产流版本</span><span class="sxs-lookup"><span data-stu-id="e1a36-145">Activate a production flow version</span></span>                      | <span data-ttu-id="e1a36-146">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-146">Global</span></span>         |
-| <span data-ttu-id="e1a36-147">为多个活动创建一条看板规则</span><span class="sxs-lookup"><span data-stu-id="e1a36-147">Create a kanban rule for multiple activities</span></span>            | <span data-ttu-id="e1a36-148">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-148">Global</span></span>         |
-| <span data-ttu-id="e1a36-149">使用看板行事件创建看板规则</span><span class="sxs-lookup"><span data-stu-id="e1a36-149">Create a kanban rule using a kanban line event</span></span>          | <span data-ttu-id="e1a36-150">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-150">Global</span></span>         |
-| <span data-ttu-id="e1a36-151">使用最低存货事件创建看板规则</span><span class="sxs-lookup"><span data-stu-id="e1a36-151">Create a kanban rule using a minimum stock event</span></span>        | <span data-ttu-id="e1a36-152">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-152">Global</span></span>         |
-| <span data-ttu-id="e1a36-153">使用安全存货日记帐更新最低覆盖范围</span><span class="sxs-lookup"><span data-stu-id="e1a36-153">Use the safety stock journal to update minimum coverage</span></span> | <span data-ttu-id="e1a36-154">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-154">Global</span></span>         |
+| <span data-ttu-id="4ebea-145">启用生产流版本</span><span class="sxs-lookup"><span data-stu-id="4ebea-145">Activate a production flow version</span></span>                      | <span data-ttu-id="4ebea-146">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-146">Global</span></span>         |
+| <span data-ttu-id="4ebea-147">为多个活动创建一条看板规则</span><span class="sxs-lookup"><span data-stu-id="4ebea-147">Create a kanban rule for multiple activities</span></span>            | <span data-ttu-id="4ebea-148">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-148">Global</span></span>         |
+| <span data-ttu-id="4ebea-149">使用看板行事件创建看板规则</span><span class="sxs-lookup"><span data-stu-id="4ebea-149">Create a kanban rule using a kanban line event</span></span>          | <span data-ttu-id="4ebea-150">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-150">Global</span></span>         |
+| <span data-ttu-id="4ebea-151">使用最低存货事件创建看板规则</span><span class="sxs-lookup"><span data-stu-id="4ebea-151">Create a kanban rule using a minimum stock event</span></span>        | <span data-ttu-id="4ebea-152">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-152">Global</span></span>         |
+| <span data-ttu-id="4ebea-153">使用安全存货日记帐更新最低覆盖范围</span><span class="sxs-lookup"><span data-stu-id="4ebea-153">Use the safety stock journal to update minimum coverage</span></span> | <span data-ttu-id="4ebea-154">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-154">Global</span></span>         |
 
-### <a name="supplier-relationship-management"></a><span data-ttu-id="e1a36-155">供应商关系管理</span><span class="sxs-lookup"><span data-stu-id="e1a36-155">Supplier relationship management</span></span>
+### <a name="supplier-relationship-management"></a><span data-ttu-id="4ebea-155">供应商关系管理</span><span class="sxs-lookup"><span data-stu-id="4ebea-155">Supplier relationship management</span></span>
 
-| <span data-ttu-id="e1a36-156">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="e1a36-156">BPM line</span></span>                                                           | <span data-ttu-id="e1a36-157">国家/地区</span><span class="sxs-lookup"><span data-stu-id="e1a36-157">Country/region</span></span> |
+| <span data-ttu-id="4ebea-156">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="4ebea-156">BPM line</span></span>                                                           | <span data-ttu-id="4ebea-157">国家/地区</span><span class="sxs-lookup"><span data-stu-id="4ebea-157">Country/region</span></span> |
 |--------------------------------------------------------------------|----------------|
-| <span data-ttu-id="e1a36-158">核准特定采购类别的供应商</span><span class="sxs-lookup"><span data-stu-id="e1a36-158">Approve vendors for specific procurement categories</span></span>                | <span data-ttu-id="e1a36-159">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-159">Global</span></span>         |
-| <span data-ttu-id="e1a36-160">创建采购目录</span><span class="sxs-lookup"><span data-stu-id="e1a36-160">Create a procurement catalog</span></span>                                       | <span data-ttu-id="e1a36-161">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-161">Global</span></span>         |
-| <span data-ttu-id="e1a36-162">创建使用询价的申请</span><span class="sxs-lookup"><span data-stu-id="e1a36-162">Create a requisition that uses an RFQ</span></span>                              | <span data-ttu-id="e1a36-163">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-163">Global</span></span>         |
-| <span data-ttu-id="e1a36-164">创建询价的评分标准</span><span class="sxs-lookup"><span data-stu-id="e1a36-164">Create a scoring method for RFQs</span></span>                                   | <span data-ttu-id="e1a36-165">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-165">Global</span></span>         |
-| <span data-ttu-id="e1a36-166">创建供应商银行帐户</span><span class="sxs-lookup"><span data-stu-id="e1a36-166">Create a vendor bank account</span></span>                                       | <span data-ttu-id="e1a36-167">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-167">Global</span></span>         |
-| <span data-ttu-id="e1a36-168">创建采购政策</span><span class="sxs-lookup"><span data-stu-id="e1a36-168">Create purchasing policies</span></span>                                         | <span data-ttu-id="e1a36-169">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-169">Global</span></span>         |
-| <span data-ttu-id="e1a36-170">创建询价的申请类型和评分标准</span><span class="sxs-lookup"><span data-stu-id="e1a36-170">Create solicitation types and scoring criteria for RFQs</span></span>            | <span data-ttu-id="e1a36-171">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-171">Global</span></span>         |
-| <span data-ttu-id="e1a36-172">代表他人对订购的产品设置权限</span><span class="sxs-lookup"><span data-stu-id="e1a36-172">Set up permissions for ordering products on behalf of someone else</span></span> | <span data-ttu-id="e1a36-173">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-173">Global</span></span>         |
-| <span data-ttu-id="e1a36-174">设置采购类别层次结构的政策</span><span class="sxs-lookup"><span data-stu-id="e1a36-174">Set up policies for procurement category hierarchies</span></span>               | <span data-ttu-id="e1a36-175">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-175">Global</span></span>         |
+| <span data-ttu-id="4ebea-158">核准特定采购类别的供应商</span><span class="sxs-lookup"><span data-stu-id="4ebea-158">Approve vendors for specific procurement categories</span></span>                | <span data-ttu-id="4ebea-159">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-159">Global</span></span>         |
+| <span data-ttu-id="4ebea-160">创建采购目录</span><span class="sxs-lookup"><span data-stu-id="4ebea-160">Create a procurement catalog</span></span>                                       | <span data-ttu-id="4ebea-161">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-161">Global</span></span>         |
+| <span data-ttu-id="4ebea-162">创建使用询价的申请</span><span class="sxs-lookup"><span data-stu-id="4ebea-162">Create a requisition that uses an RFQ</span></span>                              | <span data-ttu-id="4ebea-163">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-163">Global</span></span>         |
+| <span data-ttu-id="4ebea-164">创建询价的评分标准</span><span class="sxs-lookup"><span data-stu-id="4ebea-164">Create a scoring method for RFQs</span></span>                                   | <span data-ttu-id="4ebea-165">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-165">Global</span></span>         |
+| <span data-ttu-id="4ebea-166">创建供应商银行帐户</span><span class="sxs-lookup"><span data-stu-id="4ebea-166">Create a vendor bank account</span></span>                                       | <span data-ttu-id="4ebea-167">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-167">Global</span></span>         |
+| <span data-ttu-id="4ebea-168">创建采购政策</span><span class="sxs-lookup"><span data-stu-id="4ebea-168">Create purchasing policies</span></span>                                         | <span data-ttu-id="4ebea-169">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-169">Global</span></span>         |
+| <span data-ttu-id="4ebea-170">创建询价的申请类型和评分标准</span><span class="sxs-lookup"><span data-stu-id="4ebea-170">Create solicitation types and scoring criteria for RFQs</span></span>            | <span data-ttu-id="4ebea-171">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-171">Global</span></span>         |
+| <span data-ttu-id="4ebea-172">代表他人对订购的产品设置权限</span><span class="sxs-lookup"><span data-stu-id="4ebea-172">Set up permissions for ordering products on behalf of someone else</span></span> | <span data-ttu-id="4ebea-173">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-173">Global</span></span>         |
+| <span data-ttu-id="4ebea-174">设置采购类别层次结构的政策</span><span class="sxs-lookup"><span data-stu-id="4ebea-174">Set up policies for procurement category hierarchies</span></span>               | <span data-ttu-id="4ebea-175">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-175">Global</span></span>         |
 
-### <a name="warehouse-and-transportation"></a><span data-ttu-id="e1a36-176">仓库和运输</span><span class="sxs-lookup"><span data-stu-id="e1a36-176">Warehouse and transportation</span></span>
+### <a name="warehouse-and-transportation"></a><span data-ttu-id="4ebea-176">仓库和运输</span><span class="sxs-lookup"><span data-stu-id="4ebea-176">Warehouse and transportation</span></span>
 
-| <span data-ttu-id="e1a36-177">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="e1a36-177">BPM line</span></span>                                                                    | <span data-ttu-id="e1a36-178">国家/地区</span><span class="sxs-lookup"><span data-stu-id="e1a36-178">Country/region</span></span> |
+| <span data-ttu-id="4ebea-177">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="4ebea-177">BPM line</span></span>                                                                    | <span data-ttu-id="4ebea-178">国家/地区</span><span class="sxs-lookup"><span data-stu-id="4ebea-178">Country/region</span></span> |
 |-----------------------------------------------------------------------------|----------------|
-| <span data-ttu-id="e1a36-179">设置用于完成采购订单类型工作的移动设备菜单项</span><span class="sxs-lookup"><span data-stu-id="e1a36-179">Set up a mobile device menu item for completing work of type Purchase order</span></span> | <span data-ttu-id="e1a36-180">全局</span><span class="sxs-lookup"><span data-stu-id="e1a36-180">Global</span></span>         |
+| <span data-ttu-id="4ebea-179">设置用于完成采购订单类型工作的移动设备菜单项</span><span class="sxs-lookup"><span data-stu-id="4ebea-179">Set up a mobile device menu item for completing work of type Purchase order</span></span> | <span data-ttu-id="4ebea-180">全局</span><span class="sxs-lookup"><span data-stu-id="4ebea-180">Global</span></span>         |
 
-## <a name="additional-resources"></a><span data-ttu-id="e1a36-181">其他资源</span><span class="sxs-lookup"><span data-stu-id="e1a36-181">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="4ebea-181">其他资源</span><span class="sxs-lookup"><span data-stu-id="4ebea-181">Additional resources</span></span>
 
-[<span data-ttu-id="e1a36-182">新任务指南（2016 年 2 月）</span><span class="sxs-lookup"><span data-stu-id="e1a36-182">New task guides (February 2016)</span></span>](new-task-guides-available-february-2016.md)
+[<span data-ttu-id="4ebea-182">新任务指南（2016 年 2 月）</span><span class="sxs-lookup"><span data-stu-id="4ebea-182">New task guides (February 2016)</span></span>](new-task-guides-available-february-2016.md)
 
-[<span data-ttu-id="e1a36-183">新的或更新任务指南（2016 年 5 月）</span><span class="sxs-lookup"><span data-stu-id="e1a36-183">New or updated task guides (May 2016)</span></span>](new-updated-task-guides-available-may-2016.md)
+[<span data-ttu-id="4ebea-183">新的或更新任务指南（2016 年 5 月）</span><span class="sxs-lookup"><span data-stu-id="4ebea-183">New or updated task guides (May 2016)</span></span>](new-updated-task-guides-available-may-2016.md)
 
-[<span data-ttu-id="e1a36-184">新的或更新任务指南（2016 年 11 月）</span><span class="sxs-lookup"><span data-stu-id="e1a36-184">New or updated task guides (November 2016)</span></span>](new-task-guides-november-2016.md)
+[<span data-ttu-id="4ebea-184">新的或更新任务指南（2016 年 11 月）</span><span class="sxs-lookup"><span data-stu-id="4ebea-184">New or updated task guides (November 2016)</span></span>](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
