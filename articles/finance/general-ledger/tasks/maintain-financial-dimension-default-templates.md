@@ -15,29 +15,32 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ecc9adac17a6313e88ac568d016daf8d05b8d818
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7a03a277ef3ccc6796bc0a4f081dcec0d9a51fb7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968602"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240681"
 ---
-# <a name="maintain-financial-dimension-default-templates"></a><span data-ttu-id="af919-103">维护财务维度默认模板</span><span class="sxs-lookup"><span data-stu-id="af919-103">Maintain financial dimension default templates</span></span>
+# <a name="maintain-financial-dimension-default-templates"></a><span data-ttu-id="97220-103">维护财务维度默认模板</span><span class="sxs-lookup"><span data-stu-id="97220-103">Maintain financial dimension default templates</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="af919-104">此主题显示如何设置财务维度默认模板。</span><span class="sxs-lookup"><span data-stu-id="af919-104">This topic shows how to set up financial dimension default templates.</span></span> <span data-ttu-id="af919-105">模板可用于快速分配原始凭证的金额。</span><span class="sxs-lookup"><span data-stu-id="af919-105">The templates can be used to quickly distribute amounts on source documents.</span></span>
+<span data-ttu-id="97220-104">此主题显示如何设置财务维度默认模板。</span><span class="sxs-lookup"><span data-stu-id="97220-104">This topic shows how to set up financial dimension default templates.</span></span> <span data-ttu-id="97220-105">模板可用于快速分配原始凭证的金额。</span><span class="sxs-lookup"><span data-stu-id="97220-105">The templates can be used to quickly distribute amounts on source documents.</span></span>
 
-1. <span data-ttu-id="af919-106">在导航窗格中，转到 **模块 > 总帐 > 会计科目表 > 维度 > 财务维度默认模板**。</span><span class="sxs-lookup"><span data-stu-id="af919-106">In the navigation pane, go to **Modules > General ledger > Chart of accounts > Dimensions > Financial dimension default templates**.</span></span>
-2. <span data-ttu-id="af919-107">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="af919-107">Select **New**.</span></span>
-3. <span data-ttu-id="af919-108">在 **模板 ID** 字段中，输入一个模板 ID。</span><span class="sxs-lookup"><span data-stu-id="af919-108">In the **Template ID** field, enter a Template ID.</span></span>
-4. <span data-ttu-id="af919-109">输入第一个维度值的百分比。</span><span class="sxs-lookup"><span data-stu-id="af919-109">Enter the percentage for the first dimension values.</span></span>
-5. <span data-ttu-id="af919-110">输入与所输入百分比对应的财务维度值。</span><span class="sxs-lookup"><span data-stu-id="af919-110">Enter the financial dimension values that correspond to the percent entered.</span></span>
-6. <span data-ttu-id="af919-111">选择 **添加**。</span><span class="sxs-lookup"><span data-stu-id="af919-111">Select **Add**.</span></span>
-7. <span data-ttu-id="af919-112">再输入下一个维度值的百分比。</span><span class="sxs-lookup"><span data-stu-id="af919-112">Enter another percent for the next dimension values.</span></span> <span data-ttu-id="af919-113">对于本示例，请输入一个百分比，以便仍然为您分配不超过 100% 的值。</span><span class="sxs-lookup"><span data-stu-id="af919-113">For this example, enter a percentage so you still have less than 100% allocated.</span></span> 
-8. <span data-ttu-id="af919-114">输入与所输入百分比对应的财务维度值。</span><span class="sxs-lookup"><span data-stu-id="af919-114">Enter the financial dimension values that correspond to the percent entered.</span></span>
-9. <span data-ttu-id="af919-115">选择 **添加**。</span><span class="sxs-lookup"><span data-stu-id="af919-115">Select **Add**.</span></span>
-10. <span data-ttu-id="af919-116">再输入一个百分比，这样将让百分比总数等于 100%。</span><span class="sxs-lookup"><span data-stu-id="af919-116">Enter another percent, which will make the total percent equal to 100%.</span></span>
-11. <span data-ttu-id="af919-117">输入与所输入百分比对应的财务维度值。</span><span class="sxs-lookup"><span data-stu-id="af919-117">Enter the financial dimension values that correspond to the percent entered.</span></span>
-12. <span data-ttu-id="af919-118">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="af919-118">Select **Save**.</span></span>
+1. <span data-ttu-id="97220-106">在导航窗格中，转到 **模块 > 总帐 > 会计科目表 > 维度 > 财务维度默认模板**。</span><span class="sxs-lookup"><span data-stu-id="97220-106">In the navigation pane, go to **Modules > General ledger > Chart of accounts > Dimensions > Financial dimension default templates**.</span></span>
+2. <span data-ttu-id="97220-107">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="97220-107">Select **New**.</span></span>
+3. <span data-ttu-id="97220-108">在 **模板 ID** 字段中，输入一个模板 ID。</span><span class="sxs-lookup"><span data-stu-id="97220-108">In the **Template ID** field, enter a Template ID.</span></span>
+4. <span data-ttu-id="97220-109">输入第一个维度值的百分比。</span><span class="sxs-lookup"><span data-stu-id="97220-109">Enter the percentage for the first dimension values.</span></span>
+5. <span data-ttu-id="97220-110">输入与所输入百分比对应的财务维度值。</span><span class="sxs-lookup"><span data-stu-id="97220-110">Enter the financial dimension values that correspond to the percent entered.</span></span>
+6. <span data-ttu-id="97220-111">选择 **添加**。</span><span class="sxs-lookup"><span data-stu-id="97220-111">Select **Add**.</span></span>
+7. <span data-ttu-id="97220-112">再输入下一个维度值的百分比。</span><span class="sxs-lookup"><span data-stu-id="97220-112">Enter another percent for the next dimension values.</span></span> <span data-ttu-id="97220-113">对于本示例，请输入一个百分比，以便仍然为您分配不超过 100% 的值。</span><span class="sxs-lookup"><span data-stu-id="97220-113">For this example, enter a percentage so you still have less than 100% allocated.</span></span> 
+8. <span data-ttu-id="97220-114">输入与所输入百分比对应的财务维度值。</span><span class="sxs-lookup"><span data-stu-id="97220-114">Enter the financial dimension values that correspond to the percent entered.</span></span>
+9. <span data-ttu-id="97220-115">选择 **添加**。</span><span class="sxs-lookup"><span data-stu-id="97220-115">Select **Add**.</span></span>
+10. <span data-ttu-id="97220-116">再输入一个百分比，这样将让百分比总数等于 100%。</span><span class="sxs-lookup"><span data-stu-id="97220-116">Enter another percent, which will make the total percent equal to 100%.</span></span>
+11. <span data-ttu-id="97220-117">输入与所输入百分比对应的财务维度值。</span><span class="sxs-lookup"><span data-stu-id="97220-117">Enter the financial dimension values that correspond to the percent entered.</span></span>
+12. <span data-ttu-id="97220-118">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="97220-118">Select **Save**.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

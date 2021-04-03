@@ -1,0 +1,81 @@
+---
+title: 跟踪入站航行和装运集装箱行程
+description: 本主题说明如何使用“入站跟踪”页跟踪航行和装运集装箱行程的进度。
+author: sherry-zheng
+manager: tfehr
+ms.date: 01/13/2021
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ITMContainerActivityTable
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: chuzheng
+ms.search.validFrom: 2021-01-13
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 678f2b6cda0592e0393bb15f372cb4be84778932
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501238"
+---
+# <a name="track-inbound-voyages-and-shipping-container-journeys"></a><span data-ttu-id="0c37b-103">跟踪入站航行和装运集装箱行程</span><span class="sxs-lookup"><span data-stu-id="0c37b-103">Track inbound voyages and shipping container journeys</span></span>
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
+<span data-ttu-id="0c37b-104">使用 **入站跟踪** 页，您可以跟踪航行和装运集装箱行程的进度。</span><span class="sxs-lookup"><span data-stu-id="0c37b-104">The **Inbound tracking** page lets you track the progress of your voyages and shipping container journeys.</span></span> <span data-ttu-id="0c37b-105">每个航行和行程都按 *活动* 分解，在页面上都有其自己的一行。</span><span class="sxs-lookup"><span data-stu-id="0c37b-105">Each voyage and journey is broken down by *activities*, each of which has its own row on the page.</span></span> <span data-ttu-id="0c37b-106">您可以使用此页面按活动查看和输入估计日期和实际日期。</span><span class="sxs-lookup"><span data-stu-id="0c37b-106">You can use the page to view and enter estimated dates and actual dates by activity.</span></span>
+
+<span data-ttu-id="0c37b-107">通常，根据[跟踪控制中心](delivery-information-setup.md#tracking-control-center)的设置，这些活动会自动显示在最终目的地的估计登陆日期。</span><span class="sxs-lookup"><span data-stu-id="0c37b-107">Typically, depending on the setup in the [Tracking control center](delivery-information-setup.md#tracking-control-center), these activities automatically show the estimated landing date at the final destination.</span></span> <span data-ttu-id="0c37b-108">同样也是根据此设置，最终日期通常会更新交货日期或采购订单行上的确认日期。</span><span class="sxs-lookup"><span data-stu-id="0c37b-108">Also depending on the setup, the final date usually updates the delivery date or confirmed date on purchase order lines.</span></span> <span data-ttu-id="0c37b-109">对于转移单行，您可以将系统设置为更新收货日期。</span><span class="sxs-lookup"><span data-stu-id="0c37b-109">For transfer order lines, you can set up the system to update the receipt date.</span></span>
+
+<span data-ttu-id="0c37b-110">要打开 **入站跟踪** 页，请转到 **登陆成本 \> 跟踪 \> 入站跟踪**。</span><span class="sxs-lookup"><span data-stu-id="0c37b-110">To open the **Inbound tracking** page, go to **Landed cost \> Tracking \> Inbound tracking**.</span></span>
+
+## <a name="filter-the-activities-list"></a><span data-ttu-id="0c37b-111">筛选活动列表</span><span class="sxs-lookup"><span data-stu-id="0c37b-111">Filter the activities list</span></span>
+
+<span data-ttu-id="0c37b-112">您可以使用 **入站跟踪** 页顶部的 **航行** 和 **装运集装箱** 字段来筛选页面，让页面仅显示与所选航行和/或装运集装箱关联的活动。</span><span class="sxs-lookup"><span data-stu-id="0c37b-112">You can use the **Voyage** and **Shipping container** fields at the top of the **Inbound tracking** page to filter the page so that it shows only activities that are associated with the selected voyage and/or shipping container.</span></span>
+
+## <a name="update-tracking-information"></a><span data-ttu-id="0c37b-113">更新跟踪信息</span><span class="sxs-lookup"><span data-stu-id="0c37b-113">Update tracking information</span></span>
+
+<span data-ttu-id="0c37b-114">要更新航行或行程的计划，请输入第一个活动的开始日期。</span><span class="sxs-lookup"><span data-stu-id="0c37b-114">To update the schedule for a voyage or journey, enter the start date for the first activity.</span></span> <span data-ttu-id="0c37b-115">最后一个活动的估计结束日期随后将更新。</span><span class="sxs-lookup"><span data-stu-id="0c37b-115">The estimated end date of the last activity is then updated.</span></span> <span data-ttu-id="0c37b-116">[跟踪控制中心](delivery-information-setup.md#tracking-control-center)中每个支线和行程模板的设置确定估计的提前期。</span><span class="sxs-lookup"><span data-stu-id="0c37b-116">The setup for each leg and journey template in the [Tracking control center](delivery-information-setup.md#tracking-control-center) determines the estimated lead times.</span></span> <span data-ttu-id="0c37b-117">估计结束日期使用从活动开始日期开始的提前期。</span><span class="sxs-lookup"><span data-stu-id="0c37b-117">The estimated end dates use the lead time from the start date of the activity.</span></span> <span data-ttu-id="0c37b-118">然后，当记录了实际结束日期时，下一个活动的开始日期将更新为与上一个活动的实际结束日期相同的日期。</span><span class="sxs-lookup"><span data-stu-id="0c37b-118">Then, when the actual end date is recorded, the start date of the next activity is updated to the same date as the previous activity's actual end date.</span></span> <span data-ttu-id="0c37b-119">实际提前期将更新，以可以进行比较和分析。</span><span class="sxs-lookup"><span data-stu-id="0c37b-119">The actual lead time is updated so that comparison and analysis can be done.</span></span> <span data-ttu-id="0c37b-120">可以在 **注释** 字段中输入其他注释。</span><span class="sxs-lookup"><span data-stu-id="0c37b-120">Additional notes can be entered in the **Note** field.</span></span>
+
+<span data-ttu-id="0c37b-121">网格中活动的顺序由相关行程模板中支线的顺序确定。</span><span class="sxs-lookup"><span data-stu-id="0c37b-121">The order of the activities in the grid is determined by the order of the legs in the relevant journey template.</span></span> <span data-ttu-id="0c37b-122">如果附加行程中支线的顺序更改，跟踪控制也会更改。</span><span class="sxs-lookup"><span data-stu-id="0c37b-122">If order of the legs in the attached journey changes, the tracking control also changes.</span></span>
+
+<span data-ttu-id="0c37b-123">您可以通过在操作窗格中选择 **更新开始日期** 或 **更新实际结束日期** 来更新所有集装箱的日期。</span><span class="sxs-lookup"><span data-stu-id="0c37b-123">You can update the dates for all containers by selecting **Update start date** or **Update actual end date** on the Action Pane.</span></span> <span data-ttu-id="0c37b-124">或者，您可以输入装运中每个集装箱的日期。</span><span class="sxs-lookup"><span data-stu-id="0c37b-124">Alternatively, you can enter the dates per container on the shipment.</span></span> <span data-ttu-id="0c37b-125">此方法具有更大的灵活性，因为可以在多行程环境中拆分集装箱。</span><span class="sxs-lookup"><span data-stu-id="0c37b-125">This approach allows for greater flexibility, because containers can be split in a multi-journey environment.</span></span>
+
+## <a name="buttons-on-the-action-pane"></a><span data-ttu-id="0c37b-126">操作窗格上的按钮</span><span class="sxs-lookup"><span data-stu-id="0c37b-126">Buttons on the Action Pane</span></span>
+
+<span data-ttu-id="0c37b-127">您可以使用 **入站跟踪** 页的操作窗格上的按钮处理入站航行和行程。</span><span class="sxs-lookup"><span data-stu-id="0c37b-127">You can use the buttons on the Action Pane of the **Inbound tracking** page to work with inbound voyages and journeys.</span></span> <span data-ttu-id="0c37b-128">下表描述了可用按钮。</span><span class="sxs-lookup"><span data-stu-id="0c37b-128">The following table describes the buttons that are available.</span></span>
+
+| <span data-ttu-id="0c37b-129">按钮</span><span class="sxs-lookup"><span data-stu-id="0c37b-129">Button</span></span> | <span data-ttu-id="0c37b-130">说明</span><span class="sxs-lookup"><span data-stu-id="0c37b-130">Description</span></span> |
+|---|---|
+| <span data-ttu-id="0c37b-131">编辑​​</span><span class="sxs-lookup"><span data-stu-id="0c37b-131">Edit</span></span> | <span data-ttu-id="0c37b-132">编辑航行或装运集装箱行程。</span><span class="sxs-lookup"><span data-stu-id="0c37b-132">Edit a voyage or shipping container journey.</span></span> |
+| <span data-ttu-id="0c37b-133">新项</span><span class="sxs-lookup"><span data-stu-id="0c37b-133">New</span></span> | <span data-ttu-id="0c37b-134">创建新航行或装运集装箱行程。</span><span class="sxs-lookup"><span data-stu-id="0c37b-134">Create a new voyage or shipping container journey.</span></span> |
+| <span data-ttu-id="0c37b-135">Delete</span><span class="sxs-lookup"><span data-stu-id="0c37b-135">Delete</span></span> | <span data-ttu-id="0c37b-136">删除选定航行或装运集装箱行程。</span><span class="sxs-lookup"><span data-stu-id="0c37b-136">Delete a selected voyage or shipping container journey.</span></span> |
+| <span data-ttu-id="0c37b-137">更新开始日期</span><span class="sxs-lookup"><span data-stu-id="0c37b-137">Update start date</span></span> | <span data-ttu-id="0c37b-138">为航行中的所有集装箱更新活动的开始日期。</span><span class="sxs-lookup"><span data-stu-id="0c37b-138">Update the start date of an activity for all containers in a voyage.</span></span> <span data-ttu-id="0c37b-139">当行程的特定活动或支线的开始日期更新时，后续的估计开始日期将根据指定的提前期更新。</span><span class="sxs-lookup"><span data-stu-id="0c37b-139">When the start date of a specific activity or leg of a journey is updated, the subsequent estimated start dates are updated based on the specified lead time.</span></span> |
+| <span data-ttu-id="0c37b-140">更新实际结束日期</span><span class="sxs-lookup"><span data-stu-id="0c37b-140">Update actual end date</span></span> | <span data-ttu-id="0c37b-141">为航行中的所有集装箱更新活动的结束日期。</span><span class="sxs-lookup"><span data-stu-id="0c37b-141">Update the end date of an activity for all containers in a voyage.</span></span> <span data-ttu-id="0c37b-142">当特定活动的结束日期更新时，后续活动将根据指定的提前期更新。</span><span class="sxs-lookup"><span data-stu-id="0c37b-142">When the end date of a specific activity is updated, the subsequent activities are updated based on the specified lead time.</span></span> |
+| <span data-ttu-id="0c37b-143">添加活动</span><span class="sxs-lookup"><span data-stu-id="0c37b-143">Add activities</span></span> | <span data-ttu-id="0c37b-144">将活动手动添加到航行中。</span><span class="sxs-lookup"><span data-stu-id="0c37b-144">Manually add an activity to a voyage.</span></span> <span data-ttu-id="0c37b-145">例如，您可以添加熏烟活动。</span><span class="sxs-lookup"><span data-stu-id="0c37b-145">For example, you might add a fumigation activity.</span></span> <span data-ttu-id="0c37b-146">添加可能会导致船只或航行中确认的货物交货日期发生更改。</span><span class="sxs-lookup"><span data-stu-id="0c37b-146">The addition might cause the confirmed delivery date of the goods in the vessel or voyage to change.</span></span> <span data-ttu-id="0c37b-147">将活动添加到行程中后，直到更新行程支线的开始日期时，才输入估计天数。</span><span class="sxs-lookup"><span data-stu-id="0c37b-147">When an activity is added to the journey, the estimated days aren't entered until the start date of a journey leg is updated.</span></span> |
+
+## <a name="information-and-settings-on-the-overview-tab"></a><span data-ttu-id="0c37b-148">概览选项卡上的信息和设置</span><span class="sxs-lookup"><span data-stu-id="0c37b-148">Information and settings on the Overview tab</span></span>
+
+<span data-ttu-id="0c37b-149">**概览** 选项卡显示在页面顶部选择的属于航行和/或装运集装箱的所有活动的列表。</span><span class="sxs-lookup"><span data-stu-id="0c37b-149">The **Overview** tab shows a list of all the activities that belong to the voyage and/or shipping container that is selected at the top of the page.</span></span> <span data-ttu-id="0c37b-150">下表说明了可用于每个活动的字段。</span><span class="sxs-lookup"><span data-stu-id="0c37b-150">The following table describes the fields that are available for each activity.</span></span>
+
+| <span data-ttu-id="0c37b-151">字段</span><span class="sxs-lookup"><span data-stu-id="0c37b-151">Field</span></span> | <span data-ttu-id="0c37b-152">说明</span><span class="sxs-lookup"><span data-stu-id="0c37b-152">Description</span></span> |
+|---|---|
+| <span data-ttu-id="0c37b-153">支线</span><span class="sxs-lookup"><span data-stu-id="0c37b-153">Leg</span></span> | <span data-ttu-id="0c37b-154">行程模板定义的活动的支线 ID。</span><span class="sxs-lookup"><span data-stu-id="0c37b-154">The leg ID for the activity, as defined by the journey template.</span></span> |
+| <span data-ttu-id="0c37b-155">交货模式</span><span class="sxs-lookup"><span data-stu-id="0c37b-155">Mode of delivery</span></span> | <span data-ttu-id="0c37b-156">活动的预期交货方式。</span><span class="sxs-lookup"><span data-stu-id="0c37b-156">The expected delivery method for the activity.</span></span> |
+| <span data-ttu-id="0c37b-157">活动</span><span class="sxs-lookup"><span data-stu-id="0c37b-157">Activity</span></span> | <span data-ttu-id="0c37b-158">此字段通常确定与活动关联的作业或任务。</span><span class="sxs-lookup"><span data-stu-id="0c37b-158">This field usually identifies the job or task that is associated with the activity.</span></span> <span data-ttu-id="0c37b-159">典型示例包括 *航行* 和 *清关*。</span><span class="sxs-lookup"><span data-stu-id="0c37b-159">Typical examples include *Sailing* and *Clearance*.</span></span> |
+| <span data-ttu-id="0c37b-160">说明</span><span class="sxs-lookup"><span data-stu-id="0c37b-160">Description</span></span> | <span data-ttu-id="0c37b-161">更详细的活动描述。</span><span class="sxs-lookup"><span data-stu-id="0c37b-161">A longer description of the activity.</span></span> |
+| <span data-ttu-id="0c37b-162">开始日期</span><span class="sxs-lookup"><span data-stu-id="0c37b-162">Start date</span></span> | <span data-ttu-id="0c37b-163">此字段最初显示活动的估计开始日期。</span><span class="sxs-lookup"><span data-stu-id="0c37b-163">This field initially shows the estimated start date of the activity.</span></span> <span data-ttu-id="0c37b-164">但是，在输入上一个活动的实际结束日期之后，它会显示实际开始日期。</span><span class="sxs-lookup"><span data-stu-id="0c37b-164">However, after the previous activity's actual end date has been entered, it shows the actual start date.</span></span> <span data-ttu-id="0c37b-165">此字段用于根据提前期确定估计结束日期。</span><span class="sxs-lookup"><span data-stu-id="0c37b-165">This field is used to determine the estimated end date, based on the lead time.</span></span> |
+| <span data-ttu-id="0c37b-166">估计结束日期</span><span class="sxs-lookup"><span data-stu-id="0c37b-166">Estimated end date</span></span> | <span data-ttu-id="0c37b-167">此字段的值根据开始日期和提前期计算。</span><span class="sxs-lookup"><span data-stu-id="0c37b-167">The value of this field is calculated based on the start date and lead time.</span></span> <span data-ttu-id="0c37b-168">您通常不会直接编辑此值。</span><span class="sxs-lookup"><span data-stu-id="0c37b-168">You won't usually edit the value directly.</span></span> |
+| <span data-ttu-id="0c37b-169">实际结束日期</span><span class="sxs-lookup"><span data-stu-id="0c37b-169">Actual end date</span></span> | <span data-ttu-id="0c37b-170">活动发生后，用户应尽快更新此字段。</span><span class="sxs-lookup"><span data-stu-id="0c37b-170">A user should update this field as soon as possible after the activity has occurred.</span></span> <span data-ttu-id="0c37b-171">实际提前期随后将更新。</span><span class="sxs-lookup"><span data-stu-id="0c37b-171">The actual lead time is then updated.</span></span> |
+| <span data-ttu-id="0c37b-172">预计天数</span><span class="sxs-lookup"><span data-stu-id="0c37b-172">Estimated days</span></span> | <span data-ttu-id="0c37b-173">完成活动所需的估计时间（以天为单位）。</span><span class="sxs-lookup"><span data-stu-id="0c37b-173">The estimated time (in days) that is required to complete the activity.</span></span> |
+| <span data-ttu-id="0c37b-174">实际天数</span><span class="sxs-lookup"><span data-stu-id="0c37b-174">Actual days</span></span> | <span data-ttu-id="0c37b-175">完成活动所需的实际时间（以天为单位）。</span><span class="sxs-lookup"><span data-stu-id="0c37b-175">The actual time (in days) that is required to complete the activity.</span></span> |
+| <span data-ttu-id="0c37b-176">备注</span><span class="sxs-lookup"><span data-stu-id="0c37b-176">Note</span></span> | <span data-ttu-id="0c37b-177">使用此字段可以添加有关活动的其他注释和详细信息。</span><span class="sxs-lookup"><span data-stu-id="0c37b-177">Use this field to add miscellaneous notes and details about the activity.</span></span> |
+
+## <a name="information-and-settings-on-the-general-tab"></a><span data-ttu-id="0c37b-178">常规选项卡上的信息和设置</span><span class="sxs-lookup"><span data-stu-id="0c37b-178">Information and settings on the General tab</span></span>
+
+<span data-ttu-id="0c37b-179">**常规** 选项卡显示有关在 **概览** 选项卡上选择的支线的信息。它会重复显示 **概览** 选项卡上的某些信息，也会包含有关所选支线的其他信息。</span><span class="sxs-lookup"><span data-stu-id="0c37b-179">The **General** tab shows information about the leg that is selected on the **Overview** tab. Although it repeats some of the information that appears on the **Overview** tab, it also includes additional information about the selected leg.</span></span>
