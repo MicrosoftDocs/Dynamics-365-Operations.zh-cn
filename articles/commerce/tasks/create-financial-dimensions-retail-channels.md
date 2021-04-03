@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86fc9c9a400bee1280b32f10b1e8f55e581e1984
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5250e93757560f4a0f76897e3dd1374d14ff5e60
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964737"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264252"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>创建零售渠道的财务维度并配置商店上的维度值
 

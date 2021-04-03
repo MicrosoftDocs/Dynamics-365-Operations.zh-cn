@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d91f377af2514af932ea585adb75a56bdee13871
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ec7417d44a7c2aa413a9cda75996c153727632dd
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988465"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592638"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>开始使用适用于墨西哥的电子开票附加产品
 
@@ -291,7 +291,7 @@ ms.locfileid: "4988465"
     ![查看取消提交日志详细信息](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>隐私声明
-启用 MX-00010 和 MX-00016（CFDI 发票和 CFDI 取消）功能可能要求发送有限的数据，其中包括组织税务登记 ID。 这将被传输到税务机构授权的第三方机构，以便以与政府的 Web 服务集成所需的预定义格式向该税务机构发送电子发票。 管理员可以通过导航到 **组织管理 \> 设置 \> 电子单据参数** 来启用和禁用 MX-00010 和 MX-00016（CFDI 发票和 CFDI 取消）功能。 选择 **功能** 选项卡，选择包含 MX-00010 和 MX-00016 功能的行，然后进行适当的选择。 从这些外部系统导入到此 Dynamics 365 在线服务的数据受我们的[隐私声明](https://go.microsoft.com/fwlink/?LinkId=512132)的约束。 有关详细信息，请查阅国家/地区特定功能文档中的“隐私声明”部分。
+启用 **CFDI 墨西哥电子发票 (MX)** 功能可能需要发送有限的数据，其中包括组织税务登记 ID。 这将被传输到税务机构授权的第三方机构，以便以与政府的 Web 服务集成所需的预定义格式向该税务机构发送电子发票。 管理员可以通过导航到 **组织管理 \> 设置 \> 电子单据参数** 来启用和禁用 **CFDI 墨西哥电子发票 (MX)** 功能。 选择 **功能** 选项卡，选择包含 **CFDI 墨西哥电子发票 (MX)** 功能的行，然后进行适当的选择。 从这些外部系统导入到此 Dynamics 365 在线服务的数据受我们的[隐私声明](https://go.microsoft.com/fwlink/?LinkId=512132)的约束。 有关详细信息，请查阅国家/地区特定功能文档中的“隐私声明”部分。
 
 ## <a name="additional-resources"></a>其他资源
 

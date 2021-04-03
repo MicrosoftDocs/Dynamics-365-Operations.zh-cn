@@ -17,12 +17,12 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f0a5bc4d5300b2715d76191e3e7fb2b83283ac9d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 650b9e25c38dd99597df6057bd93e37f3ce913aa
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009135"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257549"
 ---
 # <a name="display-debit-and-credit-amounts-in-ledger-accounts-for-china"></a>显示中国会计科目的借方和贷方金额
 

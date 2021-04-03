@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 136c3cdd391f6ff92d6760a17d89ddfeec8d45a1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a81f09122f3ae57af61d9fb585ed2ebec983893b
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683130"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568434"
 ---
 # <a name="analytical-workspaces"></a>分析工作区
 [!include[banner](../includes/banner.md)]

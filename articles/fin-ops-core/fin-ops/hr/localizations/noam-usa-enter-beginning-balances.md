@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 209636d6416a784d298bcfb134f5486c1f5cf202
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797776"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568537"
 ---
 # <a name="enter-payroll-beginning-balances"></a>输入工资期初余额
 

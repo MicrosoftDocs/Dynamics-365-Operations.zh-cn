@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1e53dbae2d139af554b1918102937f8c3579f64a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b3c839e7c75201ca61dceee43a058b391be56fcf
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682529"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568232"
 ---
 # <a name="optimization-advisor-overview"></a>优化顾问概览
 

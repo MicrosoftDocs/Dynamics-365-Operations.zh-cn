@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dfbe78f31082ad0b1272f02e3ae9d7adbd993b1
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 450420d44ad4aab233afc5a116369e993aa7a15b
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797718"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570606"
 ---
 # <a name="configure-parallel-activities-in-a-workflow"></a>配置工作流中的并行活动
 

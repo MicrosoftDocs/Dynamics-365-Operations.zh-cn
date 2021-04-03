@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 876aef9f3f470490bb385e1861c837dcfa82db69
-ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
+ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5131785"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500566"
 ---
 # <a name="creating-work-orders"></a>创建工作订单
 
@@ -62,8 +62,7 @@ ms.locfileid: "5131785"
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>对在维护计划运行时自动创建的工作订单行进行分组
 
-> [!IMPORTANT]
-> 本节中介绍的功能作为预览版的一部分提供。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅 [One Version 服务更新常见问题](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version)。
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 使用此功能，您可以根据维护计划，为在系统设置为自动生成工作订单时对单个工作订单下的工作订单行进行分组定义规则。 以前，自动生成的工作订单只能包含一行。 但是，现在您可以按资产、资产类型或功能位置等对工作订单进行分组。 （手动生成的工作订单可能已经通过这种方式完成了分组，如本主题上一节中所述。）
 

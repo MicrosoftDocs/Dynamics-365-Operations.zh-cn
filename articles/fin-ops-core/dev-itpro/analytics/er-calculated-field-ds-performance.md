@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 940b696a06fb46bcd0557f059327cd4340448137
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c63d64774b5b97a562da20655400078ed47c5675
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681272"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569217"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>通过添加参数化的计算字段数据源提高 ER 解决方案的性能
 

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea7543fddef085cfd1e92edf0b1dabf6d0aac38a
-ms.sourcegitcommit: 5264aaec3723c40a219e4d2867afe1ba9cc5f2a2
+ms.openlocfilehash: 80624e286fd1300b8de6fd8a7fc67c246cb3a41b
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5153631"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569627"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>配置依赖操作的 ER 目标
 

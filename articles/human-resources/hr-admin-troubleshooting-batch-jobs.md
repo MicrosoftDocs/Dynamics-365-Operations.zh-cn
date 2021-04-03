@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 219537aab2015469b6ca6ebed5c00af0190c5187
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 0b13853598bbdec239bce98029e534991a53876b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111664"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467209"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>通过将批处理作业安排到非营业时间优化性能
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 

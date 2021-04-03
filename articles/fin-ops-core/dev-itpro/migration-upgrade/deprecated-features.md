@@ -3,10 +3,9 @@ title: 先前版本中已删除或弃用的功能
 description: 此主题介绍从 Dynamics 365 for Finance and Operations 和早期版本中已经删除或曾经计划删除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 09/21/2020
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b862938ec8226cc963fb8c85fcfc2241684eab7
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: db276c693a729b919bc609bb4b94843bb11a8fe3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154377"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559322"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>先前版本中已删除或弃用的功能
 
@@ -39,7 +38,7 @@ ms.locfileid: "5154377"
 
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
-[技术参考报告](https://docs.microsoft.com/dynamics/s-e/)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+[技术参考报告](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
 
 ## <a name="finance-1007-with-platform-update-31"></a>带平台更新 31 的 Finance 10.0.7
 
@@ -379,7 +378,7 @@ ms.locfileid: "5154377"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **弃用/移除的原因** | Microsoft Power BI 中进行产品更新。 |
+| **弃用/移除的原因** | Microsoft Power BI 中进行了产品更新。 |
 | **被另一个功能取代？**   | [AppSource](https://appsource.microsoft.com) 站点上提供的 **成本管理**、**财务绩效** 和 **零售渠道绩效** 内容包将被分析应用程序替代，以便在数据库级别集成解决方案。 有关分析应用程序的详细信息，请参阅[工作区中的嵌入式 Power BI](../../dev-itpro/analytics/embed-power-bi-workspaces.md)。    |
 | **影响的产品区域**         | 成本管理、财务和零售                                                                                               |
 | **部署选项**              | 仅适用于云（在本地部署中不再支持与 PowerBI.com 集成）。                                                                                                            |
@@ -919,7 +918,7 @@ ICMS 税联邦报税单
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 此功能已被另一个功能取代。   |
-| **被另一个功能取代？**   | Microsoft Power BI 的监控财务业绩目录包将包括已经在 Business Analyzer 中可用的关键财务度量。 |
+| **被另一个功能取代？**   | Microsoft Power BI 的监控财务业绩内容包将包括已经在 Business Analyzer 中可用的关键财务度量。 |
 | **影响的产品区域**         | 总帐      |
 | **状态**                         | 已弃用：业务分析器的使用已被弃用。    |
 

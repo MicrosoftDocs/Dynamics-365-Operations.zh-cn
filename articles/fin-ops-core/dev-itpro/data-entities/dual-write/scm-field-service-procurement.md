@@ -6,7 +6,6 @@ manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c2b0d5be38425b5ceebb38b7964f5ec600b1c838
-ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
+ms.openlocfilehash: 79a971e3de43cb0161d4ac5012f657a947bc567c
+ms.sourcegitcommit: afbdc268bcdb1755d7f1bc79ad1b7fc801b2e2f5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141896"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579964"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>在 Supply Chain Management 和 Field Service 之间集成采购
 
@@ -47,8 +46,8 @@ Microsoft Dynamics 365 Supply Chain Management 提供强大的采购功能。 Dy
 
 ### <a name="prerequisites"></a>先决条件
 
-+ **双写入** – 有关详细信息，请参阅[双写入主页](dual-write-home-page.md#dual-write-setup)。
-+ **Dynamics 365 Field Service** – 有关详细信息，请参阅[如何安装 Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service)。
+- **双写入** – 有关详细信息，请参阅[双写入主页](dual-write-home-page.md#dual-write-setup)。
+- **Dynamics 365 Field Service** – 有关详细信息，请参阅[如何安装 Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service)。
 
 在 Microsoft Dataverse 中启用时，双写入和 Field Service 将引入几个解决方案层，它们通过新的元数据、窗体、视图和逻辑扩展环境。 这些解决方案可以按任何顺序启用，通常会按以下给定顺序安装：
 
@@ -57,8 +56,8 @@ Microsoft Dynamics 365 Supply Chain Management 提供强大的采购功能。 Dy
 3. **Supply Chain Management 扩展版** – Supply Chain Management 扩展版在环境中启用了双写入时自动安装。 
 4. **OneFSSCM 解决方案** – 无论最后安装的是哪个解决方案（Field Service 或 Supply Chain Management），都会自动安装 OneFSSCM。
 
-    + 如果环境中已经安装 Field Service，并且您启用了双写入（这会安装 Supply Chain Management 扩展版），将安装 OneFSSCM。
-    + 如果环境中已经安装 Supply Chain Management 扩展版，并且您安装了 Field Service，将安装 OneFSSCM。
+    - 如果环境中已经安装 Field Service，并且您启用了双写入（这会安装 Supply Chain Management 扩展版），将安装 OneFSSCM。
+    - 如果环境中已经安装 Supply Chain Management 扩展版，并且您安装了 Field Service，将安装 OneFSSCM。
 
 ## <a name="initial-synchronization"></a>初始同步
 
@@ -124,22 +123,22 @@ Field Service 中的采购订单依赖“帐户”表来跟踪供应商。 因�
 
 ## <a name="supported-scenarios"></a>支持的方案
 
-+ 采购订单可以由 Dataverse 用户创建和更新。 但是，流程和数据由 Supply Chain Management 控制。 对 Supply Chain Management 中采购订单列的更新的约束在更新来自 Field Service 时应用。 例如，如果采购订单已完成，则无法进行更新。 
-+ 如果采购订单由 Supply Chain Management 中的更改管理控制，Field Service 用户则只能在 Supply Chain Management 审核状态为 *草稿* 时更新采购订单。
-+ 有几列仅由 Supply Chain Management 管理，无法在 Field Service 中更新。 要了解哪些列无法更新，请查看产品中的映射表。 为了简单起见，这些列中的大多数在 Dataverse 页上都设置为只读。 
+- 采购订单可以由 Dataverse 用户创建和更新。 但是，流程和数据由 Supply Chain Management 控制。 对 Supply Chain Management 中采购订单列的更新的约束在更新来自 Field Service 时应用。 例如，如果采购订单已完成，则无法进行更新。 
+- 如果采购订单由 Supply Chain Management 中的更改管理控制，Field Service 用户则只能在 Supply Chain Management 审核状态为 *草稿* 时更新采购订单。
+- 有几列仅由 Supply Chain Management 管理，无法在 Field Service 中更新。 要了解哪些列无法更新，请查看产品中的映射表。 为了简单起见，这些列中的大多数在 Dataverse 页上都设置为只读。 
 
     例如，价格信息的列由 Supply Chain Management 管理。 Supply Chain Management 有可以使 Field Service 受益的贸易协议。 **单价**、**折扣** 和 **净额** 仅来自 Supply Chain Management。 为确保将价格同步到 Field Service，在输入采购订单数据后，应在 Dataverse  中的 **采购订单** 和 **采购订单产品** 页上使用 **同步** 功能。 有关详细信息，请参阅[按需与 Dynamics 365 Supply Chain Management 采购数据同步](#sync-procurement)。
 
-+ **总计** 列仅在 Field Service 中可用，因为 Supply Chain Management 中没有采购订单的最新总计。 Supply Chain Management 中的总计是根据 Field Service 中不可用的多个参数计算得出的。
-+ 仅指定了采购类别，或所指定产品是 *服务* 产品类型或 Field Service 产品类型的物料的采购订单行，只能在 Supply Chain Management 中启动。 这些行然后会同步到 Dataverse，并且在 Field Service 中可见。
-+ 如果仅安装了 Field Service，没有安装 Supply Chain Management，**仓库** 列在采购订单上则是强制的。 但是，如果安装了 Supply Chain Management，此要求会放宽，因为 Supply Chain Management 允许有某些情况下未指定仓库的采购订单行。
-+ 产品收据（Dataverse 中的采购订单收据）由 Supply Chain Management 管理，如果安装了Supply Chain Management，则无法从 Dataverse 创建。 Supply Chain Management 中的产品收据从 Supply Chain Management 同步到 Dataverse。
-+ Supply Chain Management 中允许欠交。 OneFSSCM 解决方案增加了逻辑，以在创建或更新产品收据行（或 Dataverse 中的采购订单收货产品）时，在 Dataverse 中创建库存日记帐行，以针对欠交的情况调整订单上的剩余数量。
+- **总计** 列仅在 Field Service 中可用，因为 Supply Chain Management 中没有采购订单的最新总计。 Supply Chain Management 中的总计是根据 Field Service 中不可用的多个参数计算得出的。
+- 仅指定了采购类别，或所指定产品是 *服务* 产品类型或 Field Service 产品类型的物料的采购订单行，只能在 Supply Chain Management 中启动。 这些行然后会同步到 Dataverse，并且在 Field Service 中可见。
+- 如果仅安装了 Field Service，没有安装 Supply Chain Management，**仓库** 列在采购订单上则是强制的。 但是，如果安装了 Supply Chain Management，此要求会放宽，因为 Supply Chain Management 允许有某些情况下未指定仓库的采购订单行。
+- 产品收据（Dataverse 中的采购订单收据）由 Supply Chain Management 管理，如果安装了Supply Chain Management，则无法从 Dataverse 创建。 Supply Chain Management 中的产品收据从 Supply Chain Management 同步到 Dataverse。
+- Supply Chain Management 中允许欠交。 OneFSSCM 解决方案增加了逻辑，以在创建或更新产品收据行（或 Dataverse 中的采购订单收货产品）时，在 Dataverse 中创建库存日记帐行，以针对欠交的情况调整订单上的剩余数量。
 
 ## <a name="unsupported-scenarios"></a>不支持的方案
 
-+ Field Service 阻止将行添加到 Supply Chain Management 中已取消的采购订单中。 解决方法是，可以在 Field Service 中更改采购订单的系统状态，然后在 Field Service 或 Supply Chain Management 中添加新行。
-+ 虽然采购行会影响两个系统中的库存级别，但是此集成不能确保库存跨 Supply Chain Management 和 Field Service 保持一致。 Field Service 和 Supply Chain Management 都有其他更新库存级别的流程。 这些流程在采购范围之外。
+- Field Service 阻止将行添加到 Supply Chain Management 中已取消的采购订单中。 解决方法是，可以在 Field Service 中更改采购订单的系统状态，然后在 Field Service 或 Supply Chain Management 中添加新行。
+- 虽然采购行会影响两个系统中的库存级别，但是此集成不能确保库存跨 Supply Chain Management 和 Field Service 保持一致。 Field Service 和 Supply Chain Management 都有其他更新库存级别的流程。 这些流程在采购范围之外。
 
 ## <a name="status-management"></a>状态管理
 
@@ -161,13 +160,13 @@ Field Service 中采购订单的状态与 Supply Chain Management 中的状态�
 
 以下规则将应用于状态列：
 
-+ Supply Chain Management 中的状态无法从 Field Service 更新。 但是，在有些情况下，当 Supply Chain Management 中的采购订单状态更改时，Field Service 中的状态将更新。
-+ 如果 Supply Chain Management 中的采购订单正在接受更改管理，并且更改正在处理中，审核状态将为 *草稿* 或 *正在审核*。 在这种情况下，Field Service 审核状态将设置为 *Null*。
-+ 如果 Supply Chain Management 中的采购订单审核状态设置为 *已审核*、*正在进行外部审核*、*已确认* 或 *完成*，Field Service 采购订单审核状态将设置为 *已审核*。
-+ 如果 Supply Chain Management 中的采购订单审核状态设置为 *已拒绝*，Field Service 采购订单审核状态将设置为 *已拒绝*。
-+ 如果 Supply Chain Management 中的单据标题状态更改为 *未结订单(欠交订单)*，Field Service 采购订单状态为 *草稿* 或 *已取消*，Field Service 采购订单状态将更改为 *已提交*。
-+ 如果 Supply Chain Management 中的单据标题状态更改为 *已取消*，并且未将 Field Service 中的采购订单收货产品与采购订单相关联（通过采购订单产品），Field Service 系统状态将设置为 *已取消*。
-+ 如果 Supply Chain Management 中的采购订单行状态为 *已取消*，Field Service 中的采购订单产品状态将设置为 *已取消*。 此外，如果 Supply Chain Management 中的采购订单行状态从 *已取消* 更改为 *欠交订单*，Field Service 中的采购订单产品物料状态将设置为 *待定*。
+- Supply Chain Management 中的状态无法从 Field Service 更新。 但是，在有些情况下，当 Supply Chain Management 中的采购订单状态更改时，Field Service 中的状态将更新。
+- 如果 Supply Chain Management 中的采购订单正在接受更改管理，并且更改正在处理中，审核状态将为 *草稿* 或 *正在审核*。 在这种情况下，Field Service 审核状态将设置为 *Null*。
+- 如果 Supply Chain Management 中的采购订单审核状态设置为 *已审核*、*正在进行外部审核*、*已确认* 或 *完成*，Field Service 采购订单审核状态将设置为 *已审核*。
+- 如果 Supply Chain Management 中的采购订单审核状态设置为 *已拒绝*，Field Service 采购订单审核状态将设置为 *已拒绝*。
+- 如果 Supply Chain Management 中的单据标题状态更改为 *未结订单(欠交订单)*，Field Service 采购订单状态为 *草稿* 或 *已取消*，Field Service 采购订单状态将更改为 *已提交*。
+- 如果 Supply Chain Management 中的单据标题状态更改为 *已取消*，并且未将 Field Service 中的采购订单收货产品与采购订单相关联（通过采购订单产品），Field Service 系统状态将设置为 *已取消*。
+- 如果 Supply Chain Management 中的采购订单行状态为 *已取消*，Field Service 中的采购订单产品状态将设置为 *已取消*。 此外，如果 Supply Chain Management 中的采购订单行状态从 *已取消* 更改为 *欠交订单*，Field Service 中的采购订单产品物料状态将设置为 *待定*。
 
 ## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a>按需与 Supply Chain Management 采购数据同步
 

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: China (PRC)
 ms.author: sericks
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1c56b7ca36c34a8cf915f03860c62a2cacd89902
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7202b220d7df6adc21c3dbb02d90b00925882f3c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685023"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565360"
 ---
 # <a name="support-for-finance-and-operations-operated-by-21vianet-in-china"></a>对 21Vianet 中国世纪互联运营的 Finance and Operations 的支持
 

@@ -3,7 +3,7 @@ title: 创建 Azure 存储帐户和密钥保管库
 description: 本主题说明如何创建 Azure 存储帐户和密钥保管库。
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 14463abe7782d786d286fcc619dee00ce85bb620
+ms.sourcegitcommit: 4adc57b0e43d9627dca70762ac941762ec4934e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104221"
+ms.lasthandoff: 02/22/2021
+ms.locfileid: "5479337"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>创建 Azure 存储帐户和密钥保管库
 
@@ -77,9 +77,12 @@ ms.locfileid: "5104221"
 
     ![授予证书权限](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
-9. 在 **主体** 对话框中，通过添加 **电子开票附加产品** 选择主体。
-10. 选择 **添加**，然后选择 **保存密钥保管库更改**。
-11. 在 **概览** 页上，复制密钥保管库的 **DNS 名称** 值。 此值将在 RCS 中的服务设置期间使用，将称为 *密钥保管库 URI*。
+9. 在 **选择主体** 字段中，选择 **未选择**。
+10. 在 **主体** 对话框中，通过添加 **电子开票服务** 选择主体。
+11. 选择 **添加**，然后选择 **保存密钥保管库更改**。
+12. 在 **概览** 页上，复制密钥保管库的 **DNS 名称** 值。 此值将在 RCS 中的服务设置期间使用，将称为 *密钥保管库 URI*。
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

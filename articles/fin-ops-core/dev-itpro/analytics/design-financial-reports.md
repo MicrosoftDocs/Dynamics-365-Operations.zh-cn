@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReportingSetup
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97895081293d9ee5a82a718e0644bebdaa0f2777
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 97ecc4daa05f4cbc10266d00366bf69e063af2ff
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686237"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564858"
 ---
 # <a name="view-and-design-financial-reports"></a>查看和设计财务报表
 

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35ade352edf31fe895a9b9118a8ad7d5fe6c0bde
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: bf77e488b60cc4c526398db494104c31b0f210b1
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798395"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570937"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>使用“在新窗口中打开”功能并排显示页面
 

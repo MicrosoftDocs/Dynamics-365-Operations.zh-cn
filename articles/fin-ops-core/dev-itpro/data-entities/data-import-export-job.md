@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4f019b856c9eb03d745442266677138b8d7a5f50
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684052"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570504"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>数据导入和导出作业概览
 

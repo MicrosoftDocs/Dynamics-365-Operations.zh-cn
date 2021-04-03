@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERVendorTable
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 835e35ef233ba5734e5a4d47f624629e95ae5b89
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 11ff1d531b0467cf75ec98b092fe6010f4fa95c0
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092052"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569779"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>创建配置提供程序并将其标记为有效
 

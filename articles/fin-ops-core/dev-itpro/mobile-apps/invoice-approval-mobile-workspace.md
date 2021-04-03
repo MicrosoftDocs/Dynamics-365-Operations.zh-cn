@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1a7aa1a03791b8ccb7050389097d1272f5930a49
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 3d90b89900b35bce648841aa9e49737a25309ce2
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5127561"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570061"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>发票审核移动工作区
 

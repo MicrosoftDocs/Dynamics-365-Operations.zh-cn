@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,14 +17,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: ebc9c1fbb7c0738af13b2a16aafeeb03fa6aaed0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d4d681b2362c90b69007ea44c01c886f96cc1db1
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683997"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568070"
 ---
-# <a name="in-house-assets-for-servicing"></a>需服务的内部资产
+# <a name="in-house-assets-for-servicing"></a>用于服务的内部资产
 
 [!include [banner](../../includes/banner.md)]
 

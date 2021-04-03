@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 79678c42545a07054af00cd408e04e9d1a42caed
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 5dc2f8b5195fb5210ca6399cbf744f210671f475
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5127537"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570066"
 ---
 # <a name="my-team-mobile-workspace"></a>我的团队移动工作区
 

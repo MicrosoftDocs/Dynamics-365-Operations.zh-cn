@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 33323a8aed44cf19db6c2c937abcb09f7e05b6c1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1c9246376505e163a4a41bf141a98deed0fd511f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993929"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263220"
 ---
 # <a name="troubleshoot-partial-releases-and-partial-shipments"></a>部分下达和部分装运疑难解答
 

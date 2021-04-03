@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 44288cc3979a0ac2ed6b4a8478aac21a85aca24e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 68c5114b8c1e2a2ac5d357ee9e75cc54c149f39d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684203"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564258"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>创建格式时选择数据模型定义
 

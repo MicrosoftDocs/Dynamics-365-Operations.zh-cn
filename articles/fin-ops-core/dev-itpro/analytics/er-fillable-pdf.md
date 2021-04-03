@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 04/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: de31469e79addfb82b3b57e647ff82e4d254881a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ac7f1c3fc0b03a42012ea14369eef554c6ea30f3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688117"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561774"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>设计 ER 配置以填写 PDF 模板
 

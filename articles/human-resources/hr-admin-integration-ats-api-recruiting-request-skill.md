@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83a9956b9aa820e8aca9bf6b2ab920a45c1061f6
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: b0e6f4d2a38b092eb8460c5f5f4b8b6d290533a8
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125994"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464662"
 ---
 # <a name="recruiting-request-skill"></a>招聘请求技能
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本主题介绍 Dynamics 365 Human Resources 的“招聘请求技能”实体。
 

@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ae5a14879a9e182f6f4604204f1cd6dd12576a3
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 4a2f53acaa65589c30546e31739abc38941eb795
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130101"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465430"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>维护员工伤害和疾病信息
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 

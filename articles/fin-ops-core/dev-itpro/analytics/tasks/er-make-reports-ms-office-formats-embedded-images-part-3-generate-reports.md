@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e15162251e5d6fa91c5a938fd846ef5b5c8cd7f
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 7ed0ab0042c98f063eb0ec2ab31c913d9385186c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093815"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569452"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>以 Office 格式生成包含嵌入图像的报表
 

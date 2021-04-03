@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesConflict, SysSecSegregationOfDutiesRule
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: deff97c7728db91089d3ea834d15de738da500fa
-ms.sourcegitcommit: 316200579dd5b04ad76f276a2ed6b0f55fa8c812
+ms.openlocfilehash: daf303a6bc3115363b27a6ebf7cc1832fdb6229d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "4826360"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5571021"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>确定和解决职责划分冲突
 

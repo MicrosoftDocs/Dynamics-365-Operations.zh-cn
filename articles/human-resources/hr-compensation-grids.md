@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13415f68f41555f3e86cbe699cf921e9a2cf6d5c
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: b7e68ec4d172ced7ac66837e9580971d22b23b5f
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111568"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465742"
 ---
 # <a name="set-up-compensation-grids"></a>设置薪酬网格
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 薪酬网格用于定义及维持固定薪酬计划的工资结构。 新建薪酬计划时薪酬网格可以在多个计划中共享或复制。  在创建薪酬网格之前，必须设置“级别”和“参考点”。 此示例将使用“级别”和“参考点”演示数据创建新的薪酬网格等级类型。 创建此程序的演示数据公司是 USMF。
 

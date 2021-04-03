@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 816f98660a5508ada203f49a71e0785548fb9a31
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 6dd39b3faba90b38b837cd5167b216f9faa31d82
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092192"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570208"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>ER 使用格式配置生成付款的电子单据
 

@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d9482a45cb8f2ea52e7f58d55e30cfe56694d04
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985946"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582711"
 ---
-# <a name="add-support-for-a-content-delivery-network-cdn"></a>添加对内容交付网络 (CDN) 的支持
-
+# <a name="add-support-for-a-content-delivery-network-cdn"></a>添加对内容分发网络 (CDN) 的支持
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何向 Microsoft Dynamics 365 Commerce 环境添加内容交付网络 (CDN)。
-
-## <a name="overview"></a>概览
 
 在 Dynamics 365 Commerce 中设置电子商务环境时，可将其配置为使用 CDN 服务。 
 
@@ -96,8 +93,8 @@ CDN 的设置过程通常包含下面的步骤：
 1. 在 **名称** 字段中，输入 **默认**。
 1. 在 **接受的协议** 字段中，选择 **HTTP 和 HTTPS**。
 1. 在 **前端主机** 字段中，输入 **dynamics-ecom-tenant-name.azurefd.net**。
-1. 在 **匹配模式** 下的上方字段中，输入 **/\** _。
-1. 在_*工艺路线详细信息**下，将 **工艺路线类型** 选项设置为 **正推**。
+1. 在 **匹配模式** 下的上方字段中，输入 **/\***。
+1. 在 **传递详细信息** 下，将 **传递类型** 设置为 **转发**。
 1. 在 **后端池** 字段中，选择 **ecom-backend**。
 1. 在 **转发协议** 字段组中，选择 **匹配请求** 选项。 
 1. 将 **URL 重写** 选项设置为 **禁用**。
@@ -109,8 +106,8 @@ CDN 的设置过程通常包含下面的步骤：
 1. 在 **名称** 字段中，输入 **统计信息**。
 1. 在 **接受的协议** 字段中，选择 **HTTP 和 HTTPS**。
 1. 在 **前端主机** 字段中，输入 **dynamics-ecom-tenant-name.azurefd.net**。
-1. 在 **匹配模式** 下的上方字段中，输入 **/\_msdyn365/\_scnr/\** _。
-1. 在_*工艺路线详细信息**下，将 **工艺路线类型** 选项设置为 **正推**。
+1. 在 **匹配模式** 下的上方字段中，输入 **/\_msdyn365/\_scnr/\***。
+1. 在 **传递详细信息** 下，将 **传递类型** 设置为 **转发**。
 1. 在 **后端池** 字段中，选择 **ecom-backend**。
 1. 在 **转发协议** 字段组中，选择 **匹配请求** 选项。
 1. 将 **URL 重写** 选项设置为 **禁用**。
@@ -143,25 +140,7 @@ CDN 的设置过程通常包含下面的步骤：
 
 ## <a name="additional-resources"></a>其他资源
 
-[配置域名](configure-your-domain-name.md)
-
-[部署新的电子商务租户](deploy-ecommerce-site.md)
-
-[创建电子商务站点](create-ecommerce-site.md)
-
-[将 Dynamics 365 Commerce 站点与在线渠道相关联](associate-site-online-store.md)
-
-[管理 robots.txt 文件](manage-robots-txt-files.md)
-
-[批量上传 URL 重定向](upload-bulk-redirects.md)
-
-[在 Commerce 中设置 B2C 租户](set-up-B2C-tenant.md)
-
-[设置用户登录自定义页面](custom-pages-user-logins.md)
-
-[在 Commerce 环境中配置多个 B2C 租户](configure-multi-B2C-tenants.md)
-
-[启用基于位置的商店检测](enable-store-detection.md)
+[内容交付网络实施选项](cdn-options.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

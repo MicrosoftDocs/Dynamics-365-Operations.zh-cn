@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f8ec45208ea86f4b1782eaeb1d14bb414e3b577f
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 3be09f6c469e90b153bff1d8a09b98f5a46b933a
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104301"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570889"
 ---
 # <a name="grid-capabilities"></a>网格功能
 

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a4741784103817c270c4c7f730753ba59a327d1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3b1b5ac8e256835332a4c53ed2872ee609253ad9
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682615"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568717"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>管理电子申报 (ER) 配置生命周期
 

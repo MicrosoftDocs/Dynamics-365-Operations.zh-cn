@@ -3,10 +3,9 @@ title: 规划组织层次结构
 description: 设置组织和组织层次结构之前，请确保了解如何以最好的方式为业务建模。
 author: sericks007
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 7bf683487a20203d49fbab680373fbf48a5c58b6
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154401"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569353"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>规划组织层次结构
 
@@ -166,7 +165,7 @@ ms.locfileid: "5154401"
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>如果以法人建模组织
 
-对于支持的国家/地区，可以创建大多数法定报表。 对于 ，有关每个国家/地区可用报表的信息，请参阅 [Microsoft Dynamics 本地化门户](https://docs.microsoft.com/dynamics/s-e/)。 （必须登录 CustomerSource。）
+对于支持的国家/地区，可以创建大多数法定报表。 
 
 > [!NOTE]
 > 总帐中的过帐层允许您对母公司进行条目调整，这里与子公司相比使用了不同的会计标准。 例如，对于使用英国通用会计制度 (UK GAAP) 的公司，您可以在过帐层中进行条目调整。 这些条目可以合并入使用美国通用会计制度 (GAAP) 的母公司。 调整条目不影响英国 GAAP 报表。

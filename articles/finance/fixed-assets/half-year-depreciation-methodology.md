@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 6ec4c3a0bd86e15ee015fc2e2c49c92b035243b6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cb027513da086d882942c4677892b15cf8e7b338
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009285"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260797"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>半年折旧惯例方法
 
