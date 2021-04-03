@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f93a68f19b0b952eb2964b404bb957865c625cd
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 53091f2e3c159f73f11b3dfcefd597f2c1494d19
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018038"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253078"
 ---
 # <a name="functional-locations-and-assets"></a>功能位置和资产
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b91da4679a23ba0a70c18e2bcae1b7f757f661ca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9374f4ae75d321d82a7c6e8be0770f766afef90e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969145"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257649"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>固定资产前滚报表
 

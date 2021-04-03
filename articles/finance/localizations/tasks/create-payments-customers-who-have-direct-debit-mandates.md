@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 934d086661dbbf1c7ba1d868f90caafe5b0bebf2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 65da5f9fe55d11e7ccfb9bd86f9b37181e0adf41
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964558"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260741"
 ---
 # <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a>为有直接借记授权单的客户创建付款
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c82e43beddb8bae0a56b0894ce484ca7605b42e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 87dfad2247c84f8e85074739cfff4a2d1b9f8567
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006708"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259689"
 ---
 # <a name="packing-slip-updates-for-returns"></a>退货的装箱单更新  
 

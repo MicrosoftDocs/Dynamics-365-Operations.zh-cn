@@ -16,12 +16,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1abc86aa5c3863eba34f726b543792408a542383
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: da8558f42bcd9daf95cacb17cebf4d9371dd514c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976358"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262854"
 ---
 # <a name="reconcile-a-bank-account"></a>银行帐户对帐
 

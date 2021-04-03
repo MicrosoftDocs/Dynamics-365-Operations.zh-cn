@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b2ec7130fbe8c397c30cdc2a76f34ecfdfdc0737
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 01b05b9df81d8d812d107a1c5b91ba368e9e737e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017910"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263630"
 ---
 # <a name="maintenance-checklists"></a>维护清单
 

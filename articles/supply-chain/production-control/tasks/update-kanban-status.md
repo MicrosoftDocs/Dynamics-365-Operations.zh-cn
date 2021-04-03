@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1161e642f8b3b1cd0a2568e0745caa6db5fe5afb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 055765452579b1de74f1c2158de9c6cb4ee80f16
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980980"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252814"
 ---
 # <a name="update-kanban-status"></a>更新看板状态
 

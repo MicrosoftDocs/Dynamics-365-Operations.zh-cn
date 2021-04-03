@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 5f327d1d0b38ad724da6a302cefc115262317812
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ddb6c614ede98e46e46ff284a1a16669bbaaaf66
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001691"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258039"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>按照产品变型的度量单位转换
 

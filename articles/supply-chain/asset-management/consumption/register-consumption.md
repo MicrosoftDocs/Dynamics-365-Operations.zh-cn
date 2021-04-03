@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ea1522f8a8e4867d8d70fea59b493d139a1b01ef
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 61aea0261a62df9c029b429f33ba7b357621988b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020772"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259978"
 ---
 # <a name="register-consumption"></a>登记消耗
 

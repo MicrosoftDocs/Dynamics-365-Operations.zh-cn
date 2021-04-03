@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c368e461860a41d0110f5aed79c2aac49c437d68
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5b64ababa618d58feb6095704e5978295060c96f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011392"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5261108"
 ---
 # <a name="create-an-intercompany-plan"></a>创建内部公司计划
 

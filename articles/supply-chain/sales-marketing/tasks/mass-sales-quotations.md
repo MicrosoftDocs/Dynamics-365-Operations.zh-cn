@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ea50500ed52069ab9f6aae0dfb2d6cffc47cbff
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f7aaa4e1fee12092be0389f0641e64712e869e6a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006832"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260351"
 ---
 # <a name="mass-create-sales-quotations"></a>成批创建销售报价单
 

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aab1b22b844ad14a94e1143f49b69f525d93f5b0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b9e370faed7feb0640959a9fcc4b608f18f9ffc1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985903"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263938"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>调整基于 AI-ML 的产品建议结果
 

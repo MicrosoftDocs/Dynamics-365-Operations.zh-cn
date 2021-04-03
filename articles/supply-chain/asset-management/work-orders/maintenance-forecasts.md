@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c60834a1f818b142a0f2f022d66fe1f42edeb536
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: b5cf1a634ef5ab60707cf471ef017ec167e3013f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020853"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263654"
 ---
 # <a name="maintenance-forecasts"></a>维护预测
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3a15d1f4ecbf85e22bfadc1dd680d24bc56d807f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6a4ad70a87cd8c6cab2e9853f4f6c52f574d318a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007533"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257404"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>为预定义的产品变型创建产品编号命名法
 

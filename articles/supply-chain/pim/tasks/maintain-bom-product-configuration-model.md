@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 267ac5447d36f63094fdb57c0d450e4d79cf138b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 12eb2d8fcdae5d60efa19e5443a01ab9bd104267
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966847"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258795"
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a>维护产品配置模型的物料清单
 

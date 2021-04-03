@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4eadbdc452a5b7d28adfa0f102a9a727faad3c07
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 678bfae5d0b4ea469a91fc89306be40c39cb082d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016695"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223426"
 ---
 # <a name="work-orders-and-fixed-assets"></a>工作订单和固定资产
 

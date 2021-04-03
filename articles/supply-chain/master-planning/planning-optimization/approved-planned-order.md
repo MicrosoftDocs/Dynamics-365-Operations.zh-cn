@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: c29ede7ad8916a97b4a04b68f41961f79810e0c8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8745a461986c1f16f2b3f9fd23011701d104a30c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983561"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264010"
 ---
 # <a name="approve-planned-orders"></a>审核计划订单
 

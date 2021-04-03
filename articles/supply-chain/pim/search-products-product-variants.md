@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6ff95b9e16d1a56dee13f67d0a3355f09cfc60b9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 38d6a95d1923d179dad9f532db980a12e397ccb1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987171"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262253"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>在输入订单时搜索产品和产品变型
 

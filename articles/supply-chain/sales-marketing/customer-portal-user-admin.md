@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0fd390e5e0054ff301c18c2507c600f954e6ce89
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b63ebae10f23a27115313acb6381fa176e64fbd6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996768"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5261061"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>创建和管理客户门户用户
 

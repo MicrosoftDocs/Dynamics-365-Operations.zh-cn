@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa2f64026ec20a7b7562aac084866b69c5769029
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5ad96fb987b7694547527c38cdd982c59f9b50a8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006958"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255557"
 ---
 # <a name="material-substitution-in-manufacturing"></a>生产中的物料替换
 

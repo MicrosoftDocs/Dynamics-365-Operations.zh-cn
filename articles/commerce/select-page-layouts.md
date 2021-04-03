@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d0f5037c40afdbb8af1d01af8de965ddb3b17a3a
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 22c5d0cba477ea7f254c3dfd74810cc248d39afe
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097068"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254737"
 ---
 # <a name="select-page-layouts"></a>选择页面布局
 

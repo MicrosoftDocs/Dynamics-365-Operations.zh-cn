@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3aa87f5594be079144142296cac977b0bfdd125e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 7a9b235ecedf3399c79ee081a9fe7e2423045fa5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022575"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260050"
 ---
 # <a name="calculate-capacity-load"></a>计算产能负荷
 

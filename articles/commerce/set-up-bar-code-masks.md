@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5432741e7cdc21054d02bd24591deb307d096229
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bc66b9d6586650dc7b1477ac02260a480d46596
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969793"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264568"
 ---
 # <a name="set-up-bar-code-masks"></a>设置条码掩码
 

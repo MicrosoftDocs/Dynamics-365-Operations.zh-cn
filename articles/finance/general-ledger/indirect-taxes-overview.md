@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 91ec6e1610c472d9c16020e4a7c38705059f0331
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 37ab8a92af77151b7d0ce7fd9ff625064736ccd2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988786"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249039"
 ---
 # <a name="sales-tax-overview"></a>销售税概览
 

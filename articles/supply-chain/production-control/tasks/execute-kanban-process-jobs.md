@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9da49ae17d6c25166f6b0e05e3c45fc991c9a54d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 10f8a464207fc3b1c34638a9f55df7b53a69b357
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994146"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259786"
 ---
 # <a name="execute-kanban-process-jobs"></a>执行看板处理作业
 

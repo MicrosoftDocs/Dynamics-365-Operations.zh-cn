@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 1977dac4a3ab66cca2248dc0124d3a06d6963f40
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2de75962f5b8a71c8f7138289078b5c669ae1daa
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978756"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250570"
 ---
 # <a name="enable-cash-flow-forecasting-preview"></a>启用现金流预测（预览）
 

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60ffd74363056babdd9d50df5be93d3ae466d860
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a8d62dbcd0e9aee55486f6e46a30a3cc0d3bf327
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011714"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262397"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>具有实际成本和标记的加权平均
 

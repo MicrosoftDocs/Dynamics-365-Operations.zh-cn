@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1d32d94daef570e37a1a36d948fe18cd4041e46
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 617b5d99973e630cca2973227c2e54a63bd1ec4d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966147"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263292"
 ---
 # <a name="process-rebates-for-payment"></a>处理付款返利
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70c0a6c82e0227319c4e95ad7b60a97c7b03401a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0a7d39b65644a5673987dc12c34b42c72813412b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010489"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258771"
 ---
 # <a name="service-management-overview"></a>服务管理概览
 

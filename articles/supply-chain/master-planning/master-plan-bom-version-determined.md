@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a90a257debe8f24e149ddca1738d8376b2124012
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d6f1f1656f0ef04799b1ce6b397dac0f829e41c9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966972"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251929"
 ---
 # <a name="determine-the-bom-version"></a>确定物料清单版本
 

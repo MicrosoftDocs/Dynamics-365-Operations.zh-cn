@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: riluan
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6a6fc2b4fe4245a1fe5b5a7eaafe8cc7fd337ab9
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: f752e6c42653d7ac39e011e71d0d31f936996499
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020746"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260519"
 ---
 # <a name="import-vendor-catalogs"></a>导入供应商目录
 

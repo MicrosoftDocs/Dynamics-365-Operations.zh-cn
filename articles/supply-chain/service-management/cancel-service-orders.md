@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b60feec05e923c25e0f0bacb28b510906d5f73cd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a253a9c9ae4d7c34403db9bb5f3d63bc77e11101
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974677"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259666"
 ---
 # <a name="cancel-service-orders"></a>取消服务订单   
 

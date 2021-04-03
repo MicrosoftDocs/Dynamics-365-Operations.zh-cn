@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d04e2650f9c601d008ebf19080059b70416d7917
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 222e8ad79b30e5197f7140958309d442b284f286
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000601"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263172"
 ---
 # <a name="pickup-information-module"></a>提货信息模块
 

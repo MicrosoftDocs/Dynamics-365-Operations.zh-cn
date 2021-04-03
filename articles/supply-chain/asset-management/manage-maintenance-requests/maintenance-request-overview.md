@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e0071ae745987a1217525b2841e3320933a9242
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d81fed34c1eb9ff0347c67086ceb08c038d8eb08
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019621"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253366"
 ---
 # <a name="maintenance-requests"></a>维护请求
 

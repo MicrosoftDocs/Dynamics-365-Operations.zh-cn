@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 285e9d2d184a899f1ffa502d59a853ba83cda491
-ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
+ms.openlocfilehash: ca0a7233004522de2af7281416169f0393feeb11
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5118673"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260639"
 ---
 # <a name="product-dimensions"></a>产品维度
 

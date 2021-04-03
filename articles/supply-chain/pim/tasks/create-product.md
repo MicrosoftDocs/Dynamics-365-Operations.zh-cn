@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4f5a8ddf546a5c7c3f041b044b5d75f93c5675df
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 90b5d086e2a1bdcd2d915f084a96b329e42b0210
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992261"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258843"
 ---
 # <a name="create-a-product"></a>创建产品
 

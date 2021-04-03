@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9b84aaef5348d2cb6bdd6d35e7e26bca9a4e0f6b
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.openlocfilehash: b1d2aa12e77080b530847bfdbde4dbe3a67431c3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014525"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258891"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Dynamics 365 Supply Chain Management 10.0.15 新增功能或更改（2021 年 1 月）
 
