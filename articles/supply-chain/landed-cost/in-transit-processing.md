@@ -1,0 +1,147 @@
+---
+title: 在途货物处理
+description: 本主题介绍如何处理在途货物订单。 将订单或航行设置为使用在途货物处理时，可以在在仓库中接收货物以供使用之前对货物开票。
+author: sherry-zheng
+manager: tfehr
+ms.date: 01/13/2021
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: DeliveryTerms, InventLocation, InventPosting, ITMGoodsInTransitOrder, ITMTableListPage, ITMTable, ITMContainersListPage, ITMContainers, ITMFolioTableListPage, ITMFolioTable, ITMGoodsInTransitOrderEditLines, SysOperationTemplateForm, WHSRFMenuItem, WHSLocDirTable, WHSWorkTemplateTable
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: chuzheng
+ms.search.validFrom: 2021-01-13
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 77e30f8679c9422e895432c023997b5ff4768ebd
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500396"
+---
+# <a name="goods-in-transit-processing"></a><span data-ttu-id="a21c1-104">在途货物处理</span><span class="sxs-lookup"><span data-stu-id="a21c1-104">Goods-in-transit processing</span></span>
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
+<span data-ttu-id="a21c1-105">本主题介绍如何处理在途货物订单。</span><span class="sxs-lookup"><span data-stu-id="a21c1-105">This topic describes how to work with goods-in-transit orders.</span></span> <span data-ttu-id="a21c1-106">此订单类型仅由 **登陆成本** 模块使用。</span><span class="sxs-lookup"><span data-stu-id="a21c1-106">This type of order is used only by the **Landed cost** module.</span></span> <span data-ttu-id="a21c1-107">将订单或航行设置为使用在途货物处理时，您不必等到仓库中接收货物即可为货物开票。</span><span class="sxs-lookup"><span data-stu-id="a21c1-107">When an order or voyage is set up to use goods-in-transit processing, you don't have to wait until goods are received in the warehouse before you can invoice them.</span></span> <span data-ttu-id="a21c1-108">而是在货物离开供应商的仓库或始发港口时开票，财务成本在航行开始时确认。</span><span class="sxs-lookup"><span data-stu-id="a21c1-108">Instead, the goods are invoiced when they leave the vendor's warehouse or port of origin, and the financial costs are recognized when the voyage begins.</span></span> <span data-ttu-id="a21c1-109">此功能让您可以正确地获取库存的所有权，因为货物在离开装运港口时通常会成为组织的财产。</span><span class="sxs-lookup"><span data-stu-id="a21c1-109">This functionality lets you correctly take ownership of inventory, because goods often become the property of your organization when they leave the shipping port.</span></span>
+
+<span data-ttu-id="a21c1-110">使用在途货物订单时，财务上更新的物料将在称为在途货物仓库的临时仓库中接收。</span><span class="sxs-lookup"><span data-stu-id="a21c1-110">When goods-in-transit orders are used, the financially updated items are received in an interim warehouse that is known as a goods-in-transit warehouse.</span></span> <span data-ttu-id="a21c1-111">然后，货物留在此仓库中，直到可以在最终目标仓库（即在采购订单行中定义的仓库）接收货物。</span><span class="sxs-lookup"><span data-stu-id="a21c1-111">The goods then stay in this warehouse until they can be received at the final destination warehouse (that is, the warehouse that is defined on the purchase line).</span></span> <span data-ttu-id="a21c1-112">不能手动删除它们。</span><span class="sxs-lookup"><span data-stu-id="a21c1-112">They can't be manually removed.</span></span>
+
+<span data-ttu-id="a21c1-113">只要物料在运输中，它们在库存中就不可用，也无法从库存中领取以进行交货。</span><span class="sxs-lookup"><span data-stu-id="a21c1-113">As long as the items are in transit, they aren't available in inventory and can't be picked from inventory for a delivery.</span></span> <span data-ttu-id="a21c1-114">不过，您可以查看在途货物库存。</span><span class="sxs-lookup"><span data-stu-id="a21c1-114">However, you can view the goods-in-transit inventory.</span></span> <span data-ttu-id="a21c1-115">还可将货物用于主计划。</span><span class="sxs-lookup"><span data-stu-id="a21c1-115">You can also use the goods for master planning.</span></span> <span data-ttu-id="a21c1-116">在这种情况下，请使用采购订单行上已确认的交货日期作为库存可供使用的预期日期。</span><span class="sxs-lookup"><span data-stu-id="a21c1-116">In this case, use the confirmed delivery date on the purchase order line as the expected date when the inventory will be available for consumption.</span></span>
+
+<span data-ttu-id="a21c1-117">以下各节介绍使用在途货物的概念和功能处理库存和航行所需的设置。</span><span class="sxs-lookup"><span data-stu-id="a21c1-117">The following sections describe the setup that is required to process inventory and voyages by using the goods-in-transit concept and functionality.</span></span>
+
+## <a name="terms-of-delivery"></a><span data-ttu-id="a21c1-118">交货条款</span><span class="sxs-lookup"><span data-stu-id="a21c1-118">Terms of delivery</span></span>
+
+<span data-ttu-id="a21c1-119">启用 **登陆成本** 模块时，标准 *交货条款* 实体将增强，以支持在途货物功能。</span><span class="sxs-lookup"><span data-stu-id="a21c1-119">When you enable the **Landed cost** module, the standard *terms of delivery* entity is enhanced to support the goods-in-transit feature.</span></span>
+
+<span data-ttu-id="a21c1-120">将适用的交货条款记录的 **在途货物管理** 选项设置为 *是* 时，货物将放入在途货物仓库。</span><span class="sxs-lookup"><span data-stu-id="a21c1-120">When the **Goods in transit management** option is set to *Yes* for the applicable terms of delivery record, the goods are put into the goods-in-transit warehouse.</span></span> <span data-ttu-id="a21c1-121">仅当在处理发票之前未处理库存收货时，才触发此操作。</span><span class="sxs-lookup"><span data-stu-id="a21c1-121">This action is triggered only if the inventory receipt isn't processed before an invoice is processed.</span></span> <span data-ttu-id="a21c1-122">当订单的交货条款设置为使用在途货物时，用户无法再过帐采购订单的产品收货。</span><span class="sxs-lookup"><span data-stu-id="a21c1-122">When the delivery terms for an order are set to use goods in transit, users can no longer post a product receipt for the purchase order.</span></span> <span data-ttu-id="a21c1-123">如果他们尝试，将发生错误。</span><span class="sxs-lookup"><span data-stu-id="a21c1-123">If they try, an error occurs.</span></span> <span data-ttu-id="a21c1-124">错误消息会指示他们必须使用在途货物功能才能继续。</span><span class="sxs-lookup"><span data-stu-id="a21c1-124">The error message states that they must use the goods-in-transit functionality to proceed.</span></span>
+
+<span data-ttu-id="a21c1-125">要处理在途货物的交货条款信息，请转到 **采购 \> 设置 \> 分配 \> 交货条款**。</span><span class="sxs-lookup"><span data-stu-id="a21c1-125">To work with delivery terms information for goods in transit, go to **Procurement and Sourcing \> Setup \> Distribution \> Terms of delivery**.</span></span> <span data-ttu-id="a21c1-126">下表描述了 **登陆成本** 模块添加到 **交货条款** 页以支持在途货物功能的字段。</span><span class="sxs-lookup"><span data-stu-id="a21c1-126">The following table describes the fields that the **Landed cost** module adds to the **Terms of delivery** page to support the goods-in-transit functionality.</span></span> <span data-ttu-id="a21c1-127">这两个字段都在 **常规** 快速选项卡上。</span><span class="sxs-lookup"><span data-stu-id="a21c1-127">Both fields are on the **General** FastTab.</span></span> <span data-ttu-id="a21c1-128">有关此页其他字段的详细信息，请参阅[交货条款（窗体）](https://technet.microsoft.com/library/aa575567.aspx)。</span><span class="sxs-lookup"><span data-stu-id="a21c1-128">For more information about the other fields on this page, see [Terms of delivery (form)](https://technet.microsoft.com/library/aa575567.aspx).</span></span>
+
+| <span data-ttu-id="a21c1-129">字段</span><span class="sxs-lookup"><span data-stu-id="a21c1-129">Field</span></span> | <span data-ttu-id="a21c1-130">说明</span><span class="sxs-lookup"><span data-stu-id="a21c1-130">Description</span></span> |
+|---|---|
+| <span data-ttu-id="a21c1-131">装运港口是必填项</span><span class="sxs-lookup"><span data-stu-id="a21c1-131">Shipping port mandatory</span></span> | <span data-ttu-id="a21c1-132">如果在交货条款适用时必须有装运港口，则将此选项设置为 *是*。</span><span class="sxs-lookup"><span data-stu-id="a21c1-132">Set this option to *Yes* if a shipping port is mandatory when the delivery terms apply.</span></span> |
+| <span data-ttu-id="a21c1-133">在途货物管理</span><span class="sxs-lookup"><span data-stu-id="a21c1-133">Goods in transit management</span></span> | <span data-ttu-id="a21c1-134">交货条款适用时，将此选项设置为 *是* 以使用在途货物管理。</span><span class="sxs-lookup"><span data-stu-id="a21c1-134">Set this option to *Yes* to use goods-in-transit management when the delivery terms apply.</span></span> |
+
+## <a name="warehouses-for-goods-in-transit-and-under-delivery"></a><span data-ttu-id="a21c1-135">在途货物和欠交仓库</span><span class="sxs-lookup"><span data-stu-id="a21c1-135">Warehouses for goods in transit and under-delivery</span></span>
+
+<span data-ttu-id="a21c1-136">启用 **登陆成本** 模块时，标准 *仓库* 实体将增强，以支持在在途货物仓库中对采购订单开票。</span><span class="sxs-lookup"><span data-stu-id="a21c1-136">When you enable the **Landed cost** module, the standard *warehouses* entity is enhanced to enable purchase orders to be invoiced while the goods are in a goods-in-transit warehouse.</span></span>
+
+<span data-ttu-id="a21c1-137">登陆成本增加了两个新的仓库类型：*在途货物* 和 *欠交*。</span><span class="sxs-lookup"><span data-stu-id="a21c1-137">Landed cost adds two new types of warehouse: *goods in transit* and *under-delivery*.</span></span> <span data-ttu-id="a21c1-138">这两个类型的仓库都可以被选择作为默认仓库。</span><span class="sxs-lookup"><span data-stu-id="a21c1-138">Warehouses of both types can be selected as default warehouses.</span></span> <span data-ttu-id="a21c1-139">要成功处理在途货物订单，需要在 **仓库** 页上同时配置在途货物仓库和欠交仓库。</span><span class="sxs-lookup"><span data-stu-id="a21c1-139">Successful processing of goods-in-transit orders requires that both the goods-in-transit warehouse and the under-delivery warehouse be configured on the **Warehouses** page.</span></span> <span data-ttu-id="a21c1-140">然后，对于将用于登陆成本和在途货物的每个默认仓库，必须为每个类型的可用仓库选择在途货物仓库和欠交仓库。</span><span class="sxs-lookup"><span data-stu-id="a21c1-140">Then, for each default warehouse that will be used with Landed cost and goods in transit, the goods-in-transit warehouse and under-delivery warehouse must be selected for the available warehouses of each type.</span></span>
+
+<span data-ttu-id="a21c1-141">*在途货物* 仓库类型将与您的在途货物仓库关联，该仓库将用于处理在途货物订单中的货物，直到在最终目标仓库接收货物为止。</span><span class="sxs-lookup"><span data-stu-id="a21c1-141">The *goods in transit* warehouse type will be associated with your goods-in-transit warehouse, and that warehouse will be used to process the goods on goods-in-transit orders before they are received at the final destination warehouse.</span></span> <span data-ttu-id="a21c1-142">通常，如果站点和仓库是用于库存管理的唯一库存维度，每个站点一个在途货物仓库就足够了。</span><span class="sxs-lookup"><span data-stu-id="a21c1-142">In general, one goods-in-transit warehouse is enough for each site if Site and Warehouse are the only inventory dimensions that are used for inventory management.</span></span> <span data-ttu-id="a21c1-143">如果还使用位置库存维度，则必须为站点和仓库的每个组合设置在途货物仓库，以还可以指定默认位置。</span><span class="sxs-lookup"><span data-stu-id="a21c1-143">If the Location inventory dimension is also used, a goods-in-transit warehouse must be set up for each combination of a site and warehouse, so that the default location can also be specified.</span></span>
+
+<span data-ttu-id="a21c1-144">要使用仓库的在途货物设置，请转到 **库存管理 \> 设置 \> 库存明细 \> 仓库**。</span><span class="sxs-lookup"><span data-stu-id="a21c1-144">To work with goods-in-transit settings for your warehouses, go to **Inventory management \> Setup \> Inventory breakdown \> Warehouses**.</span></span> <span data-ttu-id="a21c1-145">下表描述了 **登陆成本** 模块添加到 **仓库** 页以支持在途货物功能的字段。</span><span class="sxs-lookup"><span data-stu-id="a21c1-145">The following table describes the fields that the **Landed cost** module adds to the **Warehouses** page to support the goods-in-transit functionality.</span></span> <span data-ttu-id="a21c1-146">这两个字段都会出现在 **常规** 快速选项卡上。</span><span class="sxs-lookup"><span data-stu-id="a21c1-146">Both fields appear on the **General** FastTab.</span></span> <span data-ttu-id="a21c1-147">有关页面上其它字段的详细信息，请参阅[仓库（窗体）](https://technet.microsoft.com/library/aa620570.aspx)。</span><span class="sxs-lookup"><span data-stu-id="a21c1-147">For information about the other fields on the page, see [Warehouses (form)](https://technet.microsoft.com/library/aa620570.aspx).</span></span>
+
+| <span data-ttu-id="a21c1-148">字段</span><span class="sxs-lookup"><span data-stu-id="a21c1-148">Field</span></span> | <span data-ttu-id="a21c1-149">说明</span><span class="sxs-lookup"><span data-stu-id="a21c1-149">Description</span></span> |
+|---|---|
+| <span data-ttu-id="a21c1-150">在途货物仓库</span><span class="sxs-lookup"><span data-stu-id="a21c1-150">Goods in transit warehouse</span></span> | <span data-ttu-id="a21c1-151">确定与主仓库相关的在途货物仓库。</span><span class="sxs-lookup"><span data-stu-id="a21c1-151">Identify the goods-in-transit warehouse that is related to the main warehouse.</span></span> |
+| <span data-ttu-id="a21c1-152">欠交仓库</span><span class="sxs-lookup"><span data-stu-id="a21c1-152">Under delivery warehouse</span></span> | <span data-ttu-id="a21c1-153">确定与主仓库相关的欠交仓库。</span><span class="sxs-lookup"><span data-stu-id="a21c1-153">Identify the under-delivery warehouse that is related to the main warehouse.</span></span> |
+
+## <a name="posting-rules-for-landed-cost"></a><span data-ttu-id="a21c1-154">登陆成本的过帐规则</span><span class="sxs-lookup"><span data-stu-id="a21c1-154">Posting rules for landed cost</span></span>
+
+<span data-ttu-id="a21c1-155">登陆成本增加了两个您可以配置的新过帐规则。</span><span class="sxs-lookup"><span data-stu-id="a21c1-155">Landed cost adds two new posting rules that you can configure.</span></span> <span data-ttu-id="a21c1-156">这些过帐规则用于财务上过帐直接采购订单发票金额，以在货物离开起始点时确定货物的所有权。</span><span class="sxs-lookup"><span data-stu-id="a21c1-156">These posting rules are used to financially post the direct purchase order invoice amounts to identify ownership of the goods when they leave the point of origin.</span></span> <span data-ttu-id="a21c1-157">此流程代替了 *收货未开票* 概念，因为货物在接收之前已经开票。</span><span class="sxs-lookup"><span data-stu-id="a21c1-157">This process replaces the concept of *goods received not invoiced*, because the goods are invoiced before they are received.</span></span> <!-- KFM: Add a link to the related scenario when available. -->
+
+<span data-ttu-id="a21c1-158">要使用过帐模板，请转到 **库存管理 \> 设置 \> 过帐 \> 过帐**。</span><span class="sxs-lookup"><span data-stu-id="a21c1-158">To work with posting profiles, go to **Inventory management \> Setup \> Posting \> Posting**.</span></span> <span data-ttu-id="a21c1-159">在 **采购订单** 选项卡上，以下新过帐规则可用：</span><span class="sxs-lookup"><span data-stu-id="a21c1-159">On the **Purchase Order** tab, the following new posting rules are available:</span></span>
+
+- <span data-ttu-id="a21c1-160">**登陆成本，在途货物** – 指定在途货物管理的过帐规则。</span><span class="sxs-lookup"><span data-stu-id="a21c1-160">**Landed cost, goods in transit** – Specify the posting rules for goods-in-transit management.</span></span>
+- <span data-ttu-id="a21c1-161">**登陆成本，成本费用应计** – 指定费用帐户应计的过帐规则。</span><span class="sxs-lookup"><span data-stu-id="a21c1-161">**Landed cost, cost charge accrual** – Specify the posting rules for charge account accrual.</span></span>
+
+## <a name="goods-in-transit-orders"></a><span data-ttu-id="a21c1-162">在途货物订单</span><span class="sxs-lookup"><span data-stu-id="a21c1-162">Goods-in-transit orders</span></span>
+
+<span data-ttu-id="a21c1-163">您可以直接在 **登陆成本** 模块中查看和管理在途货物订单。</span><span class="sxs-lookup"><span data-stu-id="a21c1-163">You can review and manage goods-in-transit orders directly in the **Landed cost** module.</span></span> <span data-ttu-id="a21c1-164">您可以直接从 **在途货物订单** 页处理在途货物订单。</span><span class="sxs-lookup"><span data-stu-id="a21c1-164">You can process goods-in-transit orders directly from the **Goods in transit orders** page.</span></span> <span data-ttu-id="a21c1-165">或者，您可以转到与在途货物订单关联的航行，处理整个航行、装运集装箱或帐页。</span><span class="sxs-lookup"><span data-stu-id="a21c1-165">Alternatively, you can go to the voyage that is associated with the goods-in-transit orders, and process the whole voyage, shipping container, or folio.</span></span> <span data-ttu-id="a21c1-166">当您为航行开票以及创建在途货物订单时，将为库存和与采购订单行相关联的库存维度的每个组合创建新的在途货物订单。</span><span class="sxs-lookup"><span data-stu-id="a21c1-166">When you invoice a voyage and create goods-in-transit orders, a new goods-in-transit order is created for each combination of inventory and inventory dimensions that is associated with the purchase order line.</span></span>
+
+<span data-ttu-id="a21c1-167">为管理在途货物，登陆成本使用一个两步过程：</span><span class="sxs-lookup"><span data-stu-id="a21c1-167">To manage goods in transit, Landed cost uses a two-step procedure:</span></span>
+
+1. <span data-ttu-id="a21c1-168">物料在存货发票被处理并被分配了状态 *在途* 时接收。</span><span class="sxs-lookup"><span data-stu-id="a21c1-168">An item is received when a stock invoice is processed and assigned a status of *In transit*.</span></span>
+1. <span data-ttu-id="a21c1-169">在途货物订单在 **在途货物订单** 页上处理，然后在采购订单上指定的仓库中接收。</span><span class="sxs-lookup"><span data-stu-id="a21c1-169">The goods-in-transit order is processed on the **Goods in transit orders** page and then received in the warehouse that is specified on the purchase order.</span></span> <span data-ttu-id="a21c1-170">此时，状态将更改为 *已接收*。</span><span class="sxs-lookup"><span data-stu-id="a21c1-170">At that point, the status is changed to *Received*.</span></span>
+
+<span data-ttu-id="a21c1-171">要处理在途货物订单，请转到 **登陆成本 \> 定期任务 \> 在途货物订单**。</span><span class="sxs-lookup"><span data-stu-id="a21c1-171">To work with goods-in-transit orders, go to **Landed cost \> Periodic tasks \> Goods in transit orders**.</span></span>
+
+## <a name="receiving-stock-from-the-goods-in-transit-warehouse"></a><span data-ttu-id="a21c1-172">从在途仓库接收存货</span><span class="sxs-lookup"><span data-stu-id="a21c1-172">Receiving stock from the goods-in-transit warehouse</span></span>
+
+<span data-ttu-id="a21c1-173">您可以通过很多方式从在途货物订单接收货物，具体取决于系统的设置。</span><span class="sxs-lookup"><span data-stu-id="a21c1-173">You can receive goods from a goods-in-transit order in many ways, depending on the setup of your system.</span></span>
+
+### <a name="in-transit-receiving"></a><span data-ttu-id="a21c1-174">在途接收</span><span class="sxs-lookup"><span data-stu-id="a21c1-174">In-transit receiving</span></span>
+
+<span data-ttu-id="a21c1-175">您可以从以下任意页面进行在途接收：</span><span class="sxs-lookup"><span data-stu-id="a21c1-175">You can do in-transit receiving from any of the following pages:</span></span>
+
+- <span data-ttu-id="a21c1-176">在 **在途货物订单** 页上，选择行，然后在操作窗格上，选择 **接收**。</span><span class="sxs-lookup"><span data-stu-id="a21c1-176">On the **Goods in transit orders** page, select the line, and then, on the Action Pane, select **Receive**.</span></span>
+- <span data-ttu-id="a21c1-177">在 **所有航行** 页上，选择或打开一个航行。</span><span class="sxs-lookup"><span data-stu-id="a21c1-177">On the **All voyages** page, select or open a voyage.</span></span> <span data-ttu-id="a21c1-178">然后，在操作窗格上的 **管理** 选项卡上，在 **在途货物** 组中，选择 **接收在途**。</span><span class="sxs-lookup"><span data-stu-id="a21c1-178">Then, on the Action Pane, on the **Manage** tab, in the **Goods in transit** group, select **Receive goods in transit**.</span></span>
+- <span data-ttu-id="a21c1-179">在 **所有装运集装箱** 页上，选择或打开一个装运集装箱。</span><span class="sxs-lookup"><span data-stu-id="a21c1-179">On the **All shipping containers** page, select or open a shipping container.</span></span> <span data-ttu-id="a21c1-180">然后，在操作窗格上的 **管理** 选项卡上，在 **在途货物** 组中，选择 **接收在途**。</span><span class="sxs-lookup"><span data-stu-id="a21c1-180">Then, on the Action Pane, on the **Manage** tab, in the **Goods in transit** group, select **Receive goods in transit**.</span></span>
+- <span data-ttu-id="a21c1-181">在 **所有帐页** 页上，选择或打开一个帐页。</span><span class="sxs-lookup"><span data-stu-id="a21c1-181">On the **All folios** page, select or open a folio.</span></span> <span data-ttu-id="a21c1-182">然后，在操作窗格上的 **管理** 选项卡上，在 **在途货物** 组中，选择 **接收在途**。</span><span class="sxs-lookup"><span data-stu-id="a21c1-182">Then, on the Action Pane, on the **Manage** tab, in the **Goods in transit** group, select **Receive goods in transit**.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="a21c1-183">在途接收通常用于不使用位置和批处理/序列跟踪的情况。</span><span class="sxs-lookup"><span data-stu-id="a21c1-183">In-transit receiving is generally used in situations where locations and batch/serial tracking aren't used.</span></span>
+
+### <a name="arrival-journal"></a><span data-ttu-id="a21c1-184">到达日记帐</span><span class="sxs-lookup"><span data-stu-id="a21c1-184">Arrival journal</span></span>
+
+<span data-ttu-id="a21c1-185">您还可以通过创建到达日记帐来接收货物。</span><span class="sxs-lookup"><span data-stu-id="a21c1-185">You can also receive goods by creating an arrival journal.</span></span> <span data-ttu-id="a21c1-186">您可以直接从航行页创建到达日记帐。</span><span class="sxs-lookup"><span data-stu-id="a21c1-186">You can create an arrival journal directly from the voyage page.</span></span> <span data-ttu-id="a21c1-187">您的组织已建立的最佳实践将确定是否使用到达日记帐接收货物。</span><span class="sxs-lookup"><span data-stu-id="a21c1-187">The best practices that your organization has established determine whether the arrival journal is used to receive goods.</span></span>
+
+1. <span data-ttu-id="a21c1-188">打开航行、集装箱或帐页。</span><span class="sxs-lookup"><span data-stu-id="a21c1-188">Open the voyage, container, or folio.</span></span>
+1. <span data-ttu-id="a21c1-189">在操作窗格上的 **管理** 选项卡上，在 **功能** 组中，选择 **创建到达日记帐**。</span><span class="sxs-lookup"><span data-stu-id="a21c1-189">On the Action Pane, on the **Manage** tab, in the **Functions** group, select **Create arrival journal**.</span></span>
+1. <span data-ttu-id="a21c1-190">在 **创建到达日记帐** 对话框中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="a21c1-190">In the **Create arrival journal** dialog box, set the following values:</span></span>
+    - <span data-ttu-id="a21c1-191">**初始化数量** – 将此选项设置为 *是* 将从在途数量设置数量。</span><span class="sxs-lookup"><span data-stu-id="a21c1-191">**Initialize quantity** – Set this option to *Yes* to set the quantity from the in-transit quantity.</span></span> <span data-ttu-id="a21c1-192">如果此选项设置为 *否*，不从在途行设置默认数量。</span><span class="sxs-lookup"><span data-stu-id="a21c1-192">If this option is set to *No*, no default quantity is set from the goods-in-transit lines.</span></span>
+    - <span data-ttu-id="a21c1-193">**从在途货物创建** - 将此选项设置为 *是* 将从选定航行、集装箱或帐页的所选在途行获取数量。</span><span class="sxs-lookup"><span data-stu-id="a21c1-193">**Create from goods in transit** - Set this option to *Yes* to take quantities from the selected in-transit lines for the selected voyage, container, or folio.</span></span>
+    - <span data-ttu-id="a21c1-194">**从订单行创建** – 将此选项设置为 *是* 将从采购订单行设置到达日记帐中的默认数量。</span><span class="sxs-lookup"><span data-stu-id="a21c1-194">**Create from order lines** – Set this option to *Yes* to set the default quantity in the arrival journal from the purchase order lines.</span></span> <span data-ttu-id="a21c1-195">仅当采购订单行上的数量与在途货物订单上的数量匹配时，才可以通过这种方式设置到达日记帐中的默认数量。</span><span class="sxs-lookup"><span data-stu-id="a21c1-195">The default quantity in the arrival journal can be set in this way only if the quantity on the purchase order line matches the quantity on the goods-in-transit order.</span></span>
+
+1. <span data-ttu-id="a21c1-196">按照[在物料到达日记帐中登记物料接收信息](https://technet.microsoft.com/library/aa571129.aspx)中所述处理到达日记帐。</span><span class="sxs-lookup"><span data-stu-id="a21c1-196">Process the arrival journal as described in [Register item receipts with an item arrival journal](https://technet.microsoft.com/library/aa571129.aspx).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="a21c1-197">通常在使用位置和批处理/序列跟踪但不使用仓库管理的情况下使用到达日记帐。</span><span class="sxs-lookup"><span data-stu-id="a21c1-197">The arrival journal is generally used in situations where locations and batch/serial tracking are used, but warehouse management isn't used.</span></span>
+>
+> <span data-ttu-id="a21c1-198">如果将在到达日记帐中指定储存位置，则不应在订单行上指定默认接收位置。</span><span class="sxs-lookup"><span data-stu-id="a21c1-198">Default receipt locations should not be specified on the order lines if a putaway location will be specified in the arrival journal.</span></span>
+
+## <a name="warehouse-management"></a><span data-ttu-id="a21c1-199">仓库管理</span><span class="sxs-lookup"><span data-stu-id="a21c1-199">Warehouse management</span></span>
+
+<span data-ttu-id="a21c1-200">启用 **登陆成本** 模块时，将修改 **仓库管理** 模块中的若干页面，以可以通过 **登陆成本** 模块进行订单处理（特别是在途货物处理）。</span><span class="sxs-lookup"><span data-stu-id="a21c1-200">When you enable the **Landed cost** module, several pages in the **Warehouse management** module are modified so that order processing (specifically, goods-in-transit processing) can be done through the **Landed cost** module.</span></span> <span data-ttu-id="a21c1-201">本节概述了在 **仓库管理** 模块中添加的字段和流程。</span><span class="sxs-lookup"><span data-stu-id="a21c1-201">This section outlines the fields and processes that are added in the **Warehouse management** module.</span></span>
+
+### <a name="mobile-device-menu-items"></a><span data-ttu-id="a21c1-202">移动设备菜单项</span><span class="sxs-lookup"><span data-stu-id="a21c1-202">Mobile device menu items</span></span>
+
+<span data-ttu-id="a21c1-203">货物可以使用移动设备接收，前提是已经将移动设备菜单和 **仓库管理** 模块设置为接收在途货物订单上的货物。</span><span class="sxs-lookup"><span data-stu-id="a21c1-203">Goods can be received by using a mobile device, provided that the mobile device menu and **Warehouse management** module have been set up to receive goods on a goods-in-transit order.</span></span> <span data-ttu-id="a21c1-204">本节介绍与在途接收关联的设置。</span><span class="sxs-lookup"><span data-stu-id="a21c1-204">This section describes the setup that is associated with goods-in-transit receiving.</span></span>
+
+<span data-ttu-id="a21c1-205">要设置移动设备以进行在途货物处理，请转到 **仓库管理 \> 设置 \> 移动设备 \> 移动设备菜单项**。</span><span class="sxs-lookup"><span data-stu-id="a21c1-205">To set up mobile devices for goods-in-transit processing, go to **Warehouse management \> Setup \> Mobile device \> Mobile device menu items**.</span></span>
+
+<span data-ttu-id="a21c1-206">登陆成本将以下工作创建流程添加到移动设备菜单项中，来支持在途货物处理：</span><span class="sxs-lookup"><span data-stu-id="a21c1-206">Landed cost adds the following work creation processes to the mobile device menu items to support goods-in-transit processing:</span></span>
+
+- <span data-ttu-id="a21c1-207">在途货物物料接收</span><span class="sxs-lookup"><span data-stu-id="a21c1-207">Goods in transit item receiving</span></span>
+- <span data-ttu-id="a21c1-208">在途货物物料接收和储存</span><span class="sxs-lookup"><span data-stu-id="a21c1-208">Goods in transit item receiving and putaway</span></span>
+
+<span data-ttu-id="a21c1-209">这些流程的配置设置类似于[采购订单行收货和储存工作创建流程](https://technet.microsoft.com/library/dn553216.aspx)的设置。</span><span class="sxs-lookup"><span data-stu-id="a21c1-209">The configuration settings for these processes resemble the settings for the [purchase order receive and putaway work creation processes](https://technet.microsoft.com/library/dn553216.aspx).</span></span> <span data-ttu-id="a21c1-210">但是，*在途货物物料接收和储存* 流程还添加了以下字段。</span><span class="sxs-lookup"><span data-stu-id="a21c1-210">However, the *Goods in transit item receiving and putaway* process also adds the following field.</span></span>
+
+- <span data-ttu-id="a21c1-211">**启用装运集装箱完整** – 如果此选项设置为 *是*，储存工作完成后，仓库应用将提供一个名为 **装运集装箱完整** 的额外选项。</span><span class="sxs-lookup"><span data-stu-id="a21c1-211">**Enable shipping container complete** – If this option is set to *Yes*, when the putaway work is completed, the warehouse app will provide an additional option that is named **Shipping container complete**.</span></span> <span data-ttu-id="a21c1-212">选择该选项时，将要求工作人员确认集装箱完整。</span><span class="sxs-lookup"><span data-stu-id="a21c1-212">When that option is selected, the worker will be asked to confirm that the container is complete.</span></span> <span data-ttu-id="a21c1-213">这时，所有欠收都将被处理为交易不足。</span><span class="sxs-lookup"><span data-stu-id="a21c1-213">At that point, all short receipts will be processed as an under transaction.</span></span>
+
+### <a name="location-directives"></a><span data-ttu-id="a21c1-214">位置指令</span><span class="sxs-lookup"><span data-stu-id="a21c1-214">Location directives</span></span>
+
+<span data-ttu-id="a21c1-215">登陆成本在 **位置指令** 页增加了一个名为 *在途货物* 的新工作订单类型。</span><span class="sxs-lookup"><span data-stu-id="a21c1-215">Landed cost adds a new work order type that is named *Goods in transit* to the **Location directives** page.</span></span> <span data-ttu-id="a21c1-216">此工作订单类型的配置方式应与[采购订单工作订单类型](https://technet.microsoft.com/library/dn553184.aspx)的配置方式相同。</span><span class="sxs-lookup"><span data-stu-id="a21c1-216">This work order type should be configured in the same manner as the [purchase order work order types](https://technet.microsoft.com/library/dn553184.aspx).</span></span>
+
+### <a name="work-templates"></a><span data-ttu-id="a21c1-217">工作模板</span><span class="sxs-lookup"><span data-stu-id="a21c1-217">Work templates</span></span>
+
+<span data-ttu-id="a21c1-218">登陆成本在 **工作模板** 页增加了一个名为 *在途货物* 的新工作订单类型。</span><span class="sxs-lookup"><span data-stu-id="a21c1-218">Landed cost adds a new work order type that is named *Goods in transit* to the **Work templates** page.</span></span> <span data-ttu-id="a21c1-219">此工作订单类型的配置方式应与[采购订单工作模板](https://technet.microsoft.com/library/dn553184.aspx)的配置方式相同。</span><span class="sxs-lookup"><span data-stu-id="a21c1-219">This work order type should be configured in the same manner as the [purchase order work templates](https://technet.microsoft.com/library/dn553184.aspx).</span></span>
+

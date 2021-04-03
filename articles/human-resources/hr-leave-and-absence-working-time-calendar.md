@@ -18,60 +18,65 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ccf7901ebbea655b7f795a48944c6f03f9cf210a
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: ecabac54134629074ac01944963a037c2cdc63c9
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115094"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467161"
 ---
-# <a name="create-a-working-time-calendar"></a><span data-ttu-id="8b407-103">创建工作时间日历</span><span class="sxs-lookup"><span data-stu-id="8b407-103">Create a working time calendar</span></span>
+# <a name="create-a-working-time-calendar"></a><span data-ttu-id="56a23-103">创建工作时间日历</span><span class="sxs-lookup"><span data-stu-id="56a23-103">Create a working time calendar</span></span>
 
-<span data-ttu-id="8b407-104">Dynamics 365 Human Resources 中的工作时间日历显示员工在您的组织中工作的天数和时数。</span><span class="sxs-lookup"><span data-stu-id="8b407-104">A working time calendar in Dynamics 365 Human Resources shows the days and hours that employees work in your organization.</span></span> <span data-ttu-id="8b407-105">当员工提交休息时间请求时，他们不必担心假日和歇业的影响。</span><span class="sxs-lookup"><span data-stu-id="8b407-105">When an employee submits a time-off request, they don't have to worry about holidays and closures.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="8b407-106">要简化休息时间请求，请为您的组织配置以下项目：</span><span class="sxs-lookup"><span data-stu-id="8b407-106">To streamline time-off requests, configure these items for your organization:</span></span>
+<span data-ttu-id="56a23-104">Dynamics 365 Human Resources 中的工作时间日历显示员工在您的组织中工作的天数和时数。</span><span class="sxs-lookup"><span data-stu-id="56a23-104">A working time calendar in Dynamics 365 Human Resources shows the days and hours that employees work in your organization.</span></span> <span data-ttu-id="56a23-105">当员工提交休息时间请求时，他们不必担心假日和歇业的影响。</span><span class="sxs-lookup"><span data-stu-id="56a23-105">When an employee submits a time-off request, they don't have to worry about holidays and closures.</span></span>
 
-- <span data-ttu-id="8b407-107">工作时间日历</span><span class="sxs-lookup"><span data-stu-id="8b407-107">Working time calendar</span></span>
-- <span data-ttu-id="8b407-108">假日和歇业</span><span class="sxs-lookup"><span data-stu-id="8b407-108">Holidays and closures</span></span>
-- <span data-ttu-id="8b407-109">非工作时间</span><span class="sxs-lookup"><span data-stu-id="8b407-109">Non-work time</span></span>
+<span data-ttu-id="56a23-106">要简化休息时间请求，请为您的组织配置以下项目：</span><span class="sxs-lookup"><span data-stu-id="56a23-106">To streamline time-off requests, configure these items for your organization:</span></span>
 
-<span data-ttu-id="8b407-110">您可以在设置工作时间日历时添加最后两个项目。</span><span class="sxs-lookup"><span data-stu-id="8b407-110">You can add the last two items while you're setting up a working time calendar.</span></span> <span data-ttu-id="8b407-111">您还可以单独配置或更新它们。</span><span class="sxs-lookup"><span data-stu-id="8b407-111">You can also configure or update them separately.</span></span>
+- <span data-ttu-id="56a23-107">工作时间日历</span><span class="sxs-lookup"><span data-stu-id="56a23-107">Working time calendar</span></span>
+- <span data-ttu-id="56a23-108">假日和歇业</span><span class="sxs-lookup"><span data-stu-id="56a23-108">Holidays and closures</span></span>
+- <span data-ttu-id="56a23-109">非工作时间</span><span class="sxs-lookup"><span data-stu-id="56a23-109">Non-work time</span></span>
 
-## <a name="set-up-a-working-time-calendar"></a><span data-ttu-id="8b407-112">设置工作日历</span><span class="sxs-lookup"><span data-stu-id="8b407-112">Set up a working time calendar</span></span>
+<span data-ttu-id="56a23-110">您可以在设置工作时间日历时添加最后两个项目。</span><span class="sxs-lookup"><span data-stu-id="56a23-110">You can add the last two items while you're setting up a working time calendar.</span></span> <span data-ttu-id="56a23-111">您还可以单独配置或更新它们。</span><span class="sxs-lookup"><span data-stu-id="56a23-111">You can also configure or update them separately.</span></span>
 
-<span data-ttu-id="8b407-113">设置至少一个工作时间日历，以显示您的工作天数和时数。</span><span class="sxs-lookup"><span data-stu-id="8b407-113">Set up at least one working time calendar that shows your days and hours of operation.</span></span> <span data-ttu-id="8b407-114">如果您在多个国家和地区设有分点，您可能需要为每个区域设置工作时间日历。</span><span class="sxs-lookup"><span data-stu-id="8b407-114">If you have locations in multiple countries and regions, you might want to set up a working time calendar for each area.</span></span>
+## <a name="set-up-a-working-time-calendar"></a><span data-ttu-id="56a23-112">设置工作日历</span><span class="sxs-lookup"><span data-stu-id="56a23-112">Set up a working time calendar</span></span>
 
-1. <span data-ttu-id="8b407-115">在 **组织管理** 页面上，选择 **日历**。</span><span class="sxs-lookup"><span data-stu-id="8b407-115">On the **Organization administration** page, select **Calendars**.</span></span>
+<span data-ttu-id="56a23-113">设置至少一个工作时间日历，以显示您的工作天数和时数。</span><span class="sxs-lookup"><span data-stu-id="56a23-113">Set up at least one working time calendar that shows your days and hours of operation.</span></span> <span data-ttu-id="56a23-114">如果您在多个国家和地区设有分点，您可能需要为每个区域设置工作时间日历。</span><span class="sxs-lookup"><span data-stu-id="56a23-114">If you have locations in multiple countries and regions, you might want to set up a working time calendar for each area.</span></span>
 
-2. <span data-ttu-id="8b407-116">选择 **新建**，然后为日历输入名称和说明。</span><span class="sxs-lookup"><span data-stu-id="8b407-116">Select **New** and enter a name and description for your calendar.</span></span>
+1. <span data-ttu-id="56a23-115">在 **组织管理** 页面上，选择 **日历**。</span><span class="sxs-lookup"><span data-stu-id="56a23-115">On the **Organization administration** page, select **Calendars**.</span></span>
 
-3. <span data-ttu-id="8b407-117">在 **生成选项** 下，为您的组织选择工作日，然后输入工作时间。</span><span class="sxs-lookup"><span data-stu-id="8b407-117">Under **Generation options**, select the work days for your organization and enter work times.</span></span> 
-   - <span data-ttu-id="8b407-118">要添加假日和歇业，请选择 **假日和歇业** 旁边的 **添加** 按钮。</span><span class="sxs-lookup"><span data-stu-id="8b407-118">To add a holiday or closure, select the **Add** button next to **Holidays and closures**.</span></span>
-   - <span data-ttu-id="8b407-119">要添加非工作时间（例如午餐或工间休息），请选择 **非工作时间** 下的 **添加** 并输入名称和时间范围。</span><span class="sxs-lookup"><span data-stu-id="8b407-119">To add non-work time, like lunches or breaks, select **Add** under **NON-WORK TIME** and enter the name and time range.</span></span>
+2. <span data-ttu-id="56a23-116">选择 **新建**，然后为日历输入名称和说明。</span><span class="sxs-lookup"><span data-stu-id="56a23-116">Select **New** and enter a name and description for your calendar.</span></span>
 
-4. <span data-ttu-id="8b407-120">在 **天数** 下，选择 **生成** 以生成日历中包含的天数。</span><span class="sxs-lookup"><span data-stu-id="8b407-120">Under **Days**, select **Generate** to generate the days in your calendar.</span></span> <span data-ttu-id="8b407-121">为日历输入日期范围，然后选择 **生成日**。</span><span class="sxs-lookup"><span data-stu-id="8b407-121">Enter the date range for your calendar and then select **Generate days**.</span></span>
+3. <span data-ttu-id="56a23-117">在 **生成选项** 下，为您的组织选择工作日，然后输入工作时间。</span><span class="sxs-lookup"><span data-stu-id="56a23-117">Under **Generation options**, select the work days for your organization and enter work times.</span></span> 
+   - <span data-ttu-id="56a23-118">要添加假日和歇业，请选择 **假日和歇业** 旁边的 **添加** 按钮。</span><span class="sxs-lookup"><span data-stu-id="56a23-118">To add a holiday or closure, select the **Add** button next to **Holidays and closures**.</span></span>
+   - <span data-ttu-id="56a23-119">要添加非工作时间（例如午餐或工间休息），请选择 **非工作时间** 下的 **添加** 并输入名称和时间范围。</span><span class="sxs-lookup"><span data-stu-id="56a23-119">To add non-work time, like lunches or breaks, select **Add** under **NON-WORK TIME** and enter the name and time range.</span></span>
 
-5. <span data-ttu-id="8b407-122">要添加工作计划，在 **工作计划** 下，选择 **添加**，然后输入每个工作计划的时间。</span><span class="sxs-lookup"><span data-stu-id="8b407-122">To add work schedules, under **Work schedule**, select **Add** and then enter the times for each work schedule.</span></span>
+4. <span data-ttu-id="56a23-120">在 **天数** 下，选择 **生成** 以生成日历中包含的天数。</span><span class="sxs-lookup"><span data-stu-id="56a23-120">Under **Days**, select **Generate** to generate the days in your calendar.</span></span> <span data-ttu-id="56a23-121">为日历输入日期范围，然后选择 **生成日**。</span><span class="sxs-lookup"><span data-stu-id="56a23-121">Enter the date range for your calendar and then select **Generate days**.</span></span>
 
-## <a name="configure-holidays-and-closures"></a><span data-ttu-id="8b407-123">配置假日和歇业</span><span class="sxs-lookup"><span data-stu-id="8b407-123">Configure holidays and closures</span></span>
+5. <span data-ttu-id="56a23-122">要添加工作计划，在 **工作计划** 下，选择 **添加**，然后输入每个工作计划的时间。</span><span class="sxs-lookup"><span data-stu-id="56a23-122">To add work schedules, under **Work schedule**, select **Add** and then enter the times for each work schedule.</span></span>
 
-<span data-ttu-id="8b407-124">您可以从工作时间日历单独添加或更改假日和歇业。</span><span class="sxs-lookup"><span data-stu-id="8b407-124">You can add or change holidays and closures separately from a working time calendar.</span></span>
+## <a name="configure-holidays-and-closures"></a><span data-ttu-id="56a23-123">配置假日和歇业</span><span class="sxs-lookup"><span data-stu-id="56a23-123">Configure holidays and closures</span></span>
 
-1. <span data-ttu-id="8b407-125">在 **组织管理** 页面上，选择 **假日和歇业**。</span><span class="sxs-lookup"><span data-stu-id="8b407-125">On the **Organization administration** page, select **Holidays and closures**.</span></span>
+<span data-ttu-id="56a23-124">您可以从工作时间日历单独添加或更改假日和歇业。</span><span class="sxs-lookup"><span data-stu-id="56a23-124">You can add or change holidays and closures separately from a working time calendar.</span></span>
 
-2. <span data-ttu-id="8b407-126">选择 **新建**，然后为假日和歇业输入名称和日期。</span><span class="sxs-lookup"><span data-stu-id="8b407-126">Select **New** and enter a name and date for the holiday or closure.</span></span>
+1. <span data-ttu-id="56a23-125">在 **组织管理** 页面上，选择 **假日和歇业**。</span><span class="sxs-lookup"><span data-stu-id="56a23-125">On the **Organization administration** page, select **Holidays and closures**.</span></span>
 
-## <a name="configure-non-work-time"></a><span data-ttu-id="8b407-127">配置非工作时间</span><span class="sxs-lookup"><span data-stu-id="8b407-127">Configure non-work time</span></span>
+2. <span data-ttu-id="56a23-126">选择 **新建**，然后为假日和歇业输入名称和日期。</span><span class="sxs-lookup"><span data-stu-id="56a23-126">Select **New** and enter a name and date for the holiday or closure.</span></span>
 
-<span data-ttu-id="8b407-128">您可以从工作时间日历单独添加或更改非工作时间。</span><span class="sxs-lookup"><span data-stu-id="8b407-128">You can add or change non-work times separately from a working time calendar.</span></span>
+## <a name="configure-non-work-time"></a><span data-ttu-id="56a23-127">配置非工作时间</span><span class="sxs-lookup"><span data-stu-id="56a23-127">Configure non-work time</span></span>
 
-1. <span data-ttu-id="8b407-129">在 **组织管理** 页面上，选择 **非工作时间**。</span><span class="sxs-lookup"><span data-stu-id="8b407-129">On the **Organization administration** page, select **Non-work time**.</span></span>
+<span data-ttu-id="56a23-128">您可以从工作时间日历单独添加或更改非工作时间。</span><span class="sxs-lookup"><span data-stu-id="56a23-128">You can add or change non-work times separately from a working time calendar.</span></span>
 
-2. <span data-ttu-id="8b407-130">选择 **新建**，然后为非工作时间输入名称和时间范围。</span><span class="sxs-lookup"><span data-stu-id="8b407-130">Select **New** and enter a name and time range for the non-work time.</span></span>
+1. <span data-ttu-id="56a23-129">在 **组织管理** 页面上，选择 **非工作时间**。</span><span class="sxs-lookup"><span data-stu-id="56a23-129">On the **Organization administration** page, select **Non-work time**.</span></span>
 
-<span data-ttu-id="8b407-131">如果已启用“休假和缺勤银行假日更正”预览功能，Human Resources 将使用假日和歇业日期来确定要为日历中登记的员工调整的天数。</span><span class="sxs-lookup"><span data-stu-id="8b407-131">If you've enabled the Leave and absence bank holiday corrections preview feature, Human Resources uses holidays and closure dates to determine the number of days to adjust for employees enrolled in the calendar.</span></span>
+2. <span data-ttu-id="56a23-130">选择 **新建**，然后为非工作时间输入名称和时间范围。</span><span class="sxs-lookup"><span data-stu-id="56a23-130">Select **New** and enter a name and time range for the non-work time.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="8b407-132">请参阅</span><span class="sxs-lookup"><span data-stu-id="8b407-132">See also</span></span>
+<span data-ttu-id="56a23-131">如果已启用“休假和缺勤银行假日更正”预览功能，Human Resources 将使用假日和歇业日期来确定要为日历中登记的员工调整的天数。</span><span class="sxs-lookup"><span data-stu-id="56a23-131">If you've enabled the Leave and absence bank holiday corrections preview feature, Human Resources uses holidays and closure dates to determine the number of days to adjust for employees enrolled in the calendar.</span></span>
 
-- [<span data-ttu-id="8b407-133">休假和缺勤概览</span><span class="sxs-lookup"><span data-stu-id="8b407-133">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
-- [<span data-ttu-id="8b407-134">配置休假和缺勤类型</span><span class="sxs-lookup"><span data-stu-id="8b407-134">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
+## <a name="see-also"></a><span data-ttu-id="56a23-132">请参阅</span><span class="sxs-lookup"><span data-stu-id="56a23-132">See also</span></span>
+
+- [<span data-ttu-id="56a23-133">休假和缺勤概览</span><span class="sxs-lookup"><span data-stu-id="56a23-133">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="56a23-134">配置休假和缺勤类型</span><span class="sxs-lookup"><span data-stu-id="56a23-134">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
