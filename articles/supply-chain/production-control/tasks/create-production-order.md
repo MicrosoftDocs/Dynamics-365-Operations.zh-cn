@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81caa6693d86c797d8565270094556ae4e103e6a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: dec447302da3a3bbca7d9c3e783af54bc77dfe70
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998670"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259810"
 ---
 # <a name="create-a-production-order"></a>创建生产订单
 

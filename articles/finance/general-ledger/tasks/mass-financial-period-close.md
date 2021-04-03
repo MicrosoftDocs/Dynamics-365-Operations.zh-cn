@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 598c28c2fb3dd6a13f96df81189b46c4e228da7a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4db0f68a22f9129041c7a7c081f397c34c2b07eb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968721"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254431"
 ---
 # <a name="mass-financial-period-close"></a>批量财务期间结帐
 

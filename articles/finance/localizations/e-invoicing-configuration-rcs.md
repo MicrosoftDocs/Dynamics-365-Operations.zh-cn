@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bb4a426bb54ee21197f9954d946d60ea55f5eb76
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104351"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592614"
 ---
 # <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>在 Regulatory Configuration Services (RCS) 中配置电子开票附加产品
 
@@ -64,7 +64,6 @@ ms.locfileid: "5104351"
 | 比利时        | 比利时电子发票 (BE)      | 销售发票和项目发票 |
 | 巴西         | 巴西 NF-e (BR)                  | 会计单据模型 55，更正单、取消和弃用 |
 | 巴西         | 巴西 NFS-e ABRASF 库里蒂巴 (BR) | 服务会计单据 |
-| 巴西         | 巴西 NFS-e 圣保罗 (BR)       | 服务会计单据 |
 | 丹麦        | 丹麦电子发票 (DK)       | 销售发票和项目发票 |
 | 埃及          | 埃及电子发票 (EG) | 销售发票和项目发票 |
 | 爱沙尼亚        | 爱沙尼亚电子发票 (EE)     | 销售发票和项目发票 |
@@ -119,10 +118,6 @@ ms.locfileid: "5104351"
 
 - NFS-e ABRASF 库里蒂巴 (BR)
 - NFS-e ABRASF 查询库里蒂巴 (BR)
-
-#### <a name="brazilian-br-nfs-e-nfs-e-so-paulo-city"></a>巴西 (BR) NFS-e：NFS-e 圣保罗市
-
-- NFS-e 圣保罗 (BR)
 
 #### <a name="danish-dk-electronic-invoice-sales-and-project-invoices-for-denmark"></a>丹麦 (DK) 电子发票：丹麦的销售和项目发票
 
@@ -210,7 +205,7 @@ ms.locfileid: "5104351"
 | 调用巴西 SEFAZ 服务                  | 与巴西 SEFAZ 服务集成以提交会计单据。       | 预览模式           |
 | 调用墨西哥 PAC 服务                      | 与墨西哥 PAC 服务集成以提交 CFDI。                      | 预览模式           |
 | 处理响应                              | 分析从 Web 服务调用收到的响应。                     | 正式发布  |
-| 使用 MS Power Automate                         | 与 Microsoft Power Automate 内生成的流集成。                       | 预览模式           |
+| 使用 MS Power Automate                         | 与 Microsoft Power Automate 内置流集成。                       | 预览模式           |
 
 ## <a name="configuration-providers"></a>配置提供方
 

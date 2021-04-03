@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3f7e9a3acde508f405ce85f125db552c3ae3656b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b34f156642b23f7b9754dac1ee81c7d0004872d8
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000713"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478180"
 ---
 # <a name="enable-location-based-store-detection"></a>启用基于位置的商店检测
-
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何为 Dynamics 365 Commerce 站点开启基于位置的商店检测。
-
-## <a name="overview"></a>概览
 
 可通过 Commerce 中基于位置的商店检测基于客户的位置向客户提供相关站点内容。 开启基于位置的商店检测之后，Commerce 呈现服务使用客户 Web 浏览器 IP 地址的国家/区域信息将客户重定向到可用的最佳地理站点配置。
 

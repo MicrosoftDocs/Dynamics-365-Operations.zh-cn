@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 67c0bb169bee8a7ea90edb4db7233111a8ee6e34
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 772c7584549b30a34e371a7911131edc01214ed8
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993645"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477626"
 ---
 # <a name="warehouse-set-up"></a>仓库设置
-
 
 [!include [banner](includes/banner.md)]
 
 本主题描述如何在 Microsoft Dynamics 365 Commerce 中设置要与新渠道一起使用的仓库。
-
-## <a name="overview"></a>概览
 
 每个商业渠道都需要一个与之关联已配置仓库。 以下过程提供了为商业渠道设置仓库所需的最低配置。 有关仓库设置的更多信息，请参见[仓库管理概览](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)。
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ebc6fcfe20082f76007eabb86d5e33dbfc900dc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ee37bc38c1027e2b52e25b331f65be6f2f5edd98
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976434"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254051"
 ---
 # <a name="configure-settlement"></a>配置结算
 

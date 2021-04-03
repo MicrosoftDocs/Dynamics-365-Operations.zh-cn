@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fcb8eda188a6796282a7a800b87a68dfef9d7d62
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 1d7899ac79805abeb55323bd21f83b3af38e09b4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097330"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238670"
 ---
 # <a name="enrich-a-product-page"></a>丰富产品页面
 

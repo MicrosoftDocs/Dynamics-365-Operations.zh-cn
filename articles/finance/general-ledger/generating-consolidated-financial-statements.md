@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: dda102b993ecc92a5089eb54d2708c2adebc572f
-ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
+ms.openlocfilehash: 0078d536e55da0bfd3d8b808eb05c8273aba792d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5044013"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249135"
 ---
 # <a name="generate-consolidated-financial-statements"></a>生成合并的财务报表
 

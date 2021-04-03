@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f215b31df120d152a84e994fbe9de739385ce836
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 135611ddf7e54a28a43f5f0795c993581d377550
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988719"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248967"
 ---
 # <a name="ledger-journal-types"></a>分类帐日记帐类型
 

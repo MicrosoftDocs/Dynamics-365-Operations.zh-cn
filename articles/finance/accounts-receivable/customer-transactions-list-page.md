@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c1bb422b12489598d099b59b3447f620c80c9438
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d327c53d2486f8fdb9cd0ee049427c26cf4e0dcc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991059"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236858"
 ---
 # <a name="customer-transactions-list-page"></a>客户交易记录列表页
 

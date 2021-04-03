@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ed00836c435bd391e5edef1f6a99889c80f45211
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e24590d4a8f172809704aab0d761f6db0fb0e11b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985578"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234333"
 ---
 # <a name="site-selector-module"></a>站点选择器模块
 
 [!include [banner](includes/banner.md)]
 
 本主题介绍了站点选择器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
-
-## <a name="overview"></a>概览
 
 当企业跨市场、地区和区域具有不同的站点时，站点用户需要通过一种简单的方法在站点之间进行切换并选择他们喜欢的购物站点。 为了适应这种情况，站点选择器模块使用户能够跨多个站点浏览。
 

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 168cef1b5f5d48cb739b08fa395c1bcd62089494
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: da671d7b9302f99fc71860cf41846290d74d11e1
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686713"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570678"
 ---
 # <a name="generate-printable-fti-forms"></a>生成可打印的 FTI 窗体
 

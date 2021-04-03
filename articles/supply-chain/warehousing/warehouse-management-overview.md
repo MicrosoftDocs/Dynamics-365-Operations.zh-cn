@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 432004a7389434248ddde242b153dfb3cd955055
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d7d48ecd834c226fb40bede7519a476bd4c5f0ad
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970120"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248563"
 ---
 # <a name="warehouse-management-overview"></a>仓库管理概览
 

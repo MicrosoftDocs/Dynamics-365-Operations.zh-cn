@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0ce68881e7b39fac314e3bafe022e30a10dcbe2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: dcec3cfde34959de73132c8d764df25fb676d140
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991605"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242341"
 ---
 # <a name="start-and-stop-time-recording-on-a-service-order"></a>开始和停止针对服务订单的时间录制 
 
