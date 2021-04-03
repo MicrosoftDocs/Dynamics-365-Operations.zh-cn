@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51dd993e2d43174e96c062e142021cc0f6e3a288
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 5672e32b157b46b6863f06fea123fd3d6a3d96d2
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125273"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466416"
 ---
 # <a name="person-professional-experience"></a>人员专业经验
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本主题介绍 Dynamics 365 Human Resources 的“人员专业经验”实体。
 

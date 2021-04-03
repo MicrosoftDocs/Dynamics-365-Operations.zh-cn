@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c156ae4a8a19a428378581a0d5c7dc01d86b5ec7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9b10aa50c4a89b2642262f624ac3a6d89cd6ebb4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999873"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258633"
 ---
 # <a name="define-coverage-rules-for-items"></a>定义物料的覆盖规则
 

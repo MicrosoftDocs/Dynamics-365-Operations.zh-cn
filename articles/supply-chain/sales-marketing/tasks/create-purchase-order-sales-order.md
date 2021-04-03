@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5cabb1647b2008bbb67a7b9d6789fddab66b54e3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2cb1829c6ed8b5ea6dbbf7fe465b270e264b78db
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974827"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5266023"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>基于销售订单创建采购订单
 

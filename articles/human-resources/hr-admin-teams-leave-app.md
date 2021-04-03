@@ -3,7 +3,7 @@ title: Teams 中的 Human Resources 应用
 description: 此主题介绍 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用。
 author: andreabichsel
 manager: tfehr
-ms.date: 09/30/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba520f873de5b20111f9134e87281bcdf4025785
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 86abe32f76f2cc21c773727be07a44be49cdbac7
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111637"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487865"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams 中的 Human Resources 应用
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 员工可通过 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用在 Microsoft Teams 中快速请假和查看自己的请假余额信息。 员工可以与机器人交互以请求信息。 **休假** 选项卡提供更详细信息。 此外，他们可以在 Human Resources 应用之外在团队和聊天中发送有关近期休假的人员信息。
 
-![Human Resources Teams 休假应用机器人](./media/hr-admin-teams-leave-app-bot.png)
+![Human Resources Teams 休假应用机器人](./media/hr-teams-leave-app-bot.png)
 
 ![Human Resources Teams 休假应用“休假”选项卡](./media/hr-teams-leave-app-timeoff-tab.png)
 
@@ -39,16 +39,18 @@ ms.locfileid: "5111637"
 
 ## <a name="install-and-setup"></a>安装和设置
 
-可以在 Teams 商店中找到 Human Resources 应用。 有关安装 Teams 应用的信息，请参阅[在 Teams 中管理请假](hr-teams-leave-app.md)。
+可以在 Teams 商店中找到 Dynamics 365 Human Resources 应用。 有关安装 Teams 应用的信息，请参阅[在 Teams 中管理请假](hr-teams-leave-app.md)。
 
 有关在 Teams 中管理应用权限的信息，请参阅[在 Microsoft Teams 中管理应用权限策略](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies)。
 
+如果要让用户在应用中查看休假和缺勤日历，您需要在“功能管理”中启用 **Teams 中的休假和缺勤日历**。 有关启用功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。
+
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>在 Teams 中启用 Human Resources 应用通知
 
-如果希望用户在 Teams 应用中接收请假通知，必须在 Human Resources 中启用通知。
+如果希望用户在 Teams 应用中接收请假通知，必须在 Dynamics 365 Human Resources 中启用通知。
 
 >[!NOTE]
->只有已登录 Teams 且使用 Human Resources Teams 应用的用户才会收到通知。
+>只有已登录 Teams 且使用 Dynamics 365 Human Resources Teams 应用的用户才会收到通知。
 
 1. 在 Human Resources 中，选择 **系统管理**。
 
@@ -66,7 +68,7 @@ ms.locfileid: "5111637"
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>为单个用户打开或关闭 Teams 通知
 
-启用 Human Resources Teams 应用通知最后，可以为单个用户打开或关闭通知。
+启用 Dynamics 365 Human Resources Teams 应用通知最后，可以为单个用户打开或关闭通知。
 
 1. 在 Human Resources 中，选择 **系统管理**。
 
@@ -82,9 +84,28 @@ ms.locfileid: "5111637"
 
 6. 选择 **保存**。
 
-## <a name="known-issues"></a>已知问题
+## <a name="supported-languages"></a>支持的语言
 
-| 签发 | 状态 |
+Teams 中的 Dynamics 365 Human Resources 应用支持以下语言：
+
+| 区域设置 ID | 语言 |
+| --- | --- |
+| de-DE | 德语(德国) |
+| es-ES | 西班牙语(西班牙) |
+| es-MX | 西班牙语(墨西哥) |
+| fr-CA | 法语(加拿大) |
+| fr-FR | 法语(法国) |
+| it-IT | 意大利语(意大利) |
+| nl-NL | 荷兰语(荷兰) |
+| pt-BR | 葡萄牙语(巴西) |
+| tr-TR | 土耳其语(土耳其) |
+| zh-CN | 中文(简体) |
+
+## <a name="notes"></a>说明
+
+以下工作项计划用于将来版本：
+
+| 工作项 | 状态 |
 | --- | --- |
 | 提交将来日期的请假时，余额不正确。 | 预测尚不可用。 显示当前日期的余额。 |
 | 不能取消 **审查中** 请求。 | 现在不支持此功能，将来的版本中将增加此功能。 |
@@ -96,11 +117,11 @@ ms.locfileid: "5111637"
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>无法登录到 Teams 中的 Human Resources 应用
 
-如果用户由于无法登录应用而与您联系，请确认该用户在 Human Resources 中具有关联的员工记录。
+如果用户由于无法登录应用而与您联系，请确认他们在 Human Resources 中具有关联的员工记录。
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>在 Teams 中的 Human Resources 应用中审批请假请求时出错
 
-如果用户在尝试批准 Teams 应用中的请假请求时收到错误，请执行以下疑难解答步骤：
+如果用户在尝试批准 Teams 应用中的请假请求时收到错误，请尝试以下疑难解答步骤：
 
 1. 验证其 Teams 帐户与用于访问 Human Resources 的帐户相同。
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a8e050afb44787072f78e2c971394956cb1026f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f9d19e29dbddb0bccf3221cc82e6dbb2c05f7e85
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977580"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5266071"
 ---
 # <a name="service-object-groups"></a>服务对象组 
 

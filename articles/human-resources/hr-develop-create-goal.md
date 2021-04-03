@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 875d0ae7ae6b93f3fc29aeb4617671de289e6c63
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 9d2a8b50f88e1f321e376923ba1da8497cedc89f
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115816"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465022"
 ---
 # <a name="create-a-goal"></a>创建目标
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 可以创建目标，向目标添加活动，跟踪量化指标，以及将目标链接到审核。 创建该过程的演示数据公司是 USMF。 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 

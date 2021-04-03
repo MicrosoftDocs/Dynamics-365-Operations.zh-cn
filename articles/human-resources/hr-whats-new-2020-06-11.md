@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6ff359f65afc03a1b5691fddc078f73682e99e44
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: e8e5fa842739bbc0070f892c7f19e84ac6ac0ceb
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5127793"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463638"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>Dynamics 365 Human Resources（2020 年 6 月 11 日）新增功能或更改
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本文介绍 Dynamics 365 Human Resources 中的新增功能或更改的功能。 更改适用于内部版本号 8.1.3316。 某些标题中括号内的数字是 LCS 支持号码，供您参考。
 

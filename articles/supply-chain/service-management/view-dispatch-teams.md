@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 363c6d689f277b1525d0ec115c643eeeca5384f2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f7e4e4faf273aeb7a6b68ae61396913f1e2b86af
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010390"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259570"
 ---
 # <a name="view-dispatch-teams"></a>查看派遣团队   
 

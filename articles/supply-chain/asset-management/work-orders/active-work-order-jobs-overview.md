@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 81e5611cd1491ee0c119f049e992afb4b6299991
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d466b05b4677223000e5dfd383ea89f9328619ef
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019471"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263774"
 ---
 # <a name="active-work-order-maintenance-jobs-overview"></a>有效的工作订单维护作业概览
 

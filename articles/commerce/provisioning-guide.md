@@ -1,5 +1,5 @@
 ---
-title: 预配 Dynamics 365 Commerce 评估环境
+title: 配置 Dynamics 365 Commerce 评估环境
 description: 本主题说明如何预配 Microsoft Dynamics 365 Commerce 评估环境。
 author: psimolin
 manager: annbe
@@ -17,14 +17,14 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a57cc02c6d62f288f14b65191c2f4927a019963c
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969893"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478156"
 ---
-# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>预配 Dynamics 365 Commerce 评估环境
+# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>配置 Dynamics 365 Commerce 评估环境
 
 [!include [banner](includes/banner.md)]
 
@@ -34,8 +34,6 @@ ms.locfileid: "4969893"
 
 > [!NOTE]
 > Commerce 评估环境不是公开发布的服务，它根据请求授予合作伙伴和客户使用权。 有关详细信息，请联系您的 Microsoft 合作伙伴联系人。
-
-## <a name="overview"></a>概览
 
 要成功预配 Commerce 评估环境，您必须创建一个具有特定产品名称和类型的项目。 此环境和 Commerce Scale Unit (CSU) 还具有一些特定的参数，当您以后希望预配电子商务时必须使用这些参数。 本主题中的说明介绍完成预配所需的所有步骤以及必须使用的参数。
 

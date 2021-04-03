@@ -16,18 +16,16 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 89e8fe78414e73053317ebe19e3afcc89231d440
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 03e46a7f8d110bd9ef3b353b150116bbf8a70ad5
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979695"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478108"
 ---
-# <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>为渠道创建和更新退货和退款政策
+# <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>创建和更新渠道的退货和退款政策
 
 [!include [banner](includes/banner.md)]
-
-## <a name="overview"></a>概览
 
 利用 Dynamics 365 Commerce 中的渠道退货政策，零售商能够就使用哪些支付方式在销售点 (POS) 设备上处理退货设置强制措施。  
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a7b399e0e8972a15837648d7ae6ec0eaacb5196b
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 297141ab17660533b441629ccdfc624bbcb9c82b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130415"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467281"
 ---
 # <a name="configure-shared-parameters"></a>配置共享参数
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 您必须为在公司间共享的记录设置共享参数，例如职位记录。 本文说明如何设置跨法人的人力资源参数。
 

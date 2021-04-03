@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 518b70223b2f6bf86809ccce77a2cf67c30e4168
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bcfca0ddd52245ae2206f15ef9fa979675fca825
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977530"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470683"
 ---
 # <a name="set-up-disposition-codes"></a>设置处置代码 
 
@@ -33,15 +33,15 @@ ms.locfileid: "4977530"
 
 还可以设置原因代码帮助解释为何退货。 有关原因代码的详细信息，请参阅[设置退货原因代码](set-up-return-reason-code.md)。
 
-1.  单击 **销售和市场营销** \> **设置** \> **销售订单** \> **退货** \> **处置代码**。
+1.  转到 **销售和市场营销** \> **设置** \> **销售订单** \> **退货** \> **处置代码**。
 
-2.  单击 **新建** 或按 CTRL+N 创建新的处置代码。
+2.  选择 **新建** 创建新处置代码。
 
 3.  输入唯一的描述性名称，选择行动，然后输入处置代码的描述。
 
-4.  如果要将任何客户费用与此处置代码关联，请单击 **费用** 按钮以打开 **设置费用** 窗体。
+4.  如果要将任何客户费用与此处置代码关联，选择 **费用** 按钮打开 **设置费用** 窗体。
 
-5.  如果要定义与公司自己的处置代码匹配的任何外部代码，请单击 **外部代码** 按钮以打开 **外部代码** 窗体。
+5.  如果要定义与公司自己的处置代码匹配的任何外部代码，选择 **外部代码** 按钮打开 **外部代码** 窗体。
 
 ## <a name="see-also"></a>请参阅
 

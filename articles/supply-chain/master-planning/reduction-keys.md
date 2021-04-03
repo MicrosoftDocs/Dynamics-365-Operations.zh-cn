@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8732d0a032b7dd44918955354c56321d065d4a77
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d16de8c339fadff074ef8ec30b0b4d6e3412569
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001841"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470761"
 ---
 # <a name="forecast-reduction-keys"></a>预测缩减参数
 
@@ -198,7 +198,7 @@ ms.locfileid: "5001841"
 用于缩减预测需求的 **交易记录 - 缩减参数** 和 **百分比- 缩减参数** 方法中使用预测缩减参数。 若要创建和设置缩减参数，请执行以下步骤。
 
 1. 转到 **主计划 \> 设置 \> 覆盖范围 \> 缩减参数**。
-2. 选择 **新建** 或按 **Ctrl+N** 创建一个缩减参数。
+2. 选择 **新建** 创建缩减参数。
 3. 在 **缩减参数** 字段中，输入预测缩减参数的唯一标识符。 然后在 **名称** 字段中输入名称。 
 4. 定义期间和每个期间中的缩减参数百分比：
 

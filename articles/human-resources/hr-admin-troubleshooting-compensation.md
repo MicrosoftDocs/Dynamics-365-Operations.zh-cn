@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5eda572900090a3ead4b277f3c719b220dc10763
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 49e07b729b72e86404d2a3c7650aa4ebacb40012
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111645"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468435"
 ---
 # <a name="run-the-compensation-process"></a>执行薪酬流程
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **发货**
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f10d7b6c9b45f6cedc16972fb157e43b7e0c40b3
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: d390bf2e9b25c50e913967ea51fcfadd4a1120b8
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111673"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464342"
 ---
 # <a name="configure-future-life-events"></a>配置未来的生命事件
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 您可以在 Dynamics 365 Human Resources 中计划未来的生命事件。
 

@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 157864cd0eee879013724615ce31306c99c5aa68
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: dd25eca9cccf46ec4e4bb2a1d948ca98985e73e4
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125801"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467545"
 ---
 # <a name="applicant-integration-result"></a>申请人集成结果
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本主题介绍 Dynamics 365 Human Resources 的申请人集成结果选项集。
 

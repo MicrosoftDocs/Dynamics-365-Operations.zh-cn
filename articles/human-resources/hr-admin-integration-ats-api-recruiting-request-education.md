@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1767edfe67f9c3af4ac67eb5403d63a7f54dcac8
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: efc5c4813f8abd869e8137052c4aeb356a930d0b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5126066"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465958"
 ---
 # <a name="recruiting-request-education"></a>招聘请求教育
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本主题介绍 Dynamics 365 Human Resources 的“招聘请求教育”实体。
 

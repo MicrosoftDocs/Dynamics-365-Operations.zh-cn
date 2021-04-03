@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4ae4270f3185f8795753ecdb209515ecd6e86486
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: ba6623102431eb45bf5d0c96b6583615663d1081
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111675"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464318"
 ---
 # <a name="benefits-management-overview"></a>福利管理概述
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 为了保持竞争力，您必须提供丰富的福利，以吸引和留住最好的员工。 除了医疗和牙科保险等标准福利外，您可能还希望提供更多服务，例如收养帮助、娱乐计划和服装津贴。 Microsoft Dynamics 365 Human Resources 中的福利管理为您提供了一个灵活的解决方案，它支持多种福利选项。 Human Resources 还提供易于使用的员工体验，以展示您的服务。
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6b21d4d631bcdf603b38212f5f76bb78937d3d3c
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: f1c3ced43b1f5693c5d5466fd97a20beb358fa20
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115068"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463326"
 ---
 # <a name="configure-leave-and-absence-types"></a>配置休假和缺勤类型
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources 中的休假类型定义员工可报告的各种缺勤类型。 您可以根据组织的需求定制休假类型。 休假类型的示例包括：
 
@@ -72,8 +74,7 @@ Dynamics 365 Human Resources 中的休假类型定义员工可报告的各种缺
    
  3. 为休假类型设置 **结转休假类型**。 选择此选项时，任何结转余额都将转移到指定的休假类型。 结转休假类型也需要包括在休假和缺勤计划中。 
  
- 4. 为休假类型定义 **到期规则**。 配置此选项时，可以选择天或月单位并设置有效期限。 您还可以设置到期规则的生效日期。 到期时存在的任何休假余额将从休假类型中减去，并反映在休假余额中。 
- 
+ 4. 为休假类型定义 **到期规则**。 配置此选项时，可以选择天或月单位并设置有效期限。 您还可以设置到期规则的生效日期。 生效日期用于确定何时开始运行处理休假到期或规则生效日期的批处理作业。 将批处理作业设置为处理后，到期本身将始终在休假计划开始日期发生。 例如，计划开始日期可能是 2020 年 1 月 1 日，但是直到 2020 年 6 月 1 日规则才创建。 通过将生效日期设置为 2020 年 6 月 1 日，规则将在下一年度边界（即 2021 年 1 月 1 日）处理。 到期时存在的任何休假余额将从休假类型中减去，并反映在休假余额中。 
  
 ## <a name="see-also"></a>请参阅
 

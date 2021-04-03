@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 31f325d2614d0a01192a0157ee0e89514bc51caa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1139d4c826b6c35f1a6660d3880449e495473441
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985753"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264496"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>设置和管理 Modern POS (MPOS) 的图像
 

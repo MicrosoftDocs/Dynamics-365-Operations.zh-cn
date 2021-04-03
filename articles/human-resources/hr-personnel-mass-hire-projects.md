@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83937c8aa9edf065e3a22cee9eeea5333341d403
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: d7810a3b679f4b2db33fbe2c4dc7bd46db91b4c1
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5127719"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465406"
 ---
 # <a name="mass-hire-projects"></a>大批雇用项目
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 

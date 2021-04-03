@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb16f9f46e3f5c58854ec06c3b89ec72dd7bae00
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 0ae695a2c3bb71821bb0a8aa431a298c8859e28c
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125729"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467497"
 ---
 # <a name="candidate-to-hire"></a>可雇用的应聘者
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本主题介绍 Dynamics 365 Human Resources 的“可雇用的应聘者”实体。
 

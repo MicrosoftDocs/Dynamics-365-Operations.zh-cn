@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b081cd8d56217b8cf76db824c29482d453fc9ea3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3fde9194ece4774c4d39785e337caf2413052159
+ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001940"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476667"
 ---
 # <a name="engineering-change-management-overview"></a>工程更改管理概述
 
@@ -44,20 +44,24 @@ ms.locfileid: "5001940"
 
 前面的视频（[Dynamics 365 Supply Chain Management 中的更改管理功能](https://youtu.be/N313FqvRuBc)）包含在 YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
 
-## <a name="turn-on-engineering-change-management-for-your-system"></a>为系统开启工程更改管理
+## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>为系统打开工程更改管理和版本维度功能
 
-首先，按照以下步骤开启工程更改管理。
+必须同时启用 *工程更改管理* 功能及其配置密钥，然后才能够使用工程更改管理。 如果您还想要跟踪交易中产品的版本维度（可选），还必须启用 *产品版本维度* 功能及其配置密钥。
+
+首先，按照以下步骤打开这些功能。
 
 1. 转到[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。
 1. 检查更新。
 1. 开启名为 **工程更改管理** 的功能。
+1. 如果要使用它，还要打开名为 **产品维度版本** 的功能。
 
-接下来，按照以下步骤打开 **工程更改管理** 配置密钥。
+接下来，按照以下步骤打开配置密钥。
 
 1. 将您的系统置于维护模式下，如[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)中所述。
 1. 转到 **系统管理 \> 设置 \> 许可证配置**。
-1. 展开 **贸易** 节点，选择 **工程更改管理** 复选框。
+1. 展开 **贸易** 节点
+1. 选中 **工程更改管理** 复选框。
+1. 如果要使用它，还要选中 **产品维度 - 版本** 复选框。
 1. 关闭维护模式，如[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)中所述。
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

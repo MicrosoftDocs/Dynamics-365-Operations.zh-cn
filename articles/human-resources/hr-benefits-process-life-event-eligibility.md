@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c7e9fda1b5e3dc2c0afdfd4c23bed277b4748bfd
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: fdb2f00675fa5191e05dcb99525c1ec9a8b16bd2
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111659"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466270"
 ---
 # <a name="process-life-event-eligibility"></a>处理生命事件资格
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本文将向您展示如何运行生命事件资格的流程。
 

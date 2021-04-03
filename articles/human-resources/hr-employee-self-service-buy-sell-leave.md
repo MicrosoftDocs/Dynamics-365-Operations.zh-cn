@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab97803f1c961e3edd298b483cbea5345ef093f5
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: cafb9b8f0de535e804b49926b8d572f57f98e457
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115310"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464120"
 ---
 # <a name="buy-and-sell-leave"></a>购买和出售休假
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 在 Dynamics 365 Human Resources 中，您可以根据公司设置的购买和出售休假策略提交购买和出售休假请求。  
 
