@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 65d77806498c3a710c00865ad27716f50796cdf5
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 09bf57b26111be0e3de358a6c955b3df7bf50668
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5114948"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467883"
 ---
 # <a name="create-a-closed-ended-question"></a>创建封闭式问题
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 

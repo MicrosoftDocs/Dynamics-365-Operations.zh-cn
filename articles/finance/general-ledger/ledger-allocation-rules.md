@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8006221c36abcc24893741458d2cf6b25a6010e6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 31e01046d22c3b7a598386d5621d020339f44cb4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988744"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248991"
 ---
 # <a name="ledger-allocation-rules"></a>分类帐分配规则
 

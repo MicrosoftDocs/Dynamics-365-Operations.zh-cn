@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 09/10/2010
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: d57586cb18c581e4a462d93a64a88310e251a7af
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 57208e87dbbd0ae6fc05644229a8a9cf08da4249
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798573"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562402"
 ---
 # <a name="batch-processing-of-alerts"></a>预警的批处理
 

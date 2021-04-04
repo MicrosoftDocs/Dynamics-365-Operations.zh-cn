@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 54d236b7bca3e4529d5fff3ef71a2679b785a1a5
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: dc9642ee224290891c738c9d0d2b96ff119a1622
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679336"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564052"
 ---
 # <a name="on-premises-deployment-home-page"></a>本地部署主页
 

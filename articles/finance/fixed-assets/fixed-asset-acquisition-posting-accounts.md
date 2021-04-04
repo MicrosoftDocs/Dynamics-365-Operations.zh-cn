@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa0d73790a20f3fe5bb76b87e635b1f16e034479
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6a340df57a6073c6d9b6f2cdaadbf8f21fc11649
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976108"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5241034"
 ---
 # <a name="fixed-asset-acquisition-posting-accounts"></a>固定资产购置过帐帐户
 

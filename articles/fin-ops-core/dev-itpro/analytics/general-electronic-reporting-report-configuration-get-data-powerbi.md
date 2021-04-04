@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 34d4ad9106b2751c77db4fd03d83932e587a5332
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6e4bdb7be83bff8fc9491e360a480f44189730d2
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680112"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568693"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>配置电子申报 (ER) 以便将数据导入 Power BI
 
@@ -31,7 +30,7 @@ ms.locfileid: "4680112"
 
 ## <a name="overview"></a>概览
 
-Microsoft Power BI 是一组软件服务、应用程序和连接器的集合，它们共同将外部数据源转换为一致、直观和交互的见解。 电子申报 (ER) 允许用户轻松配置数据源和安排数据从应用程序转移到 Power BI。 数据作为 OpenXML 工作表（Microsoft Excel 工作簿文件）格式的文件传输。 转移的文件存储在为该目的而配置的 Microsoft SharePoint Server 上。 存储的文件在 Power BI 中用来制作包含可视化项（表格、图标、地图等）的报表。 Power BI 报表与 Power BI 用户共享，因为他们在 Power BI 仪表板和应用程序页面上访问。 本主题对以下任务进行解释：
+Microsoft Power BI 是一组软件服务、应用和连接器的集合，它们共同将外部数据源转换为一致、直观和交互的见解。 电子申报 (ER) 允许用户轻松配置数据源和安排数据从应用程序转移到 Power BI。 数据作为 OpenXML 工作表（Microsoft Excel 工作簿文件）格式的文件传输。 转移的文件存储在为该目的而配置的 Microsoft SharePoint Server 上。 存储的文件在 Power BI 中用来制作包含可视化项（表格、图标、地图等）的报表。 Power BI 报表与 Power BI 用户共享，因为他们在 Power BI 仪表板和应用程序页面上访问。 本主题对以下任务进行解释：
 
 - 配置 Microsoft Dynamics 365 Finance。
 - 准备您的 ER 格式配置，以从 Finance 应用程序获取数据。

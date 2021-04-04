@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb22c5b604f9bc7aacad014385b036e78d9110e6
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 00e9acea04252207a3715744ec5c9d7da141d4b5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017204"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253666"
 ---
 # <a name="target-entities"></a>目标实体
 

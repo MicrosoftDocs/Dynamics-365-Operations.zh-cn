@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1de12233ff296f77ba9984fa8d957d4c2bc90b3f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 7072cb8c3f76be5869239aa0acab6cf3ff268e32
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019067"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253774"
 ---
 # <a name="cost-and-date-control"></a>成本和日期控制
 

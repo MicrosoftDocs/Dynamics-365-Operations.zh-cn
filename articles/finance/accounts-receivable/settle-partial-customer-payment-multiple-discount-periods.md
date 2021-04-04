@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 025582134ddbb6d060d7d9a62405b0e510ac0fe0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8c5047debd0f3d035ec5fc8bc24745183b28e9f0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971570"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5241706"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>结算具有多个折扣期的部分客户付款
 

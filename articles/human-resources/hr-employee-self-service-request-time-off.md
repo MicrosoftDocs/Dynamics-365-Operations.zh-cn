@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1bbd662d5d1044e77514318eda00b3dd29dd63b6
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 031dcfe6f2f88f65c9eeefe2b81171a8dfcb85d5
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115214"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466392"
 ---
 # <a name="request-time-off"></a>请求休息时间
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 您可以在 Dynamics 365 Human Resources 中提交休息时间请求、查看休假余额，还可以查看休假请求的状态。
 

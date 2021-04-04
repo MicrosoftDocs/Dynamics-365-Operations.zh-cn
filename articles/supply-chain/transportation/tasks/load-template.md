@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0a4070a1dd5d53bb502ba2ab0c91dbdc90ded34d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 80004b5d22e1cf81c1ffa9f74c2c479e1561df72
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005044"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247206"
 ---
 # <a name="load-templates"></a>负荷模板
 

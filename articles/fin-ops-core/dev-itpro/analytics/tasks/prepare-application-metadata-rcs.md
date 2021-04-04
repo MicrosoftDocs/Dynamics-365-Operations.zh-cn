@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d5f55d089a88642cb2bda70274472ad0f0e45cd7
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 9609da50482f39bafe65d3a7b655e5047c74bdba
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094232"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560109"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>准备要在 RCS 中使用的应用程序元数据
 [!include [banner](../../includes/banner.md)]

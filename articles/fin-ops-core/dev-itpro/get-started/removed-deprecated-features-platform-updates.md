@@ -3,10 +3,9 @@ title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 02/03/2021
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: d57182aa34c4897ef3703d0f8ed08d032c261170
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: f363b122e30990f5b36e69fd8fe271bdc15e2e79
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154079"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5563986"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
 
@@ -32,7 +31,7 @@ ms.locfileid: "5154079"
 
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
-[技术参考报告](https://docs.microsoft.com/dynamics/s-e/)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+[技术参考报告](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
 
 ## <a name="feature-removed-effective-january-28-2021"></a>功能已删除，自 2021 年 1 月 28 日起生效
 

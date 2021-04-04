@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b41b87cd3e2e80b87318c5c771d45a4d0e5d4b85
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a034d563c12c4ba8b99e13b30ea2683555a01276
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971695"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254479"
 ---
 # <a name="periodic-credit-management-tasks"></a>定期信用管理任务
 

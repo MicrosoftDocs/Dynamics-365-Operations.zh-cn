@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4732b5dafc8074c5c59f10f02bbee7e22f51960a
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 16260c66c2e92fb06664a8f20a5fc3ed4a964609
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5116036"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468123"
 ---
 # <a name="create-a-buy-and-sell-leave-request-workflow"></a>创建购买和出售休假请求工作流
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 您可以在 Dynamics 365 Human Resources 中创建工作流来一致地管理购买和出售休假请求。 **购买和出售休假** 工作流可让您：
 

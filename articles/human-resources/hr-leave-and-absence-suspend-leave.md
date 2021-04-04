@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 05cb032a5f0417f24e1d85186820b866cdd2613f
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 7cec59a0ed478752b44fd28494f549007cbfbddb
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115020"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463230"
 ---
 # <a name="suspend-leave"></a>暂停休假
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 可以暂停员工的休假，以便停止处理所选休假类型的休假应计项目。 
 

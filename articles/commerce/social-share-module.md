@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 0a5ad1f4a9bb317e128ad14f21a4e6c48cab8a72
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0e7f30686894f9cf92257e99d95cc8b00f76f899
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985528"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234309"
 ---
 # <a name="social-share-module"></a>社交共享模块
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍社交共享模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
-
-## <a name="overview"></a>概览
 
 用户可通过社交共享模块在 Facebook、Twitter、Pinterest 和 LinkedIn 之类社交媒体上共享电子商务站点页面 URL。  也可以通过电子邮件共享站点页面 URL。 社交共享模块通常在产品详细信息页 (PDP) 上用于帮助用户共享产品信息。
 

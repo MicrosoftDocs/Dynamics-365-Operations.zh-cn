@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 40de7c378bff602fa3629bb190a7a89fe584d2a6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4411e2c6113c7e42abd4247f79c59ed2cc47c7af
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993184"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248090"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>供应商发票自动化的设置选项
 

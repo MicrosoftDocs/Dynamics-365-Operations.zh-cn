@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e76a5ad741dca5831b609a5b991aa70e3753c621
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 96798c052a24f3a1ad0856c34bd26051f1196110
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009635"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234261"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>对帐单过帐功能改进
 

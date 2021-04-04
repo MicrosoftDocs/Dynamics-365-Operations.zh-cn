@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2769a7d519e12613796025b658db0b08cdfc4fde
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2b945cdfa3e013c213e718962499831df126f09b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961632"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259738"
 ---
 # <a name="move-scheduled-kanban-jobs"></a>移动计划的看板作业
 

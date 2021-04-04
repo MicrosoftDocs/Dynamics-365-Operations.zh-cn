@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 08/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: bbe634b87b3cb30ed993f9b3afeb4321d70f07e6
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 189d1b8a68f8457d32d656fefeb6cc2a332a3b22
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744871"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560241"
 ---
 # <a name="company-concept-in-dataverse"></a>Dataverse 中的公司概念
 

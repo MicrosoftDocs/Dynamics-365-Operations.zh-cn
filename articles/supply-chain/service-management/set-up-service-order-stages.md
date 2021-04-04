@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9aca699283a9de6ea551bd02184498aed88143e9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9774d5f4e97d3f768366ba552e5928929bacf508
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991632"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470921"
 ---
 # <a name="set-up-service-order-stages"></a>设置服务订单阶段 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  单击 **服务管理** \> **设置** \> **服务订单** \> **服务阶段**。
+1.  转到 **服务管理** \> **设置** \> **服务订单** \> **服务阶段**。
 
-2.  按 Ctrl+N 创建一条新记录。
+2.  选择 **新建** 创建新记录。
 
 3.  在 **服务阶段** 和 **说明** 字段中，指定服务阶段 ID 和描述。
 

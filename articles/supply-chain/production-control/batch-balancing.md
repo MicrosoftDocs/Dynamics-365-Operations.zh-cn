@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8c1f52239b2050425c37a8130507e689b29205a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f9216a77ebcf23ef3f732a8c3cb17a911f8a3851
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966547"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246445"
 ---
 # <a name="batch-balancing"></a>批次平衡
 
