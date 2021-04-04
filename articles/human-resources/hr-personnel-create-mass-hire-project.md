@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fbec24099ca0b6e3c97cc479bc949f47e8592b77
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: d6d553c5762dcb456bd7178858c09129bc154349
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130317"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467041"
 ---
 # <a name="create-a-mass-hire-project"></a>创建大批雇用项目
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 

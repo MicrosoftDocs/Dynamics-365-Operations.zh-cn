@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f8679a729dc17e3ee85468b459da3956a92160ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: becda50b5d176ceb350c471b154aed1842c31a3b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974052"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247182"
 ---
 # <a name="reconcile-freight-manually"></a>对货运进行手动对账
 

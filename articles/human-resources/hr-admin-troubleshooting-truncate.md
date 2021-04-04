@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0dc91d3165f14c165f75756dc63a3dc8f63149aa
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: a745543f4d2a2e2a94a820f4ff5f35f8067a83d7
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111622"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466368"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>避免职位层次结构和导出到 Visio 时的文本截断
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **发货**
 

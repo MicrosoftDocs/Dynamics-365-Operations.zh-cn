@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: d066ee69887f05c8fe14eebac1111c4db26ec628
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: e8015af1970da22f70882739cddb4227825e4e40
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093968"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568815"
 ---
 # <a name="financial-report-components"></a>财务报表组件
 

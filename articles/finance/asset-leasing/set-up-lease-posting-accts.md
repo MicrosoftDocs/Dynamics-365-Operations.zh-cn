@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 26e046b627d71721f4a4d7b6a60171a482e3e357
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 183560dca385d618eb11d1580b0f82dcaa50474e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992781"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249597"
 ---
 # <a name="set-up-lease-posting-accounts"></a>设置租赁过帐科目
 

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: e9162bb9b56432dbeb4638e0598dcbf436ab0b1b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6bf582ff61e09ab7586108fa9270a7f485fc9ec7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989493"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254881"
 ---
 # <a name="retail-statements"></a>零售对帐单
 

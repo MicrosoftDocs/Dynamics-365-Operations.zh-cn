@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2f075a8e96af55b1363d2d51db377c5b25c38775
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: caf8b0a5d0b24ef3619f45a6d236acae6d29c8ab
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111670"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465214"
 ---
 # <a name="dataverse-tables"></a>Dataverse 表
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Microsoft Dynamics 365 Human Resources 使用 Dataverse 实现可扩展性和集成方案。
 

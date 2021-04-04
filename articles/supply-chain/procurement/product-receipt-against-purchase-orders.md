@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a07b6b05b8eb25b8c41a5eecbb71fb765a3e9d5f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3680aedad6429cd0d473f1e3d9b5f8e09dd32082
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019671"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247806"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>针对采购订单的物料收货
 

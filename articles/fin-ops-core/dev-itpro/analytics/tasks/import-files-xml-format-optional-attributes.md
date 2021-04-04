@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1d4c8c1d81faa60193d2339fd6541e752c2e2f9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ef090270b2e521b870697bb238b50ea92d4f6958
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684130"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565678"
 ---
 # <a name="rcs-import-files-in-xml-format-with-optional-attributes"></a>(RCS) 导入包含可选属性的 XML 格式文件
 

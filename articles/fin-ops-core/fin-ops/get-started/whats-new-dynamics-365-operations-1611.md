@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b5856ef83ff1e101896eefbbe022e70ad954219
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e5627b605b72b8f9c84a967f88bbfdc0c54173fc
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797187"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564365"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Dynamics 365 for Operations 版本 1611（2016 年 11 月）的新增功能和更改内容
 
@@ -623,7 +622,7 @@ ms.locfileid: "4797187"
 | 配置 ER 报表以 Excel、Microsoft Word 或 PDF 格式生成电子文档。 | 一个配置可以使 ER 报表生成三种格式的电子文档：OpenXML 工作表 (Excel)、Word 和 XML 表格数据格式 (XFDF) (PDF)。 用户可以通过将格式模板作为 Excel、Word 或 PDF 文档的形式添加到 ER 报表的方式选择格式。 |
 | 配置 ER 报表以将数据插入在 OpenXML 工作表格式中生成的电子文档的页眉和页脚中以及控制分页符。 | ER 报表可以将业务数据输入到页眉和页脚中，并且控制分页符发生的位置。 因此，报表可以支持所生成的电子文档的页面的静态顶部和底部。 还可以支持这些文档的具体分页，以便符合法律要求。 |
 | 配置 ER 报表的目的地，以便以电子邮件的形式发送输出，从而可以在运行时使用业务数据和 ER 逻辑（表达式）指定要使用的电子邮件地址。 | 以前，当您配置 ER 目的地时，可以在设计时定义输出收件人的电子邮件地址。 您现在可以在 ER 格式中配置表达式。 然后可以在目的地中作为电子邮件地址源为每个格式配置和每个输出组件（文件夹或文件）分别选择此表达式。 因此，当 ER 报表运行时，生成的每个文件都可以通过电子邮件发送至不同的收件人，且电子邮件地址可以基于 ER 逻辑和业务数据进行定义。 |
-| 配置 ER 报表的目的地，使输出作为新命名的文件或现有文件的新版本发送至 Microsoft SharePoint 文件夹，以便业务数据可以在 Microsoft Power BI 框架中作为数据集或报表使用。 | 在配置 ER 报表时，您现在可以轻松地（无需编码）准备所请求的业务数据，以供 Power BI 框架使用。 在您运行这些 ER 报表时，您可以为 Power BI 框架提供已经可用的适当的业务数据和/或 Excel 报表。 如果您计划在重复模式中运行报表，您可以从建立从 Dynamics 365 for Operations 到 Power BI 的业务数据推送计划，以支持基于 Power BI 的报表的更新计划。 |
+| 配置 ER 报表的目的地，使输出作为新命名的文件或现有文件的新版本发送至 SharePoint 文件夹，以便业务数据可以在 Microsoft Power BI 框架中作为数据集或报表使用。 | 在配置 ER 报表时，您现在可以轻松地（无需编码）准备所请求的业务数据，以供 Power BI 框架使用。 在您运行这些 ER 报表时，您可以为 Power BI 框架提供已经可用的适当的业务数据和/或 Excel 报表。 如果您计划在重复模式中运行报表，您可以从建立从 Dynamics 365 for Operations 到 Power BI 的业务数据推送计划，以支持基于 Power BI 的报表的更新计划。 |
 | 将 ER 报表配置为使用已经生成的电子文档的一部分作为数据源生成该文档的其余部分。 | 您可以将 ER 报表配置为创建文本格式的输出以执行文档的行盘点。 然后可以在文档的其余部分使用此信息创建包含汇总详细信息的行。 汇总信息（总计和数目）可以进行计算并打印至生成的电子文档，无需额外转换数据。 因此，此功能提高了报表执行性能，有助于将来更轻松地对已配置的 ER 格式进行维护。 |
 | 将 ER 报表配置为指定以文本格式生成的电子文档的文件扩展名。 | 您可以将 ER 报表配置为创建文本格式的输出，将其保存为具有特定扩展名的文件。 除了默认 .txt 扩展名之外，您还可以根据格式说明配置 .csv 和 .prn 等扩展名。 |
 | 创建基于 ER 模型特定版本的新的 ER 报表。 | 以前，当您创建新的 ER 格式后，仅可使用选定 ER 模型的最新版本作为格式的数据源位置。 您现在可以选择所选 ER 模型的任何可用版本。 此功能允许您同时维护当年的 ER 报表和设计下一年的 ER 模型新版本。 |

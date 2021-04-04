@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: cca5e0efd6516d02c372e8a616b6bb0c39f3088c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 28bea16c3266115cf09aa80a364344789d60af7a
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006202"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477821"
 ---
-# <a name="create-task-lists-and-add-tasks"></a>创建任务列表和添加任务
+# <a name="create-task-lists-and-add-tasks"></a>创建任务列表并添加任务
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建任务列表和向其添加任务。
-
-## <a name="overview"></a>概览
 
 *任务* 定义某人必须在指定日期或之前完成的一份工作或一个操作。 在 Dynamics 365 Commerce 中，任务中可以包含详细说明和有关联系人的信息。 还可以包含后勤运营、销售点 (POS) 操作或站点页的链接，以便帮助提高生产力和提供任务负责人高效完成任务所需上下文。
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b0faa23193111ed771ccc3a5c7f99ca908a036e9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8079dadd09f3e781bcfde21974882cdd59dec809
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988128"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256588"
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a>设置 ISO20022 直接借记的公司银行帐户
 

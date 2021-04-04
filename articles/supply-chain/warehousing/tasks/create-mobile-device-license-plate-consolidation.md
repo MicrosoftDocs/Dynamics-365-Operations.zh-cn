@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3f5f572461de007f137ffa7ea05c535371f95b7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 54457261d4f80648050845f309bcbbcc16caa629
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977230"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239006"
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a>创建牌照合并的移动设备菜单项
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 4dee4468079a9ad500f513900cec090acf6026ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 20f5fe0f8f2654df5027c363ebf5922f8344d928
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969120"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5241114"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>将固定资产作为废料处置
 

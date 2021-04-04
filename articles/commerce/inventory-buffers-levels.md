@@ -14,20 +14,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: c519095d174414d6d4a8c86bc171ea62e1c72582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea6844307e63b351ef914134b7d8392b0910019a
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012414"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478380"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>配置库存缓冲区和库存级别
 
 [!include [banner](includes/banner.md)]
 
 本主题说明如何在 Microsoft Dynamics 365 Commerce 上配置确定有关库存可用性的消息的库存缓冲区和库存级别。
-
-## <a name="overview"></a>概览
 
 Dynamics 365 Commerce 总部保留库存数据和各个渠道，如销售点 (POS) 应用程序、电子商务店面，以及其他以异步方式拉取和推送库存的自定义集成应用程序。 因此，通过 Commerce 总部的现有库存量页面、POS 用户界面 (UI) 以及通过电子商务库存可用性 API 获取的可用库存值，并不总是 100% 实时准确的。
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1e7d7389c1bcf0f6024464e37b36d39efae5b832
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: b8b94c1844470938d5e53423f045f5af4c1793d3
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111606"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466800"
 ---
 # <a name="system-requirements"></a>系统要求
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本文介绍 Microsoft Dynamics 365 Human Resources 的要求。 还概述支持 Human Resources 的国家和地区，以及有关 Human Resources 数据的语言和本地化的信息。
 

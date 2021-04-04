@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edbf7382ae479cca03c08f3e125d306347ca4d3c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: aa61c8dabf34e74f46147149d54f310d8a8277b8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977555"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256103"
 ---
 # <a name="set-up-dispatch-teams"></a>设置派遣团队 
 

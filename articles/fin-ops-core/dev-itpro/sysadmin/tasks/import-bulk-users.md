@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/07/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56b6666310309817ff30ccb3902721880b829ee0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0c2600ad8f441e6b73b143c27afa08ad0a5c2748
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679806"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570997"
 ---
 # <a name="import-users-from-azure-active-directory"></a>从 Azure Active Directory 导入用户
 
@@ -46,11 +45,11 @@ ms.locfileid: "4679806"
 2. 转到 **系统管理 > 用户 > 用户**。
 3. 单击 **批量导入**。
 4. 展开 **后台运行** 部分。
-4. 在 **批处理** 字段中选择**是**。
+4. 在 **批处理** 字段中选择 **是**。
 6. 在 **批处理组** 字段中，输入或选择一个值。 这是可选步骤。  
 7. 在 **专用** 字段中选择 **是**。 这是可选步骤。  
 8. 在 **关键作业** 字段中，选择 **是**。 这是可选步骤。  
-9. 在**监视类别**字段中，选择一个选项。
+9. 在 **监视类别** 字段中，选择一个选项。
 10. 单击 **确定**。
 
 导入完成后，将需要为用户分配角色。

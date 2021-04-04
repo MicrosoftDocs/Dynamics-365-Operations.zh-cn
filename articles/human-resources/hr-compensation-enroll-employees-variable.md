@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7a173403e79212be5e4aac36d99f349da159e08
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: f10164b4002d3cb83a2332e913adcb25506ffdd2
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111642"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468219"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>在可变薪酬计划中登记员工
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 “薪酬福利经理”招聘可变薪酬计划的雇员，需要计算雇员的现金和非现金奖金。 此程序假设已经创建了一个可变薪酬计划，且该计划的资格规定也已经创建完成，在“招聘能力”字段中设置为“是”。 创建此程序的演示数据公司是 USMF。 启动该过程，请转到“人力资源”>“工作人员”>“雇员”>“薪酬”>“可变薪酬计划招聘”
 
