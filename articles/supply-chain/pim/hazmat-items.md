@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 3836273b1c782fe80172443f4d4c29001ccea83a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7e0564802bc53ce21236ffc6ed065bf6abac7c78
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007658"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243145"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>产品、订单、装运和负荷中的危险物料
 

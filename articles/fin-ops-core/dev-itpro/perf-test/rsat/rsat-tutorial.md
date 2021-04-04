@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7c4c0f9340085341ab60f97b55dacf36624e5f46
-ms.sourcegitcommit: b337b647a1be4908fc361fb6d962e96a69f301a9
+ms.openlocfilehash: b8866d43ea8b6b6bea34c01cbcbc9e3575081c4c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5036697"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568372"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool 教程
 

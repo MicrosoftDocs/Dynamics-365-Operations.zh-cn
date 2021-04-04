@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd9516ac68c46649ebc50711357b97179bfc1b2c
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: d37a10b1430349014f55cde155c6ed6e85dfe3dc
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092142"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567310"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>定义其他组件上的电子报告配置的依赖关系
 

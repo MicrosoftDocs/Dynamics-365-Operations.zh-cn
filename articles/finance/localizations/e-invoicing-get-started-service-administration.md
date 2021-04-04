@@ -3,7 +3,7 @@ title: 开始使用电子开票附加产品服务管理
 description: 本主题说明如何开始使用电子开票附加产品。
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 111ec65aa826795125d4a9ce835f72e1a0f41b7b
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 05b00380cec7511adad2467d3f252799a4aaee5c
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104348"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592518"
 ---
 # <a name="get-started-with-electronic-invoicing-add-on-service-administration"></a>开始使用电子开票附加产品服务管理
 
@@ -35,7 +35,7 @@ ms.locfileid: "5104348"
 在完成本主题中的过程之前，必须具备以下先决条件：
 
 - 您必须有权访问您的 Microsoft Dynamics Lifecycle Services (LCS) 帐户。
-- 您必须有包含版本 10.0.13 或更高版本的 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 的 LCS 项目。 此外，必须将这些应用部署在以下 Azure 地理区域之一：
+- 您必须有包含版本 10.0.17 或更高版本的 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 的 LCS 项目。 此外，必须将这些应用部署在以下 Azure 地理区域之一：
 
     - 美国东部
     - 美国西部
@@ -52,6 +52,13 @@ ms.locfileid: "5104348"
 2. 选择 **预览功能管理** 磁贴。
 3. 在 **公开预览功能** 部分，选择 **电子开票服务**。
 4. 确保 **预览功能已启用** 选项设置为 **是**。
+5. 在 LCS 仪表板上，选择 LCS 部署项目。 LCS 项目必须正在运行。
+7. 在 **环境加载项** 选项卡上，选择 **安装新加载项**。
+8. 选择 **电子发票服务** 并在 **AAD 应用程序 ID** 字段中输入 **091c98b0-a1c9-4b02-b62c-7753395ccabe**。 这是一个固定值。
+10. 在 **AAD 租户 ID** 字段中，输入您的 Azure 订阅帐户的租户 ID。
+11. 查看条款和条件，然后选中相应的复选框。
+12. 选择 **安装**。
+
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-the-electronic-invoicing-add-on"></a>为与电子开票附加产品的 RCS 集成设置参数。
 
@@ -73,7 +80,7 @@ ms.locfileid: "5104348"
 ## <a name="create-key-vault-secret"></a>创建密钥保管库密码
 
 1. 登录您的 RCS 帐户。
-2. 在 **全球化功能** 工作区中，在 **环境** 部分，选择 **电子开票** 磁贴。
+2. 在 **全球化功能** 工作区的 **环境** 部分，选择 **电子开票附加产品** 磁贴。
 3. 在 **环境设置** 页上的操作窗格上，选择 **服务环境**，然后选择 **密钥保管库参数**。
 4. 选择 **新建** 创建密钥保管库密码。
 5. 在 **名称** 字段中，输入密钥保管库密码的名称。 在 **描述** 字段中，输入描述。
@@ -82,22 +89,31 @@ ms.locfileid: "5104348"
 
 ## <a name="create-storage-account-secret"></a>创建存储帐户密码
 
-1. 在 **密钥保管库参数** 页上，在 **证书** 部分，选择 **添加**。
-2. 在 **名称** 字段中，输入存储帐户密码的名称。 在 **描述** 字段中，输入描述。
-3. 在 **类型** 字段中，选择 **证书**。
-4. 选择 **保存**，然后关闭页面。
+1. 转到 **系统管理** > **设置** > **密钥保管库参数**，然后选择一个密钥保管库密钥。
+2. 在 **证书** 部分，选择 **添加**。
+3. 在 **名称** 字段中，输入存储帐户机密的名称，然后在 **描述** 字段中，输入描述。
+4. 在 **类型** 字段中，选择 **证书**。
+5. 选择 **保存**，然后关闭页面。
+
+## <a name="create-a-digital-certificate-secret"></a>创建数字证书机密
+
+1. 转到 **系统管理** > **设置** > **密钥保管库参数**，然后选择一个密钥保管库密钥。
+2. 在 **证书** 部分，选择 **添加**。
+3. 在 **名称** 字段中，输入数字证书机密的名称，然后在 **描述** 字段中，输入“描述”。
+4. 在 **类型** 字段中，选择 **证书**。
+5. 选择 **保存**，然后关闭页面。
 
 ## <a name="create-an-electronic-invoicing-add-on-environment"></a>创建电子开票附加产品环境
 
 1. 登录您的 RCS 帐户。
-2. 在 **全球化功能** 工作区中，在 **环境** 部分，选择 **电子开票** 磁贴。
+2. 在 **全球化功能** 工作区的 **环境** 部分，选择 **电子开票附加产品** 磁贴。
 
 ## <a name="create-a-service-environment"></a>创建服务环境
 
 1. 在 **环境设置** 页上的操作窗格上，选择 **服务环境**。
 2. 选择 **新建** 创建新服务环境。
 3. 在 **名称** 字段中，输入电子开票环境的名称。 在 **描述** 字段中，输入描述。
-4. 在 **存储 SAS 令牌密码** 字段中，选择必须用于验证对存储帐户的访问权限的证书的名称。
+4. 在 **存储 SAS 令牌密码** 字段中，选择必须用于验证对存储帐户的访问权限的存储帐户机密的名称。
 5. 在 **用户** 部分，选择 **添加** 添加允许通过环境提交电子发票并连接到存储帐户的用户。
 6. 在 **用户 ID** 字段中，输入用户的别名。 在 **电子邮件** 字段中，输入用户的电子邮件地址。
 7. 选择 **保存**。

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 19fbbdea4bfdf30b1313a47e65056b536ed73dbe
-ms.sourcegitcommit: 630a0b3f800f36ced49b79156dd52132904fef75
+ms.openlocfilehash: 9260db2edab75c9876ddf5af99bee4ff174c64e1
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "5060811"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568965"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>设计 ER 配置以在生成的文件中禁止 BOM 字符
 

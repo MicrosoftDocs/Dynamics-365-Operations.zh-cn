@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 03/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 28872e9510394cf3d5cee151798d4130b8b6fe27
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 39e1d5b0a73b198b164e51a18222dbd985192070
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683490"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568020"
 ---
 # <a name="customer-loyalty-cards-and-reward-points"></a>客户会员卡和奖励积分
 

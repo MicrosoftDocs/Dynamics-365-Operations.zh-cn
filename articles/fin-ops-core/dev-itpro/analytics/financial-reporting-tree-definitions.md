@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 17f749863af3c37658935d5065cf053d0a165c1e
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 367df467d20fb7c60821c9de1f86758196f4faf3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093892"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568767"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>财务报表中的报告结构树定义
 

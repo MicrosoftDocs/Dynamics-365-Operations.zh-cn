@@ -3,10 +3,9 @@ title: 视频
 description: 此页列出 Microsoft 制作的与 Finance and Operations应用有关的“操作方法”视频和技术交流视频，可在 YouTube 和其他网站中观看。
 author: sericks007
 manager: AnnBe
-ms.date: 12/01/2020
+ms.date: 02/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 56fdfc400b5bc3e640e7951985d54ffa870f96c9
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 70eddab17d94a7ff4a9f00117200a657ebfb24dd
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797867"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5566214"
 ---
 # <a name="videos"></a>视频 
 
@@ -89,9 +88,6 @@ ms.locfileid: "4797867"
 ### <a name="customize-the-app"></a>自定义应用程序
 - [添加自定义字段](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [嵌入 Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
-
-### <a name="expenses"></a>支出
-- [费用体验](https://youtu.be/Ocy-MsTvEE0)
 
 ### <a name="financial-reporting"></a>财务报告
 - [查找报表设计器版本](https://www.youtube.com/embed/icfA5Q3kp4w)

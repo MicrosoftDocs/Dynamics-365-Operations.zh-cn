@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: d60266aba42f502e7707bdace921cfee4526b6ae
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d347bd0decf3ab274157d75ec29b0c9dc376e96b
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682863"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570806"
 ---
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>基于文件大小和内容数量拆分生成的 XML 文件
 

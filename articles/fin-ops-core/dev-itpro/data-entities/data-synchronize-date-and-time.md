@@ -6,7 +6,6 @@ manager: tfehr
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae04b09a68e64d6d70c0329e689ab08c3903fca0
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 5ce3bf39e8342d3fe19a253f6d17684b2bd0aec0
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798711"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570471"
 ---
 # <a name="synchronize-date-and-time-in-import-jobs"></a>同步导入作业中的日期和时间
 

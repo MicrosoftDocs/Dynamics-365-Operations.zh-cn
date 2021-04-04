@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: a1d520584e331631bb5a6a88ba6c9a8b50b3d29e
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: fe422d645c8f2c0c564af30624090828e10ea4bf
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798615"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567244"
 ---
 # <a name="client-alert-notifications-by-email"></a>通过电子邮件发送的客户端预警通知
 

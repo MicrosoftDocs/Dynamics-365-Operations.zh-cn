@@ -16,12 +16,12 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f574b765a4720c2bb18ca98481765b22dbf7b46d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0a862ec94e9478df6c35bc7e65bb71c9b05081e7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978342"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257543"
 ---
 # <a name="chinese-vouchers"></a>中国式凭证
 

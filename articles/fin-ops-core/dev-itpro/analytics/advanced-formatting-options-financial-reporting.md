@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 08659bac84b07f6e95a83b84612cb035b51cf28d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093154"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568458"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>财务申报中的高级格式设置选项
 
@@ -283,10 +282,10 @@ ms.locfileid: "5093154"
 > [!NOTE]
 > 要使用此功能，则必须将报告结构树与行定义关联。
 
-该计算行可引用某个计算行或财务数据行。 该计算在行定义的 **相关配方/行/单位** 单元格和财务数据类型限制中记录。 该计算必须使用以 **IF @Unit** 开头的有条件计算。 下面是一个示例：IF @Unit(SALES) THEN @100 ELSE 0 此计算包含报表的每个列中的行 100 中的金额，但只针对销售单位。 如果有多个单位名为 SALES，金额将以所有这些单位显示。 此外，行 100 可以是财务数据行，也可以定义为非打印。 在这种情况下，系统将阻止金额以树中的所有单位显示。 您还可以将金额限制到报表的单个列（如列 H），方法是使用列限制仅打印报表的该列中的值。 您可以在 **IF** 语句中包含 **OR** 组合。 下面是一个示例：IF @Unit(SALES) OR @Unit (SALESWEST) THEN 5 ELSE @100 您可以使用以下方法之一在计算类型限制中指定单位：
+该计算行可引用某个计算行或财务数据行。 该计算在行定义的 **相关配方/行/单位** 单元格和财务数据类型限制中记录。 该计算必须使用以 **IF \@Unit** 构造开头的条件性计算。 下面是一个示例：IF @Unit(SALES) THEN @100 ELSE 0 此计算包含报表的每个列中的行 100 中的金额，但只针对销售单位。 如果有多个单位名为 SALES，金额将以所有这些单位显示。 此外，行 100 可以是财务数据行，也可以定义为非打印。 在这种情况下，系统将阻止金额以树中的所有单位显示。 您还可以将金额限制到报表的单个列（如列 H），方法是使用列限制仅打印报表的该列中的值。 您可以在 **IF** 语句中包含 **OR** 组合。 以下是一个例子：**IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100**。 您可以使用以下方法之一在计算类型限制中指定单位：
 
-- 输入单位名称以包含匹配的单位。 例如，**IF @Unit(SALES)** 可启用对名为 SALES 的任何单位的计算，即使报告结构树中有多个 SALES 单位。
-- 输入公司和单位名称以将计算限制到特定公司内的特定单位。 例如，输入 **IF @Unit(ACME:SALES**) 以将计算限制到 ACME 公司内的 SALES 单位。
+- 输入单位名称以包含匹配的单位。 例如，**IF \@Unit(SALES)** 可启用对名为 SALES 的任何单位的计算，即使报告结构树中有多个 SALES 单位。
+- 输入公司和单位名称以将计算限制到特定公司内的特定单位。 例如，输入 **IF @Unit (ACME:SALES)** 以将计算限制到 ACME 公司内的 SALES 单位。
 - 输入报告结构树中的完整层次结构代码以将计算限制到特定单位。 例如，输入 **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**。
 
 > [!NOTE]
@@ -296,7 +295,7 @@ ms.locfileid: "5093154"
 
 1. 在报表设计器中，单击 **行定义**，然后打开要修改的行定义。
 2. 双击 **格式代码** 单元格，然后选择 **CAL**。
-3. 单击 **相关配方/行/单位** 单元格，然后输入以 **IF @Unit** 结构开头的有条件计算。
+3. 单击 **相关配方/行/单位** 单元格，然后输入以 **IF \@Unit** 结构开头的条件性计算。
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>列定义中的 IF/THEN/ELSE 语句
 
@@ -310,6 +309,5 @@ ms.locfileid: "5093154"
 可使用包含与号 (&) 的维度值设计报表。
 
 在任何 **链接到财务维度** 字段中，均可输入 **'P&L'** 这样的值。 如果维度值两端都有单引号 (' ')，说明使用的是文字值，如包括与号字符 (&)。
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

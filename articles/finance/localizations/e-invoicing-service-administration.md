@@ -3,7 +3,7 @@ title: 电子开票附加产品管理组件
 description: 本主题提供有关与电子开票附加产品的管理相关的组件的信息。
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6f630ebb694217c3bd52378a649933a670c090f2
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 70ef47dd45200a14c9d780f3c280c554d0e52ac3
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104350"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592566"
 ---
 # <a name="electronic-invoicing-add-on-administration-components"></a>电子开票附加产品管理组件
 
@@ -39,11 +39,15 @@ ms.locfileid: "5104350"
 
 使用 Microsoft Dynamics Lifecycle Services (LCS) 为您的 LCS 部署项目启用微服务附加产品。
 
-在 LCS 中，选择 **预览功能管理** 磁贴，然后打开 **电子开票服务** 功能。
+> [!NOTE]
+> 在 LCS 中安装微服务附加产品至少需要第 2 层虚拟机。 有关环境计划的详细信息，请参阅[环境计划](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)。
+ 
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
 
 Dynamics 365 Regulatory Configuration Services (RCS) 是用于配置电子开票附加产品的界面。 将在 RCS 中创建、维护和托管环境和电子开票功能等资源。 当资源准备好后，它们将被发布到电子开票附加产品服务。
+
+有关 RCS 注册的信息，请参见 [Regulatory services](https://marketing.configure.global.dynamics.com/)。
 
 有关 RCS 的详细信息，请参阅 [Regulatory Configuration Services (RCS) - 全球化功能](rcs-globalization-feature.md)
 
@@ -53,22 +57,14 @@ Dynamics 365 Regulatory Configuration Services (RCS) 是用于配置电子开票
 
 #### <a name="service-endpoint"></a>服务终结点
 
-电子开票附加产品终结点的 URL 可能根据 Azure 数据中心的地理位置发生变化。 下表列出了每个区域的可用性：
+电子开票附加产品在一些 Azure 数据中心地理区域中可用。 下表列出了每个区域的可用性。
 
-| Azure 数据中心地理位置 | 服务终结点 URL                                                       |
-|----------------------------|----------------------------------------------------------------------------|
-| 美国东部                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-| 美国西部                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-| 欧洲北部                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-| 欧洲西部                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
-
-#### <a name="application-id"></a>申请 ID
-
-应用程序 ID 是电子开票附加产品应用程序的 ID。 在此例中，此值是固定的：**0cdb527f-a8d1-4bf8-9436-b352c68682b2**。
-
-#### <a name="lcs-environment-id"></a>LCS 环境 ID
-
-LCS 环境 ID 是您组织的 LCS 订阅的 ID。
+| Azure 数据中心地理位置 |
+|----------------------------|
+| 美国东部                    |
+| 美国西部                    |
+| 欧洲北部                   |
+| 欧洲西部                    |
 
 ### <a name="service-environments"></a>服务环境
 

@@ -3,10 +3,9 @@ title: 设计配置以生成 Excel 格式的文档
 description: 本主题介绍如何设计电子报告 (ER) 格式以填写 Excel 模板，然后生成 Excel 格式的传出文档。
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2020
+ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8d6a18741d57829d1929fb8362dc4ba8e03a1bd
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: a82afcdeb45bad79a008c3135ef332cf01c0b580
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094021"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574165"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>设计用于生成 Excel 格式文档的配置
 
@@ -54,7 +53,7 @@ ms.locfileid: "5094021"
 若要指定传出文档的布局，请向 **Excel\\文件** 组件添加一个扩展名为 .xlsx 的 Excel 工作簿充当传出文档的模板。
 
 > [!NOTE]
-> 手动附加模板时，必须使用已经在 [ER 参数](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents)中为此目的配置的[文档类型](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types)。
+> 手动附加模板时，必须使用已经在 [ER 参数](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents)中为此目的配置的[文档类型](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types)。
 
 ![向“Excel\文件”组件添加附件](./media/er-excel-format-add-file-component2.png)
 
@@ -140,6 +139,36 @@ ms.locfileid: "5094021"
 
 **分页符** 组件强制 Excel 新分页。 如果希望使用 Excel 的默认分页，则无需此组件，但是如果希望 Excel 按照您的 ER 格式构造分页，应使用此组件。
 
+## <a name="footer-component"></a>页脚组件
+
+**页脚** 组件用于在 Excel 工作簿中生成的工作表底部填充页脚。
+
+> [!NOTE]
+> 您可以为每个 **工作表** 组件添加此组件，以在生成的 Excel 工作簿中为不同的工作表指定不同的页脚。
+
+配置单个 **页脚** 组件时，您可以使用 **页眉/页脚外观** 属性指定组件所用于的页面。 提供以下值：
+
+- **任何** – 对父 Excel 工作表的任何页面运行配置的 **页脚** 组件。
+- **第一个** – 只对父 Excel 工作表的第一个页面运行配置的 **页脚** 组件。
+- **偶数** – 只对父 Excel 工作表的偶数页面运行配置的 **页脚** 组件。
+- **奇数** – 只对父 Excel 工作表的奇数页面运行配置的 **页脚** 组件。
+
+对于单个 **工作表** 组件，您可以添加一些 **页脚** 组件，其中每个组件都具有不同的 **页眉/页脚外观** 属性值。 这样，您可以为 Excel 工作表中的不同类型的页面生成不同的页脚。
+
+> [!NOTE]
+> 确保添加到单个 **工作表** 组件的每个 **页脚** 组件都具有不同的 **页眉/页脚外观** 属性值。 否则，会出现[验证错误](er-components-inspections.md#i16)。 您收到的错误消息会通知您有关不一致的情况。
+
+在添加的 **页脚** 组件下面，添加 **文本\\字符串**、**文本\\日期时间** 或其他类型的所需嵌套组件。 配置这些组件的绑定，以指定页面页脚的填充方式。
+
+您也可以使用特殊[格式代码](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers)正确格式化生成的页脚的内容。 要了解如何使用此方法，请执行本主题后面的[示例 1](#example-1) 中的步骤。
+
+> [!NOTE]
+> 配置 ER 格式时，请务必考虑 Excel [限制](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3)，以及单个页眉或页脚的最大字符数。
+
+## <a name="header-component"></a>页眉组件
+
+**页眉** 组件用于在 Excel 工作簿中生成的工作表顶部填充页眉。 其使用方式与 **页脚** 组件使用方式一样。
+
 ## <a name="edit-an-added-er-format"></a>编辑添加的 ER 格式
 
 ### <a name="update-a-template"></a>更新模板
@@ -175,6 +204,48 @@ ms.locfileid: "5094021"
     >[!NOTE]
     > 使用 Excel 打开生成的文档进行预览时，将手动强制重新计算公式。
     > 如果配置的 ER 目标位置需要使用生成的文档，但 Excel 中无预览（PDF 转换、电子邮件等），请不要使用此选项，因为生成的文档中包含的公式中可能不包含值。
+
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a>示例 1：格式化页脚内容
+
+1. 使用提供的 ER 配置[生成](er-generate-printable-fti-forms.md)可打印的自由文本发票 (FTI) 文档。
+2. 查看生成的文档的页脚。 请注意，它包含有关文档中的当前页码和页面总数的信息。
+
+    ![查看以 Excel 格式生成的文档的页脚](./media/er-fillable-excel-footer-1.gif)
+
+3. 在 ER 格式设计器中，[打开](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format)样本 ER 格式以供审核。
+
+    **发票** 工作表的页脚是根据位于 **页脚** 组件下面的两个 **字符串** 组件的设置生成的：
+
+    - 第一个 **字符串** 组件填写以下特殊格式代码以强制 Excel 应用特定格式：
+
+        - **&C** – 将页脚文本居中对齐。
+        - **&"Segoe UI,Regular"&8** – 以大小为 8 磅的 "Segoe UI Regular" 字体显示页脚文本。
+
+    - 第二个 **字符串** 组件填充的文本包含当前文档中的当前页码和页面总数。
+
+    ![在“格式设计器”页面上查看页脚 ER 格式组件](./media/er-fillable-excel-footer-2.png)
+
+4. 自定义示例 ER 格式以修改当前页面页脚：
+
+    1. [创建](er-quick-start2-customize-report.md#DeriveProvidedFormat)派生的 **普通发票 (Excel) 自定义** ER 格式，此格式基于样本 ER 格式。
+    2. 为 **发票** 工作表的 **页脚** 组件添加第一对新 **字符串** 组件：
+
+        1. 添加一个 **字符串** 组件，使公司名称左对齐并以 8 磅的 "Segoe UI Regular" 字体(**"&L&"Segoe UI,Regular"&8"**) 显示。
+        2. 添加一个填写公司名称的 **字符串** 组件 (**model.InvoiceBase.CompanyInfo.Name**)。
+
+    3. 为 **发票** 工作表的 **页脚** 组件添加第二对新 **字符串** 组件：
+
+        1. 添加一个 **字符串** 组件，使处理日期右对齐并以 8 磅的 "Segoe UI Regular" 字体(**"&R&"Segoe UI,Regular"&8"**) 显示。
+        2. 添加一个以自定义格式 (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "yyyy-MM-dd")**) 填写处理日期的 **字符串** 组件。
+
+        ![在“格式设计器”页面上查看页脚 ER 格式组件](./media/er-fillable-excel-footer-3.png)
+
+    4. [完成](er-quick-start2-customize-report.md#CompleteDerivedFormat)草稿版本的派生 **普通发票 (Excel) 自定义** ER 格式。
+
+5. [配置](er-generate-printable-fti-forms.md#configure-print-management)打印管理，以使用派生的 **普通发票 (Excel) 自定义** ER 格式，而不是示例 ER 格式。
+6. 生成可打印的 FTI 文档，并查看生成的文档的页脚。
+
+    ![查看以 Excel 格式生成的文档的页脚](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace, ExpenseWorkspace
 audience: Application User, IT Pro
@@ -16,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d580502a08c2c176a000616abc3513cc45bd58a6
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: be40d56f2468ec9490796aae9ef107b5f22aa9e7
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016444"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568891"
 ---
 # <a name="expense-management-power-bi-content"></a>费用管理 Power BI 内容
 

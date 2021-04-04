@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c1304d3277e12bc602fa5bc25a61e1f95edba59c
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967222"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580907"
 ---
 # <a name="release-product-structures"></a>发布产品结构
 
@@ -76,8 +76,6 @@ ms.locfileid: "4967222"
 ## <a name="release-policies"></a>发布策略
 
 并非所有运营公司都需要相同的产品数据。 通常，制造工程产品的运营公司需要物料清单，而只是销售工程产品的运营公司不需要物料清单。 您可以使用发布策略来建立用于产品发布的参数。
-
-对于工程产品，发布策略在工程产品类别中分配，并且该字段是必需的。 对于标准产品，策略将分配给共享产品，该字段是可选的。
 
 有关工程产品类别的详细信息，请参阅[工程版本和工程产品类别](engineering-versions-product-category.md)。
 

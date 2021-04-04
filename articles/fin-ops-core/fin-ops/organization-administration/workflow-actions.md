@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e622f9a0a50cd6c5dbcbaf9cd5d56b691232c849
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 0e6331746d2634a3686b0a7368d060d94567c4ff
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797594"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567948"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>工作流审核流程中的操作
 

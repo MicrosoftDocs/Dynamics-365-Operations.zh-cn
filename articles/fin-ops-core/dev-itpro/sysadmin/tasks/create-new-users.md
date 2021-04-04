@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, SysDataAreaSelectLookup, SysSecUserAddRoles, SysUserMSODSUserImport
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca062ddd49f1c206c503fb6160ed436fe2d6f7e9
-ms.sourcegitcommit: 9e27a097b7eb3c8f2df66011ccc597ad18bc5445
+ms.openlocfilehash: f30f6292ed0a4de93ba75341bc917f9205c4e39c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4878649"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5571045"
 ---
 # <a name="create-new-users"></a>创建新用户
 

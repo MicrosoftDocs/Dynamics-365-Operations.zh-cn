@@ -3,10 +3,9 @@ title: 通讯簿常见问题
 description: 本主题提供对有关通讯簿的常见问题的解答。
 author: msftbrking
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -17,16 +16,17 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: ad2be27d406928222ca00fe696f49b8578fc8cb3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796890"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559933"
 ---
 # <a name="address-books-faq"></a>通讯簿常见问题
 
 [!include [banner](../includes/banner.md)]
+[!include [preview-banner](../includes/preview-banner.md)]
 
 ## <a name="how-do-i-check-for-duplicate-records"></a>如何检查重复的记录？
 
@@ -68,5 +68,10 @@ ms.locfileid: "4796890"
 
 您可以设置地址信息的转换以便该信息在程序中用您的用户语言（系统语言）显示，不过在文档上用其他语言，如用销售订单。 您可以输入国家/地区名称的转换、地址目的和姓名顺序。 例如，您的系统语言为丹麦语，并且您用法语为客户创建销售订单。 在这种情况下，您可以在程序中用丹麦语查看客户记录，但在打印的销售订单上用法语显示地址信息。 在您设置转换时，在列表中应输入每个物料的一个转换。 未输入转换的所有物料将出现在系统语言。 例如，您的系统语言为丹麦语，并且您用西班牙语发送文档到一个客户。 如果您未输入地址信息的西班牙语 (ESP) 转换，该信息在程序中和文档上用丹麦语显示。
 
+## <a name="after-importing-addresses-when-i-access-the-records-why-am-i-unable-to-edit-imported-addresses"></a>导入地址后，当我访问记录时，为什么我无法编辑导入的地址？
+
+导入地址时，有一个标记为 **IsLocationOwner** 的字段，它指示与位置（地址）关联的当事方是否是地址的所有者。 如果当事方是地址的所有者，则在使用全球通讯簿中的该当事方访问该地址时，或从主记录窗体（例如客户、供应商或工作人员）访问该地址时，可以编辑该地址。 如果该当事方不是地址的所有者，则无法从先前列出的窗体中编辑记录。 导入地址时，如果您希望可使用关联的当事方编辑地址，则 **IsLocationOwner** 应该设置为 **是**。 但是，有时会错误地导入此字段。 要解决此问题，可以在全球通讯簿中从当事方记录或从 **确认位置所有者** 页更新位置所有者。 要更新单一当事方记录，请转到 **全球通讯簿 > 地址**。 选择 **编辑** 以启动 **编辑地址** 页面，从而更改位置所有者。 选择 **更改位置拥有者** 来查看先前的位置所有者，而当前所选当事方是新位置所有者。 如果先前的位置所有者为空，则意味着未确定位置所有者。 选择 **高级** 选项将打开 **管理地址** 页，也可以在其中设置位置所有者。 选择要更新的位置，然后从菜单中选择 **设置位置所有者**。 要更新多个记录的位置所有者，请转到 **全球通讯簿 > 位置 > 确认位置所有者**。 该列表包含链接到单一当事方的位置，但该当事方不是所有者。 如果选择 **确认所有者**，则将设置将成为链接地址的所有者的 **推荐的拥有当事方 ID**。 将当事方设置为所有者后，可以从当事方记录中编辑链接的地址。 为了更改位置所有者，必须在 **安全配置** 页上为您分配 **设置位置所有者** 特权。  默认情况下，会授予系统管理员此特权。
+
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

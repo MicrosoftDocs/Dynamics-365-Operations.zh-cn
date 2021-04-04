@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8e67a6faf52b51264555b06f56b289d19ca580d6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 39583c244f09f54551d560e8b1dd9f1a5a1590cc
+ms.sourcegitcommit: 72f70c81176e86cda714a4712525f73514c895b7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992487"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "5457321"
 ---
 # <a name="troubleshoot-planning-optimization"></a>计划优化故障排除 
 
@@ -48,12 +48,6 @@ ms.locfileid: "4992487"
 计划优化在某些方面与内置主计划设计不同。 这也可能是待定功能导致的。
 
 **解决方法**：运行计划优化适应分析，然后在引用相关文档了解影响时分析结果。 有关详细信息，请参阅[计划优化拟合分析](planning-optimization-fit-analysis.md)。
-
-## <a name="master-planning-doesnt-respect-the-coverage-time-fence"></a>主计划不遵守覆盖时限
-
-这是计划优化的待定功能导致的。
-
-**解决方法**：待定功能可用之前，筛选或删除计划的订单以将供应建议移出覆盖时限。
 
 ## <a name="cant-enable-planning-optimization"></a>不能启用计划优化
 

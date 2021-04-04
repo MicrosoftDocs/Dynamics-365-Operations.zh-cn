@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DataValidationWorkspace
 audience: Application User
@@ -14,12 +13,12 @@ ms.reviewer: rhaertle
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: 4e50d4c94c0b8468a80ad214a21c8f5e0dedae71
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 1fdc2ae0363690984544c59a356540a9b737956d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092323"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569089"
 ---
 # <a name="data-validation-checklist-workspace"></a>数据验证核对清单工作区
 

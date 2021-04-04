@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec952f8c121f97396c135d10258a6431e8f2257e
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: e3412f446fe9fb8e3c2ca5407b22680dec3c3b82
+ms.sourcegitcommit: 75b432ce9019c81253eb6bd865db905701e28a26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111697"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579323"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Human Resources 中新增或更改的功能
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 每隔两周，我们都会为 Microsoft Dynamics 365 Human Resources 提供新版本。 此处列举的主题详细介绍了每个版本进行的更改。
 
@@ -49,6 +51,8 @@ ms.locfileid: "5111697"
 
 若要了解 Human Resources 的双周版本的中的新增功能或更改的功能，请参阅以下文章：
 
+[三月 8, 2021](hr-whats-new-2021-03-08.md)</br>
+[2021 年 2 月 22 日](hr-whats-new-2021-02-22.md)</br>
 [2021 年 1 月 28 日](hr-whats-new-2021-01-28.md)</br>
 [2021 年 1 月 21 日](hr-whats-new-2021-01-21.md)</br>
 [2020 年 12 月 2 日](hr-whats-new-2020-12-02.md)</br>

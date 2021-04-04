@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 025429c8e6775d20634703853df04d63c0651b98
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 64bcf885fe2f5fca6b91589171b5e539eff2c3e5
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092889"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567084"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>修改模型和映射以生成包含应用程序数据的单据
 
