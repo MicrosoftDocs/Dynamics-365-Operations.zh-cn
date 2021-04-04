@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0fe02a83d05e4b86694c1b210906128ac0cf6a84
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f921d08572038d2ac53948825a8ca2459103b7f7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998420"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245146"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-app"></a>通过仓库应用进行的牌照收货
 

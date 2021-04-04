@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eafce0be07ae21e5bc2db2cf5bb694a9d71a6269
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: f356e02bea0f37686a75b85b059c643af92bb1c0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018434"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257410"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>审核和确认采购订单
 

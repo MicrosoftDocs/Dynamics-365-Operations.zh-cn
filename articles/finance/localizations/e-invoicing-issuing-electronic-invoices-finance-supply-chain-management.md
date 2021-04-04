@@ -3,7 +3,7 @@ title: 在 Finance 和 Supply Chain Management 中开具电子发票
 description: 本主题说明如何通过电子开票附加产品在 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中开具电子发票。
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 02/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 187f5a20d088b4fcd7af2a6576357a69c2efc2c6
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 099ebb56710e920f7b1453f32f23f59a80486ebf
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104349"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5486945"
 ---
 # <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>在 Finance 和 Supply Chain Management 中开具电子发票
 
@@ -35,25 +35,35 @@ ms.locfileid: "5104349"
 
 ## <a name="feature-activation"></a>功能激活
 
-要开始通过电子开票附加产品开具电子发票，必须激活 Finance 和 Supply Chain Management 中的功能引用。
+要通过电子开票附加产品开具电子发票，必须激活 Finance 和 Supply Chain Management 中的相应功能。
 
-每个功能引用对应于一个特定的电子开票功能，该功能符合某个国家/地区的电子开票要求。
+每个功能都对应于一个特定的电子开票功能，该功能符合某个国家/地区的电子开票要求。
 
-下表显示了电子开票附加产品支持的功能引用的列表。
+下表显示了电子开票附加产品可能支持的功能的列表。
 
-| 功能引用 | 姓名                                              | 国家/地区 |
-|-------------------|---------------------------------------------------|----------------|
-| BR-00053          | NF-e 联邦 - 巴西电子发票       | 巴西         |
-| BR-00095          | NFS-e 巴西电子发票               | 巴西         |
-| DK-00001          | 向公共部门开具电子发票 (OIOUBL) – DK    | 丹麦        |
-| EG-00008          | 针对埃及的电子开单                             | 埃及          |
-| ES-00025          | 向公共部门开具的电子发票           | 西班牙          |
-| EUR-00023         | 向公共部门开具的欧盟电子发票       | 欧洲         |
-| ITA-00036         | IT - 向公共部门开具电子发票 (FatturaPA) | 意大利          |
-| MX-00010          | 电子开单 CFDI                                  | 墨西哥         |
-| MX-00016          | 电子开票 CFDI - 取消流程           | 墨西哥         |
+| 姓名                                              | 国家/地区 |
+|---------------------------------------------------|----------------|
+|奥地利电子账单                        |奥地利         |
+|比利时电子账单                         |比利时         |
+|NF-e (联邦) - 电子账单(巴西)       |巴西          |
+|NFS-e - 巴西服务(城市)电子账单|巴西          |
+|丹麦电子账单                          |丹麦         |
+|埃及电子账单                        |埃及           |
+|爱沙尼亚电子账单                        |爱沙尼亚         |
+|芬兰电子账单                         |芬兰         |
+|法国电子账单                          |法国          |
+|德国电子账单                          |德国         |
+|PEPPOL - 全球电子账单                 |全局          |
+|意大利电子账单                         |意大利           |
+|CFDI - 墨西哥电子账单                  |墨西哥          |
+|荷兰电子账单                           |荷兰     |
+|挪威电子账单                       |挪威          |
+|西班牙电子账单                         |西班牙           |
 
-在存在支持国家/地区本地化范围的旧版电子开票功能的情况下，激活功能引用可以通过电子开票附加产品开具电子发票，同时关闭前一个功能。
+在存在国家/地区本地化范围内支持的旧版电子开票功能时，如果激活其中一项功能，则会关闭旧功能，并允许通过电子开票附加产品开具电子发票。
+
+> [!IMPORTANT]
+> 启用电子开票附加产品集成功能后，默认情况下将禁用新电子开票体验。 您可以使用功能概念使用特定于国家/地区的功能选择性地为法人启用新体验。 **全局** 选项针对表中未明确列出的其余县/地区控制新体验。
 
 ## <a name="submit-electronic-documents"></a>提交电子单据
 

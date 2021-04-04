@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7748a18d2b6f612b3ac9ac1a75efb6ae5f13859a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8dfb58c9156df106f58dfdc0ee2e0ef8defb9d9f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993855"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263196"
 ---
 # <a name="troubleshoot-warehouse-replenishment"></a>仓库补货疑难解答
 

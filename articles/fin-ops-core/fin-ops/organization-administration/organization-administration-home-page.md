@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b91963b9ccb5fb339b3c0fc41e8483628135c4c8
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 1c5db94aad99a6ec17a52aee4876d40912a95ce9
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797014"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560743"
 ---
 # <a name="organization-administration-home-page"></a>组织管理主页
 
