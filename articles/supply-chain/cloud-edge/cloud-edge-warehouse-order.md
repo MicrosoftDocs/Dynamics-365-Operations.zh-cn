@@ -19,12 +19,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c04127b9fe621d962be2d7fe06358b3bd1b78916
-ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
+ms.openlocfilehash: 9102f53ab1b63d08b8bba7b0ae505416ec5a83fd
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5105694"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556354"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的仓库订单
 
@@ -51,6 +51,8 @@ ms.locfileid: "5105694"
 1. 转到 **采购 \> 采购订单 \> 所有采购订单**。
 1. 在“操作窗格”上的 **仓库** 选项卡上，在 **操作** 组中，选择 **发放到仓库**。
 1. 要查看相关的仓库订单行，打开相关的采购订单，在 **采购订单行** 部分选择行，然后在工具栏上选择 **仓库 \> 仓库订单行**。 要查看所有行，转到 **仓库管理 \> 查询和报表 \> 仓库订单行**。
+
+您也可以通过转到 **仓库管理 > 发放到仓库 > 自动下达采购订单**，从批处理作业触发 *发放到仓库* 流程。 设置批处理作业时，您可以根据查询选择特定的采购订单行。 一个典型的方案是设置一个重复批处理作业，来发放所有预期在第二天到达的已确认采购订单行。
 
 ## <a name="cancel-a-warehouse-order"></a>取消仓库订单
 

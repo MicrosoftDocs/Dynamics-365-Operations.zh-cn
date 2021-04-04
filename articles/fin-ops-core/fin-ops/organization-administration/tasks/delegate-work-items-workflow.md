@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserSetup, WorkflowDelegationUserListLookup
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48d8fd06217d318fa8208e11ffa5624f6be25be1
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 054e183374d2b24f38b0f90ff90acfeeca013861
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796698"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560547"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>在工作流中委托工作项
 

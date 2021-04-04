@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERExpressionDesignerFormula
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 14eb8a59b64a49649768f93befdf8e6e8dcf8105
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8746340eb886ec797afdd58797a4c5e41f93022f
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685374"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560133"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>电子报告高级公式编辑器
 

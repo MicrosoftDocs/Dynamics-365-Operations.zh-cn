@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 572ee0755e331d19b41442e3614effb92db95a92
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: b89d257e3874ad7395c0a2c02f259c2f063aa8d0
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125417"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500614"
 ---
 # <a name="recruiting-request"></a>招聘请求
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本主题介绍 Dynamics 365 Human Resources 的“招聘请求”实体。
 
@@ -98,7 +100,8 @@ ms.locfileid: "5125417"
 | **工作类型 ID 值**<br>_mshr_fk_jobtype_id_value<br>*GUID* | 只读<br>可选<br>外键：mshr_hcmjobtypenentity 实体的 mshr_hcmjobtypeentityid | 系统生成的与招聘请求的工作关联的工作类型的唯一标识符。 |
 | **免税状态**<br>mshr_exemptstatus<br>*JobExemptStatus* 选项集 | 只读<br>可选 | 基于工作类型的 FLSA 免除情况。 |
 | **估计的开始日期**<br>mshr_estimatedstartdate<br>*日期* | 读/写<br>必填 | 应聘者将开始工作的估计日期。 |
-| **外部描述**<br>mshr_externaldescription<br>*字符串* | 读/写<br>可选 | 面向应聘者的工作/职位描述。 | 薪酬低阈值<br>mshr_compensationlowthreshold<br>*双精度* | 读/写<br>可选 | 薪酬级别的下限。 |
+| **外部描述**<br>mshr_externaldescription<br>*字符串* | 读/写<br>可选 | 面向应聘者的工作/职位描述。 | 
+| **薪酬低阈值**<br>mshr_compensationlowthreshold<br>*双精度* | 读/写<br>可选 | 薪酬级别的下限。 |
 | **薪酬控制点**<br>mshr_compensationcontrolpoint<br>*双精度* | 读/写<br>可选 | 薪酬级别的控制点。 |
 | **薪酬高阈值**<br>mshr_compensationhighthreshold<br>*双精度* | 读/写<br>可选 | 薪酬级别的上限。 |
 | **薪酬级别**<br>mshr_compensationlevelid<br>*字符串* | 读/写<br>可选 | 工作的薪酬级别。 工作可以设置多个薪酬级别。 此属性指示为此请求选择的工作薪酬级别。 |

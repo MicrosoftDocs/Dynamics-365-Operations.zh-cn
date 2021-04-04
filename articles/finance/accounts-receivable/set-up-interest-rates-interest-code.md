@@ -3,7 +3,7 @@ title: 为利息代码设置多种利率
 description: 利息代码包含相关的设置利息时计费，以及如何在逾期科目计算。
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1169a397dfdd32f728a09e2ad279842edc289c19
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5d9ff856e34eb894c5d0ab5fe17c8e95f62fff57
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971620"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555357"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>为利息代码设置多种利率
 
@@ -46,10 +46,19 @@ ms.locfileid: "4971620"
 
 - 利息金额应用于所有币种。
 - 可输入可选利息金额限制。
-- <strong>设置利息代码</strong>页上的<strong>利息计算依据</strong>字段中已选择<strong>百分比</strong>。
+- **设置利息代码** 页上的 **利息计算依据** 字段中已选择 **百分比**。
 
 例如，设置项目 5 的利息每两个月的利息代码发票付款超过交易到期日期，则在 **计算利息间隔** 字段中输入“2”，然后选择 **月**。
 
+> [!NOTE] 
+> 使用功能管理添加了用于利息单计算的新算法。 要使用此算法，请启用 **(GBL) 允许按照年度百分比除以 365 来计算每天利息** 功能。 有关如何启用此功能的信息，请参阅[功能管理概述](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。
+> 
+> 利息单金额的计算公式为： 
+>  
+> 利息单金额 = 欠款额 * 年利率%/365 * 逾期天数
+>  
+> 版本 10.0.18 或更高版本中提供此功能。    
+ 
 ## <a name="interest-rates-based-on-amounts"></a>基于金额的利率
 您可以设置计算针对指定币种的利率金额。
 - 为利息代码中的每个币种指定利息金额。

@@ -18,20 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c10802d66ba9e241a042cc1a0bba01457da20126
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5887ae7983fd817a929a185327671b301808b354
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010091"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478228"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>在 Dynamics 365 Commerce 环境中启用 Azure Data Lake Storage
 
 [!include [banner](includes/banner.md)]
 
 本主题说明如何针对 Dynamics 365 Commerce 环境启用和测试 Azure Data Lake Storage，这是启用产品推荐的先决条件。
-
-## <a name="overview"></a>概览
 
 在 Dynamics 365 Commerce 解决方案中，所有产品和交易信息都在环境的实体商店中进行跟踪。 为了使此数据可供其他 Dynamics 365 服务（例如数据分析、商业智能和个性化建议）访问，必须将环境连接到客户拥有的 Azure Data Lake Storage 第 2 代解决方案。
 

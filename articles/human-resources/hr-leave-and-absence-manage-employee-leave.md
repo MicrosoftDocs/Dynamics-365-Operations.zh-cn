@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
-ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
+ms.openlocfilehash: 42d51ffe14442e076bafc99035dbd68a555e5b92
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "4970648"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468051"
 ---
 # <a name="manage-employee-leave"></a>管理员工休假
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 您可以按休假类型管理员工的休假。 这包括终止休假登记和调整休假类型余额。 
 

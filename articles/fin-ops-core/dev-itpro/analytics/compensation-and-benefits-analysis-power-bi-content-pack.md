@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 69149f55371f64b4907f6040e9de03843fc11717
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 07a8be0a4c333e9d465341d9384e4b9a706f9e75
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687198"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559813"
 ---
 # <a name="compensation-and-benefits-power-bi-content"></a>薪酬和福利 Power BI 内容
 
@@ -30,7 +29,7 @@ ms.locfileid: "4687198"
 此主题描述薪酬和福利 Power BI 内容。 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>此内容包中包含的报表
-在连接内容包到您的数据后，报表将显示组织的数据。 如果您之前从未使用 Microsoft Power BI，请可以通过 [Power BI 的指导学习页](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData)了解更多相关信息。 此内容包中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
+在连接内容包到您的数据后，报表将显示组织的数据。 如果您之前从未使用 Microsoft Power BI，可以通过 [Power BI 的指导学习页](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData)了解更多相关信息。 此内容包中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
 
 | 报告                     | 内容                                                                                                                              |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|

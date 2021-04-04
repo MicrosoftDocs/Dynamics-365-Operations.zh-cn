@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8756dc22ffd64f836740124ce08dadca84207147
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078235"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501094"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>替代生产中的默认材料预留原则
 
@@ -38,11 +39,11 @@ ms.locfileid: "5078235"
 此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
 
 - **模块**：*生产控制*
-- **功能名称**：*替代默认生产预留*
+- **功能名称**：*（预览）替代默认生产预留*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>将生产预留策略分配给物料模型组
 
-1. 转到 **成本管理 &gt; 库存会计政策设置 &gt; 物料模型组**。
+1. 转到 **成本管理 \> 库存会计政策设置 \> 物料模型组**。
 1. 创建或选择一个物料模型组。
 1. 在 **库存策略** 快速选项卡上，选中 **替代物料生产预留** 复选框。
 1. 在 **预留** 字段中，为属于所选模型组的物料选择预留原则。 （这些物料包括 BOM 行或配方行上的物料。）

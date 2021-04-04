@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 6fbd0ead6d73f4b032bdc3805fce87ec9c802535
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0b7756aebac2b8f0881c95b27e5a7c845557be4c
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006152"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477552"
 ---
-# <a name="task-management-overview"></a>任务管理概述
+# <a name="task-management-overview"></a>任务管理概览
 
 [!include [banner](includes/banner.md)]
 
 此主题概述 Microsoft Dynamics 365 Commerce 中适用于经理和工作人员的任务管理。
-
-## <a name="overview"></a>概览
 
 在零售环境中，始终很难确保正确的人在正确的时间执行任务。 零售商必须可以通知工作人员很快应该执行的任务，并提供相关业务上下文，以便正确、及时完成任务。
 

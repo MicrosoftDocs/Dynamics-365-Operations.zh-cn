@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/09/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: d192343d78f9248e4d1232d6aee1a1f800383805
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b93e5f15e281c20f8688d496fc78f8b46b8aa996
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679312"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560353"
 ---
 # <a name="integrated-sites-and-warehouses"></a>集成的站点和仓库
 

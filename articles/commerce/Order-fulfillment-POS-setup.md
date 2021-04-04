@@ -16,18 +16,16 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d6cfa0d1eba4ccb0b24839b7cc632835b17107e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2519dcaf657b495a494b6f45f93930d980d89a65
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965300"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477796"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>设置商店订单履行
 
 [!include [banner](includes/banner.md)]
-
-## <a name="overview"></a>概览
 
 许多零售商希望通过让商店填写订单的方式优化订单履行。 商店级别的订单履行有助于缓解特定商店的存货过剩情况，或者当商店产能过剩或与客户之间的装运距离较短时，从物流的角度而言具有必要性。 为了解决此需求，在销售点提供了统一订单履行操作。
 

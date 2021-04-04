@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirAddressBook, DirAddressBookTeam, DirParameters, DirPartyTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f0a53e1f9b378759e0c5adbe0612a5fa8cddc82
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 0a0613b944d0446e339480a71fa890702190ed53
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796938"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559957"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>全球通讯簿和其他通讯簿的计划
 

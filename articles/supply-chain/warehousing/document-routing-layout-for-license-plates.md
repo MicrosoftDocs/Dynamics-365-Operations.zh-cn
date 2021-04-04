@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 66ba73ab5c790aa4a67419842f63f6f741bf0d3a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7c20d3d0540f8f1a05928df9aff5253745982da9
+ms.sourcegitcommit: 4ecc1bf82fbb04882d7ef5e1994ef3c07ef953dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973752"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5558254"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>牌照标签的文档路线选择布局
 
 [!include [banner](../includes/banner.md)]
+
 
 文档路线选择布局定义牌照标签的布局，以及其上印刷的数据。 请在设置移动设备菜单项和工作模板时配置打印触发点。
 
@@ -51,6 +52,10 @@ ms.locfileid: "4973752"
 若要查看将打印的值，请转到 **仓库管理 \> 查看和报表 \> 牌照标签**。
 
 几种广泛使用的标签生成工具可帮助您设置标签布局的文本的格式。 这些工具中许多都支持 `$FieldName$` 格式。 此外，Microsoft Dynamics 365 Supply Chain Management 在文档路线选择布局的字段映射中使用特殊格式设置逻辑。
+
+## <a name="turn-on-this-feature-for-your-system"></a>为您的系统启用此功能
+
+如果您的系统尚未包含本主题中所述的功能，请转到 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *增强的牌照标签布局* 功能。
 
 ## <a name="custom-number-formats"></a>自定义数字格式
 
