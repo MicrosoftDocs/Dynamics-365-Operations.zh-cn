@@ -17,30 +17,33 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa0d73790a20f3fe5bb76b87e635b1f16e034479
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6a340df57a6073c6d9b6f2cdaadbf8f21fc11649
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976108"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5241034"
 ---
-# <a name="fixed-asset-acquisition-posting-accounts"></a><span data-ttu-id="7afab-103">固定资产购置过帐帐户</span><span class="sxs-lookup"><span data-stu-id="7afab-103">Fixed asset acquisition posting accounts</span></span>
+# <a name="fixed-asset-acquisition-posting-accounts"></a><span data-ttu-id="90f0d-103">固定资产购置过帐帐户</span><span class="sxs-lookup"><span data-stu-id="90f0d-103">Fixed asset acquisition posting accounts</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="7afab-104">本文说明如何为购置资产设置总帐过帐科目。</span><span class="sxs-lookup"><span data-stu-id="7afab-104">This article explains how to set up general ledger posting accounts for acquiring assets.</span></span>
+<span data-ttu-id="90f0d-104">本文说明如何为购置资产设置总帐过帐科目。</span><span class="sxs-lookup"><span data-stu-id="90f0d-104">This article explains how to set up general ledger posting accounts for acquiring assets.</span></span>
 
-<span data-ttu-id="7afab-105">用于过帐固定资产购置的帐户根据用于购置资产的方法而变。</span><span class="sxs-lookup"><span data-stu-id="7afab-105">Accounts used for posting fixed asset acquisitions may vary depending upon the method used to acquire the asset.</span></span> <span data-ttu-id="7afab-106">在“固定资产过帐模板”页上，在“会计科目”选项卡上，选择“购置”和“购置调整”以设置要过帐到分类帐的固定资产科目。</span><span class="sxs-lookup"><span data-stu-id="7afab-106">On the Fixed asset posting profiles page, on the Ledger accounts tab, select Acquisition and Acquisition adjustment to set up fixed asset accounts to post to the ledger.</span></span> 
+<span data-ttu-id="90f0d-105">用于过帐固定资产购置的帐户根据用于购置资产的方法而变。</span><span class="sxs-lookup"><span data-stu-id="90f0d-105">Accounts used for posting fixed asset acquisitions may vary depending upon the method used to acquire the asset.</span></span> <span data-ttu-id="90f0d-106">在“固定资产过帐模板”页上，在“会计科目”选项卡上，选择“购置”和“购置调整”以设置要过帐到分类帐的固定资产科目。</span><span class="sxs-lookup"><span data-stu-id="90f0d-106">On the Fixed asset posting profiles page, on the Ledger accounts tab, select Acquisition and Acquisition adjustment to set up fixed asset accounts to post to the ledger.</span></span> 
 
-<span data-ttu-id="7afab-107">在日志中和采购订单上，“会计科目”通常是资产负债表科目，在其中将借记新固定资产的购置价格。</span><span class="sxs-lookup"><span data-stu-id="7afab-107">In journals and on purchase orders, Ledger account is typically the balance sheet account, where the acquisition value of the new fixed asset is debited.</span></span> <span data-ttu-id="7afab-108">此科目不会显示在日志中并且无法在交易记录中被替换。</span><span class="sxs-lookup"><span data-stu-id="7afab-108">This account is not displayed in the journal and cannot be replaced in transactions.</span></span> 
+<span data-ttu-id="90f0d-107">在日志中和采购订单上，“会计科目”通常是资产负债表科目，在其中将借记新固定资产的购置价格。</span><span class="sxs-lookup"><span data-stu-id="90f0d-107">In journals and on purchase orders, Ledger account is typically the balance sheet account, where the acquisition value of the new fixed asset is debited.</span></span> <span data-ttu-id="90f0d-108">此科目不会显示在日志中并且无法在交易记录中被替换。</span><span class="sxs-lookup"><span data-stu-id="90f0d-108">This account is not displayed in the journal and cannot be replaced in transactions.</span></span> 
 
-<span data-ttu-id="7afab-109">“对方科目”也是资产负债表科目。</span><span class="sxs-lookup"><span data-stu-id="7afab-109">Offset account is also a balance sheet account.</span></span> <span data-ttu-id="7afab-110">在一般日志和固定资产日志中，此科目通常将是用于支付资产购置费用的银行帐户。</span><span class="sxs-lookup"><span data-stu-id="7afab-110">In the general journal and in the fixed assets journal, this account often will be the bank account that is used to pay for the acquisition of the asset.</span></span> <span data-ttu-id="7afab-111">对方科目是在日志中建议的默认科目。</span><span class="sxs-lookup"><span data-stu-id="7afab-111">The offset account is a default account, which is suggested in the journals.</span></span> <span data-ttu-id="7afab-112">如果该固定资产从供应商处购买，则可以在日志中将其更改为从会计科目表到供应商帐户的任何其他科目。</span><span class="sxs-lookup"><span data-stu-id="7afab-112">It can be changed in the journal to any other account from the chart of accounts or to a vendor account, if the fixed asset was purchase from a vendor.</span></span> 
+<span data-ttu-id="90f0d-109">“对方科目”也是资产负债表科目。</span><span class="sxs-lookup"><span data-stu-id="90f0d-109">Offset account is also a balance sheet account.</span></span> <span data-ttu-id="90f0d-110">在一般日志和固定资产日志中，此科目通常将是用于支付资产购置费用的银行帐户。</span><span class="sxs-lookup"><span data-stu-id="90f0d-110">In the general journal and in the fixed assets journal, this account often will be the bank account that is used to pay for the acquisition of the asset.</span></span> <span data-ttu-id="90f0d-111">对方科目是在日志中建议的默认科目。</span><span class="sxs-lookup"><span data-stu-id="90f0d-111">The offset account is a default account, which is suggested in the journals.</span></span> <span data-ttu-id="90f0d-112">如果该固定资产从供应商处购买，则可以在日志中将其更改为从会计科目表到供应商帐户的任何其他科目。</span><span class="sxs-lookup"><span data-stu-id="90f0d-112">It can be changed in the journal to any other account from the chart of accounts or to a vendor account, if the fixed asset was purchase from a vendor.</span></span> 
 
-<span data-ttu-id="7afab-113">当应付帐款中的发票日记帐或采购订单用于固定资产购置时，固定资产交易记录的对方科目由为该交易记录选择的供应商帐户所替代。</span><span class="sxs-lookup"><span data-stu-id="7afab-113">When Invoice journal or Purchase orders in Accounts payable are used for fixed asset acquisitions, the offset account for the fixed asset transaction is replaced by the vendor account that is selected for the transaction.</span></span>
+<span data-ttu-id="90f0d-113">当应付帐款中的发票日记帐或采购订单用于固定资产购置时，固定资产交易记录的对方科目由为该交易记录选择的供应商帐户所替代。</span><span class="sxs-lookup"><span data-stu-id="90f0d-113">When Invoice journal or Purchase orders in Accounts payable are used for fixed asset acquisitions, the offset account for the fixed asset transaction is replaced by the vendor account that is selected for the transaction.</span></span>
 
-<span data-ttu-id="7afab-114">对于在“总帐”中使用“库存转为固定资产日记帐”过帐的购置，固定资产不是从外部购买的，而是从公司自己的库存转移的。</span><span class="sxs-lookup"><span data-stu-id="7afab-114">For acquisitions posted using the Inventory to fixed assets journal in General ledger, the fixed asset is not bought from external sources, but transferred from the company's own inventory.</span></span> <span data-ttu-id="7afab-115">因此，对方科目是库存管理中的库存物料的发货科目。</span><span class="sxs-lookup"><span data-stu-id="7afab-115">Therefore, the offset account is an inventory issue account for the inventory item in Inventory management.</span></span>
+<span data-ttu-id="90f0d-114">对于在“总帐”中使用“库存转为固定资产日记帐”过帐的购置，固定资产不是从外部购买的，而是从公司自己的库存转移的。</span><span class="sxs-lookup"><span data-stu-id="90f0d-114">For acquisitions posted using the Inventory to fixed assets journal in General ledger, the fixed asset is not bought from external sources, but transferred from the company's own inventory.</span></span> <span data-ttu-id="90f0d-115">因此，对方科目是库存管理中的库存物料的发货科目。</span><span class="sxs-lookup"><span data-stu-id="90f0d-115">Therefore, the offset account is an inventory issue account for the inventory item in Inventory management.</span></span>
 
-<span data-ttu-id="7afab-116">有关详细信息，请参阅[通过采购购置资产](acquire-assets-procurement.md)。</span><span class="sxs-lookup"><span data-stu-id="7afab-116">For more information, see [Acquire assets through procurement](acquire-assets-procurement.md).</span></span>
+<span data-ttu-id="90f0d-116">有关详细信息，请参阅[通过采购购置资产](acquire-assets-procurement.md)。</span><span class="sxs-lookup"><span data-stu-id="90f0d-116">For more information, see [Acquire assets through procurement](acquire-assets-procurement.md).</span></span>
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
