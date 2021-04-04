@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 155dc720804196ccc44fad5eaf71e3563a9c68cf
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 1cea3b6cfd42348285985122ae905f8ea9f3facb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022550"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260026"
 ---
 # <a name="calculate-item-forecast"></a>计算物料预测
 

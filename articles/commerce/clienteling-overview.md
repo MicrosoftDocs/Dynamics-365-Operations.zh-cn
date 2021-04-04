@@ -3,7 +3,7 @@ title: 客户服务解决方案概述
 description: 此主题提供商店应用程序中可用的新客户服务解决方案功能的概览。
 author: bebeale
 manager: AnnBe
-ms.date: 01/29/2021
+ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 206031f5ddbaedb2b581a452fe8979252647f0c4
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 8f3135d0a34086b67c6e5ce11a5af47a51479c92
+ms.sourcegitcommit: 8a14eac1c27f10c2b1b02ac9ad82339f5e127602
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097247"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "5554986"
 ---
 # <a name="clienteling-overview"></a>客户服务解决方案概览
 
@@ -32,7 +32,7 @@ ms.locfileid: "5097247"
 
 许多零售商，尤其是高端专业零售商，都希望其销售助理与重要客户建立长期关系。 助理需要了解这些客户的好恶、购买历史、产品偏好以及重要日期，例如周年纪念日和生日。 助理需要一个可以捕获这些信息并在需要时轻松找到它们的地方。 如果可以在单个视图中获得这些信息，助理则可以轻松地定位满足特定条件的客户。 例如，他们可以找到所有喜欢购买手提包的客户，或者近期有重要事件（例如生日或周年纪念日）的客户。
 
-## <a name="client-book"></a>客户手册
+## <a name="client-book"></a>客户端帐簿
 
 在 Microsoft Dynamics 365 Commerce 中，零售商可以使用客户手册功能来帮助售货员与重要客户建立长期关系。
 

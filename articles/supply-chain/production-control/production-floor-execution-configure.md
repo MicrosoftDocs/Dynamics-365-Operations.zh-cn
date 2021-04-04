@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5077469"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556306"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 
@@ -41,7 +42,8 @@ ms.locfileid: "5077469"
 
 ### <a name="the-production-floor-execution-interface"></a>生产车间执行界面
 
-这是此主题中所述的主要功能。 它将生产车间执行界面添加到您的系统。 要启用它，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：  
+这是此主题中所述的主要功能。 它将生产车间执行界面添加到您的系统。 要启用它，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
+
 - 生产车间执行
 
 ### <a name="generate-license-plates"></a>生成牌照
@@ -79,6 +81,7 @@ ms.locfileid: "5077469"
 
 接下来，配置所选设备配置的各种设置。 提供以下字段：
 
+- **仅上下班打卡** - 将此选项设置为 *是* 将创建仅提供上班打卡和下班打卡功能的简化界面。 这将禁用此页面上的大多数其他选项。 您必须先从 **选项卡选择** 快速选项卡中删除所有行，然后才能启用此选项。
 - **在下班打卡时报告数量** – 将此选项设置为 *是* 以提示工作人员在下班打卡时报告有关正在进行的作业的反馈。当此选项设置为 *否* 时，不会提示工作人员。
 - **锁定员工** – 当此选项设置为 *否* 时，在工作人员进行登记（例如新作业）后，他们将立即注销。 然后，设备将返回到登录页面。 当此选项设置为 *是* 时，工作人员将在作业卡设备中保持登录状态。 但是，工作人员可以手动注销，以便其他工作人员可以在作业卡设备继续在同一系统用户帐户下运行的同时登录。 有关这些帐户的类型的详细信息，请参阅[指定的用户](config-job-card-device.md#assigned-users)。
 - **使用实际登记时间** – 将此选项设置为 *是* 以将每个新登记的时间设置为工作人员提交登记时的确切时间。 当此选项设置为 *否* 时，改为使用登录时间。 如果您在工作人员通常在更长时间内保持登录状态的情况下已将 **锁定员工** 和/或 **单个工作人员** 选项设置为 *是*，通常需要将此选项设置为 *是*。

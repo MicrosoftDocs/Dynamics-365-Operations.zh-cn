@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 40d657a02df0cba66918a6853ec62621501cfdfe
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3d5dad766f4c01e993dd77dd762595b29208c6cb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989785"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264738"
 ---
 # <a name="cancel-a-master-planning-job"></a>取消主计划作业
 

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e2ffd12011b133bb13b69b49d6e894c6a887a8a0
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142315"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487017"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>安装和连接仓库管理移动应用
 
@@ -31,11 +31,9 @@ ms.locfileid: "5142315"
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> 本主题介绍如何配置新的仓库管理移动应用，此应用当前处于公开预览阶段。 如果要查找有关如何配置旧仓库应用的信息，请参阅[安装和连接仓库应用](../../supply-chain/warehousing/install-configure-warehousing-app.md)。
+> 本主题介绍如何配置新的仓库管理移动应用。 如果要查找有关如何配置旧仓库应用的信息，请参阅[安装和连接仓库应用](../../supply-chain/warehousing/install-configure-warehousing-app.md)。
 
-可以在 Microsoft App Center 上下载仓库管理移动应用的公开预览版。 其以独立组件的形式提供。 因此，必须将其下载到每个设备，然后进行配置以连接到 Microsoft Dynamics 365 Supply Chain Management 环境。
-
-本主题说明如何在每个移动设备上安装仓库管理移动应用，以及如何进行配置以将其连接到 Supply Chain Management 环境。 可以手动配置每个设备，也可以通过文件或使用 QR 代码导入连接字符串。
+本主题说明如何在每个移动设备上下载和安装仓库管理移动应用，以及如何配置应用来将其连接到 Supply Chain Management 环境。 可以手动配置每个设备，也可以通过文件或使用 QR 代码导入连接字符串。
 
 ## <a name="system-requirements"></a>系统要求
 
@@ -53,17 +51,27 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>获取仓库管理移动应用
 
-使用以下链接之一下载该应用：
+对于较小部署，通常可能在每个设备上从相关商店安装此应用，然后手动配置与您在使用的环境之间的连接。
 
-- **Windows (UWP)**：[App Center 预览计划 - Windows](https://go.microsoft.com/fwlink/?linkid=2154406)
+对于较大部署，您可以自动化应用部署和/或配置，如果您管理很多设备，这样会更加方便。 例如，您可能使用移动设备管理和移动应用程序管理解决方案，如 [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune)。 有关如何使用 Intune 添加应用程序的信息，请参阅[向 Microsoft Intune 添加应用](https://docs.microsoft.com/mem/intune/apps/apps-add)。
 
-    由于此应用是预览应用，因此需要一些额外的步骤来安装它。 有关详细信息，请参阅[从 App Center 安装版本](https://docs.microsoft.com/appcenter/distribution/installation)。
+### <a name="install-the-app-from-an-app-store"></a>从应用商店安装应用
 
-- **Android**：[App Center 预览计划 - Android](https://go.microsoft.com/fwlink/?linkid=2154613)
+在单个设备上安装应用的最简单方法是从应用商店安装，应用商店始终会提供最新的正式发布版本。 Microsoft Intune 也可以从应用商店获取应用。 使用以下链接之一从应用商店安装应用：
 
-    由于此应用是预览应用，因此需要一些额外的步骤来安装它。 有关详细信息，请参阅[测试 Android 应用](https://docs.microsoft.com/appcenter/distribution/testers/testing-android)。
+- **Windows (UWP)**：[Microsoft Store 中的仓库管理](https://www.microsoft.com/store/apps/9pd35cdqcmg3)
 
-对于较小部署，可能需要在每个设备上从相关商店安装此应用，然后手动配置与您在使用的环境之间的连接。 不过，您也可以自动执行应用部署和/或配置。 如果管理大量设备，并且在使用移动设备管理和移动应用程序管理解决方案（如 [Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune)），可能会发现这种方法非常方便。 有关如何使用 Intune 添加应用程序的信息，请参阅[向 Microsoft Intune 添加应用](https://docs.microsoft.com/mem/intune/apps/apps-add)。
+- **Android**：[Google Play 商店中的仓库管理](https://play.google.com/store/apps/details?id=com.Microsoft.WarehouseManagement)
+
+### <a name="download-the-app-from-microsoft-app-center"></a>从 Microsoft App Center 下载应用
+
+作为从应用商店安装的替代方法，您可以从 Microsoft App Center 下载应用。 App Center 提供可以旁加载的可安装包。 除了当前版本外，App Center 还允许您下载以前的版本，而且可以提供包含您可以试用的即将发布功能的预览版本。要从 Microsoft App Center 下载仓库管理移动应用的当前、先前或预览版本，请使用以下链接之一：
+
+- **Windows (UWP)**：[仓库管理 (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+    有关如何在 Windows 设备上安装下载的包然后设置所需证书的说明，请参阅[从 App Center 安装版本](https://docs.microsoft.com/appcenter/distribution/installation)。
+
+- **Android**：[仓库管理 (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+    如果您下载预览版，需要执行一些额外的步骤进行安装。 有关详细信息，请参阅[测试 Android 应用](https://docs.microsoft.com/appcenter/distribution/testers/testing-android)。
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>在 Azure Active Directory 中创建 Web 服务应用程序
 

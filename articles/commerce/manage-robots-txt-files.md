@@ -16,21 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2e25a584121b700e566c29dbfe3fbbd72bf998cc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: afd7982179dc9845c9adc24e8c7c9951a04460a3
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982533"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477700"
 ---
 # <a name="manage-robotstxt-files"></a>管理 robots.txt 文件
-
 
 [!include [banner](includes/banner.md)]
 
 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中管理 robots.txt 文件。
-
-## <a name="overview"></a>概览
 
 机器人排除标准或 robots.txt 是网站用于与 Web 机器人通信的标准。 它通知 Web 机器人有关网站上不应访问的区域的信息。 机器人经常被搜索引擎用来为网站建立索引。
 

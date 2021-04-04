@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirParameters
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4dcee425fc1225dcfcf8ba4282f4176acfeaa268
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 0c9b622be242669a08690cd1d026fa043855ff5b
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796794"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560643"
 ---
 # <a name="configure-the-global-address-book"></a>配置全球通讯簿
 

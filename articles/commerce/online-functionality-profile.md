@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 1b0afeabfecb60672156692f3cd809445624020c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cb9d78a945132c913dcb8a5d5b41eaacd1a6db3b
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969968"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477724"
 ---
 # <a name="create-an-online-functionality-profile"></a>创建在线功能配置文件
-
 
 [!include [banner](includes/banner.md)]
 
 本主题概述为 Microsoft Dynamics 365 Commerce 设置在线功能配置文件的过程。
-
-## <a name="overview"></a>概览
 
 在线功能配置文件提供了用于在线渠道的各种设置。 每个在线渠道必须指定一个在线功能配置文件。
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1aadd17b35992af1e79750427fae62e9bd4ff7a
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 6cda6166bff926e362ee35221b9c204c2ead5503
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111610"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464144"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>员工和经理自助服务概述
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本文提供了员工和经理自助服务工作区的概述。
 

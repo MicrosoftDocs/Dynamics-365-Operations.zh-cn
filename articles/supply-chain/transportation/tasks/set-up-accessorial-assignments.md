@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28562772c52d06fbb2004bd3a01a7bfa32f58a4e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eed109551762ff2e120ab4362c6ca0f01f71d0c2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974027"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233743"
 ---
 # <a name="set-up-accessorial-assignments"></a>设置附属分配
 

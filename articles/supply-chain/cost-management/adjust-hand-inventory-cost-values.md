@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a702a083d60bdb289712027fbaee5c0a72e60cb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 66323e99c04a141aa5dc5ab828e0e261c61b83ce
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963830"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254327"
 ---
 # <a name="adjust-on-hand-inventory-cost-values"></a>调整现有库存量成本价值
 

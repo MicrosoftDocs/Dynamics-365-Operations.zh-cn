@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1c1524c7a1a3fbe71c51b23571996d87641cdf7e
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 71324d4aa2d20dd6ae4729412a017d130ab0144f
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093204"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5563721"
 ---
 # <a name="when-to-reset-a-data-mart"></a>何时重置数据市场
 

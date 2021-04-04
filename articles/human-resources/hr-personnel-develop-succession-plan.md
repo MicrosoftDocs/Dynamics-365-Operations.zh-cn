@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 203dbc5463bfcc4249e9ed73802a9a1fc153f260
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 4e4b33e72d1d1dd9cb78a251281abd3e125c3665
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130197"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466320"
 ---
 # <a name="develop-a-succession-plan"></a>制订继任计划
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 随着组织的发展，您必须开始继任计划。 在继任计划期间，您可能想要找到与另一个人具有相似技能的人。 技能表允许您分析现有的员工和申请人，以查看他们是否符合一个有价值的员工的技能集。 创建此程序的演示数据公司是 USMF。
 

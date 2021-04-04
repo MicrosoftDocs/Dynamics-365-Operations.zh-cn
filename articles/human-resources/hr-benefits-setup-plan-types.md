@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e24c11fb6e84a7480a40b706b106cd8465470f5c
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 1d8db6900e6b697e988e2a7e9e31828b70e4ad0d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111627"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463904"
 ---
 # <a name="create-plan-types"></a>创建计划类型
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Microsoft Dynamics 365 Human Resources 中的计划类型是特定福利类型的高级分组。 每个计划类型都有一个计划类型代码，用于确定该计划类型的规则。 例如，计划类型“基本人寿”将具有计划类型代码 Life，因为它是一种人寿保险计划，必须符合为 Life 计划类型代码建立的规则。 另一种计划类型可能是“补充人寿”，也具有计划类型代码 Life。
 

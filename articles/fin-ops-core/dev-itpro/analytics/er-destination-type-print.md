@@ -3,10 +3,9 @@ title: 打印机 ER 目标类型
 description: 本主题说明如何为电子报告 (ER) 格式的每个文件夹或文件组件配置打印机目标。
 author: NickSelin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: c6e298f62ec69f349eb713d66313e535c7e01881
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 19613d9dfba21d591d96a2df45bedb80c043b3a7
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094071"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561942"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>打印机目标
 
@@ -48,8 +47,6 @@ ms.locfileid: "5094071"
 只能对用于以可打印 PDF 格式（PDF 合并器或 PDF 文件格式元素）或 Microsoft Office Excel/Word 格式（Excel 文件）生成输出的文件组件配置 **打印机** 目标。 以 PDF 格式生成输出时，会将其发送到打印机。 以 Microsoft Office 格式生成输出时，它会自动转换为 PDF 格式，然后发送到打印机。
 
 ### <a name="limitations"></a>限制
-
-此功能是预览功能，并受 [Microsoft Dynamics 365 Previews 补充使用条款](https://go.microsoft.com/fwlink/?linkid=2105274)中所描述的使用条款约束。
 
 系统仅针对云部署实施了 **打印机** 目标。
 

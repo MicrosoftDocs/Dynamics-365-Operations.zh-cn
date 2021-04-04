@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b2f2f7d95d3f0e6bd774c43024836aac1f729abd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 70ea2638408296df283a030dedce03b22cb57d81
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977630"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248731"
 ---
 # <a name="prospect-to-cash"></a>现金的目标客户
 

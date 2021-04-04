@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6ccfbe30e9d4a0fc4580c7036d222bfca9203a21
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d4e7476e6c1b0ac404caf32f198a4a62e1dd1200
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996318"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251785"
 ---
 # <a name="confirm-and-transfer"></a>确认并转移
 

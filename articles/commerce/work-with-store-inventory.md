@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 616fb8975543344657c00c419ce7279658694675
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 43625d17e0e2827396edb69a1d1d73a8472294ea
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989468"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252526"
 ---
 # <a name="commerce-inventory-management"></a>Commerce 库存管理
 

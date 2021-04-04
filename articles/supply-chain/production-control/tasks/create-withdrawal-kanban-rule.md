@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1694472e20c28a0b0f94c1ced8544b7258c22b40
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d1e1fc6dff80457cecdcd1659ffa42fd6c9c4447
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007083"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263986"
 ---
 # <a name="create-a-withdrawal-kanban-rule"></a>创建提款看板规则
 
