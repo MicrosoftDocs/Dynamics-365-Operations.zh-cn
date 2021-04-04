@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: b40b71eb45ae5a95a732c9554356afcddecb750e
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744605"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5566805"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>解决实时同步问题
 

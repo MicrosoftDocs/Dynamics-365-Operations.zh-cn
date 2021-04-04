@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e2e0da1c724269e0956be2f402b34ff376ed1990
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 0a8ee5c16e2292481e24ada4853eed9a6824ef2d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094096"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562014"
 ---
 # <a name="email-er-destination-type"></a>电子邮件 ER 目标类型
 

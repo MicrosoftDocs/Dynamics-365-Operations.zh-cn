@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 11/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FormRunConfigurationAddPAControl, FormRunConfigurationEditPAControl
 audience: Application User, Developer, IT Pro
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: fbdd4dd1bb0b850319b12e55b0e68d6fdc516ad6
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: f8c7ad4322de594a06a09102c8eb7d09299d1d71
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798369"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564776"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>从 Power Apps 嵌入画布应用
 

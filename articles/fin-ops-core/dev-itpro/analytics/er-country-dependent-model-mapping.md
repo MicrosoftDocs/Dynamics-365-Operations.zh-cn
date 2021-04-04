@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: a9035f128a1db4bcd126f09c0fe30c1857fa884a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 48d2e3c81d038cc55f6f100f3081561506946199
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680867"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562278"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>配置依赖于国家/地区上下文的 ER 模型映射
 

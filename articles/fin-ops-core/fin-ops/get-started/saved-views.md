@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, IT Pro
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 54f8c4bcac53f7cceb25f73b24311e93884be95d
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: eaf3c530553d2908f14829a31537927c3306400a
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5077441"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5566390"
 ---
 # <a name="saved-views"></a>保存的视图
 

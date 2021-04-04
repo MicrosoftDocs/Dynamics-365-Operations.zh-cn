@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0e92ae41a3e0f03cb14d4791ab768f096f2a0523
-ms.sourcegitcommit: e8a46e127d70986539c138b27a641bff6f6874d0
+ms.openlocfilehash: 612590dacc1887b87677c12eddaef42660a7a154
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "4739059"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561534"
 ---
 # <a name="base64stringtocontainer-er-function"></a>Base64StringToContainer ER 函数
 

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 02/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 132d1be340d2b9966b45fc30cd6409cfcdf7c805
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e42ecd26cf17da5958255c2015da16d9ec44e388
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797127"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5566853"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Finance and Operations 应用中的新增功能或更改的功能主页
 

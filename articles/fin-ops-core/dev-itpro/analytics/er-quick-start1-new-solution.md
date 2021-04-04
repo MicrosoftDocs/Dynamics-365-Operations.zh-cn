@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c5bbfae36fb15437f2baadc66663cbfdb28691e8
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680234"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562603"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>设计新的 ER 解决方案打印自定义报表
 

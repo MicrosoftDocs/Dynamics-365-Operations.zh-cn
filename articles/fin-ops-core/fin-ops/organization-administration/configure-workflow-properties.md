@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3cb5dc59373b7af76fffa1b1c59728c84dfb5fb
-ms.sourcegitcommit: fd62ab3d399b0d6ea0d362f1d403a300e84a576d
+ms.openlocfilehash: 40118f329a676ffb30870eb882d127e3eb258599
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5067615"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5566959"
 ---
 # <a name="configure-workflow-properties"></a>配置工作流属性
 

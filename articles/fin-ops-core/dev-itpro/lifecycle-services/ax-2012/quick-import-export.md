@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: dynamics-ax-2012
-ms.service: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 2012 R3 CU8
-ms.openlocfilehash: c5425f53ba66b4123457154386bf51342697fbd1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 57d0ce9d483f4c849855e4247b4fd0fd067abb1b
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683194"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565298"
 ---
 # <a name="quick-import-export"></a>快速导入/导出
 
