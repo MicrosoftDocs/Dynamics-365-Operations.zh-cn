@@ -16,36 +16,39 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28562772c52d06fbb2004bd3a01a7bfa32f58a4e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eed109551762ff2e120ab4362c6ca0f01f71d0c2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974027"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233743"
 ---
-# <a name="set-up-accessorial-assignments"></a><span data-ttu-id="9ef0e-103">设置附属分配</span><span class="sxs-lookup"><span data-stu-id="9ef0e-103">Set up accessorial assignments</span></span>
+# <a name="set-up-accessorial-assignments"></a><span data-ttu-id="fca07-103">设置附属分配</span><span class="sxs-lookup"><span data-stu-id="fca07-103">Set up accessorial assignments</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="9ef0e-104">此过程显示如何设置附属分配。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-104">This procedure shows how to set up an accessorial assignment.</span></span> <span data-ttu-id="9ef0e-105">这通常由运输协调员完成。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="9ef0e-106">您需要运行“设置运输中心附加费用和附属主数据”指南才能使用该指南。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-106">Before you use this guide you need to run the "Set up hub accessorial charges and accessorial masters" guide.</span></span>
+<span data-ttu-id="fca07-104">此过程显示如何设置附属分配。</span><span class="sxs-lookup"><span data-stu-id="fca07-104">This procedure shows how to set up an accessorial assignment.</span></span> <span data-ttu-id="fca07-105">这通常由运输协调员完成。</span><span class="sxs-lookup"><span data-stu-id="fca07-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="fca07-106">您需要运行“设置运输中心附加费用和附属主数据”指南才能使用该指南。</span><span class="sxs-lookup"><span data-stu-id="fca07-106">Before you use this guide you need to run the "Set up hub accessorial charges and accessorial masters" guide.</span></span>
 
 
-## <a name="set-up-accessorial-assignment"></a><span data-ttu-id="9ef0e-107">设置附属分配</span><span class="sxs-lookup"><span data-stu-id="9ef0e-107">Set up Accessorial assignment</span></span>
-1. <span data-ttu-id="9ef0e-108">转到“运输管理”>“设置”>“分级”>“附属分配”。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-108">Go to Transportation management > Setup > Rating > Accessorial assignments.</span></span>
-2. <span data-ttu-id="9ef0e-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-109">Click New.</span></span>
-3. <span data-ttu-id="9ef0e-110">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-110">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="9ef0e-111">切换“详细信息”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-111">Toggle the expansion of the Details section.</span></span>
-5. <span data-ttu-id="9ef0e-112">在“中心”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-112">In the Hub field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="9ef0e-113">在列表中，选择您在“设置中心附加费用和附属主数据”指南中为附属主数据创建的中心。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-113">In the list, select the Hub that you created an accessorial master for when you ran the "Set up hub accessorial charges and accessorial masters" guide.</span></span> 
-7. <span data-ttu-id="9ef0e-114">在“中心附属 ID”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-114">In the Hub accessorial ID field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="9ef0e-115">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-115">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="9ef0e-116">切换“标准”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-116">Toggle the expansion of the Criteria section.</span></span>
-    * <span data-ttu-id="9ef0e-117">在“条件”部分，您可以根据所提供的不同值，选择费用适用时的确切标准。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-117">In the Criteria section you can choose the exact criteria for when the charge should apply, based on the different values offered here.</span></span>  
-10. <span data-ttu-id="9ef0e-118">将“始终应用”选项设为“是”。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-118">Set the Always apply option to Yes.</span></span>
-11. <span data-ttu-id="9ef0e-119">在“附属分配水平”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-119">In the Accessorial assignment level field, select an option.</span></span>
-12. <span data-ttu-id="9ef0e-120">切换“计算”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-120">Toggle the expansion of the Calculation section.</span></span>
-13. <span data-ttu-id="9ef0e-121">在“附加费用类型”字段中，选择“统一”。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-121">In the Accessorial fee type field, select 'Flat'.</span></span>
-    * <span data-ttu-id="9ef0e-122">附加费用类型确定如何计算实际成本。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-122">The Accessorial fee type determines how to calculate the actual charge.</span></span> <span data-ttu-id="9ef0e-123">在此示例中，此为统一收费。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-123">In this example it's a flat charge.</span></span>  
-14. <span data-ttu-id="9ef0e-124">在“附加费用”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-124">In the Accessorial fee field, enter a number.</span></span>
-15. <span data-ttu-id="9ef0e-125">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="9ef0e-125">Click Save.</span></span>
+## <a name="set-up-accessorial-assignment"></a><span data-ttu-id="fca07-107">设置附属分配</span><span class="sxs-lookup"><span data-stu-id="fca07-107">Set up Accessorial assignment</span></span>
+1. <span data-ttu-id="fca07-108">转到“运输管理”>“设置”>“分级”>“附属分配”。</span><span class="sxs-lookup"><span data-stu-id="fca07-108">Go to Transportation management > Setup > Rating > Accessorial assignments.</span></span>
+2. <span data-ttu-id="fca07-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="fca07-109">Click New.</span></span>
+3. <span data-ttu-id="fca07-110">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="fca07-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="fca07-111">切换“详细信息”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="fca07-111">Toggle the expansion of the Details section.</span></span>
+5. <span data-ttu-id="fca07-112">在“中心”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="fca07-112">In the Hub field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="fca07-113">在列表中，选择您在“设置中心附加费用和附属主数据”指南中为附属主数据创建的中心。</span><span class="sxs-lookup"><span data-stu-id="fca07-113">In the list, select the Hub that you created an accessorial master for when you ran the "Set up hub accessorial charges and accessorial masters" guide.</span></span> 
+7. <span data-ttu-id="fca07-114">在“中心附属 ID”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="fca07-114">In the Hub accessorial ID field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="fca07-115">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="fca07-115">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="fca07-116">切换“标准”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="fca07-116">Toggle the expansion of the Criteria section.</span></span>
+    * <span data-ttu-id="fca07-117">在“条件”部分，您可以根据所提供的不同值，选择费用适用时的确切标准。</span><span class="sxs-lookup"><span data-stu-id="fca07-117">In the Criteria section you can choose the exact criteria for when the charge should apply, based on the different values offered here.</span></span>  
+10. <span data-ttu-id="fca07-118">将“始终应用”选项设为“是”。</span><span class="sxs-lookup"><span data-stu-id="fca07-118">Set the Always apply option to Yes.</span></span>
+11. <span data-ttu-id="fca07-119">在“附属分配水平”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="fca07-119">In the Accessorial assignment level field, select an option.</span></span>
+12. <span data-ttu-id="fca07-120">切换“计算”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="fca07-120">Toggle the expansion of the Calculation section.</span></span>
+13. <span data-ttu-id="fca07-121">在“附加费用类型”字段中，选择“统一”。</span><span class="sxs-lookup"><span data-stu-id="fca07-121">In the Accessorial fee type field, select 'Flat'.</span></span>
+    * <span data-ttu-id="fca07-122">附加费用类型确定如何计算实际成本。</span><span class="sxs-lookup"><span data-stu-id="fca07-122">The Accessorial fee type determines how to calculate the actual charge.</span></span> <span data-ttu-id="fca07-123">在此示例中，此为统一收费。</span><span class="sxs-lookup"><span data-stu-id="fca07-123">In this example it's a flat charge.</span></span>  
+14. <span data-ttu-id="fca07-124">在“附加费用”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="fca07-124">In the Accessorial fee field, enter a number.</span></span>
+15. <span data-ttu-id="fca07-125">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="fca07-125">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

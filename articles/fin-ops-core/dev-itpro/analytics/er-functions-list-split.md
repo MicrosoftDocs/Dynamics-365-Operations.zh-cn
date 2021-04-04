@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,71 +16,74 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1f11d68b697fdd363f429e60a79f1e1f97bab5b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 806a0995f0c138f4e80396bb993bc6f41bc7c827
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686384"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567334"
 ---
-# <a name="split-er-function"></a><span data-ttu-id="1b4ba-103">SPLIT ER 函数</span><span class="sxs-lookup"><span data-stu-id="1b4ba-103">SPLIT ER function</span></span>
+# <a name="split-er-function"></a><span data-ttu-id="41ff4-103">SPLIT ER 函数</span><span class="sxs-lookup"><span data-stu-id="41ff4-103">SPLIT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="1b4ba-104">`SPLIT` 函数将指定的输入字符串拆分为子字符串，并将结果作为新的 *记录列表* 值返回。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-104">The `SPLIT` function splits the specified input string into substrings and returns the result as a new *Record list* value.</span></span>
+<span data-ttu-id="41ff4-104">`SPLIT` 函数将指定的输入字符串拆分为子字符串，并将结果作为新的 *记录列表* 值返回。</span><span class="sxs-lookup"><span data-stu-id="41ff4-104">The `SPLIT` function splits the specified input string into substrings and returns the result as a new *Record list* value.</span></span>
 
-## <a name="syntax-1"></a><span data-ttu-id="1b4ba-105">语法 1</span><span class="sxs-lookup"><span data-stu-id="1b4ba-105">Syntax 1</span></span>
+## <a name="syntax-1"></a><span data-ttu-id="41ff4-105">语法 1</span><span class="sxs-lookup"><span data-stu-id="41ff4-105">Syntax 1</span></span>
 
 ```vb
 SPLIT (input, length)
 ```
 
-<span data-ttu-id="1b4ba-106">此语法用于拆分指定的输入字符串为子字符串，每个子字符串具有指定的长度。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-106">This syntax is used to split the specified input string into substrings, each of which has the specified length.</span></span>
+<span data-ttu-id="41ff4-106">此语法用于拆分指定的输入字符串为子字符串，每个子字符串具有指定的长度。</span><span class="sxs-lookup"><span data-stu-id="41ff4-106">This syntax is used to split the specified input string into substrings, each of which has the specified length.</span></span>
 
-## <a name="syntax-2"></a><span data-ttu-id="1b4ba-107">语法 2</span><span class="sxs-lookup"><span data-stu-id="1b4ba-107">Syntax 2</span></span>
+## <a name="syntax-2"></a><span data-ttu-id="41ff4-107">语法 2</span><span class="sxs-lookup"><span data-stu-id="41ff4-107">Syntax 2</span></span>
 
 ```vb
 SPLIT (input, delimiter)
 ```
 
-<span data-ttu-id="1b4ba-108">此语法用于根据指定的分隔符拆分指定的输入字符串为子字符串。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-108">This syntax is used to split the specified input string into substrings, based on the specified delimiter.</span></span>
+<span data-ttu-id="41ff4-108">此语法用于根据指定的分隔符拆分指定的输入字符串为子字符串。</span><span class="sxs-lookup"><span data-stu-id="41ff4-108">This syntax is used to split the specified input string into substrings, based on the specified delimiter.</span></span>
 
-## <a name="arguments"></a><span data-ttu-id="1b4ba-109">参数</span><span class="sxs-lookup"><span data-stu-id="1b4ba-109">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="41ff4-109">参数</span><span class="sxs-lookup"><span data-stu-id="41ff4-109">Arguments</span></span>
 
-<span data-ttu-id="1b4ba-110">`input`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="1b4ba-110">`input`: *String*</span></span>
+<span data-ttu-id="41ff4-110">`input`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="41ff4-110">`input`: *String*</span></span>
 
-<span data-ttu-id="1b4ba-111">要拆分的文本。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-111">The text to split.</span></span>
+<span data-ttu-id="41ff4-111">要拆分的文本。</span><span class="sxs-lookup"><span data-stu-id="41ff4-111">The text to split.</span></span>
 
-<span data-ttu-id="1b4ba-112">`length`：*整数*</span><span class="sxs-lookup"><span data-stu-id="1b4ba-112">`length`: *Integer*</span></span>
+<span data-ttu-id="41ff4-112">`length`：*整数*</span><span class="sxs-lookup"><span data-stu-id="41ff4-112">`length`: *Integer*</span></span>
 
-<span data-ttu-id="1b4ba-113">单个子字符串的最大长度。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-113">The maximum length of a single substring.</span></span>
+<span data-ttu-id="41ff4-113">单个子字符串的最大长度。</span><span class="sxs-lookup"><span data-stu-id="41ff4-113">The maximum length of a single substring.</span></span>
 
-<span data-ttu-id="1b4ba-114">`delimiter`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="1b4ba-114">`delimiter`: *String*</span></span>
+<span data-ttu-id="41ff4-114">`delimiter`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="41ff4-114">`delimiter`: *String*</span></span>
 
-<span data-ttu-id="1b4ba-115">用于分隔子字符串的分隔符。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-115">A delimiter that is used to separate substrings.</span></span>
+<span data-ttu-id="41ff4-115">用于分隔子字符串的分隔符。</span><span class="sxs-lookup"><span data-stu-id="41ff4-115">A delimiter that is used to separate substrings.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="1b4ba-116">返回值</span><span class="sxs-lookup"><span data-stu-id="1b4ba-116">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="41ff4-116">返回值</span><span class="sxs-lookup"><span data-stu-id="41ff4-116">Return values</span></span>
 
-<span data-ttu-id="1b4ba-117">*记录列表*</span><span class="sxs-lookup"><span data-stu-id="1b4ba-117">*Record list*</span></span>
+<span data-ttu-id="41ff4-117">*记录列表*</span><span class="sxs-lookup"><span data-stu-id="41ff4-117">*Record list*</span></span>
 
-<span data-ttu-id="1b4ba-118">生成的记录列表。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-118">The resulting list of records.</span></span>
+<span data-ttu-id="41ff4-118">生成的记录列表。</span><span class="sxs-lookup"><span data-stu-id="41ff4-118">The resulting list of records.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="1b4ba-119">使用说明</span><span class="sxs-lookup"><span data-stu-id="1b4ba-119">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="41ff4-119">使用说明</span><span class="sxs-lookup"><span data-stu-id="41ff4-119">Usage notes</span></span>
 
-<span data-ttu-id="1b4ba-120">返回的列表的记录结构包括 *字符串* 类型的 **值** 字段。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-120">The record structure of the list that is returned consists of the **Value** field of the *String* type.</span></span> <span data-ttu-id="1b4ba-121">返回的列表的每个记录在此字段中都包含生成的子字符串。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-121">Every record of the list that is returned contains generated substrings in this field.</span></span>
+<span data-ttu-id="41ff4-120">返回的列表的记录结构包括 *字符串* 类型的 **值** 字段。</span><span class="sxs-lookup"><span data-stu-id="41ff4-120">The record structure of the list that is returned consists of the **Value** field of the *String* type.</span></span> <span data-ttu-id="41ff4-121">返回的列表的每个记录在此字段中都包含生成的子字符串。</span><span class="sxs-lookup"><span data-stu-id="41ff4-121">Every record of the list that is returned contains generated substrings in this field.</span></span>
 
-<span data-ttu-id="1b4ba-122">如果 `delimiter` 参数是空的，返回的新列表将包括一个具有 *字符串* 类型的 **值** 字段的记录。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-122">If the `delimiter` argument is empty, the new list that is returned consists of one record that has the **Value** field of the *String* type.</span></span> <span data-ttu-id="1b4ba-123">此字段包含输入文本。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-123">This field contains the input text.</span></span>
+<span data-ttu-id="41ff4-122">如果 `delimiter` 参数是空的，返回的新列表将包括一个具有 *字符串* 类型的 **值** 字段的记录。</span><span class="sxs-lookup"><span data-stu-id="41ff4-122">If the `delimiter` argument is empty, the new list that is returned consists of one record that has the **Value** field of the *String* type.</span></span> <span data-ttu-id="41ff4-123">此字段包含输入文本。</span><span class="sxs-lookup"><span data-stu-id="41ff4-123">This field contains the input text.</span></span>
 
-<span data-ttu-id="1b4ba-124">如果 `input` 参数为空，新的空列表将返回。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-124">If the `input` argument is empty, a new empty list is returned.</span></span> <span data-ttu-id="1b4ba-125">如果 `input` 或 `delimiter` 参数未指定（空），将引发应用程序异常。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-125">If either the `input` or `delimiter` argument is unspecified (null), an application exception is thrown.</span></span>
+<span data-ttu-id="41ff4-124">如果 `input` 参数为空，新的空列表将返回。</span><span class="sxs-lookup"><span data-stu-id="41ff4-124">If the `input` argument is empty, a new empty list is returned.</span></span> <span data-ttu-id="41ff4-125">如果 `input` 或 `delimiter` 参数未指定（空），将引发应用程序异常。</span><span class="sxs-lookup"><span data-stu-id="41ff4-125">If either the `input` or `delimiter` argument is unspecified (null), an application exception is thrown.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="1b4ba-126">示例 1</span><span class="sxs-lookup"><span data-stu-id="1b4ba-126">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="41ff4-126">示例 1</span><span class="sxs-lookup"><span data-stu-id="41ff4-126">Example 1</span></span>
 
-<span data-ttu-id="1b4ba-127">`SPLIT ("abcd", 3)` 返回包含具有 *字符串* 类型的 **值** 字段的两个记录的新列表。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-127">`SPLIT ("abcd", 3)` returns a new list that consists of two records that have the **Value** field of the *String* type.</span></span> <span data-ttu-id="1b4ba-128">第一个记录中的 **值** 字段包含文本 **"abc"**，第二个记录中的 **值** 字段包含文本 **"d"**。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-128">The **Value** field in the first record contains the text **"abc"**, and the **Value** field in the second record contains the text **"d"**.</span></span>
+<span data-ttu-id="41ff4-127">`SPLIT ("abcd", 3)` 返回包含具有 *字符串* 类型的 **值** 字段的两个记录的新列表。</span><span class="sxs-lookup"><span data-stu-id="41ff4-127">`SPLIT ("abcd", 3)` returns a new list that consists of two records that have the **Value** field of the *String* type.</span></span> <span data-ttu-id="41ff4-128">第一个记录中的 **值** 字段包含文本 **"abc"**，第二个记录中的 **值** 字段包含文本 **"d"**。</span><span class="sxs-lookup"><span data-stu-id="41ff4-128">The **Value** field in the first record contains the text **"abc"**, and the **Value** field in the second record contains the text **"d"**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="1b4ba-129">示例 2</span><span class="sxs-lookup"><span data-stu-id="1b4ba-129">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="41ff4-129">示例 2</span><span class="sxs-lookup"><span data-stu-id="41ff4-129">Example 2</span></span>
 
-<span data-ttu-id="1b4ba-130">`SPLIT ("XAb aBy", "aB")` 返回包含具有 *字符串* 类型的 **值** 字段的三个记录的新列表。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-130">`SPLIT ("XAb aBy", "aB")` returns a new list that consists of three records that have the **Value** field of the *String* type.</span></span> <span data-ttu-id="1b4ba-131">第一个记录中的 **值** 字段包含文本 **"X"**，第二个记录中的 **值** 字段包含文本 **"&nbsp;"**，第三个记录中的 **值** 字段包含文本 **"y"**。</span><span class="sxs-lookup"><span data-stu-id="1b4ba-131">The **Value** field in the first record contains the text **"X"**, the **Value** field in the second record contains the text **"&nbsp;"**, and the **Value** field in the third record contains the text **"y"**.</span></span> 
+<span data-ttu-id="41ff4-130">`SPLIT ("XAb aBy", "aB")` 返回包含具有 *字符串* 类型的 **值** 字段的三个记录的新列表。</span><span class="sxs-lookup"><span data-stu-id="41ff4-130">`SPLIT ("XAb aBy", "aB")` returns a new list that consists of three records that have the **Value** field of the *String* type.</span></span> <span data-ttu-id="41ff4-131">第一个记录中的 **值** 字段包含文本 **"X"**，第二个记录中的 **值** 字段包含文本 **"&nbsp;"**，第三个记录中的 **值** 字段包含文本 **"y"**。</span><span class="sxs-lookup"><span data-stu-id="41ff4-131">The **Value** field in the first record contains the text **"X"**, the **Value** field in the second record contains the text **"&nbsp;"**, and the **Value** field in the third record contains the text **"y"**.</span></span> 
 
-## <a name="additional-resources"></a><span data-ttu-id="1b4ba-132">其他资源</span><span class="sxs-lookup"><span data-stu-id="1b4ba-132">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="41ff4-132">其他资源</span><span class="sxs-lookup"><span data-stu-id="41ff4-132">Additional resources</span></span>
 
-[<span data-ttu-id="1b4ba-133">列表函数</span><span class="sxs-lookup"><span data-stu-id="1b4ba-133">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="41ff4-133">列表函数</span><span class="sxs-lookup"><span data-stu-id="41ff4-133">List functions</span></span>](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
