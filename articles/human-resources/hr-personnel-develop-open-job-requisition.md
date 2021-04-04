@@ -16,53 +16,57 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: da6f9caaabcba81549eddf5cafcf02dc2b0dc2cd
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 858c97e1563dac59f3dd5aff7191427f104d7aed
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5129559"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467763"
 ---
-# <a name="create-and-open-job-requisition"></a><span data-ttu-id="93e67-103">创建和开放工作申请</span><span class="sxs-lookup"><span data-stu-id="93e67-103">Create and open job requisition</span></span>
+# <a name="create-and-open-job-requisition"></a><span data-ttu-id="9f0a1-103">创建和开放工作申请</span><span class="sxs-lookup"><span data-stu-id="9f0a1-103">Create and open job requisition</span></span>
 
-<span data-ttu-id="93e67-104">招聘项目帮助您管理您的招聘流程。</span><span class="sxs-lookup"><span data-stu-id="93e67-104">Recruitment projects help you manage your recruiting process.</span></span> <span data-ttu-id="93e67-105">创建招聘项目后，您可以执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="93e67-105">After creating a recruitment project, you can do the following tasks:</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-- <span data-ttu-id="93e67-106">为项目撰写工作广告。</span><span class="sxs-lookup"><span data-stu-id="93e67-106">Write a job advertisement for the project.</span></span>
-- <span data-ttu-id="93e67-107">在员工自助服务页上发布广告。</span><span class="sxs-lookup"><span data-stu-id="93e67-107">Publish the ad on Employee self-service pages.</span></span>
-- <span data-ttu-id="93e67-108">将雇用申请与项目关联。</span><span class="sxs-lookup"><span data-stu-id="93e67-108">Associate applications for employment with the project.</span></span>
-- <span data-ttu-id="93e67-109">跟踪该项目的活动。</span><span class="sxs-lookup"><span data-stu-id="93e67-109">Track activities for that project.</span></span> 
+<span data-ttu-id="9f0a1-104">招聘项目帮助您管理您的招聘流程。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-104">Recruitment projects help you manage your recruiting process.</span></span> <span data-ttu-id="9f0a1-105">创建招聘项目后，您可以执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="9f0a1-105">After creating a recruitment project, you can do the following tasks:</span></span>
 
-1. <span data-ttu-id="93e67-110">转到 **人力资源 > 招聘 > 招聘项目 > 招聘项目**。</span><span class="sxs-lookup"><span data-stu-id="93e67-110">Go to **Human resources > Recruitment > Recruitment projects > Recruitment projects**.</span></span>
-2. <span data-ttu-id="93e67-111">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="93e67-111">Select **New**.</span></span>
-3. <span data-ttu-id="93e67-112">在 **招聘项目** 字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="93e67-112">In the **Recruitment project** field, enter a value.</span></span>
-4. <span data-ttu-id="93e67-113">在 **描述** 字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="93e67-113">In the **Description** field, enter a value.</span></span>
-5. <span data-ttu-id="93e67-114">在 **招聘人员** 字段中，选择下拉按钮打开查找。</span><span class="sxs-lookup"><span data-stu-id="93e67-114">In the **Recruiter** field, select the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="93e67-115">在列表中，找到并选择您的记录。</span><span class="sxs-lookup"><span data-stu-id="93e67-115">In the list, find and select your record.</span></span>
-7. <span data-ttu-id="93e67-116">在列表中，选择所选择行中的链接。</span><span class="sxs-lookup"><span data-stu-id="93e67-116">In the list, select the link in the selected row.</span></span>
-8. <span data-ttu-id="93e67-117">选择 **选择**。</span><span class="sxs-lookup"><span data-stu-id="93e67-117">Choose **Select**.</span></span>
-9. <span data-ttu-id="93e67-118">在“部门”字段中，选择下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="93e67-118">In the Department field, select the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="93e67-119">在列表中，选择所选择行中的链接。</span><span class="sxs-lookup"><span data-stu-id="93e67-119">In the list, select the link in the selected row.</span></span>
-11. <span data-ttu-id="93e67-120">在 **工作** 字段中，选择下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="93e67-120">In the **Job** field, select the drop-down button to open the lookup.</span></span>
-12. <span data-ttu-id="93e67-121">在列表中，找到并选择您的记录。</span><span class="sxs-lookup"><span data-stu-id="93e67-121">In the list, find and select your record.</span></span>
-13. <span data-ttu-id="93e67-122">在列表中，选择所选择行中的链接。</span><span class="sxs-lookup"><span data-stu-id="93e67-122">In the list, select the link in the selected row.</span></span>
-14. <span data-ttu-id="93e67-123">在 **空缺数量字段** 中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="93e67-123">In the **Number of openings field**, enter a number.</span></span>
-15. <span data-ttu-id="93e67-124">在 **招聘经理** 字段中，选择下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="93e67-124">In the **Hiring manager** field, select the drop-down button to open the lookup.</span></span>
-16. <span data-ttu-id="93e67-125">在列表中，找到并选择您的记录。</span><span class="sxs-lookup"><span data-stu-id="93e67-125">In the list, find and select your record.</span></span>
-17. <span data-ttu-id="93e67-126">在列表中，选择所选择行中的链接。</span><span class="sxs-lookup"><span data-stu-id="93e67-126">In the list, select the link in the selected row.</span></span>
-18. <span data-ttu-id="93e67-127">选择 **选择**。</span><span class="sxs-lookup"><span data-stu-id="93e67-127">Choose **Select**.</span></span>
-19. <span data-ttu-id="93e67-128">在 **申请截止日期** 字段中，输入日期。</span><span class="sxs-lookup"><span data-stu-id="93e67-128">In the **Application deadline** field, enter a date.</span></span>
-20. <span data-ttu-id="93e67-129">选择 **媒体**。</span><span class="sxs-lookup"><span data-stu-id="93e67-129">Select **Media**.</span></span> <span data-ttu-id="93e67-130">招聘项目包括选择指定媒体使用广告公开职位。</span><span class="sxs-lookup"><span data-stu-id="93e67-130">Recruitment projects include the option to specify media outlets to use to advertise open positions.</span></span>  
-21. <span data-ttu-id="93e67-131">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="93e67-131">Select **New**.</span></span>
-22. <span data-ttu-id="93e67-132">在 **媒体** 字段中，选择下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="93e67-132">In the **Media** field, select the drop-down button to open the lookup.</span></span>
-23. <span data-ttu-id="93e67-133">在列表中，选择所选择行中的链接。</span><span class="sxs-lookup"><span data-stu-id="93e67-133">In the list, select the link in the selected row.</span></span>
-24. <span data-ttu-id="93e67-134">在 **开始日期** 字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="93e67-134">In the **Start date** field, enter a date.</span></span>
-25. <span data-ttu-id="93e67-135">在 **结束日期** 字段中，输入日期。</span><span class="sxs-lookup"><span data-stu-id="93e67-135">In the **End date** field, enter a date.</span></span>
-26. <span data-ttu-id="93e67-136">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="93e67-136">Select **Save**.</span></span>
-27. <span data-ttu-id="93e67-137">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="93e67-137">Close the page.</span></span>
-28. <span data-ttu-id="93e67-138">选择工作广告。</span><span class="sxs-lookup"><span data-stu-id="93e67-138">Select Job ads.</span></span>
-29. <span data-ttu-id="93e67-139">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="93e67-139">Select **Save**.</span></span>
-30. <span data-ttu-id="93e67-140">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="93e67-140">Close the page.</span></span>
-31. <span data-ttu-id="93e67-141">选中或取消选中 **在员工自助服务中显示** 复选框。</span><span class="sxs-lookup"><span data-stu-id="93e67-141">Check or uncheck the **Display on employee self-service** checkbox.</span></span> <span data-ttu-id="93e67-142">选中 **在员工自助服务中显示** 复选框。</span><span class="sxs-lookup"><span data-stu-id="93e67-142">Select the **Display on employee self-service** check box.</span></span> <span data-ttu-id="93e67-143">此选择让招聘项目在员工的“员工自助服务”页面上对他们可见。</span><span class="sxs-lookup"><span data-stu-id="93e67-143">This selection makes the recruitment project visible to employees on their Employee self-service pages.</span></span>
-32. <span data-ttu-id="93e67-144">选择 **招聘项目状态**。</span><span class="sxs-lookup"><span data-stu-id="93e67-144">Select **Recruitment project status**.</span></span>
-33. <span data-ttu-id="93e67-145">选择 **开始**。</span><span class="sxs-lookup"><span data-stu-id="93e67-145">Select **Start**.</span></span> <span data-ttu-id="93e67-146">**已开始** 状态表示项目即将收到申请。</span><span class="sxs-lookup"><span data-stu-id="93e67-146">The **Started** status means that the project is ready to receive applications.</span></span>  
-34. <span data-ttu-id="93e67-147">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="93e67-147">Select **OK**.</span></span>
+- <span data-ttu-id="9f0a1-106">为项目撰写工作广告。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-106">Write a job advertisement for the project.</span></span>
+- <span data-ttu-id="9f0a1-107">在员工自助服务页上发布广告。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-107">Publish the ad on Employee self-service pages.</span></span>
+- <span data-ttu-id="9f0a1-108">将雇用申请与项目关联。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-108">Associate applications for employment with the project.</span></span>
+- <span data-ttu-id="9f0a1-109">跟踪该项目的活动。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-109">Track activities for that project.</span></span> 
+
+1. <span data-ttu-id="9f0a1-110">转到 **人力资源 > 招聘 > 招聘项目 > 招聘项目**。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-110">Go to **Human resources > Recruitment > Recruitment projects > Recruitment projects**.</span></span>
+2. <span data-ttu-id="9f0a1-111">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-111">Select **New**.</span></span>
+3. <span data-ttu-id="9f0a1-112">在 **招聘项目** 字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-112">In the **Recruitment project** field, enter a value.</span></span>
+4. <span data-ttu-id="9f0a1-113">在 **描述** 字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-113">In the **Description** field, enter a value.</span></span>
+5. <span data-ttu-id="9f0a1-114">在 **招聘人员** 字段中，选择下拉按钮打开查找。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-114">In the **Recruiter** field, select the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="9f0a1-115">在列表中，找到并选择您的记录。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-115">In the list, find and select your record.</span></span>
+7. <span data-ttu-id="9f0a1-116">在列表中，选择所选择行中的链接。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-116">In the list, select the link in the selected row.</span></span>
+8. <span data-ttu-id="9f0a1-117">选择 **选择**。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-117">Choose **Select**.</span></span>
+9. <span data-ttu-id="9f0a1-118">在“部门”字段中，选择下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-118">In the Department field, select the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="9f0a1-119">在列表中，选择所选择行中的链接。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-119">In the list, select the link in the selected row.</span></span>
+11. <span data-ttu-id="9f0a1-120">在 **工作** 字段中，选择下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-120">In the **Job** field, select the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="9f0a1-121">在列表中，找到并选择您的记录。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-121">In the list, find and select your record.</span></span>
+13. <span data-ttu-id="9f0a1-122">在列表中，选择所选择行中的链接。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-122">In the list, select the link in the selected row.</span></span>
+14. <span data-ttu-id="9f0a1-123">在 **空缺数量字段** 中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-123">In the **Number of openings field**, enter a number.</span></span>
+15. <span data-ttu-id="9f0a1-124">在 **招聘经理** 字段中，选择下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-124">In the **Hiring manager** field, select the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="9f0a1-125">在列表中，找到并选择您的记录。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-125">In the list, find and select your record.</span></span>
+17. <span data-ttu-id="9f0a1-126">在列表中，选择所选择行中的链接。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-126">In the list, select the link in the selected row.</span></span>
+18. <span data-ttu-id="9f0a1-127">选择 **选择**。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-127">Choose **Select**.</span></span>
+19. <span data-ttu-id="9f0a1-128">在 **申请截止日期** 字段中，输入日期。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-128">In the **Application deadline** field, enter a date.</span></span>
+20. <span data-ttu-id="9f0a1-129">选择 **媒体**。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-129">Select **Media**.</span></span> <span data-ttu-id="9f0a1-130">招聘项目包括选择指定媒体使用广告公开职位。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-130">Recruitment projects include the option to specify media outlets to use to advertise open positions.</span></span>  
+21. <span data-ttu-id="9f0a1-131">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-131">Select **New**.</span></span>
+22. <span data-ttu-id="9f0a1-132">在 **媒体** 字段中，选择下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-132">In the **Media** field, select the drop-down button to open the lookup.</span></span>
+23. <span data-ttu-id="9f0a1-133">在列表中，选择所选择行中的链接。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-133">In the list, select the link in the selected row.</span></span>
+24. <span data-ttu-id="9f0a1-134">在 **开始日期** 字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-134">In the **Start date** field, enter a date.</span></span>
+25. <span data-ttu-id="9f0a1-135">在 **结束日期** 字段中，输入日期。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-135">In the **End date** field, enter a date.</span></span>
+26. <span data-ttu-id="9f0a1-136">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-136">Select **Save**.</span></span>
+27. <span data-ttu-id="9f0a1-137">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-137">Close the page.</span></span>
+28. <span data-ttu-id="9f0a1-138">选择工作广告。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-138">Select Job ads.</span></span>
+29. <span data-ttu-id="9f0a1-139">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-139">Select **Save**.</span></span>
+30. <span data-ttu-id="9f0a1-140">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-140">Close the page.</span></span>
+31. <span data-ttu-id="9f0a1-141">选中或取消选中 **在员工自助服务中显示** 复选框。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-141">Check or uncheck the **Display on employee self-service** checkbox.</span></span> <span data-ttu-id="9f0a1-142">选中 **在员工自助服务中显示** 复选框。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-142">Select the **Display on employee self-service** check box.</span></span> <span data-ttu-id="9f0a1-143">此选择让招聘项目在员工的“员工自助服务”页面上对他们可见。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-143">This selection makes the recruitment project visible to employees on their Employee self-service pages.</span></span>
+32. <span data-ttu-id="9f0a1-144">选择 **招聘项目状态**。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-144">Select **Recruitment project status**.</span></span>
+33. <span data-ttu-id="9f0a1-145">选择 **开始**。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-145">Select **Start**.</span></span> <span data-ttu-id="9f0a1-146">**已开始** 状态表示项目即将收到申请。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-146">The **Started** status means that the project is ready to receive applications.</span></span>  
+34. <span data-ttu-id="9f0a1-147">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="9f0a1-147">Select **OK**.</span></span>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,41 +16,44 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccb52d7d88f292720360ae913ead5be239165193
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f6c2777065656affc992a427194286008c1df42f
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687662"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559192"
 ---
-# <a name="emptylist-er-function"></a><span data-ttu-id="0ac1e-103">EMPTYLIST ER 函数</span><span class="sxs-lookup"><span data-stu-id="0ac1e-103">EMPTYLIST ER function</span></span>
+# <a name="emptylist-er-function"></a><span data-ttu-id="a3079-103">EMPTYLIST ER 函数</span><span class="sxs-lookup"><span data-stu-id="a3079-103">EMPTYLIST ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0ac1e-104">`EMPTYLIST` 函数通过使用指定的列表作为列表结构的来源返回空 *记录列表* 值。</span><span class="sxs-lookup"><span data-stu-id="0ac1e-104">The `EMPTYLIST` function returns an empty *Record list* value by using the specified list as a source for the list structure.</span></span>
+<span data-ttu-id="a3079-104">`EMPTYLIST` 函数通过使用指定的列表作为列表结构的来源返回空 *记录列表* 值。</span><span class="sxs-lookup"><span data-stu-id="a3079-104">The `EMPTYLIST` function returns an empty *Record list* value by using the specified list as a source for the list structure.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0ac1e-105">语法</span><span class="sxs-lookup"><span data-stu-id="0ac1e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a3079-105">语法</span><span class="sxs-lookup"><span data-stu-id="a3079-105">Syntax</span></span>
 
 ```vb
 EMPTYLIST (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="0ac1e-106">参数</span><span class="sxs-lookup"><span data-stu-id="0ac1e-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="a3079-106">参数</span><span class="sxs-lookup"><span data-stu-id="a3079-106">Arguments</span></span>
 
-<span data-ttu-id="0ac1e-107">`list`：*记录列表*</span><span class="sxs-lookup"><span data-stu-id="0ac1e-107">`list`: *Record list*</span></span>
+<span data-ttu-id="a3079-107">`list`：*记录列表*</span><span class="sxs-lookup"><span data-stu-id="a3079-107">`list`: *Record list*</span></span>
 
-<span data-ttu-id="0ac1e-108">*记录列表* 数据类型的数据源的有效路径。</span><span class="sxs-lookup"><span data-stu-id="0ac1e-108">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="a3079-108">*记录列表* 数据类型的数据源的有效路径。</span><span class="sxs-lookup"><span data-stu-id="a3079-108">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="0ac1e-109">返回值</span><span class="sxs-lookup"><span data-stu-id="0ac1e-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="a3079-109">返回值</span><span class="sxs-lookup"><span data-stu-id="a3079-109">Return values</span></span>
 
-<span data-ttu-id="0ac1e-110">*记录列表*</span><span class="sxs-lookup"><span data-stu-id="0ac1e-110">*Record list*</span></span>
+<span data-ttu-id="a3079-110">*记录列表*</span><span class="sxs-lookup"><span data-stu-id="a3079-110">*Record list*</span></span>
 
-<span data-ttu-id="0ac1e-111">生成的记录列表。</span><span class="sxs-lookup"><span data-stu-id="0ac1e-111">The resulting list of records.</span></span>
+<span data-ttu-id="a3079-111">生成的记录列表。</span><span class="sxs-lookup"><span data-stu-id="a3079-111">The resulting list of records.</span></span>
 
-## <a name="example"></a><span data-ttu-id="0ac1e-112">示例</span><span class="sxs-lookup"><span data-stu-id="0ac1e-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a3079-112">示例</span><span class="sxs-lookup"><span data-stu-id="a3079-112">Example</span></span>
 
-<span data-ttu-id="0ac1e-113">`EMPTYLIST (SPLIT ("abc", 1))` 返回具有与使用的 `SPLIT` 函数返回的列表相同结构的新空列表。</span><span class="sxs-lookup"><span data-stu-id="0ac1e-113">`EMPTYLIST (SPLIT ("abc", 1))` returns a new empty list that has the same structure as the list that is returned by the `SPLIT` function that is used.</span></span>
+<span data-ttu-id="a3079-113">`EMPTYLIST (SPLIT ("abc", 1))` 返回具有与使用的 `SPLIT` 函数返回的列表相同结构的新空列表。</span><span class="sxs-lookup"><span data-stu-id="a3079-113">`EMPTYLIST (SPLIT ("abc", 1))` returns a new empty list that has the same structure as the list that is returned by the `SPLIT` function that is used.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="0ac1e-114">其他资源</span><span class="sxs-lookup"><span data-stu-id="0ac1e-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="a3079-114">其他资源</span><span class="sxs-lookup"><span data-stu-id="a3079-114">Additional resources</span></span>
 
-[<span data-ttu-id="0ac1e-115">列表函数</span><span class="sxs-lookup"><span data-stu-id="0ac1e-115">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="a3079-115">列表函数</span><span class="sxs-lookup"><span data-stu-id="a3079-115">List functions</span></span>](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
