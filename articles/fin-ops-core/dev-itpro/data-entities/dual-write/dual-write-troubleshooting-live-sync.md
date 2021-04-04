@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,14 +17,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: b40b71eb45ae5a95a732c9554356afcddecb750e
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744605"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5566805"
 ---
-# <a name="troubleshoot-live-synchronization-issues"></a><span data-ttu-id="3ce42-103">解决实时同步问题</span><span class="sxs-lookup"><span data-stu-id="3ce42-103">Troubleshoot live synchronization issues</span></span>
+# <a name="troubleshoot-live-synchronization-issues"></a><span data-ttu-id="acba8-103">解决实时同步问题</span><span class="sxs-lookup"><span data-stu-id="acba8-103">Troubleshoot live synchronization issues</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
@@ -33,33 +32,33 @@ ms.locfileid: "4744605"
 
 
 
-<span data-ttu-id="3ce42-104">本主题提供 Finance and Operations 应用与 Dataverse 之间的双写入集成的故障排除信息。</span><span class="sxs-lookup"><span data-stu-id="3ce42-104">This topic provides troubleshooting information for dual-write integration between Finance and Operations apps and Dataverse.</span></span> <span data-ttu-id="3ce42-105">具体来说，提供可以帮助您解决实时同步问题的信息。</span><span class="sxs-lookup"><span data-stu-id="3ce42-105">Specifically, it provides information that can help you fix issues with live synchronization.</span></span>
+<span data-ttu-id="acba8-104">本主题提供 Finance and Operations 应用与 Dataverse 之间的双写入集成的故障排除信息。</span><span class="sxs-lookup"><span data-stu-id="acba8-104">This topic provides troubleshooting information for dual-write integration between Finance and Operations apps and Dataverse.</span></span> <span data-ttu-id="acba8-105">具体来说，提供可以帮助您解决实时同步问题的信息。</span><span class="sxs-lookup"><span data-stu-id="acba8-105">Specifically, it provides information that can help you fix issues with live synchronization.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="3ce42-106">本主题解决的某些问题可能需要系统管理员角色或 Microsoft Azure Active Directory (Azure AD) 租户管理员凭据。</span><span class="sxs-lookup"><span data-stu-id="3ce42-106">Some of the issues that this topic addresses might require either the system admin role or Microsoft Azure Active Directory (Azure AD) tenant admin credentials.</span></span> <span data-ttu-id="3ce42-107">介绍每个问题的每一节说明了是否需要特定角色或凭据。</span><span class="sxs-lookup"><span data-stu-id="3ce42-107">The section for each issue explains whether a specific role or credentials are required.</span></span>
+> <span data-ttu-id="acba8-106">本主题解决的某些问题可能需要系统管理员角色或 Microsoft Azure Active Directory (Azure AD) 租户管理员凭据。</span><span class="sxs-lookup"><span data-stu-id="acba8-106">Some of the issues that this topic addresses might require either the system admin role or Microsoft Azure Active Directory (Azure AD) tenant admin credentials.</span></span> <span data-ttu-id="acba8-107">介绍每个问题的每一节说明了是否需要特定角色或凭据。</span><span class="sxs-lookup"><span data-stu-id="acba8-107">The section for each issue explains whether a specific role or credentials are required.</span></span>
 
-## <a name="live-synchronization-throws-a-403-forbidden-error-when-you-create-a-row-in-a-finance-and-operations-app"></a><span data-ttu-id="3ce42-108">在 Finance and Operations 应用中创建行时，实时同步会引发“403 已禁止”错误</span><span class="sxs-lookup"><span data-stu-id="3ce42-108">Live synchronization throws a 403 Forbidden error when you create a row in a Finance and Operations app</span></span>
+## <a name="live-synchronization-throws-a-403-forbidden-error-when-you-create-a-row-in-a-finance-and-operations-app"></a><span data-ttu-id="acba8-108">在 Finance and Operations 应用中创建行时，实时同步会引发“403 已禁止”错误</span><span class="sxs-lookup"><span data-stu-id="acba8-108">Live synchronization throws a 403 Forbidden error when you create a row in a Finance and Operations app</span></span>
 
-<span data-ttu-id="3ce42-109">当您在 Finance and Operations 应用中创建行时，您可能会收到以下错误消息：</span><span class="sxs-lookup"><span data-stu-id="3ce42-109">You might receive the following error message when you create a row in a Finance and Operations app:</span></span>
+<span data-ttu-id="acba8-109">当您在 Finance and Operations 应用中创建行时，您可能会收到以下错误消息：</span><span class="sxs-lookup"><span data-stu-id="acba8-109">You might receive the following error message when you create a row in a Finance and Operations app:</span></span>
 
-<span data-ttu-id="3ce42-110">*\[{\\"error\\":{\\"code\\":\\"0x80072560\\",\\"message\\":\\"此用户不是组织的成员。\\"}}\]，远程服务器返回错误：(403) 已禁止。"}}".*</span><span class="sxs-lookup"><span data-stu-id="3ce42-110">*\[{\\"error\\":{\\"code\\":\\"0x80072560\\",\\"message\\":\\"The user is not a member of the organization.\\"}}\], The remote server returned an error: (403) Forbidden."}}".*</span></span>
+<span data-ttu-id="acba8-110">*\[{\\"error\\":{\\"code\\":\\"0x80072560\\",\\"message\\":\\"此用户不是组织的成员。\\"}}\]，远程服务器返回错误：(403) 已禁止。"}}".*</span><span class="sxs-lookup"><span data-stu-id="acba8-110">*\[{\\"error\\":{\\"code\\":\\"0x80072560\\",\\"message\\":\\"The user is not a member of the organization.\\"}}\], The remote server returned an error: (403) Forbidden."}}".*</span></span>
 
-<span data-ttu-id="3ce42-111">要解决此问题，请按照[系统要求和先决条件](requirements-and-prerequisites.md)中的步骤操作。</span><span class="sxs-lookup"><span data-stu-id="3ce42-111">To fix the issue, follow the steps in [System requirements and prerequisites](requirements-and-prerequisites.md).</span></span> <span data-ttu-id="3ce42-112">要完成这些步骤，在 Dataverse 中创建的双写入应用程序用户必须具有系统管理员角色。</span><span class="sxs-lookup"><span data-stu-id="3ce42-112">To complete those steps, the dual-write application users who are created in Dataverse must have the system admin role.</span></span> <span data-ttu-id="3ce42-113">默认的负责团队也必须具有系统管理员角色。</span><span class="sxs-lookup"><span data-stu-id="3ce42-113">The default owning team must also have the system admin role.</span></span>
+<span data-ttu-id="acba8-111">要解决此问题，请按照[系统要求和先决条件](requirements-and-prerequisites.md)中的步骤操作。</span><span class="sxs-lookup"><span data-stu-id="acba8-111">To fix the issue, follow the steps in [System requirements and prerequisites](requirements-and-prerequisites.md).</span></span> <span data-ttu-id="acba8-112">要完成这些步骤，在 Dataverse 中创建的双写入应用程序用户必须具有系统管理员角色。</span><span class="sxs-lookup"><span data-stu-id="acba8-112">To complete those steps, the dual-write application users who are created in Dataverse must have the system admin role.</span></span> <span data-ttu-id="acba8-113">默认的负责团队也必须具有系统管理员角色。</span><span class="sxs-lookup"><span data-stu-id="acba8-113">The default owning team must also have the system admin role.</span></span>
 
-## <a name="live-synchronization-for-any-table-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a><span data-ttu-id="3ce42-114">在 Finance and Operations 应用中创建行时，任何表的实时同步都会引发类似的错误</span><span class="sxs-lookup"><span data-stu-id="3ce42-114">Live synchronization for any table consistently throws a similar error when you create a row in a Finance and Operations app</span></span>
+## <a name="live-synchronization-for-any-table-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a><span data-ttu-id="acba8-114">在 Finance and Operations 应用中创建行时，任何表的实时同步都会引发类似的错误</span><span class="sxs-lookup"><span data-stu-id="acba8-114">Live synchronization for any table consistently throws a similar error when you create a row in a Finance and Operations app</span></span>
 
-<span data-ttu-id="3ce42-115">**解决此问题所需的角色：** 系统管理员</span><span class="sxs-lookup"><span data-stu-id="3ce42-115">**Required role to fix the issue:** System admin</span></span>
+<span data-ttu-id="acba8-115">**解决此问题所需的角色：** 系统管理员</span><span class="sxs-lookup"><span data-stu-id="acba8-115">**Required role to fix the issue:** System admin</span></span>
 
-<span data-ttu-id="3ce42-116">每次尝试在 Finance and Operations 应用中保存表数据时，您可能会收到以下这样的错误消息：</span><span class="sxs-lookup"><span data-stu-id="3ce42-116">You might receive an error message like the following every time that you try to save table data in a Finance and Operations app:</span></span>
+<span data-ttu-id="acba8-116">每次尝试在 Finance and Operations 应用中保存表数据时，您可能会收到以下这样的错误消息：</span><span class="sxs-lookup"><span data-stu-id="acba8-116">You might receive an error message like the following every time that you try to save table data in a Finance and Operations app:</span></span>
 
-<span data-ttu-id="3ce42-117">*无法将更改保存到数据库。工作单元无法提交事务。无法将数据写入实体 uoms。写入 UnitOfMeasureEntity 失败，并显示错误消息“无法与实体 uoms 同步”。*</span><span class="sxs-lookup"><span data-stu-id="3ce42-117">*Cannot save the changes to the database. Unit of Work can not commit transaction. Unable to write data to entity uoms. Writes to UnitOfMeasureEntity failed with error message Unable to sync with entity uoms.*</span></span>
+<span data-ttu-id="acba8-117">*无法将更改保存到数据库。工作单元无法提交事务。无法将数据写入实体 uoms。写入 UnitOfMeasureEntity 失败，并显示错误消息“无法与实体 uoms 同步”。*</span><span class="sxs-lookup"><span data-stu-id="acba8-117">*Cannot save the changes to the database. Unit of Work can not commit transaction. Unable to write data to entity uoms. Writes to UnitOfMeasureEntity failed with error message Unable to sync with entity uoms.*</span></span>
 
-<span data-ttu-id="3ce42-118">要解决此问题，您必须确保 Finance and Operations 应用和 Dataverse 中都存在必备的引用数据。</span><span class="sxs-lookup"><span data-stu-id="3ce42-118">To fix the issue, you must make sure that the prerequisite reference data exists in both the Finance and Operations app and Dataverse.</span></span> <span data-ttu-id="3ce42-119">例如，如果您在 Finance and Operations 应用中的客户属于特定客户组，请确保该客户组存在于 Dataverse 中。</span><span class="sxs-lookup"><span data-stu-id="3ce42-119">For example, if the customer that you're in the Finance and Operations app belongs to a specific customer group, make sure that the customer group exists in Dataverse.</span></span>
+<span data-ttu-id="acba8-118">要解决此问题，您必须确保 Finance and Operations 应用和 Dataverse 中都存在必备的引用数据。</span><span class="sxs-lookup"><span data-stu-id="acba8-118">To fix the issue, you must make sure that the prerequisite reference data exists in both the Finance and Operations app and Dataverse.</span></span> <span data-ttu-id="acba8-119">例如，如果您在 Finance and Operations 应用中的客户属于特定客户组，请确保该客户组存在于 Dataverse 中。</span><span class="sxs-lookup"><span data-stu-id="acba8-119">For example, if the customer that you're in the Finance and Operations app belongs to a specific customer group, make sure that the customer group exists in Dataverse.</span></span>
 
-<span data-ttu-id="3ce42-120">如果两处都存在数据，并且您已确认问题与数据无关，请按照以下步骤操作。</span><span class="sxs-lookup"><span data-stu-id="3ce42-120">If data exists on both sides, and you've confirmed that the issue isn't data-related, follow these steps.</span></span>
+<span data-ttu-id="acba8-120">如果两处都存在数据，并且您已确认问题与数据无关，请按照以下步骤操作。</span><span class="sxs-lookup"><span data-stu-id="acba8-120">If data exists on both sides, and you've confirmed that the issue isn't data-related, follow these steps.</span></span>
 
-1. <span data-ttu-id="3ce42-121">停止相关表。</span><span class="sxs-lookup"><span data-stu-id="3ce42-121">Stop the related table.</span></span>
-2. <span data-ttu-id="3ce42-122">登录到 Finance and Operations 应用，并确保失败表的行存在于 DualWriteProjectConfiguration 和 DualWriteProjectFieldConfiguration 表中。</span><span class="sxs-lookup"><span data-stu-id="3ce42-122">Sign in to the Finance and Operations app, and make sure that rows for the failing table exist in the DualWriteProjectConfiguration and DualWriteProjectFieldConfiguration tables.</span></span> <span data-ttu-id="3ce42-123">例如，以下是 **客户** 表失败时查询将呈现的类似状态。</span><span class="sxs-lookup"><span data-stu-id="3ce42-123">For example, here is what the query looks like if the **Customers** table is failing.</span></span>
+1. <span data-ttu-id="acba8-121">停止相关表。</span><span class="sxs-lookup"><span data-stu-id="acba8-121">Stop the related table.</span></span>
+2. <span data-ttu-id="acba8-122">登录到 Finance and Operations 应用，并确保失败表的行存在于 DualWriteProjectConfiguration 和 DualWriteProjectFieldConfiguration 表中。</span><span class="sxs-lookup"><span data-stu-id="acba8-122">Sign in to the Finance and Operations app, and make sure that rows for the failing table exist in the DualWriteProjectConfiguration and DualWriteProjectFieldConfiguration tables.</span></span> <span data-ttu-id="acba8-123">例如，以下是 **客户** 表失败时查询将呈现的类似状态。</span><span class="sxs-lookup"><span data-stu-id="acba8-123">For example, here is what the query looks like if the **Customers** table is failing.</span></span>
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -68,48 +67,48 @@ ms.locfileid: "4744605"
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. <span data-ttu-id="3ce42-124">即使停止表映射后，如果仍有失败表的行，请删除与失败表相关的行。</span><span class="sxs-lookup"><span data-stu-id="3ce42-124">If there are rows for the failing table even after you stop the table mapping, delete the rows that are related to the failing table.</span></span> <span data-ttu-id="3ce42-125">记下 DualWriteProjectConfiguration 表中的 **projectname** 列，并通过使用项目名称删除行来获取 DualWriteProjectFieldConfiguration 表中的行。</span><span class="sxs-lookup"><span data-stu-id="3ce42-125">Make a note of the **projectname** column in the DualWriteProjectConfiguration table, and fetch the row in the DualWriteProjectFieldConfiguration table by using the project name to delete the row.</span></span>
-4. <span data-ttu-id="3ce42-126">开始表映射。</span><span class="sxs-lookup"><span data-stu-id="3ce42-126">Start the table mapping.</span></span> <span data-ttu-id="3ce42-127">验证数据是否同步，没有任何问题。</span><span class="sxs-lookup"><span data-stu-id="3ce42-127">Validate whether the data is synced without any issues.</span></span>
+3. <span data-ttu-id="acba8-124">即使停止表映射后，如果仍有失败表的行，请删除与失败表相关的行。</span><span class="sxs-lookup"><span data-stu-id="acba8-124">If there are rows for the failing table even after you stop the table mapping, delete the rows that are related to the failing table.</span></span> <span data-ttu-id="acba8-125">记下 DualWriteProjectConfiguration 表中的 **projectname** 列，并通过使用项目名称删除行来获取 DualWriteProjectFieldConfiguration 表中的行。</span><span class="sxs-lookup"><span data-stu-id="acba8-125">Make a note of the **projectname** column in the DualWriteProjectConfiguration table, and fetch the row in the DualWriteProjectFieldConfiguration table by using the project name to delete the row.</span></span>
+4. <span data-ttu-id="acba8-126">开始表映射。</span><span class="sxs-lookup"><span data-stu-id="acba8-126">Start the table mapping.</span></span> <span data-ttu-id="acba8-127">验证数据是否同步，没有任何问题。</span><span class="sxs-lookup"><span data-stu-id="acba8-127">Validate whether the data is synced without any issues.</span></span>
 
-## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a><span data-ttu-id="3ce42-128">在 Finance and Operations 应用中创建数据时处理读或写权限错误</span><span class="sxs-lookup"><span data-stu-id="3ce42-128">Handle read or write privilege errors when you create data in a Finance and Operations app</span></span>
+## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a><span data-ttu-id="acba8-128">在 Finance and Operations 应用中创建数据时处理读或写权限错误</span><span class="sxs-lookup"><span data-stu-id="acba8-128">Handle read or write privilege errors when you create data in a Finance and Operations app</span></span>
 
-<span data-ttu-id="3ce42-129">在 Finance and Operations 应用中创建数据时，您可能会收到类似于以下示例的“错误请求”错误消息。</span><span class="sxs-lookup"><span data-stu-id="3ce42-129">You might receive a "Bad Request" error message that resembles the following example when you create data in a Finance and Operations app.</span></span>
+<span data-ttu-id="acba8-129">在 Finance and Operations 应用中创建数据时，您可能会收到类似于以下示例的“错误请求”错误消息。</span><span class="sxs-lookup"><span data-stu-id="acba8-129">You might receive a "Bad Request" error message that resembles the following example when you create data in a Finance and Operations app.</span></span>
 
 ![“错误请求”错误消息的示例](media/error_record_id_source.png)
 
-<span data-ttu-id="3ce42-131">若要解决此问题，您必须为映射的 Dynamics 365 Sales 或 Dynamics 365 Customer Service 业务单位的团队分配正确的安全角色，以启用缺少的权限。</span><span class="sxs-lookup"><span data-stu-id="3ce42-131">To fix the issue, you must assign the correct security role to the team of the mapped Dynamics 365 Sales or Dynamics 365 Customer Service business unit to enable the missing privilege.</span></span>
+<span data-ttu-id="acba8-131">若要解决此问题，您必须为映射的 Dynamics 365 Sales 或 Dynamics 365 Customer Service 业务单位的团队分配正确的安全角色，以启用缺少的权限。</span><span class="sxs-lookup"><span data-stu-id="acba8-131">To fix the issue, you must assign the correct security role to the team of the mapped Dynamics 365 Sales or Dynamics 365 Customer Service business unit to enable the missing privilege.</span></span>
 
-1. <span data-ttu-id="3ce42-132">在 Finance and Operations 应用中，找到在数据集成连接集中映射的业务单位。</span><span class="sxs-lookup"><span data-stu-id="3ce42-132">In the Finance and Operations app, find the business unit that is mapped in the Data Integration connection set.</span></span>
+1. <span data-ttu-id="acba8-132">在 Finance and Operations 应用中，找到在数据集成连接集中映射的业务单位。</span><span class="sxs-lookup"><span data-stu-id="acba8-132">In the Finance and Operations app, find the business unit that is mapped in the Data Integration connection set.</span></span>
 
     ![组织映射](media/mapped_business_unit.png)
 
-2. <span data-ttu-id="3ce42-134">登录到 Dynamics 365 中的模型驱动应用内的环境，导航至 **设置 \> 安全**，找到映射业务单位的团队。</span><span class="sxs-lookup"><span data-stu-id="3ce42-134">Sign in to the environment in the model-driven app in Dynamics 365, navigate to **Setting \> Security**, and find the team of the mapped business unit.</span></span>
+2. <span data-ttu-id="acba8-134">登录到 Dynamics 365 中的模型驱动应用内的环境，导航至 **设置 \> 安全**，找到映射业务单位的团队。</span><span class="sxs-lookup"><span data-stu-id="acba8-134">Sign in to the environment in the model-driven app in Dynamics 365, navigate to **Setting \> Security**, and find the team of the mapped business unit.</span></span>
 
     ![映射业务单位的团队](media/setting_security_page.png)
 
-3. <span data-ttu-id="3ce42-136">打开要编辑的团队页面，然后选择 **管理角色** 打开 **管理团队角色** 对话框。</span><span class="sxs-lookup"><span data-stu-id="3ce42-136">Open the page for the team for editing, and then select **Manage roles** to open the **Manage Team Roles** dialog box.</span></span>
+3. <span data-ttu-id="acba8-136">打开要编辑的团队页面，然后选择 **管理角色** 打开 **管理团队角色** 对话框。</span><span class="sxs-lookup"><span data-stu-id="acba8-136">Open the page for the team for editing, and then select **Manage roles** to open the **Manage Team Roles** dialog box.</span></span>
 
     ![管理角色按钮](media/manage_team_roles.png)
 
-4. <span data-ttu-id="3ce42-138">为相关表分配具有读/写权限的角色，然后选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="3ce42-138">Assign the role that has the read/write privilege for the relevant tables, and then select **OK**.</span></span>
+4. <span data-ttu-id="acba8-138">为相关表分配具有读/写权限的角色，然后选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="acba8-138">Assign the role that has the read/write privilege for the relevant tables, and then select **OK**.</span></span>
 
-## <a name="fix-synchronization-issues-in-an-environment-that-has-a-recently-changed-dataverse-environment"></a><span data-ttu-id="3ce42-139">在最近更改了 Dataverse 环境的环境中解决同步问题</span><span class="sxs-lookup"><span data-stu-id="3ce42-139">Fix synchronization issues in an environment that has a recently changed Dataverse environment</span></span>
+## <a name="fix-synchronization-issues-in-an-environment-that-has-a-recently-changed-dataverse-environment"></a><span data-ttu-id="acba8-139">在最近更改了 Dataverse 环境的环境中解决同步问题</span><span class="sxs-lookup"><span data-stu-id="acba8-139">Fix synchronization issues in an environment that has a recently changed Dataverse environment</span></span>
 
-<span data-ttu-id="3ce42-140">**解决此问题所需的角色：** 系统管理员</span><span class="sxs-lookup"><span data-stu-id="3ce42-140">**Required role to fix the issue:** System admin</span></span>
+<span data-ttu-id="acba8-140">**解决此问题所需的角色：** 系统管理员</span><span class="sxs-lookup"><span data-stu-id="acba8-140">**Required role to fix the issue:** System admin</span></span>
 
-<span data-ttu-id="3ce42-141">当您在 Finance and Operations 应用中创建数据时，您可能会收到以下错误消息：</span><span class="sxs-lookup"><span data-stu-id="3ce42-141">You might receive the following error message when you create data in a Finance and Operations app:</span></span>
+<span data-ttu-id="acba8-141">当您在 Finance and Operations 应用中创建数据时，您可能会收到以下错误消息：</span><span class="sxs-lookup"><span data-stu-id="acba8-141">You might receive the following error message when you create data in a Finance and Operations app:</span></span>
 
-<span data-ttu-id="3ce42-142">*{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**无法为实体 CustCustomerV3Entity 生成有效负载**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"有效负载创建失败，显示错误“URI 无效：此 URI 是空的”。"}\],"isErrorCountUpdated":true}*</span><span class="sxs-lookup"><span data-stu-id="3ce42-142">*{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Unable to generate payload for entity CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Payload creation failed with error Invalid URI: The URI is empty."}\],"isErrorCountUpdated":true}*</span></span>
+<span data-ttu-id="acba8-142">*{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**无法为实体 CustCustomerV3Entity 生成有效负载**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"有效负载创建失败，显示错误“URI 无效：此 URI 是空的”。"}\],"isErrorCountUpdated":true}*</span><span class="sxs-lookup"><span data-stu-id="acba8-142">*{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Unable to generate payload for entity CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Payload creation failed with error Invalid URI: The URI is empty."}\],"isErrorCountUpdated":true}*</span></span>
 
-<span data-ttu-id="3ce42-143">这是在 Dynamics 365 中的模型驱动应用中出现的错误情况：</span><span class="sxs-lookup"><span data-stu-id="3ce42-143">Here is what the error looks like in the model-driven app in Dynamics 365:</span></span>
+<span data-ttu-id="acba8-143">这是在 Dynamics 365 中的模型驱动应用中出现的错误情况：</span><span class="sxs-lookup"><span data-stu-id="acba8-143">Here is what the error looks like in the model-driven app in Dynamics 365:</span></span>
 
-<span data-ttu-id="3ce42-144">*ISV 代码发生意外错误。(ErrorType = ClientError) 插件发生意外异常 (Execute)：Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception：无法处理实体帐户 -（连接尝试失败，因为连接方未在一段时间后正确响应，或由于连接的主机未能响应导致建立的连接失败*</span><span class="sxs-lookup"><span data-stu-id="3ce42-144">*An unexpected error occurred from ISV code. (ErrorType = ClientError) Unexpected exception from plug-in (Execute): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: failed to process entity account - (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond*</span></span>
+<span data-ttu-id="acba8-144">*ISV 代码发生意外错误。(ErrorType = ClientError) 插件发生意外异常 (Execute)：Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception：无法处理实体帐户 -（连接尝试失败，因为连接方未在一段时间后正确响应，或由于连接的主机未能响应导致建立的连接失败*</span><span class="sxs-lookup"><span data-stu-id="acba8-144">*An unexpected error occurred from ISV code. (ErrorType = ClientError) Unexpected exception from plug-in (Execute): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: failed to process entity account - (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond*</span></span>
 
-<span data-ttu-id="3ce42-145">当您尝试在 Finance and Operations 应用中创建数据但未正确重置 Dataverse 环境时，将发生此错误。</span><span class="sxs-lookup"><span data-stu-id="3ce42-145">This error occurs when the Dataverse environment is incorrectly reset at the same time that you try to create data in the Finance and Operations app.</span></span>
+<span data-ttu-id="acba8-145">当您尝试在 Finance and Operations 应用中创建数据但未正确重置 Dataverse 环境时，将发生此错误。</span><span class="sxs-lookup"><span data-stu-id="acba8-145">This error occurs when the Dataverse environment is incorrectly reset at the same time that you try to create data in the Finance and Operations app.</span></span>
 
-<span data-ttu-id="3ce42-146">若要解决此问题，请按照以下步骤操作。</span><span class="sxs-lookup"><span data-stu-id="3ce42-146">To fix the issue, follow these steps.</span></span>
+<span data-ttu-id="acba8-146">若要解决此问题，请按照以下步骤操作。</span><span class="sxs-lookup"><span data-stu-id="acba8-146">To fix the issue, follow these steps.</span></span>
 
-1. <span data-ttu-id="3ce42-147">登录到 Finance and Operations 虚拟机 (VM)，打开 SQL Server Management Studio (SSMS)，在 DUALWRITEPROJECTCONFIGURATIONENTITY 表中查找行，其中 **internalentityname** 等于 **客户 V3**，**externalentityname** 等于 **客户**。</span><span class="sxs-lookup"><span data-stu-id="3ce42-147">Sign in to the Finance and Operations virtual machine (VM), open SQL Server Management Studio (SSMS), and look for rows in the DUALWRITEPROJECTCONFIGURATIONENTITY table where **internalentityname** equals **Customers V3** and **externalentityname** equals **accounts**.</span></span> <span data-ttu-id="3ce42-148">这是查询呈现的状态。</span><span class="sxs-lookup"><span data-stu-id="3ce42-148">Here is what the query looks like.</span></span>
+1. <span data-ttu-id="acba8-147">登录到 Finance and Operations 虚拟机 (VM)，打开 SQL Server Management Studio (SSMS)，在 DUALWRITEPROJECTCONFIGURATIONENTITY 表中查找行，其中 **internalentityname** 等于 **客户 V3**，**externalentityname** 等于 **客户**。</span><span class="sxs-lookup"><span data-stu-id="acba8-147">Sign in to the Finance and Operations virtual machine (VM), open SQL Server Management Studio (SSMS), and look for rows in the DUALWRITEPROJECTCONFIGURATIONENTITY table where **internalentityname** equals **Customers V3** and **externalentityname** equals **accounts**.</span></span> <span data-ttu-id="acba8-148">这是查询呈现的状态。</span><span class="sxs-lookup"><span data-stu-id="acba8-148">Here is what the query looks like.</span></span>
 
     ```sql
     select projectname, externalenvironmentURL ,\* 
@@ -117,7 +116,7 @@ ms.locfileid: "4744605"
     where INTERNALENTITYNAME = 'Customers V3' and EXTERNALENTITYNAME = 'accounts'
     ```
 
-2. <span data-ttu-id="3ce42-149">使用上一个查询的结果中的项目名称来运行以下查询。</span><span class="sxs-lookup"><span data-stu-id="3ce42-149">Use the project name from the results of the previous query to run the following query.</span></span>
+2. <span data-ttu-id="acba8-149">使用上一个查询的结果中的项目名称来运行以下查询。</span><span class="sxs-lookup"><span data-stu-id="acba8-149">Use the project name from the results of the previous query to run the following query.</span></span>
 
     ```sql
     select \* 
@@ -125,5 +124,8 @@ ms.locfileid: "4744605"
     where projectname = <project name from previous query>
     ```
 
-3. <span data-ttu-id="3ce42-150">确保 **externalenvironmentURL** 列具有正确的 Dataverse 或应用 URL。</span><span class="sxs-lookup"><span data-stu-id="3ce42-150">Make sure that the **externalenvironmentURL** column has the correct Dataverse or app URL.</span></span> <span data-ttu-id="3ce42-151">删除任何指向错误的 Dataverse URL 的重复行。</span><span class="sxs-lookup"><span data-stu-id="3ce42-151">Delete any duplicate rows that point to the wrong Dataverse URL.</span></span> <span data-ttu-id="3ce42-152">删除 DUALWRITEPROJECTFIELDCONFIGURATION 和 DUALWRITEPROJECTCONFIGURATION 表中的相应行。</span><span class="sxs-lookup"><span data-stu-id="3ce42-152">Delete the corresponding rows in the DUALWRITEPROJECTFIELDCONFIGURATION and DUALWRITEPROJECTCONFIGURATION tables.</span></span>
-4. <span data-ttu-id="3ce42-153">停止表映射，然后重新开始映射</span><span class="sxs-lookup"><span data-stu-id="3ce42-153">Stop the table mapping, and then restart it</span></span>
+3. <span data-ttu-id="acba8-150">确保 **externalenvironmentURL** 列具有正确的 Dataverse 或应用 URL。</span><span class="sxs-lookup"><span data-stu-id="acba8-150">Make sure that the **externalenvironmentURL** column has the correct Dataverse or app URL.</span></span> <span data-ttu-id="acba8-151">删除任何指向错误的 Dataverse URL 的重复行。</span><span class="sxs-lookup"><span data-stu-id="acba8-151">Delete any duplicate rows that point to the wrong Dataverse URL.</span></span> <span data-ttu-id="acba8-152">删除 DUALWRITEPROJECTFIELDCONFIGURATION 和 DUALWRITEPROJECTCONFIGURATION 表中的相应行。</span><span class="sxs-lookup"><span data-stu-id="acba8-152">Delete the corresponding rows in the DUALWRITEPROJECTFIELDCONFIGURATION and DUALWRITEPROJECTCONFIGURATION tables.</span></span>
+4. <span data-ttu-id="acba8-153">停止表映射，然后重新开始映射</span><span class="sxs-lookup"><span data-stu-id="acba8-153">Stop the table mapping, and then restart it</span></span>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

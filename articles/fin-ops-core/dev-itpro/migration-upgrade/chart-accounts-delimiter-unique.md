@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 03/30/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,28 +15,31 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 72965e9c6182bdac123feb1bc5cc4b82d91cd588
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 183980651a811ef30a49461ff5a5f649d94b079c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020096"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565254"
 ---
-# <a name="make-the-chart-of-accounts-delimiter-unique"></a><span data-ttu-id="0ad7c-104">使会计科目表分隔符的成为唯一的</span><span class="sxs-lookup"><span data-stu-id="0ad7c-104">Make the chart of accounts delimiter unique</span></span>
+# <a name="make-the-chart-of-accounts-delimiter-unique"></a><span data-ttu-id="cdc28-104">使会计科目表分隔符的成为唯一的</span><span class="sxs-lookup"><span data-stu-id="cdc28-104">Make the chart of accounts delimiter unique</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0ad7c-105">在 Microsoft Dynamics AX 2012 中，可为科目表和维度值使用相同分隔符。</span><span class="sxs-lookup"><span data-stu-id="0ad7c-105">In Microsoft Dynamics AX 2012, you could use the same delimiter for your chart of accounts and dimension values.</span></span> <span data-ttu-id="0ad7c-106">在 Finance and Operations 的当前版本中，科目表和维度值的分隔符不能相同。</span><span class="sxs-lookup"><span data-stu-id="0ad7c-106">In current versions of Finance and Operations, you cannot have the same delimiter for the chart of accounts and dimension values.</span></span> <span data-ttu-id="0ad7c-107">如果有相同分隔符，可在升级后更改。</span><span class="sxs-lookup"><span data-stu-id="0ad7c-107">If there is a duplicate delimiter, you can change it after upgrade.</span></span> 
+<span data-ttu-id="cdc28-105">在 Microsoft Dynamics AX 2012 中，可为科目表和维度值使用相同分隔符。</span><span class="sxs-lookup"><span data-stu-id="cdc28-105">In Microsoft Dynamics AX 2012, you could use the same delimiter for your chart of accounts and dimension values.</span></span> <span data-ttu-id="cdc28-106">在 Finance and Operations 的当前版本中，科目表和维度值的分隔符不能相同。</span><span class="sxs-lookup"><span data-stu-id="cdc28-106">In current versions of Finance and Operations, you cannot have the same delimiter for the chart of accounts and dimension values.</span></span> <span data-ttu-id="cdc28-107">如果有相同分隔符，可在升级后更改。</span><span class="sxs-lookup"><span data-stu-id="cdc28-107">If there is a duplicate delimiter, you can change it after upgrade.</span></span> 
 
-<span data-ttu-id="0ad7c-108">此功能不在以下版本中提供：</span><span class="sxs-lookup"><span data-stu-id="0ad7c-108">This feature is available in the following versions:</span></span>
-- <span data-ttu-id="0ad7c-109">Finance and Operations 版本 8.0</span><span class="sxs-lookup"><span data-stu-id="0ad7c-109">Finance and Operations version 8.0</span></span>
-- <span data-ttu-id="0ad7c-110">Finance and Operations 版本 7.1 KB 4094701：维度值中包含科目表分隔符时，不能输入财务维度</span><span class="sxs-lookup"><span data-stu-id="0ad7c-110">Finance and Operations version 7.1, KB 4094701 Cannot enter the financial dimensions when the dimension values contain the chart of accounts delimiter</span></span>
-- <span data-ttu-id="0ad7c-111">Finance and Operations 版本 7.2 KB 4092967：子项目格式中包含维度分隔符时，不能选择子项目作为维度</span><span class="sxs-lookup"><span data-stu-id="0ad7c-111">Finance and Operations version 7.2, KB 4092967 Cannot choose sub-project as dimension when sub-project format contains the dimension delimiter</span></span>
+<span data-ttu-id="cdc28-108">此功能不在以下版本中提供：</span><span class="sxs-lookup"><span data-stu-id="cdc28-108">This feature is available in the following versions:</span></span>
+- <span data-ttu-id="cdc28-109">Finance and Operations 版本 8.0</span><span class="sxs-lookup"><span data-stu-id="cdc28-109">Finance and Operations version 8.0</span></span>
+- <span data-ttu-id="cdc28-110">Finance and Operations 版本 7.1 KB 4094701：维度值中包含科目表分隔符时，不能输入财务维度</span><span class="sxs-lookup"><span data-stu-id="cdc28-110">Finance and Operations version 7.1, KB 4094701 Cannot enter the financial dimensions when the dimension values contain the chart of accounts delimiter</span></span>
+- <span data-ttu-id="cdc28-111">Finance and Operations 版本 7.2 KB 4092967：子项目格式中包含维度分隔符时，不能选择子项目作为维度</span><span class="sxs-lookup"><span data-stu-id="cdc28-111">Finance and Operations version 7.2, KB 4092967 Cannot choose sub-project as dimension when sub-project format contains the dimension delimiter</span></span>
 
-## <a name="update-delimiter"></a><span data-ttu-id="0ad7c-112">更新分隔符</span><span class="sxs-lookup"><span data-stu-id="0ad7c-112">Update delimiter</span></span>
-<span data-ttu-id="0ad7c-113">如果科目表存在冲突，则可更改科目表分隔符和项目/子项目 ID。</span><span class="sxs-lookup"><span data-stu-id="0ad7c-113">If there is a conflict with the chart of accounts, the chart of accounts delimiter and the project/subproject ID format can be changed.</span></span> <span data-ttu-id="0ad7c-114">不能更改其他维度分隔符。</span><span class="sxs-lookup"><span data-stu-id="0ad7c-114">No other dimension delimiters can be changed.</span></span> 
-- <span data-ttu-id="0ad7c-115">升级之后，可在 **总帐参数** > **会计科目表和维度** > **更改分隔符** 中更改会计科目表分隔符。</span><span class="sxs-lookup"><span data-stu-id="0ad7c-115">You can change the chart of accounts delimiter after upgrade in **General ledger parameters** > **Chart of accounts and dimensions** > **Change delimiter**.</span></span> 
-- <span data-ttu-id="0ad7c-116">如果只有项目/子项目 ID 格式冲突，则可在 **项目管理与核算参数** > **常规** > **修改子项目格式** 中更改该值。</span><span class="sxs-lookup"><span data-stu-id="0ad7c-116">If the only conflict is with the project/subproject ID format, you can change that value in **Project management and accounting parameters** > **General** > **Modify subproject format**.</span></span> 
+## <a name="update-delimiter"></a><span data-ttu-id="cdc28-112">更新分隔符</span><span class="sxs-lookup"><span data-stu-id="cdc28-112">Update delimiter</span></span>
+<span data-ttu-id="cdc28-113">如果科目表存在冲突，则可更改科目表分隔符和项目/子项目 ID。</span><span class="sxs-lookup"><span data-stu-id="cdc28-113">If there is a conflict with the chart of accounts, the chart of accounts delimiter and the project/subproject ID format can be changed.</span></span> <span data-ttu-id="cdc28-114">不能更改其他维度分隔符。</span><span class="sxs-lookup"><span data-stu-id="cdc28-114">No other dimension delimiters can be changed.</span></span> 
+- <span data-ttu-id="cdc28-115">升级之后，可在 **总帐参数** > **会计科目表和维度** > **更改分隔符** 中更改会计科目表分隔符。</span><span class="sxs-lookup"><span data-stu-id="cdc28-115">You can change the chart of accounts delimiter after upgrade in **General ledger parameters** > **Chart of accounts and dimensions** > **Change delimiter**.</span></span> 
+- <span data-ttu-id="cdc28-116">如果只有项目/子项目 ID 格式冲突，则可在 **项目管理与核算参数** > **常规** > **修改子项目格式** 中更改该值。</span><span class="sxs-lookup"><span data-stu-id="cdc28-116">If the only conflict is with the project/subproject ID format, you can change that value in **Project management and accounting parameters** > **General** > **Modify subproject format**.</span></span> 
 
-## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a><span data-ttu-id="0ad7c-117">如何确定环境是否需要更新后的分隔符</span><span class="sxs-lookup"><span data-stu-id="0ad7c-117">How to determine if your environment requires updated delimiters</span></span> 
-<span data-ttu-id="0ad7c-118">如果升级后的环境中的分隔符冲突，在细分条目控件或维度条目控件中输入值时，可能遇到不稳定。</span><span class="sxs-lookup"><span data-stu-id="0ad7c-118">If delimiters in your upgraded environment are conflicting, you may experience instability when entering values in a segmented entry control or dimension entry control.</span></span> <span data-ttu-id="0ad7c-119">这意味着输入科目和维度组合时，始终需要使用查找或弹出菜单。</span><span class="sxs-lookup"><span data-stu-id="0ad7c-119">This means that you will need to always use lookups or a flyout menu when entering account and dimension combinations.</span></span>
+## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a><span data-ttu-id="cdc28-117">如何确定环境是否需要更新后的分隔符</span><span class="sxs-lookup"><span data-stu-id="cdc28-117">How to determine if your environment requires updated delimiters</span></span> 
+<span data-ttu-id="cdc28-118">如果升级后的环境中的分隔符冲突，在细分条目控件或维度条目控件中输入值时，可能遇到不稳定。</span><span class="sxs-lookup"><span data-stu-id="cdc28-118">If delimiters in your upgraded environment are conflicting, you may experience instability when entering values in a segmented entry control or dimension entry control.</span></span> <span data-ttu-id="cdc28-119">这意味着输入科目和维度组合时，始终需要使用查找或弹出菜单。</span><span class="sxs-lookup"><span data-stu-id="cdc28-119">This means that you will need to always use lookups or a flyout menu when entering account and dimension combinations.</span></span>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
