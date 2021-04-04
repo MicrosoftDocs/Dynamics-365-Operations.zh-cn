@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,53 +16,56 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c46f945a9caae2836886d051da820658e8be9af
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c31722537e2a6bae502800953939ca01da4527b9
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687688"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567560"
 ---
-# <a name="fa_sum-er-function"></a><span data-ttu-id="7f7a1-103">FA_SUM ER 函数</span><span class="sxs-lookup"><span data-stu-id="7f7a1-103">FA_SUM ER function</span></span>
+# <a name="fa_sum-er-function"></a><span data-ttu-id="5a582-103">FA_SUM ER 函数</span><span class="sxs-lookup"><span data-stu-id="5a582-103">FA_SUM ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="7f7a1-104">`FA_SUM` 函数返回 *容器（记录）* 值，该值由指定固定资产项目的固定资产金额、价值模型代码和日期期限组成。</span><span class="sxs-lookup"><span data-stu-id="7f7a1-104">The `FA_SUM` function returns a *Container (record)* value that consists of data for the fixed asset amounts for the specified fixed asset item, value model code, and period of dates.</span></span>
+<span data-ttu-id="5a582-104">`FA_SUM` 函数返回 *容器（记录）* 值，该值由指定固定资产项目的固定资产金额、价值模型代码和日期期限组成。</span><span class="sxs-lookup"><span data-stu-id="5a582-104">The `FA_SUM` function returns a *Container (record)* value that consists of data for the fixed asset amounts for the specified fixed asset item, value model code, and period of dates.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7f7a1-105">语法</span><span class="sxs-lookup"><span data-stu-id="7f7a1-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5a582-105">语法</span><span class="sxs-lookup"><span data-stu-id="5a582-105">Syntax</span></span>
 
 ```vb
 FA_SUM (fixed asset code, value model code, start date, end date)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="7f7a1-106">参数</span><span class="sxs-lookup"><span data-stu-id="7f7a1-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="5a582-106">参数</span><span class="sxs-lookup"><span data-stu-id="5a582-106">Arguments</span></span>
 
-<span data-ttu-id="7f7a1-107">`fixed asset code`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="7f7a1-107">`fixed asset code`: *String*</span></span>
+<span data-ttu-id="5a582-107">`fixed asset code`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="5a582-107">`fixed asset code`: *String*</span></span>
 
-<span data-ttu-id="7f7a1-108">一个 *字符串* 值，表示要为其计算余额的固定资产项目的代码。</span><span class="sxs-lookup"><span data-stu-id="7f7a1-108">A *String* value that represents the code of a fixed asset item that the balance is calculated for.</span></span>
+<span data-ttu-id="5a582-108">一个 *字符串* 值，表示要为其计算余额的固定资产项目的代码。</span><span class="sxs-lookup"><span data-stu-id="5a582-108">A *String* value that represents the code of a fixed asset item that the balance is calculated for.</span></span>
 
-<span data-ttu-id="7f7a1-109">`value model code`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="7f7a1-109">`value model code`: *String*</span></span>
+<span data-ttu-id="5a582-109">`value model code`：*字符串*</span><span class="sxs-lookup"><span data-stu-id="5a582-109">`value model code`: *String*</span></span>
 
-<span data-ttu-id="7f7a1-110">一个 *字符串* 值，表示要为其计算余额的价值模型的代码。</span><span class="sxs-lookup"><span data-stu-id="7f7a1-110">A *String* value that represents the code of a value model that the balance is calculated for.</span></span>
+<span data-ttu-id="5a582-110">一个 *字符串* 值，表示要为其计算余额的价值模型的代码。</span><span class="sxs-lookup"><span data-stu-id="5a582-110">A *String* value that represents the code of a value model that the balance is calculated for.</span></span>
 
-<span data-ttu-id="7f7a1-111">`start date`：*日期*</span><span class="sxs-lookup"><span data-stu-id="7f7a1-111">`start date`: *Date*</span></span>
+<span data-ttu-id="5a582-111">`start date`：*日期*</span><span class="sxs-lookup"><span data-stu-id="5a582-111">`start date`: *Date*</span></span>
 
-<span data-ttu-id="7f7a1-112">表示固定资产金额计算期间的开始日期的 *日期* 值。</span><span class="sxs-lookup"><span data-stu-id="7f7a1-112">A *Date* value that represents the start date of a period that the fixed asset amounts are calculated for.</span></span>
+<span data-ttu-id="5a582-112">表示固定资产金额计算期间的开始日期的 *日期* 值。</span><span class="sxs-lookup"><span data-stu-id="5a582-112">A *Date* value that represents the start date of a period that the fixed asset amounts are calculated for.</span></span>
 
-<span data-ttu-id="7f7a1-113">`end date`：*日期*</span><span class="sxs-lookup"><span data-stu-id="7f7a1-113">`end date`: *Date*</span></span>
+<span data-ttu-id="5a582-113">`end date`：*日期*</span><span class="sxs-lookup"><span data-stu-id="5a582-113">`end date`: *Date*</span></span>
 
-<span data-ttu-id="7f7a1-114">表示固定资产金额计算期间的结束日期的 *日期* 值。</span><span class="sxs-lookup"><span data-stu-id="7f7a1-114">A *Date* value that represents the end date of a period that the fixed asset amounts are calculated for.</span></span>
+<span data-ttu-id="5a582-114">表示固定资产金额计算期间的结束日期的 *日期* 值。</span><span class="sxs-lookup"><span data-stu-id="5a582-114">A *Date* value that represents the end date of a period that the fixed asset amounts are calculated for.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="7f7a1-115">返回值</span><span class="sxs-lookup"><span data-stu-id="7f7a1-115">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="5a582-115">返回值</span><span class="sxs-lookup"><span data-stu-id="5a582-115">Return values</span></span>
 
-<span data-ttu-id="7f7a1-116">*容器（记录）*</span><span class="sxs-lookup"><span data-stu-id="7f7a1-116">*Container (record)*</span></span>
+<span data-ttu-id="5a582-116">*容器（记录）*</span><span class="sxs-lookup"><span data-stu-id="5a582-116">*Container (record)*</span></span>
 
-<span data-ttu-id="7f7a1-117">生成的记录值。</span><span class="sxs-lookup"><span data-stu-id="7f7a1-117">The resulting record value.</span></span>
+<span data-ttu-id="5a582-117">生成的记录值。</span><span class="sxs-lookup"><span data-stu-id="5a582-117">The resulting record value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="7f7a1-118">示例</span><span class="sxs-lookup"><span data-stu-id="7f7a1-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="5a582-118">示例</span><span class="sxs-lookup"><span data-stu-id="5a582-118">Example</span></span>
 
-<span data-ttu-id="7f7a1-119">`FA_SUM ("COMP-000001", "Current", Date1, Date2)` 返回已为 **Current** 价值模型准备的期间为 **Date1** 到 **Date2** 的固定资产 **COMP-000001** 的数据容器。</span><span class="sxs-lookup"><span data-stu-id="7f7a1-119">`FA_SUM ("COMP-000001", "Current", Date1, Date2)` returns the data container for fixed asset **COMP-000001** that has been prepared for the **Current** value model and for a period from **Date1** to **Date2**.</span></span>
+<span data-ttu-id="5a582-119">`FA_SUM ("COMP-000001", "Current", Date1, Date2)` 返回已为 **Current** 价值模型准备的期间为 **Date1** 到 **Date2** 的固定资产 **COMP-000001** 的数据容器。</span><span class="sxs-lookup"><span data-stu-id="5a582-119">`FA_SUM ("COMP-000001", "Current", Date1, Date2)` returns the data container for fixed asset **COMP-000001** that has been prepared for the **Current** value model and for a period from **Date1** to **Date2**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="7f7a1-120">其他资源</span><span class="sxs-lookup"><span data-stu-id="7f7a1-120">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="5a582-120">其他资源</span><span class="sxs-lookup"><span data-stu-id="5a582-120">Additional resources</span></span>
 
-[<span data-ttu-id="7f7a1-121">其他（业务域特定的）函数</span><span class="sxs-lookup"><span data-stu-id="7f7a1-121">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="5a582-121">其他（业务域特定的）函数</span><span class="sxs-lookup"><span data-stu-id="5a582-121">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
