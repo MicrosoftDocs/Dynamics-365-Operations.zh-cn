@@ -2,11 +2,9 @@
 title: 收入确认捆绑
 description: 本主题介绍应收帐款的收入确认功能中包含的捆绑功能。 捆绑包含一个父级项目和多个组件项目。
 author: kweekley
-manager: aolson
 ms.date: 01/04/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 857078e0b97bd136f5236c999a939d3fd263c39f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bce824267f435d9de0acd43ca145e0d148dfe67c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238368"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816260"
 ---
 # <a name="revenue-recognition-bundles"></a>收入确认捆绑
 

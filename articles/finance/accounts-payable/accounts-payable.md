@@ -2,11 +2,9 @@
 title: 应付帐款主页
 description: 此主题概要介绍了应付帐款。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 02/15/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 882afecdb33e5ad59a793f2f2391cb1ad27f911e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e20c26939389a72a8b3249bcb26bb3871768bbee
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250690"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820851"
 ---
 # <a name="accounts-payable-home-page"></a>应付帐款主页
 

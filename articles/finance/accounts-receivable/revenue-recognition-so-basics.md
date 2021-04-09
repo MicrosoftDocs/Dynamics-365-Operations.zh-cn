@@ -2,11 +2,9 @@
 title: 销售订单上的收入确认
 description: 本主题介绍在销售订单和发票上确认收入的基本功能。 收入确认在销售订单和从销售订单创建的对应发票上可用。
 author: kweekley
-manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: b59e7506f5b02ba7d5d522dd22f4e4bfd3e0c10b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e9c6423a7fb604005d4fb7f1eca05a1ef7d210e5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245632"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817213"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>销售订单上的收入确认
 

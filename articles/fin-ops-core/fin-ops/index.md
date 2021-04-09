@@ -2,7 +2,6 @@
 title: Finance and Operations 应用程序文档
 description: 针对 Finance and Operations 应用的文档。
 author: robinarh
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9421cbe9eeb44fcd0d0f0c688e84ae2043610ac
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 98b9b9e336af58f2223b8b8b47d9229d908c5616
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562351"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751818"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Finance and Operations 应用程序文档
 

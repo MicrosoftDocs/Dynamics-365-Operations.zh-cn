@@ -2,11 +2,9 @@
 title: 收入确认重新分配
 description: 本主题提供有关重新分配的信息，这使组织可以在更改合同销售条款时重新计算收入价格。 它包含指向其他主题的链接，这些主题介绍如何在多种情况下确认收入。
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 45fa888508e3d9c6be1e26ebcf2896ca0b538caf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2d961cb4eedda6265b4acd8dbd6f82e8026373fa
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238272"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820561"
 ---
 # <a name="revenue-recognition-reallocation"></a>收入确认重新分配
 

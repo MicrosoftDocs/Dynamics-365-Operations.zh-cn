@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16（2021 年 2 月）
                       href: get-started/whats-new-changed-10-0-16.md
-                    - name: Finance 10.0.15（2021 年 1 月）
-                      href: get-started/whats-new-changed-10-0-15.md
             - name: 已删除或弃用的功能
               items:
                 - name: 主页中已删除或弃用的功能
@@ -1418,34 +1416,36 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: 监管更新
               href: localizations/regulatory-updates.md
-            - name: 电子开票加载项
+            - name: 电子开票
               items:
-                - name: 电子开票加载项概览
+                - name: 电子开票概览
                   href: localizations/e-invoicing-service-overview.md
-                - name: 电子开票加载项管理组件
+                - name: 电子开票管理组件
                   href: localizations/e-invoicing-service-administration.md
-                - name: 在 Regulatory Configuration Services (RCS) 中配置电子开票加载项
+                - name: 在 Regulatory Configuration Services (RCS) 中配置电子开票
                   href: localizations/e-invoicing-configuration-rcs.md
-                - name: 在 Finance 和 Supply Chain Management 中签发电子账单
+                - name: 在 Finance 和 Supply Chain Management 中签发电子发票
                   href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
                 - name: 创建 Azure 存储帐户和密钥保管库
                   href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
                 - name: 入门
                   items:
-                    - name: 开始使用电子开票加载项服务管理
+                    - name: 开始使用电子开票服务管理
                       href: localizations/e-invoicing-get-started-service-administration.md
-                    - name: 开始使用电子开票加载项
+                    - name: 开始使用电子开票
                       href: localizations/e-invoicing-get-started.md
-                    - name: 开始使用适用于巴西的电子开票加载项
+                    - name: 开始使用适用于巴西的电子开票
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: 开始使用适用于埃及的电子开票加载项
+                    - name: 开始使用适用于埃及的电子开票
                       href: localizations/e-invoicing-eg-get-started.md
-                    - name: 开始使用适用于意大利的电子开票加载项
+                    - name: 开始使用适用于意大利的电子开票
                       href: localizations/e-invoicing-ita-get-started.md
-                    - name: 开始使用适用于墨西哥的电子开票加载项
+                    - name: 开始使用适用于墨西哥的电子开票
                       href: localizations/e-invoicing-mex-get-started.md
-                    - name: 设置电子开单加载项
+                    - name: 设置电子开票
                       href: localizations/e-invoicing-setup.md
+                - name: 电子开票常见问题解答
+                  href: localizations/e-invoicing-faq.md
             - name: 澳大利亚
               items:
                 - name: 澳大利亚概览
@@ -1798,6 +1798,10 @@
                   href: localizations/emea-egy-invoice-layout.md
                 - name: 埃及的客户电子发票
                   href: localizations/emea-egy-e-invoices.md
+                - name: 埃及增值税申报
+                  href: localizations/emea-egy-vat-declaration.md
+                - name: 埃及预缴税金申报
+                  href: localizations/emea-egy-wht-declaration.md
             - name: 爱沙尼亚
               items:
                 - name: 爱沙尼亚概览
@@ -2074,7 +2078,7 @@
                   href: localizations/tasks/set-up-invoice-declaration-vendors.md
                 - name: 设置必需的付款参考
                   href: localizations/tasks/set-up-mandatory-payment-references.md
-                - name: 更新供应商账单申报并生成报表
+                - name: 更新供应商发票申报并生成报表
                   href: localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: 印度
               items:
@@ -2082,6 +2086,38 @@
                   href: localizations/india.md
                 - name: 印度本地化的范围
                   href: localizations/apac-ind-scope.md
+                - name: 印度本地化的新增功能或更改
+                  items:
+                    - name: 10.0.0 新增功能或更改
+                      href: localizations/apac-ind-news-letter-10-0-00.md
+                    - name: 10.0.01 新增功能或更改
+                      href: localizations/apac-ind-news-letter-10-0-01.md
+                    - name: 10.0.02 新增功能或更改
+                      href: localizations/apac-ind-news-letter-10-0-02.md
+                    - name: 10.0.03 新增功能或更改
+                      href: localizations/apac-ind-news-letter-10-0-03.md
+                    - name: 10.0.04 新增功能或更改
+                      href: localizations/apac-ind-news-letter-10-0-04.md
+                    - name: 10.0.05 新增功能或更改
+                      href: localizations/apac-ind-news-letter-10-0-05.md
+                    - name: 10.0.06 新增功能或更改
+                      href: localizations/apac-ind-news-letter-10-0-06.md
+                    - name: 10.0.07 新增功能或更改
+                      href: localizations/apac-ind-news-letter-10-0-07.md
+                    - name: 10.0.08 新增功能或更改
+                      href: localizations/apac-ind-news-letter-10-0-08.md
+                    - name: 10.0.09 新增功能或更改
+                      href: localizations/apac-ind-news-letter-10-0-09.md
+                    - name: 10.0.10 新增功能或更改
+                      href: localizations/apac-ind-news-letter-10-0-10.md
+                    - name: 10.0.11 新增功能或更改
+                      href: localizations/apac-ind-news-letter-10-0-11.md
+                    - name: 10.0.12 新增功能或更改
+                      href: localizations/apac-ind-news-letter-10-0-12.md
+                    - name: 10.0.13 新增功能或更改
+                      href: localizations/ind-news-letter-10-0-13.md
+                    - name: 10.0.14 新增功能或更改
+                      href: localizations/apac-ind-news-letter-10-0-14.md
                 - name: 固定资产
                   items:
                     - name: 印度固定资产概览
@@ -2108,210 +2144,198 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: 将资本物料转换为固定资产
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: 印度 GST
+                - name: 间接税
                   items:
-                    - name: 印度 GST 概览
-                      href: localizations/apac-ind-gst.md
-                    - name: 印度 GST 本地化的新增功能或更改
+                    - name: 印度 GST
                       items:
-                        - name: 10.0.0 新增功能或更改
-                          href: localizations/apac-ind-news-letter-10-0-00.md
-                        - name: 10.0.01 新增功能或更改
-                          href: localizations/apac-ind-news-letter-10-0-01.md
-                        - name: 10.0.02 新增功能或更改
-                          href: localizations/apac-ind-news-letter-10-0-02.md
-                        - name: 10.0.03 新增功能或更改
-                          href: localizations/apac-ind-news-letter-10-0-03.md
-                        - name: 10.0.04 新增功能或更改
-                          href: localizations/apac-ind-news-letter-10-0-04.md
-                        - name: 10.0.05 新增功能或更改
-                          href: localizations/apac-ind-news-letter-10-0-05.md
-                        - name: 10.0.06 新增功能或更改
-                          href: localizations/apac-ind-news-letter-10-0-06.md
-                        - name: 10.0.07 新增功能或更改
-                          href: localizations/apac-ind-news-letter-10-0-07.md
-                        - name: 10.0.08 新增功能或更改
-                          href: localizations/apac-ind-news-letter-10-0-08.md
-                        - name: 10.0.09 新增功能或更改
-                          href: localizations/apac-ind-news-letter-10-0-09.md
-                        - name: 10.0.10 新增功能或更改
-                          href: localizations/apac-ind-news-letter-10-0-10.md
-                        - name: 10.0.11 新增功能或更改
-                          href: localizations/apac-ind-news-letter-10-0-11.md
-                        - name: 10.0.12 新增功能或更改
-                          href: localizations/apac-ind-news-letter-10-0-12.md
-                        - name: 10.0.13 新增功能或更改
-                          href: localizations/ind-news-letter-10-0-13.md
-                        - name: 10.0.14 新增功能或更改
-                          href: localizations/apac-ind-news-letter-10-0-14.md
-                    - name: 印度 GST 参考组
-                      href: localizations/apac-ind-gst-reference-groups.md
-                    - name: 收银机 GST 集成
-                      href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/finance/toc.json
-                    - name: 主数据设置
+                        - name: 印度 GST 概览
+                          href: localizations/apac-ind-gst.md
+                        - name: 税引擎
+                          items:
+                            - name: 税引擎概览
+                              href: general-ledger/tax-engine.md
+                            - name: 导入配置
+                              href: general-ledger/tax-engine-import-configuration.md
+                            - name: 高级配方设计器
+                              href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
+                            - name: 税引擎适用性
+                              href: general-ledger/tax-engine-applicability.md
+                            - name: 创建税种组分
+                              href: localizations/tax-engine-create-tax-component.md
+                            - name: 税引擎集成
+                              href: general-ledger/tax-engine-integration.md
+                            - name: 扩展税引擎
+                              href: general-ledger/extend-tax-engine-configurations.md
+                            - name: 清除 TaxDocumentJSON 表
+                              href: localizations/gte-clean-up-tax-document-json-table.md
+                            - name: 解决 GTE 问题
+                              href: localizations/tax-engine-trouble-shooting.md
+                        - name: 主数据设置
+                          items:
+                            - name: 创建垂直业务
+                              href: localizations/apac-ind-GST-create-business-vertical.md
+                            - name: 更新省/直辖市/自治区代码和联合区域
+                              href: localizations/apac-ind-GST-update-state-code-union-territory.md
+                            - name: 创建商品劳务税纳税人标识号主数据
+                              href: localizations/apac-ind-GST-create-gstin-master.md
+                            - name: 定义商品劳务税纳税人标识号和参考编号规则
+                              href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
+                            - name: 定义命名法协调系统代码和服务会计代码
+                              href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                            - name: 创建税率类型
+                              href: localizations/apac-ind-GST-create-tax-rate-type.md
+                            - name: 创建商品劳务税过帐类型的主科目
+                              href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
+                            - name: 创建税金结算期间
+                              href: localizations/apac-ind-GST-create-tax-settlement-period.md
+                            - name: 将商品劳务税纳税人标识号附加到税务登记组
+                              href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
+                        - name: 税设置
+                          items:
+                            - name: 定义税配置并将其部署到法人
+                              href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
+                            - name: 映射配置税类型 - 自定义
+                              href: localizations/apac-ind-GST-map-configuration-tax-types.md
+                            - name: 设置比率和百分比表
+                              href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
+                            - name: 设置销售税层次和扣除规则
+                              href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
+                            - name: 印度 GST 参考组
+                              href: localizations/apac-ind-gst-reference-groups.md
+                        - name: 纳税交易
+                          items:
+                            - name: 采购交易记录
+                              items:
+                                - name: 从未登记的供应商处采购
+                                  href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
+                                - name: 从未登记的供应商处采购应纳税商品
+                                  href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
+                                - name: 从已登记的供应商处采购
+                                  href: localizations/apac-ind-GST-purchases-registered-vendor.md
+                                - name: 折扣商品采购
+                                  href: localizations/apac-ind-GST-purchase-discounted-goods.md
+                                - name: 免税商品采购
+                                  href: localizations/apac-ind-GST-purchase-exempted-goods.md
+                                - name: 零点税率商品采购
+                                  href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
+                                - name: 非 GST 商品采购
+                                  href: localizations/apac-ind-GST-purchase-non-gst-goods.md
+                                - name: 从组合经销商处采购
+                                  href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
+                                - name: 采购具有装运费用的应纳税商品
+                                  href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
+                                - name: 修订具有应纳税商品的采购账单
+                                  href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
+                                - name: 固定资产采购
+                                  href: localizations/apac-ind-GST-purchase-fixed-asset.md
+                                - name: 创建针对采购账单的贷方通知单
+                                  href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
+                                - name: 创建针对采购账单的借方通知单
+                                  href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
+                                - name: 涉及抽样商品销毁的质检订单
+                                  href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
+                                - name: 采购退货订单
+                                  href: localizations/apac-ind-GST-purchase-return-order.md
+                                - name: 其中存在冲销费用的供应商预付款
+                                  href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                            - name: 销售交易记录
+                              items:
+                                - name: 向消费者销售应纳税商品
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
+                                - name: 向已登记的客户销售
+                                  href: localizations/apac-ind-GST-sell-registered-customer.md
+                                - name: 普通账单
+                                  href: localizations/apac-ind-GST-free-text-invoices.md
+                                - name: 其中存在冲销费用的应纳税商品的销售
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
+                                - name: 免税商品的销售
+                                  href: localizations/apac-ind-GST-sales-exempted-item.md
+                                - name: 零点税率商品销售
+                                  href: localizations/apac-ind-GST-sell-zero-rated-goods.md
+                                - name: 非商品劳务税商品销售
+                                  href: localizations/apac-ind-GST-sell-non-gst-goods.md
+                                - name: 具有折扣和临时评估的应纳税商品的销售
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
+                                - name: 具有装运费用税金的应纳税商品的销售
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
+                                - name: 价格含和不含税金的销售
+                                  href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
+                                - name: 创建针对销售账单的借方通知单
+                                  href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
+                                - name: 创建针对销售账单的贷方通知单
+                                  href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
+                                - name: 基于交货地址拆分的销售账单
+                                  href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
+                                - name: 退货单
+                                  href: localizations/apac-ind-GST-return-order-form.md
+                            - name: 国外交易记录
+                              items:
+                                - name: 进口具有 GST 的商品
+                                  href: localizations/apac-ind-GST-import-goods-gst.md
+                                - name: 进口具有 GST 的服务
+                                  href: localizations/apac-ind-import-services-gst.md
+                                - name: 出口具有零点税率税的商品
+                                  href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
+                                - name: 出口具有零点税率税的服务
+                                  href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
+                                - name: 针对出口订单的贷方通知单或借方通知单
+                                  href: localizations/apac-ind-GST-credit-debit-note-against-export-order.md
+                            - name: 存货转移交易记录
+                              items:
+                                - name: 存货转移单
+                                  href: localizations/apac-ind-stock-transfer.md
+                                - name: 具有转让价格税的存货转移单
+                                  href: localizations/apac-ind-GST-stock-transfer-transactions.md
+                            - name: 客户付款交易记录
+                              items:
+                                - name: 含税的预付款
+                                  href: localizations/apac-ind-GST-advance-payment-includes-tax.md
+                                - name: 在发票过帐期间结算的预付款
+                                  href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
+                                - name: 含税的预付款和账单的手动结算
+                                  href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
+                                - name: 含税的账单的付款
+                                  href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
+                                - name: 修订含税的预付款
+                                  href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
+                                - name: 客户付款退款
+                                  href: localizations/apac-ind-GST-customer-payment-refund.md
+                            - name: 税金调整
+                              items:
+                                - name: 税额调整
+                                  href: localizations/apac-ind-GST-tax-adjustments.md
+                                - name: 创建税收日记帐
+                                  href: localizations/apac-ind-GST-tax-journal.md
+                            - name: 税单查询
+                              items:
+                                - name: 税金查询
+                                  href: localizations/apac-ind-GST-tax-inquiry.md
+                        - name: 税务结算
+                          items:
+                            - name: 基于规则的税务结算
+                              href: localizations/apac-ind-GST-tax-settlement.md
+                        - name: GSTR 报表
+                          items:
+                            - name: 新的 GSTR-1 和 GSTR-2 返回格式
+                              href: localizations/apac-ind-GST-new-GSTR1-GSTR2-return-formats.md
+                            - name: 新的 GSTR 离线工具，用于 ANX-1 和购买登记
+                              href: localizations/apac-ind-GST-new-GSTR-offline-tool-ANX1-purchase-register.md
+                            - name: 为税收返还生成 GSTR 报表数据
+                              href: localizations/apac-ind-GST-tax-returns.md
+                            - name: 为 GSTR 报表启用多批次处理
+                              href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                - name: 直接税
+                  items:
+                    - name: 印度预缴税金
                       items:
-                        - name: 创建垂直业务
-                          href: localizations/apac-ind-GST-create-business-vertical.md
-                        - name: 更新省/直辖市/自治区代码和联合区域
-                          href: localizations/apac-ind-GST-update-state-code-union-territory.md
-                        - name: 创建商品劳务税纳税人标识号主数据
-                          href: localizations/apac-ind-GST-create-gstin-master.md
-                        - name: 定义商品劳务税纳税人标识号和参考编号规则
-                          href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
-                        - name: 定义命名法协调系统代码和服务会计代码
-                          href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
-                        - name: 创建税率类型
-                          href: localizations/apac-ind-GST-create-tax-rate-type.md
-                        - name: 创建商品劳务税过帐类型的主科目
-                          href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
-                        - name: 创建税金结算期间
-                          href: localizations/apac-ind-GST-create-tax-settlement-period.md
-                        - name: 将商品劳务税纳税人标识号附加到税务登记组
-                          href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
-                    - name: 税设置
-                      items:
-                        - name: 定义税配置并将其部署到法人
-                          href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
-                        - name: 映射配置税类型 - 自定义
-                          href: localizations/apac-ind-GST-map-configuration-tax-types.md
-                        - name: 设置比率和百分比表
-                          href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
-                        - name: 设置销售税层次和扣除规则
-                          href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
-                    - name: 采购交易记录
-                      items:
-                        - name: 从未登记的供应商处采购
-                          href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
-                        - name: 从未登记的供应商处采购应纳税商品
-                          href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
-                        - name: 从已登记的供应商处采购
-                          href: localizations/apac-ind-GST-purchases-registered-vendor.md
-                        - name: 折扣商品采购
-                          href: localizations/apac-ind-GST-purchase-discounted-goods.md
-                        - name: 免税商品采购
-                          href: localizations/apac-ind-GST-purchase-exempted-goods.md
-                        - name: 零点税率商品采购
-                          href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
-                        - name: 非 GST 商品采购
-                          href: localizations/apac-ind-GST-purchase-non-gst-goods.md
-                        - name: 从组合经销商处采购
-                          href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
-                        - name: 采购具有装运费用的应纳税商品
-                          href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
-                        - name: 修订具有应纳税商品的采购账单
-                          href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
-                        - name: 固定资产采购
-                          href: localizations/apac-ind-GST-purchase-fixed-asset.md
-                        - name: 创建针对采购账单的贷方通知单
-                          href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
-                        - name: 创建针对采购账单的借方通知单
-                          href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
-                        - name: 涉及抽样商品销毁的质检订单
-                          href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
-                        - name: 采购退货订单
-                          href: localizations/apac-ind-GST-purchase-return-order.md
-                        - name: 其中存在冲销费用的供应商预付款
-                          href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
-                    - name: 销售交易记录
-                      items:
-                        - name: 向消费者销售应纳税商品
-                          href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
-                        - name: 向已登记的客户销售
-                          href: localizations/apac-ind-GST-sell-registered-customer.md
-                        - name: 普通账单
-                          href: localizations/apac-ind-GST-free-text-invoices.md
-                        - name: 其中存在冲销费用的应纳税商品的销售
-                          href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
-                        - name: 免税商品的销售
-                          href: localizations/apac-ind-GST-sales-exempted-item.md
-                        - name: 零点税率商品销售
-                          href: localizations/apac-ind-GST-sell-zero-rated-goods.md
-                        - name: 非商品劳务税商品销售
-                          href: localizations/apac-ind-GST-sell-non-gst-goods.md
-                        - name: 具有折扣和临时评估的应纳税商品的销售
-                          href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
-                        - name: 具有装运费用税金的应纳税商品的销售
-                          href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
-                        - name: 价格含和不含税金的销售
-                          href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
-                        - name: 创建针对销售账单的借方通知单
-                          href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
-                        - name: 创建针对销售账单的贷方通知单
-                          href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
-                        - name: 基于交货地址拆分的销售账单
-                          href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
-                        - name: 退货单
-                          href: localizations/apac-ind-GST-return-order-form.md
-                    - name: 国外交易记录
-                      items:
-                        - name: 进口具有 GST 的商品
-                          href: localizations/apac-ind-GST-import-goods-gst.md
-                        - name: 进口具有 GST 的服务
-                          href: localizations/apac-ind-import-services-gst.md
-                        - name: 出口具有零点税率税的商品
-                          href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
-                        - name: 出口具有零点税率税的服务
-                          href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
-                    - name: 存货交易记录
-                      items:
-                        - name: 存货转移单
-                          href: localizations/apac-ind-stock-transfer.md
-                        - name: 具有转让价格税的存货转移单
-                          href: localizations/apac-ind-GST-stock-transfer-transactions.md
-                    - name: 客户付款交易记录
-                      items:
-                        - name: 含税的预付款
-                          href: localizations/apac-ind-GST-advance-payment-includes-tax.md
-                        - name: 在账单过帐期间结算的预付款
-                          href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
-                        - name: 含税的预付款和账单的手动结算
-                          href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
-                        - name: 含税的账单的付款
-                          href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
-                        - name: 修订含税的预付款
-                          href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
-                        - name: 客户付款退款
-                          href: localizations/apac-ind-GST-customer-payment-refund.md
-                    - name: 直接纳税交易记录
-                      items:
-                        - name: 计算减税时包括商品劳务税
+                        - name: 计算减税时包括 GST
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
-                        - name: 计算纳税时包括商品劳务税
+                        - name: 计算纳税时包括 GST
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
-                    - name: 税额调整
-                      href: localizations/apac-ind-GST-tax-adjustments.md
-                    - name: 基于规则的税务结算
-                      href: localizations/apac-ind-GST-tax-settlement.md
-                    - name: 创建税收日记帐
-                      href: localizations/apac-ind-GST-tax-journal.md
-                    - name: 为税收返还生成 GSTR 报表数据
-                      href: localizations/apac-ind-GST-tax-returns.md
-                    - name: 为 GSTR 报表启用多批次处理
-                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
-                    - name: 税金查询
-                      href: localizations/apac-ind-GST-tax-inquiry.md
-                    - name: 清除 TaxDocumentJSON 表
-                      href: localizations/gte-clean-up-tax-document-json-table.md
-                - name: 税引擎
-                  items:
-                    - name: 税引擎概览
-                      href: general-ledger/tax-engine.md
-                    - name: 导入配置
-                      href: general-ledger/tax-engine-import-configuration.md
-                    - name: 高级配方设计器
-                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
-                    - name: 税引擎适用性
-                      href: general-ledger/tax-engine-applicability.md
-                    - name: 创建税种组分
-                      href: localizations/tax-engine-create-tax-component.md
-                    - name: 税引擎集成
-                      href: general-ledger/tax-engine-integration.md
-                    - name: 扩展税引擎
-                      href: general-ledger/extend-tax-engine-configurations.md
-                    - name: 解决 GTE 问题
-                      href: localizations/tax-engine-trouble-shooting.md
-                - name: 税金阈值常见问题解答
-                  href: localizations/apac-ind-tax-thresholds.md
+                        - name: 税金阈值常见问题解答
+                          href: localizations/apac-ind-tax-thresholds.md
+                        - name: 货物销售的源头税
+                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
             - name: 意大利
               items:
                 - name: 意大利概览
@@ -2568,6 +2592,8 @@
                   href: localizations/emea-ltu-vat-statement-details.md
                 - name: 立陶宛的 i.SAF 报告
                   href: localizations/emea-ltu-isaf.md
+                - name: 立陶宛税务标准审计文件 (SAF-T)
+                  href: localizations/emea-ltu-saf-t.md
             - name: 马来西亚
               items:
                 - name: 马来西亚概览
@@ -2930,6 +2956,8 @@
                       href: localizations/rus-deferred-expenses-register.md
                     - name: 现金流量税务登记
                       href: localizations/rus-cash-flow-tax-registers.md
+                    - name: 额定费用登记
+                      href: localizations/rus-rated-expenses-registers.md
             - name: 沙特阿拉伯
               items:
                 - name: 沙特阿拉伯概览
@@ -3381,11 +3409,11 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: 准备应用程序特定元数据
                       items:
-                        - name: (ER) 准备要在 RCS 中使用的应用程序元数据
+                        - name: 准备要在 RCS 中使用的电子报告中的应用程序元数据
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) 通过使用电子报告配置访问应用程序元数据
+                        - name: 通过使用电子报告配置访问 RCS 中的应用程序元数据
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) 通过使用互连应用程序访问应用程序元数据
+                        - name: 通过使用互连应用程序访问 RCS 中的应用程序元数据
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/finance/toc.json
                         - name: 定义模型映射并选择数据源
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/finance/toc.json
@@ -3409,9 +3437,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
                 - name: 高级配方设计器
                   href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
-            - name: 公式语言和函数
+            - name: 配方语言和函数
               items:
-                - name: 公式语言
+                - name: 配方语言
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
                 - name: 函数
                   items:
@@ -3675,7 +3703,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
                         - name: 文本：Text
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: 设计电子报告格式以生成各种格式的传出电子单据
+            - name: 设计电子报告格式以生成各种格式的传出文档
               items:
                 - name: 设计配置以生成 Excel 格式的传出文档
                   items:
@@ -3703,7 +3731,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: 嵌入图像和形状
                   items:
-                    - name: (ER) 在您生成的文档中嵌入图像和形状
+                    - name: 在您生成的文档中嵌入图像和形状
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
                     - name: 嵌入图像和形状的示例
                       items:
@@ -3763,8 +3791,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory services (RCS)
                   items:
-                    - name: Regulatory Configuration Services (RCS) - 全球化功能
-                      href: localizations/rcs-globalization-feature.md
+                    - name: RCS 中的全球化功能
+                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
                     - name: 将电子报告配置下载到 Finance
                       items:
                         - name: 从 RCS 下载配置
@@ -3896,17 +3924,17 @@
                     - name: 目标类型
                       items:
                         - name: 归档目标
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md?toc=/dynamics365/finance/toc.json
                         - name: 电子邮件目标
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md?toc=/dynamics365/finance/toc.json
                         - name: 文件目标
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md?toc=/dynamics365/finance/toc.json
                         - name: Power BI 目标
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md?toc=/dynamics365/finance/toc.json
                         - name: 打印机目标
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md?toc=/dynamics365/finance/toc.json
                         - name: 屏幕目标
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/finance/toc.json
                     - name: 配置目标
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: 配置与操作有关的目标
@@ -3919,13 +3947,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
                     - name: 所生成电子报告报表的跟踪结果的改进以及与基准值的比较
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
-                    - name: 自动测试电子报告
+                    - name: 使用电子报告自动进行测试
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
                 - name: 通过使用电子报告配置自动执行业务流程
                   items:
                     - name: 配置电子报告以便将数据导入 Power BI
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
-                    - name: 生成可打印的普通账单 (FTI) 窗体
+                    - name: 生成可打印的普通发票 (FTI) 窗体
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
                 - name: 跟踪电子报告格式的执行以解决性能问题
                   href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json

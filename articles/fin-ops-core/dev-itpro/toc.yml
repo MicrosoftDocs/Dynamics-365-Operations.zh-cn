@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: 10.0.16 的平台更新（2021 年 2 月）
                   href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: 10.0.15 的平台更新（2021 年 1 月）
-                  href: get-started/whats-new-platform-updates-10-0-15.md
             - name: 已删除或弃用的功能
               items:
                 - name: 主页中已删除或弃用的功能
@@ -226,6 +224,10 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: 集成工作人员、作业和岗位
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: 当事方和全球通讯簿
+                              href: data-entities/dual-write/party-gab.md
+                            - name: 将 Power Portal 与当事方数据模型配合使用
+                              href: data-entities/dual-write/party-gab-portal.md
                             - name: 注释集成
                               href: data-entities/dual-write/notes-integration.md
                             - name: 映射引用
@@ -526,13 +528,15 @@
                   items:
                     - name: 在 LCS 中设置本地项目
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: 设置并部署本地环境
+                    - name: 设置并部署本地环境（平台更新 41 及更高版本）
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: 设置并部署本地环境（平台更新 12 直至 40）
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: 本地环境中 Retail 渠道组件的安装步骤
                       href: deployment/deploy-retail-onprem.md
                     - name: 开发自定义模型并将其部署到本地环境
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: 环境维护
+                - name: 环境运营
                   items:
                     - name: 将更新应用于本地部署
                       href: deployment/apply-updates-on-premises.md
@@ -542,6 +546,8 @@
                       href: user-interface/client-disconnected.md
                     - name: 在本地部署中配置仅批处理和仅交互式的 AOS 节点
                       href: deployment/onprem-batchonly.md
+                    - name: 为 SQL Server Reporting Services (SSRS) 节点配置高可用性
+                      href: deployment/onprem-SSRSHA.md
                     - name: 为本地环境配置代理
                       href: deployment/onprem-reverseproxy.md
                     - name: 本地诊断
@@ -1136,20 +1142,24 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Microsoft Power Platform 集成
           items:
-            - name: Microsoft Power Platform 与 Finance and Operations 的集成
-              href: power-platform/overview.md
-            - name: 加载项概览
-              href: power-platform/add-ins-overview.md
-            - name: 实体建模
-              href: power-platform/entity-modeling.md
-            - name: 应用程序生命周期管理
-              href: power-platform/application-lifecycle-management.md
-            - name: Finance and Operations 和 Dataverse 管理员参考
-              href: power-platform/admin-reference.md
-            - name: Finance and Operations 的 Power Apps 门户
-              href: power-platform/power-portal-reference.md
-            - name: Finance and Operations 虚拟实体常见问题
-              href: power-platform/faq.md
+            - name: 虚拟实体
+              items:
+                - name: Microsoft Power Platform 与 Finance and Operations 的集成
+                  href: power-platform/overview.md
+                - name: 实体建模
+                  href: power-platform/entity-modeling.md
+                - name: 应用程序生命周期管理
+                  href: power-platform/application-lifecycle-management.md
+                - name: Finance and Operations 和 Dataverse 管理员参考
+                  href: power-platform/admin-reference.md
+                - name: Finance and Operations 的 Power Apps 门户
+                  href: power-platform/power-portal-reference.md
+                - name: Finance and Operations 虚拟实体常见问题
+                  href: power-platform/faq.md
+            - name: 加载项
+              items:
+                - name: 加载项概览
+                  href: power-platform/add-ins-overview.md
         - name: 移动平台
           items:
             - name: 移动平台资源
@@ -1388,11 +1398,13 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: 派生测试用例
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Regression suite automation tool 教程
+            - name: Regression Suite Automation Tool 教程
               href: perf-test/rsat/rsat-tutorial.md
+            - name: 配置非管理员用户
+              href: perf-test/rsat/rsat-configure-nonadmin.md
             - name: 最佳实践
               href: perf-test/rsat/rsat-best-practices.md
-            - name: 使用 Regression Suite Automation Tool 的数据不可知测试
+            - name: 使用 Regression Suite Automation Tool 的数据无关测试
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: 疑难解答
               href: perf-test/rsat/rsat-troubleshooting.md

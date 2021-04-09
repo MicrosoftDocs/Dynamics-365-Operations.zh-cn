@@ -2,7 +2,6 @@
 title: 利用 Power BI 主页进行报告和分析
 description: 本主题为您指出了各种资源，您可使用这些资源来详细了解可用的商业智能和报告工具。
 author: sericks007
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: index-page
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 644cf8ea39da872962e44a38294af88d1dfa809e
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e20b6d586e4effbb56d476504a679c3b0b8adb3c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559861"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754486"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>利用 Power BI 主页进行报告和分析
 

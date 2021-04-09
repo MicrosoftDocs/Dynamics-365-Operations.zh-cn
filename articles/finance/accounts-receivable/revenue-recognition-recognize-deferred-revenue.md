@@ -2,11 +2,9 @@
 title: 确认延期收入
 description: 本主题提供有关如何使用收入确认功能确认收入的信息。
 author: kweekley
-manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 5adcb666f35426f2fed545813d81ddb9b1034f1d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8d9b5e1248497ec74e1c7125b2395c0ed4c825c2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238224"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820513"
 ---
 # <a name="recognize-deferred-revenue"></a>确认延期收入
 

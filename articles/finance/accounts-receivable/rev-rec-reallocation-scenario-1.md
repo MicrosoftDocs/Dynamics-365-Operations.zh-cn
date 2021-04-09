@@ -2,11 +2,9 @@
 title: 收入确认重新分配 - 方案 1
 description: 本主题介绍了一种重新分配方案，在此方案中输入了两个销售订单，但仅对它们进行了确认。 如果两个以上的销售订单处于确认状态，则相同的方案将产生相似的结果。
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 25fb32ce72555e573cd37a0ab092b51b99bb4372
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f94b054d213dc2b347f4e5a7b2f4c2a51d519f57
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260869"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823996"
 ---
 # <a name="revenue-recognition-reallocation--scenario-1"></a>收入确认重新分配 - 方案 1
 

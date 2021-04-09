@@ -2,11 +2,9 @@
 title: Supply Chain Management 主页
 description: 本页提供了针对 Supply Chain Management 功能的一系列帮助主题和其他资源。
 author: kamaybac
-manager: tfehr
 ms.date: 01/08/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1e3c95520ca83f151e91e10073f82a1a9541f02f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d82f31212245044f27558c3cdea78fbcf4988afb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252838"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829948"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Management 主页
 

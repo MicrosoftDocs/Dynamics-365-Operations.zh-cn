@@ -2,11 +2,9 @@
 title: Finance 主页
 description: 本主题提供了针对 Microsoft Dynamics 365 Finance 中的财务管理功能的一系列帮助主题和其他资源。
 author: roschlom
-manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b2338bcb727e0a513430c74b28b54f2101f2e3b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218875"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813451"
 ---
 # <a name="finance-home-page"></a>Finance 主页
 
@@ -71,8 +69,10 @@ ms.locfileid: "5218875"
 
 ### <a name="additional-content"></a>其他内容
 
-供应链管理功能涵盖了采购到付款流程的多个部分，包括针对您组织所购买的商品或服务的申请、订购、接收、开票和付款。 请参阅 [Supply Chain Management 主页](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md)，了解有关管理采购、库存和制造的功能的信息。 
+供应链管理功能涵盖了采购到付款流程的多个部分，包括针对您组织所购买的商品或服务的申请、订购、接收、开票和付款。 请参阅 [Supply Chain Management 主页](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md)，了解有关管理采购、库存和制造的功能的信息。
 
+## <a name="elearning-courses"></a>网络培训课程
 
+要了解在线课程和培训，请查看 [Microsoft Learn 上的 Dynamics 365 Finance](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path)。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

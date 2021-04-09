@@ -2,11 +2,9 @@
 title: 固定资产主页
 description: 固定资产是个体或组织所拥有的有价值的物料，例如建筑物、车辆、土地和设备。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d35d1a734ebff3abdf49083c282b5dfb64b445bd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1825ee4617d14b421d4a7e6151d645a653a9fcbb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212413"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815660"
 ---
 # <a name="fixed-assets-home-page"></a>固定资产主页
 

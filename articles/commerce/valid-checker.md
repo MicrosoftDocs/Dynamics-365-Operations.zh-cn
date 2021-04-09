@@ -2,11 +2,9 @@
 title: 零售交易记录一致性检查器
 description: 本主题将介绍 Dynamics 365 Commerce 中的交易记录一致性检查器功能。
 author: josaw1
-manager: AnnBe
 ms.date: 10/07/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: cce0d408ac6d372fb726eff8fa4b0358ec200243
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9a4f03d8cf6696b7e449448704e5360f2ef585b7
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210987"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803697"
 ---
 # <a name="retail-transaction-consistency-checker"></a>零售交易记录一致性检查器
 

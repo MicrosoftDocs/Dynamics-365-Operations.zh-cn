@@ -2,11 +2,9 @@
 title: 编辑并审计现金和结转及现金管理交易记录
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中编辑并审计现金和结转及现金管理交易记录。
 author: josaw1
-manager: AnnBe
 ms.date: 11/04/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 296dbf03ed65c1994562149a2c4b8fccd9073f0d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7a9086da036712fc8c63498d95dc9f71f32f75c6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5221911"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792721"
 ---
 # <a name="edit-and-audit-cash-and-carry-and-cash-management-transactions"></a>编辑并审计现金和结转及现金管理交易记录
 

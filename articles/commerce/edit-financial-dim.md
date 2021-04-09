@@ -2,11 +2,9 @@
 title: 编辑零售交易记录的财务维度
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中编辑零售交易记录的财务维度。
 author: josaw1
-manager: AnnBe
 ms.date: 11/04/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4d4b7e383ca2089ee98e70d23ccd890d0e6a86c5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ff16d8e2e75a877e5ca7de604c7915e908473da6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5221790"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792697"
 ---
 # <a name="edit-financial-dimensions-for-retail-transactions"></a>编辑零售交易记录的财务维度
 
