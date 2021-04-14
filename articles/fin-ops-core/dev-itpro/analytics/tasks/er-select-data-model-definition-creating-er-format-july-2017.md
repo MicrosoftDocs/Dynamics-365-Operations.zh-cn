@@ -2,7 +2,6 @@
 title: 创建格式时选择数据模型定义
 description: 为了完成此过程中的步骤，您必须首先完成“ER 创建配置提供商并标记为有效”这一过程。
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,89 +12,89 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68c5114b8c1e2a2ac5d357ee9e75cc54c149f39d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: b01f7afb6ca3bd1f317c25202e0cf72231008fca
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564258"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744955"
 ---
-# <a name="select-data-model-definitions-when-you-create-formats"></a><span data-ttu-id="2bf17-103">创建格式时选择数据模型定义</span><span class="sxs-lookup"><span data-stu-id="2bf17-103">Select data model definitions when you create formats</span></span>
+# <a name="select-data-model-definitions-when-you-create-formats"></a><span data-ttu-id="8e987-103">创建格式时选择数据模型定义</span><span class="sxs-lookup"><span data-stu-id="8e987-103">Select data model definitions when you create formats</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="2bf17-104">为了完成此过程中的步骤，您必须首先完成“ER 创建配置提供商并标记为有效”这一过程。</span><span class="sxs-lookup"><span data-stu-id="2bf17-104">To complete the steps in this procedure, you must first complete the procedure, ER Create a configuration provider and mark it as active.</span></span> 
+<span data-ttu-id="8e987-104">为了完成此过程中的步骤，您必须首先完成“ER 创建配置提供商并标记为有效”这一过程。</span><span class="sxs-lookup"><span data-stu-id="8e987-104">To complete the steps in this procedure, you must first complete the procedure, ER Create a configuration provider and mark it as active.</span></span> 
 
-<span data-ttu-id="2bf17-105">此过程显示如何将模型的根项作为数据模型定义选择，以便插入为生成电子单据而设计的电子申报 (ER) 格式配置。</span><span class="sxs-lookup"><span data-stu-id="2bf17-105">This procedure shows how a model's root item can be selected as a data model definition for inserting an Electronic reporting (ER) format configuration that is designed to generate electronic documents.</span></span> <span data-ttu-id="2bf17-106">在此过程中，您将为示例公司 Litware 公司添加一个新的 ER 格式配置。</span><span class="sxs-lookup"><span data-stu-id="2bf17-106">In this procedure, you will add a new ER format configuration for the sample company Litware, Inc.</span></span> 
+<span data-ttu-id="8e987-105">此过程显示如何将模型的根项作为数据模型定义选择，以便插入为生成电子单据而设计的电子申报 (ER) 格式配置。</span><span class="sxs-lookup"><span data-stu-id="8e987-105">This procedure shows how a model's root item can be selected as a data model definition for inserting an Electronic reporting (ER) format configuration that is designed to generate electronic documents.</span></span> <span data-ttu-id="8e987-106">在此过程中，您将为示例公司 Litware 公司添加一个新的 ER 格式配置。</span><span class="sxs-lookup"><span data-stu-id="8e987-106">In this procedure, you will add a new ER format configuration for the sample company Litware, Inc.</span></span> 
 
-<span data-ttu-id="2bf17-107">此过程针对向其分配了系统管理员角色或电子申报开发人员角色的用户。</span><span class="sxs-lookup"><span data-stu-id="2bf17-107">This procedure is intended for users who have the System administrator or Electronic reporting developer role assigned to them.</span></span> <span data-ttu-id="2bf17-108">可使用任何数据集完成这些步骤。</span><span class="sxs-lookup"><span data-stu-id="2bf17-108">The steps can be completed by using any dataset.</span></span>
+<span data-ttu-id="8e987-107">此过程针对向其分配了系统管理员角色或电子申报开发人员角色的用户。</span><span class="sxs-lookup"><span data-stu-id="8e987-107">This procedure is intended for users who have the System administrator or Electronic reporting developer role assigned to them.</span></span> <span data-ttu-id="8e987-108">可使用任何数据集完成这些步骤。</span><span class="sxs-lookup"><span data-stu-id="8e987-108">The steps can be completed by using any dataset.</span></span>
 
-1. <span data-ttu-id="2bf17-109">转到“组织管理”>“工作区”>“电子申报”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-    * <span data-ttu-id="2bf17-110">确保示例公司 Litware 公司的配置提供程序可用且标记为“有效”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-110">Make sure that the configuration provider for the sample company, Litware, Inc., is available and marked as Active.</span></span> <span data-ttu-id="2bf17-111">如果没有看到此配置提供程序，请首先完成“创建配置提供程序并标记为有效”这一过程中的步骤。</span><span class="sxs-lookup"><span data-stu-id="2bf17-111">If you don't see this configuration provider, complete the steps in the procedure, Create a configuration provider and mark it as active.</span></span>  
-2. <span data-ttu-id="2bf17-112">单击“申报配置”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-112">Click Reporting configurations.</span></span>
+1. <span data-ttu-id="8e987-109">转到“组织管理”>“工作区”>“电子申报”。</span><span class="sxs-lookup"><span data-stu-id="8e987-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="8e987-110">确保示例公司 Litware 公司的配置提供程序可用且标记为“有效”。</span><span class="sxs-lookup"><span data-stu-id="8e987-110">Make sure that the configuration provider for the sample company, Litware, Inc., is available and marked as Active.</span></span> <span data-ttu-id="8e987-111">如果没有看到此配置提供程序，请首先完成“创建配置提供程序并标记为有效”这一过程中的步骤。</span><span class="sxs-lookup"><span data-stu-id="8e987-111">If you don't see this configuration provider, complete the steps in the procedure, Create a configuration provider and mark it as active.</span></span>  
+2. <span data-ttu-id="8e987-112">单击“申报配置”。</span><span class="sxs-lookup"><span data-stu-id="8e987-112">Click Reporting configurations.</span></span>
 
-## <a name="add-a-new-er-data-model-configuration"></a><span data-ttu-id="2bf17-113">添加新 ER 数据模型配置</span><span class="sxs-lookup"><span data-stu-id="2bf17-113">Add a new ER data model configuration</span></span>
-1. <span data-ttu-id="2bf17-114">单击“创建配置”，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="2bf17-114">Click Create configuration to open the drop dialog.</span></span>
-    * <span data-ttu-id="2bf17-115">我们新增一个 ER 模型配置，其中包含一个数据模型，设计为用作生成 ER 报表的数据源。</span><span class="sxs-lookup"><span data-stu-id="2bf17-115">We add a new ER model configuration containing a data model that is designed to be used as data source for generation ER reports.</span></span>  
-2. <span data-ttu-id="2bf17-116">在“名称”字段中，键入“付款模型（虚构）”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-116">In the Name field, type 'Payment model (fictitious)'.</span></span>
-    * <span data-ttu-id="2bf17-117">付款模型（虚构）</span><span class="sxs-lookup"><span data-stu-id="2bf17-117">Payment model (fictitious)</span></span>  
-3. <span data-ttu-id="2bf17-118">单击“创建配置”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-118">Click Create configuration.</span></span>
-4. <span data-ttu-id="2bf17-119">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-119">Click Designer.</span></span>
-    * <span data-ttu-id="2bf17-120">打开 ER 设计器以指定此配置的数据模型结构。</span><span class="sxs-lookup"><span data-stu-id="2bf17-120">Open the ER designer to specify the structure of data model of this configuration.</span></span>  
-    * <span data-ttu-id="2bf17-121">假设为付款业务域设计数据模型，以便为贷方转帐和直接借记这两种付款方式提供支持。</span><span class="sxs-lookup"><span data-stu-id="2bf17-121">Assume that we design the data model for payments business domain to support 2 payment methods – credit transfer and direct debit ones.</span></span>  
-5. <span data-ttu-id="2bf17-122">单击“新建”，以打开对话框。</span><span class="sxs-lookup"><span data-stu-id="2bf17-122">Click New to open the drop dialog.</span></span>
-6. <span data-ttu-id="2bf17-123">在“名称”字段中，键入“付款 - 贷方转帐”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-123">In the Name field, type 'Payments – credit transfer'.</span></span>
-    * <span data-ttu-id="2bf17-124">付款 - 贷方转帐</span><span class="sxs-lookup"><span data-stu-id="2bf17-124">Payments – credit transfer</span></span>  
-7. <span data-ttu-id="2bf17-125">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-125">Click Add.</span></span>
-8. <span data-ttu-id="2bf17-126">单击“新建”，以打开对话框。</span><span class="sxs-lookup"><span data-stu-id="2bf17-126">Click New to open the drop dialog.</span></span>
-9. <span data-ttu-id="2bf17-127">在“作为以下项的新节点”字段中，输入“模型根”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-127">In the New node as a field, enter 'Model root'.</span></span>
-10. <span data-ttu-id="2bf17-128">在“名称”字段中，键入“付款 - 直接借记”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-128">In the Name field, type 'Payments – direct debit'.</span></span>
-    * <span data-ttu-id="2bf17-129">付款 - 直接借记</span><span class="sxs-lookup"><span data-stu-id="2bf17-129">Payments – direct debit</span></span>  
-11. <span data-ttu-id="2bf17-130">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-130">Click Add.</span></span>
-12. <span data-ttu-id="2bf17-131">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-131">Click Save.</span></span>
-13. <span data-ttu-id="2bf17-132">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="2bf17-132">Close the page.</span></span>
-14. <span data-ttu-id="2bf17-133">单击“更改状态”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-133">Click Change status.</span></span>
-    * <span data-ttu-id="2bf17-134">完成模型的草稿版本，以便将其提供给新模型映射和格式。</span><span class="sxs-lookup"><span data-stu-id="2bf17-134">Complete the draft version of the model to make it available in new model mappings and formats.</span></span>  
-15. <span data-ttu-id="2bf17-135">单击“完成”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-135">Click Complete.</span></span>
-16. <span data-ttu-id="2bf17-136">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-136">Click OK.</span></span>
+## <a name="add-a-new-er-data-model-configuration"></a><span data-ttu-id="8e987-113">添加新 ER 数据模型配置</span><span class="sxs-lookup"><span data-stu-id="8e987-113">Add a new ER data model configuration</span></span>
+1. <span data-ttu-id="8e987-114">单击“创建配置”，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="8e987-114">Click Create configuration to open the drop dialog.</span></span>
+    * <span data-ttu-id="8e987-115">我们新增一个 ER 模型配置，其中包含一个数据模型，设计为用作生成 ER 报表的数据源。</span><span class="sxs-lookup"><span data-stu-id="8e987-115">We add a new ER model configuration containing a data model that is designed to be used as data source for generation ER reports.</span></span>  
+2. <span data-ttu-id="8e987-116">在“名称”字段中，键入“付款模型（虚构）”。</span><span class="sxs-lookup"><span data-stu-id="8e987-116">In the Name field, type 'Payment model (fictitious)'.</span></span>
+    * <span data-ttu-id="8e987-117">付款模型（虚构）</span><span class="sxs-lookup"><span data-stu-id="8e987-117">Payment model (fictitious)</span></span>  
+3. <span data-ttu-id="8e987-118">单击“创建配置”。</span><span class="sxs-lookup"><span data-stu-id="8e987-118">Click Create configuration.</span></span>
+4. <span data-ttu-id="8e987-119">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="8e987-119">Click Designer.</span></span>
+    * <span data-ttu-id="8e987-120">打开 ER 设计器以指定此配置的数据模型结构。</span><span class="sxs-lookup"><span data-stu-id="8e987-120">Open the ER designer to specify the structure of data model of this configuration.</span></span>  
+    * <span data-ttu-id="8e987-121">假设为付款业务域设计数据模型，以便为贷方转帐和直接借记这两种付款方式提供支持。</span><span class="sxs-lookup"><span data-stu-id="8e987-121">Assume that we design the data model for payments business domain to support 2 payment methods – credit transfer and direct debit ones.</span></span>  
+5. <span data-ttu-id="8e987-122">单击“新建”，以打开对话框。</span><span class="sxs-lookup"><span data-stu-id="8e987-122">Click New to open the drop dialog.</span></span>
+6. <span data-ttu-id="8e987-123">在“名称”字段中，键入“付款 - 贷方转帐”。</span><span class="sxs-lookup"><span data-stu-id="8e987-123">In the Name field, type 'Payments – credit transfer'.</span></span>
+    * <span data-ttu-id="8e987-124">付款 - 贷方转帐</span><span class="sxs-lookup"><span data-stu-id="8e987-124">Payments – credit transfer</span></span>  
+7. <span data-ttu-id="8e987-125">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="8e987-125">Click Add.</span></span>
+8. <span data-ttu-id="8e987-126">单击“新建”，以打开对话框。</span><span class="sxs-lookup"><span data-stu-id="8e987-126">Click New to open the drop dialog.</span></span>
+9. <span data-ttu-id="8e987-127">在“作为以下项的新节点”字段中，输入“模型根”。</span><span class="sxs-lookup"><span data-stu-id="8e987-127">In the New node as a field, enter 'Model root'.</span></span>
+10. <span data-ttu-id="8e987-128">在“名称”字段中，键入“付款 - 直接借记”。</span><span class="sxs-lookup"><span data-stu-id="8e987-128">In the Name field, type 'Payments – direct debit'.</span></span>
+    * <span data-ttu-id="8e987-129">付款 - 直接借记</span><span class="sxs-lookup"><span data-stu-id="8e987-129">Payments – direct debit</span></span>  
+11. <span data-ttu-id="8e987-130">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="8e987-130">Click Add.</span></span>
+12. <span data-ttu-id="8e987-131">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="8e987-131">Click Save.</span></span>
+13. <span data-ttu-id="8e987-132">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="8e987-132">Close the page.</span></span>
+14. <span data-ttu-id="8e987-133">单击“更改状态”。</span><span class="sxs-lookup"><span data-stu-id="8e987-133">Click Change status.</span></span>
+    * <span data-ttu-id="8e987-134">完成模型的草稿版本，以便将其提供给新模型映射和格式。</span><span class="sxs-lookup"><span data-stu-id="8e987-134">Complete the draft version of the model to make it available in new model mappings and formats.</span></span>  
+15. <span data-ttu-id="8e987-135">单击“完成”。</span><span class="sxs-lookup"><span data-stu-id="8e987-135">Click Complete.</span></span>
+16. <span data-ttu-id="8e987-136">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="8e987-136">Click OK.</span></span>
 
-## <a name="start-to-enter-a-new-er-format-configuration"></a><span data-ttu-id="2bf17-137">开始输入新 ER 格式配置</span><span class="sxs-lookup"><span data-stu-id="2bf17-137">Start to enter a new ER format configuration</span></span>
-1. <span data-ttu-id="2bf17-138">单击“创建配置”，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="2bf17-138">Click Create configuration to open the drop dialog.</span></span>
-2. <span data-ttu-id="2bf17-139">在“新建”字段中，输入“基于数据模型‘付款模型（虚构）’的格式”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-139">In the New field, enter 'Format based on data model Payment model (fictitious)'.</span></span>
-3. <span data-ttu-id="2bf17-140">在“数据模型定义”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="2bf17-140">In the Data model definition field, enter or select a value.</span></span>
-    * <span data-ttu-id="2bf17-141">请注意，所选数据模型的所有根项均可作为数据模型定义选择。</span><span class="sxs-lookup"><span data-stu-id="2bf17-141">Note that all root items of the selected data model are currently available for selection as a data model definition.</span></span> <span data-ttu-id="2bf17-142">可通过使用数据模型的任何所需根项继续设计格式。</span><span class="sxs-lookup"><span data-stu-id="2bf17-142">You can continue to design your format by using any of the required root items of the data model.</span></span> <span data-ttu-id="2bf17-143">缺少所选根项的模型映射不会妨碍您继续操作。</span><span class="sxs-lookup"><span data-stu-id="2bf17-143">A missing model mapping for the selected root item doesn't prevent you from continuing.</span></span>  
-4. <span data-ttu-id="2bf17-144">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="2bf17-144">Close the page.</span></span>
+## <a name="start-to-enter-a-new-er-format-configuration"></a><span data-ttu-id="8e987-137">开始输入新 ER 格式配置</span><span class="sxs-lookup"><span data-stu-id="8e987-137">Start to enter a new ER format configuration</span></span>
+1. <span data-ttu-id="8e987-138">单击“创建配置”，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="8e987-138">Click Create configuration to open the drop dialog.</span></span>
+2. <span data-ttu-id="8e987-139">在“新建”字段中，输入“基于数据模型‘付款模型（虚构）’的格式”。</span><span class="sxs-lookup"><span data-stu-id="8e987-139">In the New field, enter 'Format based on data model Payment model (fictitious)'.</span></span>
+3. <span data-ttu-id="8e987-140">在“数据模型定义”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8e987-140">In the Data model definition field, enter or select a value.</span></span>
+    * <span data-ttu-id="8e987-141">请注意，所选数据模型的所有根项均可作为数据模型定义选择。</span><span class="sxs-lookup"><span data-stu-id="8e987-141">Note that all root items of the selected data model are currently available for selection as a data model definition.</span></span> <span data-ttu-id="8e987-142">可通过使用数据模型的任何所需根项继续设计格式。</span><span class="sxs-lookup"><span data-stu-id="8e987-142">You can continue to design your format by using any of the required root items of the data model.</span></span> <span data-ttu-id="8e987-143">缺少所选根项的模型映射不会妨碍您继续操作。</span><span class="sxs-lookup"><span data-stu-id="8e987-143">A missing model mapping for the selected root item doesn't prevent you from continuing.</span></span>  
+4. <span data-ttu-id="8e987-144">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="8e987-144">Close the page.</span></span>
 
-## <a name="add-a-new-er-model-mapping-configuration"></a><span data-ttu-id="2bf17-145">添加新 ER 模型映射配置</span><span class="sxs-lookup"><span data-stu-id="2bf17-145">Add a new ER model mapping configuration</span></span>
-1. <span data-ttu-id="2bf17-146">单击“创建配置”，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="2bf17-146">Click Create configuration to open the drop dialog.</span></span>
-2. <span data-ttu-id="2bf17-147">在“新建”字段中，输入“基于数据模型‘付款模型（虚构）’的模型映射”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-147">In the New field, enter 'Model Mapping based on data model Payment model (fictitious)'.</span></span>
-3. <span data-ttu-id="2bf17-148">在“名称”字段中，键入“付款模型映射（虚构）”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-148">In the Name field, type 'Payment model mappings (fictitious)'.</span></span>
-    * <span data-ttu-id="2bf17-149">付款模型映射（虚构）</span><span class="sxs-lookup"><span data-stu-id="2bf17-149">Payment model mappings (fictitious)</span></span>  
-4. <span data-ttu-id="2bf17-150">在“数据模型定义”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="2bf17-150">In the Data model definition field, enter or select a value.</span></span>
-5. <span data-ttu-id="2bf17-151">单击“创建配置”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-151">Click Create configuration.</span></span>
+## <a name="add-a-new-er-model-mapping-configuration"></a><span data-ttu-id="8e987-145">添加新 ER 模型映射配置</span><span class="sxs-lookup"><span data-stu-id="8e987-145">Add a new ER model mapping configuration</span></span>
+1. <span data-ttu-id="8e987-146">单击“创建配置”，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="8e987-146">Click Create configuration to open the drop dialog.</span></span>
+2. <span data-ttu-id="8e987-147">在“新建”字段中，输入“基于数据模型‘付款模型（虚构）’的模型映射”。</span><span class="sxs-lookup"><span data-stu-id="8e987-147">In the New field, enter 'Model Mapping based on data model Payment model (fictitious)'.</span></span>
+3. <span data-ttu-id="8e987-148">在“名称”字段中，键入“付款模型映射（虚构）”。</span><span class="sxs-lookup"><span data-stu-id="8e987-148">In the Name field, type 'Payment model mappings (fictitious)'.</span></span>
+    * <span data-ttu-id="8e987-149">付款模型映射（虚构）</span><span class="sxs-lookup"><span data-stu-id="8e987-149">Payment model mappings (fictitious)</span></span>  
+4. <span data-ttu-id="8e987-150">在“数据模型定义”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8e987-150">In the Data model definition field, enter or select a value.</span></span>
+5. <span data-ttu-id="8e987-151">单击“创建配置”。</span><span class="sxs-lookup"><span data-stu-id="8e987-151">Click Create configuration.</span></span>
 
-## <a name="design-er-model-mappings"></a><span data-ttu-id="2bf17-152">设计 ER 模型映射</span><span class="sxs-lookup"><span data-stu-id="2bf17-152">Design ER model mappings</span></span>
-1. <span data-ttu-id="2bf17-153">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-153">Click Designer.</span></span>
-    * <span data-ttu-id="2bf17-154">使用 ER 设计器为所需根项指定模型映射。</span><span class="sxs-lookup"><span data-stu-id="2bf17-154">Use the ER designer to specify the model mappings for the required root items.</span></span>  
-2. <span data-ttu-id="2bf17-155">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-155">Click Designer.</span></span>
-    * <span data-ttu-id="2bf17-156">模拟设置所选模型的根项的所选模型映射。</span><span class="sxs-lookup"><span data-stu-id="2bf17-156">Simulate setting of selected model mapping for the selected model's root item.</span></span>  
-3. <span data-ttu-id="2bf17-157">在树中，选择“Dynamics 365 for Operations\表记录”'。</span><span class="sxs-lookup"><span data-stu-id="2bf17-157">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
-4. <span data-ttu-id="2bf17-158">单击“添加根”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-158">Click Add root.</span></span>
-5. <span data-ttu-id="2bf17-159">在“名称”字段中，键入“分类帐”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-159">In the Name field, type 'Ledger'.</span></span>
-6. <span data-ttu-id="2bf17-160">在“表格”字段中，键入“分类日记帐交易记录”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-160">In the Table field, type 'LedgerJournalTrans'.</span></span>
-    * <span data-ttu-id="2bf17-161">分类日记帐交易记录</span><span class="sxs-lookup"><span data-stu-id="2bf17-161">LedgerJournalTrans</span></span>  
-7. <span data-ttu-id="2bf17-162">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-162">Click OK.</span></span>
-8. <span data-ttu-id="2bf17-163">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-163">Click Save.</span></span>
-9. <span data-ttu-id="2bf17-164">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="2bf17-164">Close the page.</span></span>
-10. <span data-ttu-id="2bf17-165">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="2bf17-165">Close the page.</span></span>
+## <a name="design-er-model-mappings"></a><span data-ttu-id="8e987-152">设计 ER 模型映射</span><span class="sxs-lookup"><span data-stu-id="8e987-152">Design ER model mappings</span></span>
+1. <span data-ttu-id="8e987-153">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="8e987-153">Click Designer.</span></span>
+    * <span data-ttu-id="8e987-154">使用 ER 设计器为所需根项指定模型映射。</span><span class="sxs-lookup"><span data-stu-id="8e987-154">Use the ER designer to specify the model mappings for the required root items.</span></span>  
+2. <span data-ttu-id="8e987-155">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="8e987-155">Click Designer.</span></span>
+    * <span data-ttu-id="8e987-156">模拟设置所选模型的根项的所选模型映射。</span><span class="sxs-lookup"><span data-stu-id="8e987-156">Simulate setting of selected model mapping for the selected model's root item.</span></span>  
+3. <span data-ttu-id="8e987-157">在树中，选择“Dynamics 365 for Operations\表记录”'。</span><span class="sxs-lookup"><span data-stu-id="8e987-157">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
+4. <span data-ttu-id="8e987-158">单击“添加根”。</span><span class="sxs-lookup"><span data-stu-id="8e987-158">Click Add root.</span></span>
+5. <span data-ttu-id="8e987-159">在“名称”字段中，键入“分类帐”。</span><span class="sxs-lookup"><span data-stu-id="8e987-159">In the Name field, type 'Ledger'.</span></span>
+6. <span data-ttu-id="8e987-160">在“表格”字段中，键入“分类日记帐交易记录”。</span><span class="sxs-lookup"><span data-stu-id="8e987-160">In the Table field, type 'LedgerJournalTrans'.</span></span>
+    * <span data-ttu-id="8e987-161">分类日记帐交易记录</span><span class="sxs-lookup"><span data-stu-id="8e987-161">LedgerJournalTrans</span></span>  
+7. <span data-ttu-id="8e987-162">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="8e987-162">Click OK.</span></span>
+8. <span data-ttu-id="8e987-163">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="8e987-163">Click Save.</span></span>
+9. <span data-ttu-id="8e987-164">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="8e987-164">Close the page.</span></span>
+10. <span data-ttu-id="8e987-165">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="8e987-165">Close the page.</span></span>
 
-## <a name="start-to-enter-another-new-er-format-configuration"></a><span data-ttu-id="2bf17-166">开始输入又一个新 ER 格式配置</span><span class="sxs-lookup"><span data-stu-id="2bf17-166">Start to enter another new ER format configuration</span></span>
-1. <span data-ttu-id="2bf17-167">在树中，选择“付款模型（虚构）”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-167">In the tree, select 'Payment model (fictitious)'.</span></span>
-2. <span data-ttu-id="2bf17-168">单击“创建配置”，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="2bf17-168">Click Create configuration to open the drop dialog.</span></span>
-3. <span data-ttu-id="2bf17-169">在“新建”字段中，输入“基于数据模型‘付款模型（虚构）’的格式”。</span><span class="sxs-lookup"><span data-stu-id="2bf17-169">In the New field, enter 'Format based on data model Payment model (fictitious)'.</span></span>
-4. <span data-ttu-id="2bf17-170">在“数据模型定义”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="2bf17-170">In the Data model definition field, enter or select a value.</span></span>
-    * <span data-ttu-id="2bf17-171">请注意，现在只有一个根项可映射到应用程序数据源。</span><span class="sxs-lookup"><span data-stu-id="2bf17-171">Note that now only one root item is available to map to the application data sources.</span></span> <span data-ttu-id="2bf17-172">如果引入了至少一个模型映射，添加 ER 格式时，只能将映射到应用程序数据源的模型根项选择为模型定义。</span><span class="sxs-lookup"><span data-stu-id="2bf17-172">When at least one model mapping is introduced, only the model's root items that are mapped to application data sources can be selected as a model definition while the ER format is added.</span></span>   
-5. <span data-ttu-id="2bf17-173">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="2bf17-173">Close the page.</span></span>
+## <a name="start-to-enter-another-new-er-format-configuration"></a><span data-ttu-id="8e987-166">开始输入又一个新 ER 格式配置</span><span class="sxs-lookup"><span data-stu-id="8e987-166">Start to enter another new ER format configuration</span></span>
+1. <span data-ttu-id="8e987-167">在树中，选择“付款模型（虚构）”。</span><span class="sxs-lookup"><span data-stu-id="8e987-167">In the tree, select 'Payment model (fictitious)'.</span></span>
+2. <span data-ttu-id="8e987-168">单击“创建配置”，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="8e987-168">Click Create configuration to open the drop dialog.</span></span>
+3. <span data-ttu-id="8e987-169">在“新建”字段中，输入“基于数据模型‘付款模型（虚构）’的格式”。</span><span class="sxs-lookup"><span data-stu-id="8e987-169">In the New field, enter 'Format based on data model Payment model (fictitious)'.</span></span>
+4. <span data-ttu-id="8e987-170">在“数据模型定义”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="8e987-170">In the Data model definition field, enter or select a value.</span></span>
+    * <span data-ttu-id="8e987-171">请注意，现在只有一个根项可映射到应用程序数据源。</span><span class="sxs-lookup"><span data-stu-id="8e987-171">Note that now only one root item is available to map to the application data sources.</span></span> <span data-ttu-id="8e987-172">如果引入了至少一个模型映射，添加 ER 格式时，只能将映射到应用程序数据源的模型根项选择为模型定义。</span><span class="sxs-lookup"><span data-stu-id="8e987-172">When at least one model mapping is introduced, only the model's root items that are mapped to application data sources can be selected as a model definition while the ER format is added.</span></span>   
+5. <span data-ttu-id="8e987-173">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="8e987-173">Close the page.</span></span>
 
 
 

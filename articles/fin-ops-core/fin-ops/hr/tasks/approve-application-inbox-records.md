@@ -2,7 +2,6 @@
 title: 审核申请表收件箱记录
 description: 此过程显示如何通过员工自助服务页查看接收的申请表。
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,38 +13,38 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c6b1431619a5db7686918a0c58726a90449b9943
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 87a15544b1a9d2fd1f34c93b5b4771dab2b4d173
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570304"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752046"
 ---
-# <a name="approve-application-inbox-records"></a><span data-ttu-id="8645c-103">审核申请表收件箱记录</span><span class="sxs-lookup"><span data-stu-id="8645c-103">Approve application inbox records</span></span>
+# <a name="approve-application-inbox-records"></a><span data-ttu-id="aa1cb-103">审核申请表收件箱记录</span><span class="sxs-lookup"><span data-stu-id="aa1cb-103">Approve application inbox records</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8645c-104">此过程显示如何通过员工自助服务页查看接收的申请表。</span><span class="sxs-lookup"><span data-stu-id="8645c-104">This procedure shows how to review applications received through the Employee self-service pages.</span></span> <span data-ttu-id="8645c-105">除了审查申请表外，您可以审核您选择的申请表收件箱记录。</span><span class="sxs-lookup"><span data-stu-id="8645c-105">In addition to reviewing the applications, you can approve the application in box records that you select.</span></span> <span data-ttu-id="8645c-106">申请表收件箱记录表示提交供公司考虑的求职申请。</span><span class="sxs-lookup"><span data-stu-id="8645c-106">Application inbox records represent employment applications that were submitted to the company for consideration.</span></span> <span data-ttu-id="8645c-107">在审核记录后，将为提交申请表的人员创建申请人记录。</span><span class="sxs-lookup"><span data-stu-id="8645c-107">After approving a record, an applicant record will be created for the person who submitted the application.</span></span> <span data-ttu-id="8645c-108">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="8645c-108">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="aa1cb-104">此过程显示如何通过员工自助服务页查看接收的申请表。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-104">This procedure shows how to review applications received through the Employee self-service pages.</span></span> <span data-ttu-id="aa1cb-105">除了审查申请表外，您可以审核您选择的申请表收件箱记录。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-105">In addition to reviewing the applications, you can approve the application in box records that you select.</span></span> <span data-ttu-id="aa1cb-106">申请表收件箱记录表示提交供公司考虑的求职申请。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-106">Application inbox records represent employment applications that were submitted to the company for consideration.</span></span> <span data-ttu-id="aa1cb-107">在审核记录后，将为提交申请表的人员创建申请人记录。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-107">After approving a record, an applicant record will be created for the person who submitted the application.</span></span> <span data-ttu-id="aa1cb-108">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-108">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="review-application-inbox-record"></a><span data-ttu-id="8645c-109">审查申请表收件箱记录</span><span class="sxs-lookup"><span data-stu-id="8645c-109">Review application inbox record</span></span>
-1. <span data-ttu-id="8645c-110">转到“人力资源”>“招聘”>“申请表”>“申请表收件箱”。</span><span class="sxs-lookup"><span data-stu-id="8645c-110">Go to Human resources > Recruitment > Applications > Application inbox.</span></span>
-2. <span data-ttu-id="8645c-111">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="8645c-111">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="8645c-112">展开“地址”部分。</span><span class="sxs-lookup"><span data-stu-id="8645c-112">Expand the Addresses section.</span></span>
-4. <span data-ttu-id="8645c-113">展开“联系信息”部分。</span><span class="sxs-lookup"><span data-stu-id="8645c-113">Expand the Contact information section.</span></span>
-5. <span data-ttu-id="8645c-114">展开“附件”部分。</span><span class="sxs-lookup"><span data-stu-id="8645c-114">Expand the Attachments section.</span></span>
+## <a name="review-application-inbox-record"></a><span data-ttu-id="aa1cb-109">审查申请表收件箱记录</span><span class="sxs-lookup"><span data-stu-id="aa1cb-109">Review application inbox record</span></span>
+1. <span data-ttu-id="aa1cb-110">转到“人力资源”>“招聘”>“申请表”>“申请表收件箱”。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-110">Go to Human resources > Recruitment > Applications > Application inbox.</span></span>
+2. <span data-ttu-id="aa1cb-111">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-111">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="aa1cb-112">展开“地址”部分。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-112">Expand the Addresses section.</span></span>
+4. <span data-ttu-id="aa1cb-113">展开“联系信息”部分。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-113">Expand the Contact information section.</span></span>
+5. <span data-ttu-id="aa1cb-114">展开“附件”部分。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-114">Expand the Attachments section.</span></span>
 
-## <a name="approve-application-inbox-record"></a><span data-ttu-id="8645c-115">审核申请表收件箱记录</span><span class="sxs-lookup"><span data-stu-id="8645c-115">Approve application inbox record</span></span>
-1. <span data-ttu-id="8645c-116">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="8645c-116">In the list, mark the selected row.</span></span>
-2. <span data-ttu-id="8645c-117">请注意，“名称”字段中的值稍后供参考。</span><span class="sxs-lookup"><span data-stu-id="8645c-117">Note the value in the Name field to reference later</span></span>
-3. <span data-ttu-id="8645c-118">单击“审核”。</span><span class="sxs-lookup"><span data-stu-id="8645c-118">Click Approve.</span></span>
-4. <span data-ttu-id="8645c-119">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="8645c-119">Click OK.</span></span>
-5. <span data-ttu-id="8645c-120">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="8645c-120">Close the page.</span></span>
+## <a name="approve-application-inbox-record"></a><span data-ttu-id="aa1cb-115">审核申请表收件箱记录</span><span class="sxs-lookup"><span data-stu-id="aa1cb-115">Approve application inbox record</span></span>
+1. <span data-ttu-id="aa1cb-116">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-116">In the list, mark the selected row.</span></span>
+2. <span data-ttu-id="aa1cb-117">请注意，“名称”字段中的值稍后供参考。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-117">Note the value in the Name field to reference later</span></span>
+3. <span data-ttu-id="aa1cb-118">单击“审核”。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-118">Click Approve.</span></span>
+4. <span data-ttu-id="aa1cb-119">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-119">Click OK.</span></span>
+5. <span data-ttu-id="aa1cb-120">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-120">Close the page.</span></span>
 
-## <a name="view-the-newly-created-application-record"></a><span data-ttu-id="8645c-121">查看新创建的申请表记录</span><span class="sxs-lookup"><span data-stu-id="8645c-121">View the newly created application record</span></span>
-1. <span data-ttu-id="8645c-122">转到“人力资源”>“招聘”>“申请人”>“申请人”。</span><span class="sxs-lookup"><span data-stu-id="8645c-122">Go to Human resources > Recruitment > Applications > Applications.</span></span>
-2. <span data-ttu-id="8645c-123">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="8645c-123">In the list, click the link in the selected row.</span></span>
-3. <span data-ttu-id="8645c-124">展开“附件”部分。</span><span class="sxs-lookup"><span data-stu-id="8645c-124">Expand the Attachments section.</span></span>
+## <a name="view-the-newly-created-application-record"></a><span data-ttu-id="aa1cb-121">查看新创建的申请表记录</span><span class="sxs-lookup"><span data-stu-id="aa1cb-121">View the newly created application record</span></span>
+1. <span data-ttu-id="aa1cb-122">转到“人力资源”>“招聘”>“申请人”>“申请人”。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-122">Go to Human resources > Recruitment > Applications > Applications.</span></span>
+2. <span data-ttu-id="aa1cb-123">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-123">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="aa1cb-124">展开“附件”部分。</span><span class="sxs-lookup"><span data-stu-id="aa1cb-124">Expand the Attachments section.</span></span>
 
 
 
