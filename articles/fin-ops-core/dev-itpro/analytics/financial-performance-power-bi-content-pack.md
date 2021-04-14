@@ -2,7 +2,6 @@
 title: 财务绩效 PowerBI.com 解决方案
 description: 此主题描述财务绩效 PowerBI.com 解决方案。
 author: kweekley
-manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76f0c35ce9db89dd93292c4e39315a5833f38d54
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ce180c28be2cea1115937b1b1fbdf2323903e4ad
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568838"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743369"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>财务绩效 PowerBI.com 解决方案
 

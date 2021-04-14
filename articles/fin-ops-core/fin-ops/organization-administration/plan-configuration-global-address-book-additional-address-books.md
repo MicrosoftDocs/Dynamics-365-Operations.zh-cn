@@ -1,8 +1,7 @@
 ---
 title: 规划全球通讯簿和其他通讯簿
-description: 本主题介绍您设置和配置全球通讯簿和任何其他通讯簿前，在计划流程中的考虑事项和必须做的决定。
+description: 本主题介绍在计划流程中的考虑事项和必须作出的决定。
 author: msftbrking
-manager: AnnBe
 ms.date: 01/13/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a0613b944d0446e339480a71fa890702190ed53
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d1d3a476a183453f170dae9b812949822ea60edd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559957"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747601"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>全球通讯簿和其他通讯簿的计划
 

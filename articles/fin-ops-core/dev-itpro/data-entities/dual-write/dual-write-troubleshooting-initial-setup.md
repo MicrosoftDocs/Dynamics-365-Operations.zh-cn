@@ -2,7 +2,6 @@
 title: 解决初始设置过程中的问题
 description: 本主题提供可以帮助您解决在双写入集成的初始设置期间所发生问题的信息。
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f6ff9a304de8a94b86e6866d6d2cb65fbfdfb02f
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 9ffb1378eccf175fbb9bd84228f91ba606125a63
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561170"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753982"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>解决初始设置过程中的问题
 

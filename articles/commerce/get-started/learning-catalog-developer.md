@@ -6,19 +6,18 @@ ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: df37233da30d207ed1bcf97da3b9993cacad560d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5a6db426195d0ed24d8a8ff66ff9b9daa75cc452
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252670"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5634696"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-developers"></a>Dynamics 365 Commerce 开发人员学习目录
 

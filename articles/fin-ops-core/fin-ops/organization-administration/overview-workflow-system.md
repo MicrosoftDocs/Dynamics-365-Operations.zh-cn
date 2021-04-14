@@ -2,7 +2,6 @@
 title: 工作流系统概览
 description: 此主题介绍工作流系统。
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd8fba1376dc5e3dbfea888ca5ff5fdeb608fc9d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: dbcab469e1dc8c139d180abdb7ed0bd8fba488a5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560693"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747727"
 ---
 # <a name="workflow-system-overview"></a>工作流系统概览
 

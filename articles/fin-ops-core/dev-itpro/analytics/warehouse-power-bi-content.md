@@ -2,7 +2,6 @@
 title: 仓库绩效 Power BI 内容
 description: 此主题介绍仓库性能 Power BI 内容中的内容。
 author: Mirzaab
-manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 29acf305a275ac9d7047c3aceec726019951654c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: b07d4516144accec1c41728876df7f6a64c6bae0
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563787"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754160"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>仓库绩效 Power BI 内容
 

@@ -6,19 +6,18 @@ ms.date: 07/27/2020
 ms.topic: article
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b27bfebf48ecff9a54f40b195b61e5b0b709da40
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c3c2ff93888a3d62220d84be07f0f05a82805e8f
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223918"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5620749"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-finance"></a>考虑了 Dynamics 365 Finance 的业务决策者学习目录
 

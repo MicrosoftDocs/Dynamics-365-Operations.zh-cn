@@ -2,7 +2,6 @@
 title: 创建新用户
 description: 用户是您的组织的内部员工或外部客户和供应商，该用户需要访问系统以履行职责。
 author: peakerbl
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f30f6292ed0a4de93ba75341bc917f9205c4e39c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: b994473b4535c255f87551a6d97e197516fc2a9c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571045"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745829"
 ---
 # <a name="create-new-users"></a>创建新用户
 

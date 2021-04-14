@@ -2,11 +2,9 @@
 title: 创建和更新客户提货时隙
 description: 此主题介绍如何在 Commerce Headquarters 中创建、配置和更新客户提货时隙。
 author: anupamar-ms
-manager: AnnBe
 ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: 6dc2be8a6f62ce13068ce2242f92ef17830c2447
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c3da7474f9a61e97ee11688a18cb91a5ad1ccb5c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205739"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791157"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>创建和更新客户提货时隙
 

@@ -2,7 +2,6 @@
 title: 升级单一凭证日记帐和货币重估
 description: 本主题介绍如何升级单一凭证日记帐和货币重估。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fb4eca4933716105789d3bbc21dd374395211d1d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 6b66b969d13cff7f1f39fb644f459aa92bea198f
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559513"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743913"
 ---
 # <a name="upgrade-single-voucher-journals-and-currency-revaluations"></a>升级单一凭证日记帐和货币重估
 

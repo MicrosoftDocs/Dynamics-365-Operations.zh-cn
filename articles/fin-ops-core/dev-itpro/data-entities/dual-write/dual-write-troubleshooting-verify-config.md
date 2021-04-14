@@ -2,7 +2,6 @@
 title: 验证 Finance and Operations 应用和 Dataverse 中的双写入配置
 description: 本主题说明如何确定在 Finance and Operations 应用和 Dataverse 中是否配置了双写入。
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0a1da32713f3d4d19b4d343c5b67b416a6c4ffbb
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: af746d1d20ddd1552bce797288c6d62d69d7bd16
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566757"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748841"
 ---
 # <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>验证 Finance and Operations 应用和 Dataverse 中的双写入配置
 

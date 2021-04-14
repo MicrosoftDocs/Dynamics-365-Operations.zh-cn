@@ -2,7 +2,6 @@
 title: 财务报告
 description: 财务申报允许财务和业务专业人员创建、维护、部署和查看财务报表。
 author: aprilolson
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b6682295aa53acd5d3d6964c56ff7bcfcd59379d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0dbe9621760fbb56eb8123d58f72e2fb0080c4f4
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568791"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743395"
 ---
 # <a name="financial-reporting"></a>财务报告
 

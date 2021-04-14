@@ -2,7 +2,6 @@
 title: 使用模型映射配置在数据库级别执行聚合计算
 description: 本主题介绍如何设计新电子报告模型映射配置和使用内置 ER 函数执行有效聚合计算。
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e911df974f470fe336b45566f3d9c64ffd31ef2
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 01f48596c30127976d915811ffa8412dcc9b2593
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562577"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745367"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>使用模型映射配置在数据库级别执行聚合计算
 

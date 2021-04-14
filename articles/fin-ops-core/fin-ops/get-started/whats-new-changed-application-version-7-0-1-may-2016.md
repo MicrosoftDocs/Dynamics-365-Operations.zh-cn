@@ -2,7 +2,6 @@
 title: Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）的新增功能和更改内容
 description: 本文介绍了 Microsoft Dynamics AX 应用程序版本 7.0.1 中的新功能和更改的功能。 本版于 2016 年 5 月发布，版本号为 7.0.1265.23014。
 author: sericks007
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7da0eba072aba08b4da655cf680af9282278f34f
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f1d0361da03f2fc4aaaa749d632192265483db2d
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564667"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752808"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）的新增功能和更改内容
 

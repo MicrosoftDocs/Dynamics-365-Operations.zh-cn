@@ -2,7 +2,6 @@
 title: 数学类别的 ER 函数列表
 description: 本主题提供有关电子申报 (ER) 支持的数学函数的信息。
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b144913f4752861ee52fe3eb542f847b9f9d139
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 208adfde42b44d434af0c71868f73ac7cde8781c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561630"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748031"
 ---
 # <a name="list-of-er-functions-in-the-mathematical-category"></a>数学类别的 ER 函数列表
 

@@ -2,7 +2,6 @@
 title: LISTOFFIRSTITEM ER 函数
 description: 本主题提供有关 LISTOFFIRSTITEM 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2e1f7e55c61f883aebb9d5a522a883a9a9de694
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 6dd6c84b43bea36bf922ae9348f95b450e882832
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569832"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750172"
 ---
 # <a name="listoffirstitem-er-function"></a>LISTOFFIRSTITEM ER 函数
 

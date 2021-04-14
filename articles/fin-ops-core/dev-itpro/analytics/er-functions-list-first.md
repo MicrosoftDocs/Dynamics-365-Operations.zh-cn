@@ -2,7 +2,6 @@
 title: FIRST ER 函数
 description: 本主题提供有关 FIRST 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec94a27776cf1069b50b5437f4d167019fdef120
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d30c8481866ccf3f7080197b37586a0460a4ad2c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564727"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746571"
 ---
 # <a name="first-er-function"></a>FIRST ER 函数
 

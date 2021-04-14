@@ -2,7 +2,6 @@
 title: Dataverse 中的组织层次结构
 description: 本主题介绍 Finance and Operations 应用与 Dataverse 之间的组织数据集成。
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 07/15/2019
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f265d49a87383e2abf129b8d1d67567fc4b9e0de
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 8b147c27b9309b1b3597f1194c415fbb2e2b7ad2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559571"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750804"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Dataverse 中的组织层次结构
 

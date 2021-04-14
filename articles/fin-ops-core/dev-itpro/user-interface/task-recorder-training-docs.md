@@ -2,7 +2,6 @@
 title: 通过任务录制创建文档或培训
 description: 本主题介绍任务录制器和任务指南是什么，如何创建录制，以及如何自定义 Microsoft 任务指南和将其加入帮助中。
 author: josaw1
-manager: AnnBe
 ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b0a31b709c964bbb896079f2db5aeee3c1f22f2
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: b0be27fc759c525dcc1ffe4f2717b2e2378c52a5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563122"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744155"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>通过任务录制创建文档或培训
 

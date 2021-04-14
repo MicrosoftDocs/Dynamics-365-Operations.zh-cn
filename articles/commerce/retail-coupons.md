@@ -2,11 +2,9 @@
 title: 设置零售销售优惠券
 description: 此主题提供优惠券概览并阐述如何进行设置。
 author: scott-tucker
-manager: AnnBe
 ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fcb21c037c4492ce215780913301c0c0b54ab9d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9d8b9977d733c87566249bcb9658b80c4350c17d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259458"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792017"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>设置零售销售优惠券
 

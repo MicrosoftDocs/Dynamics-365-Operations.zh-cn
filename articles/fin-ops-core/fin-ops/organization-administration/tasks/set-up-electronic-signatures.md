@@ -2,7 +2,6 @@
 title: 设置电子签名
 description: 使用该过程设置电子签名。
 author: maertenm
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0193436c832192638a56146fe462626d2886c82e
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 8d78ecd0606f3b1d5d7b5f3cd470beecfcdd5077
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560523"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747337"
 ---
 # <a name="set-up-electronic-signatures"></a>设置电子签名
 

@@ -2,7 +2,6 @@
 title: 通讯簿常见问题
 description: 本主题提供对有关通讯簿的常见问题的解答。
 author: msftbrking
-manager: AnnBe
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad2be27d406928222ca00fe696f49b8578fc8cb3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 57462e673a5f2a13f1b4a74d44482df3d0dab08f
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559933"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747553"
 ---
 # <a name="address-books-faq"></a>通讯簿常见问题
 

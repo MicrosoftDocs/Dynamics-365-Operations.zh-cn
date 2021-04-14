@@ -2,7 +2,6 @@
 title: 解决 Finance and Operations 应用升级存在的问题
 description: 本主题提供故障排除信息，可以帮助您解决与 Finance and Operations 应用升级有关的问题。
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ae54ffc9f7a97793dfaddc29f5aae66e5b06c931
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 97509ac662fad6181cbd60e5e0a44f674410acb9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561194"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754030"
 ---
 # <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>解决 Finance and Operations 应用升级存在的问题
 

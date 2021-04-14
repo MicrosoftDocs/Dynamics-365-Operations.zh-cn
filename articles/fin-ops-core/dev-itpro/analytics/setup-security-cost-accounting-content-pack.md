@@ -2,7 +2,6 @@
 title: 设置成本核算分析 Power BI 内容的安全性
 description: 此主题介绍在 Microsoft Power BI 中如何将成本核算中的访问级别安全性传播到行级别安全性。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 10b87d01fd1172f4509f6fa803522eb25e73f9f5
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 32093f4e47fe3d9ca691b70e15adfc3199e65beb
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559667"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754256"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>设置成本核算分析 Power BI 内容的安全性
 

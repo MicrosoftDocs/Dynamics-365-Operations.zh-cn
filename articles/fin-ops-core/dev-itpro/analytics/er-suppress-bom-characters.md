@@ -2,7 +2,6 @@
 title: 设计 ER 配置以在生成的文件中禁止 BOM 字符
 description: 本主题说明如何配置电子报告 (ER) 格式以生成禁止字节顺序标记 (BOM) 字符的报表。
 author: NickSelin
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9260db2edab75c9876ddf5af99bee4ff174c64e1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 9fabc308b1b0682c6fdce3e81e7335417846bebd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568965"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743525"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>设计 ER 配置以在生成的文件中禁止 BOM 字符
 

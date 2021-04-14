@@ -2,7 +2,6 @@
 title: 成本管理 Power BI 内容
 description: 此主题介绍成本管理 Power BI 内容中的内容。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38f499a18e6757c60755a91ba62937350ef7550a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: fc033e41d17c8bb4c187db60faeefab453b6057a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564884"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755468"
 ---
 # <a name="cost-management-power-bi-content"></a>成本管理 Power BI 内容
 

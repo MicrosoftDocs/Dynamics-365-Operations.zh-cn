@@ -2,7 +2,6 @@
 title: 采用双写入的库存可用性
 description: 本主题提供有关如何以双写入方式检查库存可用性的信息。
 author: yijialuan
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: riluan
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 48e54c043967ea5db15938857bd8f020dd4dfc64
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 9d9b7970720218fbcf2f512345ade672810440b4
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566731"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748557"
 ---
 # <a name="inventory-availability-in-dual-write"></a>采用双写入的库存可用性
 

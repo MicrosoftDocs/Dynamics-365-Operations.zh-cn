@@ -2,7 +2,6 @@
 title: 使得用户能够接收工作流相关的电子邮件消息
 description: 在工作流相关事件发生时，您可以配置系统将电子邮件消息发送给用户。
 author: jasongre
-manager: AnnBe
 ms.date: 06/01/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a81e01c36081ce7131ee65344f583755fa3bfd3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 3207727c8deba97eebfd7516e9600238e5e79b3d
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564182"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747241"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>使得用户能够接收工作流相关的电子邮件消息
 

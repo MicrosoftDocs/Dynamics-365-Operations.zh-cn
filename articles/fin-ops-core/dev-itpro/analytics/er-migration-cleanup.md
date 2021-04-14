@@ -2,7 +2,6 @@
 title: ER 迁移清理
 description: 本主题说明如何使用 ER 迁移清理功能解决 ER 模板问题。
 author: NickSelin
-manager: AnnBe
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: b09afc30c401e2dccfc4114261dc5e713c8c470c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 97dbb625fc312548fb266b2ef6643a2b8e2b0f81
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565507"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750878"
 ---
 # <a name="er-migration-cleanup"></a>ER 迁移清理 
 

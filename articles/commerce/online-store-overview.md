@@ -2,11 +2,9 @@
 title: 电子商务站点概述
 description: 本主题概述了 Microsoft Dynamics 365 Commerce 中对电子商务站点的支持。
 author: bicyclingfool
-manager: AnnBe
 ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 53bce671d6aca35335a3b3ef557a94fa60da1edc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b0c7aa3bc1d4eef7b557bd9b07b31196faab273d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251179"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791070"
 ---
 # <a name="e-commerce-site-overview"></a>电子商务站点概览
 

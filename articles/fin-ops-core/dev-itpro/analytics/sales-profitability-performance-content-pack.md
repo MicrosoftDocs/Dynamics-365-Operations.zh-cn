@@ -2,7 +2,6 @@
 title: 销售和收益率绩效 Power BI 内容
 description: 此主题介绍销售和收益率绩效 Power BI 内容中的内容。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6eb5a78c6ac4ad13ad1d263c557359ad2f789cc0
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: a876be357bdeea485643aeeebdbc308bb8cf54df
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569904"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754312"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>销售和收益率绩效 Power BI 内容
 

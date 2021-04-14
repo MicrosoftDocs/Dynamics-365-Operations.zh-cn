@@ -2,11 +2,9 @@
 title: 定义连续性计划
 description: 本主题逐步演示如何设置连续性计划（也称为重复订单）。
 author: josaw1
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRContinuitySchedule, EcoResProductDetailsExtended
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f385d97ce8c458ada944609e165ebd0db500b546
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8414377ddec0e001f003f842866725eb58bd75a3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229928"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791599"
 ---
 # <a name="define-continuity-schedules"></a>定义连续性计划
 

@@ -2,7 +2,6 @@
 title: 招聘 Power BI 内容
 description: 此主题描述招聘 Power BI 内容。
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cc05e60b24ab82feb5ffccc4cdb662108b6b1534
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: c3b0366873b1af7fbf98fe13c971adbec0316f2d
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562920"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743473"
 ---
 # <a name="recruiting-power-bi-content"></a>招聘 Power BI 内容
 

@@ -1,8 +1,7 @@
 ---
 title: 使用查询来查找信息
-description: 许多字段有查询功能，可帮助您轻松找到正确或需要的值。 已为查询增加了多项增强，提高了这些控件的可用性，提高了用户的工作效率。 在此主题中，您将了解这些新的查询功能，以及一些有用的提示，从而充分利用系统中的查询功能。
+description: 在本主题中，您将了解查询功能，以及一些有用的提示，从而充分利用系统中的查询功能。
 author: jasongre
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ae5f31c2cc46bf395acfbd053168e88aa69ebdc
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: adb8e1a0fef93fdd66a4cbac82689ff7a19aca4a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566286"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754768"
 ---
 # <a name="find-information-by-using-lookups"></a>使用查询来查找信息
 

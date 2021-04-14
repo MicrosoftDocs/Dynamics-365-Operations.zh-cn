@@ -2,7 +2,6 @@
 title: 从 Power Apps 嵌入画布应用
 description: 此主题说明如何将 Microsoft Power Apps 中的画布应用嵌入到客户端以细分该产品的功能。
 author: jasongre
-manager: AnnBe
 ms.date: 11/03/2020
 ms.topic: article
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: f8c7ad4322de594a06a09102c8eb7d09299d1d71
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 7b20d24f79bd84f516e005b9d4a0ecdf6ef848fc
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564776"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752882"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>从 Power Apps 嵌入画布应用
 

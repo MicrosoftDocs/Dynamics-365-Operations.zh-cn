@@ -2,7 +2,6 @@
 title: 管理单独电子报告配置中的电子报告模型映射
 description: 本主题介绍如何在单独的 ER 配置中管理电子报告 (ER) 模型映射。
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdd6804c33cc153974229c60b64c3bd76426241a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0370074766e92802164d96daee4204836b7f17c2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569405"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751502"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>管理单独 ER 配置中的 ER 模型映射
 

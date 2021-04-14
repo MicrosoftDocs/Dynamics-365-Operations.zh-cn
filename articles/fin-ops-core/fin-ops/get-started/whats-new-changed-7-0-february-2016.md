@@ -2,7 +2,6 @@
 title: Dynamics AX 7.0（2016 年 2 月）中的新增功能和更改内容
 description: 本文介绍了 Microsoft Dynamics AX 7.0 中的新功能和更改的功能。 此版本包含平台和应用程序功能，于 2016 年 2 月发布。
 author: sericks007
-manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5631f65ab0a687671320dc1649bc83946074dc85
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 6539bf6acf0216f1491cbf852f2c9a7063fbe26e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566602"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752858"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0（2016 年 2 月）中的新增功能和更改内容
 

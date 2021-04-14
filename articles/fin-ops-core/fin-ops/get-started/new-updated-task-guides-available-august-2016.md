@@ -2,7 +2,6 @@
 title: 新的或更新任务指南（2016 年 8 月）
 description: 本主题列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 8 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: cc31a15f020a7a0bb3d5f1ea92e95d86d9794931
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 71204a3a913aa3c048d02e6b0ca28d2aad26cbd9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566472"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749746"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>新的或更新任务指南（2016 年 8 月）
 

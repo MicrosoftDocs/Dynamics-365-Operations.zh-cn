@@ -2,7 +2,6 @@
 title: IF ER 函数
 description: 本主题提供有关 IF 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a69675e3c743154e8119ba6c04da5897f23a8422
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 3674618acae79170daf94413895d17d86a491996
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565896"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753160"
 ---
 # <a name="if-er-function"></a>IF ER 函数
 

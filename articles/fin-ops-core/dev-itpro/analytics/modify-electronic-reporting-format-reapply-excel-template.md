@@ -2,7 +2,6 @@
 title: 通过重新应用 Excel 模板修改电子报告格式
 description: 本主题介绍如何通过重新应用经修改的 Excel 模板修改用于生成业务文档的电子报告 (ER) 格式。
 author: NickSelin
-manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f28760f42d16b6ffcd301f121e583542bce0fac0
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0ab7686ac0aba982fd44195214df878ba3ede446
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559282"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748709"
 ---
 # <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>通过重新应用 Excel 模板修改电子申报格式
 

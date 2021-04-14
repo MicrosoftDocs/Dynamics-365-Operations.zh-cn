@@ -6,19 +6,18 @@ ms.topic: article
 ms.date: 07/23/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b5fed8cf271ec9818463cfe960ae5c488cdc4c84
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f3924d858687f553ca08a56bfa3b5a632c0988ee
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226235"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5637712"
 ---
 # <a name="dynamics-365-finance-learning-catalog"></a>Dynamics 365 Finance 学习目录
 

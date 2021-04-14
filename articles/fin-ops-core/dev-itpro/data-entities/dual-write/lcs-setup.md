@@ -2,7 +2,6 @@
 title: Lifecycle Services 的双写入设置
 description: 本主题说明如何从 Microsoft Dynamics Lifecycle Services (LCS) 设置双写入连接。
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6971c8e2d5fa03c2991b9a3054c638cff6322c8b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e51b4ef1e309e5f89dc82a3776b88c505dc6593d
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567712"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748533"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services 的双写入设置
 

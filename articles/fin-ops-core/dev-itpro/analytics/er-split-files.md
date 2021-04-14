@@ -2,7 +2,6 @@
 title: 基于文件大小和内容数量拆分生成的 XML 文件
 description: 本主题提供有关如何基于文件大小和内容项数量拆分生成的文件的信息。
 author: NickSelin
-manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: d347bd0decf3ab274157d75ec29b0c9dc376e96b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f39cb93f4ba2d41b145ed7cfa52da287ccac3df5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570806"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743549"
 ---
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>基于文件大小和内容数量拆分生成的 XML 文件
 

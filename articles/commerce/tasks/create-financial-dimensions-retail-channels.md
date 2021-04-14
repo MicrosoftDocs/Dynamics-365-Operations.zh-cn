@@ -2,11 +2,9 @@
 title: 创建零售渠道的财务维度并配置商店上的维度值
 description: 此程序会逐步演示如何创建带有维度值的商业渠道财务维度，以及配置商店的财务维度值的步骤。
 author: jashanno
-manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5250e93757560f4a0f76897e3dd1374d14ff5e60
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0212d3bd808b2a46fa30e8b2bdaa3c0b52ca0dd6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264252"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790924"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>创建零售渠道的财务维度并配置商店上的维度值
 
