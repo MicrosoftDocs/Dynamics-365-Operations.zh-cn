@@ -2,11 +2,9 @@
 title: 服务订单物料需求
 description: 如果您需要对服务订单预留特定物料，可以创建它的库存物料需求。
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjSalesItemReq
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a0ce40c26e3d3028064b73a80a247180d6a9009
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4bbd15ca83ab116286a3d681887f076896653c76
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226657"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810574"
 ---
 # <a name="service-order-item-requirements"></a>服务订单物料需求   
 

@@ -2,11 +2,9 @@
 title: 批次平衡
 description: 此主题介绍批次平衡流程。
 author: johanhoffmann
-manager: tfehr
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: f9216a77ebcf23ef3f732a8c3cb17a911f8a3851
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 104c8bdf50bfcb7f598020f669a431d6e9d51c83
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246445"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811814"
 ---
 # <a name="batch-balancing"></a>批次平衡
 

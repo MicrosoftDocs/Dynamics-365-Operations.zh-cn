@@ -2,11 +2,9 @@
 title: 运输管理编号规则
 description: 此主题介绍如何设置运输管理的编号规则。
 author: Henrikan
-manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: cc19110f481c11ab28532d69a4689c1db048f6c3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f3da757cbf47e0e1af781b720d17a673e19aeb3b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233359"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807672"
 ---
 # <a name="transportation-management-number-sequence"></a>运输管理编号规则
 

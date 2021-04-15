@@ -2,11 +2,9 @@
 title: 其他货位区域
 description: 本主题概述已向 Microsoft Dynamics 365 Supply Chain Management 添加的新货位区域。
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationBuild, WHSZone
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4e8d8ddb65ea49f3d5278db0cac6ae891ab40ecf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ee6e0b824ff16bf757159da5198a4215f4f5d121
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233215"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808934"
 ---
 # <a name="additional-location-zones"></a>其他货位区域
 

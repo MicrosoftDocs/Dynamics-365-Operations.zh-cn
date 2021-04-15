@@ -2,7 +2,6 @@
 title: 销售订单页面上的“付款类型必须是信用卡”错误
 description: 本主题提供了故障排除指南，当订单同步后在销售订单页面上显示错误消息时，该指南可以提供帮助。
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 20f18507dee330fd1affedeee092b3dfa7cc10bc
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: eabc64acc74645c7e6c7c4ab5794ed9fdb9dc997
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585214"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801667"
 ---
 # <a name="payment-type-must-be-credit-card-error-on-the-sales-order-page"></a>销售订单页面上的“付款类型必须是信用卡”错误
 

@@ -2,11 +2,9 @@
 title: 销售点 (POS) 应用程序和用户语言设置
 description: 此主题介绍如何在 Modern POS (MPOS) 和 Cloud POS 中更改语言设置。
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 09824d3b2eb8e3c1602882f19131d9fe312baaac
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0c5087ee04030a76aef774871b88b7970391723c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263148"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804373"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>销售点 (POS) 应用程序和用户语言设置
 

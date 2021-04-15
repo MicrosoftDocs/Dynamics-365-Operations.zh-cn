@@ -2,11 +2,9 @@
 title: 制造执行的登记
 description: 此主题描述您需要理解才能配置和使用制造执行的重要概念和术语。
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19b1bf7055132c824bc4043c0bd1dbad3afce2a9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b3f443aa7871b3494cf39798c3cb33c3c3bf2136
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209339"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814480"
 ---
 # <a name="registration-for-manufacturing-execution"></a>制造执行的登记
 

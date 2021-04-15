@@ -2,11 +2,9 @@
 title: 上传并处理静态文件
 description: 此主题介绍如何将静态文件上传到 Microsoft Dynamics 365 Commerce 站点构建器，以及如何创建可用于请求该文件的自定义 URL 和文件名。
 author: StuHarg
-manager: annbe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: aba9dde2ed9d5fa09e92fcdd784a53f208930eda
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d5f092042b3dda65b041ab2f25f7319dd8e158d1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211011"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801377"
 ---
 # <a name="upload-and-serve-static-files"></a>上传并处理静态文件
 

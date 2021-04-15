@@ -2,11 +2,9 @@
 title: 创建可变薪酬计划
 description: 可变薪酬构成员工的非常规薪酬，例如奖金或股票奖励。 本文介绍在使用可变薪酬和在可变薪酬计划中登记员工前必须设置的组件。
 author: andreabichsel
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HCMCompEligibility, HcmJobFunction, HcmWorker, HRMCompPerfPlan, HcmCompensationWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 4bf2c6525f245a72811f4f239479be360c0c434c
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 874d879c04e6b16889ca6900962394036278ba10
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465646"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800871"
 ---
 # <a name="create-variable-compensation-plans"></a>创建可变薪酬计划
 

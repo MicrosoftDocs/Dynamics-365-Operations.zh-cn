@@ -2,11 +2,9 @@
 title: 零售报表的商店配置
 description: 此程序会逐步演示商店的配置（这会影响到如何创建和过帐商业报表）。
 author: jashanno
-manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1670a1a102f9288cdbd0e4cc981e3aa927d1ad9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: da862af25df241ad42b7e1ade3fdca19f6280278
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232657"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804105"
 ---
 # <a name="store-configurations-for-retail-statements"></a>零售报表的商店配置
 

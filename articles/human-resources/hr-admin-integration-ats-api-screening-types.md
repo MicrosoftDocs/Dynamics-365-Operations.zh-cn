@@ -2,11 +2,9 @@
 title: 筛选类型
 description: 本主题介绍 Dynamics 365 Human Resources 的“筛选类型”实体。
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d3a45d802ab6b574338a09e77d432357cb9df507
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 361f8c866abb9d34eb3e2be7ea42626e98e34779
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465910"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805122"
 ---
 # <a name="screening-types"></a>筛选类型
 

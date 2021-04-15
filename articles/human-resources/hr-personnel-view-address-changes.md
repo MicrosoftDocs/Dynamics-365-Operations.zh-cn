@@ -2,11 +2,9 @@
 title: 查看和管理地址更改
 description: 本主题说明如何在 Dynamics 365 Human Resources 中查看和管理地址更改。
 author: andreabichsel
-manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 27324b7705fe37ab00e169e8ea05c7768f32b120
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 5eca902ee7df7eb6835caf6f64b17f3f004b0776
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467329"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802447"
 ---
 # <a name="view-and-manage-address-changes"></a>查看和管理地址更改
 

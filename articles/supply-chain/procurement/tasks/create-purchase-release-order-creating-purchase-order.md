@@ -1,25 +1,23 @@
 ---
 title: 创建采购订单时创建采购下达单
 description: 该过程会显示在创建采购订单时，如何使用采购协议。
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaa441318ed7d00ce205f4f59b983b25cf97f086
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d2f02961f5f7da9bff389737b447e3b143dd72e3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211974"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812258"
 ---
 # <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a>创建采购订单时创建采购下达单
 

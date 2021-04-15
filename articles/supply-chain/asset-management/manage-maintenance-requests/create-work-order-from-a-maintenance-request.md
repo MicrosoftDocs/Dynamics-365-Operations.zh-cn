@@ -1,12 +1,10 @@
 ---
 title: 根据维护请求创建工作订单
 description: 本主题说明如何在资产管理中根据维护请求创建工作订单。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5bf147104909302173c32b8376f16c66784110cb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c360985509f8f1379ed4a9bd17b95f2d8c85340e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253318"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808584"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>根据维护请求创建工作订单
 

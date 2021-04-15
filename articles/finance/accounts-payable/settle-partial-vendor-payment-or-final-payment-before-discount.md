@@ -2,11 +2,9 @@
 title: 在折扣日期之前完全结算部分供应商付款和最后付款
 description: 本文向您展示为供应商发票进行多个部分付款并执行现金折扣的情况。
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90e68dd819e90c8b603af10784638250a1bb4363
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 89cb38656766b23761665518f9ec39f78349f79b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231607"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810310"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>在折扣日期之前完全结算部分供应商付款和最后付款
 

@@ -1,12 +1,10 @@
 ---
 title: 为电子采购发包设置外部目录
 description: 此主题描述使用外部目录或发包目录从供应商收集报价信息并将其添加到申请。
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa383e7e026e379c8016d9c160ccc8b1405392ad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9267047b4bf1ab4185efca9980e0f517f4b05096
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237341"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812512"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>为电子采购发包设置外部目录
 

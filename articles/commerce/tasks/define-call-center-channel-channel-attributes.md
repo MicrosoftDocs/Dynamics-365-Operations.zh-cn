@@ -2,11 +2,9 @@
 title: 创建呼叫中心渠道并定义渠道属性
 description: 此程序会逐步演示如何新建渠道和定义渠道属性。
 author: mugunthanm
-manager: AnnBe
 ms.date: 05/22/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5e4ef84abcfd0948c46c5312078f2a940840144
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1b053ea3a5792d016cfe4850f07c65de97fbfc9e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256941"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802687"
 ---
 # <a name="create-call-center-channels-and-define-channel-attributes"></a>创建呼叫中心渠道并定义渠道属性
 

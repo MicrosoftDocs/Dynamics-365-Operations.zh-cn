@@ -2,11 +2,9 @@
 title: 正在接收混合牌照
 description: 此主题描述如何在移动设备上使用混合牌照接收为多个物料登记和创建工作。
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSLicensePlate
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 948942f137b75c83cc337c5b05300ed8b8857ab8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b17b3a4d704c5bfd051426e708d39022e59cc67a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227714"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810454"
 ---
 # <a name="mixed-license-plate-receiving"></a>正在接收混合牌照
 

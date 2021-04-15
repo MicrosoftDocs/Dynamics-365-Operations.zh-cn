@@ -2,11 +2,9 @@
 title: 物料清单计算组
 description: 本文提供有关物料清单 (BOM) 的计算组以及如何设置它们的信息。 若要运行物料清单计算，您必须设置计算组并将它们分配到各个物料，或设置默认计算组。 然后，计算组的计算设置在物料清单计算时用作物料清单计算页的默认值。
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5927b1c31cf15e2fb92c15d4abc06bfa0403e33d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ce954b61b4d6a12f2bc62a71ef2e1bc69732a4c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266287"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813283"
 ---
 # <a name="bom-calculations-groups"></a>物料清单计算组
 

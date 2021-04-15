@@ -2,7 +2,6 @@
 title: 付款会在订单开发票或装运之前自动结清
 description: 本主题提供了故障排除指南，即使销售订单未开发票或未装运，也可以在下订单后立即在 Adyen 门户中结算付款时通过本指南获得帮助。
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 788854a3119eb9ffaf839beb93a5bc15cdcd6387
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: 43fe90cf99ddbe42dc89685e7fc747ded5a285c0
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585213"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801643"
 ---
 # <a name="payments-are-automatically-settled-before-orders-are-invoiced-or-shipped"></a>付款会在订单开发票或装运之前自动结清
 

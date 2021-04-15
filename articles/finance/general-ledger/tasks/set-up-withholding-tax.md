@@ -2,11 +2,9 @@
 title: 设置预缴税金
 description: 本主题说明如何设置预缴税金。
 author: twheeloc
-manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxWithholdTable, TaxWithholdData, TaxWithholdGroup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ae7b13f743336e01f17248c8d6492b31e8044ef
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 592afb7542fa44dcb1bf3f7354937d3c21fb1a87
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222303"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813460"
 ---
 # <a name="set-up-withholding-tax"></a>设置预缴税金
 

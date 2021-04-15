@@ -1,12 +1,10 @@
 ---
 title: 采购概览
 description: 文本提供在采购模块中可用的功能的概览。
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 05/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogListPage, CatVendorCatalogListPage, PurchTable, PurchTablePart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 58021
 ms.assetid: eea24e23-a803-4de0-a218-6485757cde1b
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ecb785a53bc9e0f761ba904ee674bd091bf8c444
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1dc0e3b503b71092062c1f70bc8cd1b8cf882e02
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206935"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807960"
 ---
 # <a name="procurement-and-sourcing-overview"></a>采购概览
 

@@ -2,11 +2,9 @@
 title: 为合并流程准备法人
 description: 在合并过程中，您将来自若干法人帐户组的交易记录汇集到单组法人帐户中。 本主题说明如何为合并准备法人。
 author: jinniew
-manager: AnnBe
 ms.date: 10/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 07988e71276c6439e392bce2087f3a8923f5f40b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6f718bef3b1b07d3bb03dbf6acbf1cdf58aa7b8a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230194"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815468"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>为合并流程准备法人
 

@@ -2,11 +2,9 @@
 title: 为仓库工作设置移动设备
 description: 此主题介绍了如何配置仓库工作人员用于在移动设备上执行工作的菜单项。
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db4c3a8c4bae226b5e154f4761e30b7341bc527b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1d3acbc15b6dc5f698f26aae96c75cc942189c6c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232975"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808790"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>为仓库工作设置移动设备
 
@@ -64,7 +62,7 @@ ms.locfileid: "5232975"
 | 刷新编号规则缓存 | 从数字序列缓存中删除数字序列号。 通常由系统管理员执行这类活动，从而在使用移动设备时解决缓存问题。 |
 | 更改批处置 | 允许工作人员指定物料或批次的批处置代码。 这种选择将更新指定给批次的处置代码。 |
 | 显示未结工作列表 | 显示可用的工作列表给特定用户。 用户可以选择要执行的工作和并将被定向到它。 应在具有尺寸为 7 英寸或更大尺寸的屏幕的平板设备上查看此列表。 当您选择此选项时，**编辑查询** 和 **字段列表** 菜单项将可用。 **编辑查询** 页允许您设置显示在列表中的工作的条件。 **字段列表** 页允许您选择哪些字段显示在工作列表中。 例如，您可以减少显示的字段数量，以便用户可以更快速地选择最合适的工作项。 在 **常规** 快速选项卡的 **每页记录数** 字段中，您还可以选择每页显示多少条工作记录。 如果选中了 **允许用户按交易记录类型筛选工作** 选项，工作列表将包含 **筛选工作** 控制，用户可使用它来按交易记录类型筛选。 在工作列表中，用户只能看到他们有访问权限的工作。 您必须确保用户具有一个或多个以用户为导向的菜单项的权限，这些菜单项支持他们应有权访问的特定工作类类型。 当用户试图执行列表中的工作时，也将验证权限。|
-| 从牌照创建转移单 | 允许仓库工作人员直接通过仓库应用创建和处理转移单。 仓库工作人员首先选择目标仓库，然后可以使用应用扫描一个或多个牌照。 当仓库工作人员选择 **完成订单** 时，批处理作业将根据为这些牌照登记的现有库存创建所需的转移单和订单行。 有关详细信息，请参阅[通过仓库应用创建转移单](create-transfer-order-from-warehouse-app.md)
+| 从牌照创建转移单 | 允许仓库工作人员直接通过仓库管理移动应用创建和处理转移单。 仓库工作人员首先选择目标仓库，然后可以使用应用扫描一个或多个牌照。 当仓库工作人员选择 **完成订单** 时，批处理作业将根据为这些牌照登记的现有库存创建所需的转移单和订单行。 有关详细信息，请参阅[通过仓库应用创建转移单](create-transfer-order-from-warehouse-app.md)
 
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>配置菜单项，从而为其他的工作人员或流程创建工作

@@ -1,12 +1,10 @@
 ---
 title: 维护请求生命周期状态
 description: 本主题介绍如何在资产管理中设置维护请求生命周期状态。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestLifecycleState, EntAssetRequestLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9022d866bf0da08a72ba9169587f87c1b77527a6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c95704b944f86a1cfc0654f0ebf5bc7c79bbeec9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217213"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808680"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>维护请求生命周期状态
 

@@ -2,11 +2,9 @@
 title: 度量单位和库存政策
 description: 本文介绍如何在仓库流程中使用默认单位、单位序列和单位换算。
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductDetailsExtended, EcoResStorageDimensionGroup, InventItemOrderSetup, UnitOfMeasureConversion, WHSRFMenuItem, WHSUOMSeqGroupTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ad62f57bb6cf952733c1efff15a03f5afee962d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dc99a6b03dace15f479e60e9f91e0d53cc0987cf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237075"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811477"
 ---
 # <a name="unit-of-measure-and-stocking-policies"></a>度量单位和库存政策
 

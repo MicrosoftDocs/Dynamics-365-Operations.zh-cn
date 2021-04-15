@@ -1,12 +1,10 @@
 ---
 title: 工作订单项目设置
 description: 本主题介绍资产管理中的工作订单项目设置。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjectSetup
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9e7f312b7119ac5e4dacbe7edb7b3fd17decd7ad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 071c73f9295ad7911037cbd10a48b46b044eebda
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245363"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808224"
 ---
 # <a name="work-order-project-setup"></a>工作订单项目设置
 

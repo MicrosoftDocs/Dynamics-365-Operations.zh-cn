@@ -1,26 +1,24 @@
 ---
 title: 供应商请求配置
 description: 此主题介绍在新供应商请求中必须填充的字段。
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationConfig
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 61ef9ba4eb683fea030f06b3bacf687d7f146de4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a78ec681ff9bfe9f7792da04553e4b543bf4a183
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246565"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809294"
 ---
 # <a name="vendor-request-configurations"></a>供应商请求配置
 [!include [banner](../includes/banner.md)]

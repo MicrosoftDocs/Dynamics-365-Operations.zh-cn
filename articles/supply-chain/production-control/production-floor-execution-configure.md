@@ -2,11 +2,9 @@
 title: 配置生产车间执行界面
 description: 本主题介绍了如何为生产车间执行界面创建一个或多个配置。 当您打开生产车间执行界面时，它将自动加载特定于浏览器和设备的选定配置和作业筛选器。 在配置中，设置必须适用于特定使用情况的策略。
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: 79e21977e4ef8bce88c97a8fb253345ccc8d6b4f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556306"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814722"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 车间工作人员使用生产车间执行界面来登记他们的日常工作，例如何时开始作业、报告关于作业的反馈、登记间接活动和报告缺勤。 这些登记是跟踪生产订单的进度和成本以及计算工作人员付薪的依据的基础。
 
@@ -67,6 +64,8 @@ ms.locfileid: "5556306"
 - 用于锁定作业卡设备和作业卡终端以便对其进行净化的功能
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>生产车间执行界面的资产管理功能
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 此功能将资产管理选项卡添加到生产车间执行界面。 工作人员可以使用此选项卡来选择连接到作业列表中所选筛选器内机器资源的资产。 对于选择的机器资产，工作人员可以通过最多四个所选计数器的计数器值查看资产的状态和运行状况。 如果您想要使用此功能，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
 

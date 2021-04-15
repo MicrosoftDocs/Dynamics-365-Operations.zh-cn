@@ -1,12 +1,10 @@
 ---
 title: 工作订单报告
 description: 本主题介绍资产管理中的工作订单报告。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: feaf59f68709e3f0c2347cd8cb60f8b61f3df49c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 804885e6a416fd865933e59f11691768bf1abde4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223450"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813307"
 ---
 # <a name="work-order-report"></a>工作订单报告
 

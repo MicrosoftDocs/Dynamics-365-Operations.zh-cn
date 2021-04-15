@@ -2,11 +2,9 @@
 title: 客户拥有资产维护工作的计费
 description: 本主题说明如何创建、处理以及为完成的客户拥有资产维护工作计费。
 author: johanhoffmann
-manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjInvoiceTable, ProjProjectsListPage, ProjTable, EntAssetWorkOrderType, EntAssetWorkOrderProjectSetup, EntAssetObjectTable, EntAssetWorkOrderTable
 audience: Application User
@@ -17,17 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a93436d101e6201c9d86279ea5b1a37fcc644fd1
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 5532f1ce14239002022f487f227286efe10abf12
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500446"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813789"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>客户拥有资产维护工作的计费
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
 *工作订单计费* 功能让您可以创建、处理和为完成的客户拥有资产维护工作计费。 此功能让您可以执行以下任务：
 

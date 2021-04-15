@@ -2,11 +2,9 @@
 title: 应收帐款中的收款
 description: 应付帐款收款信息使用 Microsoft Dynamics 365 Finance 收款页在一个中央视图中进行管理。 信用和收款经理可以使用该中央视图管理收款。 收款代理可以从使用预定义收款条件生成的客户列表或从“客户”页开始收款流程。
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4dd9887debf73b94fb976af873690dcc53b8f53c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3dc4dc556cbb8bd461e904ef569016acd4276f7a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224781"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814240"
 ---
 # <a name="collections-in-accounts-receivable"></a>应收帐款中的收款
 

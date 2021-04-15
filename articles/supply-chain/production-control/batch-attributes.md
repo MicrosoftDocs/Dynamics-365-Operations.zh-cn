@@ -2,11 +2,9 @@
 title: 批次属性
 description: 文主题提供有关批属性的信息。 批次属性是构成库存批次的原材料和成品的特征。 本主题还说明如何分配批属性，以及如何在预留批处理时对它们进行搜索。
 author: ShylaThompson
-manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup, WHSBatchAttribReserve
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 744c8d65d8f1b28dc8197f3f8dd1803f916958b5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 064b3dc7f0209b5c81580d4eb80384df74155aee
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246469"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811838"
 ---
 # <a name="batch-attributes"></a>批次属性
 

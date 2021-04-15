@@ -2,11 +2,9 @@
 title: 执行自助服务以下载硬件工作站
 description: 此程序会逐步演示如何下载预定义的硬件工作站。
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26e425973653240870a53c469385543549feb347
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6779b63c3bd5ccb41d82fe79ac51e212813a79fe
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223125"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801859"
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a>执行自助服务以下载硬件工作站
 

@@ -2,11 +2,9 @@
 title: 监视和管理 IoT 智能
 description: 本主题说明如何监视和管理 IoT 智能。
 author: robinarh
-manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a037cb31e297926b1bcb66bff91bdd7eb5c40b7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 94665b3646456b689a8e65e94b098e86e467d5e3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264840"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813067"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>监视和管理 IoT 智能
 

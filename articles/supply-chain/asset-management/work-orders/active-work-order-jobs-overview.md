@@ -1,12 +1,10 @@
 ---
 title: 有效的工作订单维护作业概览
 description: 此主题介绍资产管理中的有效工作订单维护作业概览。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d466b05b4677223000e5dfd383ea89f9328619ef
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5ac36f536003b9945ffbdcae12de2582e80634a3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263774"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813355"
 ---
 # <a name="active-work-order-maintenance-jobs-overview"></a>有效的工作订单维护作业概览
 

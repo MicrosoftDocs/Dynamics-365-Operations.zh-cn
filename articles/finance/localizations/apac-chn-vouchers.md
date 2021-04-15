@@ -2,11 +2,9 @@
 title: 中国式凭证
 description: 此主题描述中国式凭证，以及如何在 Microsoft Dynamics 365 Finance 中使用它们。
 author: anasyash
-manager: AnnBe
 ms.date: 03/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerVoucherType_CN, VoucherTypeWizard_CN
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0a862ec94e9478df6c35bc7e65bb71c9b05081e7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d7f47cba8543bcd990c8f505407a5883526299d2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257543"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809957"
 ---
 # <a name="chinese-vouchers"></a>中国式凭证
 

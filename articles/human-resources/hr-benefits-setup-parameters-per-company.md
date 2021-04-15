@@ -2,11 +2,9 @@
 title: 针对每个公司配置福利管理参数
 description: 在 Microsoft Dynamics 365 Human Resources 中针对每个公司配置福利管理的参数。
 author: andreabichsel
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 31f30c3d268132327074e931b714b5b2ee3ec5ac
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 87d4f1e7580b333fd17d3b779aafa47c5baed424
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466632"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805650"
 ---
 # <a name="configure-benefits-management-parameters-per-company"></a>针对每个公司配置福利管理参数
 

@@ -2,11 +2,9 @@
 title: 价格、折扣、协议和返点故障排除
 description: 本主题介绍如何解决在使用价格、折扣、协议和返点时可能遇到的问题。
 author: SmithaNataraj
-manager: tfehr
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchRFQTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 5d17f2ec594901404fcd251e463f293258af051c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 12bc3cbccb1577c278489f640299510b3ced17e7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237147"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811078"
 ---
 # <a name="troubleshoot-prices-discounts-agreements-and-rebates"></a>价格、折扣、协议和返点故障排除
 

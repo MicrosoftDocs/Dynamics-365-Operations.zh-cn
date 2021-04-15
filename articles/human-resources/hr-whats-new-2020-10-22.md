@@ -2,11 +2,9 @@
 title: Dynamics 365 Human Resources 2020 年 10 月 22 日中的新增功能或更改
 description: 本主题介绍了 2020 年 10 月 22 日 Microsoft Dynamics 365 Human Resources 中的新增或更改的功能。
 author: jcart1106
-manager: tfehr
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 642250fa34ee87065f4ed2cf8f3893390d271007
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 27c34c36b0bf33c28f33f7ecd838a76c5e241cbb
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464782"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802255"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Dynamics 365 Human Resources 2020 年 10 月 22 日中的新增功能或更改
 
