@@ -2,11 +2,9 @@
 title: 设置组织层次结构
 description: 此主题描述如何在 Microsoft Dynamics 365 Commerce 中设置组织层次结构。
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 490d466c10cfe0640f8fbcf8fe2298536e499d9b
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 4238d1aa277bf2f1df30825ef20dbf3095d13ebc
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477988"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800559"
 ---
 # <a name="set-up-organization-hierarchies"></a>设置组织层次结构
 

@@ -2,11 +2,9 @@
 title: 设置舍入规则
 description: 您可以在 Dynamics 365 Human Resources 中设置舍入规则来满足组织的需求。
 author: andreabichsel
-manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c3e6c091ad6a6ef9f4310d41ba61f854918db9b1
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 3f759246b166d301444f743ee47a372cc6a7d450
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468363"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801015"
 ---
 # <a name="set-up-rounding-rules"></a>设置舍入规则
 

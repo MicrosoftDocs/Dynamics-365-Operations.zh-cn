@@ -1,12 +1,10 @@
 ---
-title: 在仓库应用中配置应用字段名
-description: 此主题介绍如何在 Dynamics 365 Supply Chain Management 中定义和配置仓库应用程序字段名和优先级。
+title: 为仓库管理移动应用配置字段
+description: 本主题介绍如何定义和配置在仓库管理移动应用中显示的字段的名称和优先级。
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -18,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c22a4314c36ba7112456ef264df500af98996f3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c6ed726536085b836f4014c59ea8df4755577ab5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232951"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808814"
 ---
-# <a name="configure-app-field-names-in-the-warehouse-app"></a>在仓库应用中配置应用字段名
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>为仓库管理移动应用配置字段
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍如何在 Dynamics 365 Supply Chain Management 中定义和配置仓库应用程序字段名和优先级。 
+本主题介绍如何定义和配置在仓库管理移动应用中显示的字段的名称和优先级。
 
 > [!NOTE]
-> 本主题适用于仓库管理中的功能。 它不适用于库存管理中的功能。 Warehousing 是可用于执行仓库任务的应用程序。 可定义和配置此应用程序中使用的字段名，以及配置应该为字段名分配的优先级。 此主题说明如何在 Warehousing 中定义、配置和使用这些仓库应用程序字段名和优先级。 有关如何配置与 Warehousing 之间的连接的详细信息，请参阅教程[安装和配置仓库应用概览](install-configure-warehousing-app.md)。
+> 本主题适用于仓库管理中的功能。 它不适用于库存管理中的功能。 仓库管理移动应用是可用于执行仓库任务的应用程序。 可定义和配置此应用程序中使用的字段名，以及配置应该为字段名分配的优先级。 本主题说明如何定义和配置这些仓库管理移动应用字段名称和优先级以及如何使用它们。
 
 ## <a name="configure-warehouse-app-field-names"></a>配置仓库应用程序字段名
 
@@ -142,7 +140,7 @@ ms.locfileid: "5232951"
 <a name="additional-resources"></a>其他资源
 --------
 
-[安装和配置仓库应用概览](install-configure-warehousing-app.md)
+[安装和连接仓库管理移动应用](../warehousing/install-configure-warehouse-management-app.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

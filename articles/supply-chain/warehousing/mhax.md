@@ -2,7 +2,6 @@
 title: 物料处理设备接口 (MHAX)
 description: 本主题介绍如何设置物料处理设备接口 (MHAX)，让您可以连接到外部物理物料处理 (MH) 系统。
 author: Mirzaab
-manager: tfehr
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ea021529d7417fb3170c859c7fffcb2cfd23a43f
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 9273e4a1f6b3f57086c921c4beb0530a67ccd976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571834"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810502"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>物料处理设备接口 (MHAX)
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 您可以使用 *物料处理设备接口* (MHAX) 将外部物理物料处理 (MH) 系统连接到由 Microsoft Dynamics 365 Supply Chain Management 中的高级仓库管理 (WMS) 管理的仓库。 WMS 和 MH 系统之间的接口由两个队列组成：一个队列是出站事件（从 WMS 到 MH），另一个队列是入站事件（从 MH 到 WMS）。 WMS 系统基于在各个工作创建和执行流程中创建的工作行生成出站事件。 然后，MH 系统会定期在 WMS 系统中轮询新事件并处理响应。 MH 系统按照工作说明完成事件处理后，将发送入站事件，如工作行完成和领料短缺。
 

@@ -2,11 +2,9 @@
 title: 创建固定资产
 description: 本主题介绍了如何从“固定资产”列表页面创建新的固定资产记录。
 author: moaamer
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bbbafb1732a9628cb90ad284fce224e3d8172afd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 770390092342e2db496dde850a75b2f7736bd4c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227032"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817093"
 ---
 # <a name="create-a-fixed-asset"></a>创建固定资产
 

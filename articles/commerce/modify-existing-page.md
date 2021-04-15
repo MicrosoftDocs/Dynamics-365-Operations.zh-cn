@@ -2,11 +2,9 @@
 title: 修改现有的站点页面
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中修改现有站点页面。
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6afd19a01520813e54871f4849aeb18f4424173c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b633965e45c16cb4e5991fab67783b867223f6ec
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223039"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803721"
 ---
 # <a name="modify-an-existing-site-page"></a>修改现有的站点页面
-
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中修改现有站点页面。
-
-## <a name="overview"></a>概览
 
 必须修改页面时，第一步是在页面编辑器中打开该页面。 转到其中包含您的页面的站点，然后在页面列表中找到所需页面。 如果找不到此页面，可使用创作工具丰富的搜索功能。 键入精确的页名，或键入页面的前几个字母和星号 (\*)。 将显示筛选后的页面列表。 可使用此列表查找所需页面。 找到正确的页面之后，选择页名在页面编辑器中打开页面。
 

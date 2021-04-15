@@ -2,11 +2,9 @@
 title: 设置质检订单
 description: 此过程说明了如何启用到达登记后必须立即检查传入库存的质量管理流程。
 author: perlynne
-manager: tfehr
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters, InventTestReportSetup, InventTestTable, DefaultDashboard, InventTestVariable, InventTestVariableOutcome, InventItemSampling, InventTestQualityGroup, InventTestItemQualityGroupAdd, SysQueryForm, InventTestItemQualityGroup, InventTestGroup, InventTestAssociationTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 351b2ce6b5678976fa8c46908c16dbadbbe23e97
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 22cbaa2eaeaa8884a33bffc2c94b3404628ba448
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244295"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809534"
 ---
 # <a name="set-up-quality-orders"></a>设置质检订单
 

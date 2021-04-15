@@ -2,11 +2,9 @@
 title: 使用“费用发送”功能从其他商店装运订单
 description: 此主题描述“费用发送”功能。
 author: ashishmsft
-manager: AnnBe
 ms.date: 10/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 37ef0234df4ee983c44c183fe884c73b17eb0e06
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b9e0c4f55fd823bf7471edfe6ce1d424b0179d21
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219021"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800463"
 ---
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>使用“费用发送”功能从其他商店装运订单
 

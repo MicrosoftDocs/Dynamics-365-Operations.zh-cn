@@ -2,11 +2,9 @@
 title: 获取比供应商付款的计算折扣更多的折扣
 description: 本文向您展示为超过发票上最初可用折扣的金额执行现金折扣的情况。 如果组织履行协议，供应商支付发票上的较小金额，可能发生此情况。
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a56331f76867aeac0bad0912749d96f959513e0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 62f2088ff04a0ef5ffe6ffe47b85f47e6957264d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235877"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810238"
 ---
 # <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>获取比供应商付款的计算折扣更多的折扣
 
@@ -38,7 +36,7 @@ ms.locfileid: "5235877"
 
 折扣信息显示在 **结算交易记录** 页的底部。
 
-|                              |           |
+| 字段                        | 值     |
 |------------------------------|-----------|
 | 现金折扣日期           | 7/12/2015 |
 | 现金折扣金额         | 60.00     |

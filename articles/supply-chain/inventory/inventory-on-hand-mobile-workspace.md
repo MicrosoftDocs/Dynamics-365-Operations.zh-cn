@@ -2,11 +2,9 @@
 title: 现有库存量移动工作区
 description: 此主题提供有关现有库存量移动工作区的信息。 此工作区可帮助您随时随地从移动角度洞察预留库存和可用库存。
 author: Mirzaab
-manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -17,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2c84b868247503f8fcb8f718f4ce9bd6ccb56c99
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b60be589394c506137c60ed0bc9c95d5a7af5e9a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217117"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816644"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>现有库存量移动工作区
 

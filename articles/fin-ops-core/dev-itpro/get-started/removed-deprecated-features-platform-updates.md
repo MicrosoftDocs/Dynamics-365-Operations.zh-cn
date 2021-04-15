@@ -2,7 +2,6 @@
 title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
 author: sericks007
-manager: AnnBe
 ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f363b122e30990f5b36e69fd8fe271bdc15e2e79
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ac3b5274aaea2e267685e80d051c81489ece50eb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563986"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814312"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
 
@@ -37,7 +36,7 @@ ms.locfileid: "5563986"
 
 ### <a name="batch-job-to-handle-sql-index-defragmentation"></a>用于处理 SQL 索引碎片整理的批处理作业
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 为了减少客户操作、监视和维护索引管理的开销，此功能已被删除。 |
 | **被另一个功能取代？**   | 在以后，索引维护将由 Microsoft 服务执行。 这会连续进行，不会影响用户的工作负荷。 |
@@ -48,12 +47,10 @@ ms.locfileid: "5563986"
 
 ## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.17 的平台更新
 
-> [!IMPORTANT]
-> 版本 10.0.17 作为预览版本的一部分提供。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅 [One Version 服务更新常见问题](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version)。
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 为了支持 Visual Studio 的最新版本，必须对 Visual Studio 的 X++ 扩展进行一些更改。 这些更改与 Visual Studio 2015 不兼容。 |
 | **被另一个功能取代？**   | Visual Studio 2017 将取代 Visual Studio 2015 成为已部署的必需版本。 |
@@ -63,7 +60,7 @@ ms.locfileid: "5563986"
 
 ### <a name="user-avatar"></a>用户头像 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 显示在导航栏右侧的用户头像使用 Dynamics 365 标头控件中的 API 检索，这已被弃用。 |
 | **被另一个功能取代？**   | 用户会在导航栏中看到他们的首字母在一个圆圈内。 这与开发计算机上当前使用的视觉对象相同。 |
@@ -73,7 +70,7 @@ ms.locfileid: "5563986"
 
 ### <a name="enterprise-portal-ep-deprecation"></a>Enterprise Portal (EP) 弃用  
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 与 Dynamics AX 2012 Enterprise Portal (EP) 关联的元数据项目已弃用，因为 Finance and Operations 应用从未支持过 EP。 |
 | **被另一个功能取代？**   | 不 |
@@ -85,7 +82,7 @@ ms.locfileid: "5563986"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Dynamics 365 的 Internet Explorer 11 支持已弃用
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 从 2020 年 12 月开始，所有 Dynamics 365 产品的 Microsoft Internet Explorer 11 支持已弃用，2021 年 8 月之后，将不再支持 Internet Explorer 11。<br><br>这将影响所用 Dynamics 365 产品设计为通过 Internet Explorer 11 界面使用的客户。 2021 年 8 月之后，此类 Dynamics 365 产品将不支持 Internet Explorer 11。 |
 | **被另一个功能取代？**   | 我们建议客户转换到 Microsoft Edge。|
@@ -96,7 +93,7 @@ ms.locfileid: "5563986"
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio 加载项以应用元数据修补程序
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 在 2018 年 7 月版本 8.1 中引入的[一个版本](../../fin-ops/get-started/one-version.md)服务更新不再支持元数据修补程序。 |
 | **被另一个功能取代？**   | 单独的元数据修补程序不适用于受支持的版本。 相反，将应用累积质量更新。 |
@@ -109,7 +106,7 @@ ms.locfileid: "5563986"
 
 ### <a name="online-users-page"></a>联机用户页面 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 这是为以前的客户端/服务器体系结构构建的旧页面。 此页面上的信息并不总是准确的，这可能会造成混淆和误导。 |
 | **被另一个功能取代？**   | 我们将在以后的更新中提供新页面。|
@@ -123,7 +120,7 @@ ms.locfileid: "5563986"
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>SSRS 报表属性中定义的自定义代码 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 通常，自定义代码优点有限，同时需要大量资源和计算来提供支持。 自定义代码主要由报表作者用来从自定义代码程序集调用公共方法。 但是，云托管服务不支持对 SSRS 报表的自定义程序集的引用。 |
 | **被另一个功能取代？**   | 报表作者可以选择继续从任何文本框表达式引用公共 .NET API 来进行数学、转换和格式操作。 有关详细信息，请参阅[向报表添加代码 (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15)。  |
@@ -133,7 +130,7 @@ ms.locfileid: "5563986"
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>升级三个 jQuery 组件库 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 三个 jQuery 组件库正在更新，以进行安全修复和维护货币。   
 | **被另一个功能取代？**   | 以下库会受到影响：jQuery（从版本 2.1.4 到版本 3.5.0），jQuery UI（从版本 1.11.4 到版本 1.12.1），jQuery qTip（从版本 2.2.1 到版本 3.0.3）。 迁移指南已由 jQuery 在线提供。  |
@@ -143,7 +140,7 @@ ms.locfileid: "5563986"
 
 ### <a name="existing-grid-controlforcelegacygrid-api"></a>现有网格控件/forceLegacyGrid() API
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 现有网格控件由新网格控件替换。 |
 | **被另一个功能取代？**   | [新网格控件](../..//fin-ops/get-started/grid-capabilities.md) |
@@ -153,7 +150,7 @@ ms.locfileid: "5563986"
 
 ### <a name="personalization-without-saved-views"></a>无已保存视图的个性化 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 个性化子系统已全面改革，加入了已保存视图功能，因而具有更好的性能并提供更多功能。 |
 | **被另一个功能取代？**   | 已保存的视图 |
@@ -166,7 +163,7 @@ ms.locfileid: "5563986"
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>包含无效字段引用的网格或组控件窗体扩展
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 网格或组控件上的数据组属性用于自动显示字段组的所有字段。 通过扩展添加的网格或组控件可能包含不再在字段组中定义的字段，或者可能缺少在字段组中定义的字段。 这可能会导致运行时行为不一致。 Finance and Operations 应用版本 10.0.12 的平台更新现在将此问题归类为编译器 *警告*。 要解决此问题，请打开窗体扩展，然后保存它。
 | **被另一个功能取代？**   | 在以后的更新中，此编译器警告将替换为编译器错误。 |
@@ -178,7 +175,7 @@ ms.locfileid: "5563986"
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>自助服务环境的显式安全列表
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 将 IP 移至安全列表的流程已更改。 自助服务不再支持 IP 安全列表。 |
 | **被另一个功能取代？**   | 有关详细信息，请参阅[配置 Azure Active Directory 条件访问](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access)。|
@@ -188,7 +185,7 @@ ms.locfileid: "5563986"
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 为了支持 Visual Studio 的最新版本，必须对 Visual Studio 的 X++ 扩展进行一些更改。 这些更改与 Visual Studio 2015 不兼容。 |
 | **被另一个功能取代？**   | Visual Studio 2017 将取代 Visual Studio 2015 成为已部署的必需版本。 |
@@ -198,7 +195,7 @@ ms.locfileid: "5563986"
 
 ### <a name="field-groups-containing-invalid-field-references"></a>其中包含无效字段引用的字段组
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 表元数据定义中的字段组中可能包含无效的字段引用。 如果部署这些字段组，可能导致 Financial Reporting 和 Microsoft SQL Server Reporting Services (SSRS) 中发生运行时失败。 平台更新 23 引入了编译器 *警告*，从而解决了这个元数据问题。 Finance and Operations 应用版本 10.0.11 的平台更新将此问题归类为编译器 *错误*。<p>若要解决此问题，请按照以下步骤操作。</p><ol><li>删除表字段组定义中的无效字段引用。</li><li>重新编译。</li><li>确保解决了所有错误。</li></ol> |
 | **被另一个功能取代？**   | 此编译器错误将永久替代编译器警告。  |
@@ -208,7 +205,7 @@ ms.locfileid: "5563986"
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>使用 SHA1 哈希算法创建的 ISV 许可证
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 已经改变了独立软件供应商 (ISV) 许可证的创建方法。 有关详细信息，请参阅[独立软件供应商 (ISV) 许可](../dev-tools/isv-licensing.md#appendix-create-self-signed-certificates-for-test-purposes)。 |
 | **被另一个功能取代？**   | 是。 使用 Windows PowerShell 创建许可证。 |
@@ -219,7 +216,8 @@ ms.locfileid: "5563986"
 ## <a name="platform-update-32"></a>平台 update 32
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>“工作流请求更改”对话框中不再包含用户选择下拉列表
-|   |  |
+
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 这是一个安全问题，因为可能会将更改请求发送给非预期用户。 这也是一个可用性问题，因为它会强制用户确定工作流发起者是谁和谁手动选择它们。  |
 | **被另一个功能取代？**   | 否 |
@@ -228,7 +226,8 @@ ms.locfileid: "5563986"
 | **状态**                         | 已从平台更新 32 中的请求更改对话框内删除了用户选择下拉列表。 将把请求更改请求正常自动发送到发起者。 有关此功能的详细信息，请参阅[工作流审核流程中的操作](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change)。 |
 
 ### <a name="embedded-drill-through-links-are-no-longer-supported-in-paginated-documents-rendered-by-the-cloud-hosted-service"></a>云托管服务呈现的分页文档中将不再支持嵌入式钻取链接 
-|   |  |
+
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 服务呈现的文档中嵌入的导航 URL 中可能包含敏感的业务数据。 我们将取消对文档中的嵌入式钻取链接的支持，这是我们为了进一步保护客户的数据采取的安全预防措施。 此项更改还将让用户在以交互方式生成文档时可以享受性能提升。  |
 | **被另一个功能取代？**   | 无 |

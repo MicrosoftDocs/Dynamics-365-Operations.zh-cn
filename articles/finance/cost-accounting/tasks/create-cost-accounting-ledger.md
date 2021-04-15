@@ -2,11 +2,9 @@
 title: 创建成本核算分类帐
 description: 成本核算分类帐表示整个报告单位。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efa0c2db81f0a10208c8acc09b356eb15936d5c9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 86bcc62b4868fd1a3ebf18eeedf264ff0d711f34
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236834"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810094"
 ---
 # <a name="create-a-cost-accounting-ledger"></a>创建成本核算分类帐
 

@@ -2,11 +2,9 @@
 title: “时间和出勤”中的缺勤登记
 description: 本主题说明如何处理“时间和出勤”中的缺勤登记。
 author: johanhoffmann
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JMGParameters, JmgAbsenceCalendar
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 961b87fb066018f9f6ecc3dcc3cc88e64574bb64
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b765ae63cfb17e26439758f2a0ed64770ef70881
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246541"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809270"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>“时间和出勤”中的缺勤登记
 

@@ -1,12 +1,10 @@
 ---
 title: 保修协议
 description: 本主题介绍资产管理中的保修协议。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 35b5c89751d17687bd7e306094a1e4e5e144a8dc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5644b5076aeda30d5535c0128497e267359583a2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245339"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808200"
 ---
 # <a name="warranty-agreements"></a>保修协议
 

@@ -2,11 +2,9 @@
 title: 产品配置模型的计算常见问题
 description: 本主题描述产品配置模型的计算。并说明如何与约束一起使用计算。
 author: cvocph
-manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCConstraintEditor, PCProductConfigurationModelDetails, PCRuntimeConfigurator
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08eeb1c39150ae9a2fa19b7db5f3206f38a7175e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d13702dad170285951f980d9a19ad04bd7cf9d90
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5221887"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812850"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>产品配置模型的计算常见问题
 

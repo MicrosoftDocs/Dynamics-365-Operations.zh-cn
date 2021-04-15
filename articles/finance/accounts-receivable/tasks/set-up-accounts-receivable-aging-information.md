@@ -2,11 +2,9 @@
 title: 设置并生成应收帐款的帐龄信息
 description: 本指南将帮助您设置帐龄期间定义、帐龄客户余额以及查看“帐龄余额表”和“收款”页的余额。
 author: mikefalkner
-manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b21fe217aacd11821ff8d5cf7c7682b2181e36c8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 68d2e4a440ba99e52d715b9e5e3cfd77bb61814f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220075"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816164"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>设置并生成应收帐款的帐龄信息
 

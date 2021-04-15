@@ -2,11 +2,9 @@
 title: 创建应计方案
 description: 本主题说明如何创建应计方案。
 author: aprilolson
-manager: AnnBe
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAccrualTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c021f71735e63c270e8f1998d77d4e4abcc5506
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 41ea75b5c54f43efd4d5b9ef194e6394fc50bccc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236689"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815132"
 ---
 # <a name="create-accrual-schemes"></a>创建应计方案
 

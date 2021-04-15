@@ -2,11 +2,9 @@
 title: 配置 Human Resources 参数
 description: 本主题说明如何在 Dynamics 365 Human Resources 中设置特定于公司的参数。
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, HcmPersonnelManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 10f3c62925f6b951f88b990cb8b103dde54c27d1
-ms.sourcegitcommit: 45d10d0c25b3ec585323709bb97ba1895b500429
+ms.openlocfilehash: 74bdf891ffa7a9d875e23cf46aeee1dbaf86db48
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "5502932"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802399"
 ---
 # <a name="configure-human-resources-parameters"></a>配置 Human Resources 参数
 

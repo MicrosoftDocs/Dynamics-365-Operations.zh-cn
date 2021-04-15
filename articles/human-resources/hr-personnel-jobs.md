@@ -2,11 +2,9 @@
 title: 设置作业组件
 description: 本文介绍工作中可包含的概念性元素，并提供有关如何在组织中使用这些元素的示例。
 author: andreabichsel
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0148518ca80832ecb7a26e28ec76c4b14bb1a194
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 1c481a468b2d624f029082fe27e7f14ecf7c068d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464854"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803481"
 ---
 # <a name="set-up-the-components-of-a-job"></a>设置作业组件
 

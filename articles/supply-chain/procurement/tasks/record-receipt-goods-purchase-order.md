@@ -1,26 +1,24 @@
 ---
 title: 记录采购订单上的收货
 description: 本主题介绍如何直接在采购订单中记录收货。
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5cdf2b8624bf0319cd421ec11417695cfd4c78db
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a030de902915d25d1b309e53a2af5d8b7ec32125
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244079"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811958"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>记录采购订单上的收货
 

@@ -1,25 +1,23 @@
 ---
 title: 基于采购协议创建采购下达订单
 description: 该过程会显示在创建采购订单时，如何使用采购协议。
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4e9a0551c0755fd006fc030d2e1bf4f28efe951
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cd3f837590cd7fe09ad385d0baac6c16fcf145d0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211948"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812246"
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>基于采购协议创建采购下达订单
 

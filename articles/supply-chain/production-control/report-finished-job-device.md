@@ -2,11 +2,9 @@
 title: 从作业卡设备报告完工入库
 description: 本主题介绍如何配置系统，以让作业卡设备的用户可以将生产订单中的成品报告到库存。
 author: johanhoffmann
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7eabcb23681a9b2427fa1065b045e639cc98f9d7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bd21bdf532e1e607e66bb8f5ef032f0855c99612
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262133"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811622"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>从作业卡设备报告完工入库
 
@@ -64,7 +62,7 @@ ms.locfileid: "5262133"
 要让您的作业卡设备在报告完工入库过程中接受批号，您必须使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用以下功能（按此顺序）：
 
 1. 改进的作业卡设备中“报告进度”对话框的用户体验
-1. 允许在从作业卡设备（预览）报告为完工入库时输入批号和序列号
+1. 允许在从作业卡设备报告为完工入库时输入批号和序列号
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>配置需要报告批号的产品
 
@@ -142,7 +140,7 @@ ms.locfileid: "5262133"
 要让您的作业卡设备在报告完工入库过程中接受序列号，您必须使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用以下功能（按此顺序）：
 
 1. 改进的作业卡设备中“报告进度”对话框的用户体验
-1. 允许在从作业卡设备（预览）报告为完工入库时输入批号和序列号
+1. 允许在从作业卡设备报告为完工入库时输入批号和序列号
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>配置需要报告序列号的产品
 

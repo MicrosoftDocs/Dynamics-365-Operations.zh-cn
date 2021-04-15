@@ -2,11 +2,9 @@
 title: 维度层次结构
 description: 此主题提供有关维度层次结构的信息。 您使用维度层次结构定义成本核算中的报告结构、成本策略和安全设置。
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2a2e48b15bedd25b685686fa18a91f30b600331c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217378"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810166"
 ---
 # <a name="dimension-hierarchy"></a>维度层次结构
 
@@ -124,12 +122,13 @@ ms.locfileid: "5217378"
 
 用于报告的维度层次结构可以按此处所示进行设置。
 
-|                   | 维度成员范围   |                         |
+**维度成员范围**
+
+|   节点           |   起始维度成员   |   截止维度成员   |
 |-------------------|---------------------------|-------------------------|
-| **节点**         | **起始维度成员** | **截止维度成员** |
 | 组织      |                           |                         |
 | &nbsp;&nbsp;管理         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;财务   | CC002                     | CC003                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;财务   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;HR        | CC001                     | CC001                   |
 | &nbsp;&nbsp;生产    |                           |                         |
@@ -146,12 +145,13 @@ ms.locfileid: "5217378"
 
 用于策略的维度层次结构可以按此处所示进行设置。
 
-|                   | 维度成员范围   |                         |
+**维度成员范围**
+
+|   节点           |   起始维度成员   |   截止维度成员   |
 |-------------------|---------------------------|-------------------------|
-| **节点**         | **起始维度成员** | **截止维度成员** |
 | 成本行为     |                           |                         |
 | &nbsp;&nbsp;固定成本    | 10001                     | 10011                   |
-|&nbsp;&nbsp;可变成本 | 40001                     | 40010                   |
+| &nbsp;&nbsp;可变成本 | 40001                     | 40010                   |
 
 > [!NOTE]
 > 在 **维度成员范围** 下，一个节点可以包含 1:_n_ 个维度成员范围。 您可以插入尚未作为维度成员存在的维度成员 ID。 此方法使层次结构可以弹性地适应未来的需求。  
@@ -297,9 +297,10 @@ ms.locfileid: "5217378"
 
 新 **用户** 快速选项卡在层次结构设计器中可用。 在此处，您可以在层次结构的每个节点中插入一个或多个用户 ID。
 
-|                 | 用户            | 维度成员范围   |                         |
+**用户和维度成员范围**
+
+|   节点         |   用户 ID        |   起始维度成员   |   截止维度成员   |
 |-----------------|------------------|---------------------------|-------------------------|
-| **节点**       | **用户 ID**      | **起始维度成员** | **截止维度成员** |
 | 组织    | 本杰明，克莱尔 |                           |                         |
 | &nbsp;&nbsp;管理         | 四月            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;财务   | 艾丽西亚           | CC002                     | CC003                   |

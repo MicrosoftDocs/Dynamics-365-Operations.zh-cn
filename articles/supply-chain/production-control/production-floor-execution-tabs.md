@@ -2,11 +2,9 @@
 title: 设计生产车间执行界面
 description: 此主题介绍如何为每个配置设计用户界面内容。
 author: johanhoffmann
-manager: tfehr
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecutionConfiguration, JmgProductionFloorExecutionConfigurationTab
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 282785799b6d61a00a356fcc2ae86ff0e3b7b39f
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501022"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814672"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>设计生产车间执行界面
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 您可以为生产车间执行界面使用的每个配置设计用户界面内容。 例如，一个工作单元中的工作人员可能需要能够在生产车间打开作业说明，而在另一个工作单元，则不需要说明。 在这种情况下，应创建两个配置，一个带有打开文档附件的按钮，另一个没有此按钮。
 

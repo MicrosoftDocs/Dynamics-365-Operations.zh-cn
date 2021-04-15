@@ -2,11 +2,9 @@
 title: 资产租赁报表
 description: 本主题列出并简要描述了资产租赁中的可用报表。
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ab55d778f55c3ec96141c4f868724af1e11aed09
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 085027c5cc823beec99779791ff471dceb4ec8fe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229566"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814096"
 ---
 # <a name="asset-leasing-reports"></a>资产租赁报表
 

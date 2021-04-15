@@ -1,12 +1,10 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.17 预览（2021 年 4 月）
+title: Dynamics 365 Supply Chain Management 10.0.17 中的新增功能或更改（2021 年 4 月）
 description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.17 中的新增功能或更改的功能。
 author: kamaybac
-manager: annbe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,19 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 985879ef765bf3074387a909d508f0f93a4771ed
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 4b4e551f5c687f0021ddba0c9f5b73af528b7140
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571804"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813163"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10017-april-2021"></a>Dynamics 365 Supply Chain Management 10.0.17 预览（2021 年 4 月）
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Dynamics 365 Supply Chain Management 10.0.17 中的新增功能或更改（2021 年 4 月）
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-本主题列出了 Microsoft Dynamics 365 Supply Chain Management 预览版 10.0.17 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.761，并以下面的形式提供：
+此主题列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.17 中的新增或更改的功能。 此版本的构建版本号为 10.0.761，并以下面的形式提供：
 
 - **版本预览：** 2021 年 2 月
 - **版本的正式发布时间（自行更新）：** 2021 年 3 月
@@ -36,9 +33,9 @@ ms.locfileid: "5571804"
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
-此版本中包含以下功能。 某些列出的功能仍处于预览状态，而其他功能可能已正式发布。 单击[发布计划](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features)链接以查看每个功能的正式发布日期。
+此版本中包含以下功能。  单击[发布计划](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features)链接以查看每个功能的正式发布日期。
 
-这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
+这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。 虽然大多数功能现在已正式发布，但某些列出的功能仍处于预览状态。
 
 ### <a name="asset-management"></a>资产管理
 
@@ -68,9 +65,13 @@ ms.locfileid: "5571804"
 
 - [仓库管理移动应用程序](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - 有关详细信息，请参阅[安装和连接仓库管理应用](../warehousing/install-configure-warehouse-management-app.md)和[移动设备用户设置](../warehousing/mobile-device-user-settings.md)。
 
+- 波次执行通知<br> - 有关详细信息，请参阅[波次执行通知](../warehousing/wave-execution-notifications.md)
+
 ### <a name="manufacturing"></a>制造
 
-- [生产车间执行界面中的资产管理功能](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - 有关详细信息，请参阅[工作人员如何使用生产车间执行界面](../production-control/production-floor-execution-use.md)。
+- [生产车间执行界面中的资产管理功能](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - 有关详细信息，请参阅[配置生产车间执行界面](../production-control/production-floor-execution-configure.md)。
+
+- 统一作业 ID 编号规则<br> - 有关详细信息，请参阅 
 
 - [覆盖生产中物料的默认预留原则](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - 有关详细信息，请参阅[替代生产中的默认材料预留原则](../production-control/override-default-reservation-principle.md)。
 

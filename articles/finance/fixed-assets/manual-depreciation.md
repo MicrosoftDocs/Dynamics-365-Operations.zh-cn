@@ -2,11 +2,9 @@
 title: 手动折旧
 description: 本文提供手动折旧法的概览。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7187290b51a0fd526bd0f4cbad9b479cd46ec31
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0bb8d739f3c6c8315ba8f135e7a71075f34f32f1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256755"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815636"
 ---
 # <a name="manual-depreciation"></a>手动折旧
 

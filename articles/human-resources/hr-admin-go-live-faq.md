@@ -2,11 +2,9 @@
 title: 实施常见问题
 description: 本主题列出了有关如何实行 Dynamics 365 Human Resources 实施项目的常见问题。
 author: rachel-profitt
-manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d667d94983d5c8f8e6140259922396d4299a15e3
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4a06da220fd90de91fb9091c41f35a1fb95442c3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467570"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804009"
 ---
 # <a name="go-live-faq"></a>实施常见问题 
 

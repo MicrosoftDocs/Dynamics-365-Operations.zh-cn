@@ -2,11 +2,9 @@
 title: 服务间隔
 description: 服务间隔指示在您创建服务订单时为服务协议行创建服务订单行所采用的频率。
 author: ShylaThompson
-manager: tfehr
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da43f914af75a7f85dc43d3ab1d16abcd82561c1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d8a186a4ac58115f3ff855e0a16429dc0778a18c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242977"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816380"
 ---
 # <a name="service-intervals"></a>服务间隔
 

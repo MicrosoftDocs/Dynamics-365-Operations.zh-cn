@@ -2,11 +2,9 @@
 title: 创建预定义的产品变型
 description: 此过程全面介绍如何使用产品维度的组合创建基础产品的产品变型。
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c33bbc7fa0ef7c3ce9768dd3688f9d1d575a513e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8340d295ffd072c95d9b174507ef4203131c8165
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259858"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809342"
 ---
 # <a name="create-predefined-product-variants"></a>创建预定义的产品变型
 

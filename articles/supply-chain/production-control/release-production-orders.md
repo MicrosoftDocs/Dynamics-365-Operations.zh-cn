@@ -2,11 +2,9 @@
 title: 下达生产订单
 description: 下达的生产订单是已授权进行生产的订单。 “已下达”一词用于描述生产订单生命周期中的状态，在其中，生产订单可用于生产车间和仓库流程的执行。
 author: johanhoffmann
-manager: tfehr
 ms.date: 03/02/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdParmRelease
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ee20983209b9900037a46d56b6213d47bf852e4
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 118b0d6300647135b22e42cc84a79f07e48d7ef4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487691"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811694"
 ---
 # <a name="release-production-orders"></a>下达生产订单
 
