@@ -2,11 +2,9 @@
 title: 根据 URL 参数创建动态电子商务页面
 description: 本主题介绍如何基于 URL 参数设置可以提供动态内容的 Microsoft Dynamics 365 Commerce 电子商务页面。
 author: StuHarg
-manager: AnnBe
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ROBOTS: ''
 audience: Application user
@@ -17,85 +15,84 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8d6b4756fc81dc99786da251d5d9a575a71ccc49
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8f59b80880e6947e1b45c110df0e78d4bdd57c5d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208007"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795803"
 ---
-# <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a><span data-ttu-id="d3e41-103">根据 URL 参数创建动态电子商务页面</span><span class="sxs-lookup"><span data-stu-id="d3e41-103">Create dynamic e-commerce pages based on URL parameters</span></span>
+# <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a><span data-ttu-id="2ea6b-103">根据 URL 参数创建动态电子商务页面</span><span class="sxs-lookup"><span data-stu-id="2ea6b-103">Create dynamic e-commerce pages based on URL parameters</span></span>
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
-<span data-ttu-id="d3e41-104">本主题介绍如何基于 URL 参数设置可以提供动态内容的 Microsoft Dynamics 365 Commerce 电子商务页面。</span><span class="sxs-lookup"><span data-stu-id="d3e41-104">This topic describes how to set up a Microsoft Dynamics 365 Commerce e-commerce page that can serve dynamic content, based on URL parameters.</span></span>
+<span data-ttu-id="2ea6b-104">本主题介绍如何基于 URL 参数设置可以提供动态内容的 Microsoft Dynamics 365 Commerce 电子商务页面。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-104">This topic describes how to set up a Microsoft Dynamics 365 Commerce e-commerce page that can serve dynamic content, based on URL parameters.</span></span>
 
-<span data-ttu-id="d3e41-105">可以基于 URL 路径中的段将电子商务页面配置为提供不同的内容。</span><span class="sxs-lookup"><span data-stu-id="d3e41-105">An e-commerce page can be configured to serve different content, based on a segment in the URL path.</span></span> <span data-ttu-id="d3e41-106">因此，该页面称为动态页面。</span><span class="sxs-lookup"><span data-stu-id="d3e41-106">Therefore, the page is known as a dynamic page.</span></span> <span data-ttu-id="d3e41-107">段用作检索页面内容的参数。</span><span class="sxs-lookup"><span data-stu-id="d3e41-107">The segment is used as a parameter to retrieve the page content.</span></span> <span data-ttu-id="d3e41-108">例如，创建了一个名为 **blog\_viewer** 的页面，并将其与 URL `https://fabrikam.com/blog` 关联。</span><span class="sxs-lookup"><span data-stu-id="d3e41-108">For example, a page that is named **blog\_viewer** is created and associated with the URL `https://fabrikam.com/blog`.</span></span> <span data-ttu-id="d3e41-109">然后可以基于 URL 路径中的最后一个段使用此页面来显示不同的内容。</span><span class="sxs-lookup"><span data-stu-id="d3e41-109">This page can then be used to show different content, based on the last segment in the URL path.</span></span> <span data-ttu-id="d3e41-110">例如，URL `https://fabrikam.com/blog/article-1` 中的最后一个段是 **article-1**。</span><span class="sxs-lookup"><span data-stu-id="d3e41-110">For example, the last segment in the URL `https://fabrikam.com/blog/article-1` is **article-1**.</span></span>
+<span data-ttu-id="2ea6b-105">可以基于 URL 路径中的段将电子商务页面配置为提供不同的内容。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-105">An e-commerce page can be configured to serve different content, based on a segment in the URL path.</span></span> <span data-ttu-id="2ea6b-106">因此，该页面称为动态页面。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-106">Therefore, the page is known as a dynamic page.</span></span> <span data-ttu-id="2ea6b-107">段用作检索页面内容的参数。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-107">The segment is used as a parameter to retrieve the page content.</span></span> <span data-ttu-id="2ea6b-108">例如，创建了一个名为 **blog\_viewer** 的页面，并将其与 URL `https://fabrikam.com/blog` 关联。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-108">For example, a page that is named **blog\_viewer** is created and associated with the URL `https://fabrikam.com/blog`.</span></span> <span data-ttu-id="2ea6b-109">然后可以基于 URL 路径中的最后一个段使用此页面来显示不同的内容。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-109">This page can then be used to show different content, based on the last segment in the URL path.</span></span> <span data-ttu-id="2ea6b-110">例如，URL `https://fabrikam.com/blog/article-1` 中的最后一个段是 **article-1**。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-110">For example, the last segment in the URL `https://fabrikam.com/blog/article-1` is **article-1**.</span></span>
 
-<span data-ttu-id="d3e41-111">替代动态页面的单独的自定义页面也可以与 URL 路径中的段相关联。</span><span class="sxs-lookup"><span data-stu-id="d3e41-111">Separate custom pages that override the dynamic page can also be associated with segments in the URL path.</span></span> <span data-ttu-id="d3e41-112">例如，创建了一个名为 **blog\_summary** 的页面，并将其与 URL `https://fabrikam.com/blog/about-this-blog` 关联。</span><span class="sxs-lookup"><span data-stu-id="d3e41-112">For example, a page that is named **blog\_summary** is created and associated with the URL `https://fabrikam.com/blog/about-this-blog`.</span></span> <span data-ttu-id="d3e41-113">当请求此 URL 时，将返回与 **/about-this-blog** 参数关联的 **blog\_summary** 页面，而不是 **blog\_viewer** 页面。</span><span class="sxs-lookup"><span data-stu-id="d3e41-113">When this URL is requested, the **blog\_summary** page that is associated with the **/about-this-blog** parameter is returned instead of the **blog\_viewer** page.</span></span>
+<span data-ttu-id="2ea6b-111">替代动态页面的单独的自定义页面也可以与 URL 路径中的段相关联。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-111">Separate custom pages that override the dynamic page can also be associated with segments in the URL path.</span></span> <span data-ttu-id="2ea6b-112">例如，创建了一个名为 **blog\_summary** 的页面，并将其与 URL `https://fabrikam.com/blog/about-this-blog` 关联。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-112">For example, a page that is named **blog\_summary** is created and associated with the URL `https://fabrikam.com/blog/about-this-blog`.</span></span> <span data-ttu-id="2ea6b-113">当请求此 URL 时，将返回与 **/about-this-blog** 参数关联的 **blog\_summary** 页面，而不是 **blog\_viewer** 页面。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-113">When this URL is requested, the **blog\_summary** page that is associated with the **/about-this-blog** parameter is returned instead of the **blog\_viewer** page.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="d3e41-114">托管、检索和显示动态页面内容的功能通过使用自定义模块实现。</span><span class="sxs-lookup"><span data-stu-id="d3e41-114">The functionality for hosting, retrieving, and showing dynamic page content is implemented by using a custom module.</span></span> <span data-ttu-id="d3e41-115">有关详细信息，请参阅[在线渠道可扩展性](e-commerce-extensibility/overview.md)。</span><span class="sxs-lookup"><span data-stu-id="d3e41-115">For more information, see [Online channel extensibility](e-commerce-extensibility/overview.md).</span></span>
+> <span data-ttu-id="2ea6b-114">托管、检索和显示动态页面内容的功能通过使用自定义模块实现。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-114">The functionality for hosting, retrieving, and showing dynamic page content is implemented by using a custom module.</span></span> <span data-ttu-id="2ea6b-115">有关详细信息，请参阅[在线渠道可扩展性](e-commerce-extensibility/overview.md)。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-115">For more information, see [Online channel extensibility](e-commerce-extensibility/overview.md).</span></span>
 
-## <a name="set-up-a-dynamic-e-commerce-page"></a><span data-ttu-id="d3e41-116">设置动态电子商务页面</span><span class="sxs-lookup"><span data-stu-id="d3e41-116">Set up a dynamic e-commerce page</span></span>
+## <a name="set-up-a-dynamic-e-commerce-page"></a><span data-ttu-id="2ea6b-116">设置动态电子商务页面</span><span class="sxs-lookup"><span data-stu-id="2ea6b-116">Set up a dynamic e-commerce page</span></span>
 
-<span data-ttu-id="d3e41-117">要设置动态电子商务页面，必须创建动态页面，创建基本 URL，并配置到达动态页面的路由。</span><span class="sxs-lookup"><span data-stu-id="d3e41-117">To set up a dynamic e-commerce page, you must create the dynamic page, create the base URL, and configure the route to the dynamic page.</span></span>
+<span data-ttu-id="2ea6b-117">要设置动态电子商务页面，必须创建动态页面，创建基本 URL，并配置到达动态页面的路由。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-117">To set up a dynamic e-commerce page, you must create the dynamic page, create the base URL, and configure the route to the dynamic page.</span></span>
 
-### <a name="create-the-page-that-will-serve-dynamic-content"></a><span data-ttu-id="d3e41-118">创建将提供动态内容的页面</span><span class="sxs-lookup"><span data-stu-id="d3e41-118">Create the page that will serve dynamic content</span></span>
+### <a name="create-the-page-that-will-serve-dynamic-content"></a><span data-ttu-id="2ea6b-118">创建将提供动态内容的页面</span><span class="sxs-lookup"><span data-stu-id="2ea6b-118">Create the page that will serve dynamic content</span></span>
 
-<span data-ttu-id="d3e41-119">要创建将提供动态内容的页面，请按照[添加新的站点页面](add-new-page.md)中的步骤操作。</span><span class="sxs-lookup"><span data-stu-id="d3e41-119">To create a page that will serve dynamic content, follow the steps in [Add a new site page](add-new-page.md).</span></span> <span data-ttu-id="d3e41-120">您创建的页面将需要实现一个模块，该模块使用 URL 路径中的最后一个段来从外部数据源检索内容。</span><span class="sxs-lookup"><span data-stu-id="d3e41-120">The page that you create will require implementation of a module that uses the last segment in the URL path to retrieve content from an external data source.</span></span> <span data-ttu-id="d3e41-121">有关自定义模块开发的详细信息，请参阅[在线渠道可扩展性](e-commerce-extensibility/overview.md)。</span><span class="sxs-lookup"><span data-stu-id="d3e41-121">For more information about custom module development, see [Online channel extensibility](e-commerce-extensibility/overview.md).</span></span>
+<span data-ttu-id="2ea6b-119">要创建将提供动态内容的页面，请按照[添加新的站点页面](add-new-page.md)中的步骤操作。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-119">To create a page that will serve dynamic content, follow the steps in [Add a new site page](add-new-page.md).</span></span> <span data-ttu-id="2ea6b-120">您创建的页面将需要实现一个模块，该模块使用 URL 路径中的最后一个段来从外部数据源检索内容。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-120">The page that you create will require implementation of a module that uses the last segment in the URL path to retrieve content from an external data source.</span></span> <span data-ttu-id="2ea6b-121">有关自定义模块开发的详细信息，请参阅[在线渠道可扩展性](e-commerce-extensibility/overview.md)。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-121">For more information about custom module development, see [Online channel extensibility](e-commerce-extensibility/overview.md).</span></span>
 
-### <a name="create-the-base-url-for-the-dynamic-page"></a><span data-ttu-id="d3e41-122">创建动态页面的基本 URL</span><span class="sxs-lookup"><span data-stu-id="d3e41-122">Create the base URL for the dynamic page</span></span>
+### <a name="create-the-base-url-for-the-dynamic-page"></a><span data-ttu-id="2ea6b-122">创建动态页面的基本 URL</span><span class="sxs-lookup"><span data-stu-id="2ea6b-122">Create the base URL for the dynamic page</span></span>
 
-<span data-ttu-id="d3e41-123">要在 Commerce 站点构建器中为动态页面创建基本 URL，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="d3e41-123">To create the base URL for the dynamic page in Commerce site builder, follow these steps.</span></span>
+<span data-ttu-id="2ea6b-123">要在 Commerce 站点构建器中为动态页面创建基本 URL，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-123">To create the base URL for the dynamic page in Commerce site builder, follow these steps.</span></span>
 
-1. <span data-ttu-id="d3e41-124">转到 **URL**，选择 **新建 \> 新建 URL**。</span><span class="sxs-lookup"><span data-stu-id="d3e41-124">Go to **URLs**, and select **New \> New URL**.</span></span>
-1. <span data-ttu-id="d3e41-125">在 **创建新 URL** 对话框中，选择 **内部页面**。</span><span class="sxs-lookup"><span data-stu-id="d3e41-125">In the **Create new URL** dialog box, select **Internal page**.</span></span> <span data-ttu-id="d3e41-126">在 **URL 路径** 下，输入将用作动态页面根目录的路径（在此示例中为 **/blog**）。</span><span class="sxs-lookup"><span data-stu-id="d3e41-126">Under **URL path**, enter the path that will serve as the root for the dynamic page (in this example, **/blog**).</span></span> <span data-ttu-id="d3e41-127">然后选择 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="d3e41-127">Then select **Next**.</span></span>
-1. <span data-ttu-id="d3e41-128">在 **选择页面** 对话框中，选择您创建的要用作动态页面的页面，然后选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="d3e41-128">In the **Select a page** dialog box, select the page that you created to serve as the dynamic page, and then select **Save**.</span></span>
-1. <span data-ttu-id="d3e41-129">选择 **发布**。</span><span class="sxs-lookup"><span data-stu-id="d3e41-129">Select **Publish**.</span></span>
+1. <span data-ttu-id="2ea6b-124">转到 **URL**，选择 **新建 \> 新建 URL**。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-124">Go to **URLs**, and select **New \> New URL**.</span></span>
+1. <span data-ttu-id="2ea6b-125">在 **创建新 URL** 对话框中，选择 **内部页面**。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-125">In the **Create new URL** dialog box, select **Internal page**.</span></span> <span data-ttu-id="2ea6b-126">在 **URL 路径** 下，输入将用作动态页面根目录的路径（在此示例中为 **/blog**）。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-126">Under **URL path**, enter the path that will serve as the root for the dynamic page (in this example, **/blog**).</span></span> <span data-ttu-id="2ea6b-127">然后选择 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-127">Then select **Next**.</span></span>
+1. <span data-ttu-id="2ea6b-128">在 **选择页面** 对话框中，选择您创建的要用作动态页面的页面，然后选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-128">In the **Select a page** dialog box, select the page that you created to serve as the dynamic page, and then select **Save**.</span></span>
+1. <span data-ttu-id="2ea6b-129">选择 **发布**。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-129">Select **Publish**.</span></span>
 
-### <a name="configure-the-route-to-the-dynamic-page"></a><span data-ttu-id="d3e41-130">配置到达动态页面的路由</span><span class="sxs-lookup"><span data-stu-id="d3e41-130">Configure the route to the dynamic page</span></span>
+### <a name="configure-the-route-to-the-dynamic-page"></a><span data-ttu-id="2ea6b-130">配置到达动态页面的路由</span><span class="sxs-lookup"><span data-stu-id="2ea6b-130">Configure the route to the dynamic page</span></span>
 
-<span data-ttu-id="d3e41-131">要在 Commerce 站点构建器中配置到达动态页面的路由，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="d3e41-131">To configure the route to the dynamic page in Commerce site builder, follow these steps.</span></span>
+<span data-ttu-id="2ea6b-131">要在 Commerce 站点构建器中配置到达动态页面的路由，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-131">To configure the route to the dynamic page in Commerce site builder, follow these steps.</span></span>
 
-1. <span data-ttu-id="d3e41-132">转到 **站点设置 \> 扩展**。</span><span class="sxs-lookup"><span data-stu-id="d3e41-132">Go to **Site Settings \> Extensions**.</span></span>
-1. <span data-ttu-id="d3e41-133">在 **参数化 URL 路径** 下，选择 **添加**，然后输入您在创建 URL 时输入的 URL 路径（在本示例中为 **/blog**）。</span><span class="sxs-lookup"><span data-stu-id="d3e41-133">Under **Parameterized URL paths**, select **Add**, and then enter the URL path that you entered when you created the URL (in this example, **/blog**).</span></span>
-1. <span data-ttu-id="d3e41-134">选择 **保存并发布**。</span><span class="sxs-lookup"><span data-stu-id="d3e41-134">Select **Save and publish**.</span></span>
+1. <span data-ttu-id="2ea6b-132">转到 **站点设置 \> 扩展**。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-132">Go to **Site Settings \> Extensions**.</span></span>
+1. <span data-ttu-id="2ea6b-133">在 **参数化 URL 路径** 下，选择 **添加**，然后输入您在创建 URL 时输入的 URL 路径（在本示例中为 **/blog**）。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-133">Under **Parameterized URL paths**, select **Add**, and then enter the URL path that you entered when you created the URL (in this example, **/blog**).</span></span>
+1. <span data-ttu-id="2ea6b-134">选择 **保存并发布**。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-134">Select **Save and publish**.</span></span>
 
-<span data-ttu-id="d3e41-135">配置路由后，对参数化 URL 路径的所有请求都将返回与该 URL 关联的页面。</span><span class="sxs-lookup"><span data-stu-id="d3e41-135">After the route is configured, all requests to the parameterized URL path will return the page that is associated with that URL.</span></span> <span data-ttu-id="d3e41-136">如果任何请求包含附加段，将返回关联的页面，并将该段用作参数来检索页面内容。</span><span class="sxs-lookup"><span data-stu-id="d3e41-136">If any requests contain an additional segment, the associated page will be returned, and the page content will be retrieved by using the segment as a parameter.</span></span> <span data-ttu-id="d3e41-137">例如，`https://fabrikam.com/blog/article-1` 将返回 **blog\_summary** 页面，页面内容将使用 **/article-1** 参数进行检索。</span><span class="sxs-lookup"><span data-stu-id="d3e41-137">For example, `https://fabrikam.com/blog/article-1` will return the **blog\_summary** page, and the page content will be retrieved by using the **/article-1** parameter.</span></span>
+<span data-ttu-id="2ea6b-135">配置路由后，对参数化 URL 路径的所有请求都将返回与该 URL 关联的页面。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-135">After the route is configured, all requests to the parameterized URL path will return the page that is associated with that URL.</span></span> <span data-ttu-id="2ea6b-136">如果任何请求包含附加段，将返回关联的页面，并将该段用作参数来检索页面内容。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-136">If any requests contain an additional segment, the associated page will be returned, and the page content will be retrieved by using the segment as a parameter.</span></span> <span data-ttu-id="2ea6b-137">例如，`https://fabrikam.com/blog/article-1` 将返回 **blog\_summary** 页面，页面内容将使用 **/article-1** 参数进行检索。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-137">For example, `https://fabrikam.com/blog/article-1` will return the **blog\_summary** page, and the page content will be retrieved by using the **/article-1** parameter.</span></span>
 
-## <a name="override-a-parameterized-url-with-a-custom-page"></a><span data-ttu-id="d3e41-138">使用自定义页面替代参数化 URL</span><span class="sxs-lookup"><span data-stu-id="d3e41-138">Override a parameterized URL with a custom page</span></span>
+## <a name="override-a-parameterized-url-with-a-custom-page"></a><span data-ttu-id="2ea6b-138">使用自定义页面替代参数化 URL</span><span class="sxs-lookup"><span data-stu-id="2ea6b-138">Override a parameterized URL with a custom page</span></span>
 
-<span data-ttu-id="d3e41-139">要在 Commerce 站点构建器中使用自定义页面替代参数化 URL，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="d3e41-139">To override a parameterized URL with a custom page in Commerce site builder, follow these steps.</span></span>
+<span data-ttu-id="2ea6b-139">要在 Commerce 站点构建器中使用自定义页面替代参数化 URL，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-139">To override a parameterized URL with a custom page in Commerce site builder, follow these steps.</span></span>
 
-1. <span data-ttu-id="d3e41-140">转到 **URL**，选择 **新建 \> 新建 URL**。</span><span class="sxs-lookup"><span data-stu-id="d3e41-140">Go to **URLs**, and select **New \> New URL**.</span></span>
-1. <span data-ttu-id="d3e41-141">在 **创建新 URL** 对话框中，选择 **内部页面**。</span><span class="sxs-lookup"><span data-stu-id="d3e41-141">In the **Create new URL** dialog box, select **Internal page**.</span></span> <span data-ttu-id="d3e41-142">在 **URL 路径** 下，输入包含要替代的段的路径（在此示例中为 **/blog/about-this-blog**）。</span><span class="sxs-lookup"><span data-stu-id="d3e41-142">Under **URL path**, enter the path that includes the segment to override (in this example, **/blog/about-this-blog**).</span></span> <span data-ttu-id="d3e41-143">然后选择 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="d3e41-143">Then select **Next**.</span></span>
-1. <span data-ttu-id="d3e41-144">在 **选择页面** 对话框中，选择自定义页面，然后选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="d3e41-144">In the **Select a page** dialog box, select the custom page, and then select **Save**.</span></span>
-1. <span data-ttu-id="d3e41-145">选择 **发布**。</span><span class="sxs-lookup"><span data-stu-id="d3e41-145">Select **Publish**.</span></span>
-1. <span data-ttu-id="d3e41-146">如果自定义页面尚未发布，转到 **页面**，选择自定义页面，然后选择 **发布**。</span><span class="sxs-lookup"><span data-stu-id="d3e41-146">If the custom page hasn't yet been published, go to **Pages**, select the custom page, and then select **Publish**.</span></span>
+1. <span data-ttu-id="2ea6b-140">转到 **URL**，选择 **新建 \> 新建 URL**。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-140">Go to **URLs**, and select **New \> New URL**.</span></span>
+1. <span data-ttu-id="2ea6b-141">在 **创建新 URL** 对话框中，选择 **内部页面**。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-141">In the **Create new URL** dialog box, select **Internal page**.</span></span> <span data-ttu-id="2ea6b-142">在 **URL 路径** 下，输入包含要替代的段的路径（在此示例中为 **/blog/about-this-blog**）。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-142">Under **URL path**, enter the path that includes the segment to override (in this example, **/blog/about-this-blog**).</span></span> <span data-ttu-id="2ea6b-143">然后选择 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-143">Then select **Next**.</span></span>
+1. <span data-ttu-id="2ea6b-144">在 **选择页面** 对话框中，选择自定义页面，然后选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-144">In the **Select a page** dialog box, select the custom page, and then select **Save**.</span></span>
+1. <span data-ttu-id="2ea6b-145">选择 **发布**。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-145">Select **Publish**.</span></span>
+1. <span data-ttu-id="2ea6b-146">如果自定义页面尚未发布，转到 **页面**，选择自定义页面，然后选择 **发布**。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-146">If the custom page hasn't yet been published, go to **Pages**, select the custom page, and then select **Publish**.</span></span>
 
-<span data-ttu-id="d3e41-147">自定义页面发布后，将提供该页面，而不是包含参数化内容的动态页面。</span><span class="sxs-lookup"><span data-stu-id="d3e41-147">After the custom page is published, it will be served instead of the dynamic page that has parameterized content.</span></span>
+<span data-ttu-id="2ea6b-147">自定义页面发布后，将提供该页面，而不是包含参数化内容的动态页面。</span><span class="sxs-lookup"><span data-stu-id="2ea6b-147">After the custom page is published, it will be served instead of the dynamic page that has parameterized content.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="d3e41-148">其他资源</span><span class="sxs-lookup"><span data-stu-id="d3e41-148">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="2ea6b-148">其他资源</span><span class="sxs-lookup"><span data-stu-id="2ea6b-148">Additional resources</span></span>
 
-[<span data-ttu-id="d3e41-149">修改现有的站点页面</span><span class="sxs-lookup"><span data-stu-id="d3e41-149">Modify an existing site page</span></span>](modify-existing-page.md)
+[<span data-ttu-id="2ea6b-149">修改现有的站点页面</span><span class="sxs-lookup"><span data-stu-id="2ea6b-149">Modify an existing site page</span></span>](modify-existing-page.md)
 
-[<span data-ttu-id="d3e41-150">添加新的站点页面</span><span class="sxs-lookup"><span data-stu-id="d3e41-150">Add a new site page</span></span>](add-new-page.md)
+[<span data-ttu-id="2ea6b-150">添加新的站点页面</span><span class="sxs-lookup"><span data-stu-id="2ea6b-150">Add a new site page</span></span>](add-new-page.md)
 
-[<span data-ttu-id="d3e41-151">选择页面布局</span><span class="sxs-lookup"><span data-stu-id="d3e41-151">Select page layouts</span></span>](select-page-layouts.md)
+[<span data-ttu-id="2ea6b-151">选择页面布局</span><span class="sxs-lookup"><span data-stu-id="2ea6b-151">Select page layouts</span></span>](select-page-layouts.md)
 
-[<span data-ttu-id="d3e41-152">管理 SEO 元数据</span><span class="sxs-lookup"><span data-stu-id="d3e41-152">Manage SEO metadata</span></span>](manage-seo-metadata.md)
+[<span data-ttu-id="2ea6b-152">管理 SEO 元数据</span><span class="sxs-lookup"><span data-stu-id="2ea6b-152">Manage SEO metadata</span></span>](manage-seo-metadata.md)
 
-[<span data-ttu-id="d3e41-153">保存、预览和发布页面</span><span class="sxs-lookup"><span data-stu-id="d3e41-153">Save, preview, and publish a page</span></span>](save-preview-publish-page.md)
+[<span data-ttu-id="2ea6b-153">保存、预览和发布页面</span><span class="sxs-lookup"><span data-stu-id="2ea6b-153">Save, preview, and publish a page</span></span>](save-preview-publish-page.md)
 
-[<span data-ttu-id="d3e41-154">丰富产品页面</span><span class="sxs-lookup"><span data-stu-id="d3e41-154">Enrich a product page</span></span>](enrich-product-page.md)
+[<span data-ttu-id="2ea6b-154">丰富产品页面</span><span class="sxs-lookup"><span data-stu-id="2ea6b-154">Enrich a product page</span></span>](enrich-product-page.md)
 
-[<span data-ttu-id="d3e41-155">丰富类别登陆页面</span><span class="sxs-lookup"><span data-stu-id="d3e41-155">Enrich a category landing page</span></span>](enrich-category-page.md)
+[<span data-ttu-id="2ea6b-155">丰富类别登陆页面</span><span class="sxs-lookup"><span data-stu-id="2ea6b-155">Enrich a category landing page</span></span>](enrich-category-page.md)
 
-[<span data-ttu-id="d3e41-156">验证页面内容的可访问性</span><span class="sxs-lookup"><span data-stu-id="d3e41-156">Verify page content accessibility</span></span>](verify-accessibility.md)
+[<span data-ttu-id="2ea6b-156">验证页面内容的可访问性</span><span class="sxs-lookup"><span data-stu-id="2ea6b-156">Verify page content accessibility</span></span>](verify-accessibility.md)
 
-[<span data-ttu-id="d3e41-157">在线渠道可扩展性</span><span class="sxs-lookup"><span data-stu-id="d3e41-157">Online channel extensibility</span></span>](e-commerce-extensibility/overview.md)
+[<span data-ttu-id="2ea6b-157">在线渠道可扩展性</span><span class="sxs-lookup"><span data-stu-id="2ea6b-157">Online channel extensibility</span></span>](e-commerce-extensibility/overview.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

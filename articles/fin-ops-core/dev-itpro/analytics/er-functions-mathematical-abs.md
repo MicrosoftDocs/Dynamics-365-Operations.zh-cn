@@ -2,7 +2,6 @@
 title: ABS ER 函数
 description: 本主题提供有关 ABS 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
@@ -16,44 +15,44 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12165174806395b3c36a1dbb227ed7a86def77b1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2a3613483d53fb265741b5d6a34a91da443dcef7
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565776"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753136"
 ---
-# <a name="abs-er-function"></a><span data-ttu-id="06399-103">ABS ER 函数</span><span class="sxs-lookup"><span data-stu-id="06399-103">ABS ER function</span></span>
+# <a name="abs-er-function"></a><span data-ttu-id="97cfb-103">ABS ER 函数</span><span class="sxs-lookup"><span data-stu-id="97cfb-103">ABS ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="06399-104">`ABS` 函数作为 *实数* 值返回指定数字的绝对值（模数）。</span><span class="sxs-lookup"><span data-stu-id="06399-104">The `ABS` function returns the absolute value (modulus) of the specified number as a *Real* value.</span></span> <span data-ttu-id="06399-105">即，返回不带符号的数字。</span><span class="sxs-lookup"><span data-stu-id="06399-105">In other words, it returns the number without its sign.</span></span>
+<span data-ttu-id="97cfb-104">`ABS` 函数作为 *实数* 值返回指定数字的绝对值（模数）。</span><span class="sxs-lookup"><span data-stu-id="97cfb-104">The `ABS` function returns the absolute value (modulus) of the specified number as a *Real* value.</span></span> <span data-ttu-id="97cfb-105">即，返回不带符号的数字。</span><span class="sxs-lookup"><span data-stu-id="97cfb-105">In other words, it returns the number without its sign.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="06399-106">语法</span><span class="sxs-lookup"><span data-stu-id="06399-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="97cfb-106">语法</span><span class="sxs-lookup"><span data-stu-id="97cfb-106">Syntax</span></span>
 
 ```vb
 ABS (number)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="06399-107">参数</span><span class="sxs-lookup"><span data-stu-id="06399-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="97cfb-107">参数</span><span class="sxs-lookup"><span data-stu-id="97cfb-107">Arguments</span></span>
 
-<span data-ttu-id="06399-108">`number`：*实数*</span><span class="sxs-lookup"><span data-stu-id="06399-108">`number`: *Real*</span></span>
+<span data-ttu-id="97cfb-108">`number`：*实数*</span><span class="sxs-lookup"><span data-stu-id="97cfb-108">`number`: *Real*</span></span>
 
-<span data-ttu-id="06399-109">您想要的模数的数值。</span><span class="sxs-lookup"><span data-stu-id="06399-109">A numeric value that you want the modulus of.</span></span>
+<span data-ttu-id="97cfb-109">您想要的模数的数值。</span><span class="sxs-lookup"><span data-stu-id="97cfb-109">A numeric value that you want the modulus of.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="06399-110">返回值</span><span class="sxs-lookup"><span data-stu-id="06399-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="97cfb-110">返回值</span><span class="sxs-lookup"><span data-stu-id="97cfb-110">Return values</span></span>
 
-<span data-ttu-id="06399-111">*实数*</span><span class="sxs-lookup"><span data-stu-id="06399-111">*Real*</span></span>
+<span data-ttu-id="97cfb-111">*实数*</span><span class="sxs-lookup"><span data-stu-id="97cfb-111">*Real*</span></span>
 
-<span data-ttu-id="06399-112">生成的数字值。</span><span class="sxs-lookup"><span data-stu-id="06399-112">The resulting numeric value.</span></span>
+<span data-ttu-id="97cfb-112">生成的数字值。</span><span class="sxs-lookup"><span data-stu-id="97cfb-112">The resulting numeric value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="06399-113">示例</span><span class="sxs-lookup"><span data-stu-id="06399-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="97cfb-113">示例</span><span class="sxs-lookup"><span data-stu-id="97cfb-113">Example</span></span>
 
-<span data-ttu-id="06399-114">`ABS (-1)` 将返回 **1**。</span><span class="sxs-lookup"><span data-stu-id="06399-114">`ABS (-1)` returns **1**.</span></span>
+<span data-ttu-id="97cfb-114">`ABS (-1)` 将返回 **1**。</span><span class="sxs-lookup"><span data-stu-id="97cfb-114">`ABS (-1)` returns **1**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="06399-115">其他资源</span><span class="sxs-lookup"><span data-stu-id="06399-115">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="97cfb-115">其他资源</span><span class="sxs-lookup"><span data-stu-id="97cfb-115">Additional resources</span></span>
 
-[<span data-ttu-id="06399-116">数学函数</span><span class="sxs-lookup"><span data-stu-id="06399-116">Mathematical functions</span></span>](er-functions-category-mathematical.md)
+[<span data-ttu-id="97cfb-116">数学函数</span><span class="sxs-lookup"><span data-stu-id="97cfb-116">Mathematical functions</span></span>](er-functions-category-mathematical.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

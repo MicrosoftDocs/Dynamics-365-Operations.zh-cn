@@ -2,7 +2,6 @@
 title: 为生成文档指定自定义存储位置
 description: 本主题介绍如何扩展电子申报 (ER) 格式生成的单据的存储位置列表。
 author: NickSelin
-manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
@@ -13,53 +12,53 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 146e7fb5fefbecabc99c2978b52eb0e782da0322
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 25719de3d86785442e00f7375de525b95bdb094d
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562206"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753688"
 ---
-# <a name="specify-custom-storage-locations-for-generated-documents"></a><span data-ttu-id="27072-103">为生成文档指定自定义存储位置</span><span class="sxs-lookup"><span data-stu-id="27072-103">Specify custom storage locations for generated documents</span></span>
+# <a name="specify-custom-storage-locations-for-generated-documents"></a><span data-ttu-id="2b80d-103">为生成文档指定自定义存储位置</span><span class="sxs-lookup"><span data-stu-id="2b80d-103">Specify custom storage locations for generated documents</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="27072-104">电子申报 (ER) 框架的应用程序编程接口 (API) 可用于扩展 ER 格式生成的单据的存储位置列表。</span><span class="sxs-lookup"><span data-stu-id="27072-104">The application programming interface (API) of the Electronic reporting (ER) framework lets you extend the list of storage locations for documents that ER formats generate.</span></span> <span data-ttu-id="27072-105">本主题说明如何通过将创建 ER 目标的任务委托给默认目标工厂，然后实现具有自己的目标逻辑的自定义类，来为生成的文档添加自定义存储位置。</span><span class="sxs-lookup"><span data-stu-id="27072-105">This topic explains how to add a custom storage location for generated documents by delegating the task of creating ER destinations to the default destination factory and then implementing a custom class that has its own destination logic.</span></span>
+<span data-ttu-id="2b80d-104">电子申报 (ER) 框架的应用程序编程接口 (API) 可用于扩展 ER 格式生成的单据的存储位置列表。</span><span class="sxs-lookup"><span data-stu-id="2b80d-104">The application programming interface (API) of the Electronic reporting (ER) framework lets you extend the list of storage locations for documents that ER formats generate.</span></span> <span data-ttu-id="2b80d-105">本主题说明如何通过将创建 ER 目标的任务委托给默认目标工厂，然后实现具有自己的目标逻辑的自定义类，来为生成的文档添加自定义存储位置。</span><span class="sxs-lookup"><span data-stu-id="2b80d-105">This topic explains how to add a custom storage location for generated documents by delegating the task of creating ER destinations to the default destination factory and then implementing a custom class that has its own destination logic.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="27072-106">先决条件</span><span class="sxs-lookup"><span data-stu-id="27072-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="2b80d-106">先决条件</span><span class="sxs-lookup"><span data-stu-id="2b80d-106">Prerequisites</span></span>
 
-<span data-ttu-id="27072-107">部署支持连续生成的拓扑。</span><span class="sxs-lookup"><span data-stu-id="27072-107">Deploy a topology that supports continuous build.</span></span> <span data-ttu-id="27072-108">有关详细信息，请参阅[部署支持连续生成和测试自动化的拓扑](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation)。</span><span class="sxs-lookup"><span data-stu-id="27072-108">For more information, see [Deploy topologies that support continuous build and test automation](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).</span></span> <span data-ttu-id="27072-109">还必须可以访问以下角色之一的此拓扑：</span><span class="sxs-lookup"><span data-stu-id="27072-109">You must have access to this topology for one of the following roles:</span></span>
+<span data-ttu-id="2b80d-107">部署支持连续生成的拓扑。</span><span class="sxs-lookup"><span data-stu-id="2b80d-107">Deploy a topology that supports continuous build.</span></span> <span data-ttu-id="2b80d-108">有关详细信息，请参阅[部署支持连续生成和测试自动化的拓扑](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation)。</span><span class="sxs-lookup"><span data-stu-id="2b80d-108">For more information, see [Deploy topologies that support continuous build and test automation](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).</span></span> <span data-ttu-id="2b80d-109">还必须可以访问以下角色之一的此拓扑：</span><span class="sxs-lookup"><span data-stu-id="2b80d-109">You must have access to this topology for one of the following roles:</span></span>
 
-- <span data-ttu-id="27072-110">电子申报开发人员</span><span class="sxs-lookup"><span data-stu-id="27072-110">Electronic reporting developer</span></span>
-- <span data-ttu-id="27072-111">电子申报功能顾问</span><span class="sxs-lookup"><span data-stu-id="27072-111">Electronic reporting functional consultant</span></span>
-- <span data-ttu-id="27072-112">系统管理员</span><span class="sxs-lookup"><span data-stu-id="27072-112">System administrator</span></span>
+- <span data-ttu-id="2b80d-110">电子申报开发人员</span><span class="sxs-lookup"><span data-stu-id="2b80d-110">Electronic reporting developer</span></span>
+- <span data-ttu-id="2b80d-111">电子申报功能顾问</span><span class="sxs-lookup"><span data-stu-id="2b80d-111">Electronic reporting functional consultant</span></span>
+- <span data-ttu-id="2b80d-112">系统管理员</span><span class="sxs-lookup"><span data-stu-id="2b80d-112">System administrator</span></span>
 
-<span data-ttu-id="27072-113">还必须可以访问此拓扑的开发环境。</span><span class="sxs-lookup"><span data-stu-id="27072-113">You must also have access to the development environment for this topology.</span></span>
+<span data-ttu-id="2b80d-113">还必须可以访问此拓扑的开发环境。</span><span class="sxs-lookup"><span data-stu-id="2b80d-113">You must also have access to the development environment for this topology.</span></span>
 
-<span data-ttu-id="27072-114">本主题中的所有任务都可以在 **USMF** 公司完成。</span><span class="sxs-lookup"><span data-stu-id="27072-114">All the tasks in this topic can be completed in the **USMF** company.</span></span>
+<span data-ttu-id="2b80d-114">本主题中的所有任务都可以在 **USMF** 公司完成。</span><span class="sxs-lookup"><span data-stu-id="2b80d-114">All the tasks in this topic can be completed in the **USMF** company.</span></span>
 
-## <a name="import-the-fixed-asset-roll-forward-er-format"></a><span data-ttu-id="27072-115">导入固定资产前滚 ER 格式</span><span class="sxs-lookup"><span data-stu-id="27072-115">Import the Fixed asset roll forward ER format</span></span>
+## <a name="import-the-fixed-asset-roll-forward-er-format"></a><span data-ttu-id="2b80d-115">导入固定资产前滚 ER 格式</span><span class="sxs-lookup"><span data-stu-id="2b80d-115">Import the Fixed asset roll forward ER format</span></span>
 
-<span data-ttu-id="27072-116">要生成您计划为其添加自定义存储位置的文档，请将 **固定资产前滚** ER 格式[导入](er-download-configurations-global-repo.md)到当前拓扑中。</span><span class="sxs-lookup"><span data-stu-id="27072-116">To generate the documents that you plan to add a custom storage location for, [import](er-download-configurations-global-repo.md) the **Fixed asset roll forward** ER format configuration into the current topology.</span></span>
+<span data-ttu-id="2b80d-116">要生成您计划为其添加自定义存储位置的文档，请将 **固定资产前滚** ER 格式[导入](er-download-configurations-global-repo.md)到当前拓扑中。</span><span class="sxs-lookup"><span data-stu-id="2b80d-116">To generate the documents that you plan to add a custom storage location for, [import](er-download-configurations-global-repo.md) the **Fixed asset roll forward** ER format configuration into the current topology.</span></span>
 
 ![配置存储库页面](./media/er-custom-storage-generated-files-import-format.png)
 
-## <a name="run-the-fixed-asset-roll-forward-report"></a><span data-ttu-id="27072-118">运行固定资产前滚报表</span><span class="sxs-lookup"><span data-stu-id="27072-118">Run the Fixed asset roll forward report</span></span>
+## <a name="run-the-fixed-asset-roll-forward-report"></a><span data-ttu-id="2b80d-118">运行固定资产前滚报表</span><span class="sxs-lookup"><span data-stu-id="2b80d-118">Run the Fixed asset roll forward report</span></span>
 
-1. <span data-ttu-id="27072-119">转到 **固定资产** \> **查询和报表** \> **交易报表** \> **固定资产前滚**。</span><span class="sxs-lookup"><span data-stu-id="27072-119">Go to **Fixed assets** \> **Inquiries and reports** \> **Transaction reports** \> **Fixed asset roll forward**.</span></span>
-2. <span data-ttu-id="27072-120">在 **开始日期** 字段中输入 **1/1/2017**（2017 年 1 月 1 日）。</span><span class="sxs-lookup"><span data-stu-id="27072-120">In the **From date** field, enter **1/1/2017** (January 1, 2017).</span></span>
-3. <span data-ttu-id="27072-121">在 **结束日期** 字段中输入 **1/31/2017**（2017 年 1 月 31 日）。</span><span class="sxs-lookup"><span data-stu-id="27072-121">In the **To date** field, enter **1/31/2017** (January 31, 2017).</span></span>
-4. <span data-ttu-id="27072-122">在 **货币** 字段中，选择 **记帐币种**。</span><span class="sxs-lookup"><span data-stu-id="27072-122">In the **Currency field**, select **Accounting currency**.</span></span>
-5. <span data-ttu-id="27072-123">在 **格式映射** 字段中，选择 **固定资产前滚**。</span><span class="sxs-lookup"><span data-stu-id="27072-123">In the **Format mapping** field, select **Fixed asset roll forward**.</span></span>
-6. <span data-ttu-id="27072-124">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="27072-124">Select **OK**.</span></span>
+1. <span data-ttu-id="2b80d-119">转到 **固定资产** \> **查询和报表** \> **交易报表** \> **固定资产前滚**。</span><span class="sxs-lookup"><span data-stu-id="2b80d-119">Go to **Fixed assets** \> **Inquiries and reports** \> **Transaction reports** \> **Fixed asset roll forward**.</span></span>
+2. <span data-ttu-id="2b80d-120">在 **开始日期** 字段中输入 **1/1/2017**（2017 年 1 月 1 日）。</span><span class="sxs-lookup"><span data-stu-id="2b80d-120">In the **From date** field, enter **1/1/2017** (January 1, 2017).</span></span>
+3. <span data-ttu-id="2b80d-121">在 **结束日期** 字段中输入 **1/31/2017**（2017 年 1 月 31 日）。</span><span class="sxs-lookup"><span data-stu-id="2b80d-121">In the **To date** field, enter **1/31/2017** (January 31, 2017).</span></span>
+4. <span data-ttu-id="2b80d-122">在 **货币** 字段中，选择 **记帐币种**。</span><span class="sxs-lookup"><span data-stu-id="2b80d-122">In the **Currency field**, select **Accounting currency**.</span></span>
+5. <span data-ttu-id="2b80d-123">在 **格式映射** 字段中，选择 **固定资产前滚**。</span><span class="sxs-lookup"><span data-stu-id="2b80d-123">In the **Format mapping** field, select **Fixed asset roll forward**.</span></span>
+6. <span data-ttu-id="2b80d-124">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="2b80d-124">Select **OK**.</span></span>
 
 ![固定资产前滚报表的“运行时”对话框](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
-<span data-ttu-id="27072-126">在 Microsoft Excel 中，查看生成并可供下载的传出文档。</span><span class="sxs-lookup"><span data-stu-id="27072-126">In Microsoft Excel, review the outbound document that is generated and available for download.</span></span> <span data-ttu-id="27072-127">这种行为是未为其配置[目标](electronic-reporting-destinations.md)的 ER 格式且以交互模式运行的 ER 格式的[默认行为](electronic-reporting-destinations.md#default-behavior)。</span><span class="sxs-lookup"><span data-stu-id="27072-127">This behavior is the [default behavior](electronic-reporting-destinations.md#default-behavior) for an ER format that no [destinations](electronic-reporting-destinations.md) are configured for, and that is running in interactive mode.</span></span>
+<span data-ttu-id="2b80d-126">在 Microsoft Excel 中，查看生成并可供下载的传出文档。</span><span class="sxs-lookup"><span data-stu-id="2b80d-126">In Microsoft Excel, review the outbound document that is generated and available for download.</span></span> <span data-ttu-id="2b80d-127">这种行为是未为其配置[目标](electronic-reporting-destinations.md)的 ER 格式且以交互模式运行的 ER 格式的[默认行为](electronic-reporting-destinations.md#default-behavior)。</span><span class="sxs-lookup"><span data-stu-id="2b80d-127">This behavior is the [default behavior](electronic-reporting-destinations.md#default-behavior) for an ER format that no [destinations](electronic-reporting-destinations.md) are configured for, and that is running in interactive mode.</span></span>
 
-## <a name="review-the-source-code"></a><span data-ttu-id="27072-128">查看源代码</span><span class="sxs-lookup"><span data-stu-id="27072-128">Review the source code</span></span>
+## <a name="review-the-source-code"></a><span data-ttu-id="2b80d-128">查看源代码</span><span class="sxs-lookup"><span data-stu-id="2b80d-128">Review the source code</span></span>
 
-<span data-ttu-id="27072-129">查看 `AssetRollForwardService` 类的 `generateReportByGER()` 方法的代码。</span><span class="sxs-lookup"><span data-stu-id="27072-129">Review the code of the `generateReportByGER()` method of the `AssetRollForwardService` class.</span></span> <span data-ttu-id="27072-130">请注意，`Run()` 方法用于调用 ER 框架和生成 **固定资产前滚** 报表。</span><span class="sxs-lookup"><span data-stu-id="27072-130">Notice that the `Run()` method is used to call the ER framework and generate the **Fixed asset roll forward** report.</span></span>
+<span data-ttu-id="2b80d-129">查看 `AssetRollForwardService` 类的 `generateReportByGER()` 方法的代码。</span><span class="sxs-lookup"><span data-stu-id="2b80d-129">Review the code of the `generateReportByGER()` method of the `AssetRollForwardService` class.</span></span> <span data-ttu-id="2b80d-130">请注意，`Run()` 方法用于调用 ER 框架和生成 **固定资产前滚** 报表。</span><span class="sxs-lookup"><span data-stu-id="2b80d-130">Notice that the `Run()` method is used to call the ER framework and generate the **Fixed asset roll forward** report.</span></span>
 
 ```xpp
 class AssetRollForwardService extends SysOperationServiceBase
@@ -113,12 +112,12 @@ class AssetRollForwardService extends SysOperationServiceBase
 }
 ```
 
-## <a name="modify-the-source-code"></a><span data-ttu-id="27072-131">修改源代码</span><span class="sxs-lookup"><span data-stu-id="27072-131">Modify the source code</span></span>
+## <a name="modify-the-source-code"></a><span data-ttu-id="2b80d-131">修改源代码</span><span class="sxs-lookup"><span data-stu-id="2b80d-131">Modify the source code</span></span>
 
-1. <span data-ttu-id="27072-132">在您的 Visual Studio 项目中，添加一个新类（本示例中为 `AssetRollForwardDestination`），并编写代码以实现生成的 **固定资产前滚** 报表的在定义目标。</span><span class="sxs-lookup"><span data-stu-id="27072-132">In your Visual Studio project, add a new class (`AssetRollForwardDestination` in this example), and write code to implement your custom destination for **Fixed asset roll forward** reports that are generated.</span></span>
+1. <span data-ttu-id="2b80d-132">在您的 Visual Studio 项目中，添加一个新类（本示例中为 `AssetRollForwardDestination`），并编写代码以实现生成的 **固定资产前滚** 报表的在定义目标。</span><span class="sxs-lookup"><span data-stu-id="2b80d-132">In your Visual Studio project, add a new class (`AssetRollForwardDestination` in this example), and write code to implement your custom destination for **Fixed asset roll forward** reports that are generated.</span></span>
 
-    - <span data-ttu-id="27072-133">`new()` 方法旨在获取原始 ER 目标对象和应用程序逻辑驱动的参数，该参数指定应在其中存储生成的报表的自定义位置。</span><span class="sxs-lookup"><span data-stu-id="27072-133">The `new()` method is designed to get the original ER destination object and the application logic–driven parameter that specifies the custom location where generated reports should be stored.</span></span> <span data-ttu-id="27072-134">在此示例中，自定义位置是运行应用程序对象服务器 (AOS) 服务的服务器的本地文件系统的文件夹的名称。</span><span class="sxs-lookup"><span data-stu-id="27072-134">In this example, the custom location is the name of a folder of the local file system of the server that runs the Application Object Server (AOS) service.</span></span>
-    - <span data-ttu-id="27072-135">`saveFile()` 方法旨在将生成的文档保存到运行 AOS 服务的服务器的本地文件系统的文件夹中。</span><span class="sxs-lookup"><span data-stu-id="27072-135">The `saveFile()` method is designed to save a generated document to a folder of the local file system of the server that runs the AOS service.</span></span>
+    - <span data-ttu-id="2b80d-133">`new()` 方法旨在获取原始 ER 目标对象和应用程序逻辑驱动的参数，该参数指定应在其中存储生成的报表的自定义位置。</span><span class="sxs-lookup"><span data-stu-id="2b80d-133">The `new()` method is designed to get the original ER destination object and the application logic–driven parameter that specifies the custom location where generated reports should be stored.</span></span> <span data-ttu-id="2b80d-134">在此示例中，自定义位置是运行应用程序对象服务器 (AOS) 服务的服务器的本地文件系统的文件夹的名称。</span><span class="sxs-lookup"><span data-stu-id="2b80d-134">In this example, the custom location is the name of a folder of the local file system of the server that runs the Application Object Server (AOS) service.</span></span>
+    - <span data-ttu-id="2b80d-135">`saveFile()` 方法旨在将生成的文档保存到运行 AOS 服务的服务器的本地文件系统的文件夹中。</span><span class="sxs-lookup"><span data-stu-id="2b80d-135">The `saveFile()` method is designed to save a generated document to a folder of the local file system of the server that runs the AOS service.</span></span>
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -176,7 +175,7 @@ class AssetRollForwardService extends SysOperationServiceBase
     }
     ```
 
-2. <span data-ttu-id="27072-136">在您的 Visual Studio 项目中，添加一个新类（在此示例中为 `AssetRollForwardDestinationFactory`），并编写代码以设置将目标创建委托给默认目标工厂的自定义目标工厂，并将文件目标包装到您自己的目标中。</span><span class="sxs-lookup"><span data-stu-id="27072-136">In your Visual Studio project, add a new class (`AssetRollForwardDestinationFactory` in this example), and write code to set up a custom destination factory that delegates the creation of a destination to the default destination factory, and to wrap a file destination with your own destination.</span></span>
+2. <span data-ttu-id="2b80d-136">在您的 Visual Studio 项目中，添加一个新类（在此示例中为 `AssetRollForwardDestinationFactory`），并编写代码以设置将目标创建委托给默认目标工厂的自定义目标工厂，并将文件目标包装到您自己的目标中。</span><span class="sxs-lookup"><span data-stu-id="2b80d-136">In your Visual Studio project, add a new class (`AssetRollForwardDestinationFactory` in this example), and write code to set up a custom destination factory that delegates the creation of a destination to the default destination factory, and to wrap a file destination with your own destination.</span></span>
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -253,10 +252,10 @@ class AssetRollForwardService extends SysOperationServiceBase
     }
     ```
 
-3. <span data-ttu-id="27072-137">修改现有 `AssetRollForwardService` 类，并编写代码以为报表运行器设置自定义目标工厂。</span><span class="sxs-lookup"><span data-stu-id="27072-137">Modify the existing `AssetRollForwardService` class, and write code to set up a custom destination factory for the report runner.</span></span> <span data-ttu-id="27072-138">请注意，在构建自定义目标工厂时，将传递指定目标文件夹的应用程序驱动参数。</span><span class="sxs-lookup"><span data-stu-id="27072-138">Notice that when a custom destination factory is constructed, the application-driven parameter that specifies a target folder is passed.</span></span> <span data-ttu-id="27072-139">这样，该目标文件夹用于存储生成的文件。</span><span class="sxs-lookup"><span data-stu-id="27072-139">In this way, that target folder is used to store generated files.</span></span>
+3. <span data-ttu-id="2b80d-137">修改现有 `AssetRollForwardService` 类，并编写代码以为报表运行器设置自定义目标工厂。</span><span class="sxs-lookup"><span data-stu-id="2b80d-137">Modify the existing `AssetRollForwardService` class, and write code to set up a custom destination factory for the report runner.</span></span> <span data-ttu-id="2b80d-138">请注意，在构建自定义目标工厂时，将传递指定目标文件夹的应用程序驱动参数。</span><span class="sxs-lookup"><span data-stu-id="2b80d-138">Notice that when a custom destination factory is constructed, the application-driven parameter that specifies a target folder is passed.</span></span> <span data-ttu-id="2b80d-139">这样，该目标文件夹用于存储生成的文件。</span><span class="sxs-lookup"><span data-stu-id="2b80d-139">In this way, that target folder is used to store generated files.</span></span>
 
     > [!NOTE] 
-    > <span data-ttu-id="27072-140">确保指定的文件夹（此示例中为 **C:\\0**）位于运行 AOS 服务的服务器的本地文件系统中。</span><span class="sxs-lookup"><span data-stu-id="27072-140">Make sure that the specified folder (**c:\\0** in this example) is present in the local file system of the server that runs the AOS service.</span></span> <span data-ttu-id="27072-141">否则，将在运行时引发 [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) 异常。</span><span class="sxs-lookup"><span data-stu-id="27072-141">Otherwise, a [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) exception will be thrown at runtime.</span></span>
+    > <span data-ttu-id="2b80d-140">确保指定的文件夹（此示例中为 **C:\\0**）位于运行 AOS 服务的服务器的本地文件系统中。</span><span class="sxs-lookup"><span data-stu-id="2b80d-140">Make sure that the specified folder (**c:\\0** in this example) is present in the local file system of the server that runs the AOS service.</span></span> <span data-ttu-id="2b80d-141">否则，将在运行时引发 [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) 异常。</span><span class="sxs-lookup"><span data-stu-id="2b80d-141">Otherwise, a [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) exception will be thrown at runtime.</span></span>
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -321,25 +320,25 @@ class AssetRollForwardService extends SysOperationServiceBase
     }
     ```
 
-4. <span data-ttu-id="27072-142">重新生成您的项目。</span><span class="sxs-lookup"><span data-stu-id="27072-142">Rebuild your project.</span></span>
+4. <span data-ttu-id="2b80d-142">重新生成您的项目。</span><span class="sxs-lookup"><span data-stu-id="2b80d-142">Rebuild your project.</span></span>
 
-## <a name="re-run-the-fixed-asset-roll-forward-report"></a><span data-ttu-id="27072-143">重新运行固定资产前滚报表</span><span class="sxs-lookup"><span data-stu-id="27072-143">Re-run the Fixed asset roll forward report</span></span>
+## <a name="re-run-the-fixed-asset-roll-forward-report"></a><span data-ttu-id="2b80d-143">重新运行固定资产前滚报表</span><span class="sxs-lookup"><span data-stu-id="2b80d-143">Re-run the Fixed asset roll forward report</span></span>
 
-1. <span data-ttu-id="27072-144">转到 **固定资产** \> **查询和报表** \> **交易报表** \> **固定资产前滚**。</span><span class="sxs-lookup"><span data-stu-id="27072-144">Go to **Fixed assets** \> **Inquiries and reports** \> **Transaction reports** \> **Fixed asset roll forward**.</span></span>
-2. <span data-ttu-id="27072-145">在 **开始日期** 字段中，输入 **1/1/2017**。</span><span class="sxs-lookup"><span data-stu-id="27072-145">In the **From date** field, enter **1/1/2017**.</span></span>
-3. <span data-ttu-id="27072-146">在 **结束日期** 字段中，输入 **1/31/2017**。</span><span class="sxs-lookup"><span data-stu-id="27072-146">In the **To date** field, enter **1/31/2017**.</span></span>
-4. <span data-ttu-id="27072-147">在 **货币** 字段中，选择 **记帐币种**。</span><span class="sxs-lookup"><span data-stu-id="27072-147">In the **Currency field**, select **Accounting currency**.</span></span>
-5. <span data-ttu-id="27072-148">在 **格式映射** 字段中，选择 **固定资产前滚**。</span><span class="sxs-lookup"><span data-stu-id="27072-148">In the **Format mapping** field, select **Fixed asset roll forward**.</span></span>
-6. <span data-ttu-id="27072-149">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="27072-149">Select **OK**.</span></span>
-7. <span data-ttu-id="27072-150">浏览本地 **C:\\0** 文件夹以查找生成的文件。</span><span class="sxs-lookup"><span data-stu-id="27072-150">Browse the local **C:\\0** folder to find the generated file.</span></span>
+1. <span data-ttu-id="2b80d-144">转到 **固定资产** \> **查询和报表** \> **交易报表** \> **固定资产前滚**。</span><span class="sxs-lookup"><span data-stu-id="2b80d-144">Go to **Fixed assets** \> **Inquiries and reports** \> **Transaction reports** \> **Fixed asset roll forward**.</span></span>
+2. <span data-ttu-id="2b80d-145">在 **开始日期** 字段中，输入 **1/1/2017**。</span><span class="sxs-lookup"><span data-stu-id="2b80d-145">In the **From date** field, enter **1/1/2017**.</span></span>
+3. <span data-ttu-id="2b80d-146">在 **结束日期** 字段中，输入 **1/31/2017**。</span><span class="sxs-lookup"><span data-stu-id="2b80d-146">In the **To date** field, enter **1/31/2017**.</span></span>
+4. <span data-ttu-id="2b80d-147">在 **货币** 字段中，选择 **记帐币种**。</span><span class="sxs-lookup"><span data-stu-id="2b80d-147">In the **Currency field**, select **Accounting currency**.</span></span>
+5. <span data-ttu-id="2b80d-148">在 **格式映射** 字段中，选择 **固定资产前滚**。</span><span class="sxs-lookup"><span data-stu-id="2b80d-148">In the **Format mapping** field, select **Fixed asset roll forward**.</span></span>
+6. <span data-ttu-id="2b80d-149">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="2b80d-149">Select **OK**.</span></span>
+7. <span data-ttu-id="2b80d-150">浏览本地 **C:\\0** 文件夹以查找生成的文件。</span><span class="sxs-lookup"><span data-stu-id="2b80d-150">Browse the local **C:\\0** folder to find the generated file.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="27072-151">因为在此示例中，`AssetRollForwardDestination`对象中不属于 `originDestination` 对象，所以运行时将忽略 ER 格式[目标](electronic-reporting-destinations.md)的配置。</span><span class="sxs-lookup"><span data-stu-id="27072-151">Because the `originDestination` object isn't used in the `AssetRollForwardDestination` object in this example, the configurations for the ER format [destinations](electronic-reporting-destinations.md) will be ignored at runtime.</span></span>
+> <span data-ttu-id="2b80d-151">因为在此示例中，`AssetRollForwardDestination`对象中不属于 `originDestination` 对象，所以运行时将忽略 ER 格式[目标](electronic-reporting-destinations.md)的配置。</span><span class="sxs-lookup"><span data-stu-id="2b80d-151">Because the `originDestination` object isn't used in the `AssetRollForwardDestination` object in this example, the configurations for the ER format [destinations](electronic-reporting-destinations.md) will be ignored at runtime.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="27072-152">其他资源</span><span class="sxs-lookup"><span data-stu-id="27072-152">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="2b80d-152">其他资源</span><span class="sxs-lookup"><span data-stu-id="2b80d-152">Additional resources</span></span>
 
-- [<span data-ttu-id="27072-153">电子报告 (ER) 目标</span><span class="sxs-lookup"><span data-stu-id="27072-153">Electronic reporting (ER) destinations</span></span>](electronic-reporting-destinations.md)
-- [<span data-ttu-id="27072-154">可扩展性主页</span><span class="sxs-lookup"><span data-stu-id="27072-154">Extensibility home page</span></span>](../extensibility/extensibility-home-page.md)
+- [<span data-ttu-id="2b80d-153">电子报告 (ER) 目标</span><span class="sxs-lookup"><span data-stu-id="2b80d-153">Electronic reporting (ER) destinations</span></span>](electronic-reporting-destinations.md)
+- [<span data-ttu-id="2b80d-154">可扩展性主页</span><span class="sxs-lookup"><span data-stu-id="2b80d-154">Extensibility home page</span></span>](../extensibility/extensibility-home-page.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
