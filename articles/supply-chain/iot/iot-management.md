@@ -2,11 +2,9 @@
 title: 监视和管理 IoT 智能
 description: 本主题说明如何监视和管理 IoT 智能。
 author: robinarh
-manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,51 +14,51 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a037cb31e297926b1bcb66bff91bdd7eb5c40b7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 94665b3646456b689a8e65e94b098e86e467d5e3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264840"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813067"
 ---
-# <a name="monitor-and-manage-iot-intelligence"></a><span data-ttu-id="fb791-103">监视和管理 IoT 智能</span><span class="sxs-lookup"><span data-stu-id="fb791-103">Monitor and manage IoT Intelligence</span></span>
+# <a name="monitor-and-manage-iot-intelligence"></a><span data-ttu-id="02a5d-103">监视和管理 IoT 智能</span><span class="sxs-lookup"><span data-stu-id="02a5d-103">Monitor and manage IoT Intelligence</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="fb791-104">本主题说明如何监视和管理 IoT 智能。</span><span class="sxs-lookup"><span data-stu-id="fb791-104">This topic explains how to monitor and manage IoT Intelligence.</span></span>
+<span data-ttu-id="02a5d-104">本主题说明如何监视和管理 IoT 智能。</span><span class="sxs-lookup"><span data-stu-id="02a5d-104">This topic explains how to monitor and manage IoT Intelligence.</span></span>
 
-## <a name="monitor-scenarios-in-microsoft-dynamics-365-supply-chain-management"></a><a id="monitor-scenarios"></a><span data-ttu-id="fb791-105">在Microsoft Dynamics 365 Supply Chain Management 中监视方案</span><span class="sxs-lookup"><span data-stu-id="fb791-105">Monitor scenarios in Microsoft Dynamics 365 Supply Chain Management</span></span>
+## <a name="monitor-scenarios-in-microsoft-dynamics-365-supply-chain-management"></a><a id="monitor-scenarios"></a><span data-ttu-id="02a5d-105">在Microsoft Dynamics 365 Supply Chain Management 中监视方案</span><span class="sxs-lookup"><span data-stu-id="02a5d-105">Monitor scenarios in Microsoft Dynamics 365 Supply Chain Management</span></span>
 
-<span data-ttu-id="fb791-106">可以从多个位置监视 IoT 智能处理：</span><span class="sxs-lookup"><span data-stu-id="fb791-106">You can monitor IoT Intelligence processing from several places:</span></span>
+<span data-ttu-id="02a5d-106">可以从多个位置监视 IoT 智能处理：</span><span class="sxs-lookup"><span data-stu-id="02a5d-106">You can monitor IoT Intelligence processing from several places:</span></span>
 
-+ <span data-ttu-id="fb791-107">**模块 \> 生产控制 \> 查询和报表 \> IoT 智能 \> 通知** – 查看未解决通知列表。</span><span class="sxs-lookup"><span data-stu-id="fb791-107">**Modules \> Production control \> Inquiries and reports \> IoT Intelligence \> Notifications** – View the list of unresolved notifications.</span></span>
-+ <span data-ttu-id="fb791-108">**模块 \> 生产控制 \> 查询和报表 \> IoT 智能 \> 已关闭通知** – 查看已解决或隐藏通知列表。</span><span class="sxs-lookup"><span data-stu-id="fb791-108">**Modules \> Production control \> Inquiries and reports \> IoT Intelligence \> Closed notifications** – View the list of notifications that have been resolved or dismissed.</span></span>
-+ <span data-ttu-id="fb791-109">**模块 \> 生产控制 \> 查询和报表 \> IoT 智能 \> 指标键** – 查看 **资源状态** 时间系列图表的指标键。</span><span class="sxs-lookup"><span data-stu-id="fb791-109">**Modules \> Production control \> Inquiries and reports \> IoT Intelligence \> Metric keys** – View the metric keys for the **Resource Status** times series charts.</span></span>
-+ <span data-ttu-id="fb791-110">**模块 \> 生产控制 \> 制造执行 \> 资源状态** – 使用 **配置** 对话框跟踪特定度量。</span><span class="sxs-lookup"><span data-stu-id="fb791-110">**Modules \> Production control \> Manufacturing execution \> Resource status** – Track specific metrics by using the **Configure** dialog box.</span></span> <span data-ttu-id="fb791-111">如果方案检测到异常，通知将显示该异常的详细信息。</span><span class="sxs-lookup"><span data-stu-id="fb791-111">If a scenario detects an exception, a notification shows the details of the exception.</span></span>
-+ <span data-ttu-id="fb791-112">**工作区 \> 生产车间管理 \> 通知** – 查看未解决通知列表。</span><span class="sxs-lookup"><span data-stu-id="fb791-112">**Workspaces \> Production floor management \> Notifications** – View the list of unresolved notifications.</span></span>
++ <span data-ttu-id="02a5d-107">**模块 \> 生产控制 \> 查询和报表 \> IoT 智能 \> 通知** – 查看未解决通知列表。</span><span class="sxs-lookup"><span data-stu-id="02a5d-107">**Modules \> Production control \> Inquiries and reports \> IoT Intelligence \> Notifications** – View the list of unresolved notifications.</span></span>
++ <span data-ttu-id="02a5d-108">**模块 \> 生产控制 \> 查询和报表 \> IoT 智能 \> 已关闭通知** – 查看已解决或隐藏通知列表。</span><span class="sxs-lookup"><span data-stu-id="02a5d-108">**Modules \> Production control \> Inquiries and reports \> IoT Intelligence \> Closed notifications** – View the list of notifications that have been resolved or dismissed.</span></span>
++ <span data-ttu-id="02a5d-109">**模块 \> 生产控制 \> 查询和报表 \> IoT 智能 \> 指标键** – 查看 **资源状态** 时间系列图表的指标键。</span><span class="sxs-lookup"><span data-stu-id="02a5d-109">**Modules \> Production control \> Inquiries and reports \> IoT Intelligence \> Metric keys** – View the metric keys for the **Resource Status** times series charts.</span></span>
++ <span data-ttu-id="02a5d-110">**模块 \> 生产控制 \> 制造执行 \> 资源状态** – 使用 **配置** 对话框跟踪特定度量。</span><span class="sxs-lookup"><span data-stu-id="02a5d-110">**Modules \> Production control \> Manufacturing execution \> Resource status** – Track specific metrics by using the **Configure** dialog box.</span></span> <span data-ttu-id="02a5d-111">如果方案检测到异常，通知将显示该异常的详细信息。</span><span class="sxs-lookup"><span data-stu-id="02a5d-111">If a scenario detects an exception, a notification shows the details of the exception.</span></span>
++ <span data-ttu-id="02a5d-112">**工作区 \> 生产车间管理 \> 通知** – 查看未解决通知列表。</span><span class="sxs-lookup"><span data-stu-id="02a5d-112">**Workspaces \> Production floor management \> Notifications** – View the list of unresolved notifications.</span></span>
 
-## <a name="modify-a-running-iot-intelligence-scenario"></a><span data-ttu-id="fb791-113">修改正在运行的 IoT 智能方案</span><span class="sxs-lookup"><span data-stu-id="fb791-113">Modify a running IoT Intelligence scenario</span></span>
+## <a name="modify-a-running-iot-intelligence-scenario"></a><span data-ttu-id="02a5d-113">修改正在运行的 IoT 智能方案</span><span class="sxs-lookup"><span data-stu-id="02a5d-113">Modify a running IoT Intelligence scenario</span></span>
 
-<span data-ttu-id="fb791-114">运行方案时，可以进行以下更改：</span><span class="sxs-lookup"><span data-stu-id="fb791-114">When a scenario is running, you can make these changes:</span></span>
+<span data-ttu-id="02a5d-114">运行方案时，可以进行以下更改：</span><span class="sxs-lookup"><span data-stu-id="02a5d-114">When a scenario is running, you can make these changes:</span></span>
 
-+ <span data-ttu-id="fb791-115">添加新传感器架构定义。</span><span class="sxs-lookup"><span data-stu-id="fb791-115">Add new sensor schema definitions.</span></span>
-+ <span data-ttu-id="fb791-116">选择新信号数据值。</span><span class="sxs-lookup"><span data-stu-id="fb791-116">Select new signal data values.</span></span>
-+ <span data-ttu-id="fb791-117">取消选择现有信号数据值。</span><span class="sxs-lookup"><span data-stu-id="fb791-117">Cancel the selection of existing signal data values.</span></span>
-+ <span data-ttu-id="fb791-118">添加和映射新信号数据值。</span><span class="sxs-lookup"><span data-stu-id="fb791-118">Add and map new signal data values.</span></span>
-+ <span data-ttu-id="fb791-119">更新阈值。</span><span class="sxs-lookup"><span data-stu-id="fb791-119">Update threshold values.</span></span>
++ <span data-ttu-id="02a5d-115">添加新传感器架构定义。</span><span class="sxs-lookup"><span data-stu-id="02a5d-115">Add new sensor schema definitions.</span></span>
++ <span data-ttu-id="02a5d-116">选择新信号数据值。</span><span class="sxs-lookup"><span data-stu-id="02a5d-116">Select new signal data values.</span></span>
++ <span data-ttu-id="02a5d-117">取消选择现有信号数据值。</span><span class="sxs-lookup"><span data-stu-id="02a5d-117">Cancel the selection of existing signal data values.</span></span>
++ <span data-ttu-id="02a5d-118">添加和映射新信号数据值。</span><span class="sxs-lookup"><span data-stu-id="02a5d-118">Add and map new signal data values.</span></span>
++ <span data-ttu-id="02a5d-119">更新阈值。</span><span class="sxs-lookup"><span data-stu-id="02a5d-119">Update threshold values.</span></span>
 
-<span data-ttu-id="fb791-120">运行方案时，不能进行以下更改：</span><span class="sxs-lookup"><span data-stu-id="fb791-120">When a scenario is running, these changes are prohibited:</span></span>
+<span data-ttu-id="02a5d-120">运行方案时，不能进行以下更改：</span><span class="sxs-lookup"><span data-stu-id="02a5d-120">When a scenario is running, these changes are prohibited:</span></span>
 
-+ <span data-ttu-id="fb791-121">删除或修改已启用方案当前使用的任何架构定义。</span><span class="sxs-lookup"><span data-stu-id="fb791-121">Delete or modify any schema definitions that are currently consumed by an enabled scenario.</span></span>
-+ <span data-ttu-id="fb791-122">更改所启用方案的所选架构路径。</span><span class="sxs-lookup"><span data-stu-id="fb791-122">Change the enabled scenario's selected schema paths.</span></span>
++ <span data-ttu-id="02a5d-121">删除或修改已启用方案当前使用的任何架构定义。</span><span class="sxs-lookup"><span data-stu-id="02a5d-121">Delete or modify any schema definitions that are currently consumed by an enabled scenario.</span></span>
++ <span data-ttu-id="02a5d-122">更改所启用方案的所选架构路径。</span><span class="sxs-lookup"><span data-stu-id="02a5d-122">Change the enabled scenario's selected schema paths.</span></span>
 
-## <a name="simulation-options"></a><span data-ttu-id="fb791-123">模拟选项</span><span class="sxs-lookup"><span data-stu-id="fb791-123">Simulation options</span></span>
+## <a name="simulation-options"></a><span data-ttu-id="02a5d-123">模拟选项</span><span class="sxs-lookup"><span data-stu-id="02a5d-123">Simulation options</span></span>
 
-<span data-ttu-id="fb791-124">您可以模拟工厂机器信号。</span><span class="sxs-lookup"><span data-stu-id="fb791-124">You can simulate factory machine signals.</span></span> <span data-ttu-id="fb791-125">有关详细信息，请参阅以下主题：</span><span class="sxs-lookup"><span data-stu-id="fb791-125">For more information, see these topics:</span></span>
+<span data-ttu-id="02a5d-124">您可以模拟工厂机器信号。</span><span class="sxs-lookup"><span data-stu-id="02a5d-124">You can simulate factory machine signals.</span></span> <span data-ttu-id="02a5d-125">有关详细信息，请参阅以下主题：</span><span class="sxs-lookup"><span data-stu-id="02a5d-125">For more information, see these topics:</span></span>
 
-+ [<span data-ttu-id="fb791-126">将 IoT DevKit AZ3166 连接到 Azure IoT 中心</span><span class="sxs-lookup"><span data-stu-id="fb791-126">Connect IoT DevKit AZ3166 to Azure IoT Hub</span></span>](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
-+ [<span data-ttu-id="fb791-127">将 Raspberry Pi 联机模拟器连接到 Azure IoT 中心 (Node.js)</span><span class="sxs-lookup"><span data-stu-id="fb791-127">Connect Raspberry Pi online simulator to Azure IoT Hub (Node.js)</span></span>](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
-+ [<span data-ttu-id="fb791-128">设备模拟解决方案加速器概述</span><span class="sxs-lookup"><span data-stu-id="fb791-128">Device Simulation solution accelerator overview</span></span>](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
++ [<span data-ttu-id="02a5d-126">将 IoT DevKit AZ3166 连接到 Azure IoT 中心</span><span class="sxs-lookup"><span data-stu-id="02a5d-126">Connect IoT DevKit AZ3166 to Azure IoT Hub</span></span>](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
++ [<span data-ttu-id="02a5d-127">将 Raspberry Pi 联机模拟器连接到 Azure IoT 中心 (Node.js)</span><span class="sxs-lookup"><span data-stu-id="02a5d-127">Connect Raspberry Pi online simulator to Azure IoT Hub (Node.js)</span></span>](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
++ [<span data-ttu-id="02a5d-128">设备模拟解决方案加速器概述</span><span class="sxs-lookup"><span data-stu-id="02a5d-128">Device Simulation solution accelerator overview</span></span>](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

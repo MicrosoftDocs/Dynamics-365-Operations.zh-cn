@@ -1,12 +1,10 @@
 ---
 title: 物料的使用位置
 description: 本主题介绍如何在资产管理中获取有关物料使用位置的概览。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetItemWhereUsed, EntAssetItemWhereUsedCalculate
 audience: Application User
@@ -14,59 +12,59 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ef020c6a917f0a2c358f775991182e1e494d45d6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 262a5a9d83767599f6e15183d6afcacf4b5901fe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253750"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808632"
 ---
-# <a name="item-where-used"></a><span data-ttu-id="1bada-103">物料的使用位置</span><span class="sxs-lookup"><span data-stu-id="1bada-103">Item where used</span></span>
+# <a name="item-where-used"></a><span data-ttu-id="7c936-103">物料的使用位置</span><span class="sxs-lookup"><span data-stu-id="7c936-103">Item where used</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="1bada-104">可对特定物料进行计算，以便在资产管理中获取有关物料使用位置的概览。</span><span class="sxs-lookup"><span data-stu-id="1bada-104">You can make a calculation for a specific item to get an overview of where in Asset Management the item has been used.</span></span> <span data-ttu-id="1bada-105">结果显示物料在其生命周期内的使用上下文。</span><span class="sxs-lookup"><span data-stu-id="1bada-105">The results show the context in which the item has been used during its lifetime.</span></span> <span data-ttu-id="1bada-106">**物料使用位置** 页可以从资产管理主菜单打开，也可以从以下页访问：</span><span class="sxs-lookup"><span data-stu-id="1bada-106">The **Item where used** page can be opened from the main Asset Management menu, and it can also be accessed from the following pages:</span></span>
+<span data-ttu-id="7c936-104">可对特定物料进行计算，以便在资产管理中获取有关物料使用位置的概览。</span><span class="sxs-lookup"><span data-stu-id="7c936-104">You can make a calculation for a specific item to get an overview of where in Asset Management the item has been used.</span></span> <span data-ttu-id="7c936-105">结果显示物料在其生命周期内的使用上下文。</span><span class="sxs-lookup"><span data-stu-id="7c936-105">The results show the context in which the item has been used during its lifetime.</span></span> <span data-ttu-id="7c936-106">**物料使用位置** 页可以从资产管理主菜单打开，也可以从以下页访问：</span><span class="sxs-lookup"><span data-stu-id="7c936-106">The **Item where used** page can be opened from the main Asset Management menu, and it can also be accessed from the following pages:</span></span>
 
-- [<span data-ttu-id="1bada-107">资产 BOM</span><span class="sxs-lookup"><span data-stu-id="1bada-107">Asset BOMs</span></span>](../objects/object-BOM.md)
+- [<span data-ttu-id="7c936-107">资产 BOM</span><span class="sxs-lookup"><span data-stu-id="7c936-107">Asset BOMs</span></span>](../objects/object-BOM.md)
 
-- [<span data-ttu-id="1bada-108">资产类型默认的备件</span><span class="sxs-lookup"><span data-stu-id="1bada-108">Spare parts on asset type defaults</span></span>](../setup-for-objects/object-types.md#spare-parts-on-the-asset-type-setup)
+- [<span data-ttu-id="7c936-108">资产类型默认的备件</span><span class="sxs-lookup"><span data-stu-id="7c936-108">Spare parts on asset type defaults</span></span>](../setup-for-objects/object-types.md#spare-parts-on-the-asset-type-setup)
 
-- [<span data-ttu-id="1bada-109">维护作业类型类别和维护工作类型、维护作业类型变型、维护作业贸易和维护清单</span><span class="sxs-lookup"><span data-stu-id="1bada-109">Maintenance job type categories and maintenance job types, maintenance job type variants, maintenance job trades, and maintenance checklists</span></span>](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
+- [<span data-ttu-id="7c936-109">维护作业类型类别和维护工作类型、维护作业类型变型、维护作业贸易和维护清单</span><span class="sxs-lookup"><span data-stu-id="7c936-109">Maintenance job type categories and maintenance job types, maintenance job type variants, maintenance job trades, and maintenance checklists</span></span>](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
 
-- [<span data-ttu-id="1bada-110">维护预告</span><span class="sxs-lookup"><span data-stu-id="1bada-110">Maintenance forecast</span></span>](../work-orders/maintenance-forecasts.md)
+- [<span data-ttu-id="7c936-110">维护预告</span><span class="sxs-lookup"><span data-stu-id="7c936-110">Maintenance forecast</span></span>](../work-orders/maintenance-forecasts.md)
 
-- [<span data-ttu-id="1bada-111">采购</span><span class="sxs-lookup"><span data-stu-id="1bada-111">Procurement</span></span>](../work-orders/procurement.md)
+- [<span data-ttu-id="7c936-111">采购</span><span class="sxs-lookup"><span data-stu-id="7c936-111">Procurement</span></span>](../work-orders/procurement.md)
 
-- [<span data-ttu-id="1bada-112">工作订单采购</span><span class="sxs-lookup"><span data-stu-id="1bada-112">Work order purchase</span></span>](../work-orders/procurement.md)
+- [<span data-ttu-id="7c936-112">工作订单采购</span><span class="sxs-lookup"><span data-stu-id="7c936-112">Work order purchase</span></span>](../work-orders/procurement.md)
 
-## <a name="make-an-item-where-used-calculation"></a><span data-ttu-id="1bada-113">创建物料使用位置计算</span><span class="sxs-lookup"><span data-stu-id="1bada-113">Make an item-where-used calculation</span></span>
+## <a name="make-an-item-where-used-calculation"></a><span data-ttu-id="7c936-113">创建物料使用位置计算</span><span class="sxs-lookup"><span data-stu-id="7c936-113">Make an item-where-used calculation</span></span>
 
-1. <span data-ttu-id="1bada-114">单击 **资产管理** > **查询** > **物料使用位置**，或在上面介绍的页面之一中选择 **物料使用位置** 按钮。</span><span class="sxs-lookup"><span data-stu-id="1bada-114">Click **Asset management** > **Inquiries** > **Item where used**, or select the **Item where used** button on one of the pages mentioned above.</span></span>
+1. <span data-ttu-id="7c936-114">单击 **资产管理** > **查询** > **物料使用位置**，或在上面介绍的页面之一中选择 **物料使用位置** 按钮。</span><span class="sxs-lookup"><span data-stu-id="7c936-114">Click **Asset management** > **Inquiries** > **Item where used**, or select the **Item where used** button on one of the pages mentioned above.</span></span>
 
-2. <span data-ttu-id="1bada-115">在 **物料使用位置** 对话框的 **物料编号** 字段中，选择要为其创建计算的物料。</span><span class="sxs-lookup"><span data-stu-id="1bada-115">In the **Item where used** dialog, select the item for which you want to make the calculation in the **Item number** field.</span></span>
+2. <span data-ttu-id="7c936-115">在 **物料使用位置** 对话框的 **物料编号** 字段中，选择要为其创建计算的物料。</span><span class="sxs-lookup"><span data-stu-id="7c936-115">In the **Item where used** dialog, select the item for which you want to make the calculation in the **Item number** field.</span></span>
 
-3. <span data-ttu-id="1bada-116">可使用 **级别** 字段指示要与功能位置有关的物料行的详细程度。</span><span class="sxs-lookup"><span data-stu-id="1bada-116">You can use the **Level** field to indicate how detailed you want the item lines to be regarding functional locations.</span></span> 
+3. <span data-ttu-id="7c936-116">可使用 **级别** 字段指示要与功能位置有关的物料行的详细程度。</span><span class="sxs-lookup"><span data-stu-id="7c936-116">You can use the **Level** field to indicate how detailed you want the item lines to be regarding functional locations.</span></span> 
 
-    <span data-ttu-id="1bada-117">例如，如果在此字段中插入数字“1”，并且采用了多级别功能位置结构，则在最上级别显示功能位置的所有物料行。</span><span class="sxs-lookup"><span data-stu-id="1bada-117">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all item lines for a functional location will be shown on the top level.</span></span> <span data-ttu-id="1bada-118">因此，可以从较低级别的功能位置开始叠加行中的关联/数量。</span><span class="sxs-lookup"><span data-stu-id="1bada-118">Therefore, relation/quantity on a line may be added up from functional locations located at a lower level.</span></span> 
+    <span data-ttu-id="7c936-117">例如，如果在此字段中插入数字“1”，并且采用了多级别功能位置结构，则在最上级别显示功能位置的所有物料行。</span><span class="sxs-lookup"><span data-stu-id="7c936-117">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all item lines for a functional location will be shown on the top level.</span></span> <span data-ttu-id="7c936-118">因此，可以从较低级别的功能位置开始叠加行中的关联/数量。</span><span class="sxs-lookup"><span data-stu-id="7c936-118">Therefore, relation/quantity on a line may be added up from functional locations located at a lower level.</span></span> 
     
-    <span data-ttu-id="1bada-119">如果在 **级别** 字段中插入数字“0”，将看到详细结果，其中显示其关联的所有功能位置级别的所有物料行。</span><span class="sxs-lookup"><span data-stu-id="1bada-119">If you insert the number "0" in the **Level** field, you will see a detailed result showing all item lines on all the functional location levels to which they are related.</span></span>
+    <span data-ttu-id="7c936-119">如果在 **级别** 字段中插入数字“0”，将看到详细结果，其中显示其关联的所有功能位置级别的所有物料行。</span><span class="sxs-lookup"><span data-stu-id="7c936-119">If you insert the number "0" in the **Level** field, you will see a detailed result showing all item lines on all the functional location levels to which they are related.</span></span>
 
-4. <span data-ttu-id="1bada-120">在 **包括** 部分中，在要包括到计算中的切换按钮上选择“是”。</span><span class="sxs-lookup"><span data-stu-id="1bada-120">In the **Include** section, select "Yes" on the toggle buttons that you want to include in the calculation.</span></span>
+4. <span data-ttu-id="7c936-120">在 **包括** 部分中，在要包括到计算中的切换按钮上选择“是”。</span><span class="sxs-lookup"><span data-stu-id="7c936-120">In the **Include** section, select "Yes" on the toggle buttons that you want to include in the calculation.</span></span>
 
-5. <span data-ttu-id="1bada-121">单击 **确定** 开始计算。</span><span class="sxs-lookup"><span data-stu-id="1bada-121">Click **OK** to start the calculation.</span></span>
+5. <span data-ttu-id="7c936-121">单击 **确定** 开始计算。</span><span class="sxs-lookup"><span data-stu-id="7c936-121">Click **OK** to start the calculation.</span></span>
 
-6. <span data-ttu-id="1bada-122">在 **物料使用位置** 选项卡上，选择 **分组依据** 按钮可以显示所需计算详细程度。</span><span class="sxs-lookup"><span data-stu-id="1bada-122">On the **Item where used** tab, select the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="1bada-123">将突出显示所选 **分组依据** 按钮。</span><span class="sxs-lookup"><span data-stu-id="1bada-123">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="1bada-124">单击按钮将其激活或停用。</span><span class="sxs-lookup"><span data-stu-id="1bada-124">Click on a button to activate or deactivate it.</span></span>
+6. <span data-ttu-id="7c936-122">在 **物料使用位置** 选项卡上，选择 **分组依据** 按钮可以显示所需计算详细程度。</span><span class="sxs-lookup"><span data-stu-id="7c936-122">On the **Item where used** tab, select the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="7c936-123">将突出显示所选 **分组依据** 按钮。</span><span class="sxs-lookup"><span data-stu-id="7c936-123">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="7c936-124">单击按钮将其激活或停用。</span><span class="sxs-lookup"><span data-stu-id="7c936-124">Click on a button to activate or deactivate it.</span></span>
 
-7. <span data-ttu-id="1bada-125">如果要显示与物料关联的维度，请单击 **显示维度**，然后选择要显示的维度。</span><span class="sxs-lookup"><span data-stu-id="1bada-125">If you want to show dimensions related to the item, click **Display dimensions**, and select the dimensions to be shown.</span></span>
+7. <span data-ttu-id="7c936-125">如果要显示与物料关联的维度，请单击 **显示维度**，然后选择要显示的维度。</span><span class="sxs-lookup"><span data-stu-id="7c936-125">If you want to show dimensions related to the item, click **Display dimensions**, and select the dimensions to be shown.</span></span>
 
-## <a name="example"></a><span data-ttu-id="1bada-126">示例</span><span class="sxs-lookup"><span data-stu-id="1bada-126">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7c936-126">示例</span><span class="sxs-lookup"><span data-stu-id="7c936-126">Example</span></span>
 
-<span data-ttu-id="1bada-127">在下面的屏幕截图中，可以看到编号为“1000”的物料的物料使用位置计算的示例。</span><span class="sxs-lookup"><span data-stu-id="1bada-127">In the screenshot below, you see an example of an item-where-used calculation for item number "1000".</span></span>
+<span data-ttu-id="7c936-127">在下面的屏幕截图中，可以看到编号为“1000”的物料的物料使用位置计算的示例。</span><span class="sxs-lookup"><span data-stu-id="7c936-127">In the screenshot below, you see an example of an item-where-used calculation for item number "1000".</span></span>
 
 ![使用位置计算的物料的示例](media/12-controlling-and-reporting.png)
 
