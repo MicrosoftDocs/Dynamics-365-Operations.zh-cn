@@ -2,7 +2,6 @@
 title: 通过使用 ER 配置访问应用程序元数据
 description: 本主题介绍 Regulatory Configuration Service 用户如何使用元数据设计新的电子申报模型映射。
 author: NickSelin
-manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,115 +13,115 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 91c50047781fdc21c9157ceb634822c6cfb5a075
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 261c208b5906e313293d837dda20b2fe6dd649d6
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559643"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749331"
 ---
-# <a name="access-application-metadata-by-using-er-configuration"></a><span data-ttu-id="bbab1-103">通过使用 ER 配置访问应用程序元数据</span><span class="sxs-lookup"><span data-stu-id="bbab1-103">Access application metadata by using ER configuration</span></span>
+# <a name="access-application-metadata-by-using-er-configuration"></a><span data-ttu-id="16b71-103">通过使用 ER 配置访问应用程序元数据</span><span class="sxs-lookup"><span data-stu-id="16b71-103">Access application metadata by using ER configuration</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="bbab1-104">以下步骤介绍系统管理员或电子报表开发人员角色的 Regulatory Configuration Service (RCS) 用户如何使用应用程序元数据设计新的电子报表 (ER) 模型映射。</span><span class="sxs-lookup"><span data-stu-id="bbab1-104">The following steps explain how a Regulatory configuration service (RCS) user in the System Administrator or Electronic Reporting Developer role can design a new Electronic reporting (ER) model mapping by using the application metadata.</span></span> <span data-ttu-id="bbab1-105">可访问应用程序元数据，方法是使用其中包含一组示例元数据的 ER 配置访问外贸交易。</span><span class="sxs-lookup"><span data-stu-id="bbab1-105">Application metadata will be accessed by using an ER metadata configuration that contains a sample set of metadata to access foreign trade transactions.</span></span> <span data-ttu-id="bbab1-106">为了完成这些步骤，您必须首先在 RCS 中完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)主题中的步骤。</span><span class="sxs-lookup"><span data-stu-id="bbab1-106">To complete these steps, in RCS you must first complete the steps in the topic, [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md) procedure.</span></span> <span data-ttu-id="bbab1-107">然后完成[在 RCS 中准备要使用的应用程序元数据](prepare-application-metadata-rcs.md)主题中的步骤。</span><span class="sxs-lookup"><span data-stu-id="bbab1-107">Then complete the steps in the topic, [Prepare application metadata to be used in RCS](prepare-application-metadata-rcs.md).</span></span>
+<span data-ttu-id="16b71-104">以下步骤介绍系统管理员或电子报表开发人员角色的 Regulatory Configuration Service (RCS) 用户如何使用应用程序元数据设计新的电子报表 (ER) 模型映射。</span><span class="sxs-lookup"><span data-stu-id="16b71-104">The following steps explain how a Regulatory configuration service (RCS) user in the System Administrator or Electronic Reporting Developer role can design a new Electronic reporting (ER) model mapping by using the application metadata.</span></span> <span data-ttu-id="16b71-105">可访问应用程序元数据，方法是使用其中包含一组示例元数据的 ER 配置访问外贸交易。</span><span class="sxs-lookup"><span data-stu-id="16b71-105">Application metadata will be accessed by using an ER metadata configuration that contains a sample set of metadata to access foreign trade transactions.</span></span> <span data-ttu-id="16b71-106">为了完成这些步骤，您必须首先在 RCS 中完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)主题中的步骤。</span><span class="sxs-lookup"><span data-stu-id="16b71-106">To complete these steps, in RCS you must first complete the steps in the topic, [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md) procedure.</span></span> <span data-ttu-id="16b71-107">然后完成[在 RCS 中准备要使用的应用程序元数据](prepare-application-metadata-rcs.md)主题中的步骤。</span><span class="sxs-lookup"><span data-stu-id="16b71-107">Then complete the steps in the topic, [Prepare application metadata to be used in RCS](prepare-application-metadata-rcs.md).</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="bbab1-108">先决条件</span><span class="sxs-lookup"><span data-stu-id="bbab1-108">Prerequisites</span></span>
-1. <span data-ttu-id="bbab1-109">转到 **所有工作区** > **电子申报**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-109">Go to **All workspaces** > **Electronic reporting**.</span></span> 
-2. <span data-ttu-id="bbab1-110">确保示例公司 Litware 公司的配置提供程序可用且标记为 **有效**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-110">Make sure that the configuration provider for the sample company, Litware, Inc., is available and marked as **Active**.</span></span> <span data-ttu-id="bbab1-111">如果没有看到此配置提供程序，请首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)这一过程中的步骤。</span><span class="sxs-lookup"><span data-stu-id="bbab1-111">If you don't see this configuration provider, complete the steps in the procedure [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md).</span></span> 
+## <a name="prerequisites"></a><span data-ttu-id="16b71-108">先决条件</span><span class="sxs-lookup"><span data-stu-id="16b71-108">Prerequisites</span></span>
+1. <span data-ttu-id="16b71-109">转到 **所有工作区** > **电子申报**。</span><span class="sxs-lookup"><span data-stu-id="16b71-109">Go to **All workspaces** > **Electronic reporting**.</span></span> 
+2. <span data-ttu-id="16b71-110">确保示例公司 Litware 公司的配置提供程序可用且标记为 **有效**。</span><span class="sxs-lookup"><span data-stu-id="16b71-110">Make sure that the configuration provider for the sample company, Litware, Inc., is available and marked as **Active**.</span></span> <span data-ttu-id="16b71-111">如果没有看到此配置提供程序，请首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)这一过程中的步骤。</span><span class="sxs-lookup"><span data-stu-id="16b71-111">If you don't see this configuration provider, complete the steps in the procedure [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md).</span></span> 
 
-## <a name="import-metadata-configuration"></a><span data-ttu-id="bbab1-112">导入元数据配置</span><span class="sxs-lookup"><span data-stu-id="bbab1-112">Import metadata configuration</span></span> 
-1. <span data-ttu-id="bbab1-113">单击 **元数据配置**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-113">Click **Metadata configurations**.</span></span> 
-2. <span data-ttu-id="bbab1-114">导入包含已配置为为外贸业务生成电子单据的元数据的 ER 元数据配置。</span><span class="sxs-lookup"><span data-stu-id="bbab1-114">Import the ER metadata configuration that contains metadata that has been configured to generate electronic documents for foreign trade business.</span></span> <span data-ttu-id="bbab1-115">由于已完成了[在 RCS 中准备要使用的应用程序元数据](prepare-application-metadata-rcs.md)过程中的步骤，所以此 ER 元数据配置已导出为 XML 文件。</span><span class="sxs-lookup"><span data-stu-id="bbab1-115">This ER metadata configuration has been exported as XML file while the steps in the [Prepare application metadata to be used in RCS](prepare-application-metadata-rcs.md) procedure have been completed.</span></span> 
-3. <span data-ttu-id="bbab1-116">单击 **交换**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-116">Click **Exchange**.</span></span> 
-4. <span data-ttu-id="bbab1-117">单击 **从 XML 文件加载**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-117">Click **Load from XML file**.</span></span> 
-5. <span data-ttu-id="bbab1-118">单击 **浏览** 并选择“Foreign trade metadata.xml”文件。</span><span class="sxs-lookup"><span data-stu-id="bbab1-118">Click **Browse** and select the 'Foreign trade metadata.xml' file.</span></span> 
-6. <span data-ttu-id="bbab1-119">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-119">Click **OK**.</span></span> 
-7. <span data-ttu-id="bbab1-120">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="bbab1-120">Close the page.</span></span> 
+## <a name="import-metadata-configuration"></a><span data-ttu-id="16b71-112">导入元数据配置</span><span class="sxs-lookup"><span data-stu-id="16b71-112">Import metadata configuration</span></span> 
+1. <span data-ttu-id="16b71-113">单击 **元数据配置**。</span><span class="sxs-lookup"><span data-stu-id="16b71-113">Click **Metadata configurations**.</span></span> 
+2. <span data-ttu-id="16b71-114">导入包含已配置为为外贸业务生成电子单据的元数据的 ER 元数据配置。</span><span class="sxs-lookup"><span data-stu-id="16b71-114">Import the ER metadata configuration that contains metadata that has been configured to generate electronic documents for foreign trade business.</span></span> <span data-ttu-id="16b71-115">由于已完成了[在 RCS 中准备要使用的应用程序元数据](prepare-application-metadata-rcs.md)过程中的步骤，所以此 ER 元数据配置已导出为 XML 文件。</span><span class="sxs-lookup"><span data-stu-id="16b71-115">This ER metadata configuration has been exported as XML file while the steps in the [Prepare application metadata to be used in RCS](prepare-application-metadata-rcs.md) procedure have been completed.</span></span> 
+3. <span data-ttu-id="16b71-116">单击 **交换**。</span><span class="sxs-lookup"><span data-stu-id="16b71-116">Click **Exchange**.</span></span> 
+4. <span data-ttu-id="16b71-117">单击 **从 XML 文件加载**。</span><span class="sxs-lookup"><span data-stu-id="16b71-117">Click **Load from XML file**.</span></span> 
+5. <span data-ttu-id="16b71-118">单击 **浏览** 并选择“Foreign trade metadata.xml”文件。</span><span class="sxs-lookup"><span data-stu-id="16b71-118">Click **Browse** and select the 'Foreign trade metadata.xml' file.</span></span> 
+6. <span data-ttu-id="16b71-119">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="16b71-119">Click **OK**.</span></span> 
+7. <span data-ttu-id="16b71-120">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="16b71-120">Close the page.</span></span> 
 
-## <a name="create-data-model-configuration"></a><span data-ttu-id="bbab1-121">创建数据模型配置</span><span class="sxs-lookup"><span data-stu-id="bbab1-121">Create data model configuration</span></span>
-1. <span data-ttu-id="bbab1-122">单击 **申报配置**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-122">Click **Reporting configurations**.</span></span> 
-2. <span data-ttu-id="bbab1-123">单击 **创建配置**，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="bbab1-123">Click **Create configuration** to open the drop dialog.</span></span> 
-3. <span data-ttu-id="bbab1-124">在 **名称** 字段中键入“外贸模型”。</span><span class="sxs-lookup"><span data-stu-id="bbab1-124">In the **Name** field, type 'Foreign trade model'.</span></span> 
-4. <span data-ttu-id="bbab1-125">单击 **创建配置**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-125">Click **Create configuration**.</span></span> 
-5. <span data-ttu-id="bbab1-126">单击 **设计器**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-126">Click **Designer**.</span></span> 
-6. <span data-ttu-id="bbab1-127">单击 **新建**，以打开对话框。</span><span class="sxs-lookup"><span data-stu-id="bbab1-127">Click **New** to open the drop dialog.</span></span> 
-7. <span data-ttu-id="bbab1-128">在 **名称** 字段中，键入“根”。</span><span class="sxs-lookup"><span data-stu-id="bbab1-128">In the **Name** field, type 'Root'.</span></span> 
-8. <span data-ttu-id="bbab1-129">单击 **添加**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-129">Click **Add**.</span></span> 
-9. <span data-ttu-id="bbab1-130">单击 **新建**，以打开对话框。</span><span class="sxs-lookup"><span data-stu-id="bbab1-130">Click **New** to open the drop dialog.</span></span> 
-10.    <span data-ttu-id="bbab1-131">在 **名称** 字段中，键入“交易”。</span><span class="sxs-lookup"><span data-stu-id="bbab1-131">In the **Name** field, type 'Transaction'.</span></span> 
-11.    <span data-ttu-id="bbab1-132">在 **物料类型** 字段中，选择 **记录列表**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-132">In the **Item type** field, select **Record list**.</span></span> 
-12.    <span data-ttu-id="bbab1-133">单击 **添加**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-133">Click **Add**.</span></span> 
-13.    <span data-ttu-id="bbab1-134">单击 **新建**，以打开对话框。</span><span class="sxs-lookup"><span data-stu-id="bbab1-134">Click **New** to open the drop dialog.</span></span> 
-14.    <span data-ttu-id="bbab1-135">在 **名称** 字段中，键入“商品代码”。</span><span class="sxs-lookup"><span data-stu-id="bbab1-135">In the **Name** field, type 'Commodity code'.</span></span> 
-15.    <span data-ttu-id="bbab1-136">在 **物料类型** 字段中，选择 **字符串**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-136">In the **Item type** field, select **String**.</span></span> 
-16.    <span data-ttu-id="bbab1-137">单击 **添加**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-137">Click **Add**.</span></span> 
-17.    <span data-ttu-id="bbab1-138">单击 **新建**，以打开对话框。</span><span class="sxs-lookup"><span data-stu-id="bbab1-138">Click **New** to open the drop dialog.</span></span> 
-18.    <span data-ttu-id="bbab1-139">在 **名称** 字段中，键入“开票金额”。</span><span class="sxs-lookup"><span data-stu-id="bbab1-139">In the **Name** field, type 'Invoiced amount'.</span></span> 
-19.    <span data-ttu-id="bbab1-140">在 **物料类型** 字段中，选择 **实际**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-140">In the **Item type** field, select **Real**.</span></span> 
-20.    <span data-ttu-id="bbab1-141">单击 **添加**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-141">Click **Add**.</span></span> 
-21.    <span data-ttu-id="bbab1-142">单击 **新建**，以打开对话框。</span><span class="sxs-lookup"><span data-stu-id="bbab1-142">Click **New** to open the drop dialog.</span></span> 
-22.    <span data-ttu-id="bbab1-143">在 **名称** 字段中，键入“日期”。</span><span class="sxs-lookup"><span data-stu-id="bbab1-143">In the **Name** field, type 'Date'.</span></span> 
-23.    <span data-ttu-id="bbab1-144">在 **物料类型** 字段中，选择 **日期**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-144">In the **Item type** field, select **Date**.</span></span> 
-24.    <span data-ttu-id="bbab1-145">单击 **添加**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-145">Click **Add**.</span></span> 
-25.    <span data-ttu-id="bbab1-146">单击 **根引用**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-146">Click **Root reference**.</span></span> 
-26.    <span data-ttu-id="bbab1-147">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-147">Click **OK**.</span></span> 
-27.    <span data-ttu-id="bbab1-148">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-148">Click **Save**.</span></span> 
-28.    <span data-ttu-id="bbab1-149">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="bbab1-149">Close the page.</span></span> 
-29.    <span data-ttu-id="bbab1-150">单击 **更改状态**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-150">Click **Change status**.</span></span> 
-30.    <span data-ttu-id="bbab1-151">单击 **完成**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-151">Click **Complete**.</span></span> 
-31.    <span data-ttu-id="bbab1-152">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-152">Click **OK**.</span></span> 
+## <a name="create-data-model-configuration"></a><span data-ttu-id="16b71-121">创建数据模型配置</span><span class="sxs-lookup"><span data-stu-id="16b71-121">Create data model configuration</span></span>
+1. <span data-ttu-id="16b71-122">单击 **申报配置**。</span><span class="sxs-lookup"><span data-stu-id="16b71-122">Click **Reporting configurations**.</span></span> 
+2. <span data-ttu-id="16b71-123">单击 **创建配置**，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="16b71-123">Click **Create configuration** to open the drop dialog.</span></span> 
+3. <span data-ttu-id="16b71-124">在 **名称** 字段中键入“外贸模型”。</span><span class="sxs-lookup"><span data-stu-id="16b71-124">In the **Name** field, type 'Foreign trade model'.</span></span> 
+4. <span data-ttu-id="16b71-125">单击 **创建配置**。</span><span class="sxs-lookup"><span data-stu-id="16b71-125">Click **Create configuration**.</span></span> 
+5. <span data-ttu-id="16b71-126">单击 **设计器**。</span><span class="sxs-lookup"><span data-stu-id="16b71-126">Click **Designer**.</span></span> 
+6. <span data-ttu-id="16b71-127">单击 **新建**，以打开对话框。</span><span class="sxs-lookup"><span data-stu-id="16b71-127">Click **New** to open the drop dialog.</span></span> 
+7. <span data-ttu-id="16b71-128">在 **名称** 字段中，键入“根”。</span><span class="sxs-lookup"><span data-stu-id="16b71-128">In the **Name** field, type 'Root'.</span></span> 
+8. <span data-ttu-id="16b71-129">单击 **添加**。</span><span class="sxs-lookup"><span data-stu-id="16b71-129">Click **Add**.</span></span> 
+9. <span data-ttu-id="16b71-130">单击 **新建**，以打开对话框。</span><span class="sxs-lookup"><span data-stu-id="16b71-130">Click **New** to open the drop dialog.</span></span> 
+10.    <span data-ttu-id="16b71-131">在 **名称** 字段中，键入“交易”。</span><span class="sxs-lookup"><span data-stu-id="16b71-131">In the **Name** field, type 'Transaction'.</span></span> 
+11.    <span data-ttu-id="16b71-132">在 **物料类型** 字段中，选择 **记录列表**。</span><span class="sxs-lookup"><span data-stu-id="16b71-132">In the **Item type** field, select **Record list**.</span></span> 
+12.    <span data-ttu-id="16b71-133">单击 **添加**。</span><span class="sxs-lookup"><span data-stu-id="16b71-133">Click **Add**.</span></span> 
+13.    <span data-ttu-id="16b71-134">单击 **新建**，以打开对话框。</span><span class="sxs-lookup"><span data-stu-id="16b71-134">Click **New** to open the drop dialog.</span></span> 
+14.    <span data-ttu-id="16b71-135">在 **名称** 字段中，键入“商品代码”。</span><span class="sxs-lookup"><span data-stu-id="16b71-135">In the **Name** field, type 'Commodity code'.</span></span> 
+15.    <span data-ttu-id="16b71-136">在 **物料类型** 字段中，选择 **字符串**。</span><span class="sxs-lookup"><span data-stu-id="16b71-136">In the **Item type** field, select **String**.</span></span> 
+16.    <span data-ttu-id="16b71-137">单击 **添加**。</span><span class="sxs-lookup"><span data-stu-id="16b71-137">Click **Add**.</span></span> 
+17.    <span data-ttu-id="16b71-138">单击 **新建**，以打开对话框。</span><span class="sxs-lookup"><span data-stu-id="16b71-138">Click **New** to open the drop dialog.</span></span> 
+18.    <span data-ttu-id="16b71-139">在 **名称** 字段中，键入“开票金额”。</span><span class="sxs-lookup"><span data-stu-id="16b71-139">In the **Name** field, type 'Invoiced amount'.</span></span> 
+19.    <span data-ttu-id="16b71-140">在 **物料类型** 字段中，选择 **实际**。</span><span class="sxs-lookup"><span data-stu-id="16b71-140">In the **Item type** field, select **Real**.</span></span> 
+20.    <span data-ttu-id="16b71-141">单击 **添加**。</span><span class="sxs-lookup"><span data-stu-id="16b71-141">Click **Add**.</span></span> 
+21.    <span data-ttu-id="16b71-142">单击 **新建**，以打开对话框。</span><span class="sxs-lookup"><span data-stu-id="16b71-142">Click **New** to open the drop dialog.</span></span> 
+22.    <span data-ttu-id="16b71-143">在 **名称** 字段中，键入“日期”。</span><span class="sxs-lookup"><span data-stu-id="16b71-143">In the **Name** field, type 'Date'.</span></span> 
+23.    <span data-ttu-id="16b71-144">在 **物料类型** 字段中，选择 **日期**。</span><span class="sxs-lookup"><span data-stu-id="16b71-144">In the **Item type** field, select **Date**.</span></span> 
+24.    <span data-ttu-id="16b71-145">单击 **添加**。</span><span class="sxs-lookup"><span data-stu-id="16b71-145">Click **Add**.</span></span> 
+25.    <span data-ttu-id="16b71-146">单击 **根引用**。</span><span class="sxs-lookup"><span data-stu-id="16b71-146">Click **Root reference**.</span></span> 
+26.    <span data-ttu-id="16b71-147">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="16b71-147">Click **OK**.</span></span> 
+27.    <span data-ttu-id="16b71-148">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="16b71-148">Click **Save**.</span></span> 
+28.    <span data-ttu-id="16b71-149">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="16b71-149">Close the page.</span></span> 
+29.    <span data-ttu-id="16b71-150">单击 **更改状态**。</span><span class="sxs-lookup"><span data-stu-id="16b71-150">Click **Change status**.</span></span> 
+30.    <span data-ttu-id="16b71-151">单击 **完成**。</span><span class="sxs-lookup"><span data-stu-id="16b71-151">Click **Complete**.</span></span> 
+31.    <span data-ttu-id="16b71-152">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="16b71-152">Click **OK**.</span></span> 
 
-## <a name="create-model-mapping-configuration"></a><span data-ttu-id="bbab1-153">创建模型映射配置</span><span class="sxs-lookup"><span data-stu-id="bbab1-153">Create model mapping configuration</span></span> 
-1. <span data-ttu-id="bbab1-154">单击 **创建配置**，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="bbab1-154">Click **Create configuration** to open the drop dialog.</span></span> 
-2. <span data-ttu-id="bbab1-155">在 **新建** 字段中，输入“基于数据模型‘外贸模型’的模型映射”。</span><span class="sxs-lookup"><span data-stu-id="bbab1-155">In the **New** field, enter 'Model Mapping based on data model Foreign trade model'.</span></span> 
-3. <span data-ttu-id="bbab1-156">在 **名称** 字段中键入“外贸映射”。</span><span class="sxs-lookup"><span data-stu-id="bbab1-156">In the **Name** field, type 'Foreign trade mapping'.</span></span> 
-4. <span data-ttu-id="bbab1-157">单击 **创建配置**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-157">Click **Create configuration**.</span></span> 
-5. <span data-ttu-id="bbab1-158">展开 **先决条件** 部分。</span><span class="sxs-lookup"><span data-stu-id="bbab1-158">Expand the **Prerequisites** section.</span></span> 
-6. <span data-ttu-id="bbab1-159">单击 **编辑**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-159">Click **Edit**.</span></span> 
-7. <span data-ttu-id="bbab1-160">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-160">Click **New**.</span></span> 
-8. <span data-ttu-id="bbab1-161">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="bbab1-161">In the list, mark the selected row.</span></span> 
-9. <span data-ttu-id="bbab1-162">在 **先决条件组件类型** 字段中，选择 **配置**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-162">In the **Prerequisite component type** field, select **Configuration**.</span></span> 
-10.    <span data-ttu-id="bbab1-163">选择 **外贸元数据** 配置。</span><span class="sxs-lookup"><span data-stu-id="bbab1-163">Select **Foreign trade metadata** configuration.</span></span> 
-11.    <span data-ttu-id="bbab1-164">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-164">Click **Save**.</span></span> 
-12.    <span data-ttu-id="bbab1-165">已添加了对“外贸元数据”配置版本 1 的引用。</span><span class="sxs-lookup"><span data-stu-id="bbab1-165">We added the reference to the version 1 of the 'Foreign trade metadata' configuration.</span></span> <span data-ttu-id="bbab1-166">设计此模型映射时，将提供来自此配置的应用程序元数据。</span><span class="sxs-lookup"><span data-stu-id="bbab1-166">Application metadata from this configuration will be offered while this model mapping will be designed.</span></span> 
-13.    <span data-ttu-id="bbab1-167">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="bbab1-167">Close the page.</span></span> 
-14.    <span data-ttu-id="bbab1-168">单击 **设计器**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-168">Click **Designer**.</span></span> 
-15.    <span data-ttu-id="bbab1-169">单击 **设计器**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-169">Click **Designer**.</span></span> 
-16.    <span data-ttu-id="bbab1-170">在树中，选择 **Dynamics 365 for Operations\表记录**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-170">In the tree, select **Dynamics 365 for Operations\Table records**.</span></span> 
-17.    <span data-ttu-id="bbab1-171">单击 **添加根**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-171">Click **Add root**.</span></span> 
-18.    <span data-ttu-id="bbab1-172">在 **名称** 字段中，键入“内部统计”。</span><span class="sxs-lookup"><span data-stu-id="bbab1-172">In the **Name** field, type 'Intrastat'.</span></span> 
-19.    <span data-ttu-id="bbab1-173">选择 **内部统计** 表记录。</span><span class="sxs-lookup"><span data-stu-id="bbab1-173">Select **Intrastat** table records.</span></span> 
-20.    <span data-ttu-id="bbab1-174">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-174">Click **OK**.</span></span> 
-
-> [!NOTE]
-> <span data-ttu-id="bbab1-175">仅提供了 2 个表，因为仅向当前正在使用的元数据集添加了 2 个表。</span><span class="sxs-lookup"><span data-stu-id="bbab1-175">The only 2 tables were offered as the only 2 tables were added into the set of metadata which is currently in use.</span></span> 
-
-21.    <span data-ttu-id="bbab1-176">单击 **绑定**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-176">Click **Bind**.</span></span> 
-22.    <span data-ttu-id="bbab1-177">在树中，展开 **内部统计**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-177">In the tree, expand **Intrastat**.</span></span> 
-23.    <span data-ttu-id="bbab1-178">在树中，选择 **内部统计\AmountMST**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-178">In the tree, select **Intrastat\AmountMST**.</span></span> 
-24.    <span data-ttu-id="bbab1-179">在树中，展开 **交易 = 内部统计**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-179">In the tree, expand **Transaction = Intrastat**.</span></span> 
-25.    <span data-ttu-id="bbab1-180">在树中，选择 **交易 = 内部统计\开票金额**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-180">In the tree, select **Transaction = Intrastat\Invoiced amount**.</span></span> 
-26.    <span data-ttu-id="bbab1-181">单击 **绑定**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-181">Click **Bind**.</span></span> 
-27.    <span data-ttu-id="bbab1-182">在树中，选择 **内部统计\TransDate**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-182">In the tree, select **Intrastat\TransDate**.</span></span> 
-28.    <span data-ttu-id="bbab1-183">在树中，选择 **交易 = 内部统计\日期**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-183">In the tree, select **Transaction = Intrastat\Date**.</span></span> 
-29.    <span data-ttu-id="bbab1-184">单击 **绑定**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-184">Click **Bind**.</span></span> 
-30.    <span data-ttu-id="bbab1-185">在树中，展开 **内部统计\>关系**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-185">In the tree, expand **Intrastat\>Relations**.</span></span> 
-31.    <span data-ttu-id="bbab1-186">在树中，展开 **内部统计\>关系\IntrastatCommodity**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-186">In the tree, expand **Intrastat\>Relations\IntrastatCommodity**.</span></span> 
-32.    <span data-ttu-id="bbab1-187">在树中，选择 **内部统计\>关系\IntrastatCommodity\代码**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-187">In the tree, select **Intrastat\>Relations\IntrastatCommodity\Code**.</span></span> 
-33.    <span data-ttu-id="bbab1-188">在树中，选择 **交易 = 内部统计\商品代码**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-188">In the tree, select **Transaction = Intrastat\Commodity code**.</span></span> 
-34.    <span data-ttu-id="bbab1-189">单击 **绑定**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-189">Click **Bind**.</span></span> 
-35.    <span data-ttu-id="bbab1-190">单击 **验证**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-190">Click **Validate**.</span></span> 
+## <a name="create-model-mapping-configuration"></a><span data-ttu-id="16b71-153">创建模型映射配置</span><span class="sxs-lookup"><span data-stu-id="16b71-153">Create model mapping configuration</span></span> 
+1. <span data-ttu-id="16b71-154">单击 **创建配置**，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="16b71-154">Click **Create configuration** to open the drop dialog.</span></span> 
+2. <span data-ttu-id="16b71-155">在 **新建** 字段中，输入“基于数据模型‘外贸模型’的模型映射”。</span><span class="sxs-lookup"><span data-stu-id="16b71-155">In the **New** field, enter 'Model Mapping based on data model Foreign trade model'.</span></span> 
+3. <span data-ttu-id="16b71-156">在 **名称** 字段中键入“外贸映射”。</span><span class="sxs-lookup"><span data-stu-id="16b71-156">In the **Name** field, type 'Foreign trade mapping'.</span></span> 
+4. <span data-ttu-id="16b71-157">单击 **创建配置**。</span><span class="sxs-lookup"><span data-stu-id="16b71-157">Click **Create configuration**.</span></span> 
+5. <span data-ttu-id="16b71-158">展开 **先决条件** 部分。</span><span class="sxs-lookup"><span data-stu-id="16b71-158">Expand the **Prerequisites** section.</span></span> 
+6. <span data-ttu-id="16b71-159">单击 **编辑**。</span><span class="sxs-lookup"><span data-stu-id="16b71-159">Click **Edit**.</span></span> 
+7. <span data-ttu-id="16b71-160">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="16b71-160">Click **New**.</span></span> 
+8. <span data-ttu-id="16b71-161">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="16b71-161">In the list, mark the selected row.</span></span> 
+9. <span data-ttu-id="16b71-162">在 **先决条件组件类型** 字段中，选择 **配置**。</span><span class="sxs-lookup"><span data-stu-id="16b71-162">In the **Prerequisite component type** field, select **Configuration**.</span></span> 
+10.    <span data-ttu-id="16b71-163">选择 **外贸元数据** 配置。</span><span class="sxs-lookup"><span data-stu-id="16b71-163">Select **Foreign trade metadata** configuration.</span></span> 
+11.    <span data-ttu-id="16b71-164">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="16b71-164">Click **Save**.</span></span> 
+12.    <span data-ttu-id="16b71-165">已添加了对“外贸元数据”配置版本 1 的引用。</span><span class="sxs-lookup"><span data-stu-id="16b71-165">We added the reference to the version 1 of the 'Foreign trade metadata' configuration.</span></span> <span data-ttu-id="16b71-166">设计此模型映射时，将提供来自此配置的应用程序元数据。</span><span class="sxs-lookup"><span data-stu-id="16b71-166">Application metadata from this configuration will be offered while this model mapping will be designed.</span></span> 
+13.    <span data-ttu-id="16b71-167">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="16b71-167">Close the page.</span></span> 
+14.    <span data-ttu-id="16b71-168">单击 **设计器**。</span><span class="sxs-lookup"><span data-stu-id="16b71-168">Click **Designer**.</span></span> 
+15.    <span data-ttu-id="16b71-169">单击 **设计器**。</span><span class="sxs-lookup"><span data-stu-id="16b71-169">Click **Designer**.</span></span> 
+16.    <span data-ttu-id="16b71-170">在树中，选择 **Dynamics 365 for Operations\表记录**。</span><span class="sxs-lookup"><span data-stu-id="16b71-170">In the tree, select **Dynamics 365 for Operations\Table records**.</span></span> 
+17.    <span data-ttu-id="16b71-171">单击 **添加根**。</span><span class="sxs-lookup"><span data-stu-id="16b71-171">Click **Add root**.</span></span> 
+18.    <span data-ttu-id="16b71-172">在 **名称** 字段中，键入“内部统计”。</span><span class="sxs-lookup"><span data-stu-id="16b71-172">In the **Name** field, type 'Intrastat'.</span></span> 
+19.    <span data-ttu-id="16b71-173">选择 **内部统计** 表记录。</span><span class="sxs-lookup"><span data-stu-id="16b71-173">Select **Intrastat** table records.</span></span> 
+20.    <span data-ttu-id="16b71-174">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="16b71-174">Click **OK**.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="bbab1-191">我们已使用来自引用的 ER 元数据配置的应用程序元数据详细信息成功绑定了带有介绍的数据源项的数据模型的元素。</span><span class="sxs-lookup"><span data-stu-id="bbab1-191">We have successfully bound elements of data model with items of data sources that are described by using details of application metadata from the referred ER metadata configuration.</span></span> 
-36.    <span data-ttu-id="bbab1-192">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="bbab1-192">Click **Save**.</span></span> 
-37.    <span data-ttu-id="bbab1-193">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="bbab1-193">Close the page.</span></span> 
-38.    <span data-ttu-id="bbab1-194">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="bbab1-194">Close the page.</span></span> 
-39.    <span data-ttu-id="bbab1-195">在需要时，您可以扩展现有的元数据集，然后导出新的已完成版本的 ER 元数据配置。</span><span class="sxs-lookup"><span data-stu-id="bbab1-195">When needed, you can extend the existing set of metadata and then export the new completed version of ER metadata configuration.</span></span> <span data-ttu-id="bbab1-196">然后，您可以将其导入 RCS，并更新配置的模型映射配置（引用已导入元数据配置的新版本）的先决条件。</span><span class="sxs-lookup"><span data-stu-id="bbab1-196">You can then import it to RCS, and update the prerequisites of the configured model mapping configuration referring to a new version of imported metadata configuration.</span></span> 
+> <span data-ttu-id="16b71-175">仅提供了 2 个表，因为仅向当前正在使用的元数据集添加了 2 个表。</span><span class="sxs-lookup"><span data-stu-id="16b71-175">The only 2 tables were offered as the only 2 tables were added into the set of metadata which is currently in use.</span></span> 
+
+21.    <span data-ttu-id="16b71-176">单击 **绑定**。</span><span class="sxs-lookup"><span data-stu-id="16b71-176">Click **Bind**.</span></span> 
+22.    <span data-ttu-id="16b71-177">在树中，展开 **内部统计**。</span><span class="sxs-lookup"><span data-stu-id="16b71-177">In the tree, expand **Intrastat**.</span></span> 
+23.    <span data-ttu-id="16b71-178">在树中，选择 **内部统计\AmountMST**。</span><span class="sxs-lookup"><span data-stu-id="16b71-178">In the tree, select **Intrastat\AmountMST**.</span></span> 
+24.    <span data-ttu-id="16b71-179">在树中，展开 **交易 = 内部统计**。</span><span class="sxs-lookup"><span data-stu-id="16b71-179">In the tree, expand **Transaction = Intrastat**.</span></span> 
+25.    <span data-ttu-id="16b71-180">在树中，选择 **交易 = 内部统计\开票金额**。</span><span class="sxs-lookup"><span data-stu-id="16b71-180">In the tree, select **Transaction = Intrastat\Invoiced amount**.</span></span> 
+26.    <span data-ttu-id="16b71-181">单击 **绑定**。</span><span class="sxs-lookup"><span data-stu-id="16b71-181">Click **Bind**.</span></span> 
+27.    <span data-ttu-id="16b71-182">在树中，选择 **内部统计\TransDate**。</span><span class="sxs-lookup"><span data-stu-id="16b71-182">In the tree, select **Intrastat\TransDate**.</span></span> 
+28.    <span data-ttu-id="16b71-183">在树中，选择 **交易 = 内部统计\日期**。</span><span class="sxs-lookup"><span data-stu-id="16b71-183">In the tree, select **Transaction = Intrastat\Date**.</span></span> 
+29.    <span data-ttu-id="16b71-184">单击 **绑定**。</span><span class="sxs-lookup"><span data-stu-id="16b71-184">Click **Bind**.</span></span> 
+30.    <span data-ttu-id="16b71-185">在树中，展开 **内部统计\>关系**。</span><span class="sxs-lookup"><span data-stu-id="16b71-185">In the tree, expand **Intrastat\>Relations**.</span></span> 
+31.    <span data-ttu-id="16b71-186">在树中，展开 **内部统计\>关系\IntrastatCommodity**。</span><span class="sxs-lookup"><span data-stu-id="16b71-186">In the tree, expand **Intrastat\>Relations\IntrastatCommodity**.</span></span> 
+32.    <span data-ttu-id="16b71-187">在树中，选择 **内部统计\>关系\IntrastatCommodity\代码**。</span><span class="sxs-lookup"><span data-stu-id="16b71-187">In the tree, select **Intrastat\>Relations\IntrastatCommodity\Code**.</span></span> 
+33.    <span data-ttu-id="16b71-188">在树中，选择 **交易 = 内部统计\商品代码**。</span><span class="sxs-lookup"><span data-stu-id="16b71-188">In the tree, select **Transaction = Intrastat\Commodity code**.</span></span> 
+34.    <span data-ttu-id="16b71-189">单击 **绑定**。</span><span class="sxs-lookup"><span data-stu-id="16b71-189">Click **Bind**.</span></span> 
+35.    <span data-ttu-id="16b71-190">单击 **验证**。</span><span class="sxs-lookup"><span data-stu-id="16b71-190">Click **Validate**.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="bbab1-197">本地部署的应用程序（此时使用本地业务数据 (LBD) 或本地部署的部署模型）只能使用这种方法获取有关应用程序元数据的信息。</span><span class="sxs-lookup"><span data-stu-id="bbab1-197">This way of getting information about application metadata is the only one available for locally deployed applications (when local business data (LBD), or on-premises, deployment model is used).</span></span>
+> <span data-ttu-id="16b71-191">我们已使用来自引用的 ER 元数据配置的应用程序元数据详细信息成功绑定了带有介绍的数据源项的数据模型的元素。</span><span class="sxs-lookup"><span data-stu-id="16b71-191">We have successfully bound elements of data model with items of data sources that are described by using details of application metadata from the referred ER metadata configuration.</span></span> 
+36.    <span data-ttu-id="16b71-192">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="16b71-192">Click **Save**.</span></span> 
+37.    <span data-ttu-id="16b71-193">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="16b71-193">Close the page.</span></span> 
+38.    <span data-ttu-id="16b71-194">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="16b71-194">Close the page.</span></span> 
+39.    <span data-ttu-id="16b71-195">在需要时，您可以扩展现有的元数据集，然后导出新的已完成版本的 ER 元数据配置。</span><span class="sxs-lookup"><span data-stu-id="16b71-195">When needed, you can extend the existing set of metadata and then export the new completed version of ER metadata configuration.</span></span> <span data-ttu-id="16b71-196">然后，您可以将其导入 RCS，并更新配置的模型映射配置（引用已导入元数据配置的新版本）的先决条件。</span><span class="sxs-lookup"><span data-stu-id="16b71-196">You can then import it to RCS, and update the prerequisites of the configured model mapping configuration referring to a new version of imported metadata configuration.</span></span> 
+
+> [!NOTE]
+> <span data-ttu-id="16b71-197">本地部署的应用程序（此时使用本地业务数据 (LBD) 或本地部署的部署模型）只能使用这种方法获取有关应用程序元数据的信息。</span><span class="sxs-lookup"><span data-stu-id="16b71-197">This way of getting information about application metadata is the only one available for locally deployed applications (when local business data (LBD), or on-premises, deployment model is used).</span></span>
         
 
 

@@ -2,11 +2,9 @@
 title: “可雇用的应聘者”的查询示例
 description: 本主题提供 Dynamics 365 Human Resources 中“可雇用的应聘者”实体的示例查询。
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,31 +14,31 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2fc08586914fd3815b0da062f24d83ac550302f
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: ea6fc745ffb5892a32196394cb28cb5e646b7639
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467617"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795061"
 ---
-# <a name="example-query-for-candidate-to-hire"></a><span data-ttu-id="681ba-103">“可雇用的应聘者”的查询示例</span><span class="sxs-lookup"><span data-stu-id="681ba-103">Example query for Candidate to hire</span></span>
+# <a name="example-query-for-candidate-to-hire"></a><span data-ttu-id="54b32-103">“可雇用的应聘者”的查询示例</span><span class="sxs-lookup"><span data-stu-id="54b32-103">Example query for Candidate to hire</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="681ba-104">本主题提供 Dynamics 365 Human Resources 中“可雇用的应聘者”实体的示例查询。</span><span class="sxs-lookup"><span data-stu-id="681ba-104">This topic provides an example query for the Candidate to hire entity in Dynamics 365 Human Resources.</span></span>
+<span data-ttu-id="54b32-104">本主题提供 Dynamics 365 Human Resources 中“可雇用的应聘者”实体的示例查询。</span><span class="sxs-lookup"><span data-stu-id="54b32-104">This topic provides an example query for the Candidate to hire entity in Dynamics 365 Human Resources.</span></span>
 
-<span data-ttu-id="681ba-105">本主题提供了一个示例，演示如何在单个 API 操作中使用 *深插入* 创建新应聘者记录的所有详细信息。</span><span class="sxs-lookup"><span data-stu-id="681ba-105">This topic provides an example demonstrating how you can use *deep inserts* to create all the detail of a new candidate record in a single API operation.</span></span> <span data-ttu-id="681ba-106">有关深插入的详细信息，请参阅[在一个操作中创建相关实体记录](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation)。</span><span class="sxs-lookup"><span data-stu-id="681ba-106">For more information about deep inserts, see [Create related entity records in one operation](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).</span></span>
+<span data-ttu-id="54b32-105">本主题提供了一个示例，演示如何在单个 API 操作中使用 *深插入* 创建新应聘者记录的所有详细信息。</span><span class="sxs-lookup"><span data-stu-id="54b32-105">This topic provides an example demonstrating how you can use *deep inserts* to create all the detail of a new candidate record in a single API operation.</span></span> <span data-ttu-id="54b32-106">有关深插入的详细信息，请参阅[在一个操作中创建相关实体记录](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation)。</span><span class="sxs-lookup"><span data-stu-id="54b32-106">For more information about deep inserts, see [Create related entity records in one operation](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).</span></span>
 
-<span data-ttu-id="681ba-107">由于与 **mshr_dirpersonentity** 实体之间的关系，**mshr_hcmcandidatetohireentity** 实体是唯一的。</span><span class="sxs-lookup"><span data-stu-id="681ba-107">The **mshr_hcmcandidatetohireentity** entity is unique because of its relationship to the **mshr_dirpersonentity** entity.</span></span> <span data-ttu-id="681ba-108">**mshr_hcmcandidatetohireentity** 上的很多属性（例如，**mshr_firstname**、**mshr_lastname** 和 **mshr_birthdate**）都派生自 **mshr_dirpersonentity** 记录。</span><span class="sxs-lookup"><span data-stu-id="681ba-108">Many of the properties on the **mshr_hcmcandidatetohireentity** (for example, **mshr_firstname**, **mshr_lastname**, and **mshr_birthdate**) are derived from the **mshr_dirpersonentity** record.</span></span> <span data-ttu-id="681ba-109">如果在不使用深插入的情况下将新应聘者记录发布到 **mshr_hcmcandidatetohireentity**，您可以直接在 **mshr_hcmcandidatetohireentity** 记录中为这些属性定义值。</span><span class="sxs-lookup"><span data-stu-id="681ba-109">If you post a new candidate record to **mshr_hcmcandidatetohireentity** without using deep inserts, you can define values for these properties directly on the **mshr_hcmcandidatetohireentity** record.</span></span> <span data-ttu-id="681ba-110">关联的 **mshr_dirpersonentity** 记录将使用属性的定义值隐式创建。</span><span class="sxs-lookup"><span data-stu-id="681ba-110">The associated **mshr_dirpersonentity** record is created implicitly with the defined values for the properties.</span></span> <span data-ttu-id="681ba-111">然后，您可以作为单独的 API 调用创建任何其他相关实体记录（如技能或教育）。</span><span class="sxs-lookup"><span data-stu-id="681ba-111">You can then create any other related entity records (such as skills or education) as separate API calls.</span></span>
+<span data-ttu-id="54b32-107">由于与 **mshr_dirpersonentity** 实体之间的关系，**mshr_hcmcandidatetohireentity** 实体是唯一的。</span><span class="sxs-lookup"><span data-stu-id="54b32-107">The **mshr_hcmcandidatetohireentity** entity is unique because of its relationship to the **mshr_dirpersonentity** entity.</span></span> <span data-ttu-id="54b32-108">**mshr_hcmcandidatetohireentity** 上的很多属性（例如，**mshr_firstname**、**mshr_lastname** 和 **mshr_birthdate**）都派生自 **mshr_dirpersonentity** 记录。</span><span class="sxs-lookup"><span data-stu-id="54b32-108">Many of the properties on the **mshr_hcmcandidatetohireentity** (for example, **mshr_firstname**, **mshr_lastname**, and **mshr_birthdate**) are derived from the **mshr_dirpersonentity** record.</span></span> <span data-ttu-id="54b32-109">如果在不使用深插入的情况下将新应聘者记录发布到 **mshr_hcmcandidatetohireentity**，您可以直接在 **mshr_hcmcandidatetohireentity** 记录中为这些属性定义值。</span><span class="sxs-lookup"><span data-stu-id="54b32-109">If you post a new candidate record to **mshr_hcmcandidatetohireentity** without using deep inserts, you can define values for these properties directly on the **mshr_hcmcandidatetohireentity** record.</span></span> <span data-ttu-id="54b32-110">关联的 **mshr_dirpersonentity** 记录将使用属性的定义值隐式创建。</span><span class="sxs-lookup"><span data-stu-id="54b32-110">The associated **mshr_dirpersonentity** record is created implicitly with the defined values for the properties.</span></span> <span data-ttu-id="54b32-111">然后，您可以作为单独的 API 调用创建任何其他相关实体记录（如技能或教育）。</span><span class="sxs-lookup"><span data-stu-id="54b32-111">You can then create any other related entity records (such as skills or education) as separate API calls.</span></span>
 
-<span data-ttu-id="681ba-112">但是，如果您要使用深插入在一个操作中创建所有相关实体，则必须在该操作的嵌套级别定义特定于 **mshr_dirpersonentity** 实体的属性。</span><span class="sxs-lookup"><span data-stu-id="681ba-112">If, however, you want to use deep inserts to create all related entities in one operation, the properties specific to the **mshr_dirpersonentity** entity must be defined on that nested level of the operation.</span></span>
+<span data-ttu-id="54b32-112">但是，如果您要使用深插入在一个操作中创建所有相关实体，则必须在该操作的嵌套级别定义特定于 **mshr_dirpersonentity** 实体的属性。</span><span class="sxs-lookup"><span data-stu-id="54b32-112">If, however, you want to use deep inserts to create all related entities in one operation, the properties specific to the **mshr_dirpersonentity** entity must be defined on that nested level of the operation.</span></span>
 
-<span data-ttu-id="681ba-113">本示例说明如何在单个 API 操作中使用深插入在三个嵌套级别创建应聘者记录、关联人员记录以及人员的技能和教育情况。</span><span class="sxs-lookup"><span data-stu-id="681ba-113">This example shows how you can create a candidate record, the associated person record, and the person's skills and education in three nested levels using deep inserts in a single API operation.</span></span>
+<span data-ttu-id="54b32-113">本示例说明如何在单个 API 操作中使用深插入在三个嵌套级别创建应聘者记录、关联人员记录以及人员的技能和教育情况。</span><span class="sxs-lookup"><span data-stu-id="54b32-113">This example shows how you can create a candidate record, the associated person record, and the person's skills and education in three nested levels using deep inserts in a single API operation.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="681ba-114">此示例未包含每个 API 实体的所有属性。</span><span class="sxs-lookup"><span data-stu-id="681ba-114">The example does not include all properties of each of the API entities.</span></span> <span data-ttu-id="681ba-115">出于演示目的对其进行了简化。</span><span class="sxs-lookup"><span data-stu-id="681ba-115">It is simplified for demonstration purposes.</span></span>
+> <span data-ttu-id="54b32-114">此示例未包含每个 API 实体的所有属性。</span><span class="sxs-lookup"><span data-stu-id="54b32-114">The example does not include all properties of each of the API entities.</span></span> <span data-ttu-id="54b32-115">出于演示目的对其进行了简化。</span><span class="sxs-lookup"><span data-stu-id="54b32-115">It is simplified for demonstration purposes.</span></span>
 
-<span data-ttu-id="681ba-116">**申请**</span><span class="sxs-lookup"><span data-stu-id="681ba-116">**Request**</span></span>
+<span data-ttu-id="54b32-116">**申请**</span><span class="sxs-lookup"><span data-stu-id="54b32-116">**Request**</span></span>
 
 ```http
 
@@ -102,7 +100,7 @@ Accept: application/json
 }
 ```
 
-<span data-ttu-id="681ba-117">**响应**</span><span class="sxs-lookup"><span data-stu-id="681ba-117">**Response**</span></span>
+<span data-ttu-id="54b32-117">**响应**</span><span class="sxs-lookup"><span data-stu-id="54b32-117">**Response**</span></span>
 
 ```http
 
@@ -112,9 +110,9 @@ OData-EntityId: [Organization URI]/api/data/v9.1/mshr_hcmcandidatetohireentities
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="681ba-118">请参阅</span><span class="sxs-lookup"><span data-stu-id="681ba-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="54b32-118">请参阅</span><span class="sxs-lookup"><span data-stu-id="54b32-118">See also</span></span>
 
-[<span data-ttu-id="681ba-119">申请人跟踪系统集成 API 简介</span><span class="sxs-lookup"><span data-stu-id="681ba-119">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
+[<span data-ttu-id="54b32-119">申请人跟踪系统集成 API 简介</span><span class="sxs-lookup"><span data-stu-id="54b32-119">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
