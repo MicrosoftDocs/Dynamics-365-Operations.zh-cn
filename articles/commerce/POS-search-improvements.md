@@ -2,11 +2,9 @@
 title: 销售点 (POS) 中的产品搜索和客户搜索
 description: 此主题概述 Dynamics 365 Commerce 中的产品和客户搜索的增强功能。
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 23b556e72e1ec76be48336bed21d02abd9d31087
-ms.sourcegitcommit: db9b35ce6968cad8874b3c13d4c02d84e2617c8b
+ms.openlocfilehash: 1392b767815722c17b1cc72d27fe2bb8a7c32281
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5574711"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796358"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>销售点 (POS) 中的产品搜索和客户搜索
 

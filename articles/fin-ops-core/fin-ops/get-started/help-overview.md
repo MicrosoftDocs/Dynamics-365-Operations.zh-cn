@@ -2,7 +2,6 @@
 title: 帮助系统
 description: 本主题提供 Finance and Operations 应用帮助系统的概述。
 author: edupont04
-manager: AnnBe
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4763b0bc4ba0222e290a9056f421506c2f4eaf3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 46168dd9001921471114c219c57856b7bedf6465
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560869"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749820"
 ---
 # <a name="help-system"></a>帮助系统
 

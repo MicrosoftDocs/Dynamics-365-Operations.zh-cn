@@ -2,7 +2,6 @@
 title: 快速导入/导出
 description: 快速导入导出的目的是让您使用较少的步骤导入和导出。
 author: margoc
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: dynamics-ax-2012
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 2012 R3 CU8
-ms.openlocfilehash: 57d0ce9d483f4c849855e4247b4fd0fd067abb1b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e57b75fc1a697958d6a6e739ad809952217d3b4f
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565298"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744779"
 ---
 # <a name="quick-import-export"></a>快速导入/导出
 

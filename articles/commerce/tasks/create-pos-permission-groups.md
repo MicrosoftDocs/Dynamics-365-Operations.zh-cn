@@ -2,11 +2,9 @@
 title: 创建 POS 权限组
 description: 本主题介绍如何创建 POS 权限组。
 author: scott-tucker
-manager: AnnBe
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailPosPermissionGroup, HcmJob
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b2439d1912b3ca013f4a524f3354923d2a3f76ca
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1d4634ec275d3d1c2a131c4c1d61cc983e485b14
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5221273"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798481"
 ---
 # <a name="create-pos-permission-groups"></a>创建 POS 权限组
 

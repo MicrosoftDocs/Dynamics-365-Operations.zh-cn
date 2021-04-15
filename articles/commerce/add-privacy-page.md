@@ -2,11 +2,9 @@
 title: 添加隐私政策页面
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中添加隐私政策页面。
 author: v-chgri
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07a806ac040df9dee284e2466629221fbc3403a4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 12cd0358279684ce1d3050348c37209ba3d29140
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209267"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797519"
 ---
 # <a name="add-a-privacy-policy-page"></a>添加隐私策略页面
-
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中添加隐私政策页面。
-
-## <a name="overview"></a>概览
 
 隐私合规性包括通知站点用户如何收集和处理他们的数据的组织措施。 然后，用户可以决定他们要如何处理个人数据，并可以采取适当的行动。
 

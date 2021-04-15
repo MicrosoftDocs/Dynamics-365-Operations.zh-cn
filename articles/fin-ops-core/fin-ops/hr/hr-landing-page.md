@@ -1,8 +1,7 @@
 ---
-title: 人力资源概览
-description: “人力资源”简化了很多例行记录保留任务，并实现了与组织人员配备相关的很多流程的自动化。 它还提供了一个框架，供人力资源员工管理监督领域。 这些领域包括员工招聘和挽留、福利管理、培训、绩效评审和变更管理。
+title: Human Resources 概览
+description: Human Resources 简化例行记录保留任务，自动化与组织人员配备相关的流程，为管理监管方面的 Human Resources (HR) 人员提供一个框架。
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -14,14 +13,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fb04ed91c28dc87bdcf4e218cbeaf99f5442ab4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d6f70e7626100646feb12e8544b5ab943097b1a3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566690"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752172"
 ---
-# <a name="human-resources-overview"></a>人力资源概览
+# <a name="human-resources-overview"></a>Human Resources 概览
 
 [!include [banner](../includes/banner.md)]
 

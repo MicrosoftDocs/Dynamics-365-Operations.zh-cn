@@ -1,8 +1,7 @@
 ---
 title: 使用 Power BI Embedded 将分析添加到工作区
 description: 本主题说明如何在工作区的“分析”选项卡上嵌入 Power BI 报表。
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
@@ -10,15 +9,15 @@ ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4e757ce585b16b23d65506068dcc337211107199
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 8e82c9a5ff4b6d7db1a808e5a94206628cdf0930
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568482"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754590"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>使用 Power BI Embedded 将分析添加到工作区
 

@@ -2,7 +2,6 @@
 title: 电子申报 (ER) 概览
 description: 此主题概要介绍了电子报告工具。 介绍作为解决方案一部分的关键概念、支持的场景和格式。
 author: NickSelin
-manager: AnnBe
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 259a4c3778f547903e1349edbf26f19b478aa232
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f172e4d3e9c175a93d6fd64f0aa1933a48860bca
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568669"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750050"
 ---
 # <a name="electronic-reporting-er-overview"></a>电子报告 (ER) 概览
 

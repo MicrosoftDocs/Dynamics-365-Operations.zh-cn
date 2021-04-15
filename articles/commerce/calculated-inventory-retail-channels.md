@@ -2,11 +2,9 @@
 title: 计算零售渠道的库存现有量
 description: 此主题介绍可用于显示商店和在线渠道的现有库存的选项。
 author: hhainesms
-manager: annbe
 ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: ff60ef23c7e19e3f2f97d56fd416e0018a0c324d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 29efccab017d9dff98872871bfe953fba19d2c30
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213250"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799677"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>计算零售渠道的库存现有量
 

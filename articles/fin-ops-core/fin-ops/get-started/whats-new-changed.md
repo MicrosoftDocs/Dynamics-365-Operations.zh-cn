@@ -2,7 +2,6 @@
 title: Finance and Operations 应用中的新增功能或更改的功能主页
 description: 此页面向您介绍可以帮助您了解 Finance and Operations 应用程序最新版本的新功能的主题。
 author: josaw1
-manager: AnnBe
 ms.date: 02/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: e42ecd26cf17da5958255c2015da16d9ec44e388
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 67bac122593f53b1c43fcad74c39c2f40d091791
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566853"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750502"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Finance and Operations 应用中的新增功能或更改的功能主页
 

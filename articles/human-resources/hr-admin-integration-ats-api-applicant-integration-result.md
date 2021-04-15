@@ -2,11 +2,9 @@
 title: 申请人集成结果
 description: 本主题介绍 Dynamics 365 Human Resources 的申请人集成结果选项集。
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dd25eca9cccf46ec4e4bb2a1d948ca98985e73e4
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: e8e41fe485cc70a668d4610ce6eabba5cd16ac86
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467545"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795109"
 ---
 # <a name="applicant-integration-result"></a>申请人集成结果
 

@@ -2,11 +2,9 @@
 title: 暂停休假
 description: 可以在 Dynamics 365 Human Resources 中暂停员工的休假。
 author: andreabichsel
-manager: tfehr
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SuspendLeave, LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7cec59a0ed478752b44fd28494f549007cbfbddb
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 844692433fc87433d0610d061afd7adb92855b58
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463230"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794581"
 ---
 # <a name="suspend-leave"></a>暂停休假
 

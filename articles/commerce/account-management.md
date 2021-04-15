@@ -2,11 +2,9 @@
 title: 帐户管理页面和模块
 description: 此主题介绍 Microsoft Dynamics 365 Commerce 中的帐户管理页和模块。
 author: v-chgri
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 29523d03fb687684dae7d0ce08208905cce702df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: df4959a61f1b2948c62a558523a848ff8b2fe0a8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206623"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796286"
 ---
 # <a name="account-management-pages-and-modules"></a>帐户管理页面和模块
 
@@ -51,9 +49,9 @@ ms.locfileid: "5206623"
 
 订单详细信息页提供每个订单的详细信息，可从订单历史记录页访问。 它使用订单详细信息模块，后者需要销售 ID 或交易 ID 才能检索订单详细信息。
 
-### <a name="user-profile-page"></a>用户个人资料页
+### <a name="my-profile-page"></a>我的模板页
 
-用户个人资料页显示用户帐户详细信息，如用户的姓名和电子邮件地址。 它使用用户个人资料详细信息和用户个人资料编辑模块。 虽然不能删除电子邮件地址，但可以对其进行编辑。 用户个人资料页面还显示用户首选项，使用户可以选择加入或退出某些功能，例如建议列表的个性化。 
+我的个人资料页面使用帐户个人资料模块显示用户的帐户个人资料详细信息。 该页面显示与用户帐户关联的电子邮件地址，以及为该帐户设置的首选项。 如果设置自定义客户属性，则“其他信息”部分还将显示这些属性。 用户可以编辑其名称、首选项或其他信息（如果可用）。
 
 ### <a name="user-address-page"></a>用户地址页
 

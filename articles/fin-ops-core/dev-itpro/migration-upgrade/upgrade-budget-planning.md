@@ -2,7 +2,6 @@
 title: 升级预算计划
 description: 本主题说明必须重新配置的功能，描述完成升级后应考虑的新功能。
 author: panolte
-manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 86c4d83d35c7ca6bd5fe3a9f6c09e0457b40c523
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 27332703ac4943ef41a2cb2a70d86e2d9dfdf1ee
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565056"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745227"
 ---
 # <a name="upgrade-budget-planning"></a>升级预算计划
 

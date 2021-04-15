@@ -2,11 +2,9 @@
 title: 暂停和恢复销售点 (POS) 的交易
 description: 本主题说明用户如何使用 Dynamics 365 Commerce 暂停正在进行的交易，然后在以后或在其他收银机上恢复交易。
 author: jblucher
-manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fb92de200690b03a55a3a173fd433478c8e3175d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fdb693cb3b7520a9850d3e37dd512fc5b2a847f3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231264"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798649"
 ---
 # <a name="suspend-and-resume-a-transaction-in-the-point-of-sale-pos"></a>暂停和恢复销售点 (POS) 的交易
 

@@ -2,11 +2,9 @@
 title: 自定义字段
 description: 您可以在 Dynamics 365 Human Resources 中将自定义字段添加到页面。
 author: andreabichsel
-manager: tfehr
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cc730598c5d4b25637e15d053fcbceea00b6a182
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: b0a3efffaac5158f8dcdbc424139046a3fbc2f07
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464493"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793649"
 ---
 # <a name="custom-fields"></a>自定义字段
 

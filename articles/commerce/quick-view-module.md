@@ -2,11 +2,9 @@
 title: 快速查看模块
 description: 此主题介绍快速查看模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-manager: annbe
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2020-01-08
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 07fbf8d4115561808b7c61489b343e1c72dd1b6d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d7e88163fd9b8dc4f5636ed29e2c4248aece52bf
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243785"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792163"
 ---
 # <a name="quick-view-module"></a>快速查看模块
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 此主题介绍快速查看模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 

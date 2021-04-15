@@ -2,8 +2,7 @@
 title: SPLITLIST ER 函数
 description: 本主题提供有关 SPLITLIST 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-manager: kfend
-ms.date: 12/12/2019
+ms.date: 03/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af8c413726ca8d9f92eff18807e7fa9002fc9d37
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 99e199e238b3132622a8b305895637b430e8f6d2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559130"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745561"
 ---
 # <a name="splitlist-er-function"></a>SPLITLIST ER 函数
 
@@ -29,10 +28,16 @@ ms.locfileid: "5559130"
 
 `SPLITLIST` 函数将指定的列表拆分为多个子列表（或批次），每个批次包含指定的记录数。 然后作为包含批次的新 *记录列表* 值返回结果。
 
-## <a name="syntax"></a>语法
+## <a name="syntax-1"></a>语法 1
 
 ```vb
 SPLITLIST (list, number)
+```
+
+## <a name="syntax-2"></a>语法 2
+
+```vb
+SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>参数
@@ -44,6 +49,10 @@ SPLITLIST (list, number)
 `number`：*整数*
 
 每个批次的最大记录数。
+
+`on-demand reading flag`：*布尔值*
+
+指定是否应按需生成子列表元素的 *布尔* 值。
 
 ## <a name="return-values"></a>返回值
 
@@ -62,6 +71,8 @@ SPLITLIST (list, number)
 - **BatchNumber：** *整数*
 
     返回列表中当前批次的编号。
+
+当按需读取标志设置为 **True** 时，根据请求生成子列表，这允许减少内存消耗，但如果不按顺序使用元素，可能导致性能下降。
 
 ## <a name="example"></a>示例
 

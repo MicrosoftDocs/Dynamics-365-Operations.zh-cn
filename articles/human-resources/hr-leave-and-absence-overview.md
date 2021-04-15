@@ -2,11 +2,9 @@
 title: 休假和缺勤概览
 description: 在 Dynamics 365 Human Resources 中，休假和缺勤工作区为创建新的休假计划提供灵活的框架。 另外还提供用于管理请求的工作流，并为员工提供用于请求休假的直观的自助服务页面。
 author: andreabichsel
-manager: tfehr
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1192a45d0d2fffbe2ecba65551641c090c08db8e
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 827d0325fc9a97cf2b143e1c2705232dfd8a7ab2
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463422"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794653"
 ---
 # <a name="leave-and-absence-overview"></a>休假和缺勤概览
 

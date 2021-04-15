@@ -2,11 +2,9 @@
 title: 创建和关联收银机
 description: 此过程演示如何创建销售点 (POS) 收银机。
 author: rubencdelgado
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailTerminalTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af9743f17cebb3484c3ec5b0315347c575a474bd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ba978a3d895394760687386197dbb3512c62ef98
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246987"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798553"
 ---
 # <a name="create-and-associate-registers"></a>创建和关联收银机
 

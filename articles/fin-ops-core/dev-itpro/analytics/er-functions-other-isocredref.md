@@ -2,7 +2,6 @@
 title: ISOCREDREF ER 函数
 description: 本主题提供有关 ISOCREDREF 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9378028a4b308aae7796b861b37a5f89ddfe49c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 51adc6392b07ba4061a475f3072fb35452f15ad2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563394"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748309"
 ---
 # <a name="isocredref-er-function"></a>ISOCREDREF ER 函数
 

@@ -2,11 +2,9 @@
 title: 监控销售和利润率
 description: 您可以使用 Dynamics 365 Commerce 实时监控销售和利润率。
 author: ashishmsft
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailSales
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4d8d6a99e0ed3f331051d504e3a1ce2bd403cc17
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a7ea2bd9388e2fcfc6ae5f17d61054092cbac58c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251299"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796938"
 ---
 # <a name="monitor-sales-and-margin-performance"></a>监控销售和利润率
 

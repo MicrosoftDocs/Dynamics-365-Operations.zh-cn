@@ -2,7 +2,6 @@
 title: 集成税务
 description: 本主题介绍 Finance and Operations 与 Dataverse 之间的税务数据集成。
 author: robinarh
-manager: AnnBe
 ms.date: 09/06/2019
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7501ef21492a96c81b971e1d9077beaba9be897b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: a7992520b57b4c19b6dc8e13bd8e9ffc87b40f5a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560329"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750634"
 ---
 # <a name="integrated-tax"></a>集成税务
 

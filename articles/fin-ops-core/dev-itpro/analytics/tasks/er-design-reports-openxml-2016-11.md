@@ -2,7 +2,6 @@
 title: ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）
 description: 本主题介绍如何创建一个新的电子报告配置，其中包含用于生成 OPENXML 格式的电子文档的模板。
 author: NickSelin
-manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3fac102f760de9c3e99bd69863570e6503620567
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e2f84621028c36cf79d6fb9ab07707bdb970d97e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567778"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754978"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）
 

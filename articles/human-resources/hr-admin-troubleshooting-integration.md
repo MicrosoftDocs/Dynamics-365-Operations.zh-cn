@@ -2,11 +2,9 @@
 title: 与 Finance 集成的常见问题
 description: 本文说明在 Human Resources 和 Finance 集成中要同步哪些数据。
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d039dbbec756d60853fbfebc9e35802983cb3a35
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 9d2d590c95aa4069a1bed306910486c47200cdfd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464000"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794845"
 ---
 # <a name="integration-with-finance-faq"></a>与 Finance 集成的常见问题
 
