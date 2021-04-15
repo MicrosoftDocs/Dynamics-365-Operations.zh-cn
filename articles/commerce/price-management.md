@@ -2,11 +2,9 @@
 title: 零售销售价管理
 description: 本主题介绍在 Dynamics 365 Commerce 中创建和管理销售价的概念。
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3411be3be44b5ca72bcd6b52b335662b1fc16aa4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 85f6188bff4d3535369e4af145f8f55a3263c4a3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231168"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794155"
 ---
 # <a name="retail-sales-price-management"></a>零售销售价格管理
 

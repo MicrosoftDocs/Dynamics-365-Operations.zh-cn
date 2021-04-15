@@ -2,11 +2,9 @@
 title: 配置休假和缺勤参数
 description: 在 Dynamics 365 Human Resources 中定义休假和缺勤的人力资源参数。
 author: andreabichsel
-manager: tfehr
 ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: db96073f0a16f1c710fbfebb2d08a1d693eab1e1
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 45f5ebfe7bd11a529e871f5fd3244577954534f5
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463374"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794629"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>配置休假和缺勤参数
 

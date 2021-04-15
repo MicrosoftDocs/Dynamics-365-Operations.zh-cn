@@ -2,11 +2,9 @@
 title: 创建和关联硬件工作站
 description: 此程序会逐步演示如何创建新的硬件工作站。
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailHardwareStation, RetailStoreTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d0c02246a20ef28c0f4f28b73dfe5ff56f38a68b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a4402e8d1179499512034e7deb8b3eb78f12096f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247036"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798577"
 ---
 # <a name="create-and-associate-a-hardware-station"></a>创建和关联硬件工作站
 

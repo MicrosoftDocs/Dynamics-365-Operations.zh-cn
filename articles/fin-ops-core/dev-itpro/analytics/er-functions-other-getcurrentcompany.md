@@ -2,7 +2,6 @@
 title: GETCURRENTCOMPANY ER 函数
 description: 本主题提供有关 GETCURRENTCOMPANY 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcb5ef2f218a85bab25f830db583343504c46e98
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 87bef4aa11c01b42af19f7dc20ca8731b9fb4111
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567536"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752817"
 ---
 # <a name="getcurrentcompany-er-function"></a>GETCURRENTCOMPANY ER 函数
 

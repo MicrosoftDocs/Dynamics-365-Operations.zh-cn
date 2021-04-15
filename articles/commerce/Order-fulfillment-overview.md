@@ -2,11 +2,9 @@
 title: 商店订单履行
 description: 此主题概要介绍了商店订单履行。
 author: rubencdelgado
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5c5bd72bb039a457d4fcbacb47062c7cdf1bf7b2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 962edb3fd0478a8f0281054abc00c35b732620f6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206743"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796406"
 ---
 # <a name="store-order-fulfillment"></a>商店订单履行
 

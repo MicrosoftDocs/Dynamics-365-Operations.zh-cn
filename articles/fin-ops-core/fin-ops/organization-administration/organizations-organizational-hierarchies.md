@@ -1,8 +1,7 @@
 ---
 title: 组织和组织层次结构概览
-description: 组织是共同工作以执行业务流程的群体。 组织层次结构表示构成您的公司的组织之间的关系。
+description: 组织层次结构表示构成您的公司的组织之间的关系。
 author: sericks007
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb629b1ca89a5a50122a6155db6aeacc2bb2c59e
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: efd34b01ab414b2282fd08d8d9329ae7f9a801ce
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560719"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747627"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>组织和组织层次结构概览
 

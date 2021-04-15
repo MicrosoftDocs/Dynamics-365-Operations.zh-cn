@@ -2,7 +2,6 @@
 title: 电子申报中 (ER) 的配方设计器
 description: 本主题提供有关如何在电子申报 (ER) 中使用公式设计器的信息。
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1384307182e44fe7771ad6244eca6784434827f1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2dcede0818630329a5608c2d294c9c9f4f749f13
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568743"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750124"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>电子申报中 (ER) 的配方设计器
 

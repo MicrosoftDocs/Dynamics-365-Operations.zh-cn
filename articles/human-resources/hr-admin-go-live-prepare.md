@@ -2,11 +2,9 @@
 title: 准备 Human Resources 实行
 description: 该页面提供了有关如何准备实行 Dynamics 365 Human Resources 的指南。
 author: rachel-profitt
-manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 72e36519a365c321ee8bf5972310240e18d29180
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 2f6dbcbd92a99699ce8d7e91c1a7e89a6063035f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467573"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795133"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>准备 Human Resources 实行
 

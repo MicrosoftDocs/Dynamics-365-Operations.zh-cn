@@ -2,7 +2,6 @@
 title: 解决初始同步过程中的问题
 description: 本主题提供故障排除信息，可以帮助您解决初始同步期间可能发生的问题。
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8aa7d156d0f0dad921b5c0aceec941295950b308
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: c716707140c85b06ad2f084c10c4b2d0ecfea82e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566829"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754006"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>解决初始同步过程中的问题
 

@@ -2,7 +2,6 @@
 title: 比较云和本地功能
 description: 此主题显示在云和本地支持的功能。
 author: sericks007
-manager: AnnBe
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 52dfff77fa7d14e560ce20596a4d79edeadb5390
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566628"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744043"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>云和本地功能的比较
 
@@ -43,9 +42,9 @@ ms.locfileid: "5566628"
 |---------------------|-----------------------------|-----------|-----------------|
 | 符合性和证书        |                                                                                           | 是       | 是             |
 |                                      | SOC 1 类型 1 认证                                                                | 是       | 否              |
-| 数据管理和集成      |                                                                                           | 是       | 是             
+| 数据管理和集成      |                                                                                           | 是       | 是             |
 |                                      | 将数据导出到您自己的数据仓库中                                                    | 是       | 是             |
-|                                      | 启用将增量更新导出到数据实体                                 | 是       | 是              |
+|                                      | 启用将增量更新导出到数据实体                                 | 是       | 是             |
 |                                      | 数据集成                                                                         | 是       | 是             |
 | 文档管理                  |                                                                                           | 是       | 是             |
 | 财务管理                 |                                                                                           | 是       | 是             |
@@ -62,8 +61,8 @@ ms.locfileid: "5566628"
 |                                      | 分析工作区                                                                     | 是       | 无              |
 |                                      | 智能业务流程：建议                                             | 是       | 无              |
 |                                      | 使用 Power BI 桌面或 Excel PowerQuery 工具创作具有 OData 的 Power BI 报表    | 是       | 无              |
-|                                      | SQL Server Reporting Services (SSRS) 支持缩放                                 | 是       | 否              |
-|                                      | 遥测转变为云                                                   | 是       | 否              |
+|                                      | SQL Server Reporting Services (SSRS) 支持缩放                                 | 是       | 是             |
+|                                      | 遥测转变为云                                                   | 是       | 无              |
 | Lifecycle Services                   |                                                                                           | 是       | 是             |
 |                                      | 可配置的业务流程                                                           | 是       | 否              |
 | 本地化                        |                                                                                           | 是       | 是             |
@@ -85,7 +84,7 @@ ms.locfileid: "5566628"
 
 | **范围**                | **功能**             | **云** | **本地** |
 |-------------------------|-------------------|-----------|-----------------|
-| 资产管理                     |                                                                                           | 是       | 无 |
+| 资产管理                     |                                                                                           | 是       | 无              |
 | 符合性和证书        |                                                                                           | 是       | 是             |
 |                                      | SOC 1 类型 1 认证                                                                | 是       | 无              |
 | 成本核算                      |                                                                                           | 是       | 是             |
@@ -96,7 +95,7 @@ ms.locfileid: "5566628"
 | 数据管理和集成      |                                                                                           | 是       | 是             |
 |                                      | 配置主导的扩展                                                            | 是       | 无              |
 |                                      | 将数据导出到您自己的数据仓库中                                                    | 是       | 是             |
-|                                      | 启用将增量更新导出到数据实体                                 | 是       | 是              |
+|                                      | 启用将增量更新导出到数据实体                                 | 是       | 是             |
 |                                      | 数据集成                                                                         | 是       | 是             |
 | 文档管理                  |                                                                                           | 是       | 是             |
 | 帮助                                 |                                                                                           | 是       | 否              |
@@ -111,7 +110,7 @@ ms.locfileid: "5566628"
 |                                      | 分析工作区                                                                     | 是       | 无              |
 |                                      | 智能业务流程：建议                                             | 是       | 无              |
 |                                      | 使用 Power BI 桌面或 Excel PowerQuery 工具创作具有 OData 的 Power BI 报表    | 是       | 无              |
-|                                      | SQL Server Reporting Services (SSRS) 支持缩放                                 | 是       | 无              |
+|                                      | SQL Server Reporting Services (SSRS) 支持缩放                                 | 是       | 是             |
 |                                      | 遥测转变为云                                                   | 是       | 无              |
 | 库存管理                 |                                                                                           | 是       | 是             |
 | Lifecycle Services                   |                                                                                           | 是       | 是             |

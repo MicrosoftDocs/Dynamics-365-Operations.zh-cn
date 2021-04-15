@@ -2,11 +2,9 @@
 title: 零售报表
 description: 本主题描述如何创建报表和过帐。
 author: ashishmsft
-manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 6bf582ff61e09ab7586108fa9270a7f485fc9ec7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8d6687ddaae28ebf278aca6a78ba798e2e79edd8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254881"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791913"
 ---
 # <a name="retail-statements"></a>零售对帐单
 

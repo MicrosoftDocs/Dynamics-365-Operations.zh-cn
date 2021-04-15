@@ -2,11 +2,9 @@
 title: 在 POS 的装运选项中隐藏非承运人交货方式
 description: 本主题介绍一个配置选项，当在销售点 (POS) 应用程序中创建装运订单时，该配置选项可以防止选择中出现非承运人交货方式。
 author: hhainesms
-manager: annbe
 ms.date: 10/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: c06dfa697e3e0eab7a7f4183da9f178af818a6d7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a5f08fc86dc093fd0ead219b808fa720a43f6b6b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206149"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797110"
 ---
 # <a name="hide-non-carrier-delivery-modes-from-the-shipping-options-in-pos"></a>在 POS 的装运选项中隐藏非承运人交货方式
 

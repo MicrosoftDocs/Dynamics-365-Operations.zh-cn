@@ -2,11 +2,9 @@
 title: 页脚模块
 description: 此主题介绍页脚模块和如何在 Dynamics 365 Commerce 中制作页脚模块。
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 16c9ca145aff97f0af242da4cf662367f1f4ca3d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d6e7b0ad4fe0723575a0ec55a9b02d110568db58
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211440"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797225"
 ---
 # <a name="footer-module"></a>页脚模块  
 

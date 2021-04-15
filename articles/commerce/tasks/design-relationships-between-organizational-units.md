@@ -2,11 +2,9 @@
 title: 设计组织部门之间的关系
 description: 此过程可以通过设计组织单位关系的方式完成。
 author: mugunthanm
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMHierarchyPurposeAssociation, OMHierarchySelection, HierarchyDesigner, OMNodeSelection,  HierarchyPublishAndCloseForm
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 132b3133bd75cd2b47a96a60e943ff96e686fecf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 660db4a846eda7fb4b62ba6664acef3e8f718d53
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229880"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796770"
 ---
 # <a name="design-the-relationships-between-organizational-units"></a>设计组织部门之间的关系
 

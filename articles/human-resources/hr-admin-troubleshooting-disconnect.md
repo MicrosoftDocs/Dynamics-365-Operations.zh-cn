@@ -2,11 +2,9 @@
 title: 客户端断开连接
 description: 本文说明如果客户与其环境断开并且不知道原因该如何做。
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6808132e182ea6fed4fb0605fd07c008d208e89f
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: e9ec43ad0a7d121eb247d81d4b506556a0fa2214
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468171"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794893"
 ---
 # <a name="client-disconnects"></a>客户端断开连接
 

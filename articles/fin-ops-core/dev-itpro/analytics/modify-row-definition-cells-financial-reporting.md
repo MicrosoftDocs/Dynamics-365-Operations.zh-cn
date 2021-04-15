@@ -2,7 +2,6 @@
 title: 修改行定义单元格
 description: 本主题介绍财务报表中行定义的每个单元格必需的信息，并解释如何输入该信息。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6e1164166ece4df1257ef7300c1c68f4b20ec76c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: c3827c5cff009453c820e70f00bfa4f36d78973f
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564583"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755244"
 ---
 # <a name="modify-row-definition-cells"></a>修改行定义单元格
 

@@ -2,11 +2,9 @@
 title: 分析销售趋势和模式
 description: 您可以在 Dynamics 365 Commerce 中实时研究销售趋势和模式。
 author: ashishmsft
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailChannelReport, SysReportViewerForm, RetailStoreManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 116b473f40f7b0365474abe618c8689b8b1e8a58
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bcb805e3c2022a9ee13049456522712e42ef3b51
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211367"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797349"
 ---
 # <a name="analyze-sales-trends-and-patterns"></a>分析销售趋势和模式
 

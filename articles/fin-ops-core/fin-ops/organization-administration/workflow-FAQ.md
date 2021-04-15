@@ -2,7 +2,6 @@
 title: 工作流常见问题
 description: 本主题解答有关工作流系统的常见问题。
 author: ChrisGarty
-manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98d67e240cdd5e64fef1aaf24b4907d1af42056a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 11604389ff598c70e15709c9e3e04b6ec436f6a6
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567969"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747193"
 ---
 # <a name="workflow-faq"></a>工作流常见问题
 

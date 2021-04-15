@@ -2,11 +2,9 @@
 title: 使用模板
 description: 此主题描述如何在 Microsoft Dynamics 365 Commerce 中使用模板。
 author: phinneyridge
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dfbb85c13b24bf09fd23022d11ec017899835671
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 96a8cbfd208095833514f374c060bb2d43781913
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252502"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793841"
 ---
 # <a name="work-with-templates"></a>使用模板
-
 
 [!include [banner](includes/banner.md)]
 
 此主题描述如何在 Microsoft Dynamics 365 Commerce 中使用模板。
-
-## <a name="overview"></a>概览
 
 [模板和布局概述](templates-layouts-overview.md)中已介绍过，模板定义可供下游作者使用的一组选项。 多个原因让模块对企业的 Web 制作团队非常有用，而精心构造的模板可以帮助达成下面的所有目标：
 

@@ -2,7 +2,6 @@
 title: 优化顾问概览
 description: 此主题描述了如何使用优化顾问来帮助确保 Finance and Operations 的最佳配置。
 author: roxanadiaconu
-manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b3c839e7c75201ca61dceee43a058b391be56fcf
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 37cc903c97fc4838a8017419ba392256f37fe019
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568232"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745947"
 ---
 # <a name="optimization-advisor-overview"></a>优化顾问概览
 

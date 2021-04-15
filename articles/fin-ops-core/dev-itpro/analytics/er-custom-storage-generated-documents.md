@@ -2,7 +2,6 @@
 title: 为生成的单据指定自定义存储位置
 description: 本主题介绍如何扩展电子申报 (ER) 格式生成的单据的存储位置列表。
 author: NickSelin
-manager: AnnBe
 ms.date: 02/22/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: b71ad5a9701922eb94b1d611e2d3f6a945ce6c06
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: dab70b213efc7e7a3537aa2b47b9edf38d492d34
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562230"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753712"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>为生成的单据指定自定义存储位置
 

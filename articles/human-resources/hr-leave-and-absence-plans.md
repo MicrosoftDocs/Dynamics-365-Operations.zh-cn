@@ -2,11 +2,9 @@
 title: 创建休假和缺勤计划
 description: 在 Dynamics 365 Human Resources 中为不同类型的休假创建休假计划。
 author: andreabichsel
-manager: tfehr
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f90e49c6191134a99b306fdc9de6b46c07844dea
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 8bda1e8cb9ed778b87adf9973620fa0e54cf28c8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463398"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794605"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>创建休假和缺勤计划
 

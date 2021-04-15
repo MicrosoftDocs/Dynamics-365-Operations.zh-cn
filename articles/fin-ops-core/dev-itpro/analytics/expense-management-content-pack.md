@@ -2,7 +2,6 @@
 title: 费用管理 Power BI 内容
 description: 此主题介绍费用管理 Power BI 内容包中的内容。
 author: panolte
-manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: be40d56f2468ec9490796aae9ef107b5f22aa9e7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: aadf43d478eb4bf5af20df02dcc6399a7a2e71a5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568891"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743499"
 ---
 # <a name="expense-management-power-bi-content"></a>费用管理 Power BI 内容
 

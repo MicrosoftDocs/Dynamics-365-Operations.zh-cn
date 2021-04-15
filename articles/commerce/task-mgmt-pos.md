@@ -2,11 +2,9 @@
 title: POS 中的任务管理
 description: 此主题介绍 Microsoft Dynamics 365 Commerce 销售点 (POS) 应用程序中的任务管理。
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 18ba781795058de6228c712c6a22e59038e96368
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 38ee9db94b3b222e8c0ce5d0883f47bd5d3e7d22
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478354"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796914"
 ---
 # <a name="task-management-in-pos"></a>POS 中的任务管理
 

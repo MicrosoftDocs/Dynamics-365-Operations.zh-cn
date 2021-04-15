@@ -2,7 +2,6 @@
 title: NUMERALSTOTEXT ER 函数
 description: 本主题提供有关 NUMERALSTOTEXT 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-manager: kfend
 ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0dfb36e21259eada97b158cb38b22ae19e0afa07
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e26890a0d99e0df631a3b3350d284e63aaed8e09
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562749"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746139"
 ---
 # <a name="numeralstotext-er-function"></a>NUMERALSTOTEXT ER 函数
 

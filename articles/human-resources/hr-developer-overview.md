@@ -2,11 +2,9 @@
 title: 开发概述
 description: 本开发人员指南提供 API 和自定义字段参考。 另外还提供有关与其他应用集成的信息。
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8e390592b000c8f6006aa489fd3823c4f15cb2cb
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 5e67749e6f10b1c9202605b26164e30e5d39aa28
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467787"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793577"
 ---
 # <a name="development-overview"></a>开发概述
 

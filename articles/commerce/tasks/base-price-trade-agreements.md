@@ -2,11 +2,9 @@
 title: 基价和贸易协议
 description: 此程序会逐步演示如何创建渠道特定销售价格贸易协议。
 author: josaw1
-manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PriceDiscGroup, RetailStoreTable, RetailChannelPriceGroup, EcoResProductDetailsExtended, PriceDiscAdmTable, PriceDiscAdm
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bab25988a9d4aad4d4e36fd9bdffbbf52473435e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: df4d0042e51524c1d50568e969b59923a7ba4a65
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259450"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5789796"
 ---
 # <a name="base-price-and-trade-agreements"></a>基价和贸易协议
 

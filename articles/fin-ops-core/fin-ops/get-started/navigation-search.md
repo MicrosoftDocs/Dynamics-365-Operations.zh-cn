@@ -2,7 +2,6 @@
 title: 导航搜索
 description: 本主题说明如何使用搜索功能来导航到页面。
 author: aneesmsft
-manager: AnnBe
 ms.date: 04/27/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6b99c677af0d20ea04f65f5b17cf07a2a45cf99
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2fc57579f817d2735aaa94a5f6834185961dab39
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565377"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750220"
 ---
 # <a name="navigation-search"></a>导航搜索
 

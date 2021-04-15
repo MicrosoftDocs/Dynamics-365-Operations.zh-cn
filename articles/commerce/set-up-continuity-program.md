@@ -2,11 +2,9 @@
 title: 设置呼叫中心的连续性计划
 description: 本文介绍如何为呼叫中心设置连续性计划。
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCROrderParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2428cafc45f074f7e2b4c3e59877079b8c1d4a92
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e7f90e919133fd7443083261a325b285b3abb75b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242953"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791022"
 ---
 # <a name="set-up-continuity-programs-for-call-centers"></a>设置呼叫中心的连续性计划
 

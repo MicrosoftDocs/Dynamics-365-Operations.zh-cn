@@ -2,11 +2,9 @@
 title: 配置任务管理
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中配置任务管理功能。
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: ba2283bbfa2fdce75d3fbef6fcff47dd872c7998
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 742d49b1b7b46952d0a8bb6c8a33cde2a35d124f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478036"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791692"
 ---
 # <a name="configure-task-management"></a>配置任务管理
 

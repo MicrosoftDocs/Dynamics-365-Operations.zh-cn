@@ -2,7 +2,6 @@
 title: 我的团队移动工作区
 description: 此主题提供关于我的团队移动工作区的信息，此工作区允许经理查看其直接下属和扩展职员。
 author: ShielaSogge
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5dc2f8b5195fb5210ca6399cbf744f210671f475
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 06ddad1f2df895da4819a06e3552acab8e9aff78
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570066"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744725"
 ---
 # <a name="my-team-mobile-workspace"></a>我的团队移动工作区
 

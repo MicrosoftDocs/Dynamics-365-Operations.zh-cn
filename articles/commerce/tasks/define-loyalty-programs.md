@@ -2,11 +2,9 @@
 title: 定义会员计划
 description: 此程序会显示如何设置一个带有两个会员层级的会员计划。
 author: jashanno
-manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69424cdaae84ffe5ca8157f061ba5876b9eeeff9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8013ffc0727fddd7acde58e75182ee9f3165c09d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256893"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796818"
 ---
 # <a name="define-loyalty-programs"></a>定义会员计划
 

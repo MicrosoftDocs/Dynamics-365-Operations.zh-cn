@@ -2,11 +2,9 @@
 title: 员工和经理自助服务概述
 description: 本文提供了员工和经理自助服务工作区的概述。
 author: andreabichsel
-manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6cda6166bff926e362ee35221b9c204c2ead5503
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 6d7c68d22347861978eccff356139bab4fbc723b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464144"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790804"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>员工和经理自助服务概述
 

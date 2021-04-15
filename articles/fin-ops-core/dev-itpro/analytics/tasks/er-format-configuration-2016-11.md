@@ -2,7 +2,6 @@
 title: ER 创建格式配置（2016 年 11 月）
 description: 本主题说明如何为电子报告 (ER) 创建格式配置。
 author: NickSelin
-manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8cb86c1486223e982f8cbddc8eadaaf1c8ced4f8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 46686b9e4f6197f565a324a9d03cbb695b6a933b
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565182"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749061"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER 创建格式配置（2016 年 11 月）
 

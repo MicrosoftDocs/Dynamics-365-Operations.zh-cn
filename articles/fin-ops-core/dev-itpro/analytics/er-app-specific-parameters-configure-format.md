@@ -2,8 +2,7 @@
 title: 配置 ER 格式以使用每个法人指定的参数
 description: 本主题说明如何配置电子报告 (ER) 格式以使用每个法人指定的参数。
 author: NickSelin
-manager: AnnBe
-ms.date: 10/26/2019
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 9253191f9cd10e0b3c87d61991598f9b791c35d9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 16eab3ffa7d4a780ec9709f5c8a5c263b1e75365
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570726"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751170"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>配置 ER 格式以使用每个法人指定的参数
 
@@ -48,14 +47,14 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 
 ## <a name="import-er-configurations-into-rcs"></a>将 ER 配置导入 RCS
 
-从 [Microsoft 下载中心](https://go.microsoft.com/fwlink/?linkid=851448)，下载 **支持对计算字段类型的 ER 数据源的参数化调用** zip 文件。 此 zip 文件包含以下 ER 配置，必须将其提取并存储在本地。
+下载并本地存储以下 ER 配置。
 
 | **内容描述**                        | **文件名**                                        |
 |------------------------------------------------|------------------------------------------------------|
-| 示例 **ER 数据模型** 配置文件    | 用于了解参数化调用的模型.版本.1.xml     |
-| 示例 **ER 元数据** 配置文件      | 用于了解参数化调用的元数据.版本.1.xml  |
-| 示例 **ER 模型映射** 配置文件 | 用于了解参数化调用的映射.版本.1.1.xml |
-| 示例 **ER 格式** 配置             | 用于了解参数化调用的格式.版本.1.1.xml  |
+| 示例 **ER 数据模型** 配置文件    | [用于了解参数化调用的模型.版本.1.xml](https://download.microsoft.com/download/2/d/b/2db913a0-3622-494e-91a2-97fc494af9b9/Modeltolearnparameterizedcalls.version.1.xml)     |
+| 示例 **ER 元数据** 配置文件      | [用于了解参数化调用的元数据.版本.1.xml](https://download.microsoft.com/download/1/b/3/1b343968-5a47-4000-b5a8-6487698ef4c0/Metadatatolearnparameterizedcalls.version.1.xml)  |
+| 示例 **ER 模型映射** 配置文件 | [用于了解参数化调用的映射.版本.1.1.xml](https://download.microsoft.com/download/8/6/6/866e0ab6-2e05-4d98-9d52-d2da2038f6e4/Mappingtolearnparameterizedcalls.version.1.1.xml) |
+| 示例 **ER 格式** 配置             | [用于了解参数化调用的格式.版本.1.1.xml](https://download.microsoft.com/download/e/3/9/e392eadc-b9b4-4834-95c3-b8066dd00b9c/Formattolearnparameterizedcalls.version.1.1.xml)  |
 
 接下来，登录到您的 RCS 实例。
 
@@ -79,17 +78,17 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 
     **用于了解参数化调用的格式** ER 格式旨在生成 XML 格式的税报表，其显示多个征税级别（正常、减税和免税）。 每个级别都有不同数量的详细信息。
 
-    ![ER Operation 设计器页](./media/RCS-AppSpecParms-ReviewFormat.PNG)
+    ![多种级别的 ER 格式，用于学习参数化调用的格式](./media/RCS-AppSpecParms-ReviewFormat.PNG)
 
 5.  在 **映射** 选项卡上，展开 **模型**、**数据** 和 **汇总** 项目。
 
     **Model.Data.Summary** 数据源返回税收交易记录的列表。 这些交易记录按税码进行汇总。 对于此数据源，已配置 **Model.Data.Summary.Level** 计算字段以返回每个汇总记录的征税级别的代码。 对于在运行时可以从 **Model.Data.Summary** 数据源中检索到的任何税码，计算字段将作为文本值返回征税级别代码（**正常**、**减税**、**免税** 或 **其他**）。 **Model.Data.Summary.Level** 计算字段用于筛选 **Model.Data.Summary** 数据源的记录，并通过使用 **Model.Data2.Level1**、**Model.Data2.Level2** 和 **Model.Data2.Level3** 字段来在表示征税级别的每个 XML 元素中输入筛选后的数据。
 
-    ![ER Operation 设计器页](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
+    ![税务交易的 Model.Data.Summary 数据源列表](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
     已配置 **Model.Data.Summary.Level** 计算字段，使其包含 ER 表达式。 请注意，税码（**VAT19**、**InVAT19**、**VAT7**、**InVAT7**、**THIRD** 和 **InVAT0**）被硬编码到此配置中。 因此，此 ER 格式取决于配置了这些税码的法人。
 
-    ![ER Operation 设计器页](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
+    ![具有硬编码税码的 Model.Data.Summary.Level 计算字段](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
     要为每个法人支持一组不同的税码，您必须执行以下步骤：
 
@@ -129,7 +128,7 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 12. 再次选择 **添加**。
 13. 在 **名称** 字段中，输入 **其他**。
 
-    ![ER Operation 设计器页](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
+    ![格式枚举页面上的新记录](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
 
     由于业务用户可能使用不同的语言来指定与法人相关的税码集，因此我们建议您将此枚举的值翻译为在 Finance 中为那些用户配置为首选语言的语言。
 
@@ -142,7 +141,7 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 20. 在 **已翻译的文本** 字段中，输入 **keine Besteuerung**。
 21. 选择 **翻译**。
 
-    ![ER Operation 设计器页](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
+    ![文本翻译滑出](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
 
 22. 选择 **保存**。
 23. 关闭 **格式枚举** 页。
@@ -169,13 +168,13 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 10. 选择 **Model.Data.Tax.Code** 项。
 11. 选择 **添加** 按钮（向右箭头）。
 
-    ![ER Operation 设计器页](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
+    ![列滑出](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
 
     您刚才指定了，对于此数据源中指定的用于征税级别识别的每个规则，业务用户必须选择一个税码作为条件。 业务用户可以选择的税码列表将由 **Model.Data.Tax** 数据源返回。 因为此数据源包含 **名称** 字段，所以将在呈现给业务用户的查找中为每个税码值显示税码的名称。
     
 12. 选择 **确定**。
 
-    ![ER Operation 设计器页](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
+    ![查找设计器页面](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
 
     业务用户可以添加多个规则作为此数据源的记录。 每个记录将由一个行代码编号。 规则将按照行号增加的顺序进行评估。
 
@@ -189,13 +188,13 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 
     请注意，您添加了一个新的数据源，该数据源将返回征税级别作为任何税码的 **征税级别列表** 格式枚举的值，该税码将作为 **字符串** 数据类型的 **代码** 参数的参数传递给数据源。
     
-    ![ER Operation 设计器页](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
+    ![具有新数据源的格式设计器页面](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
     请注意，对配置的规则的评估取决于为定义这些规则的条件而选择的字段的数据类型。 当您选择一个配置为 **数字** 或 **日期** 数据类型的字段的字段时，条件将不同于先前针对 **字符串** 数据类型描述的条件。 对于 **数字** 和 **日期** 字段，必须将规则指定为值的范围。 当传递到数据源的值在配置的范围内时，将认为规则的条件已满足。
     
     下图显示了此类设置的示例。 除了 **字符串** 数据类型的 **Model.Data.Tax.Code** 字段外，**实数** 数据类型的 **Model.Tax.Summary.Base** 字段用于指定查找数据源的条件。
     
-    ![ER Operation 设计器页](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
+    ![具有其他列的查找设计器页面](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
 
     因为为此查询数据源选择了 **Model.Data.Tax.Code** 和 **Model.Tax.Summary.Base** 字段，所以将以以下方式配置此数据源的每个规则：
     
@@ -224,7 +223,7 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 9.  选择 **翻译**。
 10. 选择 **确定**。
 
-    ![ER Operation 设计器页](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
+    ![数据源属性滑出](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
 
 ### <a name="add-a-new-field-to-consume-the-configured-lookup"></a>添加一个新字段以使用配置的查找
 
@@ -237,16 +236,16 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 7.  在 **公式字段** 中，输入 **Model.Selector(Model.Data.Summary.Code)**.
 8.  选择 **保存**。
 
-    ![ER Operation 设计器页](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
+    ![将 Model.Selector(Model.Data.Summary.Code) 添加到公式设计器页面](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
 
 9.  关闭 **公式编辑器** 页。
 10. 选择 **确定**。
 
-    ![ER Operation 设计器页](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
+    ![添加了新公式的格式设计器页面](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
 
     请注意，您添加的 **LevelByLookup** 计算字段将返回征税级别，作为每个汇总的税收交易记录的 **征税级别列表** 格式枚举的值。 记录的税码将传递到 **Model.Selector** 查找数据源，此数据源的规则集将用于选择正确的征税级别。
 
-### <a name="add-a-new-format-enumeration-based-data-source"></a>添加新的基于格式枚举的数据源
+### <a name="add-a-new-format-enumeration-based-data-source&quot;></a>添加新的基于格式枚举的数据源
 
 接下来，您将添加一个新数据源，该数据源引用您之前添加的格式枚举。 稍后将在 ER 格式表达式中使用此数据源的值。
 
@@ -256,7 +255,7 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 4.  在 **格式枚举** 字段中，选择 **征税级别列表**。
 5.  选择 **保存**。
 
-### <a name="modify-an-existing-field-to-start-to-use-the-lookup"></a>修改现有字段以开始使用查找
+### <a name=&quot;modify-an-existing-field-to-start-to-use-the-lookup&quot;></a>修改现有字段以开始使用查找
 
 接下来，您将修改现有的计算字段，以使其使用配置的查找数据源根据税码返回正确的征税级别值。
 
@@ -268,7 +267,7 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
     
     CASE（@.Code、“VAT19”、“Regular”、“InVAT19”、“Regular”、“VAT7”、“Reduced”、“InVAT7”、“Reduced”、“THIRD”、“None”、“InVAT0”、“None”、“Other”）
 
-4.  在 **公式** 字段中，输入 **CASE(@.LevelByLookup, TaxationLevel.'Regular taxation', "Regular", TaxationLevel.'Reduced taxation', "Reduced", TaxationLevel.'No taxation', "None", "Other")**。
+4.  在 **公式** 字段中，输入 **CASE(@.LevelByLookup, TaxationLevel.'Regular taxation', &quot;Regular&quot;, TaxationLevel.'Reduced taxation', &quot;Reduced&quot;, TaxationLevel.'No taxation', &quot;None&quot;, &quot;Other")**。
 
     ![ER Operation 设计器页](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
     
