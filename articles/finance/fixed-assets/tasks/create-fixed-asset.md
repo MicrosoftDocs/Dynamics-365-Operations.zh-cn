@@ -2,11 +2,9 @@
 title: 创建固定资产
 description: 本主题介绍了如何从“固定资产”列表页面创建新的固定资产记录。
 author: moaamer
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook
 audience: Application User
@@ -15,45 +13,45 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bbbafb1732a9628cb90ad284fce224e3d8172afd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 770390092342e2db496dde850a75b2f7736bd4c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227032"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817093"
 ---
-# <a name="create-a-fixed-asset"></a><span data-ttu-id="e472b-103">创建固定资产</span><span class="sxs-lookup"><span data-stu-id="e472b-103">Create a fixed asset</span></span>
+# <a name="create-a-fixed-asset"></a><span data-ttu-id="6c027-103">创建固定资产</span><span class="sxs-lookup"><span data-stu-id="6c027-103">Create a fixed asset</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="e472b-104">本主题介绍了如何从 **固定资产** 列表页面创建新的固定资产记录。</span><span class="sxs-lookup"><span data-stu-id="e472b-104">This topic explains how to create a new fixed asset record from the **Fixed asset** list page.</span></span>
+<span data-ttu-id="6c027-104">本主题介绍了如何从 **固定资产** 列表页面创建新的固定资产记录。</span><span class="sxs-lookup"><span data-stu-id="6c027-104">This topic explains how to create a new fixed asset record from the **Fixed asset** list page.</span></span>
 
-<span data-ttu-id="e472b-105">系统根据分配给固定资产组的编号序列分配资产编号。</span><span class="sxs-lookup"><span data-stu-id="e472b-105">The system assigns the asset number, based on the number sequence that is assigned to the fixed asset group.</span></span> <span data-ttu-id="e472b-106">如果您使用固定资产模板来通过 Microsoft Excel 加载项导入资产，或者如果您使用其他导入作业，系统将自动创建固定资产记录并递增资产编号。</span><span class="sxs-lookup"><span data-stu-id="e472b-106">If you use the fixed asset template to import assets via the Microsoft Excel add-in, or if you use another import job, the system automatically creates fixed asset records and increments the asset number.</span></span>
+<span data-ttu-id="6c027-105">系统根据分配给固定资产组的编号序列分配资产编号。</span><span class="sxs-lookup"><span data-stu-id="6c027-105">The system assigns the asset number, based on the number sequence that is assigned to the fixed asset group.</span></span> <span data-ttu-id="6c027-106">如果您使用固定资产模板来通过 Microsoft Excel 加载项导入资产，或者如果您使用其他导入作业，系统将自动创建固定资产记录并递增资产编号。</span><span class="sxs-lookup"><span data-stu-id="6c027-106">If you use the fixed asset template to import assets via the Microsoft Excel add-in, or if you use another import job, the system automatically creates fixed asset records and increments the asset number.</span></span>
 
-<span data-ttu-id="e472b-107">若要手动创建资产记录，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="e472b-107">To manually create an asset record, follow these steps.</span></span>
+<span data-ttu-id="6c027-107">若要手动创建资产记录，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="6c027-107">To manually create an asset record, follow these steps.</span></span>
 
-1. <span data-ttu-id="e472b-108">转到 **导航窗格 \> 模块 \> 固定资产 \> 固定资产 \> 固定资产**。</span><span class="sxs-lookup"><span data-stu-id="e472b-108">Go to **Navigation pane \> Modules \> Fixed assets \> Fixed assets \> Fixed assets**.</span></span>
-2. <span data-ttu-id="e472b-109">在 **操作窗格** 上，选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="e472b-109">On the **Action pane**, select **New**.</span></span>
-3. <span data-ttu-id="e472b-110">在 **固定资产组** 字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="e472b-110">In **the Fixed asset group** field, enter or select a value.</span></span> <span data-ttu-id="e472b-111">如果您在 **固定资产参数** 和 **固定资产组** 中启用 **固定资产自动编号功能**，将会默认显示 **编号** 字段。</span><span class="sxs-lookup"><span data-stu-id="e472b-111">The **Number** field will default if you have enabled **Autonumber fixed assets functionality** in the **Fixed assets parameters** and the **Fixed asset group**.</span></span> <span data-ttu-id="e472b-112">如果没用启用，您必须输入唯一编号以识别固定资产。</span><span class="sxs-lookup"><span data-stu-id="e472b-112">If not, you must enter a unique number to identify the fixed asset.</span></span>
-4. <span data-ttu-id="e472b-113">在 **名称** 字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="e472b-113">In the **Name** field, enter a value.</span></span> <span data-ttu-id="e472b-114">输入您的企业为该资产所需的其他信息。</span><span class="sxs-lookup"><span data-stu-id="e472b-114">Enter the additional information that your business needs for this asset.</span></span>
-5. <span data-ttu-id="e472b-115">在 **操作窗格** 上，选择 **帐簿**。</span><span class="sxs-lookup"><span data-stu-id="e472b-115">On the **Action pane**, select **Books**.</span></span>
-6. <span data-ttu-id="e472b-116">在 **购置日期** 字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="e472b-116">In the **Acquisition date** field, enter a date.</span></span>
-7. <span data-ttu-id="e472b-117">在 **购置价格** 字段中输入数字。</span><span class="sxs-lookup"><span data-stu-id="e472b-117">In the **Acquisition price** field, enter a number.</span></span>
+1. <span data-ttu-id="6c027-108">转到 **导航窗格 \> 模块 \> 固定资产 \> 固定资产 \> 固定资产**。</span><span class="sxs-lookup"><span data-stu-id="6c027-108">Go to **Navigation pane \> Modules \> Fixed assets \> Fixed assets \> Fixed assets**.</span></span>
+2. <span data-ttu-id="6c027-109">在 **操作窗格** 上，选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="6c027-109">On the **Action pane**, select **New**.</span></span>
+3. <span data-ttu-id="6c027-110">在 **固定资产组** 字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="6c027-110">In **the Fixed asset group** field, enter or select a value.</span></span> <span data-ttu-id="6c027-111">如果您在 **固定资产参数** 和 **固定资产组** 中启用 **固定资产自动编号功能**，将会默认显示 **编号** 字段。</span><span class="sxs-lookup"><span data-stu-id="6c027-111">The **Number** field will default if you have enabled **Autonumber fixed assets functionality** in the **Fixed assets parameters** and the **Fixed asset group**.</span></span> <span data-ttu-id="6c027-112">如果没用启用，您必须输入唯一编号以识别固定资产。</span><span class="sxs-lookup"><span data-stu-id="6c027-112">If not, you must enter a unique number to identify the fixed asset.</span></span>
+4. <span data-ttu-id="6c027-113">在 **名称** 字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="6c027-113">In the **Name** field, enter a value.</span></span> <span data-ttu-id="6c027-114">输入您的企业为该资产所需的其他信息。</span><span class="sxs-lookup"><span data-stu-id="6c027-114">Enter the additional information that your business needs for this asset.</span></span>
+5. <span data-ttu-id="6c027-115">在 **操作窗格** 上，选择 **帐簿**。</span><span class="sxs-lookup"><span data-stu-id="6c027-115">On the **Action pane**, select **Books**.</span></span>
+6. <span data-ttu-id="6c027-116">在 **购置日期** 字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="6c027-116">In the **Acquisition date** field, enter a date.</span></span>
+7. <span data-ttu-id="6c027-117">在 **购置价格** 字段中输入数字。</span><span class="sxs-lookup"><span data-stu-id="6c027-117">In the **Acquisition price** field, enter a number.</span></span>
 
-    - <span data-ttu-id="e472b-118">输入您的企业为该帐簿所需的其他信息。</span><span class="sxs-lookup"><span data-stu-id="e472b-118">Enter the additional information that your business needs for this book.</span></span>
-    - <span data-ttu-id="e472b-119">输入您的企业为其余帐簿所需的其他信息。</span><span class="sxs-lookup"><span data-stu-id="e472b-119">Enter the additional information that your business needs for the remaining books.</span></span>
+    - <span data-ttu-id="6c027-118">输入您的企业为该帐簿所需的其他信息。</span><span class="sxs-lookup"><span data-stu-id="6c027-118">Enter the additional information that your business needs for this book.</span></span>
+    - <span data-ttu-id="6c027-119">输入您的企业为其余帐簿所需的其他信息。</span><span class="sxs-lookup"><span data-stu-id="6c027-119">Enter the additional information that your business needs for the remaining books.</span></span>
 
-8. <span data-ttu-id="e472b-120">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="e472b-120">Close the page.</span></span>
+8. <span data-ttu-id="6c027-120">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="6c027-120">Close the page.</span></span>
 
-<span data-ttu-id="e472b-121">您也可以通过使用 Excel 加载项或通过从 **数据管理** 工作区运行导入作业来导入固定资产。</span><span class="sxs-lookup"><span data-stu-id="e472b-121">You can also import fixed assets by using the Excel add-in or by running an import job from the **Data management** workspace.</span></span> <span data-ttu-id="e472b-122">在运行导入之前，请在模板中输入必填字段的值。</span><span class="sxs-lookup"><span data-stu-id="e472b-122">Before you run the import, enter the values for required fields in the template.</span></span>
+<span data-ttu-id="6c027-121">您也可以通过使用 Excel 加载项或通过从 **数据管理** 工作区运行导入作业来导入固定资产。</span><span class="sxs-lookup"><span data-stu-id="6c027-121">You can also import fixed assets by using the Excel add-in or by running an import job from the **Data management** workspace.</span></span> <span data-ttu-id="6c027-122">在运行导入之前，请在模板中输入必填字段的值。</span><span class="sxs-lookup"><span data-stu-id="6c027-122">Before you run the import, enter the values for required fields in the template.</span></span>
 
-<span data-ttu-id="e472b-123">如果您没有在 Excel 加载项的模板中或在数据管理中定义固定资产编号，系统会为每个导入的资产创建固定资产编号，并自动递增每个编号序列。</span><span class="sxs-lookup"><span data-stu-id="e472b-123">If you didn't define the fixed asset number in the template of the Excel add-in, or in Data management, the system creates a fixed asset number for each imported asset and automatically increments the number sequence for each.</span></span> <span data-ttu-id="e472b-124">但是，如果您导入资产并在模板中定义资产编号，系统 **不会** 自动递增编号序列。</span><span class="sxs-lookup"><span data-stu-id="e472b-124">However, if you import assets and define asset numbers in the template, the system does **not** automatically increment the number sequence.</span></span> <span data-ttu-id="e472b-125">在这种情况下，管理员必须手动更新编号序列。</span><span class="sxs-lookup"><span data-stu-id="e472b-125">In this case, an admin might have to manually update the number sequence.</span></span> <span data-ttu-id="e472b-126">如果您在 Excel 加载项的模板中定义了固定资产编号，系统将使用定义的固定资产编号并递增编号序列。</span><span class="sxs-lookup"><span data-stu-id="e472b-126">If you defined the fixed asset number in the template of the Excel add-in, the system uses the defined fixed asset number and increments the number sequence.</span></span>
+<span data-ttu-id="6c027-123">如果您没有在 Excel 加载项的模板中或在数据管理中定义固定资产编号，系统会为每个导入的资产创建固定资产编号，并自动递增每个编号序列。</span><span class="sxs-lookup"><span data-stu-id="6c027-123">If you didn't define the fixed asset number in the template of the Excel add-in, or in Data management, the system creates a fixed asset number for each imported asset and automatically increments the number sequence for each.</span></span> <span data-ttu-id="6c027-124">但是，如果您导入资产并在模板中定义资产编号，系统 **不会** 自动递增编号序列。</span><span class="sxs-lookup"><span data-stu-id="6c027-124">However, if you import assets and define asset numbers in the template, the system does **not** automatically increment the number sequence.</span></span> <span data-ttu-id="6c027-125">在这种情况下，管理员必须手动更新编号序列。</span><span class="sxs-lookup"><span data-stu-id="6c027-125">In this case, an admin might have to manually update the number sequence.</span></span> <span data-ttu-id="6c027-126">如果您在 Excel 加载项的模板中定义了固定资产编号，系统将使用定义的固定资产编号并递增编号序列。</span><span class="sxs-lookup"><span data-stu-id="6c027-126">If you defined the fixed asset number in the template of the Excel add-in, the system uses the defined fixed asset number and increments the number sequence.</span></span>
 
 > [!NOTE]                                                                                                         
-> <span data-ttu-id="e472b-127">过帐折旧后，将锁定 **帐簿** 页面中的 **投入使用** 和 **折旧运行日期** 字段。</span><span class="sxs-lookup"><span data-stu-id="e472b-127">After posting the depreciation, the **Placed in service** and **Depreciation run date** fields will be locked on the **Book** page.</span></span> <span data-ttu-id="e472b-128">此外，还将从数据实体更新这两个字段。</span><span class="sxs-lookup"><span data-stu-id="e472b-128">Also, both neither field will be updated from the data entity.</span></span>
+> <span data-ttu-id="6c027-127">过帐折旧后，将锁定 **帐簿** 页面中的 **投入使用** 和 **折旧运行日期** 字段。</span><span class="sxs-lookup"><span data-stu-id="6c027-127">After posting the depreciation, the **Placed in service** and **Depreciation run date** fields will be locked on the **Book** page.</span></span> <span data-ttu-id="6c027-128">此外，还将从数据实体更新这两个字段。</span><span class="sxs-lookup"><span data-stu-id="6c027-128">Also, both neither field will be updated from the data entity.</span></span>
 
 > [!WARNING]
-> <span data-ttu-id="e472b-129">如果将交易记录过帐到关联的帐簿，或者在日记帐行中输入了新创建的固定资产但未过帐，则不会删除固定资产记录。</span><span class="sxs-lookup"><span data-stu-id="e472b-129">The fixed asset record won't be deleted if transactions were posted to the associated book, or if the newly created fixed asset is entered on a journal line but not posted.</span></span> 
+> <span data-ttu-id="6c027-129">如果将交易记录过帐到关联的帐簿，或者在日记帐行中输入了新创建的固定资产但未过帐，则不会删除固定资产记录。</span><span class="sxs-lookup"><span data-stu-id="6c027-129">The fixed asset record won't be deleted if transactions were posted to the associated book, or if the newly created fixed asset is entered on a journal line but not posted.</span></span> 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
