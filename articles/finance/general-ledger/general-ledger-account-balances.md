@@ -2,11 +2,9 @@
 title: 总帐科目余额
 description: 本文说明查看总帐科目余额的两种方法：试算平衡表列表页和财务报表。 它还讨论如何更新维度集余额。
 author: aprilolson
-manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cca5fee45635f9b752d97f1ca9d0b1fbc1453e3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: da1734a4e3d035d41c1dcaae0e6b0c9114031d95
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249207"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832890"
 ---
 # <a name="general-ledger-account-balances"></a>总帐科目余额
 

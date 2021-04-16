@@ -2,11 +2,9 @@
 title: 在销售点 (POS) 中显示订单通知
 description: 此主题介绍如何在销售点和通知框架中启用订单通知。
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations, RetailFunctionalityProfile
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ea902b5d65f806fc88e688d10bdad9ae75611ef
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: f7b28a33dff4af6bf2b97db825a5a8304213f3a0
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585074"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796478"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>在销售点 (POS) 中显示订单通知
 

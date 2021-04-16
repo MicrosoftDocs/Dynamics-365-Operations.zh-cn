@@ -2,11 +2,9 @@
 title: 购买交易记录中的预缴税金
 description: 对于有预缴税金的供应商，您可以在 **所有供应商** 页上分配默认的 **预缴税金组**。
 author: roschlom
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 06c18e6b0779539a6da7ae7afbe000c4cfc78d9e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: faeaf0746532875d3517a208c9c338c112bf2c77
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256659"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816875"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>购买交易记录中的预缴税金
 

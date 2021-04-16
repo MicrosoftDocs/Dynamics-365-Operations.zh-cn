@@ -1,12 +1,10 @@
 ---
 title: 已计划执行
 description: 本主题介绍资产管理中的已计划执行。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0ed61411920edebb1ab9b87856a5418fa43bc2f4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fae899bcfa8bb2566d1a9aee3f0dbe22bc219edf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264914"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825630"
 ---
 # <a name="scheduled-execution"></a>已计划执行
 

@@ -2,11 +2,9 @@
 title: 维护财务维度默认模板
 description: 此主题显示如何设置财务维度默认模板。
 author: aprilolson
-manager: AnnBe
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialDimensionDefaultTemplates, DimensionLookup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a03a277ef3ccc6796bc0a4f081dcec0d9a51fb7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 428fdc1540da98642b81d3aff6a586d355715488
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240681"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836929"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>维护财务维度默认模板
 

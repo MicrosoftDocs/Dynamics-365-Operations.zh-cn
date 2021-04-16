@@ -2,11 +2,9 @@
 title: 出站工作负荷可视化
 description: 本主题提供有关出库工作负荷可视化的信息。 此功能使仓库经理和主管可以创建自定义工作负荷图表，该图表可用于监视当前工作的进度和剩余工作量。 仓库经理可以根据需要创建多个视图并设置自动刷新。
 author: Mirzaab
-manager: tfehr
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6b7512ea6ad2e97db388bac6750482f7ed967140
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f1a405f5bbf8728876213e6c726ae41ebf809626
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225901"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810478"
 ---
 # <a name="outbound-workload-visualization"></a>出站工作负荷可视化
 

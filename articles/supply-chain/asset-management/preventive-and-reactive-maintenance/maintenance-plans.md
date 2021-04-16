@@ -1,12 +1,10 @@
 ---
 title: 维护计划
 description: 本主题介绍资产管理中的维护计划。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectType, EntAssetCounterType, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 09ae8b0ce56b08db0ba400b19676bd698c90a561
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500806"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839599"
 ---
 # <a name="maintenance-plans"></a>维护计划
 
@@ -195,8 +193,6 @@ ms.locfileid: "5500806"
 
 ## <a name="counter-based-maintenance-enhancements"></a>基于计数器的维护增强
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 *基于计数器的维护增强* 功能引入了以下功能：
 
 - 创建资产时自动插入具有 *0*（零）值的计数器的选项。 当您使用基于计数器的预测性维护时，此选项可能很有用。 如果不使用 *基于计数器的维护增强* 功能，则必须手动插入具有 *0*（零）值的计数器。
@@ -209,7 +205,7 @@ ms.locfileid: "5500806"
 此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
 
 - **模块**：*资产管理*
-- **功能名称**：*（预览）基于计数器的维护增强*
+- **功能名称**：*基于计数器的维护增强*
 
 ### <a name="create-and-initialize-counters-when-an-asset-is-created"></a>创建资产时创建和初始化计数器
 

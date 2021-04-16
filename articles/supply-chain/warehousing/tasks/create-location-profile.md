@@ -2,11 +2,9 @@
 title: 创建库位模板
 description: 本主题说明如何在 Dynamics 365 Supply Chain Management 中创建库位模板。
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9be25004452ab0a0e2af0ac552a69f805d301d8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 101d80216f786eb8edb687031e4deac8cc3033ff
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239054"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831018"
 ---
 # <a name="create-a-location-profile"></a>创建库位模板
 

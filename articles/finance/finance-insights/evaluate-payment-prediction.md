@@ -2,11 +2,9 @@
 title: 评估初始客户付款预测模型（预览）
 description: 本主题描述您可以用来理解客户付款预测模型并评估其有效性的步骤。
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 9cbe0308902071c066d18ce71e6e33422207e8ba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245584"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818606"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>评估初始客户付款预测模型（预览）
 
@@ -68,7 +66,7 @@ ms.locfileid: "5245584"
 
 您可以通过以下方式扩展此数据。
 
-|                          | 预计按时 | 预计逾期 | 预计严重逾期 |
+| &nbsp;                   | 预计按时 | 预计逾期 | 预计严重逾期 |
 |--------------------------|-------------------|----------------|---------------------|
 | 实际按时付款   | **71**            | 0              | 21                  |
 | 实际逾期付款      | 5                 | **0**          | 27                  |

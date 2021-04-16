@@ -1,12 +1,10 @@
 ---
-title: 开始使用适用于意大利的电子开票附加产品
-description: 本主题提供的信息将帮助您开始使用 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中适用于意大利电子开票附加产品的电子开票附加产品。
+title: 开始使用适用于意大利的电子开票
+description: 本主题提供的信息将帮助您开始使用适用于意大利的电子开票。
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,26 +15,26 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9c50000c98bdde2c9da43b3110686aa5d01e8081
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259212"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840092"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>开始使用适用于意大利的电子开票附加产品
+# <a name="get-started-with-electronic-invoicing-for-italy"></a>开始使用适用于意大利的电子开票
 
 [!include [banner](../includes/banner.md)]
 
 
 > [!IMPORTANT]
-> 适用于意大利的电子开票附加产品当前可能不支持 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中可用于电子发票的所有功能。 
+> 适用于意大利的电子开票当前可能不支持 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中可用于电子发票的所有功能。 
 
-本主题提供的信息将帮助您开始使用适用于意大利的电子开票附加产品。 指导您完成 Regulatory Configuration Services (RCS) 和 Finance 中与国家/地区相关的配置步骤。 还会指导您完成通过服务提交以意大利特定的 **FatturaPA** 格式生成的电子发票的流程，并说明如何查看处理结果。
+本主题提供的信息将帮助您开始使用适用于意大利的电子开票。 指导您完成 Regulatory Configuration Services (RCS) 和 Finance 中与国家/地区相关的配置步骤。 还会指导您完成通过服务提交以意大利特定的 **FatturaPA** 格式生成的电子发票的流程，并说明如何查看处理结果。
 
 ## <a name="prerequisites"></a>先决条件
 
-在完成本主题中的步骤之前，您必须[开始使用电子开票附加产品](e-invoicing-get-started.md)中的步骤。
+在完成本主题中的步骤之前，您必须完成[开始使用电子开票](e-invoicing-get-started.md)中的步骤。
 
 ## <a name="rcs-setup"></a>RCS 设置
 
@@ -48,7 +46,7 @@ ms.locfileid: "5259212"
 4. 发布电子开票功能。
 
 > [!NOTE]
-> “电子开票功能”是配置和发布以使用电子开票附加产品服务器的资源的通用名称。 在这种情况下，导出客户电子发票是您将要设置的电子开票功能。
+> “电子开票功能”是配置和发布以使用电子开票服务器的资源的通用名称。 在这种情况下，导出客户电子发票是您将要设置的电子开票功能。
 
 ## <a name="import-the-e-invoicing-feature"></a>导入电子开票功能
 
@@ -153,7 +151,7 @@ ms.locfileid: "5259212"
 
 ![更改电子开票功能的状态](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance"></a>在 Finance 中设置电子开票附加产品集成
+## <a name="set-up-electronic-invoicing-integration-in-finance"></a>在 Finance 中设置电子开票集成
 
 在 Finance 设置期间，您将完成以下任务：
 
@@ -193,17 +191,17 @@ ms.locfileid: "5259212"
 
 在 Finance 中进行处理期间，您将完成以下任务：
 
-1. 通过电子开票附加产品生成意大利电子发票
+1. 通过电子开票生成意大利电子发票
 2. 查看执行日志和处理结果
 
 ### <a name="generate-electronic-invoices"></a>生成电子发票
 
-打开 **可配置电子开票附加产品集成** 功能并激活 **IT00036** 功能后，将不再使用生成意大利电子发票的旧 Finance 流程。 取而代之的是一个名为 **提交电子单据** 的新流程。
+打开 **可配置电子开票集成** 功能并激活 **IT00036** 功能后，将不再使用生成意大利电子发票的旧 Finance 流程。 取而代之的是一个名为 **提交电子单据** 的新流程。
 
 您可以根据对电子发票单据的要求手动提交单据。
 
 > [!NOTE]
-> 在继续之前，请验证意大利电子发票所需的设置已完成。 有关详细信息，请参阅[客户电子发票](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices)。 请注意，该主题中所述的某些设置步骤可能由于电子开票附加产品的激活不可用。
+> 在继续之前，请验证意大利电子发票所需的设置已完成。 有关详细信息，请参阅[客户电子发票](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices)。 请注意，该主题中所述的某些设置步骤可能由于电子开票激活不可用。
 
 1. 转到 **组织管理 \> 定期 \> 电子单据 \> 提交电子单据**。
 2. 对于任何文档的首次提交，请将 **重新提交文档** 选项设置为 **否**。 如果必须通过服务重新提交文档，请将此选项设置为 **是**。
@@ -220,7 +218,7 @@ ms.locfileid: "5259212"
 2. 单击 **确定** 以关闭 **查询** 对话框。
 3. 选择 **确定** 提交所选文档。
 
-> ![注意] 在首次尝试通过服务提交文档时，系统会提示您确认与电子开票附加产品的连接。 选择 **单击此处连接到电子单据提交服务**。
+> ![注意] 在首次尝试通过服务提交单据时，系统会提示您确认与电子开票的连接。 选择 **单击此处连接到电子单据提交服务**。
 
 #### <a name="view-submission-logs"></a>查看提交日志
 
@@ -242,9 +240,9 @@ ms.locfileid: "5259212"
 
 ## <a name="related-topics"></a>相关主题
 
-- [电子开票附加产品概述](e-invoicing-service-overview.md)
-- [开始使用电子开票附加产品](e-invoicing-get-started.md)
-- [设置电子开票附加产品](e-invoicing-setup.md)
+- [电子开票概览](e-invoicing-service-overview.md)
+- [开始使用电子开票](e-invoicing-get-started.md)
+- [设置电子开票](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

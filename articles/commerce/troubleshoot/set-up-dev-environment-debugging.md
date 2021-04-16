@@ -2,7 +2,6 @@
 title: 设置电子商务开发环境以针对 1 级零售服务器虚拟机进行调试
 description: 本主题介绍如何设置电子商务开发环境以针对 1 级零售服务器虚拟机 (VM) 进行调试。
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 35380a559a4f1b22bdf04ff25cb2bbfc51aff45b
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: 5ef286aa28ff459befb72b0178f308e5fb85ec44
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585204"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801475"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>设置电子商务开发环境以针对 1 级零售服务器虚拟机进行调试
 

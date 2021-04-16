@@ -1,12 +1,10 @@
 ---
 title: 针对采购订单的物料收货
 description: 本主题介绍了用于将产品登记为已接收状态的各种选项。
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 11/15/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, VendPackingSlipJournalListPage, VendPackingSlipJournal
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3680aedad6429cd0d473f1e3d9b5f8e09dd32082
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ca52f4127b3ec80eab3ba5c3c239c36d01178c00
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247806"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825462"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>针对采购订单的物料收货
 

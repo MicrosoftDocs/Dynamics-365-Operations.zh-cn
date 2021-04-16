@@ -2,11 +2,9 @@
 title: 启用和使用跨渠道共享
 description: 本主题介绍了如何启用和使用 Microsoft Dynamics 365 Commerce 站点构建器的跨渠道共享功能。
 author: psimolin
-manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 987dca54e47b909014862e310aa424019d8c4677
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: de317c2fae4607f5b8b887dd5e866d812043dcd3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207815"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799509"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>启用和使用跨渠道共享
 
 [!include [banner](includes/banner.md)]
 
 本主题介绍了如何启用和使用 Microsoft Dynamics 365 Commerce 站点构建器的跨渠道共享功能。
-
-## <a name="overview"></a>概览
 
 通过跨渠道共享，零售商可以在站点的多个渠道中重复使用和共享内容。 当站点渠道具有兼容的基本语言时，或者当它们具有多个共同的内容项时，此功能很有用。
 

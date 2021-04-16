@@ -2,11 +2,9 @@
 title: 从现有配方版本中复制联产品
 description: 该过程展示如何为发布的产品从现有配方版本向不同的配方版本中复制联产品。
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, BOMConsistOf, PmfFormulaCoBy, BOMRouteCopyDialog
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 79d55c3dfe69e9a67c5e3d0d1cf84acbb6a51d07
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cbcf2abc37441f9ff23e2b180c261831dfb79369
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255341"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829274"
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>从现有配方版本中复制联产品
 

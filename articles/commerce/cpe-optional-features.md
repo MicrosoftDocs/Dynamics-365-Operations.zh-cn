@@ -2,11 +2,9 @@
 title: 为 Dynamics 365 Commerce 评估环境配置可选功能
 description: 本主题说明如何为 Microsoft Dynamics 365 Commerce 评估环境配置可选功能。
 author: psimolin
-manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: def99a34404357e28501de5ccf11c6130d53f34f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6bc968c2659380bb8c92292ee19e3a7ec8a20a2b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213810"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795899"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>为 Dynamics 365 Commerce 评估环境配置可选功能
 

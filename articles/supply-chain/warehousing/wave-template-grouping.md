@@ -2,11 +2,9 @@
 title: 波次模板分组
 description: 波次模板分组功能让系统使用波次模板设置根据定义的条件确定如何拆分已发放行和将其分配给新波次或现有波次。 在根据特定条件创建了波次，但是经理希望自动，而不是手动创建波次的仓库中，此功能可能非常有用。
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTableListPage, WHSWaveTemplateTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 520338683443105ffd1df7fc2569cd95a5f50879
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a591624f6611148abe4888e67d8d3a9bbea9cd27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245122"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838026"
 ---
 # <a name="wave-template-grouping"></a>波次模板分组
 

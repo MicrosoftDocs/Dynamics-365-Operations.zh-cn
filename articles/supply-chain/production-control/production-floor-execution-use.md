@@ -2,11 +2,9 @@
 title: 工作人员如何使用生产车间执行界面
 description: 本主题从工作人员的角度介绍了如何使用生产车间执行界面。
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecution
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 38bc07d37b5c51f143846110c87cff9952d52b0e
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500782"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814648"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>工作人员如何使用生产车间执行界面
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 生产车间执行界面针对触摸交互进行了优化。 它的设计提供了视觉对比，可以满足车间环境的可访问性要求。 它提供与作业卡设备相同的所有功能。 但是，它还允许从作业列表中并行启动多个作业。 （此功能也称为 *作业捆绑*。）此外，从作业列表中，工作人员可以打开在 Microsoft Dynamics 365 指南中创建的指南。 通过此方法，他们可以在 HoloLens 上获取视觉说明。
 
@@ -90,7 +87,7 @@ ms.locfileid: "5500782"
 
 1. **设置** – 选择齿轮图标打开一个对话框，您可以在其中选择要查看所选机器资产的计数器。 这些计数器的值显示在 **资产管理** 选项卡的顶部。**设置** 菜单（如以下屏幕截图所示）让您最多可以启用四个计数器。 对于要启用的每个计数器，请使用磁贴顶部的查找字段来选择计数器。 查找字段在 **资产管理** 页顶部列出与所选资产相关的所有计数器。 设置每个计数器来监视计数器的 **聚合** 值或最新的 **实际** 值。 例如，如果您设置一个计数器来跟踪机器运行了几个小时，则应将其设置为 **聚合**。 如果设置计数器来测量最新更新的温度或压力，则应将其设置为 **实际**。 选择 **确定** 保存设置并关闭对话框。
 
-    ![“我的机器”选项卡](media/pfei-my-machine-tab-settings.png "“我的机器”选项卡")
+    ![“我的机器”选项卡设置](media/pfei-my-machine-tab-settings.png "“我的机器”选项卡设置")
 
 1. **请求维护** – 选择此按钮将打开一个对话框，您可以在其中创建维护请求。 您可以提供描述和注释。 请求将引起 Supply Chain Management 用户的注意，然后用户可以将维护请求转换为维护工作订单。
 1. **登记停机时间** – 选择此按钮将打开一个对话框，您可以在其中登记机器停机时间。 您可以选择原因码并输入停机时间的日期/时间跨度。 机器停机时间登记用于计算机器资产的效率。

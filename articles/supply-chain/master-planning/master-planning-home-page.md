@@ -2,11 +2,9 @@
 title: 主计划主页
 description: 主计划允许公司确定和平衡原材料和产能的将来需求，以实现公司目标。
 author: ShylaThompson
-manager: tfehr
 ms.date: 12/03/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7829c09696fc5619f1652cbfbde5ae88eaa3ab32
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5056bc9ffa96e1a23e07582b1742e5b3bec12610
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224491"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833417"
 ---
 # <a name="master-planning-home-page"></a>主计划主页
 

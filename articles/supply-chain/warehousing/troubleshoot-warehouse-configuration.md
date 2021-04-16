@@ -2,11 +2,9 @@
 title: 仓库配置疑难解答
 description: 此主题介绍如何解决配置 Microsoft Dynamics 365 Supply Chain Management 时可能遇到的常见问题。
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 1dbd947f0740d22e0f79e6d5c272beb64715c8a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487089"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814384"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>仓库配置疑难解答
 
@@ -38,7 +36,7 @@ ms.locfileid: "5487089"
 
 ### <a name="issue-resolution"></a>解决问题
 
-请确保牌照 ID 未在别处保留。 当用户在仓库应用中扫描的值既是有效位置又是有效牌照 ID 时，过去常会发生此问题。 但是，此问题已在版本 10.0.11 中解决。
+请确保牌照 ID 未在别处保留。 当用户在仓库管理移动应用中扫描的值既是有效库位又是有效牌照 ID 时，过去常会发生此问题。 但是，此问题已在版本 10.0.11 中解决。
 
 ## <a name="i-receive-the-following-error-message-license-plate-must-be-specified-for-this-location"></a>我收到以下错误消息：“必须为此位置指定牌照。”
 
@@ -82,7 +80,7 @@ ms.locfileid: "5487089"
 
 一项新功能 *评估多 SKU 位置指令的所有操作* 已在版本 10.0.15 中添加（请参阅 [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)）。 此功能可评估多 SKU 位置指令的所有操作。 如果您需要此功能，请使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)将它打开。
 
-## <a name="i-cant-use-the-warehouse-app-to-do-partial-picking"></a>我无法使用仓库应用进行部分领料。
+## <a name="i-cant-use-the-warehouse-management-mobile-app-to-do-partial-picking"></a>我无法使用仓库管理移动应用进行部分领料。
 
 ### <a name="issue-description"></a>问题描述
 
@@ -100,7 +98,7 @@ ms.locfileid: "5487089"
 
 ### <a name="issue-resolution"></a>解决问题
 
-要使工作人员能够进行此更改，您可以为仓库应用创建菜单项。 在 **移动设备菜单项** 页上，创建（或编辑）具有以下设置的菜单项：
+若要使工作人员能够进行此更改，您可以为仓库管理移动应用创建菜单项。 在 **移动设备菜单项** 页上，创建（或编辑）具有以下设置的菜单项：
 
 - **模式：***工作*
 - **使用现有工作**：*否*
