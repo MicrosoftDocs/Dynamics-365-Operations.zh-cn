@@ -2,11 +2,9 @@
 title: 创建预缴税金支付
 description: 预缴税金支付作业过程结算预缴税金帐户中应付帐款中的预缴税金余额，并冲销特定期间内的预缴税金结算帐户。 本主题列出了设置预缴税金支付的步骤。
 author: roschlom
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,27 +15,27 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: eae914ccafad12426cadd91c0950bada23548005
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 72d80fbb3b2448f4b89fa7d7fa580387e1a3621c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212268"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832938"
 ---
-# <a name="create-a-withholding-tax-payment"></a><span data-ttu-id="37a9c-104">创建预缴税金支付</span><span class="sxs-lookup"><span data-stu-id="37a9c-104">Create a withholding tax payment</span></span>
+# <a name="create-a-withholding-tax-payment"></a><span data-ttu-id="4be4e-104">创建预缴税金支付</span><span class="sxs-lookup"><span data-stu-id="4be4e-104">Create a withholding tax payment</span></span>
 
-<span data-ttu-id="37a9c-105">预缴税金支付作业过程结算预缴税金帐户中应付帐款中的预缴税金余额，并冲销特定期间内的预缴税金结算帐户。</span><span class="sxs-lookup"><span data-stu-id="37a9c-105">The Withholding tax payment job procedure settles withholding tax balances from Accounts payable on withholding tax accounts, and offsets them to the withholding tax settlement account for a given period.</span></span> <span data-ttu-id="37a9c-106">本主题列出了设置预缴税金支付的步骤。</span><span class="sxs-lookup"><span data-stu-id="37a9c-106">This topic lists the steps for setting up a withholding tax payment.</span></span>
+<span data-ttu-id="4be4e-105">预缴税金支付作业过程结算预缴税金帐户中应付帐款中的预缴税金余额，并冲销特定期间内的预缴税金结算帐户。</span><span class="sxs-lookup"><span data-stu-id="4be4e-105">The Withholding tax payment job procedure settles withholding tax balances from Accounts payable on withholding tax accounts, and offsets them to the withholding tax settlement account for a given period.</span></span> <span data-ttu-id="4be4e-106">本主题列出了设置预缴税金支付的步骤。</span><span class="sxs-lookup"><span data-stu-id="4be4e-106">This topic lists the steps for setting up a withholding tax payment.</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="37a9c-107">计算预缴税金支付时，不考虑预缴税金冲销（来自应收帐款）。</span><span class="sxs-lookup"><span data-stu-id="37a9c-107">Withholding tax offset (from accounts receivable) is not taken into account when a withholding tax payment is calculated.</span></span>
+> <span data-ttu-id="4be4e-107">计算预缴税金支付时，不考虑预缴税金冲销（来自应收帐款）。</span><span class="sxs-lookup"><span data-stu-id="4be4e-107">Withholding tax offset (from accounts receivable) is not taken into account when a withholding tax payment is calculated.</span></span>
 
-1. <span data-ttu-id="37a9c-108">转到 **导航窗格 > 模块 > 纳税 > 申报 > 预缴税金 > 预缴税金支付**。</span><span class="sxs-lookup"><span data-stu-id="37a9c-108">Go to **Navigation pane > Modules > Tax > Declarations > Withholding tax > Withholding tax payment**.</span></span>
-2. <span data-ttu-id="37a9c-109">在 **结算期间** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="37a9c-109">In the **Settlement period** field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="37a9c-110">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="37a9c-110">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="37a9c-111">在 **开始日期** 字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="37a9c-111">In the **From date** field, enter a date.</span></span>
-5. <span data-ttu-id="37a9c-112">在 **交易记录日期** 字段中，输入日期。</span><span class="sxs-lookup"><span data-stu-id="37a9c-112">In the **Transaction date** field, enter a date.</span></span>
-6. <span data-ttu-id="37a9c-113">选择 **更新** 将预缴税金支付凭证过帐到预缴税金结算帐户。</span><span class="sxs-lookup"><span data-stu-id="37a9c-113">Select **Update** to post withholding tax payment voucher to the withholding tax settlement account.</span></span>
-7. <span data-ttu-id="37a9c-114">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="37a9c-114">Click **OK**.</span></span>
+1. <span data-ttu-id="4be4e-108">转到 **导航窗格 > 模块 > 纳税 > 申报 > 预缴税金 > 预缴税金支付**。</span><span class="sxs-lookup"><span data-stu-id="4be4e-108">Go to **Navigation pane > Modules > Tax > Declarations > Withholding tax > Withholding tax payment**.</span></span>
+2. <span data-ttu-id="4be4e-109">在 **结算期间** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4be4e-109">In the **Settlement period** field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="4be4e-110">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="4be4e-110">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="4be4e-111">在 **开始日期** 字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="4be4e-111">In the **From date** field, enter a date.</span></span>
+5. <span data-ttu-id="4be4e-112">在 **交易记录日期** 字段中，输入日期。</span><span class="sxs-lookup"><span data-stu-id="4be4e-112">In the **Transaction date** field, enter a date.</span></span>
+6. <span data-ttu-id="4be4e-113">选择 **更新** 将预缴税金支付凭证过帐到预缴税金结算帐户。</span><span class="sxs-lookup"><span data-stu-id="4be4e-113">Select **Update** to post withholding tax payment voucher to the withholding tax settlement account.</span></span>
+7. <span data-ttu-id="4be4e-114">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="4be4e-114">Click **OK**.</span></span>
 
 ![预缴税金支付的参数](media/withholding-tax-payment.png)
 
