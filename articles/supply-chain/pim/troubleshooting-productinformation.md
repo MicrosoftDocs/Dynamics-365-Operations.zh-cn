@@ -2,11 +2,9 @@
 title: 产品信息疑难解答
 description: 此主题介绍如何解决处理产品信息时可能遇到的问题。
 author: SmithaNataraj
-manager: tfehr
 ms.date: 11/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a9db8e0081a0d47ec8d74680fe99a0934b99bb5c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a05e9957363ef6a659e25ceba84a168507cd641a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223354"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841519"
 ---
 # <a name="troubleshoot-product-information"></a>产品信息疑难解答
 

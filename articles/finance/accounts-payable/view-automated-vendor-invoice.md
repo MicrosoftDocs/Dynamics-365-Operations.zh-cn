@@ -2,11 +2,9 @@
 title: 查看供应商发票自动化结果（预览）
 description: 本主题说明了如何查看自动提交到工作流程中的供应商发票的状态。
 author: abruer
-manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3b87af4c64f8021a1b23cca5d8f38ac21c8efbd4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 872ec404da0cce41c4ea0f882a3fa8af56316ce3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248079"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837217"
 ---
 # <a name="view-vendor-invoice-automation-results"></a>查看供应商发票自动化结果
 

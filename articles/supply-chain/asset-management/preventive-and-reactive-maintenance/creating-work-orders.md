@@ -2,11 +2,9 @@
 title: 创建工作订单
 description: 本主题介绍如何在资产管理中创建工作订单。
 author: johanhoffmann
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3982232e5008d6f8c283d6cecfaf2fa6e66150a1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500566"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836726"
 ---
 # <a name="creating-work-orders"></a>创建工作订单
 
@@ -62,8 +60,6 @@ ms.locfileid: "5500566"
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>对在维护计划运行时自动创建的工作订单行进行分组
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 使用此功能，您可以根据维护计划，为在系统设置为自动生成工作订单时对单个工作订单下的工作订单行进行分组定义规则。 以前，自动生成的工作订单只能包含一行。 但是，现在您可以按资产、资产类型或功能位置等对工作订单进行分组。 （手动生成的工作订单可能已经通过这种方式完成了分组，如本主题上一节中所述。）
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>为自动生成的工作订单启用分组
@@ -71,7 +67,7 @@ ms.locfileid: "5500566"
 此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
 
 - **模块**：*资产管理*
-- **功能名称**：*（预览）在运行维护计划时为分组工作订单应用规则*
+- **功能名称**：*在运行维护计划时为分组工作订单应用规则*
 
 ### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>为自动生成的工作订单设置分组
 

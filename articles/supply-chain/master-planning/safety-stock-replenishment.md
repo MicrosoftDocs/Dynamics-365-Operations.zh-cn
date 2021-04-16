@@ -2,11 +2,9 @@
 title: 物料的安全存货履行
 description: 此主题讨论安全存货履行以及如何设置物料的安全存货数量。
 author: roxanadiaconu
-manager: tfehr
 ms.date: 11/27/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended, ReqSafetyKeyDefaultDataWizard
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: d97fd3e441c08152dc151a95b80cbf73d93d8fca
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d80c754b7aa154d9636bb0d9fbfb448987d01e48
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247878"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841783"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>物料的安全存货履行
 

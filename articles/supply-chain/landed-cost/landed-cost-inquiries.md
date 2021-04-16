@@ -2,7 +2,6 @@
 title: 登陆成本查询
 description: 本主题介绍如何查找和使用可用于登陆成本模块的各个类型的查询。
 author: sherry-zheng
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 10f5948b4e3df089aef982269143254d9ac1e8a9
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 22a2e76780adb43b053b6cf7fd08411a4a60aeac
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500348"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823353"
 ---
 # <a name="landed-cost-inquiries"></a>登陆成本查询
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="voyage-line-inquiries"></a>航行行查询
 

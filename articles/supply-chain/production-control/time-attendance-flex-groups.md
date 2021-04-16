@@ -2,11 +2,9 @@
 title: 弹性组
 description: 此主题介绍考勤管理中如何使用弹性组。
 author: johanhoffmann
-manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgFlexGroup, JmgFlexCorrection
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 5b695775b74950d3b5ce7d05d178c24a6bdb5aeb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: afffdfba965806d18b148c77774a31bbb3c0c46c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214882"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831762"
 ---
 # <a name="flex-groups"></a>弹性组
 

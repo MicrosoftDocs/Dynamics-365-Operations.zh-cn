@@ -2,11 +2,9 @@
 title: 快照概述（预览）
 description: 本主题介绍快照功能，该功能使您可以保存现金流预测以供以后分析或与实际情况进行比较。 生成现金流预测时，可以将该预测另存为“快照”。 然后，您可以使用该快照来编辑预测中包含的科目，或者将快照中的预测与实际值进行比较。
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b9d201125e9d9178ccfc1a7e52a20f1f12529345
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 07854d47fa2e42ea0d49cde193a2040415acf089
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222937"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827234"
 ---
 # <a name="snapshots-overview-preview"></a>快照概述（预览）
 

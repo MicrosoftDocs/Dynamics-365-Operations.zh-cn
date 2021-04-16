@@ -2,11 +2,9 @@
 title: 设置自动过帐到默认描述
 description: 本主题说明如何设置用于介绍自动过帐到总帐的会计条目的默认文本。 您可以使用自由格式的文本或通过选择固定变量设置默认描述文本。
 author: aprilolson
-manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5955b796cbc7917eb5500b96c879d1b0819d2edc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3963b4ed63021dd3c84a0d87b768486dcb0f386d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204850"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837073"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>设置自动过帐到默认描述
 

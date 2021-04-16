@@ -2,11 +2,9 @@
 title: 配置设备的作业卡
 description: 本主题介绍配置作业卡设备的各个选项。
 author: johanhoffmann
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch, JmgRegistrationTouchUserConfiguration
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: c139fb7daa0f40b6b7afb0a707f714502d3146d1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2ccfbadb48e2ecd274e68201bbbc7858ab01203a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246349"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836582"
 ---
 # <a name="configure-job-card-for-devices"></a>配置设备的作业卡
 
@@ -50,7 +48,7 @@ ms.locfileid: "5246349"
 
 要使此功能可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中启用以下功能：
 
-- （预览）用于锁定作业卡设备和作业卡终端以便对其进行净化的功能
+- 用于锁定作业卡设备和作业卡终端以便对其进行净化的功能
 
 ## <a name="manage-your-device-configurations"></a>管理设备配置
 

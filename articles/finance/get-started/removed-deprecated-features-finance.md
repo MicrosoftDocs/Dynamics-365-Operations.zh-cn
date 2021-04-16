@@ -2,11 +2,9 @@
 title: Dynamics 365 Finance 中已删除或弃用的功能
 description: 本主题介绍 Dynamics 365 Finance 中已经删除或计划删除的功能。
 author: roschlom
-manager: AnnBe
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
-ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
+ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5474055"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836905"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance 中已删除或弃用的功能
 
@@ -39,7 +37,7 @@ ms.locfileid: "5474055"
 
 ### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>作为电子报告配置的存储选项的 LCS 储存库
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 替换为新的监管配置服务 (RCS) 全局存储库 |
 | **被另一个功能取代？**   | 是 |
@@ -51,7 +49,7 @@ ms.locfileid: "5474055"
 
 ### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>捷克共和国的“增值税申报 (CZ)”和“控制对帐单导出 (CZ)”电子报告格式
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 替换为新格式 |
 | **被另一个功能取代？**   | 是 |
@@ -61,7 +59,7 @@ ms.locfileid: "5474055"
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>比利时的“分类帐交易导出格式 (BE)”电子申报格式和相应的“分类帐交易导出 (BE)”模型
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 在“标准审核文件 (SAF-T)”模型下替换为了新的 ER 格式。  |
 | **被另一个功能取代？**   | 是 |
@@ -71,7 +69,7 @@ ms.locfileid: "5474055"
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>SSRS 格式的英国“VAT 100”报表
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | “税申报模型”下已替换为新的 ER 格式 -“增值税申报 Excel (UK)”格式。  |
 | **被另一个功能取代？**   | 是 |
@@ -83,7 +81,7 @@ ms.locfileid: "5474055"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Dynamics 365 不再支持 Internet Explorer 11
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 从 2020 年 12 月开始，所有 Dynamics 365 产品的 Microsoft Internet Explorer 11 支持已弃用，2021 年 8 月之后，将不再支持 Internet Explorer 11。<br><br>这将影响所用 Dynamics 365 产品设计为通过 Internet Explorer 11 界面使用的客户。 2021 年 8 月之后，此类 Dynamics 365 产品将不支持 Internet Explorer 11。 |
 | **被另一个功能取代？**   | 我们建议客户转换到 Microsoft Edge。|
@@ -95,7 +93,7 @@ ms.locfileid: "5474055"
 
 ### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>波兰语 SSRS 报表：销售增值税登记簿、采购增值税登记簿、欧盟增值税汇总登记簿 – 功能引用 PL-00014
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 非法律要求。  |
 | **被另一个功能取代？**   | 是（包含增值税申报的标准审计文件的 Excel 格式 - JPK_VDEK） |
@@ -107,7 +105,7 @@ ms.locfileid: "5474055"
 
 ### <a name="norwegian-standard-main-accounts"></a>挪威标准主科目
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 重新设计  |
 | **被另一个功能取代？**   | 是（已被 ER 格式应用程序特定参数取代） |
@@ -118,7 +116,8 @@ ms.locfileid: "5474055"
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Finance 10.0.7 版本中已经删除或弃用的功能
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>“工作流请求更改”对话框中不再包含用户选择下拉列表
-|   |  |
+
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 更改为带帐户组选择的功能。  |
 | **被另一个功能取代？**   | 是 |

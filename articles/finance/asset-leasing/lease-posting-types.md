@@ -2,11 +2,9 @@
 title: 租赁过帐类型
 description: 本主题描述用于资产租赁交易的过帐类型。
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9b7d8c545c1addaa570d54855bbad6c576783007
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ddc229f3ab8e048390f27503e2c6c26bd1a6f24f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229494"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841133"
 ---
 # <a name="lease-posting-types"></a>租赁过帐类型
 
@@ -90,15 +88,6 @@ ms.locfileid: "5229494"
 **示例日记帐条目：** 应计折旧<br>
 **贷记：** 折旧费用 XXX<br>
 **贷记：** 累计折旧 XXX
-
-## <a name="retained-earnings"></a>留存收益
-
-与留存收益关联的科目。 可以通过使用完整回溯方法或累积采纳选项 A 方法在转换调整日记帐条目中借记或贷记此科目。 初始使用权资产和租赁负债之间的差额计入留存收益。 在极少数情况下，如果将租赁的类别从财务更改为经营，以增减使用权资产，使其等于租赁负债，则在租赁修改期间，留存收益也可能会受到影响。
-
-**示例日记帐条目：** 转换调整（完整回溯或累积采纳选项 A 方法）<br>
-**贷记：** 租赁负债 XXX<br>
-**贷记：** 租赁资产 XXX<br>
-**贷记：** 留存收益 XXX
 
 ## <a name="variable-payment"></a>可变付款
 

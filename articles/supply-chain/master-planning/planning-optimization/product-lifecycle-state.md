@@ -2,11 +2,9 @@
 title: 排除具有特定产品生命周期状态的产品
 description: 此主题说明使用计划优化功能时如何基于产品的生命周期状态排除产品。
 author: ChristianRytt
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a1e0c734db763ffa69e2d6540a07d5fa04c22ea1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7028a509aa884589958542f7ec627d69dffcfcec
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227804"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839239"
 ---
 # <a name="exclude-products-that-have-specific-product-lifecycle-states"></a>排除具有特定产品生命周期状态的产品
 

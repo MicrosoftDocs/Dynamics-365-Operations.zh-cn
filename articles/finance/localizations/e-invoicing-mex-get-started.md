@@ -1,12 +1,10 @@
 ---
-title: 开始使用适用于墨西哥的电子开票附加产品
-description: 本主题提供的信息将帮助您开始使用 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中适用于墨西哥的电子开票附加产品。
+title: 开始使用适用于墨西哥的电子开票
+description: 本主题提供的信息将帮助您开始使用适用于墨西哥的电子开票。
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,25 +15,25 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ec7417d44a7c2aa413a9cda75996c153727632dd
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592638"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840044"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>开始使用适用于墨西哥的电子开票附加产品
+# <a name="get-started-with-electronic-invoicing-for-mexico"></a>开始使用适用于墨西哥的电子开票
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> 适用于墨西哥的电子开票附加产品当前可能不支持 Comprobante Fiscal Digital por Internet (CFDI) 文档以及 Microsoft Dynamics 365 Finance 或 Dynamics 365 Supply Chain Management 中内置的相关集成中提供的所有功能。
+> 适用于墨西哥的电子开票当前可能不支持 Comprobante Fiscal Digital por Internet (CFDI) 单据以及 Microsoft Dynamics 365 Finance 或 Dynamics 365 Supply Chain Management 中内置的相关集成中提供的所有功能。
 
-本主题提供的信息将帮助您开始使用适用于墨西哥的电子开票附加产品。 指导您完成 Regulatory Configuration Services (RCS) 和 Finance 中与国家/地区相关的配置步骤。 还将指导您完成 Finance 中通过服务提交 CFDI 发票所必须遵循的步骤，并说明如何查看处理结果和 CFDI 发票的状态。
+本主题提供的信息将帮助您开始使用适用于墨西哥的电子开票。 指导您完成 Regulatory Configuration Services (RCS) 和 Finance 中与国家/地区相关的配置步骤。 还将指导您完成 Finance 中通过服务提交 CFDI 发票所必须遵循的步骤，并说明如何查看处理结果和 CFDI 发票的状态。
 
 ## <a name="prerequisites"></a>先决条件
 
-在完成本主题中的步骤之前，您必须[开始使用电子开票附加产品](e-invoicing-get-started.md)中的步骤。
+在完成本主题中的步骤之前，您必须完成[开始使用电子开票](e-invoicing-get-started.md)中的步骤。
 
 ## <a name="rcs-setup"></a>RCS 设置
 
@@ -47,7 +45,7 @@ ms.locfileid: "5592638"
 4. 发布 CFDI 发票的电子开票功能。
 
 > [!NOTE]
-> “电子开票功能”是配置和发布以使用电子开票附加产品服务器的资源的通用名称。 在这种情况下，CFDI 发票 (MX) 是您将要设置的电子开票功能。
+> “电子开票功能”是配置和发布以使用电子开票服务器的资源的通用名称。 在这种情况下，CFDI 发票 (MX) 是您将要设置的电子开票功能。
 
 ## <a name="import-the-e-invoicing-feature"></a>导入电子开票功能
 
@@ -153,9 +151,9 @@ ms.locfileid: "5592638"
 
 ![更改电子开票功能的状态](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-electronic-invoicing-add-on-integration-in-finance"></a>在 Finance 中设置电子开票附加产品集成
+## <a name="set-up-electronic-invoicing--integration-in-finance"></a>在 Finance 中设置电子开票集成
 
-要在 Finance 中设置电子开票附加产品，您将完成以下任务：
+若要在 Finance 中设置电子开票，您将完成以下任务：
 
 1. 导入 ER 数据模型、ER 数据模型映射以及 CFDI 发票所需的格式。
 2. 配置更新 CFDI 发票的响应类型。 这些响应类型用于来自授权认证提供程序 (PAC) 服务器的响应。
@@ -194,7 +192,7 @@ ms.locfileid: "5592638"
     - 对于 **客户发票日记帐**，输入 **客户发票上下文**。
     - 对于 **项目发票**，输入 **项目发票上下文**。
 
-4. 选择 **响应类型** 配置可以从电子开票附加产品返回并包含在客户发票日记帐或项目发票中的响应类型。
+4. 选择 **响应类型** 配置可以从电子开票返回并包含在客户发票日记帐或项目发票中的响应类型。
 5. 选择 **新建**，然后在 **响应类型** 字段中选择 **Response**。
 6. 在 **提交状态** 字段中，选择 **待处理**。
 7. 在 **模型映射** 字段中，选择 **响应消息导入格式 – 来自响应消息的模型映射**。
@@ -206,7 +204,7 @@ ms.locfileid: "5592638"
 
 ## <a name="process-electronic-invoices-in-finance"></a>在 Finance 中处理电子发票 
 
-在通过电子开票附加产品在 Finance 中处理 CFDI 发票期间，您可以执行以下任务：
+在通过电子开票在 Finance 中处理 CFDI 发票期间，您可以执行以下任务：
 
 - 提交 CFDI 发票。
 - 查看提交执行日志。
@@ -214,7 +212,7 @@ ms.locfileid: "5592638"
 
 ### <a name="submit-cfdi-invoices"></a>提交 CFDI 发票
 
-打开 **可配置电子开票附加产品集成** 功能后，用于提交 CFDI 发票的 **导出/导入电子发票** 流程（**应收帐款 \> 发票 \> 电子发票**）流程将不能再使用。 取而代之的是一个名为 **提交电子单据** 的新流程。
+打开 **可配置电子开票集成** 功能后，将不再使用用于提交 CFDI 发票的 **导出/导入电子发票** 流程（**应收帐款 \> 发票 \> 电子发票**）。 取而代之的是一个名为 **提交电子单据** 的新流程。
 
 > [!NOTE]
 > 在使用新的 **提交电子单据** 流程前，请验证墨西哥电子发票所需的设置已完成。 有关详细信息，请参阅 [CFDI 布局版本 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3)。
@@ -226,7 +224,7 @@ ms.locfileid: "5592638"
 ![提交 CFDI 文档](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
 
 > [!NOTE]
-> 在首次尝试通过服务提交文档时，系统会提示您确认与电子开票附加产品的连接。 选择 **单击此处连接到电子单据提交服务**。
+> 在首次尝试通过服务提交单据时，系统会提示您确认与电子开票的连接。 选择 **单击此处连接到电子单据提交服务**。
 
 ### <a name="view-submission-logs"></a>查看提交日志
 
@@ -234,7 +232,7 @@ ms.locfileid: "5592638"
 
 #### <a name="view-all-submission-logs"></a>查看所有提交日志
 
-打开 **可配置电子开票附加产品集成** 功能后，将出现一个新页面，可让您跟进文档提交过程。 您可以使用此页面查看所有已提交文档的提交日志。
+打开 **可配置电子开票集成** 功能后，将出现一个新页面，可让您跟进单据提交流程。 您可以使用此页面查看所有已提交文档的提交日志。
 
 1. 转到 **组织管理 \> 定期 \> 电子单据 \> 电子单据提交日志**。
 2. 在 **文档类型** 字段中，选择 **客户发票日记帐** 筛选所需的电子单据。
@@ -249,26 +247,26 @@ ms.locfileid: "5592638"
 
 - **处理操作** – 此快速选项卡显示在 RCS 中设置的功能版本中配置的操作的执行日志。 **状态** 列显示操作是否成功运行。
 - **操作文件** – 此快速选项卡显示在执行操作期间生成的中间文件。 您可以选择 **查看** 下载和查看文件。
-- **处理操作日志** – 此快速选项卡显示电子开票附加产品与目标 Web 服务之间的通信结果。 另外还显示 Web 服务的处理返回的内容。 **错误代码** 列显示授权 Web 服务返回的返回代码。
+- **处理操作日志** – 此快速选项卡显示电子开票与目标 Web 服务之间的通信结果。 另外还显示 Web 服务的处理返回的内容。 **错误代码** 列显示授权 Web 服务返回的返回代码。
 
 授权所提交的 CFDI 发票后，其状态将更新为 **已批准**。
 
 #### <a name="view-submission-logs-from-cfdi-invoices"></a>查看 CFDI 发票的提交日志
 
-打开 **可配置电子开票附加产品集成** 功能后，您还可以查看 CFDI 发票的提交日志。
+打开 **可配置电子开票集成** 功能后，您还可以查看 CFDI 发票的提交日志。
 
 1. 转到 **应收帐款 \> 查询与报表 \> CFDI（电子发票）**。
-2. 选择打开 **可配置电子开票附加产品集成** 功能后提交的 CFDI 发票。
+2. 选择打开 **可配置电子开票集成** 功能后提交的 CFDI 发票。
 3. 在操作窗格上的 **历史记录** 选项卡中，选择 **电子单据日志**。
 
 ![查看 CFDI 发票的提交日志](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
 
 > [!NOTE]
-> 对于在打开 **可配置电子开票附加产品集成** 功能之前提交的 CFDI 发票，**历史记录** 按钮可用。 对于在打开 **可配置电子开票附加产品集成** 功能之后提交的 CFDI 发票，**历史记录** 按钮不可用。
+> 对于在打开 **可配置电子开票集成** 功能之前提交的 CFDI 发票，**历史记录** 按钮可用。 对于在打开 **可配置电子开票集成** 功能之后提交的 CFDI 发票，**历史记录** 按钮不可用。
 
 ### <a name="submit-cancellation-of-cfdi-invoices"></a>提交 CFDI 发票的取消
 
-打开 **可配置电子开票附加产品集成** 功能后，不能再使用旧的取消 CFDI 发票流程。 取而代之的是嵌入在 **电子单据提交日志** 页上的新取消流程。
+打开 **可配置电子开票集成** 功能后，不再使用旧的取消 CFDI 发票流程。 取而代之的是嵌入在 **电子单据提交日志** 页上的新取消流程。
 
 1. 转到 **应收帐款 \> 查询与报表 \> CFDI（电子发票）**。
 2. 如果 CFDI 发票的状态为 **已批准**，选择 **功能 \> 取消 CFDI**。
@@ -295,9 +293,9 @@ ms.locfileid: "5592638"
 
 ## <a name="additional-resources"></a>其他资源
 
-- [电子开票附加产品概述](e-invoicing-service-overview.md)
-- [开始使用电子开票附加产品](e-invoicing-get-started.md)
-- [设置电子开票附加产品](e-invoicing-setup.md)
+- [电子开票概览](e-invoicing-service-overview.md)
+- [开始使用电子开票](e-invoicing-get-started.md)
+- [设置电子开票](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

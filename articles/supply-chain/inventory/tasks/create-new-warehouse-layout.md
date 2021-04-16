@@ -2,11 +2,9 @@
 title: 创建新仓库布局
 description: 此主题描述如何在仓库中设置有关库位的信息。
 author: perlynne
-manager: tfehr
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2f6f97bc13bc27ec88570992872a256926522c52
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3a329df85c339c90e4bdc620c8a63837ebc19a7c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218697"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833969"
 ---
 # <a name="create-a-new-warehouse-layout"></a>创建新仓库布局
 

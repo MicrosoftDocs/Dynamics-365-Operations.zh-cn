@@ -2,11 +2,9 @@
 title: 系统导向的群集领料
 description: 本主题概述 Microsoft Dynamics 365 Supply Chain Management 中的系统导向的群集领料。
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkCluster, WHSClusterProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: dca006ca00e7ff5aa3681daac713f1e93187cd9c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cc634b82a64b7774abc1538e034f1b8289176f4e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239177"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831138"
 ---
 # <a name="system-directed-cluster-picking"></a>系统导向的群集领料
 

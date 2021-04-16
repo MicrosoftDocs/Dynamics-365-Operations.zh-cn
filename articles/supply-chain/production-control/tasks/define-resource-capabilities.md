@@ -2,11 +2,9 @@
 title: 定义资源功能
 description: 资源功能描述了运营资源可执行的内容。
 author: sorenva
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrCapability
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c78db0d849c08622d9a2dffc109b439b4c584748
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 072991e7b3844ad3583b7d0c575d426299f74e9f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240357"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828698"
 ---
 # <a name="define-resource-capabilities"></a>定义资源功能
 

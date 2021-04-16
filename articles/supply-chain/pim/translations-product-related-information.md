@@ -2,11 +2,9 @@
 title: 与产品相关的翻译常见问题
 description: 此主题描述了如何管理产品、产品维度值和产品属性的转换。
 author: cvocph
-manager: tfehr
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysTranslationDetail, SysTranslationLanguage, SysTranslationList, EcoResProductListPage, EcoResProductVariants, EcoResProductDetailsExtended, EcoResProductCreate, EcoResProductDetails, RetailSizeGroupTable, RetailStyleGroupTable, RetailColorGroupTable, PCTranslationLanguageLookup, EcoResProductCategory
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Product information
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55cf7ef19fddf79c1dc81e6fbec1d1672026ebc1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dba501acb3a360f2936ff407b549df6d7eb358ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223378"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841567"
 ---
 # <a name="product-related-translations-faq"></a>与产品相关的翻译常见问题
 

@@ -2,11 +2,9 @@
 title: 发布产品结构
 description: 此主题说明除了发布产品及其工程版本外，还可以发布完整的产品结构。 这样，您可以确保与工程相关的产品数据可以轻松地在不同法人中重复使用。
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductReleaseSiteBulkEdit, EngChgProductReleaseSendListPage, EngChgProductReleaseSendDetails,EngChgProductReleaseSelection,EngChgProductReleaseReceiveListPage, EngChgProductReleaseReceiveDetails, EngChgProductReleasePreviewPane, EngChgProductReleasePolicy, EngChgProductReleasePart, EngChgProductReleaseNote
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c1304d3277e12bc602fa5bc25a61e1f95edba59c
-ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
+ms.openlocfilehash: e9cd90d74b92754d4a5432485d5dd59c31e34c61
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5580907"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841977"
 ---
 # <a name="release-product-structures"></a>发布产品结构
 

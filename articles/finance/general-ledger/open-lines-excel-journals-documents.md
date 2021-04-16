@@ -2,11 +2,9 @@
 title: 从 Excel 发布日记帐行和单据
 description: 本主题说明如何从 Microsoft Excel 输入和发布普通日记帐的行。 其中包含有关您可使用的各种模板的信息，具体取决于您要输入的交易记录类型。
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f87ce1dcbae779f875abcbffd1781bbf076b1b7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2211f666b2b1dc7600639007794ab8133b58b2cb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230242"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834468"
 ---
 # <a name="publish-journal-lines-and-documents-from-excel"></a>从 Excel 发布日记帐行和单据
 
@@ -32,9 +30,8 @@ ms.locfileid: "5230242"
 
 用户可从 Microsoft Excel 输入和发布财务日记帐的行。 用户创建日记帐之后，**在 Excel 中打开文件** 按钮将显示可用模板。 模板设计为支持特定方案，但是日记帐中并非支持科目类型的所有组合。 下表显示可用模板及其支持的科目类型。
 
-|                          |                                                                                                                         |                                                                                         |
+| 模板             | 支持的科目类型 | 模板的访问方法                                                          |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| **模板**             | **支持的科目类型**                                                                                             | **模板的访问方法**                                                          |
 | 分类日记帐行     | 支持“科目：分类帐、客户、供应商、银行抵销科目：分类帐、客户、供应商、银行内部公司”。       | 普通日记帐                                                                         |
 | 发票登记簿         | 不支持“科目：供应商抵销科目：分类帐内部公司”。                                                    | AP 发票登记簿                                                                     |
 | 发票日记帐          | 支持“科目：供应商抵销科目：分类帐内部公司”。                                                      | AP 发票日记帐                                                                      |

@@ -2,7 +2,6 @@
 title: 装运集装箱
 description: 本主题介绍如何为登陆成本模块设置装运集装箱。
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/09/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ca712aa7f07792861d5ba36afd8d7b63cc9ce8fb
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 2f7e9435aa3d0d06e1cc51457a6343b807d76dc7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500950"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833705"
 ---
 # <a name="shipping-container-setup"></a>装运集装箱设置
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题介绍如何为 **登陆成本** 模块设置装运集装箱。
 

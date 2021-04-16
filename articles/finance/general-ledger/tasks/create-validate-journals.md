@@ -2,11 +2,9 @@
 title: 创建和验证日记帐
 description: 此过程创建并验证日记帐和日记帐行。
 author: panolte
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2f6cb15b115de9bf076da9062f14fcdf88662946
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 72c97c6afb7bbe602fcb7a5e24a1d2a2cd727f6d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240754"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832722"
 ---
 # <a name="create-and-validate-journals"></a>创建和验证日记帐
 

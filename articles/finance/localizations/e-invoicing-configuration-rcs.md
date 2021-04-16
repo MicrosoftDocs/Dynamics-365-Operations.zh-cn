@@ -1,12 +1,10 @@
 ---
-title: 在 Regulatory Configuration Services (RCS) 中配置电子开票附加产品
-description: 本主题说明如何在 Dynamics 365 Regulatory Configuration Services (RCS) 中配置电子开票附加产品。
+title: 在 Regulatory Configuration Services (RCS) 中配置电子开票
+description: 本主题说明如何在 Dynamics 365 Regulatory Configuration Services (RCS) 中配置电子开票。
 author: gionoder
-manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,34 +15,32 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592614"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840236"
 ---
-# <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>在 Regulatory Configuration Services (RCS) 中配置电子开票附加产品
+# <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>在 Regulatory Configuration Services (RCS) 中配置电子开票
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/banner.md)]
+本主题提供有关 Dynamics 365 Regulatory Configuration Services (RCS) 中电子开票的配置功能的信息。
 
-本主题提供有关 Dynamics 365 Regulatory Configuration Services (RCS) 中电子开票附加产品的配置功能的信息。
-
-通过配置功能，电子开票附加产品可帮助您满足电子发票的业务和法规要求，而无需进行任何编码。 而且，在电子发票必须由 Web 服务以电子方式审核的情况下，配置功能还可以帮助您满足与 Web 服务交换消息的要求，无需编写任何代码。
+通过配置功能，电子开票可帮助您满足电子发票的业务和法规要求，而无需进行任何编码。 而且，在电子发票必须由 Web 服务以电子方式审核的情况下，配置功能还可以帮助您满足与 Web 服务交换消息的要求，无需编写任何代码。
 
 ## <a name="electronic-reporting"></a>电子报告
 
-电子报告 (ER) 支持电子开票附加产品。
+电子报告 (ER) 支持电子开票。
 
-数据模型映射和格式是可配置的组件，可通过 ER 创建和维护，在电子开票附加产品中使用。 ER 格式设计器是用于创建和维护文件格式的工具。 用于配置电子开票功能。
+数据模型映射和格式是可配置的组件，可通过 ER 创建和维护，在电子开票中使用。 ER 格式设计器是用于创建和维护文件格式的工具。 用于配置电子开票功能。
 
 有关详细信息，请参阅[电子报告 (ER) 概述](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)。
 
 ## <a name="electronic-invoicing-features"></a>电子开票功能
 
-电子开票功能负责通过电子开票附加产品生成电子发票。 它们封装了配置规则，使用它们来处理 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 发送到电子开票附加产品和电子发票的数据。
+电子开票功能负责通过电子开票生成电子发票。 它们封装配置规则，使用它们来处理 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 发送到电子开票和电子发票的数据。
 
 这些功能还支持需要符合文件格式规范且输出是独立电子文件的场景。 在大多数情况下，文件格式规范由税务主管机构发布。
 
@@ -81,13 +77,13 @@ ms.locfileid: "5592614"
 
 电子开票功能由以下几组可配置组件组成：
 
-- **格式** – 格式让您可以配置当电子单据成为电子发票时电子开票附加产品必须生成的内容。 格式包括电子发票的格式配置，以及当需要与外部 Web 服务通信时用于提交请求和接收响应的文件和消息的格式配置。
-- **操作** – 操作让您可以配置电子开票附加产品如何将 Finance 和 Supply Chain Management 提交的电子单据转换为电子发票。
-- **适用性规则** – 适用性规则让您可以配置电子开票附加产品在处理电子开票功能时必须考虑的上下文。
-- **变量** – 变量让您可以配置对构造配置逻辑的支持。 变量可以用作执行特定操作的值的输入。 或者，还可以用作 Finance 和 Supply Chain Management 与电子开票附加产品之间的值的交换。
-- **电子单据模型映射** – 电子单据模型映射可让您配置 ER 模型映射。 此模型映射定义提交电子单据时集成到电子开票附加产品中的摘要发票的数据映射。
+- **格式** – 格式让您可以配置当电子单据成为电子发票时电子开票必须生成的内容。 格式包括电子发票的格式配置，以及当需要与外部 Web 服务通信时用于提交请求和接收响应的文件和消息的格式配置。
+- **操作** – 操作让您可以配置电子开票如何将 Finance 和 Supply Chain Management 提交的电子单据转换为电子发票。
+- **适用性规则** – 适用性规则让您可以配置电子开票在处理电子开票功能时必须考虑的上下文。
+- **变量** – 变量让您可以配置对构造配置逻辑的支持。 变量可以用作执行特定操作的值的输入。 或者，还可以用作 Finance 和 Supply Chain Management 与电子开票之间的值的交换。
+- **电子单据模型映射** – 电子单据模型映射可让您配置 ER 模型映射。 此模型映射定义提交电子单据时集成到电子开票中的摘要发票的数据映射。
 - **发票上下文模型** – 发票上下文模型让您可以配置 ER 发票上下文模型并定义电子开票功能的上下文。
-- **响应类型** – 响应类型让您可以配置由于进行电子发票处理，电子开票附加产品必须在 Finance 和 Supply Chain Management 中进行的更新。
+- **响应类型** – 响应类型让您可以配置由于进行电子发票处理，电子开票必须在 Finance 和 Supply Chain Management 中更新的内容。
 
 ### <a name="formats"></a>格式
 
@@ -237,7 +233,7 @@ ms.locfileid: "5592614"
 
 - **草稿** – 如果功能版本处于此状态，您可以编辑其配置属性及其任何项目（例如，文件格式配置）。
 - **完成** – 如果功能版本处于此状态，说明该功能版本已发布到与您的组织关联的全局存储库中。 您不能再编辑功能版本或任何 ER 组件。
-- **已发布** – 如果功能版本处于此状态，说明该功能版本已被发布到电子开票附加产品。 您不能再编辑功能版本或任何 ER 组件。
+- **已发布** – 如果功能版本处于此状态，说明该功能版本已发布到电子开票。 您不能再编辑功能版本或任何 ER 组件。
 
 ### <a name="feature-configurations"></a>功能配置
 
@@ -266,14 +262,14 @@ ms.locfileid: "5592614"
 
 在 RCS 中，您使用 **部署** 命令定向发布电子开票功能版本。 选择 **部署**，然后选择以下选项之一定义部署目标： 
 
-- **服务环境** – 当部署的目标是服务环境时，电子开票功能版本将发布到服务环境。 然后，电子开票附加产品就可以接收和处理 Finance 和 Supply Chain Management 发送的电子单据了。
+- **服务环境** – 当部署的目标是服务环境时，电子开票功能版本将发布到服务环境。 然后，电子开票就可以接收和处理 Finance 和 Supply Chain Management 发送的电子单据。
 - **相连应用程序** – 当部署的目标是相连应用程序时，由应用程序安装程序提供的配置将写入先前与之关联的 Finance 和 Supply Chain Management 实例中。
 
 仅状态为 **已完成** 的电子开票功能版本可以部署到服务环境或连接的应用程序。
 
 ### <a name="removing-feature-versions"></a>删除功能版本
 
-在 RCS 中，您使用 **取消部署** 命令从电子开票附加产品中的服务环境中删除特定的电子开票功能版本。
+在 RCS 中，您使用 **取消部署** 命令从电子开票中的服务环境中删除特定的电子开票功能版本。
 
 > [!IMPORTANT]
 > **取消部署** 命令仅在服务环境中有效。 它不会从连接的应用程序中删除电子开票功能版本。

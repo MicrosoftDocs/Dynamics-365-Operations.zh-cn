@@ -2,11 +2,9 @@
 title: 为新的制造物料更新标准成本
 description: 本文提供更新新制造物料的标准成本的指导。
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03b5fb1311f5a483914c83563d989e1732d431ad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1411246f1d0a8ea870423ba6f210294a033656fc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219453"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842097"
 ---
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>为新的制造物料更新标准成本
 

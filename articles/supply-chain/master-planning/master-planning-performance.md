@@ -2,11 +2,9 @@
 title: 改进主计划绩效
 description: 本主题介绍可帮助您提高主计划绩效或诊断问题的各种选项。
 author: t-benebo
-manager: tfehr
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 54f39793b6e8b24a13a4b80b59ba35f10e8f3da5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 73ef52580ffe80c6c5cc9f77c2088d071a749ca7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237465"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833441"
 ---
 # <a name="improve-master-planning-performance"></a>改善主计划性能
 

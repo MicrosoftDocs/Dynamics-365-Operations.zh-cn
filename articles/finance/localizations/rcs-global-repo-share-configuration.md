@@ -2,11 +2,9 @@
 title: 与外部组织共享 RCS/全局知识库中的 ER 配置
 description: 此主题介绍如何直接与外部组织共享 Microsoft Regulatory Configuration Services (RCS)/全局知识库中的电子申报 (ER) 配置。
 author: JaneA07
-manager: AnnBe
 ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, RCS
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: e7ec24ddc532ee3b87108d076d5103538be903be
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ace62319bbfa38bcf4be7157882dd0c8989e25bc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218822"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838737"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>直接与外部组织共享 Regulatory Configuration Services (RCS) 全局知识库中的电子申报 (ER) 配置
 

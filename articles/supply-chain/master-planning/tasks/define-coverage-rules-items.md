@@ -2,11 +2,9 @@
 title: 定义物料的覆盖规则
 description: 创建此程序的演示数据公司是 USMF。
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqGroup, DefaultDashboard, EcoResProductDetailsExtended, EcoResProductCreate, InventItemOrderSetup, ReqItemTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b10aa50c4a89b2642262f624ac3a6d89cd6ebb4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ff2d83a01f366517502bfc5c885b6f963bd945ca
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258633"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829704"
 ---
 # <a name="define-coverage-rules-for-items"></a>定义物料的覆盖规则
 

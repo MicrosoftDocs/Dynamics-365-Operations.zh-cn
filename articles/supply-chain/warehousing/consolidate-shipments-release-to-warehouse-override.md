@@ -2,11 +2,9 @@
 title: 覆盖了装运合并策略时从“发放到仓库”页合并装运
 description: 此主题提供了以下方案：必须从“发放到仓库”页将一个或多个销售行手动发放到仓库，并且发布前必须已覆盖系统定义的装运合并策略。
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipConsolidationSetShipment, WHSShipmentConsolidation, WHSFilterGenerallyAvail, WHSReleaseToWarehouse
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: be573f3a137fbd74ba2f5d8bb346e4bb9f9116c1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dcd619ad2906d4224966e2696712ed0e71886eb2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237099"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837481"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>覆盖了装运合并策略时从“发放到仓库”页合并装运
 
