@@ -1,69 +1,67 @@
 ---
 title: 创建采购目录
 description: 本主题介绍如何创建采购目录。
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProcCategoryHierarchyManagement, CatProcureCatalogListPage, CatProcureCatalogCreate, CatProcureCatalogEdit, SysPolicyListPage, SysPolicy, CatCatalogPolicyRule, PurchReqTableListPage, PurchReqCreate, PurchReqTable, PurchReqAddItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 91c377b2d155fb7b53ef9a15fa9d6e80cd69ed44
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 59117df519b7aa525713d3acd70195cc42614b9a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237243"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812390"
 ---
-# <a name="create-a-procurement-catalog"></a><span data-ttu-id="bc397-103">创建采购目录</span><span class="sxs-lookup"><span data-stu-id="bc397-103">Create a procurement catalog</span></span>
+# <a name="create-a-procurement-catalog"></a><span data-ttu-id="2dfef-103">创建采购目录</span><span class="sxs-lookup"><span data-stu-id="2dfef-103">Create a procurement catalog</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="bc397-104">本主题介绍如何创建采购目录。</span><span class="sxs-lookup"><span data-stu-id="bc397-104">This topic explains how to create a procurement catalog.</span></span> <span data-ttu-id="bc397-105">此任务通常由采购专业人员完成。</span><span class="sxs-lookup"><span data-stu-id="bc397-105">This task would typically be carried out by a procurement professional.</span></span> <span data-ttu-id="bc397-106">您还将了解员工在创建申请时如何使用目录。</span><span class="sxs-lookup"><span data-stu-id="bc397-106">You will also learn how employees can use the catalog when they create a requisition.</span></span> <span data-ttu-id="bc397-107">系统中必须已有采购类别层次结构，才能创建目录。</span><span class="sxs-lookup"><span data-stu-id="bc397-107">Before you can create a catalog, there must be a procurement category hierarchy in your system.</span></span> <span data-ttu-id="bc397-108">新目录继承层次结构，以及其中的所有产品。</span><span class="sxs-lookup"><span data-stu-id="bc397-108">The hierarchy is inherited by the new catalog, along with all the products that are in the hierarchy.</span></span> <span data-ttu-id="bc397-109">可在采购类别层次结构可用的演示数据公司 USMF 中使用此指南，以及使用前面的步骤中使用的示例。</span><span class="sxs-lookup"><span data-stu-id="bc397-109">You can use this guide in demo data company USMF where the procurement category hierarchy is available, as well as the examples used in the procedure steps.</span></span>
+<span data-ttu-id="2dfef-104">本主题介绍如何创建采购目录。</span><span class="sxs-lookup"><span data-stu-id="2dfef-104">This topic explains how to create a procurement catalog.</span></span> <span data-ttu-id="2dfef-105">此任务通常由采购专业人员完成。</span><span class="sxs-lookup"><span data-stu-id="2dfef-105">This task would typically be carried out by a procurement professional.</span></span> <span data-ttu-id="2dfef-106">您还将了解员工在创建申请时如何使用目录。</span><span class="sxs-lookup"><span data-stu-id="2dfef-106">You will also learn how employees can use the catalog when they create a requisition.</span></span> <span data-ttu-id="2dfef-107">系统中必须已有采购类别层次结构，才能创建目录。</span><span class="sxs-lookup"><span data-stu-id="2dfef-107">Before you can create a catalog, there must be a procurement category hierarchy in your system.</span></span> <span data-ttu-id="2dfef-108">新目录继承层次结构，以及其中的所有产品。</span><span class="sxs-lookup"><span data-stu-id="2dfef-108">The hierarchy is inherited by the new catalog, along with all the products that are in the hierarchy.</span></span> <span data-ttu-id="2dfef-109">可在采购类别层次结构可用的演示数据公司 USMF 中使用此指南，以及使用前面的步骤中使用的示例。</span><span class="sxs-lookup"><span data-stu-id="2dfef-109">You can use this guide in demo data company USMF where the procurement category hierarchy is available, as well as the examples used in the procedure steps.</span></span>
 
 
-## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a><span data-ttu-id="bc397-110">确保存在采购类别层次结构。</span><span class="sxs-lookup"><span data-stu-id="bc397-110">Ensure that a procurement category hierarchy exists</span></span>
-1. <span data-ttu-id="bc397-111">转到 **导航窗格 > 模块 > 采购 > 采购目录**。</span><span class="sxs-lookup"><span data-stu-id="bc397-111">Go to **navigation pane > Modules > Procurement and sourcing > Procurement categories**.</span></span> <span data-ttu-id="bc397-112">USMF 演示数据公司中可使用采购目录层次结构，并且产品已添加到 **办公设备/计算机** 类别。</span><span class="sxs-lookup"><span data-stu-id="bc397-112">A procurement category hierarchy is available in the USMF demo data company and products have been added to the **Office machines/Computers** category.</span></span> <span data-ttu-id="bc397-113">如果您正在运行该过程以作为任务指南，并且要浏览类别，您需要解锁该指南。</span><span class="sxs-lookup"><span data-stu-id="bc397-113">If you're running this procedure as a task guide, you'll need to unlock the guide if you want to browse through the category.</span></span> <span data-ttu-id="bc397-114">如果层次结构不可用，可通过单击 **新建** 创建。</span><span class="sxs-lookup"><span data-stu-id="bc397-114">If a hierarchy was not available, you'd create it by clicking **New**.</span></span> <span data-ttu-id="bc397-115">此操作只能执行一次。</span><span class="sxs-lookup"><span data-stu-id="bc397-115">This can only be done once.</span></span>  
-2. <span data-ttu-id="bc397-116">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="bc397-116">Close the page.</span></span>
+## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a><span data-ttu-id="2dfef-110">确保存在采购类别层次结构。</span><span class="sxs-lookup"><span data-stu-id="2dfef-110">Ensure that a procurement category hierarchy exists</span></span>
+1. <span data-ttu-id="2dfef-111">转到 **导航窗格 > 模块 > 采购 > 采购目录**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-111">Go to **navigation pane > Modules > Procurement and sourcing > Procurement categories**.</span></span> <span data-ttu-id="2dfef-112">USMF 演示数据公司中可使用采购目录层次结构，并且产品已添加到 **办公设备/计算机** 类别。</span><span class="sxs-lookup"><span data-stu-id="2dfef-112">A procurement category hierarchy is available in the USMF demo data company and products have been added to the **Office machines/Computers** category.</span></span> <span data-ttu-id="2dfef-113">如果您正在运行该过程以作为任务指南，并且要浏览类别，您需要解锁该指南。</span><span class="sxs-lookup"><span data-stu-id="2dfef-113">If you're running this procedure as a task guide, you'll need to unlock the guide if you want to browse through the category.</span></span> <span data-ttu-id="2dfef-114">如果层次结构不可用，可通过单击 **新建** 创建。</span><span class="sxs-lookup"><span data-stu-id="2dfef-114">If a hierarchy was not available, you'd create it by clicking **New**.</span></span> <span data-ttu-id="2dfef-115">此操作只能执行一次。</span><span class="sxs-lookup"><span data-stu-id="2dfef-115">This can only be done once.</span></span>  
+2. <span data-ttu-id="2dfef-116">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="2dfef-116">Close the page.</span></span>
 
-## <a name="create-a-catalog"></a><span data-ttu-id="bc397-117">创建目录</span><span class="sxs-lookup"><span data-stu-id="bc397-117">Create a catalog</span></span>
-1. <span data-ttu-id="bc397-118">转到 **导航窗格 > 模块 > 采购 > 目录 > 采购目录**。</span><span class="sxs-lookup"><span data-stu-id="bc397-118">Go to **navigation pane > Modules > Procurement and sourcing > Catalogs > Procurement catalogs**.</span></span>
-2. <span data-ttu-id="bc397-119">选择 **新采购目录** 以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="bc397-119">Select **New procurement catalog** to open the drop dialog.</span></span>
-3. <span data-ttu-id="bc397-120">在 **名称** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="bc397-120">In the **Name** field, type a value.</span></span>
-4. <span data-ttu-id="bc397-121">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="bc397-121">Select **OK**.</span></span>
-5. <span data-ttu-id="bc397-122">在树中，展开 **企业采购类别**。</span><span class="sxs-lookup"><span data-stu-id="bc397-122">In the tree, expand **CORP PROCUREMENT CATEGORIES**.</span></span>
-6. <span data-ttu-id="bc397-123">在树中，展开 **办公设备**。</span><span class="sxs-lookup"><span data-stu-id="bc397-123">In the tree, expand **OFFICE MACHINES**.</span></span>
-7. <span data-ttu-id="bc397-124">在树中，选择 **计算机**。</span><span class="sxs-lookup"><span data-stu-id="bc397-124">In the tree, select **Computers**.</span></span>
+## <a name="create-a-catalog"></a><span data-ttu-id="2dfef-117">创建目录</span><span class="sxs-lookup"><span data-stu-id="2dfef-117">Create a catalog</span></span>
+1. <span data-ttu-id="2dfef-118">转到 **导航窗格 > 模块 > 采购 > 目录 > 采购目录**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-118">Go to **navigation pane > Modules > Procurement and sourcing > Catalogs > Procurement catalogs**.</span></span>
+2. <span data-ttu-id="2dfef-119">选择 **新采购目录** 以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="2dfef-119">Select **New procurement catalog** to open the drop dialog.</span></span>
+3. <span data-ttu-id="2dfef-120">在 **名称** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="2dfef-120">In the **Name** field, type a value.</span></span>
+4. <span data-ttu-id="2dfef-121">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-121">Select **OK**.</span></span>
+5. <span data-ttu-id="2dfef-122">在树中，展开 **企业采购类别**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-122">In the tree, expand **CORP PROCUREMENT CATEGORIES**.</span></span>
+6. <span data-ttu-id="2dfef-123">在树中，展开 **办公设备**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-123">In the tree, expand **OFFICE MACHINES**.</span></span>
+7. <span data-ttu-id="2dfef-124">在树中，选择 **计算机**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-124">In the tree, select **Computers**.</span></span>
 
-  - <span data-ttu-id="bc397-125">列表中将显示采购类别中的产品。</span><span class="sxs-lookup"><span data-stu-id="bc397-125">The products from the procurement category are displayed in the list.</span></span> <span data-ttu-id="bc397-126">如果要向类别添加产品，需要在 **采购列表层次结构** 页或 **物料详细信息** 页中执行此操作。</span><span class="sxs-lookup"><span data-stu-id="bc397-126">If you want to add a product to the category you need to do this on the **Procurement category hierarchy** page or on the **Item details** page.</span></span>  
-  - <span data-ttu-id="bc397-127">**默认** 更新类型确定已添加到采购类别层次结构的新产品是否在目录中立即显示。</span><span class="sxs-lookup"><span data-stu-id="bc397-127">The **Default** update type determines whether new products that have been added to the procurement category hierarchy are immediately visible in the catalog.</span></span> <span data-ttu-id="bc397-128">如果更新类型设置为 **动态**，将立即显示更改。</span><span class="sxs-lookup"><span data-stu-id="bc397-128">If the update type is set to **Dynamic**, changes are visible immediately.</span></span> <span data-ttu-id="bc397-129">如果更新类型为 **静态**，则新产品仅在已重新发布目录后对使用该目录的人员显示。</span><span class="sxs-lookup"><span data-stu-id="bc397-129">If the update type is **Static**, new products are only visible to people using the catalog after the catalog has been re-published.</span></span> <span data-ttu-id="bc397-130">页面顶部的操作窗格中支持 **发布** 操作。</span><span class="sxs-lookup"><span data-stu-id="bc397-130">The **Publish** action is available on the Action Pane at the top of the page.</span></span> <span data-ttu-id="bc397-131">如果从采购类别层次结构删除产品，无论 **默认** 更新类型字段中是哪个值，都将立即显示更改。</span><span class="sxs-lookup"><span data-stu-id="bc397-131">If products are removed from the procurement category hierarchy, the change is immediately visible, regardless of the value in the **Default** update type field.</span></span>  
+  - <span data-ttu-id="2dfef-125">列表中将显示采购类别中的产品。</span><span class="sxs-lookup"><span data-stu-id="2dfef-125">The products from the procurement category are displayed in the list.</span></span> <span data-ttu-id="2dfef-126">如果要向类别添加产品，需要在 **采购列表层次结构** 页或 **物料详细信息** 页中执行此操作。</span><span class="sxs-lookup"><span data-stu-id="2dfef-126">If you want to add a product to the category you need to do this on the **Procurement category hierarchy** page or on the **Item details** page.</span></span>  
+  - <span data-ttu-id="2dfef-127">**默认** 更新类型确定已添加到采购类别层次结构的新产品是否在目录中立即显示。</span><span class="sxs-lookup"><span data-stu-id="2dfef-127">The **Default** update type determines whether new products that have been added to the procurement category hierarchy are immediately visible in the catalog.</span></span> <span data-ttu-id="2dfef-128">如果更新类型设置为 **动态**，将立即显示更改。</span><span class="sxs-lookup"><span data-stu-id="2dfef-128">If the update type is set to **Dynamic**, changes are visible immediately.</span></span> <span data-ttu-id="2dfef-129">如果更新类型为 **静态**，则新产品仅在已重新发布目录后对使用该目录的人员显示。</span><span class="sxs-lookup"><span data-stu-id="2dfef-129">If the update type is **Static**, new products are only visible to people using the catalog after the catalog has been re-published.</span></span> <span data-ttu-id="2dfef-130">页面顶部的操作窗格中支持 **发布** 操作。</span><span class="sxs-lookup"><span data-stu-id="2dfef-130">The **Publish** action is available on the Action Pane at the top of the page.</span></span> <span data-ttu-id="2dfef-131">如果从采购类别层次结构删除产品，无论 **默认** 更新类型字段中是哪个值，都将立即显示更改。</span><span class="sxs-lookup"><span data-stu-id="2dfef-131">If products are removed from the procurement category hierarchy, the change is immediately visible, regardless of the value in the **Default** update type field.</span></span>  
 
-8. <span data-ttu-id="bc397-132">在操作窗格上，选择 **类别导航** 并确保选择 **启用**。</span><span class="sxs-lookup"><span data-stu-id="bc397-132">On the Action Pane, select **Category navigation** and ensure that **Enable** is selected.</span></span>
-9. <span data-ttu-id="bc397-133">选择 **启用目录**。</span><span class="sxs-lookup"><span data-stu-id="bc397-133">Select **Activate catalog**.</span></span>
-10. <span data-ttu-id="bc397-134">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="bc397-134">Close the page.</span></span>
+8. <span data-ttu-id="2dfef-132">在操作窗格上，选择 **类别导航** 并确保选择 **启用**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-132">On the Action Pane, select **Category navigation** and ensure that **Enable** is selected.</span></span>
+9. <span data-ttu-id="2dfef-133">选择 **启用目录**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-133">Select **Activate catalog**.</span></span>
+10. <span data-ttu-id="2dfef-134">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="2dfef-134">Close the page.</span></span>
 
-## <a name="make-the-catalog-visible"></a><span data-ttu-id="bc397-135">显示目录</span><span class="sxs-lookup"><span data-stu-id="bc397-135">Make the catalog visible</span></span>
-1. <span data-ttu-id="bc397-136">转到 **导航窗格 > 模块 > 采购 > 设置 > 策略 > 采购策略**。</span><span class="sxs-lookup"><span data-stu-id="bc397-136">Go to **navigation pane > Modules > Procurement and sourcing > Setup > Policies > Purchasing policies**.</span></span>
-2. <span data-ttu-id="bc397-137">选择 **采购政策 USMF**。</span><span class="sxs-lookup"><span data-stu-id="bc397-137">Select **Procurement Policy USMF**.</span></span> <span data-ttu-id="bc397-138">您需要连接到您的用户配置文件的工作人员获准订购其产品的法人选择采购政策。</span><span class="sxs-lookup"><span data-stu-id="bc397-138">You need to select the purchasing policy for the legal entity that the worker connected to your user profile is allowed to order products in.</span></span> <span data-ttu-id="bc397-139">在 USMF 演示数据中，Admin 用户连接到工人 **Julia Funderburk**，而默认情况下该工人可订购 USMF 中的产品。</span><span class="sxs-lookup"><span data-stu-id="bc397-139">In the USMF demo data, the Admin user is connected to the worker called **Julia Funderburk**, and she orders products in USMF by default.</span></span>  
-3. <span data-ttu-id="bc397-140">选择您刚创建的目录。</span><span class="sxs-lookup"><span data-stu-id="bc397-140">Select the catalog that you've just created.</span></span>
-4. <span data-ttu-id="bc397-141">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="bc397-141">Select **OK**.</span></span>
+## <a name="make-the-catalog-visible"></a><span data-ttu-id="2dfef-135">显示目录</span><span class="sxs-lookup"><span data-stu-id="2dfef-135">Make the catalog visible</span></span>
+1. <span data-ttu-id="2dfef-136">转到 **导航窗格 > 模块 > 采购 > 设置 > 策略 > 采购策略**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-136">Go to **navigation pane > Modules > Procurement and sourcing > Setup > Policies > Purchasing policies**.</span></span>
+2. <span data-ttu-id="2dfef-137">选择 **采购政策 USMF**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-137">Select **Procurement Policy USMF**.</span></span> <span data-ttu-id="2dfef-138">您需要连接到您的用户配置文件的工作人员获准订购其产品的法人选择采购政策。</span><span class="sxs-lookup"><span data-stu-id="2dfef-138">You need to select the purchasing policy for the legal entity that the worker connected to your user profile is allowed to order products in.</span></span> <span data-ttu-id="2dfef-139">在 USMF 演示数据中，Admin 用户连接到工人 **Julia Funderburk**，而默认情况下该工人可订购 USMF 中的产品。</span><span class="sxs-lookup"><span data-stu-id="2dfef-139">In the USMF demo data, the Admin user is connected to the worker called **Julia Funderburk**, and she orders products in USMF by default.</span></span>  
+3. <span data-ttu-id="2dfef-140">选择您刚创建的目录。</span><span class="sxs-lookup"><span data-stu-id="2dfef-140">Select the catalog that you've just created.</span></span>
+4. <span data-ttu-id="2dfef-141">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-141">Select **OK**.</span></span>
 
-## <a name="use-the-catalog"></a><span data-ttu-id="bc397-142">使用目录</span><span class="sxs-lookup"><span data-stu-id="bc397-142">Use the catalog</span></span>
-1. <span data-ttu-id="bc397-143">转到 **导航窗格 > 模块 > 采购 > 采购申请 > 所有采购申请**。</span><span class="sxs-lookup"><span data-stu-id="bc397-143">Go to **navigation pane > Modules > Procurement and sourcing > Purchase requisitions > All purchase requisitions**.</span></span>
-2. <span data-ttu-id="bc397-144">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="bc397-144">Select **New**.</span></span>
-3. <span data-ttu-id="bc397-145">在 **名称** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="bc397-145">In the **Name** field, type a value.</span></span>
-4. <span data-ttu-id="bc397-146">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="bc397-146">Select **OK**.</span></span>
-5. <span data-ttu-id="bc397-147">选择 **添加产品**。</span><span class="sxs-lookup"><span data-stu-id="bc397-147">Select **Add products**.</span></span>
-6. <span data-ttu-id="bc397-148">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="bc397-148">In the list, find and select the desired record.</span></span> <span data-ttu-id="bc397-149">您可以使用左侧的类别层次结构或列表顶部的筛选器筛选产品。</span><span class="sxs-lookup"><span data-stu-id="bc397-149">You can use the category hierarchy on the left or the filter at the top of the list to filter the products.</span></span>  
-7. <span data-ttu-id="bc397-150">选择 **添加到行**。</span><span class="sxs-lookup"><span data-stu-id="bc397-150">Select **Add to lines**.</span></span>
-8. <span data-ttu-id="bc397-151">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="bc397-151">Select **OK**.</span></span>
+## <a name="use-the-catalog"></a><span data-ttu-id="2dfef-142">使用目录</span><span class="sxs-lookup"><span data-stu-id="2dfef-142">Use the catalog</span></span>
+1. <span data-ttu-id="2dfef-143">转到 **导航窗格 > 模块 > 采购 > 采购申请 > 所有采购申请**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-143">Go to **navigation pane > Modules > Procurement and sourcing > Purchase requisitions > All purchase requisitions**.</span></span>
+2. <span data-ttu-id="2dfef-144">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-144">Select **New**.</span></span>
+3. <span data-ttu-id="2dfef-145">在 **名称** 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="2dfef-145">In the **Name** field, type a value.</span></span>
+4. <span data-ttu-id="2dfef-146">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-146">Select **OK**.</span></span>
+5. <span data-ttu-id="2dfef-147">选择 **添加产品**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-147">Select **Add products**.</span></span>
+6. <span data-ttu-id="2dfef-148">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="2dfef-148">In the list, find and select the desired record.</span></span> <span data-ttu-id="2dfef-149">您可以使用左侧的类别层次结构或列表顶部的筛选器筛选产品。</span><span class="sxs-lookup"><span data-stu-id="2dfef-149">You can use the category hierarchy on the left or the filter at the top of the list to filter the products.</span></span>  
+7. <span data-ttu-id="2dfef-150">选择 **添加到行**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-150">Select **Add to lines**.</span></span>
+8. <span data-ttu-id="2dfef-151">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="2dfef-151">Select **OK**.</span></span>
 
 
 

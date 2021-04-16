@@ -2,11 +2,9 @@
 title: 对已发布的产品分配产品生命周期状态
 description: 此过程显示如何将产品生命周期状态分配给已发布的产品。
 author: cvocph
-manager: tfehr
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,27 +12,27 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ec43b628550b156fb8a62a68442fb66b59da797
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b3ccfb13530c8d53234621f083683595c61e046b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251905"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807857"
 ---
-# <a name="assign-a-product-lifecycle-state-to-a-released-product"></a><span data-ttu-id="bb41b-103">对已发布的产品分配产品生命周期状态</span><span class="sxs-lookup"><span data-stu-id="bb41b-103">Assign a product lifecycle state to a released product</span></span>
+# <a name="assign-a-product-lifecycle-state-to-a-released-product"></a><span data-ttu-id="d7345-103">对已发布的产品分配产品生命周期状态</span><span class="sxs-lookup"><span data-stu-id="d7345-103">Assign a product lifecycle state to a released product</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="bb41b-104">此过程显示如何将产品生命周期状态分配给已发布的产品。</span><span class="sxs-lookup"><span data-stu-id="bb41b-104">This procedure shows how to assign a product lifecycle state to a released product.</span></span> <span data-ttu-id="bb41b-105">先决条件：您需要先播放任务指南“创建新的产品生命周期状态”以确保至少创建了一个产品生命周期状态，然后才可以播放此指南。</span><span class="sxs-lookup"><span data-stu-id="bb41b-105">Prerequisite: You need to play the task guide "Create a new product lifecycle state" first to make sure that at least one product lifecycle state is created before you can play this guide.</span></span>
+<span data-ttu-id="d7345-104">此过程显示如何将产品生命周期状态分配给已发布的产品。</span><span class="sxs-lookup"><span data-stu-id="d7345-104">This procedure shows how to assign a product lifecycle state to a released product.</span></span> <span data-ttu-id="d7345-105">先决条件：您需要先播放任务指南“创建新的产品生命周期状态”以确保至少创建了一个产品生命周期状态，然后才可以播放此指南。</span><span class="sxs-lookup"><span data-stu-id="d7345-105">Prerequisite: You need to play the task guide "Create a new product lifecycle state" first to make sure that at least one product lifecycle state is created before you can play this guide.</span></span>
 
 
-## <a name="find-a-released-product-that-you-want-to-assign-a-product-lifcycle-state"></a><span data-ttu-id="bb41b-106">查找您想要对其分配产品生命周期状态的已发布产品</span><span class="sxs-lookup"><span data-stu-id="bb41b-106">Find a released product that you want to assign a product lifcycle state</span></span>
-1. <span data-ttu-id="bb41b-107">转到“产品信息管理”>“产品”>“已发布产品”。</span><span class="sxs-lookup"><span data-stu-id="bb41b-107">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="bb41b-108">使用“快速筛选器”以查找记录。</span><span class="sxs-lookup"><span data-stu-id="bb41b-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="bb41b-109">例如，使用值“d”在“物料编号”字段中进行筛选。</span><span class="sxs-lookup"><span data-stu-id="bb41b-109">For example, filter on the Item number field with a value of 'd'.</span></span>
-3. <span data-ttu-id="bb41b-110">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="bb41b-110">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="bb41b-111">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="bb41b-111">Click Edit.</span></span>
-5. <span data-ttu-id="bb41b-112">在“产品生命周期状态”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="bb41b-112">In the Product lifecycle state field, enter or select a value.</span></span>
-6. <span data-ttu-id="bb41b-113">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="bb41b-113">Click Save.</span></span>
+## <a name="find-a-released-product-that-you-want-to-assign-a-product-lifcycle-state"></a><span data-ttu-id="d7345-106">查找您想要对其分配产品生命周期状态的已发布产品</span><span class="sxs-lookup"><span data-stu-id="d7345-106">Find a released product that you want to assign a product lifcycle state</span></span>
+1. <span data-ttu-id="d7345-107">转到“产品信息管理”>“产品”>“已发布产品”。</span><span class="sxs-lookup"><span data-stu-id="d7345-107">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="d7345-108">使用“快速筛选器”以查找记录。</span><span class="sxs-lookup"><span data-stu-id="d7345-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="d7345-109">例如，使用值“d”在“物料编号”字段中进行筛选。</span><span class="sxs-lookup"><span data-stu-id="d7345-109">For example, filter on the Item number field with a value of 'd'.</span></span>
+3. <span data-ttu-id="d7345-110">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="d7345-110">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="d7345-111">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="d7345-111">Click Edit.</span></span>
+5. <span data-ttu-id="d7345-112">在“产品生命周期状态”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="d7345-112">In the Product lifecycle state field, enter or select a value.</span></span>
+6. <span data-ttu-id="d7345-113">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="d7345-113">Click Save.</span></span>
 
 
 

@@ -2,7 +2,6 @@
 title: (ER) 从 RCS 导入配置
 description: 本主题介绍用户如何从 RCS 导入 ER 配置的新版本。
 author: NickSelin
-manager: AnnBe
 ms.date: 07/03/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,45 +13,45 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 799abeafe5f0929e6dd2f8a5f437f3c10b3b06d9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 77d637b2ec1deeabc04a6796644363b330f5756e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570528"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744883"
 ---
-# <a name="er-import-configurations-from-rcs"></a><span data-ttu-id="93247-103">(ER) 从 RCS 导入配置</span><span class="sxs-lookup"><span data-stu-id="93247-103">(ER) Import configurations from RCS</span></span>
+# <a name="er-import-configurations-from-rcs"></a><span data-ttu-id="0fc6a-103">(ER) 从 RCS 导入配置</span><span class="sxs-lookup"><span data-stu-id="0fc6a-103">(ER) Import configurations from RCS</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="93247-104">以下步骤说明系统管理员或电子报表开发人员角色的用户可如何从 Microsoft Regulatory Configuration Services (RCS) 导入新电子申报 (ER) 配置版本。</span><span class="sxs-lookup"><span data-stu-id="93247-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can import a new version of an Electronic reporting (ER) configuration from Microsoft Regulatory Configuration Services (RCS).</span></span> <span data-ttu-id="93247-105">在此示例中，将选择 RCS 中已配置的 ER 配置版本，并将其导入示例公司 Litware, Inc. 的当前实例。可以在任何公司执行这些步骤，因为公司共享 ER 配置。</span><span class="sxs-lookup"><span data-stu-id="93247-105">In this example, you will select the version of the ER configuration that has been configured in an RCS instance and import it into the current instance for sample company, Litware, Inc. These steps can be performed in any company because ER configurations are shared among companies.</span></span> <span data-ttu-id="93247-106">为了完成这些步骤，您必须首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)主题中的步骤。</span><span class="sxs-lookup"><span data-stu-id="93247-106">To complete these steps, you must first complete the steps in the topic, [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md).</span></span> <span data-ttu-id="93247-107">若要完成这些步骤，还必须可以访问其中包含至少一个状态为 **已完成** 或 **共享** 的 ER 配置的 RCS 实例。</span><span class="sxs-lookup"><span data-stu-id="93247-107">To complete these steps, you must also have access to an RCS instance containing at least one ER configuration in either **Completed** or **Shared** status.</span></span>
+<span data-ttu-id="0fc6a-104">以下步骤说明系统管理员或电子报表开发人员角色的用户可如何从 Microsoft Regulatory Configuration Services (RCS) 导入新电子申报 (ER) 配置版本。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can import a new version of an Electronic reporting (ER) configuration from Microsoft Regulatory Configuration Services (RCS).</span></span> <span data-ttu-id="0fc6a-105">在此示例中，将选择 RCS 中已配置的 ER 配置版本，并将其导入示例公司 Litware, Inc. 的当前实例。可以在任何公司执行这些步骤，因为公司共享 ER 配置。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-105">In this example, you will select the version of the ER configuration that has been configured in an RCS instance and import it into the current instance for sample company, Litware, Inc. These steps can be performed in any company because ER configurations are shared among companies.</span></span> <span data-ttu-id="0fc6a-106">为了完成这些步骤，您必须首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)主题中的步骤。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-106">To complete these steps, you must first complete the steps in the topic, [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md).</span></span> <span data-ttu-id="0fc6a-107">若要完成这些步骤，还必须可以访问其中包含至少一个状态为 **已完成** 或 **共享** 的 ER 配置的 RCS 实例。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-107">To complete these steps, you must also have access to an RCS instance containing at least one ER configuration in either **Completed** or **Shared** status.</span></span>
 
-1. <span data-ttu-id="93247-108">转到 **组织管理** > **工作区** > **电子申报**。</span><span class="sxs-lookup"><span data-stu-id="93247-108">Go to **Organization administration** > **Workspaces** > **Electronic reporting**.</span></span> 
-2. <span data-ttu-id="93247-109">确保示例公司 Litware 公司的配置提供程序可用且标记为 **有效**。</span><span class="sxs-lookup"><span data-stu-id="93247-109">Make sure that the configuration provider for the sample company, Litware, Inc., is available and marked as **Active**.</span></span> <span data-ttu-id="93247-110">如果没有看到此配置提供程序，请首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)这一主题中的步骤。</span><span class="sxs-lookup"><span data-stu-id="93247-110">If you don't see this configuration provider, complete the steps in the topic, [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md).</span></span> 
-3. <span data-ttu-id="93247-111">如果没有为公司设置 RCS 环境，请选择 **Regulatory services – 配置** 外部链接，然后按照说明设置 RCS 环境。</span><span class="sxs-lookup"><span data-stu-id="93247-111">If you have no RCS environment provisioned to your company, select **Regulatory services – Configuration** external link and follow the instructions to provision an RCS environment.</span></span> 
-4. <span data-ttu-id="93247-112">选择 **电子申报参数**。</span><span class="sxs-lookup"><span data-stu-id="93247-112">Select **Electronic reporting parameters**.</span></span> 
-5. <span data-ttu-id="93247-113">选择 **RCS** 选项卡。</span><span class="sxs-lookup"><span data-stu-id="93247-113">Select the **RCS** tab.</span></span> 
-6. <span data-ttu-id="93247-114">如果已经为您的公司设置了 RCS 环境，请使用页面中提供的 URL 访问。</span><span class="sxs-lookup"><span data-stu-id="93247-114">If RCS environment has been already provisioned to your company, use presented on the page URLs to access it.</span></span> 
-7. <span data-ttu-id="93247-115">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="93247-115">Close the page.</span></span> 
+1. <span data-ttu-id="0fc6a-108">转到 **组织管理** > **工作区** > **电子申报**。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-108">Go to **Organization administration** > **Workspaces** > **Electronic reporting**.</span></span> 
+2. <span data-ttu-id="0fc6a-109">确保示例公司 Litware 公司的配置提供程序可用且标记为 **有效**。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-109">Make sure that the configuration provider for the sample company, Litware, Inc., is available and marked as **Active**.</span></span> <span data-ttu-id="0fc6a-110">如果没有看到此配置提供程序，请首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)这一主题中的步骤。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-110">If you don't see this configuration provider, complete the steps in the topic, [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md).</span></span> 
+3. <span data-ttu-id="0fc6a-111">如果没有为公司设置 RCS 环境，请选择 **Regulatory services – 配置** 外部链接，然后按照说明设置 RCS 环境。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-111">If you have no RCS environment provisioned to your company, select **Regulatory services – Configuration** external link and follow the instructions to provision an RCS environment.</span></span> 
+4. <span data-ttu-id="0fc6a-112">选择 **电子申报参数**。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-112">Select **Electronic reporting parameters**.</span></span> 
+5. <span data-ttu-id="0fc6a-113">选择 **RCS** 选项卡。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-113">Select the **RCS** tab.</span></span> 
+6. <span data-ttu-id="0fc6a-114">如果已经为您的公司设置了 RCS 环境，请使用页面中提供的 URL 访问。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-114">If RCS environment has been already provisioned to your company, use presented on the page URLs to access it.</span></span> 
+7. <span data-ttu-id="0fc6a-115">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-115">Close the page.</span></span> 
 
-## <a name="register-a-new-er-repository"></a><span data-ttu-id="93247-116">注册新的 ER 存储库。</span><span class="sxs-lookup"><span data-stu-id="93247-116">Register a new ER repository.</span></span> 
-1. <span data-ttu-id="93247-117">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="93247-117">In the list, mark the selected row.</span></span> 
-2. <span data-ttu-id="93247-118">选择 Litware, Inc. 提供商。</span><span class="sxs-lookup"><span data-stu-id="93247-118">Select Litware, Inc. provider.</span></span> 
-3. <span data-ttu-id="93247-119">选择存储库。</span><span class="sxs-lookup"><span data-stu-id="93247-119">Select Repositories.</span></span> 
-4. <span data-ttu-id="93247-120">选择添加以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="93247-120">Select Add to open the drop dialog.</span></span> 
-5. <span data-ttu-id="93247-121">在“配置存储库类型”字段中，输入”RCS“。</span><span class="sxs-lookup"><span data-stu-id="93247-121">In the Configuration repository type field, enter 'RCS'.</span></span> 
-6. <span data-ttu-id="93247-122">选择创建存储库。</span><span class="sxs-lookup"><span data-stu-id="93247-122">Select Create repository.</span></span> 
-7. <span data-ttu-id="93247-123">在 RCS 环境显示名称字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="93247-123">In the RCS environment display name field, enter or select a value.</span></span> 
-8. <span data-ttu-id="93247-124">选择所需的 RCS 实例。</span><span class="sxs-lookup"><span data-stu-id="93247-124">Select the desired RCS instance.</span></span> <span data-ttu-id="93247-125">可以选择多个。</span><span class="sxs-lookup"><span data-stu-id="93247-125">You can have several of them.</span></span> 
-9. <span data-ttu-id="93247-126">选择确定。</span><span class="sxs-lookup"><span data-stu-id="93247-126">Select OK.</span></span> 
+## <a name="register-a-new-er-repository"></a><span data-ttu-id="0fc6a-116">注册新的 ER 存储库。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-116">Register a new ER repository.</span></span> 
+1. <span data-ttu-id="0fc6a-117">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-117">In the list, mark the selected row.</span></span> 
+2. <span data-ttu-id="0fc6a-118">选择 Litware, Inc. 提供商。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-118">Select Litware, Inc. provider.</span></span> 
+3. <span data-ttu-id="0fc6a-119">选择存储库。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-119">Select Repositories.</span></span> 
+4. <span data-ttu-id="0fc6a-120">选择添加以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-120">Select Add to open the drop dialog.</span></span> 
+5. <span data-ttu-id="0fc6a-121">在“配置存储库类型”字段中，输入”RCS“。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-121">In the Configuration repository type field, enter 'RCS'.</span></span> 
+6. <span data-ttu-id="0fc6a-122">选择创建存储库。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-122">Select Create repository.</span></span> 
+7. <span data-ttu-id="0fc6a-123">在 RCS 环境显示名称字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-123">In the RCS environment display name field, enter or select a value.</span></span> 
+8. <span data-ttu-id="0fc6a-124">选择所需的 RCS 实例。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-124">Select the desired RCS instance.</span></span> <span data-ttu-id="0fc6a-125">可以选择多个。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-125">You can have several of them.</span></span> 
+9. <span data-ttu-id="0fc6a-126">选择确定。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-126">Select OK.</span></span> 
 
-## <a name="import-er-configurations-from-rcs-based-repository"></a><span data-ttu-id="93247-127">从基于 RCS 的存储库导入 ER 配置</span><span class="sxs-lookup"><span data-stu-id="93247-127">Import ER configurations from RCS-based repository</span></span>
-1. <span data-ttu-id="93247-128">选择 **显示筛选器**。</span><span class="sxs-lookup"><span data-stu-id="93247-128">Select **Show filters**.</span></span> 
-2. <span data-ttu-id="93247-129">使用 **开头为** 筛选器运算符在 **名称** 字段中输入筛选器值”RCS“。</span><span class="sxs-lookup"><span data-stu-id="93247-129">Enter a filter value of "RCS" on the **Name** field using the **begins with** filter operator.</span></span> 
-3. <span data-ttu-id="93247-130">打开所选存储库时，在 **连接 Regulatory Configuration Services** 页上，选择 **选择此处连接 Regulatory Configuration Services** 链接。</span><span class="sxs-lookup"><span data-stu-id="93247-130">When you open the selected repository, on the **Connect to Regulatory Configuration Services** page, select **Select here to connect to Regulatory Configuration Services** link.</span></span> 
-4. <span data-ttu-id="93247-131">选择 **打开**。</span><span class="sxs-lookup"><span data-stu-id="93247-131">Select **Open**.</span></span> 
-5. <span data-ttu-id="93247-132">选择 **关闭**。</span><span class="sxs-lookup"><span data-stu-id="93247-132">Select **Close**.</span></span> 
-6. <span data-ttu-id="93247-133">选择所需 ER 配置版本，然后选择 **导入** 将其导入到当前实例中。</span><span class="sxs-lookup"><span data-stu-id="93247-133">Select the desired version of ER configuration and select **Import** to bring it in the current instance.</span></span>
+## <a name="import-er-configurations-from-rcs-based-repository"></a><span data-ttu-id="0fc6a-127">从基于 RCS 的存储库导入 ER 配置</span><span class="sxs-lookup"><span data-stu-id="0fc6a-127">Import ER configurations from RCS-based repository</span></span>
+1. <span data-ttu-id="0fc6a-128">选择 **显示筛选器**。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-128">Select **Show filters**.</span></span> 
+2. <span data-ttu-id="0fc6a-129">使用 **开头为** 筛选器运算符在 **名称** 字段中输入筛选器值”RCS“。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-129">Enter a filter value of "RCS" on the **Name** field using the **begins with** filter operator.</span></span> 
+3. <span data-ttu-id="0fc6a-130">打开所选存储库时，在 **连接 Regulatory Configuration Services** 页上，选择 **选择此处连接 Regulatory Configuration Services** 链接。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-130">When you open the selected repository, on the **Connect to Regulatory Configuration Services** page, select **Select here to connect to Regulatory Configuration Services** link.</span></span> 
+4. <span data-ttu-id="0fc6a-131">选择 **打开**。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-131">Select **Open**.</span></span> 
+5. <span data-ttu-id="0fc6a-132">选择 **关闭**。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-132">Select **Close**.</span></span> 
+6. <span data-ttu-id="0fc6a-133">选择所需 ER 配置版本，然后选择 **导入** 将其导入到当前实例中。</span><span class="sxs-lookup"><span data-stu-id="0fc6a-133">Select the desired version of ER configuration and select **Import** to bring it in the current instance.</span></span>
 
 
 

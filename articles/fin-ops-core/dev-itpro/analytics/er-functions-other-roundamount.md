@@ -2,7 +2,6 @@
 title: ROUNDAMOUNT ER 函数
 description: 本主题提供有关 ROUNDAMOUNT 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
@@ -16,80 +15,80 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a80587236d17160a996d701ca4ae38be21c818c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: cce35a33ca179ad85bbde879122d3afbeefe5ee7
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563286"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745655"
 ---
-# <a name="roundamount-er-function"></a><span data-ttu-id="eadd7-103">ROUNDAMOUNT ER 函数</span><span class="sxs-lookup"><span data-stu-id="eadd7-103">ROUNDAMOUNT ER function</span></span>
+# <a name="roundamount-er-function"></a><span data-ttu-id="9c110-103">ROUNDAMOUNT ER 函数</span><span class="sxs-lookup"><span data-stu-id="9c110-103">ROUNDAMOUNT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="eadd7-104">`ROUNDAMOUNT` 函数根据指定的舍入规则，作为将指定数字舍入为另一个数字的最接近倍数的结果返回 *实数* 值。</span><span class="sxs-lookup"><span data-stu-id="eadd7-104">The `ROUNDAMOUNT` function returns a *Real* value as the result of the rounding of the specified number to the nearest multiple of another number according to the specified rounding rule.</span></span>
+<span data-ttu-id="9c110-104">`ROUNDAMOUNT` 函数根据指定的舍入规则，作为将指定数字舍入为另一个数字的最接近倍数的结果返回 *实数* 值。</span><span class="sxs-lookup"><span data-stu-id="9c110-104">The `ROUNDAMOUNT` function returns a *Real* value as the result of the rounding of the specified number to the nearest multiple of another number according to the specified rounding rule.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="eadd7-105">语法</span><span class="sxs-lookup"><span data-stu-id="eadd7-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9c110-105">语法</span><span class="sxs-lookup"><span data-stu-id="9c110-105">Syntax</span></span>
 
 ```vb
 ROUNDAMOUNT (number, decimals, round rule)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="eadd7-106">参数</span><span class="sxs-lookup"><span data-stu-id="eadd7-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="9c110-106">参数</span><span class="sxs-lookup"><span data-stu-id="9c110-106">Arguments</span></span>
 
-<span data-ttu-id="eadd7-107">`number`：*Int* 或 *实数*</span><span class="sxs-lookup"><span data-stu-id="eadd7-107">`number`: *Int* or *Real*</span></span>
+<span data-ttu-id="9c110-107">`number`：*Int* 或 *实数*</span><span class="sxs-lookup"><span data-stu-id="9c110-107">`number`: *Int* or *Real*</span></span>
 
-<span data-ttu-id="eadd7-108">必须舍入的数值。</span><span class="sxs-lookup"><span data-stu-id="eadd7-108">A numeric value that must be rounded.</span></span>
+<span data-ttu-id="9c110-108">必须舍入的数值。</span><span class="sxs-lookup"><span data-stu-id="9c110-108">A numeric value that must be rounded.</span></span>
 
-<span data-ttu-id="eadd7-109">`decimals`：*Int* 或 *实数*</span><span class="sxs-lookup"><span data-stu-id="eadd7-109">`decimals`: *Int* or *Real*</span></span>
+<span data-ttu-id="9c110-109">`decimals`：*Int* 或 *实数*</span><span class="sxs-lookup"><span data-stu-id="9c110-109">`decimals`: *Int* or *Real*</span></span>
 
-<span data-ttu-id="eadd7-110">`number` 参数的值必须舍入到其倍数的数字。</span><span class="sxs-lookup"><span data-stu-id="eadd7-110">The number that the value of the `number` parameter must be rounded to a multiple of.</span></span>
+<span data-ttu-id="9c110-110">`number` 参数的值必须舍入到其倍数的数字。</span><span class="sxs-lookup"><span data-stu-id="9c110-110">The number that the value of the `number` parameter must be rounded to a multiple of.</span></span>
 
-<span data-ttu-id="eadd7-111">`round rule`：*枚举值*</span><span class="sxs-lookup"><span data-stu-id="eadd7-111">`round rule`: *Enum value*</span></span>
+<span data-ttu-id="9c110-111">`round rule`：*枚举值*</span><span class="sxs-lookup"><span data-stu-id="9c110-111">`round rule`: *Enum value*</span></span>
 
-<span data-ttu-id="eadd7-112">定义舍入规则的 **RoundOffType** 枚举的枚举值。</span><span class="sxs-lookup"><span data-stu-id="eadd7-112">An enumeration value of the **RoundOffType** enumeration that defines the rounding rule.</span></span> <span data-ttu-id="eadd7-113">此枚举提供以下值：</span><span class="sxs-lookup"><span data-stu-id="eadd7-113">This enumeration offers the following values:</span></span>
+<span data-ttu-id="9c110-112">定义舍入规则的 **RoundOffType** 枚举的枚举值。</span><span class="sxs-lookup"><span data-stu-id="9c110-112">An enumeration value of the **RoundOffType** enumeration that defines the rounding rule.</span></span> <span data-ttu-id="9c110-113">此枚举提供以下值：</span><span class="sxs-lookup"><span data-stu-id="9c110-113">This enumeration offers the following values:</span></span>
 
-- <span data-ttu-id="eadd7-114">一般（常规）</span><span class="sxs-lookup"><span data-stu-id="eadd7-114">Normal (Ordinary)</span></span>
-- <span data-ttu-id="eadd7-115">向下 (RoundDown)</span><span class="sxs-lookup"><span data-stu-id="eadd7-115">Downward (RoundDown)</span></span>
-- <span data-ttu-id="eadd7-116">向上舍入 (RoundUp)</span><span class="sxs-lookup"><span data-stu-id="eadd7-116">Rounding-up (RoundUp)</span></span>
+- <span data-ttu-id="9c110-114">一般（常规）</span><span class="sxs-lookup"><span data-stu-id="9c110-114">Normal (Ordinary)</span></span>
+- <span data-ttu-id="9c110-115">向下 (RoundDown)</span><span class="sxs-lookup"><span data-stu-id="9c110-115">Downward (RoundDown)</span></span>
+- <span data-ttu-id="9c110-116">向上舍入 (RoundUp)</span><span class="sxs-lookup"><span data-stu-id="9c110-116">Rounding-up (RoundUp)</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="eadd7-117">返回值</span><span class="sxs-lookup"><span data-stu-id="eadd7-117">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="9c110-117">返回值</span><span class="sxs-lookup"><span data-stu-id="9c110-117">Return values</span></span>
 
-<span data-ttu-id="eadd7-118">*实数*</span><span class="sxs-lookup"><span data-stu-id="eadd7-118">*Real*</span></span>
+<span data-ttu-id="9c110-118">*实数*</span><span class="sxs-lookup"><span data-stu-id="9c110-118">*Real*</span></span>
 
-<span data-ttu-id="eadd7-119">产生的数值是 `decimals` 参数指定的值的倍数，并且最接近 `number` 参数指定的值。</span><span class="sxs-lookup"><span data-stu-id="eadd7-119">The resulting numeric value is a multiple of the value specified by the `decimals` parameter and is closest to the value specified by the `number` parameter.</span></span>
+<span data-ttu-id="9c110-119">产生的数值是 `decimals` 参数指定的值的倍数，并且最接近 `number` 参数指定的值。</span><span class="sxs-lookup"><span data-stu-id="9c110-119">The resulting numeric value is a multiple of the value specified by the `decimals` parameter and is closest to the value specified by the `number` parameter.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="eadd7-120">使用说明</span><span class="sxs-lookup"><span data-stu-id="eadd7-120">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="9c110-120">使用说明</span><span class="sxs-lookup"><span data-stu-id="9c110-120">Usage notes</span></span>
 
-<span data-ttu-id="eadd7-121">当 `number` 参数为零时，此函数始终返回零。</span><span class="sxs-lookup"><span data-stu-id="eadd7-121">When the `number` parameter is zero, this function always returns zero.</span></span>
+<span data-ttu-id="9c110-121">当 `number` 参数为零时，此函数始终返回零。</span><span class="sxs-lookup"><span data-stu-id="9c110-121">When the `number` parameter is zero, this function always returns zero.</span></span>
 
-<span data-ttu-id="eadd7-122">当 `decimals` 参数为零时，此函数将舍入为默认舍入值。</span><span class="sxs-lookup"><span data-stu-id="eadd7-122">When the `decimals` parameter is zero, this function rounds to the default round-off value.</span></span> <span data-ttu-id="eadd7-123">当 `round rule` 参数设置为 **RoundOffType.Ordinary** 时，默认舍入值为 **0.01**。</span><span class="sxs-lookup"><span data-stu-id="eadd7-123">When the `round rule` parameter is set to **RoundOffType.Ordinary**, the default round-off value is **0.01**.</span></span> <span data-ttu-id="eadd7-124">否则，默认舍入值为 **1.0**。</span><span class="sxs-lookup"><span data-stu-id="eadd7-124">Otherwise, the default round-off value is **1.0**.</span></span>
+<span data-ttu-id="9c110-122">当 `decimals` 参数为零时，此函数将舍入为默认舍入值。</span><span class="sxs-lookup"><span data-stu-id="9c110-122">When the `decimals` parameter is zero, this function rounds to the default round-off value.</span></span> <span data-ttu-id="9c110-123">当 `round rule` 参数设置为 **RoundOffType.Ordinary** 时，默认舍入值为 **0.01**。</span><span class="sxs-lookup"><span data-stu-id="9c110-123">When the `round rule` parameter is set to **RoundOffType.Ordinary**, the default round-off value is **0.01**.</span></span> <span data-ttu-id="9c110-124">否则，默认舍入值为 **1.0**。</span><span class="sxs-lookup"><span data-stu-id="9c110-124">Otherwise, the default round-off value is **1.0**.</span></span>
 
-<span data-ttu-id="eadd7-125">当 `round rule` 参数设置为 **RoundOffType.Ordinary** 时，此函数舍入到最接近的舍入金额。</span><span class="sxs-lookup"><span data-stu-id="eadd7-125">When the `round rule` parameter is set to **RoundOffType.Ordinary**, this function rounds to the nearest round-off amount.</span></span>
+<span data-ttu-id="9c110-125">当 `round rule` 参数设置为 **RoundOffType.Ordinary** 时，此函数舍入到最接近的舍入金额。</span><span class="sxs-lookup"><span data-stu-id="9c110-125">When the `round rule` parameter is set to **RoundOffType.Ordinary**, this function rounds to the nearest round-off amount.</span></span>
 
-<span data-ttu-id="eadd7-126">当 `round rule` 参数设置为 **RoundOffType.RoundDown** 时，此函数朝零舍入到最接近的舍入金额。</span><span class="sxs-lookup"><span data-stu-id="eadd7-126">When the `round rule` parameter is set to **RoundOffType.RoundDown**, this function rounds towards zero to the nearest round-off amount.</span></span>
+<span data-ttu-id="9c110-126">当 `round rule` 参数设置为 **RoundOffType.RoundDown** 时，此函数朝零舍入到最接近的舍入金额。</span><span class="sxs-lookup"><span data-stu-id="9c110-126">When the `round rule` parameter is set to **RoundOffType.RoundDown**, this function rounds towards zero to the nearest round-off amount.</span></span>
 
-<span data-ttu-id="eadd7-127">当 `round rule` 参数设置为 **RoundOffType.RoundUp** 时，此函数离零舍入到最接近的舍入金额。</span><span class="sxs-lookup"><span data-stu-id="eadd7-127">When the `round rule` parameter is set to **RoundOffType.RoundUp**, this function rounds away from zero to the nearest round-off amount.</span></span>
+<span data-ttu-id="9c110-127">当 `round rule` 参数设置为 **RoundOffType.RoundUp** 时，此函数离零舍入到最接近的舍入金额。</span><span class="sxs-lookup"><span data-stu-id="9c110-127">When the `round rule` parameter is set to **RoundOffType.RoundUp**, this function rounds away from zero to the nearest round-off amount.</span></span>
 
-<span data-ttu-id="eadd7-128">当 `round rule` 参数设置为 **RoundOffType.Ordinary** 时，此函数的行为类似于 [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) Excel 函数和 [ROUND](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-math-run-time-functions#round) X++ 函数。</span><span class="sxs-lookup"><span data-stu-id="eadd7-128">When the `round rule` parameter is set to **RoundOffType.Ordinary**, this function behaves like the [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) Excel function and the [ROUND](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-math-run-time-functions#round) X++ function.</span></span>
+<span data-ttu-id="9c110-128">当 `round rule` 参数设置为 **RoundOffType.Ordinary** 时，此函数的行为类似于 [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) Excel 函数和 [ROUND](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-math-run-time-functions#round) X++ 函数。</span><span class="sxs-lookup"><span data-stu-id="9c110-128">When the `round rule` parameter is set to **RoundOffType.Ordinary**, this function behaves like the [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) Excel function and the [ROUND](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-math-run-time-functions#round) X++ function.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="eadd7-129">注解</span><span class="sxs-lookup"><span data-stu-id="eadd7-129">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9c110-129">注解</span><span class="sxs-lookup"><span data-stu-id="9c110-129">Remarks</span></span>
 
-<span data-ttu-id="eadd7-130">要将数值舍入到指定的小数位数，请使用 [ROUND](er-functions-mathematical-round.md) 函数。</span><span class="sxs-lookup"><span data-stu-id="eadd7-130">To round a numeric value to a specified number of decimal places, use the [ROUND](er-functions-mathematical-round.md) function.</span></span>
+<span data-ttu-id="9c110-130">要将数值舍入到指定的小数位数，请使用 [ROUND](er-functions-mathematical-round.md) 函数。</span><span class="sxs-lookup"><span data-stu-id="9c110-130">To round a numeric value to a specified number of decimal places, use the [ROUND](er-functions-mathematical-round.md) function.</span></span>
 
-## <a name="example"></a><span data-ttu-id="eadd7-131">示例</span><span class="sxs-lookup"><span data-stu-id="eadd7-131">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9c110-131">示例</span><span class="sxs-lookup"><span data-stu-id="9c110-131">Example</span></span>
 
-<span data-ttu-id="eadd7-132">如果 **model.RoundOff** 参数设置为 **RoundOffType.Ordinary**，`ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` 将返回 7.35。</span><span class="sxs-lookup"><span data-stu-id="eadd7-132">If the **model.RoundOff** parameter is set to **RoundOffType.Ordinary**, `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` returns 7.35.</span></span> 
+<span data-ttu-id="9c110-132">如果 **model.RoundOff** 参数设置为 **RoundOffType.Ordinary**，`ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` 将返回 7.35。</span><span class="sxs-lookup"><span data-stu-id="9c110-132">If the **model.RoundOff** parameter is set to **RoundOffType.Ordinary**, `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` returns 7.35.</span></span> 
 
-<span data-ttu-id="eadd7-133">如果 **model.RoundOff** 参数设置为 **RoundOffType.RoundDown**，`ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` 将返回 7.35。</span><span class="sxs-lookup"><span data-stu-id="eadd7-133">If the **model.RoundOff** parameter is set to **RoundOffType.RoundDown**, `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` returns 7.35.</span></span> 
+<span data-ttu-id="9c110-133">如果 **model.RoundOff** 参数设置为 **RoundOffType.RoundDown**，`ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` 将返回 7.35。</span><span class="sxs-lookup"><span data-stu-id="9c110-133">If the **model.RoundOff** parameter is set to **RoundOffType.RoundDown**, `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` returns 7.35.</span></span> 
 
-<span data-ttu-id="eadd7-134">如果 **model.RoundOff** 参数设置为 **RoundOffType.RoundUp**，`ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` 将返回 8.4。</span><span class="sxs-lookup"><span data-stu-id="eadd7-134">If the **model.RoundOff** parameter is set to **RoundOffType.RoundUp**, `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` returns 8.4.</span></span>
+<span data-ttu-id="9c110-134">如果 **model.RoundOff** 参数设置为 **RoundOffType.RoundUp**，`ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` 将返回 8.4。</span><span class="sxs-lookup"><span data-stu-id="9c110-134">If the **model.RoundOff** parameter is set to **RoundOffType.RoundUp**, `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` returns 8.4.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="eadd7-135">其他资源</span><span class="sxs-lookup"><span data-stu-id="eadd7-135">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="9c110-135">其他资源</span><span class="sxs-lookup"><span data-stu-id="9c110-135">Additional resources</span></span>
 
-[<span data-ttu-id="eadd7-136">其他（业务域特定的）函数</span><span class="sxs-lookup"><span data-stu-id="eadd7-136">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="9c110-136">其他（业务域特定的）函数</span><span class="sxs-lookup"><span data-stu-id="9c110-136">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
 
-[<span data-ttu-id="eadd7-137">数学函数</span><span class="sxs-lookup"><span data-stu-id="eadd7-137">Mathematical functions</span></span>](er-functions-category-mathematical.md)
+[<span data-ttu-id="9c110-137">数学函数</span><span class="sxs-lookup"><span data-stu-id="9c110-137">Mathematical functions</span></span>](er-functions-category-mathematical.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
