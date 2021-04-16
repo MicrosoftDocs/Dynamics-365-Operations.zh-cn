@@ -2,11 +2,9 @@
 title: Dynamics 365 Supply Chain Management 10.0.16 中的新增功能或更改（2021 年 2 月）
 description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.16 中的新增功能或更改的功能。
 author: kamaybac
-manager: annbe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f9eb0685fcefe5d0734dc01fa82971958c3952d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236067"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829972"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Dynamics 365 Supply Chain Management 10.0.16 中的新增功能或更改（2021 年 2 月）
 
@@ -35,11 +33,13 @@ ms.locfileid: "5236067"
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
-此版本中包含以下功能。 某些列出的功能仍处于预览状态，而其他功能可能已正式发布。 单击[发布计划](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features)链接以查看每个功能的正式发布日期。
+此版本中包含以下功能。 单击[发布计划](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features)链接以查看每个功能的正式发布日期。
 
 - [可自定义的车间执行界面](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - 有关详细信息，请参阅[设置设备以运行生产车间执行界面](../production-control/production-floor-execution-setup.md)。
 
 - [Dynamics 365 Supply Chain Management 的库存可见性加载项](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - 有关详细信息，请参阅[库存可见性加载项](../inventory/inventory-visibility.md)
+
+- 统一作业 ID 编号规则<br> - 有关详细信息，请参阅[统一作业 ID 编号规则](../production-control/unified-job-ids.md)。
 
 - [验证原始凭证行上的牌照](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - 有关详细信息，请参阅[仓库配置概述](../warehousing/warehouse-configuration.md)。
 
@@ -75,7 +75,7 @@ ms.locfileid: "5236067"
 - [解决销售订单问题](../sales-marketing/troubleshooting-sales.md)
 - [解决销售报价单问题](../sales-marketing/troubleshooting-salesquotation.md)
 - [升级和迁移到高级仓库管理疑难解答](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [解决仓库应用的连接问题](../warehousing/troubleshoot-warehouse-app-connection.md)
+- [仓库管理移动应用连接问题故障排除](../warehousing/troubleshoot-warehouse-app-connection.md)
 - [仓库配置疑难解答](../warehousing/troubleshoot-warehouse-configuration.md)
 - [仓库补货疑难解答](../warehousing/troubleshoot-warehouse-replenishment.md)
 - [仓库设置疑难解答](../warehousing/troubleshoot-warehouse-setup.md)

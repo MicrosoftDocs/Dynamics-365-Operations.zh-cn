@@ -2,11 +2,9 @@
 title: 复制配方
 description: 此过程重点是创建包括相同的成分作为现有配方的配方，不过差异很小。
 author: ShylaThompson
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdeeb760ab6bb00cefc6b358e53996dd652e5bc6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 611ebb79fb77bde13a3dd59317662fddbfc1a7e6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255317"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829250"
 ---
 # <a name="copy-a-formula"></a>复制配方
 

@@ -2,11 +2,9 @@
 title: 升级和迁移到高级仓库管理疑难解答
 description: 此主题介绍如何解决升级和迁移到高级仓库管理时可能遇到的常见问题。
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f5bfee31ce27e919086f978fb3ff88ca61a65eba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208079"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826387"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>升级和迁移到高级仓库管理疑难解答
 
@@ -34,11 +32,11 @@ ms.locfileid: "5208079"
 
 ### <a name="issue-description"></a>问题描述
 
-您在仓库应用中收到此错误消息，是因为自签名证书在本地环境中的 Android 8+ 上不受信任。
+您会在仓库管理移动应用中收到此错误消息，因为自签名证书在本地环境中的 Android 8+ 上不受信任。
 
 ### <a name="issue-resolution"></a>解决问题
 
-请使用外部（公共）认证机构 (CA)。 仓库应用版本 1.9.0.0 中提供了针对此问题的修复。 有关此问题以及如何解决的详细信息，请参阅[解决仓库应用的连接问题](troubleshoot-warehouse-app-connection.md)。
+请使用外部（公共）认证机构 (CA)。 仓库应用版本 1.9.0.0 中提供了针对此问题的修复。 有关此问题以及如何解决的详细信息，请参阅[仓库管理移动应用连接问题故障排除](troubleshoot-warehouse-app-connection.md)。
 
 ## <a name="what-is-the-approved-process-for-moving-from-basic-warehousing-to-advanced-warehousing"></a>批准的从基本仓库移到高级仓库的流程是什么？
 

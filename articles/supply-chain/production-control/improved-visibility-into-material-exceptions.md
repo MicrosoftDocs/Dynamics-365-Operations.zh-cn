@@ -2,13 +2,11 @@
 title: 物料异常的可见性
 description: 此主题介绍如何提高用于生产订单和批次订单的原材料异常的可见性。
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage, WHSProdWaveTableManageBOMPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 1705903
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 87f82733388501f2f902e7ebba8b547d9ae5ed16
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246157"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831978"
 ---
 # <a name="visibility-into-material-exceptions"></a>物料异常的可见性
 
@@ -59,9 +57,13 @@ ms.locfileid: "5246157"
 
 发放物料清单或配方行时，该行添加到新生产波次或现有开放波次中，具体取决于生产波次模板的配置。 通过波次模板的配置，还可以设置一个波次，以便在发放物料清单或配方行时自动处理该波次。 处理波次时，生成用于原材料领料的仓库工作。 如果波次模板配置为无法在发放时间处理波次，则波次仍处于未处理状态。 **需要关注的未处理波次** 磁贴显示在未处理波次上已发放到仓库，且原材料日期早于工作区日期或与工作区日期相同的物料清单和配方行的数量。 应用到工作区筛选器的操作资源也必须使用该行。
 
-选择磁贴后，**所有生产波次** 页打开。 此页按包含来自满足该磁贴条件的已发放物料清单和配方行的波次行的开放波次的数量进行筛选。 在 **所有生产波次** 页上，您可以手动处理波次。
+选择磁贴后，**所有生产波次** 页面将打开。 此页按包含来自满足该磁贴条件的已发放物料清单和配方行的波次行的开放波次的数量进行筛选。
 
-## <a name="open-warehouse-work-needing-attention"></a>需要关注的开放仓库工作
+### <a name="manually-maintain-production-waves"></a>手动维护生产波次
+
+在 **所有生产波次** 页面上，您可以使用操作窗格的 **波次** 选项卡上的按钮以手动 **处理** 和 **发布** 波次。 您也可以使用 **维护生产** 选项查看和维护 **产品物料清单池** 数据，用于处理波次流程。
+
+## <a name="open-warehouse-work-needing-attention"></a>需要关注的未处理仓库工作
 
 **需要关注的开放仓库工作** 磁贴显示已发放到仓库、具有未处理工作以及原材料日期早于工作区日期或与工作区日期相同的物料清单和配方行的数量。 应用到工作区筛选器的操作资源也必须使用该行。
 

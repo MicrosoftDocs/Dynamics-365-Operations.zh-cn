@@ -2,11 +2,9 @@
 title: 将子公司数据导出到文件
 description: 本主题说明如何为从 Microsoft Dynamics 365 Finance 导出数据，然后将其导入到合并的法人作准备。
 author: jinniew
-manager: AnnBe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 33c17cc2c1dcaa57244bf0bfaa661b11b221e2f6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bae0a28c59f327e47378eef6392d5e304bbde9a8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205491"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826170"
 ---
 # <a name="export-subsidiary-data-to-files"></a>将子公司数据导出到文件
 

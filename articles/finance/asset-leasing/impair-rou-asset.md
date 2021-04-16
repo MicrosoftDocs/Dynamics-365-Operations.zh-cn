@@ -2,11 +2,9 @@
 title: 减损使用权资产
 description: 本主题描述用于记录减损和调整会计准则编纂专题 842 (ASC 842) 经营性租赁的资产折旧计划的功能。
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3b648075a681fb01720149aac4f479dccf963489
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5d30812e77473a5bd2f4134496b237be81cc6c2c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229518"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841157"
 ---
 # <a name="impair-right-of-use-assets"></a>减损使用权资产
 

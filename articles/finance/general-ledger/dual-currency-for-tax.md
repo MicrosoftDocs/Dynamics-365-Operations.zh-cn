@@ -2,11 +2,9 @@
 title: 纳税的双币种支持
 description: 此主题介绍如何扩展税域的双币种记帐功能和对税额计算与过帐的影响
 author: EricWang
-manager: Ann Beebe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3f7ca56fef636431e152b2db424f1f972a507721
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0a3245febe31857181d17bba42e12b65f4ebb40f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212197"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832962"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>销售税的双币种支持
 [!include [banner](../includes/banner.md)]

@@ -2,7 +2,6 @@
 title: 超过/低于交易记录
 description: 本主题提供的信息将帮助您设置超过/低于交易的策略详细信息，让系统可以确定在收货时如何管理货物的超过处理和低于处理。
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9027d5dc73ebd78a65429f7bc63a1ebf8ef60dac
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: c7e75e39877b36e482dd4aaa5cc7c8f84d57d81b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500974"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833729"
 ---
 # <a name="overunder-transactions"></a>超过/低于交易记录
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 处理航行中的订单时，系统预期最终目标仓库接收的用于使用的物料数量，与在与航行关联的采购订单行上指定的数量匹配。 但是，由于仓库中并非总是收到采购订单行上的确切数量，因此 **登陆成本** 模块定义了一组规则，用于处理货物的超收和收货不足。 这些规则特别重要，因为原始采购订单已经开票，无法再进行修改。 通过设置超过/低于交易策略的详细信息，您可以让系统确定收货时如何管理货物的超过处理和低于处理。 您还可以使用 **超过/低于交易** 页手动管理超过和不足的库存。
 

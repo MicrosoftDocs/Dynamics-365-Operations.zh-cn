@@ -2,11 +2,9 @@
 title: 成本组
 description: 在对制造物料的计算成本中的成本份额（例如针对材料、人工和开销的成本份额）进行细分和分析时，可将成本组作为基础。 成本组细分在制造环境中有若干同义词，例如成本细分、成本分解或成本分类。
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCostGroup
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd7f9b8e7a1b15dd94ee8ebe5b6c70b0d85495a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6ec09fe3611542c9f4c4c65628a15cc690a3b437
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250994"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839383"
 ---
 # <a name="cost-groups"></a>成本组
 

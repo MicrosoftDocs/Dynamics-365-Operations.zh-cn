@@ -2,11 +2,9 @@
 title: 检查货物质量
 description: 本主题说明如何处理质检订单。
 author: perlynne
-manager: tfehr
 ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQualityOrderTable, InventQualityOrderLineResults, HcmWorkerLookUp
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e37ac8c9320d427b9f9a3ca32b0e4667c7023339
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 47e7156e5c57d5f983564cc966b4108f1180ff8d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244415"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825907"
 ---
 # <a name="inspect-the-quality-of-goods"></a>检查货物质量
 

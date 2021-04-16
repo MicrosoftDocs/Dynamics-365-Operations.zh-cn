@@ -2,11 +2,9 @@
 title: 设置采购订单储存的位置指令
 description: 本主题说明如何设置简单库位指令。
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9e7b8c1f5c5dfb29f1bdf28529ef76e31d8e83f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f02ebbb22e11b116355be42325edd041b10c5cb4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233623"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831474"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>设置采购订单储存的位置指令
 
