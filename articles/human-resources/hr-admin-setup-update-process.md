@@ -2,11 +2,9 @@
 title: 更新流程
 description: Microsoft Dynamics 365 Human Resources 是一款真正的服务型软件 (SaaS)，可为应用程序和平台更改提供连续的非接触式服务更新。
 author: andreabichsel
-manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27561bfd9cb4f115cc507954c837ea93f9c93b72
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466824"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791525"
 ---
 # <a name="update-process"></a>更新流程
 
@@ -58,14 +56,14 @@ Human Resources 更新将自动应用于所有环境。 Human Resources 提供�
 
 在内部环境中对发布进行审查、测试和验证。 版本签核后，将被部署到生产中。
 
-## <a name="release-cadence-exceptions-in-2020"></a>2020 年的发布频率例外情况
+## <a name="release-cadence-exceptions-in-2021"></a>2021 年的发布频率例外情况
 
-因为考虑到了假期，所以 2020 年 11 月和 12 月的发布计划如下所示：
+因为考虑到了假期，所以 2021 年 11 月和 12 月的发布计划如下所示：
 
-- 11 月发布：11 月 2 日 - 11 月 13 日
-- 12 月发布：11 月 30 日 - 12 月 11 日
+- 11 月发布：11 月 1 日 - 11 月 14 日
+- 12 月发布：11 月 29 日 - 12 月 12 日
  
-将在 2021 年 1 月 11 日恢复两周制发布节奏。
+将在 2022 年 1 月 10 日恢复两周发布频率。
 
 ## <a name="communications"></a>通信
 

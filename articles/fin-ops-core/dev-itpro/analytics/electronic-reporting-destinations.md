@@ -2,7 +2,6 @@
 title: 电子报告 (ER) 目标
 description: 本主题提供有关电子报告目标管理、受支持的目标类型以及安全注意事项的信息。
 author: nselin
-manager: tfehr
 ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0fe0992412edf6f78be4ed293052e3501a7224ad
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 03dd6f81185e8944019eaadbb77690e4cd9ba9a1
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569711"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751308"
 ---
 # <a name="electronic-reporting-er-destinations"></a>电子报告 (ER) 目标
 

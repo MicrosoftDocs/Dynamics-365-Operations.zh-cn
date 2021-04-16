@@ -2,7 +2,6 @@
 title: 配置工作流中的手动任务
 description: 本主题说明如何配置手动任务的属性。
 author: ChrisGarty
-manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee759cbf51555a32045e74f40138a04f330d7eb2
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: b4be7f0ee5e487185033b7ccb9a2b0a91eb4a36c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559465"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747847"
 ---
 # <a name="configure-manual-tasks-in-a-workflow"></a>配置工作流中的手动任务
 

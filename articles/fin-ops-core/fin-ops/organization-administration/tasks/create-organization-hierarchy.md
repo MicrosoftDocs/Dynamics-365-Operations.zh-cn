@@ -2,7 +2,6 @@
 title: 创建组织层次结构。
 description: 使用以下过程创建组织层次结构。
 author: sericks007
-manager: AnnBe
 ms.date: 12/15/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d61d6eee3b55087d633a8416fbed3a6192e82b2
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 4d27bec86302f3e6cef8318a0d846f31d2d9c6a5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560571"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747385"
 ---
 # <a name="create-an-organization-hierarchy"></a>创建组织层次结构。
 

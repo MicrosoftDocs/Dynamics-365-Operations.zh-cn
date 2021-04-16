@@ -2,7 +2,6 @@
 title: 整理报表设计器中的报表组件
 description: 本主题说明如何组织现有报表、构建基块和报表设计器中的对象。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d348993422b24776098657dcef25a088ba2f826b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: cb3e09ad849b250ed3f1d7aec910b44d591cb88e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564535"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751624"
 ---
 # <a name="organize-report-components-in-report-designer"></a>整理报表设计器中的报表组件
 

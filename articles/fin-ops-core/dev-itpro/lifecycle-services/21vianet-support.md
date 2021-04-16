@@ -2,7 +2,6 @@
 title: 对 21Vianet 中国世纪互联运营的 Finance and Operations 的支持
 description: Finance and Operations 应用通过21Vianet提供大量自助服务支持选项和支持。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: China (PRC)
 ms.author: sericks
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7202b220d7df6adc21c3dbb02d90b00925882f3c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 6a366188c8c39fc61b2ed7f5ba47a2ce5feb4b7d
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565360"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745291"
 ---
 # <a name="support-for-finance-and-operations-operated-by-21vianet-in-china"></a>对 21Vianet 中国世纪互联运营的 Finance and Operations 的支持
 

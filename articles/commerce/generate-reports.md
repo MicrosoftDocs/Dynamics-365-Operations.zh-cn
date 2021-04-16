@@ -2,11 +2,9 @@
 title: 生成在线渠道报表
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中为在线渠道生成报表。
 author: psimolin
-manager: annbe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ec93bd8ef8dea6ca979dee1819a9c9abcc38a2e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f70f42f2650a439c7131f228588c11124d326aec
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251473"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792359"
 ---
 # <a name="generate-online-channel-reports"></a>生成在线渠道报表
-
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中为在线渠道生成报表。
-
-## <a name="overview"></a>概览
 
 可以在 Commerce 中生成和查看多个报表以了解在线渠道的表现。
 

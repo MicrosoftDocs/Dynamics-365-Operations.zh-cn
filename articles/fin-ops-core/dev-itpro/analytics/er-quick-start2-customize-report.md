@@ -2,7 +2,6 @@
 title: 调整 ER 格式以生成自定义电子单据
 description: 本主题说明如何调整 Microsoft 提供的电子申报 (ER) 格式，以便生成自定义电子单据。
 author: NickSelin
-manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c643c913d9bc9233c891709593dff995284e2e5
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 7355fbb3321a6b5707ab561e88aed2d22cc967cd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568989"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743645"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>调整 ER 格式以生成自定义电子单据
 

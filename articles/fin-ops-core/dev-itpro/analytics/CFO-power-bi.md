@@ -2,7 +2,6 @@
 title: CFO 概览 Power BI 内容
 description: 此主题介绍 CFO 概览 Microsoft Power BI 内容。
 author: kweekley
-manager: AnnBe
 ms.date: 10/02/2010
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7f97187f4afb228ad2028e0be7cf55b6154372f8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: c59e85cd8f2b5cedd65b47ef2ef0818c13ddc328
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568510"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754616"
 ---
 # <a name="cfo-overview-power-bi-content"></a>CFO 概览 Power BI 内容
 

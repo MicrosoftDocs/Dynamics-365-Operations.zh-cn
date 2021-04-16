@@ -2,7 +2,6 @@
 title: 存档 ER 目标类型
 description: 本主题提供有关如何为电子报告 (ER) 格式的每个文件夹或文件组件配置存档目标的信息。
 author: NickSelin
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 72b896ca692a54200ff79b14d0b5dc6ab4b0fe27
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 18c662fee0cedaa55f63ffeb25b0d61ee7baffda
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562038"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753520"
 ---
 # <a name="archive-er-destination-type"></a>存档 ER 目标类型
 

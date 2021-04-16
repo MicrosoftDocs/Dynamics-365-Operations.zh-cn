@@ -2,7 +2,6 @@
 title: 配置依赖操作的 ER 目标
 description: 本主题介绍如何为配置为生成出站文档的电子报告 (ER) 格式配置依赖操作的目标。
 author: NickSelin
-manager: AnnBe
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 80624e286fd1300b8de6fd8a7fc67c246cb3a41b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ac0efbbe645969cdf0419bf533d34e38b76fb67a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569627"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751224"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>配置依赖操作的 ER 目标
 

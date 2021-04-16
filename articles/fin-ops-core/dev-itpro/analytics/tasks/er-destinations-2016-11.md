@@ -2,7 +2,6 @@
 title: ER 配置目标
 description: 此过程演示如何设置和使用不同的电子申报 (ER) 输出组件的目标，例如文件夹或文件。
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7da1f26c4c01b8b71f14b8c5dfd79082baf92157
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 78dbcb73b47223ba1fe2ea35ef7c7af09a98d5c2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567754"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754954"
 ---
 # <a name="er-configure-destinations"></a>ER 配置目标
 

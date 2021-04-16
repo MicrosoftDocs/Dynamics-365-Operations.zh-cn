@@ -1,8 +1,7 @@
 ---
 title: 通过电子邮件发送的客户端预警通知
 description: 此主题提供有关如何设置在预定义事件发生时发送电子邮件通知的规则的信息。
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
@@ -11,15 +10,15 @@ ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: fe422d645c8f2c0c564af30624090828e10ea4bf
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d132ed979a84c2906298c05708cef1ee87f47078
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567244"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752906"
 ---
 # <a name="client-alert-notifications-by-email"></a>通过电子邮件发送的客户端预警通知
 

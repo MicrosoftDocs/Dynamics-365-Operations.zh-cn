@@ -2,7 +2,6 @@
 title: 财务报表设计器中的用户首选项
 description: 本主题介绍如何设置用户首选项来自定义财务报表设计器中的用户交互和控制初始登录体验。
 author: aprilolson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc8308ab8f856adf5045af5f005c95bffb8ad864
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 712e7e50e53beaf14d54e3c627f8ae8bf7d51374
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561116"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744835"
 ---
 # <a name="user-preferences-in-financial-report-designer"></a>财务报表设计器中的用户首选项
 

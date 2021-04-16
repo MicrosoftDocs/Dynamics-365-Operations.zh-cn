@@ -2,7 +2,6 @@
 title: 检查配置的 ER 组件以防止运行时问题
 description: 本主题说明如何检查配置的电子申报 (ER) 组件，以防止可能发生的运行时问题。
 author: NickSelin
-manager: AnnBe
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86db6dc27a8a76e90494e3dc7a7cc9c828f9ec37
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574117"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753832"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>检查配置的 ER 组件以防止运行时问题
 
@@ -666,19 +665,19 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 
 ![在“格式设计器”页面运行格式映射期间发生的运行时错误](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution"></a>自动解决
+### <a name="automatic-resolution&quot;></a>自动解决
 
 没有用于自动修复此问题的选项。
 
-### <a name="manual-resolution"></a>手动解决
+### <a name=&quot;manual-resolution&quot;></a>手动解决
 
-#### <a name="option-1"></a>选项 1
+#### <a name=&quot;option-1&quot;></a>选项 1
 
 删除 **Vendor** 数据源中的 **Cache** 标志。 然后，**FilteredVendor** 数据源将变为可执行，但是每次调用 **FilteredVendor** 数据源时，都将访问 VendTable 表中引用的 **Vendor** 数据源。
 
-#### <a name="option-2"></a>选项 2
+#### <a name=&quot;option-2&quot;></a>选项 2
 
-将 **FilteredVendor** 数据源的表达式从 `FILTER(Vendor, Vendor.AccountNum="US-101")` 更改为 `WHERE(Vendor, Vendor.AccountNum="US-101")`。 在此情况下，仅在首次调用 **Vendor** 数据源时，才能访问 VendTable 表中引用的 **Vendor** 数据源。 但是，将在内存中选择记录。 因此，这种方法可能会导致性能低下。
+将 **FilteredVendor** 数据源的表达式从 `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` 更改为 `WHERE(Vendor, Vendor.AccountNum="US-101")`。 在此情况下，仅在首次调用 **Vendor** 数据源时，才能访问 VendTable 表中引用的 **Vendor** 数据源。 但是，将在内存中选择记录。 因此，这种方法可能会导致性能低下。
 
 ## <a name="missing-binding"></a><a id="i11"></a>缺少绑定
 

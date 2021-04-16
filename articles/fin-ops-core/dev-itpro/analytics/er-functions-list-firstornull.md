@@ -2,7 +2,6 @@
 title: FIRSTORNULL ER 函数
 description: 本主题说明 FIRSTORNULL 电子申报 (ER) 函数如何使用
 author: NickSelin
-manager: kfend
 ms.date: 11/29/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53284333507ef1264d3eb66b0c7141eb69f32392
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 1ccc094fc468470ffc857c729b6d8402796785d7
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564617"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753208"
 ---
 # <a name="firstornull-er-function"></a>FIRSTORNULL ER 函数
 

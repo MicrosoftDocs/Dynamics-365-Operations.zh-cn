@@ -2,7 +2,6 @@
 title: 保存的视图
 description: 此主题介绍如何使用保存的视图功能。
 author: jasongre
-manager: AnnBe
 ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
@@ -14,17 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: eaf3c530553d2908f14829a31537927c3306400a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 25b59400cdd62f8728f03683d51c86c671edd9de
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566390"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744607"
 ---
 # <a name="saved-views"></a>保存的视图
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
+
 
 ## <a name="introduction"></a>简介
 

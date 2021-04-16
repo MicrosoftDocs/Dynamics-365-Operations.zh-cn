@@ -2,7 +2,6 @@
 title: 制订和开放工作申请
 description: “招聘项目”帮助您管理招聘流程。
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d23f180c1afcfa6d24c0b44f69fba9b40c114e1b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ca271450bfa534105caabbd45be98d929a3986b8
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564643"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752022"
 ---
 # <a name="develop-and-open-job-requisition"></a>制订和开放工作申请
 

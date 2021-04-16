@@ -2,11 +2,9 @@
 title: 查看试验的状态
 description: 本主题说明了试验在 Dynamics 365 Commerce 的试验生命周期中有哪些状态。
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ae459ddaf947db6c3de2602a706390edab49efa1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f7bdd292893ee42d49bdf977a55d8b10896ca1cd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250850"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792431"
 ---
 # <a name="review-the-status-of-an-experiment"></a>查看试验的状态
 在 Dynamics 365 Commerce 中设置和运行试验涉及许多步骤。 有关试验生命周期的信息，请参阅 [Dynamics 365 Commerce 中的试验](experimentation-overview.md)。

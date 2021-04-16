@@ -2,8 +2,7 @@
 title: ER 创建从外部文件导入数据所需配置
 description: 本主题介绍如何设计电子报告配置，以将数据从外部文件导入到 Microsoft Dynamics 365 Finance 应用。
 author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b8a94173c7c5367b79bfcb354f0397515d94445
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2194bdc918035bf3aebe9b90ddc8a30f9937bb0c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564282"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751454"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER 创建从外部文件导入数据所需配置
 
 [!include [banner](../../includes/banner.md)]
 
-以下步骤说明属于系统管理员或电子报表开发人员的用户如何设计电子报表 (ER) 配置，以便将数据从外部文件导入应用程序中。 在此示例中，将为示例公司 Litware 公司创建所需 ER 配置。若要完成这些步骤，您必须首先完成任务指南“ER 创建一个配置提供程序，并标记其为当前运行的”中的步骤。 可使用 USMF 数据集完成这些步骤。 还必须使用“电子申报概述”主题中的链接下载以下文件并保存到本地 (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml、1099format.xml、1099entries.xml、1099entries.xlsx。
+以下步骤说明属于系统管理员或电子报表开发人员的用户如何设计电子报表 (ER) 配置，以便将数据从外部文件导入应用程序中。 在此示例中，将为示例公司 Litware 公司创建所需 ER 配置。若要完成这些步骤，您必须首先完成任务指南“ER 创建一个配置提供程序，并标记其为当前运行的”中的步骤。 可使用 USMF 数据集完成这些步骤。 还必须下载并在本地保存以下文件： 
+
+| 内容描述                       | 文件名                                     |
+|-------------------------------------------|-----------------------------------------------|
+| ER 数据模型配置 - 1099 | [1099model,xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)                  |
+| ER 格式配置 - 1099    | [1099format.xml](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)                  |
+| XML 格式的传入文档示例                          | [1099entries.xml](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)        |
+| 管理传入文档数据的工作簿的示例                          | [1099entries.xlsx](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx) |
 
 ER 让用户可以配置将外部数据文件以 .XML 或 .TXT 格式导入表的过程。 首先，必须设计抽象数据模型和 ER 数据模型配置来表示要导入的数据。 接下来，需要定义要导入的文件的结构和将用于把数据从文件移植到抽象数据模型的方法。 必须为该抽象数据模型创建映射到设计的数据模型的 ER 格式配置。 然后，必须使用映射扩展数据模型，该映射介绍导入的数据如何作为抽象数据模型长期存在和如何用于更新表。  必须为 ER 数据模型配置追加一个新模型映射，该映射介绍如何将数据模型绑定到应用程序的目标。  
 

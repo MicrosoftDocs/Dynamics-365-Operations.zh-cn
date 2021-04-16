@@ -2,11 +2,9 @@
 title: Retail 中的工时和出勤管理
 description: 此主题介绍 Dynamics 365 Commerce 中工时和出勤管理支持的方案。
 author: aamirallaqaband
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: JMGParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 28f4f72cd1272bd4562a58e343e50157143fac2c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9bec213cd4954f69605387ae2801d8af98a8111c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254905"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791887"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Retail 中的工时和出勤管理
 

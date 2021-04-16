@@ -2,7 +2,6 @@
 title: 用户界面元素
 description: 此主题介绍应用程序中的用户界面 (UI) 元素。
 author: tlefor
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: aa858c800e3432b0cb9c4b3c4eea57bbbed0f624
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: feb6d5751bc22c05dbd2f01f47d5a0f99fca07a0
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566238"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754720"
 ---
 # <a name="user-interface-elements"></a>用户界面元素
 

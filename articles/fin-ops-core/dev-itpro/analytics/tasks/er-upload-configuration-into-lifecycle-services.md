@@ -2,7 +2,6 @@
 title: 上载配置到 Lifecycle Services
 description: 本主题说明如何创建新的电子报告 (ER) 配置并将其上载到 Microsoft Dynamics Lifecycle Services (LCS)。
 author: NickSelin
-manager: AnnBe
 ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f17763236594092d04dfe2d2f9912e764b4f8d4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0211fea7af303fe1dd7dce26f887bed4ed3b0f1e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562629"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744907"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>上载配置到 Lifecycle Services
 

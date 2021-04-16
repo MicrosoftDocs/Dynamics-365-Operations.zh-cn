@@ -2,11 +2,9 @@
 title: 使用发布组
 description: 本主题介绍 Microsoft Dynamics 365 Commerce 中的发布组功能。
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b623573f598f6b21291cafe95fa04e6777cffe11
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15ac04721e440dcd7c0f8984c14e86aa0f68963e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244831"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792307"
 ---
 # <a name="work-with-publish-groups"></a>使用发布组
-
 
 [!include [banner](includes/banner.md)]
 
 本主题介绍 Microsoft Dynamics 365 Commerce 中的发布组功能。
-
-## <a name="overview"></a>概览
 
 电子商务网站全年会不断更新新内容。 更新通常是围绕繁忙的电子商务活动（如假期、季节性市场营销活动或促销启动）成批发布。 这些更新通常要求在单个操作中同时筹划、验证和发布网站内容组（例如，页面、图像、片段和模板）。
 
