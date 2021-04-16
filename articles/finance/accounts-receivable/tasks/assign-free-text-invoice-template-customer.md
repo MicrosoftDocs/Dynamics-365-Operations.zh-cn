@@ -2,11 +2,9 @@
 title: 向客户分配普通账单模板
 description: 此任务展示的是如何将普通发票模板分配到客户。
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1f87c731a603dbb3def0ebc2d2ebe54f9706053
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0219521867d1cfb1fa4edcdf20dd70eea8a3d0e1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254099"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819882"
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a>向客户分配普通账单模板
 

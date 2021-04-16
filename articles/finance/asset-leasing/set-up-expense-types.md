@@ -2,11 +2,9 @@
 title: 设置费用类型
 description: 本主题介绍如何在资产租赁中设置费用类型。
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1538826f140393eec59be9ff4df5242d5ced9d8f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b50f406c7411ff8ed990a312fde9c2fc0ba3c3db
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249740"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819690"
 ---
 # <a name="set-up-expense-types"></a>设置费用类型
 

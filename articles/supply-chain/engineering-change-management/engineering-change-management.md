@@ -2,11 +2,9 @@
 title: 管理工程产品的更改
 description: 本主题提供有关工程更改管理的信息。 工程更改管理提供用于管理工程产品的更改的结构化流程，从提出、请求和作出更改到审查和批准更改、评估其对现有交易的影响和跟进它们。
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcmRequestSelection,EngChgEcmRequestProducts,EngChgEcmRequestPriorityChart,EngChgEcmRequestListPage,EngChgEcmRequestFilteredPart,EngChgEcmRequestDetails,EngChgEcmReason,EngChgEcmProjTableInformation,EngChgEcmProductRoute,EngChgEcmProductRelease,EngChgEcmProductPreview, EngChgEcmWhereUsed, EngChgEcmInventTrans,EngChgEcmHeaderSelection,EngChgEcmHeaderPreviewPart,EngChgEcmHeaderFilteredPart,EngChgEcmHeaderDetails, EngChgCaseWhereUsedAnalysis, EngChgCaseValidatorMessage
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 24892195a9f1c39e891e2dcb95482f019ba05365
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fb71d941a5cd58701f723e56a07c6b6cca6689bb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262325"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830020"
 ---
 # <a name="manage-changes-to-engineering-products"></a>管理工程产品的更改
 

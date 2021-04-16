@@ -2,11 +2,9 @@
 title: 设置应付帐款发票匹配验证
 description: 本主题介绍如何设置应付帐款发票匹配验证。
 author: abruer
-manager: AnnBe
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b8913e0b6919c26c0d81b1513bad9624690ed3ad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15fbb5481e3ff8760f536f1d5eeff76370216b37
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214564"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827738"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>设置应付帐款发票匹配验证
 

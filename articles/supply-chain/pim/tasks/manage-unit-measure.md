@@ -2,11 +2,9 @@
 title: 管理度量单位
 description: 此过程显示如何定义度量单位，提供单位换算及其描述，以及定义相关单位的转换规则。
 author: sorenva
-manager: tfehr
 ms.date: 07/08/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, UnitOfMeasure, UnitOfMeasureReportingTranslation, UnitOfMeasureTranslation, UnitOfMeasureConversion, UnitOfMeasureConversionEditOrCreate, UnitOfMeasureLookup, UnitOfMeasureCalculator, UnitOfMeasureWizard, UnitOfMeasureLookupTest
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea89c00bc201f721617fe4f904b660da29e97fc2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 966e189e7395bec15d2c62735c6df3df2ab34b8a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260567"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817957"
 ---
 # <a name="manage-unit-of-measure"></a>管理度量单位
 

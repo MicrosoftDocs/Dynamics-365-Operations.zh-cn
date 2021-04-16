@@ -2,11 +2,9 @@
 title: 设置固定资产折旧费用分配
 description: 在日本， 固定资产折旧费用可以被多个部门分摊。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetAllocationRuleSetup_CN,  AssetPosting
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: China (PRC), Japan
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 84af8718a57bd7cdf380184e2a0590c4d81872f6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c80b9d25092e7329f2e37b66fd7b9c8a44cf0509
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227881"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821763"
 ---
 # <a name="setup-fixed-asset-depreciation-allocation"></a>设置固定资产折旧费用分配
 

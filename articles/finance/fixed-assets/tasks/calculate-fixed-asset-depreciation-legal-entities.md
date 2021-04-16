@@ -2,11 +2,9 @@
 title: 计算各个法人的固定资产折旧
 description: 固定资产折旧可以一步跨多个法人运行。
 author: saraschi2
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetParameters, AssetProposalDepreciation, DefaultDashboard, LedgerJournalTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8d228c387e8a6bf956f729a69e2296130db32dbd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 85a1e71967fb126be29a76a8a29ea5e4ae2b2199
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210039"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818456"
 ---
 # <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a>计算各个法人的固定资产折旧
 

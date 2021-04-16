@@ -2,11 +2,9 @@
 title: 在资产租赁中过帐转换调整日记帐条目
 description: 本主题介绍使您可以将租赁组合转换到会计准则编纂专题 842 (ASC 842) 和国际财务报告准则 16 (IFRS 16) 这两种新的租赁会计标准的功能。
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7ed62f52753a6697a7547ada0317041669cf3506
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ea61a0d6e30695a2ef6b93529fcf3d21882c9cd2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207197"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819762"
 ---
 # <a name="post-transition-adjustment-journal-entries-in-asset-leasing"></a>在资产租赁中过帐转换调整日记帐条目
 

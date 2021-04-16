@@ -2,11 +2,9 @@
 title: 配置成本对象控制器的访问权限
 description: 此过程用于配置成本对象总监的访问权限。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b62e5765964a13357e0e7b663be1c7fd2cc19037
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eef755dd9a44ce24d3bfb2953cf9a52e6a8ac849
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208791"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822871"
 ---
 # <a name="configure-access-rights-for-a-cost-object-controller"></a>配置成本对象控制器的访问权限
 

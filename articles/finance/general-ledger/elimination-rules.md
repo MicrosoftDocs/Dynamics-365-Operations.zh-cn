@@ -2,11 +2,9 @@
 title: 清除规则
 description: 本主题提供有关清除规则和有关清除的不同报告选项的信息。
 author: aprilolson
-manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8228933f9a1357bf694b8b5bafa7d136ab02627
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0427c05f0c960bd898de3ac308d743f7ccec08f3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236738"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823756"
 ---
 # <a name="elimination-rules"></a>清除规则
 

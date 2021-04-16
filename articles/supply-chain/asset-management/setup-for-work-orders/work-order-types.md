@@ -1,12 +1,10 @@
 ---
 title: 工作订单类型
 description: 本主题介绍资产管理中的工作订单类型。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderType
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 561ca87740d90590262716f0042fca6b59dafc69
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6bdc9d226d8e1aa6960cac38b95b0245e46ee1ab
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223522"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825582"
 ---
 # <a name="work-order-types"></a>工作订单类型
 

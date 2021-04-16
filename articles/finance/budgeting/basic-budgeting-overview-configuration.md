@@ -2,11 +2,9 @@
 title: 预算概览
 description: 几乎每家使用 Microsoft Dynamics 365 Finance 中的财务功能的公司都必须可以创建预算与实际的报表。 本文说明要在 Finance and Operations 中创建预算或从第三方程序加载预算所需的最低配置。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d0c3f44924e9c49ac93eda728fa7e6197f4a45d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 70428d6603939d8a36c0d3452e6ffdc6e3864865
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249477"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827450"
 ---
 # <a name="budgeting-overview"></a>预算编制概览
 

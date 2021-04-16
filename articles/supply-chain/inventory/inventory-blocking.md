@@ -2,11 +2,9 @@
 title: 库存锁定
 description: 本主题提供库存锁定的概览，这是 Supply Chain Management 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
 author: perlynne
-manager: tfehr
 ms.date: 03/02/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1d4b006f37904c0ae20691aaa98c75f1d5833b7
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: d07313050b59a32756fa5e31037f1831a2cbe862
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487889"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829876"
 ---
 # <a name="inventory-blocking"></a>库存锁定
 

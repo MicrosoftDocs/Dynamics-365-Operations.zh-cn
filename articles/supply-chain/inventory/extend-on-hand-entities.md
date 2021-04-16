@@ -2,11 +2,9 @@
 title: 扩展现有库存量数据实体
 description: 本主题提供了一个示例，演示如何向 INVENTORSITEONHANDENTITY 和 INVENTWAREHOUSEONHANDENTITY 视图添加扩展字段，以使现有库存量数据实体的功能可以使用扩展。
 author: sherry-zheng
-manager: tfehr
 ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0f48e424a9ab3349d3c114ecbd01424005b9a9c6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7863f37e66727e2e80ea8c8b013ee49930e7c684
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219333"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829900"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>扩展现有库存量数据实体
 

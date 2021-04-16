@@ -2,11 +2,9 @@
 title: 使用发票池将发票数据键入 AP 系统
 description: 此主题介绍如何使用发票登记簿创建发票。
 author: abruer
-manager: AnnBe
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670dd2ec15aa26791758ec4bea2b431482499436
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b9c54f610e45d288ed58fd209d290d73bfe1ff2f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227152"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820657"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>使用发票池将发票数据键入 AP 系统
 

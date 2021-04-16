@@ -1,12 +1,10 @@
 ---
 title: 维护阶段
 description: 本主题介绍资产管理中的维护阶段。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRoundTable
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: af0461588971342b62104fce9b5bfa25e329d7c9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 62f812c7c7fa06deb5f41508044b029e6c5ca4a0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252982"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825726"
 ---
 # <a name="maintenance-rounds"></a>维护阶段
 

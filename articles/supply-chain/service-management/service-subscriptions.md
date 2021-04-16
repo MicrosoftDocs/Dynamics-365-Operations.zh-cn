@@ -2,11 +2,9 @@
 title: 服务预订
 description: 预订是基于时间和材料项目的。 您可以从“服务订阅”页面中，或通过使用服务预订组，创建项目的预定。
 author: ShylaThompson
-manager: tfehr
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6dca0fb78039425baa3baeb1906fb8afdbac72f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 17b770bda7306e5296d5375a5d0c7e278865b538
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254183"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824430"
 ---
 # <a name="service-subscriptions"></a>服务预订
 

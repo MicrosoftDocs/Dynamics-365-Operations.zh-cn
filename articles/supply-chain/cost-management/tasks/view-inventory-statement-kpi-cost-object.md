@@ -2,11 +2,9 @@
 title: 按成本对象查看库存报表和 KPI
 description: 创建此程序的演示数据公司是 USMF。
 author: AndersGirke
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, EcoResProductDetailsExtended, InventCostOnhandItem, CostStatement, CostInventoryFlowChart, CostInventoryTurnCard, CostInventoryAccuracyCard
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e2169cc13842328973cabf01c49c60a0f369c16c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5a490f95ad41c3fcb3dd7912ddfcefca313f2058
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239390"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830164"
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a>按成本对象查看库存报表和 KPI
 

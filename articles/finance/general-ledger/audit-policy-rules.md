@@ -2,11 +2,9 @@
 title: 审计策略规则
 description: 您可以使用审核策略对支出报告、供应商发票和采购订单做出评估，从而确保它们都符合您所创建的策略规则。 根据您指定的作业安排，所有与审计策略相关的规则都是以批模式运行的。  每个策略过帐都是某个策略规则类型的实例。 对于每个策略规则类型，一次仅有一个策略规则可以有效。
 author: panolte
-manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b3a0ffe81f4b56bdd388dc1ce2c00a99e0278cdf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f1297f405e57c2de4f42f05f78ef52b2d763f0f8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262830"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821977"
 ---
 # <a name="audit-policy-rules"></a>审计策略规则
 

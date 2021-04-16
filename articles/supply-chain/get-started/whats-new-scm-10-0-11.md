@@ -2,11 +2,9 @@
 title: Dynamics 365 Supply Chain Management 10.0.11（2020 年 6 月）新增功能或更改
 description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.11 中的新增功能或更改的功能。
 author: kamaybac
-manager: tfehr
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 16195e8dd99161cd812dea7dd6f3024b10b94713
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fa6a57266838fff4c34384337200fc6f24cbe640
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258987"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821169"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Dynamics 365 Supply Chain Management 10.0.11 的新增功能或更改（2020 年 7 月）
 
@@ -39,7 +37,7 @@ ms.locfileid: "5258987"
 
 - [现有库存报表存储](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
 
-- [仓库应用的牌照接收增强](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - 有关详细信息，请参阅[通过仓库应用进行的牌照接收](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)。
+- [仓库应用的牌照接收增强](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - 有关详细信息，请参阅[通过仓库管理移动应用的牌照接收](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)。
 
 - [批号预留窗体的行预留增强](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - 有关详细信息，请参阅[为销售订单预留相同批次](../sales-marketing/reserve-same-batch-sales-order.md)。
 

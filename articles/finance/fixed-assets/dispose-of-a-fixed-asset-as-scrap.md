@@ -2,11 +2,9 @@
 title: 将固定资产作为废料处置
 description: 本主题介绍清除作为废料处置的固定资产交易记录的过程。
 author: moaamer
-manager: Ann Beebe
 ms.date: 08/14/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 20f5fe0f8f2654df5027c363ebf5922f8344d928
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 413847d350ca6b2bdd6153a598ea5b3f34a33818
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241114"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826267"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>将固定资产作为废料处置
 

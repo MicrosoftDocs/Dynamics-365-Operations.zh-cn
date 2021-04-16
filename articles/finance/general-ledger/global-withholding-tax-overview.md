@@ -2,11 +2,9 @@
 title: 全球预缴税金
 description: 本主题提供有关全球预缴税金功能及其设置方法的信息。 全球预缴税金功能针对供应商和客户交易进行了增强，让预缴税金在物料级别计算。
 author: roschlom
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 25fc503d6145872b8e9f28b8d9a4d7b9c1ba53a4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9a73d34fb4fbf007cbb5a996cfa6e9719532869c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249159"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826658"
 ---
 # <a name="global-withholding-tax"></a>全球预缴税金
 

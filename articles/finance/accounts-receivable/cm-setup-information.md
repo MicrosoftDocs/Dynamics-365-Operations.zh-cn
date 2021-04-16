@@ -2,11 +2,9 @@
 title: 信用管理设置
 description: 本主题描述了信用管理所需的设置。
 author: mikefalkner
-manager: AnnBe
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5cd6d2f23a68ad3d7308d40a2638866dde7a7a81
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 640d81920dad391a77b58942972660b01f11b003
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224757"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830632"
 ---
 # <a name="credit-management-setup"></a>信用管理设置 
 

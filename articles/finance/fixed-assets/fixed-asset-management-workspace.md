@@ -2,11 +2,9 @@
 title: 固定资产管理工作区
 description: 此主题提供有关固定资产管理工作区的信息。 此工作区显示与在系统中输入的固定资产有关的信息。 它包含一个汇总视图和一个分析视图。
 author: saraschi2
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1b2a42889d0e6acfc23e4fd450405ef31ca810fd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 66c8d40aae65d48bea2f975432e6ec8ad741c76f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240929"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826802"
 ---
 # <a name="fixed-asset-management-workspace"></a>固定资产管理工作区
 

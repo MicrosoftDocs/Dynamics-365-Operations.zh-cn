@@ -2,11 +2,9 @@
 title: 过帐普通日记帐的凭证
 description: 此过程逐步演示如何使用普通日记帐过帐中国式凭证。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransDimension, DimensionLookup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a9f35579dc41dc033f7d4c5d135d684ffce7fe7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7254d5b7fbcb7bb3d29148325e074453b134d6a1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251092"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820491"
 ---
 # <a name="post-vouchers-from-the-general-journal"></a>过帐普通日记帐的凭证
 

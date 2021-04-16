@@ -2,11 +2,9 @@
 title: 跟踪物料或原材料
 description: 该过程演示如何使用物料跟踪确定使用或正在使用物料或原材料的位置。
 author: pjacobse
-manager: tfehr
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria, InventTrackingItemIdLookup, InventBatchIdLookup, CustTable, SalesLine
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8971774a0a4a41d9a0a5f05e0c3071a543a4801a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7a3b2ab752089b2c60c5c5e02cb2c558c17dcf8b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244271"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829804"
 ---
 # <a name="trace-an-item-or-raw-material"></a>跟踪物料或原材料
 

@@ -2,11 +2,9 @@
 title: 使用外币记录租赁
 description: 本主题说明如何使用非记帐币种或申报币种记录租赁。
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fd4d04ae7e89b8ce41ed745c643b8e736484789d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7f1f9153d627eba4c3c79a764cffec6a2f008818
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241482"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819738"
 ---
 # <a name="record-leases-in-foreign-currencies"></a>使用外币记录租赁
 

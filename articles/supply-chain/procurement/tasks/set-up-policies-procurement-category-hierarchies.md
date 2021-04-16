@@ -1,26 +1,24 @@
 ---
 title: 设置采购类别层次结构的策略
 description: 使用此过程设置类别中订购产品的规则。
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 415262fa5e68544ea2a4ae2b6818b83c7efb2fad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 08669ceeca46ca415d9b0d19ddef3bc9b1100120
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243983"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821049"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>设置采购类别层次结构的策略
 

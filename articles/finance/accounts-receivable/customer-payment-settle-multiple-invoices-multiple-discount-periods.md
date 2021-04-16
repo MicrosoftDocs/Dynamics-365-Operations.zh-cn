@@ -2,11 +2,9 @@
 title: 使用一次付款结算跨多个折扣期间的发票
 description: 本主题显示当每个发票有资格使用现金折扣时如何支付多个发票。 本文所述情况重点介绍现金折扣执行方式如何因付款时间不同而有所不同。
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16e255c471ed2f551a6cf62e9750ac0eee57a5b3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e68ef15fed1841bcbf006929f3c6441d62798fc8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236954"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819906"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>使用一次付款结算跨多个折扣期间的发票
 
