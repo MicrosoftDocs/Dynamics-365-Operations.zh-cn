@@ -2,11 +2,9 @@
 title: 处理生命事件
 description: 在 Microsoft Dynamics 365 Human Resources 中的员工生命周期中，每个员工可能会遇到各种生命事件的变化。
 author: andreabichsel
-manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
@@ -18,47 +16,47 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cfb0fc54e3904655cea0c795a46c540bd2a529a2
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 461f90c3da8fa5b2db14b6dd67a0c19f7eabe867
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466246"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793793"
 ---
-# <a name="process-life-events"></a><span data-ttu-id="3bee8-103">处理生命事件</span><span class="sxs-lookup"><span data-stu-id="3bee8-103">Process life events</span></span>
+# <a name="process-life-events"></a><span data-ttu-id="a4b88-103">处理生命事件</span><span class="sxs-lookup"><span data-stu-id="a4b88-103">Process life events</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="3bee8-104">在 Microsoft Dynamics 365 Human Resources 中的员工生命周期中，每个员工可能会遇到各种生命事件的变化。</span><span class="sxs-lookup"><span data-stu-id="3bee8-104">During the employee lifecycle in Microsoft Dynamics 365 Human Resources, each employee may encounter various life event changes.</span></span> <span data-ttu-id="3bee8-105">例如，婚姻、就业变化或依赖方/受益人变化。</span><span class="sxs-lookup"><span data-stu-id="3bee8-105">For example, marriage, change in employment, or dependent/beneficiary change.</span></span> <span data-ttu-id="3bee8-106">要使用生命事件，必须在福利参数窗体中启用生命事件，设置生命事件类型，并为计划类型设置生命事件选项。</span><span class="sxs-lookup"><span data-stu-id="3bee8-106">To use life events, you must enable life events in the benefits parameters form, set up life event types, and set up life event options for plan types.</span></span>
+<span data-ttu-id="a4b88-104">在 Microsoft Dynamics 365 Human Resources 中的员工生命周期中，每个员工可能会遇到各种生命事件的变化。</span><span class="sxs-lookup"><span data-stu-id="a4b88-104">During the employee lifecycle in Microsoft Dynamics 365 Human Resources, each employee may encounter various life event changes.</span></span> <span data-ttu-id="a4b88-105">例如，婚姻、就业变化或依赖方/受益人变化。</span><span class="sxs-lookup"><span data-stu-id="a4b88-105">For example, marriage, change in employment, or dependent/beneficiary change.</span></span> <span data-ttu-id="a4b88-106">要使用生命事件，必须在福利参数窗体中启用生命事件，设置生命事件类型，并为计划类型设置生命事件选项。</span><span class="sxs-lookup"><span data-stu-id="a4b88-106">To use life events, you must enable life events in the benefits parameters form, set up life event types, and set up life event options for plan types.</span></span>
 
-<span data-ttu-id="3bee8-107">您必须在招聘时间范围内至少已经运行了一次开放登记，之后才能够处理生命事件。</span><span class="sxs-lookup"><span data-stu-id="3bee8-107">Before you can process life events, you must have already run open enrollment at least once during a hiring time frame.</span></span> <span data-ttu-id="3bee8-108">在美国，开放登记通常每年一次。</span><span class="sxs-lookup"><span data-stu-id="3bee8-108">In the United States, open enrollment is typically once per year.</span></span> <span data-ttu-id="3bee8-109">在美国以外地区，开放登记可以在雇用时进行。</span><span class="sxs-lookup"><span data-stu-id="3bee8-109">Outside the United States, open enrollment may be run at the time of hire.</span></span> <span data-ttu-id="3bee8-110">工作人员无需选择福利计划即可让生命事件被处理，但需要将其包括在开放登记处理中。</span><span class="sxs-lookup"><span data-stu-id="3bee8-110">A worker does not need to select a benefit plan in order for life events to be processed, but they need to have been included in open enrollment processing.</span></span> 
+<span data-ttu-id="a4b88-107">您必须在招聘时间范围内至少已经运行了一次开放登记，之后才能够处理生命事件。</span><span class="sxs-lookup"><span data-stu-id="a4b88-107">Before you can process life events, you must have already run open enrollment at least once during a hiring time frame.</span></span> <span data-ttu-id="a4b88-108">在美国，开放登记通常每年一次。</span><span class="sxs-lookup"><span data-stu-id="a4b88-108">In the United States, open enrollment is typically once per year.</span></span> <span data-ttu-id="a4b88-109">在美国以外地区，开放登记可以在雇用时进行。</span><span class="sxs-lookup"><span data-stu-id="a4b88-109">Outside the United States, open enrollment may be run at the time of hire.</span></span> <span data-ttu-id="a4b88-110">工作人员无需选择福利计划即可让生命事件被处理，但需要将其包括在开放登记处理中。</span><span class="sxs-lookup"><span data-stu-id="a4b88-110">A worker does not need to select a benefit plan in order for life events to be processed, but they need to have been included in open enrollment processing.</span></span> 
 
-<span data-ttu-id="3bee8-111">当您的工作人员有将在未来发生的生命事件时，请使用生命事件处理。</span><span class="sxs-lookup"><span data-stu-id="3bee8-111">Use life event processing when you have workers who have life events that take place on a future date.</span></span> <span data-ttu-id="3bee8-112">此事件将处理所有尚未处理的生命事件（例如，未来的生命事件或已添加的并非针对任何一个工作人员的生命事件 – 一个例子是一项新的福利）。</span><span class="sxs-lookup"><span data-stu-id="3bee8-112">This event will process all life events that have not been processed (like future life events, or life events that have been added that are not specific to any one worker – one example is a new benefit).</span></span> <span data-ttu-id="3bee8-113">实时生命事件是隐藏的。</span><span class="sxs-lookup"><span data-stu-id="3bee8-113">Real-time life events are hidden.</span></span>
+<span data-ttu-id="a4b88-111">当您的工作人员有将在未来发生的生命事件时，请使用生命事件处理。</span><span class="sxs-lookup"><span data-stu-id="a4b88-111">Use life event processing when you have workers who have life events that take place on a future date.</span></span> <span data-ttu-id="a4b88-112">此事件将处理所有尚未处理的生命事件（例如，未来的生命事件或已添加的并非针对任何一个工作人员的生命事件 – 一个例子是一项新的福利）。</span><span class="sxs-lookup"><span data-stu-id="a4b88-112">This event will process all life events that have not been processed (like future life events, or life events that have been added that are not specific to any one worker – one example is a new benefit).</span></span> <span data-ttu-id="a4b88-113">实时生命事件是隐藏的。</span><span class="sxs-lookup"><span data-stu-id="a4b88-113">Real-time life events are hidden.</span></span>
 
-<span data-ttu-id="3bee8-114">例如，如果今天是 2 月 1 日，而工作人员 Joe Smith 在 2 月 14 日计划了要更改法人，如果您为 2 月 15 日运行了生命事件处理，系统将处理 2 月 15 日以前的所有事件。</span><span class="sxs-lookup"><span data-stu-id="3bee8-114">For example, if today is February 1, and on February 14 worker Joe Smith is scheduled to change legal entities, if you run life event processing for February 15, the system processes all events up until February 15.</span></span> 
+<span data-ttu-id="a4b88-114">例如，如果今天是 2 月 1 日，而工作人员 Joe Smith 在 2 月 14 日计划了要更改法人，如果您为 2 月 15 日运行了生命事件处理，系统将处理 2 月 15 日以前的所有事件。</span><span class="sxs-lookup"><span data-stu-id="a4b88-114">For example, if today is February 1, and on February 14 worker Joe Smith is scheduled to change legal entities, if you run life event processing for February 15, the system processes all events up until February 15.</span></span> 
 
-1. <span data-ttu-id="3bee8-115">在 **福利管理** 工作区中，在 **处理** 下，选择 **生命事件处理**。</span><span class="sxs-lookup"><span data-stu-id="3bee8-115">In the **Benefits management** workspace, under **Processing**, select **Life event processing**.</span></span>
+1. <span data-ttu-id="a4b88-115">在 **福利管理** 工作区中，在 **处理** 下，选择 **生命事件处理**。</span><span class="sxs-lookup"><span data-stu-id="a4b88-115">In the **Benefits management** workspace, under **Processing**, select **Life event processing**.</span></span>
 
-2. <span data-ttu-id="3bee8-116">在 **运行生命事件流程** 对话框中，为以下字段指定值：</span><span class="sxs-lookup"><span data-stu-id="3bee8-116">In the **Run life event process** dialog box, specify values for the following fields:</span></span>
+2. <span data-ttu-id="a4b88-116">在 **运行生命事件流程** 对话框中，为以下字段指定值：</span><span class="sxs-lookup"><span data-stu-id="a4b88-116">In the **Run life event process** dialog box, specify values for the following fields:</span></span>
 
-   | <span data-ttu-id="3bee8-117">字段</span><span class="sxs-lookup"><span data-stu-id="3bee8-117">Field</span></span> | <span data-ttu-id="3bee8-118">说明</span><span class="sxs-lookup"><span data-stu-id="3bee8-118">Description</span></span> |
+   | <span data-ttu-id="a4b88-117">字段</span><span class="sxs-lookup"><span data-stu-id="a4b88-117">Field</span></span> | <span data-ttu-id="a4b88-118">说明</span><span class="sxs-lookup"><span data-stu-id="a4b88-118">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="3bee8-119">**登记期间**</span><span class="sxs-lookup"><span data-stu-id="3bee8-119">**Enrollment period**</span></span> | <span data-ttu-id="3bee8-120">要处理其间的生命事件的登记期间。</span><span class="sxs-lookup"><span data-stu-id="3bee8-120">The enrollment period to process life events for.</span></span> |
-   | <span data-ttu-id="3bee8-121">**法人**</span><span class="sxs-lookup"><span data-stu-id="3bee8-121">**Legal entity**</span></span> | <span data-ttu-id="3bee8-122">要为其处理生命事件的法人。</span><span class="sxs-lookup"><span data-stu-id="3bee8-122">The legal entity to process life events for.</span></span> |
-   | <span data-ttu-id="3bee8-123">**生命事件日期**</span><span class="sxs-lookup"><span data-stu-id="3bee8-123">**Life event date**</span></span> | <span data-ttu-id="3bee8-124">系统将处理在登记期间直到该日期为止的所有事件。</span><span class="sxs-lookup"><span data-stu-id="3bee8-124">The system processes all events during the enrollment period that occur up until this date.</span></span> |
-   | <span data-ttu-id="3bee8-125">**工作线程**</span><span class="sxs-lookup"><span data-stu-id="3bee8-125">**Worker**</span></span> | <span data-ttu-id="3bee8-126">要为其处理生命事件的工作人员。</span><span class="sxs-lookup"><span data-stu-id="3bee8-126">The worker to process life events for.</span></span> <span data-ttu-id="3bee8-127">如果将此字段留为空白，将处理所有工作人员的生命事件。</span><span class="sxs-lookup"><span data-stu-id="3bee8-127">If you leave this field blank, life events will be processed for all workers.</span></span> |
+   | <span data-ttu-id="a4b88-119">**登记期间**</span><span class="sxs-lookup"><span data-stu-id="a4b88-119">**Enrollment period**</span></span> | <span data-ttu-id="a4b88-120">要处理其间的生命事件的登记期间。</span><span class="sxs-lookup"><span data-stu-id="a4b88-120">The enrollment period to process life events for.</span></span> |
+   | <span data-ttu-id="a4b88-121">**法人**</span><span class="sxs-lookup"><span data-stu-id="a4b88-121">**Legal entity**</span></span> | <span data-ttu-id="a4b88-122">要为其处理生命事件的法人。</span><span class="sxs-lookup"><span data-stu-id="a4b88-122">The legal entity to process life events for.</span></span> |
+   | <span data-ttu-id="a4b88-123">**生命事件日期**</span><span class="sxs-lookup"><span data-stu-id="a4b88-123">**Life event date**</span></span> | <span data-ttu-id="a4b88-124">系统将处理在登记期间直到该日期为止的所有事件。</span><span class="sxs-lookup"><span data-stu-id="a4b88-124">The system processes all events during the enrollment period that occur up until this date.</span></span> |
+   | <span data-ttu-id="a4b88-125">**工作线程**</span><span class="sxs-lookup"><span data-stu-id="a4b88-125">**Worker**</span></span> | <span data-ttu-id="a4b88-126">要为其处理生命事件的工作人员。</span><span class="sxs-lookup"><span data-stu-id="a4b88-126">The worker to process life events for.</span></span> <span data-ttu-id="a4b88-127">如果将此字段留为空白，将处理所有工作人员的生命事件。</span><span class="sxs-lookup"><span data-stu-id="a4b88-127">If you leave this field blank, life events will be processed for all workers.</span></span> |
 
-3. <span data-ttu-id="3bee8-128">如果要在后台运行此流程，请选择 **在后台运行** 并执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="3bee8-128">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
+3. <span data-ttu-id="a4b88-128">如果要在后台运行此流程，请选择 **在后台运行** 并执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="a4b88-128">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
 
-   1. <span data-ttu-id="3bee8-129">输入流程的信息。</span><span class="sxs-lookup"><span data-stu-id="3bee8-129">Enter information for the process.</span></span>
+   1. <span data-ttu-id="a4b88-129">输入流程的信息。</span><span class="sxs-lookup"><span data-stu-id="a4b88-129">Enter information for the process.</span></span>
 
-   2. <span data-ttu-id="3bee8-130">要设置重复性作业，请选择 **重复**，输入重复信息，然后选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="3bee8-130">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
+   2. <span data-ttu-id="a4b88-130">要设置重复性作业，请选择 **重复**，输入重复信息，然后选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="a4b88-130">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
 
-   3. <span data-ttu-id="3bee8-131">要设置作业预警，请选择 **预警**，选择要接收的预警，然后选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="3bee8-131">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
+   3. <span data-ttu-id="a4b88-131">要设置作业预警，请选择 **预警**，选择要接收的预警，然后选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="a4b88-131">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
 
-   4. <span data-ttu-id="3bee8-132">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="3bee8-132">Select **OK**.</span></span> <span data-ttu-id="3bee8-133">流程将使用您设置的参数运行。</span><span class="sxs-lookup"><span data-stu-id="3bee8-133">The process will run with the parameters you set.</span></span>
+   4. <span data-ttu-id="a4b88-132">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="a4b88-132">Select **OK**.</span></span> <span data-ttu-id="a4b88-133">流程将使用您设置的参数运行。</span><span class="sxs-lookup"><span data-stu-id="a4b88-133">The process will run with the parameters you set.</span></span>
 
-4. <span data-ttu-id="3bee8-134">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="3bee8-134">Select **OK**.</span></span>
+4. <span data-ttu-id="a4b88-134">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="a4b88-134">Select **OK**.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

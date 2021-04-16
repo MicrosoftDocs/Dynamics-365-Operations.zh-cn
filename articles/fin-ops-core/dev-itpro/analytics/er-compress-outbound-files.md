@@ -2,7 +2,6 @@
 title: 压缩在电子报告中生成的大型文档
 description: 本主题说明如何压缩使用电子报告 (ER) 格式生成的大型文档。
 author: NickSelin
-manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
@@ -16,83 +15,83 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8a8f55b33624b057a6abf9af5084209ac6a0c778
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: cd056798773bce492e429f8cca2ef39cb59bf739
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562326"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753808"
 ---
-# <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a><span data-ttu-id="a62fd-103">压缩在电子报告中生成的大型文档</span><span class="sxs-lookup"><span data-stu-id="a62fd-103">Compress large documents that are generated in Electronic reporting</span></span> 
+# <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a><span data-ttu-id="88d47-103">压缩在电子报告中生成的大型文档</span><span class="sxs-lookup"><span data-stu-id="88d47-103">Compress large documents that are generated in Electronic reporting</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="a62fd-104">您可以使用[电子报告 (ER) 框架](general-electronic-reporting.md)配置一个获取交易记录数据以生成传出文档的解决方案。</span><span class="sxs-lookup"><span data-stu-id="a62fd-104">You can use the [Electronic reporting (ER) framework](general-electronic-reporting.md) to configure a solution that fetches transactional data to generate an outbound document.</span></span> <span data-ttu-id="a62fd-105">这生成的文档可能很大。</span><span class="sxs-lookup"><span data-stu-id="a62fd-105">This generated document might be quite large.</span></span> <span data-ttu-id="a62fd-106">生成此类文档时，将使用[应用程序对象服务器 (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) 内存保留它。</span><span class="sxs-lookup"><span data-stu-id="a62fd-106">When this type of document is generated, the [Application Object Server (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) memory is used to hold it.</span></span> <span data-ttu-id="a62fd-107">在某些时候，之后必须从 Microsoft Dynamics 365 Finance 应用程序下载该文档。</span><span class="sxs-lookup"><span data-stu-id="a62fd-107">At some point, the document must then be downloaded from your Microsoft Dynamics 365 Finance application.</span></span> <span data-ttu-id="a62fd-108">当前，在 ER 中生成的单个文档的最大大小限制为 2 GB。</span><span class="sxs-lookup"><span data-stu-id="a62fd-108">Currently, the maximum size of a single document that is generated in ER is limited to 2 gigabytes (GB).</span></span> <span data-ttu-id="a62fd-109">此外，Finance 目前[限制](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3)下载文件的大小为 1 GB。</span><span class="sxs-lookup"><span data-stu-id="a62fd-109">Additionally, Finance currently [limits](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) the size of a downloaded file to 1 GB.</span></span> <span data-ttu-id="a62fd-110">因此，您必须配置一个 ER 解决方案，以减少超过这些限制的可能性，使用此解决方案时，您将收到 **流太长** 或 **数学运算中溢出或下溢** 异常。</span><span class="sxs-lookup"><span data-stu-id="a62fd-110">Therefore, you must configure an ER solution that reduces the likelihood that these limitations will be exceeded, and that you will receive a **Stream was too long** or **Overflow or underflow in the arithmetic operation** exception.</span></span>
+<span data-ttu-id="88d47-104">您可以使用[电子报告 (ER) 框架](general-electronic-reporting.md)配置一个获取交易记录数据以生成传出文档的解决方案。</span><span class="sxs-lookup"><span data-stu-id="88d47-104">You can use the [Electronic reporting (ER) framework](general-electronic-reporting.md) to configure a solution that fetches transactional data to generate an outbound document.</span></span> <span data-ttu-id="88d47-105">这生成的文档可能很大。</span><span class="sxs-lookup"><span data-stu-id="88d47-105">This generated document might be quite large.</span></span> <span data-ttu-id="88d47-106">生成此类文档时，将使用[应用程序对象服务器 (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) 内存保留它。</span><span class="sxs-lookup"><span data-stu-id="88d47-106">When this type of document is generated, the [Application Object Server (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) memory is used to hold it.</span></span> <span data-ttu-id="88d47-107">在某些时候，之后必须从 Microsoft Dynamics 365 Finance 应用程序下载该文档。</span><span class="sxs-lookup"><span data-stu-id="88d47-107">At some point, the document must then be downloaded from your Microsoft Dynamics 365 Finance application.</span></span> <span data-ttu-id="88d47-108">当前，在 ER 中生成的单个文档的最大大小限制为 2 GB。</span><span class="sxs-lookup"><span data-stu-id="88d47-108">Currently, the maximum size of a single document that is generated in ER is limited to 2 gigabytes (GB).</span></span> <span data-ttu-id="88d47-109">此外，Finance 目前[限制](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3)下载文件的大小为 1 GB。</span><span class="sxs-lookup"><span data-stu-id="88d47-109">Additionally, Finance currently [limits](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) the size of a downloaded file to 1 GB.</span></span> <span data-ttu-id="88d47-110">因此，您必须配置一个 ER 解决方案，以减少超过这些限制的可能性，使用此解决方案时，您将收到 **流太长** 或 **数学运算中溢出或下溢** 异常。</span><span class="sxs-lookup"><span data-stu-id="88d47-110">Therefore, you must configure an ER solution that reduces the likelihood that these limitations will be exceeded, and that you will receive a **Stream was too long** or **Overflow or underflow in the arithmetic operation** exception.</span></span>
 
-<span data-ttu-id="a62fd-111">配置解决方案时，可以通过添加 **文件夹** 类型的根元素来压缩由其嵌套元素生成的内容，以在 Operations 设计器中调整 ER 格式。</span><span class="sxs-lookup"><span data-stu-id="a62fd-111">When you configure a solution, you can adjust your ER format in the Operations designer by adding a root element of the **Folder** type to compress the content that is generated by any of its nested elements.</span></span> <span data-ttu-id="a62fd-112">压缩是“及时”进行的，因此可以减少高峰内存使用量和将要下载的文件大小。</span><span class="sxs-lookup"><span data-stu-id="a62fd-112">Compression works "just in time," so that peak memory usage and the size of the file that will be downloaded can be reduced.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="a62fd-113">文件压缩会占用额外的 CPU 用量百分比。</span><span class="sxs-lookup"><span data-stu-id="a62fd-113">File compression takes an additional percentage of CPU usage.</span></span>
-
-<span data-ttu-id="a62fd-114">有关此方法的详细信息，请完成本主题中的示例。</span><span class="sxs-lookup"><span data-stu-id="a62fd-114">For more information about this approach, complete the example in this topic.</span></span>
-
-## <a name="example-compress-an-outbound-document"></a><span data-ttu-id="a62fd-115">示例：压缩传出文档</span><span class="sxs-lookup"><span data-stu-id="a62fd-115">Example: Compress an outbound document</span></span>
-
-<span data-ttu-id="a62fd-116">此示例显示了分配了 **系统管理员** 或 **电子报告功能顾问** 角色的用户如何配置 ER 格式来压缩生成的文档。</span><span class="sxs-lookup"><span data-stu-id="a62fd-116">This example shows how a user who is assigned to the **System administrator** or **Electronic reporting functional consultant** role can configure an ER format to compress a generated document.</span></span>
-
-### <a name="prerequisites"></a><span data-ttu-id="a62fd-117">先决条件</span><span class="sxs-lookup"><span data-stu-id="a62fd-117">Prerequisites</span></span>
-
-<span data-ttu-id="a62fd-118">在完成本主题中的过程之前，必须完成以下步骤。</span><span class="sxs-lookup"><span data-stu-id="a62fd-118">Before you complete the procedures in this topic, the following steps must be completed.</span></span>
-
-1. <span data-ttu-id="a62fd-119">[激活配置提供程序](er-defer-xml-element.md#activate-a-configuration-provider)。</span><span class="sxs-lookup"><span data-stu-id="a62fd-119">[Activate a configuration provider](er-defer-xml-element.md#activate-a-configuration-provider).</span></span>
-2. <span data-ttu-id="a62fd-120">[导入示例 ER 配置](er-defer-xml-element.md#import-the-sample-er-configurations)。</span><span class="sxs-lookup"><span data-stu-id="a62fd-120">[Import the sample ER configurations](er-defer-xml-element.md#import-the-sample-er-configurations).</span></span>
-3. <span data-ttu-id="a62fd-121">[查看导入的格式](er-defer-xml-element.md#review-the-imported-format)。</span><span class="sxs-lookup"><span data-stu-id="a62fd-121">[Review the imported format](er-defer-xml-element.md#review-the-imported-format).</span></span>
+<span data-ttu-id="88d47-111">配置解决方案时，可以通过添加 **文件夹** 类型的根元素来压缩由其嵌套元素生成的内容，以在 Operations 设计器中调整 ER 格式。</span><span class="sxs-lookup"><span data-stu-id="88d47-111">When you configure a solution, you can adjust your ER format in the Operations designer by adding a root element of the **Folder** type to compress the content that is generated by any of its nested elements.</span></span> <span data-ttu-id="88d47-112">压缩是“及时”进行的，因此可以减少高峰内存使用量和将要下载的文件大小。</span><span class="sxs-lookup"><span data-stu-id="88d47-112">Compression works "just in time," so that peak memory usage and the size of the file that will be downloaded can be reduced.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a62fd-122">当前，格式结构从 **文件** 类型的 **报表** 元素开始，包含 XML 元素。</span><span class="sxs-lookup"><span data-stu-id="a62fd-122">Currently, the format structure starts from the **Report** element of the **File** type and contains XML elements.</span></span> <span data-ttu-id="a62fd-123">因此，将以 XML 格式生成传出文档，不会使用压缩。</span><span class="sxs-lookup"><span data-stu-id="a62fd-123">Therefore, an outbound document will be generated in XML format, and no compression will be used.</span></span>
+> <span data-ttu-id="88d47-113">文件压缩会占用额外的 CPU 用量百分比。</span><span class="sxs-lookup"><span data-stu-id="88d47-113">File compression takes an additional percentage of CPU usage.</span></span>
 
-### <a name="generate-an-er-format-to-get-an-uncompressed-document"></a><span data-ttu-id="a62fd-124">生成 ER 格式以获取未压缩的文档</span><span class="sxs-lookup"><span data-stu-id="a62fd-124">Generate an ER format to get an uncompressed document</span></span>
+<span data-ttu-id="88d47-114">有关此方法的详细信息，请完成本主题中的示例。</span><span class="sxs-lookup"><span data-stu-id="88d47-114">For more information about this approach, complete the example in this topic.</span></span>
 
-1. <span data-ttu-id="a62fd-125">[运行导入的格式](er-defer-xml-element.md#run-the-imported-format)。</span><span class="sxs-lookup"><span data-stu-id="a62fd-125">[Run the imported format](er-defer-xml-element.md#run-the-imported-format).</span></span>
-2. <span data-ttu-id="a62fd-126">请注意，以 XML 格式生成的文档的大小为 3 KB。</span><span class="sxs-lookup"><span data-stu-id="a62fd-126">Notice that the size of the generated document in XML format is 3 kilobytes (KB).</span></span>
+## <a name="example-compress-an-outbound-document"></a><span data-ttu-id="88d47-115">示例：压缩传出文档</span><span class="sxs-lookup"><span data-stu-id="88d47-115">Example: Compress an outbound document</span></span>
+
+<span data-ttu-id="88d47-116">此示例显示了分配了 **系统管理员** 或 **电子报告功能顾问** 角色的用户如何配置 ER 格式来压缩生成的文档。</span><span class="sxs-lookup"><span data-stu-id="88d47-116">This example shows how a user who is assigned to the **System administrator** or **Electronic reporting functional consultant** role can configure an ER format to compress a generated document.</span></span>
+
+### <a name="prerequisites"></a><span data-ttu-id="88d47-117">先决条件</span><span class="sxs-lookup"><span data-stu-id="88d47-117">Prerequisites</span></span>
+
+<span data-ttu-id="88d47-118">在完成本主题中的过程之前，必须完成以下步骤。</span><span class="sxs-lookup"><span data-stu-id="88d47-118">Before you complete the procedures in this topic, the following steps must be completed.</span></span>
+
+1. <span data-ttu-id="88d47-119">[激活配置提供程序](er-defer-xml-element.md#activate-a-configuration-provider)。</span><span class="sxs-lookup"><span data-stu-id="88d47-119">[Activate a configuration provider](er-defer-xml-element.md#activate-a-configuration-provider).</span></span>
+2. <span data-ttu-id="88d47-120">[导入示例 ER 配置](er-defer-xml-element.md#import-the-sample-er-configurations)。</span><span class="sxs-lookup"><span data-stu-id="88d47-120">[Import the sample ER configurations](er-defer-xml-element.md#import-the-sample-er-configurations).</span></span>
+3. <span data-ttu-id="88d47-121">[查看导入的格式](er-defer-xml-element.md#review-the-imported-format)。</span><span class="sxs-lookup"><span data-stu-id="88d47-121">[Review the imported format](er-defer-xml-element.md#review-the-imported-format).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="88d47-122">当前，格式结构从 **文件** 类型的 **报表** 元素开始，包含 XML 元素。</span><span class="sxs-lookup"><span data-stu-id="88d47-122">Currently, the format structure starts from the **Report** element of the **File** type and contains XML elements.</span></span> <span data-ttu-id="88d47-123">因此，将以 XML 格式生成传出文档，不会使用压缩。</span><span class="sxs-lookup"><span data-stu-id="88d47-123">Therefore, an outbound document will be generated in XML format, and no compression will be used.</span></span>
+
+### <a name="generate-an-er-format-to-get-an-uncompressed-document"></a><span data-ttu-id="88d47-124">生成 ER 格式以获取未压缩的文档</span><span class="sxs-lookup"><span data-stu-id="88d47-124">Generate an ER format to get an uncompressed document</span></span>
+
+1. <span data-ttu-id="88d47-125">[运行导入的格式](er-defer-xml-element.md#run-the-imported-format)。</span><span class="sxs-lookup"><span data-stu-id="88d47-125">[Run the imported format](er-defer-xml-element.md#run-the-imported-format).</span></span>
+2. <span data-ttu-id="88d47-126">请注意，以 XML 格式生成的文档的大小为 3 KB。</span><span class="sxs-lookup"><span data-stu-id="88d47-126">Notice that the size of the generated document in XML format is 3 kilobytes (KB).</span></span>
 
     ![预览未压缩的传出文档](./media/er-compress-outbound-files1.png)
 
-### <a name="modify-the-format-to-compress-the-generated-output"></a><span data-ttu-id="a62fd-128">修改格式以压缩生成的输出</span><span class="sxs-lookup"><span data-stu-id="a62fd-128">Modify the format to compress the generated output</span></span>
+### <a name="modify-the-format-to-compress-the-generated-output"></a><span data-ttu-id="88d47-128">修改格式以压缩生成的输出</span><span class="sxs-lookup"><span data-stu-id="88d47-128">Modify the format to compress the generated output</span></span>
 
-1. <span data-ttu-id="a62fd-129">转到 **组织管理** \> **电子申报** \> **配置**。</span><span class="sxs-lookup"><span data-stu-id="a62fd-129">Go to **Organization administration** \> **Electronic reporting** \> **Configurations**.</span></span>
-2. <span data-ttu-id="a62fd-130">在 **配置** 页上的配置树中，展开 **用于了解推迟的元素的模型**。</span><span class="sxs-lookup"><span data-stu-id="a62fd-130">On the **Configurations** page, in the configuration tree, expand **Model to learn deferred elements**.</span></span>
-3. <span data-ttu-id="a62fd-131">选择 **用于了解推迟 XML 元素的格式** 配置。</span><span class="sxs-lookup"><span data-stu-id="a62fd-131">Select the **Format to learn deferred XML elements** configuration.</span></span>
-4. <span data-ttu-id="a62fd-132">选择 **设计器** 修改格式结构。</span><span class="sxs-lookup"><span data-stu-id="a62fd-132">Select **Designer** to modify the format structure.</span></span>
-5. <span data-ttu-id="a62fd-133">在 **格式设计器** 页的 **格式** 选项卡上，选择 **添加根** 添加根格式元素。</span><span class="sxs-lookup"><span data-stu-id="a62fd-133">On the **Format designer** page, on the **Format** tab, select **Add root** to add a root format element.</span></span>
-6. <span data-ttu-id="a62fd-134">在 **添加** 对话框中，选择 **常见\\文件夹**。</span><span class="sxs-lookup"><span data-stu-id="a62fd-134">In the **Add** dialog box, select **Common\\Folder**.</span></span>
-7. <span data-ttu-id="a62fd-135">选择 **确定** 确认添加新的根元素。</span><span class="sxs-lookup"><span data-stu-id="a62fd-135">Select **OK** to confirm the addition of the new root element.</span></span>
-8. <span data-ttu-id="a62fd-136">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="a62fd-136">Select **Save**.</span></span>
+1. <span data-ttu-id="88d47-129">转到 **组织管理** \> **电子申报** \> **配置**。</span><span class="sxs-lookup"><span data-stu-id="88d47-129">Go to **Organization administration** \> **Electronic reporting** \> **Configurations**.</span></span>
+2. <span data-ttu-id="88d47-130">在 **配置** 页上的配置树中，展开 **用于了解推迟的元素的模型**。</span><span class="sxs-lookup"><span data-stu-id="88d47-130">On the **Configurations** page, in the configuration tree, expand **Model to learn deferred elements**.</span></span>
+3. <span data-ttu-id="88d47-131">选择 **用于了解推迟 XML 元素的格式** 配置。</span><span class="sxs-lookup"><span data-stu-id="88d47-131">Select the **Format to learn deferred XML elements** configuration.</span></span>
+4. <span data-ttu-id="88d47-132">选择 **设计器** 修改格式结构。</span><span class="sxs-lookup"><span data-stu-id="88d47-132">Select **Designer** to modify the format structure.</span></span>
+5. <span data-ttu-id="88d47-133">在 **格式设计器** 页的 **格式** 选项卡上，选择 **添加根** 添加根格式元素。</span><span class="sxs-lookup"><span data-stu-id="88d47-133">On the **Format designer** page, on the **Format** tab, select **Add root** to add a root format element.</span></span>
+6. <span data-ttu-id="88d47-134">在 **添加** 对话框中，选择 **常见\\文件夹**。</span><span class="sxs-lookup"><span data-stu-id="88d47-134">In the **Add** dialog box, select **Common\\Folder**.</span></span>
+7. <span data-ttu-id="88d47-135">选择 **确定** 确认添加新的根元素。</span><span class="sxs-lookup"><span data-stu-id="88d47-135">Select **OK** to confirm the addition of the new root element.</span></span>
+8. <span data-ttu-id="88d47-136">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="88d47-136">Select **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a62fd-137">格式结构从 **文件夹** 类型的元素开始。</span><span class="sxs-lookup"><span data-stu-id="a62fd-137">The format structure starts from the element of the **Folder** type.</span></span> <span data-ttu-id="a62fd-138">此元素将作为压缩 (zip) 文件生成输出。</span><span class="sxs-lookup"><span data-stu-id="a62fd-138">This element will generate output as a compressed (zip) file.</span></span> <span data-ttu-id="a62fd-139">将由 **报表** 元素生成的文档放入传出 zip 文件时，其内容将被压缩以减小传出文件的大小。</span><span class="sxs-lookup"><span data-stu-id="a62fd-139">When a document that is generated by the **Report** element is put in an outbound zip file, its content will be compressed to reduce the size of the outbound file.</span></span>
+> <span data-ttu-id="88d47-137">格式结构从 **文件夹** 类型的元素开始。</span><span class="sxs-lookup"><span data-stu-id="88d47-137">The format structure starts from the element of the **Folder** type.</span></span> <span data-ttu-id="88d47-138">此元素将作为压缩 (zip) 文件生成输出。</span><span class="sxs-lookup"><span data-stu-id="88d47-138">This element will generate output as a compressed (zip) file.</span></span> <span data-ttu-id="88d47-139">将由 **报表** 元素生成的文档放入传出 zip 文件时，其内容将被压缩以减小传出文件的大小。</span><span class="sxs-lookup"><span data-stu-id="88d47-139">When a document that is generated by the **Report** element is put in an outbound zip file, its content will be compressed to reduce the size of the outbound file.</span></span>
 
-### <a name="generate-an-er-format-to-get-a-compressed-document"></a><span data-ttu-id="a62fd-140">生成 ER 格式以获取压缩文档</span><span class="sxs-lookup"><span data-stu-id="a62fd-140">Generate an ER format to get a compressed document</span></span>
+### <a name="generate-an-er-format-to-get-a-compressed-document"></a><span data-ttu-id="88d47-140">生成 ER 格式以获取压缩文档</span><span class="sxs-lookup"><span data-stu-id="88d47-140">Generate an ER format to get a compressed document</span></span>
 
-1. <span data-ttu-id="a62fd-141">在 **格式设计器** 页上，选择 **运行**。</span><span class="sxs-lookup"><span data-stu-id="a62fd-141">On the **Format designer** page, select **Run**.</span></span>
-2. <span data-ttu-id="a62fd-142">下载 Web 浏览器提供的 zip 文件，然后将其打开以进行检查。</span><span class="sxs-lookup"><span data-stu-id="a62fd-142">Download the zip file that the web browser offers, and open it for review.</span></span>
-3. <span data-ttu-id="a62fd-143">请注意，以 ZIP 格式生成的文档的大小为 1 KB。</span><span class="sxs-lookup"><span data-stu-id="a62fd-143">Notice that the size of the generated document in ZIP format is 1 KB.</span></span>
+1. <span data-ttu-id="88d47-141">在 **格式设计器** 页上，选择 **运行**。</span><span class="sxs-lookup"><span data-stu-id="88d47-141">On the **Format designer** page, select **Run**.</span></span>
+2. <span data-ttu-id="88d47-142">下载 Web 浏览器提供的 zip 文件，然后将其打开以进行检查。</span><span class="sxs-lookup"><span data-stu-id="88d47-142">Download the zip file that the web browser offers, and open it for review.</span></span>
+3. <span data-ttu-id="88d47-143">请注意，以 ZIP 格式生成的文档的大小为 1 KB。</span><span class="sxs-lookup"><span data-stu-id="88d47-143">Notice that the size of the generated document in ZIP format is 1 KB.</span></span>
 
     > [!NOTE] 
-    > <span data-ttu-id="a62fd-144">此 zip 文件保留的 XML 文件的压缩率为 87%。</span><span class="sxs-lookup"><span data-stu-id="a62fd-144">The compression ratio of the XML file that this zip file holds is 87 percent.</span></span> <span data-ttu-id="a62fd-145">压缩率取决于要压缩的数据。</span><span class="sxs-lookup"><span data-stu-id="a62fd-145">The compression ratio depends on the data that is being compressed.</span></span>
+    > <span data-ttu-id="88d47-144">此 zip 文件保留的 XML 文件的压缩率为 87%。</span><span class="sxs-lookup"><span data-stu-id="88d47-144">The compression ratio of the XML file that this zip file holds is 87 percent.</span></span> <span data-ttu-id="88d47-145">压缩率取决于要压缩的数据。</span><span class="sxs-lookup"><span data-stu-id="88d47-145">The compression ratio depends on the data that is being compressed.</span></span>
 
     ![预览压缩的传出文档](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
-> <span data-ttu-id="a62fd-147">如果为生成输出的格式元素（此示例中的 **报表** 元素）配置了 ER [目标](electronic-reporting-destinations.md)，将跳过输出压缩。</span><span class="sxs-lookup"><span data-stu-id="a62fd-147">If the ER [destination](electronic-reporting-destinations.md) is configured for the format element that generates output (the **Report** element in this example), compression of the output will be bypassed.</span></span>
+> <span data-ttu-id="88d47-147">如果为生成输出的格式元素（此示例中的 **报表** 元素）配置了 ER [目标](electronic-reporting-destinations.md)，将跳过输出压缩。</span><span class="sxs-lookup"><span data-stu-id="88d47-147">If the ER [destination](electronic-reporting-destinations.md) is configured for the format element that generates output (the **Report** element in this example), compression of the output will be bypassed.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="a62fd-148">其他资源</span><span class="sxs-lookup"><span data-stu-id="a62fd-148">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="88d47-148">其他资源</span><span class="sxs-lookup"><span data-stu-id="88d47-148">Additional resources</span></span>
 
-[<span data-ttu-id="a62fd-149">电子报告 (ER) 概览</span><span class="sxs-lookup"><span data-stu-id="a62fd-149">Electronic reporting (ER) overview</span></span>](general-electronic-reporting.md)
+[<span data-ttu-id="88d47-149">电子报告 (ER) 概览</span><span class="sxs-lookup"><span data-stu-id="88d47-149">Electronic reporting (ER) overview</span></span>](general-electronic-reporting.md)
 
-[<span data-ttu-id="a62fd-150">电子报告 (ER) 目标</span><span class="sxs-lookup"><span data-stu-id="a62fd-150">Electronic reporting (ER) destinations</span></span>](electronic-reporting-destinations.md)
+[<span data-ttu-id="88d47-150">电子报告 (ER) 目标</span><span class="sxs-lookup"><span data-stu-id="88d47-150">Electronic reporting (ER) destinations</span></span>](electronic-reporting-destinations.md)
 
-[<span data-ttu-id="a62fd-151">推迟执行电子报告格式的 XML 元素</span><span class="sxs-lookup"><span data-stu-id="a62fd-151">Defer the execution of XML elements in ER formats</span></span>](er-defer-xml-element.md)
+[<span data-ttu-id="88d47-151">推迟执行电子报告格式的 XML 元素</span><span class="sxs-lookup"><span data-stu-id="88d47-151">Defer the execution of XML elements in ER formats</span></span>](er-defer-xml-element.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: 上载配置到 Lifecycle Services
 description: 本主题说明如何创建新的电子报告 (ER) 配置并将其上载到 Microsoft Dynamics Lifecycle Services (LCS)。
 author: NickSelin
-manager: AnnBe
 ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,136 +13,136 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f17763236594092d04dfe2d2f9912e764b4f8d4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0211fea7af303fe1dd7dce26f887bed4ed3b0f1e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562629"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744907"
 ---
-# <a name="upload-a-configuration-into-lifecycle-services"></a><span data-ttu-id="44a9b-103">上载配置到 Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="44a9b-103">Upload a configuration into Lifecycle Services</span></span>
+# <a name="upload-a-configuration-into-lifecycle-services"></a><span data-ttu-id="c09ec-103">上载配置到 Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="c09ec-103">Upload a configuration into Lifecycle Services</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="44a9b-104">此主题介绍系统管理员或电子报表开发人员角色的用户如何新建[电子申报 (ER) 配置](../general-electronic-reporting.md#Configuration)并上载到 Microsoft Dynamics Lifecycle Services (LCS) 中的[项目级资产库](../../lifecycle-services/asset-library.md)中。</span><span class="sxs-lookup"><span data-stu-id="44a9b-104">This topic explains how a user in the System administrator or Electronic reporting developer role can create a new [Electronic reporting (ER) configuration](../general-electronic-reporting.md#Configuration) and upload it into the [project-level Asset library](../../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="c09ec-104">此主题介绍系统管理员或电子报表开发人员角色的用户如何新建[电子申报 (ER) 配置](../general-electronic-reporting.md#Configuration)并上载到 Microsoft Dynamics Lifecycle Services (LCS) 中的[项目级资产库](../../lifecycle-services/asset-library.md)中。</span><span class="sxs-lookup"><span data-stu-id="c09ec-104">This topic explains how a user in the System administrator or Electronic reporting developer role can create a new [Electronic reporting (ER) configuration](../general-electronic-reporting.md#Configuration) and upload it into the [project-level Asset library](../../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-<span data-ttu-id="44a9b-105">此示例以名称为 Litware，Inc. 的示例公司为例，您将创建一个配置提供程序并将其上载到 LCS 中。这些步骤可在任何公司完成，因为公司之间共享 ER 配置。</span><span class="sxs-lookup"><span data-stu-id="44a9b-105">In this example, you will create a configuration and upload it into LCS for a sample company that is named Litware, Inc. These steps can be completed in any company, because ER configurations are shared among companies.</span></span> <span data-ttu-id="44a9b-106">为了完成这些步骤，您必须首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)中的步骤。</span><span class="sxs-lookup"><span data-stu-id="44a9b-106">To complete these steps, you must first complete the steps in [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md).</span></span> <span data-ttu-id="44a9b-107">还需要 LCS 的访问权限。</span><span class="sxs-lookup"><span data-stu-id="44a9b-107">Access to LCS is also required.</span></span>
+<span data-ttu-id="c09ec-105">此示例以名称为 Litware，Inc. 的示例公司为例，您将创建一个配置提供程序并将其上载到 LCS 中。这些步骤可在任何公司完成，因为公司之间共享 ER 配置。</span><span class="sxs-lookup"><span data-stu-id="c09ec-105">In this example, you will create a configuration and upload it into LCS for a sample company that is named Litware, Inc. These steps can be completed in any company, because ER configurations are shared among companies.</span></span> <span data-ttu-id="c09ec-106">为了完成这些步骤，您必须首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)中的步骤。</span><span class="sxs-lookup"><span data-stu-id="c09ec-106">To complete these steps, you must first complete the steps in [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md).</span></span> <span data-ttu-id="c09ec-107">还需要 LCS 的访问权限。</span><span class="sxs-lookup"><span data-stu-id="c09ec-107">Access to LCS is also required.</span></span>
 
-1. <span data-ttu-id="44a9b-108">通过使用以下角色之一登录到应用程序：</span><span class="sxs-lookup"><span data-stu-id="44a9b-108">Sign in to the application by using one of the following roles:</span></span>
+1. <span data-ttu-id="c09ec-108">通过使用以下角色之一登录到应用程序：</span><span class="sxs-lookup"><span data-stu-id="c09ec-108">Sign in to the application by using one of the following roles:</span></span>
 
-    - <span data-ttu-id="44a9b-109">电子申报开发人员</span><span class="sxs-lookup"><span data-stu-id="44a9b-109">Electronic reporting developer</span></span>
-    - <span data-ttu-id="44a9b-110">系统管理员</span><span class="sxs-lookup"><span data-stu-id="44a9b-110">System administrator</span></span>
+    - <span data-ttu-id="c09ec-109">电子申报开发人员</span><span class="sxs-lookup"><span data-stu-id="c09ec-109">Electronic reporting developer</span></span>
+    - <span data-ttu-id="c09ec-110">系统管理员</span><span class="sxs-lookup"><span data-stu-id="c09ec-110">System administrator</span></span>
 
-2. <span data-ttu-id="44a9b-111">转到 **组织管理** \> **工作区** \> **电子申报**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-111">Go to **Organization administration** \> **Workspaces** \> **Electronic reporting**.</span></span>
-3. <span data-ttu-id="44a9b-112">选择 **Litware, Inc.** 并将其标记为 **有效**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-112">Select **Litware, Inc.**, and mark it as **Active**.</span></span>
-4. <span data-ttu-id="44a9b-113">选择 **配置**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-113">Select **Configurations**.</span></span>
+2. <span data-ttu-id="c09ec-111">转到 **组织管理** \> **工作区** \> **电子申报**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-111">Go to **Organization administration** \> **Workspaces** \> **Electronic reporting**.</span></span>
+3. <span data-ttu-id="c09ec-112">选择 **Litware, Inc.** 并将其标记为 **有效**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-112">Select **Litware, Inc.**, and mark it as **Active**.</span></span>
+4. <span data-ttu-id="c09ec-113">选择 **配置**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-113">Select **Configurations**.</span></span>
 
 <a name="accessconditions"></a>
 > [!NOTE]
-> <span data-ttu-id="44a9b-114">确保当前 Dynamics 365 Finance 用户是其中包含用于导入 ER 配置的[资产库](../../lifecycle-services/asset-library.md#asset-library-support)的 LCS 项目的成员。</span><span class="sxs-lookup"><span data-stu-id="44a9b-114">Make sure that the current Dynamics 365 Finance user is a member of the LCS project that contains the [Asset library](../../lifecycle-services/asset-library.md#asset-library-support) that is used to import ER configurations.</span></span>
+> <span data-ttu-id="c09ec-114">确保当前 Dynamics 365 Finance 用户是其中包含用于导入 ER 配置的[资产库](../../lifecycle-services/asset-library.md#asset-library-support)的 LCS 项目的成员。</span><span class="sxs-lookup"><span data-stu-id="c09ec-114">Make sure that the current Dynamics 365 Finance user is a member of the LCS project that contains the [Asset library](../../lifecycle-services/asset-library.md#asset-library-support) that is used to import ER configurations.</span></span>
 >
-> <span data-ttu-id="44a9b-115">不能从提供的域与 Finance 中使用的域不同的 ER 存储库访问 LCS 项目。</span><span class="sxs-lookup"><span data-stu-id="44a9b-115">You can't access an LCS project from an ER repository that represents a different domain than the domain that is used in Finance.</span></span> <span data-ttu-id="44a9b-116">如果尝试访问，将显示空的 LCS 项目列表，并且您不能从 LCS 中的项目级资产库导入 ER 配置。</span><span class="sxs-lookup"><span data-stu-id="44a9b-116">If you try, an empty list of LCS projects will be shown, and you won't be able to import ER configurations from the project-level Asset library in LCS.</span></span> <span data-ttu-id="44a9b-117">若要从用于导入 ER 配置的 ER 存储库访问项目级资产库，请使用属于为其预配了当前 Finance 实例的租户（域）的用户的凭证登录 Finance。</span><span class="sxs-lookup"><span data-stu-id="44a9b-117">To access project-level Asset libraries from an ER repository that is used to import ER configurations, sign in to Finance by using the credentials of a user who belongs to the tenant (domain) that the current Finance instance has been provisioned for.</span></span>
+> <span data-ttu-id="c09ec-115">不能从提供的域与 Finance 中使用的域不同的 ER 存储库访问 LCS 项目。</span><span class="sxs-lookup"><span data-stu-id="c09ec-115">You can't access an LCS project from an ER repository that represents a different domain than the domain that is used in Finance.</span></span> <span data-ttu-id="c09ec-116">如果尝试访问，将显示空的 LCS 项目列表，并且您不能从 LCS 中的项目级资产库导入 ER 配置。</span><span class="sxs-lookup"><span data-stu-id="c09ec-116">If you try, an empty list of LCS projects will be shown, and you won't be able to import ER configurations from the project-level Asset library in LCS.</span></span> <span data-ttu-id="c09ec-117">若要从用于导入 ER 配置的 ER 存储库访问项目级资产库，请使用属于为其预配了当前 Finance 实例的租户（域）的用户的凭证登录 Finance。</span><span class="sxs-lookup"><span data-stu-id="c09ec-117">To access project-level Asset libraries from an ER repository that is used to import ER configurations, sign in to Finance by using the credentials of a user who belongs to the tenant (domain) that the current Finance instance has been provisioned for.</span></span>
 
-## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="44a9b-118">创建新的数据模型配置</span><span class="sxs-lookup"><span data-stu-id="44a9b-118">Create a new data model configuration</span></span>
+## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="c09ec-118">创建新的数据模型配置</span><span class="sxs-lookup"><span data-stu-id="c09ec-118">Create a new data model configuration</span></span>
 
-1. <span data-ttu-id="44a9b-119">转到 **组织管理 \> 电子申报 \> 配置**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-119">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
-2. <span data-ttu-id="44a9b-120">在 **配置** 页面中，选择 **创建配置**，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="44a9b-120">On the **Configurations** page, select **Create configuration** to open the drop-down dialog box.</span></span>
+1. <span data-ttu-id="c09ec-119">转到 **组织管理 \> 电子申报 \> 配置**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-119">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
+2. <span data-ttu-id="c09ec-120">在 **配置** 页面中，选择 **创建配置**，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="c09ec-120">On the **Configurations** page, select **Create configuration** to open the drop-down dialog box.</span></span>
 
-    <span data-ttu-id="44a9b-121">在此示例中，您将创建含有电子单据的示例数据模型的配置。</span><span class="sxs-lookup"><span data-stu-id="44a9b-121">In this example, you will create a configuration that contains a sample data model for electronic documents.</span></span> <span data-ttu-id="44a9b-122">此数据模型配置稍后将上载到 LCS。</span><span class="sxs-lookup"><span data-stu-id="44a9b-122">This data model configuration will be uploaded into LCS later.</span></span>
+    <span data-ttu-id="c09ec-121">在此示例中，您将创建含有电子单据的示例数据模型的配置。</span><span class="sxs-lookup"><span data-stu-id="c09ec-121">In this example, you will create a configuration that contains a sample data model for electronic documents.</span></span> <span data-ttu-id="c09ec-122">此数据模型配置稍后将上载到 LCS。</span><span class="sxs-lookup"><span data-stu-id="c09ec-122">This data model configuration will be uploaded into LCS later.</span></span>
 
-3. <span data-ttu-id="44a9b-123">在 **名称** 字段中，输入 **示例模型配置**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-123">In the **Name** field, enter **Sample model configuration**.</span></span>
-4. <span data-ttu-id="44a9b-124">在 **描述** 字段中，输入 **示例模型配置**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-124">In the **Description** field, enter **Sample model configuration**.</span></span>
-5. <span data-ttu-id="44a9b-125">选择 **创建配置**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-125">Select **Create configuration**.</span></span>
-6. <span data-ttu-id="44a9b-126">选择 **模型设计器** 。</span><span class="sxs-lookup"><span data-stu-id="44a9b-126">Select **Model designer**.</span></span>
-7. <span data-ttu-id="44a9b-127">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-127">Select **New**.</span></span>
-8. <span data-ttu-id="44a9b-128">在 **名称** 字段中，输入 **入口点**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-128">In the **Name** field, enter **Entry point**.</span></span>
-9. <span data-ttu-id="44a9b-129">选择 **添加**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-129">Select **Add**.</span></span>
-10. <span data-ttu-id="44a9b-130">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-130">Select **Save**.</span></span>
-11. <span data-ttu-id="44a9b-131">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="44a9b-131">Close the page.</span></span>
-12. <span data-ttu-id="44a9b-132">选择 **更改状态**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-132">Select **Change status**.</span></span>
-13. <span data-ttu-id="44a9b-133">选择 **完成**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-133">Select **Complete**.</span></span>
-14. <span data-ttu-id="44a9b-134">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-134">Select **OK**.</span></span>
-15. <span data-ttu-id="44a9b-135">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="44a9b-135">Close the page.</span></span>
+3. <span data-ttu-id="c09ec-123">在 **名称** 字段中，输入 **示例模型配置**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-123">In the **Name** field, enter **Sample model configuration**.</span></span>
+4. <span data-ttu-id="c09ec-124">在 **描述** 字段中，输入 **示例模型配置**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-124">In the **Description** field, enter **Sample model configuration**.</span></span>
+5. <span data-ttu-id="c09ec-125">选择 **创建配置**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-125">Select **Create configuration**.</span></span>
+6. <span data-ttu-id="c09ec-126">选择 **模型设计器** 。</span><span class="sxs-lookup"><span data-stu-id="c09ec-126">Select **Model designer**.</span></span>
+7. <span data-ttu-id="c09ec-127">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-127">Select **New**.</span></span>
+8. <span data-ttu-id="c09ec-128">在 **名称** 字段中，输入 **入口点**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-128">In the **Name** field, enter **Entry point**.</span></span>
+9. <span data-ttu-id="c09ec-129">选择 **添加**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-129">Select **Add**.</span></span>
+10. <span data-ttu-id="c09ec-130">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-130">Select **Save**.</span></span>
+11. <span data-ttu-id="c09ec-131">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="c09ec-131">Close the page.</span></span>
+12. <span data-ttu-id="c09ec-132">选择 **更改状态**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-132">Select **Change status**.</span></span>
+13. <span data-ttu-id="c09ec-133">选择 **完成**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-133">Select **Complete**.</span></span>
+14. <span data-ttu-id="c09ec-134">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-134">Select **OK**.</span></span>
+15. <span data-ttu-id="c09ec-135">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="c09ec-135">Close the page.</span></span>
 
-## <a name="register-a-new-repository"></a><span data-ttu-id="44a9b-136">登记新存储库</span><span class="sxs-lookup"><span data-stu-id="44a9b-136">Register a new repository</span></span>
+## <a name="register-a-new-repository"></a><span data-ttu-id="c09ec-136">登记新存储库</span><span class="sxs-lookup"><span data-stu-id="c09ec-136">Register a new repository</span></span>
 
-1. <span data-ttu-id="44a9b-137">转到 **组织管理 \> 工作区 \> 电子申报**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-137">Go to **Organization administration \> Workspaces \> Electronic reporting**.</span></span>
+1. <span data-ttu-id="c09ec-137">转到 **组织管理 \> 工作区 \> 电子申报**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-137">Go to **Organization administration \> Workspaces \> Electronic reporting**.</span></span>
 
-2. <span data-ttu-id="44a9b-138">在 **配置提供程序** 部分中，选择 **Litware, Inc.** 磁贴。</span><span class="sxs-lookup"><span data-stu-id="44a9b-138">In the **Configuration providers** section, select the **Litware, Inc.** tile.</span></span>
+2. <span data-ttu-id="c09ec-138">在 **配置提供程序** 部分中，选择 **Litware, Inc.** 磁贴。</span><span class="sxs-lookup"><span data-stu-id="c09ec-138">In the **Configuration providers** section, select the **Litware, Inc.** tile.</span></span>
 
-3. <span data-ttu-id="44a9b-139">在 **Litware, Inc.** 磁贴上，选择 **存储库**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-139">On the **Litware, Inc.** tile, select **Repositories**.</span></span>
+3. <span data-ttu-id="c09ec-139">在 **Litware, Inc.** 磁贴上，选择 **存储库**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-139">On the **Litware, Inc.** tile, select **Repositories**.</span></span>
 
-    <span data-ttu-id="44a9b-140">现在可以打开 Litware, Inc 配置提供程序的存储库列表。</span><span class="sxs-lookup"><span data-stu-id="44a9b-140">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
+    <span data-ttu-id="c09ec-140">现在可以打开 Litware, Inc 配置提供程序的存储库列表。</span><span class="sxs-lookup"><span data-stu-id="c09ec-140">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
 
-4. <span data-ttu-id="44a9b-141">选择 **添加** 以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="44a9b-141">Select **Add** to open the drop-down dialog box.</span></span>
+4. <span data-ttu-id="c09ec-141">选择 **添加** 以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="c09ec-141">Select **Add** to open the drop-down dialog box.</span></span>
 
-    <span data-ttu-id="44a9b-142">现在可以添加新存储库。</span><span class="sxs-lookup"><span data-stu-id="44a9b-142">You can now add a new repository.</span></span>
+    <span data-ttu-id="c09ec-142">现在可以添加新存储库。</span><span class="sxs-lookup"><span data-stu-id="c09ec-142">You can now add a new repository.</span></span>
 
-5. <span data-ttu-id="44a9b-143">在 **配置存储库类型** 字段中，选择 **LCS**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-143">In the **Configuration repository enter** field, select **LCS**.</span></span>
-6. <span data-ttu-id="44a9b-144">选择 **创建存储库**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-144">Select **Create repository**.</span></span>
-7. <span data-ttu-id="44a9b-145">在 **项目** 字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="44a9b-145">In the **Project** field, enter or select a value.</span></span>
+5. <span data-ttu-id="c09ec-143">在 **配置存储库类型** 字段中，选择 **LCS**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-143">In the **Configuration repository enter** field, select **LCS**.</span></span>
+6. <span data-ttu-id="c09ec-144">选择 **创建存储库**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-144">Select **Create repository**.</span></span>
+7. <span data-ttu-id="c09ec-145">在 **项目** 字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="c09ec-145">In the **Project** field, enter or select a value.</span></span>
 
-    <span data-ttu-id="44a9b-146">在本示例中，选择所需 LCS 项目。</span><span class="sxs-lookup"><span data-stu-id="44a9b-146">For this example, select the desired LCS project.</span></span> <span data-ttu-id="44a9b-147">您必须有权[访问](#accessconditions)该项目。</span><span class="sxs-lookup"><span data-stu-id="44a9b-147">You must have [access](#accessconditions) to the project.</span></span>
+    <span data-ttu-id="c09ec-146">在本示例中，选择所需 LCS 项目。</span><span class="sxs-lookup"><span data-stu-id="c09ec-146">For this example, select the desired LCS project.</span></span> <span data-ttu-id="c09ec-147">您必须有权[访问](#accessconditions)该项目。</span><span class="sxs-lookup"><span data-stu-id="c09ec-147">You must have [access](#accessconditions) to the project.</span></span>
 
-8. <span data-ttu-id="44a9b-148">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-148">Select **OK**.</span></span>
+8. <span data-ttu-id="c09ec-148">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-148">Select **OK**.</span></span>
 
-    <span data-ttu-id="44a9b-149">完成新的存储库输入。</span><span class="sxs-lookup"><span data-stu-id="44a9b-149">Complete a new repository entry.</span></span>
+    <span data-ttu-id="c09ec-149">完成新的存储库输入。</span><span class="sxs-lookup"><span data-stu-id="c09ec-149">Complete a new repository entry.</span></span>
 
-9. <span data-ttu-id="44a9b-150">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="44a9b-150">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="c09ec-150">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="c09ec-150">In the list, mark the selected row.</span></span>
 
-    <span data-ttu-id="44a9b-151">对于此示例，请选择 **LCS** 存储库记录。</span><span class="sxs-lookup"><span data-stu-id="44a9b-151">For this example, select the **LCS** repository record.</span></span>
+    <span data-ttu-id="c09ec-151">对于此示例，请选择 **LCS** 存储库记录。</span><span class="sxs-lookup"><span data-stu-id="c09ec-151">For this example, select the **LCS** repository record.</span></span>
 
-    <span data-ttu-id="44a9b-152">请注意，当前提供商将标记注册的存储库。</span><span class="sxs-lookup"><span data-stu-id="44a9b-152">Note that a registered repository is marked by the current provider.</span></span> <span data-ttu-id="44a9b-153">换句话说，只能将该提供商负责的配置放入此存储库中，从而上载到所选 LCS 项目中。</span><span class="sxs-lookup"><span data-stu-id="44a9b-153">In other words, only configurations that are owned by that provider can be put in this repository and therefore uploaded into the selected LCS project.</span></span>
+    <span data-ttu-id="c09ec-152">请注意，当前提供商将标记注册的存储库。</span><span class="sxs-lookup"><span data-stu-id="c09ec-152">Note that a registered repository is marked by the current provider.</span></span> <span data-ttu-id="c09ec-153">换句话说，只能将该提供商负责的配置放入此存储库中，从而上载到所选 LCS 项目中。</span><span class="sxs-lookup"><span data-stu-id="c09ec-153">In other words, only configurations that are owned by that provider can be put in this repository and therefore uploaded into the selected LCS project.</span></span>
 
-10. <span data-ttu-id="44a9b-154">选择 **打开**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-154">Select **Open**.</span></span>
+10. <span data-ttu-id="c09ec-154">选择 **打开**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-154">Select **Open**.</span></span>
 
-    <span data-ttu-id="44a9b-155">打开存储库查看 ER 配置列表。</span><span class="sxs-lookup"><span data-stu-id="44a9b-155">You open the repository to view the list of ER configurations.</span></span> <span data-ttu-id="44a9b-156">如果尚未将所选项目用于共享 ER 配置，列表将为空。</span><span class="sxs-lookup"><span data-stu-id="44a9b-156">If the selected project hasn't yet been used for ER configurations sharing, the list will be empty.</span></span>
+    <span data-ttu-id="c09ec-155">打开存储库查看 ER 配置列表。</span><span class="sxs-lookup"><span data-stu-id="c09ec-155">You open the repository to view the list of ER configurations.</span></span> <span data-ttu-id="c09ec-156">如果尚未将所选项目用于共享 ER 配置，列表将为空。</span><span class="sxs-lookup"><span data-stu-id="c09ec-156">If the selected project hasn't yet been used for ER configurations sharing, the list will be empty.</span></span>
 
-11. <span data-ttu-id="44a9b-157">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="44a9b-157">Close the page.</span></span>
-12. <span data-ttu-id="44a9b-158">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="44a9b-158">Close the page.</span></span>
+11. <span data-ttu-id="c09ec-157">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="c09ec-157">Close the page.</span></span>
+12. <span data-ttu-id="c09ec-158">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="c09ec-158">Close the page.</span></span>
 
-## <a name="upload-a-configuration-into-lcs"></a><span data-ttu-id="44a9b-159">将配置上传到 LCS 中</span><span class="sxs-lookup"><span data-stu-id="44a9b-159">Upload a configuration into LCS</span></span>
+## <a name="upload-a-configuration-into-lcs"></a><span data-ttu-id="c09ec-159">将配置上传到 LCS 中</span><span class="sxs-lookup"><span data-stu-id="c09ec-159">Upload a configuration into LCS</span></span>
 
-1. <span data-ttu-id="44a9b-160">转到 **组织管理 \> 电子申报 \> 配置**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-160">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
-2. <span data-ttu-id="44a9b-161">在 **配置** 页上的配置树中，选择 **示例模型配置**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-161">On the **Configurations** page, in the configurations tree, select **Sample model configuration**.</span></span>
+1. <span data-ttu-id="c09ec-160">转到 **组织管理 \> 电子申报 \> 配置**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-160">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
+2. <span data-ttu-id="c09ec-161">在 **配置** 页上的配置树中，选择 **示例模型配置**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-161">On the **Configurations** page, in the configurations tree, select **Sample model configuration**.</span></span>
 
-    <span data-ttu-id="44a9b-162">必须选择已完成的创建的配置。</span><span class="sxs-lookup"><span data-stu-id="44a9b-162">You must select a created configuration that has been already completed.</span></span>
+    <span data-ttu-id="c09ec-162">必须选择已完成的创建的配置。</span><span class="sxs-lookup"><span data-stu-id="c09ec-162">You must select a created configuration that has been already completed.</span></span>
 
-3. <span data-ttu-id="44a9b-163">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="44a9b-163">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="c09ec-163">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="c09ec-163">In the list, find and select the desired record.</span></span>
 
-    <span data-ttu-id="44a9b-164">对于此示例，请选择状态为 **已完成** 的所选配置版本。</span><span class="sxs-lookup"><span data-stu-id="44a9b-164">For this example, select the version of the selected configuration that has a status of **Completed**.</span></span>
+    <span data-ttu-id="c09ec-164">对于此示例，请选择状态为 **已完成** 的所选配置版本。</span><span class="sxs-lookup"><span data-stu-id="c09ec-164">For this example, select the version of the selected configuration that has a status of **Completed**.</span></span>
 
-4. <span data-ttu-id="44a9b-165">选择 **更改状态**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-165">Select **Change status**.</span></span>
-5. <span data-ttu-id="44a9b-166">选择 **共享**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-166">Select **Share**.</span></span>
+4. <span data-ttu-id="c09ec-165">选择 **更改状态**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-165">Select **Change status**.</span></span>
+5. <span data-ttu-id="c09ec-166">选择 **共享**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-166">Select **Share**.</span></span>
 
-    <span data-ttu-id="44a9b-167">在 LCS 中发布配置时，配置的状态将从 **已完成** 变为 **已共享**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-167">The status of the configuration is changed from **Completed** to **Shared** when the configuration is published in LCS.</span></span>
+    <span data-ttu-id="c09ec-167">在 LCS 中发布配置时，配置的状态将从 **已完成** 变为 **已共享**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-167">The status of the configuration is changed from **Completed** to **Shared** when the configuration is published in LCS.</span></span>
 
-6. <span data-ttu-id="44a9b-168">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-168">Select **OK**.</span></span>
-7. <span data-ttu-id="44a9b-169">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="44a9b-169">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="c09ec-168">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-168">Select **OK**.</span></span>
+7. <span data-ttu-id="c09ec-169">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="c09ec-169">In the list, find and select the desired record.</span></span>
 
-    <span data-ttu-id="44a9b-170">对于此示例，请选择状态为 **已共享** 的配置版本。</span><span class="sxs-lookup"><span data-stu-id="44a9b-170">For this example, select the configuration version that has a status of **Shared**.</span></span>
+    <span data-ttu-id="c09ec-170">对于此示例，请选择状态为 **已共享** 的配置版本。</span><span class="sxs-lookup"><span data-stu-id="c09ec-170">For this example, select the configuration version that has a status of **Shared**.</span></span>
 
-    <span data-ttu-id="44a9b-171">请注意，所选版本的状态已从 **已完成** 变为 **已共享**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-171">Note that the status of the selected version was changed from **Completed** to **Shared**.</span></span>
+    <span data-ttu-id="c09ec-171">请注意，所选版本的状态已从 **已完成** 变为 **已共享**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-171">Note that the status of the selected version was changed from **Completed** to **Shared**.</span></span>
 
-8. <span data-ttu-id="44a9b-172">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="44a9b-172">Close the page.</span></span>
-9. <span data-ttu-id="44a9b-173">选择 **存储库**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-173">Select **Repositories**.</span></span>
+8. <span data-ttu-id="c09ec-172">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="c09ec-172">Close the page.</span></span>
+9. <span data-ttu-id="c09ec-173">选择 **存储库**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-173">Select **Repositories**.</span></span>
 
-    <span data-ttu-id="44a9b-174">现在可以打开 Litware, Inc 配置提供程序的存储库列表。</span><span class="sxs-lookup"><span data-stu-id="44a9b-174">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
+    <span data-ttu-id="c09ec-174">现在可以打开 Litware, Inc 配置提供程序的存储库列表。</span><span class="sxs-lookup"><span data-stu-id="c09ec-174">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
 
-10. <span data-ttu-id="44a9b-175">选择 **打开**。</span><span class="sxs-lookup"><span data-stu-id="44a9b-175">Select **Open**.</span></span>
+10. <span data-ttu-id="c09ec-175">选择 **打开**。</span><span class="sxs-lookup"><span data-stu-id="c09ec-175">Select **Open**.</span></span>
 
-    <span data-ttu-id="44a9b-176">对于此示例，请选择 **LCS** 存储库，然后打开。</span><span class="sxs-lookup"><span data-stu-id="44a9b-176">For this example, select the **LCS** repository, and open it.</span></span>
+    <span data-ttu-id="c09ec-176">对于此示例，请选择 **LCS** 存储库，然后打开。</span><span class="sxs-lookup"><span data-stu-id="c09ec-176">For this example, select the **LCS** repository, and open it.</span></span>
 
-    <span data-ttu-id="44a9b-177">请注意，所选配置显示为所选 LCS 项目的资产。</span><span class="sxs-lookup"><span data-stu-id="44a9b-177">Notice that the selected configuration is shown as an asset of the selected LCS project.</span></span>
+    <span data-ttu-id="c09ec-177">请注意，所选配置显示为所选 LCS 项目的资产。</span><span class="sxs-lookup"><span data-stu-id="c09ec-177">Notice that the selected configuration is shown as an asset of the selected LCS project.</span></span>
 
-11. <span data-ttu-id="44a9b-178">通过转到 <https://lcs.dynamics.com> 打开 LCS。</span><span class="sxs-lookup"><span data-stu-id="44a9b-178">Open LCS by going to <https://lcs.dynamics.com>.</span></span>
-12. <span data-ttu-id="44a9b-179">打开一个先前用于存储库注册的项目。</span><span class="sxs-lookup"><span data-stu-id="44a9b-179">Open a project that was used earlier for repository registration.</span></span>
-13. <span data-ttu-id="44a9b-180">打开项目的资产库。</span><span class="sxs-lookup"><span data-stu-id="44a9b-180">Open the Asset library of the project.</span></span>
-14. <span data-ttu-id="44a9b-181">选择 **GER 配置** 资产类型。</span><span class="sxs-lookup"><span data-stu-id="44a9b-181">Select the **GER configuration** asset type.</span></span>
+11. <span data-ttu-id="c09ec-178">通过转到 <https://lcs.dynamics.com> 打开 LCS。</span><span class="sxs-lookup"><span data-stu-id="c09ec-178">Open LCS by going to <https://lcs.dynamics.com>.</span></span>
+12. <span data-ttu-id="c09ec-179">打开一个先前用于存储库注册的项目。</span><span class="sxs-lookup"><span data-stu-id="c09ec-179">Open a project that was used earlier for repository registration.</span></span>
+13. <span data-ttu-id="c09ec-180">打开项目的资产库。</span><span class="sxs-lookup"><span data-stu-id="c09ec-180">Open the Asset library of the project.</span></span>
+14. <span data-ttu-id="c09ec-181">选择 **GER 配置** 资产类型。</span><span class="sxs-lookup"><span data-stu-id="c09ec-181">Select the **GER configuration** asset type.</span></span>
 
-    <span data-ttu-id="44a9b-182">应该会列出您上载的 ER 配置。</span><span class="sxs-lookup"><span data-stu-id="44a9b-182">The ER configuration that you uploaded should be listed.</span></span>
+    <span data-ttu-id="c09ec-182">应该会列出您上载的 ER 配置。</span><span class="sxs-lookup"><span data-stu-id="c09ec-182">The ER configuration that you uploaded should be listed.</span></span>
 
-    <span data-ttu-id="44a9b-183">请注意，如果提供程序有权访问此 LCS 项目，上载的 LCS 配置可以导入到其他实例中。</span><span class="sxs-lookup"><span data-stu-id="44a9b-183">Note that the uploaded LCS configuration can be imported into another instance if providers have access to this LCS project.</span></span>
+    <span data-ttu-id="c09ec-183">请注意，如果提供程序有权访问此 LCS 项目，上载的 LCS 配置可以导入到其他实例中。</span><span class="sxs-lookup"><span data-stu-id="c09ec-183">Note that the uploaded LCS configuration can be imported into another instance if providers have access to this LCS project.</span></span>
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
