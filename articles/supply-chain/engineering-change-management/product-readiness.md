@@ -2,11 +2,9 @@
 title: 产品准备情况
 description: 本主题说明如何使用准备情况检查来确保在交易中使用产品之前，产品所需的主数据已完成。
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 38ceef3d03fae83f7ac509fb05a4cd9603af2465
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 23ee82922a2103d02a4c1fe0c364fa381c4984c3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266143"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842001"
 ---
 # <a name="product-readiness"></a>产品准备情况
 

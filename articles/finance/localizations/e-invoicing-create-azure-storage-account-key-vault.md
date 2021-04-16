@@ -2,11 +2,9 @@
 title: 创建 Azure 存储帐户和密钥保管库
 description: 本主题说明如何创建 Azure 存储帐户和密钥保管库。
 author: gionoder
-manager: AnnBe
 ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 14463abe7782d786d286fcc619dee00ce85bb620
-ms.sourcegitcommit: 4adc57b0e43d9627dca70762ac941762ec4934e2
+ms.openlocfilehash: b7df4933c1373893e00f48ea3a21bd5af40719a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2021
-ms.locfileid: "5479337"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840212"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>创建 Azure 存储帐户和密钥保管库
 
@@ -44,7 +42,7 @@ ms.locfileid: "5479337"
 
 ## <a name="set-up-the-azure-storage-account-to-get-the-storage-account-uri"></a>设置 Azure 存储帐户以获取存储帐户 URI
 
-1. 打开您计划与电子开票附加产品一起使用的存储帐户。
+1. 打开您计划与电子开票一起使用的存储帐户。
 2. 转到 **Blob 服务** \> **容器**，创建一个新容器。
 3. 为容器输入名称，然后将 **公共访问级别** 字段设置为 **专用(无匿名访问)**。
 4. 打开容器，转到 **设置 \> 访问策略**。
@@ -63,12 +61,12 @@ ms.locfileid: "5479337"
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>设置密钥保管库以存储存储帐户 URI
 
-1. 打开您打算与电子开票附加产品一起使用的密钥保管库。
+1. 打开您打算与电子开票一起使用的密钥保管库。
 2. 转到 **设置** \> **密码**，然后选择 **生成/导入** 创造新密码。
 3. 在 **创建密码** 页上，在 **上载选项** 字段中，选择 **手动**。
 4. 输入密码的名称。 此名称将在 Regulatory Configuration Service (RCS) 中的服务设置期间使用，将称为 *密钥保管库密码名称*。
 5. 在 **值** 字段中，选择 **共享访问签名 URI**，然后选择 **创建**。
-6. 设置访问策略，以授予电子开票附加产品访问您创建的密码的正确安全访问级别。 转到 **设置 \> 访问策略**，选择 **添加访问策略**。
+6. 设置访问策略，以授予电子开票访问您创建的密码的正确安全访问级别。 转到 **设置 \> 访问策略**，选择 **添加访问策略**。
 7. 为 **获取** 和 **列出** 操作设置密码权限。
 
     ![授予服务访问权限](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
