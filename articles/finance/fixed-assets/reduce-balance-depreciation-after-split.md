@@ -2,11 +2,9 @@
 title: 减少拆分后的余额折旧
 description: 本主题描述固定资产中使用减少余额方法拆分资产后用于计算折旧的方法。
 author: moaamer
-manager: Ann Beebe
 ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f276f49e5b1bc2814dc851f1ad4204a151d86c43
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 056808b7d4d490bc4d60aa058108d159c1d4867c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222375"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826243"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>减少拆分后的余额折旧
 

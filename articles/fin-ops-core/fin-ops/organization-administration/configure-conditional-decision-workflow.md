@@ -2,7 +2,6 @@
 title: 配置工作流中的有条件决策
 description: 使用以下过程配置有条件决策的属性。
 author: ChrisGarty
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a593d4e188f47b73967f0c5468f7d7c3e9f64dc8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ed53eeb26e1b4b1df1647739ce1d115c7dd169f8
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567452"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747923"
 ---
 # <a name="configure-conditional-decisions-in-a-workflow"></a>配置工作流中的有条件决策
 

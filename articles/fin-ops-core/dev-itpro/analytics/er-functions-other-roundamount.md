@@ -2,7 +2,6 @@
 title: ROUNDAMOUNT ER 函数
 description: 本主题提供有关 ROUNDAMOUNT 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a80587236d17160a996d701ca4ae38be21c818c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: cce35a33ca179ad85bbde879122d3afbeefe5ee7
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563286"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745655"
 ---
 # <a name="roundamount-er-function"></a>ROUNDAMOUNT ER 函数
 

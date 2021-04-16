@@ -2,11 +2,9 @@
 title: 自动分配费用
 description: Microsoft Dynamics 365 Supply Chain Management 中的费用功能帮助您自动将费用分配给采购订单或销售订单。
 author: dasani-madipalli
-manager: tfehr
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: eddcf275c14565dfe77fbe7efa676be4a34da686
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a167e6ba4a3b4161e964e5018944af0901000b01
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244151"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841471"
 ---
 # <a name="automatic-allocation-of-charges"></a>自动分配费用
 

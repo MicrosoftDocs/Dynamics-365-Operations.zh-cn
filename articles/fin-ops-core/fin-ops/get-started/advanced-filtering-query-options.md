@@ -1,8 +1,7 @@
 ---
 title: 高级筛选和查询语法
-description: 此主题介绍在“过滤器”窗格或网格列标题过滤器中使用“高级过滤器/排序”对话框或匹配运算符时的可用过滤和查询选项。
+description: 本主题介绍在“筛选器”窗格或网格列标题筛选器中高级筛选/排序对话框和匹配运算符的筛选和查询选项。
 author: jasongre
-manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15805e24c46603afd34d40c5f94c1422b01cab4c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: fdb55a9552759e5f2b670a4eeb4e5d6572ebfb77
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566058"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744091"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>高级筛选和查询语法
 

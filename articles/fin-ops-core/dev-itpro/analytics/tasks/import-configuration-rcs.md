@@ -2,7 +2,6 @@
 title: (ER) 从 RCS 导入配置
 description: 本主题介绍用户如何从 RCS 导入 ER 配置的新版本。
 author: NickSelin
-manager: AnnBe
 ms.date: 07/03/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 799abeafe5f0929e6dd2f8a5f437f3c10b3b06d9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 77d637b2ec1deeabc04a6796644363b330f5756e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570528"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744883"
 ---
 # <a name="er-import-configurations-from-rcs"></a>(ER) 从 RCS 导入配置
 

@@ -1,12 +1,10 @@
 ---
 title: 维护请求
 description: 本主题概述资产管理中的维护请求。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 07/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6bd7184852def3ffb60bef5675a65a03ea8a3fb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d79d0e2c3dfcb9536108bb5e6ab7ef223042c961
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217189"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808464"
 ---
 # <a name="maintenance-requests"></a>维护请求
 

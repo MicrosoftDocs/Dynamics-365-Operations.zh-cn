@@ -2,30 +2,27 @@
 title: 使用仓库管理进行实际称重产品处理
 description: 本主题介绍如何使用工作模板和货位指令确定在仓库中如何以及在哪里完成工作。
 author: perlynne
-manager: tfehr
 ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
+ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench, WHSCatchWeightTagRegistration, WHSCatchWeightTagFullDimDiscrepancies, WHSCatchWeightTagChangeWeightDropDownDialog, WHSCatchWeightLinkWorkLineTagDropDownDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 45f8d53b5ac212866a9c693e0039631507e14dd7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3882e40b4083f9246a03db3078cae8e18bec3c1e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233071"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808910"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>使用仓库管理进行实际称重产品处理
 
 [!include [banner](../includes/banner.md)]
-
 
 ## <a name="feature-exposure"></a>功能曝光
 
@@ -52,7 +49,7 @@ ms.locfileid: "5233071"
 > [!NOTE]
 > 仅当物料的实际称重物料处理策略的出库重量差异方法为 **允许重量差异** 时，移动设备活动才会触发交易调整。
 
-**示例 1**
+### <a name="example-1"></a>示例 1
 
 在 **完工入库** 生产流程中，包含八箱实际称重产品的牌照的入库重量捕获为 80.1 千克。 牌照之后存储在成品区域，存储期间，部分重量在空气中流失。
 
@@ -60,7 +57,7 @@ ms.locfileid: "5233071"
 
 在这种情况下，系统将通过过帐缺少的 0.3 千克的交易记录来自动调整此差异。
 
-**示例 2**
+### <a name="example-2"></a>示例 2
 
 在其定义中，产品被设置为最多允许 **箱** 实际称重单位的最小 8 千克重量、最大 12 千克重量。
 
@@ -106,7 +103,7 @@ ms.locfileid: "5233071"
 **在使用实际称重标签跟踪时**，必须始终为收到的每个实际称重单位创建标签，并且每个标签必须始终与重量关联。
 
 例如，**箱** 是实际称重单位，您将收到一个托盘（八箱）。 在这种情况下，必须创建八个唯一的实际称重标记，并且重量必须与每个标记关联。 根据入库实际称重标记，可以捕获全部八箱的重量，然后可以将平均重量分配到每箱，也可以为每箱捕获唯一重量。
-在使用 **在将生产订单报告为完工入库时使用现有的实际称重标记** 功能并通过移动设备菜单项启用了流程时，将根据现有实际称重标记更新库存。 因此，在将生产报告为完工操作时，仓库应用不会提示捕获实际称重标记数据。
+在使用 **在将生产订单报告为完工入库时使用现有的实际称重标记** 功能并通过移动设备菜单项启用了流程时，将根据现有实际称重标记更新库存。 因此，在将生产报告为完工操作时，仓库管理移动应用不会提示捕获实际称重标签数据。
 
 **在不使用实际称重标签跟踪时**，可以针对每个维度集捕获重量（例如，对每个牌照和跟踪维度）。 或者，重量可以基于聚合级别捕获，如五个牌照（托盘）。
 
@@ -194,7 +191,11 @@ ms.locfileid: "5233071"
 
 ### <a name="catch-weight-tags"></a>实际称重标记
 
-实际称重标签可以使用仓库应用流程来创建，在窗体中手动创建，或者使用数据实体流程来创建。 如果实际称重标签与入货源文档行（如采购订单行）关联，将注册此标签。 如果该行用于出库处理，则标签将在装运时进行更新。
+实际称重标签可以使用仓库管理移动应用流程来创建，在窗体 **仓库管理 > 查询和报表 > 实际称重标签** 中手动创建，或者使用数据实体流程来创建。 如果实际称重标签与入货源文档行（如采购订单行）关联，将注册此标签。 如果该行用于出库处理，则标签将在装运时进行更新。 您可以通过 **实际称重标签** 页面中的 **实际称重标签登记** 选项查看所有历史实际称重标签登记事件。
+
+您可以使用 **更改标签捕获的重量** 选项以手动更新实际称重标签的重量值。 请注意，在此手动过程中，不会调整现有库存的重量，但是您可以轻松使用 **带实际称重标签的物料的现有差异** 页面以查找当前活动的实际称重标签和当前库存之间的任何差异。
+
+其他手动选项是针对现有仓库工作 **登记标签** 到源单据行和 **登记工作**。
 
 除了当前适用于实际称重产品的限制外，标记的实际称重产品还具有当前适用的其他限制。
 

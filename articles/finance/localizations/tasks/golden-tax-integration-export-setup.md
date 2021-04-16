@@ -2,11 +2,9 @@
 title: 金税集成导出设置
 description: 此过程显示如何配置金税集成的导出格式。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c1d839c0e41236084b340206932f488e81ae5c8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f1f10757f964f7217b898c7cfe5ced71a9cbf9a3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264977"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836796"
 ---
 # <a name="golden-tax-integration-export-setup"></a>金税集成导出设置
 

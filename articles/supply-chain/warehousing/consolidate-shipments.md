@@ -2,11 +2,9 @@
 title: 使用装运合并策略合并装运
 description: 此主题提供一些方案的链接集合，这些方案显示如何使用装运合并策略。
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 51f6745920241c7ffeccfbb1cfd2f79b90307e48
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a6b190629c1c86bee10cedfec320e7370e0f63a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214194"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831354"
 ---
 # <a name="consolidate-shipments-by-using-shipment-consolidation-policies"></a>使用装运合并策略合并装运
 

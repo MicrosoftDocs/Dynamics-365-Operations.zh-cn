@@ -2,11 +2,9 @@
 title: Regulatory Configuration Services (RCS) - 全球化功能
 description: 此主题介绍如何使用 Microsoft Regulatory Configuration Services (RCS) 和全局知识库创建和使用全球化功能。
 author: JaneA07
-manager: AnnBe
 ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RCS, RCSWorkspace, e-Invoicing service
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: d5d42bd076ca77c5d2906593d44ae420d954a0b1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cbb1d9a53a7a09ab525532f08553898c4e40223a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218846"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822773"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Services (RCS) - 全球化功能
 

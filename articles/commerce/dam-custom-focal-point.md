@@ -2,11 +2,9 @@
 title: 自定义图像焦点
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中自定义图像焦点。
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fca209c9827192f50c2f1a5bd9e78146214e1e0e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 962caff0e8e41487231c6075fa7b2df2a59dca48
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222553"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799293"
 ---
 # <a name="customize-image-focal-points"></a>自定义图像焦点
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中自定义图像焦点。
-
-## <a name="overview"></a>概览
 
 将图像上传到 Commerce 站点构建器的媒体库中之后，系统将尝试确定该图像的焦点。 例如，如果图像中有一个人，系统将默认把焦点设置为这个人的面部。 在大多数情况下，自动设置的焦点适合所有视区，但是有时您可能希望调整焦点，以确保始终显示图像的特定部分。
 

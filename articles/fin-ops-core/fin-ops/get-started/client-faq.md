@@ -2,7 +2,6 @@
 title: 客户端常见问题
 description: 本文提供对有关 Finance and Operations 客户端的常见问题的解答。
 author: jasongre
-manager: AnnBe
 ms.date: 09/11/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a7d311bfcd65e23e4062f105435d05cb1ceda6b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 8f4311e93505f1d59f6beeae01a2a2e796ad47cd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567032"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749213"
 ---
 # <a name="client-faq"></a>客户端常见问题解答
 

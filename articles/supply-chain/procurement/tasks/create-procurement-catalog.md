@@ -1,26 +1,24 @@
 ---
 title: 创建采购目录
 description: 本主题介绍如何创建采购目录。
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProcCategoryHierarchyManagement, CatProcureCatalogListPage, CatProcureCatalogCreate, CatProcureCatalogEdit, SysPolicyListPage, SysPolicy, CatCatalogPolicyRule, PurchReqTableListPage, PurchReqCreate, PurchReqTable, PurchReqAddItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 91c377b2d155fb7b53ef9a15fa9d6e80cd69ed44
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 59117df519b7aa525713d3acd70195cc42614b9a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237243"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812390"
 ---
 # <a name="create-a-procurement-catalog"></a>创建采购目录
 

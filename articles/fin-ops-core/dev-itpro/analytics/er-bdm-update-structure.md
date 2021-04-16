@@ -2,7 +2,6 @@
 title: 更新业务文档模板的结构
 description: 本主题说明如何通过使用“业务文档管理”功能更新业务文档模板的结构。
 author: NickSelin
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 09813115544701ea3fffb6be06114bcdd63c0ba0
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 203c9f0990051c1618660959dad0e184add68ffa
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570440"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750476"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>更新业务文档模板的结构 
 

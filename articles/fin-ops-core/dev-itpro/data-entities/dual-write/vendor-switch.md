@@ -2,7 +2,6 @@
 title: 在供应商设计之间切换
 description: 本主题介绍如何在 Finance and Operations 应用与 Dataverse 之间切换供应商数据集成。
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 78d4c547f544d95c66490e5610374a5c4598b266
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 5a18fed2eac4c120dca20a1d7797d047639275b9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565591"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750586"
 ---
 # <a name="switch-between-vendor-designs"></a>在供应商设计之间切换
 

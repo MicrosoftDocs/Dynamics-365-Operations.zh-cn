@@ -2,11 +2,9 @@
 title: 人员专业经验
 description: 本主题介绍 Dynamics 365 Human Resources 的“人员专业经验”实体。
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5672e32b157b46b6863f06fea123fd3d6a3d96d2
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 1defaff8397c41feedbd85893766106338a28941
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466416"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798049"
 ---
 # <a name="person-professional-experience"></a>人员专业经验
 

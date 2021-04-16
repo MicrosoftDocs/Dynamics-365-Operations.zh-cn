@@ -2,11 +2,9 @@
 title: 配置 Dataverse 虚拟表
 description: 本主题介绍如何为 Dynamics 365 Human Resources 配置虚拟表。 生成和更新现有虚拟表，并分析生成的实体和可用表。
 author: andreabichsel
-manager: tfehr
 ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: CDSIntegrationAdministration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d8780be777c9a204fcb95950f5679a5711aee298
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4d80680f66d8669425482a54066f48af8ebcfbc8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465814"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805098"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>配置 Dataverse 虚拟表
 

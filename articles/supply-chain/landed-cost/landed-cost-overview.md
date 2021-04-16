@@ -2,7 +2,6 @@
 title: 登陆成本模块
 description: 登陆成本模块通过为用户提供从制造商到仓库的进口货运的完全财务和物流控制，帮助企业简化入站装运操作。
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9d04c377080a1d301efb771b98c249f610a3289d
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 524fcdbcf9ba607fe9bcec1f1e894beb45f265e6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500324"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823329"
 ---
 # <a name="landed-cost-module"></a>登陆成本模块
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 **登陆成本** 模块通过为用户提供从制造商到仓库的进口货运的完全财务和物流控制，帮助企业简化入站装运操作。 对于进口商品，登陆成本可能占每个进口物料总成本的 40% 或更多。 因此，挑战在于提供准确的登陆成本估计。
 

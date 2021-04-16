@@ -1,27 +1,25 @@
 ---
 title: 提交和审查项目预算修订
 description: 此过程提供有关如何修订项目预算的信息。
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, ProjBudgetRevision, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb17cffea70aefe117bdcdc727f807137bef1ee7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2934e0a46fd3f0c89f8e1240f5722e9409ca2796
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222865"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811126"
 ---
 # <a name="submit-and-approve-project-budget-revision"></a>提交和审查项目预算修订
 

@@ -2,7 +2,6 @@
 title: Base64StringToContainer ER 函数
 description: 本主题提供有关 Base64StringToContainer 电子报告 (ER) 函数如何使用的信息。
 author: NickSelin
-manager: kfend
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 612590dacc1887b87677c12eddaef42660a7a154
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 6fd08d9a2522bdf497b1926c884a4583065d9f19
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561534"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754366"
 ---
 # <a name="base64stringtocontainer-er-function"></a>Base64StringToContainer ER 函数
 

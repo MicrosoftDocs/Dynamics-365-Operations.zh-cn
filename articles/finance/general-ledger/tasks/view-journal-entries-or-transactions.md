@@ -2,11 +2,9 @@
 title: 查看日记帐条目或交易记录
 description: 此过程显示如何使用凭证交易记录查询搜索日记帐分录或交易记录。
 author: aprilolson
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm, LedgerTransVoucher, LedgerTransBase, Originaldocuments
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: da5979067639834929d10c0a8c1e372b2235a7af
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dbeb5af9b14c409347f7f0ac2aeb045929619a3d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222063"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817021"
 ---
 # <a name="view-journal-entries-or-transactions"></a>查看日记帐条目或交易记录
 

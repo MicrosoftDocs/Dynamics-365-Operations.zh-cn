@@ -2,7 +2,6 @@
 title: 在购买之前
 description: 在考虑购买 Dynamics 365 Finance、Dynamics 365 Supply Chain Management 或 Dynamics 365 Commerce 时要使用的分步指导。
 author: ShellyBakke
-manager: AnnBe
 ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9081848bd608c817a02257a1845fe692f2833754
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 648a793b15df5597c0c4c6f2f972e28bb0ce79a5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560767"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750906"
 ---
 # <a name="before-you-buy"></a>购买之前
 

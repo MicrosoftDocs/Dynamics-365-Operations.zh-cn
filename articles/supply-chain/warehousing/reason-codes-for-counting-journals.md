@@ -2,11 +2,9 @@
 title: 库存盘点的原因代码
 description: 此主题描述如何为盘点任务设置和应用原因代码。
 author: Mirzaab
-manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCountingReasonCodePolicy, InventCountingReasonCode
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: d72b171bfe149b25f5055d5bebef85b49e952295
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a6b8a686b6aee6b52b3f43caf8acae9f371f8804
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228481"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838194"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>库存盘点的原因代码
 

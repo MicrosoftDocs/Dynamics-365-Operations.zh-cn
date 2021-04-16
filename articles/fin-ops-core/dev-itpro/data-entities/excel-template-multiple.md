@@ -2,7 +2,6 @@
 title: 带有多个工作表的数据模板
 description: 此主题介绍如何使用 Excel 数据实体模板将数据导入 Finance and Operations。
 author: Sunil-Garg
-manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 64515ff74c0ca2b01bb9dac06331ba0424811411
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 001795914c683a6182b885b79be7e225ad80e5cd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565563"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750556"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>带有多个工作表的数据模板
 

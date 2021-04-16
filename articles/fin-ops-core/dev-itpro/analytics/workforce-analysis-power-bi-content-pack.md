@@ -2,7 +2,6 @@
 title: 劳动力指标 Power BI 内容
 description: 此主题描述劳动力指标 Power BI 内容。
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8ea0bcafa616e5b12ac0a997af87c7d57564362d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 244fe5afe822c9ff7b9921d8e4e7b6904c96ad01
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563728"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754184"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>劳动力指标 Power BI 内容
 

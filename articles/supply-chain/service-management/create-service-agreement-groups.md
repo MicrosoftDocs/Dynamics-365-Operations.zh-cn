@@ -2,11 +2,9 @@
 title: 创建服务协议组
 description: 服务协议组用于对服务协议进行排序和筛选。
 author: ShylaThompson
-manager: tfehr
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementGroup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78554bbde60a708b11538b11925720698b1952ee
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ed14938fa0027b5fd11643a9f9d0409e2da42a59
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234937"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819128"
 ---
 # <a name="create-service-agreement-groups"></a>创建服务协议组 
 

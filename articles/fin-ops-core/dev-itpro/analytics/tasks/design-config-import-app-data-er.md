@@ -2,7 +2,6 @@
 title: 设计 ER 配置以分析传入单据
 description: 此过程显示如何设计电子报告 (ER) 配置以分析传入电子单据。
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7235d75aee3b8fdf39492cfbc1760bf6eae4b82e
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 5b503c17b395c2ef45ca4d74c8573d859509c503
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562848"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745053"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>设计 ER 配置以分析传入单据
 

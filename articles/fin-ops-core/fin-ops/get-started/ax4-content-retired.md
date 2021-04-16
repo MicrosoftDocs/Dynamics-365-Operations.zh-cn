@@ -2,7 +2,6 @@
 title: AX 4.0 内容已停用。
 description: 已废弃 TechNet 和 MSDN 中的 Dynamics AX 4.0 内容。
 author: margoc
-manager: AnnBe
 ms.date: 09/10/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2018-04-10
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: f14c28a5ec46676f4c5f134d604c3928b74548f7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 7f6098fd7231921fe8702f7928dc0b35d32b5647
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567056"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744067"
 ---
 # <a name="ax-40-content-that-has-been-retired"></a>AX 4.0 内容已停用。
 

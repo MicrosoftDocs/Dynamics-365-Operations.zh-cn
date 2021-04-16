@@ -2,11 +2,9 @@
 title: 设置手动包装（2016 年 2 月和 2016 年 5 月）
 description: 包装流程允许您验证并将产品包装到集装箱中。
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 359d3e6d9b6e2ce5439c36ea52ebad4ce7a3e2c9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2843c42474fcd4afbbc2cd7753c0d06cfe467dbe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211710"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810358"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>设置手动包装（2016 年 2 月和 2016 年 5 月）
 

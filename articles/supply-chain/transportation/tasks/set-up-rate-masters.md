@@ -2,11 +2,9 @@
 title: 设置费率主数据
 description: 此过程显示如何设置费率主数据。
 author: ShylaThompson
-manager: tfehr
 ms.date: 10/16/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSBreakMaster,TMSRateMaster,TMSRateMasterBase,TMSRateBaseType, TMSRouteWorkbench
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77629cbaec4c4d4608b8941e55ab23a106d38727
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8cb25726e05f11420c7355c39f7e262abca5da62
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233599"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808982"
 ---
 # <a name="set-up-rate-masters"></a>设置费率主数据
 

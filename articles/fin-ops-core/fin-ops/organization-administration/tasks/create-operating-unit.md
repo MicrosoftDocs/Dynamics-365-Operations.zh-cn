@@ -2,7 +2,6 @@
 title: 创建运营单位
 description: 运营单位是用来拆分企业中的经济资源和运营流程的控件的组织。
 author: sericks007
-manager: AnnBe
 ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a99260cdc3ad5aa5a963cc27093984d22af669f
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: a2d5aa55b0e7a4e462ecf6e6ffcc5abb78951491
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560595"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747409"
 ---
 # <a name="create-an-operating-unit"></a>创建运营单位
 

@@ -2,11 +2,9 @@
 title: 重新分类租赁负债的短期部分
 description: 本主题说明如何创建月度日记帐条目以将部分租赁负债重新分类为短期租赁。
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9189033987a3072c7122e1a198768d9de6aa2a52
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7d98d66b5fe9d32a86eb75d937fedfdca6773ac4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254075"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823087"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>重新分类租赁负债的短期部分
 
@@ -38,8 +36,7 @@ ms.locfileid: "5254075"
 2. 在 **批量日记帐创建** 对话框的 **选择计划** 字段中，选择 **短期租赁负债重新分类**。
 3. 在 **租赁组** 字段中，选择租赁组。 或者，在 **帐簿** 字段中，选择帐簿 ID。
 4. 打开 **过帐** 参数。 或者，如果应创建但不过帐条目，请关闭此参数。
-5. 打开 **过帐前预览** 参数以在条目过帐之前进行查看。
-6. 选择 **确定**。
+5. 选择 **确定**。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

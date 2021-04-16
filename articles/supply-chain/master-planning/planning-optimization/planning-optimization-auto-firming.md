@@ -2,11 +2,9 @@
 title: 通过计划优化自动确认
 description: 本主题说明如何通过计划优化使用自动确认。
 author: ChristianRytt
-manager: tfehr
 ms.date: 11/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 9106137fe6dd097beea9914cdde541e581946f46
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3542e343de29c9fd9d19ed99cab4b4eebacd2899
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227786"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812995"
 ---
 # <a name="autofirming-with-planning-optimization"></a>通过计划优化自动确认
 
@@ -33,6 +31,8 @@ ms.locfileid: "5227786"
 
 > [!NOTE]
 > 仅当物料与供应商关联时，才可自动确认计划采购订单。
+> 
+> 当启用案例更改跟踪时，确定的派生订单（分包采购订单）将显示 *正在审核* 状态。
 
 ## <a name="turn-on-autofirming"></a>开启自动确认
 

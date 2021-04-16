@@ -2,7 +2,6 @@
 title: ISEMPTY ER 函数
 description: 本主题提供有关 ISEMPTY 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b689e6d4bb849f07db5d00cf8a9dc5c16646a927
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 9c33e8b613bf5bf5bc17a42a7668d4cc4ee58e53
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563864"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750428"
 ---
 # <a name="isempty-er-function"></a>ISEMPTY ER 函数
 

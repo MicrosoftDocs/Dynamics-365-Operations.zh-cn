@@ -2,7 +2,6 @@
 title: 注释集成
 description: 本主题介绍双重写入过程中的注释数据集成。
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 02/22/2021
 ms.topic: article
 ms.prod: ''
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 221be52b4d66aaa47f9a1919d5d0b9f8459b7ff9
-ms.sourcegitcommit: db9b35ce6968cad8874b3c13d4c02d84e2617c8b
+ms.openlocfilehash: beab7f2fc4fd96ce7a28734d2449445b3b5d4451
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5577598"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750828"
 ---
 # <a name="note-integration"></a>注释集成
 
