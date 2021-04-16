@@ -2,7 +2,6 @@
 title: 通过招聘雇用现有员工
 description: 开放职位有时可由公司内的员工作为职位候选人。
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/10/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1789818ae1d12ec71f9475113bd3684a589e9e3b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 057dfd841524ad331aadb2ceca762a867d47fa86
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563912"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751950"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>通过招聘雇用现有员工
 

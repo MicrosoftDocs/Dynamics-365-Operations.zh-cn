@@ -2,11 +2,9 @@
 title: 生产计划
 description: 本主题介绍生产计划，并说明如何使用计划优化来修改计划的生产订单。
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,18 +16,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f9b5e4122fbd83ff76e0605b2f0816e10d2d9aab
-ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
+ms.openlocfilehash: 22b78f44940f71097ca8b1cdb74edb06274bba75
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470825"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839215"
 ---
 # <a name="production-planning"></a>生产计划
 
 计划优化支持多个生产场景。 如果要从现有的内置主计划引擎迁移，请注意某些变更的行为，这一点很重要。
 
 以下视频简要介绍了本主题中讨论的一些概念：[Dynamics 365 Supply Chain Management：计划优化增强](https://youtu.be/u1pcmZuZBTw)。
+
+## <a name="turn-on-this-feature-for-your-system"></a>为您的系统启用此功能
+
+如果您的系统尚未包含本主题中所述的功能，请转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *计划优化的计划生产订单* 功能。
 
 ## <a name="planned-production-orders"></a>计划生产订单
 

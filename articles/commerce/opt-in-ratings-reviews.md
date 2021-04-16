@@ -2,11 +2,9 @@
 title: 选择使用评分和评价
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点中选择使用评分和评价。
 author: gvrmohanreddy
-manager: annbe
 ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6c54a8fa01badb6a383c41dc979e71d82a25ef97
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9e3f2a17e182c0e3efc8b90380eff74f350c3278
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251227"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804641"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>选择使用评分和评价
 

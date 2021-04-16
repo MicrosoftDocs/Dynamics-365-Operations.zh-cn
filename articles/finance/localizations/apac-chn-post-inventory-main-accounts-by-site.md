@@ -2,11 +2,9 @@
 title: 按中国站点过帐主库存科目
 description: 此主题提供有关按中国的站点过帐库存主科目过帐的信息。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/21/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventPostingParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5e8b29092546030fec787ee3aa6671e496b58e36
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5cd8903c6eb7ef9d8aff6de3724f4e09d51e8807
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257547"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809960"
 ---
 # <a name="post-inventory-main-accounts-by-site-for-china"></a>按中国站点过帐主库存科目
 

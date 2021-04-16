@@ -2,7 +2,6 @@
 title: 推迟执行 ER 格式的 XML 元素
 description: 本主题说明如何推迟执行电子报告 (ER) 格式的 XML 元素。
 author: NickSelin
-manager: kfend
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: f9a19f4ba6bb124de948dcd9e62b258b2178687a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 84c8c782b917850267c34696f3b2afa607118d84
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562134"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753609"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>推迟执行 ER 格式的 XML 元素
 

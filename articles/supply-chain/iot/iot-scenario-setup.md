@@ -2,11 +2,9 @@
 title: IoT 智能的方案设置
 description: 此主题介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中配置 IoT 智能的方案。
 author: robinarh
-manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1632e6df34e2ee2558502597bb94281ab9937824
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2927a976c38e9ed8166c62b030d665a159119ae1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264814"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826411"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>IoT 智能的方案设置
 

@@ -2,11 +2,9 @@
 title: 使用库位指令
 description: 本主题介绍如何使用库位指令。 位置指令是帮助标识领料和使位置用于库存移动的用户定义的规则。
 author: Mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
-ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
+ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470511"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838386"
 ---
 # <a name="work-with-location-directives"></a>使用库位指令
 
@@ -152,7 +150,7 @@ ms.locfileid: "5470511"
     > [!IMPORTANT]
     > 为了能够同时进行多物料放置和单个 SKU 放置，您必须指定两个具有相同结构和设置的行，但必须将一行的 **多个 SKU** 选项设置为 *是*，将另一行的此选项设置为 *否*。 因此，对于放置工序，您必须具有两个相同的库位指令，即使无法在工作 ID 上区分单个 SKU 和多个 SKU。 通常，如果您未同时设置这两个库位指令，应用的库位指令将产生意外的业务流程库位。 如果您需要处理包括多个 SKU 的订单，必须使用 **工作类型** 为 *领料* 的库位指令的类似设置。
 
-    针对处理多个物料编号的工作行使用 **多个 SKU** 选项。 （物料编号在工作详细信息中将为空白，并在仓库应用中的处理页面上显示为 **多个**。）
+    针对处理多个物料编号的工作行使用 **多个 SKU** 选项。 （物料编号在工作详细信息中将为空白，并在仓库管理移动应用中的处理页面上显示为 **多个**。）
 
     在典型的示例场景中，设置工作模板，以便它具有多个领料/放置对。 在这种情况下，您可能需要搜索特定的暂存库位以用于 **工作类型** 为 *放置* 的行。
 
@@ -171,7 +169,7 @@ ms.locfileid: "5470511"
     > [!NOTE]
     > 该字段仅适用于允许补货的选定工作订单类型。 有关完整列表，请参阅[特定于工作订单类型的字段](#fields-specific-types)部分。
 
-- **处置代码** – 该字段用于工作订单类型为 *采购订单*、*成品储存* 或 *退货单*，以及工作类型为 *放置* 的库位指令。 使用它指导流以使用特定库位指令，具体取决于工作人员在仓库应用中选择的处置代码。 例如，您可以将退回的货物直接送至检查库位，然后再退回到存货。 处置代码可以链接到库存状态。 这样，它可以用于更改库存状态作为接收流程的一部分。 例如，您有库存状态设置为 *QA* 的处置代码 *QA*。 然后，您可以使用单独的库位指令将库存移至检验库位。
+- **处置代码** – 该字段用于工作订单类型为 *采购订单*、*成品储存* 或 *退货单*，以及工作类型为 *放置* 的库位指令。 使用它指导流以使用特定库位指令，具体取决于工作人员在仓库管理移动应用中选择的处置代码。 例如，您可以将退回的货物直接送至检查库位，然后再退回到存货。 处置代码可以链接到库存状态。 这样，它可以用于更改库存状态作为接收流程的一部分。 例如，您有库存状态设置为 *QA* 的处置代码 *QA*。 然后，您可以使用单独的库位指令将库存移至检验库位。
 
     > [!NOTE]
     > 该字段仅适用于允许补货的选定工作订单类型。 有关完整列表，请参阅[特定于工作订单类型的字段](#fields-specific-types)部分。

@@ -2,11 +2,9 @@
 title: 结算具有多个折扣期的部分客户付款
 description: 本文显示在存在多个折扣期间时部分客户付款如何结算。
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c5047debd0f3d035ec5fc8bc24745183b28e9f0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241706"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835092"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>结算具有多个折扣期的部分客户付款
 
@@ -56,7 +54,7 @@ Arnie 可以在 **客户交易记录** 页上查看该交易记录。
 
 折扣信息显示在 **结算未结交易记录** 页的底部。 如果您不将 **要结算的金额** 值更改为 **294.00**，则显示的 **现金折扣金额** 值将不同。 但是，在过帐付款时，将提取 6.00 的现金折扣，因为结算会自动调整 **要结算的金额** 值。
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | 现金折扣日期           | 6/30/2015 |
 | 现金折扣金额         | 20.00     |
@@ -75,7 +73,7 @@ Arnie 可以在 **客户交易记录** 页上查看该交易记录。
 
 折扣信息显示在 **结算未结交易记录** 页的底部。
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | 现金折扣日期           | 7/09/2015 |
 | 现金折扣金额         | 30.00     |

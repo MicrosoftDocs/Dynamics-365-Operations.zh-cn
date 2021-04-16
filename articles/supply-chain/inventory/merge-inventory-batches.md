@@ -2,11 +2,9 @@
 title: 合并库存批次
 description: 本文提供有关如何将两个或多个库存批次整合到单个合并批次的信息。
 author: pjacobse
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d43733455765bc8b69ce8595c46b00942ddac6b7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b3594e9f5e26eeecbcb22e67807df9720fdd9ef8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228579"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808176"
 ---
 # <a name="merge-inventory-batches"></a>合并库存批次
 

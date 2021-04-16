@@ -2,11 +2,9 @@
 title: 安装和连接仓库应用
 description: 此主题说明如何在每个移动设备上安装仓库应用，以及如何进行配置以将其连接到 Microsoft Dynamics 365 Supply Chain Management 环境。 可以手动配置每个设备，也可以通过文件或使用 QR 代码导入连接字符串。
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -18,19 +16,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3d2920d015aab5e4f0a1966d2a2574fb659a7c80
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5486969"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835551"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>安装和连接仓库应用
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> 本主题介绍如何配置旧仓库应用。 如果您要查找有关如何配置新仓库管理移动应用的信息，请参阅[安装和连接仓库管理移动应用](install-configure-warehouse-management-app.md)。
+> 本主题介绍了如何配置旧仓库应用（现在已弃用）。 如果您要查找有关如何配置新仓库管理移动应用的信息，请参阅[安装和连接仓库管理移动应用](install-configure-warehouse-management-app.md)。
 
 > [!NOTE]
 > 本主题介绍如何为云部署配置仓库应用。 如果您需要了解有关如何为本地部署配置仓库应用的信息，请参阅[用于本地部署的仓库](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)。

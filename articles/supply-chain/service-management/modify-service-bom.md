@@ -2,11 +2,9 @@
 title: 修改服务项清单
 description: 修改服务项清单。
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/03/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0c3656f765ea3c53c38679a1709a02fba36a848
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a8fb074dae7686b73bf63fcdcce7e58c331f6dfc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204222"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810766"
 ---
 # <a name="modify-a-service-bom"></a>修改服务项清单 
 

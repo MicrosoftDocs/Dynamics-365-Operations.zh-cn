@@ -2,11 +2,9 @@
 title: 将渠道添加到组织层次结构
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中将渠道添加到组织层次结构。
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4212797d2959c4f8b0d60e6b45de76ffc3ee0dc2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c7ff6d8ee7e526e45975cfa500b5e6d6079054dc
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216736"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800679"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>将渠道添加到组织层次结构
 

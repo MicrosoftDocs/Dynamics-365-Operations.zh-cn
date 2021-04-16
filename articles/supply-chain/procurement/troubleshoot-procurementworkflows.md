@@ -2,11 +2,9 @@
 title: 采购工作流故障排除
 description: 本主题介绍如何解决使用采购工作流时可能遇到的问题。
 author: SmithaNataraj
-manager: tfehr
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: d5d688c5769a62580e48908117d0562b26eab10a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 100adef4dfd257ba86dd394b401766d2cb00394c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222817"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832026"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>采购工作流故障排除
 

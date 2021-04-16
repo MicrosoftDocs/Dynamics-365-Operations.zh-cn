@@ -2,11 +2,9 @@
 title: 通过提领看板补货
 description: 此主题介绍如何使用提领看板进行物料补货用于制造活动。
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07d83e64bcd206ecedc38fa884b5864d1fbd8f68
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7044aa84dc7ea7adc303c250e75ca6fb4a493800
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216779"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831234"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>通过提领看板补货
 

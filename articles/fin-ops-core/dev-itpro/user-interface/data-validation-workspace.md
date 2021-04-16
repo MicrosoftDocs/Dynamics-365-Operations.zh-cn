@@ -2,7 +2,6 @@
 title: 数据验证核对清单工作区
 description: 数据验证核对清单工作区可以跟踪跨公司、区域和人员的数据验证流程。
 author: bking
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.reviewer: rhaertle
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: 1fdc2ae0363690984544c59a356540a9b737956d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 96385f94ac8e3f3d16924c079af0d6d258d5ec39
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569089"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752632"
 ---
 # <a name="data-validation-checklist-workspace"></a>数据验证核对清单工作区
 

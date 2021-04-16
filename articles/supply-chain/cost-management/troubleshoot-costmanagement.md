@@ -1,12 +1,10 @@
 ---
 title: 成本管理疑难解答
 description: 此主题介绍如何解决使用成本管理时可能遇到的问题。
-author: riluan
-manager: tfehr
+author: AndersGirke
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: riluan
+ms.author: aevengir
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: dceaca64132857d796a16c2450a372ba05712cf5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fc6a48a44a529c82c2a9ee818af95569d9bcb249
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262445"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834281"
 ---
 # <a name="troubleshoot-cost-management"></a>成本管理疑难解答
 
@@ -37,7 +35,7 @@ ms.locfileid: "5262445"
 
 小计可能会在导出结果时导致问题，尤其是在用户更改记录序列时。
 
-要检查小计，可以将结果导出到 Microsoft Excel。 或者，如果您要在 Supply Chain Management 中检查小计，请使用 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用 *新网格控件* 和 *(预览)在网格中分组* 功能，这提供了一种更加灵活的方式来按列查看任何一个组的小计。 有关详细信息，请参阅[网格功能](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md)。
+要检查小计，可以将结果导出到 Microsoft Excel。 或者，如果您要在 Supply Chain Management 中检查小计，请使用 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用 *新网格控件* 和 *在网格中分组* 功能，这提供了一种更加灵活的方式来按列查看任何组的小计。 有关详细信息，请参阅[网格功能](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md)。
 
 ### <a name="inventory-value-storage-report-doesnt-support-ledger-account-information"></a>库存值存储报表不支持会计科目信息
 

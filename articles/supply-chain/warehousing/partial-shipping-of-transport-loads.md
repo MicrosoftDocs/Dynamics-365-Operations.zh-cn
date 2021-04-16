@@ -2,11 +2,9 @@
 title: 运输负荷部分装运
 description: 本主题说明如何部分装运装载和推迟规划装载的产能。
 author: Mirzaab
-manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSTransportLoad
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: f12f1c08d4d04c284f0f927f99747e763696e43a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 179a784f1f02ed0840ba5219c350e274272b59eb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234649"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818936"
 ---
 # <a name="partial-shipment-of-a-transport-load"></a>运输负荷部分装运
 

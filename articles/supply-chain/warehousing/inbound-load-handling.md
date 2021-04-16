@@ -2,11 +2,9 @@
 title: 仓库对采购订单入站负荷的处理
 description: 此主题介绍仓库对采购订单入站负荷的处理流程。
 author: omulvad
-manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fec2e7f39569c52ec17c5d0b2474eca720e0180a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235332"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835622"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>仓库对采购订单入站负荷的处理
 
@@ -66,7 +64,7 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
 
 - **配置为支持负荷接收的移动设备菜单**
 
-    适用于移动设备的[仓库应用](install-configure-warehousing-app.md)支持以下工作创建流程：
+    适用于移动设备的[仓库管理移动应用](../warehousing/install-configure-warehouse-management-app.md)支持以下工作创建流程：
 
     - 加载物料接收
     - 加载物料接收和储存
@@ -285,7 +283,7 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
 
 仓库验收员使用移动设备登记链接到负荷的入站库存之前，必须先为该目的创建一个移动设备菜单项。
 
-此部分中，将创建一个移动设备菜单项并将其添加到现有菜单中。 然后，仓库工作人员可以在仓库应用中选择该菜单项。
+此部分中，将创建一个移动设备菜单项并将其添加到现有菜单中。 然后，仓库工作人员可以在仓库管理移动应用中选择该菜单项。
 
 1. 转到 **仓库管理 \> 设置 \> 移动设备 \> 移动设备菜单项**，并确保您的移动设备菜单中包含具有以下设置的菜单项：
 

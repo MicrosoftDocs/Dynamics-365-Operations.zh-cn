@@ -1,12 +1,10 @@
 ---
 title: 库龄报表示例和逻辑
 description: 本主题提供了一些示例来展示如何解释库龄报表的结果。
-author: RichardLuan
-manager: tfehr
+author: AndersGirke
 ms.date: 5/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: riluan
+ms.author: aevengir
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1d9c70a7931c009cd53fbd28a3f4c768d04964a4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: edc974bcbd72ef62438fd6271a6fd0e56143f976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214410"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821577"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>库龄报表示例和逻辑
 

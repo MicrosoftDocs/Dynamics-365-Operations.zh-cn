@@ -2,11 +2,9 @@
 title: 查看派遣团队
 description: 查看派遣团队。
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7e4e4faf273aeb7a6b68ae61396913f1e2b86af
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3cab1269bd5c11a6aa4484208c5b7c07e766c508
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259570"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824190"
 ---
 # <a name="view-dispatch-teams"></a>查看派遣团队   
 

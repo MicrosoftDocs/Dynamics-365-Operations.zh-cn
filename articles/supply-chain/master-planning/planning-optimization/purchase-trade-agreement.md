@@ -2,11 +2,9 @@
 title: 使用采购贸易协议进行主计划
 description: 本主题介绍计划优化如何基于在采购贸易协议中找到的最佳价格或提前期来查找计划订单的供应商和/或提前期。
 author: ChristianRytt
-manager: tfehr
 ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d8d5b8c7ac5da9c68926d7fbb4f37b81b56665cb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 138bf58e07d4d6df3c2106e4176e02fcdb0a6dba
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264714"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820410"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>使用采购贸易协议进行主计划
 

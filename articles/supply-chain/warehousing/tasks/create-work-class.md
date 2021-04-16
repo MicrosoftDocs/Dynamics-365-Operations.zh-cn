@@ -2,11 +2,9 @@
 title: 创建工作类
 description: 该过程会显示如何设置工作类。
 author: ShylaThompson
-manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkClass
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49b110b93e6f0f886d180f9f2725245faad7afab
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: be2c037ccc8f5cafc94d9fdee9647605889d0599
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239030"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830970"
 ---
 # <a name="create-a-work-class"></a>创建工作类
 

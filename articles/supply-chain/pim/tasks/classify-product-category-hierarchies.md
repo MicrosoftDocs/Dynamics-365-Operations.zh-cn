@@ -2,11 +2,9 @@
 title: 使用类别层次结构为产品分类
 description: 本主题介绍如何使用类别层次结构为产品分类。
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, EcoResCategory, EcoResCategoryHierarchyRole
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 61ad92804b583f0474b582b17dc381e9d77e38bf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9d37644d9dd124e8894197c56cc585cc6f805b54
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218625"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820170"
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>使用类别层次结构为产品分类
 

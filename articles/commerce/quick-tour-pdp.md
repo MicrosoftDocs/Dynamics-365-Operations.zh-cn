@@ -2,11 +2,9 @@
 title: 产品详细信息页面概览
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中的产品详细信息页 (PDP)。
 author: anupamar-ms
-manager: annbe
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 020c2a72515eb112adb33c6b58e3a5084339d040
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e4a61383c790b63aa1c07f7004f264495171441a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243815"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792211"
 ---
 # <a name="product-details-pages-overview"></a>产品详细信息页面概览
 
 [!include [banner](includes/banner.md)]
 
 此主题概述 Microsoft Dynamics 365 Commerce 中的产品详细信息页 (PDP)。
-
-## <a name="overview"></a>概览
 
 PDP 提供有关产品的详细信息，可供客户用于选择产品选项，如尺寸、风格和颜色。 PDP 应展示客户要做出采购决定所需全部产品信息。
 

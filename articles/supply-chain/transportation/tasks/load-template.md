@@ -2,11 +2,9 @@
 title: 负荷模板
 description: 本主题介绍如何设置负荷模板以及如何将负荷模板与新负荷关联。
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 80004b5d22e1cf81c1ffa9f74c2c479e1561df72
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 175c8017b14cc298cdaa00031f8450015a747786
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247206"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831498"
 ---
 # <a name="load-templates"></a>负荷模板
 

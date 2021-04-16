@@ -2,11 +2,9 @@
 title: 设置销售税结算期间
 description: 本主题说明如何在 Dynamics 365 Finance 中设置销售税结算期。
 author: twheeloc
-manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e2e5340150623057e233ed0acf487c42c61deba2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fd11068a31b5324d87416e7c00f75a59743f695a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222111"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813499"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>设置销售税结算期间
 

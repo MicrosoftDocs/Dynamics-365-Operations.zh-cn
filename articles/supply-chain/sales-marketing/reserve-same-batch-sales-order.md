@@ -2,11 +2,9 @@
 title: 为销售订单预留相同批次
 description: 本文说明如何设置产品以对照单个库存批次预留库存。
 author: omulvad
-manager: tfehr
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c7745b1306142678760318cc47f54b93d6f727a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e0937be76aa687ed986ff83e67f2db3e2dadd0f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231808"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807648"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>为销售订单预留相同批次
 
@@ -43,7 +41,7 @@ ms.locfileid: "5231808"
 - 根据到期日期以及任何适用的客户适售期，该批次已经到期。 如果物料的物料模型组受先过期先出 (FEFO) 日期控制并且已选择最佳使用日期作为选择标准，则仍可考虑预留该物料。
 - 根据到期日期和最佳使用日期以及任何客户适售期，该批次的保质期剩余天数不足。
 
-对于与启用了 **使用仓库管理流程** 的存储维度组关联的物料，您可以使用批处理号库存维度在库位维度之上定义的预留层次结构，来预留特定的批处理号。 销售和转移单行的 **批次预留** 页面还允许您根据可用的批处理号选择和预留多个行。 有关使用批处理号维度在库位之下的预留层次结构的操作方法的详细信息，请参阅[灵活的仓库级维度预留策略](../warehousing/flexible-warehouse-level-dimension-reservation.md)。
+对于与启用了 **使用仓库管理流程** 的存储维度组关联的物料，您可以使用批号库存维度在库位维度之上定义的预留层次结构预留特定的批号。 此类型的预留层次结构也称为 *Batch-above \[location\]* 预留层次结构。 销售和转移单行的 **批次预留** 页面还允许您根据可用的批处理号选择和预留多个行。 有关使用批号维度在库位之下的预留层次结构 (*Batch-below \[location\]*) 的操作方法的详细信息，请参阅[灵活的仓库级维度预留策略](../warehousing/flexible-warehouse-level-dimension-reservation.md)。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

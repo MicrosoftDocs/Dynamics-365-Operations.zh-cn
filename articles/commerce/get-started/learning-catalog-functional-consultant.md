@@ -6,19 +6,18 @@ ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5810c9204a0532334d6d0e176decbc9063b8517a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f7a74acb3a04316140c602d670963ea38ef7d8ae
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252646"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5634672"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-functional-consultants"></a>Dynamics 365 Commerce 功能顾问学习目录
 

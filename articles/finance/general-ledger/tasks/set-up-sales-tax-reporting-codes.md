@@ -2,11 +2,9 @@
 title: 设置销售税申报代码
 description: 销售税报表代码指销售税报表上列出的字段编号。
 author: twheeloc
-manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: be24e18da63d1a613c3c6e72f7c767c7af9b6656
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1e040bac6ef9e950e8d7f97e3c136636acf1fe43
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222135"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813523"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>设置销售税申报代码
 

@@ -2,11 +2,9 @@
 title: 冲销供应商付款
 description: 文本介绍冲销、删除、取消和拒绝付款之间的差异。 此外，还说明冲销供应商支票的两种方法。
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankChequeTable, LedgerJournalTransBankChequeReversal, LedgerJournalTransVendPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65aefa75de772fa39b45fc376349b75a3662cd73
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ffcaae6e060ecc9cac4439523f11cc514ce1b5b6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227418"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827930"
 ---
 # <a name="reverse-a-vendor-payment"></a>冲销供应商付款
 
