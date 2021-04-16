@@ -2,11 +2,9 @@
 title: 配置 Dynamics 365 Commerce 评估环境
 description: 本主题说明如何预配 Microsoft Dynamics 365 Commerce 评估环境。
 author: psimolin
-manager: annbe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a57cc02c6d62f288f14b65191c2f4927a019963c
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 19cedf01d1b916de785454d55448f41d1f5db1df
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478156"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792283"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>配置 Dynamics 365 Commerce 评估环境
 

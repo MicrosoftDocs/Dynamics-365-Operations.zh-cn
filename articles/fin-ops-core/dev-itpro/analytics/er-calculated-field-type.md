@@ -2,7 +2,6 @@
 title: 支持对计算字段类型的 ER 数据源执行参数化调用
 description: 此主题提供有关如何对 ER 数据源使用计算字段类型的信息。
 author: NickSelin
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c2c13cd3f165826e0d5b5ac901ffa61895301e7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 897133a27f9d3da2f576ce675c0949f824cde881
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569193"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749481"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>支持对计算字段类型的 ER 数据源执行参数化调用
 
@@ -194,7 +193,7 @@ ms.locfileid: "5569193"
 
 ![展开的计算字段级别列表](media/er-calculated-field-type-08.png)
 
-### <a name="use-the-configured-calculated-field-for-binding-format-elements"></a>对绑定格式元素使用配置的计算字段
+### <a name="use-the-configured-calculated-field-for-binding-format-elements&quot;></a>对绑定格式元素使用配置的计算字段
 
 1. 选择 **模型.数据2.级别** 以选择配置的计算字段。
 2. 选择 **报.税.正常** 格式元素。
@@ -215,7 +214,7 @@ ms.locfileid: "5569193"
 9. 选择 **绑定**。
 10. 选择 **是** 以确认在所选格式元素下的所有嵌套格式元素中，将当前使用的数据源 **级别3** 替换为新数据源 **级别**。
 
-   为表示征税级别的 XML 元素指定参数化计算字段的自变量时（例如，**模型.数据2.级别("减税")** 作为文本值），则无需对嵌套的 XML 属性执行z相同操作 — 其绑定将自动继承在父级别（**模型.数据2.级别.聚合.基数**，而不是 **模型.数据2.级别("减税").聚合.基数**）定义的自变量的值。
+   为表示征税级别的 XML 元素指定参数化计算字段的自变量时（例如，**模型.数据2.级别(&quot;减税")** 作为文本值），则无需对嵌套的 XML 属性执行z相同操作 — 其绑定将自动继承在父级别（**模型.数据2.级别.聚合.基数**，而不是 **模型.数据2.级别("减税").聚合.基数**）定义的自变量的值。
 
 不支持重复调用任何参数化计算字段。
 

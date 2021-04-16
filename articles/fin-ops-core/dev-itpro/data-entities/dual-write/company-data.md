@@ -2,7 +2,6 @@
 title: Dataverse 中的公司概念
 description: 本主题介绍 Finance and Operations 与 Dataverse 之间的公司数据集成。
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 08/04/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 189d1b8a68f8457d32d656fefeb6cc2a332a3b22
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 1c3af66c0b8daa120c6ba19bd910f7531ffada0e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560241"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751402"
 ---
 # <a name="company-concept-in-dataverse"></a>Dataverse 中的公司概念
 

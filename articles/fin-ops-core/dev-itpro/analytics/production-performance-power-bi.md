@@ -2,7 +2,6 @@
 title: 生产绩效 Power BI 内容
 description: 此主题介绍生产绩效 Power BI 内容中包含的内容。
 author: AndersGirke
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a48db429e2518898f2b22845d36e1c5171d71cbe
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 4118d8f5e147d27e1620d236dbe0e0bd40dc3068
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567834"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753056"
 ---
 # <a name="production-performance-power-bi-content"></a>生产绩效 Power BI 内容
 

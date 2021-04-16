@@ -2,7 +2,6 @@
 title: ER 将数据模型映射到所选数据源
 description: 本主题介绍如何将电子报告 (ER) 数据模型映射到选定的 Microsoft Dynamics 365 Finance 数据源。
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8b6f5e3b64e7d000feb7fa1ff84edd2e20891bb7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0eb7f48a50e32637003c1488d80899a704709068
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570654"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751478"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>ER 将数据模型映射到所选数据源
 

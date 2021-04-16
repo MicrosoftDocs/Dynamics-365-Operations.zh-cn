@@ -2,11 +2,9 @@
 title: 定义新部门
 description: 部门作为运作单位代表一个商业职能范围，如销售或财务部门。
 author: andreabichsel
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMOperatingUnit, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm, HcmPersonnelManagementWorkspace
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 06b93e9b7bd4d68aa5d6f6c377991963e37579ae
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: fd2e0465230d40c95c1bc115a34a2ce3369ccb81
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464396"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793505"
 ---
 # <a name="define-new-departments"></a>定义新部门
 

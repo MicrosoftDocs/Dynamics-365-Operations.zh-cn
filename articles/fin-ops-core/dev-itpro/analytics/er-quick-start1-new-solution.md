@@ -2,7 +2,6 @@
 title: 设计新的 ER 解决方案打印自定义报表
 description: 本主题说明如何设计电子报告 (ER) 解决方案来打印自定义报表。
 author: NickSelin
-manager: AnnBe
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c5bbfae36fb15437f2baadc66663cbfdb28691e8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 986beb6d46ac69192206c86fc3660c2e2345d6a9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562603"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743719"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>设计新的 ER 解决方案打印自定义报表
 
