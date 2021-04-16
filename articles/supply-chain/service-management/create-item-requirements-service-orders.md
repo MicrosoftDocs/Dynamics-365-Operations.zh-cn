@@ -2,11 +2,9 @@
 title: 为服务订单创建物料需求
 description: 如果您需要对服务订单预留特定物料，可以创建它的库存物料需求。
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b342b20cc11addc53fc6ea4e1a23d3b449eb9ee
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 650d02d2160757d9629e4deb1e9217c85e9d01df
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257933"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831618"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>为服务订单创建物料需求 
 

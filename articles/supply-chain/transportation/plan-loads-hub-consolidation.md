@@ -2,11 +2,9 @@
 title: 使用中心合并计划装载量概览
 description: 本文介绍当您从其他仓库将货物交付给同一客户，或将多个供应商的货物接收到同一个仓库时，在枢纽合并装运的功能。
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, WHSHistory, WHSLoadTable, WHSLoadPlanningListPage, TMSParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b599c953244109b56958c0fe02deedfa252973
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4f0e7ae8db62ce374b991ac5f117e3d1d33534df
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205194"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828458"
 ---
 # <a name="plan-loads-using-hub-consolidation-overview"></a>使用中心合并计划装载量概览
 

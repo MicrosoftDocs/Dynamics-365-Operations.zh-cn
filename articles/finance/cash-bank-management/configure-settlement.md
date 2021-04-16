@@ -2,11 +2,9 @@
 title: 配置结算
 description: 交易记录的结算方式和时间可能非常复杂，因此，您理解并正确定义参数以满足您的业务需求非常重要。 本主题介绍用于应付帐款和应收帐款的结算的参数。
 author: kweekley
-manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee37bc38c1027e2b52e25b331f65be6f2f5edd98
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2acfe35363558398d873c7fd3a377d6db7785f19
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254051"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830440"
 ---
 # <a name="configure-settlement"></a>配置结算
 

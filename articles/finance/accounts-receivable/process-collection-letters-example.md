@@ -2,7 +2,6 @@
 title: 处理催款单示例
 description: 本主题详细介绍了一个示例，以显示创建、打印和过帐催款单的过程。
 author: JodiChristiansen
-manager: AnnBe
 ms.date: 02/03/2021
 ms.topic: business-process
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: df4252513f9e3a02632561b4e465c98edc888ea7
-ms.sourcegitcommit: 4ecc1bf82fbb04882d7ef5e1994ef3c07ef953dc
+ms.openlocfilehash: 1b80532463d86dd59b867fca2ee24675396ce717
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5558303"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826339"
 ---
 # <a name="process-collection-letters-example"></a>处理催款单示例
 

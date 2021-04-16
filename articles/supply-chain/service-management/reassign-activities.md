@@ -2,11 +2,9 @@
 title: 重新分配活动
 description: 本主题描述如何将服务活动从一个工作人员重新分配给另一个工作人员。
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36631a770bb7970e879814c98a72104bae8db8be
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b7b347773bd4d7f17fe1180a17b2a49b7d6a9a24
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260965"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836150"
 ---
 # <a name="reassign-activities"></a>重新分配活动 
 

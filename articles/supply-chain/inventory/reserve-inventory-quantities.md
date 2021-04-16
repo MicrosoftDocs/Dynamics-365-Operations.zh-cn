@@ -2,11 +2,9 @@
 title: 预留库存数量
 description: 此主题介绍预留库存时可用的不同选项。
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c28cede05d10a9929c83e87c53fddd53e99db1e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d1fcdb43f95892c541be2c31101d8f592f5d5e16
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209579"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834185"
 ---
 # <a name="reserve-inventory-quantities"></a>预留库存数量
 

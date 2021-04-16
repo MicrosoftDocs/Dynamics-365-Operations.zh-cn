@@ -2,11 +2,9 @@
 title: 设置退货原因代码
 description: 设置退货原因代码组。
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnReasonCodeGroup, ReturnReasonCode
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d268c6fc90457c9f84f66ea5dbf86df356bea0f4
-ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
+ms.openlocfilehash: baf48076b31b5b465234167e001bf58b6427dc86
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470660"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835742"
 ---
 # <a name="set-up-return-reason-codes"></a>设置退货原因代码   
 

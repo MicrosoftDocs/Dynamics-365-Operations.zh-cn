@@ -2,7 +2,6 @@
 title: 存档库存交易记录
 description: 本主题介绍如何存档库存交易记录数据以帮助提高系统性能。
 author: sherry-zheng
-manager: tfehr
 ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 3a0fa65eb728e4ce96bdfc3f7a0f04901551ccea
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: bacc27c1a9066892c51110d28ba9a2ad26bebe77
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556407"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839287"
 ---
 # <a name="archive-inventory-transactions"></a>存档库存交易记录
 

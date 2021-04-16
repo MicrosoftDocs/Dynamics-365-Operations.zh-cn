@@ -2,11 +2,9 @@
 title: Lean manufacturing 概述
 description: 本文在 Dynamics 365 Supply Chain Management 中提供 lean manufacturing 功能的概览和描述。
 author: ChristianRytt
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow, Kanban, KanbanQuantityOverview, KanbanAssignCard, KanbanCirculatingCards, KanbanRules, WHSKanbanWaveTableManagePickingListPool
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b333b1bf5842211641c946730c5c6582a221b5b5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3da372e4e110b87322a7f2e974bd999c4c085234
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246013"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825787"
 ---
 # <a name="lean-manufacturing-overview"></a>Lean manufacturing 概览
 

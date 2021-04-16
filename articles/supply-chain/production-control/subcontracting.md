@@ -2,11 +2,9 @@
 title: 转包
 description: 此主题帮助您在 Dynamics 365 Supply Chain Management 中的制造内构建转包演练。
 author: christophernread
-manager: tfehr
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f771c15d98abe3689054d43cc8b33632121522a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255533"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825174"
 ---
 # <a name="subcontracting"></a>转包
 
@@ -210,7 +208,7 @@ HQUS 法人制造高端扬声器。 在制造过程中，扬声器要经过三�
 
     ![“工作”页中的两组原材料领料工作](./media/subcontract22_work-page.png)
 
-26. 启动仓库应用程序处理工序 10 的仓库工作。
+26. 启动仓库管理移动应用以处理工序 10 的仓库工作。
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -222,13 +220,13 @@ HQUS 法人制造高端扬声器。 在制造过程中，扬声器要经过三�
     - 在 **开始工序编号** 字段中，选择 **10**。
     - 在 **截止工序编号** 字段中，选择 **10**。
 
-    ![“常规”选项卡中设置的值](./media/subcontract23_start-dialog.png)
+    ![“常规”选项卡 1 上设置的值](./media/subcontract23_start-dialog.png)
 
 31. 选择 **确定** 关闭 **开始** 对话框并返回到 **所有生产订单** 页。
 
     请注意，生产订单的状态现在是 **已开始**。 工序 10 的材料供领料单日记帐自动过帐使用。 工序 10 所用时间由工艺卡日记帐自动过帐计算。
 
-32. 启动仓库应用程序处理工序 20 的仓库工作。
+32. 启动仓库管理移动应用以处理工序 20 的仓库工作。
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -240,7 +238,7 @@ HQUS 法人制造高端扬声器。 在制造过程中，扬声器要经过三�
     - 在 **数量** 字段中，输入 **10**。
     - 将 **立即将领料单过帐** 选项设置为 **否**。
 
-    ![“常规”选项卡中设置的值](./media/subcontract24_general-tab.png)
+    ![“常规”选项卡 2 上设置的值](./media/subcontract24_general-tab.png)
 
 35. 选择 **确定** 关闭 **开始** 对话框并返回到 **所有生产订单** 页。
 

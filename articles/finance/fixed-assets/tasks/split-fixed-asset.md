@@ -2,11 +2,9 @@
 title: 拆分固定资产
 description: 此主题介绍如何把一个资产帐簿的一定百分百拆分到新资产帐簿。
 author: saraschi2
-manager: AnnBe
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook, AssetSplit, AssetBookLookup, LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db601be192b57fbec220193d3c9fde1a4f50c085
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: aa21d5698275ff691ca83d29abd297a796b652d1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213500"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823900"
 ---
 # <a name="split-a-fixed-asset"></a>拆分固定资产
 

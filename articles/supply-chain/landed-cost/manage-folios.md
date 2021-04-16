@@ -2,7 +2,6 @@
 title: 管理帐页
 description: 本主题介绍如何使用帐页。 帐页通常包含每个装运的一个实体或公司的一个供应商的货物。 帐页中的货物可以在一个集装箱中，也可以分布在多个集装箱中。
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2205ad8da1987130e97054b3f20749bce61198dd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 99159d2197648b8f17a719b74c8cd6ea4bffe550
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500830"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833825"
 ---
 # <a name="manage-folios"></a>管理帐页
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 帐页通常由海关法规确定。 它可以包含每个装运的一个实体或公司的一个供应商的货物。 帐页中的货物可以在一个集装箱中，也可以分布在多个集装箱中。
 

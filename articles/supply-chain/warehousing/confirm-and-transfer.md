@@ -2,11 +2,9 @@
 title: 确认并转移
 description: 本主题介绍如何使用“确认并转移”功能，用户可在完成与负荷关联的所有工作之前，使用此功能将这些负荷运出仓库。
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d4e7476e6c1b0ac404caf32f198a4a62e1dd1200
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2ab2d720f7f0425f0c2fd5d79d684a02b452e4d7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251785"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828410"
 ---
 # <a name="confirm-and-transfer"></a>确认并转移
 

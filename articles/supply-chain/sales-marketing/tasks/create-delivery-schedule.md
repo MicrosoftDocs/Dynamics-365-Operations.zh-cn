@@ -2,11 +2,9 @@
 title: 创建交货计划
 description: 此过程显示如何为销售订单创建交货计划。
 author: omulvad
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesDeliverySchedule, SalesEditLines,  SrsReportViewerForm
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ddbc59a35b5e6d466a495885e992a00f42f9994
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 79fa41df07bc09f24e31900a52f4905db6d1c63e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250898"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836414"
 ---
 # <a name="create-delivery-schedule"></a>创建交货计划
 

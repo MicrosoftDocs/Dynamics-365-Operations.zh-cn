@@ -2,11 +2,9 @@
 title: 资产租赁惯例
 description: 文主题介绍租赁资产的惯例。
 author: moaamer
-manager: Ann Beebe
 ms.date: 1/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetLease
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7072c34ccbffc6bf135f55fd594cac4d9ea5a463
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e6450438a6e8c594590df3cc4502895913f50d01
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237508"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842386"
 ---
 # <a name="asset-leasing-conventions"></a>资产租赁惯例
 

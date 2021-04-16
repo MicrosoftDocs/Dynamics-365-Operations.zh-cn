@@ -2,11 +2,9 @@
 title: 小型包裹装运
 description: 本主题提供有关小型包裹装运 (SPS) 功能的信息。 此功能让 Microsoft Dynamics 365 Supply Chain Management 可以将有关已装箱集装箱的详细信息提交给承运人，然后从该承运人处接收发货标签、装运费用和跟踪号。
 author: Mirzaab
-manager: tfehr
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRateEngine, TMSCarrier, CustTable, TMSShippingCarrierCustomerAccount, TMSSmallParcelShippingFeature
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 37f07139853c30da25c067a3d736b4b9bf4eb361
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3969ee6b46f38fe2650881fb0183c60aadce6c8a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501166"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831162"
 ---
 # <a name="small-parcel-shipping"></a>小型包裹装运
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 小型包裹装运 (SPS) 功能提供通过承运人 API 进行通信的框架，以此让 Microsoft Dynamics 365 Supply Chain Management 可以直接与装运承运人交互。 当您通过商业装运承运人装运各个销售订单，而不是使用集装箱装运或零担 (LTL) 装运时，此功能很有用。
 

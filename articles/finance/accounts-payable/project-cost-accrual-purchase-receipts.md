@@ -2,11 +2,9 @@
 title: 采购收据中的应计项目成本
 description: 此主题介绍如何在 Microsoft Dynamics 365 Finance 中跟踪采购收据内的应计项目成本。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostControlCommittedCost
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c2b92f1f5caf34bf798b86380b73c2dcc7de17b3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 615e22234323e2235fba002c50f9ab9c230c021e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231632"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827882"
 ---
 # <a name="project-cost-accrual-on-purchase-receipts"></a>采购收据中的应计项目成本
 

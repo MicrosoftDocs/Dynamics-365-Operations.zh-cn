@@ -1,12 +1,10 @@
 ---
 title: 审核和确认采购订单
 description: 本主题介绍了创建后采购订单所经历的状态，以及对采购订单启用更改管理的效果。
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchOrderInReview, PurchOrderApproved, PurchOrderInDraft, PurchOrderAssignedToMe, VendPurchOrderJournalListPage, PurchTableWorkflowDropDialog, VendPurchOrderJournal
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f356e02bea0f37686a75b85b059c643af92bb1c0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 95f1f6971e645a0aae8679c94a4bbd4cba946dc3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257410"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825414"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>审核和确认采购订单
 

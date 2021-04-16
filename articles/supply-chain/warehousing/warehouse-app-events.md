@@ -2,11 +2,9 @@
 title: 仓库应用事件
 description: 本主题介绍了作为批处理作业一部分的用于处理仓库应用事件消息的仓库应用事件处理。
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0bafcbd5306860cb80d6e813aabf83853a9011c1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d63cdea8917bed762bf8d970a408e5931aec48b7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248635"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837385"
 ---
 # <a name="warehouse-app-event-processing"></a>仓库应用事件处理
 
 [!include [banner](../includes/banner.md)]
 
-在 Supply Chain Management 中运行的批处理作业可以使用队列中的数据来处理仓库应用发出的事件，以根据需要对发出信号的事件做出反应。 此功能将相关事件添加到队列中，以响应工作人员使用该应用执行的某些类型的操作。 例如，当使用 **通过仓库应用创建和处理转移单** 功能时，如果系统在运行 **处理仓库应用事件** 批处理作业，将在后端创建和更新转移单标题和行。
+在 Supply Chain Management 中运行的批处理作业可以使用队列中的数据来处理仓库管理移动应用发出的事件，以根据需要对发出信号的事件做出反应。 此功能将相关事件添加到队列中，以响应工作人员使用该应用执行的某些类型的操作。 例如，当使用 *通过仓库应用创建和处理转移单* 功能时，如果系统在运行 **处理仓库应用事件** 批处理作业，将在后端创建和更新转移单标题和行。
 
 ## <a name="enable-the-process-warehouse-app-events-feature"></a>启用处理仓库应用事件功能
 
@@ -50,7 +48,7 @@ ms.locfileid: "5248635"
 
 ## <a name="query-warehouse-app-events"></a>查询仓库应用事件
 
-您可以通过转到 **仓库管理 \> 查询和报表 \> 移动设备日志 \> 仓库应用事件** 查看仓库应用生成的事件队列和事件消息。
+您可以通过转到 **仓库管理 \> 查询和报表 \> 移动设备日志 \> 仓库应用事件** 查看仓库管理移动应用生成的事件队列和事件消息。
 
 ## <a name="the-standard-event-queue-process"></a>标准事件队列流程
 

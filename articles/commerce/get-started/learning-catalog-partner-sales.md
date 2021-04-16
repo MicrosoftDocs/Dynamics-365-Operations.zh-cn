@@ -6,19 +6,18 @@ ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6a6c89c92aad398f8b86fc7fcb5ca4f8465aafff
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5d4fab0eefb8e5faf36649ec4e9b1e220d18bcc8
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240285"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5635449"
 ---
 # <a name="learning-catalog-for-commerce-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-commerce"></a>Dynamics 365 Commerce 的 Commerce Microsoft 合作伙伴销售和市场营销角色学习目录
 

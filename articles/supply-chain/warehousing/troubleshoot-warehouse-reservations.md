@@ -2,11 +2,9 @@
 title: 仓库管理中的预留疑难解答
 description: 此主题介绍如何解决在 Microsoft Dynamics 365 Supply Chain Management 中处理仓库预留时可能遇到的常见问题。
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,18 +15,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a9a5d20732a802fc58c392853af8334bbc07de73
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d0d73396772ed9e8397797d6685fb550d911303b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248707"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828098"
 ---
 # <a name="troubleshoot-reservations-in-warehouse-management"></a>仓库管理中的预留疑难解答
 
 [!include [banner](../includes/banner.md)]
 
 此主题介绍如何解决在 Microsoft Dynamics 365 Supply Chain Management 中处理仓库预留时可能遇到的常见问题。
+
+有关与批号和序列号登记相关的主题，请参阅[仓库批次和序列预留层次结构故障排除](troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md)。
 
 ## <a name="i-receive-the-following-error-message-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations"></a>我收到以下错误消息：“已创建了依赖预留的工作，因此无法删除这些预留。”
 
@@ -63,20 +63,6 @@ ms.locfileid: "5248707"
 ### <a name="issue-resolution"></a>解决问题
 
 此问题可能是由于未结工作引起的。 请完成工作或在不创建工作时接收。 请确保没有库存交易在实际预留数量。 例如，这些交易可能会打开质量订单、库存锁定记录或输出订单。
-
-## <a name="i-receive-the-following-error-message-to-be-assigned-to-wave-load-lines-must-specify-the-dimensions-above-the-location-to-assign-these-dimensions-reserve-and-recreate-the-load-line"></a>我收到以下错误消息：“要分配到波次，负荷行必须指定位置以上的维度。 要分配这些维度，请预留并重新创建负荷行。”
-
-### <a name="issue-description"></a>问题描述
-
-当您使用具有“批以上”预留层次结构的物料（**批处理号** 维度放在 **位置** 维度 *以上*）时，部分数量的 **负荷计划工作台** 页的 **发放到仓库** 命令将不起作用。 您将收到此错误消息，而且不会为部分数量创建工作。
-
-但是，如果您使用具有“批以下”预留层次结构的物料（**批处理号** 维度放在 **位置** 维度 *以下*）时，您可以从部分数量的 **负荷计划工作台** 页发放负荷。
-
-### <a name="issue-resolution"></a>解决问题
-
-此为有意行为。 如果您在预留层次结构中将维度放在 **位置** 维度以上，则必须在发放到仓库之前指定该维度。 Microsoft 已评估此问题，确定这是从负荷计划工作台发放到仓库期间存在的功能限制。 如果未指定一个或多个 **位置** 以上维度，部分数量无法发放。
-
-有关详细信息，请参阅[灵活的仓库级维度预留策略](flexible-warehouse-level-dimension-reservation.md)。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

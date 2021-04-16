@@ -2,11 +2,9 @@
 title: 分类帐日记帐类型
 description: 本主题描述了可以为财务日记帐设置的日记帐类型。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 135611ddf7e54a28a43f5f0795c993581d377550
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 34390014e0094518df45b1cc38e40ca4aa82de54
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248967"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823684"
 ---
 # <a name="ledger-journal-types"></a>分类帐日记帐类型
 

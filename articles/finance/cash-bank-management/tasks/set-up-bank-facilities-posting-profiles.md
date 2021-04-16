@@ -2,11 +2,9 @@
 title: 设置保函的银行设施和过帐模板
 description: 此任务会创建所需的银行融资和过帐模板，以便处理保函。
 author: kweekley
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankParameters, DefaultDashboard, BankDocumentSetup, BankDocumentPosting
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b72a412aaaf1c70b4414d00e99b923380f7dd86
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1147650944ba40d1c8054444c09db9c5ee97bde3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225289"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834612"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letters-of-guarantee"></a>设置保函的银行设施和过帐模板
 

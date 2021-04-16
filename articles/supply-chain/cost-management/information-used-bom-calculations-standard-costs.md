@@ -2,11 +2,9 @@
 title: 在使用标准成本进行的物料清单计算中使用的信息
 description: 物料清单 (BOM) 计算利用来自若干来源的数据，以便计算制造物料的标准成本。 这些来源包括与物料、物料清单工艺路线、间接成本计算公式和成本计算版本有关的信息。
 author: AndersGirke
-manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcGroup, BOMCalcTable, ProdParmBOMCalc
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3af80817e8b8735b149d41e3a9df4643c9b8b9f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9b5096ae7901a91f602f520e4e869ff67771c244
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205362"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842169"
 ---
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>在使用标准成本进行的物料清单计算中使用的信息
 

@@ -1,12 +1,10 @@
 ---
 title: 通过仓库应用创建转移单
-description: 本主题描述了如何通过仓库应用功能创建和处理转移单
+description: 本主题介绍了如何通过仓库管理移动应用创建和处理转移单
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 855b057706bc2f8315084a3cebec6f855a4d01e7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0238f46d28205fd6d0906030a1660ab3aa7225a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214122"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838362"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>通过仓库应用创建转移单
 
 [!include [banner](../includes/banner.md)]
 
-此功能允许仓库工作人员直接从仓库应用中创建和处理转移单。 仓库工作人员首先选择目标仓库，然后他们可以使用应用扫描一个或多个牌照来将牌照添加到转移单。 当仓库工作人员选择 **完成订单** 时，批处理作业将根据为这些牌照登记的现有库存创建所需的转移单和订单行。
+此功能允许仓库工作人员直接通过仓库管理移动应用创建和处理转移单。 工作人员首先选择目标仓库，然后他们可以使用应用扫描一个或多个牌照来将牌照添加到转移单。 当仓库工作人员选择 **完成订单** 时，批处理作业将根据为这些牌照登记的现有库存创建所需的转移单和订单行。
 
-## <a name="enable-the-create-transfer-orders-from-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>启用通过仓库应用创建转移单功能
+## <a name="enable-the-create-transfer-orders-from-the-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>启用通过仓库应用创建转移单功能
 
 只有在系统上启用了此功能及其先决条件后才能使用它。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用。
 
@@ -50,8 +48,8 @@ ms.locfileid: "5214122"
 1. 选择 **新建** 以添加新的菜单项。 然后，进行以下设置以开始使用：
 
     - **菜单项名称** - 分配一个名称，因为它应该显示在 Supply Chain Management 中。
-    - **标题** - 分配菜单名称，因为它应该在仓库应用中显示给工作人员。
-    - **模式** - 设置为 *间接*（此仓库应用不会创建工作）。
+    - **标题** - 分配菜单名称，因为它应该在仓库管理移动应用中显示给工作人员。
+    - **模式** - 设置为 *间接*（此菜单项不会创建工作）。
     - **活动代码** - 设置 *通过牌照创建转移单*，以使仓库工人能够基于一个或多个扫描的牌照创建转移单。
 
 1. 使用 **转移单行创建策略** 设置，以控制此菜单项将如何创建转移单行。 将根据针对扫描的牌照登记的现有库存创建/更新这些行。 选择以下值之一：
@@ -74,7 +72,7 @@ ms.locfileid: "5214122"
 
 ## <a name="create-a-transfer-order-based-on-license-plates"></a>根据牌照创建转移单
 
-仓库应用具有根据牌照创建转移单的简单过程。 为此，工作人员将使用仓库应用执行以下操作：
+仓库管理移动应用具有根据牌照创建转移单的简单流程。 为此，工作人员将使用仓库管理移动应用执行以下操作：
 
 1. 创建转移单并确定目标仓库。
 1. 确定要装运的每个牌照。
@@ -258,9 +256,9 @@ ms.locfileid: "5214122"
 
 ### <a name="inquire-the-warehouse-app-events"></a><a name="#inquire-the-warehouse-app-events"></a>查询仓库应用事件
 
-您可以通过转到 **仓库管理 \> 查询和报表 \> 移动设备日志 \> 仓库应用事件** 查看仓库应用生成的事件队列和事件消息。
+您可以通过转到 **仓库管理 \> 查询和报表 \> 移动设备日志 \> 仓库应用事件** 查看仓库管理移动应用生成的事件队列和事件消息。
 
-*创建转移单* 事件消息将收到状态 *等待*，这意味着 **处理仓库应用事件** 批处理作业将不会接收并处理事件消息。 一旦事件消息更新为状态 *已排队*，批处理作业将处理事件。 这将与创建 *完成转移单* 事件（当工作人员在仓库应用上选择 **完成订单** 按钮时）同时发生。 当 *创建转移单* 事件消息已处理时，状态将更新为 *已完成* 或 *失败*。 当 *完成转移单* 状态更新为 *已完成* 时，所有相关事件将从队列中删除。
+*创建转移单* 事件消息将收到状态 *等待*，这意味着 **处理仓库应用事件** 批处理作业将不会接收并处理事件消息。 一旦事件消息更新为状态 *已排队*，批处理作业将处理事件。 这将与创建 *完成转移单* 事件（当工作人员在仓库管理移动应用上选择 **完成订单** 按钮时）同时发生。 当 *创建转移单* 事件消息已处理时，状态将更新为 *已完成* 或 *失败*。 当 *完成转移单* 状态更新为 *已完成* 时，所有相关事件将从队列中删除。
 
 因为在消息更新为状态 *已排队* 之前，批处理作业将不会处理创建转移单数据 **仓库应用事件**，因此您将需要查找请求的转移单号作为 **标识符** 字段的一部分。 **标识符** 字段位于 **仓库应用事件** 页面的顶部。
 
@@ -276,11 +274,11 @@ ms.locfileid: "5214122"
 
 在此方案中，将发生以下事件：
 
-1. 您使用仓库应用选择了一个使用活动代码 **通过牌照创建转移单** 的菜单项。
+1. 您使用仓库管理移动应用选择了一个使用活动代码 **通过牌照创建转移单** 的菜单项。
 1. 该应用提示您选择转移单的目标仓库。 源仓库始终是您当前以工作人员身份登录的仓库。
 1. 在选择目标仓库时，系统将为即将生成的转移单预留一个 ID 号（基于在您的系统上定义的转移单号顺序），但尚未创建转移单。
 1. 当您扫描包含应移至新仓库的现有库存的牌照 *LP10* 时，**仓库应用事件** 已添加到事件队列中，以便稍后处理。 仓库事件包含有关扫描的消息详细信息，包括预期的转移单号。
-1. 在仓库应用上，当选择 **完成订单** 按钮时，将创建一个新的仓库应用事件 **完成转移单**，并将相关现有事件 **创建转移单** 的状态更改为 **已排队**。
+1. 在仓库管理移动应用上，当选择 **完成订单** 按钮时，将创建一个新的仓库应用事件 **完成转移单**，并将相关现有事件 **创建转移单** 的状态更改为 **已排队**。
 1. 在后端，**处理仓库应用事件批处理作业** 接收 **已排队** 事件，并收集与扫描的牌照相关的现有库存。 根据现有库存创建实际转移单记录和关联的行。 在配置 *发放和装运确认* 并针对 **牌照引导** 战略的行链接牌照后，该作业还使用值填充了转移单的 **出站装运策略** 字段。
 1. 根据转移单行 **出站装运策略** 字段值，**自动发放转移单批处理作业** 查询现在将转移单发放到装运仓库。 由于使用的 **波次模板**、**工作模板** 和 **位置指令** 设置，工作会自动处理，**负载状态** 会更新为 *已负载*。
 1. 将针对负载执行 **处理出站装运批处理作业**，从而装运转移单并生成装运前通知 (ASN)。
@@ -294,13 +292,13 @@ ms.locfileid: "5214122"
 
 必须启用功能 *通过仓库应用创建和处理转移单*。 有关详细信息，请参阅[启用通过仓库应用创建转移单](#enable-create-transfer-order-from-warehouse-app)。
 
-### <a name="warehouse-app-processes"></a>仓库应用过程
+### <a name="warehouse-management-mobile-app-processes"></a>仓库管理移动应用流程
 
 #### <a name="why-cant-i-see-the-menu-button-complete-order"></a>为什么看不到菜单按钮“完成订单”？
 
 您必须为转移单分配至少一个牌照。
 
-#### <a name="can-several-warehouse-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>多个仓库应用用户是否可以同时向同一转移单添加牌照？
+#### <a name="can-several-warehouse-management-mobile-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>多个仓库管理移动应用用户是否可以同时向同一转移单添加牌照？
 
 是，多个仓库工作人员可以将牌照扫描到同一转移单中。
 
@@ -312,11 +310,11 @@ ms.locfileid: "5214122"
 
 否，您不能向具有 **完成转移单** 仓库应用事件的转移单添加更多牌照。
 
-#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>如果尚未在后端系统中创建订单，如何通过仓库应用中的“选择转移单”按钮找到要使用的现有转移单？
+#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>如果尚未在后端系统中创建订单，如何通过仓库管理移动应用中的“选择转移单”按钮找到要使用的现有转移单？
 
 目前，您无法在应用中查找转移单，但可以在 **仓库应用事件** 页面上找到转移单号。 有关详细信息，请参阅[查询仓库应用事件](#inquire-the-warehouse-app-events)。
 
-#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-app"></a>我是否可以从仓库应用中手动选择要使用的转移单号？
+#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>我是否可以从仓库管理移动应用中手动选择要使用的转移单号？
 
 仅支持通过编号规则自动生成的转移单号。
 

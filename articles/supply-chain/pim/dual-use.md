@@ -2,11 +2,9 @@
 title: 两用商品
 description: 本主题说明如何跟踪被识别为两用商品的产品，存储每个相关产品的证书编号和目标国家/地区，以及在相关发票、装箱单和/或销售订单上打印有效的证书编号。
 author: dasani-madipalli
-manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: a6cc730f8d672d906072a9b97b737dbdea9faf2d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15e8696b2bfa9f1df3cecd2d98b9ad2f6c5d6000
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243193"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829466"
 ---
 # <a name="dual-use-goods"></a>两用商品
 

@@ -2,11 +2,9 @@
 title: 云和边缘缩放单元的仓库订单
 description: 本主题提供有关仓库订单功能的信息，它是仓库缩放单元工作负荷的一部分。
 author: perlynne
-manager: tfeyr
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWarehouseOrderLine, WHSWarehouseReceiptEntry, PurchTable
 audience: Application User
@@ -19,12 +17,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9102f53ab1b63d08b8bba7b0ae505416ec5a83fd
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: f2401102ab44f5c24f5cd6f545f30438db0a36cf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556354"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836678"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的仓库订单
 
@@ -38,7 +36,7 @@ ms.locfileid: "5556354"
 
 *仓库订单* 是为支持中心和缩放单元仓库部署而创建的一种订单。 当您在缩放单元上运行仓库工作负荷时，您可以使用它们来接收库存。 它们当前只能与采购订单一起使用。
 
-仓库订单用作仓库管理处理的一部分，如在处理入站采购订单期间使用仓库应用登记实际现有库存时。 仓库订单的创建是 *发放到仓库* 流程的一部分，可用于指定缩放单位仓库的采购订单，以及为使用仓库管理流程启用的项目。
+仓库订单用作仓库管理处理的一部分，例如在处理入库采购订单期间使用仓库管理移动应用登记实际现有库存时。 仓库订单的创建是 *发放到仓库* 流程的一部分，可用于指定缩放单位仓库的采购订单，以及为使用仓库管理流程启用的项目。
 
 > [!IMPORTANT]
 > 仓库订单仅在将[仓库管理工作负荷用于云和边缘缩放单元](cloud-edge-workload-warehousing.md)的部署中可用。
@@ -70,7 +68,7 @@ ms.locfileid: "5556354"
 
 ## <a name="monitor-a-warehouse-order"></a>监视仓库订单
 
-在 **仓库订单行** 视图中，您可以通过查看 **要接收的剩余数量** 列中的值来监视入站接收的进度。 要查看与使用仓库应用完成的工作相关的详细信息，请执行以下步骤之一。
+在 **仓库订单行** 视图中，您可以通过查看 **要接收的剩余数量** 列中的值来监视入站接收的进度。 若要查看与使用仓库管理移动应用完成的工作相关的详细信息，请执行以下步骤之一。
 
 - 转到 **仓库管理 \> 查询和报表 \> 仓库订单行**，使用筛选器查找您要查找的行。
 - 转到 **采购 \> 采购订单 \> 所有采购订单**，打开相关的采购订单。 在 **采购订单行** 部分，选择一个或多个行，然后在工具栏上选择 **仓库 \> 仓库收货条目**。

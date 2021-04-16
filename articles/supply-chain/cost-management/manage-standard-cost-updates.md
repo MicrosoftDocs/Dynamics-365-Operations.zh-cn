@@ -2,11 +2,9 @@
 title: 管理标准成本更新
 description: 可以使用两种不同的方法管理对标准成本数据的更新 - 单版本方法或双版本方法。
 author: AndersGirke
-manager: tfehr
 ms.date: 01/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventItemPrice, InventParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: fc4ae40e9740ce76e79b76c2bff2c690568abff2
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: dfe55134a9a9f3c40ebddcafd1d9e481976134ec
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500590"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832338"
 ---
 # <a name="manage-standard-cost-updates"></a>管理标准成本更新
 

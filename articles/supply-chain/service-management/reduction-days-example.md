@@ -2,11 +2,9 @@
 title: 缩减天数示例
 description: 缩减天数示例。
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df528bf7e95ee7ea74a792894b5e1c2f50c57730
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 90a2efff0add508ddb3d750bb3ca27ea35bf113a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234745"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836054"
 ---
 # <a name="reduction-days-example"></a>缩减天数示例 
 

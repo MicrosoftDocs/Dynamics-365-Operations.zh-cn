@@ -2,11 +2,9 @@
 title: 创建新的贸易协议
 description: 该过程会显示如何创建贸易协议，您可在其中登记您与特定客户达成的新产品销售价格。
 author: omulvad
-manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TradeNonStockedConversion, TradeNonStockedConversionChangeWizard, TradeNonStockedConversionCheckWorksheet, TradeNonStockedConversionWizard, TradeNonStockedRegister
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c4ac436b57b6010a5d5b3759d2ccf1c4af95446
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ad1221bb57aea4c93cb60fc29caec2d3b41798f9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208127"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836390"
 ---
 # <a name="create-a-new-trade-agreement"></a>创建新的贸易协议
 

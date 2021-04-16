@@ -2,11 +2,9 @@
 title: 收货仓库工序疑难解答
 description: 此主题介绍如何解决在 Microsoft Dynamics 365 Supply Chain Management 中处理收货仓库工序时可能遇到的常见问题。
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6875c3c644b9993a384ba4d8623640536d7307e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250874"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828218"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>收货仓库工序疑难解答
 
@@ -65,5 +63,22 @@ Microsoft 已评估此问题，确定了这是一项功能限制。 当前，混
 
 有关详细信息，请参阅[针对采购订单过帐登记的产品数量](inbound-load-handling.md#post-registered-quantities)。
 
+## <a name="when-i-register-inbound-orders-i-receive-the-following-error-message-the-quantity-is-not-valid"></a>当登记入库订单时，我收到以下错误消息：“数量无效。”
+
+### <a name="issue-description"></a>问题描述
+
+如果在用于登记入库订单的移动设备菜单项中，**牌照分组策略** 字段设置为 *用户定义*，您将收到一条错误消息（“数量无效”），并且无法完成登记。
+
+### <a name="issue-cause"></a>问题原因
+
+当 *用户定义* 用作牌照分组策略时，系统将传入库存拆分为单独的牌照，如单位序列组所示。 如果批号或序列号用于跟踪将收货的物料，必须按登记的牌照指定每个批次或序列的数量。 如果为牌照指定的数量超过针对当前维度仍必须收货的数量，您将收到错误消息。
+
+### <a name="issue-resolution"></a>解决问题
+
+使用 **牌照分组策略** 字段设置为 *用户定义* 的移动设备菜单项登记物料时，系统可能会要求您确认或输入牌照编号、批号或序列号。
+
+在牌照确认页面上，系统将显示为当前牌照分配的数量。 在批次或序列确认页面上，系统将显示在当前牌照上仍必须收货的数量。 它还将包含一个字段，您可以在其中输入为牌照和批号或序列号组合登记的数量。 在这种情况下，请确保为牌照登记的数量不超过仍必须收货的数量。
+
+或者，如果在入库订单登记时生成了太多牌照，**牌照分组策略** 字段的值可以更改为 *牌照分组*，可以向物料分配新的单位序列组或者可以停用单位序列组的 **牌照分组** 选项。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

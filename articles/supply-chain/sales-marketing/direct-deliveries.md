@@ -2,11 +2,9 @@
 title: 直接交货
 description: 本文提供有关直接交运的信息。 直接交运是直接从供应商发送到您的客户的交货。
 author: ShylaThompson
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchCreateFromSalesOrder, SalesTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20bf794a6ba2f0759b34afdefdd5fa65e3ad6b68
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 96ac004f2797cce32269726e54e0bcb0abc3376d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224412"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840597"
 ---
 # <a name="direct-deliveries"></a>直接交货
 

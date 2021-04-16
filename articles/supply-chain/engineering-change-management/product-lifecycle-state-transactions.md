@@ -2,11 +2,9 @@
 title: 产品生命周期状态和交易
 description: 此主题说明在工程产品的生命周期中如何控制每个生命周期状态允许的交易。
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 9c6ba9831b84e1220ee158d8186675107b490124
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 421fae6eab20eea50b9ce677a1ae7993add6cb93
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266167"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842049"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>产品生命周期状态和交易
 

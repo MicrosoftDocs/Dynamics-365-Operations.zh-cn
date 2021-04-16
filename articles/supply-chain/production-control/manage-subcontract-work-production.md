@@ -2,11 +2,9 @@
 title: 管理生产中的转包工作
 description: 此主题说明如何在 Dynamics 365 Supply Chain Management 中管理已转包工序。 换言之，说明供应商如何管理分配给资源的生产工序。
 author: cvocph
-manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup, ProdBOMVendorListPagePreviewPane, ProdBOMVendor
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66aed16cc3e2c3b33dfd40982d2211816c4e5047
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 11728694565b10bf0336671f6c1b5f43cbcadf78
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245989"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825811"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>管理生产中的转包工作
 

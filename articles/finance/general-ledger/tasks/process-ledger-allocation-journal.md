@@ -2,11 +2,9 @@
 title: 处理分类帐分配日记帐
 description: 此主题介绍如何在 Dynamics 365 Finance 中处理分配请求。
 author: aprilolson
-manager: AnnBe
 ms.date: 07/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAllocationRequest, LedgerJournalTable, LedgerJournalTransAllocation
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a52a5ce2d789757a11c9e443c7f25058bd9d8a91
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e89aa21f988d50bc1a922e053be0ff2dcd196268
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222327"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834400"
 ---
 # <a name="process-ledger-allocation-journal"></a>处理分类帐分配日记帐
 

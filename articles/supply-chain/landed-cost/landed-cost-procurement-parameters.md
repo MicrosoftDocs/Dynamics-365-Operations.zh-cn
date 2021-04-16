@@ -2,7 +2,6 @@
 title: 登陆成本的采购参数
 description: 本主题介绍使用登陆成本模块时如何设置相关的采购参数。
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/09/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 49e046a1437917cfa866f690511789496fac2c53
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: df91fcb97794be32924707fcecf2b5fb34844596
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500734"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833921"
 ---
 # <a name="procurement-and-sourcing-parameters-for-landed-cost"></a>登陆成本的采购参数
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 **采购参数** 页上有一些设置，这些设置在您使用 **登陆成本** 模块时尤为重要。 使用从 **采购参数** 页打开的 **更新订单行** 对话框来指定在对采购订单头进行更改时是否应自动更新采购订单行。
 

@@ -2,11 +2,9 @@
 title: 对现有产品启用更改管理
 description: 本主题说明如何为现有产品启用更改管理。 另外还介绍了启用更改管理的能力受到限制的情况。
 author: t-benebo
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 8b9f34f5980937da62610d9668a95816ba6054ef
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: be7b17c1049f60379764c5424422ff1ac6ee1770
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500854"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830092"
 ---
 # <a name="enable-change-management-on-existing-products"></a>对现有产品启用更改管理
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题说明如何为现有产品启用更改管理。 另外还介绍了启用更改管理的能力受到限制的情况。
 
